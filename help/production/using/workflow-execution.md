@@ -6,8 +6,8 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 100%
 
@@ -15,11 +15,13 @@ ht-degree: 100%
 
 # Exécution des workflows{#workflow-execution}
 
+![](../../assets/v7-only.svg)
+
 La section ci-dessous présente des informations sur les problèmes courants liés à l’exécution des workflows et sur la manière de les résoudre.
 
 Pour plus d&#39;informations sur les workflows, consultez les sections suivantes :
 
-* [A propos des workflows](../../workflow/using/about-workflows.md)
+* [À propos des workflows](../../workflow/using/about-workflows.md)
 * [Démarrer un workflow](../../workflow/using/starting-a-workflow.md)
 * [Cycle de vie d&#39;un workflow](../../workflow/using/workflow-life-cycle.md)
 * [Bonnes pratiques relatives à l’utilisation des workflows](../../workflow/using/workflow-best-practices.md)
@@ -108,7 +110,7 @@ Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
    >Remplacez **`<instancename>`** par le nom de votre instance (production, développement, etc.). Le nom de l’instance est identifié via les fichiers de configuration :
    >`[path of application]nl6/conf/config-<instancename>.xml`
 
-   Pour plus d&#39;informations sur le redémarrage des modules, reportez-vous à [cette section](../../production/using/usual-commands.md#module-launch-commands).
+   Pour plus d&#39;informations sur le redémarrage des modules, consultez [cette section](../../production/using/usual-commands.md#module-launch-commands).
 
 ## Workflow en échec {#failed-workflow}
 

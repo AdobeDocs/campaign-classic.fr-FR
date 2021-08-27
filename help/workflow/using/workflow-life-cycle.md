@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 
 ---
 
 # Cycle de vie d&#39;un workflow {#workflow-life-cycle}
+
+![](../../assets/common.svg)
 
 Le cycle de vie d&#39;un workflow comporte trois grandes étapes.
 
@@ -41,4 +43,4 @@ Le workflow est donc démarré et attend la décision d&#39;un opérateur du gro
 
 La gestion des opérateurs est présentée dans cette [section](../../platform/using/access-management.md).
 
-Pour plus d&#39;informations sur la manière de surveiller vos workflows, voir [cette section](../../workflow/using/monitoring-workflow-execution.md).
+Pour plus d&#39;informations sur la manière de surveiller vos workflows, voir [cette section](monitoring-workflow-execution.md).

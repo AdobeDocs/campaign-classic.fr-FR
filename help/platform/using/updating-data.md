@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Mise à jour de données{#updating-data}
+
+![](../../assets/common.svg)
 
 Les informations attachées au profil d’un destinataire peuvent être mises à jour manuellement ou automatiquement.
 

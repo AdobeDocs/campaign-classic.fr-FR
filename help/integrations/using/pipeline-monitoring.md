@@ -5,14 +5,16 @@ description: Configuration de l'intégration
 audience: integrations
 content-type: reference
 exl-id: 84399496-33fd-4936-85e7-32de8503740f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
 ---
 
 # Surveillance du pipeline {#pipeline-monitoring}
+
+![](../../assets/common.svg)
 
 Le service web de statut [!DNL pipelined] fournit des informations sur le statut du processus [!DNL pipelined].
 

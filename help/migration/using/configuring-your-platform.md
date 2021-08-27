@@ -6,14 +6,16 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 100%
 
 ---
 
 # Configurer votre plateforme{#configuring-your-platform}
+
+![](../../assets/v7-only.svg)
 
 Certaines évolutions majeures d&#39;Adobe Campaign v7 nécessitent un paramétrage pour en assurer le bon fonctionnement. Ces paramètres peuvent être nécessaires avant ou après l&#39;exécution de la migration. Les évolutions concernées et leur mode de paramétrage sont présentés dans cette section.
 
@@ -37,7 +39,7 @@ Dans le cadre d&#39;une migration vers Adobe Campaign v7, les éléments suiva
 
    Si vous souhaitez utiliser le mode « multi timezone », consultez la section [Fuseaux horaires](../../migration/using/general-configurations.md#time-zones).
 
-   Si vous utilisez Oracle comme moteur de base de données, vérifiez que les fichiers de fuseaux horaires Oracle sont bien synchronisés entre le serveur applicatif et le serveur de base. Voir à ce propos la section [Oracle](../../migration/using/general-configurations.md#oracle).
+   Si vous utilisez Oracle comme moteur de base de données, vérifiez que les fichiers de fuseaux horaires Oracle sont bien synchronisés entre le serveur applicatif et le serveur de base. Pour plus d&#39;informations, consultez la section [Oracle](../../migration/using/general-configurations.md#oracle).
 
 * Zones de sécurité
 
@@ -77,7 +79,7 @@ Après l&#39;exécution du **postupgrade**, les éléments suivants doivent êtr
 
 * Syntaxe
 
-   Si vous rencontrez des erreurs, lors du postupgrade, liées à la syntaxe SQLData, vous devez temporairement activer l&#39;option **allowSQLInjection** dans le fichier **serverConf.xml**, le temps de réécrire le code. Une fois le code adapté, n&#39;oubliez pas de réactiver la sécurité. Voir à ce propos la section [SQLData](../../migration/using/general-configurations.md#sqldata).
+   Si vous rencontrez des erreurs, lors du postupgrade, liées à la syntaxe SQLData, vous devez temporairement activer l&#39;option **allowSQLInjection** dans le fichier **serverConf.xml**, le temps de réécrire le code. Une fois le code adapté, n&#39;oubliez pas de réactiver la sécurité. Pour plus d&#39;informations, consultez la section [SQLData](../../migration/using/general-configurations.md#sqldata).
 
 * Conflits
 
@@ -101,9 +103,9 @@ Après l&#39;exécution du **postupgrade**, les éléments suivants doivent êtr
 
    Selon le type d&#39;applications Web et leur configuration, vous devez effectuer des manipulations complémentaires pour en assurer le bon fonctionnement.
 
-   Voir la section [Applications Web](../../migration/using/general-configurations.md#web-applications).
+   Pour plus d&#39;informations, consultez la section [Applications Web](../../migration/using/general-configurations.md#web-applications).
 
-   Dans le cadre d&#39;une migration depuis une plateforme v5.11, des paramétrages additionnels doivent être réalisés. Voir à ce propos la section [Applications Web](../../migration/using/specific-configurations-in-v5-11.md#web-applications).
+   Dans le cadre d&#39;une migration depuis une plateforme v5.11, des paramétrages additionnels doivent être réalisés. Pour plus d&#39;informations, consultez la section [Applications Web](../../migration/using/specific-configurations-in-v5-11.md#web-applications).
 
 * Zones de sécurité
 
@@ -111,11 +113,11 @@ Après l&#39;exécution du **postupgrade**, les éléments suivants doivent êtr
 
 * Schémas
 
-   Dans Red Hat, vous pouvez rencontrer des erreurs lors de l&#39;édition de certains schémas. Voir à ce propos la section [Red Hat](../../migration/using/general-configurations.md#red-hat).
+   Dans Red Hat, vous pouvez rencontrer des erreurs lors de l&#39;édition de certains schémas. Pour plus d&#39;informations, consultez la section [Red Hat](../../migration/using/general-configurations.md#red-hat).
 
 * Workflows
 
-   Si vous effectuez une migration à partir d&#39;une plateforme v5.11, vous devez contrôler le répertoire d&#39;exécution des workflows. Voir à ce propos la section [Workflows](../../migration/using/specific-configurations-in-v5-11.md#workflows).
+   Si vous effectuez une migration à partir d&#39;une plateforme v5.11, vous devez contrôler le répertoire d&#39;exécution des workflows. Pour plus d&#39;informations, consultez la section [Workflows](../../migration/using/specific-configurations-in-v5-11.md#workflows).
 
 * Effectuer un tracking
 
@@ -123,8 +125,8 @@ Après l&#39;exécution du **postupgrade**, les éléments suivants doivent êtr
 
 * Page d&#39;accueil 
 
-   Dans le cadre d&#39;une migration depuis une plateforme v6.02, vous pouvez définir des paramètres additionnels afin de conserver votre ancienne page d&#39;accueil v6.02. Voir à ce propos la section [Ergonomie : page d&#39;accueil et navigation](../../migration/using/specific-configurations-in-v6-02.md#user-friendliness--home-page-and-navigation).
+   Dans le cadre d&#39;une migration depuis une plateforme v6.02, vous pouvez définir des paramètres additionnels afin de conserver votre ancienne page d&#39;accueil v6.02. Pour plus d&#39;informations, consultez la section [Ergonomie : page d&#39;accueil et navigation](../../migration/using/specific-configurations-in-v6-02.md#user-friendliness--home-page-and-navigation).
 
 * Interaction
 
-   Si vous utilisez **Interaction**, vous devez ajuster les paramètres après la migration. Voir à ce propos la section [Interaction](../../migration/using/general-configurations.md#interaction).
+   Si vous utilisez **Interaction**, vous devez ajuster les paramètres après la migration. Pour plus d&#39;informations, consultez la section [Interaction](../../migration/using/general-configurations.md#interaction).

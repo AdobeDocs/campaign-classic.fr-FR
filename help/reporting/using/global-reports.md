@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 100%
 
 ---
 
 # Rapports globaux {#global-reports}
+
+![](../../assets/common.svg)
 
 Ces rapports portent sur l&#39;activité de l&#39;ensemble des données de la base. Pour accéder au tableau de bord des rapports, positionnez-vous sur l&#39;onglet **[!UICONTROL Rapports]**.
 
@@ -41,7 +43,7 @@ Cliquez sur les noms des rapports pour les afficher. Par défaut, les rapports s
 * **[!UICONTROL Statistiques de diffusion]**: voir [Statistiques de diffusion](#delivery-statistics).
 * **[!UICONTROL Répartition des ouvertures]** : voir [Répartition des ouvertures](#breakdown-of-opens).
 
-## Débit des diffusions (Delivery throughput){#delivery-throughput}
+## Débit des diffusions {#delivery-throughput}
 
 Ce rapport contient les informations relatives au débit de diffusion de l&#39;ensemble de la plate-forme sur une période donnée. Pour mesurer la vitesse de diffusion des messages, les critères sont le nombre de messages diffusés par heure et la taille des messages, en bits par seconde. Dans l&#39;exemple ci-dessous, le premier graphique indique, en bleu, les diffusions envoyées avec succès et, en orange, le nombre de messages en erreur.
 
@@ -61,7 +63,7 @@ Les options disponibles sont les suivantes :
 * **[!UICONTROL Clics]** : Nombre total de clics sur les liens des diffusions. Les clics sur les liens de désinscription et de page miroir ne sont pas pris en compte.
 * **[!UICONTROL Transactions]** : nombre total de transactions suite à la réception d&#39;un message. Pour qu&#39;une transaction soit comptabilisée, une balise de webtracking de type transaction doit être insérée sur la page web correspondante. Le paramétrage du webtracking est présenté dans [cette section](../../configuration/using/about-web-tracking.md).
 
-## Echecs et retours {#non-deliverables-and-bounces}
+## Échecs et bounces {#non-deliverables-and-bounces}
 
 Ce rapport présente la répartition des messages en échec et la répartition des échecs par domaine Internet.
 
@@ -207,7 +209,7 @@ Les indicateurs utilisés sont les suivants :
 * **[!UICONTROL Ouvertures]** : Nombre total de messages ouverts par les personnes à qui le message a été transféré (via le bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**). Cette valeur correspond au nombre de fois où la page miroir a été affichée. Les messages ouverts par les destinataires cibles de la diffusion ne sont pas pris en compte dans cette valeur.
 * **[!UICONTROL Partages]** : Nombre total de messages partagés sur les réseaux sociaux. Cette valeur correspond au nombre total de clics effectués sur l&#39;icône correspondante du bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**.
 
-## Systèmes d&#39;exploitation {#operating-systems}
+## Systèmes d’exploitation {#operating-systems}
 
 Ce rapport présente la répartition entre les systèmes d&#39;exploitation utilisés par les destinataires des diffusions, pour la période sélectionnée.
 

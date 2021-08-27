@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 
 ---
 
 # Interaction et la gestion des offres{#interaction-and-offer-management}
+
+![](../../assets/v7-only.svg)
 
 Interaction permet de réagir en temps réel lors d&#39;une interaction avec un contact (un client ou une cible donnée) en lui proposant une ou plusieurs offres adaptées. Il peut s&#39;agir par exemple d&#39;un simple message de communication, d&#39;une promotion sur un ou plusieurs produits ou d&#39;un service.
 

@@ -6,14 +6,16 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
 
 ---
 
 # Avant de commencer la migration{#before-starting-migration}
+
+![](../../assets/v7-only.svg)
 
 >[!NOTE]
 >

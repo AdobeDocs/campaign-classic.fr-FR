@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Téléchargement Web{#web-download}
+
+![](../../assets/common.svg)
 
 L&#39;activité de type **Téléchargement Web** permet de lancer le téléchargement d&#39;un fichier sur une URL explicite, un compte externe ou une instance Adobe Campaign. Le protocole utilisé est le HTTP. Il peut s&#39;agir d&#39;un téléchargement de type GET ou POST.
 
@@ -61,7 +63,7 @@ L&#39;activité de type **Téléchargement Web** permet de lancer le télécharg
 
    ![](assets/download_web_edit_advanced.png)
 
-   L&#39;option **[!UICONTROL Traiter les erreurs]** est présentée dans la section [Traiter les erreurs](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+   L&#39;option **[!UICONTROL Traiter les erreurs]** est présentée dans la section [Traiter les erreurs](monitoring-workflow-execution.md#processing-errors).
 
 ## Paramètres de sortie {#output-parameters}
 

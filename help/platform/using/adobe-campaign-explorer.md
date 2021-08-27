@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f,f91d69a4-b794-40f0-b450-de862d7333e2
-source-git-commit: bdc19e80744643097463e4e721b05a2ac8e51a2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Utilisation de l’explorateur Adobe Campaign {#using-adobe-campaign-explorer}
+
+![](../../assets/common.svg)
 
 L&#39;explorateur Adobe Campaign est accessible à partir de l&#39;icône de la barre d&#39;outils. Il permet d&#39;accéder à l&#39;ensemble des fonctions d&#39;Adobe Campaign, aux écrans de paramétrage et à une vue plus détaillée de certains éléments de la plate-forme.
 
@@ -68,11 +70,11 @@ Découvrez comment définir des permissions sur les dossiers [dans cette section
 
 ## Résolution d&#39;écran {#screen-resolution}
 
-Pour une navigation et une convivialité optimales, Adobe recommande l&#39;utilisation d&#39;une résolution d&#39;écran minimale de 1 600x900 pixels.
+Pour une navigation et une convivialité optimales, Adobe recommande l&#39;utilisation d&#39;une résolution d&#39;écran minimale de 1 600 x 900 pixels.
 
 >[!CAUTION]
 >
->Les résolutions inférieures à 1 600 x 900 pixels ne sont pas prises en charge par Adobe Campaign.
+>Les résolutions inférieures à 1 600 x 900 pixels ne sont pas prises en charge par Adobe Campaign.
 
 Dans l’espace de travail de l’**[!UICONTROL Explorateur]**, si certaines parties de la zone **[!UICONTROL Détails]** semblent tronquées, développez-la à l’aide de la flèche située en haut de la zone ou cliquez sur le bouton **[!UICONTROL Agrandir]**.
 

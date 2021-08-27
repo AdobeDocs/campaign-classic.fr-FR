@@ -5,8 +5,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -14,11 +14,13 @@ ht-degree: 100%
 
 # Tracker et suivre vos diffusions {#track-and-monitor}
 
+![](../../assets/common.svg)
+
 Vous avez cliqué sur le bouton **Envoyer** ? Voyons maintenant ce qui se passe. Une fois la diffusion envoyée, Adobe Campaign vous permet de conserver une trace des messages envoyés et de découvrir la réaction des destinataires face à votre diffusion. Vous pourrez ainsi améliorer les prochains envois et optimiser vos campagnes suivantes.
 
 ## Surveillance des diffusions {#monitoring-deliveries}
 
-Pour contrôler vos campagnes, vous devez vérifier que le message a bien été délivré à vos destinataires.
+Pour contrôler vos campagnes, vous devez vérifier que le message a bien été diffusé à vos destinataires.
 
 Depuis le tableau de bord des diffusions de Campaign, vous pouvez vérifier les messages traités et consulter les logs d’audit de diffusion.
 Vous pouvez également contrôler le statut des messages dans les logs de diffusion. [En savoir plus](about-delivery-monitoring.md).
@@ -29,7 +31,7 @@ Que faire si les diffusions ne sont pas envoyées et restent dans un état **En 
 Vérifiez que vos modules mta@instance sont lancés sur vos serveurs MTA et démarrez le module MTA si nécessaire. [En savoir plus](../../production/using/administration.md).
 
 * La diffusion peut utiliser une affinité qui n&#39;a pas été configurée sur l&#39;instance d&#39;envoi.
-Conseil : vérifiez la configuration relative à la gestion du trafic (affinité IP). Voir à ce propos la section Contrôle du trafic SMTP sortant.
+Conseil : vérifiez la configuration relative à la gestion du trafic (affinité IP). Pour plus d&#39;informations, consultez la section Contrôle du trafic SMTP sortant.
 
 >[!NOTE]
 >
@@ -45,7 +47,7 @@ Pour plus d&#39;informations, reportez-vous à la section [Configuration du trac
 
 ## Performances des diffusions {#delivery-performances}
 
-Pour mesurer la vitesse à laquelle les messages sont diffusés, vous pouvez contrôler le débit de diffusion. Les critères constituent le nombre de messages diffusés par heure et la taille des messages, en bits par seconde. Voir à ce propos la section [Débit de diffusion](../../reporting/using/global-reports.md#delivery-throughput).
+Pour mesurer la vitesse à laquelle les messages sont diffusés, vous pouvez contrôler le débit de diffusion. Les critères constituent le nombre de messages diffusés par heure et la taille des messages, en bits par seconde. Pour plus d&#39;informations, consultez la section [Débit de diffusion](../../reporting/using/global-reports.md#delivery-throughput).
 
 **Conseils** :
 

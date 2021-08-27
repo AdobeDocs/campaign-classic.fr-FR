@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 100%
 
 ---
 
 # Diffusion{#delivery}
+
+![](../../assets/common.svg)
 
 Une activité de type **Diffusion** permet de créer une action de diffusion. Elle peut être construite à partir des éléments entrants.
 
@@ -81,7 +83,7 @@ Pour la paramétrer, éditez l&#39;activité et renseignez les options de la dif
    * **[!UICONTROL Envoyer un bon à tirer (BAT)]** : cette option permet d&#39;envoyer un BAT de la diffusion. Cette action équivaut à sélectionner le bouton **[!UICONTROL Envoyer un BAT]** dans la barre d&#39;outils d&#39;une diffusion avec **Delivery**.
    * **[!UICONTROL Préparer et démarrer]** : cette option lance le processus d&#39;analyse complet (calcul de la cible et préparation du contenu) et envoie la diffusion. Cette action équivaut à sélectionner les options **[!UICONTROL Diffuser dès que possible]**, **[!UICONTROL Analyser]**, puis **[!UICONTROL Confirmer l&#39;envoi]** lors de l&#39;envoi d&#39;une diffusion à la cible principale avec **Delivery**.
 
-   L’activité **[!UICONTROL Agir sur une diffusion]**, placée ultérieurement dans le workflow, vous permettra de lancer toutes les étapes restantes nécessaires au démarrage de la diffusion (calcul de la cible, préparation du contenu, diffusion). Voir à ce propos la section [Agir sur une diffusion](../../workflow/using/delivery-control.md).
+   L’activité **[!UICONTROL Agir sur une diffusion]**, placée ultérieurement dans le workflow, vous permettra de lancer toutes les étapes restantes nécessaires au démarrage de la diffusion (calcul de la cible, préparation du contenu, diffusion). Pour plus d&#39;informations, consultez la section [Agir sur une diffusion](delivery-control.md).
 
    Les options suivantes sont également disponibles :
 
@@ -95,7 +97,7 @@ Pour la paramétrer, éditez l&#39;activité et renseignez les options de la dif
 
    * **[!UICONTROL Traiter les erreurs]**
 
-      Voir la section [Agir sur une diffusion](../../workflow/using/delivery-control.md).
+      Pour plus d&#39;informations, consultez la section [Agir sur une diffusion](delivery-control.md).
    L&#39;onglet **Script** permet de modifier les paramètres de la diffusion.
 
    ![](assets/edit_diffusion_fil_script.png)
@@ -125,11 +127,11 @@ Ouvrez l&#39;activité **Validation** et définissez ses propriétés comme suit
    Do you wish to approve delivery (<%= vars.recCount %> recipient(s))?
    ```
 
-   Il s’agit d’un message incluant une expression JavaScript : l’expression **[!UICONTROL vars.recCount]** représente le nombre de destinataires ciblés par la diffusion de la tâche qui précède. Pour plus d’informations sur les expressions JavaScript, voir la section [Scripts/Templates JavaScript](../../workflow/using/javascript-scripts-and-templates.md).
+   Il s’agit d’un message incluant une expression JavaScript : l’expression **[!UICONTROL vars.recCount]** représente le nombre de destinataires ciblés par la diffusion de la tâche qui précède. Pour plus d’informations sur les expressions JavaScript, voir la section [Scripts/Templates JavaScript](javascript-scripts-and-templates.md).
 
    ![](assets/new-workflow-param-validation.png)
 
-   La tâche de validation est présentée dans la section [Validation](../../workflow/using/approval.md).
+   La tâche de validation est présentée dans la section [Validation](approval.md).
 
 ## Paramètres d&#39;entrée {#input-parameters}
 

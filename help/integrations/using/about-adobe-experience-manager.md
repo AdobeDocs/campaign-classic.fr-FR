@@ -1,18 +1,20 @@
 ---
 product: campaign
-title: A propos d'Adobe Experience Manager
-description: A propos d'Adobe Experience Manager
+title: À propos d'Adobe Experience Manager
+description: À propos d'Adobe Experience Manager
 audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
 
 ---
 
-# A propos d&#39;Adobe Experience Manager{#about-adobe-experience-manager}
+# À propos d&#39;Adobe Experience Manager{#about-adobe-experience-manager}
+
+![](../../assets/common.svg)
 
 L&#39;intégration entre Adobe Campaign et Adobe Experience Manager vous permet de gérer le contenu de vos diffusions email, ainsi que vos formulaires directement dans Adobe Experience Manager.
 

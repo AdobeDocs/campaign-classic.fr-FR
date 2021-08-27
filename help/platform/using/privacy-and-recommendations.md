@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2038'
 ht-degree: 100%
@@ -15,22 +15,24 @@ ht-degree: 100%
 
 # Confidentialité et consentement{#privacy-and-recommendations}
 
+![](../../assets/common.svg)
+
 ## Recommandations générales {#general-recommendations}
 
-Adobe Campaign est un outil puissant pour collecter et traiter de très grands volumes de données, notamment des informations personnelles et des données sensibles. La confidentialité doit donc être gérée avec soin.
+Adobe Campaign est un puissant outil servant à collecter et à traiter de très grands volumes de données, notamment des informations personnelles et des données sensibles. La confidentialité doit donc être gérée avec soin.
 
 * Utilisez toujours les informations personnelles de manière responsable et éthique.
 
-* Évitez d&#39;envoyer des emails, des notifications push et des messages SMS non sollicités (« spam »). Adobe croit fermement aux principes du consentement (permission marketing) pour fidéliser le client et offrir une valeur ajoutée tout au long de sa durée de vie et interdit donc strictement l&#39;utilisation d&#39;Adobe Campaign pour l&#39;envoi de messages non sollicités.
+* Évitez d&#39;envoyer des emails, des notifications push et des messages SMS non sollicités (« spam »). Adobe est fermement attachée aux principes du consentement (permission marketing) pour fidéliser le client et offrir une valeur ajoutée tout au long de sa durée de vie. L’utilisation d’Adobe Campaign pour l’envoi de messages non sollicités est donc strictement interdite.
 
 Prenez le temps de consulter la [liste de contrôle de sécurité et de confidentialité](../../installation/using/get-started-security-privacy.md) afin de connaître les principaux éléments à vérifier en termes de sécurité et de confidentialité.
 
 ### Règlements relatifs à la confidentialité {#privacy-regulations}
 
 Pour gérer correctement la confidentialité et les données personnelles, travaillez dans le cadre des législations applicables aux zones géographiques où vous intervenez. Ces règlements comprennent :
-* [RGPD](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (Règlement général européen sur la protection des données)
+* [RGPD](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_fr) (Règlement général européen sur la protection des données)
 * [DPA](https://www.gov.uk/data-protection) (mise en œuvre du RGPD au Royaume-Uni)
-* [Directive européenne sur la protection de la vie privée et les communications électroniques](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
+* [Directive européenne sur la protection de la vie privée et les communications électroniques](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02002L0058-20091219)
 * [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (loi des États-Unis fixant les règles et les exigences relatives aux emails commerciaux)
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (California Consumer Privacy Act)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (loi thaïlandaise sur la protection des données personnelles)
@@ -50,7 +52,7 @@ Adobe Campaign fait partie des solutions Adobe Experience Cloud. La façon dont 
 
    >[!NOTE]
    >
-   >Comme pour tous les produits Adobe, Campaign collecte des informations relatives aux utilisateurs d&#39;applications et de sites web. Pour plus d&#39;informations à ce sujet, consultez la [Politique de confidentialité d&#39;Adobe](https://www.adobe.com/fr/privacy/policy.html).
+   >Comme pour tous les produits Adobe, Campaign collecte des informations relatives aux utilisateurs d&#39;applications et de sites web. Pour plus d’informations, consultez la [Politique de confidentialité d&#39;Adobe](https://www.adobe.com/fr/privacy/policy.html).
 
 * **Modalités de collecte des informations dans Adobe Experience Cloud**
 
@@ -66,11 +68,11 @@ Adobe Campaign fait partie des solutions Adobe Experience Cloud. La façon dont 
 
    >[!NOTE]
    >
-   >Pour tous les produits Adobe, les utilisateurs de Campaign peuvent s&#39;opposer (opt-out) au partage des informations collectées à leur sujet par le biais d&#39;applications et de sites web. Pour en savoir plus à ce sujet, consultez le [FAQ sur les informations d&#39;utilisation d&#39;Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud-usage-info-faq.html).
+   >Pour tous les produits Adobe, les utilisateurs de Campaign peuvent s&#39;opposer (opt-out) au partage des informations collectées à leur sujet par le biais d&#39;applications et de sites web. Pour plus d’informations, consultez le [FAQ sur les informations d’utilisation d’Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud-usage-info-faq.html).
 
-Pour plus d&#39;informations sur la confidentialité dans Adobe Experience Cloud, voir [cette page](https://www.adobe.com/fr/privacy/marketing-cloud.html).
+Pour plus d’informations sur la confidentialité dans Adobe Experience Cloud, consultez [cette page](https://www.adobe.com/fr/privacy/marketing-cloud.html).
 
-## Données personnelles et acteurs impliqués {#personal-data}
+## Données personnelles et personnes concernées {#personal-data}
 
 Pour la gestion des informations personnelles, il est important de définir les données à traiter avec soin et par qui.
 * **Les données personnelles** sont des informations qui permettent d&#39;identifier directement ou indirectement un individu vivant.
@@ -116,18 +118,18 @@ Voici le flux général de ce cas pratique :
 Adobe Campaign vous permet de collecter des données, y compris des informations personnelles et sensibles. Il est donc essentiel de recevoir et surveiller le consentement de vos destinataires.
 
 * Demandez toujours aux destinataires d&#39;accepter de recevoir des communications. Pour ce faire, continuez à honorer les demandes d&#39;exclusion le plus rapidement possible et vérifiez le consentement par le biais d&#39;un processus de double opt-in. Pour plus d&#39;informations à ce sujet, voir [Créer un formulaire d&#39;abonnement avec double opt-in](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in).
-* N&#39;importez pas de listes frauduleuses et utilisez des adresses de contrôle pour vérifier que votre fichier client n&#39;est pas utilisé de façon frauduleuse. Pour plus d&#39;informations à ce sujet, voir [A propos des adresses de contrôle](../../delivery/using/about-seed-addresses.md).
-* Grâce à la gestion du consentement et des droits, vous pouvez suivre les préférences de vos destinataires et gérer les personnes qui, au sein de votre organisation, peuvent accéder aux différentes données. Voir à ce propos [cette section](#consent).
-* Faciliter et gérer les demandes d&#39;accès à des informations personnelles de vos destinataires. Voir à ce propos [cette section](#privacy-requests).
+* N&#39;importez pas de listes frauduleuses et utilisez des adresses de contrôle pour vérifier que votre fichier client n&#39;est pas utilisé de façon frauduleuse. Pour plus d’informations à ce sujet, voir [À propos des adresses de contrôle](../../delivery/using/about-seed-addresses.md).
+* Grâce à la gestion des droits et du consentement, vous pouvez tracker les préférences de vos destinataires et gérer les données correspondantes et les utilisateurs de votre organisation qui peuvent y accéder. Pour plus d’informations, consultez [cette section](#consent).
+* Faciliter et gérer les demandes d&#39;accès à des informations personnelles de vos destinataires. Pour plus d’informations, consultez [cette section](#privacy-requests).
 
 ## Gestion de la confidentialité {#privacy-management}
 
-La gestion de la confidentialité se rapporte à tous les processus et outils qui peuvent vous aider à vous conformer aux règlements relatifs à la confidentialité (RGPD, CCPA, etc.). Pour une présentation de la gestion de la confidentialité, voir [cette page](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html).
+La gestion de la confidentialité se rapporte à tous les processus et outils qui peuvent vous aider à vous conformer aux règlements relatifs à la confidentialité (RGPD, CCPA, etc.). Pour une présentation de la gestion de la confidentialité, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html).
 
 Adobe Campaign vous propose divers ensembles de fonctionnalités dédiées à la gestion de la confidentialité :
-* Gestion du consentement, conservation des données et rôles utilisateur. Reportez-vous à [cette section](#consent).
-* Demandes d&#39;accès à des informations personnelles (droit d&#39;accès et droit à l&#39;oubli). Reportez-vous à [cette section](#privacy-requests).
-* Droit d&#39;opposition (opt-out) à la vente des informations personnelles (spécifique au règlement CCPA). Reportez-vous à [cette section](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa).
+* Gestion du consentement, conservation des données et rôles utilisateur. Voir [cette section](#consent).
+* Demandes d&#39;accès à des informations personnelles (droit d&#39;accès et droit à l&#39;oubli). Voir [cette section](#privacy-requests).
+* Droit d&#39;opposition (opt-out) à la vente des informations personnelles (spécifique au règlement CCPA). Voir [cette section](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 Les principales fonctionnalités de confidentialité relatives à Campaign et un exemple des acteurs impliqués sont présentés dans [cette section](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
 
@@ -135,9 +137,9 @@ Les principales fonctionnalités de confidentialité relatives à Campaign et un
 
 Depuis l&#39;origine, Adobe Campaign dispose de fonctions importantes, essentielles pour la confidentialité :
 
-* **Gestion du consentement** : grâce au processus de gestion des abonnements, vous pouvez gérer vos préférences de destinataires et déterminer quels destinataires ont choisi quel type d&#39;abonnement. Pour plus d&#39;informations à ce sujet, consultez la section [A propos des abonnements](../../delivery/using/about-services-and-subscriptions.md).
+* **Gestion du consentement** : grâce au processus de gestion des abonnements, vous pouvez gérer vos préférences de destinataires et déterminer quels destinataires ont choisi quel type d&#39;abonnement. Pour plus d’informations, consultez la section [À propos des abonnements](../../delivery/using/about-services-and-subscriptions.md).
 * **Conservation des données** : toutes les tables de journalisation standard natives comportent des périodes de rétention prédéfinies, limitant généralement le stockage de leurs données à 6 mois maximum. Il est possible de définir des périodes de conservation supplémentaires à l&#39;aide de workflows. Pour en savoir plus, contactez les consultants Adobe ou les administrateurs techniques.
-* **Gestion des droits** : Adobe Campaign permet de gérer les droits affectés aux divers opérateurs Campaign par l&#39;intermédiaire de différents rôles préconfigurés ou personnalisés. Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données, les modifier ou les exporter. Voir à ce sujet la section [Gestion des accès](../../platform/using/access-management.md).
+* **Gestion des droits** : Adobe Campaign permet de gérer les droits affectés aux divers opérateurs Campaign par l&#39;intermédiaire de différents rôles préconfigurés ou personnalisés. Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données, les modifier ou les exporter. Pour plus d’informations à ce sujet, consultez la section [À propos de la gestion des accès](../../platform/using/access-management.md).
 
 Pour plus d&#39;informations sur ces fonctionnalités et leur gestion dans Adobe Campaign, consultez [cette section](../../platform/using/privacy-management.md#consent-retention-roles).
 
@@ -145,13 +147,13 @@ Pour plus d&#39;informations sur ces fonctionnalités et leur gestion dans Adobe
 
 Adobe Campaign dispose de fonctionnalités supplémentaires pour vous aider à vous préparer, en tant que contrôleur de données, à certaines demandes d&#39;accès à des informations personnelles :
 
-* Le **droit d&#39;accès** est le droit pour le titulaire de données d&#39;obtenir du contrôleur de données la confirmation que les données personnelles le concernant sont ou non traitées, et lorsqu&#39;elles le sont, où et à quelles fins.
+* Le **droit d’accès** permet au titulaire de données de demander au contrôleur de données si les données personnelles le concernant sont traitées ou non, et lorsqu’elles le sont, où et à quelles fins.
 
-* Le **droit à l&#39;oubli** (demande de suppression) autorise le titulaire de données à effacer ses données personnelles.
+* Le **droit à l&#39;oubli**  (demande de suppression) permet au titulaire des données d’exiger du contrôleur de données qu’il supprime les données personnelles qui le concernent.
 
 Les demandes d&#39;**accès** et de **suppression** sont présentées dans [cette section](../../platform/using/privacy-management.md#right-access-forgotten).
 
-Les étapes principales pour créer ces requêtes sont détaillées dans [cette section](../../platform/using/privacy-requests.md).
+La procédure de création de ces demandes est pour sa part détaillée sur [cette page](../../platform/using/privacy-requests.md).
 
 ## Fonctionnalités de tracking {#tracking-capabilities}
 
@@ -165,21 +167,21 @@ Grâce à ses fonctionnalités de suivi, Adobe Campaign vous permet de suivre l
    * Le cookie **UUID** (Universal Unique IDentifier) est partagé entre les solutions Adobe Experience Cloud. Il est défini une fois jusqu’à ce qu’il disparaisse du navigateur client lorsqu’une nouvelle valeur est générée. Il permet d&#39;identifier un internaute qui interagit avec les solutions Experience Cloud lors de ses visites sur un site web. Il peut être déposé par une landing page (pour associer des activités de clients inconnues à un destinataire) ou par une diffusion. La description de ce cookie est disponible dans [cette page](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=fr#ec-cookies).
    * Le cookie **nllastdelid** (introduit dans Campaign Classic 20.3) est un cookie permanent qui contient l&#39;identifiant **deliveryId** de la dernière diffusion d&#39;où l&#39;utilisateur a cliqué sur le lien. Ce cookie est utilisé - lorsque le cookie de session est manquant - pour identifier la table de tracking qui sera utilisée.
 
-Les règlements tels que le Règlement général sur la protection des données (RGPD) stipulent que les sociétés doivent demander l&#39;accord des utilisateurs du site web avant l&#39;installation de cookies.
+Des règlements, tels que le Règlement général sur la protection des données (RGPD), imposent aux entreprises d’obtenir l’accord des utilisateurs du site web avant d’installer des cookies.
 
 * Ainsi, vous devez informer les utilisateurs de vos sites soumis au tracking web via une zone de demande de consentement (par exemple en surimpression de la page) proposant une case à cocher pour autoriser l&#39;utilisation de cookies, ou afficher une bannière en haut de la première page visitée, etc.
 * Les fenêtres de type pop-up sont à éviter car elles sont souvent bloquées par les navigateurs.
 
 ### Tracking des messages {#message-tracking}
 
-Adobe Campaign vous permet de suivre les emails envoyés et le comportement de vos destinataires de diffusion : ouverture, clics sur des liens, désinscriptions, etc. Pour plus d&#39;informations à ce sujet, consultez la section [A propos du tracking des messages](../../delivery/using/about-message-tracking.md).
+Adobe Campaign vous permet de suivre les emails envoyés et le comportement de vos destinataires de diffusion : ouverture, clics sur des liens, désinscriptions, etc. Pour plus d’informations à ce sujet, consultez la section [À propos du tracking des messages](../../delivery/using/about-message-tracking.md).
 
 Pour ce faire, ajoutez des [liens suivis](../../delivery/using/how-to-configure-tracked-links.md) à vos messages afin de mesurer l&#39;impact de votre diffusion et le comportement du destinataire dans l&#39;onglet [Tracking](../../delivery/using/delivery-dashboard.md#tracking-logs) du tableau de bord de diffusion. Les données de suivi sont interprétées dans le rapport des [indicateurs de tracking](../../reporting/using/delivery-reports.md#tracking-indicators).
 
 ### Tracking web {#web-tracking}
 
-Adobe Campaign vous permet également de contrôler la manière dont les destinataires naviguent sur votre site web : insérez des balises de tracking pour collecter des informations et mesurer les visites sur les pages d&#39;applications web. Pour plus d&#39;informations à ce sujet, consultez la section [Tracking d&#39;une application web](../../web/using/tracking-a-web-application.md).
+Adobe Campaign vous permet également de contrôler la manière dont les destinataires naviguent sur votre site web : insérez des balises de tracking pour collecter des informations et mesurer les visites sur les pages d&#39;applications web. Pour plus d’informations, consultez la section [Tracking d&#39;une application web](../../web/using/tracking-a-web-application.md).
 
 Le paramétrage du tracking web est présenté dans [cette section](../../configuration/using/about-web-tracking.md).
 
-Pour mieux gérer le tracking, Adobe Campaign vous permet d&#39;afficher une bannière d&#39;opt-out afin d&#39;arrêter le tracking des comportements web des utilisateurs finaux qui se sont désinscrits du tracking comportemental. Pour plus d&#39;informations à ce sujet, consultez la section [Désinscription (opt-out) du tracking des applications web](../../web/using/web-application-tracking-opt-out.md).
+Pour mieux gérer le tracking, Adobe Campaign vous permet d&#39;afficher une bannière d&#39;opt-out afin d&#39;arrêter le tracking des comportements web des utilisateurs finaux qui se sont désinscrits du tracking comportemental. Pour plus d’informations, consultez la section [Désinscription (opt-out) du tracking des applications web](../../web/using/web-application-tracking-opt-out.md).

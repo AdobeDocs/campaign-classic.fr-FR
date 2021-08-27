@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '408'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 98%
 
 ---
 
 # Commandes usuelles{#usual-commands}
+
+![](../../assets/v7-only.svg)
 
 Cette section propose la liste des commandes usuelles sous Adobe Campaign.
 
@@ -27,8 +29,8 @@ Le paramètre **`<command>`** correspond au module.
 >
 >* Vous pouvez dans tous les cas adjoindre l&#39;argument **-noconsole** afin de supprimer les commentaires affichés après le lancement des modules.
 >* A contrario, vous pouvez ajouter l&#39;argument **-verbose** pour afficher plus d&#39;informations.
->
 
+>
 
 
 ## Commandes de monitoring {#monitoring-commands-}
@@ -103,7 +105,7 @@ Pour arrêter les services Adobe Campaign, vous pouvez utiliser une des commande
 
       >[!NOTE]
       >
-      >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl stop nlserver**
+      >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl stop nlserver**
 
    * Sous Windows :
 
@@ -127,7 +129,7 @@ De même, afin de démarrer Adobe Campaign vous pouvez utiliser une des commande
 
       >[!NOTE]
       >
-      >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
+      >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
 
    * Sous Windows : net start nlserver6
 
@@ -162,4 +164,3 @@ Pour changer le mode de passe **internal** : **nlserver config -internalpasswor
 >* Dans le cas d&#39;une base Oracle, il ne faut pas préciser le compte. La syntaxe sera donc la suivante :
 >
 >  nlserver config -setdblogin:Oracle:test6@dbserver
-

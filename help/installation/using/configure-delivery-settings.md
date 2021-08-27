@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 100%
 
 ---
 
 # Configurer les paramètres de diffusion {#delivery-settings}
+
+![](../../assets/v7-only.svg)
 
 Les paramètres de diffusion doivent être configurés dans le dossier **serverConf.xml**.
 
@@ -35,7 +37,7 @@ Le module MTA agit comme un agent de transfert de mails natif pour la diffusion 
 
 Il est cependant possible de le remplacer par un serveur de messagerie relais si la politique de sécurité l&#39;impose. Le cas échéant, le débit global sera le relais (si le débit du serveur relais est inférieur à celui d&#39;Adobe Campaign).
 
-Dans ce cas, ces paramètres sont définis en configurant le serveur SMTP dans la section **`<relay>`**. Vous devez spécifier l’adresse IP (ou hôte) du serveur SMTP utilisé pour transférer l’email et son port associé (25 par défaut).
+Dans ce cas, ces paramètres sont définis en configurant le serveur SMTP dans la section **`<relay>`**. Vous devez spécifier l’adresse IP (ou hôte) du serveur SMTP utilisé pour transférer l’email et son port associé (25 par défaut).
 
 ```
 <relay address="192.0.0.3" port="25"/>

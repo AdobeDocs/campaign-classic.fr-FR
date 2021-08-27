@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 550c4afc5cc77867b56d17565bef3f18b1df12a2
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 94%
@@ -16,6 +16,8 @@ ht-degree: 94%
 ---
 
 # Configuration d’Adobe I/O pour les Triggers Adobe Experience Cloud {#configuring-adobe-io}
+
+![](../../assets/common.svg)
 
 >[!CAUTION]
 >

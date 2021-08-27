@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 
 ---
 
 # Requête avec gestion des regroupements {#querying-using-grouping-management}
+
+![](../../assets/common.svg)
 
 Vous allez effectuer une requête pour retrouver les domaines d&#39;email ciblés plus de 30 fois au cours de diffusions précédentes.
 

@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 100%
 
 ---
 
 # Architecture générale{#general-architecture}
+
+![](../../assets/v7-only.svg)
 
 Un déploiement classique de la solution Adobe Campaign comprend les composants suivants :
 
@@ -23,7 +25,7 @@ Un déploiement classique de la solution Adobe Campaign comprend les composants 
 
 * **Environnement de développement**
 
-   Logiciel côté serveur qui exécute les campagnes marketing par le biais des canaux de communication sélectionnés, notamment email, SMS, notification push, courrier, web ou social, en fonction des règles et des workflows définis dans l&#39;interface utilisateur.
+   Logiciel côté serveur qui exécute les campagnes marketing par le biais des canaux de communication sélectionnés, notamment e-mail, SMS, notification push, courrier, web ou social, en fonction des règles et des workflows définis dans l&#39;interface utilisateur.
 
 * **Conteneurs de base de données**
 
@@ -79,15 +81,15 @@ Ce processus peut assurer la personnalisation et l&#39;envoi automatique vers un
 
 **Serveur de redirection** (nlserver webmdl)
 
-Dans le cas des diffusions par email, Adobe Campaign assure automatiquement le suivi des ouvertures et clics dans les messages (et éventuellement le suivi des transactions générées sur le site Web). Pour cela, les URL présentes dans les emails sont réécrites afin de pointer vers ce module, qui assure l&#39;enregistrement de passage de l&#39;internaute avant de le rediriger vers la véritable URL.
+Dans le cas des diffusions par e-mail, Adobe Campaign assure automatiquement le suivi des ouvertures et clics dans les messages (et éventuellement le suivi des transactions générées sur le site Web). Pour cela, les URL présentes dans les e-mails sont réécrites afin de pointer vers ce module, qui assure l&#39;enregistrement de passage de l&#39;internaute avant de le rediriger vers la véritable URL.
 
-Afin d&#39;en garantir la disponibilité maximale, ce processus est totalement indépendant de la base de données : les autres processus serveur dialoguent avec lui en utilisant uniquement des appels SOAP (donc HTTP, HTTPS et XML). Techniquement, cette fonctionnalité est implémentée dans un module d&#39;extension d&#39;un serveur HTTP (extension ISAPI sous IIS, module DSO sous Apache) et n&#39;est accessible que sous Windows.
+Afin d&#39;en garantir la disponibilité maximale, ce processus est totalement indépendant de la base de données : les autres processus serveur dialoguent avec lui en utilisant uniquement des appels SOAP (donc HTTP, HTTPS et XML). Techniquement, cette fonctionnalité est implémentée dans un module d&#39;extension d&#39;un serveur HTTP (extension ISAPI sous IIS, module DSO sous Apache) et n&#39;est accessible que sous Windows.
 
-D&#39;autres processus plus techniques sont également disponibles :
+D&#39;autres processus plus techniques sont également disponibles :
 
 **Gestion des mails rebonds** (nlserver inMail)
 
-Ce processus permet de relever automatiquement les boîtes mail configurées pour recevoir les mails rebonds retournés en cas d&#39;échec de livraison d&#39;emails. Ces mails sont ensuite passés au travers d&#39;un moteur de règles utilisé pour déterminer les causes exactes de non-livraison (destinataire inconnu, boîte aux lettres pleine, etc.) et mettre à jour l&#39;état de diffusion dans la base de données.
+Ce processus permet de relever automatiquement les boîtes mail configurées pour recevoir les mails rebonds retournés en cas d&#39;échec de livraison d&#39;e-mails. Ces mails sont ensuite passés au travers d&#39;un moteur de règles utilisé pour déterminer les causes exactes de non-livraison (destinataire inconnu, boîte aux lettres pleine, etc.) et mettre à jour l&#39;état de diffusion dans la base de données.
 
 Toutes ces opérations sont entièrement automatiques et préconfigurées.
 
@@ -109,7 +111,7 @@ Ce processus assure l&#39;enregistrement sur disque des événements entrants, d
 
 **Surveillance des modules** (nlserver watchdog)
 
-Ce processus technique joue le rôle d’un processus principal qui entraîne les autres. Il les surveille également et les relance automatiquement en cas d’incident, ce qui permet de maintenir un temps d’activité du système.
+Ce processus technique joue le rôle d&#39;un processus principal qui entraîne les autres. Il les surveille également et les relance automatiquement en cas d&#39;incident, ce qui permet de maintenir un temps d&#39;activité du système.
 
 **Serveur de statistiques** (nlserver stat)
 

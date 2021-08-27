@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%
 
@@ -15,11 +15,13 @@ ht-degree: 100%
 
 # Charger le contenu d&#39;une diffusion{#loading-delivery-content}
 
-Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur Amazon S3, FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign.
+![](../../assets/common.svg)
+
+Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur Amazon S3, FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign.
 
 Pour cela :
 
-1. Si vous n&#39;avez pas encore défini de connexion entre Adobe Campaign et le serveur FTP ou SFTP hébergeant les fichiers de contenu, créez un compte externe S3, FTP ou SFTP dans **[!UICONTROL Administration]** > **[!UICONTROL Plate-forme]** > **[!UICONTROL Comptes externes]**. Dans ce compte externe, indiquez l&#39;adresse et les identifiants qui permettront d&#39;établir la connexion au serveur S3, FTP ou SFTP.
+1. Si vous n&#39;avez pas encore défini de connexion entre Adobe Campaign et le serveur FTP ou SFTP hébergeant les fichiers de contenu, créez un compte externe S3, FTP ou SFTP dans **[!UICONTROL Administration]** > **[!UICONTROL Plate-forme]** > **[!UICONTROL Comptes externes]**. Dans ce compte externe, indiquez l&#39;adresse et les identifiants qui permettront d&#39;établir la connexion au serveur S3, FTP ou SFTP.
 
    Voici un exemple d&#39;un compte externe S3 :
 
@@ -28,8 +30,8 @@ Pour cela :
 1. Créez un workflow depuis par exemple **[!UICONTROL Profils et Cibles]** > **[!UICONTROL Traitements]** > **[!UICONTROL Workflows de ciblage]**.
 1. Ajoutez une activité **[!UICONTROL Transfert de fichier]** à votre workflow, puis configurez-la en indiquant les informations suivantes :
 
-   * le compte externe à utiliser pour la connexion au serveur S3, FTP ou SFTP ;
-   * le chemin d&#39;accès au fichier sur le serveur S3, FTP ou SFTP.
+   * le compte externe à utiliser pour la connexion au serveur S3, FTP ou SFTP ;
+   * le chemin d&#39;accès au fichier sur le serveur S3, FTP ou SFTP.
 
    ![](assets/delivery_loadcontent_filetransfertexample.png)
 
@@ -54,4 +56,4 @@ Pour cela :
 
 >[!NOTE]
 >
->Les bonnes pratiques et la résolution des problèmes liées à l&#39;utilisation du serveur SFTP sont présentées [dans cette page](../../platform/using/sftp-server-usage.md).
+>Les bonnes pratiques et la résolution des problèmes liées à l&#39;utilisation du serveur SFTP sont présentées [dans cette page](../../platform/using/sftp-server-usage.md).

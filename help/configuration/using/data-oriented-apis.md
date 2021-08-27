@@ -6,16 +6,18 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1885'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # API orientées données{#data-oriented-apis}
 
-Les API orientées données permettent d&#39;adresser le modèle de données dans son intégralité.
+![](../../assets/v7-only.svg)
+
+API orientées données vous permet d’adresser le modèle de données entier.
 
 ## Principe du modèle de données {#overview-of-the-datamodel}
 
@@ -142,7 +144,7 @@ Le type d&#39;opération souhaité est renseigné dans l&#39;attribut **operatio
 
 La syntaxe **XPath** sert à localiser les données en fonction du schéma de départ. Pour plus d’informations sur XPath, voir [Schémas de données](../../configuration/using/data-schemas.md).
 
-#### Exemple avec l&#39;opération &#39;get&#39;{#example-with-the--get--operation}
+#### Exemple avec l&#39;opération &#39;get&#39; {#example-with-the--get--operation}
 
 Récupère le nom et le prénom d&#39;un destinataire (schéma &quot;nms:recipient&quot;) avec un filtre sur l&#39;email.
 
@@ -161,7 +163,7 @@ Récupère le nom et le prénom d&#39;un destinataire (schéma &quot;nms:recipie
 </queryDef>
 ```
 
-#### Exemple avec l&#39;operation &#39;select&#39;{#example-with-the--select--operation}
+#### Exemple avec l&#39;operation &#39;select&#39; {#example-with-the--select--operation}
 
 Retourne la liste des destinataires filtrés sur un dossier et le domaine de l&#39;email avec un tri descendant sur la date de naissance.
 
@@ -204,7 +206,7 @@ Pour récupérer les 100 enregistrements suivants, lancer de nouveau la même re
 ...
 ```
 
-#### Exemple avec l&#39;opération &#39;count&#39;{#example-with-the--count--operation}
+#### Exemple avec l&#39;opération &#39;count&#39; {#example-with-the--count--operation}
 
 Pour compter le nombre d&#39;enregistrements sur une requête :
 
@@ -368,7 +370,7 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
    </queryDef>
    ```
 
-#### Binding des paramètres de la clause &#39;where&#39; et &#39;select&#39;{#binding-the-parameters-of-the--where--and--select--clause}
+#### Binding des paramètres de la clause &#39;where&#39; et &#39;select&#39; {#binding-the-parameters-of-the--where--and--select--clause}
 
 Le binding des paramètres laisse le moteur fixer les valeurs des paramètres utilisés dans la requête. Ceci est très utile car l&#39;échappement des valeurs est à la charge du moteur et on bénéficie en plus d&#39;un cache sur les paramètres à récupérer.
 
@@ -389,7 +391,7 @@ Pour ne pas binder un paramètre, il faut renseigner l&#39;attribut &quot;noSqlB
 >
 >Dans le cas où la requête comprend des instructions du type &quot;order-by&quot; ou &quot;group-by&quot;, les moteurs de base de données ne peuvent pas &quot;binder&quot; les valeurs. Il est donc indispensable de placer dans la même requête l&#39;attribut @noSqlBind=&quot;true&quot; sur les instructions &quot;select&quot; et/ou &quot;where&quot;.
 
-#### Astuce pour construire une requête : {#query-building-tip-}
+#### Astuce pour construire une requête :  {#query-building-tip-}
 
 Pour vous aider à trouver la syntaxe d&#39;une requête, vous pouvez mettre au point la requête à partir du requêteur générique dans la console cliente Adobe Campaign (menu **[!UICONTROL Outils/Requêteur générique...]**). Pour cela :
 
@@ -547,7 +549,7 @@ Il est possible de forcer le type d&#39;opération en renseignant l&#39;attribut
 * **delete** : supprime les enregistrements,
 * **none** : utilisé uniquement pour la réconciliation de lien, sans mise à jour ni insertion.
 
-### Exemple avec la méthode &#39;Write&#39;{#example-with-the--write--method}
+### Exemple avec la méthode &#39;Write&#39; {#example-with-the--write--method}
 
 Mise à jour ou insertion d&#39;un destinataire (opération &quot;insertOrUpdate&quot; implicite) avec son email, sa date de naissance et sa ville :
 
@@ -567,7 +569,7 @@ Suppression d&#39;un destinataire :
 >
 >Dans le cas d&#39;une opération en suppression, le document en entrée ne doit contenir que les champs qui composent la clé de réconciliation.
 
-### Exemple avec la méthode &#39;WriteCollection&#39;{#example-with-the--writecollection--method}
+### Exemple avec la méthode &#39;WriteCollection&#39; {#example-with-the--writecollection--method}
 
 Mise à jour ou insertion sur plusieurs destinataires :
 
@@ -599,7 +601,7 @@ La définition de la clé de l’entité principale (&quot;nms:recipient&quot;) 
 >
 >L&#39;opération &quot;none&quot; renseignée sur l&#39;élément dossier définit une réconciliation sur le dossier sans mise à jour ni insertion.
 
-#### Exemple 2 {#example-2}
+#### Exemple 2 {#example-2}
 
 Mettre à jour la société (table liée de schéma &quot;cus:company&quot;) à partir d&#39;un destinataire :
 
@@ -609,7 +611,7 @@ Mettre à jour la société (table liée de schéma &quot;cus:company&quot;) à 
 </recipient>
 ```
 
-#### Exemple 3 {#example-3}
+#### Exemple 3 {#example-3}
 
 Ajouter un destinataire dans un groupe avec la table de relation des groupes (&quot;nms:rcpGrpRel&quot;) :
 

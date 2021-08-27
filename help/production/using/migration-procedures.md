@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 0b71a4d3-b340-4742-bd69-4073ce271cf3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 100%
 
 ---
 
 # Procédures de migration{#migration-procedures}
+
+![](../../assets/v7-only.svg)
 
 Si vous effectuez une mise à niveau d&#39;Adobe Campaign v6 vers v7, il est conseillé de respecter les recommandations ci-dessous.
 

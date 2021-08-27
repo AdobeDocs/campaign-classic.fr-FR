@@ -6,14 +6,16 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2539'
 ht-degree: 100%
 
 ---
 
 # Contrôle des coûts{#controlling-costs}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign permet de contrôler les coûts marketing planifiés, engagés et facturés, et de les ventiler par catégories à l&#39;aide du module Marketing Resource Management.
 
@@ -31,17 +33,17 @@ Les étapes de mise en oeuvre de la gestion des budgets avec MRM sont les suivan
 
 1. Définition du mode de calcul des coûts
 
-   Les structures de coûts sont définies au niveau des prestataires. Voir la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+   Les structures de coûts sont définies au niveau des prestataires. Pour plus d&#39;informations, consultez la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 1. Définition des coûts des opérations (diffusions/tâches)
 
-   Les coûts engendrés par les diffusions et les tâches sont renseignés unitairement ou globalement au niveau du modèle de l&#39;opération. Voir la section [Calcul des coûts et des stocks](../../campaign/using/marketing-campaign-deliveries.md#calculation-of-costs-and-stocks). 
+   Les coûts engendrés par les diffusions et les tâches sont renseignés unitairement ou globalement au niveau du modèle de l&#39;opération. Pour plus d&#39;informations, consultez la section [Calcul des coûts et des stocks](../../campaign/using/marketing-campaign-deliveries.md#calculation-of-costs-and-stocks). 
 
 1. Consolidation
 
    En fonction du statut de réalisation des tâches, diffusions et opérations, les coûts seront calculés et répercutés au niveau du budget correspondant.
 
-   Lorsque la création de l&#39;opération est suffisamment avancée, le statut de réalisation du budget de l&#39;opération peut être modifié en **[!UICONTROL Renseigné]**. Le coût calculé du programme est alors automatiquement renseigné avec les coûts calculés sur les opérations. Voir la section [Engagement, calcul et imputation des coûts](#cost-commitment--calculation-and-charging). 
+   Lorsque la création de l&#39;opération est suffisamment avancée, le statut de réalisation du budget de l&#39;opération peut être modifié en **[!UICONTROL Renseigné]**. Le coût calculé du programme est alors automatiquement renseigné avec les coûts calculés sur les opérations. Pour plus d&#39;informations, consultez la section [Engagement, calcul et imputation des coûts](#cost-commitment--calculation-and-charging). 
 
 ## Créer un budget {#creating-a-budget}
 
@@ -61,7 +63,7 @@ Les budgets sont créés au niveau de la vue globale, à partir du noeud **[!UIC
 
 * Dépenses
 
-   Créez les catégories de dépenses auxquelles pourront être rattachés les coûts affectés à ce budget au niveau des opérations, diffusions, tâches, etc. Voir la section [Catégories de dépenses](#expense-categories).
+   Créez les catégories de dépenses auxquelles pourront être rattachés les coûts affectés à ce budget au niveau des opérations, diffusions, tâches, etc. Pour plus d&#39;informations, consultez la section [Catégories de dépenses](#expense-categories).
 
    ![](assets/s_ncs_user_budget_create_and_save.png)
 
@@ -209,7 +211,7 @@ Les coûts sont répartis en 3 catégories :
 
 Les coûts sont calculés via les structures de coûts et imputés aux budgets sélectionnés au niveau des opérations, des diffusions ou des tâches concernées.
 
-Un contrôle peut être effectué sur les sommes engagées dans les opérations via la validation du budget. Des tâches supplémentaires de type Point de contrôle peuvent être créées dans une opération afin de mettre en place d&#39;autres validations. Voir la section [Types de tâches](../../mrm/using/creating-and-managing-tasks.md#types-of-task).
+Un contrôle peut être effectué sur les sommes engagées dans les opérations via la validation du budget. Des tâches supplémentaires de type Point de contrôle peuvent être créées dans une opération afin de mettre en place d&#39;autres validations. Pour plus d&#39;informations, consultez la section [Types de tâches](../../mrm/using/creating-and-managing-tasks.md#types-of-task).
 
 ### Exemple {#example}
 

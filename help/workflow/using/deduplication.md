@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: e3e2ac09de6a9e846e9f9262d522b9395a725648
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
 
 ---
 
 # Déduplication{#deduplication}
+
+![](../../assets/common.svg)
 
 La déduplication supprime les doublons dans le ou les résultats des activités entrantes. La déduplication peut être effectuée en fonction de l&#39;adresse email, du numéro de téléphone ou d&#39;un autre champ.
 
@@ -27,7 +29,7 @@ L&#39;activité **[!UICONTROL Déduplication]** est utilisée pour supprimer des
 
 L&#39;activité **[!UICONTROL Déduplication]** peut conserver une ligne entière comme enregistrement unique après l&#39;identification des duplicatas. Par exemple, dans le cas pratique ci-dessus, si l’activité est configurée pour ne conserver que l’enregistrement avec la **[!UICONTROL Date]** la plus ancienne, le résultat est le suivant :
 
-| Date | Prénom | Nom | Email | Téléphone mobile | Phone |
+| Date | Prénom | Nom | Email | Téléphone mobile | Téléphone |
 -----|----------|------------|-------|--------------|------
 | 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
@@ -35,7 +37,7 @@ L&#39;enregistrement principal sélectionné transfère les données sans fusion
 
 Complémentaire :
 
-| Date | Prénom | Nom | Email | Téléphone mobile | Phone |
+| Date | Prénom | Nom | Email | Téléphone mobile | Téléphone |
 -----|------------|-----------|-------|--------------|------
 | 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 | 07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
@@ -139,7 +141,7 @@ La fonctionnalité **[!UICONTROL Fusion]** permet de configurer un ensemble de r
 
 Par exemple, avec un ensemble d’enregistrements dupliqués, vous pouvez choisir de conserver le numéro de téléphone le plus ancien ou le nom le plus récent.
 
-Un cas pratique exploitant cette fonctionnalité est disponible dans [cette section](../../workflow/using/deduplication-merge.md).
+Un cas pratique exploitant cette fonctionnalité est disponible dans [cette section](deduplication-merge.md).
 
 Pour ce faire, procédez comme suit :
 
@@ -155,7 +157,7 @@ Pour ce faire, procédez comme suit :
 
 1. Après avoir activé la fonctionnalité, un onglet **[!UICONTROL Fusion]** est ajouté à l&#39;activité **[!UICONTROL Déduplication]**. Il vous permet de définir des groupes de champs à fusionner et leurs règles associées.
 
-   Pour plus d&#39;informations à ce sujet, reportez-vous au cas pratique disponible dans [cette section](../../workflow/using/deduplication-merge.md).
+   Pour plus d&#39;informations à ce sujet, reportez-vous au cas pratique disponible dans [cette section](deduplication-merge.md).
 
    ![](assets/dedup3.png)
 

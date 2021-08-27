@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 100%
 
 ---
 
 # Formulaires de saisie{#input-forms}
+
+![](../../assets/common.svg)
 
 Vous trouverez ci-après quelques principes généraux sur l&#39;utilisation des formulaires de saisie dans Adobe Campaign.
 
@@ -53,7 +55,7 @@ Un contrôle d’édition est renseigné sur un élément **`<input>`** avec l�
 
 Le langage XPath est utilisé dans Adobe Campaign pour référencer un élément ou un attribut appartenant à un schéma de données.
 
-XPath est une syntaxe permettant la localisation d&#39;un noeud dans l&#39;arbre d&#39;un document XML.
+XPath est une syntaxe permettant la localisation d&#39;un nœud dans l&#39;arbre d&#39;un document XML.
 
 Les éléments sont désignés par leur nom, les attributs sont désignés par leur nom précédé d&#39;un caractère &quot;@&quot;.
 

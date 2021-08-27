@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
 
 ---
 
 # Création d&#39;un workflow de ciblage {#step-1--creating-a-targeting-workflow}
+
+![](../../assets/common.svg)
 
 Vous devez créer votre workflow dans l&#39;onglet **[!UICONTROL Ciblages et Workflows]** d&#39;une opération. Il est composé d&#39;une activité **[!UICONTROL Requête]**, d&#39;une activité **[!UICONTROL Partage]** à laquelle sont reliées deux activités **[!UICONTROL Diffusions e-mail]**, une activité **[!UICONTROL Attente]**, d&#39;une activité **[!UICONTROL Code JavaScript]** et une activité **[!UICONTROL Diffusion]**.
 

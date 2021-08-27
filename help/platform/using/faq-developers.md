@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Questions courantes
-description: FAQ sur Campaign Classic
+description: FAQ Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # FAQ destiné aux développeurs {#dev-faq}
+
+![](../../assets/common.svg)
 
 En tant que solution ouverte, Adobe Campaign est prêt pour la personnalisation et le développement d&#39;applications avancées.
 

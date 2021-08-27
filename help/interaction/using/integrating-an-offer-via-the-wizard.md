@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 100%
 
 ---
 
 # Intégrer une offre via l&#39;assistant{#integrating-an-offer-via-the-wizard}
+
+![](../../assets/v7-only.svg)
 
 Pour intégrer des offres lors de la création d&#39;une diffusion, deux méthodes sont possibles :
 
@@ -68,12 +70,12 @@ Les étapes successives pour insérer des propositions d&#39;offres dans vos dif
 
 ### Paramètres d&#39;appel au moteur d&#39;offres {#parameters-for-calling-offer-engine}
 
-* **[!UICONTROL Emplacement]** : emplacement de l&#39;environnement des offres à choisir obligatoirement afin d&#39;activer le moteur d&#39;offres.
-* **[!UICONTROL Catégorie]** : dossier spécifique dans lequel les offres sont classées. Si aucune catégorie n&#39;est spécifiée, c&#39;est la totalité des offres contenues dans l&#39;environnement qui seront prises en compte par le moteur d&#39;offres, sauf si un thème est sélectionné.
-* **[!UICONTROL Thèmes]** : mots-clés définis préalablement au niveau des catégories. Ils agissent comme un filtre et permettent d&#39;affiner les offres à présenter en les sélectionnant dans un ensemble de catégories.
-* **[!UICONTROL Nombre de propositions]** : nombre d&#39;offres renvoyées par le moteur qui pourront être insérées dans le corps de la diffusion. Si elles ne sont pas insérées dans le message, les offres seront néanmoins générées, mais non présentées.
-* **[!UICONTROL Exclure les destinataires non éligibles]** : cette option permet d&#39;activer ou non l&#39;exclusion des destinataires pour lesquels il n&#39;y a pas assez d&#39;offres éligibles. Pour chaque destinataire, il se peut que le nombre de propositions éligibles soit inférieur au nombre de propositions requis. En cochant cette case, les destinataires pour lesquels le nombre de propositions requis n&#39;est pas atteint seront exclus de la diffusion. Si vous ne sélectionnez pas cette option, ces destinataires seront conservés, mais ils auront un nombre de propositions inférieur au nombre demandé.
-* **[!UICONTROL Ne rien afficher si aucune offre n&#39;est sélectionnée]** : cette option permet de choisir le traitement du message au cas où l&#39;une des propositions n&#39;existerait pas. En cochant cette case, la représentation de la proposition manquante ne s&#39;affichera pas et aucun contenu n&#39;apparaîtra dans le message pour cette proposition. Si la case est décochée, le message lui-même est annulé au moment de l&#39;envoi et les destinataires ne recevront aucun message.
+* **[!UICONTROL Emplacement]** : emplacement de l&#39;environnement des offres à choisir obligatoirement afin d&#39;activer le moteur d&#39;offres.
+* **[!UICONTROL Catégorie]** : dossier spécifique dans lequel les offres sont classées. Si aucune catégorie n&#39;est spécifiée, c&#39;est la totalité des offres contenues dans l&#39;environnement qui seront prises en compte par le moteur d&#39;offres, sauf si un thème est sélectionné.
+* **[!UICONTROL Thèmes]** : mots-clés définis préalablement au niveau des catégories. Ils agissent comme un filtre et permettent d&#39;affiner les offres à présenter en les sélectionnant dans un ensemble de catégories.
+* **[!UICONTROL Nombre de propositions]** : nombre d&#39;offres renvoyées par le moteur qui pourront être insérées dans le corps de la diffusion. Si elles ne sont pas insérées dans le message, les offres seront néanmoins générées, mais non présentées.
+* **[!UICONTROL Exclure les destinataires non éligibles]** : cette option permet d&#39;activer ou non l&#39;exclusion des destinataires pour lesquels il n&#39;y a pas assez d&#39;offres éligibles. Pour chaque destinataire, il se peut que le nombre de propositions éligibles soit inférieur au nombre de propositions requis. En cochant cette case, les destinataires pour lesquels le nombre de propositions requis n&#39;est pas atteint seront exclus de la diffusion. Si vous ne sélectionnez pas cette option, ces destinataires seront conservés, mais ils auront un nombre de propositions inférieur au nombre demandé.
+* **[!UICONTROL Ne rien afficher si aucune offre n&#39;est sélectionnée]** : cette option permet de choisir le traitement du message au cas où l&#39;une des propositions n&#39;existerait pas. En cochant cette case, la représentation de la proposition manquante ne s&#39;affichera pas et aucun contenu n&#39;apparaîtra dans le message pour cette proposition. Si la case est décochée, le message lui-même est annulé au moment de l&#39;envoi et les destinataires ne recevront aucun message.
 
 ### Insérer une proposition d&#39;offres dans une diffusion {#inserting-an-offer-proposition-into-a-delivery}
 

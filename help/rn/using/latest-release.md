@@ -2,24 +2,26 @@
 product: campaign
 title: Dernière version
 description: Dernière version de Campaign Classic  Notes
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: c59529a0a4d72ecb795569591d62a68f030a0ac7
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1950'
 ht-degree: 99%
 
 ---
 
 # Dernière version{#latest-release}
 
+![](../../assets/v7-only.svg)
+
 Cette page répertorie les nouvelles fonctionnalités, les améliorations et les correctifs de la **dernière version du Campaign Classic**.
 
 >[!NOTE]
 >
->Les **builds GA** (disponibilité générale) de Campaign sont les suivants : [[!DNL Gold Standard] version 11](../../rn/using/gold-standard.md#gs-11) et [Campaign version 21.1.3](../../rn/using/latest-release.md#release-21-1-3-build-9330).
+>Les **builds GA** (disponibilité générale) de Campaign sont les suivants : [[!DNL Gold Standard] version 11](../../rn/using/gold-standard.md#gs-11) et [Campaign version 21.1.3](../../rn/using/latest-release.md#release-21-1-3-build-9330).
 
 ## ![](assets/do-not-localize/green_2.png) Version 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
@@ -115,7 +117,7 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/com
 **Fonctionnalités obsolètes**
 
 * À compter de la version 21.1 de Campaign, le connecteur de données Adobe Analytics est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence avec le nouveau connecteur Adobe Analytics.
-Pour plus d’informations, consultez la [documentation détaillée](../../technotes/aa-connector-migration.md).
+Pour plus d’informations, consultez la [documentation détaillée](../../technotes/using/aa-connector-migration.md).
 * La prise en charge de Debian 8 est maintenant obsolète.
 * Suite à la dépréciation d&#39;Oracle CRM dans la version 20.3, le compte externe associé a été supprimé de l’interface.
 
@@ -207,12 +209,12 @@ Si vous souhaitez participer à cette version bêta privée, remplissez ce [form
 
 **Correctifs**
 
-* Correction d&#39;un problème en raison duquel les raccourcis clavier Tabulation, Entrée et Échap ne fonctionnaient pas sur le nouvel écran de connexion.
+* Correction du défaut de fonctionnement des raccourcis clavier Tabulation, Entrée et Echap sur le nouvel écran de connexion.
 * Correction d&#39;un problème d&#39;actualisation en raison duquel le nom d&#39;un nouveau workflow était remplacé par la valeur par défaut après l&#39;enregistrement (NEO-26106).
 * Correction d&#39;un problème survenant lors de l&#39;exécution de workflows où un nouveau champ a été ajouté dans le cadre d&#39;une activité **Enrichissement** avant une activité **Diffusion** à l&#39;aide d&#39;un mapping de ciblage **Fichier externe** : des champs indésirables ont été ajoutés au mapping de ciblage **Fichier externe**. (NEO-27687)
 * Correction d&#39;un problème en raison duquel certains caractères du code source étaient modifiés lors de la réouverture d&#39;une application web précédemment créée et enregistrée. (NEO-27597)
 * Correction d&#39;un problème qui pouvait se produire lors de la mise à niveau vers un build incluant le nouveau mécanisme de signature pour les liens de tracking (depuis la version 19.1.4 et Campaign 20.2) : lorsque plusieurs modèles étaient associés à un événement, la mise à niveau pouvait entraîner la sélection d&#39;un modèle incorrect lors de l&#39;envoi du message transactionnel. (NEO-28326)
-* Correction d&#39;un problème en raison duquel le MTA ne réagissait pas et ne pouvait pas traiter les diffusions sauf s&#39;il était redémarré. (NEO-27455)
+* Correction d’un problème en raison duquel le MTA ne réagissait pas et ne pouvait traiter les diffusions qu’après son redémarrage. (NEO-27455)
 * Correction d&#39;un problème de la base de données MSSQL lié à la gestion de la date et de l&#39;heure lors des opérations de chargement en masse pour une colonne de type datetime.
 * Correction d&#39;un problème de requête de workflow lors de l&#39;utilisation des fonctions xtk Redshift. Les fonctions SubDays, SubSeconds, SubMinutes et SubHours acceptent désormais les deux types de date et d&#39;heure Redshift (NEO-24962).
 * Correction d&#39;un problème en raison duquel un message d&#39;erreur de script s&#39;affichait lors de la tentative de prévisualisation d&#39;un rapport avec accès anonyme. (NEO-27081)
@@ -220,7 +222,7 @@ Si vous souhaitez participer à cette version bêta privée, remplissez ce [form
 * Correction d&#39;un problème en raison duquel l&#39;instance ne fonctionnait pas lors de l&#39;exécution de requêtes complexes spécifiques.
 * Correction d&#39;un problème qui empêchait l&#39;exécution du workflow technique **Synchronisation des pages Twitter**. (NEO-28634)
 * Correction d&#39;un problème qui pouvait afficher un message d&#39;erreur lié à la fonction decryptPassword lors de la tentative de publication sur Twitter à l&#39;aide du modèle de diffusion **Tweet (twitter)**. (NEO-28216)
-* Correction d&#39;un problème survenant lors de l&#39;utilisation d&#39;une activité **JavaScript** pour effectuer une requête HTTP dans un workflow. Après avoir défini le numéro de port dans le nom d&#39;hôte, l&#39;appel échouait avec l&#39;erreur suivante (NEO-29146) :
+* Correction d&#39;un problème survenant lors de l&#39;utilisation d&#39;une activité **JavaScript** pour effectuer une requête HTTP dans un workflow. Après avoir défini le numéro de port dans le nom d’hôte, l’appel échouait avec l’erreur suivante (NEO-29146) :
 
 ```
 IOB-090020 Error in SSL library: 'IOB-090013 error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed (code 336134278)'
@@ -240,10 +242,10 @@ There is no index on the sourceId field of the 'NmsTrackingLogRcp' table require
 XTK-170024 The temporary 'temp:deliveryEmail-all' schema is not defined in the current context
 ```
 
-* Correction d&#39;une erreur qui se produisait lors de la configuration d&#39;un compte externe entre une instance marketing et une instance Adobe Campaign Standard ou une instance de mid-sourcing Campaign Classic à l&#39;aide de l&#39;option &quot;DisableFOH2=1&quot;. Lors de l&#39;utilisation de l&#39;option &quot;DisableFOH2=1&quot; dans le compte externe, les connexions n&#39;étaient pas correctement fermées et s&#39;empilaient, provoquant l&#39;erreur suivante (NEO-26258) :
+* Correction d’une erreur qui se produisait lors de la configuration d’un compte externe entre une instance marketing et une instance Adobe Campaign Standard ou une instance de midsourcing Campaign Classic à l’aide de l’option &quot;DisableFOH2=1&quot;. Lors de l&#39;utilisation de l&#39;option &quot;DisableFOH2=1&quot; dans le compte externe, les connexions n&#39;étaient pas correctement fermées et s&#39;empilaient, provoquant l&#39;erreur suivante (NEO-26258) :
 
 ```
 The maximum number of connections has been reached (50) by connections pool 'nms:extAccount:acsDefaultRelayAccount XXX'. The server is overloaded. Please try again later.
 ```
 
-* Correction d&#39;une erreur de SMS lors de problèmes de connexion entre le serveur et le fournisseur. La connexion était alors automatiquement désactivée par l&#39;enfant MTA. Adobe Campaign Classic ne tentait pas de se connecter à cette connexion défaillante tant qu&#39;un nouvel enfant n&#39;avait pas été démarré.
+* Correction d&#39;une erreur de SMS lors de problèmes de connexion entre le serveur et le fournisseur. La connexion était alors automatiquement désactivée par l’enfant MTA. Adobe Campaign Classic ne tentait pas de se connecter à cette connexion défaillante tant qu’un nouvel enfant n’avait pas été démarré.

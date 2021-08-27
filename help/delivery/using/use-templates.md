@@ -5,14 +5,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 100%
 
 ---
 
 # Utilisez les modèles {#use-templates}
+
+![](../../assets/common.svg)
 
 Les modèles de diffusion accroissent l&#39;efficacité en offrant des configurations prêtes à l&#39;emploi pour les types d&#39;activité les plus courants. Grâce aux modèles, les marketeurs peuvent déployer plus rapidement de nouvelles campagnes avec une personnalisation minimale.
 
@@ -66,4 +68,4 @@ Dans l’onglet **[!UICONTROL Typologie]** des propriétés du modèle, changez 
 
 Pour mieux contrôler le trafic sortant, par exemple, vous pouvez définir quelles adresses IP peuvent être utilisées en spécifiant une affinité par sous-domaine et en créant une typologie par affinité. Les affinités sont définies directement dans le fichier de configuration de l&#39;instance. Contactez votre administrateur Adobe Campaign.
 
-Pour plus d’informations sur les typologies, consultez [cette section](../../campaign/using/about-campaign-typologies.md).
+Pour plus d’informations sur les typologies, consultez [cette section](../../campaign-opt/using/about-campaign-typologies.md).

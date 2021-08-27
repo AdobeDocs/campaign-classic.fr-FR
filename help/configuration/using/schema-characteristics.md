@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
 
 ---
 
 # Caractéristiques du schéma{#schema-characteristics}
+
+![](../../assets/v7-only.svg)
 
 Les particularités propres à un schéma qui référence une table existante sont les suivantes :
 

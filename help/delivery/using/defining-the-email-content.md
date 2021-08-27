@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: f2300b265fa97e5b208519ab2446927d14f5f91c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 98%
@@ -14,6 +14,8 @@ ht-degree: 98%
 ---
 
 # Définir le contenu de l&#39;email {#defining-the-email-content}
+
+![](../../assets/common.svg)
 
 ## Expéditeur {#sender}
 
@@ -187,9 +189,8 @@ Dans l&#39;assistant de diffusion, lorsque vous ouvrez un contenu HTML avec des 
 >[!IMPORTANT]
 >
 >* Les chemins d&#39;accès aux images sont modifiés lors d&#39;une mise en ligne manuelle ou lors de l&#39;envoi des messages.
-   > 
-   >
-* Pour éviter des problèmes de performances, si vous incluez des images téléchargées à la volée à partir d’une URL personnalisée en tant que [pièce jointe](attaching-files.md), la taille de chaque image ne doit pas dépasser 100 000 octets par défaut. Le seuil recommandé peut être configuré à partir de la [liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
+> 
+>* Pour éviter des problèmes de performances, si vous incluez des images téléchargées à la volée à partir d’une URL personnalisée en tant que [pièce jointe](attaching-files.md), la taille de chaque image ne doit pas dépasser 100 000 octets par défaut. Le seuil recommandé peut être configuré à partir de la [liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 
 **Cas pratique : envoyer un message avec des images ;**

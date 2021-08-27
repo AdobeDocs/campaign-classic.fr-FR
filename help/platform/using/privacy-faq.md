@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
@@ -15,26 +15,28 @@ ht-degree: 100%
 
 # FAQ sur la confidentialité {#privacy-faq}
 
+![](../../assets/common.svg)
+
 Voici quelques-unes des questions fréquentes sur la confidentialité et le consentement lors de l’utilisation d’Adobe Campaign.
 
 ## Termes clés {#key-terms}
 
-### Quels sont les termes clés de la protection de la confidentialité ?
+### Quels sont les termes clés de la protection des données personnelles ?
 
 Les éléments répertoriés ci-dessous renvoient aux termes et concepts clés relatifs à la protection des informations personnelles et au consentement dans Adobe Campaign :
 
 * [Règlements relatifs à la gestion de la confidentialité](../../platform/using/privacy-management.md#privacy-management-regulations)
-* [Données personnelles et acteurs impliqués](../../platform/using/privacy-and-recommendations.md#personal-data)
+* [Données personnelles et personnes concernées](../../platform/using/privacy-and-recommendations.md#personal-data)
 * [Droit d’accès et droit à l’oubli](../../platform/using/privacy-management.md#right-access-forgotten)
 * [Consentement, conservation des données et rôles](../../platform/using/privacy-management.md#consent-retention-roles)
 
 ## Préparation à la réglementation en matière de confidentialité {#privacy-regulations-readiness}
 
-### Que suggère Adobe Campaign pour se conformer aux plus récentes réglementations en matière de protection des informations personnelles ?
+### Que suggère Adobe Campaign pour se conformer aux dernières réglementations en matière de protection des données personnelles ?
 
-Adobe ne fournit pas de conseils juridiques. Vous devriez travailler avec votre propre service juridique pour vous assurer qu’il prend toutes les mesures nécessaires pour le respect du RGPD, de l&#39;ACPCP, de PDPA, du LGPD ou de toute autre disposition réglementaire applicable.
+Adobe ne fournit pas de conseils juridiques. Nous vous recommandons donc de vous rapprocher de votre propre service juridique pour vous assurer qu’il prend toutes les mesures nécessaires pour le respect du RGPD, de l’ACPCP, de PDPA, du LGPD ou de toute autre disposition réglementaire applicable.
 
-**Préparation pour les demandes d’accès et de suppression des données**
+**Préparation aux demandes d’accès et de suppression des données**
 
 * Identifiez un processus pour recevoir les demandes formulées par les titulaires des données et y répondre, en désignant notamment un point de contact en charge de la protection des données.
 
@@ -42,11 +44,11 @@ Adobe ne fournit pas de conseils juridiques. Vous devriez travailler avec votre 
 
 * Définissez des règles et procédures d’authentification et de confirmation de l’identité des titulaires des données.
 
-* Assurez-vous la réponse adressée au titulaire des données soit parfaitement compréhensible.
+* Assurez-vous que la réponse adressée au titulaire des données est parfaitement compréhensible.
 
 **Obtention du consentement**
 
-* Faites l’inventaire des points de contact utilisés pour la capture des données et actualisez-les pour garantir votre conformité avec le RGPD (tenez compte de la langue, du mécanisme d’obtention du consentement et de la conservation de l&#39;historique de ces derniers, par exemple).
+* Établissez régulièrement la liste de tous les points de contact utilisés pour la capture des données afin de garantir votre conformité avec le RGPD (tenez compte de la langue, du mécanisme d’obtention du consentement et des journaux de consentements, par exemple).
 
 * Vérifiez que tous les emails marketing comprennent un lien de désabonnement.
 
@@ -68,9 +70,9 @@ Adobe ne fournit pas de conseils juridiques. Vous devriez travailler avec votre 
 
 ### Comment les contrôleurs de données peuvent-ils obtenir le consentement avec un minimum d’impact sur l’interaction client ?
 
-Dans les cas où le consentement est nécessaire pour certaines activités de commercialisation, le consentement du consommateur doit être actif (c’est-à-dire qu’il n’y a pas de silence en tant qu’avis conforme ou cases pré-cochées), dégroupé, et il ne peut pas être conditionnel à l’offre de services.
+Dans les cas où le consentement est nécessaire pour certaines activités de commercialisation, le consentement du consommateur doit être actif (l’absence de réponse ne peut valoir consentement, pas d’utilisation de cases pré-cochées). Le consentement ne doit pas non plus être groupé, ni être conditionné à l’offre de services.
 
-Il peut même arriver que certains consentements doivent être actualisés pour pouvoir continuer à utiliser les données.
+Certains consentements doivent même parfois être réactualisés pour que les données puissent continuer à être utilisées.
 
 Les spécialistes marketing devraient considérer ces exigences de consentement améliorées comme un véritable indicateur de la fidélité et de l’interaction avec la marque, ainsi que de la satisfaction et de la confiance des clients.
 
@@ -80,9 +82,9 @@ Les spécialistes marketing devraient considérer ces exigences de consentement 
 
 Adobe Campaign offre déjà des capacités de gestion du consentement à plus de niveaux que la plupart des spécialistes marketing ne tirent parti des champs de données personnalisés ou d’un ou plusieurs services.
 
-Les professionnels du marketing devraient consulter leur service juridique pour savoir comment procéder, puis tirer parti des capacités déjà intégrées à Adobe Campaign.
+Il est conseillé aux professionnels du marketing de consulter leur service juridique pour savoir comment procéder, puis tirer parti des capacités déjà intégrées à Adobe Campaign.
 
-Par exemple, l’extension du modèle de données dans Adobe Campaign pour suivre non seulement si les personnes ont choisi de s’inscrire, mais aussi l’horodatage de l’opt-in et un type d’indicateur qui capture la portée précise du consentement.
+Par exemple, il est possible d’étendre le modèle de données dans Adobe Campaign pour suivre non seulement si les personnes ont choisi de s’inscrire, mais aussi l’horodatage de l’opt-in et un type d’indicateur qui capture la portée précise du consentement.
 
 ## Suppression de données {#data-deletion}
 
@@ -106,7 +108,7 @@ Souvent dans Adobe Campaign, l’enregistrement est téléchargé à partir d’
 
 Lorsque vous recevez une demande de suppression, vous devez vérifier, en tant que contrôleur de données, que vous supprimez de tous vos systèmes toutes les données nécessaires concernant le titulaire de données.
 
-## Opt-in à nouveau {#opt-in-again}
+## Renouvellement d’opt-in {#opt-in-again}
 
 ### Est-ce qu&#39;un titulaire de données dont les données ont été effacées d&#39;Adobe Campaign peut à nouveau donner son accord plus tard ?
 

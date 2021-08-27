@@ -2,18 +2,20 @@
 product: campaign
 title: Utilisation des droits nommés pour la configuration des permissions
 description: Découvrez comment utiliser des droits nommés pour configurer des permissions
-feature: Gestion des accès
+feature: Access Management
 role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
 
 # Utilisation des droits nommés pour la configuration des permissions{#named-rights}
+
+![](../../assets/common.svg)
 
 Par défaut, Adobe Campaign propose un ensemble de droits nommés qui permettent de définir les autorisations attribuées aux opérateurs et groupes d&#39;opérateurs. Ces droits peuvent être édités depuis le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;arborescence.
 

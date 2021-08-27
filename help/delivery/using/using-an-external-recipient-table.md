@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%
 
 ---
 
 # Utiliser une table de destinataires externe{#using-an-external-recipient-table}
+
+![](../../assets/common.svg)
 
 Si la table des diffusions est une table externe, vous devez effectuer des paramétrages complémentaires. Le schéma **[!UICONTROL nms:seedmember]** doit alors être étendu. Un onglet supplémentaire est alors ajouté au niveau des adresses de contrôle afin de définir les champs adéquats, comme dans l&#39;exemple ci-dessous :
 

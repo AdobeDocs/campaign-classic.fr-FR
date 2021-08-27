@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
 ---
 
-# Limitation de l’affichage des PII{#restricting-pii-view}
+# Limitation de l&#39;affichage des PI{#restricting-pii-view}
+
+![](../../assets/v7-only.svg)
 
 ## Vue d&#39;ensemble {#overview}
 
@@ -54,7 +56,7 @@ Les conséquences de l&#39;utilisation de cet attribut dans Adobe Campaign sont 
 * Lors du stockage de la population ciblée dans un groupe (liste), les caractéristiques des champs stockés sont identiques à celles de la source de données.
 * Par défaut, les données ne sont pas accessibles par les codes JavaScript.
 
-## Recommandations     {#recommendations}
+## Recommandations {#recommendations}
 
 Dans chaque diffusion, les adresses email sont copiées dans les tables de **[!UICONTROL broadLog]** et **[!UICONTROL forecastLog]** : ces champs doivent donc être aussi protégés.
 

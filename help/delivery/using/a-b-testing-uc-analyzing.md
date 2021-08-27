@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 
 ---
 
 # Analyse du résultat {#step-8--analyzing-the-result}
+
+![](../../assets/common.svg)
 
 Lorsque les diffusions test ont été envoyées, vous avez la possibilité de vérifier à quel(s) destinataire(s) elles ont été envoyées et si elles ont été ouvertes.
 

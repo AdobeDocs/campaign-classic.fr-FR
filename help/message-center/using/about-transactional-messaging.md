@@ -6,8 +6,8 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 
 
 # Prise en main des messages transactionnels {#about-transactional-messaging}
+
+![](../../assets/v7-only.svg)
 
 ## Vue d&#39;ensemble {#overview}
 
@@ -85,7 +87,7 @@ Une fois que vous avez conçu et publié le modèle de message transactionnel, s
 1. L&#39;événement est associé au modèle de message approprié. Voir [Acheminement vers un modèle](../../message-center/using/about-event-processing.md#routing-towards-a-template).
 1. Une fois l&#39;étape d&#39;enrichissement terminée, la diffusion est envoyée. Voir [Exécution de la diffusion](../../message-center/using/delivery-execution.md). Chaque destinataire ciblé reçoit un message personnalisé.
 
-## Rubriques connexes :{#related-topics}
+## Rubriques connexes : {#related-topics}
 
 * [Prise en main des canaux de communication](../../delivery/using/communication-channels.md)
 * [Étapes clés de création de diffusion](../../delivery/using/steps-about-delivery-creation-steps.md)

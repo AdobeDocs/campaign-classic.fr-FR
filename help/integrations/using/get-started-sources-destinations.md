@@ -5,14 +5,16 @@ description: En savoir plus sur les sources et les destinations d’Adobe Experi
 audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 100%
 
 ---
 
 # Prise en main des sources et des destinations {#rtcdp}
+
+![](../../assets/common.svg)
 
 ## À propos des sources et des destinations
 
@@ -23,7 +25,7 @@ Adobe Experience Platform permet de partager des données entre Campaign Clas
 
 >[!IMPORTANT]
 >
->Lorsque vous effectuez cette intégration, gardez à l’esprit les limites du stockage SFTP, du stockage en base de données et des profils actifs selon votre contrat Adobe Campaign.
+>Lorsque vous utilisez cette fonctionnalité, gardez à l&#39;esprit les limites du stockage SFTP, les limites du stockage en base de données, et les limites des profils actifs en fonction de votre contrat Adobe Campaign.
 
 Pour un aperçu plus détaillé d’Adobe Real-time Customer Data Platform, des destinations et des sources, consultez les pages suivantes :
 

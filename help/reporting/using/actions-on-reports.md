@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%
 
 ---
 
 # Agir sur les rapports{#actions-on-reports}
+
+![](../../assets/common.svg)
 
 Lorsque vous visualisez un rapport, la barre d&#39;outils vous permet d&#39;effectuer certaines actions. Elles sont présentées ci-après.
 

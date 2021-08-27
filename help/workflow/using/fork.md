@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
 
 ---
 
 # Branchement{#fork}
+
+![](../../assets/common.svg)
 
 L&#39;activité **[!UICONTROL Branchement]** vous permet de créer plusieurs transitions sortantes, afin d&#39;exécuter plusieurs activités indépendamment au sein du même workflow.
 
@@ -32,4 +34,4 @@ Pour configurer l&#39;activité **[!UICONTROL Branchement]**, ouvrez-la, puis d�
 
 ![](assets/s_user_segmentation_fork.png)
 
-Vous pouvez ensuite configurer chaque transition sortante, puis les associer à l&#39;aide d&#39;une activité [Rendez-vous](../../workflow/using/and-join.md), si nécessaire. Ainsi, le reste du workflow ne s&#39;exécutera qu&#39;une fois les transitions sortantes de l&#39;activité **[!UICONTROL Branchement]** terminées.
+Vous pouvez ensuite configurer chaque transition sortante, puis les associer à l&#39;aide d&#39;une activité [Rendez-vous](and-join.md), si nécessaire. Ainsi, le reste du workflow ne s&#39;exécutera qu&#39;une fois les transitions sortantes de l&#39;activité **[!UICONTROL Branchement]** terminées.

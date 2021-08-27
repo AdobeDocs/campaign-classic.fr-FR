@@ -6,14 +6,16 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 100%
 
 ---
 
 # Création et configuration de modèles d’opération {#campaign-templates}
+
+![](../../assets/common.svg)
 
 Toutes les opérations marketing sont basées sur un modèle qui stocke les principales caractéristiques et fonctionnalités. Les modèles d’opération sont centralisés dans le nœud **[!UICONTROL Ressources > Modèles > Modèles d’opération]**. Un modèle par défaut est fourni en guise d’exemple standard. Il vous permet de créer une opération qui utilise tous les modules disponibles (Documents, Tâches, Adresses de contrôle et autres). Toutefois, les modules proposés dépendent de vos droits et de la configuration de votre plateforme Adobe Campaign.
 

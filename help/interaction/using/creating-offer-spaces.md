@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
 
 ---
 
 # Créer des emplacements d&#39;offres{#creating-offer-spaces}
+
+![](../../assets/v7-only.svg)
 
 La création des emplacements ne peut être effectuée que par un **administrateur technique** qui a accès au sous-dossier des emplacements. Elle ne s&#39;effectue que dans l&#39;environnement en édition. Les emplacements sont automatiquement dupliqués dans l&#39;environnement en ligne lors de la validation des offres.
 
@@ -67,9 +69,9 @@ Pour créer un nouvel emplacement, procédez comme suit :
 
    ![](assets/offer_space_create_007.png)
 
-Pour les interactions entrantes, vous pouvez surcharger les fonctions de rendu XML, si besoin. Pour les interactions sortantes, vous pouvez surcharger les fonctions de rendu HTML et texte. Voir à ce sujet la section [A propos des canaux entrants](../../interaction/using/about-inbound-channels.md).
+Pour les interactions entrantes, vous pouvez surcharger les fonctions de rendu XML, si besoin. Pour les interactions sortantes, vous pouvez surcharger les fonctions de rendu HTML et texte. Voir à ce sujet la section [À propos des canaux entrants](../../interaction/using/about-inbound-channels.md).
 
-## Etats d&#39;une proposition d&#39;offre {#offer-proposition-statuses}
+## États de la proposition d&#39;offre {#offer-proposition-statuses}
 
 Une proposition d&#39;offre peut avoir différents états en fonction des interactions avec la population ciblée. Interaction fournit d&#39;usine un ensemble de valeurs qui peuvent être appliquées à la proposition d&#39;offre tout au long de son cycle de vie. Vous devez cependant paramétrer la plateforme afin que l&#39;état soit modifié lorsque la proposition d&#39;offre est créée, puis acceptée.
 

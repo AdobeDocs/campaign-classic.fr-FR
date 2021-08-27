@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos des rapports natifs de Campaign
-description: A propos des rapports natifs de Campaign
+title: À propos des rapports natifs de Campaign
+description: À propos des rapports natifs de Campaign
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 
 ---
 
-# A propos des rapports natifs de Campaign{#about-campaign-built-in-reports}
+# À propos des rapports natifs de Campaign{#about-campaign-built-in-reports}
+
+![](../../assets/common.svg)
 
 Ce chapitre propose la liste des rapports intégrés d&#39;Adobe Campaign, leur contenu et leur contexte d&#39;affichage. Les informations proposées ci-dessous vous permettront d&#39;éviter de créer des rapports déjà proposés dans la plateforme.
 

@@ -6,8 +6,8 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
 
@@ -15,9 +15,11 @@ ht-degree: 100%
 
 # Envoi d&#39;une demande à Adobe  {#submitting-request-to-adobe}
 
+![](../../assets/common.svg)
+
 >[!NOTE]
 >
->Pour pouvoir continuer, vérifiez qu&#39;IMS est activé sur votre système. Voir à ce propos la section sur [IMS](../../integrations/using/about-adobe-id.md).
+>Pour pouvoir continuer, vérifiez qu&#39;IMS est activé sur votre système. Pour plus d&#39;informations, consultez la section sur [IMS](../../integrations/using/about-adobe-id.md).
 
 Une fois qu&#39;IMS est activé, vous pouvez demander la configuration de l&#39;intégration de People core service/Audience Manager avec Campaign. Pour cela, envoyez un email avec les informations suivantes à l&#39;adresse [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) :
 

@@ -2,18 +2,20 @@
 product: campaign
 title: Mise à niveau d’[!DNL Gold Standard]
 description: 'Découvrez en quoi consiste Campaign Classic [!DNL Gold Standard] '
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: c36a78f6-3332-465d-92f5-48f70b8bdddd
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '555'
 ht-degree: 100%
 
 ---
 
 # Versions [!DNL Gold Standard] {#gs-overviews}
+
+![](../../assets/v7-only.svg)
 
 ## Présentation d’[!DNL Gold Standard] 
 
@@ -99,5 +101,5 @@ Nous nous engageons à mettre à votre disposition des informations pertinentes 
 ## Ressources supplémentaires
 
 * [Notes de mise à jour de [!DNL Gold Standard]](gold-standard.md)
-* [FAQ sur l’upgrade de build](../../platform/using/faq-build-upgrade.md)
+* [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md)
 * [Matrice de compatibilité [!DNL Gold Standard]](compatibility-matrix-gs.md)

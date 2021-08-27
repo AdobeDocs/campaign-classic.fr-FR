@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '3089'
 ht-degree: 100%
 
 ---
 
-# Paramétrages techniques des emails{#email-deliverability}
+# Configurations techniques des emails{#email-deliverability}
+
+![](../../assets/v7-only.svg)
 
 ## Vue d&#39;ensemble {#overview}
 
@@ -73,7 +75,7 @@ Le serveur de statistiques peut fédérer plusieurs instances ou plusieurs machi
 
 Les statistiques de diffusion sont conservées pour chaque MX cible et pour chaque IP source. Par exemple, si le domaine ciblé possède 5 MX et la plateforme peut utiliser 3 adresses IP différentes, le serveur pourra gérer jusqu&#39;à 15 séries d&#39;indicateurs pour ce domaine.
 
-L&#39;adresse IP source correspond à l&#39;adresse IP publique, c&#39;est-à-dire à l&#39;adresse telle qu&#39;elle est vue par le serveur de messagerie distant. Cette adresse IP peut différer de celle de la machine hébergeant le **mta**, si un routeur NAT est présent. Pour cette raison, le serveur de statistiques utilise un identifiant correspondant à l&#39;IP publique (**publicId**). L&#39;association entre l&#39;adresse locale et cet identifiant est déclarée dans le fichier de configuration **serverConf.xml**. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
+L&#39;adresse IP source correspond à l&#39;adresse IP publique, c&#39;est-à-dire à l&#39;adresse telle qu&#39;elle est vue par le serveur de messagerie distant. Cette adresse IP peut différer de celle de la machine hébergeant le **mta**, si un routeur NAT est présent. Pour cette raison, le serveur de statistiques utilise un identifiant correspondant à l&#39;IP publique (**publicId**). L&#39;association entre l&#39;adresse locale et cet identifiant est déclarée dans le fichier de configuration **serverConf.xml**. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
 ## Contrôle de la sortie de diffusion {#delivery-output-controlling}
 
@@ -133,7 +135,7 @@ Par défaut, le serveur de statistiques écoute sur le port 7777. Ce port peut �
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les règles de débit de diffusion avec **[!UICONTROL Gestion des MX]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
 
-### A propos des règles MX {#about-mx-rules}
+### À propos des règles MX {#about-mx-rules}
 
 >[!NOTE]
 >
@@ -158,7 +160,7 @@ user:~ user$ host -t mx yahoo.com
                 yahoo.com mail is handled by 1 mta7.am0.yahoodns.net.
 ```
 
-Les enregistrements MX pour yahoo.com informent l&#39;utilisateur que yahoo.com possède trois MX. Pour se connecter au MX client, le MTA demande son adresse IP au DNS.
+Les enregistrements MX pour yahoo.com informent l&#39;utilisateur que yahoo.com possède trois MX. Pour se connecter au MX client, le MTA demande son adresse IP au DNS.
 
 ```
 user:~ user$ host -t a mta5.am0.yahoodns.net
@@ -194,7 +196,7 @@ Au total, l&#39;utilisateur dispose de seize adresses distantes. Avec ses deux a
 
 >[!NOTE]
 >
->Si deux enregistrement MX référencent la même adresse IP, un seul chemin sera pris en compte, et non deux.
+>Si deux enregistrement MX référencent la même adresse IP, un seul chemin sera pris en compte, et non deux.
 
 Ci-dessous, quelques exemples sur l&#39;utilisation des règles MX :
 
@@ -271,7 +273,7 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
    >
    >Lorsque ce champ est vide, la règle s&#39;applique à tous les identifiants.
 
-   Une ID Publique est l&#39;identifiant interne d&#39;une adresse IP publique utilisée par un ou plusieurs MTA. Ces ID sont définies dans les serveurs MTA dans le fichier **config-instance.xml**.
+   Une ID Publique est l&#39;identifiant interne d&#39;une adresse IP publique utilisée par un ou plusieurs MTA. Ces ID sont définies dans les serveurs MTA dans le fichier **config-instance.xml**.
 
    ![](assets/s_ncs_install_mta_ips.png)
 
@@ -379,15 +381,15 @@ Exemple :
 
 Les paramètres sont les suivants :
 
-* **address** : il s&#39;agit de l&#39;adresse IP de la machine hôte du MTA à utiliser.
-* **heloHost** : cet identifiant représente l&#39;adresse IP telle qu&#39;elle sera vue par le serveur SMTP.
+* **address** : il s&#39;agit de l&#39;adresse IP de la machine hôte du MTA à utiliser.
+* **heloHost** : cet identifiant représente l&#39;adresse IP telle qu&#39;elle sera vue par le serveur SMTP.
 
-* **publicId** : cette information est utile lorsqu&#39;une adresse IP est partagée par plusieurs **mta** Adobe Campaign derrière un routeur NAT. Le serveur de statistiques utilise cet identifiant pour mémoriser les statistiques de connexions et d&#39;envois entre ce point de départ et le serveur cible.
+* **publicId** : cette information est utile lorsqu&#39;une adresse IP est partagée par plusieurs **mta** Adobe Campaign derrière un routeur NAT. Le serveur de statistiques utilise cet identifiant pour mémoriser les statistiques de connexions et d&#39;envois entre ce point de départ et le serveur cible.
 * **weight** : permet de définir la fréquence relative d&#39;utilisation de l&#39;adresse. Par défaut, toutes les adresses ont un poids égal à 1.
 
 >[!NOTE]
 >
->Dans le fichier serverConf.xml, vous devez vérifier qu’une adresse IP correspond à un seul hôte helohost, avec un identifiant unique (public_id). Elle ne peut pas être mappée à plusieurs hôtes helohost, car cela pourrait entraîner des problèmes de contrôle de flux de diffusion.
+>Dans le fichier serverConf.xml, vous devez vérifier qu’une adresse IP correspond à un seul hôte helohost, avec un identifiant unique (public_id). Elle ne peut pas être mappée à plusieurs hôtes helohost, car cela pourrait entraîner des problèmes de contrôle de flux de diffusion.
 
 Dans l&#39;exemple précédent, en condition normale, les adresses seront utilisées selon la répartition suivante :
 
@@ -400,11 +402,11 @@ Si, par exemple, la première adresse est inutilisable vers un MX donné, les me
     * &quot;2&quot;: 5 / (5+1) = 83 %
     * &quot;3&quot;: 1 / (5+1) = 17 %
 
-* **includeDomains** : permet de réserver cette adresse IP aux emails appartenant à un domaine particulier. C&#39;est une liste de masques pouvant contenir un ou plusieurs jokers &#39;*&#39;. Si l&#39;attribut n&#39;est pas renseigné, tous les domaines peuvent utiliser cette adresse IP.
+* **includeDomains** : permet de réserver cette adresse IP aux emails appartenant à un domaine particulier. C&#39;est une liste de masques pouvant contenir un ou plusieurs jokers &#39;*&#39;. Si l&#39;attribut n&#39;est pas renseigné, tous les domaines peuvent utiliser cette adresse IP.
 
    Exemple : **includeDomains=&quot;wanadoo.com,orange.com,yahoo.*&quot;**
 
-* **excludeDomains** : exclut une liste de domaines de cette adresse IP. Ce filtre est applique après le filtre **includeDomains**.
+* **excludeDomains** : exclut une liste de domaines de cette adresse IP. Ce filtre est applique après le filtre **includeDomains**.
 
    ![](assets/s_ncs_install_mta_ips.png)
 

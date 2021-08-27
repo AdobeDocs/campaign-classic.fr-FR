@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 
 ---
 
 # Créer des notifications pour iOS{#create-notifications-ios}
+
+![](../../assets/common.svg)
 
 Cette section présente les éléments spécifiques à la diffusion de notifications iOS. Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
 
@@ -90,7 +92,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
 
 L&#39;envoi du BAT et l&#39;envoi final de la notification s&#39;effectuent de la même manière que pour une diffusion par e-mail.
 
-Une fois les messages envoyés, vous pouvez effectuer la surveillance et le suivi des diffusions.Voir à ce sujet les sections suivantes :
+Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions. Pour plus d’informations, consultez les sections suivantes :
 
 * [Quarantaines des notifications push](understanding-quarantine-management.md#push-notification-quarantines)
 * [Contrôler une diffusion](about-delivery-monitoring.md)

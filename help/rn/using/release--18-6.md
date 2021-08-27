@@ -5,18 +5,20 @@ description: Notes de mise à jour de Campaign 18.6
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '815'
 ht-degree: 100%
 
 ---
 
 # Version 18.6{#release-18-6}
+
+![](../../assets/v7-only.svg)
 
 ## Version 18.6.2 - Build 8949{#release-18-6-3-build-8949}
 

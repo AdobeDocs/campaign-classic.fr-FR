@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
-source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2464'
 ht-degree: 100%
 
 ---
 
 # Ajouter des champs à un formulaire web{#adding-fields-to-a-web-form}
+
+![](../../assets/common.svg)
 
 Dans un formulaire Web, les champs permettent aux utilisateurs de saisir des informations et sélectionner des options. Le formulaire Web peut proposer champs de saisie, des champs de sélection, des contenus statiques ainsi que des contenus avancés de type captcha, abonnements, etc.
 
@@ -375,8 +377,8 @@ Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans u
 >* Adobe Campaign n&#39;applique aucun contrôle sur la taille ou le type de ressource téléchargée : il est donc vivement recommandé de n&#39;utiliser les champs de téléchargement que pour les sites de type intranet sécurisé.
 >* Lorsque plusieurs serveurs sont associés à l&#39;instance (architecture « load balancing »), vous devez vous assurer que les appels au formulaire web arrivent sur le même serveur.
 >* Ce type d&#39;implémentation peut nécessiter l&#39;intervention de l&#39;équipe Consulting d&#39;Adobe Campaign.
->
 
+>
 
 
 ## Insérer une constante masquée {#inserting-a-hidden-constant}

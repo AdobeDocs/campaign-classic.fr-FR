@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: FAQ sur les rapports
-description: FAQ sur Campaign Classic
+description: FAQ Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: b29340a0-954d-41e4-b0a3-9d356e4dc753
-source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # FAQ sur les rapports {#reporting-faq}
+
+![](../../assets/common.svg)
 
 ## Comment créer de nouveaux rapports ? {#how-can-i-create-new-reports-}
 

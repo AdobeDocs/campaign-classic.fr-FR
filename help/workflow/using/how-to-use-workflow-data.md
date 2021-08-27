@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
 ---
 
 # Utiliser les données d&#39;un workflow{#how-to-use-workflow-data}
+
+![](../../assets/common.svg)
 
 ## Mettre à jour la base de données {#updating-the-database}
 
@@ -29,21 +31,21 @@ Les données de la base Adobe Campaign et les listes existantes peuvent être mi
 
    ![](assets/s_user_create_list.png)
 
-   Consultez la section [Mise à jour de liste](../../workflow/using/list-update.md).
+   Pour plus d&#39;informations, consultez la section [Mise à jour de liste](list-update.md).
 
 * L&#39;activité **[!UICONTROL Mise à jour de données]** permet de mettre à jour en masse les champs de la base de données.
 
-   Pour plus d’informations, consultez la section [Mise à jour de données](../../workflow/using/update-data.md).
+   Pour plus d’informations, consultez la section [Mise à jour de données](update-data.md).
 
 ### Gérer les abonnements/désabonnements {#subscription-unsubscription-management}
 
-Pour comprendre comment inscrire et désinscrire des destinataires à un service d&#39;information via un workflow, consultez la section [Services d’inscription](../../workflow/using/subscription-services.md).
+Pour comprendre comment inscrire et désinscrire des destinataires à un service d&#39;information via un workflow, consultez la section [Services d’inscription](subscription-services.md).
 
 ## Envoyer via un workflow {#sending-via-a-workflow}
 
 ### Activité Diffusion {#delivery-activity}
 
-L’activité de diffusion est présentée dans la section [Diffusion](../../workflow/using/delivery.md).
+L’activité de diffusion est présentée dans la section [Diffusion](delivery.md).
 
 ### Enrichir et cibler les diffusions {#enriching-and-targeting-deliveries}
 
@@ -57,7 +59,7 @@ En complément des champs de personnalisation habituels, vous pouvez ajouter dan
 
 ![](assets/s_advuser_using_additional_data.png)
 
-Les données contenues dans la table du workflow sont identifiables par leur nom : il est toujours composé du lien **targetData**. Pour plus d’informations, consultez la section [Données de la cible](../../workflow/using/data-life-cycle.md#target-data).
+Les données contenues dans la table du workflow sont identifiables par leur nom : il est toujours composé du lien **targetData**. Pour plus d’informations, consultez la section [Données de la cible](data-life-cycle.md#target-data).
 
 Dans le cadre d&#39;une diffusion par email, les champs de personnalisation peuvent également utiliser les données issues de l&#39;extension de la cible réalisée dans les étapes du workflow de ciblage, comme dans l&#39;exemple ci-dessous :
 

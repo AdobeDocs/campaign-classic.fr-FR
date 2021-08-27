@@ -6,8 +6,8 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 100%
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 
 
 # Configuration des instances {#creating-a-shared-connection}
+
+![](../../assets/v7-only.svg)
 
 Pour utiliser les fonctionnalités des messages transactionnels, vous devez configurer les instances de pilotage et d&#39;exécution. Vous pouvez utiliser :
 * [Une instance de pilotage](#control-instance) associée à une ou plusieurs instances d&#39;exécution
@@ -40,7 +42,7 @@ Si vous utilisez plusieurs instances d&#39;exécution, vous devez créer autant 
 
 >[!NOTE]
 >
->Lorsque des instances d&#39;exécution sont utilisées par plusieurs instances de pilotage, les données peuvent être divisées par dossier et par opérateur. Voir à ce propos la section [Utilisation de plusieurs instances de pilotage](#using-several-control-instances).
+>Lorsque des instances d&#39;exécution sont utilisées par plusieurs instances de pilotage, les données peuvent être divisées par dossier et par opérateur. Pour plus d&#39;informations, consultez la section [Utilisation de plusieurs instances de pilotage](#using-several-control-instances).
 
 ### Créer un compte externe
 
@@ -75,7 +77,7 @@ Procédez comme suit pour créer un compte externe de type **[!UICONTROL instanc
 
    >[!NOTE]
    >
-   >Pour ne pas avoir à saisir de mot de passe lors de la connexion à l&#39;instance, vous pouvez spécifier l&#39;adresse IP de l&#39;instance de pilotage dans l&#39;instance d&#39;exécution. Voir à ce propos la section [Configuration de la ou des instances d&#39;exécution](#execution-instance).
+   >Pour ne pas avoir à saisir de mot de passe lors de la connexion à l&#39;instance, vous pouvez spécifier l&#39;adresse IP de l&#39;instance de pilotage dans l&#39;instance d&#39;exécution. Pour plus d&#39;informations, consultez la section [Configuration de la ou des instances d&#39;exécution](#execution-instance).
 
 1. Indiquez la méthode de récupération qui doit être utilisée par l&#39;instance d&#39;exécution. Les données à récupérer sont transmises par l&#39;instance d&#39;exécution à l&#39;instance de pilotage, afin d&#39;enrichir les historiques des messages transactionnels et des événements.
 
@@ -99,7 +101,7 @@ Procédez comme suit pour créer un compte externe de type **[!UICONTROL instanc
 
 Lors de l&#39;utilisation de plusieurs instances d&#39;exécution, répétez ces étapes pour créer autant de comptes externes que d&#39;instances d&#39;exécution.
 
-### Identification des instances d&#39;exécution {#identifying-execution-instances}
+### Identification des instances d’exécution {#identifying-execution-instances}
 
 Chaque instance d&#39;exécution doit être associée à un identifiant unique afin de différencier l&#39;historique de chaque instance d&#39;exécution lors de son affichage sur l&#39;instance de pilotage.
 
@@ -117,7 +119,7 @@ L&#39;identifiant peut également être **attribué automatiquement**. Pour ce f
 
 ![](assets/messagecenter_create_extaccount_006bis.png)
 
-## Configuration des instances d&#39;exécution {#execution-instance}
+## Configuration des instances d&#39;exécution  {#execution-instance}
 
 >[!NOTE]
 >
@@ -125,13 +127,13 @@ L&#39;identifiant peut également être **attribué automatiquement**. Pour ce f
 
 Pour connecter la ou les instances d&#39;exécution à l&#39;instance de pilotage, procédez comme suit.
 
-Pour que l&#39;instance de pilotage puisse se connecter à l&#39;instance d&#39;exécution sans avoir à fournir de mot de passe, il suffit de saisir l&#39;adresse IP de l&#39;instance de pilotage dans la section relative aux droits d&#39;accès de **Message Center**. Cependant, les mots de passe vides sont interdits par défaut.
+Pour que l&#39;instance de pilotage puisse se connecter à l&#39;instance d&#39;exécution sans avoir à fournir de mot de passe, il suffit de saisir l&#39;adresse IP de l&#39;instance de pilotage dans la section relative aux droits d&#39;accès de **Message Center**. Cependant, les mots de passe vides sont interdits par défaut.
 
-Pour utiliser un mot de passe vide, accédez aux instances d&#39;exécution et définissez une zone de sécurité limitée à l&#39;adresse IP du système d&#39;information qui diffuse les événements. Cette zone de sécurité doit autoriser les mots de passe vides et accepter les connexions de type `<identifier> / <password>`. Voir à ce propos [cette section](../../installation/using/security-zones.md).
+Pour utiliser un mot de passe vide, accédez aux instances d&#39;exécution et définissez une zone de sécurité limitée à l&#39;adresse IP du système d&#39;information qui diffuse les événements. Cette zone de sécurité doit autoriser les mots de passe vides et accepter les connexions de type `<identifier> / <password>`. Voir à ce propos [cette section](../../installation/using/security-zones.md).
 
 >[!NOTE]
 >
->Lorsque des instances d&#39;exécution sont utilisées par plusieurs instances de pilotage, les données peuvent être divisées par dossier et par opérateur. Voir à ce propos la section [Utilisation de plusieurs instances de pilotage](#using-several-control-instances).
+>Lorsque des instances d&#39;exécution sont utilisées par plusieurs instances de pilotage, les données peuvent être divisées par dossier et par opérateur. Pour plus d&#39;informations, consultez la section [Utilisation de plusieurs instances de pilotage](#using-several-control-instances).
 
 1. Sur une instance d&#39;exécution, positionnez-vous au niveau du dossier de l&#39;opérateur (**[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
 1. Sélectionnez l&#39;agent **Message Center**.
@@ -142,7 +144,7 @@ Pour utiliser un mot de passe vide, accédez aux instances d&#39;exécution et d
 
    ![](assets/messagecenter_operator_002.png)
 
-1. Dans la fenêtre **[!UICONTROL Paramètres d&#39;accès]**, cliquez sur le lien **[!UICONTROL Ajouter un masque IP de confiance]**, et ajoutez l&#39;adresse IP de l&#39;instance de pilotage.
+1. Dans la fenêtre **[!UICONTROL Paramètres d&#39;accès]**, cliquez sur le lien **[!UICONTROL Ajouter un masque IP de confiance]**, et ajoutez l&#39;adresse IP de l&#39;instance de pilotage.
 
    ![](assets/messagecenter_operator_003.png)
 

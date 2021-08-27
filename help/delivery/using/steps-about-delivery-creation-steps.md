@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 
 ---
 
 # À propos des étapes de création de diffusions {#about-delivery-creation}
+
+![](../../assets/common.svg)
 
 Les étapes clés de création d&#39;une diffusion sont les suivantes :
 

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: 1312f7c319c96851bc83ae21501164e2688d0dff
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 100%
 
 ---
 
 # Droits d&#39;accès à la base externe {#remote-database-access-rights}
+
+![](../../assets/v7-only.svg)
 
 Tout d&#39;abord, afin qu&#39;un utilisateur puisse effectuer des opérations sur une base externe via FDA, ce dernier doit disposer d&#39;un droit nommé spécifique dans Adobe Campaign.
 
@@ -51,12 +53,12 @@ L’administrateur de la base de données doit mettre en correspondance ces droi
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | **Connexion à une base de données distante** | Privilèges USAGE ON WAREHOUSE, USAGE ON DATABASE et USAGE ON SCHEMA | Création d’un utilisateur lié au compte AWS | Privilège CREATE SESSION | Permission CONNECT | Privilège CONNECT | Création d’un utilisateur lié à un hôte distant possédant tous les privilèges (ALL PRIVILEGES) |
 | **Création de tables** | Privilège CREATE TABLE ON SCHEMA  | Privilège CREATE | Privilège CREATE TABLE | Permission CREATE TABLE | Privilège CREATE | Privilège CREATE |
-| **Création d’index** | N/A | Privilège CREATE | Privilège INDEX ou CREATE ANY INDEX | Permission ALTER | Privilège CREATE | Privilège INDEX |
+| **Création d&#39;index** | N/A | Privilège CREATE | Privilège INDEX ou CREATE ANY INDEX | Permission ALTER | Privilège CREATE | Privilège INDEX |
 | **Création de fonctions** | Privilège CREATE FUNCTION ON SCHEMA | Privilège USAGE ON LANGUAGE plpythonu pour pouvoir appeler des scripts Python externes | Privilège CREATE PROCEDURE ou CREATE ANY PROCEDURE | Permission CREATE FUNCTION | Privilège USAGE | Privilège CREATE ROUTINE |
 | **Création de procédures** | N/A | Privilège USAGE ON LANGUAGE plpythonu pour pouvoir appeler des scripts Python externes | Privilège CREATE PROCEDURE ou CREATE ANY PROCEDURE | Permission CREATE PROCEDURE | Privilège USAGE (les procédures sont des fonctions) | Privilège CREATE ROUTINE |
-| **Suppression d’objets (tables, index, fonctions, procédures)** | Propriété de l’objet | Être propriétaire de l’objet ou être un super-utilisateur | Privilège DROP ANY &lt; objet >  | Permission ALTER | Table : propriété de la table Index : propriété de l’index Fonction : propriété de la fonction | Privilège DROP |
-| **Surveillance des exécutions** | Privilège MONITOR sur l’objet requis | Aucun privilège requis pour utiliser la commande EXPLAIN | Privilèges INSERT et SELECT et privilège nécessaire pour exécuter l’instruction sur laquelle repose la séquence des opérations EXPLAIN PLAN | Permission SHOWPLAN | Aucun privilège requis pour utiliser l’instruction EXPLAIN | Privilège SELECT |
-| **Écriture de données** | Privilèges INSERT et/ou UPDATE (selon l’opération d’écriture) | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE ou INSERT et UPDATE ANY TABLE | Permissions INSERT et UPDATE | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE |
+| **Suppression d’objets (tables, index, fonctions, procédures)** | Propriété de l&#39;objet | Être propriétaire de l’objet ou être un super-utilisateur | Privilège DROP ANY &lt; objet >  | Permission ALTER | Table : propriété de la table Index : propriété de l’index Fonction : propriété de la fonction | Privilège DROP |
+| **Surveillance des exécutions** | Privilège MONITOR sur l&#39;objet requis | Aucun privilège requis pour utiliser la commande EXPLAIN | Privilèges INSERT et SELECT et privilège nécessaire pour exécuter l’instruction sur laquelle repose la séquence des opérations EXPLAIN PLAN | Permission SHOWPLAN | Aucun privilège requis pour utiliser l’instruction EXPLAIN | Privilège SELECT |
+| **Écriture de données** | Privilèges INSERT et/ou UPDATE (selon l&#39;opération d&#39;écriture) | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE ou INSERT et UPDATE ANY TABLE | Permissions INSERT et UPDATE | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE |
 | **Chargement de données dans des tables** | Privilèges CREATE STAGE ON SCHEMA, SELECT et INSERT sur la table ciblée | Privilèges SELECT et INSERT | Privilèges SELECT et INSERT | Permissions INSERT, ADMINISTER BULK OPERATIONS et ALTER TABLE | Privilèges SELECT et INSERT | Privilège FILE |
 | **Accès aux données clientes** | Privilège(s) SELECT sur (FUTURE) TABLE(S) ou VIEW(S) | Privilège SELECT | Privilège SELECT ou SELECT ANY TABLE | Permission SELECT | Privilège SELECT | Privilège SELECT |
 | **Accès aux métadonnées** | Privilège SELECT sur INFORMATION_SCHEMA SCHEMA | Privilège SELECT | Aucun privilège requis pour utiliser l’instruction DESCRIBE |  Permission VIEW DEFINITION | Aucun privilège requis pour utiliser la commande &quot;\d table&quot; | Privilège SELECT |

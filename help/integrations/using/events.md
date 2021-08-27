@@ -5,14 +5,16 @@ description: Découvrez comment configurer des événements pour une implémenta
 audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 100%
 
 ---
 
 # Configuration des événements pour une implémentation personnalisée {#events}
+
+![](../../assets/common.svg)
 
 Une partie de cette configuration est un travail de développement personnalisé qui requiert les connaissances suivantes :
 

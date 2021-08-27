@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
 
 ---
 
-# Services d&#39;inscriptions{#subscription-services}
+# Services d&#39;abonnements{#subscription-services}
+
+![](../../assets/common.svg)
 
 Une activité de type **Service d&#39;inscriptions** permet d&#39;abonner ou désabonner la population spécifiée par la transition à un service d&#39;information.
 

@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 0a80912aae4cab58b6f06918a673aaca3883fbdf
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2562'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Gestion des demandes d&#39;accès à des informations personnelles {#privacy-requests}
+
+![](../../assets/common.svg)
 
 Pour obtenir une présentation générale de la gestion de la protection des données, consultez [cette section](../../platform/using/privacy-management.md).
 
@@ -33,12 +35,12 @@ Découvrez comment créer des demandes d&#39;Accès et de Suppression, et commen
 
 Adobe Campaign offre aux contrôleurs de données deux moyens d&#39;effectuer les demandes d&#39;accès à des informations personnelles et de suppression :
 
-* Via l&#39;**interface d&#39;Adobe Campaign** : pour chaque demande d&#39;accès à des informations personnelles, le contrôleur de données crée une demande d&#39;accès à des informations personnelles dans Adobe Campaign. Reportez-vous à [cette section](#create-privacy-request-ui).
-* Via l&#39;**API** : Adobe Campaign fournit une API SOAP qui permet le traitement automatique des demandes d&#39;accès à des informations personnelles. Reportez-vous à [cette section](#automatic-privacy-request-api).
+* Via l&#39;**interface d&#39;Adobe Campaign** : pour chaque demande d&#39;accès à des informations personnelles, le contrôleur de données crée une demande d&#39;accès à des informations personnelles dans Adobe Campaign. Voir [cette section](#create-privacy-request-ui).
+* Via l&#39;**API** : Adobe Campaign fournit une API SOAP qui permet le traitement automatique des demandes d&#39;accès à des informations personnelles. Voir [cette section](#automatic-privacy-request-api).
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les données personnelles et sur les différentes entités qui gèrent les données (Contrôleur de données, Responsable du traitement des données et Titulaire de données), consultez [Données personnelles et acteurs impliqués](../../platform/using/privacy-and-recommendations.md#personal-data).
+>Pour plus d&#39;informations sur les données personnelles et sur les différentes entités qui gèrent les données (Contrôleur de données, Responsable du traitement des données et Titulaire de données), consultez la section [Données personnelles et personnes concernées](../../platform/using/privacy-and-recommendations.md#personal-data).
 
 ### Conditions préalables requises {#prerequesites}
 
@@ -275,7 +277,7 @@ Vous pouvez ensuite appeler l&#39;API de protection des données :
 
    * Vous pouvez utiliser une **queryDef** sur le schéma **nms:gdprRequest** pour vérifier le statut de la demande d&#39;accès.
    * Vous pouvez utiliser une **queryDef** sur le schéma **nms:gdprRequestData** pour obtenir le résultat de la demande d&#39;accès.
-   * Pour pouvoir télécharger le fichier XML à partir de **&quot;$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id&quot;**, vous devez être connecté et y accéder à partir d&#39;une adresse IP placée sur une liste autorisée. Pour ce faire, créez une application web vous permettant d&#39;accéder au fichier généré par le JSSP.
+   * Pour pouvoir télécharger le fichier XML à partir de **&quot;$(serverUrl)’/nms/gdpr.jssp?id=’@id&quot;**, vous devez être connecté et y accéder à partir d’une adresse IP placée sur une liste autorisée. Pour ce faire, créez une application web vous permettant d&#39;accéder au fichier généré par le JSSP.
 
 ### Appel de l&#39;API depuis un script JS {#invoking-api-from-js}
 
@@ -388,7 +390,7 @@ Pour que cela fonctionne, vous devez étendre la table Profils et ajouter un cha
 
 >[!IMPORTANT]
 >
->En tant que contrôleur des données, il vous incombe de recevoir la demande du titulaire des données et de suivre les dates de la demande pour le CCPA. En tant que fournisseur de technologie, nous offrons uniquement une option d&#39;opt-out. Pour plus d&#39;informations sur votre rôle en tant que contrôleur de données, voir [Données personnelles et acteurs impliqués](../../platform/using/privacy-and-recommendations.md#personal-data).
+>En tant que contrôleur des données, il vous incombe de recevoir la demande du titulaire des données et de suivre les dates de la demande pour le CCPA. En tant que fournisseur de technologie, nous offrons uniquement une option d&#39;opt-out. Pour plus d&#39;informations sur votre rôle en tant que contrôleur de données, voir [Données personnelles et personnes concernées](../../platform/using/privacy-and-recommendations.md#personal-data).
 
 ### Prérequis {#ccpa-prerequisite}
 

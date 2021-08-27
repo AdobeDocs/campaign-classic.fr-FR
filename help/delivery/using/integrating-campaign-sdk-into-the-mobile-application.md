@@ -7,14 +7,16 @@ content-type: reference
 topic-tags: sending-push-notifications
 version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
 ---
 
 # Intégration du SDK Campaign à votre application {#integrating-campaign-sdk-into-the-mobile-application}
+
+![](../../assets/common.svg)
 
 Les SDK Campaign pour iOS et Android sont des composants du module Canal applications mobiles (Mobile App Channel).
 
@@ -62,7 +64,7 @@ Afin d&#39;intégrer le SDK Campaign dans l&#39;application mobile, l&#39;admini
 
    >[!NOTE]
    >
-   >Cette clé d&#39;intégration est renseignée dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Informations]** du service dédié à l&#39;application mobile. Voir la section [Paramétrage de l&#39;application mobile dans Adobe Campaign](configuring-the-mobile-application.md).
+   >Cette clé d&#39;intégration est renseignée dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Informations]** du service dédié à l&#39;application mobile. Pour plus d&#39;informations, consultez la section [Paramétrage de l’application mobile dans Adobe Campaign](configuring-the-mobile-application.md).
 
 * **Une URL de tracking** correspondant à l&#39;adresse du serveur de tracking Adobe Campaign.
 * **Une URL marketing** permettant de collecter les abonnements.

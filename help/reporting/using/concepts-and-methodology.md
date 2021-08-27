@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 100%
 
 ---
 
 # Bonnes pratiques relatives aux cubes{#concepts-and-methodology}
+
+![](../../assets/common.svg)
 
 ## Mise en classe des données {#data-binning}
 
@@ -22,8 +24,8 @@ La mise en classe permet de simplifier l&#39;affichage des données en regroupan
 Globalement, trois types de mise en classe sont possibles :
 
 1. Utilisation de plages de valeurs définies manuellement. Par exemple, âge, panier d’achat moyen, nombre de diffusions ouvertes, etc.). Voir à ce sujet la section [Définir chaque classe](#defining-each-bin).
-1. Dynamiquement, selon les valeurs d&#39;une énumération : on n&#39;affiche que les valeurs contenues dans l’énumération et toutes les valeurs différentes sont regroupées dans « Autres ». Voir à ce propos la section [Gérer dynamiquement les classes](#dynamically-managing-bins).
-1. En utilisant des plages de valeurs, toutes les autres étant regroupées. Par exemple, les 18 à 25 ans, les 26 à 59 ans, et les autres. Voir à ce propos la section [Créer des plages de valeurs](#creating-value-ranges).
+1. Dynamiquement, selon les valeurs d&#39;une énumération : on n&#39;affiche que les valeurs contenues dans l’énumération et toutes les valeurs différentes sont regroupées dans « Autres ». Pour plus d&#39;informations, consultez la section [Gérer dynamiquement les classes](#dynamically-managing-bins).
+1. En utilisant des plages de valeurs, toutes les autres étant regroupées. Par exemple, les 18 à 25 ans, les 26 à 59 ans, et les autres. Pour plus d&#39;informations, consultez la section [Créer des plages de valeurs](#creating-value-ranges).
 
 Pour activer la mise en classe, cochez l&#39;option correspondante lors de la création de la dimension.
 

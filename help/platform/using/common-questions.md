@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Questions courantes{#common-questions}
+
+![](../../assets/common.svg)
 
 Besoin d’aide lorsque vous utilisez Campaign Classic ? Lisez les 10 premières questions ci-dessous, ainsi que d’autres questions fréquentes dans cette page. Vous pouvez également procéder comme suit :
 
@@ -23,13 +25,13 @@ Besoin d’aide lorsque vous utilisez Campaign Classic ? Lisez les 10 premiè
 * Impossible de trouver la réponse ? [Demander à l&#39;expert](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 * Besoin d&#39;aide ? [Consulter les options d&#39;aide et de support de Campaign](../../support.md)
 
-## 1. Comment effectuer une mise à niveau de Campaign vers le dernière version ? {#how-can-i-upgrade-campaign-to-the-latest-version-}
+## 1. Comment effectuer une mise à niveau de Campaign vers la dernière version ? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
 Adobe Campaign Classic, en particulier, utilise toute une gamme de technologies pour offrir une valeur ajoutée. Cette combinaison de technologies nécessite de mettre régulièrement vos instances Campaign Classic à niveau afin de s’assurer que les versions les plus récentes sont utilisées pour offrir une sécurité, une stabilité et des performances supérieures.
 
 Si vous utilisez Adobe Managed Services, vous pouvez bénéficier de la mise à niveau vers Campaign [!DNL Gold Standard] Voir à ce propos [cet article](../../rn/using/gs-overview.md).
 
-[Lisez cette section](../../production/using/build-upgrade.md) pour savoir comment mettre à jour votre environnement et consultez les [Questions courantes](../../platform/using/faq-build-upgrade.md) sur ce sujet spécifique.
+[Lisez cette section](../../production/using/build-upgrade.md) pour savoir comment mettre à jour votre environnement et consultez les [questions courantes](../../platform/using/faq-build-upgrade.md) sur ce sujet spécifique.
 
 ## 2. Qu&#39;est-ce que le workflow Nettoyage de la base ? {#what-is-the-database-cleanup-workflow-}
 
@@ -55,7 +57,7 @@ Découvrez comment suivre l&#39;exécution des workflows Campaign dans [cette pa
 
 ## 6. Comment se connecter à Campaign Classic ? {#how-can-i-connect-to-campaign-classic-}
 
-Pour vous connecter à Adobe Campaign Classic, vous devez lancer la console cliente Adobe Campaign et saisir les login et mot de passe de votre instance.
+Pour vous connecter à Adobe Campaign Classic, vous devez lancer la console cliente Adobe Campaign et saisir les nom d’utilisateur et mot de passe de votre instance.
 
 [Pour en savoir plus, cliquez ici](../../platform/using/launching-adobe-campaign.md).
 

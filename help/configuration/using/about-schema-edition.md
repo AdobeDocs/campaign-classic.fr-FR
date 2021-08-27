@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos de l’édition de schéma
+title: À propos de l’édition de schéma
 description: Prise en main de l’édition de schéma
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1011'
 ht-degree: 100%
 
 ---
 
-# A propos de l’édition de schéma{#about-schema-edition}
+# À propos de l’édition de schéma{#about-schema-edition}
+
+![](../../assets/v7-only.svg)
 
 Dans Adobe Campaign, les schémas de données permettent de :
 
@@ -47,7 +49,7 @@ Exemple:
 </enumeration>
 ```
 
-Quand vous définissez des champs, vous pouvez ensuite utiliser cette énumération de la façon suivante :
+Quand vous définissez des champs, vous pouvez ensuite utiliser cette énumération de la façon suivante :
 
 ```
 <attribute desc="Type of Transaction" label="Transaction Type" name="transactionType" 
@@ -138,27 +140,27 @@ La liste complète des attributs est disponible dans la section [`<attribute>`El
 
 Pour en xavoir plus sur chaque attribut, consultez la section [Description des attributs](../../configuration/using/schema/attribute.md).
 
-### Exemples      {#examples}
+### Exemples {#examples}
 
-Exemple de définition d&#39;une valeur par défaut :
+Exemple de définition d&#39;une valeur par défaut :
 
 ```
 <attribute name="transactionDate" label="Transaction Date" type="datetime" default="GetDate()"/>
 ```
 
-Exemple d&#39;utilisation d&#39;un attribut commun en tant que modèle pour un champ également marqué comme obligatoire :
+Exemple d&#39;utilisation d&#39;un attribut commun en tant que modèle pour un champ également marqué comme obligatoire :
 
 ```
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
-Exemple de champ calculé masqué au moyen de l&#39;attribut **@advanced** :
+Exemple de champ calculé masqué au moyen de l&#39;attribut **@advanced** :
 
 ```
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
-Exemple de champ XML également stocké dans un champ SQL et qui a un attribut **@dataPolicy** :
+Exemple de champ XML également stocké dans un champ SQL et qui a un attribut **@dataPolicy** :
 
 ```
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
@@ -176,11 +178,11 @@ Les liens sont parmi les derniers éléments de l&#39;élément principal de vot
 
 Les liens sont déclarés dans le schéma qui contient la **clé étrangère** de la table à laquelle il est lié.
 
-Il existe trois types de cardinalité : 1-1, 1-N et N-N. C&#39;est le type d&#39;association 1-N qui est utilisé par défaut.
+Il existe trois types de cardinalité : 1-1, 1-N et N-N. C&#39;est le type d&#39;association 1-N qui est utilisé par défaut.
 
 ### Exemples       {#examples-1}
 
-Exemple de relation 1-N entre la table des destinataires (schéma d&#39;usine) et une table des transactions personnalisée :
+Exemple de relation 1-N entre la table des destinataires (schéma d&#39;usine) et une table des transactions personnalisée :
 
 ```
 <element label="Recipient" name="lnkRecipient" revLink="lnkTransactions" target="nms:recipient" type="link"/>
@@ -192,7 +194,7 @@ Exemple de relation 1-1 entre un schéma personnalisé &quot;Car&quot; (dans l&#
 <element label="Car" name="lnkCar" revCardinality="single" revLink="recipient" target="cus:car" type="link"/>
 ```
 
-Exemple d&#39;une jointure externe entre la table des destinataires et une table des adresses reposant sur l&#39;adresse email et non une clé primaire :
+Exemple d&#39;une jointure externe entre la table des destinataires et une table des adresses reposant sur l&#39;adresse e-mail et non une clé primaire :
 
 ```
 <element name="emailInfo" label="Email Info" revLink="recipient" target="nms:address" type="link" externalJoin="true">
@@ -206,7 +208,7 @@ Exemple d&#39;une jointure externe entre la table des destinataires et une table
 
 Il peut être utile d&#39;ajouter à la fin de votre schéma un élément de suivi.
 
-Procédez comme dans l&#39;exemple ci-dessous pour inclure les champs relatifs à la date de création, à l&#39;utilisateur qui a créé la donnée, à la date et à l&#39;auteur de la dernière modification pour toutes les données de votre table :
+Procédez comme dans l&#39;exemple ci-dessous pour inclure les champs relatifs à la date de création, à l&#39;utilisateur qui a créé la donnée, à la date et à l&#39;auteur de la dernière modification pour toutes les données de votre table :
 
 ```
 <element aggregate="xtk:common:auditTrail" name="auditTrail"/>

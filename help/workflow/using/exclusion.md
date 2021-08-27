@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 
 ---
 
 # Exclusion{#exclusion}
+
+![](../../assets/common.svg)
 
 Une activité de type **Exclusion** crée une cible à partir d&#39;une cible principale dont on extrait une ou plusieurs autres cibles.
 
@@ -23,7 +25,7 @@ Pour paramétrer cette activité, vous devez saisir son libellé et sélectionne
 
 >[!NOTE]
 >
->Pour plus d’informations sur la configuration et l’utilisation de l’activité d’exclusion, voir [Exclure une population (Exclusion)](../../workflow/using/targeting-data.md#excluding-a-population--exclusion-).
+>Pour plus d’informations sur la configuration et l’utilisation de l’activité d’exclusion, voir [Exclure une population (Exclusion)](targeting-data.md#excluding-a-population--exclusion-).
 
 Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire contiendra la population principale en entrée moins la population en sortie. Une seconde transition sera alors ajoutée à l&#39;activité, comme suit :
 

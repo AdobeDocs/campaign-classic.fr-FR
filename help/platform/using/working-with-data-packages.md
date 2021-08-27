@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Utiliser les packages de données{#working-with-data-packages}
 
-## A propos des packages de données {#about-data-packages}
+![](../../assets/common.svg)
+
+## À propos des packages de données {#about-data-packages}
 
 Adobe Campaign vous permet d&#39;exporter ou d&#39;importer la configuration et les données de la plate-forme grâce à un système de packages. Les packages peuvent contenir différents types de configurations et d&#39;éléments, filtrés ou non.
 
@@ -83,11 +85,11 @@ Un package de données peut être construit à la main à partir de n&#39;import
 
 ## Export de packages {#exporting-packages}
 
-### A propos de l&#39;export de packages {#about-package-export}
+### À propos de l&#39;export de packages {#about-package-export}
 
 Les packages peuvent être exportés de trois manières différentes :
 
-* L&#39;**[!UICONTROL assistant d&#39;export de package]** permet d&#39;exporter un ensemble d&#39;objets dans un package unique. Voir à ce propos la section [Exporter un ensemble d&#39;objets dans un package](#exporting-a-set-of-objects-in-a-package)
+* L&#39;**[!UICONTROL assistant d&#39;export de package]** permet d&#39;exporter un ensemble d&#39;objets dans un package unique. Pour plus d&#39;informations, consultez la section [Exporter un ensemble d’objets dans un package](#exporting-a-set-of-objects-in-a-package)
 * Un **objet unique** peut être directement exporté dans un package en cliquant dessus avec le bouton droit de la souris et en sélectionnant **[!UICONTROL Actions > Exporter dans un package]**.
 * Les **définitions de packages** vous permettent de créer une structure de package dans laquelle vous ajoutez des objets qui seront exportés ultérieurement dans un package. Voir à ce sujet la section [Gérer les définitions de packages](#managing-package-definitions).
 
@@ -115,7 +117,7 @@ Pour les trois types de package, l&#39;assistant propose les étapes suivantes :
 
    >[!NOTE]
    >
-   >Le mécanisme de dépendance contrôle la séquence d&#39;exportation des entités. Voir à ce propos la section [Gestion des dépendances](#managing-dependencies).
+   >Le mécanisme de dépendance contrôle la séquence d&#39;exportation des entités. Pour plus d&#39;informations, consultez la section [Gestion des dépendances](#managing-dependencies).
 
 1. L&#39;écran de configuration des entités définit la requête de filtrage sur le type de document à extraire.
 

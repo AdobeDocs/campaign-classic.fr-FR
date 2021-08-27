@@ -1,47 +1,49 @@
 ---
 product: campaign
-title: Utiliser le serveur SFTP
-description: Découvrez les bonnes pratiques et la résolution des problèmes liés au serveur SFTP.
+title: Utiliser le serveur SFTP
+description: Découvrez les bonnes pratiques et la résolution des problèmes liés au serveur SFTP.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 100%
 
 ---
 
-# Bonnes pratiques et résolution des problèmes liés au serveur SFTP {#sftp-server-usage}
+# Bonnes pratiques et résolution des problèmes liés au serveur SFTP {#sftp-server-usage}
 
-## Recommandations globales relatives au serveur SFTP {#global-recommendations}
+![](../../assets/common.svg)
 
-Lors de la gestion de fichiers et de données à des fins d’ETL, ces fichiers sont stockés sur un serveur SFTP hébergé, fourni par Adobe. Veillez à suivre les recommandations ci-dessous lors de l’utilisation de serveurs SFTP.
+## Recommandations globales relatives au serveur SFTP {#global-recommendations}
+
+Lors de la gestion de fichiers et de données à des fins d’ETL, ces fichiers sont stockés sur un serveur SFTP hébergé, fourni par Adobe. Veillez à suivre les recommandations ci-dessous lors de l’utilisation de serveurs SFTP.
 
 * Utilisez l’authentification par clé plutôt que par mot de passe pour éviter l’expiration du mot de passe (la période de validité des mots de passe est de 90 jours). De plus, l’authentification par clé permet de générer plusieurs clés, par exemple lors de la gestion de plusieurs entités. À l’inverse, l’authentification par mot de passe nécessite le partage du mot de passe avec toutes les entités que vous gérez.
 
    Le format de clé pris en charge est SSH-2 RSA 2048. Les clés peuvent être générées avec des outils tels que PyTTY (Windows) ou ssh-keygen (Unix). Vous devrez fournir la clé publique à l’équipe de support Adobe via l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour qu’elle soit téléchargée sur le serveur Campaign.
 
-* Utilisez des batchs dans les téléchargements SFTP ainsi que dans les workflows.
+* Utilisez des batchs dans les téléchargements SFTP ainsi que dans les workflows.
 
 * Gérez les erreurs/exceptions.
 
 * Par défaut, tous les dossiers que vous créez sont en lecture/écriture pour votre identifiant uniquement. Lorsque vous créez des dossiers auxquels Campaign doit accéder, veillez à les configurer avec des droits en lecture/écriture pour l&#39;ensemble du groupe. Sinon, les workflows peuvent ne pas pouvoir créer/supprimer des fichiers, car ils sont exécutés sous un identifiant différent au sein du même groupe pour des raisons de sécurité.
 
-* Les adresses IP publiques à partir desquelles vous tentez d&#39;établir la connexion SFTP doivent être ajoutées à la liste autorisée sur l&#39;instance Campaign. L’ajout des adresses IP à la liste autorisée peut être demandé par l’intermédiaire de l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+* Les adresses IP publiques à partir desquelles vous tentez d&#39;établir la connexion SFTP doivent être ajoutées à la liste autorisée sur l&#39;instance Campaign. L’ajout des adresses IP à la liste autorisée peut être demandé par l’intermédiaire de l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Bonnes pratiques d’utilisation des bases de données {#sftp-server-best-practices}
 
-Les serveurs SFTP sont conçus en tant qu’espaces de stockage temporaire sur lequel vous pouvez contrôler la conservation et la suppression des fichiers.
+Les serveurs SFTP sont conçus en tant qu’espaces de stockage temporaire sur lequel vous pouvez contrôler la conservation et la suppression des fichiers.
 
-Lorsqu’ils ne sont pas correctement utilisés ou surveillés, ces espaces peuvent rapidement remplir l’espace physique disponible sur le serveur et entraîner la troncation des fichiers lors des téléchargements suivants. Une fois l’espace saturé, la purge automatique peut être déclenchée et effacer les fichiers les plus anciens de l’espace de stockage SFTP.
+Lorsqu’ils ne sont pas correctement utilisés ou surveillés, ces espaces peuvent rapidement remplir l’espace physique disponible sur le serveur et entraîner la troncation des fichiers lors des téléchargements suivants. Une fois l’espace saturé, la purge automatique peut être déclenchée et effacer les fichiers les plus anciens de l’espace de stockage SFTP.
 
 Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques ci-après.
 
 >[!NOTE]
 >
->Si votre instance est hébergée sur AWS, vous pouvez surveiller le stockage de votre serveur SFTP au moyen du [Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=fr) Campaign Classic. Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr).
+>Si votre instance est hébergée sur AWS, vous pouvez surveiller le stockage de votre serveur SFTP au moyen du [panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=fr) Campaign Classic. Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr).
 >
 >Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d&#39;octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
@@ -51,22 +53,22 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques ci-
 
 * Utilisez des workflows pour supprimer correctement les données (gérez la conservation depuis les workflows utilisant les données).
 
-* Connectez-vous de temps à autre au SFTP afin de vérifier directement ce qui s’y trouve.
+* Connectez-vous de temps à autre au SFTP afin de vérifier directement ce qui s’y trouve.
 
-* Gardez à l’esprit que la gestion des disques SFTP relève principalement de votre responsabilité.
+* Gardez à l’esprit que la gestion des disques SFTP relève principalement de votre responsabilité.
 
-## Utilisation d’un serveur SFTP externe {#external-SFTP-server}
+## Utilisation d’un serveur SFTP externe {#external-SFTP-server}
 
-Si vous utilisez votre propre serveur SFTP, suivez autant que possible les recommandations mentionnées ci-dessus.
+Si vous utilisez votre propre serveur SFTP, suivez autant que possible les recommandations mentionnées ci-dessus.
 
-En outre, lors de la spécification dans Campaign Classic d’un chemin d’accès à un serveur SFTP externe, la syntaxe du chemin d’accès diffère selon le système d’exploitation du serveur SFTP :
+En outre, lors de la spécification dans Campaign Classic d’un chemin d’accès à un serveur SFTP externe, la syntaxe du chemin d’accès diffère selon le système d’exploitation du serveur SFTP :
 
-* Si votre serveur SFTP est sous **Windows**, utilisez toujours un chemin relatif.
+* Si votre serveur SFTP est sous **Windows**, utilisez toujours un chemin relatif.
 * Si votre serveur STP est sous **Linux**, utilisez toujours un chemin relatif au répertoire de base (commençant par &quot;~/&quot;) ou un chemin absolu (commençant par &quot;/&quot;).
 
-## Problèmes de connexion liés au serveur SFTP hébergé par Adobe {#sftp-server-troubleshooting}
+## Problèmes de connexion liés au serveur SFTP hébergé par Adobe {#sftp-server-troubleshooting}
 
-La section ci-après indique les informations à vérifier et à fournir à l’équipe de support d’Adobe via l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) lorsque vous rencontrez des problèmes liés aux serveurs SFTP hébergés d’Adobe.
+La section ci-après indique les informations à vérifier et à fournir à l’équipe de support d’Adobe via l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) lorsque vous rencontrez des problèmes liés aux serveurs SFTP hébergés d’Adobe.
 
 1. Vérifiez que votre instance est en cours d’exécution. Pour cela, ouvrez votre navigateur, puis effectuez un appel **[!UICONTROL GET]** sur le point d’entrée **[!UICONTROL /r/test]** de l’instance :
 
@@ -83,7 +85,7 @@ La section ci-après indique les informations à vérifier et à fournir à l’
 
    Dans tous les cas, indiquez la réponse de la commande dans le ticket de support.
 
-1. Vérifiez si le port 22 sortant est ouvert sur le site à partir duquel vous essayez d&#39;initialiser la connexion SFTP. Pour cela, utilisez la commande suivante :
+1. Vérifiez si le port 22 sortant est ouvert sur le site à partir duquel vous essayez d&#39;initialiser la connexion SFTP. Pour cela, utilisez la commande suivante :
 
    ```
    bash-3.2$ nc -vz <SFTP_URL> 22
@@ -100,8 +102,8 @@ La section ci-après indique les informations à vérifier et à fournir à l’
 
    Si le port n&#39;est pas ouvert, veillez à ouvrir les connexions sortantes de votre côté, puis réessayez. Si vous rencontrez toujours des problèmes de connexion, partagez la sortie de la commande avec l’équipe de l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
-1. Vérifiez que l&#39;adresse IP publique à partir de laquelle vous essayez d&#39;établir la connexion SFTP est celle que vous avez fournie au support Adobe pour la liste autorisée.
-1. Si vous utilisez une authentification par mot de passe, votre mot de passe peut avoir expiré (les mots de passe ont une période de validité de 90 jours). Nous vous recommandons donc vivement d’utiliser une authentification par clé (voir [Bonnes pratiques d&#39;utilisation du serveur SFTP](#sftp-server-best-practices)).
+1. Vérifiez que l&#39;adresse IP publique à partir de laquelle vous essayez d&#39;établir la connexion SFTP est celle que vous avez fournie au support Adobe pour la liste autorisée.
+1. Si vous utilisez une authentification par mot de passe, votre mot de passe peut avoir expiré (les mots de passe ont une période de validité de 90 jours). Nous vous recommandons donc vivement d’utiliser une authentification par clé (voir [Bonnes pratiques d&#39;utilisation du serveur SFTP](#sftp-server-best-practices)).
 1. Si vous utilisez une authentification par clé, vérifiez que la clé que vous utilisez est la même que celle fournie à l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour la configuration de l’instance.
 1. Si vous utilisez FileZilla ou un outil FTP équivalent, fournissez les détails des logs de connexion dans le ticket de support.
 
@@ -126,7 +128,7 @@ Cette erreur indique que le nom de domaine du serveur FTP n&#39;a pas pu être r
 1. Résolution des problèmes de **configuration du serveur DNS** :
 
    1. Vérifiez si le nom du serveur a été ajouté au serveur DNS local.
-   1. Si oui, exécutez la commande suivante sur le serveur Adobe Campaign pour obtenir l’adresse IP :
+   1. Si oui, exécutez la commande suivante sur le serveur Adobe Campaign pour obtenir l’adresse IP :
 
       `nslookup <server domain name>`
 
@@ -142,12 +144,12 @@ Cette erreur indique que le nom de domaine du serveur FTP n&#39;a pas pu être r
 
    1. Accédez au workflow Audit et vérifiez si les logs affichent l’erreur « Impossible de résoudre le nom d’hôte ».
 
-1. Si le serveur SFTP est hébergé par Adobe, vérifiez si l&#39;adresse IP est ajoutée à la liste autorisée en contactant l&#39;Assistance clientèle.
+1. Si le serveur SFTP est hébergé par Adobe, vérifiez si l&#39;adresse IP est ajoutée à la liste autorisée en contactant l&#39;Assistance clientèle.
 
    Sinon, validez :
 
    * Le mot de passe ne contient pas le caractère « @ ». La connexion a échoué si le mot de passe contient le caractère « @ ».
-   * Il n’existe aucun problème de pare-feu qui peut gêner la communication entre le serveur applicatif Adobe Campaign et le serveur SFTP.
-   * Exécutez les commandes tracert et telnet du serveur de campagne vers le serveur sftp pour vérifier s’il y a des problèmes de connexion.
+   * Il n’existe aucun problème de pare-feu qui peut gêner la communication entre le serveur applicatif Adobe Campaign et le serveur SFTP.
+   * Exécutez les commandes tracert et telnet du serveur de campagne vers le serveur sftp pour vérifier s’il y a des problèmes de connexion.
    * Il n&#39;y a pas de problème de protocole de communication.
    * Le port est ouvert.

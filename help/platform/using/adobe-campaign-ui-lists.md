@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Gestion et personnalisation de listes{#manage-and-customize-lists}
+
+![](../../assets/common.svg)
 
 Vous pouvez accéder aux listes des enregistrements de la base de données Campaign à l’aide de l’Explorateur. Vous pouvez filtrer ces listes, lancer des recherches, ajouter des informations, filtrer et trier les données.
 
@@ -25,7 +27,7 @@ En bas à droite de l&#39;écran de liste, un **[!UICONTROL compteur]** indique 
 
 ![](assets/s_ncs_user_nb_200_0.png)
 
-Si un &quot;**?**&quot; apparaît à la place du nombre de droite, cliquez sur le compteur pour lancer le calcul.
+Si un point d’interrogation ( **?** ) apparaît à la place du nombre à droite, cliquez sur le compteur pour lancer le calcul.
 
 ### Chargement d’enregistrements supplémentaires {#loading-more-records}
 
@@ -70,7 +72,7 @@ Une autre méthode pour ajouter des colonnes, lorsque vous souhaitez afficher de
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. Dans la fenêtre de configuration de la liste, double-cliquez parmi les **[!UICONTROL Champs disponibles]** sur le champ à ajouter à la liste afin de l&#39;ajouter aux **[!UICONTROL Colonnes de sortie]**.
+1. Dans la liste **[!UICONTROL Champs disponibles]** de la fenêtre de configuration de la liste, double-cliquez sur un champ pour l’ajouter à la zone **[!UICONTROL Colonnes de sortie]**.
 
    ![](assets/s_ncs_user_configurelist.png)
 
@@ -84,7 +86,7 @@ Une autre méthode pour ajouter des colonnes, lorsque vous souhaitez afficher de
    >
    >Les champs sont identifiés par des icônes spécifiques : champs SQL, tables liées, champs calculés, etc. Pour chaque champ sélectionné, la description est affichée sous la liste des champs disponibles. [En savoir plus](#configuring-lists).
    >
-   >Vous pouvez également trier et filtrer les données. Reportez-vous à [cette section](../../platform/using/filtering-options.md).
+   >Vous pouvez également trier et filtrer les données. Consultez [cette section](../../platform/using/filtering-options.md).
 
 1. Répétez la procédure pour chaque colonne à afficher.
 1. Utilisez les flèches pour modifier l&#39;**ordre d&#39;affichage**. La colonne la plus haute sera la plus à gauche dans la liste des enregistrements.
@@ -127,15 +129,15 @@ Les listes peuvent afficher :
 * soit les enregistrements contenus dans le dossier sélectionné uniquement,
 * soit les enregistrements du dossier sélectionné ET ceux de ses sous-dossiers.
 
-Pour basculer d&#39;un mode d&#39;affichage à l&#39;autre, cliquer sur l&#39;icône **[!UICONTROL Afficher les fils]** dans la barre d&#39;outils.
+Pour basculer d&#39;un mode d&#39;affichage à l&#39;autre, cliquez sur l&#39;icône **[!UICONTROL Afficher les fils]** dans la barre d&#39;outils.
 
 ![](assets/s_ncs_user_display_children_icon.png)
 
 ## Enregistrement d’une configuration de liste {#saving-a-list-configuration}
 
-La configuration des listes est locale au poste de travail. Lorsque le cache local est vidé, les configurations locales sont désactivées.
+La configuration des listes s’applique localement, sur le poste de travail. Lorsque le cache local est vidé, les configurations locales sont désactivées.
 
-Les paramétrages d&#39;affichage définis s&#39;appliquent par défaut à toutes les listes, pour le type de dossier correspondant. Ainsi, lorsque vous modifiez l&#39;affichage de la liste des destinataires à partir d&#39;un dossier, cette configuration sera appliquée à tous les autres dossiers de destinataires.
+Les paramétrages d&#39;affichage définis s&#39;appliquent par défaut à toutes les listes, pour le type de dossier correspondant. Ainsi, lorsque vous modifiez l&#39;affichage de la liste des destinataires à partir d&#39;un dossier, cette configuration est appliquée à tous les autres dossiers de destinataires.
 
 Toutefois, il est possible d&#39;enregistrer un ou plusieurs paramétrages afin de les appliquer à différents dossiers du même type. Le paramétrage est sauvegardé dans les propriétés du dossier qui contient les données et peut être réappliqué.
 
@@ -163,7 +165,7 @@ Cliquez sur **[!UICONTROL Enregistrer]** dans la fenêtre des propriétés du do
 
 ## Export d’une liste {#exporting-a-list}
 
-Pour exporter les données d&#39;une liste, vous devez utiliser l&#39;assistant d&#39;export. Pour y accèder, sélectionnez les éléments de la liste à exporter, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Exporter...]**.
+Pour exporter les données d&#39;une liste, vous devez utiliser l&#39;assistant d&#39;export. Pour y accéder, sélectionnez les éléments de la liste à exporter, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Exporter...]**.
 
 L&#39;utilisation des fonctions d&#39;importation et d&#39;exportation est expliquée dans la section [Imports et exports génériques](../../platform/using/about-generic-imports-exports.md).
 
@@ -194,7 +196,7 @@ Vous pouvez également paramétrer le tri ou combiner les critères de tri. Pour
 
    La priorité du tri n&#39;a aucune incidence sur l&#39;affichage des colonnes de la liste.
 
-1. Cliquez sur **[!UICONTROL Ok]** pour valider ce paramétrage et visualiser le résultat dans la liste.
+1. Cliquez sur **[!UICONTROL OK]** pour valider ce paramétrage et visualiser le résultat dans la liste.
 
 ### Recherche d&#39;éléments {#running-a-search}
 

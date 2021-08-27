@@ -6,8 +6,8 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: ht
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
 
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 # Prise en main des questionnaires{#about-surveys}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign comprend un module graphique pour définir et publier des applications Web. Il est utilisé pour créer des pages, telles qu&#39;un formulaire d&#39;édition sur un réseau extranet, ou des formulaires de notification comprenant des données de la base de données avec des tableaux, graphiques, formulaires de saisie, etc. Utilisez cette fonctionnalité pour concevoir et publier des pages web dans lesquelles les utilisateurs peuvent rechercher ou saisir des informations.
 
 Le module complémentaire **Questionnaire** facultatif permet de créer un nouveau type d&#39;application web pour créer et gérer des questionnaires en ligne, tels que des formulaires permettant d&#39;ajouter ou de modifier des informations de profil, de vous abonner ou de vous désabonner d&#39;une publication, ou un formulaire de participation à un concours. Une fois les réponses collectées, elles sont stockées dans la base de données ou dans des variables locales. Le modèle de données peut être étendu dynamiquement à l&#39;aide des réponses données aux questionnaires. Vous pouvez visualiser les résultats en temps réel, filtrer les réponses et les analyser à l&#39;aide de graphiques dédiés.
 
 Ce chapitre présente la création et la gestion des **formulaires**, la gestion des champs et des pages, les modes de stockage et les enregistrements.
 
-[!DNL :bulb:] Découvrez comment créer votre premier questionnaire dans [cette page](getting-started-with-surveys.md).
+Découvrez comment créer votre premier questionnaire dans [cette page](getting-started-with-surveys.md).
 
 >[!NOTE]
 >

@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 100%
 
 ---
 
 # Créer une diffusion email{#creating-an-email-delivery}
+
+![](../../assets/common.svg)
 
 Pour créer une diffusion email, procédez comme suit :
 
@@ -26,5 +28,5 @@ Pour créer une diffusion email, procédez comme suit :
 
    ![](assets/s_ncs_user_wizard_email01_1.png)
 
-1. Identifiez la diffusion avec un libellé, un code et une description. Voir à ce propos [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
+1. Identifiez votre diffusion avec un libellé, un code et une description. Pour plus d&#39;informations à ce sujet, consultez [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 1. Cliquez sur **Continuer** pour valider ces informations et afficher la fenêtre de configuration du message.

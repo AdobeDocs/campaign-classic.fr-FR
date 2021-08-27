@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
 ---
 
 # À propos de ce cas d&#39;utilisation {#about-use-case}
+
+![](../../assets/common.svg)
 
 Dans ce cas pratique, vous allez comparer deux contenus de diffusion par email via un workflow de ciblage. Le message et le texte sont identiques dans les deux diffusions. Seules les présentations diffèrent.
 

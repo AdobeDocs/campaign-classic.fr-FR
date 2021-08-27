@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: 3958fff140cc9bf6c371f0c4207cafc9a27bb725
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 100%
 
 ---
 
 # Intégration à un serveur web pour Windows{#integration-into-a-web-server-for-windows}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign inclut Apache Tomcat pour agir comme point d&#39;entrée dans le code du serveur applicatif via HTTP (et SOAP).
 
@@ -51,7 +53,7 @@ Sous IIS 7, en plus des services standards, vous devez installer les Extensions 
 Les étapes de paramétrage sont les suivantes :
 
 1. Ouvrez le Gestionnaire de service Internet (IIS) via le menu **[!UICONTROL Panneau de configuration > Outils d&#39;administration > Gestionnaire des services Internet.]**
-1. Créez et paramétrez le site (Adobe Campaign, par exemple) en fonction des contraintes de votre réseau (port TCP de connexion, host DNS, adresse IP).
+1. Créez et paramétrez le site (Adobe Campaign, par exemple) en fonction des contraintes de votre réseau (port TCP de connexion, host DNS, adresse IP).
 
    ![](assets/s_ncs_install_iis7_add_site.png)
 

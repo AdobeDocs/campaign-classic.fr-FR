@@ -6,8 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 100%
 
@@ -15,15 +15,17 @@ ht-degree: 100%
 
 # Utiliser des cubes pour explorer les données{#using-cubes-to-explore-data}
 
+![](../../assets/common.svg)
+
 Marketing Analytics permet de simplifier la création de rapports ainsi que l&#39;identification et la sélection de données de la base via l&#39;utilisation des cubes. Vous pouvez ainsi :
 
 * Créer des rapports basés sur des cubes. La procédure est décrite dans la section [Explorer les données dans un rapport](#exploring-the-data-in-a-report).
-* Collecter des données de la base et les regrouper dans des listes, par exemple pour identifier et construire les cibles des diffusions. Voir à ce propos la section [Construire une population cible](#building-a-target-population).
+* Collecter des données de la base et les regrouper dans des listes, par exemple pour identifier et construire les cibles des diffusions. Pour plus d&#39;informations, consultez la section [Construire une population cible](#building-a-target-population).
 * Insérer un tableau croisé dynamique dans un rapport, au sein duquel vous référencez un cube existant. Voir à ce sujet la section [Insérer un tableau croisé dynamique dans un rapport](#inserting-a-pivot-table-into-a-report).
 
 >[!NOTE]
 >
->Marketing Analytics est nécessaire pour créer ou modifier des cubes. Voir à ce sujet la section [A propos des cubes](../../reporting/using/about-cubes.md).
+>Marketing Analytics est nécessaire pour créer ou modifier des cubes. Voir à ce sujet la section [À propos des cubes](../../reporting/using/about-cubes.md).
 
 ## Explorer les données dans un rapport {#exploring-the-data-in-a-report}
 
@@ -166,4 +168,4 @@ Pour créer un tableau qui explore les données d&#39;un cube, les étapes sont 
 
    ![](assets/s_advuser_cube_in_report_02.png)
 
-   Vous pourrez ainsi construire le rapport à afficher. Voir à ce propos la section [Etape 2 - Sélection des lignes et colonnes](#step-2---selecting-lines-and-columns).
+   Vous pourrez ainsi construire le rapport à afficher. Pour plus d&#39;informations, consultez la section [Etape 2 - Sélection des lignes et colonnes](#step-2---selecting-lines-and-columns).

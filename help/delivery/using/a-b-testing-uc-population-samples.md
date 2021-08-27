@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
 ---
 
 # Configuration des échantillons de population {#step-2--configuring-population-samples}
+
+![](../../assets/common.svg)
 
 ## Configurer l&#39;activité de Requête {#configuring-the-query-activity}
 

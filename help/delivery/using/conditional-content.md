@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 100%
 
 ---
 
 # Contenu conditionnel{#conditional-content}
+
+![](../../assets/common.svg)
 
 En configurant des champs de contenu conditionnel, vous pouvez créer une personnalisation dynamique basée sur le profil du destinataire, par exemple. Les blocs de texte et/ou les images sont remplacés lorsqu&#39;une condition particulière est remplie.
 

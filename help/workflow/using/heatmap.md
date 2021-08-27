@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 100%
 
 ---
 
 # Carte thermique des workflows {#workflow-heatmap}
+
+![](../../assets/common.svg)
 
 La Carte thermique des workflows Campaign est une représentation graphique avec code-couleur de tous les workflows en cours d’exécution. Elle est disponible uniquement pour les **administrateurs de Campaign**.
 
@@ -29,14 +31,14 @@ Elle permet plus précisément aux administrateurs de la plateforme d’effectue
 * filtrer les workflows par durée pour déterminer ceux risquant de rencontrer des problèmes ;
 * filtrer les activités par durée pour déterminer celles risquant de rencontrer des problèmes ;
 * trouver facilement des workflows distincts et toutes les activités associées (avec leur durée) ;
-* filtrer par type de workflow : [workflows techniques](../../workflow/using/building-a-workflow.md#technical-workflows) ou [workflows de campagne](../../workflow/using/building-a-workflow.md#campaign-workflows) ;
+* filtrer par type de workflow : [workflows techniques](building-a-workflow.md#technical-workflows) ou [workflows de campagne](building-a-workflow.md#campaign-workflows) ;
 * rechercher un workflow spécifique à analyser.
 
 >[!NOTE]
 >
->Outre la **carte thermique des workflows**, vous pouvez créer un workflow qui vous permettra de surveiller le statut d’un ensemble de workflows et d’envoyer des messages récurrents aux superviseurs. Voir à ce sujet la [section dédiée](../../workflow/using/supervising-workflows.md).
+>Outre la **carte thermique des workflows**, vous pouvez créer un workflow qui vous permettra de surveiller le statut d’un ensemble de workflows et d’envoyer des messages récurrents aux superviseurs. Voir à ce sujet la [section dédiée](supervising-workflows.md).
 
-L’utilisation de la carte thermique des workflows demande une bonne maîtrise des concepts suivants : [Workflows](../../workflow/using/about-workflows.md), [Activités](../../workflow/using/about-activities.md) et [Bonnes pratiques relatives aux workflows](../../workflow/using/workflow-best-practices.md).
+L’utilisation de la carte thermique des workflows demande une bonne maîtrise des concepts suivants : [Workflows](about-workflows.md), [Activités](about-activities.md) et [Bonnes pratiques relatives aux workflows](workflow-best-practices.md).
 
 ## Personnalisation de la Carte thermique des workflows {#using-the-heatmap}
 
@@ -75,8 +77,8 @@ L’utilisation de la carte thermique des workflows demande une bonne maîtrise 
 
 1. Vous pouvez également appliquer un filtre selon le **[!UICONTROL Type de workflow]** :
 
-   * **[!UICONTROL Technique]** : seuls les [workflows techniques d&#39;usine](../../workflow/using/building-a-workflow.md#technical-workflows) et les [workflows de Data Management](../../workflow/using/targeting-data.md#data-management) s&#39;affichent.
-   * **[!UICONTROL Marketing]** : seuls les workflows associés à une campagne marketing, appelés [workflows de campagne](../../workflow/using/building-a-workflow.md#campaign-workflows), s&#39;affichent.
+   * **[!UICONTROL Technique]** : seuls les [workflows techniques d&#39;usine](building-a-workflow.md#technical-workflows) et les [workflows de Data Management](targeting-data.md#data-management) s&#39;affichent.
+   * **[!UICONTROL Marketing]** : seuls les workflows associés à une campagne marketing, appelés [workflows de campagne](building-a-workflow.md#campaign-workflows), s&#39;affichent.
 
 1. Pour rechercher un workflow spécifique par nom, vous pouvez également utiliser le champ **[!UICONTROL Filtre de nom de workflow]**.
 

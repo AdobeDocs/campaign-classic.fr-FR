@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 100%
 
 ---
 
 # Cas pratiques{#use-cases}
+
+![](../../assets/common.svg)
 
 ## Analyser une population {#analyzing-a-population}
 
@@ -31,7 +33,7 @@ Pour cela, sélectionnez les diffusions concernées, puis cliquez avec le bouton
 
 ### Choisir le type d&#39;analyse à réaliser {#selecting-a-type-of-analysis}
 
-Dans la première étape de l’assistant, vous pouvez sélectionner le modèle d’analyse descriptive à utiliser. Par défaut, Adobe Campaign propose deux modèles : **[!UICONTROL Distribution qualitative]** et **[!UICONTROL Distribution quantitative]**. Voir à ce propos la section [Paramétrer le modèle de distribution qualitative](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-qualitative-distribution-template). Les différents rendus sont présentés dans la section [A propos de l’analyse descriptive](../../reporting/using/about-descriptive-analysis.md).
+Dans la première étape de l’assistant, vous pouvez sélectionner le modèle d’analyse descriptive à utiliser. Par défaut, Adobe Campaign propose deux modèles : **[!UICONTROL Distribution qualitative]** et **[!UICONTROL Distribution quantitative]**. Pour plus d&#39;informations, consultez la section [Paramétrer le modèle de distribution qualitative](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-qualitative-distribution-template). Les différents rendus sont présentés dans la section [À propos de l’analyse descriptive](../../reporting/using/about-descriptive-analysis.md).
 
 Pour cet exemple, choisissez le modèle **[!UICONTROL Distribution qualitative]** et sélectionnez un affichage avec graphe et tableau. Nommez le rapport &quot;Mon analyse descriptive&quot; et cliquez sur le bouton **[!UICONTROL Suivant]**.
 

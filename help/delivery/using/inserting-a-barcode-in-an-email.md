@@ -5,8 +5,8 @@ description: Insérer un code-barres dans un email
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 
 
 # Insérer un code-barres dans un email{#inserting-a-barcode-in-an-email}
+
+![](../../assets/common.svg)
 
 Le module de génération de codes-barres permet de créer plusieurs types de codes-barres répondant aux normes les plus courantes, dans les formats 1D (unidimensionnel) et 2D (bidimensionnel).
 

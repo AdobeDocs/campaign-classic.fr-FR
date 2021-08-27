@@ -6,20 +6,22 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '1655'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '1658'
+ht-degree: 99%
 
 ---
 
 # Bonnes pratiques relatives aux workflows{#workflow-best-practices}
 
+![](../../assets/common.svg)
+
 ## Exécution et performance {#execution-and-performance}
 
 Vous trouverez ci-dessous des instructions générales pour l’optimisation des performances de Campaign, notamment des bonnes pratiques à appliquer à vos workflows.
 
-Vous trouverez également dans [cette section](../../production/using/workflow-execution.md) des instructions pour résoudre les problèmes liés à l’exécution des workflows.
+Des instructions de dépannage relatives à l’exécution des workflows sont également disponibles dans le [Guide de production de Campaign Classic v7](../../production/using/workflow-execution.md).
 
 ### Logs {#logs}
 
@@ -42,7 +44,7 @@ Deux autres solutions sont proposées :
    Cette option, disponible dans l&#39;onglet **[!UICONTROL Exécution]** des propriétés d&#39;un workflow, permet d&#39;enregistrer toutes les requêtes SQL générées par l&#39;outil à partir des différentes activités. Elle permet ainsi de savoir ce qui est actuellement exécuté par la plateforme. Cette option ne doit toutefois être utilisée que temporairement pendant le développement et ne pas être activée en production.
 
 Purgez les logs lorsqu’ils ne sont plus nécessaires. L’historique d’un workflow n’est pas purgé automatiquement : tous les messages sont conservés par défaut. Vous pouvez purger l’historique depuis le menu **[!UICONTROL Fichier > Actions]** ou en cliquant sur le bouton Actions situé dans la barre d’outils au-dessus de la liste. Choisissez Purge de l’historique.
-Pour savoir comment purger les logs, consultez cette [documentation](../../workflow/using/starting-a-workflow.md).
+Pour savoir comment purger les logs, consultez cette [documentation](starting-a-workflow.md).
 
 ### Planification des workflows {#workflow-planning}
 
@@ -116,17 +118,17 @@ Vous devez surveiller tous les workflows planifiés s&#39;exécutant dans des en
 
 Dans les propriétés d&#39;un workflow, sélectionnez un groupe de responsables : le groupe **[!UICONTROL Superviseurs de workflow]** par défaut ou un groupe personnalisé. Vérifiez qu&#39;un opérateur au moins appartient à ce groupe et qu&#39;il dispose d&#39;une adresse email.
 
-Avant de commencer la construction d’un workflow, pensez à définir les superviseurs. Ceux-ci seront avertis par email lorsqu’un workflow sera en erreur. Voir à ce propos la section [Gérer les erreurs](../../workflow/using/monitoring-workflow-execution.md#managing-errors).
+Avant de commencer la construction d’un workflow, pensez à définir les superviseurs. Ceux-ci seront avertis par email lorsqu’un workflow sera en erreur. Pour plus d&#39;informations, consultez la section [Gérer les erreurs](monitoring-workflow-execution.md#managing-errors).
 
-Vérifiez régulièrement l’onglet **[!UICONTROL Supervision]** pour connaître le statut des workflows actifs. Voir à ce propos la section [Supervision de l’instance](../../workflow/using/monitoring-workflow-execution.md#instance-supervision).
+Vérifiez régulièrement l’onglet **[!UICONTROL Supervision]** pour connaître le statut des workflows actifs. Pour plus d&#39;informations, consultez la section [Supervision de l’instance](monitoring-workflow-execution.md#instance-supervision).
 
-La carte thermique des workflows permet aux administrateurs de la plateforme Adobe Campaign de surveiller la charge sur l’instance et de planifier les workflows en conséquence. Voir à ce sujet [Surveillance des workflows](../../workflow/using/heatmap.md).
+La carte thermique des workflows permet aux administrateurs de la plateforme Adobe Campaign de surveiller la charge sur l’instance et de planifier les workflows en conséquence. Voir à ce sujet [Surveillance des workflows](heatmap.md).
 
 ## Utilisation des activités {#using-activities}
 
 >[!CAUTION]
 >
->Vous pouvez copier et coller des activités dans un même workflow. Toutefois, nous vous déconseillons de copier et coller des activités dans différents workflows. Certains paramètres associés à des activités telles que Diffusions et Planificateur peuvent entraîner des conflits et des erreurs lors de l&#39;exécution du workflow de destination. Nous vous recommandons plutôt de **dupliquer** les workflows. Pour plus d’informations, voir la section [Duplication des workflows](../../workflow/using/building-a-workflow.md#duplicating-workflows).
+>Vous pouvez copier et coller des activités dans un même workflow. Toutefois, nous vous déconseillons de copier et coller des activités dans différents workflows. Certains paramètres associés à des activités telles que Diffusions et Planificateur peuvent entraîner des conflits et des erreurs lors de l&#39;exécution du workflow de destination. Nous vous recommandons plutôt de **dupliquer** les workflows. Pour plus d&#39;informations, voir la section [Duplication des workflows](building-a-workflow.md#duplicating-workflows).
 
 ### Attribution d&#39;un nom à une activité {#name-of-the-activity}
 
@@ -137,11 +139,11 @@ Le nom d&#39;une activité figure dans l&#39;onglet **[!UICONTROL Avancé]**. Ne
 ### Premières et dernières activités {#first-and-last-activities}
 
 * Commencez toujours votre workflow par une activité **[!UICONTROL Début]** ou une activité **[!UICONTROL Planificateur]**. Lorsque cela est pertinent, vous pouvez également utiliser une activité **[!UICONTROL Signal externe]**.
-* Lors de la construction de votre workflow, n&#39;utilisez qu&#39;une seule **** activité Planificateur par branche. Si une même branche d&#39;un workflow comporte plusieurs planificateurs (liés les uns aux autres), le nombre de tâches à exécuter sera multiplié de manière exponentielle, ce qui surchargerait considérablement la base. Cette règle s’applique également à toutes les activités comportant un onglet **[!UICONTROL Planification &amp; historique]**. En savoir plus sur la [planification](../../workflow/using/scheduler.md).
+* Lors de la construction de votre workflow, n&#39;utilisez qu&#39;une seule **** activité Planificateur par branche. Si une même branche d&#39;un workflow comporte plusieurs planificateurs (liés les uns aux autres), le nombre de tâches à exécuter sera multiplié de manière exponentielle, ce qui surchargerait considérablement la base. Cette règle s’applique également à toutes les activités comportant un onglet **[!UICONTROL Planification &amp; historique]**. En savoir plus sur la [planification](scheduler.md).
 
    ![](assets/wf-scheduler.png)
 
-* Utilisez des activités **[!UICONTROL Fin]** dans tous vos workflows. Cela permet à Adobe Campaign de libérer l’espace temporaire utilisé pour réaliser les calculs dans les workflows. Voir à ce sujet la section [Début et Fin](../../workflow/using/start-and-end.md).
+* Utilisez des activités **[!UICONTROL Fin]** dans tous vos workflows. Cela permet à Adobe Campaign de libérer l’espace temporaire utilisé pour réaliser les calculs dans les workflows. Voir à ce sujet la section [Début et Fin](start-and-end.md).
 
 ### Code JavaScript dans une activité {#javascript-within-an-activity}
 

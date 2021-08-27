@@ -2,18 +2,20 @@
 product: campaign
 title: Gestion de l’accès aux dossiers Campaign
 description: Découvrez comment octroyer l’accès aux dossiers Campaign et créer des vues
-feature: Paramétrage de l’application
+feature: Application Settings
 role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '775'
 ht-degree: 100%
 
 ---
 
 # Gestion de l’accès aux dossiers{#folder-access-management}
+
+![](../../assets/common.svg)
 
 Chaque dossier de l’arborescence de navigation de l’Explorateur dispose de droits d’accès en lecture, en écriture et en suppression associés. Pour accéder à un fichier, un opérateur ou un groupe d’opérateurs doit avoir au moins un accès en lecture.
 

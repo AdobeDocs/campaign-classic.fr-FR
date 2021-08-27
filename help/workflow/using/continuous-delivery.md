@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 
 ---
 
 # Diffusion (au fil de l&#39;eau){#continuous-delivery}
+
+![](../../assets/common.svg)
 
 Une action de type **diffusion continue** permet d‘ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion évite d’avoir à créer une diffusion à chaque fois. Ce mode est souvent plus efficace, en particulier pour les alertes de faible volume ou les notifications envoyées selon les besoins.
 

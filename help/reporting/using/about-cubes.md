@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos des cubes
-description: A propos des cubes
+title: À propos des cubes
+description: À propos des cubes
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 100%
 
 ---
 
 # Prise en main des cubes{#about-cubes}
+
+![](../../assets/common.svg)
 
 L&#39;exploration des données de la base est proposée à travers le module **Marketing Analytics**. Elle permet d&#39;analyser et de mesurer les données, de calculer des statistiques, ainsi que de simplifier et d&#39;optimiser la création et le calcul des rapports. En complément, Marketing Analytics permet de créer des rapports et d&#39;y construire des populations cibles. Une fois identifiées, les populations sont stockées dans des listes, qui peuvent ensuite être exploitées dans Adobe Campaign (ciblage, segmentation, etc.).
 

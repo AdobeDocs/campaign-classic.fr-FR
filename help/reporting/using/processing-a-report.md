@@ -6,8 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 exl-id: d133efec-33e1-4711-a90f-e40385059386
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 100%
 
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 # Utiliser un rapport d’analyse{#processing-a-report}
 
+![](../../assets/common.svg)
+
 ## Sauvegarder un rapport d&#39;analyse {#saving-an-analysis-report}
 
 Si vous bénéficiez des droits adéquats, vous pouvez sauvegarder un rapport d&#39;analyse créé depuis un modèle ou l&#39;exporter au format Excel, PDF et OpenDocument.
 
 Pour sauvegarder votre rapport, cliquez sur **[!UICONTROL Enregistrer]** et appliquez un libellé à votre rapport.
 
-Sélectionnez **[!UICONTROL Enregistrer aussi les données]** si vous souhaitez créer un historique de votre rapport et retrouver les valeurs du rapport au moment où vous le sauvegardez. Voir à ce propos la section [Archiver les rapports d&#39;analyse](#archiving-analysis-reports).
+Sélectionnez **[!UICONTROL Enregistrer aussi les données]** si vous souhaitez créer un historique de votre rapport et retrouver les valeurs du rapport au moment où vous le sauvegardez. Pour plus d&#39;informations, consultez la section [Archiver les rapports d&#39;analyse](#archiving-analysis-reports).
 
 L&#39;option **[!UICONTROL Partager ce rapport]** rend le rapport accessible à d&#39;autres opérateurs.
 

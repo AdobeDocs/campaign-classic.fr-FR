@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
 
 ---
 
-# Envoi d&#39;emails sur un mobile japonais {#sending-emails-on-japanese-mobiles}
+# Envoi d’emails sur un mobile japonais {#sending-emails-on-japanese-mobiles}
+
+![](../../assets/common.svg)
 
 ## Formats d&#39;email pour les mobiles japonais {#email-formats-for-japanese-mobiles}
 
@@ -74,7 +76,7 @@ En plus du diagnostic de prévisualisation, une deuxième vérification est effe
 
 Cette règle permet de s&#39;assurer que la diffusion respecte les [contraintes de format](#limitations-and-recommendations) définies par les opérateurs japonais, notamment la taille totale de l&#39;email, la taille de ses parties HTML et texte, le nombre d&#39;images dans le message et les balises du contenu HTML.
 
-### Envoyer un bon à tirer {#sending-proofs}
+### Envoi d&#39;un bon à tirer {#sending-proofs}
 
 Vous pouvez envoyer des BAT pour tester la diffusion. Lors de l&#39;envoi d&#39;un BAT, si vous avez recours à des adresses de substitution, veillez à saisir des adresses correspondant au format des emails du profil utilisé.
 

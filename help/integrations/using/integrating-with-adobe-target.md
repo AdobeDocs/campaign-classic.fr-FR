@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 
 ---
 
 # Intégration avec Adobe Target{#integrating-with-adobe-target}
+
+![](../../assets/common.svg)
 
 L&#39;intégration entre Adobe Campaign et Adobe Target (Classic et Standard) au sein d&#39;Adobe Experience Cloud vous permet d&#39;inclure une offre d&#39;Adobe Target dans une diffusion email d&#39;Adobe Campaign.
 
@@ -28,7 +30,7 @@ Plusieurs types de données peuvent être exploités par Adobe Target :
 
 * données provenant du datamart Adobe Campaign ;
 * segments associés à l&#39;identifiant visiteur dans Adobe Target, si les données utilisées ne sont pas soumises à des limitations légales ;
-* données d&#39;Adobe Target : user agent, adresse IP, données de géolocalisation.
+* données d&#39;Adobe Target : user agent, adresse IP, données de géolocalisation.
 
 >[!NOTE]
 >

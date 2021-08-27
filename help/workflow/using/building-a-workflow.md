@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1679'
 ht-degree: 100%
 
 ---
 
 # Construire un workflow {#building-a-workflow}
+
+![](../../assets/common.svg)
 
 Cette section détaille les principes clés et les bonnes pratiques pour la création d’un workflow dans Campaign.
 
@@ -55,10 +57,10 @@ Vous devez maintenant définir les différentes activités et les relier entre e
 
 Les activités sont regroupées par catégories dans les onglets de la palette. Les onglets et activités disponibles peuvent varier en fonction du type de workflow (technique, de ciblage ou workflow de campagne).
 
-* Le premier onglet contient les activités de ciblage et de manipulation de données. Ces activités sont détaillées dans la section [Activités de ciblage](../../workflow/using/about-targeting-activities.md).
-* Le deuxième Onglet contient les activités de planification qui servent principalement à coordonner les autres. Elles sont détaillées dans la section [Activités d&#39;ordonnancement](../../workflow/using/about-flow-control-activities.md).
-* Le troisième onglet contient les outils et les actions utilisables dans le workflow. Ces activités sont décrites en détail dans la section [Activités d&#39;action](../../workflow/using/about-action-activities.md).
-* Le quatrième onglet regroupe les activités qui dépendent d&#39;un événement particulier, par exemple la réception d&#39;un email ou l&#39;arrivée d&#39;un fichier sur un serveur. Ces activités sont décrites en détail dans la section [Activités événementielles](../../workflow/using/about-event-activities.md).
+* Le premier onglet contient les activités de ciblage et de manipulation de données. Ces activités sont détaillées dans la section [Activités de ciblage](about-targeting-activities.md).
+* Le deuxième Onglet contient les activités de planification qui servent principalement à coordonner les autres. Elles sont détaillées dans la section [Activités d&#39;ordonnancement](about-flow-control-activities.md).
+* Le troisième onglet contient les outils et les actions utilisables dans le workflow. Ces activités sont décrites en détail dans la section [Activités d&#39;action](about-action-activities.md).
+* Le quatrième onglet regroupe les activités qui dépendent d&#39;un événement particulier, par exemple la réception d&#39;un email ou l&#39;arrivée d&#39;un fichier sur un serveur. Ces activités sont décrites en détail dans la section [Activités événementielles](about-event-activities.md).
 
 Pour construire le diagramme
 
@@ -104,7 +106,7 @@ L&#39;affichage et la mise en page du diagramme peuvent être modifiés à l&#39
 
 * **Gestion des images**
 
-   Vous pouvez personnaliser l&#39;image de fond du diagramme et les images associées aux différentes activités. Reportez-vous à la section [Gestion des images d&#39;activité](../../workflow/using/managing-activity-images.md).
+   Vous pouvez personnaliser l&#39;image de fond du diagramme et les images associées aux différentes activités. Pour plus d&#39;informations, consultez la section [Gestion des images d&#39;activité](managing-activity-images.md).
 
 ## Configurer les activités {#configuring-activities}
 
@@ -112,7 +114,7 @@ Double-cliquez sur une activité pour la paramétrer ou cliquez avec le bouton d
 
 >[!NOTE]
 >
->Les activités de workflow d’opérations disponibles sont présentées dans [cette section](../../workflow/using/about-activities.md).
+>Les activités de workflow d’opérations disponibles sont présentées dans [cette section](about-activities.md).
 
 Le premier onglet contient le paramétrage de base. L’onglet **[!UICONTROL Avancé]** contient des paramètres supplémentaires, qui permettent notamment de définir le comportement en cas d’erreur ainsi que la durée d’exécution de l’activité, et de saisir un script d’initialisation.
 
@@ -124,13 +126,13 @@ Afin de faciliter la compréhension des activités et améliorer la lisibilité 
 
 Un workflow de ciblage permet de construire une ou plusieurs cibles de diffusion. Vous pouvez créer des requêtes, définir des unions ou des exclusions sur des critères précis, ajouter une planification, à l&#39;aide des activités de workflows. Le résultat de ce ciblage peut être automatiquement transféré dans une liste qui pourra ensuite constituer la cible d&#39;actions de diffusion.
 
-En complément de ces activités, les options de Data Management permettent de manipuler les données et d&#39;accéder à des fonctionnalités avancées pour répondre à des problématiques de ciblage complexes. Voir à ce sujet la section [Data Management](../../workflow/using/targeting-data.md#data-management).
+En complément de ces activités, les options de Data Management permettent de manipuler les données et d&#39;accéder à des fonctionnalités avancées pour répondre à des problématiques de ciblage complexes. Voir à ce sujet la section [Data Management](targeting-data.md#data-management).
 
 Toutes ces activités sont regroupées dans le premier onglet du workflow.
 
 >[!NOTE]
 >
->Les activités de ciblage sont présentées dans [cette section](../../workflow/using/about-activities.md).
+>Les activités de ciblage sont présentées dans [cette section](about-activities.md).
 
 Les workflows de ciblage peuvent être créés et édités à partir du noeud **[!UICONTROL Profils et Cibles > Traitements > Workflows de ciblage]** de l&#39;arborescence Adobe Campaign ou à partir du menu **[!UICONTROL Profils et Cibles > Workflows de ciblage]** de la page d&#39;accueil.
 
@@ -142,11 +144,11 @@ Les workflows de ciblage qui s&#39;inscrivent dans le contexte d&#39;une opérat
 
 Les étapes de création d’un workflow de ciblage sont détaillées dans les sections suivantes :
 
-1. **Identifier** les données dans la base de données - Voir [Créer des requêtes](../../workflow/using/targeting-data.md#creating-queries)
-1. **Préparer** les données pour répondre aux besoins des diffusions - Voir [Enrichir/Modifier des données](../../workflow/using/targeting-data.md#enriching-and-modifying-data)
-1. **Utiliser** les données pour effectuer des mises à jour ou dans une diffusion - Voir [Mise à jour de la base de données](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)
+1. **Identifier** les données dans la base de données - Voir [Créer des requêtes](targeting-data.md#creating-queries)
+1. **Préparer** les données pour répondre aux besoins des diffusions - Voir [Enrichir/Modifier des données](targeting-data.md#enriching-and-modifying-data)
+1. **Utiliser** les données pour effectuer des mises à jour ou dans une diffusion - Voir [Mise à jour de la base de données](how-to-use-workflow-data.md#updating-the-database)
 
-Les résultats de tous les enrichissements et manipulations effectués lors du ciblage sont stockés pour être accessibles dans les champs de personnalisation, notamment pour les utiliser dans la création de messages personnalisés. Voir à ce sujet la section [Données de la cible](../../workflow/using/data-life-cycle.md#target-data)
+Les résultats de tous les enrichissements et manipulations effectués lors du ciblage sont stockés pour être accessibles dans les champs de personnalisation, notamment pour les utiliser dans la création de messages personnalisés. Voir à ce sujet la section [Données de la cible](data-life-cycle.md#target-data)
 
 ### Dimension de ciblage et dimension de filtrage {#targeting-and-filtering-dimensions}
 
@@ -194,7 +196,7 @@ Le sous-dossier **[!UICONTROL Processus de campagne]** centralise les workflows 
 
 >[!NOTE]
 >
->La liste des workflows techniques installés avec chaque module est disponible dans une [section dédiée](../../workflow/using/about-technical-workflows.md).
+>La liste des workflows techniques installés avec chaque module est disponible dans une [section dédiée](about-technical-workflows.md).
 
 Vous pouvez créer d&#39;autres workflows techniques dans le noeud **[!UICONTROL Administration > Exploitation > Workflows techniques]** de l&#39;arborescence. Cette manipulation est toutefois réservée à des utilisateurs experts.
 

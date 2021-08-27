@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 100%
 
 ---
 
 # Cas pratiques : formulaires web{#use-cases-web-forms}
+
+![](../../assets/common.svg)
 
 ## Créer un formulaire d’abonnement avec double opt-in {#create-a-subscription--form-with-double-opt-in}
 

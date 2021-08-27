@@ -6,14 +6,16 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 100%
 
 ---
 
 # Gestion des documents associés {#managing-associated-documents}
+
+![](../../assets/common.svg)
 
 Vous pouvez associer divers documents à une opération : rapports, photos, pages web, diagrammes et bien d’autres. Ces documents peuvent avoir n’importe quel format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF et autres).
 
@@ -126,7 +128,7 @@ Dans l&#39;exemple suivant, le libellé, le coût prévisionnel estimé et la de
 
 ![](assets/s_ncs_user_op_composition_in_export_template.png)
 
-Le modèle d&#39;export doit être associé au prestataire sélectionné pour la diffusion concernée. Reportez-vous à [cette section](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+Le modèle d&#39;export doit être associé au prestataire sélectionné pour la diffusion concernée. Consultez [cette section](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
 >[!NOTE]
 >

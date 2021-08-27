@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos des outils de reporting d'Adobe Campaign
+title: À propos des outils de reporting d'Adobe Campaign
 description: Analysez la réussite de vos campagnes dans des rapports natifs ou personnalisés.
 audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
 ---
 
-# Prise en main de la création de rapports {#about-adobe-campaign-reporting-tools}
+# Prise en main des rapports {#about-adobe-campaign-reporting-tools}
+
+![](../../assets/common.svg)
 
 En complément des [rapports natifs](../../reporting/using/about-campaign-built-in-reports.md), Adobe Campaign permet de générer des rapports dans différents contextes et de répondre à des besoins variés. Les principes d&#39;utilisation et leur mode de mise en œuvre sont présentés dans ce document.
 

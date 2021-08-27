@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 100%
 
 ---
 
 # Ajout d&#39;un champ calculé de type Enumérations {#adding-an-enumeration-type-calculated-field}
+
+![](../../assets/common.svg)
 
 Vous allez élaborer une requête comportant un champ calculé de type **[!UICONTROL Enumérations]**. Ce champ va produire une colonne supplémentaire dans la fenêtre de prévisualisation des données. Cette colonne précisera les valeurs chiffrées correspondant au genre des destinataires (0, 1 et 2). Chaque valeur chiffrée se verra attribuer un genre dans la colonne : &quot;Homme&quot; pour &quot;1&quot;, &quot;Femme&quot; pour &quot;2&quot; ou le statut &quot;Non renseigné&quot; si la valeur est &quot;0&quot;.
 

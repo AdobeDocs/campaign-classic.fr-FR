@@ -2,18 +2,20 @@
 product: campaign
 title: Matrice de compatibilité pour Campaign [!DNL Gold Standard]
 description: 'Matrice de compatibilité Campaign Classic pour la version  [!DNL Gold Standard] '
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '513'
 ht-degree: 100%
 
 ---
 
 # [!DNL Gold Standard] Matrice de compatibilité{#compatibility-matrix-gs}
+
+![](../../assets/v7-only.svg)
 
 Ce document répertorie tous les systèmes et composants pris en charge pour les builds **Adobe Campaign Classic[!DNL Gold Standard]** 19.1. Les produits et versions ne faisant pas partie de cette liste ne sont pas compatibles avec cette version d&#39;Adobe Campaign.
 

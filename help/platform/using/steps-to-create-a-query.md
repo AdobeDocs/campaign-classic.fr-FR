@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 100%
@@ -15,14 +15,16 @@ ht-degree: 100%
 
 # Etapes pour créer une requête{#steps-to-create-a-query}
 
+![](../../assets/common.svg)
+
 Les étapes de construction d&#39;une requête dans Adobe Campaign sont les suivantes :
 
-1. Sélectionner la table de travail. Voir la section [Etape 1 - Sélection de la table](#step-1---choose-a-table).
-1. Sélectionner les données à extraire. Voir la section [Etape 2 - Sélection des données à extraire](#step-2---choose-data-to-extract).
-1. Définir la séquence de tri des données. Voir la section [Etape 3 - Tri des données](#step-3---sort-data).
-1. Filtrer les données. Voir la section [Etape 4 - Filtrage des données](#step-4---filter-data).
-1. Mettre en forme les données. Voir la section [Etape 5 - Formatage des données](#step-5---format-data).
-1. Afficher le résultat. Voir la section [Etape 6 - Prévisualisation des données](#step-6---preview-data).
+1. Sélectionner la table de travail. Pour plus d&#39;informations, consultez la section [Etape 1 - Sélection de la table](#step-1---choose-a-table).
+1. Sélectionner les données à extraire. Pour plus d&#39;informations, consultez la section [Etape 2 - Sélection des données à extraire](#step-2---choose-data-to-extract).
+1. Définir la séquence de tri des données. Pour plus d&#39;informations, consultez la section [Etape 3 - Tri des données](#step-3---sort-data).
+1. Filtrer les données. Pour plus d&#39;informations, consultez la section [Etape 4 - Filtrage des données](#step-4---filter-data).
+1. Mettre en forme les données. Pour plus d&#39;informations, consultez la section [Etape 5 - Formatage des données](#step-5---format-data).
+1. Afficher le résultat. Pour plus d&#39;informations, consultez la section [Etape 6 - Prévisualisation des données](#step-6---preview-data).
 
 >[!NOTE]
 >

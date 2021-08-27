@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: d9ffa58d-81e3-4291-8502-3cb7c326b666
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
 ---
 
 # Serveur de messagerie{#messaging-server}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign gère nativement l&#39;envoi d&#39;emails. Toutefois, un serveur de messagerie traditionnel est nécessaire afin de recevoir les retours liés aux mails non livrables (mailer daemons). Les boîtes aux lettres configurées sur ce serveur sont automatiquement relevées et traitées par l&#39;application.
 

@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
-source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 100%
 
 ---
 
 # Tracking des visites sur une application web{#tracking-a-web-application}
+
+![](../../assets/common.svg)
 
 Adobe Campaign permet de suivre et de mesurer les visites sur les pages des applications Web en insérant des balises de tracking. Cette fonctionnalité peut être utilisée pour tous les types d&#39;applications web (formulaires, pages web, etc.).
 

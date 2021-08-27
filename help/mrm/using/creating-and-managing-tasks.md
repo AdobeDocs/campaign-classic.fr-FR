@@ -6,8 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '3899'
 ht-degree: 100%
 
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 # Création et gestion de tâches{#creating-and-managing-tasks}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign permet de créer des tâches et de gérer leur cycle de vie complet directement au sein de l&#39;application. La mise en œuvre des programmes et des opérations peut être découpée en tâches qui sont assignées à des opérateurs Adobe Campaign ou à des prestataires externes. Ce mode de fonctionnement permet de créer un environnement de collaboration ouvert incluant tous les participants au programme et les intervenants externes.
 
 Les tâches peuvent être créées, visualisées et suivies au niveau de liste des tâches et du tableau de bord d&#39;une opération. Elles peuvent également être visualisées et suivies au niveau des plannings du plan marketing, des programmes et des opérations.
 
 Les tâches sont attachées à des opérations, et peuvent avoir des dépendances, c&#39;est-à-dire des tâches associées. Chaque tâche a un statut, une priorité, une charge estimée et des coûts associés.
 
-Toutes les tâches sont regroupées dans une liste accessible à partir de l&#39;onglet **Campagnes**. Voir à ce propos la section [Accéder aux tâches](#accessing-tasks).
+Toutes les tâches sont regroupées dans une liste accessible à partir de l&#39;onglet **Campagnes**. Pour plus d&#39;informations, consultez la section [Accéder aux tâches](#accessing-tasks).
 
 Elles peuvent être affichées dans le planning du programme auquel elles appartiennent.
 
@@ -384,7 +386,7 @@ Le bouton **[!UICONTROL Propriétés]** de chaque tâche permet de définir les 
 
 #### Tâches liées {#linked-tasks}
 
-Utilisez le champ **[!UICONTROL Tâche liée]** pour associer des tâches à une tâche de groupement. Voir la section [Types de tâches](#types-of-task).
+Utilisez le champ **[!UICONTROL Tâche liée]** pour associer des tâches à une tâche de groupement. Pour plus d&#39;informations, consultez la section [Types de tâches](#types-of-task).
 
 Dans l&#39;exemple suivant, la validation des ciblages est découpée en quatre sous-tâches.
 
@@ -433,8 +435,8 @@ Une tâche peut être : **[!UICONTROL Planifiée]**, **[!UICONTROL En cours]**, 
 >
 >* Le statut de la tâche est mis à jour automatiquement.
 >* Même si la période de validité est terminée, une tâche qui n&#39;a pas été close par son responsable apparaît toujours dans les tâches en cours. Un message d&#39;avertissement est affiché pour alerter les opérateurs que la tâche est en retard.
->
 
+>
 
 
 ### Statut d&#39;avancement d&#39;une tâche {#progress-status-of-a-task}
@@ -443,13 +445,13 @@ En plus de son statut d&#39;exécution, une tâche peut être associée à un é
 
 Vous pouvez filtrer la liste des tâches par Statut de réalisation de la tâche ou Etat d&#39;avancement de la tâche.
 
-Voir à ce propos la section [Accéder aux tâches](#accessing-tasks).
+Pour plus d&#39;informations, consultez la section [Accéder aux tâches](#accessing-tasks).
 
 ### Cycle de vie complet d&#39;une tâche {#complete-task-life-cycle}
 
 Voici les différentes étapes du cycle de vie complet d&#39;une tâche pour laquelle le responsable a défini des intervenants et des validants.
 
-1. Le responsable crée la tâche et renseigne les différents champs. Voir à ce propos la section [Créer une nouvelle tâche](#creating-a-new-task).
+1. Le responsable crée la tâche et renseigne les différents champs. Pour plus d&#39;informations, consultez la section [Créer une nouvelle tâche](#creating-a-new-task).
 
    Lors de la création, et à chaque modification d&#39;une tâche **planifiée dans le futur** (tant que la date de début de la tâche n&#39;a pas été atteinte), vous avez la possibilité d&#39;envoyer un email de notification aux intervenants ainsi qu&#39;au responsable, les informant qu&#39;une nouvelle tâche a été planifiée.
 

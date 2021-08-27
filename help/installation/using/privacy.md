@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: f31591949bb033ff250cf4b33eddcc2c1d31cc6c
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 100%
 
 ---
 
 # Confidentialité {#privacy}
+
+![](../../assets/v7-only.svg)
 
 ## Demandes d’accès à des informations personnelles
 

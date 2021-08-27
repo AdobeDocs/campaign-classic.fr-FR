@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
-source-wordcount: '966'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '983'
+ht-degree: 98%
 
 ---
 
 # Paramètres de l’email {#email-parameters}
+
+![](../../assets/common.svg)
 
 Cette section présente les options et paramètres spécifiques à la diffusion par email.
 
@@ -30,6 +32,10 @@ Pour plus d&#39;informations sur les bonnes pratiques et la configuration de la 
 >Email Cci est une fonctionnalité facultative. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l&#39;activer.
 
 Lors de la création d&#39;une diffusion ou d&#39;un modèle de diffusion, la fonctionnalité Email Cci n&#39;est pas activée par défaut. Vous devez l&#39;activer manuellement au niveau de la diffusion email ou du modèle de diffusion.
+
+>[!NOTE]
+>
+>Si vous utilisez Email Cci avec MTA amélioré, cette option est automatiquement activée pour toutes les diffusions.
 
 Pour activer la fonctionnalité Email Cci pour un modèle de diffusion email, procédez comme suit :
 

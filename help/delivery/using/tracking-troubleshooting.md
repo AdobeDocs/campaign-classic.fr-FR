@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
 
 ---
 
 # Résolution des problèmes liés au tracking {#tracking-troubleshooting}
+
+![](../../assets/common.svg)
 
 Dans cette section, vous trouverez des questions courantes relatives à la configuration et à l’implémentation du tracking dans Adobe Campaign Classic.
 
@@ -112,7 +114,7 @@ Lors de la tentative d’accès aux liens de tracking, le message suivant s’af
 
    Elles doivent comporter au moins l’autorisation 644 pour qu&#39;Apache puisse lire les URL de tracking pour rediriger le lien demandé.
 
-## Mise à jour de l&#39;option NmsTracking_Pointer ? {#updating-option}
+## Mise à jour de l&#39;option NmsTracking_Pointer ?  {#updating-option}
 
 Procédez comme suit lors de la mise à jour de l&#39;option NmsTracking_Pointer :
 

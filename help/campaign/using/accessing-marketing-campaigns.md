@@ -6,14 +6,16 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 100%
 
 ---
 
 # Accès aux campagnes marketing{#accessing-marketing-campaigns}
+
+![](../../assets/common.svg)
 
 Adobe Campaign vous permet de créer, paramétrer, exécuter et analyser les campagnes marketing. Toutes les opérations marketing peuvent être gérées depuis un centre de pilotage unifié.
 
@@ -125,7 +127,7 @@ Une opération centralise un ensemble de diffusions. Pour chaque opération, le 
 
 Pour chaque opération, les intervenants peuvent échanger des messages via un forum dédié.
 
-Voir à ce propos la section [Forums de discussions](../../mrm/using/discussion-forums.md).
+Pour plus d&#39;informations, consultez la section [Forums de discussions](../../mrm/using/discussion-forums.md).
 
 #### Rapports  {#reports}
 
@@ -141,8 +143,8 @@ Le lien **[!UICONTROL Rapports]** permet d&#39;accéder aux rapports de l&#39;op
 
 Les opérations sont créées à partir de modèles d&#39;opérations : vous pouvez paramétrer des modèles réutilisables pour lesquels certaines options sont sélectionnées et certains paramétrages seront déjà enregistrés. Pour chaque opération, les fonctionnalités suivantes sont proposées :
 
-* Référencement des documents et ressources : vous pouvez associer des documents à l&#39;opération (brief, compte-rendus, images, etc.). Tous les formats de documents sont pris en charge. Voir la section [Gérer les documents associés](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
-* Définition des coûts : Adobe Campaign permet de définir, pour chaque opération, des postes de coûts et des structures de calcul des coûts qui peuvent être engagés dans le cadre de la réalisation de la campagne marketing. Par exemple : coûts d&#39;impression, intervention d&#39;une agence externe, location d&#39;une salle, etc. Voir la section [Définir les postes de coût](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories).
+* Référencement des documents et ressources : vous pouvez associer des documents à l&#39;opération (brief, compte-rendus, images, etc.). Tous les formats de documents sont pris en charge. Pour plus d&#39;informations, consultez la section [Gérer les documents associés](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
+* Définition des coûts : Adobe Campaign permet de définir, pour chaque opération, des postes de coûts et des structures de calcul des coûts qui peuvent être engagés dans le cadre de la réalisation de la campagne marketing. Par exemple : coûts d&#39;impression, intervention d&#39;une agence externe, location d&#39;une salle, etc. Pour plus d&#39;informations, consultez la section [Définir les postes de coût](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories).
 * Définition d&#39;objectifs : vous pouvez définir des objectifs à réaliser dans le cadre d&#39;une opération. Ces objectifs sont quantifiables, par exemple : nombre d&#39;inscrits à atteindre, chiffre d&#39;affaire à réaliser, etc. Ces informations sont ensuite exploitées dans les rapports sur les opérations.
 * Gestion des adresses de contrôle (voir à ce sujet [cette section](../../delivery/using/about-seed-addresses.md)) et populations témoin (voir la section[Définir une population témoin](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
 * Gestion des validations : vous pouvez sélectionner les traitements qui feront l&#39;objet d&#39;une validation et éventuellement sélectionner les opérateurs ou groupes d&#39;opérateurs validants. Voir à ce sujet la section [Contrôler et valider les diffusions](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).

@@ -6,14 +6,16 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 978e1249-f79b-4f5f-9a94-3bb2510785de
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
 
 ---
 
 # Paramétrages spécifiques v5.11{#specific-configurations-in-v5-11}
+
+![](../../assets/v7-only.svg)
 
 Cette section décrit le paramétrage supplémentaire à effectuer lorsque vous migrez depuis une v5.11. Vous devez également effectuer le paramétrage décrit dans la section [Paramétrages généraux](../../migration/using/general-configurations.md).
 

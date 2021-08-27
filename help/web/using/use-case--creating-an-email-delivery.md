@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 100%
 
 ---
 
 # Cas pratique : création d&#39;une diffusion email{#use-case-creating-an-email-delivery}
+
+![](../../assets/common.svg)
 
 Dans ce cas d’utilisation, vous apprendrez à concevoir une diffusion par email à l’aide du Digital Content Editor (DCE) d’Adobe Campaign.
 

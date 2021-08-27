@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 100%
 
 ---
 
 # Créer une offre{#creating-an-offer}
+
+![](../../assets/v7-only.svg)
 
 ## Créer l&#39;offre {#creating-the-offer}
 
@@ -128,7 +130,7 @@ Pour le visualiser, cliquez sur le lien **[!UICONTROL Planning et règles d&#39;
    * **[!UICONTROL Titre]** : indiquez le titre que vous souhaitez faire apparaître dans votre offre. Attention, il ne s&#39;agit pas du libellé de l&#39;offre défini dans l&#39;onglet **[!UICONTROL Général]**.
    * **[!UICONTROL URL de destination]** : indiquez l&#39;URL de votre offre. Pour être traitée correctement, elle doit impérativement débuter par &quot;http://&quot; ou &quot;https://&quot;.
    * **[!UICONTROL URL de l&#39;image]** : indiquez une URL ou un chemin d&#39;accès vers l&#39;image de votre offre.
-   * **[!UICONTROL Contenu HTML]** / **[!UICONTROL Contenu texte]** : saisissez le corps de votre offre dans l&#39;onglet de votre souhait. Pour générer le tracking, le **[!UICONTROL contenu HTML]** doit être constitué d&#39;éléments HTML intégrables dans un élément de type `<div>`. Par exemple, le résultat d&#39;un élément `<table>` dans la page HTML sera le suivant :
+   * **[!UICONTROL Contenu HTML]** / **[!UICONTROL Contenu texte]** : saisissez le corps de votre offre dans l&#39;onglet de votre souhait. Pour générer le tracking, le **[!UICONTROL contenu HTML]** doit être constitué d&#39;éléments HTML intégrables dans un élément de type `<div>`. Par exemple, le résultat d&#39;un élément `<table>` dans la page HTML sera le suivant :
 
    ```
       <div> 
@@ -181,6 +183,6 @@ Vous avez la possibilité de créer des hypothèses sur vos propositions d&#39;o
 
 Les hypothèses réalisées sur une proposition d&#39;offre sont référencées au niveau de leur onglet **[!UICONTROL Mesure]**.
 
-La création des hypothèses est expliquée dans le détail sur [cette page](../../campaign/using/about-response-manager.md).
+La création des hypothèses est expliquée dans le détail sur [cette page](../../response/using/about-response-manager.md).
 
 ![](assets/offer_hypothesis_001.png)

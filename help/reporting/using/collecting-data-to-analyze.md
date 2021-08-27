@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 
 ---
 
 # Collecter les données à analyser{#collecting-data-to-analyze}
+
+![](../../assets/common.svg)
 
 Les données qui vont être utilisées pour construire le rapport peuvent être sélectionnées directement au niveau de la page du rapport (voir à ce propos la section [Utiliser le contexte](../../reporting/using/using-the-context.md)) ou collectées via une ou plusieurs requêtes.
 

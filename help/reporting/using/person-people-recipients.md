@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%
 
 ---
 
 # Personnes et destinataires {#person-people-and-recipients}
+
+![](../../assets/common.svg)
 
 Cet exemple va vous permettre de comprendre la différence entre une personne et un destinataire dans Adobe Campaign. Nous allons envoyer une diffusion à plusieurs personnes afin de mettre en évidence, au travers d&#39;un cas concret, la distinction entre les personnes et les destinataires. Cela va également nous permettre de voir plus en détails la méthode de calcul des indicateurs suivants :
 
@@ -25,7 +27,7 @@ Cet exemple va vous permettre de comprendre la différence entre une personne et
 
 >[!NOTE]
 >
->Ces indicateurs sont utilisés dans le rapport relatif aux **[!UICONTROL Indicateurs de tracking]**. Voir à ce propos la section [Indicateurs de tracking](../../reporting/using/delivery-reports.md#tracking-indicators).
+>Ces indicateurs sont utilisés dans le rapport relatif aux **[!UICONTROL Indicateurs de tracking]**. Pour plus d&#39;informations, consultez la section [Indicateurs de tracking](../../reporting/using/delivery-reports.md#tracking-indicators).
 
 Trois liens sont ajoutés dans une diffusion. Celle-ci est envoyée à 4 destinataires :
 

@@ -2,18 +2,20 @@
 product: campaign
 title: Espace de travail Adobe Campaign
 description: Découvrez comment utiliser et personnaliser l’espace de travail Campaign
-feature: Vue d’ensemble
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '851'
 ht-degree: 99%
 
 ---
 
 # Espace de travail Adobe Campaign{#adobe-campaign-workspace}
+
+![](../../assets/common.svg)
 
 ## Exploration de l’interface Adobe Campaign {#about-adobe-campaign-interface}
 
@@ -41,7 +43,7 @@ Par exemple, pour un même opérateur, une opération sera affichée dans la con
 
 ![](assets/operation_from_console.png)
 
-Tandis que, dans le contexte d&#39;un accès Web, les options seront principalement consultatives :
+Dans le contexte d’un accès web, les options seront en revanche principalement consultatives :
 
 ![](assets/operation_from_web.png)
 
@@ -51,10 +53,10 @@ La langue est sélectionnée lors de l&#39;installation de votre instance Adobe�
 
 ![](assets/language.png)
 
-Vous pouvez choisir entre cinq langues différentes :
+Cinq langues sont disponibles :
 
 * Anglais (Royaume-Uni)
-* Anglais (US)
+* Anglais (États-Unis)
 * Français
 * Allemand
 * Japonais
@@ -77,7 +79,7 @@ Les différentes fonctionnalités de la plate-forme sont réparties dans les fon
 
 La liste des fonctions principales auxquelles vous pouvez accéder dépend des packages et des composants additionnels installés, ainsi que de vos droits d&#39;accès.
 
-Chaque fonction propose un ensemble de fonctionnalités, organisé selon les besoins métiers relatifs au contexte d&#39;utilisation. Ainsi, le lien **[!UICONTROL Profils et cibles]** vous permet par exemple d&#39;accéder aux listes de destinataires, services d&#39;abonnement, workflows de ciblage existants, ainsi qu&#39;aux raccourcis pour créer ces éléments.
+Chaque fonction propose un ensemble de fonctionnalités, organisé selon les besoins métiers relatifs au contexte d&#39;utilisation. Ainsi, le lien **[!UICONTROL Profils et cibles]** vous permet d’accéder aux listes de destinataires, aux services d’abonnement, aux workflows de ciblage existants et aux raccourcis pour créer ces éléments.
 
 Ainsi, les listes sont accessibles à partir du lien **[!UICONTROL Listes]** proposé dans la section gauche de l&#39;interface **[!UICONTROL Profils et cibles]**.
 
@@ -118,7 +120,7 @@ Les principales différences entre l&#39;anglais américain et l&#39;anglais bri
  <thead> 
   <tr> 
    <th> Formats<br /> </th> 
-   <th> Anglais (US)<br /> </th> 
+   <th> Anglais (États-Unis)<br /> </th> 
    <th> Anglais (UK)<br /> </th> 
   </tr> 
  </thead> 
@@ -151,7 +153,7 @@ Si vous cliquez sur **[!UICONTROL Oui]**, cette valeur sera disponible dans la l
 
 >[!NOTE]
 >
->Les énumérations sont gérées par l&#39;administrateur via la section **[!UICONTROL Administration > Plateforme > Enumérations]**. Voir à ce propos la section [Gestion des énumérations](../../platform/using/managing-enumerations.md).
+>Les énumérations sont gérées par l&#39;administrateur via la section **[!UICONTROL Administration > Plateforme > Enumérations]**. Pour plus d&#39;informations, consultez la section [Gestion des énumérations](../../platform/using/managing-enumerations.md).
 
 ### Unités par défaut {#default-units}
 

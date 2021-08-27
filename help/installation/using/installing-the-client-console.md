@@ -6,8 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 100%
 
@@ -15,12 +15,14 @@ ht-degree: 100%
 
 # Installer et mettre à jour la console cliente Campaign{#installing-the-client-console}
 
+![](../../assets/v7-only.svg)
+
 La console cliente Campaign est un client riche qui vous permet de vous connecter à votre ou vos serveur(s) applicatif(s) Campaign.
 
 Avant de commencer l&#39;installation de la console cliente, vous devez effectuer les tâches suivantes :
 
 * Vérifier la compatibilité de votre système et de vos outils avec Adobe Campaign dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
-* Obtenir l’URL du serveur Campaign
+* Obtenir l&#39;URL du serveur Campaign
 * Obtenir vos informations d’identification utilisateur
 
 Le processus d’installation ou de mise à jour de la console cliente varie selon votre implémentation d’Adobe Campaign Classic.
@@ -116,11 +118,11 @@ Une fois la console cliente installée, procédez comme suit pour créer la conn
 
    ![](assets/s_ncs_install_define_connection_01.png)
 
-1. Cliquez sur le menu **[!UICONTROL Ajouter > Connexion]** et saisissez le libellé et l’URL du serveur applicatif Adobe Campaign.
+1. Cliquez sur le menu **[!UICONTROL Ajouter > Connexion]** et saisissez le libellé et l&#39;URL du serveur applicatif Adobe Campaign.
 
    ![](assets/s_ncs_install_define_connection_02.png)
 
-1. Définissez une connexion vers votre serveur applicatif Adobe Campaign à partir d’une URL. Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
+1. Définissez une connexion vers votre serveur applicatif Adobe Campaign à partir d&#39;une URL. Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
 
    Par exemple, vous pouvez utiliser une URL de type [`https://<machine>.<domain>.com`](https://myserver.adobe.com).
 
@@ -128,7 +130,7 @@ Une fois la console cliente installée, procédez comme suit pour créer la conn
 
 1. Cliquez sur **[!UICONTROL OK]** pour enregistrer vos paramètres.
 
-Vous pouvez ajouter autant de connexions que nécessaire pour vous connecter, par exemple, à vos environnements de test, d’évaluation et de production.
+Vous pouvez ajouter autant de connexions que nécessaire pour vous connecter, par exemple, à vos environnements de test, d&#39;évaluation et de production.
 
 >[!NOTE]
 >
@@ -142,7 +144,7 @@ Pour vous connecter à une instance existante, procédez comme suit :
 
 1. Cliquez sur le lien situé dans le coin supérieur droit des champs d’informations d’identification pour accéder à la fenêtre de configuration de la connexion.
 
-1. Sélectionnez l’instance de Campaign à laquelle vous devez vous connecter.
+1. Sélectionnez l&#39;instance de Campaign à laquelle vous devez vous connecter.
 
 1. Cliquez sur **[!UICONTROL Ok]**
 

@@ -6,8 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814,6fe8da3b-57b9-4a69-8602-a03993630b27
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 100%
 
@@ -15,18 +15,19 @@ ht-degree: 100%
 
 # Configuration des autorisations d’URL (On-premise){#url-permissions}
 
+![](../../assets/v7-only.svg)
+
 La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows, etc.) de vos instances Campaign Classic est limitée. Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
 
-Par défaut, les instances ne sont pas autorisées à se connecter à des URL externes. Cependant, il est possible d’ajouter des URL externes à la liste des URL autorisées afin que votre instance puisse s’y connecter. Vous pouvez ainsi connecter vos instances Campaign à des systèmes externes, comme des serveurs SFTP ou des sites Web, afin d’activer le transfert de fichiers et/ou de données.
+Par défaut, les instances ne sont pas autorisées à se connecter à des URL externes. Cependant, il est possible d’ajouter des URL externes à la liste des URL autorisées afin que votre instance puisse s’y connecter. Vous pouvez ainsi connecter vos instances Campaign à des systèmes externes, comme des serveurs SFTP ou des sites Web, afin d’activer le transfert de fichiers et/ou de données.
 
 >[!NOTE]
 >
 >Cette procédure est limitée aux déploiements **On-premise**.
 >
->En tant que client **hébergé**, si vous pouvez accéder au [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr), vous pouvez utiliser l’interface en libre-service des autorisations d’URL. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
+>En tant que client **hébergé**, si vous pouvez accéder au [panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr), vous pouvez utiliser l’interface en libre-service des autorisations d’URL. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
 >
->Les autres clients **hybrides/hébergés** doivent contacter l’équipe d’assistance d’Adobe pour ajouter une adresse IP à la liste autorisée.
-
+>Les autres clients **hybrides/hébergés** doivent contacter l’équipe d’assistance d’Adobe pour ajouter une adresse IP à la liste autorisée.
 
 Pour les déploiements **hybride** et **On-premise**, l’administrateur doit référencer une nouvelle **urlPermission** dans le fichier **serverConf.xml**.
 
@@ -53,7 +54,7 @@ Trois modes de protection de la connexion sont disponibles :
 
 Pour plus d’informations, consultez les sections suivantes :
 
-* [Documentation relative au Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
+* [Documentation relative au panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 * [Modèles d&#39;hébergement](hosting-models.md)
 * [Paramétrage du serveur Campaign](configuring-campaign-server.md)
 * [Paramétrage du serveur Campaign  paramètres de fichier](the-server-configuration-file.md)

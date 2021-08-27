@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos des intégrations de Campaign
+title: À propos des intégrations de Campaign
 description: Utilisez d'autres solutions d'Adobe et combinez leurs différentes fonctionnalités avec Campaign.
 audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 100%
 
 ---
 
 # Prise en main des intégrations Adobe Campaign {#about-campaign-integrations}
+
+![](../../assets/common.svg)
 
 Adobe Experience Cloud constitue un ensemble exhaustif de solutions intégrées haut de gamme accessibles sur une plateforme de données commune, avec un ensemble commun de puissants core services.
 
@@ -26,7 +28,6 @@ Découvrez la liste complète des solutions et core services Adobe pouvant être
 >[!CAUTION]
 >
 >La plupart de ces intégrations nécessitent la mise en œuvre d’Adobe Identity Management System (IMS), pour se connecter via un Adobe ID. [En savoir plus dans cette page](../../integrations/using/about-adobe-id.md).
-
 
 ## Liaison des solutions {#working-with-experience-cloud-solutions}
 

@@ -6,8 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 
@@ -15,20 +15,22 @@ ht-degree: 100%
 
 # À propos de la référence des schémas{#about-schema-reference}
 
+![](../../assets/v7-only.svg)
+
 Ce chapitre décrit le mécanisme et le langage des schémas du modèle conceptuel de données de la base de données Adobe Campaign. Il est destiné à tous les développeurs ou intégrateurs voulant créer et éditer un schéma ou étendre un schéma d&#39;usine dans Adobe Campaign.
 
 Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, voir la section [Modèle de données Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/acc-datamodel.html).
 
 La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée **schéma**.
 
-Un schéma est un document XML associé à une table de la base de données, il définit la structuration des données et décrit la définition SQL de la table :
+Un schéma est un document XML associé à une table de la base de données, il définit la structuration des données et décrit la définition SQL de la table :
 
 * le nom de la table,
 * des champs ;
 * des index ;
 * les liens avec les autres tables,
 
-mais aussi la structure XML utilisée pour stocker les données :
+mais aussi la structure XML utilisée pour stocker les données :
 
 * Eléments et attributs
 * la hiérarchie entre les éléments,
@@ -44,9 +46,9 @@ L&#39;illustration suivante montre la place des schémas dans le système de don
 
 ## Syntaxe des schémas {#syntax-of-schemas}
 
-L’élément racine du schéma est **`<srcschema>`**. Il contient les sous-éléments **`<element>`** et **`<attribute>`**.
+L&#39;élément racine du schéma est **`<srcschema>`**. Il contient les sous-éléments **`<element>`** et **`<attribute>`**.
 
-Le premier sous-élément **`<element>`** correspond à la racine de l’entité.
+Le premier sous-élément **`<element>`** correspond à la racine de l&#39;entité.
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -66,7 +68,7 @@ Le premier sous-élément **`<element>`** correspond à la racine de l’entité
 
 ![](assets/s_ncs_configuration_schema_and_entity.png)
 
-Les balises **`<element>`** définissent les noms des éléments d’entité. Les balises **`<attribute>`** du schéma définissent les noms des attributs dans les balises **`<element>`** auxquelles elles ont été liées.
+Les balises **`<element>`** définissent les noms des éléments d&#39;entité. Les balises **`<attribute>`** du schéma définissent les noms des attributs dans les balises **`<element>`** auxquelles elles ont été liées.
 
 ## Identification d&#39;un schéma {#identification-of-a-schema}
 

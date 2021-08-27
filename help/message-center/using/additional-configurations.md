@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 100%
 
 ---
 
 # Configurations supplémentaires {#mc-additional-configurations}
+
+![](../../assets/v7-only.svg)
 
 ## Surveillance des seuils {#monitoring-thresholds}
 

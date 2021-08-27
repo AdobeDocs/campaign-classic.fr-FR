@@ -5,7 +5,7 @@ description: Découvrez comment configurer le pipeline
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: b6aa797133e6f916bf085794aeb99d61a8f7bc40
+source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
@@ -13,6 +13,8 @@ ht-degree: 99%
 ---
 
 # Configuration du pipeline {#configuring-pipeline}
+
+![](../../assets/common.svg)
 
 Les paramètres d&#39;authentification tels que l&#39;identifiant client, la clé privée et le point d&#39;entrée de l&#39;authentification sont configurés dans les fichiers de configuration de l&#39;instance.
 La liste des déclencheurs à traiter est configurée dans une option au format JSON.

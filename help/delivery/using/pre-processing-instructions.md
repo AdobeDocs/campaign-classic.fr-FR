@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
 
 ---
 
 # Instructions de pré-traitement {#pre-processing-instructions}
+
+![](../../assets/common.svg)
 
 Vous pouvez utiliser une syntaxe spécifique dans le contenu de la diffusion afin d’ajouter des instructions et de créer un script pour l’URL de l’email suivi. Les &lt;%@ ne sont pas des instructions JavaScript. Cette syntaxe est propre à Adobe Campaign.
 

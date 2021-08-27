@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%
 
 ---
 
 # Test des modèles de message transactionnel {#testing-message-templates}
+
+![](../../assets/v7-only.svg)
 
 Une fois que votre [modèle de message](../../message-center/using/creating-the-message-template.md) est prêt, suivez les étapes ci-dessous pour le prévisualiser et le tester.
 
@@ -57,7 +59,7 @@ Lorsque les adresses sont créées, vous pouvez dès lors afficher l&#39;aperçu
 
 ## Données de personnalisation {#personalization-data}
 
-Il est possible d&#39;utiliser des données dans le modèle de message pour tester la personnalisation des messages transactionnels. Cette fonctionnalité est utilisée pour générer un aperçu ou envoyer un BAT. Vous pouvez également afficher le rendu du message pour différents fournisseurs d&#39;accès Internet. Voir à ce propos la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
+Il est possible d&#39;utiliser des données dans le modèle de message pour tester la personnalisation des messages transactionnels. Cette fonctionnalité est utilisée pour générer un aperçu ou envoyer un BAT. Vous pouvez également afficher le rendu du message pour différents fournisseurs d&#39;accès Internet. Pour plus d&#39;informations, consultez la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
 
 Ces données n&#39;ont pour but que de tester vos messages avant leur diffusion effective et ne correspondent pas aux données réelles qui seront traitées. En revanche, la structure XML doit être identique à celle de l&#39;événement qui est stocké dans l&#39;instance d&#39;exécution, comme illustré ci-dessous :
 
@@ -91,7 +93,7 @@ Lorsque vous avez créé une ou plusieurs adresses de contrôle, ainsi que le co
 
    ![](assets/messagecenter_create_seedaddr_009.png)
 
-À l&#39;aide des adresses de contrôle, vous pouvez également afficher le rendu du message pour les différents fournisseurs d&#39;accès Internet. Voir à ce propos la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
+À l&#39;aide des adresses de contrôle, vous pouvez également afficher le rendu du message pour les différents fournisseurs d&#39;accès Internet. Pour plus d&#39;informations, consultez la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
 
 ## Envoi d&#39;un BAT {#sending-a-proof}
 
@@ -102,7 +104,7 @@ L&#39;envoi d&#39;un BAT engage le même processus que pour une [diffusion stand
 * Création d&#39;une ou plusieurs [adresses de contrôle](#managing-seed-addresses-in-transactional-messages)[ avec des données de de personnalisation](#personalization-data).
 * [Création du contenu du message](../../message-center/using/creating-the-message-template.md#creating-message-content).
 
-Pour effectuer l&#39;envoi :
+Pour effectuer l&#39;envoi :
 
 1. Cliquez sur bouton **[!UICONTROL Envoyer un BAT]** dans la fenêtre de diffusion.
 1. Analysez la diffusion.

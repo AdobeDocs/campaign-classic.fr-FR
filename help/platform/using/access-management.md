@@ -2,18 +2,20 @@
 product: campaign
 title: Prise en main des permissions
 description: Découvrez comment octroyer l’accès aux fonctionnalités Campaign
-feature: Gestion des accès
+feature: Access Management
 role: User, Admin
 level: Beginner
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '253'
 ht-degree: 100%
 
 ---
 
 # Prise en main des autorisations{#access-management}
+
+![](../../assets/common.svg)
 
 Adobe Campaign vous permet de définir et gérer les permissions attribuées aux différents opérateurs. Les permissions sont un ensemble de droits et restrictions qui autorisent ou interdisent :
 
@@ -51,7 +53,7 @@ Découvrez comment octroyer l’accès et configurer des permissions dans les se
 Voir aussi :
 
 * [Gestion des permissions relatives aux workflows](../../workflow/using/managing-rights.md)
-* [Gestion des permissions pour le marketing distribué](../../campaign/using/about-distributed-marketing.md#operators-and-entities)
+* [Gestion des permissions pour le marketing distribué](../../distributed/using/about-distributed-marketing.md#operators-and-entities)
 * [Gestion des permissions relatives au module d’interaction](../../interaction/using/operator-profiles.md)
 * [Filtrage de l’accès aux schémas](../../configuration/using/filtering-schemas.md)
 * [Restriction de l’affichage des PII](../../configuration/using/restricting-pii-view.md)

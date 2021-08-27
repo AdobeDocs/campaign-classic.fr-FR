@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 100%
 
 ---
 
-# Configurer l’accès à Hadoop {#configure-access-to-hadoop}
+# Configurer l’accès à Hadoop  {#configure-access-to-hadoop}
+
+![](../../assets/v7-only.svg)
 
 Utilisez l’option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Hadoop.
 

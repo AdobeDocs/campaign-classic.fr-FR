@@ -6,8 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 100%
 
@@ -15,9 +15,11 @@ ht-degree: 100%
 
 # Configuration et envoi de la diffusion {#configuring-and-sending-the-delivery}
 
+![](../../assets/common.svg)
+
 >[!NOTE]
 >
->Seul le propriétaire d&#39;une diffusion peut démarrer cette dernière. Pour qu&#39;un autre opérateur (ou un groupe d&#39;opérateurs) puisse démarrer une diffusion, vous devez l&#39;ajouter comme validant au niveau du champ **[!UICONTROL Démarrage de la diffusion.]** Voir à ce sujet [cette section](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
+>Seul le propriétaire d&#39;une diffusion peut démarrer cette dernière. Pour qu&#39;un autre opérateur (ou un groupe d&#39;opérateurs) puisse démarrer une diffusion, vous devez l&#39;ajouter comme validant au niveau du champ **[!UICONTROL Démarrage de la diffusion.]** Pour plus d’informations, consultez [cette section](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
 ## Paramètres supplémentaires de diffusion {#delivery-additiona-parameters}
 
@@ -47,7 +49,7 @@ Avant d&#39;envoyer la diffusion, vous pouvez définir les paramètres d&#39;env
 
 Une fois la diffusion configurée et prête à être envoyée, vérifiez que vous avez exécuté l’analyse de la diffusion.
 
-Pour ce faire, cliquez sur **[!UICONTROL Envoyer]**, sélectionnez l’action souhaitée et cliquez sur **[!UICONTROL Analyser]**. Voir à ce propos la section [Lancement de l&#39;analyse](steps-validating-the-delivery.md#analyzing-the-delivery).
+Pour ce faire, cliquez sur **[!UICONTROL Envoyer]**, sélectionnez l’action souhaitée et cliquez sur **[!UICONTROL Analyser]**. Pour plus d&#39;informations, consultez la section [Lancement de l&#39;analyse](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -55,11 +57,11 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Confirmer l’envoi]*
 
 Vous pouvez ensuite fermer l&#39;assistant de diffusion et suivre l&#39;exécution de la diffusion depuis l&#39;onglet **[!UICONTROL Diffusion]** accessible à partir du détail de cette diffusion ou depuis la liste des diffusions.
 
-Une fois les messages envoyés, vous pouvez effectuer le suivi et le tracking des diffusions.Voir à ce sujet les sections suivantes :
+Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions. Pour plus d’informations, consultez les sections suivantes :
 
 * [Contrôler une diffusion](about-delivery-monitoring.md)
 * [Comprendre les échecs de diffusion](understanding-delivery-failures.md)
-* [A propos du tracking des messages](about-message-tracking.md)
+* [À propos du tracking des messages](about-message-tracking.md)
 
 ## Planifier l&#39;envoi de diffusion {#scheduling-the-delivery-sending}
 
@@ -137,9 +139,9 @@ Pour équilibrer la charge, vous pouvez répartir les envois en plusieurs lots. 
    >
    >Veillez à ce que les dernières vagues ne dépassent pas la date limite d&#39;envoi qui est définie dans l&#39;onglet **[!UICONTROL Validité]**.Sinon, certains messages peuvent ne pas être envoyés.
    >
-   >Lors de la configuration des dernières vagues, veillez également à prévoir assez de temps pour les reprises. Reportez-vous à [cette section](steps-sending-the-delivery.md#configuring-retries).
+   >Lors de la configuration des dernières vagues, veillez également à prévoir assez de temps pour les reprises. Consultez [cette section](steps-sending-the-delivery.md#configuring-retries).
 
-1. Pour suivre vos envois, accédez aux logs de diffusion. Voir à ce sujet [cette page](delivery-dashboard.md#delivery-logs-and-history).
+1. Pour suivre vos envois, accédez aux logs de diffusion. Pour plus d’informations, consultez [cette page](delivery-dashboard.md#delivery-logs-and-history).
 
    Vous pouvez visualiser les diffusions qui ont déjà été envoyées dans les vagues traitées (statut **[!UICONTROL Envoyé]**) et celles à envoyer dans les vagues restantes (statut **[!UICONTROL En attente]**).
 

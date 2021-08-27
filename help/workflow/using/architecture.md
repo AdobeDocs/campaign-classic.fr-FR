@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 46801f78-706c-4dfa-bce7-3d15f569f222
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%
 
 ---
 
 # Architecture {#architecture}
+
+![](../../assets/common.svg)
 
 Les workflows sont pris en charge par un module spécifique. Ce module peut être démarré sur plusieurs serveurs afin de répartir la charge d&#39;exécution.
 

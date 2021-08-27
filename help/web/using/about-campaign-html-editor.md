@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
-source-git-commit: cbfaf6a2c187ad62f7b6c9042b69f5e522fcfd02
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 
 ---
 
 # Prise en main de l‘éditeur HTML Campaign{#about-campaign-html-editor}
+
+![](../../assets/common.svg)
 
 Le **Digital Content Editor (DCE)** est un éditeur de contenus HTML qui permet de créer ou modifier facilement des modèles ou du contenu au format HTML dans Adobe Campaign.
 

@@ -6,8 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Modèle de publication{#publication-templates}
 
-## A propos des modèles de publication {#about-publication-templates}
+![](../../assets/common.svg)
+
+## À propos des modèles de publication {#about-publication-templates}
 
 Le modèle de publication est la fiche d&#39;identité du contenu à publier. Il référence les ressources utilisées dans le processus de publication, à savoir :
 

@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 100%
 
 ---
 
 # À propos des types de déploiement{#about-deployment-types}
+
+![](../../assets/v7-only.svg)
 
 La conception modulaire d&#39;Adobe Campaign permet de nombreuses configurations de déploiement, d&#39;une installation en &quot;stand-alone&quot; (tous les composants sur une unique machine) à des configurations d&#39;entreprise impliquant une architecture entièrement distribuée et redondante via de multiples serveurs. Tout dépend des niveaux de performance, de redondance et de sécurité souhaités.
 

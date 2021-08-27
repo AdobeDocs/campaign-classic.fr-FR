@@ -2,18 +2,20 @@
 product: campaign
 title: Mises à jour de la documentation d'Adobe Campaign Classic
 description: Cette page répertorie toutes les nouvelles fonctionnalités et les mises à jour de la documentation d’Adobe Campaign Classic
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
-source-wordcount: '4485'
+source-wordcount: '4484'
 ht-degree: 100%
 
 ---
 
 # Mises à jour de la documentation{#documentation-updates}
+
+![](../../assets/v7-only.svg)
 
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et par version de Campaign.
 
@@ -48,7 +50,7 @@ Les exigences de la console cliente Campaign ont été mises à jour dans la mat
 
 L&#39;installation de la console cliente Campaign pour les étapes a été améliorée et clarifiée. [En savoir plus](../../installation/using/installing-the-client-console.md)
 
-Une nouvelle note technique a été créée concernant le problème de signature des URL trackées. [En savoir plus](../../technotes/tracked-urls.md)
+Une nouvelle note technique a été créée concernant le problème de signature des URL trackées. [En savoir plus](../../technotes/using/tracked-urls.md)
 
 ## Avril 2021 {#april-2021}
 
@@ -149,7 +151,7 @@ La section Confidentialité a été déplacée et enrichie de deux nouvelles pag
 
 Une note a été ajoutée dans la page de configuration du serveur de midsourcing pour indiquer que le nom interne du compte externe ne doit pas être mis à jour une fois le serveur configuré. [En savoir plus](../../installation/using/mid-sourcing-server.md)
 
-Des informations ont été ajoutées sur la syntaxe à utiliser lors de la spécification d’un chemin d’accès à un serveur SFTP externe. [En savoir plus](../../platform/using/sftp-server-usage.md#external-SFTP-server)
+Des informations ont été ajoutées sur la syntaxe à utiliser lors de la spécification d’un chemin d’accès à un serveur SFTP externe. [En savoir plus](../../platform/using/sftp-server-usage.md#external-SFTP-server)
 
 La section Données personnelles et Acteurs impliqués a été mise à jour avec un scénario d’utilisation afin d’illustrer comment les différents acteurs impliqués interagissent en matière de confidentialité. [En savoir plus](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
 
@@ -210,7 +212,7 @@ La landing page des bonnes pratiques en matière de délivrabilité a été amé
 
 Des vidéos pratiques sont désormais disponibles concernant les rubriques suivantes :
 
-* [Configuration de la gestion de la fatigue à l’aide de règles de typologie et de filtres prédéfinis](../../campaign/using/about-campaign-typologies.md)
+* [Configuration de la gestion de la fatigue à l’aide de règles de typologie et de filtres prédéfinis](../../campaign-opt/using/about-campaign-typologies.md)
 
 * [Comment créer un email dans une campagne](../../campaign/using/marketing-campaign-deliveries.md)
 
@@ -263,13 +265,13 @@ Des bonnes pratiques ont été ajoutées dans la section sur l’activité **[!U
 
 La section Suppression d’une adresse mise en quarantaine a été mise à jour. Cela inclut la clarification des cas dans lesquels les adresses sont automatiquement supprimées de la liste de quarantaine. [En savoir plus](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-Des cas d&#39;utilisation ont été ajoutés pour [crypter](../../platform/using/zip-encrypt.md) et [décrypter](../../platform/using/unzip-decrypt.md) des données à l&#39;aide du Panneau de contrôle et des workflows Campaign.
+Des cas d’utilisation ont été ajoutés pour [crypter](../../platform/using/zip-encrypt.md) et [décrypter](../../platform/using/unzip-decrypt.md) des données à l’aide du panneau de contrôle et des workflows Campaign.
 
 La page sur l&#39;intégration des Triggers Experience Cloud et Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
 
 ## Juillet 2020 {#release-20-2}
 
-**Nouvelles fonctionnalités incluses dans la version 20.2**
+**Nouvelles fonctionnalités incluses dans la version 20.2**
 
 Prise en charge des émoticônes - [En savoir plus](../../delivery/using/customizing-emoticon-list.md)
 
@@ -355,7 +357,7 @@ La section relative à l’archivage des emails a été améliorée. [En savoir 
 
 ## Janvier 2020 {#release-20-1}
 
-**Nouvelles fonctionnalités incluses dans la version 20.1**
+**Nouvelles fonctionnalités incluses dans la version 20.1**
 
 Connecteur FDA Snowflake - [En savoir plus](../../installation/using/configure-fda-snowflake.md)
 
@@ -423,7 +425,7 @@ La page Matrice des droits d&#39;accès a été déplacée [ici](https://experie
 
 La section décrivant comment définir du contenu interactif avec AMP a été déplacée. [En savoir plus](../../delivery/using/defining-interactive-content.md)
 
-**Nouvelles fonctionnalités incluses dans la version 19.2**
+**Nouvelles fonctionnalités incluses dans la version 19.2**
 
 California Consumer Privacy Act (CCPA) – [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html)
 
@@ -495,7 +497,7 @@ Les bonnes pratiques pour améliorer les performances des workflows et des diffu
 
 ## Mai 2019 {#release-19-1}
 
-**Nouvelles fonctionnalités incluses dans la version 19.1**
+**Nouvelles fonctionnalités incluses dans la version 19.1**
 
 Panneau de contrôle – [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 

@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 3b87eb3c-3b50-4ed4-80b1-4333261ffe0b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 100%
 
 ---
 
 # Création de nouvelles instances{#creating-new-instances}
+
+![](../../assets/v7-only.svg)
 
 Une fois Adobe Campaign installé et l&#39;instance créée, vous pouvez ajouter une nouvelle instance à partir de la console. Ce mode de création est proposé notamment pour créer des instances de tracking, sans accès console.
 
@@ -25,4 +27,4 @@ Pour cela, connectez-vous à une base de données existante puis respectez les �
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 
-   Spécifiez les paramètres de la nouvelle instance. Voir à ce propos la section [Création et connexion à une instance](../../installation/using/creating-an-instance-and-logging-on.md).
+   Spécifiez les paramètres de la nouvelle instance. Pour plus d&#39;informations, consultez la section [Création et connexion à une instance](../../installation/using/creating-an-instance-and-logging-on.md).

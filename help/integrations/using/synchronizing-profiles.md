@@ -6,8 +6,8 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: ht
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+workflow-type: tm+mt
 source-wordcount: '1258'
 ht-degree: 100%
 
@@ -15,11 +15,13 @@ ht-degree: 100%
 
 # Synchronisation des profils{#synchronizing-profiles}
 
+![](../../assets/v7-only.svg)
+
 ACS Connector réplique les données de Campaign v7 vers Campaign Standard. Le données reçues de Campaign v7 peuvent être utilisées pour créer des diffusions dans Campaign Standard. Les opérations ci-dessous vous permettent de voir la manière dont les profils sont synchronisés.
 
 * **Ajouter de nouveaux destinataires** : créez un nouveau destinataire dans Campaign v7 et vérifiez qu&#39;un profil correspondant a été répliqué vers Campaign Standard. Voir [Création d’un nouveau destinataire](#creating-a-new-recipient).
 * **Mettre à jour les destinataires** : éditez un nouveau destinataire dans Campaign v7 et visualisez le profil correspondant dans Campaign Standard pour vérifier que la mise à jour a été répliquée. Voir [Edition d’un destinataire](#editing-a-recipient).
-* **Créer un workflow dans Campaign Standard** : créez un workflow dans Campaign Standard qui comprend une requête avec une audience ou des profils répliqués depuis Campaign v7. Voir à ce propos la section [Créer un workflow](#creating-a-workflow).
+* **Créer un workflow dans Campaign Standard** : créez un workflow dans Campaign Standard qui comprend une requête avec une audience ou des profils répliqués depuis Campaign v7. Pour plus d&#39;informations, consultez la section [Créer un workflow](#creating-a-workflow).
 * **Créer une diffusion dans Campaign Standard** : exécutez le workflow jusqu&#39;à la fin pour envoyer une diffusion. Voir [Création d’une diffusion](#creating-a-delivery).
 * **Vérifier le lien de désinscription** : utilisez une application web de Campaign v7 pour vous assurer que le choix du destinataire de se désinscrire d&#39;un service est envoyé à la base de données de Campaign v7. L&#39;option permettant d&#39;interrompre le service est répliquée vers Campaign Standard. Voir [Modification du lien de désinscription](#changing-the-unsubscription-link).
 
@@ -59,7 +61,7 @@ Les étapes ci-dessous qui permettent de modifier un point unique de données co
 
    ![](assets/acs_connect_profile_sync_03.png)
 
-1. Vérifiez que le nom du destinataire a été mis à jour dans Campaign Standard. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
+1. Vérifiez que le nom du destinataire a été mis à jour dans Campaign Standard. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
 
    ![](assets/acs_connect_profile_sync_04.png)
 
@@ -172,6 +174,6 @@ Suivez les instructions des sections [Créer un workflow](#creating-a-workflow) 
 
    ![](assets/acs_connect_profile_sync_22.png)
 
-1. Allez dans Campaign Standard et affichez le détail du profil du destinataire. Vérifiez qu&#39;une case à cocher apparaît en regard de l&#39;option **[!UICONTROL Ne plus contacter (tous canaux)]**. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
+1. Allez dans Campaign Standard et affichez le détail du profil du destinataire. Vérifiez qu&#39;une case à cocher apparaît en regard de l&#39;option **[!UICONTROL Ne plus contacter (tous canaux)]**. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
 
    ![](assets/acs_connect_profile_sync_23.png)

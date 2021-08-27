@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '428'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 95%
 
 ---
 
 # Gestion des données SQL{#sql-data-management}
+
+![](../../assets/common.svg)
 
 L&#39;activité **Gestion des données SQL** permet d&#39;écrire vos requêtes SQL pour créer et remplir les tables de travail.
 
@@ -22,7 +24,14 @@ L&#39;activité **Gestion des données SQL** permet d&#39;écrire vos requêtes 
 Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont remplis :
 
 * L&#39;activité est disponible uniquement pour les sources de données distantes. Le package **[!UICONTROL FDA]** (Federated Data Access) doit donc être installé sur votre instance. [En savoir plus](../../installation/using/about-fda.md).
-* Le schéma sortant doit exister dans la base de données et être lié à une base de données FDA. [En savoir plus](../../configuration/using/about-schema-reference.md).
+
+   Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
+
+   ![](assets/do-not-localize/v7.jpeg)[  Documentation Campaign v7](../../installation/using/about-fda.md)
+
+   ![](assets/do-not-localize/v8.png)[  Documentation Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
+
+* Le schéma sortant doit exister dans la base de données et être lié à une base de données FDA.
 * L&#39;opérateur qui exécute le workflow doit disposer du droit nommé **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** [En savoir plus](../../platform/using/access-management-named-rights.md).
 
 ## Configuration de l&#39;activité Gestion des données SQL {#configuring-the-sql-data-management-activity}

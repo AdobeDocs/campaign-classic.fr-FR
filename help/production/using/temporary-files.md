@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: e77800f5-c0ae-446d-8ff3-bc8a18c97dbd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 100%
 
 ---
 
 # Fichiers temporaires{#temporary-files}
+
+![](../../assets/v7-only.svg)
 
 Lorsque vous lancez le système en production, vous pouvez obtenir des messages d&#39;erreur (notamment dans les logs de diffusion), tels que :
 

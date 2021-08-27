@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '1425'
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '1421'
 ht-degree: 100%
 
 ---
 
 # Enrichissement{#enrichment}
+
+![](../../assets/common.svg)
 
 L&#39;activité **[!UICONTROL Enrichissement]** permet d&#39;ajouter des informations à une liste de profils et des liens vers une table existante (créer une nouvelle jointure). Des critères de réconciliation avec des profils en base peuvent aussi être définis.
 
@@ -50,15 +52,15 @@ Il existe quatre types de liens :
 
 Les cas d’utilisation détaillant le fonctionnement des activités d’enrichissement dans leur contexte sont également disponibles dans les sections suivantes :
 
-* [Enrichissement des emails avec des champs de date personnalisés](../../workflow/using/email-enrichment-with-custom-date-fields.md).
-* [Enrichir des données ](../../workflow/using/enriching-data.md)
-* [Créer une liste récapitulative](../../workflow/using/creating-a-summary-list.md)
+* [Enrichissement des emails avec des champs de date personnalisés](email-enrichment-with-custom-date-fields.md).
+* [Enrichir des données ](enriching-data.md)
+* [Créer une liste récapitulative](creating-a-summary-list.md)
 
 ## Ajouter des informations {#adding-information}
 
 Utilisez l&#39;activité **[!UICONTROL Enrichissement]** pour ajouter des données additionnelles à la table de travail du workflow : cette activité peut être utilisée en complément d&#39;une activité de requête.
 
-Le paramétrage des colonnes additionnelles est présenté dans la section [Ajouter des données](../../workflow/using/query.md#adding-data).
+Le paramétrage des colonnes additionnelles est présenté dans la section [Ajouter des données](query.md#adding-data).
 
 Le champ **[!UICONTROL Ensemble principal]** permet de sélectionner la transition entrante : ce sont les données de la table de travail de cette activité qui seront enrichies.
 
@@ -151,13 +153,13 @@ Si plusieurs conditions de jointure sont indiquées, elles doivent TOUTES être 
 
 L&#39;activité d&#39;enrichissement vous permet d&#39;ajouter des offres ou des liens vers des offres pour les destinataires d&#39;une diffusion.
 
-Pour plus d&#39;informations sur l&#39;activité d&#39;enrichissement, consultez cette [section](../../workflow/using/enrichment.md).
+Pour plus d&#39;informations sur l&#39;activité d&#39;enrichissement, consultez cette [section](enrichment.md).
 
 Vous pouvez par exemple enrichir les données d&#39;une requête sur les destinataires, avant une diffusion.
 
 ![](assets/int_enrichment_offer1.png)
 
-Après avoir paramétré votre requête (voir cette [section](../../workflow/using/query.md)) :
+Après avoir paramétré votre requête (voir cette [section](query.md)) :
 
 1. Placez et ouvrez une activité d&#39;enrichissement.
 1. Dans l&#39;onglet **[!UICONTROL Enrichissement]**, sélectionnez **[!UICONTROL Ajouter des données]**.
@@ -176,13 +178,13 @@ Après avoir paramétré votre requête (voir cette [section](../../workflow/usi
 
       ![](assets/int_enrichment_offer4.png)
 
-1. Paramétrez ensuite une activité de diffusion correspondant au canal de votre choix. Voir [Diffusions cross-canal](../../workflow/using/cross-channel-deliveries.md).
+1. Paramétrez ensuite une activité de diffusion correspondant au canal de votre choix. Voir [Diffusions cross-canal](cross-channel-deliveries.md).
 
    Le nombre de propositions disponibles pour la prévisualisation dépend du paramétrage réalisé dans l&#39;activité d&#39;enrichissement et non d&#39;un éventuel paramétrage directement dans la diffusion.
 
 Pour spécifier des propositions d’offres, vous pouvez également choisir de référencer un lien vers une offre. Voir à ce sujet la section [Référencer un lien vers une offre](#referencing-a-link-to-an-offer).
 
-## Référencer un lien vers une offre {#referencing-a-link-to-an-offer}
+## En référençant un lien vers une offre {#referencing-a-link-to-an-offer}
 
 Vous avez également la possibilité de référencer un lien vers une offre dans une activité d&#39;enrichissement.
 
@@ -198,7 +200,7 @@ Pour cela :
 
    ![](assets/int_enrichment_link2.png)
 
-1. Paramétrez ensuite une activité de diffusion correspondant au canal de votre choix. Reportez-vous à la section [Diffusions cross-canal](../../workflow/using/cross-channel-deliveries.md).
+1. Paramétrez ensuite une activité de diffusion correspondant au canal de votre choix. Pour plus d&#39;informations, consultez la section [Diffusions cross-canal](cross-channel-deliveries.md).
 
    >[!NOTE]
    >
@@ -210,9 +212,9 @@ Par défaut, lorsque l&#39;activité d&#39;**enrichissement** est utilisée pour
 
 L&#39;activité **[!UICONTROL Moteur d&#39;offres]** stocke bien ces informations par défaut.
 
-Cependant, il est possible de stocker ces informations de la manière suivante :
+Cependant, il est possible de stocker ces informations de la manière suivante :
 
-1. Créez un appel au moteur d’offre dans une activité d’enrichissement placée après une requête et avant une activité de diffusion. Consultez cette [section](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
+1. Créez un appel au moteur d&#39;offre dans une activité d&#39;enrichissement placée après une requête et avant une activité de diffusion.
 1. Dans la fenêtre principale de l&#39;activité, sélectionnez **[!UICONTROL Editer les données additionnelles]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)

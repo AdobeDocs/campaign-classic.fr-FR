@@ -5,14 +5,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
 
 ---
 
 # Effectuer toutes les vérifications avant d’envoyer {#perform-all-checks}
+
+![](../../assets/common.svg)
 
 Une fois que votre message est prêt, vérifiez que le contenu s&#39;affiche correctement sur tous les appareils et qu&#39;il ne contient aucune erreur, comme des liens rompus ou une personnalisation incorrecte.
 
@@ -36,7 +38,7 @@ L&#39;inbox rendering vous permet de prévisualiser vos messages sur les princip
 
 * Les fonctionnalités d&#39;inbox rendering sont essentielles pour déterminer si vos campagnes email réussissent à passer les filtres des principaux FAI et des services webmail. Les outils de ce type envoient une copie de vérification d&#39;un email à un réseau de boîtes de réception de test pour que vous puissiez voir comment le message s&#39;affichera à travers ces différents services. Ils peuvent également inclure des rapports et des options de correction de code qui vous permettent d&#39;identifier rapidement les problèmes et de les corriger afin d&#39;améliorer la délivrabilité.
 
-En savoir plus à ce sujet dans [cette section](inbox-rendering.md).
+En savoir plus [dans cette section](inbox-rendering.md).
 
 ## Messages de BAT {#proof-messages}
 
@@ -90,7 +92,7 @@ Vous pouvez ainsi :
 
 * Pour chaque élément IPAffinity, déclarer les adresses IP qui peuvent être utilisées. [En savoir plus](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-* Dans la [typologie](../../campaign/using/about-campaign-typologies.md) de votre choix, utiliser le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour associer les diffusions vers le serveur de diffusion (MTA) qui gère l’affinité en question. [En savoir plus](../../campaign/using/applying-rules.md#control-outgoing-smtp-traffic).
+* Dans la [typologie](../../campaign-opt/using/about-campaign-typologies.md) de votre choix, utiliser le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour associer les diffusions vers le serveur de diffusion (MTA) qui gère l’affinité en question. [En savoir plus](../../campaign-opt/using/applying-rules.md#control-outgoing-smtp-traffic).
 
 * Une fois que l&#39;email a été envoyé, contrôler l&#39;en-tête pour vérifier l&#39;adresse IP à partir de laquelle la diffusion a été envoyée. L&#39;administrateur de messagerie peut vous aider à obtenir les informations d&#39;en-tête.
 
@@ -100,7 +102,7 @@ Vous pouvez ainsi :
 
 ### Utiliser des typologies
 
-Vous pouvez utiliser des règles de typologie pour exclure une partie de la cible en fonction de critères spécifiques. Elles permettent de s’assurer que les messages envoyés répondent le mieux possible aux attentes ou aux besoins du client, dans le respect des stratégies de communication de l’entreprise. Vous pouvez, par exemple, filtrer les destinataires mineurs du public cible de votre newsletter. En savoir plus [dans cet exemple](../../campaign/using/filtering-rules.md).
+Vous pouvez utiliser des règles de typologie pour exclure une partie de la cible en fonction de critères spécifiques. Elles permettent de s’assurer que les messages envoyés répondent le mieux possible aux attentes ou aux besoins du client, dans le respect des stratégies de communication de l’entreprise. Vous pouvez, par exemple, filtrer les destinataires mineurs du public cible de votre newsletter. En savoir plus [dans cet exemple](../../campaign-opt/using/filtering-rules.md).
 
 ### Éviter les pièces jointes
 

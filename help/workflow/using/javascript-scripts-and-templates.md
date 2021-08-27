@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1255'
 ht-degree: 100%
 
 ---
 
 # Scripts/Templates JavaScript{#javascript-scripts-and-templates}
+
+![](../../assets/common.svg)
 
 Les scripts vont permettre de calculer des valeurs, d&#39;échanger des données entre les différentes tâches du processus et d&#39;exécuter des opérations spécifiques à l&#39;aide d&#39;appels SOAP.
 
@@ -79,17 +81,17 @@ Les variables d&#39;événements (**[!UICONTROL vars.xxx]**) permettent l&#39;é
 
 >[!CAUTION]
 >
->Dans le cas d&#39;activités de type [AND-join](../../workflow/using/and-join.md), les variables sont fusionnées mais si une même variable est définie deux fois, il y a conflit et la valeur est indéterminée.
+>Dans le cas d&#39;activités de type [AND-join](and-join.md), les variables sont fusionnées mais si une même variable est définie deux fois, il y a conflit et la valeur est indéterminée.
 
 Les événements sont les variables les plus communément utilisées et doivent être préférées aux variables d&#39;instances.
 
-Certaines variables d’événement sont modifiées ou lues par les différentes activités. Il s’agit de variables de type chaîne. Par exemple, un export définit la variable **[!UICONTROL vars.filename]** avec le nom complet du fichier qui vient d’être exporté. Toutes ces variables lues ou modifiées sont documentées dans [A propos des activités](../../workflow/using/about-activities.md), dans les sections **Paramètres d’entrée** et **Paramètres de sortie** des activités.
+Certaines variables d’événement sont modifiées ou lues par les différentes activités. Il s’agit de variables de type chaîne. Par exemple, un export définit la variable **[!UICONTROL vars.filename]** avec le nom complet du fichier qui vient d’être exporté. Toutes ces variables lues ou modifiées sont documentées dans [À propos des activités](about-activities.md), dans les sections **Paramètres d’entrée** et **Paramètres de sortie** des activités.
 
 ### Cas pratiques {#example}
 
 >[!NOTE]
 >
->D’autres cas pratiques de workflows sont disponibles dans [cette section](../../workflow/using/about-workflow-use-cases.md).
+>D’autres cas pratiques de workflows sont disponibles dans [cette section](about-workflow-use-cases.md).
 
 **Exemple 1**
 

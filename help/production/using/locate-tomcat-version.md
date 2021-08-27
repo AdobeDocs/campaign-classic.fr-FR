@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '527'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '526'
+ht-degree: 98%
 
 ---
 
 # Localisation de la version de Tomcat{#locate-tomcat-version}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign utilise une **servlet web intégrée appelée Apache Tomcat** pour traiter les requêtes HTTP / HTTPS entre l’application et toute interface externe (y compris la console cliente, les liens d&#39;URL trackée, les appels SOAP, etc.). Un serveur web externe (généralement IIS ou Apache) se trouve souvent devant cette instance pour toutes les instances Adobe Campaign face à l&#39;extérieur.
 
@@ -53,7 +55,7 @@ Par exemple, le fichier *ServerInfo.properties* pour Adobe Campaign contient les
 
 *server.number=8.5.X.Y*
 
-*server.build=MM JJ AAAA HH:MM:SS*
+*server.built=MM DD YYY :MM:HSS*
 
 Une fois que vous avez pu déterminer la version exacte de Tomcat utilisée dans une instance particulière, vous pouvez plus facilement résoudre les problèmes liés à Tomcat.
 

@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos de la création de rapports dans Campaign
-description: A propos de la création de rapports dans Campaign
+title: À propos de la création de rapports dans Campaign
+description: À propos de la création de rapports dans Campaign
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
 
 ---
 
 # Étapes clés de la création d’un rapport{#about-reports-creation-in-campaign}
+
+![](../../assets/common.svg)
 
 Afin de produire des statistiques sur les données de la base de Campaign, vous pouvez créer des rapports et adapter leur contenu et leur présentation en fonction de vos besoins. Ces rapports peuvent être partagés ou non avec les autres opérateurs.
 

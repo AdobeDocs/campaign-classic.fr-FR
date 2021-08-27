@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
 
@@ -15,14 +15,16 @@ ht-degree: 100%
 
 # Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle {#quarterly-list-update}
 
-Dans l’exemple ci-après, une [requête incrémentale](../../workflow/using/incremental-query.md) est utilisée afin de mettre à jour automatiquement une liste de destinataires. Ces derniers sont ciblés dans le cadre de campagnes marketing saisonnières.
+![](../../assets/common.svg)
+
+Dans l’exemple ci-après, une [requête incrémentale](incremental-query.md) est utilisée afin de mettre à jour automatiquement une liste de destinataires. Ces derniers sont ciblés dans le cadre de campagnes marketing saisonnières.
 
 Ces campagnes étant lancées à chaque début de saison afin de proposer des activités sportives pertinentes, les listes sont mises à jour une fois par trimestre. Cependant, un destinataire ne doit ici être ciblé qu&#39;une fois tous les 9 mois par cette campagne. Cela permet d&#39;espacer la fréquence d&#39;éligibilité d&#39;un destinataire et de lui proposer des activités pour différentes saisons au fil des ans.
 
 ![](assets/incremental_query_example.png)
 
 1. Placez une activité de requête incrémentale ainsi qu&#39;une activité de mise à jour de liste dans un nouveau workflow.
-1. Paramétrez l’onglet **[!UICONTROL Requête incrémentale]** de l’activité comme indiqué à la section [Créer une requête](../../workflow/using/query.md#creating-a-query).
+1. Paramétrez l’onglet **[!UICONTROL Requête incrémentale]** de l’activité comme indiqué à la section [Créer une requête](query.md#creating-a-query).
 1. Sélectionnez l&#39;onglet **[!UICONTROL Planification &amp; Historique]** et indiquez un historique de 270 jours. Un destinataire déjà ciblé ne sera plus ciblé pour une période de 270 jours, soit environ 9 mois.
 
    Cliquez ensuite sur le bouton **[!UICONTROL Changer...]**.
@@ -33,6 +35,6 @@ Ces campagnes étant lancées à chaque début de saison afin de proposer des ac
 
    ![](assets/incremental_query_example_2.png)
 
-1. Après avoir validé le paramétrage de la requête incrémentale, paramétrez l&#39;activité de mise à jour de liste comme décrit à la section [Mise à jour de liste](../../workflow/using/list-update.md).
+1. Après avoir validé le paramétrage de la requête incrémentale, paramétrez l&#39;activité de mise à jour de liste comme décrit à la section [Mise à jour de liste](list-update.md).
 
 Le workflow sera ainsi lancé automatiquement juste avant chaque début de saison. La liste sera mise à jour avec les nouveaux destinataires éligibles pour recevoir les offres.

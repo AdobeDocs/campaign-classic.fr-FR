@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 100%
 
 ---
 
 # Créer une diffusion courrier{#creating-a-direct-mail-delivery}
+
+![](../../assets/common.svg)
 
 Pour créer une diffusion courrier, procédez comme suit :
 

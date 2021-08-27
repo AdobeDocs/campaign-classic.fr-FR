@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
 
 ---
 
 # Synchronisation des applications web{#synchronizing-web-applications}
+
+![](../../assets/v7-only.svg)
 
 Dans ce cas pratique, nous allons envoyer une communication, à l&#39;aide de Campaign Standard, comprenant un lien vers une application web de Campaign v7. Lorsqu&#39;un destinataire clique sur le lien dans l&#39;email, l&#39;application web affiche un formulaire contenant plusieurs champs préchargés avec les données du destinataire en question ainsi qu&#39;un lien d&#39;inscription à une newsletter. Le destinataire peut mettre à jour ses informations et s&#39;inscrire au service. Son profil est alors mis à jour dans Campaign v7 et les informations sont répliquées dans Campaign Standard.
 

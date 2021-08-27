@@ -6,17 +6,18 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 99%
 
 ---
 
 # Lancement d’Adobe Campaign{#launching-adobe-campaign}
 
-La console cliente Campaign est un client riche qui vous permet de vous connecter à votre ou vos serveur(s) applicatif(s) Campaign. Découvrez comment télécharger et configurer la console cliente en consultant [cette page](../../installation/using/installing-the-client-console.md).
+![](../../assets/v7-only.svg)
 
+La console cliente Campaign est
 
 >[!CAUTION]
 >
@@ -24,7 +25,7 @@ La console cliente Campaign est un client riche qui vous permet de vous connecte
 
 ## Lancement d’Adobe Campaign {#starting-adobe-campaign}
 
-Vous pouvez démarrer Adobe Campaign à partir du menu **[!UICONTROL Démarrer / Tous les programmes / Adobe Campaign v.X / Console cliente Adobe Campaign]**.
+Vous pouvez démarrer Adobe Campaign à partir du menu **[!UICONTROL Démarrer/Tous les programmes/Adobe Campaign v.X/Console cliente Adobe Campaign]**.
 
 La page de connexion de la console cliente permet de configurer ou de sélectionner une base de données existante, et de s’y connecter en utilisant un identifiant et un mot de passe :
 

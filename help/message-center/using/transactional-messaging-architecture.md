@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: ht
-source-wordcount: '1226'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '1225'
+ht-degree: 98%
 
 ---
 
 # Architecture des messages transactionnels {#transactional-messaging-architecture}
+
+![](../../assets/v7-only.svg)
 
 Les messages transactionnels reposent sur une architecture spécifique, composée de plusieurs instances :
 
@@ -35,7 +37,7 @@ L&#39;installation des packages des messages transactionnels requiert de nombreu
 >
 >L&#39;instance de contrôle et la ou les instances d&#39;exécution doivent être installées sur des machines différentes. Elles ne peuvent pas partager la même instance Campaign.
 
-Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les packages associés avant l&#39;installation des packages des messages transactionnels. Voir à ce propos la section [Ajouter un canal de diffusion](#adding-a-delivery-channel).
+Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les packages associés avant l&#39;installation des packages des messages transactionnels. Pour plus d&#39;informations, consultez la section [Ajouter un canal de diffusion](#adding-a-delivery-channel).
 
 ## Instance de pilotage {#control-instance}
 
@@ -222,7 +224,7 @@ Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **
    * **[!UICONTROL Serveur]** : saisissez l&#39;URL du serveur Campaign de l&#39;instance d&#39;exécution.
    * **[!UICONTROL Compte]** : saisissez le compte utilisé pour accéder à l&#39;instance d&#39;exécution.
    * **[!UICONTROL Mot de passe]** : saisissez le mot de passe du compte utilisé pour accéder à l&#39;instance d&#39;exécution.
-   * **[!UICONTROL Data Source]** : saisissez la syntaxe suivante **[!UICONTROL nms:extAccount:ID pour le compte de base de données externe dans l&#39;instance d&#39;exécution]** .
+   * **[!UICONTROL Source]**  de données : saisissez la syntaxe suivante  **[!UICONTROL :extAccount:nmsID de votre compte de base de données externe dans l&#39;instance]**  d&#39;exécution.
 
 
 1. Créez un compte externe **[!UICONTROL Instance d&#39;exécution]** dans votre instance **marketing** à l&#39;aide de la configuration suivante pour créer le workflow de synchronisation des données :

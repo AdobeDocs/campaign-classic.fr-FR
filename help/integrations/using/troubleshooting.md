@@ -6,8 +6,8 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 61bb184e-affa-430c-8571-56e911cd5a3d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 
@@ -15,14 +15,16 @@ ht-degree: 100%
 
 # Résolution des problèmes{#troubleshooting}
 
+![](../../assets/common.svg)
+
 En cas d&#39;erreur, vérifiez que les éléments suivants sont correctement configurés :
 
 * **Comptes externes**
 
-   Dans **[!UICONTROL Administration > Plate-forme > Comptes externes]**, vérifiez que les comptes SFTP externes ci-dessous sont correctement configurés. Les serveurs SFTP indiqués doivent avoir été configurés par votre consultant dans Adobe Experience Cloud.
+   Dans **[!UICONTROL Administration > Plate-forme > Comptes externes]**, vérifiez que les comptes SFTP externes ci-dessous sont correctement configurés. Les serveurs SFTP indiqués doivent avoir été configurés par votre consultant dans Adobe Experience Cloud.
 
-   * **[!UICONTROL importSharedAudience : compte SFTP dédié à l&#39;import d&#39;audiences.]**
-   * **[!UICONTROL exportSharedAudience : compte SFTP dédié à l&#39;export d&#39;audiences.]**
+   * **[!UICONTROL importSharedAudience : compte SFTP dédié à l&#39;import d&#39;audiences.]**
+   * **[!UICONTROL exportSharedAudience : compte SFTP dédié à l&#39;export d&#39;audiences.]**
 
 * **AMC Data source**
 

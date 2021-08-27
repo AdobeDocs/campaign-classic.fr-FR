@@ -2,22 +2,24 @@
 product: campaign
 title: Notes de mise à jour de Campaign 18.10
 description: Notes de mise à jour de Campaign 18.10
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2369'
 ht-degree: 99%
 
 ---
 
 # Version 18.10{#release-18-10}
 
+![](../../assets/v7-only.svg)
+
 ## Version 18.10.6 - Build 8985{#release-18-10-6-build-8985}
 
-12 juillet 2019
+12 juillet 2019
 
 **Améliorations**
 
@@ -146,7 +148,7 @@ ht-degree: 99%
 
 * Les API de Campaign Classic sont maintenant disponibles dans une [page dédiée](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html). Si vous utilisiez le fichier jsapi.chm, vous devez à présent vous référer à la nouvelle version en ligne.
 * PostgreSQL 10, Debian 9 et Teradata 16.20 sont maintenant pris en charge. Consultez la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
-* Lors de la création d&#39;une connexion SFTP, vous pouvez maintenant utiliser l&#39;authentification par proxy. Pour plus d&#39;informations, consultez la [documentation détaillée](../../installation/using/file-res-management.md) (NEO-9868)
+* Lors de la création d&#39;une connexion SFTP, vous pouvez maintenant utiliser l&#39;authentification par proxy. Pour plus d&#39;informations, consultez la [documentation détaillée](../../installation/using/file-res-management.md) (NEO-9868)
 * L&#39;option **Formule de calcul de date** est maintenant disponible dans les propriétés d&#39;une diffusion lors de la création d&#39;une diffusion unique à l&#39;aide du modèle de diffusion courrier. (NEO-9792)
 * La gestion des noms de domaine a été améliorée pour le tracking des cookies et les applications web. Pour plus d&#39;informations, consultez la section &#39;Evolutions techniques&#39;.
 * L&#39;import des ressources partagées Adobe Marketing Cloud dans une diffusion ou une landing page a été amélioré en termes de sécurité et de performances.

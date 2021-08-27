@@ -6,14 +6,16 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 5c11bd0f-2df7-4c7f-b682-955fedf8e664
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 100%
 
 ---
 
 # Créer une application Facebook{#creating-a-facebook-application}
+
+![](../../assets/v7-only.svg)
 
 Grâce aux applications web, les fonctionnalités de Social Marketing vous permettent d&#39;afficher du contenu personnalisé dans vos applications Facebook, ce qui facilite l&#39;acquisition de prospects par l&#39;intermédiaire de ce réseau social. Pour d&#39;autres exemples d&#39;applications web de type Facebook, voir la section [Exemples d&#39;apps Facebook](../../social/using/examples-of-facebook-apps.md).
 
@@ -25,13 +27,13 @@ Grâce aux applications web, les fonctionnalités de Social Marketing vous perme
 
 Les étapes de paramétrage sont les suivantes :
 
-1. Créez une ou plusieurs applications Facebook. Voir à ce propos la section : [Créer une application Facebook](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
+1. Créez une ou plusieurs applications Facebook. Pour plus d&#39;informations, consultez la section : [Créer une application Facebook](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
 1. Renseignez les liens **[!UICONTROL Conditions d&#39;utilisation]** et **[!UICONTROL Politique de confidentialité]** qui apparaîtront sur l’écran de demande de permission Facebook. Pour plus d&#39;informations à ce sujet, voir la section : [Renseigner les liens Conditions d&#39;utilisation et Politique de confidentialité](#entering-the-terms-of-service-and-privacy-policy-links).
-1. Pour chaque application Facebook, vous devez créer un compte externe de type **[!UICONTROL Facebook Connect]**. Voir à ce propos la section : [Paramétrer les comptes externes](#configuring-external-accounts).
-1. Pour chaque application Facebook, créez une application web de type Facebook dans Adobe Campaign. Voir à ce propos la section : [Créer une application web de type Facebook](#creating-a-facebook-type-web-application).
-1. Configurez vos applications Facebook afin qu&#39;elles s&#39;affichent sous forme d&#39;onglets sur votre page Facebook. Voir à ce propos la section : [Paramétrer les onglets Facebook](#configuring-facebook-tabs).
+1. Pour chaque application Facebook, vous devez créer un compte externe de type **[!UICONTROL Facebook Connect]**. Pour plus d&#39;informations, consultez la section : [Paramétrer les comptes externes](#configuring-external-accounts).
+1. Pour chaque application Facebook, créez une application web de type Facebook dans Adobe Campaign. Pour plus d&#39;informations, consultez la section : [Créer une application web de type Facebook](#creating-a-facebook-type-web-application).
+1. Configurez vos applications Facebook afin qu&#39;elles s&#39;affichent sous forme d&#39;onglets sur votre page Facebook. Pour plus d&#39;informations, consultez la section : [Paramétrer les onglets Facebook](#configuring-facebook-tabs).
 
-## Paramétrer les comptes externes {#configuring-external-accounts}
+## Paramétrage des comptes externes {#configuring-external-accounts}
 
 Pour chaque application Facebook, vous devez créer un compte externe de type **[!UICONTROL Facebook Connect]**.
 
@@ -86,7 +88,7 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
    ![](assets/social_facebook_external_account_008.png)
 
 1. Sur Facebook, cliquez sur le bouton **[!UICONTROL Enregistrer les modifications]**, en bas de la page.
-1. Dans la console Adobe Campaign, cliquez sur le bouton **[!UICONTROL S&#39;abonner]** pour permettre à Adobe Campaign de récupérer, en temps réel, les données des fans acquis par le biais de cette application. Voir à ce propos la section : [Exemples d&#39;apps Facebook](../../social/using/examples-of-facebook-apps.md).
+1. Dans la console Adobe Campaign, cliquez sur le bouton **[!UICONTROL S&#39;abonner]** pour permettre à Adobe Campaign de récupérer, en temps réel, les données des fans acquis par le biais de cette application. Pour plus d&#39;informations, consultez la section : [Exemples d&#39;apps Facebook](../../social/using/examples-of-facebook-apps.md).
 
    ![](assets/social_webapp_fb_013.png)
 
@@ -125,11 +127,11 @@ L&#39;application web Adobe Campaign de type Facebook permet d&#39;afficher du c
    >* **[!UICONTROL Jeux concours &quot;Page Tab&quot;]** : application Facebook encapsulée au sein des onglets des pages de marque.
 
 
-1. Dans le champ **[!UICONTROL Application]**, renseignez le compte externe lié à l&#39;application Facebook. Voir à ce propos la section : [Paramétrer les comptes externes](#configuring-external-accounts).
+1. Dans le champ **[!UICONTROL Application]**, renseignez le compte externe lié à l&#39;application Facebook. Pour plus d&#39;informations, consultez la section : [Paramétrer les comptes externes](#configuring-external-accounts).
 
    ![](assets/social_webapp_005.png)
 
-1. Sélectionnez l&#39;onglet **[!UICONTROL Edition]**, puis modifiez l&#39;application web. Voir à ce propos la section : [Exemples d&#39;apps Facebook](../../social/using/examples-of-facebook-apps.md).
+1. Sélectionnez l&#39;onglet **[!UICONTROL Edition]**, puis modifiez l&#39;application web. Pour plus d&#39;informations, consultez la section : [Exemples d&#39;apps Facebook](../../social/using/examples-of-facebook-apps.md).
 
    ![](assets/social_webapp_003.png)
 

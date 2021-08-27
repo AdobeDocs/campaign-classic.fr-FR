@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos de la configuration initiale
-description: A propos de la configuration initiale
+title: À propos de la configuration initiale
+description: À propos de la configuration initiale
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f77ba178-0dfb-4a2e-b33b-971765d42298
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
 
 ---
 
 # Étapes clés de configuration et de déploiement de votre instance{#about-initial-configuration}
+
+![](../../assets/v7-only.svg)
 
 Une fois l’installation d’Adobe Campaign terminée, vous devez en effectuer la configuration pour garantir son bon fonctionnement, selon vos contraintes et votre architecture technique. Les étapes de configuration d’une instance Adobe Campaign sont présentées dans ce chapitre. Elles s’enchaînent dans l’ordre suivant :
 

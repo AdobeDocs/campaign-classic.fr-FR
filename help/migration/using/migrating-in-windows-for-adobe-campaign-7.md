@@ -6,14 +6,16 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1561'
 ht-degree: 100%
 
 ---
 
 # Migration sous Windows pour Adobe Campaign 7{#migrating-in-windows-for-adobe-campaign}
+
+![](../../assets/v7-only.svg)
 
 ## Procédure générale {#general-procedure}
 
@@ -267,7 +269,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
 ## Migration du serveur de redirection (IIS) {#migrating-the-redirection-server--iis-}
 
-À ce stade, le serveur IIS doit être arrêté. Voir la section [Arrêt des services](#service-stop).
+À ce stade, le serveur IIS doit être arrêté. Pour plus d&#39;informations, consultez la section [Arrêt des services](#service-stop).
 
 1. Ouvrez la console **Internet Information Services (IIS) Manager**.
 1. Modifiez les liaisons (ports d&#39;écoute) du site utilisé pour la version précédente d&#39;Adobe Campaign :
@@ -291,7 +293,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    * Renseignez le nom du site, par exemple **Adobe Campaign v7**.
    * Le chemin d&#39;accès au répertoire de base du site Web n&#39;est pas utilisé, mais le champ **[!UICONTROL Chemin d&#39;accès physique]** doit être obligatoirement renseigné. Saisissez par exemple le chemin physique par défaut de IIS : **C:\inetpub\wwwroot**.
    * Cliquez sur le bouton **[!UICONTROL Se connecter en tant que]**, et vérifiez que l&#39;option **[!UICONTROL Utilisateur de l&#39;application]** est sélectionnée.
-   * Dans les champs **[!UICONTROL Adresse IP]** et **[!UICONTROL Port]**, vous pouvez laisser les valeurs par défaut. Si vous souhaitez utiliser d&#39;autres valeurs, vérifiez que l&#39;adresse IP et/ou le port sont disponibles.
+   * Dans les champs **[!UICONTROL adresse IP]** et **[!UICONTROL Port]**, vous pouvez laisser les valeurs par défaut. Si vous souhaitez utiliser d&#39;autres valeurs, vérifiez que l&#39;adresse IP et/ou le port sont disponibles.
    * Cochez la case **[!UICONTROL Démarrage immédiat du site Web]**.
 
       ![](assets/_migration_iis_5_7.png)

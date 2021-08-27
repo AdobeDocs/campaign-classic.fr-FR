@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 100%
 
 ---
 
 # Mise à jour de données{#update-data}
+
+![](../../assets/common.svg)
 
 Une activité de type **Mise à jour de données** permet de mettre à jour en masse les champs de la base de données.
 
@@ -116,7 +118,7 @@ Les données des enregistrements secondaires sont associées à l&#39;enregistre
 
 ## Exemple : mise à jour de données suite à un enrichissement {#example--update-data-following-an-enrichment}
 
-La section [Etape 2 : Ecriture des données enrichies dans la table « Achats »](../../workflow/using/creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) du cas d&#39;utilisation qui détaille la création d&#39;une liste de récapitulation offre un exemple de mise à jour de données après une activité d&#39;enrichissement.
+La section [Etape 2 : Ecriture des données enrichies dans la table « Achats »](creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) du cas d&#39;utilisation qui détaille la création d&#39;une liste de récapitulation offre un exemple de mise à jour de données après une activité d&#39;enrichissement.
 
 ## Paramètres d&#39;entrée {#input-parameters}
 

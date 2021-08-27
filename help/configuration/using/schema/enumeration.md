@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 100%
 
 ---
 
-# élément enumeration{#enumeration--element}
+# élément enumeration {#enumeration--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modèle de contenu {#content-model-5}
 
@@ -86,7 +88,7 @@ Une énumération se définit au tout début d&#39;un schéma (avant la définit
 * **name (string)**: nom interne de l&#39;énumération.
 * **template (string)** : cet attribut définit une référence à un élément `<enumeration>` partagé par plusieurs schémas. La définition est automatiquement copiée dans le schéma actuel.
 
-## Exemples {#examples-4}
+## Exemples  {#examples-4}
 
 Exemple d&#39;énumération dont les valeurs sont stockées en base:
 

@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '3201'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Configuration des traitements d’import {#executing-import-jobs}
+
+![](../../assets/common.svg)
 
 Adobe Campaign vous permet d&#39;importer des données dans la base de données à partir d&#39;un ou de plusieurs fichiers au format texte, CSV, TAB ou XML. Ces fichiers sont associés à une table (principale ou liée) et chaque champ du ou des fichier(s) source est associé à un champ de la base de données.
 
@@ -27,7 +29,7 @@ L’assistant d’import s’affiche après avoir créé un nouveau traitement d
 
 >[!NOTE]
 >
->Si vous utilisez un serveur web IIS, un paramétrage peut-être nécessaire afin d&#39;autoriser le téléchargement de fichiers volumineux (> 28 Mo). Voir à ce sujet [cette section](../../installation/using/integration-into-a-web-server-for-windows.md#changing-the-upload-file-size-limit).
+>Si vous utilisez un serveur web IIS, un paramétrage peut-être nécessaire afin d&#39;autoriser le téléchargement de fichiers volumineux (> 28 Mo). Pour plus d’informations, consultez [cette section](../../installation/using/integration-into-a-web-server-for-windows.md#changing-the-upload-file-size-limit).
 
 ## Fichier source {#source-file}
 
@@ -83,7 +85,7 @@ Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux optio
 
    * **[!UICONTROL Ne pas mettre à jour les énumérations]**
 
-      Cochez cette option pour ne pas enrichir la liste des valeurs énumérées en base. Voir la section [Gérer les énumérations](../../platform/using/managing-enumerations.md).
+      Cochez cette option pour ne pas enrichir la liste des valeurs énumérées en base. Pour plus d&#39;informations, consultez la section [Gérer les énumérations](../../platform/using/managing-enumerations.md).
 
 * Onglet **[!UICONTROL Variables]**
 

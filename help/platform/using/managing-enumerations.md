@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Gérer les énumérations{#managing-enumerations}
+
+![](../../assets/common.svg)
 
 Une énumération est une liste de valeurs proposées par le système pour renseigner certains champs. Les énumérations permettent de standardiser les valeurs de ces champs et de faciliter leur saisie ou leur utilisation au sein de requêtes.
 
@@ -44,7 +46,7 @@ La définition des valeurs des champs de ce type et l&#39;administration globale
 
 ## Normaliser les données {#standardizing-data}
 
-### A propos de la gestion des alias {#about-alias-cleansing}
+### À propos de la gestion des alias {#about-alias-cleansing}
 
 Dans les champs énumérés, il est possible de saisir d&#39;autres valeurs que les valeurs de l&#39;énumération. Ces valeurs peuvent être stockées telles quelles ou faire l&#39;objet d&#39;une normalisation.
 
@@ -86,7 +88,7 @@ Vérifiez les paramètres avant de valider cette opération.
 
 ![](assets/s_ncs_user_itemized_list_alias_create_3.png)
 
-Ainsi, lorsque l&#39;utilisateur renseigne la valeur **NEILSEN** dans un champ « société » (dans la console Adobe Campaign ou dans un formulaire), elle sera remplacée par la valeur **NEILSEN Ltd**. Le remplacement des valeurs est réalisé par le workflow **Cleansing des alais**. Voir la section [Exécution du cleansing des données](#running-data-cleansing).
+Ainsi, lorsque l&#39;utilisateur renseigne la valeur **NEILSEN** dans un champ « société » (dans la console Adobe Campaign ou dans un formulaire), elle sera remplacée par la valeur **NEILSEN Ltd**. Le remplacement des valeurs est réalisé par le workflow **Cleansing des alais**. Pour plus d&#39;informations, consultez la section [Exécution du cleansing des données](#running-data-cleansing).
 
 ![](assets/s_ncs_user_itemized_list_alias_use.png)
 
@@ -112,7 +114,7 @@ Une fois l&#39;exécution terminée, l&#39;alias est ajouté dans la liste des a
 
 Les valeurs saisies par les utilisateurs peuvent être transformées en alias. En effet, lorsque l&#39;utilisateur saisit une valeur qui n&#39;est pas présente dans la liste des valeurs d&#39;énumération, cette valeur est stockée dans l&#39;onglet **[!UICONTROL Alias]**.
 
-Le workflow technique **Cleansing des alias** récupère ces valeurs chaque nuit afin de mettre à jour la liste détaillée. Voir la section [Exécution du cleansing des données](#running-data-cleansing)
+Le workflow technique **Cleansing des alias** récupère ces valeurs chaque nuit afin de mettre à jour la liste détaillée. Pour plus d&#39;informations, consultez la section [Exécution du cleansing des données](#running-data-cleansing)
 
 Au besoin, la colonne **[!UICONTROL Hits]** peut afficher le nombre de fois où cette valeur a été saisie. Le calcul de cette valeur peut être long et coûteux en mémoire. Voir à ce sujet la section [Calcul des occurrences de saisie](#calculating-entry-occurrences).
 

@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 100%
 
 ---
 
 # Workflow de nettoyage de la base de données{#database-cleanup-workflow}
+
+![](../../assets/v7-only.svg)
 
 ## Introduction {#introduction}
 
@@ -44,7 +46,7 @@ Par défaut, le workflow **[!UICONTROL Nettoyage de la base]** est paramétré p
 >
 >Pour que le workflow **[!UICONTROL Nettoyage de la base]** puisse se lancer à la date et heure définies dans le planificateur, le moteur de workflow (wfserver) doit être démarré. Si ce n&#39;est pas le cas, le nettoyage de la base se déclenchera au prochain démarrage du moteur de workflow.
 
-### L&#39;assistant de déploiement {#deployment-wizard}
+### L’assistant de déploiement {#deployment-wizard}
 
 L&#39;**[!UICONTROL Assistant de déploiement]**, accessible à partir du menu **[!UICONTROL Outils > Avancé]**, vous permet de paramétrer la durée pendant laquelle certaines données sont conservées. Les valeurs sont exprimées en jours. Si ces valeurs ne sont pas modifiées, le workflow utilisera les valeurs par défaut.
 
@@ -124,7 +126,7 @@ La première tâche exécutée par le workflow **[!UICONTROL Nettoyage de la bas
 
 Cette tâche purge toutes les diffusions à supprimer ou à recycler.
 
-1. Le workflow **[!UICONTROL Nettoyage de la base]** sélectionne toutes les diffusions pour lesquelles le champ **deleteStatus** a la valeur **[!UICONTROL Oui]** ou **[!UICONTROL Recyclé]** et dont la date de suppression est antérieure à la période définie dans le champ **[!UICONTROL Diffusions supprimées]** (**NmsCleanup_RecycledDeliveryPurgeDelay)** de l’assistant de déploiement. Voir à ce sujet [Assistant de déploiement](#deployment-wizard). Cette période est calculée par rapport à la date actuelle du serveur.
+1. Le workflow **[!UICONTROL Nettoyage de la base]** sélectionne toutes les diffusions pour lesquelles le champ **deleteStatus** a la valeur **[!UICONTROL Oui]** ou **[!UICONTROL Recyclé]** et dont la date de suppression est antérieure à la période définie dans le champ **[!UICONTROL Diffusions supprimées]** (**NmsCleanup_RecycledDeliveryPurgeDelay)** de l’assistant de déploiement. Pour plus d’informations, consultez [Assistant de déploiement](#deployment-wizard). Cette période est calculée par rapport à la date actuelle du serveur.
 1. La tâche sélectionne ensuite, pour chaque serveur de mid-sourcing, la liste des diffusions à supprimer.
 1. Le workflow **[!UICONTROL Nettoyage de la base]** supprime les logs de diffusion, les pièces jointes, les informations de pages miroir et toute autre donnée associée.
 1. Avant la suppression définitive de la diffusion, le workflow purge les informations associées dans les tables suivantes :

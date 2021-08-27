@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 100%
 
 ---
 
 # Réception d&#39;emails{#inbound-emails}
+
+![](../../assets/common.svg)
 
 L&#39;activité **Réception d&#39;emails** permet de récupérer et de traiter des emails depuis une messagerie accessible via le protocole POP3.
 
@@ -68,7 +70,7 @@ Le premier onglet de l&#39;activité **Réception d&#39;email** permet de rensei
 
    Pour définir un planning pour l&#39;activité, cliquez sur l&#39;onglet **[!UICONTROL Planning]** et cochez l&#39;option **[!UICONTROL Planifier l&#39;exécution]**. Cliquez ensuite sur le bouton **[!UICONTROL Changer]** pour configurer le planning.
 
-   Le paramétrage du planning est le même que celui de l&#39;activité de planification. Voir à ce propos la section [Planificateur](../../workflow/using/scheduler.md).
+   Le paramétrage du planning est le même que celui de l&#39;activité de planification. Pour plus d&#39;informations, consultez la section [Planificateur](scheduler.md).
 
 1. **[!UICONTROL Expiration]**
 
@@ -76,4 +78,4 @@ Le premier onglet de l&#39;activité **Réception d&#39;email** permet de rensei
 
    ![](assets/email_rec_edit_3.png)
 
-   Le paramétrage est le même que celui de l&#39;activité de planification. Voir la section [Expirations](../../workflow/using/defining-approvals.md).
+   Le paramétrage est le même que celui de l&#39;activité de planification. Pour plus d&#39;informations, consultez la section [Expirations](defining-approvals.md).

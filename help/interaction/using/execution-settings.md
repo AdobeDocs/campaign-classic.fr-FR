@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: e2dea4a0-9ed8-47b6-a16b-eeee653d2290
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
 ---
 
 # Paramètres d&#39;exécution{#execution-settings}
+
+![](../../assets/v7-only.svg)
 
 Lors de la création d&#39;une simulation, vous pouvez, si besoin est, spécifier les paramètres d&#39;exécution. Ces paramètres permettent d&#39;exécuter la simulation pendant une plage horaire de moindre activité selon son niveau de priorité ou d&#39;enregistrer les requêtes SQL dans le journal. Cette étape est optionnelle.
 

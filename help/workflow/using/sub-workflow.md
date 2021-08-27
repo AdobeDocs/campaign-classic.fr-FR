@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -15,11 +15,13 @@ ht-degree: 100%
 
 # Sous-workflow{#sub-workflow}
 
+![](../../assets/common.svg)
+
 L’activité **[!UICONTROL Sous-workflow]** permet de déclencher l’exécution d’un autre workflow et de récupérer le résultat du calcul. Cette activité permet d’utiliser des workflows complexes tout en gardant une interface simplifiée.
 
 Vous pouvez appeler plusieurs sous-workflows au sein d’un même workflow. Les sous-workflows sont exécutés de manière synchrone.
 
-Dans l’exemple ci-dessous, un workflow principal appelle un sous-workflow à l’aide de sauts. Pour plus d’informations sur les objets graphiques de type saut, voir [cette section](../../workflow/using/jump--start-point-and-end-point-.md).
+Dans l’exemple ci-dessous, un workflow principal appelle un sous-workflow à l’aide de sauts. Pour plus d’informations sur les objets graphiques de type saut, voir [cette section](jump--start-point-and-end-point-.md).
 
 1. Créez un workflow que vous allez utiliser en tant que sous-workflow dans un autre workflow.
 1. Insérez une activité **[!UICONTROL Saut (arrivée)]** avec une priorité de 1 au début du workflow. Si vous avez plusieurs sauts de type « arrivée », Adobe Campaign utilisera celui associé au plus petit nombre.

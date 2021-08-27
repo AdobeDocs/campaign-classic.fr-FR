@@ -6,8 +6,8 @@ description: Découvrez comment Configuration de l'accès à BigQuery Google da
 audience: platform
 content-type: reference
 topic-tags: connectors
-source-git-commit: 911302475b5ece96d527575148ee611fdb839753
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 
 
 # Configuration de l&#39;accès à BigQuery Google {#configure-fda-google-big-query}
+
+![](../../assets/v7-only.svg)
 
 Utilisez l&#39;option Adobe Campaign Classic **Federated Data Access** (FDA) pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour Configuration de l&#39;accès à [!DNL Google BigQuery].
 
@@ -210,7 +212,7 @@ L&#39;utilitaire de chargement en masse permet un transfert plus rapide grâce a
 >
 >Pour que le SDK Google Cloud fonctionne, vous devez installer Python.
 >
->Nous vous recommandons d&#39;utiliser Python3 ; voir cette [page](https://www.python.org/downloads/).
+>Nous vous recommandons d&#39;utiliser Python3 ; voir cette [page](https://www.python.org/downloads/).
 
 L&#39;utilitaire de chargement en masse permet un transfert plus rapide grâce au SDK Google Cloud.
 

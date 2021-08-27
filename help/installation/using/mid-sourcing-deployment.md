@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 
 ---
 
 # Déploiement Mid-sourcing{#mid-sourcing-deployment}
+
+![](../../assets/v7-only.svg)
 
 Cette configuration présente une solution intermédiaire optimale entre le mode hébergé (ASP) et l&#39;internalisation. Toute la partie concernant l&#39;envoi des messages est déportée sur un serveur de &quot;mid-sourcing&quot;, hébergé chez Adobe Campaign.
 

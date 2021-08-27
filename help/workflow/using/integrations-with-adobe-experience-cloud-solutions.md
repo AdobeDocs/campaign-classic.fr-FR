@@ -5,8 +5,8 @@ description: En savoir plus sur les workflows des intégrations avec les solutio
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 
 
 # Intégrations avec les solutions Adobe Experience Cloud{#integrations-with-adobe-experience-cloud-solutions}
+
+![](../../assets/common.svg)
 
 Les workflows présentés ci-dessous sont installés par défaut avec le module **Intégration avec Adobe Experience Cloud**. Pour plus d’informations sur ce module, consultez cette [section](../../integrations/using/configuring-ims.md#installing-the-package).
 

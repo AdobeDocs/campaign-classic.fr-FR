@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 100%
 
 ---
 
 # Tableau de bord de la diffusion {#delivery-dashboard}
+
+![](../../assets/common.svg)
 
 Le **tableau de bord de la diffusion** est la clé pour suivre les diffusions et les erreurs éventuelles rencontrées lors de l&#39;envoi des messages.
 
@@ -57,7 +59,7 @@ Pour une diffusion, vous pouvez afficher par exemple seulement les destinataires
 
 >[!NOTE]
 >
->La liste qui affiche les logs de diffusion peut être personnalisée, comme toute liste dans Campaign Classic. Vous pouvez, par exemple, ajouter une colonne pour connaître l&#39;adresse IP qui a envoyé chaque email dans une diffusion. Pour plus d&#39;informations à ce sujet, reportez-vous au cas pratique détaillé dans [cette section](#use-case).
+>La liste qui affiche les logs de diffusion peut être personnalisée, comme toute liste dans Campaign Classic. Vous pouvez, par exemple, ajouter une colonne pour connaître l&#39;adresse IP qui a envoyé chaque email dans une diffusion. Pour plus d&#39;informations à ce sujet, reportez-vous au cas pratique détaillé dans [cette section](#use-case).
 
 ![](assets/s_ncs_user_delivery_delivery_tab.png)
 
@@ -97,7 +99,7 @@ L&#39;onglet **[!UICONTROL Audit]** contient le log des diffusions et tous les m
 
 Le bouton **[!UICONTROL Actualiser]** permet de mettre à jour les données. Utilisez le bouton **[!UICONTROL Filtres]** pour définir un filtre sur les données.
 
-Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Voir la section [Analyser la diffusion](steps-validating-the-delivery.md#analyzing-the-delivery).
+Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Pour plus d&#39;informations, consultez la section [Analyser la diffusion](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 Le sous-onglet **[!UICONTROL Bons à tirer]** vous permet de voir la liste des BAT qui ont été envoyés.
 
@@ -123,7 +125,7 @@ Vous pouvez également effectuer un tracking de vos diffusions à l&#39;aide de 
 
 ## Cas pratique : Ajouter les adresses IP des expéditeurs aux logs {#use-case}
 
-Dans cette section, vous apprendrez comment ajouter aux logs de diffusion des informations concernant l’adresse IP qui a envoyé chaque email dans une diffusion.
+Dans cette section, vous apprendrez comment ajouter aux logs de diffusion des informations concernant l’adresse IP qui a envoyé chaque email dans une diffusion.
 
 >[!NOTE]
 >

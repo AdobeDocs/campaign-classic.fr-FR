@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 100%
 
 ---
 
 # Conception d’un questionnaire{#building-a-survey}
+
+![](../../assets/v7-only.svg)
 
 ## Créer un nouveau questionnaire {#creating-a-new-survey}
 

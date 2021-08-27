@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
 
 # Extraction (fichier){#extraction-file}
+
+![](../../assets/common.svg)
 
 Vous pouvez extraire les données d&#39;une table de workflow dans un fichier externe en utilisant l&#39;activité **[!UICONTROL Extraction (fichier)]**.
 
@@ -48,7 +50,7 @@ Pour paramétrer l&#39;extraction des données, les étapes sont les suivantes :
 
 Vous pouvez définir un post-traitement à exécuter pendant l’extraction des données, ce qui vous permet de compresser ou de crypter les fichiers. Pour ce faire, la commande souhaitée doit être ajoutée dans l’onglet **[!UICONTROL Script]** de l’activité.
 
-Pour plus d’informations à ce sujet, consultez cette section : [Compresser ou crypter un fichier](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+Pour plus d’informations à ce sujet, consultez cette section : [Compresser ou crypter un fichier](how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
 ![](assets/postprocessing_dataextraction.png)
 

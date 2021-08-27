@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 939552f127207f258448b2a82bb8c4c000371694
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 89%
@@ -14,6 +14,8 @@ ht-degree: 89%
 ---
 
 # Gestion des fichiers et des ressources{#file-and-resmanagement}
+
+![](../../assets/v7-only.svg)
 
 ## Limiter le format des fichiers envoyés {#limiting-uploadable-files}
 
@@ -37,14 +39,13 @@ Vous pouvez également empêcher le téléchargement de fichiers importants en c
 
 Vous pouvez connecter le serveur Campaign à un système externe par le biais d’un proxy, en utilisant par exemple une activité de workflow **Transfert de fichier**. Pour ce faire, vous devez configurer la section **proxyConfig** du fichier **serverConf.xml** à l’aide d’une commande spécifique. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
-Les connexions proxy suivantes sont possibles : HTTP, HTTPS, FTP, SFTP. Notez qu’à compter de la version 20.2 de Campaign, les paramètres de protocole HTTP et HTTPS sont **indisponibles**. Ces paramètres sont toujours mentionnés ci-dessous car ils restent disponibles dans les builds précédents, y compris le build 9032.
+Les connexions proxy suivantes sont possibles : HTTP, HTTPS, FTP, SFTP. Notez qu’à compter de la version 20.2 de Campaign, les paramètres de protocole HTTP et HTTPS sont **indisponibles**. Ces paramètres sont toujours mentionnés ci-dessous car ils restent disponibles dans les builds précédents, y compris le build 9032.
 
 >[!CAUTION]
 >
 >Seul le mode d’authentification de base est pris en charge. L’authentification NTLM n’est pas prise en charge.
 >
 >Les proxys SOCKS ne sont pas pris en charge.
-
 
 Vous pouvez utiliser la commande suivante :
 

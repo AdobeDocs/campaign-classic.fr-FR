@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
 ---
 
 # Publication de modèles de message {#publishing-template-messages}
+
+![](../../assets/v7-only.svg)
 
 ## Publication des modèles {#template-publication}
 
@@ -29,33 +31,33 @@ La publication vous permet de créer automatiquement **deux modèles de messages
 >
 >Chaque fois que vous apportez des modifications à un modèle, veillez à le republier pour que ces modifications soient effectives pendant la diffusion du message transactionnel.
 
-1. Dans l’instance de pilotage, positionnez-vous au niveau du dossier **[!UICONTROL Message Center > Modèle de messages transactionnels]** dans l’arborescence.
+1. Dans l&#39;instance de pilotage, positionnez-vous au niveau du dossier **[!UICONTROL Message Center > Modèle de messages transactionnels]** dans l&#39;arborescence.
 1. Sélectionnez le modèle que vous souhaitez publier sur vos instances d&#39;exécution.
 1. Cliquez sur **[!UICONTROL Publier]**.
 
    ![](assets/messagecenter_publish_model_008.png)
 
-Lorsque la publication est terminée, les deux modèles de messages destinés à être appliqués aux types d’événements temps réel et par lots sont créés dans l’arborescence de l’instance d’exploitation dans le dossier **[!UICONTROL Administration > Production > Message Center (Exécution) > Défaut > Modèles de messages transactionnels]**.
+Lorsque la publication est terminée, les deux modèles de messages destinés à être appliqués aux types d&#39;événements temps réel et par lots sont créés dans l&#39;arborescence de l&#39;instance d&#39;exploitation dans le dossier **[!UICONTROL Administration > Production > Message Center (Exécution) > Défaut > Modèles de messages transactionnels]**.
 
 ![](assets/messagecenter_deployed_model_001.png)
 
-Une fois qu’un modèle est publié, si l’événement correspondant est déclenché, l’instance d&#39;exécution reçoit l’événement, le lie au modèle transactionnel et envoie le message transactionnel correspondant à chaque destinataire. Voir à ce propos la section [Traitement des événements](../../message-center/using/about-event-processing.md).
+Une fois qu’un modèle est publié, si l’événement correspondant est déclenché, l’instance d&#39;exécution reçoit l’événement, le lie au modèle transactionnel et envoie le message transactionnel correspondant à chaque destinataire. Pour plus d&#39;informations, consultez la section [Traitement des événements](../../message-center/using/about-event-processing.md).
 
 >[!NOTE]
 >
->Si vous remplacez un champ existant du modèle de message transactionnel, tel que l’adresse de l’expéditeur, par une valeur vide, le champ correspondant sur l’instance ou les instances d&#39;exécution ne sera pas mis à jour une fois le message transactionnel republié. Il contiendra toujours la valeur précédente.
+>Si vous remplacez un champ existant du modèle de message transactionnel, tel que l&#39;adresse de l&#39;expéditeur, par une valeur vide, le champ correspondant sur l&#39;instance ou les instances d&#39;exécution ne sera pas mis à jour une fois le message transactionnel republié. Il contiendra toujours la valeur précédente.
 >
->Cependant, si vous ajoutez une valeur non vide, le champ correspondant sera mis à jour comme d’habitude après la publication suivante.
+>Cependant, si vous ajoutez une valeur non vide, le champ correspondant sera mis à jour comme d&#39;habitude après la publication suivante.
 
-## Annulation de la publication des modèles {#template-unpublication}
+## Dépublication des modèles {#template-unpublication}
 
 Lorsqu’un modèle de message a été publié sur les instances d’exécution, il est possible de le dépublier. Pour plus d’informations sur le processus de publication de modèles, consultez [cette section](#template-publication).
 
-* En effet, un modèle publié peut toujours être appelé si l&#39;événement correspondant est déclenché : si vous n’utilisez plus de modèle de message, il est recommandé de le dépublier. Vous éviterez ainsi d’envoyer par erreur un message transactionnel indésirable.
+* En effet, un modèle publié peut toujours être appelé si l&#39;événement correspondant est déclenché : si vous n’utilisez plus de modèle de message, il est recommandé de le dépublier. Vous éviterez ainsi d&#39;envoyer par erreur un message transactionnel indésirable.
 
-   Par exemple, vous avez publié un modèle de message utilisé uniquement pour les campagnes de Noël. Vous pouvez le dépublier une fois la période de Noël terminée et le publier de nouveau l’année suivante.
+   Par exemple, vous avez publié un modèle de message utilisé uniquement pour les campagnes de Noël. Vous pouvez le dépublier une fois la période de Noël terminée et le publier de nouveau l&#39;année suivante.
 
-* En outre, vous ne pouvez pas supprimer un modèle de message transactionnel dont le statut est **[!UICONTROL Publié]**. Vous devez d’abord le dépublier.
+* En outre, vous ne pouvez pas supprimer un modèle de message transactionnel dont le statut est **[!UICONTROL Publié]**. Vous devez d&#39;abord le dépublier.
 
 >[!NOTE]
 >
@@ -83,4 +85,4 @@ Une fois la publication annulée :
 
 * Une fois la dépublication d’un modèle effectuée, vous pouvez le supprimer de l’instance de pilotage.
 
-   Pour ce faire, sélectionnez-le dans la liste et cliquez sur le bouton **[!UICONTROL Supprimer]** en haut à droite de l’écran.
+   Pour ce faire, sélectionnez-le dans la liste et cliquez sur le bouton **[!UICONTROL Supprimer]** en haut à droite de l&#39;écran.

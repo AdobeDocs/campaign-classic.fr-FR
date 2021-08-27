@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 8b6d5c03-e104-4cf0-82ab-a08467e3e478
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
 ---
 
 # Rendez-vous{#and-join}
+
+![](../../assets/common.svg)
 
 Un rendez-vous ne déclenche sa transition sortante qu&#39;une fois toutes les transitions entrantes activées, donc quand toutes les activités précédentes sont terminées. Cela permet de s&#39;assurer que certaines activités sont bien terminées avant de continuer l&#39;exécution du workflow.
 
@@ -31,4 +33,4 @@ La transition sortante ne peut contenir que l&#39;une des populations des transi
 
 >[!CAUTION]
 >
->Dans le cas des activités de type **Rendez-vous**, les variables sont fusionnées. Toutefois, si une même variable est définie deux fois, il y a conflit et la valeur reste indéterminée. Voir à ce propos [cette section](../../workflow/using/javascript-scripts-and-templates.md#event-variables).
+>Dans le cas des activités de type **Rendez-vous**, les variables sont fusionnées. Toutefois, si une même variable est définie deux fois, il y a conflit et la valeur reste indéterminée. Voir à ce propos [cette section](javascript-scripts-and-templates.md#event-variables).

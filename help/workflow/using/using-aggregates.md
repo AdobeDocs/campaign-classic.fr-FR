@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 100%
 
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 # Utilisation d&#39;agrégats{#using-aggregates}
 
+![](../../assets/common.svg)
+
 Ce cas pratique présente l&#39;identification automatique des derniers destinataires ajoutés dans la base.
 
 Pour cela, la date de création des destinataires dans la base est comparée à la dernière date connue à laquelle un destinataire a été créé à l&#39;aide d&#39;un agrégat. Tous les destinataires créés le même jour seront ainsi sélectionnés.
 
 Pour parvenir à effectuer un filtre du type **Date de création = max (Date de création)** sur les destinataires, il est nécessaire de passer par un workflow afin de réaliser les étapes suivantes :
 
-1. Récupérez les destinataires de la base de données à l&#39;aide d&#39;une requête de base. Pour plus d&#39;informations sur cette étape, consultez [Créer une requête](../../workflow/using/query.md#creating-a-query).
+1. Récupérez les destinataires de la base de données à l&#39;aide d&#39;une requête de base. Pour plus d&#39;informations sur cette étape, consultez [Créer une requête](query.md#creating-a-query).
 1. Calculer la dernière date connue de création d&#39;un destinataire via le résultat de la fonction d&#39;agrégation **max (Date de création)**.
 1. Lier chaque destinataire au résultat de la fonction d&#39;agrégation dans un même schéma.
 1. Filtrer les destinataires à l&#39;aide de l&#39;agrégat via le schéma édité.
@@ -58,7 +60,7 @@ Afin de lier la requête portant sur les destinataires à la requête servant au
 
 Le résultat de la fonction d&#39;agrégation est ainsi lié à chaque destinataire.
 
-## Etape 3 : filtrer les destinataires à l&#39;aide de l&#39;agrégat {#step-3--filtering-recipients-using-the-aggregate-}
+## Etape 3 : filtrer les destinataires à l&#39;aide de l&#39;agrégat  {#step-3--filtering-recipients-using-the-aggregate-}
 
 Une fois le lien établi, le résultat de l&#39;agrégat et les destinataires font partie du même schéma temporaire. Il est alors possible de réaliser un filtrage sur ce schéma afin d&#39;effectuer la comparaison entre la date de création des destinataires et la dernière date de création connue, représentée par la fonction d&#39;agrégation. Ce filtrage est réalisé grâce à une activité de partage.
 

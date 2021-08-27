@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 100%
 
 ---
 
 # Utiliser l&#39;assistant d&#39;analyse descriptive{#using-the-descriptive-analysis-wizard}
+
+![](../../assets/common.svg)
 
 Pour créer un rapport d&#39;analyse descriptive, vous devez suivre les étapes de l&#39;assistant dédié. Son paramétrage dépend des données à analyser et du rendu souhaité.
 

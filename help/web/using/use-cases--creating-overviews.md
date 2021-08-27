@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
 
 ---
 
 # Cas d’utilisation : création de pages de vue d’ensemble{#use-cases-creating-overviews}
+
+![](../../assets/common.svg)
 
 Dans l&#39;exemple qui suit, vous allez créer des applications web de type vue d&#39;ensemble permettant d&#39;afficher l&#39;ensemble des applications web contenues dans votre base. Vous allez paramétrer les éléments suivants :
 

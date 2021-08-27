@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos de la délivrabilité dans Adobe Campaign Classic
+title: À propos de la délivrabilité dans Adobe Campaign Classic
 description: En savoir plus sur la gestion de la délivrabilité dans Adobe Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 100%
 
 ---
 
 # Contrôler le contenu de votre message{#control-message-content}
+
+![](../../assets/common.svg)
 
 Pour que vos emails atteignent vos destinataires et améliorer ainsi leur taux de délivrabilité, assurez-vous qu’ils respectent un certain nombre de règles. Dans le cas contraire, le contenu de certains messages peut être détecté comme du spam. Adobe Campaign fournit plusieurs outils vous permettant de vérifier que votre contenu respecte ces règles.
 
@@ -37,7 +39,7 @@ Certains FAI vérifient la validité de l’adresse de l’expéditeur (**[!UICO
 
 Il faut s’assurer qu’une adresse correcte est bien renseignée au niveau de l’instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement...)]** ou dans les scénarios les plus couramment utilisés.
 
-Voir à ce propos la section [Définir l’expéditeur](defining-the-email-content.md).
+Pour plus d&#39;informations, consultez la section [Définir l’expéditeur](defining-the-email-content.md).
 
 ## Personnalisation  {#personalization}
 
@@ -67,7 +69,7 @@ Avant d’envoyer votre message, vous pouvez tester sa réactivité en vérifian
 
 Pour vous aider, Adobe Campaign capture le rendu et le rend disponible dans un rapport dédié. Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception.
 
-Voir à ce propos la section [Inbox rendering](inbox-rendering.md).
+Pour plus d&#39;informations, consultez la section [Inbox rendering](inbox-rendering.md).
 
 ## SpamAssassin {#spamassassin}
 

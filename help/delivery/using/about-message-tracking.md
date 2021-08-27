@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 100%
 
 ---
 
 # Prise en main du tracking des messages {#get-started-tracking}
+
+![](../../assets/common.svg)
 
 Grâce à ses fonctionnalités de tracking, Adobe Campaign vous permet de tracker les messages envoyés et de vérifier le comportement des destinataires : ouverture, clics sur les liens, désabonnement, etc.
 

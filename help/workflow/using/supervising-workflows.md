@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
 
 ---
 
 # Cas d’utilisation : supervision de vos workflows{#supervising-workflows}
+
+![](../../assets/common.svg)
 
 Ce cas pratique détaille la création d&#39;un workflow qui permet de suivre le statut d&#39;un ensemble de workflows dont l&#39;état est &quot;en pause&quot;, &quot;stoppé&quot; ou &quot;en erreur&quot;.
 
@@ -31,9 +33,9 @@ Pour suivre le statut d&#39;un ensemble de workflows, vous devez procéder comme
 
 >[!NOTE]
 >
->Outre le workflow, la **carte thermique des workflows Campaign** vous permet d’analyser dans le détail les workflows en cours d’exécution. Voir à ce sujet la [section dédiée](../../workflow/using/heatmap.md).
+>Outre le workflow, la **carte thermique des workflows Campaign** vous permet d’analyser dans le détail les workflows en cours d’exécution. Voir à ce sujet la [section dédiée](heatmap.md).
 >
->Pour plus d’informations sur la **surveillance de l’exécution des workflows**, consultez [cette section](../../workflow/using/monitoring-workflow-execution.md).
+>Pour plus d’informations sur la **surveillance de l’exécution des workflows**, consultez [cette section](monitoring-workflow-execution.md).
 
 ## Etape 1: Création du workflow de suivi {#step-1--creating-the-monitoring-workflow}
 
@@ -115,7 +117,7 @@ vars.strWorkflowPaused = strPaused;
 vars.strWorkflowStop = strStop;
 ```
 
-## Etape 3: Création de l&#39;activité &#39;Test&#39;{#step-3--creating-the--test--activity}
+## Etape 3: Création de l&#39;activité &#39;Test&#39; {#step-3--creating-the--test--activity}
 
 L&#39;activité &quot;Test&quot; permet de déterminer si une diffusion doit être envoyée ou bien si le workflow de suivi doit recommencer un cycle en se positionnant sur l&#39;activité &quot;Attente&quot;.
 

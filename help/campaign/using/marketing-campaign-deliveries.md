@@ -6,14 +6,16 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 100%
 
 ---
 
 # Diffusions de campagnes marketing {#marketing-campaign-deliveries}
+
+![](../../assets/common.svg)
 
 Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opération, un workflow d&#39;opération ou directement à partir de la vue d&#39;ensemble des diffusions.
 

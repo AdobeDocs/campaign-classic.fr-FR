@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 100%
 
 ---
 
 # Réalisation d&#39;un upgrade de build{#performing-a-build-upgrade}
+
+![](../../assets/v7-only.svg)
 
 Cette section présente la procédure détaillée pour réaliser un upgrade et les étapes nécessaires pour identifier et résoudre les conflits.
 
@@ -39,7 +41,7 @@ Une fois le système prêt, un upgrade de build dure **au moins** 2 heures.
 L&#39;upgrade de build requiert les ressources suivantes :
 
 * Un architecte Adobe : pour comprendre les structures de base de données (schémas d&#39;usine et autres schémas ajoutés, conceptions de campagnes et fonctionnalités de chemin critique devant être démarrées et testées dans un ordre spécifique).
-* Un chef de projet : dans le cas où l&#39;upgrade de build implique plusieurs instances différentes (production, staging, test) et d&#39;autres serveurs et applications tiers (bases de données, sites SFTP, fournisseurs de services de messagerie), il est recommandé de faire appel à un chef de projet pour coordonner tous les tests.
+* Un chef de projet : dans le cas où l&#39;upgrade de build implique plusieurs instances différentes (production, staging, test) et d&#39;autres serveurs et applications tiers (bases de données, sites SFTP, fournisseurs de services de messagerie), il est recommandé de faire appel à un chef de projet pour coordonner tous les tests.
 * Un administrateur Adobe Campaign : votre administrateur connaît la configuration du serveur, notamment : la sécurité, la disposition des dossiers, le reporting et les exigences en matière d&#39;import et d&#39;export. N&#39;effectuez pas d&#39;upgrade de build sans l&#39;aide de votre administrateur.
 * Un opérateur Adobe Campaign (utilisateur marketing) : la réussite d&#39;un upgrade dépend de la capacité d&#39;un utilisateur à effectuer correctement ses tâches quotidiennes. Pour cette raison, incluez toujours au moins un de vos opérateurs quotidiens dans vos tests des serveurs mis à jour.
 
@@ -58,7 +60,7 @@ Voici les points essentiels pour planifier un upgrade de build :
 
 L&#39;upgrade de build requiert l&#39;implication des personnes suivantes :
 
-* Architecte Adobe : pour les architectures hébergées ou hybrides, l&#39;architecte doit se charger de la coordination avec l&#39;Assistance clientèle Adobe Campaign.
+* Architecte Adobe : l’architecte doit se charger de la coordination avec l’assistance clientèle d’Adobe Campaign en cas d’architecture hébergée ou hybride.
 
 * Chef de projet :
    * Pour les installations On Premise : le chef de projet interne du client dirige l&#39;upgrade et gère les tests de cycle de vie.
@@ -82,7 +84,7 @@ Avant de commencer l&#39;upgrade de build, les clients On-Premise doivent effect
 
 1. Obtenez la dernière version du [fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md).
 
-1. [Téléchargez le dernier build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
+1. [Téléchargez le dernier build](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html). [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 
 Vous devez également connaître toutes les [lignes de commande utiles](../../installation/using/command-lines.md) avant de commencer un upgrade de build :
 
@@ -244,7 +246,7 @@ Si les messages transactionnels (Message Center) sont activés sur votre instanc
 
 Dans le contexte d&#39;un environnement de mid-sourcing, vous devez effectuer les étapes supplémentaires ci-après dans le cadre de l&#39;upgrade :
 
-1. Contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner l&#39;upgrade du serveur de mid-sourcing.
+1. Contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner l&#39;upgrade du serveur de mid-sourcing.
 1. Vérifiez que la version a été mise à jour en exécutant un lien de test, par exemple :
 
    ```
@@ -254,7 +256,6 @@ Dans le contexte d&#39;un environnement de mid-sourcing, vous devez effectuer le
 >[!NOTE]
 >
 >Le serveur de mid-sourcing doit toujours exécuter la même version (ou une version plus récente) que les serveurs marketing.
-
 
 ## En cas de conflits
 
@@ -343,7 +344,6 @@ Il existe trois façons de résoudre un conflit : **accepter la nouvelle versio
 >[!IMPORTANT]
 >Il est vivement recommandé de résoudre les conflits.
 
-
 ### Réaliser une fusion{#perform-a-merge}
 
 Il existe différents types de fusions :
@@ -407,10 +407,9 @@ Voici la procédure pour effectuer une fusion complexe :
 >[!IMPORTANT]
 >Des compétences en développement sont nécessaires pour effectuer des fusions complexes.
 
-
 **Rubriques connexes :**
 
-* [FAQ sur l’upgrade de build](../../platform/using/faq-build-upgrade.md)
+* [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md)
 * [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
 * [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
 * [[!DNL Gold Standard] programme](../../rn/using/gs-overview.md)

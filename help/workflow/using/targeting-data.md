@@ -6,24 +6,26 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '2011'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '2031'
+ht-degree: 98%
 
 ---
 
 # Cibler les données{#targeting-data}
 
-## Créer une requête       {#creating-queries}
+![](../../assets/common.svg)
+
+## Créer une requête        {#creating-queries}
 
 ### Sélectionner les données {#selecting-data}
 
-Une activité **[!UICONTROL Requête]** permet de sélectionner des données de base pour créer la population cible. Voir à ce sujet la section [Créer une requête](../../workflow/using/query.md#creating-a-query).
+Une activité **[!UICONTROL Requête]** permet de sélectionner des données de base pour créer la population cible. Voir à ce sujet la section [Créer une requête](query.md#creating-a-query).
 
-Les activités suivantes peuvent également servir à lancer des requêtes et à affiner les données de la base de données : [Requête incrémentale](../../workflow/using/incremental-query.md), [Lecture de liste](../../workflow/using/read-list.md).
+Les activités suivantes peuvent également servir à lancer des requêtes et à affiner les données de la base de données : [Requête incrémentale](incremental-query.md), [Lecture de liste](read-list.md).
 
-Il est possible de collecter des données supplémentaires pour les transférer et les traiter tout au long du cycle de vie du workflow. Voir à ce sujet les sections [Ajouter des données](../../workflow/using/query.md#adding-data) et [Editer les données additionnelles](#editing-additional-data).
+Il est possible de collecter des données supplémentaires pour les transférer et les traiter tout au long du cycle de vie du workflow. Voir à ce sujet les sections [Ajouter des données](query.md#adding-data) et [Editer les données additionnelles](#editing-additional-data).
 
 ### Editer les données additionnelles {#editing-additional-data}
 
@@ -125,7 +127,7 @@ L&#39;intersection permet de ne récupérer que les éléments communs entre les
 
 Il est par ailleurs possible de ne conserver qu&#39;une sélection de colonnes ou seulement les colonnes communes entre les populations entrantes.
 
-L’activité d’intersection est présentée dans la section [Intersection](../../workflow/using/intersection.md).
+L’activité d’intersection est présentée dans la section [Intersection](intersection.md).
 
 ### Exclure une population (Exclusion) {#excluding-a-population--exclusion-}
 
@@ -157,7 +159,7 @@ Pour la configurer, vous devez d&#39;abord sélectionner des critères :
 
    ![](assets/split-subset-config-all-data.png)
 
-   Un exemple d&#39;utilisation des conditions de filtrage dans l&#39;activité **[!UICONTROL Partage]** pour segmenter la cible en différentes populations est présenté dans [cette section](../../workflow/using/cross-channel-delivery-workflow.md).
+   Un exemple d&#39;utilisation des conditions de filtrage dans l&#39;activité **[!UICONTROL Partage]** pour segmenter la cible en différentes populations est présenté dans [cette section](cross-channel-delivery-workflow.md).
 
    Le champ **[!UICONTROL Libellé]** permet d&#39;associer un nom au sous-ensemble que vous venez de créer. Ce nom sera celui de la transition sortante correspondante.
 
@@ -175,7 +177,11 @@ Pour la configurer, vous devez d&#39;abord sélectionner des critères :
 
    ![](assets/split-subset-config-add_external_data.png)
 
-   Voir à ce propos cette [section](../../installation/using/about-fda.md).
+   Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
+
+   ![](assets/do-not-localize/v7.jpeg)[  Documentation Campaign v7](../../installation/using/about-fda.md)
+
+   ![](assets/do-not-localize/v8.png)[  Documentation Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=en)
 
 Nous devons ensuite ajouter de nouveaux sous-ensembles :
 
@@ -193,7 +199,7 @@ Nous devons ensuite ajouter de nouveaux sous-ensembles :
 
    >[!NOTE]
    >
-   >Si vous avez acquis l’option **Federated Data Access**, vous pouvez créer des sous-ensembles selon les informations contenues dans une base externe. Pour cela, sélectionnez le schéma de la table externe visée dans le champ **[!UICONTROL Dimension de ciblage]**. Voir à ce sujet la section [Accéder à une base externe (FDA)](../../workflow/using/accessing-an-external-database--fda-.md).
+   >Si vous avez acquis l’option **Federated Data Access**, vous pouvez créer des sous-ensembles selon les informations contenues dans une base externe. Pour cela, sélectionnez le schéma de la table externe visée dans le champ **[!UICONTROL Dimension de ciblage]**. Voir à ce sujet la section [Accéder à une base externe (FDA)](accessing-an-external-database--fda-.md).
 
 Une fois les sous-ensembles créés, par défaut, l&#39;activité de partage propose en sortie autant de transitions que de sous-ensembles :
 
@@ -207,7 +213,7 @@ Vous pourrez par exemple positionner une seule activité de diffusion et personn
 
 ![](assets/wf_split_single_output.png)
 
-Vous pouvez également créer des sous-ensembles à l’aide de l’activité **[!UICONTROL Cellules]**. Voir à ce propos la section [Cellules](../../workflow/using/cells.md).
+Vous pouvez également créer des sous-ensembles à l’aide de l’activité **[!UICONTROL Cellules]**. Pour plus d&#39;informations, consultez la section [Cellules](cells.md).
 
 ### Utiliser les données ciblées {#using-targeted-data}
 
@@ -215,15 +221,15 @@ Une fois les données identifiées et préparées, elles peuvent être utilisée
 
 * Vous pouvez mettre à jour les données de la base suite à la manipulation des données dans les différentes étapes du workflow.
 
-   Voir à ce propos la section [Mise à jour de données](../../workflow/using/update-data.md).
+   Pour plus d&#39;informations, consultez la section [Mise à jour de données](update-data.md).
 
 * Vous pouvez également actualiser le contenu de listes existantes.
 
-   Voir à ce propos la section [Mise à jour de liste](../../workflow/using/list-update.md).
+   Pour plus d&#39;informations, consultez la section [Mise à jour de liste](list-update.md).
 
 * Vous pouvez préparer ou démarrer des diffusions directement dans le workflow.
 
-   Voir à ce propos les sections [Diffusion](../../workflow/using/delivery.md), [Agir sur une diffusion](../../workflow/using/delivery-control.md) et [Diffusion (au fil de l’eau)](../../workflow/using/continuous-delivery.md).
+   Voir à ce propos les sections [Diffusion](delivery.md), [Agir sur une diffusion](delivery-control.md) et [Diffusion (au fil de l’eau)](continuous-delivery.md).
 
 ## Data Management {#data-management}
 
@@ -235,9 +241,9 @@ Dans Adobe Campaign, le Data Management regroupe un ensemble d&#39;activités qu
 
 Pour réaliser ces opérations, Adobe Campaign propose :
 
-* Activités de collecte de données : [Transfert de fichier](../../workflow/using/file-transfer.md), [Chargement (fichier)](../../workflow/using/data-loading--file-.md), [Chargement (SGBD)](../../workflow/using/data-loading--rdbms-.md), [Mise à jour de données](../../workflow/using/update-data.md). Cette première étape de la collecte des données les prépare pour permettre leur traitement dans d’autres activités. Plusieurs paramètres doivent être surveillés afin de s’assurer que le workflow s’exécute correctement et donne les résultats attendus. Par exemple, lorsque vous importez des données, la clé primaire (Pkey) de ces données doit être unique pour chaque enregistrement.
-* Les activités de ciblage enrichies avec des options de Data Management : [Requête](../../workflow/using/query.md), [Union](../../workflow/using/union.md), [Intersection](../../workflow/using/intersection.md), [Partage](../../workflow/using/split.md). Il est ainsi possible de paramétrer une union ou une intersection entre des données de plusieurs dimensions de ciblage différentes, sous réserve qu’une réconciliation des données soit possible.
-* Activités de transformation des données : [Enrichissement](../../workflow/using/enrichment.md), [Changement de dimension](../../workflow/using/change-dimension.md).
+* Activités de collecte de données : [Transfert de fichier](file-transfer.md), [Chargement (fichier)](data-loading--file-.md), [Chargement (SGBD)](data-loading--rdbms-.md), [Mise à jour de données](update-data.md). Cette première étape de la collecte des données les prépare pour permettre leur traitement dans d’autres activités. Plusieurs paramètres doivent être surveillés afin de s’assurer que le workflow s’exécute correctement et donne les résultats attendus. Par exemple, lorsque vous importez des données, la clé primaire (Pkey) de ces données doit être unique pour chaque enregistrement.
+* Les activités de ciblage enrichies avec des options de Data Management : [Requête](query.md), [Union](union.md), [Intersection](intersection.md), [Partage](split.md). Il est ainsi possible de paramétrer une union ou une intersection entre des données de plusieurs dimensions de ciblage différentes, sous réserve qu’une réconciliation des données soit possible.
+* Activités de transformation des données : [Enrichissement](enrichment.md), [Changement de dimension](change-dimension.md).
 
 >[!CAUTION]
 >
@@ -247,10 +253,10 @@ Pour réaliser ces opérations, Adobe Campaign propose :
 
 ### Enrichir/Modifier des données {#enriching-and-modifying-data}
 
-En complément de la dimension de ciblage, la dimension de filtrage permet de préciser la nature des données collectées. Voir à ce sujet la section [Dimension de ciblage et dimension de filtrage](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions).
+En complément de la dimension de ciblage, la dimension de filtrage permet de préciser la nature des données collectées. Voir à ce sujet la section [Dimension de ciblage et dimension de filtrage](building-a-workflow.md#targeting-and-filtering-dimensions).
 
 Les données identifiées et collectées peuvent être enrichies, regroupées et manipulées afin d&#39;optimiser la construction de la cible. Pour ce faire, en plus des activités de manipulation de données présentées dans la section [Segmenter des données](#segmenting-data), utilisez les méthodes suivantes :
 
-* L’activité **[!UICONTROL Enrichissement]** permet d’ajouter momentanément des colonnes à un schéma et d’ajouter des informations à certains éléments. Elle est présentée dans la section [Enrichissement](../../workflow/using/enrichment.md) du référentiel des activités.
-* L’activité **[!UICONTROL Edition du schéma]** permet de modifier la structure d’un schéma. Elle est présentée dans la section [Edition du schéma](../../workflow/using/edit-schema.md) du référentiel des activités.
-* L’activité **[!UICONTROL Changement de dimension]** permet de modifier la dimension de ciblage pendant le cycle de construction de la cible. Elle est présentée dans la section [Changement de dimension](../../workflow/using/change-dimension.md).
+* L’activité **[!UICONTROL Enrichissement]** permet d’ajouter momentanément des colonnes à un schéma et d’ajouter des informations à certains éléments. Elle est présentée dans la section [Enrichissement](enrichment.md) du référentiel des activités.
+* L’activité **[!UICONTROL Edition du schéma]** permet de modifier la structure d’un schéma. Elle est présentée dans la section [Edition du schéma](edit-schema.md) du référentiel des activités.
+* L’activité **[!UICONTROL Changement de dimension]** permet de modifier la dimension de ciblage pendant le cycle de construction de la cible. Elle est présentée dans la section [Changement de dimension](change-dimension.md).

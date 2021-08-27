@@ -6,8 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Configurer l’accès à Snowflake {#configure-access-to-snowflake}
 
-Utilisez l’option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à [!DNL Snowflake].
+![](../../assets/v7-only.svg)
+
+Utilisez l&#39;option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour Configuration de l&#39;accès à [!DNL Snowflake].
 
 1. Configuration de [!DNL Snowflake] sous [CentOS](#snowflake-centos), [Windows](#snowflake-windows) ou [Debian](#snowflake-debian)
 1. Configuration du [compte externe](#snowflake-external) [!DNL Snowflake] dans Campaign
@@ -29,7 +31,7 @@ Utilisez l’option Campaign **Federated Data Access** (FDA) pour traiter les in
 
 ## Snowflake sous CentOS {#snowflake-centos}
 
-Pour effectuer la configuration de [!DNL Snowflake] sur CentOS, procédez comme suit :
+Pour effectuer la configuration de [!DNL Snowflake] sous CentOS, procédez comme suit :
 
 1. Téléchargez les pilotes ODBC pour [!DNL Snowflake]. [Cliquez ici](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) pour lancer le téléchargement.
 1. Vous devez ensuite installer les pilotes ODBC sur CentOs à l’aide de la commande suivante :
@@ -80,7 +82,7 @@ Pour effectuer la configuration de [!DNL Snowflake] sur CentOS, procédez comme 
 
 Vous devez créer un compte externe [!DNL Snowflake] pour connecter votre instance Campaign à votre base de données [!DNL Snowflake] externe.
 
-1. Depuis l’**[!UICONTROL Explorateur]** Campaign, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plateforme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
+1. Depuis l&#39;**[!UICONTROL Explorateur]** Campaign, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plate-forme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
 
 1. Cliquez sur **[!UICONTROL Nouveau]**.
 
@@ -92,7 +94,7 @@ Vous devez créer un compte externe [!DNL Snowflake] pour connecter votre instan
 
    * **[!UICONTROL Serveur]** : URL du serveur [!DNL Snowflake]
 
-   * **[!UICONTROL Compte]** : nom de l’utilisateur
+   * **[!UICONTROL Compte]** : nom de l&#39;utilisateur
 
    * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
 
@@ -109,7 +111,7 @@ Le connecteur prend en charge les options suivantes :
 | Option | Description |
 |---|---|
 | workschema | Schéma de base de données à utiliser pour les tables de travail. |
-| warehouse | Nom de l’entrepôt par défaut à utiliser. Il remplace la valeur par défaut de l’utilisateur. |
-| TimeZoneName | Vide par défaut. C’est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>Pour plus d’informations à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>Pour plus d’informations à ce sujet, consultez [cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
-| UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Il est possible d’utiliser cette option pour désactiver les résultats de Snowflake mis en mémoire cache. <br>Pour plus d’informations à ce sujet, voir [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+| warehouse | Nom de l&#39;entrepôt par défaut à utiliser. Il remplace la valeur par défaut de l&#39;utilisateur. |
+| TimeZoneName | Vide par défaut. C&#39;est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d&#39;utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>Pour plus d&#39;informations à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>Pour plus d&#39;informations à ce sujet, consultez [cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
+| UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Il est possible d&#39;utiliser cette option pour désactiver les résultats de Snowflake mis en mémoire cache. <br>Pour plus d&#39;informations à ce sujet, voir [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |

@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
 ---
 
 # Collecter toutes les visites{#collecting-all-visits}
+
+![](../../assets/v7-only.svg)
 
 Le module de webtracking fourni par Adobe Campaign permet de collecter les visites de certaines pages du site effectuées par un destinataire dans le cadre du tracking de site suite à un clic dans un message.
 
@@ -25,7 +27,7 @@ Un utilisateur connu de la plateforme est un destinataire qui a déjà été cib
 >
 >La plateforme Adobe Campaign n&#39;a pas vocation à servir d&#39;outil de tracking de site web, hors du cadre de la visite du site suite à un clic dans un message. L&#39;activation de cette option peut provoquer une consommation très importante de ressources sur les machines hébergeant vos différents serveurs (redirection, applicatif et base de données). Nous vous conseillons de vous assurer que vous disposez d&#39;une architecture matérielle suffisamment performante, et de ne pas insérer de balises de tracking Web sur les pages du site les plus fréquentées, par exemple sur la page d&#39;accueil.
 
-## Paramétrage du serveur {#server-configuration}
+## Configuration du serveur {#server-configuration}
 
 La configuration des serveurs se fait en surchargeant certains éléments du fichier **serverConf.xml**. Ce fichier est enregistré dans le sous-répertoire **conf** du répertoire d&#39;installation d&#39;Adobe Campaign.
 

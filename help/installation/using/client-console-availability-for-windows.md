@@ -6,8 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Disponibilité de la console cliente pour Windows{#client-console-availability-for-windows}
 
-Afin de permettre aux utilisateurs Adobe Campaign de se connecter à l&#39;instance que vous avez créée et paramétrée, ils doivent utiliser la console cliente.
+![](../../assets/v7-only.svg)
+
+Afin de permettre aux utilisateurs Adobe Campaign de se connecter à l’instance que vous avez créée et paramétrée, ils doivent utiliser la console cliente.
 
 ## Mise à disposition de la console client
 

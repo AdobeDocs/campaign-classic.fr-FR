@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 100%
 
 ---
 
 # Création d’un rapport{#creating-a-new-report}
+
+![](../../assets/common.svg)
 
 Pour créer un rapport, les étapes sont les suivantes :
 

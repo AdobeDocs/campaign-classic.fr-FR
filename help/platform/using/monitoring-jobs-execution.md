@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
@@ -15,12 +15,14 @@ ht-degree: 100%
 
 # Surveillance de l’exécution des traitements {#monitoring-job-execution}
 
+![](../../assets/common.svg)
+
 Vous pouvez suivre l&#39;exécution de vos traitements d&#39;import et d&#39;export directement depuis la liste des traitements d&#39;import/export.
 
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * L&#39;onglet **[!UICONTROL Journal]** permet de consulter les messages de logs relatifs à l&#39;exécution.
-* L’onglet **[!UICONTROL Rejets]** contient les enregistrements rejetés. Reportez-vous à [cette section](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error).
+* L’onglet **[!UICONTROL Rejets]** contient les enregistrements rejetés. Consultez [cette section](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error).
 
 Dans l&#39;onglet **[!UICONTROL Général]**, le champ **[!UICONTROL Statut]** indique le statut actuel d&#39;un traitement.
 

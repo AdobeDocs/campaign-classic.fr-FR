@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Options de filtrage{#filtering-options}
 
-## A propos du filtrage {#about-filtering}
+![](../../assets/common.svg)
+
+## À propos du filtrage {#about-filtering}
 
 Par défaut, Adobe Campaign affiche toutes les données de la base sur lesquelles l&#39;opérateur concerné a des droits en lecture.
 

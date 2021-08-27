@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 100%
 
 ---
 
 # Schémas de données{#data-schemas}
+
+![](../../assets/common.svg)
 
 Vous trouverez ci-après quelques principes généraux sur l&#39;utilisation des schémas de données dans Adobe Campaign.
 
@@ -49,7 +51,7 @@ Ces propriétés sont décrites dans le schéma **ncm:content**.
 >
 >Lors de la création ou de l’extension d’un schéma, vous devez conserver la valeur de la séquence de la clé primaire (@pkSequence) pour l’ensemble du schéma.
 
-## Types des données {#data-types}
+## Types de données {#data-types}
 
 Exemple de schéma de gestion de contenu complété avec les types :
 

@@ -6,20 +6,22 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 100%
 
 ---
 
-# Enrichir des données{#enriching-data}
+# Enrichir des données {#enriching-data}
 
-## A propos de l&#39;enrichissement des données {#about-enriching-data}
+![](../../assets/common.svg)
 
-Ce cas d’utilisation décrit les utilisations possibles de l’activité **[!UICONTROL Enrichissement]** dans un workflow de ciblage. Pour plus d’informations sur l’utilisation de l’activité **[!UICONTROL Enrichissement]**, voir la section : [Enrichissement](../../workflow/using/enrichment.md).
+## À propos de l&#39;enrichissement des données {#about-enriching-data}
 
-Vous trouverez également dans [cette section](../../workflow/using/email-enrichment-with-custom-date-fields.md) un cas pratique montrant comment enrichir une diffusion d’email avec des dates personnalisées.
+Ce cas d’utilisation décrit les utilisations possibles de l’activité **[!UICONTROL Enrichissement]** dans un workflow de ciblage. Pour plus d’informations sur l’utilisation de l’activité **[!UICONTROL Enrichissement]**, voir la section : [Enrichissement](enrichment.md).
+
+Vous trouverez également dans [cette section](email-enrichment-with-custom-date-fields.md) un cas pratique montrant comment enrichir une diffusion d’email avec des dates personnalisées.
 
 Un jeu concours est proposé, par le biais d&#39;une application web, aux contacts de la base marketing. Les résultats du jeu concours sont récupérés dans la table **[!UICONTROL Résultats jeux]**. Cette table est liée à la table des contacts (**[!UICONTROL Destinataires]**). La table **[!UICONTROL Résultats jeux]** comporte les champs suivants :
 

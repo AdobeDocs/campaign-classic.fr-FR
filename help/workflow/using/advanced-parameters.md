@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
 ---
 
 # Paramètres avancés{#advanced-parameters}
+
+![](../../assets/common.svg)
 
 L&#39;écran des propriétés d&#39;une activité comporte un onglet **[!UICONTROL Avancé]** vous permettant notamment de définir le comportement en cas d&#39;erreur, la durée d&#39;exécution de l&#39;activité ou encore et de saisir un script d&#39;initialisation. Cet onglet se présente sous deux formes :
 
@@ -33,7 +35,7 @@ Ce champ contient le nom interne de l&#39;activité.
 
 ## Image {#image}
 
-Ce champ vous permet de modifier l’image liée à une activité. Pour plus d’informations à ce sujet, voir : [Gestion des images d’activité](../../workflow/using/managing-activity-images.md).
+Ce champ vous permet de modifier l’image liée à une activité. Pour plus d’informations à ce sujet, voir : [Gestion des images d’activité](managing-activity-images.md).
 
 ## Exécution {#execution}
 
@@ -65,7 +67,7 @@ Ce champ vous permet de définir le comportement à effectuer dans le cas de l&#
 
 ## Time zone {#time-zone}
 
-Ce champ vous permet de sélectionner le fuseau horaire de l’activité. Voir à ce sujet la section : [Gestion des fuseaux horaires](../../workflow/using/managing-time-zones.md).
+Ce champ vous permet de sélectionner le fuseau horaire de l’activité. Voir à ce sujet la section : [Gestion des fuseaux horaires](managing-time-zones.md).
 
 ## En cas d&#39;erreur {#in-case-of-errors}
 
@@ -76,7 +78,7 @@ Ce champ vous permet de définir l&#39;action à effectuer lorsque l&#39;activit
 
 ## Script d&#39;initialisation {#initialization-script}
 
-Ce champ vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Voir à ce sujet la section : [Scripts et templates JavaScript](../../workflow/using/javascript-scripts-and-templates.md).
+Ce champ vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Voir à ce sujet la section : [Scripts et templates JavaScript](javascript-scripts-and-templates.md).
 
 ## Commentaire {#comment}
 

@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Principaux concepts
-description: FAQ sur Campaign Classic
+description: FAQ Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: 8a0535180640c63201d1a59539eac8c91a53cb8b
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Principaux concepts {#key-concepts}
+
+![](../../assets/common.svg)
 
 Découvrez les principales étapes pour démarrer avec Adobe Campaign.
 
@@ -34,13 +36,13 @@ Vérifiez les [numéros de version et de build](../../platform/using/launching-a
 
 ## Quelles sont les différences entre un environnement on-premise et un environnement hébergé ? {#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
 
-Adobe Campaign Classic est fourni avec un ensemble de modules et d&#39;options. La disponibilité de ces modules et leur configuration peuvent dépendre du [type de déploiement](../../installation/using/hosting-models.md) de votre installation : hébergée (Managed Services), hybride ou On-Premise.
+Adobe Campaign Classic est fourni avec un ensemble de modules et d&#39;options. La disponibilité de ces modules et leur configuration peuvent dépendre du [type de déploiement](../../installation/using/hosting-models.md) de votre installation : hébergée (Managed Services), hybride ou sur site (on-premise).
 
 [Pour en savoir plus, cliquez ici](../../installation/using/capability-matrix.md).
 
-## Comment configurer les permissions utilisateur ? {#how-can-i-set-up-user-permissions-}
+## Comment configurer les autorisations utilisateur ? {#how-can-i-set-up-user-permissions-}
 
-En tant qu&#39;administrateur de Campaign, vous pouvez configurer des permissions pour les utilisateurs de votre organisation.
+En tant qu’administrateur de Campaign, vous pouvez configurer des autorisations pour les utilisateurs de votre organisation.
 
 Il s&#39;agit d&#39;un ensemble de droits et de restrictions qui autorisent ou refusent :
 
@@ -48,7 +50,7 @@ Il s&#39;agit d&#39;un ensemble de droits et de restrictions qui autorisent ou r
 * l&#39;accès à certaines données ;
 * la création, la modification et/ou la suppression de données.
 
-[Cliquez ici pour en savoir plus](../../platform/using/access-management.md) sur les permissions utilisateur.
+[Cliquez ici pour en savoir plus](../../platform/using/access-management.md) sur les autorisations utilisateur.
 
 ## Comment assurer la conformité de la confidentialité avec Campaign ?  {#how-to-be-gdpr-compliant-with-campaign-}
 
@@ -98,7 +100,7 @@ Découvrez comment [créer un questionnaire en ligne](../../surveys/using/gettin
 
 ## Comment créer une landing page ?  {#how-to-create-landing-page-}
 
-Vous pouvez le Digital Content Editor Adobe Campaign pour concevoir une landing page et définir le mappage avec les champs de la base de données
+Vous pouvez utiliser le Digital Content Editor d’Adobe Campaign pour concevoir une landing page et définir le mapping avec les champs de la base de données
 
 [Pour en savoir plus, cliquez ici](../../web/using/creating-a-landing-page.md).
 
@@ -110,7 +112,7 @@ En savoir plus sur la gestion du suivi dans Campaign dans [cette page](https://h
 
 ## Quelles sont les bonnes pratiques en matière de sécurité (on-premise) ?  {#what-are-security-best-practices--on-premise--}
 
-Consultez la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) pour découvrir les éléments essentiels à contrôler en ce qui concerne le renforcement et la configuration de la sécurité pour les déploiements on-premise.
+Consultez la [liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) pour découvrir les éléments essentiels à contrôler en ce qui concerne le renforcement et la configuration de la sécurité pour les déploiements on-premise.
 
 ## Comment traduire un message d’erreur ?  {#how-to-translate-an-error-message-}
 

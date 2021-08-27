@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos de la gestion de contenu
-description: A propos de la gestion de contenu
+title: À propos de la gestion de contenu
+description: À propos de la gestion de contenu
 audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 100%
 
 ---
 
-# A propos de la gestion de contenu{#about-content-management}
+# À propos de la gestion de contenu{#about-content-management}
+
+![](../../assets/common.svg)
 
 Le module Adobe Campaign Content Manager est un [package natif](../../installation/using/installing-campaign-standard-packages.md) spécifique à Campaign Classic. Vous pouvez l’installer pour créer des newsletters récurrentes ou des sites web. Il permet de vous assister dans la création, la validation et la publication de vos messages.
 

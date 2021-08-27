@@ -6,14 +6,16 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '2843'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '2841'
+ht-degree: 99%
 
 ---
 
 # Paramétrages généraux{#general-configurations}
+
+![](../../assets/v7-only.svg)
 
 Cette section décrit les paramétrages à effectuer dans Adobe Campaign v7 si vous migrez depuis une v5.11 ou une v6.02.
 
@@ -84,7 +86,7 @@ Pour vérifier si les deux côtés sont sur les mêmes fuseaux horaires :
 >
 >Pour des raisons de sécurité, la plateforme Adobe Campaign n&#39;est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter les adresses IP des utilisateurs.
 
-Adobe Campaign v7 implique le concept de **zones de sécurité**. Chaque utilisateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;utilisateur doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. Le paramétrage des zones de sécurité est effectué dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un utilisateur à une zone de sécurité doit être définie dans la console (**[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
+Adobe Campaign v7 implique le concept de **zones de sécurité**. Chaque utilisateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;utilisateur doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. Le paramétrage des zones de sécurité est effectué dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un utilisateur à une zone de sécurité doit être définie dans la console (**[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
 
 **Avant la migration**, vous devez définir, avec l&#39;aide de votre administrateur réseau, les zones de sécurité qu&#39;il faudra activer après la migration.
 
@@ -112,7 +114,7 @@ nlserver config -internalpassword
 
 * Le tracking ne fonctionne plus si le mot de passe est vide. Le cas échéant, un message d&#39;erreur vous en informe et vous invite à le reconfigurer.
 * Les mots de passe utilisateur ne sont plus stockés dans le schéma **xtk:sessionInfo**.
-* Les droits d&#39;administration sont désormais requis pour pouvoir utiliser les fonctions **xtk:builder:EvaluateJavaScript** et **xtk:builder:EvaluateJavaScriptTemplate**.
+* Les autorisations d’administration sont désormais nécessaires pour utiliser les fonctions **xtk:builder:EvaluateJavaScript** et **xtk:builder:EvaluateJavaScriptTemplate**.
 
 Certains schémas d&#39;usine ont été modifiés et ne sont désormais accessibles en écriture, par défaut, que par les opérateur possédant le droit **admin** :
 
@@ -454,8 +456,7 @@ Il existe trois possibilités de résoudre un conflit :
 * **[!UICONTROL Conserver la version actuelle]** : a pour conséquence de refuser la mise à jour de la version.
 
    >[!IMPORTANT]
-   >
-   >Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des utilisateurs experts.
+   Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des utilisateurs experts.
 
 Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
@@ -501,14 +502,12 @@ $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 Dans v7, le contenu de l&#39;offre a été déplacé. Dans la version 6.02, le contenu se trouvait dans chaque schéma de représentation (**nms:emailOfferView**). Dans v7, le contenu se trouve désormais dans le schéma d&#39;offre. Après la mise à niveau, le contenu ne sera donc plus visible dans l&#39;interface. Après la mise à niveau, vous devez recréer le contenu de l&#39;offre ou développer un script qui déplace automatiquement le contenu du schéma de représentation vers le schéma d&#39;offre.
 
 >[!IMPORTANT]
->
->Si certaines diffusions utilisant des offres étaient paramétrées pour être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions en v7. Si vous n&#39;avez pas la possibilité de le faire, un mode &quot;compatibilité&quot; est proposé. Ce mode est fortement déconseillé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d&#39;Interaction v7. C&#39;est un mode transitoire permettant de terminer les campagnes en cours avant d&#39;effectuer la véritable migration 6.1. Veuillez nous contacter si vous souhaitez obtenir plus d&#39;informations sur ce mode.
+Si certaines diffusions utilisant des offres étaient paramétrées pour être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions en v7. Si vous n&#39;avez pas la possibilité de le faire, un mode &quot;compatibilité&quot; est proposé. Ce mode est fortement déconseillé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d&#39;Interaction v7. C&#39;est un mode transitoire permettant de terminer les campagnes en cours avant d&#39;effectuer la véritable migration 6.1. Veuillez nous contacter si vous souhaitez obtenir plus d&#39;informations sur ce mode.
 
 Un exemple de script de déplacement (**interactionTo610_full_XX.js**) est disponible dans le dossier **Migration** du répertoire d&#39;installation d&#39;Adobe Campaign v7. Ce fichier présente un exemple de script pour un client utilisant une seule représentation email par offre (les champs **[!UICONTROL htmlSource]** et **[!UICONTROL textSource]**). Le contenu qui était dans la table **NmsEmailOfferView** est déplacé vers la table des offres.
 
 >[!NOTE]
->
->L&#39;utilisation de ce script ne permet pas de bénéficier des fonctionnalités &quot;gestion de contenu&quot; et &quot;fonctions de rendu&quot;. Pour bénéficier de ces fonctionnalités, vous devez repenser le catalogue d&#39;offres, en particulier le contenu des offres et la configuration des emplacements.
+L&#39;utilisation de ce script ne permet pas de bénéficier des fonctionnalités &quot;gestion de contenu&quot; et &quot;fonctions de rendu&quot;. Pour bénéficier de ces fonctionnalités, vous devez repenser le catalogue d&#39;offres, en particulier le contenu des offres et la configuration des emplacements.
 
 ```
 loadLibrary("/nl/core/shared/nl.js");
@@ -607,8 +606,7 @@ Voici la procédure à suivre après avoir déplacé le contenu des offres si vo
 1. Effectuez des tests complets.
 
    >[!NOTE]
-   >
-   >Les noms des catégories et des offres en ligne sont modifiés lors de leur mise en ligne. Sur le canal entrant, mettez à jour toutes les références aux offres et catégories.
+   Les noms des catégories et des offres en ligne sont modifiés lors de leur mise en ligne. Sur le canal entrant, mettez à jour toutes les références aux offres et catégories.
 
 ## Rapports  {#reports}
 
@@ -636,8 +634,7 @@ Il existe deux familles d&#39;applications web :
 Tout comme pour les rapports ([en savoir plus](#reports)), si vous avez ajouté JavaScript, vous devez vérifier et vous adapter si nécessaire. Si vous souhaitez bénéficier de la bannière bleue v7 (qui contient les onglets bleus), vous devez republier l’application web. Si votre code JavaScript fonctionne, vous pouvez sélectionner le moteur de rendu v6.x. Si ce n&#39;est pas le cas, vous pouvez utiliser le moteur de rendu v6.0 tout en adaptant votre code, puis utiliser le moteur de rendu v6.x.
 
 >[!NOTE]
->
->Les étapes de sélection du moteur de rendu sont les mêmes que pour les rapports. Voir [Rapports personnalisés](#personalized-reports).
+Les étapes de sélection du moteur de rendu sont les mêmes que pour les rapports. Voir [Rapports personnalisés](#personalized-reports).
 
 Les méthodes de connexion aux applications Web ont changé dans v7. Si vous rencontrez des problèmes de connexion dans les applications Web identifiées, vous devez activer temporairement les options **allowUserPassword** et **sessionTokenOnly** dans le fichier **serverConf.xml**. Après la mise à niveau, modifiez les valeurs des options suivantes :
 
@@ -670,8 +667,7 @@ sessionTokenOnly="false"
 Si vous rencontrez des problèmes, republiez l&#39;application web. Si les problèmes persistent, vous pouvez sélectionner le moteur de rendu v6.0. Si vous n&#39;aviez pas ajouté de javascript, vous pouvez sélectionner le moteur de rendu v6.x afin de bénéficier des nouveautés.
 
 >[!NOTE]
->
->Les étapes de sélection du moteur de rendu sont les mêmes que pour les rapports. Voir [Rapports personnalisés](#personalized-reports).
+Les étapes de sélection du moteur de rendu sont les mêmes que pour les rapports. Voir [Rapports personnalisés](#personalized-reports).
 
 ## Red Hat {#red-hat}
 

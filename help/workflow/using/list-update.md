@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Mise à jour de liste{#list-update}
+
+![](../../assets/common.svg)
 
 Une activité de type **Mise à jour de liste** enregistre la population spécifiée par la transition dans une liste de destinataires.
 
@@ -41,7 +43,7 @@ Dans l&#39;exemple suivant, l&#39;activité de mise à jour de liste suit une re
 
 1. Placez une activité de type **[!UICONTROL Mise à jour de liste]** directement à la suite d&#39;une requête puis ouvrez-la pour pouvoir l&#39;éditer.
 
-   Pour plus d&#39;informations sur la création d&#39;une requête dans un workflow, consultez la section [Requête](../../workflow/using/query.md).
+   Pour plus d&#39;informations sur la création d&#39;une requête dans un workflow, consultez la section [Requête](query.md).
 
 1. Choisissez éventuellement un libellé pour l&#39;activité.
 1. Sélectionnez l&#39;option **[!UICONTROL Créer la liste si besoin (Nom calculé)]** afin d&#39;indiquer que la liste sera créée lors de la première exécution du workflow, puis mise à jour lors des exécutions suivantes.
@@ -65,7 +67,7 @@ Identifie la population à sauvegarder dans le groupe.
 
 ## Paramètres de sortie {#output-parameters}
 
-* groupId: Identifiant du groupe.
+* groupId : Identifiant du groupe.
 
 ## Tutoriel vidéo {#video}
 

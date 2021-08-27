@@ -3,18 +3,20 @@ solution: Campaign Classic
 product: campaign
 title: Connecteur Adobe Analytics
 description: En savoir plus sur le connecteur Adobe Analytics
-feature: Vue d'ensemble
+feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1785'
 ht-degree: 100%
 
 ---
 
 # Adobe Analytics Connector{#adobe-analytics-connector}
+
+![](../../assets/common.svg)
 
 ## À propos de l&#39;intégration du connecteur Adobe Analytics {#about-analytics-connector-integration}
 
@@ -137,7 +139,7 @@ Vous devez maintenant configurer votre compte externe **[!UICONTROL Web Analyti
 
 Veuillez noter que si l&#39;une de vos **[!UICONTROL suites de rapports]**, **[!UICONTROL variables de conversion]** ou **[!UICONTROL événements de succès]** n&#39;est pas visible lors de la configuration de votre compte externe, cela signifie que vous ne disposez pas d&#39;une autorisation pour ce nouveau composant dans le **[!UICONTROL profil de produit]** associé à l&#39;utilisateur.
 
-Pour plus d&#39;informations à ce sujet, consultez la page [Profils de produit pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=fr#product-profile-admins).
+Pour plus d’informations, consultez la page [Profils de produit pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=fr#product-profile-admins).
 
 1. Accédez au dossier **[!UICONTROL Administration]** > **[!UICONTROL Plate-forme]** > **[!UICONTROL Comptes externes]** de l&#39;arborescence Adobe Campaign et cliquez sur le bouton **[!UICONTROL Nouveau]**.
 
@@ -210,7 +212,7 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
 ![](assets/webanalytics_workflows.png)
 
 * **[!UICONTROL Récupération des événements web]** : toutes les heures, ce workflow télécharge les segments portant sur le comportement des internautes sur un site donné, les inclut dans la base de données Adobe Campaign et lance le workflow de remarketing.
-* **[!UICONTROL Purge des événements]** : ce workflow permet de supprimer de la base tous les événements selon la période paramétrée dans le champ **[!UICONTROL Durée de vie]**. Voir à ce propos la section [Configuration de votre compte externe dans Adobe Campaign Classic](#external-account-classic).
+* **[!UICONTROL Purge des événements]** : ce workflow permet de supprimer de la base tous les événements selon la période paramétrée dans le champ **[!UICONTROL Durée de vie]**. Pour plus d&#39;informations, consultez la section [Configuration de votre compte externe dans Adobe Campaign Classic](#external-account-classic).
 * **[!UICONTROL Identification des contacts convertis]** : répertorie les visiteurs du site ayant concrétisé leur achat après une campagne de remarketing. Les données récupérées par ce workflow sont accessibles dans le rapport **[!UICONTROL Efficacité du remarketing]**, voir cette [page](#creating-a-re-marketing-campaign).
 * **[!UICONTROL Envoi des indicateurs et des attributs de campagne]** : permet d&#39;envoyer les indicateurs des campagnes par e-mail depuis Adobe Campaign vers Adobe Experience Cloud via le connecteur Adobe Analytics. Ce workflow est déclenché à 4 heures du matin tous les jours et peut prendre 24 heures pour que les données soient envoyées à Analytics.
 
@@ -243,7 +245,6 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
    * **[!UICONTROL Tag 2]** (webAnalytics/@tag2)
    * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
    * **[!UICONTROL Date de contact]** (scheduling/@contactDate)
-
 
 
 ## Tracking des diffusions dans Adobe Campaign {#tracking-deliveries-in-adobe-campaign}

@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 100%
 
 ---
 
 # Utilisation d’une table des destinataires personnalisée{#about-custom-recipient-table}
+
+![](../../assets/v7-only.svg)
 
 Cette section présente les principes d&#39;utilisation d&#39;une table de destinataires non standard.
 
@@ -70,8 +72,8 @@ Il est également recommandé de vérifier les valeurs par défaut utilisées da
 
 Par exemple :
 
-* Certains rapports standards, notamment ceux proposés pour **Interaction** et les **Applications mobiles**, doivent être redéveloppés. Voir la section [Gestion des rapports](../../configuration/using/managing-reports.md).
-* Les paramètres par défaut de certaines activités de workflow référencent la table des destinataires standards (**[!UICONTROL nms:recipient]**) : ces paramètres doivent être modifiés dans le cadre de l&#39;utilisation d&#39;une table de destinataires externe. Voir la section [Gestion des workflows](../../configuration/using/managing-workflows.md).
+* Certains rapports standards, notamment ceux proposés pour **Interaction** et les **Applications mobiles**, doivent être redéveloppés. Pour plus d&#39;informations, consultez la section [Gestion des rapports](../../configuration/using/managing-reports.md).
+* Les paramètres par défaut de certaines activités de workflow référencent la table des destinataires standards (**[!UICONTROL nms:recipient]**) : ces paramètres doivent être modifiés dans le cadre de l&#39;utilisation d&#39;une table de destinataires externe. Pour plus d&#39;informations, consultez la section [Gestion des workflows](../../configuration/using/managing-workflows.md).
 * Le bloc de personnalisation du **[!UICONTROL Lien de désinscription]** standard doit être adapté.
 * Le mapping de ciblage des modèles de diffusion standard doit être modifié.
 * Les formulaires v4 ne sont pas compatibles avec l‘utilisation d’une table de destinataires externe : vous devez utiliser les applications Web.

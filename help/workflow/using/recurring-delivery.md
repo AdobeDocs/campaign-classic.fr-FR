@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 
 ---
 
 # Diffusion récurrente{#recurring-delivery}
+
+![](../../assets/common.svg)
 
 Une activité de **[!UICONTROL Diffusion récurrente]** permet de paramétrer une instance d&#39;un modèle de diffusion spécifique à une opération.
 
@@ -31,7 +33,7 @@ Pour cela :
 
 Le paramétrage de cette activité est semblable à la création d&#39;un modèle de diffusion au niveau des options disponibles. Voir à ce sujet cette [section](../../delivery/using/about-templates.md).
 
-Un exemple d&#39;utilisation de cette activité est proposé dans cette [section](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+Un exemple d&#39;utilisation de cette activité est proposé dans cette [section](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 ## Configuration d’une diffusion récurrente
 

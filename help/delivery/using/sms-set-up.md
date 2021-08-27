@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1781'
 ht-degree: 100%
 
 ---
 
 # Configurer le canal SMS {#setting-up-sms-channel}
+
+![](../../assets/common.svg)
 
 Pour diffuser vers un téléphone mobile, vous devez avoir :
 
@@ -345,7 +347,7 @@ La procédure de configuration d’un compte externe à l’aide du connecteur S
 
 ## Modifier le modèle de diffusion {#changing-the-delivery-template}
 
-Adobe Campaign met à votre disposition un modèle de diffusion vers mobiles. Ce modèle est disponible dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion.]** Voir à ce propos la section [Modèles](about-templates.md).
+Adobe Campaign met à votre disposition un modèle de diffusion vers mobiles. Ce modèle est disponible dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion.]** Pour plus d&#39;informations, consultez la section [Modèles](about-templates.md).
 
 Pour diffuser par le canal SMS, vous devez créer un modèle dans lequel le connecteur du canal est référencé.
 

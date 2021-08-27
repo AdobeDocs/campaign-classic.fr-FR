@@ -2,18 +2,20 @@
 product: campaign
 title: Créer et gérer des listes
 description: Découvrez comment créer et gérer des listes
-feature: Profils
+feature: Profiles
 role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
 
 # Création et gestion de listes{#creating-and-managing-lists}
+
+![](../../assets/common.svg)
 
 ## Qu’est-ce qu’une liste ?  {#about-lists-in-adobe-campaign}
 
@@ -67,7 +69,7 @@ Vous pouvez créer de nouveaux profils directement depuis la fenêtre d&#39;ajou
 
 ![](assets/s_ncs_user_new_recipient_from_group.png)
 
-La liste des profils est configurable, au même titre que les autres listes. Reportez-vous à [cette section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+La liste des profils est configurable, au même titre que les autres listes. Consultez [cette section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
 ## Associer les données à une liste {#linking-data-to-a-list}
 

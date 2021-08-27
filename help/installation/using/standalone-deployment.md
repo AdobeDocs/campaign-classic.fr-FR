@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 100%
 
 ---
 
 # Déploiement Stand-alone{#standalone-deployment}
+
+![](../../assets/v7-only.svg)
 
 Cette configuration regroupe tous les composants sur une seule machine :
 

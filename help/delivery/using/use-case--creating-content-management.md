@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 100%
 
 ---
 
 # Cas pratique : utiliser la gestion de contenu{#use-case-creating-content-management}
+
+![](../../assets/common.svg)
 
 Pour créer une gestion de contenu dans Adobe Campaign, les étapes de réalisation sont les suivantes :
 
@@ -102,7 +104,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
    <td> Title<br /> </td> 
    <td> Attribut<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td> Title<br /> </td> 
+   <td> Titre<br /> </td> 
   </tr> 
   <tr> 
    <td> Sous-titre<br /> </td> 

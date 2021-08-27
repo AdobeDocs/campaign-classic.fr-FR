@@ -6,8 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Installation des packages standard de Campaign Classic{#installing-campaign-standard-packages}
 
-## A propos des packages standard {#campaign-standard-packages}
+![](../../assets/v7-only.svg)
+
+## À propos des packages standard {#campaign-standard-packages}
 
 Les packages standard contiennent un ensemble de fonctionnalités qui peuvent être installées selon vos besoins et selon votre contrat. La liste complète des packages standard de Campaign est disponible ci-dessous.
 
@@ -149,7 +151,7 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Gestion de la réaction<br /> </td> 
-   <td> Mesure le succès et la rentabilité des campagnes marketing ou des propositions d'offres pour tous les canaux de communication.  Facultatif. <a href="../../campaign/using/about-response-manager.md">En savoir plus </a> <br /> </td> 
+   <td> Mesure le succès et la rentabilité des campagnes marketing ou des propositions d'offres pour tous les canaux de communication.  Facultatif. <a href="../../response/using/about-response-manager.md">En savoir plus </a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -159,7 +161,7 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Optimisation des campagnes<br /> </td> 
-   <td> Contrôle, filtre et surveille l'envoi des diffusions afin que les messages envoyés répondent le mieux aux besoins et aux attentes des clients, conformément aux politiques de communication de l'entreprise. Facultatif. <a href="../../campaign/using/about-campaign-typologies.md">En savoir plus </a> <br /> </td> 
+   <td> Contrôle, filtre et surveille l'envoi des diffusions afin que les messages envoyés répondent le mieux aux besoins et aux attentes des clients, conformément aux politiques de communication de l'entreprise. Facultatif. <a href="../../campaign-opt/using/about-campaign-typologies.md">En savoir plus </a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -179,7 +181,7 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Marketing central/local (Marketing distribué)<br /> </td> 
-   <td> Met en œuvre des campagnes de coopération entre les entités centrales (siège social, départements marketing, etc.) et les entités locales (points de vente, agences régionales, etc.). Facultatif. <a href="../../campaign/using/about-distributed-marketing.md">En savoir plus</a><br /> </td> 
+   <td> Met en œuvre des campagnes de coopération entre les entités centrales (siège social, départements marketing, etc.) et les entités locales (points de vente, agences régionales, etc.). Facultatif. <a href="../../distributed/using/about-distributed-marketing.md">En savoir plus</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 

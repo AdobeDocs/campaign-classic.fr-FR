@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 100%
 
 ---
 
 # Utiliser l&#39;activité Validation en local{#using-the-local-approval-activity}
+
+![](../../assets/common.svg)
 
 Intégrée à un workflow de ciblage, l&#39;activité **[!UICONTROL Validation en local]** permet de mettre en place un processus de validation des destinataires avant l&#39;envoi de la diffusion.
 
@@ -51,7 +53,7 @@ Les étapes principales du processus de validation en local sont les suivantes :
 
 Le modèle de répartition de données permet de limiter la population issue du ciblage à partir d&#39;un groupement de données, et permet d&#39;affecter chaque valeur du groupement à un responsable local. Dans notre exemple, nous avons défini le champ **[!UICONTROL Domaine de l&#39;adresse email]** comme champ de répartition et affecté un domaine à chaque responsable local.
 
-Pour plus d’informations sur la création d’un modèle de distribution de données, voir [Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
+Pour plus d’informations sur la création d’un modèle de distribution de données, voir [Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données](split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 1. Pour créer le modèle de répartition de données, positionnez-vous sur le noeud **[!UICONTROL Ressources > Gestion de campagne > Répartition de données]**, et cliquez sur le bouton **[!UICONTROL Nouveau]**.
 
@@ -106,7 +108,7 @@ Les activités suivantes ont été ajoutées :
 
 Le ciblage en amont est composé de deux requêtes, une intersection et un partage. La population issue du ciblage peut être limitée à l&#39;aide de l&#39;activité **[!UICONTROL Partage]** utilisant un modèle de répartition de données.
 
-Pour plus d’informations sur la configuration d’une activité de partage, voir [Partage](../../workflow/using/split.md). La création d’un modèle de distribution de données est détaillée dans [Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
+Pour plus d’informations sur la configuration d’une activité de partage, voir [Partage](split.md). La création d’un modèle de distribution de données est détaillée dans [Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données](split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 Si vous ne souhaitez pas limiter la population issue de la requête, il n&#39;est pas nécessaire d&#39;utiliser les activités **[!UICONTROL Requête]**, **[!UICONTROL Intersection]** et **[!UICONTROL Partage]**. Dans ce cas, renseignez le modèle de répartition de données dans la première activité de type **[!UICONTROL Validation en local]**.
 
@@ -134,7 +136,7 @@ Dans le modèle de répartition, nous avons choisi de limiter la population à 1
 
 L&#39;activité **[!UICONTROL Validation en local]** permet d&#39;envoyer une notification à chaque responsable local.
 
-Pour plus d’informations sur le paramétrage de l’activité **[!UICONTROL Validation en local]**, voir la section [Validation en local](../../workflow/using/local-approval.md).
+Pour plus d’informations sur le paramétrage de l’activité **[!UICONTROL Validation en local]**, voir la section [Validation en local](local-approval.md).
 
 ![](assets/local_validation_workflow_2.png)
 

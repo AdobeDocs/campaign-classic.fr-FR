@@ -6,14 +6,16 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 100%
 
 ---
 
 # Migration sous Linux pour Adobe Campaign v7{#migrating-in-linux-for-adobe-campaign-v}
+
+![](../../assets/v7-only.svg)
 
 ## Procédure générale {#general-procedure}
 
@@ -518,7 +520,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 >
 >Cette section s&#39;applique uniquement lors de la migration à partir d&#39;Adobe Campaign v5.11.
 
-À ce stade, Apache doit être arrêté. Voir la section [Arrêt des services](#service-stop).
+À ce stade, Apache doit être arrêté. Pour plus d&#39;informations, consultez la section [Arrêt des services](#service-stop).
 
 1. Connectez-vous en tant que **root**.
 1. Modifiez les variables d&#39;environnement d&#39;Apache afin de les faire pointer vers le répertoire **nl6**.

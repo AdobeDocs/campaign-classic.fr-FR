@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+workflow-type: tm+mt
 source-wordcount: '2044'
 ht-degree: 100%
 
 ---
 
 # Principes et cycle des données d’ACS Connector{#acs-connector-principles-and-data-cycle}
+
+![](../../assets/v7-only.svg)
 
 ## Introduction {#introduction}
 
@@ -29,7 +31,7 @@ Grâce à ACS Connector, les spécialistes du marketing digital continuent à ut
 >
 >ACS Connector est disponible uniquement pour les architectures hébergées et hybrides. Il n’est pas disponible pour les installations on-premise complètes.
 >
->Pour utiliser cette fonctionnalité, vous devez vous connecter à Campaign à l’aide d’un Adobe ID (IMS). Voir à ce propos la section [Connexion via un Adobe ID](../../integrations/using/about-adobe-id.md).
+>Pour utiliser cette fonctionnalité, vous devez vous connecter à Campaign à l&#39;aide d&#39;un Adobe ID (IMS). Pour plus d&#39;informations, consultez la section [Connexion via un Adobe ID](../../integrations/using/about-adobe-id.md).
 
 Ce document présente la fonctionnalité ACS Connector. Les sections ci-dessous fournissent des informations sur la réplication des données par la fonctionnalité, ainsi que des instructions concernant l’utilisation des profils répliqués.
 
@@ -99,7 +101,7 @@ Les profils répliqués sont prêts à l’emploi pour les diffusions, mais pré
 * **Profils créés dans Campaign Standard** : ACS Connector réplique les données des destinataires dans un sens, de Campaign v7 vers Campaign Standard. Par conséquent, les profils issus de Campaign Standard ne sont pas répliqués dans Campaign v7.
 * **Données de destinataire de base pour Campaign Standard** : ACS Connector réplique les données des destinataires adaptées à Campaign Standard. Elles comprennent le nom, l’adresse, l’adresse email, le numéro de téléphone mobile, le numéro de téléphone personnel et d’autres coordonnées utiles. Si d’autres champs de destinataire et des tables de ciblage personnalisées de Campaign v7 sont essentiels pour votre workflow, veuillez contacter votre consultant.
 * **Import des profils mis en quarantaine** : des listes de profils qui ne souhaitent pas être contactés peuvent être importées dans Campaign v7 ou Campaign Standard en tant que profils mis en quarantaine. Le statut des profils est inclus dans la synchronisation des quarantaines entre les applications et ces profils ne sont pas utilisés dans les diffusions.
-* **Désinscription à un service dans Campaign Standard** : le choix de se désinscrire d’une diffusion n’est pas synchronisé de Campaign Standard vers Campaign v7. Vous pouvez toutefois configurer une diffusion Campaign Standard pour rediriger son lien de désinscription vers Campaign v7. Le profil d’un destinataire qui clique sur le lien de désinscription est mis à jour dans Campaign v7 et les données sont répliquées vers Campaign Standard. Voir à ce propos la section [Modification du lien de désinscription](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
+* **Désinscription à un service dans Campaign Standard** : le choix de se désinscrire d’une diffusion n’est pas synchronisé de Campaign Standard vers Campaign v7. Vous pouvez toutefois configurer une diffusion Campaign Standard pour rediriger son lien de désinscription vers Campaign v7. Le profil d’un destinataire qui clique sur le lien de désinscription est mis à jour dans Campaign v7 et les données sont répliquées vers Campaign Standard. Pour plus d&#39;informations, consultez la section [Modification du lien de désinscription](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
 * Seuls les logs de tracking et les broadLogs des emails sont répliqués de Campaign Standard vers Campaign v7.
 
 ### Facturation {#billing}

@@ -2,18 +2,20 @@
 product: campaign
 title: Prise en main des opérateurs Campaign
 description: Découvrez comment créer et gérer des utilisateurs Campaign
-feature: Gestion des accès
+feature: Access Management
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1211'
 ht-degree: 100%
 
 ---
 
 # Création et gestion d’opérateurs {#operators}
+
+![](../../assets/common.svg)
 
 ## Prise en main des opérateurs Campaign  {#about-operators}
 
@@ -45,7 +47,7 @@ Pour créer un opérateur et accorder des permissions, procédez comme suit :
 
 1. Indiquez les **[!UICONTROL Paramètres d&#39;identification]** de l&#39;utilisateur : son login, son mot de passe et son nom. Le login et le mot de passe permettront à l&#39;opérateur de se connecter à Adobe Campaign. Une fois connecté, l&#39;utilisateur peut changer son mot de passe depuis le menu **[!UICONTROL Outils > Changement de mot de passe]**. L&#39;email de l&#39;opérateur est essentiel, car il lui permet de recevoir des notifications, par exemple lors du traitement des validations.
 
-   Cette section permet également d&#39;associer l&#39;opérateur à une entité organisationnelle. Voir à ce propos [cette page](../../campaign/using/about-distributed-marketing.md).
+   Cette section permet également d&#39;associer l&#39;opérateur à une entité organisationnelle. Voir à ce propos [cette page](../../distributed/using/about-distributed-marketing.md).
 
 1. Sélectionnez les permissions accordées à l&#39;opérateur dans la section **[!UICONTROL Droits d&#39;accès de l&#39;opérateur]**.
 
@@ -107,7 +109,7 @@ Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;acc
 * Vous pouvez associer une zone de sécurité à l&#39;opérateur. Voir à ce propos [cette page](../../installation/using/security-zones.md).
 * Vous pouvez également définir un masque IP de confiance à partir du lien correspondant.
 
-   L&#39;opérateur pourra se connecter à Adobe Campaign sans saisir son mot de passe si son adresse IP est dans cette liste.
+   L&#39;opérateur pourra se connecter à Adobe Campaign sans saisir son mot de passe si son adresse IP est dans cette liste.
 
    Vous pouvez également définir dans ce champ une plage d&#39;adresses IP qui seront autorisées à se connecter sans mot de passe, comme dans l&#39;exemple suivant :
 

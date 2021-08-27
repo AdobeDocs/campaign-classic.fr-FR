@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos de la simulation des offres
-description: A propos de la simulation des offres
+title: À propos de la simulation des offres
+description: À propos de la simulation des offres
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 
 ---
 
-# A propos de la simulation des offres{#about-offers-simulation}
+# À propos de la simulation des offres{#about-offers-simulation}
+
+![](../../assets/v7-only.svg)
 
 Le module **Simulation** vous permet de tester la répartition des offres d&#39;une catégorie ou d&#39;un environnement avant de lancer votre proposition auprès de vos destinataires.
 
@@ -34,7 +36,7 @@ Pour effectuer une simulation de vos offres, procédez de la manière suivante :
 1. Enregistrez puis éditez la simulation que vous venez de créer.
 1. Dans l&#39;onglet **[!UICONTROL Edition]**, spécifiez les paramètres d&#39;exécution.
 
-   Voir à ce propos la section [Paramètres d&#39;exécution](../../interaction/using/execution-settings.md).
+   Pour plus d&#39;informations, consultez la section [Paramètres d&#39;exécution](../../interaction/using/execution-settings.md).
 
    ![](assets/offer_simulation_003.png)
 
@@ -44,13 +46,13 @@ Pour effectuer une simulation de vos offres, procédez de la manière suivante :
 
 1. Déterminez le périmètre de la simulation.
 
-   Voir à ce propos la section [Définition du périmètre](../../interaction/using/simulation-scope.md#definition-of-the-scope).
+   Pour plus d&#39;informations, consultez la section [Définition du périmètre](../../interaction/using/simulation-scope.md#definition-of-the-scope).
 
    ![](assets/offer_simulation_004.png)
 
 1. Ajoutez des axes de reporting pour enrichir le rapport **[!UICONTROL Répartition des offres par rang]** (étape optionnelle).
 
-   Voir à ce propos la section [Ajout d&#39;axes de reporting](../../interaction/using/simulation-scope.md#adding-reporting-axes).
+   Pour plus d&#39;informations, consultez la section [Ajout d&#39;axes de reporting](../../interaction/using/simulation-scope.md#adding-reporting-axes).
 
    ![](assets/offer_simulation_005.png)
 
@@ -61,6 +63,6 @@ Pour effectuer une simulation de vos offres, procédez de la manière suivante :
 
 1. Consultez le résultat de votre simulation et affichez le rapport d&#39;analyse de la simulation.
 
-   Voir à ce propos la section [Suivi des simulations](../../interaction/using/simulation-tracking.md).
+   Pour plus d&#39;informations, consultez la section [Suivi des simulations](../../interaction/using/simulation-tracking.md).
 
    ![](assets/offer_simulation_007.png)

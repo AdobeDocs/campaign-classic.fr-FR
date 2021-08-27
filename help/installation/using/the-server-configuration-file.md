@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 1312f7c319c96851bc83ae21501164e2688d0dff
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '7969'
 ht-degree: 100%
 
 ---
 
 # Le fichier de configuration du serveur{#the-server-configuration-file}
+
+![](../../assets/v7-only.svg)
 
 La configuration globale d’Adobe Campaign est définie dans le fichier **serverConf.xml** qui se trouve dans le répertoire **conf** du répertoire d’installation. Cette section répertorie l’ensemble des nœuds et des paramètres du fichier **serverConf.xml**.
 
@@ -199,7 +201,7 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
   </tr> 
   <tr> 
    <td> uploadAllowlist<br /> </td> 
-   <td> Fichiers autorisés à être téléchargés séparés par des ','. La chaîne doit être une expression régulière Java valide. Voir la section<a href="file-res-management.md" target="_blank">Limitation des fichiers téléchargeables</a>.<br /> </td> 
+   <td> Fichiers autorisés à être téléchargés séparés par des ','. La chaîne doit être une expression régulière Java valide. Voir la section <a href="file-res-management.md" target="_blank">Limitation des fichiers téléchargeables</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '.+' <br /> </td> 
   </tr> 
@@ -435,7 +437,7 @@ Pour plus d&#39;informations, voir la section [Gestion des ressources publiques]
  </thead> 
  <tbody> 
   <tr> 
-   <td> name<br /> </td> 
+   <td> name&lt;a0/<br /> </td> 
    <td> Nom du répertoire virtuel <br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -479,7 +481,7 @@ Voici les différents paramètres du nœud **dataStore > preprocessCommand**. I
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
-   <td> name<br /> </td> 
+   <td> name&lt;a0/<br /> </td> 
    <td> Nom de ligne de commande<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -497,7 +499,7 @@ Voici la configuration par défaut :
 
 Voici les différents paramètres du nœud **dnsConfig** (configuration DNS).
 
-Voir à ce sujet cette [section](../../installation/using/configuring-campaign-server.md).
+Pour plus d’informations, consultez cette [section](../../installation/using/configuring-campaign-server.md).
 
 <table> 
  <thead> 
@@ -749,7 +751,7 @@ Voici les différents paramètres du nœud **mailExchanger**. Il s’agit de la 
  <tbody> 
   <tr> 
    <td> mxAddress<br /> </td> 
-   <td> Serveur SMTP : adresse IP du serveur SMTP pour le transfert des emails.<br /> </td> 
+   <td> Serveur SMTP : adresse IP du serveur SMTP pour le transfert des emails.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -778,7 +780,7 @@ Voici les différents paramètres du nœud **module**. Il s’agit de la configu
  <tbody> 
   <tr> 
    <td> defaultNameSpace<br /> </td> 
-   <td> Espace de noms par défaut utilisé lors de la création d’une nouvelle entité.<br /> </td> 
+   <td> Espace de noms par défaut lors de la création d’une nouvelle entité.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> 'cus'<br /> </td> 
   </tr> 
@@ -1158,7 +1160,7 @@ Pour plus d&#39;informations, voir la section [Activer l&#39;archivage des email
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Voir la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1319,7 +1321,7 @@ Voici les différents paramètres du nœud **inMail**. Il s’agit de la configu
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Voir la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1433,7 +1435,7 @@ Pour plus d&#39;informations, voir la section [Interaction - Mémoire tampon](..
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Voir la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1570,7 +1572,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Voir la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1723,7 +1725,7 @@ Pour plus d&#39;informations, consultez la section [Relais SMTP](../../installat
 
 Dans le nœud **mta > master**, configurez les paramètres suivants. Il s’agit de la configuration du serveur principal.
 
-Voir à ce sujet cette [section](../../installation/using/configuring-campaign-server.md#mta-child-processes).
+Pour plus d’informations, consultez cette [section](../../installation/using/configuring-campaign-server.md#mta-child-processes).
 
 <table> 
  <thead> 
@@ -1755,7 +1757,7 @@ Voir à ce sujet cette [section](../../installation/using/configuring-campaign-s
   </tr> 
   <tr> 
    <td> maxSpareServers<br /> </td> 
-   <td> Nombre maximum de serveurs enfants. Représente le nombre maximum de serveurs en fonctionnement. Il n'est pas souhaitable de fixer un nombre trop élevé sans nécessité, car cela consomme inutilement de la mémoire. Vous pouvez vérifier si ce nombre n'est pas trop élevé en étudiant la mémoire consommée sur votre machine lorsqu'une diffusion est en cours. Celle-ci ne doit jamais excéder de plus d'un tiers la mémoire physiquement disponible sur votre machine, car cela signifie que votre swap est mis à contribution. Voir la section <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">Processus MTA enfant</a>.<br /> </td> 
+   <td> Nombre maximum de serveurs enfants. Représente le nombre maximum de serveurs en fonctionnement. Il n'est pas souhaitable de fixer un nombre trop élevé sans nécessité, car cela consomme inutilement de la mémoire. Vous pouvez vérifier si ce nombre n'est pas trop élevé en étudiant la mémoire consommée sur votre machine lorsqu'une diffusion est en cours. Celle-ci ne doit jamais excéder de plus d'un tiers la mémoire physiquement disponible sur votre machine, car cela signifie que votre swap est mis à contribution. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">Processus MTA enfant</a>.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
@@ -1908,11 +1910,11 @@ Pour plus d&#39;informations, voir les sections [Liste des adresses IP à utilis
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td> Nom de domaine : nom de domaine associé à l’adresse IP. Utilisé par la commande SMTP HELO.<br /> </td> 
+   <td> Nom de domaine : nom de domaine associé à l’adresse IP. Utilisé par la commande SMTP HELO.<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
-   <td> name<br /> </td> 
+   <td> name&lt;a0/<br /> </td> 
    <td> Nom logique : noms associés à l’affinité par les utilisateurs. Le séparateur des noms est un point-virgule ;<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -1959,7 +1961,7 @@ Pour plus d&#39;informations, voir la section [Liste des adresses IP à utiliser
   </tr> 
   <tr> 
    <td> heloHost<br /> </td> 
-   <td> Nom de la machine associée à l’adresse IP. Utilisé par la commande SMTP HELO.<br /> </td> 
+   <td> Nom de la machine associée à l’adresse IP. Utilisé par la commande SMTP HELO.<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
  </tbody> 
@@ -2129,7 +2131,7 @@ Voici les différents paramètres du nœud **pipelined**. Il s’agit de la conf
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Voir la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2242,7 +2244,7 @@ Pour plus d’informations, voir la section [Définition des zones de sécurité
    <td> NewLabel()<br /> </td> 
   </tr> 
   <tr> 
-   <td> name<br /> </td> 
+   <td> name&lt;a0/<br /> </td> 
    <td> Nom interne<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewName() <br /> </td> 
@@ -2316,7 +2318,7 @@ Pour plus d’informations, voir la section [Définition des zones de sécurité
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> name<br /> </td> 
+   <td> name&lt;a0/<br /> </td> 
    <td> Nom interne<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewName() <br /> </td> 
@@ -2400,7 +2402,7 @@ Voici les différents paramètres du nœud **sms**. Il s’agit de la configurat
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Voir la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2506,7 +2508,7 @@ Voici les différents paramètres du nœud **stat**. Il s’agit de la configura
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Voir la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2577,7 +2579,7 @@ Voici les différents paramètres du nœud **syslogd**. Il s’agit de la config
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Voir la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2690,7 +2692,7 @@ Voici les différents paramètres du nœud **tracking**. Il s’agit de la confi
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Voir la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2785,7 +2787,7 @@ Voici les différents paramètres du nœud **trackinglogd**. Il s’agit de la c
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Voir la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2814,7 +2816,7 @@ Voici les différents paramètres du nœud **trackinglogd**. Il s’agit de la c
 
 Voici les différents paramètres du nœud **web**. Il s’agit de la configuration du module Web.
 
-Voir à ce sujet cette [section](configuring-campaign-server.md#default-port-for-tomcat).
+Pour plus d’informations, consultez cette [section](configuring-campaign-server.md#default-port-for-tomcat).
 
 <table> 
  <thead> 
@@ -2900,7 +2902,7 @@ Voir à ce sujet cette [section](configuring-campaign-server.md#default-port-for
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Voir la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -3034,7 +3036,7 @@ Le nœud **web > jsp > classpath** contient la liste de tous les Class Paths �
 
 Voici les différents paramètres du nœud **web > relay**. Il s’agit de la configuration du relais de requêtes HTTP entre deux zones.
 
-Voir à ce sujet cette [section](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
+Pour plus d’informations, consultez cette [section](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
 <table> 
  <thead> 
@@ -3247,7 +3249,7 @@ Pour plus d&#39;informations, voir la section [Gestion des en-têtes HTTP (HTTP 
  </thead> 
  <tbody> 
   <tr> 
-   <td> name<br /> </td> 
+   <td> name&lt;a0/<br /> </td> 
    <td> Nom de l’en-tête<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -3269,7 +3271,7 @@ Voici la configuration par défaut :
 
 Voici les différents paramètres du nœud **web > redirection**. Il s’agit de la configuration du service de redirection.
 
-Voir à ce sujet cette [section](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
+Pour plus d’informations, consultez cette [section](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
 <table> 
  <thead> 
@@ -3474,7 +3476,7 @@ Pour plus d&#39;informations, voir la section [Workflows en haute disponibilité
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Voir la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 

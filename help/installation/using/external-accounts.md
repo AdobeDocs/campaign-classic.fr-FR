@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 7adde72f615e7c697fa2284235e180c29bc6d470
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 94%
@@ -14,6 +14,8 @@ ht-degree: 94%
 ---
 
 # Comptes externes{#external-accounts}
+
+![](../../assets/v7-only.svg)
 
 Un ensemble de comptes externes prédéfinis est livré avec Adobe Campaign. Pour établir des connexions avec des systèmes externes, vous pouvez créer des comptes externes.
 

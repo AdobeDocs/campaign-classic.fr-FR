@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: bc4329b4-d272-4d32-bdaa-290cb9912af4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
 
 ---
 
-# élément srcSchema{#srcschema--element}
+# élément srcSchema {#srcschema--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modèle de contenu {#content-model-14}
 
@@ -45,7 +47,7 @@ Le `<srcschema>` est l’élément racine d’un schéma. Il s’agit du point d
 
 ## Usage et contexte d&#39;utilisation {#use-and-context-of-use-9}
 
-La présentation du schéma est disponible dans [A propos de la référence du schéma](../../../configuration/using/about-schema-reference.md) et [Structure du schéma](../../../configuration/using/schema-structure.md).
+La présentation du schéma est disponible dans [À propos de la référence du schéma](../../../configuration/using/about-schema-reference.md) et [Structure du schéma](../../../configuration/using/schema-structure.md).
 
 ## Description des attributs {#attribute-description-14}
 
@@ -68,7 +70,7 @@ La présentation du schéma est disponible dans [A propos de la référence du s
 
 * **modifiedBy-id (long)**: correspond à l&#39;identifiant de l&#39;opérateur qui a modifié le schéma.
 * **name (string)**: nom unique du schéma.
-* **namespace (string)**: espace de noms du schéma (espace par défaut : nms, xtk, nl). Lors de la création d&#39;un nouveau schéma, il est conseillé d&#39;utiliser un espace de noms spécifique au projet.
+* **namespace (string)**: espace de noms du schéma (espace par défaut : nms, xtk, nl). Lors de la création d&#39;un nouveau schéma, il est conseillé d&#39;utiliser un namespace spécifique au projet.
 * **useRecycleBin (boolean)**: activation de la corbeille dans l&#39;application. Les enregistrements supprimés seront placés en corbeille avant la destruction définitive. Cette fonctionnalité est disponible uniquement pour le module &quot;Diffusions&quot;.
 * **view (boolean)**: s&#39;il est activé (@view=&quot;true&quot;), le schéma sera utilisé comme une vue. L&#39;assistant de mise à jour de la structure de la base ne tiendra pas compte du schéma. Cette option permet le plus souvent de référencer des tables externes.
 * **xtkschema (string)**: nom du schéma définissant la grammaire des schémas (par défaut xtk:srcSchema).

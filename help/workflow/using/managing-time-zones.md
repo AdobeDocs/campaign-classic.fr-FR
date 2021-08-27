@@ -6,24 +6,26 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 94%
 
 ---
 
 # Gestion des fuseaux horaires{#managing-time-zones}
 
+![](../../assets/common.svg)
+
 Adobe Campaign permet de gérer les décalages horaires entre plusieurs pays concernés par la même instance. La configuration appliquée est paramétrée lors de la création de l&#39;instance.
 
-Pour plus d&#39;informations sur la configuration des fuseaux horaires dans Adobe Campaign, consultez cette [section](../../installation/using/time-zone-management.md).
+Pour plus d’informations sur la configuration des fuseaux horaires dans Adobe Campaign, reportez-vous au [Guide d’installation de Campaign Classic v7](../../installation/using/time-zone-management.md).
 
 Dans un workflow, vous pouvez adapter les plannings d&#39;exécution des activités, mais aussi associer un fuseau horaire spécifique à une activité ou à tout le workflow. Ce paramétrage peut être utile par exemple lors de l&#39;import de fichier ou dans le cadre de la planification des diffusions.
 
 ## Planifier l&#39;exécution {#execution-scheduling}
 
-Vous pouvez planifier l’exécution des tâches à l’aide du planificateur (voir [Planificateur](../../workflow/using/scheduler.md)). Vous pouvez également utiliser les options de planification disponibles dans les activités qui proposent cette fonctionnalité. Ces activités offrent un onglet **[!UICONTROL Planification]** : **[!UICONTROL Collecteur de fichiers]**, **[!UICONTROL Transfert de fichiers]**, **[!UICONTROL Téléchargement Web]**, **[!UICONTROL Réception d’emails]** et **[!UICONTROL SMS]**, etc.
+Vous pouvez planifier l’exécution des tâches à l’aide du planificateur (voir [Planificateur](scheduler.md)). Vous pouvez également utiliser les options de planification disponibles dans les activités qui proposent cette fonctionnalité. Ces activités offrent un onglet **[!UICONTROL Planification]** : **[!UICONTROL Collecteur de fichiers]**, **[!UICONTROL Transfert de fichiers]**, **[!UICONTROL Téléchargement Web]**, **[!UICONTROL Réception d’emails]** et **[!UICONTROL SMS]**, etc.
 
 Dans toute tâche planifiée, c&#39;est-à-dire dans toute activité qui propose des options de planification, vous pouvez choisir le fuseau horaire à appliquer. Le fuseau horaire est sélectionné à partir de l&#39;onglet **[!UICONTROL Avancé]** de l&#39;activité concernée :
 

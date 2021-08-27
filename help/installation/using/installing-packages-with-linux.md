@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 100%
 
 ---
 
 # Installation de packages avec Linux{#installing-packages-with-linux}
+
+![](../../assets/v7-only.svg)
 
 Pour une plateforme Linux 32 bits, procédez à une installation d&#39;Adobe Campaign 32 bits. Pour une plateforme Linux 64 bits, procédez à une installation d&#39;Adobe Campaign 64 bits.
 
@@ -268,7 +270,7 @@ Lorsque vous utilisez Oracle avec Adobe Campaign, vous devez configurer les couc
 
 * Variables d&#39;environnement
 
-   Voir la section [Variables d&#39;environnement](../../installation/using/installing-packages-with-linux.md#environment-variables).
+   Pour plus d&#39;informations, consultez la section [Variables d&#39;environnement](../../installation/using/installing-packages-with-linux.md#environment-variables).
 
 * Paramétrage pour Adobe Campaign
 

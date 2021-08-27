@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: general-operation
 exl-id: 82b88ab7-6a95-4bb3-b8b3-abea0fdd4ca0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
 ---
 
 # Etapes de mise en oeuvre{#implementation-steps}
+
+![](../../assets/v7-only.svg)
 
 ## Paramétrage {#configuring-interaction}
 
@@ -32,7 +34,7 @@ ht-degree: 100%
 
 1. Paramétrage du moteur d&#39;offres dans le cas d&#39;interactions entrantes, afin de proposer et mettre à jour une ou plusieurs offres.
 
-   Les différents modes d’intégration sont détaillés dans [A propos des canaux entrants](../../interaction/using/about-inbound-channels.md).
+   Les différents modes d’intégration sont détaillés dans [À propos des canaux entrants](../../interaction/using/about-inbound-channels.md).
 
    >[!NOTE]
    >
@@ -55,4 +57,4 @@ ht-degree: 100%
 >Les étapes suivantes sont destinées à être réalisées par un profil de type **Chargé de diffusions**. Ce dernier intervient uniquement sur les offres présentes dans les environnements en ligne.
 
 1. Créer une campagne.
-1. Référencer une offre dans une campagne ou l’envoi d’une campagne. Voir à ce sujet la section [A propos des canaux sortants](../../interaction/using/about-outbound-channels.md).
+1. Référencer une offre dans une campagne ou l’envoi d’une campagne. Voir à ce sujet la section [À propos des canaux sortants](../../interaction/using/about-outbound-channels.md).

@@ -6,8 +6,8 @@ description: Découvrez comment Configuration de l'accès à Vertica dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-source-git-commit: a7c080fe4db72f659659c7cac8f2c02031822e04
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 
 
 # Configuration de l&#39;accès à Vertica {#configure-fda-vertica}
+
+![](../../assets/v7-only.svg)
 
 Utilisez l&#39;option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour Configuration de l&#39;accès à [!DNL Vertica].
 
@@ -86,7 +88,7 @@ Pour effectuer la configuration de [!DNL Vertica] sous CentOS, procédez comme s
 
 1. Téléchargez le pilote [ODBC pour Windows](https://www.vertica.com/download/vertica/client-drivers/). Pour installer le pilote pour Windows, vous devez activer .NET Framework 3.5, sinon l&#39;assistant d&#39;installation tentera de l&#39;activer et de le télécharger automatiquement.
 
-1. Configurez le pilote ODBC sous Windows. Voir à ce propos [cette page](https://www.vertica.com/docs/9.2.x/HTML/Content/Authoring/ConnectingToVertica/ClientODBC/SettingUpADSN.htm)
+1. Configurez le pilote ODBC sous Windows. Pour plus d’informations, consultez [cette page](https://www.vertica.com/docs/9.2.x/HTML/Content/Authoring/ConnectingToVertica/ClientODBC/SettingUpADSN.htm)
 
 1. Dans Adobe Campaign, vous pouvez ensuite configurer votre compte externe [!DNL Vertica]. Pour plus d&#39;informations sur la configuration de votre compte externe, voir [cette section](#vertical-external).
 

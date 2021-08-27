@@ -6,14 +6,16 @@ audience: social
 content-type: reference
 topic-tags: annexes
 exl-id: 83883ba3-e4dc-428c-a377-1986cfd1fe55
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 100%
 
 ---
 
 # Effectuer un tracking{#tracking}
+
+![](../../assets/v7-only.svg)
 
 Social Marketing met à disposition des rapports permettant de mesurer le taux de réactivité des diffusions Facebook et Twitter et d&#39;analyser l&#39;acquisition de profils Facebook. Les rapports disponibles sont les suivants :
 
