@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: FAQ sur la conception de messages
-description: FAQ sur Campaign Classic
+description: FAQ Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # FAQ sur la conception de messages {#design-messages-faq}
+
+![](../../assets/common.svg)
 
 Découvrez les étapes essentielles de la conception de messages omni-canal avec Adobe Campaign.
 
@@ -31,11 +33,11 @@ Les paramètres et la configuration d&#39;une diffusion peuvent être sauvegard�
 
 ## Est-il possible d&#39;importer facilement du contenu HTML existant pour créer un email dans Campaign ?  {#can-i-easily-import-an-existing-html-to-create-an-email-in-campaign-}
 
-Découvrez comment importer un contenu HTML existant pour créer et envoyer en un clic un email dans Adobe Campaign.
+Découvrez comment importer un contenu HTML pour créer et envoyer en un clic un email dans Adobe Campaign.
 
 [Pour en savoir plus, cliquez ici](../../delivery/using/defining-the-email-content.md#message-content).
 
-## Comment utiliser le Digital Content Editor Campaign pour créer un contenu d&#39;email ?  {#how-to-use-campaign-dce-to-create-an-email-content-}
+## Comment utiliser le Digital Content Editor d’Adobe Campaign pour concevoir un e-mail ?  {#how-to-use-campaign-dce-to-create-an-email-content-}
 
 [Concevoir un email avec le Digital Content Editor Campaign](../../web/using/use-case--creating-an-email-delivery.md) : apprenez, à travers un exemple, à utiliser le DCE Campaign pour concevoir un email.
 
@@ -45,7 +47,7 @@ Découvrez comment importer un contenu HTML existant pour créer et envoyer en u
 
 ## Comment personnaliser les messages ?  {#how-can-i-personalize-messages-}
 
-Les messages diffusés par Adobe Campaign peuvent faire l&#39;objet de plusieurs types de personnalisation. Les axes de personnalisation peuvent concerner le contenu ou la présentation, ils peuvent être combinés en fonction de critères issus notamment des profils des destinataires. D&#39;une manière générale, Adobe Campaign vous permet de :
+Les messages diffusés par Adobe Campaign peuvent faire l&#39;objet de plusieurs types de personnalisation. Les axes de personnalisation peuvent concerner le contenu ou la présentation et peuvent être combinés en fonction de critères issus notamment des profils des destinataires. D’une manière générale, Adobe Campaign vous permet d’effectuer les opérations suivantes :
 
 * Personnaliser le format du message. [Pour en savoir plus, cliquez ici](../../delivery/using/defining-the-email-content.md#message-content).
 * Insérer des champs de personnalisation dynamiques. [Pour en savoir plus, cliquez ici](../../delivery/using/personalization-fields.md).

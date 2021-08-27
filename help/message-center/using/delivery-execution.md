@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
 ---
 
 # Exécution de la diffusion {#delivery-execution}
+
+![](../../assets/v7-only.svg)
 
 ## Envoi de message transactionnel {#transactional-message-send}
 

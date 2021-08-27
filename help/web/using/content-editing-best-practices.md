@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 100%
 
 ---
 
 # Bonnes pratiques relatives à l&#39;édition de contenu{#content-editing-best-practices}
+
+![](../../assets/common.svg)
 
 Afin de garantir un fonctionnement optimal de l&#39;éditeur, il est recommandé de respecter les recommandations suivantes :
 

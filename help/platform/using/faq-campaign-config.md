@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: FAQ sur les paramètres de Campaign
-description: FAQ sur Campaign Classic
+description: FAQ Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # FAQ sur les paramètres de Campaign {#settings-faq}
+
+![](../../assets/common.svg)
 
 Découvrez les principales configurations afin de définir votre instance Campaign en fonction de vos besoins.
 

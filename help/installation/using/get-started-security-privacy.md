@@ -6,8 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 100%
 
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 # Prise en main de la sécurité et de la confidentialité {#get-started-security-privacy}
 
+![](../../assets/v7-only.svg)
+
 Cette section présente les éléments clés à contrôler en ce qui concerne la sécurité et la confidentialité. Certaines configurations ne peuvent être exécutées que par les clients On-premise.
 
 ## Confidentialité
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-La configuration et le renforcement de la confidentialité sont des éléments clés en matière d’optimisation de la sécurité. Voici quelques bonnes pratiques à suivre en matière de confidentialité :
+La configuration et le renforcement de la confidentialité sont des éléments clés en matière d&#39;optimisation de la sécurité. Voici quelques bonnes pratiques à suivre en matière de confidentialité :
 
 * Protégez les PII de votre client en utilisant HTTPS au lieu de HTTP.
 * Utilisez la restriction de l’affichage des PII pour protéger la confidentialité et empêcher toute utilisation abusive des données.
@@ -37,8 +39,8 @@ La configuration et le renforcement de la confidentialité sont des éléments c
 La gestion des accès joue un rôle important dans le renforcement de la sécurité. Vous trouverez ci-dessous quelques-unes des principales bonnes pratiques à appliquer.
 
 * Créez suffisamment de groupes de sécurité.
-* Vérifiez que chaque opérateur dispose des droits d’accès adéquats.
-* Évitez d’utiliser l’opérateur admin et d’ajouter trop d’opérateurs au groupe admin.
+* Vérifiez que chaque opérateur dispose des droits d&#39;accès adéquats.
+* Évitez d&#39;utiliser l&#39;opérateur admin et d&#39;ajouter trop d&#39;opérateurs au groupe admin.
 
 [En savoir plus](../../installation/using/access-management.md)
 
@@ -48,7 +50,7 @@ La gestion des accès joue un rôle important dans le renforcement de la sécuri
 
 Lorsque vous effectuez des tâches de développement dans Adobe Campaign (workflows, Javascript, JSSP, autres), suivez toujours ces instructions :
 
-* **Scripts** : évitez si possible d’utiliser des instructions SQL. Utilisez des fonctions paramétrables plutôt que la concaténation de chaîne et évitez toute injection SQL en ajoutant les fonctions SQL à utiliser à la liste autorisée.
+* **Scripts** : évitez si possible d&#39;utiliser des instructions SQL. Utilisez des fonctions paramétrables plutôt que la concaténation de chaîne et évitez toute injection SQL en ajoutant les fonctions SQL à utiliser à la liste autorisée.
 
 * **Sécurisation du modèle de données** : utilisez des droits nommés pour limiter les actions des opérateurs et ajoutez des filtres système (sysFilter).
 
@@ -56,7 +58,7 @@ Lorsque vous effectuez des tâches de développement dans Adobe Campaign (workfl
 
 [En savoir plus](../../installation/using/scripting-coding-guidelines.md)
 
-## Réseau, base de données et SSL/TLS
+## Réseau, base de données et SSL/TLS
 
 <img src="assets/do-not-localize/icon_network.svg" width="60px">
 
@@ -90,7 +92,7 @@ La configuration doit être effectuée sur tous les serveurs. Les fichiers de co
 
 Plusieurs bonnes pratiques doivent être suivies lors de la configuration de votre serveur web (Apache/IIS) :
 
-* Désactivez l’ancienne version de SSL et les chiffrements.
+* Désactivez l’ancienne version de SSL et les chiffrements.
 * Supprimez la méthode TRACE.
 * Supprimez la bannière.
 * Limitez la taille des requêtes pour empêcher le téléchargement de fichiers volumineux.

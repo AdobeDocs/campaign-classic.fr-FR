@@ -6,8 +6,8 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 100%
 
@@ -15,15 +15,17 @@ ht-degree: 100%
 
 # Définir l&#39;enchaînement des pages des formulaires web{#defining-web-forms-page-sequencing}
 
+![](../../assets/common.svg)
+
 Le formulaire peut contenir une ou plusieurs pages. Il est créé à l’aide d’un diagramme qui vous permet de séquencer les pages, les tests, l’exécution de scripts, le saut de page et l’enregistrement des étapes. Le mode de conception de diagramme global est identique à celui d’un workflow Campaign.
 
-## A propos des pages précédente et suivante {#about-previous-page-and-next-page}
+## À propos des pages précédente et suivante {#about-previous-page-and-next-page}
 
 Pour chaque page, il est possible de supprimer les boutons **[!UICONTROL Suivant]** ou **[!UICONTROL Précédent]**. Pour cela, sélectionnez la page concernée et cochez l&#39;option **[!UICONTROL Ne pas autoriser le passage à la page suivante]** ou **[!UICONTROL Ne pas autoriser le retour à la page précédente]** .
 
 ![](assets/s_ncs_admin_survey_no_next_page.png)
 
-Vous pouvez remplacer ces boutons par des liens. Voir la section [Insérer du contenu HTML](static-elements-in-a-web-form.md#inserting-html-content).
+Vous pouvez remplacer ces boutons par des liens. Pour plus d&#39;informations, consultez la section [Insérer du contenu HTML](static-elements-in-a-web-form.md#inserting-html-content).
 
 ## Insérer un saut {#inserting-a-jump}
 
@@ -107,7 +109,7 @@ Définissez ensuite l&#39;enchaînement des pages lorsque l&#39;une ou l&#39;aut
 
 ### Affichage en fonction des paramètres {#display-based-on-parameters}
 
-Vous pouvez également personnaliser l&#39;enchaînement des pages en fonction des paramètres d&#39;initialisation du formulaire web ou en fonction de valeurs stockées en base. Voir la section [Paramètres d&#39;URL de formulaire](defining-web-forms-properties.md#form-url-parameters).
+Vous pouvez également personnaliser l&#39;enchaînement des pages en fonction des paramètres d&#39;initialisation du formulaire web ou en fonction de valeurs stockées en base. Pour plus d&#39;informations, consultez la section [Paramètres d&#39;URL de formulaire](defining-web-forms-properties.md#form-url-parameters).
 
 ## Ajouter des scripts {#adding-scripts}
 

@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 100%
 
 ---
 
 # Résolution des problèmes de délivrabilité{#deliverability-faq}
+
+![](../../assets/common.svg)
 
 Vous rencontrez un problème de délivrabilité ? La solution se trouve peut-être ici.
 
@@ -35,7 +37,7 @@ Pour en savoir plus à propos de la configuration des MX, voir [cette section](.
 
 **Pourquoi ai-je toujours le même message d’erreur pour un FAI particulier ?**
 
-Si vous recevez toujours le même message d’erreur pour un FAI, il se peut que vous rencontriez des problèmes de réputation liés à votre adresse IP ou votre adresse d’expéditeur. Appliquez les recommandations suivantes :
+Si vous recevez toujours le même message d&#39;erreur pour un FAI, il se peut que vous rencontriez des problèmes de réputation liés à votre adresse IP ou votre adresse d&#39;expéditeur. Appliquez les recommandations suivantes :
 * Vérifiez si vous recevez un fort pourcentage d’échecs liés à des adresses email inexistantes (échecs de type **Utilisateur inconnu**)
 * Mettez à jour vos formulaires d’abonnement pour détecter d’éventuelles erreurs sur la saisie des noms de domaine (par exemple, gmaul.com ou yaho.com)
 * Si vous constatez des erreurs indiquant que vos messages sont déclarés en spam, ou que vos messages sont constamment bloqués, essayez d’exclure de la cible les destinataires qui n’ont pas ouvert ou cliqué dans l’un de vos messages dans les 12 mois précédents.
@@ -67,14 +69,14 @@ Si le problème persiste, contactez les services commerciaux, les services charg
 
 * **Comment puis-je savoir si l&#39;une de mes adresses IP est sur une liste bloquée ? Comment supprimer mes adresses IP d’une liste bloquée ?**
 
-   Pour vérifier si votre adresse IP se trouve sur une liste bloquée, vous pouvez utiliser différents sites web, tels que :
+   Pour vérifier si votre adresse IP se trouve sur une liste bloquée, vous pouvez utiliser différents sites web, tels que :
    * [MX Toolbox](https://mxtoolbox.com/)
-   * [Quelle est mon adresse IP ?](https://whatismyipaddress.com)
+   * [Quelle est mon adresse IP ?](https://whatismyipaddress.com)
 
-   En général, la vérification d&#39;une adresse IP renvoie une liste contenant les détails de la liste bloquée et le nom du site web qui a bloqué l&#39;adresse IP.
+   En général, la vérification d&#39;une adresse IP renvoie une liste contenant les détails de la liste bloquée et le nom du site web qui a bloqué l&#39;adresse IP.
 
-   En cliquant sur le lien correspondant, vous pouvez accéder aux détails du site web. Vous pouvez ensuite demander que votre adresse IP soit supprimée du site web qui l’a mise en liste bloquée.
+   En cliquant sur le lien correspondant, vous pouvez accéder aux détails du site web. Vous pouvez ensuite demander que votre adresse IP soit supprimée du site web qui l’a mise en liste bloquée.
 
    >[!NOTE]
    >
-   >Le processus peut varier selon le site web. Certains sites requièrent la création d’un compte alors que d’autres demandent uniquement que vous fournissiez l’adresse IP.
+   >Le processus peut varier selon le site web. Certains sites requièrent la création d&#39;un compte alors que d&#39;autres demandent uniquement que vous fournissiez l&#39;adresse IP.

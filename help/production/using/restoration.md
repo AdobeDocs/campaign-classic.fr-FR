@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: ba4db1af-778c-4c34-9a3c-49f41faa49b5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 100%
 
 ---
 
 # Restauration{#restoration}
+
+![](../../assets/v7-only.svg)
 
 La procédure de restauration sur un serveur vierge est la suivante :
 

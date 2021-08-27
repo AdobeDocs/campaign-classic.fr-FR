@@ -1,12 +1,12 @@
 ---
-keywords: Campaign Standard;accueil;sujets populaires
+keywords: Campaign Classic;accueil;thèmes populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 8a0535180640c63201d1a59539eac8c91a53cb8b
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 96%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 100%
 
 * **[La version de juin est publiée.](rn/using/latest-release.md)**<br/> Découvrez les nouvelles fonctionnalités, améliorations et correctifs dans les notes de mise à jour
 
-* **[FAQ sur la protection de la confidentialité d&#39;Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=fr)**<br/> Trouvez des conseils initiaux en réponse à l&#39;annonce d&#39;Apple concernant iOS 15
+* **[FAQ sur la protection de la confidentialité d&#39;Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/using/apple-mail-privacy-faq.html)**<br/> Trouvez des conseils initiaux en réponse à l&#39;annonce d&#39;Apple concernant iOS 15
 
-* **[Vous vous connectez via IMS/Adobe ID ? Effectuez une mise à niveau vers les derniers builds](technotes/ims-updates.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter après le** 30 juin 2021 **
+* **[Mise à niveau vers les derniers builds  (connexion via IMS/Adobe ID)](technotes/using/ims-updates.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter après le** 30 juin 2021 **
 
 * **[Suppression des erreurs hard incorrectes](delivery/using/update-bounce-qualification.md)**<br/> Découvrez comment mettre à jour les erreurs hard incorrectes après une panne d’Apple.
 
-* **[Sécurisation de vos instances Campaign](technotes/acc-config-updates.md)**<br/> Effectuez une mise à jour vers les derniers builds pour sécuriser votre plateforme Campaign
+* **[Sécurisation des instances Campaign](technotes/using/acc-config-updates.md)**<br/> Effectuez une mise à jour vers les derniers builds pour sécuriser votre plateforme Campaign
 
-* **[Mise à jour de l’intégration d&#39;Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)**<br/> Le service d’authentification historique d’oAuth a atteint la fin de vie. Découvrez comment migrer vers Adobe I/O..
+* **[Mise à jour de l’intégration d&#39;Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)**<br/> Le service d’authentification historique d’oAuth a atteint la fin de vie. Découvrez comment migrer vers Adobe I/O.
 
 [Autres mises à jour](/help/rn/using/documentation-updates.md)
 
@@ -44,7 +44,7 @@ ht-degree: 100%
     </a>
     </div>
     <p>
-    <em>Trouver des réponses aux questions courantes lors de l'utilisation de Campaign Classic</em>
+    <em>Trouvez des réponses aux questions courantes lors de l'utilisation de Campaign Classic</em>
     <p>
   </td>
    <td>
@@ -53,7 +53,7 @@ ht-degree: 100%
     </a>
     <div>
       <a href="production/using/build-upgrade.md">
-    <strong>Upgrade à la version de build la plus récente</strong>
+    <strong>Installez la version de build la plus récente</strong>
     </a>
     </div>
     <p>
@@ -70,7 +70,7 @@ ht-degree: 100%
     </a>
     </div>
     <p>
-    <em>Concevoir et envoyer des notifications push personnalisées sur les appareils mobiles</em>
+    <em>Concevez et envoyez des notifications push personnalisées sur les appareils mobiles</em>
     <p>
   </td>
 </tr>

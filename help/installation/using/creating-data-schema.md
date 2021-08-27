@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 
 ---
 
 # Créer le schéma des données {#creating-the-data-schema}
+
+![](../../assets/v7-only.svg)
 
 Pour créer un schéma sur une base de données externe :
 
@@ -25,7 +27,7 @@ Pour créer un schéma sur une base de données externe :
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. Cliquez sur **[!UICONTROL OK]** pour valider. Adobe Campaign détecte automatiquement la structure de la table sélectionnée et génère le schéma logique. Veuillez noter qu’Adobe Campaign ne génère pas de liens.
+1. Cliquez sur **[!UICONTROL OK]** pour valider. Adobe Campaign détecte automatiquement la structure de la table sélectionnée et génère le schéma logique. Veuillez noter qu&#39;Adobe Campaign ne génère pas de liens.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour en valider la création.
 

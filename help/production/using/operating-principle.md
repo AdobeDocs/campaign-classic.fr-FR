@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
 ---
 
 # Principe de fonctionnement{#operating-principle}
+
+![](../../assets/v7-only.svg)
 
 La plateforme Adobe Campaign repose techniquement sur plusieurs modules.
 

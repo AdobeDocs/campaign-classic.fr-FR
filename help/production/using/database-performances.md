@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 100%
 
 ---
 
-# Performances de la base{#database-performances}
+# Performances de la base de données{#database-performances}
+
+![](../../assets/v7-only.svg)
 
 La plupart des problèmes de performance sont liés à l&#39;entretien de la base de données. Nous vous proposons quatre axes de recherche pour vous aider à en trouver les causes :
 
@@ -70,8 +72,8 @@ Vous devez vérifier le nombre et la taille des tables de travail. Lorsqu&#39;el
 
 Selon les paramètres d&#39;installation d&#39;Adobe Campaign, vous avez deux outils à votre disposition pour effectuer le suivi de votre plateforme :
 
-* La page de production de l&#39;instance. Voir à ce propos la section [Surveillance manuelle](../../production/using/monitoring-processes.md#manual-monitoring).
-* Le script *netreport*. Voir à ce propos la section [Surveillance automatique via les scripts d&#39;Adobe Campaign](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
+* La page de production de l&#39;instance. Pour plus d&#39;informations, consultez la section [Surveillance manuelle](../../production/using/monitoring-processes.md#manual-monitoring).
+* Le script *netreport*. Pour plus d&#39;informations, consultez la section [Surveillance automatique via les scripts d&#39;Adobe Campaign](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
 
 ## Cas particuliers {#specifics}
 

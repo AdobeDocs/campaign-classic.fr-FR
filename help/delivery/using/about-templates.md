@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos des modèles
-description: A propos des modèles
+title: À propos des modèles
+description: À propos des modèles
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
 
 ---
 
-# A propos des modèles{#about-templates}
+# À propos des modèles{#about-templates}
+
+![](../../assets/common.svg)
 
 Le paramétrage d&#39;une diffusion peut être sauvegardé dans un modèle de diffusion afin d&#39;être réutilisé. Le modèle peut contenir un paramétrage complet ou partiel de la diffusion.
 

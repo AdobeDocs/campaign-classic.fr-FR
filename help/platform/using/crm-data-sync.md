@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1615'
 ht-degree: 97%
@@ -14,6 +14,8 @@ ht-degree: 97%
 ---
 
 # Synchroniser les données entre Campaign et le CRM {#data-synchronization}
+
+![](../../assets/common.svg)
 
 La synchronisation des données entre Adobe Campaign et la gestion de la relation client (CRM) est réalisée à travers une activité de workflow dédiée : [connecteur CRM](../../workflow/using/crm-connector.md).
 
@@ -251,4 +253,3 @@ L&#39;onglet **[!UICONTROL Comportement]** vous permet d&#39;activer le traiteme
 >[!NOTE]
 >
 >Même lorsque l&#39;option **[!UICONTROL Traiter les rejets]** n&#39;est pas activée, un avertissement est généré pour chaque colonne rejetée.
-

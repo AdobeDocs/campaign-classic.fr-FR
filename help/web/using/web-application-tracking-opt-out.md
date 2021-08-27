@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
 
 ---
 
 # Désinscription (opt-out) du tracking des applications web{#web-application-tracking-opt-out}
+
+![](../../assets/common.svg)
 
 Adobe Campaign vous permet d&#39;interrompre le tracking des comportements web des utilisateurs finaux qui se sont désinscrits (opt-out) du tracking comportemental via des cookies ou des balises web. Elle offre la possibilité d&#39;afficher une bannière afin de proposer cette option à l&#39;utilisateur final. Ces bannières peuvent être ajoutées à des applications web ou des landing pages.
 
@@ -33,7 +35,7 @@ Adobe Campaign contient un exemple de bannière que vous devez adapter à vos be
 >
 >Pour créer votre propre bannière, vous devez personnaliser la bannière d&#39;usine.
 
-Pour activer la bannière, vous devez configurer les propriétés de l&#39;application web. Voir la section [Concevoir une application web](designing-a-web-application.md).
+Pour activer la bannière, vous devez configurer les propriétés de l&#39;application web. Pour plus d&#39;informations, consultez la section [Concevoir une application web](designing-a-web-application.md).
 
 Si le tracking web est activé, vous pouvez sélectionner l&#39;une des options suivantes :
 

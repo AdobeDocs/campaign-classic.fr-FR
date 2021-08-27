@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
 ---
 
 # Résolution des problèmes liés à ACS Connector{#troubleshooting-the-acs-connector}
+
+![](../../assets/v7-only.svg)
 
 Selon votre mise en œuvre, vous pouvez rencontrer quelques problèmes courants.
 

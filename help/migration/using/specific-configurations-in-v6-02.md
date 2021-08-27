@@ -6,14 +6,16 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7e8f8488-f3ef-4b64-9981-335d67caf372
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 
 ---
 
 # Paramétrages spécifiques v6.02{#specific-configurations-in-v6-02}
+
+![](../../assets/v7-only.svg)
 
 La section suivante décrit le paramétrage supplémentaire à effectuer lorsque vous migrez depuis une v6.02. Vous devez également effectuer le paramétrage décrit dans la section [Paramétrages généraux](../../migration/using/general-configurations.md).
 
@@ -37,7 +39,7 @@ Nlserver javascript -instance:[instance_name] -file [installation_path]/datakit/
 
 Si vous aviez modifié ces applications web et souhaitez continuer à les utiliser en v7, vous devez activer l&#39;option **allowSQLInjection** dans vos différentes zones de sécurité et relancer le postupgrade. Consultez la section [SQLData](../../migration/using/general-configurations.md#sqldata) pour en savoir plus.
 
-## Ergonomie : page d’accueil et navigation{#user-friendliness--home-page-and-navigation}
+## Ergonomie : page d’accueil et navigation {#user-friendliness--home-page-and-navigation}
 
 >[!IMPORTANT]
 >

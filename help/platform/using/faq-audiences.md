@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: FAQ sur les profils et audiences
-description: FAQ sur Campaign Classic
+description: FAQ Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ba8bf610-cbac-41e9-8b6e-130deb8b97e2
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # FAQ sur les profils et audiences {#audiences-faq}
+
+![](../../assets/common.svg)
 
 Découvrez comment cibler une population et gérer les audiences dans Adobe Campaign.
 

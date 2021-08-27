@@ -6,8 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%
 
@@ -16,7 +16,9 @@ ht-degree: 100%
 
 # Définir des zones de sécurité (On-Premise){#defining-security-zones}
 
-Chaque opérateur doit être associé à une zone pour se connecter à une instance et l’adresse IP de l’opérateur doit faire partie des adresses ou des plages d’adresses définies dans la zone de sécurité. La configuration des zones de sécurité est effectuée dans le fichier de configuration du serveur Adobe Campaign.
+![](../../assets/v7-only.svg)
+
+Chaque opérateur doit être associé à une zone pour se connecter à une instance et l’adresse IP de l’opérateur doit faire partie des adresses ou des plages d’adresses définies dans la zone de sécurité. La configuration des zones de sécurité est effectuée dans le fichier de configuration du serveur Adobe Campaign.
 
 Un opérateur est lié à une zone de sécurité à partir de son profil dans la console, accessible dans le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**. [En savoir plus](#linking-a-security-zone-to-an-operator).
 
@@ -24,10 +26,9 @@ Un opérateur est lié à une zone de sécurité à partir de son profil dans la
 >
 >Cette procédure est limitée aux déploiements **On-Premise**.
 >
->En tant que client **hébergé**, si vous pouvez accéder au [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr), vous pouvez utiliser l’interface en libre-service de la zone de sécurité. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr)
+>En tant que client **hébergé**, si vous pouvez accéder au [panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr), vous pouvez utiliser l’interface en libre-service de la zone de sécurité. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr)
 >
->Les autres clients **hybrides/hébergés** doivent contacter l’équipe d’assistance d’Adobe pour ajouter une adresse IP à la liste autorisée.
-
+>Les autres clients **hybrides/hébergés** doivent contacter l’équipe d’assistance d’Adobe pour ajouter une adresse IP à la liste autorisée.
 
 ## Création de zones de sécurité {#creating-security-zones}
 
@@ -50,8 +51,8 @@ Chaque zone définit des droits, comme par exemple :
 
 >[!NOTE]
 >
->**Chaque opérateur doit être associé à une zone.** Si l&#39;adresse IP de l&#39;opérateur appartient à la plage définie par la zone, l&#39;opérateur peut donc se connecter à l&#39;instance.\
->Il se peut que l&#39;adresse IP de l&#39;opérateur soit définie dans plusieurs zones. Dans ce cas, l&#39;opérateur reçoit **l&#39;union** des droits disponibles pour chacune des zones.
+>**Chaque opérateur doit être associé à une zone.** Si l&#39;adresse IP de l&#39;opérateur appartient à la plage définie par la zone, l&#39;opérateur peut donc se connecter à l&#39;instance.\
+>Il se peut que l&#39;adresse IP de l&#39;opérateur soit définie dans plusieurs zones. Dans ce cas, l&#39;opérateur reçoit **l&#39;union** des droits disponibles pour chacune des zones.
 
 Le fichier **serverConf.xml** livré d&#39;usine contient trois zones : **public, vpn et lan**.
 
@@ -100,7 +101,7 @@ Dans le cas de Message Center, quand il y a plusieurs instances d&#39;exécution
 
 ## Bonnes pratiques pour les zones de sécurité {#best-practices-for-security-zones}
 
-Dans la définition de la zone de sécurité **lan**, il est possible de rajouter un masque d&#39;adresse IP définissant un accès technique. Cet ajout permettra d&#39;accéder à toutes les instances hébergées sur le serveur.
+Dans la définition de la zone de sécurité **lan**, il est possible de rajouter un masque d&#39;adresse IP définissant un accès technique. Cet ajout permettra d&#39;accéder à toutes les instances hébergées sur le serveur.
 
 ```
 <securityZone allowDebug="true" allowEmptyPassword="false" allowHTTP="true"
@@ -138,9 +139,9 @@ Lorsqu&#39;un proxy est référencé et qu&#39;une connexion entre via ce proxy 
 
 >[!IMPORTANT]
 >
->Si un proxy est configuré et qu&#39;il est possible de passer outre ce dernier (ou s&#39;il n&#39;existe pas), l&#39;adresse IP qui sera testée pourra être falsifiée.
+>Si un proxy est configuré et qu&#39;il est possible de passer outre ce dernier (ou s&#39;il n&#39;existe pas), l&#39;adresse IP qui sera testée pourra être falsifiée.
 >
->De plus, les relais sont désormais gérés comme des proxys. Vous devez donc ajouter l&#39;adresse IP 127.0.0.1 à la liste des proxys dans votre paramétrage des zones de sécurité.
+>De plus, les relais sont désormais gérés comme des proxys. Vous devez donc ajouter l&#39;adresse IP 127.0.0.1 à la liste des proxys dans votre paramétrage des zones de sécurité.
 >
 >Par exemple: &quot; `<subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />`&quot;.
 
@@ -158,7 +159,7 @@ Plusieurs cas peuvent exister :
 
    ![](assets/8101_proxy3.png)
 
-Les adresses IP des serveurs proxy susceptibles d’accéder au serveur Adobe Campaign doivent être saisies dans le sous-réseau **`<subnetwork>`** concerné et le sous-réseau de premier niveau **`<subnetwork name="all"/>`**. Par exemple, ici pour un proxy dont l’adresse IP est 10.131.146.102 :
+Les adresses IP des serveurs proxy susceptibles d’accéder au serveur Adobe Campaign doivent être saisies dans le sous-réseau **`<subnetwork>`** concerné et le sous-réseau de premier niveau **`<subnetwork name="all"/>`**. Par exemple, ici pour un proxy dont l’adresse IP est 10.131.146.102 :
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" label="Public Network" 
@@ -183,7 +184,7 @@ Les adresses IP des serveurs proxy susceptibles d’accéder au serveur Adobe Ca
 
 ## Liaison d’une zone de sécurité à un opérateur {#linking-a-security-zone-to-an-operator}
 
-Une fois les zones définies, chaque opérateur doit être associé à l&#39;une d&#39;entre elles pour pouvoir se connecter à une instance et l&#39;adresse IP de l&#39;opérateur doit faire partie des adresses ou des plages d&#39;adresses référencées dans la zone.
+Une fois les zones définies, chaque opérateur doit être associé à l&#39;une d&#39;entre elles pour pouvoir se connecter à une instance et l&#39;adresse IP de l&#39;opérateur doit faire partie des adresses ou des plages d&#39;adresses référencées dans la zone.
 
 La configuration technique des zones est effectuée dans le fichier de configuration du serveur Campaign : **serverConf.xml**.
 
@@ -221,7 +222,7 @@ Une fois les zones définies et l&#39;énumération **[!UICONTROL Zone de sécur
 
 ## Recommandations
 
-* Assurez-vous que le proxy inverse n’est pas autorisé dans subNetwork. Si c’est le cas, l’**ensemble** du trafic est détecté comme provenant de cette adresse IP locale et est donc considéré comme digne de confiance.
+* Assurez-vous que le proxy inverse n’est pas autorisé dans subNetwork. Si c’est le cas, l’**ensemble** du trafic est détecté comme provenant de cette adresse IP locale et est donc considéré comme digne de confiance.
 
 * Limitez l’utilisation de sessionTokenOnly=&quot;true&quot; :
 
@@ -242,7 +243,7 @@ Une fois les zones définies et l&#39;énumération **[!UICONTROL Zone de sécur
 
    * L’attribut **allowUserPassword** permet aux opérateurs d’envoyer leurs identifiants en tant que paramètres (afin qu’ils puissent être connectés par Apache/IIS/un proxy). Cette fonctionnalité était auparavant utilisée pour simplifier l’utilisation de l’API. Vous pouvez vérifier dans votre « livre de recettes » (ou dans les spécifications) si des applications tierces utilisent cet attribut. Si c’est le cas, vous devez demander à ces tiers de changer la façon dont ils utilisent notre API et supprimer cette fonctionnalité dès que possible.
 
-   * L’attribut **allowSQLInjection** permet à l’utilisateur d’effectuer des injections SQL en utilisant une ancienne syntaxe. Dès que possible, effectuez les corrections décrites dans [cette page](../../migration/using/general-configurations.md) pour pouvoir définir cet attribut sur false. Vous pouvez utiliser /nl/jsp/ping.jsp?zones=true pour vérifier la configuration de votre zone de sécurité. Cette page affiche le statut actif des mesures de sécurité (calculé avec ces flags de sécurité) pour l’adresse IP actuelle.
+   * L’attribut **allowSQLInjection** permet à l’utilisateur d’effectuer des injections SQL en utilisant une ancienne syntaxe. Dès que possible, effectuez les corrections décrites dans [cette page](../../migration/using/general-configurations.md) pour pouvoir définir cet attribut sur false. Vous pouvez utiliser /nl/jsp/ping.jsp?zones=true pour vérifier la configuration de votre zone de sécurité. Cette page affiche le statut actif des mesures de sécurité (calculé avec ces flags de sécurité) pour l’adresse IP actuelle.
 
 * Cookie HttpOnly/useSecurityToken : reportez-vous au flag **sessionTokenOnly**.
 

@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 100%
 
 ---
 
 # Rapports sur les diffusions {#delivery-reports}
+
+![](../../assets/common.svg)
 
 Vous pouvez suivre l&#39;exécution des diffusions à l&#39;aide de différents rapports, accessibles depuis la vue d&#39;ensemble des diffusions. Pour les afficher, respectez les étapes suivantes :
 
@@ -40,7 +42,7 @@ Vous pouvez suivre l&#39;exécution des diffusions à l&#39;aide de différents 
    * **[!UICONTROL Synthèse des diffusions]** : voir [Synthèse des diffusions](#delivery-summary).
    * **[!UICONTROL Suivi des abonnements]** : voir [Suivi des abonnements](../../reporting/using/global-reports.md#subscription-tracking).
    * **[!UICONTROL Statistiques de diffusion]** : voir [Statistiques de diffusion](../../reporting/using/global-reports.md#delivery-statistics).
-   * **[!UICONTROL Répartition des ouvertures]** : voir [Répartition des ouvertures](../../reporting/using/global-reports.md#breakdown-of-opens).
+   * **[!UICONTROL Répartition des ouvertures]** : voir [Répartition des ouvertures](../../reporting/using/global-reports.md#breakdown-of-opens).
 
 ## Indicateurs de tracking {#tracking-indicators}
 
@@ -116,9 +118,9 @@ Ce tableau de valeurs présente la répartition, par domaine Internet, des envoi
 
 Cette section indique le nombre de messages partagés sur chaque réseau social. Voir à ce sujet la section [Partage vers les réseaux](../../reporting/using/global-reports.md#sharing-to-social-networks).
 
-## URL et flux de clics (URLs and click streams){#urls-and-click-streams}
+## URL et flux de clics {#urls-and-click-streams}
 
-Ce rapport présente le palmarès des pages visitées suite au lancement d&#39;une diffusion.
+Ce rapport présente la liste des pages visitées suite au lancement d&#39;une diffusion.
 
 ![](assets/s_ncs_user_url_report.png)
 
@@ -146,7 +148,7 @@ Le tableau central propose les informations suivantes :
 
 Ce graphique présente la répartition des clics cumulés, par jour.
 
-## Synthèse des diffusions (Delivery summary){#delivery-summary}
+## Synthèse des diffusions {#delivery-summary}
 
 Ce rapport présente l&#39;ensemble des informations principales relatives à la diffusion.
 

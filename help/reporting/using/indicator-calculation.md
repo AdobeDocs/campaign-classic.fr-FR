@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '3021'
 ht-degree: 100%
 
 ---
 
 # Calcul des indicateurs {#indicator-calculation}
+
+![](../../assets/common.svg)
 
 ## Activités utilisateurs {#user-activities-1}
 
@@ -50,7 +52,7 @@ ht-degree: 100%
 
 Ce rapport se base sur la table **[!UICONTROL Tracking consolidé]** (nms:trackingStats). Cette table d&#39;agrégats est utilisée pour des raisons de performance lors de l&#39;affichage des rapports, à la place de la table **[!UICONTROL Logs de tracking des destinaires]** (nms:trackingLogRcp) et n&#39;est pas calculée en temps réel. La table est générée quelques minutes après la remontée des logs de tracking. Si les indicateurs sont à jour, les résultats seront les mêmes que pour les indicateurs du rapport **Indicateurs de tracking**. L&#39;indicateur @totalclicks correspond à la somme des clics sur une période de 5 minutes.
 
-## Echecs et retours {#non-deliverables-and-bounces-1}
+## Échecs et bounces {#non-deliverables-and-bounces-1}
 
 **Ventilation par type d&#39;erreur**
 
@@ -375,7 +377,7 @@ Ce rapport se base sur les tables **[!UICONTROL Diffusion]** (nms:delivery), **[
  </tbody> 
 </table>
 
-## Systèmes d&#39;exploitation {#operating-systems-1}
+## Systèmes d’exploitation {#operating-systems-1}
 
 Ce rapport se base sur la table **[!UICONTROL Statistiques Navigateurs internet]** (nms:userAgentsStats).
 
@@ -689,7 +691,7 @@ Ce rapport se base sur les tables **[!UICONTROL Statistiques d&#39;envoi et de t
  </tbody> 
 </table>
 
-## URL et flux de clics (URLs and click streams){#urls-and-click-streams-1}
+## URL et flux de clics {#urls-and-click-streams-1}
 
 Ce rapport se base sur la table **[!UICONTROL Diffusion]** (nms:delivery).
 
@@ -736,7 +738,7 @@ Ce rapport se base sur la table **[!UICONTROL Diffusion]** (nms:delivery).
  </tbody> 
 </table>
 
-## Synthèse des diffusions (Delivery summary){#delivery-summary-1}
+## Synthèse des diffusions {#delivery-summary-1}
 
 Ce rapport se base sur la table **[!UICONTROL Diffusion]** (nms:delivery).
 

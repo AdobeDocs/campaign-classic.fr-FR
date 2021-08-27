@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
 ---
 
 # Résolution des problèmes de production{#troubleshooting}
+
+![](../../assets/v7-only.svg)
 
 Cette section contient des procédures de résolution des problèmes relatives aux problèmes généraux de production dans Adobe Campaign, tels que l&#39;exécution des diffusions et des workflows, la surveillance, la maintenance des bases de données, la connexion, etc.
 

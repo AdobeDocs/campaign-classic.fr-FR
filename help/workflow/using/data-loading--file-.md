@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 100%
 
 ---
 
 # Chargement (fichier){#data-loading-file}
+
+![](../../assets/common.svg)
 
 ## Utilisation {#use}
 
@@ -25,7 +27,7 @@ La section supérieure de la fenêtre de configuration de cette activité permet
 
 >[!CAUTION]
 >
->Seuls les fichiers à structure &quot;plate&quot; sont pris en charge (ex : CSV, TXT, etc.). L&#39;utilisation du format XML est déconseillée.
+>Seuls les fichiers à structure &quot;plate&quot; sont pris en charge (ex : CSV, TXT, etc.). L&#39;utilisation du format XML est déconseillée.
 
 ![](assets/s_advuser_wf_etl_file.png)
 
@@ -88,7 +90,7 @@ L&#39;exemple suivant permet de collecter tous les jours un fichier sur le serve
 
    L&#39;onglet **[!UICONTROL Répertoire]** contient les informations relatives au(x) fichier(s) à récupérer. Dans notre exemple, tous les fichiers au format texte, dont le nom contient le mot &#39;clients&#39; et stockés dans le répertoire tmp/Adobe/Data/files du serveur seront récupérés.
 
-   L’utilisation du **[!UICONTROL Collecteur de fichiers]** est détaillée dans la section [Collecteur de fichiers](../../workflow/using/file-collector.md).
+   L’utilisation du **[!UICONTROL Collecteur de fichiers]** est détaillée dans la section [Collecteur de fichiers](file-collector.md).
 
    ![](assets/s_advuser_load_file_sample_1.png)
 
@@ -100,7 +102,7 @@ L&#39;exemple suivant permet de collecter tous les jours un fichier sur le serve
 
    Pour cela, cliquez sur le bouton **[!UICONTROL Changer...]** situé dans la section inférieure droite de l&#39;éditeur et paramétrez le planning.
 
-   Voir à ce propos la section [Planificateur](../../workflow/using/scheduler.md).
+   Pour plus d&#39;informations, consultez la section [Planificateur](scheduler.md).
 
 1. Paramétrez ensuite l&#39;activité de chargement de fichier afin d&#39;indiquer comment le ou les fichiers collectés doivent être lus. Sélectionnez pour cela un fichier exemple dont la structure est la même que les fichiers à charger.
 
@@ -129,4 +131,4 @@ L&#39;exemple suivant permet de collecter tous les jours un fichier sur le serve
 
 1. Indiquez ensuite les traitements à effectuer pour chaque type de population. Dans notre exemple, nous allons mettre à jour les données de la base. Pour cela, positionnez une activité **[!UICONTROL Mise à jour de données]** à l&#39;extrémité de chaque transition sortante de l&#39;activité de **[!UICONTROL Partage]**.
 
-   L&#39;activité de **[!UICONTROL Mise à jour de données]** est présentée dans la section [Mise à jour de données](../../workflow/using/update-data.md).
+   L&#39;activité de **[!UICONTROL Mise à jour de données]** est présentée dans la section [Mise à jour de données](update-data.md).

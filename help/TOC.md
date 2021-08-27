@@ -7,9 +7,9 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a54a6f9b8afedf8a200b80b027f908163faebeaa
+source-git-commit: a066eedd2ba7848f6dcefcb1476a0b834cb1d49a
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2522'
 ht-degree: 99%
 
 ---
@@ -29,19 +29,19 @@ ht-degree: 99%
    + Versions précédentes {#previous-releases}
       + [Version 20.3](rn/using/release--20-3.md)
       + [Version 20.2](rn/using/release--20-2.md)
-      + [Version 20.1](rn/using/release--20-1.md)
+      + [Version 20.1](rn/using/release--20-1.md)
       + [Version 19.2](rn/using/release--19-2.md)
-      + [Version 19.1](rn/using/release--19-1.md)
+      + [Version 19.1](rn/using/release--19-1.md)
       + [Version 18.10](rn/using/release--18-10.md)
       + [Version 18.6](rn/using/release--18-6.md)
       + [Version 18.4](rn/using/release--18-4.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
    + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
-   + [Notes techniques](technotes/technote.md)
-   + [Mise à jour du certificat iOS](technotes/ios-certificate-update.md)
-   + [Mises à jour de la configuration de Campaign](technotes/acc-config-updates.md)
-   + [Mise à jour des URL trackées](technotes/tracked-urls.md)
-   + [Mises à jour de l&#39;IMS](technotes/ims-updates.md)
+   + [Notes techniques](technotes/using/technote.md)
+   + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
+   + [Mises à jour de la configuration de Campaign](technotes/using/acc-config-updates.md)
+   + [Mise à jour des URL trackées](technotes/using/tracked-urls.md)
+   + [Mises à jour de l&#39;IMS](technotes/using/ims-updates.md)
 + Prise en main {#getting-started}
    + Prise en main d’Adobe Campaign {#starting-with-adobe-campaign}
       + [Prise en main d’Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -118,7 +118,7 @@ ht-degree: 99%
          + [Synchronisation des données avec le CRM](platform/using/crm-data-sync.md)
       + Connecteur Adobe Analytics{#analytics-connector}
          + [Intégration d’Adobe Analytics Connector](platform/using/adobe-analytics-connector.md)
-         + [Comment migrer vers le connecteur Adobe Analytics](technotes/aa-connector-migration.md)
+         + [Comment migrer vers le connecteur Adobe Analytics](technotes/using/aa-connector-migration.md)
          + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
    + [Options d’aide et de support](support.md)
 + Création et envoi de messages {#sending-messages}
@@ -169,7 +169,7 @@ ht-degree: 99%
          + [Création d&#39;un message push pour Android](delivery/using/create-notifications-android.md)
       + [Résolution des problèmes](delivery/using/troubleshooting.md)
    + Envoi d’un courrier {#sending-direct-mail}
-      + [A propos du canal Courrier](delivery/using/about-direct-mail-channel.md)
+      + [À propos du canal Courrier](delivery/using/about-direct-mail-channel.md)
       + [Création d’une diffusion courrier](delivery/using/creating-a-direct-mail-delivery.md)
       + [Définir le contenu du courrier](delivery/using/defining-the-direct-mail-content.md)
       + [Validation](delivery/using/validating.md)
@@ -179,7 +179,7 @@ ht-degree: 99%
       + [Sélection d’un mapping de ciblage](delivery/using/selecting-a-target-mapping.md)
       + [Création d’une diffusion depuis un modèle](delivery/using/creating-a-delivery-from-a-template.md)
    + Personnalisation des diffusions {#personalizing-deliveries}
-      + [A propos de la personnalisation](delivery/using/about-personalization.md)
+      + [À propos de la personnalisation](delivery/using/about-personalization.md)
       + [Champs de personnalisation](delivery/using/personalization-fields.md)
       + [Blocs de personnalisation](delivery/using/personalization-blocks.md)
       + [Contenu conditionnel](delivery/using/conditional-content.md)
@@ -221,7 +221,7 @@ ht-degree: 99%
       + [Mettre à jour la qualification des rebonds après une panne d’un FAI](delivery/using/update-bounce-qualification.md)
       + [Présentation de la gestion des quarantaines](delivery/using/understanding-quarantine-management.md)
    + Suivi des messages {#tracking-messages}
-      + [A propos du tracking des messages](delivery/using/about-message-tracking.md)
+      + [À propos du tracking des messages](delivery/using/about-message-tracking.md)
       + [Comment configurer des liens trackés](delivery/using/how-to-configure-tracked-links.md)
       + Tracking des liens personnalisés {#tracking-personalized-links}
          + [Prise en main du tracking des liens personnalisés](delivery/using/tracking-personalized-links.md)
@@ -239,7 +239,7 @@ ht-degree: 99%
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [Résolution des problèmes](delivery/using/deliverability-faq.md)
    + Module de gestion de contenu {#content-management}
-      + [A propos de la gestion de contenu](delivery/using/about-content-management.md)
+      + [À propos de la gestion de contenu](delivery/using/about-content-management.md)
       + [Ressources et principes de la gestion de contenu](delivery/using/content-manager-resources-and-principles.md)
       + [Cas pratique : utiliser la gestion de contenu](delivery/using/use-case--creating-content-management.md)
       + [Schémas de données](delivery/using/data-schemas.md)
@@ -263,33 +263,33 @@ ht-degree: 99%
       + [Surveillance de vos campagnes](campaign/using/marketing-campaign-monitoring.md)
       + [Prestataires, stocks et budgets](campaign/using/providers--stocks-and-budgets.md)
    + Optimisation des campagnes {#campaign-optimization}
-      + [À propos des typologies de campagne](campaign/using/about-campaign-typologies.md)
-      + [Règles de pression](campaign/using/pressure-rules.md)
-      + [Règles de cohérence](campaign/using/consistency-rules.md)
-      + [Règles de contrôle](campaign/using/control-rules.md)
-      + [Règles de filtrage](campaign/using/filtering-rules.md)
-      + [Application de règles](campaign/using/applying-rules.md)
-      + [Simulation de campagnes](campaign/using/campaign-simulations.md)
+      + [À propos des typologies de campagne](campaign-opt/using/about-campaign-typologies.md)
+      + [Règles de pression](campaign-opt/using/pressure-rules.md)
+      + [Règles de cohérence](campaign-opt/using/consistency-rules.md)
+      + [Règles de contrôle](campaign-opt/using/control-rules.md)
+      + [Règles de filtrage](campaign-opt/using/filtering-rules.md)
+      + [Application de règles](campaign-opt/using/applying-rules.md)
+      + [Simulation de campagnes](campaign-opt/using/campaign-simulations.md)
 + Marketing Resource Management (Gestion des ressources marketing){#mrm}
-   + [A propos de la gestion des ressources marketing](mrm/using/about-marketing-resource-management.md)
+   + [À propos de la gestion des ressources marketing](mrm/using/about-marketing-resource-management.md)
    + [Création et gestion de tâches](mrm/using/creating-and-managing-tasks.md)
    + [Coûts de contrôle](mrm/using/controlling-costs.md)
    + [Gestion des ressources marketing](mrm/using/managing-marketing-resources.md)
    + [Forums de discussion](mrm/using/discussion-forums.md)
 + Marketing distribué {#distributed-marketing}
-   + [A propos du marketing distribué](campaign/using/about-distributed-marketing.md)
-   + [Création d’une campagne locale](campaign/using/creating-a-local-campaign.md)
-   + [Création d’une campagne collaborative](campaign/using/creating-a-collaborative-campaign.md)
-   + [Publication du kit d’opération](campaign/using/publishing-the-campaign-package.md)
-   + [Accès aux campagnes](campaign/using/accessing-campaigns.md)
-   + [Suivi d’une campagne](campaign/using/tracking-a-campaign.md)
-   + [Cas pratiques](campaign/using/examples.md)
+   + [À propos du marketing distribué](distributed/using/about-distributed-marketing.md)
+   + [Création d’une campagne locale](distributed/using/creating-a-local-campaign.md)
+   + [Création d’une campagne collaborative](distributed/using/creating-a-collaborative-campaign.md)
+   + [Publication du kit d’opération](distributed/using/publishing-the-campaign-package.md)
+   + [Accès aux campagnes](distributed/using/accessing-campaigns.md)
+   + [Suivi d’une campagne](distributed/using/tracking-a-campaign.md)
+   + [Cas pratiques](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
-   + [Prise en main de la gestion de la réaction](campaign/using/about-response-manager.md)
-   + [Configuration ](campaign/using/configuration.md)
-   + [Modèles d&#39;hypothèse](campaign/using/hypothesis-templates.md)
-   + [Création d’hypothèses](campaign/using/creating-hypotheses.md)
-   + [Suivi des hypothèses](campaign/using/hypothesis-tracking.md)
+   + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
+   + [Configuration ](response/using/configuration.md)
+   + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
+   + [Création d’hypothèses](response/using/creating-hypotheses.md)
+   + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
 + Conception et partage des rapports {#reporting}
    + Prise en main des rapports {#reporting-in-adobe-campaign}
       + [Outils de reporting](reporting/using/about-adobe-campaign-reporting-tools.md)
@@ -305,7 +305,7 @@ ht-degree: 99%
       + [Calcul des indicateurs](reporting/using/indicator-calculation.md)
       + [Personnes et destinataires](reporting/using/person-people-recipients.md)
    + Analyse des populations {#analyzing-populations}
-      + [A propos de l&#39;analyse descriptive](reporting/using/about-descriptive-analysis.md)
+      + [À propos de l&#39;analyse descriptive](reporting/using/about-descriptive-analysis.md)
       + [Utilisation de l’assistant d’analyse descriptive](reporting/using/using-the-descriptive-analysis-wizard.md)
       + [Paramètres des rapports](reporting/using/processing-a-report.md)
       + [Cas pratiques](reporting/using/use-cases.md)
@@ -543,7 +543,7 @@ ht-degree: 99%
       + [Gestion des modèles d’offre](interaction/using/managing-offer-templates.md)
       + [Gestion de la présentation des offres](interaction/using/managing-offer-presentation.md)
    + Simulation d’offres{#simulating-offers}
-      + [A propos de la simulation des offres](interaction/using/about-offers-simulation.md)
+      + [À propos de la simulation des offres](interaction/using/about-offers-simulation.md)
       + [Paramètres d&#39;exécution](interaction/using/execution-settings.md)
       + [Périmètre de la simulation](interaction/using/simulation-scope.md)
       + [Suivi des simulations](interaction/using/simulation-tracking.md)
@@ -593,7 +593,7 @@ ht-degree: 99%
       + [Temps traitement Message Center](message-center/using/message-center-processing-time.md)
    + [Cas pratique](message-center/using/transactional-email-with-attachments.md)
 + Intégration aux médias sociaux {#integrating-with-social-media}
-   + [A propos du marketing sur les réseaux sociaux](social/using/about-social-marketing.md)
+   + [À propos du marketing sur les réseaux sociaux](social/using/about-social-marketing.md)
    + Configuration {#configuration}
       + [Démarrage des workflows](social/using/starting-workflows.md)
       + [Publication sur les murs Facebook](social/using/publishing-on-facebook-walls.md)
@@ -755,7 +755,7 @@ ht-degree: 99%
          + [Localisation de la version de Tomcat](production/using/locate-tomcat-version.md)
 + Guide des développeurs {#configuring-campaign-classic}
    + Modèle de données {#data-model}
-      + [A propos du modèle de données](configuration/using/about-data-model.md)
+      + [À propos du modèle de données](configuration/using/about-data-model.md)
       + [Description du modèle de données](configuration/using/data-model-description.md)
       + [Bonnes pratiques](configuration/using/data-model-best-practices.md)
    + Référence des schémas {#schema-reference}
@@ -782,7 +782,7 @@ ht-degree: 99%
          + [SysFilter](configuration/using/schema/sysfilter.md)
          + [Valeur](configuration/using/schema/value.md)
    + Edition des schémas {#editing-schemas}
-      + [A propos de l’édition de schéma](configuration/using/about-schema-edition.md)
+      + [À propos de l’édition de schéma](configuration/using/about-schema-edition.md)
       + [Schémas de données](configuration/using/data-schemas.md)
       + [Schéma d&#39;une table existante](configuration/using/schema-of-an-existing-table.md)
       + [Extension d&#39;un schéma](configuration/using/extending-a-schema.md)
@@ -830,7 +830,7 @@ ht-degree: 99%
       + [Tracking anonyme](configuration/using/anonymous-tracking.md)
 + Guide de migration {#migrating-to-a-new-version}
    + Présentation de la migration {#migration-overview}
-      + [A propos de la migration](migration/using/about-migration.md)
+      + [À propos de la migration](migration/using/about-migration.md)
       + [Méthode de migration](migration/using/migration-method.md)
       + [Avertissements relatifs à la migration](migration/using/migration-warnings.md)
    + Procédure de migration {#migration-procedure}

@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 100%
 
 ---
 
 # Référence des schémas {#schema-reference}
+
+![](../../assets/v7-only.svg)
 
 Durant l&#39;édition d&#39;un schéma, un système de validation basé sur le schéma source (xtk:srcSchema) est accessible. Cependant certaines erreurs peuvent être remontées lors de la mise à jour de la base de données via l&#39;assistant &quot;Mise à jour de la structure de la base...&quot;.
 

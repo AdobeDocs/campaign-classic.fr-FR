@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: FAQ sur les tests et les envois
-description: FAQ sur Campaign Classic
+description: FAQ Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Validation, envoi et tracking des messages {#validate-send-track}
+
+![](../../assets/common.svg)
 
 ## Tests et validation {#test-and-validate-before-sending}
 
@@ -52,7 +54,7 @@ Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adob
 
 Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester différentes combinaisons en appliquant des règles de contrainte spécifiques. Elles permettent de s’assurer que les messages envoyés répondent le mieux possible aux attentes ou aux besoins du client, dans le respect des stratégies de communication de l’entreprise.
 
-[Pour en savoir plus, cliquez ici](../../campaign/using/about-campaign-typologies.md).
+[Pour en savoir plus, cliquez ici](../../campaign-opt/using/about-campaign-typologies.md).
 
 ## Envoyer vos messages {#send-your-messages}
 

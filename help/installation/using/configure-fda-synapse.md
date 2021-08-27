@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 100%
 
 ---
 
-# Configurer l’accès à Azure Synapse {#configure-access-to-azure-synapse}
+# Configuration de l&#39;accès à Azure Synapse {#configure-access-to-azure-synapse}
+
+![](../../assets/v7-only.svg)
 
 Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Microsoft Azure Synapse Analytics.
 
@@ -96,7 +98,7 @@ Pour configurer Azure Synapse sur CentOS, procédez comme suit :
 
    >[!NOTE]
    >
-   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, voir la [documentation Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, voir la [documentation Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 1. Dans le cas des iptables, exécutez la commande suivante :
 
@@ -187,7 +189,7 @@ Pour configurer Azure Synapse sous Debian :
 
    >[!NOTE]
    >
-   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, voir la [documentation Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, voir la [documentation Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 
 ## Compte externe Azure Synapse {#azure-external}
@@ -210,7 +212,7 @@ Pour créer votre compte externe [!DNL Azure Synapse], procédez comme suit :
 
    * **[!UICONTROL Serveur]** : URL du serveur Azure Synapse
 
-   * **[!UICONTROL Compte]** : nom de l’utilisateur
+   * **[!UICONTROL Compte]** : nom de l&#39;utilisateur
 
    * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
 

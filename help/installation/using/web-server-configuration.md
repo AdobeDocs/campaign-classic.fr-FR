@@ -6,20 +6,22 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '325'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 97%
 
 ---
 
-# Configuration d’un serveur web {#web-server-configuration}
+# Configuration du serveur web {#web-server-configuration}
+
+![](../../assets/v7-only.svg)
 
 Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la configuration du serveur web (Apache/IIS).
 
 * Modifiez les pages d’erreur par défaut.
 
-* Désactivez l’ancienne version de SSL et les chiffrements :
+* Désactivez l’ancienne version de SSL et les chiffrements :
 
    **Sur Apache**, modifiez le fichier /etc/apache2/mods-available/ssl.conf. Voici un exemple :
 
@@ -34,7 +36,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
       SCHANNEL\Protocols\TLS 1.2\Client
 
       SCHANNEL\Protocols\TLS 1.2\Server
-   **Désactivez SSL x.0**
+   **Désactivez SSL x.0**
 
    SCHANNEL\Protocols\SSL 3.0\Client : DisabledByDefault : valeur DWORD (32 bits) sur 1
 

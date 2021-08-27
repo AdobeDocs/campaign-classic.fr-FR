@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
 ---
 
 # Changement de dimension{#change-dimension}
+
+![](../../assets/common.svg)
 
 L&#39;activité de changement de dimension permet de modifier la dimension de ciblage au cours du cycle de construction de la cible. Le basculement d&#39;axe dépend du modèle de données et de la dimension en entrée. Vous pouvez ainsi par exemple passer de la dimension &quot;contrats&quot; à la dimension &quot;clients&quot;.
 
@@ -55,7 +57,7 @@ Pour paramétrer l&#39;activité de changement de dimension, respectez les étap
 
       >[!NOTE]
       >
-      >La création et la gestion des colonnes additionnelles sont présentées dans la section [Ajouter des données](../../workflow/using/query.md#adding-data).
+      >La création et la gestion des colonnes additionnelles sont présentées dans la section [Ajouter des données](query.md#adding-data).
 
    * Choisissez la dimension de ciblage précédente (avant le basculement d&#39;axe) et sélectionnez le **[!UICONTROL Code Postal]** dans la sous-arborescence **[!UICONTROL Localisation]** du destinataire, puis cliquez sur **[!UICONTROL Editer l&#39;expression]**.
 

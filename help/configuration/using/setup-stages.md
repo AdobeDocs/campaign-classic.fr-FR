@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
 
 ---
 
 # Etapes de mise en place{#setup-stages}
+
+![](../../assets/v7-only.svg)
 
 Le principe de base repose sur l&#39;ajout des balises de tracking Web dans certaines pages de votre site.
 

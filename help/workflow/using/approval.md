@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 100%
 
 ---
 
 # Validation{#approval}
+
+![](../../assets/common.svg)
 
 Une tâche de type **Validation** attend un signal ou une décision d&#39;un opérateur. L&#39;opérateur se voit assigner une tâche à laquelle il peut répondre depuis un email et via le web ou directement depuis la console.
 
@@ -63,7 +65,7 @@ Cliquez sur le lien **[!UICONTROL Paramètres avancés...]** pour sélectionner 
 
 Ce modèle peut être modifié pour personnaliser la présentation du message, mais il est préférable d&#39;en faire une copie. Le mécanisme de ciblage (fichier externe, mapping de ciblage) ne doit pas être modifié car il est nécessaire au bon fonctionnement de la notification.
 
-Un exemple de validation est proposé dans la section [Définir les validations](../../workflow/using/defining-approvals.md).
+Un exemple de validation est proposé dans la section [Définir les validations](defining-approvals.md).
 
 ## Paramètres de sortie {#output-parameters}
 

@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '3193'
 ht-degree: 100%
 
 ---
 
 # Déploiement d’une instance{#deploying-an-instance}
+
+![](../../assets/v7-only.svg)
 
 >[!NOTE]
 >
@@ -51,7 +53,7 @@ La section inférieure de la fenêtre permet de sélectionner les options à act
 
 * **[!UICONTROL Identifiant client pour la facturation]** : il peut s’agir par exemple du nom de l’instance et du numéro de version.
 * **[!UICONTROL Nom usuel du client]** : saisissez le nom de votre société. Cette information est notamment utilisée notamment dans les liens de désabonnement.
-* **[!UICONTROL Espace de noms]** : saisissez ici un identifiant court, en minuscules. L’objectif consiste à distinguer votre configuration spécifique de la configuration d’usine en cas de mise à jour. L’espace de nommage par défaut est **cus** - pour customer (client).
+* **[!UICONTROL Espace de noms]** : saisissez ici un identifiant court, en minuscules. L’objectif consiste à distinguer votre configuration spécifique de la configuration d’usine en cas de mise à jour. L’espace de noms par défaut est **cus** - pour customer (client).
 
 ### Options techniques {#technical-options}
 
@@ -124,7 +126,7 @@ Les options de configuration pour les mises en quarantaines sont les suivantes :
 
 Les mails rebonds sont essentiels pour qualifier les erreurs suite à une diffusion. Ces erreurs seront réparties dans les NP@I une fois que les règles auront déterminé la cause de non aboutissement du message.
 
-Cette étape n’est proposée que lorsque les options **Canal email** et **Gestion des emails rebonds** sont sélectionnées à la première étape de l’assistant de déploiement. Voir la section [Paramètres généraux](#general-parameters).
+Cette étape n’est proposée que lorsque les options **Canal email** et **Gestion des emails rebonds** sont sélectionnées à la première étape de l’assistant de déploiement. Pour plus d&#39;informations, consultez la section [Paramètres généraux](#general-parameters).
 
 Dans cette étape, vous pouvez définir les paramètres de gestion des mails rebonds.
 
@@ -179,7 +181,7 @@ Lorsque vous activez le tracking sur une instance, les URL présentes dans les d
 
 * Une fois les URL configurées, il est nécessaire d’activer le tracking. Pour cela, l’instance doit être enregistrée auprès du ou des serveurs de tracking.
 
-   Voir à ce sujet [Enregistrement du tracking](#saving-tracking).
+   Pour plus d’informations, consultez [Enregistrement du tracking](#saving-tracking).
 
 ### Serveur de tracking {#tracking-server}
 

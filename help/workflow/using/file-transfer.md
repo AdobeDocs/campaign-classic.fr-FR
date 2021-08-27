@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: 8c47027099559549320abf68016386cc85dcda5a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 100%
 
@@ -15,12 +15,14 @@ ht-degree: 100%
 
 # Envoi de fichier{#file-transfer}
 
-L&#39;activité **Transfert de fichier** permet de recevoir ou d&#39;envoyer des fichiers, de tester la présence de fichiers ou de répertorier les fichiers sur un serveur. Le protocole utilisé est le suivant : stockage Blob Azure, S3 (Amazon Simple Storage Service), FTP ou SFTP.
-Avec la connexion SFTP, S3, ou stockage Blob Azure, vous pouvez également importer des données de segments vers Adobe Campaign avec la plateforme de données clientes en temps réel d&#39;Adobe. Voir à ce propos cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=fr).
+![](../../assets/common.svg)
+
+L&#39;activité **Transfert de fichier** permet de recevoir ou d&#39;envoyer des fichiers, de tester la présence de fichiers ou de répertorier les fichiers sur un serveur. Le protocole utilisé est le suivant : stockage Blob Azure, S3 (Amazon Simple Storage Service), FTP ou SFTP.
+Avec la connexion SFTP, S3, ou stockage Blob Azure, vous pouvez également importer des données de segments vers Adobe Campaign avec la plateforme de données clientes en temps réel d&#39;Adobe. Voir à ce propos cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=fr).
 
 >[!NOTE]
 >
->Les bonnes pratiques et la résolution des problèmes liées à l&#39;utilisation du serveur SFTP sont présentées [dans cette page](../../platform/using/sftp-server-usage.md).
+>Les bonnes pratiques et la résolution des problèmes liées à l&#39;utilisation du serveur SFTP sont présentées [dans cette page](../../platform/using/sftp-server-usage.md).
 
 ## Propriétés {#properties}
 
@@ -36,7 +38,7 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 
    ![](assets/file_transfert_edit.png)
 
-   Cochez **[!UICONTROL Utiliser un compte externe]** pour sélectionner un compte à partir du nœud de stockage Blob Azure, S3, FTP ou SFTP configuré dans le nœud **[!UICONTROL Administration > Plateforme > Comptes externes]** de l&#39;arborescence. Indiquez ensuite le répertoire sur le serveur contenant le ou les fichiers à télécharger.
+   Cochez **[!UICONTROL Utiliser un compte externe]** pour sélectionner un compte à partir du nœud de stockage Blob Azure, S3, FTP ou SFTP configuré dans le nœud **[!UICONTROL Administration > Plateforme > Comptes externes]** de l&#39;arborescence. Indiquez ensuite le répertoire sur le serveur contenant le ou les fichiers à télécharger.
 
    ![](assets/file_transfert_edit_external.png)
 
@@ -71,7 +73,7 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 Pour toutes les actions de transfert de fichiers, deux options peuvent être sélectionnées :
 
 * L’option **[!UICONTROL Traiter l’absence de fichier]** ajoute une transition qui sera activée en cas d’absence de fichier dans le répertoire spécifié.
-* L’option **[!UICONTROL Traiter les erreurs]** est présentée dans la section [Traiter les erreurs](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+* L’option **[!UICONTROL Traiter les erreurs]** est présentée dans la section [Traiter les erreurs](monitoring-workflow-execution.md#processing-errors).
 
 Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux options suivantes :
 
@@ -81,19 +83,19 @@ Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux optio
 
    Efface les fichiers sur le serveur distant.
 
-* **[!UICONTROL Utiliser SSL]**
+* **[!UICONTROL Utiliser SSL]**
 
-   Permet d&#39;utiliser une connexion sécurisée via le protocole SSL lors des transferts de fichier.
+   Permet d&#39;utiliser une connexion sécurisée via le protocole SSL lors des transferts de fichier.
 
 * **[!UICONTROL Afficher les logs de la session]**
 
-   Permet de récupérer les logs du stockage Blob Azure, S3, du transfert FTP ou SFTP et de les inclure dans les logs de workflow.
+   Permet de récupérer les logs du stockage Blob Azure, S3, du transfert FTP ou SFTP et de les inclure dans les logs de workflow.
 
 * **[!UICONTROL Désactiver le mode passif]**.
 
    Permet d&#39;indiquer le port de connexion à utiliser pour le transfert des données.
 
-Le lien **[!UICONTROL Paramètres d’historisation des fichiers...]** permet d’accéder aux options présentées dans la section [Téléchargement Web](../../workflow/using/web-download.md) (étape **[!UICONTROL Historisation des fichiers]**).
+Le lien **[!UICONTROL Paramètres d’historisation des fichiers...]** permet d’accéder aux options présentées dans la section [Téléchargement Web](web-download.md) (étape **[!UICONTROL Historisation des fichiers]**).
 
 ## Paramètres d&#39;entrée {#input-parameters}
 

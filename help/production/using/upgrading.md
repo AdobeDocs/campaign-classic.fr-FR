@@ -6,8 +6,8 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 100%
 
@@ -15,15 +15,17 @@ ht-degree: 100%
 
 # Upgrade vers un nouveau build (On-Premise){#upgrading}
 
+![](../../assets/v7-only.svg)
+
 Avant de commencer la mise à jour, déterminez et confirmez la version d’Adobe Campaign vers laquelle elle s’effectue et consultez les [notes de mises à jour](../../rn/using/latest-release.md) 
 
 >[!IMPORTANT]
 >
->* Adobe recommande vivement d’effectuer une sauvegarde de base de données sur chaque instance avant de procéder à la mise à jour. Voir à ce sujet [cette section](../../production/using/backup.md).
+>* Adobe recommande vivement d’effectuer une sauvegarde de base de données sur chaque instance avant de procéder à la mise à jour. Pour plus d’informations, consultez [cette section](../../production/using/backup.md).
 >* Pour effectuer une mise à jour, vérifiez que vous avez la possibilité et les permissions d’accéder aux instances et aux logs.
 >* Lisez [cette section](../../installation/using/general-architecture.md) et le chapitre [Upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) avant de commencer.
->
 
+>
 
 
 ## Windows {#in-windows}
@@ -48,7 +50,6 @@ Il est nécessaire d&#39;arrêter toutes les instances du service nlserver afin 
       **iisreset /stop**
 
    * service Adobe Campaign : **net stop nlserver6**
-
    >[!IMPORTANT]
    >
    >Vous devez également vous assurer que le serveur de redirection (webmdl) est arrêté afin que le fichier **nlsrvmod.dll**, qui est utilisé par IIS, puisse être remplacé par la nouvelle version.
@@ -63,7 +64,7 @@ Il est nécessaire d&#39;arrêter toutes les instances du service nlserver afin 
 
    Vous pouvez éventuellement utiliser le Gestionnaire de tâches de Windows afin de vous assurer que tous les processus sont inactifs.
 
-### mettre à niveau l&#39;application serveur Adobe Campaign,{#upgrade-the-adobe-campaign-server-application}
+### mettre à niveau l&#39;application serveur Adobe Campaign, {#upgrade-the-adobe-campaign-server-application}
 
 Pour exécuter le fichier de mise à jour, respectez les étapes suivantes :
 
@@ -79,7 +80,7 @@ Pour exécuter le fichier de mise à jour, respectez les étapes suivantes :
 
 1. Lorsque l&#39;opération est terminée, cliquez sur **[!UICONTROL Terminer]** .
 
-### synchroniser les ressources,{#synchronize-resources}
+### Synchroniser les ressources {#synchronize-resources}
 
 Utilisez la commande :
 
@@ -123,7 +124,7 @@ Dans un environnement Linux, procédez comme suit pour mettre à jour Adobe Camp
 
 ### Obtenir les packages à jour {#obtain-updated-packages}
 
-Commencez par récupérer les deux packages d’Adobe Campaign mis à jour : connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) à l&#39;aide de vos informations d&#39;identification d&#39;utilisateur. En savoir plus sur la distribution de logiciels dans [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
+Commencez par récupérer les deux packages d’Adobe Campaign mis à jour : connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) à l&#39;aide de vos informations d&#39;identification d&#39;utilisateur. En savoir plus sur la distribution de logiciels dans [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
 Le fichier est **nlserver6-v7-XXX.rpm**
 
@@ -157,7 +158,7 @@ Le fichier est **nlserver6-v7-XXX.rpm**
 >
 >Les procédures complètes d’installation sont décrites dans [cette section](../../installation/using/installing-campaign-standard-packages.md). La synchronisation des ressources se fait automatiquement. En revanche, vous devez vérifier qu’elle s’est déroulée sans erreur. Voir à ce sujet la section [Résoudre les conflits d’upgrade](#resolving-upgrade-conflicts).
 
-### Redémarrer le serveur web {#reboot-the-web-server}
+### Redémarrer le serveur Web {#reboot-the-web-server}
 
 Vous devez arrêter Apache afin que la nouvelle bibliothèque soit prise en compte.
 
@@ -171,8 +172,9 @@ Pour cela exécutez la commande :
 >
 >* Il est possible que votre script porte le nom **httpd** plutôt que **apache**.
 >* Vous DEVEZ impérativement exécuter cette commande jusqu&#39;à obtenir la réponse suivante :
->
->   Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
+
+   >
+   >   Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
 
 
 Puis redémarrez Apache :

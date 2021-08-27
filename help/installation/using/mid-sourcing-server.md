@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 100%
 
 ---
 
 # Serveur de mid-sourcing{#mid-sourcing-server}
+
+![](../../assets/v7-only.svg)
 
 Cette section présente les étapes d&#39;installation et de configuration d&#39;un serveur de mid-sourcing ainsi que les étapes de déploiement d&#39;une instance permettant à des tiers de soumettre des messages en mode **mid-sourcing**.
 
@@ -37,7 +39,7 @@ La procédure ci-dessous présente une configuration utilisant un seul serveur d
 
 ### Installer et configurer le serveur applicatif pour un déploiement en mid-sourcing {#installing-and-configuring-the-application-server-for-mid-sourcing-deployment}
 
-La procédure d&#39;installation reprend les étapes d&#39;une installation pour une instance mono-machine. Voir la section [Installer et configurer (mono-machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
+La procédure d&#39;installation reprend les étapes d&#39;une installation pour une instance mono-machine. Pour plus d&#39;informations, consultez la section [Installer et configurer (mono-machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
 Toutefois, vous devez appliquer les spécificités suivantes :
 

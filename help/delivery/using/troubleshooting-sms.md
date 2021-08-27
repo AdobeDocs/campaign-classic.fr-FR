@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2744'
 ht-degree: 100%
 
 ---
 
 # Résolution des problèmes de SMS {#troubleshooting-sms}
+
+![](../../assets/common.svg)
 
 ## Conflit entre différents comptes externes {#external-account-conflict}
 
@@ -115,9 +117,9 @@ Comment résoudre les problèmes de stabilité de connexion :
 
 ## Problème lors de l&#39;envoi d&#39;un MT (SMS régulier envoyé à un utilisateur final){#issue-MT}
 
-* Vérifiez que la connexion est stable. Une connexion SMPP doit durer au moins une heure en continu, sauf pour les émetteurs sur Adobe Campaign Classic. Voir la section [Problème de connexion instable](sms-protocol.md#issues-unstable-connection).
+* Vérifiez que la connexion est stable. Une connexion SMPP doit durer au moins une heure en continu, sauf pour les émetteurs sur Adobe Campaign Classic. Pour plus d&#39;informations, consultez la section [Problème de connexion instable](sms-protocol.md#issues-unstable-connection).
 
-* Si le redémarrage du MTA entraîne l&#39;envoi de MT à nouveau opérationnel pendant une petite période de temps, vous avez probablement un ralentissement dû à une connexion instable. Voir la section [Problème de connexions instables](troubleshooting-sms.md#issues-unstable-connection).
+* Si le redémarrage du MTA entraîne l&#39;envoi de MT à nouveau opérationnel pendant une petite période de temps, vous avez probablement un ralentissement dû à une connexion instable. Pour plus d&#39;informations, consultez la section [Problème de connexions instables](troubleshooting-sms.md#issues-unstable-connection).
 
 * Vérifiez que le broadlog est présent et que son statut est correct avec les dates correctes. Si ce n&#39;est pas le cas, il peut s&#39;agir d&#39;un problème de préparation de diffusion ou de diffusion.
 

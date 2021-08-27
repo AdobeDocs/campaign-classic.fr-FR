@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
@@ -15,17 +15,19 @@ ht-degree: 100%
 
 # Prise en main de l&#39;import et de l&#39;export de données {#get-started-data-import-export}
 
+![](../../assets/common.svg)
+
 Adobe Campaign Classic fournit des fonctionnalités de gestion des données qui vous permettent d&#39;importer et d&#39;exporter des données. Ces opérations peuvent être effectuées à l&#39;aide de workflows ou d&#39;imports et d&#39;exports génériques.
 
 >[!IMPORTANT]
 >
->Lorsque vous utilisez cette fonctionnalité, gardez à l&#39;esprit les limites du stockage SFTP, du stockage en base de données et des profils actifs en fonction de votre contrat Adobe Campaign.
+>Lorsque vous utilisez cette fonctionnalité, gardez à l&#39;esprit les limites du stockage SFTP, du stockage en base de données et des profils actifs en fonction de votre contrat Adobe Campaign.
 
 ## Workflows {#workflows}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-Les **workflows** constituent un moyen utile d&#39;automatiser vos processus d&#39;import. Que vous importiez des données à partir d&#39;un fichier local ou d&#39;un SFTP, ils vous permettent de standardiser vos procédures de gestion des données.
+Les **workflows** constituent un moyen utile d&#39;automatiser vos processus d&#39;import. Que vous importiez des données à partir d&#39;un fichier local ou d&#39;un SFTP, ils vous permettent de standardiser vos procédures de gestion des données.
 
 Avec les workflows, les opérations d&#39;import et d&#39;export peuvent être répétées automatiquement selon un planning, par exemple pour automatiser l&#39;échange de données entre plusieurs systèmes d&#39;informations.
 
@@ -63,4 +65,4 @@ Voir à ce propos les sections suivantes :
 
 Plusieurs [bonnes pratiques](../../platform/using/import-export-best-practices.md) doivent être suivies lors des opérations d&#39;import et d&#39;export afin d&#39;assurer la cohérence des données dans la base de données et d&#39;éviter les erreurs courantes lors de la mise à jour ou de l&#39;export.
 
-De plus, des recommandations et des problèmes courants liés à l&#39;utilisation des serveurs SFTP sont disponibles dans [cette section](../../platform/using/sftp-server-usage.md).
+De plus, des recommandations et des problèmes courants liés à l&#39;utilisation des serveurs SFTP sont disponibles dans [cette section](../../platform/using/sftp-server-usage.md).

@@ -5,14 +5,16 @@ description: Découvrez comment exporter des données de Campaign Classic vers 
 audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 
 ---
 
 # Exporter des données de Campaign vers Adobe Experience Platform {#sources}
+
+![](../../assets/common.svg)
 
 Pour exporter des données de Campaign Classic vers Adobe Real-time Customer Data Platform (RTCDP), vous devez d&#39;abord créer un workflow dans Campaign Classic pour exporter les données que vous souhaitez partager vers votre emplacement de stockage S3 ou Azure Blob.
 
@@ -51,7 +53,7 @@ Les étapes principales pour connecter votre emplacement de stockage S3 ou Azure
 
    >[!NOTE]
    >
-   >L’emplacement de stockage peut être Amazon S3, SFTP avec mot de passe, SFTP avec clé SSH ou des connexions Azure Blob. La méthode préférée pour envoyer des données vers Adobe Campaign est via Amazon S3 ou Azure Blob :
+   >L&#39;emplacement de l&#39;enregistrement peut être Amazon S3, SFTP avec mot de passe, SFTP avec clé SSH ou des connexions Azure Blob. La méthode préférée pour envoyer des données vers Adobe Campaign est via Amazon S3 ou Azure Blob :
 
    ![](assets/rtcdp-connector.png)
 

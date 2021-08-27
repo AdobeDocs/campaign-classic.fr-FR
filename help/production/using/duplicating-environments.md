@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1296'
 ht-degree: 100%
 
 ---
 
 # Duplication d&#39;environnements{#duplicating-environments}
+
+![](../../assets/v7-only.svg)
 
 ## Introduction {#introduction}
 
@@ -67,11 +69,11 @@ Les étapes ci-dessous doivent être réalisées avec précaution : certains pro
 >
 >* La procédure ci-dessous est valide en langage PostgreSQL, si le langage SQL est différent (Oracle, par exemple), les requêtes SQL doivent être adaptées.
 >* Dans les exemples de commandes proposés ci-après, on considère une instance **prod** et une instance **recette** existantes sous PostgreSQL.
+
 >
 
 
-
-### Etape 1 - Sauvegarder les données de l&#39;environnement-source (prod){#step-1---make-a-backup-of-the-source-environment--prod--data}
+### Etape 1 - Sauvegarder les données de l&#39;environnement-source (prod) {#step-1---make-a-backup-of-the-source-environment--prod--data}
 
 Copier les bases de données
 
@@ -102,7 +104,7 @@ Vérifiez dans chaque fichier que le nombre d&#39;options/de comptes exportés e
 >
 >Le nombre de lignes à exporter dans un export de package est de 1000 lignes. Si le nombre d&#39;options ou de comptes externes est supérieur à 1000, il faut procéder à plusieurs exports.
 > 
->Voir à ce sujet [cette section](../../platform/using/working-with-data-packages.md#exporting-packages).
+>Pour plus d’informations, consultez [cette section](../../platform/using/working-with-data-packages.md#exporting-packages).
 
 >[!NOTE]
 >

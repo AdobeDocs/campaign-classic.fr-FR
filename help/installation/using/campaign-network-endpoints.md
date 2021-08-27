@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 027ed2b6-365f-434f-9a18-2140512168e9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 100%
 
 ---
 
-# Points d’entrée réseau Campaign {#campaign-standard-network-endpoints}
+# Points d’entrée réseau Campaign {#campaign-standard-network-endpoints}
+
+![](../../assets/v7-only.svg)
 
 Voici les différents points d’entrée utilisés dans Campaign Classic.
 

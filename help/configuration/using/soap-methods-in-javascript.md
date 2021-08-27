@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 100%
 
 ---
 
 # Méthodes SOAP en JavaScript{#soap-methods-in-javascript}
+
+![](../../assets/v7-only.svg)
 
 Il s&#39;agit dans ce cas du JavaScript exécuté sur le serveur Adobe Campaign.
 

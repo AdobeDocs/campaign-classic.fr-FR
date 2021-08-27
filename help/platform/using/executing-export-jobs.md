@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Configuration des traitements d’export {#executing-export-jobs}
+
+![](../../assets/common.svg)
 
 Les traitements d&#39;export vous permettent d&#39;accéder à la base de données et d&#39;en extraire les données : contacts, clients, listes, segments, etc.
 
@@ -81,7 +83,7 @@ Sélectionnez les champs à exporter. Pour cela :
 
    ![](assets/s_ncs_user_export_wizard04.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour faire appel à des fonctions. Voir à ce propos la section [Liste des fonctions](../../platform/using/defining-filter-conditions.md#list-of-functions).
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour faire appel à des fonctions. Pour plus d&#39;informations, consultez la section [Liste des fonctions](../../platform/using/defining-filter-conditions.md#list-of-functions).
 
 ## Etape 5 - Tri des colonnes {#step-5---sorting-columns}
 

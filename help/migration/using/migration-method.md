@@ -6,14 +6,16 @@ audience: migration
 content-type: reference
 topic-tags: migration-overview
 exl-id: dd4d068b-f414-448f-8d9a-eedf44e7b6e6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
 
 ---
 
 # Méthode de migration{#migration-method}
+
+![](../../assets/v7-only.svg)
 
 ## Modernisation de votre environnement {#modernizing-your-environment}
 

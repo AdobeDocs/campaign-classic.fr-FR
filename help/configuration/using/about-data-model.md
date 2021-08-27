@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
 ---
 
 # Prise en main du modèle de données de Campaign{#about-data-model}
+
+![](../../assets/v7-only.svg)
 
 Le modèle de données conceptuel de la base de données Adobe Campaign se compose d’un ensemble de tables intégrées et de leur interaction. Les tables et concepts principaux sont répertoriés dans cette page.
 
@@ -73,7 +75,7 @@ En cas de besoin, vous pouvez l’étendre avec deux mécanismes :
 * Étendez une table existante avec de nouveaux champs. Par exemple, vous pouvez ajouter un nouveau champ « Fidélité » à la table des destinataires.
 * Créez une table, par exemple une table « Achat » répertoriant tous les achats effectués par chaque profil de la base de données et liez-la à la table des destinataires.
 
-Pour plus d’informations sur la configuration des schémas d’extension pour étendre le modèle de données conceptuelles, voir [A propos de l’édition de schéma](../../configuration/using/about-schema-edition.md).
+Pour plus d’informations sur la configuration des schémas d’extension pour étendre le modèle de données conceptuelles, voir [À propos de l’édition de schéma](../../configuration/using/about-schema-edition.md).
 
 >[!IMPORTANT]
 >

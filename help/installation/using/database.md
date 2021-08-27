@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 100%
 
 ---
 
 # Base de données{#database}
+
+![](../../assets/v7-only.svg)
 
 Le serveur de base de données peut fonctionner sur n&#39;importe quel système d&#39;exploitation, sans tenir compte du système utilisé par le ou les serveurs applicatifs, sous réserve de connectivité réseau entre eux.
 

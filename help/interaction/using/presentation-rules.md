@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 100%
 
 ---
 
 # Règles de présentation{#presentation-rules}
+
+![](../../assets/v7-only.svg)
 
 ## Création d&#39;une règle de présentation {#creating-a-presentation-rule}
 
@@ -95,7 +97,7 @@ Vous allez faire une première proposition d&#39;offre appartenant, entre autre,
 
    ![](assets/offer_typology_example_016.png)
 
-1. Insérez vos offres dans le corps du message et envoyez la diffusion. Voir à ce sujet la section [A propos des canaux sortants](../../interaction/using/about-outbound-channels.md).
+1. Insérez vos offres dans le corps du message et envoyez la diffusion. Voir à ce sujet la section [À propos des canaux sortants](../../interaction/using/about-outbound-channels.md).
 
    Votre destinataire a bien reçu l&#39;offre pour laquelle il est éligible.
 

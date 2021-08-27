@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 100%
 
 ---
 
 # Création et connexion à une instance{#creating-an-instance-and-logging-on}
+
+![](../../assets/v7-only.svg)
 
 Pour créer une nouvelle instance ainsi que la base de données Adobe Campaign, la procédure est la suivante :
 
@@ -37,7 +39,7 @@ Pour créer une instance, procédez comme suit :
 
    ![](assets/s_ncs_install_define_connection_02.png)
 
-1. Définissez une connexion vers votre serveur applicatif Adobe Campaign à partir d’une URL. Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
+1. Définissez une connexion vers votre serveur applicatif Adobe Campaign à partir d&#39;une URL. Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
 
    Par exemple, vous pouvez utiliser une URL de type [`https://<machine>.<domain>.com`](https://myserver.adobe.com).
 
@@ -61,7 +63,7 @@ Pour créer une instance, procédez comme suit :
 
    Les caractères ? et * peuvent être utilisés comme jokers pour remplacer un ou plusieurs caractères (DNS, port, etc.). Ainsi, la valeur **demo*** fonctionnera ainsi aussi bien avec &quot;https://demo&quot; que &quot;https://demo:8080&quot; ou encore &quot;https://demo2&quot;.
 
-   Les noms utilisés doivent être définis dans votre DNS. Vous pouvez également indiquer la correspondance entre un nom DNS et une adresse IP dans le fichier **c:/windows/system32/drivers/etc/hosts** sous Windows et dans le fichier **/etc/hosts** sous Linux. Pour vous connecter à l&#39;instance choisie, vous devez donc modifier les paramètres de connexion afin d&#39;utiliser ce nom DNS.
+   Les noms utilisés doivent être définis dans votre DNS. Vous pouvez également indiquer la correspondance entre un nom DNS et une adresse IP dans le fichier **c:/windows/system32/drivers/etc/hosts** sous Windows et dans le fichier **/etc/hosts** sous Linux. Pour vous connecter à l&#39;instance choisie, vous devez donc modifier les paramètres de connexion afin d&#39;utiliser ce nom DNS.
 
    Le serveur doit être identifié par ce nom, notamment pour la mise en ligne des images dans les emails.
 
@@ -79,4 +81,4 @@ Pour créer une instance, procédez comme suit :
 
    >[!NOTE]
    >
-   >Il est possible de créer l&#39;instance à partir de la ligne de commande. Voir à ce propos la section [Lignes de commande](../../installation/using/command-lines.md).
+   >Il est possible de créer l&#39;instance à partir de la ligne de commande. Pour plus d&#39;informations, consultez la section [Lignes de commande](../../installation/using/command-lines.md).

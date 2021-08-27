@@ -6,8 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 
@@ -15,11 +15,13 @@ ht-degree: 100%
 
 # Configuration des options de tracking d’URL{#personalizing-url-tracking}
 
+![](../../assets/common.svg)
+
 Les paramètres avancés du tracking des messages sont accessibles à partir de l&#39;icône **[!UICONTROL Tracking &amp; images]** située dans la barre d&#39;outils de l&#39;assistant de diffusion.
 
 >[!NOTE]
 >
->La gestion des images dans les emails est également paramétrée depuis cette fenêtre. Voir la section [Ajout d’images](defining-the-email-content.md#adding-images).
+>La gestion des images dans les emails est également paramétrée depuis cette fenêtre. Pour plus d&#39;informations, consultez la section [Ajout d’images](defining-the-email-content.md#adding-images).
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

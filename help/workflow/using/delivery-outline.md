@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%
 
 ---
 
 # Composition de diffusion{#delivery-outline}
+
+![](../../assets/common.svg)
 
 L’activité de **composition de diffusion** permet d’utiliser une composition dans un workflow de campagne. La composition doit avoir été préalablement créée dans la campagne.
 

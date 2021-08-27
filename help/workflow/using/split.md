@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2133'
 ht-degree: 100%
 
@@ -15,15 +15,17 @@ ht-degree: 100%
 
 # Partage{#split}
 
+![](../../assets/common.svg)
+
 Une activité de type **Partage** permet de partitionner une cible en plusieurs sous-ensembles. La cible est construite avec tous les résultats reçus : toutes les activités antérieures doivent donc être terminées pour que cette activité soit exécutée.
 
 Cette activité ne fait pas l&#39;union des populations entrantes. Si plusieurs transitions arrivent sur une activité de partage, il est recommandé d&#39;insérer une activité d&#39;**[!UICONTROL Union]** avant.
 
-Pour obtenir un exemple de l&#39;activité de Partage utilisée, voir la section [Création de sous-ensembles à l&#39;aide de l&#39;activité Partage](../../workflow/using/targeting-data.md#creating-subsets-using-the-split-activity).
+Pour obtenir un exemple de l&#39;activité de Partage utilisée, voir la section [Création de sous-ensembles à l&#39;aide de l&#39;activité Partage](targeting-data.md#creating-subsets-using-the-split-activity).
 
-Un exemple d&#39;utilisation de l&#39;activité de Partage pour segmenter la cible en différentes populations à l&#39;aide des conditions de filtrage est présenté dans [cette section](../../workflow/using/cross-channel-delivery-workflow.md).
+Un exemple d&#39;utilisation de l&#39;activité de Partage pour segmenter la cible en différentes populations à l&#39;aide des conditions de filtrage est présenté dans [cette section](cross-channel-delivery-workflow.md).
 
-Un exemple d&#39;utilisation d&#39;une variable d&#39;instance dans une activité de Partage est présenté dans [cette section](../../workflow/using/javascript-scripts-and-templates.md).
+Un exemple d&#39;utilisation d&#39;une variable d&#39;instance dans une activité de Partage est présenté dans [cette section](javascript-scripts-and-templates.md).
 
 Pour paramétrer cette activité, vous devez définir le contenu et le libellé des sous-ensembles souhaités dans l&#39;onglet **[!UICONTROL Sous-ensembles]**, puis choisir la dimension de ciblage dans l&#39;onglet **[!UICONTROL Général]**.
 
@@ -124,7 +126,7 @@ Par exemple, si vous choisissez le champ **[!UICONTROL Langue]** comme champ de 
 
 Si vos champs de groupement contiennent un trop grand nombre de valeurs ou si vous souhaitez éviter de réinitialiser les valeurs pour chaque nouvelle activité de partage, Adobe Campaign vous permet de créer une limite par répartition de données. Lors de la sélection des valeurs de limitation des données (voir à ce sujet la section [Créer des sous-ensembles](#creating-subsets)), sélectionnez l&#39;option **[!UICONTROL Par répartition de données]** et sélectionnez un modèle dans le menu déroulant. La création d&#39;un modèle de répartition de données est illustrée ci-dessous.
 
-Un exemple de l&#39;activité **[!UICONTROL Validation en local]** avec un modèle de répartition est présenté dans la section [Utiliser l&#39;activité Validation en local](../../workflow/using/using-the-local-approval-activity.md).
+Un exemple de l&#39;activité **[!UICONTROL Validation en local]** avec un modèle de répartition est présenté dans la section [Utiliser l&#39;activité Validation en local](using-the-local-approval-activity.md).
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 
@@ -148,12 +150,12 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
    * **[!UICONTROL Dimension de ciblage]** : renseignez le schéma de ciblage sur lequel la répartition de données sera appliquée, par exemple **[!UICONTROL Destinataire]**. Ce schéma doit toujours être compatible avec les données utilisées dans le workflow de ciblage.
    * **[!UICONTROL Champ de répartition]** : choisissez un champ depuis la dimension de ciblage. Par exemple, si vous sélectionnez le champ **[!UICONTROL Domaine de l&#39;email]**, la liste de destinataires sera répartie par domaine.
    * **[!UICONTROL Type de répartition]** : sélectionnez la manière dont sera exprimée la valeur de limitation de la cible dans l&#39;onglet **[!UICONTROL Distribution]** : **[!UICONTROL Pourcentage]** ou **[!UICONTROL Fixe]**.
-   * **[!UICONTROL Type d&#39;affectation]** : sélectionnez le type d&#39;affectation de la répartition de données. Vous avez le choix entre une affectation par groupe ou opérateur ou une affectation par entité locale. L&#39;affectation par entité locale est utilisée dans le cadre du **marketing distribué**. Pour plus d&#39;informations, consultez cette [section](../../campaign/using/about-distributed-marketing.md).
-   * **[!UICONTROL Stockage des validations]** : si vous utilisez une activité **[!UICONTROL Validation en local]** dans votre workflow de ciblage (voir la section [Validation en local](../../workflow/using/local-approval.md)), indiquez le schéma dans lequel seront stockés les résultats de validation. Vous devez spécifier un schéma de stockage pour chaque schéma de ciblage. Si vous utilisez le schéma de ciblage **[!UICONTROL Destinataires]**, saisissez le schéma de stockage par défaut **[!UICONTROL Validation en local d&#39;un destinataire]**.
+   * **[!UICONTROL Type d&#39;affectation]** : sélectionnez le type d&#39;affectation de la répartition de données. Vous avez le choix entre une affectation par groupe ou opérateur ou une affectation par entité locale. L&#39;affectation par entité locale est utilisée dans le cadre du **marketing distribué**. Pour plus d&#39;informations, consultez cette [section](../../distributed/using/about-distributed-marketing.md).
+   * **[!UICONTROL Stockage des validations]** : si vous utilisez une activité **[!UICONTROL Validation en local]** dans votre workflow de ciblage (voir la section [Validation en local](local-approval.md)), indiquez le schéma dans lequel seront stockés les résultats de validation. Vous devez spécifier un schéma de stockage pour chaque schéma de ciblage. Si vous utilisez le schéma de ciblage **[!UICONTROL Destinataires]**, saisissez le schéma de stockage par défaut **[!UICONTROL Validation en local d&#39;un destinataire]**.
 
       Il n&#39;est pas nécessaire de renseigner le champ **[!UICONTROL Stockage des validations]** dans le cas d&#39;une simple limitation par groupement de données, sans validation en local.
 
-1. Si vous utilisez une activité **[!UICONTROL Validation en local]** (voir la section [Validation en local](../../workflow/using/local-approval.md)), renseignez ensuite les **[!UICONTROL Paramètres avancés]** du modèle de répartition :
+1. Si vous utilisez une activité **[!UICONTROL Validation en local]** (voir la section [Validation en local](local-approval.md)), renseignez ensuite les **[!UICONTROL Paramètres avancés]** du modèle de répartition :
 
    ![](assets/local_validation_data_distribution_3.png)
 
@@ -189,7 +191,7 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
       Cette colonne est définie par le champ **[!UICONTROL Type de répartition]** de l&#39;onglet **[!UICONTROL Général]**.
 
    * **[!UICONTROL Libellé]** : saisissez le libellé associé à chaque valeur.
-   * **[!UICONTROL Groupe ou opérateur]** : si vous utilisez une activité **[!UICONTROL Validation en local]** (voir la section [Validation en local](../../workflow/using/local-approval.md)), sélectionnez l&#39;opérateur ou le groupe d&#39;opérateurs affecté à chaque valeur de répartition.
+   * **[!UICONTROL Groupe ou opérateur]** : si vous utilisez une activité **[!UICONTROL Validation en local]** (voir la section [Validation en local](local-approval.md)), sélectionnez l&#39;opérateur ou le groupe d&#39;opérateurs affecté à chaque valeur de répartition.
 
       Il n&#39;est pas nécessaire de renseigner le champ **[!UICONTROL Groupe ou opérateur]** dans le cas d&#39;une simple limitation par groupement de données, sans validation en local.
 
@@ -197,7 +199,7 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
       >
       >Vérifiez que les opérateurs disposent des droits adéquats.
 
-   * **[!UICONTROL Entité locale]** : sélectionnez l&#39;entité locale affectée à chaque valeur de répartition. Les entités locales sont utilisées dans le cadre du **marketing distribué**. Pour plus d&#39;informations, consultez cette [section](../../campaign/using/about-distributed-marketing.md).
+   * **[!UICONTROL Entité locale]** : sélectionnez l&#39;entité locale affectée à chaque valeur de répartition. Les entités locales sont utilisées dans le cadre du **marketing distribué**. Pour plus d&#39;informations, consultez cette [section](../../distributed/using/about-distributed-marketing.md).
 
 ## Paramètres de filtrage {#filtering-parameters}
 

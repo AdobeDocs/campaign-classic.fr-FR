@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos des profils
-description: A propos des profils
-feature: Profils et audiences
+title: À propos des profils
+description: À propos des profils
+feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '923'
 ht-degree: 100%
 
 ---
 
 # Prise en main des profils{#about-profiles}
+
+![](../../assets/common.svg)
 
 Les profils sont centralisés dans la base de données Adobe Campaign. Il existe de nombreux mécanismes permettant d’acquérir des profils et créer cette base de données : collecte en ligne par le biais de formulaires Web, importation manuelle ou automatique de fichiers texte, réplication avec des bases de données d’entreprises ou d’autres systèmes d’information. Adobe Campaign vous permet d’intégrer des données d’historique marketing, des informations d’achat, des préférences, des données CRM et des données d’informations personnelles pertinentes dans une vue consolidée afin d’effectuer une analyse et de prendre des mesures.
 
@@ -103,7 +105,7 @@ Le nombre de profils actifs est disponible pour les **instances marketing** uniq
 
 >[!NOTE]
 >
->Vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement à partir du Panneau de contrôle de Campaign. Pour plus d&#39;informations à ce sujet, consultez la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=fr).
+>Vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement à partir du panneau de contrôle de Campaign. Pour plus d’informations, consultez la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=fr).
 
 ## Tutoriel vidéo {#create-profiles-video}
 

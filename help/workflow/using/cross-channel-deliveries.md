@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '301'
+ht-degree: 96%
 
 ---
 
 # Diffusions cross-canal{#cross-channel-deliveries}
+
+![](../../assets/common.svg)
 
 Les diffusions cross-canal sont disponibles dans l&#39;onglet **[!UICONTROL Diffusions]** des activités d&#39;un workflow de campagne.
 
@@ -22,8 +24,8 @@ Les différents canaux disponibles sont :
 * [E-mail](../../delivery/using/about-email-channel.md)
 * [Courrier](../../delivery/using/about-direct-mail-channel.md)
 * [Mobile](../../delivery/using/sms-channel.md)
-* [Twitter](../../social/using/publishing-on-twitter.md)
-* [Facebook](../../social/using/publishing-on-facebook.md)
+* [Twitter](../../social/using/publishing-on-twitter.md)  (Campaign Classic v7 uniquement)
+* [Facebook](../../social/using/publishing-on-facebook.md)  (Campaign Classic v7 uniquement)
 * [iOS](../../delivery/using/create-notifications-ios.md)
 * [Android](../../delivery/using/create-notifications-android.md)
 

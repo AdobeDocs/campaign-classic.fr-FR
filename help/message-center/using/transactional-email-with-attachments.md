@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: use-case
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 7f4bbf3e79d6cdaf17987b9307ebf12801abad22
+workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
 
 ---
 
 # Cas d&#39;utilisation : envoi d&#39;e-mails transactionnels avec des pièces jointes {#transactional-email-with-attachments}
+
+![](../../assets/v7-only.svg)
 
 L&#39;objectif de ce cas pratique est d&#39;ajouter des pièces jointes d&#39;emails à la volée aux envois sortants.
 
@@ -75,7 +77,7 @@ Pour ajouter à la volée une pièce jointe à un message transactionnel, procé
 1. Dans l&#39;écran **[!UICONTROL Définition d&#39;un fichier attaché]**, saisissez le paramètre de pièce jointe SOAP :
 
    ```
-   <%= rtEvent.ctx.attachementUrl %>
+   <%= rtEvent.ctx.attachmentUrl %>
    ```
 
 1. Lorsque le message est traité, le système extrait le fichier de l&#39;emplacement distant (serveur tiers) et le joint au message.

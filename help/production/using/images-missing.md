@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 6ccda57d-f7a3-4501-b2f4-59fcb05f9013
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%
 
 ---
 
 # Images absentes{#images-missing}
+
+![](../../assets/v7-only.svg)
 
 Dans la version 17.9, plusieurs fichiers (en particulier des icônes) ont été déplacés.
 

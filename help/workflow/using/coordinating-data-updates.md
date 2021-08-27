@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
 
 ---
 
 # Coordination des mises à jour de données{#coordinating-data-updates}
+
+![](../../assets/common.svg)
 
 Ce cas pratique présente la création d&#39;un workflow permettant de gérer des mises à jour concomitantes lors de l&#39;utilisation de plusieurs exécutions d&#39;un workflow.
 
@@ -53,5 +55,5 @@ Pour créer le workflow, procédez comme suit :
 
 **Rubriques connexes :**
 
-* [Empêcher les exécutions multiples simultanées](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
-* [Activité Mise à jour de données](../../workflow/using/update-data.md)
+* [Empêcher les exécutions multiples simultanées](monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
+* [Activité Mise à jour de données](update-data.md)

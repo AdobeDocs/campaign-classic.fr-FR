@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Workflow de diffusion cross-canal{#cross-channel-delivery-workflow}
 
-Ce cas pratique présente un exemple impliquant un workflow de diffusion cross-canal. Le concept général des diffusions cross-canal est présenté dans [cette section](../../workflow/using/cross-channel-deliveries.md).
+![](../../assets/common.svg)
+
+Ce cas pratique présente un exemple impliquant un workflow de diffusion cross-canal. Le concept général des diffusions cross-canal est présenté dans [cette section](cross-channel-deliveries.md).
 
 L&#39;objectif est de segmenter une audience des destinataires de votre base de données en différents groupes dans le but d&#39;envoyer un email à un groupe et un SMS à un autre.
 
@@ -36,7 +38,7 @@ Les principales étapes d&#39;implémentation pour ce cas pratique sont les suiv
 Pour définir votre cible, créez une requête afin d&#39;identifier les destinataires.
 
 1. Créez une campagne. Voir à ce propos [cette section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
-1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d&#39;informations sur l&#39;utilisation de cette activité, consultez [cette section](../../workflow/using/query.md).
+1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d&#39;informations sur l&#39;utilisation de cette activité, consultez [cette section](query.md).
 1. Définissez les destinataires qui recevront vos diffusions. Par exemple, sélectionnez les membres &quot;Gold&quot; en tant que dimension cible.
 1. Ajoutez des conditions de filtrage à votre requête. Dans cet exemple, sélectionnez les destinataires disposant d&#39;une adresse email et d&#39;un numéro de téléphone portable.
 
@@ -69,7 +71,7 @@ Pour définir votre cible, créez une requête afin d&#39;identifier les destina
 
 Une fois votre cible identifiée et votre première diffusion créée, vous devez segmenter la cible en différentes populations à l&#39;aide de conditions de filtrage.
 
-1. Ajoutez une activité **Partage** au workflow et ouvrez-la. Pour plus d&#39;informations sur l&#39;utilisation de cette activité, consultez [cette section](../../workflow/using/split.md).
+1. Ajoutez une activité **Partage** au workflow et ouvrez-la. Pour plus d&#39;informations sur l&#39;utilisation de cette activité, consultez [cette section](split.md).
 1. Créez trois segments à partir de la population calculée en amont dans la requête.
 
    ![](assets/wkf_cross-channel_6.png)
@@ -112,7 +114,7 @@ Une fois votre cible identifiée et votre première diffusion créée, vous deve
 1. Double-cliquez sur les activités de la diffusion dans votre workflow pour les éditer. Pour plus d&#39;informations sur la création d&#39;un email et d&#39;un SMS, consultez les sections [Canal Email](../../delivery/using/about-email-channel.md) et [Canal SMS](../../delivery/using/sms-channel.md).
 1. Double-cliquez sur l&#39;activité **[!UICONTROL Mise à jour des listes]** et sélectionnez l&#39;option **[!UICONTROL Générer une transition sortante]**.
 
-   Vous pouvez ensuite exporter les destinataires obtenus d&#39;Adobe Campaign vers Adobe Experience Cloud. Par exemple, vous pouvez utiliser l&#39;audience dans Adobe Target en ajoutant une activité **[!UICONTROL Mise à jour d&#39;audience partagée]** au workflow. Voir à ce propos la section [Exporter une audience](../../integrations/using/importing-and-exporting-audiences.md#exporting-an-audience).
+   Vous pouvez ensuite exporter les destinataires obtenus d&#39;Adobe Campaign vers Adobe Experience Cloud. Par exemple, vous pouvez utiliser l&#39;audience dans Adobe Target en ajoutant une activité **[!UICONTROL Mise à jour d&#39;audience partagée]** au workflow. Pour plus d&#39;informations, consultez la section [Exporter une audience](../../integrations/using/importing-and-exporting-audiences.md#exporting-an-audience).
 
 1. Cliquez sur le bouton **Démarrer** de la barre d&#39;actions pour exécuter le workflow.
 

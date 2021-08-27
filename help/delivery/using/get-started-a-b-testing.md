@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
 
 # Prise en main des tests A/B {#get-started-a-b-testing}
+
+![](../../assets/common.svg)
 
 Les tests A/B vous permettent de comparer plusieurs versions d’une diffusion les unes par rapport aux autres, afin d’identifier celle qui aura le plus grand impact sur la population ciblée.
 

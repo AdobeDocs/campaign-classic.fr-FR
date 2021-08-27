@@ -6,8 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1746'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Définir la population cible {#defining-the-target-population}
 
-## A propos des populations cibles {#about-target-populations}
+![](../../assets/common.svg)
+
+## À propos des populations cibles {#about-target-populations}
 
 Pour chaque diffusion, vous pouvez définir plusieurs types de populations cible :
 
@@ -181,7 +183,7 @@ Pour sélectionner la cible des BAT, procédez comme suit :
 
 Lorsque vous sélectionnez la cible du BAT, l&#39;option **[!UICONTROL Définition d&#39;une cible spécifique au BAT]** vous permet de sélectionner les destinataires du BAT parmi les profils de la base de données.
 
-Sélectionnez cette option pour choisir les destinataires via le bouton **[!UICONTROL Ajouter]**, comme pour la définition de la cible principale. Voir la section [Choisir la cible principale](steps-defining-the-target-population.md#selecting-the-main-target). 
+Sélectionnez cette option pour choisir les destinataires via le bouton **[!UICONTROL Ajouter]**, comme pour la définition de la cible principale. Pour plus d&#39;informations, consultez la section [Choisir la cible principale](steps-defining-the-target-population.md#selecting-the-main-target). 
 
 ![](assets/s_ncs_user_wizard_email01_143.png)
 
@@ -226,7 +228,7 @@ A l&#39;aide de l&#39;option **[!UICONTROL Cible spécifique et Adresses de cont
 Voir aussi :
 
 * [Choisir la cible du BAT](#selecting-the-proof-target)
-* [A propos des adresses de contrôle](about-seed-addresses.md)
+* [À propos des adresses de contrôle](about-seed-addresses.md)
 * [Cas pratique : sélection des adresses de contrôle selon des critères](use-case--selecting-seed-addresses-on-criteria.md)
 
 ## Tutoriel vidéo {#seeds-and-proofs-video}

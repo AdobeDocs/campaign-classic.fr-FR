@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 
 ---
 
 # Requête incrémentale{#incremental-query}
+
+![](../../assets/common.svg)
 
 Une requête incrémentale permet de sélectionner périodiquement une cible selon un critère, mais d&#39;exclure les personnes qui ont déjà été ciblées sur ce critère les fois précédentes.
 
@@ -23,8 +25,8 @@ La requête est définie selon le même mode que pour les requêtes standard, ma
 
 **Rubriques connexes :**
 
-* [Cas pratique : mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](../../workflow/using/quarterly-list-update.md)
-* [Créer une requête](../../workflow/using/query.md#creating-a-query)
+* [Cas pratique : mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](quarterly-list-update.md)
+* [Créer une requête](query.md#creating-a-query)
 
 >[!CAUTION]
 >

@@ -6,8 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 100%
 
@@ -15,14 +15,16 @@ ht-degree: 100%
 
 # Créer les indicateurs{#creating-indicators}
 
+![](../../assets/common.svg)
+
 Pour qu&#39;un cube puisse être exploité, vous devez identifier les dimensions et les mesures utiles et les créer au niveau du cube.
 
 Les étapes de création d&#39;un cube sont les suivantes :
 
-1. Sélectionner la table de travail. Voir la section [Sélectionner la table de travail](#selecting-the-work-table).
-1. Définir des dimensions. Voir la section [Définir des dimensions](#defining-dimensions).
-1. Définir des mesures. Voir la section [Construire les indicateurs](#building-indicators).
-1. Créer des agrégats (facultatif). Voir la section [Calcul et utilisation d&#39;agrégats](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
+1. Sélectionner la table de travail. Pour plus d&#39;informations, consultez la section [Sélectionner la table de travail](#selecting-the-work-table).
+1. Définir des dimensions. Pour plus d&#39;informations, consultez la section [Définir des dimensions](#defining-dimensions).
+1. Définir des mesures. Pour plus d&#39;informations, consultez la section [Construire les indicateurs](#building-indicators).
+1. Créer des agrégats (facultatif). Pour plus d&#39;informations, consultez la section [Calcul et utilisation d&#39;agrégats](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
 
 L&#39;exemple ci-après permet de créer rapidement un cube simple et de l&#39;utiliser dans un rapport afin d&#39;en explorer les mesures.
 
@@ -88,7 +90,7 @@ Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle dimensio
 
    Seules les valeurs présentes dans l&#39;énumération seront affichées. Toutes les autres seront regroupées sous le libellé défini dans le champ **[!UICONTROL Libellé des autres valeurs]**.
 
-   Voir à ce propos la section [Gérer dynamiquement les classes](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
+   Pour plus d&#39;informations, consultez la section [Gérer dynamiquement les classes](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 
 ## Construire les indicateurs {#building-indicators}
 

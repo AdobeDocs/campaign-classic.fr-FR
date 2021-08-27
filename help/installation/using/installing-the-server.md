@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
 
 ---
 
 # Installation du serveur{#installing-the-server}
+
+![](../../assets/v7-only.svg)
 
 ## Exécution du programme d&#39;installation {#executing-the-installation-program}
 
@@ -60,7 +62,7 @@ Les étapes d&#39;installation du serveur Adobe Campaign sont les suivantes :
    >
    >Une fois l&#39;installation du serveur terminée, un redémarrage du serveur est requis pour éviter tout problème de réseau.
 
-   Une fois l&#39;installation terminée, démarrez Adobe Campaign pour créer les fichiers de configuration. Voir la section [Premier démarrage du serveur](#first-start-up-of-the-server).
+   Une fois l&#39;installation terminée, démarrez Adobe Campaign pour créer les fichiers de configuration. Pour plus d&#39;informations, consultez la section [Premier démarrage du serveur](#first-start-up-of-the-server).
 
 ## Test sommaire de l&#39;installation {#summary-installation-testing}
 

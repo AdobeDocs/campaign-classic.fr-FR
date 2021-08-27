@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 100%
 
 ---
 
 # Joindre des fichiers à un email {#attaching-files}
+
+![](../../assets/common.svg)
 
 ## À propos des pièces jointes à un email {#about-email-attachments}
 
@@ -30,7 +32,7 @@ Deux cas se présentent :
 
 >[!NOTE]
 >
->Ce type de configuration est généralement réalisé dans les modèles de diffusion. Voir à ce sujet la section [A propos des modèles](about-templates.md).
+>Ce type de configuration est généralement réalisé dans les modèles de diffusion. Voir à ce sujet la section [À propos des modèles](about-templates.md).
 
 ## Joindre un fichier local {#attaching-a-local-file}
 

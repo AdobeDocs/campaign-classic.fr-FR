@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos des connecteurs
-description: A propos des connecteurs
-feature: Vue d’ensemble
+title: À propos des connecteurs
+description: À propos des connecteurs
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 100%
 
 ---
 
 # Prise en main des connecteurs {#about-connectors}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign fournit plusieurs connecteurs qui vous permettent de communiquer avec des applications externes, de vous connecter à des moteurs de base de données et d’intégrer Adobe Campaign à Adobe Analytics pour partager des données.
 

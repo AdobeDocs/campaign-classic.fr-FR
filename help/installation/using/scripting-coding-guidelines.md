@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 100%
 
 ---
 
 # Instructions relatives aux scripts et au codage {#scripting-coding-guidelines}
+
+![](../../assets/v7-only.svg)
 
 ## Scripts
 

@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 100%
 
 ---
 
-# élément dbindex{#dbindex--element}
+# élément dbindex {#dbindex--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modèle de contenu {#content-model-3}
 

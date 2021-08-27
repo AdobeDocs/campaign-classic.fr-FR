@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '3779'
 ht-degree: 100%
 
 ---
 
 # Surveillance des processus{#monitoring-processes}
+
+![](../../assets/v7-only.svg)
 
 La surveillance du serveur applicatif et du serveur de redirection (**tracking**) peut être manuelle ou automatique.
 
@@ -255,8 +257,8 @@ Ils sont regroupés dans **Supervision** > &#39;Monitoring SMTP&#39;.
 >
 >* Les informations liées au Monitoring SMTP ne sont disponibles que si le canal email a été activé.
 >* Le rapport **[!UICONTROL Statistiques SMTP d&#39;envoi]** n&#39;est proposé que si le serveur de statistiques est démarré sur l&#39;instance.
->
 
+>
 
 
 ### Statistiques SMTP d&#39;envoi {#smtp-sending-statistics}
@@ -268,7 +270,8 @@ Le rapport **[!UICONTROL Statistiques SMTP d&#39;envoi]** permet de contrôler l
 La liste des indicateurs de ce rapport est proposée sous le graphique.
 
 1. Nombre total de messages envoyés.
-1. * Ligne bleue : messages prêts à l&#39;envoi arrivant dans le Shaper, i.e. dernière étape avant l&#39;envoi SMTP (correspond à ce qui entre).
+1. 
+   * Ligne bleue : messages prêts à l&#39;envoi arrivant dans le Shaper, i.e. dernière étape avant l&#39;envoi SMTP (correspond à ce qui entre).
 
    * Ligne verte : messages envoyés avec succès (correspond à ce qui sort).
 
@@ -316,7 +319,7 @@ La liste des indicateurs de ce rapport est proposée sous le tableau.
 
 Cliquez sur un nom de domaine pour en visualiser les erreurs.
 
-Elles sont classées par PublicId : cet identifiant correspond à une adresse IP partagée par plusieurs mta Adobe Campaign derrière un routeur. Le serveur de statistiques utilise cet identifiant pour mémoriser les statistiques de connexions et d&#39;envois entre ce point de départ et le serveur cible.
+Elles sont classées par PublicId : cet identifiant correspond à une adresse IP partagée par plusieurs mta Adobe Campaign derrière un routeur. Le serveur de statistiques utilise cet identifiant pour mémoriser les statistiques de connexions et d&#39;envois entre ce point de départ et le serveur cible.
 
 ![](assets/smtp_error_report_details.png)
 
@@ -382,7 +385,7 @@ wfserver@prod
 
 ### Les informations publiées par le serveur {#information-published-by-the-server}
 
-#### Le /r/test{#r-test}
+#### Le /r/test {#r-test}
 
 La page **http(s)://`<application>`/r/test** est utilisée pour tester le serveur de redirection. Nous vous recommandons d’utiliser la même méthode pour tester les serveurs frontaux utilisés pour le suivi. Cette page peut également être utilisée pour tester un répartiteur de charge.
 
@@ -394,7 +397,7 @@ Elle affiche une ligne au format XML du type :
 
 **Fréquence** : il s&#39;agit d&#39;un test ne sollicitant pas de charge, il peut donc être lancé très régulièrement (toutes les secondes, par exemple).
 
-#### Le /nl/jsp/ping.jsp{#nl-jsp-ping-jsp}
+#### Le /nl/jsp/ping.jsp {#nl-jsp-ping-jsp}
 
 Cette page **http(s)://`<Application server url>`/nl/jsp/ping.jsp** fonctionne de la même manière que sa contrepartie réseau : elle teste une requête complète qui passe par apache/tomcat/module web/base de données et qui est téléchargée vers le client. Si tout fonctionne correctement, elle renvoie « OK ». Nous vous recommandons d&#39;exécuter ce test sur les machines ayant accès aux bases de données (mtas et questionnaires, par exemple).
 
@@ -410,7 +413,7 @@ L&#39;opérateur et son login doivent avoir été préalablement configurés dan
 
 **Fréquence** : il s&#39;agit d&#39;un test sollicitant peu de charge, il peut donc être lancé assez souvent, mais pas plus d&#39;une fois par minute.
 
-#### Le /nl/jsp/monitor.jsp{#nl-jsp-monitor-jsp}
+#### Le /nl/jsp/monitor.jsp {#nl-jsp-monitor-jsp}
 
 Ce test permet de vérifier qu’un opérateur peut accéder au serveur Adobe Campaign via une page web. Il s’agit de la même page que celle accessible via les menus de la console cliente. Vous pouvez l’appeler à partir de vos outils de surveillance (Tivoli, Nagios, etc.).
 
@@ -422,7 +425,7 @@ L&#39;opérateur et son login doivent avoir été préalablement configurés dan
 
 **Fréquence** : il s&#39;agit d&#39;un test complet de tout le serveur, il n&#39;a pas à être lancé fréquemment (on peut l&#39;effectuer par exemple toutes les dix minutes).
 
-#### Le /nl/jsp/soaprouter.jsp{#nl-jsp-soaprouter-jsp}
+#### Le /nl/jsp/soaprouter.jsp {#nl-jsp-soaprouter-jsp}
 
 Ce **jsp** représente le point d&#39;entrée des API de l&#39;application Adobe Campaign. Il peut donc servir de monitoring fin de l&#39;application. Il peut également être utilisé pour surveiller les services web Adobe Campaign. Il est utilisé dans nos scripts de surveillance, néanmoins, il est réservé à des utilisateurs experts.
 
@@ -545,7 +548,7 @@ Voici un exemple de configuration :
 >
 >Pour que la connexion à l&#39;opérateur **monitoring** fonctionne, la machine sur laquelle le netreport est exécuté doit être dans une zone de sécurité en mode **sessionTokenOnly**. Si aucun masque IP de confiance n&#39;a été défini pour cet opérateur, la zone de sécurité doit être également en mode **allowEmptyPassword** et **allowUserPassword**.
 
-#### Elément &#39;properties&#39;{#properties--element}
+#### Elément &#39;properties&#39; {#properties--element}
 
 Cet élément permet de renseigner le paramétrage des mails, soit :
 
@@ -565,7 +568,7 @@ Cet élément permet de renseigner le paramétrage des mails, soit :
 >
 >L’attribut **persistHtmlFile** avec la valeur &quot;true&quot; sur l’élément **`<property>`** sert à enregistrer le dernier état de surveillance dans le fichier **netreport.md**. Ce fichier est enregistré dans le répertoire d’installation.
 
-#### Elément &#39;instance&#39;{#instance--element}
+#### Elément &#39;instance&#39; {#instance--element}
 
 Cet élément permet de regrouper plusieurs machines (hosts) sous une même instance. Les noms d&#39;instances apparaissent dans la première partie de l&#39;e-mail de monitoring. Vous pouvez cliquer sur le nom d&#39;une instance pour accéder au détail de chacune des machines.
 
@@ -583,7 +586,7 @@ instance name="instanceName" recipientList="mail@mail.com,mail2@mail.com">
 * **name** : nom de l&#39;instance qui apparaitra dans la première partie de l&#39;e-mail.
 * **recipientList** (optionnel) : vous permet d&#39;envoyer par email un rapport de monitoring concernant une instance en particulier.
 
-#### Elément &#39;host&#39;{#host--element}
+#### Elément &#39;host&#39; {#host--element}
 
 Cet élément paramètre la surveillance sur l&#39;host d&#39;un serveur donné, soit :
 

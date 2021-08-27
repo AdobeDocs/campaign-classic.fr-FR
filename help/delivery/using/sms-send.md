@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%
 
 ---
 
 # Envoi, surveillance et suivi de diffusions par SMS{#sms-properties}
+
+![](../../assets/common.svg)
 
 ## Envoi de messages SMS {#sending-sms-messages}
 
@@ -62,7 +64,7 @@ Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions
 
 * [Surveillance d’une diffusion](about-delivery-monitoring.md)
 * [Présentation des diffusions en échec](understanding-delivery-failures.md)
-* [A propos du tracking des messages](about-message-tracking.md)
+* [À propos du tracking des messages](about-message-tracking.md)
 
 ## Traitement des messages entrants {#processing-inbound-messages}
 
@@ -167,4 +169,4 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 >
 >Il n’existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le tableau de bord des diffusions. [En savoir plus](delivery-dashboard.md).
 >
->Ces messages ne sont pas pris en compte dans les règles de pression commerciale. [En savoir plus](../../campaign/using/pressure-rules.md).
+>Ces messages ne sont pas pris en compte dans les règles de pression commerciale. [En savoir plus](../../campaign-opt/using/pressure-rules.md).

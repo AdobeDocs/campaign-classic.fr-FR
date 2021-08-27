@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos des adresses de contrôle
-description: A propos des adresses de contrôle
+title: À propos des adresses de contrôle
+description: À propos des adresses de contrôle
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
 ---
 
-# A propos des adresses de contrôle{#about-seed-addresses}
+# À propos des adresses de contrôle{#about-seed-addresses}
+
+![](../../assets/common.svg)
 
 Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les destinataires qui n&#39;entrent pas dans le cadre de la diffusion peuvent la recevoir, comme tout autre destinataire cible.
 
@@ -46,5 +48,4 @@ Dans le cadre des diffusions courrier, les adresses de contrôle sont ajoutées 
 >* Il ne doit pas utiliser l&#39;option **[!UICONTROL Gérer les groupements (GROUP BY+HAVING)]**.
 >* Si des collections d&#39;éléments sont extraites, ces champs auront une valeur vide pour les adresses de contrôle, sauf si l&#39;option **[!UICONTROL Ligne unique (mode expert)]** est cochée. Voir à ce sujet [cette section](../../platform/using/executing-export-jobs.md#step-7---data-formatting).
 >
-
 

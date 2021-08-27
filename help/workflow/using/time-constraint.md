@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 100%
 
 ---
 
 # Contrainte horaire{#time-constraint}
+
+![](../../assets/common.svg)
 
 Une activité **Contrainte horaire** permet de reporter l’exécution d’une tâche ou de l’abandonner.
 

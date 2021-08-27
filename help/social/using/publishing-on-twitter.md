@@ -6,14 +6,16 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: e030c029-d1ee-4749-94e3-6bdfc8d89a34
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
 
 ---
 
 # Publier sur Twitter{#publishing-on-twitter}
+
+![](../../assets/v7-only.svg)
 
 ## Publier sur vos comptes Twitter {#publishing-on-your-twitter-accounts}
 
@@ -142,7 +144,7 @@ Pour chaque abonné, Adobe Campaign récupère les informations suivantes :
 * **[!UICONTROL Fuseau horaire]** : fuseau horaire de l&#39;utilisateur
 * **[!UICONTROL Vérifié]** : ce champ indique si l&#39;utilisateur possède un compte Twitter vérifié
 
-### Limitations {#limitations-1}
+### Limites {#limitations-1}
 
 Les limitations suivantes sont des contraintes inhérentes à Twitter.
 
@@ -184,7 +186,7 @@ Vous devez sélectionner les abonnés à qui vous souhaitez envoyer votre messag
 
 ### Choisir la cible du BAT {#selecting-the-target-of-the-proof-1}
 
-L&#39;onglet **[!UICONTROL Cible des BAT]** permet de définir l&#39;abonné qui recevra le BAT de votre message direct. Les étapes de sélection de la cible du BAT sont les mêmes que pour la sélection de la cible principale. Voir la section [Choisir la cible principale](#selecting-the-main-target).
+L&#39;onglet **[!UICONTROL Cible des BAT]** permet de définir l&#39;abonné qui recevra le BAT de votre message direct. Les étapes de sélection de la cible du BAT sont les mêmes que pour la sélection de la cible principale. Pour plus d&#39;informations, consultez la section [Choisir la cible principale](#selecting-the-main-target).
 
 ![](assets/social_twitter_delivery_020.png)
 
@@ -202,4 +204,4 @@ Comme pour une diffusion email, il est possible d’utiliser les champs de perso
 
 ![](assets/social_twitter_delivery_021.png)
 
-Les étapes suivantes sont les mêmes que pour l&#39;envoi d&#39;un tweet sur un compte Twitter. Voir la section [Publier sur vos comptes Twitter](#publishing-on-your-twitter-accounts).
+Les étapes suivantes sont les mêmes que pour l&#39;envoi d&#39;un tweet sur un compte Twitter. Pour plus d&#39;informations, consultez la section [Publier sur vos comptes Twitter](#publishing-on-your-twitter-accounts).

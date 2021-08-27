@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 100%
 
 ---
 
 # Ajout d&#39;autres fonctions SQL{#adding-additional-sql-functions}
+
+![](../../assets/v7-only.svg)
 
 ## Introduction {#introduction}
 
@@ -131,7 +133,7 @@ Le champ **@name** fait référence au nom de la fonction et « args » corres
    >
    >Si seules une ou deux bases de données sont susceptibles d&#39;être interrogées par la fonction que l&#39;on définit, on peut bien sûr ne fournir que les définitions correspondant à ces bases.
 
-## Le descripteur de fonction &#39;pass-through&#39;{#pass-through--function-descriptor}
+## Le descripteur de fonction &#39;pass-through&#39; {#pass-through--function-descriptor}
 
 Un descripteur de fonction spéciale est le bloc **« pass-through »** avec un système de base de données « provider » non spécifié. Dans ce cas, l’implémentation « body » ne peut contenir qu’un seul appel de fonction avec une syntaxe qui ne dépend pas de la base de données utilisée. Pendant ce temps, le bloc « ProviderPart » est unique.
 

@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: dbd50178-0a16-46ed-bfad-47beb3c2a420
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
 ---
 
 # Modules et problèmes courants{#modules-and-frequent-issues}
+
+![](../../assets/v7-only.svg)
 
 Voici une liste des modules concernés par des problèmes courants :
 

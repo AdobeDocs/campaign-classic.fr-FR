@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2643'
 ht-degree: 100%
 
 ---
 
 # Créer un tableau{#creating-a-table}
+
+![](../../assets/common.svg)
 
 Vous pouvez ajouter un tableau dans un rapport afin d&#39;afficher les données. Il peut s&#39;agir d&#39;un tableau croisé dynamique, créé à travers les mesures d&#39;un cube, d&#39;une liste avec groupement ou d&#39;un tableau de distribution des valeurs.
 
@@ -37,7 +39,7 @@ Il permet de répertorier la liste des opérations (**[!UICONTROL Libellé (Opé
 
 ![](assets/s_advuser_ergo_listgroup_005.png)
 
-### Etapes de mise en oeuvre {#implementation-steps}
+### Étapes d&#39;implémentation {#implementation-steps}
 
 Un exemple complet de mise en œuvre est proposé ici : [Cas pratique : créer un rapport avec une liste avec groupement](#use-case--create-a-report-with-a-group-list).
 

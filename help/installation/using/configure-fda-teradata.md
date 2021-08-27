@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1639'
 ht-degree: 100%
 
 ---
 
 # Configurer l’accès à Teradata {#configure-access-to-teradata}
+
+![](../../assets/v7-only.svg)
 
 Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Teradata.
 
@@ -67,7 +69,6 @@ Vous devez installer des pilotes pour que Teradata puisse établir une connexion
 >[!NOTE]
 >
 >La connexion à une base de données externe Teradata dans FDA nécessite certaines étapes de configuration supplémentaires sur le serveur Adobe Campaign. [En savoir plus](#teradata-additional-configurations).
-
 
 ## Compte externe Teradata{#teradata-external}
 
@@ -201,7 +202,7 @@ Pour installer sha2 :
    .run file = hash_sha512.sql
    ```
 
-### Installation de UDF_UTF16TO8 {#UDF-UTF16TO8-installation}
+### Installation de UDF_UTF16TO8  {#UDF-UTF16TO8-installation}
 
 Si vous souhaitez utiliser les fonctions udf_utf16to8 dans votre instance d’Adobe Campaign, vous devez installer la fonction de mode utilisateur sur votre base de données Teradata à partir **de la boîte à outils Teradata Unicode** de cette [page](https://downloads.teradata.com/download/tools/unicode-tool-kit) (utk_release1.7.0.0.zip).
 

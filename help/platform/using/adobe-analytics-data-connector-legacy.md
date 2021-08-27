@@ -2,26 +2,28 @@
 product: campaign
 title: Adobe Analytics - Data Connector
 description: Adobe Analytics - Data Connector
-feature: Vue d’ensemble
+feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1833'
 ht-degree: 100%
 
 ---
 
 # Adobe Analytics Data Connector{#adobe-analytics-data-connector-legacy}
 
+![](../../assets/common.svg)
+
 >[!IMPORTANT]
 >
 >Adobe Analytics Data Connector est désormais obsolète. Les fonctionnalités obsolètes sont toujours disponibles, mais elles ne seront ni améliorées ni prises en charge. En savoir plus [sur cette page](../../rn/using/deprecated-features.md).
 
-## A propos de l&#39;intégration de Data Connector {#about-data-connector-integration}
+## À propos de l&#39;intégration de Data Connector {#about-data-connector-integration}
 
 >[!IMPORTANT]
 >
@@ -234,7 +236,6 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
    * **[!UICONTROL Date de contact]** (scheduling/@contactDate)
 
 
-
 ## Tracking des diffusions dans Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
 
 Afin qu&#39;Adobe Experience Cloud puisse suivre l&#39;activité sur les sites après l&#39;envoi de diffusions par Adobe Campaign, il est nécessaire de référencer le connecteur correspondant dans les propriétés de la diffusion. Pour cela, procédez comme suit :
@@ -244,7 +245,7 @@ Afin qu&#39;Adobe Experience Cloud puisse suivre l&#39;activité sur les sites
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. Ouvrez les propriétés de la diffusion.
-1. Dans l&#39;onglet **[!UICONTROL Web Analytics]**, sélectionnez le compte externe créé précédemment. Voir la section [Étape 2 : créer le compte externe dans Campaign](#step-2--create-the-external-account-in-campaign).
+1. Dans l&#39;onglet **[!UICONTROL Web Analytics]**, sélectionnez le compte externe créé précédemment. Pour plus d&#39;informations, consultez la section [Étape 2 : créer le compte externe dans Campaign](#step-2--create-the-external-account-in-campaign).
 
    ![](assets/webanalytics_delivery_properties_002.png)
 

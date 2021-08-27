@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 100%
 
 ---
 
 # Création d’une liste récapitulative{#creating-a-summary-list}
+
+![](../../assets/common.svg)
 
 Ce cas pratique détaille la création d&#39;un workflow permettant, à partir d&#39;une collecte de fichiers et suite à plusieurs enrichissements de données, de créer une liste récapitulative. L&#39;exemple est basé sur une liste de contacts ayant effectué des achats dans un magasin.
 
@@ -92,7 +94,7 @@ Positionnez l&#39;activité d&#39;enrichissement puis configurez-la comme suit :
 
    ![](assets/uc2_enrich_enrich3.png)
 
-Pour plus d&#39;informations sur les différents types de liens, voir la section [Enrichir/Modifier des données](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
+Pour plus d&#39;informations sur les différents types de liens, voir la section [Enrichir/Modifier des données](targeting-data.md#enriching-and-modifying-data).
 
 Dans la fenêtre suivante, vous devez créer une condition de jointure en sélectionnant le champ source (dans l&#39;ensemble principal) et le champ cible (appartenant au schéma &quot;Magasins&quot;) afin de créer une réconciliation entre les données.
 

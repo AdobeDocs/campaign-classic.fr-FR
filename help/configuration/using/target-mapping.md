@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 100%
 
 ---
 
 # Mapping de ciblage{#target-mapping}
+
+![](../../assets/v7-only.svg)
 
 La création d&#39;un mapping de ciblage est nécessaire dans deux cas de figure :
 
@@ -51,7 +53,7 @@ Pour cela, les étapes sont les suivantes :
    </srcSchema>
    ```
 
-1. Déclarez votre schéma comme vue externe à l&#39;aide de l&#39;attribut view=&quot;true&quot;. Voir la section [Attribut view](../../configuration/using/schema-characteristics.md#the-view-attribute).
+1. Déclarez votre schéma comme vue externe à l&#39;aide de l&#39;attribut view=&quot;true&quot;. Pour plus d&#39;informations, consultez la section [Attribut view](../../configuration/using/schema-characteristics.md#the-view-attribute).
 
    ```
     <srcSchema desc="External recipient table" namespace="cus" view="true"....>

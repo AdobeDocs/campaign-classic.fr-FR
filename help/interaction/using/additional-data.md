@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: Additional data
-description: Additional data
+description: Données additionnelles
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 100%
 
 ---
 
-# Additional data{#additional-data}
+# Données additionnelles{#additional-data}
+
+![](../../assets/v7-only.svg)
 
 Il est possible, lors de l&#39;appel au moteur d&#39;Interaction, de passer des données additionnelles contextuelles. Ces données peuvent provenir des données de la cible stockées dans la table de travail d&#39;un workflow (canal sortant) ou des données d&#39;appel envoyées par le site web au moment de l&#39;appel (canal entrant). Vous avez la possibilité d&#39;utiliser ces données additionnelles dans les règles d&#39;éligibilité, dans la personnalisation des offres, et vous pouvez également les stocker dans la table des propositions.
 

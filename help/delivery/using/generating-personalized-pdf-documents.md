@@ -6,8 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Générer des documents PDF personnalisés{#generating-personalized-pdf-documents}
 
-## A propos des documents PDF variables {#about-variable-pdf-documents}
+![](../../assets/common.svg)
+
+## À propos des documents PDF variables {#about-variable-pdf-documents}
 
 Adobe Campaign permet la génération de documents PDF variables (pièces jointes d&#39;email, diffusion courrier papier) à partir de documents LibreOffice ou Microsoft Word.
 

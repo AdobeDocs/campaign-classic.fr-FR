@@ -5,14 +5,16 @@ description: Découvrez comment configurer l’intégration Campaign-AEM
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
 
 ---
 
 # Configuration de l&#39;intégration{#configuring-the-integration}
+
+![](../../assets/common.svg)
 
 ## Configuration dans Adobe Campaign {#configuring-in-adobe-campaign}
 

@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 100%
 
 ---
 
 # Gestion des fuseaux horaires{#time-zone-management}
+
+![](../../assets/v7-only.svg)
 
 ## Principe de fonctionnement {#operating-principle}
 

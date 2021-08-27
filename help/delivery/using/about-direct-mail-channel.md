@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos du canal Courrier
-description: A propos du canal Courrier
+title: À propos du canal Courrier
+description: À propos du canal Courrier
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 100%
 
 ---
 
-# A propos du canal Courrier{#about-direct-mail-channel}
+# À propos du canal Courrier{#about-direct-mail-channel}
+
+![](../../assets/common.svg)
 
 Adobe Campaign vous permet de produire des fichiers afin de diffuser des lettres personnalisées en masse. Les profils des destinataires doivent contenir au moins leurs noms et adresses postales.
 

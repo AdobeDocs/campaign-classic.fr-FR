@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: tracking-offers
 exl-id: 480d49e7-0237-4c87-abe8-445b7bf91a30
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 100%
 
 ---
 
 # Historique des propositions{#offer-proposition-history}
+
+![](../../assets/v7-only.svg)
 
 Une fois vos propositions d&#39;offres effectuées, vous pouvez consulter l&#39;historique de vos différentes présentations.
 

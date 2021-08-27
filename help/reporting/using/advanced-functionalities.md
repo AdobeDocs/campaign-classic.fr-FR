@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
 
 ---
 
 # Fonctionnalités avancées{#advanced-functionalities}
+
+![](../../assets/common.svg)
 
 En tant qu&#39;utilisateur technique, en plus des [propriétés générales](../../reporting/using/properties-of-the-report.md), vous pouvez tirer parti de fonctionnalités avancées pour configurer vos rapports, telles que :
 

@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '377'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 88%
 
 ---
 
 # Connexion impossible{#failure-to-connect}
+
+![](../../assets/v7-only.svg)
 
 Les causes des problèmes de connexion peuvent être multiples et dépendent des différents contextes.
 
@@ -43,9 +45,8 @@ Vous pouvez effectuer les tests suivants. Si la connexion échoue toujours, cont
 </tr>
 <tr> 
 <td>L'intégration Adobe Campaign est-elle bien effectuée ?</td> 
-<td>Connectez-vous à l’URL <b>http(s)://&lt;urlserver&gt;/r/test</b> URL. Le serveur doit renvoyer le type de message suivant : &lt;redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='&lt;hostname&gt;' localHost='&lt;server&gt;'/&gt;
-
-Si vous n’obtenez pas ce résultat, vérifiez que l’intégration est prise en compte dans la configuration de votre serveur Web.</td>
+<td>Connectez-vous à l’URL <b>http(s)://&lt;urlserver&gt;/r/test</b> URL. Le serveur doit renvoyer le type de message suivant : &lt;redir status='OK' date='YYY/MM/DD HH:MM:SS' build='XXXX' host='&lt;hostname&gt;' localHost='&lt;server&gt;'/&gt;
+Si vous n’obtenez pas ce résultat, vérifiez dans la configuration de votre serveur Web que l’intégration est prise en compte.</td>
 </tr>
 <tr> 
 <td>Connectez-vous à l’URL suivante : <b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>

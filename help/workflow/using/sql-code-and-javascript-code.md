@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
 
 ---
 
 # Code SQL et code JavaScript{#sql-code-and-javascript-code}
+
+![](../../assets/common.svg)
 
 ## Code SQL {#sql-code}
 
@@ -27,11 +29,11 @@ Une activité de type **[!UICONTROL Code SQL]** exécute un script SQL. Le scrip
 
 * **[!UICONTROL Traiter les erreurs]**
 
-   Voir la section [Traiter les erreurs](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+   Pour plus d&#39;informations, consultez la section [Erreurs de traitement](monitoring-workflow-execution.md#processing-errors).
 
 ## Code JavaScript et code JavaScript avancé {#javascript-code}
 
-Les activités **[!UICONTROL code JavaScript]** et **[!UICONTROL code JavaScript avancé]** exécutent un script JavaScript dans le cadre d’un workflow. Pour plus d’informations sur les scripts, voir la section [Scripts/Templates JavaScript](../../workflow/using/javascript-scripts-and-templates.md).
+Les activités **[!UICONTROL code JavaScript]** et **[!UICONTROL code JavaScript avancé]** exécutent un script JavaScript dans le cadre d’un workflow. Pour plus d’informations sur les scripts, voir la section [Scripts/Templates JavaScript](javascript-scripts-and-templates.md).
 
 ### Délai d‘exécution {#exec-delay}
 
@@ -47,7 +49,7 @@ Pour ignorer cette limite, vous devez définir la valeur sur **0**.
 
 * **[!UICONTROL Script]** : la zone centrale de l’éditeur contient le script à exécuter.
 
-* **[!UICONTROL Traiter les erreurs]** : voir la section [Traitement des erreurs](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+* **[!UICONTROL Traiter les erreurs]** : voir la section [Traitement des erreurs](monitoring-workflow-execution.md#processing-errors).
 
 ### Code JavaScript avancé {#adv-js-code-desc}
 

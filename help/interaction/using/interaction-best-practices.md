@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 98413cde-50c9-416c-8316-85837f724c27
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 100%
 
 ---
 
 # Bonnes pratiques relatives aux interactions{#interaction-best-practices}
+
+![](../../assets/v7-only.svg)
 
 ## Recommandations générales {#general-recommendations}
 

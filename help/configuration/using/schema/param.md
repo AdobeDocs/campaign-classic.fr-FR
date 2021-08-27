@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%
 
 ---
 
-# élément param{#param--element}
+# élément param {#param--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modèle de contenu {#content-model-12}
 
@@ -83,7 +85,7 @@ Cet élément permet de définir un paramètre d&#39;un appel à une méthode S
    * timespan
    * uuid
 
-## Exemples {#examples-9}
+## Exemples  {#examples-9}
 
 Définition du paramètre en entrée &quot;serviceName&quot; de type chaîne de caractères:
 

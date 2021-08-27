@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Collecteur de fichiers{#file-collector}
+
+![](../../assets/common.svg)
 
 Le **Collecteur de fichiers** assure un suivi de l&#39;arrivée d&#39;un ou plusieurs fichiers dans un répertoire et active sa transition pour chacun des fichiers reçus. Pour chaque événement, une variable **[!UICONTROL filename]** contient le nom complet du fichier reçu. Les fichiers collectés sont déplacés dans un autre répertoire afin de ne les prendre en compte qu&#39;une seule fois et pour historisation.
 
@@ -23,7 +25,7 @@ Les fichiers doivent se trouver sur le serveur sur lequel s&#39;exécute le modu
 
 ## Propriétés {#properties}
 
-Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vous permet de sélectionner le répertoire source et, si nécessaire, de filtrer les fichiers collectés. Les autres onglets sont présentés dans la section [Réception d’emails](../../workflow/using/inbound-emails.md) (onglets **[!UICONTROL Planning]** et **[!UICONTROL Expiration]**).
+Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vous permet de sélectionner le répertoire source et, si nécessaire, de filtrer les fichiers collectés. Les autres onglets sont présentés dans la section [Réception d’emails](inbound-emails.md) (onglets **[!UICONTROL Planning]** et **[!UICONTROL Expiration]**).
 
 ![](assets/file_collect_edit.png)
 
@@ -67,7 +69,7 @@ Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vo
 
 1. **Historisation**
 
-   Voir l’étape **[!UICONTROL Historisation des fichiers]** de la section [Téléchargement Web](../../workflow/using/web-download.md).
+   Voir l’étape **[!UICONTROL Historisation des fichiers]** de la section [Téléchargement Web](web-download.md).
 
 L&#39;ordre de traitement des fichiers ne peut être déterminé. Pour traiter séquentiellement un ensemble de fichier, il faut utiliser l&#39;option **[!UICONTROL Terminer dès qu&#39;un fichier est traité]** et faire une boucle. Dans ce cas, les fichiers seront traités par ordre alphabétique. L&#39;option **[!UICONTROL Traiter l&#39;absence de fichier]** permet de terminer l&#39;itération.
 
@@ -75,4 +77,4 @@ L&#39;ordre de traitement des fichiers ne peut être déterminé. Pour traiter s
 
 ## Paramètres de sortie {#output-parameters}
 
-* filename: nom de fichier complet. Il s’agit du nom de fichier après son déplacement dans le répertoire d’historisation. Le chemin d’accès est donc différent, mais le nom est également différent si un autre fichier portant le même nom existe déjà dans le répertoire. L’extension est conservée.
+* filename: Nom complet du fichier. Il s’agit du nom de fichier après son déplacement dans le répertoire d’historisation. Le chemin d’accès est donc différent, mais le nom est également différent si un autre fichier portant le même nom existe déjà dans le répertoire. L’extension est conservée.

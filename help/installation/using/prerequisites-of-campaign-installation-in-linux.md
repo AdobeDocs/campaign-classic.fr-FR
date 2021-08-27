@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 100%
 
 ---
 
 # Prérequis pour l’installation de Campaign sous Linux{#prerequisites-of-campaign-installation-in-linux}
+
+![](../../assets/v7-only.svg)
 
 ## Logiciels prérequis {#software-prerequisites}
 
@@ -182,7 +184,7 @@ Vous pouvez obtenir un package RPM Linux depuis Oracle Technology Network.
 
 >[!NOTE]
 >
->Si vous avez déjà installé le client Oracle mais que l&#39;environnement global (par exemple : /etc/profile) n&#39;est pas correctement configuré, vous pouvez ajouter les informations manquantes dans le script **nl6/customer.sh**. Voir à ce propos la section [Variables d&#39;environnement](../../installation/using/installing-packages-with-linux.md#environment-variables).
+>Si vous avez déjà installé le client Oracle mais que l&#39;environnement global (par exemple : /etc/profile) n&#39;est pas correctement configuré, vous pouvez ajouter les informations manquantes dans le script **nl6/customer.sh**. Pour plus d&#39;informations, consultez la section [Variables d&#39;environnement](../../installation/using/installing-packages-with-linux.md#environment-variables).
 
 **Résolution de problèmes et bonnes pratiques**
 
@@ -206,7 +208,7 @@ Si vous remarquez sur la console cliente qu&#39;il y a des décalages horaires i
 
 La version des bibliothèques prises en charge est **libdb2.so**.
 
-## Etapes de mise en oeuvre {#implementation-steps}
+## Étapes d&#39;implémentation {#implementation-steps}
 
 L&#39;installation d&#39;Adobe Campaign sous Linux doit être réalisée dans l&#39;ordre suivant : installation du serveur puis paramétrage des instances.
 

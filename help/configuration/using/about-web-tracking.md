@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
 
 ---
 
 # À propos du tracking web{#about-web-tracking}
+
+![](../../assets/v7-only.svg)
 
 En complément du tracking standard, assurant le suivi du comportement d&#39;un internaute lorsqu&#39;il clique sur un lien dans un email, la plateforme Adobe Campaign offre la possibilité de collecter des informations sur la navigation des internautes sur votre site web. Cette collecte est assurée par le module de webtracking.
 

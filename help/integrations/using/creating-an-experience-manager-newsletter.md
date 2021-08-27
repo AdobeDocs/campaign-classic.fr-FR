@@ -5,14 +5,16 @@ description: Création d'une newsletter Experience Manager
 audience: integrations
 content-type: reference
 exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 100%
 
 ---
 
 # Création d&#39;une newsletter Experience Manager{#creating-an-experience-manager-newsletter}
+
+![](../../assets/common.svg)
 
 Cette intégration peut être utilisée, par exemple, pour créer une newsletter dans Adobe Experience Manager, qui sera ensuite utilisée dans le cadre d&#39;une campagne email dans Adobe Campaign.
 

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Connexion à la base de données {#connecting-to-the-database}
+
+![](../../assets/v7-only.svg)
 
 Pour permettre la connexion à la base de données externe, vous devez indiquer les paramètres de connexion, c&#39;est-à-dire la source de données visée et le nom de la table dont les données doivent être chargées.
 
@@ -31,7 +33,7 @@ Pour activer une connexion à une base de données externe partagée, tant que c
 1. Cliquez sur le lien **[!UICONTROL Nouveau]** et sélectionnez le type **[!UICONTROL Base de données externe]**.
 1. Définissez les paramètres **[!UICONTROL Connexion]** de la base de données externe.
 
-   Pour les connexions à une base de données de type **ODBC**, le champ **[!UICONTROL Serveur]** doit contenir le nom de la source de données ODBC, et non le nom du serveur. De plus, certains paramétrages supplémentaires peuvent être nécessaires en fonction des bases de données utilisées. Voir la section [Configurations spécifiques par type de base de données](../../installation/using/configure-fda.md).
+   Pour les connexions à une base de données de type **ODBC**, le champ **[!UICONTROL Serveur]** doit contenir le nom de la source de données ODBC, et non le nom du serveur. De plus, certains paramétrages supplémentaires peuvent être nécessaires en fonction des bases de données utilisées. Pour plus d&#39;informations, consultez la section [Configurations spécifiques par type de base de données](../../installation/using/configure-fda.md).
 
 1. Une fois les paramètres renseignés, cliquez sur le bouton **[!UICONTROL Tester la connexion]** pour les valider.
 
@@ -92,11 +94,11 @@ Par exemple, dans l&#39;activité de requête, les étapes sont les suivantes po
 
 Vous pouvez sécuriser l&#39;accès à une base externe lors du paramétrage d&#39;un compte externe FDA.
 
-Pour cela, ajoutez &quot;**:ssl**&quot; à la suite de l&#39;adresse du serveur et du port utilisé. Par exemple : **192.168.0.52:4501:ssl**.
+Pour ce faire, ajoutez &quot;**:ssl**&quot; après l’adresse du serveur et l’adresse du port utilisé. Par exemple : **192.168.0.52:4501:ssl**.
 
-Les données seront ainsi envoyées via le protocole sécurisé SSL.
+Les données seront ainsi envoyées via le protocole sécurisé SSL.
 
-## Paramétrages additionnels {#additional-configurations}
+## Configurations supplémentaires {#additional-configurations}
 
 Au besoin, vous pouvez créer le schéma nécessaire à l&#39;exploitation des données contenues dans une base externe. De même, Adobe Campaign permet de définir un mapping sur les données d&#39;une table externe. Ces paramétrages sont généraux et ne s&#39;appliquent pas exclusivement au contexte des workflows.
 

@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 
 ---
 
 # Création d&#39;une diffusion SMS {#creating-a-sms-delivery}
+
+![](../../assets/common.svg)
 
 ## Choisir le canal de diffusion {#selecting-the-delivery-channel}
 
@@ -24,7 +26,7 @@ Pour créer une diffusion SMS, procédez comme suit :
 >Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
 
 1. Créez une diffusion, par exemple depuis le tableau de bord des diffusions.
-1. Sélectionnez le modèle de diffusion **Envoyé vers mobiles (SMPP)** que vous avez créé précédemment. Voir à ce propos la section [Modifier le modèle de diffusion](sms-set-up.md#changing-the-delivery-template).
+1. Sélectionnez le modèle de diffusion **Envoyé vers mobiles (SMPP)** que vous avez créé précédemment. Pour plus d&#39;informations, consultez la section [Modifier le modèle de diffusion](sms-set-up.md#changing-the-delivery-template).
 
    ![](assets/s_user_mobile_wizard.png)
 
@@ -61,7 +63,7 @@ Pour définir le contenu du SMS, procédez comme suit :
    >
    >Lorsque vous lancez l&#39;analyse, la longueur des messages est contrôlée et un message d&#39;avertissement est affiché en cas de dépassement.
 
-1. Si vous utilisez le connecteur NetSize ou un connecteur SMPP, il est possible de personnaliser le nom de l&#39;émetteur de la diffusion. Voir à ce propos la section [Paramètres avancés](#advanced-parameters).
+1. Si vous utilisez le connecteur NetSize ou un connecteur SMPP, il est possible de personnaliser le nom de l&#39;émetteur de la diffusion. Pour plus d&#39;informations, consultez la section [Paramètres avancés](#advanced-parameters).
 
 ## Choisir la population cible {#selecting-the-target-population}
 

@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 399e9468-bf70-425d-af0b-72c29636b513
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%
 
 ---
 
 # Créer des filtres prédéfinis{#creating-predefined-filters}
+
+![](../../assets/v7-only.svg)
 
 Les filtres prédéfinis permettent de créer des règles d&#39;éligibilité sur la population ciblée qui pourront être facilement réutilisées lors de la création des offres. Ils sont propres à chaque environnement et permettent de prendre en compte les paramètres des offres.
 

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
 
 ---
 
 # Définir le mapping des données {#defining-data-mapping}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign permet de définir un mapping sur les données d&#39;une table externe.
 
@@ -41,4 +43,4 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour lancer la création du mapping de diffusion : toutes les tables liées sont créées automatiquement, selon les paramètres sélectionnés.
+   Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour lancer la création du mapping de diffusion : toutes les tables liées sont créées automatiquement, selon les paramètres sélectionnés.

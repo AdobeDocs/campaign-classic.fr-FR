@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 100%
 
 ---
 
 # Étapes clés de création d’un questionnaire{#getting-started-with-surveys}
+
+![](../../assets/v7-only.svg)
 
 Nous vous proposons ici d&#39;aborder rapidement, en sept étapes clés, la création d&#39;un questionnaire simple, selon le modèle natif suivant :
 

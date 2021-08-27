@@ -6,7 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 571dd96d1f3bff5c3dab05dce5319f913f29a670
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 93%
@@ -14,6 +14,8 @@ ht-degree: 93%
 ---
 
 # Tester la migration{#testing-the-migration}
+
+![](../../assets/v7-only.svg)
 
 ## Procédure générale {#general-procedure}
 
@@ -126,7 +128,7 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
    <td> Avertissement<br /> </td> 
-   <td> Ce type de syntaxe n’est plus pris en charge dans la personnalisation de la diffusion. Voir la section <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. Sinon, vérifiez que le type de valeur est correct.<br /> </td> 
+   <td> Ce type de syntaxe n’est plus pris en charge dans la personnalisation de la diffusion. Pour plus d'informations, consultez la section <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. Sinon, vérifiez que le type de valeur est correct.<br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 
@@ -138,7 +140,7 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> logon(<br /> </td> 
    <td> PU-0003<br /> </td> 
    <td> Avertissement<br /> </td> 
-   <td> Cette méthode de connexion ne doit plus être utilisée. Voir la section <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">Applications web identifiées</a>.<br /> </td> 
+   <td> Cette méthode de connexion ne doit plus être utilisée. Pour plus d'informations, consultez la section <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">Applications web identifiées</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> new SoapMethodCall(<br /> </td> 
@@ -150,13 +152,13 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> sql=<br /> </td> 
    <td> PU-0005<br /> </td> 
    <td> Erreur<br /> </td> 
-   <td> Ce type d’erreur entraîne un échec de la migration. Voir la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
+   <td> Ce type d’erreur entraîne un échec de la migration. Pour plus d'informations, consultez la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> Erreur<br /> </td> 
-   <td> Ce type d’erreur entraîne un échec de la migration. Voir la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si vous obtenez des logs d'erreur d'application web de type vues d'ensemble (migration depuis une v6.02), reportez-vous à la section <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Configuration de Campaign</a>.<br /> </td> 
+   <td> Ce type d’erreur entraîne un échec de la migration. Pour plus d'informations, consultez la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si vous obtenez des logs d'erreur d'application web de type vues d'ensemble (migration depuis une v6.02), reportez-vous à la section <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Configuration de Campaign</a>.<br /> </td> 
   </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 

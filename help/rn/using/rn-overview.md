@@ -2,18 +2,20 @@
 product: campaign
 title: Prise en main des mises à niveau
 description: En savoir plus sur les mises à niveau de Campaign Classic
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '412'
 ht-degree: 100%
 
 ---
 
 # Prise en main des mises à niveau{#rn-overview}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign fait l&#39;objet de mises à jour régulières. En moyenne, deux ou trois versions mineures sont publiées chaque année avec de nouvelles fonctionnalités, des améliorations et des correctifs. En outre, nous publions périodiquement des builds avec des correctifs cumulatifs uniquement.
 
@@ -61,7 +63,7 @@ En tant qu’utilisateur [!DNL Gold Standard] hébergé, vous bénéficiez autom
 ## Support et autres liens utiles{#support}
 
 * [Aide et support](../../support.md)
-* [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr)
+* [Versions du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr)
 * [Dernières mises à jour de la documentation](../../rn/using/documentation-updates.md)
 * [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md)
 

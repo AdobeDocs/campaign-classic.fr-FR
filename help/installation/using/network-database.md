@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: Réseau, base de données et SSL/TLS
-description: En savoir plus sur les bonnes pratiques en matière de configuration du réseau, de la base de données et du protocole SSL/TLS.
+title: Réseau, base de données et SSL/TLS
+description: En savoir plus sur les bonnes pratiques en matière de configuration du réseau, de la base de données et du protocole SSL/TLS.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 100%
 
 ---
 
-# Réseau, base de données et SSL/TLS {#network-database}
+# Réseau, base de données et SSL/TLS {#network-database}
+
+![](../../assets/v7-only.svg)
 
 ## Configuration réseau
 
@@ -28,7 +30,7 @@ Si possible, utilisez un canal sécurisé : POP3S au lieu de POP3 (ou POP3 sur 
 
 Vous devez appliquer les bonnes pratiques en matière de sécurité au moteur de votre base de données.
 
-## Configuration de SSL/TLS
+## Configuration de SSL/TLS
 
 Pour vérifier le certificat, vous pouvez utiliser openssl. Pour contrôler les chiffrements actifs, vous pouvez avoir recours à nmap :
 

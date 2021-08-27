@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%
 
 ---
 
 # Créer une diffusion depuis un modèle{#creating-a-delivery-from-a-template}
+
+![](../../assets/common.svg)
 
 ## Associer le modèle à une diffusion {#linking-the-template-to-a-delivery}
 

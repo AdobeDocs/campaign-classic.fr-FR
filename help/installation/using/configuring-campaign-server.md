@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 100%
 
 ---
 
 # Prise en main de la configuration du serveur Campaign{#gs-campaign-server-config}
+
+![](../../assets/v7-only.svg)
 
 Ce chapitre décrit les configurations côté serveur qui peuvent être exécutées en fonction de vos besoins et des spécificités de votre environnement.
 
@@ -25,7 +27,7 @@ Pour les déploiements **hébergés**, les paramètres côté serveur ne peuvent
 
 Pour plus d’informations, consultez les sections suivantes :
 
-* [Documentation relative au Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
+* [Documentation relative au panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
 * [Modèles d&#39;hébergement](../../installation/using/hosting-models.md)
 * [Matrice des fonctionnalités On-premise et hébergées de Campaign Classic](../../installation/using/capability-matrix.md)
 
@@ -57,7 +59,7 @@ Configurez ou adaptez le serveur Campaign en fonction de vos besoins et de votre
 * [Redémarrage automatique des processus](#automatic-process-restart)
 
 
-## Identifiant &#39;internal&#39;{#internal-identifier}
+## Identifiant &#39;internal&#39; {#internal-identifier}
 
 L&#39;identifiant **internal** est un login technique à utiliser lors de la phase d&#39;installation, pour les paramétrages techniques d&#39;administration et de maintenance. Ce login n&#39;est pas associé à une instance.
 

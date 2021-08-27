@@ -6,8 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Inbox rendering{#inbox-rendering}
 
-## A propos de l&#39;inbox rendering {#about-inbox-rendering}
+![](../../assets/common.svg)
+
+## À propos de l&#39;inbox rendering {#about-inbox-rendering}
 
 Avant d&#39;appuyer sur le bouton **Envoyer**, vérifiez que l&#39;affichage de votre message sera optimal pour les destinataires sur divers clients web, webmails et appareils.
 
@@ -36,7 +38,7 @@ Pour les clients hébergés et hybrides, l&#39;Inbox rendering est configuré po
 Pour les installations sur site, suivez la procédure ci-dessous pour configurer l&#39;Inbox rendering.
 
 1. Installez le package **[!UICONTROL Inbox rendering (IR)]** via le menu **[!UICONTROL Outils]** >**[!UICONTROL Avancé]** > **[!UICONTROL Import de package]**. Pour plus d&#39;informations, voir la section [Installer des packages standard Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
-1. Configurez un compte externe de type HTTP via le nœud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]**. Voir à ce propos la section [Créer un compte externe](../../installation/using/external-accounts.md#creating-an-external-account).
+1. Configurez un compte externe de type HTTP via le nœud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]**. Pour plus d&#39;informations, consultez la section [Créer un compte externe](../../installation/using/external-accounts.md#creating-an-external-account).
 1. Définissez les paramètres du compte externe comme suit :
    * **[!UICONTROL Libellé]** : informations relatives au serveur de délivrabilité
    * **[!UICONTROL Nom interne]** : deliverabilityInstance
@@ -64,7 +66,7 @@ Pour les installations sur site, suivez la procédure ci-dessous pour configurer
 >
 >Vous devrez peut-être vous déconnecter de la console et vous reconnecter pour pouvoir utiliser l&#39;Inbox rendering.
 
-## A propos des jetons Litmus {#about-litmus-tokens}
+## À propos des jetons Litmus {#about-litmus-tokens}
 
 Litmus étant un service tiers, il fonctionne selon un modèle de crédit déduit par utilisation. Chaque fois qu&#39;un utilisateur fait appel à la fonctionnalité Litmus, un crédit est déduit.
 
@@ -82,8 +84,8 @@ Chaque fois que vous utilisez la fonctionnalité **[!UICONTROL Inbox rendering]*
 >
 >* Chaque fois que le rapport d&#39;inbox rendering est généré, un jeton est déduit par client de messagerie : un jeton pour le rendu Outlook 2000, un pour le rendu Outlook 2010, un pour le rendu Apple Mail 9, etc.
 >* Pour une même diffusion, si vous régénérez le rapport d&#39;inbox rendering, le nombre de jetons disponibles est à nouveau réduit en fonction du nombre de rendus générés.
->
 
+>
 
 
 Le nombre de jetons disponibles restants est indiqué dans la **[!UICONTROL synthèse générale]** du [Rapport d&#39;inbox rendering](#inbox-rendering-report).

@@ -6,8 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 100%
 
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 # Connexion par LDAP{#connecting-through-ldap}
 
+![](../../assets/v7-only.svg)
+
 ## Configuration Campaign et LDAP {#configuring-campaign-and-ldap}
 
 >[!NOTE]
 >
 >La configuration LDAP est uniquement possible pour les installations de type on-premise ou hybride.
 
-La configuration LDAP est réalisée dans l&#39;assistant de déploiement. L&#39;option **[!UICONTROL Intégration LDAP]** doit être sélectionnée dans la première étape de configuration. Voir la section [Assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-wizard).
+La configuration LDAP est réalisée dans l&#39;assistant de déploiement. L&#39;option **[!UICONTROL Intégration LDAP]** doit être sélectionnée dans la première étape de configuration. Pour plus d&#39;informations, consultez la section [Assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
 La fenêtre correspondante permet de configurer l&#39;identification des utilisateurs Adobe Campaign via l&#39;annuaire LDAP spécifié.
 
@@ -34,11 +36,11 @@ La fenêtre correspondante permet de configurer l&#39;identification des utilisa
 
       Mode par défaut.
 
-   * Mot de passe en clair + SSL (**TLS**)
+   * Mot de passe en clair + SSL (**TLS**)
 
       Toute la procédure d&#39;authentification (mot de passe compris) est cryptée. Le port sécurisé 636 ne doit pas être utilisé dans ce mode : Adobe Campaign passe automatiquement en mode sécurisé.
 
-      Lorsque vous utilisez ce mode d&#39;authentification, sous Linux, le certificat est vérifié par la bibliothèque client openLDAP. Nous vous recommandons d&#39;utiliser un certificat SSL valide afin que la procédure d&#39;authentification soit cryptée. Dans le cas contraire, les informations seront passées en clair.
+      Lorsque vous utilisez ce mode d&#39;authentification, sous Linux, le certificat est vérifié par la bibliothèque client openLDAP. Nous vous recommandons d&#39;utiliser un certificat SSL valide afin que la procédure d&#39;authentification soit cryptée. Dans le cas contraire, les informations seront passées en clair.
 
       Le certificat est également vérifié sous Windows.
 

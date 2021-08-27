@@ -7,14 +7,16 @@ content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 100%
 
 ---
 
 # Utilisation de serveurs MX avec Campaign {#using-mx-servers}
+
+![](../../assets/v7-only.svg)
 
 Découvrez le fonctionnement des serveurs MX avec Adobe Campaign Classic.
 
@@ -56,7 +58,7 @@ Adobe Campaign gère ce processus en établissant une correspondance entre un t
 * **[!UICONTROL Boîte pleine]** : boîte aux lettres qui a atteint sa capacité maximale. Cette erreur peut également indiquer que l’utilisateur n’utilise plus cette boîte aux lettres. L’erreur est catégorisée comme une erreur soft et conduit à une mise en quarantaine à la troisième erreur et à une suppression dans la quarantaine suite à une période de 30 jours.
 * **[!UICONTROL Utilisateur inactif]** : la boîte aux lettres a été désactivée par le fournisseur d’accès à Internet, car l’utilisateur a été inactif au cours des 6 derniers mois. Cette erreur est catégorisée comme une erreur soft et conduit à une mise en quarantaine à la troisième erreur.
 * **[!UICONTROL Domaine invalide]** : le domaine de l’adresse email n’existe pas. Cette erreur est catégorisée comme une erreur soft et conduit à une mise en quarantaine à la troisième erreur.
-* **[!UICONTROL Refusé]** : Le FAI a refusé de remettre l’email à ses utilisateurs. Cette erreur est classée comme une erreur soft et n’aboutit pas à une mise en quarantaine, car elle n’est pas liée à l’adresse email mais à l’adresse IP ou à la réputation d’un domaine.
+* **[!UICONTROL Refusé]** : Le FAI a refusé de remettre l’email à ses utilisateurs. Cette erreur est classée comme une erreur soft et n’aboutit pas à une mise en quarantaine, car elle n’est pas liée à l’adresse email mais à l’adresse IP ou à la réputation d’un domaine.
 
 >[!NOTE]
 >

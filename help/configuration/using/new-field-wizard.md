@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 
 ---
 
 # Assistant d&#39;ajout de champs{#new-field-wizard}
+
+![](../../assets/v7-only.svg)
 
 Un assistant accessible à partir du menu **[!UICONTROL Outils > Avancé > Ajout de champs]** permet d&#39;ajouter un ou plusieurs champs dans une table de la base de données.
 

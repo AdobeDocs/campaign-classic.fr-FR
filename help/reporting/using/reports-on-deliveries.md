@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
 
 ---
 
 # À propos des rapports sur les diffusions{#reports-on-deliveries}
+
+![](../../assets/common.svg)
 
 Adobe Campaign propose plusieurs types de rapports, accessibles depuis la console cliente ou depuis un navigateur internet.
 

@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: A propos des canaux entrants
-description: A propos des canaux entrants
+title: À propos des canaux entrants
+description: À propos des canaux entrants
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 
 ---
 
-# A propos des canaux entrants{#about-inbound-channels}
+# À propos des canaux entrants{#about-inbound-channels}
+
+![](../../assets/v7-only.svg)
 
 Les offres peuvent être présentées à divers emplacements utilisant un canal entrant ou sortant. Ce chapitre traite des spécificités des canaux entrants.
 

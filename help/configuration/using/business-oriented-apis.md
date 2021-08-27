@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
 
 ---
 
 # API orientées métier{#business-oriented-apis}
+
+![](../../assets/v7-only.svg)
 
 Les API métier sont spécifiques à chaque type d&#39;objet. Elles agissent sur :
 
@@ -28,7 +30,7 @@ Les API métier sont spécifiques à chaque type d&#39;objet. Elles agissent sur
    * démarrer un workflow,
    * contrôler les process, etc.
 
-      Voir la section [Méthodes SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
+      Pour plus d&#39;informations, consultez la section [Méthodes SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Gestion de contenu
 * Gestion des abonnements, voir les sections [Subscribe (nms:subscription)](#subscribe--nms-subscription-) et [Unsubscribe (nms:subscription)](#unsubscribe--nms-subscription-).

@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 100%
 
 ---
 
 # Balise de tracking web : définition{#web-tracking-tag-definition}
+
+![](../../assets/v7-only.svg)
 
 Une balise de tracking Web n&#39;est autre qu&#39;une URL construite avec les paramètres adéquats, transmise au serveur de redirection via une requête HTTP.
 

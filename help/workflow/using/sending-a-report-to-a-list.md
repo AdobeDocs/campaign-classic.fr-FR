@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
 ---
 
 # Envoyer un rapport à une liste{#sending-a-report-to-a-list}
+
+![](../../assets/common.svg)
 
 Ce cas pratique présente comment générer, chaque mois, le rapport d&#39;usine **[!UICONTROL Indicateurs de tracking]** au format PDF et l&#39;envoyer à une liste de destinataires.
 
@@ -89,7 +91,7 @@ Pour réaliser ce cas d&#39;utilisation, le workflow suivant a été créé. Cel
 
    ![](assets/use_case_report_9.png)
 
-   Pour plus d&#39;informations sur la configuration du planificateur, consultez la section [Planificateur](../../workflow/using/scheduler.md).
+   Pour plus d&#39;informations sur la configuration du planificateur, consultez la section [Planificateur](scheduler.md).
 
 1. Ajoutez ensuite une activité de type **[!UICONTROL Code JavaScript]**.
 

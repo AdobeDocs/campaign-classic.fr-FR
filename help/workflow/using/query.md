@@ -6,19 +6,21 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '1685'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '1692'
+ht-degree: 98%
 
 ---
 
 # Requête{#query}
 
+![](../../assets/common.svg)
+
 ## Créer une requête {#creating-a-query}
 
 Une requête permet de sélectionner une cible selon des critères. Vous pouvez associer un code segment au résultat de la requête et y insérer des données additionnelles.
-Pour plus d’informations sur des exemples de requêtes, voir [cette section](../../workflow/using/querying-recipient-table.md).
+Pour plus d’informations sur des exemples de requêtes, voir [cette section](querying-recipient-table.md).
 
 >[!NOTE]
 >
@@ -36,7 +38,7 @@ Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de cib
 
    La dimension de filtrage permet d&#39;aller chercher ces éléments, par exemple les informations liées à la personne ciblée (les contrats, les soldes de comptes, etc.).
 
-   Voir à ce sujet la section [Dimension de ciblage et dimension de filtrage](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions).
+   Voir à ce sujet la section [Dimension de ciblage et dimension de filtrage](building-a-workflow.md#targeting-and-filtering-dimensions).
 
    ![](assets/s_user_segmentation_query_edit.png)
 
@@ -52,7 +54,7 @@ Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de cib
 
 1. Ajoutez éventuellement des critères de filtrage manuellement si vous avez sélectionné **[!UICONTROL Critères de filtrage]** à l&#39;étape 1 ou via l&#39;option **[!UICONTROL Filtres]** > **[!UICONTROL Filtre avancé...]**.
 
-   Vous pouvez également ajouter des conditions de groupement de données en cochant la case correspondante. Pour cela, la dimension de filtrage doit impérativement être différente de la dimension de ciblage de la requête. Pour plus d&#39;informations concernant le groupement, consultez cette [section](../../workflow/using/querying-using-grouping-management.md).
+   Vous pouvez également ajouter des conditions de groupement de données en cochant la case correspondante. Pour cela, la dimension de filtrage doit impérativement être différente de la dimension de ciblage de la requête. Pour plus d&#39;informations concernant le groupement, consultez cette [section](querying-using-grouping-management.md).
 
    Vous pouvez ajouter plusieurs critères en vous aidant de l&#39;outil de construction d&#39;expressions et les combiner via les opérateurs logiques ET, OU et SAUF. Vous pouvez ensuite afficher la **[!UICONTROL Requête SQL correspondante...]** à votre combinaison de critères. Voir à ce propos cette [section](../../platform/using/defining-filter-conditions.md#building-expressions).
 
@@ -73,7 +75,7 @@ Sélectionnez d&#39;abord le type de données à ajouter :
 ![](assets/wf_add_data_1st_option.png)
 
 * Sélectionnez **[!UICONTROL Données liées à la dimension de ciblage]** pour sélectionner des données de la base Adobe Campaign.
-* Sélectionnez **[!UICONTROL Données externes]** pour ajouter des données issues d’une base de données externe. Cette option n’est disponible que si vous avez acquis l’option **Federated Data Access**. Voir à ce sujet la section [Accéder à une base externe (FDA)](../../workflow/using/accessing-an-external-database--fda-.md).
+* Sélectionnez **[!UICONTROL Données externes]** pour ajouter des données issues d’une base de données externe. Cette option n’est disponible que si vous avez acquis l’option **Federated Data Access**. Voir à ce sujet la section [Accéder à une base externe (FDA)](accessing-an-external-database--fda-.md).
 * Sélectionnez l&#39;option **[!UICONTROL Une proposition d&#39;offre]** pour ajouter un ensemble de colonnes permettant de stocker la meilleure proposition générée par le moteur d&#39;offres. Cette option n&#39;est disponible que si vous avez acquis le module **Interaction**.
 
 Si aucun module optionnel n&#39;est installé sur la plateforme, cette étape n&#39;est pas affichée. Vous accédez directement à l&#39;étape suivante.
@@ -90,10 +92,10 @@ Pour ajouter des données de la base Adobe Campaign :
 
    Vous pouvez ajouter :
 
-   * Un champ calculé à partir de données issues de la population ciblée ou un agrégat (nombre d’achats en attente au cours du dernier mois, montant moyen d’un ticket de caisse, etc.). Un exemple est proposé dans la section [Sélectionner les données](../../workflow/using/targeting-data.md#selecting-data).
+   * Un champ calculé à partir de données issues de la population ciblée ou un agrégat (nombre d’achats en attente au cours du dernier mois, montant moyen d’un ticket de caisse, etc.). Un exemple est proposé dans la section [Sélectionner les données](targeting-data.md#selecting-data).
    * Un nouveau champ, créé à partir du bouton **[!UICONTROL Ajouter]** situé à droite de la liste des colonnes de sortie.
 
-      Vous pouvez également ajouter une collection d’informations, par exemple une liste de contrats, les 5 dernières diffusions, etc. Les collections correspondent à des champs dont les valeurs peuvent être multiples pour un même profil (relation 1-N). Voir à ce sujet la section [Editer les données additionnelles](../../workflow/using/targeting-data.md#editing-additional-data).
+      Vous pouvez également ajouter une collection d’informations, par exemple une liste de contrats, les 5 dernières diffusions, etc. Les collections correspondent à des champs dont les valeurs peuvent être multiples pour un même profil (relation 1-N). Voir à ce sujet la section [Editer les données additionnelles](targeting-data.md#editing-additional-data).
 
 Pour ajouter une collection d&#39;informations liées à une population ciblée :
 
@@ -129,7 +131,7 @@ Dans l&#39;exemple suivant, la requête cherchera à identifier les hommes de 18
 
 >[!NOTE]
 >
->D&#39;autres exemples de requête sont présentés dans [cette section](../../workflow/using/querying-recipient-table.md).
+>D&#39;autres exemples de requête sont présentés dans [cette section](querying-recipient-table.md).
 
 1. Nommez votre requête puis sélectionnez le lien **[!UICONTROL Editer la requête...]**.
 1. Sélectionnez **[!UICONTROL Critères de filtrage]** dans la liste des types de filtres disponibles.
@@ -184,7 +186,11 @@ La section ci-dessous présente les bonnes pratiques pour optimiser les requête
 
    Assurez-vous de connaître le plan d’exécution de votre requête. Évitez les analyses de table complètes, en particulier pour les requêtes en temps réel ou quasi temps réel qui s’exécutent toutes les minutes.
 
-Pour plus d’informations, reportez-vous aux sections [Bonnes pratiques relatives au modèle de données](https://helpx.adobe.com/fr/campaign/kb/acc-data-model-best-practices.html) et [Mapping de la base de données](../../configuration/using/database-mapping.md).
+   Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
+
+   ![](assets/do-not-localize/v7.jpeg)[  Documentation Campaign v7](../../configuration/using/database-mapping.md)
+
+   ![](assets/do-not-localize/v8.png)[  Documentation Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html)
 
 ### Fonctions {#functions}
 
@@ -211,7 +217,7 @@ L’équivalent de la dimension de filtrage dans SQL est la jointure interne :
 
 `select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
 
-Pour plus d’informations sur les dimensions de filtrage, consultez [cette section](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions).
+Pour plus d’informations sur les dimensions de filtrage, consultez [cette section](building-a-workflow.md#targeting-and-filtering-dimensions).
 
 ### Architecture {#architecture}
 

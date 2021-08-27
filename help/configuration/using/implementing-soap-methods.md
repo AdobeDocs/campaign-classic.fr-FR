@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
 ---
 
 # Implémenter des méthodes SOAP{#implementing-soap-methods}
+
+![](../../assets/v7-only.svg)
 
 ## Introduction {#introduction}
 
@@ -34,7 +36,7 @@ Les méthodes doivent d’abord être déclarées dans les schémas (pour en sav
 
 Leur déclaration est similaire à celle des méthodes natives. La seule différence est l’ajout de l’attribut &#39;library&#39; spécifiant le nom de la bibliothèque de méthodes dans laquelle se trouve la définition.
 
-Ce nom correspond au nom (avec l’espace de noms) de l’entité de type &#39;Code JavaScript&#39;.
+Ce nom correspond au nom (avec l&#39;espace de noms) de l&#39;entité de type &#39;Code JavaScript&#39;.
 
 Exemple:
 

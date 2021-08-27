@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
-source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 100%
 
 ---
 
 # Eléments statiques dans un formulaire web{#static-elements-in-a-web-form}
+
+![](../../assets/common.svg)
 
 Vous pouvez inclure des éléments avec lesquels l&#39;utilisateur n&#39;a aucune interaction dans les pages du formulaire ; il s&#39;agit d&#39;éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Ces éléments sont créés par le premier bouton de la barre d&#39;outils, en sélectionnant **[!UICONTROL Éléments statiques]**.
 
@@ -115,7 +117,7 @@ Vous pouvez personnaliser le contenu HTML d&#39;une page de formulaire avec des 
 
 ![](assets/s_ncs_admin_survey_tag_ctx_1.png)
 
-Vous pouvez réinjecter dans la page suivante le nom de l&#39;utilisateur et la marque sélectionnée en utilisant des champs de personnalisation. La syntaxe à utiliser dépend du mode de stockage des informations. Voir à ce propos la section [Utiliser les informations collectées](web-forms-answers.md#using-collected-information).
+Vous pouvez réinjecter dans la page suivante le nom de l&#39;utilisateur et la marque sélectionnée en utilisant des champs de personnalisation. La syntaxe à utiliser dépend du mode de stockage des informations. Pour plus d&#39;informations, consultez la section [Utiliser les informations collectées](web-forms-answers.md#using-collected-information).
 
 >[!NOTE]
 >

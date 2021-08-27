@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 99%
@@ -15,7 +15,9 @@ ht-degree: 99%
 
 # FAQ sur l&#39;upgrade de build {#build-upgrade-faq}
 
-Adobe Campaign fait l&#39;objet de mises à jour régulières. Si vous connaissez les [notes de mise à jour](../../rn/using/rn-overview.md) que nous publions, vous savez probablement déjà que nous proposons en moyenne deux à trois versions mineures par an contenant de nouvelles fonctionnalités, des améliorations et des correctifs. En outre, nous publions périodiquement des builds avec des correctifs cumulatifs uniquement. Cette cadence régulière de mises à jour vise à vous proposer les meilleures et les plus récentes fonctionnalités, en préservant la sécurité de votre environnement ainsi qu&#39;en améliorant votre expérience avec notre produit.
+![](../../assets/common.svg)
+
+Adobe Campaign fait l&#39;objet de mises à jour régulières. Si vous connaissez les [notes de mise à jour](../../rn/using/rn-overview.md) que nous publions, vous savez probablement déjà que nous proposons en moyenne deux à trois versions mineures par an contenant de nouvelles fonctionnalités, des améliorations et des correctifs. En outre, nous publions périodiquement des builds avec des correctifs cumulatifs uniquement. Cette cadence régulière de mises à jour vise à vous proposer les fonctionnalités les plus appropriées et les plus récentes, en préservant la sécurité de votre environnement et en améliorant votre expérience avec notre produit.
 
 C&#39;est pourquoi il est essentiel que nos clients exécutent la version la plus récente d&#39;Adobe Campaign. Nous pouvons ainsi vous aider plus efficacement si vous rencontrez des problèmes ; l&#39;identification, la reproduction et la résolution d&#39;un problème sur un ancien build prend généralement plus de temps, sans compter que vos éventuels problèmes peuvent avoir été corrigés dans un build récent.
 
@@ -43,29 +45,29 @@ Depuis Campaign Classic 19.2, un statut est associé à chaque build.
 
 En savoir plus [dans cette section](../../rn/using/rn-overview.md).
 
-## Un upgrade de build équivaut-il à un upgrade de version ?
+## Une mise à niveau de build équivaut-il à une mise à niveau de version ?
 
-Non. Un upgrade de build est une mise à jour incrémentale au sein d&#39;une version majeure donnée, tandis qu&#39;un upgrade de version correspond au passage d&#39;une version majeure à une autre. Les upgrades de build sont simples, car ils n&#39;impliquent généralement aucun changement majeur du point de vue technique, architectural ou des modèle de données.
+Non. Une mise à niveau de build est une mise à jour incrémentale au sein d’une version majeure donnée, tandis que mise à niveau de version correspond au passage d’une version majeure à une autre. Les mises à niveau de build sont simples, car ils n’impliquent généralement aucun changement majeur du point de vue technique, architectural ou des modèle de données.
 
-En revanche, les upgrades de version s&#39;accompagnent souvent de changements techniques importants et, selon le niveau de configuration d&#39;un client donné, peuvent nécessiter des changements notables de la configuration et/ou une nouvelle implémentation partielle.
+En revanche, les mises à niveau de version s’accompagnent souvent de changements techniques importants et, selon le niveau de configuration d’un client donné, peuvent nécessiter des changements notables de la configuration et/ou une nouvelle implémentation partielle.
 
 Par exemple, si l&#39;on reprend les informations de serveur figurant dans la capture d&#39;écran de la section précédente :
 
-* Un upgrade de build signifierait passer du build 6880 à n&#39;importe quel build supérieur à 6880. Par exemple, de v6.1.1 build 8222 à v6.1.1 build 8666
+* Une mise à niveau de build signifierait passer du build 6880 à n’importe quel build supérieur à 6880. Par exemple, de v6.1.1 build 8222 à v6.1.1 build 8666.
 
-* Un upgrade de version signifierait passer de la version 6.0.2 à n&#39;importe quelle version supérieure à 6.0.2. Par exemple : de v6.0.1 build 222 à v6.1.1 build 8666
+* Une mise à niveau de version signifierait passer de la version 6.0.2 à n’importe quelle version supérieure à 6.0.2. Par exemple : de v6.0.1 build 2222 à v6.1.1 build 8666.
 
 ## Dois-je sauvegarder mes données avant d&#39;effectuer ces mises à jour ?
 
-Adobe réalisera une sauvegarde de votre système avant tout changement. Toutefois, si votre système de hors production (serveurs de développement ou de test) a fait l&#39;objet de personnalisations critiques, nous vous RECOMMANDONS FORTEMENT d&#39;exporter ces personnalisations sous la forme d&#39;un package avant tout upgrade.
+Adobe réalisera une sauvegarde de votre système avant tout changement. Toutefois, si votre système hors production (serveurs de développement ou de test) a fait l’objet de personnalisations critiques, nous vous RECOMMANDONS FORTEMENT d’exporter ces personnalisations sous la forme d’un package avant toute mise à niveau.
 
 ![](assets/do-not-localize/how-to-video.png) Pour plus d‘informations, [regardez cette vidéo pratique](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
 
-## Quand les upgrades auront-ils lieu ?
+## Quand les mises à jour auront-elles lieu ?
 
-Les clients pourront effectuer un choix parmi plusieurs dates. Les changements des systèmes de production ne sont pas effectuées lors des jours fériés.
+Les clients pourront effectuer un choix parmi plusieurs dates. Les changements des systèmes de production ne sont pas effectués les jours fériés.
 
-Les upgrades de build peuvent être réalisés du lundi au jeudi ; le vendredi étant réservé aux instances hors production.
+Les upgrades de build peuvent être réalisés du lundi au jeudi, le vendredi étant réservé aux instances hors production.
 
 ## Combien de temps durera l&#39;upgrade de build ?
 
@@ -73,13 +75,13 @@ La durée de l&#39;upgrade de build dépend de plusieurs facteurs :
 
 * La taille de la base de données à sauvegarder ou à restaurer (l&#39;upgrade de bases de données plus volumineuses dure généralement plus longtemps).
 * La taille des environnements (nombre de nos clients possèdent différents serveurs gérant des fonctions spécifiques, et l&#39;upgrade des environnements de plus grande taille prend plus de temps).
-* La complexité du système (certains présentent davantage de services et de connexions dépendants à vérifier, et la stabilité et les performances de tels systèmes doivent être vérifiées).
+* La complexité du système (certains systèmes présentent davantage de services et de connexions dépendants à vérifier, et la stabilité et les performances de tels systèmes doivent être vérifiées).
 
 L&#39;upgrade de build est un processus en deux étapes :
 
 1. Préparation du système à l&#39;upgrade : tenant compte des spécificités de votre environnement, cette phase conduit essentiellement à un upgrade complet sur un environnement hors production. Une fois l&#39;environnement mis à niveau validé du point de vue technique et fonctionnel, il est possible de passer à la phase 2. En fonction des facteurs mentionnés ci-dessus, la première phase peut prendre entre plusieurs jours et deux semaines.
 
-1. L&#39;upgrade lui-même : l&#39;environnement de production est mise à niveau. Cette phase prend généralement quelques heures. Dans le cas d&#39;environnements très complexes, vous devez prévoir un temps d’arrêt plus long. En cas de problème, une stratégie de restauration est définie et peut être exécutée.
+1. L&#39;upgrade lui-même : l’environnement de production est mis à niveau.  Cette phase prend généralement quelques heures. Dans le cas d&#39;environnements très complexes, vous devez prévoir un temps d’arrêt plus long. En cas de problème, une stratégie de restauration est définie et peut être exécutée.
 
 Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html).
 
@@ -87,7 +89,7 @@ Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/fr/camp
 
 L&#39;upgrade de build requiert les ressources suivantes :
 
-* Architecte Adobe : l&#39;architecte doit se charger de la coordination avec l&#39;Assistance clientèle en cas d&#39;architecture hébergée ou Cloud Messaging/hybride.
+* Architecte Adobe : l&#39;architecte doit se charger de la coordination avec l&#39;assistance clientèle en cas d&#39;architecture hébergée ou Cloud Messaging/hybride.
 * Chef de projet - Hébergé : l&#39;équipe chargée de l&#39;hébergement s&#39;associera à l&#39;équipe de l&#39;assistance clientèle et au client pour coordonner le calendrier de l&#39;upgrade pour toutes les instances.
 * Administrateur Adobe Campaign - Hébergé : l&#39;équipe chargée de l&#39;hébergement réalise l&#39;upgrade.
 * Opérateur Adobe Campaign\utilisateur marketing : l&#39;opérateur effectue des tests sur les instances de développement, de test et de production.
@@ -164,7 +166,7 @@ Oui. Le serveur est arrêté au cours d&#39;un upgrade de façon à assurer l&#3
 
 ## Qui dois-je contacter pour ouvrir le ticket d&#39;upgrade de build ?
 
-Si vous rencontrez des problèmes après un upgrade de build, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). L&#39;Assistance clientèle planifie les dates de build et ouvre les tickets correspondants.
+Si vous rencontrez des problèmes après un upgrade de build, contactez l&#39;[assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Cette équipe planifie les dates de build et ouvre les tickets correspondants.
 
 En savoir plus dans [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
 

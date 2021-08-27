@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '4030'
 ht-degree: 100%
 
 ---
 
 # Bonnes pratiques relatives au modèle de données{#data-model-best-practices}
+
+![](../../assets/v7-only.svg)
 
 Ce document présente les principales recommandations lors de la conception de votre modèle de données Adobe Campaign.
 
@@ -53,26 +55,26 @@ Quelles données doivent être envoyées à Adobe Campaign ? Il est essentiel 
 
 >[!NOTE]
 >
-> Adobe Campaign n’est ni un entrepôt de données, ni un outil de reporting. Vous devez donc éviter d’importer dans Adobe Campaign tous les clients possibles et les informations qui s’y rapportent, ou d’importer des données uniquement pour créer des rapports.
+> Adobe Campaign n&#39;est ni un entrepôt de données, ni un outil de reporting. Vous devez donc éviter d&#39;importer dans Adobe Campaign tous les clients possibles et les informations qui s&#39;y rapportent, ou d&#39;importer des données uniquement pour créer des rapports.
 
-Pour décider si un attribut est nécessaire ou non dans Adobe Campaign, demandez-vous s’il appartient à l’une des catégories suivantes :
+Pour décider si un attribut est nécessaire ou non dans Adobe Campaign, demandez-vous s&#39;il appartient à l&#39;une des catégories suivantes :
 
 * Attribut utilisé pour la **segmentation**
 * Attribut utilisé pour les **processus de gestion des données** (calcul agrégé, par exemple)
 * Attribut utilisé pour la **personnalisation**
 
-S’il n’appartient à aucune de ces catégories, il est probable que vous n’ayez pas besoin de cet attribut dans Adobe Campaign.
+S&#39;il n&#39;appartient à aucune de ces catégories, il est probable que vous n&#39;ayez pas besoin de cet attribut dans Adobe Campaign.
 
 ### Choix des types de données {#data-types}
 
 Pour optimiser l’architecture et les performances de votre système, appliquez les bonnes pratiques suivantes pour configurer les données dans Adobe Campaign.
 
 * Une table volumineuse doit essentiellement contenir des champs numériques et des liens vers des tables de référence (si vous utilisez des listes de valeurs).
-* L’attribut **expr** permet de définir un attribut de schéma sous la forme d’un champ calculé plutôt que d’une valeur physique définie dans une table. Vous pouvez ainsi accéder aux informations dans un format différent (par exemple, l’âge et la date de naissance) sans avoir à stocker les deux valeurs. Il s’agit d’un bon moyen d’éviter la duplication des champs. Par exemple, la table des destinataires utilise une expression relative au domaine qui est déjà présente dans le champ de l’email.
-* Toutefois, lorsque le calcul de l’expression est complexe, il n’est pas recommandé d’utiliser l’attribut **expr**, car le calcul à la volée peut avoir une incidence sur les performances de vos requêtes.
-* Le type **XML** est un bon moyen d’éviter de créer des champs superflus. Cependant, il occupe aussi un certain volume d’espace disque, car il utilise une colonne CLOB dans la base de données. Il peut aussi contribuer à la complexité des requêtes SQL et avoir un impact sur les performances.
+* L’attribut **expr** permet de définir un attribut de schéma sous la forme d’un champ calculé plutôt que d’une valeur physique définie dans une table. Vous pouvez ainsi accéder aux informations dans un format différent (par exemple, l’âge et la date de naissance) sans avoir à stocker les deux valeurs. Il s’agit d’un bon moyen d’éviter la duplication des champs. Par exemple, la table des destinataires utilise une expression relative au domaine qui est déjà présente dans le champ de l&#39;e-mail.
+* Toutefois, lorsque le calcul de l&#39;expression est complexe, il n&#39;est pas recommandé d&#39;utiliser l&#39;attribut **expr**, car le calcul à la volée peut avoir une incidence sur les performances de vos requêtes.
+* Le type **XML** est un bon moyen d&#39;éviter de créer des champs superflus. Cependant, il occupe aussi un certain volume d&#39;espace disque, car il utilise une colonne CLOB dans la base de données. Il peut aussi contribuer à la complexité des requêtes SQL et avoir un impact sur les performances.
 * La longueur d’un champ de **chaîne** doit toujours être définie avec la colonne. Dans Adobe Campaign, la longueur maximale est de 255 par défaut, mais Adobe recommande de raccourcir le champ si vous savez déjà que la taille ne dépassera pas une longueur inférieure.
-* Dans Adobe Campaign, il est acceptable de disposer d’un champ plus court que dans le système source si vous êtes sûr que la taille du système source a été surestimée et ne sera pas atteinte. Cela peut signifier une chaîne plus courte ou un entier plus petit dans Adobe Campaign.
+* Dans Adobe Campaign, il est acceptable de disposer d&#39;un champ plus court que dans le système source si vous êtes sûr que la taille du système source a été surestimée et ne sera pas atteinte. Cela peut signifier une chaîne plus courte ou un entier plus petit dans Adobe Campaign.
 
 ### Choix des champs {#choice-of-fields}
 
@@ -82,7 +84,7 @@ Pour les instances hybrides et on-premise, le module FDA (Federated Data Access,
 
 ### Choix des clés {#choice-of-keys}
 
-Outre la clé **autopk** définie par défaut dans la plupart des tables, vous pouvez envisager d’ajouter des clés logiques ou métier (numéro de compte, numéro de client, etc.). Vous pourrez l’utiliser ultérieurement pour les imports et les réconciliations ou les packages de données. Pour plus d’informations, voir la section [Identificateurs](#identifiers).
+Outre la clé **autopk** définie par défaut dans la plupart des tables, vous pouvez envisager d’ajouter des clés logiques ou métier (numéro de compte, numéro de client, etc.). Vous pourrez l’utiliser ultérieurement pour les imports et les réconciliations ou les packages de données. Pour plus d&#39;informations, voir la section [Identificateurs](#identifiers).
 
 L’efficacité des clés est essentielle pour les performances. Les types de données numériques doivent toujours être préférés comme clés pour les tables.
 
@@ -98,28 +100,28 @@ Les tablespaces dédiés sont plus performants pour la création de partitions e
 
 ## Identificateurs {#identifiers}
 
-Les ressources Adobe Campaign ont trois identifiants et il est possible d’en ajouter un supplémentaire.
+Les ressources Adobe Campaign ont trois identifiants et il est possible d&#39;en ajouter un supplémentaire.
 
 Le tableau ci-après décrit ces identifiants et leur finalité.
 
 | Identifiant | Description | Bonnes pratiques |
 |--- |--- |--- |
 | Id | <ul><li>L’id est la clé primaire physique d’une table Adobe Campaign. Pour les tables d’usine, il s’agit d’un nombre sur 32 bits généré à partir d’une séquence.</li><li>Cet identifiant est généralement unique pour une instance Adobe Campaign spécifique. </li><li>Un id généré automatiquement est visible dans une définition de schéma. Il suffit de rechercher l’attribut *autopk=&quot;true&quot;*.</li></ul> | <ul><li>Les identifiants générés automatiquement ne peuvent pas être utilisés comme référence dans un workflow ou une définition de package.</li><li>Un id n’est pas nécessairement un nombre croissant.</li><li>L’id d’une table d’usine est un nombre sur 32 bits dont le type ne doit pas être modifié. Il provient d’une « séquence », qui est également l’intitulé de la section consacrée à ce sujet.</li></ul> |
-| Nom (ou nom interne) | <ul><li>Cette information est l’identifiant unique d’un enregistrement dans une table. Cette valeur peut être mise à jour manuellement, généralement avec un nom généré.</li><li>Cet identifiant conserve sa valeur lorsqu’il est déployé dans une autre instance d’Adobe Campaign et ne doit pas être vide.</li></ul> | <ul><li>Changez le nom d’enregistrement généré par Adobe Campaign si l’objet est destiné à être déployé d’un environnement à un autre.</li><li>Si un objet possède un attribut d’espace de noms (par exemple, *schema*), cet espace de noms commun sera appliqué à tous les objets personnalisés créés. Certains espaces de noms réservés ne doivent pas être utilisés : *nms*, *xtk*, *nl*, *ncl*, *crm*, *xxl*.</li><li>Lorsqu’un objet n’a pas d’espace de noms (*workflow* ou *delivery*, par exemple), cette notion d’espace de noms est ajoutée sous la forme d’un préfixe d’un objet de nom interne : *namespaceMyObjectName*.</li><li>N’utilisez pas de caractères spéciaux tels que l’espace « », le point-virgule « ; » ou le tiret « - ». Tous ces caractères seront remplacés par un trait de soulignement « _ » (caractère autorisé). Par exemple, « abc-def » et « abc:def » seront stockés sous la forme de « abc_def » et s’écraseront mutuellement.</li></ul> |
-| Libellé | <ul><li>Le libellé est l’identifiant d’entreprise d’un objet ou d’un enregistrement dans Adobe Campaign.</li><li>Cet objet autorise les espaces et les caractères spéciaux.</li><li>Il ne garantit pas le caractère unique d&#39;un enregistrement.</li></ul> | <ul><li>Il est recommandé de déterminer une structure pour les libellés de vos objets.</li><li>Il s’agit de la solution la plus conviviale pour identifier un enregistrement ou un objet pour un utilisateur d’Adobe Campaign.</li></ul> |
+| Nom (ou nom interne) | <ul><li>Cette information est l&#39;identifiant unique d&#39;un enregistrement dans une table. Cette valeur peut être mise à jour manuellement, généralement avec un nom généré.</li><li>Cet identifiant conserve sa valeur lorsqu&#39;il est déployé dans une autre instance d&#39;Adobe Campaign et ne doit pas être vide.</li></ul> | <ul><li>Changez le nom d&#39;enregistrement généré par Adobe Campaign si l&#39;objet est destiné à être déployé d&#39;un environnement à un autre.</li><li>Si un objet possède un attribut d&#39;espace de noms (par exemple, *schema*), cet espace de noms commun sera appliqué à tous les objets personnalisés créés. Certains espaces de noms réservés ne doivent pas être utilisés : *nms*, *xtk*, *nl*, *ncl*, *crm*, *xxl*.</li><li>Lorsqu&#39;un objet n&#39;a pas d&#39;espace de noms (*workflow* ou *delivery*, par exemple), cette notion d&#39;espace de noms est ajoutée sous la forme d&#39;un préfixe d&#39;un objet de nom interne : *namespaceMyObjectName*.</li><li>N&#39;utilisez pas de caractères spéciaux tels que l&#39;espace &quot; &quot;, le point-virgule &quot;;&quot; ou le tiret &quot;-&quot;. Tous ces caractères seront remplacés par un trait de soulignement &quot;_&quot; (caractère autorisé). Par exemple, &quot;abc-def&quot; et &quot;abc:def&quot; seront stockés sous la forme de &quot;abc_def&quot; et s&#39;écraseront mutuellement.</li></ul> |
+| Libellé | <ul><li>Le libellé est l&#39;identifiant d&#39;entreprise d&#39;un objet ou d&#39;un enregistrement dans Adobe Campaign.</li><li>Cet objet autorise les espaces et les caractères spéciaux.</li><li>Il ne garantit pas le caractère unique d&#39;un enregistrement.</li></ul> | <ul><li>Il est recommandé de déterminer une structure pour les libellés de vos objets.</li><li>Il s&#39;agit de la solution la plus conviviale pour identifier un enregistrement ou un objet pour un utilisateur d&#39;Adobe Campaign.</li></ul> |
 
 ## Clés internes personnalisées {#custom-internal-keys}
 
 Pour chaque table créée dans Adobe Campaign, des clés primaires sont nécessaires.
 
-La plupart des organisations importent des enregistrements à partir de systèmes externes. Bien que la clé physique de la table des destinataires soit l’attribut « id », il est possible de déterminer aussi une clé personnalisée.
+La plupart des organisations importent des enregistrements à partir de systèmes externes. Bien que la clé physique de la table des destinataires soit l&#39;attribut &quot;id&quot;, il est possible de déterminer aussi une clé personnalisée.
 
 Cette clé personnalisée est la clé primaire d’enregistrement réelle dans le système externe chargé d’alimenter Adobe Campaign.
 
 Lorsqu’une table d’usine comporte à la fois une clé autopk et une clé interne, cette clé interne est définie comme index unique dans la table de base de données physique.
 
 Pour la création d’une table personnalisée, vous avez deux possibilités :
-* Combinaison d’une clé générée automatiquement (id) et d’une clé interne (personnalisée). Cette option est intéressante si votre clé système est une clé composite ou n’est pas un entier. Les entiers offrent des performances supérieures dans les tables volumineuses et dans la jointure à d’autres tables.
+* Combinaison d&#39;une clé générée automatiquement (id) et d&#39;une clé interne (personnalisée). Cette option est intéressante si votre clé système est une clé composite ou n&#39;est pas un entier. Les entiers offrent des performances supérieures dans les tables volumineuses et dans la jointure à d’autres tables.
 * Utilisation de la clé primaire comme clé primaire du système externe. Cette solution est généralement préférable, car elle simplifie l’approche d’import et d’export des données, avec une clé cohérente entre les différents systèmes. autopk doit être désactivé si la clé est nommée « id » et qu’elle doit être remplie avec des valeurs externes (et non pas par génération automatique).
 
 >[!IMPORTANT]
@@ -210,19 +212,19 @@ Le tableau ci-après indique dans quels cas les trois index décrits ci-dessous 
 
 ### Liens {#links}
 
-Attention à l’intégrité « propre » des grandes tables. La suppression d’enregistrements possédant des tables volumineuses avec une intégrité qui leur est propre peut arrêter l’instance. La table est verrouillée et les suppressions sont faites une par une. Il est donc préférable d’appliquer une intégrité « neutre » sur les tables enfants très volumineuses.
+Attention à l&#39;intégrité &quot;propre&quot; des grandes tables. La suppression d’enregistrements possédant des tables volumineuses avec une intégrité qui leur est propre peut arrêter l’instance. La table est verrouillée et les suppressions sont faites une par une. Il est donc préférable d&#39;appliquer une intégrité &quot;neutre&quot; sur les tables enfants très volumineuses.
 
-La déclaration d’un lien en tant que jointure externe est néfaste pour les performances. L’enregistrement Zero ID émule la fonctionnalité de jointure externe. Il n’est pas nécessaire de déclarer des jointures externes si le lien utilise l’autopk.
+La déclaration d&#39;un lien en tant que jointure externe est néfaste pour les performances. L’enregistrement Zero ID émule la fonctionnalité de jointure externe. Il n’est pas nécessaire de déclarer des jointures externes si le lien utilise l’autopk.
 
-Bien qu’il soit possible de joindre n’importe quelle table dans un workflow, Adobe recommande de définir des liens communs entre les ressources directement dans la définition de la structure de données.
+Bien qu&#39;il soit possible de joindre n&#39;importe quelle table dans un workflow, Adobe recommande de définir des liens communs entre les ressources directement dans la définition de la structure de données.
 
-Le lien doit être défini en fonction des données réelles contenues dans vos tables. Une mauvaise définition peut avoir un impact sur les données récupérées via les liens, par exemple la duplication inattendue d’enregistrements.
+Le lien doit être défini en fonction des données réelles contenues dans vos tables. Une mauvaise définition peut avoir un impact sur les données récupérées via les liens, par exemple la duplication inattendue d&#39;enregistrements.
 
 Attribuez au lien un nom cohérent avec celui de la table : le nom du lien doit permettre de comprendre à quoi correspond la table distante.
 
-N’utilisez pas un nom de lien comportant le suffixe « id ». Par exemple, appelez-le « transaction » plutôt que « transactionId ».
+N&#39;utilisez pas un nom de lien comportant le suffixe &quot;id&quot;. Par exemple, appelez-le &quot;transaction&quot; plutôt que &quot;transactionId&quot;.
 
-Par défaut, Adobe Campaign crée un lien à l’aide de la clé primaire de la table externe. Pour plus de clarté, il est préférable de définir explicitement la jointure dans la définition du lien.
+Par défaut, Adobe Campaign crée un lien à l&#39;aide de la clé primaire de la table externe. Pour plus de clarté, il est préférable de définir explicitement la jointure dans la définition du lien.
 
 Un index sera ajouté aux attributs utilisés dans un lien.
 
@@ -230,19 +232,19 @@ Les liens created-by et last-modified-by sont présents dans de nombreuses table
 
 ### Cardinalité {#cardinality}
 
-Pour créer un lien, veillez à ce que l’enregistrement cible soit unique lorsqu’une relation 1-1 a été déclarée. Dans le cas contraire, la jointure risque de renvoyer plusieurs enregistrements alors qu’un seul est attendu. Cette situation entraîne des erreurs lors de la préparation de la diffusion lorsque « la requête renvoie plus de lignes qu’attendu ». Définissez un nom de lien identique à celui du schéma cible.
+Pour créer un lien, veillez à ce que l&#39;enregistrement cible soit unique lorsqu&#39;une relation 1-1 a été déclarée. Dans le cas contraire, la jointure risque de renvoyer plusieurs enregistrements alors qu&#39;un seul est attendu. Cette situation entraîne des erreurs lors de la préparation de la diffusion lorsque &quot;la requête renvoie plus de lignes qu&#39;attendu&quot;. Définissez un nom de lien identique à celui du schéma cible.
 
 Définissez un lien possédant une cardinalité (1-N) dans le schéma du côté (1). Par exemple, la relation Destinataire (1) – (N) Transaction doit être définie dans le schéma de transaction.
 
-Notez que la cardinalité inverse d’un lien est (N) par défaut. Il est possible de définir un lien (1-1) en ajoutant l’attribut revCardinality=&#39;single&#39; à la définition du lien.
+Notez que la cardinalité inverse d&#39;un lien est (N) par défaut. Il est possible de définir un lien (1-1) en ajoutant l&#39;attribut revCardinality=&#39;single&#39; à la définition du lien.
 
-Si le lien inverse ne doit pas être visible pour l’utilisateur, vous pouvez le masquer avec la définition de lien revLink=&#39;_NONE_&#39;. Un bon exemple d’utilisation consiste à définir un lien entre le destinataire et la dernière transaction effectuée, par exemple. Il vous suffit de voir le lien entre le destinataire et la dernière transaction. Aucun lien inverse ne doit être visible dans la table de transaction.
+Si le lien inverse ne doit pas être visible pour l&#39;utilisateur, vous pouvez le masquer avec la définition de lien revLink=&#39;_NONE_&#39;. Un bon exemple d&#39;utilisation consiste à définir un lien entre le destinataire et la dernière transaction effectuée, par exemple. Il vous suffit de voir le lien entre le destinataire et la dernière transaction. Aucun lien inverse ne doit être visible dans la table de transaction.
 
-Les liens d’une jointure externe (1-0..1) doivent être utilisés avec soin, car ils ont une incidence sur les performances du système.
+Les liens d&#39;une jointure externe (1-0..1) doivent être utilisés avec soin, car ils ont une incidence sur les performances du système.
 
 ## Conservation des données - nettoyage et purge {#data-retention}
 
- Adobe Campaign n’est ni un entrepôt de données, ni un outil de reporting. Pour garantir de bonnes performances, la croissance des bases de données doit rester sous contrôle. Pour cela, il peut être utile de suivre certaines des bonnes pratiques ci-dessous.
+ Adobe Campaign n&#39;est ni un entrepôt de données, ni un outil de reporting. Pour garantir de bonnes performances, la croissance des bases de données doit rester sous contrôle. Pour cela, il peut être utile de suivre certaines des bonnes pratiques ci-dessous.
 
 Par défaut, les logs de diffusion et de tracking d’Adobe Campaign sont conservés pendant 180 jours. Un processus de nettoyage est appliqué pour supprimer les logs antérieurs.
 
@@ -255,50 +257,50 @@ Pour en savoir plus sur le workflow de nettoyage de base de données de Campaign
 
 >[!IMPORTANT]
 >
->Les tables personnalisées ne sont pas purgées par le processus de nettoyage standard. Bien que cela ne soit pas nécessaire dès le début, n’oubliez pas de créer un processus de purge de vos tables personnalisées, faute de quoi des problèmes de performances peuvent se produire.
+>Les tables personnalisées ne sont pas purgées par le processus de nettoyage standard. Bien que cela ne soit pas nécessaire dès le début, n&#39;oubliez pas de créer un processus de purge de vos tables personnalisées, faute de quoi des problèmes de performances peuvent se produire.
 
-Il existe un certain nombre de solutions pour minimiser le besoin d’enregistrements dans Adobe Campaign :
+Il existe un certain nombre de solutions pour minimiser le besoin d&#39;enregistrements dans Adobe Campaign :
 * Exportez les données dans un entrepôt de données extérieur à Adobe Campaign.
-* Générez des valeurs agrégées qui utilisent moins d’espace, mais suffisantes pour vos pratiques marketing. Par exemple, vous n’avez pas besoin de l’historique complet des transactions client d’Adobe Campaign pour le tracking des derniers achats.
+* Générez des valeurs agrégées qui utilisent moins d&#39;espace, mais suffisantes pour vos pratiques marketing. Par exemple, vous n&#39;avez pas besoin de l&#39;historique complet des transactions client d&#39;Adobe Campaign pour le tracking des derniers achats.
 
-Vous pouvez déclarer l’attribut « deleteStatus » dans un schéma. Il est plus efficace de marquer l’enregistrement comme supprimé, puis de différer la suppression au cours de la tâche de nettoyage.
+Vous pouvez déclarer l&#39;attribut &quot;deleteStatus&quot; dans un schéma. Il est plus efficace de marquer l&#39;enregistrement comme supprimé, puis de différer la suppression au cours de la tâche de nettoyage.
 
 ## Performances {#performance}
 
-Afin d’optimiser les performances à tout moment, suivez les bonnes pratiques ci-dessous.
+Afin d&#39;optimiser les performances à tout moment, suivez les bonnes pratiques ci-dessous.
 
 ### Recommandations générales {#general-recommendations}
 
-* Évitez d’utiliser des opérations telles que « CONTAINS » dans les requêtes. Si vous savez ce qui est attendu et souhaitez appliquer un filtre, appliquez la même condition avec un opérateur « ÉGAL À » ou d’autres opérateurs de filtre spécifiques.
+* Évitez d&#39;utiliser des opérations telles que &quot;CONTAINS&quot; dans les requêtes. Si vous savez ce qui est attendu et souhaitez appliquer un filtre, appliquez la même condition avec un opérateur « ÉGAL À » ou d’autres opérateurs de filtre spécifiques.
 * Évitez toute jointure avec des champs non indexés lors de la création de données dans des workflows.
 * Veillez à ce que les processus tels que l’import et l’export se produisent en dehors des heures de bureau.
-* Vérifiez qu’il existe un planning pour toutes les activités quotidiennes et respectez-le.
-* Si un ou plusieurs processus quotidiens échouent et s’ils doivent être exécutés le même jour, vérifiez que des processus en conflit ne sont pas en cours d’exécution lorsque le processus manuel est lancé, car cela peut avoir un impact sur les performances du système.
-* Vérifiez qu’aucune campagne quotidienne n’est exécutée pendant le processus d’import ou lorsqu’un processus manuel est exécuté.
-* Utilisez une ou plusieurs tables de référence plutôt que de dupliquer un champ dans chaque ligne. Lors de l’utilisation de paires clé/valeur, il est préférable de choisir une clé numérique.
-* Une chaîne courte reste acceptable. Si des tables de références sont déjà en place dans un système externe, les réutiliser facilitera l’intégration des données avec Adobe Campaign.
+* Vérifiez qu&#39;il existe un planning pour toutes les activités quotidiennes et respectez-le.
+* Si un ou plusieurs processus quotidiens échouent et s&#39;ils doivent être exécutés le même jour, vérifiez que des processus en conflit ne sont pas en cours d&#39;exécution lorsque le processus manuel est lancé, car cela peut avoir un impact sur les performances du système.
+* Vérifiez qu&#39;aucune campagne quotidienne n&#39;est exécutée pendant le processus d&#39;import ou lorsqu&#39;un processus manuel est exécuté.
+* Utilisez une ou plusieurs tables de référence plutôt que de dupliquer un champ dans chaque ligne. Lors de l&#39;utilisation de paires clé/valeur, il est préférable de choisir une clé numérique.
+* Une chaîne courte reste acceptable. Si des tables de références sont déjà en place dans un système externe, les réutiliser facilitera l&#39;intégration des données avec Adobe Campaign.
 
-### Relations de type « un à plusieurs » {#one-to-many-relationships}
+### Relations de type &quot;un à plusieurs&quot;  {#one-to-many-relationships}
 
-* La conception des données a un impact sur la convivialité et les fonctionnalités. Si vous concevez votre modèle de données avec de nombreuses relations de type « un à plusieurs », il devient plus difficile pour les utilisateurs de construire une logique significative dans l’application. Il peut s’avérer difficile pour les marketeurs n’ayant pas de compétences techniques de construire et de comprendre correctement la logique.
-* Qu’une table comporte tous les champs essentiels est une bonne chose car cela facilite la création de requêtes par les utilisateurs. Il est aussi parfois judicieux de dupliquer certains champs d’une table à l’autre si cela permet d’éviter une jointure.
-* Certaines fonctionnalités intégrées ne pourront pas faire référence à des relations de type « un à plusieurs », par exemple la formule Pondération d’offre et Diffusions.
+* La conception des données a un impact sur la convivialité et les fonctionnalités. Si vous concevez votre modèle de données avec de nombreuses relations de type &quot;un à plusieurs&quot;, il devient plus difficile pour les utilisateurs de construire une logique significative dans l&#39;application. Il peut s&#39;avérer difficile pour les marketeurs n&#39;ayant pas de compétences techniques de construire et de comprendre correctement la logique.
+* Qu&#39;une table comporte tous les champs essentiels est une bonne chose car cela facilite la création de requêtes par les utilisateurs. Il est aussi parfois judicieux de dupliquer certains champs d&#39;une table à l&#39;autre si cela permet d&#39;éviter une jointure.
+* Certaines fonctionnalités intégrées ne pourront pas faire référence à des relations de type &quot;un à plusieurs&quot;, par exemple la formule Pondération d&#39;offre et Diffusions.
 
 ## Tables volumineuses {#large-tables}
 
- Adobe Campaign fait appel à des moteurs de bases de données tiers. Selon le fournisseur, l’optimisation des performances des tables les plus volumineuses peut nécessiter une conception spécifique.
+ Adobe Campaign fait appel à des moteurs de bases de données tiers. Selon le fournisseur, l&#39;optimisation des performances des tables les plus volumineuses peut nécessiter une conception spécifique.
 
 Vous trouverez ci-dessous quelques bonnes pratiques courantes à appliquer lors de la conception de votre modèle de données utilisant des tables volumineuses et des jointures complexes.
 
-* Lorsque vous utilisez des tables de destinataires par défaut supplémentaires, veillez à disposer d’une table de logs dédiée pour chaque mapping de diffusion.
+* Lorsque vous utilisez des tables de destinataires par défaut supplémentaires, veillez à disposer d&#39;une table de logs dédiée pour chaque mapping de diffusion.
 * Diminuez le nombre de colonnes, notamment en identifiant celles qui ne sont pas utilisées.
 * Optimisez les relations du modèle de données en évitant les jointures complexes, notamment celles qui concernent plusieurs conditions et/ou colonnes.
 * Pour les clés de jointure, préférez toujours les données numériques aux chaînes de caractères.
-* Réduisez autant que possible la profondeur de conservation des logs. Si vous avez besoin d’un historique plus détaillé, vous pouvez agréger le calcul et/ou gérer des tables de logs personnalisées pour stocker un historique plus volumineux.
+* Réduisez autant que possible la profondeur de conservation des logs. Si vous avez besoin d&#39;un historique plus détaillé, vous pouvez agréger le calcul et/ou gérer des tables de logs personnalisées pour stocker un historique plus volumineux.
 
 ### Taille des tables {#size-of-tables}
 
-La taille de la table est le résultat d’une combinaison du nombre d’enregistrements et du nombre de colonnes par enregistrement. L’un et l’autre peuvent avoir une incidence sur les performances des requêtes.
+La taille de la table est le résultat d&#39;une combinaison du nombre d&#39;enregistrements et du nombre de colonnes par enregistrement. L&#39;un et l&#39;autre peuvent avoir une incidence sur les performances des requêtes.
 
 * Une table de **petite taille** est similaire à la table de diffusion.
 * Une table de **taille moyenne** possède une taille identique à celle de la table des destinataires. Elle contient un enregistrement par client.
@@ -307,9 +309,9 @@ Par exemple, si votre base de données contient 10 millions de destinataires, l
 
 Avec PostgreSQL, une ligne ne doit pas dépasser 8 Ko pour éviter le mécanisme [TOAST](https://wiki.postgresql.org/wiki/TOAST). Par conséquent, essayez de réduire autant que possible le nombre de colonnes et la taille de chaque ligne afin de maintenir les performances optimales du système (mémoire et processeur).
 
-Le nombre de lignes a également une incidence sur les performances. La base de données d’Adobe Campaign n’est pas conçue pour stocker des historiques qui ne sont pas activement utilisés à des fins de ciblage ou de personnalisation. Il s’agit d’une base de données opérationnelle.
+Le nombre de lignes a également une incidence sur les performances. La base de données d&#39;Adobe Campaign n&#39;est pas conçue pour stocker des historiques qui ne sont pas activement utilisés à des fins de ciblage ou de personnalisation. Il s&#39;agit d&#39;une base de données opérationnelle.
 
-Pour éviter tout problème de performances lié au nombre élevé de lignes, conservez uniquement les enregistrements nécessaires dans la base de données. Les autres enregistrements doivent être exportés vers un entrepôt de données tiers et supprimés de la base de données opérationnelle d’Adobe Campaign.
+Pour éviter tout problème de performances lié au nombre élevé de lignes, conservez uniquement les enregistrements nécessaires dans la base de données. Les autres enregistrements doivent être exportés vers un entrepôt de données tiers et supprimés de la base de données opérationnelle d&#39;Adobe Campaign.
 
 Voici quelques bonnes pratiques concernant la taille des tables :
 

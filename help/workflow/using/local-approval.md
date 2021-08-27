@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 100%
 
 ---
 
 # Validation en local{#local-approval}
+
+![](../../assets/common.svg)
 
 Intégrée à un workflow de ciblage, l&#39;activité **[!UICONTROL Validation en local]** permet de mettre en place un processus de validation des destinataires avant l&#39;envoi d&#39;une diffusion.
 
@@ -23,7 +25,7 @@ Intégrée à un workflow de ciblage, l&#39;activité **[!UICONTROL Validation e
 >
 >Pour utiliser cette activité, vous devez acquérir le module Distributed Marketing, qui est une option de Campaign. Vérifiez votre contrat de licence.
 
-Pour un exemple de l’activité **[!UICONTROL Validation en local]** avec un modèle de distribution, consultez la section [Utiliser l’activité Validation en local](../../workflow/using/using-the-local-approval-activity.md).
+Pour un exemple de l’activité **[!UICONTROL Validation en local]** avec un modèle de distribution, consultez la section [Utiliser l’activité Validation en local](using-the-local-approval-activity.md).
 
 Renseignez tout d&#39;abord libellé de l&#39;activité et le champ **[!UICONTROL Action à effectuer]** :
 
@@ -33,7 +35,7 @@ Renseignez tout d&#39;abord libellé de l&#39;activité et le champ **[!UICONTRO
 
    ![](assets/local_validation_intro_2.png)
 
-* **Requête incrémentale** : vous permet d’effectuer une requête et d’en planifier l’exécution. Consultez la section [Requête incrémentale](../../workflow/using/incremental-query.md).
+* **Requête incrémentale** : vous permet d’effectuer une requête et d’en planifier l’exécution. Pour plus d&#39;informations, consultez la section [Requête incrémentale](incremental-query.md).
 
    ![](assets/local_validation_intro_3.png)
 
@@ -49,7 +51,7 @@ Les champs à renseigner dans le cas d&#39;une notification pour la validation d
 
 * **[!UICONTROL Contexte de répartition]** : sélectionnez l&#39;option **[!UICONTROL Spécifié par la transition]** si vous utilisez une activité de type **[!UICONTROL Partage]** pour limiter la population ciblée. Dans ce cas, le modèle de répartition est renseigné dans l&#39;activité de partage. Si vous ne limitez pas la population ciblée, sélectionnez ici l&#39;option **[!UICONTROL Explicite]** et renseignez le modèle de répartition dans le champ **[!UICONTROL Répartition des données]**.
 
-   Pour plus d’informations sur la création d’un modèle de distribution de données, voir [Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
+   Pour plus d’informations sur la création d’un modèle de distribution de données, voir [Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données](split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 * **[!UICONTROL Gestion de la validation :]**
 
@@ -83,7 +85,7 @@ Les champs à renseigner dans le cas d&#39;un rapport de retour de diffusion son
 
 ## Exemple : validation de la diffusion d&#39;un workflow {#example--approving-a-workflow-delivery}
 
-Cet exemple montre comment configurer un processus de validation pour une diffusion de workflow. Pour plus d’informations sur la création de workflows de diffusion, voir la section [Exemple : workflow de diffusion](../../workflow/using/delivery.md#example--delivery-workflow).
+Cet exemple montre comment configurer un processus de validation pour une diffusion de workflow. Pour plus d’informations sur la création de workflows de diffusion, voir la section [Exemple : workflow de diffusion](delivery.md#example--delivery-workflow).
 
 Pour valider un envoi, un opérateur dispose de deux modes : il peut utiliser la page Web dont l&#39;URL est fournie dans l&#39;email envoyé, ou valider directement depuis la console.
 

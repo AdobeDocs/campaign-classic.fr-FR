@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 100%
 
 ---
 
 # Enrichir le contenu{#enriching-content}
+
+![](../../assets/common.svg)
 
 Les agrégateurs permettent d&#39;enrichir le contenu avec des données externes. Ces données proviennent de requêtes génériques ou de tables liées.
 

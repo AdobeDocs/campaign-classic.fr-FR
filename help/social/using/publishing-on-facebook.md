@@ -6,14 +6,16 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 100%
 
 ---
 
 # Publier sur Facebook{#publishing-on-facebook}
+
+![](../../assets/v7-only.svg)
 
 Une fois le paramétrage effectué, Social Marketing permet d&#39;envoyer des publications sur les murs de vos pages Facebook.
 
@@ -60,7 +62,7 @@ L&#39;onglet **[!UICONTROL Cible des BAT]** permet de définir la page Facebook 
 >
 >Si vous utilisez la même page de test Facebook pour toutes vos diffusions, vous pouvez enregistrer la cible du BAT dans le modèle de diffusion **[!UICONTROL Publier sur une page de marque]**, accessible à partir du noeud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]**. La cible du BAT sera alors renseignée par défaut pour chaque nouvelle diffusion.
 
-## Définir l&#39;audience {#defining-the-audience}
+## Définir l’audience {#defining-the-audience}
 
 Si vous souhaitez utiliser des segments locaux afin d&#39;affiner le type de public qui sera autorisé à visualiser la publication, nous vous conseillons de créer une page Facebook par segment (par exemple : Adobe Campaign Paris, Adobe Campaign London, etc.).
 

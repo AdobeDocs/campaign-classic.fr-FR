@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
 
 ---
 
 # Cas pratique : configuration de la substitution des champs{#use-case-configuring-the-field-substitution}
+
+![](../../assets/common.svg)
 
 La substitution aléatoire des champs permet d&#39;attribuer une valeur issue de la liste des destinataires à des adresses de contrôle qui en sont dépourvues lorsque l&#39;utilisateur utilise cette valeur dans une diffusion (exemple : le nom, la ville, etc.).
 
@@ -51,7 +53,7 @@ Dans cet exemple, le schéma de données des adresses de contrôle reprend une v
 
 Cette énumération permet à l&#39;utilisateur de spécifier le genre littéraire préféré de ses clients.
 
-Pour que cette modification du schéma de données soit visible dans le **Formulaire de saisie** des adresses de contrôle, il faut mettre à jour ce dernier. Voir la section [Mettre à jour le formulaire de saisie](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form).
+Pour que cette modification du schéma de données soit visible dans le **Formulaire de saisie** des adresses de contrôle, il faut mettre à jour ce dernier. Pour plus d&#39;informations, consultez la section [Mettre à jour le formulaire de saisie](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form).
 
 ## Configurer la personnalisation {#configuring-personalization}
 
@@ -61,7 +63,7 @@ Pour que cette modification du schéma de données soit visible dans le **Formul
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Paramétrez votre liste de diffusion et vos adresses de contrôle. Voir la section [Identification des populations cibles](steps-defining-the-target-population.md).
+1. Paramétrez votre liste de diffusion et vos adresses de contrôle. Pour plus d&#39;informations, consultez la section [Identification des populations cibles](steps-defining-the-target-population.md).
 
    Dans cet exemple, l&#39;utilisateur choisit comme cible principale les clients dont le **genre littéraire préféré** est la Science-Fiction.
 

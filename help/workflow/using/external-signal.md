@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 
 ---
 
 # Signal externe{#external-signal}
+
+![](../../assets/common.svg)
 
 L&#39;activité **Signal externe** permet de déclencher l&#39;exécution d&#39;un ensemble de tâches dans un workflow par programmation.
 
@@ -25,9 +27,9 @@ Vous pouvez paramétrer cette activité afin de définir des événements en cas
 
 ![](assets/edit_signal.png)
 
-Le paramétrage des expirations est présenté dans la section [Expirations](../../workflow/using/defining-approvals.md).
+Le paramétrage des expirations est présenté dans la section [Expirations](defining-approvals.md).
 
-Le champ **Délai** permet de spécifier un délai d&#39;expiration exprimé dans l&#39;unité de votre choix. Voir [Attente](../../workflow/using/wait.md).
+Le champ **Délai** permet de spécifier un délai d&#39;expiration exprimé dans l&#39;unité de votre choix. Voir [Attente](wait.md).
 
 Chaque ligne représente un type d&#39;expiration et correspond à une transition.
 

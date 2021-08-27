@@ -5,8 +5,8 @@ description: Ressources marketing (MRM)
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 
 
 # Ressources marketing (MRM){#marketing-resources-mrm}
+
+![](../../assets/common.svg)
 
 Les workflows présentés ci-dessous sont installés par défaut avec le module **Ressources marketing (MRM)**. Voir à ce propos [cette section](../../campaign/using/designing-marketing-campaigns.md).
 

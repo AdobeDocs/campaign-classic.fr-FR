@@ -2,18 +2,20 @@
 product: campaign
 title: Fonctionnalités obsolètes et supprimées de Campaign Classic
 description: Cette page répertorie les fonctionnalités obsolètes et supprimées d’Adobe Campaign Classic
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 9c73d13fe3d062ce69c948dba7d57dad573f6856
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1645'
 ht-degree: 98%
 
 ---
 
 # Fonctionnalités obsolètes et supprimées {#deprecated-and-removed-features}
+
+![](../../assets/v7-only.svg)
 
 Adobe évalue constamment les fonctionnalités des produits pour identifier celles qui devraient être remplacées par des solutions plus modernes afin d’offrir une plus grande valeur ajoutée, et ce en prenant toujours en compte la rétrocompatibilité Comme Adobe Campaign Classic fonctionne avec des outils tiers, la compatibilité est régulièrement mise à jour pour ne mettre en œuvre que des versions prises en charge. Les versions devenues incompatibles avec Adobe Campaign Classic sont répertoriées ci-dessous et dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 
@@ -136,7 +138,7 @@ Les systèmes suivants sont désormais obsolètes pour Campaign Classic : Repo
 
 ### Adobe Campaign version 20.2  {#compat-20-2-release}
 
-À compter de la version 20.2, les connecteurs SMS suivants sont obsolètes. Voir la section [Fonctionnalités obsolètes](#deprecated-features)
+À compter de la version 20.2, les connecteurs SMS suivants sont obsolètes. Pour plus d&#39;informations, consultez la section [Fonctionnalités obsolètes](#deprecated-features)
 
 ## Fin de compatibilité {#end-of-compatibility}
 

@@ -6,8 +6,8 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 
@@ -15,14 +15,16 @@ ht-degree: 100%
 
 # Stack trace sous Linux{#stack-trace-in-linux}
 
+![](../../assets/v7-only.svg)
+
 La **stack trace** représente une trace contenue dans un fichier de type **core**. Ce fichier est généré en cas d&#39;erreur sur la machine. Il peut permettre de connaître l&#39;origine de l&#39;erreur.
 
 >[!NOTE]
 >
 >* Un fichier **core** se présente sous le nom **core.`<num>`**.
 >* Il faut que **gdb - The GNU Debugger** soit installé sur la machine.
->
 
+>
 
 
 Le support technique d&#39;Adobe Campaign peut vous demander cette **stack trace**. Pour l&#39;obtenir, saisissez les commandes suivantes sous Linux :

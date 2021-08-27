@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2379'
 ht-degree: 100%
 
 ---
 
 # Description du modèle de données de Campaign{#data-model-description}
+
+![](../../assets/v7-only.svg)
 
 Un modèle de données d’usine est fourni avec Adobe Campaign. Cette section donne un certain nombre de détails sur les tables intégrées du modèle de données d’Adobe Campaign et leurs interactions.
 
@@ -49,7 +51,7 @@ Il s’agit de la table par défaut utilisée pour les **destinataires des diffu
 * Les champs sPhone, sMobilePhone, sFax contiennent respectivement les numéros de téléphone, de téléphone mobile et de fax.
 * iBlackList est l’indicateur d’opt-out par défaut utilisé pour les profils (1 signifie « désabonné », 0 dans le cas contraire).
 
-Le champ iFolderId est la clé étrangère servant à relier le destinataire à son dossier d’exécution. Voir à ce propos la section [XtkFolder](#XtkFolder).
+Le champ iFolderId est la clé étrangère servant à relier le destinataire à son dossier d’exécution. Pour plus d&#39;informations, consultez la section [XtkFolder](#XtkFolder).
 
 Le champ sCountryCode contient le code ISO 3166-1 Alpha 2 (2 caractères) du pays associé au destinataire. Ce champ est en fait une clé étrangère liée à la table de référence des pays (NmsCountry), qui contient les libellés des pays et d’autres données relatives aux codes des pays. Si le pays n’est pas renseigné, la valeur « XX » est indiquée (et est utilisée à la place d’un enregistrement d’ID nul).
 
@@ -59,7 +61,7 @@ Pour plus d’informations sur la table des destinataires, voir cette [section](
 
 Cette table correspond au schéma **nms:group**.
 
-Elle permet de créer des **groupes statistiques destinataires**. Il existe une relation de type « plusieurs à plusieurs » entre destinataires et groupes. Par exemple, un destinataire peut appartenir à plusieurs groupes et un groupe peut contenir plusieurs destinataires. Il est possible de créer manuellement des groupes par le biais d’un import ou d’un ciblage de diffusion. Les groupes sont souvent utilisés comme cibles de diffusion. Il existe un index unique relatif au champ qui représente le nom interne du groupe sName. Le groupe est lié à un dossier (la clé est iFolderId. Voir à ce propos la section [XtkFolder](#XtkFolder)).
+Elle permet de créer des **groupes statistiques destinataires**. Il existe une relation de type « plusieurs à plusieurs » entre destinataires et groupes. Par exemple, un destinataire peut appartenir à plusieurs groupes et un groupe peut contenir plusieurs destinataires. Il est possible de créer manuellement des groupes par le biais d’un import ou d’un ciblage de diffusion. Les groupes sont souvent utilisés comme cibles de diffusion. Il existe un index unique relatif au champ qui représente le nom interne du groupe sName. Le groupe est lié à un dossier (la clé est iFolderId. Pour plus d&#39;informations, consultez la section [XtkFolder](#XtkFolder)).
 
 ### NmsRcpGrpRel {#NmsRcpGrpRel}
 
@@ -73,7 +75,7 @@ Adobe Campaign permet de créer et de gérer des abonnements à des services d�
 
 Les services sont des entités similaires aux groupes (regroupements statiques de destinataires), sauf qu’ils diffusent davantage d’informations et facilitent la gestion des abonnements et des désabonnements grâce à des formulaires.
 
-Il existe un index unique relatif au champ qui représente le nom interne du service sName. Le service est lié à un dossier (la clé est iFolderId. Voir à ce propos la section [XtkFolder](#XtkFolder)). Enfin, le champ iType spécifie le canal de diffusion de ce service (0 pour les emails, 1 pour les SMS, 2 pour le téléphone, 3 pour le courrier et 4 pour le fax).
+Il existe un index unique relatif au champ qui représente le nom interne du service sName. Le service est lié à un dossier (la clé est iFolderId. Pour plus d&#39;informations, consultez la section [XtkFolder](#XtkFolder)). Enfin, le champ iType spécifie le canal de diffusion de ce service (0 pour les emails, 1 pour les SMS, 2 pour le téléphone, 3 pour le courrier et 4 pour le fax).
 
 ### NmsSubscription {#NmsSubscription}
 
@@ -93,7 +95,7 @@ Cette table correspond au schéma **nms:delivery**.
 
 Chaque enregistrement de cette table représente une **action de diffusion** ou un **modèle de diffusion**. Elle contient tous les paramètres nécessaires pour effectuer des diffusions (cible, contenu, etc.). Les logs de diffusion (NmsBroadLog) et leurs URL de tracking associées (NmsTrackingUrl) sont créés au cours de la phase d’analyse (voir ci-dessous pour plus de détails sur ces deux tables).
 
-Il existe un index unique relatif au champ qui représente le nom interne de la diffusion ou du scénario sInternalName. La diffusion est liée à un dossier d’exécution (la clé étrangère est iFolderProcessId. Voir à ce propos la section [XtkFolder](#XtkFolder)).
+Il existe un index unique relatif au champ qui représente le nom interne de la diffusion ou du scénario sInternalName. La diffusion est liée à un dossier d’exécution (la clé étrangère est iFolderProcessId. Pour plus d&#39;informations, consultez la section [XtkFolder](#XtkFolder)).
 
 ### XtkFolder {#XtkFolder}
 
@@ -105,7 +107,7 @@ L’arborescence est gérée à l’aide des champs iParentId et iChildCount. Le
 
 ## Diffusion et tracking {#delivery-and-tracking}
 
-Cet ensemble de tables, lié au module **Diffusion**, permet de surveiller les diffusions et les éventuels problèmes rencontrés lors de l’envoi des messages. Voir à ce propos la section [Suivre les diffusions](../../delivery/using/about-delivery-monitoring.md). Voir à ce propos la section [Tracker les messages](../../delivery/using/about-message-tracking.md).
+Cet ensemble de tables, lié au module **Diffusion**, permet de surveiller les diffusions et les éventuels problèmes rencontrés lors de l’envoi des messages. Pour plus d&#39;informations, consultez la section [Suivre les diffusions](../../delivery/using/about-delivery-monitoring.md). Pour plus d&#39;informations, consultez la section [Tracker les messages](../../delivery/using/about-message-tracking.md).
 
 ![](assets/data-model_delivery.png)
 
@@ -113,7 +115,7 @@ Cet ensemble de tables, lié au module **Diffusion**, permet de surveiller les d
 
 ## Gestion de campagne {#campaign-management}
 
-Cet ensemble de tables, lié au module **Campagnes marketing**, permet de définir, d’optimiser, d’exécuter et d’analyser les campagnes de communication et de marketing Voir à ce propos la section [À propos des campagnes marketing](../../campaign/using/designing-marketing-campaigns.md).
+Cet ensemble de tables, lié au module **Campagnes marketing**, permet de définir, d’optimiser, d’exécuter et d’analyser les campagnes de communication et de marketing Pour plus d&#39;informations, consultez la section [À propos des campagnes marketing](../../campaign/using/designing-marketing-campaigns.md).
 
 ![](assets/data-model_campaign.png)
 
@@ -129,7 +131,7 @@ Cet ensemble de tables, lié au module **Campagnes marketing**, permet de défin
 
 ## Cohérence des communications {#communication-consistency}
 
-Cet ensemble de tables, lié au module **Optimisation des campagnes**, permet de contrôler, de filtrer et de surveiller l’envoi des diffusions. Voir à ce propos la section [À propos des typologies de campagne](../../campaign/using/about-campaign-typologies.md).
+Cet ensemble de tables, lié au module **Optimisation des campagnes**, permet de contrôler, de filtrer et de surveiller l’envoi des diffusions. Pour plus d&#39;informations, consultez la section [À propos des typologies de campagne](../../campaign-opt/using/about-campaign-typologies.md).
 
 ![](assets/data-model_typology.png)
 
@@ -141,7 +143,7 @@ Cet ensemble de tables, lié au module **Optimisation des campagnes**, permet de
 
 ## Gestion de la réaction {#response-management}
 
-Cet ensemble de tables, lié au module **Gestion de la réaction**, permet de mesurer le succès et la rentabilité des campagnes marketing ou des propositions d’offres pour tous les canaux de communication. Voir à ce propos la section [À propos de la gestion de la réaction](../../campaign/using/about-response-manager.md).
+Cet ensemble de tables, lié au module **Gestion de la réaction**, permet de mesurer le succès et la rentabilité des campagnes marketing ou des propositions d’offres pour tous les canaux de communication. Pour plus d&#39;informations, consultez la section [À propos de la gestion de la réaction](../../response/using/about-response-manager.md).
 
 ![](assets/data-model_response.png)
 
@@ -211,7 +213,7 @@ Cet ensemble de tables est lié au module **Simulation**. Il permet de tester la
 
 ## Module Interaction {#interaction-module}
 
-Cet ensemble de tables est lié au module **Interaction**. Il permet de répondre en temps réel lors d’une interaction avec un contact donné en proposant une ou plusieurs offres adaptées. Voir à ce propos la section [Interaction et gestion des offres](../../interaction/using/interaction-and-offer-management.md) de.
+Cet ensemble de tables est lié au module **Interaction**. Il permet de répondre en temps réel lors d’une interaction avec un contact donné en proposant une ou plusieurs offres adaptées. Pour plus d&#39;informations, consultez la section [Interaction et gestion des offres](../../interaction/using/interaction-and-offer-management.md) de.
 
 * **NmsOffer** : cette table correspond au schéma **nms:offer**. Elle contient la définition des offres marketing.
 * **NmsPropositionRcp** : cette table correspond au schéma **nms:propositionRcp**. Elle contient le log cross-canal des propositions marketing envoyées à chaque personne. L’enregistrement est créé suite à la préparation ou à la présentation effective d’une proposition à une personne.
@@ -223,7 +225,7 @@ Cet ensemble de tables est lié au module **Interaction**. Il permet de répondr
 
 ## Module Message Center {#message-center-module}
 
-L’ensemble de tables ci-après est lié au module **Messages transactionnels** (Message Center). Il permet de gérer les communications individuelles et uniques envoyées à un utilisateur et générées suite à des événements déclenchés à partir de systèmes d’information. Voir à ce propos la section [À propos des messages transactionnels](../../message-center/using/about-transactional-messaging.md).
+L’ensemble de tables ci-après est lié au module **Messages transactionnels** (Message Center). Il permet de gérer les communications individuelles et uniques envoyées à un utilisateur et générées suite à des événements déclenchés à partir de systèmes d’information. Pour plus d&#39;informations, consultez la section [À propos des messages transactionnels](../../message-center/using/about-transactional-messaging.md).
 
 ### NmsRtEvent {#NmsRtEvent}
 
@@ -249,7 +251,7 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ## Module NMAC {#nmac-module}
 
-Cet ensemble de tables est lié au module **Mobile App Channel**. Il permet d’envoyer des notifications personnalisées aux terminaux iOS et Android par le biais d’applications. Voir à ce propos la section [À propos de Mobile App Channel](../../delivery/using/about-mobile-app-channel.md).
+Cet ensemble de tables est lié au module **Mobile App Channel**. Il permet d’envoyer des notifications personnalisées aux terminaux iOS et Android par le biais d’applications. Pour plus d&#39;informations, consultez la section [À propos de Mobile App Channel](../../delivery/using/about-mobile-app-channel.md).
 
 * **NmsMobileApp** : cette table correspond au schéma **nms:mobileApp**. Elle contient les applications mobiles définies dans Adobe Campaign.
 * **NmsAppSubscription** cette table correspond au schéma **nms:appSubscription**. Elle contient les informations relatives aux abonnés concernant une ou plusieurs applications.
@@ -260,7 +262,7 @@ Cet ensemble de tables est lié au module **Mobile App Channel**. Il permet d’
 
 ## Module Social Marketing {#social-marketing-module}
 
-Cet ensemble de tables est lié au module **Gestion des réseaux sociaux** qui permet d’interagir avec les clients et les prospects via Facebook et Twitter. Voir à ce propos la section [À propos du marketing sur les réseaux sociaux](../../social/using/about-social-marketing.md).
+Cet ensemble de tables est lié au module **Gestion des réseaux sociaux** qui permet d’interagir avec les clients et les prospects via Facebook et Twitter. Pour plus d&#39;informations, consultez la section [À propos du marketing sur les réseaux sociaux](../../social/using/about-social-marketing.md).
 
 ![](assets/data-model_social.png)
 

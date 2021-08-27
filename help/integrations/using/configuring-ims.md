@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
 
 ---
 
 # Paramétrer IMS{#configuring-ims}
+
+![](../../assets/common.svg)
 
 >[!IMPORTANT]
 >
@@ -28,7 +30,7 @@ Pour utiliser l&#39;intégration avec l&#39;IMS, les éléments suivants sont re
 
 >[!NOTE]
 >
->Veuillez vous assurer que vos utilisateurs sont associés à des groupes Adobe Experience Cloud qui seront synchronisés avec Adobe Campaign. Voir la section [Configuration du compte externe](#configuring-the-external-account).
+>Veuillez vous assurer que vos utilisateurs sont associés à des groupes Adobe Experience Cloud qui seront synchronisés avec Adobe Campaign. Pour plus d&#39;informations, consultez la section [Configuration du compte externe](#configuring-the-external-account).
 
 ## Mettre à jour la console {#updating-the-console}
 

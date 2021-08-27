@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: ht
-source-wordcount: '3975'
-ht-degree: 100%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
+source-wordcount: '3994'
+ht-degree: 99%
 
 ---
 
 # Liste des options de Campaign Classic{#configuring-campaign-options}
+
+![](../../assets/v7-only.svg)
 
 Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de paramétrer les options d&#39;Adobe Campaign. Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campaign et d&#39;autres peuvent être ajoutées manuellement en cas de besoin. Les options disponibles varient en fonction des packages installés avec votre instance.
 
@@ -51,6 +53,10 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
    <td> <span class="uicontrol">DmRendering_SeedTargets</span> <br /> </td> 
    <td> Liste des schémas pour lesquels vous souhaitez utiliser des adresses de test pour l'Inbox Rendering (les noms des éléments sont séparés par des virgules). Par exemple : custom_nms_recipient.<br /> </td> 
   </tr> 
+  <tr> 
+   <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
+   <td> Adresse email en Cci à laquelle le MTA amélioré enverra une copie brute des emails envoyés. <br /> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
    <td><p> Permet d’autoriser l’opérateur en charge de la diffusion à confirmer l’envoi, si un opérateur ou un groupe spécifique d’opérateurs est désigné pour démarrer une diffusion dans les propriétés de la diffusion.</p><p> Pour ce faire, activez l'option en saisissant "1" comme valeur. Pour désactiver cette option, entrez "0".</p><p> Le processus de confirmation des envois fonctionnera alors comme par défaut : seul l'opérateur ou le groupe d'opérateurs désigné pour l'envoi (ou un administrateur) dans les propriétés de la diffusion pourra confirmer et effectuer l'envoi. Voir <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">cette section</a>.</p> </td> 
@@ -655,7 +661,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
-   <td> Fuseau horaire de l’instance Adobe Campaign. Voir la section <a href="../../installation/using/time-zone-management.md#configuration" target="_blank">Configuration</a>.<br /> </td> 
+   <td> Fuseau horaire de l’instance Adobe Campaign. Pour plus d'informations, consultez la section <a href="../../installation/using/time-zone-management.md#configuration" target="_blank">Configuration</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcUseNChar</span> <br /> </td> 
@@ -731,7 +737,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
    <td> Cette option est utilisée lors de l’importation de données à partir d’un système tiers via un connecteur CRM. En l’activant, vous pouvez collecter uniquement les objets modifiés depuis la dernière importation. Cette option doit être créée manuellement et remplie comme ci-dessous : 
     <ul> 
      <li> <p> <span class="uicontrol">Nom interne</span> : LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
-     <li> <p> <span class="uicontrol">Value (champ)</span> : date de la dernière importation au format yyyy/MM/dd hh:mm:ss. </p> </li> 
+     <li> <p> <span class="uicontrol">Valeur (champ)</span>  : date de la dernière importation, au format aaaa/MM/jj :mm:hss . </p> </li> 
     </ul><br /> </td> 
   </tr> 
   <tr> 

@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 100%
 
 ---
 
 # élément method {#method--element}
+
+![](../../../assets/v7-only.svg)
 
 ## Modèle de contenu {#content-model-10}
 
@@ -48,7 +50,7 @@ Cet élément permet de définir une méthode SOAP.
 
 Les méthodes SOAP permettent des traitements applicatifs.
 
-L&#39;utilisation de l&#39;attribut &quot;@library&quot; est nécessaire pour déclarer une nouvelle méthode (non native) : l&#39;espace de noms et le nom utilisés pour la bibliothèque sont indépendants de l&#39;espace de noms et du nom du schéma dans lequel se trouve la déclaration.
+L&#39;utilisation de l&#39;attribut &quot;@library&quot; est nécessaire pour déclarer une nouvelle méthode (non native): l&#39;espace de noms et le nom utilisés pour la bibliothèque sont indépendants de l&#39;espace de noms et du nom du schéma dans lequel se trouve la déclaration.
 
 ## Description des attributs {#attribute-description-10}
 

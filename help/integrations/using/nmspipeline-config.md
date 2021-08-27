@@ -4,8 +4,8 @@ title: Configuration de l'intégration
 description: Configuration de l'intégration
 audience: integrations
 content-type: reference
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 100%
 
@@ -13,6 +13,8 @@ ht-degree: 100%
 
 
 # Option de pipeline NmsPipeline_Config {#nmspipeline_config}
+
+![](../../assets/common.svg)
 
 Une fois l&#39;authentification effectuée, [!DNL pipelined] peut récupérer les événements et les traiter. Il traite uniquement les déclencheurs configurés dans Adobe Campaign, en ignorant les autres. Le déclencheur doit avoir été généré à partir d&#39;Analytics et envoyé au pipeline avant.
 L&#39;option peut également être configurée avec un caractère générique pour capturer tous les déclencheurs, quel que soit leur nom.

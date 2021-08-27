@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Démarrer un workflow {#starting-a-workflow}
 
-Un workflow est toujours démarré manuellement. Au démarrage, il peut toutefois rester inactif en fonction des informations spécifiées par le biais d&#39;un planificateur (voir [Planificateur](../../workflow/using/scheduler.md)) ou d&#39;une planification d&#39;activité.
+![](../../assets/common.svg)
+
+Un workflow est toujours démarré manuellement. Au démarrage, il peut toutefois rester inactif en fonction des informations spécifiées par le biais d&#39;un planificateur (voir [Planificateur](scheduler.md)) ou d&#39;une planification d&#39;activité.
 
 Les actions relatives à l&#39;exécution du workflow de ciblage (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur sera disponible pour l&#39;appliquer.
 
@@ -25,7 +27,7 @@ La liste des options disponibles dans le menu **[!UICONTROL Actions]** et le men
 
 >[!IMPORTANT]
 >
->Gardez à l’esprit que, lorsque un opérateur exécute une action sur un workflow (démarrer, arrêter, mettre en pause, etc.), l&#39;action n&#39;est pas exécutée immédiatement, mais placée dans une file d’attente pour être traitée par le [module de workflow](../../workflow/using/architecture.md).
+>Gardez à l’esprit que, lorsque un opérateur exécute une action sur un workflow (démarrer, arrêter, mettre en pause, etc.), l&#39;action n&#39;est pas exécutée immédiatement, mais placée dans une file d’attente pour être traitée par le [module de workflow](architecture.md).
 
 ## Barre d&#39;outils des actions {#actions-toolbar}
 
@@ -57,7 +59,7 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
 
 * **[!UICONTROL Purge de l&#39;historique]**
 
-   Cette action vous permet de purger l&#39;historique du workflow. Voir à ce propos la section [Purger l&#39;historique](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
+   Cette action vous permet de purger l&#39;historique du workflow. Pour plus d&#39;informations, consultez la section [Purger l&#39;historique](monitoring-workflow-execution.md#purging-the-logs).
 
 * **[!UICONTROL Démarrer en mode simulation]**
 
@@ -91,7 +93,7 @@ Les options disponibles dans le menu contextuel sont les suivantes :
 
 **[!UICONTROL Ouvrir :]** cette option permet d&#39;accéder aux propriétés de l&#39;activité.
 
-**[!UICONTROL Afficher le journal :]** cette option permet de visualiser le journal d&#39;exécution des tâches de l&#39;activité sélectionnée. Voir la section [Afficher le journal](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
+**[!UICONTROL Afficher le journal :]** cette option permet de visualiser le journal d&#39;exécution des tâches de l&#39;activité sélectionnée. Pour plus d&#39;informations, consultez la section [Afficher le journal](monitoring-workflow-execution.md#displaying-logs).
 
 **[!UICONTROL Traitement anticipé de la (des) tâche(s) :]** cette action permet de lancer dès que possible la ou les tâches en attente de l&#39;activité.
 
@@ -101,7 +103,7 @@ Les options disponibles dans le menu contextuel sont les suivantes :
 
 **[!UICONTROL Copier en tant qu&#39;image :]** cette option permet d&#39;effectuer une capture d&#39;écran de l&#39;ensemble des activités.
 
-**[!UICONTROL Exécution normale / Activer mais ne pas exécuter / Ne pas activer :]** ces options sont également disponibles dans l&#39;onglet **[!UICONTROL Avancé]** des propriétés de l&#39;activité. Elles sont présentées dans la section [Exécution](../../workflow/using/advanced-parameters.md#execution).
+**[!UICONTROL Exécution normale / Activer mais ne pas exécuter / Ne pas activer :]** ces options sont également disponibles dans l&#39;onglet **[!UICONTROL Avancé]** des propriétés de l&#39;activité. Elles sont présentées dans la section [Exécution](advanced-parameters.md#execution).
 
 **[!UICONTROL Enregistrer/Annuler :]** permet d&#39;enregistrer ou d&#39;annuler les modifications effectuées sur le workflow.
 

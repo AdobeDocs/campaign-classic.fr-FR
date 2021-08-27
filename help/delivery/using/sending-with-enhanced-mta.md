@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1991'
 ht-degree: 100%
 
 ---
 
 # Envoi d&#39;emails avec le MTA amélioré {#sending-with-enhanced-mta}
+
+![](../../assets/common.svg)
 
 Le **MTA amélioré d&#39;Adobe Campaign** (Mail Transfer Agent) fournit une infrastructure d&#39;envoi mise à niveau qui permet d&#39;améliorer les performances en matière de délivrabilité, de réputation, de débit, de reporting, de gestion des rebonds, de montée en charge des adresses IP et de gestion des paramètres de connexion.
 
@@ -113,7 +115,7 @@ Si vous êtes un client hybride, l’équipe d&#39;Adobe Campaign vous fournira 
 >
 >Les instructions fournies par l’équipe d&#39;Adobe Campaign sur la façon d’installer le package de **[!UICONTROL typologie]** doivent être soigneusement suivies. Sinon, vous risquez de rencontrer des problèmes majeurs avec les adresses IP utilisées pour envoyer des emails.
 
-Pour en savoir plus sur les typologies, consultez [cette section](../../campaign/using/about-campaign-typologies.md).
+Pour en savoir plus sur les typologies, consultez [cette section](../../campaign-opt/using/about-campaign-typologies.md).
 
 ### Nouvelles règles MX
 
