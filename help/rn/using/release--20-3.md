@@ -2,18 +2,20 @@
 product: campaign
 title: Notes de mise à jour de Campaign 20.3
 description: Notes de mise à jour de Campaign 20.3
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
-source-git-commit: 550c4afc5cc77867b56d17565bef3f18b1df12a2
+source-git-commit: 01f91abe127629e2d3d0889172969f2f4ba09f46
 workflow-type: tm+mt
-source-wordcount: '1995'
-ht-degree: 97%
+source-wordcount: '2010'
+ht-degree: 96%
 
 ---
 
 # Version 20.3{#release-20-3}
+
+![](../../assets/v7-only.svg)
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
 
@@ -28,7 +30,7 @@ _27 octobre 2020_
 
 >[!CAUTION]
 >
-> * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
+> * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/using/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 > * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) le **18 août 2021**. Les environnements hébergés bénéficient d’une extension jusqu’au **30 novembre 2021**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’au 30 novembre 2021. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
 
@@ -167,3 +169,4 @@ Sous Linux, _apache_neolane.conf_ est maintenant installé dans le répertoire `
 * Correction d’un problème en raison duquel le serveur se bloquait lors de l’affichage des données de la cible à partir d’une activité **Partage** dans un workflow.
 * Correction d’un problème de blocage du serveur en empêchant la corruption de la mémoire lors du nettoyage de l’analyseur d’expressions. (NEO-26856)
 * Correction d’un problème dans l’activité d’enrichissement en raison duquel les utilisateurs non-administrateurs définissaient des variables de l’instance. (NEO-25653)
+* Correction d&#39;une régression qui pouvait bloquer l&#39;export des données de workflow vers une base FDA (Teradate, Snowflake).
