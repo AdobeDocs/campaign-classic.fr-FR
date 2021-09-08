@@ -4,7 +4,7 @@ title: 'Options d’aide et de support pour Campaign Classic '
 description: Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit !
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+source-git-commit: 5b1c59c450aaedbd8dbf6df8685817e4a7e02056
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
@@ -54,7 +54,7 @@ Comment effectuer une mise à niveau vers un nouveau build ? Comment surveiller
         <li><a href="delivery/using/delivery-performances.md">Performances des diffusions</a></li>
         <li><a href="workflow/using/workflow-best-practices.md">Optimisation des performances des workflows</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">Dépannage de l’exécution d’un workflow</a></li>
-        <li><a href="platform/using/sftp-server-usage.md">Utiliser le serveur SFTP</a></li>
+        <li><a href="platform/using/sftp-server-usage.md">Utiliser le serveur SFTP</a></li>
         <li><a href="delivery/using/understanding-delivery-failures.md">Présentation des diffusions en échec</a></li>
         </ul>
     </td>
@@ -73,7 +73,7 @@ Comment effectuer une mise à niveau vers un nouveau build ? Comment surveiller
     <td valign="top">
         <ul>
         <li><a href="production/using/build-upgrade.md">Mise à niveau vers le build le plus récent</a></li>
-        <li><a href="platform/using/faq-build-upgrade.md">FAQ sur l’upgrade de build</a></li>
+        <li><a href="platform/using/faq-build-upgrade.md">FAQ sur la mise à niveau des builds</a></li>
         <li><a href="delivery/using/about-delivery-monitoring.md">Surveillance d’une diffusion</a></li>
         <li><a href="delivery/using/understanding-quarantine-management.md">Présentation de la gestion des quarantaines</a></li>
         <li><a href="installation/using/get-started-security-privacy.md">Liste de contrôle relative à la sécurité et à la confidentialité</a></li>
@@ -99,7 +99,7 @@ Le panneau de contrôle de Campaign accroît votre efficacité en tant qu’admi
 >
 >Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
->Notez que votre instance doit être hébergée sur AWS et mise à niveau avec le dernier build [Gold Standard](rn/using/gs-overview.md) ou le dernier build [GA (21.1.3)](rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr).
+>Notez que votre instance doit être hébergée sur AWS et mise à niveau avec le dernier build [Gold Standard](rn/using/gs-overview.md) ou le dernier build [GA (21.1.4)](rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr).
 
 ### Comment accéder au panneau de contrôle ?
 
@@ -109,16 +109,16 @@ Le panneau de contrôle est directement accessible à partir d&#39;Adobe Experi
 
 [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/faq.html) pour accéder à la FAQ sur le panneau de contrôle Campaign.
 
-### Gestion SFTP
+### Gestion SFTP
 
-Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer l&#39;ajout des adresses IP à la liste autorisée et les clés SSH publiques. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr) pour plus d&#39;informations.
+Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP qui sont connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer l&#39;ajout des adresses IP à la liste autorisée et les clés SSH publiques. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr) pour plus d&#39;informations.
 
 ### Sous-domaines et certificats
 
 Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus dans ces pages :
 * [Branding des sous-domaines](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr)
 * [Configuration d&#39;un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr)
-* [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=fr)
+* [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=fr)
 
 ### Paramètres des instances
 
@@ -132,7 +132,7 @@ Découvrez comment gérer vos paramètres d’instances Campaign Classic dans l
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Le nouveau système de gestion des tickets a été lancé via la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Ce nouveau système nécessite de nouveaux comptes individuels pour chaque utilisateur, avec les permissions adéquates. Si vous constatez que vous ne pouvez pas vous connecter à l’aide de votre Adobe ID, demandez l’accès par le biais d’Experience League. L’équipe de l’Assistance clientèle vous contactera alors dès que possible. [En savoir plus](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html)
+Le nouveau système de gestion des tickets a été lancé via la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Ce nouveau système nécessite de nouveaux comptes individuels pour chaque utilisateur, avec les permissions adéquates. Si vous constatez que vous ne pouvez pas vous connecter à l’aide de votre Adobe ID, demandez l’accès par le biais d’Experience League. L’équipe de l’assistance clientèle vous contactera alors dès que possible. [En savoir plus](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html)
 
 ### Consultation d’experts
 

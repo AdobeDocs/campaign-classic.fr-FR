@@ -7,9 +7,9 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a066eedd2ba7848f6dcefcb1476a0b834cb1d49a
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2525'
 ht-degree: 99%
 
 ---
@@ -438,6 +438,7 @@ ht-degree: 99%
       + [Services d’inscriptions](workflow/using/subscription-services.md)
       + [Mise à jour de données](workflow/using/update-data.md)
       + [Connecteur CRM](workflow/using/crm-connector.md)
+      + [Modification de la source de données](workflow/using/change-data-source.md)
    + Activités de contrôle de flux {#flow-control-activities}
       + [À propos des activités d’ordonnancement](workflow/using/about-flow-control-activities.md)
       + [Début et Fin](workflow/using/start-and-end.md)

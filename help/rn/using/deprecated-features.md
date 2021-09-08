@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
 workflow-type: tm+mt
-source-wordcount: '1645'
-ht-degree: 98%
+source-wordcount: '1664'
+ht-degree: 97%
 
 ---
 
@@ -80,12 +80,16 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
    <td><strong>Remplacement</strong></td> 
   </tr>
   <tr>  
+   <td>Reporting<br></td>
+   <td><p>Après la fin de Flash Player des Adobes, le rapport d’évaluation et le moteur de rendu des graphiques ne sont plus disponibles. <a href="../../reporting/using/creating-a-new-report.md">Apprenez-en davantage</a>   </p>
+  </tr>
+  <tr>  
    <td>Canal fax<br></td>
    <td><p>À compter de la version 21.1.3 de Campaign, le canal Fax n’est plus disponible. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">En savoir plus</a></p>
+  </tr>
   <tr>
   <td>Domaine Demdex<br></td>
   <td><p> Depuis la version Campaign 21.1.3, le domaine demdex utilisé pour importer et exporter des audiences vers Adobe Experience Cloud n’est plus disponible. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">En savoir plus</a></p> 
-  </td>
   </td>
   </tr>
    <tr> 

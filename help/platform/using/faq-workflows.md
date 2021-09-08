@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7d1bb3c6-d056-4212-9500-75459a0046fa
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # FAQ sur les workflows {#workflows-faq}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Apprenez à orchestrer les processus et les tâches à l&#39;aide des workflows Adobe Campaign.
 

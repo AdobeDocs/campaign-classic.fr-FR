@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 5b1c59c450aaedbd8dbf6df8685817e4a7e02056
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Un statut est associé à chaque build. Vous trouverez ci-dessous la liste des s
 
 ![](assets/do-not-localize/green3.png) **Disponibilité générale** (GA) - Validée en production et recommandée par Adobe.
 
-Les **derniers builds en disponibilité générale** ont les versions suivantes : [[!DNL Gold Standard]  11](../../rn/using/gold-standard.md) et [Campaign 21.1.3](../../rn/using/latest-release.md#release-21-1-3-build-9330).
+Les **derniers builds en disponibilité générale** ont les versions suivantes : [[!DNL Gold Standard]  12](../../rn/using/gold-standard.md) et [Campaign 21.1.4](../../rn/using/latest-release.md#release-21-1-4-build-9340).
 
 ![](assets/do-not-localize/limited3.png) **Disponibilité limitée** (LA) - Déploiement à la demande uniquement.
 
@@ -55,7 +55,7 @@ En tant qu’utilisateur On-premise, vous pouvez effectuer la mise à niveau. Po
 
 ### [!DNL Gold Standard]{#upgrade-for-gold-standard-users}
 
-En tant qu’utilisateur [!DNL Gold Standard] hébergé, vous bénéficiez automatiquement de la mise à niveau [!DNL Gold Standard] avec le [dernier build [!DNL Gold Standard]  GA](../../rn/using/gold-standard.md#gs-11) sans que vous n’ayez aucune action à effectuer. [En savoir plus](../../rn/using/gs-overview.md).
+En tant qu’utilisateur [!DNL Gold Standard] hébergé, vous bénéficiez automatiquement de la mise à niveau [!DNL Gold Standard] avec le [dernier build [!DNL Gold Standard]  GA](../../rn/using/gold-standard.md#gs-12) sans que vous n’ayez aucune action à effectuer. [En savoir plus](../../rn/using/gs-overview.md).
 
 >[!NOTE]
 >La matrice de compatibilité pour [!DNL Gold Standard] est disponible dans la [Matrice de compatibilité GA](../../rn/using/compatibility-matrix-gs.md).

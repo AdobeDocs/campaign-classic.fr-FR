@@ -6,9 +6,9 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,6 @@ La langue d&#39;édition correspond à la langue dans laquelle vous rédigez. Lo
 
 Dans l&#39;onglet **[!UICONTROL Rendu]**, vous pouvez personnaliser le mode d&#39;affichage des données dans la page. Ainsi, vous pouvez sélectionner :
 
-* Le moteur de rendu des graphiques : par défaut, le moteur de rendu est HTML 5.
 * Le type de navigation dans le rapport : via des boutons ou des liens.
 * La position par défaut des libellés des éléments du rapport. Cette position peut être surchargée au niveau de chaque élément.
 * Le modèle, ou thème, utilisé pour la génération des pages du rapport.

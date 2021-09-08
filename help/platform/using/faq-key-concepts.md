@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Principaux concepts {#key-concepts}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Découvrez les principales étapes pour démarrer avec Adobe Campaign.
 
