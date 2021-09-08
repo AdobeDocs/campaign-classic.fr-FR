@@ -6,10 +6,10 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 100%
+source-wordcount: '546'
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ Pour créer un graphique dans un rapport, les étapes sont les suivantes :
 
       ![](assets/reporting_graph_add_filter.png)
 
-   * Pour utiliser les données du contexte, sélectionnez cette option et cliquez sur le lien **[!UICONTROL Paramètres avancés...]**. Sélectionnez ensuite les données sur lesquelles porteront les statistiques.
+   * Pour utiliser les données contextuelles, sélectionnez **[!UICONTROL Données contextuelles]** dans la liste déroulante **[!UICONTROL Source]** et cliquez sur les **[!UICONTROL Paramètres avancés...]**. Sélectionnez ensuite les données sur lesquelles porteront les statistiques.
 
       ![](assets/reporting_graph_from_context.png)
 
@@ -118,32 +118,6 @@ Au besoin, vous pouvez inverser l&#39;ordre d&#39;affichage des valeurs. Pour ce
 ### Conversion : le funnel {#conversion--funnel}
 
 Ce type de graphique permet de suivre le taux de conversion des éléments mesurés.
-
-### Progression : la jauge {#progress--gauge}
-
-Ce type de graphique permet d&#39;afficher la progression d&#39;une valeur par rapport à un objectif défini. Dans l&#39;exemple ci-dessous, la flèche noire représente le nombre de diffusions envoyées avec succès (76) sur un objectif de 100 diffusions. La jauge est divisée en trois plages de valeurs qui correspondent à un statut défini dans le paramétrage.
-
-![](assets/reporting_graph_type_gauge.png)
-
-Ces éléments sont définis lors du paramétrage du graphique.
-
-![](assets/reporting_graph_type_gauge1.png)
-
-* Le champ **[!UICONTROL Valeur]** est représenté par une flèche noire sur le graphique. Il définit l&#39;élément dont vous voulez calculer la progression. La valeur à définir doit être pré-enregistrée pour pouvoir être utilisée.
-* Le champ **[!UICONTROL Objectif]** représente la valeur maximale à atteindre.
-* Avec le champ **[!UICONTROL Autre marque]**, vous pouvez ajouter un deuxième indicateur sur le graphique.
-* Les champs **[!UICONTROL Plage d&#39;affichage]** permettent de définir les valeurs entre lesquelles le rapport est calculé.
-* Les **[!UICONTROL Plages de valeurs]** vous permettent d&#39;attribuer un statut (Aucun, Médiocre, Satisfaisant, Bon) à un ensemble de valeurs sur le graphique, pour mieux illustrer la progression.
-
-Dans la section **[!UICONTROL Paramètres d&#39;affichage]**, le lien **[!UICONTROL Modifier l&#39;apparence...]** vous permet de paramétrer l&#39;affichage du graphique.
-
-![](assets/reporting_graph_type_gauge2.png)
-
-L&#39;option **[!UICONTROL Afficher la valeur sous la jauge]** permet d&#39;indiquer la progression de la valeur sous le graphique.
-
-Le champ **[!UICONTROL Ratio d&#39;ouverture]**, qui doit être défini entre 0 et 1, permet de modifier l&#39;affichage du rapport en un cercle plus ou moins complet. Dans l&#39;exemple ci-dessus, la valeur 0,50 correspond à un demi-cercle.
-
-Le champ **[!UICONTROL Largeur]** permet de modifier la taille du graphique.
 
 ## Interaction avec le graphique {#interaction-with-the-chart}
 
