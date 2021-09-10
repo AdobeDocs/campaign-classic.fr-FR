@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 5b1c59c450aaedbd8dbf6df8685817e4a7e02056
+source-git-commit: 21c985d628f672f3c3864fff1a14ab71a24ccfc7
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 100%
+source-wordcount: '422'
+ht-degree: 95%
 
 ---
 
@@ -35,9 +35,9 @@ Les **derniers builds en disponibilité générale** ont les versions suivantes�
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Dernière version dotée de nouvelles fonctionnalités.
 
-Le **dernier build RC** est [Campaign Classic 21.1](../../rn/using/latest-release.md)
+![](assets/do-not-localize/orange3.png) **Plus disponible**  - Aucun déploiement. Aucun correctif. Il est recommandé d’effectuer une mise à jour vers un build plus récent.
 
-![](assets/do-not-localize/red3.png) **Obsolète**  - Aucun déploiement. Les implémentations existantes doivent être mises à niveau.
+![](assets/do-not-localize/red3.png) **Obsolète**  - Aucun déploiement. Aucun correctif. Les implémentations existantes doivent être mises à niveau.
 
 ## Recommandations{#recommendations}
 
