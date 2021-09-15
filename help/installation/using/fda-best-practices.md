@@ -6,8 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-source-git-commit: 1312f7c319c96851bc83ae21501164e2688d0dff
-workflow-type: ht
+source-git-commit: b458ac67733a2f0e508df729add37d9a78dbcbd8
+workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 100%
 
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 # Bonnes pratiques et limites
 
-## Optimiser la personnalisation d’un email avec des données externes {#optimizing-email-personalization-with-external-data}
+![](../../assets/v7-only.svg)
 
-Vous pouvez prétraiter la personnalisation des messages dans un workflow dédié. Pour ce faire, utilisez l’option **[!UICONTROL Préparer les données de personnalisation avec un workflow]**, disponible dans l’onglet **[!UICONTROL Analyse]** des propriétés de la diffusion.
+## Optimiser la personnalisation d&#39;un e-mail avec des données externes {#optimizing-email-personalization-with-external-data}
 
-Cette option permet, lors de l’analyse de la diffusion, de créer et d’exécuter automatiquement un workflow qui stocke toutes les données liées à la cible dans une table temporaire, notamment les données issues des tables liées dans une base de données externe.
+Vous pouvez prétraiter la personnalisation des messages dans un workflow dédié. Pour ce faire, utilisez l&#39;option **[!UICONTROL Préparer les données de personnalisation avec un workflow]**, disponible dans l&#39;onglet **[!UICONTROL Analyse]** des propriétés de la diffusion.
 
-Cette option améliore considérablement les performances lors de l’exécution de l’étape de personnalisation.
+Cette option permet, lors de l&#39;analyse de la diffusion, de créer et d&#39;exécuter automatiquement un workflow qui stocke toutes les données liées à la cible dans une table temporaire, notamment les données issues des tables liées dans une base de données externe.
+
+Cette option améliore considérablement les performances lors de l&#39;exécution de l&#39;étape de personnalisation.
 
 ## Utiliser les données d’une base de données externe dans un workflow {#using-data-from-an-external-database-in-a-workflow}
 
@@ -29,7 +31,7 @@ Dans plusieurs activités des workflows Adobe Campaign, vous pouvez utiliser les
 
 * **Filtrer sur les données externes** - L&#39;activité de [requête](../../workflow/using/targeting-data.md#selecting-data) permet d&#39;ajouter des données externes et de les utiliser dans les paramètres de filtrage définis. Voir à ce propos [cette page](../../workflow/using/targeting-data.md#selecting-data).
 
-* **Créer des sous-ensembles** : l&#39;activité de [partage](../../workflow/using/split.md) vous permet de créer des sous-ensembles. Vous pouvez utiliser des données externes pour définir les critères de filtrage à utiliser. Voir à ce propos [cette page](../../workflow/using/split.md).
+* **Créer des sous-ensembles** : l&#39;activité de [partage](../../workflow/using/split.md) vous permet de créer des sous-ensembles. Vous pouvez utiliser des données externes pour définir les critères de filtrage à utiliser. Pour plus d’informations, consultez [cette page](../../workflow/using/split.md).
 
 * **Charger la base de données externe** : vous pouvez utiliser les données externes dans l&#39;activité de [chargement](../../workflow/using/data-loading--rdbms-.md) (SGBD). En savoir plus sur [cette page](../../workflow/using/data-loading--rdbms-.md).
 
@@ -37,14 +39,14 @@ Dans plusieurs activités des workflows Adobe Campaign, vous pouvez utiliser les
 
 ## Limites de FDA {#limitations}
 
-L’option FDA est utilisée pour manipuler les données des bases de données externes en mode batch dans les workflows. Pour éviter les problèmes de performance, il n&#39;est pas recommandé d&#39;utiliser le module FDA dans le cadre d&#39;opérations unitaires, par exemple : personnalisation, interaction, messagerie en temps réel, etc.
+L&#39;option FDA est utilisée pour manipuler les données des bases de données externes en mode batch dans les workflows. Pour éviter les problèmes de performance, il n&#39;est pas recommandé d&#39;utiliser le module FDA dans le cadre d&#39;opérations unitaires, par exemple : personnalisation, interaction, messagerie en temps réel, etc.
 
-Evitez autant que possible les opérations nécessitant d’utiliser à la fois la base Adobe Campaign et la base externe. Pour cela, vous pouvez :
+Evitez autant que possible les opérations nécessitant d&#39;utiliser à la fois la base Adobe Campaign et la base externe. Pour cela, vous pouvez :
 
 * exporter les données de la base Adobe Campaign vers la base externe et effectuer les opérations uniquement depuis la base externe avant de réimporter les résultats dans Adobe Campaign.
 
 * collecter les données de la base externe dans Adobe Campaign et effectuer les opérations localement.
 
-Si vous souhaitez effectuer de la personnalisation dans vos diffusions à l’aide des données de la base externe, collectez les données à utiliser dans un workflow afin de les rendre disponibles dans une table temporaire. Utilisez alors les données de la table temporaire pour personnaliser votre diffusion.
+Si vous souhaitez effectuer de la personnalisation dans vos diffusions à l&#39;aide des données de la base externe, collectez les données à utiliser dans un workflow afin de les rendre disponibles dans une table temporaire. Utilisez alors les données de la table temporaire pour personnaliser votre diffusion.
 
-L’option FDA est assujettie aux limitations du système de la base de données externe que vous utilisez.
+L&#39;option FDA est assujettie aux limitations du système de la base de données externe que vous utilisez.
