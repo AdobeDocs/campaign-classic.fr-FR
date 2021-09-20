@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Les packages standard contiennent un ensemble de fonctionnalités qui peuvent ê
 
 Pour installer un package natif :
 
-1. Accédez à l&#39;assistant d&#39;import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
+1. Accédez à l&#39;assistant d&#39;import de package à partir de **[!UICONTROL Outils > Avancé > Import de package]** dans la console cliente Adobe Campaign.
 1. Sélectionnez **[!UICONTROL Installer un package standard]**.
 1. Dans la liste de packages, vérifiez les packages que vous souhaitez installer.
    >[!NOTE]

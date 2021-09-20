@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
+workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -43,7 +43,7 @@ En tant que client on-premise, vous devez installer un package natif.
 
 Les étapes d&#39;installation sont les suivantes :
 
-1. Accédez à l&#39;assistant d&#39;import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
+1. Accédez à l&#39;assistant d&#39;import de package à partir de **[!UICONTROL Outils > Avancé > Import de package]** dans la console cliente Adobe Campaign.
 
    ![](assets/package_ios.png)
 

@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -299,7 +299,7 @@ Le tableau suivant liste les correspondances des types de données générés pa
 
 ## Propriétés {#properties}
 
-Les éléments **`<elements>`** et **`<attributes>`** du schéma de données peuvent être enrichis de diverses propriétés. Vous pouvez remplir un libellé afin de décrire l&#39;élément actif.
+Les éléments **`<elements>`** et **`<attributes>`** du schéma de données peuvent être enrichis de différentes propriétés. Vous pouvez remplir un libellé afin de décrire l&#39;élément actif.
 
 ### Les libellés et les descriptions {#labels-and-descriptions}
 
@@ -486,6 +486,7 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 >
 >* **Location/@city** n&#39;est pas valide ; veuillez utiliser **`[location/@city]`**
 >* **`[@email]`** et **@email** sont équivalents
+
 >
 
 

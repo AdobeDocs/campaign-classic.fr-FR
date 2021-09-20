@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
 workflow-type: tm+mt
 source-wordcount: '2512'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -301,7 +301,7 @@ Pour exporter un package à partir d&#39;une définition de package, suivez les 
 
 ## Importer des packages {#importing-packages}
 
-L&#39;assistant d&#39;import de package est accessible à partir du menu principal **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
+L&#39;assistant d&#39;import de package est accessible à partir du menu principal **[!UICONTROL Outils > Avancé > Import de package]** de la console cliente Adobe Campaign.
 
 Vous pouvez importer le package d&#39;un export réalisé antérieurement, par exemple à partir d&#39;une autre instance Adobe Campaign, ou un [package natif](../../installation/using/installing-campaign-standard-packages.md), selon les conditions de votre licence.
 
