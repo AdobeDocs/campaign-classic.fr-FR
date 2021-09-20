@@ -5,8 +5,7 @@ description: Découvrez comment utiliser l’explorateur Campaign
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f,f91d69a4-b794-40f0-b450-de862d7333e2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 53b9cd8498ffe0ac937f63dcaebfc3a8a7867ee3
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 100%

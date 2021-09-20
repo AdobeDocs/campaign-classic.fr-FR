@@ -5,8 +5,7 @@ description: Découvrez comment configurer des zones de sécurité
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 53b9cd8498ffe0ac937f63dcaebfc3a8a7867ee3
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%

@@ -5,8 +5,7 @@ description: En savoir plus sur le connecteur Adobe Analytics
 feature: Overview
 role: User, Admin
 level: Beginner
-exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
-source-git-commit: 0cfe8439007b56014eba497c511904c4f11b39ce
+source-git-commit: 53b9cd8498ffe0ac937f63dcaebfc3a8a7867ee3
 workflow-type: tm+mt
 source-wordcount: '1785'
 ht-degree: 100%
