@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
@@ -41,23 +41,23 @@ Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 1. Editez l&#39;activité et sélectionnez le questionnaire dont vous souhaitez analyser les réponses.
 1. Activez l&#39;option **[!UICONTROL Sélectionner toutes les données des réponses]** afin de collecter toutes les informations.
 
-   ![](assets/reporting_usecase_1_01.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_01.png)
 
 1. Sélectionnez les colonnes à extraire (ici : tous les champs archivés). Les réponses sont stockées dans ces champs.
 
-   ![](assets/reporting_usecase_1_02.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_02.png)
 
 1. Une fois la boîte de collecte des réponses paramétrée, positionnez une activité de type **[!UICONTROL Mise à jour de liste]** pour sauvegarder ces données.
 
-   ![](assets/reporting_usecase_1_04.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_04.png)
 
    Dans cette activité, indiquez la liste à mettre à jour et désélectionnez l&#39;option **[!UICONTROL Purger puis réutiliser la liste si elle existe (sinon la compléter)]** : les réponses seront ajoutées à la table existante. Cette option permettra de référencer la liste dans un cube : le schéma associé à la liste ne sera pas regénéré à chaque mise à jour, ce qui permet de garantir l&#39;intégrité du cube utilisant cette liste.
 
-   ![](assets/reporting_usecase_1_03.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_03.png)
 
 1. Démarrez le workflow pour en valider la configuration.
 
-   ![](assets/reporting_usecase_1_05.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_05.png)
 
    La liste spécifiée est alors créée et contient le schéma des réponses au questionnaire.
 
@@ -71,11 +71,11 @@ Vous pouvez ensuite créer le cube et paramétrer ses mesures : elles seront uti
 
 Dans cet exemple, le cube est basé sur les données de la liste alimentée par le workflow créé à l&#39;étape précédente.
 
-![](assets/reporting_usecase_2_01.png)
+![](../../surveys/using/assets/reporting_usecase_2_01.png)
 
 Définissez les dimensions et mesures à afficher dans le rapport. Ici, nous afficherons la date du contrat et le pays du participant.
 
-![](assets/reporting_usecase_2_02.png)
+![](../../surveys/using/assets/reporting_usecase_2_02.png)
 
 L&#39;onglet **[!UICONTROL Prévisualisation]** permet de contrôler le rendu du rapport.
 
@@ -83,8 +83,8 @@ L&#39;onglet **[!UICONTROL Prévisualisation]** permet de contrôler le rendu du
 
 Vous pouvez ensuite créer un rapport basé sur ce cube et en exploiter les données et les informations.
 
-![](assets/reporting_usecase_3_01.png)
+![](../../surveys/using/assets/reporting_usecase_3_01.png)
 
 Adaptez les informations à afficher selon vos besoins.
 
-![](assets/reporting_usecase_3_02.png)
+![](../../surveys/using/assets/reporting_usecase_3_02.png)

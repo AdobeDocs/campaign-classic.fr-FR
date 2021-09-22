@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -169,7 +169,7 @@ cpan Mail::SpamAssassin
 
 ### Mise à jour des règles de filtrage {#updating-filter-rules}
 
-Les règles de filtrage peuvent être mises à jour automatiquement à l&#39;aide de l&#39;outil **sa-update**. Reportez-vous au site officiel de SpamAssassin [http://spamassassin.apache.org/](http://spamassassin.apache.org/) pour plus d&#39;informations.
+Les règles de filtrage peuvent être mises à jour automatiquement à l’aide de l’outil **sa-update** . Pour plus d’informations, consultez le site Web officiel de SpamAssassin [https://spamassassin.apache.org/](https://spamassassin.apache.org/) .
 
 Sous Debian, la mise à jour est automatique et quotidienne.
 

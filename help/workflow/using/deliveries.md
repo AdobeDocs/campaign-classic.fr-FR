@@ -5,9 +5,9 @@ description: En savoir plus sur les workflows de diffusions par défaut
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 794be3d196ea8292699bbf29c8a7038177763e31
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
@@ -35,11 +35,6 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
    <td> <span class="uicontrol">Facturation</span> <br /> </td> 
    <td> <span class="uicontrol">billing</span> <br /> </td> 
    <td> Ce workflow transmet par email le rapport d'activité du système à l'opérateur 'billing'. Par défaut, il se déclenche tous les 25 du mois.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Facturation (profils actifs)</span> <br /> </td> 
-   <td> <span class="uicontrol">billingActiveContactCount</span> <br /> </td> 
-   <td> <p>Ce workflow compte le nombre de profils actifs. Par défaut, il se déclenche toutes les nuits à 1h00 du matin.</p> <p>Un “<strong>profil</strong>” désigne un enregistrement d'informations (par exemple : un enregistrement dans la table nmsRecipient ou une table externe contenant un identifiant de cookie, un identifiant client, un identifiant mobile ou d'autres informations relatives à un canal particulier) représentant un client final ou un prospect. La facturation ne concerne que les profils “actifs”. Un profil est considéré comme actif s'il a été ciblé ou s'il a reçu des communications au cours des 12 derniers mois via n'importe quel canal.</p> <p>Les canaux Facebook et Twitter ne sont pas prises en compte.</p> <p>Vous pouvez obtenir un aperçu du <span class="uicontrol">Nombre de profils actifs</span> depuis le menu <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Gestion de campagne</span> &gt; <span class="uicontrol">Mesures des clients</span>.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Gestion des alias</span> <br /> </td> 

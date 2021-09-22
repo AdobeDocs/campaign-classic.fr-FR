@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 877ac37102a09a40ea59ef073afa00b9d9bd7dde
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '4562'
+source-wordcount: '4533'
 ht-degree: 98%
 
 ---
@@ -268,7 +268,7 @@ La section Confidentialité et consentement a été améliorée avec des informa
 
 La page Gestion de la confidentialité dans Campaign Classic a été mise à jour avec des informations sur le champ « réglementation » qui est maintenant disponible lors de l&#39;utilisation de l’API permettant de configurer le processus de demande automatique d’accès à des informations personnelles. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-La page de présentation de la gestion des données personnelles a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne sur la protection des données (Lei Geral de Proteção de Dados - LGPD). [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+La page de présentation de la gestion des données personnelles a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne sur la protection des données (Lei Geral de Proteção de Dados - LGPD). [En savoir plus](../../platform/using/privacy-and-recommendations.md)
 
 Des informations ont été ajoutées sur les logs de sous-workflows et sur le comportement en cas d’erreur. [En savoir plus](../../workflow/using/sub-workflow.md)
 
@@ -278,7 +278,7 @@ Des bonnes pratiques ont été ajoutées dans la section sur l’activité **[!U
 
 La section Suppression d’une adresse mise en quarantaine a été mise à jour. Cela inclut la clarification des cas dans lesquels les adresses sont automatiquement supprimées de la liste de quarantaine. [En savoir plus](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-Des cas d’utilisation ont été ajoutés pour [crypter](../../platform/using/zip-encrypt.md) et [décrypter](../../platform/using/unzip-decrypt.md) des données à l’aide du panneau de contrôle et des workflows Campaign.
+Des cas d&#39;utilisation ont été ajoutés pour [chiffrer](../../platform/using/zip-encrypt.md) et [déchiffrer](../../platform/using/unzip-decrypt.md) des données à l&#39;aide du panneau de contrôle et des workflows Campaign.
 
 La page sur l&#39;intégration des Triggers Experience Cloud et Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
 
@@ -520,9 +520,9 @@ Suivi - [En savoir plus](../../production/using/audit-trail.md)
 
 Un nouveau FAQ relatif à l&#39;upgrade de build a été créé. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/build-upgrade-faq.html)
 
-Mise à jour de la [matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html). La liste des systèmes de base de données pris en charge a été mise à jour, ainsi que les versions Android/iOS et les SDK associés. La [matrice de compatibilité 19.0](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix-19-0.html) a été archivée.
+Mise à jour de la [matrice de compatibilité](compatibility-matrix.md). La liste des systèmes de base de données pris en charge a été mise à jour, ainsi que les versions Android/iOS et les SDK associés. La matrice de compatibilité 19.0 a été archivée.
 
-La page « Fonctionnalités obsolètes et supprimées de Campaign Classic » a été mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html)
+La page « Fonctionnalités obsolètes et supprimées de Campaign Classic » a été mise à jour. [En savoir plus](deprecated-features.md)
 
 La description du fichier de configuration du serveur a été ajoutée au guide d&#39;installation. [En savoir plus](../../installation/using/the-server-configuration-file.md)
 
@@ -579,7 +579,7 @@ Les notes techniques suivantes ont été mises à jour : [Paramètres et protoc
 
 La section Workflows techniques a été mise à jour. [En savoir plus](../../workflow/using/about-technical-workflows.md)
 
-La procédure de configuration des noms de domaines Campaign a été améliorée et mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html)
+La procédure de configuration des noms de domaines Campaign a été améliorée et mise à jour.
 
 La procédure de migration des applications Android entre Google Cloud Messaging (GCM) et Firebase Cloud Messaging (FCM) a été mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/migrate-to-fcm.html)
 

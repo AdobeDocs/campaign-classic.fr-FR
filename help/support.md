@@ -4,9 +4,9 @@ title: 'Options d’aide et de support pour Campaign Classic '
 description: Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit !
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 5b1c59c450aaedbd8dbf6df8685817e4a7e02056
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '801'
 ht-degree: 100%
 
 ---
@@ -136,7 +136,7 @@ Le nouveau système de gestion des tickets a été lancé via la console [Adobe�
 
 ### Consultation d’experts
 
-Rejoignez la communauté Campaign Classic : cherchez des réponses à une question existante ou posez votre question à la communauté. [Prenez part à la conversation](https://experienceleaguecommunities.adobe.cadobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+Rejoignez la communauté Campaign Classic : cherchez des réponses à une question existante ou posez votre question à la communauté. [Prenez part à la conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 
 ### Accès au Centre de téléchargement Campaign
 

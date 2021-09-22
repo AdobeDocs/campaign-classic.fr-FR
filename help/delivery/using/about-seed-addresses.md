@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1113afb573bad958ec7cc2cf008f71c8e751e8f9
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 75%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les destinataires qui n&#39;entrent pas dans le cadre de la diffusion peuvent la recevoir, comme tout autre destinataire cible.
 
-L&#39;une des principales raisons est la **protection de votre liste de messagerie**. L&#39;insertion d&#39;adresses de contrôle dans votre liste de diffusion vous permet de savoir si elle est utilisée par une tierce partie, car les adresses de contrôle qu&#39;elle contient recevront les diffusions envoyées à la liste de diffusion.
+L’une des principales raisons pour les utiliser est **la protection de votre liste de diffusion**. L&#39;insertion d&#39;adresses de contrôle dans votre liste de diffusion vous permet de savoir si elle est utilisée par un tiers, car les adresses de contrôle qu&#39;elle contient recevront les diffusions envoyées à votre liste de diffusion.
 
-De plus, les adresses de contrôle vous permettent de **prévisualiser et de tester la personnalisation et le rendu des diffusions** avant leur envoi, en leur envoyant des BAT (voir la section [Utiliser des adresses de contrôle en tant que BAT](steps-defining-the-target-population.md#using-seed-addresses-as-proof)).
+De plus, les adresses de contrôle permettent de **prévisualiser et tester la personnalisation et le rendu des diffusions** avant leur envoi, en leur envoyant des BAT (voir [Utiliser des adresses de contrôle comme BAT](steps-defining-the-target-population.md#using-seed-addresses-as-proof)).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](steps-defining-the-target-population.md#seeds-and-proofs-video)
 
@@ -37,7 +37,7 @@ Les adresses de contrôle sont ajoutées à la cible de diffusions en étant imp
 >
 >Les adresses de contrôle ne font pas partie de la table des destinataires. Elles sont créées dans une table distincte. Si vous étendez la table des destinataires avec de nouvelles données, vous devez également étendre la table des adresses de contrôle avec les mêmes données. Sinon, les champs étendus ne seront pas pris en compte pour les adresses de contrôle.
 >
->Vous trouverez un exemple de cela dans la section : [Cas pratique : sélection des adresses de contrôle selon des critères](use-case--selecting-seed-addresses-on-criteria.md).
+>Un exemple d&#39;extension du tableau des adresses de contrôle est présenté dans cette section : [Cas pratique : sélectionnez des adresses de contrôle selon les critères ](use-case--selecting-seed-addresses-on-criteria.md).
 
 Dans le cadre des diffusions courrier, les adresses de contrôle sont ajoutées pendant l&#39;extraction et mélangées dans le document de sortie.
 

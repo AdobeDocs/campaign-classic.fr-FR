@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 97%
+source-wordcount: '322'
+ht-degree: 95%
 
 ---
 
@@ -76,9 +76,9 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
    </Directory>
    ```
 
-   **Sur IIS** (voir la [documentation](http://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)), définissez la valeur **maxAllowedContentLength** (longueur de contenu maximale autorisée) dans les options de filtrage de contenu.
+   **Sur IIS** (voir la [documentation](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)), définissez la valeur **maxAllowedContentLength** (longueur de contenu maximale autorisée) dans les options de filtrage de contenu.
 
 Rubriques connexes :
 
-* [Vue d’ensemble de la conformité d’Adobe Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/xref/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
+* [Vue d’ensemble de la conformité d’Adobe Marketing Cloud](https://experienceleague.adobe.com/docs/core-services/assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
 * [Vue d’ensemble de la sécurité d’Adobe Campaign](https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/campaign/pdfs/54658.en.campaign.wp.adb-security.pdf) (PDF)

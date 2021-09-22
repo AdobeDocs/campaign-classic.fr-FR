@@ -4,10 +4,10 @@ title: Configuration de l'intégration
 description: Configuration de l'intégration
 audience: integrations
 content-type: reference
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: c6d5e597a02a1210507b0c6d84ab7d170e877eb1
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ Le paramètre &quot;consommateur&quot; identifie l&#39;instance comme l&#39;un d
 ## Configuration de l&#39;option Pipeline {#configure-pipeline-option}
 
 Ajoutez ou modifiez les déclencheurs Experience Cloud sous le tableau &quot;déclencheurs&quot; ; ne modifiez pas le reste.
-Assurez-vous que le fichier JSON est valide à l&#39;aide de ce [site web](http://jsonlint.com/).
+Assurez-vous que le fichier JSON est valide à l’aide de ce [site Web](https://jsonlint.com/).
 
 * &quot;name&quot; est l&#39;identifiant du déclencheur. Un caractère générique &quot;*&quot; capture tous les déclencheurs.
 * &quot;Consumer&quot; est formé de toute chaîne unique qui identifie de manière unique l&#39;instance nlserver. Il peut s&#39;agir généralement du nom de l&#39;instance lui-même. Pour plusieurs environnements (dev/stage/prod), veillez à ce qu&#39;il soit unique pour chacun d&#39;eux afin que chaque instance reçoive une copie du message.

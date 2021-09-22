@@ -5,7 +5,7 @@ description: Découvrez comment configurer le pipeline
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
@@ -113,7 +113,7 @@ Le service de pipeline effectue le suivi des messages récupérés par chaque co
 Pour configurer l&#39;option Pipeline, vous devez suivre les recommandations suivantes :
 
 * Ajoutez ou modifiez les déclencheurs sous **[!UICONTROL Déclencheurs]**, sans modifier le reste.
-* Assurez-vous que le fichier JSON est valide. Vous pouvez utiliser un programme de validation JSON. Reportez-vous à ce [site Web](http://jsonlint.com/), par exemple.
+* Assurez-vous que le fichier JSON est valide. Vous pouvez utiliser un programme de validation JSON. Reportez-vous à ce [site Web](https://jsonlint.com/), par exemple.
 * &quot;name&quot; correspond à l&#39;ID du déclencheur. Un caractère générique &quot;*&quot; capture tous les déclencheurs.
 * &quot;Consommateur&quot; correspond au nom de l&#39;instance ou de l&#39;application appelante.
 * Le pipeline prend également en charge la rubrique &quot;alias&quot;.

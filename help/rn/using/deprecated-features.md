@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 97%
+source-wordcount: '1657'
+ht-degree: 95%
 
 ---
 
@@ -114,7 +114,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
   </tr> 
   <tr> 
    <td>Applications web - Microsites</td>
-   <td>À compter de la version 18.10 de Campaign, les microsites ne sont plus disponibles. Vous pouvez améliorer la sécurité en limitant l’accès aux seuls domaines dédiés des fichiers de configuration d’Adobe Campaign et utiliser des URL personnalisées dans Campaign à l’aide d’alias DNS. <a href="https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html">En savoir plus</a></td>
+   <td>À compter de la version 18.10 de Campaign, les microsites ne sont plus disponibles. Vous pouvez améliorer la sécurité en limitant l’accès aux seuls domaines dédiés des fichiers de configuration d’Adobe Campaign et utiliser des URL personnalisées dans Campaign à l’aide d’alias DNS.</td>
   </tr> 
   <tr> 
    <td>Notifications push - Connecteur binaire iOS</td>
@@ -183,7 +183,7 @@ Depuis la version 19.1 du printemps, Adobe Campaign n’est plus compatible av
 
 Depuis la version 19.1 du printemps, Adobe Campaign n’est plus compatible avec les outils ci-après.
 
-* Java JDK 7. [En savoir plus](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
+* Java JDK 7. [En savoir plus](https://www.oracle.com/technetwork/java/javase/eol-135779.html)
 * Libre Office 3.5 / 4.3 / 5.x, sauf si intégré dans un autre outil. [En savoir plus](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### Moteurs de base de données {#dbe-eol}
@@ -201,14 +201,14 @@ Consultez la [matrice de compatibilité de Campaign ](../../rn/using/compatibil
 Depuis la version 19.1 du printemps, Adobe Campaign n’est plus compatible avec les serveurs FDA ci-après:
 
 * PostgreSQL 9.3. [En savoir plus](https://www.postgresql.org/support/versioning)
-* MySQL 5.5. [En savoir plus](http://www.fromdual.com/support-for-mysql-from-oracle)
-* DB2 9.5. [En savoir plus](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* MySQL 5.5. [En savoir plus](https://www.fromdual.com/support-for-mysql-from-oracle)
+* DB2 9.5. [En savoir plus](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
 * Teradata 14 – 14.1. [En savoir plus](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)
 
 Campaign Classic n’est pas compatible avec les serveurs ci-après dans Federated Data Access (FDA).
 
-* DB2 UDB 9.5, 9.7. Une version plus récente de DB2 est prise en charge via Federated Data Access (FDA). [En savoir plus](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Oracle 9i, 10G R2. Les versions plus récentes d’Oracle sont prises en charge via Federated Data Access (FDA). [En savoir plus](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
+* DB2 UDB 9.5, 9.7. Une version plus récente de DB2 est prise en charge via Federated Data Access (FDA). [En savoir plus](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* Oracle 9i, 10G R2. Les versions plus récentes d’Oracle sont prises en charge via Federated Data Access (FDA). [En savoir plus](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
 * PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. Les versions plus récentes de PostgreSQL sont prises en charge via Federated Data Access (FDA). [En savoir plus](https://www.postgresql.org/support/versioning)
 * MSSQL 2000, 2005, 2008 R2. Les versions plus récentes de SQL Server sont prises en charge via Federated Data Access (FDA). [En savoir plus](https://support.microsoft.com/en-us/lifecycle/search/1044)
 * MySQL 5.1. Les versions plus récentes de MySQL sont prises en charge via Federated Data Access (FDA). [En savoir plus](https://en.wikipedia.org/wiki/InfiniDB)

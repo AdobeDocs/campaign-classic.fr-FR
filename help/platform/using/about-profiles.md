@@ -6,10 +6,10 @@ feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: ed43a632a962747c9402ff8d5f0ce442c2cc6490
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 100%
+source-wordcount: '849'
+ht-degree: 98%
 
 ---
 
@@ -93,13 +93,11 @@ Les profils actifs sont les profils qui sont comptabilisés à des fins de factu
 
 La facturation ne concerne que les profils **actifs**. Un profil est considéré comme actif s’il a été ciblé ou s’il a reçu des communications au cours des 12 derniers mois via n’importe quel canal.
 
-Les profils exclus lors de la préparation de la diffusion (règles de typologie, quarantaines) ne sont pas pris en compte. Un profil qui a été ciblé par plusieurs diffusions ne sera comptabilisé qu&#39;une seule fois.
+Un profil qui a été ciblé par plusieurs diffusions n’est comptabilisé qu’une seule fois.
 
 >[!NOTE]
 >
 >Les canaux Facebook et Twitter ne sont pas pris en compte.
-
-Dans l&#39;explorateur Campaign, accédez à **[!UICONTROL Administration > Gestion de campagne > Mesures des clients]** pour avoir un aperçu du nombre de profils actifs. Le comptage réel est effectué par le [workflow technique](../../workflow/using/about-technical-workflows.md) **[!UICONTROL Comptage des profils de facturation actifs]** ([!UICONTROL billingActiveContactCount]). Ce workflow s&#39;exécute tous les jours et ajoute les nouvelles données au rapport existant pour la période en cours dans le dossier **[!UICONTROL Mesures des clients]**.
 
 Le nombre de profils actifs est disponible pour les **instances marketing** uniquement. Il n’est pas disponible pour les instances d’exécution, c’est-à-dire les instances MID (mid-sourcing) et RT (Message Center / messagerie en temps réel).
 

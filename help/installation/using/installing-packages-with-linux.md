@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 99%
 
 ---
 
@@ -283,7 +283,7 @@ Lorsque vous utilisez Oracle avec Adobe Campaign, vous devez configurer les couc
    ln -s libclntsh.so.10.1 libclntsh.so
    ```
 
-En cas de problème, vérifiez que les packages listés dans la [documentation d&#39;installation Oracle](https://www.oracle.com/pls/db112/portal.portal_db?selected=11) sont bien installés.
+En cas de problème, vérifiez que les packages listés dans la [documentation d&#39;installation Oracle](https://docs.oracle.com/) sont bien installés.
 
 ## Vérification de l&#39;installation {#installation-checks}
 

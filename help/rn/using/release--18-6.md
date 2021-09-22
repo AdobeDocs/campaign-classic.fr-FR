@@ -9,9 +9,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '810'
 ht-degree: 100%
 
 ---
@@ -109,7 +109,7 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
 
 decryptString
 
-La fonction **decryptString** est obsolète. Reportez-vous à l’article [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html).
+La fonction **decryptString** est obsolète. Reportez-vous à l’article [Fonctionnalités obsolètes et supprimées](deprecated-features.md).
 
 Pour les nouveaux clients, cette fonction n’est plus utilisée que pour déchiffrer l’ID crypté du destinataire dans les landing pages. Pour déchiffrer les mots de passe stockés dans un compte externe, utilisez la nouvelle fonction **decryptPassword**.
 

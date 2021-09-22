@@ -3,9 +3,9 @@ product: campaign
 title: Version 19.2
 description: Notes de mise à jour de Campaign 19.2
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
-source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1537'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ _23 décembre 2020_
 >
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/using/ims-updates.md)
 >
-> * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+> * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 
 
 
@@ -150,7 +150,7 @@ _2 décembre 2019_
 
 _Systèmes obsolètes_
 
-Les systèmes suivants sont désormais [obsolètes](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html) pour les implémentations de Campaign Classic :
+Les systèmes suivants sont désormais [obsolètes](deprecated-features.md) pour les implémentations de Campaign Classic :
 * Apache 2.2
 * Centos 6
 

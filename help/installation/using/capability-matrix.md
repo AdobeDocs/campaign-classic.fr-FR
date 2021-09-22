@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Les différents modèles d&#39;hébergement sont présentés [dans cette section
 | Intégration avec IMS (Adobe ID) | À la demande | À la demande | À la demande | [En savoir plus](../../integrations/using/about-adobe-id.md) |
 | Chiffrement/déchiffrement des données pour les transferts de fichiers | À la demande | Disponible | Disponible | [En savoir plus](../../platform/using/unzip-decrypt.md) |
 | Compression/décompression de fichiers | À la demande | Disponible | Disponible | [En savoir plus](../../platform/using/unzip-decrypt.md) |
-| Délégation du nom de domaine | À la demande | À la demande | Non disponible | [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html) |
+| Délégation du nom de domaine | À la demande | À la demande | Non disponible | [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) |
 | Installation de SpamAssassin | À la demande | Disponible | Disponible | [En savoir plus](../../delivery/using/spamassassin.md) |
 | Accès aux rapports de délivrabilité | Disponible | À la demande | Disponible | [En savoir plus](../../delivery/using/monitoring-deliverability.md) |
 | Configuration de l&#39;identification LDAP | Non disponible | Disponible | Disponible | [En savoir plus](../../installation/using/connecting-through-ldap.md) |

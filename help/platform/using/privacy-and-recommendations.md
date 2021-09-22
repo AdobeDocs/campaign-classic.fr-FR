@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2033'
 ht-degree: 100%
 
 ---
@@ -124,7 +124,7 @@ Adobe Campaign vous permet de collecter des données, y compris des informations
 
 ## Gestion de la confidentialité {#privacy-management}
 
-La gestion de la confidentialité se rapporte à tous les processus et outils qui peuvent vous aider à vous conformer aux règlements relatifs à la confidentialité (RGPD, CCPA, etc.). Pour une présentation de la gestion de la confidentialité, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html).
+La gestion de la confidentialité se rapporte à tous les processus et outils qui peuvent vous aider à vous conformer aux règlements relatifs à la confidentialité (RGPD, CCPA, etc.). Pour une présentation de la gestion de la confidentialité, consultez [cette page](privacy-and-recommendations.md).
 
 Adobe Campaign vous propose divers ensembles de fonctionnalités dédiées à la gestion de la confidentialité :
 * Gestion du consentement, conservation des données et rôles utilisateur. Voir [cette section](#consent).
