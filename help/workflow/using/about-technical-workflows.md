@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56470602e3acf777d5b00c293060c644c1fbbc37
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 98%
+source-wordcount: '1722'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 98%
 Les workflows détaillés dans cette section sont installés avec les différents packages natifs Adobe Campaign. Ces packages et workflows techniques associés dépendent de votre contrat de licence. Les packages natifs sont détaillés dans [cette section](../../installation/using/installing-campaign-standard-packages.md).
 
 Par défaut, les workflows techniques sont disponibles dans un sous-dossier du nœud suivant : **[!UICONTROL Administration]** > **[!UICONTROL Exploitation]** > **[!UICONTROL Workflows techniques]**.
+
+Notez que les workflows techniques ne peuvent être démarrés et modifiés que par les opérateurs ayant le droit d&#39;administration. Pour plus d’informations sur les autorisations, consultez cette [section](../../platform/using/access-management-groups.md#default-groups).
 
 >[!NOTE]
 >
