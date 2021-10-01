@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
 source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '89'
 ht-degree: 100%
 
