@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -31,11 +31,11 @@ Chaque noeud correspond à un dossier. Les données de chaque dossier doivent ê
 
 ## Déplacer des destinataires {#moving-recipients}
 
-Vous pouvez sélectionner un ou plusieurs destinataires et le(s) déplacer d’un dossier vers une autre par un glisser-déposer depuis la liste des destinataires vers le dossier visé. Un message d’avertissement vous permet de confirmer l’opération.
+Vous pouvez sélectionner un ou plusieurs destinataires et le(s) déplacer en effectuant un glisser-déposer depuis la liste des destinataires vers le dossier visé. Un message d’avertissement vous permet de confirmer l’opération.
 
 ## Copier un destinataire {#copying-a-recipient}
 
-Vous pouvez dupliquer un destinataire dans le même dossier en effectuant un clic droit sur le destinataire visé et en sélectionnant **[!UICONTROL Dupliquer]**.
+Vous pouvez copier un destinataire dans le même dossier en cliquant avec le bouton droit sur le destinataire visé et en sélectionnant **[!UICONTROL Copier]**.
 
 ## Supprimer des destinataires {#deleting-recipients}
 
