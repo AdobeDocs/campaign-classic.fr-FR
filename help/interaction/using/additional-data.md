@@ -1,19 +1,19 @@
 ---
 product: campaign
 title: Additional data
-description: Données additionnelles
+description: Additional data
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
 ht-degree: 100%
 
 ---
 
-# Données additionnelles{#additional-data}
+# Additional data{#additional-data}
 
 ![](../../assets/v7-only.svg)
 
