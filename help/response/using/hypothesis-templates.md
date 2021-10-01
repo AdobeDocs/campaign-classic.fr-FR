@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Modèles d'hypothèse
-description: Découvrez comment créer des modèles d'hypothèse dans Campaign Response Manager
+description: Découvrez comment créer des modèles d'hypothèse dans la Gestion de la réaction (Response Manager) de Campaign
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1505'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 81%
 
 ![](../../assets/v7-only.svg)
 
-## Créer un modèle d’hypothèse {#creating-a-hypothesis-model}
+## Créer un modèle d&#39;hypothèse {#creating-a-hypothesis-model}
 
 Le paramétrage du modèle d&#39;hypothèse permet de définir le contexte dans lequel les réactions vont être mesurées, qu&#39;elles soient liées à une diffusion ou une offre. C&#39;est à ce niveau que sont référencées les différentes tables nécessaires à la mesure, notamment pour définir les relations entre les individus, les hypothèses et la table des transactions.
 
@@ -30,20 +30,20 @@ Pour créer un modèle d&#39;hypothèse, les étapes sont les suivantes :
 1. Cliquez sur le bouton **[!UICONTROL Nouveau]** ou cliquez avec le bouton droit de la souris dans la liste des modèles et sélectionnez **[!UICONTROL Nouveau]** dans le menu contextuel.
 1. Saisissez le libellé de l&#39;hypothèse.
 1. Indiquez si le modèle est destiné à des hypothèses sur les offres ou les diffusions via le champ **[!UICONTROL Type d&#39;hypothèse]**.
-1. Pour les modèles de type **[!UICONTROL Diffusion]** , indiquez si les mesures doivent être effectuées avec ou sans population témoin. [Apprenez-en davantage](#properties-of-a-hypothesis-template)   
-1. Pour les modèles de type **[!UICONTROL Diffusion]** , vous pouvez choisir un canal spécifique ou décider d’appliquer le modèle à tous les canaux disponibles dans Adobe Campaign à l’aide de la liste déroulante **[!UICONTROL Canal]** . [Apprenez-en davantage](#properties-of-a-hypothesis-template)   
+1. Pour les modèles de type **[!UICONTROL Diffusion]**, indiquez si les mesures doivent être effectuées avec ou sans population témoin. [Apprenez-en davantage](#properties-of-a-hypothesis-template)
+1. Pour un modèle de type **[!UICONTROL Diffusion]**, vous pouvez sélectionner un canal spécifique, ou choisir d&#39;appliquer le modèle à tous les canaux disponibles dans Adobe Campaign à l&#39;aide de la liste déroulante **[!UICONTROL Canal]**. [Apprenez-en davantage](#properties-of-a-hypothesis-template)
 1. Sélectionnez le **[!UICONTROL Dossier d&#39;exécution]** dans lequel vous souhaitez créer et exécuter automatiquement les hypothèses qui seront créées à partir du modèle.
-1. Choisissez les paramètres d&#39;exécution. [Apprenez-en davantage](#hypothesis-template-execution-settings)   
-1. Indiquez la période de calcul de l&#39;hypothèse. [Apprenez-en davantage](#hypothesis-template-execution-settings)   
+1. Choisissez les paramètres d&#39;exécution. [Apprenez-en davantage](#hypothesis-template-execution-settings)
+1. Indiquez la période de calcul de l&#39;hypothèse. [Apprenez-en davantage](#hypothesis-template-execution-settings)
 
    >[!CAUTION]
    >
    >Cette période est déterminée à partir de la date de contact.
 
-1. Dans l&#39;onglet **[!UICONTROL Transactions]** , indiquez les tables et champs nécessaires au calcul de l&#39;hypothèse. [Apprenez-en davantage](#transactions)   
+1. Dans l&#39;onglet **[!UICONTROL Transactions]**, indiquez les tables et champs nécessaires au calcul de l&#39;hypothèse. [Apprenez-en davantage](#transactions)
 1. Si votre modèle est paramétré pour des hypothèses de type **[!UICONTROL Offres]**, vous pouvez activer l&#39;option **[!UICONTROL Mettre à jour l&#39;état de la proposition d&#39;offre]** : dans ce cas, sélectionnez l&#39;état de la proposition d&#39;offre que vous souhaitez modifier.
-1. Indiquez le périmètre d&#39;application de l&#39;hypothèse. [Apprenez-en davantage](#hypothesis-perimeter)   
-1. Si nécessaire, utilisez un script pour terminer le filtrage. [Apprenez-en davantage](#hypothesis-perimeter)   
+1. Indiquez le périmètre d&#39;application de l&#39;hypothèse. [Apprenez-en davantage](#hypothesis-perimeter)
+1. Si nécessaire, utilisez un script pour terminer le filtrage. [Apprenez-en davantage](#hypothesis-perimeter)
 
 ### Propriétés d&#39;un modèle d&#39;hypothèse {#properties-of-a-hypothesis-template}
 
@@ -65,7 +65,7 @@ L&#39;onglet **[!UICONTROL Général]** du modèle permet de définir les option
 
    La définition et le paramétrage d&#39;une population témoin sont présentés dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
-* **[!UICONTROL Canal]** : vous pouvez choisir un canal spécifique ou mettre le modèle d’hypothèse à la disposition de tous les canaux dans la console Adobe Campaign en sélectionnant  **[!UICONTROL Tous]** les canaux dans la liste déroulante. Si vous paramétrez le modèle pour un canal spécifique, vous pourrez ainsi filtrer automatiquement les diffusions par canal lors de la création de l&#39;hypothèse. [Apprenez-en davantage](creating-hypotheses.md)   
+* **[!UICONTROL Canal]** : vous pouvez choisir un canal spécifique ou ouvrir le modèle d&#39;hypothèse à l&#39;ensemble des canaux disponibles dans la console Adobe Campaign en sélectionnant **[!UICONTROL Tous les canaux]** dans la liste déroulante. Si vous paramétrez le modèle pour un canal particulier, cela permet de filtrer automatiquement les diffusions par canal au moment de la création de l&#39;hypothèse. [Apprenez-en davantage](creating-hypotheses.md)
 
    ![](assets/response_properties_001.png)
 
@@ -127,10 +127,10 @@ Cet onglet contient les différents champs et tables permettant de conserver l&#
 
    ![](assets/response_measurement_001.png)
 
-   Si l&#39;hypothèse est lancée à la volée, elle peut être forcée si vous souhaitez la déclencher immédiatement. Sinon, elle est déclenchée automatiquement en fonction de la date de fin de calcul configurée, basée sur la date de création de l&#39;hypothèse. [En savoir plus](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)).
+   Si l&#39;hypothèse est lancée à la volée, elle peut être forcée pour se déclencher instantanément. Sinon, elle se déclenche automatiquement en fonction de la date de fin de calcul paramétrée à compter de la date de création de l&#39;hypothèse. [En savoir plus](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)).
 
-* **[!UICONTROL Montant]** transaction/marge : ces champs sont facultatifs et permettent de calculer automatiquement les indicateurs du chiffre d&#39;affaires. [Apprenez-en davantage](hypothesis-tracking.md#indicators)   
-* **[!UICONTROL Montant unitaire]** : permet de définir un montant pour le calcul des recettes. [Apprenez-en davantage](hypothesis-tracking.md#indicators)   
+* **[!UICONTROL Montant de transaction/de la marge]** : ces champs sont facultatifs et permettent de calculer automatiquement les indicateurs du chiffre d&#39;affaire. [Apprenez-en davantage](hypothesis-tracking.md#indicators)
+* **[!UICONTROL Montant unitaire]** : permet d&#39;indiquer un montant fixe pour le calcul du chiffre d&#39;affaire. [Apprenez-en davantage](hypothesis-tracking.md#indicators)
 
    ![](assets/response_transactions_001.png)
 
@@ -143,7 +143,7 @@ Cet onglet contient les différents champs et tables permettant de conserver l&#
 
 Lorsque la table des transactions et les champs sur lesquels va porter l&#39;hypothèse sont définis, vous avez la possibilité d&#39;affiner davantage le périmètre de vos hypothèses en indiquant précisément les transactions et les diffusions visées à l&#39;aide de filtres. Vous pouvez également utiliser un script JavaScript pour indiquer explicitement un produit référencé dans la table des transactions sur lequel vous souhaitez faire une hypothèse.
 
-* **Filtre sur les transactions** : dans le  **** Scopetab, vous pouvez paramétrer un filtre sur l&#39;hypothèse. Pour cela :
+* **Filtrage sur les transactions** : dans l&#39;onglet **[!UICONTROL Périmètre]**, vous pouvez paramétrer un filtre sur l’hypothèse. Pour cela :
 
    1. Cliquez sur le lien **[!UICONTROL Editer la requête]**.
 
@@ -181,7 +181,7 @@ Lorsque la table des transactions et les champs sur lesquels va porter l&#39;hyp
 
    ![](assets/response_hypothesis_model_creation_011.png)
 
-## Exemple : créer un modèle d&#39;hypothèse sur une diffusion {#example--creating-a-hypothesis-template-on-a-delivery}
+## Exemple : création d&#39;un modèle d&#39;hypothèse sur une diffusion {#example--creating-a-hypothesis-template-on-a-delivery}
 
 Dans cet exemple, vous allez créer un modèle d&#39;hypothèse sur une diffusion de type courrier. La table des transactions (**Achats** dans notre exemple) sur laquelle seront basées les hypothèses contient des lignes d&#39;achat auxquelles sont rattachés des articles ou produits. Vous allez paramétrer votre modèle pour faire des hypothèses sur les articles ou produits de votre table d&#39;achats.
 
