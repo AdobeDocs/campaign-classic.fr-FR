@@ -6,18 +6,18 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
-# Emission vers Mid-sourcing{#transfer-to-mid-sourcing}
+# Émission vers Mid-sourcing{#transfer-to-mid-sourcing}
 
 ![](../../assets/common.svg)
 
-Les workflows présentés ci-dessous sont installés par défaut avec le module **Emission vers Mid-sourcing** . Pour plus d&#39;informations sur ce module, consultez le [Guide d&#39;installation de Campaign Classic v7](../../installation/using/mid-sourcing-deployment.md).
+Les workflows présentés ci-dessous sont installés par défaut avec le module **Émission vers Mid-sourcing**. Pour en savoir plus à ce sujet consultez le [ Guide d&#39;installation de Campaign Classic v7](../../installation/using/mid-sourcing-deployment.md).
 
 <table> 
  <tbody> 
