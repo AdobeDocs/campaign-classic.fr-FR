@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ L&#39;activité **[!UICONTROL Déduplication]** est utilisée pour supprimer des
 
 L&#39;activité **[!UICONTROL Déduplication]** peut conserver une ligne entière comme enregistrement unique après l&#39;identification des duplicatas. Par exemple, dans le cas pratique ci-dessus, si l’activité est configurée pour ne conserver que l’enregistrement avec la **[!UICONTROL Date]** la plus ancienne, le résultat est le suivant :
 
-| Date | Prénom | Nom | Email | Téléphone mobile | Téléphone |
+| Date | Prénom | Nom | Email | Téléphone mobile | Phone |
 -----|----------|------------|-------|--------------|------
 | 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
@@ -37,7 +37,7 @@ L&#39;enregistrement principal sélectionné transfère les données sans fusion
 
 Complémentaire :
 
-| Date | Prénom | Nom | Email | Téléphone mobile | Téléphone |
+| Date | Prénom | Nom | Email | Téléphone mobile | Phone |
 -----|------------|-----------|-------|--------------|------
 | 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 | 07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
