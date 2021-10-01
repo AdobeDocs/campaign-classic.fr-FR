@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: input-forms
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2402'
 ht-degree: 100%
 
@@ -518,7 +518,7 @@ Une case à cocher permet de refléter un état booléen (qu&#39;elle soit coch�
 
 ![](assets/d_ncs_integration_form_exemple20.png)
 
-## Edition arborescente {#navigation-hierarchy-edit}
+## Modification arborescente {#navigation-hierarchy-edit}
 
 Ce contrôle construit une arborescence sur un ensemble de champs à éditer.
 
