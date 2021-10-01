@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: api
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1885'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 ![](../../assets/v7-only.svg)
 
-API orientées données vous permet d’adresser le modèle de données entier.
+API orientées données  vous permettent d’adresser le modèle de données en entier.
 
 ## Principe du modèle de données {#overview-of-the-datamodel}
 
