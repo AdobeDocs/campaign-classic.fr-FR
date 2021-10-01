@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ enumeration:==(help| value)
 
 ## Description {#description-5}
 
-Cet élément permet de définir une énumération de valeurs, une énumération appartient au schéma dans laquelle elle est définie mais elle reste accessible depuis un autre schéma.
+Cet élément permet de définir une énumération de valeurs. Une énumération appartient au schéma dans laquelle elle est définie mais elle reste accessible depuis un autre schéma.
 
 ## Usage et contexte d&#39;utilisation {#use-and-context-of-use-4}
 
