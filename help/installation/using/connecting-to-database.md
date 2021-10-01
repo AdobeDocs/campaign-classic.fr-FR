@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Par exemple, dans l&#39;activité de requête, les étapes sont les suivantes po
 
 Vous pouvez sécuriser l&#39;accès à une base externe lors du paramétrage d&#39;un compte externe FDA.
 
-Pour ce faire, ajoutez &quot;**:ssl**&quot; après l’adresse du serveur et l’adresse du port utilisé. Par exemple : **192.168.0.52:4501:ssl**.
+Pour cela, ajoutez &quot;**:ssl**&quot; à la suite de l&#39;adresse du serveur et du port utilisé. Par exemple : **192.168.0.52:4501:ssl**.
 
 Les données seront ainsi envoyées via le protocole sécurisé SSL.
 
