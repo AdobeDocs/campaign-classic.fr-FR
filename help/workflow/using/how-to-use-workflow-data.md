@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: -general-operation
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Les données de la base Adobe Campaign et les listes existantes peuvent être mi
 
 ### Gérer les abonnements/désabonnements {#subscription-unsubscription-management}
 
-Pour comprendre comment inscrire et désinscrire des destinataires à un service d&#39;information via un workflow, consultez la section [Services d’inscription](subscription-services.md).
+Pour comprendre comment abonner et désabonner des destinataires à un service d&#39;information via un workflow, consultez la section [Services d’abonnement](subscription-services.md).
 
 ## Envoyer via un workflow {#sending-via-a-workflow}
 
