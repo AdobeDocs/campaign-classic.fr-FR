@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Configuration du gestionnaire de réponses Campaign
-description: Découvrez comment configurer Campaign Response Manager
+title: Configuration de la gestion de la réaction (Response Manager) de Campaign
+description: Découvrez comment configurer la gestion de la réaction (Response Manager) de Campaign
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Configuration du gestionnaire de réponses Campaign{#configuration}
+# Configuration de la gestion de la réaction (Response Manager) de Campaign{#configuration}
 
 ![](../../assets/v7-only.svg)
 
@@ -23,11 +23,11 @@ Elle permet de comprendre comment adapter le modèle de données standard aux sp
 
 L&#39;hypothèse de mesure est lancée par le workflow des traitements sur les opérations (**[!UICONTROL operationMgt]**). Chaque hypothèse représente un processus distinct exécuté en asynchrone avec un statut d&#39;exécution (En édition, En attente, Terminé, En erreur, etc.) et soumis à un ordonnanceur gérant les contraintes de priorités, la limitation sur le nombre de process simultanés, la plage de faible activité et l&#39;exécution automatique avec fréquence d&#39;exécution.
 
-## Configuration des schémas {#configuring-schemas}
+## Configuration de schémas {#configuring-schemas}
 
 >[!CAUTION]
 >
->Ne modifiez pas les schémas intégrés à l’application, mais utilisez plutôt le mécanisme d’extension de schéma. Dans le cas contraire, les schémas modifiés ne seront pas mis à jour au moment des futures mises à niveau de l’application. Cela peut entraîner des dysfonctionnements lors de l’utilisation d’Adobe Campaign.
+>Ne modifiez pas les schémas natifs de l’application. Utilisez plutôt le mécanisme d’extension de schéma. Sinon, les schémas modifiés ne seront pas mis à jour au moment des futures mises à niveau de l’application. Cela peut entraîner des dysfonctionnements lors de l’utilisation d’Adobe Campaign.
 
 Avant toute utilisation du module de la réaction, vous devez définir les différentes tables (transactions, détails des transactions) et leur relation avec les diffusions, les offres et les individus.
 
@@ -57,7 +57,7 @@ Le schéma suivant représente les jointures entre les différentes tables une f
 
 ### Gestion de la réaction et destinataires {#response-management-with-adobe-campaign-recipients}
 
-Dans cet exemple, nous allons intégrer une table des achats dans notre module de gestion de la réaction en utilisant la table des destinataires intégrée d’Adobe Campaign **[!UICONTROL nms:recipient]**.
+Dans cet exemple, vous allez intégrer une table d&#39;achats dans votre module de gestion de la réaction en utilisant la table des destinataires native d&#39;Adobe Campaign **[!UICONTROL nms:recipient]**.
 
 La table des logs de réaction d&#39;un destinataire **[!UICONTROL nms:remaMatchRcp]** est étendue pour ajouter un lien au schéma de la table d&#39;achats. Dans l&#39;exemple suivant, la table d&#39;achats s&#39;appelle **demo:purchase**.
 
@@ -102,9 +102,9 @@ name="remaMatchRcp" namespace="cus">
 
 ### Gestion de la réaction avec une table des destinataires personnalisée {#response-management-with-a-personalized-recipient-table}
 
-Dans cet exemple, vous allez intégrer une table d&#39;actes d&#39;achat dans votre module de gestion de la réaction en utilisant une table d&#39;individus autre que la table des destinataires disponible dans Adobe Campaign.
+Dans cet exemple, vous allez intégrer une table d&#39;achats dans votre module de gestion de la réaction en utilisant une table d&#39;individus autre que la table des destinataires disponible dans Adobe Campaign.
 
-* Créez un nouveau schéma de log de réponse dérivé du schéma **[!UICONTROL nms:remaMatch]** .
+* Création d&#39;un nouveau schéma de logs de réaction dérivé du schéma **[!UICONTROL nms:remaMatch]**.
 
    La table des individus étant différente de la table des destinataires par défaut d&#39;Adobe Campaign, il est nécessaire de créer un nouveau schéma des logs de réaction basé sur le schéma **[!UICONTROL nms:remaMatch]**. Il faut ensuite le compléter avec les liens vers les logs de diffusion et la table des actes d&#39;achats.
 
@@ -127,7 +127,7 @@ Dans cet exemple, vous allez intégrer une table d&#39;actes d&#39;achat dans vo
    </srcSchema>
    ```
 
-* Modifiez la forme de l&#39;hypothèse dans le schéma **[!UICONTROL nms:remaHypothesis]** .
+* Modification du formulaire des hypothèses dans le schéma **[!UICONTROL nms:remaHypothesis]**.
 
    Par défaut, la liste des logs de réaction est visible dans les logs des destinataires. Il faut donc modifier la forme des hypothèses pour pouvoir visualiser les nouveaux logs de réaction créés à l&#39;étape précédente.
 
