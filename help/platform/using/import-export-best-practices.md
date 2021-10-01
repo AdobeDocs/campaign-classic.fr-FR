@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Par exemple :
 * Séparateur : onglet ou point virgule
 * Première ligne avec en-têtes
 * Pas de délimiteur de chaîne
-* Format de date : AAAA/MM/JJ HH:mm:SS
+* Format de date : AAAA/MM/JJ HH:mm:SS
 
 Voici un exemple de fichier à importer :
 
