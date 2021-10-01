@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -102,14 +102,14 @@ Si vous utilisez le même proxy pour plusieurs types de connexions, seul le para
 
 Si des connexions internes doivent passer à travers le proxy, ajoutez-les dans le paramètre override.
 
-Si vous souhaitez désactiver temporairement la connexion au proxy, définissez le paramètre enabled sur &quot;false&quot; ou &quot;0&quot;.
+Si vous souhaitez désactiver temporairement la connexion au proxy, définissez le paramètre activ » sur &quot;false&quot; ou &quot;0&quot;.
 
-Si vous devez utiliser le connecteur HTTP/2 iOS via un proxy, les modes de proxy HTTP suivants sont pris en charge :
+Si vous devez utiliser le connecteur HTTP/2 iOS via un proxy, les modes de proxy HTTP suivants sont pris en charge :
 
 * HTTP sans authentification
 * Authentification de base HTTP
 
-Pour activer le mode proxy, la modification suivante doit être effectuée dans le fichier `serverconf.xml` :
+Pour activer le mode proxy, la modification suivante doit être effectuée dans le fichier `serverconf.xml` :
 
 ```
 <nmac useHTTPProxy="true">
