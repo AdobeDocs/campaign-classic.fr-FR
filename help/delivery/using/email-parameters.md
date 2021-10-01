@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '983'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Lors de la création d&#39;une diffusion ou d&#39;un modèle de diffusion, la fo
 
 >[!NOTE]
 >
->Si vous utilisez Email Cci avec MTA amélioré, cette option est automatiquement activée pour toutes les diffusions.
+>Si vous utilisez Email Cci avec le MTA amélioré, cette option est automatiquement activée pour toutes les diffusions.
 
 Pour activer la fonctionnalité Email Cci pour un modèle de diffusion email, procédez comme suit :
 
