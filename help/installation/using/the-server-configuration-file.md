@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7969'
 ht-degree: 100%
 
@@ -437,7 +437,7 @@ Pour plus d&#39;informations, voir la section [Gestion des ressources publiques]
  </thead> 
  <tbody> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom du répertoire virtuel <br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -481,7 +481,7 @@ Voici les différents paramètres du nœud **dataStore > preprocessCommand**. I
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom de ligne de commande<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -1914,7 +1914,7 @@ Pour plus d&#39;informations, voir les sections [Liste des adresses IP à utilis
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom logique : noms associés à l’affinité par les utilisateurs. Le séparateur des noms est un point-virgule ;<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -2244,7 +2244,7 @@ Pour plus d’informations, voir la section [Définition des zones de sécurité
    <td> NewLabel()<br /> </td> 
   </tr> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom interne<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewName() <br /> </td> 
@@ -2318,7 +2318,7 @@ Pour plus d’informations, voir la section [Définition des zones de sécurité
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom interne<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewName() <br /> </td> 
@@ -3249,7 +3249,7 @@ Pour plus d&#39;informations, voir la section [Gestion des en-têtes HTTP (HTTP 
  </thead> 
  <tbody> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom de l’en-tête<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
