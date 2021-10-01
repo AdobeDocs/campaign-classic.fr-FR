@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Identifie la population à sauvegarder dans le groupe.
 
 ## Paramètres de sortie {#output-parameters}
 
-* groupId : Identifiant du groupe.
+* groupId : Identifiant du groupe.
 
 ## Tutoriel vidéo {#video}
 
