@@ -5,9 +5,9 @@ description: Découvrez comment configurer les autorisations d’URL
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814,6fe8da3b-57b9-4a69-8602-a03993630b27
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
+source-git-commit: ed9e76495efb0cb49e248a7d38417642c5094a11
+workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
 
@@ -54,8 +54,8 @@ Trois modes de protection de la connexion sont disponibles :
 
 Pour plus d’informations, consultez les sections suivantes :
 
-* [Documentation relative au panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+* [Documentation relative au panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
 * [Modèles d&#39;hébergement](hosting-models.md)
 * [Paramétrage du serveur Campaign](configuring-campaign-server.md)
-* [Paramétrage du serveur Campaign  paramètres de fichier](the-server-configuration-file.md)
+* [Paramétrage du serveur Campaign   paramètres de fichier](the-server-configuration-file.md)
 * [Liste de contrôle relative à la sécurité et à la confidentialité](get-started-security-privacy.md)
