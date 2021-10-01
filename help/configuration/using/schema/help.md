@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
 source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '47'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Aucun
 
 ## Description {#description-6}
 
-Cet élément vous permet de décrire un élément `<element>`  ou `<attribute>`. Il ne peut contenir que du texte et est stocké en XML dans la base de données.
+Cet élément vous permet de décrire un élément `<element>` ou `<attribute>`. Il ne peut contenir que du texte et est stocké en XML dans la base de données.
 
 ## Description des attributs {#attribute-description-6}
 
