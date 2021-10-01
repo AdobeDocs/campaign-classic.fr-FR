@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: event-activities
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,4 +67,4 @@ L&#39;activité de type **Téléchargement Web** permet de lancer le télécharg
 
 ## Paramètres de sortie {#output-parameters}
 
-* filename: Nom complet du fichier téléchargé.
+* filename : Nom complet du fichier téléchargé.
