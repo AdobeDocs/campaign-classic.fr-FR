@@ -4,8 +4,9 @@ title: Note technique
 description: Note technique
 hide: true
 hidefromtoc: true
-source-git-commit: 53ac193211a1d98c45e97bf01ab0ad843b8f8f02
-workflow-type: tm+mt
+exl-id: e7d4331b-7149-4768-8e46-2e2911319074
+source-git-commit: ed9e76495efb0cb49e248a7d38417642c5094a11
+workflow-type: ht
 source-wordcount: '355'
 ht-degree: 100%
 
