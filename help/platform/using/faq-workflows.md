@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7d1bb3c6-d056-4212-9500-75459a0046fa
 source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Découvrez les bonnes pratiques pour importer des données dans [cette section](
 
 ## Est-il possible de surveiller l’exécution des workflows ? {#can-i-monitor-workflow-execution-}
 
-Découvrez comment suivre l&#39;exécution des workflows Campaign dans [cette page](../../workflow/using/starting-a-workflow.md).
+Découvrez comment surveiller l&#39;exécution des workflows Campaign dans [cette page](../../workflow/using/starting-a-workflow.md).
 
 ## Comment mettre à jour les données de Campaign avec un workflow ? {#how-can-i-update-campaign-data-with-a-workflow-}
 
@@ -51,7 +51,7 @@ Dans Adobe Campaign, vous pouvez utiliser un ensemble d&#39;activités permettan
 
 A travers [ce cas pratique](../../workflow/using/enriching-data.md), apprenez à envoyer des messages personnalisés à certaines personnes en fonction de leur score dans un jeu-concours.
 
-## Comment partager une cible en sous-ensembles avec un workflow ? {#how-can-i-split-an-audience-in-subsets-with-a-workflow-}
+## Comment partager une audience en sous-ensembles avec un workflow ? {#how-can-i-split-an-audience-in-subsets-with-a-workflow-}
 
 Découvrez comment partager une cible en différents sous-ensembles dans [cette section](../../workflow/using/split.md).
 
