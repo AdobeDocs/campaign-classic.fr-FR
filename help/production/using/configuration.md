@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Une fois paramétrée, cette variable est prise en compte par tous les modules A
 
 ### Sous Linux {#in-linux}
 
-Vous devez éditer le fichier **customer.sh** et ajouter la ligne suivante :
+Vous devez modifierle fichier **customer.sh** et ajouter la ligne suivante :
 
 ```
 export TRACE_ADDR=localhost:<listening port>
