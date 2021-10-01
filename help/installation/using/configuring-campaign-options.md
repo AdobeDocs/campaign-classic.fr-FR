@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3994'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
-   <td> Adresse email en Cci à laquelle le MTA amélioré enverra une copie brute des emails envoyés. <br /> </td> 
+   <td> Adresse e-mail en Cci à laquelle le MTA amélioré enverra une copie brute des e-mails envoyés. <br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
@@ -737,7 +737,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
    <td> Cette option est utilisée lors de l’importation de données à partir d’un système tiers via un connecteur CRM. En l’activant, vous pouvez collecter uniquement les objets modifiés depuis la dernière importation. Cette option doit être créée manuellement et remplie comme ci-dessous : 
     <ul> 
      <li> <p> <span class="uicontrol">Nom interne</span> : LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
-     <li> <p> <span class="uicontrol">Valeur (champ)</span>  : date de la dernière importation, au format aaaa/MM/jj :mm:hss . </p> </li> 
+     <li> <p> <span class="uicontrol">Valeur (champ)</span>:mm: : date de la dernière importation au format aaaa/mm/jj hh:mm:ss. </p> </li> 
     </ul><br /> </td> 
   </tr> 
   <tr> 
