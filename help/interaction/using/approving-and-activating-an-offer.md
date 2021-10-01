@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
 ht-degree: 100%
 
@@ -105,7 +105,7 @@ Une fois la validation lancée, il est possible de la réinitialiser. Pour ce fa
 
 ![](assets/offer_validate_013.png)
 
-## Mise en ligne de l&#39;offre {#publishing-the-offer}
+## Publication de l&#39;offre {#publishing-the-offer}
 
 Lorsque le contenu et l&#39;éligibilité de l&#39;offre ont tous deux été validés, l&#39;offre est mise en ligne. La mise en ligne est effectuée par un workflow technique qui se lance automatiquement pour chaque offre dont le cycle de validation est terminé. Le workflow **[!UICONTROL Notification des offres]** se lance également toutes les heures afin de synchroniser (si besoin) les emplacements et les catégories contenues dans le catalogue d&#39;offres depuis l&#39;environnement en édition vers l&#39;environnement en ligne.
 
