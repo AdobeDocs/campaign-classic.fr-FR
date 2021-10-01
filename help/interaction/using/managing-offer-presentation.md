@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Disponibles dans l&#39;onglet **[!UICONTROL Général]**, les critères d&#39;ap
 
 Dans l&#39;onglet **[!UICONTROL Présentation des offres]**, vous devez spécifier les mêmes dimensions pour la règle de présentation que celles paramétrées au niveau de l&#39;environnement.
 
-La **[!UICONTROL Dimension de ciblage]** correspond à la table des destinataires (par défaut : nms:recipients) qui recevront les propositions d’offre. La **[!UICONTROL Dimension de stockage]** correspond à la table contenant l&#39;historique des propositions liées à la dimension de ciblage (par défaut:nms:propositionRcp).
+La **[!UICONTROL Dimension de ciblage]** correspond à la table des destinataires (par défaut : nms:recipients) qui recevront les propositions d’offre. La **[!UICONTROL Dimension de stockage]** correspond à la table contenant l&#39;historique des propositions liées à la dimension de ciblage (par défaut:nms:propositionRcp).
 
 ![](assets/offer_typology_009.png)
 
