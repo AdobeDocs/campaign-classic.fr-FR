@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1296'
 ht-degree: 100%
 
@@ -69,6 +69,7 @@ Les étapes ci-dessous doivent être réalisées avec précaution : certains pro
 >
 >* La procédure ci-dessous est valide en langage PostgreSQL, si le langage SQL est différent (Oracle, par exemple), les requêtes SQL doivent être adaptées.
 >* Dans les exemples de commandes proposés ci-après, on considère une instance **prod** et une instance **recette** existantes sous PostgreSQL.
+
 >
 
 
