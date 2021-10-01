@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -186,11 +186,11 @@ La section ci-dessous présente les bonnes pratiques pour optimiser les requête
 
    Assurez-vous de connaître le plan d’exécution de votre requête. Évitez les analyses de table complètes, en particulier pour les requêtes en temps réel ou quasi temps réel qui s’exécutent toutes les minutes.
 
-   Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
+   Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
 
    ![](assets/do-not-localize/v7.jpeg)[  Documentation Campaign v7](../../configuration/using/database-mapping.md)
 
-   ![](assets/do-not-localize/v8.png)[  Documentation Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html)
+   ![](assets/do-not-localize/v8.png)[  Documentation Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=fr)
 
 ### Fonctions {#functions}
 
