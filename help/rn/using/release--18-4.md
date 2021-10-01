@@ -4,7 +4,7 @@ title: Notes de mise à jour de Campaign 18.4
 description: Notes de mise à jour de Campaign 18.4
 exl-id: bbad81ba-a09f-4d67-9309-628ea7a08c9b
 source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2289'
 ht-degree: 100%
 
