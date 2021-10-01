@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Dans ce cas pratique, nous allons créer un workflow pour chiffrer et exporter d
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
-1. Générez une paire de clés GPG (publique/privée) à l&#39;aide d&#39;un utilitaire GPG, puis installez la clé publique sur le panneau de contrôle. Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=en#encrypting-data).
+1. Générez une paire de clés GPG (publique/privée) à l&#39;aide d&#39;un utilitaire GPG, puis installez la clé publique sur le panneau de contrôle. Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=fr#encrypting-data).
 
 1. Dans Campaign Classic, créez un workflow pour exporter les données et les chiffrer à l&#39;aide de la clé privée installée à l&#39;aide du panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
