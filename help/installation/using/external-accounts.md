@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1827'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -312,7 +312,7 @@ Avec le type de déploiement **[!UICONTROL Web API]** et l&#39;authentification 
 
    URL de votre serveur Microsoft CRM.
 
-   Pour trouver votre **[!UICONTROL URL du serveur]** Microsoft Dynamics CRM, accédez à votre compte Microsoft Dynamics CRM, puis cliquez sur **Dynamics 365** et sélectionnez votre application. Vous pouvez ensuite trouver votre **[!UICONTROL URL du serveur]** dans la barre d’adresse de votre navigateur, par exemple : `https://myserver.crm.dynamics.com/`.
+   Pour trouver votre **[!UICONTROL URL de serveur]** Microsoft CRM, accédez à votre compte Microsoft Dynamics CRM, puis cliquez sur **Dynamics 365** et sélectionnez votre application. Vous pouvez ensuite trouver votre **[!UICONTROL URL de serveur]** dans la barre d’adresse de votre navigateur, par exemple : `https://myserver.crm.dynamics.com/`.
 
 * **[!UICONTROL Identifiant du client]**
 
@@ -320,7 +320,7 @@ Avec le type de déploiement **[!UICONTROL Web API]** et l&#39;authentification 
 
 * **[!UICONTROL Version CRM]**
 
-   Sélectionnez **[!UICONTROL Version CRM Dynamics 365]**.
+   Sélectionnez la version du CRM **[!UICONTROL Dynamics CRM 365]**.
 
 Avec le type de déploiement **[!UICONTROL Web API]** et l&#39;authentification **[!UICONTROL Certificat]**, vous devez fournir les détails suivants :
 
@@ -330,11 +330,11 @@ Avec le type de déploiement **[!UICONTROL Web API]** et l&#39;authentification 
 
    URL de votre serveur Microsoft CRM.
 
-   Pour trouver votre **[!UICONTROL URL du serveur]** Microsoft Dynamics CRM, accédez à votre compte Microsoft Dynamics CRM, puis cliquez sur **Dynamics 365** et sélectionnez votre application. Vous pouvez ensuite trouver votre **[!UICONTROL URL du serveur]** dans la barre d’adresse de votre navigateur, par exemple : `https://myserver.crm.dynamics.com/`.
+   Pour trouver votre **[!UICONTROL URL de serveur]** Microsoft CRM, accédez à votre compte Microsoft Dynamics CRM, puis cliquez sur **Dynamics 365** et sélectionnez votre application. Vous pouvez ensuite trouver votre **[!UICONTROL URL de serveur]** dans la barre d’adresse de votre navigateur, par exemple : `https://myserver.crm.dynamics.com/`.
 
 * **[!UICONTROL Clé privée (encodée en Base64)]**
 
-   Notez que la clé privée doit être encodée en Base64.
+   Notez que la clé privée doit être chiffrée en Base64.
 
    Pour cela, vous pouvez utiliser l&#39;aide d&#39;un encodeur Base64 ou utiliser la ligne de commande `base64 -w0 private.key` sous Linux.
 
