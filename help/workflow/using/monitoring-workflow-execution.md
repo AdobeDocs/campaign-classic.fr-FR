@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-cases
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2098'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Cette section présente des informations sur la manière de surveiller l’exéc
 
 Vous trouverez également dans [cette section](supervising-workflows.md#supervising-workflows) un exemple de création d’un workflow qui permet de surveiller l’état d’un ensemble de workflows en pause, arrêtés ou en erreur.
 
-En outre, les administrateurs de l’instance peuvent utiliser le **journal d’audit** pour vérifier les activités et les dernières modifications apportées aux workflows, c’est-à-dire l’état de vos workflows. Voir à ce sujet le [Guide de production de Campaign Classic v7](../../production/using/audit-trail.md).
+En outre, les administrateurs de l’instance peuvent utiliser le **journal d’audit** pour vérifier les activités et les dernières modifications apportées aux workflows, c’est-à-dire l’état de vos workflows. Pour en savoir plus à ce sujet consultez le [Guide de production de Campaign Classic v7](../../production/using/audit-trail.md).
 
 D’autres moyens de surveiller les différents processus de Campaign sont présentés dans le [Guide de production de Campaign Classic v7](../../production/using/monitoring-guidelines.md).
 
@@ -143,7 +143,7 @@ Dans ce cas, la tâche en erreur est abandonnée. Ce mode est particulièrement 
 >
 >Vous pouvez appliquer ce paramétrage unitairement au niveau des activités. Pour cela, éditer les propriétés de l&#39;activité et sélectionnez le mode de gestion des erreurs dans l&#39;onglet **[!UICONTROL Avancé]**.
 
-Pour plus d’informations sur la résolution des problèmes d’exécution des workflows, reportez-vous au [Guide de production de Campaign Classic v7](../../production/using/workflow-execution.md).
+Pour plus d’informations sur la résolution des problèmes d’exécution des workflows, consultez le [Guide de production de Campaign Classic v7](../../production/using/workflow-execution.md).
 
 ## Traiter les erreurs {#processing-errors}
 
@@ -238,7 +238,7 @@ Les workflows utilisent beaucoup de tables de travail qui occupent de l&#39;espa
 
 Le workflow **Nettoyage de la base** (cleanup), accessible à partir du noeud **Administration > Exploitation > Workflows techniques**, permet de supprimer les données obsolètes afin d&#39;éviter une croissance exponentielle de la base. Le workflow se déclenche de manière automatique sans intervention de l&#39;utilisateur. Voir [Guide de production de Campaign Classic v7](../../production/using/database-cleanup-workflow.md).
 
-Vous pouvez également créer des workflows techniques spécifiques pour purger les données inutiles qui occupent de l’espace. Reportez-vous au [Guide de production du Campaign Classic v7](../../production/using/application-objects.md) et à cette [section](#purging-the-logs).
+Vous pouvez également créer des workflows techniques spécifiques pour purger les données inutiles qui occupent de l’espace. Reportez-vous au [Guide de production de Campaign Classic v7](../../production/using/application-objects.md) et à cette [section](#purging-the-logs).
 
 ## Gérer les workflows en pause {#handling-of-paused-workflows}
 
