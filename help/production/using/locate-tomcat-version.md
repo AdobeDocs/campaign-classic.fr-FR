@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Par exemple, le fichier *ServerInfo.properties* pour Adobe Campaign contient les
 
 *server.number=8.5.X.Y*
 
-*server.built=MM DD YYY :MM:HSS*
+*server.build= MM JJ AAAA HH:MM:SS*
 
 Une fois que vous avez pu déterminer la version exacte de Tomcat utilisée dans une instance particulière, vous pouvez plus facilement résoudre les problèmes liés à Tomcat.
 
