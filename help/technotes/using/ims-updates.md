@@ -4,8 +4,9 @@ title: Mise à jour de votre environnement pour vous connecter à Adobe Campaig
 description: Campaign - Mises à jour d'IMS
 hide: true
 hidefromtoc: true
-source-git-commit: 53ac193211a1d98c45e97bf01ab0ad843b8f8f02
-workflow-type: tm+mt
+exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
+source-git-commit: ed9e76495efb0cb49e248a7d38417642c5094a11
+workflow-type: ht
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -40,7 +41,7 @@ Si vous avez déjà effectué la mise à niveau, mais que vous utilisez une anci
    La mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous est obligatoire :
 
    * Gold Standard 11. [En savoir plus](../../rn/using/gold-standard.md)
-   * Campaign Version 21.1.3. [Apprenez-en davantage](../../rn/using/latest-release.md)   
+   * Campaign Version 21.1.3. [Apprenez-en davantage](../../rn/using/latest-release.md)
    * Campaign Version 20.2.5. [En savoir plus](../../rn/using/release--20-2.md)
    * Campaign Version 20.1.4. [En savoir plus](../../rn/using/release--20-1.md)
    * Campaign Version 19.2.4. [En savoir plus](../../rn/using/release--19-2.md)
@@ -77,7 +78,7 @@ Le message d&#39;avertissement suivant s&#39;affiche pour les utilisateurs s&#39
 
 ![](../../integrations/using/assets/do-not-localize/errorMsg.png)
 
-Si un tel avertissement s&#39;affiche, assurez-vous d&#39;installer les dernières mises à jour du système d&#39;exploitation que vous utilisez. [En savoir plus](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
+Si un tel avertissement s&#39;affiche, assurez-vous d&#39;installer les dernières mises à jour du système d&#39;exploitation que vous utilisez. [En savoir plus](https://helpx.adobe.com/fr/x-productkb/global/update-operating-system-and-browser.html)
 
 **Après le 30 juin 2021**, le message suivant s&#39;affichera et vous ne pourrez plus vous connecter à Adobe Campaign :
 
