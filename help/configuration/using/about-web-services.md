@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: api
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
 ht-degree: 100%
 
@@ -169,7 +169,7 @@ catch (SoapException e)
 }
 ```
 
-## URL du serveur des services Web (ou EndPoint) {#url-of-web-service-server--or-endpoint-}
+## URL du serveur des services Web (ou point d&#39;entrée) {#url-of-web-service-server--or-endpoint-}
 
 Pour soumettre le service Web, il faut contacter le serveur Adobe Campaign implémentant la méthode du service correspondant.
 
