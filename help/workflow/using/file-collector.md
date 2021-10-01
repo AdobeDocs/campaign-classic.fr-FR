@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: event-activities
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,4 +77,4 @@ L&#39;ordre de traitement des fichiers ne peut être déterminé. Pour traiter s
 
 ## Paramètres de sortie {#output-parameters}
 
-* filename: Nom complet du fichier. Il s’agit du nom de fichier après son déplacement dans le répertoire d’historisation. Le chemin d’accès est donc différent, mais le nom est également différent si un autre fichier portant le même nom existe déjà dans le répertoire. L’extension est conservée.
+* Filename : Nom complet du fichier. Il s’agit du nom de fichier après son déplacement dans le répertoire d’historisation. Le chemin d’accès est donc différent, mais le nom est également différent si un autre fichier portant le même nom existe déjà dans le répertoire. L’extension est conservée.
