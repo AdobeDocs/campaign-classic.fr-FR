@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 source-git-commit: dccf72b200cad9ba160a496cdd13ba39c5599008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
 ht-degree: 100%
 
