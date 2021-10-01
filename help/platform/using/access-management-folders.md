@@ -7,7 +7,7 @@ role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ Les diffusions suivantes seront affichées dans la vue :
 
 ## Permissions sur un dossier
 
-### Editer les permissions sur un dossier {#edit-permissions-on-a-folder}
+### Modifier les permissions sur un dossier {#edit-permissions-on-a-folder}
 
 Pour éditer les permissions sur un dossier spécifique de l&#39;arborescence, suivez les étapes ci-dessous :
 
