@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: distributed-marketing
 exl-id: 5534bd5b-6888-4bf6-8a39-109c6fc0f6c3
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
 ht-degree: 100%
 
@@ -35,6 +35,6 @@ L&#39;opération est également accessible à partir de la vue d&#39;ensemble de
 
 Les entités locales peuvent adapter le contenu de l&#39;opération afin qu&#39;elle réponde au mieux à leur besoin. Pour cela, ils peuvent utiliser tous les éléments du tableau de bord de l&#39;opération. Ils seront principalement amenés à adapter le workflow de ciblage, et éventuellement personnaliser le contenu de la ou des diffusions.
 
-## Exécution de campagne {#campaign-execution}
+## Exécution de l’opération {#campaign-execution}
 
 Chaque entité locale peut exécuter le workflow de l&#39;opération puis procéder aux validations nécessaires, selon le processus de validation défini dans le modèle associé à l&#39;opération.
