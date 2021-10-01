@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: configuration
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2841'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ nlserver config -internalpassword
 
 * Le tracking ne fonctionne plus si le mot de passe est vide. Le cas échéant, un message d&#39;erreur vous en informe et vous invite à le reconfigurer.
 * Les mots de passe utilisateur ne sont plus stockés dans le schéma **xtk:sessionInfo**.
-* Les autorisations d’administration sont désormais nécessaires pour utiliser les fonctions **xtk:builder:EvaluateJavaScript** et **xtk:builder:EvaluateJavaScriptTemplate**.
+* Les droits d&#39;administration sont désormais requis pour pouvoir utiliser les fonctions **xtk:builder:EvaluateJavaScript** et **xtk:builder:EvaluateJavaScriptTemplate**.
 
 Certains schémas d&#39;usine ont été modifiés et ne sont désormais accessibles en écriture, par défaut, que par les opérateur possédant le droit **admin** :
 
@@ -671,7 +671,7 @@ Les étapes de sélection du moteur de rendu sont les mêmes que pour les rappor
 
 ## Red Hat {#red-hat}
 
-Si des schémas d&#39;usine ont été supprimés en v6.02 ou v5.11, il se peut que vous ne puissiez plus éditer vos schémas après le postupgrade. Si cela se produit, exécutez la commande :
+Si des schémas d&#39;usine ont été supprimés en v6.02 ou v5.11, il se peut que vous ne puissiez plus modifier vos schémas après le postupgrade. Si cela se produit, exécutez la commande :
 
 ```
 su - neolane
