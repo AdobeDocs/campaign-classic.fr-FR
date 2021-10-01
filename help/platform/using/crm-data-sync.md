@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1615'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ La date de la dernière synchronisation est stockée dans l&#39;option indiquée
 >
 >Cette note s&#39;applique uniquement à l&#39;activité **[!UICONTROL Connecteur CRM]** générique. Pour les autres activités CRM, le processus est automatique.
 >
->Cette option doit être créée et renseignée manuellement sous **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Il doit s’agir d’une option de texte et sa valeur doit correspondre au format suivant : **aaaa/MM/jj hh:mm:ss**.
+>Cette option doit être créée et renseignée manuellement sous **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Il doit s’agir d’une option de texte et sa valeur doit correspondre au format suivant : **aaaa/MM/jj hh:mm:ss**.
 > 
 >Pour tout autre import, vous devez mettre à jour manuellement cette option.
 
@@ -113,7 +113,7 @@ L&#39;activation de l&#39;option **[!UICONTROL Index automatique]** génère tro
 
    >[!NOTE]
    >
-   >Ces dates sont présentées au format suivant : **aaaa/MM/jj hh:mm:ss**.
+   >Ces dates sont exprimées au format **aaaa/MM/jj hh:mm:ss**.
 
 ### Filtrage des données {#filtering-data}
 
