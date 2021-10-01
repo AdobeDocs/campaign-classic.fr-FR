@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: creating-new-reports
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Les données de la base peuvent également être collectées et affichées dans 
 
 Comme les tableaux, les graphiques sont insérés directement dans une page de rapport, à partir du menu contextuel ou de la barre d&#39;outils.
 
-## Etapes de création {#creation-steps}
+## Étapes de création {#creation-steps}
 
 Pour créer un graphique dans un rapport, les étapes sont les suivantes :
 
@@ -41,7 +41,7 @@ Pour créer un graphique dans un rapport, les étapes sont les suivantes :
 
       ![](assets/reporting_graph_add_filter.png)
 
-   * Pour utiliser les données contextuelles, sélectionnez **[!UICONTROL Données contextuelles]** dans la liste déroulante **[!UICONTROL Source]** et cliquez sur les **[!UICONTROL Paramètres avancés...]**. Sélectionnez ensuite les données sur lesquelles porteront les statistiques.
+   * Pour utiliser les données contextuelles, sélectionnez **[!UICONTROL Données contextuelles]** dans la liste déroulante **[!UICONTROL Source]** et cliquez sur le lien **[!UICONTROL Paramètres avancés...]**. Sélectionnez ensuite les données sur lesquelles porteront les statistiques.
 
       ![](assets/reporting_graph_from_context.png)
 
@@ -63,7 +63,7 @@ Il peut également être modifié à partir de la section **[!UICONTROL Type de 
 
 Les variantes dépendent du type de graphique sélectionné. Elles sont sélectionnées à partir du lien **[!UICONTROL Variantes...]**.
 
-### Répartition : les secteurs {#breakdown--pie-charts}
+### Répartition : les secteurs {#breakdown--pie-charts}
 
 Ce type de représentation graphique permet d&#39;afficher une vue d&#39;ensemble des parts des éléments mesurés.
 
@@ -91,7 +91,7 @@ Une valeur de 1,00 ne trace que les extrémités du cercle.
 
 ![](assets/s_ncs_advuser_report_sector_exple3.png)
 
-### Evolution : les courbes et les aires {#evolution--curves-and-areas}
+### Évolution : les courbes et les aires {#evolution--curves-and-areas}
 
 Ce type de représentation graphique permet de comprendre l&#39;évolution d&#39;une ou plusieurs mesures dans le temps.
 
@@ -115,7 +115,7 @@ Lorsque les valeurs s&#39;y prêtent, vous pouvez les empiler.
 
 Au besoin, vous pouvez inverser l&#39;ordre d&#39;affichage des valeurs. Pour cela, sélectionnez l&#39;option **[!UICONTROL Empilement inversé]**.
 
-### Conversion : le funnel {#conversion--funnel}
+### Conversion : le funnel {#conversion--funnel}
 
 Ce type de graphique permet de suivre le taux de conversion des éléments mesurés.
 
