@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: distributed-marketing
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Les opérateurs de l&#39;entité centrale peuvent effectuer un tracking des comm
 Ils peuvent ainsi :
 
 * [Filtrer les kits](#filter-packages),
-* [Editer les kits](#edit-packages),
+* [Modifier les packages](#edit-packages),
 * [Annuler un kit](#cancel-a-package),
 * [Réinitialiser un kit](#reinitializing-a-package).
 
@@ -32,7 +32,7 @@ Dans l’onglet **[!UICONTROL Campagnes]**, vous pouvez afficher la liste des **
 
 ![](assets/mkg_dist_catalog_filter.png)
 
-## Editer les kits {#edit-packages}
+## Modifier les packages {#edit-packages}
 
 La page des **[!UICONTROL Kits d&#39;opération]** permet de visualiser le résumé de chaque kit.
 
