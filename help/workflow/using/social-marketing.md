@@ -6,22 +6,22 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
-# Marketing pour réseaux sociaux{#social-marketing}
+# Marketing social{#social-marketing}
 
 ![](../../assets/common.svg)
 
 >[!AVAILABILITY]
 >
->:warning: Cette fonctionnalité est disponible uniquement dans Campaign Classic v7. [Apprenez-en davantage](../../social/using/about-social-marketing.md)   
+>:warning: Cette fonctionnalité est disponible uniquement dans Campaign Classic v7. [Apprenez-en davantage](../../social/using/about-social-marketing.md)
 
-Les workflows présentés ci-dessous sont installés par défaut avec le module **Social Marketing** .
+Les workflows présentés ci-dessous sont installés par défaut avec le module **Marketing social**.
 
 <table> 
  <tbody> 
