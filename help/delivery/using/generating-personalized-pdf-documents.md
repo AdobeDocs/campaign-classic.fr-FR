@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 ## À propos des documents PDF variables {#about-variable-pdf-documents}
 
-Adobe Campaign permet de générer des documents PDF variables pour les pièces jointes d&#39;emails à partir de documents LibreOffice ou Microsoft Word.
+Adobe Campaign permet la génération de documents PDF variables pour pièces jointes d&#39;email à partir de documents LibreOffice ou Microsoft Word.
 
 Les extensions supportées sont : &quot;.docx&quot;, &quot;.doc&quot;, et &quot;.odt&quot;.
 
