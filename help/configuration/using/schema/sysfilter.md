@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: a0069688-fd05-42e9-91dd-adc10bea3461
 source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '43'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Cet élément n&#39;a aucun attribut.
 
 ## Exemples       {#examples-12}
 
-Définition d&#39;un filtre avec une condition sur l&#39;attribut @name:
+Définition d&#39;un filtre avec une condition sur l&#39;attribut @name :
 
 ```
 <sysFilter>
