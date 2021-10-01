@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: action-activities
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '100'
 ht-degree: 100%
 
