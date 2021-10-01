@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -158,13 +158,13 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> Erreur<br /> </td> 
-   <td> Ce type d’erreur entraîne un échec de la migration. Pour plus d'informations, consultez la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si vous obtenez des logs d'erreur d'application web de type vues d'ensemble (migration depuis une v6.02), reportez-vous à la section <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Configuration de Campaign</a>.<br /> </td> 
+   <td> Ce type d’erreur entraîne un échec de la migration. Pour plus d'informations, consultez la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si vous obtenez des journaux d’erreurs d’application Web de type vues d’ensemble (migration depuis la version v6.02), consultez la section <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Configuration de Campaign</a>.<br /> </td> 
   </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 
    <td> Erreur<br /> </td> 
-   <td> Ce type de déploiement n’est plus pris en charge. Le type de déploiement connecteur Microsoft CRM On-premise et Office 365 est désormais obsolète</a>. Pour passer au déploiement des API Web, voir <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Applications Web</a>.<br /> </td>
+   <td> Ce type de déploiement n’est plus pris en charge. Le type de déploiement connecteur Microsoft CRM On-premise et Office 365 est désormais obsolète</a>. Pour passer au déploiement des API Web, voir la section <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Applications Web</a>.<br /> </td>
   </tr> 
  </tbody> 
 </table>
