@@ -1,25 +1,26 @@
 ---
-title: Modification de la source de données
-description: En savoir plus sur l’activité Modification de la source de données
+title: Modifier la source de données
+description: En savoir plus sur l’activité Modifier la source de données
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-source-git-commit: 9fc4add3f12e3f06b031c4969bd8409c67e4359e
-workflow-type: tm+mt
+exl-id: d7bf9d62-6f9e-415f-8160-446210f6392e
+source-git-commit: 31483bdd2e0a2dd0676ef391c5484e4b778317c1
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-# Modification de la source de données {#change-data-source}
+# Modifier la source de données {#change-data-source}
 
 >[!NOTE]
 >
-> L&#39;activité **[!UICONTROL Modifier la source de données]** n&#39;est disponible qu&#39;avec le package **[!UICONTROL Accès aux données externes (Federated Data Access)]**. Pour plus d’informations sur les packages standard de Adobe Campaign Classic, consultez cette [page](../../installation/using/installing-campaign-standard-packages.md).
+> L&#39;activité **[!UICONTROL Modifier la source de données]** n&#39;est disponible qu&#39;avec le package **[!UICONTROL Accès aux données externes (Federated Data Access)]**. Pour plus d’informations sur les packages natifs d’Adobe Campaign Classic, consultez cette [page](../../installation/using/installing-campaign-standard-packages.md).
 
 L&#39;activité **[!UICONTROL Modifier la source de données]** permet de modifier la source de données d&#39;un workflow **[!UICONTROL Table de travail]**. Vous bénéficiez ainsi d’une plus grande flexibilité pour gérer les données entre différentes sources de données, telles que FDA, FFDA et base de données locale.
 
-La **[!UICONTROL table de travail]** permet au workflow Adobe Campaign Classic de gérer les données et de partager les données avec les activités du workflow.
+La **[!UICONTROL table de travail]** permet au workflow Adobe Campaign Classic de gérer les données et de partager les données avec les activités de workflow.
 Par défaut, la **[!UICONTROL table de travail]** est créée dans la même base de données que la source des données sur lesquelles nous effectuons une requête.
 
 Par exemple, lors de l’interrogation de la table **[!UICONTROL Profils]** stockée dans la base de données cloud, vous allez créer une **[!UICONTROL table de travail]** sur la même base de données cloud.
@@ -35,7 +36,7 @@ Pour utiliser l’activité **[!UICONTROL Modifier la source de données]** :
 
    Pour plus d&#39;informations sur l&#39;activité **[!UICONTROL Requête]**, consultez cette [page](../../workflow/using/query.md#creating-a-query).
 
-1. Depuis l’onglet **[!UICONTROL Ciblage]**, ajoutez une activité **[!UICONTROL Modifier la source de données]** .
+1. Depuis l’onglet **[!UICONTROL Ciblage]**, ajoutez une activité **[!UICONTROL Modifier la source de données]**.
 
    ![](assets/change-data-source.png)
 
@@ -47,11 +48,11 @@ Pour utiliser l’activité **[!UICONTROL Modifier la source de données]** :
 
 1. Dans l’onglet **[!UICONTROL Actions]**, effectuez un glisser-déposer d’une activité **[!UICONTROL Code JavaScript]** pour réaliser des opérations unitaires sur la table de travail.
 
-   Pour plus d&#39;informations sur l&#39;activité **[!UICONTROL Code JavaScript]**, consultez la page [Code JavaScript et Code JavaScript avancé](../../workflow/using/sql-code-and-javascript-code.md#javascript-code) .
+   Pour plus d&#39;informations sur l&#39;activité **[!UICONTROL Code JavaScript]**, consultez la page [Code JavaScript et Code JavaScript avancé](../../workflow/using/sql-code-and-javascript-code.md#javascript-code).
 
 1. Ajoutez une autre activité **[!UICONTROL Modifier la source de données]** pour revenir à la base de données cloud.
 
-1. Double-cliquez sur votre activité et sélectionnez **[!UICONTROL Principal compte externe FDA]** puis le compte externe **[!UICONTROL Base externe]** correspondant.
+1. Double-cliquez sur votre activité et sélectionnez **[!UICONTROL Compte externe FDA actif]** puis le compte externe **[!UICONTROL Base de données externe]** correspondant.
 
    ![](assets/change-data-source_3.png)
 
