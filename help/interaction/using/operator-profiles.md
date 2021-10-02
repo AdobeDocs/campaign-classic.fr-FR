@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '410'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 88%
 
 ---
 
@@ -52,15 +52,15 @@ Les droits attribués au chargé d&#39;offres lui permettent d&#39;effectuer les
 
    ![](assets/offer_operators_create_002.png)
 
-Les droits attribués au chargé de diffusion sont les suivants/lui permettent d&#39;effectuer les opérations suivantes :
+Les droits attribués au chargé de diffusion lui permettent d&#39;effectuer les tâches suivantes :
 
 * Afficher les environnements **[!UICONTROL En ligne]**.
 * Afficher et modifier des catégories d&#39;offres.
-* Valider des offres s&#39;il y est spécifié comme validant.
+* Validez les offres si ce chargé de diffusion est désigné comme l&#39;un de ses opérateurs validants.
 
    >[!NOTE]
    >
-   >Le chargé de diffusion ne peut valider une offre que s&#39;il a été défini comme validant lors du paramétrage de l&#39;offre.
+   >Le chargé de diffusion ne peut valider une offre que s&#39;il a été défini comme validant lors de la configuration de l&#39;offre.
 
 ## Récapitulatif des droits selon le type d&#39;opérateur {#recap-of-rights-according-to-operator}
 

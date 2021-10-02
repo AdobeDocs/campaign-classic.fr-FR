@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 81%
 
 ---
 
@@ -23,7 +23,7 @@ Les offres peuvent être présentées à divers emplacements utilisant un canal 
 
 Pour qu&#39;une offre puisse être sélectionnée par le moteur d&#39;offre, elle doit avoir été validée et être disponible dans un environnement en ligne. Voir à ce sujet [Valider et activer une offre](../../interaction/using/approving-and-activating-an-offer.md).
 
-Lors d&#39;un contact entrant, deux cas de figure peuvent se présenter. Un premier où l&#39;utilisateur n&#39;est pas identifié sur le site sur lequel il navigue, et un second où l&#39;utilisateur s&#39;est identifié. Le moteur d&#39;offres permet de présenter des offres différentes selon qu&#39;un utilisateur soit identifié ou non.
+Lorsqu’un contact est entrant, deux possibilités s’offrent à vous : l’utilisateur qui navigue sur les pages peut être identifié par le site web ou non. Le moteur d&#39;offres présente différentes offres selon que l&#39;utilisateur est identifié ou non.
 
 Avant de pouvoir proposer des offres sur un canal entrant, vous devez paramétrer l&#39;appel au moteur d&#39;offres à l&#39;endroit où vous souhaitez que les offres soient présentées. Le cas le plus courant dans le cadre d&#39;une interaction entrante est la page Web.
 

@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
-workflow-type: ht
-source-wordcount: '853'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '857'
+ht-degree: 92%
 
 ---
 
@@ -54,7 +54,7 @@ Dans Campaign v7, les objets suivants ont été créés :
 
    ![](assets/acs_connect_lp_5.png)
 
-1. Accédez à **[!UICONTROL Profils et Cibles > Destinataire]** et sélectionnez un destinataire. Vous pouvez voir qu&#39;il ne s&#39;est pas encore inscrit au service.
+1. Accédez à **[!UICONTROL Profils et cibles > Destinataire]** et sélectionnez un destinataire. Vous pouvez constater que ce profil ne s’est pas encore inscrit au service.
 
    ![](assets/acs_connect_lp_6.png)
 
@@ -70,7 +70,7 @@ Pour vérifier que les données ont été correctement répliquées, suivez la p
 
    ![](assets/acs_connect_lp_7.png)
 
-1. Recherchez votre destinataire Campaign v7 et vérifiez qu&#39;il apparaît dans Campaign Standard.
+1. Recherchez votre destinataire Campaign v7 et vérifiez que ce destinataire apparaît dans Campaign Standard.
 
    ![](assets/acs_connect_lp_8.png)
 
@@ -102,7 +102,7 @@ Les étapes de création, de conception et d&#39;envoi de l&#39;email sont les m
 
    ![](assets/acs_connect_lp_14.png)
 
-1. Il ajoute un numéro de téléphone et coche la case d&#39;inscription à la newsletter.
+1. Ce destinataire ajoute un numéro de téléphone et coche la case d&#39;inscription à la newsletter.
 
    ![](assets/acs_connect_lp_15.png)
 
@@ -118,7 +118,7 @@ Lorsque le destinataire met ses informations à jour via l&#39;application web, 
 
    ![](assets/acs_connect_lp_17.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Abonnements]**, vous pouvez également constater que le destinataire s&#39;est inscrit au service de newsletter.
+1. Dans l&#39;onglet **[!UICONTROL Abonnements]**, nous pouvons également constater que ce destinataire s&#39;est inscrit au service de newsletter.
 
    ![](assets/acs_connect_lp_18.png)
 

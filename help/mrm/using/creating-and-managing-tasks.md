@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '3899'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '3898'
+ht-degree: 98%
 
 ---
 
@@ -247,7 +247,7 @@ Pour créer une tâche directement rattachée à un programme :
 
 ### Disponibilité des opérateurs {#operator-availability}
 
-Dans le tableau de bord d&#39;une tâche, une icône près du nom de l&#39;opérateur signale que celui-ci est déjà mobilisé sur une autre tâche ou un événement à un moment pendant la période couverte par la tâche. (Tâche dont l&#39;opérateur est responsable ou à laquelle il participe : il apparaît dans le champ **[!UICONTROL Affecté à]**, ou dans la boîte **[!UICONTROL Ressources]** de la tâche).
+Dans le tableau de bord de la tâche, une icône en regard du nom de l&#39;opérateur indique qu&#39;il est déjà en train de travailler sur une autre tâche ou un autre événement pendant la période couverte par la tâche. La tâche dont l&#39;opérateur est responsable ou à laquelle il participe apparaît dans le champ **[!UICONTROL Affecté à]** ou dans la zone **[!UICONTROL Ressources]** de la tâche.
 
 ![](assets/mrm_task_alert_operator_busy.png)
 

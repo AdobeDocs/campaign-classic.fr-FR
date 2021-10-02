@@ -5,13 +5,12 @@ description: Découvrez comment configurer des zones de sécurité
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-source-git-commit: 53b9cd8498ffe0ac937f63dcaebfc3a8a7867ee3
+source-git-commit: dab18d24f5471034a2169dd674e6f7000de30cac
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%
 
 ---
-
 
 # Définir des zones de sécurité (On-Premise){#defining-security-zones}
 

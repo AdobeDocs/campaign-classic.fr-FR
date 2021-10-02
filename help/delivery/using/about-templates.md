@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 75%
 
 ---
 
@@ -31,7 +31,7 @@ Il existe deux types de modèles :
 
 1. Les modèles de diffusion prédéfinis
 
-   L&#39;administrateur Adobe Campaign peut créer de nouveaux modèles de diffusion. Ils pourront être réutilisés par les opérateurs (s&#39;ils possèdent les droits d&#39;accès adéquats) ou automatiquement par les processus serveur. Par exemple, vous pouvez paramétrer un modèle de diffusion par email et lorsque l&#39;utilisateur créé une diffusion à partir de ce modèle, il n&#39;a plus qu&#39;à saisir le contenu texte ou HMTL puis diffuser, les autres choix ayant été préalablement définis par l&#39;administrateur.
+   L&#39;administrateur Adobe Campaign peut créer de nouveaux modèles de diffusion. Ils peuvent être réutilisés par les opérateurs (ceux disposant des droits d&#39;accès adéquats) ou automatiquement par les processus serveur. Par exemple, vous pouvez configurer un modèle de diffusion email. Lorsque les utilisateurs créent une diffusion à l’aide de ce modèle, ils ont simplement besoin de saisir le texte ou le contenu HTML, puis de le diffuser. les autres choix ont déjà été définis par l’administrateur.
 
 >[!NOTE]
 >

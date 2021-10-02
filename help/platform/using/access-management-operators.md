@@ -6,10 +6,10 @@ feature: Access Management
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '1211'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 92%
 
 ---
 
@@ -99,7 +99,7 @@ Dans l&#39;onglet **[!UICONTROL Droits d&#39;accès]**, vous pouvez mettre à jo
 
 Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;accéder aux options suivantes :
 
-* L&#39;option **[!UICONTROL Bloquer le compte]** permet de désactiver le compte de l&#39;opérateur : celui-ci ne peut plus accéder à Adobe Campaign.
+* L&#39;option **[!UICONTROL Désactiver le compte]** permet de désactiver le compte de l&#39;opérateur : cet utilisateur n’aura plus accès à Adobe Campaign.
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;acc
 
    >[!IMPORTANT]
    >
-   >Cette restriction est uniquement visuelle et doit être utilisée avec précaution. L&#39;opérateur connecté avec ce type de droits ne voit QUE le contenu du dossier spécifié et ne peut accéder à aucun autre noeud de l&#39;arborescence via l&#39;explorateur. Toutefois, en fonction des fonctionnalités auxquelles il a accès (par exemple : les workflows), il peut afficher les données normalement contenues dans des noeuds qu&#39;il ne peut pas visualiser.
+   >Il s&#39;agit d&#39;une restriction très stricte qui doit être utilisée avec précaution. Un opérateur connecté avec ce type de droits ne peut visualiser que le contenu du dossier spécifié et n&#39;a accès à aucun autre noeud de l&#39;arborescence via l&#39;explorateur. Toutefois, en fonction des fonctionnalités auxquelles cet opérateur a accès (par exemple : workflows), l’utilisateur peut afficher les données généralement stockées dans des noeuds qui ne sont pas accessibles.
 
 ### Vérification des paramètres {#check-settings}
 

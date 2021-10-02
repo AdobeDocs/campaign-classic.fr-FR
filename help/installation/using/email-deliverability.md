@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '3089'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '3090'
+ht-degree: 98%
 
 ---
 
@@ -174,7 +174,7 @@ user:~ user$ host -t a mta5.am0.yahoodns.net
                 mta5.am0.yahoodns.net has address 98.138.112.35
 ```
 
-Pour cet enregistrement MX, l&#39;utilisateur peut contacter huit adresses IP. Comme il dispose de deux adresses IP publiques, il a seize (8*2) combinaisons pour accéder aux serveurs email de yahoo.com. Chacune de ces combinaisons s&#39;appelle un chemin.
+Pour cet enregistrement, l’utilisateur peut contacter 8 adresses IP par paire. Comme l’utilisateur dispose de 2 adresses IP publiques, il obtient 8 x 2 = 16 combinaisons pour accéder aux serveurs de messagerie yahoo.com. Chacune de ces combinaisons est appelée un chemin.
 
 Le deuxième enregistrement MX apparaît comme ceci :
 

@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -60,7 +60,7 @@ Par défaut, Interaction est livré avec un environnement pré-paramétré pour 
 
    Cette option permet d&#39;activer les fonctions spécifiques aux interactions anonymes, notamment dans le paramétrage des emplacements de l&#39;environnement. Vous pourrez ainsi paramétrer des options permettant de basculer d&#39;un environnement &quot;identifié&quot; à un environnement &quot;anonyme&quot;.
 
-   Vous pourrez par exemple associer un emplacement de l&#39;environnement des destinataires (contact identifié) à un emplacement correspondant de l&#39;environnement des visiteurs (contact non identifié). Ainsi, le contact disposera d&#39;offres différentes selon qu&#39;il soit identifié ou non. Voir à ce sujet la section [Créer des emplacements](../../interaction/using/creating-offer-spaces.md).
+   Vous pouvez par exemple associer un emplacement de l&#39;environnement des destinataires (contact identifié) à un emplacement correspondant de l&#39;environnement des visiteurs (contact non identifié). Ainsi, le contact disposera de différentes offres selon que le contact est identifié ou non. Voir à ce sujet la section [Créer des emplacements](../../interaction/using/creating-offer-spaces.md).
 
    ![](assets/offer_env_anonymous_003.png)
 
