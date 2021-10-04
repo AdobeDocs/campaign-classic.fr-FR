@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+workflow-type: tm+mt
 source-wordcount: '759'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -132,7 +132,7 @@ Procédez comme suit lors de la mise à jour de l&#39;option NmsTracking_Pointer
 
 Vous pouvez personnaliser la formule de suivi des clics et spécifier une formule de tracking Adobe Analytics personnalisée.
 
-Ce type de personnalisation doit être effectué avec prudence afin d’éviter l’ajout de caractères de saut de page supplémentaires. Tous les caractères de saut de page présents en dehors de l’expression javascript seront présents dans la formule finale.
+Ce type de personnalisation doit être effectué avec prudence afin d’éviter l’ajout de caractères de saut de page supplémentaires. Tous les caractères de saut de page présents en dehors de l’expression JavaScript seront présents dans la formule finale.
 
 Ce type de caractère de saut de ligne supplémentaire dans l&#39;URL de tracking va entraîner un problème dans certaines messageries web (AOL, GMail, etc.).
 
@@ -159,7 +159,7 @@ Ce type de caractère de saut de ligne supplémentaire dans l&#39;URL de trackin
    %>&cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
    ```
 
-Pour comprendre où se trouve le saut de ligne supplémentaire, vous pouvez remplacer l’expression javascript par une chaîne STRING fixe.
+Pour comprendre où se trouve le saut de ligne supplémentaire, vous pouvez remplacer l’expression JavaScript par une chaîne CHAÎNE fixe.
 
 ```
 // Incorrect
@@ -195,7 +195,7 @@ STRING1&cid=STRING2&bid=STRING3
    %>
    ```
 
-Pour comprendre où se trouve le saut de ligne supplémentaire, vous pouvez remplacer l’expression javascript par une chaîne STRING fixe.
+Pour comprendre où se trouve le saut de ligne supplémentaire, vous pouvez remplacer l’expression JavaScript par une chaîne CHAÎNE fixe.
 
 ```
 // Incorrect

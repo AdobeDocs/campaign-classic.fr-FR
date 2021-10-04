@@ -2,9 +2,8 @@
 product: campaign
 title: Protection de la confidentialité des emails dans l’application de messagerie Apple
 description: Découvrez comment vos campagnes peuvent être affectées par la fonction de protection de la confidentialité du courrier d’Apple
-hide: true
-hidefromtoc: true
-source-git-commit: f73cda08183e27a222e0aa8e179ef013777435e8
+exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
+source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
 workflow-type: tm+mt
 source-wordcount: '2141'
 ht-degree: 1%

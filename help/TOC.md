@@ -7,12 +7,13 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: aac596caf559b25ba3fff94aca410a66ecc08b27
+source-git-commit: 77c7f1edc531509580c76f55dcb2809c18a04133
 workflow-type: tm+mt
-source-wordcount: '2546'
+source-wordcount: '2569'
 ht-degree: 98%
 
 ---
+
 
 # Documentation d&#39;Adobe Campaign Classic v7 {#using}
 
@@ -36,12 +37,6 @@ ht-degree: 98%
       + [Version 18.4](rn/using/release--18-4.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
    + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
-   + [Notes techniques](technotes/using/technote.md)
-   + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
-   + [Protection de la confidentialité des emails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
-   + [Mises à jour de la configuration de Campaign](technotes/using/acc-config-updates.md)
-   + [Mise à jour des URL trackées](technotes/using/tracked-urls.md)
-   + [Mises à jour de l&#39;IMS](technotes/using/ims-updates.md)
 + Prise en main {#getting-started}
    + Prise en main d’Adobe Campaign {#starting-with-adobe-campaign}
       + [Prise en main d’Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -118,7 +113,7 @@ ht-degree: 98%
          + [Synchronisation des données avec le CRM](platform/using/crm-data-sync.md)
       + Connecteur Adobe Analytics{#analytics-connector}
          + [Approvisionnement d’Adobe Analytics Connector](platform/using/adobe-analytics-provisioning.md)
-         + [Intégration d’Adobe Analytics Connector](platform/using/adobe-analytics-connector.md)
+         + [Intégration du connecteur Adobe Analytics](platform/using/adobe-analytics-connector.md)
          + [Comment migrer vers le connecteur Adobe Analytics](technotes/using/aa-connector-migration.md)
          + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
    + [Options d’aide et de support](support.md)
@@ -439,7 +434,7 @@ ht-degree: 98%
       + [Services d’inscriptions](workflow/using/subscription-services.md)
       + [Mise à jour de données](workflow/using/update-data.md)
       + [Connecteur CRM](workflow/using/crm-connector.md)
-      + [Modification de la source de données](workflow/using/change-data-source.md)
+      + [Modifier la source de données](workflow/using/change-data-source.md)
    + Activités de contrôle de flux {#flow-control-activities}
       + [À propos des activités d’ordonnancement](workflow/using/about-flow-control-activities.md)
       + [Début et Fin](workflow/using/start-and-end.md)
@@ -487,7 +482,7 @@ ht-degree: 98%
          + [Chargement du contenu de la diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle   {#monitoring}
+      + Contrôle    {#monitoring}
          + [Envoi d’un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Supervision de vos workflows](workflow/using/supervising-workflows.md)
          + [Envoi d’alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -850,6 +845,16 @@ ht-degree: 98%
       + [Paramétrages spécifiques v6.10](migration/using/specific-configurations-in-v6-10.md)
    + [Procédure de restauration](migration/using/about-rollback.md)
 + Notes techniques {#technotes}
+   + [Recommandations relatives au dimensionnement du matériel](technotes/using/hardware-sizing.md)
+   + Mises à niveau et migrations{#technote-migration}
+      + [Notes techniques](technotes/using/technote.md)
+      + [Mises à jour de la configuration de Campaign](technotes/using/acc-config-updates.md)
+      + [Mises à jour de l&#39;IMS](technotes/using/ims-updates.md)
+   + Emails et notifications push{#technotes-email}
+      + [Protection de la confidentialité des emails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
+      + [FAQ sur la protection de la confidentialité Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+      + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
+      + [Mise à jour des URL trackées](technotes/using/tracked-urls.md)
    + Migration vers Adobe Managed Services{#dc-migration}
       + [Migration vers le cloud public](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)

@@ -2,14 +2,14 @@
 product: campaign
 title: FAQ sur la migration vers Adobe Managed Services (cloud public)
 description: FAQ sur la migration des Campaign Classic vers le cloud public
-hidefromtoc: true
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: a4e7fb474d83be821343babacc493fd43c02857d
+exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
+source-git-commit: 1f050ada481a7307a59ea6c81290bb0b24a3bf6c
 workflow-type: tm+mt
-source-wordcount: '2273'
-ht-degree: 81%
+source-wordcount: '2243'
+ht-degree: 61%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 81%
 
 Dans le cadre de l’[initiative Gold Standard](../../rn/using/gold-standard.md), Adobe désactive l’ancien centre de données. Les instances de Campaign Classic doivent être transférées vers les services web AWS (Public Cloud Amazon Web Services). [En savoir plus sur cette initiative](dc-migration.md).
 
-Vous trouverez ci-dessous un ensemble de questions courantes concernant ce projet, l’impact sur vos environnements Campaign et d’autres ressources utiles.
+Vous trouverez ci-dessous un ensemble de questions courantes sur ce projet, son impact sur vos environnements Campaign et d’autres ressources utiles.
 
 Pour toute autre question, contactez [l’assistance clientèle Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
@@ -37,11 +37,11 @@ Les incidences globales sur la base de données et l’infrastructure sont répe
 
 * **Existe-t-il un risque de perte de données ?**
 
-   La base de données sera extraite de l’ancien centre de données, puis restaurée dans le cloud public (AWS). Une fois redémarrée dans le nouveau centre de données, l’application reprendra à partir de l’état exact antérieur à l’arrêt. Les utilisateurs ne verront aucune différence, à l’exception du report de certaines tâches planifiées.
+   La base de données sera extraite de l’ancien centre de données, puis restaurée dans le cloud public (AWS). Une fois redémarrée sur le nouveau centre de données, l’application reprend à partir de l’état exact où elle se trouvait avant la migration. Les utilisateurs ne verront aucune différence, à l’exception du report de certaines tâches planifiées.
 
 * **Existe-t-il des différences de taille du package entre l’ancien centre de données et le cloud public ?**
 
-   Nous fournissons de nouvelles définitions de package dans le cloud public (AWS) en fonction de la taille actuelle de la base de données, de la taille du disque, etc. Par exemple, si un client dispose d’un serveur d’applications dans les anciens centres de données, il peut utiliser deux serveurs d’applications dans le cloud public (AWS) en fonction des définitions de package.
+   Nous fournissons de nouvelles définitions de package dans le cloud public (AWS) en fonction de la taille actuelle de la base de données, de la taille du disque, etc. Par exemple, si un client possède un serveur d’applications dans les anciens centres de données, il peut avoir deux serveurs d’applications dans le cloud public (AWS) en fonction des définitions de packages.
 
 * **Le numéro de build ou la version de Campaign vont-ils changer ?**
 
@@ -59,21 +59,21 @@ Les incidences globales sur la base de données et l’infrastructure sont répe
 
 Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaines et les URL sont répertoriées ci-dessous.
 
-* **Comment les adresses IP sur la liste autorisée seront-elles gérées ? Les clients devront-ils ajouter de nouvelles adresses IP à la liste autorisée pour le trafic entrant en provenance de Campaign ?**
+* **Comment l’adresse IP de la liste autorisée sera-t-elle gérée ? Les clients devront-ils ajouter de nouvelles adresses IP à la liste autorisée pour le trafic entrant provenant de Campaign ?**
 
-   L’adresse IP des serveurs Adobe va changer. Il se peut donc que les clients doivent ajouter ces nouvelles adresses IP à la liste autorisée de leur système.
+   L’adresse IP des serveurs Adobe va changer. Il se peut donc que les clients doivent ajouter ces nouvelles adresses IP dans la liste autorisée de leur système.
 
-   [Cliquez ici](#config) pour plus de détails sur l’ajout d’adresses IP à la liste autorisée.
+   [Cliquez ](#config) ici pour plus d’informations sur l’adresse IP dans la liste autorisée.
 
-* **Comment allons-nous gérer le port ajouté à la liste autorisée pour l’accès SFTP/FTP ?**
+* **Comment gérerons-nous le port ajouté à la liste autorisée pour l’accès SFTP/FTP ?**
 
-   La configuration SFTP (clés publiques + adresses IP sur la liste autorisée) sera également déplacée de l’ancien centre de données vers le cloud public (AWS). Aucune action ne sera requise de la part du client.
+   La configuration SFTP (clés publiques + IP sur la liste autorisée) sera également déplacée de l’ancien centre de données vers le cloud public (AWS). Aucune action ne sera requise de la part du client.
 
 * **Changeons-nous les adresses IP ?**
 
    L’adresse IP des serveurs Adobe va changer. Il se peut donc que les clients doivent ajouter ces nouvelles adresses IP à la liste autorisée de leur système.
 
-   [Cliquez ici](#config) pour plus de détails sur l’ajout d’adresses IP à la liste autorisée.
+   [Cliquez ](#config) ici pour plus d’informations sur l’adresse IP dans la liste autorisée.
 
 * **Comment la délégation des sous-domaines sera-t-elle gérée ?**
 
@@ -99,21 +99,21 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 
    Une fois la migration terminée, les adresses IP d’envoi de l’instance Campaign seront entièrement différentes. Pour assurer une transition progressive, Adobe effectuera une montée en réputation des nouvelles adresses IP d’envoi en transférant progressivement le trafic des anciennes vers les nouvelles adresses IP.
 
-* **Déplaçons-nous les URL sur la liste autorisée ?**
+* **Passons-nous sur l’URL à la liste autorisée ?**
 
    Oui, il est stocké dans le fichier de configuration du serveur qui sera copié de la source vers la nouvelle instance.
 
 * **Quelle pourrait être l’incidence sur le sous-domaine délégué que nous utilisons pour mettre en avant notre marque dans nos communications ?**
 
-   Les sous-domaines utilisés pour la communication marketing restent les mêmes. Cependant, selon la mise en œuvre, il est possible que des actions soient nécessaires côté client :
-   * Dans le cas d’une délégation de sous-domaines à Adobe (par défaut), Adobe prendra en charge toutes les modifications et assurera une transition fluide.
-   * Dans le cas d’une configuration CNAME (exception), le client est invité à mettre en œuvre les modifications. Une coordination avec Adobe sera nécessaire.
+   Le ou les sous-domaines utilisés pour la communication marketing restent les mêmes. Toutefois, selon l’implémentation, des actions sont nécessaires côté client :
+   * Dans le cas d’une délégation de sous-domaine à Adobe (par défaut), Adobe prend en charge toutes les modifications et assure une transition transparente.
+   * Dans le cas d’une configuration CNAME (exception), le client est invité à mettre en oeuvre les modifications, en coordination avec Adobe.
 
 ## Incidences sur la configuration et la connectivité
 
 ![](assets/do-not-translate/maintenance.png)
 
-### Note concernant les adresses IP sur la liste autorisée{#config}
+### Remarque concernant l’adresse IP sur la liste autorisée{#config}
 
 La migration vers le cloud public s’accompagne de nouvelles adresses IP pour les serveurs d’applications Adobe Campaign. La modification de ces adresses peut avoir une incidence sur la connectivité entre les serveurs Adobe et vos systèmes d’information.
 
@@ -123,7 +123,7 @@ Examinons les deux cas suivants :
 
 * Trafic entrant : Toute activité réseau lancée à partir de vos systèmes ou de tout autre tiers vers des serveurs Adobe Campaign. La configuration sera gérée par Adobe, puis copiée de l’ancienne plateforme vers le cloud public au cours de la migration. La connectivité du trafic entrant sera alors conservée telle quelle après la migration et aucune action n’est attendue du côté client.
 
-* Trafic sortant : Toute activité réseau initiée par les serveurs Adobe Campaign sur votre système d’information ou tout autre tiers (par exemple : fournisseur SMS). Selon les stratégies de sécurité mises en place au sein de votre organisation, le changement des adresses IP peut nécessiter un ajout à la liste autorisée à partir de votre système d’information ou de tout autre tiers.
+* Trafic sortant : Toute activité réseau initiée par les serveurs Adobe Campaign sur votre système d’information ou tout autre tiers (par exemple : fournisseur SMS). En fonction des stratégies de sécurité en place dans votre organisation, la modification des adresses IP peut nécessiter une opération de liste autorisée de votre système d’informations ou de tout autre tiers.
 
 ### Effets globaux
 
@@ -133,15 +133,15 @@ Les incidences globales sur la configuration, la connectivité avec d’autres s
 
    Oui. Les intégrations tierces, les fournisseurs de SMS par exemple, doivent ajouter de nouvelles adresses IP de serveurs d’applications Adobe Campaign à la liste autorisée.
 
-* **La migration aura-t-elle une incidence sur la connectivité avec Adobe Analytics par le biais du connecteur Genesis ? Qu’en est-il de l’ajout d’adresses IP Campaign à la liste autorisée du côté Adobe Analytics ?**
+* **La migration aura-t-elle une incidence sur la connectivité avec Adobe Analytics par le biais du connecteur Genesis ? Qu’en est-il de l’ajout d’adresses IP Campaign à la liste autorisée côté Adobe Analytics ?**
 
    Les adresses IP des serveurs d’applications Adobe Campaign vont changer. Cette étape sera gérée après la migration par l’assistance clientèle d’Adobe.
 
 * **La migration aura-t-elle une incidence sur la connectivité avec d’autres solutions Adobe (AEM, Target, etc.) ?**
 
-   Les intégrations sont une combinaison d’adresses IP déclarées sur la configuration du compte de liste autorisée et de service Web. Cela sera pris en compte et détenu par l’Assistance clientèle d’Adobe.
+   Les intégrations sont une combinaison d’adresses IP déclarées sur la configuration de compte de liste autorisée et de service Web. Cela sera pris en compte et détenu par l’Assistance clientèle d’Adobe.
 
-   Il y aura des adresses IP sur la liste autorisée qui seront requises dans la solution externe, car l’adresse IP des serveurs d’applications changera. Cette information sera fournie. Les autres composants de l’intégration sont basés sur IMS et devraient fonctionner en l’état.
+   Il y aura des adresses IP sur la liste autorisée qui seront requises dans la solution externe lorsque l’adresse IP des serveurs d’applications changera. Cette information sera fournie. Les autres composants de l’intégration sont basés sur IMS et devraient fonctionner en l’état.
 
 * **Qu’en est-il des clients qui ne sont pas associés à l’ID d’organisation pour l’intégration IMS ?**
 
@@ -155,7 +155,7 @@ Les incidences globales sur la configuration, la connectivité avec d’autres s
 
    L’adresse IP des serveurs Adobe va changer. Il se peut donc que les clients doivent ajouter ces nouvelles adresses IP à la liste autorisée de leur système.
 
-   [Cliquez ](#config) ici pour plus d’informations sur l’IP en liste autorisée.
+   [Cliquez ](#config) ici pour plus d’informations sur l’adresse IP en liste autorisée.
 
 * **Allons-nous nous assurer que tous les paramètres de configuration de la mémoire JavaScript sont correctement définis après la migration ?**
 
@@ -178,7 +178,7 @@ Les incidences globales sur la configuration, la connectivité avec d’autres s
 
 Pour cette migration vers le cloud public (AWS), les environnements clients seront tenus à jour avec toutes les exigences de sécurité nécessaires. Ceci inclut les éléments suivants :
 
-* Correctifs de sécurité et de système d’exploitation les plus récents proposés périodiquement
+* Les correctifs de sécurité et de système d’exploitation les plus récents de façon périodique
 * Isolation de l’infrastructure par client
 * Validation de la sécurité et des audits en infogérance pour la prise en charge de l’infrastructure cloud, notamment les équilibreurs de charge, les règles de sécurité réseau et le cryptage du stockage
 
@@ -198,11 +198,11 @@ Les incidences sur les autorisations, les certificats et les accès SFTP sont r�
 
 * **Si la connexion SFTP n’a pas pu être établie, quelle est la solution/le plan pour que le client reste opérationnel ?**
 
-   Le seul problème de connectivité possible est lié à la liste autorisée côté client. Le client doit ajouter ce test dans un environnement hors production pour s’assurer qu’il fonctionne avant de passer en production.
+   Le seul problème de connectivité qui peut survenir est lié à la liste autorisée côté client. Le client doit ajouter ce test dans un environnement hors production pour s’assurer qu’il fonctionne avant de passer en production.
 
-* **Est-il nécessaire de déplacer des configurations de liste autorisée spécifiques au centre de données ?**
+* **Existe-t-il des configurations de liste autorisée spécifiques au centre de données qui doivent être déplacées ?**
 
-   Non, il n’y a aucune configuration de liste autorisée spécifique au centre de données à gérer.
+   Non, il n’existe aucune configuration de liste autorisée spécifique au centre de données à gérer.
 
 * **Nous assurons-nous que les scripts personnalisés seront exécutés avec succès dans le nouvel environnement ?**
 
@@ -223,7 +223,7 @@ Les incidences globales au cours de la migration sont répertoriées ci-dessous.
 
 * **Devons-nous prévoir l’arrêt de l’activité marketing pendant la migration ?**
 
-   Adobe recommande de ralentir voire idéalement de suspendre les workflows et les diffusions juste avant l’arrêt de l’application de l’ancien centre de données. Il sera ainsi plus facile de redémarrer les activités sur le serveur cloud (AWS), car les processus auront eu le temps nécessaire pour s’interrompre de manière « élégante » et enregistrer l’état d’exécution en cours.
+   Adobe recommande de ralentir et idéalement de suspendre toutes les exécutions juste avant l’arrêt de l’application dans l’ancien centre de données : diffusions et workflows. Il sera ainsi plus facile de redémarrer les activités sur le serveur cloud (AWS), car les processus auront eu le temps nécessaire pour s’interrompre de manière « élégante » et enregistrer l’état d’exécution en cours.
 
 * **Devons-nous prévoir un temps d’arrêt de notre service Adobe Campaign ?**
 
@@ -266,21 +266,20 @@ Les incidences globales au cours de la migration sont répertoriées ci-dessous.
 
    Le plan de restauration consiste à rétablir le DNS et à reconfigurer en lecture-écriture la base de données source qui est en lecture seule. Cette restauration est au final effectuée par des fonctions automatiques.
 
-* **Après la migration, disposons-nous encore d’un accès aux anciennes instances ?**
+* **Après la migration, pouvons-nous toujours accéder aux anciennes instances ?**
 
    Une fois la migration de l’application terminée, aucun autre processus n’est prévu concernant l’ancien centre de données. Nous prévoyons que toutes les données de l’ancien centre de données puissent être effacées, sauf à des fins de sauvegarde temporaire, jusqu’à ce que les processus de sauvegarde planifiés soient effectués sur le cloud public (AWS).
 
-* **Combien de temps le test de chaque instance sera-t-il autorisé après la migration vers le cloud public ?**
+* **Combien de temps le test de chaque instance sera-t-il autorisé après la migration vers le cloud public ?**
 
    Selon la complexité du client, un délai d’au moins une semaine est nécessaire entre les migrations d’environnement de scène et d’environnement de production.
 
-* **Qui va gérer l’ajout de nouvelles adresses IP à la liste autorisée ?**
+* **Qui va gérer l’ajout de nouvelles adresses IP à la liste autorisée ?**
 
-   L’équipe Assistance clientèle d’Adobe veillera à ce que le client et les tiers éventuels puissent accéder au nouveau système en ajoutant les nouvelles adresses IP à la liste autorisée.
+   L’équipe d’assistance clientèle d’Adobe s’assurera que le client et tout tiers puissent accéder au nouveau système en ajoutant les nouvelles adresses IP à la liste autorisée.
 
 ## Support et autres liens utiles{#support}
 
 * [Migration vers Adobe Managed Services (cloud public)](dc-migration.md)
 * [Mettre à niveau vers Gold Standard](../../rn/using/gs-overview.md)
-* [FAQ sur l&#39;upgrade de build](../../platform/using/faq-build-upgrade.md)
-
+* [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md)

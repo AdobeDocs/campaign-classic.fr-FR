@@ -4,10 +4,10 @@ title: 'Options d’aide et de support pour Campaign Classic '
 description: Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit !
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 100%
+source-wordcount: '799'
+ht-degree: 96%
 
 ---
 
@@ -111,7 +111,7 @@ Le panneau de contrôle est directement accessible à partir d&#39;Adobe Experi
 
 ### Gestion SFTP
 
-Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP qui sont connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer l&#39;ajout des adresses IP à la liste autorisée et les clés SSH publiques. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr) pour plus d&#39;informations.
+Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP qui sont connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer les adresses IP sur la liste autorisée et les clés SSH publiques. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr) pour plus d&#39;informations.
 
 ### Sous-domaines et certificats
 
@@ -123,7 +123,7 @@ Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus da
 ### Paramètres des instances
 
 Découvrez comment gérer vos paramètres d’instances Campaign Classic dans le panneau de contrôle. En savoir plus dans ces pages :
-* [Ajout d&#39;adresses IP sur la liste autorisée](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr) pour accéder à vos instances Campaign.
+* [Ajoutez des adresses IP sur la liste ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr) autorisée pour accéder à vos instances Campaign.
 * [Gestion des autorisations d&#39;URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
 * [Accès aux détails de l&#39;instance](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=fr)
 * [Gestion des clés GPG pour le chiffrement des données](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=fr)

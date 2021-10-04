@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+workflow-type: tm+mt
+source-wordcount: '624'
+ht-degree: 93%
 
 ---
 
@@ -48,9 +48,9 @@ La liste par défaut des URL pouvant être appelées par des codes JavaScript (w
 
 Il existe trois modes de protection des connexions :
 
-* **Blocking** : toutes les URL qui ne figurent pas sur la liste autorisée sont bloquées et un message d’erreur s’affiche. Il s’agit du mode par défaut après un postupgrade.
-* **Permissive** : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées.
-* **Warning** : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées, mais l’interpréteur JS émet un avertissement pour que l’administrateur puisse les collecter. Ce mode ajoute des messages d’avertissement JST-310027.
+* **Blocage** : toutes les URL qui ne figurent pas sur la liste autorisée sont bloquées et un message d&#39;erreur s&#39;affiche. Il s’agit du mode par défaut après un postupgrade.
+* **Permissif** : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées.
+* **Avertissement**  : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées, mais l’interpréteur JS émet un avertissement pour que l’administrateur puisse les collecter. Ce mode ajoute des messages d’avertissement JST-310027.
 
 ```
 <urlPermission action="warn" debugTrace="true">

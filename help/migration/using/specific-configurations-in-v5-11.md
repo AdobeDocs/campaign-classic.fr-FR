@@ -6,8 +6,8 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 978e1249-f79b-4f5f-9a94-3bb2510785de
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Cette section décrit le paramétrage supplémentaire à effectuer lorsque vous 
 L&#39;avertissement suivant apparaît systématiquement lors de la migration :
 
 ```
-The webApp ids have been modified during the migration process. Please make sure to check your scripts/css for broken compatibility (any client side javascript or css dealing directly with another element through its id is impacted). See file 'c:\svn\602\nl\build\ncs\var\upgrade/postupgrade/webAppsMigration_*************.txt' for details about the references that were automatically updated, if any.
+The webApp ids have been modified during the migration process. Please make sure to check your scripts/css for broken compatibility (any client side JavaScript or css dealing directly with another element through its id is impacted). See file 'c:\svn\602\nl\build\ncs\var\upgrade/postupgrade/webAppsMigration_*************.txt' for details about the references that were automatically updated, if any.
 ```
 
 Certains composants des applications web, par exemple les différents champs d&#39;un formulaire, possèdent des identifiants. Ces identifiants (attributs @id), utilisés dans le code XML des applications web, ne sont plus générés de la même manière. Ils ne sont pas visibles dans l&#39;interface et vous ne devez normalement pas les utiliser. Cependant, dans certains cas, il se peut que ces identifiants aient été utilisés en paramétrage pour personnaliser l&#39;apparence des applications web, par exemple via une feuille de style ou du code JavaScript.

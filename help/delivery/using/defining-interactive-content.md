@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '1588'
-ht-degree: 100%
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+workflow-type: tm+mt
+source-wordcount: '1586'
+ht-degree: 96%
 
 ---
 
@@ -119,7 +119,7 @@ Pour créer un email au format AMP, procédez comme suit.
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas prévisualiser votre contenu AMP directement dans Adobe Campaign. Utilisez un site Web externe tel que [AMP Playground](https://playground.amp.dev/fr).
+   >Vous ne pouvez pas prévisualiser votre contenu AMP directement dans Adobe Campaign. Utilisez un site Web externe tel que [AMP Playground](https://playground.amp.dev).
 
 1. Retournez dans Adobe Campaign et copiez-collez votre contenu validé dans l’onglet **[!UICONTROL Contenu AMP]**.
 
@@ -150,7 +150,7 @@ Actuellement, vous pouvez tester l&#39;envoi d&#39;un email AMP en deux étapes�
 
 1. Adobe Campaign vous permet de tester la diffusion d’un email dynamique piloté par AMP vers des adresses email sélectionnées correctement configurées, afin de vérifier son contenu et son comportement. Voir [Tester la diffusion d’un email AMP pour des adresses sélectionnées](#testing-amp-delivery-for-selected-addresses).
 
-1. Une fois testée, vous pouvez envoyer une diffusion ou une campagne dans le cadre du programme AMP for Email en vous enregistrant auprès du ou des fournisseurs de messagerie concernés pour que votre domaine d&#39;expéditeur soit ajouté à la liste autorisée. Voir [Diffuser des emails AMP en s’enregistrant auprès d’un fournisseur de messagerie](#delivering-amp-emails-by-registering).
+1. Une fois testé, vous pouvez envoyer une diffusion ou une campagne dans le cadre du programme AMP for Email en vous enregistrant auprès du ou des fournisseurs de messagerie concernés pour que votre domaine d’expéditeur soit ajouté à la liste autorisée. Voir [Diffuser des emails AMP en s’enregistrant auprès d’un fournisseur de messagerie](#delivering-amp-emails-by-registering).
 
 ### Tester la diffusion d’un email AMP pour des adresses sélectionnées {#testing-amp-delivery-for-selected-addresses}
 
@@ -174,7 +174,7 @@ Pour tester l’envoi d’un email AMP à une adresse Mail.ru, procédez comme i
 
 ### Diffuser des emails AMP en s’enregistrant auprès d’un fournisseur de messagerie {#delivering-amp-emails-by-registering}
 
-Vous pouvez tester la diffusion d&#39;emails dynamiques en vous enregistrant auprès des fournisseurs de messagerie pris en charge afin que votre domaine d&#39;expéditeur soit ajouté à la liste autorisée.
+Vous pouvez tester la diffusion d’emails dynamiques en vous enregistrant auprès des fournisseurs de messagerie pris en charge afin que votre domaine d’expéditeur soit ajouté à la liste autorisée.
 
 >[!NOTE]
 >

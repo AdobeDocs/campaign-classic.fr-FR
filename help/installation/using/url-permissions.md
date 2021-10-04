@@ -5,10 +5,10 @@ description: Découvrez comment configurer les autorisations d’URL
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-source-git-commit: dab18d24f5471034a2169dd674e6f7000de30cac
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Par défaut, les instances ne sont pas autorisées à se connecter à des URL ex
 >
 >En tant que client **hébergé**, si vous pouvez accéder au [panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr), vous pouvez utiliser l’interface en libre-service des autorisations d’URL. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
 >
->Les autres clients **hybrides/hébergés** doivent contacter l’équipe d’assistance d’Adobe pour ajouter une adresse IP à la liste autorisée.
+>D’autres clients **hybrides/hébergés** doivent contacter l’équipe d’assistance Adobe pour ajouter une adresse IP à la liste autorisée.
 
 Pour les déploiements **hybride** et **On-premise**, l’administrateur doit référencer une nouvelle **urlPermission** dans le fichier **serverConf.xml**.
 

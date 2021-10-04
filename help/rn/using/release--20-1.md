@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
-workflow-type: ht
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+workflow-type: tm+mt
 source-wordcount: '1559'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ _23 décembre 2020_
 >
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/using/ims-updates.md)
 >
-> * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+> * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 
 
 * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme dʼauthentification IMS.
@@ -119,7 +119,7 @@ _17 février 2020_
 
 * Amélioration de la gestion des quarantaines et du nettoyage des tables utilisées par la fonction de notification push (nms:address et nms:appSubscriptionRcp). Pour iOS (connecteur HTTP2 uniquement), les jetons désactivés sont maintenant gérés de la même manière que pour Android. Le drapeau disable est maintenant défini dans la table NmsAppSubscriptionRcp. [En savoir plus](../../production/using/database-cleanup-workflow.md#subscription-cleanup--nmac-)
 
-* Une nouvelle option a été ajoutée dans les activités de workflow **Code JavaScript** et **Code JavaScript avancé** pour définir un délai d’expiration. Cela permet d&#39;éviter une phase d’exécution JavaScript trop longue. Une fois le délai d’expiration écoulé, le workflow est arrêté. Le délai d’expiration par défaut est d’une heure. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md)
+* Une nouvelle option a été ajoutée dans les activités de workflow **Code JavaScript** et **Code JavaScript avancé** pour définir un délai d’expiration. Cela évite que la phase d’exécution JavaScript ne s’exécute trop longtemps. Une fois le délai d’expiration écoulé, le workflow est arrêté. Le délai d’expiration par défaut est d’une heure. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md)
 
 * L’analyse de diffusion est désormais arrêtée lorsqu’aucune affinité correspondante n’a été trouvée sur le serveur de mid-sourcing. Le message d’erreur associé est ensuite affiché.
 

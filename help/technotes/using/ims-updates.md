@@ -2,11 +2,9 @@
 product: campaign
 title: Mise à jour de votre environnement pour vous connecter à Adobe Campaign avec IMS
 description: Campaign - Mises à jour d'IMS
-hide: true
-hidefromtoc: true
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: ed9e76495efb0cb49e248a7d38417642c5094a11
-workflow-type: ht
+source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
+workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -78,7 +76,7 @@ Le message d&#39;avertissement suivant s&#39;affiche pour les utilisateurs s&#39
 
 ![](../../integrations/using/assets/do-not-localize/errorMsg.png)
 
-Si un tel avertissement s&#39;affiche, assurez-vous d&#39;installer les dernières mises à jour du système d&#39;exploitation que vous utilisez. [En savoir plus](https://helpx.adobe.com/fr/x-productkb/global/update-operating-system-and-browser.html)
+Si un tel avertissement s&#39;affiche, assurez-vous d&#39;installer les dernières mises à jour du système d&#39;exploitation que vous utilisez. [En savoir plus](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
 **Après le 30 juin 2021**, le message suivant s&#39;affichera et vous ne pourrez plus vous connecter à Adobe Campaign :
 

@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Prise en main de la sécurité et de la confidentialité
+title: Liste de contrôle relative à la sécurité et à la confidentialité
 description: En savoir plus sur les éléments clés à vérifier en matière de sécurité et de confidentialité.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '450'
-ht-degree: 100%
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 86%
 
 ---
 
-# Prise en main de la sécurité et de la confidentialité {#get-started-security-privacy}
+# Liste de contrôle relative à la sécurité et à la confidentialité{#get-started-security-privacy}
 
 ![](../../assets/v7-only.svg)
 
@@ -50,7 +50,7 @@ La gestion des accès joue un rôle important dans le renforcement de la sécuri
 
 Lorsque vous effectuez des tâches de développement dans Adobe Campaign (workflows, Javascript, JSSP, autres), suivez toujours ces instructions :
 
-* **Scripts** : évitez si possible d&#39;utiliser des instructions SQL. Utilisez des fonctions paramétrables plutôt que la concaténation de chaîne et évitez toute injection SQL en ajoutant les fonctions SQL à utiliser à la liste autorisée.
+* **Script** : pour éviter les instructions SQL, utilisez des fonctions paramétrées au lieu de la concaténation de chaîne, évitez l’injection SQL en ajoutant les fonctions SQL à utiliser à la liste autorisée.
 
 * **Sécurisation du modèle de données** : utilisez des droits nommés pour limiter les actions des opérateurs et ajoutez des filtres système (sysFilter).
 
@@ -67,6 +67,10 @@ La configuration du réseau est un élément très important à vérifier lorsqu
 En outre, vous devez impérativement suivre les instructions de sécurité de votre moteur de base de données.
 
 [En savoir plus](../../installation/using/network-database.md)
+
+>[!CAUTION]
+>
+>À compter du 14 juillet 2021, tous les systèmes clients qui ne prennent pas en charge le protocole TLS 1.2 perdront l’accès à tous les produits et services Adobe. Assurez-vous que tous les systèmes utilisateur et client sont conformes à TLS 1.2 avant cette date. [Apprenez-en davantage](https://helpx.adobe.com/in/x-productkb/multi/eol-tls-support.html)
 
 ## Configuration du serveur
 
