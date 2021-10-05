@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -23,7 +23,7 @@ Lors de la modification d&#39;un schéma et de l&#39;enregistrement des modifica
 1. Cliquez avec le bouton droit et sélectionnez **[!UICONTROL Actions > Régénérer les schémas sélectionnés...]** .
 1. Cliquez sur **[!UICONTROL OK]** pour valider et lancer le processus.
 
-Vous pouvez ensuite vérifier la structure du schéma généré dans les onglets Aperçu et Documentation. Voir à ce sujet la section [Principes](../../configuration/using/data-schemas.md#principles).
+Vous pouvez ensuite vérifier la structure du schéma généré dans les onglets Aperçu et Documentation . Voir à ce sujet la section [Principes](../../configuration/using/data-schemas.md#principles).
 
 >[!NOTE]
 >

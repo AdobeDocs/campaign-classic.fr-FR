@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: 9b914099f6755d6ae83f98697a3a38f8cfa625e1
+workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Choisir le modèle de rendu du formulaire {#selecting-the-form-rendering-template}
 
-La boîte de propriétés du formulaire permet de choisir le modèle utilisé pour la génération des pages. Pour y accéder, cliquez sur le bouton **[!UICONTROL Propriétés]** situé dans la barre d&#39;outils du détail du formulaire, et sélectionnez l&#39;onglet **[!UICONTROL Rendu]**. Plusieurs modèles (thèmes) sont proposés par défaut.
+Les paramètres du formulaire permettent de sélectionner le modèle utilisé pour générer les pages. Pour y accéder, cliquez sur le bouton **[!UICONTROL Propriétés]** dans la barre d&#39;outils des détails du formulaire, puis sélectionnez l&#39;onglet **[!UICONTROL Rendu]** . Plusieurs modèles (feuilles de style) sont disponibles par défaut.
 
 ![](assets/s_ncs_admin_survey_rendering_select.png)
 

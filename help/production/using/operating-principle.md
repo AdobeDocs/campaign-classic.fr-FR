@@ -6,8 +6,8 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
@@ -117,7 +117,7 @@ Usage: nlserver [-verbose:<verbose mode>] [-?|h|H] [-version] [-noconsole]
 -allinstances : updates the database over all configured instances
 -addinstance : adds a new instance.
 -setdblogin : sets the parameters for connection to the database of an instance. The DBMS can be 'oracle', 'postgresql', 'mssql' or 'odbc' (default=postgresql)
--monoinstance : initialises for a single instance ().
+-monoinstance : initializes for a single instance ().
 -addtrackinginstance : adds a new tracking instance.
 -trackingpassword : changes the tracking password of an instance
 -setproxy : sets the parameters for connection to a proxy server. The protocol can be 'http', 'https' or 'all'.

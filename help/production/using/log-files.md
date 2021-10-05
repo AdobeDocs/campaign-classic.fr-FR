@@ -6,10 +6,10 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ Les fichiers de log mono-instance sont listés dans le tableau suivant :
 | wfserver.log | Logs du module serveur de workflow |
 | runwf.log | Logs de l&#39;exécution d&#39;un workflow |
 | inMail.log | Logs du module des mails rebond |
-| logins.log | Logs de toutes les tentatives de connexion à Adobe Campaign (ayant réussies ou non) |
+| logins.log | Consigne toutes les tentatives de connexion à Adobe Campaign (succès ou non) |
 
 >[!IMPORTANT]
 >

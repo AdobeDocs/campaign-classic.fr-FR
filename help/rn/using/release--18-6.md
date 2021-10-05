@@ -9,10 +9,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: c281d437907efb4d514bec7cacc698c383f3fe53
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 * Correction d&#39;une erreur lors de l&#39;utilisation de champs calculés dans une activité de workflow **[!UICONTROL Réponses au questionnaire]**. (NEO-11382)
 * Mise à jour de Tomcat pour éviter l&#39;exploitation de vulnérabilités. (NEO-11503)
 * Correction d&#39;une erreur liée au codage LATIN1 lors de l&#39;utilisation d&#39;une connexion FDA à une base de données PostgreSQL.(NEO-11299)
-* Correction d&#39;une erreur qui se produisait lors de l&#39;utilisation de l&#39;option de diffusion **[!UICONTROL Préparer les données de personnalisation avec un workflow.]** (NEO-11047)
+* Correction d’un problème qui se produisait lors de l’utilisation de l’option de diffusion **[!UICONTROL Préparer les données de personnalisation avec un workflow]**. (NEO-11047)
 * Correction d&#39;une erreur de postupgrade qui empêchait l&#39;envoi de SMS lors de l&#39;utilisation d&#39;un connecteur étendu.
 * Amélioration de l&#39;import/export de package (ajout de log et de région dans l&#39;interface).
 * Correction d&#39;un problème qui affichait des erreurs inutiles dans le log de postupgrade lorsqu&#39;une activité de workflow **[!UICONTROL Réponses au questionnaire]** n&#39;était pas entièrement configurée.

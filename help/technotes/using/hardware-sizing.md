@@ -2,24 +2,24 @@
 product: campaign
 title: Recommandations de dimensionnement du matériel pour Campaign Classic v7
 description: Recommandations de dimensionnement du matériel pour Campaign Classic v7
-source-git-commit: 3912874210ab16a132e51d9bb71508c8d244fe22
+source-git-commit: 0deb18bb0376fc5e94d063145280426ff54db786
 workflow-type: tm+mt
-source-wordcount: '2513'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
 
-# Recommandations de dimensionnement du matériel pour Campaign Classic v7 {#hardware-sizing-reco}
+# Recommandations relatives au dimensionnement du matériel{#hardware-sizing-reco}
 
 ![](../../assets/v7-only.svg)
 
-## Vue d’ensemble
+## Vue d&#39;ensemble
 
 >[!CAUTION]
 >
->Ce guide est fourni à titre d’exemple général uniquement. Vous devez demander à votre responsable du succès client Adobe Campaign de mesurer la taille exacte de votre déploiement avant de démarrer votre projet Campaign. **N’acquérez** ni ne déployez d’infrastructure ou de matériel tant que ce n’est pas fait.
+>Cet article est fourni comme exemple général uniquement. Vous devez demander à votre responsable du succès client Adobe Campaign de mesurer la taille exacte de votre déploiement avant de démarrer votre projet Campaign. **N’acquérez** ni ne déployez d’infrastructure ou de matériel tant que ce n’est pas fait.
 
-Ce document fournit des instructions générales pour le déploiement de Adobe Campaign Classic v7 dans votre centre de données local ou environnement cloud virtualisé. Ce type de déploiement, appelé **hybride** ou **mid-sourcing**, place l’instance marketing et la base de données marketing Campaign sous votre contrôle opérationnel, tout en utilisant les services de messagerie Cloud Adobe pour envoyer des emails, des SMS ou des messages SMPP, et collecter les données d’ouverture, de rebond et de suivi des clics des emails.
+Ce document fournit des recommandations générales pour le déploiement de Adobe Campaign Classic v7 dans votre centre de données local ou environnement cloud virtualisé. Ce type de déploiement, appelé **hybride** ou **mid-sourcing**, place l’instance marketing et la base de données marketing Campaign sous votre contrôle opérationnel, tout en utilisant les services de messagerie Cloud Adobe pour envoyer des emails, des SMS ou des messages SMPP, et collecter les données d’ouverture, de rebond et de suivi des clics des emails.
 
 L’instance marketing est la partie de l’architecture Adobe Campaign qui génère toute l’activité marketing et stocke toutes les données de destinataires et données d’analyse renvoyées par les campagnes. L’instance marketing est un ensemble de serveurs on-premise exécutant les services Adobe Campaign et une base de données relationnelle.
 
@@ -258,5 +258,6 @@ Adobe recommande de tester les performances pour tout déploiement virtualisé d
 ## Rubriques connexes :
 
 * [Processus de surveillance des campagnes](../../production/using/monitoring-processes.md)
+* [Architecture générale de Campaign](../../installation/using/general-architecture.md)
 * [Performances et problèmes de débit](../../production/using/performance-and-throughput-issues.md)
 * [Liste de contrôle relative à la sécurité et à la confidentialité](../../installation/using/get-started-security-privacy.md)

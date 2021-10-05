@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '2369'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 **Améliorations**
 
-* Correction d’un problème avec le processus de calcul des indicateurs de tracking pour les messages transactionnels. (NEO-12529, NEO-12581)
+* Correction d&#39;un problème avec le processus de calcul des indicateurs de tracking pour les messages transactionnels. (NEO-12529, NEO-12581)
 * Correction d&#39;un problème avec l&#39;API HTTPRequest qui n&#39;attendait pas la fin de l&#39;ensemble des callbacks. (NEO-12628)
 * Des index ont été ajoutés aux tables temporaires de coupons pour optimiser l&#39;envoi des diffusions. (NEO-12437)
 * Correction d&#39;un problème lors de l&#39;analyse d&#39;un message qui ciblait des destinataires de domaines japonais (.JP). (NEO-12246)
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Améliorations**
 
@@ -91,7 +91,7 @@ ht-degree: 100%
 * Correction d&#39;un problème d&#39;épuisement des ID lors de l&#39;utilisation d&#39;adresses de contrôle dans une diffusion. (NEO-11842)
 * Correction d&#39;un problème de blocage du client qui pouvait survenir lors de l&#39;utilisation de workflows complexes. (NEO-11847)
 * Correction d&#39;un problème d&#39;affichage lors de l&#39;utilisation d&#39;une distribution de valeurs avec un lien 1:N. (NEO-11820)
-* Correction d&#39;une erreur Oracle dans la carte thermique des workflows.
+* Correction d’une erreur d’Oracle dans la carte thermique des workflows.
 * Correction d&#39;un problème de droit lors de l&#39;ajout d&#39;une proposition d&#39;offre dans une activité d&#39;enrichissement.
 * Correction d&#39;un problème de connexion à la gestion des données SQL.
 * Correction d&#39;un problème avec la génération de noms de tables de workflows temporaires en cas d&#39;ID négatifs.
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Nouveautés**
 

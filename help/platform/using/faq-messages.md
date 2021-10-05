@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
-workflow-type: ht
+source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
+workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -96,7 +96,7 @@ Pour chaque URL du message, vous pouvez choisir d&#39;activer ou non le tracking
 
 ### Où se trouvent les logs de diffusion et de tracking ? {#where-can-i-access-delivery-and-tracking-logs-}
 
-Découvrez comment effectuer un tracking de vos diffusions et comprendre le comportement des destinataires dans [cette page](../../delivery/using/delivery-dashboard.md).
+Découvrez comment tracker vos diffusions et comprendre le comportement des destinataires [à partir de cette page](../../delivery/using/delivery-dashboard.md).
 
 ### Où obtenir des rapports de diffusion ? {#where-can-i-get-delivery-reports-}
 

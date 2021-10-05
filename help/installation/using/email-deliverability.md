@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
 workflow-type: tm+mt
 source-wordcount: '3090'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -119,7 +119,7 @@ Vous devez d&#39;abord définir la base de données Adobe Campaign qui héberger
 
 ### Configuration de démarrage {#start-configuration}
 
-Par défaut, le module **stat** est démarré pour chacune des instances. Lorsque les instances sont mutualisées sur une même machine, ou lorsque les instances partagent les mêmes adresses IP, un seul serveur de statistiques doit être utilisé : les autres doivent être désactivés.
+Par défaut, le module **stat** est démarré pour chaque instance. Lorsque les instances sont regroupées sur le même ordinateur ou lorsque les instances partagent la même adresse IP, un seul serveur de statistiques est utilisé : les autres doivent être désactivés.
 
 ### Définition du port du serveur {#definition-of-the-server-port}
 

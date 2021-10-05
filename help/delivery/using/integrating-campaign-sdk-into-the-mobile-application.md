@@ -7,10 +7,10 @@ content-type: reference
 topic-tags: sending-push-notifications
 version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -340,7 +340,7 @@ Pour suivre votre notification silencieuse, suivez l&#39;exemple ci-après.
 >
 >Ceci s&#39;applique exclusivement à iOS.
 
-Sous iOS, le protocole délégué vous permet d&#39;obtenir le résultat de l&#39;appel de **registerDevice** et peut être utilisé pour déterminer si une erreur s&#39;est produite pendant l&#39;enregistrement.
+Sous iOS, le protocole délégué vous permet d’obtenir le résultat de l’appel **registerDevice** et peut être utilisé pour savoir si une erreur s’est produite lors de l’enregistrement.
 
 Le prototype de **registerDeviceStatus** est le suivant :
 
@@ -348,7 +348,7 @@ Le prototype de **registerDeviceStatus** est le suivant :
 - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
 ```
 
-**Status** permet de déterminer si un enregistrement a été effectué avec succès ou si une erreur s&#39;est produite.
+**** Status permet de savoir si un enregistrement a réussi ou si une erreur s’est produite.
 
 **ErrorReason** fournit des informations supplémentaires sur les erreurs qui se sont produites. Pour en savoir plus sur les erreurs disponibles et leur description, reportez-vous au tableau ci-dessous.
 

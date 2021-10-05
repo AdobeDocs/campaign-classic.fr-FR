@@ -6,10 +6,10 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 L’onglet **[!UICONTROL Surveillance]**, accessible à partir de la page d’accueil de Campaign Classic, est le principal point d’entrée pour vous aider à surveiller votre instance.
 
-Il fournit un tableau de bord de ce qui se produit sur votre instance : son état (version de build, packages installés, etc.), les indicateurs système, les logs, les workflows en cours d’exécution, l’état des dernières diffusions envoyées, etc.
+Il fournit un tableau de bord de ce qui se passe sur votre instance : son état (version de build, packages installés, etc.), les indicateurs système, les logs, les workflows en cours d’exécution, l’état des dernières diffusions envoyées, etc.
 
 Des informations détaillées sont disponibles [ici](../../production/using/monitoring-processes.md).
 
@@ -31,7 +31,7 @@ Des informations détaillées sont disponibles [ici](../../production/using/moni
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Surveiller votre instance</a></p></td>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">Surveiller les workflows</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#monitoring-workflows">Surveiller les workflows</a></p></td>
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Surveiller les diffusions</a></p></td>
 <td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Surveiller la base de données</a></p></td></tr>
 </table>

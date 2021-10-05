@@ -6,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Product Name;Product price;Store
 Computer;2000;London 3
 Tablet;600;Cambridge
 Computer;2000;London 5
-Comptuer;2000;London 8
+Computer;2000;London 8
 Tablet;600;Cambridge
 Phone;500;London 5
 ```

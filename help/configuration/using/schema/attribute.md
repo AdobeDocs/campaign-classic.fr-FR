@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '1553'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
 * **sqlname (string)**: nom du champ lors de la création de la table. Si &quot;@sqlname&quot; n&#39;est pas précisé la valeur de l&#39;attribut &quot;@name&quot; est pris par défaut. Lors de l&#39;écriture du schéma en base, des préfixes sont automatiquement rajoutés en fonction du type du champ.
 * **template (string)** : cet attribut définit une référence à un élément `<attribute>` partagé par plusieurs schémas. La définition est automatiquement copiée dans le schéma actuel.
 * **translatedDefault (string)**: si un attribut &quot;@default&quot; est présent, l&#39;attribut &quot;@translatedDefault&quot; permet de redéfinir une expression, correspondante de l&#39;expression définie dans &quot;@default&quot;, qui sera collectée par l&#39;outil de traduction (usage interne).
-* **translatedExpr (string)**: si un attribut &quot;@expr&quot; est présent, l&#39;attribut &quot;@translatedExpr&quot; permet de redéfinir une expression, correspondante de l&#39;expression définie dans &quot;@expr&quot;, qui sera collectée par l&#39;outil de traduction (usage interne).
+* **translatedExpr (string)**: si un attribut &quot;@expr&quot; est présent, l&#39;attribut &quot;@translatedExpr&quot; permet de redéfinir une expression correspondant à celle définie dans @expr, qui sera collectée par l&#39;outil de traduction (usage interne).
 * **type (MNTOKEN)**: type du champ.
 
    Les types de champs sont génériques. C&#39;est en fonction du type de base de donnée installé qu&#39;Adobe Campaign transforme le type défini en valeur propre à la base de données installées lors de la mise à jour de la structure.

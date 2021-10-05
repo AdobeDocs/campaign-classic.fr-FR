@@ -6,10 +6,10 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '3779'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -105,7 +105,7 @@ La liste des indicateurs système permet d&#39;afficher des informations concern
 
 * **[!UICONTROL Pending events queued]** : indicateur propre à **Message Center**. Reportez-vous à [cette section](../../message-center/using/additional-configurations.md#monitoring-thresholds) pour plus d&#39;informations.
 
-* **[!UICONTROL Load average (1/5/15 minutes)]** : informations relatives à la charge, soit le taux d&#39;utilisation du processeur par les processus de la machine, au cours de la dernière minute ou des cinq dernières minutes ou du dernier quart d&#39;heure.
+* **[!UICONTROL Chargement moyen (1/5/15 minutes)]**  : les informations relatives à la charge, c&#39;est-à-dire le taux d&#39;utilisation du processeur par les processus exécutés sur la machine au cours de la dernière minute, des cinq ou quinze dernières minutes ;
 
    **[!UICONTROL Current value]** : charge actuelle de la machine.
 
@@ -257,6 +257,7 @@ Ils sont regroupés dans **Supervision** > &#39;Monitoring SMTP&#39;.
 >
 >* Les informations liées au Monitoring SMTP ne sont disponibles que si le canal email a été activé.
 >* Le rapport **[!UICONTROL Statistiques SMTP d&#39;envoi]** n&#39;est proposé que si le serveur de statistiques est démarré sur l&#39;instance.
+
 >
 
 
@@ -269,7 +270,7 @@ Le rapport **[!UICONTROL Statistiques SMTP d&#39;envoi]** permet de contrôler l
 La liste des indicateurs de ce rapport est proposée sous le graphique.
 
 1. Nombre total de messages envoyés.
-1. &#x200B;
+1. 
    * Ligne bleue : messages prêts à l&#39;envoi arrivant dans le Shaper, i.e. dernière étape avant l&#39;envoi SMTP (correspond à ce qui entre).
 
    * Ligne verte : messages envoyés avec succès (correspond à ce qui sort).
@@ -340,11 +341,11 @@ Cliquez sur un identifiant PublicId pour en visualiser le détail.
 
 Le workflow technique **[!UICONTROL Facturation]** envoie par email le rapport d&#39;activité du système à l&#39;opérateur &#39;billing&#39;. Il est déclenché par défaut le 25 de chaque mois sur l&#39;instance Marketing.
 
-Ce workflow technique se trouve dans un sous-dossier du nœud suivant : **Administration** > **Production** > **Workflows techniques**.
+Le workflow technique se trouve dans un sous-dossier du noeud suivant : **Administration** > **Production** > **Workflows techniques**.
 
 ![](assets/billing.png)
 
-Une fois le workflow démarré tous les 25 du mois, votre opérateur billing reçoit le rapport suivant dans sa boîte.
+Une fois le workflow démarré tous les 25 du mois, votre opérateur billing reçoit le rapport suivant dans sa boîte de réception.
 
 ![](assets/billing_2.png)
 
@@ -604,7 +605,7 @@ Cet élément paramètre la surveillance sur l&#39;host d&#39;un serveur donné,
 
 * **tcp** : vérifie si le serveur est en marche ou en panne. Vous devez saisir un numéro de port.
 * **http** : vérifie l&#39;existence du serveur web (bon fonctionnement du serveur applicatif).
-* **ncs**: vérifie les processus sur l’instance saisie dans l’attribut &quot;instance&quot; (erreurs de workflow, utilisation de la mémoire, etc.). L’attribut **includead** (obligatoire) vous donne la possibilité d’afficher les processus morts (valeurs &quot;true&quot; ou &quot;false&quot;).
+* **ncs**: vérifie les processus sur l’instance saisie dans l’attribut &quot;instance&quot; (erreurs de workflow, utilisation de la mémoire, etc.). L’attribut **included** (obligatoire) permet d’afficher les processus morts (valeurs &quot;true&quot; ou &quot;false&quot;).
 * **redir** : vérifie le suivi.
 
 Dans la plupart des cas, on peut ne conserver que les sous-éléments **ncs** et **redir**.

@@ -5,10 +5,10 @@ description: Découvrez comment configurer l’intégration Campaign-AEM
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ Si votre instance Campaign est hébergée par Adobe, contactez l’équipe d&#39
 
 Le package **[!UICONTROL AEM Integration]** a créé le compte externe pour Adobe Experience Cloud. Vous devez maintenant le configurer pour qu&#39;il se connecte à votre instance Adobe Experience Manager.
 
-Pour configurer le compte externe AEM, procédez comme suit :
+Pour configurer le compte externe AEM, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Explorateur]**.
 

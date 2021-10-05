@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -84,12 +84,12 @@ Le connecteur prend également en charge les options Hive suivantes :
 
 ## Configuration de Hadoop 2.1 {#configure-access-hadoop-2}
 
-Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-dessous pour [Windows](#for-windows) ou [Linux](#for-linux).
+Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-dessous pour [Windows](#for-windows) ou [Linux](#for-linux).
 
 ### Hadoop 2.1 pour Windows {#for-windows}
 
 1. Installez les pilotes ODBC et [Azure HD Insight](https://www.microsoft.com/en-us/download/details.aspx?id=40886) pour Windows.
-1. Créez le nom de la source de données en exécutant l’outil ODBC DataSource Administrator. Il vous est fourni un exemple de nom de source de données système pour Hive que vous pouvez modifier.
+1. Créez le nom de la source de données en exécutant l’outil ODBC DataSource Administrator. Un exemple de DSN système pour Hive vous permet de le modifier.
 
    ```
    Description: vorac (or any name you like)

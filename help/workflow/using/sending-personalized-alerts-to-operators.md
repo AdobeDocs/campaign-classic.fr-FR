@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Assurez-vous que le code JavaScript correspond à vos informations de workflow 
 
 Pour récupérer ces informations, procédez comme suit :
 
-1. Cliquez avec le bouton droit sur la transition sortante à partir de l&#39;activité **[!UICONTROL Requête]**, puis sélectionnez **[!UICONTROL Afficher la cible]**.
+1. Cliquez avec le bouton droit sur la transition sortante à partir de l&#39;activité **[!UICONTROL Requête]** , puis sélectionnez **[!UICONTROL Afficher la cible]**.
 
    ![](assets/uc_operator_4.png)
 

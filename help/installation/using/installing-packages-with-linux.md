@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: c281d437907efb4d514bec7cacc698c383f3fe53
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ Pour installer Adobe Campaign 64 bits sur un système d&#39;exploitation Debian 
    dpkg -i nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
 
-   S&#39;il manque des dépendances, exécutez la commande suivante :
+   S’il manque des dépendances, exécutez la commande suivante :
 
    ```
    apt-get install -f
@@ -140,7 +140,7 @@ chmod +x /usr/local/neolane/nl6/customer.sh
 
 ### Encodage du serveur {#server-encoding}
 
-Par défaut, le serveur est lancé dans un environnement iso8859-15. Il est toutefois possible de lancer le serveur dans un environnement UTF-8.
+Par défaut, le serveur est démarré dans un environnement iso8859-15. Néanmoins, le serveur peut être démarré dans un environnement UTF-8.
 
 >[!CAUTION]
 >

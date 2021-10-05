@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 089ade04a7324f8052738f18b34c09b429275c00
+source-git-commit: 23c5892189c59008f82ec453c97d24efe82fd2ae
 workflow-type: tm+mt
-source-wordcount: '2567'
-ht-degree: 98%
+source-wordcount: '2566'
+ht-degree: 97%
 
 ---
 
@@ -213,7 +213,6 @@ ht-degree: 98%
       + [Résolution des problèmes liés aux diffusions](delivery/using/delivery-troubleshooting.md)
       + [Statuts de diffusion](delivery/using/delivery-statuses.md)
       + [Présentation des diffusions en échec](delivery/using/understanding-delivery-failures.md)
-      + [Mettre à jour la qualification des rebonds après une panne d’un FAI](delivery/using/update-bounce-qualification.md)
       + [Présentation de la gestion des quarantaines](delivery/using/understanding-quarantine-management.md)
    + Suivi des messages {#tracking-messages}
       + [À propos du tracking des messages](delivery/using/about-message-tracking.md)
@@ -852,6 +851,7 @@ ht-degree: 98%
    + Emails et notifications push{#technotes-email}
       + [Protection de la confidentialité des emails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
       + [FAQ sur la protection de la confidentialité Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+      + [Mise à jour des hard bounces incorrects](delivery/using/update-bounce-qualification.md)
       + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
       + [Mise à jour des URL trackées](technotes/using/tracked-urls.md)
    + Migration vers Adobe Managed Services{#dc-migration}

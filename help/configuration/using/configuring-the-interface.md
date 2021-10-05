@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -39,7 +39,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
 
 1. Ouvrez le nœud **Administration > Paramétrage > Formulaires de saisie** dans l&#39;explorateur.
 1. Créez un nouveau fichier **form** de type **xtk:form**.
-1. Décrivez tous les contrôles et champs dont vous avez besoin en fonction de votre modèle de table.
+1. Décrivez tous les champs de monitoring et champs nécessaires en fonction de votre modèle de table.
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
 
 1. Ouvrez le noeud **[!UICONTROL Administration > Paramétrage > Arborescences de navigation]** dans l&#39;explorateur.
 1. Créez un nouveau document **navtree** de type **xtk:navtree**
-1. Décrivez tous les contrôles et champs dont vous avez besoin en fonction de votre modèle de table.
+1. Décrivez tous les champs de monitoring et champs nécessaires en fonction de votre modèle de table.
 
    >[!NOTE]
    >

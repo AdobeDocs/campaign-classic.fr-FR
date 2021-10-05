@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 93%
+ht-degree: 88%
 
 ---
 
@@ -62,7 +62,7 @@ Il existe trois modes de protection des connexions :
 
 Les nouveaux clients utiliseront le mode Blocking. S’ils souhaitent autoriser une nouvelle URL, ils doivent contacter leur administrateur pour l’ajouter à la liste autorisée.
 
-Les clients existants provenant d’une migration peuvent utiliser le mode Warning pour un temps. Ils doivent entre-temps analyser le trafic sortant pour autoriser les URL.
+Les clients existants provenant d’une migration peuvent utiliser le mode d’avertissement pendant un certain temps. Pendant ce temps, ils doivent analyser le trafic sortant avant d’autoriser les URL.
 
 ## Restriction des commandes (côté serveur)
 

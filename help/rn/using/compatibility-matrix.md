@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 987434c2b6b92fbb6f24924f92795cb282b61cd4
-workflow-type: ht
-source-wordcount: '545'
-ht-degree: 100%
+source-git-commit: 134f248fbcd456573365d5b32831b75dac4b73de
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 86%
 
 ---
 
@@ -169,6 +169,8 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 ## Connecteurs CRM{#CRMconnectors}
 
+Les systèmes de gestion de la relation client (CRM) compatibles avec Adobe Campaign sont répertoriés ci-dessous. [En savoir ](../../platform/using/crm-connectors.md) plus sur les connecteurs CRM Campaign.
+
 <table>
 <tbody>
 <tr>
@@ -187,6 +189,8 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 </table>
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
+
+Les bases de données externes compatibles avec le [module Federated Data Access](../../installation/using/about-fda.md) d’Adobe Campaign sont répertoriées ci-dessous.
 
 <table>
 <tbody>
@@ -286,7 +290,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 ## Console cliente {#ClientConsoleoperatingsystems}
 
-:warning: Les systèmes d&#39;exploitation et le navigateur ci-après sont nécessaires pour utiliser la console cliente Campaign.
+Les systèmes d’exploitation et navigateurs suivants sont **requis** pour utiliser la [console cliente Campaign](../../installation/using/installing-the-client-console.md).
 
 ### Systèmes d’exploitation
 
@@ -311,6 +315,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 ### Navigateur
 
+[]
 <table>
 <tbody>
 <tr>
@@ -326,6 +331,8 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 
 ## SDK Mobile{#MobileSDK}
+
+Vous pouvez utiliser Campaign pour [envoyer des notifications push](../../delivery/using/about-mobile-app-channel.md) sur les systèmes d’exploitation répertoriés ci-dessous, à l’aide du [SDK mobile](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) associé.
 
 <table>
 <tbody>
@@ -348,7 +355,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 ## Navigateurs{#Browsers}
 
-Les navigateurs ci-après sont compatibles avec Campaign pour un accès à internet.
+Les navigateurs suivants sont compatibles avec Campaign pour [Accès Web](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
 <table>
 <tbody>
@@ -399,6 +406,7 @@ Les navigateurs ci-après sont compatibles avec Campaign pour un accès à inter
 ## Autres informations similaires{#Morelikethis}
 
 * [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md)
-* [Guide d&#39;installation](../../installation/using/general-architecture.md)
+* [Architecture générale de Campaign](../../installation/using/general-architecture.md)
+* [Recommandations relatives au dimensionnement du matériel](../../technotes/using/hardware-sizing.md)
 * [Fonctionnalités et systèmes obsolètes](../../rn/using/deprecated-features.md)
 * [Procédure d&#39;upgrade de build](../../production/using/build-upgrade.md)

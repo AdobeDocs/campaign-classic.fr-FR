@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Ces filtres sont renseignés au niveau de l’**élément** principal des schém
    </sysFilter>
    ```
 
-* Restreindre les permissions de LECTURE et d’ÉCRITURE :
+* Restreindre les autorisations de LECTURE et d’ÉCRITURE :
 
    Ici, le filtre sert à interdire à la fois les permissions de LECTURE et d’ÉCRITURE du schéma à tous les opérateurs. Seul le compte **interne**, représenté par l’expression &quot;$(loginId)!=0&quot;, possède ces permissions.
 

@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '132'
-ht-degree: 100%
+source-git-commit: d2d0ff575edbee18febb5ec895fcec1e0ae34de7
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 45%
 
 ---
 
@@ -23,7 +23,13 @@ Pour créer un schéma sur une base de données externe :
 
    ![](assets/wf_new_schema_fda.png)
 
-1. Saisissez le nom du schéma et sa description, puis sélectionnez le compte externe permettant la connexion à la base de données. Vous avez ainsi accès à la liste des tables disponibles dans la base externe. Sélectionnez la table contenant les données à collecter.
+1. Saisissez un **[!UICONTROL Espace de noms]** et **[!UICONTROL Nom]** pour le schéma et sélectionnez le **[!UICONTROL Compte externe]** qui permettra la connexion à la base de données. Cela permet d&#39;accéder à la liste des tables disponibles dans la base externe.
+
+   ![](assets/wf_new_schema_select_table_fda.png)
+
+1. Dans le champ **[!UICONTROL Nom de la table]**, choisissez la table contenant les données à collecter.
+
+   Avec Snowflake, vous pouvez sélectionner ici vos vues si l’utilisateur de la base de données a reçu les privilèges appropriés. Notez que lorsque vous utilisez des vues, Adobe Campaign ne pourra pas générer automatiquement le schéma XML, vous devrez le créer vous-même. Pour plus d’informations sur les vues, consultez la [documentation du Snowflake](https://docs.snowflake.com/en/user-guide/views-introduction.html).
 
    ![](assets/wf_new_schema_select_table_fda.png)
 

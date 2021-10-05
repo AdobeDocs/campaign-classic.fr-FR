@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-source-git-commit: 86eb9814fae42992b5ca0ce233f88ad90086007d
+source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
 workflow-type: tm+mt
 source-wordcount: '3012'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ _22 décembre 2020_
 >
 > * Cette version s&#39;accompagne d&#39;un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter après le **30 juin 2021**.  [En savoir plus](../../technotes/using/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d’authentification OAuth hérité avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) le **septembre 2021**. Les environnements hébergés bénéficient d’une extension jusqu’au **23 février 2022**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’en février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
+> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d’authentification OAuth hérité avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) le **septembre 2021**. Les environnements hébergés bénéficient d’une extension jusqu’au **23 février 2022**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’en février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
 
 
 **Améliorations**
@@ -91,7 +91,7 @@ _11 septembre 2020_
 
 * Correction d&#39;une régression qui entraînait le blocage de la préparation des diffusions en raison d&#39;une seule fonction erronée sur le fragment de diffusion, et conduisait à une surcharge de la mémoire. (NEO-27346)
 * Correction d&#39;un problème de postupgrade qui désactivait Apache et le serveur Web avant la republication de l&#39;application web. (NEO-27155)
-* Correction d&#39;une régression relative à la gestion des modèles HTML, en raison duquel les URL de tracking devenaient visibles du fait d&#39;une mauvaise interprétation des onglets. (NEO-25909)
+* Correction d&#39;une régression sur la gestion des modèles HTML qui entraînait la visibilité des URL de tracking en raison d&#39;une mauvaise interprétation des onglets. (NEO-25909)
 * Correction d&#39;un problème lié au workflow de nettoyage de la base de données qui pouvait échouer en raison d&#39;une source de données non gérée. (NEO-23160, NEO-23364)
 * Le workflow de nettoyage purge désormais les listes expirées par lots de 100 plutôt qu&#39;une par une.
 * Correction d&#39;une régression qui empêchait de modifier le nom interne d&#39;un compte externe. (NEO-27323)
@@ -322,7 +322,7 @@ Un exemple pour Linux est disponible dans cette [page](../../configuration/using
 * Correction d&#39;une régression qui entraînait le blocage du workflow de nettoyage.
 * Correction d&#39;un problème qui pouvait se produire lors de la publication d&#39;un modèle sur une instance d&#39;exécution.
 * Correction d&#39;un problème qui pouvait empêcher l&#39;exécution du workflow technique de collectPrivacyRequests. (NEO-20513, NEO-25169)
-* Correction de problèmes qui se produisaient lors d&#39;une tentative de connexion à Audience Manager après la mise à niveau vers le build 9080. (NEO-20511, NEO-25167)
+* Correction de problèmes qui se produisaient lors de la tentative de connexion à Audience Manager après la mise à niveau vers le build 9080. (NEO-20511, NEO-25167)
 * Correction de problèmes qui se produisaient lors de l&#39;export de rapports au format PDF ou XLS. (NEO-20982, NEO-23493, NEO-23348)
 * Correction d&#39;un problème en raison duquel une diffusion pouvait s&#39;afficher deux fois dans la liste de diffusion après son envoi.
 * Correction d&#39;un problème de préparation de diffusion qui pouvait se produire lorsque la configuration de routage était définie pour envoyer la diffusion par mid-sourcing.

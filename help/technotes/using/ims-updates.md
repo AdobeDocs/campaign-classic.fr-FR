@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Mise à jour de votre environnement pour vous connecter à Adobe Campaign avec IMS
+title: 'Note technique : mettez à jour votre environnement pour vous connecter à Adobe Campaign avec IMS'
 description: Campaign - Mises à jour d'IMS
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
+source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '591'
+ht-degree: 84%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Le 30 juin 2021, des modifications seront apportées aux fonctionnalités de connexion d&#39;[Adobe Identity Management System](https://helpx.adobe.com/fr/enterprise/using/identity.html) (IMS) qui pourraient avoir une incidence sur votre capacité à continuer à utiliser Adobe Campaign. Découvrez comment vous assurer que vous continuez à utiliser Adobe Campaign Classic v7 sans interruption.
+Le 30 juin 2021, des modifications ont été apportées aux fonctionnalités de connexion [Adobe Identity Management System](https://helpx.adobe.com/fr/enterprise/using/identity.html) (IMS) qui pourraient avoir une incidence sur votre capacité à continuer à utiliser Adobe Campaign. Découvrez comment vous assurer que vous continuez à utiliser Adobe Campaign Classic v7 sans interruption.
 
 ## Qu&#39;est-ce qui a changé ?
 
-Adobe Identity Management Service (IMS) ne prendra plus en charge les anciennes versions d&#39;Internet Explorer à compter du **30 juin 2021**. [En savoir plus](https://helpx.adobe.com/fr/x-productkb/global/update-operating-system-and-browser.html).
+Adobe Identity Management Service (IMS) a cessé de prendre en charge les anciennes versions d’Internet Explorer le **30 juin 2021**. [En savoir plus](https://helpx.adobe.com/fr/x-productkb/global/update-operating-system-and-browser.html).
 
 Adobe souhaite conserver la fonctionnalité IMS pour tous les clients après le 30 juin 2021. IMS fait partie de l&#39;infrastructure de sécurité qui permet aux utilisateurs de se connecter à la console cliente, et donc à Adobe Campaign.
 
@@ -28,7 +28,7 @@ Pour préserver cette fonctionnalité, les clients doivent mettre à jour la con
 
 Si vous vous connectez à Campaign [via un Adobe ID](../../integrations/using/about-adobe-id.md), par le biais d&#39;Adobe Identity Management Service (IMS), et que vous exécutez une version de Campaign plus ancienne que celles répertoriées ci-dessous, ce changement vous concerne.
 
-Si vous avez déjà effectué la mise à niveau, mais que vous utilisez une ancienne version de Microsoft Internet Explorer, vous devez effectuer la mise à niveau vers Internet Explorer 11.
+Si vous avez déjà effectué la mise à niveau, mais que vous utilisez une ancienne version de Microsoft Internet Explorer, vous devez effectuer la mise à niveau vers Internet Explorer 11.
 
 ## Comment effectuer la mise à jour ?
 
@@ -78,7 +78,7 @@ Le message d&#39;avertissement suivant s&#39;affiche pour les utilisateurs s&#39
 
 Si un tel avertissement s&#39;affiche, assurez-vous d&#39;installer les dernières mises à jour du système d&#39;exploitation que vous utilisez. [En savoir plus](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
-**Après le 30 juin 2021**, le message suivant s&#39;affichera et vous ne pourrez plus vous connecter à Adobe Campaign :
+Si vous n’avez pas mis à jour votre version d’Internet Explorer, le message suivant s’affiche et vous ne pouvez plus vous connecter à Adobe Campaign :
 
 ![](../../integrations/using/assets/do-not-localize/errorUpdateReq.png)
 

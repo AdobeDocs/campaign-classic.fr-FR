@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: dccf72b200cad9ba160a496cdd13ba39c5599008
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '1313'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -140,7 +140,7 @@ Une fois que l&#39;email Cci est configuré, veillez à sélectionner l&#39;opti
 ## Bonnes pratiques en matière d&#39;Email Cci {#best-practices}
 
 * **Boîte aux lettres d&#39;adresses en Cci** : vérifiez qu&#39;elle dispose de suffisamment de capacité pour archiver tous les emails envoyés par le MTA.
-* **Mutualisation de MTA** : la fonctionnalité d&#39;archivage Cci fonctionne au niveau MTA. Elle vous permet de dupliquer tous les emails envoyés par le MTA. Etant donné que le MTA peut être mutualisé dans plusieurs instances (dev, test ou prod, par exemple) voire même sur plusieurs clients (dans un environnement de mid-sourcing), le paramétrage de cette fonctionnalité influe sur la sécurité :
+* **MTA pool** : la fonctionnalité d&#39;archivage en Cci fonctionne au niveau du MTA. Il permet de dupliquer chaque email envoyé par le MTA. Comme le MTA peut être regroupé sur plusieurs instances (dev, test ou prod, par exemple) ou même sur plusieurs clients (dans un environnement de mid-sourcing), la configuration de cette fonctionnalité a un impact sur la sécurité :
 
    * Si vous partagez un MTA avec plusieurs clients et que l&#39;un d&#39;eux active cette option, il aura accès à la totalité des emails provenant des autres clients utilisant le même MTA. Afin d&#39;éviter une telle situation, utilisez un MTA différent pour chaque client.
    * Si vous utilisez le même MTA entre plusieurs instances (développement, test, production) d&#39;un même client, les messages envoyés depuis ces trois instances combinées seront dupliqués par l&#39;option dataLogPath.

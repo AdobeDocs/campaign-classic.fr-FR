@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: Note technique
-description: Note technique
-hide: true
-hidefromtoc: true
+title: Note technique - Mises à jour de la configuration Adobe Campaign
+description: Mises à jour de la configuration Adobe Campaign
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 86eb9814fae42992b5ca0ce233f88ad90086007d
+source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1137'
 ht-degree: 94%
 
 ---
@@ -79,7 +77,7 @@ Une mise à niveau de la console cliente Campaign est nécessaire pour assurer l
 Si vous vous connectez à Campaign [via un Adobe ID](../../integrations/using/about-adobe-id.md), par le biais d’Adobe Identity Management Service (IMS), la mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous est obligatoire :
 
 * Gold Standard 11. [En savoir plus](../../rn/using/gold-standard.md)
-* Campaign Version 21.1.1. [En savoir plus](../../rn/using/latest-release.md)
+* Campaign Version 21.1.1. [Apprenez-en davantage](../../rn/using/latest-release.md)
 * Campaign Version 20.2.5. [En savoir plus](../../rn/using/release--20-2.md)
 * Campaign Version 20.1.4. [En savoir plus](../../rn/using/release--20-1.md)
 * Campaign Version 19.2.4. [En savoir plus](../../rn/using/release--19-2.md)
@@ -103,7 +101,7 @@ Une fois toutes les instances mises à niveau, la console cliente doit égalemen
 
 ## Intégration avec Experience Cloud Triggers {#acc-triggers-updates}
 
-Le service d’authentification historique oAuth est arrivé en fin de vie L’authentification de l’intégration des Triggers, basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline, a été déplacée vers Adobe I/O. Le mode d’authentification OAuth hérité avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) le **septembre 2021**. Les environnements hébergés bénéficient d’une extension jusqu’au **23 février 2022**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’en février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
+Le service d’authentification historique oAuth est arrivé en fin de vie L’authentification de l’intégration des Triggers, basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline, a été déplacée vers Adobe I/O. Le mode d’authentification OAuth hérité avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) le **septembre 2021**. Les environnements hébergés bénéficient d’une extension jusqu’au **23 février 2022**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’en février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
 
 **Cela vous concerne-t-il ?**
 
@@ -112,7 +110,7 @@ Si vos instances s’exécutent sur une **version antérieure à Campaign 19.1.
 La mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous est obligatoire :
 
 * Gold Standard 11. [En savoir plus](../../rn/using/gold-standard.md)
-* Campaign Version 21.1.1. [En savoir plus](../../rn/using/latest-release.md)
+* Campaign Version 21.1.1. [Apprenez-en davantage](../../rn/using/latest-release.md)
 * Campaign Version 20.2.5. [En savoir plus](../../rn/using/release--20-2.md)
 * Campaign Version 19.1.8. [En savoir plus](../../rn/using/release--19-1.md)
 

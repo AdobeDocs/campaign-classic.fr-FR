@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,7 @@ Le tracking des messages est activé par défaut. Pour personnaliser le tracking
 
    >[!IMPORTANT]
    >
-   >Lorsque l’URL du lien est utilisée comme libellé, il est recommandé de désactiver le tracking afin de prévenir tout risque de rejet pour cause de phishing.
+   >Lorsque l&#39;URL du lien est utilisée comme libellé, il est recommandé de désactiver le tracking afin d&#39;éviter tout risque de rejet en raison du phishing.
    >
    >Par exemple, si l’URL www.adobe.com est insérée dans le message et que l’URL est trackée, le contenu du lien hypertexte sera transformé en https://nlt.adobe.net/r/?id=xxxxxx. Il pourrait alors être considéré comme frauduleux par les clients de messagerie des destinataires.
 
@@ -66,7 +66,7 @@ Le tracking des messages est activé par défaut. Pour personnaliser le tracking
    Pour chaque URL, vous pouvez définir le mode de tracking sur l’une de ces valeurs :
 
    * **[!UICONTROL Activé]** : active le tracking de cette URL.
-   * **[!UICONTROL Non activé]** : désactive le tracking de cette URL.
+   * **[!UICONTROL Non suivi]**  : désactive le tracking de cette URL.
    * **[!UICONTROL Toujours activé]** : active toujours le tracking de cette URL. Cette information est enregistrée de sorte que si l’URL réapparaît dans le contenu d’un prochain message, son tracking est automatiquement activé.
    * **[!UICONTROL Jamais activé]** : n’active jamais le tracking de cette URL. Cette information est enregistrée de sorte que si l’URL réapparaît dans le contenu d’un prochain message, son tracking est automatiquement désactivé.
    * **[!UICONTROL Opt-out]** : considère cette URL comme une option d’opt-out ou une URL de désabonnement.

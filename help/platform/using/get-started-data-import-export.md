@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '325'
-ht-degree: 100%
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 91%
 
 ---
 
@@ -63,6 +63,6 @@ Voir à ce propos les sections suivantes :
 
 <img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
 
-Plusieurs [bonnes pratiques](../../platform/using/import-export-best-practices.md) doivent être suivies lors des opérations d&#39;import et d&#39;export afin d&#39;assurer la cohérence des données dans la base de données et d&#39;éviter les erreurs courantes lors de la mise à jour ou de l&#39;export.
+Vous devez suivre plusieurs [bonnes pratiques](../../platform/using/import-export-best-practices.md) lors des opérations d’import et d’export afin d’assurer la cohérence des données dans la base de données et d’éviter les erreurs courantes lors des opérations de mise à jour ou d’export.
 
 De plus, des recommandations et des problèmes courants liés à l&#39;utilisation des serveurs SFTP sont disponibles dans [cette section](../../platform/using/sftp-server-usage.md).

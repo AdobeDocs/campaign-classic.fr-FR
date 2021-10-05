@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
 workflow-type: tm+mt
 source-wordcount: '3994'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -415,7 +415,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
-   <td> (Mode de compatibilité d’installation : build &gt; 6000) Lorsqu’elle est activée (valeur « 1 »), cette option permet l’utilisation d’anciens mots de passe stockés dans la base de données pour la connexion aux comptes externes ou à l’instance.<br /> </td> 
+   <td> (Mode de compatibilité d’installation : build&gt;6000) Lorsqu'elle est activée (valeur "1"), cette option permet l'utilisation d'anciens mots de passe stockés dans la base de données pour la connexion aux comptes externes ou à l'instance.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
@@ -687,7 +687,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
    <td> <span class="uicontrol">XtkSequence_AutoGeneration</span> <br /> </td> 
    <td> Tous les schémas personnalisés, créés après cette période, avec autopk="true" et sans l’attribut "pkSequence" obtiendront une séquence générée automatiquement "auto_ 
     &lt;schemanamespace&gt; 
-     &lt;schemaname&gt;
+     &lt;nom du schéma&gt;
        _seq. 
    </td> 
   </tr> 
@@ -881,7 +881,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_Pointer</span> <br /> </td> 
-   <td> Le pointeur effectue le suivi des derniers événements de messages qui ont été traités via leur ID et date.<br /> </td> 
+   <td> Le pointeur effectue le suivi des derniers événements de message qui ont été traités via leur ID et date.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_SecureServerUrl</span> <br /> </td> 
