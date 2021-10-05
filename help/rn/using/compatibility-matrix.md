@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 134f248fbcd456573365d5b32831b75dac4b73de
+source-git-commit: f6f1feffbd328f9756c9cd71c4186ba7cd674d76
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 86%
+source-wordcount: '596'
+ht-degree: 85%
 
 ---
 
@@ -121,10 +121,6 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 ## Serveurs SGBDR{#RDBMSservers}
 
->[!NOTE]
->
->Le pilote SGBDR doit correspondre à la version du serveur SGBDR.
-
 <table>
 <tbody>
 <tr>
@@ -137,7 +133,10 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 </td>
 </tr>
 <tr>
-<td>PostgreSQL</td>
+<td>
+<p>PostgreSQL</p>
+<p>Serveur de base de données par défaut pour les environnements hébergés</p>
+</td>
 <td>
 <p>13.x</p>
 <p>12.x</p>
@@ -165,7 +164,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 >[!NOTE]
 >
->PostgreSQL est le serveur de base de données par défaut pour les environnements hébergés.
+>Le pilote SGBDR doit correspondre à la version du serveur SGBDR.
 
 ## Connecteurs CRM{#CRMconnectors}
 
@@ -315,7 +314,6 @@ Les systèmes d’exploitation et navigateurs suivants sont **requis** pour util
 
 ### Navigateur
 
-[]
 <table>
 <tbody>
 <tr>
