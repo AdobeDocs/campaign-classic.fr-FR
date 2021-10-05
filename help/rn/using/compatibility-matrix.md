@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: f6f1feffbd328f9756c9cd71c4186ba7cd674d76
+source-git-commit: 235e8abcaed2659d745ebfeca24dc2f0278a6e5a
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 85%
+source-wordcount: '600'
+ht-degree: 79%
 
 ---
 
@@ -119,7 +119,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 </tbody>
 </table>
 
-## Serveurs SGBDR{#RDBMSservers}
+## Systèmes de gestion des bases de données relationnelles (SGBD){#RDBMSservers}
 
 <table>
 <tbody>
@@ -133,10 +133,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 </td>
 </tr>
 <tr>
-<td>
-<p>PostgreSQL</p>
-<p>Serveur de base de données par défaut pour les environnements hébergés</p>
-</td>
+<td>PostgreSQL</td>
 <td>
 <p>13.x</p>
 <p>12.x</p>
@@ -145,7 +142,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <p>9.6.x</p>
 <p>9.5.x</p>
 <p>9.4.x</p>
-<p>Remarque : vous pouvez également utiliser Amazon RDS pour PostgreSQL avec les versions indiquées ci-dessus.</p>
+<p><strong>Remarque :</strong> vous pouvez également utiliser Amazon RDS pour PostgreSQL avec les versions spécifiées ci-dessus.</p>
 </td>
 </tr>
 <tr>
@@ -156,7 +153,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 et SP2</p>
-<p>Avertissement : Microsoft SQL Server n'est pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. [En savoir plus](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).</p>
+<p><strong>Important :</strong> Microsoft SQL Server n’est pas pris en charge en tant que base de données Principale lorsque le serveur Campaign est en cours d’exécution sous Linux. [En savoir plus](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).</p>
 </td>
 </tr>
 </tbody>
@@ -164,7 +161,10 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 >[!NOTE]
 >
->Le pilote SGBDR doit correspondre à la version du serveur SGBDR.
+>* Le pilote SGBDR doit correspondre à la version du serveur SGBDR.
+>
+>* PostgreSQL est le SGBDR des environnements hébergés.
+
 
 ## Connecteurs CRM{#CRMconnectors}
 
