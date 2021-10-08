@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 12b191ffe3d407f1a69393278a7678a14e53d23e
+source-git-commit: 31ff1863623c088d28d9e4d15337bbc7a9843171
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 100%
+source-wordcount: '2457'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,19 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 Découvrez les statuts des builds de Campaign dans [cette page](rn-overview.md).
 
-## ![](assets/do-not-localize/green_2.png) Version 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
+
+## ![](assets/do-not-localize/green_2.png) Version 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
+
+_8 octobre 2021_
+
+**Correctifs**
+
+* Correction d’un problème qui empêchait l’enregistrement des propositions d’offre lors de l’utilisation du module **Interaction** avec l’option [Power Booster](../../installation/using/power-booster-and-power-cluster.md). (NEO-39263)
+
+* Correction d&#39;une erreur &quot;L&#39;affinité xxx est introuvable sur le serveur mid xxx&quot; qui pouvait se produire lors de l&#39;utilisation de plusieurs affinités IP sur l&#39;instance de mid-sourcing. (NEO-37514)
+
+
+## ![](assets/do-not-localize/orange_2.png) Version 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
 
 _7 septembre 2021_
 

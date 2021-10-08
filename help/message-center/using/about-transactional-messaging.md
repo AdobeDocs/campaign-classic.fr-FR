@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: f007dcbf63d7a69a6d532d0be99b0fa90f4f6d7a
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Les fonctionnalités des messages transactionnels sont conçues pour prendre en 
 
 >[!IMPORTANT]
 >
->Les messages transactionnels nécessitent une licence spécifique. Veuillez vérifier votre accord de licence.
+>Les messages transactionnels nécessitent une licence spécifique. Veuillez vérifier votre contrat de licence.
 
 <!--Before starting with transactional messaging, make sure you read the corresponding [best practices and limitations]().-->
 
