@@ -299,7 +299,7 @@ Le tableau suivant liste les correspondances des types de données générés pa
 
 ## Propriétés {#properties}
 
-Les éléments **`<elements>`** et **`<attributes>`** du schéma de données peuvent être enrichis de différentes propriétés. Vous pouvez remplir un libellé afin de décrire l&#39;élément actif.
+The **`<elements>`** and **`<attributes>`** elements of the data schema can be enriched with various properties. Vous pouvez remplir un libellé afin de décrire l&#39;élément actif.
 
 ### Les libellés et les descriptions {#labels-and-descriptions}
 
