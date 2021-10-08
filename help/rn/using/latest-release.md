@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 31ff1863623c088d28d9e4d15337bbc7a9843171
+source-git-commit: ebd5b04c30c54142433056904a5d80f5a8744ded
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 98%
+source-wordcount: '2459'
+ht-degree: 97%
 
 ---
 
@@ -28,9 +28,9 @@ _8 octobre 2021_
 
 **Correctifs**
 
-* Correction d’un problème qui empêchait l’enregistrement des propositions d’offre lors de l’utilisation du module **Interaction** avec l’option [Power Booster](../../installation/using/power-booster-and-power-cluster.md). (NEO-39263)
+* Correction d’un problème qui empêchait la gestion correcte des offres lors de l’utilisation du module **Interaction** avec l’option [Power Booster](../../installation/using/power-booster-and-power-cluster.md). (NEO-39263)
 
-* Correction d&#39;une erreur &quot;L&#39;affinité xxx est introuvable sur le serveur mid xxx&quot; qui pouvait se produire lors de l&#39;utilisation de plusieurs affinités IP sur l&#39;instance de mid-sourcing. (NEO-37514)
+* Correction d’une erreur &quot;L’affinité xxx est introuvable sur le serveur intermédiaire xxx&quot; qui pouvait se produire lors de l’envoi d’une diffusion lors de l’utilisation de plusieurs affinités IP sur une instance multi-mid-sourcing. (NEO-37514)
 
 
 ## ![](assets/do-not-localize/orange_2.png) Version 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
