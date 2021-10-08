@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '1657'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -81,7 +81,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
   </tr>
   <tr>  
    <td>Reporting<br></td>
-   <td><p>Après la fin de Flash Player des Adobes, le rapport d’évaluation et le moteur de rendu des graphiques ne sont plus disponibles. <a href="../../reporting/using/creating-a-new-report.md">Apprenez-en davantage</a>   </p>
+   <td><p>Après la fin de vie de Flash Player d’Adobe, le rapport d’évaluation et le moteur de rendu des graphiques ne sont plus disponibles. <a href="../../reporting/using/creating-a-new-report.md">Apprenez-en davantage</a></p>
   </tr>
   <tr>  
    <td>Canal fax<br></td>
@@ -242,10 +242,10 @@ Adobe Campaign n’est pas compatible avec les connecteurs SMS suivants :
 
 ### Connecteurs CRM {#crm-connectors}
 
-Depuis la version 21.1 de Campaign, les connecteurs CRM suivants ne sont plus compatibles avec Campaign :
+À compter de la version 21.1 de Campaign, les connecteurs CRM suivants ne sont plus compatibles avec Campaign :
 
 * API Soap - On-premise : 2007, 2015, 2016
 * API Soap - Online : 2015, 2016
-* API web - Microsoft Dynamics CRM 2016
-* API Web - Microsoft Dynamics CRM 2016 - Mise à jour 1
+* API Web - Microsoft Dynamics CRM 2016
+* API Web - Microsoft Dynamics CRM 2016 Update 1
 * API Oracle On Demand

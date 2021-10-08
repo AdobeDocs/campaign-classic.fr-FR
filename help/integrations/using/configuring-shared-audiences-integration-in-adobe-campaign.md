@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Après l&#39;envoi de cette demande, Adobe met en service l&#39;intégration et vous contacte pour vous fournir des informations afin de terminer la configuration :
+Après l&#39;envoi de cette demande, Adobe effectue l&#39;approvisionnement de l&#39;intégration et vous contacte pour vous fournir des informations afin de terminer la configuration :
 
 1. [Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 1. [Etape 2 : configuration de la source de données](#step-2--configure-the-data-source)

@@ -6,7 +6,8 @@ description: En savoir plus sur le connecteur Adobe Analytics approvisionnement
 feature: Overview
 role: User, Admin
 level: Beginner
-source-git-commit: 5f596c14639e085edab9c08c2e3abba36e76acd3
+exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
+source-git-commit: 0830e7b8a430fa18bc1326b972741e2e4dc76342
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 7%

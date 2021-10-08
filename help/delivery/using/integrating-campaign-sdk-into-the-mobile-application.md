@@ -340,7 +340,7 @@ Pour suivre votre notification silencieuse, suivez l&#39;exemple ci-après.
 >
 >Ceci s&#39;applique exclusivement à iOS.
 
-Sous iOS, le protocole délégué vous permet d’obtenir le résultat de l’appel **registerDevice** et peut être utilisé pour savoir si une erreur s’est produite lors de l’enregistrement.
+Dans iOS, le protocole délégué vous permet d’obtenir le résultat de l’appel **registerDevice** et peut être utilisé pour savoir si une erreur s’est produite lors de l’enregistrement.
 
 Le prototype de **registerDeviceStatus** est le suivant :
 
@@ -348,7 +348,7 @@ Le prototype de **registerDeviceStatus** est le suivant :
 - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
 ```
 
-**** Status permet de savoir si un enregistrement a réussi ou si une erreur s’est produite.
+**** Statusson vous permet de savoir si un enregistrement a réussi ou si une erreur s’est produite.
 
 **ErrorReason** fournit des informations supplémentaires sur les erreurs qui se sont produites. Pour en savoir plus sur les erreurs disponibles et leur description, reportez-vous au tableau ci-dessous.
 

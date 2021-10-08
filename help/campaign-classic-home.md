@@ -6,7 +6,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: acb2c4e90c4ce349ea9c1ad53d703c13195872e1
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 80%
 
 ## Nouveautés
 
-* **[La version de septembre est en ligne.](rn/using/latest-release.md)**<br/> Découvrez les nouvelles fonctionnalités, améliorations et correctifs dans les notes de mise à jour
+* **[La version de septembre est publiée.](rn/using/latest-release.md)**<br/> Découvrez les nouvelles fonctionnalités, améliorations et correctifs dans les notes de mise à jour
 
 * **[](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)** FAQ et  **[](technotes/using/apple-mail-app-privacy-protection.md)**<br/> technote sur la protection de la confidentialité d’Apple MailTrouvez des conseils initiaux en réponse à l’annonce d’Apple concernant iOS 15
 
-* **[Mise à niveau vers les derniers builds  (connexion via IMS/Adobe ID)](technotes/using/ims-updates.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter après le** 30 juin 2021 **
+* **[Mise à niveau vers les derniers builds (connexion via IMS/Adobe ID)](technotes/using/ims-updates.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter après le** 30 juin 2021 **
 
 * **[Suppression des erreurs hard incorrectes](delivery/using/update-bounce-qualification.md)**<br/> Découvrez comment mettre à jour les erreurs hard incorrectes après une panne d’Apple.
 

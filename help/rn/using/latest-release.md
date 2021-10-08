@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Dernière version
-description: Dernière version de Campaign Classic  Notes
+description: Dernière version de Campaign Classic   Notes
 feature: Overview
 role: User
 level: Beginner
@@ -9,7 +9,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 12b191ffe3d407f1a69393278a7678a14e53d23e
 workflow-type: tm+mt
 source-wordcount: '2403'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 83%
 
 ![](../../assets/v7-only.svg)
 
-Cette page répertorie les nouvelles fonctionnalités, les améliorations et les correctifs de la **dernière version du Campaign Classic**.
+Cette page répertorie les nouvelles fonctionnalités, les améliorations et les correctifs de la **dernière version de Campaign Classic**.
 
-Découvrez les états des build de Campaign dans [cette page](rn-overview.md).
+Découvrez les statuts des builds de Campaign dans [cette page](rn-overview.md).
 
 ## ![](assets/do-not-localize/green_2.png) Version 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
 
@@ -31,29 +31,29 @@ _7 septembre 2021_
 
 **Améliorations**
 
-* Après sa fin de vie, le Flash a été supprimé de toutes les fonctionnalités et composants de Campaign associés et remplacé par HTML5. Le type de graphique **Gauge** a été supprimé. (NEO-30330) [En savoir plus](../../reporting/using/creating-a-chart.md)
-* Lors de l’installation de la console cliente sous Windows, le programme d’installation vérifie désormais s’il existe un noeud de registre parent et en crée un s’il manque. Cela évite les problèmes potentiels lors du lancement de la console. (NEO-34854)
-* La fonctionnalité de signature de suivi a été améliorée afin d’éviter les erreurs liées à la manière dont les outils tiers (clients de messagerie, navigateurs Internet, etc.) gérer les caractères spéciaux. Les paramètres d’URL sont désormais codés.
+* Après sa fin de vie, Flash a été supprimé de toutes les fonctionnalités et composants de Campaign associés, et remplacé par HTML5. Le type de graphique **Jauge** a été supprimé. (NEO-30330) [En savoir plus](../../reporting/using/creating-a-chart.md)
+* Lors de l’installation de la console cliente sous Windows, le programme d’installation vérifie maintenant s’il existe un nœud de registre parent et en crée un s’il n’en existe pas. Cela évite les problèmes potentiels lors du lancement de la console. (NEO-34854)
+* La fonctionnalité de signature de suivi a été améliorée afin d’éviter les erreurs liées à la manière dont les outils tiers (clients de messagerie, navigateurs Internet, etc.) gèrent les caractères spéciaux. Les paramètres d’URL sont désormais chiffrés.
 
 **Autres changements**
 
-* Les connecteurs Microsoft CRM (déploiements Office 365 et On-premise) précédemment obsolètes ont été supprimés de l’interface. [En savoir plus](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
+* Les connecteurs Microsoft CRM (déploiements Office 365 et On-premise) précédemment obsolètes ont été supprimés de l’interface. [En savoir plus](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Suite à la migration vers Tomcat 8, le script de configuration IIS a été mis à jour afin de corriger les problèmes d&#39;intégration IIS. (NEO-31019)
 * Une barrière de sécurité a été ajoutée pour permettre uniquement l’exécution du [workflow technique de facturation](../../production/using/monitoring-processes.md#billing-report) sur l’instance marketing.
-* L&#39;identification de la source de données a été améliorée dans les onglets données et schéma de la fenêtre **Visualiser la population** des transitions de workflow.
-* Des index de base de données manquants ont été ajoutés aux schémas suivants afin d’éviter des problèmes de mise à jour de la base de données : xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
+* L&#39;identification de la source de données a été améliorée dans les onglets de données et de schéma de la fenêtre **Visualiser la population** des transitions de workflow.
+* Des index de base de données manquants ont été ajoutés aux schémas suivants afin d’éviter des problèmes de mise à jour de la base de données : xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
 **Correctifs**
 
-* Correction d’un problème qui empêchait le fonctionnement du rapport Hot clicks lorsque des offres étaient liées à la diffusion. (NEO-26295)
-* Correction d’un problème lié à l’activité **Sous-workflow** lorsque son exécution ne générait pas de tableau de sortie. (NEO-36242)
+* Correction d’un problème qui empêchait le fonctionnement du rapport Position des clics lorsque des offres étaient liées à la diffusion. (NEO-26295)
+* Correction d’un problème lié à l’activité **Sous-workflow** lorsque son exécution ne générait pas de table de sortie. (NEO-36242)
 * Correction de divers problèmes lors de l’exportation du rapport **Analyse descriptive** au format PDF. (NEO-25847)
-* Correction d’un problème qui entraînait l’échec des diffusions lors de l’utilisation d’une diffusion courrier externe. (NEO-37435)
+* Correction d’un problème qui entraînait l’échec des diffusions lors de l’utilisation d’une diffusion par courrier externe. (NEO-37435)
 * Correction d&#39;une erreur lors de la connexion à Microsoft CRM à l&#39;aide de l&#39;API web. Le message d’erreur a été supprimé, car les fonctionnalités n’ont pas été affectées.
 * Correction d’un problème de déduplication des logs de tracking lorsque le serveur mid-sourcing était défini comme relais entre les serveurs de tracking et marketing. (NEO-36285)
 * Correction d’une régression qui empêchait Vault d’être utilisé comme entrepôt de code spécifique.
 * Correction d’un problème qui empêchait l’utilisation de variables dans une activité de workflow **Enrichissement** lorsque la transition entrante provenait d’une source de données FDA.
-* Correction d’un problème qui entraînait des URL rompues dans les emails.
+* Correction d’un problème qui entraînait des URL rompues dans les e-mails.
 
 ## ![](assets/do-not-localize/orange_2.png) Version 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
@@ -71,7 +71,7 @@ _5 juin 2021_
 <tbody>
 <tr>
 <td>
-<p>La nouvelle activité de workflow <b>Modifier la source de données</b> permet de modifier la source de données de la table de travail d’un workflow. Cela offre une flexibilité améliorée dans la gestion des données entre différentes sources de données (FDA et base de données locale).</p>
+<p>La nouvelle activité de workflow <b>Modifier la source de données</b> permet de modifier la source de données de la table de travail d’un workflow. Cela offre plus de flexibilité pour la gestion des données entre différentes sources de données (FDA et base de données locale).</p>
 <p>Dans les workflows Adobe Campaign, les données sont gérées à l’aide de tables de travail (ou temporaires). Au fur et à mesure de l’exécution d’un workflow, les tables de travail partagent les données entre les activités du workflow. Par défaut, les tables de travail sont créées dans la même base de données que la source des données sur lesquelles nous effectuons des requêtes.</p>
 <p>Pour plus d'informations, consultez la <a href="../../workflow/using/change-data-source.md">documentation détaillée</a>.</p>
 </td>

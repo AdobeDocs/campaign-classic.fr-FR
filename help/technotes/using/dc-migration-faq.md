@@ -17,7 +17,7 @@ ht-degree: 61%
 
 ![](../../assets/v7-only.svg)
 
-Dans le cadre de l’[initiative Gold Standard](../../rn/using/gold-standard.md), Adobe désactive l’ancien centre de données. Les instances de Campaign Classic doivent être transférées vers les services web AWS (Public Cloud Amazon Web Services). [En savoir plus sur cette initiative](dc-migration.md).
+Dans le cadre de l’[initiative Gold Standard](../../rn/using/gold-standard.md), Adobe désactive l’ancien centre de données. Les instances de Campaign Classic doivent être transférées vers Public Cloud Amazon Web Services (AWS). [En savoir plus sur cette initiative](dc-migration.md).
 
 Vous trouverez ci-dessous un ensemble de questions courantes sur ce projet, son impact sur vos environnements Campaign et d’autres ressources utiles.
 

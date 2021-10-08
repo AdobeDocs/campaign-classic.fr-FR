@@ -91,7 +91,7 @@ _11 septembre 2020_
 
 * Correction d&#39;une régression qui entraînait le blocage de la préparation des diffusions en raison d&#39;une seule fonction erronée sur le fragment de diffusion, et conduisait à une surcharge de la mémoire. (NEO-27346)
 * Correction d&#39;un problème de postupgrade qui désactivait Apache et le serveur Web avant la republication de l&#39;application web. (NEO-27155)
-* Correction d&#39;une régression sur la gestion des modèles HTML qui entraînait la visibilité des URL de tracking en raison d&#39;une mauvaise interprétation des onglets. (NEO-25909)
+* Correction d’une régression sur la gestion des modèles de HTML en raison de laquelle les URL de tracking devenaient visibles en raison d’une mauvaise interprétation des onglets. (NEO-25909)
 * Correction d&#39;un problème lié au workflow de nettoyage de la base de données qui pouvait échouer en raison d&#39;une source de données non gérée. (NEO-23160, NEO-23364)
 * Le workflow de nettoyage purge désormais les listes expirées par lots de 100 plutôt qu&#39;une par une.
 * Correction d&#39;une régression qui empêchait de modifier le nom interne d&#39;un compte externe. (NEO-27323)

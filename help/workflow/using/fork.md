@@ -45,11 +45,11 @@ Dans cet exemple, différents emails sont envoyés à différents groupes de pop
 
 Le workflow comprend les activités suivantes :
 
-1. **** Activité de requête
+1. **** Queryactivity
 
    Deux groupes de population sont sélectionnés : femmes et Parisiennes.
 
-1. **** Intersection-activité
+1. **** Intersection-activity
 
    L&#39;intersection des résultats de la requête, c&#39;est-à-dire les femmes parisiennes, est sélectionnée.
 
@@ -60,7 +60,7 @@ Le workflow comprend les activités suivantes :
    1. Parisiennes de 18 à 40 ans
    1. Parisiennes de plus de 40 ans
 
-1. **** Activité Diffusion
+1. **[!UICONTROL Activité Diffusion]**
 
    Un email différent est envoyé à chaque groupe de population.
 

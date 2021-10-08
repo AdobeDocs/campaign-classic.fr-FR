@@ -5,7 +5,8 @@ description: Découvrez comment configurer les autorisations d’URL
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
+source-git-commit: 4fd69aa28c2e9325f4738ec571a6632c42ec26b8
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 94%

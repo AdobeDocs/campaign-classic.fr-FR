@@ -189,7 +189,7 @@ crontab-e
 
 ### Optimisation des performances {#performance-optimization}
 
-Pour améliorer les performances sous Linux, éditez le fichier **/etc/spamassassin/local.cf** et ajoutez la ligne suivante à la fin du fichier :
+Pour améliorer les performances sous Linux, modifiez le fichier **/etc/spamassassin/local.cf** et ajoutez la ligne suivante à la fin du fichier :
 
 ```
 dns_available no

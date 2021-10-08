@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 100%
 
@@ -200,7 +200,7 @@ Ce serveur héberge les formulaires Web, pages miroir, etc. Les ports suivants d
  <tbody> 
   <tr> 
    <td> Port d'écoute<br /> </td> 
-   <td> Location<br /> </td> 
+   <td> Emplacement<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
@@ -215,7 +215,7 @@ Ce serveur héberge les formulaires Web, pages miroir, etc. Les ports suivants d
  <tbody> 
   <tr> 
    <td> Port d'écoute<br /> </td> 
-   <td> Location<br /> </td> 
+   <td> Emplacement<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 

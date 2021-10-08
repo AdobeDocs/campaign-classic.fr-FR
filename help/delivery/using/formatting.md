@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Les attributs et éléments du contenu sont représentés comme des objets JavaS
 **Exemple**:
 
 * **content.@name** : récupère la valeur de l’attribut « name » de l’élément principal
-* **content.@`['name']`** : identique au contenu **.syntaxe @name**
+* **contenu.@`['name']`** : identique au contenu **.syntaxe @name**
 * **content.chapter.length**`<chapter` : retourne le nombre d’éléments sur l’élément de collection
 * **content.chapter`[0]`.@name** : récupère le nom du premier élément `<chapter>`
 * **chapter.name()** : retourne le nom de l’élément `<chapter>`

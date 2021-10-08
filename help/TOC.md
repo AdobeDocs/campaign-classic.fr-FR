@@ -850,7 +850,7 @@ ht-degree: 97%
       + [Mises à jour de l&#39;IMS](technotes/using/ims-updates.md)
    + Emails et notifications push{#technotes-email}
       + [Protection de la confidentialité des emails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
-      + [FAQ sur la protection de la confidentialité Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+      + [FAQ sur la protection de la confidentialité dans Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
       + [Mise à jour des hard bounces incorrects](delivery/using/update-bounce-qualification.md)
       + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
       + [Mise à jour des URL trackées](technotes/using/tracked-urls.md)

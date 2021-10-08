@@ -31,7 +31,7 @@ Il existe deux types de modèles :
 
 1. Les modèles de diffusion prédéfinis
 
-   L&#39;administrateur Adobe Campaign peut créer de nouveaux modèles de diffusion. Ils peuvent être réutilisés par les opérateurs (ceux disposant des droits d&#39;accès adéquats) ou automatiquement par les processus serveur. Par exemple, vous pouvez configurer un modèle de diffusion email. Lorsque les utilisateurs créent une diffusion à l’aide de ce modèle, ils ont simplement besoin de saisir le texte ou le contenu HTML, puis de le diffuser. les autres choix ont déjà été définis par l’administrateur.
+   L&#39;administrateur Adobe Campaign peut créer de nouveaux modèles de diffusion. Ils peuvent être réutilisés par les opérateurs (ceux disposant des droits d&#39;accès adéquats) ou automatiquement par les processus serveur. Par exemple, vous pouvez configurer un modèle de diffusion par email. Lorsque les utilisateurs créent une diffusion à l’aide de ce modèle, ils doivent simplement saisir le texte ou le contenu du HTML, puis le diffuser. les autres choix ont déjà été définis par l’administrateur.
 
 >[!NOTE]
 >

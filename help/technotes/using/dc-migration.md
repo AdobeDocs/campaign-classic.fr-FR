@@ -13,7 +13,7 @@ ht-degree: 69%
 
 ---
 
-# Vue d’ensemble{#dc-ovv}
+# Vue d&#39;ensemble{#dc-ovv}
 
 ![](../../assets/v7-only.svg)
 
@@ -32,7 +32,7 @@ Ce programme a trois objectifs principaux :
 * **Upgrade de build**  : lorsque le logiciel Adobe Campaign Classic est mis à jour vers le dernier numéro de build sécurisé, tout en restant au même niveau de build majeur/mineur. Par exemple : Campaign v7 20.2.3 build 9182 vers Campaign v7 21.2.5 build 9188. [En savoir plus](../../platform/using/faq-build-upgrade.md).
 * **MID/RT**  : serveurs d’exécution de messages hébergés sur Adobe Cloud (MID pour les campagnes par lots et RT pour les messages unitaires en temps réel)
 * **Mise à niveau**  Gold Standard : ce programme offre une sécurité améliorée, une prise en charge améliorée, une maintenance et une stabilité améliorées. Il facilite également les futures mises à niveau et donne accès aux nouvelles fonctionnalités de Campaign.  [En savoir plus](../../rn/using/gs-overview.md).
-* **AWS**  - Services web Amazon (cloud public Amazon)
+* **AWS**  - Amazon Web Services (Amazon Public Cloud)
 * **SFTP**  : protocole de transfert de fichiers sécurisé. [En savoir plus](../../platform/using/sftp-server-usage.md).
 
 

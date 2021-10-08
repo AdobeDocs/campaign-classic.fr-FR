@@ -7,17 +7,17 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
 ---
 
-# Règles de filtrage{#filtering-rules}
+# Règles de filtrage {#filtering-rules}
 
 ![](../../assets/v7-only.svg)
 
-Règles de filtrage  permettent de définir les messages à exclure en fonction de critères définis dans une requête. Ces règles sont liées à une dimension de ciblage.
+Les règles de filtrage permettent de définir les messages à exclure en fonction de critères définis dans une requête. Ces règles sont associées à une dimension de ciblage.
 
 Les règles de filtrage peuvent être associées à d&#39;autres types de règles (contrôle, pression, etc.) dans des typologies, ou regroupées dans une typologie dédiée de type **Filtrage**. Pour plus d&#39;informations, voir la section [Créer et utiliser une typologie de filtrage](#creating-and-using-a-filtering-typology).
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
    <td> Title<br /> </td> 
    <td> Attribut<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td> Title<br /> </td> 
+   <td> Titre<br /> </td> 
   </tr> 
   <tr> 
    <td> Sous-titre<br /> </td> 

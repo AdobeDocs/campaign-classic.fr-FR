@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Protection de la confidentialité des emails dans l’application de messagerie Apple
-description: Découvrez comment vos campagnes peuvent être affectées par la fonction de protection de la confidentialité du courrier d’Apple
+description: Découvrez comment vos campagnes peuvent être affectées par la fonction de protection de la confidentialité d’Apple Mail
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## Qu&#39;est-ce qui a changé ?
 
-En 2021, Apple a introduit de nouvelles fonctionnalités de protection de la vie privée pour son application de messagerie native. Cette application comprend désormais la fonction de protection de la confidentialité du courrier d’Apple. Fondamentalement, les expéditeurs ne peuvent plus utiliser les pixels de suivi pour collecter des informations sur les destinataires qui ont choisi d’activer la fonction de protection de la confidentialité du courrier d’Apple. [En savoir plus](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target=&quot;_blank&quot;}.
+En 2021, Apple a introduit de nouvelles fonctionnalités de protection de la vie privée pour son application de messagerie native. Cette application comprend désormais la fonction de protection de la confidentialité d’Apple Mail. Fondamentalement, les expéditeurs ne peuvent plus utiliser les pixels de suivi pour collecter des informations sur les destinataires qui ont choisi d’activer la fonctionnalité de protection de la confidentialité du courrier Apple. [En savoir plus](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target=&quot;_blank&quot;}.
 
 ## Comment mes campagnes sont-elles affectées ?
 
@@ -24,7 +24,7 @@ Adobe Campaign permet d’utiliser les pixels de suivi pour suivre les ouverture
 
 ## Quelles actions dois-je entreprendre ?
 
-La nouvelle fonctionnalité d’Apple est la forme que prennent les choses dans le secteur en termes de protection de la confidentialité des emails. Nous vous recommandons vivement de suivre les recommandations de l’Adobe.
+Apple une nouvelle fonctionnalité : la forme des éléments à venir dans le secteur en termes de protection de la confidentialité des emails. Nous vous recommandons vivement de suivre les recommandations de l’Adobe.
 
 ### Évaluer l’impact sur les déclencheurs de campagne
 
@@ -32,20 +32,20 @@ La nouvelle fonctionnalité d’Apple est la forme que prennent les choses dans 
 
 ### Préserver vos données
 
-Conserver vos données et consolider vos connaissances actuelles sur les appareils. Vous pouvez baser les indicateurs de performances clés (IPC) sur l’agent utilisateur. Vous pouvez, par exemple, créer des indicateurs de performance clés basés sur les profils de personnes qui utilisent iOS et l’application de messagerie Apple. Lisez les [conseils et astuces](#preserve-tracking-data).
+Conserver vos données et consolider vos connaissances actuelles sur les appareils. Vous pouvez baser les indicateurs de performances clés (IPC) sur l’agent utilisateur. Vous pouvez, par exemple, créer des indicateurs de performance clés sur les profils de personnes qui utilisent l’application de messagerie iOS et Apple. Lisez les [conseils et astuces](#preserve-tracking-data).
 
 ### Archivez vos logs de tracking au-delà de la période de conservation des données.
 
 Archivez vos logs de tracking au-delà de la période de conservation d’Adobe Campaign :
 
-1. Vérifiez la durée de la période de conservation dans votre instance de campagne.
+1. Check the duration of the retention period in your campaign instance.
 1. Vérifiez deux fois vos principaux mappings de ciblage. Déterminez si vous utilisez des tables de profils personnalisés en plus de la table des profils d’usine (`nmsRecipient`).
 1. Exportez vos logs de tracking depuis Adobe Campaign. Incluez les journaux qui contiennent des données sur l’agent utilisateur et le système d’exploitation.
 
 ### Évaluation de la tendance actuelle des taux d’ouverture
 
-Déterminez la proportion de votre audience qui utilise l’application de messagerie d’Apple sur un appareil iOS.
-Grâce à cette évaluation, vous pouvez identifier les anomalies potentielles et leur cause. Vous pouvez déterminer si un écart est dû à des problèmes de performances de campagne ou à la fonctionnalité de protection de la vie privée d’Apple. Lisez les [conseils et astuces](#measure-ios-footprint).
+Déterminez la proportion de votre audience qui utilise l’application de messagerie Apple sur un appareil iOS.
+Grâce à cette évaluation, vous pouvez identifier les anomalies potentielles et leur cause. Vous pouvez déterminer si un écart est dû à des problèmes de performances de campagne ou à la fonctionnalité de protection de la confidentialité d’Apple. Lisez les [conseils et astuces](#measure-ios-footprint).
 
 ### Réévaluer votre stratégie de campagne et vos mesures de performances
 
@@ -55,7 +55,7 @@ Nous vous recommandons d’explorer les données actuellement disponibles et d�
 
 ## Astuces
 
-### Mesure de l’empreinte globale d’iOS {#measure-ios-footprint}
+### Mesurer l’empreinte globale d’iOS {#measure-ios-footprint}
 
 Pour collecter des informations à partir des données Adobe Campaign, vous pouvez utiliser des rapports d’usine :
 
@@ -63,7 +63,7 @@ Pour collecter des informations à partir des données Adobe Campaign, vous pouv
 
    Pour identifier la proportion de visiteurs par système d&#39;exploitation et par version, utilisez ce rapport. [En savoir plus](../../reporting/using/global-reports.md#operating-systems).
 
-   Vous pouvez visualiser la répartition des visiteurs, par système d&#39;exploitation, par rapport au nombre total de visiteurs.
+   You can view the breakdown of visitors per operating system in relation to the total number of visitors.
 
    ![](../../reporting/using/assets/s_ncs_user_os_report.png)
 
@@ -103,9 +103,9 @@ Dans cet exemple, un marketeur souhaite envoyer une offre de récompense aux des
 
    >[!NOTE]
    >
-   >A partir d&#39;un workflow, vous ne pouvez pas visualiser les critères de ciblage d&#39;un filtre prédéfini.
+   >From a workflow, you cannot view the targeting criteria of a predefined filter.
 
-Pour récupérer la liste des workflows dans lesquels les ouvertures d&#39;email sont utilisées comme critère de ciblage, vous devez interroger le schéma `xtk:workflow`. Le contenu du workflow est stocké dans le champ **[!UICONTROL Mémoire XML (data)]** au format XML.
+To retrieve the list of workflows in which email opens are used as a targeting criterion, you must query the `xtk:workflow` schema. Le contenu du workflow est stocké dans le champ **[!UICONTROL Mémoire XML (data)]** au format XML.
 
 ![](assets/identify-email-open-tracking-5.png)
 
@@ -158,7 +158,7 @@ Le workflow comprend les étapes principales suivantes :
 
 Le workflow comprend les étapes détaillées suivantes :
 
-1. L&#39;activité initiale est une activité de requête dans le schéma `xtk:workflow`. Cette activité est utilisée pour rechercher, dans l’instance correspondante, les requêtes de workflow explicites qui incluent les ouvertures d’email comme critère de ciblage.
+1. The initial activity is a query activity in the `xtk:workflow` schema. Cette activité est utilisée pour rechercher, dans l’instance correspondante, les requêtes de workflow explicites qui incluent les ouvertures d’email comme critère de ciblage.
 
    ![](assets/identify-email-open-tracking-9.png)
 
@@ -259,7 +259,7 @@ Le workflow comprend les étapes détaillées suivantes :
 
    ![](assets/identify-email-open-tracking-20.png)
 
-   Si la liste n&#39;est pas vide, elle est alors insérée dans un tableau HTML pour les notifications électroniques.
+   Si la liste n’est pas vide, elle est alors insérée dans un tableau de HTML pour les notifications électroniques.
 
    ![](assets/identify-email-open-tracking-21.png)
 
@@ -294,7 +294,7 @@ Le workflow comprend les étapes détaillées suivantes :
    instance.vars.workflowList = sWorkflowList;
    ```
 
-1. Le tableau HTML est alors ajouté au modèle de notification.
+1. Le tableau HTML est ajouté au modèle de notification.
 
    ```js
    <%= instance.vars.workflowLIst%>
@@ -310,14 +310,14 @@ Le workflow comprend les étapes détaillées suivantes :
 
 #### Quelles données sont affectées ?
 
-Les données de profil sont enrichies avec les données de suivi provenant d’actions telles que les ouvertures d’email et les clics publicitaires. Le suivi fournit également, par l’intermédiaire de l’agent utilisateur lorsque ces informations sont disponibles, des informations clés sur les appareils de l’utilisateur.
+Les données de profil sont enrichies avec les données de suivi provenant d’actions telles que les ouvertures d’email et les clics publicitaires. Tracking also provides, through the user agent when this information is available, key information about the user&#39;s devices.
 
 En résumé, les données de suivi Adobe Campaign fournissent les informations suivantes :
 
 * Le profil associé à la personne qui a ouvert ou cliqué par le biais d’un message électronique spécifique
 * Date d’ouverture
-* Appareil utilisé, par exemple iPhone ou Mac
-* Système d’exploitation et version, par exemple iOS 15, macOS 12 ou Windows 10
+* Appareil utilisé, par exemple, iPhone ou Mac
+* The operating system and the version, for example, iOS 15, macOS 12, or Windows 10
 * L’application, telle qu’une application de messagerie ou un navigateur web, et la version, par exemple Outlook 2019
 
 #### Pourquoi dois-je conserver les données de suivi ?
@@ -335,7 +335,7 @@ Pour toutes ces raisons, il est vivement recommandé d&#39;exporter ces données
 
 #### Comment conserver les données de suivi ?
 
-Pour conserver les données de suivi, vous devez les exporter d’Adobe Campaign vers votre système d’informations. [En savoir plus](../../platform/using/get-started-data-import-export.md).
+To preserve tracking data, you must export it from Adobe Campaign to your information system. [En savoir plus](../../platform/using/get-started-data-import-export.md).
 
 >[!IMPORTANT]
 >
@@ -374,9 +374,9 @@ Vous pouvez exporter le résultat vers une solution de stockage externe prise en
 
 ##### Mise en œuvre
 
-Cet exemple montre comment exporter des données de suivi depuis Adobe Campaign.
+This example shows how you can export tracking data from Adobe Campaign.
 
-1. Créez un workflow qui commence par une requête.
+1. Create a workflow that starts with a query.
 
    La requête initiale est utilisée pour récupérer les logs de tracking des trois derniers mois.
 Vous pouvez utiliser une requête incrémentale pour extraire uniquement les enregistrements que vous n’avez pas encore exportés.
@@ -399,14 +399,14 @@ Vous pouvez utiliser une requête incrémentale pour extraire uniquement les enr
 
 ##### Mise en oeuvre avancée : ventilation par appareil iOS
 
-Vous pouvez utiliser des workflows pour déterminer si un destinataire utilise l’application Apple Mail. Vous pouvez fractionner les logs de suivi par appareil. Par exemple, vous pouvez utiliser des filtres de requête pour ventiler des enregistrements par appareil iOS :
+Vous pouvez utiliser des workflows pour déterminer si un destinataire utilise l’application de messagerie Apple. Vous pouvez fractionner les logs de suivi par appareil. Par exemple, vous pouvez utiliser des filtres de requête pour ventiler les enregistrements par appareil iOS :
 
 | Application | Système d’exploitation ou appareil  | Filtre de requête |
 | --- | --- | --- |
 | Apple Mail | iOS 15 | `operating System (Browser) contains 'iOS 15' and browser (Browser) contains 'ApplewebKit'` |
-| Apple Mail | iOS 14 ou iOS 13 | `browser contains 'AppleWebKit' and operating System of browser contains 'iOS 14' or operating System of browser contains 'iOS 13'` |
+| Apple Mail | iOS 14 or iOS 13 | `browser contains 'AppleWebKit' and operating System of browser contains 'iOS 14' or operating System of browser contains 'iOS 13'` |
 | Apple Mail | Appareils mobiles iOS : iPad, iPod et iPhone | `device (Browser) contains iPhone or device (Browser) equal to iPod or device (Browser) equal to iPad and browser (Browser) equal to 'AppleWebKit'` |
-| Apple Mail | iPhone, iPad ou iPod | `browser (Browser) equal to 'AppleWebKit' and device (Browser) equal to iPhone or device (Browser) equal to iPod or device (Browser) equal to iPad` |
+| Apple Mail | iPhone , iPad, or iPod | `browser (Browser) equal to 'AppleWebKit' and device (Browser) equal to iPhone or device (Browser) equal to iPod or device (Browser) equal to iPad` |
 | Apple Mail | Mac | `browser (Browser) equal to 'AppleWebKit' and operating System (Browser) contains 'Mac'` |
 | Safari | macOS | `browser (Browser) equal to 'Safari' and device (Browser) equal to PC and operating System (Browser) contains 'Mac'` |
 | Safari | Appareils mobiles | `browser (Browser) equal to 'Safari' and device (Browser) equal to iPad or device (Browser) equal to iPod or device (Browser) equal to iPhone` |
@@ -420,7 +420,7 @@ Vous pouvez utiliser ces règles à diverses fins :
 * Créer des listes de suppression
 * Reporting
 
-Ces exemples montrent comment utiliser des workflows pour ventiler des enregistrements par appareil iOS :
+These examples show how you can use workflows to break down records by iOS device:
 
 * Le premier exemple de workflow regroupe les activités suivantes :
 
@@ -453,4 +453,4 @@ Ces exemples montrent comment utiliser des workflows pour ventiler des enregistr
 
 ## Liens utiles
 
-[FAQ sur la protection de la confidentialité Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target=&quot;_blank&quot;}
+[FAQ sur la protection des données personnelles dans Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target=&quot;_blank&quot;}
