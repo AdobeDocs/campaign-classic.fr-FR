@@ -9,7 +9,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: ebd5b04c30c54142433056904a5d80f5a8744ded
 workflow-type: tm+mt
 source-wordcount: '2459'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Découvrez les statuts des builds de Campaign dans [cette page](rn-overview.md).
 
 ## ![](assets/do-not-localize/green_2.png) Version 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
 
-_8 octobre 2021_
+_8 octobre 2021_
 
 **Correctifs**
 
-* Correction d’un problème qui empêchait la gestion correcte des offres lors de l’utilisation du module **Interaction** avec l’option [Power Booster](../../installation/using/power-booster-and-power-cluster.md). (NEO-39263)
+* Correction dʼun problème qui pouvait entraîner le fonctionnement incorrect de la gestion des offres lors de lʼutilisation du module **Interaction** avec lʼoption [Power Booster](../../installation/using/power-booster-and-power-cluster.md) déployée. (NEO-39263)
 
-* Correction d’une erreur &quot;L’affinité xxx est introuvable sur le serveur intermédiaire xxx&quot; qui pouvait se produire lors de l’envoi d’une diffusion lors de l’utilisation de plusieurs affinités IP sur une instance multi-mid-sourcing. (NEO-37514)
+* Correction dʼune erreur « Lʼaffinité IP xxx est introuvable sur le serveur MID xxx » qui pouvait se produire lors de lʼenvoi dʼune diffusion comportant plusieurs affinités IP sur une instance multi-midsourcing. (NEO-37514)
 
 
 ## ![](assets/do-not-localize/orange_2.png) Version 21.1.4 - Build 9342 {#release-21-1-4-build-9342}

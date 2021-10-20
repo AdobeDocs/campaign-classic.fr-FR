@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: 23c5892189c59008f82ec453c97d24efe82fd2ae
 workflow-type: tm+mt
 source-wordcount: '2566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 97%
          + [Connexion à Salesforce.com](platform/using/crm-sfdc.md)
          + [Synchronisation des données avec le CRM](platform/using/crm-data-sync.md)
       + Connecteur Adobe Analytics{#analytics-connector}
-         + [Approvisionnement d’Adobe Analytics Connector](platform/using/adobe-analytics-provisioning.md)
+         + [Approvisionnement du connecteur Adobe Analytics](platform/using/adobe-analytics-provisioning.md)
          + [Intégration du connecteur Adobe Analytics](platform/using/adobe-analytics-connector.md)
          + [Comment migrer vers le connecteur Adobe Analytics](technotes/using/aa-connector-migration.md)
          + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
@@ -153,7 +153,7 @@ ht-degree: 97%
       + [Migration vers le connecteur SMPP générique étendu](delivery/using/unsupported-connector-migration.md)
    + [Envoi de messages LINE](delivery/using/line-channel.md)
    + Envoi de notifications push {#sending-push-notifications}
-      + [Prise en main du canal des applications mobiles (Mobile App Channel)](delivery/using/about-mobile-app-channel.md)
+      + [Prise en main du canal des applications mobiles (documentation du produit)](delivery/using/about-mobile-app-channel.md)
       + [Intégration du SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuration de l’application mobile{#configure-the-mobile-app}
          + [Prise en main de la configuration de l&#39;application](delivery/using/get-started-app-config.md)
@@ -847,10 +847,10 @@ ht-degree: 97%
    + Mises à niveau et migrations{#technote-migration}
       + [Notes techniques](technotes/using/technote.md)
       + [Mises à jour de la configuration de Campaign](technotes/using/acc-config-updates.md)
-      + [Mises à jour de l&#39;IMS](technotes/using/ims-updates.md)
-   + Emails et notifications push{#technotes-email}
-      + [Protection de la confidentialité des emails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
-      + [FAQ sur la protection de la confidentialité dans Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+      + [Mises à jour de lʼIMS](technotes/using/ims-updates.md)
+   + E-mails et notifications push{#technotes-email}
+      + [Protection de la confidentialité des e-mails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
+      + [FAQ sur la protection de la confidentialité dʼApple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=fr)
       + [Mise à jour des hard bounces incorrects](delivery/using/update-bounce-qualification.md)
       + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
       + [Mise à jour des URL trackées](technotes/using/tracked-urls.md)

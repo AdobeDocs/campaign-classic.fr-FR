@@ -9,7 +9,7 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: b3a3ec871bca9132f10b319ba1f93aeda80d6747
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ Les **derniers builds en disponibilité générale** ont les versions suivantes�
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Dernière version dotée de nouvelles fonctionnalités.
 
-![](assets/do-not-localize/orange3.png) **Plus disponible**  - Aucun déploiement. Aucun correctif. Il est recommandé d’effectuer une mise à jour vers un build plus récent.
+![](assets/do-not-localize/orange3.png) **Plus disponible** - Aucun déploiement. Aucun correctif. Il est recommandé de mettre à jour vers un build plus récent.
 
-![](assets/do-not-localize/red3.png) **Obsolète**  - Aucun déploiement. Aucun correctif. Les implémentations existantes doivent être mises à niveau.
+![](assets/do-not-localize/red3.png) **Obsolète** - Aucun déploiement. Aucun correctif. Les implémentations existantes doivent être mises à niveau.
 
 ## Recommandations{#recommendations}
 

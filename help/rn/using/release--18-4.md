@@ -6,7 +6,7 @@ exl-id: bbad81ba-a09f-4d67-9309-628ea7a08c9b
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '2289'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 99%
 * Les logs d&#39;archivage des emails ont été améliorés, ce qui permet de vérifier plus facilement et plus clairement quels emails ont été diffusés avec succès ou non via l&#39;archivage Cci. (NEO-10675)
 * Correction d&#39;une erreur qui entraînait l&#39;affichage des adresses IP des équilibreurs de charge au lieu de celles des clients dans les broadlogs de tracking. (NEO-11295)
 * Correction d&#39;une erreur liée au codage LATIN1 lors de l&#39;utilisation d&#39;une connexion FDA à une base de données PostgreSQL.(NEO-11299)
-* Correction d’un problème qui se produisait lors de l’utilisation de l’option de diffusion **[!UICONTROL Préparer les données de personnalisation avec un workflow]**. (NEO-11047, NEO-11301)
+* Correction dʼune erreur qui se produisait lors de lʼutilisation de lʼoption de diffusion **[!UICONTROL Préparer les données de personnalisation avec un workflow]**. (NEO-11047, NEO-11301)
 * Correction d&#39;une erreur aléatoire qui entraînait le remplacement incorrect des propriétés d&#39;une diffusion. (NEO-11015)
 * Correction d&#39;une erreur lors de l&#39;utilisation de champs calculés dans une activité de workflow **[!UICONTROL Réponses au questionnaire]**. (NEO-11382)
 * Correction d’un problème lors de l’utilisation de données stockées en XML dans une activité de workflow **[!UICONTROL Réponses au questionnaire]**. (NEO-10816)

@@ -9,7 +9,7 @@ exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
 source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
 source-wordcount: '1559'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ _17 février 2020_
 
 * Amélioration de la gestion des quarantaines et du nettoyage des tables utilisées par la fonction de notification push (nms:address et nms:appSubscriptionRcp). Pour iOS (connecteur HTTP2 uniquement), les jetons désactivés sont maintenant gérés de la même manière que pour Android. Le drapeau disable est maintenant défini dans la table NmsAppSubscriptionRcp. [En savoir plus](../../production/using/database-cleanup-workflow.md#subscription-cleanup--nmac-)
 
-* Une nouvelle option a été ajoutée dans les activités de workflow **Code JavaScript** et **Code JavaScript avancé** pour définir un délai d’expiration. Cela évite que la phase d’exécution JavaScript ne s’exécute trop longtemps. Une fois le délai d’expiration écoulé, le workflow est arrêté. Le délai d’expiration par défaut est d’une heure. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md)
+* Une nouvelle option a été ajoutée dans les activités de workflow **Code JavaScript** et **Code JavaScript avancé** pour définir un délai d’expiration. Cela permet dʼéviter une phase dʼexécution JavaScript trop longue. Une fois le délai d’expiration écoulé, le workflow est arrêté. Le délai d’expiration par défaut est d’une heure. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md)
 
 * L’analyse de diffusion est désormais arrêtée lorsqu’aucune affinité correspondante n’a été trouvée sur le serveur de mid-sourcing. Le message d’erreur associé est ensuite affiché.
 

@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Mises à jour de la documentation de Adobe Campaign Classic v7
+title: Mises à jour de la documentation dʼAdobe Campaign Classic v7
 description: Cette page répertorie toutes les nouvelles fonctionnalités et les mises à jour de la documentation d’Adobe Campaign Classic
 feature: Overview
 role: User
@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: cee019432c64eaaefac86a27b731355242fd1555
 workflow-type: tm+mt
 source-wordcount: '4580'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usin
 
 ## Octobre 2021{#oct-2021}
 
-Les notes techniques existantes ont été regroupées dans la nouvelle section **Technote**.
+Les notes techniques existantes ont été rassemblées dans la nouvelle section **Notes techniques**.
 
-La page **Recommandations de dimensionnement du matériel** a été mise à jour et ajoutée à la section **Notes techniques**. [En savoir plus](../../technotes/using/hardware-sizing.md)
+La page **Recommandations relatives au dimensionnement du matériel** a été mise à jour et ajoutée à la section **Notes techniques**. [En savoir plus](../../technotes/using/hardware-sizing.md)
 
 ## Septembre 2021{#sept-2021}
 
@@ -33,9 +33,9 @@ La page **Recommandations de dimensionnement du matériel** a été mise à jour
 
 Le type de graphique **Jauge** a été supprimé.
 
-Les captures d’écran et paramètres des rapports et applications web ont été mis à jour suite à la suppression du Flash d’Adobe.
+Les captures dʼécran et paramètres des rapports et applications Web ont été mis à jour suite à la suppression dʼAdobe Flash.
 
-La description du [workflow technique de facturation](../../production/using/monitoring-processes.md#billing-report) a été mise à jour avec une nouvelle barrière de sécurité.
+La description du [workflow technique de facturation](../../production/using/monitoring-processes.md#billing-report) a été mise à jour avec une nouvelle limite de protection.
 
 ## Août 2021{#aug-2021}
 
@@ -282,7 +282,7 @@ La page Gestion de la confidentialité dans Campaign Classic a été mise à jou
 
 La page de présentation de la gestion des données personnelles a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne sur la protection des données (Lei Geral de Proteção de Dados - LGPD). [En savoir plus](../../platform/using/privacy-and-recommendations.md)
 
-Ajout d’informations sur les logs et le comportement des sous-workflows en cas d’erreur - [En savoir plus](../../workflow/using/sub-workflow.md)
+Des informations ont été ajoutées sur les journaux des sous-workflows et sur le comportement en cas dʼerreur. [En savoir plus](../../workflow/using/sub-workflow.md)
 
 Des bonnes pratiques ont été ajoutées dans la section sur l’activité **[!UICONTROL Planificateur]**. [En savoir plus](../../workflow/using/scheduler.md)
 
@@ -392,7 +392,7 @@ Améliorations apportées au connecteur FDA Hadoop - [En savoir plus](../../inst
 
 Les guides [d’installation](../../installation/using/general-architecture.md), de [production](../../production/using/foreword.md) et de [configuration](../../configuration/using/additional-parameters.md) ont été mis à jour avec la nouvelle unité systemd utilisée par le démarrage du service nlserver. Vous pouvez encore utiliser /etc/init.d/nlserver6, mais Adobe recommande maintenant d’appliquer la commande systemctl pour interagir avec le service nlserver.
 
-Le guide d&#39;installation a été mis à jour et synchronisé avec la dernière version de la matrice de compatibilité. Les nouveaux systèmes pris en charge ont été ajoutés. Les occurrences de systèmes obsolètes et non pris en charge ont été supprimées. [En savoir plus](../../installation/using/general-architecture.md)
+Le guide dʼinstallation a été mis à jour et synchronisé avec la dernière version de la matrice de compatibilité. De nouveaux systèmes pris en charge ont été ajoutés. Les systèmes obsolètes et non pris en charge ont été supprimés. [En savoir plus](../../installation/using/general-architecture.md)
 
 La matrice de compatibilité a été mise à jour en y intégrant les connecteurs FDA Hadoop 3.0 et Snowflake. [En savoir plus](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 

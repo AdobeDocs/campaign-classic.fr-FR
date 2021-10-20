@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '1657'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -113,8 +113,8 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
    <td>À compter de la version 18.10 de Campaign, les fonctionnalités de marketing prédictif ne sont plus disponibles.</td>
   </tr> 
   <tr> 
-   <td>Applications web - Microsites</td>
-   <td>À compter de la version 18.10 de Campaign, les microsites ne sont plus disponibles. Vous pouvez améliorer la sécurité en limitant l’accès aux seuls domaines dédiés des fichiers de configuration d’Adobe Campaign et utiliser des URL personnalisées dans Campaign à l’aide d’alias DNS.</td>
+   <td>Applications Web - Microsites</td>
+   <td>À compter de la version 18.10 de Campaign, les microsites ne sont plus disponibles. Vous pouvez améliorer la sécurité en limitant lʼaccès aux seuls domaines dédiés des fichiers de configuration dʼAdobe Campaign et utiliser des URL personnalisées dans Campaign à lʼaide dʼalias DNS.</td>
   </tr> 
   <tr> 
    <td>Notifications push - Connecteur binaire iOS</td>

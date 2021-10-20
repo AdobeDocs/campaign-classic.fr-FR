@@ -6,7 +6,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: acb2c4e90c4ce349ea9c1ad53d703c13195872e1
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 81%
 
 * **[La version de septembre est publiée.](rn/using/latest-release.md)**<br/> Découvrez les nouvelles fonctionnalités, améliorations et correctifs dans les notes de mise à jour
 
-* **[](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)** FAQ et  **[](technotes/using/apple-mail-app-privacy-protection.md)**<br/> technote sur la protection de la confidentialité d’Apple MailTrouvez des conseils initiaux en réponse à l’annonce d’Apple concernant iOS 15
+* **[FAQ sur la protection de la confidentialité dʼApple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=fr)** et **[note technique](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Trouvez des conseils préliminaires en réponse à lʼannonce dʼApple concernant iOS 15.
 
 * **[Mise à niveau vers les derniers builds (connexion via IMS/Adobe ID)](technotes/using/ims-updates.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter après le** 30 juin 2021 **
 
 * **[Suppression des erreurs hard incorrectes](delivery/using/update-bounce-qualification.md)**<br/> Découvrez comment mettre à jour les erreurs hard incorrectes après une panne d’Apple.
 
-* **[Sécurisation des instances Campaign](technotes/using/acc-config-updates.md)**<br/> Effectuez une mise à jour vers les derniers builds pour sécuriser votre plateforme Campaign
+* **[Sécurisation des instances Campaign](technotes/using/acc-config-updates.md)**<br/> Effectuez une mise à jour vers les derniers builds pour sécuriser votre plateforme Campaign.
 
-* **[Mettre à jour votre ](integrations/using/configuring-adobe-io.md)**<br/> intégration Adobe Experience Cloud Triggers. Le service d’authentification oAuth hérité a atteint la fin de vie : vous devez migrer vers Adobe I/O.
+* **[Mise à jour de votre intégration Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)**<br/> Lʼancien service dʼauthentification oAuth tire sa révérence : vous devez migrer vers Adobe I/O.
 
 [Autres mises à jour](rn/using/documentation-updates.md)
 
