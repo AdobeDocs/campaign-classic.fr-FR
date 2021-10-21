@@ -267,7 +267,7 @@ ht-degree: 100%
 + Marketing Resource Management (Gestion des ressources marketing){#mrm}
    + [À propos de la gestion des ressources marketing](mrm/using/about-marketing-resource-management.md)
    + [Création et gestion de tâches](mrm/using/creating-and-managing-tasks.md)
-   + [Coûts de contrôle](mrm/using/controlling-costs.md)
+   + [Contrôle des coûts](mrm/using/controlling-costs.md)
    + [Gestion des ressources marketing](mrm/using/managing-marketing-resources.md)
    + [Forums de discussion](mrm/using/discussion-forums.md)
 + Marketing distribué {#distributed-marketing}
