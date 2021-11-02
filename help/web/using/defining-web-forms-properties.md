@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 98%
 
 ![](../../assets/common.svg)
 
-Vous pouvez entièrement configurer et personnaliser des formulaires web pour répondre à vos besoins. Les paramètres doivent être renseignés dans la fenêtre des propriétés.
+Vous pouvez configurer et personnaliser entièrement les formulaires web pour répondre à vos besoins. Les paramètres doivent être renseignés dans la fenêtre des propriétés.
 
-La fenêtre des propriétés est accessible à partir du bouton **[!UICONTROL Propriétés]** situé dans la barre d&#39;outils du formulaire Web. Cette fenêtre permet d&#39;accéder à un ensemble de paramétrages spécifiques au formulaire Web. Certains paramètres peuvent être issus du paramétrage du modèle.
+La fenêtre des propriétés est accessible à partir du bouton **[!UICONTROL Propriétés]** situé dans la barre d’outils du formulaire web. Cette fenêtre permet d’accéder à un ensemble de paramètres spécifiques au formulaire web. Certains paramètres peuvent être issus du paramétrage du modèle.
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 
@@ -117,13 +117,13 @@ Lors de l&#39;accès au formulaire, la page d&#39;authentification suivante sera
 
 Les login et mot de passe sont ceux des opérateurs Adobe Campaign. Voir à ce sujet [cette section](../../platform/using/access-management.md).
 
-L&#39;option **[!UICONTROL Utiliser un compte spécifique]** permet de circonscrire les droits en lecture ou écriture de l&#39;opérateur accédant au formulaire. Sélectionnez dans la liste déroulante un opérateur ou groupe d&#39;opérateurs référent pour définir ces permissions.
+L&#39;option **[!UICONTROL Utiliser un compte spécifique]** permet de circonscrire les droits en lecture ou écriture de l&#39;opérateur accédant au formulaire. Sélectionnez dans la liste déroulante un opérateur ou groupe d&#39;opérateurs référent pour définir ces autorisations.
 
 ![](assets/s_ncs_admin_survey_access_op_select.png)
 
 ## Paramètres d&#39;URL de formulaire {#form-url-parameters}
 
-Vous pouvez ajouter des paramètres complémentaires dans l&#39;URL d&#39;un formulaire afin d&#39;en personnaliser le contenu et d&#39;initialiser un contexte. Ainsi, par exemple, la langue d&#39;édition, l&#39;identifiant crypté du destinataire, sa société, une formule calculée stockée dans une variable, etc. Vous pouvez ainsi donner accès à un même formulaire via plusieurs URL différentes et personnaliser le contenu des pages en fonction de la valeur du ou des paramètres indiqués dans l&#39;URL.
+Vous pouvez ajouter des paramètres complémentaires dans l&#39;URL d&#39;un formulaire afin d&#39;en personnaliser le contenu et d&#39;initialiser un contexte. Ainsi, par exemple, la langue d&#39;édition, l&#39;identifiant chiffré du destinataire, sa société, une formule calculée stockée dans une variable, etc. Vous pouvez ainsi donner accès à un même formulaire via plusieurs URL différentes et personnaliser le contenu des pages en fonction de la valeur du ou des paramètres indiqués dans l&#39;URL.
 
 Adobe Campaign propose par défaut des paramètres qui permettent notamment de prévisualiser le formulaire et en contrôler les erreurs. Vous pouvez créer de nouveaux paramètres, attachés au formulaire, et qui peuvent utiliser les valeurs d&#39;un champ de la base ou d&#39;une variable locale.
 
@@ -131,7 +131,7 @@ Adobe Campaign propose par défaut des paramètres qui permettent notamment de p
 
 Par défaut, les paramètres suivants sont disponibles :
 
-* **id** pour indiquer l&#39;identifiant crypté.
+* **id** pour indiquer l&#39;identifiant chiffré.
 * **lang** pour modifier la langue d&#39;affichage.
 * **origin** pour indiquer l&#39;origine du répondant.
 * **_uuid** permet la visualisation d&#39;un formulaire non publié et le tracking des erreurs. Ce paramètre doit être utilisé pour une utilisation interne (création et débogage) : lorsque vous accédez au formulaire Web via cette URL, les enregistrements créés ne sont pas pris en compte dans le suivi (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
