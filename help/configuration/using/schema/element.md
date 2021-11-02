@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
    * &quot;smartCase&quot;: premières lettres en majuscule
    * &quot;lowerCase&quot;: tout en minuscule
    * &quot;upperCase&quot;: tout en majuscule
-   * &quot;email&quot;: adresse email
+   * &quot;email&quot; : adresse email
    * &quot;phone&quot;: numéro de téléphone
    * &quot;identifier&quot;: nom d&#39;identifiant
    * &quot;resIdentifier&quot;: nom de fichier
