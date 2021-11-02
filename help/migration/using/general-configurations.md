@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: configuration
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 source-git-commit: eef2a12738ce299686857720c3dc8456ffdd0c80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2719'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -631,7 +631,7 @@ Il existe deux familles d&#39;applications web :
 
 ### Applications web identifiées {#identified-web-applications}
 
-Tout comme pour les rapports ([en savoir plus](#reports)), si vous avez ajouté JavaScript, vous devez vérifier et vous adapter si nécessaire. Si vous souhaitez bénéficier de la bannière bleue v7 (qui contient les onglets bleus), vous devez republier l’application web.
+Tout comme pour les rapports ([en savoir plus](#reports)), si vous avez ajouté JavaScript, vous devez vérifier et vous adapter si nécessaire. Si vous souhaitez bénéficier de la bannière bleue v7 (qui contient les onglets bleus), vous devez republier l’application web.
 
 Les méthodes de connexion aux applications Web ont changé dans v7. Si vous rencontrez des problèmes de connexion dans les applications Web identifiées, vous devez activer temporairement les options **allowUserPassword** et **sessionTokenOnly** dans le fichier **serverConf.xml**. Après la mise à niveau, modifiez les valeurs des options suivantes :
 
@@ -661,7 +661,7 @@ sessionTokenOnly="false"
 
 ### Applications web anonymes {#anonymous-web-applications}
 
-Si vous rencontrez des problèmes, republiez l&#39;application web.
+Si vous rencontrez le moindre problème, republiez l’application web.
 
 ## Red Hat {#red-hat}
 
