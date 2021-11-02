@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: acs-connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '857'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Pour ce faire, les éléments suivants sont nécessaires :
 
 * Des destinataires stockés dans la base de données de Campaign v7 et synchronisés avec Campaign Standard. Consultez la section [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md).
 * Un service et une application web créés et publiés dans Campaign v7.
-* L&#39;application web doit contenir une activité **[!UICONTROL Pré-chargement]** utilisant la méthode d&#39;identification **[!UICONTROL Cryptage Adobe Campaign]**.
+* L&#39;application web doit contenir une activité **[!UICONTROL Pré-chargement]** utilisant la méthode d&#39;identification **[!UICONTROL Chiffrement Adobe Campaign]**.
 
 ## Création de l&#39;application web et du service {#creating-the-web-application-and-service}
 
@@ -42,11 +42,11 @@ Dans Campaign v7, les objets suivants ont été créés :
 
    ![](assets/acs_connect_lp_2.png)
 
-1. Editez l&#39;activité **[!UICONTROL Pré-chargement]**. La case **[!UICONTROL Chargement automatique des données référencées dans le formulaire]** est cochée et la méthode d&#39;identification **[!UICONTROL Cryptage Adobe Campaign]** est sélectionnée. L&#39;application web peut ainsi précharger les champs du formulaire avec les données stockées dans la base de données d&#39;Adobe Campaign. Pour plus d&#39;informations, consultez [ce document](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
+1. Modifiez l&#39;activité **[!UICONTROL Pré-chargement]**. La case **[!UICONTROL Chargement automatique des données référencées dans le formulaire]** est cochée et la méthode d&#39;identification **[!UICONTROL Chiffrement Adobe Campaign]** est sélectionnée. L&#39;application web peut ainsi précharger les champs du formulaire avec les données stockées dans la base de données d&#39;Adobe Campaign. Pour plus d&#39;informations, consultez [ce document](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
 
    ![](assets/acs_connect_lp_4.png)
 
-1. Editez la **[!UICONTROL Page]**. Trois champs (Nom, Email et Téléphone) ont été ajoutés, ainsi qu&#39;une case à cocher invitant le destinataire à s&#39;inscrire à une newsletter (service **[!UICONTROL Newsletter]**).
+1. Modifiez la **[!UICONTROL Page]**. Trois champs (Nom, Email et Téléphone) ont été ajoutés, ainsi qu&#39;une case à cocher invitant le destinataire à s&#39;inscrire à une newsletter (service **[!UICONTROL Newsletter]**).
 
    ![](assets/acs_connect_lp_3.png)
 
@@ -70,7 +70,7 @@ Pour vérifier que les données ont été correctement répliquées, suivez la p
 
    ![](assets/acs_connect_lp_7.png)
 
-1. Recherchez votre destinataire Campaign v7 et vérifiez que ce destinataire apparaît dans Campaign Standard.
+1. Recherchez votre destinataire Campaign v7 et vérifiez qu’il apparaît dans Campaign Standard.
 
    ![](assets/acs_connect_lp_8.png)
 
@@ -102,7 +102,7 @@ Les étapes de création, de conception et d&#39;envoi de l&#39;email sont les m
 
    ![](assets/acs_connect_lp_14.png)
 
-1. Ce destinataire ajoute un numéro de téléphone et coche la case d&#39;inscription à la newsletter.
+1. Ce destinataire ajoute un numéro de téléphone et coche la case d’inscription à la newsletter.
 
    ![](assets/acs_connect_lp_15.png)
 
@@ -118,7 +118,7 @@ Lorsque le destinataire met ses informations à jour via l&#39;application web, 
 
    ![](assets/acs_connect_lp_17.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Abonnements]**, nous pouvons également constater que ce destinataire s&#39;est inscrit au service de newsletter.
+1. Dans l’onglet **[!UICONTROL Abonnements]**, vous pouvez également constater que le destinataire s’est inscrit au service de newsletter.
 
    ![](assets/acs_connect_lp_18.png)
 
