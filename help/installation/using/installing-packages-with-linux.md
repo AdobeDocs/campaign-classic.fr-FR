@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 source-git-commit: c281d437907efb4d514bec7cacc698c383f3fe53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Pour installer Adobe Campaign 64 bits sur un système d&#39;exploitation Debian 
    dpkg -i nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
 
-   S’il manque des dépendances, exécutez la commande suivante :
+   S’il manque des dépendances, exécutez la commande suivante :
 
    ```
    apt-get install -f
