@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1553'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
    * &quot;smartCase&quot;: premières lettres en majuscule
    * &quot;lowerCase&quot;: tout en minuscule
    * &quot;upperCase&quot;: tout en majuscule
-   * &quot;email&quot;: adresse email
+   * &quot;email&quot; : adresse email
    * &quot;phone&quot;: numéro de téléphone
    * &quot;identifier&quot;: nom d&#39;identifiant
    * &quot;resIdentifier&quot;: nom de fichier
@@ -119,11 +119,11 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
 * **ref (string)** : cet attribut définit une référence à un élément `<attribute>` partagé par plusieurs schémas (factorisation des définitions). La définition n’est pas copiée dans le schéma actuel.
 * **required (boolean)**: si cet attribut est activé (@required=&quot;true&quot;), le champ est mis en avant dans l&#39;interface. Le label du champ est affiché en rouge dans un formulaire.
 * **sql (boolean)**: si cet attribut est activé (@sql=&quot;true&quot;), il force le stockage de l&#39;attribut en SQL même lorsque l&#39;élément contenant l&#39;attribut a la propriété xml=&quot;true&quot;.
-* **sqlDefault (string)**: cet attribut permet de définir la valeur par défaut qui sera prise en compte pour la mise à jour de la base de données uniquement si l&#39;attribut &quot;@notNull&quot; est activé. Si cet attribut est ajouté après la création de l’attribut, le comportement du schéma ne changera pas, même pour les nouveaux enregistrements. Pour modifier le schéma et mettre à jour la valeur des nouveaux enregistrements, vous devez supprimer et créer à nouveau l’attribut.
+* **sqlDefault (string)**: cet attribut permet de définir la valeur par défaut qui sera prise en compte pour la mise à jour de la base de données uniquement si l&#39;attribut &quot;@notNull&quot; est activé. Si cet attribut est ajouté après la création de l’attribut, le comportement du schéma ne change pas, même pour les nouveaux enregistrements. Pour modifier le schéma et mettre à jour la valeur des nouveaux enregistrements, vous devez supprimer et créer à nouveau l’attribut.
 * **sqlname (string)**: nom du champ lors de la création de la table. Si &quot;@sqlname&quot; n&#39;est pas précisé la valeur de l&#39;attribut &quot;@name&quot; est pris par défaut. Lors de l&#39;écriture du schéma en base, des préfixes sont automatiquement rajoutés en fonction du type du champ.
 * **template (string)** : cet attribut définit une référence à un élément `<attribute>` partagé par plusieurs schémas. La définition est automatiquement copiée dans le schéma actuel.
 * **translatedDefault (string)**: si un attribut &quot;@default&quot; est présent, l&#39;attribut &quot;@translatedDefault&quot; permet de redéfinir une expression, correspondante de l&#39;expression définie dans &quot;@default&quot;, qui sera collectée par l&#39;outil de traduction (usage interne).
-* **translatedExpr (string)**: si un attribut &quot;@expr&quot; est présent, l&#39;attribut &quot;@translatedExpr&quot; permet de redéfinir une expression correspondant à celle définie dans @expr, qui sera collectée par l&#39;outil de traduction (usage interne).
+* **translatedExpr (chaîne)** : si un attribut « @expr » est présent, l’attribut « @translatedExpr » permet de redéfinir une expression, correspondant à l’expression définie dans « @expr », qui sera collectée par l’outil de traduction (usage interne).
 * **type (MNTOKEN)**: type du champ.
 
    Les types de champs sont génériques. C&#39;est en fonction du type de base de donnée installé qu&#39;Adobe Campaign transforme le type défini en valeur propre à la base de données installées lors de la mise à jour de la structure.
