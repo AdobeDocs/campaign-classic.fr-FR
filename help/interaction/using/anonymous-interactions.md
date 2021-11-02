@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: unitary-interactions
 exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
 source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -43,11 +43,11 @@ Pour créer des catégories et des emplacements, appliquez le même processus qu
 
 ## Les visiteurs anonymes {#anonymous-visitors}
 
-Les visiteurs anonymes peuvent être soumis à un processus d&#39;identification par cookies intervenant au moment de la connexion. Cette reconnaissance implicite s&#39;effectue à partir de l&#39;historique de navigation du visiteur.
+Les visiteurs anonymes peuvent être soumis à un processus d’identification par cookies intervenant au moment de la connexion. Cette reconnaissance implicite s’effectue à partir de l’historique de navigation du visiteur.
 
-Au cours de cette étape, une comparaison est effectuée entre les données récupérées par les cookies et celles contenues dans votre base de données. Dans certains cas, les visiteurs sont reconnus (ils sont alors identifiés implicitement), dans d’autres cas, ils ne sont pas reconnus (et restent donc anonymes).
+Au cours de cette étape, une comparaison est effectuée entre les données récupérées par les cookies et celles qui se trouvent dans votre base de données. Dans certains cas, les visiteurs sont reconnus (ils sont alors identifiés implicitement) ; dans d’autres cas, ils ne le sont pas (et restent donc anonymes).
 
-Afin d&#39;effectuer cette analyse, au niveau de l&#39;emplacement, cochez la case **[!UICONTROL Identifier implicitement l&#39;individu à partir de son historique de navigation]**.
+Afin d’effectuer cette analyse, au niveau de l’emplacement, cochez la case **[!UICONTROL Identifier implicitement l’individu à partir de son historique de navigation]**.
 
 ![](assets/identification_anonymous_visitors.png)
 
