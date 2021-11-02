@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-cases
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1541'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
 Votre transition sortante contiendra les destinataires n&#39;ayant pas ouvert d&#39;email au cours des 7 derniers jours.
 
-Si, au contraire, vous souhaitez filtrer les destinataires ayant ouvert au moins un email, votre requête doit être la suivante. Dans ce cas, la **[!UICONTROL Dimension de filtrage]** doit être définie sur **[!UICONTROL Logs de tracking (Recipients)]**.
+Si, au contraire, vous souhaitez filtrer les destinataires ayant ouvert au moins un email, votre requête doit être la suivante. Notez que, dans ce cas, la **[!UICONTROL Dimension de filtrage]** doit être définie sur **[!UICONTROL Logs de tracking (destinataires)]**.
 
 ![](assets/query_open_5.png)
 
@@ -179,7 +179,7 @@ L&#39;exemple suivant montre comment cibler les profils ayant ouvert une diffusi
 
    ![](assets/s_advuser_query_sample1.6.png)
 
-## Filtrer le comportement des destinataires suite à une diffusion {#filtering-recipients--behavior-folllowing-a-delivery}
+## Filtrage du comportement des destinataires après une diffusion {#filtering-recipients--behavior-folllowing-a-delivery}
 
 Dans un workflow, les boîtes **[!UICONTROL Requête]** et **[!UICONTROL Partage]** permettent de sélectionner un comportement, suite à une précédente diffusion. Cette sélection se fait à partir du filtre **[!UICONTROL Destinataire d&#39;une diffusion]**.
 
