@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: 830c4146d72cd5a744d026a499cfe8613a255da7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Après l&#39;envoi de cette demande, Adobe effectue l&#39;approvisionnement de l
 Nous devons tout d&#39;abord configurer ou vérifier les comptes externes d&#39;Adobe Campaign en procédant comme suit :
 
 1. Cliquez sur l&#39;icône **[!UICONTROL Explorateur]**.
-1. Accédez à **[!UICONTROL Administration > Plate-forme > Comptes externes]**. Les comptes SFTP mentionnés doivent avoir été configurés par Adobe. De plus, les informations nécessaires ont dû vous être communiquées.
+1. Accédez à **[!UICONTROL Administration > Plateforme > Comptes externes]**. Les comptes SFTP mentionnés doivent avoir été configurés par Adobe. De plus, les informations nécessaires ont dû vous être communiquées.
 
    * **[!UICONTROL importSharedAudience]** : compte dédié à l&#39;import d&#39;audiences.
    * **[!UICONTROL exportSharedAudience]** : compte dédié à l&#39;export d&#39;audiences.
@@ -72,7 +72,7 @@ La source de données **Destinataires - Id Visiteur** est créée dans Audience 
 
 Pour configurer la source de données **[!UICONTROL Destinataires - Id Visiteur]** :
 
-1. Depuis le nœud **[!UICONTROL Explorateur]**, sélectionnez **[!UICONTROL Administration > Plate-forme > AMC Data sources]**.
+1. Depuis le nœud **[!UICONTROL Explorateur]**, sélectionnez **[!UICONTROL Administration > Plateforme > AMC Data sources]**.
 1. Sélectionnez **[!UICONTROL Destinataire - Id Visiteur]**.
 1. Saisissez le **[!UICONTROL Data Source ID]** et le **[!UICONTROL AAM Destination ID]** fournis par Adobe.
 
