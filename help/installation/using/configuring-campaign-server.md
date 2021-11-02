@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1580'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Ce chapitre décrit les configurations côté serveur qui peuvent être exécut�
 
 Ces procédures sont limitées aux déploiements **On-premise**/**hybrides** et nécessitent des autorisations d’administration.
 
-Pour les déploiements **hébergés**, les paramètres côté serveur ne peuvent être configurés que par Adobe. Cependant, certains paramètres peuvent être configurés dans le [panneau de contrôle de Campaign ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr), comme la gestion des listes d’adresses IP autorisées ou les autorisations d’URL. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr).
+Pour les déploiements **hébergés**, les paramètres côté serveur ne peuvent être configurés que par Adobe. Cependant, certains paramètres peuvent être configurés dans le [Panneau de contrôle de Campaign ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr), comme la gestion des listes d’adresses IP autorisées ou les autorisations d’URL. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr).
 
 Pour plus d’informations, consultez les sections suivantes :
 
-* [Documentation relative au panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
+* [Documentation relative au Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
 * [Modèles d&#39;hébergement](../../installation/using/hosting-models.md)
 * [Matrice des fonctionnalités On-premise et hébergées de Campaign Classic](../../installation/using/capability-matrix.md)
 
@@ -159,7 +159,7 @@ Adobe Campaign utilise les pages JSP suivantes :
 * /nl/jsp/**logon.jsp** : accès aux rapports par le Web et au déploiement de la console cliente,
 * /nl/jsp/**s.jsp** : utilisation du marketing viral (parrainage et réseaux sociaux).
 
-Les JSSP utilisées pour Mobile App Channel sont les suivantes :
+Les JSSP utilisées pour le canal des applications mobiles sont les suivantes :
 
 * nms/mobile/1/registerIOS.jssp
 * nms/mobile/1/registerAndroid.jssp
@@ -232,7 +232,7 @@ sh
 
 Dans le nœud **exec** du fichier de configuration du serveur, vous devez référencer le fichier précédemment créé dans l&#39;attribut **blacklistFile**.
 
-**Pour Linux uniquement** : dans le fichier de configuration du serveur, nous vous recommandons de spécifier un utilisateur dédié à l&#39;exécution des commandes externes afin d&#39;améliorer votre configuration de sécurité. Cet utilisateur est défini dans le nœud **exec** du fichier de configuration. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
+**Pour Linux uniquement** : dans le fichier de configuration du serveur, nous vous recommandons de spécifier un utilisateur dédié à l’exécution de commandes externes afin d’améliorer votre configuration de sécurité. Cet utilisateur est défini dans le nœud **exec** du fichier de configuration. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
 >[!NOTE]
 >
