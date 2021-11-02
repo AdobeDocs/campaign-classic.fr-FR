@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Afin de visualiser et de dialoguer avec la nouvelle table des destinataires dans
 
 Au préalable, Adobe Campaign utilise une variable globale &quot;Nms_DefaultRcpSchema&quot; pour dialoguer avec la base de destinataires installée par défaut (nms:recipient). Il convient donc de modifier cette variable.
 
-1. Ouvrez le noeud **[!UICONTROL Administration > Plate-forme > Options]** dans l&#39;explorateur.
+1. Ouvrez le noeud **[!UICONTROL Administration > Plateforme > Options]** dans l&#39;explorateur.
 1. Modifiez la valeur de la variable **Nms_DefaultRcpSchema** avec le nom du schéma correspondant à la table externe des destinataires (dans notre exemple : cus:individual).
 1. Enregistrez les modifications.
 
@@ -39,7 +39,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
 
 1. Ouvrez le nœud **Administration > Paramétrage > Formulaires de saisie** dans l&#39;explorateur.
 1. Créez un nouveau fichier **form** de type **xtk:form**.
-1. Décrivez tous les champs de monitoring et champs nécessaires en fonction de votre modèle de table.
+1. Décrivez tous les contrôles et champs dont vous avez besoin en fonction de votre modèle de table.
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
 
 1. Ouvrez le noeud **[!UICONTROL Administration > Paramétrage > Arborescences de navigation]** dans l&#39;explorateur.
 1. Créez un nouveau document **navtree** de type **xtk:navtree**
-1. Décrivez tous les champs de monitoring et champs nécessaires en fonction de votre modèle de table.
+1. Décrivez tous les contrôles et champs dont vous avez besoin en fonction de votre modèle de table.
 
    >[!NOTE]
    >
