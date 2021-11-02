@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1205'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Une partie de cette configuration est un travail de développement personnalisé
 
 * connaissances opérationnelles de l’analyse JSON, XML et Javascript dans Adobe Campaign,
 * connaissances opérationnelles des API QueryDef et Writer,
-* notions de cryptage et d&#39;authentification à l’aide de clés privées.
+* notions de chiffrement et d&#39;authentification à l’aide de clés privées.
 
 Étant donné que la modification du code JavaScript nécessite des compétences techniques, veuillez ne pas la modifier pas si vous ne le maîtrisez pas.
 
@@ -30,7 +30,7 @@ Une partie de cette configuration est un travail de développement personnalisé
 
 Pipeline utilise une fonction JavaScript pour traiter chaque message. Cette fonction est définie par l’utilisateur.
 
-Elle est configurée dans l’option **[!UICONTROL NmsPipeline_Config]** sous l’attribut « JSConnector ». Ce code JavaScript est appelé chaque fois qu’un événement est reçu. Il est exécuté par le processus [!DNL pipelined].
+Elle est configurée dans l’option **[!UICONTROL NmsPipeline_Config]** sous l’attribut « JSConnector ». Ce JavaScript est appelé chaque fois qu’un événement est reçu. Il est exécuté par le processus [!DNL pipelined].
 
 L’exemple de fichier JavaScript est cus:triggers.js.
 
