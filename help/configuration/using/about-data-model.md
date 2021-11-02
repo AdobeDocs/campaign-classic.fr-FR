@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Les avantages d&#39;une table de destinataires native sont les suivants :
 * Des fonctionnalités natives telles que les abonnements, les listes de contrôle, etc.
 * Disposer d&#39;une base de données marketing dotée d&#39;un modèle de données axé sur les destinataires.
 * Permettre une mise en œuvre plus rapide.
-* Faciliter la maintenance par l&#39;assistance et les partenaires.
+* Des prestations de maintenance facilitées de la part de l&#39;assistance et des partenaires.
 
 Il est toutefois possible d&#39;étendre la table des destinataires, mais sans réduire le nombre de champs ou de liens qu&#39;elle contient.
 
