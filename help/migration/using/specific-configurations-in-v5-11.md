@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: configuration
 exl-id: 978e1249-f79b-4f5f-9a94-3bb2510785de
 source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
 ht-degree: 100%
 
@@ -133,7 +133,7 @@ Les dossiers à ajouter après la migration sont les suivants :
 | nmsProduction | Production | - |
 | nmsProfilProcess | Traitements | - |
 | xtkDashboard | Tableaux de bord | - |
-| xtkPlatformAdmin | Plate-forme | - |
+| xtkPlatformAdmin | Plateforme | - |
 | nmsLocalOrgUnit | Entités organisationnelles | - |
 | nmsMRM | MRM | MRM installé |
 | nmsOperations | Opérations | Campaign installé |
