@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 ajouter screenshot -->
 
-Une fois qu&#39;une diffusion a été envoyée, le tableau de bord de la diffusion affiche un état qui vous permet de vérifier si l&#39;envoi a réussi. Les statuts possibles sont détaillés dans la section ci-dessous.
+Une fois qu’une diffusion a été envoyée, le tableau de bord de diffusion affiche un statut qui vous permet de vérifier si l’envoi a réussi. Les statuts possibles sont détaillés dans la section ci-dessous.
 
 ![](assets/delivery-status.png)
 
@@ -97,7 +97,7 @@ Le statut **[!UICONTROL En attente]** peut d&#39;abord signifier que votre diffu
 
 Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL En attente]**, la raison peut en être la suivante :
 
-* Le MTA (Message Transfer Agent), qui exécute les modules et les processus sur le serveur de diffusion et qui gère l&#39;envoi des emails, peut ne pas avoir été démarré ou doit être redémarré.
+* Le Message Transfert Agent (MTA) qui exécute les modules et les processus sur le serveur de diffusion et qui gère l’envoi des e-mails peut ne pas avoir été lancé ou doit être redémarré.
 
    Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
 
