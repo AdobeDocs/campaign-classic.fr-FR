@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7969'
 ht-degree: 100%
 
@@ -318,8 +318,8 @@ Dans le nœud **dataStore > dataSource > dbcnx**, configurez les paramètres d
    <td> </td> 
   </tr> 
   <tr> 
-   <td> encrypted<br /> </td> 
-   <td> Mot de passe crypté<br /> </td> 
+   <td> chiffré<br /> </td> 
+   <td> Mot de passe chiffré<br /> </td> 
    <td> Booléen<br /> </td> 
    <td> </td> 
   </tr> 
@@ -437,7 +437,7 @@ Pour plus d&#39;informations, voir la section [Gestion des ressources publiques]
  </thead> 
  <tbody> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom du répertoire virtuel <br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -481,7 +481,7 @@ Voici les différents paramètres du nœud **dataStore > preprocessCommand**. I
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom de ligne de commande<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -661,13 +661,13 @@ Voici les différents paramètres du nœud **IMS**. Il s&#39;agit de la configur
   </tr> 
   <tr> 
    <td> authIMSClientSecret<br /> </td> 
-   <td> Clé secrète (cryptée en AES)<br /> </td> 
+   <td> Clé secrète (chiffrée en AES)<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> authIMSCode<br /> </td> 
-   <td> Code d'autorisation (cryptée en AES)<br /> </td> 
+   <td> Code d'autorisation (chiffrée en AES)<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -685,7 +685,7 @@ Voici les différents paramètres du nœud **IMS**. Il s&#39;agit de la configur
   </tr> 
   <tr> 
    <td> authIMSTAClientSecret<br /> </td> 
-   <td> Clé secrète de compte technique (cryptée en AES)<br /> </td> 
+   <td> Clé secrète de compte technique (chiffrée en AES)<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -697,7 +697,7 @@ Voici les différents paramètres du nœud **IMS**. Il s&#39;agit de la configur
   </tr> 
   <tr> 
    <td> authIMSTAPrivateKey<br /> </td> 
-   <td> Clé privée de compte technique (cryptée en AES)<br /> </td> 
+   <td> Clé privée de compte technique (chiffrée en AES)<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1914,7 +1914,7 @@ Pour plus d&#39;informations, voir les sections [Liste des adresses IP à utilis
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom logique : noms associés à l’affinité par les utilisateurs. Le séparateur des noms est un point-virgule ;<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -2059,7 +2059,7 @@ Voici les différents paramètres du nœud **pipelined**. Il s’agit de la conf
   </tr> 
   <tr> 
    <td> authPrivateKey<br /> </td> 
-   <td> Clé privée pour obtenir les jetons (cryptée en AES avec l’option XtkKey).<br /> </td> 
+   <td> Clé privée pour obtenir les jetons (chiffrée en AES avec l’option XtkKey).<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2244,7 +2244,7 @@ Pour plus d’informations, voir la section [Définition des zones de sécurité
    <td> NewLabel()<br /> </td> 
   </tr> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom interne<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewName() <br /> </td> 
@@ -2318,7 +2318,7 @@ Pour plus d’informations, voir la section [Définition des zones de sécurité
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom interne<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewName() <br /> </td> 
@@ -3249,7 +3249,7 @@ Pour plus d&#39;informations, voir la section [Gestion des en-têtes HTTP (HTTP 
  </thead> 
  <tbody> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom de l’en-tête<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
