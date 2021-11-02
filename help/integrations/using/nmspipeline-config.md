@@ -5,9 +5,9 @@ description: Configuration de l'intégration
 audience: integrations
 content-type: reference
 source-git-commit: c6d5e597a02a1210507b0c6d84ab7d170e877eb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Le paramètre &quot;consommateur&quot; identifie l&#39;instance comme l&#39;un d
 
 ## Configuration de l&#39;option Pipeline {#configure-pipeline-option}
 
-Ajoutez ou modifiez les déclencheurs Experience Cloud sous le tableau &quot;déclencheurs&quot; ; ne modifiez pas le reste.
+Ajoutez ou modifiez les Triggers Experience Cloud sous le tableau « triggers » ; ne modifiez pas le reste.
 Assurez-vous que le fichier JSON est valide à l’aide de ce [site Web](https://jsonlint.com/).
 
 * &quot;name&quot; est l&#39;identifiant du déclencheur. Un caractère générique &quot;*&quot; capture tous les déclencheurs.
