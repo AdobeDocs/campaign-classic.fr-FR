@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
 source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Deux types d&#39;opérateurs sont amenés à utiliser Interaction : un chargé d
 * **[!UICONTROL Chargé d&#39;offres]** : crée et maintient les offres. Notez que si des offres sont utilisées dans le workflow, l’opérateur doit se trouver dans le groupe d’opérateurs **[!UICONTROL Administrateur]** ou **[!UICONTROL Chargés d’offres]** pour l’exécuter.
 * **[!UICONTROL Chargé de diffusion]** : valide et utilise les offres
 
-Les étapes de création des opérateurs propres à Interaction sont identiques à celles utilisées pour créer n&#39;importe quel opérateur dans la plate-forme. Reportez-vous à [cette section](../../platform/using/access-management.md) pour plus d&#39;informations. Les droits sont configurés lors de la création de l&#39;opérateur.
+Les étapes de création des opérateurs propres à Interaction sont identiques à celles utilisées pour créer n&#39;importe quel opérateur dans la plateforme. Reportez-vous à [cette section](../../platform/using/access-management.md) pour plus d&#39;informations. Les droits sont configurés lors de la création de l&#39;opérateur.
 
 ## Chargé d&#39;offres {#offer-manager}
 
@@ -52,15 +52,15 @@ Les droits attribués au chargé d&#39;offres lui permettent d&#39;effectuer les
 
    ![](assets/offer_operators_create_002.png)
 
-Les droits attribués au chargé de diffusion lui permettent d&#39;effectuer les tâches suivantes :
+Les droits attribués au chargé de diffusion lui permettent d’effectuer les opérations suivantes :
 
 * Afficher les environnements **[!UICONTROL En ligne]**.
 * Afficher et modifier des catégories d&#39;offres.
-* Validez les offres si ce chargé de diffusion est désigné comme l&#39;un de ses opérateurs validants.
+* Valider des offres s’il y est spécifié comme l’un des validants.
 
    >[!NOTE]
    >
-   >Le chargé de diffusion ne peut valider une offre que s&#39;il a été défini comme validant lors de la configuration de l&#39;offre.
+   >Le chargé de diffusion ne peut valider une offre que s’il a été défini comme validant lors de la configuration de l’offre.
 
 ## Récapitulatif des droits selon le type d&#39;opérateur {#recap-of-rights-according-to-operator}
 
