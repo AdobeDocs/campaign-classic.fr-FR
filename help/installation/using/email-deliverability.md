@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3090'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -174,7 +174,7 @@ user:~ user$ host -t a mta5.am0.yahoodns.net
                 mta5.am0.yahoodns.net has address 98.138.112.35
 ```
 
-Pour cet enregistrement, l’utilisateur peut contacter 8 adresses IP par paire. Comme l’utilisateur dispose de 2 adresses IP publiques, il obtient 8 x 2 = 16 combinaisons pour accéder aux serveurs de messagerie yahoo.com. Chacune de ces combinaisons est appelée un chemin.
+Pour cet enregistrement, l’utilisateur peut contacter 8 adresses IP des homologues. Comme l’utilisateur dispose de 2 adresses IP publiques, il obtient 8 x 2 = 16 combinaisons pour accéder aux serveurs de messagerie yahoo.com. Chacune de ces combinaisons est appelée un chemin d’accès.
 
 Le deuxième enregistrement MX apparaît comme ceci :
 
@@ -289,7 +289,7 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
 * **[!UICONTROL Timeout Data]** : durée maximale d&#39;attente d&#39;une réponse du serveur après l&#39;envoi du contenu du message (section DATA du protocole SMTP).
 * **[!UICONTROL Timeout]** : durée maximale d&#39;attente de réponse pour les autres échanges avec le serveur SMTP.
-* **[!UICONTROL TLS]** : le protocole TLS, qui permet de crypter la diffusion des emails, peut être activé de manière sélective. Pour chaque masque de MX, les options suivantes sont disponibles :
+* **[!UICONTROL TLS]** : le protocole TLS, qui permet de chiffrer la diffusion des e-mails, peut être activé de manière sélective. Pour chaque masque de MX, les options suivantes sont disponibles :
 
    * **[!UICONTROL Configuration par défaut]** : c&#39;est la configuration générale indiquée dans le fichier de configuration serverConf.xml qui est appliquée.
 
@@ -297,8 +297,8 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
       >
       >Il n&#39;est pas recommandé de modifier le paramétrage par défaut.
 
-   * **[!UICONTROL Désactivé]** : les messages sont systématiquement envoyés sans cryptage.
-   * **[!UICONTROL Opportuniste]** : la diffusion des messages est cryptée si le serveur de réception (SMTP) est capable de gérer le protocole TLS.
+   * **[!UICONTROL Désactivé]** : les messages sont systématiquement envoyés sans chiffrement.
+   * **[!UICONTROL Opportuniste]** : la diffusion des messages est chiffrée si le serveur de réception (SMTP) est capable de gérer le protocole TLS.
 
 Exemple de paramétrage :
 
