@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: 0deb18bb0376fc5e94d063145280426ff54db786
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '960'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ Pour confirmer que la diffusion a abouti :
 >
 >Par défaut, le module de gestion des coupons utilise une table **nms:recipient**. [En savoir plus](../../configuration/using/about-data-model.md#default-recipient-table).
 >
->Découvrez comment utiliser une table de destinataires personnalisée [dans cette page](../../configuration/using/about-custom-recipient-table.md).
+>Découvrez comment utiliser une table des destinataires personnalisée [sur cette page](../../configuration/using/about-custom-recipient-table.md).
 
 ## Gestion des coupons insuffisants {#managing-insufficient-coupons}
 
