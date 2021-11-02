@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1208'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Les packages standard contiennent un ensemble de fonctionnalités qui peuvent ê
 
 Pour installer un package natif :
 
-1. Accédez à l&#39;assistant d&#39;import de package à partir de **[!UICONTROL Outils > Avancé > Import de package]** dans la console cliente Adobe Campaign.
+1. Accédez à l’assistant d’import de package depuis le menu **[!UICONTROL Outils > Avancé > Import package]** de la console cliente Adobe Campaign.
 1. Sélectionnez **[!UICONTROL Installer un package standard]**.
 1. Dans la liste de packages, vérifiez les packages que vous souhaitez installer.
    >[!NOTE]
@@ -130,7 +130,7 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
-   <td> Canal applications mobiles (Mobile App Channel)<br /> </td> 
+   <td> Canal applications mobiles<br /> </td> 
    <td> Utilise la plateforme Adobe Campaign pour envoyer des notifications personnalisées aux terminaux iOS et Android via des applications. Facultatif. <a href="../../delivery/using/about-mobile-app-channel.md">En savoir plus</a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
@@ -248,7 +248,7 @@ Vous devez installer des canaux de diffusion (email, canal mobile, canal d&#39;a
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. Dans le **[!UICONTROL contenu des données XML à importer]**, conservez uniquement le modèle de diffusion Message Center correspondant au canal associé. Par exemple, si vous avez ajouté le **Canal mobile**, conservez uniquement l&#39;élément **Entités** correspondant au modèle **[!UICONTROL Message transactionnel mobile]** (smsTriggerMessage). Si vous avez ajouté le **Canal d&#39;applications mobiles**, conservez uniquement les modèles **Message transactionnel iOS** (iosTriggerMessage) et **Message transactionnel Android** (androidTriggerMessage).
+1. Dans le **[!UICONTROL contenu des données XML à importer]**, conservez uniquement le modèle de diffusion Message Center correspondant au canal associé. Par exemple, si vous avez ajouté le **Canal mobile**, conservez uniquement l&#39;élément **Entités** correspondant au modèle **[!UICONTROL Message transactionnel mobile]** (smsTriggerMessage). Si vous avez ajouté le **Canal des applications mobiles**, conservez uniquement les modèles **Message transactionnel iOS** (iosTriggerMessage) et **Message transactionnel Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 
