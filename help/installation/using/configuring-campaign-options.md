@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3994'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -411,11 +411,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">RestrictEditingOOTBJavascript</span> <br /> </td> 
-   <td> (à compter de la version 21.1.3) Si 1 est sélectionné (valeur par défaut), cette option désactive l’édition des codes JavaScript intégrés.<br /> </td> 
+   <td> (à compter de la version 21.1.3) Si 1 est sélectionné (valeur par défaut), cette option désactive l’édition des codes JavaScript intégrés.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
-   <td> (Mode de compatibilité d’installation : build&gt;6000) Lorsqu'elle est activée (valeur "1"), cette option permet l'utilisation d'anciens mots de passe stockés dans la base de données pour la connexion aux comptes externes ou à l'instance.<br /> </td> 
+   <td> (Mode de compatibilité d’installation : build&gt;6000) Lorsqu’elle est activée (valeur « 1 »), cette option permet l’utilisation d’anciens mots de passe stockés dans la base de données pour la connexion aux comptes externes ou à l’instance.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
@@ -685,9 +685,9 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSequence_AutoGeneration</span> <br /> </td> 
-   <td> Tous les schémas personnalisés, créés après cette période, avec autopk="true" et sans l’attribut "pkSequence" obtiendront une séquence générée automatiquement "auto_ 
+   <td> Tous les schémas personnalisés créés après cette période et qui comprennent autopk="true", mais pas l’attribut "pkSequence", obtiendront une séquence générée automatiquement "auto_ 
     &lt;schemanamespace&gt; 
-     &lt;nom du schéma&gt;
+     &lt;schemaname&gt;
        _seq. 
    </td> 
   </tr> 
@@ -857,7 +857,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ClickFormula</span> <br /> </td> 
-   <td> Script de calcul des URL trackées.<br /> </td> 
+   <td> Script de calcul des URL suivies.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ExtAccount</span> <br /> </td> 
@@ -881,7 +881,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_Pointer</span> <br /> </td> 
-   <td> Le pointeur effectue le suivi des derniers événements de message qui ont été traités via leur ID et date.<br /> </td> 
+   <td> Le pointeur effectue le suivi des derniers événements de messages qui ont été traités via leur identifiant et date.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_SecureServerUrl</span> <br /> </td> 
@@ -963,7 +963,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AppPassword</span> <br /> </td> 
-   <td> Mot de passe crypté du login applicatif.<br /> </td> 
+   <td> Mot de passe chiffré du login applicatif.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AutoOperator</span> <br /> </td> 
