@@ -14,9 +14,9 @@ internal: n
 snippet: y
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '570'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 98%
 
 ## À propos de ce cas d&#39;utilisation {#about-this-use-case}
 
-Ce cas pratique décrit l’utilisation de la fonctionnalité **[!UICONTROL Fusion]** dans l’activité **[!UICONTROL Déduplication]**.
+Ce cas d’utilisation décrit l’utilisation de la fonctionnalité **[!UICONTROL Fusion]** dans l’activité **[!UICONTROL Déduplication]**.
 
-Pour plus d’informations sur cette fonctionnalité, voir [cette section](deduplication.md#merging-fields-into-single-record).
+Pour plus d’informations sur cette fonctionnalité, consultez [cette section](deduplication.md#merging-fields-into-single-record).
 
 L&#39;activité **[!UICONTROL Déduplication]** est utilisée pour supprimer des lignes en double d&#39;un jeu de données. Dans ce cas pratique, les données présentées ci-dessous sont dupliquées en fonction du champ Email.
 
@@ -100,7 +100,7 @@ Pour configurer ces règles, procédez comme suit :
 
 Après avoir configuré ces règles, les données suivantes sont reçues à la fin de l&#39;activité **[!UICONTROL Déduplication]**.
 
-| Date de modification | Prénom | Nom | Email | Téléphone mobile | Téléphone |
+| Date de modification | Prénom | Nom | Email | Téléphone mobile | Phone |
 |-----|------------|-----------|-------|--------------|------|
 | 5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
 | 7/22/2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
@@ -108,7 +108,7 @@ Après avoir configuré ces règles, les données suivantes sont reçues à la f
 
 Le résultat est fusionné à partir des trois enregistrements selon les règles configurées précédemment. Après comparaison, il est conclu que le nom et le téléphone mobile les plus récents sont utilisés, ainsi que le numéro de téléphone original.
 
-| Prénom | Nom | Email | Téléphone mobile | Téléphone |
+| Prénom | Nom | Email | Téléphone mobile | Phone |
 |------------|-----------|-------|--------------|------|
 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
