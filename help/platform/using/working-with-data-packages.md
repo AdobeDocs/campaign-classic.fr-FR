@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2512'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 ## À propos des packages de données {#about-data-packages}
 
-Adobe Campaign vous permet d&#39;exporter ou d&#39;importer la configuration et les données de la plate-forme grâce à un système de packages. Les packages peuvent contenir différents types de configurations et d&#39;éléments, filtrés ou non.
+Adobe Campaign vous permet d&#39;exporter ou d&#39;importer la configuration et les données de la plateforme grâce à un système de packages. Les packages peuvent contenir différents types de configurations et d&#39;éléments, filtrés ou non.
 
 Les packages de données permettent l&#39;échange des entités de la base Adobe Campaign au travers de fichiers au format XML. Chaque entité contenue dans un package est représentée avec toutes ses données.
 
@@ -27,10 +27,10 @@ Le principe des packages de données ou **data package** consiste à exporter un
 
 ### Types de packages {#types-of-packages}
 
-Il existe trois types de packages exportables : les packages utilisateur, les packages plate-forme et les packages admin.
+Il existe trois types de packages exportables : les packages utilisateur, les packages plateforme et les packages admin.
 
 * **Package utilisateur** : il permet de choisir la liste des entités à exporter. Ce type de package gère les dépendances et vérifie les erreurs.
-* **Package plate-forme** : il regroupe toutes les ressources techniques ajoutées (non livrées d&#39;usine) : schémas, code JavaScript, etc.
+* **Package plateforme** : il regroupe toutes les ressources techniques ajoutées (non livrées d&#39;usine) : schémas, code JavaScript, etc.
 
    ![](assets/ncs_datapackage_package_platform.png)
 
@@ -40,7 +40,7 @@ Il existe trois types de packages exportables : les packages utilisateur, les p
 
 >[!CAUTION]
 >
->Les types **plate-forme** et **admin** contiennent une liste prédéfinie d&#39;entités à exporter. A chaque entité exportable sont associées des conditions de filtrage permettant d&#39;écarter les ressources livrées d&#39;usine du package créé.
+>Les types **plateforme** et **admin** contiennent une liste prédéfinie d&#39;entités à exporter. A chaque entité exportable sont associées des conditions de filtrage permettant d&#39;écarter les ressources livrées d&#39;usine du package créé.
 
 ## Structure des données {#data-structure}
 
@@ -127,7 +127,7 @@ Pour les trois types de package, l&#39;assistant propose les étapes suivantes :
 
    >[!NOTE]
    >
-   >L&#39;éditeur de requêtes est présenté dans [cette section](../../platform/using/about-queries-in-campaign.md).
+   >Le requêteur est présenté dans [cette section](../../platform/using/about-queries-in-campaign.md).
 
 1. Cliquez sur **[!UICONTROL Suivant]** et sélectionnez les colonnes de tri pour ordonnancer les données lors de l&#39;extraction :
 
@@ -301,9 +301,9 @@ Pour exporter un package à partir d&#39;une définition de package, suivez les 
 
 ## Importer des packages {#importing-packages}
 
-L&#39;assistant d&#39;import de package est accessible à partir du menu principal **[!UICONTROL Outils > Avancé > Import de package]** de la console cliente Adobe Campaign.
+L’assistant d’import de package est accessible à partir du menu principal **[!UICONTROL Outils > Avancé > Import de package]** de la console client Adobe Campaign.
 
-Vous pouvez importer le package d&#39;un export réalisé antérieurement, par exemple à partir d&#39;une autre instance Adobe Campaign, ou un [package natif](../../installation/using/installing-campaign-standard-packages.md), selon les conditions de votre licence.
+Vous pouvez importer le package d’un export réalisé antérieurement, par exemple à partir d’une autre instance Adobe Campaign, ou un [package intégré](../../installation/using/installing-campaign-standard-packages.md), selon les conditions de votre licence.
 
 ![](assets/ncs_datapackage_import.png)
 
@@ -331,9 +331,9 @@ Pour plus d&#39;informations sur les packages natifs, consultez [cette page](../
 
 Cette section décrit comment organiser les packages de données de façon cohérente tout au long de la vie du projet.
 
-Les packages peuvent contenir différents types de configurations et d&#39;éléments, filtrés ou non. S&#39;il manque certains éléments ou si vous n&#39;importez pas les éléments/les packages dans l&#39;ordre approprié, il est possible que la configuration de la plate-forme soit interrompue.
+Les packages peuvent contenir différents types de configurations et d&#39;éléments, filtrés ou non. S&#39;il manque certains éléments ou si vous n&#39;importez pas les éléments/les packages dans l&#39;ordre approprié, il est possible que la configuration de la plateforme soit interrompue.
 
-De plus, si plusieurs personnes travaillent sur la même plate-forme avec de nombreuses fonctionnalités différentes, le dossier contenant les spécifications des packages peut rapidement devenir complexe.
+De plus, si plusieurs personnes travaillent sur la même plateforme avec de nombreuses fonctionnalités différentes, le dossier contenant les spécifications des packages peut rapidement devenir complexe.
 
 Bien que son utilisation ne soit pas obligatoire, cette section propose une solution afin de mieux organiser et utiliser des packages dans Adobe Campaign pour des projets de grande envergure.
 
@@ -347,7 +347,7 @@ Les principales contraintes sont les suivantes :
 
 ### Recommandations {#data-package-recommendations}
 
-Effectuez toujours l&#39;import dans la même version de la plate-forme. Vous devez vérifier que vous déployez vos packages entre deux instances associées au même build. Ne forcez jamais l&#39;import et mettez toujours la plate-forme à jour en premier (si le build est différent).
+Effectuez toujours l&#39;import dans la même version de la plateforme. Vous devez vérifier que vous déployez vos packages entre deux instances associées au même build. Ne forcez jamais l&#39;import et mettez toujours la plateforme à jour en premier (si le build est différent).
 
 >[!IMPORTANT]
 >
@@ -364,7 +364,7 @@ Commencez par définir différents types de packages. Quatre types seulement ser
 
 **Entités**
 * Tous les éléments spécifiques &quot;xtk&quot; et &quot;nms&quot; d&#39;Adobe Campaign, tels que les schémas, les formulaires, les dossiers, les modèles de diffusion, etc.
-* Vous pouvez considérer une entité à la fois comme un élément &quot;admin&quot; et comme un élément &quot;plate-forme&quot;.
+* Vous pouvez considérer une entité à la fois comme un élément &quot;admin&quot; et comme un élément &quot;plateforme&quot;.
 * Vous ne devez pas inclure plus d&#39;une entité dans un package lorsque vous le chargez sur une instance Campaign.
 
 <!--Nothing “works” alone. An entity package does not have a specific role or objective.-->
@@ -384,7 +384,7 @@ Ce package n&#39;est pas obligatoire. Il est parfois utile de créer un type sp�
 
 **Mises à jour**
 
-Une fois configurée, une fonctionnalité peut être exportée dans un autre environnement. Par exemple, le package peut être exporté d&#39;un environnement de développement vers un environnement de test. Dans ce test, un défaut est mis en évidence. Il doit être tout d&#39;abord corrigé dans l&#39;environnement de développement. Ensuite, le correctif doit être appliqué à la plate-forme de test.
+Une fois configurée, une fonctionnalité peut être exportée dans un autre environnement. Par exemple, le package peut être exporté d&#39;un environnement de développement vers un environnement de test. Dans ce test, un défaut est mis en évidence. Il doit être tout d&#39;abord corrigé dans l&#39;environnement de développement. Ensuite, le correctif doit être appliqué à la plateforme de test.
 
 La première solution consisterait à réexporter l&#39;ensemble de la fonctionnalité. Cependant, pour éviter tout risque (comme la mise à jour d&#39;éléments indésirables), il est plus sûr d&#39;avoir un package ne contenant que la correction.
 
