@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: editing-html-content
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Le Digital Content Editor supporte le format HTML : le basculement en mode **sou
 La fonction d&#39;import du Digital Content Editor fonctionne comme suit avec les formats supportés :
 
 * CSS : les images présentes dans le fichier .zip ne sont pas importées. Les références à ces images dans le CSS ne sont pas mises à jour.
-* JS : les images présentes dans le fichier .zip ne sont pas importées. Les références à ces images dans le JS ne sont pas mises à jour.
+* JS : les images présentes dans le fichier .zip ne sont pas importées. Les références à ces images dans JS ne sont pas mises à jour.
 * Iframe : les pages liées ne sont pas importées.
 * Landing pages et applications web : si une balise **de formulaire** est absente, un avertissement s’affiche. Un `<form> </form>` doit toujours être présent dans le corps du message.
 
