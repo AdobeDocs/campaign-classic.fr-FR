@@ -7,9 +7,9 @@ role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
 source-git-commit: 1f6846f29c44719fdbd334327466619ed265452a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1723'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Les champs d&#39;action de chaque outil sont les suivants :
 
 >[!IMPORTANT]
 >
-> Pour les implémentations hybrides et on-premise, veillez à suivre les étapes de mise en service décrites dans cette [page](../../platform/using/adobe-analytics-provisioning.md).
+> Pour les implémentations hybrides et on-premise, veillez à suivre les étapes d’approvisionnement décrites dans cette [page](../../platform/using/adobe-analytics-provisioning.md).
 
 Pour installer le connecteur de données, vous devez vous connecter à votre instance Adobe Campaign et réaliser les opérations suivantes :
 
@@ -151,7 +151,7 @@ Veuillez noter que si l&#39;une de vos **[!UICONTROL suites de rapports]**, **[!
 
 Pour plus d’informations, consultez la page [Profils de produit pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=fr#product-profile-admins).
 
-1. Accédez au dossier **[!UICONTROL Administration]** > **[!UICONTROL Plate-forme]** > **[!UICONTROL Comptes externes]** de l&#39;arborescence Adobe Campaign et cliquez sur le bouton **[!UICONTROL Nouveau]**.
+1. Accédez au dossier **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]** de l&#39;arborescence Adobe Campaign et cliquez sur le bouton **[!UICONTROL Nouveau]**.
 
    ![](assets/analytics_connnector_9.png)
 
@@ -161,7 +161,7 @@ Pour plus d’informations, consultez la page [Profils de produit pour Adobe Ana
 
 1. Cliquez sur **[!UICONTROL Configurer]** en regard de la liste déroulante **[!UICONTROL Intégration]**.
 
-1. Dans la fenêtre **[!UICONTROL Configurer l’intégration Analytics]** , associez votre compte externe à votre suite de rapports en fournissant les informations suivantes :
+1. Dans la fenêtre **[!UICONTROL Configurer l’intégration Analytics]**, mappez votre compte externe à la suite de rapports en fournissant les informations suivantes :
 
    * **[!UICONTROL E-mail]**
    * **[!UICONTROL Org. IMS]**
@@ -211,7 +211,7 @@ Pour plus d’informations, consultez la page [Profils de produit pour Adobe Ana
 
 >[!NOTE]
 >
->Si vous utilisez plusieurs outils de mesure d&#39;audience, vous pouvez sélectionner la valeur **[!UICONTROL Autre]** dans la liste déroulante **[!UICONTROL Partenaire]** lors de la création du compte externe. Un seul compte externe peut être référencé dans les propriétés des diffusions : vous devrez donc adapter la formule des URL trackées en ajoutant les paramètres attendus par Adobe ou tout autre outil de mesure utilisé.
+>Si vous utilisez plusieurs outils de mesure d&#39;audience, vous pouvez sélectionner la valeur **[!UICONTROL Autre]** dans la liste déroulante **[!UICONTROL Partenaire]** lors de la création du compte externe. Un seul compte externe peut être référencé dans les propriétés des diffusions : vous devrez donc adapter la formule des URL suivies en ajoutant les paramètres attendus par Adobe ou tout autre outil de mesure utilisé.
 
 ### Workflows techniques des processus Web Analytics {#technical-workflows-of-web-analytics-processes}
 
@@ -261,7 +261,7 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
 
 Afin qu&#39;Adobe Experience Cloud puisse suivre l&#39;activité sur les sites après l&#39;envoi de diffusions par Adobe Campaign, il est nécessaire de référencer le connecteur correspondant dans les propriétés de la diffusion. Pour cela, procédez comme suit :
 
-1. Ouvrez la diffusion de la campagne destinée à être trackée.
+1. Ouvrez la diffusion de la campagne destinée à être suivie.
 
    ![](assets/webanalytics_delivery_properties_003.png)
 
