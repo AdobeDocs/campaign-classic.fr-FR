@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
 source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -47,6 +47,6 @@ Adobe Campaign propose trois privilèges de niveau supérieur par le biais des [
 
 * **EXÉCUTION DE PROGRAMMES** (createProcess) : permet d’exécuter des programmes externes (sur le serveur).
 
-* **SQL** : permet d’exécuter des scripts SQL sur la base de données (ce privilège peut donc contourner le modèle de sécurité). Remarque : si vous devez effectuer des calculs complexes (filtrage, par exemple), vous pouvez demander à votre administrateur de base de données de créer une fonction SQL et de les ajouter à la liste autorisée. En savoir plus sur [cette page](../../installation/using/scripting-coding-guidelines.md).
+* **SQL** : permet d’exécuter des scripts SQL sur la base de données (ce privilège peut donc contourner le modèle de sécurité). Remarque : si vous devez effectuer des calculs complexes (des filtrages, par exemple), vous pouvez demander à l’administrateur de votre base de données de créer une fonction SQL et de l’ajouter à la liste autorisée. En savoir plus sur [cette page](../../installation/using/scripting-coding-guidelines.md).
 
 * **Octroyez ces privilèges à un nombre très limité d’opérateurs (de confiance)**.
