@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -48,9 +48,9 @@ La liste par défaut des URL pouvant être appelées par des codes JavaScript (w
 
 Il existe trois modes de protection des connexions :
 
-* **Blocage** : toutes les URL qui ne figurent pas sur la liste autorisée sont bloquées et un message d&#39;erreur s&#39;affiche. Il s’agit du mode par défaut après un postupgrade.
+* **Blocage** : toutes les URL qui ne figurent pas sur la liste autorisée sont bloquées et un message d’erreur s’affiche. Il s’agit du mode par défaut après un postupgrade.
 * **Permissif** : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées.
-* **Avertissement**  : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées, mais l’interpréteur JS émet un avertissement pour que l’administrateur puisse les collecter. Ce mode ajoute des messages d’avertissement JST-310027.
+* **Avertissement** : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées, mais l’interpréteur JS émet un avertissement pour que l’administrateur puisse les collecter. Ce mode ajoute des messages d’avertissement JST-310027.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -62,7 +62,7 @@ Il existe trois modes de protection des connexions :
 
 Les nouveaux clients utiliseront le mode Blocking. S’ils souhaitent autoriser une nouvelle URL, ils doivent contacter leur administrateur pour l’ajouter à la liste autorisée.
 
-Les clients existants provenant d’une migration peuvent utiliser le mode d’avertissement pendant un certain temps. Pendant ce temps, ils doivent analyser le trafic sortant avant d’autoriser les URL.
+Les clients existants provenant d’une migration peuvent utiliser pendant un certain temps le mode d’avertissement. Ils doivent entre-temps analyser le trafic sortant pour autoriser les URL.
 
 ## Restriction des commandes (côté serveur)
 
