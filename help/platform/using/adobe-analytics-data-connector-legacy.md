@@ -9,7 +9,7 @@ exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
 source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1810'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 Le connecteur de données (anciennement appelé Adobe Genesis) permet de faire interagir Adobe Campaign et Adobe Analytics par l’intermédiaire du package **Connecteurs Web Analytics**. Il transmet des données à Adobe Campaign sous forme de segments portant sur le comportement des internautes, suite à une campagne email. Inversement, il envoie les indicateurs et les attributs des campagnes email lancées par Adobe Campaign vers Adobe Analytics - Connecteur de données.
 
-Adobe Campaign dispose d&#39;une fonctionnalité de mesure d&#39;audience sur Internet (Web Analytics) via le connecteur de données. Grâce à ces intégrations, Adobe Campaign est en mesure de récupérer les données concernant le comportement des visiteurs sur un ou plusieurs sites suite à une campagne marketing et, après analyse, de lancer une campagne dite de remarketing pour les convertir en acheteurs. Inversement, les outils de Web analytics permettent à Adobe Campaign de transmettre les indicateurs et les attributs des campagnes vers leur plate-forme.
+Adobe Campaign dispose d&#39;une fonctionnalité de mesure d&#39;audience sur Internet (Web Analytics) via le connecteur de données. Grâce à ces intégrations, Adobe Campaign est en mesure de récupérer les données concernant le comportement des visiteurs sur un ou plusieurs sites suite à une campagne marketing et, après analyse, de lancer une campagne dite de remarketing pour les convertir en acheteurs. Inversement, les outils de Web analytics permettent à Adobe Campaign de transmettre les indicateurs et les attributs des campagnes vers leur plateforme.
 
 Les champs d&#39;action de chaque outil sont les suivants :
 
@@ -122,7 +122,7 @@ Assurez-vous que les **[!UICONTROL Événements]** sont de type numérique, faut
 L’intégration d’Adobe Campaign aux plates-formes d’Analytics se fait par l’intermédiaire d’un connecteur. Pour synchroniser les deux applications, vous devez :
 
 1. Installer le package **Connecteurs Web Analytics** dans Adobe Campaign.
-1. Positionnez-vous dans l&#39;arborescence Adobe Campaign au niveau du dossier **[!UICONTROL Administration > Plate-forme > Comptes externes]**,
+1. Positionnez-vous dans l&#39;arborescence Adobe Campaign au niveau du dossier **[!UICONTROL Administration > Plateforme > Comptes externes]**,
 1. Cliquez avec le bouton droit de la souris dans la liste des comptes externes et sélectionnez **[!UICONTROL Nouveau]** dans le menu contextuel (vous pouvez également cliquer sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des comptes externes).
 1. A l&#39;aide de la liste déroulante, sélectionnez le type **[!UICONTROL Web Analytics]**.
 1. Choisissez le fournisseur du connecteur, par exemple ici **[!UICONTROL Adobe Analytics - Connecteur de données]**.
@@ -153,7 +153,7 @@ L’intégration d’Adobe Campaign aux plates-formes d’Analytics se fait par 
 
 >[!NOTE]
 >
->Si vous utilisez plusieurs outils de mesure d&#39;audience, vous pouvez sélectionner la valeur **[!UICONTROL Autre]** dans la liste déroulante **[!UICONTROL Partenaire]** lors de la création du compte externe. Un seul compte externe peut être référencé dans les propriétés des diffusions : vous devrez donc adapter la formule des URL trackées en ajoutant les paramètres attendus par Adobe ou tout autre outil de mesure utilisé.
+>Si vous utilisez plusieurs outils de mesure d&#39;audience, vous pouvez sélectionner la valeur **[!UICONTROL Autre]** dans la liste déroulante **[!UICONTROL Partenaire]** lors de la création du compte externe. Un seul compte externe peut être référencé dans les propriétés des diffusions : vous devrez donc adapter la formule des URL suivies en ajoutant les paramètres attendus par Adobe ou tout autre outil de mesure utilisé.
 
 ### Étape 3 : synchroniser Adobe Campaign et Adobe Analytics {#step-3--synchronize-adobe-campaign-and-adobe-analytics}
 
@@ -238,7 +238,7 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
 
 Afin qu&#39;Adobe Experience Cloud puisse suivre l&#39;activité sur les sites après l&#39;envoi de diffusions par Adobe Campaign, il est nécessaire de référencer le connecteur correspondant dans les propriétés de la diffusion. Pour cela, procédez comme suit :
 
-1. Ouvrez la diffusion de la campagne destinée à être trackée.
+1. Ouvrez la diffusion de la campagne destinée à être suivie.
 
    ![](assets/webanalytics_delivery_properties_003.png)
 
