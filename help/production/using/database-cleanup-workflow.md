@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
 source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2997'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -579,7 +579,7 @@ La requête suivante est utilisée :
 DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
 ```
 
-où **$(tsDate)** est la date courante du serveur à laquelle la période définie pour l’option **XtkCleanup_AuditTrailPurgeDelay** est soustraite.
+où **$(tsDate)** correspond à la date actuelle du serveur à laquelle est soustraite la période définie pour l’option **XtkCleanup_AuditTrailPurgeDelay**.
 
 ### Nettoyer Nmsaddress {#cleanup-of-nmsaddress}
 
