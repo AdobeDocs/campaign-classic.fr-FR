@@ -6,9 +6,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Plusieurs facteurs peuvent avoir une incidence directe sur les performances du s
 
    **CONSEIL** : pour éviter cette situation, coordonnez la planification des diffusions avec les autres membres de votre équipe afin d’assurer les meilleures performances.
 
-* Exécution du workflow : la surveillance de vos workflows est essentielle pour éviter tout problème de performances de la plate-forme. Suivez les directives répertoriées [dans ce document](../../workflow/using/workflow-best-practices.md#execution-and-performance).
+* Exécution du workflow : la surveillance de vos workflows est essentielle pour éviter tout problème de performances de la plateforme. Suivez les directives répertoriées [dans ce document](../../workflow/using/workflow-best-practices.md#execution-and-performance).
 
-* Si vous êtes éligible, vous pouvez tirer parti des [fonctionnalités du Panneau de Contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr) pour surveiller votre plateforme à l’aide des fonctionnalités de [surveillance des performances](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr).
+* Si vous êtes éligible, vous pouvez tirer profit des [fonctionnalités du Panneau de contrôle de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr) pour surveiller votre plateforme à l’aide des fonctionnalités de [suivi des performances](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr).
 
 ## Vérifier la configuration du réseau {#network-config}
 
