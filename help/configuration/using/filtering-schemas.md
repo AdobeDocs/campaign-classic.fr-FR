@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: editing-schemas
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 98%
 
 ## Filtres système {#system-filters}
 
-Vous pouvez filtrer l’accès aux schémas pour des utilisateurs spécifiques, selon leurs permissions. Les filtres système vous permettent de gérer les permissions de lecture et d’écriture des entités figurant dans les schémas, au moyen des paramètres **readAccess** et **writeAccess**.
+Vous pouvez filtrer l’accès aux schémas pour des utilisateurs spécifiques, selon leurs autorisations. Les filtres système vous permettent de gérer les autorisations de lecture et d’écriture des entités figurant dans les schémas, au moyen des paramètres **readAccess** et **writeAccess**.
 
 >[!NOTE]
 >
->Cette restriction s’applique uniquement aux utilisateurs n’ayant pas de connaissances techniques : un utilisateur technique, avec les permissions associées ou utilisant un workflow, sera en mesure de récupérer les données et de les mettre à jour.
+>Cette restriction s’applique uniquement aux utilisateurs n’ayant pas de connaissances techniques : un utilisateur technique, avec les autorisations associées ou utilisant un workflow, sera en mesure de récupérer les données et de les mettre à jour.
 
 * **readAccess** : permet d&#39;accéder aux données d&#39;un schéma en lecture seule.
 
@@ -33,9 +33,9 @@ Vous pouvez filtrer l’accès aux schémas pour des utilisateurs spécifiques, 
 
 Ces filtres sont renseignés au niveau de l’**élément** principal des schémas et peuvent être formés comme dans les exemples suivants afin de restreindre l’accès :
 
-* Restreindre les permissions d’ÉCRITURE
+* Restreindre les autorisations d’ÉCRITURE
 
-   Ici, le filtre sert à interdire les permissions d’ÉCRITURE sur le schéma aux opérateurs ne disposant pas de la permission ADMINISTRATION. Ainsi, seuls les administrateurs pourront accéder en écriture aux entités décrites par ce schéma.
+   Ici, le filtre sert à interdire les autorisations d’ÉCRITURE sur le schéma aux opérateurs ne disposant pas de la autorisation ADMINISTRATION. Ainsi, seuls les administrateurs pourront accéder en écriture aux entités décrites par ce schéma.
 
    ```
    <sysFilter name="writeAccess">      
@@ -43,9 +43,9 @@ Ces filtres sont renseignés au niveau de l’**élément** principal des schém
    </sysFilter>
    ```
 
-* Restreindre les autorisations de LECTURE et d’ÉCRITURE :
+* Restreindre les autorisations de LECTURE et d’ÉCRITURE :
 
-   Ici, le filtre sert à interdire à la fois les permissions de LECTURE et d’ÉCRITURE du schéma à tous les opérateurs. Seul le compte **interne**, représenté par l’expression &quot;$(loginId)!=0&quot;, possède ces permissions.
+   Ici, le filtre sert à interdire à la fois les autorisations de LECTURE et d’ÉCRITURE du schéma à tous les opérateurs. Seul le compte **interne**, représenté par l’expression &quot;$(loginId)!=0&quot;, possède ces autorisations.
 
    ```
    <sysFilter name="readAccess"> 
@@ -65,7 +65,7 @@ Ces filtres sont renseignés au niveau de l’**élément** principal des schém
 
 ## Protection des schémas intégrés {#protecting-built-in-schemas}
 
-Par défaut, les schémas intégrés ne sont accessibles avec les permissions d’ÉCRITURE que par les opérateurs possédant le droit d’ADMINISTRATION :
+Par défaut, les schémas intégrés ne sont accessibles avec les autorisations d’ÉCRITURE que par les opérateurs possédant le droit d’ADMINISTRATION :
 
 * ncm:publishing
 * nl:monitoring
