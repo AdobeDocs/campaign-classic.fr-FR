@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ La plupart des problèmes de performance sont liés à l&#39;entretien de la bas
 
 ## Configuration  {#configuration}
 
-Vous devez vérifier que la configuration initiale de la plateforme Adobe Campaign est toujours valable et revoir, le cas échéant, les besoins de votre client en termes de délivrabilité ou de taille de la base. Nous vous conseillons d&#39;effectuer également une vérification complète de la configuration matérielle (CPU, RAM, Système E/S).
+Vous devez vérifier que la configuration initiale de la plateforme Adobe Campaign est toujours valable et revoir, le cas échéant, les besoins de votre client en termes de délivrabilité ou de taille de la base de données. Nous vous conseillons également d’effectuer une vérification complète de la configuration matérielle (CPU, RAM, système E/S).
 
 >[!NOTE]
 >
->Pour plus d’informations, reportez-vous au [Guide de dimensionnement du matériel Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/hardware-sizing-guide.html).
+>Pour plus d’informations, consultez le [guide relatif au dimensionnement matériel d’Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/hardware-sizing-guide.html).
 
 ## Configuration de la plateforme {#platform-configuration}
 
