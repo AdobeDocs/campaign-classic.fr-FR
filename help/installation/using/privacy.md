@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Pour activer la signature d&#39;URL, procédez comme suit sur tous les serveurs 
 
 ## Restriction des données
 
-Vous devez vous assurer que les mots de passe cryptés ne sont pas accessibles par un utilisateur authentifié avec de faibles privilèges. Pour cela, il existe deux méthodes : restreindre l’accès aux champs de mots de passe uniquement ou à l’entité entière (un build >= 8770 est requis).
+Vous devez vous assurer que les mots de passe chiffrés ne sont pas accessibles par un utilisateur authentifié avec de faibles privilèges. Pour cela, il existe deux méthodes : restreindre l’accès aux champs de mots de passe uniquement ou à l’entité entière (un build >= 8770 est requis).
 
 Cette restriction vous permet de supprimer les champs de mots de passe. Le compte externe reste toutefois accessible par tous les utilisateurs dans l’interface. Reportez-vous à [cette page](../../configuration/using/restricting-pii-view.md).
 
