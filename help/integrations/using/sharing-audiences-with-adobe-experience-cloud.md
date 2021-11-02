@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ Avec Adobe Campaign, vous pouvez partager des audiences et des segments avec les
 
 L’intégration prend en charge deux types d’identifiants Adobe Experience Cloud :
 
-* **Identifiant** visiteur : ce type d’identifiant permet de réconcilier les visiteurs Adobe Experience Cloud avec les destinataires Adobe Campaign.
-* **Declared ID** : ce type d&#39;identifiant permet de réconcilier tous les types de données avec les éléments de la base de données Adobe Campaign. Dans Adobe Campaign, il est représenté sous la forme d’une clé de réconciliation prédéfinie.
+* **Identifiant visiteur** : ce type d’identifiant permet de réconcilier des visiteurs Adobe Experience Cloud avec des destinataires Adobe Campaign.
+* **Identifiant déclaré** : ce type d’identifiant permet de réconcilier tous les types de données avec les éléments de la base de données Adobe Campaign. Dans Adobe Campaign, il est représenté sous la forme d’une clé de réconciliation prédéfinie.
 
    >[!NOTE]
    >
