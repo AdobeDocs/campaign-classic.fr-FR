@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: introduction
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 L’onglet **[!UICONTROL Surveillance]**, accessible à partir de la page d’accueil de Campaign Classic, est le principal point d’entrée pour vous aider à surveiller votre instance.
 
-Il fournit un tableau de bord de ce qui se passe sur votre instance : son état (version de build, packages installés, etc.), les indicateurs système, les logs, les workflows en cours d’exécution, l’état des dernières diffusions envoyées, etc.
+Il fournit un tableau de bord de ce qui se produit sur votre instance : son statut (version de build, packages installés, etc.), les indicateurs système, les logs, les workflows en cours d’exécution, l’état des dernières diffusions envoyées, etc.
 
 Des informations détaillées sont disponibles [ici](../../production/using/monitoring-processes.md).
 
@@ -52,11 +52,11 @@ Le journal d’audit vous permet de visualiser l’historique complet des modifi
 
 **Panneau de contrôle**
 
-Le panneau de contrôle vous permet de gérer plusieurs paramètres de votre instance : gérer les autorisations d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) pour plus d’informations.
+Le Panneau de contrôle vous permet de gérer plusieurs paramètres de votre instance : gérer les autorisations d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) pour plus d’informations.
 
 >[!NOTE]
 >
->Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d&#39;octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
+>Le Panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d&#39;octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
 >Notez que votre instance doit être hébergée sur AWS et mise à niveau avec le dernier build [Gold Standard](../../rn/using/gs-overview.md) ou le dernier build [GA (21.1.3)](../../rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr).
 
