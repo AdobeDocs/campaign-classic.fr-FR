@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 source-git-commit: 9b914099f6755d6ae83f98697a3a38f8cfa625e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 ## Choisir le modèle de rendu du formulaire {#selecting-the-form-rendering-template}
 
-Les paramètres du formulaire permettent de sélectionner le modèle utilisé pour générer les pages. Pour y accéder, cliquez sur le bouton **[!UICONTROL Propriétés]** dans la barre d&#39;outils des détails du formulaire, puis sélectionnez l&#39;onglet **[!UICONTROL Rendu]** . Plusieurs modèles (feuilles de style) sont disponibles par défaut.
+Les paramètres du formulaire permettent de sélectionner le modèle utilisé pour générer les pages. Pour y accéder, cliquez sur le bouton **[!UICONTROL Propriétés]** dans la barre d’outils des détails du formulaire, puis sélectionnez l’onglet **[!UICONTROL Rendu]**. Plusieurs modèles (feuilles de style) sont disponibles par défaut.
 
 ![](assets/s_ncs_admin_survey_rendering_select.png)
 
@@ -146,7 +146,7 @@ Dans la fenêtre de sélection d&#39;un champ, vous pouvez sélectionner parmi l
 
 ![](assets/s_ncs_admin_survey_condition_select.png)
 
-* L&#39;arborescence principale contient les paramètres du contexte du formulaire. Les paramètres par défaut sont l&#39;Identifiant (qui correspond à l&#39;identifiant crypté du destinataire), la Langue et l&#39;Origine.
+* L&#39;arborescence principale contient les paramètres du contexte du formulaire. Les paramètres par défaut sont l&#39;Identifiant (qui correspond à l&#39;identifiant chiffré du destinataire), la Langue et l&#39;Origine.
 
    Voir à ce propos [cette page](defining-web-forms-properties.md#form-url-parameters).
 
