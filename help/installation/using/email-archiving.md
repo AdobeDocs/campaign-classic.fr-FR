@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -139,8 +139,8 @@ Une fois que l&#39;email Cci est configuré, veillez à sélectionner l&#39;opti
 
 ## Bonnes pratiques en matière d&#39;Email Cci {#best-practices}
 
-* **Boîte aux lettres d&#39;adresses en Cci** : vérifiez qu&#39;elle dispose de suffisamment de capacité pour archiver tous les emails envoyés par le MTA.
-* **MTA pool** : la fonctionnalité d&#39;archivage en Cci fonctionne au niveau du MTA. Il permet de dupliquer chaque email envoyé par le MTA. Comme le MTA peut être regroupé sur plusieurs instances (dev, test ou prod, par exemple) ou même sur plusieurs clients (dans un environnement de mid-sourcing), la configuration de cette fonctionnalité a un impact sur la sécurité :
+* **Boîte aux lettres d’adresses en Cci** : vérifiez qu’elle dispose de suffisamment de capacité pour archiver tous les e-mails envoyés par le MTA.
+* **Mise en pool du MTA** : la fonctionnalité d’archivage en Cci fonctionne au niveau du MTA. Elle permet de dupliquer chaque e-mail envoyé par le MTA. Le MTA pouvant être mis en pool à travers plusieurs instances (par exemple de développement, de test ou de production), voire entre plusieurs clients (dans un environnement mid-sourcing), l’utilisation de cette fonctionnalité a une incidence sur la sécurité :
 
    * Si vous partagez un MTA avec plusieurs clients et que l&#39;un d&#39;eux active cette option, il aura accès à la totalité des emails provenant des autres clients utilisant le même MTA. Afin d&#39;éviter une telle situation, utilisez un MTA différent pour chaque client.
    * Si vous utilisez le même MTA entre plusieurs instances (développement, test, production) d&#39;un même client, les messages envoyés depuis ces trois instances combinées seront dupliqués par l&#39;option dataLogPath.
