@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '744'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Pour iOS, le connecteur HTTP/2 iOS envoie des notifications à l&#39;APNS HTTP/2
 
 Pour configurer ce connecteur, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Administration > Plate-forme > Comptes externes]**.
+1. Accédez à **[!UICONTROL Administration > Plateforme > Comptes externes]**.
 1. Sélectionnez le compte externe **[!UICONTROL routage iOS]**.
 1. Dans l&#39;onglet **[!UICONTROL Connecteur]**, renseignez le champ **[!UICONTROL URL d&#39;accès au connecteur]** avec l&#39;URL suivante :```http://localhost:8080/nms/jsp/iosHTTP2.jsp```
 
