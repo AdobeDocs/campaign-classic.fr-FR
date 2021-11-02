@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: editing-schemas
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
 source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -327,7 +327,7 @@ Dans toute table utilisant cette table de référence, définissez un lien et aj
 <element displayAsField="true" label="Bank" name="bank" target="cus:bank" type="link" noDbIndex="true"/>
 ```
 
-L&#39;interface utilisateur n&#39;affiche pas de lien mais un champ. Lorsque les utilisateurs sélectionnent ce champ, ils peuvent sélectionner une valeur dans le tableau de référence ou utiliser la fonction de saisie semi-automatique.
+L&#39;interface utilisateur n&#39;affiche pas de lien mais un champ. Lorsque l’utilisateur sélectionne ce champ, il peut choisir une valeur dans la table de référence ou utiliser la fonction de saisie semi-automatique.
 
 ![](assets/schema-edition-ex.png)
 
