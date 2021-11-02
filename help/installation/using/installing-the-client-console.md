@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1001'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Si l’option **[!UICONTROL Ne plus poser cette question]** a été sélectionn�
 
 >[!NOTE]
 >
->Si vous appliquez une console mise à jour à une mise en oeuvre existante, les utilisateurs recevront automatiquement une invite pour mettre à jour leur console cliente. Si vous implémentez Campaign pour la première fois, les utilisateurs devront télécharger la console. Consultez ci-dessous les détails des deux options
+>Si vous appliquez une console mise à jour à une implémentation existante, les utilisateurs reçoivent automatiquement une invite de mise à jour de leur console client. Si vous implémentez Campaign pour la première fois, les utilisateurs devront télécharger la console. Consultez ci-dessous les détails des deux options
 
 ### Mettre à jour la console pour une implémentation existante{#update-the-client-console}
 
