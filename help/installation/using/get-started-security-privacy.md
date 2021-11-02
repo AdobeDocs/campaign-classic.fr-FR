@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
 source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ La configuration et le renforcement de la confidentialité sont des éléments c
 
 * Protégez les PII de votre client en utilisant HTTPS au lieu de HTTP.
 * Utilisez la restriction de l’affichage des PII pour protéger la confidentialité et empêcher toute utilisation abusive des données.
-* Vérifiez que les mots de passe cryptés sont restreints.
+* Vérifiez que les mots de passe chiffrés sont restreints.
 * Protégez les pages pouvant contenir des informations personnelles, telles que les pages miroir, les applications web, etc.
 
 [En savoir plus](../../installation/using/privacy.md)
@@ -50,7 +50,7 @@ La gestion des accès joue un rôle important dans le renforcement de la sécuri
 
 Lorsque vous effectuez des tâches de développement dans Adobe Campaign (workflows, Javascript, JSSP, autres), suivez toujours ces instructions :
 
-* **Script** : pour éviter les instructions SQL, utilisez des fonctions paramétrées au lieu de la concaténation de chaîne, évitez l’injection SQL en ajoutant les fonctions SQL à utiliser à la liste autorisée.
+* **Scripts** : évitez si possible d’utiliser des instructions SQL. Utilisez des fonctions paramétrées plutôt que la concaténation de chaîne et évitez toute injection SQL en ajoutant les fonctions SQL à utiliser à la liste autorisée.
 
 * **Sécurisation du modèle de données** : utilisez des droits nommés pour limiter les actions des opérateurs et ajoutez des filtres système (sysFilter).
 
@@ -70,7 +70,7 @@ En outre, vous devez impérativement suivre les instructions de sécurité de vo
 
 >[!CAUTION]
 >
->À compter du 14 juillet 2021, tous les systèmes clients qui ne prennent pas en charge le protocole TLS 1.2 perdront l’accès à tous les produits et services Adobe. Assurez-vous que tous les systèmes utilisateur et client sont conformes à TLS 1.2 avant cette date. [Apprenez-en davantage](https://helpx.adobe.com/x-productkb/multi/eol-tls-support.html)
+>À compter du 14 juillet 2021, tous les systèmes clients qui ne prennent pas en charge le protocole TLS 1.2 perdront l’accès à l’ensemble des produits et services Adobe. Assurez-vous que tous les systèmes utilisateurs et clients sont conformes à TLS 1.2 avant cette date. [En savoir plus](https://helpx.adobe.com/x-productkb/multi/eol-tls-support.html)   
 
 ## Configuration du serveur
 
