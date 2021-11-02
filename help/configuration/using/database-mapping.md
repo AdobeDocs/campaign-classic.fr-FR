@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1974'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -305,7 +305,7 @@ Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser
 
 >[!NOTE]
 >
->Une séquence référencée dans un schéma Adobe Campaign (**NmsTrackingLogId** par exemple) doit être associée à une fonction SQL qui renvoie le nombre d’identifiants dans les paramètres, séparés par des virgules. Cette fonction doit être appelée **GetNew** XXX **Ids**, où **XXX** est le nom de la séquence (**GetNewNmsTrackingLogIds** par exemple). Affichez les fichiers **postgres-nms.sql**, **mssql-nms.sql** ou **oracle-nms.sql** fournis avec l’application dans le répertoire **datakit/nms/eng/sql/** pour récupérer l’exemple de &quot;Nms&quot; Création de séquence TrackingLogId pour chaque moteur de base de données.
+>Une séquence référencée dans un schéma Adobe Campaign (**NmsTrackingLogId** par exemple) doit être associée à une fonction SQL qui renvoie le nombre d’identifiants dans les paramètres, séparés par des virgules. Cette fonction doit être appelée **GetNew** XXX **Ids**, où **XXX** correspond au nom de la séquence (**GetNewNmsTrackingLogIds**, par exemple). Affichez les fichiers **postgres-nms.sql**, **mssql-nms.sql** ou **oracle-nms.sql** fournis avec l’application dans le répertoire **datakit/nms/eng/sql/** pour récupérer l’exemple de création de séquence « NmsTrackingLogId » pour chaque moteur de base de données.
 
 Pour déclarer une clé unique, il faut renseigner l’attribut **autopk** (avec la valeur &quot;true&quot;) sur l’élément principal du schéma de données.
 
