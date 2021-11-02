@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
 source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Avec Campaign Classic, vous pouvez ajouter des pièces jointes personnalisées �
 
 Une fois vos messages envoyés, apprenez à suivre et mesurer leur impact avec Adobe Campaign.
 
-### Comment configurer des liens trackés dans une diffusion d&#39;email ? {#how-can-i-configure-tracked-links-in-an-email-delivery-}
+### Comment configurer des liens suivis dans une diffusion d&#39;email ? {#how-can-i-configure-tracked-links-in-an-email-delivery-}
 
 La réception des messages ainsi que l&#39;activation des liens insérés dans le contenu des messages peuvent être suivis pour chaque diffusion. Vous pouvez ainsi assurer un tracking du comportement des destinataires suite aux actions de diffusion dont ils ont été la cible.
 
@@ -96,7 +96,7 @@ Pour chaque URL du message, vous pouvez choisir d&#39;activer ou non le tracking
 
 ### Où se trouvent les logs de diffusion et de tracking ? {#where-can-i-access-delivery-and-tracking-logs-}
 
-Découvrez comment tracker vos diffusions et comprendre le comportement des destinataires [à partir de cette page](../../delivery/using/delivery-dashboard.md).
+Découvrez comment effectuer un tracking de vos diffusions et comprendre le comportement des destinataires [sur cette page](../../delivery/using/delivery-dashboard.md).
 
 ### Où obtenir des rapports de diffusion ? {#where-can-i-get-delivery-reports-}
 
