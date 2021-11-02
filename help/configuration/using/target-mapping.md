@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 38333669-5598-4811-a121-b677c1413f56
 source-git-commit: ed43a632a962747c9402ff8d5f0ce442c2cc6490
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Pour cela, les étapes sont les suivantes :
 
    Par défaut, la gestion des exclusions est stockée dans la même table que les messages.
 
-   Cochez la case **Générer un schéma de stockage pour le tracking** si vous souhaitez configurer l&#39;enregistrement pour le tracking associé à votre mapping de ciblage.
+   Cochez la case **Générer un schéma de stockage pour le tracking** si vous souhaitez configurer le stockage pour le tracking associé à votre mapping de ciblage.
 
    ![](assets/mapping_diffusion_wizard_3.png)
 
