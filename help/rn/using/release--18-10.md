@@ -26,7 +26,7 @@ ht-degree: 100%
 * Nous autorisons maintenant la suppression des enregistrements factices créés dans Microsoft Dynamics lors du workflow d&#39;import.
 * Correction d&#39;un problème lié à l&#39;activité de workflow Collecteur de fichiers qui consignait des erreurs en boucle lorsque l&#39;accès à un fichier était refusé. (NEO-12085)
 * Correction d&#39;un problème qui entraînait des incohérences au niveau du reporting entre les activités utilisateurs et les rapports de tracking pour l&#39;indicateur d&#39;ouverture des diffusions. (NEO-11742)
-* Améliorations des permissions pour exécuter le package de zone de sécurité lors de l&#39;utilisation d&#39;un compte interne.
+* Améliorations des autorisations pour exécuter le package de zone de sécurité lors de l&#39;utilisation d&#39;un compte interne.
 * Correction d&#39;un problème qui entraînait des erreurs dans les logs mtachild. (NEO-8978)
 
 ## Version 18.10.5 - Build 8984{#release-18-10-5-build-8984}
@@ -234,7 +234,7 @@ Ces modifications d&#39;index peuvent entraîner une augmentation du temps néce
 * Correction d&#39;une erreur qui empêchait l&#39;affichage du dossier Diffusions depuis la liste de dossiers Exécution dans les propriétés d&#39;une diffusion lors de l&#39;édition d&#39;une diffusion récurrente. (NEO-11094)
 * Correction d&#39;une erreur qui empêchait la fenêtre d&#39;affichage de la population d&#39;afficher plus de 200 enregistrements en tant que cible obtenue depuis une activité Requête dans un workflow. (NEO-11195)
 * Correction d&#39;une erreur dans Oracle qui empêchait l&#39;exécution d&#39;une requête DELETE lorsque plus de 1 000 éléments étaient sélectionnés. (NEO-11171)
-* Correction d&#39;une erreur qui entraînait le codage des URL en tant qu&#39;URL trackées dans les paramètres additionnels d&#39;une diffusion de notification push Android. (NEO-11468)
+* Correction d&#39;une erreur qui entraînait le codage des URL en tant qu&#39;URL suivies dans les paramètres additionnels d&#39;une diffusion de notification push Android. (NEO-11468)
 * Correction d&#39;une erreur de script qui se produisait dans le rapport sur les activités des utilisateurs lors de la définition des paramètres sur ‘Intervalles d’un jour’ et ‘Ouvertures’. (NEO-11655)
 * Correction d&#39;une erreur qui se produisait lors de la connexion au serveur de mid-sourcing ou à Message Center via un proxy web authentifié. (NEO-11309)
 * Correction d&#39;une erreur Oracle qui se produisait lors de l&#39;enregistrement d&#39;une nouvelle composition de diffusion après la sélection d&#39;un élément d&#39;un schéma spécifique **basé sur une vue SQL**. (NEO-11682)

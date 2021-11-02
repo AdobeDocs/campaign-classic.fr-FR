@@ -83,7 +83,7 @@ _22 décembre 2020_
 * Correction de problèmes susceptibles de provoquer un blocage du processus web lors de la préparation de diffusions ou avec une prévisualisation de diffusion récurrente. (NEO-27790, NEO-27517)
 * Correction d&#39;un problème en raison duquel l&#39;envoi de diffusions ou de BAT échouait lorsqu&#39;il était déclenché par un opérateur non administrateur. (NEO-28597)
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du Panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
@@ -122,7 +122,7 @@ _22 juillet 2020_
 * Après le passage au [nouveau mécanisme d&#39;identifiant de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), toutes les applications web qui mettent à jour la table des destinataires sont republiées pendant le postupgrade.
 * Correction d&#39;une vulnérabilité XSS potentielle dans le contenu d&#39;une diffusion. (NEO-17987, NEO-26073)
 
-![](assets/do-not-localize/cp-icon.png) **Version de juin du nouveau panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Version de juin du nouveau Panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 

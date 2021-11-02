@@ -176,7 +176,7 @@ Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, no
 * Correction d&#39;un problème dans les workflows survenant lors de l&#39;utilisation de l&#39;activité **Transfert de fichier** pour télécharger des fichiers dont le nom contient un espace, à l&#39;aide de l&#39;option **Effacer les fichiers source après leur transfert**. (NEO-13411)
 * Correction d&#39;un problème de nettoyage du cache de Tomcat qui pouvait entraîner des problèmes de mémoire. (NEO-13456)
 * Correction d&#39;un problème lors de l&#39;installation du package intégré **Pilotage du moteur d&#39;offre avec instance d&#39;exécution** sur une instance de contrôle existante s&#39;exécutant dans Microsoft SQL 2017. (NEO-13539)
-* Correction d&#39;un problème de blocage de la console qui pouvait se produire lors de la désactivation des URL trackées dans un email, à partir de l&#39;onglet **Contenu texte** en raison d&#39;une variable non initialisée. (NEO-13545)
+* Correction d&#39;un problème de blocage de la console qui pouvait se produire lors de la désactivation des URL suivies dans un email, à partir de l&#39;onglet **Contenu texte** en raison d&#39;une variable non initialisée. (NEO-13545)
 * Correction d&#39;un problème de codage du nom d&#39;un expéditeur chinois. (NEO-13837)
 * Correction d&#39;une erreur pouvant survenir lors de l&#39;affichage des données relatives aux réponses à un questionnaire dans l&#39;Explorateur. (NEO-14590)
 * Correction d&#39;un problème susceptible d&#39;entraîner une incohérence entre la classification du log de diffusion et la table de quarantaine. (NEO-16547)

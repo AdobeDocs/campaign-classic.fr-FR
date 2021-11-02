@@ -164,8 +164,8 @@ _5 juin 2021_
 
 * L’accès à la méthode d’API **xtk:session#GetCnxInfo** renvoyant les détails complets de la connexion à la base de données est maintenant limité aux utilisateurs administrateurs uniquement. (NEO-27779)
 * La fonction decryptString obsolète a été remplacée par decryptPassword dans les fichiers JavaScript liés au CRM.
-* La fonctionnalité de signature de tracking a été améliorée afin de réduire le risque d&#39;erreurs de redirection lors de la modification du lien tracké par des outils tiers (clients de messagerie, navigateurs Internet, outils de sécurité des liens).
-* Correction d’un problème qui empêchait le fonctionnement des URL trackées lorsqu’elles contenaient des caractères majuscules. Le mécanisme de signature des URL trackées respecte maintenant la casse. (NEO-28414)
+* La fonctionnalité de signature de tracking a été améliorée afin de réduire le risque d&#39;erreurs de redirection lors de la modification du lien suivi par des outils tiers (clients de messagerie, navigateurs Internet, outils de sécurité des liens).
+* Correction d’un problème qui empêchait le fonctionnement des URL suivies lorsqu’elles contenaient des caractères majuscules. Le mécanisme de signature des URL suivies respecte maintenant la casse. (NEO-28414)
 
 **Mises à jour de compatibilité**
 

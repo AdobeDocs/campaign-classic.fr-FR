@@ -75,7 +75,7 @@ Les exigences de la console cliente Campaign ont été mises à jour dans la mat
 
 L&#39;installation de la console cliente Campaign pour les étapes a été améliorée et clarifiée. [En savoir plus](../../installation/using/installing-the-client-console.md)
 
-Une nouvelle note technique a été créée concernant le problème de signature des URL trackées. [En savoir plus](../../technotes/using/tracked-urls.md)
+Une nouvelle note technique a été créée concernant le problème de signature des URL suivies. [En savoir plus](../../technotes/using/tracked-urls.md)
 
 ## Avril 2021 {#april-2021}
 
@@ -146,7 +146,7 @@ La liste des workflows techniques avec leurs packages associés a été amélior
 
 La section sur la résolution des problèmes du guide de **surveillance** a été réorganisée et améliorée avec une landing page. [En savoir plus](../../production/using/troubleshooting.md).
 
-Une nouvelle section **Import et export de données** est disponible avec de nouvelles pages relatives aux workflows, à la compression des données, au cryptage et aux bonnes pratiques d’import. [En savoir plus](../../platform/using/get-started-data-import-export.md)
+Une nouvelle section **Import et export de données** est disponible avec de nouvelles pages relatives aux workflows, à la compression des données, au chiffrement et aux bonnes pratiques d’import. [En savoir plus](../../platform/using/get-started-data-import-export.md)
 
 ## Décembre 2020 {#dec-2020}
 
@@ -290,7 +290,7 @@ Des bonnes pratiques ont été ajoutées dans la section sur l’activité **[!U
 
 La section Suppression d’une adresse mise en quarantaine a été mise à jour. Cela inclut la clarification des cas dans lesquels les adresses sont automatiquement supprimées de la liste de quarantaine. [En savoir plus](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-Des cas d&#39;utilisation ont été ajoutés pour [chiffrer](../../platform/using/zip-encrypt.md) et [déchiffrer](../../platform/using/unzip-decrypt.md) des données à l&#39;aide du panneau de contrôle et des workflows Campaign.
+Des cas d&#39;utilisation ont été ajoutés pour [chiffrer](../../platform/using/zip-encrypt.md) et [déchiffrer](../../platform/using/unzip-decrypt.md) des données à l&#39;aide du Panneau de contrôle et des workflows Campaign.
 
 La page sur l&#39;intégration des Triggers Experience Cloud et Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
 
@@ -488,7 +488,7 @@ La section Gestion des accès a été mise à jour avec le droit de **protection
 
 Des informations ont été ajoutées pour indiquer que le contenu des champs de personnalisation ne peut pas dépasser 1 024 caractères. [En savoir plus](../../delivery/using/personalization-fields.md)
 
-La documentation du panneau de contrôle a été intégrée au nouvel ensemble de documentation collaborative. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
+La documentation du Panneau de contrôle a été intégrée au nouvel ensemble de documentation collaborative. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
 
 Mise à jour du guide de prise en main des bonnes pratiques de diffusion. [En savoir plus](../../delivery/using/delivery-best-practices.md)
 

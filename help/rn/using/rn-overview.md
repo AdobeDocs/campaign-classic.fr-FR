@@ -63,7 +63,7 @@ En tant qu’utilisateur [!DNL Gold Standard] hébergé, vous bénéficiez autom
 ## Support et autres liens utiles{#support}
 
 * [Aide et support](../../support.md)
-* [Versions du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr)
+* [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr)
 * [Dernières mises à jour de la documentation](../../rn/using/documentation-updates.md)
 * [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md)
 

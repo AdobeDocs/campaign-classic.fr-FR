@@ -26,7 +26,7 @@ ht-degree: 100%
 
 * **[Sécurisation des instances Campaign](technotes/using/acc-config-updates.md)**<br/> Effectuez une mise à jour vers les derniers builds pour sécuriser votre plateforme Campaign.
 
-* **[Mise à jour de votre intégration Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)**<br/> Lʼancien service dʼauthentification oAuth tire sa révérence : vous devez migrer vers Adobe I/O.
+* **[Mise à jour de votre intégration Triggers Adobe Experience Clouds](integrations/using/configuring-adobe-io.md)**<br/> Lʼancien service dʼauthentification oAuth tire sa révérence : vous devez migrer vers Adobe I/O.
 
 [Autres mises à jour](rn/using/documentation-updates.md)
 

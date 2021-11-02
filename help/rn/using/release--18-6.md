@@ -63,7 +63,7 @@ ht-degree: 100%
 
 Query banding
 
-Une clé spécifique (PROXYUSER ou PROXYROLE) est utilisée pour associer un utilisateur ou un rôle Teradata à un utilisateur Campaign. Une nouvelle permission a été ajoutée pour utiliser ce rôle/utilisateur proxy. Vous devez ajouter le droit d&#39;accès GRANT CONNECT THROUGH au compte de base de données (celui défini dans le compte externe Teradata).
+Une clé spécifique (PROXYUSER ou PROXYROLE) est utilisée pour associer un utilisateur ou un rôle Teradata à un utilisateur Campaign. Une nouvelle autorisation a été ajoutée pour utiliser ce rôle/utilisateur proxy. Vous devez ajouter le droit d&#39;accès GRANT CONNECT THROUGH au compte de base de données (celui défini dans le compte externe Teradata).
 
 Un nouvel onglet a été ajouté dans les comptes externes de Teradata. L’onglet **[!UICONTROL Query banding]** comprend les options suivantes :
 
@@ -111,9 +111,9 @@ decryptString
 
 La fonction **decryptString** est obsolète. Reportez-vous à l’article [Fonctionnalités obsolètes et supprimées](deprecated-features.md).
 
-Pour les nouveaux clients, cette fonction n’est plus utilisée que pour déchiffrer l’ID crypté du destinataire dans les landing pages. Pour déchiffrer les mots de passe stockés dans un compte externe, utilisez la nouvelle fonction **decryptPassword**.
+Pour les nouveaux clients, cette fonction n’est plus utilisée que pour déchiffrer l’ID chiffré du destinataire dans les landing pages. Pour déchiffrer les mots de passe stockés dans un compte externe, utilisez la nouvelle fonction **decryptPassword**.
 
-Pour les clients existants, le comportement de cette fonction reste inchangée mais nous vous recommandons d’utiliser **decryptPassword** au lieu de **decryptString**. L’option de compatibilité **XtkSecurity_Unsafe_DecryptString** est ajoutée par le postupgrade et activée par défaut, ce qui vous permet de continuer à utiliser la fonction. Si vous souhaitez désactiver **decryptString**, désactivez l’option.
+Pour les clients existants, le comportement de cette fonction reste inchangé, mais nous vous recommandons d’utiliser **decryptPassword** au lieu de **decryptString**. L’option de compatibilité **XtkSecurity_Unsafe_DecryptString** est ajoutée par le postupgrade et activée par défaut, ce qui vous permet de continuer à utiliser la fonction. Si vous souhaitez désactiver **decryptString**, désactivez l’option.
 
 decryptPassword
 

@@ -95,10 +95,10 @@ ht-degree: 100%
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définition des conditions de filtre](platform/using/defining-filter-conditions.md)
    + Autorisations {#permissions}
-      + [Prise en main des permissions](platform/using/access-management.md)
+      + [Prise en main des autorisations](platform/using/access-management.md)
       + [Création et gestion d’opérateurs](platform/using/access-management-operators.md)
       + [Création et gestion de groupes](platform/using/access-management-groups.md)
-      + [Utilisation des droits nommés pour la configuration des permissions](platform/using/access-management-named-rights.md)
+      + [Utilisation des droits nommés pour la configuration des autorisations](platform/using/access-management-named-rights.md)
       + [Gestion de l’accès aux dossiers](platform/using/access-management-folders.md)
    + Packages de données et énumérations {#administration-basics}
       + [Packages de données](platform/using/working-with-data-packages.md)
@@ -216,7 +216,7 @@ ht-degree: 100%
       + [Présentation de la gestion des quarantaines](delivery/using/understanding-quarantine-management.md)
    + Suivi des messages {#tracking-messages}
       + [À propos du tracking des messages](delivery/using/about-message-tracking.md)
-      + [Comment configurer des liens trackés](delivery/using/how-to-configure-tracked-links.md)
+      + [Comment configurer des liens suivis](delivery/using/how-to-configure-tracked-links.md)
       + Tracking des liens personnalisés {#tracking-personalized-links}
          + [Prise en main du tracking des liens personnalisés](delivery/using/tracking-personalized-links.md)
          + [Détection des URL de tracking](delivery/using/detecting-tracking-urls.md)
@@ -267,7 +267,7 @@ ht-degree: 100%
 + Marketing Resource Management (Gestion des ressources marketing){#mrm}
    + [À propos de la gestion des ressources marketing](mrm/using/about-marketing-resource-management.md)
    + [Création et gestion de tâches](mrm/using/creating-and-managing-tasks.md)
-   + [Contrôle des coûts](mrm/using/controlling-costs.md)
+   + [Coûts de contrôle](mrm/using/controlling-costs.md)
    + [Gestion des ressources marketing](mrm/using/managing-marketing-resources.md)
    + [Forums de discussion](mrm/using/discussion-forums.md)
 + Marketing distribué {#distributed-marketing}
@@ -336,7 +336,7 @@ ht-degree: 100%
       + [Interface de l&#39;éditeur de contenu](web/using/content-editor-interface.md)
       + [Modification du contenu](web/using/editing-content.md)
       + [Bonnes pratiques relatives à l&#39;édition de contenu](web/using/content-editing-best-practices.md)
-      + [Création d’une page de destination](web/using/creating-a-landing-page.md)
+      + [Création d’une landing page](web/using/creating-a-landing-page.md)
       + [Cas d’utilisation : création d’une diffusion email](web/using/use-case--creating-an-email-delivery.md)
    + Formulaires web {#web-forms}
       + [Prise en main des formulaires web](web/using/about-web-forms.md)
@@ -853,7 +853,7 @@ ht-degree: 100%
       + [FAQ sur la protection de la confidentialité dʼApple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=fr)
       + [Mise à jour des hard bounces incorrects](delivery/using/update-bounce-qualification.md)
       + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
-      + [Mise à jour des URL trackées](technotes/using/tracked-urls.md)
+      + [Mise à jour des URL suivies](technotes/using/tracked-urls.md)
    + Migration vers Adobe Managed Services{#dc-migration}
       + [Migration vers le cloud public](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)

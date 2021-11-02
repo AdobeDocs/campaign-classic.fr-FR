@@ -119,9 +119,9 @@ ht-degree: 100%
 **Améliorations de la sécurité**
 
 * L&#39;extension des entités externes est désormais désactivée pour prévenir les attaques potentielles d&#39;utilisateurs non authentifiés. (NEO-10173)
-* Permissions renforcées pour empêcher les utilisateurs standard de modifier les paramètres de configuration d&#39;instance, tels que les URL d&#39;accès aux applications, la configuration LDAP, etc. (NEO-10171)
+* Autorisations renforcées pour empêcher les utilisateurs standard de modifier les paramètres de configuration d&#39;instance, tels que les URL d&#39;accès aux applications, la configuration LDAP, etc. (NEO-10171)
 * Correction d&#39;un problème qui pouvait révéler des informations sensibles via des traces de pile. Les détails d&#39;erreur sont maintenant consignés en back-end à un emplacement inaccessible à partir du réseau externe. (NEO-10176)
-* Permissions renforcées pour empêcher les utilisateurs standard d&#39;afficher les documents téléchargés et/ou les packages exportés par un administrateur. (NEO-10170)
+* Autorisations renforcées pour empêcher les utilisateurs standard d&#39;afficher les documents téléchargés et/ou les packages exportés par un administrateur. (NEO-10170)
 
 **Améliorations**
 
