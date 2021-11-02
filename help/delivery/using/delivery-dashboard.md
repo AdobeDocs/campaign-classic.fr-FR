@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1243'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour c
 >
 >Si le tracking n&#39;est pas activé pour une diffusion, cet onglet n&#39;est pas affiché.
 
-Le paramétrage du tracking est effectué dans l&#39;assistant de diffusion, à l&#39;étape concernée. Voir à ce sujet la section [Comment configurer des liens trackés](how-to-configure-tracked-links.md). 
+Le paramétrage du tracking est effectué dans l&#39;assistant de diffusion, à l&#39;étape concernée. Voir à ce sujet la section [Comment configurer des liens suivis](how-to-configure-tracked-links.md). 
 
 Les données de **[!UICONTROL tracking]** sont interprétées dans les rapports de diffusion. Voir [cette section](../../reporting/using/delivery-reports.md).
 
@@ -192,7 +192,7 @@ Pour ce faire, procédez comme suit :
 
 >[!NOTE]
 >
->Une fois la mise à jour de la structure physique de la base de données terminée, vous devez vous déconnecter et vous reconnecter afin que vos modifications soient prises en compte.
+>Une fois la mise à jour de la structure physique de la base de données terminée avec succès, vous devez vous déconnecter et vous reconnecter afin que vos modifications soient prises en compte.
 
 ### Étape 3 : Valider la modification
 
