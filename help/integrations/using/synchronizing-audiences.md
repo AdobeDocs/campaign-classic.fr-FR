@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: acs-connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Une fois que la population cible est définie, vous pouvez la partager avec ACS 
 
 1. Dans le workflow précédemment créé, ajoutez une activité **[!UICONTROL Mise à jour de liste]** et spécifiez la liste que vous souhaitez mettre à jour ou créer.
 
-   Indiquez le dossier dans lequel vous souhaitez enregistrer la liste dans Campaign v7. Les listes sont soumises au mappage de dossiers défini lors de la mise en oeuvre, ce qui peut avoir un impact sur leur visibilité une fois qu’elles sont partagées dans Campaign Standard. Pour plus d&#39;informations, consultez la section [Conversion des droits](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion).
+   Indiquez le dossier dans lequel vous souhaitez enregistrer la liste dans Campaign v7. Les listes sont soumises au mappage de dossiers défini lors de la mise en œuvre, ce qui peut avoir un impact sur leur visibilité une fois qu’elles sont partagées dans Campaign Standard. Pour plus d&#39;informations, consultez la section [Conversion des droits](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion).
 
 1. Vérifiez que l&#39;option **[!UICONTROL Partager avec ACS]** est cochée. Elle l&#39;est par défaut.
 
