@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: editing-schemas
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Il existe deux solutions pour étendre un schéma déjà existant :
    </schema>
    ```
 
-   L&#39;attribut **dependingSchemas** sur l&#39;élément racine du schéma référence les dépendances sur les schémas d&#39;extension.
+   L’attribut **dependingSchemas** sur l’élément racine du schéma référence les dépendances sur les schémas d’extension.
 
    L&#39;attribut **belongsTo** sur le champ renseigne le schéma où il est déclaré.
 
