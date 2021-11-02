@@ -10,9 +10,9 @@ internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Deux connecteurs sont disponibles pour Android :
 
 Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Administration > Plate-forme > Comptes externes]**.
+1. Accédez à **[!UICONTROL Administration > Plateforme > Comptes externes]**.
 1. Sélectionnez le compte externe de **[!UICONTROL routage Android]**.
 1. Dans l&#39;onglet **[!UICONTROL Connecteur]**, renseignez le champ **[!UICONTROL JavaScript du connecteur]** :
 
