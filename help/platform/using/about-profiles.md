@@ -7,9 +7,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: ed43a632a962747c9402ff8d5f0ce442c2cc6490
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '849'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Le nombre de profils actifs est disponible pour les **instances marketing** uniq
 
 >[!NOTE]
 >
->Vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement à partir du panneau de contrôle de Campaign. Pour plus d’informations, consultez la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=fr).
+>Vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement à partir du Panneau de contrôle de Campaign. Pour plus d’informations, consultez la [documentation du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=fr).
 
 ## Tutoriel vidéo {#create-profiles-video}
 
