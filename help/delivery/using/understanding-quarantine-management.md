@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2703'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -261,13 +261,13 @@ Adobe Campaign contacte le serveur Baidu toutes les 10 minutes pour récupérer
 
 **Pour Android V2**
 
-Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu’Android V1. Il en va de même pour la mise à jour des abonnements et des exclusions. Voir à ce propos la section [Android V1](#android-quarantine) .
+Le mécanisme de mise en quarantaine d’Android V2 utilise le même processus qu’Android V1. Il en va de même pour la mise à jour des abonnements et des exclusions. Pour en savoir plus, consultez la section [Android V1](#android-quarantine).
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>Scénario</strong><br /> </td> 
-   <td> <strong>État</strong><br /> </td> 
+   <td> <strong>Status</strong><br /> </td> 
    <td> <strong>Message de l'erreur</strong><br /> </td> 
    <td> <strong>Type de l'échec</strong><br /> </td> 
    <td> <strong>Raison de l'échec</strong><br /> </td> 
@@ -481,7 +481,7 @@ Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;appliqu
  <tbody> 
   <tr> 
    <td> <strong>Scénario</strong><br /> </td> 
-   <td> <strong>État</strong><br /> </td> 
+   <td> <strong>Status</strong><br /> </td> 
    <td> <strong>Message de l'erreur</strong><br /> </td> 
    <td> <strong>Type de l'échec</strong><br /> </td> 
    <td> <strong>Raison de l'échec</strong><br /> </td> 
