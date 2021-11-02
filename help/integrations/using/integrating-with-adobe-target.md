@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: adobe-target
 exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
 source-git-commit: 0996cc313be93300bce2f094c97e45a794cd459e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Plusieurs types de données peuvent être exploités par Adobe Target :
 
 * données provenant du datamart Adobe Campaign ;
 * segments associés à l&#39;identifiant visiteur dans Adobe Target, si les données utilisées ne sont pas soumises à des limitations légales ;
-* Données Adobe Target : agent utilisateur, adresse IP, données de géolocalisation
+* Données Adobe Target : agent utilisateur, adresse IP, données de géolocalisation
 
 >[!NOTE]
 >
->Vous pouvez également trouver des informations relatives à l&#39;intégration entre Adobe Campaign et Adobe Target sur les [pages d&#39;aide d&#39;Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=fr).
+>Retrouvez également des informations relatives à l’intégration entre Adobe Campaign et Adobe Target sur les [pages d’aide d’Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=fr).
