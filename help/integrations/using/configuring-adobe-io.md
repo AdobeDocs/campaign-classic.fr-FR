@@ -9,9 +9,9 @@ internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 source-git-commit: bf063ec8f06c3e8e70011a5b5101f17e163a383c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,17 +24,16 @@ ht-degree: 92%
 >Si vous utilisez une ancienne version de l’intégration Triggers par le biais de l’authentification OAuth, **vous devez migrer vers Adobe I/O comme décrit ci-dessous**.
 >Notez que lors de ce déplacement vers [!DNL Adobe I/O], certains triggers entrants peuvent être perdus.
 >
->L’ancien mode d’authentification oAuth avec Campaign sera abandonné le **20 octobre 2021**. Les environnements hébergés bénéficient d’une extension jusqu’au **23 février 2022**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’en février 2022. Vous devez [fournir l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
+>Le mode d’authentification oAuth hérité avec Campaign sera mis hors service le **20 octobre 2021**. Les environnements hébergés bénéficient d’une extension jusqu’au **23 février 2022**. En tant que client on-premise ou hybride, contactez lʼassistance clientèle dʼAdobe pour étendre lʼassistance jusquʼen février 2022. Vous devez [fournir l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
 
-## Conditions préalables requises {#adobe-io-prerequisites}
+## Conditions préalables {#adobe-io-prerequisites}
 
-Cette intégration ne s’applique qu’à partir de **Campaign Classic 20.2.4 et versions ultérieures, 19.1.8 et Gold Standard 11 versions**.
+Cette intégration ne s’applique qu’à partir des **versions Campaign Classic 20.2.4 et ultérieures, 19.1.8 et Gold Standard 11**.
 
 Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléments suivants :
 
 * Un **identifiant d&#39;organisation** valide : l&#39;identifiant de l&#39;organisation Identity Management System (IMS) est l’identifiant unique dans Adobe Experience Cloud, utilisé par exemple pour le service VisitorID et l’authentification unique (SSO) IMS. [En savoir plus](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=fr)
-* Un **accès développeur** à votre organisation. L&#39;administrateur système de l&#39;organisation IMS doit suivre la procédure **Ajouter des développeurs à un profil de produit unique**
-présentée [dans cette page](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html) pour fournir aux développeurs l&#39;accès au `Analytics - {tenantID}`profil du produit Adobe Analytics associé aux Triggers.
+* Un **accès développeur** à votre organisation. L’administrateur système de l’organisation IMS doit suivre la procédure **Ajouter des développeurs à un profil de produit unique** présentée [dans cette page](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html) pour fournir aux développeurs l’accès au `Analytics - {tenantID}`profil du produit Adobe Analytics associé aux Triggers.
 
 ## Étape 1 : créer/mettre à jour un projet Adobe I/O {#creating-adobe-io-project}
 
