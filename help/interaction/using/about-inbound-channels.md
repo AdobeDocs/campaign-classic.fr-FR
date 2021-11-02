@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: unitary-interactions
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
 source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Les offres peuvent être présentées à divers emplacements utilisant un canal 
 
 ![](assets/do-not-localize/how-to-video.png) Vous pouvez également regarder cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) qui explique en détail comment diffuser une offre sur un canal entrant.
 
-Pour qu&#39;une offre puisse être sélectionnée par le moteur d&#39;offre, elle doit avoir été validée et être disponible dans un environnement en ligne. Voir à ce sujet [Valider et activer une offre](../../interaction/using/approving-and-activating-an-offer.md).
+Pour qu’une offre puisse être sélectionnée par le moteur d’offres, elle doit avoir été validée et être disponible dans un environnement en ligne. Pour en savoir plus, consultez la section [Validation et activation d’une offre](../../interaction/using/approving-and-activating-an-offer.md).
 
-Lorsqu’un contact est entrant, deux possibilités s’offrent à vous : l’utilisateur qui navigue sur les pages peut être identifié par le site web ou non. Le moteur d&#39;offres présente différentes offres selon que l&#39;utilisateur est identifié ou non.
+Lorsqu’un contact est entrant, deux possibilités s’offrent à vous : l’utilisateur qui navigue sur les pages peut être identifié par le site web ou non. Le moteur d’offres présente différentes offres, selon que l’utilisateur est identifié ou non.
 
 Avant de pouvoir proposer des offres sur un canal entrant, vous devez paramétrer l&#39;appel au moteur d&#39;offres à l&#39;endroit où vous souhaitez que les offres soient présentées. Le cas le plus courant dans le cadre d&#39;une interaction entrante est la page Web.
 
