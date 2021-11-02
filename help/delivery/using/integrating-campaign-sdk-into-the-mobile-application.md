@@ -8,9 +8,9 @@ topic-tags: sending-push-notifications
 version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 ![](../../assets/common.svg)
 
-Les SDK Campaign pour iOS et Android sont des composants du module Canal applications mobiles (Mobile App Channel).
+Les SDK Campaign pour iOS et Android sont des composants du module Canal des applications mobiles.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Pour plus d&#39;informations sur les différentes versions Android et iOS prises
 
 * **Sous Android** : le fichier **neolane_sdk-release.aar** doit être lié au projet.
 
-   La permission suivante permet l&#39;accès au serveur Adobe Campaign :
+   La autorisation suivante permet l&#39;accès au serveur Adobe Campaign :
 
    ```
    Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
@@ -46,9 +46,9 @@ Pour plus d&#39;informations sur les différentes versions Android et iOS prises
    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
    ```
 
-   A partir de la version 1.0.24 du SDK, cette permission est uniquement utilisée pour les versions antérieures à Android 6.0.
+   A partir de la version 1.0.24 du SDK, cette autorisation est uniquement utilisée pour les versions antérieures à Android 6.0.
 
-   A partir de la version 1.0.26 du SDK, cette permission n&#39;est plus utilisée.
+   A partir de la version 1.0.26 du SDK, cette autorisation n&#39;est plus utilisée.
 
 * **Sous iOS** : les fichiers **libNeolaneSDK.a** et **Neolane_SDK.h** doivent être liés au projet. A partir de la version 1.0.24 du SDK, l&#39;option **ENABLE_BITCODE** est activée.
 
@@ -340,7 +340,7 @@ Pour suivre votre notification silencieuse, suivez l&#39;exemple ci-après.
 >
 >Ceci s&#39;applique exclusivement à iOS.
 
-Dans iOS, le protocole délégué vous permet d’obtenir le résultat de l’appel **registerDevice** et peut être utilisé pour savoir si une erreur s’est produite lors de l’enregistrement.
+Sous iOS, le protocole délégué vous permet d’obtenir le résultat de l’appel de **registerDevice** et peut être utilisé pour déterminer si une erreur s’est produite pendant l’enregistrement.
 
 Le prototype de **registerDeviceStatus** est le suivant :
 
@@ -348,7 +348,7 @@ Le prototype de **registerDeviceStatus** est le suivant :
 - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
 ```
 
-**** Statusson vous permet de savoir si un enregistrement a réussi ou si une erreur s’est produite.
+Le **Statut** vous permet de déterminer si un enregistrement a été effectué avec succès ou si une erreur s’est produite.
 
 **ErrorReason** fournit des informations supplémentaires sur les erreurs qui se sont produites. Pour en savoir plus sur les erreurs disponibles et leur description, reportez-vous au tableau ci-dessous.
 
