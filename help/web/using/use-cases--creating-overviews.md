@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-applications
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1031'
 ht-degree: 100%
 
@@ -175,7 +175,7 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 
 1. Appliquez **dottedFilter**.
 
-   Ce style est référencé dans le modèle **[!UICONTROL Application Web Mono-page]** sélectionné précédemment.
+   Ce style est référencé dans le modèle **[!UICONTROL Application web mono-page]** sélectionné précédemment.
 
    ![](assets/s_ncs_configuration_webapp_container002.png)
 
