@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: f007dcbf63d7a69a6d532d0be99b0fa90f4f6d7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1724'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Les workflows présentés dans cette section sont installés avec les différent
 
 Par défaut, les workflows techniques sont disponibles dans un sous-dossier du nœud suivant : **[!UICONTROL Administration]** > **[!UICONTROL Exploitation]** > **[!UICONTROL Workflows techniques]**.
 
-Notez que les workflows techniques ne peuvent être démarrés et modifiés que par les opérateurs ayant le droit d&#39;administration. Pour plus d’informations sur les autorisations, consultez cette [section](../../platform/using/access-management-groups.md#default-groups).
+Notez que les workflows techniques ne peuvent être démarrés et modifiés que par les opérateurs disposant de droits d&#39;administration. Pour plus d’informations sur les autorisations, reportez-vous à cette [section](../../platform/using/access-management-groups.md#default-groups).
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 | **Calcul de l&#39;agrégat intégral de MessageCenter** (agg_messageCenter_full) | Contrôle des messages transactionnels (Message Center - Pilotage) | Ce workflow met à jour l’agrégat intégral du cube Message Center. Il est déclenché tous les jours à 3h du matin par défaut. Cet agrégat capture les dimensions suivantes : Canal, Date, Statut et Type d&#39;événement. Le cube Message Center est ensuite utilisé pour générer des rapports basés sur des événements. Vous pouvez en savoir plus sur les cubes dans [cette section](../../reporting/using/about-cubes.md) |
 | **Mid-sourcing (compteurs des diffusions)** (defaultMidSourcingDlv) | Emission vers Mid-sourcing | Ce workflow collecte les informations de comptage des diffusions sur le serveur de mid-sourcing. Les informations de comptage comprennent les indicateurs généraux de diffusion tels que le nombre de diffusions envoyées, etc. Les informations de tracking comme les ouvertures ne sont pas incluses. Par défaut, il se déclenche toutes les dix minutes. |
 | **Mid-sourcing (logs de diffusion)** (defaultMidSourcingLog) | Emission vers Mid-sourcing | Ce workflow collecte les logs des diffusions sur le serveur de mid-sourcing. Par défaut, il se déclenche toutes les heures. |
-| **Gestion des opt-out NMAC** (mobileAppOptOutMgt) | Mobile App Channel | Ce workflow met à jour les désinscriptions aux notifications sur les terminaux mobiles. Par défaut, il se déclenche toutes les 6H00 entre 1H00 et minuit. Pour plus d&#39;informations, voir à ce sujet [cette section](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines). |
+| **Gestion des opt-out NMAC** (mobileAppOptOutMgt) | Canal des applications mobiles | Ce workflow met à jour les désinscriptions aux notifications sur les terminaux mobiles. Par défaut, il se déclenche toutes les 6H00 entre 1H00 et minuit. Pour plus d&#39;informations, voir à ce sujet [cette section](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines). |
 | **Notification d&#39;offre** (offerMgt) | Diffusion | Toutes les heures, ce workflow déploie les offres validées sur l&#39;environnement en ligne, ainsi que toutes les catégories contenues dans le catalogue d&#39;offres. |
 | **Nettoyage des workflows en pause** (cleanupPausedWorkflows) | Diffusion | Ce workflow analyse les workflows en pause dont le niveau de priorité est défini sur normal et déclenche des avertissements et des notifications lorsqu&#39;ils sont en pause depuis trop longtemps. Après un mois, les workflows techniques en pause sont arrêtés de manière inconditionnelle. Par défaut, ce workflow est déclenché tous les lundis à 5h00. Pour plus d’informations, voir [Gérer les workflows en pause](monitoring-workflow-execution.md#handling-of-paused-workflows). |
 | **Nettoyage des demandes d&#39;accès à des informations personnelles** (cleanupPrivacyRequests) | Règlement sur la protection des informations personnelles | Ce workflow supprime les fichiers de demande d’accès qui ont plus de 90 jours. |
@@ -80,4 +80,4 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 | **Notification des tâches** (taskMgt) | Ressources marketing (MRM)  - Campaign v7 uniquement | Ce workflow permet d&#39;envoyer les messages de notification relatifs aux tâches dans les opérations marketing. |
 | **Tracking** (tracking) | Diffusion | Ce workflow réalise la récupération et la consolidation des informations de tracking. Il assure également le re-calcul des statistiques de tracking et de diffusions, notamment celles utilisées par les workflows d&#39;archivage de Message Center. Par défaut, il se déclenche toutes les heures. |
 | **Mise à jour du statut des événements** (updateEventsStatus) | Exécution des messages transactionnels (Message Center - Exécution) | Ce workflow permet d&#39;attribuer un statut à l&#39;événement. Les statuts d&#39;un événement sont les suivants :<ul><li>En attente : l&#39;événement se trouve dans la file d&#39;attente. Aucun modèle de message ne lui a encore été associé.</li><li>En attente de diffusion : l&#39;événement est dans la file d&#39;attente, un modèle de message lui a été associé et il est en cours de traitement par la diffusion.</li><li>Envoyé : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été envoyée.</li><li>Ignoré par la diffusion : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été ignorée.</li><li>Erreur de diffusion : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a échoué.</li><li>Evénement non pris en charge : l&#39;association de l&#39;événement à un modèle de message a échoué. L&#39;événement ne sera pas retraité.</li></ul> |
-| **Mettre à jour pour la délivrabilité** (deliverabilityUpdate) | Diffusion | Une fois le package Supervision de la délivrabilité (Email Deliverability) installé, ce workflow s&#39;exécute de nuit et gère les règles de qualification des emails bounce, ainsi que la liste des domaines et des MX. Pour ce faire, le port HTTPS doit être ouvert sur la plateforme. |
+| **Mettre à jour pour la délivrabilité** (deliverabilityUpdate) | Diffusion | Une fois le package Supervision de la délivrabilité (Email Deliverability) installé, ce workflow s’exécute de nuit et gère les règles de qualification des e-mails de retour, ainsi que la liste des domaines et des MX. Pour ce faire, le port HTTPS doit être ouvert sur la plateforme. |
