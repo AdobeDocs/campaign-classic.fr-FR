@@ -7,9 +7,9 @@ role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 
 ## Prise en main des opérateurs Campaign  {#about-operators}
 
-Un opérateur est un utilisateur Adobe Campaign qui possède des permissions pour se connecter et effectuer des actions.
+Un opérateur est un utilisateur Adobe Campaign qui possède des autorisations pour se connecter et effectuer des actions.
 
 Les opérateurs sont stockés par défaut dans le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**.
 
@@ -39,7 +39,7 @@ Les utilisateurs peuvent également se connecter directement à Adobe Campaign 
 
 ## Création d’un opérateur {#creating-an-operator}
 
-Pour créer un opérateur et accorder des permissions, procédez comme suit :
+Pour créer un opérateur et accorder des autorisations, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des opérateurs et indiquez les détails de ce nouvel opérateur.
 
@@ -49,7 +49,7 @@ Pour créer un opérateur et accorder des permissions, procédez comme suit :
 
    Cette section permet également d&#39;associer l&#39;opérateur à une entité organisationnelle. Voir à ce propos [cette page](../../distributed/using/about-distributed-marketing.md).
 
-1. Sélectionnez les permissions accordées à l&#39;opérateur dans la section **[!UICONTROL Droits d&#39;accès de l&#39;opérateur]**.
+1. Sélectionnez les autorisations accordées à l&#39;opérateur dans la section **[!UICONTROL Droits d&#39;accès de l&#39;opérateur]**.
 
    Pour attribuer des permissions à l&#39;opérateur, cliquez sur le bouton **[!UICONTROL Ajouter]** situé au-dessus de la liste des droits puis sélectionnez un groupe d&#39;opérateurs dans la liste des groupes disponibles :
 
@@ -91,7 +91,7 @@ Les paramétrages relatifs aux fuseaux horaires sont décrits sur [cette page](.
 
 En outre, la liste déroulante **[!UICONTROL Paramètres régionaux]** vous permet de sélectionner le format d&#39;affichage des dates et des nombres.
 
-## Ajout de permissions {#access-rights-options}
+## Ajout d’autorisations {#access-rights-options}
 
 Dans l&#39;onglet **[!UICONTROL Droits d&#39;accès]**, vous pouvez mettre à jour les groupes et droits nommés associés à l&#39;opérateur.
 
@@ -99,7 +99,7 @@ Dans l&#39;onglet **[!UICONTROL Droits d&#39;accès]**, vous pouvez mettre à jo
 
 Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;accéder aux options suivantes :
 
-* L&#39;option **[!UICONTROL Désactiver le compte]** permet de désactiver le compte de l&#39;opérateur : cet utilisateur n’aura plus accès à Adobe Campaign.
+* L&#39;option **[!UICONTROL Désactiver le compte]** permet de désactiver le compte de l’opérateur : celui-ci ne peut plus accéder à Adobe Campaign.
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;acc
 
    >[!IMPORTANT]
    >
-   >Il s&#39;agit d&#39;une restriction très stricte qui doit être utilisée avec précaution. Un opérateur connecté avec ce type de droits ne peut visualiser que le contenu du dossier spécifié et n&#39;a accès à aucun autre noeud de l&#39;arborescence via l&#39;explorateur. Toutefois, en fonction des fonctionnalités auxquelles cet opérateur a accès (par exemple : workflows), l’utilisateur peut afficher les données généralement stockées dans des noeuds qui ne sont pas accessibles.
+   >Il s’agit d’une restriction très stricte qui doit être utilisée avec précaution. Un opérateur connecté avec ce type de droits ne peut visualiser QUE le contenu du dossier spécifié et n’a accès à aucun autre nœud de l’arborescence via l’explorateur. Toutefois, selon les fonctionnalités auxquelles cet opérateur a accès (par exemple : workflows), l’utilisateur peut afficher les données généralement stockées dans des nœuds qui ne sont pas accessibles.
 
 ### Vérification des paramètres {#check-settings}
 
