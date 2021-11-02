@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,13 +43,13 @@ En tant que client on-premise, vous devez installer un package natif.
 
 Les étapes d&#39;installation sont les suivantes :
 
-1. Accédez à l&#39;assistant d&#39;import de package à partir de **[!UICONTROL Outils > Avancé > Import de package]** dans la console cliente Adobe Campaign.
+1. Accédez à l’assistant d’import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package]** de la console cliente Adobe Campaign.
 
    ![](assets/package_ios.png)
 
 1. Sélectionnez **[!UICONTROL Installer un package standard]**.
 
-1. Dans la liste qui s&#39;affiche, cochez **[!UICONTROL Mobile App Channel]**.
+1. Dans la liste qui s&#39;affiche, cochez **[!UICONTROL Canal des applications mobiles]**.
 
    ![](assets/package_ios_2.png)
 
