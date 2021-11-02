@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
 source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
 ht-degree: 100%
 
@@ -229,7 +229,7 @@ L&#39;utilitaire de chargement en masse permet un transfert plus rapide grâce a
 
 Vous devez créer un compte externe [!DNL Google BigQuery] pour connecter votre instance Adobe Campaign Classic à votre base de données [!DNL Google BigQuery] externe.
 
-1. Dans l&#39;**[!UICONTROL Explorateur]** Adobe Campaign Classic, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plate-forme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
+1. Dans l&#39;**[!UICONTROL Explorateur]** Adobe Campaign Classic, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plateforme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
 
 1. Cliquez sur **[!UICONTROL Nouveau]**.
 
