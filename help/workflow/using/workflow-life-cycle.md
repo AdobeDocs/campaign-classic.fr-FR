@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: -general-operation
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Le cycle de vie d&#39;un workflow comporte trois grandes étapes.
 
    Un workflow est terminé lorsqu&#39;il n&#39;a plus de tâche en cours ou lorsqu&#39;un opérateur a arrêté explicitement l&#39;instance.
 
-Par exemple, les activités **Démarrer** et **Diffusion** sont entourées tandis que l&#39;activité **Validation** clignote dans le workflow ci-dessous.
+Par exemple, dans le workflow ci-dessous, les activités **Début** et **Diffusion** sont entourées tandis que l’activité **Validation** clignote.
 
 ![](assets/new-workflow-6.png)
 
