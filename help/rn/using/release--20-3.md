@@ -158,7 +158,7 @@ Sous Linux, _apache_neolane.conf_ est maintenant installé dans le répertoire `
 * Correction d’un problème dans le rapport **Historique des événements Message Center** qui provoquait des erreurs de script lors de la tentative d’application de filtres et rendait impossible le filtrage selon une période. (NEO-23365)
 * Correction d’un problème d’interférence entre les workflows techniques **Traitements sur les opérations** et **Prévisualisation** (prévisionnel). Ce problème se produisait lorsque les diffusions planifiées conservaient le statut « Cible prête » ou « Prêt à être diffusé ». (NEO-20819)
 * Correction d’un problème d’analyse XML en raison duquel l’identifiant XML n’était pas présent dans le champ mdata dans xtkOperator. Ce problème entraînait un échec du postupgrade. (NEO-26113)
-* Correction d&#39;un problème lors de l&#39;utilisation de l&#39;activité **Transfert de fichier** liée à un compte externe Azure crypté en SSL pour lequel la connexion était établie avec HTTP au lieu de HTTPS. (NEO-26720)
+* Correction d&#39;un problème lors de l&#39;utilisation de l&#39;activité **Transfert de fichier** liée à un compte externe Azure chiffré en SSL pour lequel la connexion était établie avec HTTP au lieu de HTTPS. (NEO-26720)
 * Correction d’un problème lié à la base de données MSSQL en raison duquel une erreur se produisait avec la procédure up_updatestats pendant le workflow de nettoyage.
 * Correction d’un blocage qui se produisait pendant l’arrêt du processus web si les demandes d’interaction étaient toujours en cours de traitement. (NEO-26447)
 * Correction d’un problème en raison duquel la fonction **NoNull** d’Oracle DB ne fonctionnait plus après l’upgrade 9032. (NEO-26488)

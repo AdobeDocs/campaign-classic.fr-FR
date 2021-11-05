@@ -153,7 +153,7 @@ _21 juin 2019_
 * Pour améliorer les performances, un attribut _operation=&quot;none&quot; a été ajouté aux appels SOAP de rtEvent afin d&#39;éviter les requêtes &quot;SELECT FOR UPDATE&quot;.
 * Correction d&#39;un problème d&#39;affichage de workflow lié aux transitions sortantes après l’activité Test. (NEO-12727)
 * Nous autorisons maintenant la suppression des enregistrements factices créés dans Microsoft Dynamics lors du workflow d&#39;import.
-* Améliorations des permissions pour exécuter le package de zone de sécurité lors de l&#39;utilisation d&#39;un compte interne.
+* Améliorations des autorisations pour exécuter le package de zone de sécurité lors de l&#39;utilisation d&#39;un compte interne.
 
 ## ![](assets/do-not-localize/red_2.png) Version 19.1 - Build 9026{#release-19-1-build-9026}
 
@@ -171,7 +171,7 @@ _30 mai 2019_
  <tbody> 
   <tr> 
    <td> Panneau de contrôle<br /> </td> 
-   <td> <p>Pour travailler plus efficacement en tant qu'utilisateur administrateur, gérez les paramètres de vos serveurs SFTP en surveillant le stockage, ajoutez des adresses IP à la liste autorisée et installez des clés SSH pour chaque instance. Veuillez noter qu’à compter d’aujourd’hui le panneau de contrôle n’est disponible que pour les clients hébergés sur AWS (<a href="https://experiencecloud.adobe.com/fr/campaign/controlpanel/">connectez-vous par l’intermédiaire d’Experience Cloud dès aujourd’hui</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=fr">vidéo de procédure</a>. </p><p>Remarque : Il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign pour accéder au panneau de contrôle.</p> </td> 
+   <td> <p>Pour travailler plus efficacement en tant qu'utilisateur administrateur, gérez les paramètres de vos serveurs SFTP en surveillant le stockage, ajoutez des adresses IP à la liste autorisée et installez des clés SSH pour chaque instance. Veuillez noter qu’à compter d’aujourd’hui le Panneau de contrôle n’est disponible que pour les clients hébergés sur AWS (<a href="https://experiencecloud.adobe.com/fr/campaign/controlpanel/">connectez-vous par l’intermédiaire d’Experience Cloud dès aujourd’hui</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=fr">vidéo de procédure</a>. </p><p>Remarque : Il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign pour accéder au Panneau de contrôle.</p> </td> 
   </tr> 
     <tr> 
    <td> Suivi<br /> </td> 
