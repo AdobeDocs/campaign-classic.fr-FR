@@ -48,7 +48,7 @@ Les notions de base de la gestion des profils sont expliquées dans la section [
 
 ### Segmentation ciblée {#targeted-segmentation}
 
-Pour vous permettre de mettre en place des offres hautement ciblées et différenciées, Adobe_Campaign intègre des fonctionnalités d’analyse et de ciblage. Grâce aux fonctionnalités d&#39;analyse descriptive, vous avez la possibilité d&#39;analyser les informations en amont et en aval de vos campagnes marketing. D&#39;autre part, les fonctionnalités de gestion de filtres et le [requêteur graphique](../../platform/using/about-queries-in-campaign.md) vous permettent de filtrer les populations d&#39;inscrits, d&#39;échantillonner ou de créer des groupes cibles sur un nombre illimité de critères. Les fonctions d&#39;analyse et de ciblage sont décrites dans [cette page](../../reporting/using/about-descriptive-analysis.md) et dans la section [Création de filtres](../../platform/using/creating-filters.md).
+Pour vous permettre de mettre en place des offres hautement ciblées et différenciées, Adobe Campaign intègre des fonctionnalités d’analyse et de ciblage. Grâce aux fonctionnalités d&#39;analyse descriptive, vous avez la possibilité d&#39;analyser les informations en amont et en aval de vos campagnes marketing. D&#39;autre part, les fonctionnalités de gestion de filtres et le [requêteur](../../platform/using/about-queries-in-campaign.md) vous permettent de filtrer les populations d&#39;abonnés, d&#39;échantillonner ou de créer des groupes cibles sur un nombre illimité de critères. Les fonctions d&#39;analyse et de ciblage sont décrites dans [cette page](../../reporting/using/about-descriptive-analysis.md) et dans la section [Création de filtres](../../platform/using/creating-filters.md).
 
 Les fonctionnalités avancées de Data Management proposent une extension des capacités de traitement des données. Elles permettent de simplifier et d&#39;optimiser le processus de ciblage en incluant des données non modélisées dans le datamart. Ces fonctionnalités sont présentées sur [cette page](../../workflow/using/targeting-data.md#data-management).
 
@@ -74,7 +74,7 @@ Adobe Campaign vous propose un ensemble de fonctions qui vous permettent d&#39;
 
 Les fonctions ci-dessous sont disponibles. Selon votre contrat de licence, certaines de ces fonctions peuvent ne pas être disponibles dans votre instance.
 
-* [Canaux](../../delivery/using/steps-about-delivery-creation-steps.md) : concevez et envoyez des diffusions sur divers canaux (email, SMS, Line, application mobile, courrier).
+* [Canaux](../../delivery/using/steps-about-delivery-creation-steps.md) : concevez et envoyez des diffusions sur divers canaux (email, SMS, Line, Applications mobiles, courrier).
 * [Campaign](../../campaign/using/designing-marketing-campaigns.md) : orchestrez des campagnes cross-canal.
 * [MRM](../../mrm/using/about-marketing-resource-management.md) : gérez les ressources marketing et les budgets.
 * [Interaction](../../interaction/using/interaction-and-offer-management.md) : gérez les offres avec Campaign.

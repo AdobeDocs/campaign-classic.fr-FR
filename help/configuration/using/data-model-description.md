@@ -251,7 +251,7 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ## Module NMAC {#nmac-module}
 
-Cet ensemble de tables est lié au module **Mobile App Channel**. Il permet d’envoyer des notifications personnalisées aux terminaux iOS et Android par le biais d’applications. Pour plus d&#39;informations, consultez la section [À propos de Mobile App Channel](../../delivery/using/about-mobile-app-channel.md).
+Cet ensemble de tables est lié au module **Canal des applications mobiles**. Il permet d’envoyer des notifications personnalisées aux terminaux iOS et Android par le biais d’applications. Voir à ce propos la section [À propos du canal des applications mobile](../../delivery/using/about-mobile-app-channel.md).
 
 * **NmsMobileApp** : cette table correspond au schéma **nms:mobileApp**. Elle contient les applications mobiles définies dans Adobe Campaign.
 * **NmsAppSubscription** cette table correspond au schéma **nms:appSubscription**. Elle contient les informations relatives aux abonnés concernant une ou plusieurs applications.

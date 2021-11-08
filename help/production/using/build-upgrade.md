@@ -25,7 +25,7 @@ Les prérequis suivants doivent être remplis :
 
 * maîtrise de l&#39;architecture de Campaign ;
 * connaissances des systèmes et du côté serveur,
-* permissions et droits administratifs.
+* Autorisations et droits administratifs.
 
 Vous trouverez des informations supplémentaires dans ces sections : [Mise à jour d&#39;Adobe Campaign](../../production/using/upgrading.md), [Migration vers une nouvelle version](../../migration/using/about-migration.md).
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: acs-connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 100%
 

@@ -35,7 +35,7 @@ Vous pouvez définir un pré-traitement à exécuter lors de l’import du fichi
 
 ![](assets/preprocessing-dataloading.png)
 
-Pour plus d’informations à ce sujet, consultez cette section : [Compresser ou crypter un fichier avant traitement](../../platform/using/unzip-decrypt.md).
+Pour plus d’informations à ce sujet, consultez cette section : [Compresser ou chiffrer un fichier avant traitement](../../platform/using/unzip-decrypt.md).
 
 ## Définir le format du fichier {#defining-the-file-format}
 

@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: À propos de Mobile App Channel dans Adobe Campaign Classic
-description: Cette section contient des informations générales spécifiques à Mobile App Channel dans Adobe Campaign Classic.
+title: À propos du canal des applications mobiles dans Adobe Campaign Classic
+description: Cette section contient des informations générales spécifiques au canal des applications mobiles dans Adobe Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
@@ -13,11 +13,11 @@ ht-degree: 100%
 
 ---
 
-# Prise en main du canal des applications mobiles (Mobile App Channel){#about-mobile-app-channel}
+# Prise en main du canal des applications mobiles (documentation du produit){#about-mobile-app-channel}
 
 ![](../../assets/common.svg)
 
-Le canal des applications mobiles (**Mobile App Channel**) permet d’envoyer des notifications personnalisées depuis la plateforme Adobe Campaign sur des terminaux iOS et Android, via des applications.
+Le (**canal des applications mobiles**) permet d’envoyer des notifications personnalisées depuis la plateforme Adobe Campaign sur des terminaux iOS et Android, via des applications.
 
 >[!CAUTION]
 >

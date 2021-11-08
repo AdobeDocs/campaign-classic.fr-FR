@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Certains processus de l&#39;application ont besoin de communiquer entre eux ou d&#39;accéder au réseau, à la fois au LAN et à Internet. En conséquence, certains ports TCP doivent être ouverts pour ces processus.
 
-Vous devez privilégier l&#39;utilisation du port Apache Tomcat embarqué (8080 par défaut) pour toutes les communications internes entre les différents serveurs d&#39;application d&#39;une plate-forme Adobe Campaign.
+Vous devez privilégier l&#39;utilisation du port Apache Tomcat embarqué (8080 par défaut) pour toutes les communications internes entre les différents serveurs d&#39;application d&#39;une plateforme Adobe Campaign.
 
 ### Serveur de diffusion {#delivery-server}
 
@@ -175,7 +175,7 @@ Les ports par défaut sont les suivants :
 
 ## Accès depuis l&#39;extérieur {#external-access}
 
-De plus, certains composants doivent être accessibles depuis l&#39;Internet public pour les campagnes d&#39;e-mailing exécutées directement par la plate-forme Adobe Campaign. Pour cela, certains ports doivent être ouverts pour ces composants.
+De plus, certains composants doivent être accessibles depuis l&#39;Internet public pour les campagnes d&#39;e-mailing exécutées directement par la plateforme Adobe Campaign. Pour cela, certains ports doivent être ouverts pour ces composants.
 
 ### Serveur de redirection {#redirection-server}
 

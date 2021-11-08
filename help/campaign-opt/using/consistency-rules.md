@@ -25,7 +25,7 @@ Des règles de **capacité** peuvent par exemple éviter de surcharger la platef
 
 ## Contrôler la capacité {#controlling-capacity}
 
-Avant de diffuser des messages, vous devez vous assurer que votre organisation a la capacité de gérer l&#39;envoi (infrastructure matérielle), les réponses que la diffusion peut générer (messages entrants), le nombre d&#39;appels à assurer pour contacter les adhérents (capacités de traitement du centre d&#39;appels), etc.
+Avant de diffuser des messages, vous devez vous assurer que votre organisation a la capacité de gérer l&#39;envoi (infrastructure matérielle), les réponses que la diffusion peut générer (messages entrants), le nombre d&#39;appels à assurer pour contacter les abonnés (capacités de traitement du centre d&#39;appels), etc.
 
 Pour cela, vous devez créer des règles de typologie de type **[!UICONTROL Capacité]**.
 

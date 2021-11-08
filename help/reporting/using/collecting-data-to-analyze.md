@@ -35,7 +35,7 @@ Ce mode de sélection des données est pertinent lorsque les données du rapport
 
 ## Utiliser un schéma de la base {#using-the-data-from-a-schema}
 
-Pour utiliser directement les données associées à un schéma de la base, sélectionnez l&#39;option correspondante dans l&#39;éditeur de requête puis paramétrez la requête à appliquer.
+Pour utiliser directement les données associées à un schéma de la base, sélectionnez l&#39;option correspondante dans le requêteur puis paramétrez la requête à appliquer.
 
 L&#39;exemple suivant permet de collecter le nombre de destinataires de chaque pays, parmi les profils de la base. Ils pourront ensuite être affichés dans un rapport sous la forme d&#39;un tableau.
 

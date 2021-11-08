@@ -21,14 +21,14 @@ Adobe Campaign permet d&#39;exporter des fichiers compressés ou chiffrés. Lors
 
 Pour ce faire :
 
-1. Installez une paire de clés GPG pour votre instance à l&#39;aide du [panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=fr#encrypting-data).
+1. Installez une paire de clés GPG pour votre instance à l’aide du [Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=fr#encrypting-data).
 
    >[!NOTE]
    >
-   >Le panneau de contrôle est restreint aux utilisateurs administrateurs et est disponible uniquement pour certaines versions de Campaign. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr)
+   >Le Panneau de contrôle est restreint aux utilisateurs administrateurs et est disponible uniquement pour certaines versions de Campaign. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr)
 
 1. Si votre installation d&#39;Adobe Campaign est hébergée par Adobe, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) afin que les utilitaires nécessaires soient installés sur le serveur.
-1. S&#39;il s&#39;agit d&#39;une installation on-premise, installez l&#39;utilitaire que vous souhaitez utiliser (GPG ou GZIP, par exemple) ainsi que les clés (clé de cryptage) nécessaires sur le serveur applicatif.
+1. S&#39;il s&#39;agit d&#39;une installation on-premise, installez l&#39;utilitaire que vous souhaitez utiliser (GPG ou GZIP, par exemple) ainsi que les clés (clé de chiffrement) nécessaires sur le serveur applicatif.
 
 Vous pouvez ensuite utiliser des commandes ou du code dans l&#39;onglet **[!UICONTROL Script]** de l&#39;activité ou dans une activité **[!UICONTROL Code JavaScript]**. Le cas pratique ci-dessous présente un exemple.
 
@@ -37,23 +37,23 @@ Vous pouvez ensuite utiliser des commandes ou du code dans l&#39;onglet **[!UICO
 * [Décompression ou déchiffrement d&#39;un fichier avant traitement](../../platform/using/unzip-decrypt.md)
 * [Activité Extraction (fichier)](../../workflow/using/extraction--file-.md).
 
-## Cas pratique : chiffrage et export de données à l’aide d’une clé installée sur le panneau de contrôle {#use-case-gpg-encrypt}
+## Cas pratique : chiffrage et export de données à l’aide d’une clé installée sur le Panneau de contrôle {#use-case-gpg-encrypt}
 
-Dans ce cas pratique, nous allons créer un workflow pour chiffrer et exporter des données à l&#39;aide d&#39;une clé installée sur le panneau de contrôle.
+Dans ce cas pratique, nous allons créer un workflow pour chiffrer et exporter des données à l&#39;aide d&#39;une clé installée sur le Panneau de contrôle.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
-1. Générez une paire de clés GPG (publique/privée) à l&#39;aide d&#39;un utilitaire GPG, puis installez la clé publique sur le panneau de contrôle. Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=en#encrypting-data).
+1. Générez une paire de clés GPG (publique/privée) à l’aide d’un utilitaire GPG, puis installez la clé publique sur le Panneau de contrôle. Les étapes détaillées sont disponibles dans la [documentation du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=en#encrypting-data).
 
-1. Dans Campaign Classic, créez un workflow pour exporter les données et les chiffrer à l&#39;aide de la clé privée installée à l&#39;aide du panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
+1. Dans Campaign Classic, créez un workflow pour exporter les données et les chiffrer à l’aide de la clé privée installée à l’aide du Panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
    ![](assets/gpg-workflow-encrypt.png)
 
    * Activité **[!UICONTROL Requête]** : dans cet exemple, nous voulons exécuter une requête pour cibler les données de la base de données que nous voulons exporter.
    * Activité **[!UICONTROL Extraction (fichier)]** : extrait les données dans un fichier.
-   * Activité **[!UICONTROL Code JavaScript]** : crypte les données à extraire.
+   * Activité **[!UICONTROL Code JavaScript]** : chiffre les données à extraire.
    * Activité **[!UICONTROL Transfert de fichier]** : envoie les données à une source externe (dans cet exemple, un serveur SFTP).
 
 1. Configurez l&#39;activité **[!UICONTROL Requête]** pour qu&#39;elle cible les données de votre choix dans la base de données. Voir à ce propos [cette section](../../workflow/using/query.md).
@@ -66,7 +66,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
    >[!IMPORTANT]
    >
-   >Veillez à remplacer la valeur d&#39;**empreinte** de la commande par l&#39;empreinte de la clé publique installée sur le panneau de contrôle.
+   >Veillez à remplacer la valeur d&#39;**empreinte** de la commande par l&#39;empreinte de la clé publique installée sur le Panneau de contrôle.
 
    ```
    var cmd='gpg ';
@@ -84,11 +84,11 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
    ![](assets/gpg-file-transfer.png)
 
-1. Vous pouvez maintenant exécuter le workflow. Une fois exécuté, les données ciblées par la requête sont exportées vers le serveur SFTP dans un fichier .gpg crypté.
+1. Vous pouvez maintenant exécuter le workflow. Une fois exécuté, les données ciblées par la requête sont exportées vers le serveur SFTP dans un fichier .gpg chiffré.
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo montre comment utiliser une clé GPG pour crypter des données. Elle est également disponible dans
+Cette vidéo montre comment utiliser une clé GPG pour chiffrer des données. Elle est également disponible dans
 
 >[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
 

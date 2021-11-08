@@ -50,8 +50,8 @@ Le paramètre @authPrivateKey du fichier de configuration de l’instance est in
 
 Le format de la clé privée n’est pas valide.
 
-1. Exécutez les étapes de cryptage de clé sur cette page.
-1. Vérifiez que la clé est cryptée sur la même instance.
+1. Exécutez les étapes de chiffrement de clé sur cette page.
+1. Vérifiez que la clé est chiffrée sur la même instance.
 1. Vérifiez que l’authPrivateKey du fichier de configuration correspond à la clé générée. <br>Veillez à utiliser OpenSSL pour générer la paire de clés. Par exemple, PuttyGen ne génère pas le format approprié.
 
 **Échec du pipeline avec &quot;n&#39;est plus autorisé à récupérer le jeton d&#39;accès&quot;**

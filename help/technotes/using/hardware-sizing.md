@@ -4,7 +4,7 @@ title: Recommandations relatives au dimensionnement du matériel pour Campaign C
 description: Recommandations relatives au dimensionnement du matériel pour Campaign Classic v7
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 source-git-commit: ee296e0ce25570d1fe62238e505f978df17c1f24
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 100%
 

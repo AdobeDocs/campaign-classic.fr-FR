@@ -172,7 +172,7 @@ Par conséquent, vous devez attendre la fin de la période de validité pour voi
 
 <!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
-### Service de commentaires par email (bêta) {#email-feedback-service}
+### Service de commentaires par email (version bêta) {#email-feedback-service}
 
 Grâce à la fonctionnalité Service de commentaires par email (EFS), l&#39;état de chaque email est signalé avec précision, car les commentaires sont capturés directement depuis le MTA (Message Tranfer Agent) amélioré.
 
@@ -180,7 +180,7 @@ Grâce à la fonctionnalité Service de commentaires par email (EFS), l&#39;éta
 >
 >Le service de commentaires par email est actuellement disponible en version bêta.
 >
->Si vous souhaitez participer à ce programme Bêta, remplissez [ce formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous recontacterons.
+>Si vous souhaitez participer à ce programme en version bêta, remplissez [ce formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous recontacterons.
 
 Une fois la diffusion lancée, le pourcentage **[!UICONTROL Succès]** n&#39;est plus modifié lorsque le message est relayé avec succès de Campaign vers le MTA amélioré.
 

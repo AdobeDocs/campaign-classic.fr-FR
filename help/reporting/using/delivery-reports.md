@@ -137,7 +137,7 @@ Dans la section supérieure du rapport, les taux suivants sont affichés :
 * **[!UICONTROL Clics distincts]** : Nombre de personnes distinctes ayant cliqué au moins une fois (hors lien de désinscription et page miroir) dans une même diffusion. Le taux affiché est calculé par rapport au nombre de messages transmis avec succès.
 * **[!UICONTROL Clics cumulés]** : Nombre total de clics effectués par des destinataires ciblés (hors lien de désinscription et page miroir). Le taux affiché est calculé par rapport au nombre de messages transmis avec succès.
 
-**[!UICONTROL Moyenne plate-forme]** : Ce taux moyen, affiché sous chaque taux (réactivité, clics distincts, et clics cumulés), est calculé sur les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BATs sont exclus.
+**[!UICONTROL Moyenne plateforme]** : Ce taux moyen, affiché sous chaque taux (réactivité, clics distincts, et clics cumulés), est calculé sur les diffusions envoyées sur les six derniers mois. Seules les diffusions de même typologie et envoyées sur le même canal sont prises en compte. Les BATs sont exclus.
 
 Le tableau central propose les informations suivantes :
 

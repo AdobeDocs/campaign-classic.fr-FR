@@ -25,4 +25,4 @@ Si vous migrez depuis une plateforme v6.10, et que le build de votre console cl
 >
 >Si vous refusez la mise à jour, vous ne pourrez pas vous connecter.
 
-Si vous migrez depuis une plate-forme v6.10 antérieure au build 8104, vous devez également consulter la section [Nouvelles fonctionnalités dans v7](../../migration/using/general-configurations.md#new-features-in-v7).
+Si vous migrez depuis une plateforme v6.10 antérieure au build 8104, vous devez également consulter la section [Nouvelles fonctionnalités dans v7](../../migration/using/general-configurations.md#new-features-in-v7).

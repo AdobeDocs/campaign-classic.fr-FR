@@ -59,7 +59,7 @@ Les applications web de type formulaires d&#39;édition pour un extranet sont ca
 
 * Une boîte de préchargement
 
-   Dans la plupart des cas, il est nécessaire de précharger les données à afficher. Les utilisateurs qui accèdent à ces formulaires étant identifiés (via un contrôle d&#39;accès), le préchargement n&#39;est pas nécessairement crypté.
+   Dans la plupart des cas, il est nécessaire de précharger les données à afficher. Les utilisateurs qui accèdent à ces formulaires étant identifiés (via un contrôle d&#39;accès), le préchargement n&#39;est pas nécessairement chiffré.
 
 * Une boîte d&#39;enregistrement
 * L&#39;ajout de pages supplémentaires

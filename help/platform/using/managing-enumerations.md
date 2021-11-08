@@ -25,7 +25,7 @@ Un certain nombre de champs de la console ont ainsi été définis avec ce type 
 
 ## Accès aux valeurs {#access-to-values}
 
-La définition des valeurs des champs de ce type et l&#39;administration globale de ces champs (ajout/suppression d&#39;une valeur) s&#39;effectue depuis le nœud **[!UICONTROL Administration > Plate-forme > Enumérations]** de l&#39;arborescence.
+La définition des valeurs des champs de ce type et l&#39;administration globale de ces champs (ajout/suppression d&#39;une valeur) s&#39;effectue depuis le nœud **[!UICONTROL Administration > Plateforme > Enumérations]** de l&#39;arborescence.
 
 ![](assets/s_ncs_user_itemized_list_node.png)
 
@@ -145,7 +145,7 @@ Vous pouvez lancer le calcul des occurrences ponctuellement, via le lien **[!UIC
 ![](assets/s_ncs_user_itemized_list_alias_hits.png)
 
 * **[!UICONTROL Actualiser le nombre d&#39;apparitions des alias]** : permet de mettre à jour les occurrences déjà calculées, à partir de la date de prise en compte renseignée.
-* **[!UICONTROL Recalculer depuis le début le nombre d&#39;apparitions des alias]** : permet de réinitialiser tout le calcul sur l&#39;ensemble de la plate-forme Adobe Campaign.
+* **[!UICONTROL Recalculer depuis le début le nombre d&#39;apparitions des alias]** : permet de réinitialiser tout le calcul sur l&#39;ensemble de la plateforme Adobe Campaign.
 
 Vous pouvez également créer un workflow dédié afin que ce calcul s&#39;exécute automatiquement pour une période donnée, par exemple toutes les semaines.
 

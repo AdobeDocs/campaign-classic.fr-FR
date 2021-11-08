@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
 source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 100%
 
@@ -40,9 +40,9 @@ Adobe Campaign Classic est fourni avec un ensemble de modules et d&#39;options
 
 [Pour en savoir plus, cliquez ici](../../installation/using/capability-matrix.md).
 
-## Comment configurer les autorisations utilisateur ? {#how-can-i-set-up-user-permissions-}
+## Comment configurer les autorisations utilisateur ? {#how-can-i-set-up-user-permissions-}
 
-En tant qu’administrateur de Campaign, vous pouvez configurer des autorisations pour les utilisateurs de votre organisation.
+En tant qu&#39;administrateur de Campaign, vous pouvez configurer des autorisations pour les utilisateurs de votre organisation.
 
 Il s&#39;agit d&#39;un ensemble de droits et de restrictions qui autorisent ou refusent :
 

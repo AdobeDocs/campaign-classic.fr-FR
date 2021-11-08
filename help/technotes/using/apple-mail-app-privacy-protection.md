@@ -4,7 +4,7 @@ title: Protection de la confidentialité des e-mails dans l’application Mail d
 description: Découvrez comment vos campagnes peuvent être affectées par la fonction de protection de la confidentialité dans Mail d’Apple.
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2141'
 ht-degree: 100%
 
@@ -453,4 +453,4 @@ Ces exemples illustrent comment utiliser des workflows pour ventiler des enregis
 
 ## Liens utiles
 
-[FAQ sur la protection des données personnelles dans Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=fr){target=&quot;_blank&quot;}
+[FAQ sur la protection des données personnelles dans Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target=&quot;_blank&quot;}

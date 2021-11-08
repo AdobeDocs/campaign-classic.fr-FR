@@ -109,7 +109,7 @@ Un `SUBMIT_SM_RESP PDU` réussi déclenche le statut du message &quot;envoyé&qu
 
 ### Aspects liés à la sécurité {#security-aspects}
 
-Le protocole lui-même n&#39;est pas crypté. La plupart des fournisseurs mettent en œuvre une variante d&#39;IP sur la liste autorisée, de sorte que les adresses IP du serveur Adobe Campaign doivent être déclarées au fournisseur.
+Le protocole lui-même n&#39;est pas chiffré. La plupart des fournisseurs mettent en œuvre une variante d&#39;IP sur la liste autorisée, de sorte que les adresses IP du serveur Adobe Campaign doivent être déclarées au fournisseur.
 
 Adobe Campaign prend en charge la transmission d&#39;un nom d&#39;utilisateur et d&#39;un mot de passe lors de la phase de liaison. Il prend également en charge le SMPP plutôt que le TLS. Il convient de noter que des certificats sont requis pour assurer une sécurité adéquate. Bien que le connecteur SMPP permette de contourner les vérifications de certificats, il ne doit être utilisé que pour les tests, car un TLS sans certificat offre un niveau de sécurité nettement inférieur.
 
@@ -418,7 +418,7 @@ Si vous configurez des réponses automatiques, le processus SMS ouvrira des pair
 
 #### Activer TLS via SMPP {#enable-TLS}
 
-Utilisez TLS pour vous connecter au fournisseur. La connexion sera cryptée. La connexion TLS est gérée par la bibliothèque OpenSSL.Tout ce qui est applicable à OpenSSL sera vrai pour cette connexion.
+Utilisez TLS pour vous connecter au fournisseur. La connexion sera chiffrée. La connexion TLS est gérée par la bibliothèque OpenSSL.Tout ce qui est applicable à OpenSSL sera vrai pour cette connexion.
 
 #### Activer les traces SMPP en mode verbeux dans le fichier de log {#enable-verbose-log-file}
 

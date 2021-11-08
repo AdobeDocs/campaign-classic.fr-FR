@@ -42,4 +42,4 @@ Pour plus d&#39;informations sur la création d&#39;une diffusion, voir [cette s
 >
 >Adobe Campaign permet également d&#39;adresser des notifications sur les terminaux mobiles, via son option **Canal applications mobiles (Mobile App Channel)**.
 > 
->Voir à ce sujet la section [Prise en main du canal applications mobiles](about-mobile-app-channel.md).
+>Voir à ce sujet la section [Prise en main du canal des applications mobiles](about-mobile-app-channel.md).

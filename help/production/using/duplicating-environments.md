@@ -69,6 +69,7 @@ Les étapes ci-dessous doivent être réalisées avec précaution : certains pro
 >
 >* La procédure ci-dessous est valide en langage PostgreSQL, si le langage SQL est différent (Oracle, par exemple), les requêtes SQL doivent être adaptées.
 >* Dans les exemples de commandes proposés ci-après, on considère une instance **prod** et une instance **recette** existantes sous PostgreSQL.
+
 >
 
 
@@ -222,11 +223,11 @@ Pour importer la configuration de la base de données de l&#39;environnement-cib
 1. Ouvrir la console d&#39;administration de la base de données et purger les comptes externes (table nms:extAccount) dont l&#39;ID est différent de 0 (@id &lt;> 0).
 1. Au niveau de la console Adobe Campaign, importer le package options_recette.xml précédemment créé via la fonctionnalité d&#39;import de package.
 
-   Vérifier que les options ont bien été mises à jour dans le noeud **[!UICONTROL Administration > Plate-forme > Options]**.
+   Vérifier que les options ont bien été mises à jour dans le noeud **[!UICONTROL Administration > Plateforme > Options]**.
 
 1. Au niveau de la console Adobe Campaign, importer le package extaccount_recette.xml précédemment créé via la fonctionnalité d&#39;import de package.
 
-   Vérifier que les comptes externes ont bien été importés dans le noeud **[!UICONTROL Administration > Plate-forme > Comptes externes]** .
+   Vérifier que les comptes externes ont bien été importés dans le noeud **[!UICONTROL Administration > Plateforme > Comptes externes]** .
 
 ### Etape 9 - Redémarrer l&#39;ensemble des processus et changer les utilisateurs (recette) {#step-9---restart-all-processes-and-change-users--dev-}
 
@@ -250,4 +251,4 @@ Vérifier que les processus sont bien démarrés via la commande suivante :
 nlserver pdump
 ```
 
-Changer les utilisateurs pour retrouver les utilisateurs qui existaient auparavant sur la plate-forme de recette.
+Changer les utilisateurs pour retrouver les utilisateurs qui existaient auparavant sur la plateforme de recette.

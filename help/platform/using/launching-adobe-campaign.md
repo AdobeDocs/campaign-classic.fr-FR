@@ -39,7 +39,7 @@ Vous pouvez aussi vous connecter via un login/mot de passe dédié :
 
 1. Saisissez l’identifiant du compte opérateur dans le champ **[!UICONTROL Login]**.
 
-   L’identifiant vous est fourni par l’administrateur de la plate-forme Adobe Campaign.
+   L’identifiant vous est fourni par l’administrateur de la plateforme Adobe Campaign.
 
 1. Saisissez votre mot de passe dans le champ **[!UICONTROL Mot de passe]**.
 
@@ -72,7 +72,7 @@ Vous devez ensuite définir les paramètres de cette connexion. Pour cela :
 
 1. Cliquez sur **[!UICONTROL OK]** pour valider.
 
-## Opérateurs et permissions {#operators-and-permissions}
+## Opérateurs et autorisations {#operators-and-permissions}
 
 Les identifiants et mots de passe des opérateurs ayant accès au logiciel, ainsi que leurs permissions respectives, sont définis par l’administrateur du système Adobe Campaign dans le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l’arborescence d’Adobe Campaign.
 

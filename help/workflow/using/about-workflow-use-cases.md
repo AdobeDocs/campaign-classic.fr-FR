@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Cette section présente différents cas pratiques utilisant des fonctionnalités de workflows dans Campaign.
+Cette section présente différents cas d’utilisation utilisant des fonctionnalités de workflows dans Campaign.
 
 Vous pourrez ainsi découvrir les différents contextes d’utilisation des workflows pour répondre à vos besoins.
 
@@ -52,8 +52,8 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Créer une liste récapitulative](creating-a-summary-list.md)
 * [Enrichir des données ](enriching-data.md)
 * [Utilisation d&#39;agrégats](using-aggregates.md)
-* [Import de données chiffrées à l’aide d’une clé générée par le panneau de contrôle](../../platform/using/unzip-decrypt.md)
-* [Chiffrement et export de données à l’aide d’une clé installée sur le panneau de contrôle](how-to-use-workflow-data.md#use-case-gpg-encrypt)
+* [Import de données chiffrées à l’aide d’une clé générée par le Panneau de contrôle](../../platform/using/unzip-decrypt.md)
+* [Chiffrement et export de données à l’aide d’une clé installée sur le Panneau de contrôle](how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](quarterly-list-update.md)
 * [Utilisation de la fonctionnalité de fusion de l’activité Déduplication](deduplication-merge.md)
 * [Paramétrage d&#39;un workflow d&#39;import récurrent](recurring-import-workflow.md)

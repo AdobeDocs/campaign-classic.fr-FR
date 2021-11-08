@@ -9,7 +9,7 @@ exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
 source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1810'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ Assurez-vous que les **[!UICONTROL Événements]** sont de type numérique, faut
 
 ### Etape 2 : créer le compte externe dans Campaign {#step-2--create-the-external-account-in-campaign}
 
-L’intégration d’Adobe Campaign aux plates-formes d’Analytics se fait par l’intermédiaire d’un connecteur. Pour synchroniser les deux applications, vous devez :
+L’intégration d’Adobe Campaign aux plateformes d’Analytics se fait par l’intermédiaire d’un connecteur. Pour synchroniser les deux applications, vous devez :
 
 1. Installer le package **Connecteurs Web Analytics** dans Adobe Campaign.
 1. Positionnez-vous dans l&#39;arborescence Adobe Campaign au niveau du dossier **[!UICONTROL Administration > Plateforme > Comptes externes]**,

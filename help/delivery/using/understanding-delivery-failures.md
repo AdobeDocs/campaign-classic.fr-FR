@@ -314,7 +314,7 @@ Pour les installations on-premise et les installations hébergées/hybrides util
 
 <!--![](assets/tech_quarant_domain_rules_02.png)-->
 
-* Vous pouvez choisir d&#39;activer ou non certaines normes d&#39;identification et clés de cryptage pour vérifier le nom de domaine, comme **Sender ID**, **DomainKeys**, **DKIM**, **S/MIME**.
+* Vous pouvez choisir d&#39;activer ou non certaines normes d&#39;identification et clés de chiffrement pour vérifier le nom de domaine, comme **Sender ID**, **DomainKeys**, **DKIM**, **S/MIME**.
 * Les paramètres de **Relais SMTP** permettent de configurer l’adresse IP et le port d’un serveur relais pour un domaine particulier. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
 Si vos messages sont affichés dans Outlook avec la mention **[!UICONTROL Au nom de]** dans l&#39;adresse de l&#39;expéditeur, veillez à ne pas signer vos emails avec le **Sender ID** qui est la norme d&#39;authentification de messagerie exclusive de Microsoft, devenue obsolète. Si l&#39;option **[!UICONTROL Sender ID]** est activée, décochez la case correspondante et contactez l&#39;[Assistance clientèle d&#39;Adobe Campaign](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Il n&#39;y aura aucune incidence sur la délivrabilité.

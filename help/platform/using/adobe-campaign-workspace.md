@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Exploration de l’interface Adobe Campaign {#about-adobe-campaign-interface}
 
-Une fois connecté à la base de données, vous accédez à la page d&#39;accueil d&#39;Adobe Campaign. Celle-ci se présente sous la forme d&#39;un tableau de bord : il est composé de liens et de raccourcis qui vous permettent d&#39;accéder aux fonctions disponibles selon votre installation et aux paramétrages généraux de la plate-forme.
+Une fois connecté à la base de données, vous accédez à la page d&#39;accueil d&#39;Adobe Campaign. Celle-ci se présente sous la forme d&#39;un tableau de bord : il est composé de liens et de raccourcis qui vous permettent d&#39;accéder aux fonctions disponibles selon votre installation et aux paramétrages généraux de la plateforme.
 
 Depuis la section centrale de la page d&#39;accueil, vous pouvez utiliser les liens pour accéder au portail de la documentation en ligne, au forum et au site web d&#39;assistance de Campaign.
 
@@ -35,7 +35,7 @@ Depuis la section centrale de la page d&#39;accueil, vous pouvez utiliser les li
 
 ### Accès console et accès web {#console-and-web-access}
 
-La plate-forme Adobe Campaign est accessible via une console ou par le biais d&#39;un navigateur Internet.
+La plateforme Adobe Campaign est accessible via une console ou par le biais d&#39;un navigateur Internet.
 
 L&#39;accès web présente une interface similaire à celle de la console, mais permet d&#39;accéder à un jeu de fonctionnalités réduit.
 
@@ -73,7 +73,7 @@ Pour plus d’informations sur la création d’une instance, consultez cette [p
 
 ### Navigation sur les pages {#browsing-pages}
 
-Les différentes fonctionnalités de la plate-forme sont réparties dans les fonctions principales : utilisez les liens proposés dans le bandeau supérieur de l&#39;interface pour y accéder.
+Les différentes fonctionnalités de la plateforme sont réparties dans les fonctions principales : utilisez les liens proposés dans le bandeau supérieur de l&#39;interface pour y accéder.
 
 ![](assets/overview_home.png)
 

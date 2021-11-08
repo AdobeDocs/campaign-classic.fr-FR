@@ -37,7 +37,7 @@ Dans ce scénario, les pièces jointes ne sont pas créées à l&#39;avance, mai
 
 * Vous pouvez personnaliser le contenu de la pièce jointe.
 * Si elle est associée à une transaction (comme dans l&#39;exemple de scénario ci-dessus), elle peut contenir des données dynamiques générées pendant le processus client.
-* L&#39;ajout de fichiers PDF optimise la sécurité lorsque vous pouvez les crypter et les envoyer via HTTPS.
+* L&#39;ajout de fichiers PDF optimise la sécurité lorsque vous pouvez les chiffrer et les envoyer via HTTPS.
 
 >[!NOTE]
 >

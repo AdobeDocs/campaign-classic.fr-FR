@@ -60,11 +60,11 @@ Dans l&#39;exemple ci-dessous, nous allons créer des dossiers afin d&#39;affich
 
    ![](assets/s_ncs_user_add_folder_exple01.png)
 
-1. Définissez les critères de filtrage des diffusions à partir de l&#39;éditeur de requêtes proposé dans la section centrale de la fenêtre : les campagnes affichées seront alors celles qui correspondent au filtre défini.
+1. Définissez les critères de filtrage des diffusions à partir du requêteur proposé dans la section centrale de la fenêtre : les campagnes affichées seront alors celles qui correspondent au filtre défini.
 
    >[!NOTE]
    >
-   >L&#39;éditeur de requêtes est présenté dans [cette section](../../platform/using/about-queries-in-campaign.md).
+   >Le requêteur est présenté dans [cette section](../../platform/using/about-queries-in-campaign.md).
 
    Avec les conditions de filtrage suivantes :
 
@@ -78,11 +78,11 @@ Les diffusions suivantes seront affichées dans la vue :
 >
 >Lors de la gestion des événements de [messagerie transactionnelle](../../message-center/using/about-transactional-messaging.md), les dossiers **[!UICONTROL Événements temps réel]** ou **[!UICONTROL Événements batch]** ne doivent pas être définis comme des vues sur les instances d&#39;exécution, car cela pourrait entraîner des problèmes de droit d&#39;accès. Pour plus d&#39;informations sur la collecte d&#39;événements, voir [cette section](../../message-center/using/about-event-processing.md#event-collection).
 
-## Permissions sur un dossier
+## Autorisations sur un dossier
 
-### Modifier les permissions sur un dossier {#edit-permissions-on-a-folder}
+### Modifier les autorisations sur un dossier {#edit-permissions-on-a-folder}
 
-Pour éditer les permissions sur un dossier spécifique de l&#39;arborescence, suivez les étapes ci-dessous :
+Pour modifier les autorisations sur un dossier spécifique de l&#39;arborescence, suivez les étapes ci-dessous :
 
 1. Cliquez avec le bouton droit sur le dossier et sélectionnez **[!UICONTROL Propriétés...]**.
 
@@ -92,9 +92,9 @@ Pour éditer les permissions sur un dossier spécifique de l&#39;arborescence, s
 
    ![](assets/s_ncs_user_folder_properties_security.png)
 
-### Modifier les permissions {#modify-permissions}
+### Modifier les autorisations {#modify-permissions}
 
-Pour modifier les permissions, vous pouvez :
+Pour modifier les autorisations, vous pouvez :
 
 * **Remplacer un groupe ou un opérateur**. Pour cela, cliquez sur un des groupes (ou opérateurs) ayant des droits sur ce dossier et sélectionnez un nouveau groupe (ou un nouvel opérateur) depuis la liste déroulante :
 
@@ -106,7 +106,7 @@ Pour modifier les permissions, vous pouvez :
 
    ![](assets/s_ncs_user_folder_properties_security03.png)
 
-### Propager les permissions {#propagate-permissions}
+### Propager les autorisations {#propagate-permissions}
 
 Vous pouvez propager les autorisations et les droits d&#39;accès. Pour cela, sélectionnez l&#39;option **[!UICONTROL Propager]** dans les propriétés du dossier.
 

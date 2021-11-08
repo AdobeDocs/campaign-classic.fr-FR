@@ -257,7 +257,7 @@ Double-cliquez sur la première requête pour l&#39;éditer, puis respectez les 
 
    ![](assets/reporting_quick_start_query_filter.png)
 
-1. Cliquez sur **[!UICONTROL Terminer]** pour enregistrez ces conditions puis sur **[!UICONTROL Ok]** pour fermer l&#39;éditeur de requête.
+1. Cliquez sur **[!UICONTROL Terminer]** pour enregistrer ces conditions puis sur **[!UICONTROL Ok]** pour fermer le requêteur.
 
 ### Etape 3 - Créez la première page {#step-3--create-the-first-page}
 

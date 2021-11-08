@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: f007dcbf63d7a69a6d532d0be99b0fa90f4f6d7a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 100%
 

@@ -65,7 +65,7 @@ Sous Linux, OpenSSL doit être obligatoirement installé. Les versions supporté
 
 ## Export des rapports {#exporting-reports}
 
-Adobe Campaign permet d&#39;exporter les rapports de la plate-forme aux formats Microsoft Excel et Adobe PDF. Pour le format Microsoft Excel, Adobe Campaign utilise **LibreOffice**. Pour le format Adobe PDF, Adobe Campaign utilise le convertisseur **PhantomJS**. PhantomJS est fourni dans le package d&#39;usine, et LibreOffice doit être installé sur la ou les machines sur lesquelles s&#39;exécute le serveur applicatif Adobe Campaign (processus **nlserver web**).
+Adobe Campaign permet d&#39;exporter les rapports de la plateforme aux formats Microsoft Excel et Adobe PDF. Pour le format Microsoft Excel, Adobe Campaign utilise **LibreOffice**. Pour le format Adobe PDF, Adobe Campaign utilise le convertisseur **PhantomJS**. PhantomJS est fourni dans le package d&#39;usine, et LibreOffice doit être installé sur la ou les machines sur lesquelles s&#39;exécute le serveur applicatif Adobe Campaign (processus **nlserver web**).
 
 >[!NOTE]
 >

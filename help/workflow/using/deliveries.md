@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 source-git-commit: 794be3d196ea8292699bbf29c8a7038177763e31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
 

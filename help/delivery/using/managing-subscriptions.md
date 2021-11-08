@@ -24,9 +24,9 @@ Un service d&#39;information est caractérisé par :
 * une inscription, un abonnement (opt-in),
 * une désinscription, un désabonnement volontaire (opt-out) ou automatique (service à durée limitée : par exemple pour une offre d&#39;essai),
 * des mécanismes de confirmation d&#39;inscription et/ou de désinscription (mécanismes simples avec confirmation, double opt-in, etc.),
-* un tracking de l&#39;historique des inscrits.
+* un tracking de l’historique des abonnés.
 
-Ces services sont accompagnés, en standard, des rapports et de statistiques spécifiques : tracking des inscrits, niveaux de fidélité, courbes de désinscription, etc.
+Ces services sont accompagnés, en standard, des rapports et de statistiques spécifiques : tracking des abonnés, niveaux de fidélité, courbes de désinscription, etc.
 
 Pour les emails, les liens de désinscription obligatoires sont automatiquement générés et l&#39;ensemble du processus opt-in/opt-out est alors totalement automatisé avec un tracking des historiques garantissant une totale conformité avec les règlementations en vigueur.
 
@@ -72,7 +72,7 @@ Vous pouvez modifier les propriétés de l&#39;abonnement pour un destinataire.
 
 ![](assets/s_ncs_user_services_modify.png)
 
-Depuis le tableau de bord, cliquez sur **[!UICONTROL Rapports]** pour suivre les abonnements : évolution des inscriptions, nombre total d&#39;inscrits, etc. Vous pouvez archiver les rapports et consulter les historiques depuis cet onglet.
+Depuis le tableau de bord, cliquez sur **[!UICONTROL Rapports]** pour suivre les abonnements : évolution des abonnements, nombre total d’abonnés, etc. Vous pouvez archiver les rapports et consulter les historiques depuis cet onglet.
 
 ## Ajouter et supprimer des abonnés {#adding-and-deleting-subscribers}
 
@@ -112,7 +112,7 @@ Vous pouvez mettre en place des mécanismes d&#39;inscription et de désinscript
 
 >[!NOTE]
 >
->Vous pouvez envoyer un message de confirmation aux nouveaux inscrits/désinscrits.\
+>Vous pouvez envoyer un message de confirmation aux nouveaux abonnés.\
 >Le contenu de ce message est défini dans le paramétrage du service d&#39;information, depuis le champ **[!UICONTROL Inscription]** ou **[!UICONTROL Désinscription]**.
 >
 >Les messages de confirmation sont créés à partir des modèles de diffusion indiqués dans ces champs. Ces modèles doivent utiliser le mapping de ciblage des **[!UICONTROL Abonnements]**.
@@ -164,7 +164,7 @@ Un service d&#39;information peut avoir une durée limitée : les destinataires 
 
 Vous pouvez également mettre en place un workflow de désinscription sur une population. Pour cela, vous devez procéder comme pour un workflow d&#39;inscription, mais en sélectionnant l&#39;option **[!UICONTROL Désinscription]**. Voir [Inscrire un destinataire à un service](#subscribing-a-recipient-to-a-service).
 
-### Tracking des inscrits {#subscriber-tracking}
+### Tracking des abonnés {#subscriber-tracking}
 
 Le lien **[!UICONTROL Rapport]** du tableau de bord permet de suivre les variations d&#39;inscription aux services d&#39;information.
 

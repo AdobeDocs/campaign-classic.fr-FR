@@ -47,7 +47,7 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
    >
    >Si la section **[!UICONTROL Jeux Web Facebook]** n&#39;apparaît pas, cliquez sur le bouton **[!UICONTROL Ajouter une plateforme]**, en bas de la page, et sélectionnez **[!UICONTROL Jeux Web Facebook]**.
 
-* **Adobe Campaign** : dans l&#39;arborescence, positionnez-vous sur le noeud **[!UICONTROL Administration > Plate-forme > Comptes externes]** et cliquez sur le bouton **[!UICONTROL Nouveau]**.
+* **Adobe Campaign** : dans l&#39;arborescence, positionnez-vous sur le noeud **[!UICONTROL Administration > Plateforme > Comptes externes]** et cliquez sur le bouton **[!UICONTROL Nouveau]**.
 
    ![](assets/social_webapp_fb_005.png)
 

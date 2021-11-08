@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Utilisation des droits nommés pour la configuration des permissions
-description: Découvrez comment utiliser des droits nommés pour configurer des permissions
+title: Utilisation des droits nommés pour la configuration des autorisations
+description: Découvrez comment utiliser des droits nommés pour configurer des autorisations
 feature: Access Management
 role: User, Admin
 level: Beginner
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Utilisation des droits nommés pour la configuration des permissions{#named-rights}
+# Utilisation des droits nommés pour la configuration des autorisations{#named-rights}
 
 ![](../../assets/common.svg)
 

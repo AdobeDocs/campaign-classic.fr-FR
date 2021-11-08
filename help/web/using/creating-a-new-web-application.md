@@ -35,7 +35,7 @@ Ce modèle détermine le type d&#39;application web. Vous pouvez ainsi créer :
 
 1. Des applications web
 
-   Adobe Campaign permet de créer des applications web destinées à être exposées sur une plate-forme web ou dans le contexte d&#39;un extranet, par exemple. Elles permettent alors l&#39;édition de données et l&#39;enregistrement d&#39;informations dans Adobe Campaign. Dans ce cas, vous pouvez réserver leur accès à des utilisateurs authentifiés (via le contrôle d&#39;accès) et mettre en place un préchargement des données selon plusieurs critères. Voir à ce sujet [cette section](about-web-applications.md).
+   Adobe Campaign permet de créer des applications web destinées à être exposées sur une plateforme web ou dans le contexte d&#39;un extranet, par exemple. Elles permettent alors l&#39;édition de données et l&#39;enregistrement d&#39;informations dans Adobe Campaign. Dans ce cas, vous pouvez réserver leur accès à des utilisateurs authentifiés (via le contrôle d&#39;accès) et mettre en place un préchargement des données selon plusieurs critères. Voir à ce sujet [cette section](about-web-applications.md).
 
 1. Landing pages
 

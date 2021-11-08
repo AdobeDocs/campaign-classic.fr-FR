@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: 0deb18bb0376fc5e94d063145280426ff54db786
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 100%
 

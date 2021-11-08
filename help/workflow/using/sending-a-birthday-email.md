@@ -72,7 +72,7 @@ Pour cela, les étapes sont les suivantes :
 
    Cliquez sur **[!UICONTROL Terminer]** pour valider.
 
-1. Dans l&#39;éditeur de requêtes, dans la première cellule de la colonne **[!UICONTROL Opérateur]**, choisissez **[!UICONTROL égal à]**.
+1. Dans le requêteur, dans la première cellule de la colonne **[!UICONTROL Opérateur]**, choisissez **[!UICONTROL égal à]**.
 
    ![](assets/s_ncs_user_create_exp_exple02.png)
 

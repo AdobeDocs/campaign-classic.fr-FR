@@ -45,7 +45,7 @@ Cliquez sur les noms des rapports pour les afficher. Par défaut, les rapports s
 
 ## Débit des diffusions {#delivery-throughput}
 
-Ce rapport contient les informations relatives au débit de diffusion de l&#39;ensemble de la plate-forme sur une période donnée. Pour mesurer la vitesse de diffusion des messages, les critères sont le nombre de messages diffusés par heure et la taille des messages, en bits par seconde. Dans l&#39;exemple ci-dessous, le premier graphique indique, en bleu, les diffusions envoyées avec succès et, en orange, le nombre de messages en erreur.
+Ce rapport contient les informations relatives au débit de diffusion de l&#39;ensemble de la plateforme sur une période donnée. Pour mesurer la vitesse de diffusion des messages, les critères sont le nombre de messages diffusés par heure et la taille des messages, en bits par seconde. Dans l&#39;exemple ci-dessous, le premier graphique indique, en bleu, les diffusions envoyées avec succès et, en orange, le nombre de messages en erreur.
 
 ![](assets/s_ncs_user_report_toolbar.png)
 

@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Mobile App Channel
-description: Mobile App Channel
+title: Canal des applications mobiles
+description: Canal des applications mobiles
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
@@ -13,11 +13,11 @@ ht-degree: 100%
 ---
 
 
-# Mobile App Channel{#mobile-app-channel}
+# Canal des applications mobiles{#mobile-app-channel}
 
 ![](../../assets/common.svg)
 
-Le workflow présenté ci-dessous est installé par défaut avec le module **Canal applications mobiles (Mobile App Channel)**. Pour plus d’informations sur ce module, consultez cette [section](../../delivery/using/about-mobile-app-channel.md).
+Le workflow présenté ci-dessous est installé par défaut avec le module **Canal des applications mobiles**. Pour plus d’informations sur ce module, consultez cette [section](../../delivery/using/about-mobile-app-channel.md).
 
 <table> 
  <tbody> 

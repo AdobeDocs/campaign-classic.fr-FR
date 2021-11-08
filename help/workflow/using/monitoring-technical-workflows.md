@@ -71,7 +71,7 @@ En cas de problème, une alerte doit être générée et envoyée au bon groupe.
 
 Vérifiez que chaque opérateur a une adresse email valide.
 
-Tous les workflows devant être en état d&#39;exécution pour que la plate-forme soit opérationnelle (tels que les imports de données) doivent être déclarés comme des workflows de « Production » (case à cocher) et apparaître en gras.
+Tous les workflows devant être en état d&#39;exécution pour que la plateforme soit opérationnelle (tels que les imports de données) doivent être déclarés comme des workflows de « Production » (case à cocher) et apparaître en gras.
 
 ## Liste de maintenance des workflows {#workflow-maintenance-list}
 

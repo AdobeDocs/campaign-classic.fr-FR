@@ -89,7 +89,7 @@ Le Suivi peut être facilement activé ou désactivé pour une activité spécif
 Pour ce faire :
 
 1. Accédez au menu **[!UICONTROL Explorateur]** de votre instance.
-1. Sous le menu **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Plate-forme]** puis **[!UICONTROL Options]** .
+1. Sous le menu **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Plateforme]** puis **[!UICONTROL Options]** .
 
    ![](assets/audit_trail_4.png)
 

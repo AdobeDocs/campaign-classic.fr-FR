@@ -31,7 +31,7 @@ Vous pouvez configurer les options de tracking :
 
    >[!CAUTION]
    >
-   >Lorsque le tracking n&#39;est pas activé sur une diffusion (c&#39;est-à-dire, l&#39;option **[!UICONTROL Activer le tracking]** n&#39;est pas sélectionnée), les rapports et les données associés au tracking ne sont pas disponibles : les rapports Ouvertures, Hot click et URL trackées ne contiendront aucune donnée et les onglets **[!UICONTROL Logs de tracking]** ne seront pas affichés pour cette diffusion.
+   >Lorsque le tracking n&#39;est pas activé sur une diffusion (c&#39;est-à-dire, l&#39;option **[!UICONTROL Activer le tracking]** n&#39;est pas sélectionnée), les rapports et les données associés au tracking ne sont pas disponibles : les rapports Ouvertures, Hot click et URL suivies ne contiendront aucune donnée et les onglets **[!UICONTROL Logs de tracking]** ne seront pas affichés pour cette diffusion.
 
 * Activer/Désactiver le tracking à l&#39;ouverture du message.
 

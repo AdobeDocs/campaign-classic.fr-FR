@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Plate-forme de Mid-sourcing
-description: Plate-forme de Mid-sourcing
+title: Plateforme de Mid-sourcing
+description: Plateforme de Mid-sourcing
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
@@ -13,11 +13,11 @@ ht-degree: 100%
 ---
 
 
-# Plate-forme de Mid-sourcing{#mid-sourcing-platform}
+# Plateforme de Mid-sourcing{#mid-sourcing-platform}
 
 ![](../../assets/common.svg)
 
-Le workflow présenté ci-dessous est installé par défaut avec le module **Plate-forme de mid-sourcing**. Pour plus d’informations sur ce module, consultez cette [section](../../installation/using/mid-sourcing-deployment.md).
+Le workflow présenté ci-dessous est installé par défaut avec le module **Plateforme de mid-sourcing**. Pour plus d’informations sur ce module, consultez cette [section](../../installation/using/mid-sourcing-deployment.md).
 
 <table> 
  <tbody> 

@@ -51,7 +51,7 @@ Lorsqu&#39;un destinataire clique sur le lien de désinscription dans un email e
 
    ![](assets/acs_connect_profile_sync_02.png)
 
-   Par défaut, la réplication périodique d&#39;ACS Connector a lieu toutes les 15 minutes. Voir à ce sujet la section [Réplication des données](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
+   Par défaut, la réplication périodique d&#39;ACS Connector a lieu toutes les 15 minutes. Pour plus d’informations, voir [Réplication des données](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
 
 ## Edition d&#39;un destinataire {#editing-a-recipient}
 

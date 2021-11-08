@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
 source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 100%
 
@@ -272,7 +272,7 @@ Le tableau suivant liste les correspondances des types de données générés pa
   </tr> 
   <tr> 
    <td> Timespan<br /> </td> 
-   <td> DOUBLE PRECISION<br /> </td> 
+   <td> DOUBLE PRÉCISION<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> DOUBLE<br /> </td> 

@@ -71,11 +71,11 @@ Les étapes détaillées pour configurer une instance d&#39;exécution sont pré
 
 ## Canaux de diffusion disponibles
 
-Le canal email est disponible par défaut. Pour diffuser vos messages transactionnels sur plusieurs canaux, vous pouvez ajouter d&#39;autres canaux (canal mobile, canal applications mobiles, etc.).
+Le canal email est disponible par défaut. Pour diffuser vos messages transactionnels sur plusieurs canaux, vous pouvez ajouter d&#39;autres canaux (canal mobile, canal des applications mobiles, etc.).
 
 >[!IMPORTANT]
 >
->L&#39;ajout d&#39;un canal de diffusion (canal mobile, canal applications mobiles, etc.) doit être réalisé avant d&#39;installer le package Message transactionnel.
+>L&#39;ajout d&#39;un canal de diffusion (canal mobile, canal des applications mobiles, etc.) doit être réalisé avant d&#39;installer le package Message transactionnel.
 
 ### Ajout d&#39;un canal de diffusion {#adding-a-delivery-channel}
 
@@ -89,7 +89,7 @@ Cependant, si vous avez démarré un projet de message transactionnel sur le can
 
 1. Installez le canal dont vous avez besoin, par exemple le **Canal mobile**, à l&#39;aide de l&#39;assistant d&#39;import de package (**[!UICONTROL Outils > Avancé > Import de package... > Package Adobe Campaign]**).
 1. Effectuez une importation de fichier ( **[!UICONTROL Outils > Avancé > Importer un package... > Fichier]** ), puis sélectionnez le fichier **datakitnms **`[Your language]`**packagemessageCenter.xml**.
-1. Dans la partie **[!UICONTROL Contenu XML des données à importer]**, conservez uniquement le modèle de diffusion correspondant au canal ajouté. Par exemple, si vous avez ajouté le **Canal mobile**, conservez uniquement l&#39;élément **entities** correspondant au modèle **[!UICONTROL Message transactionnel mobile]** (smsTriggerMessage). Si vous avez ajouté le canal **Mobile App Channel**, conservez uniquement les modèles **Message transactionnel iOS** (iosTriggerMessage) et **Message transactionnel Android** (androidTriggerMessage).
+1. Dans la partie **[!UICONTROL Contenu XML des données à importer]**, conservez uniquement le modèle de diffusion correspondant au canal ajouté. Par exemple, si vous avez ajouté le **Canal mobile**, conservez uniquement l&#39;élément **entities** correspondant au modèle **[!UICONTROL Message transactionnel mobile]** (smsTriggerMessage). Si vous avez ajouté le **Canal des applications mobiles**, conservez uniquement les modèles **Message transactionnel iOS** (iosTriggerMessage) et **Message transactionnel Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 
@@ -130,15 +130,15 @@ You also have to enable the unitary mode on your offer spaces. For more on this,
 
 ### Notifications push transactionnelles {#transactional-messaging-and-push-notifications}
 
-Couplés au module Mobile App Channel, les messages transactionnels permettent d&#39;émettre des messages transactionnels au travers des notifications push sur des applications mobiles.
+Couplés au module Canal des applications mobiles, les messages transactionnels permettent d&#39;émettre des messages transactionnels au travers des notifications push sur des applications mobiles.
 
 >[!NOTE]
 >
->Mobile App Channel est présenté dans [cette section](../../delivery/using/about-mobile-app-channel.md).
+>Le canal des applications mobiles est présenté dans [cette section](../../delivery/using/about-mobile-app-channel.md).
 
-Pour utiliser les modules des messages transactionnels avec Mobile App Channel, vous devez effectuer les paramétrages suivants :
+Pour utiliser les modules des messages transactionnels avec le canal des applications mobiles, vous devez effectuer les paramétrages suivants :
 
-1. Installez le package **Mobile App Channel** sur les instances de pilotage et d&#39;exécution.
+1. Installez le package **Canal des applications mobiles** sur les instances de pilotage et d&#39;exécution.
 1. Répliquez le service Adobe Campaign de type **Application mobile** ainsi que les applications mobiles qu&#39;il contient sur les instances d&#39;exécution.
 
 L&#39;évènement doit contenir les éléments suivants :

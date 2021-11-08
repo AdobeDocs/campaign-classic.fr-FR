@@ -44,7 +44,7 @@ Pour les installations sur site, suivez la procédure ci-dessous pour configurer
    * **[!UICONTROL Nom interne]** : deliverabilityInstance
    * **[!UICONTROL Type]** : HTTP
    * **[!UICONTROL Serveur]** : https://deliverability-app.neolane.net/deliverability
-   * **[!UICONTROL Cryptage]** : Aucun
+   * **[!UICONTROL Chiffrement]** : Aucun
    * Cochez l&#39;option **[!UICONTROL Activé]**.
 
    ![](assets/s_tn_inbox_rendering_external-account.png)
@@ -84,6 +84,7 @@ Chaque fois que vous utilisez la fonctionnalité **[!UICONTROL Inbox rendering]*
 >
 >* Chaque fois que le rapport d&#39;inbox rendering est généré, un jeton est déduit par client de messagerie : un jeton pour le rendu Outlook 2000, un pour le rendu Outlook 2010, un pour le rendu Apple Mail 9, etc.
 >* Pour une même diffusion, si vous régénérez le rapport d&#39;inbox rendering, le nombre de jetons disponibles est à nouveau réduit en fonction du nombre de rendus générés.
+
 >
 
 
@@ -104,7 +105,7 @@ Pour plus d&#39;informations sur la conception et le ciblage d&#39;une diffusion
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   Un BAT est envoyé. Les vignettes de rendu sont accessibles dans ce BAT quelques minutes après l&#39;envoi des emails. Pour plus d&#39;informations sur l&#39;envoi de BAT, consultez [cette section](steps-validating-the-delivery.md#sending-a-proof).
+   Un BAT est envoyé. Les miniatures de rendu sont accessibles dans ce BAT quelques minutes après l&#39;envoi des e-mails. Pour plus d&#39;informations sur l&#39;envoi de BAT, consultez[cette section](steps-validating-the-delivery.md#sending-a-proof).
 
 1. Une fois envoyé, le BAT apparaît dans la liste de diffusion. Double-cliquez dessus.
 

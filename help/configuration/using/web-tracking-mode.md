@@ -46,7 +46,7 @@ Les modes de tracking Web **Permanent** et **Anonyme** comportent deux options :
 
 L&#39;option **Diffusion forcée** permet de spécifier l&#39;identifiant de la diffusion (@jobid) lors du tracking.
 
-L&#39;option **Dernière diffusion** permet de rattacher le log de tracking courant à la dernière diffusion trackée.
+L&#39;option **Dernière diffusion** permet de rattacher le log de tracking courant à la dernière diffusion suivie.
 
 **Caractéristiques du tracking Web de session:**
 
@@ -75,7 +75,7 @@ Ce mode est coûteux particulièrement en calcul lors de la réconciliation des 
 
 **Caractéristiques du mode de tracking Web anonyme :**
 
-Ce mode de tracking Web permet de remonter un log de tracking associé à une navigation anonyme dans Adobe Campaign. Un log de tracking est donc automatiquement crée à chaque clic sur une URL trackée. Ce log ne comporte que la valeur de l&#39;uuid230. Lors d&#39;une campagne marketing, un log de tracking est automatiquement créée avec l&#39;ensemble des informations d&#39;identification (voir tracking de session). Adobe Campaign va alors automatiquement rechercher dans les logs précédents pour déterminer si une précédente valeur de &quot;l&#39;uuid230&quot; est égale à la valeur provenant du log de tracking de la campagne marketing. Si les valeurs sont identiques alors tous les logs de tracking précédents sont remplis avec l&#39;ensemble des informations provenant du log de tracking de la campagne marketing.
+Ce mode de tracking web permet de remonter un log de tracking associé à une navigation anonyme dans Adobe Campaign. Un log de tracking est donc automatiquement crée à chaque clic sur une URL suivie. Ce log ne comporte que la valeur de l&#39;uuid230. Lors d&#39;une campagne marketing, un log de tracking est automatiquement créée avec l&#39;ensemble des informations d&#39;identification (voir tracking de session). Adobe Campaign va alors automatiquement rechercher dans les logs précédents pour déterminer si une précédente valeur de &quot;l&#39;uuid230&quot; est égale à la valeur provenant du log de tracking de la campagne marketing. Si les valeurs sont identiques alors tous les logs de tracking précédents sont remplis avec l&#39;ensemble des informations provenant du log de tracking de la campagne marketing.
 
 Ce mode est le plus coûteux en calcul comme en volume.
 

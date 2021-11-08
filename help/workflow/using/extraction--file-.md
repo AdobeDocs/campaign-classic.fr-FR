@@ -48,9 +48,9 @@ Pour paramétrer l&#39;extraction des données, les étapes sont les suivantes :
 
    ![](assets/s_advuser_extract_file_agregate_values.png)
 
-Vous pouvez définir un post-traitement à exécuter pendant l’extraction des données, ce qui vous permet de compresser ou de crypter les fichiers. Pour ce faire, la commande souhaitée doit être ajoutée dans l’onglet **[!UICONTROL Script]** de l’activité.
+Vous pouvez définir un post-traitement à exécuter pendant l’extraction des données, ce qui vous permet de compresser ou de chiffrer les fichiers. Pour ce faire, la commande souhaitée doit être ajoutée dans l’onglet **[!UICONTROL Script]** de l’activité.
 
-Pour plus d’informations à ce sujet, consultez cette section : [Compresser ou crypter un fichier](how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+Pour plus d’informations à ce sujet, consultez cette section : [Compresser ou chiffrer un fichier](how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
 ![](assets/postprocessing_dataextraction.png)
 

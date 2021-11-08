@@ -40,7 +40,7 @@ Par exemple :
 * Séparateur : onglet ou point virgule
 * Première ligne avec en-têtes
 * Pas de délimiteur de chaîne
-* Format de date : AAAA/MM/JJ HH:mm:SS
+* Format de date : AAAA/JJ HH:mm:SS
 
 Voici un exemple de fichier à importer :
 

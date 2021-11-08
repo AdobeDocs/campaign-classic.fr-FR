@@ -94,7 +94,7 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
    >
    >Si la section **[!UICONTROL Jeux Web Facebook]** n&#39;apparaît pas, cliquez sur le bouton **[!UICONTROL Ajouter une plateforme]**, en bas de la page, et sélectionnez **[!UICONTROL Jeux Web Facebook]**.
 
-* **Adobe Campaign** : dans l&#39;arborescence, positionnez-vous sur le noeud **[!UICONTROL Administration > Plate-forme > Comptes externes]**, sélectionnez le compte externe **[!UICONTROL Routage Facebook]**, puis cliquez sur l&#39;onglet **[!UICONTROL Connecteur]**.
+* **Adobe Campaign** : dans l&#39;arborescence, positionnez-vous sur le noeud **[!UICONTROL Administration > Plateforme > Comptes externes]**, sélectionnez le compte externe **[!UICONTROL Routage Facebook]**, puis cliquez sur l&#39;onglet **[!UICONTROL Connecteur]**.
 
    ![](assets/social_facebook_external_account_001.png)
 
@@ -131,7 +131,7 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
 
 1. Une boite de dialogue apparaît, avec les différents paramètres de demande de permission Facebook. Ces paramètres permettront à Adobe Campaign d&#39;envoyer des publications sur les murs des pages du compte Facebook.
 
-   Acceptez les différentes demandes de permissions.
+   Acceptez les différentes demandes d’autorisations.
 
    ![](assets/social_facebook_external_account_003.png)
 

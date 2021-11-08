@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: cee019432c64eaaefac86a27b731355242fd1555
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 

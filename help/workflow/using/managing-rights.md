@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Gestion des permissions relatives aux workflows
-description: Découvrez comment gérer les permissions relatives aux workflows
+title: Gestion des autorisations relatives aux workflows
+description: Découvrez comment gérer les autorisations relatives aux workflows
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Gestion des permissions relatives aux workflows{#managing-rights}
+# Gestion des autorisations relatives aux workflows{#managing-rights}
 
 ![](../../assets/common.svg)
 

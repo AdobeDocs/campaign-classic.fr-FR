@@ -53,7 +53,7 @@ Vous pouvez tracker la réception des messages et l’activation des liens insé
 
 **Tracking des URL**
 
-Les options de tracking peuvent être paramétrées en activant ou en désactivant les URL trackées. [En savoir plus](personalizing-url-tracking.md)
+Les options de tracking peuvent être paramétrées en activant ou en désactivant les URL suivies. [En savoir plus](personalizing-url-tracking.md)
 
 **Personnalisation des liens trackés**
 
@@ -73,7 +73,7 @@ Avant d’envoyer vos messages avec votre tracking, vous pouvez tester ce dernie
 
 **Tracking d&#39;une application web**
 
-Vous pouvez également tracker et mesurer les visites sur les pages d&#39;application web avec des balises de tracking. Cette fonctionnalité peut être utilisée pour tous les types d&#39;application web, tels que les formulaires et les pages de destination. [En savoir plus](../../web/using/tracking-a-web-application.md)
+Vous pouvez également tracker et mesurer les visites sur les pages d&#39;application web avec des balises de tracking. Cette fonctionnalité peut être utilisée pour tous les types d&#39;application web, tels que les formulaires et les landing pages. [En savoir plus](../../web/using/tracking-a-web-application.md)
 
 **Désinscription (opt-out) du tracking des applications web**
 

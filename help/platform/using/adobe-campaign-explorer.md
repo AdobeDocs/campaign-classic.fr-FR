@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-L&#39;explorateur Adobe Campaign est accessible à partir de l&#39;icône de la barre d&#39;outils. Il permet d&#39;accéder à l&#39;ensemble des fonctions d&#39;Adobe Campaign, aux écrans de paramétrage et à une vue plus détaillée de certains éléments de la plate-forme.
+L&#39;explorateur Adobe Campaign est accessible à partir de l&#39;icône de la barre d&#39;outils. Il permet d&#39;accéder à l&#39;ensemble des fonctions d&#39;Adobe Campaign, aux écrans de paramétrage et à une vue plus détaillée de certains éléments de la plateforme.
 
 L&#39;espace de travail **[!UICONTROL Explorateur]** est divisé en trois zones :
 
@@ -43,7 +43,7 @@ Pour ajouter un nouveau dossier dans l&#39;arborescence, cliquez avec le bouton 
 
 Découvrez comment configurer l’arborescence de navigation de Campaign [dans cette section](../../configuration/using/configuration.md).
 
-Découvrez comment définir des permissions sur les dossiers [dans cette section](access-management-folders.md).
+Découvrez comment définir des autorisations sur les dossiers [dans cette section](access-management-folders.md).
 
 ## Bonnes pratiques relatives à la configuration des dossiers
 

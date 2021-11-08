@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 38333669-5598-4811-a121-b677c1413f56
 source-git-commit: ed43a632a962747c9402ff8d5f0ce442c2cc6490
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 100%
 
@@ -106,7 +106,7 @@ Pour cela, les étapes sont les suivantes :
    >
    >Adobe Campaign ne prend pas en charge les schémas de destinataires multiples, appelés schémas de ciblage, liés aux mêmes schémas de broadlog et/ou de trackinglog. Leur prise en charge entraînerait des anomalies dans la réconciliation ultérieure des données. Pour plus d&#39;informations sur ce sujet, voir la page [Recommandations et limitations](../../configuration/using/about-custom-recipient-table.md).
 
-1. Dans la fenêtre suivante **Extensions**, sélectionnez les schémas optionnels que vous souhaitez générer (la liste des schémas disponibles dépend des modules installés dans Adobe Campaign).
+1. Dans la fenêtre suivante **Extensions**, sélectionnez les schémas optionnels que vous souhaitez générer (la liste des schémas disponibles dépend des modules installés dans la plateforme Adobe Campaign).
 
    ![](assets/mapping_diffusion_wizard_4.png)
 

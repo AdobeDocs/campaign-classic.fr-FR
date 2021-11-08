@@ -29,7 +29,7 @@ Pour créer des types d&#39;événements qui seront traités par Adobe Campaign
 
 1. Connectez-vous à l&#39;**instance de pilotage**.
 
-1. Positionnez-vous dans l&#39;arborescence au niveau du dossier **[!UICONTROL Administration > Plate-forme > Enumérations]**.
+1. Positionnez-vous dans l&#39;arborescence au niveau du dossier **[!UICONTROL Administration > Plateforme > Enumérations]**.
 
 1. Sélectionnez **[!UICONTROL Type d&#39;événement]** dans la liste.
 

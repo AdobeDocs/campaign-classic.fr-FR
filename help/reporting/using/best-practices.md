@@ -43,7 +43,7 @@ Afin d&#39;optimiser la création, l&#39;utilisation et la pérennité d&#39;un 
 
 1. Identifier le public auquel le rapport est destiné
 
-   Vous devez ensuite savoir à qui le rapport que vous souhaitez créer s&#39;adresse, connaître le ou les publics qui seront amenés à le consulter et connaître le mode d&#39;affichage du rapport (dans un navigateur, dans Adobe Campaign, pour un objet précis, pour toute la plate-forme, etc.).
+   Vous devez ensuite savoir à qui le rapport que vous souhaitez créer s&#39;adresse, connaître le ou les publics qui seront amenés à le consulter et connaître le mode d&#39;affichage du rapport (dans un navigateur, dans Adobe Campaign, pour un objet précis, pour toute la plateforme, etc.).
 
    Vous pouvez ainsi créer des rapports pour :
 

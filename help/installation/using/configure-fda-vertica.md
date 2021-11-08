@@ -149,7 +149,7 @@ Pour effectuer la configuration de [!DNL Vertica] sous CentOS, procédez comme s
 
 Vous devez créer un compte externe [!DNL Vertica] pour connecter votre instance Campaign à votre base de données [!DNL Vertica] externe.
 
-1. Depuis l&#39;**[!UICONTROL Explorateur]** Campaign, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plate-forme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
+1. Depuis l&#39;**[!UICONTROL Explorateur]** Campaign, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plateforme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
 
 1. Cliquez sur **[!UICONTROL Nouveau]**.
 

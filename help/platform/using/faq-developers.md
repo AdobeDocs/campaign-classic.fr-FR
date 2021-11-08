@@ -47,7 +47,7 @@ Vous pouvez créer et implémenter une table de destinataires non standard dans 
 
 Le requêteur Adobe Campaign est un outil puissant permettant d&#39;explorer les données et de créer des segments.
 
-L&#39;outil de requêtage est présent à de nombreux niveaux de la plate-forme Adobe Campaign : pour créer une population cible, segmenter les clients, extraire et filtrer des logs de tracking, construire des filtres, etc.
+L&#39;outil de requêtage est présent à de nombreux niveaux de la plateforme Adobe Campaign : pour créer une population cible, segmenter les clients, extraire et filtrer des logs de tracking, construire des filtres, etc.
 
 Vous pouvez interroger la base de données Campaign grâce au requêteur générique. Il est accessible depuis le menu **Outils > Requêteur générique...**. Il permet d&#39;extraire des informations stockées dans une base de données, les organiser, les regrouper, les trier, etc. Par exemple, l&#39;utilisateur peut récupérer les destinataires ayant cliqué plus de &#39;n&#39; fois dans le lien d&#39;une newsletter et sur une période donnée. Il pourra organiser la collecte, le tri et l&#39;affichage des résultats selon ses besoins. Cet outil regroupe toutes les possibilités de requêtage d&#39;Adobe Campaign. Par exemple, il permet la création et la sauvegarde des filtres de restriction. Ainsi, un filtre utilisateur créé dans le requêteur générique est réutilisable dans la boîte de requête d&#39;un workflow de ciblage, etc.
 
@@ -57,7 +57,7 @@ Les requêtes sont créées soit avec les champs disponibles de la table sélect
 
 ## Comment importer un package de données ?  {#how-can-i-import-a-data-package-}
 
-Adobe Campaign vous permet d&#39;exporter ou d&#39;importer la configuration et les données de la plate-forme grâce à un système de packages. Les packages de données permettent l&#39;affichage des entités de la base de données Adobe Campaign à l&#39;aide de fichiers au format XML. Chaque entité contenue dans un package est représentée avec l&#39;ensemble de ses données.
+Adobe Campaign vous permet d&#39;exporter ou d&#39;importer la configuration et les données de la plateforme grâce à un système de packages. Les packages de données permettent l&#39;affichage des entités de la base de données Adobe Campaign à l&#39;aide de fichiers au format XML. Chaque entité contenue dans un package est représentée avec l&#39;ensemble de ses données.
 
 Le principe des packages de données consiste à exporter un paramétrage de données puis l&#39;intégrer dans un autre système Adobe Campaign.
 

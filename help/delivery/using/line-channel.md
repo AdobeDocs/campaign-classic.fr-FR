@@ -66,7 +66,7 @@ Pour plus d&#39;informations sur les abonnements et les services, voir [Gestion 
 
 Après avoir créé votre service [!DNL LINE], vous devez configurer le compte externe [!DNL LINE] sur Adobe Campaign :
 
-1. Dans l&#39;arborescence **[!UICONTROL Administration]** > **[!UICONTROL Plate-forme]**, cliquez sur l&#39;onglet **[!UICONTROL Comptes externes]**.
+1. Dans l&#39;arborescence **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]**, cliquez sur l&#39;onglet **[!UICONTROL Comptes externes]**.
 
 1. Sélectionnez le compte externe **[!UICONTROL Routage LINE V2]** intégré.
 

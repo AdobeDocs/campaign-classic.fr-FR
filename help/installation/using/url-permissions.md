@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
 source-git-commit: 4fd69aa28c2e9325f4738ec571a6632c42ec26b8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Trois modes de protection de la connexion sont disponibles :
 
 Pour plus d’informations, consultez les sections suivantes :
 
-* [Documentation relative au Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
+* [Documentation relative au Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 * [Modèles d&#39;hébergement](hosting-models.md)
 * [Paramétrage du serveur Campaign](configuring-campaign-server.md)
 * [Paramétrage du serveur Campaign   paramètres de fichier](the-server-configuration-file.md)

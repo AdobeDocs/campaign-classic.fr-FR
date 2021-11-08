@@ -89,7 +89,7 @@ Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux optio
 
 * Onglet **[!UICONTROL Variables]**
 
-   Vous pouvez définir des variables associées au traitement et qui seront accessibles dans les éditeurs de requête et dans les champs calculés. Pour créer une variable, cliquez sur l&#39;icône **[!UICONTROL Ajouter]** et renseignez l&#39;éditeur de variables.
+   Vous pouvez définir des variables associées au traitement et qui seront accessibles dans les requêteurs et dans les champs calculés. Pour créer une variable, cliquez sur l&#39;icône **[!UICONTROL Ajouter]** et renseignez l&#39;éditeur de variables.
 
    >[!IMPORTANT]
    >

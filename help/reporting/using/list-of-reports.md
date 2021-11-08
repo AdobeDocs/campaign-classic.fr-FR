@@ -211,7 +211,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez les guide
   </tr> 
   <tr> 
    <td> Taux de réactivité (mobileAppReactivityRate)<br /> </td> 
-   <td> Taux de réactivité des dernières diffusions. Dépend du composant additionnel Mobile app channel.<br /> </td> 
+   <td> Taux de réactivité des dernières diffusions. Dépend du composant additionnel Canal des applications mobiles.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
