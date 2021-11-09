@@ -3,10 +3,10 @@ product: campaign
 title: Migration vers le connecteur Adobe Analytics
 description: FAQ sur Campaign - Connecteur Analytics
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 89494165a59c0ba6119f37d41893fd0e8733f47d
+source-git-commit: 18b31ae504e1f1d13980bdf38925b38279b3be8c
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ Découvrez comment vérifier votre version [dans cette section](../../platform/u
 
 ## Comment effectuer la mise à jour ?
 
-Vous devez effectuer la mise à niveau vers Campaign 21.1.3 (ou version ultérieure) **avant le 1er mars 2022**.
+Vous devez effectuer la mise à niveau vers Campaign 21.1.3 (ou version ultérieure). **avant août 2022**.
 
 Parce que vous êtes un client hébergé, Adobe collaborera avec vous afin de mettre à niveau votre ou vos instance(s) vers la nouvelle version. Vous pourrez ensuite utiliser le [connecteur Adobe Analytics](../../platform/using/adobe-analytics-connector.md).
 
