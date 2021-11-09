@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 4d789ad0138f65134d3c1592ef5d5517d39fc0f7
 workflow-type: tm+mt
-source-wordcount: '8433'
-ht-degree: 100%
+source-wordcount: '8460'
+ht-degree: 99%
 
 ---
 
@@ -230,6 +230,10 @@ Les 60 secondes par défaut doivent correspondre à la plupart des configuratio
 Ce PDU acquitte le fait que la connexion est active.
 
 ### SMS en plusieurs parties (SMS long) {#multipart}
+
+>[!IMPORTANT]
+>
+> Adobe Campaign ne prend en charge que les SMS en plusieurs parties ou les SMS longs pour l’envoi. UDH et `message_payload` ne sont pas pris en charge pour les SMS entrants (MO), ce qui signifie que MO est limité à 160 caractères.
 
 Les SMS en plusieurs parties, ou les SMS longs, sont des SMS envoyés en plusieurs parties. En raison des limitations techniques du protocole de réseau mobile, un SMS ne peut pas dépasser 140 octets ou doit être fractionné. Consultez la section [Encodage du texte SMS](sms-protocol.md#sms-text-encoding) pour en savoir plus sur le nombre de caractères pouvant tenir dans un SMS.
 

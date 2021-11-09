@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
 workflow-type: tm+mt
 source-wordcount: '3428'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Règles de pression{#pressure-rules}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## À propos de la fatigue marketing {#about-marketing-fatigue}
 
@@ -159,7 +159,7 @@ Par exemple, une règle de pression qui définit un seuil de 2 messages par sema
 >  ou
 >
 >* Entrez **7d** dans le champ **[!UICONTROL Période concernée]** ET cochez la case **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]**.\
->Option : les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
+   >Option : les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
 >
 >Le jour de début de la période dépend du paramétrage de la base de données.
 

@@ -7,10 +7,10 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 0830e7b8a430fa18bc1326b972741e2e4dc76342
+source-git-commit: 671e29425e8962ced833c10303b6edce7afda462
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 100%
+source-wordcount: '645'
+ht-degree: 84%
 
 ---
 
@@ -24,7 +24,11 @@ ht-degree: 100%
 >
 >Pour les implémentations hébergées, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
-L’intégration entre l’authentification Adobe Campaign Classic et Adobe Analytics prend en charge Adobe Identity Management Service (IMS). Vous devez implémenter Adobe IMS et vous connecter à Campaign [via un Adobe ID](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/connect-to-campaign/connecting-via-an-adobe-id/about-adobe-id.html?lang=fr) avant de démarrer l’implémentation du connecteur Analytics.
+L’intégration entre l’authentification Adobe Campaign Classic et Adobe Analytics prend en charge Adobe Identity Management Service (IMS) :
+
+* Si vous gérez un compte externe migré, vous devez mettre en oeuvre Adobe IMS et vous connecter à Adobe Campaign via un Adobe ID. L’utilisateur connecté via Adobe ID IMS doit être le propriétaire de la variable **Connecteur de données** dans Adobe Analytics et disposer d’un ensemble d’autorisations pour la variable **Profil de produit** mentionné ci-dessous.
+
+* Si vous implémentez un nouveau connecteur, l’implémentation d’Adobe IMS est facultative. Sans utilisateur Adobe ID, Adobe Campaign utilisera un utilisateur technique pour se synchroniser avec Adobe Analytics.
 
 Pour que cette intégration fonctionne, vous devez créer un profil produit Adobe Analytics qui sera utilisé exclusivement pour le connecteur Analytics. Vous devez ensuite créer un projet Adobe I/O.
 

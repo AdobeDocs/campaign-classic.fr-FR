@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Règles de contrôle{#control-rules}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## Analyse et règles de contrôle d’arbitrage {#analysis-and-arbitration-control-rules}
 

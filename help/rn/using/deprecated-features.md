@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: 89494165a59c0ba6119f37d41893fd0e8733f47d
 workflow-type: tm+mt
 source-wordcount: '1657'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   <td>Adobe Analytics Data Connector<br></td>
    <td><p>À compter de la version 21.1.3 de Campaign, le connecteur de données Adobe Analytics est obsolète.</p>
    <p>Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. <a href="../../platform/using/adobe-analytics-connector.md">En savoir plus</a></p>
-  <p><em>Date de suppression prévue : 1 mars 2022</em></p>
+  <p><em>Date de suppression prévue : Août 2022</em></p>
   </td>
  </tr>
     <tr>
