@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: 671e29425e8962ced833c10303b6edce7afda462
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 84%
 >
 >Pour les implémentations hébergées, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
-L’intégration entre l’authentification Adobe Campaign Classic et Adobe Analytics prend en charge Adobe Identity Management Service (IMS) :
+L’intégration entre l’authentification Adobe Campaign Classic et Adobe Analytics prend en charge Adobe Identity Management Service (IMS) :
 
-* Si vous gérez un compte externe migré, vous devez mettre en oeuvre Adobe IMS et vous connecter à Adobe Campaign via un Adobe ID. L’utilisateur connecté via Adobe ID IMS doit être le propriétaire de la variable **Connecteur de données** dans Adobe Analytics et disposer d’un ensemble d’autorisations pour la variable **Profil de produit** mentionné ci-dessous.
+* Si vous gérez un compte externe migré, vous devez mettre en œuvre Adobe IMS et vous connecter à Adobe Campaign via un Adobe ID. L’utilisateur connecté via Adobe ID IMS doit être le propriétaire du compte **Connecteur de données** dans Adobe Analytics et disposer d’un ensemble d’autorisations pour le **Profil de produit** mentionné ci-dessous.
 
-* Si vous implémentez un nouveau connecteur, l’implémentation d’Adobe IMS est facultative. Sans utilisateur Adobe ID, Adobe Campaign utilisera un utilisateur technique pour se synchroniser avec Adobe Analytics.
+* Si vous implémentez un nouveau connecteur, la mise en œuvre d’Adobe IMS est facultative. En l’absence d&#39;un utilisateur Adobe ID, Adobe Campaign utilisera un utilisateur technique pour se synchroniser avec Adobe Analytics.
 
 Pour que cette intégration fonctionne, vous devez créer un profil produit Adobe Analytics qui sera utilisé exclusivement pour le connecteur Analytics. Vous devez ensuite créer un projet Adobe I/O.
 
