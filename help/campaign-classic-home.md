@@ -20,7 +20,7 @@ ht-degree: 100%
 
 * **[FAQ sur la protection de la confidentialité dʼApple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=fr)** et **[note technique](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Trouvez des conseils préliminaires en réponse à lʼannonce dʼApple concernant iOS 15.
 
-* **[Mise à niveau vers les derniers builds (connexion via IMS/Adobe ID) ](technotes/using/ims-updates.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter après le** 30 juin 2021 **
+* **[Mise à niveau vers les derniers builds (connexion via IMS/Adobe ID)](technotes/using/ims-updates.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter après le ** 30 juin 2021 **
 
 * **[Suppression des erreurs hard incorrectes](delivery/using/update-bounce-qualification.md)**<br/> Découvrez comment mettre à jour les erreurs hard incorrectes après une panne d’Apple.
 
