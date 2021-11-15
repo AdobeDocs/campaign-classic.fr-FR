@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 source-git-commit: 9ba2199eabf91381e87661f30c9af8aa0ce4cc26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -164,9 +164,9 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 
    <td> Erreur<br /> </td> 
-   <td> Ce type de déploiement n’est plus pris en charge. Le type de déploiement connecteur Microsoft CRM On-premise et Office 365 est désormais obsolète. 
-   </br>Si vous utilisez l’un de ces types de déploiement obsolètes dans un compte externe, ce compte externe doit être supprimé et vous devez alors exécuter la variable <b>postupgrade</b> . 
-   </br>Pour passer au déploiement des API Web, voir la section <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Applications Web</a>.<br /> </td>
+   <td> Ce type de déploiement n’est plus pris en charge. Le type de déploiement connecteur Microsoft CRM On-premise et Office 365 est désormais obsolète. 
+   </br>Si vous utilisez l’un de ces types de déploiement obsolètes dans un compte externe, ce compte externe doit être supprimé et vous devez par la suite exécuter la commande <b>postupgrade</b>. 
+   </br>Pour passer au déploiement des API Web, voir la section <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Applications Web</a>.<br /> </td>
   </tr> 
  </tbody> 
 </table>
