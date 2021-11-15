@@ -37,7 +37,6 @@ Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign �
 > * [Campaign 20.1.4](../../rn/using/release--20-1.md)
 > * [Campaign 19.2.4](../../rn/using/release--19-2.md)
 > * [Campaign 19.1.8](../../rn/using/release--19-1.md)
-
 >
 > [!DNL :bulb:] [En savoir plus sur les mises à jour de l&#39;IMS](../../technotes/using/ims-updates.md)
 
