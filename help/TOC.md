@@ -6,7 +6,7 @@ title: Guide de Campaign Classic v7
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 23c5892189c59008f82ec453c97d24efe82fd2ae
+source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
 workflow-type: tm+mt
 source-wordcount: '2566'
 ht-degree: 100%
@@ -166,8 +166,8 @@ ht-degree: 100%
    + Envoi d’un courrier {#sending-direct-mail}
       + [À propos du canal Courrier](delivery/using/about-direct-mail-channel.md)
       + [Création d’une diffusion courrier](delivery/using/creating-a-direct-mail-delivery.md)
-      + [Définir le contenu du courrier](delivery/using/defining-the-direct-mail-content.md)
-      + [Validation](delivery/using/validating.md)
+      + [Définissez le contenu du courrier](delivery/using/defining-the-direct-mail-content.md)
+      + [Valider](delivery/using/validating.md)
    + Utilisation de modèles de diffusion {#using-delivery-templates}
       + [À propos des modèles](delivery/using/about-templates.md)
       + [Création d’un modèle de diffusion](delivery/using/creating-a-delivery-template.md)

@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Définir le contenu interactif dans Adobe Campaign Classic
+title: Définition de contenu interactif dans Adobe Campaign Classic
 description: Découvrez comment définir le contenu interactif et dynamique d’emails avec AMP dans Adobe Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 6c23dadb5b6523e17e242de43a908ca86ed7cc23
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 100%
+source-wordcount: '1580'
+ht-degree: 80%
 
 ---
 
-# Définition d’un contenu interactif{#defining-interactive-content}
+# Définition du contenu interactif{#defining-interactive-content}
 
 ![](../../assets/common.svg)
 
@@ -21,25 +21,25 @@ Adobe Campaign permet de tester le nouveau format interactif [AMP for Email](htt
 
 Avec AMP for Email, vous pouvez :
 * tester la diffusion des emails AMP à des adresses spécifiques correctement configurées ;
-* diffuser des emails AMP à des adresses Gmail, Outlook ou Mail.ru après enregistrement auprès des fournisseurs correspondants.
+* Diffusez des emails AMP aux adresses Gmail, Outlook ou Mail.ru après enregistrement auprès des fournisseurs correspondants.
 
-Pour plus d’informations sur le test et l’envoi d’emails AMP, voir la section [Ciblage d’un email AMP](#targeting-amp-email).
+Pour plus d’informations sur le test et l’envoi d’emails AMP, voir [cette section](#targeting-amp-email).
 
-Cette fonctionnalité est disponible via un package dédié dans Adobe Campaign. Pour l’utiliser, ce package doit être installé. Une fois l’installation terminée, redémarrez le serveur pour que le package soit pris en compte.
+Cette fonctionnalité est disponible via un package dédié dans Adobe Campaign. En fonction de vos autorisations et de votre modèle de déploiement, vous pouvez installer ce package ou contacter Adobe pour l’installer à votre place.
 
 >[!NOTE]
 >
-> Pour les architectures hybrides et hébergées, le package doit être installé sur tous les serveurs, y compris le [serveur de Mid-sourcing](../../installation/using/mid-sourcing-server.md) et l’[instance d’exécution](../../message-center/using/configuring-instances.md#execution-instance).
+> Pour les architectures hybrides et hébergées, le package doit être installé sur tous les serveurs, y compris le [serveur de mid-sourcing](../../installation/using/mid-sourcing-server.md) et le [instance d&#39;exécution](../../message-center/using/configuring-instances.md#execution-instance).
 
 
 ## À propos d’AMP for Email {#about-amp-for-email}
 
-Le nouveau format **AMP for Email** permet d’inclure des composants AMP dans les messages afin d’améliorer l’expérience grâce à un contenu riche et exploitable. Grâce à la fonctionnalité d’application moderne directement disponible dans les emails, les destinataires peuvent interagir dynamiquement avec le contenu du message.
+Utilisez la variable **AMP for Email** nouveau format pour inclure des composants AMP dans vos messages et améliorer l’expérience email avec un contenu riche et exploitable. Grâce à la fonctionnalité d’application moderne directement disponible dans les emails, les destinataires peuvent interagir dynamiquement avec le contenu du message.
 
 Par exemple :
 * Les emails écrits avec AMP peuvent contenir des éléments interactifs tels que des carrousels d’image.
 * Le contenu reste à jour dans le message.
-* Les destinataires peuvent agir ; ils peuvent par exemple répondre à un formulaire sans quitter leur boîte de réception.
+* Les destinataires peuvent répondre à un formulaire sans quitter leur boîte de réception.
 
 AMP for Email est compatible avec les emails existants. La version AMP du message est incorporée dans l’email en tant que nouvelle partie MIME, en plus du code HTML et/ou du texte brut, assurant la compatibilité entre tous les clients de messagerie.
 
@@ -57,11 +57,11 @@ Pour tester et envoyer un email AMP avec Adobe Campaign, procédez comme suit 
 
    >[!NOTE]
    >
-   >Actuellement, vous pouvez uniquement diffuser des emails AMP vers des [adresses électroniques spécifiques](#testing-amp-delivery-for-selected-addresses) (à des fins de test) ou après [enregistrement](#delivering-amp-emails-by-registering) auprès des clients de messagerie pris en charge.
+   >Actuellement, vous pouvez uniquement diffuser des emails AMP vers [adresses email spécifiques](#testing-amp-delivery-for-selected-addresses) (à des fins de test) ou après [enregistrement](#delivering-amp-emails-by-registering) avec les clients de messagerie pris en charge.
 
 1. Envoyez votre email comme vous le feriez habituellement. Voir [Envoyer un email AMP](#sending-amp-email).
 
-## Création de contenu d’email AMP dans Adobe Campaign {#build-amp-email-content}
+## Création de contenu d’email AMP dans Adobe Campaign {#build-amp-email-content}
 
 Pour créer un email au format AMP, procédez comme suit.
 
@@ -73,7 +73,7 @@ Pour créer un email au format AMP, procédez comme suit.
 
    >[!NOTE]
    >
-   >Un modèle AMP spécifique contient un exemple des principales fonctionnalités que vous pouvez utiliser : liste de produits, carrousel, double opt-in, questionnaire et requête de serveur avancée.
+   >Un modèle AMP spécifique contient un exemple des principales capacités que vous pouvez utiliser : liste de produits, carrousel, double opt-in, enquête et requête de serveur avancée.
 
 1. Cliquez sur l’onglet **[!UICONTROL Contenu AMP]**.
 
@@ -85,7 +85,7 @@ Pour créer un email au format AMP, procédez comme suit.
    >
    >Pour plus d’informations sur la création de votre premier email AMP, consultez la documentation [destinée aux développeurs AMP](https://amp.dev/fr/documentation/guides-and-tutorials/start/create_email/?format=email).
 
-   Vous pouvez, par exemple, utiliser le composant de liste de produits du modèle AMP et tenir à jour une liste de produits d’un système tiers, voire dans Adobe Campaign. Dès que vous ajustez un prix ou un autre élément, cette modification sera automatiquement prise en compte lorsque le destinataire ouvrira à nouveau l’email à partir de sa boîte mail.
+   Vous pouvez, par exemple, utiliser le composant de liste de produits du modèle AMP et tenir à jour une liste de produits d’un système tiers, voire dans Adobe Campaign. Chaque fois que vous ajustez un prix ou un autre élément, il est automatiquement reflété lorsque les destinataires ouvrent l&#39;email à partir de leur boîte aux lettres.
 
 1. Personnalisez votre contenu AMP selon vos besoins, comme vous le feriez habituellement avec le format HTML dans Adobe Campaign. Utilisez des champs de personnalisation et des blocs de personnalisation.
 
@@ -99,17 +99,17 @@ Pour créer un email au format AMP, procédez comme suit.
 
    ![](assets/amp_validator.png)
 
-   Toutes les erreurs seront indiquées en ligne.
+   Les erreurs sont marquées en ligne.
 
    >[!NOTE]
    >
-   >L’éditeur AMP d’Adobe Campaign n’est pas conçu pour la validation du contenu. Utilisez un site Web externe tel que le [validateur Web AMP](https://validator.ampproject.org) pour vérifier que votre contenu est correct.
+   >L’éditeur AMP d’Adobe Campaign n’est pas conçu pour la validation du contenu. Utilisez un site Web externe tel que le [Validateur Web AMP](https://validator.ampproject.org) pour vérifier que votre contenu est correct.
 
 1. Apportez les modifications nécessaires jusqu’à ce que le contenu AMP soit validé.
 
    ![](assets/amp_validator_pass.png)
 
-1. Effectuez un copier-coller de votre contenu validé dans [AMP Playground](https://playground.amp.dev/fr) ou un site Web similaire pour prévisualiser votre contenu.
+1. Pour prévisualiser votre contenu, copiez-collez votre contenu validé dans [AMP Playground](https://playground.amp.dev/fr) ou un site Web similaire.
 
    >[!NOTE]
    >
@@ -133,12 +133,12 @@ Pour créer un email au format AMP, procédez comme suit.
 
 Lors de la création de votre contenu AMP dans Adobe Campaign, vous devez respecter les conditions de diffusion d’un email dynamique, qui sont spécifiques aux fournisseurs de messagerie de vos destinataires.
 
-Actuellement, trois fournisseurs de messagerie prennent en charge le test de ce format : Gmail, Outlook et Mail.ru.
+Actuellement, trois fournisseurs de messagerie prennent en charge le test de ce format : Gmail, Outlook et Mail.ru.
 
-Toutes les étapes et spécifications requises pour tester la diffusion avec le format AMP sur les comptes Gmail sont présentées dans les documentations [Gmail](https://developers.google.com/gmail/ampemail?), [Outlook ](https://docs.microsoft.com/fr-fr/outlook/amphtml/) et [Mail.ru](https://postmaster.mail.ru/amp) destinées aux développeurs.
+Toutes les étapes et spécifications requises pour tester la diffusion au format AMP sur les comptes Gmail sont détaillées dans la section correspondante. [Gmail](https://developers.google.com/gmail/ampemail?), [Outlook ](https://docs.microsoft.com/fr-fr/outlook/amphtml/), et [Mail.ru](https://postmaster.mail.ru/amp) documentation destinée aux développeurs.
 
 En particulier, les prérequis suivants doivent être remplis :
-* Respectez les exigences de sécurité AMP spécifiques à [Gmail](https://developers.google.com/gmail/ampemail/security-requirements), [Outlook](https://docs.microsoft.com/fr-fr/outlook/amphtml/security-requirements) et [Mail.ru](https://postmaster.mail.ru/amp/?lang=en#howto).
+* Respectez les exigences de sécurité AMP spécifiques à [Gmail](https://developers.google.com/gmail/ampemail/security-requirements), [Outlook](https://docs.microsoft.com/fr-fr/outlook/amphtml/security-requirements), et [Mail.ru](https://postmaster.mail.ru/amp/?lang=en#howto).
 * La partie MIME AMP doit contenir un [document AMP valide](https://amp.dev/fr/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email).
 * La partie MIME AMP doit être inférieure à 100 Ko.
 

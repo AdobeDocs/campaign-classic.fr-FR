@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
+source-git-commit: 6c23dadb5b6523e17e242de43a908ca86ed7cc23
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 100%
+source-wordcount: '1223'
+ht-degree: 98%
 
 ---
 
@@ -28,6 +28,8 @@ Les packages standard contiennent un ensemble de fonctionnalités qui peuvent ê
 >L&#39;installation d&#39;un nouveau package peut avoir un impact sur toute votre plateforme : il doit être testé et validé avant le déploiement final.
 >
 >Une fois un package installé, vous ne pouvez pas le désinstaller.
+>
+>En tant que client hébergé ou hybride, contactez Adobe pour déployer un nouveau package intégré.
 
 Pour installer un package natif :
 

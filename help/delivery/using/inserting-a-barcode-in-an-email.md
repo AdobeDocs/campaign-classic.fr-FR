@@ -5,15 +5,15 @@ description: Insérer un code-barres dans un email
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 
-# Insérer un code-barres dans un email{#inserting-a-barcode-in-an-email}
+# Insérer un code-barres dans un email{#insert-a-barcode-in-an-email}
 
 ![](../../assets/common.svg)
 

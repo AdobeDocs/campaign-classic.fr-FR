@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Définir le contenu du courrier
-description: Définir le contenu du courrier
+title: Définissez le contenu du courrier
+description: Définissez le contenu du courrier
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
 
 ---
 
-# Définir le contenu du courrier{#defining-the-direct-mail-content}
+# Définissez le contenu du courrier{#defining-the-direct-mail-content}
 
 ![](../../assets/common.svg)
 

@@ -5,18 +5,18 @@ description: Découvrez comment configurer l’intégration Campaign-AEM
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 6c23dadb5b6523e17e242de43a908ca86ed7cc23
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '609'
+ht-degree: 96%
 
 ---
 
-# Configuration de l&#39;intégration{#configuring-the-integration}
+# Configuration de l’intégration Campaign-AEM{#configuring-the-integration}
 
 ![](../../assets/common.svg)
 
-## Configuration dans Adobe Campaign {#configuring-in-adobe-campaign}
+## Étapes de configuration dans Adobe Campaign {#configuring-in-adobe-campaign}
 
 Afin de pouvoir utiliser conjointement ces deux solutions, vous devez les paramétrer pour les connecter l&#39;une à l&#39;autre.
 
@@ -111,7 +111,7 @@ Pour vérifier si l&#39;option **[!UICONTROL AEMResourceTypeFilter]** est config
 
    ![](assets/aem_config_5.png)
 
-## Configuration dans Adobe Experience Manager {#configuring-in-adobe-experience-manager}
+## Étapes de configuration dans Adobe Experience Manager {#configuring-in-adobe-experience-manager}
 
 Suivez les étapes ci-dessous pour commencer la configuration dans Adobe Experience Manager :
 
