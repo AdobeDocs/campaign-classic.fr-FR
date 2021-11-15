@@ -56,7 +56,7 @@ En fonction du calendrier de l&#39;incident, voici les instructions recommandée
    * **Mise à jour du statut (@lastModified)** le ou après le 26/04/2021 à 07:00:00
    * **Mise à jour du statut (@lastModified)** le ou avant le 26/04/2021 à 13:00:00
 
-Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l&#39;état **[!UICONTROL Valide]** afin qu&#39;ils soient supprimés de la liste de quarantaine par le processus de nettoyage de la base de données ****, soit simplement les supprimer de la table.
+Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l&#39;état **[!UICONTROL Valide]** afin qu&#39;ils soient supprimés de la liste de quarantaine par le processus de **[!UICONTROL nettoyage de la base de données]**, soit simplement les supprimer de la table.
 
 **Rubriques connexes :**
 * [Présentation des diffusions en échec](understanding-delivery-failures.md)
