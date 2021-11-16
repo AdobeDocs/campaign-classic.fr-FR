@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Insérer une image dynamique
-description: Insérer une image dynamique
+title: Insertion d’une image dynamique
+description: Insertion d’une image dynamique
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b6e24c63ece12f25b7dafe3fede9e38b3aab2427
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 100%
+source-wordcount: '881'
+ht-degree: 88%
 
 ---
 
@@ -17,27 +17,27 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Dans ce guide, nous allons décrire comment intégrer une offre dynamique provenant de Target dans un email créé préalablement dans Adobe Campaign.
+Dans cette page, découvrez comment intégrer une offre dynamique d’Adobe Target dans un email d’Adobe Campaign.
 
-Nous souhaitons créer une diffusion contenant un bloc d&#39;image qui change dynamiquement en fonction du pays du destinataire. Les données sont envoyées avec chaque demande de mbox et dépendent de l’adresse IP du visiteur.
+L&#39;objectif est de créer une diffusion avec un bloc d&#39;image qui change dynamiquement en fonction du pays du destinataire : les données sont envoyées avec chaque requête de mbox et dépendent de l’adresse IP du destinataire.
 
-Dans cet e-mail, nous souhaitons que les images changent dynamiquement en fonction des expériences utilisateur suivantes :
+Dans ce message, les images peuvent varier dynamiquement en fonction des expériences utilisateur suivantes :
 
 * L&#39;e-mail est ouvert en France.
 * L&#39;e-mail est ouvert aux États-Unis.
-* Si aucune de ces conditions n’est remplie, une image par défaut s’affiche.
+* Si aucune de ces conditions n&#39;est remplie, une image par défaut s&#39;affiche.
 
 ![](assets/target_4.png)
 
-Pour ce faire, nous devons suivre les étapes suivantes dans Adobe Campaign et Target :
+Pour ce faire, les étapes sont les suivantes :
 
-1. [Insérer l’offre dynamique dans un email](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
-1. [Créer des offres de redirection](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
-1. [Création d&#39;une audience](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
-1. [Créer une activité de ciblage d’expérience](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
-1. [Prévisualiser et envoyer l’email](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
+1. [Insertion de l&#39;offre dynamique dans un e-mail](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
+1. [Création d&#39;offres de redirection](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
+1. [Création d&#39;audiences](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
+1. [Création d&#39;une activité de ciblage d&#39;expérience](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
+1. [Prévisualiser et envoyer l&#39;email](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
-## Insérer l’offre dynamique dans un email {#inserting-dynamic-offer}
+## Insertion de l&#39;offre dynamique dans un e-mail {#inserting-dynamic-offer}
 
 Dans Adobe Campaign, une fois que vous avez défini la cible et le contenu de votre email, vous pouvez insérer une image dynamique provenant de Target.
 
@@ -53,7 +53,7 @@ Dans Adobe Campaign, vous pouvez insérer une image dynamique de Target dans un
 
    ![](assets/target_12.png)
 
-### Définir les paramètres de l’image {#defining-image-parameters}
+### Définition des paramètres d’image {#defining-image-parameters}
 
 * L’**[!UICONTROL URL de l’image par défaut]** : il s’agit de l’image affichée si aucune des conditions n’est remplie. Vous pouvez également sélectionner une image dans votre bibliothèque Assets.
 * L’**[!UICONTROL Emplacement Target]** : saisissez le nom de l’emplacement de votre offre dynamique. Vous devrez sélectionner cet emplacement dans votre activité Target.
@@ -64,7 +64,7 @@ Si vous utilisez les permissions d&#39;Enterprise pour les paramètres d&#39;Ado
 
 ![](assets/target_13.png)
 
-## Créer des offres de redirection {#create-redirect-offers}
+## Création d&#39;offres de redirection {#create-redirect-offers}
 
 Avec Target, vous pouvez créer différentes versions de votre offre. Selon chaque expérience utilisateur, vous pouvez créer une offre de redirection et spécifier l&#39;image qui sera affichée.
 
@@ -82,7 +82,7 @@ Dans notre cas, nous avons besoin de deux offres de redirection, la troisième (
 
 1. Suivez la même procédure pour l&#39;offre de redirection restante. Voir à ce propos [cette page](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=fr).
 
-## Création d&#39;une audience {#audiences-target}
+## Création d&#39;audiences {#audiences-target}
 
 Avec Target, vous devez créer les deux audiences dans lesquelles les visiteurs de votre offre seront classés selon les différents contenus à diffuser. Pour chaque audience, ajoutez une règle pour définir qui pourra visualiser l’offre.
 
@@ -98,11 +98,11 @@ Avec Target, vous devez créer les deux audiences dans lesquelles les visiteurs 
 
 1. Suivez la même procédure pour les audiences restantes.
 
-## Créer une activité de ciblage d’expérience {#creating-targeting-activity}
+## Création d&#39;une activité de ciblage d&#39;expérience {#creating-targeting-activity}
 
 Dans Target, nous devons créer une activité de ciblage d’expérience, définir les différentes expériences et les associer aux offres correspondantes.
 
-### Définir l’audience {#defining-the-audience}
+### Définition de l’audience {#defining-the-audience}
 
 1. Pour créer une activité de ciblage d&#39;expérience, dans l&#39;onglet **[!UICONTROL Activités]**, cliquez sur **[!UICONTROL Créer une activité]**, puis sur **[!UICONTROL Ciblage d&#39;expérience]**.
 
@@ -120,7 +120,7 @@ Dans Target, nous devons créer une activité de ciblage d’expérience, défin
 
 1. Créez une autre expérience en cliquant sur **[!UICONTROL Ajouter le ciblage d&#39;expérience]**.
 
-### Définir l’emplacement et le contenu {#defining-location-content}
+### Définition de l’emplacement et du contenu {#defining-location-content}
 
 Ajoutez un contenu pour chaque audience :
 
@@ -138,7 +138,7 @@ Ajoutez un contenu pour chaque audience :
 
 1. Suivez la même procédure pour la deuxième expérience.
 
-### Définir l’activité {#defining-activity}
+### Définition de l’activité {#defining-activity}
 
 La fenêtre **[!UICONTROL Target]** résume votre activité. Au besoin, vous pouvez ajouter d&#39;autres expériences.
 
@@ -150,7 +150,7 @@ La section **[!UICONTROL Paramètres de création de rapports]** permet de séle
 
 ![](assets/target_experience_2.png)
 
-## Prévisualiser et envoyer l’email dans Campaign Classic {#preview-send-email}
+## Prévisualiser et envoyer l&#39;email {#preview-send-email}
 
 Dans Adobe Campaign, vous pouvez désormais prévisualiser votre e-mail et en tester le rendu pour différents destinataires. Vous pouvez constater que l&#39;image change selon les différentes expériences créées. Pour en savoir plus sur la création d’un email, consultez cette [page](../../delivery/using/defining-the-email-content.md).
 
