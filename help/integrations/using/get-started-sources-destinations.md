@@ -5,14 +5,14 @@ description: En savoir plus sur les sources et les destinations d’Adobe Experi
 audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 98%
 
 ---
 
-# Prise en main des sources et des destinations {#rtcdp}
+# Utilisation des sources et des destinations {#rtcdp}
 
 ![](../../assets/common.svg)
 

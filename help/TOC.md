@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
+source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 100%
+source-wordcount: '2565'
+ht-degree: 99%
 
 ---
 
@@ -373,11 +373,11 @@ ht-degree: 100%
       + [Configuration de l’accès à [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
       + [Insertion d’une ressource partagée](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [À propos de [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
+      + [Utilisation de [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuration de l’intégration](integrations/using/configuring-the-integration.md)
       + [Création d’une [!DNL Experience Manager] newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [Intégration à [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+      + [Utilisation de [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuration de l’intégration avec [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [Insertion d’une image dynamique](integrations/using/inserting-a-dynamic-image.md)
    + ACS Connector {#acs-connector}
@@ -387,14 +387,14 @@ ht-degree: 100%
       + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
       + [Résolution des problèmes du [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
    + Triggers Adobe Experience Cloud {#experience-triggers}
-      + [Prise en main d’ [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [Utilisation de [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
       + [Configuration d’Adobe I/O pour [!DNL Experience Cloud Triggers]](integrations/using/configuring-adobe-io.md)
       + [Configuration d’événements pour une implémentation personnalisée](integrations/using/events.md)
       + [Surveillance du pipeline](integrations/using/pipeline-monitoring.md)
       + [Dépannage du pipeline](integrations/using/pipeline-troubleshooting.md)
    + Sources et destinations Adobe Experience Platform {#aep-sources-destinations}
-      + [Prise en main des sources et des destinations](integrations/using/get-started-sources-destinations.md)
+      + [Utilisation des sources et des destinations](integrations/using/get-started-sources-destinations.md)
       + [Ingérer des audiences Adobe Experience Platform dans Campaign](integrations/using/ingest-aep-data.md)
       + [Exporter des données de Campaign vers Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automatisation à l’aide de workflows {#automating-with-workflows}
