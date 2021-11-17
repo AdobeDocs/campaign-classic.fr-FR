@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8e6ebec9af0b7865616cf3904c8d400094567bdb
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,10 @@ Une activité de type **[!UICONTROL Code SQL]** exécute un script SQL. Le scrip
 
 ## Code JavaScript et code JavaScript avancé {#javascript-code}
 
-Les activités **[!UICONTROL code JavaScript]** et **[!UICONTROL code JavaScript avancé]** exécutent un script JavaScript dans le cadre d’un workflow. Pour plus d’informations sur les scripts, voir la section [Scripts/Templates JavaScript](javascript-scripts-and-templates.md).
+Les activités **[!UICONTROL code JavaScript]** et **[!UICONTROL code JavaScript avancé]** exécutent un script JavaScript dans le cadre d’un workflow. Pour plus d’informations sur les scripts, reportez-vous aux sections suivantes :
+
+* [Scripts/Templates JavaScript](javascript-scripts-and-templates.md)
+* [Exemples de code JavaScript dans les workflows](javascript-in-workflows.md)
 
 ### Délai d‘exécution {#exec-delay}
 

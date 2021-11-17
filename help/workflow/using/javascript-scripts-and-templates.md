@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 8e6ebec9af0b7865616cf3904c8d400094567bdb
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 100%
+source-wordcount: '1263'
+ht-degree: 99%
 
 ---
 
@@ -196,3 +196,6 @@ Vous pouvez modifier une propriété d&#39;une activité au moment de l&#39;exé
 La plupart des propriétés des activités peuvent être calculées dynamiquement, soit en utilisant un template JavaScript, soit parce que les propriétés du workflow permettent explicitement de calculer la valeur par un script.
 
 Néanmoins, pour d&#39;autres propriétés, vous devez utiliser le script d&#39;initialisation. Ce script est évalué avant d&#39;exécuter la tâche. La variable **[!UICONTROL activity]** référence l&#39;activité correspondant à la tâche. Les propriétés de cette activité peuvent être modifiées et n&#39;affecteront que cette tâche.
+
+**Rubriques connexes**
+[Exemples de code JavaScript dans les workflows](javascript-in-workflows.md)
