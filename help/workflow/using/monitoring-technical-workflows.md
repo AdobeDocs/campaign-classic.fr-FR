@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -93,7 +93,7 @@ Le fait de sauvegarder les workflows dans des dossiers nommés en fonction de le
 
 L&#39;automatisation de la surveillance permet d&#39;économiser des ressources et garantit la planification des tâches à un intervalle adapté.
 
-Il est possible de construire un workflow de surveillance qui enverra un email à chaque fois qu&#39;une tâche précise tombe en erreur ou qu&#39;une table critique devient trop volumineuse.
+Vous pouvez créer un workflow de surveillance pour envoyer un email en cas d&#39;échec de certaines tâches ou lorsqu&#39;une table critique devient trop volumineuse.
 
 Il est possible de créer une vue permettant de surveiller tous les workflows d&#39;une même zone fonctionnelle ou d&#39;un même système.
 

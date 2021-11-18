@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 100%
+ht-degree: 58%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-En complément du tracking standard, assurant le suivi du comportement d&#39;un internaute lorsqu&#39;il clique sur un lien dans un email, la plateforme Adobe Campaign offre la possibilité de collecter des informations sur la navigation des internautes sur votre site web. Cette collecte est assurée par le module de webtracking.
+Outre le suivi standard qui montre le comportement d&#39;un internaute qui clique sur un lien dans un email, la plateforme Adobe Campaign permet de collecter des informations sur la navigation des internautes sur votre site web. Cette collecte de données est réalisée par le module de tracking web.
 
-Lorsqu&#39;un internaute clique sur un lien tracké dans un email d&#39;une diffusion donnée, le serveur de redirection contacté pose un cookie de session contenant l&#39;identifiant du broadlog (broadlogId) et l&#39;identifiant de la diffusion (deliveryId).
+Lorsqu&#39;un internaute clique sur un lien tracké dans un email provenant d&#39;une diffusion donnée, le serveur de redirection contacté dépose un cookie de session contenant l&#39;identifiant du broadlog (broadlogId) et l&#39;identifiant de la diffusion (deliveryId).
 
 Le client Web transmettra alors ce cookie au serveur à chaque fois qu&#39;il visitera une page contenant une balise de tracking Web, ceci pendant toute la durée de la session, c&#39;est-à-dire jusqu&#39;à ce que le client Web soit fermé.
 

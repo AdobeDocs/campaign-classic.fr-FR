@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -49,4 +49,4 @@ Afin de consulter les informations de tracking depuis votre console cliente, vou
 * créer une **diffusion factice**, dite &#39;diffusion balai&#39; (le mapping de la diffusion doit être identique au mapping du schéma cible),
 * renseigner le **nom interne** de cette diffusion dans l&#39;option **NmsTracking_WebTrackingDelivery**.
 
-Toutes les informations de tracking de site qui ne font pas directement suite à un clic dans un email seront consultables au niveau de la diffusion factice créée.
+Toutes les informations de suivi de site qui ne font pas directement suite à un clic dans un email peuvent être visualisées dans la diffusion factice créée.

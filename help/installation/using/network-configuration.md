@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -37,7 +37,7 @@ Pour le serveur de diffusion (**nlserver mta**), les ports suivants doivent êtr
   <tr> 
    <td> 25/tcp (smtp)<br /> </td> 
    <td> N'importe où<br /> </td> 
-   <td> Trafic SMTP pour la diffusion d'emails.<br /> </td> 
+   <td> Trafic SMTP pour la diffusion des emails.<br /> </td> 
   </tr> 
   <tr> 
    <td> 53/udp (domain)<br /> </td> 
@@ -175,7 +175,7 @@ Les ports par défaut sont les suivants :
 
 ## Accès depuis l&#39;extérieur {#external-access}
 
-De plus, certains composants doivent être accessibles depuis l&#39;Internet public pour les campagnes d&#39;e-mailing exécutées directement par la plateforme Adobe Campaign. Pour cela, certains ports doivent être ouverts pour ces composants.
+En outre, certains composants doivent être accessibles depuis l’Internet public afin que les campagnes email exécutées directement depuis Adobe Campaign puissent être visualisées. Cela signifie que certains ports doivent être ouverts pour les composants.
 
 ### Serveur de redirection {#redirection-server}
 
@@ -247,7 +247,7 @@ L&#39;intégration entre Adobe Campaign et Adobe Experience Manager nécessite l
 
 ## Bande passante {#bandwidth}
 
-Autre paramètre-clé de la configuration réseau à prendre en compte : la bande passante. Elle est presque toujours sortante et très sollicitée pendant les diffusions d&#39;emails. Voici quelques exemples de configurations reposant sur notre expérience :
+Un autre paramètre clé de la configuration réseau à prendre en compte. Il est presque toujours sortant et très demandé lors des diffusions email. Voici quelques exemples de configurations basées sur notre expérience :
 
 * 1 Mb/s pour 10 000 emails par heure (taille moyenne de 30 Ko)
 * 8 à 10 Mb/s pour 100 000 emails par heure (taille moyenne de 30 Ko)

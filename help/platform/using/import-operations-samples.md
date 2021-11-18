@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -177,7 +177,7 @@ Les étapes sont les suivantes :
    * Conservez l&#39;option **[!UICONTROL Gestions des duplicatas]** en mode **[!UICONTROL Mise à jour]**, pour que les enregistrements existants dans la base soient modifiés avec les données du fichier texte.
    * Positionnez-vous sur le noeud **[!UICONTROL Nom (@lastName)]** et sélectionnez l&#39;option **[!UICONTROL Mettre à jour uniquement si la destination est vide]**.
    * Recommencez l&#39;opération pour le noeud **[!UICONTROL Société (@company)]**.
-   * Attribuez une clé de réconciliation aux champs **[!UICONTROL Date de naissance]**, **[!UICONTROL Email]** et **[!UICONTROL Prénom]**.
+   * Attribuer une clé de réconciliation aux champs **[!UICONTROL Date de naissance]**, **[!UICONTROL Email]** et **[!UICONTROL Prénom]**.
 
       ![](assets/s_ncs_user_import_example04_03.png)
 
@@ -225,7 +225,7 @@ Dans cet exemple, vous noterez que certains champs de votre fichier texte ont un
    * Choisissez l&#39;option **[!UICONTROL Rejeter l&#39;entité]** pour le champ **[!UICONTROL Gestion des doublons]**.
    * Laissez l&#39;option **[!UICONTROL Gestions des duplicatas]** en mode **[!UICONTROL Mise à jour]**, pour que les enregistrements existants dans la base soient modifiés avec les données du fichier texte.
    * Positionnez-vous sur le noeud **[!UICONTROL N° de compte (@account)]** et sélectionnez l&#39;option **[!UICONTROL Tenir compte des valeurs vides]**.
-   * Sélectionnez les champs **[!UICONTROL Date de naissance]**, **[!UICONTROL Email]** et **[!UICONTROL Prénom]** et attribuez-leur une clé de réconciliation.
+   * Sélection des champs **[!UICONTROL Date de naissance]**, **[!UICONTROL Email]** et **[!UICONTROL Prénom]** et leur attribuer une clé de réconciliation.
 
       ![](assets/s_ncs_user_import_example04_04.png)
 

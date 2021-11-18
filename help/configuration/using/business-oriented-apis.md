@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 99%
+ht-degree: 94%
 
 ---
 
@@ -71,7 +71,7 @@ Cet appel ne retourne pas de données, hormis les erreurs.
 
 ### Exemples      {#examples}
 
-Abonnement avec clé de réconciliation du destinataire sur l&#39;email : le document XML en entrée doit référencer l&#39;email et la définition de la clé sur ce champ.
+Abonnement avec clé de réconciliation du destinataire sur l&#39;adresse email : le document XML en entrée doit référencer l’adresse email et la définition de la clé sur ce champ.
 
 ```
 <recipient _key="email" email= "john.doe@adobe.com"/>

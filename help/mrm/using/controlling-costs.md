@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '2539'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -337,7 +337,7 @@ Lorsque la validation est activée, un lien spécifique permet de valider le bud
 
 ![](assets/s_user_cost_mgmt_sample_19.png)
 
-Vous pouvez alors cliquer sur le lien pour valider ou refuser la validation, ou utiliser le lien contenu dans le mail de notification, si la notification a été activée pour cette opération.
+Vous pouvez ensuite cliquer sur le lien pour valider ou refuser la validation, ou utiliser le lien contenu dans l&#39;email de notification si la notification a été activée pour cette opération.
 
 Une fois le budget validé, et la diffusion terminée, les coûts sont remontés automatiquement via un workflow technique spécifique.
 

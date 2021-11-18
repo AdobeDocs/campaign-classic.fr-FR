@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ Pour plus d&#39;informations, reportez-vous à la section [Valider un fichier d&
 
 **Etape 2 - Valider le message au prestataire**
 
-* Une fois la validation du fichier d&#39;extraction acceptée, vous pouvez générer le BAT de l&#39;email de notification au routeur. Cet email est construit via un modèle de diffusion. Il doit être validé.
+* Une fois le fichier d&#39;extraction validé, vous pouvez générer le BAT de l&#39;email de notification au routeur. Ce message email est construit à partir d&#39;un modèle de diffusion. Il doit être approuvé.
 
    >[!NOTE]
    >

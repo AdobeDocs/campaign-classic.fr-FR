@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ Les étapes sont les suivantes :
    ![](assets/s_ncs_user_filter_parameters.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour ajouter le filtre aux filtres prédéfinis pour ce type de liste.
-1. Vous pouvez désormais utiliser ce filtre dans l&#39;onglet **[!UICONTROL Abonnements]** du profil d&#39;un destinataire, le filtre &quot;Format des emails inconnu&quot; est accessible depuis le bouton **[!UICONTROL Filtres]**.
+1. Vous pouvez désormais utiliser ce filtre dans la variable **[!UICONTROL Abonnements]** onglet du profil du destinataire ; vous pouvez accéder au filtre &quot;Format d’email inconnu&quot; en cliquant sur le bouton **[!UICONTROL Filtres]** bouton .
 
    ![](assets/s_ncs_user_filter_on_events.png)
 

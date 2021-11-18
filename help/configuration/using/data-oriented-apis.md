@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '1885'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -165,7 +165,7 @@ Récupère le nom et le prénom d&#39;un destinataire (schéma &quot;nms:recipie
 
 #### Exemple avec l&#39;operation &#39;select&#39; {#example-with-the--select--operation}
 
-Retourne la liste des destinataires filtrés sur un dossier et le domaine de l&#39;email avec un tri descendant sur la date de naissance.
+Renvoie la liste des destinataires filtrés sur un dossier et le domaine de l&#39;email avec un tri descendant sur la date de naissance.
 
 ```
 <queryDef schema="nms:recipient" operation="select">
@@ -212,7 +212,7 @@ Pour compter le nombre d&#39;enregistrements sur une requête :
 
 ```
 <queryDef schema="nms:recipient" operation="count"">
-  <!-- condition on the folder and domain of the e-mail -->
+  <!-- condition on the folder and domain of the email -->
   <where>  
     <condition expr="[@folder-id] = 1234" and @domain like 'Adobe%'"/>
   </where>
@@ -225,7 +225,7 @@ Pour compter le nombre d&#39;enregistrements sur une requête :
 
 #### Groupement de données {#data-grouping}
 
-Pour récupérer les adresses email référencées plus d&#39;une fois :
+Pour récupérer les adresses email référencées plusieurs fois :
 
 ```
 <queryDef schema="nms:recipient" operation="select">
@@ -234,7 +234,7 @@ Pour récupérer les adresses email référencées plus d&#39;une fois :
     <node expr="count(@email)"/>
   </select>
 
-  <!-- e-mail grouping clause -->
+  <!-- email grouping clause -->
   <groupby>
     <node expr="@email"/>
   </groupby>
@@ -348,7 +348,7 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
 
    Les éléments de filtrage ( `<orderby>` ) et de restriction ( `<where>` ) peuvent être ajoutés à l’élément de collection.
 
-   Dans cet exemple, la requête retourne pour chaque destinataire, son email et la liste des services d&#39;information auxquels il est abonné :
+   Dans cet exemple, pour chaque destinataire, la requête renvoie l&#39;email et la liste des services d&#39;information auxquels il est abonné :
 
    ```
    <queryDef schema="nms:recipient" operation="select">
@@ -551,7 +551,7 @@ Il est possible de forcer le type d&#39;opération en renseignant l&#39;attribut
 
 ### Exemple avec la méthode &#39;Write&#39; {#example-with-the--write--method}
 
-Mise à jour ou insertion d&#39;un destinataire (opération &quot;insertOrUpdate&quot; implicite) avec son email, sa date de naissance et sa ville :
+Mise à jour ou insertion d&#39;un destinataire (opération &quot;insertOrUpdate&quot; implicite) avec son adresse email, sa date de naissance et sa ville :
 
 ```
 <recipient xtkschema="nms:recipient" email="john.doe@adobe.com" birthDate="1956/05/04" folder-id=1203 _key="@email, [@folder-id]">
@@ -595,7 +595,7 @@ Associer le dossier sur un destinataire à partir de son nom interne (@name).
 
 Les attributs &quot;_key&quot; et &quot;_operation&quot; peuvent être renseignés sur un élément lié, le comportement sur cet élément est le même que sur l&#39;élément principal du schéma de départ.
 
-La définition de la clé de l’entité principale (&quot;nms:recipient&quot;) est composée d’un champ provenant d’une table liée (élément `<folder>` du schéma &quot;xtk:folder&quot;) et de l’email.
+La définition de la clé de l&#39;entité principale (&quot;nms:recipient&quot;) est composée d&#39;un champ provenant d&#39;une table liée (élément `<folder>`  schéma &quot;xtk:folder&quot;) et l&#39;email.
 
 >[!NOTE]
 >

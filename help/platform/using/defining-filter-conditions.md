@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '3394'
 ht-degree: 100%
@@ -944,7 +944,7 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
-   <td> Extrait le domaine d'une adresse email<br /> </td> 
+   <td> Extrait le domaine d'une adresse e-mail<br /> </td> 
    <td> GetEmailDomain(&lt;valeur&gt;)<br /> </td>  
   </tr> 
   <tr> 
