@@ -64,9 +64,9 @@ L&#39;onglet **[!UICONTROL Cible des BAT]** permet de définir la page Facebook 
 
 ## Définir l’audience {#defining-the-audience}
 
-Si vous souhaitez utiliser des segments locaux afin d&#39;affiner le type de public qui sera autorisé à visualiser la publication, nous vous conseillons de créer une page Facebook par segment (par exemple : Adobe Campaign Paris, Adobe Campaign London, etc.).
+Si vous souhaitez utiliser des segments locaux afin d&#39;affiner le type de public qui sera autorisé à visualiser la publication, nous vous conseillons de créer une page Facebook par segment (par exemple : Adobe Campaign Paris, Adobe Campaign London, etc.).
 
-Il est cependant aussi possible d&#39;utiliser les filtres d&#39;audience utilisés par Facebook. L&#39;onglet **[!UICONTROL Audience]** de la fenêtre **[!UICONTROL Choix de la cible]** vous propose quatre filtres :
+Il est cependant aussi possible d&#39;utiliser les filtres d&#39;audience utilisés par Facebook. L&#39;onglet **[!UICONTROL Audience]** de la fenêtre **[!UICONTROL Choix de la cible]** vous propose quatre filtres :
 
 * **[!UICONTROL Country]**
 * **[!UICONTROL Régions]**
@@ -85,7 +85,7 @@ Sélectionnez le type de publication à l&#39;aide du menu déroulant **[!UICONT
 
 ![](assets/social_facebook_delivery_006.png)
 
-Les types de diffusion suivants sont proposés :
+Les types de diffusion suivants sont proposés :
 
 * un **[!UICONTROL Statut]**
 * un **[!UICONTROL Statut avec un lien]**
@@ -94,7 +94,7 @@ Les types de diffusion suivants sont proposés :
 
 ### Publier un statut {#publishing-a-status}
 
-Une diffusion de type statut contient uniquement du texte, comme dans l&#39;exemple ci-dessous :
+Une diffusion de type statut contient uniquement du texte, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/social_create_facebook_wall_post_004.png)
 
@@ -104,11 +104,11 @@ Saisissez le statut de la publication dans la zone de saisie.
 
 ### Publier un statut avec un lien {#publishing-a-status-with-a-link}
 
-Une diffusion de type statut avec un lien peut contenir du texte, une image et un lien. Les correspondances entre les champs de l&#39;écran d&#39;édition de la diffusion et la publication finale sur Facebook sont présentées ci-dessous :
+Une diffusion de type statut avec un lien peut contenir du texte, une image et un lien. Les correspondances entre les champs de l&#39;écran d&#39;édition de la diffusion et la publication finale sur Facebook sont présentées ci-dessous :
 
 ![](assets/social_facebook_delivery_007.png)
 
-Renseignez les différents champs proposés :
+Renseignez les différents champs proposés :
 
 >[!IMPORTANT]
 >
@@ -120,13 +120,13 @@ Renseignez les différents champs proposés :
 
    >[!NOTE]
    >
-   >Si vous souhaitez ajouter, dans le champ **[!UICONTROL Lien]**, l&#39;url d&#39;une application Facebook afin de la promouvoir, nous vous recommandons de la configurer pour qu&#39;elle s&#39;adapte à un affichage smartphone :
+   >Si vous souhaitez ajouter, dans le champ **[!UICONTROL Lien]**, l&#39;url d&#39;une application Facebook afin de la promouvoir, nous vous recommandons de la configurer pour qu&#39;elle s&#39;adapte à un affichage smartphone :
    >
    >1. Sélectionnez l&#39;application Facebook [https://developers.facebook.com/apps](https://developers.facebook.com/apps), puis l&#39;onglet **[!UICONTROL Paramètres > Général]**.
    >1. Renseignez le champ **[!UICONTROL Espace de noms]**.
-   >1. Renseignez le champ **[!UICONTROL URL du site mobile]** : lorsqu&#39;un utilisateur cliquera sur le lien de la publication depuis un smartphone, il sera automatiquement redirigé par Facebook sur l&#39;url définie dans ce champ.
+   >1. Renseignez le champ **[!UICONTROL URL du site mobile]** : lorsqu&#39;un utilisateur cliquera sur le lien de la publication depuis un smartphone, il sera automatiquement redirigé par Facebook sur l&#39;url définie dans ce champ.
    >1. Construisez votre application web de manière à personnaliser l&#39;affichage de l&#39;application Facebook en fonction de l&#39;appareil utilisé (smartphone ou PC).
-   >1. Dans le champ **[!UICONTROL Lien]** de la publication depuis la console Adobe Campaign, saisissez l&#39;url du champ **[!UICONTROL Page Canevas]**.
+   >1. Dans le champ **[!UICONTROL Lien]** de la publication depuis la console Adobe Campaign, saisissez l&#39;url du champ **[!UICONTROL Page Canevas]**.
 
 
 1. Dans le champ **[!UICONTROL Image]**, saisissez l&#39;URL de l&#39;image qui apparaîtra sur le côté gauche de la publication.
@@ -142,11 +142,11 @@ Renseignez les différents champs proposés :
 
 ### Publier un statut avec un lien YouTube {#publishing-a-status-with-a-youtube-link}
 
-Ce type de contenu permet de publier un lien vers une vidéo YouTube. Comme pour un statut avec un lien classique, vous avez la possibilité de définir un statut, un nom, une légende, une description, et un lien additionnel. L&#39;image est automatiquement ajoutée par Facebook. Les correspondances entre les champs de l&#39;écran d&#39;édition de la diffusion et la publication finale sur Facebook sont présentées ci-dessous :
+Ce type de contenu permet de publier un lien vers une vidéo YouTube. Comme pour un statut avec un lien classique, vous avez la possibilité de définir un statut, un nom, une légende, une description, et un lien additionnel. L&#39;image est automatiquement ajoutée par Facebook. Les correspondances entre les champs de l&#39;écran d&#39;édition de la diffusion et la publication finale sur Facebook sont présentées ci-dessous :
 
 ![](assets/social_facebook_delivery_youtube_1.png)
 
-Renseignez les différents champs proposés :
+Renseignez les différents champs proposés :
 
 >[!IMPORTANT]
 >
@@ -162,11 +162,11 @@ Renseignez les différents champs proposés :
 
 ### Publier un album photo {#publishing-a-photo-album}
 
-Ce type de contenu permet de publier un album photo. Vous avez la possibilité d&#39;ajouter un nom et une description pour l&#39;album ainsi qu&#39;une légende pour chaque photo. Les correspondances entre les champs de l&#39;écran d&#39;édition de la diffusion et la publication finale sur Facebook sont présentées ci-dessous :
+Ce type de contenu permet de publier un album photo. Vous avez la possibilité d&#39;ajouter un nom et une description pour l&#39;album ainsi qu&#39;une légende pour chaque photo. Les correspondances entre les champs de l&#39;écran d&#39;édition de la diffusion et la publication finale sur Facebook sont présentées ci-dessous :
 
 ![](assets/social_facebook_delivery_photos_1.png)
 
-Renseignez les différents champs proposés :
+Renseignez les différents champs proposés :
 
 1. Saisissez tout d&#39;abord le **[!UICONTROL Nom de l&#39;album]**.
 1. Saisissez ensuite la **[!UICONTROL Description]** qui apparaîtra au-dessus des photos.
@@ -194,7 +194,7 @@ L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le rendu de la public
 
 Le tracking est visualisable dans les rapports de diffusion et dans l&#39;onglet **[!UICONTROL Edition > Tracking]** de la diffusion et du service.
 
-Les clics sur l&#39;URL contenue dans la diffusion sont mesurés par Adobe Campaign. Le nombre de clics sur le bouton **[!UICONTROL J&#39;aime]**, le nombre de commentaires et le nombre de fans sont mesurés par Facebook.
+Les clics sur l&#39;URL contenue dans la diffusion sont mesurés par Adobe Campaign. Le nombre de clics sur le bouton **[!UICONTROL J&#39;aime]**, le nombre de commentaires et le nombre de fans sont mesurés par Facebook.
 
 La configuration du tracking s’effectue de la même manière que pour une diffusion email. Voir à ce sujet [cette section](../../delivery/using/about-delivery-monitoring.md).
 

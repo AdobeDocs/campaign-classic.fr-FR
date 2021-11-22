@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-* La procédure de migration est réservée à un utilisateur expert. Vous devez être assisté, au minimum, d&#39;un expert en base de données, d&#39;un administrateur système et d&#39;un développeur applicatif Adobe Campaign.
+* La procédure de migration est réservée à un utilisateur expert. Vous devez être assisté, au minimum, d&#39;un expert en base de données, d&#39;un administrateur système et d&#39;un développeur applicatif Adobe Campaign.
 * Avant de démarrer la migration, vérifiez que les systèmes et composants que vous utilisez sont bien compatibles avec la v7. Consultez la [matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 * Si vous utilisez le Cloud Messaging (anciennement mid-sourcing), contactez-nous avant d’initier toute procédure de migration.
 * Avant toute migration, vous devez **impérativement** effectuer une sauvegarde de vos données.

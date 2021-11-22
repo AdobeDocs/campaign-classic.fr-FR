@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Les workflows de **[!UICONTROL Gestion des réseaux sociaux]**, disponibles à partir du noeud **[!UICONTROL Administration > Exploitation > Workflows techniques > Gestion des réseaux sociaux]** permettent de synchroniser Adobe Campaign avec Twitter et Facebook.
+Les workflows de **[!UICONTROL Gestion des réseaux sociaux]**, disponibles à partir du noeud **[!UICONTROL Administration > Exploitation > Workflows techniques > Gestion des réseaux sociaux]** permettent de synchroniser Adobe Campaign avec Twitter et Facebook.
 
 A la première utilisation de Social Marketing, ces workflows sont arrêtés par défaut. Démarrez-les à l&#39;aide du bouton **[!UICONTROL Démarrer]** situé dans la barre d&#39;outils.
 

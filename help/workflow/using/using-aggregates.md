@@ -30,7 +30,7 @@ Pour parvenir à effectuer un filtre du type **Date de création = max (Date de 
 
 ![](assets/datamanagement_usecase_1.png)
 
-## Etape 1 : calculer le résultat de l&#39;agrégat {#step-1--calculating-the-aggregate-result}
+## Etape 1 : calculer le résultat de l&#39;agrégat {#step-1--calculating-the-aggregate-result}
 
 1. Créez une requête. Ici, le but est de calculer la dernière date de création connue parmi la totalité des destinataires de la base. La requête ne contient donc pas de filtre.
 1. Sélectionnez **[!UICONTROL Ajouter des données]**.
@@ -45,7 +45,7 @@ Pour parvenir à effectuer un filtre du type **Date de création = max (Date de 
 
    Laissez l&#39;option **[!UICONTROL Supprimer les doublons (DISTINCT)]** cochée.
 
-## Etape 2 : lier les destinataires et le résultat de la fonction d&#39;agrégation {#step-2--linking-the-recipients-and-the-aggregation-function-result}
+## Etape 2 : lier les destinataires et le résultat de la fonction d&#39;agrégation {#step-2--linking-the-recipients-and-the-aggregation-function-result}
 
 Afin de lier la requête portant sur les destinataires à la requête servant au calcul de la fonction d&#39;agrégation, il est nécessaire d&#39;utiliser une activité d&#39;édition du schéma.
 

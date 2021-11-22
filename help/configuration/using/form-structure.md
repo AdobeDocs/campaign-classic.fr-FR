@@ -218,7 +218,7 @@ Les images sont disponibles à partir du nœud **[!UICONTROL Administration > P
 
 Vous pouvez masquer un ensemble de contrôles à partir d&#39;une condition dynamique.
 
-Cet exemple illustre la visibilité des contrôles sur la valeur du champ &quot;Genre&quot; :
+Cet exemple illustre la visibilité des contrôles sur la valeur du champ &quot;Genre&quot; :
 
 ```
 <container type="visibleGroup" visibleIf="@gender=1">
@@ -272,13 +272,13 @@ Le choix de la cible est accessible à partir de la zone d&#39;édition. Une aid
 
 Une liste déroulante permet de sélectionner un élément de la cible parmi la liste des enregistrements déjà créés.
 
-L&#39;icône **[!UICONTROL Modifier le lien]** (dossier) lance une forme de sélection avec la liste des éléments ciblés et une zone de filtrage :
+L&#39;icône **[!UICONTROL Modifier le lien]** (dossier) lance une forme de sélection avec la liste des éléments ciblés et une zone de filtrage :
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
 L&#39;icône **[!UICONTROL Editer le lien]** (loupe) lance la forme d&#39;édition de l&#39;élément lié. La forme utilisée est déduite par défaut sur la clé du schéma ciblé, l&#39;attribut **form** permet de forcer le nom de la forme d&#39;édition (par exemple &quot;cus:company2&quot;).
 
-Vous pouvez restreindre le choix des éléments de la cible en ajoutant l&#39;élément **`<sysfilter>`** à partir de la définition du lien dans le formulaire de saisie :
+Vous pouvez restreindre le choix des éléments de la cible en ajoutant l’élément **`<sysfilter>`** à partir de la définition du lien dans le formulaire de saisie :
 
 ```
 <input xpath="company">
@@ -608,7 +608,7 @@ La balise **`<check expr="<condition>" />`** combinée avec la balise **`<error>
 
 Un assistant permet une saisie guidée à travers un ensemble d&#39;étapes présentées sous forme de pages. La validation du formulaire enregistre les informations saisies.
 
-Un assistant se construit de la façon suivante :
+Un assistant se construit de la façon suivante :
 
 ```
 <form type="wizard" name="example" namespace="cus" img="nms:rcpgroup32.png" label="Wizard example" entity-schema="nms:recipient">
@@ -655,7 +655,7 @@ Le type du paramètre doit être spécifié à partir de l&#39;attribut **type**
 * **long** : nombre entier 32 bits
 * **short** : nombre entier 16 bits
 * **double** : nombre flottant double précision
-* **DOMElement** : nœud de type élément
+* **DOMElement** : noeud de type élément
 
 L&#39;attribut **exprIn** contient l&#39;emplacement de la donnée à passer en paramètre.
 

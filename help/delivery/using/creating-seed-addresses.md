@@ -17,11 +17,11 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Les adresses de contrôle ne sont pas gérées via les profils et cibles standards, mais dans un nœud dédié de l&#39;arborescence Adobe Campaign, sous **[!UICONTROL Ressources > Gestion de campagne > Adresses de contrôle]**.
+Les adresses de contrôle ne sont pas gérées via les profils et cibles standards, mais dans un nœud dédié de l&#39;arborescence Adobe Campaign, sous **[!UICONTROL Ressources > Gestion de campagne > Adresses de contrôle]**.
 
 Vous pouvez créer des sous-dossiers afin d&#39;organiser les adresses de contrôle. Pour cela, cliquez avec le bouton droit sur le nœud **[!UICONTROL Adresses de contrôle]** et sélectionnez **[!UICONTROL Ajouter un dossier « Adresses de contrôle »]**. Nommez le sous-dossier et validez par la touche **[!UICONTROL Entrée]** du clavier. Vous pouvez ensuite créer ou copier des adresses de contrôle dans ce sous-dossier. Voir à ce sujet la section [Définir des adresses](#defining-addresses).
 
-Adobe Campaign permet également de créer des modèles d&#39;adresses de contrôle qui sont importées au niveau des diffusions ou des campagnes et sont ensuite adaptées selon les besoins spécifiques aux diffusions et campagnes concernées. Voir [Créer des modèles d&#39;adresses de contrôle](#creating-seed-address-templates).
+Adobe Campaign permet également de créer des modèles d&#39;adresses de contrôle qui sont importées au niveau des diffusions ou des campagnes et sont ensuite adaptées selon les besoins spécifiques aux diffusions et campagnes concernées. Voir [Créer des modèles d&#39;adresses de contrôle](#creating-seed-address-templates).
 
 ## Définir des adresses {#defining-addresses}
 

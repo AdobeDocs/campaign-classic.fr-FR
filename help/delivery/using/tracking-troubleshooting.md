@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Résolution des problèmes liés au tracking
-description: Cette section présente les questions courantes relatives à la configuration et à l’implémentation du tracking dans Adobe Campaign Classic.
+description: Cette section présente les questions courantes relatives à la configuration et à l’implémentation du tracking dans Adobe Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Dans cette section, vous trouverez des questions courantes relatives à la configuration et à l’implémentation du tracking dans Adobe Campaign Classic.
+Dans cette section, vous trouverez des questions courantes relatives à la configuration et à l’implémentation du tracking dans Adobe Campaign Classic.
 
 ## Le workflow de tracking échoue {#tracking-workflow-failing}
 
@@ -130,7 +130,7 @@ Procédez comme suit lors de la mise à jour de l&#39;option NmsTracking_Pointer
 
 ## Le tracking ne semble pas fonctionner avec certaines messageries web {#webmail}
 
-Vous pouvez personnaliser la formule de suivi des clics et spécifier une formule de tracking Adobe Analytics personnalisée.
+Vous pouvez personnaliser la formule de suivi des clics et spécifier une formule de tracking Adobe Analytics personnalisée.
 
 Ce type de personnalisation doit être effectué avec prudence afin d’éviter l’ajout de caractères de saut de page supplémentaires. Tous les caractères de saut de page présents en dehors de l’expression Javascript seront également présents dans la formule finale.
 
@@ -207,7 +207,7 @@ STRING1&cid=STRING2&bid=STRING3&SHPID=STRING4
 
 ## La récupération des logs de tracking est trop lente {#slow-retrieval}
 
-Lorsque l&#39;instance ne récupère pas directement les logs de tracking mais le fait à partir d&#39;un serveur Adobe Campaign Classic distant, les logs sont récupérés via l&#39;appel SOAP GetTrackingLogs défini dans le schéma remoteTracking.
+Lorsque l&#39;instance ne récupère pas directement les logs de tracking mais le fait à partir d&#39;un serveur Adobe Campaign Classic distant, les logs sont récupérés via l&#39;appel SOAP GetTrackingLogs défini dans le schéma remoteTracking.
 
 Une option du fichier serverConf.xml permet de définir le nombre de logs récupérés à la fois par l’intermédiaire de cette méthode : logCountPerRequest.
 
@@ -215,7 +215,7 @@ La valeur par défaut de logCountPerRequest étant 1 000, elle peut s’avérer
 
 ## Impossible de lier les logs de tracking aux destinataires {#link-recipients}
 
-Dans Adobe Campaign Classic, un mapping de ciblage est censé être unique en termes de schéma de destinataire par rapport aux schémas de broadlog / trackinglog.
+Dans Adobe Campaign Classic, un mapping de ciblage est censé être unique en termes de schéma de destinataire par rapport aux schémas de broadlog / trackinglog.
 
 ![](assets/tracking-troubleshooting.png)
 

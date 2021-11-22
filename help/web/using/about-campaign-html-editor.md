@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Le **Digital Content Editor (DCE)** est un éditeur de contenus HTML qui permet de créer ou modifier facilement des modèles ou du contenu au format HTML dans Adobe Campaign.
+Le **Digital Content Editor (DCE)** est un éditeur de contenus HTML qui permet de créer ou modifier facilement des modèles ou du contenu au format HTML dans Adobe Campaign.
 
 Avec le Digital Content Editor, vous pouvez insérer et mettre en forme des éléments de page, et mapper des champs de base de données à des éléments d‘une page HTML. Cet éditeur est disponible lors de la création d’une page pour une application web ou de la création de diffusions basées sur un modèle du DCE.
 
@@ -48,7 +48,7 @@ Pour créer une **application web** simple, vous devez :
 >
 >Un exemple complet d’implémentation dans le contexte d’une application web est disponible dans [cette section](creating-a-landing-page.md).
 
-Pour créer une **diffusion email**, vous devez :
+Pour créer une **diffusion email**, vous devez :
 
 1. Créer une diffusion à partir d‘un modèle du DCE - [En savoir plus](use-case--creating-an-email-delivery.md)
 1. Sélectionner un contenu existant ou créer un contenu à partir d’un [modèle standard](template-management.md)

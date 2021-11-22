@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Les messages diffusés par Adobe Campaign peuvent faire l&#39;objet de plusieurs types de personnalisation. Les axes de personnalisation peuvent concerner le contenu ou la présentation, ils peuvent être combinés en fonction de critères issus notamment des profils des destinataires. Pour les diffusions par email, vous pouvez définir les éléments et conditions de personnalisation d&#39;une diffusion directement en JavaScript à partir de l&#39;onglet **[!UICONTROL Source]** du message. D&#39;une manière générale, Adobe Campaign vous permet de :
+Les messages diffusés par Adobe Campaign peuvent faire l&#39;objet de plusieurs types de personnalisation. Les axes de personnalisation peuvent concerner le contenu ou la présentation, ils peuvent être combinés en fonction de critères issus notamment des profils des destinataires. Pour les diffusions par email, vous pouvez définir les éléments et conditions de personnalisation d&#39;une diffusion directement en JavaScript à partir de l&#39;onglet **[!UICONTROL Source]** du message. D&#39;une manière générale, Adobe Campaign vous permet de :
 
 * Personnaliser le format du message. Voir [Contenu du message](defining-the-email-content.md#message-content).
 * Insérer des champs de personnalisation dynamiques. Voir [Champs de personnalisation](personalization-fields.md).

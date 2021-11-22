@@ -13,16 +13,16 @@ ht-degree: 100%
 
 ---
 
-# À propos des Adobe ID{#about-adobe-id}
+# À propos des Adobe ID{#about-adobe-id}
 
 ![](../../assets/common.svg)
 
-Le système Adobe Identity Management System (IMS) permet aux administrateurs de créer et de gérer l&#39;accès des utilisateurs aux applications et services. Pour plus d&#39;informations sur les différents types d&#39;Adobe ID, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/identity.html).
+Le système Adobe IDentity Management System (IMS) permet aux administrateurs de créer et de gérer l&#39;accès des utilisateurs aux applications et services. Pour plus d’informations sur les différents types d’Adobe ID, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/identity.html).
 
-Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign à l&#39;aide de leur Adobe ID. Cette intégration offre les avantages suivants :
+Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign à l&#39;aide de leur Adobe ID. Cette intégration offre les avantages suivants :
 
 * utilisation d&#39;un même identifiant pour toutes les solutions Experience Cloud
-* mémorisation de la connexion lors de l&#39;utilisation d&#39;Adobe Campaign avec les différentes intégrations
+* mémorisation de la connexion lors de l&#39;utilisation d&#39;Adobe Campaign avec les différentes intégrations
 * politique de gestion de mot de passe plus sécurisée
 * utilisation de comptes de type Federated ID (fournisseur d&#39;identité externe)
 
@@ -37,6 +37,7 @@ Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign �
 > * [Campaign 20.1.4](../../rn/using/release--20-1.md)
 > * [Campaign 19.2.4](../../rn/using/release--19-2.md)
 > * [Campaign 19.1.8](../../rn/using/release--19-1.md)
+
 >
 > [!DNL :bulb:] [En savoir plus sur les mises à jour de l&#39;IMS](../../technotes/using/ims-updates.md)
 

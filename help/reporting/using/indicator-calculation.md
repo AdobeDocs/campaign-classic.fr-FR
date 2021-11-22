@@ -133,7 +133,7 @@ Ce rapport se base sur la table **[!UICONTROL Statistiques d&#39;envoi et de tra
 
 **Ventilation par domaine**
 
-La seconde partie du rapport présente la répartition des messages en échec, non pas par type d&#39;erreur, mais par domaine Internet. La formule associée à l&#39;indicateur **Erreur** (@value) est dans ce cas : Count(@status=2 et @domain=&quot;Valeur du nom de domaine&quot;). C&#39;est-à-dire un comptage de tous les messages dont le statut est en échec sur ce domaine.
+La seconde partie du rapport présente la répartition des messages en échec, non pas par type d&#39;erreur, mais par domaine Internet. La formule associée à l&#39;indicateur **Erreur** (@value) est dans ce cas : Count(@status=2 et @domain=&quot;Valeur du nom de domaine&quot;). C&#39;est-à-dire un comptage de tous les messages dont le statut est en échec sur ce domaine.
 
 ## Navigateurs {#browsers-1}
 
@@ -360,7 +360,7 @@ Ce rapport se base sur les tables **[!UICONTROL Diffusion]** (nms:delivery), **[
    <td> Nouveaux contacts<br /> </td> 
    <td> @newContacts<br /> </td> 
    <td> Comptage du nombre de visiteurs liés à un destinataire.<br /> </td> 
-   <td> Formule : count(@id)<br /> Filtre : @recipient-id != 0<br /> </td> 
+   <td> Formule : count(@id)<br /> Filtre : @recipient-id != 0<br /> </td> 
   </tr> 
   <tr> 
    <td> Ouvertures (Opens)<br /> </td> 
@@ -920,20 +920,20 @@ L&#39;indicateur **Envoyés** (@sent), accessible à partir du noeud **Diffusion
 
 ## Synchronisation des indicateurs {#indicator-synchronization}
 
-Si vous observez une désynchronisation ou une incohérence de certains indicateurs, sélectionnez la diffusion concernée dans l&#39;explorateur Adobe Campaign, cliquez avec le bouton droit et choisissez **[!UICONTROL Actions > Recalculer les indicateurs de diffusion et de tracking]**. Cliquez sur **[!UICONTROL Suivant]** puis sur **[!UICONTROL Terminer]**.
+Si vous observez une désynchronisation ou une incohérence de certains indicateurs, sélectionnez la diffusion concernée dans l&#39;explorateur Adobe Campaign, cliquez avec le bouton droit et choisissez **[!UICONTROL Actions > Recalculer les indicateurs de diffusion et de tracking]**. Cliquez sur **[!UICONTROL Suivant]** puis sur **[!UICONTROL Terminer]**.
 
 ![](assets/s_ncs_user_recalculate_indicators.png)
 
 ## Tracking des ouvertures {#tracking-opens-}
 
-Pour qu’Adobe Campaign puisse détecter l’ouverture d’un message, le destinataire doit télécharger les images de l’email. Les emails HTML et Multipart/Alternative incluent en effet une image de 0 pixel permettant, lorsque le destinataire l’affiche, de détecter qu’il a ouvert le message. Les messages au format texte ne contenant aucune image, il est impossible d’en détecter l’ouverture. Les valeurs calculées sur des ouvertures de messages sont donc toujours des estimations, en raison de la marge d’erreur liée à l’affichage des images.
+Pour qu’Adobe Campaign puisse détecter l’ouverture d’un message, le destinataire doit télécharger les images de l’email. Les emails HTML et Multipart/Alternative incluent en effet une image de 0 pixel permettant, lorsque le destinataire l’affiche, de détecter qu’il a ouvert le message. Les messages au format texte ne contenant aucune image, il est impossible d’en détecter l’ouverture. Les valeurs calculées sur des ouvertures de messages sont donc toujours des estimations, en raison de la marge d’erreur liée à l’affichage des images.
 
 ## Distinction personnes / destinataires ciblés {#targeted-persons---recipients}
 
-Adobe Campaign distingue les personnes et les destinataires ciblés dans les statistiques de certains rapports.
+Adobe Campaign distingue les personnes et les destinataires ciblés dans les statistiques de certains rapports.
 
 Les destinataires ciblés correspondent à tous les destinataires à qui la diffusion a été envoyée.
 
 Le nombre de personnes englobe les destinataires ciblés, auxquels sont ajoutées toutes les personnes à qui l&#39;email a été transféré. A chaque fois qu&#39;une ouverture ou qu&#39;un clic est effectué dans un nouveau navigateur (avec lequel ce message n&#39;avait jamais été ouvert), une nouvelle personne est comptabilisée.
 
-Par exemple, si vous recevez un email (envoyé par Adobe Campaign) au travail et que vous l&#39;ouvrez ou cliquez dedans, vous êtes comptabilisé comme un destinataire ciblé (donc destinataire=1, personne=1). Si vous transférez ce mail à deux amis, le nombre de destinataires ciblés sera toujours de un alors que le nombre de personnes sera de trois. La valeur 3 correspond donc à chaque ouverture/clic dans un nouveau navigateur.
+Par exemple, si vous recevez un email (envoyé par Adobe Campaign) au travail et que vous l&#39;ouvrez ou cliquez dedans, vous êtes comptabilisé comme un destinataire ciblé (donc destinataire=1, personne=1). Si vous transférez ce mail à deux amis, le nombre de destinataires ciblés sera toujours de un alors que le nombre de personnes sera de trois. La valeur 3 correspond donc à chaque ouverture/clic dans un nouveau navigateur.

@@ -42,13 +42,13 @@ Le mapping SQL de notre schéma d&#39;exemple donne le document XML suivant :
 
 L&#39;élément racine du schéma n&#39;est plus **`<srcschema>`**, mais **`<schema>`**.
 
-Nous sommes sur un autre type de document qui est généré automatiquement à partir du schéma source, on parle alors simplement de schéma. C&#39;est ce schéma qui sera utilisé par l&#39;application Adobe Campaign.
+Nous sommes sur un autre type de document qui est généré automatiquement à partir du schéma source, on parle alors simplement de schéma. C&#39;est ce schéma qui sera utilisé par l&#39;application Adobe Campaign.
 
 Les noms SQL sont déduits automatiquement en fonction du nom et du type de l&#39;élément.
 
 Les règles de nommage des noms SQL sont les suivantes :
 
-* table : concaténation de l&#39;espace de noms et du nom du schéma
+* table : concaténation de l&#39;espace de noms et du nom du schéma
 
    Dans notre exemple le nom de la table est renseigné à partir de l&#39;élément principal du schéma dans l&#39;attribut **sqltable** :
 
@@ -103,7 +103,7 @@ Pour renseigner un champ en XML, il faut ajouter l&#39;attribut **xml** avec la 
    <element name="description" xml="true" type="html" label="Description"/>
    ```
 
-   Le type &quot;html&quot; permet de stocker le contenu HTML dans une balise CDATA et d&#39;afficher un contrôle spécifique d&#39;édition HTML dans l&#39;interface cliente Adobe Campaign.
+   Le type &quot;html&quot; permet de stocker le contenu HTML dans une balise CDATA et d&#39;afficher un contrôle spécifique d&#39;édition HTML dans l&#39;interface cliente Adobe Campaign.
 
 L’utilisation de champs XML permet d’ajouter des champs sans avoir à modifier la structure physique de la base. Un autre avantage est d’utiliser moins de ressources (taille alouée des champs SQL, limite sur le nombre de champs par table, etc.).
 
@@ -123,7 +123,7 @@ Un index est déclaré à partir de l’élément principal du schéma de donné
 </key>
 ```
 
-Les index suivent les règles suivantes :
+Les index suivent les règles suivantes :
 
 * Un index peut référencer un ou plusieurs champs de la table.
 * Un index peut être unique (afin d’éviter les doublons) sur l’ensemble des champs qui le compose si l’attribut **unique** est renseigné avec la valeur &quot;true&quot;.
@@ -157,7 +157,7 @@ Les index suivent les règles suivantes :
    </srcSchema>
    ```
 
-* Ajout d’un index unique sur le champ du nom &quot;id&quot; :
+* Ajout d&#39;un index unique sur le champ du nom &quot;id&quot; :
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -202,7 +202,7 @@ Les clés suivent les règles suivantes :
 
 >[!NOTE]
 >
->Les clés sont crées lorsque, lors du mapping de la table (mapping standard ou FDA), Adobe Campaign trouve des index uniques.
+>Les clés sont crées lorsque, lors du mapping de la table (mapping standard ou FDA), Adobe Campaign trouve des index uniques.
 
 **Exemple**:
 
@@ -291,7 +291,7 @@ Les clés suivent les règles suivantes :
 
 ### Clé auto-incrémentale {#auto-incremental-key}
 
-La clé primaire de la plupart des tables Adobe Campaign est un entier long 32 bits auto-généré par le moteur de base de données. Le calcul de la valeur de la clé repose sur une séquence (par défaut la fonction SQL **XtkNewId**) générant un nombre unique dans toute la base. Le contenu de la clé est automatiquement renseigné à l’insertion de l’enregistrement.
+La clé primaire de la plupart des tables Adobe Campaign est un entier long 32 bits auto-généré par le moteur de base de données. Le calcul de la valeur de la clé repose sur une séquence (par défaut la fonction SQL **XtkNewId**) générant un nombre unique dans toute la base. Le contenu de la clé est automatiquement renseigné à l&#39;insertion de l&#39;enregistrement.
 
 L’avantage d’une clé incrémentale est d’obtenir une clé technique non modifiable utilisée pour les jointures entre les tables. De plus, cette clé n’est pas consommatrice car elle utilise un entier sur deux octets.
 
@@ -305,13 +305,13 @@ Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser
 
 >[!NOTE]
 >
->Une séquence référencée dans un schéma Adobe Campaign (**NmsTrackingLogId** par exemple) doit être associée à une fonction SQL qui renvoie le nombre d’identifiants dans les paramètres, séparés par des virgules. Cette fonction doit être appelée **GetNew** XXX **Ids**, où **XXX** correspond au nom de la séquence (**GetNewNmsTrackingLogIds**, par exemple). Affichez les fichiers **postgres-nms.sql**, **mssql-nms.sql** ou **oracle-nms.sql** fournis avec l’application dans le répertoire **datakit/nms/eng/sql/** pour récupérer l’exemple de création de séquence « NmsTrackingLogId » pour chaque moteur de base de données.
+>Une séquence référencée dans un schéma Adobe Campaign (**NmsTrackingLogId** par exemple) doit être associée à une fonction SQL qui renvoie le nombre d’identifiants dans les paramètres, séparés par des virgules. Cette fonction doit être appelée **GetNew** XXX **Ids**, où **XXX** correspond au nom de la séquence (**GetNewNmsTrackingLogIds**, par exemple). Affichez les fichiers **postgres-nms.sql**, **mssql-nms.sql** ou **oracle-nms.sql** fournis avec l’application dans le répertoire **datakit/nms/eng/sql/** pour récupérer l’exemple de création de séquence « NmsTrackingLogId » pour chaque moteur de base de données.
 
 Pour déclarer une clé unique, il faut renseigner l’attribut **autopk** (avec la valeur &quot;true&quot;) sur l’élément principal du schéma de données.
 
 **Exemple**:
 
-Déclaration d’une clé incrémentale dans le schéma source :
+Déclaration d&#39;une clé incrémentale dans le schéma source :
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -321,7 +321,7 @@ Déclaration d’une clé incrémentale dans le schéma source :
 </srcSchema>
 ```
 
-Le schéma généré :
+Le schéma généré :
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
@@ -370,7 +370,7 @@ Pour les relations de jointure à l&#39;aide de Federated Database Access :
 
 Pour plus d’informations sur les tables FDA, voir la section [Accès à une base de données externe](../../installation/using/about-fda.md).
 
-Un lien doit être déclaré dans le schéma possédant la clé étrangère de la table liée à partir de l’élément principal :
+Un lien doit être déclaré dans le schéma possédant la clé étrangère de la table liée à partir de l&#39;élément principal :
 
 ```
 <element name="name_of_link" type="link" target="key_of_destination_schema">
@@ -524,7 +524,7 @@ Dans cet exemple, on souhaite créer une clé sur un lien (&quot;company&quot; v
 </srcSchema>
 ```
 
-Le schéma généré :
+Le schéma généré :
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  

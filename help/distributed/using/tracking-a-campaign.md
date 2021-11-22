@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Les opérateurs de l&#39;entité centrale peuvent effectuer un tracking des commandes des opérations proposées dans la liste des kits d&#39;opération.
 
-Ils peuvent ainsi :
+Ils peuvent ainsi :
 
 * [Filtrer les kits](#filter-packages),
 * [Modifier les packages](#edit-packages),
@@ -36,7 +36,7 @@ Dans l’onglet **[!UICONTROL Campagnes]**, vous pouvez afficher la liste des **
 
 La page des **[!UICONTROL Kits d&#39;opération]** permet de visualiser le résumé de chaque kit.
 
-Ce résumé affiche les informations suivantes : le libellé, le type d&#39;opération, le nom de l&#39;opération à partir de laquelle le kit a été créé et le dossier d&#39;enregistrement.
+Ce résumé affiche les informations suivantes : le libellé, le type d&#39;opération, le nom de l&#39;opération à partir de laquelle le kit a été créé et le dossier d&#39;enregistrement.
 
 Cliquez sur le nom du kit pour l&#39;éditer. Vous pourrez alors visualiser les commandes réalisées par les entités locales et leur état.
 
@@ -44,7 +44,7 @@ Cette information est proposée aussi dans la vue **[!UICONTROL Commandes d&#39;
 
 ![](assets/mkg_dist_catalog_op_command_details.png)
 
-L&#39;opérateur central peut éditer la commande. Pour cela, il dispose de deux modes :
+L&#39;opérateur central peut éditer la commande. Pour cela, il dispose de deux modes :
 
 1. L’opérateur peut cliquer sur le nom de la commande pour l’éditer : il accède alors aux détails de celle-ci.
 
@@ -54,7 +54,7 @@ L&#39;opérateur central peut éditer la commande. Pour cela, il dispose de deux
 
    ![](assets/mkg_dist_catalog_op_command_edit1a.png)
 
-1. L&#39;opérateur peut cliquer sur le libellé du kit d&#39;opération pour l&#39;éditer : il peut éventuellement modifier certains paramétrages.
+1. L&#39;opérateur peut cliquer sur le libellé du kit d&#39;opération pour l&#39;éditer : il peut éventuellement modifier certains paramétrages.
 
    ![](assets/mkg_dist_catalog_op_command_edit2.png)
 
@@ -70,7 +70,7 @@ Vous avez la possibilité de motiver cette annulation dans le champ **[!UICONTRO
 
 Pour les **opérations locales**, l&#39;annulation d&#39;un kit le supprime de la liste des opérations marketing disponibles.
 
-Pour les **opérations collaboratives**, l&#39;annulation d&#39;un kit d&#39;opération provoque :
+Pour les **opérations collaboratives**, l&#39;annulation d&#39;un kit d&#39;opération provoque :
 
 1. L&#39;annulation de toutes les commandes relatives à ce kit,
 

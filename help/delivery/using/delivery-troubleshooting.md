@@ -33,9 +33,9 @@ Après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**, votre diffusion sem
 
 * Certains fournisseurs de messagerie ont peut-être ajouté vos adresses IP à une liste bloquée. Dans ce cas, vérifiez vos broadlogs et consultez [cette section](about-deliverability.md).
 
-* Votre diffusion peut être trop volumineuse pour être traitée rapidement. Cela peut être le cas lorsque la taille de la diffusion dépasse 60 Ko ou que la personnalisation JavaScript est importante. Pour obtenir des instructions relatives au contenu, consultez [Bonnes pratiques de diffusion](delivery-best-practices.md) d’Adobe Campaign.
+* Votre diffusion peut être trop volumineuse pour être traitée rapidement. Cela peut être le cas lorsque la taille de la diffusion dépasse 60 Ko ou que la personnalisation JavaScript est importante. Pour obtenir des instructions relatives au contenu, consultez [Bonnes pratiques de diffusion](delivery-best-practices.md) d’Adobe Campaign.
 
-* Le MTA Adobe Campaign a peut-être été soumis à une limitation. Celle-ci est due aux éléments suivants :
+* Le MTA Adobe Campaign a peut-être été soumis à une limitation. Celle-ci est due aux éléments suivants :
 
    * Messages en attente (message **[!UICONTROL quotas satisfaits]**) : les quotas déclarés par les règles déclaratives MX définies dans Campaign ont été respectés. Pour plus d’informations sur ce type de message, consultez [cette page](deliverability-faq.md). Pour en savoir plus sur les règles MX, consultez [cette section](../../installation/using/email-deliverability.md#about-mx-rules).
 

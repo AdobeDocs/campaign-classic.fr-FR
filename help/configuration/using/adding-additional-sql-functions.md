@@ -19,9 +19,9 @@ ht-degree: 100%
 
 ## Introduction {#introduction}
 
-Adobe Campaign permet à l&#39;utilisateur de définir **ses propres fonctions**, qui peuvent accéder aux fonctions SQL offertes par la base de données, et qui ne seraient pas déjà disponibles dans la console. Ce mécanisme est utile par exemple dans le cas de fonctions d&#39;agrégats (moyenne, maximum, somme) qui ne peuvent être calculées que sur le serveur ou bien quand la base de données offre un moyen plus facile d&#39;implémenter certaines fonctions, plutôt que d&#39;écrire l&#39;expression &quot;à la main&quot; dans la console (par ex. gestion de dates).
+Adobe Campaign permet à l&#39;utilisateur de définir **ses propres fonctions**, qui peuvent accéder aux fonctions SQL offertes par la base de données, et qui ne seraient pas déjà disponibles dans la console. Ce mécanisme est utile par exemple dans le cas de fonctions d&#39;agrégats (moyenne, maximum, somme) qui ne peuvent être calculées que sur le serveur ou bien quand la base de données offre un moyen plus facile d&#39;implémenter certaines fonctions, plutôt que d&#39;écrire l&#39;expression &quot;à la main&quot; dans la console (par ex. gestion de dates).
 
-Ce mécanisme peut aussi servir dans le cas où l&#39;on souhaiterait utiliser une fonction SQL récente, ou rare, d&#39;un moteur de base de données, et qui ne serait pas encore offerte par la console Adobe Campaign.
+Ce mécanisme peut aussi servir dans le cas où l&#39;on souhaiterait utiliser une fonction SQL récente, ou rare, d&#39;un moteur de base de données, et qui ne serait pas encore offerte par la console Adobe Campaign.
 
 Une fois ces fonctions ajoutées, elles apparaissent dans l&#39;éditeur d&#39;expressions, au même titre que les fonctions prédéfinies.
 
@@ -37,11 +37,11 @@ Pour l&#39;installer, depuis la console, sélectionner les options de menu **Too
 
 >[!IMPORTANT]
 >
->Attention, même si la liste des fonctions importées apparaît tout de suite dans l&#39;éditeur de fonctions, elles ne seront pas utilisables tant que le serveur Adobe Campaign n&#39;aura pas été redémarré.
+>Attention, même si la liste des fonctions importées apparaît tout de suite dans l&#39;éditeur de fonctions, elles ne seront pas utilisables tant que le serveur Adobe Campaign n&#39;aura pas été redémarré.
 
 ## Structure générale du package à importer {#general-structure-of-package-to-import}
 
-La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &quot;package&quot;** au format XML dont voici un exemple :
+La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &quot;package&quot;** au format XML dont voici un exemple :
 
 ```
 <?xml version="1.0" encoding='ISO-8859-1' ?>
@@ -89,7 +89,7 @@ La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &
 
 >[!IMPORTANT]
 >
->Attention à bien remplir l&#39;attribut @label : c&#39;est le nom qui sera affiché dans la liste des fonctions disponibles. Si vous ne mettez rien, le groupe n&#39;aura pas de nom, par contre si vous mettez un autre nom que le nom existant, c&#39;est le tout le groupe qui changera de nom.
+>Attention à bien remplir l&#39;attribut @label : c&#39;est le nom qui sera affiché dans la liste des fonctions disponibles. Si vous ne mettez rien, le groupe n&#39;aura pas de nom, par contre si vous mettez un autre nom que le nom existant, c&#39;est le tout le groupe qui changera de nom.
 
 Si vous souhaitez ajouter des fonctions dans plusieurs groupes différents, il est possible de faire se suivre plusieurs éléments `<group>` dans la même liste.
 
@@ -120,7 +120,7 @@ Le champ **@name** fait référence au nom de la fonction et « args » corres
 
    >[!NOTE]
    >
-   >La description doit être une chaîne de caractères valide au sens XML : noter l&#39;utilisation de &#39;&lt;&#39; et &#39;>&#39; au lieu de &lt; et >.
+   >La description doit être une chaîne de caractères valide au sens XML : noter l&#39;utilisation de &#39;&lt;&#39; et &#39;>&#39; au lieu de &lt; et >.
 
 * **@type** est le type de retour de la fonction, il peut prendre les valeurs habituelles (long, string, byte, datetime...). S&#39;il est omis, le serveur détermine le type au mieux d&#39;après les types intervenant dans l&#39;expression implémentant la fonction.
 * **@minArgs** et **maxArgs** désignent le nombre de paramètres (minimum et maximum) de la fonction. Par exemple, dans le cas d&#39;une fonction à 2 paramètres, minArgs et maxArgs vaudront 2 et 2. Dans le cas de 3 paramètres, plus 1 optionnel, ils vaudront 3 et 4 respectivement.

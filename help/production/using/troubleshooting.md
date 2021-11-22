@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Résolution des problèmes de production
-description: Découvrez les procédures de résolution des problèmes de production relatives à la configuration, à la surveillance, au processus de mise à niveau, au traitement des données et à la maintenance des bases de données d'Adobe Campaign.
+description: Découvrez les procédures de résolution des problèmes de production relatives à la configuration, à la surveillance, au processus de mise à niveau, au traitement des données et à la maintenance des bases de données d'Adobe Campaign.
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Cette section contient des procédures de résolution des problèmes relatives aux problèmes généraux de production dans Adobe Campaign, tels que l&#39;exécution des diffusions et des workflows, la surveillance, la maintenance des bases de données, la connexion, etc.
+Cette section contient des procédures de résolution des problèmes relatives aux problèmes généraux de production dans Adobe Campaign, tels que l&#39;exécution des diffusions et des workflows, la surveillance, la maintenance des bases de données, la connexion, etc.
 
 ## Questions courantes et générales {#common-and-general-issues}
 

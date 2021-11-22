@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: À propos des Triggers Adobe Experience Cloud
-description: Prise en main de la mise en œuvre des Triggers d’Adobe Experience Cloud
+title: À propos des Triggers Adobe Experience Cloud
+description: Prise en main de la mise en œuvre des Triggers d’Adobe Experience Cloud
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
@@ -12,11 +12,11 @@ ht-degree: 100%
 
 ---
 
-# Utilisation des triggers Campaign et Experience Cloud{#about-adobe-experience-triggers}
+# Utilisation des triggers Campaign et Experience Cloud{#about-adobe-experience-triggers}
 
 ![](../../assets/common.svg)
 
-[!DNL Triggers] est une intégration entre Adobe Campaign et Adobe Analytics, qui utilise le pipeline. Le pipeline récupère les actions ou déclencheurs des utilisateurs de votre site web. Un abandon de panier est un exemple de déclencheur. Les déclencheurs sont traités dans Adobe Campaign pour envoyer des e-mails en temps quasi réel.
+[!DNL Triggers] est une intégration entre Adobe Campaign et Adobe Analytics, qui utilise le pipeline. Le pipeline récupère les actions ou déclencheurs des utilisateurs de votre site web. Un abandon de panier est un exemple de déclencheur. Les déclencheurs sont traités dans Adobe Campaign pour envoyer des emails en temps quasi réel.
 
 >[!CAUTION]
 >
@@ -29,7 +29,7 @@ Il prend également en charge des volumes élevés de trafic sans affecter les p
 
 ## Architecture de [!DNL Triggers]  {#triggers-architecture}
 
-Le processus [!DNL pipelined] est toujours en cours d’exécution sur le serveur marketing d’Adobe Campaign. Il se connecte au pipeline, récupère les événements et les traite immédiatement.
+Le processus [!DNL pipelined] est toujours en cours d’exécution sur le serveur marketing d’Adobe Campaign. Il se connecte au pipeline, récupère les événements et les traite immédiatement.
 
 ![](assets/triggers_2.png)
 

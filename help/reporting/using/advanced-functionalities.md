@@ -73,7 +73,7 @@ L&#39;onglet **[!UICONTROL Paramètres]** des [propriétés du rapport](../../re
 >
 >Pour des questions de sécurité, ces paramètres doivent être utilisés avec précaution.
 
-Pour créer un nouveau paramètre :
+Pour créer un nouveau paramètre :
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter]** et saisissez le nom du paramètre.
 
@@ -81,13 +81,13 @@ Pour créer un nouveau paramètre :
 
 1. Au besoin, indiquez si ce paramètre doit être obligatoire.
 
-1. Choisissez le type de paramètre à créer : **[!UICONTROL Filtre]** ou **[!UICONTROL Variable]**.
+1. Choisissez le type de paramètre à créer : **[!UICONTROL Filtre]** ou **[!UICONTROL Variable]**.
 
    L&#39;option **[!UICONTROL Filtrer les entités]** permet d&#39;utiliser un champ de la base comme paramètre.
 
    ![](assets/s_ncs_advuser_report_properties_09b.png)
 
-   Les données sont directement récupérées au niveau de l&#39;entité : **ctx/recipient/@account**.
+   Les données sont directement récupérées au niveau de l&#39;entité : **ctx/recipient/@account**.
 
    L&#39;option **[!UICONTROL Variable]** permet de créer ou sélectionner une variable qui sera passée en paramètre de l&#39;URL et pourra être utilisée au niveau des filtres.
 

@@ -31,7 +31,7 @@ Un opérateur est lié à une zone de sécurité à partir de son profil dans la
 
 ## Création de zones de sécurité {#creating-security-zones}
 
-Une zone est définie par :
+Une zone est définie par :
 
 * une ou plusieurs plages d&#39;adresses IP (IPv4 et IPv6)
 * un nom technique associé à chaque plage d’adresses IP
@@ -40,7 +40,7 @@ Les zones de sécurité sont imbriquées. Chaque définition d’une nouvelle zo
 
 Les zones peuvent être définies lors de la configuration du serveur dans le fichier **serverConf.xml**. Tous les paramètres disponibles dans **serverConf.xml** sont répertoriés dans [cette section](../../installation/using/the-server-configuration-file.md).
 
-Chaque zone définit des droits, comme par exemple :
+Chaque zone définit des droits, comme par exemple :
 
 * Connexion en HTTP plutôt qu&#39;HTTPS
 * Affichage des erreurs (pile d&#39;erreurs Java, JavaScript, C++...)
@@ -53,11 +53,11 @@ Chaque zone définit des droits, comme par exemple :
 >**Chaque opérateur doit être associé à une zone.** Si l&#39;adresse IP de l&#39;opérateur appartient à la plage définie par la zone, l&#39;opérateur peut donc se connecter à l&#39;instance.\
 >Il se peut que l&#39;adresse IP de l&#39;opérateur soit définie dans plusieurs zones. Dans ce cas, l&#39;opérateur reçoit **l&#39;union** des droits disponibles pour chacune des zones.
 
-Le fichier **serverConf.xml** livré d&#39;usine contient trois zones : **public, vpn et lan**.
+Le fichier **serverConf.xml** livré d&#39;usine contient trois zones : **public, vpn et lan**.
 
 >[!NOTE]
 >
->**La configuration livrée d&#39;usine est sécurisée.** Cependant, avant une migration depuis une version antérieure d&#39;Adobe Campaign, il peut être nécessaire de réduire temporairement la sécurité afin de migrer et de valider les nouvelles règles.
+>**La configuration livrée d&#39;usine est sécurisée.** Cependant, avant une migration depuis une version antérieure d&#39;Adobe Campaign, il peut être nécessaire de réduire temporairement la sécurité afin de migrer et de valider les nouvelles règles.
 
 Exemple d&#39;une définition de zone dans le fichier **serverConf.xml** :
 
@@ -83,14 +83,14 @@ Exemple d&#39;une définition de zone dans le fichier **serverConf.xml** :
 </securityZone>
 ```
 
-L&#39;ensemble des droits définissant une zone sont les suivants :
+L&#39;ensemble des droits définissant une zone sont les suivants :
 
-* **allowDebug** : permet à une webApp d&#39;être exécutée en mode &quot;debug&quot;
-* **allowEmptyPassword** : autorise une connexion à une instance sans mot de passe
-* **allowHTTP** : une session peut être créée sans utiliser le protocole HTTPS
+* **allowDebug** : permet à une webApp d&#39;être exécutée en mode &quot;debug&quot;
+* **allowEmptyPassword** : autorise une connexion à une instance sans mot de passe
+* **allowHTTP** : une session peut être créée sans utiliser le protocole HTTPS
 * **allowUserPassword** : le jeton de session peut être de la forme « `<login>/<password>` »
-* **sessionTokenOnly** : le jeton de sécurité n&#39;est pas nécessaire dans l&#39;URL de connexion
-* **showErrors** : les erreurs côté serveur sont remontées et affichées
+* **sessionTokenOnly** : le jeton de sécurité n&#39;est pas nécessaire dans l&#39;URL de connexion
+* **showErrors** : les erreurs côté serveur sont remontées et affichées
 
 >[!IMPORTANT]
 >
@@ -146,19 +146,19 @@ Lorsqu&#39;un proxy est référencé et qu&#39;une connexion entre via ce proxy 
 
 Plusieurs cas peuvent exister :
 
-* Un sous-réseau est directement référencé dans la zone de sécurité et aucun proxy n&#39;est configuré : les utilisateurs du sous-réseau peuvent se connecter directement au serveur Adobe Campaign.
+* Un sous-réseau est directement référencé dans la zone de sécurité et aucun proxy n&#39;est configuré : les utilisateurs du sous-réseau peuvent se connecter directement au serveur Adobe Campaign.
 
    ![](assets/8101_proxy1.png)
 
-* Un proxy est défini pour un sous-réseau dans la zone de sécurité : les utilisateurs provenant de ce sous-réseau peuvent accéder au serveur Adobe Campaign en passant par ce proxy.
+* Un proxy est défini pour un sous-réseau dans la zone de sécurité : les utilisateurs provenant de ce sous-réseau peuvent accéder au serveur Adobe Campaign en passant par ce proxy.
 
    ![](assets/8101_proxy2.png)
 
-* Un proxy est inclus dans un sous-réseau de la zone de sécurité : les utilisateurs passant par ce proxy, indépendamment de leur provenance, peuvent accéder au serveur Adobe Campaign.
+* Un proxy est inclus dans un sous-réseau de la zone de sécurité : les utilisateurs passant par ce proxy, indépendamment de leur provenance, peuvent accéder au serveur Adobe Campaign.
 
    ![](assets/8101_proxy3.png)
 
-Les adresses IP des serveurs proxy susceptibles d’accéder au serveur Adobe Campaign doivent être saisies dans le sous-réseau **`<subnetwork>`** concerné et le sous-réseau de premier niveau **`<subnetwork name="all"/>`**. Par exemple, ici pour un proxy dont l’adresse IP est 10.131.146.102 :
+Les adresses IP des serveurs proxy susceptibles d’accéder au serveur Adobe Campaign doivent être saisies dans le sous-réseau **`<subnetwork>`** concerné et le sous-réseau de premier niveau **`<subnetwork name="all"/>`**. Par exemple, ici pour un proxy dont l’adresse IP est 10.131.146.102 :
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" label="Public Network" 

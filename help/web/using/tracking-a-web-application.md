@@ -21,9 +21,9 @@ Adobe Campaign permet de suivre et de mesurer les visites sur les pages des app
 
 Vous pouvez ainsi définir plusieurs chemins de navigation et en évaluer le succès. Les mesures ainsi effectuées sont répertoriées dans les rapports disponibles au niveau de chaque application.
 
-Les principales fonctionnalités proposées dans cette version sont les suivantes :
+Les principales fonctionnalités proposées dans cette version sont les suivantes :
 
-* Possibilité d&#39;insérer plusieurs balises de tracking sur une même page, afin de faciliter la définition de chemins de navigation (ex : achat, inscription, retour, etc.).
+* Possibilité d&#39;insérer plusieurs balises de tracking sur une même page, afin de faciliter la définition de chemins de navigation (ex : achat, inscription, retour, etc.).
 * Visualisation des chemins de navigation et des balises de tracking des différentes pages depuis le tableau de bord de l&#39;application Web.
 
    ![](assets/trackers_1.png)
@@ -49,7 +49,7 @@ Deux modes différents permettent d&#39;identifier l&#39;origine du visiteur lor
 
    ![](assets/trackers_6.png)
 
-Afin d&#39;identifier la source de trafic sur une application Web, Adobe Campaign recherche successivement les informations suivantes :
+Afin d&#39;identifier la source de trafic sur une application Web, Adobe Campaign recherche successivement les informations suivantes :
 
 1. l&#39;identifiant de la diffusion source, si elle existe (cookie nlId),
 1. l&#39;identifiant de la diffusion externe définie dans les propriétés de l&#39;application Web, si elle existe,

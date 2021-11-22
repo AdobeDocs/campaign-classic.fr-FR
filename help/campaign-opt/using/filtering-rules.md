@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Les règles de filtrage peuvent être associées à d&#39;autres types de règle
 
 Vous pouvez par exemple filtrer les abonnés à vos newsletters afin de ne jamais adresser de communications aux inscrits mineurs.
 
-Pour définir ce filtrage, les étapes sont les suivantes :
+Pour définir ce filtrage, les étapes sont les suivantes :
 
 1. Créez une règle de typologie de type **[!UICONTROL Filtrage]**, applicable à tous les canaux de communication.
 
@@ -43,7 +43,7 @@ Pour définir ce filtrage, les étapes sont les suivantes :
 
    ![](assets/campaign_opt_create_filter_04.png)
 
-Lorsque cette règle est utilisée dans une diffusion, les abonnés mineurs sont automatiquement exclus. Un message spécifique en indique l&#39;application :
+Lorsque cette règle est utilisée dans une diffusion, les abonnés mineurs sont automatiquement exclus. Un message spécifique en indique l&#39;application :
 
 ![](assets/campaign_opt_create_filter_05.png)
 
@@ -51,7 +51,7 @@ Lorsque cette règle est utilisée dans une diffusion, les abonnés mineurs sont
 
 Vous pouvez restreindre le champ d&#39;application de la règle de filtrage en fonction de la diffusion ou de la composition de diffusion associée.
 
-Pour cela, dans l&#39;onglet **[!UICONTROL Général]** de la règle de typologie, sélectionnez le type de restriction à appliquer et créez le filtre, comme ci-dessous :
+Pour cela, dans l&#39;onglet **[!UICONTROL Général]** de la règle de typologie, sélectionnez le type de restriction à appliquer et créez le filtre, comme ci-dessous :
 
 ![](assets/campaign_opt_create_filter_06.png)
 
@@ -63,11 +63,11 @@ Dans ce cas, même si la règle est associée à toutes les diffusions, elle ne 
 
 ## Créer et utiliser une typologie de filtrage {#creating-and-using-a-filtering-typology}
 
-Vous pouvez créer des typologies de **[!UICONTROL Filtrage]** : elles ne contiennent que des règles de filtrage.
+Vous pouvez créer des typologies de **[!UICONTROL Filtrage]** : elles ne contiennent que des règles de filtrage.
 
 ![](assets/campaign_opt_create_typo_filtering.png)
 
-Ces typologies spécifiques peuvent être associées à une diffusion lors du choix de la cible : dans l&#39;assistant de diffusion, cliquez sur le lien **[!UICONTROL Pour]**, puis sur l&#39;onglet **[!UICONTROL Exclusions]**.
+Ces typologies spécifiques peuvent être associées à une diffusion lors du choix de la cible : dans l&#39;assistant de diffusion, cliquez sur le lien **[!UICONTROL Pour]**, puis sur l&#39;onglet **[!UICONTROL Exclusions]**.
 
 ![](assets/campaign_opt_apply_typo_filtering.png)
 

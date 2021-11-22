@@ -29,14 +29,14 @@ Avant de démarrer cette configuration, vérifiez que vous utilisez :
    * 19.1.4.9032 - Gold Standard 11
    * 20.2.4.9187
    * 20.3.1
-* Adobe Analytics version standard.
+* Adobe Analytics version standard.
 
 Vous aurez également besoin des éléments suivants :
 
 * l’authentification de projet Adobe I/O ;
-* un IMSOrgId valide, l’identifiant du client Experience Cloud auquel Adobe Analytics a été ajouté ;
+* un IMSOrgId valide, l’identifiant du client Experience Cloud auquel Adobe Analytics a été ajouté ;
 * l’accès développeur à l’organisation IMS ;
-* la configuration des déclencheurs effectuée dans Adobe Analytics.
+* la configuration des déclencheurs effectuée dans Adobe Analytics.
 
 ## Fichiers d&#39;authentification et de configuration {#authentication-configuration}
 
@@ -48,7 +48,7 @@ L’authentification est prise en charge pour Marketing Cloud via le projet Ado
 
 Pour les clients hébergés, vous pouvez créer un ticket d’Assistance clientèle afin d’activer votre organisation avec des jetons de compte technique Adobe I/O pour l’intégration à Triggers.
 
-Pour les clients On-Premise, reportez-vous à la page [Configuration d’Adobe I/O pour les Triggers Adobe Experience Cloud](../../integrations/using/configuring-adobe-io.md). Veuillez noter que vous devez sélectionner **[!UICONTROL Adobe Analytics]** lors de l’ajout d’API aux informations d’identification d’Adobe I/O.
+Pour les clients On-Premise, reportez-vous à la page [Configuration d’Adobe I/O pour les Triggers Adobe Experience Cloud](../../integrations/using/configuring-adobe-io.md). Veuillez noter que vous devez sélectionner **[!UICONTROL Adobe Analytics]** lors de l’ajout d’API aux informations d’identification d’Adobe I/O.
 
 ## Étape 2 : configuration de l&#39;option de pipeline NmsPipeline_Config {#configuring-nmspipeline}
 

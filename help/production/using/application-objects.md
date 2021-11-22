@@ -21,7 +21,7 @@ Les objets natifs doivent être suivis. Il est important d&#39;éviter une crois
 
 ## Séquence d&#39;identifiants {#sequence-of-ids}
 
-Adobe Campaign utilise une séquence d&#39;identifiants qui doit être consommée en conséquence : **xtkNewId**. Si la séquence est consommée très rapidement (c&#39;est-à-dire à partir de 100 000 par jour), vous devez vérifier que cela correspond aux exigences de votre entreprise (envoi de millions d&#39;emails par jour, par exemple). Il est possible de définir une séquence dédiée pour des tables spécifiques. Vous pouvez configurer un workflow pour suivre l&#39;utilisation des identifiants.
+Adobe Campaign utilise une séquence d&#39;identifiants qui doit être consommée en conséquence : **xtkNewId**. Si la séquence est consommée très rapidement (c&#39;est-à-dire à partir de 100 000 par jour), vous devez vérifier que cela correspond aux exigences de votre entreprise (envoi de millions d&#39;emails par jour, par exemple). Il est possible de définir une séquence dédiée pour des tables spécifiques. Vous pouvez configurer un workflow pour suivre l&#39;utilisation des identifiants.
 
 Lorsque la séquence dépasse les 2 milliards (2 147 483 648 pour être exact), elle revient à zéro, ce qui crée des problèmes et doit être évité. Cette séquence doit donc être suivie.
 
@@ -54,7 +54,7 @@ Si un workflow importe des fichiers et n&#39;utilise pas les fonctionnalités st
 
 ## Données transactionnelles et logs {#transactional-data-and-logs}
 
-Chaque [workflow](../../workflow/using/data-life-cycle.md#work-table) qui importe des données dans Adobe Campaign entraîne une augmentation de la taille de la base de données.
+Chaque [workflow](../../workflow/using/data-life-cycle.md#work-table) qui importe des données dans Adobe Campaign entraîne une augmentation de la taille de la base de données.
 
 Vérifiez que les workflows de nettoyage ou de purge sont en cours d&#39;exécution et qu&#39;ils purgent effectivement les enregistrements. L&#39;ensemble des données transactionnelles et des logs doivent être purgés. La tâche de nettoyage purge les tables standards uniquement : logs de tracking et broadlogs. Les tables spécifiques doivent être purgées par des workflows en particulier. Voir à ce propos [cette section](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
 

@@ -29,7 +29,7 @@ Les mises à jour manuelles sont commandées à partir du menu contextuel **[!UI
 
 ![](assets/s_ncs_user_action_icon.png)
 
-Deux types de mises à jour sont possibles : mise à jour en masse pour un ensemble de destinataires et fusion d&#39;informations entre deux profils. Pour chaque action, un assistant vous permet de paramétrer la mise à jour.
+Deux types de mises à jour sont possibles : mise à jour en masse pour un ensemble de destinataires et fusion d&#39;informations entre deux profils. Pour chaque action, un assistant vous permet de paramétrer la mise à jour.
 
 ### Mise à jour en masse {#mass-update}
 
@@ -37,7 +37,7 @@ Pour une mise à jour en masse, utilisez l&#39;option **[!UICONTROL Action > Me
 
 La première étape de l&#39;assistant permet de spécifier le ou les champs sur lesquels porte la mise à jour.
 
-La section gauche de l&#39;assistant propose la liste des champs disponibles. Utilisez le champ **[!UICONTROL Rechercher]** pour lancer une recherche parmi ces champs. Utilisez la touche **Entrée** du clavier pour parcourir la liste : les libellés des champs qui correspondent à votre saisie apparaissent en gras, comme dans l&#39;exemple ci-dessous.
+La section gauche de l&#39;assistant propose la liste des champs disponibles. Utilisez le champ **[!UICONTROL Rechercher]** pour lancer une recherche parmi ces champs. Utilisez la touche **Entrée** du clavier pour parcourir la liste : les libellés des champs qui correspondent à votre saisie apparaissent en gras, comme dans l&#39;exemple ci-dessous.
 
 Double-cliquez sur le ou les champs à mettre à jour afin de les afficher dans la section droite de l&#39;assistant.
 
@@ -53,7 +53,7 @@ Vous pouvez cliquer sur le bouton **[!UICONTROL Répartition des valeurs]** pour
 
 ![](assets/s_ncs_user_update_wizard01_2.png)
 
-Vous pouvez définir des filtres pour l&#39;affichage dans cette fenêtre de répartition des valeurs ou modifier le dossier courant afin de visualiser la répartition des valeurs dans un autre dossier. Ces actions ne sont que consultatives : elles n&#39;affectent pas le paramétrage de la mise à jour en cours de définition.
+Vous pouvez définir des filtres pour l&#39;affichage dans cette fenêtre de répartition des valeurs ou modifier le dossier courant afin de visualiser la répartition des valeurs dans un autre dossier. Ces actions ne sont que consultatives : elles n&#39;affectent pas le paramétrage de la mise à jour en cours de définition.
 
 ![](assets/s_ncs_user_update_wizard01_3.png)
 
@@ -63,13 +63,13 @@ Fermez cette fenêtre et cliquez sur le bouton **[!UICONTROL Suivant]** pour aff
 
 Les informations relatives à l&#39;exécution de la mise à jour sont affichées dans la section supérieure de l&#39;assistant.
 
-Le bouton **[!UICONTROL Arrêter]** permet d&#39;annuler la mise à jour. Toutefois, certains enregistrements peuvent avoir été mis à jour : l&#39;arrêt du traitement n&#39;annulera pas ces mises à jour. La barre de progression indique l&#39;avancement de l&#39;opération.
+Le bouton **[!UICONTROL Arrêter]** permet d&#39;annuler la mise à jour. Toutefois, certains enregistrements peuvent avoir été mis à jour : l&#39;arrêt du traitement n&#39;annulera pas ces mises à jour. La barre de progression indique l&#39;avancement de l&#39;opération.
 
 ### Fusion de données {#merge-data}
 
 L&#39;option **[!UICONTROL Fusionner les lignes sélectionnées...]** permet de lancer la fusion de deux profils de destinataires. Les deux profils à fusionner doivent être sélectionnés avant de choisir l&#39;option. Un assistant vous permet de paramétrer et de lancer la fusion.
 
-L&#39;assistant permet de visualiser les valeurs qui seront récupérées pour chaque champ renseigné dans l&#39;un ou l&#39;autre des profils sources. Si un ou plusieurs champs sont renseignés dans les deux profils à fusionner avec des valeurs différentes, ils sont affichés dans la section **[!UICONTROL Liste des conflits]**. Vous pouvez alors choisir le profil par défaut en utilisant les boutons radio situés sous cette liste, comme dans l&#39;exemple suivant :
+L&#39;assistant permet de visualiser les valeurs qui seront récupérées pour chaque champ renseigné dans l&#39;un ou l&#39;autre des profils sources. Si un ou plusieurs champs sont renseignés dans les deux profils à fusionner avec des valeurs différentes, ils sont affichés dans la section **[!UICONTROL Liste des conflits]**. Vous pouvez alors choisir le profil par défaut en utilisant les boutons radio situés sous cette liste, comme dans l&#39;exemple suivant :
 
 ![](assets/s_ncs_user_merge_wizard01_1.png)
 

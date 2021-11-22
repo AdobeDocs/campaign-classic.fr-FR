@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Adobe Campaign permet de gérer les décalages horaires entre plusieurs pays concernés par la même instance. La configuration appliquée est paramétrée lors de la création de l&#39;instance.
+Adobe Campaign permet de gérer les décalages horaires entre plusieurs pays concernés par la même instance. La configuration appliquée est paramétrée lors de la création de l&#39;instance.
 
-Pour plus d&#39;informations sur la configuration des fuseaux horaires dans Adobe Campaign, consultez le [Guide d&#39;installation de Campaign Classic v7](../../installation/using/time-zone-management.md).
+Pour plus d&#39;informations sur la configuration des fuseaux horaires dans Adobe Campaign, consultez le [Guide d&#39;installation de Campaign Classic v7](../../installation/using/time-zone-management.md).
 
 Dans un workflow, vous pouvez adapter les plannings d&#39;exécution des activités, mais aussi associer un fuseau horaire spécifique à une activité ou à tout le workflow. Ce paramétrage peut être utile par exemple lors de l&#39;import de fichier ou dans le cadre de la planification des diffusions.
 
@@ -27,7 +27,7 @@ Dans un workflow, vous pouvez adapter les plannings d&#39;exécution des activit
 
 Vous pouvez planifier l’exécution des tâches à l’aide du planificateur (voir [Planificateur](scheduler.md)). Vous pouvez également utiliser les options de planification disponibles dans les activités qui proposent cette fonctionnalité. Ces activités offrent un onglet **[!UICONTROL Planification]** : **[!UICONTROL Collecteur de fichiers]**, **[!UICONTROL Transfert de fichiers]**, **[!UICONTROL Téléchargement Web]**, **[!UICONTROL Réception d’emails]** et **[!UICONTROL SMS]**, etc.
 
-Dans toute tâche planifiée, c&#39;est-à-dire dans toute activité qui propose des options de planification, vous pouvez choisir le fuseau horaire à appliquer. Le fuseau horaire est sélectionné à partir de l&#39;onglet **[!UICONTROL Avancé]** de l&#39;activité concernée :
+Dans toute tâche planifiée, c&#39;est-à-dire dans toute activité qui propose des options de planification, vous pouvez choisir le fuseau horaire à appliquer. Le fuseau horaire est sélectionné à partir de l&#39;onglet **[!UICONTROL Avancé]** de l&#39;activité concernée :
 
 ![](assets/wf-timezone-in-a-box.png)
 
@@ -35,11 +35,11 @@ Les valeurs possibles sont les suivantes :
 
 * Fuseau horaire du serveur
 
-   Utilise le fuseau horaire du serveur applicatif d&#39;Adobe Campaign.
+   Utilise le fuseau horaire du serveur applicatif d&#39;Adobe Campaign.
 
 * Fuseau horaire de l&#39;utilisateur
 
-   Utilise le fuseau horaire de l&#39;opérateur Adobe Campaign qui lance l&#39;exécution du workflow.
+   Utilise le fuseau horaire de l&#39;opérateur Adobe Campaign qui lance l&#39;exécution du workflow.
 
 * Fuseau horaire de la base de données
 

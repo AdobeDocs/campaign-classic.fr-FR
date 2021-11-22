@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Configuration des paramètres de l'email dans Adobe Campaign Classic
+title: Configuration des paramètres de l'email dans Adobe Campaign Classic
 description: Découvrez les options et les paramètres spécifiques à la diffusion par email.
 audience: delivery
 content-type: reference
@@ -57,7 +57,7 @@ Vous pouvez paramétrer le format des emails envoyés. Pour cela, éditez les pr
 
 ![](assets/s_ncs_user_wizard_email_param.png)
 
-Sélectionnez le format du mail dans la section inférieure de la fenêtre :
+Sélectionnez le format du mail dans la section inférieure de la fenêtre :
 
 * **[!UICONTROL Tenir compte des préférences des destinataires]** (mode par défaut)
 
@@ -65,7 +65,7 @@ Sélectionnez le format du mail dans la section inférieure de la fenêtre :
 
 * **[!UICONTROL Laisser le mailer des destinataires choisir le format le plus adapté]**
 
-   Le message contient les deux formats : texte et HTML. Le format affiché lors de la réception dépend de la configuration du logiciel de messagerie du destinataire (multipart-alternative).
+   Le message contient les deux formats : texte et HTML. Le format affiché lors de la réception dépend de la configuration du logiciel de messagerie du destinataire (multipart-alternative).
 
    >[!IMPORTANT]
    >
@@ -93,11 +93,11 @@ Dans les propriétés de diffusion, le champ **[!UICONTROL Mode]** de l&#39;ongl
 >
 >Un contenu HTML doit avoir été défini pour la diffusion pour que la page miroir soit créée.
 
-Outre le mode par défaut, les options disponibles sont les suivantes :
+Outre le mode par défaut, les options disponibles sont les suivantes :
 
-* **[!UICONTROL Forcer la génération de la page miroir]** : même si aucun lien vers la page miroir n&#39;est inséré dans la diffusion, la page miroir sera créée.
-* **[!UICONTROL Ne pas générer de page miroir]** : aucune page miroir n&#39;est générée, même si le lien est présent dans la diffusion.
-* **[!UICONTROL Générer une page miroir accessible depuis l&#39;identifiant du message]** : cette option permet d&#39;accéder au contenu de la page miroir, avec les informations de personnalisation, dans la fenêtre des logs de diffusion. Pour cela, une fois la diffusion terminée, cliquez sur l&#39;onglet **[!UICONTROL Diffusion]** et sélectionnez la ligne du destinataire dont vous souhaitez visualiser la page miroir. Cliquez ensuite sur le lien **[!UICONTROL Afficher la page miroir de ce message...]**.
+* **[!UICONTROL Forcer la génération de la page miroir]** : même si aucun lien vers la page miroir n&#39;est inséré dans la diffusion, la page miroir sera créée.
+* **[!UICONTROL Ne pas générer de page miroir]** : aucune page miroir n&#39;est générée, même si le lien est présent dans la diffusion.
+* **[!UICONTROL Générer une page miroir accessible depuis l&#39;identifiant du message]** : cette option permet d&#39;accéder au contenu de la page miroir, avec les informations de personnalisation, dans la fenêtre des logs de diffusion. Pour cela, une fois la diffusion terminée, cliquez sur l&#39;onglet **[!UICONTROL Diffusion]** et sélectionnez la ligne du destinataire dont vous souhaitez visualiser la page miroir. Cliquez ensuite sur le lien **[!UICONTROL Afficher la page miroir de ce message...]**.
 
    ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -137,4 +137,4 @@ Les valeurs sont automatiquement encodées, si nécessaire.
 >
 >L&#39;ajout d&#39;un script pour l&#39;insertion d&#39;en-têtes SMTP supplémentaires est réservé aux utilisateurs expérimentés.
 >
->La syntaxe de ce script doit être strictement conforme aux exigences de ce type de contenu : aucun espace superflu, aucune ligne vide, etc.
+>La syntaxe de ce script doit être strictement conforme aux exigences de ce type de contenu : aucun espace superflu, aucune ligne vide, etc.

@@ -53,7 +53,7 @@ Si vous utilisez plusieurs instances d&#39;exécution, vous devez créer autant 
 Procédez comme suit pour créer un compte externe de type **[!UICONTROL instance d&#39;exécution]** :
 
 1. Positionnez-vous au niveau du dossier **[!UICONTROL Administration > Plateforme > Comptes externes]**.
-1. Sélectionnez un des comptes externes de type instance d&#39;exécution fournis d&#39;usine par Adobe Campaign avec le bouton droit de la souris et choisissez **[!UICONTROL Dupliquer]** dans le menu contextuel .
+1. Sélectionnez un des comptes externes de type instance d&#39;exécution fournis d&#39;usine par Adobe Campaign avec le bouton droit de la souris et choisissez **[!UICONTROL Dupliquer]** dans le menu contextuel .
 
    ![](assets/messagecenter_create_extaccount_001.png)
 
@@ -69,7 +69,7 @@ Procédez comme suit pour créer un compte externe de type **[!UICONTROL instanc
 
    ![](assets/messagecenter_create_extaccount_004.png)
 
-1. Le compte doit correspondre à l&#39;Agent Message Center tel qu&#39;il est défini dans le dossier des opérateurs. Par défaut, le compte fourni d&#39;usine par Adobe Campaign est **[!UICONTROL mc]** .
+1. Le compte doit correspondre à l&#39;Agent Message Center tel qu&#39;il est défini dans le dossier des opérateurs. Par défaut, le compte fourni d&#39;usine par Adobe Campaign est **[!UICONTROL mc]** .
 
    ![](assets/messagecenter_create_extaccount_005.png)
 

@@ -23,7 +23,7 @@ Dans une condition de filtrage, il faut lier deux valeurs grâce à un opérateu
 
 ![](assets/query_editor_nveau_96.png)
 
-Voici une liste descriptive des opérateurs disponibles :
+Voici une liste descriptive des opérateurs disponibles :
 
 <table> 
  <thead> 
@@ -129,20 +129,20 @@ Cliquez sur le **[!UICONTROL Et]** (proposé par défaut) et faites votre choix 
 
 ![](assets/query_condition_modif_01.png)
 
-* **[!UICONTROL Et]** : ajoute une condition en plus de la précédente et permet de surfiltrer.
-* **[!UICONTROL Ou]** : permet de prendre en compte au moins un résultat par rapport aux conditions définies.
+* **[!UICONTROL Et]** : ajoute une condition en plus de la précédente et permet de surfiltrer.
+* **[!UICONTROL Ou]** : permet de prendre en compte au moins un résultat par rapport aux conditions définies.
 
    L&#39;exemple ci-dessous permet de retrouver des destinataires dont le domaine d&#39;email contient &quot;voila.fr&quot; OU dont le code postal commence par le chiffre &quot;49&quot;.
 
    ![](assets/query_condition_modif_02.png)
 
-* **[!UICONTROL Sauf]** : si vous avez deux filtres et que le premier permet de ne pas obtenir de valeur, une relation de ce type crée une exception.
+* **[!UICONTROL Sauf]** : si vous avez deux filtres et que le premier permet de ne pas obtenir de valeur, une relation de ce type crée une exception.
 
    Dans l&#39;exemple ci-dessous, on recherche des destinataires dont le domaine d&#39;email contient &quot;voila.fr&quot; SAUF si le nom de famille des destinataires correspond à la valeur &quot;Smith&quot;.
 
    ![](assets/query_condition_modif_03.png)
 
-Cet autre exemple montre un filtre permettant d&#39;afficher : les destinataires de langue espagnole OU les femmes dont le numéro de téléphone mobile est renseigné OU les destinataires qui n&#39;ont pas renseigné leur numéro de compte et dont le nom de société commence &quot;N&quot;.
+Cet autre exemple montre un filtre permettant d&#39;afficher : les destinataires de langue espagnole OU les femmes dont le numéro de téléphone mobile est renseigné OU les destinataires qui n&#39;ont pas renseigné leur numéro de compte et dont le nom de société commence &quot;N&quot;.
 
 ![](assets/query_editor_nveau_31.png)
 
@@ -157,7 +157,7 @@ Cette section explique comment hiérarchiser les conditions. Ceci est possible g
 
 * Les flèches pointant vers le haut et vers le bas permettent de déplacer une condition. Cela modifie l&#39;ordre d&#39;exécution des filtres.
 
-L&#39;exemple qui suit montre le comportement de la flèche servant à supprimer le niveau de parenthèse. La condition de filtrage de base est : **[!UICONTROL Ville égale à Saumur OU genre égal à masculin et numéro de téléphone mobile non renseigné OU numéro de compte commence par &quot;95&quot; et dont nom de société commence par &quot;A&quot;]**.
+L&#39;exemple qui suit montre le comportement de la flèche servant à supprimer le niveau de parenthèse. La condition de filtrage de base est : **[!UICONTROL Ville égale à Saumur OU genre égal à masculin et numéro de téléphone mobile non renseigné OU numéro de compte commence par &quot;95&quot; et dont nom de société commence par &quot;A&quot;]**.
 
 Pointez votre curseur sur la condition de filtrage **[!UICONTROL Gender (@gender) égal à Masculin]** puis cliquez sur la flèche **[!UICONTROL Supprimer un niveau de parenthèses]**.
 
@@ -189,7 +189,7 @@ L&#39;exemple ci-dessous montre les champs avancés de la table des destinataire
 
 ![](assets/query_editor_nveau_53.png)
 
-Les différentes catégories de champs :
+Les différentes catégories de champs :
 
 <table> 
  <thead> 
@@ -233,7 +233,7 @@ Les différentes catégories de champs :
  </tbody> 
 </table>
 
-Liens vers une table et éléments de collection :
+Liens vers une table et éléments de collection :
 
 <table> 
  <thead> 
@@ -271,17 +271,17 @@ Au besoin, ajoutez une colonne lors du formatage des données. Un champ calculé
 
 ![](assets/query_editor_nveau_43.png)
 
-Quatre types de champ calculé sont proposés :
+Quatre types de champ calculé sont proposés :
 
-* **[!UICONTROL Chaîne fixe]** : pour ajouter une chaîne de caractères.
+* **[!UICONTROL Chaîne fixe]** : pour ajouter une chaîne de caractères.
 
    ![](assets/query_editor_nveau_60.png)
 
-* **[!UICONTROL Chaîne avec fusion JavaScript]** : la valeur du champ calculé combine une chaîne de caractères à des directives JavaScript.
+* **[!UICONTROL Chaîne avec fusion JavaScript]** : la valeur du champ calculé combine une chaîne de caractères à des directives JavaScript.
 
    ![](assets/query_editor_nveau_61.png)
 
-* **[!UICONTROL Expression JavaScript]** : la valeur du champ calculé est le résultat de l&#39;évaluation d&#39;une fonction JavaScript. La valeur retournée peut être typée (nombre, date, etc.).
+* **[!UICONTROL Expression JavaScript]** : la valeur du champ calculé est le résultat de l&#39;évaluation d&#39;une fonction JavaScript. La valeur retournée peut être typée (nombre, date, etc.).
 
    ![](assets/query_editor_nveau_62.png)
 
@@ -293,7 +293,7 @@ Quatre types de champ calculé sont proposés :
 
    ![](assets/query_editor_nveau_63.png)
 
-   Le champ calculé de type **[!UICONTROL Enumérations]** peut comporter quatre conditions :
+   Le champ calculé de type **[!UICONTROL Enumérations]** peut comporter quatre conditions :
 
    * **[!UICONTROL Conserver la valeur source]** restitue la valeur de la source, sans transformation dans la cible.
    * **[!UICONTROL Utiliser la valeur suivante]** sert à saisir une valeur de destination par défaut, pour les valeurs sources non définies.
@@ -316,7 +316,7 @@ Les étapes sont les suivantes :
 
 1. Cliquez sur **[!UICONTROL Ajouter]** dans la fenêtre **[!UICONTROL Données à extraire]**. Dans la fenêtre **[!UICONTROL Type de formule]**, sélectionnez un type de formule pour renseigner votre expression.
 
-   Plusieurs types de formules sont disponibles : **[!UICONTROL Champ simple]**, **[!UICONTROL Agrégat]**, **[!UICONTROL Expression]**.
+   Plusieurs types de formules sont disponibles : **[!UICONTROL Champ simple]**, **[!UICONTROL Agrégat]**, **[!UICONTROL Expression]**.
 
    Sélectionnez **[!UICONTROL Traitement sur une fonction d&#39;agrégat]** puis **[!UICONTROL Comptage]**. Cliquez sur **[!UICONTROL Suivant]**.
 
@@ -326,12 +326,12 @@ Les étapes sont les suivantes :
 
    ![](assets/query_editor_nveau_88.png)
 
-Voici le détail des choix de la fenêtre **[!UICONTROL Types de formules]** :
+Voici le détail des choix de la fenêtre **[!UICONTROL Types de formules]** :
 
 ![](assets/query_editor_nveau_05.png)
 
 1. **[!UICONTROL Champ simple]** permet de revenir à la fenêtre **[!UICONTROL Champ à sélectionner]**.
-1. **[!UICONTROL Agrégat (Traitement sur une fonction d&#39;agrégat)]**. Voici des exemples d&#39;utilisation des agrégats :
+1. **[!UICONTROL Agrégat (Traitement sur une fonction d&#39;agrégat)]**. Voici des exemples d&#39;utilisation des agrégats :
 
    * **[!UICONTROL Comptage]** permet d&#39;effectuer un comptage de clé primaire.
    * **[!UICONTROL Somme]** sert à totaliser tous les achats d&#39;un prospect sur une année.
@@ -351,11 +351,11 @@ Voici le détail des choix de la fenêtre **[!UICONTROL Types de formules]** :
 
 Dans le cas où une formule de type **[!UICONTROL Expression]** est choisie, vous vous retrouvez dans la fenêtre édition de l&#39;expression. Différentes catégories de fonctions sont à associer aux champs disponibles : **[!UICONTROL Agrégats]**, **[!UICONTROL Chaine]**, **[!UICONTROL Date]**, **[!UICONTROL Numérique]**, **[!UICONTROL Monétaire]**, **[!UICONTROL Géomarketing]**, **[!UICONTROL Autres]** et **[!UICONTROL Fonctions Windows]**.
 
-L&#39;éditeur d&#39;expression se présente comme suit :
+L&#39;éditeur d&#39;expression se présente comme suit :
 
 ![](assets/s_ncs_user_filter_define_expression.png)
 
-Il permet de sélectionner des champs dans les tables de la base de données et de leur adjoindre des fonctions avancées. Les fonctions disponibles sont les suivantes :
+Il permet de sélectionner des champs dans les tables de la base de données et de leur adjoindre des fonctions avancées. Les fonctions disponibles sont les suivantes :
 
 **Agrégats**
 

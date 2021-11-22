@@ -39,7 +39,7 @@ Sélectionnez les différentes options de la section **[!UICONTROL Navigation]**
 
 ## Ajouter un en-tête et un pied de page {#adding-a-header-and-a-footer}
 
-La fenêtre des propriétés du rapport permet également de définir des éléments de mise en page, tels que : le titre de la fenêtre, le contenu HTML de la zone d&#39;en-tête et celui du pied de page.
+La fenêtre des propriétés du rapport permet également de définir des éléments de mise en page, tels que : le titre de la fenêtre, le contenu HTML de la zone d&#39;en-tête et celui du pied de page.
 
 Pour accéder à la fenêtre les propriétés, cliquez sur le bouton **[!UICONTROL Propriétés]** du rapport.
 
@@ -51,16 +51,16 @@ L&#39;onglet **[!UICONTROL Page]** permet de personnaliser l&#39;affichage.
 
 Le contenu paramétré dans cet onglet sera visible sur toutes les pages du rapport.
 
-Le sous-onglet **[!UICONTROL Textes]** permet de définir des contenus variables : ils seront pris en compte dans le cycle de traduction lorsque le rapport est destiné à être proposé dans plusieurs langues.
+Le sous-onglet **[!UICONTROL Textes]** permet de définir des contenus variables : ils seront pris en compte dans le cycle de traduction lorsque le rapport est destiné à être proposé dans plusieurs langues.
 
-Vous pouvez ainsi créer une liste de fragments de textes et les associer à des identifiants :
+Vous pouvez ainsi créer une liste de fragments de textes et les associer à des identifiants :
 
 ![](assets/s_ncs_advuser_report_properties_04a.png)
 
-Puis insérer ces identifiants dans les contenus HTML du rapport :
+Puis insérer ces identifiants dans les contenus HTML du rapport :
 
 ![](assets/s_ncs_advuser_report_properties_04b.png)
 
 Ils seront remplacés automatiquement à l&#39;affichage du rapport par le contenu correspondant.
 
-Ce mode de fonctionnement permet, comme pour les textes HTML, de centraliser les textes utilisés dans le rapport et d&#39;en gérer les traductions. En effet, les textes créés dans cet onglet sont collectés automatiquement dans l&#39;outil de traduction intégré d&#39;Adobe Campaign.
+Ce mode de fonctionnement permet, comme pour les textes HTML, de centraliser les textes utilisés dans le rapport et d&#39;en gérer les traductions. En effet, les textes créés dans cet onglet sont collectés automatiquement dans l&#39;outil de traduction intégré d&#39;Adobe Campaign.

@@ -33,7 +33,7 @@ Par exemple :
 
 La position des libellés est appliquée aux éléments placés en sous-arborescence du conteneur. Elle peut éventuellement être surchargée au niveau de chaque élément si nécessaire. Le nombre de colonnes permet de modifier la mise en page. Voir [Placer les champs de la page](#positioning-the-fields-on-the-page).
 
-Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
+Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
 
 ![](assets/s_ncs_admin_survey_containers_std_ex.png)
 
@@ -41,9 +41,9 @@ Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
 
 La mise en page du formulaire web est définie page par page, pour chaque conteneur et peut être surchargée si nécessaire.
 
-Les pages sont organisées en colonnes : chaque page contient un certain nombre de colonnes. Chaque champ de la page occupe **n** cellules. Les conteneurs s’étendent eux aussi sur un certain nombre de colonnes et les champs qu’ils contiennent s’étendent sur un certain nombre de cellules.
+Les pages sont organisées en colonnes : chaque page contient un certain nombre de colonnes. Chaque champ de la page occupe **n** cellules. Les conteneurs s’étendent eux aussi sur un certain nombre de colonnes et les champs qu’ils contiennent s’étendent sur un certain nombre de cellules.
 
-Par défaut, les pages sont construites sur une seule colonne et chaque élément occupe une cellule. Ainsi, les zones sont affichées les unes en dessous des autres, chacune occupant toute la ligne, comme ci-dessous :
+Par défaut, les pages sont construites sur une seule colonne et chaque élément occupe une cellule. Ainsi, les zones sont affichées les unes en dessous des autres, chacune occupant toute la ligne, comme ci-dessous :
 
 ![](assets/s_ncs_admin_survey_container_ex.png)
 
@@ -51,15 +51,15 @@ Dans l&#39;exemple suivant, le paramétrage par défaut a été conservé. La pa
 
 ![](assets/s_ncs_admin_survey_container_ex0.png)
 
-Chaque conteneur s&#39;étend sur une colonne et chaque élément occupe une cellule :
+Chaque conteneur s&#39;étend sur une colonne et chaque élément occupe une cellule :
 
 ![](assets/s_ncs_admin_survey_container_ex0a.png)
 
-Le rendu est le suivant :
+Le rendu est le suivant :
 
 ![](assets/s_ncs_admin_survey_container_ex0_rend.png)
 
-Vous pouvez adapter les paramètres d&#39;affichage pour obtenir le rendu suivant :
+Vous pouvez adapter les paramètres d&#39;affichage pour obtenir le rendu suivant :
 
 ![](assets/s_ncs_admin_survey_container_ex1_rend.png)
 
@@ -69,7 +69,7 @@ Vous pouvez modifier la mise en page au niveau de chaque conteneur. Dans notre e
 
 ![](assets/s_ncs_admin_survey_container_ex2_rend.png)
 
-Le titre et la liste occupent une cellule chacun (donc toute une ligne du conteneur) et la case à cocher s&#39;étend sur deux cellules. Le nombre de cellule attribuée à la zone de saisie est défini dans l&#39;onglet **[!UICONTROL Général]** ou dans l&#39;onglet **[!UICONTROL Avancé]**, selon le type de zone :
+Le titre et la liste occupent une cellule chacun (donc toute une ligne du conteneur) et la case à cocher s&#39;étend sur deux cellules. Le nombre de cellule attribuée à la zone de saisie est défini dans l&#39;onglet **[!UICONTROL Général]** ou dans l&#39;onglet **[!UICONTROL Avancé]**, selon le type de zone :
 
 ![](assets/s_ncs_admin_survey_container_ex2.png)
 
@@ -85,9 +85,9 @@ Les paramètres d&#39;affichage globaux pour tout le formulaire sont indiqués d
 
 Cette position peut être surchargée au niveau de chaque page, puis de chaque conteneur et enfin au niveau de chaque champ, à partir de l&#39;onglet **[!UICONTROL Avancé]**.
 
-Les alignements supportés sont les suivants :
+Les alignements supportés sont les suivants :
 
-* Hérité : l&#39;alignement est hérité de l&#39;élément parent (valeur par défaut), c&#39;est-à-dire le conteneur parent, ou, à défaut, la page.
-* Gauche/Droite : le libellé est positionné à droite ou à gauche du champ,
-* Au-dessus/En-dessous : le libellé est positionné au-dessus ou en-dessous du champ,
-* Caché : le libellé n&#39;est pas affiché.
+* Hérité : l&#39;alignement est hérité de l&#39;élément parent (valeur par défaut), c&#39;est-à-dire le conteneur parent, ou, à défaut, la page.
+* Gauche/Droite : le libellé est positionné à droite ou à gauche du champ,
+* Au-dessus/En-dessous : le libellé est positionné au-dessus ou en-dessous du champ,
+* Caché : le libellé n&#39;est pas affiché.

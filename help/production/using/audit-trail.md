@@ -17,13 +17,13 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Dans Adobe Campaign, le **[!UICONTROL Suivi]** vous donne accès à l’historique complet des modifications apportées à votre instance.
+Dans Adobe Campaign, le **[!UICONTROL Suivi]** vous donne accès à l’historique complet des modifications apportées à votre instance.
 
-Le **[!UICONTROL Suivi]** capture en temps réel la liste complète des actions et des événements qui se produisent au sein de votre instance Adobe Campaign. Il vous permet d’accéder à un historique de données en libre-service afin de vous aider à répondre à des questions portant notamment sur ce qui arrivé à vos workflows, les personnes qui les ont mis à jour pour la dernière fois et ce qu’ont fait vos utilisateurs dans l’instance.
+Le **[!UICONTROL Suivi]** capture en temps réel la liste complète des actions et des événements qui se produisent au sein de votre instance Adobe Campaign. Il vous permet d’accéder à un historique de données en libre-service afin de vous aider à répondre à des questions portant notamment sur ce qui arrivé à vos workflows, les personnes qui les ont mis à jour pour la dernière fois et ce qu’ont fait vos utilisateurs dans l’instance.
 
 >[!NOTE]
 >
->Adobe Campaign n’effectue pas le suivi des modifications apportées aux droits des utilisateurs, aux modèles, aux personnalisations ni aux campagnes.\
+>Adobe Campaign n’effectue pas le suivi des modifications apportées aux droits des utilisateurs, aux modèles, aux personnalisations ni aux campagnes.\
 >Le Suivi peut uniquement être géré par les administrateurs de l’instance.
 
 Le Suivi comprend trois composants :
@@ -60,7 +60,7 @@ Pour accéder au **[!UICONTROL Suivi]** de votre instance :
 
    ![](assets/audit_trail_1.png)
 
-1. La fenêtre **[!UICONTROL Suivi]** s’ouvre avec la liste de vos entités. Adobe Campaign effectuera le suivi des actions de création, d’édition et de suppression pour les workflows, les options et les schémas.
+1. La fenêtre **[!UICONTROL Suivi]** s’ouvre avec la liste de vos entités. Adobe Campaign effectuera le suivi des actions de création, d’édition et de suppression pour les workflows, les options et les schémas.
 
    Sélectionnez l’une des entités pour en savoir plus sur les dernières modifications.
 

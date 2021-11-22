@@ -21,13 +21,13 @@ Ce cas pratique présente comment générer, chaque mois, le rapport d&#39;usine
 
 ![](assets/use_case_report_intro.png)
 
-Les étapes principales de mise en oeuvre de ce cas pratique sont les suivantes :
+Les étapes principales de mise en oeuvre de ce cas pratique sont les suivantes :
 
 * Création d’une liste de destinataires qui recevront la diffusion (voir : [Etape 1 : création de la liste de destinataires](#step-1--creating-the-recipient-list)).
 * Création d&#39;un modèle de diffusion qui permettra de générer une nouvelle diffusion à chaque exécution du workflow (voir : [Etape 2 : création du modèle de diffusion](#step-2--creating-the-delivery-template)).
 * Création d&#39;un workflow qui permettra de générer le rapport au format PDF et de l&#39;envoyer à la liste de destinataires (voir : [Etape 3 : création du workflow](#step-3--creating-the-workflow)).
 
-## Etape 1 : création de la liste de destinataires {#step-1--creating-the-recipient-list}
+## Etape 1 : création de la liste de destinataires {#step-1--creating-the-recipient-list}
 
 Accédez à l’onglet **[!UICONTROL Profils et cibles]**, cliquez sur le lien **[!UICONTROL Listes]**, puis sur le bouton **[!UICONTROL Créer]**. Sélectionnez **[!UICONTROL Nouvelle liste]** et créez une liste de destinataires à laquelle envoyer le rapport.
 
@@ -35,19 +35,19 @@ Accédez à l’onglet **[!UICONTROL Profils et cibles]**, cliquez sur le lien *
 
 Pour plus d&#39;informations sur la création de listes, reportez-vous à cette [section](../../platform/using/creating-and-managing-lists.md).
 
-## Etape 2 : création du modèle de diffusion {#step-2--creating-the-delivery-template}
+## Etape 2 : création du modèle de diffusion {#step-2--creating-the-delivery-template}
 
-1. Dans l&#39;explorateur Adobe Campaign, positionnez-vous sur le noeud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]** et dupliquez le modèle d&#39;usine **[!UICONTROL Diffuser par email]**.
+1. Dans l&#39;explorateur Adobe Campaign, positionnez-vous sur le noeud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]** et dupliquez le modèle d&#39;usine **[!UICONTROL Diffuser par email]**.
 
    ![](assets/use_case_report_2.png)
 
    Pour plus d&#39;informations sur la création d&#39;un modèle de diffusion, reportez-vous à cette [section](../../delivery/using/about-templates.md).
 
-1. Renseignez les différents paramètres du modèle : le libellé, la cible (la liste de destinataires précédemment créée), l&#39;objet et le contenu.
+1. Renseignez les différents paramètres du modèle : le libellé, la cible (la liste de destinataires précédemment créée), l&#39;objet et le contenu.
 
    ![](assets/use_case_report_3.png)
 
-1. Chaque fois que le workflow est exécuté, le rapport des **[!UICONTROL Indicateurs de tracking]** est mis à jour (voir [Etape 3 : création du workflow](#step-3--creating-the-workflow)). Pour inclure la dernière version du rapport dans la diffusion, vous devez ajouter un **[!UICONTROL Attachement calculé]** :
+1. Chaque fois que le workflow est exécuté, le rapport des **[!UICONTROL Indicateurs de tracking]** est mis à jour (voir [Etape 3 : création du workflow](#step-3--creating-the-workflow)). Pour inclure la dernière version du rapport dans la diffusion, vous devez ajouter un **[!UICONTROL Attachement calculé]** :
 
    Pour plus d&#39;informations sur la création d&#39;un attachement calculé, reportez-vous à cette [section](../../delivery/using/attaching-files.md#creating-a-calculated-attachment).
 
@@ -55,7 +55,7 @@ Pour plus d&#39;informations sur la création de listes, reportez-vous à cette 
 
       ![](assets/use_case_report_4.png)
 
-   * Dans le champ **[!UICONTROL Type]**, choisissez la quatrième option : **[!UICONTROL Le nom de fichier est calculé au moment de l&#39;envoi pour chaque message (il peut dépendre du destinataire)]**.
+   * Dans le champ **[!UICONTROL Type]**, choisissez la quatrième option : **[!UICONTROL Le nom de fichier est calculé au moment de l&#39;envoi pour chaque message (il peut dépendre du destinataire)]**.
 
       ![](assets/use_case_report_5.png)
 
@@ -67,15 +67,15 @@ Pour plus d&#39;informations sur la création de listes, reportez-vous à cette 
 
       >[!CAUTION]
       >
-      >Le fichier doit être présent sur le serveur. Son chemin d’accès et son nom doivent être identiques à ceux saisis dans l’activité de type **[!UICONTROL Code JavaScript]** du workflow (voir : [Etape 3 : création du workflow](#step-3--creating-the-workflow)).
+      >Le fichier doit être présent sur le serveur. Son chemin d’accès et son nom doivent être identiques à ceux saisis dans l’activité de type **[!UICONTROL Code JavaScript]** du workflow (voir : [Etape 3 : création du workflow](#step-3--creating-the-workflow)).
 
    * Sélectionnez l&#39;onglet **[!UICONTROL Avancé]** et cochez la case **[!UICONTROL Scripter le nom du fichier qui sera affiché dans la messagerie du destinataire]**. Dans la zone d&#39;édition, saisissez le nom que vous souhaitez donner à la pièce jointe, dans la diffusion finale.
 
       ![](assets/use_case_report_6bis.png)
 
-## Etape 3 : création du workflow {#step-3--creating-the-workflow}
+## Etape 3 : création du workflow {#step-3--creating-the-workflow}
 
-Pour réaliser ce cas d&#39;utilisation, le workflow suivant a été créé. Celui-ci comporte trois activités :
+Pour réaliser ce cas d&#39;utilisation, le workflow suivant a été créé. Celui-ci comporte trois activités :
 
 * une activité de type **[!UICONTROL Planificateur]** permettant d&#39;exécuter le workflow tous les mois,
 * une activité de type **[!UICONTROL Code JavaScript]** permettant de générer le rapport au format PDF,
@@ -97,7 +97,7 @@ Pour réaliser ce cas d&#39;utilisation, le workflow suivant a été créé. Cel
 
    ![](assets/use_case_report_10.png)
 
-   Dans la zone d&#39;édition, saisissez le code suivant :
+   Dans la zone d&#39;édition, saisissez le code suivant :
 
    ```
    var reportName = "deliveryFeedback";
@@ -110,22 +110,22 @@ Pour réaliser ce cas d&#39;utilisation, le workflow suivant a été créé. Cel
    xtk.report.export(reportName, _ctx, exportFormat, path, isAdhoc);
    ```
 
-   Les variables utilisées sont les suivantes :
+   Les variables utilisées sont les suivantes :
 
-   * **var reportName** : saisissez, entre guillemets, le nom interne du rapport. Dans notre exemple, le nom interne du rapport **Indicateur de tracking** est &quot;deliveryFeedback&quot;.
+   * **var reportName** : saisissez, entre guillemets, le nom interne du rapport. Dans notre exemple, le nom interne du rapport **Indicateur de tracking** est &quot;deliveryFeedback&quot;.
    * **var path** : saisissez le chemin d’enregistrement du fichier (&quot;tmp/files/&quot;), le nom que vous souhaitez donner au fichier (&quot;deliveryFeedback&quot;) et l’extension du fichier (&quot;.pdf&quot;). Dans notre exemple, nous avons utilisé le nom interne comme nom de fichier. Les valeurs doivent être entre guillemets et séparées par le caractère &quot;+&quot;.
 
       >[!CAUTION]
       >
       >Le fichier doit être enregistré sur le serveur. Vous devez saisir le même chemin et le même nom dans l’onglet **[!UICONTROL Général]** de la fenêtre d’édition de l’attachement calculé (voir : [Etape 2 : Création du modèle de diffusion](#step-2--creating-the-delivery-template)).
 
-   * **var exportFormat** : saisissez le format d&#39;export du fichier (&quot;PDF&quot;).
-   * **var _ctx** (contexte) : dans notre exemple, nous utilisons le rapport **[!UICONTROL Indicateurs de tracking]** dans son contexte global.
+   * **var exportFormat** : saisissez le format d&#39;export du fichier (&quot;PDF&quot;).
+   * **var _ctx** (contexte) : dans notre exemple, nous utilisons le rapport **[!UICONTROL Indicateurs de tracking]** dans son contexte global.
 
-1. Ajoutez enfin une activité de type **[!UICONTROL Diffusion]** et choisissez les options suivantes :
+1. Ajoutez enfin une activité de type **[!UICONTROL Diffusion]** et choisissez les options suivantes :
 
-   * **[!UICONTROL Diffusion]** : sélectionnez **[!UICONTROL Nouvelle, créée depuis un modèle]**, et sélectionnez le modèle de diffusion créé précédemment.
+   * **[!UICONTROL Diffusion]** : sélectionnez **[!UICONTROL Nouvelle, créée depuis un modèle]**, et sélectionnez le modèle de diffusion créé précédemment.
    * Pour les champs **[!UICONTROL Destinataires]** et **[!UICONTROL Contenu]**, sélectionnez **[!UICONTROL Spécifiés dans la diffusion]**.
-   * **[!UICONTROL Action à effectuer]** : sélectionnez **[!UICONTROL Préparer et démarrer]**.
+   * **[!UICONTROL Action à effectuer]** : sélectionnez **[!UICONTROL Préparer et démarrer]**.
    * Décochez les options **[!UICONTROL Générer une transition sortante]** et **[!UICONTROL Traiter les erreurs]**.
    ![](assets/use_case_report_11.png)

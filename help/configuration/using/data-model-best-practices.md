@@ -49,7 +49,7 @@ Le modèle de données par défaut d’Adobe Campaign est présenté dans ce [d
 >
 > Adobe Campaign Classic permet de créer une table client personnalisée. Cependant, dans la plupart des cas, il est recommandé d’utiliser la [table des destinataires](../../configuration/using/about-data-model.md#default-recipient-table) standard qui contient des tables et des fonctionnalités supplémentaires préconfigurées.
 
-### Données pour Adobe Campaign {#data-for-campaign}
+### Données pour Adobe Campaign {#data-for-campaign}
 
 Quelles données doivent être envoyées à Adobe Campaign ? Il est essentiel de déterminer les données requises pour vos activités marketing.
 

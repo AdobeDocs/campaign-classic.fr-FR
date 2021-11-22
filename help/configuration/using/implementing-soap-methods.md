@@ -21,11 +21,11 @@ ht-degree: 100%
 
 Il est possible de créer des méthodes SOAP en Javascript. Cette fonctionnalité permet simplement des traitements applicatifs, elle peut remplacer le développement de JSPs et leur invocation dans les formulaire.
 
-Ces méthodes SOAP se comporteront de la même façon que celles définies nativement dans l&#39;application. Les mêmes attributs sont supportés : statique, clé seule et const.
+Ces méthodes SOAP se comporteront de la même façon que celles définies nativement dans l&#39;application. Les mêmes attributs sont supportés : statique, clé seule et const.
 
 ## Définition d&#39;une bibliothèque de méthodes {#defining-a-method-library}
 
-La création d&#39;une bibliothèque de méthodes se divise en deux parties :
+La création d&#39;une bibliothèque de méthodes se divise en deux parties :
 
 * La déclaration SOAP des méthodes,
 * La définition (ou l&#39;implémentation) en JavaScript.
@@ -66,7 +66,7 @@ Le script peut contenir du code qui sera exécuté au chargement initial de la b
 
 **1. Nom**
 
-Le nom de la fonction doit respecter le format suivant :
+Le nom de la fonction doit respecter le format suivant :
 
 ```
  <schema-namespace>_<schema-name>_<method-name>
@@ -87,14 +87,14 @@ function nms_recipient_testLog(message)
 
 La signature de la fonction doit inclure un argument correspondant à chaque paramètre de type &#39;in&#39; ou &#39;inout&#39; de la déclaration.
 
-Cas particuliers :
+Cas particuliers :
 
-* **les méthodes non statiques** : la fonction doit inclure un argument supplémentaire en première position correspondant à l&#39;entité XML passée sous forme d&#39;objet de type &#39;xml&#39; (E4X).
-* **les méthodes de type &quot;clé seule&quot;** : la fonction doit inclure un argument supplémentaire en première position correspondant à clé passée sous forme de chaîne de caractères.
+* **les méthodes non statiques** : la fonction doit inclure un argument supplémentaire en première position correspondant à l&#39;entité XML passée sous forme d&#39;objet de type &#39;xml&#39; (E4X).
+* **les méthodes de type &quot;clé seule&quot;** : la fonction doit inclure un argument supplémentaire en première position correspondant à clé passée sous forme de chaîne de caractères.
 
 **3. Valeurs retournées**
 
-La fonction doit retourner une valeur pour chaque paramètre déclaré de type &#39;out&#39; ou &#39;inout&#39;. Cas particulier : Si la méthode est déclarée avec aucun des attributs &#39;statique&#39;, &#39;clé seule&#39; et &#39;const&#39;, La première valeur retournée doit correspondre à l&#39;entité modifiée. Il est possible de retourner un nouvel objet ou de retourner le premier paramètre modifié.
+La fonction doit retourner une valeur pour chaque paramètre déclaré de type &#39;out&#39; ou &#39;inout&#39;. Cas particulier : Si la méthode est déclarée avec aucun des attributs &#39;statique&#39;, &#39;clé seule&#39; et &#39;const&#39;, La première valeur retournée doit correspondre à l&#39;entité modifiée. Il est possible de retourner un nouvel objet ou de retourner le premier paramètre modifié.
 
 Par exemple :
 

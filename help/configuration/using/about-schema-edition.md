@@ -17,19 +17,19 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Dans Adobe Campaign, les schémas de données permettent de :
+Dans Adobe Campaign, les schémas de données permettent de :
 
-* définir la façon dont les objets de l&#39;application sont liés à des tables de la base de données ;
-* définir des liens entre les différents objets de l&#39;application ;
+* définir la façon dont les objets de l&#39;application sont liés à des tables de la base de données ;
+* définir des liens entre les différents objets de l&#39;application ;
 * définir et décrire les champs individuels inclus dans chaque objet.
 
 Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, consultez [cette section](https://helpx.adobe.com/fr/campaign/kb/acc-datamodel.html).
 
 ## Extension ou création de schémas {#extending-or-creating-schemas}
 
-Pour ajouter un champ, un index ou tout autre élément à l&#39;un des schémas d&#39;usine d&#39;Adobe Campaign, comme la table des destinataires (nms:recipient), vous devez étendre ce schéma. Voir à ce sujet la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md).
+Pour ajouter un champ, un index ou tout autre élément à l&#39;un des schémas d&#39;usine d&#39;Adobe Campaign, comme la table des destinataires (nms:recipient), vous devez étendre ce schéma. Voir à ce sujet la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md).
 
-Pour ajouter un nouveau type de données qui n&#39;existe pas par défaut dans Adobe Campaign (une table des contrats par exemple), vous pouvez directement créer un schéma personnalisé. Voir à ce sujet la section [Schémas de données](../../configuration/using/data-schemas.md).
+Pour ajouter un nouveau type de données qui n&#39;existe pas par défaut dans Adobe Campaign (une table des contrats par exemple), vous pouvez directement créer un schéma personnalisé. Voir à ce sujet la section [Schémas de données](../../configuration/using/data-schemas.md).
 
 ![](assets/schemaextension_getting_started_1.png)
 
@@ -136,7 +136,7 @@ La liste complète des attributs est disponible dans la section [`<attribute>`El
 * **@xml**
 * **@type**
 
-   Pour obtenir le tableau répertoriant les correspondances des types de données générés par Adobe Campaign pour les différents systèmes de gestion de base de données, consultez la section [Correspondance des types de données Adobe Campaign/SGBD](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
+   Pour obtenir le tableau répertoriant les correspondances des types de données générés par Adobe Campaign pour les différents systèmes de gestion de base de données, consultez la section [Correspondance des types de données Adobe Campaign/SGBD](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
 
 Pour en xavoir plus sur chaque attribut, consultez la section [Description des attributs](../../configuration/using/schema/attribute.md).
 
@@ -170,7 +170,7 @@ Exemple de champ XML également stocké dans un champ SQL et qui a un attribut *
 >
 >Alors que la plupart des attributs sont associés selon une cardinalité 1-1 à un champ physique de la base de données, ce n&#39;est pas le cas pour les champs XML ni les champs calculés.\
 >Un champ XML est stocké dans un champ memo (&quot;mData&quot;) de la table.\
->Un champ calculé en revanche est créé dynamiquement chaque fois qu&#39;une requête est lancée ; il n&#39;existe donc que dans la couche applicative.
+>Un champ calculé en revanche est créé dynamiquement chaque fois qu&#39;une requête est lancée ; il n&#39;existe donc que dans la couche applicative.
 
 ## Liens {#links}
 
@@ -188,13 +188,13 @@ Exemple de relation 1-N entre la table des destinataires (schéma d&#39;usine) e
 <element label="Recipient" name="lnkRecipient" revLink="lnkTransactions" target="nms:recipient" type="link"/>
 ```
 
-Exemple de relation 1-1 entre un schéma personnalisé &quot;Car&quot; (dans l&#39;espace de noms &quot;cus&quot;) et la table des destinataires :
+Exemple de relation 1-1 entre un schéma personnalisé &quot;Car&quot; (dans l&#39;espace de noms &quot;cus&quot;) et la table des destinataires :
 
 ```
 <element label="Car" name="lnkCar" revCardinality="single" revLink="recipient" target="cus:car" type="link"/>
 ```
 
-Exemple d&#39;une jointure externe entre la table des destinataires et une table des adresses reposant sur l&#39;adresse e-mail et non une clé primaire :
+Exemple d&#39;une jointure externe entre la table des destinataires et une table des adresses reposant sur l&#39;adresse email et non une clé primaire :
 
 ```
 <element name="emailInfo" label="Email Info" revLink="recipient" target="nms:address" type="link" externalJoin="true">

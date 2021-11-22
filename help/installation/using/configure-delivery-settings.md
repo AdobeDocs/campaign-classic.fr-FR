@@ -65,11 +65,11 @@ Voir également la section [Optimisation de l’envoi d’emails](../../installa
 
 Vous pouvez améliorer le trafic SMTP sortant grâce à des affinités avec les adresses IP.
 
-Pour cela, les étapes sont les suivantes :
+Pour cela, les étapes sont les suivantes :
 
 1. Saisissez les affinités dans la section **`<ipaffinity>`** du fichier **serverConf.xml**.
 
-   Vous pouvez définir plusieurs noms pour une même affinité : ces noms doivent être séparés les uns des autres par le caractère **;**.
+   Vous pouvez définir plusieurs noms pour une même affinité : ces noms doivent être séparés les uns des autres par le caractère **;**.
 
    Exemple:
 
@@ -88,7 +88,7 @@ Pour cela, les étapes sont les suivantes :
    >
    >Les énumérations sont présentées dans [ce document](../../platform/using/managing-enumerations.md).
 
-   Il est ensuite possible de sélectionner l&#39;affinité à utiliser, comme ci-dessous au niveau des typologies :
+   Il est ensuite possible de sélectionner l&#39;affinité à utiliser, comme ci-dessous au niveau des typologies :
 
    ![](assets/ipaffinity_typology.png)
 

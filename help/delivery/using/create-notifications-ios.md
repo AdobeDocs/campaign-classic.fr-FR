@@ -45,7 +45,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
 
    ![](assets/nmac_delivery_ios_3.png)
 
-1. Sélectionnez le type de notification : **[!UICONTROL Alerte]**, **[!UICONTROL Pastille]**, **[!UICONTROL Alerte et pastille]** ou **[!UICONTROL Silent push]**.
+1. Sélectionnez le type de notification : **[!UICONTROL Alerte]**, **[!UICONTROL Pastille]**, **[!UICONTROL Alerte et pastille]** ou **[!UICONTROL Silent push]**.
 
    ![](assets/nmac_delivery_ios_4.png)
 
@@ -74,7 +74,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
    >
    >Les sons doivent être inclus dans l’application et définis lors de la création du service. Consultez [cette section](configuring-the-mobile-application.md#configuring-external-account-ios).
 
-1. Dans le champ **[!UICONTROL Variables de l&#39;application]**, renseignez la valeur de chaque variable. Les variables de l&#39;application permettent de définir le comportement des notifications : par exemple, lorsque l&#39;utilisateur active la notification, il est possible d&#39;afficher un écran particulier de l&#39;application.
+1. Dans le champ **[!UICONTROL Variables de l&#39;application]**, renseignez la valeur de chaque variable. Les variables de l&#39;application permettent de définir le comportement des notifications : par exemple, lorsque l&#39;utilisateur active la notification, il est possible d&#39;afficher un écran particulier de l&#39;application.
 
    >[!NOTE]
    >
@@ -86,7 +86,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
 
    >[!NOTE]
    >
-   >Le style de la notification (bannière ou alerte) n&#39;est pas défini dans Adobe Campaign. Il dépend de la configuration choisie par l&#39;utilisateur dans les réglages iOS. Adobe Campaign vous permet cependant d&#39;afficher un aperçu de la notification pour chaque style. Cliquez sur la flèche, en bas à droite, pour basculer d&#39;un style à l&#39;autre.
+   >Le style de la notification (bannière ou alerte) n&#39;est pas défini dans Adobe Campaign. Il dépend de la configuration choisie par l&#39;utilisateur dans les réglages iOS. Adobe Campaign vous permet cependant d&#39;afficher un aperçu de la notification pour chaque style. Cliquez sur la flèche, en bas à droite, pour basculer d&#39;un style à l&#39;autre.
    >
    >L&#39;aperçu utilise l&#39;apparence d&#39;iOS 10.
 
@@ -101,7 +101,7 @@ Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions
 
 ## Créer une notification iOS enrichie {#creating-ios-delivery}
 
-Avec iOS 10 ou version ultérieure, il est possible de générer des notifications enrichies. Adobe Campaign peut envoyer des notifications à l&#39;aide de variables qui permettront à l&#39;appareil d&#39;afficher des notifications enrichies.
+Avec iOS 10 ou version ultérieure, il est possible de générer des notifications enrichies. Adobe Campaign peut envoyer des notifications à l&#39;aide de variables qui permettront à l&#39;appareil d&#39;afficher des notifications enrichies.
 
 Vous devez maintenant créer une nouvelle diffusion et l’associer à l’application mobile que vous avez créée.
 

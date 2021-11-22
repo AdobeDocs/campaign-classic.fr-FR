@@ -49,7 +49,7 @@ Lorsque vous lancez l&#39;assistant d&#39;import, vous devez d&#39;abord sélect
    Le modèle natif est **[!UICONTROL Nouvel import texte]**. Ce modèle ne doit pas être modifié, mais vous pouvez le dupliquer pour paramétrer un modèle correspondant à vos besoins. Par défaut, les modèles d&#39;import sont enregistrés dans le nœud **[!UICONTROL Profils et cibles > Modèles > Modèles de traitement]**.
 
 1. Saisissez un nom pour cet import dans le champ **[!UICONTROL Libellé]**. Vous pouvez ajouter une description.
-1. Sélectionnez le type d&#39;import dans le champ correspondant. Deux types d&#39;imports sont possibles : **[!UICONTROL Import simple]** pour n&#39;importer qu&#39;un seul fichier et **[!UICONTROL Import multiple]** pour importer plusieurs fichiers en une seule exécution.
+1. Sélectionnez le type d&#39;import dans le champ correspondant. Deux types d&#39;imports sont possibles : **[!UICONTROL Import simple]** pour n&#39;importer qu&#39;un seul fichier et **[!UICONTROL Import multiple]** pour importer plusieurs fichiers en une seule exécution.
 
    Dans le cas d&#39;un import multiple, sélectionnez **[!UICONTROL Import multiple]** dans la liste déroulante **[!UICONTROL Type d&#39;import]** du premier écran de l&#39;assistant d&#39;import.
 
@@ -67,7 +67,7 @@ Lorsque vous lancez l&#39;assistant d&#39;import, vous devez d&#39;abord sélect
 
 ### Paramètres avancés {#advanced-parameters}
 
-Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux options suivantes :
+Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux options suivantes :
 
 * Onglet **[!UICONTROL Général]**
 
@@ -107,7 +107,7 @@ Une fois le fichier spécifié, vous pouvez en visualiser les données dans la s
 
 ![](assets/s_ncs_user_import_wizard02_2.png)
 
-Utilisez les options proposées au-dessus de cette vue pour paramétrer l&#39;import. Les paramètres définis via ces options sont répercutés dans l&#39;aperçu. Les options disponibles sont les suivantes :
+Utilisez les options proposées au-dessus de cette vue pour paramétrer l&#39;import. Les paramètres définis via ces options sont répercutés dans l&#39;aperçu. Les options disponibles sont les suivantes :
 
 * **[!UICONTROL Cliquez ici pour changer le format du fichier...]** permet de vérifier le format du fichier et d&#39;affiner le paramétrage.
 * **[!UICONTROL Mettre à jour sur le serveur...]** permet de transférer le fichier local sur le serveur. Cette option n&#39;est disponible que si l&#39;option **[!UICONTROL Télécharger le fichier sur le serveur]** est cochée.
@@ -117,7 +117,7 @@ Utilisez les options proposées au-dessus de cette vue pour paramétrer l&#39;im
 
 ### Modifier le format du fichier {#changing-the-file-format}
 
-L&#39;option **[!UICONTROL Cliquez ici pour changer le format du fichier...]** permet de formater les données du fichier source, et notamment de préciser le séparateur de colonnes et le type de données pour chaque champ. Ce paramétrage est réalisé au travers de la fenêtre suivante :
+L&#39;option **[!UICONTROL Cliquez ici pour changer le format du fichier...]** permet de formater les données du fichier source, et notamment de préciser le séparateur de colonnes et le type de données pour chaque champ. Ce paramétrage est réalisé au travers de la fenêtre suivante :
 
 ![](assets/s_ncs_user_import_wizard02_3.png)
 
@@ -156,14 +156,14 @@ Vous devez ensuite choisir le schéma de destination et associer les données de
 
 ### Les champs calculés {#calculated-fields}
 
-Les champs calculés sont de nouvelles colonnes ajoutées au fichier source et calculées à partir d&#39;autres colonnes. Les champs calculés peuvent ensuite être associés à des champs de la base de données Adobe Campaign. Toutefois, les opérations de réconciliation ne sont pas possibles sur des champs calculés.
+Les champs calculés sont de nouvelles colonnes ajoutées au fichier source et calculées à partir d&#39;autres colonnes. Les champs calculés peuvent ensuite être associés à des champs de la base de données Adobe Campaign. Toutefois, les opérations de réconciliation ne sont pas possibles sur des champs calculés.
 
-Quatre types de champ calculé sont proposés :
+Quatre types de champ calculé sont proposés :
 
 * **[!UICONTROL Chaîne fixe]** : la valeur du champ calculé est la même pour toutes les lignes du fichier source. Permet de définir la valeur d&#39;un champ des enregistrements insérés ou mis à jour. Par exemple, vous pouvez définir un marqueur sur &quot;oui&quot; pour tous les enregistrements importés.
-* **[!UICONTROL Chaîne avec fusion JavaScript]** : la valeur du champ calculé est une chaîne de caractères contenant des directives JavaScript.
-* **[!UICONTROL Expression JavaScript]** : la valeur du champ calculé est le résultat de l&#39;évaluation d&#39;une fonction JavaScript, la valeur retournée pouvant être typée (nombre, date, etc.).
-* **[!UICONTROL Enumération]** : la valeur du champ est attribuée en fonction d&#39;une valeur contenue dans le fichier source. L&#39;éditeur vous permet de spécifier la colonne source et de saisir la liste des valeurs d&#39;énumération, comme dans l&#39;exemple suivant :
+* **[!UICONTROL Chaîne avec fusion JavaScript]** : la valeur du champ calculé est une chaîne de caractères contenant des directives JavaScript.
+* **[!UICONTROL Expression JavaScript]** : la valeur du champ calculé est le résultat de l&#39;évaluation d&#39;une fonction JavaScript, la valeur retournée pouvant être typée (nombre, date, etc.).
+* **[!UICONTROL Enumération]** : la valeur du champ est attribuée en fonction d&#39;une valeur contenue dans le fichier source. L&#39;éditeur vous permet de spécifier la colonne source et de saisir la liste des valeurs d&#39;énumération, comme dans l&#39;exemple suivant :
 
    ![](assets/s_ncs_user_import_wizard03_3.png)
 
@@ -173,11 +173,11 @@ Quatre types de champ calculé sont proposés :
 
 ## Etape 4 - Réconciliation {#step-4---reconciliation}
 
-L&#39;étape de réconciliation de l&#39;assistant d&#39;import permet de définir le mode de rapprochement des données issues du fichier avec les informations existantes dans la base de données, ainsi que de fixer les règles de priorité entre les données du fichier et celles de la base de données. La fenêtre de configuration se présente comme suit :
+L&#39;étape de réconciliation de l&#39;assistant d&#39;import permet de définir le mode de rapprochement des données issues du fichier avec les informations existantes dans la base de données, ainsi que de fixer les règles de priorité entre les données du fichier et celles de la base de données. La fenêtre de configuration se présente comme suit :
 
 ![](assets/s_ncs_user_import_wizard04_1.png)
 
-La section centrale de l&#39;écran présente, de manière arborescente les champs et les tables de la base de données Adobe Campaign vers lesquels des données seront importées.
+La section centrale de l&#39;écran présente, de manière arborescente les champs et les tables de la base de données Adobe Campaign vers lesquels des données seront importées.
 
 Des options spécifiques sont disponibles pour chaque noeud (table ou champ). Cliquez sur le noeud concerné dans la liste et ses paramètres, ainsi qu&#39;une courte description apparaîtront en-dessous. Le comportement défini pour chaque élément est affiché dans la colonne **[!UICONTROL Comportement]** correspondante.
 
@@ -185,19 +185,19 @@ Des options spécifiques sont disponibles pour chaque noeud (table ou champ). Cl
 
 ### Types d&#39;opérations {#types-of-operation}
 
-Pour chaque table concernée par l&#39;import, vous devez définir le type d&#39;opération. Les opérations disponibles pour l&#39;élément principal de la base de données sont les suivantes :
+Pour chaque table concernée par l&#39;import, vous devez définir le type d&#39;opération. Les opérations disponibles pour l&#39;élément principal de la base de données sont les suivantes :
 
-* **[!UICONTROL Mise à jour ou insertion]** : met à jour l&#39;enregistrement s&#39;il existe dans la base de données et le crée dans le cas contraire.
-* **[!UICONTROL Insertion]** : insère les enregistrements dans la base.
-* **[!UICONTROL Mise à jour]** : effectue uniquement une mise à jour des enregistrements existants (ignore les autres enregistrements).
-* **[!UICONTROL Réconciliation seule]** : recherche l&#39;enregistrement dans la base de données mais n&#39;effectue aucune mise à jour de celui-ci. Permet par exemple d&#39;associer le dossier de destinataires à importer en fonction d&#39;une colonne du fichier sans mettre à jour les données des dossiers.
-* **[!UICONTROL Suppression]** : permet de détruire des enregistrements de la base de données.
+* **[!UICONTROL Mise à jour ou insertion]** : met à jour l&#39;enregistrement s&#39;il existe dans la base de données et le crée dans le cas contraire.
+* **[!UICONTROL Insertion]** : insère les enregistrements dans la base.
+* **[!UICONTROL Mise à jour]** : effectue uniquement une mise à jour des enregistrements existants (ignore les autres enregistrements).
+* **[!UICONTROL Réconciliation seule]** : recherche l&#39;enregistrement dans la base de données mais n&#39;effectue aucune mise à jour de celui-ci. Permet par exemple d&#39;associer le dossier de destinataires à importer en fonction d&#39;une colonne du fichier sans mettre à jour les données des dossiers.
+* **[!UICONTROL Suppression]** : permet de détruire des enregistrements de la base de données.
 
-Les options disponibles pour chaque champ de la table concernée par l&#39;import sont les suivantes :
+Les options disponibles pour chaque champ de la table concernée par l&#39;import sont les suivantes :
 
-* **[!UICONTROL Mettre à jour (vider) si la valeur source est vide]** : en cas de mise à jour, permet d&#39;écraser la valeur du champ telle qu&#39;elle est dans la base de données si la valeur du champ est vide dans le fichier source. Sinon, le champ de la base est conservé.
-* **[!UICONTROL Mettre à jour uniquement si la destination est vide]** : la valeur du champ de la base de données n&#39;est pas écrasée par celle du fichier source sauf si le champ de la base est vide. Il prend alors la valeur du fichier source.
-* **[!UICONTROL Mettre à jour uniquement à l&#39;insertion de l&#39;enregistrement]** : lors d&#39;une opération de mise à jour ou insertion, ne sont importés que les enregistrement du fichier source qui sont nouveaux.
+* **[!UICONTROL Mettre à jour (vider) si la valeur source est vide]** : en cas de mise à jour, permet d&#39;écraser la valeur du champ telle qu&#39;elle est dans la base de données si la valeur du champ est vide dans le fichier source. Sinon, le champ de la base est conservé.
+* **[!UICONTROL Mettre à jour uniquement si la destination est vide]** : la valeur du champ de la base de données n&#39;est pas écrasée par celle du fichier source sauf si le champ de la base est vide. Il prend alors la valeur du fichier source.
+* **[!UICONTROL Mettre à jour uniquement à l&#39;insertion de l&#39;enregistrement]** : lors d&#39;une opération de mise à jour ou insertion, ne sont importés que les enregistrement du fichier source qui sont nouveaux.
 
 >[!NOTE]
 >
@@ -209,7 +209,7 @@ Il est nécessaire de renseigner au moins une clé de réconciliation pour gére
 
 Une clé de réconciliation est un ensemble de champs utilisé pour identifier un enregistrement. Par exemple, pour importer des destinataires, la clé de réconciliation peut être le numéro de compte, le champ &quot;email&quot;, les champs &quot;Nom, Prénom, Société&quot;, etc.
 
-Dans ce cas, pour savoir si une ligne du fichier correspond à un destinataire existant dans la base de données, le moteur d&#39;import compare les valeurs du fichier avec celles de la base de données pour tous les champs de la clé. Plus les champs sont spécifiques à un enregistrement, plus la comparaison entre les données source et destination pourra être fine et garantir l&#39;intégrité des données après l&#39;import. Il est possible de renseigner une seconde clé de réconciliation pour une même table : elle sera utilisée pour les lignes dont la première clé est vide.
+Dans ce cas, pour savoir si une ligne du fichier correspond à un destinataire existant dans la base de données, le moteur d&#39;import compare les valeurs du fichier avec celles de la base de données pour tous les champs de la clé. Plus les champs sont spécifiques à un enregistrement, plus la comparaison entre les données source et destination pourra être fine et garantir l&#39;intégrité des données après l&#39;import. Il est possible de renseigner une seconde clé de réconciliation pour une même table : elle sera utilisée pour les lignes dont la première clé est vide.
 
 Il convient aussi de ne pas choisir un champ qui risque d&#39;être modifié lors de l&#39;import, auquel cas, le moteur risque de créer des enregistrements supplémentaires.
 
@@ -240,7 +240,7 @@ Le champ **[!UICONTROL Gestion des doublons]** permet de paramétrer le dédoubl
 >
 >Le dédoublonnage est effectué uniquement en mémoire. Par conséquent, la taille d&#39;un import avec dédoublonnage est limitée. La limite dépend de plusieurs paramètres (capacité du serveur applicatif, activité, nombre de champs dans la clé, etc.). L&#39;ordre de grandeur de la taille maximale pour un dédoublonnage est 1 000 000 de lignes.
 
-La déduplication concerne un enregistrement présent à la fois dans le fichier source et dans la base de données. Elle ne concerne que les opérations avec mise à jour (c&#39;est-à-dire **[!UICONTROL Mise à jour et insertion]** ou **[!UICONTROL Mise à jour]**). L&#39;option **[!UICONTROL Gestion des duplicatas]** permet de mettre à jour ou d&#39;ignorer l&#39;enregistrement s&#39;il est à la fois dans le fichier source et dans la base. L&#39;option **[!UICONTROL Mise à jour ou insertion en fonction de l&#39;origine]** fait partie d&#39;un module optionnel : elle n&#39;est pas utilisable dans un contexte standard.
+La déduplication concerne un enregistrement présent à la fois dans le fichier source et dans la base de données. Elle ne concerne que les opérations avec mise à jour (c&#39;est-à-dire **[!UICONTROL Mise à jour et insertion]** ou **[!UICONTROL Mise à jour]**). L&#39;option **[!UICONTROL Gestion des duplicatas]** permet de mettre à jour ou d&#39;ignorer l&#39;enregistrement s&#39;il est à la fois dans le fichier source et dans la base. L&#39;option **[!UICONTROL Mise à jour ou insertion en fonction de l&#39;origine]** fait partie d&#39;un module optionnel : elle n&#39;est pas utilisable dans un contexte standard.
 
 Les options **[!UICONTROL Rejeter]** et **[!UICONTROL Ignorer]** fonctionnent comme présentés ci-dessus.
 
@@ -254,16 +254,16 @@ Le détail de ces rejets est visible depuis l&#39;onglet **[!UICONTROL Rejets]**
 
 ![](assets/s_ncs_user_import_rejets_tab.png)
 
-Les rejets peuvent être de deux types (le type est affiché dans la colonne **[!UICONTROL Connecteur]**) :
+Les rejets peuvent être de deux types (le type est affiché dans la colonne **[!UICONTROL Connecteur]**) :
 
 * Les rejets du connecteur texte concernent les erreurs lors du traitement de la ligne du fichier (champ calculé, analyse de données, etc.). Ainsi, en cas d&#39;erreur, c&#39;est toujours la ligne entière qui est rejetée.
 * Les rejets du connecteur base de données concernent les erreurs ayant lieu lors de la réconciliation des données ou de l&#39;écriture dans la base. Dans le cas d&#39;un import sur plusieurs tables, le rejet peut ne concerner qu&#39;une portion de l&#39;enregistrement (par exemple pour un import de destinataires et d&#39;événements associés, une erreur peut empêcher la mise à jour d&#39;un événement sans pour autant rejeter le destinataire).
 
 Dans la page de réconciliation des données, il est possible de définir champ par champ, et table par table, le type de gestion d&#39;erreur souhaité.
 
-* **[!UICONTROL Ignorer mais générer un avertissement]** : tous les champs sont importés dans la base de données, sauf celui qui a généré une erreur.
-* **[!UICONTROL Rejeter l&#39;élément parent]** : toute la ligne de l&#39;enregistrement est rejetée et pas uniquement le champ qui a provoqué une erreur.
-* **[!UICONTROL Rejeter tous les éléments]** : l&#39;import s&#39;arrête et tous les éléments de l&#39;enregistrement sont rejetés.
+* **[!UICONTROL Ignorer mais générer un avertissement]** : tous les champs sont importés dans la base de données, sauf celui qui a généré une erreur.
+* **[!UICONTROL Rejeter l&#39;élément parent]** : toute la ligne de l&#39;enregistrement est rejetée et pas uniquement le champ qui a provoqué une erreur.
+* **[!UICONTROL Rejeter tous les éléments]** : l&#39;import s&#39;arrête et tous les éléments de l&#39;enregistrement sont rejetés.
 
    ![](assets/s_ncs_user_import_wizard04_4.png)
 
@@ -319,7 +319,7 @@ L&#39;étape suivante de l&#39;assistant d&#39;import permet de choisir ou crée
 
    1. Abonner à un service
 
-      Pour abonner tous les destinataires importés à un service d&#39;information, cliquez sur le lien **[!UICONTROL Editer...]** de la section **[!UICONTROL Abonner les destinataires à un service]** afin de sélectionner ou créer le service d&#39;information auquel seront inscrits les destinataires. Vous pouvez cocher l&#39;option **[!UICONTROL Envoyer un message de confirmation]** : le contenu du message est défini dans le modèle de diffusion associé au service d&#39;abonnement.
+      Pour abonner tous les destinataires importés à un service d&#39;information, cliquez sur le lien **[!UICONTROL Editer...]** de la section **[!UICONTROL Abonner les destinataires à un service]** afin de sélectionner ou créer le service d&#39;information auquel seront inscrits les destinataires. Vous pouvez cocher l&#39;option **[!UICONTROL Envoyer un message de confirmation]** : le contenu du message est défini dans le modèle de diffusion associé au service d&#39;abonnement.
 
       ![](assets/s_ncs_user_import_wizard05_7.png)
 

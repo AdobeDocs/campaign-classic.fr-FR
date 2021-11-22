@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Une fois Adobe Campaign installé et l&#39;instance créée, vous pouvez ajouter une nouvelle instance à partir de la console. Ce mode de création est proposé notamment pour créer des instances de tracking, sans accès console.
+Une fois Adobe Campaign installé et l&#39;instance créée, vous pouvez ajouter une nouvelle instance à partir de la console. Ce mode de création est proposé notamment pour créer des instances de tracking, sans accès console.
 
-Pour cela, connectez-vous à une base de données existante puis respectez les étapes suivantes :
+Pour cela, connectez-vous à une base de données existante puis respectez les étapes suivantes :
 
 1. Déclarez une nouvelle instance
 

@@ -31,7 +31,7 @@ Utilisez l’option Campaign [Federated Data Access](../../installation/using/ab
 >* La version 13.0 fonctionnera avec Red Hat 6 et 7.
 
 
-Pour configurer Azure Synapse sur CentOS, procédez comme suit :
+Pour configurer Azure Synapse sur CentOS, procédez comme suit :
 
 1. Installez tout d’abord le pilote ODBC. Vous pouvez le trouver sur cette [page](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
@@ -110,7 +110,7 @@ Pour configurer Azure Synapse sur CentOS, procédez comme suit :
 
 >[!NOTE]
 >
->Il s’agit uniquement de la version 13 du pilote ODBC, mais Adobe Campaign Classic peut également utiliser les pilotes SQL Server Native Client 11.0 et 10.0.
+>Il s’agit uniquement de la version 13 du pilote ODBC, mais Adobe Campaign Classic peut également utiliser les pilotes SQL Server Native Client 11.0 et 10.0.
 
 Pour configurer Azure Synapse sous Windows :
 
@@ -196,7 +196,7 @@ Pour configurer Azure Synapse sous Debian :
 
 Le compte externe [!DNL Azure Synapse] vous permet de connecter l’instance Campaign à la base de données externe Azure Synapse.
 
-Pour créer votre compte externe [!DNL Azure Synapse], procédez comme suit :
+Pour créer votre compte externe [!DNL Azure Synapse], procédez comme suit :
 
 1. Dans l’**[!UICONTROL Explorateur]** Campaign, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plateforme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
 

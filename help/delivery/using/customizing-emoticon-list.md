@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Personnalisation de la liste des émoticônes
-description: Découvrez comment personnaliser la liste des émoticônes avec Adobe Campaign Classic.
+description: Découvrez comment personnaliser la liste des émoticônes avec Adobe Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
@@ -61,7 +61,7 @@ Votre nouvelle émoticône sera automatiquement placée dans le magasin.
 
 1. La nouvelle émoticône a maintenant été ajoutée à l’énumération d’usine **[!UICONTROL Liste d’émoticônes]**. Vous pouvez modifier la **[!UICONTROL position d’affichage]** à tout moment ou déplacer l’émoticône vers le magasin si vous n’en avez plus besoin.
 
-1. Pour que les modifications soient prises en compte, déconnectez-vous d’Adobe Campaign Classic, puis reconnectez-vous. Si la nouvelle émoticône n’apparaît toujours pas dans la fenêtre contextuelle **[!UICONTROL Insérer une émoticône]**, vous devrez peut-être vider le cache. Voir à ce propos cette [section](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
+1. Pour que les modifications soient prises en compte, déconnectez-vous d’Adobe Campaign Classic, puis reconnectez-vous. Si la nouvelle émoticône n’apparaît toujours pas dans la fenêtre contextuelle **[!UICONTROL Insérer une émoticône]**, vous devrez peut-être vider le cache. Voir à ce propos cette [section](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
 
 1. La nouvelle émoticône se trouve maintenant dans vos diffusions, dans la fenêtre contextuelle **[!UICONTROL Insérer une émoticône]**, à la 61e position, suite à la configuration effectuée lors des étapes précédentes. Pour plus d’informations sur l’utilisation des émoticônes dans vos diffusions, consultez cette [page](defining-the-email-content.md#inserting-emoticons).
 

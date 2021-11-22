@@ -17,36 +17,36 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-La plateforme Adobe Campaign repose techniquement sur plusieurs modules.
+La plateforme Adobe Campaign repose techniquement sur plusieurs modules.
 
-Il existe de nombreux modules Adobe Campaign. Certains fonctionnent en continu, d&#39;autres sont démarrés ponctuellement pour effectuer des actions d&#39;administration (par exemple : configurer la connexion à la base de données) ou lancer une tâche récurrente (par exemple : consolider les informations de tracking).
+Il existe de nombreux modules Adobe Campaign. Certains fonctionnent en continu, d&#39;autres sont démarrés ponctuellement pour effectuer des actions d&#39;administration (par exemple : configurer la connexion à la base de données) ou lancer une tâche récurrente (par exemple : consolider les informations de tracking).
 
-On distingue trois types de modules Adobe Campaign :
+On distingue trois types de modules Adobe Campaign :
 
 * Modules multi-instances : un seul processus est exécuté pour toutes les instances. Cela s’applique aux modules suivants : **web**, **syslogd**, **trackinglogd** et **watchdog** (activités à partir du fichier **config-default.xml**).
 * Modules mono-instances : un processus est exécuté par instance. Cela s’applique aux modules suivants : **mta**, **wfserver**, **inMail**, **sms** et **stat** (activités du fichier **config-`<instance>`.xml**).
-* Les modules utilitaires : il s&#39;agit de modules démarrés occasionnellement pour réaliser des opérations ponctuelles ou récurrentes (**cleanup**, **config**, remontée des logs de tracking, etc.).
+* Les modules utilitaires : il s&#39;agit de modules démarrés occasionnellement pour réaliser des opérations ponctuelles ou récurrentes (**cleanup**, **config**, remontée des logs de tracking, etc.).
 
 L&#39;administration de ces modules est assurée par l&#39;outil ligne de commande **nlserver** installé dans le répertoire **bin** du dossier d&#39;installation.
 
-La syntaxe générale de l&#39;outil **nlserver** est la suivante :
+La syntaxe générale de l&#39;outil **nlserver** est la suivante :
 
 **nlserver `<command>``<command arguments>`**
 
 Pour connaître la liste des modules disponibles, lancez la commande **nlserver**.
 
-Les modules disponibles sont décrits dans le tableau suivant :
+Les modules disponibles sont décrits dans le tableau suivant :
 
 | La commande | Description |
 |---|---|
 | aliasCleansing | Normalisation des valeurs d&#39;énumération |
 | billing | Transmission du rapport d&#39;activité du système à billing@neolane.net |
-| cleanup | Nettoyage de la base de données : supprime les données obsolètes de la base de données et lance une mise à jour des statistiques utilisées par l&#39;optimiseur du moteur de base de données |
+| cleanup | Nettoyage de la base de données : supprime les données obsolètes de la base de données et lance une mise à jour des statistiques utilisées par l&#39;optimiseur du moteur de base de données |
 | config | Modification de la configuration du serveur |
 | copybase | Copie d&#39;une base de données |
-| export | Export en ligne de commande : permet de lancer en ligne de commande un modèle d&#39;export créé depuis le client Adobe Campaign |
+| export | Export en ligne de commande : permet de lancer en ligne de commande un modèle d&#39;export créé depuis le client Adobe Campaign |
 | fileconvert | Conversion de fichier à taille fixe |
-| import | Import en ligne de commande : permet de lancer en ligne de commande un modèle d&#39;import créé depuis le client Adobe Campaign |
+| import | Import en ligne de commande : permet de lancer en ligne de commande un modèle d&#39;import créé depuis le client Adobe Campaign |
 | inMail | Analyseur des mails entrants |
 | installsetup | Mise à disposition du fichier d&#39;installation du client |
 | javascript | Exécution de scripts JavaScript, ayant accès aux APIs SOAP |
@@ -76,7 +76,7 @@ Les modules disponibles sont décrits dans le tableau suivant :
 
 >[!IMPORTANT]
 >
->Il existe un dernier module : le module de tracking et de relais vers le serveur applicatif qui, pour des raisons de performances, s&#39;intègre sous la forme d&#39;une librairie dynamique via des mécanismes natifs à un serveur Web IIS ou Apache. Il n&#39;existe pas de commande Adobe Campaign permettant de démarrer ou d&#39;administrer ce module, vous devez donc utiliser les commandes d&#39;administration du serveur Web.
+>Il existe un dernier module : le module de tracking et de relais vers le serveur applicatif qui, pour des raisons de performances, s&#39;intègre sous la forme d&#39;une librairie dynamique via des mécanismes natifs à un serveur Web IIS ou Apache. Il n&#39;existe pas de commande Adobe Campaign permettant de démarrer ou d&#39;administrer ce module, vous devez donc utiliser les commandes d&#39;administration du serveur Web.
 
 L&#39;usage d&#39;un module et la syntaxe de ses paramètres sont affichés à partir de la commande : **nlserver.`[module]`-?**
 

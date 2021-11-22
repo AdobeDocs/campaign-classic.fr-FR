@@ -19,10 +19,10 @@ ht-degree: 100%
 
 ## Définition des paramètres {#definition-of-parameters}
 
-Votre plateforme Adobe Campaign propose en standard deux paramètres relatifs au tracking Web de type TRANSACTION :
+Votre plateforme Adobe Campaign propose en standard deux paramètres relatifs au tracking Web de type TRANSACTION :
 
-* **amount** : représente le montant d&#39;une transaction,
-* **article** : représente le nombre d&#39;articles d&#39;une transaction.
+* **amount** : représente le montant d&#39;une transaction,
+* **article** : représente le nombre d&#39;articles d&#39;une transaction.
 
 Ces paramètres sont définis dans le schéma **nms:webTrackingLog** et font partie des indicateurs visibles dans le reporting.
 
@@ -52,7 +52,7 @@ Dans la configuration du serveur, vous pouvez définir le nombre maximum de cara
 >
 >Augmenter le nombre de caractères à prendre en compte peut avoir une influence sur les performances de tracking web de votre plateforme.
 
-Pour ce faire, modifiez l’attribut **webTrackingParamSize** de l’élément **`<trackinglogd>`** dans le fichier **serverConf.xml**. Ce fichier est enregistré dans le sous-répertoire **conf** du répertoire d’installation d’Adobe Campaign.
+Pour ce faire, modifiez l’attribut **webTrackingParamSize** de l’élément **`<trackinglogd>`** dans le fichier **serverConf.xml**. Ce fichier est enregistré dans le sous-répertoire **conf** du répertoire d’installation d’Adobe Campaign.
 
 **Exemple**:
 
@@ -67,17 +67,17 @@ processRestartTime="06:00:00" purgeLogsPeriod="50000" runLevel="10"
 webTrackingParamSize="64"/>
 ```
 
-Une fois la configuration modifiée, vous devez :
+Une fois la configuration modifiée, vous devez :
 
 * Arrêter le serveur Web qui héberge le module de redirection (Apache, IIS, ou autre),
-* Arrêter le serveur Adobe Campaign : **net stop nlserver6** sous Windows, **/etc/init.d/nlserver6 stop** sous Linux,
+* Arrêter le serveur Adobe Campaign : **net stop nlserver6** sous Windows, **/etc/init.d/nlserver6 stop** sous Linux,
 
    >[!NOTE]
    >
    >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl stop nlserver**
 
 * Sous Linux, supprimer les segments de mémoire partagée via la commande **ipcrm**,
-* Redémarrer le serveur Adobe Campaign : **net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux,
+* Redémarrer le serveur Adobe Campaign : **net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux,
 
    >[!NOTE]
    >

@@ -25,7 +25,7 @@ Les workflows peuvent être utiles pour automatiser certains de vos imports. Que
 
 Les données traitées dans un workflow peuvent provenir de listes dont les données ont été préparées et structurées au préalable.
 
-Ces listes peuvent avoir été constituées directement dans Adobe Campaign ou importées via l&#39;option **[!UICONTROL Importer une liste]**. Pour plus d&#39;informations sur cette option, consultez cette [page](../../platform/using/about-generic-imports-exports.md).
+Ces listes peuvent avoir été constituées directement dans Adobe Campaign ou importées via l&#39;option **[!UICONTROL Importer une liste]**. Pour plus d&#39;informations sur cette option, consultez cette [page](../../platform/using/about-generic-imports-exports.md).
 
 Pour plus d&#39;informations sur l&#39;utilisation de l&#39;activité de lecture de liste dans un workflow, consultez [cette page](../../workflow/using/read-list.md).
 

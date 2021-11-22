@@ -17,11 +17,11 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-La configuration technique et logicielle requise pour l&#39;installation d&#39;Adobe Campaign est présentée dans la [Matrice de compatibilité](../../rn/using/compatibility-matrix.md).
+La configuration technique et logicielle requise pour l&#39;installation d&#39;Adobe Campaign est présentée dans la [Matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 
 Le processus d’installation d’un serveur Adobe Campaign, pour un usage multi-instances, est décrit ci-après, dans la section [Installation du serveur](../../installation/using/installing-the-server.md).
 
-Les étapes principales sont les suivantes :
+Les étapes principales sont les suivantes :
 
 1. installation du serveur applicatif, voir la section [Exécution du programme d’installation](../../installation/using/installing-the-server.md#executing-the-installation-program) ;
 1. intégration avec un serveur web (facultatif, selon les composants déployés), voir la section [Configuration du serveur Web IIS](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
@@ -30,4 +30,4 @@ Une fois les étapes d’installation terminées, vous devez configurer les inst
 
 >[!NOTE]
 >
->Lors du déploiement d&#39;Adobe Campaign dans un environnement Windows, les utilisateurs disposant des droits d&#39;accès nécessaires peuvent utiliser la syntaxe UNC (Universal/Uniform Naming Convention) pour les chemins d&#39;accès lors des manipulations de fichiers sur le réseau.
+>Lors du déploiement d&#39;Adobe Campaign dans un environnement Windows, les utilisateurs disposant des droits d&#39;accès nécessaires peuvent utiliser la syntaxe UNC (Universal/Uniform Naming Convention) pour les chemins d&#39;accès lors des manipulations de fichiers sur le réseau.

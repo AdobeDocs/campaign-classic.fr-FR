@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Cette section décrit les paramétrages à effectuer dans Adobe Campaign v7 si vous migrez depuis une v5.11 ou une v6.02.
+Cette section décrit les paramétrages à effectuer dans Adobe Campaign v7 si vous migrez depuis une v5.11 ou une v6.02.
 
-En complément :
+En complément :
 
 * Si vous migrez depuis une v5.11, vous devez également effectuer le paramétrage décrit dans la section [Paramétrages spécifiques v5.11](../../migration/using/specific-configurations-in-v5-11.md).
 * Si vous migrez depuis une v6.02, vous devez également effectuer le paramétrage décrit dans la section [Paramétrages spécifiques v6.02](../../migration/using/specific-configurations-in-v6-02.md).
@@ -44,7 +44,7 @@ Pour utiliser le mode TIMESTAMP WITH TIMEZONE, vous devez également ajouter l&#
 
 ### Oracle {#oracle}
 
-Si vous obtenez l&#39;erreur **ORA 01805** lors du postupgrade, cela signifie qu&#39;il existe une désynchronisation des fichiers de fuseaux horaires Oracle entre le serveur applicatif et le serveur de base. La procédure de resynchronisation est la suivante :
+Si vous obtenez l&#39;erreur **ORA 01805** lors du postupgrade, cela signifie qu&#39;il existe une désynchronisation des fichiers de fuseaux horaires Oracle entre le serveur applicatif et le serveur de base. La procédure de resynchronisation est la suivante :
 
 1. Pour identifier le fichier de fuseau horaire utilisé, exécutez la commande suivante :
 
@@ -84,7 +84,7 @@ Pour vérifier si les deux côtés sont sur les mêmes fuseaux horaires :
 
 >[!IMPORTANT]
 >
->Pour des raisons de sécurité, la plateforme Adobe Campaign n&#39;est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter les adresses IP des utilisateurs.
+>Pour des raisons de sécurité, la plateforme Adobe Campaign n&#39;est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter les adresses IP des utilisateurs.
 
 Adobe Campaign v7 implique le concept de **zones de sécurité**. Chaque utilisateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;utilisateur doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. Le paramétrage des zones de sécurité est effectué dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un utilisateur à une zone de sécurité doit être définie dans la console (**[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
 
@@ -108,7 +108,7 @@ nlserver config -internalpassword
 
 ### Nouveautés v7 {#new-features-in-v7}
 
-* Les utilisateurs n&#39;ayant aucun droit ne peuvent plus se connecter à Adobe Campaign. Il est nécessaire de leur ajouter manuellement un droit, en créant par exemple un droit nommé **connect**.
+* Les utilisateurs n&#39;ayant aucun droit ne peuvent plus se connecter à Adobe Campaign. Il est nécessaire de leur ajouter manuellement un droit, en créant par exemple un droit nommé **connect**.
 
    Les utilisateurs impactés par cette modification sont identifiés et listés lors du postupgrade.
 
@@ -153,13 +153,13 @@ Certains schémas d&#39;usine ont été modifiés et ne sont désormais accessib
 
 Dans la version 5, le paramètre **sessiontoken** fonctionnait à la fois côté client (liste des écrans de type d&#39;aperçu, éditeur de lien, etc.) et côté serveur (applications web, rapports, jsp, jssp, etc.). Dans v7, il ne fonctionne que côté serveur. Si vous souhaitez revenir aux fonctionnalités complète telles que dans la version 5, vous devez modifier les liens à l&#39;aide de ce paramètre et les transmettre via la page de connexion :
 
-Exemple de lien :
+Exemple de lien :
 
 ```
 /view/recipientOverview?__sessiontoken=<trusted login>
 ```
 
-Nouveau lien utilisant la page de connexion :
+Nouveau lien utilisant la page de connexion :
 
 ```
 /nl/jsp/logon.jsp?login=<trusted login>&action=submit&target=/view/recipientOverview
@@ -181,7 +181,7 @@ Les appels de fonctions SQL inconnues ne sont plus naturellement transmis au ser
 
 Si vous souhaitez autoriser l&#39;accès à certaines pages via le protocole HTTP (et non HTTPS), par exemple vos applications web, indépendamment de la configuration réalisée dans les zones de sécurité, vous devez spécifier le paramètre **httpAllowed=&quot;true&quot;** dans la règle de relais correspondante.
 
-Si vous utilisez des JSSP anonymes, vous devez ajouter le paramètre **httpAllowed=&quot;true&quot;** dans une règle de relais pour votre JSSP (fichier **[!UICONTROL serverConf.xml]**) :
+Si vous utilisez des JSSP anonymes, vous devez ajouter le paramètre **httpAllowed=&quot;true&quot;** dans une règle de relais pour votre JSSP (fichier **[!UICONTROL serverConf.xml]**) :
 
 Par exemple :
 
@@ -194,27 +194,27 @@ Par exemple :
 
 ### JavaScript {#javascript}
 
-Adobe Campaign v7 intègre un interpréteur JavaScript plus récent. Toutefois, cette mise à jour peut entraîner le mauvais fonctionnement de certains scripts. Comme le moteur précédent était plus permissif, certaines syntaxes fonctionneraient, ce qui n&#39;est plus le cas avec la nouvelle version du moteur.
+Adobe Campaign v7 intègre un interpréteur JavaScript plus récent. Toutefois, cette mise à jour peut entraîner le mauvais fonctionnement de certains scripts. Comme le moteur précédent était plus permissif, certaines syntaxes fonctionneraient, ce qui n&#39;est plus le cas avec la nouvelle version du moteur.
 
 Le **[!UICONTROL myObject.La syntaxe @attribute]** n&#39;est désormais valide que pour les objets XML. Cette syntaxe peut être utilisée pour personnaliser les diffusions et la gestion de contenu. Si vous avez utilisé ce type de syntaxe sur un objet non XML, les fonctions de personnalisation ne fonctionneront plus.
 
 Pour tous les autres types d&#39;objet, la syntaxe est désormais **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**. Par exemple, un objet non XML qui utilisait la syntaxe suivante : **[!UICONTROL employee.@sn]**, doit maintenant utiliser la syntaxe suivante : **[!UICONTROL employee`[`&quot;sn&quot;`]`]**.
 
-* Ancienne syntaxe :
+* Ancienne syntaxe :
 
    ```
    employee.@sn
    ```
 
-* Nouvelle syntaxe :
+* Nouvelle syntaxe :
 
    ```
    employee["sn"]
    ```
 
-A présent, pour modifier une valeur dans un objet XML, il faut d&#39;abord mettre à jour la valeur avant d&#39;ajouter le noeud XML :
+A présent, pour modifier une valeur dans un objet XML, il faut d&#39;abord mettre à jour la valeur avant d&#39;ajouter le noeud XML :
 
-* Ancien code Javascript :
+* Ancien code Javascript :
 
    ```
    var cellStyle = node.style.copy();
@@ -222,7 +222,7 @@ A présent, pour modifier une valeur dans un objet XML, il faut d&#39;abord mett
    cellStyle.@width = column.@width;
    ```
 
-* Nouveau code Javascript :
+* Nouveau code Javascript :
 
    ```
    var cellStyle = node.style.copy();
@@ -232,13 +232,13 @@ A présent, pour modifier une valeur dans un objet XML, il faut d&#39;abord mett
 
 Il n&#39;est plus possible d&#39;utiliser un attribut XML comme clé d&#39;un tableau.
 
-* Ancienne syntaxe :
+* Ancienne syntaxe :
 
    ```
    if(serverForm.activities[ctx.activityHistory.activity[0].@name].type !="end")
    ```
 
-* Nouvelle syntaxe :
+* Nouvelle syntaxe :
 
    ```
    if(serverForm.activities[String(ctx.activityHistory.activity[0].@name)].type !="end"
@@ -246,29 +246,29 @@ Il n&#39;est plus possible d&#39;utiliser un attribut XML comme clé d&#39;un ta
 
 ### SQLData {#sqldata}
 
-Afin de renforcer la sécurité des instances, une nouvelle syntaxe a été introduite dans Adobe Campaign v7 pour remplacer la syntaxe basée sur SQLData. Si vous utilisez ces éléments de code avec cette syntaxe, vous devez les modifier. Les principaux éléments concernés sont les suivants :
+Afin de renforcer la sécurité des instances, une nouvelle syntaxe a été introduite dans Adobe Campaign v7 pour remplacer la syntaxe basée sur SQLData. Si vous utilisez ces éléments de code avec cette syntaxe, vous devez les modifier. Les principaux éléments concernés sont les suivants :
 
 * Le filtrage par sous-requêtes : la nouvelle syntaxe est basée sur l&#39;élément `<subQuery>` pour définir une sous-requête
-* Les agrégats : la nouvelle syntaxe est &quot;fonction agrégat(collection)&quot;
+* Les agrégats : la nouvelle syntaxe est &quot;fonction agrégat(collection)&quot;
 * Le filtrage par jointure : la nouvelle syntaxe est `[schemaName:alias:xPath]`
 
-Le schéma queryDef (xtk:queryDef) a été modifié :
+Le schéma queryDef (xtk:queryDef) a été modifié :
 
 * un nouvel élément `<subQuery>` est disponible pour remplacer le SELECT inclus dans du SQLData
 * deux nouvelles valeurs &quot;IN&quot; et &quot;NOT IN&quot; sont introduites pour l&#39;attribut @setOperator
 * un nouvel élément `<where>`, enfant de l&#39;élément `<node>` : ceci permet de faire des « sous-sélections » dans SELECT
 
-Lorsqu&#39;un attribut de type &quot;@expr&quot; est utilisé, le SQLData peut être présent. Une recherche peut être effectuée sur les termes suivants : &quot;SQLData&quot;, &quot;aliasSqlTable&quot;, &quot;sql&quot;.
+Lorsqu&#39;un attribut de type &quot;@expr&quot; est utilisé, le SQLData peut être présent. Une recherche peut être effectuée sur les termes suivants : &quot;SQLData&quot;, &quot;aliasSqlTable&quot;, &quot;sql&quot;.
 
-Les instances d&#39;Adobe Campaign v7 sont sécurisées par défaut. La sécurisation intervient au niveau des définitions de zones de sécurité dans le fichier **[!UICONTROL serverConf.xml]** : l&#39;attribut **allowSQLInjection** gère la sécurisation de la syntaxe SQL.
+Les instances d&#39;Adobe Campaign v7 sont sécurisées par défaut. La sécurisation intervient au niveau des définitions de zones de sécurité dans le fichier **[!UICONTROL serverConf.xml]** : l&#39;attribut **allowSQLInjection** gère la sécurisation de la syntaxe SQL.
 
-En cas d&#39;erreur SQLData lors de l&#39;exécution du postupgrade, vous devez modifier cet attribut afin d&#39;autoriser temporairement l&#39;utilisation des syntaxes basées sur le SQLData, le temps de réécrire le code. Pour cela, l&#39;option suivante doit être modifiée dans le fichier **serverConf.xml** :
+En cas d&#39;erreur SQLData lors de l&#39;exécution du postupgrade, vous devez modifier cet attribut afin d&#39;autoriser temporairement l&#39;utilisation des syntaxes basées sur le SQLData, le temps de réécrire le code. Pour cela, l&#39;option suivante doit être modifiée dans le fichier **serverConf.xml** :
 
 ```
 allowSQLInjection="true"
 ```
 
-Relancez alors le postupgrade avec la commande suivante :
+Relancez alors le postupgrade avec la commande suivante :
 
 ```
 nlserver config -postupgrade -instance:<instance_name> -force
@@ -284,13 +284,13 @@ Vous trouverez ci-dessous des exemples comparatifs entre l&#39;ancienne et la no
 
 **Le filtrage par sous-requêtes**
 
-* Ancienne syntaxe :
+* Ancienne syntaxe :
 
    ```
    <condition expr="@id NOT IN ([SQLDATA[SELECT iOperatorId FROM XtkOperatorGroup WHERE iGroupId = $(../@owner-id)]])" enabledIf="$(/ignored/@ownerType)=1"/>
    ```
 
-* Nouvelle syntaxe :
+* Nouvelle syntaxe :
 
    ```
    <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
@@ -305,7 +305,7 @@ Vous trouverez ci-dessous des exemples comparatifs entre l&#39;ancienne et la no
    </condition>
    ```
 
-* Ancienne syntaxe :
+* Ancienne syntaxe :
 
    ```
    <queryFilter name="dupEmail" label="Emails duplicated in the folder" schema="nms:recipient">
@@ -316,7 +316,7 @@ Vous trouverez ci-dessous des exemples comparatifs entre l&#39;ancienne et la no
      </queryFilter>
    ```
 
-* Nouvelle syntaxe :
+* Nouvelle syntaxe :
 
    ```
    <queryFilter name="dupEmail" label=" Emails duplicated in the folder " schema="nms:recipient">
@@ -338,13 +338,13 @@ Vous trouverez ci-dessous des exemples comparatifs entre l&#39;ancienne et la no
 
 fonction agrégat(collection)
 
-* Ancienne syntaxe :
+* Ancienne syntaxe :
 
    ```
    <node sql="(select count(*) from NmsNewsgroup WHERE O0.iOperationId=iOperationId)" alias="@nbMessages"/>
    ```
 
-* Nouvelle syntaxe :
+* Nouvelle syntaxe :
 
    ```
    <node expr="count([newsgroup/@id])" alias="../@nbMessages"/>
@@ -356,13 +356,13 @@ fonction agrégat(collection)
    >
    >Il n&#39;est plus possible d&#39;utiliser la fonction &quot;count(*)&quot;. Vous devez effectuer un &quot;countall()&quot;.
 
-* Ancienne syntaxe :
+* Ancienne syntaxe :
 
    ```
    <node sql="(select Sum(iToDeliver) from NmsDelivery WHERE O0.iOperationId=iOperationId AND iSandboxMode=0 AND iState>=45)" alias="@nbMessages"/>
    ```
 
-* Nouvelle syntaxe :
+* Nouvelle syntaxe :
 
    ```
    <node expr="Sum([delivery-linkedDelivery/properties/@toDeliver])" alias= "../@sumToDeliver">
@@ -375,14 +375,14 @@ fonction agrégat(collection)
 
 L&#39;alias est facultatif
 
-* Ancienne syntaxe :
+* Ancienne syntaxe :
 
    ```
    <condition expr={"[" + joinPart.destination.nodePath + "] = [SQLDATA[W." + joinPart.source.SQLName + "]]"}
                                             aliasSqlTable={nodeSchemaRoot.SQLTable + " W"}/>
    ```
 
-* Nouvelle syntaxe :
+* Nouvelle syntaxe :
 
    ```
    <condition expr={"[" + joinPart.destination.nodePath + "] = [" + nodeSchema.id + ":" + joinPart.source.nodePath + "]]"}/>
@@ -423,9 +423,9 @@ Lors de la synchronisation des ressources, la commande **postupgrade** permet de
 
 ### Consulter le résultat de la synchronisation {#view-the-synchronization-result}
 
-Le résultat de la synchronisation peut être consulté de deux manières :
+Le résultat de la synchronisation peut être consulté de deux manières :
 
-* Depuis l&#39;invite de commandes, les erreurs sont matérialisées par un triple chevron **>>>** et la synchronisation s&#39;interrompt immédiatement. Les avertissements sont signalés par un double chevron **>>** et doivent être résolus lorsque le processus de synchronisation est terminé. A la fin du postupgrade, un résumé est affiché dans l&#39;invite de commande. Par exemple :
+* Depuis l&#39;invite de commandes, les erreurs sont matérialisées par un triple chevron **>>>** et la synchronisation s&#39;interrompt immédiatement. Les avertissements sont signalés par un double chevron **>>** et doivent être résolus lorsque le processus de synchronisation est terminé. A la fin du postupgrade, un résumé est affiché dans l&#39;invite de commande. Par exemple :
 
    ```
    2013-04-09 07:48:39.749Z        00002E7A          1     info    log     =========Summary of the update==========
@@ -444,21 +444,21 @@ Le résultat de la synchronisation peut être consulté de deux manières :
 
 La résolution des conflits est réservé à des utilisateurs avancés et bénéficiant des droits &#39;Administrateur&#39;.
 
-Pour résoudre un conflit, procédez de la manière suivante :
+Pour résoudre un conflit, procédez de la manière suivante :
 
-1. Dans l&#39;arborescence d&#39;Adobe Campaign, positionnez-vous dans **[!UICONTROL Administration > Paramétrage > Gestion des packages > Edition des conflits]**.
+1. Dans l&#39;arborescence d&#39;Adobe Campaign, positionnez-vous dans **[!UICONTROL Administration > Paramétrage > Gestion des packages > Edition des conflits]**.
 1. Sélectionnez le conflit que vous souhaitez résoudre dans la liste.
 
-Il existe trois possibilités de résoudre un conflit :
+Il existe trois possibilités de résoudre un conflit :
 
-* **[!UICONTROL Déclarer comme résolu]** : requiert une intervention de l&#39;utilisateur au préalable.
-* **[!UICONTROL Accepter la nouvelle version]** : recommandé si les ressources livrées avec Adobe Campaign n&#39;ont pas été modifiées par l&#39;utilisateur.
-* **[!UICONTROL Conserver la version actuelle]** : a pour conséquence de refuser la mise à jour de la version.
+* **[!UICONTROL Déclarer comme résolu]** : requiert une intervention de l&#39;utilisateur au préalable.
+* **[!UICONTROL Accepter la nouvelle version]** : recommandé si les ressources livrées avec Adobe Campaign n&#39;ont pas été modifiées par l&#39;utilisateur.
+* **[!UICONTROL Conserver la version actuelle]** : a pour conséquence de refuser la mise à jour de la version.
 
    >[!IMPORTANT]
-   >Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des utilisateurs experts.
+   Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des utilisateurs experts.
 
-Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
+Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
 1. Dans la section inférieure de la fenêtre, recherchez **`_conflict_ string`** pour localiser les entités avec des conflits. L&#39;entité installée avec la nouvelle version contient le **nouvel** argument. L&#39;entité qui correspond à la version précédente contient l&#39;argument **cus**.
 
@@ -469,11 +469,11 @@ Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
    ![](assets/s_ncs_production_conflict003.png)
 
 1. Positionnez-vous sur le conflit que vous venez de résoudre. Cliquez sur l&#39;icône **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Déclarer comme résolu]**.
-1. Enregistrez vos modifications : le conflit est désormais résolu.
+1. Enregistrez vos modifications : le conflit est désormais résolu.
 
 ## Tomcat {#tomcat}
 
-Le serveur Tomcat intégré dans Adobe Campaign v7 a changé de version. Son dossier d&#39;installation (tomcat-6) a donc également changé (tomcat 7). Après la mise à niveau, vérifiez que les chemins d&#39;accès sont bien liés au dossier mis à jour (dans le fichier **[!UICONTROL serverConf.xml]**).
+Le serveur Tomcat intégré dans Adobe Campaign v7 a changé de version. Son dossier d&#39;installation (tomcat-6) a donc également changé (tomcat 7). Après la mise à niveau, vérifiez que les chemins d&#39;accès sont bien liés au dossier mis à jour (dans le fichier **[!UICONTROL serverConf.xml]**).
 
 ```
 $(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 
@@ -489,7 +489,7 @@ $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 
 ### Conditions préalables requises {#prerequisites}
 
-**Avant le postupgrade**, vous devez supprimer toutes les références aux schémas 6.02 qui n&#39;existent plus en v7 :
+**Avant le postupgrade**, vous devez supprimer toutes les références aux schémas 6.02 qui n&#39;existent plus en v7 :
 
 * nms:emailOfferView
 * nms:webOfferView
@@ -502,12 +502,12 @@ $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 Dans v7, le contenu de l&#39;offre a été déplacé. Dans la version 6.02, le contenu se trouvait dans chaque schéma de représentation (**nms:emailOfferView**). Dans v7, le contenu se trouve désormais dans le schéma d&#39;offre. Après la mise à niveau, le contenu ne sera donc plus visible dans l&#39;interface. Après la mise à niveau, vous devez recréer le contenu de l&#39;offre ou développer un script qui déplace automatiquement le contenu du schéma de représentation vers le schéma d&#39;offre.
 
 >[!IMPORTANT]
->Si certaines diffusions utilisant des offres étaient paramétrées pour être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions en v7. Si vous n&#39;avez pas la possibilité de le faire, un mode &quot;compatibilité&quot; est proposé. Ce mode est fortement déconseillé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d&#39;Interaction v7. C&#39;est un mode transitoire permettant de terminer les campagnes en cours avant d&#39;effectuer la véritable migration 6.1. Veuillez nous contacter si vous souhaitez obtenir plus d&#39;informations sur ce mode.
+Si certaines diffusions utilisant des offres étaient paramétrées pour être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions en v7. Si vous n&#39;avez pas la possibilité de le faire, un mode &quot;compatibilité&quot; est proposé. Ce mode est fortement déconseillé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d&#39;Interaction v7. C&#39;est un mode transitoire permettant de terminer les campagnes en cours avant d&#39;effectuer la véritable migration 6.1. Veuillez nous contacter si vous souhaitez obtenir plus d&#39;informations sur ce mode.
 
 Un exemple de script de déplacement (**interactionTo610_full_XX.js**) est disponible dans le dossier **Migration** du répertoire d&#39;installation d&#39;Adobe Campaign v7. Ce fichier présente un exemple de script pour un client utilisant une seule représentation email par offre (les champs **[!UICONTROL htmlSource]** et **[!UICONTROL textSource]**). Le contenu qui était dans la table **NmsEmailOfferView** est déplacé vers la table des offres.
 
 >[!NOTE]
->L&#39;utilisation de ce script ne permet pas de bénéficier des fonctionnalités &quot;gestion de contenu&quot; et &quot;fonctions de rendu&quot;. Pour bénéficier de ces fonctionnalités, vous devez repenser le catalogue d&#39;offres, en particulier le contenu des offres et la configuration des emplacements.
+L&#39;utilisation de ce script ne permet pas de bénéficier des fonctionnalités &quot;gestion de contenu&quot; et &quot;fonctions de rendu&quot;. Pour bénéficier de ces fonctionnalités, vous devez repenser le catalogue d&#39;offres, en particulier le contenu des offres et la configuration des emplacements.
 
 ```
 loadLibrary("/nl/core/shared/nl.js");
@@ -606,7 +606,7 @@ Voici la procédure à suivre après avoir déplacé le contenu des offres si vo
 1. Effectuez des tests complets.
 
    >[!NOTE]
-   >Les noms des catégories et des offres en ligne sont modifiés lors de leur mise en ligne. Sur le canal entrant, mettez à jour toutes les références aux offres et catégories.
+   Les noms des catégories et des offres en ligne sont modifiés lors de leur mise en ligne. Sur le canal entrant, mettez à jour toutes les références aux offres et catégories.
 
 ## Rapports  {#reports}
 
@@ -624,7 +624,7 @@ Si vous souhaitez bénéficier des nouvelles fonctionnalités de rapport, vous d
 
 ## Des applications web {#web-applications}
 
-Il existe deux familles d&#39;applications web :
+Il existe deux familles d&#39;applications web :
 
 * les applications web identifiées (vues d&#39;ensemble, formulaires de validation, développements internes de type extranet),
 * les applications web anonymes (formulaires web ou questionnaires).
@@ -643,7 +643,7 @@ allowUserPassword="true"
 sessionTokenOnly="true"
 ```
 
-Relancez alors le postupgrade avec la commande suivante :
+Relancez alors le postupgrade avec la commande suivante :
 
 ```
 nlserver config -postupgrade -instance:<instance_name> -force
@@ -665,7 +665,7 @@ Si vous rencontrez le moindre problème, republiez l’application web.
 
 ## Red Hat {#red-hat}
 
-Si des schémas d&#39;usine ont été supprimés en v6.02 ou v5.11, il se peut que vous ne puissiez plus modifier vos schémas après le postupgrade. Si cela se produit, exécutez la commande :
+Si des schémas d&#39;usine ont été supprimés en v6.02 ou v5.11, il se peut que vous ne puissiez plus modifier vos schémas après le postupgrade. Si cela se produit, exécutez la commande :
 
 ```
 su - neolane

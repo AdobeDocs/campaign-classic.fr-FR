@@ -274,13 +274,13 @@ Le tableau ci-après présente les caractères pris en charge par la norme GSM. 
  </tbody> 
 </table>
 
-SP : espace (Space)
+SP : espace (Space)
 
-ESC : caractère d&#39;échappement (Escape)
+ESC : caractère d&#39;échappement (Escape)
 
-LF : saut de ligne (Line Feed)
+LF : saut de ligne (Line Feed)
 
-CR : retour chariot (Carriage Return)
+CR : retour chariot (Carriage Return)
 
 **Caractères doubles**
 
@@ -288,13 +288,13 @@ CR : retour chariot (Carriage Return)
 
 ## Codages de texte {#about-text-encodings}
 
-Lors de l&#39;envoi d&#39;un SMS, Adobe Campaign peut utiliser un ou plusieurs encodages de texte. Chaque encodage possède un jeu de caractères disponibles qui lui est propre, et le nombre de caractères qu&#39;il est possible de mettre dans un SMS dépend de l&#39;encodage.
+Lors de l&#39;envoi d&#39;un SMS, Adobe Campaign peut utiliser un ou plusieurs encodages de texte. Chaque encodage possède un jeu de caractères disponibles qui lui est propre, et le nombre de caractères qu&#39;il est possible de mettre dans un SMS dépend de l&#39;encodage.
 
 Lors du paramétrage d&#39;un nouveau compte externe de routage vers mobiles par SMPP, vous pouvez définir le **[!UICONTROL Mapping des encodages]** dans l&#39;onglet **[!UICONTROL Mobile]** : le champ **[!UICONTROL data_coding]** permet à Adobe Campaign de communiquer les encodages utilisés au SMSC.
 
 >[!NOTE]
 >
->La correspondance entre la valeur du **data_coding** et l&#39;encodage réellement utilisé est standardisée. Cependant, certains SMSC possèdent une correspondance qui leur est propre : dans ce cas, votre administrateur **Adobe Campaign** doit déclarer cette correspondance. Consultez votre fournisseur pour en savoir plus.
+>La correspondance entre la valeur du **data_coding** et l&#39;encodage réellement utilisé est standardisée. Cependant, certains SMSC possèdent une correspondance qui leur est propre : dans ce cas, votre administrateur **Adobe Campaign** doit déclarer cette correspondance. Consultez votre fournisseur pour en savoir plus.
 
 Vous pouvez déclarer des **data_coding** et forcer l&#39;encodage si besoin : pour ce faire, spécifiez un seul encodage dans le tableau.
 
@@ -303,11 +303,11 @@ Vous pouvez déclarer des **data_coding** et forcer l&#39;encodage si besoin : 
    * Il tente d&#39;utiliser l&#39;encodage GSM et lui affecte la valeur **data_coding = 0**.
    * Si l&#39;encodage GSM échoue, il utilise l&#39;encodage **UCS2** et lui affecte la valeur **data_coding = 8**.
 
-* Lorsque vous définissez les encodages que vous souhaitez utiliser ainsi que les valeurs du champ **[!UICONTROL data_coding]** associées, Adobe Campaign tentera d&#39;utiliser le premier encodage de la liste, puis le suivant, si l&#39;encodage se révèle impossible.
+* Lorsque vous définissez les encodages que vous souhaitez utiliser ainsi que les valeurs du champ **[!UICONTROL data_coding]** associées, Adobe Campaign tentera d&#39;utiliser le premier encodage de la liste, puis le suivant, si l&#39;encodage se révèle impossible.
 
 >[!IMPORTANT]
 >
->L&#39;ordre de déclaration est important : il est recommandé d&#39;ordonner la liste par ordre croissant **de coût**, afin de favoriser les encodages permettant de mettre le plus de caractères possible dans chaque SMS.
+>L&#39;ordre de déclaration est important : il est recommandé d&#39;ordonner la liste par ordre croissant **de coût**, afin de favoriser les encodages permettant de mettre le plus de caractères possible dans chaque SMS.
 >
 >Ne déclarez que les encodages que vous souhaitez utiliser. Si certains encodages fournis par le SMSC ne correspondent pas à votre utilisation, ne les déclarez pas dans la liste.
 
@@ -315,7 +315,7 @@ Vous pouvez déclarer des **data_coding** et forcer l&#39;encodage si besoin : 
 
 Lors du paramétrage d&#39;un connecteur SMPP Générique étendu, vous pouvez paramétrer des réponses automatiques.
 
-Lorsqu&#39;un abonné répond à un SMS qui lui a été envoyé via Adobe Campaign par un message contenant un mot-clé tel que &quot;STOP&quot;, vous pouvez configurer les messages qui lui sont automatiquement renvoyés dans la section **[!UICONTROL Réponse automatique aux MO]**.
+Lorsqu&#39;un abonné répond à un SMS qui lui a été envoyé via Adobe Campaign par un message contenant un mot-clé tel que &quot;STOP&quot;, vous pouvez configurer les messages qui lui sont automatiquement renvoyés dans la section **[!UICONTROL Réponse automatique aux MO]**.
 
 >[!NOTE]
 >

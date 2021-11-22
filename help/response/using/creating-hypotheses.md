@@ -27,13 +27,13 @@ Les hypothèses ne peuvent être calculées que lorsque la campagne marketing a 
 
 ## Création d’une hypothèse à la volée sur une diffusion {#creating-a-hypothesis-on-the-fly-on-a-delivery}
 
-Pour créer une hypothèse sur une diffusion existante, procédez comme suit :
+Pour créer une hypothèse sur une diffusion existante, procédez comme suit :
 
 >[!NOTE]
 >
 >Cette opération est uniquement possible pour les diffusions en édition.
 
-1. Dans l&#39;arborescence d&#39;Adobe Campaign, positionnez-vous au niveau de **[!UICONTROL Gestion de campagne > Hypothèses de mesure]**.
+1. Dans l&#39;arborescence d&#39;Adobe Campaign, positionnez-vous au niveau de **[!UICONTROL Gestion de campagne > Hypothèses de mesure]**.
 1. Cliquez sur le bouton **[!UICONTROL Nouveau]** ou cliquez avec le bouton droit de la souris dans la liste des hypothèses et sélectionnez **[!UICONTROL Nouveau]** dans le menu contextuel.
 
    ![](assets/response_hypothesis_instance_creation_002.png)
@@ -62,7 +62,7 @@ Pour créer une hypothèse sur une diffusion existante, procédez comme suit :
    >[!CAUTION]
    >
    >Vous pouvez accéder à ce dernier si vous avez coché la case **[!UICONTROL Conserver le workflow d&#39;exécution]**.\
-   >Cette option ne doit être activée qu&#39;à des fins de débogage, en cas d&#39;erreur lors de l&#39;exécution de l&#39;hypothèse. Les workflows générés automatiquement sont enregistrés dans le dossier **[!UICONTROL Administration]** > **[!UICONTROL Exploitation]** > **[!UICONTROL Objets créés automatiquement]** > **[!UICONTROL Workflows des opérations]** de l&#39;explorateur Adobe Campaign.
+   >Cette option ne doit être activée qu&#39;à des fins de débogage, en cas d&#39;erreur lors de l&#39;exécution de l&#39;hypothèse. Les workflows générés automatiquement sont enregistrés dans le dossier **[!UICONTROL Administration]** > **[!UICONTROL Exploitation]** > **[!UICONTROL Objets créés automatiquement]** > **[!UICONTROL Workflows des opérations]** de l&#39;explorateur Adobe Campaign.
    > 
    >De plus, les workflows générés automatiquement ne doivent pas être modifiés. Toute modification éventuelle ne serait par ailleurs pas prise en compte pour les calculs ultérieurs.
    >
@@ -91,7 +91,7 @@ Vous pouvez référencer une hypothèse dans une campagne marketing avant son d�
 
 ## Ajout d’une hypothèse par défaut aux diffusions d’une campagne {#adding-a-default-hypothesis-to-deliveries-for-a-campaign}
 
-Vous pouvez directement référencer une hypothèse au niveau d&#39;une opération. De ce fait, l&#39;hypothèse sera automatiquement rattachée à toutes les diffusions crées dans l&#39;opération. Pour cela :
+Vous pouvez directement référencer une hypothèse au niveau d&#39;une opération. De ce fait, l&#39;hypothèse sera automatiquement rattachée à toutes les diffusions crées dans l&#39;opération. Pour cela :
 
 1. Positionnez-vous dans l&#39;onglet **[!UICONTROL Edition]** de l&#39;opération de votre choix.
 1. Dans la section de la mesure, cliquez sur l&#39;onglet **[!UICONTROL Hypothèses par défaut]**.
@@ -180,6 +180,6 @@ Nous affinerons ensuite la requête héritée du modèle pour émettre une hypot
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 
-1. Dans l’arborescence d’Adobe Campaign, accédez au nœud **[!UICONTROL Gestion de campagnes > Hypothèses de mesure]** pour vérifier les indicateurs calculés par l’hypothèse.
+1. Dans l’arborescence d’Adobe Campaign, accédez au nœud **[!UICONTROL Gestion de campagnes > Hypothèses de mesure]** pour vérifier les indicateurs calculés par l’hypothèse.
 
    ![](assets/response_hypothesis_delivery_example_010.png)

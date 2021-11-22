@@ -18,15 +18,15 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Cet article est uniquement fourni à titre de guide illustratif général. Vous devez contacter votre gestionnaire du succès client Adobe Campaign afin d’obtenir le dimensionnement exact dont vous avez besoin pour votre déploiement avant de démarrer un projet Campaign. N’acquérez et ne déployez **pas** de matériel ni d’infrastructure tant que cela n’est pas fait.
+>Cet article est uniquement fourni à titre de guide illustratif général. Vous devez contacter votre gestionnaire du succès client Adobe Campaign afin d’obtenir le dimensionnement exact dont vous avez besoin pour votre déploiement avant de démarrer un projet Campaign. N’acquérez et ne déployez **pas** de matériel ni d’infrastructure tant que cela n’est pas fait.
 
-Ce document fournit des recommandations générales relatives au déploiement d’Adobe Campaign Classic v7 dans votre centre de données On-premise ou votre environnement cloud virtualisé. Ce type de déploiement, dit **hybride** ou de **mid-sourcing**, place l’instance marketing et la base de données marketing de Campaign sous votre contrôle opérationnel. Dans le même temps, les services Adobe Cloud Messaging sont utilisés pour envoyer des e-mails, des SMS ou des messages SMPP, et collecter les données d’ouverture d’e-mail, de bounce et de suivi des clics.
+Ce document fournit des recommandations générales relatives au déploiement d’Adobe Campaign Classic v7 dans votre centre de données On-premise ou votre environnement cloud virtualisé. Ce type de déploiement, dit **hybride** ou de **mid-sourcing**, place l’instance marketing et la base de données marketing de Campaign sous votre contrôle opérationnel. Dans le même temps, les services Adobe Cloud Messaging sont utilisés pour envoyer des e-mails, des SMS ou des messages SMPP, et collecter les données d’ouverture d’e-mail, de bounce et de suivi des clics.
 
-L’instance marketing est la partie de l’architecture Adobe Campaign qui stimule toute l’activité marketing. C’est également celle qui stocke toutes les données des destinataires et les données d’analyse renvoyées par les campagnes. L’instance marketing est un ensemble de serveurs On-premise exécutant les services Adobe Campaign et une base de données relationnelle.
+L’instance marketing est la partie de l’architecture Adobe Campaign qui stimule toute l’activité marketing. C’est également celle qui stocke toutes les données des destinataires et les données d’analyse renvoyées par les campagnes. L’instance marketing est un ensemble de serveurs On-premise exécutant les services Adobe Campaign et une base de données relationnelle.
 
 >[!CAUTION]
 >
->Les informations contenues dans ce document ne s’appliquent pas si vous utilisez une instance Adobe Campaign entièrement hébergée (déployée dans les services cloud d’Adobe).
+>Les informations contenues dans ce document ne s’appliquent pas si vous utilisez une instance Adobe Campaign entièrement hébergée (déployée dans les services cloud d’Adobe).
 
 La compatibilité logicielle est décrite en détail dans le document relatif à la [Matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 
@@ -47,7 +47,7 @@ Ce document suppose également que les trois scénarios ont recours aux types d�
 * Le publipostage est généré une fois par mois pour chaque destinataire du système.
 * Des SMS sont envoyés à environ 10 % de vos destinataires actifs chaque mois.
 * Le schéma de la base de données qui définit chaque destinataire a été étendu avec une table supplémentaire, laquelle contient environ 200 octets de données relatives à chaque destinataire.
-* Le module Interaction d’Adobe Campaign est utilisé pour ajouter des offres aux e-mails sortants.
+* Le module Interaction d’Adobe Campaign est utilisé pour ajouter des offres aux e-mails sortants.
 * Les données de tracking e-mail sont conservées pendant 90 jours dans le système de Campaign.
 
 ## Directives générales
@@ -60,7 +60,7 @@ Les applications web de Campaign peuvent également être déployées sur les se
 
 Pour des raisons de sécurité et de disponibilité, Adobe recommande de séparer le trafic Internet du trafic généré par les utilisateurs professionnels. Pour cette raison, les diagrammes contiennent deux groupes de serveurs : le serveur web (Web1 et Web2 avec accès via Internet) et les serveurs d’applications (App1 et App2 avec processus d’entreprise).
 
-Les expéditeurs d’e-mails commerciaux ont l’obligation légale de disposer d’une page web de désinscription fonctionnelle. Adobe recommande de disposer d’une machine redondante dans chacun des serveurs de ces groupes pour les scénarios de basculement. C’est d’autant plus vrai si Adobe Campaign héberge les pages de désinscription.
+Les expéditeurs d’e-mails commerciaux ont l’obligation légale de disposer d’une page web de désinscription fonctionnelle. Adobe recommande de disposer d’une machine redondante dans chacun des serveurs de ces groupes pour les scénarios de basculement. C’est d’autant plus vrai si Adobe Campaign héberge les pages de désinscription.
 
 ### Serveurs proxy inverses
 
@@ -70,7 +70,7 @@ L’architecture de Campaign applique un niveau de sécurité élevé en utilisa
 
 La répartition de charge des serveurs d’applications est définie dans une configuration active/passive, avec terminaison HTTPS au niveau du proxy. La répartition de charge des serveurs web est définie dans une configuration active/active, avec terminaison HTTPS au niveau du proxy.
 
-Adobe fournit la liste exclusive des chemins d’URL qui peuvent être relayés au serveur Adobe Campaign dans votre environnement de déploiement.
+Adobe fournit la liste exclusive des chemins d’URL qui peuvent être relayés au serveur Adobe Campaign dans votre environnement de déploiement.
 
 ### Architecture
 
@@ -90,19 +90,19 @@ Volume estimé :
 | SMS mobile | 100 000/mois |
 | Pic du volume d’e-mails quotidien | 500 |
 
-Pour ces volumes, une paire de systèmes de serveurs d’application Adobe Campaign fournit toutes les fonctionnalités pour les utilisateurs du client Adobe Campaign et l’exécution des workflows. Pour 5 millions de destinataires actifs et ce volume d’e-mail, les charges de travail du serveur d’application n’utilisent pas beaucoup les capacités du processeur ou de l’E/S. La pression s’exerce surtout sur la base de données.
+Pour ces volumes, une paire de systèmes de serveurs d’application Adobe Campaign fournit toutes les fonctionnalités pour les utilisateurs du client Adobe Campaign et l’exécution des workflows. Pour 5 millions de destinataires actifs et ce volume d’e-mail, les charges de travail du serveur d’application n’utilisent pas beaucoup les capacités du processeur ou de l’E/S. La pression s’exerce surtout sur la base de données.
 
-Les serveurs web d’Adobe Campaign s’affichent dans la zone sécurisée.
+Les serveurs web d’Adobe Campaign s’affichent dans la zone sécurisée.
 
 ### Serveurs web et d’application
 
-Ce scénario recommande d’installer Adobe Campaign sur quatre machines, avec la spécification suivante :
+Ce scénario recommande d’installer Adobe Campaign sur quatre machines, avec la spécification suivante :
 
 **Processeur 3 Ghz+ quadruple cœur, 8 Go de RAM, RAID 1 ou 10, 2 x SSD de 80 Go**
 
 Ces systèmes créent le serveur d’application de l’instance marketing, qui prend directement en charge les utilisateurs de votre console Campaign et exécute les workflows de campagne.
 
-Configurez des proxys inverses dans le trafic de répartition de charge DMZ vers les serveurs web Adobe Campaign. Il n’est pas nécessaire d’installer la pile logicielle Adobe Campaign sur des ordinateurs proxy. Tout logiciel ou équipement réseau de proxy inverse peut être utilisé.
+Configurez des proxys inverses dans le trafic de répartition de charge DMZ vers les serveurs web Adobe Campaign. Il n’est pas nécessaire d’installer la pile logicielle Adobe Campaign sur des ordinateurs proxy. Tout logiciel ou équipement réseau de proxy inverse peut être utilisé.
 
 Les fonctionnalités de centre de préférences et d’inscription/désinscription d’un abonnement peuvent être fournies par Campaign ou par votre propre site web. Si vous choisissez d’implémenter cette fonctionnalité sur votre site web, vous devez vous assurer que les informations de préférence et d’abonnement sont propagées à la base de données marketing de Campaign. Cela s’effectue généralement à travers la création de fichiers d’extraction qui sont automatiquement chargés par les workflows de Campaign.
 
@@ -116,13 +116,13 @@ Les recommandations matérielles pour le serveur de la base de données sont les
 
 L’estimation de la mémoire suppose une mise en cache complète d’environ 500 000 destinataires pour un lancement de campagne volumineuse, ainsi qu’un espace de mémoire tampon SGBD pour l’exécution des workflows, l’importation des données de tracking et d’autres activités simultanées.
 
-L’espace disque requis dans la base de données pour stocker toutes les données techniques d’Adobe Campaign (campagnes, tracking, tables de travail, etc.) est estimé à environ 35 Go pour une période de rétention de trois mois. Si vous choisissez de conserver les données de tracking pendant 6 mois, la taille de la base de données passe à environ 40 Go. Cette taille passe à environ 45 Go dans le cas d’une rétention de 12 mois. Les données des destinataires consomment environ 5 Go pour cet environnement.
+L’espace disque requis dans la base de données pour stocker toutes les données techniques d’Adobe Campaign (campagnes, tracking, tables de travail, etc.) est estimé à environ 35 Go pour une période de rétention de trois mois. Si vous choisissez de conserver les données de tracking pendant 6 mois, la taille de la base de données passe à environ 40 Go. Cette taille passe à environ 45 Go dans le cas d’une rétention de 12 mois. Les données des destinataires consomment environ 5 Go pour cet environnement.
 
 >[!CAUTION]
 >
->Cette estimation n’inclut aucune donnée client additionnelle. Si vous prévoyez de répliquer des colonnes ou des tables de données client additionnelles dans la base de données d’Adobe Campaign, vous devez estimer l’espace disque supplémentaire requis pour cette opération. Les segments/listes téléchargés nécessitent également davantage d’espace de stockage en fonction de leur taille, fréquence et période de rétention.
+>Cette estimation n’inclut aucune donnée client additionnelle. Si vous prévoyez de répliquer des colonnes ou des tables de données client additionnelles dans la base de données d’Adobe Campaign, vous devez estimer l’espace disque supplémentaire requis pour cette opération. Les segments/listes téléchargés nécessitent également davantage d’espace de stockage en fonction de leur taille, fréquence et période de rétention.
 
-En raison du volume d’informations traitées quotidiennement, l’évaluation IOPS du serveur de la base de données est essentielle. Par exemple, un jour de pic, vous pouvez déployer des campagnes ciblant 500 000 destinataires au total. Pour exécuter chaque opération, Adobe Campaign insère 500 000 enregistrements dans une table qui en contient environ 12 millions (la table des logs de diffusion). Pour offrir des performances acceptables lors du déploiement de la campagne, Adobe recommande un minimum de 60 000 IOPS en lecture/écriture aléatoire de 4 Ko pour ce scénario.
+En raison du volume d’informations traitées quotidiennement, l’évaluation IOPS du serveur de la base de données est essentielle. Par exemple, un jour de pic, vous pouvez déployer des campagnes ciblant 500 000 destinataires au total. Pour exécuter chaque opération, Adobe Campaign insère 500 000 enregistrements dans une table qui en contient environ 12 millions (la table des logs de diffusion). Pour offrir des performances acceptables lors du déploiement de la campagne, Adobe recommande un minimum de 60 000 IOPS en lecture/écriture aléatoire de 4 Ko pour ce scénario.
 
 
 ## Scénario 2 : Déploiement de grande taille{#scenario-2}
@@ -141,15 +141,15 @@ Volume estimé :
 
 ### Serveurs web et d’application
 
-Dans ce scénario, Adobe recommande d’installer Adobe Campaign sur quatre machines, deux serveurs d’application et deux serveurs Web, avec la spécification suivante :
+Dans ce scénario, Adobe recommande d’installer Adobe Campaign sur quatre machines, deux serveurs d’application et deux serveurs Web, avec la spécification suivante :
 
 **3 Ghz+ quatre cœurs, 8 Go de RAM, RAID 1 ou 10, SSD 80 Go**
 
-Les serveurs d’application prennent directement en charge les utilisateurs de la console Campaign et l’exécution des workflows de campagne. Cette fonctionnalité est déployée sur deux serveurs identiques pour permettre une haute disponibilité ; ils partagent un système de fichiers NAS (Network-Attached Storage) pour activer le basculement.
+Les serveurs d’application prennent directement en charge les utilisateurs de la console Campaign et l’exécution des workflows de campagne. Cette fonctionnalité est déployée sur deux serveurs identiques pour permettre une haute disponibilité ; ils partagent un système de fichiers NAS (Network-Attached Storage) pour activer le basculement.
 
 Les serveurs Web hébergent des applications Web Campaign qui prennent en charge les 10 millions de destinataires actifs du système.
 
-Voir [Scénario 1 : Déploiement de taille moyenne ](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
+Voir [Scénario 1 : Déploiement de taille moyenne ](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
 
 ### Base de données
 
@@ -159,9 +159,9 @@ Les recommandations matérielles pour le serveur de la base de données sont les
 
 L’estimation de la mémoire suppose une mise en cache complète d’environ 5 000 000 de destinataires pour un lancement de campagne volumineux, ainsi qu’un espace mémoire tampon RDBMS pour l’exécution des workflows, l’importation de données de suivi et d’autres activités simultanées.
 
-On estime que l’espace disque requis dans la base de données pour stocker l’ensemble des données techniques Adobe Campaign (campagnes, suivi, tables de travail, etc.) est d’environ 280 Go sur la base d’une période de conservation de 3 mois. Si vous choisissez de conserver les données de suivi pendant 6 mois, la taille de la base de données passe à environ 450 Go et une rétention de 12 mois nécessite environ 900 Go. Les données des destinataires consomment environ 15 Go pour cet environnement.
+On estime que l’espace disque requis dans la base de données pour stocker l’ensemble des données techniques Adobe Campaign (campagnes, suivi, tables de travail, etc.) est d’environ 280 Go sur la base d’une période de conservation de 3 mois. Si vous choisissez de conserver les données de suivi pendant 6 mois, la taille de la base de données passe à environ 450 Go et une rétention de 12 mois nécessite environ 900 Go. Les données des destinataires consomment environ 15 Go pour cet environnement.
 
-## Scénario 3 : Déploiement Entreprise avec Message Center{#scenario-3}
+## Scénario 3 : Déploiement Entreprise avec Message Center{#scenario-3}
 
 ![](assets/scenario-3.png)
 
@@ -177,14 +177,14 @@ Volume estimé :
 | Pic du volume d’e-mails quotidien | 2,5 millions  |
 
 
-Le déploiement qui prend en charge 50 millions de destinataires est essentiellement le même que dans le [Scénario 2](#scenario-2) : le trafic des applications Web de Campaign est acheminé vers les serveurs Web de Campaign. De ce fait, les rafales de trafic Web après les lancements de campagnes volumineuses n’ont aucune incidence sur les workflows de Campaign et les utilisateurs de la console cliente.
+Le déploiement qui prend en charge 50 millions de destinataires est essentiellement le même que dans le [Scénario 2](#scenario-2) : le trafic des applications Web de Campaign est acheminé vers les serveurs Web de Campaign. De ce fait, les rafales de trafic Web après les lancements de campagnes volumineuses n’ont aucune incidence sur les workflows de Campaign et les utilisateurs de la console cliente.
 
 Ce déploiement comprend également des appels Message Center, pilotés à partir de vos propres sites Web et applications.
 
 
 ### Serveurs web et d’application
 
-Dans ce scénario, Adobe recommande d’installer Adobe Campaign sur quatre machines, comme suit :
+Dans ce scénario, Adobe recommande d’installer Adobe Campaign sur quatre machines, comme suit :
 
 * Serveurs d’application
    **Deux systèmes, 3Ghz+ quatre cœurs, 8 Go de RAM, RAID 1 ou 10, SSD de 80 Go**
@@ -193,11 +193,11 @@ Dans ce scénario, Adobe recommande d’installer Adobe Campaign sur quatre mach
    **Deux systèmes, 3Ghz+ quatre cœurs, 16 Go de RAM, RAID 1 ou 10, SSD de 80 Go**
 
 
-Les serveurs d’application prennent directement en charge les utilisateurs de la console Campaign et l’exécution des workflows de campagne. Cette fonctionnalité est déployée sur deux serveurs identiques pour permettre une haute disponibilité ; ils partagent un système de fichiers NAS (Network-Attached Storage) pour activer le basculement.
+Les serveurs d’application prennent directement en charge les utilisateurs de la console Campaign et l’exécution des workflows de campagne. Cette fonctionnalité est déployée sur deux serveurs identiques pour permettre une haute disponibilité ; ils partagent un système de fichiers NAS (Network-Attached Storage) pour activer le basculement.
 
 Les serveurs Web hébergent des applications Web Campaign qui prennent en charge les 10 millions de destinataires actifs du système.
 
-Voir [Scénario 1 : Déploiement de taille moyenne ](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
+Voir [Scénario 1 : Déploiement de taille moyenne ](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
 
 ### Base de données
 
@@ -207,11 +207,11 @@ Les recommandations matérielles pour le serveur de la base de données sont les
 
 L’estimation de la mémoire suppose une mise en cache complète d’environ 12 500 000 destinataires pour un lancement de campagne volumineuse, ainsi qu’un espace de mémoire tampon SGBD pour l’exécution des workflows, l’importation des données de tracking et d’autres activités simultanées.
 
-L’espace disque requis dans la base de données pour stocker toutes les données techniques d’Adobe Campaign (campagnes, tracking, tables de travail, etc.) est estimé à environ 700 Go pour une période de rétention de 3 mois. Si vous choisissez de conserver les données de tracking pendant 6 mois, la taille de la base de données passe à environ 1,2 To. Cette taille passe à environ 2 To dans le cas d’une rétention de 12 mois. Les données des destinataires consomment environ 50 Go pour cet environnement.
+L’espace disque requis dans la base de données pour stocker toutes les données techniques d’Adobe Campaign (campagnes, tracking, tables de travail, etc.) est estimé à environ 700 Go pour une période de rétention de 3 mois. Si vous choisissez de conserver les données de tracking pendant 6 mois, la taille de la base de données passe à environ 1,2 To. Cette taille passe à environ 2 To dans le cas d’une rétention de 12 mois. Les données des destinataires consomment environ 50 Go pour cet environnement.
 
 ## Directives relatives à la modification des hypothèses
 
-Les hypothèses faites pour ces scénarios ont toutes un impact significatif sur les recommandations matérielles et l’architecture de déploiement. Cette section décrit les directives relatives aux différentes hypothèses. Contactez l’équipe de consultants d’Adobe Campaign pour obtenir des recommandations spécifiques à vos besoins.
+Les hypothèses faites pour ces scénarios ont toutes un impact significatif sur les recommandations matérielles et l’architecture de déploiement. Cette section décrit les directives relatives aux différentes hypothèses. Contactez l’équipe de consultants d’Adobe Campaign pour obtenir des recommandations spécifiques à vos besoins.
 
 * **Nombre de destinataires**
 Les destinataires actifs requièrent à la fois un espace de stockage et un espace de mémoire tampon dans la base de données. De ce fait, un nombre plus élevé de destinataires nécessite généralement davantage de capacité au niveau de la mémoire et du processeur sur le serveur de base de données. Les augmentations du stockage sont relativement faibles pour les destinataires eux-mêmes, mais peuvent être significatives pour les données de tracking d’événements conservées pour les campagnes e-mail.
@@ -239,7 +239,7 @@ Les règles et offres d’interactions entrantes sont évaluées dans la base de
 * **Période de rétention des données de tracking**
 L’augmentation de la rétention des données de tracking au-delà de 90 jours nécessite davantage de stockage dans la base de données. En outre, cela peut ralentir le système car les nouvelles données de tracking sont insérées dans des tables volumineuses. Les données de tracking ne sont plus utiles pour la segmentation des campagnes au-delà de 90 jours. Il est donc recommandé d’utiliser une période de rétention plus courte.
 
-   Si vous avez besoin d’une analyse à long terme de l’expérience marketing des destinataires, il vous faut déplacer les données de tracking dans Adobe Analytics ou dans un autre système d’analyse.
+   Si vous avez besoin d’une analyse à long terme de l’expérience marketing des destinataires, il vous faut déplacer les données de tracking dans Adobe Analytics ou dans un autre système d’analyse.
 
 ## Virtualisation
 
@@ -254,7 +254,7 @@ Toute configuration RAID recommandée doit être conservée pour la sécurité d
 * **Performances d’E/S**
 L’évaluation IOPS recommandée pour le stockage dans la base de données doit être respectée. Il est possible que les services cloud tels qu’Amazon EC2 n’offrent pas les performances requises. Ces services doivent alors être évalués avec soin. Par exemple, les volumes SSD fournis par Amazon EC2 sont actuellement évalués à 20 000 IOPS chacun. Consultez la [documentation Amazon](https://docs.aws.amazon.com/fr_fr/AWSEC2/latest/UserGuide/ebs-volume-types.html) pour en savoir plus. De ce fait, une configuration RAID à 4 volumes est évaluée à 80 000 IOPS, ce qui peut ne pas suffire.
 
-Adobe recommande de tester les performances de chaque déploiement virtualisé d’Adobe Campaign avant la mise en production du système.
+Adobe recommande de tester les performances de chaque déploiement virtualisé d’Adobe Campaign avant la mise en production du système.
 
 ## Rubriques connexes
 

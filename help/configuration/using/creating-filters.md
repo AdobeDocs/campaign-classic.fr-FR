@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-La nouvelle table des destinataires, comme la table destinataire native d&#39;Adobe Campaign, peut recevoir un lot de filtres prédéfinis.
+La nouvelle table des destinataires, comme la table destinataire native d&#39;Adobe Campaign, peut recevoir un lot de filtres prédéfinis.
 
 Ces filtres seront disponibles dans l&#39;écran de sélection de la cible au même titre et avec les mêmes fonctionnalités que les segments pour les destinataires (possibilité d&#39;utiliser des formulaires de saisie de paramètres, organisation en dossiers hiérarchisés, etc.).
 

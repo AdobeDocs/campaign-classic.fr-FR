@@ -17,11 +17,11 @@ ht-degree: 99%
 
 ![](../../assets/common.svg)
 
-Vous pouvez inclure des éléments avec lesquels l&#39;utilisateur n&#39;a aucune interaction dans les pages du formulaire ; il s&#39;agit d&#39;éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Ces éléments sont créés par le premier bouton de la barre d&#39;outils, en sélectionnant **[!UICONTROL Éléments statiques]**.
+Vous pouvez inclure des éléments avec lesquels l’utilisateur n’a aucune interaction dans les pages du formulaire ; il s’agit d’éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Ces éléments sont créés par le premier bouton de la barre d&#39;outils, en sélectionnant **[!UICONTROL Éléments statiques]**.
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)
 
-Les types de champs disponibles sont les suivants :
+Les types de champs disponibles sont les suivants :
 
 * Valeur issue des réponses fournies antérieurement (dans le contexte du formulaire) ou de la base de données.
 * Lien hypertexte, HTML, barre horizontale. Voir [Insérer du contenu HTML](#inserting-html-content).
@@ -38,7 +38,7 @@ Vous pouvez inclure des contenus HTML dans une page de formulaire : liens hyper
 
 L&#39;éditeur HTML vous permet de saisir le contenu à insérer dans la page du formulaire. Pour ouvrir l&#39;éditeur, cliquez sur **[!UICONTROL Éléments statiques]** > **[!UICONTROL HTML]**.
 
-Vous pouvez saisir et mettre en forme directement votre contenu ou afficher la fenêtre du code source pour y coller un contenu externe. Pour basculer en mode &quot;code source&quot;, cliquez sur la première icône de la barre d&#39;outils :
+Vous pouvez saisir et mettre en forme directement votre contenu ou afficher la fenêtre du code source pour y coller un contenu externe. Pour basculer en mode &quot;code source&quot;, cliquez sur la première icône de la barre d&#39;outils :
 
 ![](assets/s_ncs_admin_survey_html_editor.png)
 
@@ -52,7 +52,7 @@ Pour insérer un champ de la base, utilisez le bouton de personnalisation.
 
 ### Insérer un lien {#inserting-a-link}
 
-Renseignez les champs de la fenêtre d&#39;édition, comme dans l&#39;exemple ci-dessous :
+Renseignez les champs de la fenêtre d&#39;édition, comme dans l&#39;exemple ci-dessous :
 
 Pour ajouter un lien hypertexte, accédez au menu **[!UICONTROL Éléments statiques]** > **[!UICONTROL Lien]**.
 
@@ -61,7 +61,7 @@ Pour ajouter un lien hypertexte, accédez au menu **[!UICONTROL Éléments stati
 * Le **[!UICONTROL Libellé]** est le contenu du lien hypertexte, tel qu&#39;il sera affiché dans la page du formulaire.
 * L&#39;**[!UICONTROL URL]** correspond à l&#39;adresse visée, par exemple : [https://www.adobe.com](https://www.adobe.com) pour un site web ou [info@adobe.com](mailto:info@adobe.com) pour envoyer un message.
 * Le champ **[!UICONTROL Fenêtre]** permet de sélectionner le mode d&#39;affichage du lien, lorsqu&#39;il s&#39;agit d&#39;un site. Vous pouvez choisir d&#39;ouvrir le lien dans une nouvelle fenêtre, dans la fenêtre courante ou dans une autre fenêtre.
-* Vous pouvez ajouter une bulle d&#39;aide, comme dans l&#39;exemple ci-dessous :
+* Vous pouvez ajouter une bulle d&#39;aide, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_ncs_admin_survey_send_an_email.png)
 
@@ -73,7 +73,7 @@ Par défaut, les liens sont associés à une action de type URL, qui permettent 
 
 ![](assets/s_ncs_admin_survey_link_url.png)
 
-Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;utilisateur clique sur le lien, il peut :
+Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;utilisateur clique sur le lien, il peut :
 
 * Actualiser la page
 
@@ -99,11 +99,11 @@ Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;uti
 
    ![](assets/s_ncs_admin_survey_link_viral.png)
 
-   Par défaut, une page n&#39;a qu&#39;une transition sortante. Pour créer de nouvelles transitions, sélectionnez la page puis cliquez sur le bouton **[!UICONTROL Ajouter]** de la section **[!UICONTROL Transitions sortantes]**, comme dans l&#39;exemple ci-dessous :
+   Par défaut, une page n&#39;a qu&#39;une transition sortante. Pour créer de nouvelles transitions, sélectionnez la page puis cliquez sur le bouton **[!UICONTROL Ajouter]** de la section **[!UICONTROL Transitions sortantes]**, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_ncs_admin_survey_add_transition.png)
 
-   Dans le diagramme, cet ajout sera représenté comme dans l&#39;exemple ci-dessous :
+   Dans le diagramme, cet ajout sera représenté comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_ncs_admin_survey_add_transition_graph.png)
 
@@ -123,7 +123,7 @@ Vous pouvez réinjecter dans la page suivante le nom de l&#39;utilisateur et la 
 >
 >Pour des raisons de sécurité, la valeur saisie dans la formule **`<%=`** est remplacée par des caractères avec échappement.
 
-Dans notre exemple, le nom et le prénom du destinataire sont stockés dans un champ de la base, tandis que la marque de son véhicule est stockée dans une variable. La syntaxe du message personnalisé en page 2 sera la suivante :
+Dans notre exemple, le nom et le prénom du destinataire sont stockés dans un champ de la base, tandis que la marque de son véhicule est stockée dans une variable. La syntaxe du message personnalisé en page 2 sera la suivante :
 
 ![](assets/webapp_perso_vars_include.png)
 
@@ -132,7 +132,7 @@ Dans notre exemple, le nom et le prénom du destinataire sont stockés dans un c
 <P>To start your customized study, please select your car <%=ctx.vars.marque%> and its year of purchase.</P>
 ```
 
-Le résultat sera le suivant :
+Le résultat sera le suivant :
 
 ![](assets/s_ncs_admin_survey_tag_ctx_2.png)
 
@@ -142,7 +142,7 @@ L&#39;onglet **[!UICONTROL Texte]** permet de créer des champs variables qui pe
 
 Utilisez cette méthode pour localiser facilement vos chaînes. Voir [Traduire un formulaire web](translating-a-web-form.md)
 
-Par exemple, vous pouvez créer un champ **Contact** qui permettra d&#39;afficher la chaîne « Dernier contact le » dans le contenu HTML. Pour ce faire, procédez comme suit :
+Par exemple, vous pouvez créer un champ **Contact** qui permettra d&#39;afficher la chaîne « Dernier contact le » dans le contenu HTML. Pour ce faire, procédez comme suit :
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Textes]** du texte HTML.
 1. Cliquez sur l&#39;icône **[!UICONTROL Ajouter]**.
@@ -171,7 +171,7 @@ Pour inclure des images dans les formulaires, elles doivent être enregistrées 
 
 Sélectionnez le menu **[!UICONTROL Éléments statiques]** > **[!UICONTROL Image]**.
 
-Sélectionner la source de l&#39;image à insérer : elle peut être issue de la bibliothèque de ressources publiques ou stockée sur un serveur externe accessible de l&#39;extérieur.
+Sélectionner la source de l&#39;image à insérer : elle peut être issue de la bibliothèque de ressources publiques ou stockée sur un serveur externe accessible de l&#39;extérieur.
 
 ![](assets/s_ncs_admin_survey_add_img.png)
 

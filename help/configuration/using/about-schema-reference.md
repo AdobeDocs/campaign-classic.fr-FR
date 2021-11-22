@@ -17,11 +17,11 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Ce chapitre décrit le mécanisme et le langage des schémas du modèle conceptuel de données de la base de données Adobe Campaign. Il est destiné à tous les développeurs ou intégrateurs voulant créer et éditer un schéma ou étendre un schéma d&#39;usine dans Adobe Campaign.
+Ce chapitre décrit le mécanisme et le langage des schémas du modèle conceptuel de données de la base de données Adobe Campaign. Il est destiné à tous les développeurs ou intégrateurs voulant créer et éditer un schéma ou étendre un schéma d&#39;usine dans Adobe Campaign.
 
 Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, voir la section [Modèle de données Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/acc-datamodel.html).
 
-La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée **schéma**.
+La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée **schéma**.
 
 Un schéma est un document XML associé à une table de la base de données, il définit la structuration des données et décrit la définition SQL de la table :
 
@@ -40,7 +40,7 @@ mais aussi la structure XML utilisée pour stocker les données :
 
 Les schémas servent à définir en base une entité. A chaque entité, correspond un schéma.
 
-L&#39;illustration suivante montre la place des schémas dans le système de données d&#39;Adobe Campaign :
+L&#39;illustration suivante montre la place des schémas dans le système de données d&#39;Adobe Campaign :
 
 ![](assets/reference_schema_intro.png)
 

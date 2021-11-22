@@ -19,9 +19,9 @@ ht-degree: 100%
 
 Certaines évolutions majeures d&#39;Adobe Campaign v7 nécessitent un paramétrage pour en assurer le bon fonctionnement. Ces paramètres peuvent être nécessaires avant ou après l&#39;exécution de la migration. Les évolutions concernées et leur mode de paramétrage sont présentés dans cette section.
 
-Lors de la migration, la table **NmsRecipient** est reconstruite à partir de la définition des schémas. Toute modification de la structure SQL de cette table effectuée en dehors d&#39;Adobe Campaign sera perdue.
+Lors de la migration, la table **NmsRecipient** est reconstruite à partir de la définition des schémas. Toute modification de la structure SQL de cette table effectuée en dehors d&#39;Adobe Campaign sera perdue.
 
-Exemples d&#39;éléments à vérifier :
+Exemples d&#39;éléments à vérifier :
 
 * Si vous avez ajouté une colonne (ou un index) dans la table **NmsRecipient** mais que vous ne l&#39;avez pas décrite dans le schéma, celle-ci ne sera pas conservée.
 * L&#39;attribut **tablespace** reprend ses valeurs par défaut, c&#39;est-à-dire celles définies dans l&#39;assistant de déploiement.
@@ -43,7 +43,7 @@ Dans le cadre d&#39;une migration vers Adobe Campaign v7, les éléments suiva
 
 * Zones de sécurité
 
-   Pour des raisons de sécurité, la plateforme Adobe Campaign n&#39;est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter, avant la migration, les adresses IP des utilisateurs.
+   Pour des raisons de sécurité, la plateforme Adobe Campaign n&#39;est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter, avant la migration, les adresses IP des utilisateurs.
 
    Voir à ce sujet la section [Sécurité](../../migration/using/general-configurations.md#security).
 
@@ -67,7 +67,7 @@ Dans le cadre d&#39;une migration vers Adobe Campaign v7, les éléments suiva
 
 ## Après la migration {#after-the-migration}
 
-Après l&#39;exécution du **postupgrade**, les éléments suivants doivent être pris en compte et les paramétrages correspondants doivent être réalisés :
+Après l&#39;exécution du **postupgrade**, les éléments suivants doivent être pris en compte et les paramétrages correspondants doivent être réalisés :
 
 * Pages miroir
 

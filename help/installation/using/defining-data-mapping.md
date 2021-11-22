@@ -17,11 +17,11 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign permet de définir un mapping sur les données d&#39;une table externe.
+Adobe Campaign permet de définir un mapping sur les données d&#39;une table externe.
 
 Pour cela, une fois que le schéma de la table externe a été créé, vous devez créer un nouveau mapping de diffusion afin d&#39;utiliser les données contenues dans cette table en tant que cible des actions de diffusions.
 
-Pour cela, les étapes sont les suivantes :
+Pour cela, les étapes sont les suivantes :
 
 1. Créez un nouveau mapping de diffusion et sélectionnez la dimension de ciblage, par exemple le schéma que vous venez de créer.
 

@@ -58,7 +58,7 @@ Dans votre base, vous disposez d&#39;une catégorie d&#39;offres de voyages à d
    ![](assets/offer_delivery_example_009.png)
 
 1. Enregistrez votre diffusion et lancez le workflow de ciblage.
-1. Ouvrez votre diffusion et cliquez sur l&#39;onglet **[!UICONTROL Suivi]** : vous pouvez constater que le moteur d&#39;offre a déterminé les propositions à faire entre les différentes offres existant dans la catégorie.
+1. Ouvrez votre diffusion et cliquez sur l&#39;onglet **[!UICONTROL Suivi]** : vous pouvez constater que le moteur d&#39;offre a déterminé les propositions à faire entre les différentes offres existant dans la catégorie.
 
    ![](assets/offer_delivery_example_010.png)
 

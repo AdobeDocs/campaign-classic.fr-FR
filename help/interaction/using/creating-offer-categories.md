@@ -21,7 +21,7 @@ La création des catégories d&#39;offres s&#39;effectue uniquement dans l&#39;e
 
 Pour chaque catégorie il est possible de définir des dates d&#39;éligibilité, soit une période au-delà de laquelle les offres contenues dans la catégorie ne pourront plus être présentées à leur cible. Si vous souhaitez que les offres d&#39;une catégorie particulière soient sélectionnées en priorité par le moteur d&#39;offres, par exemple pour mieux exposer un produit, vous pouvez augmenter leur poids pendant une période donnée grâce à un poids multiplicateur au niveau de la catégorie.
 
-Pour créer une catégorie supplémentaire, procédez comme suit :
+Pour créer une catégorie supplémentaire, procédez comme suit :
 
 1. Positionnez-vous sur le dossier **[!UICONTROL Catalogue d&#39;offres]**.
 

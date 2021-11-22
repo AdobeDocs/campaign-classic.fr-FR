@@ -30,7 +30,7 @@ Le processus détaillé lors de la validation et l&#39;envoi d&#39;une diffusion
 
 Le bouton **[!UICONTROL Propriétés]** permet d&#39;accéder aux paramètres avancés de la diffusion. Les paramètres spécifiques à l&#39;envoi des SMS sont regroupés dans la section **[!UICONTROL Paramètres SMS]** de l&#39;onglet **[!UICONTROL Envoi]**.
 
-Les options disponibles sont les suivantes :
+Les options disponibles sont les suivantes :
 
 * **Adresse expéditeur** : permet de personnaliser le nom de l’expéditeur de la diffusion en utilisant une chaîne de caractères alphanumériques limités à onze caractères. Le champ ne doit pas être exclusivement composé de chiffres. Vous pouvez définir une condition pour afficher, par exemple, différents noms selon l’indicatif régional du destinataire :
 
@@ -42,9 +42,9 @@ Les options disponibles sont les suivantes :
    >
    >Vérifiez la loi en vigueur dans votre pays concernant la modification du nom de l&#39;expéditeur. Vérifiez également auprès de votre opérateur s&#39;il propose cette fonctionnalité.
 
-* **Mode de transmission** : moyen d&#39;acheminement des messages par SMS.
-* **Priorité** : niveau d&#39;importance attribué à un message. La priorité **[!UICONTROL Normale]** est sélectionnée par défaut. Renseignez-vous auprès de votre fournisseur pour connaître les tarifs d&#39;un SMS envoyé en priorité **[!UICONTROL Haute]**.
-* **Type d&#39;application** : choisissez l&#39;application que vous souhaitez attribuer à votre diffusion par SMS. L&#39;option **[!UICONTROL Marketing Direct]** est sélectionnée par défaut et constitue l&#39;utilisation la plus courante.
+* **Mode de transmission** : moyen d&#39;acheminement des messages par SMS.
+* **Priorité** : niveau d&#39;importance attribué à un message. La priorité **[!UICONTROL Normale]** est sélectionnée par défaut. Renseignez-vous auprès de votre fournisseur pour connaître les tarifs d&#39;un SMS envoyé en priorité **[!UICONTROL Haute]**.
+* **Type d&#39;application** : choisissez l&#39;application que vous souhaitez attribuer à votre diffusion par SMS. L&#39;option **[!UICONTROL Marketing Direct]** est sélectionnée par défaut et constitue l&#39;utilisation la plus courante.
 
 **Paramètres propres au connecteur NetSize**
 
@@ -68,9 +68,9 @@ Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions
 
 ## Traitement des messages entrants {#processing-inbound-messages}
 
-Le module **nlserver sms** interroge à intervalle régulier le routeur des messages SMS. Cela permet à Adobe Campaign de collecter les états d&#39;avancement des diffusions et de gérer les accusés de réception et les désinscriptions des destinataires.
+Le module **nlserver sms** interroge à intervalle régulier le routeur des messages SMS. Cela permet à Adobe Campaign de collecter les états d&#39;avancement des diffusions et de gérer les accusés de réception et les désinscriptions des destinataires.
 
-* **Accusés de réception** : consultez les logs de diffusion pour connaître le statut de vos messages.
+* **Accusés de réception** : consultez les logs de diffusion pour connaître le statut de vos messages.
 
    >[!NOTE]
    >
@@ -80,7 +80,7 @@ Le module **nlserver sms** interroge à intervalle régulier le routeur des mess
    > * Un compte SMS ne peut être associé qu&#39;à un seul compte externe afin que les accusés de réception soient correctement attribués à ce dernier
 
 
-* **Désinscription** : les destinataires qui ne souhaitent plus recevoir de diffusions par SMS peuvent renvoyer un message contenant le mot STOP. Si votre fournisseur vous le permet contractuellement, vous avez la possibilité de récupérer ses messages via l&#39;activité de workflow **Réception de SMS** puis de créer une requête afin que l&#39;option **Ne plus contacter cette personne** soit activée pour les destinataires concernés.
+* **Désinscription** : les destinataires qui ne souhaitent plus recevoir de diffusions par SMS peuvent renvoyer un message contenant le mot STOP. Si votre fournisseur vous le permet contractuellement, vous avez la possibilité de récupérer ses messages via l&#39;activité de workflow **Réception de SMS** puis de créer une requête afin que l&#39;option **Ne plus contacter cette personne** soit activée pour les destinataires concernés.
 
    Reportez-vous au guide [Workflows](../../workflow/using/architecture.md).
 
@@ -91,8 +91,8 @@ Le schéma InSMS contient les informations relatives aux SMS entrants. Une descr
 * **message** : contenu du SMS reçu.
 * **origin** : numéro du mobile de l&#39;expéditeur du message.
 * **providerId** : identifiant du message retourné par le SMSC (centre de messagerie).
-* **created** : date d&#39;insertion du message entrant dans Adobe Campaign.
-* **extAccount** : compte externe Adobe Campaign.
+* **created** : date d&#39;insertion du message entrant dans Adobe Campaign.
+* **extAccount** : compte externe Adobe Campaign.
 
    >[!IMPORTANT]
    >
@@ -108,11 +108,11 @@ Le schéma InSMS contient les informations relatives aux SMS entrants. Une descr
 * **largeAccount** : code du compte client associé au SMS entrant.
 * **countryCode** : code pays de l&#39;opérateur.
 * **operatorCode** : code du réseau de l&#39;opérateur.
-* **linkedSmsId** : identifiant Adobe Campaign (broadlogId) associé au SMS sortant, dont ce SMS est la réponse.
+* **linkedSmsId** : identifiant Adobe Campaign (broadlogId) associé au SMS sortant, dont ce SMS est la réponse.
 
 ## Gestion des réponses automatiques (réglementation américaine) {#managing-automatic-replies--american-regulation-}
 
-Lorsqu&#39;un abonné répond à un SMS qui lui a été envoyé via Adobe Campaign par un message contenant un mot-clé tel que STOP, HELP ou YES, il est obligatoire sur le marché américain de configurer les messages qui lui sont automatiquement renvoyés.
+Lorsqu&#39;un abonné répond à un SMS qui lui a été envoyé via Adobe Campaign par un message contenant un mot-clé tel que STOP, HELP ou YES, il est obligatoire sur le marché américain de configurer les messages qui lui sont automatiquement renvoyés.
 
 Par exemple, si un destinataire envoie le mot-clé STOP, il reçoit automatiquement une confirmation de désinscription.
 
@@ -124,7 +124,7 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 >
 >Elle entre dans le cadre du processus de certification effectué par les opérateurs américains pour les campagnes marketing aux Etats-Unis. Ces SMS doivent notamment parvenir immédiatement à l&#39;abonné qui a envoyé le mot-clé.
 
-1. Créez un fichier XML de ce type :
+1. Créez un fichier XML de ce type :
 
    ```
    <autoreply>
@@ -163,7 +163,7 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 
    Notez que le nom de ce fichier est sensible à la casse sous Linux.
 
-1. Copiez ce fichier dans le répertoire **conf** d&#39;Adobe Campaign, à l&#39;endroit où se trouve le serveur Web.
+1. Copiez ce fichier dans le répertoire **conf** d&#39;Adobe Campaign, à l&#39;endroit où se trouve le serveur Web.
 
 >[!IMPORTANT]
 >

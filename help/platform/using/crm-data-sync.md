@@ -46,14 +46,14 @@ La configuration de cette activité dépend ensuite du traitement à réaliser. 
 
 ## Import depuis le CRM {#importing-from-the-crm}
 
-Pour importer des données depuis le CRM dans Adobe Campaign, vous devez réaliser un workflow du type :
+Pour importer des données depuis le CRM dans Adobe Campaign, vous devez réaliser un workflow du type :
 
 ![](assets/crm_wf_import.png)
 
-Pour un import, les étapes de paramétrage de l&#39;activité **[!UICONTROL Connecteur CRM]** sont les suivantes :
+Pour un import, les étapes de paramétrage de l&#39;activité **[!UICONTROL Connecteur CRM]** sont les suivantes :
 
 1. Sélectionnez une opération de type **[!UICONTROL Import depuis le CRM]**.
-1. Dans la liste déroulante **[!UICONTROL Objet distant]**, sélectionnez l&#39;objet concerné par le traitement. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
+1. Dans la liste déroulante **[!UICONTROL Objet distant]**, sélectionnez l&#39;objet concerné par le traitement. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
 1. Dans la section **[!UICONTROL Champs distants]**, indiquez les champs à importer.
 
    Pour ajouter un champ, cliquez sur le bouton **[!UICONTROL Ajouter]** de la barre d&#39;outils puis sur l&#39;icône **[!UICONTROL Editer l&#39;expression]**.
@@ -64,13 +64,13 @@ Pour un import, les étapes de paramétrage de l&#39;activité **[!UICONTROL Con
 
    >[!IMPORTANT]
    >
-   >L&#39;identifiant de l&#39;enregistrement dans le CRM est obligatoire pour relier les objets côté CRM et côté Adobe Campaign. Il est automatiquement ajouté lors de la validation de la boîte.
+   >L&#39;identifiant de l&#39;enregistrement dans le CRM est obligatoire pour relier les objets côté CRM et côté Adobe Campaign. Il est automatiquement ajouté lors de la validation de la boîte.
    >
    >La date de la dernière modification côté CRM est également requise pour permettre l&#39;import incrémental des données.
 
 1. Vous pouvez également filtrer les données à importer selon vos besoins. Pour cela, cliquez sur le lien **[!UICONTROL Editer le filtre...]**.
 
-   Dans l&#39;exemple suivant, Adobe Campaign n&#39;importera que les contact ayant eu une activité après le 1er novembre 2012.
+   Dans l&#39;exemple suivant, Adobe Campaign n&#39;importera que les contact ayant eu une activité après le 1er novembre 2012.
 
    ![](assets/crm_task_import_filter.png)
 
@@ -78,7 +78,7 @@ Pour un import, les étapes de paramétrage de l&#39;activité **[!UICONTROL Con
    >
    >Les limitations relatives au mode de filtrage des données sont décrites dans la section [Filtrer les données](#filtering-data).
 
-1. L&#39;option **[!UICONTROL Utiliser l&#39;index automatique...]** permet de gérer automatiquement la synchronisation incrémentale des objets entre le CRM et Adobe Campaign, selon la date de leur dernière modification.
+1. L&#39;option **[!UICONTROL Utiliser l&#39;index automatique...]** permet de gérer automatiquement la synchronisation incrémentale des objets entre le CRM et Adobe Campaign, selon la date de leur dernière modification.
 
    Voir à ce sujet la section [Gestion des variables](#variable-management).
 
@@ -100,16 +100,16 @@ La date de la dernière synchronisation est stockée dans l&#39;option indiquée
 
 Vous pouvez indiquer le champ CRM distant à prendre en compte pour identifier les modifications les plus récentes.
 
-Par défaut, les champs suivants sont utilisés (dans l&#39;ordre indiqué) :
+Par défaut, les champs suivants sont utilisés (dans l&#39;ordre indiqué) :
 
-* Pour Microsoft Dynamics : **modifiedon**,
-* Pour Salesforce.com : **LastModifiedDate**, **SystemModstamp**.
+* Pour Microsoft Dynamics : **modifiedon**,
+* Pour Salesforce.com : **LastModifiedDate**, **SystemModstamp**.
 
-L&#39;activation de l&#39;option **[!UICONTROL Index automatique]** génère trois variables, qui pourront être exploitées dans le workflow de synchronisation, via une activité de type **[!UICONTROL Code JavaScript]**. Ces variables sont les suivantes :
+L&#39;activation de l&#39;option **[!UICONTROL Index automatique]** génère trois variables, qui pourront être exploitées dans le workflow de synchronisation, via une activité de type **[!UICONTROL Code JavaScript]**. Ces variables sont les suivantes :
 
-* **vars.crmOptionName** : représente le nom de l&#39;option contenant la date du dernier import.
-* **vars.crmStartImport** : représente la date de début (incluse) de la dernière récupération des données.
-* **vars.crmEndDate** : représente la date de fin (exclue) de la dernière récupération des données.
+* **vars.crmOptionName** : représente le nom de l&#39;option contenant la date du dernier import.
+* **vars.crmStartImport** : représente la date de début (incluse) de la dernière récupération des données.
+* **vars.crmEndDate** : représente la date de fin (exclue) de la dernière récupération des données.
 
    >[!NOTE]
    >
@@ -117,7 +117,7 @@ L&#39;activation de l&#39;option **[!UICONTROL Index automatique]** génère tro
 
 ### Filtrage des données {#filtering-data}
 
-Afin d&#39;assurer un bon fonctionnement avec les différents CRM, les filtres doivent être créés selon les règles suivantes :
+Afin d&#39;assurer un bon fonctionnement avec les différents CRM, les filtres doivent être créés selon les règles suivantes :
 
 * Chaque niveau de filtrage ne peut utiliser qu&#39;un seul type d&#39;opérateur.
 * L&#39;opérateur AND NOT n&#39;est pas supporté.
@@ -139,7 +139,7 @@ Sous Microsoft Dynamics et Salesforce.com, vous pouvez trier les champs distants
 
 Pour cela, cliquez sur le lien **[!UICONTROL Ordre de tri]** et ajoutez les colonnes dans la liste.
 
-L&#39;ordre des colonnes dans la liste indique l&#39;ordre de tri :
+L&#39;ordre des colonnes dans la liste indique l&#39;ordre de tri :
 
 ![](assets/crm_import_order.png)
 
@@ -149,22 +149,22 @@ Plutôt que d&#39;importer directement des éléments contenus (et éventuelleme
 
 Pour cela, sélectionnez l&#39;option **[!UICONTROL Utiliser la population calculée en amont]** et indiquez le champ contenant l&#39;identifiant distant.
 
-Sélectionnez ensuite les champs à importer depuis la population entrante, comme dans l&#39;exemple ci-dessous :
+Sélectionnez ensuite les champs à importer depuis la population entrante, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/crm_wf_import_calculated_population.png)
 
 ## Export vers le CRM {#exporting-to-the-crm}
 
-L&#39;export de données Adobe Campaign dans le CRM permet de copier l&#39;intégralité d&#39;un contenu vers une base CRM.
+L&#39;export de données Adobe Campaign dans le CRM permet de copier l&#39;intégralité d&#39;un contenu vers une base CRM.
 
-Pour exporter des données vers le CRM, vous devez réaliser un workflow du type :
+Pour exporter des données vers le CRM, vous devez réaliser un workflow du type :
 
 ![](assets/crm_export_diagram.png)
 
-Pour un export, les étapes de paramétrage de l&#39;activité **[!UICONTROL Connecteur CRM]** sont les suivantes :
+Pour un export, les étapes de paramétrage de l&#39;activité **[!UICONTROL Connecteur CRM]** sont les suivantes :
 
 1. Sélectionnez une opération de type **[!UICONTROL Exporter vers le CRM]**.
-1. Dans la liste déroulante **[!UICONTROL Objet distant]**, sélectionnez l&#39;objet concerné par le traitement. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
+1. Dans la liste déroulante **[!UICONTROL Objet distant]**, sélectionnez l&#39;objet concerné par le traitement. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
 
    >[!IMPORTANT]
    >
@@ -178,7 +178,7 @@ Pour un export, les étapes de paramétrage de l&#39;activité **[!UICONTROL Con
 
    >[!NOTE]
    >
-   >Pour un champ, si aucune correspondance n&#39;est définie côté CRM, alors les valeurs ne peuvent pas être mises à jour : elle seront directement insérées dans le CRM.
+   >Pour un champ, si aucune correspondance n&#39;est définie côté CRM, alors les valeurs ne peuvent pas être mises à jour : elle seront directement insérées dans le CRM.
 
    Si nécessaire, modifiez le format des données dans la liste déroulante des colonnes **[!UICONTROL Conversion]** . Les types de conversion possibles sont détaillés dans la section [Format des données](#data-format).
 
@@ -198,11 +198,11 @@ Pour cela, sélectionnez la conversion à appliquer dans la colonne correspondan
 
 Le mode **[!UICONTROL par défaut]** applique une conversion automatique des données, qui correspond dans la plupart des cas, à un copier/coller des données. Toutefois, la gestion des fuseaux horaires est appliquée.
 
-Les autres conversions possibles sont les suivantes :
+Les autres conversions possibles sont les suivantes :
 
-* **[!UICONTROL Date seulement]** : ce mode supprime les heures des champs de type Date + Heure.
-* **[!UICONTROL Sans décalage]** : ce mode annule la gestion des fuseaux horaires appliquée dans le mode par défaut.
-* **[!UICONTROL Copié/collé]** : ce mode utilise les données brutes comme des chaînes (pas de conversion).
+* **[!UICONTROL Date seulement]** : ce mode supprime les heures des champs de type Date + Heure.
+* **[!UICONTROL Sans décalage]** : ce mode annule la gestion des fuseaux horaires appliquée dans le mode par défaut.
+* **[!UICONTROL Copié/collé]** : ce mode utilise les données brutes comme des chaînes (pas de conversion).
 
 ### Traitement des erreurs {#error-processing}
 
@@ -228,12 +228,12 @@ La transition sortante **[!UICONTROL Rejet]** permet d&#39;accéder au schéma d
 
 ## Import d&#39;objets supprimés dans le CRM {#importing-objects-deleted-in-the-crm}
 
-Afin de permettre la mise en place d&#39;un processus exhaustif de synchronisation des données, vous pouvez importer dans Adobe Campaign les objets supprimés côté CRM.
+Afin de permettre la mise en place d&#39;un processus exhaustif de synchronisation des données, vous pouvez importer dans Adobe Campaign les objets supprimés côté CRM.
 
-Pour cela, les étapes sont les suivantes :
+Pour cela, les étapes sont les suivantes :
 
 1. Sélectionnez une opération de type **[!UICONTROL Import des objets supprimés dans le CRM]**.
-1. Dans la liste déroulante **[!UICONTROL Objet distant]**, sélectionnez l&#39;objet concerné par le traitement. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
+1. Dans la liste déroulante **[!UICONTROL Objet distant]**, sélectionnez l&#39;objet concerné par le traitement. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
 1. Indiquez la période de suppression à prendre en compte dans les champs **[!UICONTROL Date de début]** et **[!UICONTROL Date de fin]**. Ces dates seront incluses dans la période.
 
    ![](assets/crm_import_deleted_obj.png)

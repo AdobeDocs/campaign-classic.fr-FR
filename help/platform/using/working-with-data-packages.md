@@ -19,22 +19,22 @@ ht-degree: 100%
 
 ## À propos des packages de données {#about-data-packages}
 
-Adobe Campaign vous permet d&#39;exporter ou d&#39;importer la configuration et les données de la plateforme grâce à un système de packages. Les packages peuvent contenir différents types de configurations et d&#39;éléments, filtrés ou non.
+Adobe Campaign vous permet d&#39;exporter ou d&#39;importer la configuration et les données de la plateforme grâce à un système de packages. Les packages peuvent contenir différents types de configurations et d&#39;éléments, filtrés ou non.
 
-Les packages de données permettent l&#39;échange des entités de la base Adobe Campaign au travers de fichiers au format XML. Chaque entité contenue dans un package est représentée avec toutes ses données.
+Les packages de données permettent l&#39;échange des entités de la base Adobe Campaign au travers de fichiers au format XML. Chaque entité contenue dans un package est représentée avec toutes ses données.
 
-Le principe des packages de données ou **data package** consiste à exporter un paramétrage de données puis l&#39;intégrer dans un autre système Adobe Campaign. Découvrez comment conserver un ensemble cohérent de packages de données dans cette [section](#data-package-best-practices).
+Le principe des packages de données ou **data package** consiste à exporter un paramétrage de données puis l’intégrer dans un autre système Adobe Campaign. Découvrez comment conserver un ensemble cohérent de packages de données dans cette [section](#data-package-best-practices).
 
 ### Types de packages {#types-of-packages}
 
 Il existe trois types de packages exportables : les packages utilisateur, les packages plateforme et les packages admin.
 
-* **Package utilisateur** : il permet de choisir la liste des entités à exporter. Ce type de package gère les dépendances et vérifie les erreurs.
+* **Package utilisateur** : il permet de choisir la liste des entités à exporter. Ce type de package gère les dépendances et vérifie les erreurs.
 * **Package plateforme** : il regroupe toutes les ressources techniques ajoutées (non livrées d&#39;usine) : schémas, code JavaScript, etc.
 
    ![](assets/ncs_datapackage_package_platform.png)
 
-* **Package admin** : il regroupe tous les modèles et objets métiers ajoutés (non livrés d&#39;usine) : modèles, librairies, etc.
+* **Package admin** : il regroupe tous les modèles et objets métiers ajoutés (non livrés d’usine) : modèles, librairies, etc.
 
    ![](assets/ncs_datapackage_package_admin.png)
 
@@ -46,7 +46,7 @@ Il existe trois types de packages exportables : les packages utilisateur, les p
 
 La description d&#39;un package de données est un document XML structuré respectant la grammaire du schéma de données **xrk:navtree**.
 
-Exemple de package de données :
+Exemple de package de données :
 
 ```
 <package>
@@ -70,7 +70,7 @@ Un élément **`<entities>`** contient les données du package au format du sch�
 
 Les données d&#39;un package ne doivent pas contenir de clés internes non compatibles entre les bases, comme les clés auto-générées (option **autopk**).
 
-Dans notre exemple, les jointures sur les liens &quot;folder&quot; et &quot;company&quot; ont été remplacées par les clés dites de &quot;haut niveau&quot; sur les tables destinations :
+Dans notre exemple, les jointures sur les liens &quot;folder&quot; et &quot;company&quot; ont été remplacées par les clés dites de &quot;haut niveau&quot; sur les tables destinations :
 
 ```
 <recipient>
@@ -81,7 +81,7 @@ Dans notre exemple, les jointures sur les liens &quot;folder&quot; et &quot;comp
 
 L&#39;attribut **`operation`** avec la valeur &quot;none&quot; définit un lien de réconciliation.
 
-Un package de données peut être construit à la main à partir de n&#39;importe quel éditeur texte. Il suffit que la structure du document XML soit conforme au schéma de données &quot;xtk:navtree&quot;. La console Adobe Campaign est pourvue d&#39;un module d&#39;export et d&#39;import de package de données.
+Un package de données peut être construit à la main à partir de n&#39;importe quel éditeur texte. Il suffit que la structure du document XML soit conforme au schéma de données &quot;xtk:navtree&quot;. La console Adobe Campaign est pourvue d&#39;un module d&#39;export et d&#39;import de package de données.
 
 ## Export de packages {#exporting-packages}
 
@@ -97,19 +97,19 @@ Une fois un package exporté, vous pourrez l&#39;importer ainsi que toutes les e
 
 ### Exporter un ensemble d&#39;objets dans un package {#exporting-a-set-of-objects-in-a-package}
 
-L&#39;assistant d&#39;export de package est accessible à partir du menu principal **[!UICONTROL Outils > Avancé > Export de package...]** de la console cliente Adobe Campaign.
+L&#39;assistant d&#39;export de package est accessible à partir du menu principal **[!UICONTROL Outils > Avancé > Export de package...]** de la console cliente Adobe Campaign.
 
 ![](assets/ncs_datapackage_typepackage.png)
 
-Pour les trois types de package, l&#39;assistant propose les étapes suivantes :
+Pour les trois types de package, l&#39;assistant propose les étapes suivantes :
 
-1. Indiquez la liste des entités à exporter, par type de document :
+1. Indiquez la liste des entités à exporter, par type de document :
 
    ![](assets/ncs_datapackage_export2.png)
 
    >[!CAUTION]
    >
-   >Si vous exportez un dossier de type **[!UICONTROL Catégorie d&#39;offres]**, **[!UICONTROL Environnement d&#39;offres]**, **[!UICONTROL Programme]** ou **[!UICONTROL Plan]**, ne sélectionnez en aucun cas l&#39;entité **xtk:folder** au risque de perdre une partie des données. Sélectionnez l&#39;entité correspondant au dossier : **nms:offerCategory** pour les catégories d&#39;offres, **nms:offerEnv** pour les environnements d&#39;offres, **nms:program** pour les programmes et **nms:plan** pour les plans.
+   >Si vous exportez un dossier de type **[!UICONTROL Catégorie d&#39;offres]**, **[!UICONTROL Environnement d&#39;offres]**, **[!UICONTROL Programme]** ou **[!UICONTROL Plan]**, ne sélectionnez en aucun cas l&#39;entité **xtk:folder** au risque de perdre une partie des données. Sélectionnez l&#39;entité correspondant au dossier : **nms:offerCategory** pour les catégories d&#39;offres, **nms:offerEnv** pour les environnements d&#39;offres, **nms:program** pour les programmes et **nms:plan** pour les plans.
 
    La gestion de la liste permet l&#39;ajout ou la suppression de la configuration des entités à exporter. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner une nouvelle entité.
 
@@ -129,7 +129,7 @@ Pour les trois types de package, l&#39;assistant propose les étapes suivantes :
    >
    >Le requêteur est présenté dans [cette section](../../platform/using/about-queries-in-campaign.md).
 
-1. Cliquez sur **[!UICONTROL Suivant]** et sélectionnez les colonnes de tri pour ordonnancer les données lors de l&#39;extraction :
+1. Cliquez sur **[!UICONTROL Suivant]** et sélectionnez les colonnes de tri pour ordonnancer les données lors de l&#39;extraction :
 
    ![](assets/ncs_datapackage_export5.png)
 
@@ -143,9 +143,9 @@ Pour les trois types de package, l&#39;assistant propose les étapes suivantes :
 
 ### Gérer les dépendances {#managing-dependencies}
 
-Le mécanisme d&#39;export permet à Adobe Campaign de suivre les liens entre les éléments exportés.
+Le mécanisme d&#39;export permet à Adobe Campaign de suivre les liens entre les éléments exportés.
 
-Deux règles définissent le mécanisme :
+Deux règles définissent le mécanisme :
 
 * les objets liés avec un lien ayant une intégrité de type **own** ou **owncopy** sont exportés dans le même package que l&#39;objet exporté.
 * les objets liés avec un lien ayant une intégrité de type **neutral** ou **define** (lien défini) doivent être exportés indépendamment.
@@ -160,7 +160,7 @@ Voici un exemple d&#39;export de campagne. La campagne marketing à exporter con
 
 La tâche et le workflow sont exportés dans le même package que la campagne car les schémas correspondant sont reliés par des liens ayant une intégrité de type &quot;own&quot;.
 
-Contenu de package :
+Contenu de package :
 
 ```
 <?xml version='1.0'?>
@@ -212,11 +212,11 @@ L&#39;appartenance à un type de package est défini dans un schéma avec l&#39;
 template="xtk:folder" pkgAdmin="@id != 0">
 ```
 
-Enfin, l&#39;attribut **@pkgStatus** permet de définir les règles d&#39;export sur les éléments ou attributs. Selon la valeur de l&#39;attribut, l&#39;élément ou l&#39;attribut sera présent dans le package exporté. Les trois valeurs possibles pour cet attribut sont :
+Enfin, l&#39;attribut **@pkgStatus** permet de définir les règles d&#39;export sur les éléments ou attributs. Selon la valeur de l&#39;attribut, l&#39;élément ou l&#39;attribut sera présent dans le package exporté. Les trois valeurs possibles pour cet attribut sont :
 
-* **never** : n&#39;exporte pas le champ / lien
-* **always** : force l&#39;export de ce champ
-* **preCreate** : autorise la création de l&#39;entité liée
+* **never** : n&#39;exporte pas le champ / lien
+* **always** : force l&#39;export de ce champ
+* **preCreate** : autorise la création de l&#39;entité liée
 
 >[!NOTE]
 >
@@ -303,7 +303,7 @@ Pour exporter un package à partir d&#39;une définition de package, suivez les 
 
 L’assistant d’import de package est accessible à partir du menu principal **[!UICONTROL Outils > Avancé > Import de package]** de la console client Adobe Campaign.
 
-Vous pouvez importer le package d’un export réalisé antérieurement, par exemple à partir d’une autre instance Adobe Campaign, ou un [package intégré](../../installation/using/installing-campaign-standard-packages.md), selon les conditions de votre licence.
+Vous pouvez importer le package d’un export réalisé antérieurement, par exemple à partir d’une autre instance Adobe Campaign, ou un [package intégré](../../installation/using/installing-campaign-standard-packages.md), selon les conditions de votre licence.
 
 ![](assets/ncs_datapackage_import.png)
 
@@ -321,7 +321,7 @@ Cliquez sur **[!UICONTROL Suivant]** puis sur **[!UICONTROL Démarrer]** pour la
 
 ### Installer un package natif {#installing-a-standard-package}
 
-Les packages standard sont des packages natifs, installés lors de la configuration d&#39;Adobe Campaign. Selon vos autorisations et votre modèle de déploiement, vous pouvez importer de nouveaux packages standard si vous acquérez de nouvelles options ou de nouveaux modules complémentaires ou si vous effectuez une mise à niveau vers une nouvelle offre.
+Les packages standard sont des packages natifs, installés lors de la configuration d’Adobe Campaign. Selon vos autorisations et votre modèle de déploiement, vous pouvez importer de nouveaux packages standard si vous acquérez de nouvelles options ou de nouveaux modules complémentaires ou si vous effectuez une mise à niveau vers une nouvelle offre.
 
 Reportez-vous à votre contrat de licence pour savoir quels packages peuvent être installés.
 
@@ -335,7 +335,7 @@ Les packages peuvent contenir différents types de configurations et d&#39;élé
 
 De plus, si plusieurs personnes travaillent sur la même plateforme avec de nombreuses fonctionnalités différentes, le dossier contenant les spécifications des packages peut rapidement devenir complexe.
 
-Bien que son utilisation ne soit pas obligatoire, cette section propose une solution afin de mieux organiser et utiliser des packages dans Adobe Campaign pour des projets de grande envergure.
+Bien que son utilisation ne soit pas obligatoire, cette section propose une solution afin de mieux organiser et utiliser des packages dans Adobe Campaign pour des projets de grande envergure.
 
 Les principales contraintes sont les suivantes :
 * Organiser les packages et suivre les modifications et les dates
@@ -363,7 +363,7 @@ Accordez de l&#39;attention à la structure du schéma et de la base de données
 Commencez par définir différents types de packages. Quatre types seulement seront utilisés :
 
 **Entités**
-* Tous les éléments spécifiques &quot;xtk&quot; et &quot;nms&quot; d&#39;Adobe Campaign, tels que les schémas, les formulaires, les dossiers, les modèles de diffusion, etc.
+* Tous les éléments spécifiques &quot;xtk&quot; et &quot;nms&quot; d’Adobe Campaign, tels que les schémas, les formulaires, les dossiers, les modèles de diffusion, etc.
 * Vous pouvez considérer une entité à la fois comme un élément &quot;admin&quot; et comme un élément &quot;plateforme&quot;.
 * Vous ne devez pas inclure plus d&#39;une entité dans un package lorsque vous le chargez sur une instance Campaign.
 
@@ -394,7 +394,7 @@ Une mise à jour peut non seulement être constituée d&#39;un correctif, mais a
 
 ### Conventions de dénomination {#data-package-naming}
 
-Les types étant définis, nous devons spécifier une convention de dénomination. Adobe Campaign ne permettant pas de créer des sous-dossiers pour les spécifications de package, les nombres constituent la meilleure solution pour assurer l&#39;organisation. Les nombres servent de préfixes pour les noms de packages. Vous pouvez utiliser la convention suivante :
+Les types étant définis, nous devons spécifier une convention de dénomination. Adobe Campaign ne permettant pas de créer des sous-dossiers pour les spécifications de package, les nombres constituent la meilleure solution pour assurer l’organisation. Les nombres servent de préfixes pour les noms de packages. Vous pouvez utiliser la convention suivante :
 
 * Entité : de 1 à 99
 * Fonctionnalité : de 100 à 199

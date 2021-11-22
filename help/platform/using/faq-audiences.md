@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Découvrez comment cibler une population et gérer les audiences dans Adobe Campaign.
+Découvrez comment cibler une population et gérer les audiences dans Adobe Campaign.
 
 ## Comment créer des destinataires ? {#how-to-create-recipients-}
 

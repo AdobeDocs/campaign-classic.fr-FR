@@ -61,7 +61,7 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques ci-
 
 Si vous utilisez votre propre serveur SFTP, suivez autant que possible les recommandations mentionnées ci-dessus.
 
-En outre, lors de la spécification dans Campaign Classic d’un chemin d’accès à un serveur SFTP externe, la syntaxe du chemin d’accès diffère selon le système d’exploitation du serveur SFTP :
+En outre, lors de la spécification dans Campaign Classic d’un chemin d’accès à un serveur SFTP externe, la syntaxe du chemin d’accès diffère selon le système d’exploitation du serveur SFTP :
 
 * Si votre serveur SFTP est sous **Windows**, utilisez toujours un chemin relatif.
 * Si votre serveur STP est sous **Linux**, utilisez toujours un chemin relatif au répertoire de base (commençant par &quot;~/&quot;) ou un chemin absolu (commençant par &quot;/&quot;).
@@ -128,7 +128,7 @@ Cette erreur indique que le nom de domaine du serveur FTP n&#39;a pas pu être r
 1. Résolution des problèmes de **configuration du serveur DNS** :
 
    1. Vérifiez si le nom du serveur a été ajouté au serveur DNS local.
-   1. Si oui, exécutez la commande suivante sur le serveur Adobe Campaign pour obtenir l’adresse IP :
+   1. Si oui, exécutez la commande suivante sur le serveur Adobe Campaign pour obtenir l’adresse IP :
 
       `nslookup <server domain name>`
 

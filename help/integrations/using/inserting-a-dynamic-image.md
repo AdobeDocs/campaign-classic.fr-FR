@@ -152,7 +152,7 @@ La section **[!UICONTROL Paramètres de création de rapports]** permet de séle
 
 ## Prévisualiser et envoyer l&#39;email {#preview-send-email}
 
-Dans Adobe Campaign, vous pouvez désormais prévisualiser votre e-mail et en tester le rendu pour différents destinataires. Vous pouvez constater que l&#39;image change selon les différentes expériences créées. Pour en savoir plus sur la création d’un email, consultez cette [page](../../delivery/using/defining-the-email-content.md).
+Dans Adobe Campaign, vous pouvez désormais prévisualiser votre e-mail et en tester le rendu pour différents destinataires. Vous pouvez constater que l&#39;image change selon les différentes expériences créées. Pour en savoir plus sur la création d’un email, consultez cette [page](../../delivery/using/defining-the-email-content.md).
 
 Votre email comprenant une offre dynamique provenant de Target peut maintenant être envoyé.
 

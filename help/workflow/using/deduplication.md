@@ -46,7 +46,7 @@ Complémentaire :
 
 Lors d&#39;une déduplication, les flux entrants sont traités séparément. Si par exemple, un destinataire &#39;A&#39; est présent dans le résultat de la requête 1 et également dans le résultat de la requête 2, il ne sera pas dédupliqué.
 
-Ce cas de figure doit s&#39;aborder de cette manière :
+Ce cas de figure doit s&#39;aborder de cette manière :
 
 * Créer une activité **Union** pour unifier chaque flux entrant.
 * Créer une activité **Déduplication** positionnée après l&#39;activité **Union**.
@@ -67,7 +67,7 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
    >
    >Si vous utilisez des données externes comme entrée, provenant par exemple d’un fichier externe, veillez à sélectionner l’option **[!UICONTROL Schéma temporaire.]**
    >
-   >L&#39;option **[!UICONTROL Autre]** permet, à l&#39;étape suivante, de sélectionner le ou les critères à utiliser :
+   >L&#39;option **[!UICONTROL Autre]** permet, à l&#39;étape suivante, de sélectionner le ou les critères à utiliser :
 
    ![](assets/s_user_segmentation_dedup_param2.png)
 
@@ -79,7 +79,7 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 
    ![](assets/s_user_segmentation_dedup_param4.png)
 
-   Les méthodes disponibles sont les suivantes :
+   Les méthodes disponibles sont les suivantes :
 
    * **[!UICONTROL Choisir pour moi]** : sélectionne au hasard parmi les doublons l&#39;enregistrement à conserver.
    * **[!UICONTROL Par ordonnancement de valeurs]** : permet de définir un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, sélectionnez un champ ou créez une expression puis ajoutez la ou les valeurs dans le tableau correspondant. Cliquez sur le bouton **[!UICONTROL Ajouter]** situé au-dessus de la liste des valeurs pour définir un nouveau champ.
@@ -90,7 +90,7 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 
       ![](assets/s_user_segmentation_dedup_param6.png)
 
-   * **[!UICONTROL A partir d&#39;une expression]** : permet de conserver les enregistrements dont la valeur de l&#39;expression renseignée est la plus petite (ou la plus grande).
+   * **[!UICONTROL A partir d&#39;une expression]** : permet de conserver les enregistrements dont la valeur de l&#39;expression renseignée est la plus petite (ou la plus grande).
 
       ![](assets/s_user_segmentation_dedup_param7.png)
    >[!NOTE]
@@ -105,11 +105,11 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 
    ![](assets/s_user_segmentation_dedup_param8.png)
 
-1. Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l&#39;activité, comme suit :
+1. Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l&#39;activité, comme suit :
 
    ![](assets/s_user_segmentation_dedup_param9.png)
 
-## Exemple : identifier des doublons avant une diffusion {#example--identify-the-duplicates-before-a-delivery}
+## Exemple : identifier des doublons avant une diffusion {#example--identify-the-duplicates-before-a-delivery}
 
 Dans l&#39;exemple suivant, la déduplication porte sur l&#39;union de trois requêtes.
 

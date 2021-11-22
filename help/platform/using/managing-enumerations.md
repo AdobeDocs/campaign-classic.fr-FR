@@ -52,13 +52,13 @@ Dans les champs énumérés, il est possible de saisir d&#39;autres valeurs que 
 
 >[!CAUTION]
 >
->La normalisation des données est un processus critique qui affecte les données de la base. En effet, Adobe Campaign procède à la mise à jour en masse de données, ce qui peut impliquer la suppression de certaines valeurs. Cette opération est donc réservée à des utilisateurs avertis.
+>La normalisation des données est un processus critique qui affecte les données de la base. En effet, Adobe Campaign procède à la mise à jour en masse de données, ce qui peut impliquer la suppression de certaines valeurs. Cette opération est donc réservée à des utilisateurs avertis.
 
-En effet, la valeur saisie peut être :
+En effet, la valeur saisie peut être :
 
 * ajoutée aux valeurs de l&#39;énumération : l&#39;option **[!UICONTROL Ouverte]** doit être cochée,
 * remplacée automatiquement par son alias : cet alias doit être défini dans l&#39;onglet **[!UICONTROL Alias]** de l&#39;énumération,
-* stockée dans la liste des alias : un alias pourra lui être attribué ultérieurement.
+* stockée dans la liste des alias : un alias pourra lui être attribué ultérieurement.
 
    >[!NOTE]
    >
@@ -88,7 +88,7 @@ Vérifiez les paramètres avant de valider cette opération.
 
 ![](assets/s_ncs_user_itemized_list_alias_create_3.png)
 
-Ainsi, lorsque l&#39;utilisateur renseigne la valeur **NEILSEN** dans un champ « société » (dans la console Adobe Campaign ou dans un formulaire), elle sera remplacée par la valeur **NEILSEN Ltd**. Le remplacement des valeurs est réalisé par le workflow **Cleansing des alais**. Pour plus d&#39;informations, consultez la section [Exécution du cleansing des données](#running-data-cleansing).
+Ainsi, lorsque l&#39;utilisateur renseigne la valeur **NEILSEN** dans un champ « société » (dans la console Adobe Campaign ou dans un formulaire), elle sera remplacée par la valeur **NEILSEN Ltd**. Le remplacement des valeurs est réalisé par le workflow **Cleansing des alais**. Pour plus d&#39;informations, consultez la section [Exécution du cleansing des données](#running-data-cleansing).
 
 ![](assets/s_ncs_user_itemized_list_alias_use.png)
 
@@ -145,7 +145,7 @@ Vous pouvez lancer le calcul des occurrences ponctuellement, via le lien **[!UIC
 ![](assets/s_ncs_user_itemized_list_alias_hits.png)
 
 * **[!UICONTROL Actualiser le nombre d&#39;apparitions des alias]** : permet de mettre à jour les occurrences déjà calculées, à partir de la date de prise en compte renseignée.
-* **[!UICONTROL Recalculer depuis le début le nombre d&#39;apparitions des alias]** : permet de réinitialiser tout le calcul sur l&#39;ensemble de la plateforme Adobe Campaign.
+* **[!UICONTROL Recalculer depuis le début le nombre d&#39;apparitions des alias]** : permet de réinitialiser tout le calcul sur l&#39;ensemble de la plateforme Adobe Campaign.
 
 Vous pouvez également créer un workflow dédié afin que ce calcul s&#39;exécute automatiquement pour une période donnée, par exemple toutes les semaines.
 

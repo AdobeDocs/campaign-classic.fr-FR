@@ -25,7 +25,7 @@ Adobe Campaign permet d&#39;orchestrer les différentes étapes nécessaires à
 >
 >* Les ressources d’aide de cette collection s’appliquent à Campaign Classic v7 dans son [dernier build](../../rn/using/latest-release.md). Un badge spécifique est disponible lorsqu&#39;une section s&#39;applique également à Campaign v8.
 >
->* La documentation d’Adobe Campaign v8 est disponible [ici](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr).
+>* La documentation d’Adobe Campaign v8 est disponible [ici](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr).
 
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez les fonctionnalités principales en vidéo](#video)
@@ -54,7 +54,7 @@ Les fonctionnalités avancées de Data Management proposent une extension des ca
 
 ### Orchestration de campagnes cross-canal {#cross-channel-campaign-orchestration}
 
-Adobe Campaign vous permet de concevoir et d’orchestrer des campagnes ciblées et personnalisées sur plusieurs canaux tels que l&#39;email, le courrier, les SMS, les notifications push, etc. Vous bénéficiez dans une seule interface de toutes les fonctions nécessaires pour planifier, orchestrer, paramétrer, personnaliser, automatiser, exécuter et mesurer l&#39;ensemble des campagnes et communications. Pour plus d&#39;informations sur la planification et l&#39;exécution des campagnes, consultez [cette page](../../campaign/using/setting-up-marketing-campaigns.md).
+Adobe Campaign vous permet de concevoir et d’orchestrer des campagnes ciblées et personnalisées sur plusieurs canaux tels que l&#39;email, le courrier, les SMS, les notifications push, etc. Vous bénéficiez dans une seule interface de toutes les fonctions nécessaires pour planifier, orchestrer, paramétrer, personnaliser, automatiser, exécuter et mesurer l&#39;ensemble des campagnes et communications. Pour plus d&#39;informations sur la planification et l&#39;exécution des campagnes, consultez [cette page](../../campaign/using/setting-up-marketing-campaigns.md).
 
 ### Personnalisation et interaction en temps réel {#personalization-and-real-time-interaction}
 
@@ -62,15 +62,15 @@ Retenez l&#39;attention de vos clients et améliorez vos taux de réponse grâce
 
 ### Analyse et reporting {#analysis-and-reporting}
 
-Adobe Campaign vous permet de suivre et comprendre les comportements de vos clients en enrichissant progressivement leurs données et profil. Grâce aux outils de reporting et d&#39;analyse, vous capitalisez sur chaque nouvelle campagne, bénéficiez d&#39;un meilleur ciblage de vos actions marketing, et optimisez leur impact ainsi que leur retour sur investissement. Voir [cette page](../../reporting/using/delivery-reports.md) pour plus d’informations.
+Adobe Campaign vous permet de suivre et comprendre les comportements de vos clients en enrichissant progressivement leurs données et profil. Grâce aux outils de reporting et d&#39;analyse, vous capitalisez sur chaque nouvelle campagne, bénéficiez d&#39;un meilleur ciblage de vos actions marketing, et optimisez leur impact ainsi que leur retour sur investissement. Voir [cette page](../../reporting/using/delivery-reports.md) pour plus d’informations.
 
-### Intégrations d&#39;Adobe Experience Cloud {#adobe-experience-cloud-integrations}
+### Intégrations d&#39;Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 
-Vous pouvez combiner les fonctionnalités de diffusion et de gestion de campagnes avancées d&#39;Adobe Campaign avec un ensemble de solutions conçues pour vous aider à personnaliser l&#39;expérience de vos utilisateurs : Adobe Experience Manager, Adobe Analytics, Adobe Target ou les déclencheurs Adobe Experience Cloud, par exemple. Vous pouvez également intégrer Adobe IMS et vous connecter à Campaign à l&#39;aide de votre Adobe ID. Pour plus d&#39;informations sur ces intégrations inter-solutions et d&#39;authentification, consultez [cette section](../../integrations/using/about-adobe-id.md).
+Vous pouvez combiner les fonctionnalités de diffusion et de gestion de campagnes avancées d&#39;Adobe Campaign avec un ensemble de solutions conçues pour vous aider à personnaliser l&#39;expérience de vos utilisateurs : Adobe Experience Manager, Adobe Analytics, Adobe Target ou les déclencheurs Adobe Experience Cloud, par exemple. Vous pouvez également intégrer Adobe IMS et vous connecter à Campaign à l&#39;aide de votre Adobe ID. Pour plus d&#39;informations sur ces intégrations inter-solutions et d&#39;authentification, consultez [cette section](../../integrations/using/about-adobe-id.md).
 
 ## Fonctions principales et composants additionnels {#core-capabilities-and-add-ons}
 
-Adobe Campaign vous propose un ensemble de fonctions qui vous permettent d&#39;implémenter et d&#39;optimiser les fonctionnalités de marketing conversationnel selon vos besoins et votre architecture. Certaines de ces fonctions sont des fonctions principales, tandis que d&#39;autres dépendent de l&#39;installation d&#39;un package et de votre paramétrage. Une description détaillée du produit est présentée dans la section [Description du produit Adobe Campaign Classic](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-classic---product-description.html).
+Adobe Campaign vous propose un ensemble de fonctions qui vous permettent d’implémenter et d’optimiser les fonctionnalités de marketing conversationnel selon vos besoins et votre architecture. Certaines de ces fonctions sont des fonctions principales, tandis que d’autres dépendent de l’installation d’un package et de votre paramétrage. Une description détaillée du produit est présentée dans la section [Description du produit Adobe Campaign Classic](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-classic---product-description.html).
 
 Les fonctions ci-dessous sont disponibles. Selon votre contrat de licence, certaines de ces fonctions peuvent ne pas être disponibles dans votre instance.
 

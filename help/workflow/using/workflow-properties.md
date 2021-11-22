@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Onglet Exécution {#execution-tab}
 
-L&#39;onglet **[!UICONTROL Exécution]** de la fenêtre **[!UICONTROL Propriétés]** d&#39;un workflow est organisée en 3 sections :
+L&#39;onglet **[!UICONTROL Exécution]** de la fenêtre **[!UICONTROL Propriétés]** d&#39;un workflow est organisée en 3 sections :
 
 ![](assets/wf_execution_tab.png)
 
@@ -45,11 +45,11 @@ Cette section n&#39;apparaît que dans les workflows d&#39;opérations.
 
 * **[!UICONTROL Jours d&#39;historique]**
 
-   Les tables de travail de la base conservent un historique des exécutions (tâches, évènements, journal). Définissez ici le nombre de jours d&#39;historique que vous voulez conserver pour ce workflow : les processus de nettoyage de la base supprimeront chaque jour les historiques plus anciens. Si la valeur de ce champ est zéro, l&#39;historique ne sera jamais supprimé.
+   Les tables de travail de la base conservent un historique des exécutions (tâches, évènements, journal). Définissez ici le nombre de jours d&#39;historique que vous voulez conserver pour ce workflow : les processus de nettoyage de la base supprimeront chaque jour les historiques plus anciens. Si la valeur de ce champ est zéro, l&#39;historique ne sera jamais supprimé.
 
 * **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**
 
-   Cette fonctionnalité est réservée aux utilisateurs experts. Elle concerne les workflows qui contiennent des activités de ciblage (requête, union, intersection, etc.). Lorsque cette option est cochée, les requêtes SQL envoyées vers la base lors de l&#39;exécution du workflow sont affichées dans Adobe Campaign : vous pouvez ainsi les analyser afin d&#39;optimiser les requêtes ou diagnostiquer d&#39;éventuels problèmes.
+   Cette fonctionnalité est réservée aux utilisateurs experts. Elle concerne les workflows qui contiennent des activités de ciblage (requête, union, intersection, etc.). Lorsque cette option est cochée, les requêtes SQL envoyées vers la base lors de l&#39;exécution du workflow sont affichées dans Adobe Campaign : vous pouvez ainsi les analyser afin d&#39;optimiser les requêtes ou diagnostiquer d&#39;éventuels problèmes.
 
    Les requêtes sont affichées dans un onglet **[!UICONTROL Logs SQL]** qui est ajouté au workflow (sauf pour les workflows d&#39;opération) et à l&#39;activité **[!UICONTROL Propriétés]** lorsque l&#39;option est activée. L&#39;onglet **[!UICONTROL Suivi]** inclut également les requêtes SQL.
 
@@ -63,10 +63,10 @@ Cette section n&#39;apparaît que dans les workflows d&#39;opérations.
 
 * **[!UICONTROL Résolution des problèmes]**
 
-   Ce champ vous permet de définir l&#39;action à effectuer lorsqu&#39;une tâche du workflow est en erreur. Deux options sont disponibles :
+   Ce champ vous permet de définir l&#39;action à effectuer lorsqu&#39;une tâche du workflow est en erreur. Deux options sont disponibles :
 
-   * **[!UICONTROL Suspendre le processus]** : le workflow est automatiquement suspendu. Le statut du workflow est alors **[!UICONTROL En échec]**. Lorsque le problème est résolu, relancez le workflow en utilisant les boutons **[!UICONTROL Démarrer]** ou **[!UICONTROL Redémarrer]**.
-   * **[!UICONTROL Ignorer]** : la tâche ayant provoqué l&#39;erreur prend le statut **[!UICONTROL En échec]**, mais le workflow garde le statut **[!UICONTROL Démarré]**. Ce paramétrage est pertinent dans le cas de tâches récurrentes : si la branche comporte un planificateur, celui-ci se déclenchera normalement à sa prochaine date d&#39;exécution.
+   * **[!UICONTROL Suspendre le processus]** : le workflow est automatiquement suspendu. Le statut du workflow est alors **[!UICONTROL En échec]**. Lorsque le problème est résolu, relancez le workflow en utilisant les boutons **[!UICONTROL Démarrer]** ou **[!UICONTROL Redémarrer]**.
+   * **[!UICONTROL Ignorer]** : la tâche ayant provoqué l&#39;erreur prend le statut **[!UICONTROL En échec]**, mais le workflow garde le statut **[!UICONTROL Démarré]**. Ce paramétrage est pertinent dans le cas de tâches récurrentes : si la branche comporte un planificateur, celui-ci se déclenchera normalement à sa prochaine date d&#39;exécution.
 
 * **[!UICONTROL Erreurs consécutives]**
 
@@ -80,6 +80,6 @@ Cette section n&#39;apparaît que dans les workflows d&#39;opérations.
 
    ![](assets/wf-properties_select-supervisors.png)
 
-   Le modèle par défaut **[!UICONTROL Notification du responsable d&#39;un workflow]** comprend un lien qui permet d&#39;accéder en Web à la console Adobe Campaign et, après connexion, d&#39;agir sur le workflow en erreur.
+   Le modèle par défaut **[!UICONTROL Notification du responsable d&#39;un workflow]** comprend un lien qui permet d&#39;accéder en Web à la console Adobe Campaign et, après connexion, d&#39;agir sur le workflow en erreur.
 
    Vous pouvez créer un modèle personnalisé dans **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]**.

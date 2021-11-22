@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Positionnez-vous dans l&#39;onglet **[!UICONTROL Périmètre]** pour choisir vos paramètres.
 
-Vous devez définir obligatoirement :
+Vous devez définir obligatoirement :
 
 * Un environnement ou une catégorie d&#39;offres.
 * Un emplacement.

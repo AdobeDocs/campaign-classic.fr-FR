@@ -16,11 +16,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> L&#39;activité **[!UICONTROL Modifier la source de données]** n&#39;est disponible qu&#39;avec le package **[!UICONTROL Accès aux données externes (Federated Data Access)]**. Pour plus d’informations sur les packages natifs d’Adobe Campaign Classic, consultez cette [page](../../installation/using/installing-campaign-standard-packages.md).
+> L&#39;activité **[!UICONTROL Modifier la source de données]** n&#39;est disponible qu&#39;avec le package **[!UICONTROL Accès aux données externes (Federated Data Access)]**. Pour plus d’informations sur les packages natifs d’Adobe Campaign Classic, consultez cette [page](../../installation/using/installing-campaign-standard-packages.md).
 
 L&#39;activité **[!UICONTROL Modifier la source de données]** permet de modifier la source de données d&#39;un workflow **[!UICONTROL Table de travail]**. Vous bénéficiez ainsi d’une plus grande flexibilité pour gérer les données entre différentes sources de données, telles que FDA, FFDA et base de données locale.
 
-La **[!UICONTROL table de travail]** permet au workflow Adobe Campaign Classic de gérer les données et de partager les données avec les activités de workflow.
+La **[!UICONTROL table de travail]** permet au workflow Adobe Campaign Classic de gérer les données et de partager les données avec les activités de workflow.
 Par défaut, la **[!UICONTROL table de travail]** est créée dans la même base de données que la source des données sur lesquelles nous effectuons une requête.
 
 Par exemple, lors de l’interrogation de la table **[!UICONTROL Profils]** stockée dans la base de données cloud, vous allez créer une **[!UICONTROL table de travail]** sur la même base de données cloud.

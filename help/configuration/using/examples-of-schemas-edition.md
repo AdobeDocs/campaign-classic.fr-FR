@@ -19,9 +19,9 @@ ht-degree: 100%
 
 ## Extension d&#39;une table {#extending-a-table}
 
-Pour étendre la table des destinataires de schéma **nms:recipient**, la procédure est la suivante :
+Pour étendre la table des destinataires de schéma **nms:recipient**, la procédure est la suivante :
 
-1. Créez le schéma d&#39;extension (**cus:extension**) avec les données suivantes :
+1. Créez le schéma d&#39;extension (**cus:extension**) avec les données suivantes :
 
    ```
    <srcSchema mappingType="sql" name="extension" namespace="cus" xtkschema="xtk:srcSchema" extendedSchema="nms:recipient">  
@@ -48,7 +48,7 @@ Pour étendre la table des destinataires de schéma **nms:recipient**, la procé
    >
    >N&#39;oubliez pas d&#39;ajouter l&#39;attribut **extendedSchema** pour référencer le schéma d&#39;extension.
 
-1. Vérifiez que le schéma étendu est bien le schéma **nms:recipient** et que les données ajoutées sont bien présentes :
+1. Vérifiez que le schéma étendu est bien le schéma **nms:recipient** et que les données ajoutées sont bien présentes :
 
    ```
    <schema dependingSchemas="cus:extension" mappingType="sql" name="recipient" namespace="nms" xtkschema="xtk:schema">
@@ -74,7 +74,7 @@ Pour étendre la table des destinataires de schéma **nms:recipient**, la procé
    </schema>
    ```
 
-   Le script SQL généré à partir de l&#39;assistant de mise à jour de la base est le suivant :
+   Le script SQL généré à partir de l&#39;assistant de mise à jour de la base est le suivant :
 
    ```
    ALTER TABLE NmsRecipient ADD iFidelity INTEGER;
@@ -88,7 +88,7 @@ Pour étendre la table des destinataires de schéma **nms:recipient**, la procé
 
 Cette section présente le mode de création d&#39;une table des commandes liée à la table des destinataires avec une cardinalité 1-N.
 
-Schéma source de la table des commandes :
+Schéma source de la table des commandes :
 
 ```
 <srcSchema label="Order" name="order" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -105,7 +105,7 @@ Schéma source de la table des commandes :
 
 La table est de type **autopk** afin de créer automatiquement une clé primaire auto-générée qui sera utilisée par défaut par la jointure du lien sur la table des destinataires.
 
-Schéma généré :
+Schéma généré :
 
 ```
 <schema label="Order" mappingType="sql" name="order" namespace="cus" xtkschema="xtk:schema">  
@@ -136,7 +136,7 @@ Schéma généré :
 </schema>
 ```
 
-Le script SQL de création de la table est le suivant :
+Le script SQL de création de la table est le suivant :
 
 ```
 CREATE TABLE CusOrder(dTotal DOUBLE PRECISION NOT NULL Default 0, iOrderId INTEGER NOT NULL Default 0, iRecipientId INTEGER NOT NULL Default 0, sNumber VARCHAR(128), tsDate TIMESTAMP Default NULL);
@@ -155,7 +155,7 @@ Une table d&#39;extension permet d&#39;étendre le contenu d&#39;une table exist
 
 Le principe de la table d&#39;extension est d&#39;éviter les limitations du nombre de champs supportés dans une table ou encore d&#39;optimiser la place occupée par les données car celles-ci sont consommées à la demande.
 
-Créer le schéma de la table d&#39;extension (**cus:feature**) :
+Créer le schéma de la table d&#39;extension (**cus:feature**) :
 
 ```
 <srcSchema mappingType="sql" name="feature" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -167,7 +167,7 @@ Créer le schéma de la table d&#39;extension (**cus:feature**) :
 </srcSchema>
 ```
 
-Créer un schéma d&#39;extension sur la table des destinataires pour ajouter le lien de cardinalité 1-1 :
+Créer un schéma d&#39;extension sur la table des destinataires pour ajouter le lien de cardinalité 1-1 :
 
 ```
 <srcSchema extendedSchema="nms:recipient" label="Recipient" mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -181,7 +181,7 @@ Créer un schéma d&#39;extension sur la table des destinataires pour ajouter le
 >
 >La définition du lien entre la table des destinataires et la table d&#39;extension doit être renseignée à partir du schéma qui possède la clé étrangère.
 
-Le script SQL de création de la table d&#39;extension est le suivant :
+Le script SQL de création de la table d&#39;extension est le suivant :
 
 ```
 CREATE TABLE CusFeature(  iChildren NUMERIC(3) NOT NULL Default 0, iFeatureId INTEGER NOT NULL Default 0, iSingle NUMERIC(3) NOT NULL Default 0, sSpouseFirstName VARCHAR(100));
@@ -189,7 +189,7 @@ CREATE UNIQUE INDEX CusFeature_id ON CusFeature(iFeatureId);
 INSERT INTO CusFeature (iFeatureId) VALUES (0); 
 ```
 
-Le script SQL de mise à jour de la table des destinataires est le suivant :
+Le script SQL de mise à jour de la table des destinataires est le suivant :
 
 ```
 ALTER TABLE NmsRecipient ADD iFeatureId INTEGER;
@@ -203,9 +203,9 @@ CREATE INDEX NmsRecipient_featureId ON NmsRecipient(iFeatureId);
 
 Une table d&#39;Overflow est une table d&#39;extension (cardinalité 1-1), mais la déclaration du lien vers la table à étendre est renseignée dans le schéma de la table d&#39;Overflow.
 
-C&#39;est la table d&#39;Overflow qui possède la clé étrangère vers la table à étendre : on ne modifie donc pas la table à étendre. La relation entre les deux tables est la valeur de la clé primaire de la table à étendre.
+C&#39;est la table d&#39;Overflow qui possède la clé étrangère vers la table à étendre : on ne modifie donc pas la table à étendre. La relation entre les deux tables est la valeur de la clé primaire de la table à étendre.
 
-Créer le schéma de la table d&#39;Overflow (**cus:overflow**) :
+Créer le schéma de la table d&#39;Overflow (**cus:overflow**) :
 
 ```
 <srcSchema label="Overflow" name="overflow" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -226,7 +226,7 @@ Créer le schéma de la table d&#39;Overflow (**cus:overflow**) :
 >
 >La clé primaire de la table d&#39;Overflow est le lien vers la table à étendre (schéma &quot;nms:recipient&quot; dans notre exemple).
 
-Le script SQL de création de la table est le suivant :
+Le script SQL de création de la table est le suivant :
 
 ```
 CREATE TABLE CusOverflow(iChildren NUMERIC(3) NOT NULL Default 0, iRecipientId INTEGER NOT NULL Default 0, iSingle NUMERIC(3) NOT NULL Default 0, sSpouseFirstName VARCHAR(100));
@@ -239,7 +239,7 @@ Une table de relation permet de lier deux tables avec une cardinalité N-N. Cett
 
 Exemple d&#39;une table de relation entre les groupes (**nms:group**) et les destinataires (**nms:recipient**).
 
-Schéma source de la table de relation :
+Schéma source de la table de relation :
 
 ```
 <srcSchema name="rcpGrpRel" namespace="cus">
@@ -255,7 +255,7 @@ Schéma source de la table de relation :
 </srcSchema>
 ```
 
-Le schéma généré est le suivant :
+Le schéma généré est le suivant :
 
 ```
 <schema mappingType="sql" name="rcpGrpRel" namespace="cus" xtkschema="xtk:schema">  
@@ -291,7 +291,7 @@ Le schéma généré est le suivant :
 </schema>
 ```
 
-Le script SQL de création de la table est le suivant :
+Le script SQL de création de la table est le suivant :
 
 ```
 CREATE TABLE CusRcpGrpRel( iRcpGroupId INTEGER NOT NULL Default 0, iRecipientId INTEGER NOT NULL Default 0);
@@ -301,7 +301,7 @@ CREATE INDEX CusRcpGrpRel_recipientId ON CusRcpGrpRel(iRecipientId);
 
 ## Cas pratique : lier un champ à une table de référence existante {#uc-link}
 
-Ce cas pratique illustre comment utiliser une table de référence existante comme alternative aux mécanismes d&#39;énumération intégrés d&#39;Adobe Campaign (enum, userEnum ou dbEnum).
+Ce cas pratique illustre comment utiliser une table de référence existante comme alternative aux mécanismes d&#39;énumération intégrés d&#39;Adobe Campaign (enum, userEnum ou dbEnum).
 
 Vous pouvez également utiliser une table de référence existante comme énumération dans vos schémas. Pour ce faire, vous pouvez créer un lien entre une table et la table de référence en ajoutant l&#39;attribut **displayAsField=&quot;true&quot;**.
 
@@ -333,7 +333,7 @@ L&#39;interface utilisateur n&#39;affiche pas de lien mais un champ. Lorsque l�
 
 * Pour qu&#39;il soit complété semi-automatiquement, vous devez définir une chaîne de calcul dans la table de référence.
 
-* Ajoutez l&#39;attribut **noDbIndex=&quot;true&quot;** dans la définition de lien pour empêcher Adobe Campaign de créer un index vers les valeurs stockées dans la table source du lien.
+* Ajoutez l&#39;attribut **noDbIndex=&quot;true&quot;** dans la définition de lien pour empêcher Adobe Campaign de créer un index vers les valeurs stockées dans la table source du lien.
 
 ## Rubriques connexes :
 

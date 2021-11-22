@@ -53,9 +53,9 @@ Sélectionnez la version de l’API.
 
    >[!NOTE]
    >
-   >Pour valider la configuration, vous devez procéder à une déconnexion/reconnexion à la console Adobe Campaign.
+   >Pour valider la configuration, vous devez procéder à une déconnexion/reconnexion à la console Adobe Campaign.
 
-1. Vérifiez le schéma généré dans Adobe Campaign, sous le noeud **[!UICONTROL Administration > Paramétrage > Schéma de données]**.
+1. Vérifiez le schéma généré dans Adobe Campaign, sous le noeud **[!UICONTROL Administration > Paramétrage > Schéma de données]**.
 
    Exemple pour le schéma **Salesforce** :
 
@@ -71,7 +71,7 @@ Sélectionnez la version de l’API.
 
    >[!NOTE]
    >
-   >Vous pouvez remplacer toutes les valeurs d&#39;une énumération Adobe Campaign par celles du CRM : pour cela, sélectionnez **[!UICONTROL Oui]** dans la colonne **[!UICONTROL Remplacer]**.
+   >Vous pouvez remplacer toutes les valeurs d&#39;une énumération Adobe Campaign par celles du CRM : pour cela, sélectionnez **[!UICONTROL Oui]** dans la colonne **[!UICONTROL Remplacer]**.
 
 
    Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour lancer l&#39;import de la liste.

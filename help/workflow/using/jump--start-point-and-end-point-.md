@@ -27,7 +27,7 @@ Ils vont d’une activité à l’autre, comme dans l’exemple suivant :
 
 Pour chaque saut de type &quot;départ&quot;, un saut de type &quot;arrivée&quot; doit être positionné.
 
-Vous pouvez insérer plusieurs sauts de départ et d&#39;arrivée dans un même workflow. Ils sont identifiés par un numéro qui doit être saisi dans les paramètres :
+Vous pouvez insérer plusieurs sauts de départ et d&#39;arrivée dans un même workflow. Ils sont identifiés par un numéro qui doit être saisi dans les paramètres :
 
 ![](assets/s_user_segmentation_jump_in.png)
 

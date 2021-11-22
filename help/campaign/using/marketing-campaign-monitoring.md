@@ -19,9 +19,9 @@ ht-degree: 100%
 
 ## Suivi d’une campagne {#tracking-a-campaign}
 
-Pour chaque opération, l&#39;onglet **[!UICONTROL Tracking]** permet de visualiser les traitements réalisés et leurs états. Les informations accessibles depuis ce sous-onglet sont les suivantes :
+Pour chaque opération, l&#39;onglet **[!UICONTROL Tracking]** permet de visualiser les traitements réalisés et leurs états. Les informations accessibles depuis ce sous-onglet sont les suivantes :
 
-* Le journal des activités affiche les traitements réalisés sur l&#39;opération en général : création ou démarrage de workflow, validation, extraction, etc.
+* Le journal des activités affiche les traitements réalisés sur l&#39;opération en général : création ou démarrage de workflow, validation, extraction, etc.
 
    ![](assets/s_ncs_user_op_edit_exe_tab_a.png)
 
@@ -43,7 +43,7 @@ La liste des diffusions peut être affichée à partir du lien **[!UICONTROL Dif
 
 ![](assets/s_ncs_user_op_del_state_from_homepage.png)
 
-Pour chaque diffusion, vous pouvez accéder depuis cette liste aux indicateurs-clés : état, nombre de destinataires ciblés, opération de rattachement, etc.
+Pour chaque diffusion, vous pouvez accéder depuis cette liste aux indicateurs-clés : état, nombre de destinataires ciblés, opération de rattachement, etc.
 
 Pour contrôler l&#39;état d&#39;une diffusion, éditez-la et consultez son tableau de bord et ses onglets.
 
@@ -53,6 +53,6 @@ Pour contrôler l&#39;état d&#39;une diffusion, éditez-la et consultez son tab
 
 ## Tracking de l&#39;exécution {#execution-tracking}
 
-Vous pouvez consulter l&#39;état des diffusions en cliquant sur le lien **[!UICONTROL Diffusions]**, accessible à partir de la page d&#39;accueil d&#39;Adobe Campaign. Voir [Suivi des diffusions](#delivery-tracking).
+Vous pouvez consulter l&#39;état des diffusions en cliquant sur le lien **[!UICONTROL Diffusions]**, accessible à partir de la page d&#39;accueil d&#39;Adobe Campaign. Voir [Suivi des diffusions](#delivery-tracking).
 
 Les informations relatives aux traitements exécutés dans une opération sont regroupées dans l&#39;onglet **[!UICONTROL Edition > Suivi]** de l’opération. Vous pouvez y visualiser la liste des diffusions de l&#39;opération. [En savoir plus](#tracking-a-campaign).

@@ -27,7 +27,7 @@ Pour éditer, créer et paramétrer les schémas, cliquez sur le nœud **[!UICON
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 
-La zone d&#39;édition affiche le contenu XML du schéma source :
+La zone d&#39;édition affiche le contenu XML du schéma source :
 
 ![](assets/d_ncs_integration_schema_edition.png)
 
@@ -35,7 +35,7 @@ La zone d&#39;édition affiche le contenu XML du schéma source :
 >
 >Le contrôle d&#39;édition &quot;Nom&quot; permet de saisir la clé du schéma, composée du nom et de l&#39;espace de noms. Les attributs &quot;name&quot; et &quot;namespace&quot; de l&#39;élément racine du schéma sont automatiquement mis à jour dans la zone d&#39;édition XML du schéma.
 
-L&#39;aperçu génère automatiquement le schéma étendu :
+L&#39;aperçu génère automatiquement le schéma étendu :
 
 ![](assets/d_ncs_integration_schema_edition2.png)
 
@@ -45,11 +45,11 @@ L&#39;aperçu génère automatiquement le schéma étendu :
 
 Si vous devez vérifier la structure complète d&#39;un schéma, vous pouvez utiliser l&#39;onglet Aperçu. Si le schéma a été étendu, vous serez alors en mesure de visualiser toutes ses extensions. En complément, l&#39;onglet Documentation affiche tous les attributs et les éléments du schéma, ainsi que leurs propriétés (champ SQL, type/longueur, libellé, description). L&#39;onglet Documentation ne s&#39;applique qu&#39;aux schémas générés. Pour plus d&#39;informations, consultez la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).
 
-## Exemple : créer une table des contrats {#example--creating-a-contract-table}
+## Exemple : créer une table des contrats {#example--creating-a-contract-table}
 
-Dans l&#39;exemple suivant, nous allons créer une nouvelle table pour les **contrats** dans le modèle de données de la base Adobe Campaign. Cette table permettra de stocker, pour chaque contrat, les noms, prénoms et adresses email des titulaires et co-titulaires.
+Dans l&#39;exemple suivant, nous allons créer une nouvelle table pour les **contrats** dans le modèle de données de la base Adobe Campaign. Cette table permettra de stocker, pour chaque contrat, les noms, prénoms et adresses email des titulaires et co-titulaires.
 
-Pour cela, vous devez créer le schéma de la table puis procéder à la mise à jour de la structure de la base pour générer la table correspondante. Les étapes sont les suivantes :
+Pour cela, vous devez créer le schéma de la table puis procéder à la mise à jour de la structure de la base pour générer la table correspondante. Les étapes sont les suivantes :
 
 1. Editez le nœud **[!UICONTROL Administration > Paramétrage > Schémas de données]** de l&#39;arborescence Adobe Campaign et cliquez sur l&#39;icône **[!UICONTROL Nouveau]** .
 1. Sélectionnez l&#39;option **[!UICONTROL Créer une nouvelle table dans le modèle de données de la base]** et cliquez sur **[!UICONTROL Suivant]** .
@@ -68,7 +68,7 @@ Pour cela, vous devez créer le schéma de la table puis procéder à la mise à
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 
-1. Définissez les paramètres de la table des contrats :
+1. Définissez les paramètres de la table des contrats :
 
    ```
    <srcSchema desc="Active contracts" img="ncm:channels.png" label="Contracts" labelSingular="Contract" mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
@@ -116,7 +116,7 @@ Pour cela, vous devez créer le schéma de la table puis procéder à la mise à
    </srcSchema>
    ```
 
-1. Enregistrez le schéma pour en générer la structure :
+1. Enregistrez le schéma pour en générer la structure :
 
    ![](assets/s_ncs_configuration_structure.png)
 

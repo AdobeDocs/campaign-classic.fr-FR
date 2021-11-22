@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-L’écran de création et de configuration des formulaires de saisie est accessible à partir du dossier **[!UICONTROL Administration] > [!UICONTROL Configuration] > [!UICONTROL Formulaires de saisie]** de la console cliente Adobe Campaign :
+L’écran de création et de configuration des formulaires de saisie est accessible à partir du dossier **[!UICONTROL Administration] > [!UICONTROL Configuration] > [!UICONTROL Formulaires de saisie]** de la console cliente Adobe Campaign :
 
 ![](assets/d_ncs_integration_form_arbo.png)
 
@@ -25,6 +25,6 @@ La zone d&#39;édition permet de renseigner le contenu XML du formulaire de sais
 
 ![](assets/d_ncs_integration_form_edit.png)
 
-L&#39;aperçu génère l&#39;affichage du formulaire de saisie :
+L&#39;aperçu génère l&#39;affichage du formulaire de saisie :
 
 ![](assets/d_ncs_integration_form_preview.png)

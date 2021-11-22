@@ -55,7 +55,7 @@ Les collections sont affichées dans le sous-onglet **[!UICONTROL Collections]**
 
 ### Affiner la cible en utilisant les données additionnelles {#refining-the-target-using-additional-data}
 
-Les données additionnelles collectées peuvent permettre d&#39;affiner le filtrage des données de la base. Pour cela, cliquez sur le lien **[!UICONTROL Affiner la cible en utilisant les données additionnelles...]** : vous pouvez ainsi sur-filtrer sur les données qui ont été ajoutées.
+Les données additionnelles collectées peuvent permettre d&#39;affiner le filtrage des données de la base. Pour cela, cliquez sur le lien **[!UICONTROL Affiner la cible en utilisant les données additionnelles...]** : vous pouvez ainsi sur-filtrer sur les données qui ont été ajoutées.
 
 ![](assets/wf_add_data_use_additional_data.png)
 
@@ -67,7 +67,7 @@ Dans les activités de type **[!UICONTROL Union]** ou **[!UICONTROL Intersection
 
 ### Réconcilier avec les données additionnelles {#reconciliation-with-additional-data}
 
-Lors des phases de réconciliation des données (dans les activités **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.), il est possible de sélectionner les colonnes à utiliser pour la réconciliation des données parmi les colonnes additionnelles. Pour cela, paramétrez une réconciliation sur une sélection de colonnes et indiquez l&#39;ensemble principal. Sélectionnez ensuite les colonnes dans la section inférieure de la fenêtre, comme dans l&#39;exemple ci-dessous :
+Lors des phases de réconciliation des données (dans les activités **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.), il est possible de sélectionner les colonnes à utiliser pour la réconciliation des données parmi les colonnes additionnelles. Pour cela, paramétrez une réconciliation sur une sélection de colonnes et indiquez l&#39;ensemble principal. Sélectionnez ensuite les colonnes dans la section inférieure de la fenêtre, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/select-column-and-join.png)
 
@@ -87,7 +87,7 @@ L&#39;activité d&#39;union permet de regrouper le résultat de plusieurs activi
 
 ![](assets/join_reconciliation_options.png)
 
-Les options de réconciliation des données sont les suivantes :
+Les options de réconciliation des données sont les suivantes :
 
 * **[!UICONTROL Uniquement les clés]**
 
@@ -97,7 +97,7 @@ Les options de réconciliation des données sont les suivantes :
 
    Cette option permet de réconcilier les données à partir de toutes les colonnes communes aux différentes populations de la cible.
 
-   Adobe Campaign identifie les colonnes d&#39;après leur nom. Un niveau de tolérance minimal est accepté : par exemple, une colonne &#39;Email&#39; pourra être reconnue comme identique à une colonne &#39;@email&#39;.
+   Adobe Campaign identifie les colonnes d&#39;après leur nom. Un niveau de tolérance minimal est accepté : par exemple, une colonne &#39;Email&#39; pourra être reconnue comme identique à une colonne &#39;@email&#39;.
 
 * **[!UICONTROL Une sélection de colonnes]**
 
@@ -113,7 +113,7 @@ Les options de réconciliation des données sont les suivantes :
 
    Vous pouvez limiter la taille de la population à un nombre donné d&#39;enregistrements. Pour cela, cochez l&#39;option correspondante et indiquez le nombre d&#39;enregistrements à conserver.
 
-   Indiquez également l&#39;ordre de priorité des populations entrantes : la section inférieure de la fenêtre liste les transitions entrantes de l&#39;activité d&#39;union et vous permet de les ordonner en utilisant les flèches bleues situées à droite de la fenêtre.
+   Indiquez également l&#39;ordre de priorité des populations entrantes : la section inférieure de la fenêtre liste les transitions entrantes de l&#39;activité d&#39;union et vous permet de les ordonner en utilisant les flèches bleues situées à droite de la fenêtre.
 
    Les enregistrements conservés seront issus d&#39;abord de la population de première transition entrante de la liste, puis, si le nombre maximum n&#39;est pas atteint, ils seront issus de la population de la deuxième transition entrante, etc.
 
@@ -201,7 +201,7 @@ Nous devons ensuite ajouter de nouveaux sous-ensembles :
    >
    >Si vous avez acquis l’option **Federated Data Access**, vous pouvez créer des sous-ensembles selon les informations contenues dans une base externe. Pour cela, sélectionnez le schéma de la table externe visée dans le champ **[!UICONTROL Dimension de ciblage]**. Voir à ce sujet la section [Accéder à une base externe (FDA)](accessing-an-external-database--fda-.md).
 
-Une fois les sous-ensembles créés, par défaut, l&#39;activité de partage propose en sortie autant de transitions que de sous-ensembles :
+Une fois les sous-ensembles créés, par défaut, l&#39;activité de partage propose en sortie autant de transitions que de sous-ensembles :
 
 ![](assets/wf_split_multi_outputs.png)
 
@@ -209,7 +209,7 @@ Vous pouvez regrouper tous les sous-ensembles dans une seule transition en sorti
 
 ![](assets/wf_split_select_option_single_output.png)
 
-Vous pourrez par exemple positionner une seule activité de diffusion et personnaliser le contenu de cette diffusion en fonction du code segment de chacun des ensembles de destinataires :
+Vous pourrez par exemple positionner une seule activité de diffusion et personnaliser le contenu de cette diffusion en fonction du code segment de chacun des ensembles de destinataires :
 
 ![](assets/wf_split_single_output.png)
 
@@ -233,13 +233,13 @@ Une fois les données identifiées et préparées, elles peuvent être utilisée
 
 ## Data Management {#data-management}
 
-Dans Adobe Campaign, le Data Management regroupe un ensemble d&#39;activités qui permettent de répondre à des problématiques complexes de ciblage en proposant des outils plus efficaces et plus souples. Il est ainsi possible de mettre en place une gestion cohérente de toutes les communications vers un contact, en utilisant les informations liées à ses contrats, ses abonnements, sa réactivité aux diffusions, etc. Le Data Management permet de suivre le cycle de vie des données lors des opérations de segmentation, notamment :
+Dans Adobe Campaign, le Data Management regroupe un ensemble d&#39;activités qui permettent de répondre à des problématiques complexes de ciblage en proposant des outils plus efficaces et plus souples. Il est ainsi possible de mettre en place une gestion cohérente de toutes les communications vers un contact, en utilisant les informations liées à ses contrats, ses abonnements, sa réactivité aux diffusions, etc. Le Data Management permet de suivre le cycle de vie des données lors des opérations de segmentation, notamment :
 
-* simplifier et optimiser les processus de ciblage, y compris en incluant des données qui n&#39;ont pas été modélisées dans le datamart (création de nouvelles tables : extension locale à chaque workflow de ciblage, en fonction de son paramétrage).
+* simplifier et optimiser les processus de ciblage, y compris en incluant des données qui n&#39;ont pas été modélisées dans le datamart (création de nouvelles tables : extension locale à chaque workflow de ciblage, en fonction de son paramétrage).
 * conserver et véhiculer des calculs intermédiaires, notamment dans les phases de construction des cibles ou pour l&#39;administration des bases de données.
-* accéder aux bases externes (optionnel) : prise en compte de bases de données hétérogènes dans le processus de ciblage.
+* accéder aux bases externes (optionnel) : prise en compte de bases de données hétérogènes dans le processus de ciblage.
 
-Pour réaliser ces opérations, Adobe Campaign propose :
+Pour réaliser ces opérations, Adobe Campaign propose :
 
 * Activités de collecte de données : [Transfert de fichier](file-transfer.md), [Chargement (fichier)](data-loading--file-.md), [Chargement (SGBD)](data-loading--rdbms-.md), [Mise à jour de données](update-data.md). Cette première étape de la collecte des données les prépare pour permettre leur traitement dans d’autres activités. Plusieurs paramètres doivent être surveillés afin de s’assurer que le workflow s’exécute correctement et donne les résultats attendus. Par exemple, lorsque vous importez des données, la clé primaire (Pkey) de ces données doit être unique pour chaque enregistrement.
 * Les activités de ciblage enrichies avec des options de Data Management : [Requête](query.md), [Union](union.md), [Intersection](intersection.md), [Partage](split.md). Il est ainsi possible de paramétrer une union ou une intersection entre des données de plusieurs dimensions de ciblage différentes, sous réserve qu’une réconciliation des données soit possible.

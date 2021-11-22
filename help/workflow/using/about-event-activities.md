@@ -22,4 +22,4 @@ La tâche principale de ces activités consiste à attendre un événement. Il p
 * Collecteur de fichiers : effectue un suivi de l’arrivée d’un ou plusieurs fichiers dans un répertoire et active sa transition pour chacun des fichiers reçus. Voir à ce sujet la section [Collecteur de fichiers](file-collector.md).
 * Transfert de fichier : transfère un fichier sur un serveur. Voir à ce sujet la section [Transfert de fichier](file-transfer.md).
 * Téléchargement Web : télécharge un fichier depuis le web. Voir à ce sujet la section [Téléchargement Web](web-download.md).
-* Réception de SMS et Réception d’emails : récupère et traite des emails ou des SMS. Voir à ce sujet les sections [Réception de SMS](inbound-sms.md) et [Réception d’emails](inbound-emails.md).
+* Réception de SMS et Réception d’emails : récupère et traite des emails ou des SMS. Voir à ce sujet les sections [Réception de SMS](inbound-sms.md) et [Réception d’emails](inbound-emails.md).

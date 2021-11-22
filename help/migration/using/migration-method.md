@@ -45,4 +45,4 @@ Les évolutions apportées à Adobe Campaign v7 peuvent vous amener à devoir 
 
 Par exemple, les paramétrages spécifiques des applications web, des extensions de schémas avec SQLdata ou du clonage de schémas d’usine nécessitent une attention particulière. Voir à ce sujet la section [Configurer votre plateforme](../../migration/using/configuring-your-platform.md).
 
-De même, afin de répondre au renforcement de la sécurité dans Adobe Campaign, certains mécanismes internes ont été modifiés : les paramétrages correspondants devront être adaptés.
+De même, afin de répondre au renforcement de la sécurité dans Adobe Campaign, certains mécanismes internes ont été modifiés : les paramétrages correspondants devront être adaptés.

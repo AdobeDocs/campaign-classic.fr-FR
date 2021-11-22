@@ -17,25 +17,25 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-La plateforme Adobe Campaign repose sur le concept d&#39;instance semblable à la notion d&#39;hôte virtuel comme c&#39;est le cas par exemple sous Apache. Ce mode de fonctionnement permet de mutualiser un serveur en y affectant plusieurs instances. Chaque instance est totalement découplée des autres et fonctionne avec sa propre base et son propre fichier de configuration.
+La plateforme Adobe Campaign repose sur le concept d&#39;instance semblable à la notion d&#39;hôte virtuel comme c&#39;est le cas par exemple sous Apache. Ce mode de fonctionnement permet de mutualiser un serveur en y affectant plusieurs instances. Chaque instance est totalement découplée des autres et fonctionne avec sa propre base et son propre fichier de configuration.
 
-Sur un même serveur, deux éléments sont communs à l&#39;ensemble des instances Adobe Campaign :
+Sur un même serveur, deux éléments sont communs à l&#39;ensemble des instances Adobe Campaign :
 
-* Le mot de passe **internal** : il s&#39;agit du mot de passe administrateur général. Il est commun à toutes les instances d&#39;un même serveur applicatif.
+* Le mot de passe **internal** : il s&#39;agit du mot de passe administrateur général. Il est commun à toutes les instances d&#39;un même serveur applicatif.
 
    >[!IMPORTANT]
    >
    >Pour vous connecter avec l’identifiant **Internal**, vous devez impérativement avoir défini un mot de passe. Voir à ce sujet [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
-* De nombreux paramétrages techniques du serveur : ces paramétrages peuvent tous être surchargés dans la configuration spécifique d&#39;une instance.
+* De nombreux paramétrages techniques du serveur : ces paramétrages peuvent tous être surchargés dans la configuration spécifique d&#39;une instance.
 
 Les fichiers de configuration sont enregistrés dans le répertoire **conf** du répertoire d’installation. La configuration est divisée en trois fichiers :
 
-* **serverConf.xml** : configuration générale pour toutes les instances.
+* **serverConf.xml** : configuration générale pour toutes les instances.
 * **Config-.xml **`<instance>`**.xml** (où **`<instance>`** est le nom de l&#39;instance) : configuration spécifique d’une instance.
-* **serverConf.xml.diff** : delta entre la configuration initiale et la configuration actuelle. Ce fichier est géré automatiquement par l&#39;application et ne doit pas être modifié manuellement. Il permet de propager automatiquement les modifications utilisateur lors d&#39;une mise à jour de build.
+* **serverConf.xml.diff** : delta entre la configuration initiale et la configuration actuelle. Ce fichier est géré automatiquement par l&#39;application et ne doit pas être modifié manuellement. Il permet de propager automatiquement les modifications utilisateur lors d&#39;une mise à jour de build.
 
-Le chargement de la configuration d&#39;une instance est réalisé de la manière suivante :
+Le chargement de la configuration d&#39;une instance est réalisé de la manière suivante :
 
 * Le module charge le fichier **serverConf.xml** pour obtenir les paramètres communs à toutes les instances.
 * Il charge ensuite le fichier **config-**`<instance>`**.xml**. Les valeurs trouvées dans ce fichier ont priorité sur les valeurs contenues dans **serverConf.xml**.

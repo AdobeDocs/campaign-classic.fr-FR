@@ -27,16 +27,16 @@ Le droit d&#39;opposition (opt-out) à la vente des informations personnelles, s
 
 ## À propos des demandes d&#39;accès à des informations personnelles {#about-privacy-requests}
 
-Pour faciliter la préparation à la protection des données, Adobe Campaign permet désormais de gérer les demandes d&#39;accès et de suppression. Le **droit d&#39;accès** et le **droit à l&#39;oubli** (demande de suppression) sont décrits dans [cette section](../../platform/using/privacy-management.md#right-access-forgotten).
+Pour faciliter la préparation à la protection des données, Adobe Campaign permet désormais de gérer les demandes d&#39;accès et de suppression. Le **droit d&#39;accès** et le **droit à l&#39;oubli** (demande de suppression) sont décrits dans [cette section](../../platform/using/privacy-management.md#right-access-forgotten).
 
-Découvrez comment créer des demandes d&#39;Accès et de Suppression, et comment elles sont traitées par Adobe Campaign.
+Découvrez comment créer des demandes d&#39;Accès et de Suppression, et comment elles sont traitées par Adobe Campaign.
 
 ### Principes {#principles}
 
 Adobe Campaign offre aux contrôleurs de données deux moyens d&#39;effectuer les demandes d&#39;accès à des informations personnelles et de suppression :
 
-* Via l&#39;**interface d&#39;Adobe Campaign** : pour chaque demande d&#39;accès à des informations personnelles, le contrôleur de données crée une demande d&#39;accès à des informations personnelles dans Adobe Campaign. Voir [cette section](#create-privacy-request-ui).
-* Via l&#39;**API** : Adobe Campaign fournit une API SOAP qui permet le traitement automatique des demandes d&#39;accès à des informations personnelles. Voir [cette section](#automatic-privacy-request-api).
+* Via l’**interface d’Adobe Campaign** : pour chaque demande d’accès à des informations personnelles, le contrôleur de données crée une demande d’accès à des informations personnelles dans Adobe Campaign. Voir [cette section](#create-privacy-request-ui).
+* Via l’**API** : Adobe Campaign fournit une API SOAP qui permet le traitement automatique des demandes d’accès à des informations personnelles. Voir [cette section](#automatic-privacy-request-api).
 
 >[!NOTE]
 >
@@ -44,18 +44,18 @@ Adobe Campaign offre aux contrôleurs de données deux moyens d&#39;effectuer l
 
 ### Conditions préalables requises {#prerequesites}
 
-Adobe Campaign met à la disposition des contrôleurs de données des outils afin de créer et traiter des demandes d&#39;accès à des informations personnelles pour les données stockées dans Adobe Campaign. Il incombe toutefois au contrôleur de données de gérer la relation avec le titulaire de données (e-mail, assistance clientèle ou portail web).
+Adobe Campaign met à la disposition des contrôleurs de données des outils afin de créer et traiter des demandes d&#39;accès à des informations personnelles pour les données stockées dans Adobe Campaign. Il incombe toutefois au contrôleur de données de gérer la relation avec le titulaire de données (e-mail, assistance clientèle ou portail web).
 
 Par conséquent, il est de votre responsabilité, en tant que contrôleur de données, de vérifier l&#39;identité du titulaire de données à l&#39;origine de la demande et de confirmer que les données renvoyées au demandeur concernent le titulaire de données.
 
 ### Installation du package relatif à la confidentialité {#install-privacy-package}
 
-Pour utiliser cette fonctionnalité, vous devez installer le package **[!UICONTROL Règlement sur la protection des informations personnelles]** via le menu **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Import de package]** > **[!UICONTROL Package Adobe Campaign]**. Pour plus d&#39;informations sur l&#39;installation des packages, consultez la [documentation détaillée](../../installation/using/installing-campaign-standard-packages.md).
+Pour utiliser cette fonctionnalité, vous devez installer le package **[!UICONTROL Règlement sur la protection des informations personnelles]** via le menu **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Import de package]** > **[!UICONTROL Package Adobe Campaign]**. Pour plus d&#39;informations sur l&#39;installation des packages, consultez la [documentation détaillée](../../installation/using/installing-campaign-standard-packages.md).
 
 Deux nouveaux dossiers spécifiques à la confidentialité sont créés sous **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** :
 
 * **[!UICONTROL Demandes d&#39;accès à des informations personnelles]** : c&#39;est là que vous créez les demandes d&#39;accès à des informations personnelles et que vous suivez leur évolution.
-* **[!UICONTROL Espaces de noms]** : c&#39;est là que vous définissez le champ à utiliser pour identifier le titulaire des données dans la base de données Adobe Campaign.
+* **[!UICONTROL Espaces de noms]** : c&#39;est là que vous définissez le champ à utiliser pour identifier le titulaire des données dans la base de données Adobe Campaign.
 
 ![](assets/privacy-folders.png)
 
@@ -64,7 +64,7 @@ Dans **[!UICONTROL Administration]** > **[!UICONTROL Exploitation]** > **[!UIC
 ![](assets/privacy-workflows.png)
 
 * **[!UICONTROL Collecter les demandes d&#39;accès aux informations personnelles]** : ce workflow génère les données du destinataire stockées dans Adobe Campaign et les met à disposition sur l&#39;écran de la demande d&#39;accès.
-* **[!UICONTROL Supprimer les données de demande d&#39;accès aux informations personnelles]** : ce workflow supprime les données du destinataire stockées dans Adobe Campaign.
+* **[!UICONTROL Supprimer les données de demande d’accès aux informations personnelles]** : ce workflow supprime les données du destinataire stockées dans Adobe Campaign.
 * **[!UICONTROL Nettoyage des demandes d&#39;accès à des informations personnelles]** : ce workflow supprime les fichiers de demande d&#39;accès qui ont plus de 90 jours.
 
 Le droit nommé **[!UICONTROL Droit relatif aux données personnelles]** a été ajouté dans **[!UICONTROL Administration]** > **[!UICONTROL Gestion des accès]** > **[!UICONTROL Droits nommés]**. Les contrôleurs de données ont besoin de ce droit nommé pour utiliser les outils d&#39;accès à des informations personnelles et pour ainsi créer de nouvelles demandes, suivre leur évolution, utiliser l&#39;API, etc.
@@ -102,7 +102,7 @@ Les workflows techniques d&#39;accès à des informations personnelles s&#39;ex�
 
 ### Liste des tables {#list-of-tables}
 
-Lors de l&#39;exécution d&#39;une demande d&#39;accès ou de suppression de données personnelles, Adobe Campaign recherche toutes les données du titulaire des données en fonction de la **[!UICONTROL Valeur de réconciliation]** dans toutes les tables ayant un lien avec la table du destinataire (type own).
+Lors de l&#39;exécution d&#39;une demande d&#39;accès ou de suppression de données personnelles, Adobe Campaign recherche toutes les données du titulaire des données en fonction de la **[!UICONTROL Valeur de réconciliation]** dans toutes les tables ayant un lien avec la table du destinataire (type own).
 
 Voici la liste des tables d&#39;usine qui sont prises en compte lors de l&#39;exécution des demandes d&#39;accès à des données personnelles :
 
@@ -213,9 +213,9 @@ En raison des restrictions d&#39;accès au fichier de données du titulaire de d
 
 ## Processus automatique de demande d&#39;accès à des informations personnelles {#automatic-privacy-request-api}
 
-Adobe Campaign fournit une **API** qui permet de configurer un processus automatique de demande d&#39;accès à des informations personnelles.
+Adobe Campaign fournit une **API** qui permet de configurer un processus automatique de demande d&#39;accès à des informations personnelles.
 
-Avec l&#39;API, le processus général d&#39;accès à des informations personnelles est identique à [celui de l&#39;interface](#create-privacy-request-ui). La seule différence est la création de la demande d&#39;accès à des informations personnelles. Au lieu de créer la demande dans Adobe Campaign, une instruction POST contenant les informations de la demande est envoyée à Campaign. Pour chaque demande, une nouvelle entrée est ajoutée dans l&#39;écran **[!UICONTROL Demandes d&#39;accès à des informations personnelles]**. Les workflows techniques d&#39;accès à des informations personnelles traitent ensuite la demande, de la même manière que pour une demande ajoutée à l&#39;aide de l&#39;interface.
+Avec l&#39;API, le processus général d&#39;accès à des informations personnelles est identique à [celui de l&#39;interface](#create-privacy-request-ui). La seule différence est la création de la demande d&#39;accès à des informations personnelles. Au lieu de créer la demande dans Adobe Campaign, une instruction POST contenant les informations de la demande est envoyée à Campaign. Pour chaque demande, une nouvelle entrée est ajoutée dans l&#39;écran **[!UICONTROL Demandes d&#39;accès à des informations personnelles]**. Les workflows techniques d&#39;accès à des informations personnelles traitent ensuite la demande, de la même manière que pour une demande ajoutée à l&#39;aide de l&#39;interface.
 
 Si vous utilisez l&#39;API pour soumettre des demandes d&#39;accès à des informations personnelles, il est recommandé de conserver l&#39;option **Processus en 2 étapes** activée pour les premières demandes de suppression, afin de tester les données renvoyées. Une fois vos tests terminés, vous pouvez désactiver le processus en 2 étapes de façon à ce que le processus de demande de suppression puisse s&#39;exécuter automatiquement.
 
@@ -382,9 +382,9 @@ Le **CCPA** (California Consumer Privacy Act) fournit aux résidents de la Calif
 
 La configuration et l&#39;usage des demandes d&#39;accès et de suppression sont identiques pour le RGPD et le CCPA. Cette section présente le droit d&#39;opposition à la vente des données personnelles, qui est spécifique au CCPA.
 
-Outre les outils de [gestion du consentement](../../platform/using/privacy-management.md#consent-management) fournis par Adobe Campaign, vous pouvez suivre si un client s&#39;est opposé à la vente de ses informations personnelles.
+Outre les outils de [gestion du consentement](../../platform/using/privacy-management.md#consent-management) fournis par Adobe Campaign, vous pouvez suivre si un client s’est opposé à la vente de ses informations personnelles.
 
-Les contacts peuvent décider, par l’intermédiaire de votre système, qu’ils n’autorisent pas la vente de leurs informations personnelles à un tiers. Avec Adobe Campaign, vous pourrez stocker et suivre ces informations.
+Les contacts peuvent décider, par l’intermédiaire de votre système, qu’ils n’autorisent pas la vente de leurs informations personnelles à un tiers. Avec Adobe Campaign, vous pourrez stocker et suivre ces informations.
 
 Pour que cela fonctionne, vous devez étendre la table Profils et ajouter un champ **[!UICONTROL Opt-out pour le CCPA]**.
 
@@ -394,7 +394,7 @@ Pour que cela fonctionne, vous devez étendre la table Profils et ajouter un cha
 
 ### Prérequis {#ccpa-prerequisite}
 
-Pour exploiter ces informations, vous devez créer ce champ dans Adobe Campaign Classic. Pour ce faire, vous allez ajouter un champ booléen à la table **[!UICONTROL Destinataire]**. Lorsqu&#39;un champ est créé, il est automatiquement pris en charge par l&#39;API Campaign.
+Pour exploiter ces informations, vous devez créer ce champ dans Adobe Campaign Classic. Pour ce faire, vous allez ajouter un champ booléen à la table **[!UICONTROL Destinataire]**. Lorsqu&#39;un champ est créé, il est automatiquement pris en charge par l&#39;API Campaign.
 
 Si vous utilisez une table de destinataires personnalisée, vous devez également effectuer cette opération.
 

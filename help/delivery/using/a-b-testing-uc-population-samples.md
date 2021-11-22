@@ -33,9 +33,9 @@ ht-degree: 100%
 
 ## Configurer l&#39;activité Partage {#configuring-the-split-activity}
 
-Cette activité permet de créer plusieurs populations : celle qui reçoit la diffusion A, celle qui reçoit la diffusion B et la population restante. D&#39;autre part, l&#39;utilisation du tirage aléatoire permet de ne cibler qu&#39;une partie de la population de chacune des diffusions.
+Cette activité permet de créer plusieurs populations : celle qui reçoit la diffusion A, celle qui reçoit la diffusion B et la population restante. D&#39;autre part, l&#39;utilisation du tirage aléatoire permet de ne cibler qu&#39;une partie de la population de chacune des diffusions.
 
-1. Création de la population A :
+1. Création de la population A :
 
    * Double-cliquez sur l&#39;activité **[!UICONTROL Partage]**.
 
@@ -57,7 +57,7 @@ Cette activité permet de créer plusieurs populations : celle qui reçoit la di
 
       ![](assets/use_case_abtesting_createrecipients_008.png)
 
-1. Création de la population B :
+1. Création de la population B :
 
    * Cliquez sur **[!UICONTROL Ajouter]** pour créer un nouvel onglet destiné à la population B.
 
@@ -67,7 +67,7 @@ Cette activité permet de créer plusieurs populations : celle qui reçoit la di
 
       ![](assets/use_case_abtesting_createrecipients_010.png)
 
-1. Création de la population restante :
+1. Création de la population restante :
 
    * Positionnez-vous dans l&#39;onglet **[!UICONTROL Général]**.
 

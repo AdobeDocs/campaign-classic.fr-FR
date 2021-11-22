@@ -31,7 +31,7 @@ L&#39;URL d&#39;appel au script est de la forme suivante :
 
 Le paramètre &quot;**env**&quot; reçoit le nom interne de l&#39;environnement en ligne dédié aux interactions anonymes.
 
-Pour présenter une offre, il faut donc créer un environnement ainsi qu&#39;un emplacement pour l&#39;offre dans Adobe Campaign, puis configurer la page HTML.
+Pour présenter une offre, il faut donc créer un environnement ainsi qu&#39;un emplacement pour l&#39;offre dans Adobe Campaign, puis configurer la page HTML.
 
 Les cas d&#39;utilisations suivants présentent les différentes options possibles dans l&#39;intégration d&#39;offres via Javascript.
 
@@ -41,7 +41,7 @@ Les cas d&#39;utilisations suivants présentent les différentes options possibl
 
 1. **Préparation du moteur d&#39;interaction**
 
-   Dans l&#39;interface d&#39;Adobe Campaign, préparez un environnement anonyme.
+   Dans l&#39;interface d&#39;Adobe Campaign, préparez un environnement anonyme.
 
    Créez un emplacement rattaché à l&#39;environnement anonyme.
 
@@ -75,7 +75,7 @@ Les cas d&#39;utilisations suivants présentent les différentes options possibl
 
 1. **Résultat dans la page HTML**
 
-   Le contenu de la représentation de l&#39;offre est renvoyé à la page HTML par le moteur d&#39;Interaction :
+   Le contenu de la représentation de l&#39;offre est renvoyé à la page HTML par le moteur d&#39;Interaction :
 
    ```
    <div id="banner_header">
@@ -143,7 +143,7 @@ Vous pouvez utiliser une fonction de rendu afin que la représentation HTML de l
 
 Interaction permet de renvoyer un noeud XML à la page HTML qui appelle le moteur d&#39;offres. Ce noeud XML peut être traité par des fonctions à développer côté client.
 
-L&#39;appel au moteur d&#39;Interaction est de la forme suivante :
+L&#39;appel au moteur d&#39;Interaction est de la forme suivante :
 
 ```
 <script type="text/javascript" id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=&cb="></script>
@@ -161,7 +161,7 @@ Le paramètre &quot;**th**&quot; reçoit la liste des thèmes. Ce paramètre est
 
 Le paramètre &quot;**gctx**&quot; reçoit les données d&#39;appel globales (contexte) à toute la page. Ce paramètre est optionnel.
 
-Le noeud XML retourné est de la forme suivante :
+Le noeud XML retourné est de la forme suivante :
 
 ```
 <propositions>
@@ -172,7 +172,7 @@ Le noeud XML retourné est de la forme suivante :
 </propositions>
 ```
 
-Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Adobe Campaign pour activer le mode XML puis montre le résultat de l&#39;appel au moteur dans la page HTML.
+Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Adobe Campaign pour activer le mode XML puis montre le résultat de l&#39;appel au moteur dans la page HTML.
 
 1. **Créer un environnement et un emplacement**
 
@@ -182,7 +182,7 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 
 1. **Etendre le schéma des offres pour ajouter des nouveaux champs**
 
-   Ce schéma va définir les champs suivants : titre N°2 et prix.
+   Ce schéma va définir les champs suivants : titre N°2 et prix.
 
    Le nom du schéma dans l&#39;exemple est **cus:offer**
 
@@ -223,7 +223,7 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 
    Editer le formulaire de saisie **Offre (nms)**.
 
-   Insérer dans la partie intitulée &quot;Views&quot;, les deux nouveaux champs avec le contenu suivant :
+   Insérer dans la partie intitulée &quot;Views&quot;, les deux nouveaux champs avec le contenu suivant :
 
    ```
    <input label="Title 2" margin-right="5" prebuildSubForm="false" type="subFormLink"
@@ -255,7 +255,7 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
                  <input colspan="2" label="Prix" nolabel="true" type="number" xpath="price_jst"/>
    ```
 
-   Mettre en commentaire le champ URL de destination :
+   Mettre en commentaire le champ URL de destination :
 
    ![](assets/interaction_xmlmode_form_001.png)
 
@@ -280,7 +280,7 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 1. Validez ou faites valider l&#39;offre puis activez là sur l&#39;emplacement créé à l&#39;étape précédente afin qu&#39;elle soit disponible dans l&#39;environnement en ligne associé.
 1. **Appel du moteur et résultat dans la page HTML**
 
-   L&#39;appel au moteur d&#39;interaction dans la page HTML est le suivant :
+   L&#39;appel au moteur d&#39;interaction dans la page HTML est le suivant :
 
    ```
    <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=OE7&cb=alert" type="text/javascript">
@@ -290,7 +290,7 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 
    Le paramètre &quot;**cb**&quot; a pour valeur le nom de la fonction qui doit interpréter le noeud XML renvoyé par le moteur. Dans notre exemple, la fonction appelée ouvre une fenêtre modale (fonction alert() ).
 
-   Le noeud XML retourné par le moteur d&#39;Interaction est de cette forme :
+   Le noeud XML retourné par le moteur d&#39;Interaction est de cette forme :
 
    ```
    <propositions>
@@ -316,7 +316,7 @@ Vous pouvez utiliser une fonction de rendu XML pour créer la présentation d&#3
 1. Sélectionnez **[!UICONTROL Surcharger la fonction de rendu XML]**.
 1. Dans l&#39;onglet **[!UICONTROL Rendu XML]**, insérez la fonction voulue.
 
-   La fonction peut ressembler à l&#39;exemple ci-dessous :
+   La fonction peut ressembler à l&#39;exemple ci-dessous :
 
    ```
    function (proposition) {

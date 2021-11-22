@@ -31,7 +31,7 @@ Utilisez l&#39;option Campaign **Federated Data Access** (FDA) pour traiter les 
 
 ## Snowflake sous CentOS {#snowflake-centos}
 
-Pour effectuer la configuration de [!DNL Snowflake] sous CentOS, procédez comme suit :
+Pour effectuer la configuration de [!DNL Snowflake] sur CentOS, procédez comme suit :
 
 1. Téléchargez les pilotes ODBC pour [!DNL Snowflake]. [Cliquez ici](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) pour lancer le téléchargement.
 1. Vous devez ensuite installer les pilotes ODBC sur CentOs à l’aide de la commande suivante :

@@ -39,7 +39,7 @@ Vous pouvez également empêcher le téléchargement de fichiers importants en c
 
 Vous pouvez connecter le serveur Campaign à un système externe par le biais d’un proxy, en utilisant par exemple une activité de workflow **Transfert de fichier**. Pour ce faire, vous devez configurer la section **proxyConfig** du fichier **serverConf.xml** à l’aide d’une commande spécifique. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
-Les connexions proxy suivantes sont possibles : HTTP, HTTPS, FTP, SFTP. Notez qu’à compter de la version 20.2 de Campaign, les paramètres de protocole HTTP et HTTPS sont **indisponibles**. Ces paramètres sont toujours mentionnés ci-dessous car ils restent disponibles dans les builds précédents, y compris le build 9032.
+Les connexions proxy suivantes sont possibles : HTTP, HTTPS, FTP, SFTP. Notez qu’à compter de la version 20.2 de Campaign, les paramètres de protocole HTTP et HTTPS sont **indisponibles**. Ces paramètres sont toujours mentionnés ci-dessous car ils restent disponibles dans les builds précédents, y compris le build 9032.
 
 >[!CAUTION]
 >
@@ -123,7 +123,7 @@ Pour être accessibles publiquement, les images utilisées dans les emails et le
 
 Les ressources publiques sont stockées dans le répertoire **/var/res/instance** du répertoire d’installation d’Adobe Campaign.
 
-L&#39;URL correspondante est la suivante : **http://serveur/res/instance** où **instance** est le nom de l&#39;instance de tracking.
+L&#39;URL correspondante est la suivante : **http://serveur/res/instance** où **instance** est le nom de l&#39;instance de tracking.
 
 Vous pouvez spécifier un autre répertoire en ajoutant un nœud au fichier **conf-`<instance>`.xml** pour configurer le stockage sur le serveur. Cela signifie d’ajouter les lignes suivantes :
 

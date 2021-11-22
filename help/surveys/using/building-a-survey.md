@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Créer un nouveau questionnaire {#creating-a-new-survey}
 
-Le chapitre suivant présente les étapes de conception d&#39;un formulaire de type **Questionnaire** sous Adobe Campaign, ainsi que les options et paramétrages disponibles. Adobe Campaign permet de mettre ce questionnaire à disposition des utilisateurs, et de collecter et archiver les réponses dans la base de données.
+Le chapitre suivant présente les étapes de conception d&#39;un formulaire de type **Questionnaire** sous Adobe Campaign, ainsi que les options et paramétrages disponibles. Adobe Campaign permet de mettre ce questionnaire à disposition des utilisateurs, et de collecter et archiver les réponses dans la base de données.
 
 Les formulaires Web sont accessibles à partir du noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence. Pour créer un questionnaire, cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des applications, ou cliquez avec le bouton droit dans la liste et choisissez **[!UICONTROL Nouveau]**.
 
@@ -45,7 +45,7 @@ Dans un formulaire, les champs permettent aux utilisateurs de saisir des informa
 
 ### Types de champs {#types-of-fields}
 
-Lorsque vous ajouter un champ dans un questionnaire, vous devez sélectionner le type de champ à ajouter. Les options suivantes sont disponibles :
+Lorsque vous ajouter un champ dans un questionnaire, vous devez sélectionner le type de champ à ajouter. Les options suivantes sont disponibles :
 
 1. **[!UICONTROL Répondre à une question]** : cette option permet de déclarer un nouveau champ (dit « champ archivé ») afin de stocker les réponses. Dans ce cas, toutes les valeurs collectées sont enregistrées, et pas seulement la dernière. Ce mode de stockage n’est disponible que dans les **Questionnaires**. [En savoir plus](../../surveys/using/managing-answers.md#storing-collected-answers).
 1. **[!UICONTROL Éditer un destinataire]** : cette option permet de sélectionner un champ de la base de données. Dans ce cas, les réponses des utilisateurs seront stockées dans ce champ. Pour chaque participant, seule la dernière valeur saisie est conservée. Elle est ajoutée aux données de son profil.
@@ -68,7 +68,7 @@ Les questionnaires en ligne reposent sur les fonctionnalités des applications w
 
 ### Choix multiples {#multiple-choice}
 
-Pour les contrôles de type **[!UICONTROL Choix multiples]**, vous pouvez définir un nombre maximal et un nombre minimal de sélections. Cette option permet par exemple de forcer la sélection d&#39;au moins **2** valeurs et au plus **4** valeurs parmi les options proposées :
+Pour les contrôles de type **[!UICONTROL Choix multiples]**, vous pouvez définir un nombre maximal et un nombre minimal de sélections. Cette option permet par exemple de forcer la sélection d&#39;au moins **2** valeurs et au plus **4** valeurs parmi les options proposées :
 
 ![](assets/s_ncs_admin_survey_multichoice_ex1.png)
 
@@ -80,11 +80,11 @@ Si le nombre de sélections n&#39;est pas atteint ou s&#39;il est dépassé, le 
 >
 >Dans ce cas, les options sont sélectionnées via des cases à cocher. Lorsqu&#39;un seul choix est possible, il s&#39;agit de boutons radio.
 
-Le paramétrage correspondant sera le suivant :
+Le paramétrage correspondant sera le suivant :
 
 ![](assets/s_ncs_admin_survey_multichoice_ex3.png)
 
-De plus, l&#39;espace de stockage pour ce champ de saisie doit être un **champ archivé** de type **[!UICONTROL Valeurs Multiples]** :
+De plus, l&#39;espace de stockage pour ce champ de saisie doit être un **champ archivé** de type **[!UICONTROL Valeurs Multiples]** :
 
 ![](assets/s_ncs_admin_survey_multiple_values_field.png)
 
@@ -116,7 +116,7 @@ Par exemple :
 
 ![](assets/s_ncs_admin_survey_containers_qu_arbo.png)
 
-Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
+Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
 
 ![](assets/s_ncs_admin_survey_containers_qu_ex.png)
 
@@ -124,11 +124,11 @@ Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
 >
 >Chaque question correspond à un conteneur de type **Question**.
 
-Vous pouvez activer le tirage aléatoire des questions par Adobe Campaign. Il est ensuite possible d&#39;indiquer le nombre de questions à afficher dans la page, dans le champ situé en bas de la fenêtre de configuration.
+Vous pouvez activer le tirage aléatoire des questions par Adobe Campaign. Il est ensuite possible d&#39;indiquer le nombre de questions à afficher dans la page, dans le champ situé en bas de la fenêtre de configuration.
 
 ![](assets/s_ncs_admin_survey_containers_qu_display.png)
 
-Le rendu sera par exemple :
+Le rendu sera par exemple :
 
 ![](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
 

@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Pour cette configuration, trois machines sont nécessaires :
+Pour cette configuration, trois machines sont nécessaires :
 
 * Un serveur applicatif situé dans le LAN, qui sert les utilisateurs (préparation des diffusions, reporting, etc.),
 * Deux machines frontales situées en DMZ derrière un répartiteur de charge.
@@ -26,9 +26,9 @@ Les deux machines dans la DMZ prennent en charge le tracking, la gestion des pag
 
 Le serveur applicatif situé dans le LAN sert les utilisateurs et effectue tous les traitements récurrents (moteur de workflow). Ainsi, en cas de pic de charge sur les frontaux, les utilisateurs métier ne sont pas impactés.
 
-Le serveur de base de données peut être une machine déjà existante (ou une nouvelle machine) distincte de ces trois machines. Il est toutefois possible de cumuler les fonctions de serveur applicatif dans le LAN et de serveur de base de données sur la même machine. Ceci suppose cependant qu&#39;elle fonctionne sur un système d&#39;exploitation supporté par Adobe Campaign (Linux ou Windows).
+Le serveur de base de données peut être une machine déjà existante (ou une nouvelle machine) distincte de ces trois machines. Il est toutefois possible de cumuler les fonctions de serveur applicatif dans le LAN et de serveur de base de données sur la même machine. Ceci suppose cependant qu&#39;elle fonctionne sur un système d&#39;exploitation supporté par Adobe Campaign (Linux ou Windows).
 
-La communication générale entre les serveurs et les processus est réalisée conformément au schéma suivant :
+La communication générale entre les serveurs et les processus est réalisée conformément au schéma suivant :
 
 ![](assets/s_001_ncs_install_standardconfig.png)
 
@@ -49,7 +49,7 @@ Ce type de configuration peut faire face à un grand nombre de profils de destin
 * Serveur Web (IIS, Apache) sur les deux frontaux,
 * Accès à un serveur de base de données sur les trois machines,
 * Boîte pour les mails rebonds accessible en POP3,
-* Création de deux alias DNS :
+* Création de deux alias DNS :
 
    * un premier alias exposé au grand public pour le tracking et pointant vers le répartiteur de charge sur une adresse IP virtuelle (VIP) qui est ensuite distribuée sur les deux serveurs frontaux,
    * un deuxième alias exposé aux utilisateurs métiers pour l&#39;accès console et pointant vers serveur applicatif.
@@ -58,35 +58,35 @@ Ce type de configuration peut faire face à un grand nombre de profils de destin
 
 ### Installation du serveur applicatif {#installing-the-application-server}
 
-Respectez les étapes d&#39;installation d&#39;une instance mono-machine à partir du serveur applicatif Adobe Campaign jusqu&#39;à la création de la base de données (étape 12). Voir [Installer et configurer (mono-machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
+Respectez les étapes d&#39;installation d&#39;une instance mono-machine à partir du serveur applicatif Adobe Campaign jusqu&#39;à la création de la base de données (étape 12). Voir [Installer et configurer (mono-machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
 La machine n&#39;étant pas un serveur de tracking, ne pas tenir compte de l&#39;intégration du serveur Web.
 
-Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
+Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
 
-* Nom de l&#39;instance : **demo**
-* Masque DNS : **console.campaign.net*** (uniquement pour la connexion des consoles clientes et pour les rapports)
-* Langue : française
+* Nom de l&#39;instance : **demo**
+* Masque DNS : **console.campaign.net*** (uniquement pour la connexion des consoles clientes et pour les rapports)
+* Langue : française
 * Base de données : **campaign:demo@dbsrv**
 
 ### Installation des deux serveurs frontaux {#installing-the-two-frontal-servers}
 
 La procédure d&#39;installation et de paramétrage est identique sur les deux machines.
 
-Les étapes sont les suivantes :
+Les étapes sont les suivantes :
 
-1. Installez le serveur Adobe Campaign.
+1. Installez le serveur Adobe Campaign.
 
    Voir à ce propos [Prérequis pour l&#39;installation de Campaign sous Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) et [Prérequis pour l&#39;installation de Campaign sous Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
 
-1. Suivez la procédure d&#39;intégration du serveur Web (IIS, Apache) décrite dans les sections suivantes :
+1. Suivez la procédure d&#39;intégration du serveur Web (IIS, Apache) décrite dans les sections suivantes :
 
    * Pour Linux : [Intégration à un serveur web pour Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
    * Pour Windows : [Intégration à un serveur web pour Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. Créez l&#39;instance nommée **demo**. Pour cela, deux méthodes sont possibles :
+1. Créez l&#39;instance nommée **demo**. Pour cela, deux méthodes sont possibles :
 
-   * Créer l&#39;instance via la console :
+   * Créer l&#39;instance via la console :
 
       ![](assets/install_create_new_connexion.png)
 
@@ -94,7 +94,7 @@ Les étapes sont les suivantes :
 
       ou
 
-   * Créer l&#39;instance en ligne de commande :
+   * Créer l&#39;instance en ligne de commande :
 
       ```
       nlserver config -addinstance:demo/tracking.campaign.net*
@@ -109,7 +109,7 @@ Les étapes sont les suivantes :
 
    Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
-1. Rattachez la base de données sur l&#39;instance :
+1. Rattachez la base de données sur l&#39;instance :
 
    ```
    nlserver config -setdblogin:PostgreSQL:campaign:demo@dbsrv -instance:demo
@@ -121,7 +121,7 @@ Les étapes sont les suivantes :
 
 1. Editez le fichier **serverConf.xml** et renseignez :
 
-   * la configuration DNS du module MTA :
+   * la configuration DNS du module MTA :
 
       ```
       <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
@@ -133,7 +133,7 @@ Les étapes sont les suivantes :
 
       Voir à ce sujet la section [Paramètres de diffusion](configure-delivery-settings.md).
 
-   * les serveurs de tracking redondants dans les paramètres de la redirection :
+   * les serveurs de tracking redondants dans les paramètres de la redirection :
 
       ```
       <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
@@ -144,7 +144,7 @@ Les étapes sont les suivantes :
 
 1. Démarrez le site web et testez la redirection à partir de l&#39;URL : [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test)
 
-   Le navigateur doit afficher les messages suivants (en fonction de l&#39;URL redirigée par le répartiteur de charge) :
+   Le navigateur doit afficher les messages suivants (en fonction de l&#39;URL redirigée par le répartiteur de charge) :
 
    ```
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv1"/>
@@ -156,13 +156,13 @@ Les étapes sont les suivantes :
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv2"/>
    ```
 
-   Voir à ce propos les sections suivantes :
+   Voir à ce propos les sections suivantes :
 
    * Pour Linux : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
    * Pour Windows : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
-1. Démarrer le serveur Adobe Campaign.
-1. Connectez-vous avec une console cliente Adobe Campaign avec l&#39;identifiant (login) **admin** sans mot de passe et lancez l&#39;assistant de déploiement.
+1. Démarrer le serveur Adobe Campaign.
+1. Connectez-vous avec une console cliente Adobe Campaign avec l&#39;identifiant (login) **admin** sans mot de passe et lancez l&#39;assistant de déploiement.
 
    Voir à ce sujet la section [Déploiement d’une instance](../../installation/using/deploying-an-instance.md).
 

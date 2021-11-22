@@ -27,7 +27,7 @@ Pour plus d&#39;informations sur l&#39;utilisation des adresses de contrôle, co
 
 Le schéma **nms:seedMember** et le formulaire éponyme livrés d&#39;usine ont vocation à être étendus pour un paramètrage client afin de référencer tous les champs nécessaires. La définition du schéma contient des commentaires expliquant son mode de paramétrage.
 
-Définition du schéma étendu de la table des destinataires :
+Définition du schéma étendu de la table des destinataires :
 
 ```
 <srcSchema label="Person" name="person" namespace="cus">
@@ -45,7 +45,7 @@ Définition du schéma étendu de la table des destinataires :
 Les étapes sont les suivantes :
 
 1. Créez une extension du schéma **nms:seedMember**. Voir à ce sujet la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md).
-1. Dans cette extension, ajoutez un nouvel élément à la racine de l&#39;élément **[!UICONTROL seedMember]**, avec les paramètres suivants :
+1. Dans cette extension, ajoutez un nouvel élément à la racine de l&#39;élément **[!UICONTROL seedMember]**, avec les paramètres suivants :
 
    ```
    name="custom_customNamespace_customSchema"
@@ -70,7 +70,7 @@ Les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >L&#39;extension du schéma **nms:seedMember** doit respecter les structures types d&#39;une opération et d&#39;une diffusion dans Adobe Campaign.
+   >L&#39;extension du schéma **nms:seedMember** doit respecter les structures types d&#39;une opération et d&#39;une diffusion dans Adobe Campaign.
 
    >[!IMPORTANT]
    >
@@ -97,4 +97,4 @@ Les étapes sont les suivantes :
      </container>
    ```
 
-Si tous les attributs de l&#39;adresse de contrôle ne sont pas renseignés, Adobe Campaign procède automatiquement à la substitution de profils : ils seront alimentés automatiquement, lors de la personnalisation, par les données d&#39;un profil existant.
+Si tous les attributs de l&#39;adresse de contrôle ne sont pas renseignés, Adobe Campaign procède automatiquement à la substitution de profils : ils seront alimentés automatiquement, lors de la personnalisation, par les données d&#39;un profil existant.

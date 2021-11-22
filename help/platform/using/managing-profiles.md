@@ -19,9 +19,9 @@ ht-degree: 100%
 
 ## Arborescence des destinataires {#recipient-tree}
 
-Pour accéder aux fonctionnalités avancées de gestion des destinataires, vous devez éditer l&#39;arborescence d&#39;Adobe Campaign. Pour cela, cliquez sur le bouton **[!UICONTROL Explorateur]** de la barre d&#39;outils.
+Pour accéder aux fonctionnalités avancées de gestion des destinataires, vous devez éditer l&#39;arborescence d&#39;Adobe Campaign. Pour cela, cliquez sur le bouton **[!UICONTROL Explorateur]** de la barre d&#39;outils.
 
-Le dossier des destinataires est positionné par défaut sous le noeud **[!UICONTROL Profils et cibles]** de l&#39;arborescence d&#39;Adobe Campaign. Vous pouvez créer, à partir du même noeud, un ou plusieurs dossiers et sous-dossiers afin d&#39;y stocker les profils des destinataires.
+Le dossier des destinataires est positionné par défaut sous le noeud **[!UICONTROL Profils et cibles]** de l&#39;arborescence d&#39;Adobe Campaign. Vous pouvez créer, à partir du même noeud, un ou plusieurs dossiers et sous-dossiers afin d&#39;y stocker les profils des destinataires.
 
 Chaque noeud correspond à un dossier. Les données de chaque dossier doivent être considérées comme cloisonnées les unes des autres. Ainsi, dans le cas de dossiers de destinataires multiples, la gestion des doublons sera plus délicate.
 
@@ -45,6 +45,6 @@ Pour purger un dossier, utilisez le menu **[!UICONTROL Actions > Purger le doss
 
 ![](assets/s_ncs_user_purge_folder.png)
 
-Cliquez sur **[!UICONTROL Démarrer]** pour lancer l&#39;opération. La section centrale de la fenêtre affiche l&#39;état d&#39;avancement, comme dans l&#39;exemple ci-dessous :
+Cliquez sur **[!UICONTROL Démarrer]** pour lancer l&#39;opération. La section centrale de la fenêtre affiche l&#39;état d&#39;avancement, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_user_purge_folder_start.png)

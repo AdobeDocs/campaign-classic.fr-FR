@@ -17,32 +17,32 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Vous pouvez créer une liste complexe à l&#39;aide des fonctionnalités avancées de Campaign v7 et la partager de façon transparente en tant qu&#39;audience directement et en temps réel avec Campaign Standard (y compris, les données additionnelles). L&#39;utilisateur d&#39;Adobe Campaign peut ensuite utiliser l&#39;audience dans Adobe Campaign Standard.
+Vous pouvez créer une liste complexe à l&#39;aide des fonctionnalités avancées de Campaign v7 et la partager de façon transparente en tant qu&#39;audience directement et en temps réel avec Campaign Standard (y compris, les données additionnelles). L&#39;utilisateur d&#39;Adobe Campaign peut ensuite utiliser l&#39;audience dans Adobe Campaign Standard.
 
-Un ciblage complexe impliquant des données additionnelles qui ne sont pas répliquées dans Campaign Standard n&#39;est possible qu&#39;avec Campaign v7.
+Un ciblage complexe impliquant des données additionnelles qui ne sont pas répliquées dans Campaign Standard n&#39;est possible qu&#39;avec Campaign v7.
 
-Vous pouvez également simplement partager des listes de destinataires ou de données provenant d&#39;un connecteur tel que Microsoft Dynamics avec Campaign Standard.
+Vous pouvez également simplement partager des listes de destinataires ou de données provenant d&#39;un connecteur tel que Microsoft Dynamics avec Campaign Standard.
 
-Ce cas pratique montre comment préparer la cible de votre diffusion dans Campaign v7 et la réutiliser avec ses données additionnelles dans une diffusion créée et envoyée dans Adobe Campaign Standard.
+Ce cas pratique montre comment préparer la cible de votre diffusion dans Campaign v7 et la réutiliser avec ses données additionnelles dans une diffusion créée et envoyée dans Adobe Campaign Standard.
 
 >[!NOTE]
 >
->Vous pouvez également enrichir les données à l&#39;aide d&#39;agrégats et de collections dans Adobe Campaign Standard si toutes les données dont vous avez besoin sont déjà répliquées.
+>Vous pouvez également enrichir les données à l&#39;aide d&#39;agrégats et de collections dans Adobe Campaign Standard si toutes les données dont vous avez besoin sont déjà répliquées.
 
 ## Conditions préalables requises {#prerequisites}
 
 Pour ce faire, les éléments suivants sont nécessaires :
 
-* Des destinataires stockés dans la base de données de Campaign v7 et synchronisés avec Campaign Standard. Pour plus d&#39;informations, consultez la section [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md).
-* Des données additionnelles telles que des abonnements ou des transactions stockées dans des tables associées à nms:recipients dans la base de données de Campaign v7. Ces données peuvent provenir de tables personnalisées ou de schémas d&#39;usine de Campaign v7. Par défaut, ces données ne sont pas accessibles dans Campaign Standard, car elles ne sont pas synchronisées.
+* Des destinataires stockés dans la base de données de Campaign v7 et synchronisés avec Campaign Standard. Pour plus d&#39;informations, consultez la section [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md).
+* Des données additionnelles telles que des abonnements ou des transactions stockées dans des tables associées à nms:recipients dans la base de données de Campaign v7. Ces données peuvent provenir de tables personnalisées ou de schémas d&#39;usine de Campaign v7. Par défaut, ces données ne sont pas accessibles dans Campaign Standard, car elles ne sont pas synchronisées.
 * Droits d&#39;exécution de workflows dans Campaign v7 et Campaign Standard.
-* Droits de création et d&#39;exécution d&#39;une diffusion dans Campaign Standard.
+* Droits de création et d&#39;exécution d&#39;une diffusion dans Campaign Standard.
 
 ## Créer un workflow de ciblage avec des données additionnelles dans Campaign v7 {#create-a-targeting-workflow-with-additional-data-in-campaign-v7}
 
-Un ciblage complexe impliquant des données additionnelles qui ne sont pas répliquées dans Campaign Standard n&#39;est possible qu&#39;avec Campaign v7.
+Un ciblage complexe impliquant des données additionnelles qui ne sont pas répliquées dans Campaign Standard n&#39;est possible qu&#39;avec Campaign v7.
 
-Une fois que la cible et ses données additionnelles ont été définies, il est possible d&#39;enregistrer la cible en tant que liste pouvant être partagée avec Campaign Standard.
+Une fois que la cible et ses données additionnelles ont été définies, il est possible d&#39;enregistrer la cible en tant que liste pouvant être partagée avec Campaign Standard.
 
 >[!NOTE]
 >
@@ -92,13 +92,13 @@ Pour obtenir l&#39;audience finale et ses données additionnelles :
 
 1. Enregistrez le workflow. La section suivante montre comment partager la population avec ACS.
 
-## Partager la cible avec Campaign Standard {#share-the-target-with-campaign-standard}
+## Partager la cible avec Campaign Standard {#share-the-target-with-campaign-standard}
 
 Une fois que la population cible est définie, vous pouvez la partager avec ACS par le biais d&#39;une activité **[!UICONTROL Mise à jour de liste]**.
 
 1. Dans le workflow précédemment créé, ajoutez une activité **[!UICONTROL Mise à jour de liste]** et spécifiez la liste que vous souhaitez mettre à jour ou créer.
 
-   Indiquez le dossier dans lequel vous souhaitez enregistrer la liste dans Campaign v7. Les listes sont soumises au mappage de dossiers défini lors de la mise en œuvre, ce qui peut avoir un impact sur leur visibilité une fois qu’elles sont partagées dans Campaign Standard. Pour plus d&#39;informations, consultez la section [Conversion des droits](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion).
+   Indiquez le dossier dans lequel vous souhaitez enregistrer la liste dans Campaign v7. Les listes sont soumises au mappage de dossiers défini lors de la mise en œuvre, ce qui peut avoir un impact sur leur visibilité une fois qu’elles sont partagées dans Campaign Standard. Pour plus d&#39;informations, consultez la section [Conversion des droits](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion).
 
 1. Vérifiez que l&#39;option **[!UICONTROL Partager avec ACS]** est cochée. Elle l&#39;est par défaut.
 
@@ -106,17 +106,17 @@ Une fois que la population cible est définie, vous pouvez la partager avec ACS 
 
 1. Enregistrez et exécutez le workflow.
 
-   La cible et ses données additionnelles sont enregistrées dans une liste, dans Campaign v7, et sont immédiatement partagées en tant qu&#39;audience de type liste dans Campaign Standard. Seuls les profils qui ont été répliqués sont partagés avec ACS.
+   La cible et ses données additionnelles sont enregistrées dans une liste, dans Campaign v7, et sont immédiatement partagées en tant qu&#39;audience de type liste dans Campaign Standard. Seuls les profils qui ont été répliqués sont partagés avec ACS.
 
 Si une erreur se produit dans l&#39;activité **[!UICONTROL Mise à jour de liste]**, cela signifie que la synchronisation avec Campaign Standard n&#39;a peut-être pas été effectuée correctement. Pour déterminer ce qui s&#39;est passé, accédez à **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Traitement]** > **[!UICONTROL Diagnostic]**. Ce dossier contient les workflows de synchronisation déclenchés par l&#39;exécution de l&#39;activité **[!UICONTROL Mise à jour de liste]**. Pour plus d&#39;informations, consultez la section [Résolution des problèmes liés à ACS Connector](../../integrations/using/troubleshooting-the-acs-connector.md).
 
-## Récupérer les données dans Campaign Standard et les utiliser dans une diffusion {#retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery}
+## Récupérer les données dans Campaign Standard et les utiliser dans une diffusion {#retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery}
 
-Une fois que le workflow de ciblage a été exécuté dans Campaign v7, l&#39;audience de type liste est accessible en lecture seule dans le menu **[!UICONTROL Audiences]** de Campaign Standard.
+Une fois que le workflow de ciblage a été exécuté dans Campaign v7, l&#39;audience de type liste est accessible en lecture seule dans le menu **[!UICONTROL Audiences]** de Campaign Standard.
 
 ![](assets/acs_connect_deliveryworkflow_audience.png)
 
-En créant un workflow de diffusion dans Campaign Standard, vous pourrez ensuite utiliser cette audience et ses données additionnelles dans une diffusion.
+En créant un workflow de diffusion dans Campaign Standard, vous pourrez ensuite utiliser cette audience et ses données additionnelles dans une diffusion.
 
 1. Créez un nouveau workflow depuis le menu **[!UICONTROL Activités marketing]**.
 1. Ajoutez une activité **[!UICONTROL Lecture audience]** et sélectionnez l&#39;audience que vous avez précédemment partagée depuis Campaign v7.
@@ -145,9 +145,9 @@ Lorsque la diffusion et son contenu sont prêts, envoyez la diffusion :
 1. Dans le tableau de bord de la diffusion, validez manuellement l&#39;envoi de la diffusion.
 1. Examinez les rapports et les logs de la diffusion :
 
-   * **Dans Campaign Standard** : accédez aux [rapports](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html?lang=fr) et [logs](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=fr) relatifs à la diffusion comme pour toute autre diffusion.
-   * **Dans Campaign v7 et Campaign Standard** : les identifiants des diffusions, les broadLogs et les logs de tracking des emails sont synchronisés dans Campaign v7. Vous obtenez alors une vue à 360° de vos campagnes marketing depuis Campaign v7.
+   * **Dans Campaign Standard** : accédez aux [rapports](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html?lang=fr) et [logs](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=fr) relatifs à la diffusion comme pour toute autre diffusion.
+   * **Dans Campaign v7 et Campaign Standard** : les identifiants des diffusions, les broadLogs et les logs de tracking des emails sont synchronisés dans Campaign v7. Vous obtenez alors une vue à 360° de vos campagnes marketing depuis Campaign v7.
 
       Les quarantaines sont automatiquement synchronisées avec Campaign v7. Ainsi, les informations de non-délivrabilité peuvent être prises en compte pour le prochain ciblage effectué dans Campaign v7.
 
-      Pour plus d&#39;informations sur la gestion des quarantaines dans Campaign Standard, reportez-vous à [cette section](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=fr).
+      Pour plus d&#39;informations sur la gestion des quarantaines dans Campaign Standard, reportez-vous à [cette section](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=fr).

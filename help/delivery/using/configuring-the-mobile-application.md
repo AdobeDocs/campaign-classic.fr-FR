@@ -23,7 +23,7 @@ Une fois le package installé, vous pouvez définir les paramètres de votre app
 >
 >Pour savoir comment configurer votre application pour Android et comment créer une diffusion pour Android, reportez-vous à cette [section](configuring-the-mobile-application-android.md).
 
-Les étapes clés sont les suivantes :
+Les étapes clés sont les suivantes :
 
 1. [Configuration du compte externe iOS](#configuring-external-account-ios)
 1. [Configuration du service iOS](#configuring-ios-service)
@@ -52,7 +52,7 @@ Votre connecteur iOS est maintenant paramétré. Vous pouvez créer votre servic
 
 >[!CAUTION]
 >
->L&#39;application doit avoir été configurée pour des actions de Push AVANT toute intégration au SDK Adobe Campaign.
+>L&#39;application doit avoir été configurée pour des actions de Push AVANT toute intégration au SDK Adobe Campaign.
 >
 >Si ce n&#39;est pas le cas, veuillez consulter [cette page](https://developer.apple.com/documentation/usernotifications).
 
@@ -102,7 +102,7 @@ Dans l’exemple suivant, nous ajoutons **mediaURl** et **mediaExt** pour créer
 
 1. Cliquez sur **[!UICONTROL Suivant]** pour passer à la configuration de l’application de développement.
 
-1. Assurez-vous que la même **[!UICONTROL clé d’intégration]** est définie dans Adobe Campaign et dans le code de l’application via le SDK. Pour plus dʼinformations, consultez [cette page](integrating-campaign-sdk-into-the-mobile-application.md). Cette clé d’intégration, spécifique à chaque application, vous permet de lier l’application mobile à la plateforme Adobe Campaign.
+1. Assurez-vous que la même **[!UICONTROL clé d’intégration]** est définie dans Adobe Campaign et dans le code de l’application via le SDK. Pour plus dʼinformations, consultez [cette page](integrating-campaign-sdk-into-the-mobile-application.md). Cette clé d’intégration, spécifique à chaque application, vous permet de lier l’application mobile à la plateforme Adobe Campaign.
 
    >[!NOTE]
    >

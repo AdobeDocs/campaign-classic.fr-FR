@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 source-git-commit: 9ba2199eabf91381e87661f30c9af8aa0ce4cc26
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 100%
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 
 Les tests de migration peuvent être effectués de différentes manières, en fonction de votre configuration.
 
-Vous devez disposer d&#39;un environnement de test/développement afin de réaliser les tests de migration. Les environnements de développement sont soumis à licence : vérifiez votre contrat de licence ou contactez le service commercial.
+Vous devez disposer d&#39;un environnement de test/développement afin de réaliser les tests de migration. Les environnements de développement sont soumis à licence : vérifiez votre contrat de licence ou contactez le service commercial.
 
 1. Arrêtez tous les développements en cours et reportez-les sur l&#39;environnement de production.
 1. Effectuez une sauvegarde de la base de données correspondant à l&#39;environnement de développement.
-1. Arrêtez tous les processus Adobe Campaign sur l&#39;instance de développement.
+1. Arrêtez tous les processus Adobe Campaign sur l&#39;instance de développement.
 1. Effectuez une sauvegarde de la base de données de l&#39;environnement de production et restaurez-la en tant qu&#39;environnement de développement.
-1. Avant de redémarrer les services Adobe Campaign, exécutez le script de cautérisation **freezeInstance.js** permettant de nettoyer la base de données de tous les objets qui étaient en cours d&#39;exécution au moment de la sauvegarde :
+1. Avant de redémarrer les services Adobe Campaign, exécutez le script de cautérisation **freezeInstance.js** permettant de nettoyer la base de données de tous les objets qui étaient en cours d&#39;exécution au moment de la sauvegarde :
 
    ```
    nlserver javascript nms:freezeInstance.js -instance:<instance> -arg:<run|dry>
@@ -50,11 +50,11 @@ Vous devez disposer d&#39;un environnement de test/développement afin de réali
 
 >[!NOTE]
 >
->La commande de mise à jour d&#39;Adobe Campaign (**postupgrade**) permet de synchroniser les ressources et de mettre à jour les schémas et la base de données. Cette opération n&#39;est à effectuer qu&#39;une seule fois et uniquement sur un serveur applicatif. Lors de la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
+>La commande de mise à jour d&#39;Adobe Campaign (**postupgrade**) permet de synchroniser les ressources et de mettre à jour les schémas et la base de données. Cette opération n&#39;est à effectuer qu&#39;une seule fois et uniquement sur un serveur applicatif. Lors de la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
 
 ## Outils d&#39;aide à la migration {#migration-tools}
 
-Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39;identifier les problèmes potentiels. Ces options sont à exécuter :
+Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39;identifier les problèmes potentiels. Ces options sont à exécuter :
 
 * dans la commande **config** :
 
@@ -62,7 +62,7 @@ Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39
    nlserver.exe config <option> -instance:<instanceName>
    ```
 
-* ou au niveau du postupgrade :
+* ou au niveau du postupgrade :
 
    ```
    nlserver.exe config -postupgrade <option> -instance:<instanceName>
@@ -74,13 +74,13 @@ Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39
 
 ### Options -showCustomEntities et -showDeletedEntities {#showcustomentities-and--showdeletedentities-options}
 
-* L&#39;option **-showCustomEntities** affiche la liste de tous les objets non-standards :
+* L&#39;option **-showCustomEntities** affiche la liste de tous les objets non-standards :
 
    ```
    nlserver.exe config -showCustomEntities -instance:<instanceName>
    ```
 
-   Exemple de message renvoyé :
+   Exemple de message renvoyé :
 
    ```
    xtk_migration:opsecurity2 xtk:entity
@@ -92,7 +92,7 @@ Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39
    nlserver.exe config -showDeletedEntities -instance:<instanceName>
    ```
 
-   Exemple de message renvoyé :
+   Exemple de message renvoyé :
 
    ```
    Out of the box object 'nms:deliveryCustomizationMdl' belonging to the 'xtk:srcSchema' schema has not been found in the file system.
@@ -102,7 +102,7 @@ Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39
 
 Intégré en standard dans la commande de postupgrade, ce processus permet d&#39;afficher les avertissements et erreurs qui pourraient faire échouer la migration. **Si des erreurs sont affichées, la migration n&#39;est pas exécutée.** Dans ce cas, corrigez toutes les erreurs, puis relancez le postupgrade.
 
-Il est possible de lancer la vérification seule (sans migration) à l&#39;aide de la commande :
+Il est possible de lancer la vérification seule (sans migration) à l&#39;aide de la commande :
 
 ```
 nlserver.exe config -postupgrade -check -instance:<instanceName>
@@ -112,7 +112,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 >
 >Ne tenez pas compte des avertissements et des erreurs contenant le code JST-310040.
 
-Les expressions suivantes sont recherchées (sensibilité à la casse) :
+Les expressions suivantes sont recherchées (sensibilité à la casse) :
 
 <table> 
  <thead> 
@@ -175,7 +175,7 @@ Une vérification de la cohérence de la base de données et des schémas est é
 
 ### Option de restauration {#restoration-option}
 
-Cette option permet de restaurer les objets d&#39;usine dans le cas où ceux-ci auraient été modifiés. Pour chaque objet restauré, une sauvegarde de vos modifications est conservée dans le dossier choisi :
+Cette option permet de restaurer les objets d&#39;usine dans le cas où ceux-ci auraient été modifiés. Pour chaque objet restauré, une sauvegarde de vos modifications est conservée dans le dossier choisi :
 
 ```
 nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instanceName>

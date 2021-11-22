@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Création d'une newsletter Experience Manager
-description: Création d'une newsletter Experience Manager
+title: Création d'une newsletter Experience Manager
+description: Création d'une newsletter Experience Manager
 audience: integrations
 content-type: reference
 exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
@@ -12,17 +12,17 @@ ht-degree: 100%
 
 ---
 
-# Création d&#39;une newsletter Experience Manager{#creating-an-experience-manager-newsletter}
+# Création d&#39;une newsletter Experience Manager{#creating-an-experience-manager-newsletter}
 
 ![](../../assets/common.svg)
 
-Cette intégration peut être utilisée, par exemple, pour créer une newsletter dans Adobe Experience Manager, qui sera ensuite utilisée dans le cadre d&#39;une campagne email dans Adobe Campaign.
+Cette intégration peut être utilisée, par exemple, pour créer une newsletter dans Adobe Experience Manager, qui sera ensuite utilisée dans le cadre d&#39;une campagne email dans Adobe Campaign.
 
 Pour obtenir un exemple plus détaillé de l&#39;utilisation de cette intégration, consultez ce [guide pas à pas](https://helpx.adobe.com/fr/campaign/kb/acc-aem.html).
 
-**Depuis Adobe Experience Manager :**
+**Depuis Adobe Experience Manager :**
 
-1. Depuis votre instance de création AEM, cliquez sur le logo **Adobe Experience** en haut à gauche de la page, puis sélectionnez **[!UICONTROL Sites]**.
+1. Depuis votre instance de création AEM, cliquez sur le logo **Adobe Experience** en haut à gauche de la page, puis sélectionnez **[!UICONTROL Sites]**.
 
    ![](assets/aem_uc_1.png)
 
@@ -31,25 +31,25 @@ Pour obtenir un exemple plus détaillé de l&#39;utilisation de cette intégrati
 
    ![](assets/aem_uc_2.png)
 
-1. Sélectionnez le modèle **[!UICONTROL Adobe Campaign Email (AC 6.1)]** et attribuez un nom à votre newsletter.
+1. Sélectionnez le modèle **[!UICONTROL Adobe Campaign Email (AC 6.1)]** et attribuez un nom à votre newsletter.
 1. Une fois votre page créée, accédez au menu **[!UICONTROL Informations sur la page]**, puis cliquez sur **[!UICONTROL Ouvrir les propriétés]**.
 
    ![](assets/aem_uc_3.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Services Cloud]**, sélectionnez **[!UICONTROL Adobe Campaign]** en tant que **[!UICONTROL Configurations du service Cloud]** et votre instance Adobe Campaign dans la seconde liste déroulante.
+1. Dans l&#39;onglet **[!UICONTROL Services Cloud]**, sélectionnez **[!UICONTROL Adobe Campaign]** en tant que **[!UICONTROL Configurations du service Cloud]** et votre instance Adobe Campaign dans la seconde liste déroulante.
 
    ![](assets/aem_uc_4.png)
 
-1. Editez le contenu de votre email en ajoutant des composants, par exemple des champs de personnalisation depuis Adobe Campaign.
+1. Editez le contenu de votre email en ajoutant des composants, par exemple des champs de personnalisation depuis Adobe Campaign.
 1. Lorsque votre email est prêt, accédez au menu **[!UICONTROL Informations sur la page]**, puis cliquez sur **[!UICONTROL Démarrer le flux de travail]**.
 
    ![](assets/aem_uc_5.png)
 
-1. Dans la première liste déroulante, sélectionnez **[!UICONTROL Publier dans Adobe Campaign]** en tant que modèle de workflow, puis cliquez sur **[!UICONTROL Démarrer le flux de travail]**.
+1. Dans la première liste déroulante, sélectionnez **[!UICONTROL Publier dans Adobe Campaign]** en tant que modèle de workflow, puis cliquez sur **[!UICONTROL Démarrer le flux de travail]**.
 
    ![](assets/aem_uc_6.png)
 
-1. Comme à l&#39;étape précédente, lancez ensuite le workflow **[!UICONTROL Approuver pour Adobe Campaign]**.
+1. Comme à l&#39;étape précédente, lancez ensuite le workflow **[!UICONTROL Approuver pour Adobe Campaign]**.
 1. Une clause d&#39;exclusion de responsabilité apparaît en haut de la page. Cliquez sur **[!UICONTROL Terminé]** pour confirmer la consultation, puis cliquez sur **[!UICONTROL OK]**.
 
    ![](assets/aem_uc_7.png)
@@ -58,9 +58,9 @@ Pour obtenir un exemple plus détaillé de l&#39;utilisation de cette intégrati
 
    ![](assets/aem_uc_8.png)
 
-Votre newsletter est maintenant prête et synchronisée dans Adobe Campaign.
+Votre newsletter est maintenant prête et synchronisée dans Adobe Campaign.
 
-**Depuis Adobe Campaign :**
+**Depuis Adobe Campaign :**
 
 1. Dans l&#39;onglet **[!UICONTROL Campagnes]**, cliquez sur **[!UICONTROL Diffusions]** et sur **[!UICONTROL Créer]**.
 
@@ -77,7 +77,7 @@ Votre newsletter est maintenant prête et synchronisée dans Adobe Campaign.
 
    ![](assets/aem_uc_11.png)
 
-1. Sélectionnez la diffusion ayant été précédemment créée dans Adobe Experience Manager, puis cliquez sur **[!UICONTROL OK]**.
+1. Sélectionnez la diffusion ayant été précédemment créée dans Adobe Experience Manager, puis cliquez sur **[!UICONTROL OK]**.
 1. Cliquez sur le bouton **[!UICONTROL Rafraîchir le contenu]** dès que des modifications sont apportées à votre diffusion AEM.
 
    ![](assets/aem_uc_12.png)

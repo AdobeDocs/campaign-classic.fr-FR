@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Stocker les réponses collectées {#storing-collected-answers}
 
-En complément des modes de stockage standard communs à tous les formulaires Web sous Adobe Campaign (champ de la base et variable locale), les questionnaires permettent l&#39;extension dynamique du modèle de données au travers de champs archivés.
+En complément des modes de stockage standard communs à tous les formulaires Web sous Adobe Campaign (champ de la base et variable locale), les questionnaires permettent l&#39;extension dynamique du modèle de données au travers de champs archivés.
 
 >[!CAUTION]
 >
@@ -27,7 +27,7 @@ En complément des modes de stockage standard communs à tous les formulaires We
 
 ### Stocker les réponses dans un champ archivé {#storing-in-an-archived-field}
 
-Vous pouvez facilement étendre le modèle de données en ajoutant de nouveaux espaces de stockage pour enregistrer les réponses fournies dans les questionnaires. Vous devez pour cela choisir l&#39;option **[!UICONTROL Stocker les réponses à une question]** lors de la création du champ de saisie. Cliquez sur le lien **[!UICONTROL Nouveau champ...]** et indiquez ses propriétés :
+Vous pouvez facilement étendre le modèle de données en ajoutant de nouveaux espaces de stockage pour enregistrer les réponses fournies dans les questionnaires. Vous devez pour cela choisir l&#39;option **[!UICONTROL Stocker les réponses à une question]** lors de la création du champ de saisie. Cliquez sur le lien **[!UICONTROL Nouveau champ...]** et indiquez ses propriétés :
 
 ![](assets/s_ncs_admin_survey_new_space.png)
 
@@ -39,17 +39,17 @@ Pour ajouter une contrainte, sélectionnez-la dans la liste déroulante. Deux ty
 
 1. Sur la casse des caractères
 
-   Les informations saisies peuvent être stockées dans le champ dans les formats suivants : tout en majuscule, tout en minuscule ou avec la première lettre en majuscule. Cette contrainte n&#39;oblige pas l&#39;utilisateur à saisir les informations dans le format choisi, mais le contenu saisi dans le champ sera transformé lors de l&#39;enregistrement.
+   Les informations saisies peuvent être stockées dans le champ dans les formats suivants : tout en majuscule, tout en minuscule ou avec la première lettre en majuscule. Cette contrainte n&#39;oblige pas l&#39;utilisateur à saisir les informations dans le format choisi, mais le contenu saisi dans le champ sera transformé lors de l&#39;enregistrement.
 
 1. Sur le format des données saisies
 
 Si ce champ est utilisé dans une liste, les valeurs de l’énumération pourront être récupérées automatiquement dans le tableau des valeurs à partir du lien **[!UICONTROL Initialiser la liste des valeurs depuis la base de données]** situé au-dessus de la liste des valeurs.
 
-Par exemple, vous pouvez créer une liste déroulante afin que l&#39;utilisateur sélectionne sa langue maternelle. Le champ archivé correspondant peut être associé à l&#39;énumération **language** qui contient une liste de langues :
+Par exemple, vous pouvez créer une liste déroulante afin que l&#39;utilisateur sélectionne sa langue maternelle. Le champ archivé correspondant peut être associé à l&#39;énumération **language** qui contient une liste de langues :
 
 ![](assets/s_ncs_admin_survey_database_values_2b.png)
 
-L&#39;icône **[!UICONTROL Editer le lien]** située à droite du champ permet d&#39;éditer le contenu de cette énumération :
+L&#39;icône **[!UICONTROL Editer le lien]** située à droite du champ permet d&#39;éditer le contenu de cette énumération :
 
 ![](assets/s_ncs_admin_survey_database_values_2c.png)
 
@@ -57,7 +57,7 @@ Dans l&#39;onglet **[!UICONTROL Général]** du champ, le lien **[!UICONTROL Ini
 
 ![](assets/s_ncs_admin_survey_database_values_2.png)
 
-**Exemple** : stocker tous les contrats d&#39;un destinataire dans un même champ
+**Exemple** : stocker tous les contrats d&#39;un destinataire dans un même champ
 
 Pour stocker les types de contrats d&#39;un utilisateur dans un même champ, créez un champ de saisie de type **[!UICONTROL Texte]** et sélectionnez l&#39;option **[!UICONTROL Stocker les réponses à une question]**.
 
@@ -71,7 +71,7 @@ Créez les champs de saisie des autres contrats, et stockez les informations dan
 
 Lorsque l&#39;utilisateur valide le questionnaire, ses réponses sont stockées dans le champ **[!UICONTROL Contrats]**.
 
-Dans notre exemple, pour les réponses suivantes :
+Dans notre exemple, pour les réponses suivantes :
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex3.png)
 
@@ -89,7 +89,7 @@ Construisez votre requête en fonction des profils à récupérer. Dans l&#39;ex
 
 ![](assets/s_ncs_admin_survey_read_responses_edit.png)
 
-Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans les champs ou les libellés. La syntaxe à utiliser pour un contenu stocké dans un champ archivé est la suivante :
+Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans les champs ou les libellés. La syntaxe à utiliser pour un contenu stocké dans un champ archivé est la suivante :
 
 ```
 <%= ctx.webAppLogRcpData.name of the archived field %
@@ -114,7 +114,7 @@ Pour cela :
 
 ![](assets/s_ncs_admin_survey_xml_archive_option.png)
 
-Vous pouvez l&#39;activer par défaut pour tous les questionnaires (cette option est appliquée à la publication du questionnaire). Pour cela, créez l&#39;option **[!UICONTROL NmsWebApp_XmlBackup]** et attribuez-lui la valeur **[!UICONTROL 1]**, comme ci-dessous :
+Vous pouvez l&#39;activer par défaut pour tous les questionnaires (cette option est appliquée à la publication du questionnaire). Pour cela, créez l&#39;option **[!UICONTROL NmsWebApp_XmlBackup]** et attribuez-lui la valeur **[!UICONTROL 1]**, comme ci-dessous :
 
 ![](assets/s_ncs_admin_survey_xml_global_option.png)
 
@@ -136,19 +136,19 @@ Les scores peuvent être utilisés dans des tests et dans des scripts.
 >
 >Vous ne pouvez pas utiliser le score dans les conditions de visibilité pour les champs d&#39;une même page. Le score peut être utilisé dans les pages suivantes.
 
-* Pour utiliser les scores dans des tests, vous devez utiliser le champ **[!UICONTROL Score]** dans la formule de calcul du test, comme dans l&#39;exemple ci-dessous :
+* Pour utiliser les scores dans des tests, vous devez utiliser le champ **[!UICONTROL Score]** dans la formule de calcul du test, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_ncs_admin_survey_score_in_a_test.png)
 
 * Vous pouvez utiliser le score dans un script.
 
-**Exemple** : calculer un score et conditionner l&#39;affichage de la page suivante :
+**Exemple** : calculer un score et conditionner l&#39;affichage de la page suivante :
 
-* Dans un questionnaire, la page suivante permet d&#39;attribuer un score différent à l&#39;utilisateur en fonction de la valeur sélectionnée dans la liste déroulante :
+* Dans un questionnaire, la page suivante permet d&#39;attribuer un score différent à l&#39;utilisateur en fonction de la valeur sélectionnée dans la liste déroulante :
 
    ![](assets/s_ncs_admin_survey_score_exa.png)
 
-* Vous pouvez cumuler ce score avec une seconde valeur, en fonction de l&#39;option sélectionnée :
+* Vous pouvez cumuler ce score avec une seconde valeur, en fonction de l&#39;option sélectionnée :
 
    ![](assets/s_ncs_admin_survey_score_exb.png)
 
@@ -156,7 +156,7 @@ Les scores peuvent être utilisés dans des tests et dans des scripts.
 
    ![](assets/s_ncs_admin_survey_score_exe.png)
 
-* Il est possible de conditionner la page à afficher en fonction du score. Le paramétrage sera le suivant :
+* Il est possible de conditionner la page à afficher en fonction du score. Le paramétrage sera le suivant :
 
    ![](assets/s_ncs_admin_survey_score_exd.png)
 

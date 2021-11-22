@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Une opération locale est une instance d&#39;opération créée à partir d&#39;un modèle d&#39;opération référencé dans la liste des **[!UICONTROL kits d&#39;opération]** avec un **planning d&#39;exécution spécifique** à chaque commande de l&#39;entité locale. L&#39;objectif est de répondre à un besoin local de communication en utilisant un modèle d&#39;opération formalisé et paramétré par l&#39;entité centrale. Les grandes étapes de la mise en oeuvre d&#39;une opération locale sont les suivantes :
+Une opération locale est une instance d&#39;opération créée à partir d&#39;un modèle d&#39;opération référencé dans la liste des **[!UICONTROL kits d&#39;opération]** avec un **planning d&#39;exécution spécifique** à chaque commande de l&#39;entité locale. L&#39;objectif est de répondre à un besoin local de communication en utilisant un modèle d&#39;opération formalisé et paramétré par l&#39;entité centrale. Les grandes étapes de la mise en oeuvre d&#39;une opération locale sont les suivantes :
 
 **Pour l&#39;entité centrale**
 
@@ -57,9 +57,9 @@ Sélectionnez le type d’interface web à appliquer aux opérations créées à
 
 ![](assets/mkt_distr_1.png)
 
-Quatre types d’interface web sont disponibles :
+Quatre types d’interface web sont disponibles :
 
-* **[!UICONTROL Par brief]** : l’entité locale doit éditer un brief où elle peut saisir la description des paramètres de l’opération. Une fois la commande validée, l’entité centrale paramètre et exécute l’intégralité de l’opération.
+* **[!UICONTROL Par brief]** : l’entité locale doit éditer un brief où elle peut saisir la description des paramètres de l’opération. Une fois la commande validée, l’entité centrale paramètre et exécute l’intégralité de l’opération.
 
    ![](assets/mkt_distr_6.png)
 
@@ -75,8 +75,8 @@ Quatre types d’interface web sont disponibles :
 
    ![](assets/mkt_distr_7.png)
 
-* **[!UICONTROL Par formulaire externe]** : l&#39;entité locale a accès aux paramètres de la campagne dans son extranet (non Adobe Campaign). Ces paramètres sont identiques à ceux d&#39;une **opération locale par formulaire**.
-* **[!UICONTROL Simple]** : l&#39;entité locale commande l&#39;opération en utilisant le formulaire par défaut, sans la localiser.
+* **[!UICONTROL Par formulaire externe]** : l&#39;entité locale a accès aux paramètres de la campagne dans son extranet (non Adobe Campaign). Ces paramètres sont identiques à ceux d&#39;une **opération locale par formulaire**.
+* **[!UICONTROL Simple]** : l&#39;entité locale commande l&#39;opération en utilisant le formulaire par défaut, sans la localiser.
 
    ![](assets/mkt_distr_5.png)
 
@@ -111,7 +111,7 @@ Vous pouvez permettre aux opérateurs de l&#39;entité locale d&#39;associer des
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 
-Lors de la commande d&#39;un kit d&#39;opération, le formulaire propose d&#39;associer autant de documents qu&#39;indiqué dans le champ correspondant du modèle :
+Lors de la commande d&#39;un kit d&#39;opération, le formulaire propose d&#39;associer autant de documents qu&#39;indiqué dans le champ correspondant du modèle :
 
 ![](assets/s_advuser_mkg_dist_add_docs.png)
 
@@ -143,7 +143,7 @@ L&#39;icône **[!UICONTROL Planification]** vous permet de paramétrer la date d
 
 ![](assets/mkg_dist_local_op_creation4d.png)
 
-Au besoin, paramétrez la taille maximale de la diffusion :
+Au besoin, paramétrez la taille maximale de la diffusion :
 
 ![](assets/mkg_dist_local_op_creation4e.png)
 
@@ -186,7 +186,7 @@ La date de disponibilité est la date à partir de laquelle l&#39;opération est
 >
 >Si une entité locale n&#39;a pas réservé l&#39;opération avant la date limite d&#39;inscription, elle ne pourra pas y participer.
 
-Ces informations sont accessibles depuis le mail de notification adressé aux agences locales, comme dans l&#39;exemple ci-dessous :
+Ces informations sont accessibles depuis le mail de notification adressé aux agences locales, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_advuser_mkg_dist_local_notif.png)
 
@@ -202,7 +202,7 @@ Lorsque le kit est enregistré, l&#39;entité centrale peut l&#39;éditer depuis
 
 ![](assets/mkg_dist_edit_kit.png)
 
-Depuis l&#39;onglet **[!UICONTROL Général]**, l&#39;entité centrale peut :
+Depuis l&#39;onglet **[!UICONTROL Général]**, l&#39;entité centrale peut :
 
 * paramétrer le ou les validants du kit d&#39;opération depuis le lien **[!UICONTROL Paramètres de validation...]**,
 * revoir le planning de réalisation,
@@ -232,9 +232,9 @@ Une fois validés et leur période de réalisation débutée, les kits d&#39;op�
 
 Pour utiliser une opération proposée par l&#39;entité centrale, l&#39;entité locale doit la commander.
 
-Pour commander une opération :
+Pour commander une opération :
 
-1. Cliquez sur lien **[!UICONTROL Commander l&#39;opération]** dans le message de notification, ou sur le bouton correspondant dans la console Adobe Campaign.
+1. Cliquez sur lien **[!UICONTROL Commander l&#39;opération]** dans le message de notification, ou sur le bouton correspondant dans la console Adobe Campaign.
 
    Saisissez votre identifiant et votre mot de passe pour procéder à la commande. L&#39;interface de saisie des paramétrages se compose d&#39;un ensemble de pages définies dans une application Web.
 
@@ -252,15 +252,15 @@ Pour commander une opération :
 
    ![](assets/mkg_dist_subscribe_step3.png)
 
-1. L&#39;information est remontée au niveau de l&#39;entité locale et de l&#39;entité centrale. Si chaque entité locale ne voit que ses commandes, l&#39;entité centrale peut visualiser toutes les commandes de toutes les entités locales, comme ci-dessous :
+1. L&#39;information est remontée au niveau de l&#39;entité locale et de l&#39;entité centrale. Si chaque entité locale ne voit que ses commandes, l&#39;entité centrale peut visualiser toutes les commandes de toutes les entités locales, comme ci-dessous :
 
    ![](assets/mkg_dist_subscribe_central_view.png)
 
-   Les opérateurs peuvent afficher le détail de la commande :
+   Les opérateurs peuvent afficher le détail de la commande :
 
    ![](assets/mkg_dist_local_op_catalog_detail_1.png)
 
-   L&#39;onglet **[!UICONTROL Edition]** contient les informations renseignées par l&#39;entité locale lors de la commande :
+   L&#39;onglet **[!UICONTROL Edition]** contient les informations renseignées par l&#39;entité locale lors de la commande :
 
    ![](assets/mkg_dist_local_op_catalog_detail_1b.png)
 
@@ -290,7 +290,7 @@ La vue d’ensemble **[!UICONTROL Commandes des campagnes]**, accessible à part
 
 #### Notification par email {#email-notification}
 
-Lorsqu&#39;une commande d&#39;opération est effectuée par une entité locale, les opérateurs validants de cette entité sont notifiés par email, comme dans l&#39;exemple ci-dessous :
+Lorsqu&#39;une commande d&#39;opération est effectuée par une entité locale, les opérateurs validants de cette entité sont notifiés par email, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/mkg_dist_valid_notif_email.png)
 
@@ -300,7 +300,7 @@ Lorsqu&#39;une commande d&#39;opération est effectuée par une entité locale, 
 
 ![](assets/mkg_dist_command_valid_web.png)
 
-#### Validation via la console Adobe Campaign {#approving-via-the-adobe-campaign-console}
+#### Validation via la console Adobe Campaign {#approving-via-the-adobe-campaign-console}
 
 La commande peut également être validée à partir de la console, depuis la vue d&#39;ensemble des commandes d&#39;opérations. Pour valider une commande, sélectionnez-la puis cliquez sur le bouton **[!UICONTROL Valider la commande]**.
 
@@ -324,9 +324,9 @@ L&#39;opérateur validant peut refuser la validation d&#39;un kit d&#39;opérati
 
 ![](assets/mkg_dist_do_not_valid.png)
 
-Si l&#39;opérateur validant refuse une commande, la notification correspondante est automatiquement envoyée aux entités locales concernées : elle affiche le commentaire saisi par l&#39;opérateur ayant refusé la validation.
+Si l&#39;opérateur validant refuse une commande, la notification correspondante est automatiquement envoyée aux entités locales concernées : elle affiche le commentaire saisi par l&#39;opérateur ayant refusé la validation.
 
-L&#39;information est affichée dans la liste des kits d&#39;opération ou dans celle des commandes d&#39;opérations. Lorsqu&#39;elles ont accès à la console Adobe Campaign, les entités locales peuvent ainsi être informées de ce refus.
+L&#39;information est affichée dans la liste des kits d&#39;opération ou dans celle des commandes d&#39;opérations. Lorsqu&#39;elles ont accès à la console Adobe Campaign, les entités locales peuvent ainsi être informées de ce refus.
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 

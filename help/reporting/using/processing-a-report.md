@@ -29,11 +29,11 @@ L&#39;option **[!UICONTROL Partager ce rapport]** rend le rapport accessible à 
 
 ![](assets/s_ncs_user_report_wizard_010.png)
 
-Une fois enregistré, ce rapport peut être réutilisé pour générer d&#39;autres rapports d&#39;analyse :
+Une fois enregistré, ce rapport peut être réutilisé pour générer d&#39;autres rapports d&#39;analyse :
 
 ![](assets/s_ncs_user_report_wizard_08a.png)
 
-Pour modifier ce rapport, éditez le nœud **[!UICONTROL Administration > Paramétrage > Rapports]** de l’arborescence d’Adobe Campaign (ou le premier dossier de type « Rapports » sur lequel l’opérateur a des droits en écriture). Voir à ce sujet la section [Mettre en page un rapport d&#39;analyse descriptive](#configuring-the-layout-of-a-descriptive-analysis-report).
+Pour modifier ce rapport, éditez le nœud **[!UICONTROL Administration > Paramétrage > Rapports]** de l’arborescence d’Adobe Campaign (ou le premier dossier de type « Rapports » sur lequel l’opérateur a des droits en écriture). Voir à ce sujet la section [Mettre en page un rapport d&#39;analyse descriptive](#configuring-the-layout-of-a-descriptive-analysis-report).
 
 ## Paramétrages additionnels d&#39;un rapport d&#39;analyse {#analysis-report-additional-settings}
 
@@ -45,7 +45,7 @@ Ces options sont communes avec celles des rapports standards. Elles sont présen
 
 ## Mettre en page un rapport d&#39;analyse descriptive {#configuring-the-layout-of-a-descriptive-analysis-report}
 
-Vous pouvez personnaliser l&#39;affichage et la disposition de vos données dans les graphiques et les tableaux d&#39;analyse descriptive. Toutes les options sont disponibles depuis l&#39;arborescence d&#39;Adobe Campaign, dans l&#39;onglet **[!UICONTROL Edition]** de chaque rapport.
+Vous pouvez personnaliser l&#39;affichage et la disposition de vos données dans les graphiques et les tableaux d&#39;analyse descriptive. Toutes les options sont disponibles depuis l&#39;arborescence d&#39;Adobe Campaign, dans l&#39;onglet **[!UICONTROL Edition]** de chaque rapport.
 
 ### Mode d&#39;affichage du rapport d&#39;analyse {#analysis-report-display-mode}
 
@@ -79,13 +79,13 @@ Par défaut les statistiques sont affichées en ligne. Pour modifier l&#39;orien
 
 ![](assets/s_ncs_advuser_report_wizard_035a.png)
 
-Dans l&#39;exemple ci-dessous, les statistiques sont affichées en colonnes :
+Dans l&#39;exemple ci-dessous, les statistiques sont affichées en colonnes :
 
 ![](assets/s_ncs_advuser_report_wizard_035.png)
 
 ### Disposition des données dans un rapport d&#39;analyse {#analysis-report-data-layout}
 
-Vous pouvez personnaliser la disposition des données directement dans les tableaux d&#39;analyse descriptive. Pour cela, cliquez avec le bouton droit de la souris sur la variable qui vous intéresse. Choisissez les options disponibles dans le menu contextuel :
+Vous pouvez personnaliser la disposition des données directement dans les tableaux d&#39;analyse descriptive. Pour cela, cliquez avec le bouton droit de la souris sur la variable qui vous intéresse. Choisissez les options disponibles dans le menu contextuel :
 
 * **[!UICONTROL Pivoter]** pour changer la variable sélectionnée d&#39;axe.
 * **[!UICONTROL Monter]** / **[!UICONTROL Descendre]** pour intervertir les variables qui se trouvent en ligne.
@@ -104,12 +104,12 @@ Vous pouvez personnaliser l&#39;affichage des données du graphique. Pour cela, 
 
 ![](assets/s_ncs_advuser_report_wizard_3c.png)
 
-Les options disponibles sont les suivantes :
+Les options disponibles sont les suivantes :
 
 * La section supérieure de la fenêtre permet de modifier la zone d&#39;affichage du graphique.
 * Par défaut, les libellés sont affichés dans le graphique. Vous pouvez les masquer en décochant l&#39;option **[!UICONTROL Afficher les valeurs]**.
 * L&#39;option **[!UICONTROL Cumuler les valeurs]** permet d&#39;additionner les différentes valeurs retournées d&#39;une série à l&#39;autre.
-* Vous pouvez choisir d&#39;afficher ou non la légende du graphe : pour ne pas afficher de légende, désélectionnez l&#39;option correspondante. Par défaut, la légende est affichée en haut à droite, à l&#39;extérieur du graphe.
+* Vous pouvez choisir d&#39;afficher ou non la légende du graphe : pour ne pas afficher de légende, désélectionnez l&#39;option correspondante. Par défaut, la légende est affichée en haut à droite, à l&#39;extérieur du graphe.
 
    La légende peut également être positionnée dans le graphe afin d&#39;optimiser au maximum la zone d&#39;affichage. Pour cela, sélectionnez l&#39;option **[!UICONTROL Inclure dans le graphe]**.
 
@@ -127,7 +127,7 @@ Voir à ce propos [cette page](../../reporting/using/actions-on-reports.md).
 
 ## Ré-utiliser des analyses et rapports existants {#re-using-existing-reports-and-analyses}
 
-Vous pouvez créer des rapports d&#39;analyse descriptive sur les données à partir de rapports existants, déjà enregistrés dans Adobe Campaign. Ce mode d&#39;utilisation est possible lorsque des analyses ont été enregistrées ou lorsque des rapports ont été créés et paramétrés pour être accessibles depuis l&#39;assistant d&#39;analyse descriptive.
+Vous pouvez créer des rapports d&#39;analyse descriptive sur les données à partir de rapports existants, déjà enregistrés dans Adobe Campaign. Ce mode d&#39;utilisation est possible lorsque des analyses ont été enregistrées ou lorsque des rapports ont été créés et paramétrés pour être accessibles depuis l&#39;assistant d&#39;analyse descriptive.
 
 Pour découvrir comment enregistrer des analyses descriptives, consultez [Sauvegarder un rapport d’analyse](#saving-an-analysis-report).
 
@@ -142,10 +142,10 @@ Pour créer des rapports d&#39;analyse descriptive, l&#39;assistant d&#39;analys
 
 Lorsque vous créez une analyse descriptive à partir d&#39;une analyse existante, vous avez la possibilité de créer des historiques afin de sauvegarder les données d&#39;une analyse à l&#39;autre et comparer les résultats de vos rapports.
 
-Pour créer un historique, les étapes sont les suivantes :
+Pour créer un historique, les étapes sont les suivantes :
 
 1. Ouvrez une analyse existante ou créez un nouveau rapport d&#39;analyse descriptive.
-1. Dans la page d&#39;affichage du rapport, cliquez sur le bouton de création d&#39;un historique dans la barre d&#39;outils, et confirmer votre choix, comme dans l&#39;exemple ci-dessous :
+1. Dans la page d&#39;affichage du rapport, cliquez sur le bouton de création d&#39;un historique dans la barre d&#39;outils, et confirmer votre choix, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/reporting_descriptive_historize_icon.png)
 

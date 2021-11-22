@@ -18,14 +18,14 @@ ht-degree: 100%
 ![](../../assets/v7-only.svg)
 
 Il est possible de changer ou de récupérer un mot de passe perdu.
-Deux cas sont possibles :
+Deux cas sont possibles :
 
-* [Perte du mot de passe d&#39;un opérateur Adobe Campaign](#password-lost-by-campaign-operator)
+* [Perte du mot de passe d&#39;un opérateur Adobe Campaign](#password-lost-by-campaign-operator)
 * [Perte du mot de passe interne](#internal-password-lost) (clients on-premise uniquement)
 
 ## Mot de passe perdu par un opérateur Campaign {#password-lost-by-campaign-operator}
 
-Si un opérateur Adobe Campaign perd son mot de passe, vous pouvez le changer.
+Si un opérateur Adobe Campaign perd son mot de passe, vous pouvez le changer.
 Pour ce faire, procédez comme suit :
 
 1. Connectez-vous via un opérateur disposant des droits d’administrateur.
@@ -53,9 +53,9 @@ En cas de perte du mot de passe interne, vous devez le réinitialiser. Pour cela
    <xtk internalPassword="myPassword"/>
    ```
 
-1. Supprimez la chaîne entre guillemets, ici par exemple : **myPassword**
+1. Supprimez la chaîne entre guillemets, ici par exemple : **myPassword**
 
-   Vous obtenez ainsi la ligne suivante :
+   Vous obtenez ainsi la ligne suivante :
 
    ```
    !-- XTK authentication mode internalPassword : Password of internal account -->
@@ -64,7 +64,7 @@ En cas de perte du mot de passe interne, vous devez le réinitialiser. Pour cela
 
 1. Enregistrez les modifications et fermez le fichier.
 
-1. Paramétrez ensuite le nouveau mot de passe. Pour cela, saisissez les commandes suivantes :
+1. Paramétrez ensuite le nouveau mot de passe. Pour cela, saisissez les commandes suivantes :
 
    ```
    nlserver config -internalpassword

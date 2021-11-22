@@ -17,14 +17,14 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-La liste des tables à maintenir dépend de votre version d&#39;Adobe Campaign, de l&#39;utilisation que vous en faites et de la configuration du modèle de données.
+La liste des tables à maintenir dépend de votre version d&#39;Adobe Campaign, de l&#39;utilisation que vous en faites et de la configuration du modèle de données.
 
-Dans la liste qui suit, ne sont mentionnées que les tables les plus sujettes à la fragmentation. Les impacts sont les suivants :
+Dans la liste qui suit, ne sont mentionnées que les tables les plus sujettes à la fragmentation. Les impacts sont les suivants :
 
 * une surconsommation de l&#39;espace-disque qui impacte les performances d&#39;accès à la base,
 * des index qui n&#39;ont pas été mis à jour depuis longtemps ce qui ralentit le temps de réponse des requêtes.
 
-## Tables Adobe Campaign {#adobe-campaign-tables}
+## Tables Adobe Campaign {#adobe-campaign-tables}
 
 <table> 
  <thead> 
@@ -64,7 +64,7 @@ Dans la liste qui suit, ne sont mentionnées que les tables les plus sujettes à
    <td> NmsAddress<br /> </td> 
    <td> Volume moyen<br /> </td> 
    <td> Mises à jour, Insertions<br /> </td> 
-   <td> Cette table contient les informations propres aux adresses email. Elle est fréquemment mise à jour lors du processus de mise en quarantaine : les enregistrements sont créés lors de la première erreur de diffusion, mis à jour lorsque les compteurs sont modifiés puis supprimés lorsque la diffusion parvient à l'adresse spécifiée. <br /> </td> 
+   <td> Cette table contient les informations propres aux adresses email. Elle est fréquemment mise à jour lors du processus de mise en quarantaine : les enregistrements sont créés lors de la première erreur de diffusion, mis à jour lorsque les compteurs sont modifiés puis supprimés lorsque la diffusion parvient à l'adresse spécifiée. <br /> </td> 
   </tr> 
   <tr> 
    <td> XtkWorkflow<br /> </td> 
@@ -203,4 +203,4 @@ Dans la liste qui suit, ne sont mentionnées que les tables les plus sujettes à
 
 ## Tables Clients {#customer-tables}
 
-Les tables créées par les clients (qui n&#39;existent pas dans le modèle de données d&#39;Adobe Campaign) lors de la mise en place de la plateforme sont également sujettes à la fragmentation. C&#39;est le cas notamment lorsqu&#39;elles sont fréquemment mises à jour lors de chargements de données ou de procédures de synchronisation. Ces tables peuvent faire partie du modèle de données d&#39;Adobe Campaign (comme **NmsRecipient** par exemple). C&#39;est donc à l&#39;administrateur de la plateforme Adobe Campaign de rechercher l&#39;existence de ces tables spécifiques dans le modèle de données. Il se peut que ces tables ne soient pas explicitement mentionnées dans les procédures de maintenance.
+Les tables créées par les clients (qui n&#39;existent pas dans le modèle de données d&#39;Adobe Campaign) lors de la mise en place de la plateforme sont également sujettes à la fragmentation. C&#39;est le cas notamment lorsqu&#39;elles sont fréquemment mises à jour lors de chargements de données ou de procédures de synchronisation. Ces tables peuvent faire partie du modèle de données d&#39;Adobe Campaign (comme **NmsRecipient** par exemple). C&#39;est donc à l&#39;administrateur de la plateforme Adobe Campaign de rechercher l&#39;existence de ces tables spécifiques dans le modèle de données. Il se peut que ces tables ne soient pas explicitement mentionnées dans les procédures de maintenance.

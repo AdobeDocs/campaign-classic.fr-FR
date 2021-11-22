@@ -13,7 +13,7 @@ ht-degree: 35%
 
 ---
 
-# Utilisation de Campaign et Target{#integrating-with-adobe-target}
+# Utilisation de Campaign et  Target{#integrating-with-adobe-target}
 
 ![](../../assets/common.svg)
 
@@ -28,8 +28,8 @@ L’intégration a lieu à l’ouverture de l’email. Lorsque le client ouvre l
 >
 >L&#39;intégration supporte uniquement les images statiques. Le reste du contenu n&#39;est pas personnalisable.
 
-Plusieurs types de données peuvent être exploités par Adobe Target :
+Plusieurs types de données peuvent être exploités par Adobe Target :
 
-* données provenant du datamart Adobe Campaign ;
-* segments associés à l&#39;identifiant visiteur dans Adobe Target, si les données utilisées ne sont pas soumises à des limitations légales ;
-* Données Adobe Target : agent utilisateur, adresse IP, données de géolocalisation
+* données provenant du datamart Adobe Campaign ;
+* segments associés à l&#39;identifiant visiteur dans Adobe Target, si les données utilisées ne sont pas soumises à des limitations légales ;
+* Données Adobe Target : agent utilisateur, adresse IP, données de géolocalisation

@@ -19,20 +19,20 @@ ht-degree: 100%
 
 La sauvegarde est une opération primordiale afin de ne pas perdre de données en cas de problème (physique ou système) sur une machine.
 
-Les données sont stockées dans deux endroits distincts :
+Les données sont stockées dans deux endroits distincts :
 
-* des fichiers physiques sont stockés dans les répertoires d&#39;Adobe Campaign,
+* des fichiers physiques sont stockés dans les répertoires d&#39;Adobe Campaign,
 * les autres données sont stockées dans la base de données.
 
 La grande majorité des données se trouve dans la base. Elle représente 99% de l&#39;espace des données sauvegardées.
 
 ## Les fichiers physiques {#physical-files}
 
-Ces fichiers sont répartis en plusieurs catégories :
+Ces fichiers sont répartis en plusieurs catégories :
 
 * Les fichiers de configuration situés dans **nl6/conf**
 
-   Ils permettent de reparamétrer Adobe Campaign très rapidement.
+   Ils permettent de reparamétrer Adobe Campaign très rapidement.
 
 * Les fichiers de redirection ** nl6/var/`<instancename>`/redir**
 
@@ -42,7 +42,7 @@ Ces fichiers sont répartis en plusieurs catégories :
 
    Ils peuvent être utilisés afin de tracer des problèmes.
 
-Les répertoires à sauvegarder sont donc :
+Les répertoires à sauvegarder sont donc :
 
 * nl6/conf
 
@@ -58,6 +58,6 @@ Les répertoires à sauvegarder sont donc :
 
 ## Base de données {#database}
 
-La base de données contient toutes les informations affichées dans la console cliente riche Adobe Campaign, ainsi que toutes les données métiers.
+La base de données contient toutes les informations affichées dans la console cliente riche Adobe Campaign, ainsi que toutes les données métiers.
 
 Cette opération est à la charge de votre hébergeur, et plus particulièrement de leurs administrateurs de bases de données.

@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Les opérateurs Adobe Campaign peuvent échanger des informations via les forums de discussion. Les éléments suivants ont chacun leur propre forum : plans, programmes, opérations, ressources, simulations, stocks. Chaque opérateur a également un forum personnel. Toutes les discussions sont publiques, même celles sur les forums personnels des opérateurs.
+Les opérateurs Adobe Campaign peuvent échanger des informations via les forums de discussion. Les éléments suivants ont chacun leur propre forum : plans, programmes, opérations, ressources, simulations, stocks. Chaque opérateur a également un forum personnel. Toutes les discussions sont publiques, même celles sur les forums personnels des opérateurs.
 
 Les opérateurs peuvent s&#39;abonner à des forums afin de recevoir un email de notification à chaque message posté dans ceux-ci.
 
@@ -51,16 +51,16 @@ Lorsque vous répondez à un message, la personne ayant posté le message auquel
 
 **Rédiger un message**
 
-Dans la boîte **[!UICONTROL Forum de discussion]** :
+Dans la boîte **[!UICONTROL Forum de discussion]** :
 
 1. Saisissez votre texte dans la zone **[!UICONTROL Message]** et, le cas échéant, un titre pour la discussion dans le champ **[!UICONTROL Sujet]**.
 
    ![](assets/mrm_forum_edit_msg.png)
 
-1. Si besoin :
+1. Si besoin :
 
    * Si vous voulez faire participer à la discussion une personne non abonnée au forum, utilisez le champ **[!UICONTROL Opérateur à notifier]**. L&#39;opérateur recevra un email de notification pour ce message précis (il ne deviendra pas abonné au forum). Pour notifier plusieurs opérateurs, sélectionnez un groupe d&#39;opérateurs.
-   * Pour inclure une pièce jointe dans le message, cliquez sur **[!UICONTROL Parcourir]**. La pièce jointe sera également incluse dans l&#39;email de notification. Vous ne pouvez attacher qu&#39;un fichier à la fois : pour attacher plusieurs fichiers au message, utilisez un fichier compressé.
+   * Pour inclure une pièce jointe dans le message, cliquez sur **[!UICONTROL Parcourir]**. La pièce jointe sera également incluse dans l&#39;email de notification. Vous ne pouvez attacher qu&#39;un fichier à la fois : pour attacher plusieurs fichiers au message, utilisez un fichier compressé.
 
 1. Cliquez sur **[!UICONTROL Créer le message]** pour poster le message dans le forum.
 
@@ -70,16 +70,16 @@ Dans la boîte **[!UICONTROL Forum de discussion]** :
 
 ## Poster un message dans le forum personnel d&#39;un opérateur {#posting-to-the-personal-forum-of-an-operator}
 
-Vous pouvez poster un message dans le forum d&#39;un opérateur si par exemple votre message ne relève pas d&#39;une opération particulière mais que vous voulez conservez une trace de votre communication dans Adobe Campaign. Les forums personnels des opérateurs sont publics et tous les opérateurs pourront lire vos messages. L&#39;opérateur reçoit un email à chaque message posté dans son forum personnel.
+Vous pouvez poster un message dans le forum d&#39;un opérateur si par exemple votre message ne relève pas d&#39;une opération particulière mais que vous voulez conservez une trace de votre communication dans Adobe Campaign. Les forums personnels des opérateurs sont publics et tous les opérateurs pourront lire vos messages. L&#39;opérateur reçoit un email à chaque message posté dans son forum personnel.
 
-Pour accéder au forum d&#39;un opérateur :
+Pour accéder au forum d&#39;un opérateur :
 
 * Si vous disposez des droits nécessaires pour accéder au noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l&#39;explorateur, ouvrez le tableau de bord de l&#39;opérateur désiré puis cliquez sur le lien **[!UICONTROL Forum]** en haut à droite.
-* Sinon, trouvez le nom de l&#39;opérateur dans Adobe Campaign (via un message posté dans un forum par cet opérateur, une tâche lui étant affectée.) et cliquez sur celui-ci pour accéder à son tableau de bord. Vous pouvez également demander à votre administrateur de vous créer une vue sur le dossier des opérateurs.
+* Sinon, trouvez le nom de l&#39;opérateur dans Adobe Campaign (via un message posté dans un forum par cet opérateur, une tâche lui étant affectée.) et cliquez sur celui-ci pour accéder à son tableau de bord. Vous pouvez également demander à votre administrateur de vous créer une vue sur le dossier des opérateurs.
 
 ## S&#39;abonner à un forum {#subscribing-to-a-forum}
 
-Vous pouvez vous abonner à un forum afin d&#39;en suivre les discussions. Une fois abonné, vous recevrez par email une notification pour chaque message posté dans le forum, dans toutes les discussions (cet email inclura le corps du message et l&#39;éventuelle pièce jointe). Vous pourrez répondre au message directement en cliquant dans le corps de l&#39;email, puis en vous connectant à l&#39;interface Web d&#39;Adobe Campaign. Lorsque vous vous abonnez à un forum, cette information est visible par tous.
+Vous pouvez vous abonner à un forum afin d&#39;en suivre les discussions. Une fois abonné, vous recevrez par email une notification pour chaque message posté dans le forum, dans toutes les discussions (cet email inclura le corps du message et l&#39;éventuelle pièce jointe). Vous pourrez répondre au message directement en cliquant dans le corps de l&#39;email, puis en vous connectant à l&#39;interface Web d&#39;Adobe Campaign. Lorsque vous vous abonnez à un forum, cette information est visible par tous.
 
 * Pour vous abonner à un forum, cliquez sur le bouton **[!UICONTROL Suivre les discussions]** dans le bandeau au-dessus de la liste des messages, à droite.
 
@@ -103,12 +103,12 @@ Vous pouvez vous abonner à un forum afin d&#39;en suivre les discussions. Une f
 
 ## Vérifier l&#39;envoi des notifications {#checking-notification-delivery}
 
-Si des opérateurs abonnés à un forum ne reçoivent pas les notifications attendues :
+Si des opérateurs abonnés à un forum ne reçoivent pas les notifications attendues :
 
 * Vérifiez que les opérateurs ont bien une adresse email renseignée dans leur profil.
 * Allez dans le noeud **[!UICONTROL Administration > Exploitation > Workflows techniques > Processus de campagne]** et vérifiez que le workflow **[!UICONTROL Traitements dans les forums de discussion]** est démarré et n&#39;est pas en échec.
-* Consultez les logs de diffusion :
+* Consultez les logs de diffusion :
 
-   * Depuis la page d&#39;accueil d&#39;Adobe Campaign, allez à **[!UICONTROL Campagnes > Navigation > Diffusions]**, puis ouvrez la diffusion **[!UICONTROL Notification des forums de discussion]**.
+   * Depuis la page d&#39;accueil d&#39;Adobe Campaign, allez à **[!UICONTROL Campagnes > Navigation > Diffusions]**, puis ouvrez la diffusion **[!UICONTROL Notification des forums de discussion]**.
    * Dans l&#39;explorateur, allez à **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Diffusions techniques > Notifications de workflow]**, puis cliquez sur **[!UICONTROL Notification des forums de discussion]**.
    Dans la boîte **[!UICONTROL Notification des forums de discussion]**, les logs de diffusion se trouvent dans l&#39;onglet **[!UICONTROL Édition > Diffusion]**. Consultez également les onglets **[!UICONTROL Tracking > Journal]** et **[!UICONTROL Causes d&#39;exclusion]**.

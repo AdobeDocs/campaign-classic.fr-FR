@@ -118,7 +118,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> Améliorations des notifications push<br /> </td> 
-   <td> Dans Adobe Campaign, un certain nombre d'améliorations ont été apportées aux notifications push :<br /> 
+   <td> Dans Adobe Campaign, un certain nombre d'améliorations ont été apportées aux notifications push :<br /> 
     <ul> 
      <li> <p>Tracking des notifications silencieuses dans iOS </p> </li> 
      <li> <p>Implémentation du retour sur les appels d'enregistrement dans iOS</p> </li> 
@@ -152,7 +152,7 @@ ht-degree: 99%
 * L&#39;option **Formule de calcul de date** est maintenant disponible dans les propriétés d&#39;une diffusion lors de la création d&#39;une diffusion unique à l&#39;aide du modèle de diffusion courrier. (NEO-9792)
 * La gestion des noms de domaine a été améliorée pour le tracking des cookies et les applications web. Pour plus d&#39;informations, consultez la section &#39;Evolutions techniques&#39;.
 * L&#39;import des ressources partagées Adobe Marketing Cloud dans une diffusion ou une landing page a été amélioré en termes de sécurité et de performances.
-* Une nouvelle case à cocher est disponible dans le compte externe du canal mobile pour activer les traces SMPP détaillées dans le fichier journal, ce qui rend cette sortie directement accessible à partir de l&#39;interface d&#39;Adobe Campaign.
+* Une nouvelle case à cocher est disponible dans le compte externe du canal mobile pour activer les traces SMPP détaillées dans le fichier journal, ce qui rend cette sortie directement accessible à partir de l&#39;interface d&#39;Adobe Campaign.
 * Dans les broadlogs, il est maintenant possible de faire la distinction entre le nombre maximal de connexions et le nombre maximal de messages par heure. Lorsque les limites sont atteintes, il est alors possible de savoir pourquoi le débit est limité. Auparavant, le même message (&quot;quota atteint&quot;) s&#39;appliquait aux deux cas.
 * Vous pouvez maintenant spécifier un script SQL à exécuter lors de l&#39;acquisition d&#39;une connexion à partir du pool. Ce script peut être utilisé pour définir le schéma par défaut. Il sera appliqué après query banding. (NEO-11256)
 * Le SDK de Campaign ne stocke plus l&#39;identifiant utilisateur afin de se conformer à la réglementation en matière de PII d&#39;Adobe. Les données sont maintenant stockées sous la forme d&#39;un hachage.
@@ -207,13 +207,13 @@ Ces modifications d&#39;index peuvent entraîner une augmentation du temps néce
 * Correction d&#39;une erreur qui renvoyait des lignes vides lors de l&#39;utilisation de la fonction zcat pour charger des fichiers dans l&#39;activité Chargement des données. (NEO-11273)
 * Correction d&#39;une erreur qui générait des broadlogs en double lors de l&#39;analyse de la diffusion. (NEO-11360)
 * Correction d&#39;une erreur qui entraînait un échec de la diffusion en raison d&#39;une clé de lien étrangère manquante après l&#39;exécution de l&#39;activité Enrichissement dans un workflow. (NEO-11537)
-* Correction d&#39;une erreur qui empêchait la désinstallation ou la réparation correcte d&#39;Adobe Campaign lorsque le chemin d&#39;installation incluait des caractères chinois GB18030 spécifiques.
+* Correction d&#39;une erreur qui empêchait la désinstallation ou la réparation correcte d&#39;Adobe Campaign lorsque le chemin d&#39;installation incluait des caractères chinois GB18030 spécifiques.
 * Correction d&#39;une erreur qui associait certains logs de tracking à une mauvaise diffusion. (NEO-11412)
 * Correction d&#39;une erreur en raison de laquelle certaines parties des logs de diffusion conservaient le statut en attente plus longtemps que prévu. (NEO-11336)
 * Correction d&#39;une erreur qui se produisait lors de l&#39;édition d&#39;une requête afin d&#39;ajouter un coupon à une diffusion. (NEO-11037)
 * Correction d&#39;un problème lié aux rapports en raison duquel les graphiques calculaient toujours la somme des valeurs, quel que soit l&#39;opérateur agrégé sélectionné. (NEO-10913)
 * La fonction &quot;request.scheme&quot; étant obsolète, elle a été supprimée de la documentation JSAPI. (NEO-10828)
-* Correction d&#39;une erreur qui empêchait certains utilisateurs possédant des configurations de fuseau horaire spécifiques de se connecter à Adobe Campaign. (NEO-10712)
+* Correction d&#39;une erreur qui empêchait certains utilisateurs possédant des configurations de fuseau horaire spécifiques de se connecter à Adobe Campaign. (NEO-10712)
 * Correction d&#39;une erreur qui se produisait lors de la configuration d&#39;un compte externe de canal mobile à l&#39;aide du connecteur SMPP générique étendu : si vous aviez spécifié l&#39;utilisation de paramètres différents pour le récepteur, l&#39;émetteur utilisait ces paramètres de manière incorrecte plutôt que ses propres paramètres.
 * Correction d&#39;une erreur en raison de laquelle les diffusions planifiées échouaient lors de la définition d&#39;une fréquence pour la règle de pression, car elles étaient constamment recalculées après le premier arbitrage. (NEO-10016)
 * Correction d&#39;une erreur qui entraînait le blocage du serveur web IIS lors du processus de recyclage du pool d&#39;applications (dans la bibliothèque nlsrvmod.dll). (NEO-10862)
@@ -228,7 +228,7 @@ Ces modifications d&#39;index peuvent entraîner une augmentation du temps néce
 * Correction d&#39;une erreur lors du tri des données dans une activité de workflow Enrichissement. (NEO-11394)
 * Correction d&#39;une erreur lors du tri des données dans un rapport personnalisé. (NEO-10896)
 * Correction d&#39;un problème qui entraînait des erreurs lors de l&#39;utilisation du paramètre useVault avec Teradata. (NEO-11399)
-* Correction d&#39;une erreur qui entraînait le blocage de la console cliente d&#39;Adobe Campaign lors de la suppression de plusieurs lignes de requête. (NEO-10744)
+* Correction d&#39;une erreur qui entraînait le blocage de la console cliente d&#39;Adobe Campaign lors de la suppression de plusieurs lignes de requête. (NEO-10744)
 * Correction d&#39;une erreur qui empêchait l&#39;application de règles de pression dans certains cas lors d&#39;une diffusion courrier. (NEO-9004)
 * Correction d&#39;une erreur qui se produisait lors de l&#39;utilisation de l&#39;activité de chargement de données pour importer une colonne avec le type de données ‘time’ : le séparateur d&#39;heure était réinitialisé même après sa suppression. (NEO-10743)
 * Correction d&#39;une erreur qui empêchait l&#39;affichage du dossier Diffusions depuis la liste de dossiers Exécution dans les propriétés d&#39;une diffusion lors de l&#39;édition d&#39;une diffusion récurrente. (NEO-11094)

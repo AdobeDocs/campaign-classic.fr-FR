@@ -99,15 +99,15 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> Règlement général sur la protection des données (RGPD) de l’UE<br /> </td> 
-   <td> <p>Le RGPD, qui entrera en vigueur le 25 mai 2018, est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s’applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.</p> <p>Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous incluons, en qualité de responsable du traitement des données, d'autres fonctionnalités pour faciliter votre préparation en tant que contrôleur de données à certaines demandes RGPD:</p> 
+   <td> <p>Le RGPD, qui entrera en vigueur le 25 mai 2018, est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s’applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.</p> <p>Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous incluons, en qualité de responsable du traitement des données, d'autres fonctionnalités pour faciliter votre préparation en tant que contrôleur de données à certaines demandes RGPD:</p> 
     <ul> 
-     <li> <p>Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign.</p> </li> 
-     <li> <p>Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign.</p> </li> 
+     <li> <p>Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign.</p> </li> 
+     <li> <p>Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign.</p> </li> 
     </ul> Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Profils actifs<br /> </td> 
-   <td> <p>Adobe Campaign fournit désormais la liste des profils actifs, mise à jour tous les mois via un workflow dédié.</p> <p>Pour plus d'informations, consultez la <a href="../../platform/using/about-profiles.md#active-profiles">documentation détaillée</a>.</p> </td> 
+   <td> <p>Adobe Campaign fournit désormais la liste des profils actifs, mise à jour tous les mois via un workflow dédié.</p> <p>Pour plus d'informations, consultez la <a href="../../platform/using/about-profiles.md#active-profiles">documentation détaillée</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Amélioration du connecteur push Android<br /> </td> 
@@ -125,22 +125,22 @@ ht-degree: 100%
 
 **Améliorations**
 
-* **Canal LINE - amélioration de l&#39;architecture** : à l&#39;instar de tous les autres canaux d&#39;Adobe Campaign, le canal LINE est désormais pris en charge dans tous les types de déploiement : hébergé, hybride et on-premise.
+* **Canal LINE - amélioration de l&#39;architecture** : à l&#39;instar de tous les autres canaux d&#39;Adobe Campaign, le canal LINE est désormais pris en charge dans tous les types de déploiement : hébergé, hybride et on-premise.
 * **Génération automatique de séquence** : le mécanisme de génération d&#39;identifiants a été amélioré pour augmenter la durée de vie des instances Campaign avec des volumes d&#39;objets importants. Pour plus d&#39;informations, reportez-vous à cette [technote](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html).
 
 **Autres changements**
 
 * Un nouveau mode est disponible pour l&#39;import de packages à l&#39;aide d&#39;une ligne de commande. Il permet les dépendances circulaires (non recommandé pour les packages volumineux). Pour plus d&#39;informations, consultez la section Evolutions techniques. (NEO-8979)
 * Amélioration des performances pour le chargement de grandes quantités de données dans Teradata et correction d&#39;une erreur qui empêchait l&#39;affichage de la valeur correcte des données traitées dans le log. (NEO-10429)
-* L&#39;import d&#39;audiences depuis Audience Manager est désormais possible avec des fichiers partagés. Auparavant, seul le dernier fichier du segment était importé par le workflow technique importSharedAudience. (NEO-10156)
-* Sous Windows, le chemin d’installation par défaut du serveur Campaign a changé. Lors du lancement du programme d’installation de la version 64 bits, le chemin d’installation par défaut est désormais **C:\Program Files\Adobe\Adobe Campaign Classic v7\** au lieu de **C:\Program Files (x86)\Adobe\Adobe Campaign Classic v7**
+* L&#39;import d&#39;audiences depuis Audience Manager est désormais possible avec des fichiers partagés. Auparavant, seul le dernier fichier du segment était importé par le workflow technique importSharedAudience. (NEO-10156)
+* Sous Windows, le chemin d’installation par défaut du serveur Campaign a changé. Lors du lancement du programme d’installation de la version 64 bits, le chemin d’installation par défaut est désormais **C:\Program Files\Adobe\Adobe Campaign Classic v7\** au lieu de **C:\Program Files (x86)\Adobe\Adobe Campaign Classic v7**
 * Les règles MX par défaut ont été améliorées pour inclure davantage de domaines et optimiser le débit.
 * Application des restrictions d&#39;accès sur l&#39;appel SOAP de l&#39;assistant de déploiement (xtk:serverOptions#SaveOptions).
 * La bibliothèque obsolète weka.jar a été supprimée et la bibliothèque OpenSSL a été mise à jour pour optimiser la sécurité.
 * Amélioration du workflow technique de facturation pour sécuriser les performances des instances.
 * Les administrateurs peuvent à nouveau définir ou réinitialiser le mot de passe des opérateurs. Pour cela, cliquez avec le bouton droit sur un opérateur, sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Réinitialiser le mot de passe]**, puis définissez le nouveau mot de passe de l&#39;opérateur. Nous recommandons aux opérateurs de changer leur mot de passe lors de leur première reconnexion. Pour plus d&#39;informations, consultez la [documentation détaillée](../../production/using/lost-password.md).
-* Pour prendre en charge la nouvelle fonctionnalité multi-tenant d&#39;Adobe Target, un nouveau paramètre &quot;at_property&quot; peut maintenant être ajouté aux URL lors de la configuration des options et des comptes externes pour l&#39;intégration avec Target. La valeur à utiliser pour ce paramètre figure dans Adobe Target et sera utilisée par Campaign lors des appels à Target. Pour plus d&#39;informations, consultez la [documentation détaillée](../../integrations/using/inserting-a-dynamic-image.md).
-* Vous pouvez maintenant spécifier l&#39;ouverture d&#39;une landing page par défaut lors d&#39;un clic sur une image fournie par Adobe Target. Auparavant, un clic sur cette image affichait l&#39;image par défaut définie lors de la création de l&#39;email. Pour plus d&#39;informations, consultez la [documentation détaillée](../../integrations/using/inserting-a-dynamic-image.md).
+* Pour prendre en charge la nouvelle fonctionnalité multi-tenant d&#39;Adobe Target, un nouveau paramètre &quot;at_property&quot; peut maintenant être ajouté aux URL lors de la configuration des options et des comptes externes pour l&#39;intégration avec Target. La valeur à utiliser pour ce paramètre figure dans Adobe Target et sera utilisée par Campaign lors des appels à Target. Pour plus d&#39;informations, consultez la [documentation détaillée](../../integrations/using/inserting-a-dynamic-image.md).
+* Vous pouvez maintenant spécifier l&#39;ouverture d&#39;une landing page par défaut lors d&#39;un clic sur une image fournie par Adobe Target. Auparavant, un clic sur cette image affichait l&#39;image par défaut définie lors de la création de l&#39;email. Pour plus d&#39;informations, consultez la [documentation détaillée](../../integrations/using/inserting-a-dynamic-image.md).
 * Ajout de la case à cocher **Activer les traces SMPP** dans le compte externe pour forcer la sortie des traces. Pour plus d&#39;informations, consultez la [documentation détaillée](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
 **Evolutions techniques**
@@ -190,7 +190,7 @@ nlserver package -instance:fresh -import:sup-packInstallTest.xml -verbose -usejs
 
 **Correctifs**
 
-* Correction d&#39;une erreur de synchronisation lors de la réplication des logs de diffusion et de tracking d&#39;Adobe Campaign Standard vers Adobe Campaign Classic. (NEO-10023)
+* Correction d&#39;une erreur de synchronisation lors de la réplication des logs de diffusion et de tracking d&#39;Adobe Campaign Standard vers Adobe Campaign Classic. (NEO-10023)
 * Correction d&#39;une erreur liée à la gestion des tables d&#39;erreurs et de logs dans Teradata lorsqu&#39;un workflow ETL reprenait après l&#39;échec d&#39;une opération de chargement rapide. Les tables d&#39;erreurs et de logs sont désormais supprimées correctement chaque fois que le workflow reprend. (NEO-10672)
 * Correction d&#39;une erreur de postupgrade qui permet d&#39;installer automatiquement le package Hive (nécessaire pour Hadoop) si le package FDA est installé. (NEO-10592)
 * Correction d&#39;une erreur qui traitait les domaines non valides comme une erreur **Non définie**. (NEO-10248)
@@ -222,7 +222,7 @@ nlserver package -instance:fresh -import:sup-packInstallTest.xml -verbose -usejs
 * Correction d&#39;une régression dans Data Management qui empêchait la création d&#39;index sur les activités de workflow de type Enrichissement.
 * Correction d&#39;un problème qui se produisait lors de la création de ressources externes avec le titre @id.
 * Correction d&#39;un problème qui se produisait lors du téléchargement de fichiers compressés via un serveur FTP ou du téléchargement de fichiers dont le nom comportait des caractères génériques.
-* Correction d&#39;un problème lié aux énumérations de type base longues dans les ressources personnalisées externes créées dans Campaign Standard.
+* Correction d&#39;un problème lié aux énumérations de type base longues dans les ressources personnalisées externes créées dans Campaign Standard.
 * Correction d&#39;un problème qui entraînait l&#39;envoi de SMS même lorsque la connexion avec le fournisseur échouait, entraînant des pertes de SMS.
 * Correction d&#39;une erreur qui entraînait le blocage indéfini d&#39;une connexion SMTP.
 * Correction d&#39;une erreur liée aux règles de typologie de pression durant la préparation des messages lors de l&#39;utilisation d&#39;un mapping LINE ou lorsque les schémas de filtrage et de ciblage diffèrent.

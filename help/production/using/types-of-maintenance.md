@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Maintenance au niveau applicatif {#application-maintenance}
 
-Adobe Campaign met à votre disposition un workflow intégré qui permet de planifier certaines tâches de maintenance. Il s&#39;agit du **workflow de nettoyage de la base** qui effectue les tâches suivantes :
+Adobe Campaign met à votre disposition un workflow intégré qui permet de planifier certaines tâches de maintenance. Il s&#39;agit du **workflow de nettoyage de la base** qui effectue les tâches suivantes :
 
 * suppression des enregistrements expirés,
 * suppression des enregistrements orphelins et réinitialisation du statut des objets qui ont expirés,
@@ -31,12 +31,12 @@ Adobe Campaign met à votre disposition un workflow intégré qui permet de plan
 
 ## Maintenance technique {#technical-maintenance}
 
-Le workflow de nettoyage de la base ne comprend aucun système pour planifier la maintenance de la base. C&#39;est à vous que revient la responsabilité de planifier la maintenance. Pour cela, vous pouvez, au choix :
+Le workflow de nettoyage de la base ne comprend aucun système pour planifier la maintenance de la base. C&#39;est à vous que revient la responsabilité de planifier la maintenance. Pour cela, vous pouvez, au choix :
 
 * collaborer avec l&#39;administrateur de la base de données pour configurer la maintenance de la base avec des outils tiers,
-* utiliser le moteur de workflow disponible dans Adobe Campaign pour planifier et suivre les activités de maintenance.
+* utiliser le moteur de workflow disponible dans Adobe Campaign pour planifier et suivre les activités de maintenance.
 
-Ces procédures de maintenance doivent être effectuées régulièrement. Il s&#39;agit, par exemple, des procédures suivantes :
+Ces procédures de maintenance doivent être effectuées régulièrement. Il s&#39;agit, par exemple, des procédures suivantes :
 
 * regénérer l&#39;index des tables fréquemment mises à jour,
 * compacter ou reconstruire les tables pour leur éviter d&#39;être fragmentées.
@@ -51,7 +51,7 @@ Une opération de maintenance plus importante, comme la reconstruction de toutes
 
 ### Reconstruire une table {#rebuilding-a-table}
 
-Pour reconstruire une table, plusieurs stratégies sont envisageables :
+Pour reconstruire une table, plusieurs stratégies sont envisageables :
 
 <table> 
  <thead> 

@@ -21,9 +21,9 @@ Les API orientées données permettent d&#39;adresser le modèle de données dan
 
 ## Principe du modèle de données {#overview-of-the-datamodel}
 
-Adobe Campaign ne propose pas une API de lecture dédiée par entité (pas de fonction de type getRecipient, getDelivery, etc.). Vous devez utiliser les méthodes de lecture et modification des données, QUERY &amp; WRITER, pour accéder aux données du modèle.
+Adobe Campaign ne propose pas une API de lecture dédiée par entité (pas de fonction de type getRecipient, getDelivery, etc.). Vous devez utiliser les méthodes de lecture et modification des données, QUERY &amp; WRITER, pour accéder aux données du modèle.
 
-Adobe Campaign permet de gérer les collections : un appel (query) permet de récupérer un ensemble d&#39;informations collectées dans toute la base. Contrairement à un accès aux données en mode SQL, les API Adobe Campaign ne renvoient pas des colonnes de données mais une arborescence XML. Ainsi, Adobe Campaign crée des documents composites avec toutes les données collectées.
+Adobe Campaign permet de gérer les collections : un appel (query) permet de récupérer un ensemble d&#39;informations collectées dans toute la base. Contrairement à un accès aux données en mode SQL, les API Adobe Campaign ne renvoient pas des colonnes de données mais une arborescence XML. Ainsi, Adobe Campaign crée des documents composites avec toutes les données collectées.
 
 Ce mode de fonctionnement ne propose pas un mapping un pour un entre les attributs et éléments des documents XML et les colonnes des tables de la base de données.
 
@@ -31,15 +31,15 @@ Les documents XML sont stockés dans des champs de type MEMO de la base.
 
 ## Description du modèle {#description-of-the-model}
 
-Vous devez impérativement connaître le modèle de données Adobe Campaign afin d&#39;adresser correctement les champs de la base de données dans vos scripts.
+Vous devez impérativement connaître le modèle de données Adobe Campaign afin d&#39;adresser correctement les champs de la base de données dans vos scripts.
 
-Pour obtenir une présentation du modèle de données, consultez la section [Description du modèle de données d’Adobe Campaign](../../configuration/using/data-model-description.md).
+Pour obtenir une présentation du modèle de données, consultez la section [Description du modèle de données d’Adobe Campaign](../../configuration/using/data-model-description.md).
 
 Pour générer sa structure, reportez-vous l’article suivant : [Comment générer un modèle de données ou un dictionnaire de données](https://helpx.adobe.com/fr/campaign/kb/generate-data-model.html).
 
 ## Query et Writer {#query-and-writer}
 
-Le schéma introductif suivant montre les échanges bas niveaux pour la lecture (ExecuteQuery) et l&#39;écriture (Writer) entre la base de données et un client (pages web ou console cliente Adobe Campaign).
+Le schéma introductif suivant montre les échanges bas niveaux pour la lecture (ExecuteQuery) et l&#39;écriture (Writer) entre la base de données et un client (pages web ou console cliente Adobe Campaign).
 
 ![](assets/s_ncs_integration_webservices_schema_writer.png)
 
@@ -47,7 +47,7 @@ Le schéma introductif suivant montre les échanges bas niveaux pour la lecture 
 
 Pour les colonnes et les conditions, vous pouvez utiliser des Query.
 
-Vous pouvez ainsi isoler le SQL sous-jacent. Le langage des requêtes est indépendant du moteur sous-jacent : certaines fonctions vont être re-mappées, ce qui peut générer de nombreux ordres SELECT SQL.
+Vous pouvez ainsi isoler le SQL sous-jacent. Le langage des requêtes est indépendant du moteur sous-jacent : certaines fonctions vont être re-mappées, ce qui peut générer de nombreux ordres SELECT SQL.
 
 Voir à ce sujet la section [Exemple sur la méthode &#39;ExecuteQuery&#39; du schéma &#39;xtk:queryDef&#39;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-).
 
@@ -57,7 +57,7 @@ La méthode **ExecuteQuery** est présentée dans [ExecuteQuery (xtk:queryDef)](
 
 Les commandes Write permettent d&#39;écrire des documents simples ou complexes, avec des écritures dans une ou plusieurs tables de la base.
 
-Les API transactionnelles permettent de gérer les réconciliations via la commande **updateOrInsert** : une même commande permet la création ou la mise à jour des données. Vous pouvez également paramétrer la fusion (**merge**) des modifications : ce mode de fonctionnement permet d&#39;autoriser la mise à jour partielle.
+Les API transactionnelles permettent de gérer les réconciliations via la commande **updateOrInsert** : une même commande permet la création ou la mise à jour des données. Vous pouvez également paramétrer la fusion (**merge**) des modifications : ce mode de fonctionnement permet d&#39;autoriser la mise à jour partielle.
 
 La structure XML propose une vision logique des données et permet de s&#39;affranchir de la structure physique de la table SQL.
 
@@ -67,7 +67,7 @@ La méthode Write est présentée dans [Write / WriteCollection (xtk:session)](#
 
 Cette méthode permet d&#39;effectuer des requêtes à partir de données associées à un schéma. Elle prend en paramètres une chaîne d&#39;authentification (nécéssité d&#39;être loggé) et un document XML décrivant la requête à soumettre. Le paramètre de retour est un document XML contenant le résultat de la requête au format du schéma sur lequel porte la requête.
 
-Définition de la méthode &quot;ExecuteQuery&quot; dans le schéma &quot;xtk:queryDef&quot; :
+Définition de la méthode &quot;ExecuteQuery&quot; dans le schéma &quot;xtk:queryDef&quot; :
 
 ```
 <method name="ExecuteQuery" const="true">
@@ -83,7 +83,7 @@ Définition de la méthode &quot;ExecuteQuery&quot; dans le schéma &quot;xtk:qu
 
 ### Format du document XML de la requête en entrée {#format-of-the-xml-document-of-the-input-query}
 
-La structure du document XML de la requête est décrite dans le schéma &quot;xtk:queryDef &quot;, ce document décrit les différentes clauses d&#39;une requête SQL : &quot;select&quot;, &quot;where&quot;, &quot;order by&quot;, &quot;group by&quot;, &quot;having&quot;.
+La structure du document XML de la requête est décrite dans le schéma &quot;xtk:queryDef &quot;, ce document décrit les différentes clauses d&#39;une requête SQL : &quot;select&quot;, &quot;where&quot;, &quot;order by&quot;, &quot;group by&quot;, &quot;having&quot;.
 
 ```
 <queryDef schema="schema_key" operation="operation_type">
@@ -135,12 +135,12 @@ Exemple d’un `<subquery>  : </subquery>`
 
 Une requête doit référencer un schéma de départ à partir de l&#39;attribut **schema**.
 
-Le type d&#39;opération souhaité est renseigné dans l&#39;attribut **operation** et contient une des valeurs suivantes :
+Le type d&#39;opération souhaité est renseigné dans l&#39;attribut **operation** et contient une des valeurs suivantes :
 
-* **get** : récupère un enregistrement de la table, et retourne une erreur si la donnée n&#39;existe pas,
-* **getIfExists** : récupère un enregistrement de la table, et retourne un document vide si la donnée n&#39;existe pas,
-* **select** : crée un curseur pour retourner plusieurs enregistrements, et retourne un document vide si aucune données,
-* **count** : retourne un comptage des données.
+* **get** : récupère un enregistrement de la table, et retourne une erreur si la donnée n&#39;existe pas,
+* **getIfExists** : récupère un enregistrement de la table, et retourne un document vide si la donnée n&#39;existe pas,
+* **select** : crée un curseur pour retourner plusieurs enregistrements, et retourne un document vide si aucune données,
+* **count** : retourne un comptage des données.
 
 La syntaxe **XPath** sert à localiser les données en fonction du schéma de départ. Pour plus d’informations sur XPath, voir [Schémas de données](../../configuration/using/data-schemas.md).
 
@@ -192,7 +192,7 @@ Les expressions peuvent être des champs simples ou des expressions complexes te
 
 Pour limiter le nombre d’enregistrements à retourner, il faut ajouter l’attribut **lineCount** à l’élément `<querydef>`.
 
-Pour limiter à 100 le nombre d&#39;enregistrements retournés par la requête :
+Pour limiter à 100 le nombre d&#39;enregistrements retournés par la requête :
 
 ```
 <queryDef schema="nms:recipient" operation="select" lineCount="100">
@@ -208,7 +208,7 @@ Pour récupérer les 100 enregistrements suivants, lancer de nouveau la même re
 
 #### Exemple avec l&#39;opération &#39;count&#39; {#example-with-the--count--operation}
 
-Pour compter le nombre d&#39;enregistrements sur une requête :
+Pour compter le nombre d&#39;enregistrements sur une requête :
 
 ```
 <queryDef schema="nms:recipient" operation="count"">
@@ -247,7 +247,7 @@ Pour récupérer les adresses email référencées plusieurs fois :
 </queryDef>
 ```
 
-On peut simplifier la requête en renseignant l&#39;attribut **groupBy** directement sur le champ à grouper :
+On peut simplifier la requête en renseignant l&#39;attribut **groupBy** directement sur le champ à grouper :
 
 ```
 <select>
@@ -263,7 +263,7 @@ On peut simplifier la requête en renseignant l&#39;attribut **groupBy** directe
 
 Voici deux exemples de parenthésages sur une même condition.
 
-* La version simple en une seule expression :
+* La version simple en une seule expression :
 
    ```
    <where>
@@ -286,7 +286,7 @@ Voici deux exemples de parenthésages sur une même condition.
    </where>
    ```
 
-Il est possible de remplacer l&#39;opérateur &#39;OR&#39; avec l&#39;opérateur &#39;IN&#39; lorsque plusieurs conditions portent sur le même champ :
+Il est possible de remplacer l&#39;opérateur &#39;OR&#39; avec l&#39;opérateur &#39;IN&#39; lorsque plusieurs conditions portent sur le même champ :
 
 ```
 <where>
@@ -301,9 +301,9 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
 
 #### Exemples sur les liens {#examples-on-links}
 
-* Liens 1-1 ou N-1 : lorsque la table possède la clé étrangère (le lien part de la table), on peut filtrer ou récupérer directement les champs de la table liée.
+* Liens 1-1 ou N-1 : lorsque la table possède la clé étrangère (le lien part de la table), on peut filtrer ou récupérer directement les champs de la table liée.
 
-   Exemple de filtre sur le libellé du dossier :
+   Exemple de filtre sur le libellé du dossier :
 
    ```
    <where>
@@ -311,7 +311,7 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
    </where>
    ```
 
-   Pour récupérer les champs du dossier à partir du schéma &quot;nms:recipient&quot; :
+   Pour récupérer les champs du dossier à partir du schéma &quot;nms:recipient&quot; :
 
    ```
    <select>
@@ -322,9 +322,9 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
    </select>
    ```
 
-* Liens de collections (1-N) : le filtrage sur les champs d&#39;une table de collection doit passer par l&#39;opérateur **EXISTS** ou **NOT EXISTS**.
+* Liens de collections (1-N) : le filtrage sur les champs d&#39;une table de collection doit passer par l&#39;opérateur **EXISTS** ou **NOT EXISTS**.
 
-   Pour filtrer les destinataires abonnés au service d&#39;information &#39;Newsletter&#39; :
+   Pour filtrer les destinataires abonnés au service d&#39;information &#39;Newsletter&#39; :
 
    ```
    <where>
@@ -336,7 +336,7 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
 
    La récupération directe des champs d’un lien de collection à partir de la clause `<select>` n’est pas recommandée, car la requête renvoie un produit cardinal. Elle est utilisée uniquement lorsque la table liée contient un seul enregistrement (exemple `<node expr="">`).
 
-   Exemple sur le lien de collection &quot;subscription&quot; :
+   Exemple sur le lien de collection &quot;subscription&quot; :
 
    ```
    <select>
@@ -393,13 +393,13 @@ Pour ne pas binder un paramètre, il faut renseigner l&#39;attribut &quot;noSqlB
 
 #### Astuce pour construire une requête :  {#query-building-tip-}
 
-Pour vous aider à trouver la syntaxe d&#39;une requête, vous pouvez mettre au point la requête à partir du requêteur générique dans la console cliente Adobe Campaign (menu **[!UICONTROL Outils/Requêteur générique...]**). Pour cela :
+Pour vous aider à trouver la syntaxe d&#39;une requête, vous pouvez mettre au point la requête à partir du requêteur générique dans la console cliente Adobe Campaign (menu **[!UICONTROL Outils/Requêteur générique...]**). Pour cela :
 
-1. Sélectionnez les données à récupérer :
+1. Sélectionnez les données à récupérer :
 
    ![](assets/s_ncs_integration_webservices_queyr1.png)
 
-1. Définissez le critère de filtrage :
+1. Définissez le critère de filtrage :
 
    ![](assets/s_ncs_integration_webservices_queyr2.png)
 
@@ -411,13 +411,13 @@ Pour vous aider à trouver la syntaxe d&#39;une requête, vous pouvez mettre au 
 
 Le paramètre de retour est un document XML au format du schéma associé à la requête.
 
-Exemple de retour à partir du schéma &quot;nms:recipient&quot; sur une opération de type &quot;get&quot; :
+Exemple de retour à partir du schéma &quot;nms:recipient&quot; sur une opération de type &quot;get&quot; :
 
 ```
 <recipient email="john.doe@adobe.com" lastName"Doe" firstName="John"/>
 ```
 
-Sur une opération de type &quot;select&quot;, le document retourné est une énumération d&#39;éléments :
+Sur une opération de type &quot;select&quot;, le document retourné est une énumération d&#39;éléments :
 
 ```
 <!-- the name of the first element does not matter -->
@@ -428,7 +428,7 @@ Sur une opération de type &quot;select&quot;, le document retourné est une én
 </recipient-collection>  
 ```
 
-Exemple de document de retour sur une opération de type &quot;count&quot; :
+Exemple de document de retour sur une opération de type &quot;count&quot; :
 
 ```
 <recipient count="3"/>
@@ -448,13 +448,13 @@ Un alias permet de modifier l&#39;emplacement des données dans le document en s
 </queryDef>
 ```
 
-Retourne :
+Retourne :
 
 ```
 <recipient My_folder="Recipients" First name ="John" lastName="Doe"/>
 ```
 
-A la place de :
+A la place de :
 
 ```
 <recipient firstName="John" lastName="Doe">
@@ -489,7 +489,7 @@ A la place de :
    </SOAP-ENV:Envelope>
    ```
 
-* Réponse :
+* Réponse :
 
    ```
    <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -514,7 +514,7 @@ Ce document est complété par des instructions permettant de paramétrer les pr
 
 L&#39;appel ne retourne pas de données, hormis les erreurs.
 
-Définition des méthodes &quot;Write&quot; et &quot;WriteCollection&quot; dans le schéma &quot;xtk:session&quot; :
+Définition des méthodes &quot;Write&quot; et &quot;WriteCollection&quot; dans le schéma &quot;xtk:session&quot; :
 
 ```
 <method name="Write" static="true">
@@ -541,13 +541,13 @@ La clé du schéma de l&#39;entité à mettre à jour est renseignée à partir 
 
 La clé de réconciliation peut être forcée avec l&#39;attribut **_key** contenant la liste des XPath qui composent la clé (séparés par une virgule).
 
-Il est possible de forcer le type d&#39;opération en renseignant l&#39;attribut **_operation** avec les valeurs suivantes :
+Il est possible de forcer le type d&#39;opération en renseignant l&#39;attribut **_operation** avec les valeurs suivantes :
 
-* **insert** : force l&#39;insertion de l&#39;enregistrement (la clé de réconciliation n&#39;est pas utilisée),
-* **insertOrUpdate** : met à jour ou insère l&#39;enregistrement en fonction de la clé de réconciliation (mode par défaut),
-* **update** : met à jour l&#39;enregistrement, ne fait rien si la donnée n&#39;existe pas,
-* **delete** : supprime les enregistrements,
-* **none** : utilisé uniquement pour la réconciliation de lien, sans mise à jour ni insertion.
+* **insert** : force l&#39;insertion de l&#39;enregistrement (la clé de réconciliation n&#39;est pas utilisée),
+* **insertOrUpdate** : met à jour ou insère l&#39;enregistrement en fonction de la clé de réconciliation (mode par défaut),
+* **update** : met à jour l&#39;enregistrement, ne fait rien si la donnée n&#39;existe pas,
+* **delete** : supprime les enregistrements,
+* **none** : utilisé uniquement pour la réconciliation de lien, sans mise à jour ni insertion.
 
 ### Exemple avec la méthode &#39;Write&#39; {#example-with-the--write--method}
 
@@ -559,7 +559,7 @@ Mise à jour ou insertion d&#39;un destinataire (opération &quot;insertOrUpdate
 </recipient>
 ```
 
-Suppression d&#39;un destinataire :
+Suppression d&#39;un destinataire :
 
 ```
 <recipient xtkschema="nms:recipient" _operation="delete" email="rene.dupont@adobe.com" folder-id=1203 _key="@email, [@folder-id]"/>
@@ -571,7 +571,7 @@ Suppression d&#39;un destinataire :
 
 ### Exemple avec la méthode &#39;WriteCollection&#39; {#example-with-the--writecollection--method}
 
-Mise à jour ou insertion sur plusieurs destinataires :
+Mise à jour ou insertion sur plusieurs destinataires :
 
 ```
 <recipient-collection xtkschema="nms:recipient">    
@@ -603,7 +603,7 @@ La définition de la clé de l&#39;entité principale (&quot;nms:recipient&quot;
 
 #### Exemple 2 {#example-2}
 
-Mettre à jour la société (table liée de schéma &quot;cus:company&quot;) à partir d&#39;un destinataire :
+Mettre à jour la société (table liée de schéma &quot;cus:company&quot;) à partir d&#39;un destinataire :
 
 ```
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
@@ -613,7 +613,7 @@ Mettre à jour la société (table liée de schéma &quot;cus:company&quot;) à 
 
 #### Exemple 3 {#example-3}
 
-Ajouter un destinataire dans un groupe avec la table de relation des groupes (&quot;nms:rcpGrpRel&quot;) :
+Ajouter un destinataire dans un groupe avec la table de relation des groupes (&quot;nms:rcpGrpRel&quot;) :
 
 ```
 <recipient _key="@email" email="martin.ledger@adobe.net" xtkschema="nms:recipient">
@@ -649,7 +649,7 @@ Par défaut, pour mettre à jour les éléments de collection XML, il faut rense
    </SOAP-ENV:Envelope>
    ```
 
-* Réponse :
+* Réponse :
 
    ```
    <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -661,7 +661,7 @@ Par défaut, pour mettre à jour les éléments de collection XML, il faut rense
    </SOAP-ENV:Envelope>
    ```
 
-   Retour avec erreur :
+   Retour avec erreur :
 
    ```
    <?xml version='1.0'?>

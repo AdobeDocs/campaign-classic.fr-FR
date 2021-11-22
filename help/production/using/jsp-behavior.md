@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Si certaines **jsp** ne s&#39;exécutent pas correctement, vous devez forcer leur recompilation.
 
-Pour cela, saisissez les commandes suivantes :
+Pour cela, saisissez les commandes suivantes :
 
 ```
 nlserver stop web

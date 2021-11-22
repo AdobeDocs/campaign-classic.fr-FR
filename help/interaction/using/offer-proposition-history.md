@@ -13,11 +13,11 @@ ht-degree: 100%
 
 ---
 
-# Historique des propositions{#offer-proposition-history}
+# Historique des propositions dʼoffres{#offer-proposition-history}
 
 ![](../../assets/v7-only.svg)
 
-Une fois vos propositions d&#39;offres effectuées, vous pouvez consulter l&#39;historique de vos différentes présentations.
+Une fois vos propositions dʼoffres effectuées, vous pouvez consulter lʼhistorique de vos différentes présentations.
 
 >[!NOTE]
 >

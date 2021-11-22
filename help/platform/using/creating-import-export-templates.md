@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Les modèles d&#39;import et d&#39;export sont stockés dans le répertoire **[!UICONTROL Ressources > Modèles > Modèles de traitement]** de l&#39;arborescence d&#39;Adobe Campaign.
+Les modèles d&#39;import et d&#39;export sont stockés dans le répertoire **[!UICONTROL Ressources > Modèles > Modèles de traitement]** de l&#39;arborescence d&#39;Adobe Campaign.
 
 Par défaut, trois modèles d&#39;import et un modèle d&#39;export sont présents dans ce répertoire. Ils ne doivent pas être modifiés.
 

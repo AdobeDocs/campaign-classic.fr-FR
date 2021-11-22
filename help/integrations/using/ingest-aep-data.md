@@ -16,17 +16,17 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Pour ingérer des audiences Adobe Experience Platform dans Campaign et les utiliser dans vos workflows, vous devez d’abord connecter Adobe Campaign en tant que **destination** Adobe Experience Platform et le configurer avec le segment à exporter.
+Pour ingérer des audiences Adobe Experience Platform dans Campaign et les utiliser dans vos workflows, vous devez d’abord connecter Adobe Campaign en tant que **destination** Adobe Experience Platform et le configurer avec le segment à exporter.
 
 Une fois la destination configurée, les données sont exportées vers votre emplacement de stockage et vous devez créer un workflow dédié dans Campaign Classic pour les ingérer.
 
-## Connecter Adobe Campaign en tant que destination
+## Connecter Adobe Campaign en tant que destination
 
-Dans Adobe Experience Platform, configurez une connexion avec Adobe Campaign en sélectionnant un emplacement de stockage pour les segments exportés. Cette procédure permet également de sélectionner les segments à exporter et de spécifier des champs XDM additionnels à inclure.
+Dans Adobe Experience Platform, configurez une connexion avec Adobe Campaign en sélectionnant un emplacement d’enregistrement pour les segments exportés. Cette procédure permet également de sélectionner les segments à exporter et de spécifier des champs XDM additionnels à inclure.
 
 Consultez à ce sujet la [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=fr).
 
-Une fois la destination configurée, Adobe Experience Platform crée un fichier .txt ou .csv délimité par des tabulations à l’emplacement de stockage indiqué. Cette opération est planifiée et exécutée une fois toutes les 24 heures.
+Une fois la destination configurée, Adobe Experience Platform crée un fichier .txt ou .csv délimité par des tabulations à l’emplacement de stockage indiqué. Cette opération est planifiée et exécutée une fois toutes les 24 heures.
 
 Vous pouvez désormais configurer un workflow Campaign Classic pour ingérer le segment dans Campaign.
 

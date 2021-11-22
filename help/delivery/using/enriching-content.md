@@ -25,7 +25,7 @@ Les requêtes sont paramétrées à partir du modèle de publication dans l&#39;
 
 Les données récupérées vont enrichir le document XML en sortie à partir de son élément principal.
 
-Exemple de retour d&#39;une requête sur le schéma des destinataires (**nms:recipient**) :
+Exemple de retour d&#39;une requête sur le schéma des destinataires (**nms:recipient**) :
 
 ```
 <book name="Content Management">
@@ -67,14 +67,14 @@ Un assistant permet d&#39;éditer les paramètres de la requête.
 
 Les liens permettent de récupérer des données externes liées au contenu.
 
-Il existe deux types de données liées :
+Il existe deux types de données liées :
 
-* Liens de contenu : c&#39;est le mode natif de la gestion de contenu. Le contenu du lien est automatiquement intégré dans le document XML de sortie.
-* Liens vers des tables externes : ils permettent l&#39;accès à toutes les autres tables de la base avec la contrainte de récupérer les données du lien sélectionné avec un agrégateur.
+* Liens de contenu : c&#39;est le mode natif de la gestion de contenu. Le contenu du lien est automatiquement intégré dans le document XML de sortie.
+* Liens vers des tables externes : ils permettent l&#39;accès à toutes les autres tables de la base avec la contrainte de récupérer les données du lien sélectionné avec un agrégateur.
 
 ### Liens vers un schéma contenu {#link-to-a-content-schema}
 
-Un lien de contenu est déclaré dans le schéma de données de la façon suivante :
+Un lien de contenu est déclaré dans le schéma de données de la façon suivante :
 
 ```
 <element expandSchemaTarget="cus:chapter" label="Main chapter" name="mainChapter" type="string"/>
@@ -94,7 +94,7 @@ Le contenu de l’élément ciblé vient enrichir l’élément lien, soit l’�
 >
 >La **Compute string** du lien est présente à partir de l&#39;attribut **computeString**.
 
-Dans le formulaire de saisie, le contrôle d&#39;édition du lien est déclaré de la façon suivante :
+Dans le formulaire de saisie, le contrôle d&#39;édition du lien est déclaré de la façon suivante :
 
 ```
 <input type="articleEdit" xpath="mainChapter"/>
@@ -106,13 +106,13 @@ L&#39;icône **[!UICONTROL Loupe]** permet de lancer le formulaire d&#39;éditio
 
 #### Collection de liens {#link-collection}
 
-Pour renseigner une collection de liens, vous devez ajouter l&#39;attribut **unbound=&quot;true&quot;** à la définition de l&#39;élément lien dans le schéma de données :
+Pour renseigner une collection de liens, vous devez ajouter l&#39;attribut **unbound=&quot;true&quot;** à la définition de l&#39;élément lien dans le schéma de données :
 
 ```
 <element expandSchemaTarget="cus:chapter" label="List of chapters" name="chapter"  ordered="true" unbound="true"/>
 ```
 
-Le contenu de l&#39;élément ciblé vient enrichir chaque élément de collection :
+Le contenu de l&#39;élément ciblé vient enrichir chaque élément de collection :
 
 ```
 <chapter computeString="Introduction" id="7011" title="Introduction" xtkschema="cus:chapter">    
@@ -120,7 +120,7 @@ Le contenu de l&#39;élément ciblé vient enrichir chaque élément de collecti
 </chapter>
 ```
 
-Dans le formulaire de saisie, le contrôle liste est déclaré de la façon suivante :
+Dans le formulaire de saisie, le contrôle liste est déclaré de la façon suivante :
 
 ```
 <input editable="false" nolabel="true" toolbarCaption="List of chapters" type="articleList" xpath="chapter" zoom="true"/>
@@ -132,7 +132,7 @@ Une colonne par défaut est affichée afin de visualiser la **Compute string** d
 
 ### Liens vers de tables externes {#links-to-external-tables}
 
-Un lien sur une table externe est déclaré dans le schéma de données de la façon suivante :
+Un lien sur une table externe est déclaré dans le schéma de données de la façon suivante :
 
 ```
 <element label="Main contact" name="mainContact" target="nms:recipient" type="link"/>
@@ -144,13 +144,13 @@ Par convention, les liens doivent être déclarés à partir de l&#39;élément 
 
 La **Compute string** et la clé de l’élément ciblé vont enrichir les attributs **`<name>-id`** et **`<name>-cs`** de l’élément principal.
 
-Dans notre exemple, le lien est renseigné dans le schéma &quot;cus:livre&quot;, le contenu des données du lien est présent dans les attributs &quot;mainContact-id&quot; et &quot;mainContact-cs&quot; :
+Dans notre exemple, le lien est renseigné dans le schéma &quot;cus:livre&quot;, le contenu des données du lien est présent dans les attributs &quot;mainContact-id&quot; et &quot;mainContact-cs&quot; :
 
 ```
 <book computeString="Content management" date="2006/06/08" id="6106" language="en" mainContact-cs="John Doe (john.doe@adobe.com)" mainContact-id="3012" name="Content management" xtkschema="cus:book">
 ```
 
-Le contrôle d&#39;édition du lien est déclaré de la façon suivante :
+Le contrôle d&#39;édition du lien est déclaré de la façon suivante :
 
 ```
 <input xpath="mainContact"/>
@@ -175,7 +175,7 @@ Il est possible de restreindre le choix des éléments de la cible en ajoutant l
 
 #### Collection de liens {#link-collection-1}
 
-La définition de la collection est identique à celle d&#39;une liste sur des éléments de collection :
+La définition de la collection est identique à celle d&#39;une liste sur des éléments de collection :
 
 ```
 <element label="List of contacts" name="contact" unbound="true">
@@ -183,7 +183,7 @@ La définition de la collection est identique à celle d&#39;une liste sur des �
 </element>
 ```
 
-Dans le formulaire de saisie, le contrôle liste est déclaré de la façon suivante :
+Dans le formulaire de saisie, le contrôle liste est déclaré de la façon suivante :
 
 ```
 <input nolabel="true" toolbarCaption="List of contacts" type="list" xpath="contact">
@@ -197,7 +197,7 @@ Dans le formulaire de saisie, le contrôle liste est déclaré de la façon suiv
 >
 >La liste est éditable et permet de sélectionner le lien à partir d&#39;un contrôle de type &quot;link&quot; présenté ci-dessus.
 
-Le contenu de l&#39;élément ciblé vient enrichir chaque élément de collection dans le document de sortie :
+Le contenu de l&#39;élément ciblé vient enrichir chaque élément de collection dans le document de sortie :
 
 ```
 <contact id="11504978621" recipient-cs="Doe John (john.doe@adobe.com)" recipient-id="3012"/>
@@ -210,7 +210,7 @@ Le contenu de chaque lien référencé est limité à la clé interne et à la *
 
 Un script JavaScript est utilisé pour enrichir le contenu des liens à partir de requêtes SOAP.
 
-**Exemple** : Ajouter le nom du destinataire sur le lien &quot;mainContact&quot; et les liens de collection &quot;contact&quot; :
+**Exemple** : Ajouter le nom du destinataire sur le lien &quot;mainContact&quot; et les liens de collection &quot;contact&quot; :
 
 ```
 // Update <mainContact> link
@@ -248,7 +248,7 @@ for each(var contact in content.contact)
 }
 ```
 
-Le résultat obtenu après exécution du script :
+Le résultat obtenu après exécution du script :
 
 ```
 <mainContact lastName="Doe"/>

@@ -19,7 +19,7 @@ ht-degree: 100%
 
 La création des emplacements ne peut être effectuée que par un **administrateur technique** qui a accès au sous-dossier des emplacements. Elle ne s&#39;effectue que dans l&#39;environnement en édition. Les emplacements sont automatiquement dupliqués dans l&#39;environnement en ligne lors de la validation des offres.
 
-Le contenu des offres du catalogue est paramétré dans les emplacements. Par défaut, le contenu peut être composé des champs suivants : **[!UICONTROL Titre]**, **[!UICONTROL URL de destination]**, **[!UICONTROL URL de l&#39;image]**, **[!UICONTROL Contenu HTML]** et **[!UICONTROL Contenu Texte]**. L&#39;ordre des champs est paramétré au niveau de l&#39;emplacement.
+Le contenu des offres du catalogue est paramétré dans les emplacements. Par défaut, le contenu peut être composé des champs suivants : **[!UICONTROL Titre]**, **[!UICONTROL URL de destination]**, **[!UICONTROL URL de l&#39;image]**, **[!UICONTROL Contenu HTML]** et **[!UICONTROL Contenu Texte]**. L&#39;ordre des champs est paramétré au niveau de l&#39;emplacement.
 
 Des paramètres avancés vous permettent de définir une clé d&#39;identification du contact (qui peut être composée de plusieurs éléments, comme par exemple le champ nom et le champ email à la fois). Voir à ce sujet la section [Présenter une offre identifiée](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer).
 
@@ -27,7 +27,7 @@ Le rendu HTML ou XML est créé via une fonction de rendu. L&#39;ordre des champ
 
 ![](assets/offer_space_create_009.png)
 
-Pour créer un nouvel emplacement, procédez comme suit :
+Pour créer un nouvel emplacement, procédez comme suit :
 
 1. Dans la liste des emplacements, cliquez sur **[!UICONTROL Nouveau]**.
 
@@ -46,7 +46,7 @@ Pour créer un nouvel emplacement, procédez comme suit :
 
    ![](assets/offer_space_create_003.png)
 
-1. Depuis le noeud **[!UICONTROL Contenu]** sélectionnez successivement les champs dans l&#39;ordre suivant : **[!UICONTROL Titre]**, puis **[!UICONTROL URL de l&#39;image]**, puis **[!UICONTROL Contenu HTML]**, puis **[!UICONTROL URL de destination]**.
+1. Depuis le noeud **[!UICONTROL Contenu]** sélectionnez successivement les champs dans l&#39;ordre suivant : **[!UICONTROL Titre]**, puis **[!UICONTROL URL de l&#39;image]**, puis **[!UICONTROL Contenu HTML]**, puis **[!UICONTROL URL de destination]**.
 
    ![](assets/offer_space_create_004.png)
 
@@ -60,7 +60,7 @@ Pour créer un nouvel emplacement, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Editer les fonctions]** pour créer une fonction de rendu.
 
-   Ces fonctions sont utilisées pour générer la représentation des offres sur un emplacement. Plusieurs formats sont possibles : le HTML ou le texte pour les interactions sortantes et le XML pour les interactions entrantes.
+   Ces fonctions sont utilisées pour générer la représentation des offres sur un emplacement. Plusieurs formats sont possibles : le HTML ou le texte pour les interactions sortantes et le XML pour les interactions entrantes.
 
    ![](assets/offer_space_create_006.png)
 
@@ -81,7 +81,7 @@ Une proposition d&#39;offre peut avoir différents états en fonction des intera
 
 ### Liste des états {#status-list}
 
-Interaction fournit d&#39;usine les valeurs suivantes qui peuvent être utilisées pour marquer l&#39;état d&#39;une proposition d&#39;offre :
+Interaction fournit d&#39;usine les valeurs suivantes qui peuvent être utilisées pour marquer l&#39;état d&#39;une proposition d&#39;offre :
 
 * **[!UICONTROL Acceptée]**.
 * **[!UICONTROL Différée]**.
@@ -102,7 +102,7 @@ Lorsqu&#39;une proposition d&#39;offre est créée par le moteur d&#39;interacti
 
 Pour chaque emplacement, vous pouvez paramétrer l&#39;état que vous souhaitez appliquer lors de la création de la proposition, selon l&#39;information que vous voulez voir apparaître dans les rapports d&#39;offre.
 
-Pour cela :
+Pour cela :
 
 1. Positionnez-vous dans l&#39;onglet **[!UICONTROL Stockage]** de l&#39;emplacement de votre choix.
 1. Sélectionnez l&#39;état que vous souhaitez voir s&#39;appliquer lors de la création de la proposition.
@@ -113,7 +113,7 @@ Pour cela :
 
 Lorsqu&#39;une proposition d&#39;offre est acceptée, vous pouvez utiliser une des valeurs fournies par défaut pour configurer le nouvel état de la proposition. La mise à jour est effective lorsqu&#39;un destinataire clique sur un lien contenu dans l&#39;offre, ce qui a pour effet d&#39;appeler le moteur d&#39;interaction.
 
-Pour cela :
+Pour cela :
 
 1. Positionnez-vous dans l&#39;onglet **[!UICONTROL Stockage]** de l&#39;emplacement de votre choix.
 1. Sélectionnez l&#39;état que vous souhaitez appliquer à la proposition lorsqu&#39;elle est acceptée.
@@ -128,7 +128,7 @@ L&#39;onglet **[!UICONTROL Stockage]** permet de définir les états des proposi
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
 ```
 
-Par exemple, la proposition (identifiant **40004**) correspondant à l&#39;offre **Assurance habitation** et diffusée sur la page du site **Neobank** contient l&#39;URL suivante :
+Par exemple, la proposition (identifiant **40004**) correspondant à l&#39;offre **Assurance habitation** et diffusée sur la page du site **Neobank** contient l&#39;URL suivante :
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
@@ -144,7 +144,7 @@ Dès lors qu&#39;un visiteur clique sur l&#39;offre, et donc sur l&#39;URL, le s
 
 **Interaction sortante**
 
-Dans le cas d&#39;une interaction sortante, vous pouvez appliquer automatiquement le statut **[!UICONTROL Intéressante]** à une proposition d&#39;offre lorsque la diffusion contient un lien. Il suffit d&#39;ajouter la valeur **_urlType=&quot;11&quot;** dans le lien :
+Dans le cas d&#39;une interaction sortante, vous pouvez appliquer automatiquement le statut **[!UICONTROL Intéressante]** à une proposition d&#39;offre lorsque la diffusion contient un lien. Il suffit d&#39;ajouter la valeur **_urlType=&quot;11&quot;** dans le lien :
 
 ```
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>

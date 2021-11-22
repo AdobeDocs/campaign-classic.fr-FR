@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Mises à jour de la documentation dʼAdobe Campaign Classic v7
-description: Cette page répertorie toutes les nouvelles fonctionnalités et les mises à jour de la documentation d’Adobe Campaign Classic
+description: Cette page répertorie toutes les nouvelles fonctionnalités et les mises à jour de la documentation d’Adobe Campaign Classic
 feature: Overview
 role: User
 level: Beginner
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et par version de Campaign.
 
-Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md) pour connaître les mises à jour relatives aux versions.
+Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md) pour connaître les mises à jour relatives aux versions.
 
 ## Octobre 2021{#oct-2021}
 
@@ -43,7 +43,7 @@ Ajout d’une nouvelle activité de workflow : Modifier la source de données -
 
 Des badges d’application ont été ajoutés aux pages de documentation : **S’applique uniquement à la v7** pour les fonctionnalités de Campaign Classic v7 et **s’applique aux v7 et v8** pour les fonctionnalités communes.
 
-Ajout d’une note sur l’intégration entre Campaign et AEM Assets qui a été désactivée à partir d’Adobe Experience Manager 6.4. [En savoir plus](../../integrations/using/configuring-access-to-assets.md)
+Ajout d’une note sur l’intégration entre Campaign et AEM Assets qui a été désactivée à partir d’Adobe Experience Manager 6.4. [En savoir plus](../../integrations/using/configuring-access-to-assets.md)
 
 
 ## Juillet 2021 {#july-2021}
@@ -57,7 +57,7 @@ La section **Messagerie transactionnelle** a été réorganisée et clarifiée a
 
 **Mises à jour de la documentation accompagnant la version 21.1.3**
 
-Intégration avec Adobe Journey Orchestration - [En savoir plus](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=fr). Un cas pratique étape par étape est présenté dans [cette page](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=fr)
+Intégration avec Adobe Journey Orchestration - [En savoir plus](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=fr). Un cas pratique étape par étape est présenté dans [cette page](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=fr)
 
 Améliorations du canal LINE - [En savoir plus](../../delivery/using/line-channel.md)
 
@@ -136,11 +136,11 @@ La section sur l&#39;activité **[!UICONTROL Branchement]** a été enrichie d&#
 
 La section **Connecteurs CRM** a été mise à jour, améliorée et réorganisée. [En savoir plus](../../platform/using/crm-connectors.md).
 
-Les étapes permettant de connecter **Adobe Campaign et Microsoft Dynamics** sont maintenant détaillées dans une page dédiée. [En savoir plus](../../platform/using/crm-ms-dynamics.md).
+Les étapes permettant de connecter **Adobe Campaign et Microsoft Dynamics** sont maintenant détaillées dans une page dédiée. [En savoir plus](../../platform/using/crm-ms-dynamics.md).
 
 L’API Oracle On Demand est désormais obsolète en tant que CRM connecté à Campaign. [En savoir plus](../../rn/using/deprecated-features.md).
 
-Découvrez [ici](../../production/using/locate-tomcat-version.md) comment déterminer la version actuelle de la servlet web Tomcat intégrée utilisée dans une instance d&#39;Adobe Campaign.
+Découvrez [ici](../../production/using/locate-tomcat-version.md) comment déterminer la version actuelle de la servlet web Tomcat intégrée utilisée dans une instance d&#39;Adobe Campaign.
 
 La liste des workflows techniques avec leurs packages associés a été améliorée et centralisée sur une seule page. [En savoir plus](../../workflow/using/about-technical-workflows.md)
 
@@ -205,9 +205,9 @@ L’intégration des Triggers basée à l’origine sur la configuration de l’
 
 Les pages de la documentation ont été mises à jour pour prendre en compte la mise à jour de Tomcat 8.
 
-Des détails ont été ajoutés à la description de la zone « À propos » dans la section « Obtention de votre version Adobe Campaign ». [En savoir plus](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
+Des détails ont été ajoutés à la description de la zone « À propos » dans la section « Obtention de votre version Adobe Campaign ». [En savoir plus](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 
-Des instructions pour réaliser un upgrade de build ont été ajoutées à la section « Mise à jour d’Adobe Campaign Classic ». En savoir plus[ En savoir plus](../../production/using/build-upgrade.md)
+Des instructions pour réaliser un upgrade de build ont été ajoutées à la section « Mise à jour d’Adobe Campaign Classic ». En savoir plus[ En savoir plus](../../production/using/build-upgrade.md)
 
 Des questions fréquentes sur l’upgrade de build de Campaign ont été ajoutées aux questions courantes de Campaign. En savoir plus[ En savoir plus](../../platform/using/faq-build-upgrade.md)
 
@@ -292,7 +292,7 @@ La section Suppression d’une adresse mise en quarantaine a été mise à jour.
 
 Des cas d&#39;utilisation ont été ajoutés pour [chiffrer](../../platform/using/zip-encrypt.md) et [déchiffrer](../../platform/using/unzip-decrypt.md) des données à l&#39;aide du Panneau de contrôle et des workflows Campaign.
 
-La page sur l&#39;intégration des Triggers Experience Cloud et Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
+La page sur l&#39;intégration des Triggers Experience Cloud et Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
 
 ## Juillet 2020 {#release-20-2}
 
@@ -346,7 +346,7 @@ Le FAQ a été mis à jour avec des conseils relatifs au vidage du cache local (
 
 Les bonnes pratiques relatives au modèle de données ont été améliorées avec des informations supplémentaires concernant les index. [En savoir plus](../../configuration/using/data-model-best-practices.md#indexes)
 
-La section décrivant le modèle de données intégré d’Adobe Campaign a été mise à jour en détaillant davantage chaque tableau. [En savoir plus](../../configuration/using/data-model-description.md)
+La section décrivant le modèle de données intégré d’Adobe Campaign a été mise à jour en détaillant davantage chaque tableau. [En savoir plus](../../configuration/using/data-model-description.md)
 
 Les cas d’utilisation des workflows ont été actualisés et réorganisés en sections thématiques. [En savoir plus](../../workflow/using/about-workflow-use-cases.md)
 

@@ -23,7 +23,7 @@ Lorsqu&#39;un internaute clique sur un lien tracké dans un email provenant d&#3
 
 Le client Web transmettra alors ce cookie au serveur à chaque fois qu&#39;il visitera une page contenant une balise de tracking Web, ceci pendant toute la durée de la session, c&#39;est-à-dire jusqu&#39;à ce que le client Web soit fermé.
 
-Le serveur de redirection collecte donc les informations suivantes :
+Le serveur de redirection collecte donc les informations suivantes :
 
 * l&#39;URL de la page web visitée, via un identifiant transmis en paramètre,
 * la diffusion à partir de laquelle la page web est visitée, via le cookie de session,

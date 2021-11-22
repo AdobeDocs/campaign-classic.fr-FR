@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Les filtres prédéfinis permettent de créer des règles d&#39;éligibilité sur la population ciblée qui pourront être facilement réutilisées lors de la création des offres. Ils sont propres à chaque environnement et permettent de prendre en compte les paramètres des offres.
 
-Pour créer un filtre, procédez comme suit :
+Pour créer un filtre, procédez comme suit :
 
 1. Dans le dossier **[!UICONTROL Administration]**, positionnez-vous sur **[!UICONTROL Filtres prédéfinis d&#39;offres]**.
 

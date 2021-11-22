@@ -14,7 +14,7 @@ ht-degree: 99%
 ---
 
 
-# Documentation d&#39;Adobe Campaign Classic v7 {#using}
+# Documentation d&#39;Adobe Campaign Classic v7 {#using}
 
 + [Documentation Campaign v7](campaign-classic-home.md)
 + [Dernières mises à jour](rn/using/documentation-updates.md)
@@ -37,10 +37,10 @@ ht-degree: 99%
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
    + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
 + Prise en main {#getting-started}
-   + Prise en main d’Adobe Campaign {#starting-with-adobe-campaign}
-      + [Prise en main d’Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
+   + Prise en main d’Adobe Campaign {#starting-with-adobe-campaign}
+      + [Prise en main d’Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
       + [Lancement d’Adobe Campaign](platform/using/launching-adobe-campaign.md)
-      + Espace de travail Adobe Campaign{#campaign-workspace}
+      + Espace de travail Adobe Campaign{#campaign-workspace}
          + [Prise en main de l’IU de Campaign](platform/using/adobe-campaign-workspace.md)
          + [Utilisation de l’explorateur Campaign](platform/using/adobe-campaign-explorer.md)
          + [Parcours et personnalisation des listes](platform/using/adobe-campaign-ui-lists.md)
@@ -235,7 +235,7 @@ ht-degree: 99%
    + Module de gestion de contenu {#content-management}
       + [À propos de la gestion de contenu](delivery/using/about-content-management.md)
       + [Ressources et principes de la gestion de contenu](delivery/using/content-manager-resources-and-principles.md)
-      + [Cas pratique : utiliser la gestion de contenu](delivery/using/use-case--creating-content-management.md)
+      + [Cas pratique : utiliser la gestion de contenu](delivery/using/use-case--creating-content-management.md)
       + [Schémas de données](delivery/using/data-schemas.md)
       + [Formulaires de saisie](delivery/using/input-forms.md)
       + [Mise en forme](delivery/using/formatting.md)
@@ -350,7 +350,7 @@ ht-degree: 99%
       + [Publication d’un formulaire web](web/using/publishing-a-web-form.md)
       + [Définition des propriétés des formulaires web](web/using/defining-web-forms-properties.md)
       + [Traduction d’un formulaire web](web/using/translating-a-web-form.md)
-      + [Cas pratiques : formulaires web](web/using/use-cases--web-forms.md)
+      + [Cas pratiques : formulaires web](web/using/use-cases--web-forms.md)
 + Création de questionnaires en ligne{#online-surveys}
    + [Prise en main des questionnaires](surveys/using/about-surveys.md)
    + [Étapes clés de création d’un questionnaire](surveys/using/getting-started-with-surveys.md)
@@ -360,7 +360,7 @@ ht-degree: 99%
    + [Configuration des questionnaires](surveys/using/configuring-surveys.md)
    + [Cas d’utilisation : création d’un formulaire de référence](surveys/using/use-case--creating-a-refer-a-friend-form.md)
    + [Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
-+ Intégration avec Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
++ Intégration avec Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [À propos des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
    + Partage d&#39;audiences {#audience-sharing}
       + [Partage des audiences avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
@@ -372,11 +372,11 @@ ht-degree: 99%
       + [Partage de ressources avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
       + [Configuration de l’accès à [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
       + [Insertion d’une ressource partagée](integrations/using/inserting-a-shared-asset.md)
-   + Adobe Experience Manager {#adobe-experience-manager}
+   + Adobe Experience Manager {#adobe-experience-manager}
       + [Utilisation de [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuration de l’intégration](integrations/using/configuring-the-integration.md)
       + [Création d’une [!DNL Experience Manager] newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
-   + Adobe Target {#adobe-target}
+   + Adobe Target {#adobe-target}
       + [Utilisation de [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuration de l’intégration avec [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [Insertion d’une image dynamique](integrations/using/inserting-a-dynamic-image.md)
@@ -386,17 +386,17 @@ ht-degree: 99%
       + [Synchronisation des audiences](integrations/using/synchronizing-audiences.md)
       + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
       + [Résolution des problèmes du [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
-   + Triggers Adobe Experience Cloud {#experience-triggers}
+   + Triggers Adobe Experience Cloud {#experience-triggers}
       + [Utilisation de [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
       + [Configuration d’Adobe I/O pour [!DNL Experience Cloud Triggers]](integrations/using/configuring-adobe-io.md)
       + [Configuration d’événements pour une implémentation personnalisée](integrations/using/events.md)
       + [Surveillance du pipeline](integrations/using/pipeline-monitoring.md)
       + [Dépannage du pipeline](integrations/using/pipeline-troubleshooting.md)
-   + Sources et destinations Adobe Experience Platform {#aep-sources-destinations}
+   + Sources et destinations Adobe Experience Platform {#aep-sources-destinations}
       + [Utilisation des sources et des destinations](integrations/using/get-started-sources-destinations.md)
-      + [Ingérer des audiences Adobe Experience Platform dans Campaign](integrations/using/ingest-aep-data.md)
-      + [Exporter des données de Campaign vers Adobe Experience Platform](integrations/using/export-campaign-data.md)
+      + [Ingérer des audiences Adobe Experience Platform dans Campaign](integrations/using/ingest-aep-data.md)
+      + [Exporter des données de Campaign vers Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automatisation à l’aide de workflows {#automating-with-workflows}
    + Prise en main des workflows {#introduction}
       + [À propos des workflows](workflow/using/about-workflows.md)
@@ -659,7 +659,7 @@ ht-degree: 99%
       + [Configuration de SpamAssassin](installation/using/configuring-spamassassin.md)
    + Connexion à Campaign{#connect-to-campaign}
       + [Installation de la console client](installation/using/installing-the-client-console.md)
-      + Connexion via un Adobe ID {#connecting-via-an-adobe-id}
+      + Connexion via un Adobe ID {#connecting-via-an-adobe-id}
          + [À propos de [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
          + [Configuration d’Adobe [!DNL IMS]](integrations/using/configuring-ims.md)
          + [Implémentation d’Adobe [!DNL IMS]](integrations/using/implementing-ims.md)
@@ -712,7 +712,7 @@ ht-degree: 99%
       + [Restauration](production/using/restoration.md)
       + [Duplication d&#39;environnements](production/using/duplicating-environments.md)
       + [Workflow de nettoyage de la base de données](production/using/database-cleanup-workflow.md)
-   + Mise à jour d’Adobe Campaign {#updating-adobe-campaign}
+   + Mise à jour d’Adobe Campaign {#updating-adobe-campaign}
       + [Introduction](production/using/introduction.md)
       + [Exécution d’une mise à niveau de build](production/using/build-upgrade.md)
       + [Procédure de mise à niveau (On-Premise)](production/using/upgrading.md)
@@ -817,7 +817,7 @@ ht-degree: 99%
    + Mise en place du tracking web {#setting-up-web-tracking}
       + [À propos du tracking web](configuration/using/about-web-tracking.md)
       + [Mode de tracking web](configuration/using/web-tracking-mode.md)
-      + [Balise de tracking web : définition](configuration/using/web-tracking-tag--definition.md)
+      + [Balise de tracking web : définition](configuration/using/web-tracking-tag--definition.md)
       + [Etapes de mise en place](configuration/using/setup-stages.md)
       + [Paramètres supplémentaires](configuration/using/additional-parameters.md)
       + [Créer les balises de tracking web](configuration/using/creating-web-tracking-tags.md)
@@ -834,7 +834,7 @@ ht-degree: 99%
       + [Tester la migration](migration/using/testing-the-migration.md)
       + [Configurer votre plateforme](migration/using/configuring-your-platform.md)
    + Migration vers Adobe Campaign 7 {#migrating-to-adobe-campaign-7}
-      + [Prérequis pour la migration vers Adobe Campaign 7](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
+      + [Prérequis pour la migration vers Adobe Campaign 7](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
       + [Migration sous Windows pour Adobe Campaign 7](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
       + [Migration sous Linux pour Adobe Campaign v7](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
    + Configuration {#configuration}

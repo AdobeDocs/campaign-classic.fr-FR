@@ -32,7 +32,7 @@ L’insertion et l’utilisation de champs de personnalisation sont présentées
 >* Par défaut, l&#39;adresse de réponse est l&#39;adresse de l&#39;expéditeur.
 >* Les paramètres d&#39;en-tête ne doivent pas être vides.Par défaut, ils contiennent les valeurs saisies lors de la configuration de l&#39;assistant de déploiement. Pour plus d&#39;informations, reportez-vous au [Guide d&#39;installation](../../installation/using/deploying-an-instance.md).
 >* L&#39;adresse de l&#39;expéditeur est obligatoire pour permettre l&#39;envoi d&#39;un email (norme RFC).
->* Adobe Campaign effectue une vérification syntaxique des adresses email saisies.
+>* Adobe Campaign effectue une vérification syntaxique des adresses email saisies.
 
 
 >[!IMPORTANT]
@@ -83,7 +83,7 @@ Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préfére
 
    ![](assets/s_ncs_user_wizard_email01_138.png)
 
-   Vous pouvez insérer des images dans les messages depuis un fichier local ou depuis la bibliothèque d&#39;images disponible dans Adobe Campaign. Pour cela, cliquez sur l&#39;icône **[!UICONTROL Image]** et sélectionnez l&#39;option adéquate.
+   Vous pouvez insérer des images dans les messages depuis un fichier local ou depuis la bibliothèque d&#39;images disponible dans Adobe Campaign. Pour cela, cliquez sur l&#39;icône **[!UICONTROL Image]** et sélectionnez l&#39;option adéquate.
 
    ![](assets/s_ncs_user_wizard_email01_18.png)
 
@@ -149,18 +149,18 @@ Pour personnaliser la liste des émoticônes, voir cette [page](customizing-emot
 
 Les diffusions par email au format HTML peuvent contenir des images. Depuis l&#39;assistant de diffusion, vous pouvez importer une page HTML contenant des images ou insérer des images directement depuis l&#39;éditeur HTML à partir de l&#39;icône **[!UICONTROL Image]**.
 
-Ces images peuvent être :
+Ces images peuvent être :
 
 * locales ou appelées depuis un serveur
-* stockées dans la bibliothèque des ressources publiques d&#39;Adobe Campaign
+* stockées dans la bibliothèque des ressources publiques d&#39;Adobe Campaign
 
-   Les ressources publiques sont accessibles à partir du nœud **[!UICONTROL Ressources >On-line > Ressources publiques]** de l&#39;arborescence Adobe Campaign. Elles sont regroupées dans une bibliothèque et peuvent être incluses dans les emails, mais aussi utilisées au niveau des opérations ou des tâches, ainsi que pour la gestion de contenu.
+   Les ressources publiques sont accessibles à partir du nœud **[!UICONTROL Ressources >On-line > Ressources publiques]** de l&#39;arborescence Adobe Campaign. Elles sont regroupées dans une bibliothèque et peuvent être incluses dans les emails, mais aussi utilisées au niveau des opérations ou des tâches, ainsi que pour la gestion de contenu.
 
-* Une ressource partagée via Adobe Experience Cloud. Consultez [cette section](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
+* Une ressource partagée via Adobe Experience Cloud. Consultez [cette section](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
 
 >[!IMPORTANT]
 >
->Pour inclure des images dans les emails via l&#39;assistant de diffusion, l&#39;instance Adobe Campaign doit être paramétrée afin de permettre la gestion des ressources publiques. Cette opération est réalisée dans l&#39;assistant de déploiement.Reportez-vous à [cette section](../../installation/using/deploying-an-instance.md) pour consulter les informations de paramétrage.
+>Pour inclure des images dans les emails via l&#39;assistant de diffusion, l&#39;instance Adobe Campaign doit être paramétrée afin de permettre la gestion des ressources publiques. Cette opération est réalisée dans l&#39;assistant de déploiement. Reportez-vous à [cette section](../../installation/using/deploying-an-instance.md) pour consulter les informations de paramétrage.
 
 L&#39;assistant de diffusion vous permet d&#39;ajouter dans le contenu des messages des images locales ou des images stockées dans la bibliothèque. Pour cela, cliquez sur le bouton **[!UICONTROL Image]** situé dans la barre d&#39;outils du contenu HTML.
 
@@ -205,11 +205,11 @@ Ces images sont issues d&#39;un répertoire local ou d&#39;un site web, comme vo
 
 Cliquez sur l&#39;icône **[!UICONTROL Tracking &amp; Images]** puis sur l&#39;onglet **[!UICONTROL Images]** pour lancer la détection des images présentes dans le message.
 
-Pour chaque image détectée, vous pouvez visualiser son état :
+Pour chaque image détectée, vous pouvez visualiser son état :
 
 * Si une image est locale ou enregistrée sur un autre serveur, et même si ce serveur est accessible depuis l&#39;extérieur (sur un site internet par exemple), elle sera détectée comme **[!UICONTROL Pas encore en ligne]**.
 * Les images sont détectées comme **[!UICONTROL Déjà en ligne]** si elles ont été mises en ligne antérieurement lors de la création d&#39;une autre diffusion.
-* Dans l&#39;assistant de déploiement, vous pouvez définir des URL pour lesquelles la détection des images ne sera pas active : la mise en ligne de ces images est alors **[!UICONTROL Ignorée]**.
+* Dans l&#39;assistant de déploiement, vous pouvez définir des URL pour lesquelles la détection des images ne sera pas active : la mise en ligne de ces images est alors **[!UICONTROL Ignorée]**.
 
 >[!NOTE]
 >
@@ -217,7 +217,7 @@ Pour chaque image détectée, vous pouvez visualiser son état :
 
 Lors de la phase d&#39;analyse du message, les images sont automatiquement téléchargées sur le serveur afin d&#39;être accessibles depuis l&#39;extérieur, sauf les images locales qui doivent avoir été téléchargées préalablement.
 
-Vous pouvez anticiper la mise en ligne si vous souhaitez rendre des images locales visibles par d&#39;autres opérateurs Adobe Campaign, notamment dans le cadre d&#39;un travail collaboratif sur les diffusions. Pour cela, sélectionnez l&#39;option **[!UICONTROL Mise en ligne des images]** et cliquez sur le lien pour télécharger les images sur le serveur.
+Vous pouvez anticiper la mise en ligne si vous souhaitez rendre des images locales visibles par d&#39;autres opérateurs Adobe Campaign, notamment dans le cadre d&#39;un travail collaboratif sur les diffusions. Pour cela, sélectionnez l&#39;option **[!UICONTROL Mise en ligne des images]** et cliquez sur le lien pour télécharger les images sur le serveur.
 
 ![](assets/s_ncs_user_images_in_delivery_wiz_3.png)
 
@@ -247,19 +247,19 @@ Pour insérer un code-barres dans un email, positionnez le curseur dans le conte
 
 ![](assets/barcode_insert_14.png)
 
-Puis paramétrez les éléments suivants en fonction de vos besoins :
+Puis paramétrez les éléments suivants en fonction de vos besoins :
 
 1. Choisissez le type de code-barres.
 
-   * Pour le format 1D, Adobe Campaign propose les types suivants: Codabar, Code 128, GS1-128 (anciennement EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, Interleaved 2 of 5, POSTNET et Royal Mail (RM4SCC).
+   * Pour le format 1D, Adobe Campaign propose les types suivants: Codabar, Code 128, GS1-128 (anciennement EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, Interleaved 2 of 5, POSTNET et Royal Mail (RM4SCC).
 
-      Exemple de code-barres 1D :
+      Exemple de code-barres 1D :
 
       ![](assets/barcode_insert_08.png)
 
    * Les types DataMatrix et PDF417 concernent le format 2D.
 
-      Exemple de code-barres 2D :
+      Exemple de code-barres 2D :
 
       ![](assets/barcode_insert_09.png)
 
@@ -267,11 +267,11 @@ Puis paramétrez les éléments suivants en fonction de vos besoins :
 
       ![](assets/barcode_insert_06.png)
 
-      Exemple de QR Code :
+      Exemple de QR Code :
 
       ![](assets/barcode_insert_12.png)
 
-1. Indiquez la taille du code-barres à insérer dans l&#39;email : le paramétrage de l&#39;échelle permet d&#39;augmenter ou de réduire la taille du code-barres, de x 1 à x 10.
+1. Indiquez la taille du code-barres à insérer dans l&#39;email : le paramétrage de l&#39;échelle permet d&#39;augmenter ou de réduire la taille du code-barres, de x 1 à x 10.
 1. Le champ **[!UICONTROL Valeur]** permet de définir la valeur du code-barres. Une valeur peut correspondre à une offre promotionnelle et peut être une fonction d&#39;un critère, ce peut être la valeur d&#39;un champ de la base de données relative aux clients.
 
    L&#39;exemple ci-dessous montre un code-barres de type EAN-8 auquel a été ajouté le numéro de compte d&#39;un destinataire. Pour ajouter ce numéro de compte, cliquez sur le bouton de personnalisation situé à droite du champ **[!UICONTROL Valeur]** et sélectionnez **[!UICONTROL Destinataire > N° de compte]**.

@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Configuration de l'intégration avec Adobe Target
-description: Configuration de l'intégration avec Adobe Target
+title: Configurer l'intégration avec Adobe Target
+description: Configurer l'intégration avec Adobe Target
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
@@ -24,8 +24,8 @@ ht-degree: 51%
 
 Cette intégration requiert :
 
-* des organisations Adobe Experience Cloud et Adobe Target
-* un &quot;rawbox&quot; Adobe Target défini afin d&#39;établir la connexion avec Adobe Campaign
+* des organisations Adobe Experience Cloud et Adobe Target
+* un &quot;rawbox&quot; Adobe Target défini afin d&#39;établir la connexion avec Adobe Campaign
 
 Pour configurer cette intégration dans Adobe Campaign, procédez comme suit :
 
@@ -38,8 +38,8 @@ Pour configurer cette intégration dans Adobe Campaign, procédez comme suit :
 
    ![](assets/tar_options.png)
 
-   * **[!UICONTROL TNT_EdgeServer]** : serveur Adobe Target utilisé pour l&#39;intégration. Cette option est déjà renseignée par défaut. Cette valeur correspond au **[!UICONTROL Server Domain]** Adobe Target, suivie de la valeur **/m2**. Par exemple : **tt.omtrdc.net/m2**.
-   * **[!UICONTROL TNT_TenantName]** : nom de l&#39;organisation Adobe Target. Cette valeur correspond au nom du **[!UICONTROL Client]** Adobe Target.
+   * **[!UICONTROL TNT_EdgeServer]** : serveur Adobe Target utilisé pour l&#39;intégration. Cette option est déjà renseignée par défaut. Cette valeur correspond au **[!UICONTROL Server Domain]** Adobe Target, suivie de la valeur **/m2**. Par exemple : **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_TenantName]** : nom de l&#39;organisation Adobe Target. Cette valeur correspond au nom du **[!UICONTROL Client]** Adobe Target.
 
 
 >[!CAUTION]

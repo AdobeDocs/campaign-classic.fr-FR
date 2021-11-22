@@ -27,7 +27,7 @@ Reportez-vous à [cette section](../../reporting/using/about-descriptive-analysi
 
 ![](assets/offer_simulation_012.png)
 
-D&#39;autre part, un tableau croisé dynamique permet de visualiser rapidement la répartition des offres par rang. Comme tout rapport dans Adobe Campaign, il peut être exporté, imprimé, historisé ou affiché dans un navigateur web.
+D&#39;autre part, un tableau croisé dynamique permet de visualiser rapidement la répartition des offres par rang. Comme tout rapport dans Adobe Campaign, il peut être exporté, imprimé, historisé ou affiché dans un navigateur web.
 
 Voir à ce propos [cette section](../../reporting/using/actions-on-reports.md).
 

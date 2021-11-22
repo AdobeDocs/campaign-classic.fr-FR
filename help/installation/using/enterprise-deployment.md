@@ -17,12 +17,12 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Il s&#39;agit de la configuration la plus complète. Elle étend la configuration standard pour une sécurité accrue et une disponibilité supérieure :
+Il s&#39;agit de la configuration la plus complète. Elle étend la configuration standard pour une sécurité accrue et une disponibilité supérieure :
 
 * serveurs de redirection dédiés, derrière un répartiteur de charge agissant au niveau HTTP ou au niveau TCP, pour une montée en charge et une grande disponibilité,
 * deux serveurs applicatifs, pour un meilleur débit et des capacités de fail-over (fonctionnement même en cas de panne d&#39;un serveur), isolés dans le LAN.
 
-La communication générale entre les serveurs et les processus est réalisée conformément au schéma suivant :
+La communication générale entre les serveurs et les processus est réalisée conformément au schéma suivant :
 
 ![](assets/s_901_ncs_install_enterpriseconfig.png)
 
@@ -32,8 +32,8 @@ Le débit attendu dans ce type de configuration peut être supérieur à 100 000
 
 ### Avantages {#advantages}
 
-* Optimisation de la sécurité : seuls les services qui ont besoin d&#39;être exposés à l&#39;extérieur sont installés sur la machine de la DMZ.
-* Haute disponibilité plus aisée à garantir : seule la machine visible de l&#39;extérieur doit être gérée pour la haute disponibilité.
+* Optimisation de la sécurité : seuls les services qui ont besoin d&#39;être exposés à l&#39;extérieur sont installés sur la machine de la DMZ.
+* Haute disponibilité plus aisée à garantir : seule la machine visible de l&#39;extérieur doit être gérée pour la haute disponibilité.
 
 ### Inconvénients {#disadvantages}
 
@@ -41,8 +41,8 @@ Coûts du matériel et d&#39;administration plus élevés.
 
 ### Matériel recommandé {#recommended-equipment}
 
-* Serveurs applicatifs : processeur quad-core à 2 GHz, 4 Go de mémoire, disque en RAID 1 Soft 80 Go SATA.
-* Serveurs de redirection : processeur quad-core à 2 GHz, 4 Go de mémoire, disque en RAID 1 Soft 80 Go SATA.
+* Serveurs applicatifs : processeur quad-core à 2 GHz, 4 Go de mémoire, disque en RAID 1 Soft 80 Go SATA.
+* Serveurs de redirection : processeur quad-core à 2 GHz, 4 Go de mémoire, disque en RAID 1 Soft 80 Go SATA.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Coûts du matériel et d&#39;administration plus élevés.
 * Serveur Web (IIS, Apache) sur les deux frontaux,
 * Accès à un serveur de base de données sur les deux serveurs applicatifs,
 * Boîte pour les mails rebonds accessible en POP3,
-* Création de deux alias DNS sur le répartiteur de charge :
+* Création de deux alias DNS sur le répartiteur de charge :
 
    * un premier alias exposé au grand public pour le tracking et pointant vers le répartiteur de charge sur une adresse IP virtuelle (VIP) qui est ensuite distribuée sur les deux serveurs frontaux,
    * un deuxième alias exposé aux utilisateurs métiers pour l&#39;accès console et pointant vers un répartiteur de charge sur une adresse IP virtuelle (VIP) qui est ensuite distribuée sur les deux serveurs applicatifs.
@@ -73,20 +73,20 @@ Coûts du matériel et d&#39;administration plus élevés.
 
 ### Installer et configurer le serveur applicatif n° 1 {#installing-and-configuring-the-application-server-1}
 
-Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
+Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
 
-* Nom de l&#39;instance : demo
-* Masque DNS : tracking.campaign.net*, console.campaign.net* (le serveur applicatif gère les URL pour la connexion des consoles clientes et des rapports, ainsi que les URL des pages miroir et de désinscription)
-* Langue : française
-* Base de données : campaign:demo@dbsrv
+* Nom de l&#39;instance : demo
+* Masque DNS : tracking.campaign.net*, console.campaign.net* (le serveur applicatif gère les URL pour la connexion des consoles clientes et des rapports, ainsi que les URL des pages miroir et de désinscription)
+* Langue : française
+* Base de données : campaign:demo@dbsrv
 
-Les étapes d&#39;installation du premier serveur sont les suivantes :
+Les étapes d&#39;installation du premier serveur sont les suivantes :
 
-1. Respectez la procédure d&#39;installation du serveur Adobe Campaign : package **nlserver** sous Linux ou **setup.exe** sous Windows.
+1. Respectez la procédure d&#39;installation du serveur Adobe Campaign : package **nlserver** sous Linux ou **setup.exe** sous Windows.
 
    Voir à ce propos [Prérequis pour l&#39;installation de Campaign sous Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) et [Prérequis pour l&#39;installation de Campaign sous Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
 
-1. Une fois l&#39;installation du serveur Adobe Campaign terminée, démarrez le serveur applicatif (web) avec la commande **nlserver web -tomcat** (le module web permet de lancer Tomcat en mode serveur web autonome en écoute sur le port 8080) et vérifiez que Tomcat démarre correctement :
+1. Une fois l&#39;installation du serveur Adobe Campaign terminée, démarrez le serveur applicatif (web) avec la commande **nlserver web -tomcat** (le module web permet de lancer Tomcat en mode serveur web autonome en écoute sur le port 8080) et vérifiez que Tomcat démarre correctement :
 
    ```
    12:08:18 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -102,12 +102,12 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
 
    Appuyez sur **Ctrl+C** pour arrêter le serveur.
 
-   Voir à ce propos les sections suivantes :
+   Voir à ce propos les sections suivantes :
 
    * Pour Linux : [Premier démarrage du serveur](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
    * Pour Windows : [Premier démarrage du serveur](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
 
-1. Changez le mot de passe **internal** à partir de la commande :
+1. Changez le mot de passe **internal** à partir de la commande :
 
    ```
    nlserver config -internalpassword
@@ -115,9 +115,9 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
 
    Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
-1. Créez l’instance de **démonstration** avec les masques DNS pour le suivi (ici, **tracking.campaign.net**) et l’accès aux consoles client (ici, **console.campaign.net**). Vous avez le choix entre les deux méthodes suivantes :
+1. Créez l’instance de **démonstration** avec les masques DNS pour le suivi (ici, **tracking.campaign.net**) et l’accès aux consoles client (ici, **console.campaign.net**). Vous avez le choix entre les deux méthodes suivantes :
 
-   * Créer l&#39;instance via la console :
+   * Créer l&#39;instance via la console :
 
       ![](assets/install_create_new_connexion.png)
 
@@ -125,7 +125,7 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
 
       ou
 
-   * Créer l&#39;instance en ligne de commande :
+   * Créer l&#39;instance en ligne de commande :
 
       ```
       nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
@@ -167,7 +167,7 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
 
 1. Copiez le programme d’installation de la console client (**setup-client-7.XX**, **YYYY.exe** pour v7 ou **setup-client-6.XX**, **YYY.exe** pour v6.1) dans le dossier **/datakit/nl/eng/jsp**. [En savoir plus](../../installation/using/client-console-availability-for-windows.md).
 
-1. Démarrez le serveur Adobe Campaign (**net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux) et exécutez à nouveau la commande **nlserver pdump** afin de vérifier la présence de tous les modules activés.
+1. Démarrez le serveur Adobe Campaign (**net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux) et exécutez à nouveau la commande **nlserver pdump** afin de vérifier la présence de tous les modules activés.
 
    >[!NOTE]
    >
@@ -199,13 +199,13 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
 
 Les étapes sont les suivantes :
 
-1. Installez le serveur Adobe Campaign.
+1. Installez le serveur Adobe Campaign.
 1. Copiez les fichiers de l&#39;instance créée sur le serveur applicatif n° 1
 
    Le nom d&#39;instance du serveur applicatif n°1 doit être conservé.
 
 1. Remplacez le mot de passe **internal** par celui du serveur applicatif N°1.
-1. Rattachez la base de données sur l&#39;instance :
+1. Rattachez la base de données sur l&#39;instance :
 
    ```
    nlserver config -setdblogin:PostgreSQL:campaign:demo@dbsrv -instance:demo
@@ -243,9 +243,9 @@ Les étapes sont les suivantes :
 
    Pour en savoir plus, consultez [Paramétrage du serveur Campaign](../../installation/using/configuring-campaign-server.md).
 
-1. Démarrez les serveurs Adobe Campaign.
+1. Démarrez les serveurs Adobe Campaign.
 
-   Voir à ce propos les sections suivantes :
+   Voir à ce propos les sections suivantes :
 
    * Pour Linux : [Premier démarrage du serveur](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
    * Pour Windows : [Premier démarrage du serveur](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
@@ -254,10 +254,10 @@ Les étapes sont les suivantes :
 
 Les procédures d&#39;installation et de paramétrage sont identiques sur les deux machines.
 
-Les étapes sont les suivantes :
+Les étapes sont les suivantes :
 
-1. Installez le serveur Adobe Campaign,
-1. Respectez la procédure d&#39;intégration du serveur Web (IIS, Apache) décrite dans les sections suivantes :
+1. Installez le serveur Adobe Campaign,
+1. Respectez la procédure d&#39;intégration du serveur Web (IIS, Apache) décrite dans les sections suivantes :
 
    * Pour Linux : [Intégration à un serveur web pour Linux](../../installation/using/integration-into-a-web-server-for-linux.md),
    * Pour Windows : [Intégration à un serveur web pour Windows](../../installation/using/integration-into-a-web-server-for-windows.md).
@@ -272,7 +272,7 @@ Les étapes sont les suivantes :
 
 1. Démarrez le site web et testez la redirection à partir de l&#39;URL : [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test)
 
-   Le navigateur doit afficher les messages suivants (en fonction de l&#39;URL redirigée par le répartiteur de charge) :
+   Le navigateur doit afficher les messages suivants (en fonction de l&#39;URL redirigée par le répartiteur de charge) :
 
    ```
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv1"/>
@@ -284,9 +284,9 @@ Les étapes sont les suivantes :
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv2"/>
    ```
 
-   Voir à ce propos les sections suivantes :
+   Voir à ce propos les sections suivantes :
 
    * Pour Linux : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration).
    * Pour Windows : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration).
 
-1. Démarrer le serveur Adobe Campaign.
+1. Démarrer le serveur Adobe Campaign.

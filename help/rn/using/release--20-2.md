@@ -38,7 +38,7 @@ _31 mars 2021_
 * Correction d&#39;un problème en raison duquel les liens de tracking signés ne fonctionnaient pas sur certains clients de messagerie. (NEO-28414, NEO-29615)
 * Correction d&#39;une séquence d&#39;ID de tracking lors de l&#39;utilisation de balises de tracking webApp qui provoquait des conflits avec les ID dupliqués. (NEO-27931)
 * Correction d&#39;un problème en raison duquel les workflows en cours d&#39;exécution étaient arrêtés par le redémarrage quotidien du serveur wfserver. (NEO-30047)
-* Correction d&#39;un problème de sécurité lors de l&#39;utilisation des appels d&#39;API effectués par des utilisateurs non-administrateurs lors de la synchronisation de modèles Adobe Experience Manager. (NEO-32389, NEO-23487)
+* Correction d&#39;un problème de sécurité lors de l&#39;utilisation des appels d&#39;API effectués par des utilisateurs non-administrateurs lors de la synchronisation de modèles Adobe Experience Manager. (NEO-32389, NEO-23487)
 * Correction d&#39;un problème en raison duquel la console se bloquait lors de la fermeture d&#39;une boîte de dialogue sur une diffusion créée à partir d&#39;un modèle. (NEO-31547)
 * Correction d&#39;un problème qui se produisait lors de la création et de l&#39;enregistrement d&#39;une diffusion dans l&#39;onglet **Ciblage et workflow** d&#39;une campagne : la prévisualisation échouait avec l&#39;erreur suivante.(NEO-29440)
 * Correction d&#39;un problème en raison duquel Tomcat 8.5 envoyait des réponses non valides, ce qui provoquait des erreurs dans les logs de messagerie transactionnelle. (NEO-30858)
@@ -63,9 +63,9 @@ _22 décembre 2020_
 
 >[!CAUTION]
 >
-> * Cette version s&#39;accompagne d&#39;un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter après le **30 juin 2021**.  [En savoir plus](../../technotes/using/ims-updates.md)
+> * Cette version s&#39;accompagne d&#39;un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe IDentity Service (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter après le **30 juin 2021**.  [En savoir plus](../../technotes/using/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez lʼassistance clientèle dʼAdobe pour étendre lʼassistance jusquʼen février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
+> * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez lʼassistance clientèle dʼAdobe pour étendre lʼassistance jusquʼen février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
 
 
 **Améliorations**
@@ -229,7 +229,7 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](https://helpx.adob
 
 * Les anciens connecteurs SMS sont désormais obsolètes. Consultez la [page Fonctionnalités obsolètes](../../rn/using/deprecated-features.md).
 
-* Vous ne pouvez plus utiliser votre propre compte Litmus pour configurer et utiliser l&#39;Inbox rendering dans Adobe Campaign. [En savoir plus](../../delivery/using/inbox-rendering.md).
+* Vous ne pouvez plus utiliser votre propre compte Litmus pour configurer et utiliser l’Inbox rendering dans Adobe Campaign. [En savoir plus](../../delivery/using/inbox-rendering.md).
 
 * Pour mieux distinguer les vues et les dossiers, la couleur des noms de vues a été changée du bleu foncé au cyan foncé. [En savoir plus](../../platform/using/access-management-folders.md)
 
@@ -315,14 +315,14 @@ Un exemple pour Linux est disponible dans cette [page](../../configuration/using
 * Correction d&#39;un problème lié à d&#39;autres champs d&#39;enregistrement lors de la création de diffusions par le biais de l&#39;option **Calculée par un script** dans l&#39;activité de workflow **Script**. (NEO-20609)
 * Correction d&#39;un problème qui empêchait la suppression des workflows fantômes dans les tâches de nettoyage de base de données.
 * Correction d&#39;un problème en raison duquel le workflow technique de **Facturation (profils actifs)** échouait. (NEO-19777)
-* Correction d&#39;un problème de régression lors de l&#39;utilisation de la fonction ACS Connector qui empêchait la connexion à une instance de Campaign Standard (gestion incorrecte de la connexion FOH/FOH2). (NEO-23433)
+* Correction d’un problème de régression lors de l’utilisation de la fonction ACS Connector qui empêchait la connexion à une instance de Campaign Standard (gestion incorrecte de la connexion FOH/FOH2). (NEO-23433)
 * Correction d&#39;un problème qui empêchait la création d&#39;une extension de schéma sur une clé primaire avec plusieurs colonnes et une table Hadoop. (NEO-17390)
 * Correction d&#39;un problème dans l&#39;activité **Chargement (SOAP)** qui empêchait le chargement de fichiers WSDL à partir d&#39;une URL. (NEO-16924)
 * Correction d&#39;un problème qui empêchait l&#39;exécution d&#39;un **Arrêt inconditionnel** à l&#39;aide de la console lors de l&#39;équilibrage de la charge de plusieurs serveurs de workflows actifs. (NEO-19556)
 * Correction d&#39;une régression qui entraînait le blocage du workflow de nettoyage.
 * Correction d&#39;un problème qui pouvait se produire lors de la publication d&#39;un modèle sur une instance d&#39;exécution.
 * Correction d&#39;un problème qui pouvait empêcher l&#39;exécution du workflow technique de collectPrivacyRequests. (NEO-20513, NEO-25169)
-* Correction de problèmes qui pouvaient se produire lors dʼune tentative de connexion à Audience Manager après la mise à niveau vers le build 9080. (NEO-20511, NEO-25167)
+* Correction de problèmes qui pouvaient se produire lors dʼune tentative de connexion à Audience Manager après la mise à niveau vers le build 9080. (NEO-20511, NEO-25167)
 * Correction de problèmes qui se produisaient lors de l&#39;export de rapports au format PDF ou XLS. (NEO-20982, NEO-23493, NEO-23348)
 * Correction d&#39;un problème en raison duquel une diffusion pouvait s&#39;afficher deux fois dans la liste de diffusion après son envoi.
 * Correction d&#39;un problème de préparation de diffusion qui pouvait se produire lorsque la configuration de routage était définie pour envoyer la diffusion par mid-sourcing.

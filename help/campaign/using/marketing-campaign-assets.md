@@ -33,9 +33,9 @@ Dans une campagne, vous pouvez également faire référence à d’autres élém
 
 Des documents peuvent être associés au niveau de l&#39;opération (documents contextuels) ou au niveau du programme (documents généraux).
 
-L&#39;onglet **[!UICONTROL Documents]** contient :
+L&#39;onglet **[!UICONTROL Documents]** contient :
 
-* la liste de tous les documents nécessaires au contenu (maquette, images, etc.) qui pourront être téléchargés en local par les opérateurs Adobe Campaign possédant les droits adéquats,
+* la liste de tous les documents nécessaires au contenu (maquette, images, etc.) qui pourront être téléchargés en local par les opérateurs Adobe Campaign possédant les droits adéquats,
 * les documents contenant des informations destinées au routeur, s&#39;ils existent.
 
 Les documents sont rattachés au programme ou à l&#39;opération via leur onglet **[!UICONTROL Edition > Documents]**.
@@ -46,11 +46,11 @@ Vous pouvez également ajouter un document dans une opération via le lien propo
 
 ![](assets/add_a_document_in_op.png)
 
-Cliquez sur l&#39;icône **[!UICONTROL Détails]** pour visualiser le contenu d&#39;un fichier et ajouter des informations complémentaires :
+Cliquez sur l&#39;icône **[!UICONTROL Détails]** pour visualiser le contenu d&#39;un fichier et ajouter des informations complémentaires :
 
 ![](assets/s_ncs_user_op_add_document_details.png)
 
-Au niveau du tableau de bord, les documents associés à l&#39;opération sont regroupés dans la section **[!UICONTROL Document(s)]**, comme dans l&#39;exemple ci-dessous :
+Au niveau du tableau de bord, les documents associés à l&#39;opération sont regroupés dans la section **[!UICONTROL Document(s)]**, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_user_op_edit_document.png)
 
@@ -80,17 +80,17 @@ Pour créer une composition, cliquez sur le sous-onglet **[!UICONTROL Compositio
 
 ![](assets/s_ncs_user_op_composition_link.png)
 
-Cliquez ensuite sur **[!UICONTROL Ajouter une composition de diffusion]** et créez l&#39;arborescence des compositions pour l&#39;opération :
+Cliquez ensuite sur **[!UICONTROL Ajouter une composition de diffusion]** et créez l&#39;arborescence des compositions pour l&#39;opération :
 
 1. Cliquez avec le bouton droit sur la racine de l&#39;arborescence et choisissez **[!UICONTROL Nouveau > Compositions de diffusion]**.
 1. Cliquez avec le bouton droit de la souris sur la composition que vous venez de créer et choisissez **[!UICONTROL Nouveau > Article]** ou **[!UICONTROL Nouveau > Champs de personnalisation]**.
 
 ![](assets/s_ncs_user_op_add_composition.png)
 
-Une composition peut contenir des articles, des champs de personnalisation, des ressources et des offres :
+Une composition peut contenir des articles, des champs de personnalisation, des ressources et des offres :
 
 * Les articles sont par exemple des documents physiques qui sont ici référencés et décrits, et seront joints à la diffusion.
-* Les champs de personnalisation permettent de créer des éléments de personnalisation relatifs aux diffusions et non aux destinataires. Ainsi, il est possible de créer des valeurs qui seront utilisées dans les diffusions pour une cible spécifique (offre de bienvenue, pourcentage de réduction, etc.) Ils sont créés dans Adobe Campaign et importés dans la composition, via le lien **[!UICONTROL Importer des champs de personnalisation...]**.
+* Les champs de personnalisation permettent de créer des éléments de personnalisation relatifs aux diffusions et non aux destinataires. Ainsi, il est possible de créer des valeurs qui seront utilisées dans les diffusions pour une cible spécifique (offre de bienvenue, pourcentage de réduction, etc.) Ils sont créés dans Adobe Campaign et importés dans la composition, via le lien **[!UICONTROL Importer des champs de personnalisation...]**.
 
    ![](assets/s_ncs_user_op_add_composition_field.png)
 
@@ -108,15 +108,15 @@ Une composition peut contenir des articles, des champs de personnalisation, des 
 
 ### Sélection d’une composition {#selecting-an-outline}
 
-Pour chaque diffusion, vous pouvez sélectionner la composition à associer à partir de la section réservée à la configuration de l&#39;extraction, comme dans l&#39;exemple ci-dessous :
+Pour chaque diffusion, vous pouvez sélectionner la composition à associer à partir de la section réservée à la configuration de l&#39;extraction, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_user_op_select_composition.png)
 
-La composition sélectionnée est alors affichée dans la section inférieure de la fenêtre. Elle peut être éditée à partir de l&#39;icône située à droite du champ ou modifiée en utilisant la liste déroulante :
+La composition sélectionnée est alors affichée dans la section inférieure de la fenêtre. Elle peut être éditée à partir de l&#39;icône située à droite du champ ou modifiée en utilisant la liste déroulante :
 
 ![](assets/s_ncs_user_op_select_composition_b.png)
 
-L&#39;onglet **[!UICONTROL Résumé]** de la diffusion affiche également cette information :
+L&#39;onglet **[!UICONTROL Résumé]** de la diffusion affiche également cette information :
 
 ![](assets/s_ncs_user_op_select_composition_c.png)
 

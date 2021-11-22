@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Lors de la création de la base de données, Adobe Campaign propose deux options distinctes :
+Lors de la création de la base de données, Adobe Campaign propose deux options distinctes :
 
 1. Créer ou recycler une base de données : choisissez cette option lorsque vous souhaitez créer une base de données ou réutiliser une base existante. Voir [1er cas : créer/recycler une base](#case-1--creating-recycling-a-database).
 1. Utiliser une base existante : choisissez cette option lorsque une base vide a déjà été créée par votre administrateur et que vous souhaitez l’utiliser, ou pour étendre la structure d’une base de données existante. Voir [2e cas : utiliser une base existante](#case-2--using-an-existing-database).
@@ -34,7 +34,7 @@ Les étapes de paramétrage sont présentés ci-après.
 
 Les étapes pour créer une base de données ou recycler une base existante sont présentées ci-après. Certains paramétrages dépendent du moteur de base de données utilisé.
 
-Ces étapes sont les suivantes :
+Ces étapes sont les suivantes :
 
 * [Etape 1 - Sélection du moteur de base de données](#step-1---selecting-the-database-engine),
 * [Etape 2 - Connexion au serveur](#step-2---connecting-to-the-server),
@@ -51,7 +51,7 @@ Sélectionnez le moteur de base de données parmi ceux proposés dans la liste d
 
 Les bases de données prises en charge sont répertoriées dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) de Campaign.
 
-Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ici : **[!UICONTROL Créer ou recycler une base de données]**.
+Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ici : **[!UICONTROL Créer ou recycler une base de données]**.
 
 ![](assets/s_ncs_install_db_oracle_creation01.png)
 
@@ -73,7 +73,7 @@ Dans la fenêtre **[!UICONTROL Accès au serveur]**, définissez les paramètres
 
 ![](assets/s_ncs_install_db_oracle_creation02.png)
 
-Pour cela, saisissez le nom et le mot de passe d&#39;un **compte système d&#39;administration** qui possède les permissions nécessaires pour créer des bases, soit :
+Pour cela, saisissez le nom et le mot de passe d&#39;un **compte système d&#39;administration** qui possède les permissions nécessaires pour créer des bases, soit :
 
 * **system** pour une base Oracle,
 * **sa** pour une base Microsoft SQL Server,
@@ -86,7 +86,7 @@ L&#39;étape suivante permet de configurer les paramètres de connexion à la ba
 
 ![](assets/s_ncs_install_db_oracle_creation03.png)
 
-Vous devez définir les paramètres suivants :
+Vous devez définir les paramètres suivants :
 
 * Indiquez le nom de la base de données à créer.
 
@@ -132,10 +132,10 @@ La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibili
    * **WdbcOptions_TableSpaceWork**: tables de travail sans schéma
    * **WdbcOptions_TableSpaceWorkIndex**: index des tables de travail sans schéma
 
-* Pour une base Oracle, l&#39;utilisateur Adobe Campaign doit avoir accès aux librairies Oracle, typiquement en étant membre du groupe **oinstall**.
-* L&#39;option **[!UICONTROL Fixer ou changer le mot de passe administrateur]** permet de renseigner le mot de passe associé à l&#39;opérateur Adobe Campaign ayant les droits administrateur.
+* Pour une base Oracle, l&#39;utilisateur Adobe Campaign doit avoir accès aux librairies Oracle, typiquement en étant membre du groupe **oinstall**.
+* L&#39;option **[!UICONTROL Fixer ou changer le mot de passe administrateur]** permet de renseigner le mot de passe associé à l&#39;opérateur Adobe Campaign ayant les droits administrateur.
 
-   Il est vivement recommandé de définir le mot de passe du compte administrateur Adobe Campaign afin de ne pas créer de faille de sécurité.
+   Il est vivement recommandé de définir le mot de passe du compte administrateur Adobe Campaign afin de ne pas créer de faille de sécurité.
 
 ### Etape 6 - Lancement de la création de la base {#step-6---creating-the-database}
 
@@ -155,13 +155,13 @@ Exemple de configuration Microsoft SQL Server sur la base base61 associée au co
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
 ```
 
-## 2e cas : utiliser une base existante {#case-2--using-an-existing-database}
+## 2e cas : utiliser une base existante {#case-2--using-an-existing-database}
 
 La base de données, ainsi que l&#39;utilisateur doivent avoir été créés par l&#39;administrateur de base de données et les droits d&#39;accès correctement configurés.
 
 Par exemple, pour une base Oracle, les droits minimum requis sont : GRANT CONNECT, RESOURCE et UNLIMITED TABLESPACE.
 
-Pour utiliser une base existante, les étapes de configuration sont les suivantes :
+Pour utiliser une base existante, les étapes de configuration sont les suivantes :
 
 * [Etape 1 - Choix du moteur de base de données](#step-1---choosing-the-database-engine),
 * [Etape 2 - Paramètres de connexion à la base de données](#step-2---database-connection-settings),
@@ -175,7 +175,7 @@ Sélectionnez le moteur de base de données parmi ceux proposés dans la liste d
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ici : **[!UICONTROL Utiliser une base de données existante]**.
+Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ici : **[!UICONTROL Utiliser une base de données existante]**.
 
 ![](assets/s_ncs_install_db_oracle_exists_01.png)
 
@@ -196,7 +196,7 @@ Dans la fenêtre **[!UICONTROL Base de données]**, définissez les paramètres 
 
 ![](assets/s_ncs_install_db_oracle_exists_02.png)
 
-Vous devez définir les paramètres suivants :
+Vous devez définir les paramètres suivants :
 
 * Saisissez le nom de la base de données à utiliser,
 * Saisissez le nom et le mot de passe du compte associé à cette base,
@@ -223,10 +223,10 @@ La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibili
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
 * Pour une base Oracle, Microsoft SQL Server, PostgreSQL, l&#39;administrateur de bases de données peut par ailleurs déterminer ici des **paramètres de stockage** à utiliser lors de la création des objets base de données.
-* Pour une base Oracle, l&#39;utilisateur Adobe Campaign doit avoir accès aux librairies Oracle, typiquement en étant membre du groupe **oinstall**.
-* L&#39;option **[!UICONTROL Fixer ou changer le mot de passe administrateur]** permet de renseigner le mot de passe associé à l&#39;opérateur Adobe Campaign ayant les droits administrateur.
+* Pour une base Oracle, l&#39;utilisateur Adobe Campaign doit avoir accès aux librairies Oracle, typiquement en étant membre du groupe **oinstall**.
+* L&#39;option **[!UICONTROL Fixer ou changer le mot de passe administrateur]** permet de renseigner le mot de passe associé à l&#39;opérateur Adobe Campaign ayant les droits administrateur.
 
-   Il est vivement recommandé de définir le mot de passe du compte administrateur Adobe Campaign afin de ne pas créer de faille de sécurité.
+   Il est vivement recommandé de définir le mot de passe du compte administrateur Adobe Campaign afin de ne pas créer de faille de sécurité.
 
 ### Etape 5 - Lancement de la création de la base {#step-5---creating-the-database}
 

@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## À propos de l&#39;intégration du connecteur Adobe Analytics {#about-analytics-connector-integration}
 
-Le connecteur Adobe Analytics permet à Adobe Campaign et Adobe Analytics d&#39;interagir par le biais du package **[!UICONTROL Connecteurs Web Analytics]**. Il transmet des données à Adobe Campaign sous la forme de segments portant sur le comportement des utilisateurs suite à une campagne par e-mail. Réciproquement, elle envoie des indicateurs et des attributs de campagnes par e-mail diffusées par Adobe Campaign à Adobe Analytics.
+Le connecteur Adobe Analytics permet à Adobe Campaign et Adobe Analytics d&#39;interagir par le biais du package **[!UICONTROL Connecteurs Web Analytics]**. Il transmet des données à Adobe Campaign sous la forme de segments portant sur le comportement des utilisateurs suite à une campagne par e-mail. Réciproquement, elle envoie des indicateurs et des attributs de campagnes par e-mail diffusées par Adobe Campaign à Adobe Analytics.
 
 >[!CAUTION]
 >
@@ -28,16 +28,16 @@ Le connecteur Adobe Analytics permet à Adobe Campaign et Adobe Analytics d&#
 >* Avant de commencer, assurez-vous que le système Adobe Identity Management (IMS) est implémenté dans Campaign. [En savoir plus dans cette page](../../integrations/using/about-adobe-id.md).
 
 
-Avec le connecteur Adobe Analytics, Adobe Campaign peut mesurer l&#39;audience Internet (Web Analytics). Grâce à ces intégrations, Adobe Campaign peut récupérer des données sur le comportement des visiteurs pour un ou plusieurs sites à la suite d&#39;une campagne marketing. Après analyse, l&#39;application peut exécuter des campagnes de remarketing avec une vue pour les convertir en acheteurs. Réciproquement, les outils Web Analytics permettent à Adobe Campaign de transférer des indicateurs et des attributs de campagne à ses plateformes.
+Avec le connecteur Adobe Analytics, Adobe Campaign peut mesurer l&#39;audience Internet (Web Analytics). Grâce à ces intégrations, Adobe Campaign peut récupérer des données sur le comportement des visiteurs pour un ou plusieurs sites à la suite d&#39;une campagne marketing. Après analyse, l&#39;application peut exécuter des campagnes de remarketing avec une vue pour les convertir en acheteurs. Réciproquement, les outils Web Analytics permettent à Adobe Campaign de transférer des indicateurs et des attributs de campagne à ses plateformes.
 
 Les champs d&#39;action de chaque outil sont les suivants :
 
-* Rôle du connecteur Web Analytics :
+* Rôle du connecteur Web Analytics :
 
-   1. marque les campagnes email lancées avec Adobe Campaign,
+   1. marque les campagnes email lancées avec Adobe Campaign,
    1. enregistre, sous forme de segments, les comportements des destinataires sur le site où ils se sont rendus après avoir cliqué sur les liens contenus dans l&#39;email de la campagne. Les segments portent sur les produits abandonnés (consultés sur le site mais qui ne sont ni mis dans le panier, ni achetés), les achats ou les abandons de panier.
 
-* Rôle d&#39;Adobe Campaign :
+* Rôle d&#39;Adobe Campaign :
 
    1. envoie les indicateurs et les attributs de la campagne vers le connecteur qui les transfère vers l&#39;outil de Web Analytics,
    1. récupère et analyse les segments,
@@ -90,9 +90,9 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
 ### Configuration des variables de conversion et des événements de succès {#configure-conversion-success}
 
-Vous devez configurer vos **[!UICONTROL variables de conversion]** et **[!UICONTROL événements de succès]** comme suit :
+Vous devez configurer vos **[!UICONTROL variables de conversion]** et **[!UICONTROL événements de succès]** comme suit :
 
-1. Sélectionnez la **[!UICONTROL suite de rapports]** que vous souhaitez lier à Adobe Campaign.
+1. Sélectionnez la **[!UICONTROL suite de rapports]** que vous souhaitez lier à Adobe Campaign.
 
 1. À partir du bouton **[!UICONTROL Modifier les paramètres]**, sélectionnez **[!UICONTROL Conversion]** > **[!UICONTROL Variables de conversion]**.
 
@@ -133,9 +133,9 @@ Vous devez configurer vos **[!UICONTROL variables de conversion]** et **[!UICONT
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé.
 
-Après avoir configuré vos **[!UICONTROL variables de conversion]** et **[!UICONTROL événements de succès]**, assurez-vous que les variables sont incluses dans le **[!UICONTROL profil de produit]** créé pour Analytics Connector. Voir à ce propos la section [Création d’un profil de produit Adobe Analytics](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile).
+Après avoir configuré vos **[!UICONTROL variables de conversion]** et **[!UICONTROL événements de succès]**, assurez-vous que les variables sont incluses dans le **[!UICONTROL profil de produit]** créé pour Analytics Connector. Voir à ce propos la section [Création d’un profil de produit Adobe Analytics](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile).
 
-Vous devrez ensuite configurer les **[!UICONTROL comptes externes]** dans Adobe Campaign Classic.
+Vous devrez ensuite configurer les **[!UICONTROL comptes externes]** dans Adobe Campaign Classic.
 
 ### Configuration de votre compte externe dans Adobe Campaign Classic {#external-account-classic}
 
@@ -149,13 +149,13 @@ Vous devez maintenant configurer votre compte externe **[!UICONTROL Web Analyti
 
 Veuillez noter que si l&#39;une de vos **[!UICONTROL suites de rapports]**, **[!UICONTROL variables de conversion]** ou **[!UICONTROL événements de succès]** n&#39;est pas visible lors de la configuration de votre compte externe, cela signifie que vous ne disposez pas d&#39;une autorisation pour ce nouveau composant dans le **[!UICONTROL profil de produit]** associé à l&#39;utilisateur.
 
-Pour plus d’informations, consultez la page [Profils de produit pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=fr#product-profile-admins).
+Pour plus d’informations, consultez la page [Profils de produit pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=fr#product-profile-admins).
 
-1. Accédez au dossier **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]** de l&#39;arborescence Adobe Campaign et cliquez sur le bouton **[!UICONTROL Nouveau]**.
+1. Dans l&#39;arborescence Adobe Campaign, accédez au dossier **[!UICONTROL Administration**[!UICONTROL  > ]**Plateforme**[!UICONTROL  > ]**Comptes externes]** et cliquez sur le bouton **[!UICONTROL Nouveau]**.
 
    ![](assets/analytics_connnector_9.png)
 
-1. Utilisez la liste déroulante pour sélectionner le type **[!UICONTROL Web Analytics]** et **[!UICONTROL Adobe Analytics]** dans la liste déroulante **[!UICONTROL Intégration]**.
+1. Utilisez la liste déroulante pour sélectionner le type **[!UICONTROL Web Analytics]** et **[!UICONTROL Adobe Analytics]** dans la liste déroulante **[!UICONTROL Intégration]**.
 
    ![](assets/analytics_connnector_10.png)
 
@@ -174,7 +174,7 @@ Pour plus d’informations, consultez la page [Profils de produit pour Adobe Ana
 
 1. Dans la catégorie **[!UICONTROL Événements]**, mappez les dix **[!UICONTROL événements de succès]** configurés dans [!DNL Adobe Analytics].
 
-1. Cliquez sur **[!UICONTROL Soumettre]** lorsque vous avez terminé. Adobe Campaign crée une **[!UICONTROL source de données]**, des **[!UICONTROL mesures calculées]**, des **[!UICONTROL segments de remarketing]** et des **[!UICONTROL classifications]** dans la **[!UICONTROL suite de rapports]** Analytics mappée.
+1. Cliquez sur **[!UICONTROL Soumettre]** lorsque vous avez terminé. Adobe Campaign va créer une **[!UICONTROL source de données]**, des **[!UICONTROL mesures calculées]**, des **[!UICONTROL segments de remarketing]** et des **[!UICONTROL classifications]** dans la **[!UICONTROL suite de rapports]** mappée.
 
    Une fois cette synchronisation entre [!DNL Adobe Analytics] et Adobe Campaign effectuée, vous pouvez fermer la fenêtre.
 
@@ -206,7 +206,7 @@ Pour plus d’informations, consultez la page [Profils de produit pour Adobe Ana
 
 1. L&#39;onglet **[!UICONTROL Avancé]** vous permet de modifier des paramètres plus techniques.
 
-   * **[!UICONTROL Durée de vie]** : permet de définir un délai (en jours) après lequel les événements web récupérés dans Adobe Campaign par les workflows techniques. Par défaut : 180 jours.
+   * **[!UICONTROL Durée de vie]** : permet de définir un délai (en jours) après lequel les événements web récupérés dans Adobe Campaign par les workflows techniques. Par défaut : 180 jours.
    * **[!UICONTROL Persistance]** : permet de définir la période pendant laquelle tout événement web (un achat par exemple) peut être attribué à une opération de remarketing. Par défaut : 7 jours.
 
 >[!NOTE]
@@ -270,15 +270,15 @@ Afin qu&#39;Adobe Experience Cloud puisse suivre l&#39;activité sur les sites
 
    ![](assets/webanalytics_delivery_properties_002.png)
 
-1. Vous pouvez maintenant envoyer votre diffusion et accéder au rapport correspondant dans Adobe Analytics.
+1. Vous pouvez maintenant envoyer votre diffusion et accéder au rapport correspondant dans Adobe Analytics.
 
 ## Créer une opération de remarketing {#creating-a-re-marketing-campaign}
 
 Pour préparer votre campagne de remarketing, vous devez créer des modèles de diffusion qui seront ensuite utilisés dans les opérations de type remarketing. Vous devez ensuite paramétrer votre opération de remarketing et lui associer un segment. A chaque segment doit correspondre une opération de remarketing différente.
 
-Les campagnes de remarketing sont automatiquement lancées lorsque Adobe Campaign a récupéré les données analysant le comportement des personnes ciblées par la campagne initiale. En cas d&#39;abandon de panier ou de visualisation de produits sans achat, une diffusion est envoyée aux personnes concernées afin que leur navigation sur le site débouche sur un achat.
+Les campagnes de remarketing sont automatiquement lancées lorsque Adobe Campaign a récupéré les données analysant le comportement des personnes ciblées par la campagne initiale. En cas d&#39;abandon de panier ou de visualisation de produits sans achat, une diffusion est envoyée aux personnes concernées afin que leur navigation sur le site débouche sur un achat.
 
-Adobe Campaign met à votre disposition des modèles de diffusion personnalisés que vous pouvez utiliser ou dont vous pouvez vous inspirer pour préparer vos campagnes.
+Adobe Campaign met à votre disposition des modèles de diffusion personnalisés que vous pouvez utiliser ou dont vous pouvez vous inspirer pour préparer vos campagnes.
 
 1. Dans l&#39;**[!UICONTROL Explorateur]**, accédez au dossier **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]** de l&#39;arborescence Adobe Campaign.
 
@@ -308,6 +308,6 @@ Adobe Campaign met à votre disposition des modèles de diffusion personnalisés
 
 1. Cliquez sur **[!UICONTROL OK]** pour fermer la fenêtre de l&#39;opération.
 
-Le rapport **[!UICONTROL Efficacité du remarketing]** est accessible depuis la page des rapports globaux. Il permet de visualiser le nombre de contacts convertis (ayant réalisés un achat) par rapport aux abandons de panier suite à la campagne de remarketing d&#39;Adobe Campaign. Le taux de conversion est calculé sur les 7 ou 30 derniers jours ou depuis le début de la synchronisation entre Adobe Campaign et les outils de Web Analytics.
+Le rapport **[!UICONTROL Efficacité du remarketing]** est accessible depuis la page des rapports globaux. Il permet de visualiser le nombre de contacts convertis (ayant réalisés un achat) par rapport aux abandons de panier suite à la campagne de remarketing d&#39;Adobe Campaign. Le taux de conversion est calculé sur les 7 ou 30 derniers jours ou depuis le début de la synchronisation entre Adobe Campaign et les outils de Web Analytics.
 
 ![](assets/remarketing_reporting.png)

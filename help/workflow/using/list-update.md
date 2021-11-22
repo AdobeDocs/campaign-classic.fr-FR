@@ -31,13 +31,13 @@ Si la liste existe déjà, les destinataires seront ajoutés au contenu existant
 
 Si vous souhaitez que la liste créée ou mise à jour utilise une autre table que la table des destinataires, cochez l&#39;option **[!UICONTROL Créer ou utiliser une liste ayant sa propre table]**.
 
-Pour utiliser cette option, les tables spécifiques concernées doivent avoir été configurées dans votre instance Adobe Campaign.
+Pour utiliser cette option, les tables spécifiques concernées doivent avoir été configurées dans votre instance Adobe Campaign.
 
 Généralement, la sauvegarde d&#39;une cible dans une liste marque la fin d&#39;un workflow. Par défaut, l&#39;activité **[!UICONTROL Mise à jour de liste]** n&#39;a donc pas de transition sortante. Cochez l&#39;option **[!UICONTROL Générer une transition sortante]** pour en ajouter une.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment créer une liste de destinataires à partir de l‘Explorateur dans une vidéo](#video)
 
-## Exemple : mise à jour de liste {#example--list-update}
+## Exemple : mise à jour de liste {#example--list-update}
 
 Dans l&#39;exemple suivant, l&#39;activité de mise à jour de liste suit une requête permettant de cibler les hommes de plus de 30 ans vivant en France. Dans un premier temps, la liste sera créée à partir des résultats de la requête. Elle sera mise à jour à chaque lancement ultérieur du workflow. Elle pourra par exemple être utilisée régulièrement dans le cadre de campagnes d&#39;offres promotionnelles ciblées.
 

@@ -13,13 +13,13 @@ ht-degree: 100%
 
 ---
 
-# Cas pratique : création d&#39;une diffusion email{#use-case-creating-an-email-delivery}
+# Cas pratique : création d&#39;une diffusion email{#use-case-creating-an-email-delivery}
 
 ![](../../assets/common.svg)
 
-Dans ce cas d’utilisation, vous apprendrez à concevoir une diffusion par email à l’aide du Digital Content Editor (DCE) d’Adobe Campaign.
+Dans ce cas d’utilisation, vous apprendrez à concevoir une diffusion par email à l’aide du Digital Content Editor (DCE) d’Adobe Campaign.
 
-Notre objectif final est d&#39;obtenir une diffusion partant d&#39;un modèle personnalisé contenant :
+Notre objectif final est d&#39;obtenir une diffusion partant d&#39;un modèle personnalisé contenant :
 
 * une adresse directe au destinataire (utilisant ses nom et prénom),
 * deux types de liens vers une URL externe,
@@ -40,7 +40,7 @@ Pour créer une diffusion, placez le curseur dans l’onglet **Campagnes** et cl
 
 ## Etape 2 - Sélectionner un modèle {#step-2---selecting-a-template}
 
-Sélectionnez un modèle de diffusion, puis nommez votre diffusion. Ce nom sera visible uniquement par les utilisateurs de la console Adobe Campaign et non par vos destinataires mais cet intitulé s&#39;affichera dans la liste de vos diffusions. Cliquez sur **[!UICONTROL Continuer]**.
+Sélectionnez un modèle de diffusion, puis nommez votre diffusion. Ce nom sera visible uniquement par les utilisateurs de la console Adobe Campaign et non par vos destinataires mais cet intitulé s&#39;affichera dans la liste de vos diffusions. Cliquez sur **[!UICONTROL Continuer]**.
 
 ![](assets/dce_delivery_model.png)
 
@@ -52,7 +52,7 @@ Sélectionnez le modèle de contenu qui vous convient, puis cliquez sur le bouto
 
 ![](assets/dce_select_model.png)
 
-Vous pouvez également importer du contenu HTML créé en dehors d&#39;Adobe Campaign en sélectionnant l&#39;option **[!UICONTROL A partir d&#39;un fichier]**.
+Vous pouvez également importer du contenu HTML créé en dehors d&#39;Adobe Campaign en sélectionnant l&#39;option **[!UICONTROL A partir d&#39;un fichier]**.
 
 ![](assets/dce_select_from_file_template.png)
 
@@ -60,7 +60,7 @@ Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutil
 
 >[!CAUTION]
 >
->Si vous utilisez l&#39;**interface web d&#39;Adobe Campaign**, vous devez importer un fichier .zip comportant le contenu HTML et les images associées.
+>Si vous utilisez l&#39;**interface web d&#39;Adobe Campaign**, vous devez importer un fichier .zip comportant le contenu HTML et les images associées.
 
 ## Etape 4 - Concevoir le message {#step-4---designing-the-message}
 
@@ -104,7 +104,7 @@ Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutil
 
 * Intégrer un lien vers une application Web
 
-   Le Digital Content Editor vous permet d&#39;intégrer des liens vers les applications Web de votre console Adobe Campaign, telles qu&#39;une landing page ou une page de formulaire. Voir à ce sujet la section [Lien vers une application web](editing-content.md#link-to-a-web-application).
+   Le Digital Content Editor vous permet d&#39;intégrer des liens vers les applications Web de votre console Adobe Campaign, telles qu&#39;une landing page ou une page de formulaire. Voir à ce sujet la section [Lien vers une application web](editing-content.md#link-to-a-web-application).
 
    Sélectionnez un champ texte dans lequel figurera votre lien vers l&#39;application Web, puis cliquez sur la première icône. Choisissez **[!UICONTROL Lien vers une application Web]**, puis sélectionnez l&#39;application souhaitée en cliquant sur l&#39;icône située à la fin du champ **Application Web**.
 

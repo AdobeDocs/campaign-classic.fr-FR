@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-En fonction des bases de données externes auxquelles vous souhaitez pouvoir accéder depuis Adobe Campaign, certains paramétrages spécifiques sont nécessaires. Ces paramétrages concernent essentiellement l&#39;installation de pilotes et la déclarations de variables d&#39;environnement propres à chaque SGBDR sur le serveur Adobe Campaign.
+En fonction des bases de données externes auxquelles vous souhaitez pouvoir accéder depuis Adobe Campaign, certains paramétrages spécifiques sont nécessaires. Ces paramétrages concernent essentiellement l&#39;installation de pilotes et la déclarations de variables d&#39;environnement propres à chaque SGBDR sur le serveur Adobe Campaign.
 
-En règle générale, il est nécessaire d’installer la couche cliente correspondant à la base de données externe utilisée sur le serveur Adobe Campaign.
+En règle générale, il est nécessaire d&#39;installer la couche cliente correspondant à la base externe utilisée sur le serveur Adobe Campaign.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ En règle générale, il est nécessaire d’installer la couche cliente corresp
 Pour configurer l&#39;accès à une base de données externe avec FDA, les étapes de configuration sont les suivantes :
 
 1. Installez les pilotes et configurer le compte externe correspondant à votre base de données sur le serveur Adobe Campaign. Voir à ce sujet les pages spécifiques à la base de données [répertoriées ci-dessous](#fda-specific-configuration).
-1. Testez le compte externe ou créer une connexion temporaire entre Adobe Campaign et la base de données externe. [En savoir plus](../../installation/using/connecting-to-database.md)
+1. Testez le compte externe ou créer une connexion temporaire entre Adobe Campaign et la base de données externe. [En savoir plus](../../installation/using/connecting-to-database.md)
 1. Créez le schéma de la base de données externe dans Adobe Campaign. Il est ainsi possible d&#39;identifier la structure des données de la base de données externe. [En savoir plus](../../installation/using/creating-data-schema.md)
 1. Si nécessaire, créez un mapping de ciblage à partir du schéma créé précédemment. Ceci est nécessaire si les destinataires de vos diffusions proviennent de la base de données externe. Cette implémentation s&#39;accompagne de limitations liées à la personnalisation des messages. [En savoir plus](../../installation/using/defining-data-mapping.md)
 
@@ -40,7 +40,7 @@ Une fois le schéma de données créé, les données peuvent être traitées dan
 
 Selon les bases de données externes auxquelles vous souhaitez accéder à partir d’Adobe Campaign, vous devrez effectuer certaines configurations spécifiques. Ces configurations impliquent essentiellement l’installation de pilotes et la déclaration des variables d’environnement appartenant à chaque SGBDR sur le serveur Adobe Campaign, ainsi que la configuration du compte externe.
 
-Suivez les liens ci-dessous pour en savoir plus :
+Suivez les liens ci-dessous pour en savoir plus :
 
 * Connecter Campaign et [Vertica](../../installation/using/configure-fda-vertica.md)
 

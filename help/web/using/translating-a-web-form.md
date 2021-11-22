@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Il est possible de localiser une seule application Web dans plusieurs langues.
 
-Vous pouvez effectuer des traductions directement dans la console Adobe Campaign (voir [Gérer les traductions dans l&#39;éditeur](#managing-translations-in-the-editor)) ou exporter et importer des chaînes pour externaliser la traduction (voir [Externaliser les traductions](#externalizing-translation)).
+Vous pouvez effectuer des traductions directement dans la console Adobe Campaign (voir [Gérer les traductions dans l&#39;éditeur](#managing-translations-in-the-editor)) ou exporter et importer des chaînes pour externaliser la traduction (voir [Externaliser les traductions](#externalizing-translation)).
 
 La liste des langues de traduction disponibles par défaut est présentée dans la section [Changer la langue d&#39;affichage des formulaires](#changing-forms-display-language).
 
@@ -43,7 +43,7 @@ Pour définir une ou plusieurs langues de traduction, cliquez sur le bouton **[!
 
 Lorsque vous ajoutez des langues de traduction pour une application web (ou lorsque la langue par défaut et la langue d&#39;édition sont différentes), un sous-onglet **[!UICONTROL Traductions]** est ajouté dans l&#39;onglet **[!UICONTROL Edition]** afin de gérer les traductions.
 
-Adobe Campaign intègre un outil de traduction et de suivi des traductions multilingues. Cet éditeur permet de visualiser les termes à traduire ou à valider, de saisir les traductions directement dans l&#39;interface, ou d&#39;importer/exporter les chaînes de caractères afin d&#39;externaliser la traduction.
+Adobe Campaign intègre un outil de traduction et de suivi des traductions multilingues. Cet éditeur permet de visualiser les termes à traduire ou à valider, de saisir les traductions directement dans l&#39;interface, ou d&#39;importer/exporter les chaînes de caractères afin d&#39;externaliser la traduction.
 
 ## Gérer les traductions dans l&#39;éditeur {#managing-translations-in-the-editor}
 
@@ -53,7 +53,7 @@ L&#39;onglet **[!UICONTROL Traductions]** permet de saisir les traductions des c
 
 A la première ouverture de cet onglet, il ne contient aucun élément. Cliquez sur le lien **[!UICONTROL Collecter les chaînes à traduire]** pour mettre à jour les chaînes de l&#39;application web.
 
-Adobe Campaign collecte les libellés des champs ou les chaînes des onglets **[!UICONTROL Textes]** de tous les éléments statiques : blocs HTML, Javascript, etc. Les éléments statiques sont présentés dans la section [Elements statiques dans un formulaire web](static-elements-in-a-web-form.md).
+Adobe Campaign collecte les libellés des champs ou les chaînes des onglets **[!UICONTROL Textes]** de tous les éléments statiques : blocs HTML, Javascript, etc. Les éléments statiques sont présentés dans la section [Elements statiques dans un formulaire web](static-elements-in-a-web-form.md).
 
 ![](assets/s_ncs_admin_survey_trad_tab.png)
 
@@ -67,7 +67,7 @@ Chaque fois qu&#39;une chaîne est traduite, sa traduction est ajoutée dans le 
 
 Lorsque l&#39;opération de collecte détecte qu&#39;une traduction existe déjà, celle-ci apparaît dans la colonne **[!UICONTROL Texte]** de la chaîne. Le statut de la chaîne est alors **[!UICONTROL Traduit]**.
 
-Lorsqu&#39;une chaîne de caractères n&#39;a jamais été traduite, le champ **[!UICONTROL Texte]** est vide et le statut est : **[!UICONTROL A traduire]**.
+Lorsqu&#39;une chaîne de caractères n&#39;a jamais été traduite, le champ **[!UICONTROL Texte]** est vide et le statut est : **[!UICONTROL A traduire]**.
 
 ### Filtrer les chaînes {#filtering-strings}
 
@@ -93,11 +93,11 @@ Pour n&#39;afficher que les termes non traduits, sélectionnez **[!UICONTROL A t
    >
    >La validation d&#39;une traduction est optionnelle et donc non bloquante.
 
-   Une traduction non validée apparaît avec le statut : **[!UICONTROL Traduit]**. Une fois validée, la traduction apparaît avec le statut : **[!UICONTROL Validé]**.
+   Une traduction non validée apparaît avec le statut : **[!UICONTROL Traduit]**. Une fois validée, la traduction apparaît avec le statut : **[!UICONTROL Validé]**.
 
 ## Externaliser les traductions {#externalizing-translation}
 
-Vous pouvez exporter et importer les chaînes de caractères afin de les traduire en utilisant un outil externe à Adobe Campaign.
+Vous pouvez exporter et importer les chaînes de caractères afin de les traduire en utilisant un outil externe à Adobe Campaign.
 
 >[!CAUTION]
 >
@@ -109,7 +109,7 @@ Vous pouvez exporter et importer les chaînes de caractères afin de les traduir
 
    ![](assets/s_ncs_admin_survey_trad_export.png)
 
-1. Choisissez la **[!UICONTROL Stratégie d&#39;export]** :
+1. Choisissez la **[!UICONTROL Stratégie d&#39;export]** :
 
    * **[!UICONTROL Un fichier par langue]** : l&#39;export génèrera un fichier par langue de traduction. Chaque fichier sera commun à toutes les applications web sélectionnées.
    * **[!UICONTROL Un fichier par application web]** : l&#39;export génèrera un fichier par application web sélectionnée. Chaque fichier contiendra toutes les langues de traduction.
@@ -414,7 +414,7 @@ Les langues de traduction et les dictionnaires disponibles par défaut sont rép
 
 ## Exemple : afficher une application web dans plusieurs langues {#example--displaying-a-web-application-in-several-languages}
 
-Le formulaire web suivant est disponible dans quatre langues : français, anglais, allemand et espagnol. Les chaînes de caractères ont toutes été traduites à partir de l&#39;onglet **[!UICONTROL Traduction]** du formulaire web. La langue par défaut étant le français, une fois le formulaire publié, utilisez l&#39;URL standard pour l&#39;afficher en français.
+Le formulaire web suivant est disponible dans quatre langues : français, anglais, allemand et espagnol. Les chaînes de caractères ont toutes été traduites à partir de l&#39;onglet **[!UICONTROL Traduction]** du formulaire web. La langue par défaut étant le français, une fois le formulaire publié, utilisez l&#39;URL standard pour l&#39;afficher en français.
 
 ![](assets/s_ncs_admin_survey_trad_sample_fr.png)
 
@@ -447,9 +447,9 @@ Si vous traduisez votre application web vers une langue dans laquelle le diction
 
 ![](assets/s_ncs_admin_survey_trad_error.png)
 
-Pour ajouter une langue, procédez comme suit :
+Pour ajouter une langue, procédez comme suit :
 
-1. Accédez à l&#39;arborescence Adobe Campaign et cliquez sur **[!UICONTROL Administration > Paramétrage > Dictionnaire global > Dictionnaire système]** .
+1. Accédez à l&#39;arborescence Adobe Campaign et cliquez sur **[!UICONTROL Administration > Paramétrage > Dictionnaire global > Dictionnaire système]** .
 1. Dans la partie supérieure de la fenêtre, sélectionnez la chaîne système à traduire, puis cliquez sur le bouton **[!UICONTROL Ajouter]**, dans la partie inférieure.
 
    ![](assets/s_ncs_admin_survey_trad_system_translation.png)
@@ -470,7 +470,7 @@ Pour ajouter une langue, procédez comme suit :
 
 Pour traduire vos applications web dans d&#39;autres langues que celles proposées par défaut (voir [Changer la langue d&#39;affichage des formulaires](#changing-forms-display-language)), vous devez ajouter une nouvelle langue de traduction.
 
-1. Cliquez sur le nœud **[!UICONTROL Administration > Plateforme > Énumérations]** de l&#39;arborescence d&#39;Adobe Campaign et sélectionnez **[!UICONTROL Langues disponibles pour la traduction]** dans la liste. La liste des traductions disponibles s&#39;affiche dans la partie inférieure de la fenêtre.
+1. Cliquez sur le nœud **[!UICONTROL Administration > Plateforme > Énumérations]** de l’arborescence d’Adobe Campaign et sélectionnez **[!UICONTROL Langues disponibles pour la traduction]** dans la liste. La liste des traductions disponibles s&#39;affiche dans la partie inférieure de la fenêtre.
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 

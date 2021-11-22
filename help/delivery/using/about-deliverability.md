@@ -39,7 +39,7 @@ En règle générale, les problèmes de délivrabilité sont liés aux mesures d
 
 Le taux de délivrabilité correspond au nombre de messages qui ont atteint les boîtes de réception des destinataires comparé au nombre de messages délivrés. Pour améliorer la délivrabilité, vous pouvez faire en sorte d&#39;augmenter ce taux.
 
-Avec Adobe Campaign, le taux de délivrabilité dépend de nombreux facteurs, parmi lesquels :
+Avec Adobe Campaign, le taux de délivrabilité dépend de nombreux facteurs, parmi lesquels :
 
 * Configuration correcte de vos instances : contactez votre représentant Adobe pour obtenir de l&#39;aide.
 * Configuration réseau légitime : consultez [cette section](optimize-delivery.md#network-config) ainsi que la section [Configuration et stratégie du domaine](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#domain-setup-and-strategy).
@@ -74,7 +74,7 @@ Pour plus d&#39;informations sur les bonnes pratiques à appliquer lors de la co
 
 ### Utilisation de la gestion des quarantaines
 
-Adobe Campaign gère une liste qui rassemble les plaintes contre le spam, les hard bounces et soft bounces qui surviennent de manière systématique.
+Adobe Campaign gère une liste qui rassemble les plaintes contre le spam, les hard bounces et soft bounces qui surviennent de manière systématique.
 
 Pour protéger votre délivrabilité, les destinataires dont les adresses se trouvent sur cette liste sont exclus par défaut de toute diffusion future. En effet, un envoi à ces contacts pourrait nuire à votre réputation d&#39;envoi.
 

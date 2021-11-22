@@ -17,6 +17,6 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign utilise les encodages Oracle par défaut.
+Adobe Campaign utilise les encodages Oracle par défaut.
 
 Si vous en utilisez d&#39;autres, une incompatibilité peut se produire. Voir à ce propos [cette section](../../installation/using/database.md#oracle).

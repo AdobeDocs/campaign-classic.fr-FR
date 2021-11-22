@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Une fois la diffusion envoyée et le tracking activé, le workflow technique **[!UICONTROL Tracking]** est chargé de récupérer les informations de tracking. Par défaut, il s&#39;exécute toutes les heures.
 
-Ces informations sont remontées dans l&#39;onglet **[!UICONTROL Tracking]** du profil des destinataires ciblés par la diffusion, comme dans l&#39;exemple suivant :
+Ces informations sont remontées dans l&#39;onglet **[!UICONTROL Tracking]** du profil des destinataires ciblés par la diffusion, comme dans l&#39;exemple suivant :
 
 ![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 

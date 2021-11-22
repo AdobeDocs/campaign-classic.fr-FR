@@ -96,8 +96,8 @@ Cet onglet permet d&#39;accéder aux options suivantes :
 * **[!UICONTROL Préparer les fragments de diffusion dans la base de données]** : cette option vous permet d’améliorer les performances de l’analyse des diffusions. Voir à ce propos [cette section](#improving-delivery-analysis).
 * **[!UICONTROL Préparer les données de personnalisation avec un workflow]** : cette
 option permet de préparer, dans un workflow automatique, les données de personnalisation contenues dans la diffusion, ce qui permet d’augmenter considérablement les performances d’exécution de la personnalisation. Pour plus d’informations à ce sujet, voir la section [Optimiser la personnalisation](personalization-fields.md#optimizing-personalization).
-* **[!UICONTROL Lancer le traitement dans un processus détaché]** : cette option permet de lancer l’analyse de la diffusion dans un processus à part. Par défaut, la fonction d’analyse utilise le processus du serveur applicatif d’Adobe Campaign (nlserver web). En cochant cette option, vous êtes assuré que l’analyse sera menée à son terme, même en cas de défaillance du serveur applicatif.
-* **[!UICONTROL Enregistrer les requêtes de ciblage et de personnalisation dans le journal]** : cette option permet d&#39;ajouter les logs des requêtes SQL dans le journal de la diffusion lors de la phase d&#39;analyse.
+* **[!UICONTROL Lancer le traitement dans un processus détaché]** : cette option permet de lancer l’analyse de la diffusion dans un processus à part. Par défaut, la fonction d’analyse utilise le processus du serveur applicatif d’Adobe Campaign (nlserver web). En cochant cette option, vous êtes assuré que l’analyse sera menée à son terme, même en cas de défaillance du serveur applicatif.
+* **[!UICONTROL Enregistrer les requêtes de ciblage et de personnalisation dans le journal]** : cette option permet d&#39;ajouter les logs des requêtes SQL dans le journal de la diffusion lors de la phase d&#39;analyse.
 * **[!UICONTROL Ignorer les scripts de personnalisation lors de l’envoi]** : cette option permet de ne pas interpréter les directives JavaScript présentes dans les contenus HTML. Elles seront affichées telles quelles dans les contenus envoyés. Ces directives sont introduites par la balise **&lt;%=**.
 
 ### Améliorer les performances des analyses de diffusions {#improving-delivery-analysis}
@@ -114,7 +114,7 @@ Actuellement, cette option n’est disponible que si les conditions suivantes so
 
 ### Configurer la priorité d’analyse {#analysis-priority-}
 
-Lorsque votre diffusion fait partie d&#39;une campagne, l&#39;onglet **[!UICONTROL Avancé]** propose une option supplémentaire : celle-ci vous permet d&#39;organiser l&#39;ordre de traitement des diffusions d&#39;une même campagne.
+Lorsque votre diffusion fait partie d&#39;une campagne, l&#39;onglet **[!UICONTROL Avancé]** propose une option supplémentaire : celle-ci vous permet d&#39;organiser l&#39;ordre de traitement des diffusions d&#39;une même campagne.
 
 Avant envoi, chaque diffusion est analysée. La durée d&#39;analyse dépend de la taille du fichier d&#39;extraction de la diffusion. Plus sa taille est importante, plus l&#39;analyse est longue, ce qui met en attente les diffusions suivantes.
 
@@ -136,6 +136,7 @@ Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adob
 >
 >* Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](steps-validating-the-delivery.md#changing-the-approval-mode).
 >* La configuration de la cible du BAT est expliquée dans la section [Définir une cible spécifique au BAT](steps-defining-the-target-population.md#defining-a-specific-proof-target).
+
 >
 
 
@@ -171,11 +172,11 @@ L&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion permet de
 
 ![](assets/s_ncs_user_wizard_email01_145.png)
 
-Les options disponibles sont les suivantes :
+Les options disponibles sont les suivantes :
 
 * La première option permet de conserver les doublons du BAT.
 * Les deux options ci-dessous permettent de conserver les destinataires qui se trouvent sur la liste bloquée et les adresses en quarantaine. Voir la description de ces options pour la cible principale dans la section [Personnaliser les paramètres d’exclusion](steps-defining-the-target-population.md#customizing-exclusion-settings). Contrairement à la cible d’une diffusion, où ces adresses sont exclues par défaut, elles sont conservées par défaut pour la cible d’un BAT.
-* L&#39;option **[!UICONTROL Conserver le code diffusion pour le BAT]** permet d&#39;attribuer au BAT le même code de diffusion que celui défini pour la diffusion à laquelle il correspond : ce code est spécifié dans la première étape de l&#39;assistant de diffusion.
+* L&#39;option **[!UICONTROL Conserver le code diffusion pour le BAT]** permet d&#39;attribuer au BAT le même code de diffusion que celui défini pour la diffusion à laquelle il correspond : ce code est spécifié dans la première étape de l&#39;assistant de diffusion.
 * Par défaut, l&#39;objet du BAT est préfixé par &quot;BAT N°&quot;, où N° correspond au numéro du BAT. Vous pouvez modifier ce préfixe dans le champ **[!UICONTROL Préfixe du libellé]**.
 
 ## Processus de validation avec des typologies {#validation-process-with-typologies}
@@ -202,7 +203,7 @@ Vous pouvez également éditer la typologie courante en cliquant sur l&#39;icôn
 
 ![](assets/s_ncs_user_email_del_typo_tab.png)
 
-L&#39;onglet **[!UICONTROL Règle]** propose la liste des règles de typologie à appliquer. Sélectionnez une règle et cliquez sur l&#39;icône **[!UICONTROL Détail...]** pour en visualiser le paramétrage :
+L&#39;onglet **[!UICONTROL Règle]** propose la liste des règles de typologie à appliquer. Sélectionnez une règle et cliquez sur l&#39;icône **[!UICONTROL Détail...]** pour en visualiser le paramétrage :
 
 ![](assets/s_ncs_user_email_del_typo_rules_edit.png)
 
@@ -218,7 +219,7 @@ Vous pouvez choisir un autre mode de validation dans la liste déroulante du cha
 
 ![](assets/s_ncs_user_email_del_validation_mode.png)
 
-Les modes de validation possibles sont les suivants :
+Les modes de validation possibles sont les suivants :
 
 * **[!UICONTROL Manuel]** : à la fin de la phase d’analyse, l’utilisateur doit confirmer la diffusion pour commencer l’envoi. Pour cela, cliquez sur le bouton **[!UICONTROL Démarrer]** afin de lancer la diffusion.
 * **[!UICONTROL Semi-automatique]** : les envois démarrent automatiquement si la phase d’analyse ne génère aucun message d’avertissement.

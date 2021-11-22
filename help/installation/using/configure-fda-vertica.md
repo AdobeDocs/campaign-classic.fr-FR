@@ -31,7 +31,7 @@ Utilisez l&#39;option Campaign **Federated Data Access** (FDA) pour traiter les 
 
 ## Vertica sous CentOS {#vertica-centos}
 
-Pour effectuer la configuration de [!DNL Vertica] sous CentOS, procédez comme suit :
+Pour effectuer la configuration de [!DNL Vertica] sur CentOS, procédez comme suit :
 
 1. Téléchargez les pilotes ODBC pour [!DNL Vertica]. [Cliquez ici](https://www.vertica.com/download/vertica/client-drivers/) et téléchargez le dernier fichier RPM Linux.
 

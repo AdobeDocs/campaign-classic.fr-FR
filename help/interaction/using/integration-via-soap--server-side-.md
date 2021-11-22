@@ -17,41 +17,41 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Les services web SOAP fournis pour la gestion des offres sont différents de ceux habituellement utilisés dans Adobe Campaign. Ils sont accessibles via l&#39;URL d&#39;interaction décrite dans la section précédente et permettent de proposer ou mettre à jour des offres pour un contact donné.
+Les services web SOAP fournis pour la gestion des offres sont différents de ceux habituellement utilisés dans Adobe Campaign. Ils sont accessibles via l&#39;URL d&#39;interaction décrite dans la section précédente et permettent de proposer ou mettre à jour des offres pour un contact donné.
 
 ## Proposition d&#39;offres {#offer-proposition}
 
-Pour une proposition d&#39;offres via SOAP, vous devez ajouter la commande **nms:proposition#Propose**, suivie des paramètres suivants :
+Pour une proposition d&#39;offres via SOAP, vous devez ajouter la commande **nms:proposition#Propose**, suivie des paramètres suivants :
 
-* **targetId** : clé primaire du destinataire (il peut s&#39;agir d&#39;une clé composite).
-* **maxCount** : indique le nombre de propositions d&#39;offre pour le contact.
+* **targetId** : clé primaire du destinataire (il peut s&#39;agir d&#39;une clé composite).
+* **maxCount** : indique le nombre de propositions d&#39;offre pour le contact.
 * **context** : vous permet d’ajouter des informations contextuelles dans le schéma d’espace. Si le schéma utilisé est **nms:interaction**, **`<empty>`** doit être ajouté.
-* **categories** : indique la ou les catégories auxquelles doivent appartenir la ou les offres proposées.
-* **themes** : indique la ou les thèmes auxquelles doivent appartenir la ou les offres proposées.
-* **uuid** : valeur du cookie permanent Adobe Campaign (&quot;uuid230&quot;).
-* **nlid** : valeur du cookie de session Adobe Campaign (&quot;nlid&quot;).
-* **noProp** : utilisez la valeur &quot;true&quot; pour désactiver l&#39;insertion de propositions.
+* **categories** : indique la ou les catégories auxquelles doivent appartenir la ou les offres proposées.
+* **themes** : indique la ou les thèmes auxquelles doivent appartenir la ou les offres proposées.
+* **uuid** : valeur du cookie permanent Adobe Campaign (&quot;uuid230&quot;).
+* **nlid** : valeur du cookie de session Adobe Campaign (&quot;nlid&quot;).
+* **noProp** : utilisez la valeur &quot;true&quot; pour désactiver l&#39;insertion de propositions.
 
 >[!NOTE]
 >
 >Les paramètres **targetId** et **maxCount** sont obligatoires. Les autres sont optionnels.
 
-En réponse à la requête, le service SOAP renverra les paramètres suivants :
+En réponse à la requête, le service SOAP renverra les paramètres suivants :
 
-* **interactionId** : id de l&#39;interaction.
-* **propositions** : élément XML, contient la liste des propositions, chacune ayant un id et une représentation HTML propre.
+* **interactionId** : id de l&#39;interaction.
+* **propositions** : élément XML, contient la liste des propositions, chacune ayant un id et une représentation HTML propre.
 
 ## Mise à jour d&#39;une offre {#offer-update}
 
-Ajoutez la commande **nms:interaction#UpdateStatus** dans l&#39;URL, puis les paramètres suivants :
+Ajoutez la commande **nms:interaction#UpdateStatus** dans l&#39;URL, puis les paramètres suivants :
 
 * **proposition** : chaîne de caractères, contient l&#39;identifiant de la proposition donnée en sortie lors d&#39;un appel au moteur. Voir [Proposition d&#39;offres](#offer-proposition).
-* **status** : nombre, indique le nouveau statut de l&#39;offre. Les valeurs possibles sont listées dans l&#39;énumération **propositionStatus**, dans le schéma **nms:common**. Par exemple, d&#39;usine, le nombre 3 correspond au statut **Acceptée**.
+* **status** : nombre, indique le nouveau statut de l&#39;offre. Les valeurs possibles sont listées dans l&#39;énumération **propositionStatus**, dans le schéma **nms:common**. Par exemple, d&#39;usine, le nombre 3 correspond au statut **Acceptée**.
 * **Context** : élément XML, vous permet d’ajouter des informations contextuelles dans le schéma d’espace. Si le schéma utilisé est **nms:interaction**, **`<empty>`** doit être ajouté.
 
 ## Exemple d&#39;utilisation d&#39;un appel SOAP {#example-using-a-soap-call}
 
-Voici un exemple de code pour un appel SOAP :
+Voici un exemple de code pour un appel SOAP :
 
 ```
 <%

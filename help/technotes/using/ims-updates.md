@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Le 30 juin 2021, des modifications ont été apportées aux fonctionnalités de connexion d’[Adobe Identity Management System](https://helpx.adobe.com/fr/enterprise/using/identity.html) (IMS) ce qui pourrait avoir une incidence sur votre capacité à continuer à utiliser Adobe Campaign. Découvrez comment vous assurer que vous continuez à utiliser Adobe Campaign Classic v7 sans interruption.
+Le 30 juin 2021, des modifications ont été apportées aux fonctionnalités de connexion d’[Adobe IDentity Management System](https://helpx.adobe.com/fr/enterprise/using/identity.html) (IMS) ce qui pourrait avoir une incidence sur votre capacité à continuer à utiliser Adobe Campaign. Découvrez comment vous assurer que vous continuez à utiliser Adobe Campaign Classic v7 sans interruption.
 
 ## Qu&#39;est-ce qui a changé ?
 
@@ -78,7 +78,7 @@ Le message d&#39;avertissement suivant s&#39;affiche pour les utilisateurs s&#39
 
 Si un tel avertissement s&#39;affiche, assurez-vous d&#39;installer les dernières mises à jour du système d&#39;exploitation que vous utilisez. [En savoir plus](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
-Si vous n’avez pas mis à jour votre version d’Internet Explorer, le message suivant s’affiche et vous ne pouvez plus vous connecter à Adobe Campaign :
+Si vous n’avez pas mis à jour votre version d’Internet Explorer, le message suivant s’affiche et vous ne pouvez plus vous connecter à Adobe Campaign :
 
 ![](../../integrations/using/assets/do-not-localize/errorUpdateReq.png)
 

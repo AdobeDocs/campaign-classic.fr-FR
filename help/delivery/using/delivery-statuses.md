@@ -87,7 +87,7 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
  </tbody> 
 </table>
 
-Pour découvrir comment optimiser la délivrabilité de vos emails Adobe Campaign, reportez-vous à [cette section](about-deliverability.md). Pour un examen plus approfondi de la délivrabilité, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
+Pour découvrir comment optimiser la délivrabilité de vos emails Adobe Campaign, reportez-vous à [cette section](about-deliverability.md). Pour un examen plus approfondi de la délivrabilité, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
 ## Statut En attente {#pending-status}
 

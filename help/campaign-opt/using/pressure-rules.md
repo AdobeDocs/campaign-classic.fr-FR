@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3428'
 ht-degree: 100%
 
@@ -28,12 +28,12 @@ Les campagnes sont ainsi choisies en fonction des seuils définis et du poids de
 * Le seuil est le nombre maximal de diffusions autorisées pour un destinataire pendant une période donnée. Il peut être fixe ou variable. Il est fixé ou calculé dans les paramètres de la règle de typologie. Pour plus d&#39;informations, consultez la section [Nombre maximum de messages](#maximum-number-of-messages).
 * Le poids de chaque diffusion permet d&#39;identifier les diffusions prioritaires dans un contexte de gestion de la pression. Les messages dont le poids est le plus important sont prioritaires. Pour plus d&#39;informations, consultez la section [Poids du message](#message-weight).
 
-L&#39;arbitrage consiste à s&#39;assurer que les campagnes planifiées ayant un poids supérieur à la campagne en cours ne déclencheront pas une sur-sollicitation du profil : si tel est le cas, le profil est exclu de l&#39;action de diffusion.
+L&#39;arbitrage consiste à s&#39;assurer que les campagnes planifiées ayant un poids supérieur à la campagne en cours ne déclencheront pas une sur-sollicitation du profil : si tel est le cas, le profil est exclu de l&#39;action de diffusion.
 
-Les critères d&#39;arbitrage (poids du message et/ou seuil du nombre de messages) peuvent varier selon deux types d&#39;information :
+Les critères d&#39;arbitrage (poids du message et/ou seuil du nombre de messages) peuvent varier selon deux types d&#39;information :
 
-* les préférences des destinataires, qui correspondent à des informations déclaratives : abonnements à des newsletters, statut du destinataire (client ou prospect),
-* les comportements des destinataires : achats, liens visités, etc.
+* les préférences des destinataires, qui correspondent à des informations déclaratives : abonnements à des newsletters, statut du destinataire (client ou prospect),
+* les comportements des destinataires : achats, liens visités, etc.
 
 La règle d&#39;arbitrage pour définir les messages éligibles est appliquée lors de l&#39;étape d&#39;analyse. Pour chaque destinataire et pour la période concernée, le message sera envoyé si la formule suivante est vraie : **(nombre de messages envoyés) + (nombre de messages ayant un poids supérieur) &lt; seuil**.
 
@@ -41,9 +41,9 @@ Dans le cas contraire, le destinataire sera **[!UICONTROL Exclu par arbitrage]**
 
 ## Créer une règle de pression {#creating-a-pressure-rule}
 
-Pour mettre en place l&#39;arbitrage entre les campagnes sous Adobe Campaign, vous devez d&#39;abord créer des typologies de campagnes et définir les règles de typologies associées. Ces règles seront de type **Pression**.
+Pour mettre en place l&#39;arbitrage entre les campagnes sous Adobe Campaign, vous devez d&#39;abord créer des typologies de campagnes et définir les règles de typologies associées. Ces règles seront de type **Pression**.
 
-Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Pression]**, les étapes sont les suivantes :
+Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Pression]**, les étapes sont les suivantes :
 
 1. Dans la liste des règles de typologies de campagnes, cliquez sur l&#39;icône **[!UICONTROL Nouveau]** située au-dessus de la liste.
 
@@ -83,7 +83,7 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Pressio
 
    Chaque diffusion a un poids, c&#39;est-à-dire une valeur qui correspond à son degré de priorité : il permet d&#39;arbitrer entre les campagnes. Le poids est calculé selon la formule définie dans la règle de typologie et/ou directement dans ses propriétés. Pour plus d&#39;informations, consultez la section [Poids du message](#message-weight).
 
-1. Par défaut, tous les messages sont pris en compte dans le calcul du seuil. L&#39;onglet **[!UICONTROL Pression]** permet de filtrer les destinataires et messages concernés par la règle de typologie :
+1. Par défaut, tous les messages sont pris en compte dans le calcul du seuil. L&#39;onglet **[!UICONTROL Pression]** permet de filtrer les destinataires et messages concernés par la règle de typologie :
 
    * La section supérieure de cet onglet permet de restreindre les destinataires concernés.
    * La section inférieure de cet onglet permet de filtrer les messages à comptabiliser.
@@ -126,18 +126,18 @@ Le poids peut être fixe ou calculé au travers d&#39;une formule afin de l&#39;
 >[!CAUTION]
 >
 >Le poids défini dans une règle de typologie peut être surchargé unitairement pour chaque diffusion, au niveau des **[!UICONTROL Propriétés]** de la diffusion. Cliquez sur l&#39;onglet **[!UICONTROL Typologie]** pour sélectionner la typologie de campagne et indiquez au besoin le poids à appliquer.\
->Par contre, un poids déclaré dans une règle de typologie A sera ignoré dans les calculs d&#39;une règle de typologie B : ce poids ne concerne que les diffusions utilisant la règle A.
+>Par contre, un poids déclaré dans une règle de typologie A sera ignoré dans les calculs d&#39;une règle de typologie B : ce poids ne concerne que les diffusions utilisant la règle A.
 
 **Exemple:**
 
-Dans l&#39;exemple suivant, nous allons faire dépendre le poids des newsletters consacrées à la musique du niveau d&#39;appétence des destinataires pour ce sujet. Pour cela :
+Dans l&#39;exemple suivant, nous allons faire dépendre le poids des newsletters consacrées à la musique du niveau d&#39;appétence des destinataires pour ce sujet. Pour cela :
 
 1. Créez un nouveau champ afin de stocker les scores de propension des destinataires. Ce champ, ici, **@Music** pourra être alimenté par des réponses aux enquêtes et questionnaires en ligne, les données de tracking collectées, etc.
 1. Créez une règle de typologie afin de calculer le poids des messages en fonction de ce champ.
 
    ![](assets/campaign_opt_pressure_weight_sample.png)
 
-1. Appliquez cette règle aux messages sur ce sujet : newsletters, offres spéciales, etc. Le poids de ces diffusions, donc leur niveau priorité, dépendra ainsi du niveau d&#39;appétence de chaque destinataire.
+1. Appliquez cette règle aux messages sur ce sujet : newsletters, offres spéciales, etc. Le poids de ces diffusions, donc leur niveau priorité, dépendra ainsi du niveau d&#39;appétence de chaque destinataire.
 
 ## Définir la période {#setting-the-period}
 
@@ -152,14 +152,14 @@ Par exemple, une règle de pression qui définit un seuil de 2 messages par sema
 >[!NOTE]
 >
 >Par défaut, seules les diffusions déjà envoyées sont prises en compte dans le calcul du seuil. Cochez l&#39;option **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]** si vous souhaitez considérer également les diffusions planifiées dans le calendrier pour la période concernée. Dans ce cas, la période considérée est doublée afin de permettre d&#39;intégrer les diffusions à venir, et pas seulement celles déjà envoyées.\
->Donc, pour limiter à 15 jours la prise en compte les diffusions, vous pouvez au choix :
+>Donc, pour limiter à 15 jours la prise en compte les diffusions, vous pouvez au choix :
 >
->* Saisir la valeur **15j** dans le champ **[!UICONTROL Période concernée]** : les diffusions envoyées jusqu&#39;à 15 jours avant à la date de la diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul,
+>* Saisir la valeur **15j** dans le champ **[!UICONTROL Période concernée]** : les diffusions envoyées jusqu&#39;à 15 jours avant à la date de la diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul,
 >
 >  ou
 >
 >* Entrez **7d** dans le champ **[!UICONTROL Période concernée]** ET cochez la case **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]**.\
->Option : les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
+   >Option : les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
 >
 >Le jour de début de la période dépend du paramétrage de la base de données.
 
@@ -182,11 +182,11 @@ Soient 6 newsletters, d&#39;un poids équivalent, planifiées pour les 30/04, 3/
 
 ![](assets/campaign_opt_pressure_period_sample_0.png)
 
-Les diffusions des 12 et 30/05 ne seront pas envoyées : en effet, la diffusion du 12/05 excéderait le seuil autorisé de 3 messages par quinzaine, et la diffusion du 30 vient en sur-nombre par rapport au nombre de communications autorisées dans le mois calendaire.
+Les diffusions des 12 et 30/05 ne seront pas envoyées : en effet, la diffusion du 12/05 excéderait le seuil autorisé de 3 messages par quinzaine, et la diffusion du 30 vient en sur-nombre par rapport au nombre de communications autorisées dans le mois calendaire.
 
 ![](assets/campaign_opt_pressure_period_sample_1.png)
 
-Tous les destinataires de ces diffusions sont exclus par arbitrage lors de la phase d&#39;analyse :
+Tous les destinataires de ces diffusions sont exclus par arbitrage lors de la phase d&#39;analyse :
 
 ![](assets/campaign_opt_pressure_period_sample_2.png)
 
@@ -204,7 +204,7 @@ L&#39;arbitrage est ré-appliqué chaque nuit via le workflow technique **[!UICO
 
 Le workflow **[!UICONTROL Prévisionnel]** pré-calcule les données sur la période écoulée (depuis la date de début de la période jusqu&#39;à maintenant) qui permettent à l&#39;analyse d&#39;appliquer les règles de typologie. Il re-calcule aussi chaque nuit les compteurs d&#39;exclusion pour les arbitrages.
 
-Ainsi, pour chaque destinataire, Adobe Campaign vérifie que le nombre de messages à envoyer ne dépasse pas le seuil, en prenant en compte le nombre de messages déjà envoyés pour la période concernée. Ces informations ne sont que des **indicateurs** car tous les calculs sont mis à jour au moment de l&#39;envoi.
+Ainsi, pour chaque destinataire, Adobe Campaign vérifie que le nombre de messages à envoyer ne dépasse pas le seuil, en prenant en compte le nombre de messages déjà envoyés pour la période concernée. Ces informations ne sont que des **indicateurs** car tous les calculs sont mis à jour au moment de l&#39;envoi.
 
 Si ce nombre est supérieur au seuil, les règles d&#39;arbitrage définies dans la typologie de campagne sont appliquées et les destinataires seront exclus par arbitrage des campagnes d&#39;un poids inférieur.
 
@@ -222,10 +222,10 @@ Nous allons créer une règle de typologie afin de ne pas envoyer plus de 4 mess
 
 Pour identifier les clients et les prospects, nous allons utiliser le champ **[!UICONTROL Statut]** qui contient la valeur 0 pour les prospects et la valeur 1 pour les clients.
 
-Les étapes de création de cette règle sont les suivantes :
+Les étapes de création de cette règle sont les suivantes :
 
 1. Créez une nouvelle règle de typologie de type **Pression**.
-1. Editez l&#39;onglet **[!UICONTROL Pression]** : dans la section **[!UICONTROL Nombre maximum de messages]**, nous allons créer une formule de calcul du seuil qui dépendra de chaque destinataire. Sélectionnez la valeur **[!UICONTROL Dépend du destinataire]** dans le champ **[!UICONTROL Type de seuil]** puis cliquez sur l&#39;icône **[!UICONTROL Editer l&#39;expression]** située à droite du champ **[!UICONTROL Formule]**.
+1. Editez l&#39;onglet **[!UICONTROL Pression]** : dans la section **[!UICONTROL Nombre maximum de messages]**, nous allons créer une formule de calcul du seuil qui dépendra de chaque destinataire. Sélectionnez la valeur **[!UICONTROL Dépend du destinataire]** dans le champ **[!UICONTROL Type de seuil]** puis cliquez sur l&#39;icône **[!UICONTROL Editer l&#39;expression]** située à droite du champ **[!UICONTROL Formule]**.
 
    Cliquez sur le bouton **[!UICONTROL Sélection avancée]** pour définir la formule de calcul.
 
@@ -249,13 +249,13 @@ Les étapes de création de cette règle sont les suivantes :
 
    Cliquez sur **[!UICONTROL Terminer]** pour valider cette formule.
 
-1. Indiquez la période concernée pour l&#39;application de la règle : ici 7 jours pour comptabiliser les messages à la semaine.
+1. Indiquez la période concernée pour l&#39;application de la règle : ici 7 jours pour comptabiliser les messages à la semaine.
 
    ![](assets/campaign_opt_pressure_sample_1_5.png)
 
 1. Enregistrez la règle pour en valider la création.
 
-Vous devez maintenant associer la règle que vous venez de créer à une typologie afin de pouvoir l&#39;appliquer aux diffusions. Pour cela :
+Vous devez maintenant associer la règle que vous venez de créer à une typologie afin de pouvoir l&#39;appliquer aux diffusions. Pour cela :
 
 1. Créez une typologie de campagne.
 1. Cliquez sur l&#39;onglet **[!UICONTROL Règles]**, puis sur le bouton **[!UICONTROL Ajouter]** et sélectionnez la règle que vous venez de créer.
@@ -272,36 +272,36 @@ Pour utiliser cette typologie dans vos diffusions, sélectionnez-la dans les pro
 >
 >La typologie peut être définie au niveau du modèle de diffusion afin d&#39;être appliquée automatiquement à toutes les diffusions créées à partir de ce modèle.
 
-Lors de l&#39;analyse de la diffusion, les destinataires des diffusions sont exclus ou non de la diffusion, selon le nombre de diffusions qui leur ont déjà été adressées. Pour visualiser cette information, vous pouvez :
+Lors de l&#39;analyse de la diffusion, les destinataires des diffusions sont exclus ou non de la diffusion, selon le nombre de diffusions qui leur ont déjà été adressées. Pour visualiser cette information, vous pouvez :
 
-* Observer le résultat de l&#39;analyse :
+* Observer le résultat de l&#39;analyse :
 
    ![](assets/campaign_opt_pressure_sample_1_8.png)
 
-* Editer la diffusion et cliquer sur l&#39;onglet **[!UICONTROL Diffusion]**, puis sur le sous-onglet **[!UICONTROL Exclusions]** :
+* Editer la diffusion et cliquer sur l&#39;onglet **[!UICONTROL Diffusion]**, puis sur le sous-onglet **[!UICONTROL Exclusions]** :
 
    ![](assets/campaign_opt_pressure_sample_1_9.png)
 
-* Cliquer sur l&#39;onglet **[!UICONTROL Suivi]** puis sur le sous-onglet **[!UICONTROL Causes d&#39;exclusions]** pour afficher le nombre d&#39;exclusions et les règles de typologies appliquées :
+* Cliquer sur l&#39;onglet **[!UICONTROL Suivi]** puis sur le sous-onglet **[!UICONTROL Causes d&#39;exclusions]** pour afficher le nombre d&#39;exclusions et les règles de typologies appliquées :
 
    ![](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### Calculer le poids d&#39;une diffusion selon des comportements {#calculating-the-delivery-weight-based-on-behavior}
 
-Vous pouvez définir des règles de pression selon le comportement des destinataires : ainsi, le poids d&#39;une diffusion peut s&#39;adapter à des critères variables d&#39;un destinataire à l&#39;autre. Vous pouvez par exemple favoriser l&#39;envoi de tel ou tel message selon qu&#39;un destinataire ait visité ou non votre site internet, cliqué dans une rubrique spécifique de la dernière newsletter, qu&#39;il soit abonné ou non à un service d&#39;information ou en fonction des réponses fournies à une enquête ou un jeu en ligne, etc.
+Vous pouvez définir des règles de pression selon le comportement des destinataires : ainsi, le poids d&#39;une diffusion peut s&#39;adapter à des critères variables d&#39;un destinataire à l&#39;autre. Vous pouvez par exemple favoriser l&#39;envoi de tel ou tel message selon qu&#39;un destinataire ait visité ou non votre site internet, cliqué dans une rubrique spécifique de la dernière newsletter, qu&#39;il soit abonné ou non à un service d&#39;information ou en fonction des réponses fournies à une enquête ou un jeu en ligne, etc.
 
-Dans l&#39;exemple suivant, nous allons créer une diffusion avec un poids de 5. A ce poids, seront ajoutées des valeurs d&#39;appétence selon le comportement des destinataires : ainsi, un client ayant déjà passé commande sur le site aura une valeur d&#39;appétence de 5, tandis qu&#39;un client n&#39;ayant jamais commandé en ligne aura une valeur d&#39;appétence de 4.
+Dans l&#39;exemple suivant, nous allons créer une diffusion avec un poids de 5. A ce poids, seront ajoutées des valeurs d&#39;appétence selon le comportement des destinataires : ainsi, un client ayant déjà passé commande sur le site aura une valeur d&#39;appétence de 5, tandis qu&#39;un client n&#39;ayant jamais commandé en ligne aura une valeur d&#39;appétence de 4.
 
 Pour réaliser ce type de paramétrage, vous devez utiliser une formule pour définir le poids des messages. Les informations relatives à l&#39;appétence et les réponses fournies aux questionnaires doivent être accessibles dans le modèle de données. Dans notre exemple, le champs **Appétence** a été ajouté.
 
-Les étapes de paramétrage sont les suivantes :
+Les étapes de paramétrage sont les suivantes :
 
 1. Créez une nouvelle règle de typologie de type **Pression**.
-1. Editez l&#39;onglet **[!UICONTROL Pression]**. Nous allons créer une formule de calcul du seuil qui dépendra de chaque destinataire : cliquez sur l&#39;icône **[!UICONTROL Editer l&#39;expression]** située à droite du champ **[!UICONTROL Formule de poids]**.
+1. Editez l&#39;onglet **[!UICONTROL Pression]**. Nous allons créer une formule de calcul du seuil qui dépendra de chaque destinataire : cliquez sur l&#39;icône **[!UICONTROL Editer l&#39;expression]** située à droite du champ **[!UICONTROL Formule de poids]**.
 
    ![](assets/campaign_opt_pressure_sample_2_1.png)
 
-1. Par défaut, la valeur **5** est renseignée dans la section supérieure de l&#39;éditeur d&#39;expression. Nous allons ajouter à ce poids la valeur d&#39;appétence de chaque destinataire : positionnez le pointeur à droite du chiffre 5, saisissez le caractère **+** au clavier et sélectionnez le champ **Appétence**.
+1. Par défaut, la valeur **5** est renseignée dans la section supérieure de l&#39;éditeur d&#39;expression. Nous allons ajouter à ce poids la valeur d&#39;appétence de chaque destinataire : positionnez le pointeur à droite du chiffre 5, saisissez le caractère **+** au clavier et sélectionnez le champ **Appétence**.
 
    ![](assets/campaign_opt_pressure_sample_2_2.png)
 
@@ -408,4 +408,4 @@ Etant donné qu&#39;un email a déjà été envoyé aux destinataires concernés
 
 Une fois la date d&#39;extraction passée pour les deux diffusions, l&#39;arbitrage de nuit est réappliqué avant les dates de contact des deux diffusions. Cela permet de rechercher toutes les diffusions déjà envoyées (destinataires pour lesquels une diffusion est traitée, enregistrés dans les broadlogs) ou planifiées pour être envoyées (destinataires pouvant recevoir une diffusion, enregistrés dans les logs prévisionnels).
 
-Une fois que toutes les diffusions envoyées et potentielles ont été répertoriées pour la période définie dans la règle de pression, Adobe Campaign les trie par poids, en commençant par le plus élevé. Lorsque le seuil défini dans la règle de pression est atteint (dans ce cas, pas plus de 2 emails au cours de la même semaine), les destinataires sont exclus de la livraison.
+Une fois que toutes les diffusions envoyées et potentielles ont été répertoriées pour la période définie dans la règle de pression, Adobe Campaign les trie par poids, en commençant par le plus élevé. Lorsque le seuil défini dans la règle de pression est atteint (dans ce cas, pas plus de 2 emails au cours de la même semaine), les destinataires sont exclus de la livraison.

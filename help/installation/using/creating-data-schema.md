@@ -29,7 +29,7 @@ Pour créer un schéma sur une base de données externe :
 
 1. Dans le champ **[!UICONTROL Nom de la table]**, choisissez la table contenant les données à collecter.
 
-   Snowflake vous permet de sélectionner vos vues ici si l’utilisateur de la base de données a reçu les privilèges appropriés. Notez que lorsque vous utilisez des vues, Adobe Campaign ne peut pas générer automatiquement le schéma XML. Vous devez donc le créer vous-même. Pour plus d’informations sur les vues, consultez la [documentation Snowflake](https://docs.snowflake.com/fr/user-guide/views-introduction.html).
+   Snowflake vous permet de sélectionner vos vues ici si l’utilisateur de la base de données a reçu les privilèges appropriés. Notez que lorsque vous utilisez des vues, Adobe Campaign ne peut pas générer automatiquement le schéma XML. Vous devez donc le créer vous-même. Pour plus d’informations sur les vues, consultez la [documentation Snowflake](https://docs.snowflake.com/fr/user-guide/views-introduction.html).
 
    ![](assets/wf_new_schema_select_table_fda.png)
 

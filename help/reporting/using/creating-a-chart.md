@@ -17,13 +17,13 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Les données de la base peuvent également être collectées et affichées dans un graphique. Adobe Campaign vous propose un ensemble de représentations graphiques possibles dont le paramétrage général est présenté ci-après.
+Les données de la base peuvent également être collectées et affichées dans un graphique. Adobe Campaign vous propose un ensemble de représentations graphiques possibles dont le paramétrage général est présenté ci-après.
 
 Comme les tableaux, les graphiques sont insérés directement dans une page de rapport, à partir du menu contextuel ou de la barre d&#39;outils.
 
 ## Étapes de création {#creation-steps}
 
-Pour créer un graphique dans un rapport, les étapes sont les suivantes :
+Pour créer un graphique dans un rapport, les étapes sont les suivantes :
 
 1. Editez la page où vous souhaitez afficher le graphique et sélectionnez le type de graphique dans la barre d&#39;outils de la page.
 
@@ -45,13 +45,13 @@ Pour créer un graphique dans un rapport, les étapes sont les suivantes :
 
       ![](assets/reporting_graph_from_context.png)
 
-      Vous aurez ensuite accès aux données du contexte pour définir les valeurs à afficher dans le graphique :
+      Vous aurez ensuite accès aux données du contexte pour définir les valeurs à afficher dans le graphique :
 
       ![](assets/reporting_graph_select-from_context.png)
 
 ## Types de graphiques et leurs variantes {#chart-types-and-variants}
 
-Adobe Campaign propose différents types de représentations graphiques. Ils sont présentés ci-après.
+Adobe Campaign propose différents types de représentations graphiques. Ils sont présentés ci-après.
 
 Le type de graphique est sélectionné lors de son insertion dans la page.
 
@@ -97,15 +97,15 @@ Ce type de représentation graphique permet de comprendre l&#39;évolution d&#39
 
 ![](assets/reporting_graph_type_curve.png)
 
-### Comparaison : les histogrammes {#comparison--histograms}
+### Comparaison : les histogrammes {#comparison--histograms}
 
 Les histogrammes permettent de comparer différentes valeurs d&#39;une ou deux variables.
 
-Pour ces types de graphes, les options suivantes sont proposées dans la fenêtre **[!UICONTROL Variantes]** :
+Pour ces types de graphes, les options suivantes sont proposées dans la fenêtre **[!UICONTROL Variantes]** :
 
 ![](assets/reporting_select_graph_var.png)
 
-Cochez l&#39;option **[!UICONTROL Afficher la légende]** pour qu&#39;elle apparaisse avec le graphique. Vous pourrez ainsi en définir la position :
+Cochez l&#39;option **[!UICONTROL Afficher la légende]** pour qu&#39;elle apparaisse avec le graphique. Vous pourrez ainsi en définir la position :
 
 ![](assets/reporting_select_graph_legend.png)
 

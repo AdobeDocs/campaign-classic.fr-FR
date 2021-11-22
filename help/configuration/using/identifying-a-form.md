@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Un formulaire de saisie permet l&#39;édition d&#39;une instance associée à un schéma de données à partir de la console cliente Adobe Campaign.
+Un formulaire de saisie permet l&#39;édition d&#39;une instance associée à un schéma de données à partir de la console cliente Adobe Campaign.
 
 Le formulaire est identifié par ses nom et espace de noms.
 

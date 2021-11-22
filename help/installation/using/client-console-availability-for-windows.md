@@ -21,16 +21,16 @@ Afin de permettre aux utilisateurs Adobe Campaign de se connecter à l’instan
 
 ## Mise à disposition de la console client
 
-Lorsque l’ordinateur utilisé pour démarrer un serveur d’application Adobe Campaign (**nlserver web**) reçoit les connexions des utilisateurs à partir de la console client, vous pouvez le configurer afin de mettre à disposition le programme d’installation de la console Adobe Campaign à travers une interface HTML. Chaque fois qu’une nouvelle version de la console client est disponible, les utilisateurs sont invités à la télécharger lors du lancement de leur console client.
+Lorsque l’ordinateur utilisé pour démarrer un serveur d’application Adobe Campaign (**nlserver web**) reçoit les connexions des utilisateurs à partir de la console client, vous pouvez le configurer afin de mettre à disposition le programme d’installation de la console Adobe Campaign à travers une interface HTML. Chaque fois qu’une nouvelle version de la console client est disponible, les utilisateurs sont invités à la télécharger lors du lancement de leur console client.
 
 Pour ce faire, procédez comme suit :
 
 1. Sélectionnez le package qui contient le programme d’installation de la console.
 
-   Ce fichier est appelé `setup-client-7.X.XXXX.exe` pour v7 ou `setup-client-6.X.XXXX.exe` pour v6.1, où `X` correspond à la sous-version d’Adobe Campaign et `XXXX` au numéro de build.
+   Ce fichier est appelé `setup-client-7.X.XXXX.exe` pour v7 ou `setup-client-6.X.XXXX.exe` pour v6.1, où `X` correspond à la sous-version d’Adobe Campaign et `XXXX` au numéro de build.
 
-1. Copiez et collez ce package dans le dossier d’installation Adobe Campaign (sur le serveur marketing pour les installations hybrides), sous **/datakit/nl/eng/jsp**.
-1. Démarrez le serveur Adobe Campaign.
+1. Copiez et collez ce package dans le dossier d’installation Adobe Campaign (sur le serveur marketing pour les installations hybrides), sous **/datakit/nl/eng/jsp**.
+1. Démarrez le serveur Adobe Campaign.
 
 Les utilisateurs Campaign peuvent alors télécharger le programme d’installation de la console depuis un navigateur web, via l’URL suivante :
 

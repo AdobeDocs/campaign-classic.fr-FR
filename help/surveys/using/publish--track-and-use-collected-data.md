@@ -27,7 +27,7 @@ Une fois que le formulaire a été créé, paramétré et publié, vous pouvez p
 
 Pour chaque questionnaire, le tableau de bord permet de visualiser rapidement l’état, la description, l’URL publique et le planning de disponibilité. Il permet également d’afficher les rapports disponibles. [En savoir plus](#reports-on-surveys).
 
-L&#39;URL publique du questionnaire est affichée dans le tableau de bord :
+L&#39;URL publique du questionnaire est affichée dans le tableau de bord :
 
 ![](assets/survey_public_url.png)
 
@@ -43,13 +43,13 @@ Pour chaque questionnaire diffusé, vous pouvez suivre les réponses dans l&#39;
 
 Double-cliquez sur une ligne pour afficher le questionnaire tel qu’il a été rempli par le destinataire. Vous pouvez consulter toutes les pages du questionnaire et ainsi accéder à l’intégralité des réponses. Il est possible d’exporter ensuite ces réponses dans un fichier externe. Voir à ce sujet la section [Exporter les réponses](#exporting-answers).
 
-L&#39;origine est une information indiquée dans l&#39;URL du questionnaire en y ajoutant les caractères suivants :
+L&#39;origine est une information indiquée dans l&#39;URL du questionnaire en y ajoutant les caractères suivants :
 
 ```
 ?origin=xxx
 ```
 
-Tant que le questionnaire est en édition, son URL contient le paramètre **[!UICONTROL __uuid]**, qui permet de signifier qu&#39;il est en phase de test et pas encore en ligne. Lorsque vous accédez au questionnaire via cette URL, les enregistrements créés ne sont pas pris en compte dans le suivi (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
+Tant que le questionnaire est en édition, son URL contient le paramètre **[!UICONTROL __uuid]**, qui permet de signifier qu&#39;il est en phase de test et pas encore en ligne. Lorsque vous accédez au questionnaire via cette URL, les enregistrements créés ne sont pas pris en compte dans le suivi (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
 
 Pour plus d&#39;informations sur les paramètres d&#39;URL, consultez [cette page](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
@@ -61,13 +61,13 @@ Le tableau de bord permet d&#39;accéder aux rapports sur le questionnaire. Cliq
 
 La structure du questionnaire est synthétisée dans le rapport **[!UICONTROL Documentation]**.
 
-Deux autres rapports sur les questionnaires Web sont également disponibles par défaut dans l&#39;onglet **[!UICONTROL Rapports]** des questionnaires : **[!UICONTROL Général]** et **[!UICONTROL Répartition des réponses]**.
+Deux autres rapports sur les questionnaires Web sont également disponibles par défaut dans l&#39;onglet **[!UICONTROL Rapports]** des questionnaires : **[!UICONTROL Général]** et **[!UICONTROL Répartition des réponses]**.
 
 * Général
 
-   Ce rapport regroupe des informations générales sur le questionnaire : l&#39;évolution du nombre de réponses dans le temps, la répartition par origines et par langues.
+   Ce rapport regroupe des informations générales sur le questionnaire : l&#39;évolution du nombre de réponses dans le temps, la répartition par origines et par langues.
 
-   Exemple de rapport général :
+   Exemple de rapport général :
 
    ![](assets/s_ncs_admin_survey_report_0.png)
 
@@ -79,7 +79,7 @@ Deux autres rapports sur les questionnaires Web sont également disponibles par 
 
 ## Exporter les réponses {#exporting-answers}
 
-Les réponses à un questionnaire peuvent être exportées dans un fichier externe afin d&#39;être réexploitées ultérieurement. Pour cela, deux opérations sont possibles :
+Les réponses à un questionnaire peuvent être exportées dans un fichier externe afin d&#39;être réexploitées ultérieurement. Pour cela, deux opérations sont possibles :
 
 1. Exporter les données d&#39;un rapport
 
@@ -97,13 +97,13 @@ Les réponses à un questionnaire peuvent être exportées dans un fichier exter
 
    Vous pouvez paramétrer le contenu et le format du fichier de sortie dans l&#39;assistant d&#39;export.
 
-   Ainsi, vous pouvez :
+   Ainsi, vous pouvez :
 
    * ajouter des colonnes supplémentaires dans le fichier de sortie et ainsi récupérer les informations stockées en base relatives au destinataire,
    * appliquer un formatage sur les données exportées,
    * sélectionner le format d&#39;encodage des informations dans le fichier.
 
-   Si le questionnaire dont vous souhaitez exporter les réponses contient un ou plusieurs champs de type **[!UICONTROL Texte multi-lignes]** ou **[!UICONTROL Texte HTML]**, vous devez l&#39;exporter au format **[!UICONTROL XML]**. Pour cela, sélectionnez ce format dans la liste déroulante du champ **[!UICONTROL Format de sortie]**, comme ci-dessous :
+   Si le questionnaire dont vous souhaitez exporter les réponses contient un ou plusieurs champs de type **[!UICONTROL Texte multi-lignes]** ou **[!UICONTROL Texte HTML]**, vous devez l&#39;exporter au format **[!UICONTROL XML]**. Pour cela, sélectionnez ce format dans la liste déroulante du champ **[!UICONTROL Format de sortie]**, comme ci-dessous :
 
    ![](assets/s_ncs_admin_survey_logs_export_xml.png)
 
@@ -121,7 +121,7 @@ Dans l&#39;exemple suivant, nous allons proposer une offre Web spécifique aux c
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_4.png)
 
-Dans le workflow de ciblage, la boîte **[!UICONTROL Réponses à un questionnaire]** sera paramétrée comme suit :
+Dans le workflow de ciblage, la boîte **[!UICONTROL Réponses à un questionnaire]** sera paramétrée comme suit :
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_1.png)
 
@@ -141,9 +141,9 @@ Cliquez avec le bouton droit de la souris sur la transition sortante de la boît
 
 Positionnez ensuite dans le workflow une boîte de partage afin de ne récupérer que les 5 destinataires ayant obtenu le meilleur score.
 
-Editez la boîte de partage pour la paramétrer :
+Editez la boîte de partage pour la paramétrer :
 
-* Sélectionnez d&#39;abord le schéma adéquat dans l&#39;onglet **[!UICONTROL Général]** avant de paramétrer le sous-ensemble :
+* Sélectionnez d&#39;abord le schéma adéquat dans l&#39;onglet **[!UICONTROL Général]** avant de paramétrer le sous-ensemble :
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
 
@@ -163,4 +163,4 @@ Editez la boîte de partage pour la paramétrer :
 
 ## Normaliser les données {#standardizing-data}
 
-Vous pouvez mettre en place dans Adobe Campaign des processus de normalisation des données collectées en utilisant les alias. Il est alors possible de normaliser les données stockées en base : pour cela, vous devez définir des alias au niveau des énumérations dans lesquelles les informations sont stockées. [En savoir plus](../../platform/using/managing-enumerations.md#about-enumerations)
+Vous pouvez mettre en place dans Adobe Campaign des processus de normalisation des données collectées en utilisant les alias. Il est alors possible de normaliser les données stockées en base : pour cela, vous devez définir des alias au niveau des énumérations dans lesquelles les informations sont stockées. [En savoir plus](../../platform/using/managing-enumerations.md#about-enumerations)

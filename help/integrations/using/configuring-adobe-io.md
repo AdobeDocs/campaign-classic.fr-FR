@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Configuration d’Adobe I/O pour les Triggers Adobe Experience Cloud
-description: Découvrez comment configurer Adobe I/O pour les Triggers Adobe Experience Cloud
+title: Configuration d’Adobe I/O pour les Triggers Adobe Experience Cloud
+description: Découvrez comment configurer Adobe I/O pour les Triggers Adobe Experience Cloud
 audience: integrations
 content-type: reference
 index: y
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Configuration d’Adobe I/O pour les Triggers Adobe Experience Cloud {#configuring-adobe-io}
+# Configuration d’Adobe I/O pour les Triggers Adobe Experience Cloud {#configuring-adobe-io}
 
 ![](../../assets/v7-only.svg)
 
@@ -32,7 +32,7 @@ Cette intégration ne s’applique qu’à partir des **versions Campaign Class
 
 Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléments suivants :
 
-* Un **identifiant d&#39;organisation** valide : l&#39;identifiant de l&#39;organisation Identity Management System (IMS) est l’identifiant unique dans Adobe Experience Cloud, utilisé par exemple pour le service VisitorID et l’authentification unique (SSO) IMS. [En savoir plus](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=fr)
+* Un **identifiant d&#39;organisation** valide : l&#39;identifiant de l&#39;organisation Identity Management System (IMS) est l’identifiant unique dans Adobe Experience Cloud, utilisé par exemple pour le service VisitorID et l’authentification unique (SSO) IMS. [En savoir plus](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=fr)
 * Un **accès développeur** à votre organisation. L’administrateur système de l’organisation IMS doit suivre la procédure **Ajouter des développeurs à un profil de produit unique** présentée [dans cette page](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html) pour fournir aux développeurs l’accès au `Analytics - {tenantID}`profil du produit Adobe Analytics associé aux Triggers.
 
 ## Étape 1 : créer/mettre à jour un projet Adobe I/O {#creating-adobe-io-project}
@@ -57,7 +57,7 @@ Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléme
 
    ![](assets/do-not-localize/adobe_io_1.png)
 
-1. Dans la fenêtre **[!UICONTROL Ajouter une API]**, sélectionnez **[!UICONTROL Adobe Analytics]**.
+1. Dans la fenêtre **[!UICONTROL Ajouter une API]**, sélectionnez **[!UICONTROL Adobe Analytics]**.
 
    ![](assets/do-not-localize/adobe_io_2.png)
 
@@ -85,7 +85,7 @@ Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléme
 
    ![](assets/do-not-localize/adobe_io_6.png)
 
-1. Dans votre projet, sélectionnez **[!UICONTROL Adobe Analytics]** et copiez les informations suivantes sous **[!UICONTROL Compte Service (JWT)]** :
+1. Dans votre projet, sélectionnez **[!UICONTROL Adobe Analytics]** et copiez les informations suivantes sous **[!UICONTROL Compte Service (JWT)]** :
 
    * **[!UICONTROL Identifiant du client]**
    * **[!UICONTROL Secret du client]**

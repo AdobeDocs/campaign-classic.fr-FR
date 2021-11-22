@@ -160,7 +160,7 @@ Cette section détaille les différentes parties du script et leur fonctionnemen
 
 ## Autres critères de sélection {#other-selection-criteria}
 
-L&#39;exemple présenté ci-dessus permet de sélectionner le contenu d&#39;une diffusion en fonction du taux d&#39;ouverture des emails. Vous pouvez l&#39;adapter pour vous baser sur d&#39;autres indicateurs propres aux diffusions :
+L&#39;exemple présenté ci-dessus permet de sélectionner le contenu d&#39;une diffusion en fonction du taux d&#39;ouverture des emails. Vous pouvez l&#39;adapter pour vous baser sur d&#39;autres indicateurs propres aux diffusions :
 
 * Meilleur taux de clic publicitaire :`[indicators/@recipientClickRatio]`,
 * Meilleure réactivité (email ouvert et clics dans le message) : `[indicators/@reactivity]`,

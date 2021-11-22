@@ -54,14 +54,14 @@ La migration étant une procédure sensible, nous vous recommandons vivement de 
 La procédure de migration doit être effectuée sur **tous** les serveurs, dans un ordre spécifique.
 
 * Dans le cas d&#39;une **plateforme stand-alone** (monomachine), l&#39;application est migrée dans son ensemble.
-* Dans le cas d&#39;une **plateforme standard** (entreprise), les étapes de migration sont les suivantes :
+* Dans le cas d&#39;une **plateforme standard** (entreprise), les étapes de migration sont les suivantes :
 
    1. Migrez le serveur marketing.
    1. Migrez le serveur d&#39;envoi (mta).
    1. Migrez les serveurs de redirection et de tracking (Apache / IIS).
 
 * Dans le cas d&#39;une **plateforme Cloud Messaging**, les serveurs d&#39;exécution sont hébergés chez Adobe. Veuillez nous contacter pour coordonner la migration sur les différents serveurs.
-* Dans le cas d&#39;une **plateforme Power Booster ou Power Cluster**, les étapes de migration sont les suivantes :
+* Dans le cas d&#39;une **plateforme Power Booster ou Power Cluster**, les étapes de migration sont les suivantes :
 
    1. Migrez les serveurs de redirection et de tracking (Apache / IIS).
    1. Migrez les serveurs de Power Booster/Cluster.

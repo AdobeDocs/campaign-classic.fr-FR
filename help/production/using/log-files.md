@@ -17,30 +17,30 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-L&#39;arborescence des fichiers de log est la suivante :
+L&#39;arborescence des fichiers de log est la suivante :
 
 ![](assets/d_ncs_directory.png)
 
 Chaque module **nlserver** génère un fichier journal enregistré dans le répertoire suivant : **`<installation directory>`/var/`<instance>`/log/`<module>`.log**.
 
-L&#39;enregistrement des logs sur le disque est assuré par le module **nlserver syslogd**. Ce module est similaire au **daemon syslog** UNIX, mais adapté afin d&#39;avoir un comportement homogène entre UNIX et Windows. Les autres modules Adobe Campaign n&#39;enregistrent pas leurs logs sur le disque : ils délèguent cette tâche au module **syslogd** en lui envoyant des paquets UDP.
+L&#39;enregistrement des logs sur le disque est assuré par le module **nlserver syslogd**. Ce module est similaire au **daemon syslog** UNIX, mais adapté afin d&#39;avoir un comportement homogène entre UNIX et Windows. Les autres modules Adobe Campaign n&#39;enregistrent pas leurs logs sur le disque : ils délèguent cette tâche au module **syslogd** en lui envoyant des paquets UDP.
 
-Par défaut, le module **syslogd** est installé sur la plateforme Adobe Campaign, mais il est possible d’utiliser un autre **daemon syslog**. Ce module crée les fichiers journaux dans le répertoire des **logs**.
+Par défaut, le module **syslogd** est installé sur la plateforme Adobe Campaign, mais il est possible d’utiliser un autre **daemon syslog**. Ce module crée les fichiers journaux dans le répertoire des **logs**.
 
 Les journaux des modules multi-instances sont stockés dans le répertoire suivant : **`<installation directory>`/var/default/log/**. Le même fichier journal est partagé par toutes les instances (**web.log**, par exemple).
 
 Les logs des autres modules sont stockés dans un sous-dossier du nom de l&#39;instance. Chaque instance possède ses propres fichiers de log.
 
-Les fichiers de log multi-instances sont listés dans le tableau suivant :
+Les fichiers de log multi-instances sont listés dans le tableau suivant :
 
 | Fichier | Description |
 |---|---|
 | web.log | Logs du module web (console cliente, rapports, API SOAP, etc.) |
 | webmdl.log | Logs provenant du module de redirection |
-| watchdog.log | Logs du module de surveillance des processus Adobe Campaign |
+| watchdog.log | Logs du module de surveillance des processus Adobe Campaign |
 | trackinglogd.log | Tracking logs |
 
-Les fichiers de log mono-instance sont listés dans le tableau suivant :
+Les fichiers de log mono-instance sont listés dans le tableau suivant :
 
 | Fichier | Description |
 |---|---|
@@ -49,7 +49,7 @@ Les fichiers de log mono-instance sont listés dans le tableau suivant :
 | wfserver.log | Logs du module serveur de workflow |
 | runwf.log | Logs de l&#39;exécution d&#39;un workflow |
 | inMail.log | Logs du module des mails rebond |
-| logins.log | Logs de toutes les tentatives de connexion à Adobe Campaign (réussies ou non) |
+| logins.log | Logs de toutes les tentatives de connexion à Adobe Campaign (réussies ou non) |
 
 >[!IMPORTANT]
 >
@@ -61,6 +61,6 @@ Par défaut, les journaux sont limités à deux fichiers de 10 Mo par module et
 
 Vous pouvez toutefois conserver des fichiers plus volumineux. Pour activer cette fonction, modifiez la valeur du paramètre **maxFileSizeMb=&quot;10&quot;** dans le nœud **syslogd** du fichier **conf/serverConf.xml**. Cette valeur représente la taille maximale en Mo d’un fichier de log.
 
-Si vous souhaitez un niveau de logs plus élevé, vous pouvez lancer les modules Adobe Campaign avec le paramètre **-verbose** :
+Si vous souhaitez un niveau de logs plus élevé, vous pouvez lancer les modules Adobe Campaign avec le paramètre **-verbose** :
 
 **nlserver start `<MODULE>`@`<INSTANCE>` -verbose**

@@ -22,11 +22,11 @@ Les liens inclus dans le contenu des emails qui comportent des éléments de per
 L’utilisation de JavaScript dans le contenu des emails (HTML ou Texte) vous permet de générer et d&#39;envoyer du contenu dynamique aux destinataires, avec deux restrictions :
 
 * Le script ne peut pas accéder directement à la base de données (la fonction SQL et les fonctions API ne sont pas disponibles),
-* Adobe Campaign doit être en mesure de détecter les URL afin que les liens puissent être suivis. [En savoir plus](detecting-tracking-urls.md)
+* Adobe Campaign doit être en mesure de détecter les URL afin que les liens puissent être suivis. [En savoir plus](detecting-tracking-urls.md)
 
 Vous pouvez ajouter des instructions de pré-traitement spécifiques pour effectuer le script et le suivi de l’URL. [En savoir plus](pre-processing-instructions.md)
 
-Pour la détection du tracking, Adobe Campaign incorpore [Tidy](https://www.html-tidy.org/) pour analyser la source HTML et détecter le modèle. Il répertorie toutes les URL du contenu afin qu’elles puissent être suivies individuellement. Adobe Campaign utilise à nouveau Tidy pour remplacer l&#39;URL (`http://myurl.com`) par une URL pointant vers le serveur de redirection d&#39;Adobe Campaign.
+Pour la détection du tracking, Adobe Campaign incorpore [Tidy](https://www.html-tidy.org/) pour analyser la source HTML et détecter le modèle. Il répertorie toutes les URL du contenu afin qu’elles puissent être suivies individuellement. Adobe Campaign utilise à nouveau Tidy pour remplacer l&#39;URL (`http://myurl.com`) par une URL pointant vers le serveur de redirection d&#39;Adobe Campaign.
 
 Par exemple, dans le contenu initial : `http://myurl.com/a.php?name=<%=escapeUrl(recipient.lastName)%>` est remplacé pour un destinataire particulier par : `http://emailing.customer.com/r/?id=h617791,71ffa3,71ffa8&p1=CustomerName`
 

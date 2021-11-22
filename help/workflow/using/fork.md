@@ -23,7 +23,7 @@ Vous pouvez utiliser l’activité **[!UICONTROL Branchement]** pour créer plus
 >
 >Les transitions sortantes que vous ajoutez après une activité **[!UICONTROL Branchement]** ne s’exécutent pas simultanément. Ce comportement peut avoir un impact sur les performances du workflow. Utilisez l’activité **[!UICONTROL Branchement]** si vous devez exécuter plusieurs activités indépendamment. Vous pouvez éventuellement relier les activités sortantes avant la partie suivante du workflow.
 
-Pour configurer une activité **[!UICONTROL Branchement]** et ses activités associées, procédez comme suit :
+Pour configurer une activité **[!UICONTROL Branchement]** et ses activités associées, procédez comme suit :
 
 1. Ouvrez l’activité **[!UICONTROL Branchement]** et définissez le nom et le libellé des transitions sortantes.
 
@@ -34,20 +34,20 @@ Pour configurer une activité **[!UICONTROL Branchement]** et ses activités ass
 
    La partie suivante du workflow s’exécute uniquement à la fin des transitions sortantes reliées.
 
-## Exemple : segmentation
+## Exemple : segmentation
 
-Dans cet exemple, différents e-mails sont envoyés à différents groupes de population. Une activité **[!UICONTROL Branchement]** est utilisée après une requête pour effectuer deux actions en parallèle :
+Dans cet exemple, différents e-mails sont envoyés à différents groupes de population. Une activité **[!UICONTROL Branchement]** est utilisée après une requête pour effectuer deux actions en parallèle :
 
 * Enregistrer le résultat de la requête
 * Segmenter le résultat pour envoyer plusieurs diffusions
 
    ![L’activité branchement suit l’intersection de deux requêtes et précède une activité de mise à jour de liste et de partage.](assets/wkf_fork_example.png)
 
-Le workflow comprend les activités suivantes :
+Le workflow comprend les activités suivantes :
 
 1. Activité **[!UICONTROL Requête]**
 
-   Deux groupes de population sont sélectionnés : femmes et Parisiennes.
+   Deux groupes de population sont sélectionnés : femmes et Parisiennes.
 
 1. Activité **[!UICONTROL Intersection]**
 
@@ -55,7 +55,7 @@ Le workflow comprend les activités suivantes :
 
 1. Activité **[!UICONTROL Branchement]**
 
-   La population calculée est enregistrée et, en parallèle, segmentée en deux groupes :
+   La population calculée est enregistrée et, en parallèle, segmentée en deux groupes :
 
    1. Parisiennes de 18 à 40 ans
    1. Parisiennes de plus de 40 ans
@@ -64,13 +64,13 @@ Le workflow comprend les activités suivantes :
 
    Un e-mail différent est envoyé à chaque groupe de population.
 
-## Cas d’utilisation : envoyer un e-mail d’anniversaire
+## Cas d’utilisation : envoyer un e-mail d’anniversaire
 
 Un e-mail récurrent est envoyé à une liste de destinataires le jour de leur anniversaire. Une activité **[!UICONTROL Branchement]** est utilisée pour inclure les destinataires nés un 29 février sur une année bissextile. [En savoir plus](sending-a-birthday-email.md) sur ce cas d’utilisation.
 
 ![L’activité branchement suit une activité de test et précède deux activités de requête.](assets/birthday-workflow_usecase_1.png)
 
-## Cas d’utilisation : automatiser le contenu avec un workflow
+## Cas d’utilisation : automatiser le contenu avec un workflow
 
 La création et la diffusion d’un bloc de contenu sont automatisées. Une activité **[!UICONTROL Branchement]** est utilisée pour calculer la cible et, parallèlement, pour créer le contenu. [En savoir plus](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content) sur ce cas d’utilisation.
 
@@ -81,5 +81,5 @@ Vous pouvez ensuite configurer chaque transition sortante, puis les associer à 
 ## Rubriques connexes
 
 * [Activité AND-join](and-join.md)
-* [Cas d’utilisation : e-mail d’anniversaire](sending-a-birthday-email.md)
-* [Cas d’utilisation : création et diffusion de contenu](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)
+* [Cas d’utilisation : e-mail d’anniversaire](sending-a-birthday-email.md)
+* [Cas d’utilisation : création et diffusion de contenu](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)

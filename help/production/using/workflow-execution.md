@@ -75,7 +75,7 @@ Il peut y avoir plusieurs causes à ce problème. Procédez comme suit pour le r
 
    >[!IMPORTANT]
    >
-   >L’augmentation du seuil de l’option **[!UICONTROL NmsOperation_LimitConcurrency]** peut entraîner des problèmes de performances sur votre instance. Dans tous les cas, n’effectuez pas cette opération vous-même et communiquez avec votre contact Adobe Campaign.
+   >L’augmentation du seuil de l’option **[!UICONTROL NmsOperation_LimitConcurrency]** peut entraîner des problèmes de performances sur votre instance. Dans tous les cas, n’effectuez pas cette opération vous-même et communiquez avec votre contact Adobe Campaign.
 
 Pour plus d’informations sur la manière de surveiller vos workflows, consultez [cette section](../../workflow/using/monitoring-workflow-execution.md).
 
@@ -83,7 +83,7 @@ Pour plus d’informations sur la manière de surveiller vos workflows, consulte
 
 Si les workflows ne s&#39;exécutent pas et restent dans un état **Démarrage en cours**, il se peut que le module de workflow ne soit pas lancé.
 
-Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
+Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
 
 1. Vérifiez l’état du module **[!UICONTROL wfserver]** dans l’onglet **[!UICONTROL Surveillance]** , accessible à partir de la page d’accueil de Campaign Classic (voir [Surveillance des processus](../../production/using/monitoring-processes.md)).
 

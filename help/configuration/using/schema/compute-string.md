@@ -52,7 +52,7 @@ Lorsqu’aucun `<compute-string>` n’est défini, un élément `<compute-string
 <compute-string expr="ToString([@centralCatalog-id]) + ',' + ToString([@localOrgUnit-id])" />
 ```
 
-Résultat de la chaîne calculée sur un destinataire : &quot;Dupont René (rene.dupont@aol.com)&quot; :
+Résultat de la chaîne calculée sur un destinataire : &quot;Dupont René (rene.dupont@aol.com)&quot; :
 
 ```
 <element name="recipient">

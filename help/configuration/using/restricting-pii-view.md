@@ -45,14 +45,14 @@ Les principales propriétés sont les suivantes :
 * **[!UICONTROL visibleIf]** : cache les champs des métadonnées. Ils ne sont donc pas accessibles dans la vue d&#39;un schéma, la sélection de colonnes ou l&#39;édition d&#39;expressions. Cette propriété ne masque toutefois aucune donnée. Si le nom du champ est saisi manuellement dans une expression, la valeur s&#39;affiche.
 * **[!UICONTROL accessibleIf]** : masque les données (en les remplaçant par des valeurs vides) de la requête obtenue. Si visibleIf est vide, il obtient la même expression que l’attribut **[!UICONTROL accessibleIf]**.
 
-Les conséquences de l&#39;utilisation de cet attribut dans Adobe Campaign sont les suivantes :
+Les conséquences de l&#39;utilisation de cet attribut dans Adobe Campaign sont les suivantes :
 
 * Les données ne sont pas affichées dans le requêteur générique de la console.
 * Les données ne sont pas visibles dans les listes d&#39;aperçu et la liste des enregistrements (console).
 * Les données sont en lecture seule dans la vue détaillée.
 * Les données ne peuvent être utilisées que dans des filtres (ce qui signifie qu&#39;il est toujours possible de deviner les valeurs à l&#39;aide de stratégies de dichotomie).
 * Les expressions qui sont construites à l&#39;aide d&#39;un champ restreint sont aussi restreintes : lower(@email) devient autant accessible que @email.
-* Dans un workflow, vous pouvez ajouter la colonne restreinte à la population ciblée en tant que colonne supplémentaire de la transition, mais elle reste inaccessible aux utilisateurs d&#39;Adobe Campaign.
+* Dans un workflow, vous pouvez ajouter la colonne restreinte à la population ciblée en tant que colonne supplémentaire de la transition, mais elle reste inaccessible aux utilisateurs d&#39;Adobe Campaign.
 * Lors du stockage de la population ciblée dans un groupe (liste), les caractéristiques des champs stockés sont identiques à celles de la source de données.
 * Par défaut, les données ne sont pas accessibles par les codes JavaScript.
 

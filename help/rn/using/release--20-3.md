@@ -32,7 +32,7 @@ _27 octobre 2020_
 >
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/using/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez lʼassistance clientèle dʼAdobe pour étendre lʼassistance jusquʼen février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
+> * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez lʼassistance clientèle dʼAdobe pour étendre lʼassistance jusquʼen février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
 
 
 **Nouveautés**
@@ -69,7 +69,7 @@ _27 octobre 2020_
 <tr> 
 <td> <p><a href="../../delivery/using/configuring-the-mobile-application-android.md#creating-notification-message">Les notifications push Android ont été améliorées afin de prendre en charge l’API FCM HTTP v1 pour l’authentification de canal push Android.</a> </p>
 <p>Avec la nouvelle version de l'API prise en charge, vous pouvez maintenant envoyer des messages de notification FCM qui proposent des fonctionnalités enrichies de messagerie push. <a href="https://firebase.google.com/docs/cloud-messaging/migrate-v1">En savoir plus</a></p> 
-<p>Découvrez comment configurer l’API FCM HTTP v1 pour Android dans Adobe Campaign dans <a href="../../delivery/using/configuring-the-mobile-application-android.md">cette section</a>.</p>
+<p>Découvrez comment configurer l’API FCM HTTP v1 pour Android dans Adobe Campaign dans <a href="../../delivery/using/configuring-the-mobile-application-android.md">cette section</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -80,7 +80,7 @@ _27 octobre 2020_
 * Chargement sécurisé des bibliothèques : afin de se protéger des attaques par préchargement de DLL, Campaign charge désormais les DLL Windows uniquement à partir du chemin d’accès de DLL système par défaut Windows lors du chargement du client Campaign (nlclient). [En savoir plus](https://support.microsoft.com/fr-fr/help/2389418/secure-loading-of-libraries-to-prevent-dll-preloading-attacks) (NEO-24147)
 * Correction d’un problème de sécurité afin de renforcer la protection contre les attaques SSRF (Server Side Request Forgery). (NEO-25661)
 * Correction d’un problème qui se produisait lors du traitement des demandes d’accès à des informations personnelles RGPD qui empêchait la suppression d’enregistrements des tables personnalisées avec une relation de second niveau avec la table des destinataires. (NEO-25967)
-* Correction d’un problème de sécurité lors de l’utilisation des appels d’API effectués par des utilisateurs non-administrateurs lors de la synchronisation de modèles Adobe Experience Manager. (NEO-23487)
+* Correction d’un problème de sécurité lors de l’utilisation des appels d’API effectués par des utilisateurs non-administrateurs lors de la synchronisation de modèles Adobe Experience Manager. (NEO-23487)
 
 **Mises à jour de compatibilité**
 
@@ -96,7 +96,7 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/com
 
 Les fonctionnalités suivantes sont obsolètes dans la version 20.3 :
 
-* Le domaine demdex utilisé pour importer et exporter des audiences vers Adobe Experience Cloud est obsolète. Si vous utilisez le domaine demdex pour vos comptes externes d’import/export, vous devez adapter votre mise en œuvre en conséquence. [En savoir plus](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+* Le domaine demdex utilisé pour importer et exporter des audiences vers Adobe Experience Cloud est obsolète. Si vous utilisez le domaine demdex pour vos comptes externes d’import/export, vous devez adapter votre mise en œuvre en conséquence. [En savoir plus](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 * L’authentification de l’intégration des Triggers basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
 
 En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md).
@@ -119,7 +119,7 @@ En savoir plus sur les cookies dans [cette section](../../platform/using/privacy
 * Lors de l’utilisation d’un chemin relatif pour le protocole SFTP, les caractères `~/` ne sont plus automatiquement ajoutés. Si nécessaire, vous pouvez ajouter manuellement des caractères `~/` à votre chemin, mais Adobe conseille d’utiliser un **chemin absolu**.
 * L&#39;authentification Windows NT a été supprimée des méthodes d&#39;authentification disponibles lors de la configuration d&#39;une nouvelle base de données avec Microsoft SQL Server. [En savoir plus](../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine)
 * Le workflow de nettoyage de la base a été optimisé pour Teradata afin d’améliorer les performances. (NEO-19959)
-* Amélioration du message d’erreur affiché lors de l’insertion d’une image à partir d’Adobe Target. Le nom du tenant était vide dans le compte externe.
+* Amélioration du message d’erreur affiché lors de l’insertion d’une image à partir d’Adobe Target. Le nom du tenant était vide dans le compte externe.
 * Dans les propriétés de la diffusion, l’option **[!UICONTROL Archiver les emails]** a été renommée **[!UICONTROL Email BCC]**.
 * Pour améliorer la robustesse, les requêtes selectAll avec des nœuds non valides sont maintenant rejetées. Si vous devez désactiver la vérification et revenir au comportement précédent, vous pouvez définir XtkSecurity_Disable_QueryCheck sur 0.
 
@@ -141,7 +141,7 @@ Sous Linux, _apache_neolane.conf_ est maintenant installé dans le répertoire `
 * Correction d’un problème qui empêchait d’exporter des enregistrements de type recherche (c’est-à-dire des données composées d’enregistrements de clé étrangère associés à d’autres tables) de Campaign Classic vers Microsoft Dynamics à l’aide du connecteur CRM. (NEO-23864)
 * Correction d’un problème qui empêchait la récupération des données Microsoft Dynamics si l’option **Index automatique** était activée dans le connecteur CRM. (NEO-25981)
 * Correction d’un problème lié à l’authentification IMS qui laissait les connexions ouvertes même si elles étaient terminées. Les connexions terminées seront maintenant automatiquement fermées dès leur fin afin d&#39;éviter d&#39;accumuler des connexions et de consommer des ressources système. (NEO-25996)
-* Correction d’un problème qui n’affichait aucun message d’erreur lors de l’échec de la synchronisation du contenu Adobe Experience Manager pour une diffusion en raison d’une configuration incorrecte du compte externe (compte ou mot de passe incorrect). Un message s’affiche maintenant en cas d’échec, ce qui permet d’identifier plus facilement le problème. (NEO-25586)
+* Correction d’un problème qui n’affichait aucun message d’erreur lors de l’échec de la synchronisation du contenu Adobe Experience Manager pour une diffusion en raison d’une configuration incorrecte du compte externe (compte ou mot de passe incorrect). Un message s’affiche maintenant en cas d’échec, ce qui permet d’identifier plus facilement le problème. (NEO-25586)
 * Correction d’un problème qui se produisait lors de la sélection du type d’opération **Mise à jour** dans l’activité **Mise à jour des données**. Si les données à mettre à jour étaient incorrectes, le workflow était en erreur et échouait. En cas de données incorrectes, le workflow n’échoue pas et les enregistrements sont stockés dans une transition sortante **Rejets**. (NEO-23794)
 * Correction d’un problème qui empêchait le fonctionnement des workflows contenant des sous-workflows. (NEO-24036)
 * Correction d’un problème lors de la modification de la description d’un modèle de campagne qui empêchait l’affichage du bouton **Enregistrer** pendant la copie et le collage de symboles, comme des caractères japonais. (NEO-27071)
@@ -164,7 +164,7 @@ Sous Linux, _apache_neolane.conf_ est maintenant installé dans le répertoire `
 * Correction d’un problème en raison duquel la fonction **NoNull** d’Oracle DB ne fonctionnait plus après l’upgrade 9032. (NEO-26488)
 * Correction d’un problème en raison duquel le workflow de tracking échouait après l’upgrade 9171 si le package LINEV2 était installé sans le package Message Center.
 * Correction d’un problème d’évolutivité qui empêchait l’augmentation du pool de connexions au nombre de connexions souhaité, car la chaîne de connexion à la base de données pour l’attribut &#39;APP&#39; finissait par obtenir une valeur non valide. (NEO-25105)
-* Correction d’un problème au niveau de la configuration du proxy qui empêchait la connexion à Adobe Campaign après la dernière mise à jour de Windows 10. (NEO-27813)
+* Correction d’un problème au niveau de la configuration du proxy qui empêchait la connexion à Adobe Campaign après la dernière mise à jour de Windows 10. (NEO-27813)
 * Correction d’un problème en raison duquel des URL indésirables étaient visibles dans les emails diffusés après l’import de modèles HTML contenant des liens de tracking. (NEO-25909)
 * Correction d’un problème en raison duquel le serveur se bloquait lors de l’affichage des données de la cible à partir d’une activité **Partage** dans un workflow.
 * Correction d’un problème de blocage du serveur en empêchant la corruption de la mémoire lors du nettoyage de l’analyseur d’expressions. (NEO-26856)

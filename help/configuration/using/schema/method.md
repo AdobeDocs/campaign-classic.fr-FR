@@ -63,7 +63,7 @@ L&#39;utilisation de l&#39;attribut &quot;@library&quot; est nécessaire pour d�
 
 ## Exemples       {#examples-7}
 
-Définition de la méthode d&#39;usine &quot;Subscribe&quot; :
+Définition de la méthode d&#39;usine &quot;Subscribe&quot; :
 
 ```
  

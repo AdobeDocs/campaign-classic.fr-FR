@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-La configuration globale d’Adobe Campaign est définie dans le fichier **serverConf.xml** qui se trouve dans le répertoire **conf** du répertoire d’installation. Cette section répertorie l’ensemble des nœuds et des paramètres du fichier **serverConf.xml**.
+La configuration globale d’Adobe Campaign est définie dans le fichier **serverConf.xml** qui se trouve dans le répertoire **conf** du répertoire d’installation. Cette section répertorie l’ensemble des nœuds et des paramètres du fichier **serverConf.xml**.
 
 >[!NOTE]
 >
@@ -177,7 +177,7 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
   </tr> 
   <tr> 
    <td> hosts<br /> </td> 
-   <td> Masques DNS : liste de masques DNS associés à cette instance (séparés par des virgules, peut comporter les caractères joker * et ?).<br /> </td> 
+   <td> Masques DNS : liste de masques DNS associés à cette instance (séparés par des virgules, peut comporter les caractères joker * et ?).<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '*'<br /> </td> 
   </tr> 
@@ -965,7 +965,7 @@ Voici les différents paramètres du nœud **threadPool**.
 
 Voici les différents paramètres du nœud **urlPermission**. Il s’agit de la liste des URL auxquelles le code JavaScript peut accéder.
 
-Liste de domaines et d’expressions régulières spécifiant si une URL rencontrée dans le code JavaScript peut ou non être utilisée par le serveur Adobe Campaign.
+Liste de domaines et d’expressions régulières spécifiant si une URL rencontrée dans le code JavaScript peut ou non être utilisée par le serveur Adobe Campaign.
 
 Si l’URL ne s’y trouve pas, l’action par défaut est réalisée, en fonction du mode spécifié par défaut.
 
@@ -1237,7 +1237,7 @@ Voici les différents paramètres du nœud **inMail**. Il s’agit de la configu
   </tr> 
   <tr> 
    <td> checkInstanceName<br /> </td> 
-   <td> Vérifier le nom de l’instance : si vrai, le nom de l’instance Adobe Campaign contenu dans les en-têtes Message-ID doit être le même que celui de l’instance courante. <br /> </td> 
+   <td> Vérifier le nom de l’instance : si vrai, le nom de l’instance Adobe Campaign contenu dans les en-têtes Message-ID doit être le même que celui de l’instance courante. <br /> </td> 
    <td> Booléen<br /> </td> 
    <td> vrai<br /> </td> 
   </tr> 
@@ -3285,7 +3285,7 @@ Pour plus d’informations, consultez cette [section](../../installation/using/d
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> Identifiant de l’organisation Identity Management System (IMS) : identifiant unique de l’organisation dans Adobe Experience Cloud, utilisé notamment pour le service VisitorID et le SSO de l’IMS. <br /> </td> 
+   <td> Identifiant de l’organisation Identity Management System (IMS) : identifiant unique de l’organisation dans Adobe Experience Cloud, utilisé notamment pour le service VisitorID et le SSO de l’IMS. <br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 

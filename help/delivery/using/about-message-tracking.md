@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Prise en main du tracking
-description: Découvrez les instructions générales relatives au tracking dans Adobe Campaign Classic.
+description: Découvrez les instructions générales relatives au tracking dans Adobe Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Grâce à ses fonctionnalités de tracking, Adobe Campaign vous permet de tracker les messages envoyés et de vérifier le comportement des destinataires : ouverture, clics sur les liens, désabonnement, etc.
+Grâce à ses fonctionnalités de tracking, Adobe Campaign vous permet de tracker les messages envoyés et de vérifier le comportement des destinataires : ouverture, clics sur les liens, désabonnement, etc.
 
 Ces informations sont récupérées dans l&#39;onglet **[!UICONTROL Tracking]** du profil de chaque destinataire de la diffusion. Cet onglet présente tous les liens URL trackés sur lesquels le destinataire sélectionné dans la liste a cliqué. Il s’agit de l’accumulation de toutes les URL trackées dans les diffusions qui sont toujours présentes dans l’écran de diffusion. La liste peut être configurée et contient généralement les informations suivantes : l’URL sur laquelle l’utilisateur a cliqué, la date et l’heure du clic et le document dans lequel l’URL a été trouvée. Voir à ce propos [cette section](../../platform/using/editing-a-profile.md#tracking-tab).
 
@@ -93,7 +93,7 @@ Ce rapport contient la liste des pages visitées suite au lancement d&#39;une di
 
 **Personnes et destinataires**
 
-Comprenez la différence de tracking entre une personne/plusieurs personnes et un destinataire dans Adobe Campaign avec cet exemple. [En savoir plus](../../reporting/using/person-people-recipients.md)
+Comprenez la différence de tracking entre une personne/plusieurs personnes et un destinataire dans Adobe Campaign avec cet exemple. [En savoir plus](../../reporting/using/person-people-recipients.md)
 
 **Indicateurs de tracking**
 
@@ -107,7 +107,7 @@ Les différents tableaux contiennent la liste des indicateurs utilisés dans les
 
 <img src="assets/do-not-localize/icon-troubleshooting.svg" width="60px">
 
-Les conseils de dépannage suivants vous aideront à résoudre les problèmes les plus courants qui se produisent lors de l’utilisation du tracking dans Adobe Campaign Classic. Pour un dépannage plus avancé, reportez-vous à [cette section](tracking-troubleshooting.md).
+Les conseils de dépannage suivants vous aideront à résoudre les problèmes les plus courants qui se produisent lors de l’utilisation du tracking dans Adobe Campaign Classic. Pour un dépannage plus avancé, reportez-vous à [cette section](tracking-troubleshooting.md).
 
 * Vérifier que le processus trackinglogd est en cours d&#39;exécution
 

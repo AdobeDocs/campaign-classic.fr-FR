@@ -25,7 +25,7 @@ Les listes sont créées et gérées à partir du lien **[!UICONTROL Listes]** d
 
 ![](assets/s_ncs_user_interface_group_link.png)
 
-Dans Adobe Campaign, deux types de listes sont disponibles :
+Dans Adobe Campaign, deux types de listes sont disponibles :
 
 * Type **[!UICONTROL Groupe]** : les listes de type **[!UICONTROL Groupe]** appartiennent à une liste **statique** de personnes sélectionnées selon des critères précis. La liste est comme un instantané d&#39;un ensemble de profils. En cas d&#39;ajouts de profils à la base de données, le contenu de la liste n&#39;est pas automatiquement mis à jour.
 
@@ -39,7 +39,7 @@ Dans Adobe Campaign, deux types de listes sont disponibles :
 
 ## Création d’une liste de profils à partir d’un groupe {#creating-a-profile-list-from-a-group}
 
-Les listes de type **[!UICONTROL Groupe]** créées via le lien **[!UICONTROL Profils et cibles]** doivent être basées sur la table des profils par défaut d&#39;Adobe Campaign (nms:recipient).
+Les listes de type **[!UICONTROL Groupe]** créées via le lien **[!UICONTROL Profils et cibles]** doivent être basées sur la table des profils par défaut d&#39;Adobe Campaign (nms:recipient).
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Pour créer une liste de type **[!UICONTROL Groupe]**, procédez comme suit :
 
    * Saisissez le nom de la liste dans le champ **[!UICONTROL Libellé]** et, au besoin, modifiez le nom interne.
    * Ajoutez une description pour cette liste.
-   * Vous pouvez définir une date d&#39;expiration : lorsque cette date est atteinte, la liste est purgée et automatiquement supprimée.
+   * Vous pouvez définir une date d&#39;expiration : lorsque cette date est atteinte, la liste est purgée et automatiquement supprimée.
 
       ![](assets/list_expiration_date.png)
 
@@ -102,7 +102,7 @@ Vous pouvez suivre le traitement depuis l&#39;onglet **[!UICONTROL Listes]** des
 
 ![](assets/s_ncs_user_add_selection_to_group_4.png)
 
-Vous pouvez également éditer la liste depuis la page d&#39;accueil d&#39;Adobe Campaign : cliquez sur le menu **[!UICONTROL Profils et Cibles > Listes]** et sélectionnez la liste concernée. L&#39;onglet **[!UICONTROL Contenu]** affiche les profils associés à cette liste.
+Vous pouvez également éditer la liste depuis la page d&#39;accueil d&#39;Adobe Campaign : cliquez sur le menu **[!UICONTROL Profils et Cibles > Listes]** et sélectionnez la liste concernée. L&#39;onglet **[!UICONTROL Contenu]** affiche les profils associés à cette liste.
 
 ![](assets/s_ncs_user_add_selection_to_group_5.png)
 
@@ -120,7 +120,7 @@ Pour supprimer un profil d&#39;une liste, vous pouvez :
 
 ## Supprimer une liste de profils {#deleting-a-list-of-profiles}
 
-Vous pouvez supprimer une ou plusieurs listes à partir de la liste des groupes de l&#39;arborescence d&#39;Adobe Campaign. Pour cela, éditez l&#39;arborescence à partir du lien **[!UICONTROL Avancé > Explorateur]** de la page d&#39;accueil d&#39;Adobe Campaign. Sélectionnez le ou les groupes visés et cliquez sur le bouton droit de la souris : choisissez **[!UICONTROL Supprimer]**. Un message d&#39;avertissement vous demande de confirmer la suppression.
+Vous pouvez supprimer une ou plusieurs listes à partir de la liste des groupes de l&#39;arborescence d&#39;Adobe Campaign. Pour cela, éditez l&#39;arborescence à partir du lien **[!UICONTROL Avancé > Explorateur]** de la page d&#39;accueil d&#39;Adobe Campaign. Sélectionnez le ou les groupes visés et cliquez sur le bouton droit de la souris : choisissez **[!UICONTROL Supprimer]**. Un message d&#39;avertissement vous demande de confirmer la suppression.
 
 >[!NOTE]
 >

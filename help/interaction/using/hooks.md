@@ -19,11 +19,11 @@ ht-degree: 100%
 
 Les points d&#39;extension (hooks) permettent de modifier le **comportement standard du moteur**.
 
-Les points d&#39;extension **[!UICONTROL Chargement de la cible]** et **[!UICONTROL Post-traitement des propositions]** sont configurés, dans Adobe Campaign, au niveau de l&#39;emplacement :
+Les points d&#39;extension **[!UICONTROL Chargement de la cible]** et **[!UICONTROL Post-traitement des propositions]** sont configurés, dans Adobe Campaign, au niveau de l&#39;emplacement :
 
 ![](assets/interaction_hooks_1.png)
 
-Le point d&#39;extension **[!UICONTROL Offre dynamique]** est configuré, dans Adobe Campaign, au niveau du poids de l&#39;offre :
+Le point d&#39;extension **[!UICONTROL Offre dynamique]** est configuré, dans Adobe Campaign, au niveau du poids de l&#39;offre :
 
 ![](assets/interaction_hooks_2.png)
 
@@ -35,12 +35,12 @@ Les données collectées doivent être insérées dans le nœud des données d&#
 
 **Paramètres d&#39;entrée:**
 
-* xmlInteraction (type xml) : noeud Interaction
-* aTargetId (type tableau) : identifiant de la cible
-* sUuid230 (type chaîne) : valeur du cookie permanent uuid230
-* sNlid (type chaîne) : valeur du cookie de session nlid
+* xmlInteraction (type xml) : noeud Interaction
+* aTargetId (type tableau) : identifiant de la cible
+* sUuid230 (type chaîne) : valeur du cookie permanent uuid230
+* sNlid (type chaîne) : valeur du cookie de session nlid
 
-**Paramètres de retour :**
+**Paramètres de retour :**
 
 * noeud Interaction enrichi (premier paramètre du point d&#39;extension)
 
@@ -61,7 +61,7 @@ Les données collectées doivent être insérées dans le nœud des données d&#
 
 Ce point d&#39;extension permet de vérifier la cohérence et la compatibilité des propositions éligibles au sein d&#39;une même interaction. Il permet également de définir une nouvelle fonction de calcul d&#39;un score ou d&#39;une probabilité.
 
-Exemple d&#39;utilisation des règles de cohérence :
+Exemple d&#39;utilisation des règles de cohérence :
 
 * Limiter le nombre de propositions, au sein d&#39;un même appel, associées à un même produit ou une même catégorie.
 * Proposer uniquement les offres relatives à un produit dans une même interaction.
@@ -70,25 +70,25 @@ Le post-traitement est exécuté après l&#39;application des règles de typolog
 
 **Paramètres d&#39;entrée:**
 
-* aProposition : tableau des propositions éligibles. Voici un exemple de structure d&#39;un élément de ce tableau :
+* aProposition : tableau des propositions éligibles. Voici un exemple de structure d&#39;un élément de ce tableau :
 
    ```
    { offer_id:1234,
      weight:2}
    ```
 
-* dicOffer (type xml) : dictionnaire de tous les attributs des offres éligibles (code de l&#39;offre, identifiant de la catégorie, nom complet de la catégorie, date de début, date de fin, libellé, nom interne, identifiant de l&#39;offre, champs additionnels de l&#39;offre). Exemple :
+* dicOffer (type xml) : dictionnaire de tous les attributs des offres éligibles (code de l&#39;offre, identifiant de la catégorie, nom complet de la catégorie, date de début, date de fin, libellé, nom interne, identifiant de l&#39;offre, champs additionnels de l&#39;offre). Exemple :
 
    ```
    { "1242": <offer category-id="61242" categoryFullName="/FULL/PATH/TO/CATEGORY/" code="CODE" endDate="" id="62473" label="LABEL" name="OFR38_OE4" product-id="43" startDate=""/>,
      "1243": ...}
    ```
 
-* xmlTarget : noeud des données de profil (type xml)
-* xmlInteraction : noeud des données d&#39;appel (type xml)
-* iPropNumber : nombre d&#39;offres attendues (type entier)
+* xmlTarget : noeud des données de profil (type xml)
+* xmlInteraction : noeud des données d&#39;appel (type xml)
+* iPropNumber : nombre d&#39;offres attendues (type entier)
 
-**Paramètres de retour :**
+**Paramètres de retour :**
 
 * liste des propositions modifiée (premier paramètre du point d&#39;extension)
 * noeud Interaction modifié
@@ -125,14 +125,14 @@ L&#39;intégrateur doit, au préalable, avoir étendu le schéma des proposition
 
 **Paramètres d&#39;entrée:**
 
-* xmlOffer (type xml) : offre (code de l&#39;offre, identifiant de la catégorie, nom complet de la catégorie, date de début, date de fin, libellé, nom interne, identifiant de l&#39;offre, champs additionnels de l&#39;offre)
-* dWeight : poids du contexte (type double)
-* xmlTarget : noeud des données de profil (type xml)
-* xmlInteraction : noeud des données d&#39;appel (type xml)
+* xmlOffer (type xml) : offre (code de l&#39;offre, identifiant de la catégorie, nom complet de la catégorie, date de début, date de fin, libellé, nom interne, identifiant de l&#39;offre, champs additionnels de l&#39;offre)
+* dWeight : poids du contexte (type double)
+* xmlTarget : noeud des données de profil (type xml)
+* xmlInteraction : noeud des données d&#39;appel (type xml)
 
-**Paramètres de retour :**
+**Paramètres de retour :**
 
-Un tableau des propositions à générer est retourné. Chaque élément de ce tableau est composé des informations suivantes :
+Un tableau des propositions à générer est retourné. Chaque élément de ce tableau est composé des informations suivantes :
 
 * identifiant de l&#39;offre
 * données additionnelles du produit (par exemple, code produit)

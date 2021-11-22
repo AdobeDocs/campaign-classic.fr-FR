@@ -19,9 +19,9 @@ ht-degree: 100%
 
 ## Informations générales {#general-information}
 
-L&#39;ensemble des méthodes de l&#39;API sont exposées sous forme de service Web. Ainsi, il est possible de piloter l&#39;intégralité des fonctionnalités d&#39;Adobe Campaign au travers d&#39;appels SOAP qui sont le point d&#39;entrée natif du serveur d&#39;application Adobe Campaign. La console Adobe Campaign elle-même n&#39;utilise que des appels SOAP.
+L&#39;ensemble des méthodes de l&#39;API sont exposées sous forme de service Web. Ainsi, il est possible de piloter l&#39;intégralité des fonctionnalités d&#39;Adobe Campaign au travers d&#39;appels SOAP qui sont le point d&#39;entrée natif du serveur d&#39;application Adobe Campaign. La console Adobe Campaign elle-même n&#39;utilise que des appels SOAP.
 
-Les services Web permettent de créer, depuis un système tiers, de multiples applications :
+Les services Web permettent de créer, depuis un système tiers, de multiples applications :
 
 * Alertes synchrones, notifications et exécution de modèles de diffusion en temps-réel depuis un back-office ou un système transactionnel,
 * Développement d&#39;interfaces spécifiques avec des fonctionnalités simplifiées (interfaces Web, etc.),
@@ -29,7 +29,7 @@ Les services Web permettent de créer, depuis un système tiers, de multiples ap
 
 ## Définition des services Web {#definition-of-web-services}
 
-La définition des services Web implémentés sur le serveur applicatif Adobe Campaign est disponible à partir des schémas de données.
+La définition des services Web implémentés sur le serveur applicatif Adobe Campaign est disponible à partir des schémas de données.
 
 Un service Web est décrit dans la grammaire des schémas de données et est disponible à partir de l&#39;élément **`<methods>`**.
 
@@ -56,7 +56,7 @@ Une méthode de type &quot;const&quot; possède implicitement en entrée un docu
 
 Une description complète de l&#39;élément `<method>` d&#39;un schéma Adobe Campaign figure dans la section [Méthode ](../../configuration/using/schema/method.md) du chapitre « Référence des schémas ».
 
-Exemple de la méthode &quot;ExecuteQuery&quot; de type &quot;const&quot; à partir du schéma &quot;xtk:queryDef&quot; :
+Exemple de la méthode &quot;ExecuteQuery&quot; de type &quot;const&quot; à partir du schéma &quot;xtk:queryDef&quot; :
 
 ```
 <method name="ExecuteQuery" const="true">
@@ -69,24 +69,24 @@ Exemple de la méthode &quot;ExecuteQuery&quot; de type &quot;const&quot; à par
 
 Le paramètre en entrée de cette méthode est un document XML au format du schéma &quot;xtk:queryDef&quot;.
 
-## Description des services Web : WSDL {#web-service-description--wsdl}
+## Description des services Web : WSDL {#web-service-description--wsdl}
 
 Un fichier WSDL (Web Service Description Library) est disponible pour chaque service. Ce fichier écrit en XML décrit le service dans un méta-langage, il précise les méthodes disponibles, les paramètres et le serveur à contacter pour exécuter le service.
 
 ### Génération du fichier WSDL {#wsdl-file-generation}
 
-Pour générer un fichier WSDL vous devez, à partir d&#39;un navigateur Web, saisir l&#39;URL suivante :
+Pour générer un fichier WSDL vous devez, à partir d&#39;un navigateur Web, saisir l&#39;URL suivante :
 
 https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 
-Avec :
+Avec :
 
 * **`<server>`** : le serveur applicatif Adobe Campaign (nlserver web)
 * **`<schema>`** : la clé d&#39;identification du schéma (namespace:nom_du_schéma)
 
 ### Exemple sur la méthode &#39;ExecuteQuery&#39; du schéma &#39;xtk:queryDef&#39; {#example-on-the--executequery--method-of-schema--xtk-querydef-}
 
-On génère le fichier WSDL à partir de l&#39;URL :
+On génère le fichier WSDL à partir de l&#39;URL :
 
 [https://localhost/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef](https://my_serveur/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef)
 
@@ -190,33 +190,33 @@ La partie `<service>` décrit le service &quot;XtkQueryDef&quot; avec son URI su
 
 Adobe Campaign a renforcé la sécurité des mécanismes d&#39;authentification en introduisant les [zones de sécurité](../../installation/using/security-zones.md) et paramètres de gestion des sessions.
 
-Deux modes d&#39;authentification sont disponibles :
+Deux modes d&#39;authentification sont disponibles :
 
 * **via un appel à la méthode logon()**. Ce mode génère un jeton de session et un jeton de sécurité. C&#39;est le mode le plus sécurisé et donc celui qui est conseillé.
 
 ou
 
-* **via login et mot de passe** Adobe Campaign qui crée un jeton de session. Le jeton de session expire automatiquement après un délai. Ce mode est déconseillé et il demande de réduire les paramètres de sécurité de l&#39;application dans la configuration des zones (allowUserPassword=&quot;true&quot; et sessionTokenOnly=&quot;true&quot;).
+* **via login et mot de passe** Adobe Campaign qui crée un jeton de session. Le jeton de session expire automatiquement après un délai. Ce mode est déconseillé et il demande de réduire les paramètres de sécurité de l&#39;application dans la configuration des zones (allowUserPassword=&quot;true&quot; et sessionTokenOnly=&quot;true&quot;).
 
 ### Caractéristiques du jeton de session {#session-token-characteristics}
 
-Le jeton de session possède les caractéristiques suivantes :
+Le jeton de session possède les caractéristiques suivantes :
 
 * une durée de vie de X heures (la durée de vie est paramétrable dans le fichier &#39;serverConf.xml&#39;, la durée par défaut est 24h)
 * une construction aléatoire (il ne contient plus le login et le mot de passe de l&#39;utilisateur)
-* lors d&#39;un accès Web :
+* lors d&#39;un accès Web :
 
    * le jeton de session devient un jeton permanent, il n&#39;est pas détruit lorsque le navigateur est fermé
    * il est placé dans un cookie HTTP-ONLY (activation des cookies obligatoire pour les opérateurs)
 
 ### Caractéristiques du jeton de sécurité {#security-token-characteristics}
 
-Le jeton de sécurité possède les caractéristiques suivantes :
+Le jeton de sécurité possède les caractéristiques suivantes :
 
 * il est généré à partir du jeton de session
 * il a une durée de vie de 24h par défaut (configurable dans le fichier &#39;serverConf.xml&#39;)
-* il est stocké dans la console Adobe Campaign
-* lors d&#39;un accès Web :
+* il est stocké dans la console Adobe Campaign
+* lors d&#39;un accès Web :
 
    * il est stocké dans une propriété document.__securityToken
    * les URL de la page sont mises à jour pour actualiser le jeton de sécurité
@@ -224,23 +224,23 @@ Le jeton de sécurité possède les caractéristiques suivantes :
 
 #### Circulation du jeton de sécurité {#security-token-movement}
 
-Lors d&#39;un accès console, il est :
+Lors d&#39;un accès console, il est :
 
 * transmis dans la réponse du logon (dans l&#39;entête HTTP)
 * utilisé à chaque requête (dans l&#39;entête HTTP)
 
-Lors d&#39;un POST et GET HTTP :
+Lors d&#39;un POST et GET HTTP :
 
 * le serveur complète les liens avec le jeton
 * le serveur ajoute un champ caché aux formulaires
 
-Lors d&#39;un appel SOAP :
+Lors d&#39;un appel SOAP :
 
 * il est ajouté aux entêtes de l&#39;appel
 
 ### Exemples d&#39;appels {#call-examples}
 
-* En utilisant **HttpSoapConnection/SoapService** :
+* En utilisant **HttpSoapConnection/SoapService** :
 
 ```
   
@@ -273,13 +273,13 @@ Lors d&#39;un appel SOAP :
   logInfo(queryRes[0].toXMLString())
 ```
 
-* En utilisant **HttpServletRequest** :
+* En utilisant **HttpServletRequest** :
 
 >[!NOTE]
 >
 >Les URL utilisées dans les appels **HttpServletRequest** suivants doivent être placées dans la liste autorisée dans la section des autorisations d&#39;URL du fichier **serverConf.xml**. C&#39;est également vrai pour l&#39;URL du serveur lui-même.
 
-Exécution du logon() :
+Exécution du logon() :
 
 ```
 var req = new HttpClientRequest("https://serverURL/nl/jsp/soaprouter.jsp");
@@ -305,7 +305,7 @@ var sessionToken = String(xmlRes..*::pstrSessionToken);;
 var securityToken = String(xmlRes..*::pstrSecurityToken);
 ```
 
-Exécution de la requête :
+Exécution de la requête :
 
 ```
 var req2 = new HttpClientRequest("https://serverURL/nl/jsp/soaprouter.jsp");

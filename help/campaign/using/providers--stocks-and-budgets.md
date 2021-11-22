@@ -17,7 +17,7 @@ ht-degree: 91%
 
 ![](../../assets/common.svg)
 
-Adobe Campaign vous permet de définir des prestataires qui seront impliqués dans les traitements réalisés dans les opérations. Les informations relatives aux prestataires et les structures de coûts qui leur sont associées sont définies par l&#39;administrateur Adobe Campaign, à partir de la vue globale. Le prestataire est référencé au niveau de la diffusion : ses structures de coûts permettent le calcul des coûts liés à cette diffusion ainsi que la gestion des stocks impactés.
+Adobe Campaign vous permet de définir des prestataires qui seront impliqués dans les traitements réalisés dans les opérations. Les informations relatives aux prestataires et les structures de coûts qui leur sont associées sont définies par l&#39;administrateur Adobe Campaign, à partir de la vue globale. Le prestataire est référencé au niveau de la diffusion : ses structures de coûts permettent le calcul des coûts liés à cette diffusion ainsi que la gestion des stocks impactés.
 
 ## Créer les prestataires et leurs structures de coûts {#creating-service-providers-and-their-cost-structures}
 
@@ -25,9 +25,9 @@ Chaque prestataire est enregistré dans une fiche avec ses coordonnées, ses mod
 
 Les prestataires sont paramétrés dans le noeud **[!UICONTROL Administration > Gestion de campagne > Prestataires]** de l&#39;arborescence.
 
-Les traitements réalisés dans les diffusions sont assurés par des prestataires, notamment pour le courrier et les canaux mobiles. Ces prestataires peuvent par exemple intervenir dans les opérations d&#39;impression ou de distribution des messages. Ces traitements engendrent des paramétrages et des coûts spécifiques à chaque prestataire. Le paramétrage des prestataires est assuré au travers de quatre étapes :
+Les traitements réalisés dans les diffusions sont assurés par des prestataires, notamment pour le courrier et les canaux mobiles. Ces prestataires peuvent par exemple intervenir dans les opérations d&#39;impression ou de distribution des messages. Ces traitements engendrent des paramétrages et des coûts spécifiques à chaque prestataire. Le paramétrage des prestataires est assuré au travers de quatre étapes :
 
-1. Création du prestataire dans Adobe Campaign.
+1. Création du prestataire dans Adobe Campaign.
 
    Voir [Ajouter un prestataire](#adding-a-service-provider).
 
@@ -47,7 +47,7 @@ Les traitements réalisés dans les diffusions sont assurés par des prestataire
 
 #### Ajouter un prestataire {#adding-a-service-provider}
 
-Vous pouvez créer autant de prestataires que nécessaire pour vos diffusions. Pour ajouter un prestataire, les étapes sont les suivantes :
+Vous pouvez créer autant de prestataires que nécessaire pour vos diffusions. Pour ajouter un prestataire, les étapes sont les suivantes :
 
 1. Cliquez avec le bouton droit dans la liste des prestataires et choisissez **[!UICONTROL Nouveau]**, ou cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des prestataires.
 1. Dans la section inférieure de la fenêtre, indiquez son nom et ses coordonnées.
@@ -66,7 +66,7 @@ A chaque prestataire, vous devez associer des modèles de prestations. Dans ces 
 
 Un poste de coût est une entité qui regroupe un ensemble de coûts éligible pour un type de diffusion (email, courrier, etc.) ou pour une tâche. Les postes de coûts sont regroupés dans des modèles de prestations qui sont associés aux prestataires. Chaque prestataire peut référencer un ou plusieurs modèles de prestations.
 
-Pour créer un modèle de prestation et définir son contenu, les étapes sont les suivantes :
+Pour créer un modèle de prestation et définir son contenu, les étapes sont les suivantes :
 
 1. Dans l&#39;onglet **[!UICONTROL Prestations]** du prestataire, cliquez sur le bouton **[!UICONTROL Ajouter]** et nommez le modèle de prestation.
 
@@ -85,11 +85,11 @@ Pour créer un modèle de prestation et définir son contenu, les étapes sont l
       >Les lignes de stock sont définies dans le noeud **[!UICONTROL Gestion des stocks]**.\
       >Voir à ce sujet la section [Gestion des stocks et des commandes](#stock-and-order-management).
 
-1. Vous pouvez pré-sélectionner une valeur pour ce poste de coût : elle sera proposée par défaut au niveau des postes de coûts du prestataire (plutôt qu&#39;une valeur vide). Pour cela, cochez l&#39;option dans la colonne **[!UICONTROL Sélectionné]** pour le type de poste concerné :
+1. Vous pouvez pré-sélectionner une valeur pour ce poste de coût : elle sera proposée par défaut au niveau des postes de coûts du prestataire (plutôt qu&#39;une valeur vide). Pour cela, cochez l&#39;option dans la colonne **[!UICONTROL Sélectionné]** pour le type de poste concerné :
 
    ![](assets/s_ncs_user_supplier_cost_structure_defaut.png)
 
-   Au niveau de la diffusion, la valeur sera sélectionnée par défaut :
+   Au niveau de la diffusion, la valeur sera sélectionnée par défaut :
 
    ![](assets/s_ncs_user_supplier_default_cost.png)
 
@@ -105,7 +105,7 @@ Cliquez sur l&#39;onglet **[!UICONTROL Structure de coûts]** pour paramétrer l
 
    Vous devez attribuer un libellé à la structure de coûts. Par défaut, il est composé comme suit : **Poste de coût - Type de coût**.
 
-   Vous pouvez toutefois le renommer : saisissez alors directement la valeur souhaitée dans le champ **[!UICONTROL Libellé]**.
+   Vous pouvez toutefois le renommer : saisissez alors directement la valeur souhaitée dans le champ **[!UICONTROL Libellé]**.
 
 * La formule de calcul du coût est définie dans la section inférieure de la fenêtre.
 
@@ -127,7 +127,7 @@ Si ce montant s&#39;applique à un lot de messages, indiquez le nombre de messag
 
 Si le montant s&#39;applique par seuil pour chaque message, vous devez alors définir une structure de calcul **[!UICONTROL Linéaire par seuil]**. Dans ce type de structure de coût, chaque message coûtera, par exemple, 0,13 si le nombre total de message se situe entre 1 et 100, puis coûtera 0,12 entre 100 et 1000 messages envoyés, et 0,11 au-delà de 1000 messages.
 
-Le paramétrage sera le suivant :
+Le paramétrage sera le suivant :
 
 ![](assets/s_ncs_user_supplier_cost_structure_calc_03.png)
 
@@ -135,7 +135,7 @@ Pour ajouter un seuil, cliquez sur le bouton **[!UICONTROL Ajouter]** situé à 
 
 #### Structure constante par seuil {#constant-structure-by-threshold}
 
-Vous pouvez enfin paramétrer un calcul au forfait : les coûts seront alors calculés en fonction du nombre total de messages. Pour cela, choisissez une structure de calcul **[!UICONTROL Constante par seuil]**. Par exemple, le coût sera fixé forfaitairement à 12,00 entre 1 et 100 messages, puis passera à 100,00 pour toute diffusion comprise entre 101 et 1000 messages, et à 500,00 pour toute diffusion supérieure à 1000 messages, quel qu&#39;en soit le nombre total.
+Vous pouvez enfin paramétrer un calcul au forfait : les coûts seront alors calculés en fonction du nombre total de messages. Pour cela, choisissez une structure de calcul **[!UICONTROL Constante par seuil]**. Par exemple, le coût sera fixé forfaitairement à 12,00 entre 1 et 100 messages, puis passera à 100,00 pour toute diffusion comprise entre 101 et 1000 messages, et à 500,00 pour toute diffusion supérieure à 1000 messages, quel qu&#39;en soit le nombre total.
 
 ![](assets/s_ncs_user_supplier_cost_structure_calc_04.png)
 
@@ -172,13 +172,13 @@ Lorsqu&#39;une prestation est sélectionnée, les postes de coûts correspondant
    ![](assets/s_ncs_user_supplier_mail_delivery_select.png)
 
 * Pour une diffusion sur canaux mobiles ou par téléphone, le mode de sélection est le même.
-* Pour une diffusion par email, la prestation est sélectionnée à partir de l&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion, comme dans l&#39;exemple ci-dessous :
+* Pour une diffusion par email, la prestation est sélectionnée à partir de l&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_ncs_user_supplier_email_delivery_select.png)
 
 La colonne **[!UICONTROL Montant à surcharger]** permet d&#39;ajouter un coût pour ce poste dans le contexte de la diffusion ou de la tâche concernée.
 
-Vous pouvez rendre obligatoire la sélection d&#39;un type de coût lors de la définition des postes de coût au niveau d&#39;une diffusion : pour cela, cochez l&#39;option **[!UICONTROL Sélection obligatoire d&#39;une valeur dans la liste de types de coût]**.
+Vous pouvez rendre obligatoire la sélection d&#39;un type de coût lors de la définition des postes de coût au niveau d&#39;une diffusion : pour cela, cochez l&#39;option **[!UICONTROL Sélection obligatoire d&#39;une valeur dans la liste de types de coût]**.
 
 ![](assets/s_ncs_user_supplier_cost_structure_select.png)
 
@@ -186,7 +186,7 @@ Vous pouvez rendre obligatoire la sélection d&#39;un type de coût lors de la d
 
 Les types de coûts peuvent être associés à des lignes de stocks afin de gérer les alertes, suivre les approvisionnements et lancer des commandes.
 
-Pour mettre en place la gestion des stocks et des commandes dans Adobe Campaign, et alerter les opérateurs en cas d&#39;approvisionnement insuffisant pour la réalisation d&#39;une diffusion, les étapes sont les suivantes :
+Pour mettre en place la gestion des stocks et des commandes dans Adobe Campaign, et alerter les opérateurs en cas d&#39;approvisionnement insuffisant pour la réalisation d&#39;une diffusion, les étapes sont les suivantes :
 
 1. Création des stocks et référencement des prestataires associés.
 
@@ -206,13 +206,13 @@ Pour mettre en place la gestion des stocks et des commandes dans Adobe Campaign,
 
 ### Gestion des stocks {#stock-management}
 
-Adobe Campaign peut alerter un groupe d’utilisateurs si le stock est épuisé ou a atteint un seuil minimum. Les niveaux de stock sont accessibles via le lien **[!UICONTROL Stocks]** de l’onglet **[!UICONTROL Campagnes]** à partir du lien **[!UICONTROL Autres choix]** dans la zone de navigation.
+Adobe Campaign peut alerter un groupe d’utilisateurs si le stock est épuisé ou a atteint un seuil minimum. Les niveaux de stock sont accessibles via le lien **[!UICONTROL Stocks]** de l’onglet **[!UICONTROL Campagnes]** à partir du lien **[!UICONTROL Autres choix]** dans la zone de navigation.
 
 ![](assets/s_ncs_user_stocks_view.png)
 
 #### Créer un stock {#creating-a-stock}
 
-Pour créer un nouveau stock, les étapes sont les suivantes :
+Pour créer un nouveau stock, les étapes sont les suivantes :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer]** situé au-dessus de la liste des stocks.
 1. Saisissez le libellé du stock et sélectionnez dans la liste déroulante le prestataire auquel il est associé.
@@ -245,7 +245,7 @@ Cliquez sur le bouton **[!UICONTROL Créer]** pour définir les paramètres du s
 
 #### Associer un stock à des postes de coûts {#associating-a-stock-with-cost-categories}
 
-Au niveau du prestataire, dans une prestation, une ligne de stock peut être référencée par l&#39;un de ses postes de coûts, comme ci-dessous :
+Au niveau du prestataire, dans une prestation, une ligne de stock peut être référencée par l&#39;un de ses postes de coûts, comme ci-dessous :
 
 ![](assets/s_ncs_user_stocks_select_from_supplier.png)
 
@@ -253,7 +253,7 @@ Au niveau du prestataire, dans une prestation, une ligne de stock peut être ré
 
 #### Alerter les opérateurs {#alerting-operators}
 
-Une alerte est affichée lorsqu&#39;un stock référencé dans une diffusion est insuffisant. Par exemple, l&#39;alerte suivante sera affichée lors de la validation d&#39;un fichier d&#39;extraction :
+Une alerte est affichée lorsqu&#39;un stock référencé dans une diffusion est insuffisant. Par exemple, l&#39;alerte suivante sera affichée lors de la validation d&#39;un fichier d&#39;extraction :
 
 ![](assets/s_ncs_user_stocks_valid_alert.png)
 

@@ -17,15 +17,15 @@ ht-degree: 98%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign permet de contrôler les coûts marketing planifiés, engagés et facturés, et de les ventiler par catégories à l&#39;aide du module Marketing Resource Management.
+Adobe Campaign permet de contrôler les coûts marketing planifiés, engagés et facturés, et de les ventiler par catégories à l&#39;aide du module Marketing Resource Management.
 
 Les coûts engagés au niveau des différents traitements d&#39;une opération sont imputés à un budget dont le montant est défini au préalable par la direction marketing. Les montants peuvent être ventilés en plusieurs catégories afin de permettre une meilleure lisibilité des informations et un reporting plus fin des investissements marketing.
 
-La gestion et le tracking des budgets sont centralisés dans un nœud dédié de l&#39;arborescence d&#39;Adobe Campaign. Vous pouvez ainsi suivre, depuis la même vue et pour tous les budgets, les montants alloués, réservés, engagés et dépensés.
+La gestion et le tracking des budgets sont centralisés dans un nœud dédié de l&#39;arborescence d&#39;Adobe Campaign. Vous pouvez ainsi suivre, depuis la même vue et pour tous les budgets, les montants alloués, réservés, engagés et dépensés.
 
 ![](assets/s_ncs_user_budget_node_02.png)
 
-Les étapes de mise en oeuvre de la gestion des budgets avec MRM sont les suivantes :
+Les étapes de mise en oeuvre de la gestion des budgets avec MRM sont les suivantes :
 
 1. Définition du budget
 
@@ -148,7 +148,7 @@ Les lignes de dépenses sont ajoutées automatiquement au budget. Elles sont cr�
 
 Pour chaque opération, diffusion, ou tâche, les coûts engendrés sont regroupés dans les lignes de dépenses du budget auquel ils sont imputés. Ces lignes de dépenses sont créées en fonction des postes de coûts du prestataire impliqué, et calculées via les structures de coût associées.
 
-Ainsi, chaque ligne de dépense contient les informations suivantes :
+Ainsi, chaque ligne de dépense contient les informations suivantes :
 
 * L&#39;opération et la diffusion ou la tâche auxquelles elle est rattachée
 * Le montant calculé à partir des structures de coût ou du coût prévisionnel estimé
@@ -158,11 +158,11 @@ Ainsi, chaque ligne de dépense contient les informations suivantes :
 
 Dans l&#39;exemple ci-dessus, la ligne de dépenses éditée correspond aux coûts calculés sur la diffusion **Catalogue** de l&#39;opération **Fidélisation**. Lorsqu&#39;on édite la diffusion, l&#39;onglet **[!UICONTROL Courrier]** permet de visualiser le mode de calcul de la ligne de dépense.
 
-Le calcul des coûts pour cette diffusion se base sur les postes de coûts sélectionnés pour le prestataire concerné :
+Le calcul des coûts pour cette diffusion se base sur les postes de coûts sélectionnés pour le prestataire concerné :
 
 ![](assets/s_user_edit_del_supplier_costs.png)
 
-En fonction des postes de coûts sélectionnés, les structures de coûts correspondantes sont appliquées afin de calculer les lignes de coûts. Dans cet exemple, pour le prestataire concerné, les structures de coûts sont les suivantes :
+En fonction des postes de coûts sélectionnés, les structures de coûts correspondantes sont appliquées afin de calculer les lignes de coûts. Dans cet exemple, pour le prestataire concerné, les structures de coûts sont les suivantes :
 
 ![](assets/s_user_edit_node_supplier_costs.png)
 
@@ -176,7 +176,7 @@ Les coûts peuvent être engagés au niveau des diffusions et des tâches. En fo
 
 ### Processus de calcul des coûts {#cost-calculation-process}
 
-Les coûts sont répartis en 3 catégories :
+Les coûts sont répartis en 3 catégories :
 
 1. Coût prévisionnel estimé
 
@@ -192,7 +192,7 @@ Les coûts sont répartis en 3 catégories :
 
    Le coût calculé dépend de l&#39;élément concerné (opération, diffusion, tâche, etc.) et de son état (en édition, en cours, terminé). Dans tous les cas, si le coût réel est renseigné, le coût calculé reprendra ce montant.
 
-   Si le coût réel n&#39;est pas renseigné, les règles sont les suivantes :
+   Si le coût réel n&#39;est pas renseigné, les règles sont les suivantes :
 
    * Pour une opération en édition, le coût calculé reprend le coût prévisionnel estimé de l&#39;opération ou, si ce coût n&#39;est pas renseigné, le coût calculé sera la somme de tous les coûts prévisionnels des diffusions et tâches de l&#39;opération. Si l&#39;opération est terminée, le coût calculé de l&#39;opération sera la somme de tous les coûts calculés.
    * Pour une diffusion qui n&#39;a pas encore été analysée, le coût calculé reprend le coût prévisionnel estimé. Si l&#39;analyse a déjà eu lieu, le coût calculé sera la somme de tous les coûts calculés à partir des structures de coût du prestataire et du nombre de destinataires ciblés.
@@ -215,7 +215,7 @@ Un contrôle peut être effectué sur les sommes engagées dans les opérations 
 
 ### Exemple {#example}
 
-Nous allons créer une opération avec :
+Nous allons créer une opération avec :
 
 * Une diffusion courrier utilisant les structures de coûts d&#39;un prestataire
 * Une tâche avec un coût fixe
@@ -225,7 +225,7 @@ Nous allons créer une opération avec :
 
 1. Créez un nouveau budget à partir du noeud **[!UICONTROL Gestion de campagnes > Budgets]**.
 
-1. Définissez une enveloppe budgétaire de 20 000 euros dans le champ **[!UICONTROL Alloué]** de la section **[!UICONTROL Montants]**. Ajoutez deux catégories de dépense dans la section inférieure de la fenêtre :
+1. Définissez une enveloppe budgétaire de 20 000 euros dans le champ **[!UICONTROL Alloué]** de la section **[!UICONTROL Montants]**. Ajoutez deux catégories de dépense dans la section inférieure de la fenêtre :
 
 ![](assets/s_user_cost_mgmt_sample_1.png)
 
@@ -233,7 +233,7 @@ Nous allons créer une opération avec :
 
 1. Créez un prestataire et un modèle de prestation avec sa structure de coûts associée à partir du nœud **[!UICONTROL Administration > Campagnes.]** Pour plus d&#39;informations, reportez-vous à la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
-   Pour les diffusions courrier, créez des postes de coût **[!UICONTROL Enveloppes]** (types 114x229 et 162x229), **[!UICONTROL Affranchissement et routage]** et **[!UICONTROL Impression]** (types A3 et A4). Puis créez les structures de coûts suivantes :
+   Pour les diffusions courrier, créez des postes de coût **[!UICONTROL Enveloppes]** (types 114x229 et 162x229), **[!UICONTROL Affranchissement et routage]** et **[!UICONTROL Impression]** (types A3 et A4). Puis créez les structures de coûts suivantes :
 
    ![](assets/s_user_cost_mgmt_sample_2.png)
 
@@ -241,13 +241,13 @@ Nous allons créer une opération avec :
 
    ![](assets/s_user_cost_mgmt_sample_5.png)
 
-   Pour les tâches, créez les deux postes de coût suivants :
+   Pour les tâches, créez les deux postes de coût suivants :
 
-   * **[!UICONTROL Réservation Salle]** (types Petite Salle et Grande Salle), avec une structure de coût **fixe** d&#39;un montant de 300 et 500 euros :
+   * **[!UICONTROL Réservation Salle]** (types Petite Salle et Grande Salle), avec une structure de coût **fixe** d&#39;un montant de 300 et 500 euros :
 
    ![](assets/s_user_cost_mgmt_sample_6.png)
 
-   * **[!UICONTROL Création]** (type **Modèle de contenu**), avec une structure de coûts **journalière** d&#39;un montant de 300 euros :
+   * **[!UICONTROL Création]** (type **Modèle de contenu**), avec une structure de coûts **journalière** d&#39;un montant de 300 euros :
 
    ![](assets/s_user_cost_mgmt_sample_7.png)
 
@@ -261,7 +261,7 @@ Nous allons créer une opération avec :
 
    ![](assets/s_user_cost_mgmt_sample_4.png)
 
-1. Indiquez le coût prévisionnel estimé, avec ventilation :
+1. Indiquez le coût prévisionnel estimé, avec ventilation :
 
    ![](assets/s_user_cost_mgmt_sample_9.png)
 
@@ -271,7 +271,7 @@ Nous allons créer une opération avec :
 
 1. Créez un workflow au niveau de l&#39;opération et positionnez les activités de requête afin de sélectionner la cible (attention, l&#39;adresse postale des destinataires doit être renseignée).
 
-1. Créez une diffusion Courrier et sélectionnez le prestataire créé à l&#39;étape 2 : les postes de coûts s&#39;affichent automatiquement.
+1. Créez une diffusion Courrier et sélectionnez le prestataire créé à l&#39;étape 2 : les postes de coûts s&#39;affichent automatiquement.
 
 1. Surchargez le coût des enveloppes et ajoutez un coût fixe. Sélectionnez également les catégories concernées par ces coûts.
 
@@ -293,7 +293,7 @@ La ligne de dépense relative à la diffusion est ajoutée dans l&#39;onglet **[
 
 ![](assets/s_user_cost_mgmt_sample_11.png)
 
-Au niveau de la diffusion, le coût calculé est mis à jour avec ces informations :
+Au niveau de la diffusion, le coût calculé est mis à jour avec ces informations :
 
 ![](assets/s_user_cost_mgmt_sample_12.png)
 
@@ -305,7 +305,7 @@ Dans cette campagne, nous allons ajouter les deux tâches pour lesquelles les st
 
 1. La tâche est alors ajoutée dans la liste des tâches. Vous devez l&#39;éditer pour la configurer.
 
-1. Dans l&#39;onglet **[!UICONTROL Propriétés]**, sélectionnez la prestation et le poste de coût correspondant :
+1. Dans l&#39;onglet **[!UICONTROL Propriétés]**, sélectionnez la prestation et le poste de coût correspondant :
 
    ![](assets/s_user_cost_mgmt_sample_14.png)
 
@@ -321,13 +321,13 @@ Dans cette campagne, nous allons ajouter les deux tâches pour lesquelles les st
 
    ![](assets/s_user_cost_mgmt_sample_16.png)
 
-   Une fois la tâche terminée, le coût calculé est renseigné avec la valeur issue de la structure de coût associée, soit 1500 euros dans notre exemple (5 jours x 300 euros) :
+   Une fois la tâche terminée, le coût calculé est renseigné avec la valeur issue de la structure de coût associée, soit 1500 euros dans notre exemple (5 jours x 300 euros) :
 
    ![](assets/s_user_cost_mgmt_sample_17.png)
 
 #### Etape 6 - Mettre à jour le statut du budget de l&#39;opération {#step-6---update-the-campaign-budget-status}
 
-Lorsque l&#39;opération est paramétrée, son statut peut être mis à jour : sélectionnez la valeur **[!UICONTROL Renseigné]**. Le coût calculé de l&#39;opération va alors indiquer la somme des coûts calculés de la diffusion et des tâches de l&#39;opération :
+Lorsque l&#39;opération est paramétrée, son statut peut être mis à jour : sélectionnez la valeur **[!UICONTROL Renseigné]**. Le coût calculé de l&#39;opération va alors indiquer la somme des coûts calculés de la diffusion et des tâches de l&#39;opération :
 
 ![](assets/s_user_cost_mgmt_sample_18.png)
 
@@ -343,7 +343,7 @@ Une fois le budget validé, et la diffusion terminée, les coûts sont remontés
 
 ## Commandes et factures {#orders-and-invoices}
 
-Dans un contexte MRM, vous pouvez enregistrer des commandes auprès d&#39;un prestataire et émettre des factures. L&#39;ensemble du cycle de vie de ces commandes et factures peut être géré au travers de l&#39;interface d&#39;Adobe Campaign.
+Dans un contexte MRM, vous pouvez enregistrer des commandes auprès d&#39;un prestataire et émettre des factures. L&#39;ensemble du cycle de vie de ces commandes et factures peut être géré au travers de l&#39;interface d&#39;Adobe Campaign.
 
 ### Création de commande {#order-creation}
 
@@ -357,7 +357,7 @@ Indiquez le numéro de la commande, le prestataire concerné et le montant total
 
 Pour chaque prestataire, vous pouvez enregistrer des factures et définir leur statut et le budget imputé.
 
-Les factures sont créées et stockées dans le noeud **[!UICONTROL MRM > Factures]** de l&#39;arborescence d&#39;Adobe Campaign.
+Les factures sont créées et stockées dans le noeud **[!UICONTROL MRM > Factures]** de l&#39;arborescence d&#39;Adobe Campaign.
 
 ![](assets/s_user_cost_create_invoice.png)
 
@@ -365,7 +365,7 @@ Une facture est composée de lignes de factures dont le total permet de calculer
 
 ![](assets/s_user_cost_invoice_add_line.png)
 
-Les factures de chaque prestataire sont affichées dans l&#39;onglet **[!UICONTROL Factures]** de son profil :
+Les factures de chaque prestataire sont affichées dans l&#39;onglet **[!UICONTROL Factures]** de son profil :
 
 ![](assets/s_ncs_user_invoice_from_supplier.png)
 

@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Adobe Campaign vous permet d&#39;interrompre le tracking des comportements web des utilisateurs finaux qui se sont désinscrits (opt-out) du tracking comportemental via des cookies ou des balises web. Elle offre la possibilité d&#39;afficher une bannière afin de proposer cette option à l&#39;utilisateur final. Ces bannières peuvent être ajoutées à des applications web ou des landing pages.
+Adobe Campaign vous permet d&#39;interrompre le tracking des comportements web des utilisateurs finaux qui se sont désinscrits (opt-out) du tracking comportemental via des cookies ou des balises web. Elle offre la possibilité d&#39;afficher une bannière afin de proposer cette option à l&#39;utilisateur final. Ces bannières peuvent être ajoutées à des applications web ou des landing pages.
 
-Si un utilisateur final se désinscrit (opt-out) du tracking comportemental via des cookies ou des balises web, cette information est transmise au serveur de tracking Adobe Campaign à l&#39;aide d&#39;API JavaScript. Certaines juridictions peuvent demander aux clients de proposer aux utilisateurs finaux une option d&#39;opt-in avant l&#39;option d&#39;opt-out (ou ont d&#39;autres exigences légales). Il est de la responsabilité des clients de respecter les lois applicables.
+Si un utilisateur final se désinscrit (opt-out) du tracking comportemental via des cookies ou des balises web, cette information est transmise au serveur de tracking Adobe Campaign à l&#39;aide d&#39;API JavaScript. Certaines juridictions peuvent demander aux clients de proposer aux utilisateurs finaux une option d&#39;opt-in avant l&#39;option d&#39;opt-out (ou ont d&#39;autres exigences légales). Il est de la responsabilité des clients de respecter les lois applicables.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Si un utilisateur final se désinscrit (opt-out) du tracking comportemental via 
 
 Pour s&#39;afficher dans des applications Web ou des landing pages, la bannière doit être configurée.
 
-Adobe Campaign contient un exemple de bannière que vous devez adapter à vos besoins. Cette version de bannière apparaît en tant que bloc de personnalisation dans le dossier des modèles de contenu. Pour plus d&#39;informations, reportez-vous à [cette page](../../delivery/using/personalization-blocks.md).
+Adobe Campaign contient un exemple de bannière que vous devez adapter à vos besoins. Cette version de bannière apparaît en tant que bloc de personnalisation dans le dossier des modèles de contenu. Pour plus d&#39;informations, reportez-vous à [cette page](../../delivery/using/personalization-blocks.md).
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ La bannière est fournie avec une feuille CSS spécifique. Vous pouvez toutefois
 
 ## Définir le cookie de désinscription (opt-out) à l&#39;aide des API {#setting-the-opt-out-cookie-using-api}
 
-Adobe Campaign est fourni avec des API qui permettent de gérer la valeur du cookie et de récupérer les préférences de l&#39;utilisateur.
+Adobe Campaign est fourni avec des API qui permettent de gérer la valeur du cookie et de récupérer les préférences de l&#39;utilisateur.
 
 Le nom du cookie est **acoptout** et les valeurs courantes de celui-ci sont les suivantes :
 

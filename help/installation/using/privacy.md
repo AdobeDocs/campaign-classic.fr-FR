@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Demandes d’accès à des informations personnelles
 
-Adobe Campaign propose un ensemble d’outils pour vous aider à respecter la confidentialité dans le cadre du RGPD et de la CCPA.
+Adobe Campaign propose un ensemble d’outils pour vous aider à respecter la confidentialité dans le cadre du RGPD et de la CCPA.
 
 Reportez-vous à [cette page](../../platform/using/privacy-management.md) pour obtenir des informations générales sur la gestion de la protection des données et les étapes de son implémentation dans Adobe Campaign. Vous trouverez également des bonnes pratiques, ainsi qu’une vue d’ensemble du processus utilisateur et des acteurs impliqués.
 

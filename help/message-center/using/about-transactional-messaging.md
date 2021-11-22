@@ -54,13 +54,13 @@ Le processus global de messagerie transactionnelle peut être décrit comme suit
 
 Par exemple, imaginez que vous êtes une société disposant d&#39;un site web sur lequel vos clients peuvent acheter des produits.
 
-Adobe Campaign vous permet d&#39;envoyer un email de notification aux clients qui ont ajouté des produits à leur panier. Lorsque l&#39;un d&#39;eux quitte votre site web sans passer par ses achats (événement externe qui déclenche un événement Campaign), un email d&#39;abandon de panier lui est automatiquement envoyé (diffusion de message transactionnel).
+Adobe Campaign vous permet d’envoyer un email de notification aux clients qui ont ajouté des produits à leur panier. Lorsque l&#39;un d&#39;eux quitte votre site web sans passer par ses achats (événement externe qui déclenche un événement Campaign), un email d&#39;abandon de panier lui est automatiquement envoyé (diffusion de message transactionnel).
 
 Les principales étapes de mise en place de ce système sont décrites ci-dessous dans [cette section](#key-steps).
 
 >[!NOTE]
 >
->Adobe Campaign donne la priorité au traitement des messages transactionnels par rapport à toute autre diffusion.
+>Adobe Campaign donne la priorité au traitement des messages transactionnels par rapport à toute autre diffusion.
 
 ## Principales étapes {#key-steps}
 

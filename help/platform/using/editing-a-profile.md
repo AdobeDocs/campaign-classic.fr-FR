@@ -29,13 +29,13 @@ Les onglets et leur contenu dépendent de votre configuration et des packages in
 
 >[!CAUTION]
 >
->Le schéma XML et le formulaire relatifs aux champs de la table des profils sont accessibles depuis le nœud **[!UICONTROL Administration > Paramétrage > Schémas de données]** de l&#39;arborescence d&#39;Adobe Campaign. La modification de ces schémas est réservée à des utilisateurs experts.
+>Le schéma XML et le formulaire relatifs aux champs de la table des profils sont accessibles depuis le nœud **[!UICONTROL Administration > Paramétrage > Schémas de données]** de l&#39;arborescence d&#39;Adobe Campaign. La modification de ces schémas est réservée à des utilisateurs experts.
 >
 >Voir à ce propos [cette page](../../configuration/using/about-schema-edition.md).
 
 ## Onglet Général {#general-tab}
 
-Cet écran contient toutes les informations générales relatives au profil sélectionné. Il contient notamment son nom, son prénom, son adresse email, le format de réception de ses emails, etc. Il se présente comme suit :
+Cet écran contient toutes les informations générales relatives au profil sélectionné. Il contient notamment son nom, son prénom, son adresse email, le format de réception de ses emails, etc. Il se présente comme suit :
 
 ![](assets/s_ncs_user_profile_general_tab.png)
 
@@ -93,7 +93,7 @@ Cet écran est utilisé pour consulter les logs de tracking du profil sélection
 
 Cet onglet présente le cumul de toutes les URL trackées dans les diffusions.
 
-La liste est paramétrable et contient typiquement : l&#39;URL cliquée, la date et l&#39;heure du clic, le document dans lequel l&#39;URL figurait.
+La liste est paramétrable et contient typiquement : l&#39;URL cliquée, la date et l&#39;heure du clic, le document dans lequel l&#39;URL figurait.
 
 >[!NOTE]
 >

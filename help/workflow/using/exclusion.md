@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Une activité de type **Exclusion** crée une cible à partir d&#39;une cible principale dont on extrait une ou plusieurs autres cibles.
 
-Pour paramétrer cette activité, vous devez saisir son libellé et sélectionner l&#39;ensemble principal : la population de l&#39;ensemble principal permet de construire le résultat. Les profils communs à l&#39;ensemble principal et à au moins une des activités en entrée seront exclus.
+Pour paramétrer cette activité, vous devez saisir son libellé et sélectionner l&#39;ensemble principal : la population de l&#39;ensemble principal permet de construire le résultat. Les profils communs à l&#39;ensemble principal et à au moins une des activités en entrée seront exclus.
 
 ![](assets/s_user_segmentation_exclu.png)
 
@@ -27,7 +27,7 @@ Pour paramétrer cette activité, vous devez saisir son libellé et sélectionne
 >
 >Pour plus d’informations sur la configuration et l’utilisation de l’activité d’exclusion, voir [Exclure une population (Exclusion)](targeting-data.md#excluding-a-population--exclusion-).
 
-Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire contiendra la population principale en entrée moins la population en sortie. Une seconde transition sera alors ajoutée à l&#39;activité, comme suit :
+Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire contiendra la population principale en entrée moins la population en sortie. Une seconde transition sera alors ajoutée à l&#39;activité, comme suit :
 
 ![](assets/s_user_segmentation_exclu_compl.png)
 

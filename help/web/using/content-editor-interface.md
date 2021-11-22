@@ -24,7 +24,7 @@ La fenêtre d&#39;édition du DCE est organisée en trois sections distinctes. E
 ![](assets/dce_decoupe_window_nb.png)
 
 1. La section **supérieure** est une zone d&#39;affichage pour des messages destinés à l&#39;utilisateur. Ces messages indiquent le statut de l&#39;application Web ou de la diffusion en cours de création ainsi que les avertissements et messages d&#39;erreurs liés au contenu. Pour plus d&#39;informations, consultez la section [États du contenu HTML](content-editing-best-practices.md#html-content-statuses).
-1. La section **gauche** de la fenêtre est la zone d&#39;édition du contenu. Depuis cette zone, l&#39;utilisateur peut interagir directement avec le contenu, grâce à la barre d&#39;outils contextuelle : insérer un lien sur une image, modifier la police de caractères, supprimer un champ, etc. Pour plus d&#39;informations, consultez la section [Editer les formulaires](editing-content.md#editing-forms).
+1. La section **gauche** de la fenêtre est la zone d&#39;édition du contenu. Depuis cette zone, l&#39;utilisateur peut interagir directement avec le contenu, grâce à la barre d&#39;outils contextuelle : insérer un lien sur une image, modifier la police de caractères, supprimer un champ, etc. Pour plus d&#39;informations, consultez la section [Editer les formulaires](editing-content.md#editing-forms).
 1. La section **droite** de la fenêtre est la zone de contrôle du rendu. Elle regroupe les différentes options de l&#39;éditeur, notamment celles liées aux paramètres de l&#39;entête de la page et aux options générales associées à un bloc : ajouter une bordure, associer un champ de la base à une zone de saisie, accéder aux propriétés de la page Web, etc. Voir à ce propos les sections [Options globales](#global-options) et [Editer le contenu](editing-content.md).
 
 ## Options globales {#global-options}
@@ -33,7 +33,7 @@ La section supérieure droite de l&#39;éditeur permet d&#39;accéder à des opt
 
 ![](assets/dce_global_options.png)
 
-Elle contient quatre icônes :
+Elle contient quatre icônes :
 
 ![](assets/dce_icons_sidebar.png)
 
@@ -67,7 +67,7 @@ Elle contient quatre icônes :
 
 ## Options des blocs {#block-options}
 
-La section droite de l&#39;éditeur regroupe les principales options qui permettent d&#39;agir sur le contenu. Pour afficher ces options, vous devez sélectionner un bloc : la nature de ces options dépend du bloc sélectionné.
+La section droite de l&#39;éditeur regroupe les principales options qui permettent d&#39;agir sur le contenu. Pour afficher ces options, vous devez sélectionner un bloc : la nature de ces options dépend du bloc sélectionné.
 
 ![](assets/dce_right_section.png)
 

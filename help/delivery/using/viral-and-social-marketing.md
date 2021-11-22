@@ -19,9 +19,9 @@ ht-degree: 100%
 
 ## À propos du marketing viral {#about-viral-marketing}
 
-Adobe Campaign permet de mettre en place les outils favorisant le marketing viral.
+Adobe Campaign permet de mettre en place les outils favorisant le marketing viral.
 
-Vous pouvez ainsi permettre aux destinataires de vos diffusions, ou aux visiteurs de votre site Web, de partager l&#39;information avec leur réseau : ajouter le lien à leur profil Facebook, Twitter, etc., ou envoyer un message à un ami.
+Vous pouvez ainsi permettre aux destinataires de vos diffusions, ou aux visiteurs de votre site Web, de partager l&#39;information avec leur réseau : ajouter le lien à leur profil Facebook, Twitter, etc., ou envoyer un message à un ami.
 
 ![](assets/s_ncs_user_viral_icons.png)
 
@@ -29,7 +29,7 @@ Vous pouvez ainsi permettre aux destinataires de vos diffusions, ou aux visiteur
 >
 >Pour que les liens ajoutés fonctionnent correctement, la page miroir du message correspondant doit obligatoirement être disponible. Pour cela, vous devez inclure dans la diffusion le lien vers la page miroir.
 
-## Réseaux sociaux : partager un lien {#social-networks--sharing-a-link}
+## Réseaux sociaux : partager un lien {#social-networks--sharing-a-link}
 
 Pour permettre aux destinataires de vos diffusions de partager le contenu des messages avec les membres de leur réseau, vous devez inclure le bloc de personnalisation correspondant.
 
@@ -41,7 +41,7 @@ Pour permettre aux destinataires de vos diffusions de partager le contenu des me
 
 ![](assets/s_ncs_user_viral_add_link_via_others.png)
 
-Le rendu sera le suivant :
+Le rendu sera le suivant :
 
 ![](assets/s_ncs_user_viral_add_link_rendering.png)
 
@@ -49,15 +49,15 @@ Lorsque le destinataire clique sur l&#39;icône d&#39;un des réseaux sociaux pr
 
 >[!NOTE]
 >
->Ce bloc de personnalisation contient tous les liens (envoi d&#39;un message et partage vers tous les réseaux sociaux). Il peut être modifié selon vos besoins. Ce paramétrage est toutefois réservé à des utilisateurs avancés. Pour cela, éditez le bloc de personnalisation correspondant accessible à partir du noeud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de l&#39;arborescence Adobe Campaign.
+>Ce bloc de personnalisation contient tous les liens (envoi d&#39;un message et partage vers tous les réseaux sociaux). Il peut être modifié selon vos besoins. Ce paramétrage est toutefois réservé à des utilisateurs avancés. Pour cela, éditez le bloc de personnalisation correspondant accessible à partir du noeud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de l&#39;arborescence Adobe Campaign.
 
-## Marketing viral : transférer à un ami {#viral-marketing--forward-to-a-friend}
+## Marketing viral : transférer à un ami {#viral-marketing--forward-to-a-friend}
 
-Un service viral permet de mettre en place des actions de type parrainage : ces actions permettent de transférer un message à un ami. Le profil du ou des filleuls est alors stocké provisoirement dans la base de données (dans une table dédiée). Le message transféré propose un lien afin de permettre au filleul de s&#39;abonner : il sera alors ajouté dans la base de données Adobe Campaign.
+Un service viral permet de mettre en place des actions de type parrainage : ces actions permettent de transférer un message à un ami. Le profil du ou des filleuls est alors stocké provisoirement dans la base de données (dans une table dédiée). Le message transféré propose un lien afin de permettre au filleul de s&#39;abonner : il sera alors ajouté dans la base de données Adobe Campaign.
 
 Pour permettre le transfert d&#39;un message, le principe est le même que pour le lien vers les réseaux sociaux.
 
-Les étapes sont les suivantes :
+Les étapes sont les suivantes :
 
 1. Ajoutez le bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]** dans le corps du message d&#39;origine.
 1. Le destinataire du message peut cliquer sur l&#39;icône **[!UICONTROL Email]** afin d&#39;envoyer ce message à un ou plusieurs amis.
@@ -92,12 +92,12 @@ Les étapes sont les suivantes :
 
 ## Tracking du partage vers les réseaux sociaux {#tracking-social-network-sharing}
 
-Chaque partage et chaque accès à l&#39;information partagée fait l&#39;objet d&#39;un tracking au niveau de la diffusion. Les informations de tracking collectées par Adobe Campaign sont accessibles à deux niveaux :
+Chaque partage et chaque accès à l&#39;information partagée fait l&#39;objet d&#39;un tracking au niveau de la diffusion. Les informations de tracking collectées par Adobe Campaign sont accessibles à deux niveaux :
 
 * Dans l&#39;onglet **[!UICONTROL Tracking]** de la diffusion (ou unitairement au niveau d&#39;un destinataire):
 
    ![](assets/s_ncs_user_network_del_tracking_tab.png)
 
-* Dans un rapport dédié **[!UICONTROL Partage vers les réseaux sociaux]** :
+* Dans un rapport dédié **[!UICONTROL Partage vers les réseaux sociaux]** :
 
    ![](assets/s_ncs_user_viral_report.png)

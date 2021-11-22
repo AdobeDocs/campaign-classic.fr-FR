@@ -84,7 +84,7 @@ Pour construire le diagramme
 >
 >Vous pouvez copier et coller des activités dans un même workflow. Toutefois, nous vous déconseillons de copier et coller des activités dans différents workflows. Certains paramètres associés à des activités telles que Diffusions et Planificateur peuvent entraîner des conflits et des erreurs lors de l&#39;exécution du workflow de destination. Nous vous recommandons plutôt de **dupliquer** les workflows. Pour plus d&#39;informations, voir la section [Duplication des workflows](#duplicating-workflows).
 
-L&#39;affichage et la mise en page du diagramme peuvent être modifiés à l&#39;aide des éléments suivants :
+L&#39;affichage et la mise en page du diagramme peuvent être modifiés à l&#39;aide des éléments suivants :
 
 * **Utilisation de la barre d&#39;outils**
 
@@ -92,7 +92,7 @@ L&#39;affichage et la mise en page du diagramme peuvent être modifiés à l&#39
 
    ![](assets/s_user_segmentation_wizard_10.png)
 
-   Vous pouvez ainsi adapter la mise en page de l&#39;éditeur : affichage de la palette et de la vue d&#39;ensemble, taille et alignement des objets graphiques.
+   Vous pouvez ainsi adapter la mise en page de l&#39;éditeur : affichage de la palette et de la vue d&#39;ensemble, taille et alignement des objets graphiques.
 
    ![](assets/s_user_segmentation_toolbar.png)
 
@@ -118,7 +118,7 @@ Double-cliquez sur une activité pour la paramétrer ou cliquez avec le bouton d
 
 Le premier onglet contient le paramétrage de base. L’onglet **[!UICONTROL Avancé]** contient des paramètres supplémentaires, qui permettent notamment de définir le comportement en cas d’erreur ainsi que la durée d’exécution de l’activité, et de saisir un script d’initialisation.
 
-Afin de faciliter la compréhension des activités et améliorer la lisibilité du workflow, vous pouvez saisir des commentaires dans les activités : ces commentaires seront affichés automatiquement lorsqu&#39;un opérateur passe la souris sur l&#39;activité.
+Afin de faciliter la compréhension des activités et améliorer la lisibilité du workflow, vous pouvez saisir des commentaires dans les activités : ces commentaires seront affichés automatiquement lorsqu&#39;un opérateur passe la souris sur l&#39;activité.
 
 ![](assets/example1-comment.png)
 
@@ -134,7 +134,7 @@ Toutes ces activités sont regroupées dans le premier onglet du workflow.
 >
 >Les activités de ciblage sont présentées dans [cette section](about-activities.md).
 
-Les workflows de ciblage peuvent être créés et édités à partir du noeud **[!UICONTROL Profils et Cibles > Traitements > Workflows de ciblage]** de l&#39;arborescence Adobe Campaign ou à partir du menu **[!UICONTROL Profils et Cibles > Workflows de ciblage]** de la page d&#39;accueil.
+Les workflows de ciblage peuvent être créés et édités à partir du noeud **[!UICONTROL Profils et Cibles > Traitements > Workflows de ciblage]** de l&#39;arborescence Adobe Campaign ou à partir du menu **[!UICONTROL Profils et Cibles > Workflows de ciblage]** de la page d&#39;accueil.
 
 ![](assets/target_wf.png)
 
@@ -152,7 +152,7 @@ Les résultats de tous les enrichissements et manipulations effectués lors du c
 
 ### Dimension de ciblage et dimension de filtrage {#targeting-and-filtering-dimensions}
 
-Lors des opérations de segmentation des données, la dimension de ciblage est associée à une dimension de filtrage. La dimension de ciblage permet de définir la population ciblée par l&#39;opération : destinataires, titulaires d&#39;un contrat, opérateur, abonnés, etc. La dimension de filtrage permet de sélectionner la population selon certains critères : détention d&#39;un contrat, inscription à une newsletter, etc.
+Lors des opérations de segmentation des données, la dimension de ciblage est associée à une dimension de filtrage. La dimension de ciblage permet de définir la population ciblée par l&#39;opération : destinataires, titulaires d&#39;un contrat, opérateur, abonnés, etc. La dimension de filtrage permet de sélectionner la population selon certains critères : détention d&#39;un contrat, inscription à une newsletter, etc.
 
 Par exemple, pour sélectionner les clients détenteur d&#39;une assurance-vie depuis plus de 5 ans, vous pouvez choisir la dimension de ciblage **Clients** et la dimension de filtrage **Détention d&#39;un contrat**. Vous pourrez ensuite définir les conditions de filtrage dans l&#39;activité de requête.
 
@@ -160,11 +160,11 @@ Lors de la sélection d&#39;une dimension de ciblage, seules les dimensions de f
 
 Ces deux dimensions doivent nécessairement avoir un lien. Ainsi, le contenu de la liste **[!UICONTROL Dimension de filtrage]** dépend de la dimension de ciblage indiquée dans le premier champ.
 
-Par exemple, pour les destinataires (**recipient**), les dimensions de filtrage disponibles seront les suivantes :
+Par exemple, pour les destinataires (**recipient**), les dimensions de filtrage disponibles seront les suivantes :
 
 ![](assets/query_filter_target_dimensions_1.png)
 
-Tandis que pour les **Applications Web**, la liste proposera les dimensions de filtrage suivantes :
+Tandis que pour les **Applications Web**, la liste proposera les dimensions de filtrage suivantes :
 
 ![](assets/query_filter_target_dimensions_2.png)
 
@@ -186,13 +186,13 @@ Les workflows des opérations et des exemples de mise en œuvre sont présentés
 
 ## Workflows techniques {#technical-workflows}
 
-Les workflows techniques sont livrés d&#39;usine avec Adobe Campaign. Les workflows techniques sont des opérations ou traitements programmés périodiquement pour s&#39;exécuter sur le serveur. Ils permettent de réaliser les opérations de maintenance sur la base, remonter les informations de tracking sur les diffusions et mettre en place les traitements prévisionnels sur les diffusions. La configuration des workflows techniques est réalisée depuis le noeud **[!UICONTROL Administration > Exploitation > Workflows techniques]**.
+Les workflows techniques sont livrés d&#39;usine avec Adobe Campaign. Les workflows techniques sont des opérations ou traitements programmés périodiquement pour s&#39;exécuter sur le serveur. Ils permettent de réaliser les opérations de maintenance sur la base, remonter les informations de tracking sur les diffusions et mettre en place les traitements prévisionnels sur les diffusions. La configuration des workflows techniques est réalisée depuis le noeud **[!UICONTROL Administration > Exploitation > Workflows techniques]**.
 
 ![](assets/navtree.png)
 
 Des modèles natifs sont disponibles pour créer des workflows techniques. Ils peuvent être paramétrés selon vos besoins.
 
-Le sous-dossier **[!UICONTROL Processus de campagne]** centralise les workflows nécessaires à l&#39;exécution des traitements dans les opérations : notification des tâches, gestion des stocks, calcul des coûts, etc.
+Le sous-dossier **[!UICONTROL Processus de campagne]** centralise les workflows nécessaires à l&#39;exécution des traitements dans les opérations : notification des tâches, gestion des stocks, calcul des coûts, etc.
 
 >[!NOTE]
 >
@@ -208,7 +208,7 @@ Un modèle de workflow contient le paramétrage global des propriétés et éven
 
 Vous pouvez créer de nouveaux modèles de workflows à partir de modèles existants ou transformer directement un workflow en modèle.
 
-Les modèles de workflows sont stockés dans le noeud **[!UICONTROL Ressources > Modèles > Modèles de workflow]** de l&#39;arborescence Adobe Campaign.
+Les modèles de workflows sont stockés dans le noeud **[!UICONTROL Ressources > Modèles > Modèles de workflow]** de l&#39;arborescence Adobe Campaign.
 
 ![](assets/s_advuser_wf_template_tree.png)
 

@@ -138,7 +138,7 @@ L&#39;utilisateur de l&#39;application est l&#39;utilisateur que l&#39;applicati
 1. Cliquez sur **Modifier les licences de produit** et sélectionnez **Dynamics 365 Customer Engagement Plan**.
 1. Cliquez sur **Fermer**.
 
-**Étape 3** : Création d&#39;un utilisateur d&#39;application sur Dynamics CRM
+**Étape 3** : Création d&#39;un utilisateur d&#39;application sur Dynamics CRM
 
 1. Depuis [Microsoft Azure](https://portal.azure.com), accédez à **Paramètres > Sécurité > Utilisateurs**.
 1. Cliquez dans la liste déroulante, sélectionnez **Utilisateurs de l&#39;application** et cliquez sur **Nouveau**.
@@ -155,7 +155,7 @@ L&#39;utilisateur de l&#39;application est l&#39;utilisateur que l&#39;applicati
 
 >[!NOTE]
 >
-> Publiez la mise hors service de [RDS à partir de Microsoft](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891%28v=crm.8%29#microsoft-dynamics-crm-2011-endpoint). Les types de déploiements CRM On-premise et Office 365 ne sont plus compatibles avec Campaign. Adobe Campaign ne prend désormais en charge que le déploiement des API Web pour la version CRM **Dynamic CRM 365**. [En savoir plus](../../rn/using/deprecated-features.md#crm-connectors).
+> Publiez la mise hors service de [RDS à partir de Microsoft](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891%28v=crm.8%29#microsoft-dynamics-crm-2011-endpoint). Les types de déploiements CRM On-premise et Office 365 ne sont plus compatibles avec Campaign. Adobe Campaign ne prend désormais en charge que le déploiement des API Web pour la version CRM **Dynamic CRM 365**. [En savoir plus](../../rn/using/deprecated-features.md#crm-connectors).
 
 Pour connecter Microsoft Dynamics 365 et Campaign, vous devez créer et configurer un **[!UICONTROL compte externe]** dédié dans Campaign.
 

@@ -39,13 +39,13 @@ Le planificateur définit le planning d&#39;activation de sa transition. Pour le
 
 ![](assets/s_user_segmentation_scheduler.png)
 
-Un assistant permet de définir la fréquence et la période de validité de l&#39;activité. Les étapes de paramétrage sont les suivantes :
+Un assistant permet de définir la fréquence et la période de validité de l&#39;activité. Les étapes de paramétrage sont les suivantes :
 
 1. Sélectionnez la fréquence d&#39;activation et cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/s_user_segmentation_scheduler2.png)
 
-1. Indiquez les heures et jours d&#39;activation. Les paramètres de cette étape dépendent de la périodicité sélectionnée à l&#39;étape précédente. Si vous choisissez de lancer l&#39;activité plusieurs fois par jour, les options de paramétrage seront les suivantes :
+1. Indiquez les heures et jours d&#39;activation. Les paramètres de cette étape dépendent de la périodicité sélectionnée à l&#39;étape précédente. Si vous choisissez de lancer l&#39;activité plusieurs fois par jour, les options de paramétrage seront les suivantes :
 
    ![](assets/s_user_segmentation_scheduler3.png)
 

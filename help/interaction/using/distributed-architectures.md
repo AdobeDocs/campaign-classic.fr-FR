@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Principe {#principle}
 
-Afin de supporter les montées en charge et assurer un service en continu sur le canal entrant, il est possible d&#39;utiliser Interaction avec une architecture répartie. Ce type d&#39;architecture, déjà utilisé avec Message Center, est constituée de plusieurs instances :
+Afin de supporter les montées en charge et assurer un service en continu sur le canal entrant, il est possible d&#39;utiliser Interaction avec une architecture répartie. Ce type d&#39;architecture, déjà utilisé avec Message Center, est constituée de plusieurs instances :
 
 * une ou plusieurs instances de pilotage dédiées au canal sortant et contenant la base marketing et l&#39;environnement en édition
 * une ou plusieurs instances d&#39;exécution dédiées au canal entrant
@@ -56,9 +56,9 @@ Un workflow est créé pour chaque compte externe et environnement pour la synch
 
 ## Configuration des packages {#packages-configuration}
 
-Les éventuelles extensions de schémas directement liés à **Interaction** (offres, propositions, destinataires, etc.) doivent être déployées sur les instances d&#39;exécution.
+Les éventuelles extensions de schémas directement liées à **Interaction** (offres, propositions, destinataires, etc.) doivent être déployées sur les instances dʼexécution.
 
-Le package Interaction doit être installé sur toutes les instances (pilotage et exécution). Deux packages supplémentaires sont disponibles : un package dédié à installer sur les instances de pilotage, et un package dédié à installer sur chaque instance d&#39;exécution.
+Le package Interaction doit être installé sur toutes les instances (pilotage et exécution). Deux packages supplémentaires sont disponibles : un package dédié à installer sur les instances de pilotage, et un package dédié à installer sur chaque instance d&#39;exécution.
 
 >[!NOTE]
 >
@@ -66,9 +66,9 @@ Le package Interaction doit être installé sur toutes les instances (pilotage e
 
 La durée de rétention des données doit être paramétrée sur chaque instance (via la fenêtre **[!UICONTROL Purge des données]** de l&#39;assistant de déploiement). Sur les instances d&#39;exécution, cette période doit correspondre à la profondeur d&#39;historique nécessaire au calcul des règles de typologie (période glissante) et aux règles d&#39;éligibilité.
 
-Sur les instances de pilotage :
+Sur les instances de pilotage :
 
-1. Créez un compte externe par instance d&#39;exécution :
+1. Créez un compte externe par instance d&#39;exécution :
 
    ![](assets/interaction_powerbooster1.png)
 
@@ -77,8 +77,8 @@ Sur les instances de pilotage :
    * Cochez l&#39;option **[!UICONTROL Activé]**.
    * Renseignez les paramètres de connexion à l&#39;instance d&#39;exécution.
    * Chaque instance d&#39;exécution doit être associée à un identifiant. Cet identifiant est attribué lorsque vous cliquez sur le bouton **[!UICONTROL Initialiser la connexion]**.
-   * Cochez le type d&#39;application utilisée : **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**, ou les deux.
-   * Renseignez le compte FDA utilisé. Un opérateur doit être créé sur les instances d&#39;exécution et doit posséder les droits de lecture et de modification suivants au niveau de la base de données de l&#39;instance en question :
+   * Cochez le type d&#39;application utilisée : **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**, ou les deux.
+   * Renseignez le compte FDA utilisé. Un opérateur doit être créé sur les instances d&#39;exécution et doit posséder les droits de lecture et de modification suivants au niveau de la base de données de l&#39;instance en question :
 
       ```
       grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
@@ -88,7 +88,7 @@ Sur les instances de pilotage :
    >
    >L&#39;adresse IP de l&#39;instance de pilotage doit être autorisée sur les instances d&#39;exécution.
 
-1. Configurez l&#39;environnement :
+1. Configurez l&#39;environnement :
 
    ![](assets/interaction_powerbooster2.png)
 
@@ -105,7 +105,7 @@ Si, pour des raisons d&#39;optimisation, seulement une partie de la base marketi
 
 ## Options de maintenance {#maintenance-options}
 
-Voici la liste des options de maintenance disponibles sur l&#39;instance de pilotage :
+Voici la liste des options de maintenance disponibles sur l&#39;instance de pilotage :
 
 >[!IMPORTANT]
 >
@@ -113,11 +113,11 @@ Voici la liste des options de maintenance disponibles sur l&#39;instance de pilo
 
 * **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`** : date de dernière synchronisation d’un environnement sur une instance donnée.
 * **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`** : date de dernière synchronisation des propositions d’un schéma donné d’une instance vers une autre.
-* **`NmsInteraction_MapWorkflowId`** : option contenant la liste de tous les workflows de synchronisation générés.
+* **`NmsInteraction_MapWorkflowId`** : option contenant la liste de tous les workflows de synchronisation générés.
 
-L&#39;option suivante est disponible sur les instances d&#39;exécution :
+L&#39;option suivante est disponible sur les instances d&#39;exécution :
 
-**NmsExecutionInstanceId** : option contenant l&#39;identifiant de l&#39;instance.
+**NmsExecutionInstanceId** : option contenant l&#39;identifiant de l&#39;instance.
 
 ## Installation des packages {#packages-installation}
 
@@ -168,7 +168,7 @@ ALTER TABLE nmspropositionrcp
 
 La modification de la taille d&#39;un type **Number** n&#39;entraîne pas la réécriture des valeurs ou des index. Elle est donc immédiate.
 
-La requête à exécuter est la suivante :
+La requête à exécuter est la suivante :
 
 ```
 ALTER TABLE nmspropositionrcp MODIFY (
@@ -179,7 +179,7 @@ iinteractionid NUMBER(19, 0)
 
 ### MSSQL {#mssql}
 
-Les requêtes à exécuter sont les suivantes :
+Les requêtes à exécuter sont les suivantes :
 
 ```
 SELECT * INTO NmsPropositionRcp_tmp FROM NmsPropositionRcp WHERE 1 = 0;

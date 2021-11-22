@@ -19,16 +19,16 @@ ht-degree: 100%
 
 ## Activité Gestion de contenu {#content-management-activity}
 
-La création, l&#39;édition et la publication d&#39;un contenu peuvent être automatisées à partir d&#39;un workflow paramétré depuis l&#39;interface cliente Adobe Campaign.
+La création, l&#39;édition et la publication d&#39;un contenu peuvent être automatisées à partir d&#39;un workflow paramétré depuis l&#39;interface cliente Adobe Campaign.
 
 L&#39;activité **Gestion de contenu** est accessible à partir de la barre d&#39;outils **[!UICONTROL Outils]** du diagramme de workflow.
 
-Les propriétés de l&#39;activité se divisent en quatre étapes :
+Les propriétés de l&#39;activité se divisent en quatre étapes :
 
-* **[!UICONTROL Contenu]** : permet de renseigner un contenu déjà existant ou de le créer,
-* **[!UICONTROL Mettre à jour du contenu]** : permet de modifier le sujet du contenu ou de mettre à jour le contenu à partir d&#39;un flux de données XML,
-* **[!UICONTROL Action à effectuer]** : permet d&#39;enregistrer ou de générer le contenu,
-* **[!UICONTROL Transition]** : permet de générer ou non une transition sortante et, si elle existe, de la nommer.
+* **[!UICONTROL Contenu]** : permet de renseigner un contenu déjà existant ou de le créer,
+* **[!UICONTROL Mettre à jour du contenu]** : permet de modifier le sujet du contenu ou de mettre à jour le contenu à partir d&#39;un flux de données XML,
+* **[!UICONTROL Action à effectuer]** : permet d&#39;enregistrer ou de générer le contenu,
+* **[!UICONTROL Transition]** : permet de générer ou non une transition sortante et, si elle existe, de la nommer.
 
 ![](assets/d_ncs_content_wf.png)
 
@@ -92,7 +92,7 @@ Une nouvelle instance de contenu est créée à partir du modèle de publication
 
 Dans notre exemple, nous avons surchargé le sujet de la diffusion. Il sera pris en compte à la place de celui renseigné dans le modèle de diffusion de l&#39;activité **[!UICONTROL Diffusion]**.
 
-Le contenu est complété automatiquement par un flux XML provenant de l&#39;URL renseignée :
+Le contenu est complété automatiquement par un flux XML provenant de l&#39;URL renseignée :
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -105,7 +105,7 @@ Le contenu est complété automatiquement par un flux XML provenant de l&#39;URL
 
 Le format de données ne correspond pas au schéma de données entré dans le modèle de publication (**cus:book** dans notre exemple) ; l’élément **`<section>`** doit être remplacé par l’élément **`<chapter>`**. Il est nécessaire d’appliquer la feuille de style « cus:book-workflow.xsl » pour apporter les modifications nécessaires.
 
-Code source de la feuille de style XSLT utilisée :
+Code source de la feuille de style XSLT utilisée :
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -146,7 +146,7 @@ Le ciblage de la population à diffuser est renseigné via l&#39;activité **Req
 
 Une activité **Rendez-vous** a été ajoutée afin de ne lancer la diffusion qu&#39;une fois le requêtage de la cible et la mise à jour du contenu terminés.
 
-L&#39;action de diffusion est paramétrée à partir de l&#39;activité **Diffusion** :
+L&#39;action de diffusion est paramétrée à partir de l&#39;activité **Diffusion** :
 
 ![](assets/d_ncs_content_workflow4.png)
 
@@ -216,11 +216,11 @@ L&#39;action finale de l&#39;activité est de préparer et de lancer la diffusio
 
 ### Import du contenu depuis FTP {#importing-content-from-ftp}
 
-Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
+Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
 
 ### Import du contenu depuis le connecteur Amazon Simple Storage Service (S3) {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
-Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve dans des compartiments Amazon Simple Storage Service (S3), vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
+Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve dans des compartiments Amazon Simple Storage Service (S3), vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
 
 ## Mise à jour semi-automatique {#semi-automatic-update}
 
@@ -234,7 +234,7 @@ La zone d&#39;édition permet de renseigner une donnée variable utilisée pour 
 
 Le bouton exécute la méthode SOAP **GetAndTransform** renseignée sous la balise **`<input>`**.
 
-La déclaration du contrôle dans le formulaire est la suivante :
+La déclaration du contrôle dans le formulaire est la suivante :
 
 ```
 <input type="editbtn" xpath="<path>">
@@ -252,9 +252,9 @@ La méthode **GetAndTransform** doit être déclarée sous l’élément **`<ent
 
 La sortie met à jour le contenu à partir du chemin renseigné dans le dernier paramètre.
 
-**Exemple** : Pour illustrer cette fonctionnalité, nous partirons du schéma &quot;cus:livre&quot;.
+**Exemple** : Pour illustrer cette fonctionnalité, nous partirons du schéma &quot;cus:livre&quot;.
 
-On ajoute dans le formulaire de saisie un contrôle d&#39;édition de mise à jour semi-automatique :
+On ajoute dans le formulaire de saisie un contrôle d&#39;édition de mise à jour semi-automatique :
 
 ![](assets/d_ncs_content_exemple9.png)
 
@@ -270,7 +270,7 @@ On ajoute dans le formulaire de saisie un contrôle d&#39;édition de mise à jo
 </input>
 ```
 
-La zone d’édition vous permet de saisir le nom du fichier à récupérer. L’URL est construite en fonction de ce nom, par exemple : https://myserver.adobe.com/incomin/data.xml
+La zone d’édition vous permet de saisir le nom du fichier à récupérer. L’URL est construite en fonction de ce nom, par exemple : https://myserver.adobe.com/incomin/data.xml
 
 Le format des données à récupérer est le même que dans l&#39;exemple 1 de l&#39;automatisation des workflows. Nous utiliserons la feuille de style &quot;cus:livre-workflow.xsl&quot; vue dans cet exemple.
 

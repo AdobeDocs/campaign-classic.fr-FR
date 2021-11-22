@@ -17,13 +17,13 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Adobe Campaign vous permet de créer, paramétrer, exécuter et analyser les campagnes marketing. Toutes les opérations marketing peuvent être gérées depuis un centre de pilotage unifié.
+Adobe Campaign vous permet de créer, paramétrer, exécuter et analyser les campagnes marketing. Toutes les opérations marketing peuvent être gérées depuis un centre de pilotage unifié.
 
 ## Notions de base sur l&#39;espace de travail {#workspace-basics}
 
 ### Page d&#39;accueil        {#home-page}
 
-Une fois connecté à Adobe Campaign, vous accédez à la page d&#39;accueil.
+Une fois connecté à Adobe Campaign, vous accédez à la page d&#39;accueil.
 
 ![](assets/campaign_global_view.png)
 
@@ -34,8 +34,8 @@ Les éléments d&#39;une opération se trouvent dans l&#39;onglet **[!UICONTROL 
 Le bloc de **[!UICONTROL Navigation]** de l&#39;onglet **[!UICONTROL Campagnes]** offre diverses entrées en fonction des modules installés sur l&#39;instance. Vous pouvez, par exemple, accéder aux éléments suivants :
 
 * **Calendrier des campagnes** : calendrier des plans, des programmes marketing, des diffusions et des opérations. Voir à ce sujet la section [Calendrier des campagnes](#campaign-calendar).
-* **Opérations** : accès aux campagnes contenues dans l&#39;ensemble des programmes marketing.
-* **Diffusions** : accès aux diffusions contenues dans les opérations.
+* **Opérations** : accès aux campagnes contenues dans l&#39;ensemble des programmes marketing.
+* **Diffusions** : accès aux diffusions contenues dans les opérations.
 * **Applications Web** : accès aux applications web (formulaires, landing pages, etc.)
 
 >[!NOTE]
@@ -48,7 +48,7 @@ Le bloc de **[!UICONTROL Navigation]** de l&#39;onglet **[!UICONTROL Campagnes]*
 
 Chaque campagne appartient à un programme qui appartient à son tour à un plan. Les plans, programmes et campagnes sont accessibles via le menu **[!UICONTROL Calendrier des campagnes]** de l&#39;onglet **Campagnes**.
 
-Pour éditer un plan, un programme, une opération ou une diffusion, cliquez sur son nom dans le calendrier, puis sur le lien **[!UICONTROL Ouvrir...]**. L&#39;élément visé est alors affiché dans un nouvel onglet, comme dans l&#39;exemple ci-dessous :
+Pour éditer un plan, un programme, une opération ou une diffusion, cliquez sur son nom dans le calendrier, puis sur le lien **[!UICONTROL Ouvrir...]**. L&#39;élément visé est alors affiché dans un nouvel onglet, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/d_ncs_user_interface_hierar.png)
 
@@ -62,7 +62,7 @@ Vous pouvez filtrer les informations affichées dans le calendrier des campagnes
 
 Vous pouvez également utiliser le champ **[!UICONTROL Rechercher]** pour filtrer les éléments affichés.
 
-Les icônes associées à chaque élément vous permettent de visualiser son statut : terminé, en cours, en édition, etc.
+Les icônes associées à chaque élément vous permettent de visualiser son statut : terminé, en cours, en édition, etc.
 
 ### Navigation dans un programme marketing {#browsing-in-a-marketing-program}
 
@@ -78,7 +78,7 @@ Lorsque vous éditez un programme, utilisez les onglets présentés ci-dessous p
 
    ![](assets/s_ncs_user_interface_campaign02.png)
 
-* L&#39;onglet **Edition** vous permet de modifier le programme : son nom, ses dates de début et fin, son budget, ses documents associés, etc.
+* L&#39;onglet **Edition** vous permet de modifier le programme : son nom, ses dates de début et fin, son budget, ses documents associés, etc.
 
    ![](assets/s_ncs_user_interface_campaign05.png)
 
@@ -90,7 +90,7 @@ Vous pouvez accéder aux opérations à partir du calendrier des campagnes, de l
 
    ![](assets/campaign_planning_edit_op.png)
 
-   L&#39;opération est alors éditée dans un nouvel onglet, comme dans l&#39;exemple ci-dessous :
+   L&#39;opération est alors éditée dans un nouvel onglet, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/campaign_op_edit.png)
 
@@ -105,11 +105,11 @@ Vous pouvez accéder aux opérations à partir du calendrier des campagnes, de l
 
 Pour chaque opération, les traitements, ressources et diffusions sont centralisés dans un écran unique - le tableau de bord - qui permet de gérer les actions marketing dans un mode collaboratif.
 
-Le tableau de bord d&#39;une opération est utilisé comme une interface de pilotage. Il permet d&#39;accéder directement aux principales étapes de création et de gestion de l&#39;opération : diffusions, fichiers d&#39;extraction, notifications, budgets, etc.
+Le tableau de bord d&#39;une opération est utilisé comme une interface de pilotage. Il permet d&#39;accéder directement aux principales étapes de création et de gestion de l&#39;opération : diffusions, fichiers d&#39;extraction, notifications, budgets, etc.
 
 ![](assets/s_ncs_user_op_board_start_del.png)
 
-Avec Adobe Campaign, vous pouvez mettre en place des processus collaboratifs pour la réalisation, mais aussi pour la validation des différentes étapes des campagnes marketing et communication : validation du budget, de la cible, du contenu, etc.
+Avec Adobe Campaign, vous pouvez mettre en place des processus collaboratifs pour la réalisation, mais aussi pour la validation des différentes étapes des campagnes marketing et communication : validation du budget, de la cible, du contenu, etc.
 
 ![](assets/s_ncs_user_op_board_validate.png)
 
@@ -119,7 +119,7 @@ Avec Adobe Campaign, vous pouvez mettre en place des processus collaboratifs pou
 
 #### Planning {#schedule}
 
-Une opération centralise un ensemble de diffusions. Pour chaque opération, le planning propose une vue globale de tous ses composants : il permet de visualiser les tâches et diffusions et d&#39;y accéder facilement.
+Une opération centralise un ensemble de diffusions. Pour chaque opération, le planning propose une vue globale de tous ses composants : il permet de visualiser les tâches et diffusions et d&#39;y accéder facilement.
 
 ![](assets/campaign_planning_tab.png)
 
@@ -141,11 +141,11 @@ Le lien **[!UICONTROL Rapports]** permet d&#39;accéder aux rapports de l&#39;op
 
 #### Configuration  {#configuration}
 
-Les opérations sont créées à partir de modèles d&#39;opérations : vous pouvez paramétrer des modèles réutilisables pour lesquels certaines options sont sélectionnées et certains paramétrages seront déjà enregistrés. Pour chaque opération, les fonctionnalités suivantes sont proposées :
+Les opérations sont créées à partir de modèles d&#39;opérations : vous pouvez paramétrer des modèles réutilisables pour lesquels certaines options sont sélectionnées et certains paramétrages seront déjà enregistrés. Pour chaque opération, les fonctionnalités suivantes sont proposées :
 
 * Référencement des documents et ressources : vous pouvez associer des documents à l&#39;opération (brief, compte-rendus, images, etc.). Tous les formats de documents sont pris en charge. Pour plus d&#39;informations, consultez la section [Gérer les documents associés](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
 * Définition des coûts : Adobe Campaign permet de définir, pour chaque opération, des postes de coûts et des structures de calcul des coûts qui peuvent être engagés dans le cadre de la réalisation de la campagne marketing. Par exemple : coûts d&#39;impression, intervention d&#39;une agence externe, location d&#39;une salle, etc. Pour plus d&#39;informations, consultez la section [Définir les postes de coût](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories).
-* Définition d’objectifs : vous pouvez définir des objectifs à réaliser dans le cadre d’une opération. Ces objectifs sont quantifiables, par exemple : nombre d’abonnés à atteindre, chiffre d’affaires à réaliser, etc. Ces informations sont ensuite exploitées dans les rapports sur les opérations.
+* Définition d’objectifs : vous pouvez définir des objectifs à réaliser dans le cadre d’une opération. Ces objectifs sont quantifiables, par exemple : nombre d’abonnés à atteindre, chiffre d’affaires à réaliser, etc. Ces informations sont ensuite exploitées dans les rapports sur les opérations.
 * Gestion des adresses de contrôle (voir à ce sujet [cette section](../../delivery/using/about-seed-addresses.md)) et populations témoin (voir la section[Définir une population témoin](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
 * Gestion des validations : vous pouvez sélectionner les traitements qui feront l&#39;objet d&#39;une validation et éventuellement sélectionner les opérateurs ou groupes d&#39;opérateurs validants. Voir à ce sujet la section [Contrôler et valider les diffusions](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
@@ -155,7 +155,7 @@ Les opérations sont créées à partir de modèles d&#39;opérations : vous pou
 
 ## Utiliser l&#39;interface web {#using-the-web-interface-}
 
-Vous pouvez accéder aux écrans de la console Adobe Campaign par l&#39;intermédiaire d&#39;un navigateur Internet pour visualiser l&#39;ensemble des opérations et leurs diffusions, les rapports et les informations relatives aux profils de votre base. Cet accès ne vous permet pas de créer des enregistrements. Vous pouvez cependant consulter et, selon les permissions associées à votre profil d&#39;opérateur, agir sur les données de la base. Ainsi, vous pouvez par exemple valider les contenus et ciblages de vos opérations, relancer ou interrompre une diffusion, etc.
+Vous pouvez accéder aux écrans de la console Adobe Campaign par l&#39;intermédiaire d&#39;un navigateur Internet pour visualiser l&#39;ensemble des opérations et leurs diffusions, les rapports et les informations relatives aux profils de votre base. Cet accès ne vous permet pas de créer des enregistrements. Vous pouvez cependant consulter et, selon les permissions associées à votre profil d&#39;opérateur, agir sur les données de la base. Ainsi, vous pouvez par exemple valider les contenus et ciblages de vos opérations, relancer ou interrompre une diffusion, etc.
 
 1. Connectez-vous comme vous le faites habituellement à l&#39;aide de l&#39;adresse https://`<your instance>:<port>/view/home`.
 1. Utilisez les menus pour accéder aux vues d&#39;ensemble.

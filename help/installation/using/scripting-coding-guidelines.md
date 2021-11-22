@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Instructions relatives aux scripts et au codage
-description: En savoir plus sur les directives à suivre lors du développement dans Adobe Campaign (workflows, JavaScript, JSSP, autres).
+description: En savoir plus sur les directives à suivre lors du développement dans Adobe Campaign (workflows, JavaScript, JSSP, autres).
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-

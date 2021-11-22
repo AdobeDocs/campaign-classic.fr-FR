@@ -26,7 +26,7 @@ Pour créer une diffusion, cliquez sur le bouton **[!UICONTROL Créer]** situé 
 
 ![](assets/s_ncs_user_wizard_email01_1.png)
 
-Par défaut, un modèle est fourni pour chaque canal installé : courrier, email, fax, téléphone, canaux mobiles (SMS), Facebook, Twitter, etc.
+Par défaut, un modèle est fourni pour chaque canal installé : courrier, email, fax, téléphone, canaux mobiles (SMS), Facebook, Twitter, etc.
 
 >[!NOTE]
 >

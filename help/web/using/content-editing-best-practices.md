@@ -23,19 +23,19 @@ Afin de garantir un fonctionnement optimal de l&#39;éditeur, il est recommandé
 * Si la page HTML contient des **scripts en langage JavaScript**, ils doivent s&#39;exécuter **sans erreur** hors de l&#39;éditeur.
 * Lors de la construction d&#39;un modèle, il est conseillé d&#39;ajouter un attribut **&#39;type&#39;** aux balises. `<input>` Cette information sera interprétée par l&#39;éditeur et aidera l&#39;utilisateur à associer un champ de la base de données au champ du formulaire lors du paramétrage de l&#39;application web.
 
-   Exemple de code HTML dans le modèle :
+   Exemple de code HTML dans le modèle :
 
    ```
    <input id="email" type="email" name="email"/>
    ```
 
-   L&#39;attribut **&#39;type&#39;** est visible dans l&#39;interface sous la forme :
+   L&#39;attribut **&#39;type&#39;** est visible dans l&#39;interface sous la forme :
 
    ![](assets/dce_sidebar_inputtypechanges.png)
 
    La liste officielle des attributs « types » est disponible [sur ce site](https://www.w3schools.com/tags/att_input_type.asp).
 
-* Enchaînement des étapes pour simuler une page de fin avec le DCE :
+* Enchaînement des étapes pour simuler une page de fin avec le DCE :
 
    ![](assets/dce_enchainement.png)
 
@@ -44,13 +44,13 @@ Afin de garantir un fonctionnement optimal de l&#39;éditeur, il est recommandé
 
 ## Formats pris en charge par l&#39;éditeur de contenus {#content-editor-supported-formats}
 
-Le Digital Content Editor supporte le format HTML : le basculement en mode **source** peut être effectué à tout moment.
+Le Digital Content Editor supporte le format HTML : le basculement en mode **source** peut être effectué à tout moment.
 
-La fonction d&#39;import du Digital Content Editor fonctionne comme suit avec les formats supportés :
+La fonction d&#39;import du Digital Content Editor fonctionne comme suit avec les formats supportés :
 
-* CSS : les images présentes dans le fichier .zip ne sont pas importées. Les références à ces images dans le CSS ne sont pas mises à jour.
+* CSS : les images présentes dans le fichier .zip ne sont pas importées. Les références à ces images dans le CSS ne sont pas mises à jour.
 * JS : les images présentes dans le fichier .zip ne sont pas importées. Les références à ces images dans JS ne sont pas mises à jour.
-* Iframe : les pages liées ne sont pas importées.
+* Iframe : les pages liées ne sont pas importées.
 * Landing pages et applications web : si une balise **de formulaire** est absente, un avertissement s’affiche. Un `<form> </form>` doit toujours être présent dans le corps du message.
 
 Le Digital Content Editor fonctionne également avec les code-pages suivants pris en charge :
@@ -73,11 +73,11 @@ Le Digital Content Editor fonctionne également avec les code-pages suivants pri
 
 ## États du contenu HTML {#html-content-statuses}
 
-La section supérieure de l&#39;éditeur affiche les message liés à l&#39;état du contenu. Les codes couleurs associés aux messages sont les suivants :
+La section supérieure de l&#39;éditeur affiche les message liés à l&#39;état du contenu. Les codes couleurs associés aux messages sont les suivants :
 
-* **Message gris** : message à caractère informatif, aucune action n&#39;est à réaliser au niveau de l&#39;éditeur.
-* **Message bleu** : message à caractère informatif en rapport avec le contenu édité.
-* **Message jaune** : message d&#39;avertissement ou d&#39;erreur nécessitant une action de l&#39;utilisateur.
+* **Message gris** : message à caractère informatif, aucune action n&#39;est à réaliser au niveau de l&#39;éditeur.
+* **Message bleu** : message à caractère informatif en rapport avec le contenu édité.
+* **Message jaune** : message d&#39;avertissement ou d&#39;erreur nécessitant une action de l&#39;utilisateur.
 
 ### Liste des messages pour l&#39;édition d&#39;application Web {#list-of-messages-when-editing-a-web-application}
 

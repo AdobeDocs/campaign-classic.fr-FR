@@ -17,10 +17,10 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Deux types d&#39;opérateurs sont amenés à utiliser Interaction : un chargé d&#39;offres et un chargé de diffusion. Chacun dispose de droits spécifiques qui ne leur donnent accès qu&#39;à certaines parties de l&#39;arborescence de la plateforme.
+Deux types d&#39;opérateurs sont amenés à utiliser Interaction : un chargé d&#39;offres et un chargé de diffusion. Chacun dispose de droits spécifiques qui ne leur donnent accès qu&#39;à certaines parties de l&#39;arborescence de la plateforme.
 
-* **[!UICONTROL Chargé d&#39;offres]** : crée et maintient les offres. Notez que si des offres sont utilisées dans le workflow, l’opérateur doit se trouver dans le groupe d’opérateurs **[!UICONTROL Administrateur]** ou **[!UICONTROL Chargés d’offres]** pour l’exécuter.
-* **[!UICONTROL Chargé de diffusion]** : valide et utilise les offres
+* **[!UICONTROL Chargé d&#39;offres]** : crée et maintient les offres. Notez que si des offres sont utilisées dans le workflow, l’opérateur doit se trouver dans le groupe d’opérateurs **[!UICONTROL Administrateur]** ou **[!UICONTROL Chargés d’offres]** pour l’exécuter.
+* **[!UICONTROL Chargé de diffusion]** : valide et utilise les offres
 
 Les étapes de création des opérateurs propres à Interaction sont identiques à celles utilisées pour créer n&#39;importe quel opérateur dans la plateforme. Reportez-vous à [cette section](../../platform/using/access-management.md) pour plus d&#39;informations. Les droits sont configurés lors de la création de l&#39;opérateur.
 
@@ -31,7 +31,7 @@ Les étapes de création des opérateurs propres à Interaction sont identiques 
 
    ![](assets/offer_operators_create_001.png)
 
-Les droits attribués au chargé d&#39;offres lui permettent d&#39;effectuer les opérations suivantes :
+Les droits attribués au chargé d&#39;offres lui permettent d&#39;effectuer les opérations suivantes :
 
 * Modifier des environnements **[!UICONTROL En édition]**.
 * Consulter des environnements **[!UICONTROL En ligne]**.

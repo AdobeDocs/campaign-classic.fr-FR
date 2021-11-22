@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Pour créer une nouvelle instance ainsi que la base de données Adobe Campaign, la procédure est la suivante :
+Pour créer une nouvelle instance ainsi que la base de données Adobe Campaign, la procédure est la suivante :
 
 1. Créer la connexion,
 1. S&#39;y connecter pour créer l&#39;instance associée,
@@ -27,7 +27,7 @@ Pour créer une nouvelle instance ainsi que la base de données Adobe Campaign, 
 >
 >Seul l&#39;identifiant **interne** peut effectuer ces opérations. Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
-Lorsque la console Adobe Campaign est démarrée, vous accédez à une page de connexion.
+Lorsque la console Adobe Campaign est démarrée, vous accédez à une page de connexion.
 
 Pour créer une instance, procédez comme suit :
 
@@ -35,11 +35,11 @@ Pour créer une instance, procédez comme suit :
 
    ![](assets/s_ncs_install_define_connection_01.png)
 
-1. Cliquez sur le menu **[!UICONTROL Ajouter > Connexion]** et saisissez le libellé et l&#39;URL du serveur applicatif Adobe Campaign.
+1. Cliquez sur le menu **[!UICONTROL Ajouter > Connexion]** et saisissez le libellé et l&#39;URL du serveur applicatif Adobe Campaign.
 
    ![](assets/s_ncs_install_define_connection_02.png)
 
-1. Définissez une connexion vers votre serveur applicatif Adobe Campaign à partir d&#39;une URL. Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
+1. Définissez une connexion vers votre serveur applicatif Adobe Campaign à partir d&#39;une URL. Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
 
    Par exemple, vous pouvez utiliser une URL de type [`https://<machine>.<domain>.com`](https://myserver.adobe.com).
 
@@ -55,13 +55,13 @@ Pour créer une instance, procédez comme suit :
 
    Le nom de l&#39;instance accolé au nom de domaine ne doit pas dépasser 40 caractères. Ceci permet de limiter la taille des en-têtes &quot;Message-ID&quot; et d&#39;éviter qu&#39;un message ne soit considéré comme un spam, par exemple par un outil comme SpamAssassin.
 
-1. Dans les champs **[!UICONTROL Masques DNS]**, saisissez la **liste des masques DNS** auxquels l&#39;instance doit être attachée. Le serveur Adobe Campaign utilise le nom d&#39;hôte (hostname) qui apparaît dans les requêtes HTTP pour déterminer quelle instance atteindre.
+1. Dans les champs **[!UICONTROL Masques DNS]**, saisissez la **liste des masques DNS** auxquels l&#39;instance doit être attachée. Le serveur Adobe Campaign utilise le nom d&#39;hôte (hostname) qui apparaît dans les requêtes HTTP pour déterminer quelle instance atteindre.
 
    Le nom d&#39;hôte (hostname) est contenu entre la chaîne **https://** et la première barre oblique **/** de l&#39;adresse du serveur.
 
    Vous pouvez définir ici une liste de valeurs séparées par des virgules.
 
-   Les caractères ? et * peuvent être utilisés comme jokers pour remplacer un ou plusieurs caractères (DNS, port, etc.). Ainsi, la valeur **demo*** fonctionnera ainsi aussi bien avec &quot;https://demo&quot; que &quot;https://demo:8080&quot; ou encore &quot;https://demo2&quot;.
+   Les caractères ? et * peuvent être utilisés comme jokers pour remplacer un ou plusieurs caractères (DNS, port, etc.). Ainsi, la valeur **demo*** fonctionnera ainsi aussi bien avec &quot;https://demo&quot; que &quot;https://demo:8080&quot; ou encore &quot;https://demo2&quot;.
 
    Les noms utilisés doivent être définis dans votre DNS. Vous pouvez également indiquer la correspondance entre un nom DNS et une adresse IP dans le fichier **c:/windows/system32/drivers/etc/hosts** sous Windows et dans le fichier **/etc/hosts** sous Linux. Pour vous connecter à l&#39;instance choisie, vous devez donc modifier les paramètres de connexion afin d&#39;utiliser ce nom DNS.
 
@@ -75,7 +75,7 @@ Pour créer une instance, procédez comme suit :
 
    >[!CAUTION]
    >
-   >La langue de l&#39;instance ne peut plus être modifiée après cette étape. Les instances d&#39;Adobe Campaign ne sont pas multilingues : vous ne pouvez pas passer d&#39;une langue à une autre.
+   >La langue de l&#39;instance ne peut plus être modifiée après cette étape. Les instances d&#39;Adobe Campaign ne sont pas multilingues : vous ne pouvez pas passer d&#39;une langue à une autre.
 
 1. Cliquez sur **[!UICONTROL Ok]** pour valider la déclaration de l&#39;instance. Vous devez alors vous reconnecter pour procéder à la déclaration de la base de données.
 

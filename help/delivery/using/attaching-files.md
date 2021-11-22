@@ -70,7 +70,7 @@ Pour créer une pièce jointe personnalisée, procédez comme suit :
 
 ![](assets/s_ncs_user_wizard_email01_136.png)
 
-Les options disponibles sont les suivantes :
+Les options disponibles sont les suivantes :
 
 * **Le nom de fichier est renseigné lors de la création du modèle de diffusion**
 * **Le contenu du fichier est personnalisé et converti en PDF au moment de l&#39;envoi pour chaque message**
@@ -103,7 +103,7 @@ Pour ce type d&#39;attachement, les étapes de paramétrage sont les suivantes 
 1. Sélectionnez le fichier à télécharger.
 1. Précisez le libellé si nécessaire.
 1. Sélectionnez l&#39;option **[!UICONTROL Télécharger le fichier sur le serveur]**, puis cliquez sur le lien **[!UICONTROL Mettre à jour sur le serveur]** pour lancer le transfert.
-1. Vous pouvez afficher une prévisualisation : pour cela, sélectionnez un destinataire.
+1. Vous pouvez afficher une prévisualisation : pour cela, sélectionnez un destinataire.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
 
@@ -169,15 +169,15 @@ Pour les deux premières options, vous pouvez choisir de **[!UICONTROL Télécha
 
 ![](assets/s_ncs_user_wizard_email01_137.png)
 
-Un message vous indique que le fichier a bien été téléchargé sur le serveur :
+Un message vous indique que le fichier a bien été téléchargé sur le serveur :
 
 ![](assets/s_ncs_user_wizard_email01_1371.png)
 
-En cas de changement de fichier, un message d&#39;avertissement est affiché :
+En cas de changement de fichier, un message d&#39;avertissement est affiché :
 
 ![](assets/s_ncs_user_wizard_email01_1372.png)
 
-L&#39;onglet **[!UICONTROL Avancé]** permet de définir des options avancées sur les fichiers joints :
+L&#39;onglet **[!UICONTROL Avancé]** permet de définir des options avancées sur les fichiers joints :
 
 * Vous pouvez définir des options de filtrage afin de ne pas transmettre le fichier joint à tous les destinataires. L&#39;option **[!UICONTROL Activer le filtrage des destinataires qui recevront la pièce jointe]** active une zone de saisie utilisée pour définir un script de sélection des destinataires. Ce script doit être saisi en JavaScript.
 * Vous pouvez scripter le nom du fichier afin de le personnaliser.

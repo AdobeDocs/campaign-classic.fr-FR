@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Les champs de personnalisation sont utilisés pour la personnalisation de premier niveau du contenu des messages diffusés. Les champs que vous insérez dans un contenu principal indiquent l&#39;emplacement où insérer les données de la source de données sélectionnée.
 
-Par exemple, le champ de personnalisation de syntaxe **&lt;%= recipient.LastName %>** spécifie à Adobe Campaign d&#39;insérer le nom du destinataire se trouvant dans la base de données (table des destinataires).
+Par exemple, le champ de personnalisation de syntaxe **&lt;%= recipient.LastName %>** spécifie à Adobe Campaign d&#39;insérer le nom du destinataire se trouvant dans la base de données (table des destinataires).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#personalization-fields-video)
 
@@ -29,14 +29,14 @@ Par exemple, le champ de personnalisation de syntaxe **&lt;%= recipient.LastName
 
 ## Sources de données {#data-sources}
 
-Les champs de personnalisation peuvent provenir de deux types de sources de données selon le mode de diffusion sélectionné :
+Les champs de personnalisation peuvent provenir de deux types de sources de données selon le mode de diffusion sélectionné :
 
-* La source de données est la base de données Adobe Campaign. C&#39;est le cas le plus fréquent. On parlera par exemple de champs de personnalisation du destinataire : il s&#39;agit de l&#39;ensemble des champs définis dans la table des destinataires qu&#39;il s&#39;agisse de champs standards (typiquement nom, prénom, adresse, ville, date de naissance, etc.) ou de champs libres.
+* La source de données est la base de données Adobe Campaign. C&#39;est le cas le plus fréquent. On parlera par exemple de champs de personnalisation du destinataire : il s&#39;agit de l&#39;ensemble des champs définis dans la table des destinataires qu&#39;il s&#39;agisse de champs standards (typiquement nom, prénom, adresse, ville, date de naissance, etc.) ou de champs libres.
 * La source de données est un fichier externe. Il s&#39;agit de l&#39;ensemble des champs définis dans les colonnes du fichier présenté en entrée lors d&#39;une diffusion utilisant les informations présentes dans un fichier externe.
 
 >[!NOTE]
 >
->Une balise de personnalisation Adobe Campaign est toujours de la forme **&lt;%=table.champ%>**.
+>Une balise de personnalisation Adobe Campaign est toujours de la forme **&lt;%=table.champ%>**.
 
 ## Insertion d&#39;un champ de personnalisation {#inserting-a-personalization-field}
 
@@ -44,11 +44,11 @@ Pour insérer des champs de personnalisation, cliquez sur l&#39;icône déroulan
 
 ![](assets/s_ncs_user_add_custom_field.png)
 
-Après avoir choisi une source de données - champ du destinataire ou champ du fichier - cette insertion se présente sous la forme d&#39;une directive qui sera interprétée par Adobe Campaign et remplacée par la valeur du champ pour un destinataire donné. Le remplacement physique peut alors être visualisé dans l&#39;onglet **[!UICONTROL Aperçu]**.
+Après avoir choisi une source de données - champ du destinataire ou champ du fichier - cette insertion se présente sous la forme d&#39;une directive qui sera interprétée par Adobe Campaign et remplacée par la valeur du champ pour un destinataire donné. Le remplacement physique peut alors être visualisé dans l&#39;onglet **[!UICONTROL Aperçu]**.
 
 ## Exemple de champ de personnalisation {#personalization-fields-example}
 
-Nous allons créer un email dans lequel nous allons tout d&#39;abord insérer le nom du destinataire et ensuite ajouter dans le corps du message la date de création de son profil. Pour cela :
+Nous allons créer un email dans lequel nous allons tout d&#39;abord insérer le nom du destinataire et ensuite ajouter dans le corps du message la date de création de son profil. Pour cela :
 
 1. Créez une nouvelle diffusion ou ouvrez une diffusion existante de type email.
 1. Dans l&#39;assistant de diffusion, cliquez sur le lien **[!UICONTROL Objet]** pour éditer l&#39;objet du message et saisir un objet.
@@ -98,7 +98,7 @@ Pour utiliser cette option, procédez comme suit :
 
 Une fois l&#39;analyse terminée, les données de personnalisation sont stockées dans une table temporaire via un workflow technique temporaire créé à la volée lors de l&#39;analyse.
 
-Ce workflow n&#39;est pas visible dans l&#39;interface d&#39;Adobe Campaign. Il s&#39;agit uniquement d&#39;un moyen technique permettant de stocker et de traiter rapidement les données de personnalisation.
+Ce workflow n&#39;est pas visible dans l&#39;interface d&#39;Adobe Campaign. Il s&#39;agit uniquement d&#39;un moyen technique permettant de stocker et de traiter rapidement les données de personnalisation.
 
 Une fois l&#39;analyse terminée, accédez aux **[!UICONTROL Propriétés]** du workflow et sélectionnez l&#39;onglet **[!UICONTROL Variables]**. Celui-ci contient le nom de la table temporaire que vous pouvez utiliser pour effectuer un appel SQL afin d&#39;afficher les identifiants qu&#39;elle contient.
 

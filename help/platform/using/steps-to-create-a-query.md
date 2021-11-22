@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Les étapes de construction d&#39;une requête dans Adobe Campaign sont les suivantes :
+Les étapes de construction d&#39;une requête dans Adobe Campaign sont les suivantes :
 
 1. Sélectionner la table de travail. Pour plus d&#39;informations, consultez la section [Etape 1 - Sélection de la table](#step-1---choose-a-table).
 1. Sélectionner les données à extraire. Pour plus d&#39;informations, consultez la section [Etape 2 - Sélection des données à extraire](#step-2---choose-data-to-extract).
@@ -53,7 +53,7 @@ Vous pouvez regrouper les données des colonnes de sortie : pour cela, cochez *
 
 ![](assets/query_editor_nveau_56.png)
 
-* La fonction de groupement **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]** permet un groupement (&quot;group by&quot;) et une sélection de ce qui a été groupé (&quot;having&quot;). Elle s&#39;applique aux champs inscrits en colonne de sortie. Par exemple, cette option regroupe les choix d&#39;une colonne de sortie et récupère un type d&#39;information particulier : les destinataires âgés de 35 à 50 ans.
+* La fonction de groupement **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]** permet un groupement (&quot;group by&quot;) et une sélection de ce qui a été groupé (&quot;having&quot;). Elle s&#39;applique aux champs inscrits en colonne de sortie. Par exemple, cette option regroupe les choix d&#39;une colonne de sortie et récupère un type d&#39;information particulier : les destinataires âgés de 35 à 50 ans.
 
    Voir à ce propos [cette section](../../workflow/using/querying-using-grouping-management.md).
 
@@ -78,7 +78,7 @@ Les filtres proposés dépendent de la table sur laquelle porte la requête.
 
 ![](assets/query_editor_nveau_09.png)
 
-Après la sélection de **[!UICONTROL Critères de filtrage]**, vous accédez à la section **[!UICONTROL Eléments de la cible]** : vous pouvez y définir comment filtrer les données à collecter.
+Après la sélection de **[!UICONTROL Critères de filtrage]**, vous accédez à la section **[!UICONTROL Eléments de la cible]** : vous pouvez y définir comment filtrer les données à collecter.
 
 * Pour créer un nouveau filtre, sélectionnez les champs, opérateurs et valeurs nécessaires à la création de la formule. Elle devra être vérifiée pour permettre la sélection des données. Il est possible de combiner plusieurs conditions (voir à ce sujet la section [Définir les conditions de filtrage](../../platform/using/defining-filter-conditions.md)).
 * Pour utiliser des filtres enregistrés au préalable, déroulez la liste du bouton **[!UICONTROL Ajouter]**, cliquez sur **[!UICONTROL Filtre prédéfini]** puis sélectionnez un filtre pré-enregistré.
@@ -119,7 +119,7 @@ Une colonne qui n&#39;est pas cochée ne s&#39;affichera pas dans la fenêtre de
 
 ![](assets/query_editor_nveau_10.png)
 
-La colonne **[!UICONTROL Transformation]** permet de modifier la casse du libellé d&#39;une colonne. Sélectionnez une colonne puis cliquez dans la colonne **[!UICONTROL Transformation]**. Les modifications possibles sont :
+La colonne **[!UICONTROL Transformation]** permet de modifier la casse du libellé d&#39;une colonne. Sélectionnez une colonne puis cliquez dans la colonne **[!UICONTROL Transformation]**. Les modifications possibles sont :
 
 * **[!UICONTROL Passer en minuscules]**,
 * **[!UICONTROL Passer en majuscules]**,

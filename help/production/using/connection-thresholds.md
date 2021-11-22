@@ -19,15 +19,15 @@ ht-degree: 100%
 
 Pour des serveurs soumis à de fortes charge, il se peut que le seuil de connexions soit dépassé. Dans tous les cas, il est utile d&#39;en connaître la raison.
 
-Il existe trois seuils différents :
+Il existe trois seuils différents :
 
 * Le **seuil de connexion web**, paramétré dans votre serveur web. Pour le modifier, contactez votre administrateur système.
 
 * Le **seuil de connexion de base de données**. Pour le modifier, contactez votre administrateur de base de données.
 
-* Le **seuil de connexion Adobe Campaign**, disponible à deux endroits :
+* Le **seuil de connexion Adobe Campaign**, disponible à deux endroits :
 
-   * **Côté Tomcat** : ensemble des requêtes arrivant effectivement sur le client Tomcat Adobe Campaign.
+   * **Côté Tomcat** : ensemble des requêtes arrivant effectivement sur le client Tomcat Adobe Campaign.
 
       Ce seuil est configuré dans le fichier **nl6/tomcat-8/conf/server.xml**. L&#39;attribut **maxThreads** permet d&#39;augmenter le seuil du nombre de requêtes traitées à la fois. Il peut être remplacé par 250, par exemple.
 

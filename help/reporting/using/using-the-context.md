@@ -27,7 +27,7 @@ Il n&#39;est pas obligatoire d&#39;utiliser une activité de type **[!UICONTROL 
 
 Ainsi, vous pouvez sélectionner les données à afficher dans le rapport directement depuis l&#39;activité **[!UICONTROL Page]** du rapport.
 
-Pour cela, cliquez sur le lien **[!UICONTROL Filtrer les données...]** disponible dans l&#39;onglet **[!UICONTROL Données]** : ce lien permet d&#39;accéder à l&#39;éditeur d&#39;expressions pour définir une requête sur les données à analyser.
+Pour cela, cliquez sur le lien **[!UICONTROL Filtrer les données...]** disponible dans l&#39;onglet **[!UICONTROL Données]** : ce lien permet d&#39;accéder à l&#39;éditeur d&#39;expressions pour définir une requête sur les données à analyser.
 
 ![](assets/reporting_filter_data_from_page.png)
 
@@ -35,7 +35,7 @@ Pour cela, cliquez sur le lien **[!UICONTROL Filtrer les données...]** disponib
 
 Dans l&#39;exemple suivant, le graphique ne doit afficher que les profils de destinataires vivant en France et qui ont effectué des achats pendant l&#39;année.
 
-Pour définir ce filtre, positionnez une page dans le diagramme et éditez-la. Cliquez sur le lien **[!UICONTROL Filtrer les données]** et créez le filtre correspondant aux données que vous voulez afficher. Pour plus d&#39;informations sur la construction des requêtes dans Adobe Campaign, reportez-vous à [cette section](../../platform/using/about-queries-in-campaign.md).
+Pour définir ce filtre, positionnez une page dans le diagramme et éditez-la. Cliquez sur le lien **[!UICONTROL Filtrer les données]** et créez le filtre correspondant aux données que vous voulez afficher. Pour plus d&#39;informations sur la construction des requêtes dans Adobe Campaign, reportez-vous à [cette section](../../platform/using/about-queries-in-campaign.md).
 
 ![](assets/s_ncs_advuser_report_wizard_029.png)
 
@@ -43,7 +43,7 @@ Ici, nous allons afficher la répartition par ville des destinataires répondant
 
 ![](assets/reporting_graph_with_2vars.png)
 
-Le rendu sera par exemple :
+Le rendu sera par exemple :
 
 ![](assets/reporting_graph_with_2vars_preview.png)
 
@@ -73,13 +73,13 @@ Dans la page contenant le tableau ou le graphique, l&#39;onglet **[!UICONTROL Do
 ![](assets/s_ncs_advuser_report_datasource_3.png)
 
 * L&#39;option **[!UICONTROL Nouvelle requête]** permet de créer une requête pour collecter des données. Pour plus d&#39;informations, consultez la section [Définir un filtre direct sur les données](#defining-a-direct-filter-on-data).
-* L&#39;option **[!UICONTROL Données du contexte]** permet d&#39;utiliser les données d&#39;entrée : le contexte du rapport correspond aux informations qui sont véhiculées dans la transition entrante de la page contenant le graphique ou le tableau. Ce contexte peut, par exemple, contenir les données collectées via une activité **[!UICONTROL Requête]** placée avant l&#39;activité **[!UICONTROL Page]**, et dans laquelle vous spécifiez la table et les champs sur lesquels doit porter le rapport.
+* L&#39;option **[!UICONTROL Données du contexte]** permet d&#39;utiliser les données d&#39;entrée : le contexte du rapport correspond aux informations qui sont véhiculées dans la transition entrante de la page contenant le graphique ou le tableau. Ce contexte peut, par exemple, contenir les données collectées via une activité **[!UICONTROL Requête]** placée avant l&#39;activité **[!UICONTROL Page]**, et dans laquelle vous spécifiez la table et les champs sur lesquels doit porter le rapport.
 
-Par exemple, dans une boîte de requête, construisez la requête suivante sur les destinataires :
+Par exemple, dans une boîte de requête, construisez la requête suivante sur les destinataires :
 
 ![](assets/s_ncs_advuser_report_datasource_2.png)
 
-Indiquez ensuite la source des données de votre rapport, ici : les **[!UICONTROL Données du contexte]**.
+Indiquez ensuite la source des données de votre rapport, ici : les **[!UICONTROL Données du contexte]**.
 
 L&#39;emplacement des données est déduit automatiquement. Vous pouvez, au besoin, forcer le chemin des données.
 

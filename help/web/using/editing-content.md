@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Définir une condition de visibilité {#defining-a-visibility-condition}
 
-Vous pouvez spécifier une condition de visibilité sur un élément de la page web : cet élément ne sera visible que si la condition de visibilité est respectée.
+Vous pouvez spécifier une condition de visibilité sur un élément de la page web : cet élément ne sera visible que si la condition de visibilité est respectée.
 
 Pour ajouter une condition de visibilité, sélectionnez un bloc et saisissez la condition à remplir dans le champ **[!UICONTROL Condition de visibilité]** au moyen de l&#39;éditeur d&#39;expression.
 
@@ -39,7 +39,7 @@ Ces conditions adoptent la syntaxe d’expression XTK (par exemple **ctx.recipie
 
 ## Ajouter une bordure et une trame {#adding-a-border-and-background}
 
-Vous pouvez ajouter une **bordure** au bloc sélectionné. Les bordures se définissent au travers de trois options : style, taille et couleur.
+Vous pouvez ajouter une **bordure** au bloc sélectionné. Les bordures se définissent au travers de trois options : style, taille et couleur.
 
 ![](assets/dce_popup_border.png)
 
@@ -85,7 +85,7 @@ Pour cela :
 
 Les champs de formulaires de type boutons radio, zones de saisie, listes déroulantes, etc., peuvent être modifiés à partir de leur barre d&#39;outils.
 
-Vous pouvez ainsi :
+Vous pouvez ainsi :
 
 * Supprimer le bloc contenant le champ du formulaire à partir de l&#39;icône **[!UICONTROL Supprimer]**.
 * Dupliquer le champ sélectionné en créant un nouveau bloc, à partir de l&#39;icône **[!UICONTROL Dupliquer]**.
@@ -99,11 +99,11 @@ Lorsque l&#39;utilisateur clique sur un bouton, vous pouvez définir une action 
 
 ![](assets/dce_sidebar_button.png)
 
-Les actions disponibles sont les suivantes :
+Les actions disponibles sont les suivantes :
 
-* **[!UICONTROL Actualiser]** : actualise la page en cours.
-* **[!UICONTROL Page suivante]** : crée un lien vers la prochaine page de l&#39;application Web.
-* **[!UICONTROL Page précédente]** : crée un lien vers la page précédente de l&#39;application Web.
+* **[!UICONTROL Actualiser]** : actualise la page en cours.
+* **[!UICONTROL Page suivante]** : crée un lien vers la prochaine page de l&#39;application Web.
+* **[!UICONTROL Page précédente]** : crée un lien vers la page précédente de l&#39;application Web.
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ Les blocs de personnalisation et champs de personnalisation ne peuvent être ins
 >
 >Pour chaque type de lien, vous pouvez configurer le mode d’ouverture : sélectionnez la fenêtre cible dans la liste déroulante **Cible**. Cette valeur correspond à la balise HTML **`<target>`**.
 >
->La liste des **cibles** disponibles est la suivante :
+>La liste des **cibles** disponibles est la suivante :
 >
 >* Autre (IFrame)
 >* Fenêtre la plus en avant (_top)
@@ -137,6 +137,7 @@ Les blocs de personnalisation et champs de personnalisation ne peuvent être ins
 >* Nouvelle fenêtre (_blank)
 >* Fenêtre courante (_self)
 >* Comportement par défaut du navigateur
+
 >
 
 
@@ -150,7 +151,7 @@ Saisissez l&#39;adresse du lien visé dans le champ **URL**. Le champ URL est à
 
 ### Lien vers une application Web {#link-to-a-web-application}
 
-L&#39;option **Lien vers une application Web** permet d&#39;accéder à une application Web Adobe Campaign.
+L&#39;option **Lien vers une application Web** permet d&#39;accéder à une application Web Adobe Campaign.
 
 ![](assets/dce_toolbar_imgblock_appweb.png)
 
@@ -170,7 +171,7 @@ L&#39;option **Lien définissant une action** permet de paramétrer une action l
 
 ### Supprimer un lien {#delete-a-link}
 
-Lorsqu&#39;un lien a été inséré, la barre d&#39;outils propose deux nouvelles icônes : **Editer le lien** et **Rompre le lien** qui permettent d&#39;interagir avec le lien créé.
+Lorsqu&#39;un lien a été inséré, la barre d&#39;outils propose deux nouvelles icônes : **Editer le lien** et **Rompre le lien** qui permettent d&#39;interagir avec le lien créé.
 
 * **[!UICONTROL Editer le lien]** permet d&#39;afficher une fenêtre récapitulative de tous les paramètres du lien.
 * **[!UICONTROL Rompre le lien]** permet de supprimer, après confirmation, le lien ainsi que tous les paramétrages liés.
@@ -185,24 +186,24 @@ Lorsque vous sélectionnez un élément de texte, vous pouvez modifier les attri
 
 ![](assets/dce_toolbar_txt.png)
 
-Les options disponibles sont les suivantes :
+Les options disponibles sont les suivantes :
 
 * Icône **Agrandir la police** : augmente la taille du texte sélectionné (ajouter `<span style="font size:">`)
 * Icône **Réduire la police** : réduit la taille du texte sélectionné (ajouter `<span style="font size:">`)
 * Icône **Gras** : ajoute le style gras au texte sélectionné (entoure le texte de la balise `<strong> </strong>`)
 * Icône **Italique** : ajoute le style italique au texte sélectionné (entoure le texte de la balise `<em> </em>`)
 * Icône **Souligner** : ajoute le style souligné au texte sélectionné (entoure le texte de la balise`<span style="text-decoration: underline;">`)
-* Icône **Aligner à gauche** : aligne le texte à gauche du bloc sélectionné (ajoute style=&quot;text-align: left;&quot;)
-* Icône **Centrer** : centre le texte du bloc sélectionné (ajoute style=&quot;text-align: center;&quot;)
-* Icône **Aligner à droite** : aligne le texte à droite du bloc sélectionné (ajoute style=&quot;text-align: right;&quot;)
-* Icône **Changer la couleur de fond** : permet de changer la couleur de fond du bloc sélectionné (ajoute style=&quot;background-color: rgba(170, 86, 255, 0.87))
-* Icône **Changer la couleur du texte** : permet de changer la couleur de tout le texte dans le bloc ou seulement celle du texte sélectionné (`<span style="color: #CODE">`)
+* Icône **Aligner à gauche** : aligne le texte à gauche du bloc sélectionné (ajoute style=&quot;text-align: left;&quot;)
+* Icône **Centrer** : centre le texte du bloc sélectionné (ajoute style=&quot;text-align: center;&quot;)
+* Icône **Aligner à droite** : aligne le texte à droite du bloc sélectionné (ajoute style=&quot;text-align: right;&quot;)
+* Icône **Changer la couleur de fond** : permet de changer la couleur de fond du bloc sélectionné (ajoute style=&quot;background-color: rgba(170, 86, 255, 0.87))
+* Icône **Changer la couleur du texte** : permet de changer la couleur de tout le texte dans le bloc ou seulement celle du texte sélectionné (`<span style="color: #CODE">`)
 
 >[!NOTE]
 >
->* Icône **Supprimer** : supprime le bloc et tout son contenu.
+>* Icône **Supprimer** : supprime le bloc et tout son contenu.
 >
->* Icône **Dupliquer** : duplique le bloc et également tous les styles rattachés au bloc.
+>* Icône **Dupliquer** : duplique le bloc et également tous les styles rattachés au bloc.
 
 
 ## Gestion des images et animations {#managing-images-and-animations}
@@ -211,7 +212,7 @@ Le Digital Content Editor permet de travailler avec **tous types d&#39;images** 
 
 >[!CAUTION]
 >
->Vous ne devez pas appeler de fichiers externes dans une balise **script** de la page HTML. Ces fichiers ne seront pas importés sur le serveur Adobe Campaign.
+>Vous ne devez pas appeler de fichiers externes dans une balise **script** de la page HTML. Ces fichiers ne seront pas importés sur le serveur Adobe Campaign.
 
 ### Ajouter / Supprimer / Dupliquer une image {#adding---deleting---duplicating-an-image}
 
@@ -233,7 +234,7 @@ L’icône **Dupliquer** duplique la balise ![]() et son contenu.
 
 ### Modifier les propriétés d&#39;une image {#editing-image-properties}
 
-Lorsque vous sélectionnez un bloc contenant une image, vous accédez aux propriétés suivantes :
+Lorsque vous sélectionnez un bloc contenant une image, vous accédez aux propriétés suivantes :
 
 * **Légende** permet de définir une légende associée à l&#39;image (correspond à l&#39;attribut HTML **alt**).
 * **Dimensions** permet de spécifier, en pixels, de la taille de l&#39;image.

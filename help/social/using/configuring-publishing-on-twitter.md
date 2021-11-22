@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Pour qu&#39;Adobe Campaign puisse envoyer des tweets sur vos comptes Twitter, vous devez déléguer, à Adobe Campaign, les droits d&#39;écriture sur ces comptes. Les étapes de paramétrage sont les suivantes :
+Pour qu&#39;Adobe Campaign puisse envoyer des tweets sur vos comptes Twitter, vous devez déléguer, à Adobe Campaign, les droits d&#39;écriture sur ces comptes. Les étapes de paramétrage sont les suivantes :
 
 * Créez un compte Twitter.
 * Créez un compte Twitter de test dédié à l&#39;envoi de BAT.
@@ -45,7 +45,7 @@ Il est recommandé de créer également un compte Twitter privé sur lequel vous
 
 ## Créer une application sur Twitter {#creating-an-application-on-twitter}
 
-Pour qu&#39;Adobe Campaign puisse envoyer des tweets sur vos comptes Twitter, vous devez créer une application Twitter par compte Twitter. Les étapes sont les suivantes :
+Pour qu&#39;Adobe Campaign puisse envoyer des tweets sur vos comptes Twitter, vous devez créer une application Twitter par compte Twitter. Les étapes sont les suivantes :
 
 1. Connectez-vous à votre compte Twitter.
 1. Saisissez l&#39;adresse [https://apps.twitter.com/](https://apps.twitter.com/) dans la barre d&#39;adresse de votre navigateur Internet.
@@ -55,21 +55,21 @@ Pour qu&#39;Adobe Campaign puisse envoyer des tweets sur vos comptes Twitter, vo
 
 1. Laissez-vous guider par l&#39;assistant.
 
-   Pour que cette application permette à Adobe Campaign d&#39;envoyer des tweets sur votre compte, rendez-vous sur l&#39;onglet **[!UICONTROL Permissions]** de l&#39;application et sélectionnez **[!UICONTROL Read and Write]** dans la section **[!UICONTROL Access]**. Sur l&#39;onglet **[!UICONTROL Settings]**, vous devez également laisser le champ **[!UICONTROL Callback URL]** vide.
+   Pour que cette application permette à Adobe Campaign d&#39;envoyer des tweets sur votre compte, rendez-vous sur l&#39;onglet **[!UICONTROL Permissions]** de l&#39;application et sélectionnez **[!UICONTROL Read and Write]** dans la section **[!UICONTROL Access]**. Sur l&#39;onglet **[!UICONTROL Settings]**, vous devez également laisser le champ **[!UICONTROL Callback URL]** vide.
 
    ![](assets/social_create_twitter_app_002.png)
 
-## Déléguer les droits d&#39;écriture à Adobe Campaign {#delegating-write-access-to-adobe-campaign}
+## Déléguer les droits d&#39;écriture à Adobe Campaign {#delegating-write-access-to-adobe-campaign}
 
 Pour chaque application Twitter, vous devez créer un service de type **[!UICONTROL Twitter]** différent, dans lequel vous renseignerez les paramètres de chacune des applications.
 
-Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ainsi qu&#39;à un navigateur Internet connecté à votre compte Twitter :
+Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ainsi qu&#39;à un navigateur Internet connecté à votre compte Twitter :
 
-* **Twitter** : sélectionnez l&#39;application créée précédemment ([https://dev.twitter.com/apps](https://dev.twitter.com/apps)), et cliquez sur l&#39;onglet **[!UICONTROL Keys and Access Tokens]**.
+* **Twitter** : sélectionnez l&#39;application créée précédemment ([https://dev.twitter.com/apps](https://dev.twitter.com/apps)), et cliquez sur l&#39;onglet **[!UICONTROL Keys and Access Tokens]**.
 
    ![](assets/social_twitter_service_002.png)
 
-* **Adobe Campaign** : positionnez-vous sur l’onglet **[!UICONTROL Profils et cibles]**, cliquez sur le lien **[!UICONTROL Services et abonnements]** et cliquez sur le bouton **[!UICONTROL Créer]**.
+* **Adobe Campaign** : positionnez-vous sur l’onglet **[!UICONTROL Profils et cibles]**, cliquez sur le lien **[!UICONTROL Services et abonnements]** et cliquez sur le bouton **[!UICONTROL Créer]**.
 
    ![](assets/social_twitter_service_007.png)
 
@@ -107,7 +107,7 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
 
    ![](assets/social_twitter_service_013.png)
 
-1. Dans la console Adobe Campaign, cliquez sur **[!UICONTROL Enregistrer]**. La délégation des droits d&#39;écriture d&#39;Adobe Campaign sur le compte Twitter est terminée.
+1. Dans la console Adobe Campaign, cliquez sur **[!UICONTROL Enregistrer]**. La délégation des droits d&#39;écriture d&#39;Adobe Campaign sur le compte Twitter est terminée.
 
    ![](assets/social_twitter_service_014.png)
 
@@ -115,15 +115,15 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
 >
 >Vous devez créer un service de type **[!UICONTROL Twitter]** par application Twitter.
 
-Le workflow **[!UICONTROL Synchronisation des comptes Twitter]** synchronise les comptes Twitter dans Adobe Campaign. Voir à ce sujet la section [Synchronisation des pages Facebook](../../social/using/publishing-on-facebook-walls.md#synchronizing-facebook-pages).
+Le workflow **[!UICONTROL Synchronisation des comptes Twitter]** synchronise les comptes Twitter dans Adobe Campaign. Voir à ce sujet la section [Synchronisation des pages Facebook](../../social/using/publishing-on-facebook-walls.md#synchronizing-facebook-pages).
 
 ## Synchroniser les comptes Twitter {#synchronizing-twitter-accounts}
 
 >[!IMPORTANT]
 >
->Pour que le workflow récupère la liste des abonnés d&#39;un compte Twitter, la case **[!UICONTROL Synchronisation des comptes Twitter]** doit être cochée dans la section d’édition du service lié au compte. Voir à ce sujet la section [Déléguer les droits d&#39;écriture à Adobe Campaign](#delegating-write-access-to-adobe-campaign).
+>Pour que le workflow récupère la liste des abonnés d&#39;un compte Twitter, la case **[!UICONTROL Synchronisation des comptes Twitter]** doit être cochée dans la section d’édition du service lié au compte. Voir à ce sujet la section [Déléguer les droits d&#39;écriture à Adobe Campaign](#delegating-write-access-to-adobe-campaign).
 
-Le workflow **[!UICONTROL Synchronisation des comptes Twitter]**, accessible à partir du noeud **[!UICONTROL Administration > Exploitation > Workflows techniques > Gestion des réseaux sociaux]** permet de synchroniser, dans Adobe Campaign, les comptes Twitter paramétrés précédemment. Ce workflow est configuré par défaut pour se déclencher tous les jeudis à 7 heures 30 du matin.
+Le workflow **[!UICONTROL Synchronisation des comptes Twitter]**, accessible à partir du noeud **[!UICONTROL Administration > Exploitation > Workflows techniques > Gestion des réseaux sociaux]** permet de synchroniser, dans Adobe Campaign, les comptes Twitter paramétrés précédemment. Ce workflow est configuré par défaut pour se déclencher tous les jeudis à 7 heures 30 du matin.
 
 >[!NOTE]
 >

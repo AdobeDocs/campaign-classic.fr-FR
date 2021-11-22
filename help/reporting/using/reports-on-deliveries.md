@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Adobe Campaign propose plusieurs types de rapports, accessibles depuis la console cliente ou depuis un navigateur internet.
+Adobe Campaign propose plusieurs types de rapports, accessibles depuis la console cliente ou depuis un navigateur internet.
 
-Les types de rapports disponibles sont les suivants :
+Les types de rapports disponibles sont les suivants :
 
 * Rapports concernant l&#39;ensemble de la plateforme, voir la section [Rapports globaux](../../reporting/using/global-reports.md).
 * Rapports de diffusion, voir la section [Rapports de diffusion](../../reporting/using/delivery-reports.md).

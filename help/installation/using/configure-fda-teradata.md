@@ -60,7 +60,7 @@ Vous devez installer des pilotes pour que Teradata puisse établir une connexion
       SQLLevel=1
       ```
 
-1. Définissez les variables d’environnement du serveur Adobe Campaign :
+1. Définissez les variables d’environnement du serveur Adobe Campaign :
 
    * **LD_LIBRARY_PATH** : /opt/teradata/client/15.10/lib64 et /opt/teradata/client/15.10/odbc_64/lib.
    * **ODBCINI** : emplacement du fichier odbc.ini (par exemple /etc/odbc.ini).
@@ -68,7 +68,7 @@ Vous devez installer des pilotes pour que Teradata puisse établir une connexion
 
 >[!NOTE]
 >
->La connexion à une base de données externe Teradata dans FDA nécessite certaines étapes de configuration supplémentaires sur le serveur Adobe Campaign. [En savoir plus](#teradata-additional-configurations).
+>La connexion à une base de données externe Teradata dans FDA nécessite certaines étapes de configuration supplémentaires sur le serveur Adobe Campaign. [En savoir plus](#teradata-additional-configurations).
 
 ## Compte externe Teradata{#teradata-external}
 
@@ -98,17 +98,17 @@ Le compte externe Teradata vous permet de connecter votre instance Campaign à v
 
 ### Query banding
 
-Si plusieurs utilisateurs Adobe Campaign se connectent au même compte externe FDA Teradata, l’onglet **[!UICONTROL Query banding]** vous permet de définir un query band, c’est-à-dire un ensemble de paires clé/valeur, sur une session.
+Si plusieurs utilisateurs Adobe Campaign se connectent au même compte externe FDA Teradata, l’onglet **[!UICONTROL Tranches de requête]** vous permet de définir une tranche de requête, c’est-à-dire un ensemble de paires clé/valeur, sur une session.
 
 ![](assets/ext_account_20.png)
 
-Lorsque cette option est configurée, chaque fois qu&#39;un utilisateur Campaign effectue une requête sur la base de données Teradata, Adobe Campaign envoie des métadonnées, composées d&#39;une liste de clés, associées à cet utilisateur. Ces données peuvent ensuite être utilisées par les administrateurs Teradata à des fins d’audit ou pour gérer les droits d’accès.
+Lorsque cette option est configurée, chaque fois qu&#39;un utilisateur Campaign effectue une requête sur la base de données Teradata, Adobe Campaign envoie des métadonnées, composées d&#39;une liste de clés, associées à cet utilisateur. Ces données peuvent ensuite être utilisées par les administrateurs Teradata à des fins d’audit ou pour gérer les droits d’accès.
 
 >[!NOTE]
 >
 >Pour plus d’informations sur le **[!UICONTROL Query banding]**, consultez la [documentation de Teradata](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw).
 
-Pour configurer le query banding, procédez comme suit :
+Pour configurer le query banding, procédez comme suit :
 
 1. Utilisez l’option **[!UICONTROL Par défaut]** pour saisir un query band par défaut qui sera utilisé si un utilisateur n’a pas de query band associé. Si ce champ est vide, les utilisateurs sans query band ne pourront pas utiliser Teradata.
 
@@ -120,7 +120,7 @@ Pour configurer le query banding, procédez comme suit :
 
 Si l’erreur suivante s’affiche lors du test de la connexion **TIM-030008 Date ’2’ : caractère(s) manquant(s) (iRc=-53)** assurez-vous que le pilote ODBC est correctement installé et que LD_LIBRARY_PATH (Linux) / PATH (Windows) est défini pour le serveur Campaign.
 
-L’erreur **ODB-240000 ODBC : nom de source de données [Microsoft][ODBC Driver Manager] introuvable et aucun pilote par défaut spécifié.** survient avec Windows si vous utilisez un pilote 16.X. Adobe Campaign s’attend à ce que les données Teradata soient nommées ’{teradata}’ dans odbcinst.ini.
+L’erreur **ODB-240000 ODBC : nom de source de données [Microsoft][ODBC Driver Manager] introuvable et aucun pilote par défaut spécifié.** survient avec Windows si vous utilisez un pilote 16.X. Adobe Campaign s’attend à ce que les données Teradata soient nommées ’{teradata}’ dans odbcinst.ini.
 
 * À compter de Campaign 18.10, vous pouvez ajouter ODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot; dans les options du compte externe. Le numéro de version peut changer, le nom exact peut être trouvé en exécutant odbcad32.exe et en accédant à l’onglet Pilotes.
 
@@ -151,11 +151,11 @@ Customers with a Latin-1 Teradata database migrating to a recent Campaign Classi
 
 ### Configuration utilisateur {#user-configuration}
 
-Les droits suivants sont obligatoires sur la base de données externe : créer/déposer/exécuter des procédures personnalisées, créer/déposer/insérer/sélectionner des tables. Vous devrez peut-être également créer des fonctions de mode utilisateur si vous souhaitez utiliser les fonctions md5 et sha2 sur votre instance d’Adobe Campaign.
+Les droits suivants sont obligatoires sur la base de données externe : créer/déposer/exécuter des procédures personnalisées, créer/déposer/insérer/sélectionner des tables. Vous devrez peut-être également créer des fonctions de mode utilisateur si vous souhaitez utiliser les fonctions md5 et sha2 sur votre instance d’Adobe Campaign.
 
-Assurez-vous de configurer le fuseau horaire approprié. Il doit correspondre à ce qui sera défini dans le compte externe créé dans l’instance d’Adobe Campaign.
+Assurez-vous de configurer le fuseau horaire approprié. Il doit correspondre à ce qui sera défini dans le compte externe créé dans l’instance d’Adobe Campaign.
 
-Adobe Campaign ne définit pas de mode de protection (fallback) sur les objets qu’il va créer dans la base de données. Vous devrez peut-être définir une valeur par défaut pour l’utilisateur qu’Adobe Campaign utilisera pour se connecter à la base de données Teradata à l’aide de la requête suivante :
+Adobe Campaign ne définit pas de mode de protection (fallback) sur les objets qu’il va créer dans la base de données. Vous devrez peut-être définir une valeur par défaut pour l’utilisateur qu’Adobe Campaign utilisera pour se connecter à la base de données Teradata à l’aide de la requête suivante :
 
 | désactiver le fallback par défaut |
 | :-: |
@@ -163,7 +163,7 @@ Adobe Campaign ne définit pas de mode de protection (fallback) sur les objets q
 
 ### Installation de MD5 {#md5-installation}
 
-Si vous souhaitez utiliser les fonctions md5 dans votre instance d’Adobe Campaign, vous devez installer la fonction de mode utilisateur sur votre base de données Teradata à partir de cette [page](https://downloads.teradata.com/download/extensibility/md5-message-digest-udf) (md5_20080530.zip).
+Si vous souhaitez utiliser les fonctions md5 dans votre instance d’Adobe Campaign, vous devez installer la fonction de mode utilisateur sur votre base de données Teradata à partir de cette [page](https://downloads.teradata.com/download/extensibility/md5-message-digest-udf) (md5_20080530.zip).
 
 La fonction sha1 du fichier téléchargé se présente comme suit : 65cc0bb6935f72fcd84fef1ebcd64c00115dfd1e.
 
@@ -183,7 +183,7 @@ Pour installer md5 :
 
 ### Installation SHA2 {#sha2-installation}
 
-Si vous souhaitez utiliser les fonctions sha2 dans votre instance d’Adobe Campaign, vous devrez installer la fonction de mode utilisateur sur votre base de données Teradata à partir de cette [page](https://github.com/akuroda/teradata-udf-sha2/archive/v1.0.zip) (teradata-udf-sha2-1.0.zip).
+Si vous souhaitez utiliser les fonctions sha2 dans votre instance d’Adobe Campaign, vous devrez installer la fonction de mode utilisateur sur votre base de données Teradata à partir de cette [page](https://github.com/akuroda/teradata-udf-sha2/archive/v1.0.zip) (teradata-udf-sha2-1.0.zip).
 
 La fonction sha1 du fichier téléchargé se présente comme suit : e87438d37424836358bd3902cf1adeb629349780.
 
@@ -204,7 +204,7 @@ Pour installer sha2 :
 
 ### Installation de UDF_UTF16TO8  {#UDF-UTF16TO8-installation}
 
-Si vous souhaitez utiliser les fonctions udf_utf16to8 dans votre instance d’Adobe Campaign, vous devez installer la fonction de mode utilisateur sur votre base de données Teradata à partir **de la boîte à outils Teradata Unicode** de cette [page](https://downloads.teradata.com/download/tools/unicode-tool-kit) (utk_release1.7.0.0.zip).
+Si vous souhaitez utiliser les fonctions udf_utf16to8 dans votre instance d’Adobe Campaign, vous devez installer la fonction de mode utilisateur sur votre base de données Teradata à partir **de la boîte à outils Teradata Unicode** de cette [page](https://downloads.teradata.com/download/tools/unicode-tool-kit) (utk_release1.7.0.0.zip).
 
 La fonction sha1 du fichier téléchargé se présente comme suit : e58235f434f52c71316a577cb48e20b97d24f470.
 
@@ -245,7 +245,7 @@ Noms de fichiers et sha1 :
 
 * TeradataToolsAndUtilitiesBase__linux_indep.16.20.01.00.tar.gz b 29d0af5ffd8dcf68a9dbbaa6f8639387b19c563
 
-S’il n’existe aucun package pour votre distribution Linux, vous pouvez suivre la procédure d’installation de CentOS 7 (par exemple en utilisant docker), puis copier le contenu de /opt/teradata sur votre serveur Adobe Campaign.
+S’il n’existe aucun package pour votre distribution Linux, vous pouvez suivre la procédure d’installation de CentOS 7 (par exemple en utilisant docker), puis copier le contenu de /opt/teradata sur votre serveur Adobe Campaign.
 
 ### Installation du pilote ODBC {#odbc-installation}
 
@@ -293,9 +293,9 @@ Assurez-vous que le chemin d’accès du pilote et des utilitaires se trouve dan
 
 ## Time zone {#timezone}
 
-Teradata utilise un nom de fuseau horaire qui n’est pas standard. Vous pouvez trouver la liste sur le [site Teradata](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/oGKvgl7gCeBMTGrp59BnwA). Adobe Campaign essaiera de convertir le fuseau horaire donné dans la configuration externe en un élément que Teradata comprend. Si aucune correspondance n’est trouvée, le fuseau horaire GMT+X (ou GMT-X) le plus proche sera trouvé pour la session et un avertissement sera ajouté au journal.
+Teradata utilise un nom de fuseau horaire qui n’est pas standard. Vous pouvez trouver la liste sur le [site Teradata](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/oGKvgl7gCeBMTGrp59BnwA). Adobe Campaign essaiera de convertir le fuseau horaire donné dans la configuration externe en un élément que Teradata comprend. Si aucune correspondance n’est trouvée, le fuseau horaire GMT+X (ou GMT-X) le plus proche sera trouvé pour la session et un avertissement sera ajouté au journal.
 
-La conversion est effectuée via la lecture du fichier appelé teradata_timezones.txt qui doit se trouver dans le répertoire de données suivant : /usr/local/neolane/nl6/datakit sous Linux. Si vous modifiez ce fichier, veillez à contacter l’équipe d’Adobe Campaign pour apporter la modification au code source, sans quoi, ce fichier sera remplacé lors de la prochaine mise à jour de Campaign.
+La conversion est effectuée via la lecture du fichier appelé teradata_timezones.txt qui doit se trouver dans le répertoire de données suivant : /usr/local/neolane/nl6/datakit sous Linux. Si vous modifiez ce fichier, veillez à contacter l’équipe d’Adobe Campaign pour apporter la modification au code source, sans quoi, ce fichier sera remplacé lors de la prochaine mise à jour de Campaign.
 
 Le fuseau horaire utilisé pour la connexion est indiqué lors de l’exécution de nlserver avec le commutateur -verbose, par exemple :
 

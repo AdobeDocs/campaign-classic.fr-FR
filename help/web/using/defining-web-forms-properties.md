@@ -39,15 +39,15 @@ Les réponses fournies sont stockées par défaut dans la table **Réponse à un
 
 ## Paramétrer une page d&#39;erreur {#setting-up-an-error-page}
 
-Vous pouvez paramétrer une page d&#39;erreur : cette page est affichée en cas d&#39;erreur lors de l&#39;exécution du formulaire.
+Vous pouvez paramétrer une page d&#39;erreur : cette page est affichée en cas d&#39;erreur lors de l&#39;exécution du formulaire.
 
 La page d&#39;erreur est définie dans l&#39;onglet correspondant de la fenêtre des propriétés du formulaire.
 
-Par défaut, elle affiche les informations suivantes :
+Par défaut, elle affiche les informations suivantes :
 
 ![](assets/s_ncs_admin_survey_default_error_page.png)
 
-Le contenu des chaînes affichées est défini dans l&#39;onglet **[!UICONTROL Page d&#39;erreur]** de la fenêtre des propriétés. L&#39;onglet **[!UICONTROL HTML]** affiche le rendu, l&#39;onglet **[!UICONTROL Textes]** permet de modifier les chaînes de texte et d&#39;en ajouter, au besoin :
+Le contenu des chaînes affichées est défini dans l&#39;onglet **[!UICONTROL Page d&#39;erreur]** de la fenêtre des propriétés. L&#39;onglet **[!UICONTROL HTML]** affiche le rendu, l&#39;onglet **[!UICONTROL Textes]** permet de modifier les chaînes de texte et d&#39;en ajouter, au besoin :
 
 ![](assets/s_ncs_admin_survey_error_page.png)
 
@@ -65,13 +65,13 @@ Vous pouvez choisir de naviguer via des liens ou des boutons.
 
 ![](assets/s_ncs_admin_survey_wz_02_navig_type.png)
 
-Par défaut, les éléments de navigation sont des boutons. Ils permettent d&#39;effectuer les actions suivantes :
+Par défaut, les éléments de navigation sont des boutons. Ils permettent d&#39;effectuer les actions suivantes :
 
 * Valider la page en cours et afficher la page suivante, en cliquant sur **[!UICONTROL Suivant]**. Ce bouton est affiché sur toutes les pages sauf la dernière.
 * Afficher la page précédente, en cliquant sur **[!UICONTROL Précédent]**. Ce bouton est affiché sur toutes les pages sauf la première.
 * Enregistrer les réponses du formulaire, en cliquant sur le bouton **[!UICONTROL Valider]**. Ce bouton n&#39;est affiché que sur la dernière page.
 
-Ces éléments sont affichés en bas de chaque page. Leur positionnement peut être modifié : pour cela, vous devez adapter la feuille de style.
+Ces éléments sont affichés en bas de chaque page. Leur positionnement peut être modifié : pour cela, vous devez adapter la feuille de style.
 
 >[!NOTE]
 >
@@ -101,21 +101,21 @@ La période de validité est comprise entre la date de **[!UICONTROL Démarrage]
 
 >[!NOTE]
 >
->Si le formulaire est fermé, donc si sa période de validité n&#39;est pas atteinte ou est dépassée, ou s&#39;il a été fermé par l&#39;opérateur Adobe Campaign, alors un message s&#39;affiche lorsque l&#39;utilisateur tente d&#39;y accéder. Vous pouvez personnaliser ce message en cliquant sur le lien **[!UICONTROL Personnaliser le message affiché si le formulaire est fermé...]**.
+>Si le formulaire est fermé, donc si sa période de validité n&#39;est pas atteinte ou est dépassée, ou s&#39;il a été fermé par l&#39;opérateur Adobe Campaign, alors un message s&#39;affiche lorsque l&#39;utilisateur tente d&#39;y accéder. Vous pouvez personnaliser ce message en cliquant sur le lien **[!UICONTROL Personnaliser le message affiché si le formulaire est fermé...]**.
 
 ## Contrôle d&#39;accès au formulaire {#form-access-control}
 
-Par défaut, l&#39;accès aux formulaires Web se fait en mode anonyme : tous les opérateurs qui accèdent au formulaire se voient attribuer les droits correspondant à l&#39;opérateur WebApp.
+Par défaut, l&#39;accès aux formulaires Web se fait en mode anonyme : tous les opérateurs qui accèdent au formulaire se voient attribuer les droits correspondant à l&#39;opérateur WebApp.
 
-Vous pouvez activer le contrôle d&#39;accès pour l&#39;affichage du formulaire, par exemple lorsque vous diffusez un formulaire sur un site intranet, afin d&#39;authentifier les utilisateurs. Pour cela, affichez la fenêtre des **[!UICONTROL Propriétés]** du formulaire concerné et cliquez sur l&#39;option **[!UICONTROL Activer le contrôle d&#39;accès]**, comme ci-dessous :
+Vous pouvez activer le contrôle d&#39;accès pour l&#39;affichage du formulaire, par exemple lorsque vous diffusez un formulaire sur un site intranet, afin d&#39;authentifier les utilisateurs. Pour cela, affichez la fenêtre des **[!UICONTROL Propriétés]** du formulaire concerné et cliquez sur l&#39;option **[!UICONTROL Activer le contrôle d&#39;accès]**, comme ci-dessous :
 
 ![](assets/s_ncs_admin_survey_access_ctrl.png)
 
-Lors de l&#39;accès au formulaire, la page d&#39;authentification suivante sera affichée :
+Lors de l&#39;accès au formulaire, la page d&#39;authentification suivante sera affichée :
 
 ![](assets/s_ncs_admin_survey_access_login.png)
 
-Les login et mot de passe sont ceux des opérateurs Adobe Campaign. Voir à ce sujet [cette section](../../platform/using/access-management.md).
+Les login et mot de passe sont ceux des opérateurs Adobe Campaign. Voir à ce sujet [cette section](../../platform/using/access-management.md).
 
 L&#39;option **[!UICONTROL Utiliser un compte spécifique]** permet de circonscrire les droits en lecture ou écriture de l&#39;opérateur accédant au formulaire. Sélectionnez dans la liste déroulante un opérateur ou groupe d&#39;opérateurs référent pour définir ces autorisations.
 
@@ -125,16 +125,16 @@ L&#39;option **[!UICONTROL Utiliser un compte spécifique]** permet de circonscr
 
 Vous pouvez ajouter des paramètres complémentaires dans l&#39;URL d&#39;un formulaire afin d&#39;en personnaliser le contenu et d&#39;initialiser un contexte. Ainsi, par exemple, la langue d&#39;édition, l&#39;identifiant chiffré du destinataire, sa société, une formule calculée stockée dans une variable, etc. Vous pouvez ainsi donner accès à un même formulaire via plusieurs URL différentes et personnaliser le contenu des pages en fonction de la valeur du ou des paramètres indiqués dans l&#39;URL.
 
-Adobe Campaign propose par défaut des paramètres qui permettent notamment de prévisualiser le formulaire et en contrôler les erreurs. Vous pouvez créer de nouveaux paramètres, attachés au formulaire, et qui peuvent utiliser les valeurs d&#39;un champ de la base ou d&#39;une variable locale.
+Adobe Campaign propose par défaut des paramètres qui permettent notamment de prévisualiser le formulaire et en contrôler les erreurs. Vous pouvez créer de nouveaux paramètres, attachés au formulaire, et qui peuvent utiliser les valeurs d&#39;un champ de la base ou d&#39;une variable locale.
 
 ## Paramètres standards {#standard-parameters}
 
-Par défaut, les paramètres suivants sont disponibles :
+Par défaut, les paramètres suivants sont disponibles :
 
 * **id** pour indiquer l&#39;identifiant chiffré.
 * **lang** pour modifier la langue d&#39;affichage.
 * **origin** pour indiquer l&#39;origine du répondant.
-* **_uuid** permet la visualisation d&#39;un formulaire non publié et le tracking des erreurs. Ce paramètre doit être utilisé pour une utilisation interne (création et débogage) : lorsque vous accédez au formulaire Web via cette URL, les enregistrements créés ne sont pas pris en compte dans le suivi (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
+* **_uuid** permet la visualisation d&#39;un formulaire non publié et le tracking des erreurs. Ce paramètre doit être utilisé pour une utilisation interne (création et débogage) : lorsque vous accédez au formulaire Web via cette URL, les enregistrements créés ne sont pas pris en compte dans le suivi (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
 
    S&#39;utilise avec les paramètres **_preview** et/ou **_debug** :
 
@@ -144,34 +144,34 @@ Par défaut, les paramètres suivants sont disponibles :
 
    >[!CAUTION]
    >
-   >Lorsque le formulaire est affiché via une URL avec le paramètre **_uuid**, la valeur du paramètre **[!UICONTROL origin]** est forcée à **Adobe Campaign**.
+   >Lorsque le formulaire est affiché via une URL avec le paramètre **_uuid**, la valeur du paramètre **[!UICONTROL origin]** est forcée à **Adobe Campaign**.
 
 ## Ajouter des paramètres {#adding-parameters}
 
-Des paramètres supplémentaires peuvent être ajoutés à partir l&#39;onglet **[!UICONTROL Paramètres]** de la fenêtre des propriétés du formulaire. Ils peuvent être rendus obligatoires, comme dans l&#39;exemple ci-dessous :
+Des paramètres supplémentaires peuvent être ajoutés à partir l&#39;onglet **[!UICONTROL Paramètres]** de la fenêtre des propriétés du formulaire. Ils peuvent être rendus obligatoires, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_admin_survey_properties_param.png)
 
 Vous devez indiquer un espace de stockage d&#39;où sera récupérée la valeur du paramètre. Pour cela, sélectionnez une des options de stockage puis cliquez sur l&#39;onglet **[!UICONTROL Stockage]** pour sélectionner le champ ou la variable concernée. Les options de stockage sont détaillées dans les [Champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
 
-Le statut du répondant (par exemple 0, 1 ou toute autre valeur) pourra alors être ajouté dans l&#39;URL d&#39;accès au formulaire. Cette information peut être réutilisée dans les pages du formulaire ou dans une boîte de test. Vous pouvez ainsi conditionner les pages affichées en fonction de la valeur du contexte, comme dans l&#39;exemple suivant :
+Le statut du répondant (par exemple 0, 1 ou toute autre valeur) pourra alors être ajouté dans l&#39;URL d&#39;accès au formulaire. Cette information peut être réutilisée dans les pages du formulaire ou dans une boîte de test. Vous pouvez ainsi conditionner les pages affichées en fonction de la valeur du contexte, comme dans l&#39;exemple suivant :
 
 1. Page d&#39;accueil pour les clients (**status=1**):
 
    ![](assets/s_ncs_admin_survey_test_client.png)
 
-1. Page d&#39;accueil pour les prospects (**status=0**) :
+1. Page d&#39;accueil pour les prospects (**status=0**) :
 
    ![](assets/s_ncs_admin_survey_test_prospect.png)
 
-1. Page d&#39;accueil pour d&#39;autres profils (par exemple, **status =12**) :
+1. Page d&#39;accueil pour d&#39;autres profils (par exemple, **status =12**) :
 
    ![](assets/s_ncs_admin_survey_test_other.png)
 
-Pour paramétrer ce formulaire, créez une boîte de test et positionnez-la au début du diagramme, comme suit :
+Pour paramétrer ce formulaire, créez une boîte de test et positionnez-la au début du diagramme, comme suit :
 
 ![](assets/s_ncs_admin_survey_test.png)
 
-La boîte de test permet de paramétrer les conditions d&#39;enchaînement des pages :
+La boîte de test permet de paramétrer les conditions d&#39;enchaînement des pages :
 
 ![](assets/s_ncs_admin_survey_test_box.png)

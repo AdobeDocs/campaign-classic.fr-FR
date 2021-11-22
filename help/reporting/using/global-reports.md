@@ -49,7 +49,7 @@ Ce rapport contient les informations relatives au débit de diffusion de l&#39;e
 
 ![](assets/s_ncs_user_report_toolbar.png)
 
-Vous pouvez paramétrer l&#39;affichage des valeurs en sélectionnant le périmètre de la vue : 1 heure, 3 heures, 24 heures, etc. Cliquez sur le lien **[!UICONTROL Actualiser]** pour valider votre choix.
+Vous pouvez paramétrer l&#39;affichage des valeurs en sélectionnant le périmètre de la vue : 1 heure, 3 heures, 24 heures, etc. Cliquez sur le lien **[!UICONTROL Actualiser]** pour valider votre choix.
 
 ## Activités utilisateurs {#user-activities}
 
@@ -57,10 +57,10 @@ Ce rapport présente la répartition des ouvertures, clics et transactions, par 
 
 ![](assets/s_ncs_user_user_report.png)
 
-Les options disponibles sont les suivantes :
+Les options disponibles sont les suivantes :
 
 * **[!UICONTROL Ouvertures]** : Nombre total de messages ouverts. Les emails au format texte ne sont pas pris en compte. Pour plus d&#39;informations sur le tracking des ouvertures, consultez la section [Tracking des ouvertures](../../reporting/using/indicator-calculation.md#tracking-opens-).
-* **[!UICONTROL Clics]** : Nombre total de clics sur les liens des diffusions. Les clics sur les liens de désinscription et de page miroir ne sont pas pris en compte.
+* **[!UICONTROL Clics]** : Nombre total de clics sur les liens des diffusions. Les clics sur les liens de désinscription et de page miroir ne sont pas pris en compte.
 * **[!UICONTROL Transactions]** : nombre total de transactions suite à la réception d&#39;un message. Pour qu&#39;une transaction soit comptabilisée, une balise de webtracking de type transaction doit être insérée sur la page web correspondante. Le paramétrage du webtracking est présenté dans [cette section](../../configuration/using/about-web-tracking.md).
 
 ## Échecs et bounces {#non-deliverables-and-bounces}
@@ -79,21 +79,21 @@ Le **[!UICONTROL Nombre de messages traités]** représente le nombre total de m
 
 La première partie de ce rapport présente la répartition des messages en échec sous la forme d&#39;un tableau de valeurs et d&#39;un graphique.
 
-A chaque type d&#39;erreur, est associé :
+A chaque type d&#39;erreur, est associé :
 
 * le nombre de messages en erreur de ce type,
 * le pourcentage du nombre de messages en erreur de ce type par rapport au nombre total de messages en erreur,
 * le pourcentage du nombre de messages en erreur de ce type par rapport au nombre total de messages traités.
 
-Les indicateurs utilisés sont les suivants :
+Les indicateurs utilisés sont les suivants :
 
-* **[!UICONTROL Utilisateur inconnu]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse email est invalide.
-* **[!UICONTROL Domaine invalide]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que le domaine de l&#39;adresse email est erroné ou n&#39;existe plus.
-* **[!UICONTROL Boîte pleine]** : Type d&#39;erreur générée, après cinq tentatives d&#39;envoi d&#39;une diffusion, indiquant que la boîte de messagerie du destinataire contient trop de messages.
-* **[!UICONTROL Compte désactivé]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
-* **[!UICONTROL Refusé]** : Type d&#39;erreur générée lorsqu&#39;une adresse est refusée par le FAI (Fournisseur d&#39;Accès Internet) suite, par exemple, à l&#39;application d&#39;une règle de sécurité (logiciel anti-spams).
-* **[!UICONTROL Inatteignable]** : Type d&#39;erreur survenue dans la chaîne de distribution du message : incident sur le relais SMTP, domaine temporairement inatteignable, etc.
-* **[!UICONTROL Non connecté]** : Type d&#39;erreur indiquant que le téléphone portable du destinataire est éteint ou n&#39;est pas connecté au réseau au moment de l&#39;envoi du message.
+* **[!UICONTROL Utilisateur inconnu]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse email est invalide.
+* **[!UICONTROL Domaine invalide]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que le domaine de l&#39;adresse email est erroné ou n&#39;existe plus.
+* **[!UICONTROL Boîte pleine]** : Type d&#39;erreur générée, après cinq tentatives d&#39;envoi d&#39;une diffusion, indiquant que la boîte de messagerie du destinataire contient trop de messages.
+* **[!UICONTROL Compte désactivé]** : Type d&#39;erreur générée lors de l&#39;envoi d&#39;une diffusion indiquant que l&#39;adresse n&#39;existe plus.
+* **[!UICONTROL Refusé]** : Type d&#39;erreur générée lorsqu&#39;une adresse est refusée par le FAI (Fournisseur d&#39;Accès Internet) suite, par exemple, à l&#39;application d&#39;une règle de sécurité (logiciel anti-spams).
+* **[!UICONTROL Inatteignable]** : Type d&#39;erreur survenue dans la chaîne de distribution du message : incident sur le relais SMTP, domaine temporairement inatteignable, etc.
+* **[!UICONTROL Non connecté]** : Type d&#39;erreur indiquant que le téléphone portable du destinataire est éteint ou n&#39;est pas connecté au réseau au moment de l&#39;envoi du message.
 
    >[!NOTE]
    >
@@ -107,7 +107,7 @@ Les indicateurs utilisés sont les suivants :
 
 La seconde partie de ce rapport présente la répartition des échecs par domaine Internet sous la forme d&#39;un tableau de valeurs et d&#39;un graphique.
 
-A chaque nom de domaine, est associé :
+A chaque nom de domaine, est associé :
 
 * le nombre de messages en erreur sur ce domaine,
 * le pourcentage du nombre de messages en erreur sur ce domaine par rapport au nombre total de messages traités sur ce domaine.
@@ -135,11 +135,11 @@ Les statistiques globales d&#39;utilisation des navigateurs sont présentées so
 
 ![](assets/dlv_explorers_report.png)
 
-Les indicateurs utilisés sont les suivants :
+Les indicateurs utilisés sont les suivants :
 
-* **[!UICONTROL Visiteurs]** : Nombre total de destinataires ciblés, par navigateur Internet, ayant cliqué au moins une fois dans une même diffusion.
-* **[!UICONTROL Pages vues]** : Nombre total de clics sur les liens des diffusions, par navigateur Internet, dans l&#39;ensemble des diffusions.
-* **[!UICONTROL Taux d&#39;utilisation]** : Ce taux représente la répartition des visiteurs, par navigateur Internet, par rapport au nombre total de visiteurs.
+* **[!UICONTROL Visiteurs]** : Nombre total de destinataires ciblés, par navigateur Internet, ayant cliqué au moins une fois dans une même diffusion.
+* **[!UICONTROL Pages vues]** : Nombre total de clics sur les liens des diffusions, par navigateur Internet, dans l&#39;ensemble des diffusions.
+* **[!UICONTROL Taux d&#39;utilisation]** : Ce taux représente la répartition des visiteurs, par navigateur Internet, par rapport au nombre total de visiteurs.
 
 **Statistiques par navigateur**
 
@@ -153,10 +153,10 @@ La courbe **[!UICONTROL Historique]** représente le taux de fréquentation, par
 
 Le graphique **[!UICONTROL Répartition par version]** représente la répartition des visiteurs, par version, par rapport au nombre total de visiteurs sur ce navigateur.
 
-Le tableau de valeurs utilise les indicateurs suivants :
+Le tableau de valeurs utilise les indicateurs suivants :
 
-* **[!UICONTROL Taux global]** : Ce taux représente la répartition des visiteurs, par version, par rapport au nombre total de visiteurs sur l&#39;ensemble des navigateurs.
-* **[!UICONTROL Taux relatif]** : Ce taux représente la répartition des visiteurs, par version, par rapport au nombre total de visiteurs sur ce navigateur.
+* **[!UICONTROL Taux global]** : Ce taux représente la répartition des visiteurs, par version, par rapport au nombre total de visiteurs sur l&#39;ensemble des navigateurs.
+* **[!UICONTROL Taux relatif]** : Ce taux représente la répartition des visiteurs, par version, par rapport au nombre total de visiteurs sur ce navigateur.
 
 ### Partage vers les réseaux sociaux {#sharing-to-social-networks}
 
@@ -168,26 +168,26 @@ Ce rapport présente la répartition du partage et de l&#39;ouverture des messag
 
 **[!UICONTROL Statistiques d&#39;envoi par mail]**
 
-Dans les statistiques d&#39;envoi par mail, deux valeurs sont affichées :
+Dans les statistiques d&#39;envoi par mail, deux valeurs sont affichées :
 
-* **[!UICONTROL Nombre de messages à diffuser]** : Nombre total de messages traités lors de l&#39;analyse de la diffusion.
-* **[!UICONTROL Nombre d&#39;envois réussis]** : Nombre de messages traités avec succès.
+* **[!UICONTROL Nombre de messages à diffuser]** : Nombre total de messages traités lors de l&#39;analyse de la diffusion.
+* **[!UICONTROL Nombre d&#39;envois réussis]** : Nombre de messages traités avec succès.
 
 **[!UICONTROL Statistiques des partages et ouvertures du mail]**
 
 Le tableau central présente les statistiques de partage et d&#39;ouverture du mail.
 
-Dans la colonne **[!UICONTROL Partages]**, les indicateurs sont les suivants :
+Dans la colonne **[!UICONTROL Partages]**, les indicateurs sont les suivants :
 
-* **[!UICONTROL Nb partages]** : Nombre total de messages partagés, sur chaque réseau social. Cette valeur correspond au nombre total de clics effectués sur l&#39;icône correspondante du bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**.
-* **[!UICONTROL Répartition]** : Taux représentant la répartition des partages, par réseau social, par rapport au nombre total de partages.
-* **[!UICONTROL Taux de partage]** : Ce taux représente la répartition des partages, par réseau social, par rapport au nombre de messages à diffuser.
+* **[!UICONTROL Nb partages]** : Nombre total de messages partagés, sur chaque réseau social. Cette valeur correspond au nombre total de clics effectués sur l&#39;icône correspondante du bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**.
+* **[!UICONTROL Répartition]** : Taux représentant la répartition des partages, par réseau social, par rapport au nombre total de partages.
+* **[!UICONTROL Taux de partage]** : Ce taux représente la répartition des partages, par réseau social, par rapport au nombre de messages à diffuser.
 
-Dans la colonne **[!UICONTROL Ouvertures]**, les indicateurs sont les suivants :
+Dans la colonne **[!UICONTROL Ouvertures]**, les indicateurs sont les suivants :
 
-* **[!UICONTROL Nb ouvertures]** : Nombre total de messages ouverts par les personnes à qui le message a été transféré (via le bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**). Cette valeur correspond au nombre de fois où la page miroir a été affichée. Les messages ouverts par les destinataires cibles de la diffusion ne sont pas pris en compte dans cette valeur.
-* **[!UICONTROL Répartition]** : Ce taux représente la répartition des ouvertures, par réseau social, par rapport au nombre total d&#39;ouvertures.
-* **[!UICONTROL Taux d&#39;ouverture]** : Ce taux représente la répartition des ouvertures, par réseau social, par rapport au nombre total de partages.
+* **[!UICONTROL Nb ouvertures]** : Nombre total de messages ouverts par les personnes à qui le message a été transféré (via le bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**). Cette valeur correspond au nombre de fois où la page miroir a été affichée. Les messages ouverts par les destinataires cibles de la diffusion ne sont pas pris en compte dans cette valeur.
+* **[!UICONTROL Répartition]** : Ce taux représente la répartition des ouvertures, par réseau social, par rapport au nombre total d&#39;ouvertures.
+* **[!UICONTROL Taux d&#39;ouverture]** : Ce taux représente la répartition des ouvertures, par réseau social, par rapport au nombre total de partages.
 
 **[!UICONTROL Répartition des partages et ouvertures]**
 
@@ -203,11 +203,11 @@ Pour plus d&#39;informations sur le marketing viral, consultez [cette section](.
 
 Les statistiques sont présentées sous la forme d&#39;un tableau de valeurs et d&#39;un graphique.
 
-Les indicateurs utilisés sont les suivants :
+Les indicateurs utilisés sont les suivants :
 
-* **[!UICONTROL Nouveaux contacts]** : Nombre de nouvelles inscriptions suite à la réception d&#39;un message partagé par email. Cette valeur correspond au nombre de personnes qui ont reçu un message partagé par email, qui ont cliqué sur le **[!UICONTROL Lien d&#39;inscription]** et qui ont rempli le formulaire d&#39;inscription.
-* **[!UICONTROL Ouvertures]** : Nombre total de messages ouverts par les personnes à qui le message a été transféré (via le bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**). Cette valeur correspond au nombre de fois où la page miroir a été affichée. Les messages ouverts par les destinataires cibles de la diffusion ne sont pas pris en compte dans cette valeur.
-* **[!UICONTROL Partages]** : Nombre total de messages partagés sur les réseaux sociaux. Cette valeur correspond au nombre total de clics effectués sur l&#39;icône correspondante du bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**.
+* **[!UICONTROL Nouveaux contacts]** : Nombre de nouvelles inscriptions suite à la réception d&#39;un message partagé par email. Cette valeur correspond au nombre de personnes qui ont reçu un message partagé par email, qui ont cliqué sur le **[!UICONTROL Lien d&#39;inscription]** et qui ont rempli le formulaire d&#39;inscription.
+* **[!UICONTROL Ouvertures]** : Nombre total de messages ouverts par les personnes à qui le message a été transféré (via le bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**). Cette valeur correspond au nombre de fois où la page miroir a été affichée. Les messages ouverts par les destinataires cibles de la diffusion ne sont pas pris en compte dans cette valeur.
+* **[!UICONTROL Partages]** : Nombre total de messages partagés sur les réseaux sociaux. Cette valeur correspond au nombre total de clics effectués sur l&#39;icône correspondante du bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**.
 
 ## Systèmes d’exploitation {#operating-systems}
 
@@ -223,11 +223,11 @@ Les statistiques globales d&#39;utilisation des systèmes d&#39;exploitation son
 
 ![](assets/s_ncs_user_os_report.png)
 
-Les indicateurs utilisés sont les suivants :
+Les indicateurs utilisés sont les suivants :
 
-* **[!UICONTROL Visiteurs]** : Moyenne par jour du nombre total de destinataires ciblés, par système d&#39;exploitation, ayant cliqué au moins une fois dans une même diffusion.
-* **[!UICONTROL Pages vues]** : Moyenne par jour du nombre total de clics sur les liens des diffusions, par système d&#39;exploitation, dans l&#39;ensemble des diffusions.
-* **[!UICONTROL Taux d&#39;utilisation]** : Ce taux représente la répartition des visiteurs, par système d&#39;exploitation, par rapport au nombre total de visiteurs.
+* **[!UICONTROL Visiteurs]** : Moyenne par jour du nombre total de destinataires ciblés, par système d&#39;exploitation, ayant cliqué au moins une fois dans une même diffusion.
+* **[!UICONTROL Pages vues]** : Moyenne par jour du nombre total de clics sur les liens des diffusions, par système d&#39;exploitation, dans l&#39;ensemble des diffusions.
+* **[!UICONTROL Taux d&#39;utilisation]** : Ce taux représente la répartition des visiteurs, par système d&#39;exploitation, par rapport au nombre total de visiteurs.
 
 **Statistiques par système d&#39;exploitation**
 
@@ -241,10 +241,10 @@ La courbe **[!UICONTROL Historique]** représente le taux d&#39;utilisation, par
 
 Le graphique **[!UICONTROL Répartition par version]** représente la répartition des visiteurs, par version, par rapport au nombre total de visiteurs sur ce système d&#39;exploitation.
 
-Le tableau de valeurs utilise les indicateurs suivants :
+Le tableau de valeurs utilise les indicateurs suivants :
 
-* **[!UICONTROL Taux global]** : Ce taux représente la répartition des visiteurs, par version, par rapport au nombre total de visiteurs sur l&#39;ensemble des systèmes d&#39;exploitation.
-* **[!UICONTROL Taux relatif]** : Ce taux représente la répartition des visiteurs, par version, par rapport au nombre total de visiteurs sur ce système d&#39;exploitation.
+* **[!UICONTROL Taux global]** : Ce taux représente la répartition des visiteurs, par version, par rapport au nombre total de visiteurs sur l&#39;ensemble des systèmes d&#39;exploitation.
+* **[!UICONTROL Taux relatif]** : Ce taux représente la répartition des visiteurs, par version, par rapport au nombre total de visiteurs sur ce système d&#39;exploitation.
 
 ## Tracking des abonnements {#subscription-tracking}
 
@@ -260,13 +260,13 @@ Le **[!UICONTROL Nombre d&#39;inscrits à ce jour]** représente le nombre total
 
 **[!UICONTROL Evolution globale des inscriptions]**
 
-Le tableau de valeurs utilise les indicateurs suivants :
+Le tableau de valeurs utilise les indicateurs suivants :
 
-* **[!UICONTROL Inscrits]** : Nombre total d&#39;abonnés sur la période correspondante.
-* **[!UICONTROL Inscriptions]** : Nombre d&#39;abonnements sur la période correspondante.
-* **[!UICONTROL Désinscriptions]** : Nombre de désabonnements sur la période correspondante.
-* **[!UICONTROL Evolution]** : Nombre de désabonnements soustrait au nombre d&#39;abonnements. Le taux associé est calculé par rapport au nombre total d&#39;abonnés.
-* **[!UICONTROL Fidélité]** : Taux de fidélité des abonnés sur la période correspondante.
+* **[!UICONTROL Inscrits]** : Nombre total d&#39;abonnés sur la période correspondante.
+* **[!UICONTROL Inscriptions]** : Nombre d&#39;abonnements sur la période correspondante.
+* **[!UICONTROL Désinscriptions]** : Nombre de désabonnements sur la période correspondante.
+* **[!UICONTROL Evolution]** : Nombre de désabonnements soustrait au nombre d&#39;abonnements. Le taux associé est calculé par rapport au nombre total d&#39;abonnés.
+* **[!UICONTROL Fidélité]** : Taux de fidélité des abonnés sur la période correspondante.
 
 **[!UICONTROL Courbes d&#39;évolution des inscriptions]**
 
@@ -278,20 +278,20 @@ Ce rapport présente la répartition, par domaine Internet, des messages traité
 
 ![](assets/s_ncs_user_broadcast_report.png)
 
-Les indicateurs utilisés sont les suivants :
+Les indicateurs utilisés sont les suivants :
 
-* **[!UICONTROL Emails traités]** : Nombre total de messages traités par le serveur de diffusion.
-* **[!UICONTROL Délivrés]** : Pourcentage du nombre de messages traités avec succès, par rapport au nombre total de messages traités.
-* **[!UICONTROL Erreurs hard]** : Pourcentage du nombre d&#39;erreurs &quot;hard&quot;, par rapport au nombre total de messages traités.
-* **[!UICONTROL Erreurs soft]** : Pourcentage du nombre d&#39;erreurs &quot;soft&quot;, par rapport au nombre total de messages traités.
+* **[!UICONTROL Emails traités]** : Nombre total de messages traités par le serveur de diffusion.
+* **[!UICONTROL Délivrés]** : Pourcentage du nombre de messages traités avec succès, par rapport au nombre total de messages traités.
+* **[!UICONTROL Erreurs hard]** : Pourcentage du nombre d&#39;erreurs &quot;hard&quot;, par rapport au nombre total de messages traités.
+* **[!UICONTROL Erreurs soft]** : Pourcentage du nombre d&#39;erreurs &quot;soft&quot;, par rapport au nombre total de messages traités.
 
    >[!NOTE]
    >
    >Pour plus d&#39;informations sur les hard et soft bounces, consultez la section [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md).
 
 * **[!UICONTROL Ouvertures]** : pourcentage du nombre de destinataires ciblés distincts ayant ouvert au moins une fois un même message, par rapport au nombre de messages traités avec succès.
-* **[!UICONTROL Clics]** : Pourcentage du nombre de personnes distinctes ayant cliqué au moins une fois dans une même diffusion, par rapport au nombre de messages traités avec succès.
-* **[!UICONTROL Désinscriptions]** : Pourcentage du nombre de clics effectués sur un lien de désinscription, par rapport au nombre de messages traités avec succès.
+* **[!UICONTROL Clics]** : Pourcentage du nombre de personnes distinctes ayant cliqué au moins une fois dans une même diffusion, par rapport au nombre de messages traités avec succès.
+* **[!UICONTROL Désinscriptions]** : Pourcentage du nombre de clics effectués sur un lien de désinscription, par rapport au nombre de messages traités avec succès.
 
 ## Répartition des ouvertures {#breakdown-of-opens}
 

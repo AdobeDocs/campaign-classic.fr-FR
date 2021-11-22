@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Lorsque les logs de tracking ne remontent pas, les causes peuvent être multiples. Nous vous recommandons de vérifier les informations suivantes :
 
-* **Le workflow** Tracking **est-il en erreur ?**
+* **Le workflow** Tracking **est-il en erreur ?**
 
    Consultez [Surveiller les workflows techniques](../../workflow/using/monitoring-technical-workflows.md).
 

@@ -39,7 +39,7 @@ Lorsque vous lancez l&#39;assistant d&#39;export, vous devez d&#39;abord sélect
    Le modèle natif est **[!UICONTROL Nouvel export texte]**. Ce modèle ne doit pas être modifié, mais vous pouvez le dupliquer pour paramétrer un nouveau modèle. Par défaut, les modèles d&#39;export sont enregistrés dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de traitement]**.
 
 1. Saisissez un nom pour cet export dans le champ **[!UICONTROL Libellé]**. Vous pouvez ajouter une description.
-1. Sélectionnez le type d&#39;export. Deux types d&#39;export sont possibles : **[!UICONTROL Export simple]** pour n&#39;exporter qu&#39;un seul fichier et **[!UICONTROL Export multiple]** pour exporter plusieurs fichiers en une seule exécution, depuis un ou plusieurs types de documents sources.
+1. Sélectionnez le type d&#39;export. Deux types d&#39;export sont possibles : **[!UICONTROL Export simple]** pour n&#39;exporter qu&#39;un seul fichier et **[!UICONTROL Export multiple]** pour exporter plusieurs fichiers en une seule exécution, depuis un ou plusieurs types de documents sources.
 
 ## Etape 2 - Type de fichier à exporter {#step-2---type-of-file-to-export}
 
@@ -49,7 +49,7 @@ Par défaut, lorsque l&#39;export est lancé depuis le nœud **[!UICONTROL Trait
 
 ![](assets/s_ncs_user_export_wizard02.png)
 
-* Par défaut, l&#39;option **[!UICONTROL Rapatrier en local le fichier généré après l&#39;export]** est cochée : dans le champ **[!UICONTROL Fichier local]**, renseignez le chemin et le nom du fichier à créer, ou parcourez votre disque local en cliquant sur le dossier situé à droite du champ. Vous pouvez décocher cette option pour saisir le chemin d&#39;accès et le nom du fichier de sortie sur le serveur.
+* Par défaut, l&#39;option **[!UICONTROL Rapatrier en local le fichier généré après l&#39;export]** est cochée : dans le champ **[!UICONTROL Fichier local]**, renseignez le chemin et le nom du fichier à créer, ou parcourez votre disque local en cliquant sur le dossier situé à droite du champ. Vous pouvez décocher cette option pour saisir le chemin d&#39;accès et le nom du fichier de sortie sur le serveur.
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Par défaut, lorsque l&#39;export est lancé depuis le nœud **[!UICONTROL Trait
 
 ## Etape 3 - Définition du format de sortie {#step-3---defining-the-output-format}
 
-Sélectionnez le format de sortie du fichier exporté. Les formats possibles sont les suivants : Texte, Texte à colonnes fixes, CSV, XML.
+Sélectionnez le format de sortie du fichier exporté. Les formats possibles sont les suivants : Texte, Texte à colonnes fixes, CSV, XML.
 
 ![](assets/s_ncs_user_export_wizard03.png)
 
@@ -103,7 +103,7 @@ Vous pouvez modifier l&#39;ordre et le libellé des champs pour le fichier de so
 
 * Pour changer l&#39;ordre des colonnes à exporter, sélectionnez la colonne concernée et utilisez les flèches bleues situées à droite du tableau.
 * Pour changer le libellé d&#39;un champ, cliquez dans la cellule de la colonne **[!UICONTROL Libellé]** correspondant au champ à modifier et saisissez le nouveau libellé. Appuyez sur la touche Entrée du clavier pour valider la saisie.
-* Pour appliquer une transformation de casse au contenu d&#39;un champ, sélectionnez-la depuis la colonne **[!UICONTROL Transformation]**. Vous pouvez choisir :
+* Pour appliquer une transformation de casse au contenu d&#39;un champ, sélectionnez-la depuis la colonne **[!UICONTROL Transformation]**. Vous pouvez choisir :
 
    * Passer en majuscules
    * Passer en minuscules

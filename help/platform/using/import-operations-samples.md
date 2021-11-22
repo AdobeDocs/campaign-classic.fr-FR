@@ -23,7 +23,7 @@ Pour créer et alimenter une liste de destinataires à partir de la vue d&#39;en
 
 1. Création de la liste
 
-   * Cliquez sur le lien **[!UICONTROL Listes]** dans le menu **[!UICONTROL Profils et cibles]** de la page d&#39;accueil d&#39;Adobe Campaign.
+   * Cliquez sur le lien **[!UICONTROL Listes]** dans le menu **[!UICONTROL Profils et cibles]** de la page d&#39;accueil d&#39;Adobe Campaign.
    * Cliquez sur le bouton **[!UICONTROL Créer]** puis **[!UICONTROL Importer une liste]**.
 
 1. Sélection du fichier à importer
@@ -50,7 +50,7 @@ Pour importer dans la base Adobe Campaign de nouveaux profils de destinataires 
 
 1. Choix du modèle
 
-   * A partir de la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur le lien **[!UICONTROL Profils et cibles]** puis sur **[!UICONTROL Traitements]**. Au-dessus de la liste des traitements, cliquez sur **[!UICONTROL Nouvel import]**.
+   * A partir de la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur le lien **[!UICONTROL Profils et cibles]** puis sur **[!UICONTROL Traitements]**. Au-dessus de la liste des traitements, cliquez sur **[!UICONTROL Nouvel import]**.
    * Conservez le modèle **[!UICONTROL Nouvel import texte]** sélectionné par défaut.
    * Modifiez le libellé et la description.
    * Sélectionnez **[!UICONTROL Import simple]**.

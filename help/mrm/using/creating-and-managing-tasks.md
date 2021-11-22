@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign permet de créer des tâches et de gérer leur cycle de vie complet directement au sein de l&#39;application. La mise en œuvre des programmes et des opérations peut être découpée en tâches qui sont assignées à des opérateurs Adobe Campaign ou à des prestataires externes. Ce mode de fonctionnement permet de créer un environnement de collaboration ouvert incluant tous les participants au programme et les intervenants externes.
+Adobe Campaign permet de créer des tâches et de gérer leur cycle de vie complet directement au sein de l&#39;application. La mise en œuvre des programmes et des opérations peut être découpée en tâches qui sont assignées à des opérateurs Adobe Campaign ou à des prestataires externes. Ce mode de fonctionnement permet de créer un environnement de collaboration ouvert incluant tous les participants au programme et les intervenants externes.
 
 Les tâches peuvent être créées, visualisées et suivies au niveau de liste des tâches et du tableau de bord d&#39;une opération. Elles peuvent également être visualisées et suivies au niveau des plannings du plan marketing, des programmes et des opérations.
 
@@ -65,7 +65,7 @@ Cliquez sur **[!UICONTROL Enregistrer]** pour créer la tâche.
 
 ![](assets/s_ncs_user_task_create_simple.png)
 
-Vous pouvez également créer une tâche à partir du tableau de bord d&#39;une opération : dans ce cas, elle est automatiquement associée à l&#39;opération à partir de laquelle elle a été créée.
+Vous pouvez également créer une tâche à partir du tableau de bord d&#39;une opération : dans ce cas, elle est automatiquement associée à l&#39;opération à partir de laquelle elle a été créée.
 
 ![](assets/s_ncs_user_task_create_new_from_op.png)
 
@@ -73,7 +73,7 @@ Une fois créée, la tâche est ajoutée dans le calendrier des campagnes et dan
 
 ![](assets/s_ncs_user_task_edit_simple.png)
 
-Pour la paramétrer, vous devez indiquer :
+Pour la paramétrer, vous devez indiquer :
 
 * Le responsable et les intervenants : voir la section [Responsable et intervenants](#manager-and-participants).
 * Le planning de création : voir la section [Planning d&#39;exécution](#execution-schedule).
@@ -87,7 +87,7 @@ Le cycle de vie d&#39;une tâche est présenté dans la section [Cycle de vie](#
 
 Le responsable de la tâche est le seul opérateur habilité à clore la tâche.
 
-Par défaut, lorsqu&#39;un opérateur Adobe Campaign crée une tâche, elle lui est automatiquement assignée. Vous pouvez toutefois sélectionner un autre opérateur dans le champ **[!UICONTROL Affecté à]**.
+Par défaut, lorsqu&#39;un opérateur Adobe Campaign crée une tâche, elle lui est automatiquement assignée. Vous pouvez toutefois sélectionner un autre opérateur dans le champ **[!UICONTROL Affecté à]**.
 
 ![](assets/s_ncs_user_task_edit_simple_general_tab.png)
 
@@ -101,7 +101,7 @@ Ils sont sélectionnés à partir de l&#39;icône **[!UICONTROL Ressources]** si
 
 ![](assets/s_ncs_user_task_add_resources.png)
 
-Cliquez sur **[!UICONTROL Ok]** puis renseignez le taux d&#39;utilisation : il représente la charge affectée à l&#39;opérateur pour la durée de réalisation de la tâche. Ce taux est indicatif et exprimé en pourcentage.
+Cliquez sur **[!UICONTROL Ok]** puis renseignez le taux d&#39;utilisation : il représente la charge affectée à l&#39;opérateur pour la durée de réalisation de la tâche. Ce taux est indicatif et exprimé en pourcentage.
 
 Par exemple, pour une tâche dont le planning de réalisation est fixé à 10 jours, un opérateur pour lequel le taux d&#39;utilisation est de 50% sera mobilisé pour la moitié de son temps de travail sur la réalisation de cette tâche, pendant les 10 jours prévus.
 
@@ -109,7 +109,7 @@ Il est également possible de renseigner, pour chaque opérateur, une charge pla
 
 Vous avez la possibilité de définir un rappel qui sera automatiquement envoyé aux opérateurs impliqués dans la réalisation de la tâche, avant la date de fin de la tâche.
 
-Vous pouvez visualiser le profil de l&#39;opérateur Adobe Campaign à partir de l&#39;icône **[!UICONTROL Editer le lien]**.
+Vous pouvez visualiser le profil de l&#39;opérateur Adobe Campaign à partir de l&#39;icône **[!UICONTROL Editer le lien]**.
 
 ![](assets/s_ncs_user_task_edit_resource_profile.png)
 
@@ -123,7 +123,7 @@ En plus des intervenants, vous pouvez également définir des opérateurs qui va
 
 ![](assets/s_ncs_user_task_edit_resource_validation.png)
 
-Pour désigner une liste d&#39;opérateurs, cliquez sur le lien **[!UICONTROL Editer...]** situé à droite du champ désignant le premier validant et ajoutez autant d&#39;opérateurs additionnels que nécessaire, comme dans l&#39;exemple ci-dessous :
+Pour désigner une liste d&#39;opérateurs, cliquez sur le lien **[!UICONTROL Editer...]** situé à droite du champ désignant le premier validant et ajoutez autant d&#39;opérateurs additionnels que nécessaire, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_user_task_edit_resource_operators.png)
 
@@ -131,7 +131,7 @@ Vous pouvez définir un planning de validation pour la tâche, dans la section i
 
 ![](assets/s_ncs_user_edit_op_valid_calendar.png)
 
-Le responsable de la tâche peut se charger de la validation et ce, même si des opérateurs validants ont été définis. Si aucun opérateur validant n&#39;est défini, les notifications seront alors adressées au responsable de la tâche. Tous les autres opérateurs Adobe Campaign ayant des droits **[!UICONTROL Administrateur]** sont également habilités à valider la tâche. En revanche, ils ne reçoivent pas de notifications.
+Le responsable de la tâche peut se charger de la validation et ce, même si des opérateurs validants ont été définis. Si aucun opérateur validant n&#39;est défini, les notifications seront alors adressées au responsable de la tâche. Tous les autres opérateurs Adobe Campaign ayant des droits **[!UICONTROL Administrateur]** sont également habilités à valider la tâche. En revanche, ils ne reçoivent pas de notifications.
 
 ### Documents référencés {#documents-referenced}
 
@@ -203,13 +203,13 @@ Sélectionnez les postes de coûts afférents à la réalisation de la tâche. P
 >
 >La méthode de gestion des budgets et des coûts est présentée dans la section [Maîtriser les coûts](../../mrm/using/controlling-costs.md).
 
-Lorsqu&#39;un prestataire est sélectionné, il est affiché dans le tableau de bord de la tâche :
+Lorsqu&#39;un prestataire est sélectionné, il est affiché dans le tableau de bord de la tâche :
 
 ![](assets/s_ncs_user_task_supplier_view.png)
 
 ### Tâches en retard {#late-tasks}
 
-Une tâche est en retard si elle a atteint sa date de fin alors qu&#39;elle n&#39;a pas le statut **[!UICONTROL Terminée]**. Par défaut, aucun opérateur n&#39;est alerté si une tâche est en retard. Vous pouvez paramétrer l&#39;envoi d&#39;un email d&#39;alerte : vous pouvez notifier n&#39;importe quel opérateur, même s&#39;il n&#39;est pas responsable, validant ou ressource de la tâche.
+Une tâche est en retard si elle a atteint sa date de fin alors qu&#39;elle n&#39;a pas le statut **[!UICONTROL Terminée]**. Par défaut, aucun opérateur n&#39;est alerté si une tâche est en retard. Vous pouvez paramétrer l&#39;envoi d&#39;un email d&#39;alerte : vous pouvez notifier n&#39;importe quel opérateur, même s&#39;il n&#39;est pas responsable, validant ou ressource de la tâche.
 
 Dans la boîte **[!UICONTROL Ressources]**, choisissez l&#39;opérateur désiré dans le champ **[!UICONTROL Assignation]**. Pour notifier plusieurs personnes, sélectionnez un groupe d&#39;opérateurs.
 
@@ -217,7 +217,7 @@ Dans la boîte **[!UICONTROL Ressources]**, choisissez l&#39;opérateur désiré
 
 ### Notifications initiales {#initial-notifications}
 
-Lorsque vous créez ou modifiez une tâche dont la date de début se situe dans le futur, Adobe Campaign vous propose d&#39;envoyer un email au responsable de la tâche pour lui signaler le début de celle-ci.
+Lorsque vous créez ou modifiez une tâche dont la date de début se situe dans le futur, Adobe Campaign vous propose d&#39;envoyer un email au responsable de la tâche pour lui signaler le début de celle-ci.
 
 ![](assets/mrm_task_first_notif.png)
 
@@ -230,16 +230,16 @@ Pour programmer une notification, dans la boîte **[!UICONTROL Ressources]**, ut
 * Pour les tâches dans les opérations, choisissez une date et une heure précises.
 * Pour les tâches dans les modèles d&#39;opération, le moment de la notification est exprimé en temps avant le début de la tâche (par exemple, si vous entrez 2j dans le champ **[!UICONTROL Notification initiale]**, l&#39;email sera envoyé 2 jours avant le début de la tâche).
 
-Si vous avez programmé une notification, lorsque vous enregistrez la tâche, Adobe Campaign vous proposera quand même d&#39;envoyer une notification immédiatement. Si vous choisissez de l&#39;envoyer, celle-ci ne remplacera pas la notification programmée.
+Si vous avez programmé une notification, lorsque vous enregistrez la tâche, Adobe Campaign vous proposera quand même d&#39;envoyer une notification immédiatement. Si vous choisissez de l&#39;envoyer, celle-ci ne remplacera pas la notification programmée.
 
 ### Tâche liée à un programme {#task-linked-to-a-program}
 
 Vous pouvez créer des tâches directement au niveau d&#39;un programme pour gérer les actions qui relèvent de l&#39;organisation globale de celui-ci et non d&#39;une opération particulière (par exemple, une réunion pour discuter du thème des prochaines opérations au sein du programme). La tâche apparaîtra dans le planning du programme.
 
-Pour créer une tâche directement rattachée à un programme :
+Pour créer une tâche directement rattachée à un programme :
 
-1. Ouvrez le planning du programme : depuis la page d&#39;accueil, aller à **[!UICONTROL Campagnes > Navigation > Autres choix > Programmes]**. Le planning global des programmes s&#39;ouvre dans la partie droite de la fenêtre.
-1. Dans le planning, cliquez sur le programme désiré : une fenêtre décrivant le programme apparaît.
+1. Ouvrez le planning du programme : depuis la page d&#39;accueil, aller à **[!UICONTROL Campagnes > Navigation > Autres choix > Programmes]**. Le planning global des programmes s&#39;ouvre dans la partie droite de la fenêtre.
+1. Dans le planning, cliquez sur le programme désiré : une fenêtre décrivant le programme apparaît.
 1. Dans cette fenêtre, cliquez sur **[!UICONTROL Ouvrir]**. Le planning du programme s&#39;ouvre.
 1. Cliquez sur le bouton **[!UICONTROL Ajouter]** au-dessus du planning à droite, puis cliquez sur **[!UICONTROL Ajouter une tâche]**.
 
@@ -265,7 +265,7 @@ Lorsque vous créez des tâches depuis une opération, vous pouvez créer des t�
 
 ![](assets/s_ncs_user_task_select_template.png)
 
-Les tâches suivantes peuvent être planifiées :
+Les tâches suivantes peuvent être planifiées :
 
 * [Tâche de contrôle](#control-tasks),
 * [Tâche de groupement](#grouping-task),
@@ -279,7 +279,7 @@ Les tâches suivantes peuvent être planifiées :
 
 ### Tâche de contrôle {#control-tasks}
 
-Une tâche de type **[!UICONTROL Tâche de contrôle]** est attachée à la validation d&#39;une diffusion : validation du ciblage, du contenu, du fichier d&#39;extraction, du budget ou du BAT.
+Une tâche de type **[!UICONTROL Tâche de contrôle]** est attachée à la validation d&#39;une diffusion : validation du ciblage, du contenu, du fichier d&#39;extraction, du budget ou du BAT.
 
 ![](assets/s_ncs_user_task_new_control.png)
 
@@ -291,7 +291,7 @@ Vous pouvez alors l&#39;éditer et en préciser les paramètres.
 
 ### Tâche de création de ressource marketing {#marketing-resource-creation-task}
 
-Une tâche de création de ressource marketing peut être utilisée pour gérer la création et la publication d&#39;une ressource marketing. Si vous gérez une ressource via une tâche et non uniquement via la ressource elle-même, vous pouvez :
+Une tâche de création de ressource marketing peut être utilisée pour gérer la création et la publication d&#39;une ressource marketing. Si vous gérez une ressource via une tâche et non uniquement via la ressource elle-même, vous pouvez :
 
 * Piloter le processus de création de la ressource à partir d&#39;une opération.
 * Visualiser le processus de création de la ressource dans un planning.
@@ -304,13 +304,13 @@ Une tâche de création de ressource marketing peut être utilisée pour gérer 
 La tâche de création d&#39;une ressource marketing interagit avec la ressource qui lui est associée. Ainsi :
 
 * Le planning d&#39;élaboration de la ressource et les coûts liés à celle-ci sont gérés via la tâche.
-* Les opérateurs peuvent travailler normalement sur la ressource (télécharger le fichier vers ou depuis le serveur, verrouiller et déverrouiller la ressource) : cela n&#39;a pas d&#39;incidence sur la tâche.
-* La validation et la publication de la ressource peuvent être faites via la tâche : si l&#39;option **[!UICONTROL Publier la ressource marketing]** est active, la ressource est automatiquement validée et publiée lorsque la tâche est terminée. Si l&#39;option n&#39;est pas active, il n&#39;y a pas d&#39;interaction entre la tâche et la ressource : une action effectuée dans l&#39;une n&#39;aura aucun effet sur l&#39;autre.
+* Les opérateurs peuvent travailler normalement sur la ressource (télécharger le fichier vers ou depuis le serveur, verrouiller et déverrouiller la ressource) : cela n&#39;a pas d&#39;incidence sur la tâche.
+* La validation et la publication de la ressource peuvent être faites via la tâche : si l&#39;option **[!UICONTROL Publier la ressource marketing]** est active, la ressource est automatiquement validée et publiée lorsque la tâche est terminée. Si l&#39;option n&#39;est pas active, il n&#39;y a pas d&#39;interaction entre la tâche et la ressource : une action effectuée dans l&#39;une n&#39;aura aucun effet sur l&#39;autre.
 
-   Vous pouvez utiliser une série de tâches liées pour définir un chemin de validation complet. Cochez l&#39;option **[!UICONTROL Publier la ressource marketing]** uniquement au niveau de la dernière tâche : toutes les tâches devront être terminées pour que la ressource puisse être publiée. De plus, lorsque vous créerez une tâche de ressource marketing enfant d&#39;une autre tâche de ressource marketing, la ressource sera automatiquement sélectionnée dans la tâche-fille.
+   Vous pouvez utiliser une série de tâches liées pour définir un chemin de validation complet. Cochez l&#39;option **[!UICONTROL Publier la ressource marketing]** uniquement au niveau de la dernière tâche : toutes les tâches devront être terminées pour que la ressource puisse être publiée. De plus, lorsque vous créerez une tâche de ressource marketing enfant d&#39;une autre tâche de ressource marketing, la ressource sera automatiquement sélectionnée dans la tâche-fille.
 
-   * **Via la ressource** : si vous soumettez la ressource à validation ou la validez, ces actions n&#39;auront aucun effet sur la tâche.
-   * **Via la tâche** : si l&#39;option **[!UICONTROL Publier la ressource marketing]** est cochée dans la tâche, la ressource est automatiquement validée et publiée lorsque la tâche est terminée (voir ci-dessous). Si l&#39;option n&#39;est pas cochée, il n&#39;y a pas d&#39;interaction entre la tâche et la ressource :une action effectuée dans l&#39;une n&#39;aura aucune incidence sur l&#39;autre.
+   * **Via la ressource** : si vous soumettez la ressource à validation ou la validez, ces actions n&#39;auront aucun effet sur la tâche.
+   * **Via la tâche** : si l&#39;option **[!UICONTROL Publier la ressource marketing]** est cochée dans la tâche, la ressource est automatiquement validée et publiée lorsque la tâche est terminée (voir ci-dessous). Si l&#39;option n&#39;est pas cochée, il n&#39;y a pas d&#39;interaction entre la tâche et la ressource :une action effectuée dans l&#39;une n&#39;aura aucune incidence sur l&#39;autre.
 
 #### Paramétrer une tâche de création de ressource marketing {#configuring-a-marketing-resource-creation-task}
 
@@ -318,12 +318,12 @@ Le validant de la tâche peut être différent du validant de contenu défini da
 
 ![](assets/mrm_task_asset_creation.png)
 
-Dans le champ **[!UICONTROL Ressource marketing]**, définissez la ressource que vous voulez gérer via cette tâche. Vous pouvez :
+Dans le champ **[!UICONTROL Ressource marketing]**, définissez la ressource que vous voulez gérer via cette tâche. Vous pouvez :
 
-* Sélectionner une ressource existante : la liste déroulante propose toutes les ressources dont le statut est **[!UICONTROL En édition]**.
-* Créer une ressource : cliquez sur l&#39;icône **[!UICONTROL Choisir le lien]**, puis sur l&#39;icône **[!UICONTROL Créer]**.
+* Sélectionner une ressource existante : la liste déroulante propose toutes les ressources dont le statut est **[!UICONTROL En édition]**.
+* Créer une ressource : cliquez sur l&#39;icône **[!UICONTROL Choisir le lien]**, puis sur l&#39;icône **[!UICONTROL Créer]**.
 
-L&#39;option **[!UICONTROL Publier la ressource marketing]** permet d&#39;automatiser la publication d&#39;une ressource : lorsque la tâche est **[!UICONTROL Terminée]**, l&#39;état de la ressource passe automatiquement à **[!UICONTROL Publiée]**, même si elle n&#39;avait pas été soumise à validation ni validée,y compris si le validant qui termine la tâche n&#39;est pas le validant de contenu défini dans la ressource.
+L&#39;option **[!UICONTROL Publier la ressource marketing]** permet d&#39;automatiser la publication d&#39;une ressource : lorsque la tâche est **[!UICONTROL Terminée]**, l&#39;état de la ressource passe automatiquement à **[!UICONTROL Publiée]**, même si elle n&#39;avait pas été soumise à validation ni validée,y compris si le validant qui termine la tâche n&#39;est pas le validant de contenu défini dans la ressource.
 
 Le bouton **[!UICONTROL Publier la ressource]** est rendu disponible et le validant de publication de la ressource reçoit un email de notification lui signalant que celle-ci est prête à être publiée. Dans l&#39;onglet **[!UICONTROL Edition > Tracking]** de la ressource, la validation et la publication par le validant de tâche apparaissent. Si un workflow de post-traitement de la ressource avait été défini, celui-ci est exécuté.
 
@@ -353,11 +353,11 @@ Les tâches de notification permettent de programmer l&#39;envoi d&#39;emails (�
 
 #### Cycle de vie {#life-cycle}
 
-Les tâches de notification ne font pas l&#39;objet d&#39;une validation. Leur cycle de vie est donc plus simple que celui d&#39;une tâche standard :
+Les tâches de notification ne font pas l&#39;objet d&#39;une validation. Leur cycle de vie est donc plus simple que celui d&#39;une tâche standard :
 
 ![](assets/mrm_task_notif_lifecycle.png)
 
-Une tâche de notification peut avoir les états suivants :
+Une tâche de notification peut avoir les états suivants :
 
 * **[!UICONTROL Planifiée]** tant que l&#39;email n&#39;a pas été envoyé
 * **[!UICONTROL En cours]** une fois que l&#39;email a été envoyé mais la date de fin n&#39;est pas atteinte
@@ -367,12 +367,12 @@ Une tâche de notification peut avoir les états suivants :
 
 ![](assets/mrm_task_notif_dashboard.png)
 
-Lors de sa création, les éléments suivants doivent être renseignés dans la tâche :
+Lors de sa création, les éléments suivants doivent être renseignés dans la tâche :
 
-* **[!UICONTROL Affecté à]** : l&#39;opérateur ou le groupe d&#39;opérateurs à qui l&#39;email va être envoyé. Si vous réaffectez la tâche une fois l&#39;email envoyé, l&#39;email ne sera pas renvoyé au nouvel opérateur affecté à la tâche (pour cela, il faut réinitialiser la tâche et changer sa date de début).
-* **Date de début de la tâche** : date à laquelle l&#39;email de notification sera envoyé. Cette date doit impérativement être située dans le futur par rapport au moment où vous enregistrez la tâche.
-* **Date de fin de la tâche** : date à laquelle la tâche prend le statut **[!UICONTROL Terminé]**. Par défaut, la date de fin est identique à celle de début. Cependant, donner une durée à la tâche permet, si besoin, de symboliser dans le planning le temps dont dispose l&#39;opérateur pour agir.
-* **[!UICONTROL Description]** : le texte entré ici apparaîtra dans le corps de l&#39;email de notification.
+* **[!UICONTROL Affecté à]** : l&#39;opérateur ou le groupe d&#39;opérateurs à qui l&#39;email va être envoyé. Si vous réaffectez la tâche une fois l&#39;email envoyé, l&#39;email ne sera pas renvoyé au nouvel opérateur affecté à la tâche (pour cela, il faut réinitialiser la tâche et changer sa date de début).
+* **Date de début de la tâche** : date à laquelle l&#39;email de notification sera envoyé. Cette date doit impérativement être située dans le futur par rapport au moment où vous enregistrez la tâche.
+* **Date de fin de la tâche** : date à laquelle la tâche prend le statut **[!UICONTROL Terminé]**. Par défaut, la date de fin est identique à celle de début. Cependant, donner une durée à la tâche permet, si besoin, de symboliser dans le planning le temps dont dispose l&#39;opérateur pour agir.
+* **[!UICONTROL Description]** : le texte entré ici apparaîtra dans le corps de l&#39;email de notification.
 
    ![](assets/mrm_task_notif_dashboard_msg.png)
 
@@ -408,14 +408,14 @@ La dépendance entre les tâches est matérialisée par des flèches dans le tab
 
 Dans le cas de tâches groupées, Adobe Campaign attribue automatiquement la date de fin de la tâche parent comme date de début de la tâche enfant. Par exemple, si une tâche **Créer une invitation** se termine le 15 octobre à 15h30, la tâche enfant **Envoyer un email d&#39;invitation** démarre le 15 octobre à 15h30.
 
-De plus, si vous retardez la fin d&#39;une tâche parent, certaines de ses tâches enfants peuvent être décalées : il s&#39;agit des tâches enfants dont le statut est **[!UICONTROL Planifié]** et dont la date de début est antérieure à la nouvelle date de fin de la tâche parent. La durée de la tâche enfant reste la même. Si la date de début d&#39;une tâche enfant est postérieure à la nouvelle date de fin de la tâche parent, alors la tâche enfant n&#39;est pas décalée.
+De plus, si vous retardez la fin d&#39;une tâche parent, certaines de ses tâches enfants peuvent être décalées : il s&#39;agit des tâches enfants dont le statut est **[!UICONTROL Planifié]** et dont la date de début est antérieure à la nouvelle date de fin de la tâche parent. La durée de la tâche enfant reste la même. Si la date de début d&#39;une tâche enfant est postérieure à la nouvelle date de fin de la tâche parent, alors la tâche enfant n&#39;est pas décalée.
 
 
 **Exemple**
 
 Une tâche parent planifiée pour finir le mardi 9 octobre à 17h a 2 tâches enfants, la tâche A et la tâche B. La tâche A est planifiée pour commencer le 10 octobre à 14h et la tâche B, planifiée pour commencer le 12 octobre à 8h.
 
-On décale la tâche parent : elle finit maintenant le 11 octobre à 13h. Seule la tâche A est décalée pour commencer le 11 octobre à 13h.
+On décale la tâche parent : elle finit maintenant le 11 octobre à 13h. Seule la tâche A est décalée pour commencer le 11 octobre à 13h.
 
 ![](assets/mrm_task_parent_postpones_child.png)
 
@@ -423,7 +423,7 @@ On décale la tâche parent : elle finit maintenant le 11 octobre à 13h. Seule 
 
 Les statuts des tâches sont visualisables dans la vue d&#39;ensemble des tâches. Le statut de réalisation d&#39;une tâche est mis à jour automatiquement en fonction des actions des opérateurs.
 
-Une tâche peut être : **[!UICONTROL Planifiée]**, **[!UICONTROL En cours]**, **[!UICONTROL Terminée]**, **[!UICONTROL Annulée]**, **[!UICONTROL En attente de validation]** ou **[!UICONTROL Refusée]**.
+Une tâche peut être : **[!UICONTROL Planifiée]**, **[!UICONTROL En cours]**, **[!UICONTROL Terminée]**, **[!UICONTROL Annulée]**, **[!UICONTROL En attente de validation]** ou **[!UICONTROL Refusée]**.
 
 * A sa création, une tâche est **[!UICONTROL Planifiée]** si sa date de début se situe dans le futur. Une fois créée, elle reste planifiée tant que sa date de début n&#39;est pas atteinte.
 * Une fois débutée, la tâche est **[!UICONTROL En cours]**. Lorsque le responsable de la tâche la clôt, elle passe en **[!UICONTROL Terminée]**.
@@ -435,6 +435,7 @@ Une tâche peut être : **[!UICONTROL Planifiée]**, **[!UICONTROL En cours]**, 
 >
 >* Le statut de la tâche est mis à jour automatiquement.
 >* Même si la période de validité est terminée, une tâche qui n&#39;a pas été close par son responsable apparaît toujours dans les tâches en cours. Un message d&#39;avertissement est affiché pour alerter les opérateurs que la tâche est en retard.
+
 >
 
 
@@ -461,7 +462,7 @@ Voici les différentes étapes du cycle de vie complet d&#39;une tâche pour laq
    A la création d&#39;une tâche planifiée dans le futur, celle-ci passe à l&#39;état **[!UICONTROL Planifiée]**.
 
 1. A la date de début de la tâche, le responsable et les intervenants reçoivent un email de notification les informant que la tâche a commencé. La tâche passe à l&#39;état **[!UICONTROL En cours]**.
-1. Lorsqu&#39;un intervenant a terminé la partie qui lui a été assignée, il valide la tâche, au choix :
+1. Lorsqu&#39;un intervenant a terminé la partie qui lui a été assignée, il valide la tâche, au choix :
 
    * à partir de l&#39;email de notification.
    * à partir de la console ou de l&#39;interface web, au niveau du tableau de bord de la tâche.
@@ -490,11 +491,11 @@ Voici les différentes étapes du cycle de vie complet d&#39;une tâche pour laq
 
    Ce dernier valide la tâche à partir de l&#39;email de notification, depuis la console ou l&#39;interface web.
 
-   Il peut agir depuis le tableau de bord de l&#39;opération :
+   Il peut agir depuis le tableau de bord de l&#39;opération :
 
    ![](assets/s_ncs_user_task_console_validation.png)
 
-   Il peut également utiliser le bouton de validation de la tâche :
+   Il peut également utiliser le bouton de validation de la tâche :
 
    ![](assets/s_ncs_user_task__validation.png)
 

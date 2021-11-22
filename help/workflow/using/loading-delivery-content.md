@@ -17,11 +17,11 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur Amazon S3, FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign.
+Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur Amazon S3, FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign.
 
 Pour cela :
 
-1. Si vous n&#39;avez pas encore défini de connexion entre Adobe Campaign et le serveur FTP ou SFTP hébergeant les fichiers de contenu, créez un compte externe S3, FTP ou SFTP dans **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]**. Dans ce compte externe, indiquez l&#39;adresse et les identifiants qui permettront d&#39;établir la connexion au serveur S3, FTP ou SFTP.
+1. Si vous n&#39;avez pas encore défini de connexion entre Adobe Campaign et le serveur FTP ou SFTP hébergeant les fichiers de contenu, créez un compte externe S3, FTP ou SFTP dans **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]**. Dans ce compte externe, indiquez l&#39;adresse et les identifiants qui permettront d&#39;établir la connexion au serveur S3, FTP ou SFTP.
 
    Voici un exemple d&#39;un compte externe S3 :
 

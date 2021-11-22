@@ -17,18 +17,18 @@ ht-degree: 91%
 
 ![](../../assets/v7-only.svg)
 
-La création d&#39;un mapping de ciblage est nécessaire dans deux cas de figure :
+La création d&#39;un mapping de ciblage est nécessaire dans deux cas de figure :
 
-* si vous utilisez une table de destinataires autre que celle fournie par Adobe Campaign,
+* si vous utilisez une table de destinataires autre que celle fournie par Adobe Campaign,
 * si vous paramétrez une dimension de filtrage différente de la dimension de ciblage standard dans l&#39;écran des mappings de ciblage.
 
 L&#39;assistant de création du mapping de ciblage va vous permettre de créer tous les schémas nécessaires pour la bonne utilisation de votre table personnalisée.
 
 ## Création et paramétrage des schémas liés à la table personnalisée {#creating-and-configuring-schemas-linked-to-the-custom-table}
 
-Avant de créer un mapping de ciblage, vous devez procéder à un certain nombre de paramétrages afin que Adobe Campaign puisse fonctionner avec un nouveau schéma de données de destinataires.
+Avant de créer un mapping de ciblage, vous devez procéder à un certain nombre de paramétrages afin que Adobe Campaign puisse fonctionner avec un nouveau schéma de données de destinataires.
 
-Pour cela, les étapes sont les suivantes :
+Pour cela, les étapes sont les suivantes :
 
 1. Créez un nouveau schéma de données intégrant les champs de votre table personnalisée que vous voulez utiliser.
 
@@ -61,7 +61,7 @@ Pour cela, les étapes sont les suivantes :
     </srcSchema>
    ```
 
-1. Si vous avez besoin d&#39;ajouter une adresse postale, vous devez utiliser le type de structure suivante :
+1. Si vous avez besoin d&#39;ajouter une adresse postale, vous devez utiliser le type de structure suivante :
 
    ```
    <element advanced="true" name="postalAddress" template="nms:common:postalAddress">
@@ -92,7 +92,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/mapping_diffusion_wizard_2.png)
 
-1. Dans la fenêtre suivante **Stockage**, complétez le champ **Suffixe des schémas d&#39;extension** pour différencier les nouveaux schémas crées des schémas génériques fournis par Adobe Campaign.
+1. Dans la fenêtre suivante **Stockage**, complétez le champ **Suffixe des schémas d&#39;extension** pour différencier les nouveaux schémas crées des schémas génériques fournis par Adobe Campaign.
 
    Cliquez sur **[!UICONTROL Définir de nouveaux champs additionnels]** pour sélectionner la dimension que vous souhaitez cibler dans votre diffusion.
 
@@ -118,10 +118,10 @@ Pour cela, les étapes sont les suivantes :
 
 ## Utilisation du mapping de ciblage {#using-target-mapping}
 
-Pour utiliser le nouveau schéma comme cible d&#39;une diffusion, il existe deux solutions :
+Pour utiliser le nouveau schéma comme cible d&#39;une diffusion, il existe deux solutions :
 
 * Créer un ou plusieurs modèles de diffusion basés sur le mapping
-* Sélectionner directement le mapping lors de la sélection d&#39;une cible à la création d&#39;une diffusion, comme le montre la capture ci-dessous :
+* Sélectionner directement le mapping lors de la sélection d&#39;une cible à la création d&#39;une diffusion, comme le montre la capture ci-dessous :
 
 ![](assets/mapping_selection_ciblage.png)
 

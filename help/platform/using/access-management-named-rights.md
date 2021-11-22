@@ -17,11 +17,11 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Par défaut, Adobe Campaign propose un ensemble de droits nommés qui permettent de définir les autorisations attribuées aux opérateurs et groupes d&#39;opérateurs. Ces droits peuvent être édités depuis le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;arborescence.
+Par défaut, Adobe Campaign propose un ensemble de droits nommés qui permettent de définir les autorisations attribuées aux opérateurs et groupes d&#39;opérateurs. Ces droits peuvent être édités depuis le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;arborescence.
 
 ![](assets/s_ncs_admin_named_rights.png)
 
-Ces droits sont les suivants :
+Ces droits sont les suivants :
 
 * **[!UICONTROL ADMINISTRATION]** : les opérateurs disposant du droit **[!UICONTROL ADMINISTRATION]** ont un accès total à l’instance. Les administrateurs peuvent exécuter/créer/éditer/supprimer tout objet tel que workflow, diffusion, script, etc.
 
@@ -71,6 +71,6 @@ Ces droits sont les suivants :
 
 Les groupes par défaut et les droits nommés permettent aux opérateurs d&#39;accéder à certains dossiers de l&#39;arborescence, et accordent des permissions en lecture, écriture et suppression.
 
-La matrice des droits d&#39;accès Adobe Campaign est disponible [ici](/help/platform/using/assets/access-rights-matrix.pdf).
+La matrice des droits d&#39;accès Adobe Campaign est disponible [ici](/help/platform/using/assets/access-rights-matrix.pdf).
 
 [![image](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=fr)

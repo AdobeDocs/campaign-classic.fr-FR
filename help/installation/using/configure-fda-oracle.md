@@ -24,16 +24,16 @@ Utilisez l’option Campaign [Federated Data Access](../../installation/using/ab
 
 ## Oracle sous Linux {#oracle-linux}
 
-La connexion à une base de données externe Oracle en FDA requiert les paramétrages additionnels ci-dessous sur le serveur Adobe Campaign.
+La connexion à une base de données externe Oracle en FDA requiert les paramétrages additionnels ci-dessous sur le serveur Adobe Campaign.
 
 1. Installez le client complet Oracle correspondant à votre version d’Oracle.
 1. Ajoutez vos définitions TNS à votre installation. Pour cela, indiquez-les dans un fichier **tnsnames.ora** dans le répertoire /etc/oracle. Si ce répertoire n’existe pas, créez-le.
 
-   Créez alors une nouvelle variable d’environnement TNS_ADMIN : export TNS_ADMIN=/etc/oracle et redémarrez la machine.
+   Créez alors une nouvelle variable d&#39;environnement TNS_ADMIN : export TNS_ADMIN=/etc/oracle et redémarrez la machine.
 
-1. Intégrez Oracle à votre serveur Adobe Campaign (nlserver). Pour cela, vérifiez que le fichier **customer.sh** est bien présent dans le dossier &quot;nl6&quot; de l’arborescence du serveur Adobe Campaign et que ce dernier comprend bien les liens vers les bibliothèques Oracle.
+1. Intégrez Oracle à votre serveur Adobe Campaign (nlserver). Pour cela, vérifiez que le fichier **customer.sh** est bien présent dans le dossier &quot;nl6&quot; de l’arborescence du serveur Adobe Campaign et que ce dernier comprend bien les liens vers les bibliothèques Oracle.
 
-   Par exemple pour un client 11.2 :
+   Par exemple pour un client 11.2 :
 
    ```
    export ORACLE_HOME=/usr/lib/oracle/11.2
@@ -45,7 +45,7 @@ La connexion à une base de données externe Oracle en FDA requiert les paramét
    >
    >Ces valeurs (notamment ORACLE_HOME), dépendent de vos répertoires d’installation. Vérifiez bien votre arborescence avant de référencer ces valeurs.
 
-1. Installez les librairies nécessaires à Oracle :
+1. Installez les librairies nécessaires à Oracle :
 
    * **libclntsh.so**
 
@@ -66,7 +66,7 @@ La connexion à une base de données externe Oracle en FDA requiert les paramét
 
 ## Oracle sous Windows {#oracle-windows}
 
-La connexion à une base de données externe Oracle en FDA requiert les paramétrages additionnels ci-dessous sur le serveur Adobe Campaign.
+La connexion à une base de données externe Oracle en FDA requiert les paramétrages additionnels ci-dessous sur le serveur Adobe Campaign.
 
 1. Installez le client Oracle.
 

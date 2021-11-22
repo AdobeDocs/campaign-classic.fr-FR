@@ -23,7 +23,7 @@ Pour vous aider à configurer des plans de maintenance, cette section répertori
 
 ### Détecter les grandes tables {#detecting-large-tables}
 
-1. Ajoutez la vue suivante à votre base de données :
+1. Ajoutez la vue suivante à votre base de données :
 
    ```
    create or replace view uvSpace
@@ -153,17 +153,18 @@ REINDEX TABLE nmsmirrorpageinfo;
 >* Les commandes VACUUM et REINDEX verrouillent la table ce qui met certains processus en attente pendant toute la durée de la maintenance.
 >* Pour les très grandes tables (généralement au-dessus de 5 Go), la commande VACUUM FULL peut devenir assez inefficace et nécessiter beaucoup de temps. Adobe déconseille de l&#39;utiliser pour la table **YyyNmsBroadLogXxx**.
 >* Cette opération de maintenance peut être implémentée par un workflow Adobe Campaign, à l&#39;aide d&#39;une activité **[!UICONTROL SQL]**. Voir à ce propos [cette section](../../workflow/using/architecture.md). Assurez-vous de planifier la maintenance pendant une période de faible activité qui n&#39;entrera pas en conflit avec votre période de sauvegarde.
+
 >
 
 
 ### Reconstruire une base {#rebuilding-a-database}
 
-PostgreSQL ne propose pas de moyen efficace pour effectuer une reconstruction de table en ligne, car l&#39;instruction VACUUM FULL verrouille la table, empêchant ainsi une production régulière. La maintenance doit donc être effectuée lorsque la table n&#39;est pas utilisée. Vous pouvez, au choix :
+PostgreSQL ne propose pas de moyen efficace pour effectuer une reconstruction de table en ligne, car l&#39;instruction VACUUM FULL verrouille la table, empêchant ainsi une production régulière. La maintenance doit donc être effectuée lorsque la table n&#39;est pas utilisée. Vous pouvez, au choix :
 
-* effectuer la maintenance lorsque la plateforme Adobe Campaign est arrêtée,
+* effectuer la maintenance lorsque la plateforme Adobe Campaign est arrêtée,
 * arrêter les différents sous-services Adobe Campaign susceptibles d&#39;écrire dans la table qui est en cours de reconstruction (par exemple **nlserver stop wfserver@nom_de_l&#39;instance** pour arrêter le processus de workflow).
 
-Voici un exemple de défragmentation de table à l&#39;aide de fonctions qui permettent de générer le langage de définition de données (LDD) voulu. La requête SQL suivante permet de créer deux nouvelles fonctions : **GenRebuildTablePart1** et **GenRebuildTablePart2** qui peuvent être utilisées pour générer le LDD destiné à recréer une table.
+Voici un exemple de défragmentation de table à l&#39;aide de fonctions qui permettent de générer le langage de définition de données (LDD) voulu. La requête SQL suivante permet de créer deux nouvelles fonctions : **GenRebuildTablePart1** et **GenRebuildTablePart2** qui peuvent être utilisées pour générer le LDD destiné à recréer une table.
 
 * La première fonction permet de créer une table de travail (** _tmp** dans notre exemple) qui est une copie de la table d&#39;origine.
 * La deuxième fonction supprime la table d&#39;origine et renomme la table de travail et ses index comme celle d&#39;origine.
@@ -443,9 +444,9 @@ L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez u
    >
    >Si la taille de la base devait dépasser la limite fixée, le système de maintenance essaiera de détruire les données non-utilisées pour libérer de l&#39;espace-disque.
 
-1. Effectuez une réorganisation ou une reconstruction de l&#39;index :
+1. Effectuez une réorganisation ou une reconstruction de l&#39;index :
 
-   * Si le taux de fragmentation de l&#39;index est compris entre 10% et 40%, il est recommandé d&#39;effectuer une réorganisation :
+   * Si le taux de fragmentation de l&#39;index est compris entre 10% et 40%, il est recommandé d&#39;effectuer une réorganisation :
 
       Choisissez la base de données et les objets (tables ou vues) dont vous voulez réorganiser l&#39;index puis cliquez sur **[!UICONTROL Suivant]**.
 
@@ -453,7 +454,7 @@ L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez u
       >
       >Selon votre configuration vous ne pourrez sélectionner que les tables sélectionnées précédemment ou la totalité des tables de votre base de données.
 
-   * Si le taux de fragmentation de l&#39;index est supérieur à 40%, il est recommandé d&#39;effectuer une reconstruction :
+   * Si le taux de fragmentation de l&#39;index est supérieur à 40%, il est recommandé d&#39;effectuer une reconstruction :
 
       Choisissez les options de la tâche de reconstruction de l&#39;index puis cliquez sur **[!UICONTROL Suivant]**.
 
@@ -468,7 +469,7 @@ L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez u
 
 1. Lorsque le plan de maintenance est arrivé à son terme, cliquez sur **[!UICONTROL Fermer]**.
 1. Dans l&#39;explorateur de Microsoft SQL Server, double-cliquez sur le dossier **[!UICONTROL Gestion > Plans de maintenance]**.
-1. Sélectionnez le plan de maintenance d&#39;Adobe Campaign : les différentes étapes sont présentées sous la forme d&#39;un workflow.
+1. Sélectionnez le plan de maintenance d&#39;Adobe Campaign : les différentes étapes sont présentées sous la forme d&#39;un workflow.
 
    Vous remarquerez qu&#39;un objet a été créé dans le dossier **[!UICONTROL SQL Server Agent > Traitements]**. Cet objet permet de lancer le plan de maintenance. Dans notre exemple il n&#39;y a qu&#39;un seul objet car toutes les tâches de maintenance font partie du même plan de maintenance.
 

@@ -25,7 +25,7 @@ Pour obtenir la description de chaque table, accédez à **[!UICONTROL Admin > 
 
 >[!NOTE]
 >
->La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
+>La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
 
 ## Description des tables principales {#description-main-tables}
 

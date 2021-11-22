@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ En effet, certains calculs utilisent des valeurs qui ne changent pas quotidienne
 
 Pour cela, le champ **[!UICONTROL Fréquence]** de l&#39;onglet **[!UICONTROL Général]** permet de définir la durée maximale pendant laquelle les calculs sont conservés. Par défaut, la valeur **0s** indique que les calculs restent valides jusqu&#39;à la prochaine exécution du ré-arbitrage quotidien.
 
-Pour conserver les résultats au-delà de cette limite, indiquez une valeur supérieure à 12h dans le champ **[!UICONTROL Fréquence]** : une fois ce délai expiré, toutes les règles sont réappliquées.
+Pour conserver les résultats au-delà de cette limite, indiquez une valeur supérieure à 12h dans le champ **[!UICONTROL Fréquence]** : une fois ce délai expiré, toutes les règles sont réappliquées.
 
 L&#39;option **[!UICONTROL Réappliquer la règle au début de la personnalisation]** permet d&#39;appliquer systématiquement la règle lors de la phase de personnalisation, y compris si le délai indiqué dans le champ **[!UICONTROL Fréquence]** n&#39;a pas expiré.
 
@@ -113,7 +113,7 @@ Les valeurs possibles sont les suivantes :
 
    Lorsqu&#39;il est utile de connaître le volume de la cible pour appliquer la règle de contrôle, sélectionnez cette phase.
 
-   Par exemple, la règle de contrôle **[!UICONTROL Vérification de la taille des BAT]** s&#39;applique obligatoirement après l&#39;étape de ciblage : cette règle permet de ne pas préparer la personnalisation des messages si les destinataires du BAT sont trop nombreux.
+   Par exemple, la règle de contrôle **[!UICONTROL Vérification de la taille des BAT]** s&#39;applique obligatoirement après l&#39;étape de ciblage : cette règle permet de ne pas préparer la personnalisation des messages si les destinataires du BAT sont trop nombreux.
 
 * **[!UICONTROL Au début de la personnalisation]**
 
@@ -144,5 +144,5 @@ L&#39;onglet **[!UICONTROL Marketing Distribué]** permet de définir le paramé
 
 >[!NOTE]
 >
->Dans les typologies et règles de typologie, l&#39;onglet **[!UICONTROL Marketing Distribué]** est proposé si votre licence inclut cette option : vérifiez votre contrat de licence.\
+>Dans les typologies et règles de typologie, l&#39;onglet **[!UICONTROL Marketing Distribué]** est proposé si votre licence inclut cette option : vérifiez votre contrat de licence.\
 >Pour plus d&#39;informations sur le marketing distribué, voir la section [À propos du marketing distribué](../../distributed/using/about-distributed-marketing.md).

@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >Pour pouvoir continuer, vérifiez qu&#39;IMS est activé sur votre système. Pour plus d&#39;informations, consultez la section sur [IMS](../../integrations/using/about-adobe-id.md).
 
-Une fois qu&#39;IMS est activé, vous pouvez demander la configuration de l&#39;intégration de People core service/Audience Manager avec Campaign. Pour cela, envoyez un email avec les informations suivantes à l&#39;adresse [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) :
+Une fois qu&#39;IMS est activé, vous pouvez demander la configuration de l&#39;intégration de People core service/Audience Manager avec Campaign. Pour cela, envoyez un email avec les informations suivantes à l&#39;adresse [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) :
 
 <table> 
  <tbody> 
@@ -35,7 +35,7 @@ Une fois qu&#39;IMS est activé, vous pouvez demander la configuration de l&#39;
   </tr> 
   <tr> 
    <td> <strong>Identifiant de l'organisation IMS</strong><br /> </td> 
-   <td> Votre identifiant de l'organisation IMS. <br> Votre identifiant de l'organisation IMS est accessible dans Experience Cloud, dans le menu Administration. Il est également fourni lorsque vous vous connectez pour la première fois à Adobe Experience Cloud. </td> 
+   <td> Votre identifiant de l'organisation IMS. <br> Votre identifiant de l'organisation IMS est accessible dans Experience Cloud, dans le menu Administration. Il est également fourni lorsque vous vous connectez pour la première fois à Adobe Experience Cloud. </td> 
   </tr> 
   <tr> 
    <td> <strong>Environnement :</strong><br /> </td> 
@@ -43,7 +43,7 @@ Une fois qu&#39;IMS est activé, vous pouvez demander la configuration de l&#39;
   </tr> 
   <tr> 
    <td> <strong>AAM ou People Service</strong><br /> </td> 
-   <td> Exemple : Adobe Audience Manager. Veillez à indiquer à l'équipe de mise en service si vous possédez ou non la licence d'Audience Manager.</td> 
+   <td> Exemple : Adobe Audience Manager. Veillez à indiquer à l'équipe de mise en service si vous possédez ou non la licence d'Audience Manager.</td> 
   </tr> 
   <tr> 
    <td> <strong>Declared ID ou Visitor ID</strong><br /> </td> 

@@ -24,12 +24,12 @@ Utilisez l’option Campaign [Federated Data Access](../../installation/using/ab
 
 ## Configuration de Netezza {#netezza-config}
 
-La connexion à une base de données externe Netezza en FDA requiert les paramétrages additionnels ci-dessous sur le serveur Adobe Campaign :
+La connexion à une base de données externe Netezza en FDA requiert les paramétrages additionnels ci-dessous sur le serveur Adobe Campaign :
 
-1. Installez les pilotes ODBC pour Netezza, en fonction du système d’exploitation que vous utilisez :
+1. Installez les pilotes ODBC pour Netezza, en fonction du système d&#39;exploitation que vous utilisez :
 
-   * **nz-linuxclient-v7.2.0.0.tar.gz pour Linux. Sélectionnez le dossier correspondant à votre système d’exploitation (linux ou linux64) et lancez la commande unpack. Vous pouvez laisser l’installation s’effectuer dans le répertoire par défaut proposé : &quot;/usr/local/nz&quot;.**
-   * **nz-winclient-v7.2.0.0.zip pour Windows. Décompressez le fichier et lancez le script exécutable correspondant à votre système d’exploitation : nzodbcsetup.exe ou nzodbcsetup64.exe. Suivez les indications de l’assistant pour finaliser l’installation des pilotes.**
+   * **nz-linuxclient-v7.2.0.0.tar.gz pour Linux. Sélectionnez le dossier correspondant à votre système d&#39;exploitation (linux ou linux64) et lancez la commande unpack. Vous pouvez laisser l&#39;installation s&#39;effectuer dans le répertoire par défaut proposé : &quot;/usr/local/nz&quot;.**
+   * **nz-winclient-v7.2.0.0.zip pour Windows. Décompressez le fichier et lancez le script exécutable correspondant à votre système d&#39;exploitation : nzodbcsetup.exe ou nzodbcsetup64.exe. Suivez les indications de l&#39;assistant pour finaliser l&#39;installation des pilotes.**
 
 1. Configurez le pilote ODBC. La configuration peut être réalisée dans les fichiers standard : **/etc/odbc.ini** pour les paramètres généraux et **/etc/odbcinst.ini** pour la déclaration des pilotes.
 
@@ -63,7 +63,7 @@ La connexion à une base de données externe Netezza en FDA requiert les paramé
       Socket           = 16384
       ```
 
-1. Définissez les variables d’environnement du serveur Adobe Campaign :
+1. Définissez les variables d’environnement du serveur Adobe Campaign :
 
    * **LD_LIBRARY_PATH** : /usr/local/nz/lib et /usr/local/nz/lib64. &quot;/usr/local/nz&quot; correspond au répertoire d’installation proposé par défaut lors de l’installation des pilotes. Indiquez ici le répertoire que vous avez sélectionné pour l’installation.
    * **ODBCINI** : emplacement du fichier odbc.ini (par exemple /etc/odbc.ini).

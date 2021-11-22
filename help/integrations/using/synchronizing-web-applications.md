@@ -17,17 +17,17 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Dans ce cas pratique, nous allons envoyer une communication, à l&#39;aide de Campaign Standard, comprenant un lien vers une application web de Campaign v7. Lorsqu&#39;un destinataire clique sur le lien dans l&#39;email, l&#39;application web affiche un formulaire contenant plusieurs champs préchargés avec les données du destinataire en question ainsi qu&#39;un lien d&#39;inscription à une newsletter. Le destinataire peut mettre à jour ses informations et s&#39;inscrire au service. Son profil est alors mis à jour dans Campaign v7 et les informations sont répliquées dans Campaign Standard.
+Dans ce cas pratique, nous allons envoyer une communication, à l&#39;aide de Campaign Standard, comprenant un lien vers une application web de Campaign v7. Lorsqu&#39;un destinataire clique sur le lien dans l&#39;email, l&#39;application web affiche un formulaire contenant plusieurs champs préchargés avec les données du destinataire en question ainsi qu&#39;un lien d&#39;inscription à une newsletter. Le destinataire peut mettre à jour ses informations et s&#39;inscrire au service. Son profil est alors mis à jour dans Campaign v7 et les informations sont répliquées dans Campaign Standard.
 
-Si vous disposez d&#39;un grand nombre de services et d&#39;applications web dans Campaign v7, vous pouvez décider de ne pas tous les recréer dans Campaign Standard. ACS Connector vous permet d&#39;utiliser l&#39;ensemble des services et des applications web de Campaign v7 et de les associer à une diffusion envoyée par Campaign Standard.
+Si vous disposez d&#39;un grand nombre de services et d&#39;applications web dans Campaign v7, vous pouvez décider de ne pas tous les recréer dans Campaign Standard. ACS Connector vous permet d&#39;utiliser l&#39;ensemble des services et des applications web de Campaign v7 et de les associer à une diffusion envoyée par Campaign Standard.
 
 ## Conditions préalables requises {#prerequisites}
 
 Pour ce faire, les éléments suivants sont nécessaires :
 
-* Des destinataires stockés dans la base de données de Campaign v7 et synchronisés avec Campaign Standard. Consultez la section [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md).
-* Un service et une application web créés et publiés dans Campaign v7.
-* L&#39;application web doit contenir une activité **[!UICONTROL Pré-chargement]** utilisant la méthode d&#39;identification **[!UICONTROL Chiffrement Adobe Campaign]**.
+* Des destinataires stockés dans la base de données de Campaign v7 et synchronisés avec Campaign Standard. Consultez la section [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md).
+* Un service et une application web créés et publiés dans Campaign v7.
+* L&#39;application web doit contenir une activité **[!UICONTROL Pré-chargement]** utilisant la méthode d&#39;identification **[!UICONTROL Chiffrement Adobe Campaign]**.
 
 ## Création de l&#39;application web et du service {#creating-the-web-application-and-service}
 
@@ -42,7 +42,7 @@ Dans Campaign v7, les objets suivants ont été créés :
 
    ![](assets/acs_connect_lp_2.png)
 
-1. Modifiez l&#39;activité **[!UICONTROL Pré-chargement]**. La case **[!UICONTROL Chargement automatique des données référencées dans le formulaire]** est cochée et la méthode d&#39;identification **[!UICONTROL Chiffrement Adobe Campaign]** est sélectionnée. L&#39;application web peut ainsi précharger les champs du formulaire avec les données stockées dans la base de données d&#39;Adobe Campaign. Pour plus d&#39;informations, consultez [ce document](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
+1. Modifiez l&#39;activité **[!UICONTROL Pré-chargement]**. La case **[!UICONTROL Chargement automatique des données référencées dans le formulaire]** est cochée et la méthode d&#39;identification **[!UICONTROL Chiffrement Adobe Campaign]** est sélectionnée. L&#39;application web peut ainsi précharger les champs du formulaire avec les données stockées dans la base de données d&#39;Adobe Campaign. Pour plus d&#39;informations, consultez [ce document](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
 
    ![](assets/acs_connect_lp_4.png)
 
@@ -50,7 +50,7 @@ Dans Campaign v7, les objets suivants ont été créés :
 
    ![](assets/acs_connect_lp_3.png)
 
-1. Accédez à **[!UICONTROL Profils et Cibles > Services et abonnements]**, puis ouvrez le service **[!UICONTROL Newsletter]**. Il s&#39;agit du service qui sera mis à jour à partir du message de communication Campaign Standard. Vous pouvez voir qu&#39;aucun destinataire ne s&#39;est encore inscrit à ce service.
+1. Accédez à **[!UICONTROL Profils et Cibles > Services et abonnements]**, puis ouvrez le service **[!UICONTROL Newsletter]**. Il s&#39;agit du service qui sera mis à jour à partir du message de communication Campaign Standard. Vous pouvez voir qu&#39;aucun destinataire ne s&#39;est encore inscrit à ce service.
 
    ![](assets/acs_connect_lp_5.png)
 
@@ -60,33 +60,33 @@ Dans Campaign v7, les objets suivants ont été créés :
 
 ## Réplication des données {#replicating-the-data}
 
-Afin de répliquer les données nécessaires entre Campaign v7 et Campaign Standard, plusieurs modèles de workflows de réplication sont disponibles. Le workflow de **[!UICONTROL Réplication des profils]** reproduit automatiquement tous les destinataires de Campaign v7 vers Campaign Standard. Voir [Workflows techniques et de réplication](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). Le workflow de **[!UICONTROL Réplication des landing pages]** permet la réplication des applications Web que nous voulons utiliser dans Campaign Standard.
+Afin de répliquer les données nécessaires entre Campaign v7 et Campaign Standard, plusieurs modèles de workflows de réplication sont disponibles. Le workflow de **[!UICONTROL Réplication des profils]** reproduit automatiquement tous les destinataires de Campaign v7 vers Campaign Standard. Voir [Workflows techniques et de réplication](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). Le workflow de **[!UICONTROL Réplication des landing pages]** permet la réplication des applications Web que nous voulons utiliser dans Campaign Standard.
 
 ![](assets/acs_connect_lp_1.png)
 
-Pour vérifier que les données ont été correctement répliquées, suivez la procédure suivante dans Campaign Standard :
+Pour vérifier que les données ont été correctement répliquées, suivez la procédure suivante dans Campaign Standard :
 
 1. Depuis l&#39;écran d&#39;accueil, cliquez sur **[!UICONTROL Profils clients]**.
 
    ![](assets/acs_connect_lp_7.png)
 
-1. Recherchez votre destinataire Campaign v7 et vérifiez qu’il apparaît dans Campaign Standard.
+1. Recherchez votre destinataire Campaign v7 et vérifiez qu’il apparaît dans Campaign Standard.
 
    ![](assets/acs_connect_lp_8.png)
 
-1. Dans la barre supérieure, cliquez sur **[!UICONTROL Activités marketing]**, puis cherchez l&#39;application web de Campaign v7. Elle apparaît sous forme de landing page dans Campaign Standard.
+1. Dans la barre supérieure, cliquez sur **[!UICONTROL Activités marketing]**, puis cherchez l&#39;application web de Campaign v7. Elle apparaît sous forme de landing page dans Campaign Standard.
 
    ![](assets/acs_connect_lp_9.png)
 
-1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, sélectionnez **Profils &amp; audiences > Services**, puis vérifiez que le service de newsletter apparaît également.
+1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, sélectionnez **Profils &amp; audiences > Services**, puis vérifiez que le service de newsletter apparaît également.
 
    ![](assets/acs_connect_lp_10.png)
 
 ## Conception et envoi de l&#39;email {#designing-and-sending-the-email}
 
-Dans cette partie, nous allons voir comment inclure un lien vers la landing page répliquée depuis une application web de Campaign v7 dans un email Campaign Standard.
+Dans cette partie, nous allons voir comment inclure un lien vers la landing page répliquée depuis une application web de Campaign v7 dans un email Campaign Standard.
 
-Les étapes de création, de conception et d&#39;envoi de l&#39;email sont les mêmes que pour un email classique. Pour plus d&#39;informations, consultez la document [Adobe Campaign Standard](https://helpx.adobe.com/fr/support/campaign/standard.html).
+Les étapes de création, de conception et d&#39;envoi de l&#39;email sont les mêmes que pour un email classique. Pour plus d&#39;informations, consultez la document [Adobe Campaign Standard](https://helpx.adobe.com/fr/support/campaign/standard.html).
 
 1. Créez un nouvel email et sélectionnez un ou plusieurs profils répliqués en tant qu&#39;audience.
 1. Editez le contenu et insérez un **[!UICONTROL Lien vers une landing page]**.
@@ -108,7 +108,7 @@ Les étapes de création, de conception et d&#39;envoi de l&#39;email sont les m
 
 ## Récupération des informations mises à jour {#retrieving-the-updated-information}
 
-Lorsque le destinataire met ses informations à jour via l&#39;application web, Adobe Campaign v7 récupère de manière synchrone les informations mises à jour. Celles-ci sont ensuite répliquées depuis Campaign v7 vers Campaign Standard.
+Lorsque le destinataire met ses informations à jour via l&#39;application web, Adobe Campaign v7 récupère de manière synchrone les informations mises à jour. Celles-ci sont ensuite répliquées depuis Campaign v7 vers Campaign Standard.
 
 1. Dans Campaign v7, accédez à **[!UICONTROL Profils et Cibles > Services et abonnements]**, puis ouvrez le service **[!UICONTROL Newsletter]**. Vous pouvez voir que le destinataire apparaît désormais dans la liste des abonnés.
 
@@ -123,7 +123,7 @@ Lorsque le destinataire met ses informations à jour via l&#39;application web, 
    ![](assets/acs_connect_lp_18.png)
 
 1. Patientez quelques minutes pendant l&#39;exécution du workflow de réplication.
-1. Dans Campaign Standard, accédez au profil de votre destinataire pour vérifier que les données mises à jour ont été correctement répliquées depuis Campaign v7.
+1. Dans Campaign Standard, accédez au profil de votre destinataire pour vérifier que les données mises à jour ont été correctement répliquées depuis Campaign v7.
 
    ![](assets/acs_connect_lp_19.png)
 

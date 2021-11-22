@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Apprenez à orchestrer les processus et les tâches à l&#39;aide des workflows Adobe Campaign.
+Apprenez à orchestrer les processus et les tâches à l&#39;aide des workflows Adobe Campaign.
 
 ## Quelles sont les principales étapes pour créer un workflow ? {#what-are-the-key-steps-to-create-a-workflow-}
 
@@ -39,11 +39,11 @@ Vous pouvez effectuer une mise à jour, une fusion et une insertion massives sur
 
 ## Comment utiliser les fonctionnalités de Data Management ? {#how-can-i-leverage-data-management-capabilities-}
 
-Dans Adobe Campaign, vous pouvez utiliser un ensemble d&#39;activités permettant de répondre à des problématiques complexes de ciblage en proposant des outils plus efficaces et plus souples. Les activités de Data Management permettent de mettre en place une gestion cohérente de toutes les communications vers un contact, en utilisant les informations liées à ses contrats, ses abonnements, sa réactivité aux diffusions, etc. Le Data Management permet de suivre le cycle de vie des données lors des opérations de segmentation, notamment :
+Dans Adobe Campaign, vous pouvez utiliser un ensemble d&#39;activités permettant de répondre à des problématiques complexes de ciblage en proposant des outils plus efficaces et plus souples. Les activités de Data Management permettent de mettre en place une gestion cohérente de toutes les communications vers un contact, en utilisant les informations liées à ses contrats, ses abonnements, sa réactivité aux diffusions, etc. Le Data Management permet de suivre le cycle de vie des données lors des opérations de segmentation, notamment :
 
-* simplifier et optimiser les processus de ciblage, y compris en incluant des données qui n&#39;ont pas été modélisées dans le datamart (création de nouvelles tables : extension locale à chaque workflow de ciblage, en fonction de son paramétrage).
+* simplifier et optimiser les processus de ciblage, y compris en incluant des données qui n&#39;ont pas été modélisées dans le datamart (création de nouvelles tables : extension locale à chaque workflow de ciblage, en fonction de son paramétrage).
 * conserver et véhiculer des calculs intermédiaires, notamment dans les phases de construction des cibles ou pour l&#39;administration des bases de données.
-* accéder aux bases externes (optionnel) : prise en compte de bases de données hétérogènes dans le processus de ciblage.
+* accéder aux bases externes (optionnel) : prise en compte de bases de données hétérogènes dans le processus de ciblage.
 
 [Cliquez ici pour en savoir plus](../../workflow/using/targeting-data.md#data-management) et être en mesure de concevoir une cible complexe et de travailler sur vos données en combinant les activités de workflow de Data Management.
 

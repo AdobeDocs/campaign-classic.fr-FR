@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign propose trois modèles d’hébergement, ce qui offre la liberté de choisir le meilleur modèle ou les modèles qui répondent aux besoins de l’entreprise.
+Adobe Campaign propose trois modèles d’hébergement, ce qui offre la liberté de choisir le meilleur modèle ou les modèles qui répondent aux besoins de l’entreprise.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Adobe Campaign propose trois modèles d’hébergement, ce qui offre la liberté
 
 ## Managed Services / hébergés
 
-Adobe Campaign peut être déployé en tant que Managed Service : tous les composants d’Adobe Campaign, y compris l’interface utilisateur, le moteur de gestion de l’exécution et la base de données Campaign du client, sont entièrement hébergés par Adobe. Cela inclut également l’exécution des emails, les pages miroir, le serveur de tracking et les composants web externes, tels que la page de désabonnement/le centre de préférences et les landing pages.
+Adobe Campaign peut être déployé en tant que Managed Service : tous les composants d’Adobe Campaign, y compris l’interface utilisateur, le moteur de gestion de l’exécution et la base de données Campaign du client, sont entièrement hébergés par Adobe. Cela inclut également l’exécution des emails, les pages miroir, le serveur de tracking et les composants web externes, tels que la page de désabonnement/le centre de préférences et les landing pages.
 
 ![](assets/deployment_hosted.png)
 
@@ -39,23 +39,23 @@ En tant que client hébergé, la plupart des étapes d&#39;installation et de co
 
 ## On-premise
 
-Adobe Campaign peut être déployé On-premise : tous les composants d’Adobe Campaign, notamment l’interface utilisateur, le moteur de gestion de l’exécution et la base de données, résident sur site dans le centre de données du client. Dans ce modèle de déploiement, le client gère toutes les mises à jour et mises à niveau logicielles et matérielles. De plus, un administrateur de bases de données dédié doit réaliser des tâches de maintenance et d’optimisation afin d’assurer la gestion des instances Campaign.
+Adobe Campaign peut être déployé On-premise : tous les composants d’Adobe Campaign, notamment l’interface utilisateur, le moteur de gestion de l’exécution et la base de données, résident sur site dans le centre de données du client. Dans ce modèle de déploiement, le client gère toutes les mises à jour et mises à niveau logicielles et matérielles. De plus, un administrateur de bases de données dédié doit réaliser des tâches de maintenance et d’optimisation afin d’assurer la gestion des instances Campaign.
 
 ![](assets/deployment_onpremise.png)
 
 En tant que client On-premise, avant de commencer à déployer Campaign Classic, familiarisez-vous avec les recommandations et prérequis suivants :
 
-* Consultez la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) qui répertorie toutes les versions des différents systèmes et composants pris en charge par Adobe Campaign.
+* Consultez la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) qui répertorie toutes les versions des différents systèmes et composants pris en charge par Adobe Campaign.
 * En fonction de votre environnement, consultez les [prérequis pour Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) et les [prérequis pour Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md).
 * Découvrez les recommandations relatives aux moteurs de bases de données [dans cette section](../../installation/using/database.md).
-* Vérifiez que les couches d’accès requises pour la base de données sont installées sur votre serveur et accessibles depuis le compte Adobe Campaign. [En savoir plus](../../installation/using/application-server.md).
+* Vérifiez que les couches d’accès requises pour la base de données sont installées sur votre serveur et accessibles depuis le compte Adobe Campaign. [En savoir plus](../../installation/using/application-server.md).
 * Configurez vos réseaux. Certains processus doivent en effet communiquer avec d’autres ou accéder au réseau local et à Internet. Cela signifie que certains ports TCP doivent être ouverts pour ces processus. [En savoir plus](../../installation/using/network-configuration.md) sur la configuration réseau requise.
 * Consultez la [Liste de contrôle relative à la sécurité et à la confidentialité Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).
 * Consultez les instructions générales afin d’estimer les besoins matériels pour le déploiement On-premise [dans cet article](https://helpx.adobe.com/fr/campaign/kb/hardware-sizing-guide.html).
 
 ## Hybride
 
-Lorsqu’il est déployé en tant que modèle hybride, le logiciel de la solution Adobe Campaign réside On-premise sur le site du client, et la gestion de l’exécution est fournie par Adobe sous la forme d’un service cloud. L’instance marketing Adobe Campaign est installée à l’intérieur du pare-feu du client, de sorte que les informations d’identification personnelles (PII) restent en interne et que seules les données nécessaires à la personnalisation des emails soient envoyées au cloud pour l’exécution des emails. L’instance d’exécution, hébergée dans le cloud, reçoit les demandes de l’instance On-premise afin de diffuser les emails. Cette instance personnalise tous les emails et les diffuse. Aucune donnée d’aucune sorte n’est stockée de manière permanente dans le cloud.
+Lorsqu’il est déployé en tant que modèle hybride, le logiciel de la solution Adobe Campaign réside On-premise sur le site du client, et la gestion de l’exécution est fournie par Adobe sous la forme d’un service cloud. L’instance marketing Adobe Campaign est installée à l’intérieur du pare-feu du client, de sorte que les informations d’identification personnelles (PII) restent en interne et que seules les données nécessaires à la personnalisation des emails soient envoyées au cloud pour l’exécution des emails. L’instance d’exécution, hébergée dans le cloud, reçoit les demandes de l’instance On-premise afin de diffuser les emails. Cette instance personnalise tous les emails et les diffuse. Aucune donnée d’aucune sorte n’est stockée de manière permanente dans le cloud.
 
 ![](assets/deployment_hybrid.png)
 

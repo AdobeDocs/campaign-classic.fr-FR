@@ -52,7 +52,7 @@ Pour ignorer cette limite, vous devez définir la valeur sur **0**.
 
 * **[!UICONTROL Script]** : la zone centrale de l’éditeur contient le script à exécuter.
 
-* **[!UICONTROL Traiter les erreurs]** : voir la section [Traitement des erreurs](monitoring-workflow-execution.md#processing-errors).
+* **[!UICONTROL Traiter les erreurs]** : voir la section [Traitement des erreurs](monitoring-workflow-execution.md#processing-errors).
 
 ### Code JavaScript avancé {#adv-js-code-desc}
 

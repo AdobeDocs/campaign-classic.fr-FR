@@ -69,16 +69,16 @@ Pour cela, utilisez l&#39;onglet **[!UICONTROL Avancé]**.
 
 ![](assets/s_ncs_admin_survey_advanced_tab.png)
 
-Il permet de définir les propriétés suivantes :
+Il permet de définir les propriétés suivantes :
 
 * **[!UICONTROL Position du libellé]** : voir [Définir la position des libellés](defining-web-forms-layout.md#defining-the-position-of-labels),
 * **[!UICONTROL Format du libellé]** : Retour à la ligne ou Pas de retour à la ligne,
 * **[!UICONTROL Nombre de cellules]** : voir la section [Placer les champs de la page](defining-web-forms-layout.md#positioning-the-fields-on-the-page),
 * **[!UICONTROL Alignement horizontal]** (Gauche, Droite, Centré) et **[!UICONTROL vertical]** (Haut, Bas, Milieu),
 * **[!UICONTROL Largeur]** de la zone : elle peut être exprimée en pourcentage, en em, en points ou en pixels (valeur par défaut),
-* **[!UICONTROL Longueur]** maximale : nombre de caractères maximum autorisé (pour un contrôle de type Texte, Nombre, Mot de passe),
+* **[!UICONTROL Longueur]** maximale : nombre de caractères maximum autorisé (pour un contrôle de type Texte, Nombre, Mot de passe),
 * **[!UICONTROL Lignes]** : nombre de lignes pour une zone de type **[!UICONTROL Texte Multi-lignes]**,
-* **[!UICONTROL Style inline]** : permet de surcharger la feuille de styles CSS avec des paramètres supplémentaires. Ils sont séparés les uns des autres par des caractères **;**, comme dans l&#39;exemple ci-dessous :.
+* **[!UICONTROL Style inline]** : permet de surcharger la feuille de styles CSS avec des paramètres supplémentaires. Ils sont séparés les uns des autres par des caractères **;**, comme dans l&#39;exemple ci-dessous :.
 
    ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
@@ -86,7 +86,7 @@ Il permet de définir les propriétés suivantes :
 
 Les champs sont enchaînés dans une arborescence dont la racine porte le nom de la page. Sélectionnez-la pour modifier ce nom.
 
-Le titre de la fenêtre doit être saisi dans l&#39;onglet **[!UICONTROL Page]** des propriétés du formulaire. Vous pouvez également ajouter un contenu fixe en en-tête et en pied de la page (ces informations figureront sur chacune des pages). Ce contenu doit être saisi dans les sections correspondantes de l&#39;onglet **[!UICONTROL Textes]**. Comme dans l&#39;exemple ci-dessous :
+Le titre de la fenêtre doit être saisi dans l&#39;onglet **[!UICONTROL Page]** des propriétés du formulaire. Vous pouvez également ajouter un contenu fixe en en-tête et en pied de la page (ces informations figureront sur chacune des pages). Ce contenu doit être saisi dans les sections correspondantes de l&#39;onglet **[!UICONTROL Textes]**. Comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_admin_survey_titles_config.png)
 
@@ -108,7 +108,7 @@ Pour rendre obligatoire le renseignement d&#39;un champ, vous devez cocher l&#39
 
 ![](assets/s_ncs_admin_survey_required_field.png)
 
-Lorsque l&#39;utilisateur valide la page, si le champ n&#39;est pas renseigné, le message d&#39;erreur sera le suivant :
+Lorsque l&#39;utilisateur valide la page, si le champ n&#39;est pas renseigné, le message d&#39;erreur sera le suivant :
 
 ![](assets/s_ncs_admin_survey_required_default_msg.png)
 
@@ -116,7 +116,7 @@ Vous pouvez personnaliser ce message en cliquant sur le lien **[!UICONTROL Perso
 
 ![](assets/s_ncs_admin_survey_required_custom_msg.png)
 
-Lorsque l&#39;utilisateur valide la page, si le champ n&#39;est pas renseigné, le message d&#39;erreur sera le suivant :
+Lorsque l&#39;utilisateur valide la page, si le champ n&#39;est pas renseigné, le message d&#39;erreur sera le suivant :
 
 ![](assets/s_ncs_admin_survey_required_custom_msg2.png)
 
@@ -126,7 +126,7 @@ Pour les contrôles du formulaire dont les valeurs seront stockées dans un cham
 
 Pour les contrôles du formulaire dont les valeurs seront stockées dans une variable, les règles de validation dépendent du format de la variable.
 
-Par exemple, si vous créez un contrôle de type **[!UICONTROL Nombre]** pour stocker le numéro du client, comme dans l&#39;exemple suivant :
+Par exemple, si vous créez un contrôle de type **[!UICONTROL Nombre]** pour stocker le numéro du client, comme dans l&#39;exemple suivant :
 
 ![](assets/s_ncs_admin_survey_choose_format.png)
 
@@ -142,7 +142,7 @@ Pour chaque élément de la page, la section **[!UICONTROL Visibilité]** permet
 
 Les conditions peuvent porter sur la valeur de champs de la base ou de variables.
 
-Dans la fenêtre de sélection d&#39;un champ, vous pouvez sélectionner parmi les données disponibles :
+Dans la fenêtre de sélection d&#39;un champ, vous pouvez sélectionner parmi les données disponibles :
 
 ![](assets/s_ncs_admin_survey_condition_select.png)
 
@@ -164,7 +164,7 @@ Vous pouvez aussi conditionner l&#39;affichage des pages du formulaire via l&#39
 
 Vous pouvez importer des champs ou des containers issus d&#39;autres formulaires Web. Ainsi, vous pouvez créer une bibliothèque de blocs réutilisables qui seront insérés dans les formulaires, par exemple le pavé adresse, la zone d&#39;inscription à vos newsletters, etc.
 
-Pour importer un élément dans un formulaire, les étapes sont les suivantes :
+Pour importer un élément dans un formulaire, les étapes sont les suivantes :
 
 1. Editez la page dans laquelle vous souhaitez inclure un ou plusieurs éléments et cliquez sur le bouton **[!UICONTROL Importer un bloc existant]** de la barre d&#39;outils.
 

@@ -31,7 +31,7 @@ Les messages transactionnels reposent sur une architecture spécifique, composé
 
 ## Installation des instances {#installing-instances}
 
-L&#39;installation des packages des messages transactionnels requiert de nombreuses précautions. Adobe recommande de travailler sur un environnement de test avant une mise en production. Il faut aussi posséder une licence Adobe Campaign compatible. Contactez votre chargé de compte Adobe pour plus d&#39;informations.
+L&#39;installation des packages des messages transactionnels requiert de nombreuses précautions. Adobe recommande de travailler sur un environnement de test avant une mise en production. Il faut aussi posséder une licence Adobe Campaign compatible. Contactez votre chargé de compte Adobe pour plus d&#39;informations.
 
 >[!IMPORTANT]
 >
@@ -87,7 +87,7 @@ Cependant, si vous avez démarré un projet de message transactionnel sur le can
 >
 >Cette procédure s&#39;applique uniquement aux clients utilisant un serveur Windows NLServer installé sur le même ordinateur que celui sur lequel ils travaillent.
 
-1. Installez le canal dont vous avez besoin, par exemple le **Canal mobile**, à l&#39;aide de l&#39;assistant d&#39;import de package (**[!UICONTROL Outils > Avancé > Import de package... > Package Adobe Campaign]**).
+1. Installez le canal dont vous avez besoin, par exemple le **Canal mobile**, à l&#39;aide de l&#39;assistant d&#39;import de package (**[!UICONTROL Outils > Avancé > Import de package... > Package Adobe Campaign]**).
 1. Effectuez une importation de fichier ( **[!UICONTROL Outils > Avancé > Importer un package... > Fichier]** ), puis sélectionnez le fichier **datakitnms **`[Your language]`**packagemessageCenter.xml**.
 1. Dans la partie **[!UICONTROL Contenu XML des données à importer]**, conservez uniquement le modèle de diffusion correspondant au canal ajouté. Par exemple, si vous avez ajouté le **Canal mobile**, conservez uniquement l&#39;élément **entities** correspondant au modèle **[!UICONTROL Message transactionnel mobile]** (smsTriggerMessage). Si vous avez ajouté le **Canal des applications mobiles**, conservez uniquement les modèles **Message transactionnel iOS** (iosTriggerMessage) et **Message transactionnel Android** (androidTriggerMessage).
 
@@ -139,16 +139,16 @@ Couplés au module Canal des applications mobiles, les messages transactionnels 
 Pour utiliser les modules des messages transactionnels avec le canal des applications mobiles, vous devez effectuer les paramétrages suivants :
 
 1. Installez le package **Canal des applications mobiles** sur les instances de pilotage et d&#39;exécution.
-1. Répliquez le service Adobe Campaign de type **Application mobile** ainsi que les applications mobiles qu&#39;il contient sur les instances d&#39;exécution.
+1. Répliquez le service Adobe Campaign de type **Application mobile** ainsi que les applications mobiles qu&#39;il contient sur les instances d&#39;exécution.
 
-L&#39;évènement doit contenir les éléments suivants :
+L&#39;évènement doit contenir les éléments suivants :
 
 * L&#39;identifiant de l&#39;appareil mobile (**registrationId** pour Android et **deviceToken** pour iOS). Cet identifiant représente &quot;l&#39;adresse&quot; à laquelle la notification sera envoyée.
 * La définition du lien vers l&#39;application mobile ou clé d&#39;intégration (**uuid**) permettant de récupérer les informations de connexion spécifiques à l&#39;application.
-* Le canal sur lequel la notification sera envoyée (**wishedChannel**) : 41 pour iOS et 42 pour Android
+* Le canal sur lequel la notification sera envoyée (**wishedChannel**) : 41 pour iOS et 42 pour Android
 * Toutes les données utiles à la personnalisation
 
-Voici un exemple de traitement d&#39;un événement contenant ces informations :
+Voici un exemple de traitement d&#39;un événement contenant ces informations :
 
 ```
 <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">

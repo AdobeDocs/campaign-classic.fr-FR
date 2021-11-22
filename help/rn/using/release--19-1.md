@@ -43,7 +43,7 @@ _16 décembre 2020_
 >
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/using/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez lʼassistance clientèle dʼAdobe pour étendre lʼassistance jusquʼen février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
+> * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez lʼassistance clientèle dʼAdobe pour étendre lʼassistance jusquʼen février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
 
 
 
@@ -62,7 +62,7 @@ _16 décembre 2020_
 * Correction d&#39;un problème en raison duquel la fonction **NoNull** ne fonctionnait pas dans les bases de données Oracle après la mise à niveau vers la version 9032. (NEO-26488)
 * Correction d’un problème lors de la modification de la description d’un modèle de campagne qui empêchait l’affichage du bouton **Enregistrer** pendant la copie et le collage de symboles, comme des caractères japonais. (NEO-27071)
 * Correction d’un problème qui empêchait l’enregistrement de la description d’une campagne ou d’un modèle de campagne en cliquant en dehors de la fenêtre avant de cliquer sur le bouton **Enregistrer**. (NEO-27449)
-* Correction d’un problème au niveau de la configuration du proxy qui empêchait la connexion à Adobe Campaign après la dernière mise à jour de Windows 10. (NEO-27813)
+* Correction d’un problème au niveau de la configuration du proxy qui empêchait la connexion à Adobe Campaign après la dernière mise à jour de Windows 10. (NEO-27813)
 * Correction d’un problème lié à la gestion des lignes vides dans les fichiers de log, en raison duquel le comportement du processus MTA était défaillant et les performances de l&#39;envoi de diffusions diminuaient.
 
 **Évolutions techniques**
@@ -88,7 +88,7 @@ _15 septembre 2020_
 * Correction d&#39;un problème en raison duquel les liens non signés provenant de domaines personnalisés étaient bloqués au lieu d&#39;être autorisés. (NEO-25210)
 * Correction d&#39;une régression qui affectait les champs calculés d&#39;un workflow et provoquait l&#39;échec de ce workflow. (NEO-25194)
 * Correction d&#39;un problème de compatibilité avec Microsoft Dynamics (à partir de la version 8.2) qui empêchait l&#39;exécution de certains appels d&#39;API (RetrieveAllEntities). (NEO-24528)
-* Correction d&#39;un problème de régression lors de l&#39;utilisation de la fonction ACS Connector qui empêchait la connexion à une instance de Campaign Standard (gestion incorrecte de la connexion FOH/FOH2). (NEO-23433)
+* Correction d’un problème de régression lors de l’utilisation de la fonction ACS Connector qui empêchait la connexion à une instance de Campaign Standard (gestion incorrecte de la connexion FOH/FOH2). (NEO-23433)
 * Correction d&#39;un problème de régression concernant la connexion à la base de données qui provoquait le redémarrage constant du serveur web en raison d&#39;un problème de codage de base de données. Ce problème pouvait conduire à une surconsommation. (NEO-23264)
 * Correction d&#39;un problème lié au workflow de nettoyage de la base de données qui pouvait échouer en raison d&#39;une source de données non gérée. (NEO-23160, NEO-23364)
 * Le workflow de nettoyage purge désormais les listes expirées par lots de 100 plutôt qu&#39;une par une.
@@ -171,7 +171,7 @@ _30 mai 2019_
  <tbody> 
   <tr> 
    <td> Panneau de contrôle<br /> </td> 
-   <td> <p>Pour travailler plus efficacement en tant qu'utilisateur administrateur, gérez les paramètres de vos serveurs SFTP en surveillant le stockage, ajoutez des adresses IP à la liste autorisée et installez des clés SSH pour chaque instance. Veuillez noter qu’à compter d’aujourd’hui le Panneau de contrôle n’est disponible que pour les clients hébergés sur AWS (<a href="https://experiencecloud.adobe.com/fr/campaign/controlpanel/">connectez-vous par l’intermédiaire d’Experience Cloud dès aujourd’hui</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=fr">vidéo de procédure</a>. </p><p>Remarque : Il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign pour accéder au Panneau de contrôle.</p> </td> 
+   <td> <p>Pour travailler plus efficacement en tant qu'utilisateur administrateur, gérez les paramètres de vos serveurs SFTP en surveillant le stockage, ajoutez des adresses IP à la liste autorisée et installez des clés SSH pour chaque instance. Veuillez noter qu’à compter d’aujourd’hui le Panneau de contrôle n’est disponible que pour les clients hébergés sur AWS (<a href="https://experiencecloud.adobe.com/fr/campaign/controlpanel/">connectez-vous par l’intermédiaire d’Experience Cloud dès aujourd’hui</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=fr">vidéo de procédure</a>. </p><p>Remarque : Il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign pour accéder au Panneau de contrôle.</p> </td> 
   </tr> 
     <tr> 
    <td> Suivi<br /> </td> 
@@ -183,7 +183,7 @@ _30 mai 2019_
   </tr> 
   <tr> 
    <td> Mise à jour de la matrice de compatibilité<br /> </td> 
-   <td> Avec cette nouvelle version, Adobe Campaign prend maintenant en charge les systèmes de bases de données suivants. Consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html">Matrice de compatibilité</a>.<br /> 
+   <td> Avec cette nouvelle version, Adobe Campaign prend maintenant en charge les systèmes de bases de données suivants. Consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html">Matrice de compatibilité</a>.<br /> 
     <ul> 
      <li> <p>Oracle 18c</p> </li> 
      <li> <p>MySQL 5.7 (FDA)</p> </li> 
@@ -281,10 +281,10 @@ _30 mai 2019_
 * Correction d&#39;un problème de blocage de serveur web. (NEO-12904)
 * Correction d&#39;un problème avec le paramètre Nature dans les modèles transactionnels. (NEO-12334)
 * Correction d&#39;un problème de blocage de console lors de l&#39;affichage des URL trackées dans l&#39;éditeur de texte des emails. (NEO-13122)
-* Correction d&#39;un problème lié à l&#39;activité de partage de fichiers lors de l&#39;import d&#39;audiences à partir d&#39;Audience Manager. (NEO-11550)
+* Correction d&#39;un problème lié à l&#39;activité de partage de fichiers lors de l&#39;import d&#39;audiences à partir d&#39;Audience Manager. (NEO-11550)
 * Correction d&#39;un problème qui entraînait des erreurs dans le rapport Position des clics. (NEO-11459)
 * Correction d&#39;un problème avec le rendu des offres. (NEO-11565)
-* Correction d&#39;un problème lié à l&#39;activité Mise à jour de liste lors de l&#39;import d&#39;audiences à partir d&#39;Audience Manager. (NEO-11226)
+* Correction d&#39;un problème lié à l&#39;activité Mise à jour de liste lors de l&#39;import d&#39;audiences à partir d&#39;Audience Manager. (NEO-11226)
 * Correction d&#39;un problème avec l&#39;activité Planning et la configuration du fuseau horaire. (NEO-11662)
 * Correction d&#39;un problème qui entraînait l&#39;échec du workflow de tracking en présence d&#39;URL incorrectes.
 * Correction d&#39;un problème avec les comptes externes suite à l&#39;import du package d&#39;application mobile.

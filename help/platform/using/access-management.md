@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Adobe Campaign vous permet de définir et gérer les permissions attribuées aux différents opérateurs. Les permissions sont un ensemble de droits et restrictions qui autorisent ou interdisent :
+Adobe Campaign vous permet de définir et gérer les permissions attribuées aux différents opérateurs. Les permissions sont un ensemble de droits et restrictions qui autorisent ou interdisent :
 
 * l&#39;accès à certaines fonctionnalités (via les droits nommés),
 * l&#39;accès à certains enregistrements,
@@ -25,7 +25,7 @@ Adobe Campaign vous permet de définir et gérer les permissions attribuées aux
 
 Les autorisations s&#39;appliquent à des profils d&#39;opérateurs ou à des groupes d&#39;opérateurs.
 
-Elles sont complétées par des paramètres de sécurité liés au mode de connexion de l’opérateur à Adobe Campaign. En savoir plus sur les zones de sécurité dans [cette page](../../installation/using/security-zones.md).
+Elles sont complétées par des paramètres de sécurité liés au mode de connexion de l’opérateur à Adobe Campaign. En savoir plus sur les zones de sécurité dans [cette page](../../installation/using/security-zones.md).
 
 Vous pouvez accorder deux types d’autorisations à un utilisateur :
 

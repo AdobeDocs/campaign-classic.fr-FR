@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: À propos de la délivrabilité dans Adobe Campaign Classic
-description: En savoir plus sur la gestion de la délivrabilité dans Adobe Campaign Classic.
+description: En savoir plus sur la gestion de la délivrabilité dans Adobe Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Pour que vos emails atteignent vos destinataires et améliorer ainsi leur taux de délivrabilité, assurez-vous qu’ils respectent un certain nombre de règles. Dans le cas contraire, le contenu de certains messages peut être détecté comme du spam. Adobe Campaign fournit plusieurs outils vous permettant de vérifier que votre contenu respecte ces règles.
+Pour que vos emails atteignent vos destinataires et améliorer ainsi leur taux de délivrabilité, assurez-vous qu’ils respectent un certain nombre de règles. Dans le cas contraire, le contenu de certains messages peut être détecté comme du spam. Adobe Campaign fournit plusieurs outils vous permettant de vérifier que votre contenu respecte ces règles.
 
 Suivez les principes ci-dessous lors de la conception du contenu de votre message :
 
@@ -67,13 +67,13 @@ Demander une confirmation supplémentaire n’est pas fiable, car un utilisateur
 
 Avant d’envoyer votre message, vous pouvez tester sa réactivité en vérifiant son apparence sur différents appareils. Vous vous assurez ainsi que son affichage sera optimal sur divers clients web, webmails et appareils.
 
-Pour vous aider, Adobe Campaign capture le rendu et le rend disponible dans un rapport dédié. Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception.
+Pour vous aider, Adobe Campaign capture le rendu et le rend disponible dans un rapport dédié. Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception.
 
 Pour plus d&#39;informations, consultez la section [Inbox rendering](inbox-rendering.md).
 
 ## SpamAssassin {#spamassassin}
 
-Adobe Campaign peut être configuré pour fonctionner avec SpamAssassin. Cela permet d&#39;attribuer un score aux emails afin de déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spams utilisés à sa réception.
+Adobe Campaign peut être configuré pour fonctionner avec SpamAssassin. Cela permet d&#39;attribuer un score aux emails afin de déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spams utilisés à sa réception.
 
 Avant qu’une diffusion ne soit lancée, l’onglet **[!UICONTROL Aperçu]** permet de visualiser les risques. Un message d’avertissement donne le résultat du test.
 

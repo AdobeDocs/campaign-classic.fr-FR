@@ -25,13 +25,13 @@ Pour rendre l’affichage d’une ou de plusieurs pages conditionnel, utilisez u
 
 ## Conditionner l&#39;affichage d&#39;un élément {#conditioning-item-display}
 
-Pour rendre l&#39;affichage d&#39;une partie d&#39;un rapport conditionnel, vous devez définir ses conditions de visibilité : si ces conditions ne sont pas remplies, alors le ou les éléments ne seront pas affichés.
+Pour rendre l&#39;affichage d&#39;une partie d&#39;un rapport conditionnel, vous devez définir ses conditions de visibilité : si ces conditions ne sont pas remplies, alors le ou les éléments ne seront pas affichés.
 
 Les conditions de visibilité peuvent dépendre par exemple du statut de l&#39;opérateur ou des éléments qu&#39;il a sélectionnés ou renseignés dans la page du rapport.
 
 Des exemples d&#39;affichages conditionnels des éléments d&#39;une page sont proposés dans [cette section](../../web/using/form-rendering.md#defining-fields-conditional-display).
 
-Dans l&#39;exemple suivant, la condition d&#39;affichage dépend de la langue :
+Dans l&#39;exemple suivant, la condition d&#39;affichage dépend de la langue :
 
 ![](assets/reporting_display_condition.png)
 
@@ -39,7 +39,7 @@ Dans l&#39;exemple suivant, la condition d&#39;affichage dépend de la langue :
 
 Dans le diagramme d&#39;un rapport, l&#39;activité **[!UICONTROL Test]** vous permet de modifier l&#39;enchaînement des pages du rapport en fonction d&#39;une ou plusieurs conditions.
 
-Le principe de fonctionnement de cette activité est le suivant :
+Le principe de fonctionnement de cette activité est le suivant :
 
 1. Positionnez un **[!UICONTROL Test]** dans le diagramme puis éditez-le.
 1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer les différents cas possibles.

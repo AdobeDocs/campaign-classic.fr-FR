@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign propose une application de Marketing Distribué - **Distributed Marketing** - qui permet de mettre en place des opérations collaboratives entre des entités centrales (par exemple le siège de l&#39;entreprise, le service marketing, etc.) et des entités locales (par exemple des points de vente, des agences régionales, etc.). Cette collaboration s&#39;organise autour d&#39;un espace commun, la **[!UICONTROL liste des kits d&#39;opération]**, où des modèles et des instances d&#39;opérations créés au niveau central sont proposés aux entités locales.
+Adobe Campaign propose une application de Marketing Distribué - **Distributed Marketing** - qui permet de mettre en place des opérations collaboratives entre des entités centrales (par exemple le siège de l&#39;entreprise, le service marketing, etc.) et des entités locales (par exemple des points de vente, des agences régionales, etc.). Cette collaboration s&#39;organise autour d&#39;un espace commun, la **[!UICONTROL liste des kits d&#39;opération]**, où des modèles et des instances d&#39;opérations créés au niveau central sont proposés aux entités locales.
 
 L&#39;entité centrale propose aux entités locales des opérations auxquelles elles peuvent participer. Ces opérations sont matérialisées par des kits, qui peuvent être associés à des opérations locales ou collaboratives. Pour participer, l&#39;entité locale doit faire une commande d&#39;opération et cette commande doit être validée.
 
@@ -31,7 +31,7 @@ L&#39;entité centrale propose aux entités locales des opérations auxquelles e
 
    Une entité centrale regroupe les opérateurs marketing chargés de définir la communication et d&#39;assister les entités locales dans la réalisation de leur campagne marketing.
 
-   L&#39;entité centrale peut, grâce au module de Marketing Distribué :
+   L&#39;entité centrale peut, grâce au module de Marketing Distribué :
 
    * mettre en place des kits de campagne marketing à destination des entités locales,
    * favoriser l&#39;autonomie des entités locales dans le choix de leurs communications envers leurs clients/prospects, leur ciblage, leur contenu, etc.,
@@ -66,13 +66,13 @@ L&#39;entité centrale propose aux entités locales des opérations auxquelles e
 
 * **Opération collaborative**
 
-   Une opération collaborative est une opération dont le **planning d&#39;exécution est défini** par l&#39;entité centrale. Les entités locales sont libres de participer ou non à l&#39;opération. En fonction du paramétrage de l&#39;opération, le contenu et la cible peuvent être localisés par l&#39;entité locale. Il existe plusieurs types d&#39;opérations collaboratives :
+   Une opération collaborative est une opération dont le **planning d&#39;exécution est défini** par l&#39;entité centrale. Les entités locales sont libres de participer ou non à l&#39;opération. En fonction du paramétrage de l&#39;opération, le contenu et la cible peuvent être localisés par l&#39;entité locale. Il existe plusieurs types d&#39;opérations collaboratives :
 
-   * **[!UICONTROL Opération collaborative (par formulaire)]** : conseillée pour des opérations visant jusqu’à 300 entités locales. L’entité locale peut saisir des paramètres prédéfinis en terme de ciblage et de personnalisation de contenu dans un formulaire web. Le formulaire peut être un formulaire Adobe Campaign ou un formulaire externe (extranet client). La définition et le paramétrage de ce formulaire peuvent être réalisés par un administrateur fonctionnel sur la base d’un modèle de formulaire défini par l’intégrateur. Pour commander l’opération, l’entité locale a seulement besoin d’un accès web.
-   * **[!UICONTROL Opération collaborative (par opération)]** : conseillée pour des opérations visant quelques dizaines d’entités locales. Ce type d’opération crée des opérations enfants pour chaque entité locale. Lorsque la commande d’une **[!UICONTROL Opération collaborative par opération]** est validée par l’entité centrale, l’opération est mise à disposition de l’entité locale qui peut la modifier. L’exécution est automatiquement synchronisée entre les opérations enfants et l’opération parent. L’entité locale doit avoir accès à une instance pour commander une opération et y participer.
+   * **[!UICONTROL Opération collaborative (par formulaire)]** : conseillée pour des opérations visant jusqu’à 300 entités locales. L’entité locale peut saisir des paramètres prédéfinis en terme de ciblage et de personnalisation de contenu dans un formulaire web. Le formulaire peut être un formulaire Adobe Campaign ou un formulaire externe (extranet client). La définition et le paramétrage de ce formulaire peuvent être réalisés par un administrateur fonctionnel sur la base d’un modèle de formulaire défini par l’intégrateur. Pour commander l’opération, l’entité locale a seulement besoin d’un accès web.
+   * **[!UICONTROL Opération collaborative (par opération)]** : conseillée pour des opérations visant quelques dizaines d’entités locales. Ce type d’opération crée des opérations enfants pour chaque entité locale. Lorsque la commande d’une **[!UICONTROL Opération collaborative par opération]** est validée par l’entité centrale, l’opération est mise à disposition de l’entité locale qui peut la modifier. L’exécution est automatiquement synchronisée entre les opérations enfants et l’opération parent. L’entité locale doit avoir accès à une instance pour commander une opération et y participer.
 
    * **[!UICONTROL Opération collaborative (par validation de la cible)]** : conseillée pour des opérations visant jusqu’à plusieurs milliers d’entités locales. L’entité locale reçoit une liste de contacts sélectionnés par l’entité centrale. L’entité locale choisit de garder ou non certains contacts en fonction du contenu de l’opération, grâce à un formulaire web. Les entités locales sont déduites de la liste de contacts sélectionnés. Pour participer à l’opération, l’entité locale a seulement besoin d’un accès web.
-   * **[!UICONTROL Opération collaborative simple]** : ce mode permet d&#39;assurer la compatibilité avec les développements spécifiques réalisés dans les versions précédentes.
+   * **[!UICONTROL Opération collaborative simple]** : ce mode permet d&#39;assurer la compatibilité avec les développements spécifiques réalisés dans les versions précédentes.
 
    Voir [Création d’une campagne collaborative](creating-a-collaborative-campaign.md).
 
@@ -114,7 +114,7 @@ Pour créer une entité organisationnelle, cliquez sur le noeud **[!UICONTROL Ad
 
 Chaque entité organisationnelle contient les informations d&#39;identification (libellé, nom interne, coordonnées, etc.) et les groupes de travail utilisés dans le processus de validation des commandes. Ces groupes sont définis dans la section **[!UICONTROL Notifications et validations]** de l&#39;onglet **[!UICONTROL Général]**.
 
-* Vous devez définir un groupe de notification des kits : les opérateurs de ce groupe recevront un message de notification lorsqu&#39;un nouveau kit sera ajouté à la liste des kits d&#39;opération et lorsqu&#39;une opération est disponible.
+* Vous devez définir un groupe de notification des kits : les opérateurs de ce groupe recevront un message de notification lorsqu&#39;un nouveau kit sera ajouté à la liste des kits d&#39;opération et lorsqu&#39;une opération est disponible.
 * Vous devez également sélectionner le groupe d&#39;opérateurs responsables de la validation des commandes, c&#39;est-à-dire chargés de valider les opérations commandées par l&#39;entité locale.
 * Sélectionnez enfin le groupe d&#39;opérateurs chargés de la validation de l&#39;opération locale (validation de la cible, du contenu, du budget, etc.). Ce groupe peut être surchargé lors de la commande d&#39;une opération, si le modèle le permet.
 
@@ -136,7 +136,7 @@ Les étapes de mise en oeuvre dépendent du type de kit d&#39;opération utilis�
    ![](assets/mkg_dist_local_entity_association.png)
 
 1. Définir les droits et les règles de navigation pour les entités locales.
-1. Définir l&#39;ensemble des champs nécessaires à la localisation des campagnes :
+1. Définir l&#39;ensemble des champs nécessaires à la localisation des campagnes :
 
    * la définition de la cible et sa taille maximale,
    * la définition du contenu,

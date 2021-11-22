@@ -46,7 +46,7 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 
    Pour envoyer un fichier sur un serveur, sélectionnez l&#39;option **[!UICONTROL Envoi de fichier]** dans le champ **[!UICONTROL Action]**. Vous devez indiquer le serveur cible dans la section **[!UICONTROL Serveur distant]** de l&#39;éditeur. Les paramètres sont les mêmes que pour la réception de fichiers. Voir ci-dessus.
 
-   Le fichier source peut être issu de l&#39;activité précédente : dans ce cas, l&#39;option **[!UICONTROL Utiliser le fichier généré par l&#39;activité précédente]** doit être cochée.
+   Le fichier source peut être issu de l&#39;activité précédente : dans ce cas, l&#39;option **[!UICONTROL Utiliser le fichier généré par l&#39;activité précédente]** doit être cochée.
 
    ![](assets/file_transfert_edit_send.png)
 
@@ -70,12 +70,12 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 
    L’option **[!UICONTROL Lister tous les fichiers]**, disponible lors de la sélection de l’action **[!UICONTROL Listage de fichiers]** permet de répertorier tous les fichiers présents sur le serveur dans la variable d’événement **vars.filenames**. Les noms des fichiers y sont séparés par les caractères `\n`.
 
-Pour toutes les actions de transfert de fichiers, deux options peuvent être sélectionnées :
+Pour toutes les actions de transfert de fichiers, deux options peuvent être sélectionnées :
 
 * L’option **[!UICONTROL Traiter l’absence de fichier]** ajoute une transition qui sera activée en cas d’absence de fichier dans le répertoire spécifié.
 * L’option **[!UICONTROL Traiter les erreurs]** est présentée dans la section [Traiter les erreurs](monitoring-workflow-execution.md#processing-errors).
 
-Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux options suivantes :
+Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux options suivantes :
 
 ![](assets/file_transfert_advanced.png)
 

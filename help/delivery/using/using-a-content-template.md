@@ -37,7 +37,7 @@ Voir à ce sujet l’exemple d’implémentation complet : [Créer un contenu d
 
 ## Créer une instance de contenu {#creating-a-content-instance}
 
-Vous pouvez créer des contenus directement dans l&#39;arborescence Adobe Campaign. Ils pourront ensuite être utilisés dans les workflows, exportés ou directement injectés dans de nouvelles diffusions.
+Vous pouvez créer des contenus directement dans l&#39;arborescence Adobe Campaign. Ils pourront ensuite être utilisés dans les workflows, exportés ou directement injectés dans de nouvelles diffusions.
 
 Les étapes sont les suivantes :
 
@@ -73,7 +73,7 @@ Les étapes sont les suivantes :
    >
    >Vous pouvez autoriser la génération de contenus non validés. Pour cela, modifiez l&#39;option correspondante dans le modèle de publication. Voir à ce sujet la section [Création et paramétrage du modèle](publication-templates.md#creating-and-configuring-the-template).
 
-   Les contenus HTML et Texte sont générés par défaut dans le dossier **publishing** de l&#39;instance Adobe Campaign. Vous pouvez modifier le dossier de publication depuis l&#39;option **NcmPublishingDir**.
+   Les contenus HTML et Texte sont générés par défaut dans le dossier **publishing** de l&#39;instance Adobe Campaign. Vous pouvez modifier le dossier de publication depuis l&#39;option **NcmPublishingDir**.
 
 ## Diffuser une instance de contenu {#delivering-a-content-instance}
 

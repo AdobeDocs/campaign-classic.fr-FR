@@ -17,7 +17,7 @@ ht-degree: 80%
 
 ![](../../assets/common.svg)
 
-Adobe Campaign permet de tester le nouveau format interactif [AMP for Email](https://amp.dev/about/email/) qui sert, sous certaines conditions, à envoyer des emails dynamiques.
+Adobe Campaign permet de tester le nouveau format interactif [AMP for Email](https://amp.dev/about/email/) qui sert, sous certaines conditions, à envoyer des emails dynamiques.
 
 Avec AMP for Email, vous pouvez :
 * tester la diffusion des emails AMP à des adresses spécifiques correctement configurées ;
@@ -51,7 +51,7 @@ Pour plus d’informations sur le format d’email AMP, les spécifications et l
 
 Pour tester et envoyer un email AMP avec Adobe Campaign, procédez comme suit :
 1. Installez le package de **[!UICONTROL support AMP]**. Voir [Installation des packages natifs de Campaign](../../installation/using/installing-campaign-standard-packages.md).
-1. Créez un email et concevez le contenu AMP dans Adobe Campaign. Voir [Créer du contenu d’email AMP avec Adobe Campaign](#build-amp-email-content).
+1. Créez un email et concevez le contenu AMP dans Adobe Campaign. Voir [Créer du contenu d’email AMP avec Adobe Campaign](#build-amp-email-content).
 1. Veillez à respecter toutes les exigences en matière de diffusion des fournisseurs de messagerie qui prennent en charge le format AMP. Voir [Prérequis de diffusion AMP for Email](#amp-for-email-delivery-requirements).
 1. Lorsque vous définissez votre cible, assurez-vous de sélectionner les destinataires qui pourront afficher le format AMP. Voir [Cibler un email AMP](#targeting-amp-email).
 
@@ -103,7 +103,7 @@ Pour créer un email au format AMP, procédez comme suit.
 
    >[!NOTE]
    >
-   >L’éditeur AMP d’Adobe Campaign n’est pas conçu pour la validation du contenu. Utilisez un site Web externe tel que le [Validateur Web AMP](https://validator.ampproject.org) pour vérifier que votre contenu est correct.
+   >L’éditeur AMP d’Adobe Campaign n’est pas conçu pour la validation du contenu. Utilisez un site Web externe tel que le [Validateur Web AMP](https://validator.ampproject.org) pour vérifier que votre contenu est correct.
 
 1. Apportez les modifications nécessaires jusqu’à ce que le contenu AMP soit validé.
 
@@ -131,7 +131,7 @@ Pour créer un email au format AMP, procédez comme suit.
 
 ## Prérequis de diffusion AMP for Email {#amp-for-email-delivery-requirements}
 
-Lors de la création de votre contenu AMP dans Adobe Campaign, vous devez respecter les conditions de diffusion d’un email dynamique, qui sont spécifiques aux fournisseurs de messagerie de vos destinataires.
+Lors de la création de votre contenu AMP dans Adobe Campaign, vous devez respecter les conditions de diffusion d’un email dynamique, qui sont spécifiques aux fournisseurs de messagerie de vos destinataires.
 
 Actuellement, trois fournisseurs de messagerie prennent en charge le test de ce format : Gmail, Outlook et Mail.ru.
 
@@ -148,13 +148,13 @@ Vous pouvez également consulter les [Conseils et limites connues de Gmail](http
 
 Actuellement, vous pouvez tester l&#39;envoi d&#39;un email AMP en deux étapes :
 
-1. Adobe Campaign vous permet de tester la diffusion d’un email dynamique piloté par AMP vers des adresses email sélectionnées correctement configurées, afin de vérifier son contenu et son comportement. Voir [Tester la diffusion d’un email AMP pour des adresses sélectionnées](#testing-amp-delivery-for-selected-addresses).
+1. Adobe Campaign vous permet de tester la diffusion d’un email dynamique piloté par AMP vers des adresses email sélectionnées correctement configurées, afin de vérifier son contenu et son comportement. Voir [Tester la diffusion d’un email AMP pour des adresses sélectionnées](#testing-amp-delivery-for-selected-addresses).
 
 1. Une fois testée, vous pouvez envoyer une diffusion ou une campagne dans le cadre du programme AMP for Email en vous enregistrant auprès du ou des fournisseurs de messagerie concernés pour que votre domaine d’expéditeur soit ajouté à la liste autorisée. Voir [Diffuser des emails AMP en s’enregistrant auprès d’un fournisseur de messagerie](#delivering-amp-emails-by-registering).
 
 ### Tester la diffusion d’un email AMP pour des adresses sélectionnées {#testing-amp-delivery-for-selected-addresses}
 
-Vous pouvez tester l’envoi de messages dynamiques d’Adobe Campaign vers des adresses email sélectionnées.
+Vous pouvez tester l’envoi de messages dynamiques d’Adobe Campaign vers des adresses email sélectionnées.
 
 >[!NOTE]
 >

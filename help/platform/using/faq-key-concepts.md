@@ -17,18 +17,18 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Découvrez les principales étapes pour démarrer avec Adobe Campaign.
+Découvrez les principales étapes pour démarrer avec Adobe Campaign.
 
 ## Est-il possible de se connecter à Campaign Classic à l&#39;aide d&#39;un Adobe ID ? {#can-i-connect-to-campaign-classic-with-an-adobe-id-}
 
-Grâce à l&#39;intégration avec l&#39;IMS (Adobe Identity Management System), les utilisateurs peuvent se connecter à la console Adobe Campaign à partir de leur Adobe ID. Cette intégration apporte les avantages suivants :
+Grâce à l&#39;intégration avec l&#39;IMS (Adobe IDentity Management System), les utilisateurs peuvent se connecter à la console Adobe Campaign à partir de leur Adobe ID. Cette intégration apporte les avantages suivants :
 
 * utilisation d&#39;un même identifiant pour toutes les solutions Experience Cloud
-* mémorisation de la connexion lors de l&#39;utilisation d&#39;Adobe Campaign avec les différentes intégrations
+* mémorisation de la connexion lors de l&#39;utilisation d&#39;Adobe Campaign avec les différentes intégrations
 * politique de gestion de mot de passe plus sécurisée
 * utilisation de comptes de type Federated ID (fournisseur d&#39;identité externe)
 
-[Cliquez ici pour en savoir plus](../../integrations/using/about-adobe-id.md) sur l&#39;accès à Campaign Classic avec un Adobe ID.
+[Cliquez ici pour en savoir plus](../../integrations/using/about-adobe-id.md) sur l&#39;accès à Campaign Classic avec un Adobe ID.
 
 ## Quelle est ma version de Campaign ? {#what-is-my-version-of-campaign-}
 
@@ -40,7 +40,7 @@ Adobe Campaign Classic est fourni avec un ensemble de modules et d&#39;options
 
 [Pour en savoir plus, cliquez ici](../../installation/using/capability-matrix.md).
 
-## Comment configurer les autorisations utilisateur ? {#how-can-i-set-up-user-permissions-}
+## Comment configurer les autorisations utilisateur ? {#how-can-i-set-up-user-permissions-}
 
 En tant qu&#39;administrateur de Campaign, vous pouvez configurer des autorisations pour les utilisateurs de votre organisation.
 
@@ -54,7 +54,7 @@ Il s&#39;agit d&#39;un ensemble de droits et de restrictions qui autorisent ou r
 
 ## Comment assurer la conformité de la confidentialité avec Campaign ?  {#how-to-be-gdpr-compliant-with-campaign-}
 
-Adobe Campaign propose un ensemble d’outils pour vous aider à respecter la vie privée dans le cadre du RGPD et de la CCPA.
+Adobe Campaign propose un ensemble d’outils pour vous aider à respecter la vie privée dans le cadre du RGPD et de la CCPA.
 
 Consultez [ce document](privacy-and-recommendations.md) afin de connaître les outils et les fonctionnalités proposés par Adobe Campaign, ainsi que les bonnes pratiques, pour respecter le RGPD lors de l&#39;utilisation de notre service. Les étapes de mise en œuvre de Campaign Classic sont décrites dans [cet article](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html).
 
@@ -66,15 +66,15 @@ Lisez [cette section](../../platform/using/adobe-campaign-workspace.md) pour en 
 
 ## Comment sélectionner l’audience de mes messages ?  {#how-can-i-select-the-target-population-of-my-messages-}
 
-Avec Adobe Campaign, vous pouvez utiliser différentes stratégies pour créer des audiences et sélectionner des destinataires cibles.
+Avec Adobe Campaign, vous pouvez utiliser différentes stratégies pour créer des audiences et sélectionner des destinataires cibles.
 
 [Pour en savoir plus, cliquez ici](../../delivery/using/steps-defining-the-target-population.md).
 
 ## Qu’est-ce qu&#39;un workflow ?  {#what-is-a-workflow-}
 
-Adobe Campaign contient des workflows pour orchestrer l&#39;ensemble des processus et tâches dans les différents modules du serveur applicatif. Cet environnement graphique complet permet de concevoir des processus englobant segmentation, exécution de campagnes, traitement de fichiers, participation humaine, etc. Le moteur de workflow exécute et assure le tracking de ces processus.
+Adobe Campaign contient des workflows pour orchestrer l&#39;ensemble des processus et tâches dans les différents modules du serveur applicatif. Cet environnement graphique complet permet de concevoir des processus englobant segmentation, exécution de campagnes, traitement de fichiers, participation humaine, etc. Le moteur de workflow exécute et assure le tracking de ces processus.
 
-Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
+Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
 
 Un workflow peut également faire intervenir des opérateurs afin de notifier ou valider une opération ou faire un choix. Ainsi, il est possible de créer une action de diffusion, d&#39;assigner une tâche à un ou plusieurs opérateurs qui seront chargés de saisir son contenu ou spécifier sa cible, puis de faire valider le BAT avant de démarrer la diffusion.
 
@@ -92,7 +92,7 @@ Découvrez comment configurer votre plateforme et envoyer des SMS dans [cette se
 
 ## Comment envoyer des notifications push ?  {#how-to-send-push-notifications-}
 
-Découvrez comment utiliser Adobe Campaign pour [envoyer une notification push personnalisée](../../delivery/using/create-notifications-ios.md) à des appareils iOS et Android via des applications.
+Découvrez comment utiliser Adobe Campaign pour [envoyer une notification push personnalisée](../../delivery/using/create-notifications-ios.md) à des appareils iOS et Android via des applications.
 
 ## Comment concevoir et partager un questionnaire en ligne ?  {#how-to-design-and-share-an-online-survey-}
 
@@ -100,7 +100,7 @@ Découvrez comment [créer un questionnaire en ligne](../../surveys/using/gettin
 
 ## Comment créer une landing page ?  {#how-to-create-landing-page-}
 
-Vous pouvez utiliser le Digital Content Editor d’Adobe Campaign pour concevoir une landing page et définir le mapping avec les champs de la base de données
+Vous pouvez utiliser le Digital Content Editor d’Adobe Campaign pour concevoir une landing page et définir le mapping avec les champs de la base de données
 
 [Pour en savoir plus, cliquez ici](../../web/using/creating-a-landing-page.md).
 

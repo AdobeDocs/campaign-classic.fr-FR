@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Cette configuration regroupe tous les composants sur une seule machine :
+Cette configuration regroupe tous les composants sur une seule machine :
 
 * processus applicatif (web),
 * processus de diffusion (mta),
@@ -26,11 +26,11 @@ Cette configuration regroupe tous les composants sur une seule machine :
 * processus des mails rebonds (inMail),
 * processus de statistiques (stat).
 
-La communication générale entre les processus est réalisée conformément au schéma suivant :
+La communication générale entre les processus est réalisée conformément au schéma suivant :
 
 ![](assets/s_900_ncs_install_standaloneconfig.png)
 
-Ce type de configuration est parfaitement adapté lorsque les listes gérées contiennent moins de 100 000 destinataires, et avec, par exemple, les couches logicielles suivantes :
+Ce type de configuration est parfaitement adapté lorsque les listes gérées contiennent moins de 100 000 destinataires, et avec, par exemple, les couches logicielles suivantes :
 
 * Linux,
 * Apache,
@@ -65,16 +65,16 @@ Lorsque le volume s&#39;accroît, une variante de cette architecture déporte le
 * Serveur Web (IIS, Apache),
 * Accès à un serveur de base de données,
 * Boîte pour les mails rebonds accessible en POP3,
-* Création de deux alias DNS :
+* Création de deux alias DNS :
 
-   * un premier alias exposé au grand public pour le tracking et pointant vers la machine sur son IP publique ;
+   * un premier alias exposé au grand public pour le tracking et pointant vers la machine sur son IP publique ;
    * un deuxième alias exposé aux utilisateurs métier pour l&#39;accès console et pointant vers la même machine.
 
 * Configuration du pare-feu pour l&#39;ouverture des ports SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.) . Voir à ce propos [Configuration du réseau](../../installation/using/network-configuration.md).
 
-Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
+Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
 
-* Nom de l&#39;instance : **demo**
+* Nom de l&#39;instance : **demo**
 * Masque DNS : **console.campaign.net*** (uniquement pour la connexion des consoles clientes et pour les rapports)
 * Base de données : **campaign:demo@dbsrv**
 
@@ -82,11 +82,11 @@ Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont
 
 Les étapes sont les suivantes :
 
-1. Respectez la procédure d&#39;installation du serveur Adobe Campaign : package **nlserver** sous Linux ou **setup.exe** sous Windows.
+1. Respectez la procédure d&#39;installation du serveur Adobe Campaign : package **nlserver** sous Linux ou **setup.exe** sous Windows.
 
    Voir à ce propos [Prérequis pour l&#39;installation de Campaign sous Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) et [Prérequis pour l&#39;installation de Campaign sous Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
 
-1. Une fois l&#39;installation du serveur Adobe Campaign terminée, démarrez le serveur applicatif (web) avec la commande **nlserver web -tomcat** (le module web permet de lancer Tomcat en mode serveur web autonome en écoute sur le port 8080) et vérifiez que Tomcat démarre correctement :
+1. Une fois l&#39;installation du serveur Adobe Campaign terminée, démarrez le serveur applicatif (web) avec la commande **nlserver web -tomcat** (le module web permet de lancer Tomcat en mode serveur web autonome en écoute sur le port 8080) et vérifiez que Tomcat démarre correctement :
 
    ```
    12:08:18 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -101,12 +101,12 @@ Les étapes sont les suivantes :
 
    Appuyez sur **Ctrl+C** pour arrêter le serveur.
 
-   Voir à ce propos les sections suivantes :
+   Voir à ce propos les sections suivantes :
 
    * Pour Linux : [Premier démarrage du serveur](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server),
    * Pour Windows : [Premier démarrage du serveur](../../installation/using/installing-the-server.md#first-start-up-of-the-server).
 
-1. Changez le mot de passe **internal** à partir de la commande :
+1. Changez le mot de passe **internal** à partir de la commande :
 
    ```
    nlserver config -internalpassword
@@ -114,9 +114,9 @@ Les étapes sont les suivantes :
 
    Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
-1. Créez l’instance de **démonstration** avec les masques DNS pour le suivi (ici, **tracking.campaign.net**) et l’accès aux consoles client (ici, **console.campaign.net**). Vous avez le choix entre les deux méthodes suivantes :
+1. Créez l’instance de **démonstration** avec les masques DNS pour le suivi (ici, **tracking.campaign.net**) et l’accès aux consoles client (ici, **console.campaign.net**). Vous avez le choix entre les deux méthodes suivantes :
 
-   * Créer l&#39;instance via la console :
+   * Créer l&#39;instance via la console :
 
       ![](assets/install_create_new_connexion.png)
 
@@ -124,7 +124,7 @@ Les étapes sont les suivantes :
 
       ou
 
-   * Créer l&#39;instance en ligne de commande :
+   * Créer l&#39;instance en ligne de commande :
 
       ```
       nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
@@ -132,7 +132,7 @@ Les étapes sont les suivantes :
 
       Voir à ce sujet la section [Création d’une instance](../../installation/using/command-lines.md#creating-an-instance).
 
-1. Modifiez le fichier **config-demo.xml** (créé à l’étape précédente avec le fichier **config-default.xml**) et assurez-vous que les processus **mta** (diffusion), **wfserver** (workflows), **inMail** (mails rebonds) et **stat** (statistiques) sont activés. Configurez ensuite l’adresse du serveur de statistiques :
+1. Modifiez le fichier **config-demo.xml** (créé à l’étape précédente avec le fichier **config-default.xml**) et assurez-vous que les processus **mta** (diffusion), **wfserver** (workflows), **inMail** (mails rebonds) et **stat** (statistiques) sont activés. Configurez ensuite l’adresse du serveur de statistiques :
 
    ```
    <?xml version='1.0'?>
@@ -166,25 +166,25 @@ Les étapes sont les suivantes :
 
 1. Copiez le programme d’installation de la console client (**setup-client-7.XX**, **YYYY.exe** pour v7 ou **setup-client-6.XX**, **YYY.exe** pour v6.1) dans le dossier **/datakit/nl/eng/jsp**. [En savoir plus](../../installation/using/client-console-availability-for-windows.md).
 
-1. Suivez la procédure d&#39;intégration du serveur Web (IIS, Apache) décrite dans les sections suivantes :
+1. Suivez la procédure d&#39;intégration du serveur Web (IIS, Apache) décrite dans les sections suivantes :
 
    * Pour Linux : [Intégration à un serveur web pour Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
    * Pour Windows : [Intégration à un serveur web pour Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
 
 1. Démarrez le site web et testez la redirection à partir de l&#39;URL : https://tracking.campaign.net/r/test.
 
-   Le navigateur doit afficher le message suivant :
+   Le navigateur doit afficher le message suivant :
 
    ```
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="localhost"/>
    ```
 
-   Voir à ce propos les sections suivantes :
+   Voir à ce propos les sections suivantes :
 
    * Pour Linux : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
    * Pour Windows : [](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)Lancement du serveur Web et test de la configuration
 
-1. Démarrez le serveur Adobe Campaign (**net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux) et exécutez à nouveau la commande **nlserver pdump** afin de vérifier la présence de tous les modules activés.
+1. Démarrez le serveur Adobe Campaign (**net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux) et lancez à nouveau la commande **nlserver pdump** afin de vérifier la présence de tous les modules actifs.
 
    >[!NOTE]
    >
@@ -215,7 +215,7 @@ Les étapes sont les suivantes :
 
    Consultez [cette page](../../installation/using/creating-an-instance-and-logging-on.md) et [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
-   L&#39;assistant de création de base de données s&#39;affiche lors de la première connexion :
+   L&#39;assistant de création de base de données s&#39;affiche lors de la première connexion :
 
    ![](assets/s_ncs_install_db_oracle_creation01.png)
 
@@ -229,10 +229,10 @@ Les étapes sont les suivantes :
 
    Pour plus d’informations, consultez la section [Déploiement d’une instance](../../installation/using/deploying-an-instance.md).
 
-   Les paramètres principaux à renseigner sont les suivants :
+   Les paramètres principaux à renseigner sont les suivants :
 
-   * Envoi d&#39;email : les adresses expéditeur, de réponse et la boîte d&#39;erreur pour les mails rebonds.
-   * Tracking : renseignez l&#39;URL externe utilisée pour la redirection et l&#39;URL interne puis cliquez sur **Enregistrement auprès du ou des serveurs de tracking** et validez sur l&#39;instance **demo** du serveur de tracking.
+   * Envoi d&#39;email : les adresses expéditeur, de réponse et la boîte d&#39;erreur pour les mails rebonds.
+   * Tracking : renseignez l&#39;URL externe utilisée pour la redirection et l&#39;URL interne puis cliquez sur **Enregistrement auprès du ou des serveurs de tracking** et validez sur l&#39;instance **demo** du serveur de tracking.
 
       Pour en savoir plus, consultez [Paramétrage du tracking](../../installation/using/deploying-an-instance.md#tracking-configuration).
 
@@ -240,7 +240,7 @@ Les étapes sont les suivantes :
 
       Le serveur Adobe Campaign étant le serveur applicatif et de redirection, l&#39;URL interne utilisée pour la collecte des logs de tracking et le transfert des URL est une connexion interne directe sur Tomcat (https://localhost:8080).
 
-   * Gestion des mails rebonds : renseignez les paramètres de gestion des mails rebonds (ne pas tenir compte de la section **Mails rebonds non traités**).
-   * Accès depuis Internet : renseignez les deux URL d&#39;accès pour les rapports ou les formulaires Web et les pages miroir.
+   * Gestion des mails rebonds : renseignez les paramètres de gestion des mails rebonds (ne pas tenir compte de la section **Mails rebonds non traités**).
+   * Accès depuis Internet : renseignez les deux URL d&#39;accès pour les rapports ou les formulaires Web et les pages miroir.
 
       ![](assets/d_ncs_install_web_url.png)

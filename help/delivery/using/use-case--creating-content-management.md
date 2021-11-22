@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: '"Cas pratique : utiliser la gestion de contenu"'
-description: '"Cas pratique : utiliser la gestion de contenu"'
+title: '"Cas pratique : utiliser la gestion de contenu"'
+description: '"Cas pratique : utiliser la gestion de contenu"'
 audience: delivery
 content-type: reference
 topic-tags: content-management
@@ -13,11 +13,11 @@ ht-degree: 100%
 
 ---
 
-# Cas pratique : utiliser la gestion de contenu{#use-case-creating-content-management}
+# Cas pratique : utiliser la gestion de contenu{#use-case-creating-content-management}
 
 ![](../../assets/common.svg)
 
-Pour créer une gestion de contenu dans Adobe Campaign, les étapes de réalisation sont les suivantes :
+Pour créer une gestion de contenu dans Adobe Campaign, les étapes de réalisation sont les suivantes :
 
 * [Etape 1 - Analyser le contenu à produire](#step-1---analyzing-the-content-to-be-produced),
 * [Etape 2 - Créer le schéma de données](#step-2---creating-the-data-schema),
@@ -28,13 +28,13 @@ Pour créer une gestion de contenu dans Adobe Campaign, les étapes de réalisat
 
 ## Etape 1 - Analyser le contenu à produire {#step-1---analyzing-the-content-to-be-produced}
 
-Avant de démarrer, vous devez procéder à une analyse précise du contenu à produire : identifier les éléments à afficher, étudier les contraintes qui y sont liées, définir les types de chaque élément, etc. Vous devez différencier les éléments statiques et les éléments variables du contenu.
+Avant de démarrer, vous devez procéder à une analyse précise du contenu à produire : identifier les éléments à afficher, étudier les contraintes qui y sont liées, définir les types de chaque élément, etc. Vous devez différencier les éléments statiques et les éléments variables du contenu.
 
-Par exemple, nous allons créer une newsletter en HTML dont le contenu est du type :
+Par exemple, nous allons créer une newsletter en HTML dont le contenu est du type :
 
 ![](assets/s_ncs_content_newsletter.png)
 
-Cette newsletter contient trois types d&#39;éléments :
+Cette newsletter contient trois types d&#39;éléments :
 
 1. Des éléments variables, dont le contenu est saisi ou sélectionné par l&#39;utilisateur lors de la création de la diffusion, au travers d&#39;un formulaire de saisie.
 
@@ -50,7 +50,7 @@ Cette newsletter contient trois types d&#39;éléments :
 
 Les différents éléments de cette newsletter sont assemblés selon les règles définies dans un template Javascript qui référence tous les éléments à insérer et modélise leur mise en forme.
 
-Ces éléments sont créés via un schéma dédié qui précise pour chaque contenu : son nom, son libellé, son type, sa taille et toute autre information utile à son exploitation dans Adobe Campaign.
+Ces éléments sont créés via un schéma dédié qui précise pour chaque contenu : son nom, son libellé, son type, sa taille et toute autre information utile à son exploitation dans Adobe Campaign.
 
 ## Etape 2 - Créer le schéma de données {#step-2---creating-the-data-schema}
 
@@ -62,9 +62,9 @@ Un schéma de données est un document XML associé à un contenu, il décrit la
 >
 >Les éléments de paramétrage spécifiques à la gestion de contenu sont décrits dans [Schémas de données](data-schemas.md).
 
-Pour créer un schéma de données, les étapes sont les suivantes :
+Pour créer un schéma de données, les étapes sont les suivantes :
 
-1. Ouvrez l&#39;Explorateur Adobe Campaign et sélectionnez le noeud **[!UICONTROL Administration > Paramétrages > Schémas de données]**.
+1. Ouvrez l&#39;Explorateur Adobe Campaign et sélectionnez le noeud **[!UICONTROL Administration > Paramétrages > Schémas de données]**.
 
    Cliquez sur l&#39;icône **[!UICONTROL Nouveau]** située au-dessus de la liste des schémas de données.
 
@@ -88,7 +88,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
 
    Pour chaque élément référencé dans le contenu, vous devez sélectionner le type correspondant.
 
-   Dans notre exemple, les contenus identifiés, leur format et leur type sont les suivants :
+   Dans notre exemple, les contenus identifiés, leur format et leur type sont les suivants :
 
 <table> 
  <thead> 
@@ -137,7 +137,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
    <td> Auteur<br /> </td> 
   </tr> 
   <tr> 
-   <td> Logo d'en-tête (stocké dans les ressources publiques Adobe Campaign)<br /> </td> 
+   <td> Logo d'en-tête (stocké dans les ressources publiques Adobe Campaign)<br /> </td> 
    <td> Attribut<br /> </td> 
    <td> Lien (link)<br /> </td> 
    <td> Image<br /> </td> 
@@ -145,7 +145,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
  </tbody> 
 </table>
 
-Le schéma contiendra donc les informations suivantes :
+Le schéma contiendra donc les informations suivantes :
 
 ```
 <element label="Invitation" name="invitation" template="ncm:content" xmlChildren="true">
@@ -164,19 +164,19 @@ Le schéma contiendra donc les informations suivantes :
 
 ## Etape 3 - Créer le formulaire de saisie {#step-3---creating-the-input-form}
 
-Le formulaire de saisie permet d&#39;éditer une instance de contenu via une interface de saisie à partir de la console cliente Adobe Campaign.
+Le formulaire de saisie permet d&#39;éditer une instance de contenu via une interface de saisie à partir de la console cliente Adobe Campaign.
 
 La description d&#39;un formulaire est un document XML structuré respectant la grammaire du schéma des formes &quot;xtk:form&quot;.
 
 >[!NOTE]
 >
->La création et le paramétrage des formulaires dans Adobe Campaign sont présentés dans [cette section](../../configuration/using/identifying-a-form.md).
+>La création et le paramétrage des formulaires dans Adobe Campaign sont présentés dans [cette section](../../configuration/using/identifying-a-form.md).
 >
 >Les éléments de paramétrage spécifiques à la gestion de contenu sont décrits dans [Formlaires de saisie](input-forms.md).
 
-Pour créer un formulaire de saisie pour la gestion de contenu, les étapes sont les suivantes :
+Pour créer un formulaire de saisie pour la gestion de contenu, les étapes sont les suivantes :
 
-1. Ouvrez l&#39;Explorateur Adobe Campaign et sélectionnez le noeud **[!UICONTROL Administration > Paramétrages > Formulaires de saisie]**.
+1. Ouvrez l&#39;Explorateur Adobe Campaign et sélectionnez le noeud **[!UICONTROL Administration > Paramétrages > Formulaires de saisie]**.
 
    Cliquez sur l&#39;icône **[!UICONTROL Nouveau]** située au-dessus de la liste des formulaires.
 
@@ -192,7 +192,7 @@ Pour créer un formulaire de saisie pour la gestion de contenu, les étapes sont
 
 1. Dans la section centrale de l&#39;éditeur, indiquez les champs que vous souhaitez afficher dans le formulaire de saisie.
 
-   Dans notre exemple, les informations seront du type :
+   Dans notre exemple, les informations seront du type :
 
    ```
     <input xpath="@title"/>
@@ -208,7 +208,7 @@ Pour créer un formulaire de saisie pour la gestion de contenu, les étapes sont
      </input>
    ```
 
-   L&#39;onglet **[!UICONTROL Aperçu]** permet de contrôler le rendu du formulaire en cours de réalisation :
+   L&#39;onglet **[!UICONTROL Aperçu]** permet de contrôler le rendu du formulaire en cours de réalisation :
 
    ![](assets/s_ncs_content_param_form_preview.png)
 
@@ -224,9 +224,9 @@ Dans notre exemple, nous allons utiliser un template Javascript pour définir le
 >
 >Les contraintes liées à la construction des documents (template JavaScript ou XSL) sont présentées dans la section [Formatage](formatting.md).
 
-Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les suivantes :
+Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les suivantes :
 
-1. Ouvrez l&#39;Explorateur Adobe Campaign et sélectionnez le noeud **[!UICONTROL Administration > Paramétrages > Templates JavaScript]**.
+1. Ouvrez l&#39;Explorateur Adobe Campaign et sélectionnez le noeud **[!UICONTROL Administration > Paramétrages > Templates JavaScript]**.
 
    Cliquez sur l&#39;icône **[!UICONTROL Nouveau]** située au-dessus de la liste des templates.
 
@@ -235,7 +235,7 @@ Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les s
 
    Ajoutez les éléments variables en respectant la syntaxe présentée dans la section [Templates JavaScript](formatting.md#javascript-templates).
 
-   Pour afficher le contenu proposé dans notre exemple, le template JavaScript contient les éléments suivants :
+   Pour afficher le contenu proposé dans notre exemple, le template JavaScript contient les éléments suivants :
 
    ```
    <html>
@@ -326,9 +326,9 @@ Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les s
    </html>
    ```
 
-   L&#39;appel à une fonction en début de template permet de mettre en forme l&#39;appel à des données de personnalisation issues de la base de données Adobe Campaign (ici : recipient.firstName et recipient.lastName), afin qu&#39;elles soient interprétées lors de leur utilisation dans une diffusion. Voir à ce sujet à la section [Inclusion d&#39;un template JavaScript](formatting.md#including-a-javascript-template).
+   L&#39;appel à une fonction en début de template permet de mettre en forme l&#39;appel à des données de personnalisation issues de la base de données Adobe Campaign (ici : recipient.firstName et recipient.lastName), afin qu&#39;elles soient interprétées lors de leur utilisation dans une diffusion. Voir à ce sujet à la section [Inclusion d&#39;un template JavaScript](formatting.md#including-a-javascript-template).
 
-   Dans notre exemple, la fonction contiendra le code suivant :
+   Dans notre exemple, la fonction contiendra le code suivant :
 
    ```
    function perso(strPerso)
@@ -345,7 +345,7 @@ Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les s
    }
    ```
 
-   Afin que le template javascript soit valide, cette fonction doit être préalablement créée depuis le noeud **[!UICONTROL Code Javascript]** de l&#39;arborescence, comme ci-dessous :
+   Afin que le template javascript soit valide, cette fonction doit être préalablement créée depuis le noeud **[!UICONTROL Code Javascript]** de l&#39;arborescence, comme ci-dessous :
 
    ![](assets/contentmgt_jscode_perso_sample.png)
 
@@ -357,7 +357,7 @@ Vous devez ensuite créer un modèle de publication de contenu qui permettra de 
 >
 >Pour plus d&#39;informations sur les modèles de publication de contenu, consultez la section [Modèles de publication](publication-templates.md).
 
-Pour notre exemple, les étapes sont les suivantes :
+Pour notre exemple, les étapes sont les suivantes :
 
 1. Créez un nouveau modèle de publication à partir du noeud **[!UICONTROL Administration > Paramétrages > Modèles de publication]**.
 1. Indiquez son nom, le libellé associé et sélectionnez le schéma et le formulaire à utiliser.
@@ -385,7 +385,7 @@ Vous pouvez enfin créer des contenus à partir de ce modèle de publication.
 
 ### Créer un contenu dans l&#39;assistant de diffusion {#creating-content-in-the-delivery-wizard}
 
-Pour créer un contenu directement dans les diffusions, la procédure est la suivante :
+Pour créer un contenu directement dans les diffusions, la procédure est la suivante :
 
 1. Vous devez d&#39;abord référencer le modèle de publication à partir de l&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion.
 

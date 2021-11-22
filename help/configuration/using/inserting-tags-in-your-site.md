@@ -23,7 +23,7 @@ Cette méthode consiste à effectuer l&#39;appel HTTP au serveur de redirection 
 
 >[!IMPORTANT]
 >
->Cette méthode utilise les cookies transmis par le navigateur Web pour identifier le destinataire : sa fiabilité n&#39;est pas garantie à 100%.
+>Cette méthode utilise les cookies transmis par le navigateur Web pour identifier le destinataire : sa fiabilité n&#39;est pas garantie à 100%.
 
 **Exemple**:
 
@@ -43,7 +43,7 @@ Néanmoins, lorsque vous utilisez des balises de type TRANSACTION, vous devez mo
 
 Pour procéder à une insertion statique des balises, il suffit de copier/coller les balises générées via la console, ou construites manuellement dans le source de votre page Web.
 
-**Exemple** : insertion d&#39;une balise de tracking Web sur une page proposant un formulaire.
+**Exemple** : insertion d&#39;une balise de tracking Web sur une page proposant un formulaire.
 
 ```
 <html>
@@ -91,7 +91,7 @@ Insertion d&#39;une balise de tracking Web de type TRANSACTION sur la page de co
 
 Lorsque vos pages web sont générées dynamiquement, vous avez la possibilité d&#39;ajouter la balise de tracking Web au moment de la génération des pages.
 
-**Exemple** : tracking Web ajouté dans des JSP.
+**Exemple** : tracking Web ajouté dans des JSP.
 
 ```
 <%@page import="java.util.Random" %>
@@ -134,9 +134,9 @@ L’URL que vous créez doit respecter les règles de syntaxe définies dans la 
 
 >[!NOTE]
 >
->La redirection et le tracking Web utilisent des cookies : il est important que le serveur Web effectuant l&#39;appel HTTP synchrone soit sur le même domaine que le serveur de redirection. Les différents échanges HTTP doivent faire transiter les cookies &#39;id&#39;, &#39;uuid&#39; et &#39;uuid230&#39;.
+>La redirection et le tracking Web utilisent des cookies : il est important que le serveur Web effectuant l&#39;appel HTTP synchrone soit sur le même domaine que le serveur de redirection. Les différents échanges HTTP doivent faire transiter les cookies &#39;id&#39;, &#39;uuid&#39; et &#39;uuid230&#39;.
 
-**Exemple** : génération dynamique en java, avec authentification du destinataire via son numéro de compte.
+**Exemple** : génération dynamique en java, avec authentification du destinataire via son numéro de compte.
 
 ```
 [...]

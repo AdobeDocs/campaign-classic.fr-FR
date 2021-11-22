@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Adobe Campaign intègre un module graphique de définition et de publication de formulaires web afin de créer des pages proposant des champs de saisie et de sélection, et pouvant inclure des données de la base. Vous pouvez ainsi concevoir et mettre en ligne des pages web auxquelles les utilisateurs pourront accéder pour consulter ou renseigner des informations.
+Adobe Campaign intègre un module graphique de définition et de publication de formulaires web afin de créer des pages proposant des champs de saisie et de sélection, et pouvant inclure des données de la base. Vous pouvez ainsi concevoir et mettre en ligne des pages web auxquelles les utilisateurs pourront accéder pour consulter ou renseigner des informations.
 
 Ce chapitre présente le mode de création et de gestion d&#39;un formulaire Web, la gestion des champs et des pages, les modes de stockage et d&#39;enregistrement.
 
@@ -27,13 +27,13 @@ Ce chapitre présente le mode de création et de gestion d&#39;un formulaire Web
 
 ## Etapes de création d&#39;un formulaire web {#steps-for-creating-a-web-form}
 
-Le chapitre suivant présente les étapes de conception d&#39;un formulaire de type **webForm** sous Adobe Campaign, ainsi que les options et paramétrages disponibles. Adobe Campaign permet de mettre ce formulaire Web à disposition des utilisateurs, et de collecter et archiver les réponses dans la base de données.
+Le chapitre suivant présente les étapes de conception d&#39;un formulaire de type **webForm** sous Adobe Campaign, ainsi que les options et paramétrages disponibles. Adobe Campaign permet de mettre ce formulaire Web à disposition des utilisateurs, et de collecter et archiver les réponses dans la base de données.
 
 >[!CAUTION]
 >
 >Lors de la configuration d&#39;applications web et de formulaires web, vous devez disposer d&#39;une résolution verticale minimale de 900 pixels (ex : 1 600x900).
 
-Les formulaires web sont accessibles via le menu Applications Web de l&#39;onglet **Campagnes**. Dans l&#39;arborescence d&#39;Adobe Campaign, ils sont regroupés sous le nœud **[!UICONTROL Ressources > En ligne > Applications Web]**.
+Les formulaires web sont accessibles via le menu Applications Web de l&#39;onglet **Campagnes**. Dans l’arborescence d’Adobe Campaign, ils sont regroupés sous le nœud **[!UICONTROL Ressources > En ligne > Applications Web]**.
 
 Pour créer un formulaire Web, cliquez sur le bouton **[!UICONTROL Créer]** situé au-dessus de la liste des applications Web.
 
@@ -51,7 +51,7 @@ L&#39;onglet **[!UICONTROL Edition]** permet d&#39;en créer le contenu.
 
 ![](assets/webapp_edit_tab.png)
 
-Pour définir le paramétrage et le contenu du formulaire Web, les étapes sont les suivantes :
+Pour définir le paramétrage et le contenu du formulaire Web, les étapes sont les suivantes :
 
 * Commencez par créer les pages et contrôles requis : champs de saisie, listes déroulantes, contenus HTML, etc.
 
@@ -69,7 +69,7 @@ Pour définir le paramétrage et le contenu du formulaire Web, les étapes sont 
 
 Les pages du formulaire sont créées dans un éditeur spécifique qui permet de définir et de configurer des zones d&#39;entrée (texte), des champs de sélection (listes, cases à cocher, etc.) et des éléments statiques (images, contenus HTML, etc.). Ces éléments peuvent être regroupés en conteneurs et leur disposition modifiée en fonction de vos besoins (voir à ce sujet la section [Créer des conteneurs](defining-web-forms-layout.md#creating-containers)).
 
-La définition du contenu et de la mise en page des écrans du formulaire sont présentés dans les sections suivantes :
+La définition du contenu et de la mise en page des écrans du formulaire sont présentés dans les sections suivantes :
 
 * [Ajouter des champs à un formulaire web](adding-fields-to-a-web-form.md),
 * [Insérer du contenu HTML](static-elements-in-a-web-form.md#inserting-html-content),
@@ -79,7 +79,8 @@ La définition du contenu et de la mise en page des écrans du formulaire sont p
 >[!NOTE]
 >
 >* Au cours de la conception des pages, vous pouvez visualiser le rendu final dans le sous-onglet **[!UICONTROL Aperçu]**. Pour visualiser les modifications, vous devez enregistrer le formulaire. Les erreurs éventuelles sont affichées dans l&#39;onglet **[!UICONTROL Journal]**.
->* Vous pouvez contrôler le bon enchaînement des pages et le stockage des informations en activant le mode debug au niveau du formulaire Web. Pour cela, à partir du sous-onglet **[!UICONTROL Aperçu]**, cochez l&#39;option **[!UICONTROL Activer le mode debug]** : les informations collectées et les éventuelles erreurs d&#39;exécution seront alors affichées en bas de chaque page.
+>* Vous pouvez contrôler le bon enchaînement des pages et le stockage des informations en activant le mode debug au niveau du formulaire Web. Pour cela, à partir du sous-onglet **[!UICONTROL Aperçu]**, cochez l&#39;option **[!UICONTROL Activer le mode debug]** : les informations collectées et les éventuelles erreurs d&#39;exécution seront alors affichées en bas de chaque page.
+
 >
 
 

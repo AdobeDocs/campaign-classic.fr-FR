@@ -27,7 +27,7 @@ Les prérequis suivants doivent être remplis :
 * connaissances des systèmes et du côté serveur,
 * Autorisations et droits administratifs.
 
-Vous trouverez des informations supplémentaires dans ces sections : [Mise à jour d&#39;Adobe Campaign](../../production/using/upgrading.md), [Migration vers une nouvelle version](../../migration/using/about-migration.md).
+Vous trouverez plus d’informations dans ces sections : [Mise à jour d’Adobe Campaign](../../production/using/upgrading.md), [Migration vers une nouvelle version](../../migration/using/about-migration.md).
 
 Pour les instances hybrides et hébergées, vous devez demander un upgrade de build à l&#39;équipe d&#39;exploitation technique Adobe. Pour plus d&#39;informations, reportez-vous à la section Forum aux questions située au bas de cette page. Consultez également le [FAQ sur l&#39;upgrade de build](../../platform/using/faq-build-upgrade.md).
 
@@ -42,8 +42,8 @@ L&#39;upgrade de build requiert les ressources suivantes :
 
 * Un architecte Adobe : pour comprendre les structures de base de données (schémas d&#39;usine et autres schémas ajoutés, conceptions de campagnes et fonctionnalités de chemin critique devant être démarrées et testées dans un ordre spécifique).
 * Un chef de projet : dans le cas où l&#39;upgrade de build implique plusieurs instances différentes (production, staging, test) et d&#39;autres serveurs et applications tiers (bases de données, sites SFTP, fournisseurs de services de messagerie), il est recommandé de faire appel à un chef de projet pour coordonner tous les tests.
-* Un administrateur Adobe Campaign : votre administrateur connaît la configuration du serveur, notamment : la sécurité, la disposition des dossiers, le reporting et les exigences en matière d&#39;import et d&#39;export. N&#39;effectuez pas d&#39;upgrade de build sans l&#39;aide de votre administrateur.
-* Un opérateur Adobe Campaign (utilisateur marketing) : la réussite d&#39;un upgrade dépend de la capacité d&#39;un utilisateur à effectuer correctement ses tâches quotidiennes. Pour cette raison, incluez toujours au moins un de vos opérateurs quotidiens dans vos tests des serveurs mis à jour.
+* Un administrateur Adobe Campaign : votre administrateur connaît la configuration du serveur, notamment : la sécurité, la disposition des dossiers, le reporting et les exigences en matière d&#39;import et d&#39;export. N&#39;effectuez pas d&#39;upgrade de build sans l&#39;aide de votre administrateur.
+* Un opérateur Adobe Campaign (utilisateur marketing) : la réussite d&#39;un upgrade dépend de la capacité d&#39;un utilisateur à effectuer correctement ses tâches quotidiennes. Pour cette raison. incluez , toujours au moins un de vos opérateurs quotidiens dans vos tests des serveurs mis à jour.
 
 ### Planification
 
@@ -53,19 +53,19 @@ Voici les points essentiels pour planifier un upgrade de build :
 1. Communiquez les coordonnées de l&#39;équipe Adobe et du personnel du client.
 1. Pour les instances hébergées : l&#39;équipe Adobe et le personnel du client coordonneront l&#39;heure et le responsable de l&#39;exécution de l&#39;upgrade.
 1. Pour les instances on-premise : le personnel du client gère la totalité du processus. S&#39;il a besoin d&#39;aide pour les tests des workflows personnalisés et la logique des diffusions, il doit faire appel aux services de consulting.
-1. Déterminez et confirmez la version vers laquelle vous souhaitez mettre à jour Adobe Campaign. Consultez les [notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/rn-overview.md).
+1. Déterminez et confirmez la version vers laquelle vous souhaitez mettre à jour Adobe Campaign. Consultez les [notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/rn-overview.md).
 1. Vérifiez que vous possédez les exécutables pour l&#39;upgrade.
 
 ### Acteurs clés
 
 L&#39;upgrade de build requiert l&#39;implication des personnes suivantes :
 
-* Architecte Adobe : l’architecte doit se charger de la coordination avec l’assistance clientèle d’Adobe Campaign en cas d’architecture hébergée ou hybride.
+* Architecte Adobe : l’architecte doit se charger de la coordination avec l’assistance clientèle d’Adobe Campaign en cas d’architecture hébergée ou hybride.
 
 * Chef de projet :
    * Pour les installations On Premise : le chef de projet interne du client dirige l&#39;upgrade et gère les tests de cycle de vie.
 
-   * Pour les installations hébergées : l&#39;équipe d&#39;hébergement s&#39;associera à l&#39;équipe de l&#39;Assistance clientèle Adobe Campaign et au client pour coordonner le calendrier de l&#39;upgrade pour toutes les instances.
+   * pour les installations hébergées : l&#39;équipe d&#39;hébergement s&#39;associera à l&#39;équipe de l&#39;Assistance clientèle d’Adobe Campaign et au client pour coordonner le calendrier de l’upgrade pour toutes les instances.
 
 * Administrateur Adobe Campaign :
    * Pour les installations On-Premise : l&#39;administrateur effectue l&#39;upgrade.
@@ -146,8 +146,8 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
 
 1. Arrêtez les services suivants :
 
-   * services Web (IIS) :     **iisreset /stop**
-   * service Adobe Campaign : **net stop nlserver6**
+   * services Web (IIS) :  **iisreset /stop**
+   * service Adobe Campaign : **net stop nlserver6**
 
    >[!NOTE]
    >
@@ -200,13 +200,13 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
 Les services suivants doivent être redémarrés :
 
 * services web (IIS) : **issreset /start**
-* service Adobe Campaign : **net start nlserver6**
+* service Adobe Campaign : **net start nlserver6**
 
 ### Mise à jour des consoles clientes
 
 La console cliente doit présenter le même build que l&#39;instance de serveur.
 
-Sur la machine sur laquelle est installé le serveur applicatif Adobe Campaign (nlserverweb), téléchargez puis copiez le fichier suivant :
+Sur la machine sur laquelle est installé le serveur applicatif Adobe Campaign (nlserverweb), téléchargez puis copiez le fichier suivant :
 
 ```
 Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
@@ -305,14 +305,14 @@ Si aucune de ces deux conditions n&#39;est applicable, il s&#39;agit d&#39;un fa
 
 1. Existe-t-il des « suspects habituels » tels que des applications web ou des rapports intégrés (&#39;deliveryValidation&#39;, &#39;deliveryOverview&#39; ou &#39;budget&#39;, par exemple).
 1. Recherchez des mises à jour dans les journaux des modifications.
-1. Renseignez-vous auprès des utilisateurs experts d&#39;Adobe Campaign.
+1. Renseignez-vous auprès des utilisateurs experts d’Adobe Campaign.
 1. Comparez les versions du code pour rechercher des différences avec la commande diff.
 
 ### Résoudre un conflit
 
 Pour résoudre un conflit, procédez de la manière suivante :
 
-1. Dans l&#39;explorateur d&#39;Adobe Campaign, accédez à **Administration > Paramétrage > Gestion des packages > Edition des conflits**.
+1. Dans l&#39;explorateur d&#39;Adobe Campaign, accédez à **Administration > Paramétrage > Gestion des packages > Edition des conflits**.
 
 1. Sélectionnez le conflit que vous souhaitez résoudre dans la liste.
 Il existe trois façons de résoudre un conflit : **accepter la nouvelle version**, **conserver la version actuelle**, **fusionner le code (et déclarer le conflit comme résolu)**, **ignorer le conflit (non recommandé)**.
@@ -386,11 +386,11 @@ Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 1. Dans la partie inférieure de la fenêtre, faites une recherche sur la **_conflict_string_** pour localiser les entités en conflit. L&#39;entité installée avec la nouvelle version contient l&#39;argument new, l&#39;entité correspondant à la version précédente contient l&#39;argument custom.
 1. Supprimez la version que vous ne souhaitez pas conserver. Effacez la chaîne **_conflict_argument_** de l&#39;entité que vous gardez.
 1. Positionnez-vous sur le conflit que vous venez de résoudre. Cliquez sur l&#39;icône **Actions** et sélectionnez **Déclarer comme résolu**.
-1. Enregistrez vos modifications : le conflit est désormais résolu.
+1. Enregistrez vos modifications : le conflit est désormais résolu.
 
 #### Fusions complexes{#complex-merges}
 
-1. Comprendre l&#39;impact de la modification : effectuez une rétroconception des modifications, examinez les logs des modifications, renseignez-vous auprès des experts d&#39;Adobe Campaign.
+1. Comprendre l&#39;impact de la modification : effectuez une rétroconception des modifications, examinez les logs des modifications, renseignez-vous auprès des experts Adobe Campaign.
 1. Décider de ce qu&#39;il faut faire de la modification.
 1. Comprendre l&#39;impact des personnalisations : effectuez une rétroconception des modifications
 

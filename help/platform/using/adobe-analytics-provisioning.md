@@ -8,7 +8,7 @@ role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: 671e29425e8962ced833c10303b6edce7afda462
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 100%
 
@@ -26,21 +26,21 @@ ht-degree: 100%
 
 L’intégration entre l’authentification Adobe Campaign Classic et Adobe Analytics prend en charge Adobe Identity Management Service (IMS) :
 
-* Si vous gérez un compte externe migré, vous devez mettre en œuvre Adobe IMS et vous connecter à Adobe Campaign via un Adobe ID. L’utilisateur connecté via Adobe ID IMS doit être le propriétaire du compte **Connecteur de données** dans Adobe Analytics et disposer d’un ensemble d’autorisations pour le **Profil de produit** mentionné ci-dessous.
+* Si vous gérez un compte externe migré, vous devez mettre en œuvre Adobe IMS et vous connecter à Adobe Campaign via un Adobe ID. L’utilisateur connecté via Adobe ID IMS doit être le propriétaire du compte **Connecteur de données** dans Adobe Analytics et disposer d’un ensemble d’autorisations pour le **Profil de produit** mentionné ci-dessous.
 
 * Si vous implémentez un nouveau connecteur, la mise en œuvre d’Adobe IMS est facultative. En l’absence d&#39;un utilisateur Adobe ID, Adobe Campaign utilisera un utilisateur technique pour se synchroniser avec Adobe Analytics.
 
-Pour que cette intégration fonctionne, vous devez créer un profil produit Adobe Analytics qui sera utilisé exclusivement pour le connecteur Analytics. Vous devez ensuite créer un projet Adobe I/O.
+Pour que cette intégration fonctionne, vous devez créer un profil produit Adobe Analytics qui sera utilisé exclusivement pour le connecteur Analytics. Vous devez ensuite créer un projet Adobe I/O.
 
-## Création d’un profil produit Adobe Analytics {#analytics-product-profile}
+## Création d’un profil produit Adobe Analytics {#analytics-product-profile}
 
 Le profil produit détermine le niveau d’accès d’un utilisateur à vos différents composants Analytics.
 
-Si vous disposez déjà d’un profil produit Analytics, vous devez tout de même créer un profil produit Adobe Analytics qui sera utilisé exclusivement pour le connecteur Analytics. Cela permet de s’assurer que votre profil produit est défini avec les autorisations appropriées pour cette intégration.
+Si vous disposez déjà d’un profil produit Analytics, vous devez tout de même créer un profil produit Adobe Analytics qui sera utilisé exclusivement pour le connecteur Analytics. Cela permet de s’assurer que votre profil produit est défini avec les autorisations appropriées pour cette intégration.
 
 Pour en savoir plus sur les profils produit, consultez la [documentation relative à Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html).
 
-1. Dans [Admin Console](https://adminconsole.adobe.com/), sélectionnez votre **[!UICONTROL Produit]** Adobe Analytics.
+1. Dans [Admin Console](https://adminconsole.adobe.com/), sélectionnez votre **[!UICONTROL Produit]** Adobe Analytics.
 
    ![](assets/do-not-localize/triggers_1.png)
 

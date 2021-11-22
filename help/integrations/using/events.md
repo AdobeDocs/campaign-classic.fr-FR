@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Une partie de cette configuration est un travail de développement personnalisé qui requiert les connaissances suivantes :
 
-* connaissances opérationnelles de l’analyse JSON, XML et Javascript dans Adobe Campaign,
+* connaissances opérationnelles de l’analyse JSON, XML et Javascript dans Adobe Campaign,
 * connaissances opérationnelles des API QueryDef et Writer,
 * notions de chiffrement et d&#39;authentification à l’aide de clés privées.
 
@@ -228,7 +228,7 @@ Les événements peuvent être affichés avec un formulaire simple basé sur le 
 La réconciliation est le processus de mise en correspondance du client d&#39;Adobe Analytics dans la base de données Campaign. Par exemple, les critères de correspondance peuvent être shopper_id.
 
 Pour des raisons de performances, la correspondance doit être effectuée en mode batch par un workflow.
-La fréquence doit être définie sur 15 minutes pour optimiser la charge de travail. Par conséquent, le délai entre la réception d’un événement dans Adobe Campaign et son traitement par un workflow marketing est de 15 minutes maximum.
+La fréquence doit être définie sur 15 minutes pour optimiser la charge de travail. Par conséquent, le délai entre la réception d’un événement dans Adobe Campaign et son traitement par un workflow marketing est de 15 minutes maximum.
 
 ### Options de réconciliation des unités dans JavaScript {#options-unit-reconciliation}
 

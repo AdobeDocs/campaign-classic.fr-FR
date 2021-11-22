@@ -25,7 +25,7 @@ Lorsque vous utilisez l&#39;assistant d&#39;ajout de champs, le type de champ es
 
 Lorsque vous utilisez les boutons de la barre d&#39;outils, sélectionnez directement le type de champ à ajouter.
 
-Les types de champs disponibles sont les suivants :
+Les types de champs disponibles sont les suivants :
 
 * Entrée texte/nombre. Voir [Ajouter des champs de saisie](#adding-input-fields).
 * Sélection d&#39;une liste déroulante. Voir [Ajouter des listes déroulantes](#adding-drop-down-lists).
@@ -50,7 +50,7 @@ Pour chaque page du formulaire, vous pouvez ajouter un champ via le premier bout
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
-Sélectionnez le type de champ que vous souhaitez créer : vous pouvez choisir d&#39;ajouter un champ de la base, une variable ou d&#39;importer un groupe de champs créé dans un autre formulaire et regroupés dans un conteneur.
+Sélectionnez le type de champ que vous souhaitez créer : vous pouvez choisir d&#39;ajouter un champ de la base, une variable ou d&#39;importer un groupe de champs créé dans un autre formulaire et regroupés dans un conteneur.
 
 Cliquez sur le bouton **[!UICONTROL Suivant]** et choisissez le champ ou la variable de stockage, ou le conteneur à importer.
 
@@ -68,9 +68,9 @@ Pour ajouter un champ de saisie, cliquez sur le bouton **[!UICONTROL Contrôle d
 
 ### Types de champs de saisie {#types-of-input-fields}
 
-Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
+Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
 
-* **Texte** : permet à l&#39;utilisateur de saisir du texte, sur une ligne.
+* **Texte** : permet à l&#39;utilisateur de saisir du texte, sur une ligne.
 
    ![](assets/s_ncs_admin_survey_txt_ex.png)
 
@@ -78,7 +78,7 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
 
    Lors de la validation de la page, le contenu des champs est contrôlé afin de vérifier que la valeur saisie est compatible avec le champ. Voir à ce sujet la section [Définir les paramètres de contrôle](form-rendering.md#defining-control-settings).
 
-* **Mot de passe** : permet à l&#39;utilisateur de saisir du texte sur une seule ligne. Lors de la saisie, les caractères sont remplacés par des points :
+* **Mot de passe** : permet à l&#39;utilisateur de saisir du texte sur une seule ligne. Lors de la saisie, les caractères sont remplacés par des points :
 
    ![](assets/s_ncs_admin_survey_passwd_ex.png)
 
@@ -86,7 +86,7 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
    >
    >Les mots de passe sont stockés en clair dans la base, sans chiffrement.
 
-* **Texte multi-lignes** : permet à l&#39;utilisateur de saisir du texte sur plusieurs lignes.
+* **Texte multi-lignes** : permet à l&#39;utilisateur de saisir du texte sur plusieurs lignes.
 
    ![](assets/s_ncs_admin_survey_txtmulti_ex.png)
 
@@ -94,7 +94,7 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
    >
    >Les champs de texte multi-lignes sont des champs spécifiques qui peuvent contenir des retours à la ligne. Leur espace de stockage doit être associé à un champ mappé sur un élément XML et non sur un attribut XML.
 
-* **Texte multi-lignes enrichi** : permet à l&#39;utilisateur de saisir du texte, avec mise en forme, qui sera stocké au format HTML.
+* **Texte multi-lignes enrichi** : permet à l&#39;utilisateur de saisir du texte, avec mise en forme, qui sera stocké au format HTML.
 
    ![](assets/s_ncs_admin_survey_txthtmli_ex.png)
 
@@ -102,13 +102,13 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
 
    ![](assets/webapp_enrich_text_type.png)
 
-   Selon le type d&#39;éditeur sélectionné, le nombre d&#39;icônes affichées sera différent. Pour un éditeur **[!UICONTROL Avancé]**, le rendu sera le suivant :
+   Selon le type d&#39;éditeur sélectionné, le nombre d&#39;icônes affichées sera différent. Pour un éditeur **[!UICONTROL Avancé]**, le rendu sera le suivant :
 
    ![](assets/webapp_enrich_text_max.png)
 
 ### Paramétrage des champs de saisie {#configure-input-fields}
 
-Les champs de saisie sont tous paramétrés selon le même mode, au travers des options suivantes :
+Les champs de saisie sont tous paramétrés selon le même mode, au travers des options suivantes :
 
 ![](assets/s_ncs_admin_survey_txt_param.png)
 
@@ -124,7 +124,7 @@ L&#39;onglet **[!UICONTROL Avancé]** permet de définir des paramètres d&#39;a
 
 ## Ajouter des listes déroulantes {#adding-drop-down-lists}
 
-Dans une page de formulaire, vous pouvez insérer une liste déroulante : elle permet à l&#39;utilisateur de sélectionner une valeur parmi celles proposées dans un menu déroulant.
+Dans une page de formulaire, vous pouvez insérer une liste déroulante : elle permet à l&#39;utilisateur de sélectionner une valeur parmi celles proposées dans un menu déroulant.
 
 ![](assets/s_ncs_admin_survey_dropdown_sample.png)
 
@@ -134,7 +134,7 @@ Pour ajouter une liste déroulante dans une page de formulaire, cliquez sur le b
 
 Sélectionnez le mode de stockage des réponses et validez votre choix.
 
-Définissez les libellés et valeurs de la liste dans la section inférieure de l&#39;onglet **[!UICONTROL Général]**. Si les informations sont stockées dans un champ existant de la base de données et s&#39;il s&#39;agit d&#39;un champ d&#39;énumération, vous pouvez renseigner automatiquement les valeurs en cliquant sur le lien **[!UICONTROL Initialiser la liste des valeurs depuis la base de données]**, comme dans l&#39;exemple suivant :
+Définissez les libellés et valeurs de la liste dans la section inférieure de l&#39;onglet **[!UICONTROL Général]**. Si les informations sont stockées dans un champ existant de la base de données et s&#39;il s&#39;agit d&#39;un champ d&#39;énumération, vous pouvez renseigner automatiquement les valeurs en cliquant sur le lien **[!UICONTROL Initialiser la liste des valeurs depuis la base de données]**, comme dans l&#39;exemple suivant :
 
 ![](assets/s_ncs_admin_survey_database_values.png)
 
@@ -146,7 +146,7 @@ Si les données sont stockées dans une table liée, vous pouvez sélectionner l
 
 ![](assets/s_ncs_admin_survey_preload_values.png)
 
-Cliquez ensuite sur le lien **[!UICONTROL Charger]** pour récupérer les valeurs :
+Cliquez ensuite sur le lien **[!UICONTROL Charger]** pour récupérer les valeurs :
 
 ![](assets/s_ncs_admin_survey_load_button.png)
 
@@ -170,21 +170,21 @@ Saisissez le libellé de la case dans le champ **[!UICONTROL Libellé]** de l&#3
 
 Une case à cocher permet d&#39;attribuer au champ (ou à la variable) de stockage une valeur ou une autre selon que la case est cochée ou non. La section **[!UICONTROL Valeurs]** permet de saisir la valeur à attribuer si la case est cochée (dans le champ **[!UICONTROL Valeur]**) et la valeur à attribuer si la case est décochée (dans le champ **[!UICONTROL Valeur vide]**). Ces valeurs dépendent du format de stockage des données.
 
-Si le champ (ou la variable) de stockage est de type booléen, la valeur à attribuer si la case n&#39;est pas cochée est déduite automatiquement. Dans ce cas, seul le champ **[!UICONTROL Valeur si coché]** est proposé, comme dans l&#39;exemple suivant :
+Si le champ (ou la variable) de stockage est de type booléen, la valeur à attribuer si la case n&#39;est pas cochée est déduite automatiquement. Dans ce cas, seul le champ **[!UICONTROL Valeur si coché]** est proposé, comme dans l&#39;exemple suivant :
 
 ![](assets/s_ncs_admin_survey_check_box_enum.png)
 
 ## Exemple : attribuer une valeur à un champ si une case est cochée {#example--assign-a-value-to-a-field-if-a-box-is-checked}
 
-Nous allons insérer une case à cocher dans un formulaire afin de transmettre une demande d&#39;intervention, comme ci-dessous :
+Nous allons insérer une case à cocher dans un formulaire afin de transmettre une demande d&#39;intervention, comme ci-dessous :
 
 ![](assets/s_ncs_admin_survey_check_box_ex.png)
 
-L&#39;information sera remontée dans la base de données dans un champ existant (ici, le champ **[!UICONTROL Commentaire]**) :
+L&#39;information sera remontée dans la base de données dans un champ existant (ici, le champ **[!UICONTROL Commentaire]**) :
 
 ![](assets/s_ncs_admin_survey_check_box_ex_list.png)
 
-Si la case &quot;Demande d&#39;intervention&quot; est cochée, la colonne **[!UICONTROL Commentaire]** contiendra le message &quot;Intervention souhaitée&quot;, si elle est décochée, elle contiendra le message &quot;Sans intervention&quot;. Pour obtenir ce résultat, le paramétrage de la case à cocher dans la page du formulaire doit être le suivant :
+Si la case &quot;Demande d&#39;intervention&quot; est cochée, la colonne **[!UICONTROL Commentaire]** contiendra le message &quot;Intervention souhaitée&quot;, si elle est décochée, elle contiendra le message &quot;Sans intervention&quot;. Pour obtenir ce résultat, le paramétrage de la case à cocher dans la page du formulaire doit être le suivant :
 
 ![](assets/s_ncs_admin_survey_check_box_ex_edit.png)
 
@@ -223,7 +223,7 @@ Vous ajoutez autant de boutons radio que de libellés. L&#39;avantage est de pou
 
 ## Ajouter des matrices {#adding-grids}
 
-Les matrices sont utilisées pour réaliser des pages de votes dans les applications Web. Vous pouvez ainsi proposer des listes de boutons radio afin de répondre à des formulaires Web de type sondages ou évaluation, comme dans l&#39;exemple ci-dessous :
+Les matrices sont utilisées pour réaliser des pages de votes dans les applications Web. Vous pouvez ainsi proposer des listes de boutons radio afin de répondre à des formulaires Web de type sondages ou évaluation, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_admin_survey_vote_param.png)
 
@@ -285,19 +285,19 @@ Vous pouvez créer des champs adaptés pour la saisie de nombres.
 
 ![](assets/s_ncs_admin_survey_number.png)
 
-Dans un champ numérique, l&#39;utilisateur ne peut saisir que des chiffres : un contrôle de saisie est automatiquement appliqué lors de la validation de la page.
+Dans un champ numérique, l&#39;utilisateur ne peut saisir que des chiffres : un contrôle de saisie est automatiquement appliqué lors de la validation de la page.
 
-En fonction du champ de stockage des données dans la base, un formatage spécifique ou certaines restrictions peuvent être appliqués. Vous pouvez également définir des valeurs minimales et maximales. Le paramétrage de ce type de champ est le suivant :
+En fonction du champ de stockage des données dans la base, un formatage spécifique ou certaines restrictions peuvent être appliqués. Vous pouvez également définir des valeurs minimales et maximales. Le paramétrage de ce type de champ est le suivant :
 
 ![](assets/s_ncs_admin_survey_number_edit.png)
 
 La valeur par défaut est la valeur affichée dans le champ lors de l&#39;affichage du formulaire. Elle peut être corrigée par l&#39;utilisateur.
 
-Vous pouvez ajouter un préfixe et/ou un suffixe au champ numérique, à partir de l&#39;onglet **[!UICONTROL Avancé]**, comme dans l&#39;exemple suivant :
+Vous pouvez ajouter un préfixe et/ou un suffixe au champ numérique, à partir de l&#39;onglet **[!UICONTROL Avancé]**, comme dans l&#39;exemple suivant :
 
 ![](assets/s_ncs_admin_survey_number_ex_conf.png)
 
-Dans le formulaire, le rendu sera :
+Dans le formulaire, le rendu sera :
 
 ![](assets/s_ncs_admin_survey_number_ex.png)
 
@@ -343,7 +343,7 @@ Saisissez le libellé du champ. Ce libellé sera affiché devant la zone d&#39;a
 >
 >Pour les contrôles de type **[!UICONTROL captcha]**, il n&#39;est pas nécessaire d&#39;indiquer de champ ou variable de stockage.
 
-Le Captcha est inséré dans la page avec un champ de saisie positionné sous le visuel afin de permettre la saisie. Ces deux éléments sont indissociables : pour la mise en page, ils sont considérés comme un seul élément (ils n&#39;occupent qu&#39;une seule cellule).
+Le Captcha est inséré dans la page avec un champ de saisie positionné sous le visuel afin de permettre la saisie. Ces deux éléments sont indissociables : pour la mise en page, ils sont considérés comme un seul élément (ils n&#39;occupent qu&#39;une seule cellule).
 
 ![](assets/s_ncs_admin_survey_captcha_sample.png)
 
@@ -351,7 +351,7 @@ Lors de la validation de la page, le champ de saisie est affiché en rouge si le
 
 ![](assets/s_ncs_admin_survey_captcha_error.png)
 
-Vous pouvez créer un message d&#39;erreur à afficher : pour cela, utilisez le lien **[!UICONTROL Personnaliser le message]** dans l&#39;onglet **[!UICONTROL Général]**.
+Vous pouvez créer un message d&#39;erreur à afficher : pour cela, utilisez le lien **[!UICONTROL Personnaliser le message]** dans l&#39;onglet **[!UICONTROL Général]**.
 
 ![](assets/s_ncs_admin_survey_captcha_error_msg.png)
 
@@ -374,9 +374,9 @@ Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans u
 >[!CAUTION]
 >
 >* Ce type de champ doit être réservé aux formulaires dont l&#39;accès est sécurisé via la saisie d&#39;un identifiant/mot de passe.
->* Adobe Campaign n&#39;applique aucun contrôle sur la taille ou le type de ressource téléchargée : il est donc vivement recommandé de n&#39;utiliser les champs de téléchargement que pour les sites de type intranet sécurisé.
+>* Adobe Campaign n&#39;applique aucun contrôle sur la taille ou le type de ressource téléchargée : il est donc vivement recommandé de n&#39;utiliser les champs de téléchargement que pour les sites de type intranet sécurisé.
 >* Lorsque plusieurs serveurs sont associés à l&#39;instance (architecture « load balancing »), vous devez vous assurer que les appels au formulaire web arrivent sur le même serveur.
->* Ce type d&#39;implémentation peut nécessiter l&#39;intervention de l&#39;équipe Consulting d&#39;Adobe Campaign.
+>* Ce type d&#39;implémentation peut nécessiter l&#39;intervention de l&#39;équipe Consulting d&#39;Adobe Campaign.
 
 >
 

@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Des améliorations ont été effectuées, dans Adobe Campaign v7, afin d&#39;optimiser la sécurité.
+Des améliorations ont été effectuées, dans Adobe Campaign v7, afin d&#39;optimiser la sécurité.
 
 Si vous migrez depuis une plateforme v6.10, et que le build de votre console cliente est antérieur à 8104, il est impératif de mettre cette dernière à jour. Si vous ne l&#39;avez pas fait avant la migration, vous serez invité à le faire lors de la reconnexion. Cliquez sur **[!UICONTROL Oui]**.
 

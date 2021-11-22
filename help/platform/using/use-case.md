@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Cas pratique
-description: Cas pratique
+title: 'Utilisation : '
+description: 'Utilisation : '
 audience: platform
 content-type: reference
 topic-tags: filtering-data
@@ -13,7 +13,7 @@ ht-degree: 90%
 
 ---
 
-# Cas pratique{#use-case}
+# Utilisation : {#use-case}
 
 ![](../../assets/common.svg)
 
@@ -40,13 +40,13 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_user_filter_edit_schema.png)
 
-   Vous pouvez alors consulter le contenu du document sélectionné :
+   Vous pouvez alors consulter le contenu du document sélectionné :
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
    Ces champs seront accessibles pour la définition des conditions de filtrage dans le corps de l&#39;éditeur de filtres. Le mode de définition d&#39;un filtre applicatif est identique à celui d&#39;un filtre avancé. Pour plus d&#39;informations, consultez la section [Créer un filtre avancé](../../platform/using/creating-filters.md#creating-an-advanced-filter).
 
-1. Créez un nouveau filtre sur les abonnements afin de n&#39;afficher que les abonnements pour lequel aucun format des email n&#39;a été défini :
+1. Créez un nouveau filtre sur les abonnements afin de n&#39;afficher que les abonnements pour lequel aucun format des email n&#39;a été défini :
 
    ![](assets/s_ncs_user_filter_parameters.png)
 

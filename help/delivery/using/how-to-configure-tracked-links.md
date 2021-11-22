@@ -66,7 +66,7 @@ Le tracking des messages est activé par défaut. Pour personnaliser le tracking
    Pour chaque URL, vous pouvez définir le mode de tracking sur l’une de ces valeurs :
 
    * **[!UICONTROL Activé]** : active le tracking de cette URL.
-   * **[!UICONTROL Non activé]** : désactive le suivi de cette URL.
+   * **[!UICONTROL Non activé]** : désactive le suivi de cette URL.
    * **[!UICONTROL Toujours activé]** : active toujours le tracking de cette URL. Cette information est enregistrée de sorte que si l’URL réapparaît dans le contenu d’un prochain message, son tracking est automatiquement activé.
    * **[!UICONTROL Jamais activé]** : n’active jamais le tracking de cette URL. Cette information est enregistrée de sorte que si l’URL réapparaît dans le contenu d’un prochain message, son tracking est automatiquement désactivé.
    * **[!UICONTROL Opt-out]** : considère cette URL comme une option d’opt-out ou une URL de désabonnement.

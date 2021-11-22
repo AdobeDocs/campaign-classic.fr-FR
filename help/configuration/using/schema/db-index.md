@@ -47,7 +47,7 @@ Il est possible de définir plusieurs index. Un index peut référencer un ou pl
 
 L&#39;ordre des éléments `<keyfield>` définis dans un `<dbindex>` est très important. Le premier `<keyfield>` doit être le critère d&#39;indexation sur lequel reposent principalement les requêtes.
 
-Le nom de l&#39;index en base est calculé par concaténation du nom de la table et du nom de l&#39;index. Exemple : Nom de la table : &quot;Sample&quot;, Espace de noms : &quot;Cus&quot;, nom de l&#39;index : &quot;MyIndex&quot; - nom du champ de l&#39;index lors de la requête de création de l&#39;index en table : &quot;CusSample_myIndex&quot;.
+Le nom de l&#39;index en base est calculé par concaténation du nom de la table et du nom de l&#39;index. Exemple : Nom de la table : &quot;Sample&quot;, Namespace : &quot;Cus&quot;, nom de l&#39;index : &quot;MyIndex&quot; - nom du champ de l&#39;index lors de la requête de création de l&#39;index en table : &quot;CusSample_myIndex&quot;.
 
 ## Description des attributs {#attribute-description-3}
 
@@ -57,11 +57,11 @@ Le nom de l&#39;index en base est calculé par concaténation du nom de la table
 
    Les valeurs accessibles sont:
 
-   * &quot;none&quot; : Réconciliation seule. Signifie qu&#39;Adobe Campaign va retrouver l&#39;élément sans le mettre à jour ou générer une erreur s&#39;il n&#39;existe pas.
-   * &quot;insertOrUpdate&quot; : Mise à jour avec insertion. Signifie qu&#39;Adobe Campaign va mettre à jour l&#39;élément ou le créer s&#39;il n&#39;existe pas.
-   * &quot;insert&quot; : Insertion. Signifie qu&#39;Adobe Campaign va insérer l&#39;élément sans vérifier s&#39;il existe.
-   * &quot;update&quot; : Mise à jour. Signifie qu&#39;Adobe Campaign va mettre à jour l&#39;élément ou générer une erreur s&#39;il n&#39;existe pas.
-   * &quot;delete&quot; : Suppression. Signifie qu&#39;Adobe Campaign va retrouver et supprimer l&#39;élément.
+   * &quot;none&quot; : Réconciliation seule. Signifie qu&#39;Adobe Campaign va retrouver l&#39;élément sans le mettre à jour ou générer une erreur s&#39;il n&#39;existe pas.
+   * &quot;insertOrUpdate&quot; : Mise à jour avec insertion. Signifie qu&#39;Adobe Campaign va mettre à jour l&#39;élément ou le créer s&#39;il n&#39;existe pas.
+   * &quot;insert&quot; : Insertion. Signifie qu&#39;Adobe Campaign va insérer l&#39;élément sans vérifier s&#39;il existe.
+   * &quot;update&quot; : Mise à jour. Signifie qu&#39;Adobe Campaign va mettre à jour l&#39;élément ou générer une erreur s&#39;il n&#39;existe pas.
+   * &quot;delete&quot; : Suppression. Signifie qu&#39;Adobe Campaign va retrouver et supprimer l&#39;élément.
 
 * **applicableIf (string)**: condition de prise en compte de l&#39;index - reçoit une XTK expression.
 * **label (string)**: libellé de l&#39;index.

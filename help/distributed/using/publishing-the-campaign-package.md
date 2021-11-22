@@ -57,7 +57,7 @@ Les rappels peuvent être envoyés à une date donnée et/ou **x** jours à part
 
 Une fois défini et une fois que le kit a été soumis à validation, le planning des traitements est affiché directement dans l&#39;onglet **[!UICONTROL Suivi]**. Il indique la date limite de traitement calculée à partir du paramétrage spécifié ci-avant, et la date du ou des rappels paramétrés.
 
-## Validation via la console Adobe Campaign {#approving-via-the-adobe-campaign-console}
+## Validation via la console Adobe Campaign {#approving-via-the-adobe-campaign-console}
 
 Si aucun validant n&#39;a été défini ou si aucun des opérateurs notifiés n&#39;a validé le kit, le bouton **[!UICONTROL Valider le kit]** permet de procéder directement à la validation depuis l&#39;onglet **[!UICONTROL Tableau de bord]** du kit d&#39;opération ou depuis la vue d&#39;ensemble des kits.
 

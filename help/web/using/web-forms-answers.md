@@ -21,7 +21,7 @@ ht-degree: 90%
 
 Les réponses aux formulaires peuvent être enregistrées dans un champ de la base ou temporairement dans une variable locale. Le mode de stockage des réponses est sélectionné lors de la création d&#39;un champ. Il peut être modifié à partir du lien **[!UICONTROL Editer le stockage...]**.
 
-Pour chaque champ de saisie d&#39;un formulaire, les options de stockage suivantes sont disponibles :
+Pour chaque champ de saisie d&#39;un formulaire, les options de stockage suivantes sont disponibles :
 
 ![](assets/s_ncs_admin_survey_select_storage.png)
 
@@ -45,9 +45,9 @@ Pour enregistrer les données dans un champ existant de la base de données, cli
 
 ### Stocker les données dans une variable locale {#storing-data-in-a-local-variable}
 
-Vous pouvez utiliser des variables locales : en effet, quoique non stockées dans la base, les données peuvent ainsi être réutilisées dans la page ou dans les autres pages, par exemple pour conditionner l&#39;affichage d&#39;une zone ou personnaliser un message.
+Vous pouvez utiliser des variables locales : en effet, quoique non stockées dans la base, les données peuvent ainsi être réutilisées dans la page ou dans les autres pages, par exemple pour conditionner l&#39;affichage d&#39;une zone ou personnaliser un message.
 
-Ainsi, vous pouvez utiliser la valeur d&#39;un champ non enregistré pour autoriser l&#39;affichage d&#39;un groupe d&#39;options dans la page. Dans la page ci-dessous, le type de véhicule n&#39;est pas stocké dans la base :
+Ainsi, vous pouvez utiliser la valeur d&#39;un champ non enregistré pour autoriser l&#39;affichage d&#39;un groupe d&#39;options dans la page. Dans la page ci-dessous, le type de véhicule n&#39;est pas stocké dans la base :
 
 ![](assets/s_ncs_admin_survey_no_storage_variable.png)
 
@@ -67,39 +67,39 @@ La variable ajoutée sera disponible dans la liste des variables locales lors de
 
 **Exemple de stockage local avec conditionnement**
 
-Dans l&#39;exemple ci-dessus, le conteneur PARTICULIER (qui regroupe les données relatives aux véhicules particuliers) n&#39;est affiché que si l&#39;option **[!UICONTROL Particulier]** est sélectionnée dans la liste déroulante, comme indiqué dans la condition de visibilité :
+Dans l&#39;exemple ci-dessus, le conteneur PARTICULIER (qui regroupe les données relatives aux véhicules particuliers) n&#39;est affiché que si l&#39;option **[!UICONTROL Particulier]** est sélectionnée dans la liste déroulante, comme indiqué dans la condition de visibilité :
 
 ![](assets/s_ncs_admin_survey_add_a_condition.png)
 
-Ainsi, si l&#39;utilisateur sélectionne un véhicule particulier, le formulaire Web proposera les options suivantes :
+Ainsi, si l&#39;utilisateur sélectionne un véhicule particulier, le formulaire Web proposera les options suivantes :
 
 ![](assets/s_ncs_admin_survey_no_storage_conda.png)
 
-Le conteneur qui regroupe les données relatives aux utilitaires sera affiché si l&#39;option PROFESSIONNEL est sélectionnée, comme exprimé dans la condition de visibilité :
+Le conteneur qui regroupe les données relatives aux utilitaires sera affiché si l&#39;option PROFESSIONNEL est sélectionnée, comme exprimé dans la condition de visibilité :
 
 ![](assets/s_ncs_admin_survey_view_a_condition.png)
 
-Ainsi, si l&#39;utilisateur sélectionne un véhicule utilitaire, le formulaire proposera les options suivantes :
+Ainsi, si l&#39;utilisateur sélectionne un véhicule utilitaire, le formulaire proposera les options suivantes :
 
 ![](assets/s_ncs_admin_survey_no_storage_condb.png)
 
 ## Utiliser les informations collectées {#using-collected-information}
 
-Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans les champs ou les libellés. Les syntaxes à utiliser sont les suivantes :
+Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans les champs ou les libellés. Les syntaxes à utiliser sont les suivantes :
 
-* Pour un contenu stocké dans un champ de la base :
+* Pour un contenu stocké dans un champ de la base :
 
    ```
    <%=ctx.recipient.@field name%
    ```
 
-* Pour un contenu stocké dans une variable locale :
+* Pour un contenu stocké dans une variable locale :
 
    ```
    <%= ctx.vars.variable name %
    ```
 
-* Pour un contenu stocké dans un champ texte HTML :
+* Pour un contenu stocké dans un champ texte HTML :
 
    ```
    <%== HTML field name %
@@ -115,7 +115,7 @@ Pour enregistrer les informations collectées dans les pages d&#39;un formulaire
 
 ![](assets/s_ncs_admin_survey_save_box.png)
 
-Deux modes d&#39;utilisation de cette boîte sont possibles :
+Deux modes d&#39;utilisation de cette boîte sont possibles :
 
 * Si l’accès au formulaire web se fait via un lien envoyé dans un email, et donc si l’utilisateur qui a accès à l’application web est déjà en base, vous pouvez cocher l’option **[!UICONTROL Mettre à jour l’enregistrement pré-chargé]**. Voir à ce sujet la section [Diffuser un formulaire par email](publishing-a-web-form.md#delivering-a-form-via-email).
 
@@ -125,13 +125,13 @@ Deux modes d&#39;utilisation de cette boîte sont possibles :
    >
    >Cette option remplace les données utilisateur, y compris l’adresse email si un champ permet de le saisir. Elle ne peut pas être utilisée pour créer de nouveaux profils et requiert l’utilisation d’une boîte de préchargement dans le formulaire.
 
-* Pour enrichir les données des destinataires en base, éditez la boîte d&#39;enregistrement pour sélectionner la clé de réconciliation. Pour une utilisation en interne (typiquement, sur un intranet) ou pour un formulaire de création de nouveaux profils, par exemple, vous pouvez sélectionner le ou les champs de réconciliation. La boîte propose tous les champs de la base de données utilisés dans les différentes pages de l&#39;application Web :
+* Pour enrichir les données des destinataires en base, éditez la boîte d&#39;enregistrement pour sélectionner la clé de réconciliation. Pour une utilisation en interne (typiquement, sur un intranet) ou pour un formulaire de création de nouveaux profils, par exemple, vous pouvez sélectionner le ou les champs de réconciliation. La boîte propose tous les champs de la base de données utilisés dans les différentes pages de l&#39;application Web :
 
    ![](assets/s_ncs_admin_survey_save_box_edit.png)
 
 Par défaut, les données sont importées dans la base par un **[!UICONTROL Mise à jour ou insertion]** operation : s&#39;il existe dans la base, l&#39;élément est mis à jour (par exemple, la newsletter sélectionnée ou l&#39;adresse email renseignée). S’il n’existe pas, les informations sont ajoutées.
 
-Vous pouvez toutefois modifier ce comportement. Pour cela, sélectionnez la racine de l&#39;élément et choisissez, dans la liste déroulante, l&#39;opération à effectuer :
+Vous pouvez toutefois modifier ce comportement. Pour cela, sélectionnez la racine de l&#39;élément et choisissez, dans la liste déroulante, l&#39;opération à effectuer :
 
 ![](assets/s_ncs_admin_survey_save_operation.png)
 
@@ -139,6 +139,6 @@ Vous pouvez sélectionner un dossier de recherche pour la réconciliation et le 
 
 >[!NOTE]
 >
->Les opérations possibles sont : **[!UICONTROL Réconciliation seule]**,**[!UICONTROL Mise à jour ou insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Mise à jour]**, **[!UICONTROL Suppression]**.\
+>Les opérations possibles sont : **[!UICONTROL Réconciliation seule]**,**[!UICONTROL Mise à jour ou insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Mise à jour]**, **[!UICONTROL Suppression]**.\
 >Le dossier par défaut de l&#39;opérateur correspond au premier dossier dans lequel l&#39;opérateur a le droit d&#39;écrire.\
 >Consultez [cette section](../../platform/using/access-management.md).

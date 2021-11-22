@@ -47,7 +47,7 @@ Vous pouvez également sélectionner le type de tableau dans le menu contextuel.
 
 ## Applications web de type vues d&#39;ensemble {#overview-type-web-applications}
 
-L&#39;interface d&#39;Adobe Campaign utilise de nombreuses applications web afin d&#39;accéder, gérer et agir sur les destinataires, les diffusions, les opérations, les stocks, etc.
+L&#39;interface d&#39;Adobe Campaign utilise de nombreuses applications web afin d&#39;accéder, gérer et agir sur les destinataires, les diffusions, les opérations, les stocks, etc.
 
 Elles se présentent dans l&#39;interface sous la forme de tableaux de bord et elles ne sont composées que d&#39;une seule page.
 

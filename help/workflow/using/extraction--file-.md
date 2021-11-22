@@ -23,9 +23,9 @@ Vous pouvez extraire les données d&#39;une table de workflow dans un fichier ex
 >
 >Cette activité doit toujours avoir une transition entrante qui contient les données à extraire.
 
-Pour paramétrer l&#39;extraction des données, les étapes sont les suivantes :
+Pour paramétrer l&#39;extraction des données, les étapes sont les suivantes :
 
-1. Indiquez le nom du fichier de sortie : ce nom peut contenir des variables, insérées à partir du bouton de personnalisation situé à droite du champ.
+1. Indiquez le nom du fichier de sortie : ce nom peut contenir des variables, insérées à partir du bouton de personnalisation situé à droite du champ.
 1. Cliquez sur **[!UICONTROL Editer le format du fichier...]** pour sélectionner les données à extraire.
 
    ![](assets/s_advuser_extract_file_param.png)
@@ -56,7 +56,7 @@ Pour plus d’informations à ce sujet, consultez cette section : [Compresser o
 
 ## Liste des fonctions d&#39;agrégats {#list-of-aggregate-functions}
 
-Les fonctions d&#39;agrégat disponibles sont les suivantes :
+Les fonctions d&#39;agrégat disponibles sont les suivantes :
 
 * **[!UICONTROL Comptage]** pour compter toutes les valeurs non-nulles du champ à agréger, y compris les valeurs en double (du champ agrégé),
 

@@ -37,14 +37,14 @@ La procédure est décrite dans la section [Créer un rapport basé sur un cube]
 
 ### Etape 2 - Sélection des lignes et colonnes {#step-2---selecting-lines-and-columns}
 
-L&#39;affichage par défaut propose alors les deux premières dimensions du cube (dans notre exemple : l&#39;âge et la ville).
+L&#39;affichage par défaut propose alors les deux premières dimensions du cube (dans notre exemple : l&#39;âge et la ville).
 
 Les boutons **[!UICONTROL Ajouter]** situés sur chacun des axes permettent d&#39;ajouter d&#39;autres dimensions.
 
 ![](assets/s_advuser_cube_in_report_03.png)
 
 1. Pour ajouter une dimension, cliquez sur le bouton de la ligne ou de la colonne concernée :
-1. Sélectionnez la dimension à ajouter dans le tableau, parmi celles disponibles :
+1. Sélectionnez la dimension à ajouter dans le tableau, parmi celles disponibles :
 
    ![](assets/s_advuser_cube_in_report_04.png)
 
@@ -60,17 +60,17 @@ Les boutons **[!UICONTROL Ajouter]** situés sur chacun des axes permettent d&#3
 
    ![](assets/s_advuser_cube_in_report_config2.png)
 
-   Vous pouvez, au choix :
+   Vous pouvez, au choix :
 
-   * Déplier les données au chargement : les valeurs seront alors affichées par défaut à chaque actualisation du rapport (valeur par défaut : non).
-   * Afficher le total en fin de ligne : pour les données affichées en colonne, une options supplémentaire est proposée afin d&#39;afficher le total en fin de ligne : une colonne supplémentaire est alors ajoutée dans le tableau (valeur par défaut : oui).
-   * Appliquer un tri : les valeurs de la colonne peuvent être triées par valeur, par libellé, ou selon une mesure (valeur par défaut : par valeur).
+   * Déplier les données au chargement : les valeurs seront alors affichées par défaut à chaque actualisation du rapport (valeur par défaut : non).
+   * Afficher le total en fin de ligne : pour les données affichées en colonne, une options supplémentaire est proposée afin d&#39;afficher le total en fin de ligne : une colonne supplémentaire est alors ajoutée dans le tableau (valeur par défaut : oui).
+   * Appliquer un tri : les valeurs de la colonne peuvent être triées par valeur, par libellé, ou selon une mesure (valeur par défaut : par valeur).
    * Afficher les valeurs dans l&#39;ordre ascendant (a-z, 0-9) ou descendant (z-a, 9-0).
-   * Modifier le nombre de colonnes à afficher au chargement (par défaut : 200).
+   * Modifier le nombre de colonnes à afficher au chargement (par défaut : 200).
 
-1. Cliquez sur **[!UICONTROL Ok]** pour confirmer l&#39;insertion : la dimension est alors ajoutée parmi les dimensions existantes.
+1. Cliquez sur **[!UICONTROL Ok]** pour confirmer l&#39;insertion : la dimension est alors ajoutée parmi les dimensions existantes.
 
-   Le bandeau jaune situé au-dessus du tableau indique que vous avez effectué des modifications : cliquez sur le bouton **[!UICONTROL Enregistrer]** si vous souhaitez les sauvegarder.
+   Le bandeau jaune situé au-dessus du tableau indique que vous avez effectué des modifications : cliquez sur le bouton **[!UICONTROL Enregistrer]** si vous souhaitez les sauvegarder.
 
    ![](assets/s_advuser_cube_in_report_04c.png)
 
@@ -78,7 +78,7 @@ Les boutons **[!UICONTROL Ajouter]** situés sur chacun des axes permettent d&#3
 
 Une fois les lignes et colonnes positionnées, indiquez les mesures que vous souhaitez afficher ainsi que leur mode d&#39;affichage.
 
-Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mesures :
+Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mesures :
 
 1. Cliquez sur le bouton **[!UICONTROL Mesures]**.
 
@@ -102,15 +102,15 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    ![](assets/s_advuser_cube_in_report_config_02a.png)
 
-   Les types de mesures possibles sont les suivantes :
+   Les types de mesures possibles sont les suivantes :
 
-   * Combinaison de mesures : ce type de mesure permet de construire la nouvelle mesure à partir de mesures existantes.
+   * Combinaison de mesures : ce type de mesure permet de construire la nouvelle mesure à partir de mesures existantes.
 
-      Entre ces mesures, les opérateurs disponibles sont : somme, différence, multiplication et taux.
+      Entre ces mesures, les opérateurs disponibles sont : somme, différence, multiplication et taux.
 
-   * Proportion : ce type de mesure permet de calculer le nombre d&#39;enregistrements mesurés pour une dimension donnée. Vous pouvez calculer la proportionnalité par rapport à une dimension ou une sous-dimension.
-   * Variation : cette mesure permet de calculer la variation des valeurs d&#39;un niveau.
-   * Ecart à la moyenne : ce type de mesure permet de calculer les écarts dans chaque groupe de cellules correspondantes, par rapport à la moyenne des valeurs. Vous pouvez par exemple comparer le volume des ventes pour chaque segment existant.
+   * Proportion : ce type de mesure permet de calculer le nombre d&#39;enregistrements mesurés pour une dimension donnée. Vous pouvez calculer la proportionnalité par rapport à une dimension ou une sous-dimension.
+   * Variation : cette mesure permet de calculer la variation des valeurs d&#39;un niveau.
+   * Ecart à la moyenne : ce type de mesure permet de calculer les écarts dans chaque groupe de cellules correspondantes, par rapport à la moyenne des valeurs. Vous pouvez par exemple comparer le volume des ventes pour chaque segment existant.
 
    La mesure créée est alors ajoutée dans le rapport.
 
@@ -126,7 +126,7 @@ Les rapports construits à partir des cubes permettent de collecter des données
 
 Pour cela, vous pouvez les ajouter à un panier, dont le contenu sera exporté.
 
-Pour regrouper une population dans une liste, les étapes sont les suivantes :
+Pour regrouper une population dans une liste, les étapes sont les suivantes :
 
 1. Cliquez sur les cellules contenant les populations à collecter pour les sélectionner, puis cliquez sur l&#39;icône **[!UICONTROL Ajouter au panier]**.
 
@@ -158,7 +158,7 @@ Pour regrouper une population dans une liste, les étapes sont les suivantes :
 
 ## Insérer un tableau croisé dynamique dans un rapport {#inserting-a-pivot-table-into-a-report}
 
-Pour créer un tableau qui explore les données d&#39;un cube, les étapes sont les suivantes :
+Pour créer un tableau qui explore les données d&#39;un cube, les étapes sont les suivantes :
 
 1. Créez un nouveau rapport, avec une seule page, et insérez un tableau pivot dynamique. Voir à ce propos [cette page](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table).
 

@@ -107,7 +107,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 * **[!UICONTROL Lien vers la page miroir]** : insère un lien vers la page miroir : « Si vous ne parvenez pas à voir correctement ce message, cliquez ici. ».
 * **[!UICONTROL Lien de désinscription]** : insère un lien permettant de se désabonner de toutes les diffusions (liste bloquée).
 * **[!UICONTROL Fonction de formatage d&#39;un nom propre]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule.
-* **[!UICONTROL URL de la page d&#39;inscription]** : insère une URL d&#39;abonnement (voir [À propos des services et des abonnements](about-services-and-subscriptions.md)).
+* **[!UICONTROL URL de la page d&#39;inscription]** : insère une URL d&#39;abonnement (voir [À propos des services et des abonnements](about-services-and-subscriptions.md)).
 * **[!UICONTROL Lien d&#39;inscription]** : insère un lien d&#39;inscription qui a été défini lors du paramétrage de l&#39;instance.
 * **[!UICONTROL Lien d&#39;inscription (avec parrain)]** : insère un lien d&#39;inscription qui permet d&#39;identifier le visiteur et la diffusion. Le lien a été défini lors du paramétrage de l&#39;instance.
 
@@ -124,11 +124,11 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 
 Vous pouvez définir de nouveaux champs de personnalisation qui pourront être insérés à partir de l&#39;icône des champs personnalisés via le menu **[!UICONTROL Inclure...]**. Ces champs sont définis dans des blocs de personnalisation.
 
-Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez les étapes suivantes :
+Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez les étapes suivantes :
 
 1. Cliquez sur le nœud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]**.
 1. Cliquez avec le bouton droit dans la liste des blocs et choisissez **[!UICONTROL Nouveau]** .
-1. Renseignez le paramétrage du bloc de personnalisation :
+1. Renseignez le paramétrage du bloc de personnalisation :
 
    ![](assets/s_ncs_user_personalized_block.png)
 

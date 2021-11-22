@@ -21,7 +21,7 @@ Le modèle de données conceptuel de la base de données Adobe Campaign se comp
 
 ## Vue d&#39;ensemble {#data-model-overview}
 
-Adobe Campaign repose sur une base de données relationnelle contenant des tables liées entre elles. La structure de base du modèle de données Adobe Campaign peut être décrite comme suit.
+Adobe Campaign repose sur une base de données relationnelle contenant des tables liées entre elles. La structure de base du modèle de données Adobe Campaign peut être décrite comme suit.
 
 ### Table des destinataires {#recipient-table}
 
@@ -39,7 +39,7 @@ Une autre partie du modèle de données permet de stocker temporairement tous le
 
 Les logs de diffusion sont tous des messages envoyés aux destinataires ou aux appareils sur tous les canaux. Le tableau des logs de diffusion principale (**NmsBroadLog**) contient les logs de diffusion pour tous les destinataires.
 La table principale des logs de tracking (**NmsTrackingLog**) stocke les logs de tracking pour tous les destinataires. Les logs de tracking se rapportent aux réactions des destinataires, telles que les ouvertures d’email et les clics. Chaque réaction correspond à un log de tracking.
-Les mpgs de diffusion et de tracking sont supprimés après une certaine période, spécifiée dans Adobe Campaign et modifiable. Il est donc vivement recommandé d&#39;exporter les logs de façon régulière.
+Les mpgs de diffusion et de tracking sont supprimés après une certaine période, spécifiée dans Adobe Campaign et modifiable. Il est donc vivement recommandé d&#39;exporter les logs de façon régulière.
 
 ### Tables techniques {#technical-tables}
 
@@ -118,6 +118,6 @@ En savoir plus sur le modèle de données Campaign dans les sections suivantes 
    ![](assets/data-model_documentation-tab.png)
 
 
-* **Schémas Campaign** - La structure physique et logique des données transportées dans l’application est décrite dans le langage XML. Celui-ci obéit à une grammaire spécifique à Adobe Campaign, appelée un schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
+* **Schémas Campaign** - La structure physique et logique des données transportées dans l’application est décrite dans le langage XML. Celui-ci obéit à une grammaire spécifique à Adobe Campaign, appelée un schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
 
 * **Bonnes pratiques relatives aux modèles de données** - Découvrez l&#39;architecture des modèles de données Campaign et les bonnes pratiques connexes, dans [cette section](../../configuration/using/data-model-best-practices.md#data-model-architecture).

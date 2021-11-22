@@ -23,7 +23,7 @@ Chaque dossier de l’arborescence de navigation de l’Explorateur dispose de d
 
 ### Qu’est-ce qu’un dossier ? {#about-folders}
 
-Les dossiers sont des nœuds dans l’arborescence Adobe Campaign. Ces nœuds sont créés à partir du bouton droit de la souris dans l’arborescence, via le menu **[!UICONTROL Ajouter un dossier]**. Par défaut, le premier menu permet d’ajouter le dossier correspondant au contexte en cours.
+Les dossiers sont des nœuds dans l’arborescence Adobe Campaign. Ces nœuds sont créés à partir du bouton droit de la souris dans l’arborescence, via le menu **[!UICONTROL Ajouter un dossier]**. Par défaut, le premier menu permet d’ajouter le dossier correspondant au contexte en cours.
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
@@ -56,21 +56,21 @@ Dans l&#39;exemple ci-dessous, nous allons créer des dossiers afin d&#39;affich
 
    ![](assets/s_ncs_user_add_folder_exple.png)
 
-1. Depuis l&#39;onglet **[!UICONTROL Restriction]**, sélectionnez l&#39;option **[!UICONTROL Ce dossier est une vue]** : toutes les diffusions de la base y seront alors affichées.
+1. Depuis l&#39;onglet **[!UICONTROL Restriction]**, sélectionnez l&#39;option **[!UICONTROL Ce dossier est une vue]** : toutes les diffusions de la base y seront alors affichées.
 
    ![](assets/s_ncs_user_add_folder_exple01.png)
 
-1. Définissez les critères de filtrage des diffusions à partir du requêteur proposé dans la section centrale de la fenêtre : les campagnes affichées seront alors celles qui correspondent au filtre défini.
+1. Définissez les critères de filtrage des diffusions à partir du requêteur proposé dans la section centrale de la fenêtre : les campagnes affichées seront alors celles qui correspondent au filtre défini.
 
    >[!NOTE]
    >
    >Le requêteur est présenté dans [cette section](../../platform/using/about-queries-in-campaign.md).
 
-   Avec les conditions de filtrage suivantes :
+   Avec les conditions de filtrage suivantes :
 
 ![](assets/s_ncs_user_add_folder_exple00.png)
 
-Les diffusions suivantes seront affichées dans la vue :
+Les diffusions suivantes seront affichées dans la vue :
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
 
@@ -96,13 +96,13 @@ Pour modifier les autorisations sur un dossier spécifique de l&#39;arborescence
 
 Pour modifier les autorisations, vous pouvez :
 
-* **Remplacer un groupe ou un opérateur**. Pour cela, cliquez sur un des groupes (ou opérateurs) ayant des droits sur ce dossier et sélectionnez un nouveau groupe (ou un nouvel opérateur) depuis la liste déroulante :
+* **Remplacer un groupe ou un opérateur**. Pour cela, cliquez sur un des groupes (ou opérateurs) ayant des droits sur ce dossier et sélectionnez un nouveau groupe (ou un nouvel opérateur) depuis la liste déroulante :
 
    ![](assets/s_ncs_user_folder_properties_security02.png)
 
 * **Autoriser un groupe ou un opérateur**. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez le groupe ou l&#39;opérateur auquel vous souhaitez attribuer des autorisations sur ce dossier.
 * **Interdire un groupe ou un opérateur**. Pour cela, cliquez sur le bouton **[!UICONTROL Supprimer]** et sélectionnez le groupe ou l&#39;opérateur auquel vous souhaitez retirer toute autorisation sur ce dossier.
-* **Sélectionner les droits attribués à un groupe ou un opérateur**. Pour cela, cliquez sur le groupe ou l&#39;opérateur visé : cochez les droits d&#39;accès que vous voulez lui attribuer et décochez les autres.
+* **Sélectionner les droits attribués à un groupe ou un opérateur**. Pour cela, cliquez sur le groupe ou l&#39;opérateur visé : cochez les droits d&#39;accès que vous voulez lui attribuer et décochez les autres.
 
    ![](assets/s_ncs_user_folder_properties_security03.png)
 

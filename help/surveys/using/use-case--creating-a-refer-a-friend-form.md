@@ -23,15 +23,15 @@ Dans cet exemple, nous allons proposer un jeu-concours aux destinataires de la b
 
 Les blocs d&#39;identification et de jeu sont construits selon les procédures décrites ci-avant, dans ce document.
 
-Les étapes de paramétrage et de réalisation du bloc de parrainage sont les suivantes :
+Les étapes de paramétrage et de réalisation du bloc de parrainage sont les suivantes :
 
-1. Créez un formulaire Web de jeu-concours, avec des questions et une zone de saisie des coordonnées d&#39;un ami, comme dans l&#39;exemple ci-dessous :
+1. Créez un formulaire Web de jeu-concours, avec des questions et une zone de saisie des coordonnées d&#39;un ami, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_ncs_admin_survey_viral_sample_2.png)
 
    Le champ **Votre message** permet de saisir un message à l&#39;intention du filleul. Le parrain doit également saisir **Son nom**, **Son prénom** et **Son email**.
 
-   Les informations saisies dans les champs sont stockées dans une table spécifique : la table des visiteurs.
+   Les informations saisies dans les champs sont stockées dans une table spécifique : la table des visiteurs.
 
    >[!NOTE]
    >
@@ -45,7 +45,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
 1. Créez un premier script afin d&#39;associer le parrain à son filleul.
 
-   Il contient les instructions suivantes :
+   Il contient les instructions suivantes :
 
    ![](assets/s_ncs_admin_survey_viral_sample_4.png)
 
@@ -59,7 +59,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    Le nom, le prénom et l&#39;adresse email renseignées dans le bloc d&#39;identification de la page sont identifiés comme les nom, prénom et adresse email du parrain. Ces champs seront réinjectées dans le corps du message adressé au filleul.
 
-   La valeur APP5 correspond au nom interne du formulaire Web : cette information permet de connaître l&#39;origine du filleul, c&#39;est-à-dire d&#39;associer le visiteur au formulaire Web à partir duquel il a été créé.
+   La valeur APP5 correspond au nom interne du formulaire Web : cette information permet de connaître l&#39;origine du filleul, c&#39;est-à-dire d&#39;associer le visiteur au formulaire Web à partir duquel il a été créé.
 
 1. La boîte d&#39;enregistrement permet de collecter les informations et les stocker dans la base de données.
 
@@ -67,11 +67,11 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
 1. Créez ensuite le modèle de diffusion associé au service d&#39;information créé lors de l&#39;étape 1. Il sera sélectionné dans le champ **[!UICONTROL Choix du scénario]** du service d&#39;information.
 
-   Le modèle de diffusion utilisé pour créer le message de proposition de parrainage contient les informations suivantes :
+   Le modèle de diffusion utilisé pour créer le message de proposition de parrainage contient les informations suivantes :
 
    ![](assets/s_ncs_admin_survey_viral_sample_7.png)
 
-   Les caractéristiques de ce modèle sont les suivantes :
+   Les caractéristiques de ce modèle sont les suivantes :
 
    * Vous devez sélectionner la table des visiteurs comme mapping de ciblage.
 
@@ -121,7 +121,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    ![](assets/s_ncs_admin_survey_viral_sample_8.png)
 
-   Le filleul est ajouté dans le dossier des visiteurs, sous le noeud **[!UICONTROL Administration > Visiteurs]** :
+   Le filleul est ajouté dans le dossier des visiteurs, sous le noeud **[!UICONTROL Administration > Visiteurs]** :
 
    ![](assets/s_ncs_admin_survey_viral_sample_9.png)
 

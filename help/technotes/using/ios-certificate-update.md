@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Le 29 mars 2021, une mise à jour de l’infrastructure du service Apple Push Notification (APNs) a eu un impact sur le canal iOS d’Adobe Campaign Classic. Une modification de la configuration du système d’exploitation est **obligatoire** pour éviter une panne du canal push d’iOS.
+Le 29 mars 2021, une mise à jour de l’infrastructure du service Apple Push Notification (APNs) a eu un impact sur le canal iOS d’Adobe Campaign Classic. Une modification de la configuration du système d’exploitation est **obligatoire** pour éviter une panne du canal push d’iOS.
 
 Pour en savoir plus sur les modifications d’APNs, consultez [cette page](https://developer.apple.com/news/?id=7gx0a2lp).
 
@@ -28,7 +28,7 @@ Pour intégrer le nouveau certificat, procédez comme suit :
 
 1. Vérifiez que le certificat AAA est présent à la fois dans votre système d’exploitation et dans les truststores JAVA. Sinon, ajoutez-le.
 
-1. Redémarrez le service web d’Adobe Campaign :
+1. Redémarrez le service web d’Adobe Campaign :
 
    ```
    nlserver restart web

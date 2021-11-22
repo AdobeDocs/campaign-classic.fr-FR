@@ -19,13 +19,13 @@ ht-degree: 100%
 
 ## À propos du filtrage {#about-filtering}
 
-Par défaut, Adobe Campaign affiche toutes les données de la base sur lesquelles l&#39;opérateur concerné a des droits en lecture.
+Par défaut, Adobe Campaign affiche toutes les données de la base sur lesquelles l&#39;opérateur concerné a des droits en lecture.
 
 Ces données peuvent être filtrées à partir des options situées dans la section supérieure de la fenêtre de navigation.
 
 ![](assets/filter_web_zone.png)
 
-Plusieurs modes de filtrage des informations affichées sont possibles. Au besoin, ils peuvent être cumulés :
+Plusieurs modes de filtrage des informations affichées sont possibles. Au besoin, ils peuvent être cumulés :
 
 * Filtrage par dossier, voir la section [Filtrer par dossier](#filter-by-folder),
 * Filtrage par statut, voir la section [Filtrer par statut](#filter-by-status),
@@ -38,7 +38,7 @@ Cliquez sur l&#39;icône **[!UICONTROL Dossier]** pour sélectionner le dossier 
 
 ![](assets/filter_web_select_folder.png)
 
-Seuls les profils du dossier sélectionné sont affichés :
+Seuls les profils du dossier sélectionné sont affichés :
 
 ![](assets/filter_web_folder_display.png)
 
@@ -46,7 +46,7 @@ Utilisez la croix située à droite du champ de sélection du dossier pour reven
 
 ## Filtrer par statut {#filter-by-status}
 
-Selon le type d&#39;informations affichées, vous pouvez appliquer un filtre par statut ou par état. Par exemple, pour les diffusions, vous pouvez choisir de n&#39;afficher que les diffusions terminées, comme dans l&#39;exemple ci-dessous :
+Selon le type d&#39;informations affichées, vous pouvez appliquer un filtre par statut ou par état. Par exemple, pour les diffusions, vous pouvez choisir de n&#39;afficher que les diffusions terminées, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/d_ncs_user_interface_filter_delivery.png)
 
@@ -60,7 +60,7 @@ Par exemple, vous pouvez trier les tâches par priorité, par date de création 
 
 ## Recherche rapide {#quick-search}
 
-Utilisez le champ de recherche pour accéder rapidement à l&#39;élément souhaité : saisissez les caractères contenus dans le libellé ou le nom interne de l&#39;élément à afficher puis validez pour appliquer un filtre automatique sur les données de la page.
+Utilisez le champ de recherche pour accéder rapidement à l&#39;élément souhaité : saisissez les caractères contenus dans le libellé ou le nom interne de l&#39;élément à afficher puis validez pour appliquer un filtre automatique sur les données de la page.
 
 ![](assets/d_ncs_user_interface_filter_search.png)
 

@@ -25,7 +25,7 @@ Les paramètres avancés du tracking des messages sont accessibles à partir de 
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 
-Vous pouvez configurer les options de tracking :
+Vous pouvez configurer les options de tracking :
 
 * Activer/Désactiver le tracking des URL de tous les messages.
 

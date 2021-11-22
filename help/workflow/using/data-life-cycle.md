@@ -25,7 +25,7 @@ Ces données peuvent être affichées et analysées à partir du bouton droit de
 
 ![](assets/wf-right-click-analyze.png)
 
-Sélectionnez pour cela le menu correspondant :
+Sélectionnez pour cela le menu correspondant :
 
 * Afficher la cible
 
@@ -51,7 +51,7 @@ Toutefois, l&#39;activation de cette option est à éviter lorsque les données 
 
 Les données stockées dans la table de travail du workflow sont accessibles notamment dans les champs de personnalisation.
 
-Vous pouvez ainsi utiliser dans une diffusion des données collectées via une liste ou à partir des réponses fournies à un questionnaire. Pour cela, utilisez la syntaxe suivante :
+Vous pouvez ainsi utiliser dans une diffusion des données collectées via une liste ou à partir des réponses fournies à un questionnaire. Pour cela, utilisez la syntaxe suivante :
 
 ```
 %= targetData.FIELD %
@@ -69,7 +69,7 @@ Les étapes sont les suivantes :
 
    ![](assets/wf-targetdata-sample-1.png)
 
-   Dans notre exemple, le contenu du fichier est le suivant :
+   Dans notre exemple, le contenu du fichier est le suivant :
 
    ```
    Music,First name,Last name,Account,CD/DVD,Card
@@ -81,17 +81,17 @@ Les étapes sont les suivantes :
    [...]
    ```
 
-   L&#39;activité de chargement de fichier est paramétrée comme suit :
+   L&#39;activité de chargement de fichier est paramétrée comme suit :
 
    ![](assets/wf-targetdata-sample-2.png)
 
-1. Paramétrez l&#39;activité de type **[!UICONTROL Enrichissement]** afin de réconcilier les données collectées avec celles de la base Adobe Campaign.
+1. Paramétrez l&#39;activité de type **[!UICONTROL Enrichissement]** afin de réconcilier les données collectées avec celles de la base Adobe Campaign.
 
-   Ici, la clé de réconciliation est le numéro de compte :
+   Ici, la clé de réconciliation est le numéro de compte :
 
    ![](assets/wf-targetdata-sample-3.png)
 
-1. Configurez ensuite la **[!UICONTROL Diffusion]** : elle est créée depuis un modèle et les destinataires sont ceux spécifiés par la transition entrante.
+1. Configurez ensuite la **[!UICONTROL Diffusion]** : elle est créée depuis un modèle et les destinataires sont ceux spécifiés par la transition entrante.
 
    ![](assets/wf-targetdata-sample-4.png)
 
@@ -113,6 +113,6 @@ Les étapes sont les suivantes :
 
    Les données de type **[!UICONTROL Extension de la cible]** (targetData) sont insérées dans les diffusions selon les mêmes caractéristiques que tous les champs de personnalisation. Elles peuvent ainsi par exemple être utilisées dans l&#39;objet du message, les libellés des liens ou les liens eux-mêmes, etc.
 
-   Les messages adressés aux destinataires collectés contiendront donc les données suivantes :
+   Les messages adressés aux destinataires collectés contiendront donc les données suivantes :
 
    ![](assets/wf-targetdata-sample-7.png)

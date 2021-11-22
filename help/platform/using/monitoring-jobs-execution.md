@@ -40,7 +40,7 @@ Chaque statut est représenté par une icône et un libellé spéciaux. Les stat
 
 * **Annuler**
 
-   Clic sur le bouton **[!UICONTROL Annuler]** : l&#39;annulation du traitement en cours.
+   Clic sur le bouton **[!UICONTROL Annuler]** : l&#39;annulation du traitement en cours.
 
 * **Annulation en cours**
 
@@ -48,11 +48,11 @@ Chaque statut est représenté par une icône et un libellé spéciaux. Les stat
 
 * **Pause en cours**
 
-   Clic sur le bouton **[!UICONTROL Pause]** : la suspension du traitement est en cours.
+   Clic sur le bouton **[!UICONTROL Pause]** : la suspension du traitement est en cours.
 
 * **En pause**
 
-   Clic sur le bouton **[!UICONTROL Pause]** : le traitement est suspendu. Il peut être relancé via le bouton **[!UICONTROL Démarrer]**.
+   Clic sur le bouton **[!UICONTROL Pause]** : le traitement est suspendu. Il peut être relancé via le bouton **[!UICONTROL Démarrer]**.
 
 * **Terminé**
 
@@ -64,4 +64,4 @@ Chaque statut est représenté par une icône et un libellé spéciaux. Les stat
 
 * **Arrêt du serveur en cours**
 
-   Le traitement en cours est interrompu à cause d&#39;un arrêt du serveur Adobe Campaign.
+   Le traitement en cours est interrompu à cause d&#39;un arrêt du serveur Adobe Campaign.

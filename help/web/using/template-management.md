@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Le Digital Content Editor propose **des modèles standards** pour les applications Web et les diffusions.
 
-Lors de la création d&#39;une application Web de type Landing Page, l&#39;utilisateur peut choisir un de ces modèles. Il peut également importer un modèle HTML créé en dehors d&#39;Adobe Campaign.
+Lors de la création d&#39;une application Web de type Landing Page, l&#39;utilisateur peut choisir un de ces modèles. Il peut également importer un modèle HTML créé en dehors d&#39;Adobe Campaign.
 
 ![](assets/dce_popup_templatechoice.png)
 

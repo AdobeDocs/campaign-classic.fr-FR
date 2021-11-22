@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: '"Cas pratique : sélection des adresses de contrôle selon des critères"'
-description: '"Cas pratique : sélection des adresses de contrôle selon des critères"'
+title: '"Cas pratique : sélection des adresses de contrôle selon des critères"'
+description: '"Cas pratique : sélection des adresses de contrôle selon des critères"'
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Cas pratique : sélection des adresses de contrôle selon des critères{#use-case-selecting-seed-addresses-on-criteria}
+# Cas pratique : sélection des adresses de contrôle selon des critères{#use-case-selecting-seed-addresses-on-criteria}
 
 ![](../../assets/common.svg)
 
@@ -28,7 +28,7 @@ Afin de partager avec eux le résultat final de leur collaboration, le chargé d
 Pour utiliser la condition dynamique vous devez disposer :
 
 * d&#39;une diffusion prête à être envoyée,
-* d&#39;adresses de contrôle ayant une valeur commune. Cette valeur peut tout à fait être un champ existant dans Adobe Campaign. Dans cet exemple, les adresses de contrôle partagent la valeur &quot;Achats&quot; du champ &quot;Service&quot;, qui n&#39;est pas présent par défaut dans l&#39;application.
+* d&#39;adresses de contrôle ayant une valeur commune. Cette valeur peut tout à fait être un champ existant dans Adobe Campaign. Dans cet exemple, les adresses de contrôle partagent la valeur &quot;Achats&quot; du champ &quot;Service&quot;, qui n&#39;est pas présent par défaut dans l&#39;application.
 
 ## Etape 1 - Créer une diffusion {#step-1---creating-a-delivery}
 
@@ -56,7 +56,7 @@ Pour plus de détails sur les extensions de schéma, voir [le guide Configuratio
    ![](assets/dlv_seeds_usecase_10.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
-1. Dans la fenêtre d&#39;édition du schéma, copiez les lignes ci-dessous à l&#39;emplacement indiqué dans la capture d&#39;écran :
+1. Dans la fenêtre d&#39;édition du schéma, copiez les lignes ci-dessous à l&#39;emplacement indiqué dans la capture d&#39;écran :
 
    ```
      <element name="common">
@@ -69,7 +69,7 @@ Pour plus de détails sur les extensions de schéma, voir [le guide Configuratio
 
    ![](assets/dlv_seeds_usecase_20.png)
 
-   Copiez ensuite les lignes suivantes sous l&#39;élément **[!UICONTROL Adresse de contrôle à insérer dans les fichiers d&#39;export]** :
+   Copiez ensuite les lignes suivantes sous l&#39;élément **[!UICONTROL Adresse de contrôle à insérer dans les fichiers d&#39;export]** :
 
    ```
        <element aggregate="doc:seedMember:common">
@@ -85,7 +85,7 @@ Pour plus de détails sur les extensions de schéma, voir [le guide Configuratio
 
    ![](assets/dlv_seeds_usecase_12.png)
 
-1. Lorsque l&#39;assistant de mise à jour s&#39;affiche, cliquez sur le bouton **[!UICONTROL Suivant]** pour accéder à l&#39;édition des tables : les changements effectués dans le schéma de données des adresses de contrôle nécessitent une mise à jour de la structure.
+1. Lorsque l&#39;assistant de mise à jour s&#39;affiche, cliquez sur le bouton **[!UICONTROL Suivant]** pour accéder à l&#39;édition des tables : les changements effectués dans le schéma de données des adresses de contrôle nécessitent une mise à jour de la structure.
 
    ![](assets/dlv_seeds_usecase_13.png)
 
@@ -95,7 +95,7 @@ Pour plus de détails sur les extensions de schéma, voir [le guide Configuratio
 
    Lorsque la mise à jour est terminée, vous pouvez fermer l&#39;assitant.
 
-1. Déconnectez-vous d&#39;Adobe Campaign puis reconnectez-vous. Les modifications apportées dans le schéma de données des adresses de contrôle sont effectives. Pour qu&#39;elles soient visibles depuis l&#39;écran des adresses de contrôle, vous devez mettre à jour le **[!UICONTROL Formulaire de saisie]** associée. Consultez la section [Mettre à jour le formulaire de saisie](#updating-the-input-form).
+1. Déconnectez-vous d&#39;Adobe Campaign puis reconnectez-vous. Les modifications apportées dans le schéma de données des adresses de contrôle sont effectives. Pour qu&#39;elles soient visibles depuis l&#39;écran des adresses de contrôle, vous devez mettre à jour le **[!UICONTROL Formulaire de saisie]** associée. Consultez la section [Mettre à jour le formulaire de saisie](#updating-the-input-form).
 
 #### Etendre le schéma de données à partir d&#39;une table liée {#extending-the-data-schema-from-a-linked-table}
 
@@ -105,7 +105,7 @@ Par exemple, l&#39;utilisateur souhaite intégrer l&#39;**[!UICONTROL Extension 
 
 ![](assets/dlv_seeds_usecase_06.png)
 
-Il doit donc étendre le schéma de données des adresses de contrôle comme présenté dans la section mais les lignes de code à intégrer lors de **l&#39;étape 4** sont les suivantes :
+Il doit donc étendre le schéma de données des adresses de contrôle comme présenté dans la section mais les lignes de code à intégrer lors de **l&#39;étape 4** sont les suivantes :
 
 ```
 <element name="country">
@@ -116,7 +116,7 @@ Il doit donc étendre le schéma de données des adresses de contrôle comme pr�
 
 ![](assets/dlv_seeds_usecase_11.png)
 
-Elles indiquent :
+Elles indiquent :
 
 * que l&#39;utilisateur souhaite créer un nouvel élément nommé **[!UICONTROL Extension Internet]**,
 * que cet élément provient de la table **[!UICONTROL Country]**.

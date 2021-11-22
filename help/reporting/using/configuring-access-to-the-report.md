@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Contexte d&#39;affichage des rapports {#report-display-context}
 
-Définissez le contexte d&#39;affichage du rapport dans la plateforme Adobe Campaign à partir de l&#39;onglet **[!UICONTROL Affichage]**. L&#39;accès à un rapport dépend de son type de sélection, de ses conditions d&#39;affichage et des autorisations d&#39;accès.
+Définissez le contexte d&#39;affichage du rapport dans la plateforme Adobe Campaign à partir de l&#39;onglet **[!UICONTROL Affichage]**. L&#39;accès à un rapport dépend de son type de sélection, de ses conditions d&#39;affichage et des autorisations d&#39;accès.
 
 ### Type de sélection {#selection-type}
 
@@ -27,15 +27,15 @@ L&#39;accès au rapport peut être limité à un contexte, ou emplacement, spéc
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 
-* **[!UICONTROL Mono-sélection]** : le rapport n&#39;est accessible que lorsqu&#39;on sélectionne une entité particulière.
-* **[!UICONTROL Multi-sélection]** : le rapport est accessible lorsque plusieurs entités sont sélectionnées.
+* **[!UICONTROL Mono-sélection]** : le rapport n&#39;est accessible que lorsqu&#39;on sélectionne une entité particulière.
+* **[!UICONTROL Multi-sélection]** : le rapport est accessible lorsque plusieurs entités sont sélectionnées.
 * **[!UICONTROL Global]** : le rapport est accessible depuis la liste des rapports disponibles de l’onglet **[!UICONTROL Rapports]**.
 
 ### Ordre d&#39;affichage {#display-sequence}
 
 Le champ **[!UICONTROL Ordre]** permet de saisir une valeur numérique qui spécifie l&#39;ordre d&#39;affichage du rapport dans la liste.
 
-Par défaut, les rapports sont affichés par pertinence : la valeur saisie dans ce champ permet de trier les rapports, du plus pertinent (valeur la plus grande), au moins pertinent (valeur la plus petite).
+Par défaut, les rapports sont affichés par pertinence : la valeur saisie dans ce champ permet de trier les rapports, du plus pertinent (valeur la plus grande), au moins pertinent (valeur la plus petite).
 
 Vous pouvez choisir librement l&#39;échelle à utiliser, selon vos besoins. Par exemple de 1 à 10, de 0 à 100, de -10 à 10, etc.
 
@@ -65,13 +65,13 @@ Le rapport peut également être partagé avec des opérateurs ou des groupes d&
 
 L’onglet **[!UICONTROL Rapports]** affiche tous les rapports disponibles dans la plateforme, et pour lesquels l’opérateur connecté a un droit d’accès.
 
-Par défaut, ils sont triés par pertinence mais vous pouvez appliquer d&#39;autres types de filtres : alphabétique, par ancienneté, etc.
+Par défaut, ils sont triés par pertinence mais vous pouvez appliquer d&#39;autres types de filtres : alphabétique, par ancienneté, etc.
 
-Vous pouvez également filtrer l&#39;affichage selon la catégorie du rapport :
+Vous pouvez également filtrer l&#39;affichage selon la catégorie du rapport :
 
 ![](assets/report_ovv_select_type.png)
 
-Pour définir la catégorie d&#39;un rapport, sélectionnez-la à partir de l&#39;onglet **[!UICONTROL Affichage]**, comme dans l&#39;exemple ci-dessous :
+Pour définir la catégorie d&#39;un rapport, sélectionnez-la à partir de l&#39;onglet **[!UICONTROL Affichage]**, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/report_select_category.png)
 
@@ -103,7 +103,7 @@ A titre d&#39;exemple, nous allons créer un lien vers un rapport afin qu&#39;il
    ![](assets/s_ncs_advuser_report_wizard_link_04.png)
 
 1. Publiez votre rapport.
-1. Positionnez-vous dans une de vos listes de destinataires et cliquez sur le lien **[!UICONTROL Rapports]** : le rapport que vous venez de créer est alors accessible.
+1. Positionnez-vous dans une de vos listes de destinataires et cliquez sur le lien **[!UICONTROL Rapports]** : le rapport que vous venez de créer est alors accessible.
 
    ![](assets/s_ncs_advuser_report_wizard_link_05.png)
 

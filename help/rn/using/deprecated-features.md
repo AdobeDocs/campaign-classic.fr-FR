@@ -17,7 +17,7 @@ ht-degree: 99%
 
 ![](../../assets/v7-only.svg)
 
-Adobe évalue constamment les fonctionnalités des produits pour identifier celles qui devraient être remplacées par des solutions plus modernes afin d’offrir une plus grande valeur ajoutée, et ce en prenant toujours en compte la rétrocompatibilité Comme Adobe Campaign Classic fonctionne avec des outils tiers, la compatibilité est régulièrement mise à jour pour ne mettre en œuvre que des versions prises en charge. Les versions devenues incompatibles avec Adobe Campaign Classic sont répertoriées ci-dessous et dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md).
+Adobe évalue constamment les fonctionnalités des produits pour identifier celles qui devraient être remplacées par des solutions plus modernes afin d’offrir une plus grande valeur ajoutée, et ce en prenant toujours en compte la rétrocompatibilité Comme Adobe Campaign Classic fonctionne avec des outils tiers, la compatibilité est régulièrement mise à jour pour ne mettre en œuvre que des versions prises en charge. Les versions devenues incompatibles avec Adobe Campaign Classic sont répertoriées ci-dessous et dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 
 Lors de l’annonce de la suppression ou du remplacement imminent de fonctionnalités de Campaign Classic, les règles suivantes s’appliquent :
 
@@ -27,7 +27,7 @@ Lors de l’annonce de la suppression ou du remplacement imminent de fonctionnal
 Cette procédure laisse aux clients au moins un cycle de publication pour s’adapter à une nouvelle version ou au successeur d’une fonctionnalité supprimée avant la suppression définitive.
 
 >[!NOTE]
->Les versions et nouvelles fonctionnalités d’Adobe Campaign sont répertoriées dans les [Notes de mise à jour](../../rn/using/latest-release.md).
+>Les versions et nouvelles fonctionnalités d’Adobe Campaign sont répertoriées dans les [Notes de mise à jour](../../rn/using/latest-release.md).
 
 ## Fonctionnalités obsolètes {#deprecated-features}
 
@@ -89,7 +89,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
   </tr>
   <tr>
   <td>Domaine Demdex<br></td>
-  <td><p> Depuis la version Campaign 21.1.3, le domaine demdex utilisé pour importer et exporter des audiences vers Adobe Experience Cloud n’est plus disponible. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">En savoir plus</a></p> 
+  <td><p> Depuis la version Campaign 21.1.3, le domaine demdex utilisé pour importer et exporter des audiences vers Adobe Experience Cloud n’est plus disponible. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">En savoir plus</a></p> 
   </td>
   </tr>
    <tr> 
@@ -114,7 +114,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
   </tr> 
   <tr> 
    <td>Applications Web - Microsites</td>
-   <td>À compter de la version 18.10 de Campaign, les microsites ne sont plus disponibles. Vous pouvez améliorer la sécurité en limitant lʼaccès aux seuls domaines dédiés des fichiers de configuration dʼAdobe Campaign et utiliser des URL personnalisées dans Campaign à lʼaide dʼalias DNS.</td>
+   <td>À compter de la version 18.10 de Campaign, les microsites ne sont plus disponibles. Vous pouvez améliorer la sécurité en limitant lʼaccès aux seuls domaines dédiés des fichiers de configuration dʼAdobe Campaign et utiliser des URL personnalisées dans Campaign à lʼaide dʼalias DNS.</td>
   </tr> 
   <tr> 
    <td>Notifications push - Connecteur binaire iOS</td>

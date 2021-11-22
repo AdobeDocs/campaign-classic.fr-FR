@@ -23,10 +23,11 @@ La **stack trace** représente une trace contenue dans un fichier de type **core
 >
 >* Un fichier **core** se présente sous le nom **core.`<num>`**.
 >* Il faut que **gdb - The GNU Debugger** soit installé sur la machine.
+
 >
 
 
-Le support technique d&#39;Adobe Campaign peut vous demander cette **stack trace**. Pour l&#39;obtenir, saisissez les commandes suivantes sous Linux :
+Le support technique d&#39;Adobe Campaign peut vous demander cette **stack trace**. Pour l&#39;obtenir, saisissez les commandes suivantes sous Linux :
 
 ```
 su - neolane
@@ -53,9 +54,9 @@ gdb nlserver <coreFile>
 #16 0x5565918a in clone () from /lib/tls/libc.so.6
 ```
 
-Le support technique d&#39;Adobe Campaign peut vous demander de lancer cette commande à l&#39;aide d&#39;un exécutable spécifique (que nous vous fournirons).
+Le support technique d&#39;Adobe Campaign peut vous demander de lancer cette commande à l&#39;aide d&#39;un exécutable spécifique (que nous vous fournirons).
 
-Dans ce cas, exécutez simplement la commande suivante en remplaçant **nlserver** par le fichier exécutable fourni par Adobe Campaign :
+Dans ce cas, exécutez simplement la commande suivante en remplaçant **nlserver** par le fichier exécutable fourni par Adobe Campaign :
 
 ```
 gdb nlserver <coreFile>

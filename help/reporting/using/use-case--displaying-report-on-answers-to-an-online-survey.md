@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: '"Cas pratique : affichage d''un rapport sur les réponses à un questionnaire en ligne"'
-description: '"Cas pratique : affichage d''un rapport sur les réponses à un questionnaire en ligne"'
+title: '"Cas pratique : affichage d''un rapport sur les réponses à un questionnaire en ligne"'
+description: '"Cas pratique : affichage d''un rapport sur les réponses à un questionnaire en ligne"'
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
@@ -13,11 +13,11 @@ ht-degree: 100%
 
 ---
 
-# Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne{#use-case-displaying-report-on-answers-to-an-online-survey}
+# Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne{#use-case-displaying-report-on-answers-to-an-online-survey}
 
 ![](../../assets/common.svg)
 
-Les réponses à des questionnaires Adobe Campaign peuvent être collectées et analysées dans des rapports dédiés.
+Les réponses à des questionnaires Adobe Campaign peuvent être collectées et analysées dans des rapports dédiés.
 
 Dans l&#39;exemple ci-dessous, nous allons collecter les réponses à un questionnaire en ligne et les afficher dans un rapport sous la forme d&#39;un tableau croisé dynamique.
 
@@ -35,7 +35,7 @@ Avant de démarrer ce cas pratique, vous devez disposer d&#39;un questionnaire e
 
 ## Etape 1 - Créer le workflow de collecte et stockage des données {#step-1---creating-the-data-collection-and-storage-workflow}
 
-Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
+Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
 1. Créez un workflow et positionnez une activité **[!UICONTROL Réponses à un questionnaire]**. L’utilisation de cette activité est présentée dans [cette section](../../surveys/using/publish--track-and-use-collected-data.md#using-the-collected-data).
 1. Editez l&#39;activité et sélectionnez le questionnaire dont vous souhaitez analyser les réponses.
@@ -43,7 +43,7 @@ Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
    ![](../../surveys/using/assets/reporting_usecase_1_01.png)
 
-1. Sélectionnez les colonnes à extraire (ici : tous les champs archivés). Les réponses sont stockées dans ces champs.
+1. Sélectionnez les colonnes à extraire (ici : tous les champs archivés). Les réponses sont stockées dans ces champs.
 
    ![](../../surveys/using/assets/reporting_usecase_1_02.png)
 
@@ -51,7 +51,7 @@ Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
    ![](../../surveys/using/assets/reporting_usecase_1_04.png)
 
-   Dans cette activité, indiquez la liste à mettre à jour et désélectionnez l&#39;option **[!UICONTROL Purger puis réutiliser la liste si elle existe (sinon la compléter)]** : les réponses seront ajoutées à la table existante. Cette option permettra de référencer la liste dans un cube : le schéma associé à la liste ne sera pas regénéré à chaque mise à jour, ce qui permet de garantir l&#39;intégrité du cube utilisant cette liste.
+   Dans cette activité, indiquez la liste à mettre à jour et désélectionnez l&#39;option **[!UICONTROL Purger puis réutiliser la liste si elle existe (sinon la compléter)]** : les réponses seront ajoutées à la table existante. Cette option permettra de référencer la liste dans un cube : le schéma associé à la liste ne sera pas regénéré à chaque mise à jour, ce qui permet de garantir l&#39;intégrité du cube utilisant cette liste.
 
    ![](../../surveys/using/assets/reporting_usecase_1_03.png)
 
@@ -67,7 +67,7 @@ Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
 ## Etape 2 - Créer le cube, ses mesures et ses indicateurs {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-Vous pouvez ensuite créer le cube et paramétrer ses mesures : elles seront utilisées lors de la création des indicateurs. Ces indicateurs seront affichés dans le rapport. La création et le paramétrage des cubes sont présentés dans la section [À propos des cubes](../../reporting/using/about-cubes.md).
+Vous pouvez ensuite créer le cube et paramétrer ses mesures : elles seront utilisées lors de la création des indicateurs. Ces indicateurs seront affichés dans le rapport. La création et le paramétrage des cubes sont présentés dans la section [À propos des cubes](../../reporting/using/about-cubes.md).
 
 Dans cet exemple, le cube est basé sur les données de la liste alimentée par le workflow créé à l&#39;étape précédente.
 

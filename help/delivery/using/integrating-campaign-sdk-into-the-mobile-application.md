@@ -24,7 +24,7 @@ Les SDK Campaign pour iOS et Android sont des composants du module Canal des app
 >
 >Pour obtenir le SDK Campaign (anciennement appelé SDK Neolane), contactez [Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
-L&#39;intérêt du SDK est de faciliter l&#39;intégration d&#39;une application mobile à la plateforme Adobe Campaign.
+L&#39;intérêt du SDK est de faciliter l&#39;intégration d&#39;une application mobile à la plateforme Adobe Campaign.
 
 Pour plus d&#39;informations sur les différentes versions Android et iOS prises en charge, consultez la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#MobileSDK).
 
@@ -38,7 +38,7 @@ Pour plus d&#39;informations sur les différentes versions Android et iOS prises
 
 * **Sous Android** : le fichier **neolane_sdk-release.aar** doit être lié au projet.
 
-   La autorisation suivante permet l&#39;accès au serveur Adobe Campaign :
+   L’autorisation suivante permet l&#39;accès au serveur Adobe Campaign :
 
    ```
    Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
@@ -46,7 +46,7 @@ Pour plus d&#39;informations sur les différentes versions Android et iOS prises
    Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/");
    ```
 
-   La permisson suivante permet de récupérer un identifiant unique par téléphone :
+   La permisson suivante permet de récupérer un identifiant unique par téléphone :
 
    ```
    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
@@ -56,7 +56,7 @@ Pour plus d&#39;informations sur les différentes versions Android et iOS prises
 
    A partir de la version 1.0.26 du SDK, cette autorisation n&#39;est plus utilisée.
 
-* **Sous iOS** : les fichiers **libNeolaneSDK.a** et **Neolane_SDK.h** doivent être liés au projet. A partir de la version 1.0.24 du SDK, l&#39;option **ENABLE_BITCODE** est activée.
+* **Sous iOS** : les fichiers **libNeolaneSDK.a** et **Neolane_SDK.h** doivent être liés au projet. A partir de la version 1.0.24 du SDK, l&#39;option **ENABLE_BITCODE** est activée.
 
    >[!NOTE]
    >
@@ -66,16 +66,16 @@ Pour plus d&#39;informations sur les différentes versions Android et iOS prises
 
 Afin d&#39;intégrer le SDK Campaign dans l&#39;application mobile, l&#39;administrateur fonctionnel doit fournir au développeur les informations suivantes :
 
-* **Une clé d&#39;intégration** permettant à la plateforme Adobe Campaign d&#39;identifier l&#39;application mobile.
+* **Une clé d&#39;intégration** permettant à la plateforme Adobe Campaign d&#39;identifier l&#39;application mobile.
 
    >[!NOTE]
    >
-   >Cette clé d&#39;intégration est renseignée dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Informations]** du service dédié à l&#39;application mobile. Pour plus d&#39;informations, consultez la section [Paramétrage de l’application mobile dans Adobe Campaign](configuring-the-mobile-application.md).
+   >Cette clé d&#39;intégration est renseignée dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Informations]** du service dédié à l&#39;application mobile. Pour plus d&#39;informations, consultez la section [Paramétrage de l’application mobile dans Adobe Campaign](configuring-the-mobile-application.md).
 
-* **Une URL de tracking** correspondant à l&#39;adresse du serveur de tracking Adobe Campaign.
+* **Une URL de tracking** correspondant à l&#39;adresse du serveur de tracking Adobe Campaign.
 * **Une URL marketing** permettant de collecter les abonnements.
 
-* **Sous Android** :
+* **Sous Android** :
 
    ```
    Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
@@ -83,7 +83,7 @@ Afin d&#39;intégrer le SDK Campaign dans l&#39;application mobile, l&#39;admini
    Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
    ```
 
-* **Sous iOS** :
+* **Sous iOS** :
 
    ```
    Neolane_SDK *nl = [Neolane_SDK getInstance];
@@ -94,12 +94,12 @@ Afin d&#39;intégrer le SDK Campaign dans l&#39;application mobile, l&#39;admini
 
 ## Fonction d&#39;enregistrement {#registration-function}
 
-La fonction d&#39;enregistrement permet :
+La fonction d&#39;enregistrement permet :
 
-* d&#39;envoyer l&#39;identifiant de notification ou push id (deviceToken pour iOS et registrationID pour Android) à Adobe Campaign.
+* d&#39;envoyer l&#39;identifiant de notification ou push id (deviceToken pour iOS et registrationID pour Android) à Adobe Campaign.
 * de récupérer la clé de réconciliation ou userKey (par exemple l&#39;adresse email ou le numéro de compte)
 
-* **Sous Android** :
+* **Sous Android** :
 
    ```
    void registerInNeolane(String registrationId, String userKey, Context context)
@@ -114,7 +114,7 @@ La fonction d&#39;enregistrement permet :
    }
    ```
 
-   Si vous utilisez FCM (Firebase Cloud Messaging), nous vous conseillons d&#39;utiliser la fonction **registerDevice** lors de l&#39;appel de la fonction **onTokenRefresh** pour notifier Adobe Campaign du changement de token de l&#39;appareil mobile de l&#39;utilisateur.
+   Si vous utilisez FCM (Firebase Cloud Messaging), nous vous conseillons d&#39;utiliser la fonction **registerDevice** lors de l&#39;appel de la fonction **onTokenRefresh** pour notifier Adobe Campaign du changement de token de l&#39;appareil mobile de l&#39;utilisateur.
 
    ```
    public class NeoTripFirebaseInstanceIDService extends FirebaseInstanceIdService {
@@ -136,7 +136,7 @@ La fonction d&#39;enregistrement permet :
    }
    ```
 
-* **Sous iOS** :
+* **Sous iOS** :
 
    ```
    // Callback called on successful registration to the APNs
@@ -150,7 +150,7 @@ La fonction d&#39;enregistrement permet :
 
 ## Fonction de tracking {#tracking-function}
 
-* **Sous Android** :
+* **Sous Android** :
 
    Les fonctions de tracking permettent de tracker l&#39;affichage de la notification (impression sur écran) et l&#39;activation des notifications (ouvertures).
 
@@ -281,7 +281,7 @@ La fonction d&#39;enregistrement permet :
    }
    ```
 
-* **Sous iOS** :
+* **Sous iOS** :
 
    La fonction de tracking permet de tracker l&#39;activation des notifications (ouvertures).
 
@@ -302,7 +302,7 @@ La fonction d&#39;enregistrement permet :
 
 ## Suivi des notifications silencieuses {#silent-notification-tracking}
 
-iOS permet d&#39;envoyer des notifications silencieuses, des notifications ou des données qui seront directement envoyées à une application mobile sans les afficher. Adobe Campaign vous permet de les tracker.
+iOS permet d&#39;envoyer des notifications silencieuses, des notifications ou des données qui seront directement envoyées à une application mobile sans les afficher. Adobe Campaign vous permet de les tracker.
 
 Pour suivre votre notification silencieuse, suivez l&#39;exemple ci-après.
 
@@ -540,7 +540,7 @@ Pour implémenter le délégué **registerDeviceStatus**, procédez comme suit 
 
 Les variables vous permettent de définir le comportement de l&#39;application mobile après réception d&#39;une notification. Ces variables doivent être définies dans le code de l&#39;application mobile et dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Variables]** du service d&#39;applications mobiles dédié (voir la section [Paramétrage de l&#39;application mobile dans Adobe Campaign](configuring-the-mobile-application.md)). Voici un exemple de code qui permet à une application mobile de collecter toutes les variables ajoutées dans une notification. Dans notre exemple, nous utilisons la variable &quot;VAR&quot;.
 
-* **Sous Android** :
+* **Sous Android** :
 
    ```
    public void onReceive(Context context, Intent intent) {
@@ -550,7 +550,7 @@ Les variables vous permettent de définir le comportement de l&#39;application m
    }
    ```
 
-* **Sous iOS** :
+* **Sous iOS** :
 
    ```
    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -624,9 +624,9 @@ Le média doit être téléchargé au niveau de l&#39;extension du service de no
 
 A ce niveau, vous devez effectuer les opérations suivantes :
 
-* Associer votre extension de contenu à la catégorie envoyée par Adobe Campaign :
+* Associer votre extension de contenu à la catégorie envoyée par Adobe Campaign :
 
-   Si vous souhaitez que l&#39;application mobile affiche une image, définissez la valeur de la catégorie dans Adobe Campaign, par exemple &quot;image&quot;. Dans l&#39;application mobile, vous créez une extension de notification avec le paramètre **UNNotificationExtensionCategory** ayant pour valeur &quot;image&quot;. Lorsque la notification push est reçue sur l&#39;appareil, l&#39;extension est appelée selon la valeur de la catégorie définie.
+   Si vous souhaitez que l&#39;application mobile affiche une image, définissez la valeur de la catégorie dans Adobe Campaign, par exemple &quot;image&quot;. Dans l&#39;application mobile, vous créez une extension de notification avec le paramètre **UNNotificationExtensionCategory** ayant pour valeur &quot;image&quot;. Lorsque la notification push est reçue sur l&#39;appareil, l&#39;extension est appelée selon la valeur de la catégorie définie.
 
 * Définir le style de la notification
 

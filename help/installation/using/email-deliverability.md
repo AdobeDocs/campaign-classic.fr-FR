@@ -25,28 +25,28 @@ La section ci-après présente les paramétrages nécessaires pour contrôler le
 >
 >Pour les déploiements hébergés par Adobe, certaines configurations peuvent uniquement être effectuées par Adobe, comme l&#39;accès aux fichiers de configuration de serveur et d’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 
-Pour en savoir plus sur les bonnes pratiques et les concepts relatifs à la délivrabilité avec Adobe Campaign, voir cette [section](../../delivery/using/about-deliverability.md).
+Pour en savoir plus sur les bonnes pratiques et les concepts relatifs à la délivrabilité avec Adobe Campaign, voir cette [section](../../delivery/using/about-deliverability.md).
 
 Pour un examen plus approfondi de ce qu’est la délivrabilité, y compris les recommandations techniques concernant l’envoi et la réception efficaces d’emails par une plateforme d’Adobe, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
 ## Principe de fonctionnement {#operating-principle}
 
-Le débit d&#39;une ou plusieurs instances Adobe Campaign peut être contrôlé afin de limiter le nombre d&#39;emails envoyés en fonction des domaines. Par exemple, il est possible de limiter le débit des adresses en **yahoo.com** à 20.000 messages par heure et à 100.000 messages par heure pour les autres domaines.
+Le débit d&#39;une ou plusieurs instances Adobe Campaign peut être contrôlé afin de limiter le nombre d&#39;emails envoyés en fonction des domaines. Par exemple, il est possible de limiter le débit des adresses en **yahoo.com** à 20.000 messages par heure et à 100.000 messages par heure pour les autres domaines.
 
-Le débit des messages doit être contrôlé pour chacune des adresses IP utilisées par les serveurs de diffusion (**mta**) pour l&#39;envoi des emails. Plusieurs **mta** repartis sur plusieurs machines et appartenant à différentes instances Adobe Campaign peuvent partager les mêmes adresses IP pour l&#39;envoi d&#39;emails : il est donc nécessaire qu&#39;un processus coordonne l&#39;utilisation de ces adresses IP.
+Le débit des messages doit être contrôlé pour chacune des adresses IP utilisées par les serveurs de diffusion (**mta**) pour l&#39;envoi des emails. Plusieurs **mta** repartis sur plusieurs machines et appartenant à différentes instances Adobe Campaign peuvent partager les mêmes adresses IP pour l&#39;envoi d&#39;emails : il est donc nécessaire qu&#39;un processus coordonne l&#39;utilisation de ces adresses IP.
 
-C&#39;est la fonction du module **stat** : il fédère toutes les demandes d&#39;ouvertures de connexions et d&#39;envois de messages vers les serveurs de messagerie pour un ensemble d&#39;adresses IP. Le serveur de statistiques maintient ainsi le compte des diffusion et peut autoriser ou refuser les envois dans le temps en fonction des quotas définis.
+C&#39;est la fonction du module **stat** : il fédère toutes les demandes d&#39;ouvertures de connexions et d&#39;envois de messages vers les serveurs de messagerie pour un ensemble d&#39;adresses IP. Le serveur de statistiques maintient ainsi le compte des envois et peut autoriser ou refuser les envois dans le temps en fonction des quotas définis.
 
 ![](assets/s_ncs_install_mta.png)
 
-* Le serveur de statistiques (**stat**) est associé à une base Adobe Campaign pour charger sa configuration.
+* Le serveur de statistiques (**stat**) est associé à une base Adobe Campaign pour charger sa configuration.
 * Les serveurs de diffusions (**mta**) sont configurés pour contacter via UDP un serveur de statistiques qui n&#39;appartient pas nécessairement à leur propre instance.
 
 ### Serveurs de diffusion {#delivery-servers}
 
 Le module **mta** distribue les messages à ses modules enfants **mtachild**. Chaque **mtachild** prépare les messages, puis demande l&#39;autorisation au serveur de statistiques avant de les envoyer.
 
-Les étapes sont les suivantes :
+Les étapes sont les suivantes :
 
 1. Le **mta** sélectionne les messages éligibles pour l&#39;envoi et les assigne à un **mtachild** disponible.
 1. Le **mtachild** charge toutes les informations nécessaires pour construire le message (contenu, éléments de personnalisation, attachements, images, etc.) et transmet le message au gestionnaire d&#39;envoi (**Email Traffic Shaper**).
@@ -56,14 +56,14 @@ Les étapes sont les suivantes :
 
 ### Statistiques et limitations des serveurs de messagerie {#email-server-statistics-and-limitations}
 
-Le serveur de statistiques maintient les statistiques suivantes pour chaque serveur de messagerie vers lequel des messages sont envoyés :
+Le serveur de statistiques maintient les statistiques suivantes pour chaque serveur de messagerie vers lequel des messages sont envoyés :
 
 * Nombre de connexions ouvertes en instantané,
 * Nombre de messages envoyés dans l&#39;heure précédente,
 * Taux de connexions réussies/refusées,
 * Taux de connexions vers des serveurs injoignables.
 
-Parallèlement, le module charge une liste de limitations pour certains serveurs de messagerie :
+Parallèlement, le module charge une liste de limitations pour certains serveurs de messagerie :
 
 * Nombre maximum de connexions simultanées,
 * Nombre maximum de messages par heure,
@@ -83,21 +83,21 @@ Pour diffuser les messages vers les serveurs de messagerie, le composant **Email
 
 Avant l&#39;envoi des messages, le module demande des « jetons » au serveur.Généralement, il s&#39;agit d&#39;un lot minimum de 10 jetons, afin de réduire le nombre de requêtes auprès du serveur.
 
-Le serveur conserve en mémoire toutes les statistiques de connexion et de diffusion. En cas de redémarrage, les informations sont provisoirement perdues : chacun des clients conserve localement une copie de ses statistiques d&#39;envoi et les retourne régulièrement au serveur (toutes les 2 minutes). Le serveur peut alors ré-agréger les données.
+Le serveur conserve en mémoire toutes les statistiques de connexion et d&#39;envoi. En cas de redémarrage, les informations sont provisoirement perdues : chacun des clients conserve localement une copie de ses statistiques d&#39;envoi et les retourne régulièrement au serveur (toutes les 2 minutes). Le serveur peut alors ré-agréger les données.
 
 Les sections suivantes décrivent le traitement d&#39;un message par le composant **Email Traffic Shaper**.
 
 ### Diffusion d&#39;un message {#message-delivery}
 
-Lorsqu&#39;un message est envoyé, 3 résultats sont possibles :
+Lorsqu&#39;un message est envoyé, 3 résultats sont possibles :
 
-1. **Success** : le message est envoyé avec succès. Le message est mis à jour.
-1. **Message Failed** : le serveur contacté refuse le message pour le destinataire spécifié. Ce résultat correspond aux codes retour entre 550 et 599, mais certaines exceptions peuvent être définies.
+1. **Success** : le message est envoyé avec succès. Le message est mis à jour.
+1. **Message Failed** : le serveur contacté refuse le message pour le destinataire spécifié. Ce résultat correspond aux codes retour entre 550 et 599, mais certaines exceptions peuvent être définies.
 1. **Échec de la session** (à partir de la version 5.11) : si le **mta** reçoit une réponse pour ce message, celui-ci est abandonné (voir la section [Abandon d’un message](#message-abandonment)). Le message est envoyé vers un autre chemin ou mis en attente si aucun autre chemin n’est disponible (voir la section [Mise en attente d’un message](#message-pending)).
 
    >[!NOTE]
    >
-   >Un **chemin** désigne une connexion entre le **mta** Adobe Campaign et **mta** la cible, **mta** Adobe Campaign pouvant choisir parmi plusieurs IP de départ et plusieurs adresses IP du domaine destination.
+   >Un **chemin** désigne une connexion entre le **mta** Adobe Campaign et le **mta** destination, le **mta** Adobe Campaign pouvant choisir parmi plusieurs IP de départ et plusieurs adresses IP du domaine destination.
 
 ### Abandon d&#39;un message {#message-abandonment}
 
@@ -113,13 +113,13 @@ Un chemin est généralement marqué non disponible pour une durée variable apr
 
 ## Configuration du serveur de statistiques {#statistics-server-configuration}
 
-Le serveur de statistiques peut être utilisé par plusieurs instances : il doit être configuré indépendamment des instances qui vont l&#39;utiliser.
+Le serveur de statistiques peut être utilisé par plusieurs instances : il doit être configuré indépendamment des instances qui vont l&#39;utiliser.
 
-Vous devez d&#39;abord définir la base de données Adobe Campaign qui hébergera la configuration.
+Vous devez d&#39;abord définir la base de données Adobe Campaign qui hébergera la configuration.
 
 ### Configuration de démarrage {#start-configuration}
 
-Par défaut, le module **stat** est démarré pour chaque instance. Lorsque les instances sont regroupées sur le même ordinateur ou lorsque les instances partagent la même adresse IP, un seul serveur de statistiques est utilisé : les autres doivent être désactivés.
+Par défaut, le module **stat** est démarré pour chaque instance. Lorsque les instances sont regroupées sur le même ordinateur ou lorsque les instances partagent la même adresse IP, un seul serveur de statistiques est utilisé : les autres doivent être désactivés.
 
 ### Définition du port du serveur {#definition-of-the-server-port}
 
@@ -145,7 +145,7 @@ Les règles MX (Mail eXchanger) correspondent aux règles de gestion de communic
 
 Ces règles sont rechargées automatiquement tous les matins à 6h00 (heure du serveur) afin de fournir régulièrement l’instance du client.
 
-Selon les capacités matérielles et la politique interne, un FAI acceptera un nombre prédéfini de connexions et de messages par heure. Ces variables peuvent être modifiées de manière automatique par le système du FAI en fonction de la réputation de l&#39;IP et du domaine de l&#39;expéditeur. Adobe Campaign, via sa plateforme délivrabilité, gère plus de 150 règles spécifiques par FAI, avec, en complément, une règle générique pour les autres domaines.
+Selon les capacités matérielles et la politique interne, un FAI acceptera un nombre prédéfini de connexions et de messages par heure. Ces variables peuvent être modifiées de manière automatique par le système du FAI en fonction de la réputation de l&#39;IP et du domaine de l&#39;expéditeur. Adobe Campaign, via sa plateforme délivrabilité, gère plus de 150 règles spécifiques par FAI, avec, en complément, une règle générique pour les autres domaines.
 
 Le nombre maximum de connexions ne dépend pas exclusivement du nombre d&#39;adresses IP publiques utilisées par le MTA.
 
@@ -176,7 +176,7 @@ user:~ user$ host -t a mta5.am0.yahoodns.net
 
 Pour cet enregistrement, l’utilisateur peut contacter 8 adresses IP des homologues. Comme l’utilisateur dispose de 2 adresses IP publiques, il obtient 8 x 2 = 16 combinaisons pour accéder aux serveurs de messagerie yahoo.com. Chacune de ces combinaisons est appelée un chemin d’accès.
 
-Le deuxième enregistrement MX apparaît comme ceci :
+Le deuxième enregistrement MX apparaît comme ceci :
 
 ```
 user:~ user$ host -t a mta6.am0.yahoodns.net
@@ -235,19 +235,19 @@ Pour recharger la configuration sans redémarrer le serveur de statistiques, uti
 
 Le document **[!UICONTROL Gestion des MX]** répertorie tous les domaines liés à une règle MX.
 
-Ces règles sont appliquées dans l&#39;ordre : la première règle dont le masque de MX est compatible avec le MX ciblé est appliquée.
+Ces règles sont appliquées dans l&#39;ordre : la première règle dont le masque de MX est compatible avec le MX ciblé est appliquée.
 
 Les paramètres disponibles pour chacune des règles sont les suivants :
 
 * **[!UICONTROL Masque des MX]** : domaine auquel s’applique la règle. Chaque règle fixe un masque d&#39;adresse du MX. Tout MX dont le nom correspond à ce masque est éligible. Le masque peut contenir les caractères génériques &quot;*&quot; et &quot;?&quot;.
 
-   Par exemple, les adresses :
+   Par exemple, les adresses :
 
    * a.mx.yahoo.com
    * b.mx.yahoo.com
    * c.mx.yahoo.com
 
-   sont compatibles avec les masques :
+   sont compatibles avec les masques :
 
    * *.yahoo.com
    * ?.mx.yahoo.com
@@ -264,7 +264,7 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
    Dans ce cas, la règle MX `*.google.com` sera utilisée. Comme vous pouvez le constater, le masque de règle MX ne correspond pas nécessairement au domaine de l’email. Les règles MX appliquées aux adresses email gmail.com seront celles qui comportent le masque `*.google.com`.
 
-* **[!UICONTROL Plage des identifiants]** : cette option permet d&#39;indiquer les plages d&#39;identifiants (publicId) pour lesquelles la règle s&#39;applique. Vous pouvez indiquer :
+* **[!UICONTROL Plage des identifiants]** : cette option permet d&#39;indiquer les plages d&#39;identifiants (publicId) pour lesquelles la règle s&#39;applique. Vous pouvez indiquer :
 
    * Un nombre : la règle ne s&#39;appliquera qu&#39;à ce publicId,
    * Une plage de nombres (**nombre1-nombre2**) la règle s&#39;appliquera à tous les publicId compris entre ces deux nombres.
@@ -279,7 +279,7 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
 * **[!UICONTROL Partagé]** : définit le paramétrage des propriétés pour la règle MX. Si Oui, les paramètres sont tous partagés sur toutes les IP disponibles de l’instance. Si Non, les règles MX sont définies pour chaque IP. Le nombre maximum de messages est multiplié par le nombre d’IP disponibles.
 * **[!UICONTROL Nombre maximum de connexions]** : nombre maximum de connexions simultanées au domaine de l’expéditeur.
-* **[!UICONTROL Nombre maximum de messages]** : nombre maximum de messages qui peuvent être envoyés sur une connexion. Au-delà, la connexion est fermée puis une nouvelle est rouverte.
+* **[!UICONTROL Nombre maximum de messages]** : nombre maximum de messages qui peuvent être envoyés sur une connexion. Au-delà, la connexion est fermée puis une nouvelle est rouverte.
 * **[!UICONTROL Messages par heure]** : nombre maximum de messages pouvant être envoyés en une heure au domaine de l’expéditeur.
 * **[!UICONTROL Timeout de connexion]** : délai maximum pour tenter de se connecter à un domaine.
 
@@ -287,20 +287,20 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
    >
    >Le système d&#39;exploitation Windows peut émettre un **timeout** avant cette limite. Cette limite dépend de la version de Windows.
 
-* **[!UICONTROL Timeout Data]** : durée maximale d&#39;attente d&#39;une réponse du serveur après l&#39;envoi du contenu du message (section DATA du protocole SMTP).
-* **[!UICONTROL Timeout]** : durée maximale d&#39;attente de réponse pour les autres échanges avec le serveur SMTP.
-* **[!UICONTROL TLS]** : le protocole TLS, qui permet de chiffrer la diffusion des e-mails, peut être activé de manière sélective. Pour chaque masque de MX, les options suivantes sont disponibles :
+* **[!UICONTROL Timeout Data]** : durée maximale d&#39;attente d&#39;une réponse du serveur après l&#39;envoi du contenu du message (section DATA du protocole SMTP).
+* **[!UICONTROL Timeout]** : durée maximale d&#39;attente de réponse pour les autres échanges avec le serveur SMTP.
+* **[!UICONTROL TLS]** : le protocole TLS, qui permet de chiffrer la diffusion des e-mails, peut être activé de manière sélective. Pour chaque masque de MX, les options suivantes sont disponibles :
 
-   * **[!UICONTROL Configuration par défaut]** : c&#39;est la configuration générale indiquée dans le fichier de configuration serverConf.xml qui est appliquée.
+   * **[!UICONTROL Configuration par défaut]** : c&#39;est la configuration générale indiquée dans le fichier de configuration serverConf.xml qui est appliquée.
 
       >[!IMPORTANT]
       >
       >Il n&#39;est pas recommandé de modifier le paramétrage par défaut.
 
-   * **[!UICONTROL Désactivé]** : les messages sont systématiquement envoyés sans chiffrement.
-   * **[!UICONTROL Opportuniste]** : la diffusion des messages est chiffrée si le serveur de réception (SMTP) est capable de gérer le protocole TLS.
+   * **[!UICONTROL Désactivé]** : les messages sont systématiquement envoyés sans chiffrement.
+   * **[!UICONTROL Opportuniste]** : la diffusion des messages est chiffrée si le serveur de réception (SMTP) est capable de gérer le protocole TLS.
 
-Exemple de paramétrage :
+Exemple de paramétrage :
 
 ![](assets/s_ncs_install_mx_mgt_rule_details.png)
 
@@ -314,18 +314,18 @@ Il est possible de définir le format des messages envoyés, de sorte que l&#39;
 
 Pour cela, accédez au document **[!UICONTROL Gestion des formats des emails]** du dossier **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Gestion de NP@I]** > **[!UICONTROL Jeux de règles mail]** de l&#39;arborescence.
 
-Ce document contient notamment une liste de domaines prédéfinis correspondant aux formats japonais gérés par Adobe Campaign. Pour plus d&#39;informations, consultez [ce document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+Ce document contient notamment une liste de domaines prédéfinis correspondant aux formats japonais gérés par Adobe Campaign. Pour plus d&#39;informations, consultez [ce document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
 ![](assets/mail_rule_sets.png)
 
-Le paramètre **Structure MIME** (Multipurpose Internet Mail Extensions) permet de définir la structure du message qui sera transmise aux différents clients de messagerie. Trois options sont disponibles :
+Le paramètre **Structure MIME** (Multipurpose Internet Mail Extensions) permet de définir la structure du message qui sera transmise aux différents clients de messagerie. Trois options sont disponibles :
 
-* **multipart** : envoi du message au format texte et HTML. Si le format HTML n&#39;est pas accepté, le message pourra tout de même s&#39;afficher au format texte.
+* **multipart** : envoi du message au format texte et HTML. Si le format HTML n&#39;est pas accepté, le message pourra tout de même s&#39;afficher au format texte.
 
    Par défaut, la structure multipart est de type **multipart/alternative**, mais devient automatiquement **multipart/related** lorsque qu&#39;on ajoute une image au message. Certains fournisseurs exigeant le format **multipart/related** par défaut, l&#39;option **[!UICONTROL Forcer multipart/related]** permet d&#39;imposer ce format même si aucune image n&#39;est jointe.
 
-* **html** : envoi du message au format HTML uniquement. Si le format HTML n&#39;est pas accepté, le message ne s&#39;affichera pas.
-* **text** : envoi du message au format texte uniquement. L&#39;avantage des messages au format texte est leur taille très réduite.
+* **html** : envoi du message au format HTML uniquement. Si le format HTML n&#39;est pas accepté, le message ne s&#39;affichera pas.
+* **text** : envoi du message au format texte uniquement. L&#39;avantage des messages au format texte est leur taille très réduite.
 
 Si l&#39;option **[!UICONTROL Inclusion des images]** est activée, celles-ci s&#39;affichent directement dans le corps de l&#39;email. Les images sont alors téléchargées et les liens URL remplacés par leur contenu.
 
@@ -339,7 +339,7 @@ Cette option est notamment utilisée par le marché japonais pour les emails au 
 
 ### Synchronisation des horloges {#clock-synchronization}
 
-Les horloges de l&#39;ensemble des serveurs composant la plateforme Adobe Campaign (y compris la base de données), doivent être synchronisées et les systèmes doivent être dans le même fuseau horaire.
+Les horloges de l&#39;ensemble des serveurs composant la plateforme Adobe Campaign (y compris la base de données), doivent être synchronisées et les systèmes doivent être dans le même fuseau horaire.
 
 ### Coordonnées du serveur de statistiques {#coordinates-of-the-statistics-server}
 
@@ -379,13 +379,13 @@ Exemple :
 </IPAffinity>
 ```
 
-Les paramètres sont les suivants :
+Les paramètres sont les suivants :
 
-* **address** : il s&#39;agit de l&#39;adresse IP de la machine hôte du MTA à utiliser.
-* **heloHost** : cet identifiant représente l&#39;adresse IP telle qu&#39;elle sera vue par le serveur SMTP.
+* **address** : il s&#39;agit de l&#39;adresse IP de la machine hôte du MTA à utiliser.
+* **heloHost** : cet identifiant représente l&#39;adresse IP telle qu&#39;elle sera vue par le serveur SMTP.
 
-* **publicId** : cette information est utile lorsqu&#39;une adresse IP est partagée par plusieurs **mta** Adobe Campaign derrière un routeur NAT. Le serveur de statistiques utilise cet identifiant pour mémoriser les statistiques de connexions et d&#39;envois entre ce point de départ et le serveur cible.
-* **weight** : permet de définir la fréquence relative d&#39;utilisation de l&#39;adresse. Par défaut, toutes les adresses ont un poids égal à 1.
+* **publicId** : cette information est utile lorsqu&#39;une adresse IP est partagée par plusieurs **mta** Adobe Campaign derrière un routeur NAT. Le serveur de statistiques utilise cet identifiant pour mémoriser les statistiques de connexions et d&#39;envois entre ce point de départ et le serveur cible.
+* **weight** : permet de définir la fréquence relative d&#39;utilisation de l&#39;adresse. Par défaut, toutes les adresses ont un poids égal à 1.
 
 >[!NOTE]
 >
@@ -406,13 +406,13 @@ Si, par exemple, la première adresse est inutilisable vers un MX donné, les me
 
    Exemple : **includeDomains=&quot;wanadoo.com,orange.com,yahoo.*&quot;**
 
-* **excludeDomains** : exclut une liste de domaines de cette adresse IP. Ce filtre est applique après le filtre **includeDomains**.
+* **excludeDomains** : exclut une liste de domaines de cette adresse IP. Ce filtre est applique après le filtre **includeDomains**.
 
    ![](assets/s_ncs_install_mta_ips.png)
 
 ## Optimisation de l&#39;envoi d&#39;emails {#email-sending-optimization}
 
-L&#39;architecture interne du **mta** Adobe Campaign a un impact sur le paramétrage pour optimiser la diffusion d&#39;emails. Voici quelques conseils pour améliorer les diffusions.
+L&#39;architecture interne du **mta** Adobe Campaign a un impact sur le paramétrage pour optimiser la diffusion d&#39;emails. Voici quelques conseils pour améliorer les diffusions.
 
 ### Ajuster le paramètre maxWaitingMessages {#adjust-the-maxwaitingmessages-parameter}
 

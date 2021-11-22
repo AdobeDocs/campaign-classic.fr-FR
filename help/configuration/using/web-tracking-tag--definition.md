@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: '"Balise de tracking web : définition"'
-description: '"Balise de tracking web : définition"'
+title: '"Balise de tracking Web : définition"'
+description: '"Balise de tracking Web : définition"'
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Balise de tracking web : définition{#web-tracking-tag-definition}
+# Balise de tracking web : définition{#web-tracking-tag-definition}
 
 ![](../../assets/v7-only.svg)
 
@@ -68,7 +68,7 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
                               <p>paramètre d'URL</p> 
                            </td>
                            <td>
-                              <p>Identifiant de la page Web trackée : c'est le seul paramètre obligatoire.</p> 
+                              <p>Identifiant de la page Web trackée : c'est le seul paramètre obligatoire.</p> 
                            </td> 
                         </tr>
                         <tr>
@@ -126,7 +126,7 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
 
 ## Méthodes de transmission des données {#data-transmission-methods}
 
-Les méthodes possibles sont les suivantes :
+Les méthodes possibles sont les suivantes :
 
 * Insertion de l&#39;URL dans l&#39;attribut **&quot;src&quot;** d&#39;une balise HTML **`<img>`** intégrée à la page Web que l&#39;on souhaite tracker.
 * Appel direct au serveur de redirection au moment de la génération de la page Web que l&#39;on souhaite tracker.

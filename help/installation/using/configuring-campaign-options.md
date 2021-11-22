@@ -641,11 +641,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr>  
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Nom du tablespace destiné à contenir les données des tables ootb d’Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
+   <td> Nom du tablespace destiné à contenir les données des tables ootb d’Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Nom du tablespace destiné à contenir les index des tables ootb d’Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
+   <td> Nom du tablespace destiné à contenir les index des tables ootb d’Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 
@@ -730,7 +730,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Permet de paramétrer les Triggers Experience Cloud. Le type de données est "texte long" et doit être au format JSON. Voir <a class="anchorLink" href="https://helpx.adobe.com/fr/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Utilisation des Triggers Experience Cloud avec Adobe Campaign Classic</a>.<br /> </td> 
+   <td> Permet de paramétrer les Triggers Experience Cloud. Le type de données est "texte long" et doit être au format JSON. Voir <a class="anchorLink" href="https://helpx.adobe.com/fr/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Utilisation des Triggers Experience Cloud avec Adobe Campaign Classic</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
@@ -750,11 +750,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DataSourceId</span> <br /> </td> 
-   <td> Option utilisée pour l'intégration avec Adobe Audience Manager.<br /> </td> 
+   <td> Option utilisée pour l'intégration avec Adobe Audience Manager.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DestinationId</span> <br /> </td> 
-   <td> Option utilisée pour l'intégration avec Adobe Audience Manager.<br /> </td> 
+   <td> Option utilisée pour l'intégration avec Adobe Audience Manager.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Teradata</span> <br /> </td> 
@@ -967,7 +967,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AutoOperator</span> <br /> </td> 
-   <td> Activer la création automatique d'utilisateurs et de leurs droits dans Adobe Campaign.<br /> </td> 
+   <td> Activer la création automatique d'utilisateurs et de leurs droits dans Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DN</span> <br /> </td> 

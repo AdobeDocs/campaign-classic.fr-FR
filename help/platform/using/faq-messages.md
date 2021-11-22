@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Tests et validation {#test-and-validate-before-sending}
 
-Apprenez à effectuer les étapes de test et de validation avant d&#39;envoyer des messages dans Adobe Campaign.
+Apprenez à effectuer les étapes de test et de validation avant d&#39;envoyer des messages dans Adobe Campaign.
 
 ### Qu&#39;est-ce que l&#39;analyse de la diffusion ? {#what-is-the-delivery-analysis-}
 
@@ -37,7 +37,7 @@ Adobe recommande vivement de créer des BAT pour tester votre diffusion auprès 
 
 Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis. Elles sont ajoutées à la cible : elles peuvent être importées ou créées directement au niveau de la diffusion ou de l&#39;opération. Pour les diffusions courrier, elles sont ajoutées au moment de l&#39;extraction et mixées dans le document de sortie.
 
-Les avantages sont notamment les suivants :
+Les avantages sont notamment les suivants :
 
 * Substitution aléatoire des champs avec des données issues des profils des destinataires : vous pouvez ainsi renseigner seulement l&#39;adresse email par exemple au niveau des adresses de contrôle,
 * Dans un contexte de workflow avec utilisation des fonctionnalités de Data management, les données additionnelles exploitées dans les diffusions peuvent être renseignées au niveau des adresses de contrôle afin d&#39;en forcer la valeur : on s&#39;affranchit ainsi de la substitution aléatoire des valeurs.
@@ -58,7 +58,7 @@ Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester diff�
 
 ## Envoyer vos messages {#send-your-messages}
 
-Apprenez à envoyer des messages sur différents canaux avec Adobe Campaign.
+Apprenez à envoyer des messages sur différents canaux avec Adobe Campaign.
 
 ### Comment envoyer des emails par vagues ? {#how-can-i-send-emails-in-waves-}
 
@@ -84,7 +84,7 @@ Avec Campaign Classic, vous pouvez ajouter des pièces jointes personnalisées �
 
 ## Effectuer un tracking de vos messages et mesurer leur impact {#track-your-messages-and-measure-their-impact}
 
-Une fois vos messages envoyés, apprenez à suivre et mesurer leur impact avec Adobe Campaign.
+Une fois vos messages envoyés, apprenez à suivre et mesurer leur impact avec Adobe Campaign.
 
 ### Comment configurer des liens suivis dans une diffusion d&#39;email ? {#how-can-i-configure-tracked-links-in-an-email-delivery-}
 
@@ -100,12 +100,12 @@ Découvrez comment effectuer un tracking de vos diffusions et comprendre le comp
 
 ### Où obtenir des rapports de diffusion ? {#where-can-i-get-delivery-reports-}
 
-Adobe Campaign contient un ensemble de rapports qui permettent de contrôler les diffusions et de tracker vos messages.
+Adobe Campaign contient un ensemble de rapports qui permettent de contrôler les diffusions et de tracker vos messages.
 
 [Cliquez ici pour en savoir plus sur les rapports intégrés](../../reporting/using/delivery-reports.md).
 
 ### Comment Adobe Campaign qualifie-t-il et gère-t-il les adresses en quarantaine ? {#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
 
-Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires dont l&#39;adresse est en quarantaine sont par défaut exclus lors de l&#39;analyse d&#39;une diffusion : ils ne seront pas ciblés. Une adresse email peut être mise en quarantaine par exemple lorsque la boîte de messagerie est pleine ou si l&#39;adresse n&#39;existe pas.
+Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires dont l&#39;adresse est en quarantaine sont par défaut exclus lors de l&#39;analyse d&#39;une diffusion : ils ne seront pas ciblés. Une adresse email peut être mise en quarantaine par exemple lorsque la boîte de messagerie est pleine ou si l&#39;adresse n&#39;existe pas.
 
 [Cliquez ici pour en savoir plus sur la gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md).

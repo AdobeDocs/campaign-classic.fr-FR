@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Ces procédures désinstalleront définitivement Adobe Campaign. Toutes les données seront perdues.
+>Ces procédures désinstalleront définitivement Adobe Campaign. Toutes les données seront perdues.
 
 **RHEL :**
 

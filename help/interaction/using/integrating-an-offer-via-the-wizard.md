@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Pour intégrer des offres lors de la création d&#39;une diffusion, deux méthodes sont possibles :
+Pour intégrer des offres lors de la création d&#39;une diffusion, deux méthodes sont possibles :
 
 * En appelant le moteur d&#39;offres dans le corps d&#39;une diffusion.
 * En référençant des offres via les compositions de diffusion d&#39;une campagne. Cette méthode est généralement utilisée dans le cadre d&#39;une campagne papier.
@@ -32,7 +32,7 @@ En savoir plus sur les diffusions courrier [dans cette section](../../delivery/u
 
 ### Etapes principales pour insérer une offre dans une diffusion {#main-steps-for-inserting-an-offer-into-a-delivery}
 
-Les étapes successives pour insérer des propositions d&#39;offres dans vos diffusions sont les suivantes :
+Les étapes successives pour insérer des propositions d&#39;offres dans vos diffusions sont les suivantes :
 
 1. Dans la fenêtre de diffusion, cliquez sur l&#39;icône d&#39;offres.
 

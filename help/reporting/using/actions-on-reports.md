@@ -33,7 +33,7 @@ Choisissez le format vers lequel vous souhaitez exporter votre rapport dans la l
 
 Lorsqu&#39;un rapport contient plusieurs pages, vous devez répéter l&#39;opération pour chacune des pages.
 
-Vous pouvez paramétrer votre rapport en vue de son export au format PDF, Excel ou OpenOffice. Ouvrez l&#39;explorateur Adobe Campaign et sélectionnez le rapport concerné.
+Vous pouvez paramétrer votre rapport en vue de son export au format PDF, Excel ou OpenOffice. Ouvrez l&#39;explorateur Adobe Campaign et sélectionnez le rapport concerné.
 
 Les options d&#39;export sont accessibles depuis la ou les activité(s) **[!UICONTROL Page]** du rapport, dans l&#39;onglet **[!UICONTROL Avancé]**.
 
@@ -60,7 +60,7 @@ Dans les rapports de type **[!UICONTROL Liste avec groupement]** destinés à ê
 
 ### Retarder l&#39;export {#postpone-the-export}
 
-Vous pouvez retarder l&#39;export d&#39;un rapport, par exemple pour attendre des appels asynchrones. Pour cela, saisissez le paramètre suivant dans le script d&#39;initialisation de la page :
+Vous pouvez retarder l&#39;export d&#39;un rapport, par exemple pour attendre des appels asynchrones. Pour cela, saisissez le paramètre suivant dans le script d&#39;initialisation de la page :
 
 ```
 document.nl_waitBeforeRender = true;
@@ -72,7 +72,7 @@ Pour activer l&#39;export et lancer la conversion en PDF, utilisez la fonction *
 
 Lors de l&#39;export de certains rapports volumineux, il peut se produire des erreurs d&#39;allocation de mémoire.
 
-Dans certaines instances, la valeur par défaut **maxMB** (**SKMS** pour les instances hébergées) du JavaScript indiquée dans le fichier de configuration **serverConf.xml** est fixée à 64 MB. Si vous rencontrez des erreurs de mémoire insuffisante quand vous exportez un rapport, il peut être recommandé d&#39;augmenter ce chiffre à 512 MB :
+Dans certaines instances, la valeur par défaut **maxMB** (**SKMS** pour les instances hébergées) du JavaScript indiquée dans le fichier de configuration **serverConf.xml** est fixée à 64 MB. Si vous rencontrez des erreurs de mémoire insuffisante quand vous exportez un rapport, il peut être recommandé d&#39;augmenter ce chiffre à 512 MB :
 
 ```
 <javaScript maxMB="512" stackSizeKB="8"/>
@@ -86,7 +86,7 @@ Pour en savoir plus sur le fichier **nlserver**, consultez [cette section](../..
 
 ## Imprimer un rapport {#printing-a-report}
 
-Vous pouvez imprimer votre rapport : pour cela, cliquez sur l&#39;icône d&#39;impression. La boîte de dialogue d&#39;impression s&#39;ouvre.
+Vous pouvez imprimer votre rapport : pour cela, cliquez sur l&#39;icône d&#39;impression. La boîte de dialogue d&#39;impression s&#39;ouvre.
 
 Pour un meilleur résultat, éditez les options d&#39;impression d&#39;Internet Explorer et sélectionnez l&#39;option **[!UICONTROL Imprimer les couleurs et les images d&#39;arrière-plan]**.
 
@@ -108,6 +108,6 @@ La ou les dates d&#39;historiques s&#39;affichent sous l&#39;icône d&#39;affich
 
 ![](assets/s_ncs_advuser_report_history_04.png)
 
-Vous avez la possibilité de supprimer l&#39;historique d&#39;un rapport. Pour cela, positionnez-vous dans l&#39;arborescence d&#39;Adobe Campaign au niveau du noeud où se trouvent vos rapports. Cliquez sur l&#39;onglet **[!UICONTROL Historiques]**, sélectionnez l&#39;historique voulu et cliquez sur **[!UICONTROL Supprimer]**.
+Vous avez la possibilité de supprimer l&#39;historique d&#39;un rapport. Pour cela, positionnez-vous dans l&#39;arborescence d&#39;Adobe Campaign au niveau du noeud où se trouvent vos rapports. Cliquez sur l&#39;onglet **[!UICONTROL Historiques]**, sélectionnez l&#39;historique voulu et cliquez sur **[!UICONTROL Supprimer]**.
 
 ![](assets/s_ncs_advuser_report_history_01.png)

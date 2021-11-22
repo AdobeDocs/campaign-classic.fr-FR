@@ -48,7 +48,7 @@ La gestion des accès joue un rôle important dans le renforcement de la sécuri
 
 <img src="assets/do-not-localize/icon_scripting.svg" width="60px">
 
-Lorsque vous effectuez des tâches de développement dans Adobe Campaign (workflows, Javascript, JSSP, autres), suivez toujours ces instructions :
+Lorsque vous effectuez des tâches de développement dans Adobe Campaign (workflows, Javascript, JSSP, autres), suivez toujours ces instructions :
 
 * **Scripts** : évitez si possible d’utiliser des instructions SQL. Utilisez des fonctions paramétrées plutôt que la concaténation de chaîne et évitez toute injection SQL en ajoutant les fonctions SQL à utiliser à la liste autorisée.
 

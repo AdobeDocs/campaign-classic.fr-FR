@@ -27,7 +27,7 @@ Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pou
 
 ## Types de profils {#profile-types}
 
-Adobe Campaign vous permet de gérer des profils dans toutes les étapes de leur cycle de vie : création, import, ciblage, tracking des actions, mise à jour, etc.
+Adobe Campaign vous permet de gérer des profils dans toutes les étapes de leur cycle de vie : création, import, ciblage, tracking des actions, mise à jour, etc.
 
 Un profil correspond à une entrée dans la base de données. Il contient toutes les informations nécessaires au ciblage, à la qualification et au tracking des individus.
 
@@ -51,7 +51,7 @@ Les principales méthodes pour créer des profils de destinataires sont les suiv
 
 ## Profils et cibles {#profiles-and-targets}
 
-Le lien **[!UICONTROL Profils et cibles]** permet d&#39;afficher les destinataires stockés dans la base de données Adobe Campaign. Vous pouvez créer un nouveau destinataire, en éditer un existant et accéder à son profil. Pour plus d&#39;informations, consultez [cette page](../../platform/using/editing-a-profile.md).
+Le lien **[!UICONTROL Profils et cibles]** permet d&#39;afficher les destinataires stockés dans la base de données Adobe Campaign. Vous pouvez créer un nouveau destinataire, en éditer un existant et accéder à son profil. Pour plus d&#39;informations, consultez [cette page](../../platform/using/editing-a-profile.md).
 
 ![](assets/d_ncs_user_interface_target_link.png)
 
@@ -65,7 +65,7 @@ Il permet également d&#39;accéder :
 
 La page des destinataires permet d&#39;effectuer les opérations courantes sur les profils : édition, mise à jour, ajout, suppression, tri.
 
-Pour des manipulations de profils plus avancées, il est nécessaire d&#39;éditer l&#39;arborescence Adobe Campaign pour accéder à des fonctionnalités avancées. Pour cela, cliquez sur le lien **[!UICONTROL Explorateur]** depuis la page d&#39;accueil d&#39;Adobe Campaign.
+Pour des manipulations de profils plus avancées, il est nécessaire d&#39;éditer l&#39;arborescence Adobe Campaign pour accéder à des fonctionnalités avancées. Pour cela, cliquez sur le lien **[!UICONTROL Explorateur]** depuis la page d&#39;accueil d&#39;Adobe Campaign.
 
 Par défaut, les destinataires sont stockés dans le nœud **[!UICONTROL Profils et Cibles > Destinataires]** de l&#39;arborescence. Vous pouvez créer des destinataires depuis cette vue, mais aussi :
 
@@ -79,7 +79,7 @@ Pour accéder aux fonctionnalités avancées et aux paramétrages, vous devez cl
 
 ![](assets/d_ncs_user_interface01.png)
 
-La mise en page générale de l’explorateur Adobe Campaign est présentée sur [cette page](../../platform/using/adobe-campaign-explorer.md).
+La mise en page générale de l’explorateur Adobe Campaign est présentée sur [cette page](../../platform/using/adobe-campaign-explorer.md).
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ Le nombre de profils actifs est disponible pour les **instances marketing** uniq
 
 Découvrez comment accéder aux données de profil, trier et filtrer les profils et créer et gérer manuellement des profils.
 
-Cette vidéo explique également la conformité d’Adobe Campaign Classic au RGPD.
+Cette vidéo explique également la conformité d’Adobe Campaign Classic au RGPD.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
 

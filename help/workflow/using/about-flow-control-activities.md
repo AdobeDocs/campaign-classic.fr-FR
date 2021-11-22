@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Les activités suivantes sont les activités de base : leur tâche consiste principalement à coordonner les autres activités.
+Les activités suivantes sont les activités de base : leur tâche consiste principalement à coordonner les autres activités.
 
 * **Début et Fin** : permettent respectivement de marquer les points de départ et de fin du workflow. Pour plus d&#39;informations, consultez la section [Début et Fin](start-and-end.md).
 * **Branchement** : permet d’activer toutes les transitions sortantes. Pour plus d&#39;informations, consultez la section [Branchement](fork.md).

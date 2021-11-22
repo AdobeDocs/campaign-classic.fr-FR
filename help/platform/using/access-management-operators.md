@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Prise en main des opérateurs Campaign  {#about-operators}
 
-Un opérateur est un utilisateur Adobe Campaign qui possède des autorisations pour se connecter et effectuer des actions.
+Un opérateur est un utilisateur Adobe Campaign qui possède des autorisations pour se connecter et effectuer des actions.
 
 Les opérateurs sont stockés par défaut dans le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**.
 
@@ -29,11 +29,11 @@ Les opérateurs peuvent être créés manuellement ou mappés dans un annuaire L
 
 Vous trouverez la procédure complète de création d&#39;un opérateur sur [cette page](#creating-an-operator).
 
-Pour plus d&#39;informations sur l&#39;intégration d&#39;Adobe Campaign avec LDAP, consultez [cette page](../../installation/using/connecting-through-ldap.md).
+Pour plus d&#39;informations sur l&#39;intégration d&#39;Adobe Campaign avec LDAP, consultez [cette page](../../installation/using/connecting-through-ldap.md).
 
 >[!IMPORTANT]
 >
->Un opérateur doit être associé à une zone de sécurité pour se connecter à une instance. Pour plus d&#39;informations sur les zones de sécurité dans Adobe Campaign, consultez [cette page](../../installation/using/security-zones.md).
+>Un opérateur doit être associé à une zone de sécurité pour se connecter à une instance. Pour plus d&#39;informations sur les zones de sécurité dans Adobe Campaign, consultez [cette page](../../installation/using/security-zones.md).
 
 Les utilisateurs peuvent également se connecter directement à Adobe Campaign via leur Adobe ID. Voir à ce sujet [cette page](../../integrations/using/about-adobe-id.md).
 
@@ -45,13 +45,13 @@ Pour créer un opérateur et accorder des autorisations, procédez comme suit :
 
    ![](assets/s_ncs_user_operator_new.png)
 
-1. Indiquez les **[!UICONTROL Paramètres d&#39;identification]** de l&#39;utilisateur : son login, son mot de passe et son nom. Le login et le mot de passe permettront à l&#39;opérateur de se connecter à Adobe Campaign. Une fois connecté, l&#39;utilisateur peut changer son mot de passe depuis le menu **[!UICONTROL Outils > Changement de mot de passe]**. L&#39;email de l&#39;opérateur est essentiel, car il lui permet de recevoir des notifications, par exemple lors du traitement des validations.
+1. Indiquez les **[!UICONTROL Paramètres d&#39;identification]** de l&#39;utilisateur : son login, son mot de passe et son nom. Le login et le mot de passe permettront à l&#39;opérateur de se connecter à Adobe Campaign. Une fois connecté, l&#39;utilisateur peut changer son mot de passe depuis le menu **[!UICONTROL Outils > Changement de mot de passe]**. L&#39;email de l&#39;opérateur est essentiel, car il lui permet de recevoir des notifications, par exemple lors du traitement des validations.
 
    Cette section permet également d&#39;associer l&#39;opérateur à une entité organisationnelle. Voir à ce propos [cette page](../../distributed/using/about-distributed-marketing.md).
 
 1. Sélectionnez les autorisations accordées à l&#39;opérateur dans la section **[!UICONTROL Droits d&#39;accès de l&#39;opérateur]**.
 
-   Pour attribuer des permissions à l&#39;opérateur, cliquez sur le bouton **[!UICONTROL Ajouter]** situé au-dessus de la liste des droits puis sélectionnez un groupe d&#39;opérateurs dans la liste des groupes disponibles :
+   Pour attribuer des permissions à l&#39;opérateur, cliquez sur le bouton **[!UICONTROL Ajouter]** situé au-dessus de la liste des droits puis sélectionnez un groupe d&#39;opérateurs dans la liste des groupes disponibles :
 
    ![](assets/s_ncs_user_permissions_operators.png)
 
@@ -87,7 +87,7 @@ Les paramétrages relatifs aux fuseaux horaires sont décrits sur [cette page](.
 >
 >Le travail collaboratif dans différents fuseaux horaires nécessite le stockage des dates en UTC. Les dates sont converties dans le fuseau horaire adéquat dans les contextes suivants : affichage d&#39;une date dans le fuseau horaire de l&#39;utilisateur, import et export de fichiers, planification de l&#39;envoi d&#39;un email et activités planifiées dans un workflow (planificateur, attente, contrainte horaire, etc.).
 >
->Les contraintes et recommandations relatives à ces contextes sont présentées dans les sections correspondantes de la documentation d&#39;Adobe Campaign.
+>Les contraintes et recommandations relatives à ces contextes sont présentées dans les sections correspondantes de la documentation d&#39;Adobe Campaign.
 
 En outre, la liste déroulante **[!UICONTROL Paramètres régionaux]** vous permet de sélectionner le format d&#39;affichage des dates et des nombres.
 
@@ -99,19 +99,19 @@ Dans l&#39;onglet **[!UICONTROL Droits d&#39;accès]**, vous pouvez mettre à jo
 
 Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;accéder aux options suivantes :
 
-* L&#39;option **[!UICONTROL Désactiver le compte]** permet de désactiver le compte de l’opérateur : celui-ci ne peut plus accéder à Adobe Campaign.
+* L&#39;option **[!UICONTROL Désactiver le compte]** permet de désactiver le compte de l’opérateur : celui-ci ne peut plus accéder à Adobe Campaign.
 
    >[!NOTE]
    >
    >Même si son compte est désactivé, l’opérateur peut toujours recevoir des alertes ou des notifications de la part de Campaign. Pour arrêter l&#39;envoi de notifications Campaign à cet opérateur, Adobe vous recommande de supprimer l&#39;adresse email de son profil.
 
-* L&#39;option **[!UICONTROL Interdire l&#39;accès depuis la console cliente]** permet de restreindre l&#39;utilisation d&#39;Adobe Campaign à un [accès web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) ou par le biais d&#39;API : l&#39;accès à la console cliente Adobe Campaign n&#39;est plus disponible.
+* L&#39;option **[!UICONTROL Interdire l&#39;accès depuis la console cliente]** permet de restreindre l&#39;utilisation d&#39;Adobe Campaign à un [accès web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) ou par le biais d&#39;API : l&#39;accès à la console cliente Adobe Campaign n&#39;est plus disponible.
 * Vous pouvez associer une zone de sécurité à l&#39;opérateur. Voir à ce propos [cette page](../../installation/using/security-zones.md).
 * Vous pouvez également définir un masque IP de confiance à partir du lien correspondant.
 
-   L&#39;opérateur pourra se connecter à Adobe Campaign sans saisir son mot de passe si son adresse IP est dans cette liste.
+   L&#39;opérateur pourra se connecter à Adobe Campaign sans saisir son mot de passe si son adresse IP est dans cette liste.
 
-   Vous pouvez également définir dans ce champ une plage d&#39;adresses IP qui seront autorisées à se connecter sans mot de passe, comme dans l&#39;exemple suivant :
+   Vous pouvez également définir dans ce champ une plage d&#39;adresses IP qui seront autorisées à se connecter sans mot de passe, comme dans l&#39;exemple suivant :
 
    ![](assets/operator_trustip.png)
 
@@ -119,13 +119,13 @@ Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;acc
    >
    >Afin de préserver la sécurité de l&#39;accès à votre plateforme, cette option doit être utilisée avec précaution.
 
-* L&#39;option **[!UICONTROL Restreindre aux données présentes dans les sous-dossiers de]** permet de limiter les droits attribués à l&#39;opérateur à un dossier. Seuls les sous-dossiers du noeud spécifié dans cette option seront visibles par l&#39;utilisateur :
+* L&#39;option **[!UICONTROL Restreindre aux données présentes dans les sous-dossiers de]** permet de limiter les droits attribués à l&#39;opérateur à un dossier. Seuls les sous-dossiers du noeud spécifié dans cette option seront visibles par l&#39;utilisateur :
 
    ![](assets/s_ncs_user_restrictions_operators.png)
 
    >[!IMPORTANT]
    >
-   >Il s’agit d’une restriction très stricte qui doit être utilisée avec précaution. Un opérateur connecté avec ce type de droits ne peut visualiser QUE le contenu du dossier spécifié et n’a accès à aucun autre nœud de l’arborescence via l’explorateur. Toutefois, selon les fonctionnalités auxquelles cet opérateur a accès (par exemple : workflows), l’utilisateur peut afficher les données généralement stockées dans des nœuds qui ne sont pas accessibles.
+   >Il s’agit d’une restriction très stricte qui doit être utilisée avec précaution. Un opérateur connecté avec ce type de droits ne peut visualiser QUE le contenu du dossier spécifié et n’a accès à aucun autre nœud de l’arborescence via l’explorateur. Toutefois, selon les fonctionnalités auxquelles cet opérateur a accès (par exemple : workflows), l’utilisateur peut afficher les données généralement stockées dans des nœuds qui ne sont pas accessibles.
 
 ### Vérification des paramètres {#check-settings}
 
@@ -151,7 +151,7 @@ Vous pouvez accéder à :
 
 ## Les opérateurs par défaut {#default-operators}
 
-Adobe Campaign utilise des opérateurs techniques dont les profils sont paramétrés par défaut : Administrateur (&#39;admin&#39;), Facturation (&#39;billing&#39;), Monitoring, Agent des applications web (&#39;webapp&#39;), etc. Certains dépendent des applications et options installées sur la plateforme : par exemple, les opérateurs &#39;central&#39; et &#39;local&#39; ne sont présents que lorsque l&#39;option Marketing Distribué est installée.
+Adobe Campaign utilise des opérateurs techniques dont les profils sont paramétrés par défaut : Administrateur (&#39;admin&#39;), Facturation (&#39;billing&#39;), Monitoring, Agent des applications web (&#39;webapp&#39;), etc. Certains dépendent des applications et options installées sur la plateforme : par exemple, les opérateurs &#39;central&#39; et &#39;local&#39; ne sont présents que lorsque l&#39;option Marketing Distribué est installée.
 
 >[!IMPORTANT]
 >
@@ -159,7 +159,7 @@ Adobe Campaign utilise des opérateurs techniques dont les profils sont paramét
 >
 >Pour assurer le bon fonctionnement des applications Web, nous vous recommandons également de ne pas définir de paramètres régionaux spécifiques à l&#39;opérateur &#39;webapp&#39;.
 
-Par défaut, l&#39;opérateur technique &#39;webapp&#39; bénéficie du droit nommé ADMINISTRATION, ce qui risque de créer des failles de sécurité. Pour remédier à ce problème, il est recommandé de lui ôter ce droit. Pour cela :
+Par défaut, l&#39;opérateur technique &#39;webapp&#39; bénéficie du droit nommé ADMINISTRATION, ce qui risque de créer des failles de sécurité. Pour remédier à ce problème, il est recommandé de lui ôter ce droit. Pour cela :
 
 1. Depuis le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]**, cliquez sur **[!UICONTROL Nouveau]** pour créer un droit que vous nommerez par exemple WEBAPP.
 
@@ -185,4 +185,4 @@ Par défaut, l&#39;opérateur technique &#39;webapp&#39; bénéficie du droit no
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).
+>Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).

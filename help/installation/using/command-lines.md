@@ -21,7 +21,7 @@ Les lignes de commande suivantes requièrent la possibilité d&#39;accéder au s
 
 ## Création d’une instance {#creating-an-instance}
 
-La création d&#39;une instance peut être exécutée en ligne de commande avec la syntaxe :
+La création d&#39;une instance peut être exécutée en ligne de commande avec la syntaxe :
 
 ```
 nlserver config -addinstance:instance/masques DNS[/lang]
@@ -33,7 +33,7 @@ La commande **nlserver config -addinstance:instance1/demo*/fra** permet de crée
 
 ## Déclaration d’une base de données {#declaring-a-database}
 
-Vous pouvez associer une base de données existante à une instance. Pour cela, la ligne de commande est la suivante :
+Vous pouvez associer une base de données existante à une instance. Pour cela, la ligne de commande est la suivante :
 
 ```
 nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
@@ -41,10 +41,10 @@ nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 
 Les valeurs possibles pour le paramètre **`[rdbms]`** sont les suivantes :
 
-* **postgresql** : pour le moteur PostgreSQL,
-* **oracle** : pour le moteur Oracle,
+* **postgresql** : pour le moteur PostgreSQL,
+* **oracle** : pour le moteur Oracle,
 * **mssql** : pour Microsoft SQL Server,
-* **DB2** : pour le moteur DB2.
+* **DB2** : pour le moteur DB2.
 
 La commande suivante paramètre l&#39;instance **demo** avec la base de type SQL Server nommée **base6**, associée au compte **campaign** et son mot de passe **password** sur le serveur **dbsrv**.
 

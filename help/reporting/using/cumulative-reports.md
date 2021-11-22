@@ -23,6 +23,6 @@ Vous pouvez afficher des rapports cumulés sur les diffusions. Pour cela, sélec
 
 Vous pouvez sélectionner des diffusions non consécutives dans la liste en maintenant la touche CTRL enfoncée pendant la sélection.
 
-Pour sélectionner des diffusions enregistrées dans un dossier différent, cliquez sur l&#39;icône **[!UICONTROL Afficher les fils]** accessible depuis la barre d&#39;outils : elles seront alors affichées dans la même liste.
+Pour sélectionner des diffusions enregistrées dans un dossier différent, cliquez sur l&#39;icône **[!UICONTROL Afficher les fils]** accessible depuis la barre d&#39;outils : elles seront alors affichées dans la même liste.
 
 ![](assets/s_ncs_user_display_children_icon.png)

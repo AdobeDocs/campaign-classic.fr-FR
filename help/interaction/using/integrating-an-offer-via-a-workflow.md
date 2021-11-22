@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-En dehors de l&#39;activité de diffusion elle-même, plusieurs activités des workflows vous permettent de définir la présentation d&#39;offres :
+En dehors de l&#39;activité de diffusion elle-même, plusieurs activités des workflows vous permettent de définir la présentation d&#39;offres :
 
 * Composition de diffusion
 * Enrichissement
@@ -34,7 +34,7 @@ L&#39;activité de composition de diffusion, disponible dans les workflows de ca
    Pour plus d&#39;informations sur la définition des compositions de diffusion, consultez le guide [Campaign - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 1. Complétez les champs disponibles en fonction de votre diffusion.
-1. Deux cas se présentent :
+1. Deux cas se présentent :
 
    * Si vous souhaitez appeler le moteur d&#39;offres, cochez la case **[!UICONTROL Limiter le nombre de propositions sélectionnées]**. Définissez l&#39;emplacement et le nombre d&#39;offres qui seront présentées dans la diffusion.
 
@@ -95,7 +95,7 @@ Après avoir paramétré votre requête (voir le [Guide des Workflows](../../wor
 
 Vous avez également la possibilité de référencer un lien vers une offre dans une activité d&#39;enrichissement.
 
-Pour cela :
+Pour cela :
 
 1. Dans l&#39;onglet **[!UICONTROL Enrichissement]** de l&#39;activité, sélectionnez **[!UICONTROL Ajouter des données]**.
 1. Dans la fenêtre de sélection du type de données à ajouter, choisissez **[!UICONTROL Un lien]**.
@@ -119,9 +119,9 @@ Par défaut, lorsque l&#39;activité d&#39;**enrichissement** est utilisée pour
 
 >[!NOTE]
 >
->Rappel : L&#39;activité **[!UICONTROL Moteur d&#39;offres]** stocke bien ces informations par défaut.
+>Rappel : L&#39;activité **[!UICONTROL Moteur d&#39;offres]** stocke bien ces informations par défaut.
 
-Cependant, il est possible de stocker ces informations de la manière suivante :
+Cependant, il est possible de stocker ces informations de la manière suivante :
 
 1. Créez un appel au moteur d’offre dans une activité d’enrichissement placée après une requête et avant une activité de diffusion. Pour plus d&#39;informations, consultez la section [Définir une offre ou un appel au moteur](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
 1. Dans la fenêtre principale de l&#39;activité, sélectionnez **[!UICONTROL Editer les données additionnelles]**.
@@ -161,7 +161,7 @@ Après avoir paramétré votre requête (voir le [Guide des Workflows](../../wor
 
 L&#39;activité **[!UICONTROL Offres par cellules]** vous permet de répartir la population entrante (par exemple issue d&#39;une requête) en plusieurs segments, et de définir une offre à proposer pour chacun de ces segments.
 
-Pour cela :
+Pour cela :
 
 1. Placez l&#39;activité **[!UICONTROL Offres par cellules]** après avoir défini la population cible, puis ouvrez-là.
 1. Dans l&#39;onglet **[!UICONTROL Général]**, sélectionnez l&#39;emplacement sur lequel vous souhaitez proposer les offres.

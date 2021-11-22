@@ -25,7 +25,7 @@ C&#39;est pourquoi il est essentiel que nos clients exécutent la version la plu
 
 ## Qu&#39;est-ce qu&#39;un upgrade de build ?
 
-Un upgrade de build, c&#39;est lorsque le logiciel Adobe Campaign Classic est mis à jour vers le numéro de build sécurisé le plus récent, tout en restant au même niveau de build majeur/mineur. Par exemple : Campaign Classic v7 build 9026 vers Campaign v7 build 9032.
+Un upgrade de build, c&#39;est lorsque le logiciel Adobe Campaign Classic est mis à jour vers le numéro de build sécurisé le plus récent, tout en restant au même niveau de build majeur/mineur. Par exemple : Campaign Classic v7 build 9026 vers Campaign v7 build 9032.
 
 En savoir plus [dans cette section](../../rn/using/rn-overview.md).
 
@@ -199,7 +199,7 @@ du contenu est présent et s&#39;affiche.
    * Tester les notifications push avec les fonctionnalités de tracking pour les liens profonds.
    * Tester l&#39;envoi de SMS.
    * Si un FDA externe est connecté, tester si les données sont envoyées dans les deux sens.
-   * Si vous utilisez des intégrations telles qu&#39;Adobe Campaign-Adobe Experience Manager, Adobe Campaign-Adobe Analytics, tester si elles fonctionnent encore comme avant.
+   * Si vous utilisez des intégrations telles qu&#39;Adobe Campaign-Adobe Experience Manager, Adobe Campaign-Adobe Analytics, tester si elles fonctionnent encore comme avant.
 
 **Voir aussi**
 

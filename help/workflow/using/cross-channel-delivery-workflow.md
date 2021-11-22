@@ -114,7 +114,7 @@ Une fois votre cible identifiée et votre première diffusion créée, vous deve
 1. Double-cliquez sur les activités de la diffusion dans votre workflow pour les éditer. Pour plus d&#39;informations sur la création d&#39;un email et d&#39;un SMS, consultez les sections [Canal Email](../../delivery/using/about-email-channel.md) et [Canal SMS](../../delivery/using/sms-channel.md).
 1. Double-cliquez sur l&#39;activité **[!UICONTROL Mise à jour des listes]** et sélectionnez l&#39;option **[!UICONTROL Générer une transition sortante]**.
 
-   Vous pouvez ensuite exporter les destinataires obtenus d&#39;Adobe Campaign vers Adobe Experience Cloud. Par exemple, vous pouvez utiliser l&#39;audience dans Adobe Target en ajoutant une activité **[!UICONTROL Mise à jour d&#39;audience partagée]** au workflow. Pour plus d&#39;informations, consultez la section [Exporter une audience](../../integrations/using/importing-and-exporting-audiences.md#exporting-an-audience).
+   Vous pouvez ensuite exporter les destinataires obtenus d&#39;Adobe Campaign vers Adobe Experience Cloud. Par exemple, vous pouvez utiliser l&#39;audience dans Adobe Target en ajoutant une activité **[!UICONTROL Mise à jour d&#39;audience partagée]** au workflow. Pour plus d&#39;informations, consultez la section [Exporter une audience](../../integrations/using/importing-and-exporting-audiences.md#exporting-an-audience).
 
 1. Cliquez sur le bouton **Démarrer** de la barre d&#39;actions pour exécuter le workflow.
 

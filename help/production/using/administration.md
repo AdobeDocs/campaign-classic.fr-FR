@@ -17,18 +17,18 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Le démarrage automatique des modules Adobe Campaign (**web**, **mta**, **wfserver**, etc.) est assuré par le service **nlserver**.
+Le démarrage automatique des modules Adobe Campaign (**web**, **mta**, **wfserver**, etc.) est assuré par le service **nlserver**.
 
-L&#39;installation d&#39;Adobe Campaign paramètre automatiquement la machine afin que le service **nlserver** démarre pendant la séquence de boot.
+L&#39;installation d&#39;Adobe Campaign paramètre automatiquement la machine afin que le service **nlserver** démarre pendant la séquence de boot.
 
-Les commandes suivantes permettent de démarrer/arrêter manuellement le service Adobe Campaign :
+Les commandes suivantes permettent de démarrer/arrêter manuellement le service Adobe Campaign :
 
-* Sous Windows :
+* Sous Windows :
 
    * **net start nlserver6**
    * **net stop nlserver6**
 
-* Sous Linux (en tant que root) :
+* Sous Linux (en tant que root) :
 
    * **/etc/init.d/nlserver6 start**
    * **/etc/init.d/nlserver6 stop**
@@ -37,14 +37,14 @@ Les commandes suivantes permettent de démarrer/arrêter manuellement le service
 >
 >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver** / **systemctl stop nlserver**
 
-Voici une liste des commandes usuelles d&#39;administration accessibles sous Linux (en tant qu&#39;**Adobe Campaign**) :
+Voici une liste des commandes usuelles d&#39;administration accessibles sous Linux (en tant qu&#39;**Adobe Campaign**) :
 
-* Afficher tous les modules Adobe Campaign démarrés : **/etc/init.d/nlserver6 pdump** ou **/etc/init.d/nlserver6 status**
+* Afficher tous les modules Adobe Campaign démarrés : **/etc/init.d/nlserver6 pdump** ou **/etc/init.d/nlserver6 status**
 
    >[!NOTE]
    >
    >Si vous ajoutez le paramètre **-who** après la commande **pdump**, vous récupérez les informations sur les connexions en cours (utilisateurs et traitements).\
-   >La commande **/etc/init.d/nlserver6 status** (sans le paramètre &quot;-who&quot;) renverra :
+   >La commande **/etc/init.d/nlserver6 status** (sans le paramètre &quot;-who&quot;) renverra :
    >
    >    * 0 si tous les processus sont en cours d&#39;exécution.
    >    * 1 si un processus est manquant.
@@ -52,7 +52,7 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
    >    * une autre valeur en cas d&#39;erreur.
 
 
-* Démarrer/arrêter un module multi-instance ou mono-instance (**web**, **trackinglogd**, **syslogd**, **mta**, **wfserver**, **inmail**) :
+* Démarrer/arrêter un module multi-instance ou mono-instance (**web**, **trackinglogd**, **syslogd**, **mta**, **wfserver**, **inmail**) :
 
    **nlserver start`<module>[@<instance>]`**
 
@@ -80,20 +80,22 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
    >* Utilisez l&#39;option **-immediate** en cas d&#39;urgence pour forcer l&#39;arrêt immédiat du processus (équivalent à la commande **kill -9** Unix).
    >* Utilisez l’option **-noconsole** pour assurer que le module lancé n’affiche rien sur la console. Ses logs seront écrits sur le disque via le module **syslogd**.
    >* Utilisez l’option **-verbose** pour afficher davantage d&#39;informations sur les actions du processus.
-   >
-   >   Exemple:
-   >
-   >   **nlserver restart web -verbose**
-   >
-   >   **nlserver start mta@moninstance -verbose**
-   >
-   >   Cette option ajoute des logs supplémentaires. Nous vous conseillons de redémarrer les processus sans l&#39;option **-verbose** après avoir obtenu vos informations afin de ne pas surcharger les logs.
 
-* Démarrer tous les processus Adobe Campaign (équivalent à un démarrage du service **nlserver6**) :
+      >
+      >   Exemple:
+      >
+      >   **nlserver restart web -verbose**
+      >
+      >   **nlserver start mta@moninstance -verbose**
+      >
+      >   Cette option ajoute des logs supplémentaires. Nous vous conseillons de redémarrer les processus sans l&#39;option **-verbose** après avoir obtenu vos informations afin de ne pas surcharger les logs.
+
+
+* Démarrer tous les processus Adobe Campaign (équivalent à un démarrage du service **nlserver6**) :
 
    **nlserver watchdog -noconsole**
 
-* Arrêter tous les processus Adobe Campaign (équivalent à un arrêt du service **nlserver6**) :
+* Arrêter tous les processus Adobe Campaign (équivalent à un arrêt du service **nlserver6**) :
 
    **nlserver shutdown**
 
@@ -103,4 +105,4 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
 
    >[!NOTE]
    >
-   >Certaines modifications de la configuration ne sont pas prises en compte dynamiquement et nécessitent un arrêt/démarrage complet d&#39;Adobe Campaign.
+   >Certaines modifications de la configuration ne sont pas prises en compte dynamiquement et nécessitent un arrêt/démarrage complet d&#39;Adobe Campaign.

@@ -30,7 +30,7 @@ Pour plus d’informations sur des exemples de requêtes, voir [cette section](q
 
 L’utilisation et la gestion des données additionnelles sont présentées dans la section [Ajouter des données](#adding-data).
 
-Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de ciblage, les restrictions et les critères de sélection de la population de la manière suivante :
+Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de ciblage, les restrictions et les critères de sélection de la population de la manière suivante :
 
 1. Sélectionnez la dimension de ciblage et de filtrage. Par défaut, la cible est sélectionnée parmi les destinataires. La liste des filtres de restriction est la même que celle utilisée lors du ciblage d&#39;une diffusion.
 
@@ -64,23 +64,23 @@ Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de cib
 
 ## Ajouter des données {#adding-data}
 
-Les colonnes additionnelles permettent de collecter des informations supplémentaires sur la population ciblée, par exemple ses numéros de contrats, ses abonnements à des newsletters ou son origine. Ces données peuvent être stockées dans la base de données Adobe Campaign ou dans une base externe.
+Les colonnes additionnelles permettent de collecter des informations supplémentaires sur la population ciblée, par exemple ses numéros de contrats, ses abonnements à des newsletters ou son origine. Ces données peuvent être stockées dans la base de données Adobe Campaign ou dans une base externe.
 
 Le lien **[!UICONTROL Ajouter des données...]** permet de sélectionner les données additionnelles à collecter.
 
 ![](assets/wf_add_data_link.png)
 
-Sélectionnez d&#39;abord le type de données à ajouter :
+Sélectionnez d&#39;abord le type de données à ajouter :
 
 ![](assets/wf_add_data_1st_option.png)
 
-* Sélectionnez **[!UICONTROL Données liées à la dimension de ciblage]** pour sélectionner des données de la base Adobe Campaign.
+* Sélectionnez **[!UICONTROL Données liées à la dimension de ciblage]** pour sélectionner des données de la base Adobe Campaign.
 * Sélectionnez **[!UICONTROL Données externes]** pour ajouter des données issues d’une base de données externe. Cette option n’est disponible que si vous avez acquis l’option **Federated Data Access**. Voir à ce sujet la section [Accéder à une base externe (FDA)](accessing-an-external-database--fda-.md).
 * Sélectionnez l&#39;option **[!UICONTROL Une proposition d&#39;offre]** pour ajouter un ensemble de colonnes permettant de stocker la meilleure proposition générée par le moteur d&#39;offres. Cette option n&#39;est disponible que si vous avez acquis le module **Interaction**.
 
 Si aucun module optionnel n&#39;est installé sur la plateforme, cette étape n&#39;est pas affichée. Vous accédez directement à l&#39;étape suivante.
 
-Pour ajouter des données de la base Adobe Campaign :
+Pour ajouter des données de la base Adobe Campaign :
 
 1. Sélectionnez le type de données que vous souhaitez ajouter. Il peut s&#39;agir de données appartenant à la dimension de filtrage ou de données stockées dans des tables liées.
 
@@ -90,7 +90,7 @@ Pour ajouter des données de la base Adobe Campaign :
 
    ![](assets/wf_add_data_field_selection.png)
 
-   Vous pouvez ajouter :
+   Vous pouvez ajouter :
 
    * Un champ calculé à partir de données issues de la population ciblée ou un agrégat (nombre d’achats en attente au cours du dernier mois, montant moyen d’un ticket de caisse, etc.). Un exemple est proposé dans la section [Sélectionner les données](targeting-data.md#selecting-data).
    * Un nouveau champ, créé à partir du bouton **[!UICONTROL Ajouter]** situé à droite de la liste des colonnes de sortie.
@@ -99,7 +99,7 @@ Pour ajouter des données de la base Adobe Campaign :
 
 Pour ajouter une collection d&#39;informations liées à une population ciblée :
 
-1. Sélectionnez l&#39;option **[!UICONTROL Données liées à la dimension de filtrage]** à la première étape de l&#39;assistant :
+1. Sélectionnez l&#39;option **[!UICONTROL Données liées à la dimension de filtrage]** à la première étape de l&#39;assistant :
 1. Sélectionnez la table contenant les informations à collecter et cliquez sur le bouton **[!UICONTROL Suivant.]**
 
    ![](assets/wf_add_data_linked_table.png)
@@ -119,7 +119,7 @@ Pour ajouter une collection d&#39;informations liées à une population ciblée�
 
    ![](assets/query_add_collection_param.png)
 
-1. Définissez la sous-sélection des éléments de la collection. Par exemple : les achats des 15 derniers jours seulement.
+1. Définissez la sous-sélection des éléments de la collection. Par exemple : les achats des 15 derniers jours seulement.
 
    ![](assets/query_add_columns_collection_filter.png)
 
@@ -144,11 +144,11 @@ Dans l&#39;exemple suivant, la requête cherchera à identifier les hommes de 18
 
    ![](assets/query_example.png)
 
-   Vous pouvez visualiser le code SQL correspondant à votre combinaison de critères :
+   Vous pouvez visualiser le code SQL correspondant à votre combinaison de critères :
 
    ![](assets/query_example_sql.png)
 
-1. Affichez un aperçu des destinataires correspondant à votre requête via l&#39;onglet correspondant afin de vérifier que vos critères sont correctement renseignés :
+1. Affichez un aperçu des destinataires correspondant à votre requête via l&#39;onglet correspondant afin de vérifier que vos critères sont correctement renseignés :
 
    ![](assets/query_example_preview.png)
 

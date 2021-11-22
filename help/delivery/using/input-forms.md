@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Vous trouverez ci-après quelques principes généraux sur l&#39;utilisation des formulaires de saisie dans Adobe Campaign.
+Vous trouverez ci-après quelques principes généraux sur l&#39;utilisation des formulaires de saisie dans Adobe Campaign.
 
 Les formulaires sont présentés dans [cette section](../../configuration/using/identifying-a-form.md).
 
@@ -33,11 +33,11 @@ Le document XML d’un formulaire de saisie doit contenir l’élément racine 
 
 Par défaut, un formulaire est associé au schéma de données qui porte le même nom et le même espace de noms. Pour associer un formulaire avec un nom différent, saisissez la clé de schéma dans l’attribut **entity-schema** de l’élément **`<form>`**.
 
-Pour illustrer la structure d&#39;un formulaire de saisie, nous allons décrire une interface à partir de notre schéma d&#39;exemple &quot;cus:livre&quot; :
+Pour illustrer la structure d&#39;un formulaire de saisie, nous allons décrire une interface à partir de notre schéma d&#39;exemple &quot;cus:livre&quot; :
 
 ![](assets/d_ncs_content_form1.png)
 
-Le formulaire de saisie correspondant :
+Le formulaire de saisie correspondant :
 
 ```
 <form name="book" namespace="cus" type="contentForm">
@@ -51,9 +51,9 @@ La description des éléments d’édition commence à partir de l’élément r
 
 Un contrôle d’édition est renseigné sur un élément **`<input>`** avec l’attribut **xpath** qui contient le chemin du champ dans son schéma.
 
-**Rappel sur la syntaxe des XPaths :**
+**Rappel sur la syntaxe des XPaths :**
 
-Le langage XPath est utilisé dans Adobe Campaign pour référencer un élément ou un attribut appartenant à un schéma de données.
+Le langage XPath est utilisé dans Adobe Campaign pour référencer un élément ou un attribut appartenant à un schéma de données.
 
 XPath est une syntaxe permettant la localisation d&#39;un nœud dans l&#39;arbre d&#39;un document XML.
 
@@ -61,9 +61,9 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 
 Exemples:
 
-* **@date** : sélectionne l&#39;attribut de nom &quot;date&quot;
+* **@date** : sélectionne l&#39;attribut de nom &quot;date&quot;
 * **Chapter/@title** : sélectionne l’attribut &quot;titre&quot; sous l’élément `<chapter>`.
-* **../@date** : sélectionne la date sur l&#39;élément parent de l&#39;élément courant
+* **../@date** : sélectionne la date sur l&#39;élément parent de l&#39;élément courant
 
 Le contrôle d&#39;édition s&#39;adapte automatiquement au type de données correspondant et utilise le libellé défini dans le schéma.
 
@@ -104,7 +104,7 @@ Les colonnes sont déclarées par les éléments **`<input>`** enfants de la lis
 >
 >Les boutons de flèches haut et bas d&#39;ordonnancement sont ajoutés automatiquement lorsque l&#39;attribut **ordered=&quot;true&quot;** est renseigné sur l&#39;élément de collection dans le schéma de données.
 
-Par défaut, les boutons de la barre d&#39;outils sont alignés verticalement. Ils peuvent aussi être alignés horizontalement :
+Par défaut, les boutons de la barre d&#39;outils sont alignés verticalement. Ils peuvent aussi être alignés horizontalement :
 
 ![](assets/d_ncs_content_form5.png)
 
@@ -125,7 +125,7 @@ L&#39;attribut **toolbarCaption** force l&#39;alignement horizontal de la barre 
 
 L&#39;insertion et l&#39;édition des données d&#39;une liste peuvent être renseignées dans un formulaire d&#39;édition séparé.
 
-Les formes d&#39;édition dans les listes sont utilisées dans les cas suivants :
+Les formes d&#39;édition dans les listes sont utilisées dans les cas suivants :
 
 * facilité de saisie des informations,
 * présence d&#39;un contrôle multi lignes,
@@ -190,10 +190,10 @@ Les containers et leur utilisation dans les formulaires de saisie sont présent�
 
 ## Editer les formulaires {#editing-forms}
 
-La zone d&#39;édition permet de renseigner le contenu XML du formulaire de saisie :
+La zone d&#39;édition permet de renseigner le contenu XML du formulaire de saisie :
 
 ![](assets/d_ncs_content_form12.png)
 
-L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le formulaire de saisie :
+L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le formulaire de saisie :
 
 ![](assets/d_ncs_content_form13.png)

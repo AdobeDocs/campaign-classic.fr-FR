@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Toutes les opérations marketing sont basées sur un modèle qui stocke les principales caractéristiques et fonctionnalités. Les modèles d’opération sont centralisés dans le nœud **[!UICONTROL Ressources > Modèles > Modèles d’opération]**. Un modèle par défaut est fourni en guise d’exemple standard. Il vous permet de créer une opération qui utilise tous les modules disponibles (Documents, Tâches, Adresses de contrôle et autres). Toutefois, les modules proposés dépendent de vos droits et de la configuration de votre plateforme Adobe Campaign.
+Toutes les opérations marketing sont basées sur un modèle qui stocke les principales caractéristiques et fonctionnalités. Les modèles d’opération sont centralisés dans le nœud **[!UICONTROL Ressources > Modèles > Modèles d’opération]**. Un modèle par défaut est fourni en guise d’exemple standard. Il vous permet de créer une opération qui utilise tous les modules disponibles (Documents, Tâches, Adresses de contrôle et autres). Toutefois, les modules proposés dépendent de vos droits et de la configuration de votre plateforme Adobe Campaign.
 
 ![](assets/s_ncs_user_campaign_op_template_node.png)
 
@@ -71,13 +71,13 @@ Le lien **[!UICONTROL Paramètres avancés de l’opération…]** vous permet d
 
 Si une fonctionnalité n’est pas sélectionnée, les éléments relatifs au processus (menus, icônes, options, onglets, sous-onglets, autres) n’apparaîtront pas dans l’interface du modèle ou dans les opérations basées sur ce modèle. Les onglets situés à gauche des détails de l’opération coïncident généralement avec les processus sélectionnés dans le modèle. Par exemple, si **Dépenses et objectifs** n’est pas sélectionné, l’onglet **[!UICONTROL Budget]** correspondant n’apparaîtra pas dans les opérations basées sur ce modèle.
 
-De plus, des raccourcis vers les fenêtres de configuration sont ajoutés dans le tableau de bord de l&#39;opération : lorsqu&#39;une fonctionnalité est activée, un lien direct permet d&#39;y accéder depuis le tableau de bord de l&#39;opération.
+De plus, des raccourcis vers les fenêtres de configuration sont ajoutés dans le tableau de bord de l&#39;opération : lorsqu&#39;une fonctionnalité est activée, un lien direct permet d&#39;y accéder depuis le tableau de bord de l&#39;opération.
 
-Par exemple, avec le paramétrage ci-dessous :
+Par exemple, avec le paramétrage ci-dessous :
 
 ![](assets/s_ncs_user_op_template_tab1.4.png)
 
-Les liens suivants sont affichés dans le tableau de bord de l&#39;opération (le lien **[!UICONTROL Ajouter une tâche]** est manquant) :
+Les liens suivants sont affichés dans le tableau de bord de l&#39;opération (le lien **[!UICONTROL Ajouter une tâche]** est manquant) :
 
 ![](assets/s_ncs_user_op_template_tab1.3ex.png)
 
@@ -85,11 +85,11 @@ Et seuls les onglets suivants seront affichés :
 
 ![](assets/s_ncs_user_op_template_tab1.4ex.png)
 
-Par contre, avec ce type de paramétrage :
+Par contre, avec ce type de paramétrage :
 
 ![](assets/s_ncs_user_op_template_tab2.2ex.png)
 
-Les liens et onglets affichés seront les suivants :
+Les liens et onglets affichés seront les suivants :
 
 ![](assets/s_ncs_user_op_template_tab2.3ex.png)
 
@@ -151,9 +151,9 @@ Les liens et onglets affichés seront les suivants :
 
 ![](assets/s_ncs_user_op_new_template.png)
 
-Lorsque vous créez un modèle d&#39;opération, vous devez indiquer les informations suivantes :
+Lorsque vous créez un modèle d&#39;opération, vous devez indiquer les informations suivantes :
 
-* Saisissez le **libellé** du modèle : ce libellé sera attribué par défaut à toutes les opérations créées à partir de ce modèle.
+* Saisissez le **libellé** du modèle : ce libellé sera attribué par défaut à toutes les opérations créées à partir de ce modèle.
 * Sélectionnez la **nature** de l&#39;opération dans la liste déroulante. Les valeurs proposées dans cette liste correspondent à celles enregistrées dans l&#39;énumération **[!UICONTROL natureOp]**.
 
    >[!NOTE]
@@ -165,7 +165,7 @@ Lorsque vous créez un modèle d&#39;opération, vous devez indiquer les informa
 
    S&#39;il s&#39;agit d&#39;une opération récurrente, vous devez indiquer les dates de début et de fin de l&#39;opération directement dans le modèle.
 
-* Indiquez le **programme d&#39;appartenance** du modèle : les opérations basées sur le modèle seront associées au programme sélectionné.
+* Indiquez le **programme d&#39;appartenance** du modèle : les opérations basées sur le modèle seront associées au programme sélectionné.
 
 ### Paramètres d&#39;exécution du modèle {#template-execution-parameters}
 
@@ -177,7 +177,7 @@ Le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** permet de c
 
 Vous pouvez créer le planning d’une opération et suivre ainsi les réalisations, par exemple pour préparer un planning d’événement pour une date spécifique. Les modèles d’opération vous permettent maintenant de calculer la date de début d’une tâche en fonction de la date de fin d’une opération.
 
-Dans la boîte de paramétrage de la tâche, dans la zone **[!UICONTROL Planning de réalisation]**, cochez la case **[!UICONTROL La date de démarrage est calculée à partir de la date de fin de l&#39;opération]**. (Ici, &quot;date de démarrage&quot; désigne la date de début de la tâche.) Dans le champ **[!UICONTROL Démarrage]**, entrez un intervalle : la tâche commencera d&#39;autant avant la date de fin de l&#39;opération. Si vous entrez une durée supérieure à la durée de l&#39;opération, la tâche commencera avant le début de l&#39;opération.
+Dans la boîte de paramétrage de la tâche, dans la zone **[!UICONTROL Planning de réalisation]**, cochez la case **[!UICONTROL La date de démarrage est calculée à partir de la date de fin de l&#39;opération]**. (Ici, &quot;date de démarrage&quot; désigne la date de début de la tâche.) Dans le champ **[!UICONTROL Démarrage]**, entrez un intervalle : la tâche commencera d&#39;autant avant la date de fin de l&#39;opération. Si vous entrez une durée supérieure à la durée de l&#39;opération, la tâche commencera avant le début de l&#39;opération.
 
 ![](assets/mrm_task_in_template_start_date.png)
 

@@ -19,13 +19,13 @@ ht-degree: 100%
 
 Les données qui vont être utilisées pour construire le rapport peuvent être sélectionnées directement au niveau de la page du rapport (voir à ce propos la section [Utiliser le contexte](../../reporting/using/using-the-context.md)) ou collectées via une ou plusieurs requêtes.
 
-Dans cette activité, trois méthodes distinctes sont proposées :
+Dans cette activité, trois méthodes distinctes sont proposées :
 
 1. Construire une requête sur les données de la base.
 1. Exploiter les données contenues dans une liste.
 1. Utiliser les données d&#39;un Cube existant.
 
-Le choix de l&#39;une ou l&#39;autre des méthodes dépend du type de calcul à réaliser, du volume des données à manipuler, de leur pérennité, etc. Tous ces paramètres doivent être étudiés avec précision afin de ne pas surcharger la base Adobe Campaign et d&#39;optimiser la génération et la manipulation des rapports créés. Reportez-vous à ce propos à [cette page](../../reporting/using/best-practices.md#optimizing-report-creation).
+Le choix de l&#39;une ou l&#39;autre des méthodes dépend du type de calcul à réaliser, du volume des données à manipuler, de leur pérennité, etc. Tous ces paramètres doivent être étudiés avec précision afin de ne pas surcharger la base Adobe Campaign et d&#39;optimiser la génération et la manipulation des rapports créés. Reportez-vous à ce propos à [cette page](../../reporting/using/best-practices.md#optimizing-report-creation).
 
 Dans tous les cas, les données sont collectées au travers d&#39;une activité de type **[!UICONTROL Requête]**.
 
@@ -71,13 +71,13 @@ Les données doivent être filtrées afin de ne pas exécuter de requêtes sur l
 
 Vous pouvez sélectionner l&#39;option **[!UICONTROL Filtrer automatiquement avec le contexte]** pour rendre le rapport accessible depuis un noeud spécifique de l&#39;arborescence comme une liste, un destinataire, une diffusion.
 
-L&#39;option **[!UICONTROL Filtrer avec le dossier]** permet de spécifier un dossier précis pour ne prendre en compte que les éléments du dossier spécifié. Ainsi, vous pourrez filtrer les données du rapport pour n&#39;afficher que celles d&#39;un des dossiers de l&#39;arborescence, comme ci-dessous :
+L&#39;option **[!UICONTROL Filtrer avec le dossier]** permet de spécifier un dossier précis pour ne prendre en compte que les éléments du dossier spécifié. Ainsi, vous pourrez filtrer les données du rapport pour n&#39;afficher que celles d&#39;un des dossiers de l&#39;arborescence, comme ci-dessous :
 
 ![](assets/reporting_control_folder.png)
 
 ### Limiter la taille des données collectées {#limiting-the-amount-of-data-collected}
 
-Paramétrez le nombre d&#39;enregistrements à extraire via la requête à l&#39;aide des options de limitation de résultat :
+Paramétrez le nombre d&#39;enregistrements à extraire via la requête à l&#39;aide des options de limitation de résultat :
 
 * **[!UICONTROL Limiter au premier enregistrement]** pour extraire un seul résultat,
 * **[!UICONTROL Taille]** pour extraire un nombre d&#39;enregistrements précis.

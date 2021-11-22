@@ -21,7 +21,7 @@ Ces activités permettent de construire une ou plusieurs cibles en définissant 
 
 * **Requête** : permet d&#39;effectuer une requête. Pour plus d&#39;informations, consultez la section [Créer une requête](query.md#creating-a-query).
 * **Requête incrémentale** : permet d&#39;effectuer une requête et d&#39;en planifier l&#39;exécution. Pour plus d&#39;informations, consultez la section [Requête incrémentale](incremental-query.md).
-* **Lecture de liste** : permet d&#39;utiliser les données contenues dans une liste. Pour plus d&#39;informations, consultez la section [Utiliser les données d&#39;une liste : Lecture de Liste](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
+* **Lecture de liste** : permet d&#39;utiliser les données contenues dans une liste. Pour plus d&#39;informations, consultez la section [Utiliser les données d&#39;une liste : Lecture de Liste](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
 * **Union** : permet de regrouper le résultat de plusieurs activités dans une même cible. Pour plus d&#39;informations, consultez la section [Union](union.md).
 * **Intersection** : permet de n&#39;extraire que la population commune aux résultats des activités entrantes. Pour plus d&#39;informations, consultez la section [Intersection](intersection.md).
 * **Exclusion** : permet de créer une cible à partir d&#39;une cible principale de laquelle on extrait une ou plusieurs autres cibles. Pour plus d&#39;informations, consultez la section [Intersection](intersection.md).

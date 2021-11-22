@@ -133,16 +133,16 @@ Le workflow **[!UICONTROL Synchroniser les comptes Twitter]** (voir la section [
 >
 >Pour que le workflow récupère la liste des abonnés d&#39;un compte Twitter, la case **[!UICONTROL Synchroniser les comptes Twitter]** doit être cochée dans l&#39;écran d&#39;édition du service correspondant au compte. Pour plus d&#39;informations à ce sujet, voir la section [Déléguer les droits d&#39;écriture à Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign).
 
-Pour chaque abonné, Adobe Campaign récupère les informations suivantes :
+Pour chaque abonné, Adobe Campaign récupère les informations suivantes :
 
-* **[!UICONTROL Origine]** : nom du réseau social (**Twitter**, dans ce cas)
-* **[!UICONTROL Id externe]** : identifiant de l&#39;utilisateur
-* **[!UICONTROL Pseudo]** : nom de compte de l&#39;utilisateur
+* **[!UICONTROL Origine]** : nom du réseau social (**Twitter**, dans ce cas)
+* **[!UICONTROL Id externe]** : identifiant de l&#39;utilisateur
+* **[!UICONTROL Pseudo]** : nom de compte de l&#39;utilisateur
 * **[!UICONTROL Nom complet]** : nom de l&#39;utilisateur
-* **[!UICONTROL Langue]** : langue de l&#39;utilisateur
-* **[!UICONTROL Nombre d&#39;amis]** : nombre d&#39;abonnés au compte de l&#39;utilisateur
-* **[!UICONTROL Fuseau horaire]** : fuseau horaire de l&#39;utilisateur
-* **[!UICONTROL Vérifié]** : ce champ indique si l&#39;utilisateur possède un compte Twitter vérifié
+* **[!UICONTROL Langue]** : langue de l&#39;utilisateur
+* **[!UICONTROL Nombre d&#39;amis]** : nombre d&#39;abonnés au compte de l&#39;utilisateur
+* **[!UICONTROL Fuseau horaire]** : fuseau horaire de l&#39;utilisateur
+* **[!UICONTROL Vérifié]** : ce champ indique si l&#39;utilisateur possède un compte Twitter vérifié
 
 ### Limites {#limitations-1}
 

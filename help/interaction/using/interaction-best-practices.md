@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Cette section présente les bonnes pratiques pour gérer le module Interaction dans Adobe Campaign Classic, y compris les règles d&#39;éligibilité, les filtres prédéfinis, les activités de workflow et les options de bases de données.
 
-Interaction dans Adobe Campaign requiert une gestion attentive pour fonctionner de manière efficace. Vous devez trouver un équilibre entre le nombre de contacts, de catégories d’offres et d’offres. Si ces facteurs ne sont pas gérés avec attention, votre instance Adobe Campaign peut rencontrer des problèmes.
+Interaction dans Adobe Campaign requiert une gestion attentive pour fonctionner de manière efficace. Vous devez trouver un équilibre entre le nombre de contacts, de catégories d’offres et d’offres. Si ces facteurs ne sont pas gérés avec attention, votre instance Adobe Campaign peut rencontrer des problèmes.
 
 ### Mise en œuvre {#implementation}
 
@@ -122,7 +122,7 @@ Lorsque vous utilisez le module Interaction et que vous sélectionnez manuelleme
 
 ### Extension du schéma nms:offer {#extending-nms-offer-schema}
 
-Lors de l&#39;extension du schéma nms:offer, veillez à suivre la structure prête à l&#39;emploi déjà configurée :
+Lors de l&#39;extension du schéma nms:offer, veillez à suivre la structure prête à l&#39;emploi déjà configurée :
 * Définissez un nouveau champ pour le stockage du contenu sous `<element name="view">`.
 * Un nouveau champ doit être défini deux fois. Une fois sous forme de champ XML normal, et une autre fois sous forme de champ XML CDATA en ajoutant &quot;_jst&quot; au nom. Par exemple :
 

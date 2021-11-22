@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-L&#39;écran des propriétés d&#39;une activité comporte un onglet **[!UICONTROL Avancé]** vous permettant notamment de définir le comportement en cas d&#39;erreur, la durée d&#39;exécution de l&#39;activité ou encore et de saisir un script d&#39;initialisation. Cet onglet se présente sous deux formes :
+L&#39;écran des propriétés d&#39;une activité comporte un onglet **[!UICONTROL Avancé]** vous permettant notamment de définir le comportement en cas d&#39;erreur, la durée d&#39;exécution de l&#39;activité ou encore et de saisir un script d&#39;initialisation. Cet onglet se présente sous deux formes :
 
 * une version simplifiée (par exemple pour les activités **[!UICONTROL Début]** ou **[!UICONTROL Fin]**)
 
@@ -35,17 +35,17 @@ Ce champ contient le nom interne de l&#39;activité.
 
 ## Image {#image}
 
-Ce champ vous permet de modifier l’image liée à une activité. Pour plus d’informations à ce sujet, voir : [Gestion des images d’activité](managing-activity-images.md).
+Ce champ vous permet de modifier l’image liée à une activité. Pour plus d’informations à ce sujet, voir : [Gestion des images d’activité](managing-activity-images.md).
 
 ## Exécution {#execution}
 
-Ce champ vous permet de définir l&#39;action à effectuer au moment du déclenchement de la tâche. Trois options sont disponibles :
+Ce champ vous permet de définir l&#39;action à effectuer au moment du déclenchement de la tâche. Trois options sont disponibles :
 
 Ces options sont généralement sélectionnées au niveau du diagramme en cliquant sur l&#39;activité avec le bouton droit.
 
-* **[!UICONTROL Normale]** : l&#39;activité est exécutée normalement.
-* **[!UICONTROL Ne pas activer]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées.
-* **[!UICONTROL Activer mais ne pas exécuter]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) sont automatiquement suspendues. Cela peut s&#39;avérer utile si vous désirez être présent au déclenchement de la tâche. Pour exécuter manuellement la tâche, cliquez sur l&#39;activité avec le bouton droit et sélectionnez **[!UICONTROL Exécution normale]**.
+* **[!UICONTROL Normale]** : l&#39;activité est exécutée normalement.
+* **[!UICONTROL Ne pas activer]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées.
+* **[!UICONTROL Activer mais ne pas exécuter]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) sont automatiquement suspendues. Cela peut s&#39;avérer utile si vous désirez être présent au déclenchement de la tâche. Pour exécuter manuellement la tâche, cliquez sur l&#39;activité avec le bouton droit et sélectionnez **[!UICONTROL Exécution normale]**.
 
 ## Affinité {#affinity}
 
@@ -60,21 +60,21 @@ Ce champ vous permet de définir une alerte vous avertissant lorsque la tâche e
 
 ## Comportement {#behavior}
 
-Ce champ vous permet de définir le comportement à effectuer dans le cas de l&#39;utilisation de tâches asynchrones. Deux options sont disponibles :
+Ce champ vous permet de définir le comportement à effectuer dans le cas de l&#39;utilisation de tâches asynchrones. Deux options sont disponibles :
 
-* **[!UICONTROL Plusieurs tâches autorisées]** : plusieurs tâches peuvent être exécutées en même temps, même si la première n&#39;est pas terminée.
-* **[!UICONTROL La tâche en cours est prioritaire]** : lorsqu&#39;une tâche est en cours, celle-ci est prioritaire. Tant qu&#39;une tâche est toujours en cours, aucune autre tâche ne sera exécutée.
+* **[!UICONTROL Plusieurs tâches autorisées]** : plusieurs tâches peuvent être exécutées en même temps, même si la première n&#39;est pas terminée.
+* **[!UICONTROL La tâche en cours est prioritaire]** : lorsqu&#39;une tâche est en cours, celle-ci est prioritaire. Tant qu&#39;une tâche est toujours en cours, aucune autre tâche ne sera exécutée.
 
 ## Time zone {#time-zone}
 
-Ce champ vous permet de sélectionner le fuseau horaire de l’activité. Voir à ce sujet la section : [Gestion des fuseaux horaires](managing-time-zones.md).
+Ce champ vous permet de sélectionner le fuseau horaire de l’activité. Voir à ce sujet la section : [Gestion des fuseaux horaires](managing-time-zones.md).
 
 ## En cas d&#39;erreur {#in-case-of-errors}
 
-Ce champ vous permet de définir l&#39;action à effectuer lorsque l&#39;activité est en erreur. Deux options sont disponibles :
+Ce champ vous permet de définir l&#39;action à effectuer lorsque l&#39;activité est en erreur. Deux options sont disponibles :
 
-* **[!UICONTROL Suspendre le processus]** : le workflow est automatiquement suspendu. Le statut du workflow est alors **[!UICONTROL En échec]**. Lorsque le problème est résolu, relancez le workflow.
-* **[!UICONTROL Ignorer]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées. Cela peut s&#39;avérer utile dans le cas de tâches récurrentes. Si la branche comporte un planificateur placé en amont, celui-ci se déclenchera normalement à sa prochaine date d&#39;exécution.
+* **[!UICONTROL Suspendre le processus]** : le workflow est automatiquement suspendu. Le statut du workflow est alors **[!UICONTROL En échec]**. Lorsque le problème est résolu, relancez le workflow.
+* **[!UICONTROL Ignorer]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées. Cela peut s&#39;avérer utile dans le cas de tâches récurrentes. Si la branche comporte un planificateur placé en amont, celui-ci se déclenchera normalement à sa prochaine date d&#39;exécution.
 
 ## Script d&#39;initialisation {#initialization-script}
 

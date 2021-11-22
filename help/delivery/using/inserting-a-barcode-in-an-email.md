@@ -25,19 +25,19 @@ Pour insérer un code-barres dans un email, positionnez le curseur dans le conte
 
 ![](assets/barcode_insert_14.png)
 
-Puis paramétrez les éléments suivants en fonction de vos besoins :
+Puis paramétrez les éléments suivants en fonction de vos besoins :
 
 1. Choisissez le type de code-barres.
 
-   * Pour le format 1D, Adobe Campaign propose les types suivants: Codabar, Code 128, GS1-128 (anciennement EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, Interleaved 2 of 5, POSTNET et Royal Mail (RM4SCC).
+   * Pour le format 1D, Adobe Campaign propose les types suivants: Codabar, Code 128, GS1-128 (anciennement EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, Interleaved 2 of 5, POSTNET et Royal Mail (RM4SCC).
 
-      Exemple de code-barres 1D :
+      Exemple de code-barres 1D :
 
       ![](assets/barcode_insert_08.png)
 
    * Les types DataMatrix et PDF417 concernent le format 2D.
 
-      Exemple de code-barres 2D :
+      Exemple de code-barres 2D :
 
       ![](assets/barcode_insert_09.png)
 
@@ -45,11 +45,11 @@ Puis paramétrez les éléments suivants en fonction de vos besoins :
 
       ![](assets/barcode_insert_06.png)
 
-      Exemple de QR Code :
+      Exemple de QR Code :
 
       ![](assets/barcode_insert_12.png)
 
-1. Indiquez la taille du code-barres à insérer dans l&#39;email : le paramétrage de l&#39;échelle permet d&#39;augmenter ou de réduire la taille du code-barres, de x 1 à x 10.
+1. Indiquez la taille du code-barres à insérer dans l&#39;email : le paramétrage de l&#39;échelle permet d&#39;augmenter ou de réduire la taille du code-barres, de x 1 à x 10.
 1. Le champ **[!UICONTROL Valeur]** permet de définir la valeur du code-barres. Une valeur peut correspondre à une offre promotionnelle et peut être une fonction d&#39;un critère, ce peut être la valeur d&#39;un champ de la base de données relative aux clients.
 
    L&#39;exemple ci-dessous montre un code-barres de type EAN-8 auquel a été ajouté le numéro de compte d&#39;un destinataire. Pour ajouter ce numéro de compte, cliquez sur le bouton de personnalisation situé à droite du champ **[!UICONTROL Valeur]** et sélectionnez **[!UICONTROL Destinataire > N° de compte]**.

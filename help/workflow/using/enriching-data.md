@@ -23,7 +23,7 @@ Ce cas d’utilisation décrit les utilisations possibles de l’activité **[!U
 
 Vous trouverez également dans [cette section](email-enrichment-with-custom-date-fields.md) un cas pratique montrant comment enrichir une diffusion d’email avec des dates personnalisées.
 
-Un jeu concours est proposé, par le biais d&#39;une application web, aux contacts de la base marketing. Les résultats du jeu concours sont récupérés dans la table **[!UICONTROL Résultats jeux]**. Cette table est liée à la table des contacts (**[!UICONTROL Destinataires]**). La table **[!UICONTROL Résultats jeux]** comporte les champs suivants :
+Un jeu concours est proposé, par le biais d&#39;une application web, aux contacts de la base marketing. Les résultats du jeu concours sont récupérés dans la table **[!UICONTROL Résultats jeux]**. Cette table est liée à la table des contacts (**[!UICONTROL Destinataires]**). La table **[!UICONTROL Résultats jeux]** comporte les champs suivants :
 
 * Nom du jeu (@game)
 * Numéro de l&#39;essai (@trial)
@@ -31,24 +31,24 @@ Un jeu concours est proposé, par le biais d&#39;une application web, aux contac
 
 ![](assets/uc1_enrich_1.png)
 
-Un même contact présent dans la table des **[!UICONTROL Destinataires]** peut être associé à plusieurs lignes dans la table **[!UICONTROL Résultats jeux]**. Le lien entre les deux tables est donc de type 1-n. Voici un exemple des logs de résultats pour un destinataire :
+Un même contact présent dans la table des **[!UICONTROL Destinataires]** peut être associé à plusieurs lignes dans la table **[!UICONTROL Résultats jeux]**. Le lien entre les deux tables est donc de type 1-n. Voici un exemple des logs de résultats pour un destinataire :
 
 ![](assets/uc1_enrich_2.png)
 
 L&#39;objectif de ce cas d&#39;utilisation est d&#39;envoyer des diffusions personnalisées aux participants du dernier jeu concours en fonction du meilleur score qu&#39;ils ont obtenu au cours de leurs différents essais. Le participant qui a obtenu le meilleur score se voit offrir le 1er prix, celui qui a obtenu le second score reçoit un lot de consolation, et tous les autres reçoivent un message leur proposant de retenter leur chance lors du prochain jeu.
 
-Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblage suivant :
+Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblage suivant :
 
 ![](assets/uc1_enrich_3.png)
 
-Les étapes principales de création du workflow sont les suivantes :
+Les étapes principales de création du workflow sont les suivantes :
 
 1. Deux activités de type **[!UICONTROL Requête]** et une **[!UICONTROL Intersection]** sont ajoutées afin de cibler les nouveaux abonnés qui ont participé au dernier jeu concours.
 1. L&#39;activité **[!UICONTROL Enrichissement]** nous permet ensuite d&#39;ajouter des données stockées dans la table **[!UICONTROL Résultats jeux]**. Le champ **[!UICONTROL Score]**, sur lequel nous souhaitons effectuer notre personnalisation de diffusion, est ajouté à la table de travail du workflow.
 1. L&#39;activité de type **[!UICONTROL Partage]**, nous permet ensuite de créer des sous-ensembles de destinataires selon le score qu&#39;ils ont obtenu.
 1. Pour chacun des sous-ensembles, une activité de type **[!UICONTROL Diffusion]** est ajoutée.
 
-## Etape 1 : Ciblage {#step-1--targeting}
+## Etape 1 : Ciblage {#step-1--targeting}
 
 La première requête permet de cibler les destinataires qui ont été ajoutés dans la base au cours des six derniers mois.
 
@@ -60,7 +60,7 @@ La seconde requête permet de cibler les destinataires ayant participé au derni
 
 Une activité de type **[!UICONTROL Intersection]** est ensuite ajoutée pour cibler les destinataires qui ont été ajoutés dans la base au cours des six derniers mois et qui ont participé au dernier jeu.
 
-## Etape 2 : Enrichissement {#step-2--enrichment}
+## Etape 2 : Enrichissement {#step-2--enrichment}
 
 Dans notre exemple, nous souhaitons personnaliser les diffusions en fonction du champ **[!UICONTROL Score]**, stocké dans la table **[!UICONTROL Résultats jeux]**. Cette table possède un lien de type 1-n avec la table des destinataires. L&#39;activité **[!UICONTROL Enrichissement]** nous permet d&#39;ajouter, dans la table de travail du workflow, des données provenant d&#39;une table liée à la dimension de filtrage.
 
@@ -88,11 +88,11 @@ Dans notre exemple, nous souhaitons personnaliser les diffusions en fonction du 
 
    ![](assets/uc1_enrich_11.png)
 
-Cliquez, avec le bouton droit de la souris sur la transition entrante de l&#39;activité d&#39;enrichissement, et sélectionnez **[!UICONTROL Afficher la cible]**. La table de travail contient les données suivantes :
+Cliquez, avec le bouton droit de la souris sur la transition entrante de l&#39;activité d&#39;enrichissement, et sélectionnez **[!UICONTROL Afficher la cible]**. La table de travail contient les données suivantes :
 
 ![](assets/uc1_enrich_13.png)
 
-Le schéma associé est le suivant :
+Le schéma associé est le suivant :
 
 ![](assets/uc1_enrich_15.png)
 
@@ -104,7 +104,7 @@ Le schéma correspondant a également été enrichi.
 
 ![](assets/uc1_enrich_14.png)
 
-## Etape 3 : Partage et diffusions {#step-3--split-and-delivery}
+## Etape 3 : Partage et diffusions {#step-3--split-and-delivery}
 
 Afin de répartir les destinataires en fonction de leur score, une activité de **[!UICONTROL Partage]** est ajoutée à la suite de l&#39;enrichissement.
 

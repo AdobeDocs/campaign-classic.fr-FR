@@ -25,7 +25,7 @@ Il peut s&#39;agir de la diffusion spécifiée par la transition, d&#39;une diff
 
 Si vous sélectionnez **[!UICONTROL Démarrer]**, l’activité effectue toutes les étapes requises pour démarrer la diffusion (calcul de la cible, préparation du contenu, diffusion). Si certaines de ces étapes ont déjà été effectuées par une activité de workflow précédente, elles ne seront plus exécutées. Par exemple, si l’estimation de la cible a déjà été effectuée par une activité de type **[!UICONTROL Diffusion]** (voir [Diffusion](delivery.md)), l’activité **[!UICONTROL Agir sur la diffusion]** lancera les étapes restantes (préparation et diffusion du contenu).
 
-Les options disponibles sont les suivantes :
+Les options disponibles sont les suivantes :
 
 * **[!UICONTROL Générer une transition sortante]**
 

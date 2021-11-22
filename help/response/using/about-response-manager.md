@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign propose un module complémentaire de gestion de la réaction qui permet de mesurer le succès et la rentabilité d&#39;une campagne marketing ou d&#39;une proposition d&#39;offre, quel que soit le canal de communication utilisé : email, mobile, courrier, etc.
+Adobe Campaign propose un module complémentaire de gestion de la réaction qui permet de mesurer le succès et la rentabilité d&#39;une campagne marketing ou d&#39;une proposition d&#39;offre, quel que soit le canal de communication utilisé : email, mobile, courrier, etc.
 
 ## Hypothèse {#hypothesis-concept}
 
@@ -45,7 +45,7 @@ Avant d&#39;utiliser le Response Manager, consultez la section [Configuration](c
 
 Pour pouvoir lancer une hypothèse sur une diffusion ou une offre, vous devez préalablement définir son contexte dans un modèle auquel vous ferez référence pour chaque hypothèse créée.
 
-Pour définir et créer des hypothèses de mesure, procédez comme suit :
+Pour définir et créer des hypothèses de mesure, procédez comme suit :
 
 1. Définissez un modèle d’hypothèse. [Apprenez-en davantage](hypothesis-templates.md#creating-a-hypothesis-model)
 1. Créez une ou plusieurs hypothèses sur une diffusion existante. [Apprenez-en davantage](creating-hypotheses.md#referencing-a-hypothesis-in-a-campaign-delivery)

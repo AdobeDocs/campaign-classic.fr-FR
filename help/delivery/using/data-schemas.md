@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Vous trouverez ci-après quelques principes généraux sur l&#39;utilisation des schémas de données dans Adobe Campaign.
+Vous trouverez ci-après quelques principes généraux sur l&#39;utilisation des schémas de données dans Adobe Campaign.
 
-La création et le paramétrage des schémas de données dans Adobe Campaign sont présentés dans [cette section](../../configuration/using/about-schema-edition.md).
+La création et le paramétrage des schémas de données dans Adobe Campaign sont présentés dans [cette section](../../configuration/using/about-schema-edition.md).
 
 ## Structure d&#39;un schéma {#schema-structure}
 
@@ -33,7 +33,7 @@ Le document XML d&#39;un schéma de données doit contenir l&#39;élément racin
 
 Le point d&#39;entrée du schéma est son élément principal. Il est facilement identifiable car son nom est identique à celui du schéma et il doit être enfant de l&#39;élément racine. C&#39;est à partir de cet élément que commence la description du contenu.
 
-Dans un schéma de gestion de contenu, l&#39;élément principal est représenté par la ligne :
+Dans un schéma de gestion de contenu, l&#39;élément principal est représenté par la ligne :
 
 ```
 <element name="book" template="ncm:content" xmlChildren="true">
@@ -53,7 +53,7 @@ Ces propriétés sont décrites dans le schéma **ncm:content**.
 
 ## Types de données {#data-types}
 
-Exemple de schéma de gestion de contenu complété avec les types :
+Exemple de schéma de gestion de contenu complété avec les types :
 
 ```
 <srcSchema name="book" namespace="cus">
@@ -75,15 +75,15 @@ Exemple de schéma de gestion de contenu complété avec les types :
 
 Différentes propriétés permettent d&#39;enrichir les éléments **`<element>`** et **`<attribute>`** du schéma de données.
 
-Les principales propriétés utilisées dans la gestion de contenu sont les suivantes :
+Les principales propriétés utilisées dans la gestion de contenu sont les suivantes :
 
-* **label** : description courte,
-* **desc** : description longue,
-* **default** : expression retournant une valeur par défaut à la création du contenu,
-* **userEnum** : énumération libre pour mémoriser et afficher les valeurs renseignées à partir de ce champ,
-* **enum** : énumération fixe utilisée lorsque la liste des valeurs possibles est connue à l&#39;avance.
+* **label** : description courte,
+* **desc** : description longue,
+* **default** : expression retournant une valeur par défaut à la création du contenu,
+* **userEnum** : énumération libre pour mémoriser et afficher les valeurs renseignées à partir de ce champ,
+* **enum** : énumération fixe utilisée lorsque la liste des valeurs possibles est connue à l&#39;avance.
 
-Notre schéma d&#39;exemple complété avec les propriétés :
+Notre schéma d&#39;exemple complété avec les propriétés :
 
 ```
 <srcSchema name="book" namespace="cus">
@@ -156,7 +156,7 @@ La structure du chapitre est déplacée dans l&#39;élément de nom &quot;sectio
 
 Une **Compute string** est une expression XPath utilisée pour construire une chaîne représentant une instance de contenu.
 
-Notre schéma d&#39;exemple complété avec sa **Compute string** :
+Notre schéma d&#39;exemple complété avec sa **Compute string** :
 
 ```
 <srcSchema name="book" namespace="cus">
@@ -169,7 +169,7 @@ Notre schéma d&#39;exemple complété avec sa **Compute string** :
 
 ## Edition des schémas {#editing-schemas}
 
-La zone d&#39;édition permet de renseigner le contenu XML du schéma source :
+La zone d&#39;édition permet de renseigner le contenu XML du schéma source :
 
 ![](assets/d_ncs_integration_schema_edition.png)
 

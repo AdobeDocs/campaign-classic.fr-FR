@@ -63,7 +63,7 @@ Utilisez l&#39;option Adobe Campaign Classic **Federated Data Access** (FDA)
 >
 >Pour que le SDK Google Cloud fonctionne, vous devez installer Python.
 >
->Nous vous recommandons d&#39;utiliser Python3 ; voir cette [page](https://www.python.org/downloads/).
+>Nous vous recommandons d&#39;utiliser Python3 ; voir cette [page](https://www.python.org/downloads/).
 
 L&#39;utilitaire de chargement en masse permet un transfert plus rapide grâce au SDK Google Cloud.
 
@@ -211,7 +211,7 @@ L&#39;utilitaire de chargement en masse permet un transfert plus rapide grâce a
 >
 >Pour que le SDK Google Cloud fonctionne, vous devez installer Python.
 >
->Nous vous recommandons d&#39;utiliser Python3 ; voir cette [page](https://www.python.org/downloads/).
+>Nous vous recommandons d&#39;utiliser Python3 ; voir cette [page](https://www.python.org/downloads/).
 
 L&#39;utilitaire de chargement en masse permet un transfert plus rapide grâce au SDK Google Cloud.
 

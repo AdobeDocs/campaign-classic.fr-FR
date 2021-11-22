@@ -58,7 +58,7 @@ Les 1000 premiers identifiants sont réservés donc si une plage de valeurs doit
 
 * **allowEmptyPart (boolean)**: dans le cas d&#39;une clef composite, si cet attribut est activé, la clef est considérée comme valide si au moins une des clefs composant la clef composite n&#39;est pas vide. Dans ce cas, la notion de valeur vide est &quot;0&quot; (booléen ou pour tous les types de données numériques). Par défaut, toutes les clefs d&#39;une clef composite doivent être remplies.
 * **applicableIf (string)**: cet attribut permet de rendre la clef optionnelle. Il définit la condition d&#39;applicabilité de la définition de la clef. Cet attribut reçoit une expression XTK.
-* **internal (boolean)**: s&#39;il est activé, cet attribut signifie à Adobe Campaign que la clef est primaire.
+* **internal (boolean)**: s&#39;il est activé, cet attribut signifie à Adobe Campaign que la clef est primaire.
 * **label (string)**: libellé de la clef.
 * **name (MNTOKEN)**: nom interne de la clef.
 * **noDbIndex (boolean)**: s&#39;il est activé (noDbIndex=&quot;true&quot;), le champ correspondant à la clef ne sera pas indexé.

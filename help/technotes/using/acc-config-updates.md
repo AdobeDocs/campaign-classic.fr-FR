@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Note technique - Mises à jour de la configuration Adobe Campaign
-description: Mises à jour de la configuration d’Adobe Campaign 
+title: Note technique - Mises à jour de la configuration Adobe Campaign
+description: Mises à jour de la configuration d’Adobe Campaign 
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Mises à jour de la configuration d’Adobe Campaign 2021 {#acc-config-updates}
+# Mises à jour de la configuration d’Adobe Campaign 2021 {#acc-config-updates}
 
 ![](../../assets/v7-only.svg)
 
@@ -66,7 +66,7 @@ Les versions **désormais disponibles** de la console ci-dessous doivent être i
 * Campaign Version 19.2.4. [En savoir plus](../../rn/using/release--19-2.md)
 * Campaign Version 19.1.8. [En savoir plus](../../rn/using/release--19-1.md)
 
-## Mise à jour d’Adobe Identity Management System (IMS)
+## Mise à jour d’Adobe IDentity Management System (IMS)
 
 Le Services d&#39;identités Adobe ne prendra plus en charge les anciennes versions d’Internet Explorer à compter du **30 juin 2021**. [En savoir plus](https://helpx.adobe.com/fr/x-productkb/global/update-operating-system-and-browser.html).
 
@@ -74,7 +74,7 @@ Une mise à niveau de la console cliente Campaign est nécessaire pour assurer l
 
 **Cela vous concerne-t-il ?**
 
-Si vous vous connectez à Campaign [via un Adobe ID](../../integrations/using/about-adobe-id.md), par le biais d’Adobe Identity Management Service (IMS), la mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous est obligatoire :
+Si vous vous connectez à Campaign [via un Adobe ID](../../integrations/using/about-adobe-id.md), par le biais d’Adobe IDentity Management Service (IMS), la mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous est obligatoire :
 
 * Gold Standard 11. [En savoir plus](../../rn/using/gold-standard.md)
 * Campaign Version 21.1.1. [Apprenez-en davantage](../../rn/using/latest-release.md)
@@ -99,7 +99,7 @@ Une fois toutes les instances mises à niveau, la console cliente doit égalemen
 
 * [Découvrez comment installer la console cliente de Campaign](../../installation/using/installing-the-client-console.md).
 
-## Intégration avec Experience Cloud Triggers {#acc-triggers-updates}
+## Intégration avec les triggers Experience Cloud {#acc-triggers-updates}
 
 Le service d’authentification historique oAuth est arrivé en fin de vie L’authentification de l’intégration des Triggers, basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline, a été déplacée vers Adobe I/O. L’ancien mode d’authentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient d’une extension jusqu’au **23 février 2022**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’en février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
 
@@ -144,7 +144,7 @@ En tant que client On-premise/hybride, vous devez mettre à jour votre configura
 
 ### Mises à jour du certificat racine d’APNs
 
-Le 29 mars 2021, une mise à jour de l’infrastructure du service Apple Push Notification (APNs) a eu un impact sur le canal iOS d’Adobe Campaign Classic. Une modification de la configuration du système d’exploitation est **obligatoire** pour éviter une panne du canal push d’iOS.
+Le 29 mars 2021, une mise à jour de l’infrastructure du service Apple Push Notification (APNs) a eu un impact sur le canal iOS d’Adobe Campaign Classic. Une modification de la configuration du système d’exploitation est **obligatoire** pour éviter une panne du canal push d’iOS.
 
 Pour en savoir plus sur les modifications d’APNs, consultez [cette page](https://developer.apple.com/news/?id=7gx0a2lp).
 

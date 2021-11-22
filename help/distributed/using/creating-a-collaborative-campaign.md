@@ -53,7 +53,7 @@ Pour créer une opération collaborative par opération, le modèle **[!UICONTRO
 
 Lors de la commande de l&#39;opération, l&#39;entité locale peut remplir des critères prédéfinis par l&#39;entité centrale, et évaluer l&#39;opération avant de la commander.
 
-Lorsque la commande d&#39;une **Opération collaborative par opération** est validée par l&#39;entité centrale, une opération enfant est créée pour l&#39;entité locale. La mise à disposition de l&#39;opération permet à l&#39;entité locale de modifier :
+Lorsque la commande d&#39;une **Opération collaborative par opération** est validée par l&#39;entité centrale, une opération enfant est créée pour l&#39;entité locale. La mise à disposition de l&#39;opération permet à l&#39;entité locale de modifier :
 
 * le workflow de l&#39;opération,
 * les règles de typologie,
@@ -75,11 +75,11 @@ Pour créer une opération collaborative par validation de la cible, le modèle 
 >
 >Dans ce mode, l&#39;entité centrale n&#39;a pas à spécifier les entités locales.
 
-Le workflow de l&#39;opération doit intégrer l&#39;activité de type **Validation en local**. Les paramètres de l&#39;activité sont les suivants :
+Le workflow de l&#39;opération doit intégrer l&#39;activité de type **Validation en local**. Les paramètres de l&#39;activité sont les suivants :
 
-* **[!UICONTROL Action à effectuer]** : Notification pour la validation de la cible.
-* **[!UICONTROL Contexte de répartition]** : Explicite.
-* **[!UICONTROL Répartition des données]** : Répartition pour les entités locales.
+* **[!UICONTROL Action à effectuer]** : Notification pour la validation de la cible.
+* **[!UICONTROL Contexte de répartition]** : Explicite.
+* **[!UICONTROL Répartition des données]** : Répartition pour les entités locales.
 
 La répartition de données **Répartition pour les entités locales** doit être créée. Le modèle de répartition de données permet de limiter le nombre d&#39;enregistrements à partir d&#39;une liste de valeurs de groupement. Dans **[!UICONTROL Ressources > Gestion de campagnes > Répartition de données]**, cliquez sur l&#39;icône **[!UICONTROL Nouveau]** pour créer une **[!UICONTROL Répartition de données]**. Pour plus d&#39;informations sur la répartition de données, voir le guide [Workflows](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-).
 
@@ -157,13 +157,13 @@ Le paramétrage des messages de notification est identique à celui d&#39;une op
 
 ## Commander une opération {#ordering-a-campaign}
 
-Lorsqu&#39;une opération collaborative est ajoutée dans la liste des kits d&#39;opération, les entités locales faisant partie de l&#39;audience définie par l&#39;entité centrale sont avisées par un message de notification (les **opérations collaboratives par validation de la cible** n&#39;ont pas d&#39;audience prédéfinie). Ce message propose un lien pour s&#39;inscrire à l&#39;opération, comme dans l&#39;exemple ci-dessous :
+Lorsqu&#39;une opération collaborative est ajoutée dans la liste des kits d&#39;opération, les entités locales faisant partie de l&#39;audience définie par l&#39;entité centrale sont avisées par un message de notification (les **opérations collaboratives par validation de la cible** n&#39;ont pas d&#39;audience prédéfinie). Ce message propose un lien pour s&#39;inscrire à l&#39;opération, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/mkg_dist_mutual_op_notification.png)
 
 Ce message permet également aux entités locales de visualiser la description renseignée par l&#39;opérateur central qui a créé le kit, et les documents associés à l&#39;opération, s&#39;ils existent. Ces documents permettent de compléter la description de l&#39;opération mais ils n&#39;appartiennent pas à l&#39;opération.
 
-Une fois connecté via une interface Web, l&#39;entité locale peut indiquer les informations de personnalisation pour l&#39;opération collaborative qu&#39;elle souhaite commander :
+Une fois connecté via une interface Web, l&#39;entité locale peut indiquer les informations de personnalisation pour l&#39;opération collaborative qu&#39;elle souhaite commander :
 
 ![](assets/mkg_dist_mutual_op_command.png)
 

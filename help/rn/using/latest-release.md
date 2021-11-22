@@ -84,7 +84,7 @@ _5 juin 2021_
 <tr>
 <td>
 <p>La nouvelle activité de workflow <b>Modifier la source de données</b> permet de modifier la source de données de la table de travail d’un workflow. Cela offre plus de flexibilité pour la gestion des données entre différentes sources de données (FDA et base de données locale).</p>
-<p>Dans les workflows Adobe Campaign, les données sont gérées à l’aide de tables de travail (ou temporaires). Au fur et à mesure de l’exécution d’un workflow, les tables de travail partagent les données entre les activités du workflow. Par défaut, les tables de travail sont créées dans la même base de données que la source des données sur lesquelles nous effectuons des requêtes.</p>
+<p>Dans les workflows Adobe Campaign, les données sont gérées à l’aide de tables de travail (ou temporaires). Au fur et à mesure de l’exécution d’un workflow, les tables de travail partagent les données entre les activités du workflow. Par défaut, les tables de travail sont créées dans la même base de données que la source des données sur lesquelles nous effectuons des requêtes.</p>
 <p>Pour plus d'informations, consultez la <a href="../../workflow/using/change-data-source.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -94,15 +94,15 @@ _5 juin 2021_
 <table>
 <thead>
 <tr>
-<th><strong>Intégration avec Adobe Journey Orchestration</strong><br/></th>
+<th><strong>Intégration avec Adobe Journey Orchestration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’intégration entre Journey Orchestration et Adobe Campaign Classic est maintenant en disponibilité générale (GA). Cette intégration permet à Journey Orchestration d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign Classic.</p>
-<p>La connexion entre les instances Journey Orchestration et Campaign Classic est configurée par Adobe au moment de l’approvisionnement.</p>
-<p>Pour plus d'informations, consultez la <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=fr">documentation Journey Orchestration </a>. Un cas pratique étape par étape est présenté dans cette <a href="https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=fr">section</a></p>
+<p>L’intégration entre Journey Orchestration et Adobe Campaign Classic est maintenant en disponibilité générale (GA). Cette intégration permet à Journey Orchestration d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign Classic.</p>
+<p>La connexion entre les instances Journey Orchestration et Campaign Classic est configurée par Adobe au moment de l’approvisionnement.</p>
+<p>Pour plus d'informations, consultez la <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=fr">documentation Journey Orchestration </a>. Un cas pratique étape par étape est présenté dans cette <a href="https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=fr">section</a></p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +137,7 @@ _5 juin 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Vous pouvez maintenant connecter votre instance Adobe Campaign Classic à votre base de données externe Vertica. Cette connexion est gérée à l’aide d’un nouveau compte externe.</p>
+<td> <p>Vous pouvez maintenant connecter votre instance Adobe Campaign Classic à votre base de données externe Vertica. Cette connexion est gérée à l’aide d’un nouveau compte externe.</p>
 <p>Pour plus d’informations, consultez la <a href="../../installation/using/configure-fda-vertica.md">documentation détaillée</a>.</p>
 </td> 
 </tr> 
@@ -152,7 +152,7 @@ _5 juin 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Vous pouvez maintenant connecter votre instance Adobe Campaign Classic à votre base de données externe Google BigQuery. Cette connexion est gérée à l’aide d’un nouveau compte externe.
+<td> <p>Vous pouvez maintenant connecter votre instance Adobe Campaign Classic à votre base de données externe Google BigQuery. Cette connexion est gérée à l’aide d’un nouveau compte externe.
 </p>
 <p>Pour plus d’informations, consultez la <a href="../../installation/using/configure-fda-google-big-query.md">documentation détaillée</a>.</p>
 </td> 
@@ -178,7 +178,7 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/com
 
 **Fonctionnalités obsolètes**
 
-* À compter de la version 21.1 de Campaign, le connecteur de données Adobe Analytics est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence avec le nouveau connecteur Adobe Analytics.
+* À compter de la version 21.1 de Campaign, le connecteur de données Adobe Analytics est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence avec le nouveau connecteur Adobe Analytics.
 Pour plus d’informations, consultez la [documentation détaillée](../../technotes/using/aa-connector-migration.md).
 * La prise en charge de Debian 8 est maintenant obsolète.
 * Suite à la dépréciation d&#39;Oracle CRM dans la version 20.3, le compte externe associé a été supprimé de l’interface.
@@ -194,14 +194,14 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 **Autres changements**
 
 * Le tiers openssl pour Windows a été mis à jour vers la version 1.1.1h.
-* Dans la description du package Debian, nlserver a été changé en serveur Adobe Campaign Classic.
+* Dans la description du package Debian, nlserver a été changé en serveur Adobe Campaign Classic.
 
 **Correctifs**
 
 * Correction d’un problème lors de la modification du timeout de session afin de déconnecter les utilisateurs après une durée spécifique (les utilisateurs restaient connectés même après la durée définie).
 * Correction d’un problème en raison duquel les diffusions s’affichaient en lecture seule mais pouvaient toujours être modifiées dans les propriétés des diffusions.
 * Correction d&#39;une erreur qui entraînait la disparition de la barre d&#39;outils d&#39;édition lors de la conception d&#39;une application web.
-* Correction d&#39;une erreur qui affichait la version texte d&#39;un email avec des en-têtes Adobe Campaign Classic lors de l&#39;ajout d&#39;un lien vers un email. (NEO-29211
+* Correction d&#39;une erreur qui affichait la version texte d&#39;un email avec des en-têtes Adobe Campaign Classic lors de l&#39;ajout d&#39;un lien vers un email. (NEO-29211
 * Lors de l’utilisation de la connexion FDA via HTTPS, le workflow **Mid-sourcing (logs de diffusion)** (defaultMidSourcingLog) était bloqué dans le délai défini par l’option **NmsMidSourcing_LogsPeriodHour**. Cela empêchait la mise à jour des enregistrements avec les données produites après cette période définie. (NEO-30833)
 * Correction d’un problème qui se produisait après l’exécution du workflow de synchronisation de Message Center. Chaque fois qu’un dossier d’objets de diffusion était déplacé vers un dossier personnalisé, le workflow déplaçait les diffusions vers le dossier **Historique des messages transactionnels** générique. (NEO-27445)
 * Correction d’un problème qui affichait un message d’erreur lors de l’affichage des rapports **Statistiques de diffusion**, **Indicateurs de tracking** et **Statistiques des activités de partage**.

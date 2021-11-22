@@ -27,7 +27,7 @@ Pour savoir comment simuler une offre, procédez comme suit.
 
 ## Etapes principales pour créer une simulation {#main-steps-for-creating-a-simulation}
 
-Pour effectuer une simulation de vos offres, procédez de la manière suivante :
+Pour effectuer une simulation de vos offres, procédez de la manière suivante :
 
 1. Dans l’onglet **[!UICONTROL Profils et cibles]**, cliquez sur le lien **[!UICONTROL Simulations]**, puis sur le bouton **[!UICONTROL Créer]**.
 

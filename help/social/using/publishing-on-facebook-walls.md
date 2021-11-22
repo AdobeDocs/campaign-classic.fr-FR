@@ -17,18 +17,18 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Pour qu&#39;Adobe Campaign puisse envoyer des publications sur les murs de vos pages Facebook, vous devez déléguer, à Adobe Campaign, les droits d&#39;écriture sur ces pages. Les étapes de paramétrage sont les suivantes :
+Pour qu&#39;Adobe Campaign puisse envoyer des publications sur les murs de vos pages Facebook, vous devez déléguer, à Adobe Campaign, les droits d&#39;écriture sur ces pages. Les étapes de paramétrage sont les suivantes :
 
 1. Créez un compte Facebook et une ou plusieurs pages.
 1. Créez une page Facebook de test dédiée à l&#39;envoi de BAT.
 1. Créez une application Facebook.
-1. Renseignez les paramètres de l&#39;application Facebook dans Adobe Campaign, dans le compte externe **[!UICONTROL Routage Facebook]**.
+1. Renseignez les paramètres de l&#39;application Facebook dans Adobe Campaign, dans le compte externe **[!UICONTROL Routage Facebook]**.
 
 ## Conditions préalables requises {#prerequisites}
 
 Vous devez tout d&#39;abord créer un compte Facebook ainsi qu&#39;une ou plusieurs pages, sur lesquelles vous enverrez vos publications.
 
-* Pour créer un compte Facebook, suivez le lien : [https://www.facebook.com](https://www.facebook.com)
+* Pour créer un compte Facebook, suivez le lien : [https://www.facebook.com](https://www.facebook.com)
 * Pour créer une page Facebook, suivez le lien : [ https://www.facebook.com/pages/create](https://www.facebook.com/pages/create).
 
    Il est conseillé d&#39;utiliser le même compte Facebook pour administrer toutes vos pages. Cela permettra de ne créer qu&#39;une seule application Facebook et de ne configurer qu&#39;un seul compte externe pour écrire sur n&#39;importe laquelle des pages du compte Facebook.
@@ -49,7 +49,7 @@ Il est recommandé de créer une page Facebook privée sur laquelle vous enverre
 
 ## Créer une application Facebook {#creating-a-facebook-application}
 
-Pour qu&#39;Adobe Campaign puisse publier sur les murs de vos pages, vous devez créer une application Facebook. Les étapes sont les suivantes :
+Pour qu&#39;Adobe Campaign puisse publier sur les murs de vos pages, vous devez créer une application Facebook. Les étapes sont les suivantes :
 
 1. Connectez-vous au compte Facebook à partir duquel vous administrez vos pages.
 1. Dans la barre d&#39;adresse de votre navigateur Internet, saisissez l&#39;adresse [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
@@ -76,17 +76,17 @@ Pour qu&#39;Adobe Campaign puisse publier sur les murs de vos pages, vous devez 
 
    ![](assets/social_create_facebook_app_004.png)
 
-## Déléguer les droits d&#39;écriture à Adobe Campaign {#delegating-write-access-to-adobe-campaign}
+## Déléguer les droits d&#39;écriture à Adobe Campaign {#delegating-write-access-to-adobe-campaign}
 
-Afin de déléguer à Adobe Campaign les droits d&#39;écriture sur les murs de vos pages, vous devez renseigner, dans Adobe Campaign, les paramètres de l&#39;application Facebook créée précédemment.
+Afin de déléguer à Adobe Campaign les droits d&#39;écriture sur les murs de vos pages, vous devez renseigner, dans Adobe Campaign, les paramètres de l&#39;application Facebook créée précédemment.
 
-Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ainsi qu&#39;à un navigateur Internet connecté au compte Facebook administrateur de vos pages :
+Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ainsi qu&#39;à un navigateur Internet connecté au compte Facebook administrateur de vos pages :
 
 >[!IMPORTANT]
 >
->L&#39;opérateur Adobe Campaign doit disposer des droits administrateur pour effectuer ce paramétrage.
+>L&#39;opérateur Adobe Campaign doit disposer des droits administrateur pour effectuer ce paramétrage.
 
-* **Facebook** : sélectionnez l&#39;application créée précédemment ([https://developers.facebook.com/apps](https://developers.facebook.com/apps)), et sélectionnez l&#39;onglet **[!UICONTROL Paramètres > Général]** .
+* **Facebook** : sélectionnez l&#39;application créée précédemment ([https://developers.facebook.com/apps](https://developers.facebook.com/apps)), et sélectionnez l&#39;onglet **[!UICONTROL Paramètres > Général]** .
 
    ![](assets/social_facebook_external_account_002.png)
 
@@ -94,11 +94,11 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
    >
    >Si la section **[!UICONTROL Jeux Web Facebook]** n&#39;apparaît pas, cliquez sur le bouton **[!UICONTROL Ajouter une plateforme]**, en bas de la page, et sélectionnez **[!UICONTROL Jeux Web Facebook]**.
 
-* **Adobe Campaign** : dans l&#39;arborescence, positionnez-vous sur le noeud **[!UICONTROL Administration > Plateforme > Comptes externes]**, sélectionnez le compte externe **[!UICONTROL Routage Facebook]**, puis cliquez sur l&#39;onglet **[!UICONTROL Connecteur]**.
+* **Adobe Campaign** : dans l&#39;arborescence, positionnez-vous sur le noeud **[!UICONTROL Administration > Plateforme > Comptes externes]**, sélectionnez le compte externe **[!UICONTROL Routage Facebook]**, puis cliquez sur l&#39;onglet **[!UICONTROL Connecteur]**.
 
    ![](assets/social_facebook_external_account_001.png)
 
-1. Dans la console Adobe Campaign, copiez l&#39;adresse contenue dans le champ **[!UICONTROL URL sécurisée du canevas]** et collez-la dans le champ **[!UICONTROL URL des jeux Web sécurisée (https)]** sur Facebook (dans la section **[!UICONTROL Jeux Web Facebook]**).
+1. Dans la console Adobe Campaign, copiez l&#39;adresse contenue dans le champ **[!UICONTROL URL sécurisée du canevas]** et collez-la dans le champ **[!UICONTROL URL des jeux Web sécurisée (https)]** sur Facebook (dans la section **[!UICONTROL Jeux Web Facebook]**).
 
    ![](assets/social_facebook_external_account_006.png)
 
@@ -115,7 +115,7 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
    ![](assets/social_facebook_external_account_007.png)
 
 1. Sur Facebook, cliquez sur le bouton **[!UICONTROL Enregistrer les modifications]**, en bas de la page.
-1. Dans la console Adobe Campaign, enregistrez le compte externe.
+1. Dans la console Adobe Campaign, enregistrez le compte externe.
 
    >[!NOTE]
    >
@@ -127,15 +127,15 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
 
    >[!NOTE]
    >
-   >Par défaut, les pages sont ajoutées à la racine du dossier de services **[!UICONTROL Facebook]**, disponible à partir du noeud **[!UICONTROL Profils et Cibles > Services et abonnements]**. Le champ **[!UICONTROL Dossier]** de l&#39;onglet **[!UICONTROL Connecteur]** permet de modifier le dossier de services dans lequel les pages Facebook sont créées après la synchronisation. Vous pouvez également choisir les pages Facebook que vous souhaitez synchroniser dans Adobe Campaign à l&#39;aide du champ **[!UICONTROL Filtre]**. Si vous laissez ce champ vide, toutes les pages Facebook gérées par l&#39;administrateur seront synchronisées.
+   >Par défaut, les pages sont ajoutées à la racine du dossier de services **[!UICONTROL Facebook]**, disponible à partir du noeud **[!UICONTROL Profils et Cibles > Services et abonnements]**. Le champ **[!UICONTROL Dossier]** de l&#39;onglet **[!UICONTROL Connecteur]** permet de modifier le dossier de services dans lequel les pages Facebook sont créées après la synchronisation. Vous pouvez également choisir les pages Facebook que vous souhaitez synchroniser dans Adobe Campaign à l&#39;aide du champ **[!UICONTROL Filtre]**. Si vous laissez ce champ vide, toutes les pages Facebook gérées par l&#39;administrateur seront synchronisées.
 
-1. Une boite de dialogue apparaît, avec les différents paramètres de demande de permission Facebook. Ces paramètres permettront à Adobe Campaign d&#39;envoyer des publications sur les murs des pages du compte Facebook.
+1. Une boite de dialogue apparaît, avec les différents paramètres de demande de permission Facebook. Ces paramètres permettront à Adobe Campaign d&#39;envoyer des publications sur les murs des pages du compte Facebook.
 
    Acceptez les différentes demandes d’autorisations.
 
    ![](assets/social_facebook_external_account_003.png)
 
-1. La délégation des droits d&#39;écriture d&#39;Adobe Campaign sur les murs des pages du compte Facebook est terminée.
+1. La délégation des droits d&#39;écriture d&#39;Adobe Campaign sur les murs des pages du compte Facebook est terminée.
 
    ![](assets/social_facebook_external_account_011.png)
 

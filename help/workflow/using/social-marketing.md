@@ -38,12 +38,12 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Synchronisation des fans Facebook</span> <br /> </td> 
    <td> <span class="uicontrol">syncFacebookFans</span> <br /> </td> 
-   <td> Ce workflow importe les fans Facebook dans Adobe Campaign tous les jours à 7H00.<br /> </td> 
+   <td> Ce workflow importe les fans Facebook dans Adobe Campaign tous les jours à 7H00.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Synchronisation des pages Facebook</span> <br /> </td> 
    <td> <span class="uicontrol">syncFacebook</span> <br /> </td> 
-   <td> Ce workflow synchronise les pages Facebook avec Adobe Campaign tous les jours à 7H00.<br /> </td> 
+   <td> Ce workflow synchronise les pages Facebook avec Adobe Campaign tous les jours à 7H00.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Calcul des statistiques Twitter</span> <br /> </td> 
@@ -53,7 +53,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Synchronisation des comptes Twitter</span> <br /> </td> 
    <td> <span class="uicontrol">syncTwitter</span> <br /> </td> 
-   <td> Ce workflow importe les followers Twitter dans Adobe Campaign tous les jours à 7H00.<br /> </td> 
+   <td> Ce workflow importe les followers Twitter dans Adobe Campaign tous les jours à 7H00.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -27,20 +27,20 @@ En configurant des champs de contenu conditionnel, vous pouvez créer une person
 Dans l&#39;exemple ci-dessous, vous allez découvrir comment créer de manière dynamique un message personnalisé selon le genre et les centres d&#39;intérêt du destinataire.
 
 * Affichage de &quot;Monsieur&quot; ou &quot;Madame&quot; selon que la valeur du champ **[!UICONTROL Genre]** de la source de données vaut respectivement M ou F,
-* Assemblage personnalisé d&#39;une newsletter ou d&#39;offres promotionnelles en fonction des centres d&#39;intérêt renseignés ou détectés :
+* Assemblage personnalisé d&#39;une newsletter ou d&#39;offres promotionnelles en fonction des centres d&#39;intérêt renseignés ou détectés :
 
    * Centre d&#39;intérêt 1 -- > Bloc 1
    * Centre d&#39;intérêt 2 -- > Bloc 2
    * Centre d&#39;intérêt 3 -- > Bloc 3
    * Centre d&#39;intérêt 4 -- > Bloc 4
 
-Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, respectez les étapes suivantes :
+Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, respectez les étapes suivantes :
 
 1. Cliquez sur l&#39;icône de personnalisation et choisissez **[!UICONTROL Contenu conditionnel > Si]**.
 
    ![](assets/s_ncs_user_conditional_content02.png)
 
-   Les éléments de personnalisation sont insérés dans le corps du message : vous devez maintenant les paramétrer.
+   Les éléments de personnalisation sont insérés dans le corps du message : vous devez maintenant les paramétrer.
 
 1. Renseignez ensuite les paramètres de l&#39;expression **if**.
 
@@ -55,13 +55,13 @@ Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, res
 
       ![](assets/s_ncs_user_conditional_content04.png)
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** pour visualiser le contenu du message en fonction du destinataire de la diffusion :
+1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** pour visualiser le contenu du message en fonction du destinataire de la diffusion :
 
-   * Sélection d&#39;un destinataire pour lequel la condition est vérifiée :
+   * Sélection d&#39;un destinataire pour lequel la condition est vérifiée :
 
       ![](assets/s_ncs_user_conditional_content05.png)
 
-   * Sélection d&#39;un destinataire pour lequel la condition n&#39;est pas vérifiée :
+   * Sélection d&#39;un destinataire pour lequel la condition n&#39;est pas vérifiée :
 
       ![](assets/s_ncs_user_conditional_content06.png)
 

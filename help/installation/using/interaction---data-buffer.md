@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Il est possible de configurer une zone de mémoire tampon afin d’augmenter les performances d’Interaction entrante en désynchronisant le calcul des propositions d’offre. Cette configuration est à effectuer dans le fichier de configuration propre à l’instance (config-Instance.xml).
 
-Dans Adobe Campaign, une **zone de mémoire tampon** a été introduite dans le module Interaction. Elle permet **d&#39;augmenter les performances** d&#39;Interaction entrant en désynchronisant le calcul des propositions, du stockage.
+Dans Adobe Campaign, une **zone de mémoire tampon** a été introduite dans le module Interaction. Elle permet **d&#39;augmenter les performances** d&#39;Interaction entrant en désynchronisant le calcul des propositions, du stockage.
 
 Il concerne uniquement interaction entrant, soit pour un appel (avec ou sans données d&#39;appel), soit pour une mise à jour de statut (updateStatus).
 
@@ -35,7 +35,7 @@ La **configuration** de la zone de mémoire tampon est à effectuer dans le fich
 >
 >Pour les déploiements hébergés par Adobe, certaines configurations peuvent uniquement être effectuées par Adobe, comme l&#39;accès aux fichiers de configuration de serveur et d’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 >
->Tout changement effectué sur la configuration demande un redémarrage du serveur web (Apache / IIS) et des processus Adobe Campaign.\
+>Tout changement effectué sur la configuration demande un redémarrage du serveur web (Apache / IIS) et des processus Adobe Campaign.\
 >Lors du paramétrage de la zone de mémoire tampon, veillez à disposer d&#39;une configuration matériel adaptée (quantité de mémoire vive).
 
 
@@ -49,9 +49,9 @@ maxProcessMemoryWarningMb="1600" maxSharedEntries="25000" nextOffersSize="0"
 processRestartTime="06:00:00" runLevel="10" targetKeySize="16"/>
 ```
 
-Si vous utilisez Interaction Entrant, l&#39;attribut @autoStart doit être à &quot;true&quot; pour démarrer automatiquement le process au lancement du serveur Adobe Campaign.
+Si vous utilisez Interaction Entrant, l&#39;attribut @autoStart doit être à &quot;true&quot; pour démarrer automatiquement le process au lancement du serveur Adobe Campaign.
 
-Détails des arguments :
+Détails des arguments :
 
 ```
  args: Start-up parameters 

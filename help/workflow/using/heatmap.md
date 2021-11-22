@@ -149,7 +149,7 @@ En tant qu&#39;administrateur de Campaign, la carte thermique des workflows vous
 
 ## Utilisation de la Carte thermique pour une meilleure planification des workflows {#example--using-the-heatmap-to-improve-workflow-planning}
 
-L&#39;exemple ci-dessous montre comment rendre la planification plus efficace et améliorer les performances grâce à l&#39;utilisation de la Carte thermique des workflows d&#39;Adobe Campaign.
+L&#39;exemple ci-dessous montre comment rendre la planification plus efficace et améliorer les performances grâce à l&#39;utilisation de la Carte thermique des workflows d&#39;Adobe Campaign.
 
 Dans ce cas pratique, de nombreux utilisateurs se plaignent des performances des workflows. Vous devez rechercher ce qui ralentit l&#39;activité et comment résoudre le problème.
 

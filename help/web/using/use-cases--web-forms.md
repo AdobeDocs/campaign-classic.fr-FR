@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: '"Cas pratiques : formulaires web"'
-description: '"Cas pratiques : formulaires web"'
+title: '"Cas pratiques : formulaires web"'
+description: '"Cas pratiques : formulaires web"'
 audience: web
 content-type: reference
 topic-tags: web-forms
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Cas pratiques : formulaires web{#use-cases-web-forms}
+# Cas pratiques : formulaires web{#use-cases-web-forms}
 
 ![](../../assets/common.svg)
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Lorsque vous proposez des services d’information, les destinataires doivent être abonnés pour recevoir les communications associées. Afin de vous prémunir contre toute communication abusive, et vous assurer que le destinataire est bien à l’origine de l’abonnement, il est vivement recommandé d’envoyer un message de confirmation d’inscription, et ainsi mettre en place un abonnement en double opt-in. L’inscription ne sera effective qu’une fois que l’utilisateur a cliqué sur le lien proposé dans le message de confirmation.
 
-Le scénario mis en oeuvre dans cet exemple est le suivant :
+Le scénario mis en oeuvre dans cet exemple est le suivant :
 
 1. Création d’un formulaire d’inscription à la newsletter sur un site web contenant une case d’abonnement à un service temporaire. Ce service permettra de diffuser les messages de confirmation d’abonnement.
 1. Création de la diffusion de confirmation d’abonnement avec un modèle de diffusion associé au formulaire web. Elle contient le lien de confirmation rappelant le formulaire qui abonne à la newsletter et affiche un message de validation de l’inscription.
@@ -157,7 +157,7 @@ Vous pouvez maintenant publier le formulaire afin de le rendre accessible aux ut
 
 ![](assets/s_ncs_admin_survey_double-opt-in_sample_8b.png)
 
-Ainsi, l’inscription à la newsletter est réalisée selon les étapes suivantes :
+Ainsi, l&#39;inscription à la newsletter est réalisée selon les étapes suivantes :
 
 1. L’utilisateur du site Web se connecte à la page d’abonnement et valide le formulaire.
 
@@ -179,7 +179,7 @@ Ainsi, l’inscription à la newsletter est réalisée selon les étapes suivant
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8.png)
 
-   Dans Adobe Campaign, le profil de l’utilisateur est mis à jour :
+   Dans Adobe Campaign, le profil de l&#39;utilisateur est mis à jour :
 
    * il n&#39;est plus sur la liste bloquée,
    * il est abonné au service d’information.
@@ -188,32 +188,32 @@ Ainsi, l’inscription à la newsletter est réalisée selon les étapes suivant
 
 ## Afficher différentes options en fonction de la valeur sélectionnée {#displaying-different-options-depending-on-the-selected-values}
 
-Dans l’exemple suivant, l’utilisateur est invité à choisir un type de véhicule. Vous pouvez afficher les catégories de véhicules disponibles en fonction du type sélectionné. Ainsi, les éléments affichés dans la colonne de droite dépendent de la sélection de l’utilisateur :
+Dans l&#39;exemple suivant, l&#39;utilisateur est invité à choisir un type de véhicule. Vous pouvez afficher les catégories de véhicules disponibles en fonction du type sélectionné. Ainsi, les éléments affichés dans la colonne de droite dépendent de la sélection de l&#39;utilisateur :
 
 ![](assets/s_ncs_admin_survey_condition_sample0.png)
 
-* Lorsqu’il sélectionne un véhicule particulier, il pourra choisir entre un véhicule &quot;Voiture individuelle&quot; ou &quot;Monospace&quot; :
+* Lorsqu&#39;il sélectionne un véhicule particulier, il pourra choisir entre un véhicule &quot;Voiture individuelle&quot; ou &quot;Monospace&quot; :
 
    ![](assets/s_ncs_admin_survey_condition_sample2.png)
 
-* Lorsqu’il sélectionne un véhicule professionnel, il pourra choisir parmi les utilitaires de la liste déroulante :
+* Lorsqu&#39;il sélectionne un véhicule professionnel, il pourra choisir parmi les utilitaires de la liste déroulante :
 
    ![](assets/s_ncs_admin_survey_condition_sample1.png)
 
-Dans cet exemple, le type de véhicule n’est pas stocké dans la base de données : la liste déroulante correspondante est paramétrée comme suit :
+Dans cet exemple, le type de véhicule n&#39;est pas stocké dans la base de données : la liste déroulante correspondante est paramétrée comme suit :
 
 ![](assets/s_ncs_admin_survey_condition_config1.png)
 
 Cette information est stockée dans une variable locale.
 
-Le conditionnement de l’affichage de la colonne de droite est paramétré au niveau des conteneurs :
+Le conditionnement de l&#39;affichage de la colonne de droite est paramétré au niveau des conteneurs :
 
 ![](assets/s_ncs_admin_survey_condition_config1bis.png)
 
-* Conditionnement de la visibilité des champs pour un véhicule personnel :
+* Conditionnement de la visibilité des champs pour un véhicule personnel :
 
    ![](assets/s_ncs_admin_survey_condition_config2.png)
 
-* Conditionnement de la visibilité des champs pour un véhicule professionnel :
+* Conditionnement de la visibilité des champs pour un véhicule professionnel :
 
    ![](assets/s_ncs_admin_survey_condition_config3.png)

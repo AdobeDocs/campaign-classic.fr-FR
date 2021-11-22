@@ -21,15 +21,15 @@ ht-degree: 100%
 
 Avant d&#39;appuyer sur le bouton **Envoyer**, vérifiez que l&#39;affichage de votre message sera optimal pour les destinataires sur divers clients web, webmails et appareils.
 
-Pour permettre cette vérification, Adobe Campaign utilise la solution web de test d&#39;email [Litmus](https://litmus.com/email-testing) afin de capturer les rendus et les rendre disponibles dans un rapport dédié. Vous pouvez ainsi visualiser l&#39;affichage du message envoyé dans les différents contextes de réception et vérifier la compatibilité sur les principaux postes de travail et dans les applications majeures.
+Pour permettre cette vérification, Adobe Campaign utilise la solution web de test d&#39;email [Litmus](https://litmus.com/email-testing) afin de capturer les rendus et les rendre disponibles dans un rapport dédié. Vous pouvez ainsi visualiser l&#39;affichage du message envoyé dans les différents contextes de réception et vérifier la compatibilité sur les principaux postes de travail et dans les applications majeures.
 
 Litmus est une application de validation et de prévisualisation d&#39;emails offrant de nombreuses fonctionnalités. Elle permet aux créateurs de contenus d&#39;email de prévisualiser le contenu d&#39;un message dans plus de 70 outils de rendu d&#39;email, tels que la boîte de réception Gmail ou le client Apple Mail.
 
-Les clients mobiles, de messagerie et webmail disponibles pour l&#39;**Inbox rendering** dans Adobe Campaign sont répertoriés sur le [site web de Litmus](https://litmus.com/email-testing) (cliquez sur **View all email clients**).
+Les clients mobiles, de messagerie et webmail disponibles pour l&#39;**Inbox rendering** dans Adobe Campaign sont répertoriés sur le [site web de Litmus](https://litmus.com/email-testing) (cliquez sur **View all email clients**).
 
 >[!NOTE]
 >
->L&#39;Inbox rendering n&#39;est pas nécessaire pour tester les personnalisations dans les diffusions. Celles-ci peuvent être vérifiées à l&#39;aide des outils d&#39;Adobe Campaign tels que l&#39;**[!UICONTROL aperçu]** et les [bons à tirer](steps-validating-the-delivery.md#sending-a-proof).
+>L&#39;Inbox rendering n&#39;est pas nécessaire pour tester les personnalisations dans les diffusions. Celles-ci peuvent être vérifiées à l&#39;aide des outils d&#39;Adobe Campaign tels que l&#39;**[!UICONTROL aperçu]** et les [bons à tirer](steps-validating-the-delivery.md#sending-a-proof).
 
 ## Activation de l&#39;Inbox rendering{#activating-inbox-rendering}
 
@@ -70,7 +70,7 @@ Pour les installations sur site, suivez la procédure ci-dessous pour configurer
 
 Litmus étant un service tiers, il fonctionne selon un modèle de crédit déduit par utilisation. Chaque fois qu&#39;un utilisateur fait appel à la fonctionnalité Litmus, un crédit est déduit.
 
-Dans Adobe Campaign, le crédit correspond au nombre de rendus disponibles (appelés jetons).
+Dans Adobe Campaign, le crédit correspond au nombre de rendus disponibles (appelés jetons).
 
 >[!NOTE]
 >
@@ -84,6 +84,7 @@ Chaque fois que vous utilisez la fonctionnalité **[!UICONTROL Inbox rendering]*
 >
 >* Chaque fois que le rapport d&#39;inbox rendering est généré, un jeton est déduit par client de messagerie : un jeton pour le rendu Outlook 2000, un pour le rendu Outlook 2010, un pour le rendu Apple Mail 9, etc.
 >* Pour une même diffusion, si vous régénérez le rapport d&#39;inbox rendering, le nombre de jetons disponibles est à nouveau réduit en fonction du nombre de rendus générés.
+
 >
 
 

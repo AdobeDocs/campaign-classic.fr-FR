@@ -19,18 +19,18 @@ ht-degree: 100%
 
 ## À propos des services d&#39;informations {#about-information-services}
 
-Un service d&#39;information est caractérisé par :
+Un service d&#39;information est caractérisé par :
 
 * une inscription, un abonnement (opt-in),
-* une désinscription, un désabonnement volontaire (opt-out) ou automatique (service à durée limitée : par exemple pour une offre d&#39;essai),
+* une désinscription, un désabonnement volontaire (opt-out) ou automatique (service à durée limitée : par exemple pour une offre d&#39;essai),
 * des mécanismes de confirmation d&#39;inscription et/ou de désinscription (mécanismes simples avec confirmation, double opt-in, etc.),
 * un tracking de l’historique des abonnés.
 
-Ces services sont accompagnés, en standard, des rapports et de statistiques spécifiques : tracking des abonnés, niveaux de fidélité, courbes de désinscription, etc.
+Ces services sont accompagnés, en standard, des rapports et de statistiques spécifiques : tracking des abonnés, niveaux de fidélité, courbes de désinscription, etc.
 
 Pour les emails, les liens de désinscription obligatoires sont automatiquement générés et l&#39;ensemble du processus opt-in/opt-out est alors totalement automatisé avec un tracking des historiques garantissant une totale conformité avec les règlementations en vigueur.
 
-Les opérations d&#39;abonnement/désabonnement aux services peuvent être réalisées selon trois modes différents :
+Les opérations d&#39;abonnement/désabonnement aux services peuvent être réalisées selon trois modes différents :
 
 1. manuellement,
 1. par un import (abonnement seulement),
@@ -52,17 +52,17 @@ Pour éditer un service existant, cliquez sur son nom. Pour créer un service, c
 
 ![](assets/s_ncs_user_services_add.png)
 
-* Saisissez le nom du service dans le champ **[!UICONTROL Libellé]** et sélectionnez le canal de diffusion : Email, Mobile, Facebook, Twitter, Application mobile.
+* Saisissez le nom du service dans le champ **[!UICONTROL Libellé]** et sélectionnez le canal de diffusion : Email, Mobile, Facebook, Twitter, Application mobile.
 
    >[!NOTE]
    >
    >Les abonnements Facebook et Twitter sont détaillés dans [cette section](../../social/using/about-social-marketing.md). Les abonnements aux applications mobiles sont détaillés dans [À propos de Mobile App Channel](about-mobile-app-channel.md).
 
 * Pour un service de type Email, choisissez le **mode de diffusion**. Les modes possibles sont : **[!UICONTROL Newsletter]** ou **[!UICONTROL Viral]**.
-* Vous pouvez envoyer des **messages de confirmation** lors de l&#39;inscription ou de la désinscription : vous devez alors choisir les modèles de diffusion à utiliser pour créer les diffusions correspondantes depuis les champs **[!UICONTROL Inscription]** ou **[!UICONTROL Désinscription]**. Ces modèles doivent être paramétrés avec un mapping de ciblage de type **[!UICONTROL Abonnement]**, sans aucune cible définie. Pour plus d&#39;informations, consultez la section [À propos du canal Email](about-email-channel.md).
+* Vous pouvez envoyer des **messages de confirmation** lors de l&#39;inscription ou de la désinscription : vous devez alors choisir les modèles de diffusion à utiliser pour créer les diffusions correspondantes depuis les champs **[!UICONTROL Inscription]** ou **[!UICONTROL Désinscription]**. Ces modèles doivent être paramétrés avec un mapping de ciblage de type **[!UICONTROL Abonnement]**, sans aucune cible définie. Pour plus d&#39;informations, consultez la section [À propos du canal Email](about-email-channel.md).
 * Par défaut, les abonnements sont illimités. Vous pouvez décocher l&#39;option **[!UICONTROL Illimité]** pour définir la durée de validité du service. La durée peut alors être spécifiée en jours (**[!UICONTROL j]**) ou en mois (**[!UICONTROL m]** ).
 
-Une fois le service enregistré, il est ajouté dans la liste des Services et abonnements : cliquez sur son nom pour le modifier. Plusieurs onglets sont alors proposés. L&#39;onglet **[!UICONTROL Abonnements]** permet de consulter la liste des inscrits au service d&#39;information (onglet **[!UICONTROL Abonnements actifs]**) ou l’historique des abonnements/désinscriptions (onglet **[!UICONTROL Historique]**). Vous pouvez également ajouter et supprimer des abonnés depuis cet onglet. Voir [Ajouter et supprimer des abonnés](#adding-and-deleting-subscribers).
+Une fois le service enregistré, il est ajouté dans la liste des Services et abonnements : cliquez sur son nom pour le modifier. Plusieurs onglets sont alors proposés. L&#39;onglet **[!UICONTROL Abonnements]** permet de consulter la liste des inscrits au service d&#39;information (onglet **[!UICONTROL Abonnements actifs]**) ou l’historique des abonnements/désinscriptions (onglet **[!UICONTROL Historique]**). Vous pouvez également ajouter et supprimer des abonnés depuis cet onglet. Voir [Ajouter et supprimer des abonnés](#adding-and-deleting-subscribers).
 
 ![](assets/s_ncs_user_services_subscriptions.png)
 
@@ -72,7 +72,7 @@ Vous pouvez modifier les propriétés de l&#39;abonnement pour un destinataire.
 
 ![](assets/s_ncs_user_services_modify.png)
 
-Depuis le tableau de bord, cliquez sur **[!UICONTROL Rapports]** pour suivre les abonnements : évolution des abonnements, nombre total d’abonnés, etc. Vous pouvez archiver les rapports et consulter les historiques depuis cet onglet.
+Depuis le tableau de bord, cliquez sur **[!UICONTROL Rapports]** pour suivre les abonnements : évolution des abonnements, nombre total d’abonnés, etc. Vous pouvez archiver les rapports et consulter les historiques depuis cet onglet.
 
 ## Ajouter et supprimer des abonnés {#adding-and-deleting-subscribers}
 
@@ -88,7 +88,7 @@ Voir [Inscription et désinscription](#subscription-and-unsubscription-mechanism
 
 ## Diffuser aux abonnés d&#39;un service {#delivering-to-the-subscribers-of-a-service}
 
-Pour diffuser aux abonnés d&#39;un service d&#39;information, vous devez cibler sur les abonnés au service d&#39;information visé, comme dans l&#39;exemple ci-dessous :
+Pour diffuser aux abonnés d&#39;un service d&#39;information, vous devez cibler sur les abonnés au service d&#39;information visé, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_user_wizard_target_is_a_service01.png)
 
@@ -121,14 +121,14 @@ Vous pouvez mettre en place des mécanismes d&#39;inscription et de désinscript
 
 ### Inscrire un destinataire à un service {#subscribing-a-recipient-to-a-service}
 
-Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
+Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
 
-* Ajouter manuellement ce service : pour cela, depuis l&#39;onglet **[!UICONTROL Abonnements]** de leur profil, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez le service d&#39;information visé.
+* Ajouter manuellement ce service : pour cela, depuis l&#39;onglet **[!UICONTROL Abonnements]** de leur profil, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez le service d&#39;information visé.
 
    Voir à ce sujet la section sur l&#39;édition de profils dans [cette section](../../platform/using/editing-a-profile.md).
 
 * Abonner automatiquement à ce service un ensemble de destinataires. La liste de ces destinataires peut être issue d&#39;une opération de filtrages, d&#39;un groupe, d&#39;un dossier, d&#39;un import ou d&#39;une sélection directe par la souris. Pour abonner ces destinataires, sélectionnez les profils et cliquez sur le bouton droit de la souris. Choisissez **[!UICONTROL Actions > Abonner la sélection à un service...]** puis sélectionnez le service visé et lancez l&#39;opération.
-* Importer des destinataires et les abonner automatiquement à un service d&#39;information : pour cela, sélectionnez le service visé dans la dernière étape de l&#39;assistant d&#39;import.
+* Importer des destinataires et les abonner automatiquement à un service d&#39;information : pour cela, sélectionnez le service visé dans la dernière étape de l&#39;assistant d&#39;import.
 
    Voir à ce propos [cette section](../../platform/using/executing-import-jobs.md).
 
@@ -158,7 +158,7 @@ Vous pouvez enfin désinscrire un ou plusieurs destinataires depuis le service d
 
 #### Désabonnement automatique {#automatic-unsubscription}
 
-Un service d&#39;information peut avoir une durée limitée : les destinataires seront automatiquement désabonnés une fois le délai de validité expiré. Ce délai est spécifié dans l&#39;onglet **[!UICONTROL Edition]** des propriétés du service. Il est exprimé en jours.
+Un service d&#39;information peut avoir une durée limitée : les destinataires seront automatiquement désabonnés une fois le délai de validité expiré. Ce délai est spécifié dans l&#39;onglet **[!UICONTROL Edition]** des propriétés du service. Il est exprimé en jours.
 
 ![](assets/s_ncs_user_services_delay.png)
 

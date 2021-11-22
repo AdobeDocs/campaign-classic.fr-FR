@@ -21,13 +21,13 @@ Afin de produire des statistiques sur les données de la base, vous pouvez crée
 
 Ces rapports portent sur des populations et sont réservés à l&#39;analyse d&#39;un faible volume de données.
 
-Vous pouvez générer des rapports d&#39;analyse quantitative ou qualitative. L&#39;analyse qualitative permet de représenter les données par exemple sous les formats suivants :
+Vous pouvez générer des rapports d&#39;analyse quantitative ou qualitative. L&#39;analyse qualitative permet de représenter les données par exemple sous les formats suivants :
 
-* Tableau et histogramme :
+* Tableau et histogramme :
 
    ![](assets/reporting_descriptive_sample_1.png)
 
-* Valeurs empilées, sans le tableau :
+* Valeurs empilées, sans le tableau :
 
    ![](assets/reporting_descriptive_sample_3.png)
 
@@ -35,13 +35,13 @@ Vous pouvez générer des rapports d&#39;analyse quantitative ou qualitative. L&
 
    ![](assets/reporting_descriptive_sample_2.png)
 
-L&#39;analyse quantitative permet quant à elle de fournir des statistiques globales sur des données numériques de la sélection, comme dans l&#39;exemple suivant :
+L&#39;analyse quantitative permet quant à elle de fournir des statistiques globales sur des données numériques de la sélection, comme dans l&#39;exemple suivant :
 
 ![](assets/reporting_descriptive_quantitative_sample.png)
 
 Ces rapports sont produits via l&#39;assistant d&#39;analyse descriptive qui propose différentes étapes afin de choisir le type de rapport à générer, sélectionner les données et leur formatage. Le rapport est affiché dans sa dernière étape. Au besoin, le rapport peut être publié et ainsi partagé avec les autres opérateurs, imprimé ou exporté au format Excel, PDF ou OpenDocument.
 
-Les rapports d&#39;analyse descriptive n&#39;offrent pas la puissance des rapports d&#39;Adobe Campaign mais permettent de visualiser rapidement le contenu de la base ou les données d&#39;une sélection.
+Les rapports d&#39;analyse descriptive n&#39;offrent pas la puissance des rapports d&#39;Adobe Campaign mais permettent de visualiser rapidement le contenu de la base ou les données d&#39;une sélection.
 
 >[!CAUTION]
 >

@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Espace de travail Adobe Campaign
+title: Espace de travail Adobe Campaign
 description: Découvrez comment utiliser et personnaliser l’espace de travail Campaign
 feature: Overview
 role: Data Engineer
@@ -13,13 +13,13 @@ ht-degree: 100%
 
 ---
 
-# Espace de travail Adobe Campaign{#adobe-campaign-workspace}
+# Espace de travail Adobe Campaign{#adobe-campaign-workspace}
 
 ![](../../assets/common.svg)
 
-## Exploration de l’interface Adobe Campaign {#about-adobe-campaign-interface}
+## Exploration de l’interface Adobe Campaign {#about-adobe-campaign-interface}
 
-Une fois connecté à la base de données, vous accédez à la page d&#39;accueil d&#39;Adobe Campaign. Celle-ci se présente sous la forme d&#39;un tableau de bord : il est composé de liens et de raccourcis qui vous permettent d&#39;accéder aux fonctions disponibles selon votre installation et aux paramétrages généraux de la plateforme.
+Une fois connecté à la base de données, vous accédez à la page d&#39;accueil d&#39;Adobe Campaign. Celle-ci se présente sous la forme d&#39;un tableau de bord : il est composé de liens et de raccourcis qui vous permettent d&#39;accéder aux fonctions disponibles selon votre installation et aux paramétrages généraux de la plateforme.
 
 Depuis la section centrale de la page d&#39;accueil, vous pouvez utiliser les liens pour accéder au portail de la documentation en ligne, au forum et au site web d&#39;assistance de Campaign.
 
@@ -29,13 +29,13 @@ Depuis la section centrale de la page d&#39;accueil, vous pouvez utiliser les li
 
 >[!NOTE]
 >
->Les fonctions Adobe Campaign disponibles sur votre instance dépendent des modules et composants additionnels installés. Selon vos permissions et configurations spécifiques, certaines d&#39;entre elles peuvent ne pas être disponibles.
+>Les fonctions Adobe Campaign disponibles sur votre instance dépendent des modules et composants additionnels installés. Selon vos permissions et configurations spécifiques, certaines d&#39;entre elles peuvent ne pas être disponibles.
 >
 >Avant d’installer un module ou un composant additionnel, vous devez vérifier votre contrat de licence ou contacter votre chargé de compte Adobe.
 
 ### Accès console et accès web {#console-and-web-access}
 
-La plateforme Adobe Campaign est accessible via une console ou par le biais d&#39;un navigateur Internet.
+La plateforme Adobe Campaign est accessible via une console ou par le biais d&#39;un navigateur Internet.
 
 L&#39;accès web présente une interface similaire à celle de la console, mais permet d&#39;accéder à un jeu de fonctionnalités réduit.
 
@@ -43,7 +43,7 @@ Par exemple, pour un même opérateur, une opération sera affichée dans la con
 
 ![](assets/operation_from_console.png)
 
-Dans le contexte d’un accès web, les options seront en revanche principalement consultatives :
+Dans le contexte d’un accès web, les options seront en revanche principalement consultatives :
 
 ![](assets/operation_from_web.png)
 
@@ -110,7 +110,7 @@ Par exemple, au niveau de la page des diffusions, utilisez le bouton **[!UICONTR
 
 ### Date et heure {#date-and-time}
 
-La langue de votre instance Adobe Campaign Classic a un impact sur les formats de date et d’heure.
+La langue de votre instance Adobe Campaign Classic a un impact sur les formats de date et d’heure.
 
 La langue est sélectionnée lors de l’installation de Campaign et ne peut plus être modifiée par la suite. Vous pouvez sélectionner : anglais (US), anglais (UK), français, allemand ou japonais. Voir à ce propos [cette page](../../installation/using/creating-an-instance-and-logging-on.md).
 

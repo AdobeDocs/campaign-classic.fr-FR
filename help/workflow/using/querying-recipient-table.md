@@ -38,7 +38,7 @@ Dans cet exemple, vous allez récupérer les noms et emails des destinataires do
 Pour réaliser cet exemple, les étapes sont les suivantes :
 
 1. Cliquez sur **[!UICONTROL Outils > Requêteur générique...]**, choisissez la table des **Destinataires** (**nms:recipient**). Cliquez sur **[!UICONTROL Suivant]**.
-1. Sélectionnez : **[!UICONTROL Nom]**, **[!UICONTROL Prénom]**, **[!UICONTROL Email]**, **[!UICONTROL Ville]** et **[!UICONTROL N° de compte]**. Ces champs sont alors intégrés à la section **[!UICONTROL Colonnes de sortie]**. Cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez : **[!UICONTROL Nom]**, **[!UICONTROL Prénom]**, **[!UICONTROL Email]**, **[!UICONTROL Ville]** et **[!UICONTROL N° de compte]**. Ces champs sont alors intégrés à la section **[!UICONTROL Colonnes de sortie]**. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/query_editor_03.png)
 
@@ -49,7 +49,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 1. Dans la fenêtre **[!UICONTROL Filtrage des données]**, affinez votre recherche en sélectionnant **[!UICONTROL Critères de filtrage]**. Cliquez sur **[!UICONTROL Suivant]**.
 1. La fenêtre **[!UICONTROL Elément de la cible]** sert à renseigner les paramètres de filtrage.
 
-   Définissez la condition de filtrage suivante : les destinataires ont une adresse email avec un nom de domaine égal à &quot;free.fr&quot;. Pour cela, sélectionnez **Domaine de l&#39;email (@email)** dans la colonne **[!UICONTROL Expression]**, choisissez **égal à** dans la colonne **[!UICONTROL Opérateur]**. Enfin, renseignez l&#39;expression &quot;free.fr&quot; dans la colonne **[!UICONTROL Valeur]**.
+   Définissez la condition de filtrage suivante : les destinataires ont une adresse email avec un nom de domaine égal à &quot;free.fr&quot;. Pour cela, sélectionnez **Domaine de l&#39;email (@email)** dans la colonne **[!UICONTROL Expression]**, choisissez **égal à** dans la colonne **[!UICONTROL Opérateur]**. Enfin, renseignez l&#39;expression &quot;free.fr&quot; dans la colonne **[!UICONTROL Valeur]**.
 
    ![](assets/query_editor_05.png)
 

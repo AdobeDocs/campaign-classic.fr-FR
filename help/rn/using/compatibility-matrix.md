@@ -168,7 +168,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 ## Connecteurs CRM{#CRMconnectors}
 
-Les systèmes de gestion de la relation client (CRM) compatibles avec Adobe Campaign sont répertoriés ci-dessous. [En savoir plus](../../platform/using/crm-connectors.md) sur les connecteurs CRM disponibles dans Campaign.
+Les systèmes de gestion de la relation client (CRM) compatibles avec Adobe Campaign sont répertoriés ci-dessous. [En savoir plus](../../platform/using/crm-connectors.md) sur les connecteurs CRM disponibles dans Campaign.
 
 <table>
 <tbody>
@@ -189,7 +189,7 @@ Les systèmes de gestion de la relation client (CRM) compatibles avec Adobe Camp
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
-Les bases de données externes compatibles avec le [module Adobe Campaign Federated Data Access](../../installation/using/about-fda.md) sont répertoriées ci-dessous.
+Les bases de données externes compatibles avec le [module Adobe Campaign Federated Data Access](../../installation/using/about-fda.md) sont répertoriées ci-dessous.
 
 <table>
 <tbody>

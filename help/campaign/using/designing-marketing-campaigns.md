@@ -17,20 +17,20 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Adobe Campaign vous permet de définir, d’optimiser, d’exécuter et d’analyser des campagnes marketing et de communication. Adobe Campaign agit comme un centre de commande et d’exécution unifié pour les stratégies marketing. Pour plus d’informations à ce sujet, reportez-vous aux sections [Accès aux campagnes](../../distributed/using/accessing-campaigns.md) et [Création de campagnes marketing](../../campaign/using/setting-up-marketing-campaigns.md).
+Adobe Campaign vous permet de définir, d’optimiser, d’exécuter et d’analyser des campagnes marketing et de communication. Adobe Campaign agit comme un centre de commande et d’exécution unifié pour les stratégies marketing. Pour plus d’informations à ce sujet, reportez-vous aux sections [Accès aux campagnes](../../distributed/using/accessing-campaigns.md) et [Création de campagnes marketing](../../campaign/using/setting-up-marketing-campaigns.md).
 
 De plus, le module **Gestion des ressources marketing (MRM)** vous permet de contrôler les actions marketing de façon collaborative à travers la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliqués. La gestion des ressources marketing permet l’optimisation et la régulation de la gestion des processus internes et externes, des ressources et campagnes marketing, ainsi que des relations tierces (agences, imprimeurs, autres). Pour plus d’informations à ce sujet, consultez [cette section](../../mrm/using/about-marketing-resource-management.md).
 
 >[!NOTE]
 >
->Pour plus d’informations sur les fonctionnalités de base d’Adobe Campaign, reportez-vous à [cette section](../../platform/using/about-adobe-campaign-classic.md).\
+>Pour plus d’informations sur les fonctionnalités de base d’Adobe Campaign, reportez-vous à [cette section](../../platform/using/about-adobe-campaign-classic.md).\
 >Les fonctionnalités relatives au ciblage des populations, à la personnalisation et à la diffusion de messages sur les différents canaux sont présentées dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrir les concepts clés des campagnes marketing dans une vidéo](#video)
 
 ## Concepts de base {#core-concepts}
 
-Dans le contexte de Campaign, les concepts listés ci-dessous doivent être connus :
+Dans le contexte de Campaign, les concepts listés ci-dessous doivent être connus :
 
 * **Campagne**
 
@@ -40,7 +40,7 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
 * **Programme**
 
-   Un programme permet de définir des actions marketing pour une période calendaire : programme de lancement, de prospection, de fidélisation, etc. Chaque programme regroupe des opérations : elles sont centralisées dans le calendrier du programme auquel elles sont attachées, afin d&#39;en avoir une vue d&#39;ensemble.
+   Un programme permet de définir des actions marketing pour une période calendaire : programme de lancement, de prospection, de fidélisation, etc. Chaque programme regroupe des opérations : elles sont centralisées dans le calendrier du programme auquel elles sont attachées, afin d&#39;en avoir une vue d&#39;ensemble.
 
 * **Plan**
 

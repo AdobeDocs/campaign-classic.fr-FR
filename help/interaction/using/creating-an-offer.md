@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Créer l&#39;offre {#creating-the-offer}
 
-Pour créer une offre, procédez comme suit :
+Pour créer une offre, procédez comme suit :
 
 1. Accédez à l’onglet **[!UICONTROL Campagnes]** et cliquez sur le lien **[!UICONTROL Offres]**.
 
@@ -77,7 +77,7 @@ Par exemple, une offre peut avoir un poids A pour les contacts âgés de 18 à 2
 >
 >Le poids affecté peut être temporairement modifié en fonction des paramètres de la catégorie de l&#39;offre. Voir à ce sujet la section [Créer des catégories d&#39;offres](../../interaction/using/creating-offer-categories.md).
 
-Pour créer un poids dans une offre, procédez comme suit :
+Pour créer un poids dans une offre, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Ajouter]**.
 
@@ -127,9 +127,9 @@ Pour le visualiser, cliquez sur le lien **[!UICONTROL Planning et règles d&#39;
 
 1. Complétez les différents champs du contenu de l&#39;offre.
 
-   * **[!UICONTROL Titre]** : indiquez le titre que vous souhaitez faire apparaître dans votre offre. Attention, il ne s&#39;agit pas du libellé de l&#39;offre défini dans l&#39;onglet **[!UICONTROL Général]**.
-   * **[!UICONTROL URL de destination]** : indiquez l&#39;URL de votre offre. Pour être traitée correctement, elle doit impérativement débuter par &quot;http://&quot; ou &quot;https://&quot;.
-   * **[!UICONTROL URL de l&#39;image]** : indiquez une URL ou un chemin d&#39;accès vers l&#39;image de votre offre.
+   * **[!UICONTROL Titre]** : indiquez le titre que vous souhaitez faire apparaître dans votre offre. Attention, il ne s&#39;agit pas du libellé de l&#39;offre défini dans l&#39;onglet **[!UICONTROL Général]**.
+   * **[!UICONTROL URL de destination]** : indiquez l&#39;URL de votre offre. Pour être traitée correctement, elle doit impérativement débuter par &quot;http://&quot; ou &quot;https://&quot;.
+   * **[!UICONTROL URL de l&#39;image]** : indiquez une URL ou un chemin d&#39;accès vers l&#39;image de votre offre.
    * **[!UICONTROL Contenu HTML]** / **[!UICONTROL Contenu texte]** : saisissez le corps de votre offre dans l&#39;onglet de votre souhait. Pour générer le tracking, le **[!UICONTROL contenu HTML]** doit être constitué d&#39;éléments HTML intégrables dans un élément de type `<div>`. Par exemple, le résultat d&#39;un élément `<table>` dans la page HTML sera le suivant :
 
    ```
@@ -159,7 +159,7 @@ Pour le visualiser, cliquez sur le lien **[!UICONTROL Planning et règles d&#39;
 
 ## Prévisualiser l&#39;offre {#previewing-the-offer}
 
-Dès lors que le contenu de votre offre a été paramétré, vous pouvez prévisualiser l&#39;offre telle qu&#39;elle apparaîtra pour son destinataire. Pour cela :
+Dès lors que le contenu de votre offre a été paramétré, vous pouvez prévisualiser l&#39;offre telle qu&#39;elle apparaîtra pour son destinataire. Pour cela :
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]**.
 

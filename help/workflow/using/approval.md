@@ -33,11 +33,11 @@ Au besoin, vous pouvez affecter la tâche de validation à un opérateur unique 
    >
    >Seul l&#39;opérateur sélectionné sera habilité à valider la tâche.
 
-* Vous pouvez définir une requête afin de filtrer les opérateurs validants. Pour cela, sélectionnez la valeur **[!UICONTROL Filtre]** dans le champ **[!UICONTROL Type d&#39;affectation]** puis cliquez sur le lien **[!UICONTROL Paramètres avancés...]** pour définir les critères de filtrage, comme dans l&#39;exemple ci-dessous :
+* Vous pouvez définir une requête afin de filtrer les opérateurs validants. Pour cela, sélectionnez la valeur **[!UICONTROL Filtre]** dans le champ **[!UICONTROL Type d&#39;affectation]** puis cliquez sur le lien **[!UICONTROL Paramètres avancés...]** pour définir les critères de filtrage, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_advuser_validation_box_filter.png)
 
-Dans le cas d&#39;une validation simple, la transition correspondant au choix de l&#39;opérateur est activée et la tâche est terminée : les autres opérateurs ne peuvent plus répondre.
+Dans le cas d&#39;une validation simple, la transition correspondant au choix de l&#39;opérateur est activée et la tâche est terminée : les autres opérateurs ne peuvent plus répondre.
 
 Dans le cas d&#39;une validation multiple, les transitions correspondant au choix de chaque opérateur sont activées. La tâche est terminée lorsque tous les opérateurs du groupe ont répondu ou lorsque la tâche a expiré.
 
@@ -47,7 +47,7 @@ Un opérateur peut valider les tâches qui lui sont assignées depuis la console
 
 La modification du titre ou du corps du message de l&#39;activité n&#39;affecte pas les tâches en cours, en revanche, la modification des choix possibles affecte directement les tâches en cours qui héritent automatiquement de la nouvelle liste de choix.
 
-Les tâches de type **Validation** sont accessibles depuis le noeud **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Validations en attente]** : les opérateurs peuvent accéder directement au formulaire de validation depuis cette vue.
+Les tâches de type **Validation** sont accessibles depuis le noeud **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Validations en attente]** : les opérateurs peuvent accéder directement au formulaire de validation depuis cette vue.
 
 ![](assets/s_advuser_validation_from_console.png)
 
@@ -57,7 +57,7 @@ Les variables de personnalisation peuvent être utilisées dans le message envoy
 
 ![](assets/edit_validation.png)
 
-Le champ **[!UICONTROL Titre]** contient le titre du message : il s&#39;agit du sujet de l&#39;email envoyé. Le titre, comme le corps du message, sont des templates JavaScript et peuvent donc contenir des valeurs calculées en fonction du contexte du workflow.
+Le champ **[!UICONTROL Titre]** contient le titre du message : il s&#39;agit du sujet de l&#39;email envoyé. Le titre, comme le corps du message, sont des templates JavaScript et peuvent donc contenir des valeurs calculées en fonction du contexte du workflow.
 
 La section inférieure de l&#39;éditeur permet de définir la liste des réponses possibles. A chaque réponse correspond une transition. Le nom est l&#39;identifiant interne et le libellé est le texte qui sera affiché dans la liste des choix.
 

@@ -21,7 +21,7 @@ Adobe Campaign fait l&#39;objet de mises à jour régulières. En moyenne, deux
 
 Cette fréquence régulière de mises à jour a pour but de vous fournir les dernières fonctionnalités et améliorations. Vous bénéficiez ainsi d’un environnement sécurisé et d’une expérience optimale avec notre produit.
 
-C&#39;est la raison pour laquelle nous pensons qu&#39;il est important que vous exécutiez la version la plus récente d’Adobe Campaign. Vous obtiendrez également un meilleur support, car l’identification, la reproduction et la résolution d’un problème sur un build récent sont généralement beaucoup plus rapides. De plus, de nombreux problèmes que vous pouvez rencontrer ont déjà été corrigés dans les builds les plus récents.
+C&#39;est la raison pour laquelle nous pensons qu&#39;il est important que vous exécutiez la version la plus récente d’Adobe Campaign. Vous obtiendrez également un meilleur support, car l’identification, la reproduction et la résolution d’un problème sur un build récent sont généralement beaucoup plus rapides. De plus, de nombreux problèmes que vous pouvez rencontrer ont déjà été corrigés dans les builds les plus récents.
 
 ## Statuts des versions{#rn-statuses}
 
@@ -67,4 +67,4 @@ En tant qu’utilisateur [!DNL Gold Standard] hébergé, vous bénéficiez autom
 * [Dernières mises à jour de la documentation](../../rn/using/documentation-updates.md)
 * [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md)
 
-Pour être informé des nouvelles versions de la solution Experience Cloud, abonnez-vous à la [Mise à jour produit prioritaire d’Adobe](https://www.adobe.com/fr/subscription/priority-product-update.html).
+Pour être informé des nouvelles versions de la solution Experience Cloud, abonnez-vous à la [Mise à jour produit prioritaire d’Adobe](https://www.adobe.com/fr/subscription/priority-product-update.html).

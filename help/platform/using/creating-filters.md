@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Lorsque vous naviguez dans l’arborescence d’Adobe Campaign (à partir du menu **[!UICONTROL Explorateur]** de la page d’accueil), les informations contenues dans la base de données sont affichées sous forme de listes. Ces listes sont paramétrables afin de filtrer les données et de n’afficher que les éléments utiles à l’opérateur. Des actions peuvent ensuite être lancées sur les données issues du résultat du filtre. Le paramétrage des filtres permet de sélectionner les données d’une liste de façon **[!UICONTROL dynamique]**. En cas de modification des données, les données filtrées sont mises à jour.
+Lorsque vous naviguez dans l’arborescence d’Adobe Campaign (à partir du menu **[!UICONTROL Explorateur]** de la page d’accueil), les informations contenues dans la base de données sont affichées sous forme de listes. Ces listes sont paramétrables afin de filtrer les données et de n’afficher que les éléments utiles à l’opérateur. Des actions peuvent ensuite être lancées sur les données issues du résultat du filtre. Le paramétrage des filtres permet de sélectionner les données d’une liste de façon **[!UICONTROL dynamique]**. En cas de modification des données, les données filtrées sont mises à jour.
 
 >[!NOTE]
 >
@@ -25,11 +25,11 @@ Lorsque vous naviguez dans l’arborescence d’Adobe Campaign (à partir du men
 
 ## Typologie des filtres disponibles {#typology-of-available-filters}
 
-Adobe Campaign permet d&#39;appliquer des filtres sur les listes de données.
+Adobe Campaign permet d&#39;appliquer des filtres sur les listes de données.
 
 Ces filtres peuvent être utilisés ponctuellement ou enregistrés pour être réutilisés. Vous pouvez appliquer plusieurs filtres simultanément.
 
-Les types de filtres disponibles dans Adobe Campaign sont les suivants :
+Les types de filtres disponibles dans Adobe Campaign sont les suivants :
 
 * **Filtres par défaut**
 
@@ -96,7 +96,7 @@ Les étapes sont les suivantes :
 
 ## Créer un filtre simple {#creating-a-simple-filter}
 
-Pour créer un **filtre simple**, respectez les étapes suivantes :
+Pour créer un **filtre simple**, respectez les étapes suivantes :
 
 1. Cliquez avec le bouton droit sur le champ sur lequel vous souhaitez filtrer les données et choisissez **[!UICONTROL Filtrer sur ce champ]**.
 
@@ -104,13 +104,13 @@ Pour créer un **filtre simple**, respectez les étapes suivantes :
 
    Les champs de filtrage par défaut s&#39;affichent au-dessus de la liste.
 
-1. Sélectionnez dans la liste déroulante l&#39;option de filtrage ou saisissez les critères de filtrage à appliquer (le mode de sélection ou de saisie des critères dépend du type de champ : texte, énuméré, etc.).
+1. Sélectionnez dans la liste déroulante l&#39;option de filtrage ou saisissez les critères de filtrage à appliquer (le mode de sélection ou de saisie des critères dépend du type de champ : texte, énuméré, etc.).
 
    ![](assets/s_ncs_user_sort_fields.png)
 
 1. Tapez sur la touche Entrée du clavier ou cliquez sur la flèche verte située à droite des champs de filtrage pour activer le filtre.
 
-Si le champ sur lequel vous souhaitez filtrer les données n&#39;est pas affiché dans le formulaire du profil, vous pouvez l&#39;ajouter dans les colonnes affichées, puis filtrer sur cette colonne. Pour cela :
+Si le champ sur lequel vous souhaitez filtrer les données n&#39;est pas affiché dans le formulaire du profil, vous pouvez l&#39;ajouter dans les colonnes affichées, puis filtrer sur cette colonne. Pour cela :
 
 1. Cliquez sur l&#39;icône **[!UICONTROL Configurer la liste]**.
 
@@ -130,7 +130,7 @@ Si le champ sur lequel vous souhaitez filtrer les données n&#39;est pas affich�
 
 ## Créer un filtre avancé {#creating-an-advanced-filter}
 
-Pour créer un **filtre avancé**, respectez les étapes suivantes :
+Pour créer un **filtre avancé**, respectez les étapes suivantes :
 
 1. Cliquez sur le bouton **[!UICONTROL Filtres]** et choisissez **[!UICONTROL Filtre avancé...]**.
 
@@ -172,21 +172,21 @@ Vous pouvez enregistrer un filtre avancé afin de le conserver pour une utilisat
 
 ### Créer un filtre avancé avec fonctions {#creating-an-advanced-filter-with-functions}
 
-Les filtres avancés peuvent utiliser des fonctions : les **filtres avec fonctions** sont créés à partir d&#39;un éditeur d&#39;expressions qui permet de créer des formules qui utilisent les données de la base et des fonctions avancées. Pour créer un filtre avec fonctions, répétez les étapes 1, 2 et 3 de création d&#39;un filtre avancé puis procédez comme suit :
+Les filtres avancés peuvent utiliser des fonctions : les **filtres avec fonctions** sont créés à partir d&#39;un éditeur d&#39;expressions qui permet de créer des formules qui utilisent les données de la base et des fonctions avancées. Pour créer un filtre avec fonctions, répétez les étapes 1, 2 et 3 de création d&#39;un filtre avancé puis procédez comme suit :
 
 1. Dans la fenêtre de sélection du champ, cliquez sur le bouton **[!UICONTROL Sélection avancée]**.
-1. Sélectionnez le type de formule à utiliser : agrégat, filtre utilisateur existant ou expression.
+1. Sélectionnez le type de formule à utiliser : agrégat, filtre utilisateur existant ou expression.
 
    ![](assets/s_ncs_user_filter_formula_select.png)
 
-   Les options disponibles sont les suivantes :
+   Les options disponibles sont les suivantes :
 
    * **[!UICONTROL Champ simple]** pour sélectionner un champ. Il s&#39;agit du mode par défaut.
    * **[!UICONTROL Agrégat]** pour sélectionner la formule d&#39;agrégat à utiliser (comptage, somme, moyenne, maximum, minimum).
    * **[!UICONTROL Filtre utilisateur]** pour sélectionner l’un des filtres utilisateur existants. Les filtres utilisateur sont présentés dans la section [Enregistrer un filtre](#saving-a-filter).
    * **[!UICONTROL Expression]** pour accéder à l&#39;éditeur d&#39;expressions
 
-      L&#39;éditeur d&#39;expression permet de définir un filtre avancé. Il se présente comme suit :
+      L&#39;éditeur d&#39;expression permet de définir un filtre avancé. Il se présente comme suit :
 
       ![](assets/s_ncs_user_create_exp_exple01.png)
 
@@ -200,7 +200,7 @@ Les filtres avancés peuvent utiliser des fonctions : les **filtres avec fonctio
 
 Les filtres sont spécifiques à chaque opérateur et sont réinitialisés à chaque fois que l&#39;opérateur vide le cache de la console cliente.
 
-Vous pouvez créer un **filtre applicatif** en enregistrant un filtre avancé : ainsi enregistré, le filtre pourra être réutilisé depuis le bouton droit de la souris dans n&#39;importe quelle liste ou à partir du bouton **[!UICONTROL Filtres]** situé au-dessus des listes.
+Vous pouvez créer un **filtre applicatif** en enregistrant un filtre avancé : ainsi enregistré, le filtre pourra être réutilisé depuis le bouton droit de la souris dans n&#39;importe quelle liste ou à partir du bouton **[!UICONTROL Filtres]** situé au-dessus des listes.
 
 Ces filtres sont également accessibles directement depuis l&#39;assistant de diffusion, dans l&#39;étape de sélection de la cible (consultez [cette section](../../delivery/using/creating-an-email-delivery.md) pour plus d&#39;informations sur la création de diffusions). Pour créer un filtre applicatif, vous pouvez :
 
@@ -232,7 +232,7 @@ Sélectionnez un filtre pour en afficher la définition et accéder à un aperç
 >
 >Un exemple détaillé de création de filtre prédéfini est proposé dans la section [Cas pratique](../../platform/using/use-case.md).
 
-Les filtres prédéfinis sont les suivants :
+Les filtres prédéfinis sont les suivants :
 
 <table> 
  <tbody> 
@@ -343,30 +343,30 @@ Les filtres prédéfinis sont les suivants :
 >
 >Toutes les comparaisons de comptage et de période sont au sens large (les bornes sont incluses dans la comparaison).
 
-Exemples de comptage :
+Exemples de comptage :
 
-* Sélection des destinataires de moins de 30 ans :
+* Sélection des destinataires de moins de 30 ans :
 
    ![](assets/predefined_filters_01.png)
 
-* Sélection des destinataires de 18 ans et plus :
+* Sélection des destinataires de 18 ans et plus :
 
    ![](assets/predefined_filters_03.png)
 
-* Sélection des destinataires qui ont entre 18 et 30 ans :
+* Sélection des destinataires qui ont entre 18 et 30 ans :
 
    ![](assets/predefined_filters_02.png)
 
 ## Paramètres avancés des filtres sur les données {#advanced-settings-for-data-filters}
 
-Cliquez sur l&#39;onglet **[!UICONTROL Paramètres]** pour accéder aux options suivantes :
+Cliquez sur l&#39;onglet **[!UICONTROL Paramètres]** pour accéder aux options suivantes :
 
-* **[!UICONTROL Filtre par défaut pour le type de document associé]** : cette option permet de proposer ce filtre par défaut dans l&#39;éditeur des listes concernées par le tri.
+* **[!UICONTROL Filtre par défaut pour le type de document associé]** : cette option permet de proposer ce filtre par défaut dans l&#39;éditeur des listes concernées par le tri.
 
    Par exemple, le filtre **[!UICONTROL Par nom ou login]** est appliqué aux opérateurs. Cette option est sélectionnée donc le filtre est systématiquement proposé sur toutes les listes d&#39;opérateurs.
 
-* **[!UICONTROL Filtre partagé avec les autres opérateurs]** : cette option permet de rendre ce filtre disponible pour tous les autres opérateurs sur la base courante.
-* **[!UICONTROL Utilisation d&#39;un formulaire de saisie des paramètres]** : cette option permet de définir le ou les champs de filtrage qui s&#39;afficheront au-dessus de la liste lorsque ce filtre sera sélectionné. Ces champs permettent de définir les paramètres du filtre. Ce formulaire doit alors être saisi au format XML depuis le bouton **[!UICONTROL Formulaire]**. Par exemple, le filtre préconfiguré **[!UICONTROL Ayant ouvert]**, disponible dans la liste des destinataires, affiche un champ de filtrage permettant de sélectionner la diffusion visée par le filtre.
+* **[!UICONTROL Filtre partagé avec les autres opérateurs]** : cette option permet de rendre ce filtre disponible pour tous les autres opérateurs sur la base courante.
+* **[!UICONTROL Utilisation d&#39;un formulaire de saisie des paramètres]** : cette option permet de définir le ou les champs de filtrage qui s&#39;afficheront au-dessus de la liste lorsque ce filtre sera sélectionné. Ces champs permettent de définir les paramètres du filtre. Ce formulaire doit alors être saisi au format XML depuis le bouton **[!UICONTROL Formulaire]**. Par exemple, le filtre préconfiguré **[!UICONTROL Ayant ouvert]**, disponible dans la liste des destinataires, affiche un champ de filtrage permettant de sélectionner la diffusion visée par le filtre.
 
    Le bouton **[!UICONTROL Aperçu]** permet de visualiser le résultat du filtre choisi.
 

@@ -37,13 +37,13 @@ Une fois que toutes les validations ont été accordées, la diffusion est prêt
 
 ### Démarrer une diffusion online {#starting-an-online-delivery}
 
-Une fois toutes les demandes de validation approuvées, la diffusion passe à l&#39;état **[!UICONTROL A confirmer]**, et peut être démarrée par un opérateur. Le cas échéant, l&#39;opérateur Adobe Campaign (ou le groupe d&#39;opérateurs) désigné comme validant pour le démarrage de la diffusion est alors notifié qu&#39;une diffusion est prête à être démarrée.
+Une fois toutes les demandes de validation approuvées, la diffusion passe à l&#39;état **[!UICONTROL A confirmer]**, et peut être démarrée par un opérateur. Le cas échéant, l&#39;opérateur Adobe Campaign (ou le groupe d&#39;opérateurs) désigné comme validant pour le démarrage de la diffusion est alors notifié qu&#39;une diffusion est prête à être démarrée.
 
 >[!NOTE]
 >
->Si un opérateur spécifique ou groupe d&#39;opérateurs est désigné pour le démarrage de la diffusion dans les propriétés de cette dernière, vous pouvez également permettre à l&#39;opérateur en charge de la diffusion de confirmer l&#39;envoi. Pour cela activez l&#39;option **NMS_ActivateOwnerConfirmation** en indiquant comme valeur **1**. Les options sont gérées depuis le noeud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]****[!UICONTROL Options]** de l&#39;explorateur Adobe Campaign.
+>Si un opérateur spécifique ou groupe d&#39;opérateurs est désigné pour le démarrage de la diffusion dans les propriétés de cette dernière, vous pouvez également permettre à l&#39;opérateur en charge de la diffusion de confirmer l&#39;envoi. Pour cela activez l&#39;option **NMS_ActivateOwnerConfirmation** en indiquant comme valeur **1**. Les options sont gérées depuis le noeud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]****[!UICONTROL Options]** de l&#39;explorateur Adobe Campaign.
 >  
->Pour désactiver cette option, indiquez **0** comme valeur. Le processus de confirmation des envois fonctionnera alors comme par défaut : seul l&#39;opérateur ou le groupe d&#39;opérateurs désigné pour l&#39;envoi (ou un administrateur) dans les propriétés de la diffusion pourra confirmer et effectuer l&#39;envoi.
+>Pour désactiver cette option, indiquez **0** comme valeur. Le processus de confirmation des envois fonctionnera alors comme par défaut : seul l&#39;opérateur ou le groupe d&#39;opérateurs désigné pour l&#39;envoi (ou un administrateur) dans les propriétés de la diffusion pourra confirmer et effectuer l&#39;envoi.
 
 ![](assets/s_ncs_user_edit_del_to_start_from_del.png)
 
@@ -55,7 +55,7 @@ Un message de confirmation permet de sécuriser cette action.
 
 ### Démarrer une diffusion offline {#starting-an-offline-delivery}
 
-Lorsque toutes les validations ont été acceptées, la diffusion passe à l&#39;état **[!UICONTROL En attente d&#39;extraction]**. Les fichiers d&#39;extraction sont créés via un workflow spécifique qui, dans une configuration par défaut, démarre automatiquement lorsqu&#39;une diffusion courrier est en attente d&#39;extraction. Lorsqu&#39;un traitement est en cours, il est affiché dans le tableau de bord : il peut être édité depuis son lien.
+Lorsque toutes les validations ont été acceptées, la diffusion passe à l&#39;état **[!UICONTROL En attente d&#39;extraction]**. Les fichiers d&#39;extraction sont créés via un workflow spécifique qui, dans une configuration par défaut, démarre automatiquement lorsqu&#39;une diffusion courrier est en attente d&#39;extraction. Lorsqu&#39;un traitement est en cours, il est affiché dans le tableau de bord : il peut être édité depuis son lien.
 
 >[!NOTE]
 >
@@ -102,11 +102,11 @@ Pour plus d&#39;informations, reportez-vous à la section [Valider un fichier d&
 
 ### Calcul des coûts et des stocks {#calculation-of-costs-and-stocks}
 
-L&#39;extraction du fichier lance deux opérations : le calcul des budgets et le calcul des stocks. Les lignes budgétaires sont mises à jour.
+L&#39;extraction du fichier lance deux opérations : le calcul des budgets et le calcul des stocks. Les lignes budgétaires sont mises à jour.
 
 * Au niveau de l&#39;opération, l&#39;onglet **[!UICONTROL Budget]** permet de gérer les budgets. Le cumul des lignes de coût est repris dans le champ **[!UICONTROL Coût calculé]** de l&#39;onglet principal de l&#39;opération et du programme auquel elle appartient. Les montants sont également répercutés au niveau du budget de l&#39;opération.
 
-   Le coût réel sera calculé au final en fonction des informations fournies par le routeur : seuls les courriers réellement envoyés sont facturés.
+   Le coût réel sera calculé au final en fonction des informations fournies par le routeur : seuls les courriers réellement envoyés sont facturés.
 
 * Les stocks sont définis dans le noeud **[!UICONTROL Administration > Gestion de campagne > Stocks]** de l&#39;arborescence, et les structures de coût, dans le noeud **[!UICONTROL Administration > Gestion de campagne > Prestataires]**.
 
@@ -134,9 +134,9 @@ Vous pouvez également référencer dans les opérations des éléments externes
 
 Des documents peuvent être associés au niveau de l&#39;opération (documents contextuels) ou au niveau du programme (documents généraux).
 
-L&#39;onglet **[!UICONTROL Documents]** contient :
+L&#39;onglet **[!UICONTROL Documents]** contient :
 
-* la liste de tous les documents nécessaires au contenu (maquette, images, etc.) qui pourront être téléchargés en local par les opérateurs Adobe Campaign possédant les droits adéquats,
+* la liste de tous les documents nécessaires au contenu (maquette, images, etc.) qui pourront être téléchargés en local par les opérateurs Adobe Campaign possédant les droits adéquats,
 * les documents contenant des informations destinées au routeur, s&#39;ils existent.
 
 Les documents sont rattachés au programme ou à l&#39;opération via leur onglet **[!UICONTROL Edition > Documents]**.
@@ -147,11 +147,11 @@ Vous pouvez également ajouter un document dans une opération via le lien propo
 
 ![](assets/add_a_document_in_op.png)
 
-Cliquez sur l&#39;icône **[!UICONTROL Détails]** pour visualiser le contenu d&#39;un fichier et ajouter des informations complémentaires :
+Cliquez sur l&#39;icône **[!UICONTROL Détails]** pour visualiser le contenu d&#39;un fichier et ajouter des informations complémentaires :
 
 ![](assets/s_ncs_user_op_add_document_details.png)
 
-Au niveau du tableau de bord, les documents associés à l&#39;opération sont regroupés dans la section **[!UICONTROL Document(s)]**, comme dans l&#39;exemple ci-dessous :
+Au niveau du tableau de bord, les documents associés à l&#39;opération sont regroupés dans la section **[!UICONTROL Document(s)]**, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_user_op_edit_document.png)
 
@@ -165,9 +165,9 @@ Ils peuvent également être édités et modifiés depuis cette vue.
 
 Une composition désigne un ensemble structuré d&#39;éléments (documents, agences/magasins, coupons promotionnels, etc.) créés dans l&#39;entreprise et pour une opération particulière.
 
-Ces éléments sont regroupés dans des compositions, et telle ou telle composition sera associée à une diffusion : elle sera référencée dans le fichier d&#39;extraction transmis au **prestataire** afin d&#39;être jointe à la diffusion. Vous pouvez par exemple créer une composition qui référence une agence et les brochures marketing qu&#39;elle utilise.
+Ces éléments sont regroupés dans des compositions, et telle ou telle composition sera associée à une diffusion : elle sera référencée dans le fichier d&#39;extraction transmis au **prestataire** afin d&#39;être jointe à la diffusion. Vous pouvez par exemple créer une composition qui référence une agence et les brochures marketing qu&#39;elle utilise.
 
-Les compositions permettent, au niveau de l&#39;opération, de structurer des éléments externes qui seront associés à la diffusion en fonction de certains critères : agence de rattachement, offre promotionnelle accordée, invitation à un événement local, etc.
+Les compositions permettent, au niveau de l&#39;opération, de structurer des éléments externes qui seront associés à la diffusion en fonction de certains critères : agence de rattachement, offre promotionnelle accordée, invitation à un événement local, etc.
 
 #### Créer une composition {#creating-an-outline}
 
@@ -181,17 +181,17 @@ Pour créer une composition, cliquez sur le sous-onglet **[!UICONTROL Compositio
 
 ![](assets/s_ncs_user_op_composition_link.png)
 
-Cliquez ensuite sur **[!UICONTROL Ajouter une composition de diffusion]** et créez l&#39;arborescence des compositions pour l&#39;opération :
+Cliquez ensuite sur **[!UICONTROL Ajouter une composition de diffusion]** et créez l&#39;arborescence des compositions pour l&#39;opération :
 
 1. Cliquez avec le bouton droit sur la racine de l&#39;arborescence et choisissez **[!UICONTROL Nouveau > Compositions de diffusion]**.
 1. Cliquez avec le bouton droit de la souris sur la composition que vous venez de créer et choisissez **[!UICONTROL Nouveau > Article]** ou **[!UICONTROL Nouveau > Champs de personnalisation]**.
 
 ![](assets/s_ncs_user_op_add_composition.png)
 
-Une composition peut contenir des articles, des champs de personnalisation, des ressources et des offres :
+Une composition peut contenir des articles, des champs de personnalisation, des ressources et des offres :
 
 * Les articles sont par exemple des documents physiques qui sont ici référencés et décrits, et seront joints à la diffusion.
-* Les champs de personnalisation permettent de créer des éléments de personnalisation relatifs aux diffusions et non aux destinataires. Ainsi, il est possible de créer des valeurs qui seront utilisées dans les diffusions pour une cible spécifique (offre de bienvenue, pourcentage de réduction, etc.) Ils sont créés dans Adobe Campaign et importés dans la composition, via le lien **[!UICONTROL Importer des champs de personnalisation...]**.
+* Les champs de personnalisation permettent de créer des éléments de personnalisation relatifs aux diffusions et non aux destinataires. Ainsi, il est possible de créer des valeurs qui seront utilisées dans les diffusions pour une cible spécifique (offre de bienvenue, pourcentage de réduction, etc.) Ils sont créés dans Adobe Campaign et importés dans la composition, via le lien **[!UICONTROL Importer des champs de personnalisation...]**.
 
    ![](assets/s_ncs_user_op_add_composition_field.png)
 
@@ -209,15 +209,15 @@ Une composition peut contenir des articles, des champs de personnalisation, des 
 
 #### Sélectionner une composition {#selecting-an-outline}
 
-Pour chaque diffusion, vous pouvez sélectionner la composition à associer à partir de la section réservée à la configuration de l&#39;extraction, comme dans l&#39;exemple ci-dessous :
+Pour chaque diffusion, vous pouvez sélectionner la composition à associer à partir de la section réservée à la configuration de l&#39;extraction, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_user_op_select_composition.png)
 
-La composition sélectionnée est alors affichée dans la section inférieure de la fenêtre. Elle peut être éditée à partir de l&#39;icône située à droite du champ ou modifiée en utilisant la liste déroulante :
+La composition sélectionnée est alors affichée dans la section inférieure de la fenêtre. Elle peut être éditée à partir de l&#39;icône située à droite du champ ou modifiée en utilisant la liste déroulante :
 
 ![](assets/s_ncs_user_op_select_composition_b.png)
 
-L&#39;onglet **[!UICONTROL Résumé]** de la diffusion affiche également cette information :
+L&#39;onglet **[!UICONTROL Résumé]** de la diffusion affiche également cette information :
 
 ![](assets/s_ncs_user_op_select_composition_c.png)
 

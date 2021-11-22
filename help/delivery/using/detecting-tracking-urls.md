@@ -17,13 +17,13 @@ ht-degree: 100%
 
 ## Exemple de non-détection
 
-`<%= getURL("http://mynewsletter.com") %>` fonctionne et envoie le contenu de la page web par email aux destinataires. Mais aucun des liens n&#39;est tracké. La raison en est que le MTA exécute `"<%=getURL(..."` pour chaque email avant de l’envoyer. Cela peut être différent pour chaque destinataire, de sorte qu’Adobe Campaign ne peut pas connaître les URL de tracking et leur attribuer un identifiant de balise.
+`<%= getURL("http://mynewsletter.com") %>` fonctionne et envoie le contenu de la page web par email aux destinataires. Mais aucun des liens n&#39;est tracké. La raison en est que le MTA exécute `"<%=getURL(..."` pour chaque email avant de l’envoyer. Cela peut être différent pour chaque destinataire, de sorte qu’Adobe Campaign ne peut pas connaître les URL de tracking et leur attribuer un identifiant de balise.
 
 Lorsque la page à télécharger est identique pour tous les destinataires, il est recommandé d’effectuer les opérations suivantes :
 
 `<%@ include url="http://mynewsletter.com" %>`
 
-Dans ce cas, la page est téléchargée pendant l’analyse, avant la détection du tracking. Adobe Campaign peut ainsi découvrir les liens, attribuer un identifiant de balise et les tracké.
+Dans ce cas, la page est téléchargée pendant l’analyse, avant la détection du tracking. Adobe Campaign peut ainsi découvrir les liens, attribuer un identifiant de balise et les tracké.
 
 ## Modèle recommandé
 
@@ -39,8 +39,8 @@ Lorsque vous ajoutez des liens personnalisés à votre contenu, évitez toujours
 
 Par exemple, la syntaxe `<a href="http://<%=myURL%>">` n’est **pas sécurisée** et doit être évitée.
 
-* L’utilisation de cette syntaxe peut entraîner des problèmes de sécurité si le lien généré par Adobe Campaign contient un ou plusieurs paramètres.
+* L’utilisation de cette syntaxe peut entraîner des problèmes de sécurité si le lien généré par Adobe Campaign contient un ou plusieurs paramètres.
 * Tidy peut incorrectement corriger certains liens, ce qui peut se produire de manière aléatoire. Le symptôme typique est une portion de code HTML visible dans les BAT d&#39;email mais pas dans la prévisualisation.
 * L’échappement de l’URL est problématique, certains caractères de l’URL peuvent poser des problèmes.
 * Un paramètre nommé ID ne peut pas entrer en conflit avec un paramètre dans l’URL de redirection.
-* L’intérêt du tracking est alors limité aux statistiques de la diffusion, car Adobe Campaign tracke indifféremment toutes les valeurs possibles de « myURL ».
+* L’intérêt du tracking est alors limité aux statistiques de la diffusion, car Adobe Campaign tracke indifféremment toutes les valeurs possibles de « myURL ».

@@ -24,6 +24,7 @@ Avant de commencer la mise à jour, déterminez et confirmez la version d’Adob
 >* Adobe recommande vivement d’effectuer une sauvegarde de base de données sur chaque instance avant de procéder à la mise à jour. Pour plus d’informations, consultez [cette section](../../production/using/backup.md).
 >* Pour effectuer une mise à jour, vérifiez que vous avez la possibilité et les permissions d’accéder aux instances et aux logs.
 >* Lisez [cette section](../../installation/using/general-architecture.md) et le chapitre [Upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) avant de commencer.
+
 >
 
 
@@ -44,12 +45,11 @@ Il est nécessaire d&#39;arrêter toutes les instances du service nlserver afin 
 
 1. Arrêtez les services suivants :
 
-   * services Web (IIS) :
+   * services Web (IIS) :
 
       **iisreset /stop**
 
-   * service Adobe Campaign : **net stop nlserver6**
-
+   * service Adobe Campaign : **net stop nlserver6**
    >[!IMPORTANT]
    >
    >Vous devez également vous assurer que le serveur de redirection (webmdl) est arrêté afin que le fichier **nlsrvmod.dll**, qui est utilisé par IIS, puisse être remplacé par la nouvelle version.
@@ -64,15 +64,15 @@ Il est nécessaire d&#39;arrêter toutes les instances du service nlserver afin 
 
    Vous pouvez éventuellement utiliser le Gestionnaire de tâches de Windows afin de vous assurer que tous les processus sont inactifs.
 
-### mettre à niveau l&#39;application serveur Adobe Campaign, {#upgrade-the-adobe-campaign-server-application}
+### mettre à niveau l&#39;application serveur Adobe Campaign, {#upgrade-the-adobe-campaign-server-application}
 
-Pour exécuter le fichier de mise à jour, respectez les étapes suivantes :
+Pour exécuter le fichier de mise à jour, respectez les étapes suivantes :
 
 1. Exécutez **setup.exe**.
 
    Pour télécharger ce fichier, connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) à l’aide de vos informations d’identification d’utilisateur. En savoir plus sur la distribution des logiciels sur [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 
-1. Sélectionnez le mode d&#39;installation : choisissez **[!UICONTROL Mise à jour ou réparation]**
+1. Sélectionnez le mode d&#39;installation : choisissez **[!UICONTROL Mise à jour ou réparation]**
 1. Cliquez sur **[!UICONTROL Suivant]** .
 1. Cliquez sur **[!UICONTROL Terminer]** .
 
@@ -100,17 +100,17 @@ Vérifiez ensuite si la synchronisation a généré des erreurs ou des avertisse
 
 ### Redémarrer les services {#restart-services}
 
-Les services à redémarrer sont :
+Les services à redémarrer sont :
 
-* services Web (IIS) :
+* services Web (IIS) :
 
    **iisreset /start**
 
-* service Adobe Campaign : **net start nlserver6**
+* service Adobe Campaign : **net start nlserver6**
 
 ## Linux {#in-linux}
 
-Dans un environnement Linux, procédez comme suit pour mettre à jour Adobe Campaign vers un nouveau build :
+Dans un environnement Linux, procédez comme suit pour mettre à jour Adobe Campaign vers un nouveau build :
 
 * [Télécharger les packages mis à jour](#obtain-updated-packages),
 * [Effectuer la mise à jour](#perform-an-update),
@@ -132,7 +132,7 @@ Le fichier est **nlserver6-v7-XXX.rpm**
 
 * Distribution basée sur RPM (RedHat, SuSe)
 
-   Pour les installer, exécutez en tant que root :
+   Pour les installer, exécutez en tant que root :
 
    ```
    $rpm -Uvh nlserver6-v7-XXXX.rpm
@@ -148,7 +148,7 @@ Le fichier est **nlserver6-v7-XXX.rpm**
 
 * Distribution basée sur DEB (Debian)
 
-   Pour les installer, exécutez en tant que root :
+   Pour les installer, exécutez en tant que root :
 
    ```
    dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
@@ -162,7 +162,7 @@ Le fichier est **nlserver6-v7-XXX.rpm**
 
 Vous devez arrêter Apache afin que la nouvelle bibliothèque soit prise en compte.
 
-Pour cela exécutez la commande :
+Pour cela exécutez la commande :
 
 ```
 /etc/init.d/apache stop
@@ -171,12 +171,13 @@ Pour cela exécutez la commande :
 >[!IMPORTANT]
 >
 >* Il est possible que votre script porte le nom **httpd** plutôt que **apache**.
->* Vous DEVEZ impérativement exécuter cette commande jusqu&#39;à obtenir la réponse suivante :
->
->   Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
+>* Vous DEVEZ impérativement exécuter cette commande jusqu&#39;à obtenir la réponse suivante :
+
+   >
+   >   Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
 
 
-Puis redémarrez Apache :
+Puis redémarrez Apache :
 
 ```
 /etc/init.d/apache start
@@ -188,9 +189,9 @@ Lors de la synchronisation des ressources, la commande **postupgrade** permet de
 
 ### Consulter le résultat de la synchronisation {#view-the-synchronization-result}
 
-Le résultat de la synchronisation peut être consulté de deux manières :
+Le résultat de la synchronisation peut être consulté de deux manières :
 
-* Depuis l&#39;invite de commandes, les erreurs sont matérialisées par un triple chevron **>>>** et la synchronisation s&#39;interrompt immédiatement. Les avertissements sont signalés par un double chevron **>>** et doivent être résolus lorsque le processus de synchronisation est terminé. A la fin du postupgrade, un résumé est affiché dans l&#39;invite de commande. Par exemple :
+* Depuis l&#39;invite de commandes, les erreurs sont matérialisées par un triple chevron **>>>** et la synchronisation s&#39;interrompt immédiatement. Les avertissements sont signalés par un double chevron **>>** et doivent être résolus lorsque le processus de synchronisation est terminé. A la fin du postupgrade, un résumé est affiché dans l&#39;invite de commande. Par exemple :
 
    ```
    2013-04-09 07:48:39.749Z 00002E7A 1 info log =========Summary of the update==========
@@ -209,20 +210,20 @@ Le résultat de la synchronisation peut être consulté de deux manières :
 
 Pour résoudre un conflit, procédez de la manière suivante :
 
-1. Dans l&#39;arborescence d&#39;Adobe Campaign, positionnez-vous dans **[!UICONTROL Administration > Paramétrage > Gestion des packages > Edition des conflits]** .
+1. Dans l&#39;arborescence d&#39;Adobe Campaign, positionnez-vous dans **[!UICONTROL Administration > Paramétrage > Gestion des packages > Edition des conflits]** .
 1. Sélectionnez le conflit que vous souhaitez résoudre dans la liste.
 
-Il existe trois possibilités de résoudre un conflit :
+Il existe trois possibilités de résoudre un conflit :
 
-* **[!UICONTROL Déclarer comme résolu]** : requiert une intervention de l&#39;utilisateur au préalable.
-* **[!UICONTROL Accepter la nouvelle version]** : recommandé si les ressources livrées avec Adobe Campaign n&#39;ont pas été modifiées par l&#39;utilisateur.
-* **[!UICONTROL Conserver la version actuelle]** : a pour conséquence de refuser la mise à jour de la version.
+* **[!UICONTROL Déclarer comme résolu]** : requiert une intervention de l&#39;utilisateur au préalable.
+* **[!UICONTROL Accepter la nouvelle version]** : recommandé si les ressources livrées avec Adobe Campaign n&#39;ont pas été modifiées par l&#39;utilisateur.
+* **[!UICONTROL Conserver la version actuelle]** : a pour conséquence de refuser la mise à jour de la version.
 
    >[!IMPORTANT]
    >
    >Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version.
 
-Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
+Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
 1. Dans la partie inférieure de la fenêtre, effectuez une recherche sur la chaîne **_conflit_** pour localiser les entités en conflit. L’entité installée avec la nouvelle version contient l’argument **new**, l’entité correspondant à la version précédente contient l’argument **cus**.
 
@@ -233,7 +234,7 @@ Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
    ![](assets/s_ncs_production_conflict003.png)
 
 1. Positionnez-vous sur le conflit que vous venez de résoudre. Cliquez sur l&#39;icône **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Déclarer comme résolu]** .
-1. Enregistrez vos modifications : le conflit est désormais résolu.
+1. Enregistrez vos modifications : le conflit est désormais résolu.
 
 ### Bonnes pratiques {#best-practices}
 

@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Cette section propose la liste des commandes usuelles sous Adobe Campaign.
+Cette section propose la liste des commandes usuelles sous Adobe Campaign.
 
-La commande **nlserver** est la commande d&#39;entrée de l&#39;ensemble de l&#39;applicatif Adobe Campaign.
+La commande **nlserver** est la commande d&#39;entrée de l&#39;ensemble de l&#39;applicatif Adobe Campaign.
 
 La syntaxe de cette commande est la suivante : **nlserver **`<command>`****`<arguments>`****
 
@@ -29,6 +29,7 @@ Le paramètre **`<command>`** correspond au module.
 >
 >* Vous pouvez dans tous les cas adjoindre l&#39;argument **-noconsole** afin de supprimer les commentaires affichés après le lancement des modules.
 >* A contrario, vous pouvez ajouter l&#39;argument **-verbose** pour afficher plus d&#39;informations.
+
 >
 
 
@@ -60,7 +61,7 @@ Datasource Server Provider Login
 default xxxxx myserver myprovider test400
 ```
 
-Une autre commande utile est la commande **nlserver monitor**. Elle permet de lister le fichier XML de monitoring (obtenu dans le client Adobe Campaign ou par la page web **monitor.jsp**).
+Une autre commande utile est la commande **nlserver monitor**. Elle permet de lister le fichier XML de monitoring (obtenu dans le client Adobe Campaign ou par la page web **monitor.jsp**).
 
 Vous pouvez lui adjoindre le paramètre **-missing** pour lister les modules absents (erreur dans ces modules, arrêt des modules, etc.)
 
@@ -76,7 +77,7 @@ Cela correspond aux modules ayant un démarrage automatique mais qui ne sont pas
 
 ## Commandes de lancement des modules {#module-launch-commands}
 
-La syntaxe pour lancer les modules sera toujours de la forme :
+La syntaxe pour lancer les modules sera toujours de la forme :
 
 ```
 nlserver start <module>@<INSTANCE>
@@ -92,11 +93,11 @@ nlserver stop <module>@<INSTANCE>
 
 ## Arrêter les services {#shut-down-services}
 
-Pour arrêter les services Adobe Campaign, vous pouvez utiliser une des commandes suivantes :
+Pour arrêter les services Adobe Campaign, vous pouvez utiliser une des commandes suivantes :
 
-* Si vous avez un accès root ou administrateur :
+* Si vous avez un accès root ou administrateur :
 
-   * Sous Linux :
+   * Sous Linux :
 
       ```
       /etc/init.d/nlserver6 stop
@@ -106,13 +107,13 @@ Pour arrêter les services Adobe Campaign, vous pouvez utiliser une des commande
       >
       >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl stop nlserver**
 
-   * Sous Windows :
+   * Sous Windows :
 
       ```
       net stop nlserver6
       ```
 
-* Sinon, dans le compte Adobe Campaign :
+* Sinon, dans le compte Adobe Campaign :
 
    ```
    nlserver shutdown 
@@ -120,19 +121,19 @@ Pour arrêter les services Adobe Campaign, vous pouvez utiliser une des commande
 
 ## Redémarrer les services {#restart-services}
 
-De même, afin de démarrer Adobe Campaign vous pouvez utiliser une des commandes suivantes :
+De même, afin de démarrer Adobe Campaign vous pouvez utiliser une des commandes suivantes :
 
-* Si vous avez un accès root ou administrateur :
+* Si vous avez un accès root ou administrateur :
 
-   * Sous Linux : /etc/init.d/nlserver6 start
+   * Sous Linux : /etc/init.d/nlserver6 start
 
       >[!NOTE]
       >
       >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
 
-   * Sous Windows : net start nlserver6
+   * Sous Windows : net start nlserver6
 
-* Sinon, dans le compte Adobe Campaign : **nlserver watchdog -svc -noconsole**
+* Sinon, dans le compte Adobe Campaign : **nlserver watchdog -svc -noconsole**
 
 ## La commande config {#the-config-command}
 
@@ -160,6 +161,6 @@ Pour changer le mode de passe **internal** : **nlserver config -internalpasswor
 >
 >* D&#39;une manière générale, au lieu de modifier les fichiers de configuration à la main, vous pouvez utiliser la commande **config**.
 >* Pour obtenir la liste des paramètres, utilisez le paramètre **-?** : **nlserver config -?**
->* Dans le cas d&#39;une base Oracle, il ne faut pas préciser le compte. La syntaxe sera donc la suivante :
+>* Dans le cas d&#39;une base Oracle, il ne faut pas préciser le compte. La syntaxe sera donc la suivante :
 >
 >  nlserver config -setdblogin:Oracle:test6@dbserver

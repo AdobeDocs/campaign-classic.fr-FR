@@ -19,9 +19,9 @@ ht-degree: 100%
 
 ## À propos des documents PDF variables {#about-variable-pdf-documents}
 
-Adobe Campaign permet la génération de documents PDF variables pour pièces jointes d&#39;email à partir de documents LibreOffice ou Microsoft Word.
+Adobe Campaign permet la génération de documents PDF variables pour pièces jointes d&#39;email à partir de documents LibreOffice ou Microsoft Word.
 
-Les extensions supportées sont : &quot;.docx&quot;, &quot;.doc&quot;, et &quot;.odt&quot;.
+Les extensions supportées sont : &quot;.docx&quot;, &quot;.doc&quot;, et &quot;.odt&quot;.
 
 Pour personnaliser vos documents, vous disposez des mêmes fonctionnalités JavaScript que celles disponibles pour la personnalisation des e-mails.
 
@@ -35,7 +35,7 @@ Si vous souhaitez générer des tableaux dynamiques ou inclure des images à par
 
 ## Générer des tableaux dynamiques {#generating-dynamic-tables}
 
-La procédure pour générer des tableaux dynamiques est la suivante :
+La procédure pour générer des tableaux dynamiques est la suivante :
 
 * Créez un tableau de trois lignes, avec autant de colonnes que vous le souhaitez, et paramétrez sa mise en forme (bordures, trame, etc.).
 * Positionnez le curseur sur le tableau créé, et cliquez dans le menu **[!UICONTROL Tableau > Propriétés du tableau]**. Depuis l&#39;onglet **[!UICONTROL Tableau]**, saisissez un nom commençant par **NlJsTable**.
@@ -43,7 +43,7 @@ La procédure pour générer des tableaux dynamiques est la suivante :
 * Insérez, dans chaque cellule de la deuxième ligne du tableau, les scripts retournant les valeurs à afficher.
 * Fermez votre boucle dans la troisième et dernière ligne du tableau.
 
-   Exemple de définition d&#39;un tableau dynamique :
+   Exemple de définition d&#39;un tableau dynamique :
 
    ![](assets/s_ncs_pdf_table.png)
 
@@ -53,29 +53,29 @@ L&#39;insertion d&#39;images externes est utile lorsque, par exemple, vous souha
 
 Pour cela, il est nécessaire de paramétrer un bloc de personnalisation puis d&#39;inclure dans le fichier attaché un appel au bloc de personnalisation.
 
-**Exemple : Insertion d&#39;un logo personnalisé en fonction du pays du destinataire**
+**Exemple : Insertion d&#39;un logo personnalisé en fonction du pays du destinataire**
 
-**Etape n°1 : Création du fichier attaché :**
+**Etape n°1 : Création du fichier attaché :**
 
-* Insérez l&#39;appel au bloc de personnalisation : **&lt;%@ include view=&quot;nomdubloc&quot; %>**
+* Insérez l&#39;appel au bloc de personnalisation : **&lt;%@ include view=&quot;nomdubloc&quot; %>**
 * Insérez votre contenu personnalisé ou non dans le corps du fichier
 
 ![](assets/s_ncs_open_office_blocdeperso.png)
 
-**Etape n°2 : Création du bloc de personnalisation:**
+**Etape n°2 : Création du bloc de personnalisation:**
 
-* Allez dans le menu **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de la console Adobe Campaign.
+* Allez dans le menu **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de la console Adobe Campaign.
 * Créez un nouveau bloc de personnalisation &quot;Mon Logo&quot; avec pour nom interne &quot;Mon_Logo&quot;.
 * Cliquez sur le lien **[!UICONTROL Paramètres avancés...]** et cochez l&#39;option **[!UICONTROL &quot;Le bloc est inclus dans un document attaché&quot;]**. Cette option va permettre de recopier la définition du bloc de personnalisation directement dans le contenu du fichier OpenOffice.
 
    ![](assets/s_ncs_pdf_bloc_option.png)
 
-   Il est nécessaire de distinguer deux types de déclaration à l&#39;intérieur du bloc de personnalisation :
+   Il est nécessaire de distinguer deux types de déclaration à l&#39;intérieur du bloc de personnalisation :
 
-   * Le code Adobe Campaign des champs de personnalisation pour lequel les chevrons « ouvert » et « fermé » doivent être remplacés par des caractères échappés (respectivement `&lt;` et `&gt;`).
+   * Le code Adobe Campaign des champs de personnalisation pour lequel les chevrons « ouvert » et « fermé » doivent être remplacés par des caractères échappés (respectivement `&lt;` et `&gt;`).
    * Le code XML OpenOffice qui sera intégralement recopié dans le document OpenOffice.
 
-Dans l&#39;exemple, le bloc de personnalisation est de cette forme :
+Dans l&#39;exemple, le bloc de personnalisation est de cette forme :
 
 ```
 <% if (recipient.country.label == "Germany") { %>

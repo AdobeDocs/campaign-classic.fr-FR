@@ -39,7 +39,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    ![](assets/query_editor_tracklog_05.png)
 
-1. Dans la fenêtre **[!UICONTROL Données à extraire]**, vous allez créer un agrégat afin de collecter les informations. Pour cela, ajoutez la clé primaire (située au-dessous de l&#39;élément principal **[!UICONTROL Logs de tracking des destinataires]**) : c&#39;est sur ce champ **[!UICONTROL Clé primaire]** qu&#39;est effectué le comptage des logs de tracking. L&#39;expression éditée sera **[!UICONTROL x=count(clé primaire)]**. Elle va associer la somme des différents logs de tracking à une seule adresse email.
+1. Dans la fenêtre **[!UICONTROL Données à extraire]**, vous allez créer un agrégat afin de collecter les informations. Pour cela, ajoutez la clé primaire (située au-dessous de l&#39;élément principal **[!UICONTROL Logs de tracking des destinataires]**) : c&#39;est sur ce champ **[!UICONTROL Clé primaire]** qu&#39;est effectué le comptage des logs de tracking. L&#39;expression éditée sera **[!UICONTROL x=count(clé primaire)]**. Elle va associer la somme des différents logs de tracking à une seule adresse email.
 
    Pour cela :
 
@@ -59,7 +59,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
       ![](assets/query_editor_nveau_19.png)
 
-1. Sélectionnez l&#39;autre champ à afficher en colonne de sortie. Dans **[!UICONTROL Champs disponibles]**, ouvrez le noeud **[!UICONTROL Destinataire (recipient)]** puis choisissez le champ **[!UICONTROL Email (@email)]**. Cochez **[!UICONTROL Oui]** dans la case **[!UICONTROL Grouper]** afin de regrouper les logs de tracking par adresse email : ce regroupement rattache chaque log à son destinataire.
+1. Sélectionnez l&#39;autre champ à afficher en colonne de sortie. Dans **[!UICONTROL Champs disponibles]**, ouvrez le noeud **[!UICONTROL Destinataire (recipient)]** puis choisissez le champ **[!UICONTROL Email (@email)]**. Cochez **[!UICONTROL Oui]** dans la case **[!UICONTROL Grouper]** afin de regrouper les logs de tracking par adresse email : ce regroupement rattache chaque log à son destinataire.
 
    ![](assets/query_editor_nveau_20.png)
 
@@ -75,7 +75,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
       ![](assets/query_editor_nveau_22.png)
 
-   * Récupérez les logs de tracking d&#39;une diffusion spécifique et sur une période donnée. Pour cela, utilisez trois conditions de filtrage : deux conditions de date pour situer la période recherchée entre 15 jours avant la date courante et la veille de la date courante, et une autre condition pour restreindre la recherche à une diffusion particulière.
+   * Récupérez les logs de tracking d&#39;une diffusion spécifique et sur une période donnée. Pour cela, utilisez trois conditions de filtrage : deux conditions de date pour situer la période recherchée entre 15 jours avant la date courante et la veille de la date courante, et une autre condition pour restreindre la recherche à une diffusion particulière.
 
       Dans la fenêtre **[!UICONTROL Elément de la cible]**, paramétrez la date à partir de laquelle les logs de tracking sont pris en compte. Cliquez sur **[!UICONTROL Ajouter]**. Une ligne de condition s&#39;affiche. Editez la colonne **[!UICONTROL Expression]** en cliquant sur la fonction **[!UICONTROL Editer l&#39;expression]**. Dans la fenêtre **[!UICONTROL Champ à sélectionner]**, choisissez **[!UICONTROL Date (@logDate)]**.
 
@@ -95,7 +95,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
       ![](assets/query_editor_nveau_65.png)
 
-      L&#39;intervalle de temps est configuré. La troisième condition de filtrage est à paramétrer : elle permettra d&#39;identifier la diffusion sur laquelle porte la recherche.
+      L&#39;intervalle de temps est configuré. La troisième condition de filtrage est à paramétrer : elle permettra d&#39;identifier la diffusion sur laquelle porte la recherche.
 
    * Cliquez sur la fonction **[!UICONTROL Ajouter]** pour créer une autre condition de filtrage. Cliquez sur **[!UICONTROL Editer l&#39;expression]** dans la colonne **[!UICONTROL Expression]**. Dans la fenêtre **[!UICONTROL Champ à sélectionner]**, choisissez le champ **[!UICONTROL Libellé]** du noeud **[!UICONTROL Diffusion]**.
 
@@ -107,7 +107,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
       ![](assets/query_editor_nveau_25.png)
 
-1. Dans la fenêtre **[!UICONTROL Formatage des données]**, cliquez sur **[!UICONTROL Suivant]** : aucun formatage n&#39;est nécessaire dans notre exemple.
+1. Dans la fenêtre **[!UICONTROL Formatage des données]**, cliquez sur **[!UICONTROL Suivant]** : aucun formatage n&#39;est nécessaire dans notre exemple.
 1. Dans la fenêtre **[!UICONTROL Prévisualisation des données]**, cliquez sur **[!UICONTROL Lancer la prévisualisation des données]** afin d&#39;obtenir le nombre de logs de tracking de chaque destinataire sur la diffusion.
 
    Le résultat des logs de tracking est présenté dans un ordre descendant.
@@ -193,13 +193,13 @@ Dans un workflow, les boîtes **[!UICONTROL Requête]** et **[!UICONTROL Partage
 
    La diffusion &quot;Offre sports nautiques&quot; est envoyée aux destinataires qui ont cliqué sur la thématique &quot;sports nautiques&quot; dans la première diffusion. Ces clics montrent l&#39;intérêt des destinataires. Ils peuvent donc être orientés vers des offres similaires. En revanche, les destinataires qui n&#39;ont pas cliqué dans l&#39;email &quot;Offre sports d&#39;été&quot; sont relancés avec le même contenu.
 
-Les étapes suivantes indiquent comment paramétrer la boîte **[!UICONTROL Partage]** en y intégrant deux comportements différents :
+Les étapes suivantes indiquent comment paramétrer la boîte **[!UICONTROL Partage]** en y intégrant deux comportements différents :
 
 1. Insérez la boîte **[!UICONTROL Partage]** dans le workflow. Elle va répartir les destinataires de la première diffusion vers une des deux diffusions suivantes. Cette répartition est faite en fonction des critères de filtrage liés aux comportements des destinataires dans la première diffusion.
 
    ![](assets/query_editor_ex_09.png)
 
-1. Ouvrez la boîte **[!UICONTROL Partage]**. Dans l&#39;onglet **[!UICONTROL Général]**, entrez un libellé : &quot;**Partage selon Comportement**&quot; par exemple.
+1. Ouvrez la boîte **[!UICONTROL Partage]**. Dans l&#39;onglet **[!UICONTROL Général]**, entrez un libellé : &quot;**Partage selon Comportement**&quot; par exemple.
 
    ![](assets/query_editor_ex_04.png)
 
@@ -209,7 +209,7 @@ Les étapes suivantes indiquent comment paramétrer la boîte **[!UICONTROL Part
 
    ![](assets/query_editor_ex_05.png)
 
-1. Dans la fenêtre **[!UICONTROL Elément de la cible]**, sélectionnez le comportement à appliquer sur cette branche : **[!UICONTROL Les destinataires ayant cliqué (email)]**.
+1. Dans la fenêtre **[!UICONTROL Elément de la cible]**, sélectionnez le comportement à appliquer sur cette branche : **[!UICONTROL Les destinataires ayant cliqué (email)]**.
 
    En dessous, sélectionnez l&#39;option **[!UICONTROL Diffusion spécifiée par la transition]**. Cette fonctionnalité va automatiquement récupérer les personnes ciblées lors de la première diffusion.
 
@@ -233,7 +233,7 @@ Les étapes suivantes indiquent comment paramétrer la boîte **[!UICONTROL Part
 
    ![](assets/query_editor_ex_03.png)
 
-Voici la liste des différents comportements proposés par défaut :
+Voici la liste des différents comportements proposés par défaut :
 
 * **[!UICONTROL Tous les destinataires,]**
 * **[!UICONTROL Les destinataires des messages envoyés avec succès,]**

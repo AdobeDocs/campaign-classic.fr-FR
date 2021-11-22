@@ -27,7 +27,7 @@ Un template JavaScript est identifié par son nom et son espace de noms de la m�
 
 ### Structure d&#39;un template JavaScript {#structure-of-a-javascript-template}
 
-Exemple de template JavaScript de mise en forme HTML se basant sur le schéma &quot;cus:livre&quot; :
+Exemple de template JavaScript de mise en forme HTML se basant sur le schéma &quot;cus:livre&quot; :
 
 ```
 <html>
@@ -43,14 +43,14 @@ Exemple de template JavaScript de mise en forme HTML se basant sur le schéma &q
 </html>
 ```
 
-Les différentes directives JavaScript se présentent sous la forme suivante :
+Les différentes directives JavaScript se présentent sous la forme suivante :
 
 * Champs de fusion : affiche le contenu des données avec la syntaxe **`<%= <source> %>`**, où `<source>` correspond au champ source des données à afficher.
-* blocs d&#39;instructions : exécute une série d&#39;instructions JavaScript incluses entre les balises &lt;% et %>.
+* blocs d&#39;instructions : exécute une série d&#39;instructions JavaScript incluses entre les balises &lt;% et %>.
 
 L&#39;objet **content** représente l&#39;élément principal du document XML en entrée.
 
-Dans notre exemple, la ligne suivante affiche le contenu du nom du livre :
+Dans notre exemple, la ligne suivante affiche le contenu du nom du livre :
 
 ```
 <h1><%= content.@name %></h1>
@@ -85,7 +85,7 @@ Toute la puissance d&#39;un langage de programmation (variables, boucles, tests 
 
 Exemples:
 
-* Test conditionnel :
+* Test conditionnel :
 
    ```
    <% if (content.@number == 1 || content.@language == 'en') { %>
@@ -93,7 +93,7 @@ Exemples:
    <% } %>
    ```
 
-* Appel de fonction :
+* Appel de fonction :
 
    ```
    <!-- Displays a horizontal bar -->
@@ -123,7 +123,7 @@ Exemples:
    <%= formatName(content.@name) %>
    ```
 
-* Déclarations et appel de variables :
+* Déclarations et appel de variables :
 
    ```
    <%  var counter = 0; %>
@@ -131,14 +131,14 @@ Exemples:
    <%= counter += 10 %>
    ```
 
-* Récupération et affichage du nom d&#39;un destinataire avec les méthodes statiques :
+* Récupération et affichage du nom d&#39;un destinataire avec les méthodes statiques :
 
    ```
    <% var recipient = nms.recipient.get(1246); %>
    <%= recipient.lastName %>
    ```
 
-* Récupération et affichage du nom d&#39;un destinataire avec les méthodes non statiques :
+* Récupération et affichage du nom d&#39;un destinataire avec les méthodes non statiques :
 
    ```
    <% var query = xtk.queryDef.create(
@@ -161,7 +161,7 @@ Exemples:
 
 Il est possible de se constituer une bibliothèque de fonctions ou de variables afin de les utiliser ultérieurement. Pour cela, vous devez importer le template JavaScript avec la fonction **eval**. Ainsi, vous pourrez enrichir les contextes avec des fonctions supplémentaires déclarées dans d&#39;autres template JavaScript.
 
-**Exemple** : import du template **common.js**.
+**Exemple** : import du template **common.js**.
 
 ```
 <% eval(xtk.javascript.get("cus:common.js").data);  %>
@@ -169,7 +169,7 @@ Il est possible de se constituer une bibliothèque de fonctions ou de variables 
 
 ### Edition d&#39;un template JavaScript {#editing-a-javascript-template}
 
-La zone d&#39;édition permet de renseigner le contenu du template JavaScript :
+La zone d&#39;édition permet de renseigner le contenu du template JavaScript :
 
 ![](assets/d_ncs_content_form16.png)
 
@@ -177,7 +177,7 @@ La zone d&#39;édition permet de renseigner le contenu du template JavaScript :
 >
 >Il est nécessaire de renseigner le schéma du modèle de données associé pour l&#39;initialisation des objets JavaScript.
 
-Pour générer à tout moment l&#39;aperçu du document de sortie, vous devez sélectionner un contenu et le format de sortie (HTML, Texte, XML) puis cliquer sur le bouton **[!UICONTROL Générer]** :
+Pour générer à tout moment l&#39;aperçu du document de sortie, vous devez sélectionner un contenu et le format de sortie (HTML, Texte, XML) puis cliquer sur le bouton **[!UICONTROL Générer]** :
 
 ![](assets/d_ncs_content_form17.png)
 
@@ -187,13 +187,13 @@ Pour générer à tout moment l&#39;aperçu du document de sortie, vous devez s�
 
 ### Exemple de réalisation et d&#39;utilisation d&#39;un template JavaScript {#example-of-how-to-create-and-use-a-javascript-template}
 
-Vous trouverez ci-dessous le paramétrage nécessaire à l&#39;implémentation de la gestion de contenu suivante en utilisant un template Javascript :
+Vous trouverez ci-dessous le paramétrage nécessaire à l&#39;implémentation de la gestion de contenu suivante en utilisant un template Javascript :
 
 ![](assets/d_ncs_content_sample_1.png)
 
-Les étapes de réalisation de cet exemple sont les suivantes :
+Les étapes de réalisation de cet exemple sont les suivantes :
 
-1. Créez le schéma suivant (ici :**neo:news**):
+1. Créez le schéma suivant (ici :**neo:news**):
 
    ```
    <srcSchema _cs="Invitation (neo)"   entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Invitation" mappingType="sql" name="news" namespace="neo" xtkschema="xtk:srcSchema">
@@ -232,7 +232,7 @@ Les étapes de réalisation de cet exemple sont les suivantes :
    </srcSchema>
    ```
 
-1. Créez le formulaire associé (**neo:news**) de type **[!UICONTROL Gestion de contenu]** :
+1. Créez le formulaire associé (**neo:news**) de type **[!UICONTROL Gestion de contenu]** :
 
    ```
    <form _cs="News (neo)" entitySchema="xtk:form"  img="xtk:form.png" label="News"  name="news" namespace="neo" type="contentForm" xtkschema="xtk:form">
@@ -266,7 +266,7 @@ Les étapes de réalisation de cet exemple sont les suivantes :
 
 1. Créez les templates JavaScript avec les contenus du message pour les formats HTML et Texte.
 
-   * Dans notre exemple, pour le HTML :
+   * Dans notre exemple, pour le HTML :
 
       ```
       <html>     
@@ -329,7 +329,7 @@ Les étapes de réalisation de cet exemple sont les suivantes :
       </html>
       ```
 
-   * Pour le texte :
+   * Pour le texte :
 
       ```
       <%= content.@title %>
@@ -354,13 +354,13 @@ Les étapes de réalisation de cet exemple sont les suivantes :
       %>
       ```
 
-1. Créez enfin le modèle de publication utilisé pour les deux formats :
+1. Créez enfin le modèle de publication utilisé pour les deux formats :
 
-   * Pour le HTML :
+   * Pour le HTML :
 
       ![](assets/d_ncs_content_sample_2.png)
 
-   * Pour le Texte :
+   * Pour le Texte :
 
       ![](assets/d_ncs_content_sample_3.png)
 
@@ -378,11 +378,11 @@ Cette transformation est elle-même décrite en XML dans un document appelé feu
 
 Une feuille de style est identifiée par son nom et son espace de noms de la même manière que les schémas et les formulaires. Il est cependant recommandé de compléter le nom de la feuille de style avec l&#39;extension **.xsl**.
 
-La clé d&#39;identification d&#39;une feuille de style est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39; (par exemple : **cus:livre.xsl**).
+La clé d&#39;identification d&#39;une feuille de style est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39; (par exemple : **cus:livre.xsl**).
 
 ### Structure d&#39;une feuille de style {#structure-of-a-stylesheet}
 
-Exemple de feuille de style de mise en forme HTML se basant sur le schéma d&#39;exemple &quot;cus:livre&quot; :
+Exemple de feuille de style de mise en forme HTML se basant sur le schéma d&#39;exemple &quot;cus:livre&quot; :
 
 ```
 <?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -406,7 +406,7 @@ Exemple de feuille de style de mise en forme HTML se basant sur le schéma d&#39
 </xsl:stylesheet>
 ```
 
-Une feuille de style est un document XML respectant les règles suivantes :
+Une feuille de style est un document XML respectant les règles suivantes :
 
 * les valeurs d&#39;attributs sont entre guillemets,
 * un élément doit avoir un marqueur d&#39;ouverture et un marqueur de fermeture,
@@ -460,19 +460,19 @@ La directive **`<xsl:text>`** avec l’option **disable-output-escaping=&quot;ye
 
 Exemples:
 
-* Afficher le contenu d&#39;un champ de type &quot;html&quot; :
+* Afficher le contenu d&#39;un champ de type &quot;html&quot; :
 
    ```
    <xsl:value-of select="summary" disable-output-escaping="yes"/>
    ```
 
-* Insérer le champ de personnalisation **&lt;%= recipient.email %>** :
+* Insérer le champ de personnalisation **&lt;%= recipient.email %>** :
 
    ```
    <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
    ```
 
-* Ajouter le test conditionnel **&lt;% if (recipient.language == &#39;fr&#39;) `{` %>** :
+* Ajouter le test conditionnel **&lt;% if (recipient.language == &#39;fr&#39;) `{` %>** :
 
    ```
    <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>
@@ -484,7 +484,7 @@ Il est possible de se constituer une bibliothèque de templates ou de variables 
 
 La directive **`<xsl:include>`** indique le nom de la feuille de style à inclure dans le document.
 
-**Exemple** : inclusion de la feuille de style &quot;common.xsl&quot;.
+**Exemple** : inclusion de la feuille de style &quot;common.xsl&quot;.
 
 ```
 <? xml version="1.0" encoding="ISO-8859-1" ?>
@@ -501,11 +501,11 @@ La directive **`<xsl:include>`** indique le nom de la feuille de style à inclur
 
 ### Edition d&#39;une feuille de style {#editing-a-stylesheet}
 
-La zone d&#39;édition permet de renseigner le contenu de la feuille de style :
+La zone d&#39;édition permet de renseigner le contenu de la feuille de style :
 
 ![](assets/d_ncs_content_form14.png)
 
-Pour générer à tout moment l&#39;aperçu du document de sortie, vous devez sélectionner une instance de contenu et le format de mise en forme (HTML, Texte, XML), puis cliquer sur le bouton **[!UICONTROL Générer]** :
+Pour générer à tout moment l&#39;aperçu du document de sortie, vous devez sélectionner une instance de contenu et le format de mise en forme (HTML, Texte, XML), puis cliquer sur le bouton **[!UICONTROL Générer]** :
 
 ![](assets/d_ncs_content_form15.png)
 
@@ -519,7 +519,7 @@ Pour générer à tout moment l&#39;aperçu du document de sortie, vous devez s�
 
 Les images renseignées dans le document HTML de sortie peuvent être référencées en absolu ou en relatif.
 
-Le référencement relatif permet de renseigner l&#39;URL du serveur contenant les images dans les options **NcmRessourcesDir** et **NcmRessourcesDirPreview**. Ces options contiennent l&#39;emplacement des images pour la publication et la prévisualisation dans la console cliente Adobe Campaign.
+Le référencement relatif permet de renseigner l&#39;URL du serveur contenant les images dans les options **NcmRessourcesDir** et **NcmRessourcesDirPreview**. Ces options contiennent l&#39;emplacement des images pour la publication et la prévisualisation dans la console cliente Adobe Campaign.
 
 Ces deux options sont accessibles à partir de l&#39;écran des gestions des options dans le dossier **[!UICONTROL Administration > Plateforme > Options]**.
 
@@ -530,7 +530,7 @@ Ces deux options sont accessibles à partir de l&#39;écran des gestions des opt
 
 Lors du traitement de la feuille de style, selon le contexte (aperçu ou publication), l&#39;attribut **_resPath** sur l&#39;élément principal du document XML en entrée est automatiquement renseigné avec l&#39;une ou l&#39;autre des deux options.
 
-Exemple d&#39;utilisation de l&#39;option d&#39;emplacement des images et son utilisation avec une image :
+Exemple d&#39;utilisation de l&#39;option d&#39;emplacement des images et son utilisation avec une image :
 
 ```
 <img src="<%= content.@_resPath %>/newsletter/image.png"/>
@@ -544,13 +544,13 @@ Exemple d&#39;utilisation de l&#39;option d&#39;emplacement des images et son ut
 
 Vous pouvez également utiliser les **[!UICONTROL Ressources publiques]** pour déclarer les images et les télécharger sur le serveur selon les paramètres de l&#39;instance, renseignés dans l&#39;assistant de déploiement.
 
-Vous pourrez ensuite appeler ces images dans les contenus. Pour cela, utilisez la syntaxe suivante dans le schéma de gestion de contenu :
+Vous pourrez ensuite appeler ces images dans les contenus. Pour cela, utilisez la syntaxe suivante dans le schéma de gestion de contenu :
 
 ```
 <element label="Image" name="image" target="xtk:fileRes" type="link"/>
 ```
 
-Dans le formulaire, le champ de sélection de l&#39;image sera ajouté via la syntaxe suivante :
+Dans le formulaire, le champ de sélection de l&#39;image sera ajouté via la syntaxe suivante :
 
 ```
 <input img="nl:sryimage.png" newEntityFormChoice="true" xpath="image">
@@ -568,11 +568,11 @@ Dans le formulaire, le champ de sélection de l&#39;image sera ajouté via la sy
 
 Dans le document XML en entrée, les dates sont stockées dans le format interne XML : **AAA/MM/JJ HH:MM:SS** (exemple 2018/10/01 12:23:30).
 
-Adobe Campaign met à disposition des fonctions de formatage des dates pour les templates JavaScript et les feuilles de style XSL qui sont présentés ci-après.
+Adobe Campaign met à disposition des fonctions de formatage des dates pour les templates JavaScript et les feuilles de style XSL qui sont présentés ci-après.
 
 ### Formatage des dates en JavaScript {#javascript-date-formatting}
 
-Pour afficher une date dans le format souhaité, Adobe Campaign met à disposition la fonction **formatDate** qui prend en entrée le contenu de la date et une chaîne spécifiant le format de sortie avec la syntaxe suivante : **%4Y/%2M/%2D %2H%2N%2S**
+Pour afficher une date dans le format souhaité, Adobe Campaign met à disposition la fonction **formatDate** qui prend en entrée le contenu de la date et une chaîne spécifiant le format de sortie avec la syntaxe suivante : **%4Y/%2M/%2D %2H%2N%2S**
 
 Exemples:
 
@@ -603,7 +603,7 @@ Exemples:
 
 ### Formatage des dates en XSL {#xsl-date-formatting}
 
-Il n&#39;existe pas de fonction standard de gestion des dates dans la syntaxe XSLT. Pour afficher une date dans le format souhaité, Adobe Campaign met à disposition la fonction externe **date-format**. Elle prend en entrée le contenu de la date et une chaîne spécifiant le format de sortie avec la syntaxe suivante : **%4Y/%2M/%2D %2H%2N%2S**
+Il n&#39;existe pas de fonction standard de gestion des dates dans la syntaxe XSLT. Pour afficher une date dans le format souhaité, Adobe Campaign met à disposition la fonction externe **date-format**. Elle prend en entrée le contenu de la date et une chaîne spécifiant le format de sortie avec la syntaxe suivante : **%4Y/%2M/%2D %2H%2N%2S**
 
 Exemples:
 

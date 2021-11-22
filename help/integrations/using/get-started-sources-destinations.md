@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Prise en main des sources et des destinations
-description: En savoir plus sur les sources et les destinations d’Adobe Experience Platform.
+description: En savoir plus sur les sources et les destinations d’Adobe Experience Platform.
 audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
@@ -44,4 +44,4 @@ Une fois les connecteurs configurés, vous pouvez configurer un import ou un exp
 Pour plus d&#39;informations sur la configuration de ces processus d&#39;import et d&#39;export, reportez-vous aux sections suivantes :
 
 * [Ingérer des segments Adobe Experience Platform dans Campaign](../../integrations/using/ingest-aep-data.md)
-* [Exporter des données de Campaign vers Adobe Experience Platform](../../integrations/using/export-campaign-data.md)
+* [Exporter des données de Campaign vers Adobe Experience Platform](../../integrations/using/export-campaign-data.md)

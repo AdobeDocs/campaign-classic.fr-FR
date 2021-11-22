@@ -23,13 +23,13 @@ Découvrez les principales configurations afin de définir votre instance Campai
 
 La langue de Campaign est sélectionnée lors de la création de l&#39;instance. Vous ne pouvez pas la changer par la suite. Voir à ce propos [cette section](../../installation/using/creating-an-instance-and-logging-on.md).
 
-L&#39;interface utilisateur d&#39;Adobe Campaign est disponible en 4 langues : anglais, français, allemand et japonais. La console cliente et le serveur doivent être configurés avec la même langue. Chaque instance de Campaign ne peut s&#39;exécuter que dans une seule langue.
+L&#39;interface utilisateur d&#39;Adobe Campaign est disponible en 4 langues : anglais, français, allemand et japonais. La console cliente et le serveur doivent être configurés avec la même langue. Chaque instance de Campaign ne peut s&#39;exécuter que dans une seule langue.
 
 Pour l&#39;anglais, lors de l&#39;installation de Campaign, vous pouvez sélectionner l&#39;anglais américain ou l&#39;anglais britannique : les formats de date et d&#39;heure sont différents. Pour plus d&#39;informations sur ces différences, consultez [cette section](../../platform/using/adobe-campaign-workspace.md#date-and-time).
 
 ## Est-il possible d&#39;utiliser Campaign Classic avec d&#39;autres solutions Adobe ?  {#can-i-use-campaign-classic-with-other-adobe-solutions-}
 
-Vous pouvez combiner les fonctionnalités de diffusion et de gestion de campagnes avancées d&#39;Adobe Campaign avec un ensemble de solutions conçues pour vous aider à personnaliser l&#39;expérience de vos utilisateurs.
+Vous pouvez combiner les fonctionnalités de diffusion et de gestion de campagnes avancées d&#39;Adobe Campaign avec un ensemble de solutions conçues pour vous aider à personnaliser l&#39;expérience de vos utilisateurs.
 
 Cliquez ici pour découvrir [comment utiliser d&#39;autres solutions Adobe](../../integrations/using/about-campaign-integrations.md) et [comment configurer IMS dans Campaign](../../integrations/using/about-adobe-id.md).
 
@@ -53,7 +53,7 @@ Campaign permet de mettre en place des processus de validation des principales �
 
 ## Comment accéder aux données stockées dans une base de données externe ?  {#how-can-i-access-data-stored-in-an-external-database-}
 
-Adobe Campaign propose l&#39;option Federated Data (FDA) Access afin d&#39;exploiter des informations stockées dans une ou plusieurs bases de données externes : vous pouvez accéder à des données externes sans modifier la structure des données d&#39;Adobe Campaign.
+Adobe Campaign propose l&#39;option Federated Data (FDA) Access afin d&#39;exploiter des informations stockées dans une ou plusieurs bases de données externes : vous pouvez accéder à des données externes sans modifier la structure des données d&#39;Adobe Campaign.
 
 [Pour en savoir plus, cliquez ici](../../installation/using/connecting-to-database.md).
 
@@ -69,13 +69,13 @@ En tant que client on-premise/hybride, vous pouvez intégrer Campaign Classic av
 
 ## Comment configurer les connecteurs CRM dans Campaign ?  {#how-can-i-set-up-crm-connectors-in-campaign-}
 
-Adobe Campaign propose différents connecteurs CRM pour relier votre plateforme Adobe Campaign à vos systèmes tiers. Ces connecteurs CRM permettent par exemple de synchroniser les contacts, les comptes, les commandes, les achats, etc. Ils simplifient l&#39;intégration de votre application avec vos différentes applications tierces et métiers.
+Adobe Campaign propose différents connecteurs CRM pour relier votre plateforme Adobe Campaign à vos systèmes tiers. Ces connecteurs CRM permettent par exemple de synchroniser les contacts, les comptes, les commandes, les achats, etc. Ils simplifient l&#39;intégration de votre application avec vos différentes applications tierces et métiers.
 
-Ces connecteurs permettent d&#39;intégrer rapidement et simplement les données : Adobe Campaign propose un assistant dédié pour collecter et sélectionner parmi les tables disponibles dans le CRM. Ils permettent une synchronisation bidirectionnelle des informations afin que les données client soient à jour simultanément sur les différents systèmes.
+Ces connecteurs permettent d&#39;intégrer rapidement et simplement les données : Adobe Campaign propose un assistant dédié pour collecter et sélectionner parmi les tables disponibles dans le CRM. Ils permettent une synchronisation bidirectionnelle des informations afin que les données client soient à jour simultanément sur les différents systèmes.
 
-Lisez la section [Configurer les connecteurs CRM](../../platform/using/crm-connectors.md) pour savoir comment synchroniser votre outil CRM avec Adobe Campaign.
+Lisez la section [Configurer les connecteurs CRM](../../platform/using/crm-connectors.md) pour savoir comment synchroniser votre outil CRM avec Adobe Campaign.
 
-![](assets/do-not-localize/how-to-video.png) Regardez cette vidéo de cas pratique sur [l’intégration d’Adobe Campaign et Microsoft Dynamics 365](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/integrating/dynamics365-integration.html?lang=fr).
+![](assets/do-not-localize/how-to-video.png) Regardez cette vidéo de cas pratique sur [l’intégration d’Adobe Campaign et Microsoft Dynamics 365](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/integrating/dynamics365-integration.html?lang=fr).
 
 ## Comment effectuer un effacement de la mémoire cache locale (soft) lorsque les problèmes sont spécifiques à la machine ou à l’utilisateur ?  {#perform-soft-cache-clear}
 

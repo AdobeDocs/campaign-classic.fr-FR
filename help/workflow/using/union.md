@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Une union permet de regrouper le résultat de plusieurs activités entrantes dans une même cible. La cible est construite avec tous les résultats reçus : toutes les activités antérieures doivent donc être terminées pour que l&#39;union soit exécutée.
+Une union permet de regrouper le résultat de plusieurs activités entrantes dans une même cible. La cible est construite avec tous les résultats reçus : toutes les activités antérieures doivent donc être terminées pour que l&#39;union soit exécutée.
 
 ![](assets/s_user_segmentation_union.png)
 

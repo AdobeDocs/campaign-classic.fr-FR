@@ -31,9 +31,9 @@ Vous pouvez remplacer ces boutons par des liens. Pour plus d&#39;informations, c
 
 L&#39;objet **[!UICONTROL Saut]** permet d&#39;accéder à une autre page ou un autre formulaire lorsque l&#39;utilisateur clique sur le bouton **[!UICONTROL Suivant]**.
 
-La destination peut être :
+La destination peut être :
 
-* Une autre page du formulaire. Pour cela, sélectionnez l&#39;option **[!UICONTROL Activité interne]** puis indiquez la page visée, comme ci-dessous :
+* Une autre page du formulaire. Pour cela, sélectionnez l&#39;option **[!UICONTROL Activité interne]** puis indiquez la page visée, comme ci-dessous :
 
    ![](assets/s_ncs_admin_jump_param1.png)
 
@@ -41,7 +41,7 @@ La destination peut être :
 
    ![](assets/s_ncs_admin_jump_param2.png)
 
-* La destination peut être stockée dans une variable. Dans ce cas, il suffit de la sélectionner dans la liste déroulante, comme dans l&#39;exemple suivant :
+* La destination peut être stockée dans une variable. Dans ce cas, il suffit de la sélectionner dans la liste déroulante, comme dans l&#39;exemple suivant :
 
    ![](assets/s_ncs_admin_jump_param3.png)
 
@@ -51,9 +51,9 @@ La destination peut être :
 
 ## Exemple : accéder à un autre formulaire en fonction d&#39;un paramètre de l&#39;URL {#example--accessing-another-form-according-to-a-parameter-of-the-url}
 
-Dans cet exemple nous allons paramétrer un formulaire Web qui permet, à la validation, d&#39;afficher un autre formulaire, désigné par un paramètre de l&#39;URL. Les étapes sont les suivantes :
+Dans cet exemple nous allons paramétrer un formulaire Web qui permet, à la validation, d&#39;afficher un autre formulaire, désigné par un paramètre de l&#39;URL. Les étapes sont les suivantes :
 
-1. Insérez un saut à la fin d&#39;un formulaire : le saut remplace alors la boîte de **[!UICONTROL Fin]**.
+1. Insérez un saut à la fin d&#39;un formulaire : le saut remplace alors la boîte de **[!UICONTROL Fin]**.
 
    ![](assets/s_ncs_admin_survey_jump_sample1.png)
 
@@ -65,7 +65,7 @@ Dans cet exemple nous allons paramétrer un formulaire Web qui permet, à la val
 
    ![](assets/s_ncs_admin_survey_jump_sample3.png)
 
-1. L&#39;URL de diffusion doit contenir le nom interne du formulaire de destination, par exemple :
+1. L&#39;URL de diffusion doit contenir le nom interne du formulaire de destination, par exemple :
 
    ```
    https://[myserver]/webForm/APP62?&next=APP22
@@ -103,7 +103,7 @@ Dans le diagramme du formulaire, insérez ensuite une boîte de test afin de dé
 
 Cochez l&#39;option **[!UICONTROL Activer le branchement par défaut]** pour ajouter une transition pour les cas où aucune des conditions n&#39;est vraie. Cette option n&#39;est pas utile si tous les cas possibles sont couverts par les conditions définies.
 
-Définissez ensuite l&#39;enchaînement des pages lorsque l&#39;une ou l&#39;autre des conditions est vérifiée, par exemple :
+Définissez ensuite l&#39;enchaînement des pages lorsque l&#39;une ou l&#39;autre des conditions est vérifiée, par exemple :
 
 ![](assets/s_ncs_admin_survey_test_ex3.png)
 
@@ -113,7 +113,7 @@ Vous pouvez également personnaliser l&#39;enchaînement des pages en fonction d
 
 ## Ajouter des scripts {#adding-scripts}
 
-L&#39;objet **[!UICONTROL Script]** vous permet de saisir directement un script Javascript par exemple pour modifier la valeur d&#39;un champ, récupérer des données dans la base ou appeler une API Adobe Campaign.
+L&#39;objet **[!UICONTROL Script]** vous permet de saisir directement un script Javascript par exemple pour modifier la valeur d&#39;un champ, récupérer des données dans la base ou appeler une API Adobe Campaign.
 
 ## Personnaliser la page de fin {#personalizing-the-end-page}
 
@@ -124,4 +124,4 @@ Pour personnaliser cette page, double-cliquez sur l&#39;objet **[!UICONTROL Fin]
 ![](assets/s_ncs_admin_survey_end_page_edit.png)
 
 * Vous pouvez copier et coller un contenu HTML existant. Pour cela, cliquez sur le bouton **[!UICONTROL Afficher le code source]** et insérez le code HTML.
-* Vous pouvez utiliser une URL externe : pour cela, cochez l&#39;option correspondante et saisissez l&#39;URL de la page à afficher.
+* Vous pouvez utiliser une URL externe : pour cela, cochez l&#39;option correspondante et saisissez l&#39;URL de la page à afficher.

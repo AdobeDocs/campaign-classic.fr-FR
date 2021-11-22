@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -21,16 +21,16 @@ ht-degree: 100%
 
 Les règles de contrôle permettent de s&#39;assurer de la validité et la qualité des messages avant leur diffusion : bon affichage des caractères, taille des SMS, format des adresses, etc.
 
-Un ensemble de règles livrées d&#39;usine assurent les contrôles usuels. Ces règles, qui apparaissent en gras dans l&#39;interface, sont les suivantes :
+Un ensemble de règles livrées d&#39;usine assurent les contrôles usuels. Ces règles, qui apparaissent en gras dans l&#39;interface, sont les suivantes :
 
-* **[!UICONTROL Validation du sujet]** (email) : vérifie que le sujet et l&#39;adresse de l&#39;expéditeur du message ne contiennent pas de caractères spéciaux, susceptibles de poser des problèmes sur certains agents mail.
-* **[!UICONTROL Validation des libellés d&#39;URL]** (email) : vérifie la présence d&#39;un libellé pour chaque URL de tracking.
-* **[!UICONTROL Validation des URL]** (email) : vérifie les URL de tracking (présence du caractère &quot;&amp;&quot;).
-* **[!UICONTROL Validation de la taille du message]** (mobile) : vérifie la taille des messages SMS.
-* **[!UICONTROL Vérification de la durée de validité]** (email) : vérifie que la durée de validité de la diffusion est suffisante pour l&#39;envoi de tous les messages.
-* **[!UICONTROL Vérification de la taille des BAT]** (tous les canaux) : génère un message d&#39;erreur si la population cible d&#39;un BAT dépasse 100 destinataires.
-* **[!UICONTROL Vérification de la planification des vagues]** (email) : vérifie que la dernière vague d&#39;envoi est planifiée avant la fin de validité de la diffusion, lorsque la diffusion est envoyée en plusieurs vagues.
-* **[!UICONTROL Validation du lien de désinscription]** (email) : vérifie la présence d&#39;au moins une URL de désinscription (URL de type opt-out) dans chacun des contenus (HTML et Texte).
+* **[!UICONTROL Validation du sujet]** (email) : vérifie que le sujet et l&#39;adresse de l&#39;expéditeur du message ne contiennent pas de caractères spéciaux, susceptibles de poser des problèmes sur certains agents mail.
+* **[!UICONTROL Validation des libellés d&#39;URL]** (email) : vérifie la présence d&#39;un libellé pour chaque URL de tracking.
+* **[!UICONTROL Validation des URL]** (email) : vérifie les URL de tracking (présence du caractère &quot;&amp;&quot;).
+* **[!UICONTROL Validation de la taille du message]** (mobile) : vérifie la taille des messages SMS.
+* **[!UICONTROL Vérification de la durée de validité]** (email) : vérifie que la durée de validité de la diffusion est suffisante pour l&#39;envoi de tous les messages.
+* **[!UICONTROL Vérification de la taille des BAT]** (tous les canaux) : génère un message d&#39;erreur si la population cible d&#39;un BAT dépasse 100 destinataires.
+* **[!UICONTROL Vérification de la planification des vagues]** (email) : vérifie que la dernière vague d&#39;envoi est planifiée avant la fin de validité de la diffusion, lorsque la diffusion est envoyée en plusieurs vagues.
+* **[!UICONTROL Validation du lien de désinscription]** (email) : vérifie la présence d&#39;au moins une URL de désinscription (URL de type opt-out) dans chacun des contenus (HTML et Texte).
 
 ## Créer une règle de contrôle {#creating-a-control-rule}
 
@@ -46,7 +46,7 @@ Les étapes sont les suivantes :
 
    ![](assets/campaign_opt_create_control_01.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Code]**, saisissez le script permettant d&#39;appliquer la limite souhaitée, comme dans l&#39;exemple suivant :
+1. Dans l&#39;onglet **[!UICONTROL Code]**, saisissez le script permettant d&#39;appliquer la limite souhaitée, comme dans l&#39;exemple suivant :
 
    ![](assets/campaign_opt_create_control_02.png)
 

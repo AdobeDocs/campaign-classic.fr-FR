@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Cette section s&#39;adresse aux opérateurs chargés du paramétrage de la gestion de la réaction. La mise en oeuvre de cette configuration requiert des connaissances en termes d&#39;extension de schémas, de création et gestion de workflows et de programmation SQL.
 
-Elle permet de comprendre comment adapter le modèle de données standard aux spécificités d&#39;une table de transactions externe à Adobe Campaign avec la table des individus. Cette table d&#39;individus peut correspondre à la table des destinataires disponible dans Adobe Campaign ou à une table différente.
+Elle permet de comprendre comment adapter le modèle de données standard aux spécificités d&#39;une table de transactions externe à Adobe Campaign avec la table des individus. Cette table d&#39;individus peut correspondre à la table des destinataires disponible dans Adobe Campaign ou à une table différente.
 
 L&#39;hypothèse de mesure est lancée par le workflow des traitements sur les opérations (**[!UICONTROL operationMgt]**). Chaque hypothèse représente un processus distinct exécuté en asynchrone avec un statut d&#39;exécution (En édition, En attente, Terminé, En erreur, etc.) et soumis à un ordonnanceur gérant les contraintes de priorités, la limitation sur le nombre de process simultanés, la plage de faible activité et l&#39;exécution automatique avec fréquence d&#39;exécution.
 
@@ -27,7 +27,7 @@ L&#39;hypothèse de mesure est lancée par le workflow des traitements sur les o
 
 >[!CAUTION]
 >
->Ne modifiez pas les schémas natifs de l’application. Utilisez plutôt le mécanisme d’extension de schéma. Sinon, les schémas modifiés ne seront pas mis à jour au moment des futures mises à niveau de l’application. Cela peut entraîner des dysfonctionnements lors de l’utilisation d’Adobe Campaign.
+>Ne modifiez pas les schémas natifs de l’application. Utilisez plutôt le mécanisme d’extension de schéma. Sinon, les schémas modifiés ne seront pas mis à jour au moment des futures mises à niveau de l’application. Cela peut entraîner des dysfonctionnements lors de l’utilisation d’Adobe Campaign.
 
 Avant toute utilisation du module de la réaction, vous devez définir les différentes tables (transactions, détails des transactions) et leur relation avec les diffusions, les offres et les individus.
 
@@ -35,7 +35,7 @@ Avant toute utilisation du module de la réaction, vous devez définir les diff�
 
 Le schéma **[!UICONTROL nms:remaMatch]**, fourni en standard, contient la table des logs de réaction, c&#39;est-à-dire la relation entre les individus, l&#39;hypothèse et la table des transactions. Ce schéma devra être utilisé comme schéma d&#39;héritage pour la table de destination finale des logs de réactions.
 
-Le schéma **[!UICONTROL nms:remaMatchRcp]** est également fourni en standard, il contient le stockage des logs de réaction pour les destinataires Adobe Campaign (**[!UICONTROL nms:recipient]**). Pour l&#39;utiliser, il devra être étendu pour lui associer la table des transactions (contenant les actes d&#39;achats).
+Le schéma **[!UICONTROL nms:remaMatchRcp]** est également fourni en standard, il contient le stockage des logs de réaction pour les destinataires Adobe Campaign (**[!UICONTROL nms:recipient]**). Pour l&#39;utiliser, il devra être étendu pour lui associer la table des transactions (contenant les actes d&#39;achats).
 
 ### Tables des transactions et des détails des transactions {#transaction-tables-and-transaction-details}
 
@@ -57,11 +57,11 @@ Le schéma suivant représente les jointures entre les différentes tables une f
 
 ### Gestion de la réaction et destinataires {#response-management-with-adobe-campaign-recipients}
 
-Dans cet exemple, vous allez intégrer une table d&#39;achats dans votre module de gestion de la réaction en utilisant la table des destinataires native d&#39;Adobe Campaign **[!UICONTROL nms:recipient]**.
+Dans cet exemple, vous allez intégrer une table d&#39;achats dans votre module de gestion de la réaction en utilisant la table des destinataires native d&#39;Adobe Campaign **[!UICONTROL nms:recipient]**.
 
 La table des logs de réaction d&#39;un destinataire **[!UICONTROL nms:remaMatchRcp]** est étendue pour ajouter un lien au schéma de la table d&#39;achats. Dans l&#39;exemple suivant, la table d&#39;achats s&#39;appelle **demo:purchase**.
 
-1. Via l&#39;explorateur Adobe Campaign, sélectionnez le noeud **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Mappings de ciblage]**.
+1. Via l&#39;explorateur Adobe Campaign, sélectionnez le noeud **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Mappings de ciblage]**.
 1. Cliquez-droit sur **Destinataires** puis sélectionnez **[!UICONTROL Actions]** et **[!UICONTROL Modifier les options de la dimension de ciblage]**.
 
    ![](assets/delivery_mapping1.png)
@@ -102,11 +102,11 @@ name="remaMatchRcp" namespace="cus">
 
 ### Gestion de la réaction avec une table des destinataires personnalisée {#response-management-with-a-personalized-recipient-table}
 
-Dans cet exemple, vous allez intégrer une table d&#39;achats dans votre module de gestion de la réaction en utilisant une table d&#39;individus autre que la table des destinataires disponible dans Adobe Campaign.
+Dans cet exemple, vous allez intégrer une table d&#39;achats dans votre module de gestion de la réaction en utilisant une table d&#39;individus autre que la table des destinataires disponible dans Adobe Campaign.
 
 * Création d&#39;un nouveau schéma de logs de réaction dérivé du schéma **[!UICONTROL nms:remaMatch]**.
 
-   La table des individus étant différente de la table des destinataires par défaut d&#39;Adobe Campaign, il est nécessaire de créer un nouveau schéma des logs de réaction basé sur le schéma **[!UICONTROL nms:remaMatch]**. Il faut ensuite le compléter avec les liens vers les logs de diffusion et la table des actes d&#39;achats.
+   La table des individus étant différente de la table des destinataires par défaut d&#39;Adobe Campaign, il est nécessaire de créer un nouveau schéma des logs de réaction basé sur le schéma **[!UICONTROL nms:remaMatch]**. Il faut ensuite le compléter avec les liens vers les logs de diffusion et la table des actes d&#39;achats.
 
    Dans l&#39;exemple ci-dessous, nous utilisons le schéma **demo:broadLogPers** et la table des transactions est **demo:purchase** :
 

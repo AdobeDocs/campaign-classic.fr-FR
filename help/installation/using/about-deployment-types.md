@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-La conception modulaire d&#39;Adobe Campaign permet de nombreuses configurations de déploiement, d&#39;une installation en &quot;stand-alone&quot; (tous les composants sur une unique machine) à des configurations d&#39;entreprise impliquant une architecture entièrement distribuée et redondante via de multiples serveurs. Tout dépend des niveaux de performance, de redondance et de sécurité souhaités.
+La conception modulaire d&#39;Adobe Campaign permet de nombreuses configurations de déploiement, d&#39;une installation en &quot;stand-alone&quot; (tous les composants sur une unique machine) à des configurations d&#39;entreprise impliquant une architecture entièrement distribuée et redondante via de multiples serveurs. Tout dépend des niveaux de performance, de redondance et de sécurité souhaités.
 
 Dans le cas d&#39;une configuration sur plusieurs machines, il n&#39;est pas nécessaire qu&#39;elles utilisent toutes le même système d&#39;exploitation. En effet, il est possible d&#39;utiliser par exemple un serveur de redirection sous Linux + Apache avec des serveurs de diffusion sous Windows.
 

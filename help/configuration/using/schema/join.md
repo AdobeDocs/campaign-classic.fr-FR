@@ -51,9 +51,9 @@ Si l’élément `<join>` n&#39;est pas précisé lors de la définition d&#39;u
 
 ## Description des attributs {#attribute-description-7}
 
-* **dstFilterExpr (string)** : cet attribut permet de restreindre le nombre de valeurs éligibles dans la table distante.
-* **xpath-dst (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; de la table distante).
-* **xpath-src (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; dans le schéma courant).
+* **dstFilterExpr (string)** : cet attribut permet de restreindre le nombre de valeurs éligibles dans la table distante.
+* **xpath-dst (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; de la table distante).
+* **xpath-src (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; dans le schéma courant).
 
 ## Exemples       {#examples-6}
 
@@ -63,7 +63,7 @@ Lien entre le champ &#39;email&#39; de la table courante et le champ &quot;@comp
 <join xpath-dst="@compagny-id" xpath-src="@email"/>
 ```
 
-Lien &#39;filtré&#39; vers la table &quot;cus:Country&quot; basé sur le contenu du champ &quot;@country&quot; qui doit contenir la valeur &#39;FR&#39; :
+Lien &#39;filtré&#39; vers la table &quot;cus:Country&quot; basé sur le contenu du champ &quot;@country&quot; qui doit contenir la valeur &#39;FR&#39; :
 
 ```
 <element name="StockEN" type="link" label="MyLink" target="cus:Stock">

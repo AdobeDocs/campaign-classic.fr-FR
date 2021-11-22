@@ -24,7 +24,7 @@ Utilisez l’option Campaign [Federated Data Access](../../installation/using/ab
 
 ## Pilotes SAP HANA {#sap-config}
 
-La connexion à une base de données externe SAP HANA en FDA requiert certains paramétrages additionnels sur le serveur Adobe Campaign :
+La connexion à une base de données externe SAP HANA en FDA requiert certains paramétrages additionnels sur le serveur Adobe Campaign :
 
 1. Installez les pilotes ODBC pour SAP HANA, en fonction du système d’exploitation que vous utilisez :
 
@@ -55,7 +55,7 @@ La connexion à une base de données externe SAP HANA en FDA requiert certains p
       Driver = /usr/sap/hdbclient/libodbcHDB.so
       ```
 
-1. Définissez les variables d’environnement du serveur Adobe Campaign :
+1. Définissez les variables d’environnement du serveur Adobe Campaign :
 
    * **LD_LIBRARY_PATH** : doit inclure le lien vers votre client SAP HANA (/usr/sap/hdbclient/libodbcHDB.so par défaut).
    * **ODBCINI** : emplacement du fichier odbc.ini (par exemple /etc/odbc.ini).

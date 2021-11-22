@@ -25,7 +25,7 @@ Il est possible de définir des critères de dédoublonnage des données.
 
 ## Mode de paramétrage {#configuration-mode}
 
-Pour paramétrer l&#39;activité de changement de dimension, respectez les étapes suivantes :
+Pour paramétrer l&#39;activité de changement de dimension, respectez les étapes suivantes :
 
 1. Sélectionnez la nouvelle dimension de ciblage à partir du champ **[!UICONTROL Changement de dimension]**.
 
@@ -35,7 +35,7 @@ Pour paramétrer l&#39;activité de changement de dimension, respectez les étap
 
    ![](assets/s_user_change_dimension_limit.png)
 
-   Lorsque vous choisissez de ne conserver qu&#39;un seul enregistrement, une collection apparaît dans le schéma de travail : cette collection représente tous les enregistrements qui ne seront pas ciblés dans le résultat final (puisqu&#39;un seul enregistrement est conservé). Cette collection permet, comme toute autre collection, de calculer des agrégats ou de récupérer des informations en colonne.
+   Lorsque vous choisissez de ne conserver qu&#39;un seul enregistrement, une collection apparaît dans le schéma de travail : cette collection représente tous les enregistrements qui ne seront pas ciblés dans le résultat final (puisqu&#39;un seul enregistrement est conservé). Cette collection permet, comme toute autre collection, de calculer des agrégats ou de récupérer des informations en colonne.
 
    Par exemple, si on passe de la dimension des **[!UICONTROL Clients]** à celle des **[!UICONTROL Destinataires]**, il sera possible de cibler les clients d&#39;un magasin, en précisant le nombre d&#39;achats réalisés.
 
@@ -75,7 +75,7 @@ Pour paramétrer l&#39;activité de changement de dimension, respectez les étap
 
       ![](assets/wf_change-dimension_sample_05.png)
 
-1. Exécutez le workflow pour visualiser le résultat de ce paramétrage. Comparez les données contenues dans les tables avant et après l&#39;activité de changement de dimension, comparez également la structure des tables du workflow, comme dans les exemples suivants :
+1. Exécutez le workflow pour visualiser le résultat de ce paramétrage. Comparez les données contenues dans les tables avant et après l&#39;activité de changement de dimension, comparez également la structure des tables du workflow, comme dans les exemples suivants :
 
    ![](assets/wf_change-dimension_sample_06.png)
 

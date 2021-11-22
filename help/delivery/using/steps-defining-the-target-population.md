@@ -37,7 +37,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. Sélectionnez le mapping de ciblage dans la liste déroulante **[!UICONTROL Mapping de ciblage]** . Le mapping de ciblage par défaut d&#39;Adobe Campaign est **[!UICONTROL Destinataire]**, selon le schéma **nms:destinataire**.
+1. Sélectionnez le mapping de ciblage dans la liste déroulante **[!UICONTROL Mapping de ciblage]** . Le mapping de ciblage par défaut d&#39;Adobe Campaign est **[!UICONTROL Destinataire]**, selon le schéma **nms:destinataire**.
 
    D’autres mappings de ciblage sont disponibles et certains d’entre eux peuvent être liés à votre configuration spécifique. Pour plus d’informations sur les mappings de ciblage, voir la section [Choisir un mapping de ciblage](selecting-a-target-mapping.md).
 
@@ -64,7 +64,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
       ![](assets/s_ncs_user_wizard_email02e.png)
 
-      Vous pouvez filtrer sur le comportement des destinataires en le sélectionnant depuis la liste déroulante :
+      Vous pouvez filtrer sur le comportement des destinataires en le sélectionnant depuis la liste déroulante :
 
       ![](assets/s_ncs_user_wizard_email02f.png)
 
@@ -72,8 +72,8 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
       >
       >L&#39;option **[!UICONTROL Inclure les sous-dossiers]** permet de cibler également sur les diffusions contenues dans les dossiers situés en sous-arborescence du noeud sélectionné.
 
-   * **[!UICONTROL Destinataires présents dans un dossier]** : cette option permet de cibler les profils contenus dans un dossier spécifique de l&#39;arborescence.
-   * **[!UICONTROL Un destinataire]** : cette option permet de sélectionner un destinataire spécifique parmi les profils de la base.
+   * **[!UICONTROL Destinataires présents dans un dossier]** : cette option permet de cibler les profils contenus dans un dossier spécifique de l&#39;arborescence.
+   * **[!UICONTROL Un destinataire]** : cette option permet de sélectionner un destinataire spécifique parmi les profils de la base.
    * **[!UICONTROL Une liste de destinataires]** : cette option permet de cibler une liste de destinataires. Les listes sont présentées dans [cette section](../../platform/using/creating-and-managing-lists.md).
    * **[!UICONTROL Filtres utilisateurs]** : cette option permet d&#39;accéder aux filtres préconfigurés disponibles afin de les utiliser comme critères de filtrage des profils de la base. Les filtres préconfigurés sont présentés dans [cette section](../../platform/using/creating-filters.md#saving-a-filter).
    * L&#39;option **[!UICONTROL Exclure les destinataires correspondant à ce segment]** permet de cibler sur les destinataires ne répondant pas au(x) critère(s) de ciblage défini(s). Pour utiliser cette option, cochez la case correspondante puis opérez un ciblage, comme défini précédemment, pour exclure les profils en résultant.
@@ -132,7 +132,7 @@ Cliquez sur le lien **[!UICONTROL Editer]** pour modifier la configuration par d
 
 ![](assets/s_ncs_user_wizard_email02i.png)
 
-Les options disponibles sont les suivantes :
+Les options disponibles sont les suivantes :
 
 * **[!UICONTROL Exclure les adresses en double lors de la diffusion]** : cette option, active par défaut, permet d’effectuer un dédoublonnage des adresses email lors de la diffusion. La stratégie adoptée peut être variable en fonction de l’utilisation d’Adobe Campaign et de la nature des données dans la base de données.
 
@@ -229,7 +229,7 @@ Voir aussi :
 
 * [Choisir la cible du BAT](#selecting-the-proof-target)
 * [À propos des adresses de contrôle](about-seed-addresses.md)
-* [Cas pratique : sélection des adresses de contrôle selon des critères](use-case--selecting-seed-addresses-on-criteria.md)
+* [Cas pratique : sélection des adresses de contrôle selon des critères](use-case--selecting-seed-addresses-on-criteria.md)
 
 ## Tutoriel vidéo {#seeds-and-proofs-video}
 

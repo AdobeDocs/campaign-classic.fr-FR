@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## À propos des règles de cohérence {#about-consistency-rules}
 
-Adobe Campaign permet d&#39;assurer la cohérence des communications au travers d&#39;un ensemble de règles regroupées dans des typologies de campagne. Ces règles ont pour objectif d&#39;assurer un contrôle sur les diffusions envoyées aux destinataires, leur volume, leur nature, leur pertinence, etc.
+Adobe Campaign permet d&#39;assurer la cohérence des communications au travers d&#39;un ensemble de règles regroupées dans des typologies de campagne. Ces règles ont pour objectif d&#39;assurer un contrôle sur les diffusions envoyées aux destinataires, leur volume, leur nature, leur pertinence, etc.
 
 Des règles de **capacité** peuvent par exemple éviter de surcharger la plateforme concernée par la diffusion. Par exemple, une offre spéciale contenant un lien de téléchargement ne doit pas s’adresser au même moment à une population trop nombreuse afin de ne pas saturer le serveur, une campagne téléphonique ne doit pas excéder la capacité de traitement du centre d’appels, etc. Pour plus d&#39;informations, consultez la section [Contrôler la capacité](#controlling-capacity).
 
@@ -49,7 +49,7 @@ Pour créer une règle de capacité, procédez comme suit :
 1. Associez cette règle à une typologie, puis référencez cette typologie au niveau de la diffusion pour appliquer cette règle de capacité. Pour plus d&#39;informations, consultez [cette section](applying-rules.md#applying-a-typology-to-a-delivery).
 1. Vous pouvez suivre la consommation dans les onglets **[!UICONTROL Consommations]** et **[!UICONTROL Capacité]**.
 
-   Lorsqu&#39;une règle est utilisée dans une diffusion, les colonnes **[!UICONTROL Consommé]** et **[!UICONTROL Restant]** indiquent la charge utilisée, comme dans l&#39;exemple ci-dessous :
+   Lorsqu&#39;une règle est utilisée dans une diffusion, les colonnes **[!UICONTROL Consommé]** et **[!UICONTROL Restant]** indiquent la charge utilisée, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/campaign_opt_create_capacity_03.png)
 
@@ -75,17 +75,17 @@ Pour automatiser la fréquence de création des plages, cliquez sur le bouton **
 
 ![](assets/campaign_opt_create_capacity_07.png)
 
-Par exemple, nous allons définir un planning afin de créer les plages de disponibilité pour tous les jours ouvrés, pour 10 appels par heure, entre 9h et 17h. Pour cela, les étapes de configuration sont les suivantes :
+Par exemple, nous allons définir un planning afin de créer les plages de disponibilité pour tous les jours ouvrés, pour 10 appels par heure, entre 9h et 17h. Pour cela, les étapes de configuration sont les suivantes :
 
-1. Sélectionnez le type de périodicité et les jours et heures de validité :
+1. Sélectionnez le type de périodicité et les jours et heures de validité :
 
    ![](assets/campaign_opt_create_capacity_08.png)
 
-1. Indiquez les dates de validité :
+1. Indiquez les dates de validité :
 
    ![](assets/campaign_opt_create_capacity_09.png)
 
-1. Vérifiez ce planning avant de le valider :
+1. Vérifiez ce planning avant de le valider :
 
    ![](assets/campaign_opt_create_capacity_10.png)
 
@@ -99,7 +99,7 @@ Le workflow **[!UICONTROL Prévisionnel]** crée automatiquement toutes les lign
 
 ## Exclure des messages lorsque la limite de capacité est atteinte {#exclude-messages-when-capacity-limit-reached}
 
-Les lignes de disponibilité n&#39;ont qu&#39;un caractère indicatif. Pour exclure les messages excédentaires, cochez l&#39;option **[!UICONTROL Exclure de la cible les messages en sur-capacité]**. Dans ce cas, la capacité ne pourra pas être dépassée. Pour la même population que dans l&#39;exemple précédent, la consommation et la capacité restante ne pourront pas excéder la quantité initiale :
+Les lignes de disponibilité n&#39;ont qu&#39;un caractère indicatif. Pour exclure les messages excédentaires, cochez l&#39;option **[!UICONTROL Exclure de la cible les messages en sur-capacité]**. Dans ce cas, la capacité ne pourra pas être dépassée. Pour la même population que dans l&#39;exemple précédent, la consommation et la capacité restante ne pourront pas excéder la quantité initiale :
 
 ![](assets/campaign_opt_create_capacity_04.png)
 

@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d&#39;emails, SMS, messages LINE, notifications push et courrier, et mesurer leur efficacité à l&#39;aide de différents [rapports](../../reporting/using/delivery-reports.md) dédiés. Ces messages sont conçus et envoyés à l&#39;aide de diffusions, et peuvent être personnalisés pour chaque destinataire.
+Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’emails, SMS, messages LINE, notifications push et courrier, et mesurer leur efficacité à l’aide de différents [rapports](../../reporting/using/delivery-reports.md) dédiés. Ces messages sont conçus et envoyés à l&#39;aide de diffusions, et peuvent être personnalisés pour chaque destinataire.
 
-Les principales fonctionnalités comprennent le ciblage, la définition et la personnalisation des messages, la mise en œuvre des communications et les rapports opérationnels connexes. Le principal point d&#39;accès fonctionnel est l&#39;assistant de diffusion. Ce point d&#39;accès permet d&#39;accéder à de multiples fonctionnalités proposées par Adobe Campaign.
+Les principales fonctionnalités comprennent le ciblage, la définition et la personnalisation des messages, la mise en œuvre des communications et les rapports opérationnels connexes. Le principal point d&#39;accès fonctionnel est l&#39;assistant de diffusion. Ce point d’accès permet d’accéder à de multiples fonctionnalités proposées par Adobe Campaign.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Les principales fonctionnalités comprennent le ciblage, la définition et la pe
 
 L&#39;envoi d&#39;une diffusion peut être automatisé en préparant la diffusion ou en l&#39;envoyant par le biais d&#39;un workflow. Pour plus d&#39;informations sur les activités de type diffusion dans les workflows, consultez [cette section](../../workflow/using/about-action-activities.md).
 
-Les canaux de diffusion proposés par Adobe Campaign sont les suivants :
+Les canaux de diffusion proposés par Adobe Campaign sont les suivants :
 
 1. **Canal email** : les diffusions email permettent d&#39;adresser des messages électroniques personnalisés à la population cible. Voir [À propos du canal email](about-email-channel.md).
 1. **Canal courrier** : les diffusions courrier permettent de générer un fichier d&#39;extraction contenant les données relatives à la population cible. Voir [À propos du canal courrier](about-direct-mail-channel.md).
@@ -44,14 +44,14 @@ Les diffusions peuvent être **on-line** (via email, un des canaux mobiles et le
 
 Selon le canal, les modes de diffusion peuvent être les suivants :
 
-* Diffusion en masse directement via Adobe Campaign (mode par défaut pour le canal Email).
+* Envoi en masse directement via Adobe Campaign (mode par défaut pour le canal Email).
 * Envoi en externe, via un opérateur spécialisé, auquel est fourni le fichier de sortie généré par l&#39;assistant de diffusion (mode par défaut pour le canal Courrier).
 
 Les comptes externes sont paramétrés depuis le nœud **[!UICONTROL Administration > Plateforme > Comptes externes]**. Ce paramétrage est réservé à des utilisateurs experts.
 
 ## Diffusions Email {#email-deliveries}
 
-Le [canal Email](about-email-channel.md) est l&#39;un des principaux canaux dans Adobe Campaign. Il vous permet de planifier et d&#39;envoyer des emails personnalisés à des cibles spécifiques.
+Le [canal Email](about-email-channel.md) est l&#39;un des principaux canaux dans Adobe Campaign. Il vous permet de planifier et d&#39;envoyer des emails personnalisés à des cibles spécifiques.
 
 Vous pouvez envoyer différents types d&#39;emails :
 
@@ -65,7 +65,7 @@ Pour plus d&#39;informations sur les différents types de diffusion, consultez [
 
 ## Diffusions sur des mobiles {#mobile-deliveries}
 
-Adobe Campaign permet de diffuser des [SMS](sms-channel.md) et des messages [LINE](line-channel.md) sur des mobiles.
+Adobe Campaign permet de diffuser des [SMS](sms-channel.md) et des messages [LINE](line-channel.md) sur des mobiles.
 
 Pour les SMS, vous pouvez créer, modifier et personnaliser des messages au format texte uniquement. Vous pouvez également prévisualiser les SMS avant leur envoi.
 
@@ -84,7 +84,7 @@ Adobe Campaign vous permet d&#39;envoyer des [notifications push](about-mobile-
 
 [Le canal Courrier est un canal off-line qui vous permet de personnaliser et de générer le fichier requis par les opérateurs de services postaux. Il vous offre la possibilité de mélanger des canaux off-line et on-line dans les parcours client.](about-direct-mail-channel.md)
 
-Les canaux on-line vous permettent de créer vos messages (email, SMS, diffusion sur des applications mobiles, etc.) et de les envoyer à votre audience directement depuis Adobe Campaign. Les canaux off-line fonctionnent différemment. Lors de la préparation d&#39;une diffusion courrier, Adobe Campaign génère un fichier comprenant tous les profils ciblés et les informations de contact sélectionnées (adresse postale, par exemple). Vous pouvez ensuite envoyer ce fichier à votre opérateur de services postaux qui se chargera de l&#39;envoi.
+Les canaux on-line vous permettent de créer vos messages (email, SMS, diffusion sur des applications mobiles, etc.) et de les envoyer à votre audience directement depuis Adobe Campaign. Les canaux off-line fonctionnent différemment. Lors de la préparation d&#39;une diffusion courrier, Adobe Campaign génère un fichier comprenant tous les profils ciblés et les informations de contact sélectionnées (adresse postale, par exemple). Vous pouvez ensuite envoyer ce fichier à votre opérateur de services postaux qui se chargera de l&#39;envoi.
 
 ## Canaux Autre {#other-channels}
 
@@ -94,11 +94,11 @@ Adobe Campaign offre le modèle de diffusion Téléphone qui est utilisé pour 
 >
 >Le canal Téléphone n&#39;est pas disponible en standard. Sa mise en œuvre nécessite la participation d&#39;Adobe Consulting ou d&#39;un partenaire Adobe. Pour plus d&#39;informations, contactez votre représentant Adobe.
 
-De plus, les diffusions de type Autre utilisent un modèle technique spécifique qui n&#39;exécute aucun processus. Elles permettent ainsi notamment de gérer dans Adobe Campaign des actions marketing exécutées en dehors de la plateforme.
+De plus, les diffusions de type Autre utilisent un modèle technique spécifique qui n&#39;exécute aucun processus. Elles permettent ainsi notamment de gérer dans Adobe Campaign des actions marketing exécutées en dehors de la plateforme.
 
-Ce canal n&#39;a aucun mécanisme spécifique. Il s&#39;agit d&#39;un canal générique qui possède une option de routage de compte externe, un type de modèle de diffusion et une activité de workflow d&#39;opération, tout comme n&#39;importe quel autre canal de communication disponible dans Adobe Campaign.
+Ce canal n&#39;a aucun mécanisme spécifique. Il s&#39;agit d&#39;un canal générique qui possède une option de routage de compte externe, un type de modèle de diffusion et une activité de workflow d&#39;opération, tout comme n&#39;importe quel autre canal de communication disponible dans Adobe Campaign.
 
-Ce canal a été conçu à des fins de description uniquement, pour définir par exemple les diffusions pour lesquelles vous souhaitez conserver une trace de la cible d&#39;une campagne effectuée dans un outil autre qu&#39;Adobe Campaign.
+Ce canal a été conçu à des fins de description uniquement, pour définir par exemple les diffusions pour lesquelles vous souhaitez conserver une trace de la cible d&#39;une campagne effectuée dans un outil autre qu&#39;Adobe Campaign.
 
 ## Types de diffusions{#types-of-deliveries}
 

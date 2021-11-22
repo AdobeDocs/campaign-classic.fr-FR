@@ -21,7 +21,7 @@ La console cliente Campaign est
 
 >[!CAUTION]
 >
->Vérifiez la compatibilité de votre système et de vos outils avec la console cliente Adobe Campaign dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems).
+>Vérifiez la compatibilité de votre système et de vos outils avec la console cliente Adobe Campaign dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems).
 
 ## Lancement d’Adobe Campaign {#starting-adobe-campaign}
 
@@ -33,13 +33,13 @@ La page de connexion de la console cliente permet de configurer ou de sélection
 
 ## Connexion à Adobe Campaign {#connecting-to-adobe-campaign}
 
-Il est possible de vous connecter à Adobe Campaign via votre Adobe ID. Voir à ce sujet [cette page](../../integrations/using/about-adobe-id.md).
+Il est possible de vous connecter à Adobe Campaign via votre Adobe ID. Voir à ce sujet [cette page](../../integrations/using/about-adobe-id.md).
 
 Vous pouvez aussi vous connecter via un login/mot de passe dédié :
 
 1. Saisissez l’identifiant du compte opérateur dans le champ **[!UICONTROL Login]**.
 
-   L’identifiant vous est fourni par l’administrateur de la plateforme Adobe Campaign.
+   L’identifiant vous est fourni par l’administrateur de la plateforme Adobe Campaign.
 
 1. Saisissez votre mot de passe dans le champ **[!UICONTROL Mot de passe]**.
 
@@ -47,7 +47,7 @@ Vous pouvez aussi vous connecter via un login/mot de passe dédié :
 
 1. Cliquez sur **[!UICONTROL SE CONNECTER]** pour valider.<!--You can also press the **Enter** key to launch connection.-->
 
-Vous pouvez maintenant accéder à l’[espace de travail Adobe Campaign](../../platform/using/adobe-campaign-workspace.md).
+Vous pouvez maintenant accéder à l’[espace de travail Adobe Campaign](../../platform/using/adobe-campaign-workspace.md).
 
 Certains raccourcis clavier sont disponibles dans l&#39;**[!UICONTROL écran de connexion]** :
 * Tous les éléments exploitables peuvent être sélectionnés à l&#39;aide de la touche **Tab** (de haut en bas) ou de la touche **Tab** + **Maj** (de bas en haut).
@@ -62,7 +62,7 @@ Vous pouvez accéder aux paramètres de connexion au serveur via le lien situé 
 
 Dans la fenêtre **[!UICONTROL Connexions]**, cliquez sur **[!UICONTROL Ajouter > Connexion]**.
 
-Vous devez ensuite définir les paramètres de cette connexion. Pour cela :
+Vous devez ensuite définir les paramètres de cette connexion. Pour cela :
 
 1. Saisissez un **[!UICONTROL libellé]** qui correspond au nom que vous souhaitez attribuer à votre connexion vers la base de données.
 
@@ -74,13 +74,13 @@ Vous devez ensuite définir les paramètres de cette connexion. Pour cela :
 
 ## Opérateurs et autorisations {#operators-and-permissions}
 
-Les identifiants et mots de passe des opérateurs ayant accès au logiciel, ainsi que leurs permissions respectives, sont définis par l’administrateur du système Adobe Campaign dans le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l’arborescence d’Adobe Campaign.
+Les identifiants et mots de passe des opérateurs ayant accès au logiciel, ainsi que leurs permissions respectives, sont définis par l&#39;administrateur du système Adobe Campaign dans le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l&#39;arborescence d&#39;Adobe Campaign.
 
 Cette fonctionnalité est décrite dans la section [Gestion des accès](../../platform/using/access-management.md).
 
 ## Déconnexion d’Adobe Campaign {#disconnecting-from-adobe-campaign}
 
-Pour vous déconnecter d’Adobe Campaign, utilisez la première icône de la barre d’icônes.
+Pour vous déconnecter d&#39;Adobe Campaign, utilisez la première icône de la barre d&#39;icônes.
 
 ![](assets/s_ncs_user_deconnexion.png)
 
@@ -110,5 +110,5 @@ En savoir plus sur [!DNL Gold Standard] [dans cet article](../../rn/using/gs-ove
 **Rubriques connexes** :
 
 * [Options d&#39;aide et de support d&#39;Adobe Campaign](../../support.md)
-* [Distribution du logiciel Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Distribution du logiciel Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Adobe Experience Cloud et sessions d&#39;experts](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

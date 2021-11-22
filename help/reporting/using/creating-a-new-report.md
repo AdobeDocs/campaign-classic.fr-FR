@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Pour créer un rapport, les étapes sont les suivantes :
+Pour créer un rapport, les étapes sont les suivantes :
 
-1. Ouvrez l&#39;Explorateur Adobe Campaign et, depuis le nœud **[!UICONTROL Administration > Paramétrage]**, sélectionnez le dossier **[!UICONTROL Rapports]**.
+1. Ouvrez l&#39;Explorateur Adobe Campaign et, depuis le nœud **[!UICONTROL Administration > Paramétrage]**, sélectionnez le dossier **[!UICONTROL Rapports]**.
 1. Cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des rapports.
 1. Choisissez **[!UICONTROL Créer un nouveau rapport depuis un modèle]** et cliquez sur **[!UICONTROL Suivant]**.
 
@@ -81,7 +81,7 @@ Pour construire votre rapport, selon sa nature et son contexte d&#39;utilisation
 
    Voir à ce sujet la section [Activité Saut](../../reporting/using/advanced-functionalities.md#jump-activity).
 
-Le mode d&#39;exécution d&#39;un rapport n&#39;est pas celui d&#39;un workflow. Typiquement, vous ne pouvez pas exécuter plusieurs branches en parallèle. Ainsi, un rapport construit comme suit ne sera pas opérationnel :
+Le mode d&#39;exécution d&#39;un rapport n&#39;est pas celui d&#39;un workflow. Typiquement, vous ne pouvez pas exécuter plusieurs branches en parallèle. Ainsi, un rapport construit comme suit ne sera pas opérationnel :
 
 ![](assets/reporting_graph_sample_ko.png)
 
@@ -111,7 +111,7 @@ Vous pouvez également cliquer avec le bouton droit sur le noeud dans lequel vou
 >
 >Si le rapport est destiné à être exporté au format Excel, il est recommandé de ne pas utiliser de formatage complexe en HTML. Voir à ce sujet la section [Exporter un rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
-Une **[!UICONTROL Page]** peut contenir les éléments suivants :
+Une **[!UICONTROL Page]** peut contenir les éléments suivants :
 
 * Des **[!UICONTROL Graphiques]** de type Histogramme, Secteurs, Courbes, etc.
 * Des **[!UICONTROL Tableaux]** de type Tableau croisé dynamique, Liste avec groupement ou Distribution.
@@ -145,20 +145,20 @@ Vous pouvez intégrer un ou plusieurs contrôles de saisie dans vos rapports. Ce
 
 Vous pouvez intégrer un ou plusieurs contrôles de sélection dans vos rapports. Ce type de contrôle vous permet de filtrer les informations contenues dans le rapport selon la ou les valeurs sélectionnées, par exemple :
 
-* via des boutons radio ou des cases à cocher :
+* via des boutons radio ou des cases à cocher :
 
    ![](assets/reporting_radio_buttons.png)
 
-* via une liste déroulante :
+* via une liste déroulante :
 
    ![](assets/reporting_control_list.png)
 
-* via un calendrier :
+* via un calendrier :
 
    ![](assets/reporting_control_date.png)
 
 Enfin, vous pouvez intégrer un ou plusieurs contrôles avancés dans vos rapports. Ce type de contrôle offre la possibilité d&#39;insérer un lien, une constante ou de sélectionner un dossier.
 
-Ici, vous pouvez filtrer les données du rapport pour n&#39;afficher que celles d&#39;un des dossiers de l&#39;arborescence :
+Ici, vous pouvez filtrer les données du rapport pour n&#39;afficher que celles d&#39;un des dossiers de l&#39;arborescence :
 
 ![](assets/reporting_control_folder.png)

@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## À propos de SpamAssassin {#about-spamassassin}
 
-Adobe Campaign peut être configuré pour fonctionner avec [SpamAssassin](https://spamassassin.apache.org), service tiers destiné à filtrer les emails indésirables. Vous pouvez ainsi attribuer un score aux emails et déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spams utilisés à sa réception.
+Adobe Campaign peut être configuré pour fonctionner avec [SpamAssassin](https://spamassassin.apache.org), service tiers destiné à filtrer les emails indésirables. Vous pouvez ainsi attribuer un score aux emails et déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spams utilisés à sa réception.
 
 SpamAssassin utilise diverses techniques de détection des emails indésirables, notamment :
 
@@ -31,7 +31,7 @@ SpamAssassin utilise diverses techniques de détection des emails indésirables,
 
 >[!NOTE]
 >
->SpamAssassin doit être installé et configuré sur le serveur d&#39;application d&#39;Adobe Campaign. Voir à ce propos [cette section](../../installation/using/configuring-spamassassin.md).
+>SpamAssassin doit être installé et configuré sur le serveur d&#39;application d&#39;Adobe Campaign. Voir à ce propos [cette section](../../installation/using/configuring-spamassassin.md).
 >
 >Les règles qui déterminent si un élément est indésirable ou non sont gérées par SpamAssassin et peuvent être éditées par un administrateur disposant de privilèges.
 

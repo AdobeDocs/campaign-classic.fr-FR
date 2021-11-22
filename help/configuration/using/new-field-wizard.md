@@ -25,9 +25,9 @@ Cet assistant à l&#39;avantage d&#39;ajouter rapidement un champ sans avoir à 
 
 L&#39;inconvénient principal est la limitation des données et des propriétés à étendre.
 
-Les écrans de l&#39;assistant contiennent les étapes suivantes :
+Les écrans de l&#39;assistant contiennent les étapes suivantes :
 
-1. La première page permet de renseigner le nom du schéma à étendre et l&#39;espace de noms du schéma d&#39;extension où seront enregistrées les modifications :
+1. La première page permet de renseigner le nom du schéma à étendre et l&#39;espace de noms du schéma d&#39;extension où seront enregistrées les modifications :
 
    ![](assets/d_ncs_integration_schema_addfield.png)
 
@@ -37,7 +37,7 @@ Les écrans de l&#39;assistant contiennent les étapes suivantes :
 
 1. Pour valider les modifications, cliquez sur le bouton **[!UICONTROL Terminer]**.
 
-Un fichier d&#39;extension de nom &quot;cus:recipient&quot; dans notre exemple, est automatiquement créé et le script SQL correspondant exécuté :
+Un fichier d&#39;extension de nom &quot;cus:recipient&quot; dans notre exemple, est automatiquement créé et le script SQL correspondant exécuté :
 
 ```
 <srcSchema extendedSchema="nms:recipient" label="Recipients" name="recipient"  namespace="cus">  

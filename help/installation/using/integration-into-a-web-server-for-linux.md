@@ -17,11 +17,11 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign inclut Apache Tomcat pour agir comme point d&#39;entrée dans le code du serveur applicatif via HTTP (et SOAP).
+Adobe Campaign inclut Apache Tomcat pour agir comme point d&#39;entrée dans le code du serveur applicatif via HTTP (et SOAP).
 
 Vous pouvez utiliser ce Tomcat intégré pour servir des requêtes HTTP.
 
-Dans ce cas :
+Dans ce cas :
 
 * le port d’écoute par défaut est 8080. Pour savoir comment le modifier, consultez [cette section](configure-tomcat.md).
 * Vos consoles clientes se connectent alors en utilisant une URL de type :
@@ -30,7 +30,7 @@ Dans ce cas :
    http://<computer>:8080
    ```
 
-Cependant, pour des raisons de sécurité et d&#39;administration, il est conseillé d&#39;utiliser un véritable serveur Web comme point d&#39;entrée principal pour le trafic HTTP lorsque la machine qui fait tourner Adobe Campaign est exposée sur Internet et que vous voulez donner un accès à la console depuis l&#39;extérieur de votre réseau.
+Cependant, pour des raisons de sécurité et d&#39;administration, il est conseillé d&#39;utiliser un véritable serveur Web comme point d&#39;entrée principal pour le trafic HTTP lorsque la machine qui fait tourner Adobe Campaign est exposée sur Internet et que vous voulez donner un accès à la console depuis l&#39;extérieur de votre réseau.
 
 Un serveur Web permet également d&#39;assurer la confidentialité des données avec le protocole HTTPS.
 
@@ -46,13 +46,13 @@ Cette procédure s&#39;applique si vous avez installé Apache sous une distribut
 
 Les étapes sont les suivantes :
 
-1. Désactivez les modules chargés par défaut à l&#39;aide de la commande suivante :
+1. Désactivez les modules chargés par défaut à l&#39;aide de la commande suivante :
 
    ```
    a2dismod auth_basic authn_file authz_default authz_user autoindex cgi dir env negotiation userdir
    ```
 
-   Assurez-vous que les modules **alias**, **authz_host** et **mime** sont toujours activés. Pour cela, utilisez la commande suivante :
+   Assurez-vous que les modules **alias**, **authz_host** et **mime** sont toujours activés. Pour cela, utilisez la commande suivante :
 
    ```
    a2enmod  alias authz_host mime
@@ -60,7 +60,7 @@ Les étapes sont les suivantes :
 
 1. Créez le fichier **nlsrv.load** dans **/etc/apache2/mods-available** et insérez le contenu suivant :
 
-   Sous Debian 8 :
+   Sous Debian 8 :
 
    ```
    LoadModule requesthandler24_module /usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so
@@ -72,7 +72,7 @@ Les étapes sont les suivantes :
    ln -s /usr/local/[INSTALL]/nl6/conf/apache_neolane.conf /etc/apache2/mods-available/nlsrv.conf
    ```
 
-1. Activez ce module avec la commande suivante :
+1. Activez ce module avec la commande suivante :
 
    ```
     a2enmod nlsrv
@@ -94,14 +94,14 @@ Les étapes sont les suivantes :
 
    Enregistrez ces modifications.
 
-1. Ajoutez ensuite les utilisateurs Adobe Campaign dans le groupe d&#39;utilisateurs Apache et inversement, en effectuant une commande du type :
+1. Ajoutez ensuite les utilisateurs Adobe Campaign dans le groupe d&#39;utilisateurs Apache et inversement, en effectuant une commande du type :
 
    ```
    usermod neolane -G www-data
    usermod www-data -G neolane
    ```
 
-1. Redémarrez Apache :
+1. Redémarrez Apache :
 
    ```
    invoke-rc.d apache2 restart
@@ -121,7 +121,7 @@ Les étapes sont les suivantes :
    mime
    ```
 
-1. Désactivez les modules suivants :
+1. Désactivez les modules suivants :
 
    ```
    auth_basic
@@ -136,7 +136,7 @@ Les étapes sont les suivantes :
    userdir
    ```
 
-   Commentez les fonctions liées aux modules désactivés :
+   Commentez les fonctions liées aux modules désactivés :
 
    ```
    DirectoryIndex
@@ -178,7 +178,7 @@ Les étapes sont les suivantes :
    systemctl daemon-reload
    ```
 
-1. Ajoutez ensuite les utilisateurs Adobe Campaign dans le groupe d&#39;utilisateurs Apache et inversement, en effectuant la commande :
+1. Ajoutez ensuite les utilisateurs Adobe Campaign dans le groupe d&#39;utilisateurs Apache et inversement, en effectuant la commande :
 
    ```
    usermod -a -G neolane apache
@@ -187,7 +187,7 @@ Les étapes sont les suivantes :
 
    Les noms des groupes à utiliser dépendent de votre configuration Apache.
 
-1. Démarrez Apache et le serveur Adobe Campaign:
+1. Démarrez Apache et le serveur Adobe Campaign:
 
    Pour RHEL7 :
 
@@ -198,13 +198,13 @@ Les étapes sont les suivantes :
 
 ## Lancement du serveur Web et test de la configuration{#launching-the-web-server-and-testing-the-configuration}
 
-Vous pouvez à présent tester la configuration en démarrant Apache. Le module Adobe Campaign doit alors afficher sa bannière sur la console (deux bannières sous certains systèmes d&#39;exploitation) :
+Vous pouvez à présent tester la configuration en démarrant Apache. Le module Adobe Campaign doit alors afficher sa bannière sur la console (deux bannières sous certains systèmes d&#39;exploitation) :
 
 ```
  /etc/init.d/apache start
 ```
 
-Les informations affichées sont alors les suivantes :
+Les informations affichées sont alors les suivantes :
 
 ```
 12:26:28 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -217,13 +217,13 @@ Les informations affichées sont alors les suivantes :
 
 Vérifiez ensuite qu&#39;il répond correctement en soumettant une URL de test.
 
-Pour cela, vous pouvez tester depuis la ligne de commande en exécutant :
+Pour cela, vous pouvez tester depuis la ligne de commande en exécutant :
 
 ```
  telnet localhost 80  
 ```
 
-En retour, vous devez obtenir :
+En retour, vous devez obtenir :
 
 ```
 Trying 127.0.0.1...
@@ -237,7 +237,7 @@ Puis saisissez :
 GET /r/test
 ```
 
-Les informations affichées sont alors les suivantes :
+Les informations affichées sont alors les suivantes :
 
 ```
 <redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='' localHost='XXXX'/>

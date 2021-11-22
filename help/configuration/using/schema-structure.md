@@ -146,14 +146,14 @@ Les types de données supportés dans un schéma sont les suivants :
 * **date**, **datetime**: dates et dates + heures. Exemples : une date de naissance, une date d&#39;achat, etc.
 * **datetimenotz** : date + heure sans données de fuseau horaire.
 * **timespan** : durée. Exemple : l&#39;ancienneté.
-* **memo** : champ texte long (multi-lignes). Exemples : une description, un commentaire, etc.
+* **memo** : champ texte long (multi-lignes). Exemples : une description, un commentaire, etc.
 * **uuid** : champ de type &quot;uniqueidentifier&quot; pour la prise en charge d’un GUID (pris en charge uniquement sous Microsoft SQL Server).
 
    >[!NOTE]
    >
    >Pour contenir un champ de type **uuid** sur les moteurs autres que Microsoft SQL Server, il faut ajouter et renseigner la fonction &quot;newuuid()&quot; dans sa valeur par défaut.
 
-Notre schéma d&#39;exemple complété avec les types :
+Notre schéma d&#39;exemple complété avec les types :
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -168,14 +168,14 @@ Notre schéma d&#39;exemple complété avec les types :
 </srcSchema>
 ```
 
-### Correspondance des types de données Adobe Campaign/SGBD {#mapping-the-types-of-adobe-campaign-dbms-data}
+### Correspondance des types de données Adobe Campaign/SGBD {#mapping-the-types-of-adobe-campaign-dbms-data}
 
-Le tableau suivant liste les correspondances des types de données générés par Adobe Campaign pour les différents systèmes de gestion de base de données.
+Le tableau suivant liste les correspondances des types de données générés par Adobe Campaign pour les différents systèmes de gestion de base de données.
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Adobe Campaign</strong><br /> </td> 
+   <td> <strong>Adobe Campaign</strong><br /> </td> 
    <td> <strong>PosgreSQL</strong><br /> </td> 
    <td> <strong>Oracle</strong><br /> </td> 
    <td> <strong>Teradata</strong><br /> </td> 
@@ -260,7 +260,7 @@ Le tableau suivant liste les correspondances des types de données générés pa
    <td> DATE<br /> </td> 
    <td> TIMESTAMP<br /> </td> 
    <td> TIMESTAMP<br /> </td> 
-   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012 : DATETIMEOFFSET<br /> </td> 
+   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012 : DATETIMEOFFSET<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetimenotz<br /> </td> 
@@ -268,7 +268,7 @@ Le tableau suivant liste les correspondances des types de données générés pa
    <td> DATE<br /> </td> 
    <td> TIMESTAMP<br /> </td> 
    <td> TIMESTAMP<br /> </td> 
-   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012 : DATETIME2<br /> </td> 
+   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012 : DATETIME2<br /> </td> 
   </tr> 
   <tr> 
    <td> Timespan<br /> </td> 
@@ -315,13 +315,13 @@ Les éléments **`<elements>`** et **`<attributes>`** du schéma de données peu
    <attribute name="email" type="string" length="80" label="Email"/>
    ```
 
-   Le libellé est visible à partir du formulaire de saisie de la console cliente Adobe Campaign :
+   Le libellé est visible à partir du formulaire de saisie de la console cliente Adobe Campaign :
 
    ![](assets/d_ncs_integration_schema_label.png)
 
 * La propriété **desc** permet de saisir une description longue.
 
-   La description est visible à partir du formulaire de saisie dans la barre de statut de la fenêtre principale de la console cliente Adobe Campaign.
+   La description est visible à partir du formulaire de saisie dans la barre de statut de la fenêtre principale de la console cliente Adobe Campaign.
 
    >[!NOTE]
    >
@@ -348,11 +348,11 @@ La valeur doit être une expression conforme au langage XPath. Pour plus d&#39;i
 
    >[!NOTE]
    >
-   >Dans la console cliente Adobe Campaign, le nœud **[!UICONTROL Administration > Compteurs]** permet de gérer les compteurs.
+   >Dans la console cliente Adobe Campaign, le noeud **[!UICONTROL Administration>Compteurs]** permet de gérer les compteurs.
 
 Pour lier une valeur par défaut à un champ, vous pouvez utiliser le `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
-`<default>` : vous permet de préremplir le champ avec une valeur par défaut lors de la création d&#39;entités. La valeur ne sera pas une valeur SQL par défaut.
+`<default>` : vous permet de préremplir le champ avec une valeur par défaut lors de la création d’entités. La valeur ne sera pas une valeur SQL par défaut.
 
 `<sqldefault>` : vous permet d&#39;avoir une valeur ajoutée lors de la création d&#39;un champ. Cette valeur s&#39;affiche sous forme de résultat SQL. Lors de la mise à jour d&#39;un schéma, seuls les nouveaux enregistrements seront affectés par cette valeur.
 
@@ -372,7 +372,7 @@ Une liste déroulante énumère la liste de ces valeurs à partir du formulaire 
 
 >[!NOTE]
 >
->Dans la console cliente Adobe Campaign, le nœud **[!UICONTROL Administration > Enumérations]** permet de gérer les énumérations.
+>Dans la console cliente Adobe Campaign, le nœud **[!UICONTROL Administration > Enumérations]** permet de gérer les énumérations.
 
 #### Énumération fixe {#set-enumeration}
 
@@ -422,7 +422,7 @@ Les valeurs de l&#39;énumération sont déclarées dans l&#39;élément **`<val
 
 ### Exemple {#example}
 
-Notre schéma d&#39;exemple complété avec les propriétés :
+Notre schéma d&#39;exemple complété avec les propriétés :
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -466,7 +466,7 @@ Avec la projection du contenu XML :
 
 ## Référencer avec XPath {#referencing-with-xpath}
 
-Le langage XPath est utilisé dans Adobe Campaign pour référencer un élément ou un attribut appartenant à un schéma de données.
+Le langage XPath est utilisé dans Adobe Campaign pour référencer un élément ou un attribut appartenant à un schéma de données.
 
 XPath est une syntaxe permettant la localisation d&#39;un nœud dans l&#39;arbre d&#39;un document XML.
 
@@ -474,7 +474,7 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 
 **Exemple**:
 
-* **@email** : sélectionne l&#39;e-mail,
+* **@email** : sélectionne l&#39;email,
 * **Location/@city** : sélectionne l&#39;attribut &quot;city&quot; sous l&#39;élément **`<location>`**.
 * **../@email**: sélectionne l&#39;adresse email sur l&#39;élément parent de l&#39;élément courant
 * **group`[1]/@label`** : sélectionne l&#39;attribut &quot;label&quot; enfant du premier élément de collection **`<group>`**
@@ -497,7 +497,7 @@ Il est aussi possible de définir des expressions complexes, telles que les opé
 
 Des fonctions de haut niveau ont été ajoutées aux expressions afin d&#39;enrichir les possibilités offertes par ce langage.
 
-La liste des fonctions disponibles est accessible à partir de n&#39;importe quel éditeur d&#39;expressions dans la console cliente Adobe Campaign :
+La liste des fonctions disponibles est accessible à partir de n&#39;importe quel éditeur d&#39;expressions dans la console cliente Adobe Campaign :
 
 ![](assets/d_ncs_integration_schema_function.png)
 

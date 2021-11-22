@@ -58,7 +58,7 @@ Le module facultatif de création de questionnaires propose une interface utilis
 
 ## Étapes d&#39;implémentation {#surveys-implementation-steps}
 
-Pour créer, diffuser et exploiter les résultats d&#39;un questionnaire, les étapes sont les suivantes :
+Pour créer, diffuser et exploiter les résultats d&#39;un questionnaire, les étapes sont les suivantes :
 
 1. Créer la ou les pages et leur contenu (champs de saisie, listes déroulantes, questions, etc.).
 1. Définir le mode d&#39;enregistrement des réponses. Il est possible d&#39;insérer une étape de préchargement des données afin de préremplir le formulaire avec les données déjà en base. Vous pouvez également ajouter une boîte de test.
@@ -77,8 +77,8 @@ Par défaut, les questionnaires sont disponibles dans le nœud **[!UICONTROL Res
 
 Les paramètres sont stockés dans les dossiers suivants :
 
-* **[!UICONTROL Administration > Paramétrage > Rendus des formulaires]** : contient les modèles de rendu pour la présentation des formulaires Web (applications et questionnaires).
-* **[!UICONTROL Ressources > Modèles > Modèles d&#39;application Web]** : contient des modèles de formulaires. Pour créer un formulaire, vous devez partir d&#39;un modèle.
+* **[!UICONTROL Administration > Paramétrage > Rendus des formulaires]** : contient les modèles de rendu pour la présentation des formulaires Web (applications et questionnaires).
+* **[!UICONTROL Ressources > Modèles > Modèles d&#39;application Web]** : contient des modèles de formulaires. Pour créer un formulaire, vous devez partir d&#39;un modèle.
 
 >[!NOTE]
 >

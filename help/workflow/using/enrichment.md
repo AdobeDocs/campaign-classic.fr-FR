@@ -27,10 +27,10 @@ Pour utiliser l&#39;activité d&#39;enrichissement, il est important de connaît
 
 ![](assets/enrichment_edit.png)
 
-L&#39;option **[!UICONTROL Données liées à la dimension de filtrage]** vous donne accès aux :
+L&#39;option **[!UICONTROL Données liées à la dimension de filtrage]** vous donne accès aux :
 
-* Données de la dimension de filtrage : accès aux données de la table de travail.
-* Données liées à la dimension de filtrage : accès aux données liées à la table de travail.
+* Données de la dimension de filtrage : accès aux données de la table de travail.
+* Données liées à la dimension de filtrage : accès aux données liées à la table de travail.
 
 ![](assets/wf_enrich_linkoptions.png)
 
@@ -38,15 +38,15 @@ L&#39;option **[!UICONTROL Un lien]** permet de créer une jointure sur n&#39;im
 
 ![](assets/wf_enrich_linkstype.png)
 
-Il existe quatre types de liens :
+Il existe quatre types de liens :
 
-* **[!UICONTROL Définir une collection]** : permet de définir un lien avec une cardinalité 1-N entre les tables.
-* **[!UICONTROL Définir un lien dont la cible est toujours présente]** : permet de définir un lien avec une cardinalité 1-1 entre les tables. La condition de jointure doit être définie par un seul enregistrement dans la table cible.
-* **[!UICONTROL Définir un lien dont la cible peut ne pas exister dans la base]** : permet de définir un lien avec une cardinalité 0-1 entre les tables. La condition de jointure doit être définie par 0 ou 1 enregistrement maximum dans la table cible.
+* **[!UICONTROL Définir une collection]** : permet de définir un lien avec une cardinalité 1-N entre les tables.
+* **[!UICONTROL Définir un lien dont la cible est toujours présente]** : permet de définir un lien avec une cardinalité 1-1 entre les tables. La condition de jointure doit être définie par un seul enregistrement dans la table cible.
+* **[!UICONTROL Définir un lien dont la cible peut ne pas exister dans la base]** : permet de définir un lien avec une cardinalité 0-1 entre les tables. La condition de jointure doit être définie par 0 ou 1 enregistrement maximum dans la table cible.
 
    Cette option est configurée dans l&#39;onglet **[!UICONTROL Jointure Simple]**, accessible par le lien **[!UICONTROL Editer les données additionnelles]** de l&#39;activité **[!UICONTROL Enrichissement]**.
 
-* **[!UICONTROL Définir un lien en recherchant une référence parmi plusieurs possibilités]** : ce type de lien définit une réconciliation vers un enregistrement unique. Adobe Campaign crée un lien vers une table cible en ajoutant une clef étrangère dans la table cible permettant de stocker une référence vers l&#39;enregistrement unique.
+* **[!UICONTROL Définir un lien en recherchant une référence parmi plusieurs possibilités]** : ce type de lien définit une réconciliation vers un enregistrement unique. Adobe Campaign crée un lien vers une table cible en ajoutant une clef étrangère dans la table cible permettant de stocker une référence vers l&#39;enregistrement unique.
 
    Cette option est configurée dans l&#39;onglet **[!UICONTROL Réconciliation &amp; déduplication]**, accessible par le lien **[!UICONTROL Editer les données additionnelles]** de l&#39;activité **[!UICONTROL Enrichissement]**.
 
@@ -58,11 +58,11 @@ Les cas d’utilisation détaillant le fonctionnement des activités d’enrichi
 
 ## Ajouter des informations {#adding-information}
 
-Utilisez l&#39;activité **[!UICONTROL Enrichissement]** pour ajouter des données additionnelles à la table de travail du workflow : cette activité peut être utilisée en complément d&#39;une activité de requête.
+Utilisez l&#39;activité **[!UICONTROL Enrichissement]** pour ajouter des données additionnelles à la table de travail du workflow : cette activité peut être utilisée en complément d&#39;une activité de requête.
 
 Le paramétrage des colonnes additionnelles est présenté dans la section [Ajouter des données](query.md#adding-data).
 
-Le champ **[!UICONTROL Ensemble principal]** permet de sélectionner la transition entrante : ce sont les données de la table de travail de cette activité qui seront enrichies.
+Le champ **[!UICONTROL Ensemble principal]** permet de sélectionner la transition entrante : ce sont les données de la table de travail de cette activité qui seront enrichies.
 
 Cliquez sur le lien **[!UICONTROL Ajouter des données]** et sélectionnez le type de données à ajouter. La liste des types de données proposés dépend des modules et options installés sur votre plateforme. Dans une configuration minimale, vous pouvez toujours ajouter des données liées à la dimension de filtrage et un lien.
 
@@ -76,7 +76,7 @@ Cliquez avec le bouton droit sur la transition entrante de l&#39;activité d&#39
 
 ![](assets/enrichment_content_before.png)
 
-La table de travail contient les données suivantes et le schéma associé :
+La table de travail contient les données suivantes et le schéma associé :
 
 ![](assets/enrichment_content_before_a.png)
 
@@ -84,7 +84,7 @@ Renouvelez cette opération en sortie de l&#39;étape d&#39;enrichissement.
 
 ![](assets/enrichment_content_after.png)
 
-Vous pouvez constater que les données relatives à l&#39;âge des profils ont été ajoutées :
+Vous pouvez constater que les données relatives à l&#39;âge des profils ont été ajoutées :
 
 ![](assets/enrichment_content_after_a.png)
 
@@ -96,19 +96,19 @@ Décochez l&#39;option **[!UICONTROL Conserver toutes les données additionnelle
 
 ![](assets/enrichment_edit_without_additional.png)
 
-Les données et le schéma en sortie de l&#39;étape d&#39;enrichissement seront alors les suivants :
+Les données et le schéma en sortie de l&#39;étape d&#39;enrichissement seront alors les suivants :
 
 ![](assets/enrichment_content_after_without_additional.png)
 
 ## Créer un lien {#creating-a-link}
 
-Vous pouvez utiliser l&#39;activité d&#39;enrichissement pour créer un lien entre les données de travail et les données de la base Adobe Campaign : il s&#39;agira d&#39;un lien local au workflow entre les données entrantes.
+Vous pouvez utiliser l&#39;activité d&#39;enrichissement pour créer un lien entre les données de travail et les données de la base Adobe Campaign : il s&#39;agira d&#39;un lien local au workflow entre les données entrantes.
 
 Par exemple, si vous chargez les données d&#39;un fichier contenant le numéro de compte, le pays et l&#39;email des destinataires, vous devez créer un lien vers la table des pays afin de mettre à jour cette information dans leur profil.
 
-Pour cela, les étapes sont les suivantes :
+Pour cela, les étapes sont les suivantes :
 
-1. Collectez et chargez un fichier de type :
+1. Collectez et chargez un fichier de type :
 
    ```
    Account number;Country;Email
@@ -133,15 +133,15 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/enrichment_add_a_link_select_join.png)
 
-En sortie de cette activité d&#39;enrichissement, le schéma temporaire contiendra le lien vers la table des pays :
+En sortie de cette activité d&#39;enrichissement, le schéma temporaire contiendra le lien vers la table des pays :
 
 ![](assets/enrichment_external_link_schema.png)
 
 ## Réconciliation des données {#data-reconciliation}
 
-L&#39;activité d&#39;enrichissement peut être utilisée pour paramétrer la réconciliation des données, notamment suite au chargement de données dans la base. Dans ce cas, l&#39;onglet **[!UICONTROL Réconciliation]** permet de définir le lien entre les données de la base Adobe Campaign et les données de la table de travail.
+L&#39;activité d&#39;enrichissement peut être utilisée pour paramétrer la réconciliation des données, notamment suite au chargement de données dans la base. Dans ce cas, l&#39;onglet **[!UICONTROL Réconciliation]** permet de définir le lien entre les données de la base Adobe Campaign et les données de la table de travail.
 
-Sélectionnez l&#39;option **[!UICONTROL Identifier le document de ciblage à partir des données de travail]** et indiquez le schéma vers lequel vous souhaitez faire le lien et indiquez les conditions de jointure : pour cela, sélectionnez les champs à réconcilier dans les données de travail (**[!UICONTROL Expression source]**) et dans la dimension de ciblage (**[!UICONTROL Expression destination]**).
+Sélectionnez l&#39;option **[!UICONTROL Identifier le document de ciblage à partir des données de travail]** et indiquez le schéma vers lequel vous souhaitez faire le lien et indiquez les conditions de jointure : pour cela, sélectionnez les champs à réconcilier dans les données de travail (**[!UICONTROL Expression source]**) et dans la dimension de ciblage (**[!UICONTROL Expression destination]**).
 
 Vous pouvez utiliser un ou plusieurs critères de réconciliation.
 
@@ -168,13 +168,13 @@ Après avoir paramétré votre requête (voir cette [section](query.md)) :
    ![](assets/int_enrichment_offer2.png)
 
 1. Indiquez un identifiant ainsi qu&#39;un libellé pour la proposition qui sera ajoutée.
-1. Définissez la sélection de l&#39;offre. Deux options sont possibles :
+1. Définissez la sélection de l&#39;offre. Deux options sont possibles :
 
-   * **[!UICONTROL Rechercher la meilleure offre dans une catégorie]** : cochez cette option et définissez les paramètres de l&#39;appel au moteur d&#39;offres (emplacement, catégorie ou thème(s), date de contact, nombre d&#39;offres à conserver). Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres. Il est conseillé de ne pas renseigner les champs **[!UICONTROL Catégorie]** et **[!UICONTROL Thèmes]** en même temps.
+   * **[!UICONTROL Rechercher la meilleure offre dans une catégorie]** : cochez cette option et définissez les paramètres de l&#39;appel au moteur d&#39;offres (emplacement, catégorie ou thème(s), date de contact, nombre d&#39;offres à conserver). Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres. Il est conseillé de ne pas renseigner les champs **[!UICONTROL Catégorie]** et **[!UICONTROL Thèmes]** en même temps.
 
       ![](assets/int_enrichment_offer3.png)
 
-   * **[!UICONTROL Une offre prédéfinie]** : cochez cette option et définissez un emplacement, une offre précise, ainsi qu&#39;une date de contact afin de directement paramétrer l&#39;offre que vous souhaitez ajouter, sans appeler le moteur d&#39;offres.
+   * **[!UICONTROL Une offre prédéfinie]** : cochez cette option et définissez un emplacement, une offre précise, ainsi qu&#39;une date de contact afin de directement paramétrer l&#39;offre que vous souhaitez ajouter, sans appeler le moteur d&#39;offres.
 
       ![](assets/int_enrichment_offer4.png)
 

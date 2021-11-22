@@ -35,7 +35,7 @@ Vous pouvez ainsi choisir de valider le contenu d&#39;une offre sur certains emp
 >
 >Lorsque le contenu et l&#39;éligibilité d&#39;une offre sont validés, le workflow de publication (Notification des offres) se lance automatiquement et l&#39;offre est ainsi mise en ligne et rendue disponible sur les emplacements activés.
 
-Pour valider le contenu d&#39;une offre, procédez comme suit :
+Pour valider le contenu d&#39;une offre, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Validation]** et sélectionnez **[!UICONTROL Valider le contenu]** dans le menu contextuel.
 
@@ -97,7 +97,7 @@ Le suivi des validations est disponible dans le tableau de bord de l&#39;offre. 
 
 ## Réinitialiser la validation {#restart-the-approval}
 
-Une fois la validation lancée, il est possible de la réinitialiser. Pour ce faire, suivez les instructions suivantes :
+Une fois la validation lancée, il est possible de la réinitialiser. Pour ce faire, suivez les instructions suivantes :
 
 1. Sur le tableau de bord de l&#39;offre, cliquez sur **[!UICONTROL Contenu validé]**.
 1. Dans la fenêtre **[!UICONTROL Edition]** qui apparait, sélectionnez la validation à réinitialiser, puis cliquez sur **[!UICONTROL Réinitialiser la validation pour la soumettre à nouveau]**.
@@ -113,7 +113,7 @@ Le tableau de bord de l&#39;offre disponible dans l&#39;environnement en éditio
 
 ![](assets/offer_golive_001.png)
 
-Pour afficher l&#39;offre disponible dans l&#39;environnement en ligne, cliquez sur le libellé de l&#39;offre : l&#39;offre en ligne dispose d&#39;un tableau de bord dans lequel se trouvent toutes les informations qui lui sont relatives.
+Pour afficher l&#39;offre disponible dans l&#39;environnement en ligne, cliquez sur le libellé de l&#39;offre : l&#39;offre en ligne dispose d&#39;un tableau de bord dans lequel se trouvent toutes les informations qui lui sont relatives.
 
 ![](assets/offer_golive_002.png)
 

@@ -37,17 +37,17 @@ Le champ **[!UICONTROL Dossier des visiteurs]** s&#39;affiche. Il est automatiqu
 
 ## Catalogue d&#39;offres pour interactions anonymes {#offer-catalog-for-anonymous-interactions}
 
-Comme les interactions sortantes, les interactions entrantes sont organisées au sein d&#39;un catalogue d&#39;offres composé de catégories et d&#39;offres.
+Tout comme les interactions sortantes, les interactions entrantes sont organisées au sein dʼun catalogue dʼoffres composé de catégories et dʼoffres.
 
 Pour créer des catégories et des emplacements, appliquez le même processus que pour les visiteurs identifiés (voir les sections [Créer des catégories d&#39;offres](../../interaction/using/creating-offer-categories.md) et [Créer un environnement d&#39;offres](../../interaction/using/live-design-environments.md#creating-an-offer-environment)).
 
 ## Les visiteurs anonymes {#anonymous-visitors}
 
-Les visiteurs anonymes peuvent être soumis à un processus d’identification par cookies intervenant au moment de la connexion. Cette reconnaissance implicite s’effectue à partir de l’historique de navigation du visiteur.
+Les visiteurs anonymes peuvent être soumis à un processus dʼidentification par cookies intervenant au moment de la connexion. Cette reconnaissance implicite sʼeffectue à partir de lʼhistorique de navigation du visiteur.
 
-Au cours de cette étape, une comparaison est effectuée entre les données récupérées par les cookies et celles qui se trouvent dans votre base de données. Dans certains cas, les visiteurs sont reconnus (ils sont alors identifiés implicitement) ; dans d’autres cas, ils ne le sont pas (et restent donc anonymes).
+Ce processus consiste à comparer les données récupérées par les cookies avec celles de votre base de données. Dans certains cas, les visiteurs sont reconnus (ils sont alors identifiés implicitement) ; dans d’autres cas, ils ne le sont pas (et restent donc anonymes).
 
-Afin d’effectuer cette analyse, au niveau de l’emplacement, cochez la case **[!UICONTROL Identifier implicitement l’individu à partir de son historique de navigation]**.
+Afin dʼeffectuer cette analyse, au niveau de lʼemplacement, cochez la case **[!UICONTROL Identifier implicitement lʼindividu à partir de son historique de navigation]**.
 
 ![](assets/identification_anonymous_visitors.png)
 

@@ -17,7 +17,7 @@ ht-degree: 94%
 
 ![](../../assets/v7-only.svg)
 
-Les API métier sont spécifiques à chaque type d&#39;objet. Elles agissent sur :
+Les API métier sont spécifiques à chaque type d&#39;objet. Elles agissent sur :
 
 * Diffusions :
 
@@ -34,7 +34,7 @@ Les API métier sont spécifiques à chaque type d&#39;objet. Elles agissent sur
 
 * Gestion de contenu
 * Gestion des abonnements, voir les sections [Subscribe (nms:subscription)](#subscribe--nms-subscription-) et [Unsubscribe (nms:subscription)](#unsubscribe--nms-subscription-).
-* Les traitements sur les données : imports, exports.
+* Les traitements sur les données : imports, exports.
 
 Cette section montre comment utiliser les services &quot;Subscribe&quot;, &quot;Unsubscribe&quot; et &quot;SubmitDelivery&quot;.
 
@@ -46,14 +46,14 @@ Cette section montre comment utiliser les services &quot;Subscribe&quot;, &quot;
 
 Ce service permet d&#39;inscrire un destinataire à un service d&#39;information et de mettre à jour son profil.
 
-L&#39;invocation du service nécessite les paramètres suivants :
+L&#39;invocation du service nécessite les paramètres suivants :
 
 * une authentification,
 * le nom interne du service d&#39;abonnement,
 * un document XML contenant les informations du destinataire (de schéma &quot;nms:recipient&quot;).
 * un booléen pour la création du destinataire s&#39;il n&#39;existe déjà pas.
 
-Description de la méthode &quot;subscribe&quot; dans le schéma &quot;nms:subscription&quot; :
+Description de la méthode &quot;subscribe&quot; dans le schéma &quot;nms:subscription&quot; :
 
 ```
 <method name="Subscribe" static="true">
@@ -103,7 +103,7 @@ Mise à jour du destinataire en plus de son abonnement.
    </SOAP-ENV:Envelope>
    ```
 
-* Réponse :
+* Réponse :
 
    ```
    <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -119,13 +119,13 @@ Mise à jour du destinataire en plus de son abonnement.
 
 Ce service permet de désinscrire un destinataire à un service d&#39;information et de mettre à jour son profil.
 
-L&#39;invocation du service nécessite les paramètres suivants :
+L&#39;invocation du service nécessite les paramètres suivants :
 
 * une authentification,
 * le nom interne du service à désabonner,
 * un document XML contenant les informations du destinataire (de schéma &quot;nms:recipient&quot;).
 
-Description de la méthode &quot;Unsubscribe&quot; dans le schéma &quot;nms:subscription&quot; :
+Description de la méthode &quot;Unsubscribe&quot; dans le schéma &quot;nms:subscription&quot; :
 
 ```
 <method name="Unsubscribe" static="true">
@@ -164,7 +164,7 @@ Requête:
 </SOAP-ENV:Body>
 ```
 
-Réponse :
+Réponse :
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -180,7 +180,7 @@ Réponse :
 
 Ce service permet de créer et soumettre une action de diffusion.
 
-L&#39;invocation du service nécessite les paramètres suivants :
+L&#39;invocation du service nécessite les paramètres suivants :
 
 * une authentification,
 * le nom interne du modèle de diffusion,
@@ -188,7 +188,7 @@ L&#39;invocation du service nécessite les paramètres suivants :
 
 Cette API ne doit pas être appelée en volume, car vous pouvez rencontrer des problèmes de performance.
 
-Description de la méthode dans son schéma :
+Description de la méthode dans son schéma :
 
 ```
 <method name="SubmitDelivery" static="true">
@@ -199,7 +199,7 @@ Description de la méthode dans son schéma :
 </method>
 ```
 
-Un modèle de diffusion doit être créé à partir de la console cliente Adobe Campaign, il contient les paramètres communs à tous les envois (adresse de l&#39;expéditeur ou la durée de validité du message).
+Un modèle de diffusion doit être créé à partir de la console cliente Adobe Campaign, il contient les paramètres communs à tous les envois (adresse de l&#39;expéditeur ou la durée de validité du message).
 
 Le document XML en entrée est un fragment de modèle de diffusion respectant la structure du schéma &quot;nms:delivery&quot;. Celui-ci va contenir toutes les données complémentaires qui n&#39;ont pas pu être définies de façon statique dans le modèle de diffusion (par exemple la liste des destinataires à cibler).
 

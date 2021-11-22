@@ -19,21 +19,21 @@ ht-degree: 100%
 
 ## Contexte
 
-Vous êtes un client important d’Adobe Campaign Classic et nous nous engageons à vous offrir la meilleure expérience et à optimiser la valeur créée. Au fil des ans, nous avons réalisé l’intérêt et la fiabilité de l’hébergement de nos clients dans le cloud.  Dans le cadre de notre [initiative Gold Standard](../../rn/using/gold-standard.md), nous effectuons la migration de tous nos clients vers Adobe Managed Services (cloud public d’AWS) pour offrir des services plus fiables et de meilleure qualité.
+Vous êtes un client important d’Adobe Campaign Classic et nous nous engageons à vous offrir la meilleure expérience et à optimiser la valeur créée. Au fil des ans, nous avons réalisé l’intérêt et la fiabilité de l’hébergement de nos clients dans le cloud.  Dans le cadre de notre [initiative Gold Standard](../../rn/using/gold-standard.md), nous effectuons la migration de tous nos clients vers Adobe Managed Services (cloud public d’AWS) pour offrir des services plus fiables et de meilleure qualité.
 
 Ce programme a trois objectifs principaux : 
 
 * Combler les vulnérabilités de sécurité identifiées en transférant l’infrastructure vers un environnement sécurisé et moderne (AWS).
 * Éliminer les processus d’extension potentiellement fastidieux, assurer l’accès à nos [agents MTA enrichis](../../delivery/using//sending-with-enhanced-mta.md) et améliorer l’ensemble des niveaux de service de maintenance.
-* Préparer votre instance pour la version future d’Adobe Campaign Classic, notamment des mises à niveau plus régulières et automatisées qui nécessiteront moins de ressources et de temps.
+* Préparer votre instance pour la version future d’Adobe Campaign Classic, notamment des mises à niveau plus régulières et automatisées qui nécessiteront moins de ressources et de temps.
 
 ### Glossaire
 
-* **Mise à niveau de build** : lorsque le logiciel Adobe Campaign Classic est mis à jour vers le numéro de build sécurisé le plus récent, tout en restant au même niveau de build majeur/mineur. Par exemple : Campaign v7 20.2.3 build 9182 vers Campaign v7 21.2.5 build 9188. [En savoir plus](../../platform/using/faq-build-upgrade.md).
-* **MID/RT** : serveurs d’exécution de messages hébergés sur Adobe Cloud (MID pour les campagnes par lots et RT pour les messages unitaires en temps réel).
+* **Mise à niveau de build** : lorsque le logiciel Adobe Campaign Classic est mis à jour vers le numéro de build sécurisé le plus récent, tout en restant au même niveau de build majeur/mineur. Par exemple : Campaign v7 20.2.3 build 9182 vers Campaign v7 21.2.5 build 9188. [En savoir plus](../../platform/using/faq-build-upgrade.md).
+* **MID/RT** : serveurs d’exécution de messages hébergés sur Adobe Cloud (MID pour les campagnes par lots et RT pour les messages unitaires en temps réel).
 * **Mise à niveau Gold Standard** : ce programme améliore la sécurité, le support, la maintenance et la stabilité. Il facilite également les futures mises à niveau et donne accès aux nouvelles fonctionnalités de Campaign.  [En savoir plus](../../rn/using/gs-overview.md).
-* **AWS** : Amazon Web Services (cloud public d’Amazon)
-* **SFTP** : protocole de transfert de fichiers sécurisé. [En savoir plus](../../platform/using/sftp-server-usage.md).
+* **AWS** : Amazon Web Services (cloud public d’Amazon)
+* **SFTP** : protocole de transfert de fichiers sécurisé. [En savoir plus](../../platform/using/sftp-server-usage.md).
 
 
 >[!NOTE]
@@ -61,7 +61,7 @@ Ce programme a trois objectifs principaux : 
 * Bases de données plus volumineuses
 * Version éprouvée de Campaign - Gold Standard
 
-**Proposer une solution fiable et robuste aux clients d’Adobe Campaign Classic**
+**Proposer une solution fiable et robuste aux clients d’Adobe Campaign Classic**
 
 1. Procédures de production plus performantes pour gagner en fiabilité, accroître la réactivité en cas de problème et accélérer la récupération suite à un incident majeur.
 1. Capacités supérieures d’envoi d’emails. Les instances hébergées dans le nouveau centre de données pourront bénéficier d’une infrastructure spécialisée pour la diffusion des emails. Ce choix pourrait entraîner une diffusion plus rapide des emails ou une diminution du nombre d’adresses IP d’envoi.
@@ -84,15 +84,15 @@ Il est possible de déclencher une migration en [ouvrant un nouveau ticket de su
 
 ### Cette migration est-elle obligatoire ?
 
-Cette migration vers le cloud est la **première étape vers la [certification Gold Standard](../../rn/using/gs-overview.md)** de vos instances Adobe Campaign. Elle est obligatoire si vous êtes hébergé dans un centre de données hors cloud public (AWS).
+Cette migration vers le cloud est la **première étape vers la [certification Gold Standard](../../rn/using/gs-overview.md)** de vos instances Adobe Campaign. Elle est obligatoire si vous êtes hébergé dans un centre de données hors cloud public (AWS).
 
 Le cloud Adobe Managed Services est hébergé sur Amazon Web Services (AWS), un environnement moderne, sécurisé et optimisé. [En savoir plus sur AWS](https://aws.amazon.com/application-hosting/benefits/).
 
-Adobe prévoit de mettre hors service l’ancien centre de données. Les instances d’Adobe Campaign qui y sont exécutées doivent être transférées vers AWS, le nouveau centre de données de référence.
+Adobe prévoit de mettre hors service l’ancien centre de données. Les instances d’Adobe Campaign qui y sont exécutées doivent être transférées vers AWS, le nouveau centre de données de référence.
 
 Cette marche à suivre est importante, car votre emplacement actuel peut être exposé à des **vulnérabilités concernant la sécurité et les performances**.
 
-En outre, cette migration est désormais une **condition préalable à toute mise à niveau future de votre version** d’Adobe Campaign. La mise à niveau de build n’est plus possible pour l’ancien centre de données.
+En outre, cette migration est désormais une **condition préalable à toute mise à niveau future de votre version** d’Adobe Campaign. La mise à niveau de build n’est plus possible pour l’ancien centre de données.
 
 Adobe s’engage à sécuriser vos données et à vous préparer pour les versions futures d’Adobe Campaign. Nous avons besoin de votre esprit de partenariat pour en faire un succès commun !
 

@@ -81,4 +81,4 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
 Rubriques connexes :
 
 * [Vue d’ensemble de la conformité d’Adobe Marketing Cloud](https://experienceleague.adobe.com/docs/core-services/assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
-* [Vue d’ensemble de la sécurité d’Adobe Campaign](https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/campaign/pdfs/54658.en.campaign.wp.adb-security.pdf) (PDF)
+* [Vue d’ensemble de la sécurité d’Adobe Campaign](https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/campaign/pdfs/54658.en.campaign.wp.adb-security.pdf) (PDF)

@@ -92,12 +92,12 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
   </tr> 
   <tr> 
    <td> Synthèse des diffusions (deliverySending)<br /> </td> 
-   <td> Synthèse des indicateurs de la diffusion : cible, exclusions et envois.<br /> </td> 
+   <td> Synthèse des indicateurs de la diffusion : cible, exclusions et envois.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> Synthèse des diffusions (deliveryStatistics)<br /> </td> 
-   <td> Tableau de synthèse des diffusions sélectionnées : cibles, exclusions et envois.<br /> </td> 
+   <td> Tableau de synthèse des diffusions sélectionnées : cibles, exclusions et envois.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
@@ -170,7 +170,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
   </tr> 
   <tr> 
    <td> Synthèse des diffusions (operationStatistics)<br /> </td> 
-   <td> Tableau de synthèse des diffusions de l'opération : cibles, exclusions et envois.<br /> </td> 
+   <td> Tableau de synthèse des diffusions de l'opération : cibles, exclusions et envois.<br /> </td> 
   </tr> 
   <tr> 
    <td> URL et flux de clics (operationTopUrlDelivery)<br /> </td> 
@@ -195,7 +195,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez les guide
   </tr> 
   <tr> 
    <td> Acquisitions des fans (socialAcquisitionsByWebapp)<br /> </td> 
-   <td> Quelles sont les applications web à l'origine des acquisitions de prospects ? Dépend du composant additionnel Social Marketing.<br /> </td> 
+   <td> Quelles sont les applications web à l'origine des acquisitions de prospects ? Dépend du composant additionnel Social Marketing.<br /> </td> 
   </tr> 
   <tr> 
    <td> Répartition des abonnements (mobileAppDistribution)<br /> </td> 
@@ -207,7 +207,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez les guide
   </tr> 
   <tr> 
    <td> Taux de réactivité (socialReactionRate)<br /> </td> 
-   <td> Quels sont les taux de réactivité obtenus par les dernières diffusions ? Dépend du composant additionnel Social Marketing.<br /> </td> 
+   <td> Quels sont les taux de réactivité obtenus par les dernières diffusions ? Dépend du composant additionnel Social Marketing.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de réactivité (mobileAppReactivityRate)<br /> </td> 

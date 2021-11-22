@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Ce cas pratique présente comment planifier l&#39;envoi d&#39;un email récurrent à une liste de destinataires le jour de leur anniversaire.
 
-Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblage suivant :
+Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblage suivant :
 
 ![](assets/birthday-workflow_usecase_1.png)
 
@@ -31,7 +31,7 @@ Ce workflow, exécuté quotidiennement, sélectionne tous les destinataires dont
 
 Pour ce faire, créez une campagne et cliquez sur l’onglet **[!UICONTROL Ciblage et workflows]**. Pour plus d&#39;informations, consultez la section [Construire la cible principale dans un workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
-Respectez ensuite les étapes suivantes :
+Respectez ensuite les étapes suivantes :
 
 ## Planification de l’envoi {#configuring-the-scheduler}
 
@@ -44,7 +44,7 @@ Respectez ensuite les étapes suivantes :
 
 Après avoir paramétré l&#39;activité **[!UICONTROL Planificateur]** pour que le workflow se déclenche quotidiennement, identifiez tous les destinataires dont la date de naissance correspond à la date courante.
 
-Pour cela, les étapes sont les suivantes :
+Pour cela, les étapes sont les suivantes :
 
 1. Positionnez une activité **[!UICONTROL Requête]** dans le workflow et double-cliquez dessus.
 1. Cliquez sur lien **Editer la requête** et sélectionnez **[!UICONTROL Critères de filtrage]**.
@@ -82,7 +82,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/s_ncs_user_create_exp_exple04.png)
 
-   La section supérieure de l&#39;éditeur d&#39;expression affiche alors la formule suivante :
+   La section supérieure de l&#39;éditeur d&#39;expression affiche alors la formule suivante :
 
    ```
    Day(GetDate())
@@ -92,7 +92,7 @@ Pour cela, les étapes sont les suivantes :
 
 1. Répétez l&#39;opération pour récupérer le mois de naissance correspondant au mois courant. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et répétez les étapes 3 à 10, en remplaçant la fonction **[!UICONTROL Day]** par la fonction **[!UICONTROL Month]**.
 
-   La requête complète est la suivante :
+   La requête complète est la suivante :
 
    ![](assets/s_ncs_user_create_exp_exple03.png)
 
@@ -102,19 +102,19 @@ Reliez le résultat de l&#39;activité **[!UICONTROL Requête]** à une activit�
 
 Si vous souhaitez inclure tous les destinataires nés un 29 février, ce cas pratique présente comment planifier l&#39;envoi d&#39;un email récurrent à une liste de destinataires le jour de leur anniversaire, qu&#39;il s&#39;agisse d&#39;une année bissextile ou non.
 
-Les étapes principales de mise en oeuvre de ce cas pratique sont les suivantes :
+Les étapes principales de mise en oeuvre de ce cas pratique sont les suivantes :
 
 * Sélection des destinataires
 * Sélection en cas d&#39;année non bissextile
 * Sélection des destinataires nés le 29 février
 
-Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblage suivant :
+Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblage suivant :
 
 
 
 Si l&#39;année en cours **n&#39;est pas une année bissextile** et que le workflow est exécuté le 1er mars, il faut sélectionner tous les destinataires dont l&#39;anniversaire était la veille (le 29 février) et les ajouter à la liste des destinataires. Dans tous les autres cas, aucune action supplémentaire n&#39;est requise.
 
-### Etape 1 : sélection des destinataires {#step-1--selecting-the-recipients}
+### Etape 1 : sélection des destinataires {#step-1--selecting-the-recipients}
 
 Après avoir paramétré l&#39;activité **[!UICONTROL Planificateur]** pour que le workflow se déclenche quotidiennement, identifiez tous les destinataires dont l&#39;anniversaire correspond à la date courante.
 
@@ -126,7 +126,7 @@ Après avoir paramétré l&#39;activité **[!UICONTROL Planificateur]** pour que
 
 La sélection des destinataires dont l’anniversaire correspond à la date actuelle est présentée dans la section [Identification des destinataires dont c’est l’anniversaire](#identifying-recipients-whose-birthday-it-is).
 
-### Etape 2 : sélection en cas d&#39;année non bissextile {#step-2--select-whether-or-not-it-is-a-leap-year}
+### Etape 2 : sélection en cas d&#39;année non bissextile {#step-2--select-whether-or-not-it-is-a-leap-year}
 
 L&#39;activité **[!UICONTROL Test]** permet de vérifier si l&#39;année est bissextile ou non et si la date courante est le 1er mars.
 
@@ -178,7 +178,7 @@ vars.firstOfMarch = 1;
 
 ![](assets/birthday-workflow_usecase_3.png)
 
-Ajoutez la condition suivante dans la section **[!UICONTROL Branchements conditionnels]** :
+Ajoutez la condition suivante dans la section **[!UICONTROL Branchements conditionnels]** :
 
 ```
 vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1

@@ -115,15 +115,15 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 
 ### Remarque concernant l’ajout d’adresses IP à la liste autorisée{#config}
 
-La migration vers le cloud public s’accompagne de nouvelles adresses IP pour les serveurs applicatifs Adobe Campaign. La modification de ces adresses peut avoir une incidence sur la connectivité entre les serveurs Adobe et vos systèmes d’information.
+La migration vers le cloud public s’accompagne de nouvelles adresses IP pour les serveurs applicatifs Adobe Campaign. La modification de ces adresses peut avoir une incidence sur la connectivité entre les serveurs Adobe et vos systèmes d’information.
 
 ![](assets/migration.png)
 
 Examinons les deux cas suivants :
 
-* Trafic entrant : toute activité réseau déclenchée à partir de vos systèmes ou de tout autre tiers vers les serveurs Adobe Campaign. La configuration est gérée par Adobe, puis copiée de l’ancienne plateforme vers le cloud public au cours de la migration. Suite à la migration, la connectivité du trafic entrant est donc préservée et aucune action n’est requise de la part du client.
+* Trafic entrant : toute activité réseau déclenchée à partir de vos systèmes ou de tout autre tiers vers les serveurs Adobe Campaign. La configuration est gérée par Adobe, puis copiée de l’ancienne plateforme vers le cloud public au cours de la migration. Suite à la migration, la connectivité du trafic entrant est donc préservée et aucune action n’est requise de la part du client.
 
-* Trafic sortant : toute activité réseau déclenchée par les serveurs Adobe Campaign vers votre système d’information ou tout autre tiers (par exemple, un fournisseur de services SMS). Selon les stratégies de sécurité mises en place au sein de votre organisation, le changement des adresses IP peut nécessiter une opération d’ajout à la liste autorisée à partir de votre système d’information ou de tout autre tiers.
+* Trafic sortant : toute activité réseau déclenchée par les serveurs Adobe Campaign vers votre système d’information ou tout autre tiers (par exemple, un fournisseur de services SMS). Selon les stratégies de sécurité mises en place au sein de votre organisation, le changement des adresses IP peut nécessiter une opération d’ajout à la liste autorisée à partir de votre système d’information ou de tout autre tiers.
 
 ### Incidences globales
 
@@ -169,7 +169,7 @@ Les incidences globales sur la configuration, la connectivité avec d’autres s
 
    Il peut changer en fonction de la nouvelle localisation des serveurs. Toutefois, le client pourra conserver son fuseau horaire actuel.
 
-   [Cliquez ici](../../workflow/using/managing-time-zones.md) pour en savoir plus sur la gestion des fuseaux horaires dans Adobe Campaign Classic v7.
+   [Cliquez ici](../../workflow/using/managing-time-zones.md) pour en savoir plus sur la gestion des fuseaux horaires dans Adobe Campaign Classic v7.
 
 
 ## Sécurité et autorisations
@@ -225,7 +225,7 @@ Les incidences globales au cours de la migration sont répertoriées ci-dessous.
 
    Adobe recommande de ralentir, voire idéalement de suspendre toutes les exécutions de workflows et de diffusions juste avant l’arrêt de l’application sur l’ancien centre de données. Il sera ainsi plus facile de redémarrer les activités sur le serveur cloud (AWS), car les processus auront eu le temps nécessaire pour s’interrompre de manière « élégante » et enregistrer l’état d’exécution en cours.
 
-* **Devons-nous prévoir un temps d’arrêt de notre service Adobe Campaign ?**
+* **Devons-nous prévoir un temps d’arrêt de notre service Adobe Campaign ?**
 
    La migration s’accompagnera d’un temps d’arrêt inévitable de la plateforme. Le but de ce plan est de contribuer à minimiser ces temps d’inactivité.
 

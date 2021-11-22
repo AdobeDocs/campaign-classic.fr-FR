@@ -21,11 +21,11 @@ ht-degree: 100%
 
 Si vous souhaitez mettre à jour les profils stockés en base via un formulaire web, vous pouvez utiliser une boîte de préchargement. La boîte de préchargement permet d&#39;indiquer comment retrouver l&#39;enregistrement à mettre à jour dans la base de données.
 
-Les méthodes d&#39;identification possibles sont les suivantes :
+Les méthodes d&#39;identification possibles sont les suivantes :
 
-* **[!UICONTROL Chiffrement Adobe Campaign]**
+* **[!UICONTROL Chiffrement Adobe Campaign]**
 
-   Cette méthode de chiffrement utilise l&#39;identifiant (ID) chiffré par Adobe Campaign. Cette méthode n&#39;est applicable que sur un objet Adobe Campaign et l&#39;identifiant chiffré ne peut être généré que par la plateforme Adobe Campaign.
+   Cette méthode de chiffrement utilise l&#39;identifiant (ID) chiffré par Adobe Campaign. Cette méthode n&#39;est applicable que sur un objet Adobe Campaign et l&#39;identifiant chiffré ne peut être généré que par la plateforme Adobe Campaign.
 
    Lorsque vous utilisez cette méthode, vous devez adapter l&#39;URL du formulaire lorsque vous diffusez l&#39;adresse par email en y ajoutant le paramètre **`<%=escapeUrl(recipient.cryptedId) %>`**. Voir à ce sujet la section [Diffuser un formulaire par email](#delivering-a-form-via-email).
 
@@ -33,7 +33,7 @@ Les méthodes d&#39;identification possibles sont les suivantes :
 
    ![](assets/s_ncs_admin_survey_preload_methods_001.png)
 
-   Cette méthode de chiffrement utilise un identifiant (ID) fourni de l&#39;extérieur associé à une clé commune entre Adobe Campaign et le fournisseur externe. Le champ **[!UICONTROL Clé DES]** permet de saisir cette clé de chiffrement.
+   Cette méthode de chiffrement utilise un identifiant (ID) fourni de l&#39;extérieur associé à une clé commune entre Adobe Campaign et le fournisseur externe. Le champ **[!UICONTROL Clé DES]** permet de saisir cette clé de chiffrement.
 
 * **[!UICONTROL Liste de champs]**
 
@@ -45,7 +45,7 @@ Les méthodes d&#39;identification possibles sont les suivantes :
 
    >[!CAUTION]
    >
-   >Les données des champs sélectionnées ne sont pas chiffrées. Elles ne doivent pas être fournies sous forme chiffrée car Adobe Campaign ne pourra pas les déchiffrer si l&#39;option **[!UICONTROL Liste de champs]** est sélectionnée.
+   >Les données des champs sélectionnées ne sont pas chiffrées. Elles ne doivent pas être fournies sous forme chiffrée car Adobe Campaign ne pourra pas les déchiffrer si l&#39;option **[!UICONTROL Liste de champs]** est sélectionnée.
 
    Dans l&#39;exemple ci-dessous, le pré-chargement du profil est basé sur l&#39;adresse email.
 
@@ -79,7 +79,7 @@ Une fois le formulaire créé, configuré et publié, vous pouvez le diffuser et
 
 ### Cycle de vie d&#39;un formulaire {#life-cycle-of-a-form}
 
-Le cycle de vie d&#39;un formulaire se décompose en trois étapes :
+Le cycle de vie d&#39;un formulaire se décompose en trois étapes :
 
 1. **Formulaire en édition**
 
@@ -101,7 +101,7 @@ Le cycle de vie d&#39;un formulaire se décompose en trois étapes :
 
 1. **Formulaire indisponible**
 
-   Une fois la date de clôture du formulaire atteinte, la phase de diffusion est terminée et le formulaire est indisponible : il n&#39;est plus accessible aux utilisateurs.
+   Une fois la date de clôture du formulaire atteinte, la phase de diffusion est terminée et le formulaire est indisponible : il n&#39;est plus accessible aux utilisateurs.
 
    La date d’expiration peut être définie dans la fenêtre des propriétés du formulaire. Voir à ce sujet la section [Mettre un formulaire à disposition](#making-a-form-available-online).
 
@@ -129,7 +129,7 @@ Pour être accessible par les utilisateurs, le formulaire doit être en producti
 
 ### Diffuser un formulaire par email {#delivering-a-form-via-email}
 
-Lorsque vous diffusez une invitation par email, vous pouvez utiliser l&#39;option **[!UICONTROL Chiffrement Adobe Campaign]** pour assurer la réconciliation des données. Pour cela, dans l&#39;assistant de diffusion, vous devez adapter le lien vers le formulaire en ajoutant le paramètre suivant :
+Lorsque vous diffusez une invitation par email, vous pouvez utiliser l&#39;option **[!UICONTROL Chiffrement Adobe Campaign]** pour assurer la réconciliation des données. Pour cela, dans l&#39;assistant de diffusion, vous devez adapter le lien vers le formulaire en ajoutant le paramètre suivant :
 
 ```
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">

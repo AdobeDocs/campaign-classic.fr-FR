@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Si l&#39;instance comporte plusieurs comptes externes SMS, vous devez vérifier que les problèmes ne sont pas causés par un conflit entre comptes externes.
 
-Adobe Campaign traite les comptes externes comme des entités non liées.
+Adobe Campaign traite les comptes externes comme des entités non liées.
 
 Si vous disposez de plusieurs comptes, procédez comme suit pour isoler le compte externe qui pose problème :
 
@@ -39,7 +39,7 @@ Une fois que vous avez vérifié chaque compte individuellement, il existe 2 sc�
 
 * **Le problème ne s&#39;affichait pas lorsqu&#39;un seul compte était actif à un moment donné.**
 
-   Vous avez un conflit entre les comptes. Comme nous l&#39;avons déjà mentionné, Adobe Campaign traite les comptes individuellement, mais le fournisseur peut les traiter comme un compte unique.
+   Vous avez un conflit entre les comptes. Comme nous l&#39;avons déjà mentionné, Adobe Campaign traite les comptes individuellement, mais le fournisseur peut les traiter comme un compte unique.
 
    * Vous utilisez des combinaisons nom d&#39;utilisateur / mot de passe différentes entre tous vos comptes.
 Vous devrez contacter le fournisseur pour qu&#39;il diagnostique les conflits potentiels de son côté.
@@ -48,7 +48,7 @@ Vous devrez contacter le fournisseur pour qu&#39;il diagnostique les conflits po
 Le fournisseur n&#39;a aucun moyen de savoir de quel compte externe provient le `BIND PDU`, de sorte qu&#39;il traite toutes les connexions à partir de plusieurs comptes comme une seule. Il se peut qu&#39;il ait redirigé les MO et SR de manière aléatoire sur les deux comptes, ce qui a provoqué des problèmes.
 Si le fournisseur prend en charge plusieurs codes courts pour le même nom d&#39;utilisateur / mot de passe, vous devrez leur demander où placer ce numéro court dans le `BIND PDU`. Notez que cette information doit être placée dans le `BIND PDU` et non dans `SUBMIT_SM`, puisque le `BIND PDU` est le seul endroit qui permettra d&#39;utiliser correctement les MO de routage.
 Consultez la section [Informations dans chaque type de PDU](sms-protocol.md#information-pdu) ci-dessus pour savoir quel champ est disponible dans le `BIND PDU`, en général vous ajoutez le numéro court dans `address_range`, mais cela nécessite une assistance spéciale de la part du fournisseur. Contactez-le pour savoir comment il s&#39;attend à acheminer de manière indépendante plusieurs numéros courts.
-Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le même compte externe.
+Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le même compte externe.
 
 ## Problème avec un compte externe en général {#external-account-issues}
 
@@ -81,7 +81,7 @@ Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le m�
 
 * Vérifiez que le réseau est correctement configuré pour que la connexion TCP puisse être établie avec le fournisseur.
 
-* Demandez au fournisseur de vérifier s&#39;il a correctement ajouté les adresses IP à la liste autorisée de l&#39;instance Adobe Campaign.
+* Demandez au fournisseur de vérifier s&#39;il a correctement ajouté les adresses IP à la liste autorisée de l&#39;instance Adobe Campaign.
 
 * Vérifiez les paramètres **Compte externe**. Demandez au fournisseur la valeur des champs.
 
@@ -93,11 +93,11 @@ Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le m�
 
 Une connexion est considérée comme instable si l&#39;une des situations suivantes se produit :
 
-* La connexion dure moins d&#39;une heure. Les connexions d&#39;émetteur Adobe Campaign Classic constituent une exception en raison du fonctionnement du MTA Adobe Campaign Classic.
+* La connexion dure moins d&#39;une heure. Les connexions d&#39;émetteur Adobe Campaign Classic constituent une exception en raison du fonctionnement du MTA Adobe Campaign Classic.
 
 * Le fournisseur envoie `UNBIND PDU`.
 
-* `enquire_link` expire, soit du côté d&#39;Adobe Campaign, soit du côté du fournisseur. Dans ce cas, `ENQUIRE_LINK_RESP` peut s&#39;afficher avec un code d&#39;erreur non nul.
+* `enquire_link` expire, soit du côté d&#39;Adobe Campaign, soit du côté du fournisseur. Dans ce cas, `ENQUIRE_LINK_RESP` peut s&#39;afficher avec un code d&#39;erreur non nul.
 
 * Il y a beaucoup de `BIND PDU`.Il ne doit pas y en avoir plus de quelques-uns durant une journée, selon le nombre de connexions. L&#39;apparition de plusieurs PDU BIND par heure doit attirer l&#39;attention.
 
@@ -117,7 +117,7 @@ Comment résoudre les problèmes de stabilité de connexion :
 
 ## Problème lors de l&#39;envoi d&#39;un MT (SMS régulier envoyé à un utilisateur final){#issue-MT}
 
-* Vérifiez que la connexion est stable. Une connexion SMPP doit durer au moins une heure en continu, sauf pour les émetteurs sur Adobe Campaign Classic. Pour plus d&#39;informations, consultez la section [Problème de connexion instable](sms-protocol.md#issues-unstable-connection).
+* Vérifiez que la connexion est stable. Une connexion SMPP doit durer au moins une heure en continu, sauf pour les émetteurs sur Adobe Campaign Classic. Pour plus d&#39;informations, consultez la section [Problème de connexion instable](sms-protocol.md#issues-unstable-connection).
 
 * Si le redémarrage du MTA entraîne l&#39;envoi de MT à nouveau opérationnel pendant une petite période de temps, vous avez probablement un ralentissement dû à une connexion instable. Pour plus d&#39;informations, consultez la section [Problème de connexions instables](troubleshooting-sms.md#issues-unstable-connection).
 
@@ -133,7 +133,7 @@ Comment résoudre les problèmes de stabilité de connexion :
 
 * Si toutes ces étapes fonctionnent, vous pouvez être certain que le problème est du côté fournisseur. Il devra effectuer la résolution des problèmes sur sa plateforme.
 
-* Si cela fonctionne mais que le débit n&#39;est pas constant, essayez d&#39;ajuster la fenêtre d&#39;émission et d&#39;abaisser le débit MT. Vous devrez travailler avec le fournisseur pour l&#39;ajuster. Adobe Campaign peut envoyer des messages très rapidement de sorte que des problèmes de performances peuvent survenir sur l&#39;équipement du fournisseur.
+* Si cela fonctionne mais que le débit n&#39;est pas constant, essayez d&#39;ajuster la fenêtre d&#39;émission et d&#39;abaisser le débit MT. Vous devrez travailler avec le fournisseur pour l&#39;ajuster. Adobe Campaign peut envoyer des messages très rapidement de sorte que des problèmes de performances peuvent survenir sur l&#39;équipement du fournisseur.
 
 ## Les MT sont dupliquées (le même SMS est envoyé plusieurs fois de suite){#duplicated-MT}
 
@@ -153,7 +153,7 @@ Réduction du nombre de doublons en cas de nouvelle reprise :
 
 * Vérifiez que le `DELIVER_SM PDU` vient du fournisseur et qu&#39;il est correctement formé.
 
-* Vérifiez que Adobe Campaign répond avec succès `DELIVER_SM_RESP PDU` dans les délais impartis. Sur Adobe Campaign Classic, cela garantit que le SR a été inséré dans la table `providerMsgId` pour le traitement différé par le processus SMS.
+* Vérifiez que Adobe Campaign répond avec succès `DELIVER_SM_RESP PDU` dans les délais impartis. Sur Adobe Campaign Classic, cela garantit que le SR a été inséré dans la table `providerMsgId` pour le traitement différé par le processus SMS.
 
 Si le `DELIVER_SM PDU` n&#39;est pas suivi d&#39;un acquittement, vérifiez ce qui suit :
 
@@ -161,7 +161,7 @@ Si le `DELIVER_SM PDU` n&#39;est pas suivi d&#39;un acquittement, vérifiez ce q
 
 * Vérifiez que les erreurs sont correctement configurées dans le tableau `broadLogMsg`.
 
-Si `DELIVER_SM PDU` a été reconnu par le connecteur SMPP étendu Adobe Campaign Classic mais que le broadLog n&#39;est pas mis à jour correctement, vérifiez le processus de réconciliation des identifiants décrit dans la section [Correspondance des entrées MT, SR et Broadlog](sms-protocol.md#matching-mt).
+Si `DELIVER_SM PDU` a été reconnu par le connecteur SMPP étendu Adobe Campaign Classic mais que le broadLog n&#39;est pas mis à jour correctement, vérifiez le processus de réconciliation des identifiants décrit dans la section [Correspondance des entrées MT, SR et Broadlog](sms-protocol.md#matching-mt).
 
 Si vous avez tout corrigé, mais que des SR non valides figurent toujours dans les tampons du fournisseur, vous pouvez les ignorer à l&#39;aide de l&#39;option Nombre d&#39;acquittements d&#39;identifiant invalides. Cette option doit être utilisée avec soin et réinitialisée à 0 aussi vite que possible après le nettoyage des tampons.
 
@@ -173,7 +173,7 @@ Si vous avez tout corrigé, mais que des SR non valides figurent toujours dans l
 
 * Si le MO (`DELIVER_SM PDU`) n&#39;apparaît pas dans les traces, le problème est du côté fournisseur. Il devra effectuer une résolution des problèmes sur sa plateforme.
 
-* Si le `DELIVER_SM PDU` apparaît, vérifiez qu&#39;Adobe Campaign a confirmé sa réception avec un `DELIVER_SM_RESP PDU` indiquant un succès (code 0). Ce RESP garantit que toute la logique de traitement a été appliquée par Adobe Campaign (réponse automatique et liste autorisée / liste bloquée). Si ce n&#39;est pas le cas, recherchez un message d&#39;erreur dans les logs de processus SMS.
+* Si le `DELIVER_SM PDU` apparaît, vérifiez qu&#39;Adobe Campaign a confirmé sa réception avec un `DELIVER_SM_RESP PDU` indiquant un succès (code 0). Ce RESP garantit que toute la logique de traitement a été appliquée par Adobe Campaign (réponse automatique et liste autorisée / liste bloquée). Si ce n&#39;est pas le cas, recherchez un message d&#39;erreur dans les logs de processus SMS.
 
 * Si les réponses automatiques sont activées, vérifiez que `SUBMIT_SM` a été envoyé au fournisseur. Si ce n&#39;est pas le cas, il est garanti qu&#39;un message d&#39;erreur se trouvera dans les logs de processus SMS.
 
@@ -183,17 +183,17 @@ Si vous avez tout corrigé, mais que des SR non valides figurent toujours dans l
 
 * Vérifiez que le format du numéro de téléphone est exactement le même dans la table de quarantaine et dans le log de diffusion. Si ce n&#39;est pas le cas, consultez cette [section](sms-protocol.md#automatic-reply) si vous rencontrez des problèmes avec le préfixe plus du format de numéro de téléphone international.
 
-* Vérifiez les numéros courts. Des exclusions peuvent se produire si le numéro court du destinataire est identique à celui défini dans le compte externe ou s&#39;il est vide (vide = tout numéro court). Si un seul numéro court est utilisé pour l&#39;ensemble de l&#39;instance Adobe Campaign, il est plus facile de laisser tous les champs de **numéro court** vides.
+* Vérifiez les numéros courts. Des exclusions peuvent se produire si le numéro court du destinataire est identique à celui défini dans le compte externe ou s&#39;il est vide (vide = tout numéro court). Si un seul numéro court est utilisé pour l&#39;ensemble de l&#39;instance Adobe Campaign, il est plus facile de laisser tous les champs de **numéro court** vides.
 
 ## Problèmes d&#39;encodage {#encoding-issues}
 
 **Étape 1 : Contacter le fournisseur**
 
-Contactez-le et vérifiez la nature du problème rencontré de son côté. Il devrait pouvoir vous dire si le problème est de son côté ou de celui d&#39;Adobe Campaign. Si le problème concerne Adobe Campaign, il devrait être en mesure de préciser exactement le champ incorrect.
+Contactez-le et vérifiez la nature du problème rencontré de son côté. Il devrait pouvoir vous dire si le problème est de son côté ou de celui d&#39;Adobe Campaign. Si le problème concerne Adobe Campaign, il devrait être en mesure de préciser exactement le champ incorrect.
 
 **Étape 2 : Connaître le contenu de votre message**
 
-Unicode permet de nombreuses variantes pour les caractères identiques et Adobe Campaign ne peut pas toutes les gérer.
+Unicode permet de nombreuses variantes pour les caractères identiques et Adobe Campaign ne peut pas toutes les gérer.
 
 La source de problèmes la plus courante est le copier-coller d&#39;un traitement de texte, qui transforme les caractères habituels en versions typographiques correctes : espaces changés en espaces insécables, guillemets doubles changés en guillemets ouvrants et fermants, signes moins changés en différents types de tirets, etc.
 
@@ -217,7 +217,7 @@ Envoyez différents types de caractères spéciaux lors du test. Par exemple, l&
 
 ## Éléments à inclure lors de la communication sur un problème SMS {#element-include}
 
-Chaque fois que vous cherchez de l&#39;aide sur une question de SMS, que ce soit en ouvrant un ticket d&#39;assistance à Adobe Campaign, au fournisseur de SMS, ou tout autre type de communication sur la question, vous devrez inclure les informations suivantes pour vous assurer qu&#39;elle sera correctement qualifiée. Des problèmes correctement qualifiés sont essentiels pour résoudre les problèmes plus rapidement.
+Chaque fois que vous cherchez de l&#39;aide sur une question de SMS, que ce soit en ouvrant un ticket d&#39;assistance à Adobe Campaign, au fournisseur de SMS, ou tout autre type de communication sur la question, vous devrez inclure les informations suivantes pour vous assurer qu&#39;elle sera correctement qualifiée. Des problèmes correctement qualifiés sont essentiels pour résoudre les problèmes plus rapidement.
 
 * **Activez les messages SMPP de verbose** lorsque le problème apparaît. La plupart des problèmes de SMS sont impossibles à résoudre sans cela.
 
@@ -257,7 +257,7 @@ Dans toutes les autres situations, essayez d&#39;abord d&#39;analyser les messag
 
 Dans certains cas, la capture du trafic réseau n&#39;est pas nécessaire. Voici les situations les plus courantes :
 
-* TLS activé : par définition, le trafic TLS est chiffré, et il ne peut pas être capturé.
+* TLS activé : par définition, le trafic TLS est chiffré, et il ne peut pas être capturé.
 
 * Problèmes de performances : les logs contiennent toutes les informations nécessaires pour tracer les problèmes de performance.
 

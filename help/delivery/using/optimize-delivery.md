@@ -64,9 +64,9 @@ Lorsque vous commencez à envoyer des emails sur une nouvelle plateforme, vous p
 
 * Si vous disposez d&#39;une liste d&#39;adresses invalides, Adobe recommande de l&#39;importer dans la table des quarantaines, par le biais de **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Gestion des NP@I]** > **[!UICONTROL NP@I et Adresses]**.
 
-* Les destinataires dont l’adresse est en quarantaine sont par défaut exclus lors de l’analyse d’une diffusion : ils ne seront pas ciblés. Le taux d’erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés. Une adresse email peut être mise en quarantaine par exemple lorsque la boîte de messagerie est pleine ou si l’adresse n’existe pas. [En savoir plus](#identifying-quarantined-addresses-for-a-delivery)
+* Les destinataires dont l’adresse est en quarantaine sont par défaut exclus lors de l’analyse d’une diffusion : ils ne seront pas ciblés. Le taux d’erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés. Une adresse email peut être mise en quarantaine par exemple lorsque la boîte de messagerie est pleine ou si l’adresse n’existe pas. [En savoir plus](#identifying-quarantined-addresses-for-a-delivery)
 
-* Le mode de gestion des adresses en erreur par Adobe Campaign dépend du type d’erreur retourné. Voir à ce propos [cette section](understanding-quarantine-management.md).
+* Le mode de gestion des adresses en erreur par Adobe Campaign dépend du type d’erreur retourné. Voir à ce propos [cette section](understanding-quarantine-management.md).
 
 
 * Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d&#39;éviter d&#39;être ajouté à une liste bloquée par ces fournisseurs.

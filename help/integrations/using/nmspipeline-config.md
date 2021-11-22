@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Une fois l&#39;authentification effectuée, [!DNL pipelined] peut récupérer les événements et les traiter. Il traite uniquement les déclencheurs configurés dans Adobe Campaign, en ignorant les autres. Le déclencheur doit avoir été généré à partir d&#39;Analytics et envoyé au pipeline avant.
+Une fois l&#39;authentification effectuée, [!DNL pipelined] peut récupérer les événements et les traiter. Il traite uniquement les déclencheurs configurés dans Adobe Campaign, en ignorant les autres. Le déclencheur doit avoir été généré à partir d&#39;Analytics et envoyé au pipeline avant.
 L&#39;option peut également être configurée avec un caractère générique pour capturer tous les déclencheurs, quel que soit leur nom.
 
 La configuration des déclencheurs s&#39;effectue dans une option, sous **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Le nom de l&#39;option est **[!UICONTROL NmsPipeline_Config]**. Le type de données est &quot;texte long&quot; au format JSON.
@@ -76,7 +76,7 @@ Le paramètre &quot;consommateur&quot; identifie l&#39;instance comme l&#39;un d
 
 ## Configuration de l&#39;option Pipeline {#configure-pipeline-option}
 
-Ajoutez ou modifiez les Triggers Experience Cloud sous le tableau « triggers » ; ne modifiez pas le reste.
+Ajoutez ou modifiez les Triggers Experience Cloud sous le tableau « triggers » ; ne modifiez pas le reste.
 Assurez-vous que le fichier JSON est valide à l’aide de ce [site Web](https://jsonlint.com/).
 
 * &quot;name&quot; est l&#39;identifiant du déclencheur. Un caractère générique &quot;*&quot; capture tous les déclencheurs.

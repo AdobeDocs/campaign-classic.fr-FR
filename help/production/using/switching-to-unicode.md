@@ -17,42 +17,42 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Soit une instance **prod** existante sous Linux/PostgreSQL, les étapes de transformation en Unicode de cette instance sont les suivantes :
+Soit une instance **prod** existante sous Linux/PostgreSQL, les étapes de transformation en Unicode de cette instance sont les suivantes :
 
-1. Arrêter les processus qui écrivent dans la base :
+1. Arrêter les processus qui écrivent dans la base :
 
    ```
    su - neolane
    nlserver shutdown
    ```
 
-1. Dumper la base :
+1. Dumper la base :
 
    ```
    su - postgres
    pg_dump mydatabase > mydatabase.sql
    ```
 
-1. Créer une base Unicode :
+1. Créer une base Unicode :
 
    ```
    createdb -E UNICODE mydatabase_unicode
    ```
 
-1. Restaurer la base :
+1. Restaurer la base :
 
    ```
    psql mydatabase_unicode < mydatabase.sql
    ```
 
-1. Mettre à jour l&#39;option qui indique que la base est Unicode :
+1. Mettre à jour l&#39;option qui indique que la base est Unicode :
 
    ```
    psql mydatabase_unicode
    update XtkOption set sStringValue = 'u'||sStringValue where sName='XtkDatabaseId' and sStringValue not like 'u%';
    ```
 
-1. Sur les serveurs de tracking :
+1. Sur les serveurs de tracking :
 
    ```
    su - neolane
@@ -60,7 +60,7 @@ Soit une instance **prod** existante sous Linux/PostgreSQL, les étapes de trans
    vi config-prod.xml
    ```
 
-   Ajouter le caractère **u** devant la valeur relative à l&#39;identifiant de la base de données (**databaseId**) :
+   Ajouter le caractère **u** devant la valeur relative à l&#39;identifiant de la base de données (**databaseId**) :
 
    ```
    <web>
@@ -68,7 +68,7 @@ Soit une instance **prod** existante sous Linux/PostgreSQL, les étapes de trans
    </web>
    ```
 
-1. Sur les serveurs appelant la base :
+1. Sur les serveurs appelant la base :
 
    ```
    su - neolane
@@ -76,7 +76,7 @@ Soit une instance **prod** existante sous Linux/PostgreSQL, les étapes de trans
    vi config-prod.xml
    ```
 
-   Modifier la référence de la base :
+   Modifier la référence de la base :
 
    ```
    <dataSource name="default">
@@ -86,7 +86,7 @@ Soit une instance **prod** existante sous Linux/PostgreSQL, les étapes de trans
    </dataSource>
    ```
 
-1. Redémarrer toutes les machines :
+1. Redémarrer toutes les machines :
 
    ```
    /etc/init.d/apache stop
@@ -95,7 +95,7 @@ Soit une instance **prod** existante sous Linux/PostgreSQL, les étapes de trans
    /etc/init.d/apache start
    ```
 
-1. Valider la transformation. Pour cela, se connecter via la console Adobe Campaign et :
+1. Valider la transformation. Pour cela, se connecter via la console Adobe Campaign et :
 
    * vérifier que les données s&#39;affichent correctement, notamment les caractères accentués,
    * lancer une diffusion et vérifier que la récupération du tracking fonctionne.

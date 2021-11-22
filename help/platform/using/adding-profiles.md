@@ -23,4 +23,4 @@ Dans la plupart des cas, les profils sont [importés dans Campaign par le biais 
 
 Renseignez les informations de ce profil. Les onglets et les champs à compléter sont décrits dans la section [Editer un profil](../../platform/using/editing-a-profile.md).
 
-Cliquez sur **[!UICONTROL Enregistrer]** pour valider la création du profil. Le profil est alors ajouté à la base de données Adobe Campaign.
+Cliquez sur **[!UICONTROL Enregistrer]** pour valider la création du profil. Le profil est alors ajouté à la base de données Adobe Campaign.

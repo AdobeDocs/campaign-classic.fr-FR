@@ -25,7 +25,7 @@ Cette activité peut être configurée afin de renseigner des paramètres spéci
 
 ![](assets/wf_split_cells_with_customization.png)
 
-Pour réaliser ce paramétrage, les informations suivantes ont été ajoutées dans le formulaire des workflows (sous le noeud **[!UICONTROL Administration > Paramétrages > Formulaires de saisie]** de l&#39;arborescence Adobe Campaign) :
+Pour réaliser ce paramétrage, les informations suivantes ont été ajoutées dans le formulaire des workflows (sous le noeud **[!UICONTROL Administration > Paramétrages > Formulaires de saisie]** de l&#39;arborescence Adobe Campaign) :
 
 ```
 <container img="nms:miniatures/mini-enrich.png" label="Data">
@@ -50,4 +50,4 @@ Pour réaliser ce paramétrage, les informations suivantes ont été ajoutées d
                 </container>
 ```
 
-La personnalisation des formulaires de saisie sous Adobe Campaign est réservée à des utilisateurs experts. Reportez-vous à ce sujet à cette [section](../../configuration/using/identifying-a-form.md).
+La personnalisation des formulaires de saisie sous Adobe Campaign est réservée à des utilisateurs experts. Reportez-vous à ce sujet à cette [section](../../configuration/using/identifying-a-form.md).

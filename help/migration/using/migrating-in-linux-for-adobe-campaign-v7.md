@@ -32,7 +32,7 @@ Les étapes de migration sous Linux sont les suivantes :
 Arrêtez d&#39;abord tous les processus accédant à la base de données, sur toutes les machines concernées.
 
 1. Connectez-vous en tant que **root**.
-1. Les serveurs utilisant le module de redirection (service **webmdl**) doivent être arrêtés. Pour Apache, exécutez la commande suivante :
+1. Les serveurs utilisant le module de redirection (service **webmdl**) doivent être arrêtés. Pour Apache, exécutez la commande suivante :
 
    ```
    /etc/init.d/apache2 stop
@@ -59,7 +59,7 @@ Arrêtez d&#39;abord tous les processus accédant à la base de données, sur to
 
    La liste des processus actifs ainsi que leur identifiant (PID) correspondant apparaît.
 
-1. Si un ou plusieurs processus Adobe Campaign sont encore actifs ou bloqués au bout de quelques minutes, forcez leur arrêt.
+1. Si un ou plusieurs processus Adobe Campaign sont encore actifs ou bloqués au bout de quelques minutes, forcez leur arrêt.
 
    ```
    killall nlserver
@@ -166,7 +166,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
 ### Désinstallation des packages Adobe Campaign v5 {#uninstalling-adobe-campaign-v5-packages}
 
 1. Connectez-vous en tant que **root**.
-1. Identifiez les packages Adobe Campaign installés à l&#39;aide de la commande suivante.
+1. Identifiez les packages Adobe Campaign installés à l&#39;aide de la commande suivante.
 
    * Sous **Debian** :
 
@@ -174,20 +174,20 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
       dpkg -l | grep nl
       ```
 
-      La liste des packages installés apparaît :
+      La liste des packages installés apparaît :
 
       ```
       ii  nlserver5                       5762                     nlserver5-5762
       ii  nlthirdparty5                   5660                     nlthirdparty5-5660
       ```
 
-   * Sous **Red Hat** :
+   * Sous **Red Hat** :
 
       ```
       rpm -qa | grep nl
       ```
 
-1. Désinstallez les packages Adobe Campaign v5.
+1. Désinstallez les packages Adobe Campaign v5.
 
    * Sous **Debian** :
 
@@ -195,7 +195,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
       dpkg --purge nlserver5 nlthirdparty5
       ```
 
-   * Sous **Red Hat** :
+   * Sous **Red Hat** :
 
       ```
       rprm -ev nlserver5 nlthirdparty5
@@ -206,7 +206,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
 Cette section montre comment désinstaller les packages Adobe Campaign v6.02 ou v6.1.
 
 1. Connectez-vous en tant que **root**.
-1. Identifiez les packages Adobe Campaign installés à l&#39;aide de la commande suivante.
+1. Identifiez les packages Adobe Campaign installés à l&#39;aide de la commande suivante.
 
    * Sous **Debian** :
 
@@ -214,20 +214,20 @@ Cette section montre comment désinstaller les packages Adobe Campaign v6.02 o
       dpkg -l | grep nl
       ```
 
-      La liste des packages installés apparaît :
+      La liste des packages installés apparaît :
 
       ```
       ii  nlserver6                       XXXX                     nlserver6-XXXX
       ii  nlthirdparty6                   XXXX                     nlthirdparty6-XXXX
       ```
 
-   * Sous **Red Hat** :
+   * Sous **Red Hat** :
 
       ```
       rpm -qa | grep nl
       ```
 
-1. Désinstallez les packages Adobe Campaign v6.
+1. Désinstallez les packages Adobe Campaign v6.
 
    * Sous **Debian** :
 
@@ -235,13 +235,13 @@ Cette section montre comment désinstaller les packages Adobe Campaign v6.02 o
       dpkg --purge nlserver6 nlthirdparty6
       ```
 
-   * Sous **Red Hat** :
+   * Sous **Red Hat** :
 
       ```
       rprm -ev nlserver6 nlthirdparty6
       ```
 
-## Déploiement d&#39;Adobe Campaign v7 {#deploying-adobe-campaign-v7}
+## Déploiement d&#39;Adobe Campaign v7 {#deploying-adobe-campaign-v7}
 
 La procédure dépend de votre version précédente d&#39;Adobe Campaign :
 
@@ -249,12 +249,12 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
 
 Le déploiement d&#39;Adobe Campaign se déroule en deux parties :
 
-* L&#39;installation des packages Adobe Campaign v7 : cette opération doit être effectuée sur chaque serveur.
-* Le postupgrade : cette commande doit être lancée sur chaque instance.
+* L&#39;installation des packages Adobe Campaign v7 : cette opération doit être effectuée sur chaque serveur.
+* Le postupgrade : cette commande doit être lancée sur chaque instance.
 
-Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
+Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
-1. Installez les packages Adobe Campaign v7 les plus récents à l&#39;aide de la commande suivante :
+1. Installez les packages Adobe Campaign v7 les plus récents à l&#39;aide de la commande suivante :
 
    * Sous **Debian** :
 
@@ -262,7 +262,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
       dpkg -i nlserver6-XXXX-linux-2.6-intel.deb
       ```
 
-   * Sous **Red Hat** :
+   * Sous **Red Hat** :
 
       ```
       rpm -Uvh nlserver6-XXXX-0.x86_64.rpm
@@ -285,7 +285,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
    >[!NOTE]
    >
-   >Pour plus d&#39;informations sur l&#39;installation d&#39;Adobe Campaign sous Linux, consultez [cette section](../../installation/using/installing-campaign-standard-packages.md).
+   >Pour plus d&#39;informations sur l&#39;installation d&#39;Adobe Campaign sous Linux, consultez [cette section](../../installation/using/installing-campaign-standard-packages.md).
 
 1. Modifiez le fichier **.bashrd** correspondant à l&#39;utilisateur **neolane**. Connectez-vous en tant que **neolane** et exécutez la commande suivante :
 
@@ -296,11 +296,11 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
    >[!NOTE]
    >
-   >Lorsque vous vous connectez en tant que **neolane**, le message suivant apparaît : **nl5/env.sh : No such file or directory**. L&#39;apparition de ce message à ce stade est normale.
+   >Lorsque vous vous connectez en tant que **neolane**, le message suivant apparaît : **nl5/env.sh : No such file or directory**. L&#39;apparition de ce message à ce stade est normale.
 
    A la fin du fichier, remplacez **nl5/env.sh** par **nl6/env.sh**.
 
-1. Reconnectez-vous en tant que **root** et préparez l&#39;instance à sa première utilisation à l&#39;aide des commandes suivantes :
+1. Reconnectez-vous en tant que **root** et préparez l&#39;instance à sa première utilisation à l&#39;aide des commandes suivantes :
 
    ```
    /etc/init.d/nlserver6 start   
@@ -314,7 +314,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
    >[!NOTE]
    >
-   >Ces commandes permettent de créer le système de fichiers interne d&#39;Adobe Campaign v6 : répertoire **conf** (avec les fichiers **config-default.xml** et **serverConf.xml**), répertoire **var**.
+   >Ces commandes permettent de créer le système de fichiers interne d&#39;Adobe Campaign v6 : répertoire **conf** (avec les fichiers **config-default.xml** et **serverConf.xml**), répertoire **var**.
 
 1. Effectuez une copie (par écrasement), depuis le dossier de sauvegarde **nl5.back**, des fichiers de configuration et des sous-dossiers de chaque instance. Connectez-vous en tant que **neolane** et exécutez la commande suivante :
 
@@ -335,9 +335,9 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
    >[!NOTE]
    >
-   >Lors du report des paramétrages Adobe Campaign v5 vers Adobe Campaign v7, assurez-vous que les chemins vers les répertoires physiques pointent bien vers Adobe Campaign v7 et pas Adobe Campaign v5.
+   >Lors du report des paramétrages Adobe Campaign v5 vers Adobe Campaign v7, assurez-vous que les chemins vers les répertoires physiques pointent bien vers Adobe Campaign v7 et pas Adobe Campaign v5.
 
-1. La migration n&#39;étant pas une installation générique, vous devez forcer le redémarrage du service **trackinglogd**. Pour cela, ouvrez le fichier **nl6/conf/config-default.xml** et assurez-vous que le service **trackinglogd** est bien activé (uniquement sur le ou les serveurs de tracking/redirection) :
+1. La migration n&#39;étant pas une installation générique, vous devez forcer le redémarrage du service **trackinglogd**. Pour cela, ouvrez le fichier **nl6/conf/config-default.xml** et assurez-vous que le service **trackinglogd** est bien activé (uniquement sur le ou les serveurs de tracking/redirection) :
 
    ```
    <trackinglogd autoStart="true"/>
@@ -347,7 +347,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    >
    >Si le service **trackinglogd** n&#39;est pas démarré sur le serveur de tracking, aucune information de tracking ne sera remontée.
 
-1. Rechargez la configuration d&#39;Adobe Campaign v7 à l&#39;aide de la commande suivante :
+1. Rechargez la configuration d&#39;Adobe Campaign v7 à l&#39;aide de la commande suivante :
 
    ```
    nlserver config -reload
@@ -370,18 +370,18 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
 >[!IMPORTANT]
 >
->Ne redémarrez pas les services Adobe Campaign à ce stade. Des modifications doivent préalablement être effectuées sur Apache.
+>Ne redémarrez pas les services Adobe Campaign à ce stade. Des modifications doivent préalablement être effectuées sur Apache.
 
 ### Migration à partir d&#39;Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6_02-1}
 
 Le déploiement d&#39;Adobe Campaign se déroule en deux parties :
 
-* L&#39;installation des packages Adobe Campaign v7 : cette opération doit être effectuée sur chaque serveur.
-* Le postupgrade : cette commande doit être lancée sur chaque instance.
+* L&#39;installation des packages Adobe Campaign v7 : cette opération doit être effectuée sur chaque serveur.
+* Le postupgrade : cette commande doit être lancée sur chaque instance.
 
-Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
+Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
-1. Installez les packages Adobe Campaign v7 les plus récents à l&#39;aide de la commande suivante :
+1. Installez les packages Adobe Campaign v7 les plus récents à l&#39;aide de la commande suivante :
 
    * Sous **Debian** :
 
@@ -389,7 +389,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
       dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
-   * Sous **Red Hat** :
+   * Sous **Red Hat** :
 
       ```
       rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
@@ -400,7 +400,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
    >[!NOTE]
    >
-   >Adobe Campaign v7 est installé par défaut dans le même répertoire qu&#39;Adobe Campaign v6.02 : **/usr/local/neolane/nl6/**.
+   >Adobe Campaign v7 est installé par défaut dans le même répertoire qu&#39;Adobe Campaign v6.02 : **/usr/local/neolane/nl6/**.
 
 1. Pour mettre à disposition le programme d&#39;installation de la console cliente, copiez-le dans le répertoire d&#39;installation d&#39;Adobe Campaign :
 
@@ -410,9 +410,9 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
    >[!NOTE]
    >
-   >Pour plus d&#39;informations sur l&#39;installation d&#39;Adobe Campaign sous Linux, consultez [cette section](../../installation/using/installing-campaign-standard-packages.md).
+   >Pour plus d&#39;informations sur l&#39;installation d&#39;Adobe Campaign sous Linux, consultez [cette section](../../installation/using/installing-campaign-standard-packages.md).
 
-1. La migration n&#39;étant pas une installation générique, vous devez forcer le redémarrage du service **trackinglogd**. Pour cela, ouvrez le fichier **nl6/conf/config-default.xml** et assurez-vous que le service **trackinglogd** est bien activé (uniquement sur le ou les serveurs de tracking/redirection) :
+1. La migration n&#39;étant pas une installation générique, vous devez forcer le redémarrage du service **trackinglogd**. Pour cela, ouvrez le fichier **nl6/conf/config-default.xml** et assurez-vous que le service **trackinglogd** est bien activé (uniquement sur le ou les serveurs de tracking/redirection) :
 
    ```
    <trackinglogd autoStart="true"/>
@@ -433,7 +433,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    cp -r nl6.back/var/* nl6/var/
    ```
 
-1. Rechargez la configuration d&#39;Adobe Campaign v7 à l&#39;aide de la commande suivante :
+1. Rechargez la configuration d&#39;Adobe Campaign v7 à l&#39;aide de la commande suivante :
 
    ```
    nlserver config -reload
@@ -454,12 +454,12 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
 Le déploiement d&#39;Adobe Campaign se déroule en deux parties :
 
-* L&#39;installation des packages Adobe Campaign v7 : cette opération doit être effectuée sur chaque serveur.
-* Le postupgrade : cette commande doit être lancée sur chaque instance.
+* L&#39;installation des packages Adobe Campaign v7 : cette opération doit être effectuée sur chaque serveur.
+* Le postupgrade : cette commande doit être lancée sur chaque instance.
 
-Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
+Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
-1. Installez les packages Adobe Campaign v7 les plus récents à l&#39;aide de la commande suivante :
+1. Installez les packages Adobe Campaign v7 les plus récents à l&#39;aide de la commande suivante :
 
    * Sous **Debian** :
 
@@ -467,7 +467,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
       dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
-   * Sous **Red Hat** :
+   * Sous **Red Hat** :
 
       ```
       rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
@@ -488,7 +488,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
    >[!NOTE]
    >
-   >Pour plus d&#39;informations sur l&#39;installation d&#39;Adobe Campaign sous Linux, consultez [cette section](../../installation/using/installing-campaign-standard-packages.md).
+   >Pour plus d&#39;informations sur l&#39;installation d&#39;Adobe Campaign sous Linux, consultez [cette section](../../installation/using/installing-campaign-standard-packages.md).
 
 1. Accédez au dossier de sauvegarde **nl6.back** et copiez (écrasez) les fichiers de configuration et les sous-dossiers de chaque instance. Connectez-vous en tant que **neolane** et exécutez la commande suivante :
 
@@ -501,7 +501,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    cp -r nl6.back/var/* nl6/var/
    ```
 
-1. Rechargez la configuration d&#39;Adobe Campaign v7 à l&#39;aide de la commande suivante :
+1. Rechargez la configuration d&#39;Adobe Campaign v7 à l&#39;aide de la commande suivante :
 
    ```
    nlserver config -reload
@@ -531,13 +531,13 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
       vi /etc/apache2/envvars
       ```
 
-   * Sous **Red Hat** :
+   * Sous **Red Hat** :
 
       ```
       vi /usr/local/apache2/bin/envvars
       ```
 
-1. Exécutez ensuite les commandes suivantes :
+1. Exécutez ensuite les commandes suivantes :
 
    * Sous **Debian** :
 
@@ -555,18 +555,18 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
       mods-available/nlsrv.conf
       ```
 
-   * Sous **Red Hat** :
+   * Sous **Red Hat** :
 
       Dans le répertoire **/usr/local/apache2/conf**, éditez le fichier **httpd.conf** et remplacez **nl5** par **nl6** dans les lignes ci-dessous.
 
-      Sous **RHEL 7 / Debian 8** :
+      Sous **RHEL 7 / Debian 8** :
 
       ```
       LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
       Include /usr/local/neolane/nl6/tomcat-6/conf/apache_neolane.conf
       ```
 
-1. Dans le fichier **alias.conf**, les occurrences de **nl5** doivent être remplacées par **nl6**. Sous Debian, la commande est la suivante :
+1. Dans le fichier **alias.conf**, les occurrences de **nl5** doivent être remplacées par **nl6**. Sous Debian, la commande est la suivante :
 
    ```
    vi /etc/apache2/mods-available/alias.conf
@@ -661,7 +661,7 @@ Testez complètement la nouvelle installation, validez la non-régression et ass
 Avant de supprimer et nettoyer l&#39;installation d&#39;Adobe Campaign v5, il est impératif de suivre les recommandations ci-dessous :
 
 * Effectuez une validation complète de la nouvelle installation par les équipes fonctionnelles.
-* Ne procédez à la désinstallation d&#39;Adobe Campaign v5 qu&#39;une fois que vous êtes certain qu&#39;un retour arrière n&#39;est pas nécessaire.
+* Ne procédez à la désinstallation d&#39;Adobe Campaign v5 qu&#39;une fois que vous êtes certain qu&#39;un retour arrière n&#39;est pas nécessaire.
 
 Supprimez le répertoire **nl5.back**. Connectez-vous en tant que **neolane** et exécutez la commande suivante :
 

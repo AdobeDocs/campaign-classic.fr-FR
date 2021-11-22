@@ -26,7 +26,7 @@ Découvrez le fonctionnement des serveurs MX avec Adobe Campaign Classic.
 
 Un enregistrement d’échangeur de messagerie (enregistrement MX) est un type d’enregistrement de ressource du DNS (Domain Name System) qui spécifie un serveur de messagerie responsable de l’acceptation des emails pour le compte d’un domaine.
 
-### Comment fonctionne un serveur MX ?
+### Comment fonctionne un serveur MX ?
 
 Lorsque vous envoyez un email, le serveur de logiciels établit une connexion avec le serveur de domaine du destinataire. La communication entre les deux serveurs utilise le langage SMTP et un domaine peut avoir plusieurs serveurs MX. La connexion à ce domaine débute par la priorité la plus élevée (valeur la plus petite) et les autres serveurs sont appelés serveurs de « secours ». Le protocole de connexion doit être respecté.
 

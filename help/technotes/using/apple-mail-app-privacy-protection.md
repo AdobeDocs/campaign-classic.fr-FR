@@ -20,7 +20,7 @@ En 2021, Apple a mis en place de nouvelles fonctionnalités de protection de la 
 
 ## Comment cela affecte-t-il mes campagnes ?
 
-Adobe Campaign permet d’utiliser les pixels de tracking pour suivre les ouvertures d’e-mail. Vous pouvez non seulement utiliser cette fonctionnalité pour le ciblage et les campagnes, mais également pour les mesures. Vous pouvez, par exemple, utiliser les taux d’ouverture d’e-mails pour mesurer l’efficacité d’une campagne ainsi que l’interaction client. En bref, il peut y avoir une incidence sur la segmentation, le ciblage et les mesures de vos campagnes. [En savoir plus](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=fr#in-addition-to-measuring-opens%2C-what-else-is-impacted%3F){target=&quot;_blank&quot;}.
+Adobe Campaign permet d’utiliser les pixels de tracking pour suivre les ouvertures d’e-mail. Vous pouvez non seulement utiliser cette fonctionnalité pour le ciblage et les campagnes, mais également pour les mesures. Vous pouvez, par exemple, utiliser les taux d’ouverture d’e-mails pour mesurer l’efficacité d’une campagne ainsi que l’interaction client. En bref, il peut y avoir une incidence sur la segmentation, le ciblage et les mesures de vos campagnes. [En savoir plus](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=fr#in-addition-to-measuring-opens%2C-what-else-is-impacted%3F){target=&quot;_blank&quot;}.
 
 ## Quelles actions dois-je entreprendre ?
 
@@ -36,11 +36,11 @@ Préservez vos données et consolidez vos connaissances actuelles sur les appare
 
 ### Archivage de vos logs de tracking au-delà de la période de conservation
 
-Archivez vos logs de tracking au-delà de la période de conservation d’Adobe Campaign :
+Archivez vos logs de tracking au-delà de la période de conservation d’Adobe Campaign :
 
 1. Vérifiez la durée de la période de conservation dans votre instance de campagne.
 1. Vérifiez à nouveau vos principaux mappings de ciblage. Déterminez si vous utilisez des tables de profils personnalisés en plus de la table des profils d’usine (`nmsRecipient`).
-1. Exportez vos logs de tracking depuis Adobe Campaign. Incluez les logs qui contiennent des données sur l’agent utilisateur et le système d’exploitation.
+1. Exportez vos logs de tracking depuis Adobe Campaign. Incluez les logs qui contiennent des données sur l’agent utilisateur et le système d’exploitation.
 
 ### Évaluation de la tendance actuelle des taux d’ouverture
 
@@ -57,7 +57,7 @@ Nous vous recommandons d’explorer les données actuellement disponibles et d�
 
 ### Mesure de l’empreinte globale d’iOS {#measure-ios-footprint}
 
-Pour collecter des informations à partir des données Adobe Campaign, vous pouvez utiliser les rapports d’usine suivants :
+Pour collecter des informations à partir des données Adobe Campaign, vous pouvez utiliser les rapports d’usine suivants :
 
 * Rapport sur les **[!UICONTROL Systèmes d’exploitation]**
 
@@ -312,7 +312,7 @@ Le workflow comprend les étapes détaillées suivantes :
 
 Les données de profil sont enrichies avec les données de tracking provenant d’actions telles que les ouvertures d’e-mail et les clics publicitaires. Le tracking fournit également des informations clés sur les appareils de l’utilisateur par l’intermédiaire de l’agent utilisateur, lorsque cette information est disponible.
 
-En résumé, les données de tracking Adobe Campaign fournissent les informations suivantes :
+En résumé, les données de tracking Adobe Campaign fournissent les informations suivantes :
 
 * Le profil associé à l’utilisateur à l’origine du clic ou de l’ouverture d’un e-mail spécifique.
 * La date d’ouverture.
@@ -324,7 +324,7 @@ En résumé, les données de tracking Adobe Campaign fournissent les information
 
 Nous vous recommandons vivement de conserver ces données, et ce, pour diverses raisons :
 
-* Ces données sont conservées par Adobe Campaign pendant une période limitée. La période de rétention varie en fonction de la configuration de votre instance.
+* Ces données sont conservées par Adobe Campaign pendant une période limitée. La période de rétention varie en fonction de la configuration de votre instance.
 
    Vérifiez la configuration de votre instance. [En savoir plus](../../platform/using/privacy-management.md#data-retention).
 
@@ -335,7 +335,7 @@ Pour toutes ces raisons, il est vivement recommandé d’exporter ces données d
 
 #### Comment conserver les données de tracking ?
 
-Pour conserver les données de tracking, vous devez les exporter depuis Adobe Campaign pour les transférer vers votre système d’informations. [En savoir plus](../../platform/using/get-started-data-import-export.md).
+Pour conserver les données de tracking, vous devez les exporter depuis Adobe Campaign pour les transférer vers votre système d’informations. [En savoir plus](../../platform/using/get-started-data-import-export.md).
 
 >[!IMPORTANT]
 >
@@ -366,7 +366,7 @@ Vous pouvez enrichir ces données avec des informations utiles issues de schéma
 | nms:Recipient | Détails liés aux profils. |
 | nms:Delivery | Informations relatives au message auquel l’utilisateur a répondu. |
 
-Vous pouvez exporter le résultat vers une solution de stockage externe prise en charge par Adobe Campaign :
+Vous pouvez exporter le résultat vers une solution de stockage externe prise en charge par Adobe Campaign :
 
 * SFTP
 * S3
@@ -374,7 +374,7 @@ Vous pouvez exporter le résultat vers une solution de stockage externe prise en
 
 ##### Implémentation
 
-Cet exemple illustre comment exporter des données de tracking depuis Adobe Campaign.
+Cet exemple illustre comment exporter des données de tracking depuis Adobe Campaign.
 
 1. Créez un workflow qui démarre par une requête.
 

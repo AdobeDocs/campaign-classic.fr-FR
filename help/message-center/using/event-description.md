@@ -30,7 +30,7 @@ Deux méthodes SOAP **PushEvent** ou **PushEvents** sont associées aux deux sch
 * **PushEvent** permet d&#39;insérer un seul événement dans le message,
 * **PushEvents** permet d&#39;insérer une collection d&#39;événements dans le message.
 
-Le chemin WSDL d&#39;accès aux deux méthodes est :
+Le chemin WSDL d&#39;accès aux deux méthodes est :
 
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** pour accéder au schéma de type temps réel.
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** pour accéder au schéma de type batch.
@@ -55,7 +55,7 @@ La méthode **PushEvent** est constituée d’un paramètre **`<urn:domevent>`**
 
 La méthode **PushEvent** est constituée d’un paramètre **`<urn:domeventcollection>`** qui contient des événements.
 
-Exemple avec PushEvent :
+Exemple avec PushEvent :
 
 ```
 <urn:PushEvent>
@@ -79,7 +79,7 @@ Exemple avec PushEvent :
 >
 >En cas d’appel à la méthode **PushEvents**, nous devons ajouter un élément XML parent pour nous conformer au XML standard. Cet élément XML encadrera les différents éléments **`<rtevent>`** contenus dans l’événement.
 
-Exemple avec PushEvents :
+Exemple avec PushEvents :
 
 ```
 <urn:PushEvents>
@@ -117,7 +117,7 @@ Les attributs obligatoires des éléments **`<rtevent>`** et **`<batchevent>`** 
 <rtEvent type="order_confirmation" email="john.doe@domain.com" origin="eCommerce" wishedChannel="0" externalId="1242" mobilePhone="+33620202020"> 
 ```
 
-Dans cet exemple, deux canaux sont renseignés : l&#39;adresse email et le numéro de téléphone portable. Le champ **wishedChannel** permet de définir le canal qui sera utilisé lors de la transformation de l&#39;évènement en message. La valeur &quot;0&quot; correspond au canal email, la valeur &quot;1&quot; au canal mobile, etc.
+Dans cet exemple, deux canaux sont renseignés : l&#39;adresse email et le numéro de téléphone portable. Le champ **wishedChannel** permet de définir le canal qui sera utilisé lors de la transformation de l&#39;évènement en message. La valeur &quot;0&quot; correspond au canal email, la valeur &quot;1&quot; au canal mobile, etc.
 
 Si vous souhaitez différer le traitement d&#39;un évènement, ajoutez le champ **[!UICONTROL scheduled]** suivi de la date désirée. L&#39;évènement sera transformé en message à cette date.
 
@@ -133,7 +133,7 @@ L’élément **`<ctx>`** contient les données du message. Son contenu XML est 
 >
 >Il est important d&#39;optimiser le nombre et la taille des noeuds XML contenus dans le message afin de ne pas surcharger les serveurs lors de la diffusion.
 
-Exemple de données :
+Exemple de données :
 
 ```
    <ctx>
@@ -156,13 +156,13 @@ Exemple de données :
 
 ## Informations retournées par l&#39;appel SOAP {#information-returned-by-the-soap-call}
 
-Lors de la réception d&#39;un événement, Adobe Campaign génère un identifiant unique de retour. Il correspond à l&#39;identifiant de la version historisée de l&#39;événement.
+Lors de la réception d&#39;un événement, Adobe Campaign génère un identifiant unique de retour. Il correspond à l&#39;identifiant de la version historisée de l&#39;événement.
 
 >[!IMPORTANT]
 >
->Lors de la réception d&#39;appels SOAP, Adobe Campaign vérifie le format des adresses email. Si une adresse email n&#39;est pas correctement mise en forme, une erreur est renvoyée.
+>Lors de la réception d&#39;appels SOAP, Adobe Campaign vérifie le format des adresses email. Si une adresse email n&#39;est pas correctement mise en forme, une erreur est renvoyée.
 
-* Exemple d&#39;identifiant renvoyé par la méthode lorsque le traitement d&#39;un événement a réussi :
+* Exemple d&#39;identifiant renvoyé par la méthode lorsque le traitement d&#39;un événement a réussi :
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -174,11 +174,11 @@ Lors de la réception d&#39;un événement, Adobe Campaign génère un identifia
    </SOAP-ENV:Envelope>
    ```
 
-Lorsque la valeur de l&#39;identifiant de retour est strictement supérieure à zéro, cela signifie que l&#39;événement est bien historisé dans Adobe Campaign.
+Lorsque la valeur de l&#39;identifiant de retour est strictement supérieure à zéro, cela signifie que l&#39;événement est bien historisé dans Adobe Campaign.
 
 En revanche, si le traitement de l&#39;événement échoue, la méthode renvoie un message d&#39;erreur ou une valeur égale à zéro.
 
-* Exemple de traitement d&#39;un événement qui a échoué lorsque la requête ne contient pas de login ou que l&#39;opérateur spécifié n&#39;a pas les droits adéquats :
+* Exemple de traitement d&#39;un événement qui a échoué lorsque la requête ne contient pas de login ou que l&#39;opérateur spécifié n&#39;a pas les droits adéquats :
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -192,7 +192,7 @@ En revanche, si le traitement de l&#39;événement échoue, la méthode renvoie 
    </SOAP-ENV:Envelope>
    ```
 
-* Exemple de traitement d&#39;un événement qui a échoué du fait d&#39;une erreur dans la requête (la nomenclature XML n&#39;est pas respectée) :
+* Exemple de traitement d&#39;un événement qui a échoué du fait d&#39;une erreur dans la requête (la nomenclature XML n&#39;est pas respectée) :
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -217,7 +217,7 @@ En revanche, si le traitement de l&#39;événement échoue, la méthode renvoie 
    </SOAP-ENV:Envelope>
    ```
 
-* Exemple de traitement d&#39;un événement qui a échoué et du renvoi d&#39;un identifiant à zéro (le nom de la méthode est erroné) :
+* Exemple de traitement d&#39;un événement qui a échoué et du renvoi d&#39;un identifiant à zéro (le nom de la méthode est erroné) :
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">

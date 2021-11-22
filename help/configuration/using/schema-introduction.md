@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Durant l&#39;édition d&#39;un schéma, un système de validation basé sur le schéma source (xtk:srcSchema) est accessible. Cependant certaines erreurs peuvent être remontées lors de la mise à jour de la base de données via l&#39;assistant &quot;Mise à jour de la structure de la base...&quot;.
 
-Par défaut dans les schémas Adobe Campaign, tous les attributs de type boolean sont à &quot;false&quot;. Pour les activer, il faut donc spécifier l&#39;attribut dans le schéma et lui passer la valeur &quot;true&quot;.
+Par défaut dans les schémas Adobe Campaign, tous les attributs de type boolean sont à &quot;false&quot;. Pour les activer, il faut donc spécifier l&#39;attribut dans le schéma et lui passer la valeur &quot;true&quot;.
 
 Liste de référence :
 

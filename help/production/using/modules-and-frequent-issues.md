@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Voici une liste des modules concernés par des problèmes courants :
+Voici une liste des modules concernés par des problèmes courants :
 
 <table> 
  <thead> 

@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Les images utilisées dans les diagrammes des différents workflows peuvent être modifiées. Elles doivent toutefois respecter certaines contraintes. Les étapes de mise en oeuvre sont les suivantes :
+Les images utilisées dans les diagrammes des différents workflows peuvent être modifiées. Elles doivent toutefois respecter certaines contraintes. Les étapes de mise en oeuvre sont les suivantes :
 
 * Pour changer l&#39;image de fond, sélectionnez le workflow de ciblage visé et cliquez sur **[!UICONTROL Propriétés]**.
 

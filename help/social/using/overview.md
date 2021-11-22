@@ -21,7 +21,7 @@ Social Marketing permet d&#39;envoyer des diffusions, non pas à des profils de 
 
 >[!IMPORTANT]
 >
->Adobe Campaign vous invite à être attentif au respect des conditions d&#39;utilisation de Facebook et de Twitter en ce qui concerne l&#39;envoi de messages.
+>Adobe Campaign vous invite à être attentif au respect des conditions d&#39;utilisation de Facebook et de Twitter en ce qui concerne l&#39;envoi de messages.
 >
 >Avant d&#39;envoyer des publications, vous devez respecter les étapes de paramétrage décrites dans la section [Lancement des workflows](../../social/using/starting-workflows.md).
 

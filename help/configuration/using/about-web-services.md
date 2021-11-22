@@ -17,9 +17,9 @@ ht-degree: 96%
 
 ![](../../assets/v7-only.svg)
 
-## Définition des API Adobe Campaign {#definition-of-adobe-campaign-apis}
+## Définition des API Adobe Campaign {#definition-of-adobe-campaign-apis}
 
-Le serveur applicatif Adobe Campaign a été conçu dans un souci d&#39;ouverture afin de faciliter son implémentation applicative et son intégration dans des environnements d&#39;entreprise de plus en plus hétérogènes et complexes.
+Le serveur applicatif Adobe Campaign a été conçu dans un souci d&#39;ouverture afin de faciliter son implémentation applicative et son intégration dans des environnements d&#39;entreprise de plus en plus hétérogènes et complexes.
 
 Les API Adobe Campaign sont utilisées dans l’application avec JavaScript et en externe avec SOAP. Elles constituent une bibliothèque de fonctions génériques qui peuvent être enrichies. Pour plus d’informations, voir la section [Implémenter des méthodes SOAP](../../configuration/using/implementing-soap-methods.md).
 
@@ -30,15 +30,15 @@ Les API Adobe Campaign sont utilisées dans l’application avec JavaScript et 
 
 ## Conditions préalables {#prerequisites}
 
-Afin d’utiliser les API Adobe Campaign, il est conseillé de posséder des notions sur les sujets suivants :
+Afin d’utiliser les API Adobe Campaign, il est conseillé de posséder des notions sur les sujets suivants :
 
 * Javascript
 * protocole SOAP
-* modèle de données Adobe Campaign
+* modèle de données Adobe Campaign
 
-## Utilisation des API Adobe Campaign {#using-adobe-campaign-apis}
+## Utilisation des API Adobe Campaign {#using-adobe-campaign-apis}
 
-Adobe Campaign utilise deux types d’API :
+Adobe Campaign utilise deux types d’API :
 
 * Les API génériques d’accès aux données qui permettent d’interroger les données du modèle de données. Pour plus d&#39;informations, consultez la section [API orientées données](../../configuration/using/data-oriented-apis.md).
 * Les API spécifiques métier qui permettent d&#39;agir sur chaque type d’objet : diffusions, workflows, abonnements, etc. Pour plus d&#39;informations, consultez la section [API orientées métier](../../configuration/using/business-oriented-apis.md).
@@ -51,7 +51,7 @@ Le protocole SOAP permet l&#39;invocation des méthodes de l&#39;API, soit par l
 
 ![](assets/s_ncs_configuration_architecture.png)
 
-La structure d&#39;un message SOAP est la suivante :
+La structure d&#39;un message SOAP est la suivante :
 
 * une enveloppe qui définit la structure du message,
 * un en-tête optionnel,
@@ -60,7 +60,7 @@ La structure d&#39;un message SOAP est la suivante :
 
 ## Ressources et échanges {#resources-and-exchanges}
 
-Le schéma suivant montre les différentes ressources interagissant dans l&#39;utilisation des API Adobe Campaign :
+Le schéma suivant montre les différentes ressources interagissant dans l&#39;utilisation des API Adobe Campaign :
 
 ![](assets/s_ncs_integration_webservices_schema_pres.png)
 
@@ -119,7 +119,7 @@ Le résultat de la requête est renseigné à partir de l’élément `<pdomoutp
 
 ## Gestion des erreurs        {#error-management}
 
-Exemple de réponse d&#39;erreur SOAP :
+Exemple de réponse d&#39;erreur SOAP :
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -151,9 +151,9 @@ Le succès ou l’échec de l’invocation du service est identifié par la vér
 
 >[!IMPORTANT]
 >
->Tous les services Web Adobe Campaign gèrent les erreurs. Il est donc fortement recommandé de tester chaque appel afin de gérer les retours d&#39;erreur.
+>Tous les services Web Adobe Campaign gèrent les erreurs. Il est donc fortement recommandé de tester chaque appel afin de gérer les retours d&#39;erreur.
 
-Exemple de gestion des erreurs en C# :
+Exemple de gestion des erreurs en C# :
 
 ```
 try 
@@ -171,9 +171,9 @@ catch (SoapException e)
 
 ## URL du serveur des services Web (ou point d&#39;entrée) {#url-of-web-service-server--or-endpoint-}
 
-Pour soumettre le service Web, il faut contacter le serveur Adobe Campaign implémentant la méthode du service correspondant.
+Pour soumettre le service Web, il faut contacter le serveur Adobe Campaign implémentant la méthode du service correspondant.
 
-L&#39;URL du serveur est la suivante :
+L&#39;URL du serveur est la suivante :
 
 https://serverName/nl/jsp/soaprouter.jsp
 

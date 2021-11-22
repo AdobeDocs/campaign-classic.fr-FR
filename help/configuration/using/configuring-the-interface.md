@@ -17,16 +17,16 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Afin de visualiser et de dialoguer avec la nouvelle table des destinataires dans l&#39;interface d&#39;Adobe Campaign, il faut suivre les étapes suivantes :
+Afin de visualiser et de dialoguer avec la nouvelle table des destinataires dans l&#39;interface d&#39;Adobe Campaign, il faut suivre les étapes suivantes :
 
 * Créer un nouveau formulaire pour éditer le contenu de la nouvelle table des destinataires.
 * Renseigner un nouveau type de dossier dans l&#39;arborescence de l&#39;explorateur.
-* Créer une nouvelle application web pour accéder à la table personnalisée depuis la page d&#39;accueil d&#39;Adobe Campaign.
+* Créer une nouvelle application web pour accéder à la table personnalisée depuis la page d&#39;accueil d&#39;Adobe Campaign.
 
-Au préalable, Adobe Campaign utilise une variable globale &quot;Nms_DefaultRcpSchema&quot; pour dialoguer avec la base de destinataires installée par défaut (nms:recipient). Il convient donc de modifier cette variable.
+Au préalable, Adobe Campaign utilise une variable globale &quot;Nms_DefaultRcpSchema&quot; pour dialoguer avec la base de destinataires installée par défaut (nms:recipient). Il convient donc de modifier cette variable.
 
 1. Ouvrez le noeud **[!UICONTROL Administration > Plateforme > Options]** dans l&#39;explorateur.
-1. Modifiez la valeur de la variable **Nms_DefaultRcpSchema** avec le nom du schéma correspondant à la table externe des destinataires (dans notre exemple : cus:individual).
+1. Modifiez la valeur de la variable **Nms_DefaultRcpSchema** avec le nom du schéma correspondant à la table externe des destinataires (dans notre exemple : cus:individual).
 1. Enregistrez les modifications.
 
 ## Créer un nouveau formulaire {#creating-a-new-form-}
@@ -45,7 +45,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
    >
    >Pour connaître l&#39;intégralité des possibilités concernant les fichiers de type **form**, reportez-vous à [cette page](../../configuration/using/identifying-a-form.md).
 
-   Dans le cas de l&#39;exemple actuel, le fichier **form** doit être basé sur le schéma **cus:individual** et donc de la forme suivante :
+   Dans le cas de l&#39;exemple actuel, le fichier **form** doit être basé sur le schéma **cus:individual** et donc de la forme suivante :
 
    ```
    <container colspan="2">
@@ -72,7 +72,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
    >
    >Pour connaître l&#39;intégralité des possibilités concernant les fichiers de type **navtree**, reportez-vous à [cette page](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
 
-   Dans le cas de l&#39;exemple actuel, le fichier **navtree** doit être basé sur le schéma **cus:individual** et donc de la forme suivante :
+   Dans le cas de l&#39;exemple actuel, le fichier **navtree** doit être basé sur le schéma **cus:individual** et donc de la forme suivante :
 
    ```
     <model name="root">

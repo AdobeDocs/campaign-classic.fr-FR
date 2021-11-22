@@ -21,7 +21,7 @@ Une activité de type **Mise à jour de données** permet de mettre à jour en m
 
 ## Type d&#39;opération {#operation-type}
 
-Le champ **[!UICONTROL Type d&#39;opération]** permet de choisir le traitement à réaliser sur les données de la base :
+Le champ **[!UICONTROL Type d&#39;opération]** permet de choisir le traitement à réaliser sur les données de la base :
 
 * **[!UICONTROL Ajouter ou mettre à jour]** : ajouter des données ou les mettre à jour si elles ont déjà été ajoutées auparavant.
 * **[!UICONTROL Ajouter]** : ajouter des données uniquement.
@@ -47,7 +47,7 @@ Indiquez comment identifier les enregistrements dans la base de données :
 
 ## Sélection des champs à mettre à jour {#selecting-the-fields-to-be-updated}
 
-Utilisez l&#39;icône **[!UICONTROL Associer automatiquement les champs de même nom]** pour que Adobe Campaign identifie automatiquement les champs à mettre à jour.
+Utilisez l&#39;icône **[!UICONTROL Associer automatiquement les champs de même nom]** pour que Adobe Campaign identifie automatiquement les champs à mettre à jour.
 
 ![](assets/s_advuser_update_data_3b.png)
 

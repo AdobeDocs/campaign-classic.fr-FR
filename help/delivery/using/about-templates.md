@@ -25,13 +25,13 @@ Le modèle de diffusion peut être exécuté manuellement, c&#39;est le cas déc
 
 Il existe deux types de modèles :
 
-1. Les modèles de diffusion natifs d&#39;Adobe Campaign
+1. Les modèles de diffusion natifs d&#39;Adobe Campaign
 
    On parle de modèles natifs car ils NE DOIVENT PAS être supprimés du système et ils proposent un paramétrage minimal pour chaque canal de diffusion. L&#39;administrateur peut cependant restreindre certaines fonctionnalités ou proposer aux utilisateurs des valeurs par défaut (activation du tracking, adresses email expéditeur, etc.). Les modèles de diffusion natifs apparaissent en gras dans la liste des modèles. Ils doivent être dupliqués pour être modifiés.
 
 1. Les modèles de diffusion prédéfinis
 
-   L’administrateur Adobe Campaign peut créer d’autres modèles de diffusion. Ceux-ci peuvent ensuite être réutilisés par les opérateurs disposant des droits d’accès adéquats ou automatiquement par les processus serveur. Par exemple, vous pouvez configurer un modèle de diffusion e-mail. Lorsque les utilisateurs créent une diffusion à l’aide de ce modèle, il leur suffit de saisir le texte ou le contenu HTML puis de le diffuser, les autres choix ayant déjà été définis par l’administrateur.
+   L’administrateur Adobe Campaign peut créer d’autres modèles de diffusion. Ceux-ci peuvent ensuite être réutilisés par les opérateurs disposant des droits d’accès adéquats ou automatiquement par les processus serveur. Par exemple, vous pouvez configurer un modèle de diffusion e-mail. Lorsque les utilisateurs créent une diffusion à l’aide de ce modèle, il leur suffit de saisir le texte ou le contenu HTML puis de le diffuser, les autres choix ayant déjà été définis par l’administrateur.
 
 >[!NOTE]
 >

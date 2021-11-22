@@ -17,15 +17,15 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Vous rencontrez un problème de délivrabilité ? La solution se trouve peut-être ici.
+Vous rencontrez un problème de délivrabilité ? La solution se trouve peut-être ici.
 
 ## Erreur de règle MX {#mx-rule-error}
 
-**A quoi correspond le message d&#39;erreur &quot;Quota atteint&quot; ?**
+**A quoi correspond le message d&#39;erreur &quot;Quota atteint&quot; ?**
 
 Ce message signifie que vous avez atteint le seuil limite pour un MX spécifique et que vous devez attendre pour pouvoir envoyer un autre email au FAI.
 
-Dans Adobe Campaign, il existe une configuration à propos du nombre d&#39;emails pouvant être envoyé par heure. Ce quota doit être utilisé avec précaution car le nombre défini dans l&#39;instance se rapporte au nombre de connexions réalisées avec le FAI et non le nombre de messages réellement envoyés.
+Dans Adobe Campaign, il existe une configuration à propos du nombre d&#39;emails pouvant être envoyé par heure. Ce quota doit être utilisé avec précaution car le nombre défini dans l&#39;instance se rapporte au nombre de connexions réalisées avec le FAI et non le nombre de messages réellement envoyés.
 
 Une connexion peut donc utiliser une règle MX sans réussir l&#39;envoi d&#39;un email. Dans ce cas, une configuration avec une IP ou un nom de domaine à faible réputation devra tenter plusieurs connexions avant de réussir l&#39;envoi d&#39;un email. Pour chaque tentative un crédit Messages par heure sera utilisé. La performance de la campagne marketing sera fortement réduite.
 
@@ -35,14 +35,14 @@ Pour en savoir plus à propos de la configuration des MX, voir [cette section](.
 
 ## Même message d’erreur pour un FAI {#same-error-for-an-isp}
 
-**Pourquoi ai-je toujours le même message d’erreur pour un FAI particulier ?**
+**Pourquoi ai-je toujours le même message d&#39;erreur pour un FAI particulier ?**
 
-Si vous recevez toujours le même message d&#39;erreur pour un FAI, il se peut que vous rencontriez des problèmes de réputation liés à votre adresse IP ou votre adresse d&#39;expéditeur. Appliquez les recommandations suivantes :
+Si vous recevez toujours le même message d&#39;erreur pour un FAI, il se peut que vous rencontriez des problèmes de réputation liés à votre adresse IP ou votre adresse d&#39;expéditeur. Appliquez les recommandations suivantes :
 * Vérifiez si vous recevez un fort pourcentage d’échecs liés à des adresses email inexistantes (échecs de type **Utilisateur inconnu**)
 * Mettez à jour vos formulaires d’abonnement pour détecter d’éventuelles erreurs sur la saisie des noms de domaine (par exemple, gmaul.com ou yaho.com)
 * Si vous constatez des erreurs indiquant que vos messages sont déclarés en spam, ou que vos messages sont constamment bloqués, essayez d’exclure de la cible les destinataires qui n’ont pas ouvert ou cliqué dans l’un de vos messages dans les 12 mois précédents.
 
-Si le problème persiste, contactez les services commerciaux, les services chargés de la délivrabilité ou l&#39;[Assistance clientèle d’Adobe Campaign](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Si le problème persiste, contactez les services commerciaux, les services chargés de la délivrabilité ou l&#39;[Assistance clientèle d’Adobe Campaign](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Liste bloquée et quarantaine {#denylist-versus-quarantine}
 
@@ -53,7 +53,7 @@ Si le problème persiste, contactez les services commerciaux, les services charg
    * L&#39;application du statut **[!UICONTROL Quarantaine]** résulte d&#39;une erreur soft ou hard.
    Voir à ce propos [cette section](understanding-quarantine-management.md#quarantine-vs-denylist).
 
-* **À quoi correspondent les différentes raisons de mise en quarantaine ?**
+* **À quoi correspondent les différentes raisons de mise en quarantaine ?**
 
    Il existe dix raisons de mise en quarantaine : non définie, utilisateur inconnu, domaine invalide, sur liste bloquée, refusé, erreur ignorée, inatteignable, compte désactivé, boîte pleine, non connecté.
 

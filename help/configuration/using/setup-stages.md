@@ -19,19 +19,19 @@ ht-degree: 100%
 
 Le principe de base repose sur l&#39;ajout des balises de tracking Web dans certaines pages de votre site.
 
-Il existe deux types de balises :
+Il existe deux types de balises :
 
-* **WEB** : cette balise permet de savoir si la page a été visitée,
+* **WEB** : cette balise permet de savoir si la page a été visitée,
 * **TRANSACTION** : fonctionne comme une balise web, mais avec la possibilité d’ajouter des informations relatives, par exemple, au chiffre d’affaires généré (montant de la transaction, nombre d’articles achetés, etc.).
 
 Les étapes pour mettre en place ces balises sont les suivantes:
 
 1. Identifier les pages que vous souhaitez tracker et déterminer leur type (WEB ou TRANSACTION).
 1. Déterminer quelles informations supplémentaires vous souhaitez collecter et étendre le schéma **nms:webTrackingLog** avec la description de ces informations. Par défaut, ce schéma propose de stocker le montant des transactions et le nombre d&#39;articles par transaction.
-1. Créer les balises de tracking Web. Pour cela, deux méthodes sont possibles :
+1. Créer les balises de tracking Web. Pour cela, deux méthodes sont possibles :
 
-   * Insérer les URL correspondant à ces pages dans votre plateforme Adobe Campaign, puis générer et extraire les différentes balises de tracking Web associées (à partir du noeud **[!UICONTROL Ressources>On-line>Balises de tracking Web]** de la console cliente).
-   * Créer vous-même les balises de tracking Web en mode &quot;création à la volée&quot; : les URL correspondant à ces pages seront insérées automatiquement dans votre plateforme Adobe Campaign.
+   * Insérer les URL correspondant à ces pages dans votre plateforme Adobe Campaign, puis générer et extraire les différentes balises de tracking Web associées (à partir du noeud **[!UICONTROL Ressources>On-line>Balises de tracking Web]** de la console cliente).
+   * Créer vous-même les balises de tracking Web en mode &quot;création à la volée&quot; : les URL correspondant à ces pages seront insérées automatiquement dans votre plateforme Adobe Campaign.
 
 1. Ajouter ces balises, de façon dynamique ou statique, dans les pages que vous souhaitez tracker.
 

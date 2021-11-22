@@ -21,7 +21,7 @@ Les validations permettent à des opérateurs de prendre des décisions à certa
 
 Un message est envoyé à un groupe d&#39;opérateurs et le workflow attend une réponse pour poursuivre le traitement qui suit la validation. Le workflow n&#39;est pas bloqué et peut effectuer d&#39;autres opérations en l&#39;attente d&#39;une réponse. Il peut donc, par exemple, y avoir plusieurs validations simultanées en attente.
 
-Une validation peut proposer plusieurs choix : l&#39;opérateur devra sélectionner une option parmi les choix possibles. Cependant, il est possible de n&#39;autoriser qu&#39;un seul choix dans le but de soumettre une tâche à réaliser à un opérateur, par exemple effectuer un ciblage : l&#39;opérateur répond lorsque la tâche est réalisée (puis le processus se poursuit). L&#39;exemple ci-dessous illustre les deux types de validations :
+Une validation peut proposer plusieurs choix : l&#39;opérateur devra sélectionner une option parmi les choix possibles. Cependant, il est possible de n&#39;autoriser qu&#39;un seul choix dans le but de soumettre une tâche à réaliser à un opérateur, par exemple effectuer un ciblage : l&#39;opérateur répond lorsque la tâche est réalisée (puis le processus se poursuit). L&#39;exemple ci-dessous illustre les deux types de validations :
 
 ![](assets/validation-1.png)
 
@@ -31,7 +31,7 @@ Dans les opérations, toutes les étapes qui nécessitent une validation fonctio
 
 Des exemples de validations sont proposés dans cette [section](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
-Pour répondre, l&#39;opérateur dispose de deux modes : valider via la page web dont l&#39;URL est fournie dans l&#39;email envoyé, ou valider directement depuis la console.
+Pour répondre, l&#39;opérateur dispose de deux modes : valider via la page web dont l&#39;URL est fournie dans l&#39;email envoyé, ou valider directement depuis la console.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Le deuxième onglet des propriétés de l&#39;activité de validation permet de 
 
 ![](assets/expiration.png)
 
-Pour ajouter une nouvelle expiration, cliquez sur le bouton **[!UICONTROL Ajouter]**. Une transition est ajoutée pour chacune des expirations créées. Vous pouvez :
+Pour ajouter une nouvelle expiration, cliquez sur le bouton **[!UICONTROL Ajouter]**. Une transition est ajoutée pour chacune des expirations créées. Vous pouvez :
 
 * soit modifier les paramètres usuels directement depuis la liste en cliquant sur une cellule (ou en appuyant sur la touche F2),
 * soit éditer l&#39;expiration en cliquant sur le bouton **[!UICONTROL Détail...]**.
@@ -81,14 +81,14 @@ Pour ajouter une nouvelle expiration, cliquez sur le bouton **[!UICONTROL Ajoute
 >
 >Il n&#39;est pas nécessaire d&#39;ordonner les expirations, elles seront traitées par ordre chronologique.
 
-L&#39;option **[!UICONTROL Ne pas terminer la tâche]** laisse la validation active une fois le délai expiré. Ce mode de fonctionnement permet de gérer des relances tout en laissant la validation active : les opérateurs ont toujours la possibilité de répondre. Cette option est désactivée par défaut : lorsque le délai est expiré la tâche est terminée et les opérateurs ne peuvent plus répondre.
+L&#39;option **[!UICONTROL Ne pas terminer la tâche]** laisse la validation active une fois le délai expiré. Ce mode de fonctionnement permet de gérer des relances tout en laissant la validation active : les opérateurs ont toujours la possibilité de répondre. Cette option est désactivée par défaut : lorsque le délai est expiré la tâche est terminée et les opérateurs ne peuvent plus répondre.
 
-Vous pouvez créer quatre types d&#39;expirations :
+Vous pouvez créer quatre types d&#39;expirations :
 
 * **Délai après le début de la tâche**: l&#39;expiration est calculée en ajoutant une durée que vous spécifiez à la date d&#39;activation de la validation.
-* **Délai après une date donnée** : l&#39;expiration est calculée en ajoutant une durée à une date que vous spécifiez.
-* **Délai avant une date donnée** : l&#39;expiration est calculée en soustrayant une durée à une date que vous spécifiez.
-* **Expiration calculée par script** : l&#39;expiration est calculée à partir d&#39;un script JavaScript.
+* **Délai après une date donnée** : l&#39;expiration est calculée en ajoutant une durée à une date que vous spécifiez.
+* **Délai avant une date donnée** : l&#39;expiration est calculée en soustrayant une durée à une date que vous spécifiez.
+* **Expiration calculée par script** : l&#39;expiration est calculée à partir d&#39;un script JavaScript.
 
    L&#39;exemple suivant calcule une expiration 24 heures avant la date de démarrage d&#39;une diffusion (identifiée par **vars.deliveryId**) :
 
@@ -108,7 +108,7 @@ La validation multiple est utile pour des mécanismes de votes ou de sondages. I
 
 ## Droits requis {#required-rights}
 
-Les opérateurs d&#39;un groupe doivent avoir au minimum les droits suivants pour répondre à une demande de validation :
+Les opérateurs d&#39;un groupe doivent avoir au minimum les droits suivants pour répondre à une demande de validation :
 
 * Droit en lecture sur le workflow.
 * Droit en lecture et en écriture sur le dossier des tâches à valider.

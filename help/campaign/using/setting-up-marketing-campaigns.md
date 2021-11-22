@@ -144,7 +144,7 @@ Le mode de paramétrage du planning d&#39;exécution correspond à celui de l&#3
 
 #### Créer l&#39;opération récurrente {#create-the-recurring-campaign}
 
-Pour créer l&#39;opération récurrente et exécuter ses workflows selon le planning défini dans le modèle, les étapes sont les suivantes :
+Pour créer l&#39;opération récurrente et exécuter ses workflows selon le planning défini dans le modèle, les étapes sont les suivantes :
 
 1. Créez une nouvelle opération basée sur un modèle d&#39;opération récurrente.
 1. Renseignez le planning d&#39;exécution des workflows.
@@ -153,10 +153,10 @@ Pour créer l&#39;opération récurrente et exécuter ses workflows selon le pla
 
 1. Le planning de l&#39;opération permet de renseigner pour chaque ligne la date de début de création ou d&#39;exécution du workflow automatique.
 
-   Pour chaque ligne, il est possible d&#39;ajouter les options supplémentaires suivantes :
+   Pour chaque ligne, il est possible d&#39;ajouter les options supplémentaires suivantes :
 
-   * **[!UICONTROL A valider]** : permet de forcer les demandes de validation des diffusions dans le workflow.
-   * **[!UICONTROL A démarrer]** : permet de démarrer le workflow une fois la date de début atteinte.
+   * **[!UICONTROL A valider]** : permet de forcer les demandes de validation des diffusions dans le workflow.
+   * **[!UICONTROL A démarrer]** : permet de démarrer le workflow une fois la date de début atteinte.
 
    Le champ **[!UICONTROL Créer d&#39;avance pour]** permet de créer l&#39;ensemble des workflows couvrant la période renseignée.
 
@@ -178,7 +178,7 @@ Pour créer l&#39;opération récurrente et exécuter ses workflows selon le pla
 
    >[!NOTE]
    >
-   >La date de début de la ligne de planning associée au workflow est disponible à partir d&#39;une variable du workflow avec la syntaxe suivante :\
+   >La date de début de la ligne de planning associée au workflow est disponible à partir d&#39;une variable du workflow avec la syntaxe suivante :\
    >`$date(instance/vars/@startPlanningDate)`
 
 ### Création d’une campagne périodique {#creating-a-periodic-campaign}
@@ -205,13 +205,13 @@ Une campagne périodique est une opération basée sur un modèle spécifique qu
    >
    >Ce workflow est un modèle de workflow. Il ne peut pas être exécuté à partir du modèle d&#39;opération.
 
-1. Renseignez son planning d&#39;exécution selon le même mode que pour un modèle d&#39;opération récurrente : cliquez sur le bouton **[!UICONTROL Ajouter]** et définissez les dates de début et de fin, ou complétez le planning d&#39;exécution à partir du lien.
+1. Renseignez son planning d&#39;exécution selon le même mode que pour un modèle d&#39;opération récurrente : cliquez sur le bouton **[!UICONTROL Ajouter]** et définissez les dates de début et de fin, ou complétez le planning d&#39;exécution à partir du lien.
 
    ![](assets/s_ncs_user_op_template_period_planning_add.png)
 
    >[!IMPORTANT]
    >
-   >Les modèles d&#39;opérations périodiques créent de nouvelles opérations selon le planning défini ci-dessus. Il doit donc être renseigné avec précaution afin de ne pas surcharger la base Adobe Campaign.
+   >Les modèles d&#39;opérations périodiques créent de nouvelles opérations selon le planning défini ci-dessus. Il doit donc être renseigné avec précaution afin de ne pas surcharger la base Adobe Campaign.
 
 1. Une fois la date de début d&#39;exécution atteinte, l&#39;opération correspondante est automatiquement créée. Elle reprend l&#39;ensemble des caractéristiques de son modèle.
 

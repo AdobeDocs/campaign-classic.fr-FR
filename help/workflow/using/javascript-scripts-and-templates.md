@@ -19,7 +19,7 @@ ht-degree: 99%
 
 Les scripts vont permettre de calculer des valeurs, d&#39;échanger des données entre les différentes tâches du processus et d&#39;exécuter des opérations spécifiques à l&#39;aide d&#39;appels SOAP.
 
-Les scripts sont omniprésents dans un diagramme de workflow :
+Les scripts sont omniprésents dans un diagramme de workflow :
 
 * Toute activité possède un script d&#39;initialisation. Ce script est exécuté à l&#39;activation de l&#39;activité, il permet d&#39;initialiser des variables ou de modifier les propriétés de l&#39;activité.
 * L&#39;activité &#39;Code JavaScript&#39; a pour seule fonction d&#39;exécuter un script.
@@ -52,7 +52,7 @@ Dans cet exemple et pour les exemples suivants, créez un workflow comprenant un
 
 ![](assets/script-1.png)
 
-Double-cliquez sur l&#39;activité **Code JavaScript** et insérez le script suivant :
+Double-cliquez sur l&#39;activité **Code JavaScript** et insérez le script suivant :
 
 ```
 logInfo("Label: " + instance.label)
@@ -61,7 +61,7 @@ logInfo("Start date: " + task.creationDate)
 
 La fonction **[!UICONTROL logInfo(message)]** ajoute un message dans le journal.
 
-Cliquez sur **[!UICONTROL OK]** pour fermer l&#39;assistant de création, puis démarrez le workflow en utilisant les boutons d&#39;action en haut à droite de la liste des workflows. A la fin de l&#39;exécution, consultez le journal. Vous devez voir deux messages correspondant au script : l&#39;un affiche le libellé du workflow, l&#39;autre affiche la date d&#39;activation du script.
+Cliquez sur **[!UICONTROL OK]** pour fermer l&#39;assistant de création, puis démarrez le workflow en utilisant les boutons d&#39;action en haut à droite de la liste des workflows. A la fin de l&#39;exécution, consultez le journal. Vous devez voir deux messages correspondant au script : l&#39;un affiche le libellé du workflow, l&#39;autre affiche la date d&#39;activation du script.
 
 ## Variables {#variables}
 
@@ -129,7 +129,7 @@ Dans cet exemple, une variable d’instance est utilisée pour calculer dynamiqu
 
 **Exemple 2**
 
-1. Reprenez le workflow de l&#39;exemple précédent et modifiez le script de l&#39;activité **Code JavaScript** avec le script suivant :
+1. Reprenez le workflow de l&#39;exemple précédent et modifiez le script de l&#39;activité **Code JavaScript** avec le script suivant :
 
    ```
    instance.vars.foo = "bar1"
@@ -137,7 +137,7 @@ Dans cet exemple, une variable d’instance est utilisée pour calculer dynamiqu
    task.vars.foo = "bar3"
    ```
 
-1. Ajoutez le script suivant au script d&#39;initialisation de l&#39;activité **Fin** :
+1. Ajoutez le script suivant au script d&#39;initialisation de l&#39;activité **Fin** :
 
    ```
    logInfo("instance.vars.foo = " + instance.vars.foo)
@@ -165,7 +165,7 @@ Ainsi, pour appeler la variable **instance.vars.xxx = &quot;yyy&quot;** dans un 
 
 Par exemple :
 
-1. Créez une variable d&#39;instance qui définit le nom interne d&#39;une diffusion via l&#39;activité **[!UICONTROL Code JavaScript]** : **instance.vars.deliveryIN = &quot;DM42&quot;**.
+1. Créez une variable d&#39;instance qui définit le nom interne d&#39;une diffusion via l&#39;activité **[!UICONTROL Code JavaScript]** : **instance.vars.deliveryIN = &quot;DM42&quot;**.
 
    ![](assets/wkf_js_activity_1.png)
 

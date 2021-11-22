@@ -33,7 +33,7 @@ Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vo
 
    * **[!UICONTROL Répertoire]**
 
-      Répertoire contenant le ou les fichiers à récupérer. Ce répertoire doit être créé au préalable sur le serveur : s&#39;il n&#39;existe pas, une erreur est générée.
+      Répertoire contenant le ou les fichiers à récupérer. Ce répertoire doit être créé au préalable sur le serveur : s&#39;il n&#39;existe pas, une erreur est générée.
 
    * **[!UICONTROL Filtre]**
 
@@ -51,7 +51,7 @@ Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vo
 
 1. **Traitement des erreurs**
 
-   Les deux options suivantes sont disponibles :
+   Les deux options suivantes sont disponibles :
 
    * **[!UICONTROL Traiter l&#39;absence de fichier]**
 

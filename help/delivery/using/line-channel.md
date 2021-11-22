@@ -77,11 +77,11 @@ Après avoir créé votre service [!DNL LINE], vous devez configurer le compte e
    ![](assets/line_config_2.png)
 
    * **[!UICONTROL Alias du canal]**[!DNL LINE] : est fourni via votre compte dans l&#39;onglet **[!UICONTROL Channels]** > **[!UICONTROL Technical configuration]**.
-   * **[!UICONTROL Identifiant du canal]**[!DNL LINE] : est fourni via votre compte dans l&#39;onglet **[!UICONTROL Channels]**> **[!UICONTROL Basic Information panel]**.
-   * **[!UICONTROL Clé secrète du canal]**[!DNL LINE] : est fourni via votre compte dans l&#39;onglet **[!UICONTROL Channels]**> **[!UICONTROL Basic Information panel]**.
+   * **[!UICONTROL Identifiant du canal]**[!DNL LINE] : est fourni via votre compte dans l&#39;onglet **[!UICONTROL Channels]**> **[!UICONTROL Basic Information panel]**.
+   * **[!UICONTROL Clé secrète du canal]**[!DNL LINE] : est fourni via votre compte dans l&#39;onglet **[!UICONTROL Channels]**> **[!UICONTROL Basic Information panel]**.
    * **[!UICONTROL Jeton d&#39;accès]**[!DNL LINE] : est fourni via votre compte sur le portail destiné aux développeurs ou en cliquant sur le bouton **[!UICONTROL Récupérer le jeton d&#39;accès]**.
-   * **[!UICONTROL Date d&#39;expiration du jeton d&#39;accès]** : permet de spécifier la date d&#39;expiration d&#39;Access token.
-   * **[!UICONTROL Service d&#39;abonnement LINE]** : permet de spécifier le service auquel les utilisateurs seront abonnés.
+   * **[!UICONTROL Date d&#39;expiration du jeton d&#39;accès]** : permet de spécifier la date d&#39;expiration d&#39;Access token.
+   * **[!UICONTROL Service d&#39;abonnement LINE]** : permet de spécifier le service auquel les utilisateurs seront abonnés.
 
 1. Une fois la configuration effectuée, cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -165,7 +165,7 @@ Le paramétrage de ce type de message est similaire au paramétrage du format **
 
 Une diffusion de type **[!UICONTROL Image et lien]** est un message envoyé aux destinataires sous la forme d&#39;une image pouvant contenir une ou plusieurs URL.[!DNL LINE]
 
-Vous pouvez utiliser :
+Vous pouvez utiliser :
 
 * une **[!UICONTROL image personnalisée]**,
 
@@ -269,7 +269,7 @@ Dans cet exemple, nous allons créer et paramétrer un message texte et une imag
 
 1. Sauvegardez votre diffusion puis cliquez sur **[!UICONTROL Envoyer]** afin de l&#39;analyser puis de l&#39;envoyer à la cible.
 
-   La diffusion est envoyée à la cible :
+   La diffusion est envoyée à la cible :
 
    ![](assets/line_usecase_06.png)
 

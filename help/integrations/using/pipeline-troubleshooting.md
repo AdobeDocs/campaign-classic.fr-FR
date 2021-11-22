@@ -18,7 +18,7 @@ ht-degree: 100%
 
 **Échec du pipeline avec l&#39;erreur &#39;&#39;Aucune tâche ne correspond au masque pipelined@&lt; instance >&quot;**
 
-Votre version d’Adobe Campaign Classic ne prend pas en charge le pipeline.
+Votre version d’Adobe Campaign Classic ne prend pas en charge le pipeline.
 
 1. Vérifiez si l’élément [!DNL pipelined] se trouve dans le fichier de configuration. Si ce n’est pas le cas, cela signifie qu’il n’est pas pris en charge.
 1. Effectuez une mise à niveau vers Campaign 20.3 ou la version [!DNL Gold Standard] 11.
@@ -93,7 +93,7 @@ Lorsque certains événements ne sont pas liés à un client :
 
 Lorsque l’horodatage Analytics est beaucoup plus ancien que la date de création de l’événement dans Campaign.
 
-En règle générale, un déclencheur peut prendre 15 à 90 minutes pour lancer une campagne marketing. Ce délai varie en fonction de l’implémentation de la collecte de données, de la charge sur le pipeline, de la configuration personnalisée du déclencheur défini et du workflow dans Adobe Campaign.
+En règle générale, un déclencheur peut prendre 15 à 90 minutes pour lancer une campagne marketing. Ce délai varie en fonction de l’implémentation de la collecte de données, de la charge sur le pipeline, de la configuration personnalisée du déclencheur défini et du workflow dans Adobe Campaign.
 
 1. Vérifiez si le processus [!DNL pipelined] a été exécuté.
 1. Recherchez des erreurs dans pipelined.log susceptibles de provoquer des reprises. Corrigez les erreurs, le cas échéant.

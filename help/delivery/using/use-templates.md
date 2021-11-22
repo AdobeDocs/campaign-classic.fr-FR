@@ -66,6 +66,6 @@ Une typologie contient les règles de vérification qui sont appliquées lors de
 
 Dans l’onglet **[!UICONTROL Typologie]** des propriétés du modèle, changez la typologie par défaut en fonction de vos besoins.
 
-Pour mieux contrôler le trafic sortant, par exemple, vous pouvez définir quelles adresses IP peuvent être utilisées en spécifiant une affinité par sous-domaine et en créant une typologie par affinité. Les affinités sont définies directement dans le fichier de configuration de l&#39;instance. Contactez votre administrateur Adobe Campaign.
+Pour mieux contrôler le trafic sortant, par exemple, vous pouvez définir quelles adresses IP peuvent être utilisées en spécifiant une affinité par sous-domaine et en créant une typologie par affinité. Les affinités sont définies directement dans le fichier de configuration de l&#39;instance. Contactez votre administrateur Adobe Campaign.
 
 Pour plus d’informations sur les typologies, consultez [cette section](../../campaign-opt/using/about-campaign-typologies.md).

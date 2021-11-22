@@ -41,7 +41,7 @@ N’utilisez pas l’opérateur admin (ou ne le partagez pas). Créez un opérat
 
 Évitez d’ajouter trop d’opérateurs au groupe admin (ou avec des droits nommés admin). Il s’agit d’opérateurs très puissants (ils peuvent effectuer toutes les instructions SQL, exécuter des commandes sur le serveur et bien d’autres actions).
 
-Adobe Campaign propose trois privilèges de niveau supérieur par le biais des [droits nommés](../../platform/using/access-management.md#named-rights) :
+Adobe Campaign propose trois privilèges de niveau supérieur par le biais des [droits nommés](../../platform/using/access-management.md#named-rights) :
 
 * **ADMINISTRATION** (admin) : donne accès à tout et permet d’effectuer toutes les tâches en contournant les contrôles des droits nommés. Il comprend donc les droits nommés EXÉCUTION DE PROGRAMMES (createProcess) et SQL.
 

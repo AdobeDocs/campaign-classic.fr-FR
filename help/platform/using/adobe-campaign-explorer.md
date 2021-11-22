@@ -13,17 +13,17 @@ ht-degree: 100%
 
 ---
 
-# Utilisation de l’explorateur Adobe Campaign {#using-adobe-campaign-explorer}
+# Utilisation de l’explorateur Adobe Campaign {#using-adobe-campaign-explorer}
 
 ![](../../assets/common.svg)
 
-L&#39;explorateur Adobe Campaign est accessible à partir de l&#39;icône de la barre d&#39;outils. Il permet d&#39;accéder à l&#39;ensemble des fonctions d&#39;Adobe Campaign, aux écrans de paramétrage et à une vue plus détaillée de certains éléments de la plateforme.
+L&#39;explorateur Adobe Campaign est accessible à partir de l&#39;icône de la barre d&#39;outils. Il permet d&#39;accéder à l&#39;ensemble des fonctions d&#39;Adobe Campaign, aux écrans de paramétrage et à une vue plus détaillée de certains éléments de la plateforme.
 
 L&#39;espace de travail **[!UICONTROL Explorateur]** est divisé en trois zones :
 
 ![](assets/s_ncs_user_navigation.png)
 
-**1 - Arborescence** : vous pouvez personnaliser le contenu de l’arborescence (ajouter, déplacer ou supprimer des nœuds). Cette procédure est réservée aux utilisateurs expérimentés. Pour plus d’informations à ce sujet, consultez [cette section](#about-navigation-hierarchy).).
+**1 - Arborescence** : vous pouvez personnaliser le contenu de l’arborescence (ajouter, déplacer ou supprimer des nœuds). Cette procédure est réservée aux utilisateurs expérimentés. Pour plus d’informations à ce sujet, consultez [cette section](#about-navigation-hierarchy).).
 
 **2 - Liste** : vous pouvez filtrer cette liste, lancer des recherches, ajouter des informations ou trier les données. [En savoir plus](adobe-campaign-ui-lists.md).
 

@@ -21,7 +21,7 @@ Les groupes d’opérateurs sont créés à partir du nœud **[!UICONTROL Admini
 
 ## Création d’un groupe d’opérateurs {#creating-a-new-operator-group}
 
-Pour créer un nouveau groupe d&#39;opérateurs, les étapes sont les suivantes :
+Pour créer un nouveau groupe d&#39;opérateurs, les étapes sont les suivantes :
 
 1. Cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des groupes ou cliquez avec le bouton droit dans la liste et choisissez **[!UICONTROL Nouveau]**.
 1. Dans la section inférieure de la fenêtre, depuis l&#39;onglet **[!UICONTROL Général]**, saisissez le nom et une description pour ce groupe dans les champs correspondants.
@@ -41,7 +41,7 @@ Pour créer un nouveau groupe d&#39;opérateurs, les étapes sont les suivantes 
 
 ## Les groupes par défaut {#default-groups}
 
-Les groupes d&#39;opérateurs par défaut sont les suivants :
+Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 1. **[!UICONTROL Administrateur]**
 
@@ -53,16 +53,16 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 1. **[!UICONTROL Chargés de diffusion]**
 
-   Les opérateurs de ce groupe sont chargés de la gestion des diffusions : il permet l&#39;accès aux ressources principales nécessaires à la création et la préparation des diffusions (typologies de campagnes, mappings de diffusions, modèles par défaut, blocs de personnalisation, etc.).
+   Les opérateurs de ce groupe sont chargés de la gestion des diffusions : il permet l&#39;accès aux ressources principales nécessaires à la création et la préparation des diffusions (typologies de campagnes, mappings de diffusions, modèles par défaut, blocs de personnalisation, etc.).
 
-   Ce groupe contient les droits nommés suivants :
+   Ce groupe contient les droits nommés suivants :
 
-   * **[!UICONTROL PRÉPARER DES DIFFUSIONS]** : droit pour créer, éditer et lancer l&#39;analyse des diffusions,
-   * **[!UICONTROL DÉMARRER DES DIFFUSIONS]** : droit pour valider les diffusions préalablement analysées.
+   * **[!UICONTROL PRÉPARER DES DIFFUSIONS]** : droit pour créer, éditer et lancer l&#39;analyse des diffusions,
+   * **[!UICONTROL DÉMARRER DES DIFFUSIONS]** : droit pour valider les diffusions préalablement analysées.
 
 1. **[!UICONTROL Chargés d&#39;opération]**
 
-   Les opérateurs de ce groupe peuvent gérer les campagnes marketing : il permet d&#39;accéder aux objets relatifs aux opérations (plans, programmes, workflows, budgets, etc.) dans le cadre de **[!UICONTROL Campaign]** (module facultatif Adobe Campaign).
+   Les opérateurs de ce groupe peuvent gérer les campagnes marketing : il permet d&#39;accéder aux objets relatifs aux opérations (plans, programmes, workflows, budgets, etc.) dans le cadre de **[!UICONTROL Campaign]** (module facultatif Adobe Campaign).
 
    Ce groupe contient les droits nommés suivants :
 
@@ -74,7 +74,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 1. **[!UICONTROL Rédacteurs de contenu]**
 
-   Les opérateurs de ce groupe peuvent accéder aux dossiers Contenus, dans le cadre de la **[!UICONTROL Gestion de Contenu]** (module optionnel d&#39;Adobe Campaign). Ce groupe n&#39;accorde pas de droit supplémentaire.
+   Les opérateurs de ce groupe peuvent accéder aux dossiers Contenus, dans le cadre de la **[!UICONTROL Gestion de Contenu]** (module optionnel d&#39;Adobe Campaign). Ce groupe n&#39;accorde pas de droit supplémentaire.
 
 1. **[!UICONTROL Consultation des rapports]**
 
@@ -90,7 +90,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 1. Gestion en local / Gestion en central
 
-   Ces groupes permettent l&#39;utilisation du **[!UICONTROL Marketing distribué]** (module optionnel d&#39;Adobe Campaign).
+   Ces groupes permettent l&#39;utilisation du **[!UICONTROL Marketing distribué]** (module optionnel d&#39;Adobe Campaign).
 
 1. **[!UICONTROL Chargés d’offres]**
 

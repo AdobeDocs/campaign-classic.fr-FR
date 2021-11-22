@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: '"Cas pratique : configuration de la substitution des champs"'
-description: '"Cas pratique : configuration de la substitution des champs"'
+title: '"Cas pratique : configuration de la substitution des champs"'
+description: '"Cas pratique : configuration de la substitution des champs"'
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
@@ -13,13 +13,13 @@ ht-degree: 100%
 
 ---
 
-# Cas pratique : configuration de la substitution des champs{#use-case-configuring-the-field-substitution}
+# Cas pratique : configuration de la substitution des champs{#use-case-configuring-the-field-substitution}
 
 ![](../../assets/common.svg)
 
 La substitution aléatoire des champs permet d&#39;attribuer une valeur issue de la liste des destinataires à des adresses de contrôle qui en sont dépourvues lorsque l&#39;utilisateur utilise cette valeur dans une diffusion (exemple : le nom, la ville, etc.).
 
-Cette substitution permet de gagner du temps lors de la création de la diffusion : au lieu d&#39;ajouter manuellement la valeur souhaitée aux adresses de contrôle, la substitution récupère aléatoirement cette valeur dans la liste des destinataires visés par la diffusion et l&#39;applique aux adresses de contrôle.
+Cette substitution permet de gagner du temps lors de la création de la diffusion : au lieu d&#39;ajouter manuellement la valeur souhaitée aux adresses de contrôle, la substitution récupère aléatoirement cette valeur dans la liste des destinataires visés par la diffusion et l&#39;applique aux adresses de contrôle.
 
 ## Contexte {#context}
 
@@ -36,7 +36,7 @@ Pour utiliser la substitution aléatoire des champs vous devez disposer :
 
 Les étapes de création d’une diffusion sont présentées dans la section [Créer une diffusion email](creating-an-email-delivery.md).
 
-Dans cet exemple, l&#39;utilisateur en charge des diffusions a créé sa newsletter :
+Dans cet exemple, l&#39;utilisateur en charge des diffusions a créé sa newsletter :
 
 ![](assets/dlv_seeds_usecase_24.png)
 
@@ -44,7 +44,7 @@ Dans cet exemple, l&#39;utilisateur en charge des diffusions a créé sa newslet
 
 Les étapes de modification d&#39;un schéma de données sont présentées dans la section .
 
-Dans cet exemple, le schéma de données des adresses de contrôle reprend une valeur créée dans le schéma de données des destinataires :
+Dans cet exemple, le schéma de données des adresses de contrôle reprend une valeur créée dans le schéma de données des destinataires :
 
 ```
  <attribute label="Favorite literary genre" length="80" name="favoriteLiteraryGenre"

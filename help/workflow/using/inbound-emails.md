@@ -29,7 +29,7 @@ Le premier onglet de l&#39;activité **Réception d&#39;email** permet de rensei
 
       Lorsque cette option est activée, vous pouvez sélectionner un compte externe de type POP3 plutôt que de saisir les paramètres de connexion. Le champ **[!UICONTROL Compte externe]** indique le compte externe de type POP3 à utiliser pour se connecter à la messagerie. Ce champ n&#39;est visible que si l&#39;option &#39;Utiliser un compte externe&#39; est activée.
 
-      Si cette option n&#39;est pas sélectionnée, vous devez indiquer les paramètres suivants :
+      Si cette option n&#39;est pas sélectionnée, vous devez indiquer les paramètres suivants :
 
       ![](assets/email_rec_edit_1b.png)
 
@@ -57,7 +57,7 @@ Le premier onglet de l&#39;activité **Réception d&#39;email** permet de rensei
 
    Le script permet de traiter le message et d&#39;effectuer différentes opérations dépendantes du contenu du message. Le script est exécuté pour chaque message et peut décider de l&#39;opération à effectuer sur la messagerie (laisser ou supprimer le message) et de l&#39;activation de la transition sortante.
 
-   Le code retour doit être une des valeurs suivantes :
+   Le code retour doit être une des valeurs suivantes :
 
    * 1 - Supprime le message sur le serveur et active la transition sortante.
    * 2 - Laisse le message sur le serveur et active la transition sortante.

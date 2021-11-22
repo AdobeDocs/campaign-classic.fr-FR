@@ -21,9 +21,9 @@ Une activité de type **Gestion de contenu** permet de créer et de manipuler un
 
 >[!CAUTION]
 >
->La gestion de contenu est un module optionnel d&#39;Adobe Campaign. Vérifiez votre contrat de licence.
+>La gestion de contenu est un module optionnel d&#39;Adobe Campaign. Vérifiez votre contrat de licence.
 
-Les propriétés de l&#39;activité se divisent en trois étapes :
+Les propriétés de l&#39;activité se divisent en trois étapes :
 
 * **Sélection du contenu**: le contenu peut avoir été créé précédemment ou peut être créé depuis l&#39;activité.
 * **Mise à jour du contenu**: la tâche peut modifier l&#39;objet du contenu ou importer tout le contenu XML.
@@ -31,7 +31,7 @@ Les propriétés de l&#39;activité se divisent en trois étapes :
 
    ![](assets/content_mgmt_edit.png)
 
-   Le paramétrage et l&#39;utilisation de la gestion de contenu dans Adobe Campaign sont présentés dans cette [section](../../delivery/using/about-content-management.md).
+   Le paramétrage et l&#39;utilisation de la gestion de contenu dans Adobe Campaign sont présentés dans cette [section](../../delivery/using/about-content-management.md).
 
 1. **Content**
 

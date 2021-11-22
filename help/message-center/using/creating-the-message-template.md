@@ -59,7 +59,7 @@ La définition du contenu du message transactionnel fonctionne selon les mêmes 
 
 >[!IMPORTANT]
 >
->Les images incluses dans le message doivent être accessibles publiquement. Adobe Campaign ne fournit pas de mécanisme de mise en ligne des images pour les messages transactionnels.\
+>Les images incluses dans le message doivent être accessibles publiquement. Adobe Campaign ne fournit pas de mécanisme de mise en ligne des images pour les messages transactionnels.\
 >Contrairement à JSSP ou webApp, `<%=` n&#39;a pas de séquence d&#39;échappement par défaut.
 >
 >Dans ce cas, vous devez appliquer une séquence d&#39;échappement correcte à toutes les données provenant de l&#39;événement. Cette séquence d&#39;échappement dépend de l&#39;utilisation de ce champ. Par exemple, dans une URL, utilisez encodeURIComponent. Pour un affichage dans le code HTML, vous pouvez utiliser escapeXMLString.
@@ -71,7 +71,7 @@ Lorsque vous avez défini le contenu de votre message, vous pouvez intégrer les
 * Tous les champs de personnalisation proviennent de la payload.
 * Il est possible de référencer un ou plusieurs blocs de personnalisation dans un message transactionnel. Le contenu du bloc est ajouté au contenu de la diffusion au cours de la publication dans l&#39;instance d&#39;exécution.
 
-Pour insérer des balises de personnalisation dans le corps d&#39;un message e-mail, procédez comme suit :
+Pour insérer des balises de personnalisation dans le corps d&#39;un message email, procédez comme suit :
 
 1. Dans le modèle de message, cliquez sur l&#39;onglet correspondant au format de l&#39;e-mail (HTML ou texte).
 

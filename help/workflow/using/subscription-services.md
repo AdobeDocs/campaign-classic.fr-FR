@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Une activité de type **Service d&#39;inscriptions** permet d&#39;abonner ou désabonner la population spécifiée par la transition à un service d&#39;information.
 
-Pour la paramétrer, éditez l&#39;activité et saisissez son libellé, puis choisissez l&#39;action à effectuer (Inscription ou Désinscription) et le service concerné, comme dans l&#39;exemple ci-dessous :
+Pour la paramétrer, éditez l&#39;activité et saisissez son libellé, puis choisissez l&#39;action à effectuer (Inscription ou Désinscription) et le service concerné, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/edit_service_inscription.png)
 

@@ -19,21 +19,21 @@ ht-degree: 100%
 
 ## À propos des workflows{#about-workflows}
 
-Adobe Campaign intègre un module de workflow qui propose une interface de contrôle centralisée de l&#39;ensemble des opérations et processus. Le module de workflow permet d&#39;automatiser et de modéliser les différentes tâches des modules du serveur applicatif. Cet environnement graphique complet permet de construire des processus englobant segmentation, exécution de campagnes, manipulations de fichiers, validations, etc. Le moteur de workflow exécute et assure le suivi des processus.
+Adobe Campaign intègre un module de workflow qui propose une interface de contrôle centralisée de l&#39;ensemble des opérations et processus. Le module de workflow permet d&#39;automatiser et de modéliser les différentes tâches des modules du serveur applicatif. Cet environnement graphique complet permet de construire des processus englobant segmentation, exécution de campagnes, manipulations de fichiers, validations, etc. Le moteur de workflow exécute et assure le suivi des processus.
 
-Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
+Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
 
 Un workflow peut également faire intervenir des opérateurs afin de notifier ou valider une opération ou faire un choix. Ainsi, il est possible de créer une action de diffusion, d&#39;assigner une tâche à un ou plusieurs opérateurs qui seront chargés de saisir son contenu ou spécifier sa cible, puis de faire valider le BAT avant de démarrer la diffusion.
 
 Les workflows interviennent dans différents contextes et à différentes étapes du processus de gestion des campagnes.
 
-Ainsi, Adobe Campaign utilise des workflows pour :
+Ainsi, Adobe Campaign utilise des workflows pour :
 
 * Exécuter des campagnes de ciblage. [En savoir plus](building-a-workflow.md#implementation-steps-)
 * Créer des campagnes : pour chaque campagne, l’onglet **[!UICONTROL Workflow]** vous permet de créer la cible et les diffusions. [En savoir plus](building-a-workflow.md#campaign-workflows)
 * Exécuter des processus techniques : nettoyage, collecte des informations de tracking ou calculs provisoires. [En savoir plus](building-a-workflow.md#technical-workflows)
 
-Un workflow peut désigner à la fois une définition de procédure (le modèle de workflow : une représentation de ce qui est censé se produire) et une instance de cette procédure (une instance de workflow : une représentation de ce qui est en train de se produire).
+Un workflow peut désigner à la fois une définition de procédure (le modèle de workflow : une représentation de ce qui est censé se produire) et une instance de cette procédure (une instance de workflow : une représentation de ce qui est en train de se produire).
 
 Le modèle de workflow décrit les différentes tâches à effectuer et la façon de les enchaîner. Les modèles de tâches sont appelés des activités et sont représentées par des icônes. Elles sont reliées entre elles par des transitions.
 
@@ -57,7 +57,7 @@ Chaque workflow comprend :
 
    >[!NOTE]
    >
-   >Un workflow contenant des transitions flottantes peut être exécuté : l&#39;exécution générera un avertissement et sera suspendue lors de l&#39;activation d&#39;une telle transition, mais aucune erreur ne sera générée. Il est ainsi possible de démarrer un workflow sans en avoir terminé la conception et de le compléter au fur et à mesure.
+   >Un workflow contenant des transitions flottantes peut être exécuté : l&#39;exécution générera un avertissement et sera suspendue lors de l&#39;activation d&#39;une telle transition, mais aucune erreur ne sera générée. Il est ainsi possible de démarrer un workflow sans en avoir terminé la conception et de le compléter au fur et à mesure.
 
    Pour plus d&#39;informations sur la création d&#39;un workflow, consultez [cette section](building-a-workflow.md).
 

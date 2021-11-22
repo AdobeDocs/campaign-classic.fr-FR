@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Prérequis pour la migration vers Adobe Campaign 7
-description: Prérequis pour la migration vers Adobe Campaign 7
+title: Prérequis pour la migration vers Adobe Campaign 7
+description: Prérequis pour la migration vers Adobe Campaign 7
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Prérequis pour la migration vers Adobe Campaign 7{#prerequisites-for-migration-to-adobe-campaign}
+# Prérequis pour la migration vers Adobe Campaign 7{#prerequisites-for-migration-to-adobe-campaign}
 
 ![](../../assets/v7-only.svg)
 

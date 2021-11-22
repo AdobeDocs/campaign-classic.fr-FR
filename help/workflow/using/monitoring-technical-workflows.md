@@ -97,4 +97,4 @@ Vous pouvez créer un workflow de surveillance pour envoyer un email en cas d&#3
 
 Il est possible de créer une vue permettant de surveiller tous les workflows d&#39;une même zone fonctionnelle ou d&#39;un même système.
 
-Il est également possible d&#39;utiliser la fonctionnalité de traitement ou de rapport Adobe Campaign pour construire une documentation à la demande et toujours à jour.
+Il est également possible d&#39;utiliser la fonctionnalité de traitement ou de rapport Adobe Campaign pour construire une documentation à la demande et toujours à jour.

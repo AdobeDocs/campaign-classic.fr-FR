@@ -27,7 +27,7 @@ Les principes de base de la personnalisation sont présentés dans [cette sectio
 
 Vérifiez que le contenu de votre message est correctement conçu pour éviter les erreurs généralement liées à la personnalisation.
 
-**Conseils** : dans les champs de personnalisation provenant de fichiers externes fournis par des prestataires tiers, le contenu HTML externe peut être incorrect. Pour éviter ce problème, vérifiez la syntaxe, l’utilisation des balises, les caractères, etc. Par exemple, une balise de personnalisation Adobe Campaign est toujours de la forme : &lt;%=table.champ%>. Voir à ce propos [cette section](about-personalization.md).
+**Conseils** : dans les champs de personnalisation provenant de fichiers externes fournis par des prestataires tiers, le contenu HTML externe peut être incorrect. Pour éviter ce problème, vérifiez la syntaxe, l’utilisation des balises, les caractères, etc. Par exemple, une balise de personnalisation Adobe Campaign est toujours de la forme : &lt;%=table.champ%>. Voir à ce propos [cette section](about-personalization.md).
 
 L&#39;utilisation incorrecte des paramètres dans les blocs de personnalisation peut entraîner des problèmes. Par exemple, les variables en JavaScript doivent être utilisées comme suit :
 
@@ -110,9 +110,9 @@ En savoir plus dans [cette section](sms-set-up.md#about-character-transliteratio
 
 Pour éviter les erreurs de formatage courantes, tenez compte des éléments suivants :
 
-* Correction du **formatage de la date** : Adobe Campaign fournit des fonctions de formatage de date pour les modèles JavaScript et les feuilles de style XSL. [En savoir plus](formatting.md#date-display)
+* Correction du **formatage de la date** : Adobe Campaign fournit des fonctions de formatage de date pour les modèles JavaScript et les feuilles de style XSL. [En savoir plus](formatting.md#date-display)
 
-* Utilisation de **carcatères autorisés** dans les emails : la liste des caractères valides pour les adresses email est définie dans l’option « XtkEmail_Characters ». Découvrez comment accéder aux options Campaign [dans cette section](../../installation/using/configuring-campaign-options.md). Pour gérer correctement les caractères spéciaux, Adobe Campaign doit être installé en Unicode.
+* Utilisation de **carcatères autorisés** dans les emails : la liste des caractères valides pour les adresses email est définie dans l’option « XtkEmail_Characters ». Découvrez comment accéder aux options Campaign [dans cette section](../../installation/using/configuring-campaign-options.md). Pour gérer correctement les caractères spéciaux, Adobe Campaign doit être installé en Unicode.
 
 * Configuration de l’**authentification des emails** : assurez-vous que les en-têtes d’email contiennent la signature DKIM. L’authentification DKIM (Domain Keys Identified Mail) permet au serveur de messagerie de réception de vérifier qu’un message a bien été envoyé par la personne ou l’entité revendiquant l’envoi et si le contenu du message a été modifié ou non entre le moment où il a été envoyé (et « signé » par DKIM) et celui où il a été reçu. Cette norme utilise généralement le domaine dans l’en-tête « De » ou « Expéditeur ». Pour plus d’informations à ce sujet, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#authentication).
 
@@ -160,4 +160,4 @@ Adobe recommande de prévisualiser votre message afin de vérifier sa personnali
 
 * Dans l&#39;assistant de diffusion, le sous-onglet **[!UICONTROL Aperçu]** vous permet de visualiser le rendu de chaque contenu pour un destinataire. Les champs de personnalisation et les éléments conditionnels du contenu sont remplacés par les informations correspondantes pour le profil sélectionné. [En savoir plus](defining-the-email-content.md#message-content)
 
-* Une vérification anti-spam est automatiquement effectuée à chaque prévisualisation. Dans le sous-onglet **[!UICONTROL Aperçu]**, vérifiez le score de spam [SpamAssassin](spamassassin.md).  Cliquez sur **[!UICONTROL Autres choix...]** pour en savoir plus sur l’avertissement.  Avant de procéder, assurez-vous que SpamAssassin est correctement installé et configuré sur le serveur applicatif Adobe Campaign. [En savoir plus](../../installation/using/configuring-spamassassin.md)
+* Une vérification anti-spam est automatiquement effectuée à chaque prévisualisation. Dans le sous-onglet **[!UICONTROL Aperçu]**, vérifiez le score de spam [SpamAssassin](spamassassin.md).  Cliquez sur **[!UICONTROL Autres choix...]** pour en savoir plus sur l’avertissement.  Avant de procéder, assurez-vous que SpamAssassin est correctement installé et configuré sur le serveur applicatif Adobe Campaign. [En savoir plus](../../installation/using/configuring-spamassassin.md)

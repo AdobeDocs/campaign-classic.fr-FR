@@ -21,7 +21,7 @@ Vous pouvez accéder aux listes des enregistrements de la base de données Campa
 
 ## Comptage des enregistrements {#counting-records}
 
-Par défaut, Adobe Campaign charge en mémoire les 200 premiers enregistrements d&#39;une liste. Par conséquent, l&#39;affichage ne propose pas nécessairement l&#39;intégralité des enregistrements de la table dont vous affichez le contenu. Vous pouvez lancer un décompte du nombre d&#39;enregistrements de la liste et déclencher le chargement en mémoire d&#39;enregistrements supplémentaires.
+Par défaut, Adobe Campaign charge en mémoire les 200 premiers enregistrements d&#39;une liste. Par conséquent, l&#39;affichage ne propose pas nécessairement l&#39;intégralité des enregistrements de la table dont vous affichez le contenu. Vous pouvez lancer un décompte du nombre d&#39;enregistrements de la liste et déclencher le chargement en mémoire d&#39;enregistrements supplémentaires.
 
 En bas à droite de l&#39;écran de liste, un **[!UICONTROL compteur]** indique le nombre d&#39;enregistrements chargés en mémoire par rapport au nombre total d&#39;enregistrements dans la base (après application de tous les filtres éventuels) :
 
@@ -200,7 +200,7 @@ Vous pouvez également paramétrer le tri ou combiner les critères de tri. Pour
 
 ### Recherche d&#39;éléments {#running-a-search}
 
-Vous pouvez lancer une recherche parmi les champs disponibles dans un éditeur à partir du champ **[!UICONTROL Rechercher]** situé au-dessus de la liste des champs. Utilisez la touche **Entrée** du clavier pour parcourir la liste : les libellés des champs qui correspondent à votre recherche apparaissent en gras.
+Vous pouvez lancer une recherche parmi les champs disponibles dans un éditeur à partir du champ **[!UICONTROL Rechercher]** situé au-dessus de la liste des champs. Utilisez la touche **Entrée** du clavier pour parcourir la liste : les libellés des champs qui correspondent à votre recherche apparaissent en gras.
 
 >[!NOTE]
 >

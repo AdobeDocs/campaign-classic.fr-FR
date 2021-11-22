@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Un workflow est toujours démarré manuellement. Au démarrage, il peut toutefois rester inactif en fonction des informations spécifiées par le biais d&#39;un planificateur (voir [Planificateur](scheduler.md)) ou d&#39;une planification d&#39;activité.
 
-Les actions relatives à l&#39;exécution du workflow de ciblage (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur sera disponible pour l&#39;appliquer.
+Les actions relatives à l&#39;exécution du workflow de ciblage (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur sera disponible pour l&#39;appliquer.
 
 La barre d&#39;outils permet de lancer et suivre l&#39;exécution du workflow.
 
@@ -37,9 +37,9 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
 
 * **[!UICONTROL Début]**
 
-   Cette action permet de lancer l&#39;exécution d&#39;un workflow : un workflow **Terminé**, **En édition** ou **En pause** passe alors en état **Démarré**. Le moteur de workflow va prendre en charge l&#39;exécution de ce workflow. Si le workflow était en pause, il s&#39;agit d&#39;une reprise, sinon il s&#39;agit d&#39;un démarrage et les activités initiales sont alors activées.
+   Cette action permet de lancer l&#39;exécution d&#39;un workflow : un workflow **Terminé**, **En édition** ou **En pause** passe alors en état **Démarré**. Le moteur de workflow va prendre en charge l&#39;exécution de ce workflow. Si le workflow était en pause, il s&#39;agit d&#39;une reprise, sinon il s&#39;agit d&#39;un démarrage et les activités initiales sont alors activées.
 
-   Le démarrage est un processus asynchrone : la demande est enregistrée et sera traitée dès que possible par un serveur de workflow.
+   Le démarrage est un processus asynchrone : la demande est enregistrée et sera traitée dès que possible par un serveur de workflow.
 
 * **[!UICONTROL Pause]**
 
@@ -47,13 +47,13 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
 
 * **[!UICONTROL Stopper]**
 
-   Cette action arrête un workflow en cours d&#39;exécution : l&#39;instance passe alors en état **Terminé**. Les opérations en cours sont interrompues, si possible. Les imports ou requêtes SQL en cours sont immédiatement annulées.
+   Cette action arrête un workflow en cours d&#39;exécution : l&#39;instance passe alors en état **Terminé**. Les opérations en cours sont interrompues, si possible. Les imports ou requêtes SQL en cours sont immédiatement annulées.
 
-   L&#39;arrêt est un processus asynchrone. La demande est enregistrée, puis le ou les serveurs de workflow vont annuler les opérations en cours. L&#39;arrêt d&#39;une instance peut donc prendre un certain temps, notamment si le workflow est distribué sur plusieurs serveurs : chacun des serveurs doit prendre la main pour annuler les tâches en cours.
+   L&#39;arrêt est un processus asynchrone. La demande est enregistrée, puis le ou les serveurs de workflow vont annuler les opérations en cours. L&#39;arrêt d&#39;une instance peut donc prendre un certain temps, notamment si le workflow est distribué sur plusieurs serveurs : chacun des serveurs doit prendre la main pour annuler les tâches en cours.
 
 * **[!UICONTROL Redémarrer]**
 
-   Cette action consiste à arrêter puis démarrer un workflow. Dans la plupart des cas, elle permet de redémarrer plus vite. Elle est également utile pour automatiser le redémarrage lorsque l&#39;arrêt prend un certain temps : en effet la commande &#39;Démarrer&#39; n&#39;est disponible que lorsque l&#39;arrêt est effectif.
+   Cette action consiste à arrêter puis démarrer un workflow. Dans la plupart des cas, elle permet de redémarrer plus vite. Elle est également utile pour automatiser le redémarrage lorsque l&#39;arrêt prend un certain temps : en effet la commande &#39;Démarrer&#39; n&#39;est disponible que lorsque l&#39;arrêt est effectif.
 
    Les actions **[!UICONTROL Démarrer / Pause / Stopper / Redémarrer]** sont également disponibles via les icônes d&#39;exécution de la barre d&#39;outils. Voir à ce sujet cette [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
 
@@ -89,23 +89,23 @@ Lorsqu&#39;une ou plusieurs activités d&#39;un workflow sont sélectionnées, v
 
 ![](assets/contextual_menu.png)
 
-Les options disponibles dans le menu contextuel sont les suivantes :
+Les options disponibles dans le menu contextuel sont les suivantes :
 
-**[!UICONTROL Ouvrir :]** cette option permet d&#39;accéder aux propriétés de l&#39;activité.
+**[!UICONTROL Ouvrir :]** cette option permet d&#39;accéder aux propriétés de l&#39;activité.
 
 **[!UICONTROL Afficher le journal :]** cette option permet de visualiser le journal d&#39;exécution des tâches de l&#39;activité sélectionnée. Pour plus d&#39;informations, consultez la section [Afficher le journal](monitoring-workflow-execution.md#displaying-logs).
 
-**[!UICONTROL Traitement anticipé de la (des) tâche(s) :]** cette action permet de lancer dès que possible la ou les tâches en attente de l&#39;activité.
+**[!UICONTROL Traitement anticipé de la (des) tâche(s) :]** cette action permet de lancer dès que possible la ou les tâches en attente de l&#39;activité.
 
-**[!UICONTROL Redémarrage du workflow à partir d&#39;une tâche :]** cette option permet de redémarrer le workflow en utilisant les résultats précédemment stockés pour cette activité.
+**[!UICONTROL Redémarrage du workflow à partir d&#39;une tâche :]** cette option permet de redémarrer le workflow en utilisant les résultats précédemment stockés pour cette activité.
 
-**[!UICONTROL Couper/Copier/Coller/Supprimer :]** ces options permettent de couper, copier, coller et supprimer les activités.
+**[!UICONTROL Couper/Copier/Coller/Supprimer :]** ces options permettent de couper, copier, coller et supprimer les activités.
 
-**[!UICONTROL Copier en tant qu&#39;image :]** cette option permet d&#39;effectuer une capture d&#39;écran de l&#39;ensemble des activités.
+**[!UICONTROL Copier en tant qu&#39;image :]** cette option permet d&#39;effectuer une capture d&#39;écran de l&#39;ensemble des activités.
 
 **[!UICONTROL Exécution normale / Activer mais ne pas exécuter / Ne pas activer :]** ces options sont également disponibles dans l&#39;onglet **[!UICONTROL Avancé]** des propriétés de l&#39;activité. Elles sont présentées dans la section [Exécution](advanced-parameters.md#execution).
 
-**[!UICONTROL Enregistrer/Annuler :]** permet d&#39;enregistrer ou d&#39;annuler les modifications effectuées sur le workflow.
+**[!UICONTROL Enregistrer/Annuler :]** permet d&#39;enregistrer ou d&#39;annuler les modifications effectuées sur le workflow.
 
 >[!NOTE]
 >

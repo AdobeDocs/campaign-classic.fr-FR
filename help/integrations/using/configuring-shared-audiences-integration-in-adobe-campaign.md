@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Configuration de l'intégration des audiences partagées dans Adobe Campaign
+title: Configuration de l'intégration des audiences partagées dans Adobe Campaign
 description: Découvrez comment configurer l'intégration des audiences partagées
 audience: integrations
 content-type: reference
@@ -13,13 +13,13 @@ ht-degree: 100%
 
 ---
 
-# Configuration de l&#39;intégration des audiences partagées dans Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
+# Configuration de l&#39;intégration des audiences partagées dans Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
 
 ![](../../assets/common.svg)
 
 Après l&#39;envoi de cette demande, Adobe effectue l&#39;approvisionnement de l&#39;intégration et vous contacte pour vous fournir des informations afin de terminer la configuration :
 
-1. [Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
+1. [Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 1. [Etape 2 : configuration de la source de données](#step-2--configure-the-data-source)
 1. [Étape 3 : Configuration du serveur de tracking Campaign](#step-3--configure-campaign-tracking-server)
 1. [Étape 4 : Configuration du service d&#39;identification des visiteurs](#step-4--configure-the-visitor-id-service)
@@ -28,9 +28,9 @@ Après l&#39;envoi de cette demande, Adobe effectue l&#39;approvisionnement de l
 >
 >Si vous utilisez le domaine demdex et que vous suivez la syntaxe **ftp-out.demdex.com** pour le compte externe d&#39;import et **ftp-in.demdex.com** pour le compte externe d&#39;export, vous devez adapter votre implémentation en conséquence et passer au connecteur Amazon Simple Storage Service (S3) pour importer ou exporter des données. Pour plus d&#39;informations sur la configuration de vos comptes externes avec Amazon S3, consultez cette [section](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign).
 
-## Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign          {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+## Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign        {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
-Nous devons tout d&#39;abord configurer ou vérifier les comptes externes d&#39;Adobe Campaign en procédant comme suit :
+Nous devons tout d&#39;abord configurer ou vérifier les comptes externes d&#39;Adobe Campaign en procédant comme suit :
 
 1. Cliquez sur l&#39;icône **[!UICONTROL Explorateur]**.
 1. Accédez à **[!UICONTROL Administration > Plateforme > Comptes externes]**. Les comptes SFTP mentionnés doivent avoir été configurés par Adobe. De plus, les informations nécessaires ont dû vous être communiquées.
@@ -68,7 +68,7 @@ Vos comptes externes sont maintenant configurés.
 
 ## Etape 2 : configuration de la source de données {#step-2--configure-the-data-source}
 
-La source de données **Destinataires - Id Visiteur** est créée dans Audience Manager. Il s&#39;agit d&#39;une source de données d&#39;usine configurée par défaut pour le Visitor ID. Les segments créés à partir de Campaign font partie de cette source de données.
+La source de données **Destinataires - Id Visiteur** est créée dans Audience Manager. Il s&#39;agit d&#39;une source de données d&#39;usine configurée par défaut pour le Visitor ID. Les segments créés à partir de Campaign font partie de cette source de données.
 
 Pour configurer la source de données **[!UICONTROL Destinataires - Id Visiteur]** :
 
@@ -80,7 +80,7 @@ Pour configurer la source de données **[!UICONTROL Destinataires - Id Visiteur]
 
 ## Étape 3 : Configuration du serveur de tracking Campaign         {#step-3--configure-campaign-tracking-server}
 
-Pour la configuration de l&#39;intégration avec People Core service ou Audience Manager, il faut également configurer le serveur de tracking Campaign.
+Pour la configuration de l&#39;intégration avec People Core service ou Audience Manager, il faut également configurer le serveur de tracking Campaign.
 
 Vérifiez que le serveur de tracking Campaign est enregistré sur le domaine (CNAME). Vous trouverez des informations supplémentaires sur la délégation des noms de domaine dans [cet article](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr).
 

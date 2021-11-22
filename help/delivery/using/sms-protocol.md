@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: configuring-channels
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 4d789ad0138f65134d3c1592ef5d5517d39fc0f7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '8460'
 ht-degree: 100%
 
@@ -28,12 +28,12 @@ Les SMS peuvent se limiter à envoyer des SMS courts sans formatage, mais leur s
 Il existe deux façons principales d&#39;envoyer un SMS :
 
 * L&#39;envoyer manuellement à partir d&#39;un téléphone, façon habituelle de communiquer directement entre personnes.
-* L&#39;envoyer depuis Internet, façon dont Adobe Campaign envoie des messages. Pour cela, vous avez besoin d&#39;un fournisseur de services de SMS destiné à connecter Internet au réseau mobile.
-Adobe Campaign utilise le protocole SMPP pour envoyer des SMS à un fournisseur de services.
+* L&#39;envoyer depuis Internet, façon dont Adobe Campaign envoie des messages. Pour cela, vous avez besoin d&#39;un fournisseur de services de SMS destiné à connecter Internet au réseau mobile.
+Adobe Campaign utilise le protocole SMPP pour envoyer des SMS à un fournisseur de services.
 
-Ce document vous guide tout au long de la configuration de la connexion entre Adobe Campaign et un fournisseur SMPP.
+Ce document vous guide tout au long de la configuration de la connexion entre Adobe Campaign et un fournisseur SMPP.
 
-Les fournisseurs SMPP peuvent parfois s&#39;écarter des spécifications officielles, mais le connecteur SMS d&#39;Adobe Campaign offre de nombreuses options pour adapter son comportement pour qu&#39;il soit compatible avec la plupart des fournisseurs.
+Les fournisseurs SMPP peuvent parfois s&#39;écarter des spécifications officielles, mais le connecteur SMS d&#39;Adobe Campaign offre de nombreuses options pour adapter son comportement pour qu&#39;il soit compatible avec la plupart des fournisseurs.
 
 >[!IMPORTANT]
 >
@@ -43,11 +43,11 @@ Les fournisseurs SMPP peuvent parfois s&#39;écarter des spécifications officie
 
 Lorsque vous envoyez des SMS en masse par l&#39;intermédiaire d&#39;un fournisseur de services SMS, vous rencontrerez trois types de SMS différents :
 
-* **SMS MT (Mobile Terminated)** : un SMS émis par Adobe Campaign vers les téléphones portables par l&#39;intermédiaire du fournisseur SMPP.
+* **SMS MT (Mobile Terminated)** : un SMS émis par Adobe Campaign vers les téléphones portables par l&#39;intermédiaire du fournisseur SMPP.
 
-* **SMS MO (Mobile Originated)** : un SMS envoyé par un téléphone mobile à Adobe Campaign par l&#39;intermédiaire du fournisseur SMPP.
+* **SMS MO (Mobile Originated)** : un SMS envoyé par un téléphone mobile à Adobe Campaign par l&#39;intermédiaire du fournisseur SMPP.
 
-* **SMS SR (Status Report) ou DR ou DLR (Delivery Receipt)** : un accusé de réception envoyé par le téléphone mobile à Adobe Campaign par l&#39;intermédiaire du fournisseur SMPP indiquant que le SMS a été reçu avec succès. Adobe Campaign peut également recevoir des SR indiquant que le message n&#39;a pas pu être remis, souvent avec une description de l&#39;erreur.
+* **SMS SR (Status Report) ou DR ou DLR (Delivery Receipt)** : un accusé de réception envoyé par le téléphone mobile à Adobe Campaign par l&#39;intermédiaire du fournisseur SMPP indiquant que le SMS a été reçu avec succès. Adobe Campaign peut également recevoir des SR indiquant que le message n&#39;a pas pu être remis, souvent avec une description de l&#39;erreur.
 
 Vous devez faire la distinction entre les accusés de réception (PDU RESP, partie du protocole SMPP) et SR : le SR est un type de SMS qui est envoyé par le réseau de bout en bout, alors qu&#39;un acquittement n&#39;est qu&#39;une confirmation de la réussite d&#39;un transfert.
 
@@ -73,14 +73,14 @@ Un SMS contient plus d&#39;informations que de texte. Voici une liste de ce que 
 
 ## Protocole SMPP {#smpp-protocol}
 
-Adobe Campaign Classic prend en charge le protocole SMPP version 3.4. Il s&#39;agit d&#39;un protocole répandu qui permet d&#39;envoyer des SMS à un fournisseur (SMSC) et de recevoir des SMS ainsi que des accusés de réception. Consultez à ce sujet la [documentation SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+Adobe Campaign Classic prend en charge le protocole SMPP version 3.4. Il s&#39;agit d&#39;un protocole répandu qui permet d&#39;envoyer des SMS à un fournisseur (SMSC) et de recevoir des SMS ainsi que des accusés de réception. Consultez à ce sujet la [documentation SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 L&#39;équipement réseau côté fournisseur SMS est souvent appelé SMSC.
 
 ### Connexions SMPP {#smpp-connections}
 
-Adobe Campaign se connecte à l&#39;équipement réseau du fournisseur SMS via TCP. Le protocole SMPP définit des connexions TCP permanentes d&#39;Adobe Campaign au fournisseur. Les connexions TCP sont toujours initiées par Adobe Campaign, même pour recevoir des messages.
-SMPP ouvre 1 ou 2 connexions TCP, selon son mode. Toutes les connexions sont toujours initiées par Adobe Campaign.
+Adobe Campaign se connecte à l&#39;équipement réseau du fournisseur SMS via TCP. Le protocole SMPP définit des connexions TCP permanentes d&#39;Adobe Campaign au fournisseur. Les connexions TCP sont toujours initiées par Adobe Campaign, même pour recevoir des messages.
+SMPP ouvre 1 ou 2 connexions TCP, selon son mode. Toutes les connexions sont toujours initiées par Adobe Campaign.
 
 Le protocole SMPP peut fonctionner en deux modes :
 
@@ -89,7 +89,7 @@ Le protocole SMPP peut fonctionner en deux modes :
 
 >[!NOTE]
 >
-> Adobe Campaign Classic ne prend en charge que le mode TX+RX. Cette limite est liée à son architecture technique.
+> Adobe Campaign Classic ne prend en charge que le mode TX+RX. Cette limite est liée à son architecture technique.
 
 ### PDU SMPP {#smpp-pdu}
 
@@ -103,15 +103,15 @@ Par exemple, lors de l&#39;envoi d&#39;un MT, la connexion de l&#39;émetteur es
 
 ![](assets/do-not-localize/sms_protocol_1.png)
 
-Dans Adobe Campaign Classic, pour lier un SR à son MT correspondant, un identifiant est renvoyé par le SMSC avec les étapes `SUBMIT_SM_RESP` et `DELIVER_SM`. L&#39;identifiant est stocké dans le champ `providerId` de la table `nms::providerMsgId` et est lié à `broadLogId` et `deliveryId`. Cette opération de correspondance est effectuée par le processus SMS lors de l&#39;écriture dans la base de données.
+Dans Adobe Campaign Classic, pour lier un SR à son MT correspondant, un identifiant est renvoyé par le SMSC avec les étapes `SUBMIT_SM_RESP` et `DELIVER_SM`. L&#39;identifiant est stocké dans le champ `providerId` de la table `nms::providerMsgId` et est lié à `broadLogId` et `deliveryId`. Cette opération de correspondance est effectuée par le processus SMS lors de l&#39;écriture dans la base de données.
 
 Un `SUBMIT_SM_RESP PDU` réussi déclenche le statut du message &quot;envoyé&quot; dans le journal d&#39;envoi tandis qu&#39;un `DELIVER_SM (SR) PDU` réussi déclenche le statut du message &quot;reçu&quot;.
 
 ### Aspects liés à la sécurité {#security-aspects}
 
-Le protocole lui-même n&#39;est pas chiffré. La plupart des fournisseurs mettent en œuvre une variante d&#39;IP sur la liste autorisée, de sorte que les adresses IP du serveur Adobe Campaign doivent être déclarées au fournisseur.
+Le protocole lui-même n&#39;est pas chiffré. La plupart des fournisseurs mettent en œuvre une variante d&#39;IP sur la liste autorisée, de sorte que les adresses IP du serveur Adobe Campaign doivent être déclarées au fournisseur.
 
-Adobe Campaign prend en charge la transmission d&#39;un nom d&#39;utilisateur et d&#39;un mot de passe lors de la phase de liaison. Il prend également en charge le SMPP plutôt que le TLS. Il convient de noter que des certificats sont requis pour assurer une sécurité adéquate. Bien que le connecteur SMPP permette de contourner les vérifications de certificats, il ne doit être utilisé que pour les tests, car un TLS sans certificat offre un niveau de sécurité nettement inférieur.
+Adobe Campaign prend en charge la transmission d&#39;un nom d&#39;utilisateur et d&#39;un mot de passe lors de la phase de liaison. Il prend également en charge le SMPP plutôt que le TLS. Il convient de noter que des certificats sont requis pour assurer une sécurité adéquate. Bien que le connecteur SMPP permette de contourner les vérifications de certificats, il ne doit être utilisé que pour les tests, car un TLS sans certificat offre un niveau de sécurité nettement inférieur.
 
 Le connecteur utilise les certificats par défaut fournis par la bibliothèque système `openssl`. En général, il est fourni par le répertoire `/etc/ssl/certs` sur Debian. Ce répertoire est fourni par le package &quot;ca-certificates&quot; par défaut, mais il peut être personnalisé.
 
@@ -151,7 +151,7 @@ Champs visibles dans un `BIND_* PDU` :
 
 Ce PDU doit être envoyé par le système avant de se déconnecter. Il doit attendre le PDU `UNBIND_RESP` correspondant avant de fermer la connexion.
 
-La conformité SMSC ne doit pas fermer la connexion, la connexion TCP est contrôlée par le connecteur Adobe Campaign.
+La conformité SMSC ne doit pas fermer la connexion, la connexion TCP est contrôlée par le connecteur Adobe Campaign.
 
 #### SUBMIT_SM {#submit-sm}
 
@@ -169,19 +169,19 @@ Champs visibles dans un PDU`SUBMIT_SM` :
 
 * **destination_addr** : adresse du destinataire, numéro de téléphone ou MSISDN.
 
-* **esm_class** : permet de déterminer si UDH est utilisé ou non dans le champ de texte. Activé automatiquement par le connecteur pour scinder les SMS si le mode `message_payload` n&#39;est pas utilisé.
+* **esm_class** : permet de déterminer si UDH est utilisé ou non dans le champ de texte. Activé automatiquement par le connecteur pour scinder les SMS si le mode `message_payload` n&#39;est pas utilisé.
 
 * **priority_flag** : priorité de ce message sur les autres. Cela est lié à la priorité de la diffusion elle-même.
 
 * **validity_period** : date et heure après lesquelles aucune nouvelle tentative ne doit être effectuée. Défini dans la diffusion elle-même.
 
-* **registered_delivery** : indique si un SR est demandé ou non. Adobe Campaign définit toujours cet indicateur, à l&#39;exception des réponses automatiques. Pour les messages en plusieurs parties, l&#39;indicateur n&#39;est défini que pour la première partie. Toutes les versions ont le même comportement.
+* **registered_delivery** : indique si un SR est demandé ou non. Adobe Campaign définit toujours cet indicateur, à l&#39;exception des réponses automatiques. Pour les messages en plusieurs parties, l&#39;indicateur n&#39;est défini que pour la première partie. Toutes les versions ont le même comportement.
 
 * **data_coding** : indique le codage utilisé dans le champ de texte. Pour plus d&#39;informations, consultez la section [Encodage du texte SMS](sms-protocol.md#sms-text-encoding) pour plus d&#39;informations.
 
 * **short_message** : texte du message. Si UDH est utilisé, il contient également l&#39;en-tête UHD.
 
-Adobe Campaign prend en charge les champs facultatifs suivants :
+Adobe Campaign prend en charge les champs facultatifs suivants :
 
 * **Dest_addr_subunit** : utilisé pour spécifier la cible du SMS : flash, mobile ou carte SIM. Défini dans les propriétés de la diffusion.
 
@@ -195,11 +195,11 @@ Ce PDU contient l&#39;ID du MT. Ceci est utile pour établir une correspondance 
 >
 >De nombreux fournisseurs transmettent l&#39;ID MT au format hexadécimal. Assurez-vous de définir correctement le **format de l&#39;ID dans l&#39;acquittement MT** dans le compte externe.
 
-Certains fournisseurs envoient `SUBMIT_SM_RESP` après l&#39;envoi du SR. Pour tenir compte de ce comportement, Adobe Campaign attend 30 secondes avant de répondre **Identifiant du message non valide** à un SR avec un ID inconnu.
+Certains fournisseurs envoient `SUBMIT_SM_RESP` après l&#39;envoi du SR. Pour tenir compte de ce comportement, Adobe Campaign attend 30 secondes avant de répondre **Identifiant du message non valide** à un SR avec un ID inconnu.
 
 #### DELIVER_SM {#delivery-sm}
 
-Ce PDU est envoyé par le SMSC à Adobe Campaign. Il contient un MO ou un SR.
+Ce PDU est envoyé par le SMSC à Adobe Campaign. Il contient un MO ou un SR.
 
 La plupart des champs ont la même signification que leur contrepartie `SUBMIT_SM`. Voici la liste des champs utiles :
 
@@ -211,13 +211,13 @@ La plupart des champs ont la même signification que leur contrepartie `SUBMIT_S
 
 * **short_message** : texte du message. Pour le SR, il contient les données décrites à l&#39;annexe B de la spécification du protocole SMPP. Voir [Gestion des erreurs SR](sms-protocol.md#sr-error-management) pour plus de détails.
 
-Adobe Campaign peut lire l&#39;identifiant du message dans le champ facultatif `receipted_message_id` avec un ajustement de la configuration.
+Adobe Campaign peut lire l&#39;identifiant du message dans le champ facultatif `receipted_message_id` avec un ajustement de la configuration.
 
 #### DELIVER_SM_RESP {#deliver-sm-resp}
 
-Ce PDU est envoyé par Adobe Campaign pour acquitter SR et MO.
+Ce PDU est envoyé par Adobe Campaign pour acquitter SR et MO.
 
-Adobe Campaign Classic reconnaît SR et MO une fois qu&#39;ils ont été insérés dans la base de données. Certaines erreurs de traitement peuvent se produire même si un PDU `DELIVER_SM_RESP` réussi a été envoyé. Cette limite est due à l&#39;architecture logicielle d&#39;Adobe Campaign Classic.
+Adobe Campaign Classic reconnaît SR et MO une fois qu&#39;ils ont été insérés dans la base de données. Certaines erreurs de traitement peuvent se produire même si un PDU `DELIVER_SM_RESP` réussi a été envoyé. Cette limite est due à l&#39;architecture logicielle d&#39;Adobe Campaign Classic.
 
 #### ENQUIRE_LINK {#enquire-links}
 
@@ -237,15 +237,15 @@ Ce PDU acquitte le fait que la connexion est active.
 
 Les SMS en plusieurs parties, ou les SMS longs, sont des SMS envoyés en plusieurs parties. En raison des limitations techniques du protocole de réseau mobile, un SMS ne peut pas dépasser 140 octets ou doit être fractionné. Consultez la section [Encodage du texte SMS](sms-protocol.md#sms-text-encoding) pour en savoir plus sur le nombre de caractères pouvant tenir dans un SMS.
 
-Chaque partie d&#39;un long message est un SMS individuel. Ces pièces se déplacent indépendamment sur le réseau et sont assemblées par le téléphone mobile récepteur. Pour gérer les reprises et les problèmes de connectivité, Adobe Campaign envoie ces pièces dans l&#39;ordre inverse et ne demande un SR que sur la première partie du message, la dernière envoyée. Puisque le téléphone portable n&#39;affiche un message que lors de la réception de sa première partie, les reprises sur d&#39;autres parties ne produisent pas de doublons sur le téléphone portable.
+Chaque partie d&#39;un long message est un SMS individuel. Ces pièces se déplacent indépendamment sur le réseau et sont assemblées par le téléphone mobile récepteur. Pour gérer les reprises et les problèmes de connectivité, Adobe Campaign envoie ces pièces dans l&#39;ordre inverse et ne demande un SR que sur la première partie du message, la dernière envoyée. Puisque le téléphone portable n&#39;affiche un message que lors de la réception de sa première partie, les reprises sur d&#39;autres parties ne produisent pas de doublons sur le téléphone portable.
 
 Le nombre maximal de SMS par message peut être défini par diffusion à l&#39;aide du paramètre **Nombre maximal de SMS par message** défini dans le **Modèle de diffusion**. Les messages qui dépassent cette limite échouent lors de l&#39;envoi d&#39;un SMS avec une raison d&#39;échec trop longue.
 
 Il y a deux façons d&#39;envoyer des SMS longs :
 
-* **UDH** : la méthode par défaut et recommandée pour envoyer des messages longs. Dans ce mode, le connecteur divise le message en plusieurs `SUBMIT_SM PDU` avec les informations UDH. Ce protocole est celui utilisé par les téléphones portables eux-mêmes. Cela signifie qu&#39;Adobe Campaign a le plus grand contrôle sur la génération de messages, ce qui lui permet de calculer exactement combien de parties ont été envoyées et comment elles ont été fractionnées.
+* **UDH** : la méthode par défaut et recommandée pour envoyer des messages longs. Dans ce mode, le connecteur divise le message en plusieurs `SUBMIT_SM PDU` avec les informations UDH. Ce protocole est celui utilisé par les téléphones portables eux-mêmes. Cela signifie qu&#39;Adobe Campaign a le plus grand contrôle sur la génération de messages, ce qui lui permet de calculer exactement combien de parties ont été envoyées et comment elles ont été fractionnées.
 
-* **message_payload** : la façon d&#39;envoyer tout le long message en un seul `SUBMIT_SM PDU`. Le fournisseur devra le fractionner, ce qui signifie qu&#39;il est impossible pour Adobe Campaign de savoir exactement combien de parties ont été envoyées. Certains fournisseurs exigent ce mode, mais nous vous conseillons de ne l&#39;utiliser que s&#39;ils ne prennent pas en charge l&#39;UDH.
+* **message_payload** : la façon d&#39;envoyer tout le long message en un seul `SUBMIT_SM PDU`. Le fournisseur devra le fractionner, ce qui signifie qu&#39;il est impossible pour Adobe Campaign de savoir exactement combien de parties ont été envoyées. Certains fournisseurs exigent ce mode, mais nous vous conseillons de ne l&#39;utiliser que s&#39;ils ne prennent pas en charge l&#39;UDH.
 
 Consultez la description des champs `esm_class`, `short_message` et `message_payload` du PDU [SUBMIT_SM](sms-protocol.md#information-pdu) pour plus d&#39;informations sur le protocole et les formats.
 
@@ -261,7 +261,7 @@ Le protocole SMPP définit des erreurs synchrones standard dans `RESP PDU`, mais
 
 Une recommandation est faite dans la section de l&#39;Annexe B de la [spécification du protocole SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (page 167), mais sans indiquer les codes d&#39;erreur réels ni leur signification.
 
-Pour s&#39;adapter à la gestion des erreurs, le système de messagerie broadlog d&#39;Adobe Campaign a été exploité pour indiquer correctement les erreurs et leur sévérité (hard, soft, etc.).
+Pour s&#39;adapter à la gestion des erreurs, le système de messagerie broadlog d&#39;Adobe Campaign a été exploité pour indiquer correctement les erreurs et leur sévérité (hard, soft, etc.).
 
 Comme mentionné ci-dessus, il existe deux types d&#39;erreurs :
 
@@ -270,7 +270,7 @@ Comme mentionné ci-dessus, il existe deux types d&#39;erreurs :
 
 Lorsqu&#39;un SR est reçu, le statut et l&#39;erreur se trouvent dans son champ `short_message` (exemple pour les mises en œuvre conformes à l&#39;Annexe B). Le champ `short_message` du PDU est souvent appelé le **champ de texte**, car il contient du texte en MT. En cas de SR, il contient des informations techniques ainsi qu&#39;un sous-champ nommé **Texte**. Ces deux champs sont différents et `short_message` contiennent en fait le champ **Texte** et d&#39;autres informations.
 
-Les connecteurs Adobe Campaign Classic (à l&#39;exception de l&#39;option SMPP étendu) utilisent un comportement codé en dur qui dépend du fournisseur sélectionné. Le SMPP générique ne fait que distinguer la réussite de l&#39;erreur, sans aucun détail. Le log de diffusion peut contenir certaines informations qui ne sont pas garanties.
+Les connecteurs Adobe Campaign Classic (à l&#39;exception de l&#39;option SMPP étendu) utilisent un comportement codé en dur qui dépend du fournisseur sélectionné. Le SMPP générique ne fait que distinguer la réussite de l&#39;erreur, sans aucun détail. Le log de diffusion peut contenir certaines informations qui ne sont pas garanties.
 
 #### Format de champ de texte SR {#sr-text-field-format}
 
@@ -284,17 +284,17 @@ id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat
 
 Le champ id correspond à l&#39;ID reçu dans `SUBMIT_SM_RESP PDU`, c&#39;est-à-dire l&#39;acquittement de la valeur MT.
 
-`sub` et `dlvrd` sont censés compter la quantité de parties délivrées et de messages délivrés, mais ceci n&#39;est pas utilisé par Adobe Campaign puisque le système broadlog donne une information meilleure et plus intégrée.
+`sub` et `dlvrd` sont censés compter la quantité de parties délivrées et de messages délivrés, mais ceci n&#39;est pas utilisé par Adobe Campaign puisque le système broadlog donne une information meilleure et plus intégrée.
 
 Les champs `submit date` et `done date` sont des dates et heures indicatives du moment où le MT a été envoyé et du moment où le SR a été envoyé par le mobile. Vous pouvez vous attendre à des problèmes de fuseaux horaires ou même à des dates et heures incorrectes données par les mobiles avec un jeu de dates incorrect.
 
-Le champ &quot;stat&quot; est important car il indique le statut du message. Les seuls statuts importants sont `DELIVRD`, `UNDELIV` et `REJECTD`. Le statut `DELIVRD` indique une réussite, les deux autres indiquent une erreur. D&#39;autres valeurs sont possibles, mais il s&#39;agit généralement de notifications intermédiaires, par exemple le MT a atteint l&#39;opérateur de téléphonie mobile, mais pas le téléphone mobile. Ces notifications intermédiaires sont ignorées par Adobe Campaign.
+Le champ &quot;stat&quot; est important car il indique le statut du message. Les seuls statuts importants sont `DELIVRD`, `UNDELIV` et `REJECTD`. Le statut `DELIVRD` indique une réussite, les deux autres indiquent une erreur. D&#39;autres valeurs sont possibles, mais il s&#39;agit généralement de notifications intermédiaires, par exemple le MT a atteint l&#39;opérateur de téléphonie mobile, mais pas le téléphone mobile. Ces notifications intermédiaires sont ignorées par Adobe Campaign.
 
 Le champ &quot;err&quot; contient le code d&#39;erreur propre au fournisseur. Le fournisseur doit fournir un tableau des codes d&#39;erreur possibles ainsi que leur signification pour pouvoir interpréter cette valeur.
 
-Enfin, le champ &quot;text&quot; contient généralement le début du texte du MT. Adobe Campaign n&#39;en tient pas compte et certains fournisseurs ne le transmettent pas pour éviter les fuites d&#39;informations d&#39;identification personnelle et la consommation de bande passante du réseau. Il peut être utilisé lors de résolution des problèmes pour repérer plus facilement le SR correspondant à un test MT en lisant ce champ.
+Enfin, le champ &quot;text&quot; contient généralement le début du texte du MT. Adobe Campaign n&#39;en tient pas compte et certains fournisseurs ne le transmettent pas pour éviter les fuites d&#39;informations d&#39;identification personnelle et la consommation de bande passante du réseau. Il peut être utilisé lors de résolution des problèmes pour repérer plus facilement le SR correspondant à un test MT en lisant ce champ.
 
-### Exemple de traitement SR dans un SMPP générique étendu Adobe Campaign Standard {#sr-processing}
+### Exemple de traitement SR dans un SMPP générique étendu Adobe Campaign Standard {#sr-processing}
 
 Cet exemple montre comment afficher le cas d&#39;une mise en œuvre suivant la recommandation de l&#39;Annexe B, les valeurs par défaut dans le compte externe et un SMS MT réussi.
 
@@ -324,7 +324,7 @@ Si le message n&#39;est pas déjà configuré dans le tableau des messages broad
 
 * S&#39;il correspond à l&#39;expression régulière `error`, le message est qualifié d&#39;erreur.
 
-* Si aucune de ces deux expressions régulières ne correspond, le SR est ignoré. Il peut s&#39;agir d&#39;une notification intermédiaire, qui n&#39;est pas gérée par Adobe Campaign.
+* Si aucune de ces deux expressions régulières ne correspond, le SR est ignoré. Il peut s&#39;agir d&#39;une notification intermédiaire, qui n&#39;est pas gérée par Adobe Campaign.
 
 Par défaut, toutes les erreurs sont configurées en tant qu&#39;erreurs logicielles. Cela signifie que les erreurs hard doivent être corrigées à la main.
 
@@ -346,13 +346,13 @@ En cas de problème d&#39;encodage, voici quelques éléments importants à vér
 
 * Latin-1 n&#39;est pas toujours pris en charge. Vérifiez la compatibilité avec votre fournisseur SMSC avant de tenter d&#39;utiliser Latin-1.
 
-* Les tableaux de conversion de langue nationale ne sont pas pris en charge par le connecteur Adobe Campaign. Vous devez utiliser UCS-2 ou autre `data_coding` à la place.
+* Les tableaux de conversion de langue nationale ne sont pas pris en charge par le connecteur Adobe Campaign. Vous devez utiliser UCS-2 ou autre `data_coding` à la place.
 
 * UCS-2 et UTF-16 sont souvent mélangés par les téléphones. Ceci est un problème lors de l&#39;utilisation d&#39;émoticônes et d&#39;autres caractères non présents dans UCS-2.
 
-* La plupart des téléphones ne contiennent pas de glyphes de police pour tous les caractères UCS-2. Les smartphones ont tendance à être en mesure d&#39;afficher des caractères rares assez facilement, mais les téléphones numériques ont généralement un support limité à ce qui est utile dans la langue maternelle du pays dans lequel ils ont été achetés. Si vous voulez utiliser un émoticône ou de l&#39;art ASCII, testez-le sur un large éventail de téléphones avant de l&#39;envoyer. La prévisualisation Adobe Campaign ne simule pas les glyphes manquants et affiche les symboles disponibles dans le navigateur Web.
+* La plupart des téléphones ne contiennent pas de glyphes de police pour tous les caractères UCS-2. Les smartphones ont tendance à être en mesure d&#39;afficher des caractères rares assez facilement, mais les téléphones numériques ont généralement un support limité à ce qui est utile dans la langue maternelle du pays dans lequel ils ont été achetés. Si vous voulez utiliser un émoticône ou de l&#39;art ASCII, testez-le sur un large éventail de téléphones avant de l&#39;envoyer. La prévisualisation Adobe Campaign ne simule pas les glyphes manquants et affiche les symboles disponibles dans le navigateur Web.
 
-Le champ `data_coding` indique l&#39;encodage utilisé. Un problème majeur est que la valeur 0 signifie un encodage SMSC par défaut dans la spécification, qui fait généralement référence à GSM7. Vérifiez auprès du partenaire SMSC quel encodage est associé à `data_coding` = 0 qu&#39;Adobe Campaign ne fait que prendre en charge. D&#39;autres valeurs `data_coding` tendent à suivre la spécification, mais la seule façon de s&#39;en assurer est de vérifier auprès du fournisseur SMSC.
+Le champ `data_coding` indique l&#39;encodage utilisé. Un problème majeur est que la valeur 0 signifie un encodage SMSC par défaut dans la spécification, qui fait généralement référence à GSM7. Vérifiez auprès du partenaire SMSC quel encodage est associé à `data_coding` = 0 qu&#39;Adobe Campaign ne fait que prendre en charge. D&#39;autres valeurs `data_coding` tendent à suivre la spécification, mais la seule façon de s&#39;en assurer est de vérifier auprès du fournisseur SMSC.
 
 La taille maximale d&#39;un message dépend de son encodage. Ce tableau récapitule toutes les informations pertinentes :
 
@@ -406,15 +406,15 @@ Valeur transmise dans le champ `system_id` du PDU BIND. Certains fournisseurs on
 
 #### Nombre de connexions enfant MTA {#number-mta-child}
 
-Dans Adobe Campaign Classic, il définit le nombre de connexions par enfant MTA.
+Dans Adobe Campaign Classic, il définit le nombre de connexions par enfant MTA.
 
-Le connecteur SMPP étendu Adobe Campaign Classic peut contrôler le nombre de connexions par enfant MTA. Pour contrôler la limite globale des connexions, vous devrez limiter le nombre de processus enfant MTA, ce qui signifie souvent disposer d&#39;une plateforme de mid-sourcing dédiée pour les SMS.
+Le connecteur SMPP étendu Adobe Campaign Classic peut contrôler le nombre de connexions par enfant MTA. Pour contrôler la limite globale des connexions, vous devrez limiter le nombre de processus enfant MTA, ce qui signifie souvent disposer d&#39;une plateforme de mid-sourcing dédiée pour les SMS.
 
-Pour Adobe Campaign Classic, le nombre de connexions de récepteurs et d&#39;émetteurs peut être différent :
+Pour Adobe Campaign Classic, le nombre de connexions de récepteurs et d&#39;émetteurs peut être différent :
 
 * **Connexions de l&#39;émetteur = Nombre de connexions enfant MTA * Nombre de processus enfant MTA * Nombre de MTA (si la réponse automatique est définie) + Nombre de connexions enfant MTA**
 
-Comme nous l&#39;avons suggéré plus haut, le processus SMS d&#39;Adobe Campaign Classic ouvre davantage de connexions d&#39;émetteur si la réponse automatique est activée. Ces connexions supplémentaires sont utilisées pour envoyer les réponses automatiques.
+Comme nous l&#39;avons suggéré plus haut, le processus SMS d&#39;Adobe Campaign Classic ouvre davantage de connexions d&#39;émetteur si la réponse automatique est activée. Ces connexions supplémentaires sont utilisées pour envoyer les réponses automatiques.
 
 * **Connexions de récepteur = Nombre de connexions enfant MTA**
 
@@ -428,7 +428,7 @@ Utilisez TLS pour vous connecter au fournisseur. La connexion sera chiffrée. La
 
 Ce paramètre permet de vider tout le trafic SMPP dans les fichiers logs. Il est souvent nécessaire d&#39;ajuster les paramètres lors de la configuration initiale. Ceci doit être activé lors de la résolution des problèmes du connecteur et comparé au trafic vu par le fournisseur.
 
-Dans Adobe Campaign Classic, la sortie du log se trouve dans le log MTA pour le trafic lié aux MT et dans le log SMS pour le trafic lié aux MO et SR.
+Dans Adobe Campaign Classic, la sortie du log se trouve dans le log MTA pour le trafic lié aux MT et dans le log SMS pour le trafic lié aux MO et SR.
 
 ### Paramètre de connexion du récepteur {#receiver-connection}
 
@@ -460,7 +460,7 @@ Pour obtenir une explication plus générale du processus d&#39;encodage, consul
 
 Lorsque l&#39;option est activée, le MO entrant est stocké dans le tableau inSMS de la base de données. Ce tableau peut être interrogé à l&#39;aide de l&#39;activité requête de tout workflow.
 
-Adobe Campaign Classic stocke toujours tous les MO dans la base de données inSMS. Cette option n&#39;est donc pas disponible.
+Adobe Campaign Classic stocke toujours tous les MO dans la base de données inSMS. Cette option n&#39;est donc pas disponible.
 
 #### Activer les mises à jour des KPI en temps réel pendant le traitement du SR (rapport d&#39;état) {#real-time-kpi}
 
@@ -468,7 +468,7 @@ Lorsqu&#39;ils sont activés, les KPI (indicateurs de performance clés) sont mi
 
 L&#39;inconvénient peut être de faibles performances en raison de la contention de base de données qu&#39;elle génère. Si cette option est désactivée, les statistiques sont mises à jour par le workflow **syncfromexec**, qui s&#39;exécute toutes les 20 minutes.
 
-Adobe Campaign Classic dispose d&#39;un mécanisme entièrement différent pour les KPI (indicateurs de performance clés). Cette option n&#39;est donc pas disponible.
+Adobe Campaign Classic dispose d&#39;un mécanisme entièrement différent pour les KPI (indicateurs de performance clés). Cette option n&#39;est donc pas disponible.
 
 #### Numéro source {#source-number}
 
@@ -541,7 +541,7 @@ Délai entre `SUBMIT_SM` et son `SUBMIT_SM_RESP` correspondant. Si `RESP` n&#39;
 
 #### Délai d&#39;attente maximal d&#39;un bind {#bind-timeout}
 
-Délai entre la tentative de connexion TCP et la réponse `BIND_*_RESP`. Lorsqu&#39;elle expire, la connexion est fermée par le connecteur Adobe Campaign et il faut attendre le temps avant reconnexion avant de réessayer.
+Délai entre la tentative de connexion TCP et la réponse `BIND_*_RESP`. Lorsqu&#39;elle expire, la connexion est fermée par le connecteur Adobe Campaign et il faut attendre le temps avant reconnexion avant de réessayer.
 
 #### Période d&#39;enquire_link {#enquire-link-period}
 
@@ -549,7 +549,7 @@ Délai entre la tentative de connexion TCP et la réponse `BIND_*_RESP`. Lorsqu&
 
 ### Spécificités des SMSC {#SMSC-specifics}
 
-Ces paramètres sont des paramètres avancés qui adaptent le connecteur Adobe Campaign à la plupart des particularités d&#39;implémentation SMPP.
+Ces paramètres sont des paramètres avancés qui adaptent le connecteur Adobe Campaign à la plupart des particularités d&#39;implémentation SMPP.
 
 **Définir un mapping des encodages spécifique**
 
@@ -561,7 +561,7 @@ Le MTA tentera d&#39;effectuer un encodage en utilisant le premier de la liste. 
 
 L&#39;ordre des éléments du tableau est important : les encodages sont des tentatives de haut en bas. Placez l&#39;encodage le moins cher ou le plus recommandé en haut de la liste, puis choisissez des encodages de plus en plus chers.
 
-Veuillez noter que UCS-2 n&#39;échouera jamais car il peut coder tous les caractères pris en charge dans Adobe Campaign et que la longueur maximale d&#39;un SMS UCS-2 est beaucoup plus petite : 70 caractères uniquement.
+Veuillez noter que UCS-2 n&#39;échouera jamais car il peut coder tous les caractères pris en charge dans Adobe Campaign et que la longueur maximale d&#39;un SMS UCS-2 est beaucoup plus petite : 70 caractères uniquement.
 
 Vous pouvez également utiliser ce paramètre pour forcer l&#39;utilisation d&#39;un encodage spécifique en ne déclarant que 1 ligne dans le tableau de mapping.
 
@@ -582,7 +582,7 @@ Lorsque l&#39;option n&#39;est pas cochée, les SMS longs sont fractionnés par 
 
 Si cette option est cochée, un SMS long est envoyé dans un PDU SUBMIT_SM, plaçant le texte dans le champ message_payload facultatif. Consultez la [spécification SMPP](sms-protocol.md#ACS-SMPP-connector) pour plus d&#39;informations à ce sujet.
 
-Si cette fonction est activée, Adobe Campaign ne peut pas comptabiliser les parties SMS individuellement : tous les messages sont comptés comme envoyés en une seule partie.
+Si cette fonction est activée, Adobe Campaign ne peut pas comptabiliser les parties SMS individuellement : tous les messages sont comptés comme envoyés en une seule partie.
 
 #### Envoyer le numéro de téléphone complet {#send-full-phone-number}
 
@@ -644,7 +644,7 @@ Si ce champ est défini sur 1, le connecteur répond toujours &quot;OK&quot;, m�
 
 #### Expression régulière d&#39;extraction de l&#39;ID dans le SR {#regex-extraction}
 
-Le format SR n&#39;est pas strictement appliqué par la spécification du protocole SMPP. Il ne s&#39;agit que d&#39;une recommandation décrite à l&#39;[Annexe B](sms-protocol.md#sr-error-management) (page 167) de la spécification. Certains implémenteurs de SMPP formattent ce champ différemment, de sorte qu&#39;Adobe Campaign a besoin d&#39;un moyen d&#39;extraire le champ correct.
+Le format SR n&#39;est pas strictement appliqué par la spécification du protocole SMPP. Il ne s&#39;agit que d&#39;une recommandation décrite à l&#39;[Annexe B](sms-protocol.md#sr-error-management) (page 167) de la spécification. Certains implémenteurs de SMPP formattent ce champ différemment, de sorte qu&#39;Adobe Campaign a besoin d&#39;un moyen d&#39;extraire le champ correct.
 
 Par défaut, il capture jusqu&#39;à 10 caractères alphanumériques après `id:`.
 
@@ -680,7 +680,7 @@ Ceci indique le format de l&#39;ID capturé par l&#39;expression régulière `Ex
 
 >[!NOTE]
 >
->Disponible uniquement dans le connecteur SMPP étendu Adobe Campaign Classic.
+>Disponible uniquement dans le connecteur SMPP étendu Adobe Campaign Classic.
 
 Si cette case est cochée, le contenu des champs facultatifs est ajouté au texte traité par les expressions régulières ci-dessus. Le texte aura le format `0xTAG:VALUE`, `0xTAG` étant la valeur hexadécimale de 4 chiffres de la balise en majuscules, par exemple `0x002E`.
 
@@ -720,7 +720,7 @@ Ce paramètre permet uniquement d&#39;ajouter une option TLV par message.
 
 >[!IMPORTANT]
 >
->Dans Adobe Campaign Classic et avec une architecture hybride, l’application d’une réponse automatique pour le connecteur SMPP étendu nécessite l’ajout d’un accès en écriture pour l’opérateur mid sur le dossier **Compte externe**.
+>Dans Adobe Campaign Classic et avec une architecture hybride, l’application d’une réponse automatique pour le connecteur SMPP étendu nécessite l’ajout d’un accès en écriture pour l’opérateur mid sur le dossier **Compte externe**.
 
 Cette fonctionnalité permet de répondre rapidement du texte au MO et de gérer l&#39;envoi de numéro court à la liste bloquée.
 
@@ -756,7 +756,7 @@ Ce paramètre ne fonctionne que si le paramètre **Payload du message** est dés
 
 Le protocole SMS limite les SMS à 255 parties, mais certains téléphones portables ont du mal à assembler de longs messages avec plus de 10 parties environ, la limite dépend du modèle exact. Nous vous conseillons de ne pas dépasser 5 parties par message.
 
-En raison du fonctionnement des messages personnalisés dans Adobe Campaign, la taille des messages peut varier. Le fait d&#39;avoir beaucoup de messages longs pourrait augmenter les coûts d&#39;envoi.
+En raison du fonctionnement des messages personnalisés dans Adobe Campaign, la taille des messages peut varier. Le fait d&#39;avoir beaucoup de messages longs pourrait augmenter les coûts d&#39;envoi.
 
 #### Mode de transmission {#transmission-mode}
 
@@ -822,7 +822,7 @@ Cette liste de contrôle fournit une liste de choses que vous devriez vérifier 
 
 Vérifiez que vous n&#39;avez pas de vieux comptes externes SMS. Si vous laissez le compte test désactivé, il existe un risque qu&#39;il soit réactivé sur le système de production et qu&#39;il génère des conflits potentiels.
 
-Si plusieurs comptes de la même instance Adobe Campaign se connectent au même fournisseur, contactez ce dernier pour vérifier qu&#39;il distingue effectivement les connexions entre ces comptes. La présence de plusieurs comptes avec le même nom d&#39;utilisateur nécessite une configuration supplémentaire.
+Si plusieurs comptes de la même instance Adobe Campaign se connectent au même fournisseur, contactez ce dernier pour vérifier qu&#39;il distingue effectivement les connexions entre ces comptes. La présence de plusieurs comptes avec le même nom d&#39;utilisateur nécessite une configuration supplémentaire.
 
 ### Activer les traces SMPP de verbose lors des vérifications {#enable-verbose}
 
@@ -843,14 +843,14 @@ Vérifiez que vous avez modifié le nom du fournisseur de diffusions. Le log de 
 
 * **Vérifier que les MO sont traités**
 Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.) essayez de faire des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
-Archivez le journal auquel Adobe Campaign répond avec un 
+Archivez le journal auquel Adobe Campaign répond avec un 
 `DELIVER_SM_RESP` (command_status=0) réussi.
 
 ### Vérifier les PDU {#check-pdus}
 
 Même si les messages semblent avoir réussi, il est important de vérifier que les PDU sont correctement formatés.
 
-Cette étape est nécessaire lors de la connexion avec un fournisseur qui n&#39;était pas connecté à Adobe Campaign auparavant.
+Cette étape est nécessaire lors de la connexion avec un fournisseur qui n&#39;était pas connecté à Adobe Campaign auparavant.
 
 #### BIND {#bind}
 

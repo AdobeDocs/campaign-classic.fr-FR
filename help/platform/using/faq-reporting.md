@@ -19,15 +19,15 @@ ht-degree: 100%
 
 ## Comment créer de nouveaux rapports ? {#how-can-i-create-new-reports-}
 
-En complément des rapports intégrés, Adobe Campaign permet de générer des rapports dans différents contextes et de répondre à des besoins variés.
+En complément des rapports intégrés, Adobe Campaign permet de générer des rapports dans différents contextes et de répondre à des besoins variés.
 
-Adobe Campaign n&#39;est pas un outil spécialisé dans le reporting : les rapports créés dans Adobe Campaign permettent principalement de visualiser des données agrégées.
+Adobe Campaign n&#39;est pas un outil spécialisé dans le reporting : les rapports créés dans Adobe Campaign permettent principalement de visualiser des données agrégées.
 
 [Cliquez ici pour en savoir plus](../../reporting/using/about-adobe-campaign-reporting-tools.md) sur les fonctionnalités de reporting de Campaign.
 
 ## Comment concevoir et partager des rapports statistiques sur les populations ? {#how-can-i-design-and-share-statistic-reports-on-populations-}
 
-Les [rapports d&#39;analyse descriptive](../../reporting/using/about-descriptive-analysis.md) d&#39;Adobe Campaign permettent de concevoir et partager des rapports statistiques sur vos populations, d&#39;[explorer l&#39;audience d&#39;une newsletter](../../reporting/using/use-cases.md#analyzing-a-population) ou de [créer un rapport sur la population d&#39;une transition de workflow](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow). Vous pouvez, par exemple, [analyser le taux de réactivité des destinataires d&#39;une newsletter](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
+Les [rapports d&#39;analyse descriptive](../../reporting/using/about-descriptive-analysis.md) d&#39;Adobe Campaign permettent de concevoir et partager des rapports statistiques sur vos populations, d&#39;[explorer l&#39;audience d&#39;une newsletter](../../reporting/using/use-cases.md#analyzing-a-population) ou de [créer un rapport sur la population d&#39;une transition de workflow](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow). Vous pouvez, par exemple, [analyser le taux de réactivité des destinataires d&#39;une newsletter](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
 
 [Pour en savoir plus, cliquez ici](../../reporting/using/about-descriptive-analysis.md).
 
@@ -39,7 +39,7 @@ Avec Campaign Classic, vous pouvez [créer des rapports avancés](../../reportin
 
 ## Qu&#39;est-ce qu&#39;un cube et comment créer ce type de rapport ? {#what-is-a-cube-and-how-to-create-such-a-report-}
 
-Vous pouvez ainsi d&#39;étendre les capacités d&#39;exploration et d&#39;analyse des données de la base, tout en simplifiant le paramétrage des rapports et tableaux pour les utilisateurs finaux : ils n&#39;ont plus qu&#39;à sélectionner un cube existant, entièrement paramétré, lors de la création de leur rapport ou tableau pour en exploiter les calculs, mesures et statistiques.
+Vous pouvez ainsi d&#39;étendre les capacités d&#39;exploration et d&#39;analyse des données de la base, tout en simplifiant le paramétrage des rapports et tableaux pour les utilisateurs finaux : ils n&#39;ont plus qu&#39;à sélectionner un cube existant, entièrement paramétré, lors de la création de leur rapport ou tableau pour en exploiter les calculs, mesures et statistiques.
 
 Une fois créés et paramétrés, les cubes sont utilisés dans les boîtes de requête des rapports et les applications Web. Ils peuvent être exploités et manipulés au sein de tableaux croisés dynamiques.
 

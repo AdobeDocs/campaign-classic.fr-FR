@@ -39,7 +39,7 @@ Lorsque cette option est sélectionnée, les activités exécutées apparaissent
 
 ## Afficher le journal {#displaying-logs}
 
-Le journal contient l&#39;historique de l&#39;exécution du workflow. Il mémorise les actions effectuées par les opérateurs, les opérations réalisées et les erreurs d&#39;exécution. Vous pouvez :
+Le journal contient l&#39;historique de l&#39;exécution du workflow. Il mémorise les actions effectuées par les opérateurs, les opérations réalisées et les erreurs d&#39;exécution. Vous pouvez :
 
 * Sélectionner l&#39;onglet **[!UICONTROL Suivi]** du détail. Cette liste affiche tous les messages du workflow.
 
@@ -53,11 +53,11 @@ Le journal contient l&#39;historique de l&#39;exécution du workflow. Il mémori
    >
    >Cliquez sur l&#39;arrière-plan du diagramme pour tout désélectionner.
 
-* Visualiser uniquement les messages associés à une tâche particulière. Pour cela, sélectionnez l&#39;onglet **[!UICONTROL Tâches]** puis cliquez sur une activité du diagramme pour limiter la liste à une activité particulière. Double-cliquez sur une tâche pour afficher toutes les informations ; le dernier onglet de la fenêtre permet d&#39;afficher le journal.
+* Visualiser uniquement les messages associés à une tâche particulière. Pour cela, sélectionnez l&#39;onglet **[!UICONTROL Tâches]** puis cliquez sur une activité du diagramme pour limiter la liste à une activité particulière. Double-cliquez sur une tâche pour afficher toutes les informations ; le dernier onglet de la fenêtre permet d&#39;afficher le journal.
 
    ![](assets/new-workflow-display-tasks-activity.png)
 
-   Le bouton **[!UICONTROL Détails...]** permet d&#39;afficher toutes les informations complémentaires relatives à l&#39;exécution de l&#39;activité. Vous pouvez par exemple visualiser l&#39;opérateur validant et éventuellement le commentaire qu&#39;il a saisi lors de la validation, comme dans l&#39;exemple ci-dessous :
+   Le bouton **[!UICONTROL Détails...]** permet d&#39;afficher toutes les informations complémentaires relatives à l&#39;exécution de l&#39;activité. Vous pouvez par exemple visualiser l&#39;opérateur validant et éventuellement le commentaire qu&#39;il a saisi lors de la validation, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/new-workflow-display-tasks-activity-details.png)
 
@@ -77,13 +77,13 @@ Le journal affiche la liste chronologique des messages d&#39;exécution des acti
 
 * Journal d&#39;une activité
 
-   Vous pouvez également visualiser le journal de l&#39;exécution et le détail d&#39;exécution de chaque activité. Pour cela, deux méthodes sont possibles :
+   Vous pouvez également visualiser le journal de l&#39;exécution et le détail d&#39;exécution de chaque activité. Pour cela, deux méthodes sont possibles :
 
    1. Sélectionnez l&#39;activité visée et cliquez sur l&#39;icône **[!UICONTROL Afficher les tâches et le journal]**.
 
       ![](assets/s_user_segmentation_show_logs.png)
 
-      La section inférieure du diagramme affiche alors deux onglets : Journal et Tâches.
+      La section inférieure du diagramme affiche alors deux onglets : Journal et Tâches.
 
       La sélection d&#39;une activité sur le diagramme agit comme un filtre sur le journal et la liste des tâches.
 
@@ -97,13 +97,13 @@ Le journal affiche la liste chronologique des messages d&#39;exécution des acti
 
 ## Purger l&#39;historique {#purging-the-logs}
 
-L&#39;historique d&#39;un workflow n&#39;est pas purgé automatiquement : tous les messages sont conservés par défaut. Vous pouvez purger l&#39;historique depuis le menu **[!UICONTROL Fichier > Action]** ou en cliquant sur le bouton **[!UICONTROL Actions]** situé dans la barre d’outils au-dessus de la liste. Choisissez **[!UICONTROL Purge de l’historique]**. es options disponibles dans le menu **[!UICONTROL Actions]** sont détaillées dans la section [Barre d’outils des actions](starting-a-workflow.md).
+L&#39;historique d&#39;un workflow n&#39;est pas purgé automatiquement : tous les messages sont conservés par défaut. Vous pouvez purger l&#39;historique depuis le menu **[!UICONTROL Fichier > Action]** ou en cliquant sur le bouton **[!UICONTROL Actions]** situé dans la barre d’outils au-dessus de la liste. Choisissez **[!UICONTROL Purge de l’historique]**. es options disponibles dans le menu **[!UICONTROL Actions]** sont détaillées dans la section [Barre d’outils des actions](starting-a-workflow.md).
 
 ![](assets/purge_historique.png)
 
 ## Tables de travail et schémas des workflows {#worktables-and-workflow-schema}
 
-Le workflow véhicule des tables de travail qui peuvent être manipulées via certaines activités. Adobe Campaign permet, via les activités de Data Management, de transformer, renommer, enrichir, les colonnes des tables de travail du workflow, par exemple pour les aligner sur la nomenclature en fonction des besoins du client, collecter des informations complémentaires sur le co-titulaire d&#39;un contrat, etc.
+Le workflow véhicule des tables de travail qui peuvent être manipulées via certaines activités. Adobe Campaign permet, via les activités de Data Management, de transformer, renommer, enrichir, les colonnes des tables de travail du workflow, par exemple pour les aligner sur la nomenclature en fonction des besoins du client, collecter des informations complémentaires sur le co-titulaire d&#39;un contrat, etc.
 
 Il est également possible de créer des liens entre des dimensions de travail différentes, et de définir des changements de dimension, par exemple pour chaque contrat enregistré dans la base, s&#39;adresser au titulaire principal et utiliser les données relatives au(x) co-titulaire(s) dans les informations additionnelles.
 
@@ -115,7 +115,7 @@ Lorsqu’une erreur se produit, le workflow se met en pause et l’activité qui
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
-Dans l&#39;Explorateur Adobe Campaign, la liste des workflows affiche par défaut une colonne **[!UICONTROL En échec]**.
+Dans l&#39;Explorateur Adobe Campaign, la liste des workflows affiche par défaut une colonne **[!UICONTROL En échec]**.
 
 ![](assets/wf-explorer_errors_col.png)
 
@@ -123,13 +123,13 @@ Lorsqu&#39;un workflow est en erreur, le ou les opérateurs appartenant au group
 
 ![](assets/wf-properties_select-supervisors.png)
 
-Le contenu de la notification est paramétré dans le modèle par défaut **[!UICONTROL Notification du responsable d&#39;un workflow]** : ce modèle est sélectionné dans l&#39;onglet **[!UICONTROL Exécution]** des propriétés du workflow. La notification indique le nom du workflow en erreur et la tâche concernée.
+Le contenu de la notification est paramétré dans le modèle par défaut **[!UICONTROL Notification du responsable d&#39;un workflow]** : ce modèle est sélectionné dans l&#39;onglet **[!UICONTROL Exécution]** des propriétés du workflow. La notification indique le nom du workflow en erreur et la tâche concernée.
 
-Exemple de notification :
+Exemple de notification :
 
 ![](assets/wf-notification_error-msg.png)
 
-Le lien permet d&#39;accéder en Web à la console Adobe Campaign et, après connexion, d&#39;agir sur le workflow en erreur.
+Le lien permet d&#39;accéder en Web à la console Adobe Campaign et, après connexion, d&#39;agir sur le workflow en erreur.
 
 ![](assets/wf-notification_error-console.png)
 
@@ -167,7 +167,7 @@ Si possible, il est recommandé de le relancer complètement après avoir effect
 
 ## Supervision de l&#39;instance {#instance-supervision}
 
-La page **[!UICONTROL Supervision de l&#39;instance]** permet de visualiser l&#39;activité du serveur Adobe Campaign et de consulter la liste des workflows et des diffusions en échec.
+La page **[!UICONTROL Supervision de l&#39;instance]** permet de visualiser l&#39;activité du serveur Adobe Campaign et de consulter la liste des workflows et des diffusions en échec.
 
 Pour accéder à cette page, allez dans l’onglet **[!UICONTROL Supervision]** et cliquez sur le lien **[!UICONTROL Vue générale]**.
 
@@ -242,7 +242,7 @@ Vous pouvez également créer des workflows techniques spécifiques pour purger 
 
 ## Gérer les workflows en pause {#handling-of-paused-workflows}
 
-Par défaut, si un workflow est en pause, ses tables de travail ne sont jamais purgées. Depuis le build 8880, les workflows ayant été dans un état « en pause » pendant trop longtemps sont automatiquement arrêtés et leurs tables de travail sont purgées. Ce comportement est déclenché comme suit :
+Par défaut, si un workflow est en pause, ses tables de travail ne sont jamais purgées. Depuis le build 8880, les workflows ayant été dans un état « en pause » pendant trop longtemps sont automatiquement arrêtés et leurs tables de travail sont purgées. Ce comportement est déclenché comme suit :
 
 * Les workflows qui sont en pause depuis plus de 7 jours apparaissent sous la forme d&#39;un avertissement dans le tableau de bord de supervision (et l&#39;API de supervision) et une notification est envoyée au groupe des superviseurs.
 * Cela se produit chaque semaine, lorsque le workflow technique **[!UICONTROL cleanupPausedWorkflows]** est déclenché. Pour plus d’informations sur le workflow, consultez [cette section](delivery.md).

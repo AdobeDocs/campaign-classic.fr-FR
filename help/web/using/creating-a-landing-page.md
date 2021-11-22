@@ -19,15 +19,15 @@ ht-degree: 100%
 
 ## À propos de la création des landing pages {#about-landing-pages-creation}
 
-Ce cas d&#39;utilisation présente l&#39;utilisation du Digital Editor dans le cadre de la création d&#39;une Landing Page à partir de la console Adobe Campaign.
+Ce cas d&#39;utilisation présente l&#39;utilisation du Digital Editor dans le cadre de la création d&#39;une Landing Page à partir de la console Adobe Campaign.
 
-Avant de commencer le paramétrage de la Landing Page dans Adobe Campaign, vous devez avoir **à disposition un ou plusieurs modèles** représentant la ou les pages HTML.
+Avant de commencer le paramétrage de la Landing Page dans Adobe Campaign, vous devez avoir **à disposition un ou plusieurs modèles** représentant la ou les pages HTML.
 
-L&#39;objectif principal de ce cas d&#39;utilisation est de faire correspondre les champs des formulaires de la Landing Page avec des champs métiers dans Adobe Campaign en utilisant les fonctionnalités du DCE.
+L&#39;objectif principal de ce cas d&#39;utilisation est de faire correspondre les champs des formulaires de la Landing Page avec des champs métiers dans Adobe Campaign en utilisant les fonctionnalités du DCE.
 
 ## Création de la Landing Page {#creating-the-landing-page}
 
-Pour créer une nouvelle Application Web de type Landing Page, respectez les étapes suivantes :
+Pour créer une nouvelle Application Web de type Landing Page, respectez les étapes suivantes :
 
 1. Dans l’onglet **[!UICONTROL Campagnes]**, cliquez sur le lien **[!UICONTROL Application Web]**, puis sur le bouton **[!UICONTROL Créer]**.
 1. Sélectionnez le modèle **[!UICONTROL Nouvelle landing page]**, saisissez un libellé, puis cliquez sur **[!UICONTROL Enregistrer]**.
@@ -55,13 +55,13 @@ Vous obtenez alors le séquencement suivant :
 
 Dans cette section nous allons voir comment **importer un contenu HTML** pour chaque page de l&#39;application Web.
 
-Un modèle doit contenir :
+Un modèle doit contenir :
 
 * un fichier **HTML** (obligatoire)
 * un ou plusieurs fichiers **CSS** (facultatif)
 * un ou plusieurs fichiers **image** (facultatif)
 
-Pour charger le modèle dans la première page, respectez les étapes suivantes :
+Pour charger le modèle dans la première page, respectez les étapes suivantes :
 
 1. Ouvrez la première activité **[!UICONTROL Page]** de l&#39;application Web.
 1. Sélectionnez **[!UICONTROL A Partir d&#39;un fichier]** comme choix de modèles de contenus disponibles.
@@ -90,17 +90,17 @@ Vous devez effectuer ces étapes pour chacune des pages insérées dans l&#39;ap
 
 >[!CAUTION]
 >
->**Le DCE exécute le code JavaScript de la page HTML chargée.** Il se peut que des erreurs JavaScript propres au modèle HTML soient remontées dans l&#39;interface Adobe Campaign. Ces erreurs ne concernent pas l&#39;éditeur. Pour vérifier qu&#39;il n&#39;y a aucune erreur dans les fichiers importés, il est conseillé de les tester dans un navigateur (Internet Explorer / FireFox / Chrome) avant d&#39;importer les fichiers dans le DCE.
+>**Le DCE exécute le code JavaScript de la page HTML chargée.** Il se peut que des erreurs JavaScript propres au modèle HTML soient remontées dans l&#39;interface Adobe Campaign. Ces erreurs ne concernent pas l&#39;éditeur. Pour vérifier qu&#39;il n&#39;y a aucune erreur dans les fichiers importés, il est conseillé de les tester dans un navigateur (Internet Explorer / FireFox / Chrome) avant d&#39;importer les fichiers dans le DCE.
 
 ## Etape 2 - Paramétrage du contenu {#step-2---configuring-the-content}
 
-Dans cette section, nous allons ajuster le contenu importé puis associer les champs de la base de données avec le formulaire de la page web. L&#39;application Web créée précédemment est la suivante :
+Dans cette section, nous allons ajuster le contenu importé puis associer les champs de la base de données avec le formulaire de la page web. L&#39;application Web créée précédemment est la suivante :
 
 ![](assets/dce_uc1_lp_enchainement.png)
 
 ### Modification du contenu {#modifying-content}
 
-Nous allons d&#39;abord modifier les couleurs de la page. Pour cela :
+Nous allons d&#39;abord modifier les couleurs de la page. Pour cela :
 
 1. Ouvrez la page **[!UICONTROL Collecte]**.
 1. Cliquez sur la zone d&#39;arrière-plan.
@@ -126,7 +126,7 @@ Nous allons associer les champs proposés dans la page à des champs de la base 
 
 1. Reproduisez cette association pour chaque champ de la page.
 
-Il est possible de rendre un champ obligatoire : par exemple, cliquez sur le champ **[!UICONTROL Email]** puis activez l&#39;option **Obligatoire**.
+Il est possible de rendre un champ obligatoire : par exemple, cliquez sur le champ **[!UICONTROL Email]** puis activez l&#39;option **Obligatoire**.
 
 ![](assets/dce_uc1_fieldmandatory.png)
 
@@ -142,7 +142,7 @@ Cette étape est obligatoire car elle va permettre à l’application Web de dé
 
 ### Insertion d&#39;un champ de personnalisation {#inserting-a-personalization-field}
 
-Cette étape permet de personnaliser le contenu de la page de remerciements. Pour cela :
+Cette étape permet de personnaliser le contenu de la page de remerciements. Pour cela :
 
 1. Ouvrez la page **[!UICONTROL Remerciements]**.
 1. Positionnez le curseur dans une zone de texte, là où vous souhaitez insérer le prénom du destinataire.
@@ -169,4 +169,4 @@ Lors de la publication, un journal est affiché. Le système de mise en ligne an
 >
 >Dans le journal de publication, les avertissements ou erreurs potentiels sont triés par activité.
 
-Le formulaire est maintenant disponible : son URL est accessible dans le tableau de bord de l&#39;application et peut être proposée aux destinataires.
+Le formulaire est maintenant disponible : son URL est accessible dans le tableau de bord de l&#39;application et peut être proposée aux destinataires.

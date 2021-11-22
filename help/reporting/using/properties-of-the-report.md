@@ -68,9 +68,9 @@ La langue d&#39;édition correspond à la langue dans laquelle vous rédigez. Lo
 
 ## Personnaliser le rendu HTML {#personalizing-html-rendering}
 
-Dans l&#39;onglet **[!UICONTROL Rendu]**, vous pouvez personnaliser le mode d&#39;affichage des données dans la page. Ainsi, vous pouvez sélectionner :
+Dans l&#39;onglet **[!UICONTROL Rendu]**, vous pouvez personnaliser le mode d&#39;affichage des données dans la page. Ainsi, vous pouvez sélectionner :
 
-* Le type de navigation dans le rapport : via des boutons ou des liens.
+* Le type de navigation dans le rapport : via des boutons ou des liens.
 * La position par défaut des libellés des éléments du rapport. Cette position peut être surchargée au niveau de chaque élément.
 * Le modèle, ou thème, utilisé pour la génération des pages du rapport.
 

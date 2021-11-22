@@ -21,9 +21,9 @@ ht-degree: 100%
 
 Cette section présente les étapes préliminaires de paramétrage indispensables avant de procéder à l&#39;installation d&#39;Adobe Campaign.
 
-La configuration technique et logicielle requise pour l&#39;installation d&#39;Adobe Campaign est présentée dans la [Matrice de compatibilité](../../rn/using/compatibility-matrix.md).
+La configuration technique et logicielle requise pour l&#39;installation d&#39;Adobe Campaign est présentée dans la [Matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 
-Pour rappel, les composants suivants doivent être installés et correctement paramétrés :
+Pour rappel, les composants suivants doivent être installés et correctement paramétrés :
 
 * Apache, voir [Matrice de compatibilité](../../rn/using/compatibility-matrix.md),
 * JDK Java et OpenJDK, voir la section [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
@@ -38,7 +38,7 @@ Pour rappel, les composants suivants doivent être installés et correctement pa
 
 ### Librairies {#libraries}
 
-Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des librairies requises.
+Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des librairies requises.
 
 * La bibliothèque C doit supporter le mode TLS (Thread Local Storage). Ce mode est actif dans la plupart des cas, sauf avec certains kernels dans lesquels le support Xen a été activé.
 
@@ -50,9 +50,9 @@ Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des librai
 
    Pour les distributions RHEL 7, la version 1.0 d’OpenSSL est requise.
 
-* Pour utiliser Adobe Campaign, la bibliothèque suivante doit être installée : **libicu**.
+* Pour utiliser Adobe Campaign, la bibliothèque suivante doit être installée : **libicu**.
 
-   Les versions supportées de **libicu** sont les suivantes (distribution 32bits ou 64bits) :
+   Les versions supportées de **libicu** sont les suivantes (distribution 32bits ou 64bits) :
 
    * RHEL 7, CentOS 7 : libicu50
    * Debian 8 : libicu52
@@ -74,7 +74,7 @@ Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des librai
 
 Lorsqu&#39;il est utilisé, le module SELinux doit être convenablement configuré.
 
-Pour cela, connectez-vous en tant que root et saisissez la commande suivante :
+Pour cela, connectez-vous en tant que root et saisissez la commande suivante :
 
 ```
 echo 0 >/selinux/enforce
@@ -86,13 +86,13 @@ En complément, dans le fichier **/etc/sysconfig/httpd**, la ligne suivante a é
 . ~neolane/nl6/env.sh
 ```
 
-Sous RHEL et CentOS, des problèmes de compatibilité avec les couches clientes des bases de données ont été constatées lorsque SELinux est activé. Pour assurer le bon fonctionnement d&#39;Adobe Campaign, nous vous conseillons de désactiver SELinux.
+Sous RHEL et CentOS, des problèmes de compatibilité avec les couches clientes des bases de données ont été constatées lorsque SELinux est activé. Pour assurer le bon fonctionnement d&#39;Adobe Campaign, nous vous conseillons de désactiver SELinux.
 
-**Procédez de la manière suivante :**
+**Procédez de la manière suivante :**
 
 * Éditez le fichier **/etc/selinux/config**
 
-* Modifiez la ligne SELINUX comme suit :
+* Modifiez la ligne SELINUX comme suit :
 
 ```
 SELINUX=disabled
@@ -102,7 +102,7 @@ SELINUX=disabled
 
 Pour que les rapports concernant les statistiques MTA (nms/fra/jsp/stat.jsp) s&#39;affichent correctement, vous devez ajouter des polices supplémentaires.
 
-Sous Debian, utilisez la commande :
+Sous Debian, utilisez la commande :
 
 ```
 aptitude install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
@@ -118,13 +118,13 @@ yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu
 
 Des polices de caractères spécifiques sont nécessaires pour les instances japonaises afin de pouvoir exporter les rapports au format PDF.
 
-Sous Debian, utilisez la commande :
+Sous Debian, utilisez la commande :
 
 ```
 aptitude install fonts-ipafont
 ```
 
-Sous Red Hat, utilisez la commande :
+Sous Red Hat, utilisez la commande :
 
 ```
 yum install ipa-gothic-fonts ipa-mincho-fonts
@@ -132,7 +132,7 @@ yum install ipa-gothic-fonts ipa-mincho-fonts
 
 ### Installation de LibreOffice sous Debian {#installing-libreoffice-for-debian}
 
-Les paramétrages suivants sont nécessaires sous Debian :
+Les paramétrages suivants sont nécessaires sous Debian :
 
 1. Installez les packages standard suivants :
 
@@ -164,9 +164,9 @@ Les paramétrages suivants sont nécessaires sous CentOS :
 
 ## Couches d&#39;accès base de données {#database-access-layers}
 
-Les couches d&#39;accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles depuis le compte Adobe Campaign. Selon le moteur de base de données utilisé, les versions et modes d&#39;installation peuvent différer.
+Les couches d&#39;accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles depuis le compte Adobe Campaign. Selon le moteur de base de données utilisé, les versions et modes d&#39;installation peuvent différer.
 
-Les versions des connecteurs CRM compatibles avec Adobe Campaign sont listées dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md).
+Les versions des connecteurs CRM compatibles avec Adobe Campaign sont listées dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 
 Consultez également section générale [Base de données](../../installation/using/database.md).
 
@@ -174,7 +174,7 @@ Consultez également section générale [Base de données](../../installation/us
 
 Adobe Campaign prend en charge toutes les versions de librairies du client PostgreSQL à partir de la version 7.2 :(**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** et **libpq.so.3.1**).
 
-L&#39;utilisation de PostgreSQL avec Adobe Campaign requiert également l&#39;installation des bibliothèques **pgcrypto** correspondantes.
+L&#39;utilisation de PostgreSQL avec Adobe Campaign requiert également l&#39;installation des bibliothèques **pgcrypto** correspondantes.
 
 ### Oracle {#oracle}
 
@@ -210,11 +210,11 @@ La version des bibliothèques prises en charge est **libdb2.so**.
 
 ## Étapes d&#39;implémentation {#implementation-steps}
 
-L&#39;installation d&#39;Adobe Campaign sous Linux doit être réalisée dans l&#39;ordre suivant : installation du serveur puis paramétrage des instances.
+L&#39;installation d&#39;Adobe Campaign sous Linux doit être réalisée dans l&#39;ordre suivant : installation du serveur puis paramétrage des instances.
 
-Le processus d&#39;installation est décrit dans ce chapitre. Les étapes de l&#39;installation sont les suivantes :
+Le processus d&#39;installation est décrit dans ce chapitre. Les étapes de l&#39;installation sont les suivantes :
 
 * Etape 1 : Installation du serveur applicatif, voir la section [Installation de packages avec Linux](../../installation/using/installing-packages-with-linux.md).
-* Etape 2 : Intégration à un serveur Web (optionnel, en fonction des composants déployés).
+* Etape 2 : Intégration à un serveur Web (optionnel, en fonction des composants déployés).
 
 Une fois les étapes d&#39;installation terminées, vous devez configurer les instances, la base de données et le serveur. Voir à ce sujet la section [À propos de la configuration initiale](../../installation/using/about-initial-configuration.md).

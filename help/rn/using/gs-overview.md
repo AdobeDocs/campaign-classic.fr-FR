@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Adobe et Adobe Campaign s’engagent à vous offrir une expérience optimale et de la valeur ajoutée grâce à leurs solutions logicielles. L’entreprise veille à ce que vous ayez accès aux toutes dernières versions des technologies connexes utilisées par nos solutions pour exécuter ses tâches.
 
-Adobe Campaign Classic, en particulier, utilise toute une gamme de technologies pour offrir une valeur ajoutée. Cette combinaison de technologies nécessite de mettre régulièrement vos instances Campaign Classic à niveau afin de s’assurer que les versions les plus récentes sont utilisées pour offrir une sécurité, une stabilité et des performances supérieures.
+Adobe Campaign Classic, en particulier, utilise toute une gamme de technologies pour offrir une valeur ajoutée. Cette combinaison de technologies nécessite de mettre régulièrement vos instances Campaign Classic à niveau afin de s’assurer que les versions les plus récentes sont utilisées pour offrir une sécurité, une stabilité et des performances supérieures.
 
 [!DNL Gold Standard] est la version de prise en charge à long terme de Campaign Classic. En tant qu’utilisateur [!DNL Gold Standard]hébergé, vous bénéficiez automatiquement de la mise à niveau vers [!DNL Gold Standard] avec la dernière version stable sans que vous n’ayez aucune action à effectuer. Les clients On-premise et hybrides peuvent également bénéficier des versions [!DNL Gold Standard] Si vous migrez depuis un ancien build, nous vous recommandons d’effectuer d’abord la mise à niveau vers cette version.
 

@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Vous pouvez utiliser une syntaxe spécifique dans le contenu de la diffusion afin d’ajouter des instructions et de créer un script pour l’URL de l’email suivi. Les &lt;%@ ne sont pas des instructions JavaScript. Cette syntaxe est propre à Adobe Campaign.
+Vous pouvez utiliser une syntaxe spécifique dans le contenu de la diffusion afin d’ajouter des instructions et de créer un script pour l’URL de l’email suivi. Les &lt;%@ ne sont pas des instructions JavaScript. Cette syntaxe est propre à Adobe Campaign.
 
 Elles ne s&#39;appliquent que dans le contexte du contenu de la diffusion. C’est la seule méthode pour écrire le script de l’URL d’un email et qu’elle soit encore trackée (en plus des paramètres d’URL). Elles peuvent être vues comme un copié/collé automatique appliqué pendant l’analyse de la diffusion avant la détection des liens à tracker.
 

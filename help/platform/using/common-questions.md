@@ -27,7 +27,7 @@ Besoin d’aide lorsque vous utilisez Campaign Classic ? Lisez les 10 premiè
 
 ## 1. Comment effectuer une mise à niveau de Campaign vers la dernière version ? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
-Adobe Campaign Classic, en particulier, utilise toute une gamme de technologies pour offrir une valeur ajoutée. Cette combinaison de technologies nécessite de mettre régulièrement vos instances Campaign Classic à niveau afin de s’assurer que les versions les plus récentes sont utilisées pour offrir une sécurité, une stabilité et des performances supérieures.
+Adobe Campaign Classic, en particulier, utilise toute une gamme de technologies pour offrir une valeur ajoutée. Cette combinaison de technologies nécessite de mettre régulièrement vos instances Campaign Classic à niveau afin de s’assurer que les versions les plus récentes sont utilisées pour offrir une sécurité, une stabilité et des performances supérieures.
 
 Si vous utilisez Adobe Managed Services, vous pouvez bénéficier de la mise à niveau vers Campaign [!DNL Gold Standard] Voir à ce propos [cet article](../../rn/using/gs-overview.md).
 
@@ -41,13 +41,13 @@ Le workflow Nettoyage de la base de données permet de supprimer les données ob
 
 ## 3. Comment configurer des zones de sécurité ? {#how-can-i-configure-security-zones-}
 
-L’interface Security Zones Self Service peut être utilisée pour gérer les entrées de la configuration Zone de sécurité VPN d’un déploiement Adobe Campaign Classic. Pour plus d’informations sur les zones de sécurité dans Campaign, consultez [cette section](../../installation/using/security-zones.md).
+L’interface Security Zones Self Service peut être utilisée pour gérer les entrées de la configuration Zone de sécurité VPN d’un déploiement Adobe Campaign Classic. Pour plus d’informations sur les zones de sécurité dans Campaign, consultez [cette section](../../installation/using/security-zones.md).
 
 [Cliquez ici pour en savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-security-zones-self-service.html) sur l’interface utilisateur Security Zone Self Service.
 
 ## 4. Comment s&#39;assurer que ma diffusion est envoyée sans erreur ? {#how-can-i-make-sure-my-delivery-is-sent-without-errors-}
 
-Adobe Campaign contient un ensemble de tableaux de bord et d&#39;outils qui permettent de suivre les diffusions de vos emails.
+Adobe Campaign contient un ensemble de tableaux de bord et d&#39;outils qui permettent de suivre les diffusions de vos emails.
 
 [Cliquez ici pour découvrir](../../delivery/using/about-delivery-monitoring.md) comment vous assurer que vos messages sont bien envoyés, surveiller l&#39;exécution et entreprendre une action en cas d&#39;erreur.
 
@@ -57,13 +57,13 @@ Découvrez comment suivre l&#39;exécution des workflows Campaign dans [cette pa
 
 ## 6. Comment se connecter à Campaign Classic ? {#how-can-i-connect-to-campaign-classic-}
 
-Pour vous connecter à Adobe Campaign Classic, vous devez lancer la console cliente Adobe Campaign et saisir les nom d’utilisateur et mot de passe de votre instance.
+Pour vous connecter à Adobe Campaign Classic, vous devez lancer la console cliente Adobe Campaign et saisir les nom d’utilisateur et mot de passe de votre instance.
 
 [Pour en savoir plus, cliquez ici](../../platform/using/launching-adobe-campaign.md).
 
 ## 7. Avec quels systèmes et composants Campaign Classic est-il compatible ? {#which-systems-and-components-campaign-classic-is-compatible-with-}
 
-Vous trouverez la liste de tous les systèmes et composants pris en charge dans le dernier build de Campaign dans la [matrice de compatibilité Adobe Campaign Classic](../../rn/using/compatibility-matrix.md).
+Vous trouverez la liste de tous les systèmes et composants pris en charge dans le dernier build de Campaign dans la [matrice de compatibilité Adobe Campaign Classic](../../rn/using/compatibility-matrix.md).
 
 ## 8. Où se trouvent les notes de mise à jour de Campaign Classic ? {#where-are-campaign-classic-release-notes-}
 

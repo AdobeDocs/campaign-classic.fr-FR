@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Le site Neobank souhaite afficher une offre sur son site web à l&#39;attention des visiteurs qui navigueront sur cette page sans s&#39;être identifiés.
 
-Pour mettre en place cette interaction, vous allez :
+Pour mettre en place cette interaction, vous allez :
 
 1. [Créer un environnement anonyme](#creating-an-anonymous-environment)
 1. [Créer des emplacements anonymes](#creating-anonymous-offer-spaces)
@@ -153,13 +153,13 @@ Un même visiteur se présentant plusieurs fois sur la page verra s&#39;afficher
 
 La société Neobank souhaite proposer des offres marketing destinées à deux publics différents. Elle veut pouvoir afficher des offres génériques pour des personnes qui navigueraient anonymement sur son site web. Dans le cas où l&#39;un de ses internautes se révèlerait être un client disposant d&#39;identifiants fournis par Neobank, la société souhaite qu&#39;il puisse voir des offres personnalisées dès lors qu&#39;il se connecte à son compte.
 
-Le scénario de ce cas client se déroule de la manière suivante :
+Le scénario de ce cas client se déroule de la manière suivante :
 
 1. Une personne se rend sur le site de Neobank, sans se connecter.
 
    ![](assets/offer_inbound_fallback_example_050.png)
 
-   Trois offres anonymes s&#39;affichent sur la page : deux offres **Premium**, mettant en avant les produits de Neobank et une offre provenant de l&#39;un des partenaires de Neobank.
+   Trois offres anonymes s&#39;affichent sur la page : deux offres **Premium**, mettant en avant les produits de Neobank et une offre provenant de l&#39;un des partenaires de Neobank.
 
    ![](assets/offer_inbound_fallback_example_051.png)
 
@@ -171,24 +171,24 @@ Le scénario de ce cas client se déroule de la manière suivante :
 
    ![](assets/offer_inbound_fallback_example_053.png)
 
-Pour mettre en oeuvre ce cas client, vous devez disposer de deux environnements d&#39;offres : un environnement destiné à des interactions anonymes et un environnement d&#39;offres paramétrées pour des contacts identifiés. L&#39;environnement d&#39;offres identifiées sera paramétré pour basculer automatiquement vers l&#39;environnement anonyme si le contact ne s&#39;est pas connecté et n&#39;est donc pas identifié.
+Pour mettre en oeuvre ce cas client, vous devez disposer de deux environnements d&#39;offres : un environnement destiné à des interactions anonymes et un environnement d&#39;offres paramétrées pour des contacts identifiés. L&#39;environnement d&#39;offres identifiées sera paramétré pour basculer automatiquement vers l&#39;environnement anonyme si le contact ne s&#39;est pas connecté et n&#39;est donc pas identifié.
 
 Les étapes sont les suivantes :
 
-* Créer un catalogue d&#39;offres spécifiques aux interactions entrantes anonymes, selon les étapes suivantes :
+* Créer un catalogue d&#39;offres spécifiques aux interactions entrantes anonymes, selon les étapes suivantes :
 
    1. [Créer un environnement destiné aux contacts anonymes](#creating-an-environment-for-anonymous-contacts)
    1. [Paramétrer des emplacements pour l&#39;environnement anonyme](#configuring-offer-spaces-for-the-anonymous-environment)
    1. [Créer des catégories d&#39;offres dans l&#39;environnement anonyme](#creating-offer-categories-in-an-anonymous-environment)
    1. [Créer des offres destinées à des visiteurs anonymes](#creating-offers-for-anonymous-visitors)
 
-* Créer un catalogue d&#39;offres spécifique aux interactions entrantes identifiées, selon les étapes suivantes :
+* Créer un catalogue d&#39;offres spécifique aux interactions entrantes identifiées, selon les étapes suivantes :
 
    1. [Paramétrer les emplacements dans l&#39;environnement identifié](#configure-the-offer-spaces-in-the-identified-environment)
    1. [Créer des catégories d&#39;offres dans l&#39;environnement identifié](#creating-offer-categories-in-an-identified-environment)
    1. [Créer des offres personnalisées](#creating-personalized-offers)
 
-* Paramétrer l&#39;appel du moteur d&#39;offre :
+* Paramétrer l&#39;appel du moteur d&#39;offre :
 
    1. [Paramétrer les emplacements dans la page web](#configuring-offer-spaces-on-the-web-page)
    1. [Spécifier les paramètres avancés de l&#39;emplacement identifié](#specifying-the-advanced-settings-of-the-identified-offer-spaces)
@@ -201,11 +201,11 @@ Les étapes sont les suivantes :
 
 ### Paramétrer des emplacements pour l&#39;environnement anonyme {#configuring-offer-spaces-for-the-anonymous-environment}
 
-Les offres qui doivent être présentées sur le site web appartiennent à deux catégories distinctes : **Premium** et **Partenaires**. Dans notre exemple, nous choisissons de créer un emplacement spécifique pour chacune des catégories.
+Les offres qui doivent être présentées sur le site web appartiennent à deux catégories distinctes : **Premium** et **Partenaires**. Dans notre exemple, nous choisissons de créer un emplacement spécifique pour chacune des catégories.
 
-Pour créer l&#39;emplacement correspondant à la catégorie **Premium**, procédez comme suit :
+Pour créer l&#39;emplacement correspondant à la catégorie **Premium**, procédez comme suit :
 
-1. Dans l&#39;arborescence Adobe Campaign, positionnez-vous sur l&#39;environnement anonyme en édition, et ajoutez un emplacement.
+1. Dans l&#39;arborescence Adobe Campaign, positionnez-vous sur l&#39;environnement anonyme en édition, et ajoutez un emplacement.
 
    ![](assets/offer_inbound_fallback_example_023.png)
 
@@ -228,7 +228,7 @@ Pour créer l&#39;emplacement correspondant à la catégorie **Premium**, procé
 
 ### Créer des catégories d&#39;offres dans l&#39;environnement anonyme {#creating-offer-categories-in-an-anonymous-environment}
 
-Vous allez créer deux catégories d&#39;offres : la catégorie **Premium** et la catégorie **Partenaires**. Chaque catégorie contiendra deux offres destinées à des contacts anonymes.
+Vous allez créer deux catégories d&#39;offres : la catégorie **Premium** et la catégorie **Partenaires**. Chaque catégorie contiendra deux offres destinées à des contacts anonymes.
 
 1. Dans l&#39;environnement anonyme que vous venez de créer, positionnez-vous sur le noeud **[!UICONTROL Catalogue d&#39;offres]**.
 1. Ajoutez un dossier de type **[!UICONTROL Catégorie d&#39;offres]** et attribuez-lui le libellé **Premium**.
@@ -280,11 +280,11 @@ Vous allez à présent créer deux offres dans chacune des catégories crées pr
 
 ### Paramétrer les emplacements dans l&#39;environnement identifié {#configure-the-offer-spaces-in-the-identified-environment}
 
-Les offres que vous allez présenter sur le site web sont issues de deux catégories différentes : **Premium** et **Partenaires**. Dans notre exemple, nous choisissons de créer un emplacement propre à chaque catégorie.
+Les offres que vous allez présenter sur le site web sont issues de deux catégories différentes : **Premium** et **Partenaires**. Dans notre exemple, nous choisissons de créer un emplacement propre à chaque catégorie.
 
 Pour créer les deux emplacements, procédez de la même manière que pour les emplacements anonymes. Consultez la section [Paramétrer des emplacements pour l’environnement anonyme](#configuring-offer-spaces-for-the-anonymous-environment).
 
-1. Dans l&#39;arborescence Adobe Campaign, positionnez-vous sur l&#39;environnement identifié et ajoutez les emplacements **Premium** et **Partenaires**.
+1. Dans l&#39;arborescence Adobe Campaign, positionnez-vous sur l&#39;environnement identifié et ajoutez les emplacements **Premium** et **Partenaires**.
 1. Appliquez le processus détaillé dans [Paramétrer des emplacements pour l&#39;environnement anonyme](#configuring-offer-spaces-for-the-anonymous-environment).
 
    ![](assets/offer_inbound_fallback_example_005.png)
@@ -299,7 +299,7 @@ Pour créer les deux emplacements, procédez de la même manière que pour les e
 
 ### Spécifier les paramètres avancés de l&#39;emplacement identifié {#specifying-the-advanced-settings-of-the-identified-offer-spaces}
 
-Dans notre exemple, l&#39;identification du contact se fait via son email dans la base de données Adobe Campaign. Pour ajouter l&#39;email du destinataire dans l&#39;emplacement, procédez comme suit :
+Dans notre exemple, l&#39;identification du contact se fait via son email dans la base de données Adobe Campaign. Pour ajouter l&#39;email du destinataire dans l&#39;emplacement, procédez comme suit :
 
 1. Dans l&#39;environnement identifié, positionnez-vous dans le dossier des emplacements.
 1. Sélectionnez l&#39;emplacement **Premium** et cliquez sur **[!UICONTROL Paramètres avancés]**.
@@ -321,7 +321,7 @@ Dans notre exemple, l&#39;identification du contact se fait via son email dans l
 
 ### Créer des catégories d&#39;offres dans l&#39;environnement identifié {#creating-offer-categories-in-an-identified-environment}
 
-Vous allez créer deux catégories distinctes : la catégorie **Premium** et la catégorie **Partenaires**, chacune contiendra deux offres personnalisées.
+Vous allez créer deux catégories distinctes : la catégorie **Premium** et la catégorie **Partenaires**, chacune contiendra deux offres personnalisées.
 
 1. Dans l&#39;environnement identifié, positionnez-vous sur le noeud **[!UICONTROL Catalogue d&#39;offres]**.
 1. Comme dans l&#39;environnement anonyme, ajoutez deux dossiers de type **[!UICONTROL Catégorie d&#39;offres]** et attribuez-leur les libellés **Premium** et **Partenaires**.
@@ -365,11 +365,11 @@ Vous allez créer deux offres personnalisées dans chaque catégorie, soit quatr
 
 ### Paramétrer les emplacements dans la page web {#configuring-offer-spaces-on-the-web-page}
 
-Le site de la société Neobank dispose de trois emplacements pour afficher ses offres : deux emplacements pour les offres bancaires issues de la catégorie **Premium** et un emplacement pour les offres issues de la catégorie **Partenaires**.
+Le site de la société Neobank dispose de trois emplacements pour afficher ses offres : deux emplacements pour les offres bancaires issues de la catégorie **Premium** et un emplacement pour les offres issues de la catégorie **Partenaires**.
 
 ![](assets/offer_inbound_fallback_example_038.png)
 
-Pour paramétrer les emplacements des offres dans la page HTML du site web, procédez comme suit :
+Pour paramétrer les emplacements des offres dans la page HTML du site web, procédez comme suit :
 
 1. Dans le contenu de la page HTML, insérez trois
 
@@ -401,7 +401,7 @@ Pour paramétrer les emplacements des offres dans la page HTML du site web, proc
 
    L&#39;URL contient le nom interne **OE18** de l&#39;environnement identifié.
 
-Lors de l&#39;affichage de la page web, le script permet d&#39;appeler le moteur d&#39;Interaction afin que s&#39;affiche le contenu des offres dans les emplacements prévus à cet effet sur la page web. En un seul appel au serveur Adobe Campaign, le moteur détermine l&#39;environnement, l&#39;emplacement et les catégories à sélectionner.
+Lors de l&#39;affichage de la page web, le script permet d&#39;appeler le moteur d&#39;Interaction afin que s&#39;affiche le contenu des offres dans les emplacements prévus à cet effet sur la page web. En un seul appel au serveur Adobe Campaign, le moteur détermine l&#39;environnement, l&#39;emplacement et les catégories à sélectionner.
 
 Dans notre exemple, le moteur reconnaît l&#39;environnement identifié (**OE18**). Il identifie l&#39;emplacement (**SPC27**) et la catégorie **Premium** (**OC34**) pour le premier et le deuxième emplacement de la page web, ainsi que l&#39;emplacement (**SPC29**) et la catégorie **Partenaires** (**OC35**) pour le troisième emplacement dans le site.
 

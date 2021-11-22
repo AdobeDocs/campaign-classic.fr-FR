@@ -43,7 +43,7 @@ Il permet de répertorier la liste des opérations (**[!UICONTROL Libellé (Opé
 
 Un exemple complet de mise en œuvre est proposé ici : [Cas pratique : créer un rapport avec une liste avec groupement](#use-case--create-a-report-with-a-group-list).
 
-Toutefois, notez que les étapes de création d&#39;un tableau de type &#39;Liste avec groupement&#39; sont les suivantes :
+Toutefois, notez que les étapes de création d&#39;un tableau de type &#39;Liste avec groupement&#39; sont les suivantes :
 
 1. Dans le diagramme d&#39;un rapport, positionnez une activité **[!UICONTROL Requête]**. Voir à ce sujet la section [Collecter les données à analyser](../../reporting/using/collecting-data-to-analyze.md).
 1. Renseigner la table source et sélectionner les champs de la table sur lesquels porteront les statistiques.
@@ -62,7 +62,7 @@ Un tableau de type **[!UICONTROL Liste avec groupement]** est composé par défa
 
 Un groupement contient lui-même une ligne d&#39;en-tête, de détail et de pied.
 
-* **Ligne d&#39;en-tête** : elle permet de donner un titre aux colonnes du tableau.
+* **Ligne d&#39;en-tête** : elle permet de donner un titre aux colonnes du tableau.
 
    ![](assets/s_advuser_ergo_listgroup_003a.png)
 
@@ -70,7 +70,7 @@ Un groupement contient lui-même une ligne d&#39;en-tête, de détail et de pied
 
    ![](assets/s_advuser_ergo_listgroup_004.png)
 
-* **Ligne de pied** : permet d&#39;afficher les totaux des statistiques.
+* **Ligne de pied** : permet d&#39;afficher les totaux des statistiques.
 
    ![](assets/s_advuser_ergo_listgroup_003.png)
 
@@ -80,17 +80,17 @@ Le groupement peut être positionné dans n&#39;importe quelle ligne du tableau 
 
 ![](assets/s_advuser_ergo_listgroup_019.png)
 
-**Ligne et colonne** : pour ajouter ou supprimer une ligne ou une colonne, positionnez-vous sur une ligne ou une colonne existante et utilisez les menus contextuels.
+**Ligne et colonne** : pour ajouter ou supprimer une ligne ou une colonne, positionnez-vous sur une ligne ou une colonne existante et utilisez les menus contextuels.
 
 ![](assets/s_advuser_ergo_listgroup_006.png)
 
-La nature de la ligne que vous ajoutez dépend de l&#39;emplacement du curseur : par exemple, pour ajouter une ligne d&#39;en-tête, vous devez positionner la souris sur un en-tête puis cliquer sur **[!UICONTROL Ajouter > Une ligne au-dessus/dessous]**.
+La nature de la ligne que vous ajoutez dépend de l&#39;emplacement du curseur : par exemple, pour ajouter une ligne d&#39;en-tête, vous devez positionner la souris sur un en-tête puis cliquer sur **[!UICONTROL Ajouter > Une ligne au-dessus/dessous]**.
 
 ![](assets/s_advuser_ergo_listgroup_006a.png)
 
 La largeur des colonnes peut être modifiée à partir de l&#39;entrée **[!UICONTROL Format de la colonne]**.
 
-**Groupement** : de même, pour ajouter un groupement, positionnez-vous sur une ligne et sélectionnez l&#39;entrée correspondante dans le menu contextuel.
+**Groupement** : de même, pour ajouter un groupement, positionnez-vous sur une ligne et sélectionnez l&#39;entrée correspondante dans le menu contextuel.
 
 ![](assets/s_advuser_ergo_listgroup_007.png)
 
@@ -110,7 +110,7 @@ Utilisez l&#39;entrée de menu **[!UICONTROL Expression]** pour sélectionner le
 
 * Saisir un libellé dans une cellule, par exemple dans une cellule d&#39;en-tête.
 
-   Pour cela, procédez comme pour insérer un champ de la base mais ne sélectionnez aucune expression. Saisissez le libellé dans le champ **[!UICONTROL Libellé]** : il sera affiché tel quel.
+   Pour cela, procédez comme pour insérer un champ de la base mais ne sélectionnez aucune expression. Saisissez le libellé dans le champ **[!UICONTROL Libellé]** : il sera affiché tel quel.
 
 * Calculer un agrégat (une moyenne, une somme, etc.) et l&#39;afficher dans une cellule.
 
@@ -139,13 +139,13 @@ L&#39;onglet **[!UICONTROL Valeur]** permet de modifier la police et les différ
 
 ![](assets/s_advuser_ergo_listgroup_009.png)
 
-Le format modifie l&#39;affichage des données : par exemple, les formats **[!UICONTROL Nombre]**, **[!UICONTROL Monétaire]** et **[!UICONTROL Pourcentage]** permettent d&#39;aligner les chiffres à droite et de faire apparaître des décimales.
+Le format modifie l&#39;affichage des données : par exemple, les formats **[!UICONTROL Nombre]**, **[!UICONTROL Monétaire]** et **[!UICONTROL Pourcentage]** permettent d&#39;aligner les chiffres à droite et de faire apparaître des décimales.
 
-Exemple de paramétrage d&#39;un format monétaire : vous pouvez indiquer la monnaie dans laquelle sont exprimées les valeurs, utiliser ou non le séparateur de milliers et afficher en rouge les valeurs négatives. La position du symbole monétaire dépend de la langue de l&#39;opérateur, telle qu&#39;elle a été définie dans son profil.
+Exemple de paramétrage d&#39;un format monétaire : vous pouvez indiquer la monnaie dans laquelle sont exprimées les valeurs, utiliser ou non le séparateur de milliers et afficher en rouge les valeurs négatives. La position du symbole monétaire dépend de la langue de l&#39;opérateur, telle qu&#39;elle a été définie dans son profil.
 
 ![](assets/s_advuser_ergo_listgroup_012.png)
 
-Exemple de paramétrage pour les dates : vous pouvez choisir d&#39;afficher l&#39;heure ou non.
+Exemple de paramétrage pour les dates : vous pouvez choisir d&#39;afficher l&#39;heure ou non.
 
 ![](assets/s_advuser_ergo_listgroup_013.png)
 
@@ -155,9 +155,9 @@ L&#39;onglet **Bordures** permet de d&#39;ajouter des bordures aux lignes et col
 
 Au besoin, vous pouvez définir les bordures au niveau du modèle du tableau (**[!UICONTROL Administration > Paramétrage > Rendus des formulaires]** ).
 
-La syntaxe sera alors du type :
+La syntaxe sera alors du type :
 
-dans l&#39;onglet Web :
+dans l&#39;onglet Web :
 
 ```
  .tabular td {
@@ -165,7 +165,7 @@ dans l&#39;onglet Web :
  }
 ```
 
-dans l&#39;onglet Excel :
+dans l&#39;onglet Excel :
 
 ```
  <style name="odd" fillColor="#fdfdfd">
@@ -189,7 +189,7 @@ dans l&#39;onglet Excel :
 
 L&#39;onglet **[!UICONTROL Clic]** permet de définir une action lorsque l&#39;utilisateur clique sur le contenu d&#39;une cellule du tableau.
 
-Dans l&#39;exemple ci-dessous, cliquer sur la valeur dans la cellule vous permet d&#39;afficher à la deuxième page du rapport : elle contiendra les informations relatives à la diffusion contenue dans la cellule.
+Dans l&#39;exemple ci-dessous, cliquer sur la valeur dans la cellule vous permet d&#39;afficher à la deuxième page du rapport : elle contiendra les informations relatives à la diffusion contenue dans la cellule.
 
 ![](assets/s_advuser_ergo_listgroup_015.png)
 
@@ -197,36 +197,36 @@ L&#39;onglet **Plus** permet d&#39;associer un visuel sur vos données une pasti
 
 ![](assets/s_advuser_ergo_listgroup_016.png)
 
-## Cas pratique : créer un rapport avec une liste avec groupement {#use-case--create-a-report-with-a-group-list}
+## Cas pratique : créer un rapport avec une liste avec groupement {#use-case--create-a-report-with-a-group-list}
 
-Dans cet exemple, vous allez créer un rapport de deux pages : la première page contiendra la liste et le total des diffusions par opération, ainsi que le nombre de messages envoyés. L&#39;intitulé des diffusions sera sous forme de lien cliquable et permettra de passer à la deuxième page du rapport pour visualiser la répartition des envois par domaine d&#39;email pour la diffusion choisie avec un tableau et un graphique. Dans la seconde page, le tableau servira de légende au graphique.
+Dans cet exemple, vous allez créer un rapport de deux pages : la première page contiendra la liste et le total des diffusions par opération, ainsi que le nombre de messages envoyés. L&#39;intitulé des diffusions sera sous forme de lien cliquable et permettra de passer à la deuxième page du rapport pour visualiser la répartition des envois par domaine d&#39;email pour la diffusion choisie avec un tableau et un graphique. Dans la seconde page, le tableau servira de légende au graphique.
 
 ![](assets/reporting_quick_start_report-final.png)
 
 ### Etape 1 - Créer un rapport {#step-1---create-a-report}
 
-Créez un nouveau rapport qui porte sur le schéma des opérations : **[!UICONTROL Opérations (nms)]**.
+Créez un nouveau rapport qui porte sur le schéma des opérations : **[!UICONTROL Opérations (nms)]**.
 
 ![](assets/s_advuser_report_listgroup_001.png)
 
 Cliquez sur **[!UICONTROL Enregistrer]** pour créer le rapport.
 
-Positionnez dans le diagramme les premiers composants qui vont être utilisés pour concevoir le contenu du rapport : une première requête et une première page.
+Positionnez dans le diagramme les premiers composants qui vont être utilisés pour concevoir le contenu du rapport : une première requête et une première page.
 
 ![](assets/reporting_quick_start_diagram.png)
 
 ### Etape 2 - Créer la première requête {#step-2---create-the-first-query}
 
-La première requête permet de collecter les diffusions associées à chaque opération. L&#39;objectif est d&#39;afficher un rapport sur les différentes diffusions de la base Adobe Campaign qui sont liées à chaque opération.
+La première requête permet de collecter les diffusions associées à chaque opération. L&#39;objectif est d&#39;afficher un rapport sur les différentes diffusions de la base Adobe Campaign qui sont liées à chaque opération.
 
-Double-cliquez sur la première requête pour l&#39;éditer, puis respectez les étapes suivantes pour la paramétrer :
+Double-cliquez sur la première requête pour l&#39;éditer, puis respectez les étapes suivantes pour la paramétrer :
 
-1. Modifiez d&#39;abord le schéma sur lequel la source de la requête porte : choisissez le schéma **[!UICONTROL Diffusions (nms)]**.
+1. Modifiez d&#39;abord le schéma sur lequel la source de la requête porte : choisissez le schéma **[!UICONTROL Diffusions (nms)]**.
 1. Cliquez sur le lien **[!UICONTROL Editez la requête]**, affichez les champs avancés.
 
    ![](assets/reporting_quick_start_query-1.png)
 
-1. Sélectionnez les champs suivants :
+1. Sélectionnez les champs suivants :
 
    * le libellé de la diffusion,
    * la clé primaire de la diffusion,
@@ -237,23 +237,23 @@ Double-cliquez sur la première requête pour l&#39;éditer, puis respectez les 
 
    ![](assets/s_advuser_report_listgroup_002.png)
 
-   Associez un alias à chaque champ : cette opération est recommandée afin de faciliter la sélection des données du tableau qui sera ajouté dans la première page du rapport.
+   Associez un alias à chaque champ : cette opération est recommandée afin de faciliter la sélection des données du tableau qui sera ajouté dans la première page du rapport.
 
-   Dans cet exemple, nous utiliserons les alias suivants :
+   Dans cet exemple, nous utiliserons les alias suivants :
 
-   * Libellé : **@label**
-   * Clé primaire : **@deliveryId**
-   * Libellé (Opération) : **@label1**
-   * Traités : **@processed**
-   * Clé étrangère du lien &#39;Opération&#39; (champ&#39;id&#39;) : **@operationId**
-   * Taux d&#39;erreur : **@errorRatio**
+   * Libellé : **@label**
+   * Clé primaire : **@deliveryId**
+   * Libellé (Opération) : **@label1**
+   * Traités : **@processed**
+   * Clé étrangère du lien &#39;Opération&#39; (champ&#39;id&#39;) : **@operationId**
+   * Taux d&#39;erreur : **@errorRatio**
 
 
 1. Cliquez deux fois sur le bouton **[!UICONTROL Suivant]**, jusqu&#39;à l&#39;étape **[!UICONTROL Filtrage des données]**.
 
    Ajoutez une condition de filtrage afin de ne collecter que les diffusions rattachées à une opération.
 
-   La syntaxe de ce filtre est la suivante : &quot;Clé étrangère du lien &#39;Opération&#39; supérieur à 0&quot;.
+   La syntaxe de ce filtre est la suivante : &quot;Clé étrangère du lien &#39;Opération&#39; supérieur à 0&quot;.
 
    ![](assets/reporting_quick_start_query_filter.png)
 
@@ -261,9 +261,9 @@ Double-cliquez sur la première requête pour l&#39;éditer, puis respectez les 
 
 ### Etape 3 - Créez la première page {#step-3--create-the-first-page}
 
-Dans cette étape, nous allons paramétrer la première page du rapport. Pour la configurer, les étapes sont les suivantes :
+Dans cette étape, nous allons paramétrer la première page du rapport. Pour la configurer, les étapes sont les suivantes :
 
-1. Ouvrez l&#39;activité **[!UICONTROL Page]** et saisissez son titre, par exemple ici : **Diffusions**.
+1. Ouvrez l&#39;activité **[!UICONTROL Page]** et saisissez son titre, par exemple ici : **Diffusions**.
 
    ![](assets/s_advuser_report_listgroup_003.png)
 
@@ -275,7 +275,7 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
    ![](assets/s_advuser_report_listgroup_005.png)
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Données]** et modifiez l&#39;aspect du tableau : ajoutez trois colonnes à droite.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Données]** et modifiez l&#39;aspect du tableau : ajoutez trois colonnes à droite.
 
    ![](assets/s_advuser_report_listgroup_006.png)
 
@@ -337,7 +337,7 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
    ![](assets/s_advuser_report_listgroup_023.png)
 
-   Vous pouvez dès à présent visualiser le rendu de ce rapport. Cliquez sur l&#39;onglet **[!UICONTROL Prévisualisation]** et sélectionnez l&#39;option **[!UICONTROL Global]** : vous affichez ainsi la liste de toutes les diffusions de la base Adobe Campaign qui sont liées à une opération.
+   Vous pouvez dès à présent visualiser le rendu de ce rapport. Cliquez sur l&#39;onglet **[!UICONTROL Prévisualisation]** et sélectionnez l&#39;option **[!UICONTROL Global]** : vous affichez ainsi la liste de toutes les diffusions de la base Adobe Campaign qui sont liées à une opération.
 
    ![](assets/s_advuser_report_listgroup_025.png)
 
@@ -363,24 +363,24 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
 Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher le détail d&#39;une diffusion lorsque l&#39;utilisateur du rapport clique dessus. Avant d&#39;ajouter la requête, éditez la page que vous avez créée et activez la transition sortante afin de pouvoir la relier à la requête.
 
-1. Ajoutez une nouvelle requête à la suite de l&#39;activité **[!UICONTROL Page]** et modifiez le schéma sur lequel elle porte : choisissez le schéma **[!UICONTROL Logs de diffusion des destinataires]**.
+1. Ajoutez une nouvelle requête à la suite de l&#39;activité **[!UICONTROL Page]** et modifiez le schéma sur lequel elle porte : choisissez le schéma **[!UICONTROL Logs de diffusion des destinataires]**.
 
    ![](assets/reporting_quick_start_query-2.png)
 
-1. Editez la requête et définissez les colonnes de sortie. Afin d&#39;afficher le nombre de diffusions par domaine d&#39;email, vous devez :
+1. Editez la requête et définissez les colonnes de sortie. Afin d&#39;afficher le nombre de diffusions par domaine d&#39;email, vous devez :
 
-   * calculer la somme des clés primaires, afin de compter le nombre de logs de diffusion :
+   * calculer la somme des clés primaires, afin de compter le nombre de logs de diffusion :
 
       ![](assets/reporting_quick_start_query-2_count.png)
 
-   * collecter les domaines des emails des destinataires et regrouper les informations sur ce champ : pour cela, sélectionnez l&#39;option **[!UICONTROL Grouper]** sur la colonne du nom de domaine.
+   * collecter les domaines des emails des destinataires et regrouper les informations sur ce champ : pour cela, sélectionnez l&#39;option **[!UICONTROL Grouper]** sur la colonne du nom de domaine.
 
    ![](assets/reporting_quick_start_query-2_filter.png)
 
-   Associez les alias suivants aux champs :
+   Associez les alias suivants aux champs :
 
-   * count(clé primaire) : **@count**
-   * Domaine de l&#39;email (Destinataire) : **@domain**
+   * count(clé primaire) : **@count**
+   * Domaine de l&#39;email (Destinataire) : **@domain**
 
       ![](assets/reporting_quick_start_query-2_alias.png)
 
@@ -397,8 +397,8 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 
 ### Etape 5- Créez la seconde page {#step-5---create-the-second-page}
 
-1. Editez la page et saisissez son libellé, ici : **Domaines d&#39;email**.
-1. Décochez l&#39;option **[!UICONTROL Activer les transitions sortantes]** : cette page est la dernière du rapport et ne sera suivie d&#39;aucune activité supplémentaire.
+1. Editez la page et saisissez son libellé, ici : **Domaines d&#39;email**.
+1. Décochez l&#39;option **[!UICONTROL Activer les transitions sortantes]** : cette page est la dernière du rapport et ne sera suivie d&#39;aucune activité supplémentaire.
 
    ![](assets/s_advuser_report_listgroup_028.png)
 
@@ -407,10 +407,10 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 
    ![](assets/s_advuser_report_listgroup_029.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Données]**, adaptez le tableau comme suit :
+1. Dans l&#39;onglet **[!UICONTROL Données]**, adaptez le tableau comme suit :
 
    * Ajoutez deux colonnes supplémentaires à droite.
-   * Dans la 1ère cellule de la ligne de détail, ajoutez l&#39;expression **[!UICONTROL rowNum()-1]** afin de compter le nombre de lignes. Puis modifiez le format de cellule : dans l&#39;onglet **[!UICONTROL Plus]**, sélectionnez **[!UICONTROL Pastille de couleur]** et cliquez sur **[!UICONTROL Ok]**.
+   * Dans la 1ère cellule de la ligne de détail, ajoutez l&#39;expression **[!UICONTROL rowNum()-1]** afin de compter le nombre de lignes. Puis modifiez le format de cellule : dans l&#39;onglet **[!UICONTROL Plus]**, sélectionnez **[!UICONTROL Pastille de couleur]** et cliquez sur **[!UICONTROL Ok]**.
 
       ![](assets/s_advuser_report_listgroup_018.png)
 
@@ -427,7 +427,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 
    ![](assets/s_advuser_report_listgroup_0191.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Données]**, modifiez la source de données : choisissez **[!UICONTROL Données du contexte]** dans la liste déroulante.
+1. Dans l&#39;onglet **[!UICONTROL Données]**, modifiez la source de données : choisissez **[!UICONTROL Données du contexte]** dans la liste déroulante.
 
    ![](assets/s_advuser_report_listgroup_020.png)
 
@@ -436,7 +436,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
    ![](assets/s_advuser_report_listgroup_0201.png)
 
 1. Dans la partie **[!UICONTROL Nature du graphe]**, sélectionnez la variable **[!UICONTROL Domaine de l&#39;email]**.
-1. Ajoutez ensuite le calcul à effectuer : choisissez la somme comme opérateur.
+1. Ajoutez ensuite le calcul à effectuer : choisissez la somme comme opérateur.
 
    ![](assets/s_advuser_report_listgroup_0202.png)
 

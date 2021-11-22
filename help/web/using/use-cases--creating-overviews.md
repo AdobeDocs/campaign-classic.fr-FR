@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: '"Cas pratiques : création de vues d''ensemble"'
-description: '"Cas pratiques : création de vues d''ensemble"'
+title: '"Cas pratiques : création de vues d''ensemble"'
+description: '"Cas pratiques : création de vues d''ensemble"'
 audience: web
 content-type: reference
 topic-tags: web-applications
@@ -55,7 +55,7 @@ Dans l&#39;exemple qui suit, vous allez créer des applications web de type vue 
 
 ## Ajouter un filtre sur dossier {#adding-a-filter-on-a-folder}
 
-Dans une vue d&#39;ensemble, vous pouvez choisir d&#39;accéder à certaines données en fonction de leur emplacement dans l&#39;arborescence Adobe Campaign. Il s&#39;agit d&#39;un filtre sur dossier. Procédez comme suit pour l&#39;ajouter dans votre vue d&#39;ensemble.
+Dans une vue d&#39;ensemble, vous pouvez choisir d&#39;accéder à certaines données en fonction de leur emplacement dans l&#39;arborescence Adobe Campaign. Il s&#39;agit d&#39;un filtre sur dossier. Procédez comme suit pour l&#39;ajouter dans votre vue d&#39;ensemble.
 
 1. Positionnez-vous sur le noeud **[!UICONTROL Page]** de votre application Web et ajoutez un élément **[!UICONTROL Choix de dossier]** (**[!UICONTROL Contrôle avancés > Choix de dossier]**).
 1. Dans la fenêtre **[!UICONTROL Stockage]** qui s&#39;affiche, cliquez sur le lien **[!UICONTROL Editer les variables]**.
@@ -123,7 +123,7 @@ Lorsque vous paramétrez une liste dans votre vue d&#39;ensemble, vous pouvez ch
 
    De cette façon, ces informations ne seront visibles qu&#39;au niveau du détail de chaque entrée.
 
-1. Dans l&#39;onglet **[!UICONTROL Détail additionnel]**, ajoutez le code suivant :
+1. Dans l&#39;onglet **[!UICONTROL Détail additionnel]**, ajoutez le code suivant :
 
    ```
    <div class="detailBox">
@@ -205,7 +205,7 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 
 >[!CAUTION]
 >
->L&#39;utilisateur de l&#39;application Web doit être un opérateur identifié et avec les droits adéquats dans Adobe Campaign pour avoir accès aux informations. Ce type de paramétrage ne fonctionnera pas dans le cas d&#39;une application Web anonyme.
+>L&#39;utilisateur de l&#39;application Web doit être un opérateur identifié et avec les droits adéquats dans Adobe Campaign pour avoir accès aux informations. Ce type de paramétrage ne fonctionnera pas dans le cas d&#39;une application Web anonyme.
 
 ### Créer un lien d&#39;actualisation {#creating-a-refresh-link}
 
@@ -216,7 +216,7 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 
    ![](assets/s_ncs_configuration_webapp_refreshlink.png)
 
-1. Ajoutez l&#39;icône d&#39;actualisation dans le champ **[!UICONTROL Image]** : **/xtk/img/refresh.png**.
+1. Ajoutez l&#39;icône d&#39;actualisation dans le champ **[!UICONTROL Image]** : **/xtk/img/refresh.png**.
 1. Positionnez les différents éléments de votre application web dans l&#39;ordre comme illustré ci-dessous à l&#39;aide des flèches de déplacement.
 
    ![](assets/s_ncs_configuration_webapp_orderelements.png)

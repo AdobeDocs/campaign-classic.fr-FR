@@ -39,11 +39,11 @@ Pour suivre le statut d&#39;un ensemble de workflows, vous devez procéder comme
 
 ## Etape 1: Création du workflow de suivi {#step-1--creating-the-monitoring-workflow}
 
-Le dossier de workflows que nous allons suivre est le dossier **&quot;CustomWorkflows&quot;** stocké dans le noeud : **Administration > Exploitation > Workflows Techniques**. Ce dossier contient un ensemble de workflows métiers.
+Le dossier de workflows que nous allons suivre est le dossier **&quot;CustomWorkflows&quot;** stocké dans le noeud : **Administration > Exploitation > Workflows Techniques**. Ce dossier contient un ensemble de workflows métiers.
 
 Le **workflow de suivi** est stocké à la racine du dossier Workflows Techniques. Le libellé utilisé est **&quot;Suivi&quot;**.
 
-Le schéma suivant montre l&#39;ordonnancement des activités :
+Le schéma suivant montre l&#39;ordonnancement des activités :
 
 ![](assets/uc_monitoring_workflow_overview.png)
 
@@ -59,7 +59,7 @@ Ce workflow se compose de :
 
 La première partie du code JavaScript correspond à **une requête (queryDef)** permettant d&#39;identifier les workflows ayant un statut &quot;pause&quot; (@state == 13), &quot;erreur&quot; (@failed == 1) ou &quot;stoppé&quot; (@state == 20).
 
-Le **nom interne** du dossier de workflow à suivre est donné dans la condition suivante :
+Le **nom interne** du dossier de workflow à suivre est donné dans la condition suivante :
 
 ```
 <condition boolOperator="AND" expr="[folder/@name] = 'Folder20'" internalId="1"/>
@@ -133,7 +133,7 @@ L&#39;activité &quot;Attente&quot; peut être paramétrée pour relancer le wor
 
 L&#39;activité &quot;Diffusion&quot; est basée sur un **modèle de diffusion** stocké dans le noeud **Ressources > Modèles > Modèles de diffusion**.
 
-Ce modèle doit comporter :
+Ce modèle doit comporter :
 
 * **l&#39;adresse mail du superviseur**.
 * **un contenu HTML** permettant d&#39;insérer du texte personnalisé.
@@ -146,7 +146,7 @@ Ce modèle doit comporter :
 
    Afin de récupérer **le contenu des variables d&#39;événements du workflow**, il est nécessaire de déclarer des variables propres à la diffusion qui seront initialisées avec les valeurs retournées par le code JavaScript.
 
-   Le contenu de modèle de diffusion est le suivant :
+   Le contenu de modèle de diffusion est le suivant :
 
    ![](assets/uc_monitoring_workflow_model_diffusion.png)
 
@@ -155,11 +155,11 @@ Une fois le modèle crée et validé, vous devez configurer l&#39;activité **Di
 * lier l&#39;activité &quot;Diffusion&quot; avec le modèle de diffusion précédemment crée.
 * lier les variables d&#39;événements du workflow avec les variables propres au modèle de diffusion.
 
-En double cliquant sur l&#39;activité **Diffusion**, choisissez les options suivantes :
+En double cliquant sur l&#39;activité **Diffusion**, choisissez les options suivantes :
 
-* Diffusion : sélectionnez **Nouvelle, créée depuis un modèle**, et sélectionnez le modèle de diffusion créé précédemment.
+* Diffusion : sélectionnez **Nouvelle, créée depuis un modèle**, et sélectionnez le modèle de diffusion créé précédemment.
 * Pour les champs **Destinataires et Contenu**, sélectionnez **Spécifiés dans la diffusion**.
-* Action à effectuer : sélectionnez **Préparer et démarrer**.
+* Action à effectuer : sélectionnez **Préparer et démarrer**.
 * Décochez l&#39;option **Traiter les erreurs**.
 
    ![](assets/uc_monitoring_workflow_optionmodel.png)
@@ -170,7 +170,7 @@ En double cliquant sur l&#39;activité **Diffusion**, choisissez les options sui
 
    ![](assets/uc_monitoring_workflow_linkvariables.png)
 
-   Les trois variables déclarées sont :
+   Les trois variables déclarées sont :
 
    ```
    delivery.variables._var[0].stringValue = vars.strWorkflowError;
@@ -178,6 +178,6 @@ En double cliquant sur l&#39;activité **Diffusion**, choisissez les options sui
    delivery.variables._var[2].stringValue = vars.strWorkflowStop; 
    ```
 
-Une fois lancé, ce workflow de suivi envoie au destinataire de la diffusion un message récapitulatif de la forme :
+Une fois lancé, ce workflow de suivi envoie au destinataire de la diffusion un message récapitulatif de la forme :
 
 ![](assets/uc_monitoring_workflow_mailfinal.png)

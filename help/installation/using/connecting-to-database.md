@@ -21,7 +21,7 @@ Pour permettre la connexion à la base de données externe, vous devez indiquer 
 
 >[!CAUTION]
 >
->L&#39;utilisateur Adobe Campaign doit disposer d&#39;un minimum de droits sur la base externe et le serveur applicatif Adobe Campaign pour exploiter les données d&#39;une base externe. Voir à ce sujet la section [Droits d’accès à la base externe](../../installation/using/remote-database-access-rights.md).
+>L&#39;utilisateur Adobe Campaign doit disposer d&#39;un minimum de droits sur la base externe et le serveur applicatif Adobe Campaign pour exploiter les données d&#39;une base externe. Voir à ce sujet la section [Droits d’accès à la base externe](../../installation/using/remote-database-access-rights.md).
 >
 >Pour éviter tout dysfonctionnement, les opérateurs qui accèdent à des données distantes communes doivent évoluer dans des espaces de travail disjoints.
 
@@ -48,13 +48,13 @@ Vous pouvez définir des tablespaces de travail spécifiques pour les tables et 
 
 ## Créer une connexion ponctuelle {#creating-a-temporary-connection}
 
-Vous pouvez définir directement une connexion à une base externe à partir des activités d&#39;un workflow. Dans ce cas, il s&#39;agira d&#39;une base externe locale, réservée à une utilisation dans le cadre du workflow courant : elle ne sera pas enregistrée dans les comptes externes. Ce type de connexion ponctuelle peut être créée dans différentes activités du workflow, notamment l&#39;activité de **[!UICONTROL Requête]**, l&#39;activité de **[!UICONTROL Chargement (SGBD)]**, l&#39;activité d&#39;**[!UICONTROL Enrichissement]** ou l&#39;activité de **[!UICONTROL Partage]**.
+Vous pouvez définir directement une connexion à une base externe à partir des activités d&#39;un workflow. Dans ce cas, il s&#39;agira d&#39;une base externe locale, réservée à une utilisation dans le cadre du workflow courant : elle ne sera pas enregistrée dans les comptes externes. Ce type de connexion ponctuelle peut être créée dans différentes activités du workflow, notamment l&#39;activité de **[!UICONTROL Requête]**, l&#39;activité de **[!UICONTROL Chargement (SGBD)]**, l&#39;activité d&#39;**[!UICONTROL Enrichissement]** ou l&#39;activité de **[!UICONTROL Partage]**.
 
 >[!CAUTION]
 >
 >Ce type de paramétrage n&#39;est pas recommandé mais peut être utilisé ponctuellement pour collecter des données. Toutefois, privilégiez la création d&#39;un compte externe, comme présenté dans la section [Créer une connexion partagée](#creating-a-shared-connection).
 
-Par exemple, dans l&#39;activité de requête, les étapes sont les suivantes pour créer une connexion ponctuelle à une base externe :
+Par exemple, dans l&#39;activité de requête, les étapes sont les suivantes pour créer une connexion ponctuelle à une base externe :
 
 1. Cliquez sur le lien **[!UICONTROL Ajouter des données...]** et sélectionnez l&#39;option **[!UICONTROL Données externes]**.
 1. Choisissez l&#39;option **[!UICONTROL En définissant localement la source de données]**.
@@ -75,7 +75,7 @@ Par exemple, dans l&#39;activité de requête, les étapes sont les suivantes po
 
    ![](assets/wf_add_data_local_external_data_select_table.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour définir un ou plusieurs champs de réconciliation entre les données de la base externe et celles de la base Adobe Campaign. Les icônes **[!UICONTROL Editer l&#39;expression]** des colonnes **[!UICONTROL Champ distant]** et **[!UICONTROL Champ local]** permettent d&#39;accéder à la liste des champs de chacune des tables.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour définir un ou plusieurs champs de réconciliation entre les données de la base externe et celles de la base Adobe Campaign. Les icônes **[!UICONTROL Editer l&#39;expression]** des colonnes **[!UICONTROL Champ distant]** et **[!UICONTROL Champ local]** permettent d&#39;accéder à la liste des champs de chacune des tables.
 
    ![](assets/wf_add_data_local_external_data_join.png)
 
@@ -100,8 +100,8 @@ Les données seront ainsi envoyées via le protocole sécurisé SSL.
 
 ## Configurations supplémentaires {#additional-configurations}
 
-Au besoin, vous pouvez créer le schéma nécessaire à l&#39;exploitation des données contenues dans une base externe. De même, Adobe Campaign permet de définir un mapping sur les données d&#39;une table externe. Ces paramétrages sont généraux et ne s&#39;appliquent pas exclusivement au contexte des workflows.
+Au besoin, vous pouvez créer le schéma nécessaire à l&#39;exploitation des données contenues dans une base externe. De même, Adobe Campaign permet de définir un mapping sur les données d&#39;une table externe. Ces paramétrages sont généraux et ne s&#39;appliquent pas exclusivement au contexte des workflows.
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur la création de schémas dans Adobe Campaign et la définition d&#39;un nouveau mapping des données, consultez [cette page](../../configuration/using/about-schema-edition.md).
+>Pour plus d&#39;informations sur la création de schémas dans Adobe Campaign et la définition d&#39;un nouveau mapping des données, consultez [cette page](../../configuration/using/about-schema-edition.md).

@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Ce document répertorie tous les systèmes et composants pris en charge pour les builds **Adobe Campaign Classic[!DNL Gold Standard]** 19.1. Les produits et versions ne faisant pas partie de cette liste ne sont pas compatibles avec cette version d&#39;Adobe Campaign.
+Ce document répertorie tous les systèmes et composants pris en charge pour les builds **Adobe Campaign Classic[!DNL Gold Standard]** 19.1. Les produits et versions ne faisant pas partie de cette liste ne sont pas compatibles avec cette version d&#39;Adobe Campaign.
 
 ## Remarques importantes{#important-notes-gs}
 

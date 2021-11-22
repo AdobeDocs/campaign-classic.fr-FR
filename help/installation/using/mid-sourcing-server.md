@@ -41,7 +41,7 @@ La procédure ci-dessous présente une configuration utilisant un seul serveur d
 
 La procédure d&#39;installation reprend les étapes d&#39;une installation pour une instance mono-machine. Pour plus d&#39;informations, consultez la section [Installer et configurer (mono-machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
-Toutefois, vous devez appliquer les spécificités suivantes :
+Toutefois, vous devez appliquer les spécificités suivantes :
 
 * A l&#39;étape **5**, vous devez désactiver les modules **mta** (diffusion) et **inMail** (mails rebonds). Au contraire, le module **wfserver** (workflow) doit rester activé.
 
@@ -82,17 +82,17 @@ Toutefois, vous devez appliquer les spécificités suivantes :
 
 ## Déploiement d&#39;un serveur de mid-sourcing {#deploying-a-mid-sourcing-server}
 
-1. Installation du serveur applicatif :
+1. Installation du serveur applicatif :
 
    >[!CAUTION]
    >
-   >Si vous installez un serveur de mid-sourcing et que vous souhaitez installer des modules Adobe Campaign supplémentaires, il est déconseillé de choisir le module Campaign. Préférez le module Diffusion.
+   >Si vous installez un serveur de mid-sourcing et que vous souhaitez installer des modules Adobe Campaign supplémentaires, il est déconseillé de choisir le module Campaign. Préférez le module Delivery.
 
    Suivez la même procédure que pour un déploiement standard en sélectionnant uniquement l&#39;option **[!UICONTROL Plateforme de Mid-sourcing]**.
 
    ![](assets/s_ncs_install_midsourcing01.png)
 
-1. Configuration de la réception du mid-sourcing :
+1. Configuration de la réception du mid-sourcing :
 
    Définissez le mot de passe du compte d&#39;envoi : dans le dossier **/Mid-sourcing/Gestion des accès/Opérateurs/**, l&#39;opérateur **mid** est utilisé par l&#39;instance distante pour les envois en mode mid-sourcing. Vous devez définir un mot de passe pour cet opérateur et le donner à l&#39;administrateur de l&#39;instance d&#39;envoi.
 
@@ -104,7 +104,7 @@ Toutefois, vous devez appliquer les spécificités suivantes :
 >
 >Le multiplexage n&#39;est pris en charge que pour les environnements on-premise.
 
-Il est possible de mutualiser une instance de mid-sourcing pour plusieurs instances de soumission. Chaque instance pouvant effectuer des soumissions sera associée à un opérateur dans la base de mid-sourcing. Pour créer un second compte sur le serveur de mid-sourcing :
+Il est possible de mutualiser une instance de mid-sourcing pour plusieurs instances de soumission. Chaque instance pouvant effectuer des soumissions sera associée à un opérateur dans la base de mid-sourcing. Pour créer un second compte sur le serveur de mid-sourcing :
 
 1. Créez un dossier sous le nœud **[!UICONTROL Mid-sourcing > Diffusions]** qui sera associé au compte mid-sourcing par défaut (par exemple : prod).
 1. Créez un dossier sous le nœud **[!UICONTROL Mid-sourcing > Diffusions]** qui aura le même nom que le compte (par exemple : recette).
@@ -125,13 +125,13 @@ Il est possible de mutualiser une instance de mid-sourcing pour plusieurs instan
 
 1. Redémarrez le module technique web par la commande suivante : **nlserver restart web**.
 
-Vous devez modifier le paramétrage du serveur de mid-sourcing à partir du fichier serverConf.xml. La ligne suivante doit être ajoutée dans la section &quot;Gestion des affinités avec les adresses IP&quot;, sous la ligne existante :
+Vous devez modifier le paramétrage du serveur de mid-sourcing à partir du fichier serverConf.xml. La ligne suivante doit être ajoutée dans la section &quot;Gestion des affinités avec les adresses IP&quot;, sous la ligne existante :
 
 ```
 <IPAffinity IPMask="" localDomain="" name=""/>
 ```
 
-L&#39;attribut &#39;@name&#39; doit respecter les règles suivantes :
+L&#39;attribut &#39;@name&#39; doit respecter les règles suivantes :
 
 **&#39;nom_de_l&#39;opérateur_du_compte_marketing&#39;.&#39;nom_de_l&#39;affinité&#39;.&#39;groupe_d&#39;affinité&#39;**
 
@@ -169,7 +169,7 @@ Vous devez arrêter et redémarrer le serveur pour que cette modification soit p
    ![](assets/s_ncs_install_midsourcing_tracking06.png)
 
 1. Validez votre paramétrage en cliquant sur **[!UICONTROL Tester la connexion]**.
-1. Déclarez l&#39;instance de tracking référencée sur le serveur de mid-sourcing :
+1. Déclarez l&#39;instance de tracking référencée sur le serveur de mid-sourcing :
 
    Cliquez sur le lien **[!UICONTROL Utiliser cette plateforme comme proxy pour accéder aux serveurs de tracking]**,
 

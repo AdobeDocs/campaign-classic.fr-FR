@@ -31,7 +31,7 @@ Pour créer un workflow de ciblage et mettre à jour des destinataires dans une 
 
    ![](assets/mapping_create_list_workflow01.png)
 
-1. Double cliquez sur l&#39;activité **Requête** puis cliquez sur **[!UICONTROL Editer la requête]** afin de choisir une dimension de ciblage basée sur le schéma de la nouvelle table de destinataires (dans le cas de l&#39;exemple : **Individual**). Cliquez sur **[!UICONTROL Terminer]** pour valider.
+1. Double cliquez sur l&#39;activité **Requête** puis cliquez sur **[!UICONTROL Editer la requête]** afin de choisir une dimension de ciblage basée sur le schéma de la nouvelle table de destinataires (dans le cas de l&#39;exemple : **Individual**). Cliquez sur **[!UICONTROL Terminer]** pour valider.
 
    ![](assets/mapping_create_list_workflow03.png)
 
@@ -43,6 +43,6 @@ Pour créer un workflow de ciblage et mettre à jour des destinataires dans une 
 1. Exécuter le workflow pour créer la liste.
 1. Visualiser le résultat dans le noeud de l&#39;arborescence que vous avez choisi lors de l&#39;activité **[!UICONTROL Mise à jour de la liste]**.
 
-   Le tableau de bord précise le schéma sur lequel est basée la liste, comme le montre l&#39;écran ci-dessous :
+   Le tableau de bord précise le schéma sur lequel est basée la liste, comme le montre l&#39;écran ci-dessous :
 
    ![](assets/mapping_list_view.png)

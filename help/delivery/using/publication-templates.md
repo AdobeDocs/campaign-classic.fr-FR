@@ -29,7 +29,7 @@ Le modèle de publication est la fiche d&#39;identité du contenu à publier. Il
 
 Un modèle de publication est identifié par son nom et son espace de noms.
 
-La clé d&#39;identification d&#39;une feuille de style est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39; (par exemple : **xac:newsletter**).
+La clé d&#39;identification d&#39;une feuille de style est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39; (par exemple : **xac:newsletter**).
 
 >[!NOTE]
 >
@@ -55,10 +55,10 @@ Le champ **[!UICONTROL Nom du modèle]** est un libellé libre qui décrit le ty
 
 ### Rendu {#rendering}
 
-Dans l&#39;onglet **[!UICONTROL Rendu]**, choisissez :
+Dans l&#39;onglet **[!UICONTROL Rendu]**, choisissez :
 
-* le type de rendu utilisé pour la projection du document de sortie : feuille de style XSL ou template JavaScript,
-* le format du document de sortie : HTML, Texte, XML ou RTF,
+* le type de rendu utilisé pour la projection du document de sortie : feuille de style XSL ou template JavaScript,
+* le format du document de sortie : HTML, Texte, XML ou RTF,
 * le modèle contenant les informations de construction, c&#39;est-à-dire la feuille de style ou le template JavaScript à utiliser.
 
 ### Publication {#publication}
@@ -67,23 +67,23 @@ La publication consiste à générer le document de sortie sous la forme d&#39;u
 
 ![](assets/d_ncs_content_model2.png)
 
-Les options de publication disponibles sont les suivantes :
+Les options de publication disponibles sont les suivantes :
 
 * Il est possible de forcer le jeu de caractères d&#39;encodage du fichier en sortie à partir du champ **[!UICONTROL Codage]**. Le jeu de caractères Latin 1 (1252) est le mode par défaut.
-* L&#39;option **[!UICONTROL génération multi-fichiers]** active un mode particulier de publication de documents : cette option consiste à renseigner une balise de découpe en début de chaque page du document en sortie. La génération du contenu produira autant de fichiers que de balises de découpe renseignées. Ce mode est utilisé pour la génération de mini-sites à partir d&#39;un contenu. Voir à ce propos [Génération multi-fichiers](#multi-file-generation)
+* L&#39;option **[!UICONTROL génération multi-fichiers]** active un mode particulier de publication de documents : cette option consiste à renseigner une balise de découpe en début de chaque page du document en sortie. La génération du contenu produira autant de fichiers que de balises de découpe renseignées. Ce mode est utilisé pour la génération de mini-sites à partir d&#39;un contenu. Voir à ce propos [Génération multi-fichiers](#multi-file-generation)
 * Le champ d&#39;édition **[!UICONTROL Localisation]** contient le nom du fichier en sortie. Le nom peut être construit à partir de variables afin de générer un nom de fichier automatique.
 
    Une variable est renseignée avec le format suivant : **`$(<xpath>)`**, où **`<xpath>`** est le chemin d’un champ du schéma de données du modèle de publication.
 
    Le nom du fichier peut être composé d&#39;un champ de type date. Pour formater correctement ce champ, vous devez utiliser la fonction **$date-format**, avec comme paramètres le chemin du champ et le format de sortie.
 
-   Par défaut, le format de construction du nom du fichier utilise les variables sur les champs &quot;@name&quot; et &quot;@date&quot; :
+   Par défaut, le format de construction du nom du fichier utilise les variables sur les champs &quot;@name&quot; et &quot;@date&quot; :
 
    ```
    ct_$(@name)_$date-format(@date,'%4Y%2M%2D').htm
    ```
 
-   Le nom du fichier généré sera donc composé comme suit : ct_news12_20110901.htm.
+   Le nom du fichier généré sera donc composé comme suit : ct_news12_20110901.htm.
 
    >[!NOTE]
    >
@@ -107,17 +107,17 @@ Un traitement d&#39;agrégation de données à partir d&#39;un script ou d&#39;u
 
 Pour activer la génération multi-fichiers, cochez l&#39;option **[!UICONTROL Génération multi-fichiers]** dans le modèle de publication. Cette option permet de renseigner dans la feuille de style des balises de découpe en début de chaque page du document en sortie. La génération du contenu produira autant de fichiers que de balises de découpe rencontrées.
 
-La balise de découpe à intégrer dans la feuille de style est la suivante :
+La balise de découpe à intégrer dans la feuille de style est la suivante :
 
 **`<xsl:comment> #nl:output_replace(<name_of_file>) </xsl:comment>`** où **`<name_of_file>`** correspond au nom de fichier de la page à générer.
 
-**Exemple :** Génération multi-fichiers en reprenant le schéma &quot;cus:livre&quot;.
+**Exemple :** Génération multi-fichiers en reprenant le schéma &quot;cus:livre&quot;.
 
 Le principe consiste à générer une page principale énumérant la liste des chapitres, avec possibilité d&#39;afficher le détail du chapitre dans une page externe.
 
 ![](assets/d_ncs_content_chunk.png)
 
-La feuille de style (&quot;cus:livre.xsl&quot;) correspondante est la suivante :
+La feuille de style (&quot;cus:livre.xsl&quot;) correspondante est la suivante :
 
 ```
 <?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -140,7 +140,7 @@ La feuille de style (&quot;cus:livre.xsl&quot;) correspondante est la suivante :
 </xsl:stylesheet>
 ```
 
-Une deuxième feuille de style (&quot;cus:chapitre.xsl&quot;) est nécessaire pour générer le détail des chapitres :
+Une deuxième feuille de style (&quot;cus:chapitre.xsl&quot;) est nécessaire pour générer le détail des chapitres :
 
 ```
 <?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -177,7 +177,7 @@ Le nom du fichier est construit avec la variable **$(path)** contenant le chemin
 
 Le modèle de publication doit être renseigné avec les deux feuilles de style &quot;cus:livre.xsl&quot; et &quot;cus:chapitre.xsl&quot;.
 
-L&#39;option **[!UICONTROL Génération multi-fichiers]** doit être active sur le modèle de transformation des chapitres :
+L&#39;option **[!UICONTROL Génération multi-fichiers]** doit être active sur le modèle de transformation des chapitres :
 
 ![](assets/d_ncs_content_chunk2.png)
 

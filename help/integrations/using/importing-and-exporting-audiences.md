@@ -19,14 +19,14 @@ ht-degree: 100%
 
 ## Importer une audience {#importing-an-audience}
 
-L&#39;import d&#39;audiences/de segments depuis Audience Manager ou People core service dans Adobe Campaign peut être réalisé via les listes de destinataires.
+L&#39;import d&#39;audiences/de segments depuis Audience Manager ou People core service dans Adobe Campaign peut être réalisé via les listes de destinataires.
 
-1. Accédez au noeud **[!UICONTROL Profils et Cibles]** > **[!UICONTROL Listes]** de l&#39;explorateur Adobe Campaign.
+1. Accédez au noeud **[!UICONTROL Profils et Cibles]** > **[!UICONTROL Listes]** de l&#39;explorateur Adobe Campaign.
 1. Depuis la barre d&#39;actions, sélectionnez **[!UICONTROL Nouveau]** > **[!UICONTROL Créer une audience partagée...]**.
 
    ![](assets/aam_import_audience.png)
 
-1. Dans la fenêtre qui s’ouvre, cliquez sur **[!UICONTROL Sélectionner une audience partagée]** afin d’accéder à la liste des audiences partagées/segments disponibles à partir des autres solutions Adobe Experience Cloud.
+1. Dans la fenêtre qui s’ouvre, cliquez sur **[!UICONTROL Sélectionner une audience partagée]** afin d’accéder à la liste des audiences partagées/segments disponibles à partir des autres solutions Adobe Experience Cloud.
 1. Sélectionnez l&#39;audience de votre choix puis validez. Les informations de l&#39;audience sélectionnée sont automatiquement renseignées.
 
    Veuillez noter que pour pouvoir importer une audience partagée, le produit **[!UICONTROL Audience partagée]** devrait vous être assigné dans la console d&#39;administration et vous devriez être administrateur dans Audience Manager. Pour en savoir plus à ce sujet, consultez la [documentation de la console d&#39;administration](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
@@ -41,19 +41,19 @@ L&#39;import d&#39;audiences/de segments depuis Audience Manager ou People core 
 
 L&#39;audience est importée par l&#39;intermédiaire d&#39;un workflow technique. La liste importée contient des éléments réconciliables au moyen d&#39;une AMC Data source. Les éléments non reconnus par Adobe Campaign ne sont pas importés.
 
-Le processus d&#39;import prend entre 24 et 36 heures pour se synchroniser lorsque les segments sont importés directement à partir de People core service ou d&#39;Audience Manager. Au terme de cette période, vous pourrez trouver et utiliser votre nouvelle audience dans Adobe Campaign.
+Le processus d&#39;import prend entre 24 et 36 heures pour se synchroniser lorsque les segments sont importés directement à partir de People core service ou d&#39;Audience Manager. Au terme de cette période, vous pourrez trouver et utiliser votre nouvelle audience dans Adobe Campaign.
 
 >[!NOTE]
 >
->Si vous importez des audiences d&#39;Adobe Analytics vers Adobe Campaign, celles-ci doivent d&#39;abord être partagées dans People core service ou Audience Manager. Ce processus prend entre 12 et 24 heures (temps venant s&#39;ajouter aux 24 à 36 heures requises pour la synchronisation avec Campaign).
+>Si vous importez des audiences d&#39;Adobe Analytics vers Adobe Campaign, celles-ci doivent d&#39;abord être partagées dans People core service ou Audience Manager. Ce processus prend entre 12 et 24 heures (temps venant s&#39;ajouter aux 24 à 36 heures requises pour la synchronisation avec Campaign).
 >
->Dans ce cas spécifique, la durée de partage de l&#39;audience peut prendre jusqu&#39;à 60 heures. Pour plus d&#39;informations sur le partage d&#39;audiences Adobe Analytics dans People Core service et Audience Manager, consultez la [documentation d&#39;Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr).
+>Dans ce cas spécifique, la durée de partage de l&#39;audience peut prendre jusqu&#39;à 60 heures. Pour plus d&#39;informations sur le partage d&#39;audiences Adobe Analytics dans People Core service et Audience Manager, consultez la [documentation d&#39;Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr).
 
 Lors de chaque synchronisation, les données de l&#39;audience sont entièrement remplacées. Seuls les segments peuvent être importés. Les données granulaires, notamment les paires clé-valeur, les caractéristiques et les règles ne sont pas prises en charge.
 
 ## Exporter une audience {#exporting-an-audience}
 
-L&#39;export d&#39;une audience depuis Adobe Campaign vers People core service ou Audience Manager peut être réalisé à l&#39;aide d&#39;un workflow. La création et l&#39;utilisation d&#39;un workflow sont détaillées dans [ce document](../../workflow/using/building-a-workflow.md). Les audiences exportées sont enregistrées sous forme de segments dans People core service :
+L&#39;export d&#39;une audience depuis Adobe Campaign vers People core service ou Audience Manager peut être réalisé à l&#39;aide d&#39;un workflow. La création et l&#39;utilisation d&#39;un workflow sont détaillées dans [ce document](../../workflow/using/building-a-workflow.md). Les audiences exportées sont enregistrées sous forme de segments dans People core service :
 
 1. Créez un nouveau workflow de ciblage.
 1. En utilisant les différentes activités à votre disposition, ciblez un ensemble de destinataires.
@@ -81,4 +81,4 @@ La synchronisation entre Adobe Campaign et People core service prend entre 24 e
 
 >[!NOTE]
 >
->Pour pouvoir être réconciliés, les enregistrements doivent posséder un identifiant Adobe Experience Cloud (&#39;Visitor ID&#39; ou &#39;Declared ID&#39;). Les enregistrements ne disposant pas d&#39;un identifiant Adobe Experience Cloud sont ignorés lors de l&#39;export et de l&#39;import des audiences.
+>Pour pouvoir être réconciliés, les enregistrements doivent posséder un identifiant Adobe Experience Cloud (&#39;Visitor ID&#39; ou &#39;Declared ID&#39;). Les enregistrements ne disposant pas d&#39;un identifiant Adobe Experience Cloud sont ignorés lors de l&#39;export et de l&#39;import des audiences.

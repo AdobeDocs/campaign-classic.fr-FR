@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Pour qu&#39;un cube puisse être exploité, vous devez identifier les dimensions et les mesures utiles et les créer au niveau du cube.
 
-Les étapes de création d&#39;un cube sont les suivantes :
+Les étapes de création d&#39;un cube sont les suivantes :
 
 1. Sélectionner la table de travail. Pour plus d&#39;informations, consultez la section [Sélectionner la table de travail](#selecting-the-work-table).
 1. Définir des dimensions. Pour plus d&#39;informations, consultez la section [Définir des dimensions](#defining-dimensions).
@@ -40,7 +40,7 @@ Sélectionnez le schéma des faits, c&#39;est-à-dire celui qui contient les él
 
 ![](assets/s_advuser_cube_wz_02.png)
 
-Cliquez sur **[!UICONTROL Enregistrer]** pour créer le cube : il apparaît alors dans la liste des cubes et peut être paramétré au travers de ses onglets.
+Cliquez sur **[!UICONTROL Enregistrer]** pour créer le cube : il apparaît alors dans la liste des cubes et peut être paramétré au travers de ses onglets.
 
 Cliquez sur le lien **[!UICONTROL Filtrer les données de la source...]** si vous souhaitez n&#39;appliquer les calculs de ce cube qu&#39;à une sélection de données de la base.
 
@@ -68,7 +68,7 @@ Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle dimensio
 
    ![](assets/s_advuser_cube_wz_06.png)
 
-   Vous pouvez sélectionner le mode d&#39;affichage des dates. Pour cela, sélectionnez les niveaux à générer :
+   Vous pouvez sélectionner le mode d&#39;affichage des dates. Pour cela, sélectionnez les niveaux à générer :
 
    ![](assets/s_advuser_cube_wz_07.png)
 
@@ -96,7 +96,7 @@ Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle dimensio
 
 Une fois les dimensions définies, vous devez spécifier le mode de calcul des valeurs qui seront affichées dans les cellules. Pour cela, créez les indicateurs correspondants dans l&#39;onglet **[!UICONTROL Mesures]** : créez autant de mesures que de colonnes à afficher au niveau du rapport qui utilisera le cube.
 
-Pour cela, les étapes sont les suivantes :
+Pour cela, les étapes sont les suivantes :
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter]**.
 1. Sélectionnez le type de mesure et la formule à appliquer. Ici, nous allons compter le nombre de femmes parmi les destinataires.
@@ -125,9 +125,9 @@ Pour cela :
 
    ![](assets/s_advuser_cube_wz_14.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Créer]** pour valider : vous accédez alors à la page de configuration et de visualisation du rapport.
+1. Cliquez sur le bouton **[!UICONTROL Créer]** pour valider : vous accédez alors à la page de configuration et de visualisation du rapport.
 
-   Par défaut, les deux premières dimensions disponibles sont proposées en colonne et en ligne mais aucune valeur n&#39;est affichée dans le tableau. Pour générer le tableau, cliquez sur l&#39;icône centrale :
+   Par défaut, les deux premières dimensions disponibles sont proposées en colonne et en ligne mais aucune valeur n&#39;est affichée dans le tableau. Pour générer le tableau, cliquez sur l&#39;icône centrale :
 
    ![](assets/s_advuser_cube_wz_15.png)
 

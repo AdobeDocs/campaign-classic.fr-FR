@@ -17,13 +17,13 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Il s&#39;agit dans ce cas du JavaScript exécuté sur le serveur Adobe Campaign.
+Il s&#39;agit dans ce cas du JavaScript exécuté sur le serveur Adobe Campaign.
 
 ## Méthodes statiques {#static-methods}
 
 L&#39;accès aux méthodes SOAPs statiques se fait par invocation d&#39;une méthode sur l&#39;objet représentant le schéma. Les schémas sont des propriétés des objets de type &#39;espace de noms&#39;. Ces espaces de noms sont des variables globales, ainsi par exemple, les variables xtk ou nms représentent les espaces de noms correspondants.
 
-L&#39;exemple suivant invoque la méthode statique PostEvent du schéma xtk:workflow :
+L&#39;exemple suivant invoque la méthode statique PostEvent du schéma xtk:workflow :
 
 ```
 xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false) 
@@ -33,7 +33,7 @@ xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false)
 
 Pour utiliser les méthodes SOAPs non statiques, il faut d&#39;abord récupérer une entité en utilisant les méthodes &quot;get&quot; ou &quot;create&quot; sur les schémas correspondants.
 
-L&#39;exemple suivant invoque la méthode ExecuteQuery du schéma &quot;xtk:queryDef&quot; :
+L&#39;exemple suivant invoque la méthode ExecuteQuery du schéma &quot;xtk:queryDef&quot; :
 
 ```
 var query = xtk.queryDef.create(
@@ -52,7 +52,7 @@ for each (var w in res.workflow)
 
 ## Exemples     {#examples}
 
-* Requête sur la table des destinataires avec une opération &quot;get&quot; :
+* Requête sur la table des destinataires avec une opération &quot;get&quot; :
 
    ```
    var query = xtk.queryDef.create(  
@@ -73,7 +73,7 @@ for each (var w in res.workflow)
    logInfo(recipient.@lastName)
    ```
 
-* Requête sur la table des destinataires avec une opération &quot;select&quot; :
+* Requête sur la table des destinataires avec une opération &quot;select&quot; :
 
    ```
    var query = xtk.queryDef.create(  
@@ -98,7 +98,7 @@ for each (var w in res.workflow)
    }
    ```
 
-* Ecriture de données sur la table des destinataires :
+* Ecriture de données sur la table des destinataires :
 
    ```
    xtk.session.Write(<recipient _operation="insert" lastName="Martinez" firstName="Peter" xtkschema="nms:recipient"/>);
