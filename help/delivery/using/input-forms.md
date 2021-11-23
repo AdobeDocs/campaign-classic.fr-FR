@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 100%
+source-wordcount: '828'
+ht-degree: 99%
 
 ---
 
@@ -25,9 +25,9 @@ Les formulaires sont présentés dans [cette section](../../configuration/using/
 
 Le document XML d’un formulaire de saisie doit contenir l’élément racine **`<form>`** avec les attributs **name** et **namespace** pour renseigner le nom du formulaire et son espace de noms, respectivement.
 
-```
+```xml
 <form name="form_name" namespace="name_space">
-...
+…
 </form>
 ```
 
@@ -39,7 +39,7 @@ Pour illustrer la structure d&#39;un formulaire de saisie, nous allons décrire 
 
 Le formulaire de saisie correspondant :
 
-```
+```xml
 <form name="book" namespace="cus" type="contentForm">
   <input xpath="@name"/>
   <input xpath="@date"/>
@@ -89,7 +89,7 @@ Ce contrôle affiche une liste à colonnes éditable avec une barre d&#39;outils
 
 ![](assets/d_ncs_content_form4.png)
 
-```
+```xml
 <input xpath="chapter" type="list">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -108,7 +108,7 @@ Par défaut, les boutons de la barre d&#39;outils sont alignés verticalement. I
 
 ![](assets/d_ncs_content_form5.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of chapters" type="list" xpath="chapter">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -133,7 +133,7 @@ Les formes d&#39;édition dans les listes sont utilisées dans les cas suivants�
 
 ![](assets/d_ncs_content_form7.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of chapters" type="list" xpath="chapter" zoom="true" zoomOnAdd="true">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -160,7 +160,7 @@ Cette liste présente l&#39;édition des éléments de collection sous la forme 
 
 ![](assets/d_ncs_content_form6.png)
 
-```
+```xml
 <container toolbarCaption="List of chapters" type="notebooklist" xpath="chapter" xpath-label="@name">
   <container colcount="2">
     <input xpath="@name"/>
@@ -197,3 +197,5 @@ La zone d&#39;édition permet de renseigner le contenu XML du formulaire de sais
 L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le formulaire de saisie :
 
 ![](assets/d_ncs_content_form13.png)
+
+En savoir plus sur [modification de formulaires](../../configuration/using/editing-forms.md) et [structure de formulaire](../../configuration/using/form-structure.md).

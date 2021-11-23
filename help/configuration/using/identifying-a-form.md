@@ -1,21 +1,21 @@
 ---
 product: campaign
-title: Identification d'un formulaire
-description: Identification d'un formulaire
+title: Identification d’un formulaire
+description: Identification d’un formulaire
 audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
-# Identification d&#39;un formulaire{#identifying-a-form}
+# Identification d’un formulaire{#identifying-a-form}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Un formulaire de saisie permet l&#39;édition d&#39;une instance associée à un schéma de données à partir de la console cliente Adobe Campaign.
 
