@@ -51,7 +51,7 @@ Vous devez renseigner des paramètres pour identifier la diffusion. Pour cela :
 
 Le contenu de la diffusion est prêt à être configuré. La définition du contenu de diffusion est spécifique à chaque canal. Voir à ce sujet la section dédiée :
 
-* [Définition du contenu de l’email](defining-the-email-content.md)
-* [Définition du contenu du SMS](sms-create.md#defining-the-sms-content)
-* [Définissez le contenu du courrier](defining-the-direct-mail-content.md)
+* [Définition du contenu d’e-mail](defining-the-email-content.md)
+* [Définition du contenu des SMS](sms-create.md#defining-the-sms-content)
+* [Définition du contenu du publipostage direct](defining-the-direct-mail-content.md)
 * [Notifications push](about-mobile-app-channel.md)

@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Utilisation des triggers Campaign et Experience Cloud{#about-adobe-experience-triggers}
+# Utilisation des triggers Campaign et Experience Cloud{#about-adobe-experience-triggers}
 
 ![](../../assets/common.svg)
 

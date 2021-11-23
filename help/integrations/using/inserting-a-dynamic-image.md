@@ -9,19 +9,19 @@ exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: b6e24c63ece12f25b7dafe3fede9e38b3aab2427
 workflow-type: tm+mt
 source-wordcount: '881'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Insérer du contenu dynamique Target {#inserting-a-dynamic-image}
+# Insertion de contenu dynamique Target {#inserting-a-dynamic-image}
 
 ![](../../assets/common.svg)
 
-Dans cette page, découvrez comment intégrer une offre dynamique d’Adobe Target dans un email d’Adobe Campaign.
+Cette page vous explique comment intégrer une offre dynamique provenant d’Adobe Target dans un e-mail créé dans Adobe Campaign.
 
-L&#39;objectif est de créer une diffusion avec un bloc d&#39;image qui change dynamiquement en fonction du pays du destinataire : les données sont envoyées avec chaque requête de mbox et dépendent de l’adresse IP du destinataire.
+L’objectif est de créer une diffusion avec un bloc d’images qui change de façon dynamique en fonction du pays du destinataire : les données sont envoyées avec chaque requête mbox et dépendent de l’adresse IP du destinataire.
 
-Dans ce message, les images peuvent varier dynamiquement en fonction des expériences utilisateur suivantes :
+Dans ce message, les images peuvent varier de façon dynamique en fonction des expériences utilisateur suivantes :
 
 * L&#39;e-mail est ouvert en France.
 * L&#39;e-mail est ouvert aux États-Unis.
@@ -29,15 +29,15 @@ Dans ce message, les images peuvent varier dynamiquement en fonction des expéri
 
 ![](assets/target_4.png)
 
-Pour ce faire, les étapes sont les suivantes :
+Pour cela, les étapes sont les suivantes :
 
 1. [Insertion de l&#39;offre dynamique dans un e-mail](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
 1. [Création d&#39;offres de redirection](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
 1. [Création d&#39;audiences](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
 1. [Création d&#39;une activité de ciblage d&#39;expérience](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
-1. [Prévisualiser et envoyer l&#39;email](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
+1. [Prévisualisation et envoi de l’e-mail](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
-## Insertion de l&#39;offre dynamique dans un e-mail {#inserting-dynamic-offer}
+## Insertion de l’offre dynamique dans un e-mail {#inserting-dynamic-offer}
 
 Dans Adobe Campaign, une fois que vous avez défini la cible et le contenu de votre email, vous pouvez insérer une image dynamique provenant de Target.
 
@@ -53,7 +53,7 @@ Dans Adobe Campaign, vous pouvez insérer une image dynamique de Target dans un
 
    ![](assets/target_12.png)
 
-### Définition des paramètres d’image {#defining-image-parameters}
+### Définition des paramètres de l’image {#defining-image-parameters}
 
 * L’**[!UICONTROL URL de l’image par défaut]** : il s’agit de l’image affichée si aucune des conditions n’est remplie. Vous pouvez également sélectionner une image dans votre bibliothèque Assets.
 * L’**[!UICONTROL Emplacement Target]** : saisissez le nom de l’emplacement de votre offre dynamique. Vous devrez sélectionner cet emplacement dans votre activité Target.
@@ -150,7 +150,7 @@ La section **[!UICONTROL Paramètres de création de rapports]** permet de séle
 
 ![](assets/target_experience_2.png)
 
-## Prévisualiser et envoyer l&#39;email {#preview-send-email}
+## Prévisualisation et envoi de l’e-mail {#preview-send-email}
 
 Dans Adobe Campaign, vous pouvez désormais prévisualiser votre e-mail et en tester le rendu pour différents destinataires. Vous pouvez constater que l&#39;image change selon les différentes expériences créées. Pour en savoir plus sur la création d’un email, consultez cette [page](../../delivery/using/defining-the-email-content.md).
 

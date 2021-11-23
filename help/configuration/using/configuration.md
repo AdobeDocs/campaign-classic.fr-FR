@@ -9,7 +9,7 @@ exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ L&#39;affichage des commandes respecte l&#39;ordre de déclaration dans le docum
 
 Un séparateur de commande permet d&#39;afficher une barre de séparation entre les commandes, il est identifié par la valeur **&#39;-&#39;** contenue dans le libellé de la commande.
 
-La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur l’API SOAP, consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
+La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur l’API SOAP, consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr).
 
 Le contexte du formulaire peut être mis à jour lors de l’initialisation à partir de la balise **`<enter>`**. Pour plus d’informations sur cette balise, consultez la documentation sur les formulaires de saisie.
 

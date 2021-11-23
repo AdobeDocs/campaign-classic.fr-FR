@@ -9,7 +9,7 @@ exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 source-git-commit: 6c23dadb5b6523e17e242de43a908ca86ed7cc23
 workflow-type: tm+mt
 source-wordcount: '1223'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Les packages standard contiennent un ensemble de fonctionnalités qui peuvent ê
 >
 >Une fois un package installé, vous ne pouvez pas le désinstaller.
 >
->En tant que client hébergé ou hybride, contactez Adobe pour déployer un nouveau package intégré.
+>Si vous êtes client hébergé ou hybride, contactez Adobe pour déployer un nouveau package intégré.
 
-Pour installer un package natif :
+Pour installer un package intégré :
 
 1. Accédez à l’assistant d’import de package depuis le menu **[!UICONTROL Outils > Avancé > Import package]** de la console cliente Adobe Campaign.
 1. Sélectionnez **[!UICONTROL Installer un package standard]**.

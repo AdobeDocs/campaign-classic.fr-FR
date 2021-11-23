@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Utilisation d’Adobe Campaign et d’Adobe Target
+title: Utilisation d’Adobe Campaign et Adobe Target
 description: Découvrez comment intégrer Adobe Campaign à Adobe Target
 audience: integrations
 content-type: reference
@@ -9,19 +9,19 @@ exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
 source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
-# Utilisation de Campaign et  Target{#integrating-with-adobe-target}
+# Utilisation de Campaign et Target{#integrating-with-adobe-target}
 
 ![](../../assets/common.svg)
 
-Utilisez Adobe Campaign avec Adobe Target pour optimiser le contenu des emails.
+Utilisez Adobe Campaign avec Adobe Target pour optimiser le contenu des e-mails.
 
-Pour optimiser le contenu de vos emails, vous pouvez créer une offre de redirection dans Adobe Target, puis utiliser Adobe Campaign pour gérer les offres par email. Par exemple, vous pouvez afficher différentes offres pour les destinataires masculins et féminins.
+Pour optimiser le contenu de vos e-mails, vous pouvez créer une offre de redirection dans Adobe Target, puis utiliser Adobe Campaign pour gérer les offres par e-mail. Par exemple, vous pouvez afficher différentes offres pour les destinataires masculins et féminins.
 
-L’intégration a lieu à l’ouverture de l’email. Lorsque le client ouvre l’e-mail, un appel est lancé vers Target et une version dynamique du contenu s’affiche. Le contenu se compose d’une image statique prise en charge par tous les navigateurs. Target effectue le suivi de la réaction à l’offre au niveau de l’audience ou de la session et ces données sont disponibles dans les rapports Target. [En savoir plus dans la documentation Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=fr).
+L’intégration a lieu à l’ouverture de l’e-mail. Lorsque le client ouvre l’e-mail, un appel est effectué vers Target. Une version dynamique du contenu s’affiche alors. Le contenu se compose d’une image statique prise en charge par tous les navigateurs. Target effectue le suivi de la réaction à l’offre au niveau de l’audience ou de la session. Ces données sont disponibles dans les rapports Target. [En savoir plus dans la documentation relative à Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=fr).
 
 
 >[!NOTE]

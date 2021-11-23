@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Utilisation de Campaign et  Experience Manager{#about-adobe-experience-manager}
+# Utilisation de Campaign et Experience Manager{#about-adobe-experience-manager}
 
 ![](../../assets/common.svg)
 

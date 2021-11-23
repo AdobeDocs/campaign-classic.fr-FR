@@ -166,8 +166,8 @@ ht-degree: 99%
    + Envoi d’un courrier {#sending-direct-mail}
       + [À propos du canal Courrier](delivery/using/about-direct-mail-channel.md)
       + [Création d’une diffusion courrier](delivery/using/creating-a-direct-mail-delivery.md)
-      + [Définissez le contenu du courrier](delivery/using/defining-the-direct-mail-content.md)
-      + [Valider](delivery/using/validating.md)
+      + [Définition du contenu du publipostage direct](delivery/using/defining-the-direct-mail-content.md)
+      + [Validation](delivery/using/validating.md)
    + Utilisation de modèles de diffusion {#using-delivery-templates}
       + [À propos des modèles](delivery/using/about-templates.md)
       + [Création d’un modèle de diffusion](delivery/using/creating-a-delivery-template.md)
@@ -373,11 +373,11 @@ ht-degree: 99%
       + [Configuration de l’accès à [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
       + [Insertion d’une ressource partagée](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [Utilisation de [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
+      + [Utilisation d’ [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuration de l’intégration](integrations/using/configuring-the-integration.md)
       + [Création d’une [!DNL Experience Manager] newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [Utilisation de [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+      + [Utilisation d’ [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuration de l’intégration avec [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [Insertion d’une image dynamique](integrations/using/inserting-a-dynamic-image.md)
    + ACS Connector {#acs-connector}
@@ -387,7 +387,7 @@ ht-degree: 99%
       + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
       + [Résolution des problèmes du [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
    + Triggers Adobe Experience Cloud {#experience-triggers}
-      + [Utilisation de [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [Utilisation de  [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
       + [Configuration d’Adobe I/O pour [!DNL Experience Cloud Triggers]](integrations/using/configuring-adobe-io.md)
       + [Configuration d’événements pour une implémentation personnalisée](integrations/using/events.md)

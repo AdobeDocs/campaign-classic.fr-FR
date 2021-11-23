@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Définissez le contenu du courrier
-description: Définissez le contenu du courrier
+title: Définition du contenu du publipostage direct
+description: Définition du contenu du publipostage direct
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Définissez le contenu du courrier{#defining-the-direct-mail-content}
+# Définition du contenu du publipostage direct{#defining-the-direct-mail-content}
 
 ![](../../assets/common.svg)
 

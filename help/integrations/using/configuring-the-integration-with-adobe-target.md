@@ -9,32 +9,32 @@ exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
 source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
-# Configuration de l’intégration avec Adobe Target{#configuring-the-integration-with-adobe-target}
+# Configuration de l’intégration à Adobe Target{#configuring-the-integration-with-adobe-target}
 
 ![](../../assets/v7-only.svg)
 
 
 >[!CAUTION]
 >
-> En tant que client hébergé ou hybride, contactez votre représentant d’Adobe pour configurer cette intégration. Les étapes ci-dessous s’appliquent uniquement aux clients on-premise.
+> Si vous êtes client hébergé ou hybride, contactez votre représentant Adobe pour configurer cette intégration. Les étapes ci-dessous s’appliquent uniquement aux clients on-premise.
 
-Cette intégration requiert :
+Cette intégration requiert les éléments suivants :
 
 * des organisations Adobe Experience Cloud et Adobe Target
 * un &quot;rawbox&quot; Adobe Target défini afin d&#39;établir la connexion avec Adobe Campaign
 
-Pour configurer cette intégration dans Adobe Campaign, procédez comme suit :
+Pour configurer cette intégration dans Adobe Campaign, procédez comme suit :
 
-1. Installez le **[!UICONTROL Intégration à Adobe Experience Cloud]** module intégré. [En savoir plus](../../platform/using/working-with-data-packages.md#importing-packages)   
+1. Installez le package intégré **[!UICONTROL Intégration à Adobe Experience Cloud]**. [En savoir plus](../../platform/using/working-with-data-packages.md#importing-packages)
 
-   Ce package vous donne accès aux ressources partagées via Digital Asset Manager.
+   Ce package vous donne accès aux ressources partagées via le gestionnaire de ressources numériques.
 
-1. Activez la connexion via IMS (service de connexion Adobe ID) pour utiliser les images partagées via Adobe Experience Cloud dans vos emails. [En savoir plus](../../integrations/using/about-adobe-id.md)   
-1. Accédez à **[!UICONTROL Administration > Plateforme > Options]** pour configurer les options de serveur et d’organisation (Tenant) pour Adobe Target :
+1. Activez la connexion via IMS (service de connexion Adobe ID) pour utiliser des images partagées via Adobe Experience Cloud dans vos e-mails. [En savoir plus](../../integrations/using/about-adobe-id.md)
+1. Accédez à **[!UICONTROL Administration > Plateforme > Options]** pour configurer les options de serveur et d’organisation (client) pour Adobe Target :
 
    ![](assets/tar_options.png)
 

@@ -9,7 +9,7 @@ exl-id: e6638870-3141-4f12-b904-db436127c0d1
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ Cette section montre comment utiliser les services &quot;Subscribe&quot;, &quot;
 
 >[!IMPORTANT]
 >
->La [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) contient des informations supplémentaires sur les appels SOAP et l’utilisation de Javascript dans Adobe Campaign ainsi qu’une référence complète de toutes les méthodes et fonctions utilisées dans l’application.
+>La [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr) contient des informations supplémentaires sur les appels SOAP et l’utilisation de Javascript dans Adobe Campaign ainsi qu’une référence complète de toutes les méthodes et fonctions utilisées dans l’application.
 
 ## Subscribe (nms:subscription) {#subscribe--nms-subscription-}
 

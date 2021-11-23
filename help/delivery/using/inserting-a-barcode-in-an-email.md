@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Insérer un code-barres dans un email
-description: Insérer un code-barres dans un email
+title: Insertion d’un code-barres dans un e-mail
+description: Insertion d’un code-barres dans un e-mail
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Insérer un code-barres dans un email{#insert-a-barcode-in-an-email}
+# Insertion d’un code-barres dans un e-mail{#insert-a-barcode-in-an-email}
 
 ![](../../assets/common.svg)
 

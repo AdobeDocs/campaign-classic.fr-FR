@@ -9,7 +9,7 @@ exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '2557'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -251,7 +251,7 @@ L&#39;API JS **[!UICONTROL CreateRequestByName]** est définie comme suit.
 
 ### Appel de l&#39;API en externe {#invoking-api-externally}
 
-Voici un exemple d&#39;appel externe de l&#39;API (authentification via l&#39;API et détails spécifiques sur l&#39;API de protection des données). Pour en savoir plus sur l&#39;API de protection des données, consultez la [documentation de l&#39;API](https://experienceleague.adobe.com/developer/campaign-api/api/s-nms-privacyRequest.html). Vous pouvez également consulter la [documentation sur les appels Web Service](../../configuration/using/web-service-calls.md).
+Voici un exemple d&#39;appel externe de l&#39;API (authentification via l&#39;API et détails spécifiques sur l&#39;API de protection des données). Pour en savoir plus sur l&#39;API de protection des données, consultez la [documentation de l&#39;API](https://experienceleague.adobe.com/developer/campaign-api/api/s-nms-privacyRequest.html?lang=fr). Vous pouvez également consulter la [documentation sur les appels Web Service](../../configuration/using/web-service-calls.md).
 
 Tout d&#39;abord, vous devez effectuer l&#39;authentification par le biais de l&#39;API :
 
