@@ -264,7 +264,7 @@ ht-degree: 99%
       + [Règles de filtrage](campaign-opt/using/filtering-rules.md)
       + [Application de règles](campaign-opt/using/applying-rules.md)
       + [Simulation de campagnes](campaign-opt/using/campaign-simulations.md)
-+ Marketing Resource Management (Gestion des ressources marketing){#mrm}
++ Gestion des ressources marketing {#mrm}
    + [À propos de la gestion des ressources marketing](mrm/using/about-marketing-resource-management.md)
    + [Création et gestion de tâches](mrm/using/creating-and-managing-tasks.md)
    + [Coûts de contrôle](mrm/using/controlling-costs.md)
