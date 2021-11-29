@@ -3,10 +3,10 @@ product: campaign
 title: Migration vers le connecteur Adobe Analytics
 description: FAQ sur Campaign - Connecteur Analytics
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 18b31ae504e1f1d13980bdf38925b38279b3be8c
+source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 À compter de la version 21.1.3 de Campaign Classic v7, le connecteur de données Adobe Analytics est obsolète. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=fr)
 
-Le 1er août 2021, Adobe Campaign Classic a été supprimé de l’interface utilisateur des connecteurs de données héritée. Toutefois, les intégrations Campaign existantes continueront à collecter et à transmettre des données à Adobe Analytics jusqu’en août 2022. Passée cette date, l’intégration cessera de collecter et de transmettre des données à Adobe Analytics.
+Le 1er août 2021, Adobe Campaign Classic a été supprimé de l’interface utilisateur des Data Connectors héritée. Toutefois, les intégrations Campaign existantes continueront à collecter et à transmettre des données à Adobe Analytics jusqu’au 17 août 2022. Passée cette date, l’intégration cessera de collecter et de transmettre des données à Adobe Analytics.
 
 Vous **devez implémenter** la nouvelle intégration du connecteur Adobe Analytics sur Adobe Exchange. Elle remplace l’ancienne intégration des connecteurs de données. Pour en savoir plus sur le connecteur Adobe Analytics, reportez-vous à [cette page](../../platform/using/adobe-analytics-connector.md).
 
@@ -48,7 +48,7 @@ Découvrez comment vérifier votre version [dans cette section](../../platform/u
 
 ## Comment effectuer la mise à jour ?
 
-Vous devez effectuer la mise à niveau vers Campaign 21.1.3 (ou version ultérieure) **avant août 2022**.
+Vous devez effectuer la mise à niveau vers Campaign 21.1.3 (ou version ultérieure). **avant le 17 août 2022**.
 
 Parce que vous êtes un client hébergé, Adobe collaborera avec vous afin de mettre à niveau votre ou vos instance(s) vers la nouvelle version. Vous pourrez ensuite utiliser le [connecteur Adobe Analytics](../../platform/using/adobe-analytics-connector.md).
 

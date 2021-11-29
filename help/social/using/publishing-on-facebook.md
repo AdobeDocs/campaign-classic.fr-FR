@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Publier sur Facebook
-description: Publier sur Facebook
+title: Publication sur Facebook
+description: Découvrez comment publier sur Facebook
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 100%
+source-wordcount: '1243'
+ht-degree: 92%
 
 ---
 
-# Publier sur Facebook{#publishing-on-facebook}
+# Publication sur Facebook{#publishing-on-facebook}
 
 ![](../../assets/v7-only.svg)
 
@@ -26,13 +26,13 @@ Les limitations suivantes sont des contraintes inhérentes à Facebook.
 * La longueur du message ne peut pas dépasser 1000 caractères.
 * Le format HTML n&#39;est pas supporté.
 
-## Créer la diffusion {#creating-the-delivery}
+## Création de la diffusion {#creating-the-delivery}
 
 Créez une nouvelle diffusion basée sur le modèle de diffusion **[!UICONTROL Publier sur une page de marque]**.
 
 ![](assets/social_facebook_delivery_001.png)
 
-## Choisir la cible principale {#selecting-the-main-target}
+## Sélectionner la cible principale {#selecting-the-main-target}
 
 Vous devez sélectionner la ou les pages sur lesquelles vous souhaitez envoyer votre publication.
 
@@ -52,9 +52,9 @@ Vous devez sélectionner la ou les pages sur lesquelles vous souhaitez envoyer v
 
    ![](assets/social_facebook_delivery_013.png)
 
-## Choisir la cible du BAT {#selecting-the-proof-target}
+## Sélectionner la cible du BAT {#selecting-the-proof-target}
 
-L&#39;onglet **[!UICONTROL Cible des BAT]** permet de définir la page Facebook que vous souhaitez utiliser pour tester les diffusions avant de les envoyer. Nous vous recommandons de créer une page Facebook privée dédiée à cet effet. Pour plus d&#39;informations sur la création d&#39;une page Facebook privée, voir [Créer une page Facebook de test](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). Pour sélectionner la cible du BAT, appliquez les mêmes étapes que pour la cible principale : [Choisir la cible principale](#selecting-the-main-target).
+L&#39;onglet **[!UICONTROL Cible des BAT]** permet de définir la page Facebook que vous souhaitez utiliser pour tester les diffusions avant de les envoyer. Nous vous recommandons de créer une page Facebook privée dédiée à cet effet. Pour plus d’informations sur la création d’une page Facebook privée, reportez-vous à la section [cette page](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). Pour sélectionner la cible du BAT, appliquez les mêmes étapes que pour la cible principale. [En savoir plus](#selecting-the-main-target)
 
 ![](assets/social_facebook_delivery_004.png)
 
@@ -62,7 +62,7 @@ L&#39;onglet **[!UICONTROL Cible des BAT]** permet de définir la page Facebook 
 >
 >Si vous utilisez la même page de test Facebook pour toutes vos diffusions, vous pouvez enregistrer la cible du BAT dans le modèle de diffusion **[!UICONTROL Publier sur une page de marque]**, accessible à partir du noeud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]**. La cible du BAT sera alors renseignée par défaut pour chaque nouvelle diffusion.
 
-## Définir l’audience {#defining-the-audience}
+## Définition de l’audience {#defining-the-audience}
 
 Si vous souhaitez utiliser des segments locaux afin d&#39;affiner le type de public qui sera autorisé à visualiser la publication, nous vous conseillons de créer une page Facebook par segment (par exemple : Adobe Campaign Paris, Adobe Campaign London, etc.).
 
@@ -73,7 +73,7 @@ Il est cependant aussi possible d&#39;utiliser les filtres d&#39;audience utilis
 * **[!UICONTROL Villes]**
 * **[!UICONTROL Langues]**
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >Utilisez cette fonction avec précaution. Dans les rapports de diffusion, l&#39;indicateur **[!UICONTROL Nombre de fan]** ne prendra pas en compte ces filtres Facebook.
 >
@@ -110,7 +110,7 @@ Une diffusion de type statut avec un lien peut contenir du texte, une image et u
 
 Renseignez les différents champs proposés :
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >Toutes les URL doivent commencer par **&quot;http://&quot;** ou **&quot;https://&quot;**.
 
@@ -131,7 +131,7 @@ Renseignez les différents champs proposés :
 
 1. Dans le champ **[!UICONTROL Image]**, saisissez l&#39;URL de l&#39;image qui apparaîtra sur le côté gauche de la publication.
 
-   >[!IMPORTANT]
+   >[!CAUTION]
    >
    >L&#39;image doit être hébergée sur un site Internet public pour que Facebook puisse la télécharger.
 
@@ -148,7 +148,7 @@ Ce type de contenu permet de publier un lien vers une vidéo YouTube. Comme pour
 
 Renseignez les différents champs proposés :
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >Toutes les URL doivent commencer par **&quot;http://&quot;** ou **&quot;https://&quot;**.
 
@@ -160,7 +160,7 @@ Renseignez les différents champs proposés :
 
 ![](assets/social_facebook_delivery_youtube.png)
 
-### Publier un album photo {#publishing-a-photo-album}
+### Publication d’un album photo {#publishing-a-photo-album}
 
 Ce type de contenu permet de publier un album photo. Vous avez la possibilité d&#39;ajouter un nom et une description pour l&#39;album ainsi qu&#39;une légende pour chaque photo. Les correspondances entre les champs de l&#39;écran d&#39;édition de la diffusion et la publication finale sur Facebook sont présentées ci-dessous :
 
@@ -175,7 +175,7 @@ Renseignez les différents champs proposés :
 
 ![](assets/social_facebook_delivery_photos.png)
 
-## Visualiser l&#39;aperçu {#previewing}
+## Aperçu {#previewing}
 
 L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le rendu de la publication.
 
@@ -188,9 +188,9 @@ L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le rendu de la public
 
 >[!NOTE]
 >
->L&#39;aperçu peut différer légèrement de la publication finale sur Facebook. Il est vivement recommandé d&#39;envoyer un BAT avant l&#39;envoi final afin de visualiser un rendu exact de la publication. Voir à ce sujet la section [Envoyer le BAT](#sending-the-proof).
+>L&#39;aperçu peut différer légèrement de la publication finale sur Facebook. Il est vivement recommandé d&#39;envoyer un BAT avant l&#39;envoi final afin de visualiser un rendu exact de la publication. [En savoir plus](#sending-the-proof).
 
-## Configurer le tracking {#configuring-tracking}
+## Paramétrer le tracking {#configuring-tracking}
 
 Le tracking est visualisable dans les rapports de diffusion et dans l&#39;onglet **[!UICONTROL Edition > Tracking]** de la diffusion et du service.
 
@@ -204,11 +204,11 @@ La configuration du tracking s’effectue de la même manière que pour une diff
 
 ## Envoyer le BAT {#sending-the-proof}
 
-Nous vous recommandons vivement d&#39;envoyer un BAT de votre publication avant la diffusion finale pour en voir le rendu exact sur une page de test Facebook privée. Pour plus d&#39;informations sur la création d&#39;une page Facebook de test privée, voir la section [Créer une page Facebook de test](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). Les étapes de sélection de la cible du BAT sont détaillées dans la section [Choisir la cible du BAT](#selecting-the-proof-target).
+Nous vous recommandons vivement d&#39;envoyer un BAT de votre publication avant la diffusion finale pour en voir le rendu exact sur une page de test Facebook privée. Pour plus d’informations sur la création d’une page de test Facebook privée, reportez-vous à la section [cette page](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). Les étapes de sélection du BAT cible sont présentées dans la section [cette section](#selecting-the-proof-target).
 
 L’envoi du BAT s’effectue de la même manière que pour une diffusion email. Reportez-vous à [cette section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-## Envoyer le message {#sending-the-message}
+## Envoyez le message {#sending-the-message}
 
 1. Une fois le contenu validé, cliquez sur le bouton **[!UICONTROL Envoyer]**.
 1. Choisissez **[!UICONTROL Diffuser dès que possible]** et cliquez sur le bouton **[!UICONTROL Analyser]**.
