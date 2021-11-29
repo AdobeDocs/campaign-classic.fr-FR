@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 2135a836-245f-406e-b351-c27d38e0f9fd
-source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
+source-git-commit: b5334de18eca8fc1147ae0c42fe23a6932bf71d2
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 89%

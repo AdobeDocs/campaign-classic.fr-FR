@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
-source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
+source-git-commit: b5334de18eca8fc1147ae0c42fe23a6932bf71d2
 workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 92%
@@ -92,7 +92,7 @@ Les types de diffusion suivants sont proposés :
 * un **[!UICONTROL Statut avec un lien YouTube]**
 * un **[!UICONTROL Album photo]**
 
-### Publier un statut {#publishing-a-status}
+### Publier un état {#publishing-a-status}
 
 Une diffusion de type statut contient uniquement du texte, comme dans l&#39;exemple ci-dessous :
 
