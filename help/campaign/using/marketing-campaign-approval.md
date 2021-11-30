@@ -19,7 +19,7 @@ ht-degree: 99%
 
 Chaque étape d’une diffusion peut faire l’objet d’une validation afin d’assurer une surveillance et un contrôle complet des différents processus de la campagne : ciblage, contenu, budget, extraction ou envoi d’un BAT.
 
-Des messages de notification sont envoyés aux opérateurs Adobe Campaign désignés comme validants afin de les avertir d’une demande de validation. Vérifiez que les validants disposent des **permissions appropriées** pour la validation et que leur zone de sécurité est correctement définie. [En savoir plus](#selecting-reviewers).
+Des messages de notification sont envoyés aux opérateurs Adobe Campaign désignés comme validants afin de les avertir d’une demande de validation. Vérifiez que les validants disposent des **autorisations appropriées** pour la validation et que leur zone de sécurité est correctement définie. [En savoir plus](#selecting-reviewers).
 
 La procédure de validation est présentée dans [cette section](#checking-and-approving-deliveries).
 

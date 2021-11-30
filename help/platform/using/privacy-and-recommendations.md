@@ -23,7 +23,7 @@ Adobe Campaign est un puissant outil servant à collecter et à traiter de trè
 
 * Utilisez toujours les informations personnelles de manière responsable et éthique.
 
-* Évitez d&#39;envoyer des emails, des notifications push et des messages SMS non sollicités (« spam »). Adobe est fermement attachée aux principes du consentement (permission marketing) pour fidéliser le client et offrir une valeur ajoutée tout au long de sa durée de vie. L’utilisation d’Adobe Campaign pour l’envoi de messages non sollicités est donc strictement interdite.
+* Évitez d&#39;envoyer des emails, des notifications push et des messages SMS non sollicités (« spam »). Adobe est fermement attachée aux principes du consentement (autorisation marketing) pour fidéliser le client et offrir une valeur ajoutée tout au long de sa durée de vie. L’utilisation d’Adobe Campaign pour l’envoi de messages non sollicités est donc strictement interdite.
 
 Prenez le temps de consulter la [liste de contrôle de sécurité et de confidentialité](../../installation/using/get-started-security-privacy.md) afin de connaître les principaux éléments à vérifier en termes de sécurité et de confidentialité.
 

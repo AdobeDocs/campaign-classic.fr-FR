@@ -29,7 +29,7 @@ Depuis la section centrale de la page d&#39;accueil, vous pouvez utiliser les li
 
 >[!NOTE]
 >
->Les fonctions Adobe Campaign disponibles sur votre instance dépendent des modules et composants additionnels installés. Selon vos permissions et configurations spécifiques, certaines d&#39;entre elles peuvent ne pas être disponibles.
+>Les fonctions Adobe Campaign disponibles sur votre instance dépendent des modules et composants additionnels installés. Selon vos autorisations et configurations spécifiques, certaines d&#39;entre elles peuvent ne pas être disponibles.
 >
 >Avant d’installer un module ou un composant additionnel, vous devez vérifier votre contrat de licence ou contacter votre chargé de compte Adobe.
 

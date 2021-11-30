@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 100%
@@ -73,7 +73,7 @@ Dans la fenêtre **[!UICONTROL Accès au serveur]**, définissez les paramètres
 
 ![](assets/s_ncs_install_db_oracle_creation02.png)
 
-Pour cela, saisissez le nom et le mot de passe d&#39;un **compte système d&#39;administration** qui possède les permissions nécessaires pour créer des bases, soit :
+Pour cela, saisissez le nom et le mot de passe d&#39;un **compte système d&#39;administration** qui possède les autorisations nécessaires pour créer des bases, soit :
 
 * **system** pour une base Oracle,
 * **sa** pour une base Microsoft SQL Server,

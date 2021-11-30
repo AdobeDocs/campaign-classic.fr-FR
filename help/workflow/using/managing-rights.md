@@ -23,7 +23,7 @@ D&#39;une manière générale, les opérateurs qui agissent sur les workflows do
 
 Ils doivent également être associés aux droits nommés correspondants aux actions réalisées par les workflows sur lesquels ils sont amenés à intervenir (import de destinataires, accès aux fichiers, fusion, exécution de scripts SQL, etc.).
 
-La gestion des opérateurs et des permissions associées sont présentées dans cette [section](../../platform/using/access-management.md).
+La gestion des opérateurs et des autorisations associées sont présentées dans cette [section](../../platform/using/access-management.md).
 
 ## Les groupes d&#39;opérateurs {#operator-groups-wf}
 

@@ -257,6 +257,7 @@ Ils sont regroupés dans **Supervision** > &#39;Monitoring SMTP&#39;.
 >
 >* Les informations liées au Monitoring SMTP ne sont disponibles que si le canal email a été activé.
 >* Le rapport **[!UICONTROL Statistiques SMTP d&#39;envoi]** n&#39;est proposé que si le serveur de statistiques est démarré sur l&#39;instance.
+
 >
 
 
@@ -269,7 +270,7 @@ Le rapport **[!UICONTROL Statistiques SMTP d&#39;envoi]** permet de contrôler l
 La liste des indicateurs de ce rapport est proposée sous le graphique.
 
 1. Nombre total de messages envoyés.
-1. &#x200B;
+1. 
    * Ligne bleue : messages prêts à l&#39;envoi arrivant dans le Shaper, i.e. dernière étape avant l&#39;envoi SMTP (correspond à ce qui entre).
 
    * Ligne verte : messages envoyés avec succès (correspond à ce qui sort).

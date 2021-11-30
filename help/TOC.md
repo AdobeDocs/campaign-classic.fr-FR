@@ -6,9 +6,9 @@ title: Guide de Campaign Classic v7
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
+source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2571'
 ht-degree: 99%
 
 ---
@@ -596,7 +596,7 @@ ht-degree: 99%
       + [Créez une application Facebook](social/using/creating-a-facebook-application.md)
       + [Configuration de la publication sur Twitter](social/using/configuring-publishing-on-twitter.md)
    + Publication sur les médias sociaux {#publishing-on-facebook-twitter}
-      + [Prise en main des médias sociaux](social/using/overview.md)
+      + [Vue d&#39;ensemble](social/using/overview.md)
       + [Publication sur Facebook](social/using/publishing-on-facebook.md)
       + [Publication sur Twitter](social/using/publishing-on-twitter.md)
    + Annexes {#annexes}

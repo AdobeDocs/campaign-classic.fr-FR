@@ -6,14 +6,14 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: e030c029-d1ee-4749-94e3-6bdfc8d89a34
-source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 89%
+source-wordcount: '1026'
+ht-degree: 100%
 
 ---
 
-# Publication sur Twitter{#publishing-on-twitter}
+# Publier sur Twitter{#publishing-on-twitter}
 
 ![](../../assets/v7-only.svg)
 
@@ -28,13 +28,13 @@ Les limitations suivantes sont des contraintes inhérentes à Twitter.
 * La longueur du message ne peut pas dépasser 140 caractères.
 * Le format HTML n&#39;est pas supporté.
 
-### Création de la diffusion {#creating-the-delivery}
+### Créer la diffusion {#creating-the-delivery}
 
 Créez une nouvelle diffusion basée sur le modèle de diffusion **[!UICONTROL Tweeter (twitter)]**.
 
 ![](assets/social_twitter_delivery_001.png)
 
-### Sélectionner la cible principale {#selecting-the-main-target}
+### Choisir la cible principale {#selecting-the-main-target}
 
 Vous devez sélectionner le ou les comptes sur lesquels vous souhaitez envoyer votre tweet.
 
@@ -54,9 +54,9 @@ Vous devez sélectionner le ou les comptes sur lesquels vous souhaitez envoyer v
 
    ![](assets/social_twitter_delivery_011.png)
 
-### Sélectionner la cible du BAT {#selecting-the-target-of-the-proof}
+### Choisir la cible du BAT {#selecting-the-target-of-the-proof}
 
-L&#39;onglet **[!UICONTROL Cible des BAT]** permet de définir le compte Twitter utilisé pour les diffusions de test avant la diffusion finale. Nous vous recommandons donc de créer un compte Twitter privé dédié à l&#39;envoi de BAT. Pour plus d’informations sur la création d’un compte Twitter privé, reportez-vous à la section [cette section](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Les étapes de choix de la cible du BAT sont identiques à celles du choix de la cible principale. Consultez [cette section](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter).
+L&#39;onglet **[!UICONTROL Cible des BAT]** permet de définir le compte Twitter utilisé pour les diffusions de test avant la diffusion finale. Nous vous recommandons donc de créer un compte Twitter privé dédié à l&#39;envoi de BAT. Pour plus d&#39;informations sur la création d&#39;un compte Twitter privé, voir [Créer un compte Twitter de test](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Les étapes de choix de la cible du BAT sont identiques à celles du choix de la cible principale. Voir à ce sujet la section [Créer un compte Twitter de test](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter).
 
 ![](assets/social_twitter_delivery_004.png)
 
@@ -64,13 +64,13 @@ L&#39;onglet **[!UICONTROL Cible des BAT]** permet de définir le compte Twitter
 >
 >Si vous utilisez le même compte Twitter de test pour toutes vos diffusions, vous pouvez enregistrer la cible du BAT dans le modèle de diffusion **[!UICONTROL Tweeter]**, accessible à partir du noeud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]**. La cible du BAT sera alors renseignée par défaut pour chaque nouvelle diffusion.
 
-### Définition du contenu du message {#defining-the-message-content}
+### Définir le contenu du message {#defining-the-message-content}
 
 Saisissez le contenu du tweet dans l&#39;onglet **[!UICONTROL Contenu]**.
 
 ![](assets/social_twitter_delivery_005.png)
 
-### Prévisualiser le message {#viewing-the-preview}
+### Visualiser l&#39;aperçu {#viewing-the-preview}
 
 L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le rendu du tweet.
 
@@ -83,9 +83,9 @@ L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le rendu du tweet.
 
 >[!NOTE]
 >
->L&#39;aperçu peut différer légèrement du tweet final sur Twitter. Il est vivement recommandé d&#39;envoyer un BAT avant l&#39;envoi final afin de visualiser un rendu exact du tweet. Consultez [cette section](#sending-the-proof).
+>L&#39;aperçu peut différer légèrement du tweet final sur Twitter. Il est vivement recommandé d&#39;envoyer un BAT avant l&#39;envoi final afin de visualiser un rendu exact du tweet. Voir à ce sujet la section [Envoyer le BAT](#sending-the-proof).
 
-### Paramétrer le tracking {#configuring-tracking}
+### Configurer le tracking {#configuring-tracking}
 
 Le tracking est visualisable dans les rapports de diffusion et dans l&#39;onglet **[!UICONTROL Edition > Tracking]** de la diffusion et du service.
 
@@ -95,17 +95,17 @@ La configuration du tracking s’effectue de la même manière que pour une diff
 >
 >Dans le modèle de diffusion **[!UICONTROL Tweeter]**, le tracking est activé par défaut.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Il n&#39;est pas possible de distinguer l&#39;activité des robots qui analysent les tweets des utilisateurs qui cliquent réellement.
 
 ### Envoyer le BAT {#sending-the-proof}
 
-Nous vous recommandons vivement d&#39;envoyer un BAT de votre publication avant la diffusion finale pour en voir le rendu exact sur une page Twitter de test privée. Pour plus d&#39;informations sur la création d&#39;un compte Twitter privé, reportez-vous à la section [cette section](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Les étapes de sélection de la cible du BAT sont présentées dans la section [cette section](#selecting-the-target-of-the-proof).
+Nous vous recommandons vivement d&#39;envoyer un BAT de votre publication avant la diffusion finale pour en voir le rendu exact sur une page Twitter de test privée. Pour plus d&#39;informations sur la création d&#39;un compte Twitter privé, voir la section [Créer un compte Twitter de test](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Les étapes de choix de la cible du BAT sont détaillées dans la section [Choisir la cible du BAT](#selecting-the-target-of-the-proof).
 
 L’envoi du BAT s’effectue de la même manière que pour une diffusion email. Reportez-vous à [cette section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-### Envoyez le message {#sending-the-message}
+### Envoyer le message {#sending-the-message}
 
 1. Une fois le contenu validé, cliquez sur le bouton **[!UICONTROL Envoyer]**.
 1. Choisissez **[!UICONTROL Diffuser dès que possible]** et cliquez sur le bouton **[!UICONTROL Analyser]**.
@@ -121,11 +121,11 @@ L’envoi du BAT s’effectue de la même manière que pour une diffusion email.
 
 ![](assets/social_facebook_delivery_016.png)
 
-## Envoyer des messages directs aux abonnés {#sending-direct-messages-to-subscribers}
+## Envoyer des messages directs à vos abonnés {#sending-direct-messages-to-subscribers}
 
 ### Principe de fonctionnement {#operating-principle}
 
-Le **[!UICONTROL Synchronisation des comptes Twitter]** workflow (voir [En savoir plus](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)) récupère la liste des abonnés de Twitter afin que vous puissiez leur envoyer des messages directs. Les abonnés récupérés sont stockés dans un tableau spécifique : la table des visiteurs. Pour afficher la liste des abonnés Twitter, accédez au nœud **[!UICONTROL Profils et cibles > Visiteurs]**.
+Le workflow **[!UICONTROL Synchroniser les comptes Twitter]** (voir la section [Synchroniser les comptes Twitter](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)) récupère la liste des abonnés Twitter pour vous permettre de leur envoyer des messages directs. Les abonnés récupérés sont stockés dans un tableau spécifique : la table des visiteurs. Pour afficher la liste des abonnés Twitter, accédez au nœud **[!UICONTROL Profils et cibles > Visiteurs]**.
 
 ![](assets/social_twitter_visitors_001.png)
 
@@ -152,13 +152,13 @@ Les limitations suivantes sont des contraintes inhérentes à Twitter.
 * Le format HTML n&#39;est pas supporté.
 * Vous ne pouvez pas envoyer plus de 250 messages directs par jour. Afin de ne pas dépasser cette limite, il est possible d’effectuer un envoi en plusieurs vagues. L’envoi en plusieurs vagues s’effectue de la même manière que pour une diffusion email. Voir à ce sujet [cette section](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 
-### Création de la diffusion {#creating-the-delivery-}
+### Créer la diffusion {#creating-the-delivery-}
 
 Créez une nouvelle diffusion basée sur le modèle de diffusion **[!UICONTROL Tweeter (Direct Message)]**.
 
 ![](assets/social_twitter_delivery_010.png)
 
-### Sélectionner la cible principale {#selecting-the-main-target-1}
+### Choisir la cible principale {#selecting-the-main-target-1}
 
 Vous devez sélectionner les abonnés à qui vous souhaitez envoyer votre message direct.
 
@@ -184,7 +184,7 @@ Vous devez sélectionner les abonnés à qui vous souhaitez envoyer votre messag
 
       ![](assets/social_twitter_delivery_018.png)
 
-### Sélectionner la cible du BAT {#selecting-the-target-of-the-proof-1}
+### Choisir la cible du BAT {#selecting-the-target-of-the-proof-1}
 
 L&#39;onglet **[!UICONTROL Cible des BAT]** permet de définir l&#39;abonné qui recevra le BAT de votre message direct. Les étapes de sélection de la cible du BAT sont les mêmes que pour la sélection de la cible principale. Pour plus d&#39;informations, consultez la section [Choisir la cible principale](#selecting-the-main-target).
 

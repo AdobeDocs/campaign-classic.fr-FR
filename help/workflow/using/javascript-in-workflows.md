@@ -5,7 +5,8 @@ description: Ces exemples montrent comment utiliser du code JavaScript dans un w
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-source-git-commit: fa3a3e1801738928876734aa42342f0a5b49e320
+exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
+source-git-commit: c86559d5ab40b206d701c46bb01d3ba61c835e8b
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 4%

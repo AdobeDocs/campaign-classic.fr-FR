@@ -74,7 +74,7 @@ Vous devez ensuite définir les paramètres de cette connexion. Pour cela :
 
 ## Opérateurs et autorisations {#operators-and-permissions}
 
-Les identifiants et mots de passe des opérateurs ayant accès au logiciel, ainsi que leurs permissions respectives, sont définis par l&#39;administrateur du système Adobe Campaign dans le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l&#39;arborescence d&#39;Adobe Campaign.
+Les identifiants et mots de passe des opérateurs ayant accès au logiciel, ainsi que leurs autorisations respectives, sont définis par l’administrateur du système Adobe Campaign dans le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l’arborescence d’Adobe Campaign.
 
 Cette fonctionnalité est décrite dans la section [Gestion des accès](../../platform/using/access-management.md).
 

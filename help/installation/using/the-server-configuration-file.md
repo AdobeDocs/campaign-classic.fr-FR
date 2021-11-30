@@ -3109,7 +3109,7 @@ Pour plus d&#39;informations, voir la section [Sécurité et relais des pages dy
  <tbody> 
   <tr> 
    <td> IPMask<br /> </td> 
-   <td> IP autorisées : liste (séparée par des virgules) des adresses IP sources ayant la permission d’utiliser le module de relais pour ce masque.<br /> </td> 
+   <td> IP autorisées : liste (séparée par des virgules) des adresses IP sources ayant la autorisation d’utiliser le module de relais pour ce masque.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 

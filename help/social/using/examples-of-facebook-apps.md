@@ -64,7 +64,7 @@ Pour créer cette application, suivez les étapes ci-dessous :
 
    ![](assets/social_quick_start_2.png)
 
-1. Renseignez les liens **[!UICONTROL Conditions d’utilisation]** et **[!UICONTROL Politique de confidentialité]** qui apparaîtront sur l’écran de demande de permission Facebook. Voir à ce sujet la section : [Renseigner les liens Conditions d&#39;utilisation et Politique de confidentialité](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links).
+1. Renseignez les liens **[!UICONTROL Conditions d’utilisation]** et **[!UICONTROL Politique de confidentialité]** qui apparaîtront sur l’écran de demande d&#39;autorisation Facebook. Voir à ce sujet la section : [Renseigner les liens Conditions d&#39;utilisation et Politique de confidentialité](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links).
 
    ![](assets/social_quick_start_1.png)
 
@@ -173,7 +173,7 @@ Pour contourner l&#39;erreur d&#39;affichage liée à Facebook, vous devez égal
 
 ### Activité Contrôle d&#39;accès {#access-control-activity}
 
-L’activité **[!UICONTROL Contrôle d’accès]** permet d&#39;afficher l&#39;écran de demande de permission Facebook lorsque l&#39;utilisateur choisit de participer au jeu. S&#39;il décide de partager ses informations, celles-ci seront récupérées lors du pré-chargement. Voir à ce sujet la section : [Activité Pré-chargement](#pre-loading-activity).
+L’activité **[!UICONTROL Contrôle d’accès]** permet d&#39;afficher l&#39;écran de demande d&#39;autorisation Facebook lorsque l&#39;utilisateur choisit de participer au jeu. S&#39;il décide de partager ses informations, celles-ci seront récupérées lors du pré-chargement. Voir à ce sujet la section : [Activité Pré-chargement](#pre-loading-activity).
 
 Si vous avez précédemment saisi le compte externe lors de la création de l’application web (voir [Créer une application web de type Facebook](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application)), vous n’avez pas besoin de modifier l’activité. Dans le cas contraire, accédez au champ **[!UICONTROL Application]** et sélectionnez le compte externe lié à l’application Facebook.
 
@@ -220,7 +220,7 @@ Avant de cliquer sur **[!UICONTROL Ok]**, vous devez cocher la case : **[!UICON
 
 >[!NOTE]
 >
->Si vous cochez une ou plusieurs cases de la section **[!UICONTROL Informations privées]**, l&#39;écran de demande de permissions Facebook affichera automatiquement la demande d&#39;accès à ces données.
+>Si vous cochez une ou plusieurs cases de la section **[!UICONTROL Informations privées]**, l&#39;écran de demande d&#39;autorisations Facebook affichera automatiquement la demande d&#39;accès à ces données.
 >
 >Pour récupérer les informations sélectionnées, l&#39;utilisateur doit avoir accepté de les partager.
 >

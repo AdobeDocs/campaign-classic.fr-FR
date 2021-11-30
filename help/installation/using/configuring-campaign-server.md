@@ -184,7 +184,7 @@ Les paramètres sont les suivants :
 <url IPMask=""               deny="true" hostMask="" relayHost="false" relayPath="false" targetUrl="http://localhost:8080" timeout="" urlPath="*.jssp"/>
 ```
 
-Dans cet exemple, la valeur **`<IP_addresses>`** correspond à la liste des adresses IP (séparées par des virgules) ayant la permission d&#39;utiliser le module de relais pour ce masque.
+Dans cet exemple, la valeur **`<IP_addresses>`** correspond à la liste des adresses IP (séparées par des virgules) ayant la autorisation d&#39;utiliser le module de relais pour ce masque.
 
 >[!NOTE]
 >
