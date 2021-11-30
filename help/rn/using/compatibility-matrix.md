@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 235e8abcaed2659d745ebfeca24dc2f0278a6e5a
+source-git-commit: f7c4603e389b19c057ee72bb50ed30d03b60f4bc
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 96%
 
 ---
 
@@ -40,8 +40,9 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr> 
 <td>CentOs</td>
 <td>
-<p>8.x (64 bits)</p>
+<p>8.x (64 bits) </br><strong>Important :</strong> CentOS Linux 8 atteindra la fin de vie (EOL) le 31 décembre 2021. Pour plus d’informations, reportez-vous à la section <a href="../../rn/using/deprecated-features.md">Fonctionnalités obsolètes</a> page.</p>
 <p>7.x (64 bits)</p>
+<p><strong>Important :</strong> si vous utilisez RHEL, vous devez désactiver SELinux ou demander à vos architectes d'écrire des règles SELinux personnalisées pour vérifier qu'un SELinux activé ne pose pas de problème pour les opérations de Campaign.</p>
 </td>
 </tr>
 <tr>
@@ -153,7 +154,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 et SP2</p>
-<p><strong>Important :</strong> Microsoft SQL Server nʼest pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. [En savoir plus](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).</p>
+<p><strong>Important :</strong> Microsoft SQL Server nʼest pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. <a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers">En savoir plus</a>.</p>
 </td>
 </tr>
 </tbody>
