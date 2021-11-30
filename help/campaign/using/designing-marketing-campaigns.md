@@ -32,7 +32,7 @@ De plus, le module **Gestion des ressources marketing (MRM)** vous permet de con
 
 Dans le contexte de Campaign, les concepts listés ci-dessous doivent être connus :
 
-* **Campagne**
+* **Opération**
 
    Une opération centralise tous les éléments relatifs à une campagne marketing : diffusions, règles de ciblage, coûts, fichiers d&#39;exports, documents associés, etc. Chaque opération est rattachée à un programme.
 

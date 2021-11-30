@@ -86,7 +86,7 @@ Adobe Campaign vous permet d&#39;envoyer des [notifications push](about-mobile-
 
 Les canaux on-line vous permettent de créer vos messages (email, SMS, diffusion sur des applications mobiles, etc.) et de les envoyer à votre audience directement depuis Adobe Campaign. Les canaux off-line fonctionnent différemment. Lors de la préparation d&#39;une diffusion courrier, Adobe Campaign génère un fichier comprenant tous les profils ciblés et les informations de contact sélectionnées (adresse postale, par exemple). Vous pouvez ensuite envoyer ce fichier à votre opérateur de services postaux qui se chargera de l&#39;envoi.
 
-## Canaux Autre {#other-channels}
+## Autres canaux {#other-channels}
 
 Adobe Campaign offre le modèle de diffusion Téléphone qui est utilisé pour créer des diffusions externes. L&#39;utilisation de ce canal implique la configuration de méthodologies dédiées pour traiter les fichiers de sortie. Les étapes de configuration sont identiques à celles du [canal Courrier](about-direct-mail-channel.md).
 
@@ -120,7 +120,7 @@ Par exemple, si vous exécutez ce type d&#39;activité une fois par mois, vous o
 
 Les diffusions récurrentes sont créées dans des workflows par le biais de l&#39;activité [](../../workflow/using/recurring-delivery.md)Diffusion récurrente. Un exemple d&#39;utilisation de cette activité est présenté dans la section suivante : [Créer une diffusion récurrente dans un workflow de ciblage](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
-### Diffusion (au fil de l&#39;eau) {#continuous-delivery}
+### Diffusion au fil de l&#39;eau {#continuous-delivery}
 
 Une **diffusion au fil de l&#39;eau** permet d&#39;ajouter de nouveaux destinataires à une diffusion existante, ce qui évite d&#39;avoir à créer une diffusion à chaque exécution.
 

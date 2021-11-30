@@ -32,7 +32,7 @@ Découvrez comment créer votre premier questionnaire dans [cette page](getting-
 >* La gestion des applications web est présentée dans [ce document](../../web/using/about-web-applications.md). Pour plus d&#39;informations, reportez-vous à ce chapitre.
 
 
-## Portée de la fonctionnalité {#campaign-surveys-scope}
+## Périmètre de la fonctionnalité {#campaign-surveys-scope}
 
 Dans Adobe Campaign, utilisez [Applications Web](../../web/using/about-web-forms.md) pour :
 
@@ -40,8 +40,8 @@ Dans Adobe Campaign, utilisez [Applications Web](../../web/using/about-web-form
 * gérer des formulaires multilingues avec un outil de traduction intégré ;
 * gérer l&#39;interface graphique, la mise en page à plusieurs colonnes ;
 * ajouter une personnalisation et définir la position du champ ;
-* l&#39;affichage conditionnel des champs du formulaire en fonction des réponses ;
-* l&#39;affichage de la page des conditions ;
+* conditionner l&#39;affichage des champs du formulaire en fonction des réponses ;
+* conditionner l&#39;affichage de la page ;
 * vérifier les informations avant validation, en fonction du type de données attendu (nombre, adresse e-mail, date, etc.) et les champs obligatoires ;
 * envoyer des invitations/notifications par e-mail ;
 * personnaliser les pages d&#39;erreur et de fin ;
