@@ -9,7 +9,7 @@ exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '1994'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -72,11 +72,11 @@ Pour créer un modèle de prestation et définir son contenu, les étapes sont l
 
    ![](assets/s_ncs_user_supplier_node_create_template.png)
 
-1. Créez les postes de coûts pour chaque type de traitement (diffusion par courrier/email/etc.). ou tâche). Pour ce faire, cliquez sur le bouton **[!UICONTROL Catégories de coûts]** puis l’onglet **[!UICONTROL Ajouter]** et renseignez les paramètres de chaque poste de coût.
+1. Créez les postes de coûts pour chaque type de traitement (diffusion par courrier/e-mail/etc. ou tâche). Pour cela, cliquez sur l’onglet **[!UICONTROL Postes de coût]** puis sur le bouton **[!UICONTROL Ajouter]** et renseignez les paramètres de chaque poste de coût.
 
    ![](assets/s_ncs_user_supplier_node_03.png)
 
-   * Saisissez un libellé pour ce poste de coût et sélectionnez le type de traitement concerné : Diffusion par **[!UICONTROL Canal Courrier]**, **[!UICONTROL Email]**, **[!UICONTROL Mobile]**, **[!UICONTROL Téléphone]** ou **[!UICONTROL Tâche]**.
+   * Saisissez un libellé pour ce poste de coût et sélectionnez le type de traitement concerné : diffusion par **[!UICONTROL Courrier]**, **[!UICONTROL E-mail]**, **[!UICONTROL Mobile]**, **[!UICONTROL Téléphone]** ou **[!UICONTROL Tâche]**.
    * Cliquez sur le bouton **[!UICONTROL Ajouter]** pour définir les types de coûts associés à ce poste.
    * Au besoin, associez une ligne de stock à chaque type de coût afin de reporter automatiquement les quantités utilisées sur les stocks existant.
 
@@ -151,7 +151,7 @@ Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Traitements]** pour paramétre
 
    ![](assets/s_ncs_user_supplier_node_02a.png)
 
-* Le **[!UICONTROL Email de notification]** permet de spécifier le modèle à utiliser pour notifier les prestataires après l&#39;envoi des fichiers. Sélectionnez le modèle utilisé pour créer le message d&#39;alerte et le groupe de destinataires.
+* La section **[!UICONTROL E-mail de notification]** permet d’indiquer le modèle de notification au fournisseur de services après l’envoi des fichiers. Vous devez sélectionner le modèle utilisé pour créer le message d’alerte et le groupe de destinataires.
 
    Par défaut, les modèles de diffusion pour les messages de notification sont enregistrés sous le noeud **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]**, accessible depuis la vue globale.
 
@@ -159,15 +159,15 @@ Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Traitements]** pour paramétre
 
 ### Associer une prestation à une opération {#associating-a-service-with-a-campaign}
 
-Les prestations sont associées aux opérations via les diffusions ou les tâches. Les prestataires sont associés aux modèles de diffusion afin de proposer leurs prestations dans les diffusions créées depuis ce modèle.
+Les services sont associés aux opérations via les diffusions ou les tâches. Les fournisseurs de services sont associés aux modèles de diffusion afin de proposer leurs services dans les diffusions créées depuis ce modèle.
 
-Lorsqu&#39;une prestation est sélectionnée, les postes de coûts correspondant au type de diffusion (courrier, email, etc.) sont automatiquement indiqués dans le tableau central, ainsi que les options de traitement qui ont été définies.
+Lorsqu’un service est sélectionné, les postes de coûts correspondant au type de diffusion (courrier, e-mail, etc.) sont automatiquement indiqués dans le tableau central, ainsi que les options de traitement qui ont été définies.
 
 >[!NOTE]
 >
->Si aucun poste de coût n&#39;est affiché lorsqu&#39;une prestation est sélectionnée, cela signifie qu&#39;aucun poste de coût n&#39;a été défini pour ce type de traitement. Par exemple, pour une diffusion email, si aucun **[!UICONTROL Email]** le type de poste de coût a été défini, aucun poste ne s&#39;affichera et la sélection du service n&#39;aura aucun effet.
+>Si aucun poste de coût ne s’affiche à la sélection d’un service, c’est qu’aucun poste de coût pour ce type de traitement n’a été défini. Par exemple, pour une diffusion par e-mail, si aucun poste de coût de type **[!UICONTROL E-mail]** n’a été défini, aucun poste ne sera affiché et la sélection du service n’aura aucun impact.
 
-* Pour une diffusion courrier, vous pouvez sélectionner la prestation à partir de la fenêtre de configuration.
+* Pour une diffusion courrier, vous pouvez sélectionner le service à partir de la fenêtre de configuration.
 
    ![](assets/s_ncs_user_supplier_mail_delivery_select.png)
 

@@ -9,7 +9,7 @@ exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Pour le serveur de diffusion (**nlserver mta**), les ports suivants doivent êtr
   <tr> 
    <td> 25/tcp (smtp)<br /> </td> 
    <td> N'importe où<br /> </td> 
-   <td> Trafic SMTP pour la diffusion des emails.<br /> </td> 
+   <td> Trafic SMTP pour la diffusion d’e-mails.<br /> </td> 
   </tr> 
   <tr> 
    <td> 53/udp (domain)<br /> </td> 
@@ -175,7 +175,7 @@ Les ports par défaut sont les suivants :
 
 ## Accès depuis l&#39;extérieur {#external-access}
 
-En outre, certains composants doivent être accessibles depuis l’Internet public afin que les campagnes email exécutées directement depuis Adobe Campaign puissent être visualisées. Cela signifie que certains ports doivent être ouverts pour les composants.
+En outre, certains composants doivent être accessibles depuis l’Internet public afin que les campagnes e-mail exécutées directement depuis Adobe Campaign puissent être visualisées. Cela signifie que certains ports doivent être ouverts pour les composants.
 
 ### Serveur de redirection {#redirection-server}
 
@@ -247,7 +247,7 @@ L&#39;intégration entre Adobe Campaign et Adobe Experience Manager nécessit
 
 ## Bande passante {#bandwidth}
 
-Un autre paramètre clé de la configuration réseau à prendre en compte. Il est presque toujours sortant et très demandé lors des diffusions email. Voici quelques exemples de configurations basées sur notre expérience :
+Un autre paramètre clé de la configuration réseau à prendre en compte. Elle est presque toujours sortante et très sollicitée lors des diffusions e-mail. Voici quelques exemples de configurations basées sur notre expérience :
 
 * 1 Mb/s pour 10 000 emails par heure (taille moyenne de 30 Ko)
 * 8 à 10 Mb/s pour 100 000 emails par heure (taille moyenne de 30 Ko)

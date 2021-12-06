@@ -9,7 +9,7 @@ exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '2539'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -333,13 +333,13 @@ Lorsque l&#39;opération est paramétrée, son statut peut être mis à jour : 
 
 #### Validation du budget {#budget-approval}
 
-Lorsque la validation est activée, un lien spécifique permet de valider le budget à partir du tableau de bord de l&#39;opération. Ce lien est affiché une fois le workflow de ciblage lancé et lorsqu&#39;une diffusion courrier est à valider.
+Lorsque la validation est activée, un lien spécifique permet de valider le budget à partir du tableau de bord de l’opération. Ce lien est affiché une fois le workflow de ciblage lancé et lorsqu’une diffusion courrier est à valider.
 
 ![](assets/s_user_cost_mgmt_sample_19.png)
 
-Vous pouvez ensuite cliquer sur le lien pour valider ou refuser la validation, ou utiliser le lien contenu dans l&#39;email de notification si la notification a été activée pour cette opération.
+Vous pouvez alors cliquer sur le lien pour accorder ou refuser la validation, ou utiliser le lien contenu dans l’e-mail de notification, si la notification a été activée pour cette opération.
 
-Une fois le budget validé, et la diffusion terminée, les coûts sont remontés automatiquement via un workflow technique spécifique.
+Une fois le budget validé et la diffusion terminée, les coûts sont téléchargés automatiquement via un workflow technique spécifique.
 
 ## Commandes et factures {#orders-and-invoices}
 

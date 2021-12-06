@@ -9,7 +9,7 @@ exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -123,13 +123,13 @@ Deux modes d&#39;utilisation de cette boîte sont possibles :
 
    >[!CAUTION]
    >
-   >Cette option remplace les données utilisateur, y compris l’adresse email si un champ permet de le saisir. Elle ne peut pas être utilisée pour créer de nouveaux profils et requiert l’utilisation d’une boîte de préchargement dans le formulaire.
+   >Cette option surcharge les données de l’utilisateur, y compris son adresse e-mail si un champ permet de la saisir. Elle ne permet pas de créer des profils et requiert l’utilisation d’une boîte de préchargement dans le formulaire.
 
-* Pour enrichir les données des destinataires en base, éditez la boîte d&#39;enregistrement pour sélectionner la clé de réconciliation. Pour une utilisation en interne (typiquement, sur un intranet) ou pour un formulaire de création de nouveaux profils, par exemple, vous pouvez sélectionner le ou les champs de réconciliation. La boîte propose tous les champs de la base de données utilisés dans les différentes pages de l&#39;application Web :
+* Pour enrichir les données des destinataires en base, modifiez la boîte d’enregistrement pour sélectionner la clé de réconciliation. Pour une utilisation en interne (typiquement, sur un intranet) ou pour un formulaire de création de profils, par exemple, vous pouvez sélectionner le ou les champs de réconciliation. La boîte propose tous les champs de la base de données utilisés dans les différentes pages de l’application web :
 
    ![](assets/s_ncs_admin_survey_save_box_edit.png)
 
-Par défaut, les données sont importées dans la base par un **[!UICONTROL Mise à jour ou insertion]** operation : s&#39;il existe dans la base, l&#39;élément est mis à jour (par exemple, la newsletter sélectionnée ou l&#39;adresse email renseignée). S’il n’existe pas, les informations sont ajoutées.
+Par défaut, les données sont importées dans la base par une opération de **[!UICONTROL Mise à jour ou insertion]** : s’il existe dans la base, l’élément est mis à jour (par exemple la newsletter choisie ou l’e-mail renseigné). S’il n’existe pas, l’information est ajoutée.
 
 Vous pouvez toutefois modifier ce comportement. Pour cela, sélectionnez la racine de l&#39;élément et choisissez, dans la liste déroulante, l&#39;opération à effectuer :
 

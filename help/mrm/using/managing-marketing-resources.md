@@ -9,7 +9,7 @@ exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '1445'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Vous pouvez modifier et mettre à jour une ressource marketing et, au besoin, en
 
 >[!NOTE]
 >
->Le **[!UICONTROL Histoire]** contient le journal de téléchargement et de mise à jour de la ressource. Le **[!UICONTROL Détails]** permet de visualiser la version sélectionnée.
+>L’onglet **[!UICONTROL Historique]** contient le journal des téléchargements et mises à jour de la ressource. Le bouton **[!UICONTROL Détails]** permet de visualiser la version sélectionnée.
 
 ### Verrouiller/déverrouiller une ressource {#locking-unlocking-a-resource}
 

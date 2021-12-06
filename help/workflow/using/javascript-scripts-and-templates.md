@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Scripts/Templates JavaScript
-description: Scripts/Templates JavaScript
+title: Scripts et modèles JavaScript
+description: Scripts et modèles JavaScript
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
@@ -9,11 +9,11 @@ exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 source-git-commit: 8e6ebec9af0b7865616cf3904c8d400094567bdb
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Scripts/Templates JavaScript{#javascript-scripts-and-templates}
+# Scripts et modèles JavaScript{#javascript-scripts-and-templates}
 
 ![](../../assets/common.svg)
 

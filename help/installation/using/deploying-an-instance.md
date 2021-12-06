@@ -9,7 +9,7 @@ exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '3193'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,9 +61,9 @@ La section inférieure de la fenêtre permet de sélectionner les options à act
 
 Les options disponibles sont les suivantes :
 
-* **[!UICONTROL Canal email]** : pour activer la diffusion email. Voir [Paramètres du canal email](#email-channel-parameters).
+* **[!UICONTROL Canal e-mail]** : pour activer la diffusion par e-mail. Voir [Paramètres du canal email](#email-channel-parameters).
 * **[!UICONTROL Tracking]** : pour activer le tracking de la population cible (ouvertures et clics). Voir [Paramétrage du tracking](#tracking-configuration).
-* **[!UICONTROL Gestion des mails rebonds]** : Pour définir le compte POP utilisé pour relever les emails entrants. Voir [Gestion des emails rebonds](#managing-bounced-emails).
+* **[!UICONTROL Gestion des e-mails rebonds]** : pour définir le compte POP utilisé pour récupérer les e-mails entrants. Voir [Gestion des emails rebonds](#managing-bounced-emails).
 * **[!UICONTROL Intégration LDAP]** : pour configurer l’identification d’un utilisateur via un annuaire LDAP. Voir [Connexion par LDAP](../../installation/using/connecting-through-ldap.md).
 
 ## Paramètres du canal email {#email-channel-parameters}
@@ -80,8 +80,8 @@ Indiquez les paramètres suivants :
 
 * **[!UICONTROL Nom expéditeur]** : le nom de l&#39;expéditeur,
 * **[!UICONTROL Adresse expéditeur]** : l&#39;adresse email de l&#39;expéditeur,
-* **[!UICONTROL Texte de l’adresse de réponse]** : Le nom, personnalisable, qui sera utilisé lorsque le destinataire clique sur la variable **[!UICONTROL Répondre]** dans leur logiciel de messagerie,
-* **[!UICONTROL Adresse de réponse]** : Adresse électronique à utiliser lorsque le destinataire clique sur la variable **[!UICONTROL Répondre]** dans leur logiciel de messagerie,
+* **[!UICONTROL Nom de l’adresse de réponse]** : le nom, personnalisable, qui est utilisé lorsque le destinataire clique sur le bouton **[!UICONTROL Répondre]** de son logiciel de messagerie,
+* **[!UICONTROL Adresse de réponse]** : l’adresse e-mail à utiliser lorsque le destinataire clique sur le bouton **[!UICONTROL Répondre]** de son logiciel de messagerie,
 * **[!UICONTROL Adresse d&#39;erreur]** : l&#39;adresse email des messages en erreur. Il s&#39;agit d&#39;une adresse technique utilisée pour gérer les rebonds, notamment les emails reçus par le serveur Adobe Campaign si les adresses ciblés n&#39;existent pas.
 
 En complément, vous pouvez indiquer les **masques** autorisés pour l’adresse expéditeur et l’adresse d’erreur. Au besoin, ces masques doivent être séparés les uns des autres par une virgule. Ce paramétrage est facultatif. Lorsque ces champs sont renseignés, Adobe Campaign contrôle, au moment de l’envoi (ou au moment de l’analyse, lorsque l’adresse ne contient pas d’éléments variables), que les adresses renseignées dans la diffusion sont valables. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problème de délivrabilité. Les adresses d’expédition doivent être configurées sur le serveur d’envoi.
@@ -323,7 +323,7 @@ Renseignez dans cette page les URL des serveurs pour :
 1. Accéder au serveur applicatif pour les ressources non exposées sur le Web : formulaires, intranet, pages de validation.
 1. Accéder aux pages miroir renseignées des diffusions.
 
-   Une page miroir est une page dynamique qui affiche le contenu de l’email. Il est accessible à partir d&#39;un lien inséré dans le message envoyé au destinataire et peut contenir des éléments personnalisés. La page miroir permet au destinataire de lire le message dans un navigateur internet plutôt que dans un logiciel de messagerie, quel que soit le format de diffusion (texte ou HTML). Toutefois, les pages miroir ne sont générées que pour une diffusion donnée si le contenu HTML requis a été défini.
+   Une page miroir est une page dynamique qui affiche le contenu de l’e-mail. Elle est accessible à partir d’un lien inséré dans le message envoyé au destinataire et peut contenir des éléments personnalisés. La page miroir permet au destinataire de lire le message dans un navigateur Internet plutôt que dans le logiciel de messagerie, quel que soit le format de diffusion (texte ou HTML). Toutefois, les pages miroir ne sont générées que pour une diffusion donnée si le contenu HTML requis a été défini.
 
 Adobe Campaign offre la possibilité de différencier ces trois URL afin de mieux répartir la charge sur plusieurs plateformes.
 
@@ -353,7 +353,7 @@ Le premier champ permet de saisir le début de l’URL des ressources lorsqu’e
 
 Dans une diffusion, vous pouvez utiliser des images stockées dans la bibliothèque de ressources publiques ou toute autre image locale ou stockée sur un serveur.
 
-* Pour les images d’email, la variable **https://** server **/res/img** URL.
+* Pour les images des e-mails, l’URL **https://** serveur **/res/img**.
 
    Cette valeur peut être surchargée au niveau de chaque diffusion.
 

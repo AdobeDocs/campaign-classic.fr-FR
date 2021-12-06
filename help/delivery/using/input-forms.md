@@ -9,7 +9,7 @@ exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -182,7 +182,7 @@ Utilisez les boutons de la barre d&#39;outils pour ajouter ou supprimer des él�
 >
 >Les flèches gauche et droite d&#39;ordonnancement sont ajoutées automatiquement lorsque l&#39;attribut **ordered=&quot;true&quot;** est renseigné sur l&#39;élément de collection dans le schéma de données.
 
-## Les conteneurs {#containers}
+## Conteneurs {#containers}
 
 Les conteneurs vous permettent de regrouper un ensemble de contrôles. Ils existent via l’élément **`<container>`**. Ils ont déjà été utilisés pour mettre en forme les contrôles dans plusieurs colonnes et pour contrôler la liste d’onglets.
 
@@ -198,4 +198,4 @@ L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le formulaire de sais
 
 ![](assets/d_ncs_content_form13.png)
 
-En savoir plus sur [modification de formulaires](../../configuration/using/editing-forms.md) et [structure de formulaire](../../configuration/using/form-structure.md).
+En savoir plus sur la [modification des formulaires](../../configuration/using/editing-forms.md) et la [structure des formulaires](../../configuration/using/form-structure.md).

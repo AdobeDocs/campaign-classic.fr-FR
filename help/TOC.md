@@ -6,9 +6,9 @@ title: Guide de Campaign Classic v7
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
+source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2575'
 ht-degree: 99%
 
 ---
@@ -264,7 +264,7 @@ ht-degree: 99%
       + [Règles de filtrage](campaign-opt/using/filtering-rules.md)
       + [Application de règles](campaign-opt/using/applying-rules.md)
       + [Simulation de campagnes](campaign-opt/using/campaign-simulations.md)
-+ Gestion des ressources marketing {#mrm}
++ Gestion des ressources marketing{#mrm}
    + [À propos de la gestion des ressources marketing](mrm/using/about-marketing-resource-management.md)
    + [Création et gestion de tâches](mrm/using/creating-and-managing-tasks.md)
    + [Coûts de contrôle](mrm/using/controlling-costs.md)
@@ -509,8 +509,8 @@ ht-degree: 99%
    + Gestion avancée {#advanced-management}
       + [Propriétés d&#39;exécution](workflow/using/workflow-properties.md)
       + [Paramètres avancés](workflow/using/advanced-parameters.md)
-      + [Scripts/Templates JavaScript](workflow/using/javascript-scripts-and-templates.md)
-      + [Exemples de code JavaScript dans les workflows](workflow/using/javascript-in-workflows.md)
+      + [Scripts et modèles JavaScript](workflow/using/javascript-scripts-and-templates.md)
+      + [Exemples de code JavaScript dans les workflows](workflow/using/javascript-in-workflows.md)
       + [Accès à une base de données externe](workflow/using/accessing-an-external-database--fda-.md)
       + [Gestion des autorisations](workflow/using/managing-rights.md)
       + [Gestion des images d’activité](workflow/using/managing-activity-images.md)
@@ -596,7 +596,7 @@ ht-degree: 99%
       + [Créez une application Facebook](social/using/creating-a-facebook-application.md)
       + [Configuration de la publication sur Twitter](social/using/configuring-publishing-on-twitter.md)
    + Publication sur les médias sociaux {#publishing-on-facebook-twitter}
-      + [Vue d&#39;ensemble](social/using/overview.md)
+      + [Prise en main des médias sociaux](social/using/overview.md)
       + [Publication sur Facebook](social/using/publishing-on-facebook.md)
       + [Publication sur Twitter](social/using/publishing-on-twitter.md)
    + Annexes {#annexes}
@@ -791,7 +791,7 @@ ht-degree: 99%
       + [Exemples d&#39;édition de schémas](configuration/using/examples-of-schemas-edition.md)
    + Formulaires de saisie {#input-forms}
       + [Identification d’un formulaire](configuration/using/identifying-a-form.md)
-      + [Les formulaires d&#39;édition](configuration/using/editing-forms.md)
+      + [Modification de formulaires](configuration/using/editing-forms.md)
       + [Structure d&#39;un formulaire](configuration/using/form-structure.md)
    + API {#api}
       + [À propos des services web](configuration/using/about-web-services.md)

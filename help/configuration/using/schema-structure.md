@@ -9,7 +9,7 @@ exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -476,7 +476,7 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 
 * **@email** : sélectionne l&#39;email,
 * **Location/@city** : sélectionne l&#39;attribut &quot;city&quot; sous l&#39;élément **`<location>`**.
-* **../@email**: sélectionne l&#39;adresse email sur l&#39;élément parent de l&#39;élément courant
+* **../@email** : sélectionne l’adresse e-mail dans l’élément parent de l’élément courant
 * **group`[1]/@label`** : sélectionne l&#39;attribut &quot;label&quot; enfant du premier élément de collection **`<group>`**
 * **group`[@label='test1']`** : sélectionne l&#39;attribut &quot;label&quot;, enfant de l&#39;élément **`<group>`** et contenant la valeur &quot;test1&quot;
 
@@ -493,7 +493,7 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 Il est aussi possible de définir des expressions complexes, telles que les opérations arithmétiques :
 
 * **@gender+1** : ajoute 1 au contenu de l&#39;attribut **gender**,
-* **@email + &#39;(&#39;+@created+&#39;)&#39;**: construit une chaîne en prenant la valeur de l’adresse électronique ajoutée à la date de création entre parenthèses (pour le type chaîne, placez la constante entre guillemets).
+* **@email + &#39;(&#39;+@created+&#39;)&#39;** : construit une chaîne en prenant la valeur de l’adresse e-mail ajoutée à la date de création entre parenthèses (pour le type chaîne, il faut mettre la constante entre guillemets).
 
 Des fonctions de haut niveau ont été ajoutées aux expressions afin d&#39;enrichir les possibilités offertes par ce langage.
 
@@ -505,7 +505,7 @@ La liste des fonctions disponibles est accessible à partir de n&#39;importe que
 
 * **GetDate()** : retourne la date courante
 * **Year(@created)** : retourne l&#39;année de la date contenue dans l&#39;attribut &quot;created&quot;
-* **GetEmailDomain(@email)**: renvoie le domaine de l’adresse électronique.
+* **GetEmailDomain(@email)** : renvoie le domaine de l’adresse e-mail.
 
 ## Construire une chaîne via la compute string {#building-a-string-via-the-compute-string}
 

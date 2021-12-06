@@ -9,7 +9,7 @@ exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '716'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 94%
 
 La délivrabilité permet de mesurer le succès des campagnes atteignant la boîte de réception de vos destinataires, et ce, sans rebonds et sans être marquées comme spam. [Découvrez pourquoi la délivrabilité est importante](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=fr#why-deliverability-matters).
 
-Plus précisément, la délivrabilité des emails désigne l’ensemble des caractéristiques qui déterminent la capacité d’un message à atteindre sa destination, via une adresse email personnelle, dans un délai court, et avec la qualité attendue en termes de contenu et de format.
+Plus précisément, la délivrabilité des e-mails désigne l’ensemble des caractéristiques qui déterminent la capacité d’un message à atteindre sa destination, via une adresse e-mail personnelle, dans un délai court, et avec la qualité attendue en termes de contenu et de format.
 
-Pour en apprendre davantage sur la délivrabilité et en savoir plus sur les termes, concepts et approches clés qui s&#39;y rapportent, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d&#39;Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
+Pour en apprendre davantage sur la délivrabilité et en savoir plus sur les termes, concepts et approches clés qui s’y rapportent, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
 ## Procédure d&#39;amélioration de la délivrabilité {#deliverability-key-points}
 

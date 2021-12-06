@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Les formulaires d'édition
-description: Les formulaires d'édition
+title: Modification de formulaires
+description: Modification de formulaires
 audience: configuration
 content-type: reference
 topic-tags: input-forms
@@ -9,45 +9,45 @@ exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
 source-git-commit: 49a98ec82b1d62f3af19260888da8eb24e460938
 workflow-type: tm+mt
 source-wordcount: '1679'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# Les formulaires d&#39;édition{#editing-forms}
+# Modification de formulaires{#editing-forms}
 
 ![](../../assets/common.svg)
 
 ## Vue d’ensemble
 
-Les marketeurs et les opérateurs utilisent des formulaires de saisie pour créer, modifier et prévisualiser des enregistrements. Forms affiche une représentation visuelle des informations.
+Les marketeurs et les opérateurs utilisent des formulaires de saisie pour créer, modifier et prévisualiser des enregistrements. Les formulaires affichent une représentation visuelle des informations.
 
-Vous pouvez créer et modifier des formulaires de saisie :
+Vous pouvez créer et modifier des formulaires de saisie :
 
-* Vous pouvez modifier les formulaires d’entrée d’usine fournis par défaut. Les formulaires de saisie d’usine sont basés sur les schémas de données d’usine.
+* Vous pouvez modifier les formulaires de saisie d’usine fournis par défaut. Les formulaires de saisie d’usine sont basés sur les schémas de données d’usine.
 * Vous pouvez créer des formulaires de saisie personnalisés, en fonction des schémas de données que vous définissez.
 
-Forms sont des entités de `xtk:form` type. Vous pouvez afficher la structure du formulaire de saisie dans le `xtk:form` schéma. Pour afficher ce schéma, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Schémas de données]** dans le menu. En savoir plus sur [structure de formulaire](form-structure.md).
+Les formulaires sont des entités de type `xtk:form`. Vous pouvez afficher la structure du formulaire de saisie dans le schéma `xtk:form`. Pour afficher ce schéma, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Schémas de données]** à partir du menu. En savoir plus sur la [structure des formulaires](form-structure.md).
 
-Pour accéder aux formulaires de saisie, choisissez **[!UICONTROL Administration] > [!UICONTROL Configuration] > [!UICONTROL Formulaires de saisie]** dans le menu :
+Pour accéder aux formulaires de saisie, sélectionnez **[!UICONTROL Administration] > [!UICONTROL Configuration] > [!UICONTROL Formulaires de saisie]** à partir du menu :
 
 ![](assets/d_ncs_integration_form_arbo.png)
 
-Pour concevoir des formulaires, éditez le contenu XML dans l&#39;éditeur XML :
+Pour concevoir des formulaires, modifiez le contenu XML dans l’éditeur XML :
 
 ![](assets/d_ncs_integration_form_edit.png)
 
 [En savoir plus](form-structure.md#formatting).
 
-Pour prévisualiser un formulaire, cliquez sur le bouton **[!UICONTROL Aperçu]** tab :
+Pour prévisualiser un formulaire, cliquez sur l’onglet **[!UICONTROL Aperçu]** :
 
 ![](assets/d_ncs_integration_form_preview.png)
 
 ## Types de formulaires
 
-Vous pouvez créer différents types de formulaires de saisie. Le type de formulaire détermine la manière dont les utilisateurs naviguent dans le formulaire :
+Vous pouvez créer différents types de formulaires de saisie. Le type de formulaire détermine la manière dont les utilisateurs naviguent dans ce dernier :
 
-* Écran de console
+* Écran console
 
    Il s’agit du type de formulaire par défaut. Le formulaire comprend une seule page.
 
@@ -55,37 +55,37 @@ Vous pouvez créer différents types de formulaires de saisie. Le type de formul
 
 * Gestion de contenu
 
-   Utilisez ce type de formulaire pour la gestion de contenu. Voir [cas pratique](../../delivery/using/use-case--creating-content-management.md).
+   Utilisez ce type de formulaire pour la gestion de contenu. Consultez ce [cas d’utilisation](../../delivery/using/use-case--creating-content-management.md).
 
    ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
 * Assistant
 
-   Ce formulaire comprend plusieurs écrans flottants organisés en séquences spécifiques. Les utilisateurs naviguent d’un écran à l’autre. [En savoir plus](form-structure.md#wizards).
+   Ce formulaire comprend plusieurs écrans flottants organisés en séquences spécifiques. Les utilisateurs peuvent naviguer d’un écran à l’autre. [En savoir plus](form-structure.md#wizards).
 
 * Iconbox
 
-   Ce formulaire comprend plusieurs pages. Pour naviguer dans le formulaire, les utilisateurs sélectionnent les icônes à gauche.
+   Ce formulaire comprend plusieurs pages. Pour parcourir le formulaire, les utilisateurs doivent sélectionner les icônes à sa gauche.
 
    ![](assets/iconbox_form_preview.png)
 
 * Notebook
 
-   Ce formulaire comprend plusieurs pages. Pour parcourir le formulaire, les utilisateurs sélectionnent des onglets dans la partie supérieure du formulaire.
+   Ce formulaire comprend plusieurs pages. Pour parcourir le formulaire, les utilisateurs doivent sélectionner les onglets dans la partie supérieure.
 
    ![](assets/notebook_form_preview.png)
 
-* Volet vertical
+* Séparation verticale
 
    Ce formulaire affiche une arborescence de navigation.
 
-* Volet horizontal
+* Séparation horizontale
 
    Ce formulaire affiche une liste d’éléments.
 
-## Les conteneurs
+## Conteneurs
 
-Dans les formulaires, vous pouvez utiliser des conteneurs à diverses fins :
+Dans les formulaires, vous pouvez utiliser des conteneurs à diverses fins :
 
 * Organisation du contenu dans les formulaires
 * Définition de l’accès aux champs de saisie
@@ -95,22 +95,22 @@ Dans les formulaires, vous pouvez utiliser des conteneurs à diverses fins :
 
 ### Organisation du contenu
 
-Utilisez des conteneurs pour organiser le contenu dans les formulaires :
+Utilisez des conteneurs pour organiser le contenu dans les formulaires :
 
-* Vous pouvez regrouper des champs dans des sections.
-* Vous pouvez ajouter des pages à des formulaires multi-pages.
+* Vous pouvez regrouper des champs en sections.
+* Vous pouvez ajouter des pages à des formulaires de plusieurs pages.
 
-Pour insérer un conteneur, utilisez la méthode `<container>` élément . [En savoir plus](form-structure.md#containers).
+Pour insérer un conteneur, utilisez l’élément `<container>`. [En savoir plus](form-structure.md#containers).
 
-#### Champs de groupe
+#### Regroupement de champs
 
-Utilisez des conteneurs pour regrouper les champs de saisie dans des sections organisées.
+Utilisez des conteneurs pour regrouper les champs de saisie en sections organisées.
 
-Pour insérer une section dans un formulaire, utilisez l’élément suivant : `<container type="frame">`. Si vous le souhaitez, vous pouvez ajouter un titre de section à l’aide de la méthode `label` attribut.
+Pour insérer une section dans un formulaire, utilisez l’élément suivant : `<container type="frame">`. Vous pouvez éventuellement ajouter un titre de section. Pour ce faire, utilisez l’attribut `label`.
 
-Syntaxe : `<container type="frame" label="`*section_title*`"> […] </container>`
+Syntaxe : `<container type="frame" label="`*titre_section*`"> […] </container>`
 
-Dans cet exemple, un conteneur définit la variable **Création** , qui comprend la fonction **[!UICONTROL Créé par]** et **[!UICONTROL Nom]** champs de saisie :
+Dans cet exemple, un conteneur définit la section **Création**, qui comprend les champs de saisie **[!UICONTROL Créé par]** et **[!UICONTROL Nom]** :
 
 ```xml
 <form _cs="Coupons (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Coupons"
@@ -126,11 +126,11 @@ Dans cet exemple, un conteneur définit la variable **Création** , qui comprend
 
 ![](assets/console_screen_form.png)
 
-#### Ajouter des pages à des formulaires multi-pages
+#### Ajout de pages à des formulaires de plusieurs pages
 
-Pour les formulaires multi-pages, utilisez un conteneur pour créer une page de formulaire.
+Pour les formulaires à plusieurs pages, utilisez un conteneur pour créer une page de formulaire.
 
-Cet exemple affiche des conteneurs pour la variable **Général** et **Détails** pages d’un formulaire :
+Cet exemple montre les conteneurs pour les pages **Général** et **Détails** d’un formulaire :
 
 ```xml
 <container img="ncm:book.png" label="General">
@@ -143,21 +143,21 @@ Cet exemple affiche des conteneurs pour la variable **Général** et **Détails*
 
 ### Définition de l’accès aux champs
 
-Utilisez des conteneurs pour définir ce qui est visible et pour définir l’accès aux champs. Vous pouvez activer ou désactiver des groupes de champs.
+Utilisez des conteneurs pour définir ce qui est visible et l’accès aux champs. Vous pouvez activer ou désactiver des groupes de champs.
 
-### Imbriquer des formulaires
+### Imbrication de formulaires
 
 Utilisez des conteneurs pour imbriquer des formulaires dans d’autres formulaires. [En savoir plus](#add-pages-to-multipage-forms).
 
 ## Références aux images
 
-Pour rechercher des images, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]** dans le menu.
+Pour rechercher des images, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]** à partir du menu.
 
-Pour associer une image à un élément du formulaire, par exemple une icône, vous pouvez ajouter une référence à une image. Utilisez la variable `img` , par exemple, dans la variable `<container>` élément .
+Pour associer une image à un élément du formulaire, par exemple une icône, vous pouvez ajouter une référence à une image. Par exemple, utilisez l’attribut `img` dans l’élément `<container>`.
 
-Syntaxe: `img="`*`namespace`*`:`*`filename`*`.`*`extension`*`"`
+Syntaxe : `img="`*`namespace`*`:`*`filename`*`.`*`extension`*`"`
 
-Cet exemple affiche des références au `book.png` et `detail.png` des images de `ncm` namespace :
+Cet exemple montre les références aux images `book.png` et `detail.png` de l’espace de noms `ncm` :
 
 ```xml
 <container img="ncm:book.png" label="General">
@@ -168,24 +168,24 @@ Cet exemple affiche des références au `book.png` et `detail.png` des images de
 </container>
 ```
 
-Ces images sont utilisées pour les icônes sur lesquelles les utilisateurs cliquent pour naviguer dans un formulaire multi-page :
+Ces images constituent les icônes sur lesquelles les utilisateurs cliquent pour parcourir un formulaire à plusieurs pages :
 
 ![](assets/nested_forms_preview.png)
 
 ## Création d’un formulaire simple {#create-simple-form}
 
-Pour créer un formulaire, procédez comme suit :
+Pour créer un formulaire, procédez comme suit :
 
-1. Dans le menu, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Formulaires de saisie]**.
-1. Cliquez sur le bouton **[!UICONTROL Nouveau]** en haut à droite de la liste.
+1. Dans le menu, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Formulaires de saisie]**.
+1. Cliquez sur le bouton **[!UICONTROL Nouveau]** dans le coin supérieur droit de la liste.
 
    ![](assets/input-form-create-1.png)
 
-1. Spécifiez les propriétés du formulaire :
+1. Renseignez les propriétés du formulaire :
 
-   * Indiquez le nom du formulaire et l’espace de noms.
+   * Renseignez le nom du formulaire et l’espace de noms.
 
-      Le nom du formulaire et l’espace de noms peuvent correspondre au schéma de données associé.  Cet exemple illustre un formulaire pour le `cus:order` schéma de données :
+      Le nom du formulaire et l’espace de noms peuvent correspondre au schéma de données associé.  Cet exemple montre un formulaire pour le schéma de données `cus:order` :
 
       ```xml
       <form entitySchema="xtk:form" img="xtk:form.png" label="Order" name="order" namespace="cus" type="iconbox" xtkschema="xtk:form">
@@ -193,7 +193,7 @@ Pour créer un formulaire, procédez comme suit :
       </form>
       ```
 
-      Vous pouvez également spécifier explicitement le schéma de données dans la variable `entity-schema` attribut.
+      Vous pouvez également renseigner explicitement le schéma de données dans l’attribut `entity-schema`.
 
       ```xml
       <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
@@ -201,29 +201,29 @@ Pour créer un formulaire, procédez comme suit :
       </form>
       ```
 
-   * Indiquez le libellé à afficher sur le formulaire.
-   * Vous pouvez éventuellement spécifier le type de formulaire. Si vous ne spécifiez pas de type de formulaire, le type d’écran de la console est utilisé par défaut.
+   * Renseignez le libellé à afficher sur le formulaire.
+   * Vous pouvez éventuellement renseigner le type de formulaire. Si vous ne renseignez pas de type de formulaire, le type Écran console est utilisé par défaut.
 
       ![](assets/input-form-create-2.png)
 
-      Si vous concevez un formulaire multi-page, vous pouvez omettre le type de formulaire dans la variable `<form>` et indiquez le type dans un conteneur.
+      Si vous concevez un formulaire à plusieurs pages, vous pouvez omettre le type de formulaire dans l’élément `<form>` et renseigner le type dans un conteneur.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 1. Insérez les éléments de formulaire.
 
-   Par exemple, pour insérer un champ de saisie, utilisez la méthode `<input>` élément . Définissez la variable `xpath` à la référence du champ en tant qu’expression XPath. [En savoir plus](schema-structure.md#referencing-with-xpath).
+   Par exemple, pour insérer un champ de saisie, utilisez l’élément `<input>`. Définissez l’attribut `xpath` sur la référence du champ en tant qu’expression XPath. [En savoir plus](schema-structure.md#referencing-with-xpath).
 
-   Cet exemple présente les champs de saisie basés sur la variable `nms:recipient` schéma.
+   Cet exemple montre des champs de saisie basés sur le schéma `nms:recipient`.
 
    ```xml
    <input xpath="@firstName"/>
    <input xpath="@lastName"/>
    ```
 
-1. Si le formulaire est basé sur un type de schéma spécifique, vous pouvez rechercher les champs de ce schéma :
+1. Si le formulaire est basé sur un type de schéma spécifique, vous pouvez rechercher les champs de ce schéma :
 
-   1. Cliquez sur **[!UICONTROL Insérer]** > **[!UICONTROL Champs du document]**.
+   1. Cliquez sur **[!UICONTROL Insérer]** > **[!UICONTROL Champs du document]**.
 
       ![](assets/input-form-create-4.png)
 
@@ -231,23 +231,23 @@ Pour créer un formulaire, procédez comme suit :
 
       ![](assets/input-form-create-5.png)
 
-1. Vous pouvez éventuellement spécifier l’éditeur de champ.
+1. Vous pouvez éventuellement renseigner l’éditeur de champ.
 
-   Un éditeur de champ par défaut est associé à chaque type de données :
+   Un éditeur de champ par défaut est associé à chaque type de données :
    * Pour un champ de type date, le formulaire affiche un calendrier de saisie.
    * Pour un champ de type énumération, le formulaire affiche une liste de sélection.
 
-   Vous pouvez utiliser les types d’éditeur de champ suivants :
+   Vous pouvez utiliser les types d’éditeur de champ suivants :
 
-   | Éditeur de champ | attribut de formulaire |
+   | Éditeur de champ | Attribut de formulaire |
    | --- | --- |
    | Bouton radio | `type="radiobutton"` |
-   | Bouton à cocher | `type="checkbox"` |
+   | Case à cocher | `type="checkbox"` |
    | Modifier l’arborescence | `type="tree"` |
 
-   En savoir plus sur [contrôles de liste de mémoire](form-structure.md#memory-list-controls).
+   En savoir plus sur les [contrôles de liste de mémoire](form-structure.md#memory-list-controls).
 
-1. Vous pouvez éventuellement définir l’accès aux champs :
+1. Vous pouvez éventuellement définir l’accès aux champs :
 
    | Élément | Attribut | Description |
    | --- | --- | --- |
@@ -266,7 +266,7 @@ Pour créer un formulaire, procédez comme suit :
    </container>
    ```
 
-1. Vous pouvez également utiliser des conteneurs pour regrouper des champs dans des sections.
+1. Vous pouvez éventuellement utiliser des conteneurs pour regrouper des champs en sections.
 
    ```xml
    <container type="frame" label="Name">
@@ -281,28 +281,28 @@ Pour créer un formulaire, procédez comme suit :
 
    ![](assets/input-form-create-3.png)
 
-## Création d’un formulaire multipage {#create-multipage-form}
+## Création d’un formulaire à plusieurs pages {#create-multipage-form}
 
-Vous pouvez créer des formulaires multi-pages. Vous pouvez également imbriquer des formulaires dans d’autres formulaires.
+Vous pouvez créer des formulaires à plusieurs pages. Vous pouvez également imbriquer des formulaires dans d’autres formulaires.
 
-### Créez un `iconbox` formulaire
+### Création d’un formulaire `iconbox`
 
-Utilisez la variable `iconbox` type de formulaire pour afficher les icônes à gauche du formulaire, qui redirigent les utilisateurs vers différentes pages du formulaire.
+Utilisez le type de formulaire `iconbox` pour afficher des icônes à gauche du formulaire, qui redirigent les utilisateurs vers différentes pages du formulaire.
 
 ![](assets/iconbox_form_preview.png)
 
-Pour modifier le type d’un formulaire existant en `iconbox`, procédez comme suit :
+Pour modifier le type d’un formulaire existant en `iconbox`, procédez comme suit :
 
-1. Modifiez la variable `type` de l’attribut `<form>` element to `iconbox`:
+1. Modifiez l’attribut `type` de l’élément `<form>` en `iconbox` :
 
    ```xml
    <form […] type="iconbox">
    ```
 
-1. Définissez un conteneur pour chaque page de formulaire :
+1. Définissez un conteneur pour chaque page de formulaire :
 
-   1. Ajouter un `<container>` comme enfant de l’élément `<form>` élément .
-   1. Pour définir un libellé et une image pour l’icône, utilisez le `label` et `img` attributs.
+   1. Ajoutez un élément `<container>` comme enfant de l’élément `<form>`.
+   1. Pour définir un libellé et une image pour l’icône, utilisez les attributs `label` et `img`.
 
       ```xml
       <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="iconbox" xtkschema="xtk:form">
@@ -320,26 +320,26 @@ Pour modifier le type d’un formulaire existant en `iconbox`, procédez comme s
           </container>
       </form>
       ```
-   Vous pouvez également supprimer la variable `type="frame"` de l’attribut existant `<container>` éléments .
+   Vous pouvez également supprimer l’attribut `type="frame"` des éléments `<container>` existants.
 
-### Créez un `notebook` formulaire
+### Création d’un formulaire `notebook`
 
-Utilisez la variable `notebook` type de formulaire pour afficher les onglets dans la partie supérieure du formulaire, qui permettent aux utilisateurs d’accéder à différentes pages.
+Utilisez le type de formulaire `notebook` pour afficher des onglets dans la partie supérieure du formulaire, qui redirigent les utilisateurs vers différentes pages.
 
 ![](assets/notebook_form_preview.png)
 
-Pour modifier le type d’un formulaire existant en `notebook`, procédez comme suit :
+Pour modifier le type d’un formulaire existant en `notebook`, procédez comme suit :
 
-1. Modifiez la variable `type` de l’attribut `<form>` element to `notebook`:
+1. Modifiez l’attribut `type` de l’élément `<form>` en `notebook` :
 
    ```xml
    <form […] type="notebook">
    ```
 
-1. Ajoutez un conteneur pour chaque page de formulaire :
+1. Ajoutez un conteneur pour chaque page de formulaire :
 
-   1. Ajouter un `<container>` comme enfant de l’élément `<form>` élément .
-   1. Pour définir le libellé et l’image de l’icône, utilisez le `label` et `img` attributs.
+   1. Ajoutez un élément `<container>` comme enfant de l’élément `<form>`.
+   1. Pour définir le libellé et l’image de l’icône, utilisez les attributs `label` et `img`.
 
    ```xml
      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="notebook" xtkschema="xtk:form">
@@ -358,25 +358,25 @@ Pour modifier le type d’un formulaire existant en `notebook`, procédez comme 
      </form>
    ```
 
-   Vous pouvez également supprimer la variable `type="frame"` de l’attribut existant `<container>` éléments .
+   Vous pouvez également supprimer l’attribut `type="frame"` des éléments `<container>` existants.
 
-### Imbriquer des formulaires {#nest-forms}
+### Imbrication de formulaires {#nest-forms}
 
-Vous pouvez imbriquer des formulaires dans d’autres formulaires. Par exemple, vous pouvez imbriquer des formulaires pour notebook dans des formulaires pour icônes.
+Vous pouvez imbriquer des formulaires dans d’autres formulaires. Vous pouvez, par exemple, imbriquer des formulaires de type notebook dans des formulaires de type iconbox.
 
 Le niveau d’imbrication contrôle la navigation. Les utilisateurs peuvent accéder aux sous-formulaires.
 
-Pour imbriquer un formulaire dans un autre formulaire, insérez une `<container>` et définissez la variable `type` sur le type de formulaire. Pour le formulaire de niveau supérieur, vous pouvez définir le type de formulaire dans un conteneur externe ou dans le `<form>` élément .
+Pour imbriquer un formulaire dans un autre formulaire, insérez un élément `<container>` et définissez l’attribut `type` sur le type de formulaire. Vous pouvez définir le type du formulaire de niveau supérieur dans un conteneur externe ou dans l’élément `<form>`.
 
 ### Exemple
 
-Cet exemple illustre un formulaire complexe :
+Cet exemple montre un formulaire complexe :
 
-* Le formulaire de niveau supérieur est un formulaire iconbox. Ce formulaire comprend deux conteneurs étiquetés **Général** et **Détails**.
+* Le formulaire de niveau supérieur est un formulaire de type iconbox. Ce formulaire comprend deux conteneurs libellés **Général** et **Détails**.
 
-   Par conséquent, le formulaire externe affiche la valeur **Général** et **Détails** pages au niveau supérieur. Pour accéder à ces pages, les utilisateurs cliquent sur les icônes situées à gauche du formulaire.
+   Par conséquent, le formulaire externe affiche les pages **Général** et **Détails** au niveau supérieur. Pour accéder à ces pages, les utilisateurs doivent cliquer sur les icônes situées à gauche du formulaire.
 
-* Le sous-formulaire est un formulaire de notebook imbriqué dans la fonction **Général** conteneur. Le sous-formulaire se compose de deux conteneurs intitulés **Nom** et **Contact**.
+* Le sous-formulaire est un formulaire de type notebook imbriqué dans le conteneur **Général**. Le sous-formulaire se compose de deux conteneurs libellés **Nom** et **Contact**.
 
 ```xml
 <form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
@@ -399,53 +399,53 @@ Cet exemple illustre un formulaire complexe :
 </form>
 ```
 
-Par conséquent, la variable **Général** La page du formulaire externe affiche la variable **Nom** et **Contact** onglets.
+Par conséquent, la page **Général** du formulaire externe affiche les onglets **Nom** et **Contact**.
 
 ![](assets/nested_forms_preview.png)
 
-## Modifier un formulaire de saisie d’usine {#modify-factory-form}
+## Modification d’un formulaire de saisie d’usine {#modify-factory-form}
 
-Pour modifier un formulaire de fabrique, procédez comme suit :
+Pour modifier un formulaire d’usine, procédez comme suit :
 
-1. Vous pouvez éventuellement étendre le schéma de données associé :
+1. Vous pouvez éventuellement étendre le schéma de données associé :
 
-   1. Dans le menu, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Schémas de données]**.
+   1. Dans le menu, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Schémas de données]**.
    1. Sélectionnez un schéma de données et étendez-le. Vous pouvez par exemple ajouter des champs. [En savoir plus](extending-a-schema.md).
 
       >[!CAUTION]
-      > Ne modifiez pas les données d’origine dans un espace de noms d’usine, mais étendez-le dans un espace de noms personnalisé. La raison est que, lors des mises à niveau du logiciel, toutes les données des espaces de noms d’usine sont écrasées. Par exemple, les données de la variable `xtk`, `ncm`, et `nms` les espaces de noms d’usine sont remplacés. Les données de vos espaces de noms personnalisés ne sont pas modifiées.
+      > Ne modifiez pas les données d’origine dans un espace de noms d’usine, mais étendez-les dans un espace de noms personnalisé. La raison est que, lors des mises à niveau logicielles, toutes les données des espaces de noms d’usine sont écrasées. Par exemple, les données des espaces de noms d’usine `xtk`, `ncm` et `nms` sont écrasées. Les données de vos espaces de noms personnalisés ne sont pas modifiées.
 
-1. Modifiez le formulaire de saisie d’usine :
+1. Modifiez le formulaire de saisie d’usine :
 
-   1. Dans le menu, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Formulaires de saisie]**.
+   1. Dans le menu, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Formulaires de saisie]**.
    1. Sélectionnez un formulaire de saisie et modifiez-le.
 
-   Vous pouvez étendre les schémas de données d’usine, mais vous ne pouvez pas étendre les formulaires d’entrée d’usine. Nous vous recommandons de modifier directement les formulaires de saisie d’usine sans les recréer. Lors des mises à niveau du logiciel, vos modifications dans les formulaires d’entrée d’usine sont fusionnées avec les mises à niveau. Si la fusion automatique échoue, vous pouvez résoudre les conflits. [En savoir plus](../../production/using/upgrading.md#resolving-conflicts).
+   Vous pouvez étendre les schémas de données d’usine, mais pas les formulaires de saisie d’usine. Nous vous recommandons de modifier directement les formulaires de saisie d’usine sans les recréer. Lors des mises à niveau logicielles, les modifications que vous avez apportées dans les formulaires de saisie d’usine sont fusionnées avec les mises à niveau. Si la fusion automatique échoue, vous pouvez résoudre les conflits. [En savoir plus](../../production/using/upgrading.md#resolving-conflicts).
 
-   Par exemple, si vous étendez un schéma de fabrique avec un champ supplémentaire, vous pouvez ajouter ce champ au formulaire de fabrique associé.
+   Par exemple, si vous étendez un schéma d’usine avec un champ supplémentaire, vous pouvez ajouter ce champ au formulaire d’usine associé.
 
 ## Validation des formulaires {#validate-forms}
 
 Vous pouvez inclure des contrôles de validation dans les formulaires.
 
-### Accorder un accès en lecture seule aux champs
+### Octroi d’accès en lecture seule aux champs
 
-Pour accorder un accès en lecture seule à un champ, utilisez la méthode `readOnly="true"` attribut. Par exemple, vous pouvez afficher la Principale clé d’un enregistrement, mais avec un accès en lecture seule. [En savoir plus](form-structure.md#non-editable-fields).
+Pour octroyer l’accès en lecture seule à un champ, utilisez l’attribut `readOnly="true"`. Par exemple, vous pouvez vouloir afficher la clé primaire d’un enregistrement, mais avec un accès en lecture seule. [En savoir plus](form-structure.md#non-editable-fields).
 
-Dans cet exemple, la clé Principale (`iRecipientId`) de la variable `nms:recipient` schéma s’affiche en lecture seule :
+Dans cet exemple, la clé primaire (`iRecipientId`) du schéma `nms:recipient` s’affiche en mode d’accès en lecture seule :
 
 ```xml
 <value xpath="@iRecipientId" readOnly="true"/>
 ```
 
-### Vérifier les champs obligatoires
+### Vérification des champs obligatoires
 
-Vous pouvez vérifier les informations obligatoires :
+Vous pouvez vérifier les informations obligatoires :
 
-* Utilisez la variable `required="true"` pour les champs obligatoires.
-* Utilisez la variable `<leave>` pour vérifier ces champs et afficher les messages d’erreur.
+* Utilisez l’attribut `required="true"` pour les champs obligatoires.
+* Utilisez le nœud `<leave>` pour vérifier ces champs et afficher les messages d’erreur.
 
-Dans cet exemple, l’adresse électronique est requise et un message d’erreur s’affiche si l’utilisateur n’a pas fourni ces informations :
+Dans cet exemple, l’adresse e-mail est requise et un message d’erreur s’affiche si l’utilisateur n’a pas fourni ces informations :
 
 ```xml
 <input xpath="@email" required="true"/>
@@ -456,11 +456,11 @@ Dans cet exemple, l’adresse électronique est requise et un message d’erreur
 </leave>
 ```
 
-En savoir plus sur [champs d&#39;expression](form-structure.md#expression-field) et [contexte du formulaire](form-structure.md#context-of-forms).
+En savoir plus sur les [champs d’expression](form-structure.md#expression-field) et le [contexte du formulaire](form-structure.md#context-of-forms).
 
 ### Validation des valeurs
 
-Vous pouvez utiliser des appels SOAP JavaScript pour valider les données de formulaire à partir de la console. Utilisez ces appels pour une validation complexe, par exemple pour comparer une valeur à une liste de valeurs autorisées. [En savoir plus](form-structure.md#soap-methods).
+Vous pouvez utiliser des appels SOAP JavaScript pour valider les données de formulaire à partir de la console. Utilisez ces appels pour une validation complexe, par exemple pour comparer une valeur à une liste de valeurs autorisées. [En savoir plus](form-structure.md#soap-methods).
 
 1. Créez une fonction de validation dans un fichier JS.
 
@@ -478,13 +478,13 @@ Vous pouvez utiliser des appels SOAP JavaScript pour valider les données de for
    }
    ```
 
-   Dans cet exemple, la fonction est nommée `checkValue`. Cette fonction permet de vérifier la variable `recipient` type de données dans la variable `nms` espace de noms. La valeur en cours de vérification est consignée. Si la valeur n’est pas valide, un message d’erreur est consigné. Si la valeur est valide, la valeur 1 est renvoyée.
+   Dans cet exemple, la fonction est nommée `checkValue`. Cette fonction permet de vérifier le type de données `recipient` dans l’espace de noms `nms`. La valeur en cours de vérification est consignée. Si la valeur n’est pas valide, un message d’erreur est consigné. Si la valeur est valide, la valeur 1 est renvoyée.
 
    Vous pouvez utiliser la valeur renvoyée pour modifier le formulaire.
 
-1. Dans le formulaire, ajoutez le `<soapCall>` à l’élément `<leave>` élément .
+1. Dans le formulaire, ajoutez l’élément `<soapCall>` à l’élément `<leave>`.
 
-   Dans cet exemple, un appel SOAP est utilisé pour valider la variable `@valueToCheck` string:
+   Dans cet exemple, un appel SOAP est utilisé pour valider la chaîne `@valueToCheck` :
 
    ```xml
    <form name="recipient" (…)>
@@ -497,16 +497,16 @@ Vous pouvez utiliser des appels SOAP JavaScript pour valider les données de for
    </form>
    ```
 
-   Dans cet exemple, la variable `checkValue` et la méthode `nms:recipient` sont utilisés :
+   Dans cet exemple, la méthode `checkValue` et le service `nms:recipient` sont utilisés :
 
-   * Le service est l’espace de noms et le type de données.
-   * La méthode est le nom de la fonction. Le nom est sensible à la casse.
+   * Le service correspond à l’espace de noms et au type de données.
+   * La méthode correspond au nom de la fonction. Le nom est sensible à la casse.
 
    L’appel est effectué de manière synchrone.
 
-   Toutes les exceptions s’affichent. Si vous utilisez la variable `<leave>` , les utilisateurs ne peuvent pas enregistrer le formulaire tant que les informations saisies ne sont pas validées.
+   Toutes les exceptions s’affichent. Si vous utilisez l’élément `<leave>`, les utilisateurs ne peuvent pas enregistrer le formulaire tant que les informations saisies ne sont pas validées.
 
-Cet exemple montre comment effectuer des appels de service depuis les formulaires :
+Cet exemple montre comment effectuer des appels de service depuis les formulaires :
 
 ```xml
 <enter>
@@ -517,4 +517,4 @@ Cet exemple montre comment effectuer des appels de service depuis les formulaire
 </enter>
 ```
 
-Dans cet exemple, la saisie est un identifiant, qui est une clé Principale. Lorsque les utilisateurs remplissent le formulaire pour cet identifiant, un appel SOAP est effectué avec cet identifiant comme paramètre d’entrée. La sortie est une valeur booléenne qui est écrite dans ce champ : `/tmp/@count`. Vous pouvez utiliser cette valeur booléenne dans le formulaire. En savoir plus sur [contexte du formulaire](form-structure.md#context-of-forms).
+Dans cet exemple, l’entrée est un identifiant, qui correspond à une clé primaire. Lorsque les utilisateurs remplissent le formulaire pour cet identifiant, un appel SOAP est effectué avec cet identifiant comme paramètre d’entrée. La sortie est une valeur booléenne qui est écrite dans ce champ : `/tmp/@count`. Vous pouvez utiliser cette valeur booléenne dans le formulaire. En savoir plus sur le [contexte du formulaire](form-structure.md#context-of-forms).

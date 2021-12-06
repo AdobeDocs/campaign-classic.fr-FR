@@ -9,7 +9,7 @@ exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,8 +46,8 @@ Sous Adobe Campaign, les applications web permettent d’accéder aux fonctionn
 * Affichage conditionnel des champs du formulaire en fonction des réponses. Voir à ce propos [cette page](form-rendering.md#defining-fields-conditional-display).
 * Affichage aléatoire de questions. Voir à ce propos [cette page](../../surveys/using/building-a-survey.md#adding-questions).
 * Affichage conditionnel des pages. Voir à ce propos [cette page](defining-web-forms-page-sequencing.md#conditional-page-display).
-* Vérification des informations avant validation en fonction du type de données attendu (nombre, adresse email, date, etc.) et des champs obligatoires. Pour plus d&#39;informations, consultez la section, consultez cette [page](form-rendering.md#defining-control-settings).
-* Invitations/Notification par email. Voir à ce propos [cette page](publishing-a-web-form.md#delivering-a-form-via-email).
+* Vérification des informations avant validation en fonction du type de données attendu (numéro, adresse e-mail, date, etc.) et des champs obligatoires. Pour en savoir plus à ce sujet, consultez cette [page](form-rendering.md#defining-control-settings).
+* Invitations ou notifications par e-mail. Voir à ce propos [cette page](publishing-a-web-form.md#delivering-a-form-via-email).
 * Personnalisation des messages d’erreur et de fin. Voir à ce propos [cette page](defining-web-forms-properties.md#setting-up-an-error-page).
 * Ajout d’images, vidéos, liens hypertexte, captcha, etc. Voir à ce propos [cette page](editing-content.md).
 * Suivi des réponses en temps réel. Voir à ce propos [cette page](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking).

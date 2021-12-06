@@ -9,7 +9,7 @@ exl-id: 728b509f-2755-48df-8b12-449b7044e317
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '1974'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -139,7 +139,7 @@ Les index suivent les règles suivantes :
 
 **Exemple**:
 
-* Ajout d&#39;un index à l&#39;adresse email et à la ville :
+* Ajout d’un index à l’adresse e-mail et la ville :
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -157,7 +157,7 @@ Les index suivent les règles suivantes :
    </srcSchema>
    ```
 
-* Ajout d&#39;un index unique sur le champ du nom &quot;id&quot; :
+* Ajout d’un index unique au champ du nom « id » :
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -206,7 +206,7 @@ Les clés suivent les règles suivantes :
 
 **Exemple**:
 
-* Ajout d’une clé à l’adresse électronique et à la ville :
+* Ajout d’une clé à l’adresse e-mail et la ville :
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -475,7 +475,7 @@ Un lien réverse vers la table &quot;cus:recipient&quot; a été ajouté avec le
 
 ### Exemple 2 {#example-2}
 
-Dans cet exemple, nous allons déclarer un lien vers la table de schéma &quot;nms:address&quot;. La jointure est externe et est renseignée explicitement avec l&#39;adresse email du destinataire et le champ &quot;@address&quot; de la table liée (&quot;nms:address&quot;).
+Dans cet exemple, nous déclarons un lien vers la table de schéma « nms:address ». La jointure est externe et est renseignée explicitement avec l’adresse e-mail du destinataire et le champ « @address » de la table liée (« nms:address »).
 
 ```
 <srcSchema name="recipient" namespace="cus">

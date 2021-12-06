@@ -9,7 +9,7 @@ exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 source-git-commit: 898353f80a93052cd25088098c9570c2b44ceac4
 workflow-type: tm+mt
 source-wordcount: '2403'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 98%
 
 ![](../../assets/common.svg)
 
-La description d&#39;un formulaire est un document XML structuré respectant la grammaire du schéma des formes **xtk:form**.
+La description d’un formulaire est un document XML structuré respectant la grammaire du schéma de formulaire **xtk:form**.
 
-Le document XML du formulaire de saisie doit contenir l&#39;élément racine `<form>` avec les attributs **name** et **namespace** pour renseigner respectivement le nom du formulaire et son espace de noms.
+Le document XML du formulaire de saisie doit contenir l’élément racine `<form>` avec les attributs **nom** et **espace de noms** pour renseigner le nom et l’espace de noms du formulaire.
 
 ```xml
 <form name="form_name" namespace="name_space">
@@ -134,11 +134,11 @@ La balise **`<static>`** avec le type **separator** permet d&#39;ajouter une bar
 
 Un texte d&#39;aide a été ajouté à l&#39;aide de la balise `<static>` avec le type d&#39;aide. Le contenu du texte est saisi dans l&#39;attribut **label**.
 
-## Les conteneurs {#containers}
+## Conteneurs {#containers}
 
 Les conteneurs permettent de regrouper un ensemble de contrôles. Ils sont représentés par l’élément **`<container>`**. Ils ont été utilisés ci-dessus pour mettre en forme les contrôles sur plusieurs colonnes.
 
-L&#39;attribut **xpath** sur un `<container>` permet de simplifier le référencement des contrôles enfants. Le référencement des contrôles est alors relatif au parent. `<container>` élément .
+L&#39;attribut **xpath** sur un `<container>` permet de simplifier le référencement des contrôles enfants. Le référencement des contrôles est alors relatif à l’élément `<container>` parent.
 
 Exemple de conteneur sans &quot;xpath&quot; :
 
@@ -448,7 +448,7 @@ L&#39;attribut **toolbarCaption** force l&#39;alignement horizontal de la barre 
 
 #### Zoom dans les listes {#zoom-in-a-list}
 
-L&#39;insertion et l&#39;édition des données d&#39;une liste peut être renseigné dans une forme d&#39;édition séparée.
+L’insertion et l’édition des données d’une liste peuvent être renseignées dans un formulaire de modification séparé.
 
 ![](assets/d_ncs_integration_form_exemple15.png)
 
@@ -464,7 +464,7 @@ L&#39;insertion et l&#39;édition des données d&#39;une liste peut être rensei
 </input>
 ```
 
-Le formulaire d&#39;édition est rempli à partir de l&#39;élément `<form>` sous la définition de liste. Sa structure est identique à celle d&#39;un formulaire de saisie. Le bouton **[!UICONTROL Détail]** est ajouté automatiquement lorsque l&#39;attribut **zoom=&quot;true&quot;** est renseigné sur la balise **`<input>`** de la liste. Cet attribut permet de lancer le formulaire d&#39;édition de la ligne sélectionnée.
+Le formulaire de modification est rempli à partir de l’élément `<form>` sous la définition de liste. Sa structure est identique à celle d&#39;un formulaire de saisie. Le bouton **[!UICONTROL Détail]** est ajouté automatiquement lorsque l&#39;attribut **zoom=&quot;true&quot;** est renseigné sur la balise **`<input>`** de la liste. Cet attribut permet de lancer le formulaire d&#39;édition de la ligne sélectionnée.
 
 >[!NOTE]
 >
@@ -508,7 +508,7 @@ Exemple sur le champ &quot;Genre&quot; :
 
 ![](assets/d_ncs_integration_form_exemple17.png)
 
-## Bouton à cocher {#checkbox}
+## Case à cocher {#checkbox}
 
 Une case à cocher permet de refléter un état booléen (qu&#39;elle soit cochée ou non). Par défaut, ce contrôle est utilisé par les champs de type &quot;booléen&quot; (true/false). On peut associer à ce bouton une variable qui prendra par défaut la valeur 0 ou 1. Cette valeur peut être surchargée à partir de l&#39;attribut **checkValue**.
 
@@ -546,7 +546,7 @@ Les contrôles à éditer sont regroupés dans un **`<container>`** renseigné s
 
 ## Champ d&#39;expression {#expression-field}
 
-Un champ d’expression met à jour dynamiquement un champ à partir d’une expression ; la valeur **`<input>`** est utilisée avec une balise **xpath** pour saisir le chemin du champ à mettre à jour et un **expo** contenant l’expression de mise à jour.
+Un champ d’expression permet de mettre à jour dynamiquement un champ à partir d’une expression ; la balise **`<input>`** est utilisée avec un attribut **xpath** pour renseigner le chemin du champ à mettre à jour et un attribut **expo** contenant l’expression de mise à jour.
 
 ```xml
 <!-- Example: updating the boolean1 field from the value contained in the field with path /tmp/@flag -->
@@ -585,7 +585,7 @@ La mise à jour du contexte du formulaire peut être effectuée à l&#39;initial
 
 >[!NOTE]
 >
->Les balises `<enter>` et `<leave>` peuvent être utilisées sur les `<container>` de pages (types &quot;notebook&quot; et &quot;iconbox&quot;).
+>Les balises `<enter>` et `<leave>` peuvent être utilisées sur les `<container>` des pages (types « notebook » et « iconbox »).
 
 ### Langage d&#39;expression {#expression-language-}
 

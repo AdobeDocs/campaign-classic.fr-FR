@@ -9,7 +9,7 @@ exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '3201'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -207,7 +207,7 @@ Les options disponibles pour chaque champ de la table concernée par l&#39;impor
 
 Il est nécessaire de renseigner au moins une clé de réconciliation pour gérer le dédoublonnage.
 
-Une clé de réconciliation est un ensemble de champs utilisé pour identifier un enregistrement. Par exemple, pour importer des destinataires, la clé de réconciliation peut être le numéro de compte, le champ &quot;email&quot;, les champs &quot;Nom, Prénom, Société&quot;, etc.
+Une clé de réconciliation est un ensemble de champs permettant d’identifier un enregistrement. Par exemple pour un import de destinataires, la clé de réconciliation peut être le numéro de compte, le champ « E-mail » ou encore les champs « Nom, Prénom, Société », etc.
 
 Dans ce cas, pour savoir si une ligne du fichier correspond à un destinataire existant dans la base de données, le moteur d&#39;import compare les valeurs du fichier avec celles de la base de données pour tous les champs de la clé. Plus les champs sont spécifiques à un enregistrement, plus la comparaison entre les données source et destination pourra être fine et garantir l&#39;intégrité des données après l&#39;import. Il est possible de renseigner une seconde clé de réconciliation pour une même table : elle sera utilisée pour les lignes dont la première clé est vide.
 
@@ -246,7 +246,7 @@ Les options **[!UICONTROL Rejeter]** et **[!UICONTROL Ignorer]** fonctionnent co
 
 ### En cas d’erreur {#behavior-in-the-event-of-an-error}
 
-La plupart des opérations de transfert de données génèrent divers types d&#39;erreurs (format de ligne incohérent, adresse email invalide, etc.). Toutes les erreurs et tous les avertissements générés par le moteur d&#39;import sont stockés et associés à l&#39;instance d&#39;import.
+La plupart des opérations de transfert de données génèrent des erreurs qui peuvent être de différentes natures (format de ligne incohérent, e-mail invalide, etc.). Toutes les erreurs et tous les avertissements générés par le moteur d’import sont stockés et liés à l’instance d’import.
 
 ![](assets/s_ncs_user_import_general_tab.png)
 
