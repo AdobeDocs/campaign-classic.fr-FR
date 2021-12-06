@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: api
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1885'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 ![](../../assets/v7-only.svg)
 
-Les API orientées données permettent d&#39;adresser le modèle de données dans son intégralité.
+Les API orientées données permettent d’adresser le modèle de données dans son intégralité.
 
 ## Principe du modèle de données {#overview-of-the-datamodel}
 
@@ -146,7 +146,7 @@ La syntaxe **XPath** sert à localiser les données en fonction du schéma de d�
 
 #### Exemple avec l&#39;opération &#39;get&#39; {#example-with-the--get--operation}
 
-Récupère le nom et le prénom d&#39;un destinataire (schéma &quot;nms:recipient&quot;) avec un filtre sur l&#39;email.
+Récupère le nom et le prénom d’un destinataire (schéma « nms:recipient ») avec un filtre sur l’e-mail.
 
 ```
 <queryDef schema="nms:recipient" operation="get">
@@ -163,9 +163,9 @@ Récupère le nom et le prénom d&#39;un destinataire (schéma &quot;nms:recipie
 </queryDef>
 ```
 
-#### Exemple avec l&#39;operation &#39;select&#39; {#example-with-the--select--operation}
+#### Exemple avec l’opération « select » {#example-with-the--select--operation}
 
-Renvoie la liste des destinataires filtrés sur un dossier et le domaine de l&#39;email avec un tri descendant sur la date de naissance.
+Retourne la liste des destinataires filtrés sur un dossier et le domaine de l’e-mail avec un tri décroissant sur la date de naissance.
 
 ```
 <queryDef schema="nms:recipient" operation="select">
@@ -225,7 +225,7 @@ Pour compter le nombre d&#39;enregistrements sur une requête :
 
 #### Groupement de données {#data-grouping}
 
-Pour récupérer les adresses email référencées plusieurs fois :
+Pour récupérer les adresses e-mail référencées plus d’une fois :
 
 ```
 <queryDef schema="nms:recipient" operation="select">
@@ -348,7 +348,7 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
 
    Les éléments de filtrage ( `<orderby>` ) et de restriction ( `<where>` ) peuvent être ajoutés à l’élément de collection.
 
-   Dans cet exemple, pour chaque destinataire, la requête renvoie l&#39;email et la liste des services d&#39;information auxquels il est abonné :
+   Dans cet exemple, la requête retourne l’e-mail de chaque destinataire ainsi que la liste des services d’information auxquels il est abonné :
 
    ```
    <queryDef schema="nms:recipient" operation="select">
@@ -533,7 +533,7 @@ Définition des méthodes &quot;Write&quot; et &quot;WriteCollection&quot; dans 
 >
 >Cette méthode est de type &quot;static&quot;, les paramètres en entrée sont compris dans un document XML au format du schéma à mettre à jour.
 
-### Vue d&#39;ensemble {#overview}
+### Vue d’ensemble {#overview}
 
 La réconciliation des données s&#39;opère à partir de la définition des clés renseignées dans le schéma associé. La procédure d&#39;écriture va rechercher la première clé éligible en fonction des données renseignées dans le document en entrée. L&#39;entité est insérée ou mise à jour en fonction de son existence dans la base de données.
 
@@ -551,7 +551,7 @@ Il est possible de forcer le type d&#39;opération en renseignant l&#39;attribut
 
 ### Exemple avec la méthode &#39;Write&#39; {#example-with-the--write--method}
 
-Mise à jour ou insertion d&#39;un destinataire (opération &quot;insertOrUpdate&quot; implicite) avec son adresse email, sa date de naissance et sa ville :
+Mise à jour ou insertion d’un destinataire (opération « insertOrUpdate » implicite) avec son adresse e-mail, sa date de naissance et sa ville :
 
 ```
 <recipient xtkschema="nms:recipient" email="john.doe@adobe.com" birthDate="1956/05/04" folder-id=1203 _key="@email, [@folder-id]">
@@ -595,11 +595,11 @@ Associer le dossier sur un destinataire à partir de son nom interne (@name).
 
 Les attributs &quot;_key&quot; et &quot;_operation&quot; peuvent être renseignés sur un élément lié, le comportement sur cet élément est le même que sur l&#39;élément principal du schéma de départ.
 
-La définition de la clé de l&#39;entité principale (&quot;nms:recipient&quot;) est composée d&#39;un champ provenant d&#39;une table liée (élément `<folder>`  schéma &quot;xtk:folder&quot;) et l&#39;email.
+La définition de la clé de l’entité principale (« nms:recipient ») est composée d’un champ provenant d’une table liée (élément `<folder>` du schéma « xtk:folder ») et de l’e-mail.
 
 >[!NOTE]
 >
->L&#39;opération &quot;none&quot; renseignée sur l&#39;élément dossier définit une réconciliation sur le dossier sans mise à jour ni insertion.
+>L’opération « aucun » renseignée sur l’élément dossier définit une réconciliation sur le dossier sans mise à jour ni insertion.
 
 #### Exemple 2 {#example-2}
 
