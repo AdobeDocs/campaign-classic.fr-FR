@@ -452,7 +452,7 @@ ht-degree: 99%
       + [À propos des activités d’action](workflow/using/about-action-activities.md)
       + [Diffusion](workflow/using/delivery.md)
       + [Agir sur une diffusion](workflow/using/delivery-control.md)
-      + [Diffusion (au fil de l&#39;eau)](workflow/using/continuous-delivery.md)
+      + [Diffusion au fil de l&#39;eau](workflow/using/continuous-delivery.md)
       + [Diffusion récurrente](workflow/using/recurring-delivery.md)
       + [Diffusions cross-canal](workflow/using/cross-channel-deliveries.md)
       + [Validation en local](workflow/using/local-approval.md)

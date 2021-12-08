@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Diffusion (au fil de l'eau)
-description: Diffusion (au fil de l'eau)
+title: Diffusion au fil de l'eau
+description: Diffusion au fil de l'eau
 audience: workflow
 content-type: reference
 topic-tags: action-activities
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Diffusion (au fil de l&#39;eau){#continuous-delivery}
+# Diffusion au fil de l&#39;eau{#continuous-delivery}
 
 ![](../../assets/common.svg)
 
@@ -50,19 +50,19 @@ Ce triplet de valeurs identifie la cible résultant de la diffusion à la volée
 
 La transition associée au complémentaire possède les mêmes paramètres.
 
-## Comment configurer une diffusion (au fil de l’eau)
+## Comment configurer une diffusion au fil de l’eau
 
-Cette section explique comment configurer une diffusion (au fil de l’eau).
+Cette section explique comment configurer une diffusion au fil de l’eau.
 
-Une **diffusion (au fil de l’eau)** permet d&#39;ajouter de nouveaux destinataires à une diffusion existante, ce qui évite d&#39;avoir à créer une diffusion chaque fois qu’un nouveau destinataire est ajouté. Vous pouvez mettre à jour le contenu créatif directement dans le workflow de campagne et le modèle sera mis à jour dans le dossier Ressource du modèle de diffusion.
+Une **diffusion au fil de l’eau** permet d&#39;ajouter de nouveaux destinataires à une diffusion existante, ce qui évite d&#39;avoir à créer une diffusion chaque fois qu’un nouveau destinataire est ajouté. Vous pouvez mettre à jour le contenu créatif directement dans le workflow de campagne et le modèle sera mis à jour dans le dossier Ressource du modèle de diffusion.
 
-Une diffusion (au fil de l’eau) crée une diffusion et des logs de diffusion UNIQUES (broadLog) et des logs de tracking qui font référence à l&#39;ajout d&#39;une diffusion chaque fois qu&#39;elle s&#39;exécute.
+Une diffusion au fil de l’eau crée une diffusion et des logs de diffusion UNIQUES (broadLog) et des logs de tracking qui font référence à l&#39;ajout d&#39;une diffusion chaque fois qu&#39;elle s&#39;exécute.
 
-![Diffusion (au fil de l’eau)](assets/delivery_continuous.jpg)
+![Diffusion au fil de l’eau](assets/delivery_continuous.jpg)
 
 ## Tutoriel vidéo {#continuous-delivery-video}
 
-Cette vidéo montre comment configurer une diffusion (au fil de l’eau) avec une requête incrémentale.
+Cette vidéo montre comment configurer une diffusion au fil de l’eau avec une requête incrémentale.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 

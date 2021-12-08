@@ -229,7 +229,7 @@ Une fois les données identifiées et préparées, elles peuvent être utilisée
 
 * Vous pouvez préparer ou démarrer des diffusions directement dans le workflow.
 
-   Voir à ce propos les sections [Diffusion](delivery.md), [Agir sur une diffusion](delivery-control.md) et [Diffusion (au fil de l’eau)](continuous-delivery.md).
+   Voir à ce propos les sections [Diffusion](delivery.md), [Agir sur une diffusion](delivery-control.md) et [Diffusion au fil de l’eau](continuous-delivery.md).
 
 ## Data Management {#data-management}
 

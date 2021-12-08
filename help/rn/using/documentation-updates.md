@@ -255,7 +255,7 @@ Des vidéos pratiques sont désormais disponibles concernant les rubriques suiva
 
 * [Configuration d’une diffusion récurrente](../../workflow/using/recurring-delivery.md)
 
-* [Comment configurer une diffusion (au fil de l’eau)](../../workflow/using/continuous-delivery.md)
+* [Comment configurer une diffusion au fil de l’eau](../../workflow/using/continuous-delivery.md)
 
 Des informations ont été ajoutées concernant les vérifications et actions à effectuer lors de l’obtention de l&#39;erreur « Impossible de résoudre le nom d’hôte » après la connexion à un serveur FTP. [En savoir plus](../../platform/using/sftp-server-usage.md)
 
