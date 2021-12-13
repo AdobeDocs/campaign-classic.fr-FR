@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
 workflow-type: tm+mt
 source-wordcount: '2575'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -596,7 +596,7 @@ ht-degree: 99%
       + [Créez une application Facebook](social/using/creating-a-facebook-application.md)
       + [Configuration de la publication sur Twitter](social/using/configuring-publishing-on-twitter.md)
    + Publication sur les médias sociaux {#publishing-on-facebook-twitter}
-      + [Prise en main des médias sociaux](social/using/overview.md)
+      + [Prise en main des réseaux sociaux](social/using/overview.md)
       + [Publication sur Facebook](social/using/publishing-on-facebook.md)
       + [Publication sur Twitter](social/using/publishing-on-twitter.md)
    + Annexes {#annexes}
