@@ -3,8 +3,8 @@ product: campaign
 title: Migration vers le connecteur Adobe Analytics
 description: FAQ sur Campaign - Connecteur Analytics
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 18b31ae504e1f1d13980bdf38925b38279b3be8c
-workflow-type: tm+mt
+source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
+workflow-type: ht
 source-wordcount: '855'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 À compter de la version 21.1.3 de Campaign Classic v7, le connecteur de données Adobe Analytics est obsolète. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=fr)
 
-Le 1er août 2021, Adobe Campaign Classic a été supprimé de l’interface utilisateur des connecteurs de données héritée. Toutefois, les intégrations Campaign existantes continueront à collecter et à transmettre des données à Adobe Analytics jusqu’en août 2022. Passée cette date, l’intégration cessera de collecter et de transmettre des données à Adobe Analytics.
+Le 1er août 2021, Adobe Campaign Classic a été supprimé de l’interface utilisateur des connecteurs de données héritée. Toutefois, les intégrations Campaign existantes continueront à collecter et à transmettre des données à Adobe Analytics jusqu’au 17 août 2022. Passée cette date, l’intégration cessera de collecter et de transmettre des données à Adobe Analytics.
 
 Vous **devez implémenter** la nouvelle intégration du connecteur Adobe Analytics sur Adobe Exchange. Elle remplace l’ancienne intégration des connecteurs de données. Pour en savoir plus sur le connecteur Adobe Analytics, reportez-vous à [cette page](../../platform/using/adobe-analytics-connector.md).
 
@@ -36,7 +36,7 @@ Une nouvelle intégration entre Campaign Classic v7 et Adobe Analytics est d�
 
 * Les workflows techniques natifs et leur comportement restent les mêmes. Seules les API principales utilisées par les workflows pour transmettre/extraire des données vers/depuis Adobe Analytics ont été modifiées.
 
-* Veuillez noter que le processus `nlserver` doit être configuré avec l&#39;utilisateur du compte technique IMS pour que le nouveau connecteur fonctionne. Ce changement doit être effectué par Adobe. Pour que celui-ci soit mis en œuvre, contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+* Veuillez noter que le processus `nlserver` doit être configuré avec l&#39;utilisateur du compte technique IMS pour que le nouveau connecteur fonctionne. Ce changement doit être effectué par Adobe. Pour que celui-ci soit mis en œuvre, contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * Si vous utilisiez des API Adobe Genesis dans des workflows personnalisés pour extraire et envoyer les données d’Adobe Analytics, vous devez désormais utiliser les nouvelles API Adobe Analytics 1.4/2.0. [En savoir plus](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360047148832-Replacements-for-Data-Connector-API-calls)
 
@@ -48,7 +48,7 @@ Découvrez comment vérifier votre version [dans cette section](../../platform/u
 
 ## Comment effectuer la mise à jour ?
 
-Vous devez effectuer la mise à niveau vers Campaign 21.1.3 (ou version ultérieure) **avant août 2022**.
+Vous devez effectuer la mise à niveau vers Campaign 21.1.3 (ou version ultérieure) **avant le 17 août 2022**.
 
 Parce que vous êtes un client hébergé, Adobe collaborera avec vous afin de mettre à niveau votre ou vos instance(s) vers la nouvelle version. Vous pourrez ensuite utiliser le [connecteur Adobe Analytics](../../platform/using/adobe-analytics-connector.md).
 
@@ -82,7 +82,7 @@ L&#39;intégration repose sur les données du jeton de compte technique pour le 
 
 Si nous lisons les détails d&#39;un composant Analytics (comme les mesures/dimensions/segments/suites de rapports), l&#39;API ne renverra pas ces composants dans le résultat (il peut alors sembler que quelque chose a été supprimé du côté Analytics ou est absent). L&#39;API Analytics rejettera ces requêtes et génèrera une erreur.
 
-La solution consiste à mettre à jour le **profil de produit** dans le contexte utilisateur Analytics du jeton d&#39;utilisateur technique avec les composants nouvellement créés/manquants en ajoutant ces composants dans [Adobe Admin Console](https://adminconsole.adobe.com/). Pour d&#39;autres conseils, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+La solution consiste à mettre à jour le **profil de produit** dans le contexte utilisateur Analytics du jeton d&#39;utilisateur technique avec les composants nouvellement créés/manquants en ajoutant ces composants dans [Adobe Admin Console](https://adminconsole.adobe.com/). Pour d&#39;autres conseils, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Liens utiles
 
