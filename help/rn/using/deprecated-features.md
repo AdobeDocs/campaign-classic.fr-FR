@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: f7c4603e389b19c057ee72bb50ed30d03b60f4bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1700'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,14 +44,14 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td><strong>Remplacement</strong></td>
   </tr>
   <tr>
-  <td>CentOs 8.x (64 bits)<br></td>
-   <td><p>CentOS Linux 8 atteindra la fin de vie (EOL) le 31 décembre 2021. <a href="https://www.centos.org/centos-linux-eol/">En savoir plus</a></p>
-   <p>Si vous utilisez ce système d’exploitation, vous devez adapter votre mise en oeuvre en conséquence. CentOS 7.x (64 bits) et RHEL 8.x/7.x (64 bits) sont toujours pris en charge.</p>
-  <p><em>Date de suppression prévue : 31 décembre 2021.</em></p>
+  <td>CentOs 8.x (64 bits)<br></td>
+   <td><p>CentOS Linux 8 atteindra sa fin de vie (EOL) le 31 décembre 2021. <a href="https://www.centos.org/centos-linux-eol/">En savoir plus</a></p>
+   <p>Si vous utilisez ce système d’exploitation, vous devez adapter votre implémentation en conséquence. CentOS 7.x (64 bits) et RHEL 8.x/7.x (64 bits) sont toujours pris en charge.</p>
+  <p><em>Date de suppression prévue : 31 décembre 2021.</em></p>
   </td>
  </tr>
     <tr>
-  <td>Adobe Analytics Data Connector<br></td>
+  <td>Connecteur de données Adobe Analytics<br></td>
    <td><p>À compter de la version 21.1.3 de Campaign, le connecteur de données Adobe Analytics est obsolète.</p>
    <p>Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. <a href="../../platform/using/adobe-analytics-connector.md">En savoir plus</a></p>
   <p><em>Date de suppression prévue : août 2022</em></p>
