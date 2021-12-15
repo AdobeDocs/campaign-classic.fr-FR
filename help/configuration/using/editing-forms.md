@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 49a98ec82b1d62f3af19260888da8eb24e460938
+source-git-commit: 42717f3ef3bcda4108dad6a4c0ece752ada579a2
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 100%
+source-wordcount: '1680'
+ht-degree: 99%
 
 ---
 
@@ -322,7 +322,7 @@ Pour modifier le type d’un formulaire existant en `iconbox`, procédez comme s
       ```
    Vous pouvez également supprimer l’attribut `type="frame"` des éléments `<container>` existants.
 
-### Création d’un formulaire `notebook`
+### Création d’un formulaire de notebook
 
 Utilisez le type de formulaire `notebook` pour afficher des onglets dans la partie supérieure du formulaire, qui redirigent les utilisateurs vers différentes pages.
 
