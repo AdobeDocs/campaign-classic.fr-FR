@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 0d132f56e7888ad810e309b97b9337ec56fe1ee0
+source-git-commit: c08a4b3540da6370584e32e13723bee352402914
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1143'
 ht-degree: 99%
 
 ---
@@ -407,12 +407,5 @@ Par conséquent, la page **Général** du formulaire externe affiche les onglets
 ## Modification d’un formulaire de saisie d’usine {#modify-factory-form}
 
 Pour modifier un formulaire d’usine, procédez comme suit :
-
-1. Vous pouvez éventuellement étendre le schéma de données associé :
-
-   1. Dans le menu, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Schémas de données]**.
-   1. Sélectionnez un schéma de données et étendez-le. Vous pouvez par exemple ajouter des champs. [En savoir plus](extending-a-schema.md).
-
-
 
 
