@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: f4b9ac3300094a527b5ec1b932d204f0e8e5ee86
+source-git-commit: 0dfce3b514fefef490847d669846e515b714d222
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '1130'
+ht-degree: 99%
 
 ---
 
@@ -169,5 +169,237 @@ Cet exemple montre les références aux images `book.png` et `detail.png` de l�
 ```
 
 Ces images constituent les icônes sur lesquelles les utilisateurs cliquent pour parcourir un formulaire à plusieurs pages :
+
+![](assets/nested_forms_preview.png)
+
+
+## Création d’un formulaire simple {#create-simple-form}
+
+Pour créer un formulaire, procédez comme suit :
+
+1. Dans le menu, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Formulaires de saisie]**.
+1. Cliquez sur le bouton **[!UICONTROL Nouveau]** dans le coin supérieur droit de la liste.
+
+   ![](assets/input-form-create-1.png)
+
+1. Renseignez les propriétés du formulaire :
+
+   * Renseignez le nom du formulaire et l’espace de noms.
+
+      Le nom du formulaire et l’espace de noms peuvent correspondre au schéma de données associé.  Cet exemple montre un formulaire pour le schéma de données `cus:order` :
+
+      ```xml
+      <form entitySchema="xtk:form" img="xtk:form.png" label="Order" name="order" namespace="cus" type="iconbox" xtkschema="xtk:form">
+        […]
+      </form>
+      ```
+
+      Vous pouvez également renseigner explicitement le schéma de données dans l’attribut `entity-schema`.
+
+      ```xml
+      <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
+        […]
+      </form>
+      ```
+
+   * Renseignez le libellé à afficher sur le formulaire.
+   * Vous pouvez éventuellement renseigner le type de formulaire. Si vous ne renseignez pas de type de formulaire, le type Écran console est utilisé par défaut.
+
+      ![](assets/input-form-create-2.png)
+
+      Si vous concevez un formulaire à plusieurs pages, vous pouvez omettre le type de formulaire dans l’élément `<form>` et renseigner le type dans un conteneur.
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+1. Insérez les éléments de formulaire.
+
+   Par exemple, pour insérer un champ de saisie, utilisez l’élément `<input>`. Définissez l’attribut `xpath` sur la référence du champ en tant qu’expression XPath. [En savoir plus](schema-structure.md#referencing-with-xpath).
+
+   Cet exemple montre des champs de saisie basés sur le schéma `nms:recipient`.
+
+   ```xml
+   <input xpath="@firstName"/>
+   <input xpath="@lastName"/>
+   ```
+
+1. Si le formulaire est basé sur un type de schéma spécifique, vous pouvez rechercher les champs de ce schéma :
+
+   1. Cliquez sur **[!UICONTROL Insérer]** > **[!UICONTROL Champs du document]**.
+
+      ![](assets/input-form-create-4.png)
+
+   1. Sélectionnez le champ et cliquez sur **[!UICONTROL OK]**.
+
+      ![](assets/input-form-create-5.png)
+
+1. Vous pouvez éventuellement renseigner l’éditeur de champ.
+
+   Un éditeur de champ par défaut est associé à chaque type de données :
+   * Pour un champ de type date, le formulaire affiche un calendrier de saisie.
+   * Pour un champ de type énumération, le formulaire affiche une liste de sélection.
+
+   Vous pouvez utiliser les types d’éditeur de champ suivants :
+
+   | Éditeur de champ | Attribut de formulaire |
+   | --- | --- |
+   | Bouton radio | `type="radiobutton"` |
+   | Case à cocher | `type="checkbox"` |
+   | Modifier l’arborescence | `type="tree"` |
+
+   En savoir plus sur les [contrôles de liste de mémoire](form-structure.md#memory-list-controls).
+
+1. Vous pouvez éventuellement définir l’accès aux champs :
+
+   | Élément | Attribut | Description |
+   | --- | --- | --- |
+   | `<input>` | `read-only:"true"` | Fournit un accès en lecture seule à un champ |
+   | `<container>` | `type="visibleGroup" visibleIf="`*edit-expr*`"` | Affiche de manière conditionnelle un groupe de champs |
+   | `<container>` | `type="enabledGroup" enabledIf="`*edit-expr*`"` | Active de manière conditionnelle un groupe de champs |
+
+   Exemple :
+
+   ```xml
+   <container type="enabledGroup" enabledIf="@gender=1">
+     […]
+   </container>
+   <container type="enabledGroup" enabledIf="@gender=2">
+     […]
+   </container>
+   ```
+
+1. Vous pouvez éventuellement utiliser des conteneurs pour regrouper des champs en sections.
+
+   ```xml
+   <container type="frame" label="Name">
+      <input xpath="@firstName"/>
+      <input xpath="@lastName"/>
+   </container>
+   <container type="frame" label="Contact details">
+      <input xpath="@email"/>
+      <input xpath="@phone"/>
+   </container>
+   ```
+
+   ![](assets/input-form-create-3.png)
+
+## Création d’un formulaire à plusieurs pages {#create-multipage-form}
+
+Vous pouvez créer des formulaires à plusieurs pages. Vous pouvez également imbriquer des formulaires dans d’autres formulaires.
+
+### Création d’un formulaire `iconbox`
+
+Utilisez le type de formulaire `iconbox` pour afficher des icônes à gauche du formulaire, qui redirigent les utilisateurs vers différentes pages du formulaire.
+
+![](assets/iconbox_form_preview.png)
+
+Pour modifier le type d’un formulaire existant en `iconbox`, procédez comme suit :
+
+1. Modifiez l’attribut `type` de l’élément `<form>` en `iconbox` :
+
+   ```xml
+   <form […] type="iconbox">
+   ```
+
+1. Définissez un conteneur pour chaque page de formulaire :
+
+   1. Ajoutez un élément `<container>` comme enfant de l’élément `<form>`.
+   1. Pour définir un libellé et une image pour l’icône, utilisez les attributs `label` et `img`.
+
+      ```xml
+      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="iconbox" xtkschema="xtk:form">
+          <container img="xtk:properties.png" label="General">
+              <input xpath="@label"/>
+              <input xpath="@name"/>
+              […]
+          </container>
+          <container img="nms:msgfolder.png" label="Details">
+              <input xpath="@address"/>
+              […]
+          </container>
+          <container img="nms:supplier.png" label="Services">
+              […]
+          </container>
+      </form>
+      ```
+   Vous pouvez également supprimer l’attribut `type="frame"` des éléments `<container>` existants.
+
+### Création d’un formulaire de notebook
+
+Utilisez le type de formulaire `notebook` pour afficher des onglets dans la partie supérieure du formulaire, qui redirigent les utilisateurs vers différentes pages.
+
+![](assets/notebook_form_preview.png)
+
+Pour modifier le type d’un formulaire existant en `notebook`, procédez comme suit :
+
+1. Modifiez l’attribut `type` de l’élément `<form>` en `notebook` :
+
+   ```xml
+   <form […] type="notebook">
+   ```
+
+1. Ajoutez un conteneur pour chaque page de formulaire :
+
+   1. Ajoutez un élément `<container>` comme enfant de l’élément `<form>`.
+   1. Pour définir le libellé et l’image de l’icône, utilisez les attributs `label` et `img`.
+
+   ```xml
+     <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="notebook" xtkschema="xtk:form">
+         <container label="General">
+             <input xpath="@label"/>
+             <input xpath="@name"/>
+             […]
+         </container>
+         <container label="Details">
+             <input xpath="@address"/>
+             […]
+         </container>
+         <container label="Services">
+             […]
+         </container>
+     </form>
+   ```
+
+   Vous pouvez également supprimer l’attribut `type="frame"` des éléments `<container>` existants.
+
+### Imbrication de formulaires {#nest-forms}
+
+Vous pouvez imbriquer des formulaires dans d’autres formulaires. Vous pouvez, par exemple, imbriquer des formulaires de type notebook dans des formulaires de type iconbox.
+
+Le niveau d’imbrication contrôle la navigation. Les utilisateurs peuvent accéder aux sous-formulaires.
+
+Pour imbriquer un formulaire dans un autre formulaire, insérez un élément `<container>` et définissez l’attribut `type` sur le type de formulaire. Vous pouvez définir le type du formulaire de niveau supérieur dans un conteneur externe ou dans l’élément `<form>`.
+
+### Exemple
+
+Cet exemple montre un formulaire complexe :
+
+* Le formulaire de niveau supérieur est un formulaire de type iconbox. Ce formulaire comprend deux conteneurs libellés **Général** et **Détails**.
+
+   Par conséquent, le formulaire externe affiche les pages **Général** et **Détails** au niveau supérieur. Pour accéder à ces pages, les utilisateurs doivent cliquer sur les icônes situées à gauche du formulaire.
+
+* Le sous-formulaire est un formulaire de type notebook imbriqué dans le conteneur **Général**. Le sous-formulaire se compose de deux conteneurs libellés **Nom** et **Contact**.
+
+```xml
+<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
+  <container type="iconbox">
+    <container img="ncm:general.png" label="General">
+      <container type="notebook">
+        <container label="Name">
+          <input xpath="@firstName"/>
+          <input xpath="@lastName"/>
+        </container>
+        <container label="Contact">
+          <input xpath="@email"/>
+        </container>
+      </container>
+    </container>
+    <container img="ncm:detail.png" label="Details">
+      <input xpath="@birthDate"/>
+    </container>
+  </container>
+</form>
+```
+
+Par conséquent, la page **Général** du formulaire externe affiche les onglets **Nom** et **Contact**.
 
 ![](assets/nested_forms_preview.png)
