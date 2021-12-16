@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 2b7341bb7fd5ecd93ccc9abd27789a013fda37fa
+source-git-commit: df3c833e99caeb94df1978dc8792b86c8634626b
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 99%
@@ -361,7 +361,7 @@ Pour modifier le type d’un formulaire existant en `notebook`, procédez comme 
 
    Vous pouvez également supprimer l’attribut `type="frame"` des éléments `<container>` existants.
 
-### Imbrication de formulaires {#nest-forms}
+### Imbrication de formulaires
 
 Vous pouvez imbriquer des formulaires dans d’autres formulaires. Vous pouvez, par exemple, imbriquer des formulaires de type notebook dans des formulaires de type iconbox.
 
