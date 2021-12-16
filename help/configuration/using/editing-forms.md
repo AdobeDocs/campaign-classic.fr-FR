@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 0dfce3b514fefef490847d669846e515b714d222
+source-git-commit: 1ab984d12c9beb0ba3378bbfb49d1d7d07e870f6
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1319'
 ht-degree: 99%
 
 ---
@@ -403,3 +403,24 @@ Cet exemple montre un formulaire complexe :
 Par conséquent, la page **Général** du formulaire externe affiche les onglets **Nom** et **Contact**.
 
 ![](assets/nested_forms_preview.png)
+
+## Modification d’un formulaire de saisie d’usine {#modify-factory-form}
+
+Pour modifier un formulaire d’usine, procédez comme suit :
+
+1. Vous pouvez éventuellement étendre le schéma de données associé :
+
+   1. Dans le menu, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Schémas de données]**.
+   1. Sélectionnez un schéma de données et étendez-le. Vous pouvez par exemple ajouter des champs. [En savoir plus](extending-a-schema.md).
+
+      >[!CAUTION]
+      > Ne modifiez pas les données d’origine dans un espace de noms d’usine, mais étendez-les dans un espace de noms personnalisé. La raison est que, lors des mises à niveau logicielles, toutes les données des espaces de noms d’usine sont écrasées. Par exemple, les données des espaces de noms d’usine `xtk`, `ncm` et `nms` sont écrasées. Les données de vos espaces de noms personnalisés ne sont pas modifiées.
+
+1. Modifiez le formulaire de saisie d’usine :
+
+   1. Dans le menu, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Formulaires de saisie]**.
+   1. Sélectionnez un formulaire de saisie et modifiez-le.
+
+   Vous pouvez étendre les schémas de données d’usine, mais pas les formulaires de saisie d’usine. Nous vous recommandons de modifier directement les formulaires de saisie d’usine sans les recréer. Lors des mises à niveau logicielles, les modifications que vous avez apportées dans les formulaires de saisie d’usine sont fusionnées avec les mises à niveau. Si la fusion automatique échoue, vous pouvez résoudre les conflits. [En savoir plus](../../production/using/upgrading.md#resolving-conflicts).
+
+   Par exemple, si vous étendez un schéma d’usine avec un champ supplémentaire, vous pouvez ajouter ce champ au formulaire d’usine associé.
