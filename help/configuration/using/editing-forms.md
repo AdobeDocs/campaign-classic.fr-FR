@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 1dfc1b8e9d0e4405b6a2bb6f1a90a04abb4173e5
+source-git-commit: dcfa6d1e5623792c852d164d636ebe19a7aaa614
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '1114'
 ht-degree: 99%
 
 ---
@@ -361,6 +361,23 @@ Pour modifier le type d’un formulaire existant en `notebook`, procédez comme 
 
    Vous pouvez également supprimer l’attribut `type="frame"` des éléments `<container>` existants.
 
+## Imbrication de formulaires {#nest-forms}
+
+Vous pouvez imbriquer des formulaires dans d’autres formulaires. Vous pouvez, par exemple, imbriquer des formulaires de type notebook dans des formulaires de type iconbox.
+
+Le niveau d’imbrication contrôle la navigation. Les utilisateurs peuvent accéder aux sous-formulaires.
+
+Pour imbriquer un formulaire dans un autre formulaire, insérez un élément `<container>` et définissez l’attribut `type` sur le type de formulaire. Vous pouvez définir le type du formulaire de niveau supérieur dans un conteneur externe ou dans l’élément `<form>`.
+
+### Exemple
+
+Cet exemple montre un formulaire complexe :
+
+* Le formulaire de niveau supérieur est un formulaire de type iconbox. Ce formulaire comprend deux conteneurs libellés **Général** et **Détails**.
+
+   Par conséquent, le formulaire externe affiche les pages **Général** et **Détails** au niveau supérieur. Pour accéder à ces pages, les utilisateurs doivent cliquer sur les icônes situées à gauche du formulaire.
+
+* Le sous-formulaire est un formulaire de type notebook imbriqué dans le conteneur **Général**. Le sous-formulaire se compose de deux conteneurs libellés **Nom** et **Contact**.
 
 
 
