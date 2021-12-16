@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: e712298a07ecfe345c0b53a4f07f6bc4c19106f7
+source-git-commit: 0d132f56e7888ad810e309b97b9337ec56fe1ee0
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1172'
 ht-degree: 99%
 
 ---
@@ -413,7 +413,6 @@ Pour modifier un formulaire d’usine, procédez comme suit :
    1. Dans le menu, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Schémas de données]**.
    1. Sélectionnez un schéma de données et étendez-le. Vous pouvez par exemple ajouter des champs. [En savoir plus](extending-a-schema.md).
 
-      >[!CAUTION]
-      > Ne modifiez pas les données d’origine dans un espace de noms d’usine, mais étendez-les dans un espace de noms personnalisé. La raison est que, lors des mises à niveau logicielles, toutes les données des espaces de noms d’usine sont écrasées. Par exemple, les données des espaces de noms d’usine `xtk`, `ncm` et `nms` sont écrasées. Les données de vos espaces de noms personnalisés ne sont pas modifiées.
+
 
 
