@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 31cf8dca13d53a3d6c450c04b45f8ed7e32f95b6
+source-git-commit: f35988634f732591abdbed9edc123924c4583f5a
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1130'
 ht-degree: 99%
 
 ---
@@ -404,5 +404,6 @@ Par conséquent, la page **Général** du formulaire externe affiche les onglets
 
 ![](assets/nested_forms_preview.png)
 
-## Modification d’un formulaire de saisie d’usine {#modify-factory-form}
+
+
 
