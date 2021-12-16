@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 1ab984d12c9beb0ba3378bbfb49d1d7d07e870f6
+source-git-commit: e712298a07ecfe345c0b53a4f07f6bc4c19106f7
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1225'
 ht-degree: 99%
 
 ---
@@ -416,11 +416,4 @@ Pour modifier un formulaire d’usine, procédez comme suit :
       >[!CAUTION]
       > Ne modifiez pas les données d’origine dans un espace de noms d’usine, mais étendez-les dans un espace de noms personnalisé. La raison est que, lors des mises à niveau logicielles, toutes les données des espaces de noms d’usine sont écrasées. Par exemple, les données des espaces de noms d’usine `xtk`, `ncm` et `nms` sont écrasées. Les données de vos espaces de noms personnalisés ne sont pas modifiées.
 
-1. Modifiez le formulaire de saisie d’usine :
 
-   1. Dans le menu, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Formulaires de saisie]**.
-   1. Sélectionnez un formulaire de saisie et modifiez-le.
-
-   Vous pouvez étendre les schémas de données d’usine, mais pas les formulaires de saisie d’usine. Nous vous recommandons de modifier directement les formulaires de saisie d’usine sans les recréer. Lors des mises à niveau logicielles, les modifications que vous avez apportées dans les formulaires de saisie d’usine sont fusionnées avec les mises à niveau. Si la fusion automatique échoue, vous pouvez résoudre les conflits. [En savoir plus](../../production/using/upgrading.md#resolving-conflicts).
-
-   Par exemple, si vous étendez un schéma d’usine avec un champ supplémentaire, vous pouvez ajouter ce champ au formulaire d’usine associé.
