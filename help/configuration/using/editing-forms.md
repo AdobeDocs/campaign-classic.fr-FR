@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: df3c833e99caeb94df1978dc8792b86c8634626b
+source-git-commit: 214f6874f87fce5518651f6ff818e99d5edea7e0
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1130'
 ht-degree: 99%
 
 ---
@@ -366,3 +366,40 @@ Pour modifier le type d’un formulaire existant en `notebook`, procédez comme 
 Vous pouvez imbriquer des formulaires dans d’autres formulaires. Vous pouvez, par exemple, imbriquer des formulaires de type notebook dans des formulaires de type iconbox.
 
 Le niveau d’imbrication contrôle la navigation. Les utilisateurs peuvent accéder aux sous-formulaires.
+
+Pour imbriquer un formulaire dans un autre formulaire, insérez un élément `<container>` et définissez l’attribut `type` sur le type de formulaire. Vous pouvez définir le type du formulaire de niveau supérieur dans un conteneur externe ou dans l’élément `<form>`.
+
+### Exemple
+
+Cet exemple montre un formulaire complexe :
+
+* Le formulaire de niveau supérieur est un formulaire de type iconbox. Ce formulaire comprend deux conteneurs libellés **Général** et **Détails**.
+
+   Par conséquent, le formulaire externe affiche les pages **Général** et **Détails** au niveau supérieur. Pour accéder à ces pages, les utilisateurs doivent cliquer sur les icônes situées à gauche du formulaire.
+
+* Le sous-formulaire est un formulaire de type notebook imbriqué dans le conteneur **Général**. Le sous-formulaire se compose de deux conteneurs libellés **Nom** et **Contact**.
+
+```xml
+<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
+  <container type="iconbox">
+    <container img="ncm:general.png" label="General">
+      <container type="notebook">
+        <container label="Name">
+          <input xpath="@firstName"/>
+          <input xpath="@lastName"/>
+        </container>
+        <container label="Contact">
+          <input xpath="@email"/>
+        </container>
+      </container>
+    </container>
+    <container img="ncm:detail.png" label="Details">
+      <input xpath="@birthDate"/>
+    </container>
+  </container>
+</form>
+```
+
+Par conséquent, la page **Général** du formulaire externe affiche les onglets **Nom** et **Contact**.
+
+![](assets/nested_forms_preview.png)
