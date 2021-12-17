@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: ebd5b04c30c54142433056904a5d80f5a8744ded
+source-git-commit: 5261021bde11bc9450a429f26aa493ca2398dbc7
 workflow-type: tm+mt
-source-wordcount: '2459'
-ht-degree: 100%
+source-wordcount: '2531'
+ht-degree: 97%
 
 ---
 
@@ -28,10 +28,11 @@ _8 octobre 2021_
 
 **Correctifs**
 
+* Amélioration du correctif de workflow de facturation disponible dans le build 9342, qui nécessitait un redémarrage manuel du workflow pour que le correctif soit appliqué. Désormais, le postupgrade redémarre automatiquement le workflow.
+
 * Correction dʼun problème qui pouvait entraîner le fonctionnement incorrect de la gestion des offres lors de lʼutilisation du module **Interaction** avec lʼoption [Power Booster](../../installation/using/power-booster-and-power-cluster.md) déployée. (NEO-39263)
 
 * Correction dʼune erreur « Lʼaffinité IP xxx est introuvable sur le serveur MID xxx » qui pouvait se produire lors de lʼenvoi dʼune diffusion comportant plusieurs affinités IP sur une instance multi-midsourcing. (NEO-37514)
-
 
 ## ![](assets/do-not-localize/orange_2.png) Version 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
 
@@ -49,9 +50,9 @@ _7 septembre 2021_
 
 **Autres changements**
 
+* Correction d’une régression introduite dans la version 21.1.3 avec la nouvelle barrière de sécurité du workflow de facturation. Le workflow de facturation a été exécuté sur des instances incorrectes et s’est écrasé en essayant d’envoyer le rapport de facturation qui n’a pas été généré. Vous devez redémarrer manuellement le workflow pour que le correctif soit appliqué.
 * Les connecteurs Microsoft CRM (déploiements Office 365 et On-premise) précédemment obsolètes ont été supprimés de l’interface. [En savoir plus](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Suite à la migration vers Tomcat 8, le script de configuration IIS a été mis à jour afin de corriger les problèmes d&#39;intégration IIS. (NEO-31019)
-* Une barrière de sécurité a été ajoutée pour permettre uniquement l’exécution du [workflow technique de facturation](../../production/using/monitoring-processes.md#billing-report) sur l’instance marketing.
 * L&#39;identification de la source de données a été améliorée dans les onglets de données et de schéma de la fenêtre **Visualiser la population** des transitions de workflow.
 * Des index de base de données manquants ont été ajoutés aux schémas suivants afin d’éviter des problèmes de mise à jour de la base de données : xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
@@ -193,6 +194,7 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 
 **Autres changements**
 
+* Une barrière de sécurité a été ajoutée pour permettre uniquement l’exécution du [workflow technique de facturation](../../production/using/monitoring-processes.md#billing-report) sur l’instance marketing.
 * Le tiers openssl pour Windows a été mis à jour vers la version 1.1.1h.
 * Dans la description du package Debian, nlserver a été changé en serveur Adobe Campaign Classic.
 
