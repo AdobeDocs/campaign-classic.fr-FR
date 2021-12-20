@@ -5,7 +5,7 @@ description: Note technique
 hide: true
 hidefromtoc: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
-source-git-commit: ed9e76495efb0cb49e248a7d38417642c5094a11
+source-git-commit: 70240d5f62fd3d7b755389b5ad8c4b499c94657d
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 100%
@@ -30,11 +30,12 @@ Si votre environnement s&#39;exécute sur l&#39;une des versions répertoriées 
 
 * Gold Standard 8 à 11. [En savoir plus](../../rn/using/gold-standard.md#gs-8)
 * Campaign versions 21.1.1 (build 9277) à 21.1.2 (build 9282). [En savoir plus](../../rn/using/latest-release.md)
-* Campaign versions 20.3.1 (build 9228) à 20.3.3 (build 9234). [En savoir plus](../../rn/using/release--20-3.md)
-* Campaign versions 20.2.1 (build 9178) à 20.2.4 (build 9187). [En savoir plus](../../rn/using/release--20-2.md)
-* Campaign versions 20.1.1 (build 9122) à 21.1.3 (build 9124). [En savoir plus](../../rn/using/release--20-1.md)
-* Campaign versions 19.2.2 (build 9080) à 19.2.3 (build 9081). [En savoir plus](../../rn/using/release--19-2.md)
-* Campaign versions 19.1.5 (build 9033) à 19.1.7 (build 9036). [En savoir plus](../../rn/using/release--19-1.md)
+* Campaign versions 20.3.1 (build 9228) à 20.3.3 (build 9234). [En savoir plus](../../rn/using/release--2020.md#release-20-3)
+* Campaign versions 20.2.1 (build 9178) à 20.2.4 (build 9187). [En savoir plus](../../rn/using/release--2020.md#release-20-2)
+* Campaign versions 20.1.1 (build 9122) à 21.1.3 (build 9124). [En savoir plus](../../rn/using/release--2020.md#release-20-1)
+* Campaign versions 19.2.2 (build 9080) à 19.2.3 (build 9081). [En savoir plus](../../rn/using/release--2019.md#release-19-2)
+* Campaign versions 19.1.5 (build 9033) à 19.1.7 (build 9036). [En savoir plus](../../rn/using/release--2019.md#release-19-1)
+
 
 Découvrez comment vérifier votre version [dans cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: ''
+source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 77%
 
 ---
 
@@ -17,19 +17,17 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign fait l&#39;objet de mises à jour régulières. En moyenne, deux ou trois versions mineures sont publiées chaque année avec de nouvelles fonctionnalités, des améliorations et des correctifs. En outre, nous publions périodiquement des builds avec des correctifs cumulatifs uniquement.
+Adobe Campaign fait l&#39;objet de mises à jour régulières. Une ou deux versions mineures sont publiées chaque année avec de nouvelles fonctionnalités, des améliorations et des correctifs. En outre, nous publions périodiquement des builds avec des correctifs cumulatifs uniquement.
 
 Cette fréquence régulière de mises à jour a pour but de vous fournir les dernières fonctionnalités et améliorations. Vous bénéficiez ainsi d’un environnement sécurisé et d’une expérience optimale avec notre produit.
 
-C&#39;est la raison pour laquelle nous pensons qu&#39;il est important que vous exécutiez la version la plus récente d’Adobe Campaign. Vous obtiendrez également un meilleur support, car l’identification, la reproduction et la résolution d’un problème sur un build récent sont généralement beaucoup plus rapides. De plus, de nombreux problèmes que vous pouvez rencontrer ont déjà été corrigés dans les builds les plus récents.
+C&#39;est la raison pour laquelle nous pensons qu&#39;il est essentiel que vous **exécuter la version la plus récente** d’Adobe Campaign. Vous obtiendrez également un meilleur support, car l’identification, la reproduction et la résolution d’un problème sur un build récent sont généralement beaucoup plus rapides. De plus, de nombreux problèmes que vous pouvez rencontrer ont déjà été corrigés dans les builds les plus récents.
 
 ## Statuts des versions{#rn-statuses}
 
-Un statut est associé à chaque build. Vous trouverez ci-dessous la liste des statuts et leur interprétation.
+Chaque nouvelle version est fournie avec un état matérialisé par une couleur.
 
 ![](assets/do-not-localize/green3.png) **Disponibilité générale** (GA) - Validée en production et recommandée par Adobe.
-
-Les **derniers builds en disponibilité générale** ont les versions suivantes : [[!DNL Gold Standard]  11](../../rn/using/gold-standard.md#gs-11) et [Campaign 21.1.4](../../rn/using/latest-release.md#release-21-1-4-build-9340).
 
 ![](assets/do-not-localize/limited3.png) **Disponibilité limitée** (LA) - Déploiement à la demande uniquement.
 
@@ -41,9 +39,9 @@ Les **derniers builds en disponibilité générale** ont les versions suivantes�
 
 ## Recommandations{#recommendations}
 
-Pour garantir une configuration stable, nous vous recommandons d’installer le même build stable sur tous les serveurs qui s’exécutent sur la même configuration client.
+Pour assurer une configuration stable, nous vous recommandons d’installer **le même build stable** sur tous les serveurs qui s’exécutent sur la même configuration client.
 
-En outre, la console cliente doit présenter le même build que l&#39;instance de serveur.
+En outre, la console cliente doit avoir le même build que l&#39;instance de serveur.
 
 Pour garder votre implémentation à jour, veillez à lire les pages [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md) et [Matrice de compatibilité](../../rn/using/compatibility-matrix.md) avec chaque nouvelle version.
 
@@ -62,6 +60,7 @@ En tant qu’utilisateur [!DNL Gold Standard] hébergé, vous bénéficiez autom
 
 ## Support et autres liens utiles{#support}
 
+* [Rechercher votre version de Campaign](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 * [Aide et support](../../support.md)
 * [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr)
 * [Dernières mises à jour de la documentation](../../rn/using/documentation-updates.md)

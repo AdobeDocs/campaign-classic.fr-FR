@@ -3,9 +3,9 @@ product: campaign
 title: Note technique - Mise à jour de votre environnement pour vous connecter à Adobe Campaign avec IMS
 description: Campaign - Mises à jour d'IMS
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
+source-git-commit: 70240d5f62fd3d7b755389b5ad8c4b499c94657d
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '587'
 ht-degree: 100%
 
 ---
@@ -40,10 +40,9 @@ Si vous avez déjà effectué la mise à niveau, mais que vous utilisez une anci
 
    * Gold Standard 11. [En savoir plus](../../rn/using/gold-standard.md)
    * Campaign Version 21.1.3. [Apprenez-en davantage](../../rn/using/latest-release.md)
-   * Campaign Version 20.2.5. [En savoir plus](../../rn/using/release--20-2.md)
-   * Campaign Version 20.1.4. [En savoir plus](../../rn/using/release--20-1.md)
-   * Campaign Version 19.2.4. [En savoir plus](../../rn/using/release--19-2.md)
-   * Campaign Version 19.1.8. [En savoir plus](../../rn/using/release--19-1.md)
+   * Campaign Version 20.2.5. [En savoir plus](../../rn/using/release--2020.md#release-20-2-5-build-9188)
+   * Campaign Version 20.1.4. [En savoir plus](../../rn/using/release--2020.md#release-20-1-4-build-9126)
+   * Campaign Version 19.2.4. [En savoir plus](../../rn/using/release--2019.md#release-19-2-4-build-9082)
 
    Ces versions sont dotées d&#39;un nouveau protocole de connexion. La mise à niveau est obligatoire pour le serveur Campaign et la console cliente : une fois toutes les instances mises à niveau, la console cliente doit également être mise à niveau vers cette version pour pouvoir se connecter à Campaign après le **30 juin 2021**.
 

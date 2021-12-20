@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: cee019432c64eaaefac86a27b731355242fd1555
+source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
 workflow-type: tm+mt
 source-wordcount: '4580'
 ht-degree: 100%
@@ -170,7 +170,7 @@ La configuration des comptes externes a été déplacée vers [cette section](..
 
 La documentation de Campaign Federated Data Access (FDA) a été améliorée. Elle comprend maintenant des détails sur chaque configuration de base de données externe et a été déplacée vers [cette section](../../installation/using/about-fda.md).
 
-[Campaign 20.2.3](../../rn/using/release--20-2.md#release-20-2-3-build-9182) est désormais disponible en version GA (disponibilité générale).
+[Campaign 20.2.3](../../rn/using/release--2020.md#release-20-2-3-build-9182) est désormais disponible en version GA (disponibilité générale).
 
 La section Confidentialité a été déplacée et enrichie de deux nouvelles pages : [Gestion de la confidentialité](../../platform/using/privacy-management.md) et [Gestion des demandes d&#39;accès à des informations personnelles](../../platform/using/privacy-requests.md).
 

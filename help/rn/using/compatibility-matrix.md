@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: f7c4603e389b19c057ee72bb50ed30d03b60f4bc
-workflow-type: ht
-source-wordcount: '652'
-ht-degree: 100%
+source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 89%
 
 ---
 
@@ -48,6 +48,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>Debian</td>
 <td>
+<p>11 (64 bits)</p>
 <p>10 (64 bits)</p>
 <p>9 (64 bits)</p>
 </td>
@@ -63,6 +64,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>Windows Server </td>
 <td>
+<p>2019</p>
 <p>2016</p>
 <p>2012 R2</p>
 <p>2012</p>
@@ -141,8 +143,6 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <p>11.x</p>
 <p>10.x</p>
 <p>9.6.x</p>
-<p>9.5.x</p>
-<p>9.4.x</p>
 <p><strong>Remarque :</strong> vous pouvez également utiliser Amazon RDS pour PostgreSQL avec les versions indiquées ci-dessus.</p>
 </td>
 </tr>
@@ -191,24 +191,41 @@ Les systèmes de gestion de la relation client (CRM) compatibles avec Adobe Cam
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
 Les bases de données externes compatibles avec le [module Adobe Campaign Federated Data Access](../../installation/using/about-fda.md) sont répertoriées ci-dessous.
-
 <table>
 <tbody>
+<td><strong>Connecteur</strong></td>
+<td><strong>Compatibilité des versions</strong></td>
+<td><strong>Compatibilité du modèle d’hébergement</strong></td>
+<td><strong>Compatibilité des versions</strong></td>
 <tr>
+<tr>
+<td>Snowflake</td>
+<td> </td>
+<td>Managed Services, hybride et on-Premise</td>
+<td>21.1.5 minimum</td>
+</tr>
 <td>Vertica</td>
 <td> </td>
+<td>Hybride et on-Premise uniquement</td>
+<td>19.1.4 minimum</td>
 </tr>
 <tr>
 <td>Google BigQuery</td>
 <td> </td>
+<td>Managed Services, hybride et on-Premise</td>
+<td>21.1.5 minimum</td>
 </tr>
 <tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td> </td>
+<td>Hybride et on-Premise</td>
+<td>19.1.4 minimum</td>
 </tr>
 <tr>
 <td>Amazon Redshift</td>
 <td><p> </p>
+<td>Managed Services, hybride et on-Premise</td>
+<td>19.1.4 minimum</td>
 </td>
 </tr>
 <tr>
@@ -219,6 +236,8 @@ Les bases de données externes compatibles avec le [module Adobe Campaign Feder
 <p>12c</p>
 <p>11g</p>
 </td>
+<td>Hybride et on-Premise uniquement</td>
+<td>V6.11 minimum</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -231,6 +250,8 @@ Les bases de données externes compatibles avec le [module Adobe Campaign Feder
 <p>9.5.x</p>
 <p>9.4.x</p>
 </td>
+<td>Managed Services, hybride et on-Premise</td>
+<td>19.1.4 minimum</td>
 </tr>
 <tr><td>SQL Server </td>
 <td>
@@ -240,11 +261,15 @@ Les bases de données externes compatibles avec le [module Adobe Campaign Feder
 <p>2014</p>
 <p>2012 SP1 et SP2</p>
 </td>
+<td>Hybride et on-Premise uniquement</td>
+<td>V6.11 minimum</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
 <p>5.7</p>
 </td>
+<td>Hybride et on-Premise uniquement</td>
+<td>V6.11 minimum</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -254,12 +279,16 @@ Les bases de données externes compatibles avec le [module Adobe Campaign Feder
 <p>15.10</p>
 <p>15.0</p>
 </td>
+<td>Hybride et on-Premise uniquement</td>
+<td>V6.11 minimum</td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
 <p>7.2</p>
 </td>
+<td>Hybride et on-Premise uniquement</td>
+<td>V6.11 minimum</td>
 </tr>
 <tr>
 <td>Sybase</td>
@@ -267,12 +296,16 @@ Les bases de données externes compatibles avec le [module Adobe Campaign Feder
 <p>IQ 16</p>
 <p>ASE 15.7</p>
 </td>
+<td>Hybride et on-Premise uniquement</td>
+<td>V6.11 minimum</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
 <td>
 <p>SPS 12 version 1</p>
 </td>
+<td>Hybride et on-Premise uniquement</td>
+<td>V6.11 minimum</td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
 <td>
@@ -280,13 +313,12 @@ Les bases de données externes compatibles avec le [module Adobe Campaign Feder
 <p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
 <p>Cloudera CDH6.x</p>
 </td>
-</tr>
-<tr>
-<td>Snowflake</td>
-<td> </td>
+<td>Hybride et on-Premise uniquement</td>
+<td>V6.11 minimum</td>
 </tr>
 </tbody>
 </table>
+
 
 ## Console cliente {#ClientConsoleoperatingsystems}
 
