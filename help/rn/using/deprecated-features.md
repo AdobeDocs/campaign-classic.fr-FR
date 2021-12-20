@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: f2cb3323bc5df3aae16a4ae4cf80c30bf53b006e
+source-git-commit: 8789571c9cf9ca857777fe5c03c355200c466789
 workflow-type: tm+mt
-source-wordcount: '1737'
-ht-degree: 98%
+source-wordcount: '1744'
+ht-degree: 97%
 
 ---
 
@@ -62,7 +62,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td><p>À compter de la version Campaign 21.1, le rapport de supervision de la délivrabilité technique est obsolète.</p>
    <p>Si nécessaire, vous pouvez recevoir ce rapport tous les jours par email jusqu’à la date de suppression de la fonctionnalité. Pour le demander, ouvrez un <a href="https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">cas d’assistance</a> spécifique et indiquez le nom de l’instance et la ou les adresse(s) email où envoyer le rapport.</p> 
    <p>Adobe vous recommande de collaborer avec l’équipe chargée de la délivrabilité pour définir les meilleurs outils pour superviser les performances de délivrabilité de votre instance.</p>
-  <p><em>Date de suppression prévue : fin 2021</em></p>
+  <p><em>Date de suppression prévue : Début 2022</em></p>
   </td>
  </tr>
   <tr>
@@ -70,7 +70,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   <td><p> Depuis la version Campaign 20.3, l’authentification d’intégration Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers les Adobe I/O. <p>
   <p>Si vous utilisez l’intégration Triggers, vous devez adapter votre implémentation en conséquence. <a href="../../integrations/using/configuring-adobe-io.md">En savoir plus</a></p> 
   <p>Pour plus d’informations sur l’abandon de l’authentification OAuth, consultez cette <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
-  <p><em>Date de suppression prévue : novembre 2021</em></p>
+  <p><em>Date de suppression prévue : 20 octobre 2021. Les environnements hébergés bénéficient d’une extension jusqu’au 23 février 2022. </em></p>
   </td>
   </tr>
  </tbody> 
@@ -179,7 +179,7 @@ La console cliente d’Adobe Campaign Classic ne peut plus s’exécuter sur l
 
 Depuis la version 19.1, Adobe Campaign n’est plus compatible avec les systèmes d’exploitation ci-après.
 
-* CentOS 6 [En savoir plus](https://wiki.centos.org/Download)
+* CentOS 6. [En savoir plus](https://wiki.centos.org/Download)
 * Debian 7. [En savoir plus](https://wiki.debian.org/DebianReleases)
 * RHEL 6.x. [En savoir plus](https://access.redhat.com/support/policy/updates/errata)
 * Windows Server 2008. [En savoir plus](https://support.microsoft.com/en-us/lifecycle/search/1163)
