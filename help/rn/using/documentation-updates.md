@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+source-git-commit: f2cb3323bc5df3aae16a4ae4cf80c30bf53b006e
 workflow-type: tm+mt
-source-wordcount: '4580'
-ht-degree: 100%
+source-wordcount: '4725'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,31 @@ ht-degree: 100%
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et par version de Campaign.
 
 Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md) pour connaître les mises à jour relatives aux versions.
+
+## Décembre 2021{#dec-2021}
+
+Les notes de mise à jour de Campaign Classic v7 ont été réorganisées afin de simplifier la navigation. [En savoir plus](rn-overview.md)
+
+Mise à jour et amélioration de la documentation sur l’édition de formulaires dans Campaign - [En savoir plus](../../configuration/using/editing-forms.md)
+
+CentOs 8 a atteint la fin de vie et est désormais obsolète avec Adobe Campaign Classic. [En savoir plus](deprecated-features.md)
+
+## Novembre 2021{#nov-2021}
+
+Ajout d’une limitation à propos du SMS entrant (MO). [En savoir plus](../../delivery/using/sms-protocol.md#multipart)
+
+Mise à jour des détails des logs de processus de migration pour le déploiement du connecteur CRM. [En savoir plus](../../migration/using/testing-the-migration.md#verification-process)
+
+Ajout d’exigences relatives aux autorisations IMS pour implémenter l’intégration Adobe Campaign-Adobe Analytics. [En savoir plus](../../platform/using/adobe-analytics-provisioning.md)
+
+Mise à jour de la date de fin de vie du connecteur de données Adobe Analytics du 1er mars 2022 au 17 août 2022. [En savoir plus](deprecated-features.md)
+
+Ajout d’un lien vers la documentation du SDK mobile Adobe Experience Platform pour savoir comment configurer l’extension Campaign dans Adobe Launch. [En savoir plus](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+
+Ajout d’une section sur l’utilisation de JavaScript pour calculer des valeurs, échanger des données et exécuter des opérations spécifiques à l’aide d’appels SOAP -[En savoir plus](../../workflow/using/javascript-scripts-and-templates.md)
+
+Ajout d’exemples de mise en oeuvre de codes JavaScript dans les workflows. [En savoir plus](../../workflow/using/javascript-in-workflows.md)
+
 
 ## Octobre 2021{#oct-2021}
 
