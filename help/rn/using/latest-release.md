@@ -9,7 +9,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: cbafd70f5b5e964256edad0ce2965f3ed4650500
 workflow-type: tm+mt
 source-wordcount: '2558'
-ht-degree: 88%
+ht-degree: 91%
 
 ---
 
@@ -30,7 +30,7 @@ _8 octobre 2021_
 
 **Correctifs**
 
-* Amélioration du correctif de workflow de facturation disponible dans le build 9342, qui nécessitait un redémarrage manuel du workflow pour que le correctif soit appliqué. Désormais, le postupgrade redémarre automatiquement le workflow.
+* Amélioration du correctif pour le workflow de facturation disponible dans la version 9342, qui nécessitait un redémarrage manuel du workflow afin dʼêtre appliqué. Désormais, le postupgrade redémarre automatiquement le workflow.
 
 * Correction dʼun problème qui pouvait entraîner le fonctionnement incorrect de la gestion des offres lors de lʼutilisation du module **Interaction** avec lʼoption [Power Booster](../../installation/using/power-booster-and-power-cluster.md) déployée. (NEO-39263)
 
@@ -52,7 +52,7 @@ _7 septembre 2021_
 
 **Autres changements**
 
-* Correction d’une régression introduite dans la version 21.1.3 avec la nouvelle barrière de sécurité du workflow de facturation. Le workflow de facturation a été exécuté sur des instances incorrectes et s’est écrasé en essayant d’envoyer le rapport de facturation qui n’a pas été généré. Vous devez redémarrer manuellement le workflow pour que le correctif soit appliqué.
+* Correction d’une régression introduite dans la version 21.1.3 avec la nouvelle barrière de sécurité du workflow de facturation. Le workflow de facturation a été exécuté sur des instances incorrectes et sʼest bloqué lors de la tentative dʼenvoi du rapport de facturation, qui n’avait pas été généré. Vous devez redémarrer manuellement le workflow pour que le correctif soit appliqué.
 * Les connecteurs Microsoft CRM (déploiements Office 365 et On-premise) précédemment obsolètes ont été supprimés de l’interface. [En savoir plus](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Suite à la migration vers Tomcat 8, le script de configuration IIS a été mis à jour afin de corriger les problèmes d&#39;intégration IIS. (NEO-31019)
 * L&#39;identification de la source de données a été améliorée dans les onglets de données et de schéma de la fenêtre **Visualiser la population** des transitions de workflow.
@@ -228,7 +228,7 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/com
 
 ### ![](assets/do-not-localize/red_2.png) Version 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
 
-__
+_15 avril 2021_
 
 * La gestion des mots de passe a été améliorée pour optimiser la sécurité.
 * Correction d&#39;un problème qui pouvait provoquer des blocages de MTA.
