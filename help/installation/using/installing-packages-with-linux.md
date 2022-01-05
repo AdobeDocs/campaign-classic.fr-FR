@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: c281d437907efb4d514bec7cacc698c383f3fe53
+source-git-commit: fbab510788abe0fccbbd791233c906e7f9d8d703
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 100%
+source-wordcount: '1203'
+ht-degree: 97%
 
 ---
 
@@ -200,12 +200,11 @@ Au besoin, éditez le fichier **customer.sh** à l&#39;aide de la commande **vi 
 
    * Debian
 
-      Les valeurs par défaut de OOO_INSTALL_DIR, OOO_BASIS_INSTALL_DIR et OOO_URE_INSTALL_DIR sont fournies. Vous pouvez les remplacer dans **customer.sh** si votre installation LibreOffice est différente :
+      Les valeurs par défaut de OOO_INSTALL_DIR et OOO_BASIS_INSTALL_DIR sont fournies. Vous pouvez les remplacer dans **customer.sh** si la mise en page de l&#39;installation LibreOffice est différente :
 
       ```
       export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
       export OOO_INSTALL_DIR=/usr/lib/libreoffice/
-      export OOO_URE_INSTALL_DIR=/usr/lib/ure/share/
       ```
 
    * CentOs
@@ -215,7 +214,6 @@ Au besoin, éditez le fichier **customer.sh** à l&#39;aide de la commande **vi 
       ```
       export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
       export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
-      export OOO_URE_INSTALL_DIR=/usr/lib64/libreoffice/ure/share/
       ```
 
 * Pour Java Development Kit (JDK) :

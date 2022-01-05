@@ -6,9 +6,9 @@ title: Guide de Campaign Classic v7
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 5bcc0c06b5c189c4481366d0d283199d6813ecd3
+source-git-commit: e142bcc18dd22179d83c54b9e79d3e3339b005fa
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2599'
 ht-degree: 99%
 
 ---
@@ -597,6 +597,7 @@ ht-degree: 99%
    + Annexes {#annexes}
       + [Exemples d&#39;apps Facebook](social/using/examples-of-facebook-apps.md)
       + [Tracking](social/using/tracking.md)
++ [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
 + Guide d’installation et de configuration {#installing-campaign-classic}
    + Principes d&#39;architecture {#architecture-and-hosting-models}
       + [Architecture générale](installation/using/general-architecture.md)
@@ -844,7 +845,7 @@ ht-degree: 99%
       + [Notes techniques](technotes/using/technote.md)
       + [Mises à jour de la configuration de Campaign](technotes/using/acc-config-updates.md)
       + [Mises à jour de lʼIMS](technotes/using/ims-updates.md)
-      + [Fin de vie de la prise en charge de TLS 1.0 et 1.1](technotes/using/eol-tls-support.md)
+      + [End of Life for TLS 1.0 and 1.1 support](technotes/using/eol-tls-support.md)
    + E-mails et notifications push{#technotes-email}
       + [Protection de la confidentialité des e-mails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
       + [FAQ sur la protection de la confidentialité dʼApple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=fr)
@@ -854,3 +855,4 @@ ht-degree: 99%
    + Migration vers Adobe Managed Services{#dc-migration}
       + [Migration vers le cloud public](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
++ [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
