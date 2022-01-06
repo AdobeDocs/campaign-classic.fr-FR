@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: cbafd70f5b5e964256edad0ce2965f3ed4650500
+source-git-commit: 0a7cdd53640bb3d96ff9bc2de4aa4c1849e32c83
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 91%
+source-wordcount: '2582'
+ht-degree: 96%
 
 ---
 
@@ -181,18 +181,18 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/com
 
 **Fonctionnalités obsolètes**
 
-* Les pilotes ODBC sont désormais directement installés avec des tiers Adobe Campaign. Les étapes manuelles ne sont plus nécessaires pour installer les pilotes.
-* Google Big Query est désormais disponible pour les déploiements hébergés.
+* À compter de la version 21.1 de Campaign, le connecteur de données Adobe Analytics est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence avec le nouveau connecteur Adobe Analytics.
+Pour plus d’informations, consultez la [documentation détaillée](../../technotes/using/aa-connector-migration.md).
+* La prise en charge de Debian 8 est maintenant obsolète.
+* Suite à la dépréciation d&#39;Oracle CRM dans la version 20.3, le compte externe associé a été supprimé de l’interface.
 
-[En savoir plus](../../installation/using/configure-fda.md)
+En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md).
 
 **Améliorations**
 
-* Des correctifs critiques ont été appliqués concernant l’API web de Microsoft Dynamics Connector :
-   * Correction d’un problème qui entraînait l’échec ou le dysfonctionnement de l’importation des données à partir du CRM Microsoft si la condition de filtrage contenait des champs de recherche.
-   * Correction d’un problème, lors d’un import déclenché par un workflow, en raison duquel les valeurs nulles des champs de type chaîne étaient enregistrées comme nulles au lieu de valeurs vides.
-   * Correction d’un problème qui entraînait l’erreur suivante pour l’import ou l’export de données à l’aide d’appels API web : &quot;URI non valide : Le schéma d’URI est trop long.&quot;
-   * Correction d’un problème, lors d’un import depuis Microsoft Dynamics 365, qui empêchait l’importation des données des champs de recherche.
+* Des vérifications supplémentaires ont été ajoutées lors de l’enregistrement d’un workflow pour s’assurer que les noms des activités sont uniques et que les transitions sont toujours suivies d’une activité.
+* Le workflow technique **Facturation (billing)** comprend maintenant les tâches effectuées à l’origine par le workflow **Comptage des profils actifs** (billingActiveContactCount), qui a été supprimé. Le rapport sur les emails envoyé chaque mois par le workflow fournit désormais des informations sur le nombre de profils actifs sur l&#39;instance. [En savoir plus](../../workflow/using/about-technical-workflows.md).
+* Un nouvel attribut **_keyOnMData** a été ajouté pour pouvoir utiliser une clé pour les opérations sur les données de mémo.
 
 **Autres changements**
 

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 8789571c9cf9ca857777fe5c03c355200c466789
+source-git-commit: 0a7cdd53640bb3d96ff9bc2de4aa4c1849e32c83
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 97%
+source-wordcount: '1707'
+ht-degree: 99%
 
 ---
 
@@ -84,14 +84,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
  <tbody>
   <tr> 
    <td><strong>Domaine - Fonctionnalité</strong></td>
-   <td><strong>Remplacement</strong></td> 
-  </tr>
- <tr>  
-   <td>Connecteurs CRM activities<br></td>
-   <td><p> Les activités d'action Microsoft CRM, Salesforce, Oracle CRM On Demand ne sont plus disponibles.</p>
-   <p>Pour paramétrer la synchronisation des données entre Adobe Campaign et un système CRM, vous pouvez utiliser l'activité Connecteur CRM .</p>
-   <p><a href="../../workflow/using/crm-connector.md">En savoir plus</a></p>
-  </tr>
+   <td><strong>Remplacement</strong></td>
   <tr>  
    <td>Reporting<br></td>
    <td><p>Après la fin de vie de Flash Player d’Adobe, le rapport d’évaluation et le moteur de rendu des graphiques ne sont plus disponibles. <a href="../../reporting/using/creating-a-new-report.md">Apprenez-en davantage</a></p>
