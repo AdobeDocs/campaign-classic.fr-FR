@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: d750e13d3770d3b36b5f4376233d4da458730ed7
-workflow-type: ht
-source-wordcount: '2567'
-ht-degree: 100%
+source-git-commit: 71a5433db3ce2af5a25e5f861bd6f1dfb9aa8934
+workflow-type: tm+mt
+source-wordcount: '2572'
+ht-degree: 98%
 
 ---
 
@@ -281,7 +281,7 @@ Vous pouvez ensuite appeler l&#39;API de protection des données :
 
    * Vous pouvez utiliser une **queryDef** sur le schéma **nms:gdprRequest** pour vérifier le statut de la demande d&#39;accès.
    * Vous pouvez utiliser une **queryDef** sur le schéma **nms:gdprRequestData** pour obtenir le résultat de la demande d&#39;accès.
-   * Pour pouvoir télécharger le fichier XML à partir de **&quot;$(serverUrl)’/nms/gdpr.jssp?id=’@id&quot;**, vous devez être connecté et y accéder à partir d’une adresse IP placée sur une liste autorisée. Pour ce faire, créez une application web vous permettant d&#39;accéder au fichier généré par le JSSP.
+   * Pour télécharger le fichier XML depuis **&quot;$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id&quot;**, vous devez être connecté et y accéder à partir d’une adresse IP incluse dans la liste autorisée. Pour ce faire, créez une application web vous permettant d&#39;accéder au fichier généré par le JSSP.
 
 ### Appel de l&#39;API depuis un script JS {#invoking-api-from-js}
 

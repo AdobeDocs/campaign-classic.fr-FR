@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 89%
+source-wordcount: '720'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 Ce document répertorie tous les systèmes et composants pris en charge pour [le dernier build](../../rn/using/latest-release.md) d’**Adobe Campaign Classic v7**. Les produits et versions ne faisant pas partie de cette liste ne sont pas compatibles avec Adobe Campaign.
 
-Si vous êtes un utilisateur [!DNL Gold Standard], reportez-vous à la [[!DNL Gold Standard] matrice de compatibilité](../../rn/using/compatibility-matrix-gs.md).
+Si vous êtes un utilisateur [!DNL Gold Standard], reportez-vous à la [[!DNL Gold Standard] matrice de compatibilité](../../rn/using/gold-standard.md#compatibility-matrix-gs).
 
 ## Remarques importantes{#important-notes}
 
@@ -48,7 +48,6 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>Debian</td>
 <td>
-<p>11 (64 bits)</p>
 <p>10 (64 bits)</p>
 <p>9 (64 bits)</p>
 </td>
@@ -64,7 +63,6 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>Windows Server </td>
 <td>
-<p>2019</p>
 <p>2016</p>
 <p>2012 R2</p>
 <p>2012</p>
@@ -190,54 +188,31 @@ Les systèmes de gestion de la relation client (CRM) compatibles avec Adobe Cam
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
-Les bases de données externes compatibles avec le [module Adobe Campaign Federated Data Access](../../installation/using/about-fda.md) sont répertoriées ci-dessous.
+Les bases de données externes compatibles avec le [module Adobe Campaign Federated Data Access](../../installation/using/about-fda.md) sont répertoriées ci-dessous. La compatibilité dépend de votre [modèle d&#39;hébergement](../../installation/using/hosting-models.md).
+
+**Managed Services** (hébergé), **Hybride** et **On-premise** Les environnements peuvent connecter Campaign avec les systèmes de base de données externes suivants :
+
 <table>
 <tbody>
-<td><strong>Connecteur</strong></td>
-<td><strong>Compatibilité des versions</strong></td>
-<td><strong>Compatibilité du modèle d’hébergement</strong></td>
-<td><strong>Compatibilité des versions</strong></td>
+<td><strong>Système de base de données</strong></td>
+<td><strong>Version de la base de données</strong></td>
+<td><strong>Version de Campaign</strong></td>
 <tr>
 <tr>
 <td>Snowflake</td>
 <td> </td>
-<td>Managed Services, hybride et on-Premise</td>
-<td>21.1.5 minimum</td>
-</tr>
-<td>Vertica</td>
-<td> </td>
-<td>Hybride et on-Premise uniquement</td>
-<td>19.1.4 minimum</td>
+<td>7.2.1 minimum</td>
 </tr>
 <tr>
 <td>Google BigQuery</td>
 <td> </td>
-<td>Managed Services, hybride et on-Premise</td>
-<td>21.1.5 minimum</td>
-</tr>
-<tr>
-<td>Microsoft Azure Synapse Analytics</td>
-<td> </td>
-<td>Hybride et on-Premise</td>
-<td>19.1.4 minimum</td>
+<td>7.2.1 minimum</td>
 </tr>
 <tr>
 <td>Amazon Redshift</td>
 <td><p> </p>
-<td>Managed Services, hybride et on-Premise</td>
-<td>19.1.4 minimum</td>
+<td>v7.0 19.1.4 minimum</td>
 </td>
-</tr>
-<tr>
-<td>Oracle</td>
-<td>
-<p>19c</p>
-<p>18c</p>
-<p>12c</p>
-<p>11g</p>
-</td>
-<td>Hybride et on-Premise uniquement</td>
-<td>V6.11 minimum</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -250,8 +225,37 @@ Les bases de données externes compatibles avec le [module Adobe Campaign Feder
 <p>9.5.x</p>
 <p>9.4.x</p>
 </td>
-<td>Managed Services, hybride et on-Premise</td>
-<td>19.1.4 minimum</td>
+<td>v7.0 19.1.4 minimum</td>
+</tr>
+</tbody>
+</table>
+
+En outre, **Hybride** et **On-premise** Les environnements peuvent également connecter Campaign à :
+
+<table>
+<tbody>
+<td><strong>Système de base de données</strong></td>
+<td><strong>Version de la base de données</strong></td>
+<td><strong>Version de Campaign</strong></td>
+<tr>
+<td>Vertica</td>
+<td> </td>
+<td>v7.0 19.1.4 minimum</td>
+</tr>
+<tr>
+<td>Microsoft Azure Synapse Analytics</td>
+<td> </td>
+<td>v7.0 19.1.4 minimum</td>
+</tr>
+<tr>
+<td>Oracle</td>
+<td>
+<p>19c</p>
+<p>18c</p>
+<p>12c</p>
+<p>11g</p>
+</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr><td>SQL Server </td>
 <td>
@@ -261,15 +265,13 @@ Les bases de données externes compatibles avec le [module Adobe Campaign Feder
 <p>2014</p>
 <p>2012 SP1 et SP2</p>
 </td>
-<td>Hybride et on-Premise uniquement</td>
-<td>V6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
 <p>5.7</p>
 </td>
-<td>Hybride et on-Premise uniquement</td>
-<td>V6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -279,16 +281,14 @@ Les bases de données externes compatibles avec le [module Adobe Campaign Feder
 <p>15.10</p>
 <p>15.0</p>
 </td>
-<td>Hybride et on-Premise uniquement</td>
-<td>V6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
 <p>7.2</p>
 </td>
-<td>Hybride et on-Premise uniquement</td>
-<td>V6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr>
 <td>Sybase</td>
@@ -296,16 +296,14 @@ Les bases de données externes compatibles avec le [module Adobe Campaign Feder
 <p>IQ 16</p>
 <p>ASE 15.7</p>
 </td>
-<td>Hybride et on-Premise uniquement</td>
-<td>V6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
 <td>
 <p>SPS 12 version 1</p>
 </td>
-<td>Hybride et on-Premise uniquement</td>
-<td>V6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
 <td>
@@ -313,11 +311,13 @@ Les bases de données externes compatibles avec le [module Adobe Campaign Feder
 <p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
 <p>Cloudera CDH6.x</p>
 </td>
-<td>Hybride et on-Premise uniquement</td>
-<td>V6.11 minimum</td>
+<td>v7.0 minimum</td>
 </tr>
 </tbody>
 </table>
+
+
+
 
 
 ## Console cliente {#ClientConsoleoperatingsystems}

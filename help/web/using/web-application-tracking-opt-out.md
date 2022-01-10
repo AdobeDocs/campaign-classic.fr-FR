@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -86,7 +86,7 @@ Les API côté client disponibles pour personnaliser la bannière sont les suiva
 
    bannerDomElt {DOMElement} : élément DOM racine de la bannière du cookie qui doit être supprimé.
 
-* **NL.ClientWebTracking.hasUserPrefs()** : renvoie la valeur true si l&#39;utilisateur a choisi les préférences du tracking web.
+* **NL.ClientWebTracking.hasUserPrefs()**: Renvoie &quot;true&quot; si l&#39;utilisateur a choisi ses préférences pour le tracking web.
 * **NL.ClientWebTracking.getUserPrefs()**: renvoie la valeur du cookie d&#39;opt-out qui définit les préférences de l&#39;utilisateur.
 
 Si vous devez écrire du code JSSP, les API côté serveur suivantes sont disponibles :

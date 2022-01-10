@@ -6,10 +6,10 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: eef2a12738ce299686857720c3dc8456ffdd0c80
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
-source-wordcount: '2719'
-ht-degree: 100%
+source-wordcount: '2680'
+ht-degree: 98%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Cette section décrit les paramétrages à effectuer dans Adobe Campaign v7 si vous migrez depuis une v5.11 ou une v6.02.
+Cette section décrit le paramétrage à effectuer dans Adobe Campaign v7 lors de la migration depuis une v5.11 ou une v6.02.
 
 En complément :
 
-* Si vous migrez depuis une v5.11, vous devez également effectuer le paramétrage décrit dans la section [Paramétrages spécifiques v5.11](../../migration/using/specific-configurations-in-v5-11.md).
-* Si vous migrez depuis une v6.02, vous devez également effectuer le paramétrage décrit dans la section [Paramétrages spécifiques v6.02](../../migration/using/specific-configurations-in-v6-02.md).
+* Si vous migrez depuis une v5.11, vous devez également effectuer le paramétrage décrit dans la section [cette section](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11).
+* Si vous migrez depuis une v6.02, vous devez également effectuer le paramétrage décrit dans la section [cette section](../../migration/using/configuring-your-platform.md#specific-configurations-in-v6-02).
 
 ## Fuseaux horaires {#time-zones}
 
@@ -456,7 +456,7 @@ Il existe trois possibilités de résoudre un conflit :
 * **[!UICONTROL Conserver la version actuelle]** : a pour conséquence de refuser la mise à jour de la version.
 
    >[!IMPORTANT]
-   >Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des utilisateurs experts.
+   Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des utilisateurs experts.
 
 Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
@@ -502,12 +502,12 @@ $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 Dans v7, le contenu de l&#39;offre a été déplacé. Dans la version 6.02, le contenu se trouvait dans chaque schéma de représentation (**nms:emailOfferView**). Dans v7, le contenu se trouve désormais dans le schéma d&#39;offre. Après la mise à niveau, le contenu ne sera donc plus visible dans l&#39;interface. Après la mise à niveau, vous devez recréer le contenu de l&#39;offre ou développer un script qui déplace automatiquement le contenu du schéma de représentation vers le schéma d&#39;offre.
 
 >[!IMPORTANT]
->Si certaines diffusions utilisant des offres étaient paramétrées pour être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions en v7. Si vous n&#39;avez pas la possibilité de le faire, un mode &quot;compatibilité&quot; est proposé. Ce mode est fortement déconseillé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d&#39;Interaction v7. C&#39;est un mode transitoire permettant de terminer les campagnes en cours avant d&#39;effectuer la véritable migration 6.1. Veuillez nous contacter si vous souhaitez obtenir plus d&#39;informations sur ce mode.
+Si certaines diffusions utilisant des offres étaient paramétrées pour être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions en v7. Si vous n&#39;avez pas la possibilité de le faire, un mode &quot;compatibilité&quot; est proposé. Ce mode est fortement déconseillé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d&#39;Interaction v7. C&#39;est un mode transitoire permettant de terminer les campagnes en cours avant d&#39;effectuer la véritable migration 6.1. Veuillez nous contacter si vous souhaitez obtenir plus d&#39;informations sur ce mode.
 
 Un exemple de script de déplacement (**interactionTo610_full_XX.js**) est disponible dans le dossier **Migration** du répertoire d&#39;installation d&#39;Adobe Campaign v7. Ce fichier présente un exemple de script pour un client utilisant une seule représentation email par offre (les champs **[!UICONTROL htmlSource]** et **[!UICONTROL textSource]**). Le contenu qui était dans la table **NmsEmailOfferView** est déplacé vers la table des offres.
 
 >[!NOTE]
->L&#39;utilisation de ce script ne permet pas de bénéficier des fonctionnalités &quot;gestion de contenu&quot; et &quot;fonctions de rendu&quot;. Pour bénéficier de ces fonctionnalités, vous devez repenser le catalogue d&#39;offres, en particulier le contenu des offres et la configuration des emplacements.
+L&#39;utilisation de ce script ne permet pas de bénéficier des fonctionnalités &quot;gestion de contenu&quot; et &quot;fonctions de rendu&quot;. Pour bénéficier de ces fonctionnalités, vous devez repenser le catalogue d&#39;offres, en particulier le contenu des offres et la configuration des emplacements.
 
 ```
 loadLibrary("/nl/core/shared/nl.js");
@@ -606,7 +606,7 @@ Voici la procédure à suivre après avoir déplacé le contenu des offres si vo
 1. Effectuez des tests complets.
 
    >[!NOTE]
-   >Les noms des catégories et des offres en ligne sont modifiés lors de leur mise en ligne. Sur le canal entrant, mettez à jour toutes les références aux offres et catégories.
+   Les noms des catégories et des offres en ligne sont modifiés lors de leur mise en ligne. Sur le canal entrant, mettez à jour toutes les références aux offres et catégories.
 
 ## Rapports  {#reports}
 
@@ -662,12 +662,3 @@ sessionTokenOnly="false"
 ### Applications web anonymes {#anonymous-web-applications}
 
 Si vous rencontrez le moindre problème, republiez l’application web.
-
-## Red Hat {#red-hat}
-
-Si des schémas d&#39;usine ont été supprimés en v6.02 ou v5.11, il se peut que vous ne puissiez plus modifier vos schémas après le postupgrade. Si cela se produit, exécutez la commande :
-
-```
-su - neolane
-nlserver config -postupgrade -instance:<instance name> -force
-```

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '1572'
-ht-degree: 100%
+source-wordcount: '1557'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Contexte
 
-Vous êtes un client important d’Adobe Campaign Classic et nous nous engageons à vous offrir la meilleure expérience et à optimiser la valeur créée. Au fil des ans, nous avons réalisé l’intérêt et la fiabilité de l’hébergement de nos clients dans le cloud.  Dans le cadre de notre [initiative Gold Standard](../../rn/using/gold-standard.md), nous effectuons la migration de tous nos clients vers Adobe Managed Services (cloud public d’AWS) pour offrir des services plus fiables et de meilleure qualité.
+Vous êtes un client important d’Adobe Campaign Classic et nous nous engageons à vous offrir la meilleure expérience et à optimiser la valeur créée. Au fil des ans, nous avons réalisé l’intérêt et la fiabilité de l’hébergement de nos clients dans le cloud.  Dans le cadre de notre [Initiative de mise à niveau annuelle](../../rn/using/rn-overview.md#yearly-upgrade), nous déplaçons tous nos clients vers Adobe Managed Services (cloud public sur AWS) afin de fournir des services meilleurs et plus fiables.
 
 Ce programme a trois objectifs principaux : 
 
@@ -31,7 +31,7 @@ Ce programme a trois objectifs principaux : 
 
 * **Mise à niveau de build** : lorsque le logiciel Adobe Campaign Classic est mis à jour vers le numéro de build sécurisé le plus récent, tout en restant au même niveau de build majeur/mineur. Par exemple : Campaign v7 20.2.3 build 9182 vers Campaign v7 21.2.5 build 9188. [En savoir plus](../../platform/using/faq-build-upgrade.md).
 * **MID/RT** : serveurs d’exécution de messages hébergés sur Adobe Cloud (MID pour les campagnes par lots et RT pour les messages unitaires en temps réel).
-* **Mise à niveau Gold Standard** : ce programme améliore la sécurité, le support, la maintenance et la stabilité. Il facilite également les futures mises à niveau et donne accès aux nouvelles fonctionnalités de Campaign.  [En savoir plus](../../rn/using/gs-overview.md).
+* **Programme de mise à niveau annuelle** - ce programme améliore la sécurité, la prise en charge, la maintenance et la stabilité. Il facilite également les futures mises à niveau et donne accès aux nouvelles fonctionnalités de Campaign.  [En savoir plus](../../rn/using/rn-overview.md#yearly-upgrade).
 * **AWS** : Amazon Web Services (cloud public d’Amazon)
 * **SFTP** : protocole de transfert de fichiers sécurisé. [En savoir plus](../../platform/using/sftp-server-usage.md).
 
@@ -59,7 +59,7 @@ Ce programme a trois objectifs principaux : 
 
 * Amélioration des capacités pour les emails
 * Bases de données plus volumineuses
-* Version éprouvée de Campaign - Gold Standard
+* Version de Campaign testée
 
 **Proposer une solution fiable et robuste aux clients d’Adobe Campaign Classic**
 
@@ -67,10 +67,10 @@ Ce programme a trois objectifs principaux : 
 1. Capacités supérieures d’envoi d’emails. Les instances hébergées dans le nouveau centre de données pourront bénéficier d’une infrastructure spécialisée pour la diffusion des emails. Ce choix pourrait entraîner une diffusion plus rapide des emails ou une diminution du nombre d’adresses IP d’envoi.
 1. Plus grande évolutivité du matériel. L’extension des ressources matérielles peut être plus rapide. Techniquement, cela se traduit par un ordre de grandeur d’une heure contre plusieurs jours auparavant.
 
-**La version Gold Standard facilite les mises à niveau ultérieures**
+**Les mises à niveau annuelles facilitent les futures mises à niveau**
 
 1. Plus votre entreprise attend avant d’effectuer la mise à niveau, plus celle-ci se complexifie et plus le risque de vulnérabilité augmente (en particulier lorsque le transfert se fait à partir d’une version ancienne).
-1. Grâce à la mise à niveau Gold Standard, votre instance sera modernisée. Elle sera prête à recevoir des mises à jour plus régulières et automatisées, en limitant les interventions manuelles et les ressources nécessaires.
+1. Grâce à la mise à niveau annuelle de Campaign (qui était l’initiative Gold Standard), votre instance sera modernisée et sera prête à recevoir des mises à jour plus automatisées et régulières avec moins d’intervention manuelle et de ressources moindres.
 
 ![](assets/GSMigrations.png)
 
@@ -84,7 +84,7 @@ Il est possible de déclencher une migration en [ouvrant un nouveau ticket de su
 
 ### Cette migration est-elle obligatoire ?
 
-Cette migration vers le cloud est la **première étape vers la [certification Gold Standard](../../rn/using/gs-overview.md)** de vos instances Adobe Campaign. Elle est obligatoire si vous êtes hébergé dans un centre de données hors cloud public (AWS).
+Cette migration vers le cloud est **à la première étape de la [programme de mise à niveau annuel](../../rn/using/rn-overview.md#yearly-upgrade)** de vos instances Adobe Campaign. Elle est obligatoire si vous êtes hébergé dans un centre de données hors cloud public (AWS).
 
 Le cloud Adobe Managed Services est hébergé sur Amazon Web Services (AWS), un environnement moderne, sécurisé et optimisé. [En savoir plus sur AWS](https://aws.amazon.com/application-hosting/benefits/).
 
@@ -109,12 +109,6 @@ Nous nous sommes énormément investis dans le développement de technologies de
 
 Pour en savoir plus, consultez la section Migration de Campaign vers le [cloud public - FAQ](dc-migration-faq.md).
 
-
-## Parcours d’obtention de la certification Gold Standard
-
-Nous vous aiderons à valider les étapes entre chaque jalon.
-
-![](assets/GS-milestones.png)
 
 ## Chemin de migration vers le cloud public
 
@@ -215,5 +209,5 @@ En règle générale, le domaine utilisé pour l’envoi d’emails (partie à d
 ## Support et autres liens utiles{#support}
 
 * [FAQ sur la migration vers Adobe Managed Services (cloud public)](dc-migration-faq.md)
-* [Mise à niveau vers Gold Standard](../../rn/using/gs-overview.md)
+* [Mises à niveau annuelles de Campaign](../../rn/using/rn-overview.md)
 * [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md)

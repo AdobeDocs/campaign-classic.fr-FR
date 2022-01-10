@@ -4,10 +4,10 @@ title: 'Options d’aide et de support pour Campaign Classic '
 description: Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit !
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ Le Panneau de contrôle de Campaign accroît votre efficacité en tant qu’admi
 >
 >Le Panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
->Notez que votre instance doit être hébergée sur AWS et mise à niveau avec le dernier build [Gold Standard](rn/using/gs-overview.md) ou le dernier build [GA (21.1.4)](rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr).
+>Notez que votre instance doit être hébergée sur AWS et mise à niveau avec la dernière version [Build GA](rn/using/rn-overview.md). Découvrez comment vérifier votre version dans [cette section](platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr).
 
 ### Comment accéder au Panneau de contrôle ?
 

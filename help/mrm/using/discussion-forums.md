@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -75,7 +75,7 @@ Vous pouvez poster un message dans le forum d&#39;un opérateur si par exemple v
 Pour accéder au forum d&#39;un opérateur :
 
 * Si vous disposez des droits nécessaires pour accéder au noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l&#39;explorateur, ouvrez le tableau de bord de l&#39;opérateur désiré puis cliquez sur le lien **[!UICONTROL Forum]** en haut à droite.
-* Sinon, trouvez le nom de l&#39;opérateur dans Adobe Campaign (via un message posté dans un forum par cet opérateur, une tâche lui étant affectée.) et cliquez sur celui-ci pour accéder à son tableau de bord. Vous pouvez également demander à votre administrateur de vous créer une vue sur le dossier des opérateurs.
+* Dans le cas contraire, recherchez le nom de l&#39;opérateur dans Adobe Campaign (via un message posté dans le forum par cet opérateur, une tâche qui lui est assignée) et cliquez dessus pour accéder à son tableau de bord. Vous pouvez également demander à votre administrateur de créer une vue du dossier des opérateurs.
 
 ## S&#39;abonner à un forum {#subscribing-to-a-forum}
 

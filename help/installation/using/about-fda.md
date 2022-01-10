@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a23f66a4822f3c87770c5c9741e91f78778931cb
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +25,10 @@ L’option FDA permet d’étendre votre modèle de données dans une base de do
 
 Pour utiliser cette fonctionnalité, les prérequis sont énumérés ci-dessous :
 
-* **Configuration** : à l’exception de Snowflake, vous avez besoin d’un modèle d’hébergement **On-Premise** ou **hybride** pour configurer Federated Data Access. [En savoir plus](../../installation/using/hosting-models.md)
-* **Version de base de données externe** : vous devez disposer d’une base de données externe compatible avec le module Adobe Campaign FDA. La liste des systèmes de base de données et des versions compatibles est détaillée dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA) de Campaign.
+* **Configuration**: la liste des bases de données externes compatibles dépend de votre [modèle d&#39;hébergement](../../installation/using/hosting-models.md).
+* **Version de base de données externe** : vous devez disposer d’une base de données externe compatible avec le module Adobe Campaign FDA.
+
+   La liste des systèmes de base de données et des versions compatibles par modèle d&#39;hébergement est détaillée dans Campaign. [Matrice de compatibilité](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
+
 * **Autorisations** : les utilisateurs doivent également disposer des autorisations [](../../installation/using/remote-database-access-rights.md) nécessaires dans Adobe Campaign et dans la base de données externe.
 

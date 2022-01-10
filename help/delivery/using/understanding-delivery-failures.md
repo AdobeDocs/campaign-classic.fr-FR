@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '2665'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -300,7 +300,7 @@ Lors de l&#39;échec d&#39;un envoi d&#39;email, le serveur de messagerie distan
 
 >[!NOTE]
 >
->L&#39;utilisateur peut créer ses propres règles. Lors d&#39;un import de package et lors de la mise à jour des données par le workflow **Mise à jour pour la délivrabilité**, les règles mail créées par l&#39;utilisateur sont écrasées.
+>L’utilisateur peut créer ses propres règles. Lors d&#39;un import de package et lors de la mise à jour des données par le workflow **Mise à jour pour la délivrabilité**, les règles mail créées par l&#39;utilisateur sont écrasées.
 
 Pour plus d&#39;informations sur la qualification des mails rebonds, consultez [cette section](#bounce-mail-qualification).
 

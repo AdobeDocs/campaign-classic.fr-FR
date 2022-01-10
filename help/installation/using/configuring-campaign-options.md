@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
 source-wordcount: '3994'
 ht-degree: 100%
@@ -697,7 +697,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
     <ul> 
      <li> <p> <span class="uicontrol">Type de données :</span> entier</p> </li> 
      <li> <p> <span class="uicontrol">Valeur (texte)</span> : 1 </p> </li> 
-    </ul> Cette option devrait uniquement être utilisée si l'arbre de navigation d'usine a subi un trop grand nombre de modifications.<br /> Voir à ce propos <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">cette section</a>.<br /> </td> 
+    </ul> Cette option devrait uniquement être utilisée si l'arbre de navigation d'usine a subi un trop grand nombre de modifications.<br /> Voir à ce propos <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11">cette section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span> <br /> </td> 

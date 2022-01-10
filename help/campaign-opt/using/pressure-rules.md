@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 52aa7b268d5eb83354c3a4d8687ced95300538e2
 workflow-type: tm+mt
-source-wordcount: '3428'
-ht-degree: 100%
+source-wordcount: '3460'
+ht-degree: 97%
 
 ---
 
@@ -64,6 +64,8 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Pressio
    >[!NOTE]
    >
    >Les diffusions planifiées ne sont prises en compte que si l&#39;option **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]** est sélectionnée. Consultez à ce sujet la section [Définir la période](#setting-the-period).
+   >
+   >Cette option n&#39;est pas disponible dans Campaign v8.
 
 1. Indiquez le mode de calcul du nombre maximum de messages.
 
@@ -149,28 +151,29 @@ Le type de regroupement permet d&#39;étendre la valeur du champ **[!UICONTROL P
 
 Par exemple, une règle de pression qui définit un seuil de 2 messages par semaine, avec un regroupement au mois calendaire, empêchera l&#39;envoi de plus de deux diffusions dans la même semaine ET dans le même mois calendaire pour l&#39;ensemble de la période concernée. Attention, si la période chevauche deux mois, le calcul du seuil prendra en compte les diffusions de ces deux mois calendaires et pourrait donc empêcher toute nouvelle diffusion pendant le deuxième mois.
 
->[!NOTE]
->
->Par défaut, seules les diffusions déjà envoyées sont prises en compte dans le calcul du seuil. Cochez l&#39;option **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]** si vous souhaitez considérer également les diffusions planifiées dans le calendrier pour la période concernée. Dans ce cas, la période considérée est doublée afin de permettre d&#39;intégrer les diffusions à venir, et pas seulement celles déjà envoyées.\
->Donc, pour limiter à 15 jours la prise en compte les diffusions, vous pouvez au choix :
->
->* Saisir la valeur **15j** dans le champ **[!UICONTROL Période concernée]** : les diffusions envoyées jusqu&#39;à 15 jours avant à la date de la diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul,
->
->  ou
->
->* Entrez **7d** dans le champ **[!UICONTROL Période concernée]** ET cochez la case **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]**.\
->Option : les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
->
->Le jour de début de la période dépend du paramétrage de la base de données.
+Notez que, par défaut, seules les diffusions déjà envoyées sont prises en compte dans le calcul du seuil. Dans Campaign Classic v7, vérifiez les **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]** si vous souhaitez également tenir compte des diffusions planifiées pour la période concernée. Dans ce cas, la période considérée est doublée afin de permettre l&#39;intégration des diffusions futures ainsi que des diffusions précédentes.
+
+Donc, pour limiter à 15 jours la prise en compte les diffusions, vous pouvez au choix :
+
+1. Saisir la valeur **15j** dans le champ **[!UICONTROL Période concernée]** : les diffusions envoyées jusqu&#39;à 15 jours avant à la date de la diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul,
+
+ou
+
+1. Entrez **7d** dans le champ **[!UICONTROL Période concernée]** ET cochez la case **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]**. Option : les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
+
+   >[!AVAILABILITY]
+   >Cette méthode n’est pas disponible dans Campaign v8.
+
+Le jour de début de la période dépend du paramétrage de la base de données.
 
 Ainsi, si l&#39;on applique à une diffusion du 11/11 une règle de pression s&#39;appliquant sur 15 jours et sans regroupement, la période pendant laquelle les diffusions seront prises en compte s&#39;étendra du 27/10 au 12/11. Si la règle de pression prend en compte les diffusions du calendrier prévisionnel, les diffusions comptabilisées seront celles dont la date de diffusion est comprise entre le 27/10 et le 27/11. Enfin, si l&#39;on paramètre au niveau de la règle un regroupement au mois calendaire, toutes les diffusions des mois d&#39;octobre et novembre seront prises en compte dans le calcul du seuil (du 1/10 au 30/11).
 
->[!CAUTION]
->
->**Cas fréquent**
->Pour ne prendre en compte que les diffusions de la semaine calendaire en cours et ne pas risquer de prendre également celles de la semaine précédente pour le calcul du seuil, définissez la **[!UICONTROL Période concernée]** à &#39;0&#39; et sélectionnez le **[!UICONTROL Type de période]** &#39;Regroupement à la semaine calendaire&#39;.
-> 
->Dans le cas d&#39;une période supérieure à 0 (par exemple 1), le calcul du seuil pourrait prendre en compte les diffusions de la veille. Or, si la veille correspond à la semaine calendaire précédente et que le type de période sélectionné est &#39;Regroupement à la semaine calendaire&#39;, alors l&#39;ensemble de la semaine précédente serait prise en compte pour le calcul du seuil.
+
+**Cas fréquent**
+
+Pour ne prendre en compte que les diffusions de la semaine calendaire en cours et ne pas risquer de prendre également celles de la semaine précédente pour le calcul du seuil, définissez la **[!UICONTROL Période concernée]** à &#39;0&#39; et sélectionnez le **[!UICONTROL Type de période]** &#39;Regroupement à la semaine calendaire&#39;.
+
+Dans le cas d&#39;une période supérieure à 0 (par exemple 1), le calcul du seuil pourrait prendre en compte les diffusions de la veille. Or, si la veille correspond à la semaine calendaire précédente et que le type de période sélectionné est &#39;Regroupement à la semaine calendaire&#39;, alors l&#39;ensemble de la semaine précédente serait prise en compte pour le calcul du seuil.
 
 **Exemple:**
 
@@ -333,6 +336,9 @@ Tout d&#39;abord, configurez la règle de pression.
    ![](assets/campaign_opt_pressure_example_1.png)
 
    Les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion seront prises en compte dans le calcul. Consultez à ce sujet la section [Définir la période](#setting-the-period).
+
+   >[!AVAILABILITY]
+   >Les diffusions planifiées ne peuvent pas être prises en compte dans Campaign v8.
 
 1. Dans l&#39;onglet **[!UICONTROL Typologies]**, associez la règle à une typologie de campagne.
 1. Enregistrez vos modifications.

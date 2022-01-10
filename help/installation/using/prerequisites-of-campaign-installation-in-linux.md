@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 8794464d6fcc8ab648cd6866266855a701538fde
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -46,15 +46,15 @@ Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des libra
 
    La configuration est correcte lorsque cette commande ne retourne aucune information (ligne vide).
 
-* Vous devez impérativement disposer de la version **0.9.8** ou **1.0** d&#39;OpenSSL.
+* Vous devez disposer de la version OpenSSL **1.0.2** ou supérieur.
 
-   Pour les distributions RHEL 7, la version 1.0 d’OpenSSL est requise.
+   Pour les distributions RHEL 7/8, la version 1.0 d’OpenSSL est requise.
 
-* Pour utiliser Adobe Campaign, la bibliothèque suivante doit être installée : **libicu**.
+* Pour utiliser Adobe Campaign, la librairie suivante doit être installée : **libicu**.
 
    Les versions supportées de **libicu** sont les suivantes (distribution 32bits ou 64bits) :
 
-   * RHEL 7, CentOS 7 : libicu50
+   * RHEL 7/8, CentOS 7 : libicu50
    * Debian 8 : libicu52
    * Debian 9 : libicu57
 

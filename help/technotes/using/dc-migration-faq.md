@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 1f050ada481a7307a59ea6c81290bb0b24a3bf6c
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
 source-wordcount: '2243'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -281,5 +281,5 @@ Les incidences globales au cours de la migration sont répertoriées ci-dessous.
 ## Support et autres liens utiles{#support}
 
 * [Migration vers Adobe Managed Services (cloud public)](dc-migration.md)
-* [Mise à niveau vers Gold Standard](../../rn/using/gs-overview.md)
+* [Mise à niveau annuelle de Campaign](../../rn/using/rn-overview.md#yeary-upgrade)
 * [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md)

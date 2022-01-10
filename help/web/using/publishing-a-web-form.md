@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1024'
+ht-degree: 97%
 
 ---
 
@@ -69,7 +69,7 @@ L&#39;option **[!UICONTROL Chargement automatique des données référencées da
 
 L&#39;option **[!UICONTROL Chargement de données additionnelles]** permet d&#39;ajouter des informations supplémentaires qui ne sont pas utilisées dans les pages du formulaire mais seront toutefois pré-remplies.
 
-Vous pouvez par exemple précharger le genre du destinataire et l&#39;orienter automatiquement vers la page correspondante via une boîte de test.
+Vous pouvez, par exemple, précharger le genre du destinataire et le diriger automatiquement vers la page correspondante via une boîte de test.
 
 ![](assets/s_ncs_admin_survey_preload_ex.png)
 

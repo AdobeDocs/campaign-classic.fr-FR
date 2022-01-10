@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Gérer la présentation des offres{#managing-offer-presentation}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## Aperçu des règles de présentation {#presentation-rules-overview}
 

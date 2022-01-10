@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: a5f6478d3c0780464974053e389923614abba582
 workflow-type: tm+mt
 source-wordcount: '2461'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -367,7 +367,7 @@ Vous pouvez ajouter dans une page un champ de téléchargement. Cette fonctionna
 
 Pour ajouter un champ de téléchargement dans une page de formulaire, sélectionnez le menu **[!UICONTROL Contrôles avancés > Fichier...]** dans la barre d&#39;outils de l&#39;éditeur de page.
 
-Les fichiers téléchargés sont stockés par défaut dans les ressources fichiers accessibles à partir du menu **[!UICONTROL Ressources > On-line > Ressources publiques]**. Vous pouvez modifier ce comportement par un script. Ce script peut utiliser les fonctions définies dans la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) notamment celles relatives à la manipulation des fichiers.
+Les fichiers téléchargés sont stockés par défaut dans les ressources fichiers accessibles à partir du menu **[!UICONTROL Ressources > On-line > Ressources publiques]**. Vous pouvez modifier ce comportement par un script. Ce script peut utiliser les fonctions définies dans la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr) notamment celles relatives à la manipulation des fichiers.
 
 Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans un champ de la base. Vous pouvez, par exemple, étendre le schéma des destinataires afin d&#39;ajouter un lien vers les ressources fichiers.
 
@@ -383,7 +383,7 @@ Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans u
 
 ## Insérer une constante masquée {#inserting-a-hidden-constant}
 
-Lorsque l&#39;utilisateur valide l&#39;une des pages du formulaire, vous pouvez définir une valeur spécifique pour un champ de son profil ou une variable.
+Lorsque l’utilisateur valide l’une des pages du formulaire, vous pouvez définir une valeur spécifique sur un champ de son profil ou sur une variable.
 
 Ce champ n‘est pas visible par l‘utilisateur mais permet d‘enrichir les données de son profil.
 

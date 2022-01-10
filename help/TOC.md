@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: e142bcc18dd22179d83c54b9e79d3e3339b005fa
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
-source-wordcount: '2599'
-ht-degree: 99%
+source-wordcount: '2556'
+ht-degree: 98%
 
 ---
 
@@ -22,10 +22,8 @@ ht-degree: 99%
    + [Prise en main des mises à niveau](rn/using/rn-overview.md)
    + [Dernière version](rn/using/latest-release.md)
    + Versions précédentes {#previous-releases}
-      + Version [!DNL Gold Standard] {#gs-release}
-         + [En quoi consiste [!DNL Gold Standard]](rn/using/gs-overview.md)
-         + [Notes de mise à jour de [!DNL Gold Standard]](rn/using/gold-standard.md)
-         + [Matrice de compatibilité [!DNL Gold Standard]](rn/using/compatibility-matrix-gs.md)
+      + [[!DNL Gold Standard]](rn/using/gold-standard.md)
+      + [2021](rn/using/release--2021.md)
       + [2020](rn/using/release--2020.md)
       + [2019](rn/using/release--2019.md)
       + [2018](rn/using/release--2018.md)
@@ -597,7 +595,6 @@ ht-degree: 99%
    + Annexes {#annexes}
       + [Exemples d&#39;apps Facebook](social/using/examples-of-facebook-apps.md)
       + [Tracking](social/using/tracking.md)
-+ [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
 + Guide d’installation et de configuration {#installing-campaign-classic}
    + Principes d&#39;architecture {#architecture-and-hosting-models}
       + [Architecture générale](installation/using/general-architecture.md)
@@ -821,23 +818,15 @@ ht-degree: 99%
       + [Collecter toutes les visites](configuration/using/collecting-all-visits.md)
       + [Tracking anonyme](configuration/using/anonymous-tracking.md)
 + Guide de migration {#migrating-to-a-new-version}
-   + Présentation de la migration {#migration-overview}
-      + [À propos de la migration](migration/using/about-migration.md)
-      + [Méthode de migration](migration/using/migration-method.md)
-      + [Avertissements relatifs à la migration](migration/using/migration-warnings.md)
+   + [Migration vers Adobe Campaign v7](migration/using/about-migration.md)
    + Procédure de migration {#migration-procedure}
-      + [Avant de commencer la migration](migration/using/before-starting-migration.md)
-      + [Tester la migration](migration/using/testing-the-migration.md)
-      + [Configurer votre plateforme](migration/using/configuring-your-platform.md)
-   + Migration vers Adobe Campaign 7 {#migrating-to-adobe-campaign-7}
-      + [Prérequis pour la migration vers Adobe Campaign 7](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
-      + [Migration sous Windows pour Adobe Campaign 7](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
-      + [Migration sous Linux pour Adobe Campaign v7](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-   + Configuration {#configuration}
-      + [Paramétrages généraux](migration/using/general-configurations.md)
-      + [Paramétrages spécifiques v5.11](migration/using/specific-configurations-in-v5-11.md)
-      + [Paramétrages spécifiques v6.02](migration/using/specific-configurations-in-v6-02.md)
-      + [Paramétrages spécifiques v6.10](migration/using/specific-configurations-in-v6-10.md)
+      + [Conditions préalables](migration/using/before-starting-migration.md)
+      + [A propos des tests de migration](migration/using/testing-the-migration.md)
+      + [Adapter votre configuration](migration/using/configuring-your-platform.md)
+   + Démarrer la migration {#migrating-to-adobe-campaign-7}
+      + [Migration d’une plateforme Microsoft Windows](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
+      + [Migration d’une plateforme Linux](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
+      + [Configuration de votre plateforme](migration/using/general-configurations.md)
    + [Procédure de restauration](migration/using/about-rollback.md)
 + Notes techniques {#technotes}
    + [Recommandations relatives au dimensionnement du matériel](technotes/using/hardware-sizing.md)
@@ -845,7 +834,7 @@ ht-degree: 99%
       + [Notes techniques](technotes/using/technote.md)
       + [Mises à jour de la configuration de Campaign](technotes/using/acc-config-updates.md)
       + [Mises à jour de lʼIMS](technotes/using/ims-updates.md)
-      + [End of Life for TLS 1.0 and 1.1 support](technotes/using/eol-tls-support.md)
+      + [Fin de vie de la prise en charge de TLS 1.0 et 1.1](technotes/using/eol-tls-support.md)
    + E-mails et notifications push{#technotes-email}
       + [Protection de la confidentialité des e-mails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
       + [FAQ sur la protection de la confidentialité dʼApple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=fr)
@@ -855,4 +844,4 @@ ht-degree: 99%
    + Migration vers Adobe Managed Services{#dc-migration}
       + [Migration vers le cloud public](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
-+ [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
++ [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)

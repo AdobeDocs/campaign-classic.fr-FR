@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 07a5742c6f142c786ad8ba2f8774e7e90e8cd191
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Exemple d&#39;extension{#extension-example}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Dans le cas d&#39;un contact entrant (centre d&#39;appel ou site web), les offres les plus pertinentes sont proposées à un contact donné grâce à un ensemble de règles d&#39;éligibilité. Pour enrichir les critères d&#39;éligibilité de vos offres, il est nécessaire d&#39;étendre le schéma **nms:interaction**.
 

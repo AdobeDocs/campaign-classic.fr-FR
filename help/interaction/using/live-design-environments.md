@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Interaction fonctionne avec deux types d&#39;environnements d&#39;offres :
 
 Chaque environnement **[!UICONTROL En édition]** est associé à un environnement **[!UICONTROL En ligne]**. Lorsqu&#39;une offre est finalisée, son contenu et ses règles d&#39;éligibilité passent par un cycle de validation. Lorsque le cycle de validation est complet, l&#39;offre concernée est automatiquement déployée dans l&#39;environnement **[!UICONTROL En ligne]**. Dès lors, elle est disponible pour être diffusée.
 
-Par défaut, Interaction est livré avec un environnement **[!UICONTROL En édition]** et l&#39;environnement **[!UICONTROL En ligne]** qui lui est associé. Les deux environnements sont pré-paramétrés pour cibler la table des destinataires livrée d&#39;usine.
+Par défaut, Interaction est fourni avec un **[!UICONTROL Conception]** environnement et un **[!UICONTROL En direct]** l’environnement qui y est lié. Les deux environnements sont préconfigurés pour cibler la table de destinataires native.
 
 >[!NOTE]
 >

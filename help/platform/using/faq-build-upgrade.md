@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '2027'
-ht-degree: 100%
+source-wordcount: '2026'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign fait l&#39;objet de mises à jour régulières. Si vous connaiss
 
 C&#39;est pourquoi il est essentiel que nos clients exécutent la version la plus récente d&#39;Adobe Campaign. Nous pouvons ainsi vous aider plus efficacement si vous rencontrez des problèmes ; l&#39;identification, la reproduction et la résolution d&#39;un problème sur un ancien build prend généralement plus de temps, sans compter que vos éventuels problèmes peuvent avoir été corrigés dans un build récent.
 
-[!DNL Gold Standard] est la version de prise en charge à long terme de Campaign Classic. En tant qu’utilisateur [!DNL Gold Standard]hébergé, vous bénéficiez automatiquement de la mise à niveau vers [!DNL Gold Standard] avec la dernière version stable sans que vous n’ayez aucune action à effectuer. Les clients On-premise et hybrides peuvent également bénéficier des versions [!DNL Gold Standard]. Si vous migrez depuis un ancien build, nous vous recommandons d’effectuer d’abord la mise à niveau vers cette version. [En savoir plus](../../rn/using/gs-overview.md).
+En tant qu&#39;utilisateur hébergé, vous bénéficiez automatiquement de l&#39;upgrade annuel de Campaign avec la dernière version stable sans action. Les clients On-premise et hybrides peuvent également bénéficier de cette version. Si vous migrez depuis un ancien build, nous vous recommandons d’effectuer d’abord la mise à niveau vers cette version. [En savoir plus](../../rn/using/rn-overview.md).
 
 ## Qu&#39;est-ce qu&#39;un upgrade de build ?
 
@@ -206,4 +206,4 @@ du contenu est présent et s&#39;affiche.
 * [Réalisation d&#39;un upgrade de build](../../production/using/build-upgrade.md)
 * [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
 * [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
-* [[!DNL Gold Standard] programme](../../rn/using/gs-overview.md)
+* [Programme de mise à niveau annuel](../../rn/using/rn-overview.md#yearly-upgrade)

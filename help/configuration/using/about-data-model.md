@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -83,7 +83,7 @@ Pour plus d’informations sur la configuration des schémas d’extension pour 
 
 ## Utilisation d&#39;une table de destinataires par défaut {#custom-recipient-table}
 
-Pour concevoir votre modèle de données Adobe Campaign, vous pouvez utiliser la [table des destinataires d’usine](#default-recipient-table) ou décider de créer une [table des destinataires personnalisée](../../configuration/using/about-custom-recipient-table.md) pour stocker vos profils marketing.
+Lors de la conception de votre modèle de données Adobe Campaign, vous pouvez utiliser la variable [table des destinataires intégrée](#default-recipient-table)ou décidez de créer un [table des destinataires personnalisée](../../configuration/using/about-custom-recipient-table.md) pour stocker vos profils marketing.
 
 En effet, si votre modèle de données ne correspond pas à une structure centrée sur les destinataires, vous pouvez configurer d&#39;autres tables pour créer une dimension de ciblage dans Adobe Campaign. Cette approche peut, par exemple, être pertinente si vous devez cibler des ménages, des comptes (comme les téléphones portables) et des entreprises/des sites plutôt que des destinataires.
 
@@ -95,11 +95,11 @@ Les principes et les procédures applicables pour utiliser une table de destinat
 
 Les avantages d&#39;une table de destinataires par défaut sont les suivants :
 
-* **Modèle de données flexible** - La table des destinataires d’usine est sans intérêt si vous n&#39;avez pas besoin de la plupart de ses champs ou si le modèle de données n’est pas centré sur les destinataires.
+* **Modèle de données flexible** - La table des destinataires intégrée est inutile si vous n&#39;avez pas besoin de la plupart des champs de la table des destinataires ou si le modèle de données n&#39;est pas centré sur les destinataires.
 
-* **Évolutivité** - Pour une conception efficace, les gros volumes nécessitent une table rationalisée comportant peu de champs. La table des destinataires prête à l&#39;emploi comporterait trop de champs inutiles, ce qui pourrait avoir un impact sur les performances et réduire l&#39;efficacité.
+* **Évolutivité** - Pour une conception efficace, les gros volumes nécessitent une table rationalisée comportant peu de champs. La table des destinataires intégrée contiendrait trop de champs inutiles, ce qui pourrait avoir un impact sur les performances et un manque d&#39;efficacité.
 
-* **Emplacement des données** - Si les données se trouvent dans une base de données marketing externe existante, l’utilisation de la table des destinataires d’usine pourrait nécessiter un effort trop important. Dans ce cas, il est plus simple de créer une nouvelle structure basée sur celle qui existe.
+* **Emplacement des données** - Si les données se trouvent dans une base de données marketing externe existante, l’utilisation de la table des destinataires intégrée peut nécessiter trop d’efforts. Dans ce cas, il est plus simple de créer une nouvelle structure basée sur celle qui existe.
 
 * **Migration simple** - Aucune maintenance n’est nécessaire pour vérifier que toutes les extensions sont encore valides lors d’une mise à niveau.
 

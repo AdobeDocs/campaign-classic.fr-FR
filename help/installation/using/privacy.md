@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 100%
+source-wordcount: '902'
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ Pour améliorer la sécurité, un mécanisme de signature pour les liens de trac
 
 De plus, depuis Campaign 20.2 et la version [!DNL Gold Standard], vous pouvez utiliser une amélioration pour désactiver les URL générées dans les builds précédents. Cette fonctionnalité est désactivée par défaut. Vous pouvez contacter l&#39;[Assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour activer cette fonctionnalité.
 
-Si vous exécutez [!DNL Gold Standard] 19.1.4, vous pouvez rencontrer des problèmes avec les diffusions de notification push utilisant des liens de tracking ou celles qui utilisent des balises d&#39;ancrage. Si tel est le cas, nous vous recommandons de désactiver la signature d&#39;URL.
+Si vous exécutez la version 19.1.4, vous pouvez rencontrer des problèmes avec les diffusions de notification push à l’aide de liens de suivi ou avec les diffusions à l’aide de balises d’ancrage. Si tel est le cas, nous vous recommandons de désactiver la signature d&#39;URL.
 
 Que vous exécutiez Campaign On-premise ou dans une architecture hybride, vous devez contacter l&#39;[Assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour que la signature d&#39;URL soit désactivée.
 

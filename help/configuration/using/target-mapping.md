@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 468a986d7cfb8a4c51229cf81b6656ca2d101f40
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Mapping de ciblage{#target-mapping}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 La création d&#39;un mapping de ciblage est nécessaire dans deux cas de figure :
 

@@ -1,25 +1,28 @@
 ---
 product: campaign
-title: Notes de mise à jour de [!DNL Gold Standard]
-description: Notes de mise à jour de Campaign Classic [!DNL Gold Standard]
+title: Versions [!DNL Gold Standard]
+description: Notes de mise à jour et matrice de compatibilité pour Campaign Classic [!DNL Gold Standard]
 feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 86eb9814fae42992b5ca0ce233f88ad90086007d
+source-git-commit: f20ac97be9390fd7e6fd6a6c4d738c0fde9c72c3
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 100%
+source-wordcount: '1676'
+ht-degree: 97%
 
 ---
 
-# Notes de mise à jour de [!DNL Gold Standard]{#gold-standard}
+# Versions [!DNL Gold Standard]{#gold-standard}
 
 ![](../../assets/v7-only.svg)
 
-Cette page répertorie les versions de [!DNL Gold Standard]. Pour en savoir plus sur Campaign, reportez-vous à [!DNL Gold Standard][cette page](gs-overview.md).
+Vous trouverez dans cette page des notes de mise à jour et une matrice de compatibilité pour [!DNL Gold Standard] versions.
 
-## ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] version 12{#gs-12}
+## [!DNL Gold Standard]Notes de mise à jour     
+
+
+### ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] version 12{#gs-12}
 
 _7 septembre 2021_
 
@@ -34,7 +37,7 @@ Le build 9032@99a3894 comprend les correctifs suivants :
 * La fonctionnalité de signature de suivi a été améliorée afin d’éviter les erreurs liées à la manière dont les outils tiers (clients de messagerie, navigateurs Internet, etc.) gèrent les caractères spéciaux. Les paramètres d’URL sont désormais chiffrés.
 * Correction d’un problème lié aux sélecteurs de date qui entraînait l’affichage d’un message d’erreur de blocage dans une console. (NEO-36345)
 
-## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] version 11{#gs-11}
+### ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] version 11{#gs-11}
 
 _14 avril 2021_
 
@@ -50,6 +53,7 @@ Le build 9032@d030c36 comprend le correctif suivant :
 > * Si vous vous connectez à Campaign avec votre Adobe ID, par le biais du service Adobe IDentity Management (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign après le **30 juin 2021**. [En savoir plus](../../technotes/using/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 > * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez lʼassistance clientèle dʼAdobe pour étendre lʼassistance jusquʼen février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
+
 >
 >Pour en savoir plus, consultez le [[!DNL Gold Standard] FAQ sur la mise à niveau vers la version 11](https://helpx.adobe.com/fr/campaign/kb/gold-standard-upgrade.html)
 
@@ -79,7 +83,7 @@ Le build 9032@d3b452f comprend les améliorations et correctifs suivants :
 
 * Correction d&#39;un problème en raison duquel les workflows échouaient lors de l&#39;exécution d&#39;une activité d&#39;**enrichissement**. (NEO-17338)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 10{#gs-10}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 10{#gs-10}
 
 _7 juillet 2020_
 
@@ -91,7 +95,7 @@ Correction d’un problème qui empêchait le tracking de fonctionner lorsque la
 >
 >Nous vous recommandons de mettre à niveau la console cliente avec celle disponible dans cette version. Pour plus d’informations, consultez [cette page](../../installation/using/installing-the-client-console.md)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 9{#gs-9}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 9{#gs-9}
 
 _22 juin 2020_
 
@@ -108,7 +112,7 @@ Les correctifs suivants sont liés au mécanisme de sécurité des liens de trac
 * Correction d’un problème de suivi lors de l’utilisation de formules de tracking personnalisées spécifiques. (NEO-25277)
 
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 8{#gs-8}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 8{#gs-8}
 
 _29 avril 2020_
 
@@ -133,7 +137,7 @@ Le build 9032@3a9dc9c comprend les correctifs suivants :
 * Correction d’une régression qui entraînait le blocage du workflow de nettoyage.
 * Correction d’une régression mineure dans les logs du workflow de nettoyage.
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 6{#gs-6}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 6{#gs-6}
 
 _9 mars 2020_
 
@@ -141,7 +145,7 @@ Le build 9032@19f73c5 comprend le correctif suivant :
 
 * Correction d’un problème de comptes externes, lié à l’utilisation de FTP sur SSL. (NEO-20498)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 5{#gs-5}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 5{#gs-5}
 
 _17 décembre 2019_
 
@@ -149,7 +153,7 @@ Le build 9032@d6b8062 comprend le correctif suivant :
 
 * Correction d’un problème de suivi sur les canaux de communication suivants : mobile (SMS, MMS), push (iOS, Android) et réseaux sociaux (Facebook, Twitter). (NEO-19595)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 4{#gs-4}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 4{#gs-4}
 
 _11 décembre 2019_
 
@@ -157,7 +161,7 @@ Le build 9032@bc4a935 comprend le correctif suivant :
 
 * Correction d’un problème de performances lors de l’envoi de messages avec une base de données MSSQL. (NEO-17558)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 3{#gs-3}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 3{#gs-3}
 
 _20 novembre 2019_
 
@@ -167,7 +171,7 @@ Le build 9032@3468c7b comprend les correctifs suivants :
 * Correction d’un problème lors de l’affichage de rapports cumulatifs sur plusieurs diffusions. (NEO-18165)
 * Correction d’un problème susceptible de bloquer ou de provoquer le blocage du serveur web.
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 2{#gs-2}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 2{#gs-2}
 
 _19 septembre 2019_
 
@@ -176,7 +180,7 @@ Le build 9032@cee805c comprend les correctifs suivants :
 * Correction d’un problème lors de l’utilisation du connecteur CRM pour Salesforce. (NEO-17712)
 * Correction d’un problème d’index qui pouvait entraîner des problèmes de performances lors de l’envoi de messages transactionnels.
 
-## ![](assets/do-not-localize/red_2.png) Version 19.1.4 - Build 9032{#release-19-1-4-build-9032}
+### ![](assets/do-not-localize/red_2.png) Version 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
 _13 août 2019_
 
@@ -187,3 +191,364 @@ Le build 19.1.4 initial comprend les correctifs suivants :
 * Correction d&#39;un problème qui entraînait le renvoi d&#39;un code HTTP erroné (HTTP 200 OK à la place de HTTP 403 Interdit) lorsqu&#39;un jeton de session non valide ou ayant expiré était utilisé dans les appels d&#39;API. (NEO-16826)
 * Correction d&#39;un problème lié à la clé DKIM qui n&#39;était plus incorporée dans les emails, ce qui entraînait des problèmes de délivrabilité. (NEO-16804)
 * Correction de divers problèmes liés à la planification des workflows. Les workflows devaient être exécutés une fois par jour sans tenir compte de la configuration du planificateur. (NEO-16619, NEO-16426)
+
+
+## [!DNL Gold Standard] Matrice de compatibilité{#compatibility-matrix-gs}
+
+Cette section répertorie tous les systèmes et composants pris en charge pour **Adobe Campaign Classic[!DNL Gold Standard]** Versions 19.1. Les produits et versions ne faisant pas partie de cette liste ne sont pas compatibles avec cette version d&#39;Adobe Campaign.
+
+>[!CAUTION]
+>Sauf mention contraire, toutes les versions mineures sont prises en charge.
+>
+>Adobe Campaign Classic est compatible avec tous les systèmes et outils répertoriés dans cette page. Lorsque des versions spécifiques de ces systèmes et outils tiers arrivent en fin de vie (EOL) avec leurs créateurs respectifs, Adobe Campaign n&#39;est plus compatible avec celles-ci. Elles sont alors supprimées de notre matrice de compatibilité pour la version suivante du produit. Pour éviter tout problème, vérifiez que vous disposez des versions prises en charge des systèmes répertoriés dans la matrice de compatibilité.
+
+### Systèmes d&#39;exploitation{#OperatingSystems-gs}
+
+<table> 
+<tbody> 
+<tr> 
+<td>CentOs</td>
+<td>
+<p>8.x (64 bits)</p>
+<p>7.x (64 bits)</p>
+</td>
+</tr>
+<tr>
+<td>Debian</td>
+<td>
+<p>9 (64 bits)</p>
+<p>8 (64 bits)</p>
+</td>
+</tr>
+<tr>
+<td>RHEL</td>
+<td>
+<p>7.x (64 bits)</p>
+<p><strong>Important :</strong> si vous utilisez RHEL, vous devez désactiver SELinux ou demander à vos architectes d'écrire des règles SELinux personnalisées pour vérifier qu'un SELinux activé ne pose pas de problème pour les opérations de Campaign.</p>
+</td>
+</tr>
+<tr>
+<td>Windows Server </td>
+<td>
+<p>2016</p>
+<p>2012 R2</p>
+<p>2012</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Serveurs web{#WebServers-gs}
+
+<table>
+<tbody>
+<tr>
+<td>Microsoft IIS </td>
+<td>
+<p>10.0 sur Windows Server 2016</p>
+<p>8.5 sur Windows Server 2012 R2</p>
+<p>8.0 sur Windows Server 2012 - Windows 8</p>
+</td>
+</tr>
+<tr>
+<td>Apache</td>
+<td>
+<p>2.4 pour RHEL7 - CentOS 7, Debian 8/9, Windows (64 bits)</p>
+<p>2.2 pour RHEL6 - CentOS 6 uniquement (64 bits)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Outils{#Tools-gs}
+
+<table>
+<tbody>
+<tr>
+<td>Java Development Kit (JDK)</td>
+<td>
+<p>8</p>
+<p>L'application a été validée pour le JDK développé par Oracle ainsi que pour OpenJDK.</p>
+</td>
+</tr>
+<tr>
+<td>Libre Office</td>
+<td>
+<p>6 (et versions antérieures en cas d'incorporation dans votre système)</p>
+</td>
+</tr>
+<tr>
+<td>SpamAssassin</td>
+<td>
+<p>3.4.x</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Serveurs SGBDR{#RDBMSservers-gs}
+
+>[!NOTE]
+>
+>Le pilote SGBDR doit correspondre à la version du serveur SGBDR.
+
+<table>
+<tbody>
+<tr>
+<td>Oracle</td>
+<td>
+<p>18c</p>
+<p>12c</p>
+<p>11g R2</p>
+</td>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td>
+<p>11.x</p>
+<p>10.x</p>
+<p>9.6.x</p>
+<p>9.5.x</p>
+<p>9.4.x</p>
+<p>Remarque : vous pouvez également utiliser Amazon RDS pour PostgreSQL avec les versions indiquées ci-dessus.</p>
+</td>
+</tr>
+<tr>
+<td>SQL Server </td>
+<td>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
+<p>2012 - SP1 et SP2</p>
+<p>Avertissement : Microsoft SQL Server n'est pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux.</p>
+</td>
+</tr>
+<tr>
+<td>DB2 UDB</td>
+<td>
+<p>9.7</p>
+<p>Avertissement : DB2 UDB n'est pas autorisé pour les nouvelles installations.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+>[!NOTE]
+>
+>PostgreSQL est le serveur de base de données par défaut pour les environnements hébergés.
+
+### Connecteurs CRM{#CRMconnectors-gs}
+
+<table>
+<tbody>
+<tr>
+<td>API du connecteur Salesforce</td>
+<td>
+<p>API version 37</p>
+</td>
+</tr>
+<tr>
+<td>API SFDC</td>
+<td>
+<p>API version 21</p>
+<p>API version 15</p>
+</td>
+</tr>
+<tr>
+<td>Microsoft Dynamics </td>
+<td>
+<p>API Soap - On-premise : 2007, 2015, 2016</p>
+<p>API Soap - Online : 2015, 2016</p>
+<p>API Web - On-premise et Online : 365, 2016, 2016 Mise à jour 1</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Federated Data Access (FDA){#FederatedDataAccessFDA-gs}
+
+<table>
+<tbody>
+<tr>
+<td>Amazon Redshift</td>
+<td><p> </p>
+</td>
+</tr>
+<tr>
+<td>Oracle</td>
+<td>
+<p>12c</p>
+<p>11g</p>
+</td>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td>
+<p>11.x</p>
+<p>10.x</p>
+<p>9.6.x</p>
+<p>9.4.x</p>
+</td>
+</tr>
+<tr><td>SQL Server </td>
+<td>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
+<p>2012 SP1 et SP2</p>
+</td>
+</tr>
+<tr><td>MySQL</td>
+<td>
+<p>5.7</p>
+</td>
+</tr>
+<tr>
+<td>Teradata</td>
+<td>
+<p>16.20</p>
+<p>16</p>
+<p>15.10</p>
+<p>15.0</p>
+</td>
+</tr>
+<tr>
+<td>Netezza</td>
+<td>
+<p>7.2</p>
+</td>
+</tr>
+<tr>
+<td>Sybase</td>
+<td>
+<p>IQ 16</p>
+<p>ASE 15.7</p>
+</td>
+</tr>
+<tr>
+<td>SAP HANA</td>
+<td>
+<p>SPS 12 version 1</p>
+</td>
+</tr>
+<tr><td>Hadoop via HiveSQL</td>
+<td>
+<p>HortonWorks HDP 2.4.X, 2.5.x, 2.6.x</p>
+<p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Console cliente {#ClientConsoleoperatingsystems}
+
+:warning: Les systèmes d&#39;exploitation et le navigateur ci-après sont nécessaires pour utiliser la console cliente Campaign.
+
+### Systèmes d’exploitation
+
+<table>
+<tbody>
+<tr>
+<td>Microsoft Windows Server</td>
+<td>
+<p>2016</p>
+<p>2012</p>
+</td>
+</tr>
+<tr>
+<td>Microsoft Windows</td>
+<td>
+<p>8</p>
+<p>10 (recommandé pour les instances japonaises)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+#### Navigateur
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Internet Explorer </p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### SDK Mobile{#MobileSDK}
+
+<table>
+<tbody>
+<tr>
+<td>Android</td>
+<td>
+<p>7.x, 8.x, 9.0</p>
+<p>avec SDK Mobile version 1.0.27.</p>
+</td>
+</tr>
+<tr>
+<td>iOS</td>
+<td>
+<p>iOS 9 - 14</p>
+<p>avec SDK Mobile version 1.0.26, compatible avec les versions 32 et 64 bits.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Navigateurs{#Browsers}
+
+Les navigateurs ci-après sont compatibles avec Campaign pour un accès à internet.
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Mozilla Firefox</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Google Chrome</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Safari</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Microsoft Internet Explorer </p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>

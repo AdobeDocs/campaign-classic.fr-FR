@@ -6,14 +6,14 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 9ba2199eabf91381e87661f30c9af8aa0ce4cc26
+source-git-commit: 59a2bc62b4c03ef0702cb57bd9dc808e7d0b444b
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 88%
 
 ---
 
-# Tester la migration{#testing-the-migration}
+# Tests de migration{#testing-the-migration}
 
 ![](../../assets/v7-only.svg)
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Les tests de migration peuvent être effectués de différentes manières, en fonction de votre configuration.
 
-Vous devez disposer d&#39;un environnement de test/développement afin de réaliser les tests de migration. Les environnements de développement sont soumis à licence : vérifiez votre contrat de licence ou contactez le service commercial.
+Vous devez disposer d’un environnement de test/développement pour effectuer les tests de migration. Les environnements Adobe Campaign sont soumis à une licence : vérifiez votre contrat de licence ou contactez votre représentant Adobe.
 
 1. Arrêtez tous les développements en cours et reportez-les sur l&#39;environnement de production.
 1. Effectuez une sauvegarde de la base de données correspondant à l&#39;environnement de développement.
@@ -39,18 +39,12 @@ Vous devez disposer d&#39;un environnement de test/développement afin de réali
 
 1. Assurez-vous que vos sauvegardes sont intègres en tentant de les restaurer. Vérifiez que vous avez bien accès à votre base de données, vos tables, vos données, etc.
 1. Testez la procédure de migration sur l&#39;environnement de développement.
-
-   Les procédures complètes sont présentées dans la section [Prérequis pour la migration vers Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md).
-
 1. Si la migration de l&#39;environnement de développement s&#39;est effectuée sans erreur, migrez l&#39;environnement de production.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >En raison de modifications effectuées sur la structure des données, l&#39;import et l&#39;export de packages de données entre une plateforme v5 et une plateforme v7 ne sont pas possibles.
 
->[!NOTE]
->
->La commande de mise à jour d&#39;Adobe Campaign (**postupgrade**) permet de synchroniser les ressources et de mettre à jour les schémas et la base de données. Cette opération n&#39;est à effectuer qu&#39;une seule fois et uniquement sur un serveur applicatif. Lors de la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
 
 ## Outils d&#39;aide à la migration {#migration-tools}
 
@@ -70,9 +64,11 @@ Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39
 
 >[!NOTE]
 >
->Vous devez utiliser l’option **-instance:`<instanceame>`**. Il est déconseillé d’utiliser l’option  **-allinstances**.
+>* Vous devez utiliser l’option **-instance:`<instanceame>`**. Il est déconseillé d’utiliser l’option  **-allinstances**.
+>* La commande de mise à jour d&#39;Adobe Campaign (**postupgrade**) permet de synchroniser les ressources et de mettre à jour les schémas et la base de données. Cette opération n&#39;est à effectuer qu&#39;une seule fois et uniquement sur un serveur applicatif. Lors de la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
 
-### Options -showCustomEntities et -showDeletedEntities {#showcustomentities-and--showdeletedentities-options}
+
+### Objets non standard ou manquants
 
 * L&#39;option **-showCustomEntities** affiche la liste de tous les objets non-standards :
 
@@ -110,7 +106,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 
 >[!NOTE]
 >
->Ne tenez pas compte des avertissements et des erreurs contenant le code JST-310040.
+>Vous pouvez ignorer tous les avertissements et erreurs avec le code JST-310040.
 
 Les expressions suivantes sont recherchées (sensibilité à la casse) :
 
@@ -158,7 +154,7 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> Erreur<br /> </td> 
-   <td> Ce type d’erreur entraîne un échec de la migration. Pour plus d'informations, consultez la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si vous obtenez des journaux d’erreurs d’application Web de type vues d’ensemble (migration depuis la version v6.02), consultez la section <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Configuration de Campaign</a>.<br /> </td> 
+   <td> Ce type d’erreur entraîne un échec de la migration. Pour plus d'informations, consultez la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si vous obtenez des journaux d’erreurs d’application Web de type vues d’ensemble (migration depuis la version v6.02), consultez la section <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11" target="_blank">Configuration de Campaign</a>.<br /> </td> 
   </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
@@ -167,6 +163,12 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> Ce type de déploiement n’est plus pris en charge. Le type de déploiement connecteur Microsoft CRM On-premise et Office 365 est désormais obsolète. 
    </br>Si vous utilisez l’un de ces types de déploiement obsolètes dans un compte externe, ce compte externe doit être supprimé et vous devez par la suite exécuter la commande <b>postupgrade</b>. 
    </br>Pour passer au déploiement des API Web, voir la section <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Applications Web</a>.<br /> </td>
+  </tr> 
+  <tr> 
+   <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
+   <td> PU-0008<br /> </td> 
+   <td> Erreur<br /> </td> 
+   <td> Les activités d'action Microsoft CRM, Salesforce, Oracle CRM On Demand ne sont plus disponibles. Pour configurer la synchronisation des données entre Adobe Campaign et un système CRM, vous devez utiliser la variable <a href="../../workflow/using/crm-connector.md" target="_blank">Connecteur CRM</a> activité de ciblage.<br /> </td>
   </tr> 
  </tbody> 
 </table>
@@ -185,6 +187,6 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 >
 >Nous vous recommandons fortement d&#39;utiliser des chemins de dossiers absolus et de conserver l&#39;arborescence de dossiers. Par exemple : backupFolder\nms\srcSchema\billing.xml
 
-### Reprise de migration {#resuming-migration}
+### Reprendre la migration {#resuming-migration}
 
 Si vous relancez le postupgrade à la suite d&#39;un échec de migration, celle-ci reprend là où elle s&#39;était arrêtée.

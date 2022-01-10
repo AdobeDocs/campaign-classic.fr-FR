@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: a5f6478d3c0780464974053e389923614abba582
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ Consultez la section sur [la prise en main des tables et schémas](../../configu
 
 ## Comment utiliser une table de destinataires personnalisée ? {#how-to-use-a-custom-recipient-table-}
 
-Vous pouvez créer et implémenter une table de destinataires non standard dans Campaign pour envoyer vos messages.
+Vous pouvez créer et implémenter une table de destinataires non intégrée dans Campaign pour envoyer vos messages.
 
 [Pour en savoir plus, cliquez ici](../../configuration/using/about-custom-recipient-table.md)
 

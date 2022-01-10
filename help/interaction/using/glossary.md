@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ Voici la définition des éléments principaux d&#39;Interaction.
 * **Mode unitaire** : un seul contact est traité à la fois. Ce mode est généralement utilisé pour les interactions entrantes et pour les messages transactionnels.
 * **Mode d&#39;identification** : il se réfère au statut d&#39;un contact.
 
-   * **[!UICONTROL explicite]** : le contact est identifié, il s&#39;est authentifié sur l&#39;interface du canal.
+   * **[!UICONTROL explicite]** : le contact est identifié à la suite de son login sur l&#39;interface du canal.
    * **[!UICONTROL implicite]** : le contact a été identifié par un cookie (de session ou permanent). Il peut être traité comme un contact anonyme ou comme un contact identifié.
    * **[!UICONTROL anonyme]** : le contact n&#39;a pas pu être identifié.
 
