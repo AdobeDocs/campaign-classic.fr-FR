@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: b174b8283d77a1b5eb535c0c46ba4a428bd66eef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1801'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Pour diffuser vers un téléphone mobile, vous devez avoir :
 
 >[!NOTE]
 >
-> Pour les diffusions SMS, la typologie doit utiliser une affinité SMS spécifique créée dans **one** conteneur de serveur d’applications dédié. [En savoir plus](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
+> Pour les diffusions SMS, la typologie doit utiliser une affinité SMS spécifique créée dans **un** conteneur de serveur d’applications dédié. [En savoir plus](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
 
 ## Création d’un compte externe SMPP {#creating-an-smpp-external-account}
 
