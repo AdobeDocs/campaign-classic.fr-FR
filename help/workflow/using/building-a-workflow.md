@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: -general-operation
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
 source-git-commit: 638b259462d3e01d744567e56d67a120359dc34a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1680'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -96,10 +96,10 @@ L&#39;affichage et la mise en page du diagramme peuvent être modifiés à l&#39
 
    ![](assets/s_user_segmentation_toolbar.png)
 
-   Les icônes relatives à la progression et l’affichage des logs sont présentées dans les sections suivantes :
+   Les icônes relatives à la progression et l’affichage des logs sont présentées en détail dans les sections suivantes :
 
    * [Afficher la progression](../../workflow/using/monitoring-workflow-execution.md#displaying-progress)
-   * [Afficher le journal](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)
+   * [Afficher les journaux](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)
 
 * **Alignement des objets**
 
