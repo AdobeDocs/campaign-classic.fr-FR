@@ -1,15 +1,16 @@
 ---
 product: campaign
-title: Versions de Campaign Classic 2018
-description: En savoir plus sur les versions 2018 de Campaign Classic
-source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
-workflow-type: tm+mt
+title: Versions de Campaign Classic 2018
+description: En savoir plus sur les versions de Campaign Classic 2018
+exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
+source-git-commit: 96f2ae67a5b47b80533e759713cf5b36baa8cf36
+workflow-type: ht
 source-wordcount: '5452'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Versions de 2018{#release-2018}
+# Versions 2018{#release-2018}
 
 ![](../../assets/v7-only.svg)
 
@@ -80,7 +81,7 @@ ht-degree: 99%
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Améliorations**
 
@@ -96,13 +97,13 @@ ht-degree: 99%
 * Correction d&#39;un problème avec le calcul des durées de workflow dans la carte thermique des workflows.
 
 
-### Version 18.10.1 - Build 8977{#release-18-10-build-8977}
+### Version 18.10.1 - Build 8977{#release-18-10-build-8977}
 
 5 novembre 2018
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Nouveautés**
 
@@ -247,7 +248,7 @@ Ces modifications d&#39;index peuvent entraîner une augmentation du temps néce
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Nouveautés**
 
@@ -297,13 +298,13 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
 * [https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw](https://docs.teradata.com/reader/cY5B%7EoeEUFWjgN2kBnH3Vw/a5G1iz%7Eve68yTMa24kVjVw)
 * [https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ)
 
-### Version 18.6.1 - Build 8947{#release-18-6-build-8947}
+### Version 18.6.1 - Build 8947{#release-18-6-build-8947}
 
 25 juin 2018
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](../../production/using/build-upgrade.md) ou contactez le [support technique](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](../../production/using/build-upgrade.md) ou contactez le [support technique](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Nouveautés**
 
@@ -321,7 +322,7 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
   </tr> 
   <tr> 
    <td> Prise en charge de Windows Server 2016<br /> </td> 
-   <td> Adobe Campaign est maintenant compatible avec Windows Server 2016. Consultez la <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">matrice de comptabilité de Campaign Classic</a>.<br /> </td> 
+   <td> Adobe Campaign est maintenant compatible avec Windows Server 2016. Consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html">matrice de comptabilité de Campaign Classic</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -338,7 +339,7 @@ Pour les clients existants, le comportement de cette fonction reste inchangé, m
 
 decryptPassword
 
-La fonction **decryptPassword** a été ajoutée. Elle vous permet de déchiffrer un mot de passe stocké dans un compte externe. Reportez-vous à la documentation [JSAPI](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) pour plus d’informations.
+La fonction **decryptPassword** a été ajoutée. Elle vous permet de déchiffrer un mot de passe stocké dans un compte externe. Reportez-vous à la documentation [JSAPI](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html) pour plus d’informations.
 
 API de fichier
 
@@ -422,7 +423,7 @@ Pour les clients existants, les API de fichier ne peuvent plus accéder au dossi
 * Correction d’un problème de performance qui pouvait se produire avec le processus inMail lors de l’utilisation d’un serveur de mails rebonds. (NEO-10641)
 * Correction d’un problème de mise à niveau de la base de données qui pouvait survenir lors de la mise à niveau de plus de 1 000 schémas.
 
-### Version 18.4.1 - Build 8931{#release-18-4-build-8931}
+### Version 18.4.1 - Build 8931{#release-18-4-build-8931}
 
 24 avril 2018
 
