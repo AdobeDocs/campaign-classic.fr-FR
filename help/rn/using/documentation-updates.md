@@ -159,9 +159,11 @@ La section [Délivrabilité](../../delivery/using/about-deliverability.md) a ét
 
 La nouvelle fonctionnalité **Service de retour d&#39;e-mail** (version bêta privée) est documentée [ici](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
 
+
 La section **Fichier de configuration du serveur** a été mise à jour avec les paramètres de configuration nécessaires pour que Campaign se connecte à un autre service à l&#39;aide d&#39;IMS. [En savoir plus](../../installation/using/the-server-configuration-file.md#ims)
 
-Dans la liste des statuts de diffusion, la description de **Prise en compte par le prestataire** a été mise à jour : ce statut est désormais également utilisé pour les diffusions par email envoyées à l&#39;aide du [service de retour d&#39;e-mail](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service). [En savoir plus](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
+Dans la liste des statuts de diffusion, la description de **Prise en compte par le prestataire** a été mise à jour : ce statut est désormais également utilisé pour les diffusions par email envoyées à l&#39;aide du [service de retour d&#39;e-mail](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
+[En savoir plus](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
 
 Les raccourcis clavier disponibles sur le nouvel écran de connexion pour se connecter à Adobe Campaign sont maintenant documentés. [En savoir plus](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
 
