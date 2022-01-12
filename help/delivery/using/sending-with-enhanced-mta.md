@@ -172,8 +172,7 @@ Par conséquent, vous devez attendre la fin de la période de validité pour voi
 
 <!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
-### Service de retour d&#39;e-mail (bêta)
- {#email-feedback-service}
+### Service de retour d&#39;e-mail (bêta) {#email-feedback-service}
 
 Grâce à la fonctionnalité Service de commentaires par email (EFS), l&#39;état de chaque email est signalé avec précision, car les commentaires sont capturés directement depuis le MTA (Message Tranfer Agent) amélioré.
 
