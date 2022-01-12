@@ -136,7 +136,6 @@ Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adob
 >
 >* Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](steps-validating-the-delivery.md#changing-the-approval-mode).
 >* La configuration de la cible du BAT est expliquée dans la section [Définir une cible spécifique au BAT](steps-defining-the-target-population.md#defining-a-specific-proof-target).
-
 >
 
 
