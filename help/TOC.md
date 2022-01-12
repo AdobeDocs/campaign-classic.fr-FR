@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
 source-wordcount: '2556'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -834,7 +834,7 @@ ht-degree: 98%
       + [Notes techniques](technotes/using/technote.md)
       + [Mises à jour de la configuration de Campaign](technotes/using/acc-config-updates.md)
       + [Mises à jour de lʼIMS](technotes/using/ims-updates.md)
-      + [Fin de vie de la prise en charge de TLS 1.0 et 1.1](technotes/using/eol-tls-support.md)
+      + [Fin de vie de la prise en charge du protocole TLS 1.0 et 1.1](technotes/using/eol-tls-support.md)
    + E-mails et notifications push{#technotes-email}
       + [Protection de la confidentialité des e-mails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
       + [FAQ sur la protection de la confidentialité dʼApple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=fr)

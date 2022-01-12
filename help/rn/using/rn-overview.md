@@ -9,7 +9,7 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: 87067a0cca1a4a7f8ea1137ece6d513d58fcdb42
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 81%
+ht-degree: 87%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 81%
 
 ## Statuts des versions{#rn-statuses}
 
-Chaque nouvelle version est fournie avec un état matérialisé par une couleur.
+Chaque nouvelle build est fournie avec un statut matérialisé par une couleur.
 
-![](assets/do-not-localize/green3.png) **Disponibilité générale** (GA) - Validée en production et recommandée par Adobe.
+![](assets/do-not-localize/green3.png) **Disponibilité générale** (GA) - Validée en production et recommandée par Adobe.
 
 ![](assets/do-not-localize/limited3.png) **Disponibilité limitée** (LA) - Déploiement à la demande uniquement.
 
@@ -33,7 +33,7 @@ Chaque nouvelle version est fournie avec un état matérialisé par une couleur.
 
 ## Cycle de publication
 
-Adobe Campaign fait l&#39;objet de mises à jour régulières. Cette fréquence régulière de mises à jour a pour but de vous fournir les dernières fonctionnalités et améliorations. Vous bénéficiez ainsi d’un environnement sécurisé et d’une expérience optimale avec notre produit.
+Adobe Campaign fait l’objet de mises à jour régulières. Cette fréquence régulière de mises à jour a pour but de vous fournir les dernières fonctionnalités et améliorations. Vous bénéficiez ainsi d’un environnement sécurisé et d’une expérience optimale avec notre produit.
 
 C&#39;est la raison pour laquelle nous pensons qu&#39;il est essentiel que vous **exécuter la version stable la plus récente** d’Adobe Campaign. Vous obtiendrez également un meilleur support, car l’identification, la reproduction et la résolution d’un problème sur un build récent sont généralement beaucoup plus rapides. De plus, de nombreux problèmes que vous pouvez rencontrer ont déjà été corrigés dans les builds les plus récents.
 
@@ -41,9 +41,9 @@ En tant que client hébergé, vous bénéficiez automatiquement de la mise à ni
 
 ## Recommandations{#recommendations}
 
-Pour assurer une configuration stable, nous vous recommandons d’installer **le même build stable** sur tous les serveurs qui s’exécutent sur la même configuration client.
+Pour garantir une configuration stable, nous vous recommandons d’installer **la même build stable** sur tous les serveurs qui s’exécutent sur la même configuration client.
 
-En outre, la console cliente doit avoir le même build que l&#39;instance de serveur.
+En outre, la console cliente doit présenter la même build que l’instance de serveur.
 
 Pour garder votre implémentation à jour, veillez à lire les pages [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md) et [Matrice de compatibilité](../../rn/using/compatibility-matrix.md) avec chaque nouvelle version.
 
@@ -136,7 +136,7 @@ Nous nous engageons à mettre à votre disposition des informations pertinentes 
 
 ## Ressources supplémentaires{#support}
 
-* [Rechercher votre version de Campaign](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+* [Trouver votre version de Campaign](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 * [Aide et support](../../support.md)
 * [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr)
 * [Dernières mises à jour de la documentation](../../rn/using/documentation-updates.md)

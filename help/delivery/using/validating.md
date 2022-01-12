@@ -35,7 +35,7 @@ La confirmation de l&#39;envoi lance l&#39;extraction des données dans le fichi
 
 Vous pouvez ensuite fermer l&#39;assistant et consulter les logs de diffusion depuis l&#39;onglet **[!UICONTROL Diffusion]** accessible à partir du détail de cette diffusion.
 
-Vous pouvez paramétrer le mode de remontée des logs de diffusion à partir de l&#39;onglet **[!UICONTROL Analyse]** des Propriétés de la diffusion.
+Vous pouvez paramétrer le mode de récupération des logs de diffusion à partir de l&#39;onglet **[!UICONTROL Analyse]** des Propriétés de la diffusion.
 
 Deux modes sont proposés :
 

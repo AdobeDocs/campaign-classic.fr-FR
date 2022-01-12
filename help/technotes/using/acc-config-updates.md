@@ -4,7 +4,7 @@ title: Note technique - Mises à jour de la configuration Adobe Campaign
 description: Mises à jour de la configuration d’Adobe Campaign 
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 100%
 

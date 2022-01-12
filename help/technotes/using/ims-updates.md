@@ -4,7 +4,7 @@ title: Note technique - Mise à jour de votre environnement pour vous connecter 
 description: Campaign - Mises à jour d'IMS
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 source-git-commit: 70240d5f62fd3d7b755389b5ad8c4b499c94657d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Le message d&#39;avertissement suivant s&#39;affiche pour les utilisateurs s&#39
 
 ![](../../integrations/using/assets/do-not-localize/errorMsg.png)
 
-Si un tel avertissement s&#39;affiche, assurez-vous d&#39;installer les dernières mises à jour du système d&#39;exploitation que vous utilisez. [En savoir plus](https://helpx.adobe.com/fr/x-productkb/global/update-operating-system-and-browser.html)
+Si un tel avertissement s&#39;affiche, assurez-vous d&#39;installer les dernières mises à jour du système d&#39;exploitation que vous utilisez. [En savoir plus](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
 Si vous n’avez pas mis à jour votre version d’Internet Explorer, le message suivant s’affiche et vous ne pouvez plus vous connecter à Adobe Campaign :
 

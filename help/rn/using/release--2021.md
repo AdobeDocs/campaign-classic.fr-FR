@@ -1,23 +1,23 @@
 ---
 product: campaign
-title: Versions de Campaign Classic 2021
-description: En savoir plus sur les versions 2021 de Campaign Classic
+title: Versions de Campaign Classic 2021
+description: En savoir plus sur les versions de Campaign Classic 2021
 feature: Overview
 role: User
 level: Beginner
 source-git-commit: babb585438a6e467afad74391035059f7b12a6ec
 workflow-type: tm+mt
 source-wordcount: '2542'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
-# Versions de 2021{#release-2021}
+# Versions 2021{#release-2021}
 
-## Version 7.1 (21.1)
+## Version 7.1 (21.1)
 
 >[!CAUTION]
->Utilisez la variable **[!UICONTROL Aide > À propos...]** pour vérifier votre Adobe Campaign [version et numéro de build](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Notez toutefois que pour toutes les versions entre 9277 et 9343 répertoriées dans cette page, le numéro de version affiche 7.0 au lieu de 7.1.
+>Utilisez la variable **[!UICONTROL Aide > À propos...]** pour vérifier votre Adobe Campaign [version et numéro de build](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Notez toutefois que pour toutes les builds entre 9277 et 9343 répertoriées sur cette page, le numéro de version indique 7.0 au lieu de 7.1.
 
 ### ![](assets/do-not-localize/limited_2.png) Version 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
 
@@ -189,7 +189,7 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 * Le workflow technique **Facturation (billing)** comprend maintenant les tâches effectuées à l’origine par le workflow **Comptage des profils actifs** (billingActiveContactCount), qui a été supprimé. Le rapport sur les emails envoyé chaque mois par le workflow fournit désormais des informations sur le nombre de profils actifs sur l&#39;instance. [En savoir plus](../../workflow/using/about-technical-workflows.md).
 * Un nouvel attribut **_keyOnMData** a été ajouté pour pouvoir utiliser une clé pour les opérations sur les données de mémo.
 
-**Autres changements**
+**Autres modifications**
 
 * Une barrière de sécurité a été ajoutée pour permettre uniquement l’exécution du [workflow technique de facturation](../../production/using/monitoring-processes.md#billing-report) sur l’instance marketing.
 * Le tiers openssl pour Windows a été mis à jour vers la version 1.1.1h.
@@ -251,11 +251,13 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 
 **Améliorations**
 
-**Le service de commentaires par email (EFS)** est un service évolutif chargé de capturer directement les commentaires issus du MTA amélioré, contribuant ainsi à la précision des rapports. Cette fonctionnalité est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+**Le service de retour d&#39;e-mail (EFS - Email Feedback Service)** est un service évolutif chargé de capturer directement les retours du MTA amélioré, contribuant ainsi à la précision des rapports.
+Cette fonctionnalité est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
 
 * Toutes les catégories de commentaires sont maintenant capturées pour créer des rapports complets et précis.
 * Le calcul de l&#39;indicateur Délivrés est désormais fondé sur les commentaires en temps réel du MTA amélioré, ce qui contribue à l&#39;amélioration de la précision et de la réactivité.
-* Le service EFS résout le problème des retards grâce au reporting synchrone des soft bounces.
+* EFS résout le problème des retards grâce au reporting synchrone des soft bounces.
+
 
 Pour plus d&#39;informations, consultez la [documentation détaillée](../../delivery/using/sending-with-enhanced-mta.md#efs).
 Si vous souhaitez participer à cette version bêta privée, remplissez ce [formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous recontacterons.

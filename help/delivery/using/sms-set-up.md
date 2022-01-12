@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: b174b8283d77a1b5eb535c0c46ba4a428bd66eef
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 100%
 

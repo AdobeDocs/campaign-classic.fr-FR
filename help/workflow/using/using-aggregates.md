@@ -68,7 +68,8 @@ Une fois le lien établi, le résultat de l&#39;agrégat et les destinataires fo
 1. Dans l&#39;onglet **[!UICONTROL Sous-ensembles]**, sélectionnez **[!UICONTROL Ajouter une condition de filtrage sur la population entrante]** puis cliquez sur **[!UICONTROL Editer...]**.
 1. Via l&#39;éditeur d&#39;expression, ajoutez un critère d&#39;égalité entre la date de création des destinataires et la date de création calculée par l&#39;agrégat.
 
-   Les champs de type date de la base de données sont généralement enregistrés à la milliseconde près. Il faut alors étendre ces derniers à la journée entière afin de ne pas limiter le filtre aux destinataires créés à la même milliseconde.
+   Les champs de type date de la base de données sont généralement enregistrés à la milliseconde près. Il faut alors étendre ces derniers à la journée entière afin de ne pas récupérer seulement des destinataires créés à la même milliseconde.
+
 
    Pour cela, utilisez la fonction **ToDate** disponible via l&#39;éditeur d&#39;expression, qui convertit les dates et heures en dates simples.
 

@@ -50,7 +50,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-Ce rapport se base sur la table **[!UICONTROL Tracking consolidé]** (nms:trackingStats). Cette table d&#39;agrégats est utilisée pour des raisons de performance lors de l&#39;affichage des rapports, à la place de la table **[!UICONTROL Logs de tracking des destinaires]** (nms:trackingLogRcp) et n&#39;est pas calculée en temps réel. La table est générée quelques minutes après la remontée des logs de tracking. Si les indicateurs sont à jour, les résultats seront les mêmes que pour les indicateurs du rapport **Indicateurs de tracking**. L&#39;indicateur @totalclicks correspond à la somme des clics sur une période de 5 minutes.
+Ce rapport se base sur la table **[!UICONTROL Tracking consolidé]** (nms:trackingStats). Cette table d&#39;agrégats est utilisée pour des raisons de performance lors de l&#39;affichage des rapports, à la place de la table **[!UICONTROL Logs de tracking des destinaires]** (nms:trackingLogRcp) et n&#39;est pas calculée en temps réel. La table est générée quelques minutes après la récupération des logs de tracking. Si les indicateurs sont à jour, les résultats seront les mêmes que pour les indicateurs du rapport **Indicateurs de tracking**. L&#39;indicateur @totalclicks correspond à la somme des clics sur une période de 5 minutes.
 
 ## Échecs et bounces {#non-deliverables-and-bounces-1}
 

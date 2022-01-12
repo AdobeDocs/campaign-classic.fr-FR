@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 87067a0cca1a4a7f8ea1137ece6d513d58fcdb42
 workflow-type: tm+mt
 source-wordcount: '4816'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -47,27 +47,27 @@ Ajout de l’option de mise à jour par lots dans l’activité Connecteur CRM .
 
 ### Décembre 2021{#dec-2021}
 
-Les notes de mise à jour de Campaign Classic v7 ont été réorganisées afin de simplifier la navigation. [En savoir plus](rn-overview.md)
+Les notes de mise à jour de Campaign Classic v7 ont été réorganisées afin de simplifier la navigation. [En savoir plus](rn-overview.md)
 
-Mise à jour et amélioration de la documentation sur l’édition de formulaires dans Campaign - [En savoir plus](../../configuration/using/editing-forms.md)
+Mise à jour et amélioration de la documentation sur l’édition de formulaires dans Campaign. [En savoir plus](../../configuration/using/editing-forms.md)
 
-CentOs 8 a atteint la fin de vie et est désormais obsolète avec Adobe Campaign Classic. [En savoir plus](deprecated-features.md)
+CentOs 8 a atteint sa fin de vie et est désormais obsolète avec Adobe Campaign Classic. [En savoir plus](deprecated-features.md)
 
 ### Novembre 2021{#nov-2021}
 
-Ajout d’une limitation à propos du SMS entrant (MO). [En savoir plus](../../delivery/using/sms-protocol.md#multipart)
+Ajout d’une limite relative aux SMS entrants (MO). [En savoir plus](../../delivery/using/sms-protocol.md#multipart)
 
 Mise à jour des détails des logs de processus de migration pour le déploiement du connecteur CRM. [En savoir plus](../../migration/using/testing-the-migration.md#verification-process)
 
-Ajout d’exigences relatives aux autorisations IMS pour implémenter l’intégration Adobe Campaign-Adobe Analytics. [En savoir plus](../../platform/using/adobe-analytics-provisioning.md)
+Ajout d’exigences relatives aux autorisations IMS pour implémenter l’intégration Adobe Campaign-Adobe Analytics. [En savoir plus](../../platform/using/adobe-analytics-provisioning.md)
 
-Mise à jour de la date de fin de vie du connecteur de données Adobe Analytics du 1er mars 2022 au 17 août 2022. [En savoir plus](deprecated-features.md)
+Mise à jour de la date de fin de vie du connecteur de données Adobe Analytics du 1er mars 2022 au 17 août 2022. [En savoir plus](deprecated-features.md)
 
-Ajout d’un lien vers la documentation du SDK mobile Adobe Experience Platform pour savoir comment configurer l’extension Campaign dans Adobe Launch. [En savoir plus](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+Ajout d’un lien vers la documentation du SDK mobile Adobe Experience Platform pour savoir comment configurer l’extension Campaign dans Adobe Launch. [En savoir plus](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
 
-Ajout d’une section sur l’utilisation de JavaScript pour calculer des valeurs, échanger des données et exécuter des opérations spécifiques à l’aide d’appels SOAP -[En savoir plus](../../workflow/using/javascript-scripts-and-templates.md)
+Ajout d’une section sur l’utilisation de JavaScript pour calculer des valeurs, échanger des données et exécuter des opérations spécifiques à l’aide d’appels SOAP.[En savoir plus](../../workflow/using/javascript-scripts-and-templates.md)
 
-Ajout d’exemples de mise en oeuvre de codes JavaScript dans les workflows. [En savoir plus](../../workflow/using/javascript-in-workflows.md)
+Ajout d’exemples d’implémentation de JavaScript dans les workflows. [En savoir plus](../../workflow/using/javascript-in-workflows.md)
 
 
 ### Octobre 2021{#oct-2021}
@@ -157,11 +157,11 @@ La section [Délivrabilité](../../delivery/using/about-deliverability.md) a ét
 
 **Mises à jour de la documentation accompagnant la version 21.1**
 
-La nouvelle fonctionnalité **Service de commentaires par email** (version bêta privée) est documentée [ici](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
+La nouvelle fonctionnalité **Service de retour d&#39;e-mail** (version bêta privée) est documentée [ici](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
 
 La section **Fichier de configuration du serveur** a été mise à jour avec les paramètres de configuration nécessaires pour que Campaign se connecte à un autre service à l&#39;aide d&#39;IMS. [En savoir plus](../../installation/using/the-server-configuration-file.md#ims)
 
-Dans la liste des statuts de diffusion, la description de **Prise en compte par le prestataire** a été mise à jour : ce statut est désormais également utilisé pour les diffusions par email envoyées à l&#39;aide du [service de commentaires par email](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service). [En savoir plus](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
+Dans la liste des statuts de diffusion, la description de **Prise en compte par le prestataire** a été mise à jour : ce statut est désormais également utilisé pour les diffusions par email envoyées à l&#39;aide du [service de retour d&#39;e-mail](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service). [En savoir plus](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
 
 Les raccourcis clavier disponibles sur le nouvel écran de connexion pour se connecter à Adobe Campaign sont maintenant documentés. [En savoir plus](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
 

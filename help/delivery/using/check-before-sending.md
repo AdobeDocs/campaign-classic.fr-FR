@@ -6,7 +6,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 source-git-commit: b174b8283d77a1b5eb535c0c46ba4a428bd66eef
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
 

@@ -64,7 +64,7 @@ Retenez l&#39;attention de vos clients et améliorez vos taux de réponse grâce
 
 Adobe Campaign vous permet de suivre et comprendre les comportements de vos clients en enrichissant progressivement leurs données et profil. Grâce aux outils de reporting et d&#39;analyse, vous capitalisez sur chaque nouvelle campagne, bénéficiez d&#39;un meilleur ciblage de vos actions marketing, et optimisez leur impact ainsi que leur retour sur investissement. Voir [cette page](../../reporting/using/delivery-reports.md) pour plus d’informations.
 
-### Intégrations d&#39;Adobe Experience Cloud {#adobe-experience-cloud-integrations}
+### Intégrations avec Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 
 Vous pouvez combiner les fonctionnalités de diffusion et de gestion de campagnes avancées d&#39;Adobe Campaign avec un ensemble de solutions conçues pour vous aider à personnaliser l&#39;expérience de vos utilisateurs : Adobe Experience Manager, Adobe Analytics, Adobe Target ou les déclencheurs Adobe Experience Cloud, par exemple. Vous pouvez également intégrer Adobe IMS et vous connecter à Campaign à l&#39;aide de votre Adobe ID. Pour plus d&#39;informations sur ces intégrations inter-solutions et d&#39;authentification, consultez [cette section](../../integrations/using/about-adobe-id.md).
 

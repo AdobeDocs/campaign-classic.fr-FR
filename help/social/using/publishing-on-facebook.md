@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
 source-git-commit: b5334de18eca8fc1147ae0c42fe23a6932bf71d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 100%
 
