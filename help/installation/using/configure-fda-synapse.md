@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 source-git-commit: 9265d389da53e51889c2b7a8cd330c1866a030d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 ![](../../assets/v7-only.svg)
 
-Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à **Microsoft Azure synapse Analytics**.
+Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à **Microsoft Azure Synapse Analytics**.
 
 1. Configuration d’Azure synapse sur [CentOS](#azure-centos), [Windows](#azure-windows) ou [Debian](#azure-debian)
 1. Configuration du [compte externe](#azure-external) Azure Synapse dans Campaign
@@ -130,7 +130,7 @@ Pour configurer Azure Synapse sous Windows :
 
 ## Azure Synapse sous Debian {#azure-debian}
 
-**Prérequis:**
+**Conditions préalables requises:**
 
 * Vous aurez besoin des privilèges racine pour installer un pilote ODBC.
 * Curl est nécessaire pour installer le package msodbcsql. Si vous ne l’avez pas installé, exécutez la commande suivante :
@@ -205,13 +205,13 @@ Pour créer votre compte externe [!DNL Azure Synapse], procédez comme suit :
 
    ![](assets/azure_1.png)
 
-1. Sous **[!UICONTROL Configuration]**, sélectionnez **[!UICONTROL azure synapse Analytics]** de la **[!UICONTROL Type]** menu déroulant.
+1. Sous **[!UICONTROL Configuration]**, sélectionnez **[!UICONTROL Azure Synapse Analytics]** dans la liste déroulante **[!UICONTROL Type]**.
 
    ![](assets/azure_2.png)
 
-1. Configurez la variable [!DNL Azure Synapse] compte externe :
+1. Configuration du compte externe [!DNL Azure Synapse] :
 
-   * Pour une authentification standard, vous devez indiquer :
+   * Pour l’authentification standard, vous devez indiquer les informations suivantes :
 
       * **[!UICONTROL Serveur]** : URL du serveur Azure Synapse
 
@@ -223,13 +223,13 @@ Pour créer votre compte externe [!DNL Azure Synapse], procédez comme suit :
 
       ![](assets/azure_3.png)
 
-   * Pour l’authentification d’identité gérée par le système, vous devez indiquer les informations suivantes :
+   * Pour l’authentification d’identité gérée par le système, vous devez indiquer les informations suivantes :
 
-      * **[!UICONTROL Serveur]** : URL du serveur Azure Synapse
+      * **[!UICONTROL Serveur]** : URL du serveur Azure Synapse
 
       * **[!UICONTROL Base de données]** : nom de la base de données
 
-      * **[!UICONTROL Options]**: Ajoutez la syntaxe suivante : `Authentication=ActiveDirectoryMsi`
+      * **[!UICONTROL Options]** : ajoutez la syntaxe suivante `Authentication=ActiveDirectoryMsi`
 
       ![](assets/azure_4.png)
 
