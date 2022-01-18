@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Les droits attribués au chargé d&#39;offres lui permettent d&#39;effectuer les
 
    >[!NOTE]
    >
-   >Le chargé d&#39;offres ne peut valider une offre que dans deux cas particuliers. La première étant si personne en particulier n&#39;a été spécifié comme validant, la seconde étant si l&#39;opérateur en charge de la création des modèles (ayant le droit d&#39;affecter les validants) les a spécifiés comme validant dans le modèle d&#39;offre sur lequel l&#39;offre était basée.
+   >Le chargé d’offres ne peut valider une offre que dans deux cas particuliers. Le premier étant si aucune personne en particulier n’a été spécifiée comme validant et le second étant si l’opérateur en charge de la création des modèles (disposant du droit pour l’affectation des validants) l’a spécifié comme validant dans le modèle d’offre sur lequel l’offre était basée.
 
 ## Chargé de diffusion {#delivery-manager}
 
