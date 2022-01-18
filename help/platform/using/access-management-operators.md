@@ -7,9 +7,9 @@ role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;acc
 
    >[!NOTE]
    >
-   >Même si son compte est désactivé, l&#39;opérateur peut toujours recevoir des alertes ou des notifications de Campaign. Pour arrêter d&#39;envoyer des notifications de Campaign à cet opérateur, Adobe vous recommande de supprimer l&#39;adresse email de son profil.
+   >Même si son compte est désactivé, l’opérateur peut toujours recevoir des alertes ou des notifications de la part de Campaign. Pour arrêter l’envoi de notifications Campaign à cet opérateur, Adobe vous recommande de supprimer l’adresse e-mail de son profil.
 
 * L&#39;option **[!UICONTROL Interdire l&#39;accès depuis la console cliente]** permet de restreindre l&#39;utilisation d&#39;Adobe Campaign à un [accès web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) ou par le biais d&#39;API : l&#39;accès à la console cliente Adobe Campaign n&#39;est plus disponible.
 * Vous pouvez associer une zone de sécurité à l&#39;opérateur. Voir à ce propos [cette page](../../installation/using/security-zones.md).
