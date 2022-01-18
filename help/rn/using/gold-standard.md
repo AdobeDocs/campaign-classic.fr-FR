@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Versions [!DNL Gold Standard]
-description: Notes de mise à jour et matrice de compatibilité pour Campaign Classic [!DNL Gold Standard]
+description: Notes de mise à jour et matrice de compatibilité pour Campaign Classic  [!DNL Gold Standard]
 feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: f20ac97be9390fd7e6fd6a6c4d738c0fde9c72c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1676'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 97%
 
 ![](../../assets/v7-only.svg)
 
-Vous trouverez dans cette page des notes de mise à jour et une matrice de compatibilité pour [!DNL Gold Standard] versions.
+Vous trouverez dans cette page des notes de mise à jour et une matrice de compatibilité pour les versions [!DNL Gold Standard].
 
-## [!DNL Gold Standard]Notes de mise à jour     
+## Notes de mise à jour de [!DNL Gold Standard]
 
 
 ### ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] version 12{#gs-12}
@@ -118,11 +118,11 @@ _29 avril 2020_
 
 Le build 9032@3a9dc9c comprend les correctifs suivants :
 
-* Amélioration de la sécurité des liens de tracking dans les emails. Cette option est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant l&#39;Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
+* Amélioration de la sécurité des liens de tracking dans les emails. Cette option est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant l&#39;Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism).
 
 >[!CAUTION]
 >
->Si vous rencontrez des problèmes avec les notifications push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. [La procédure est détaillée dans cette page](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
+>Si vous rencontrez des problèmes avec les notifications push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. [La procédure est détaillée dans cette page](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)
 
 * Correction d’un problème qui empêchait l’affichage des images sur les diffusions LINE. (NEO-23207)
 * Correction d’un problème lié à l’activité **Transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
@@ -193,9 +193,9 @@ Le build 19.1.4 initial comprend les correctifs suivants :
 * Correction de divers problèmes liés à la planification des workflows. Les workflows devaient être exécutés une fois par jour sans tenir compte de la configuration du planificateur. (NEO-16619, NEO-16426)
 
 
-## [!DNL Gold Standard] Matrice de compatibilité{#compatibility-matrix-gs}
+## Matrice de compatibilité de [!DNL Gold Standard]{#compatibility-matrix-gs}
 
-Cette section répertorie tous les systèmes et composants pris en charge pour **Adobe Campaign Classic[!DNL Gold Standard]** Versions 19.1. Les produits et versions ne faisant pas partie de cette liste ne sont pas compatibles avec cette version d&#39;Adobe Campaign.
+Cette section répertorie tous les systèmes et composants pris en charge pour les builds **Adobe Campaign Classic[!DNL Gold Standard]** 19.1. Les produits et versions ne faisant pas partie de cette liste ne sont pas compatibles avec cette version d’Adobe Campaign.
 
 >[!CAUTION]
 >Sauf mention contraire, toutes les versions mineures sont prises en charge.
