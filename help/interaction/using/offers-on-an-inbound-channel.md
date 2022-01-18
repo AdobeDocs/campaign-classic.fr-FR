@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2154'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ Le scénario de ce cas client se déroule de la manière suivante :
 
    ![](assets/offer_inbound_fallback_example_051.png)
 
-1. L&#39;utilisateur, un client de Neobank, se connecte avec ses informations d&#39;identification.
+1. L’internaute se connecte avec ses identifiants car il est un client de Neobank.
 
    ![](assets/offer_inbound_fallback_example_052.png)
 
