@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
 source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 78%
 
 ![](../../assets/common.svg)
 
-Tout comme la table des destinataires intégrée fournie avec Adobe Campaign, la nouvelle table des destinataires peut recevoir un lot de filtres prédéfinis.
+La nouvelle table des destinataires, comme la table des destinataires intégrée d’Adobe Campaign, peut recevoir un lot de filtres prédéfinis.
 
 Ces filtres seront disponibles dans l&#39;écran de sélection de la cible au même titre et avec les mêmes fonctionnalités que les segments pour les destinataires (possibilité d&#39;utiliser des formulaires de saisie de paramètres, organisation en dossiers hiérarchisés, etc.).
 
