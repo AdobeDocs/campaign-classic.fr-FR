@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 source-git-commit: 7a1b8a1cd3ad434dac5c324056113d7ec15ddd8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -71,11 +71,11 @@ Ce champ vous permet de sélectionner le fuseau horaire de l’activité. Voir �
 
 ## En cas d&#39;erreur {#in-case-of-errors}
 
-Ce champ vous permet de définir l&#39;action à effectuer lorsque l&#39;activité est en erreur. Deux options sont disponibles :
+Ce champ vous permet de définir l’action à effectuer lorsque l’activité est en erreur. Deux options sont disponibles :
 
-* **[!UICONTROL Suspension du processus]**: le workflow est automatiquement arrêté. Son état passe à **[!UICONTROL En échec]**. Une fois le problème résolu, relancez le workflow.
-* **[!UICONTROL Ignorer]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées. Cela peut s&#39;avérer utile dans le cas de tâches récurrentes. Si la branche comporte un planificateur placé en amont, celui-ci se déclenchera normalement à sa prochaine date d&#39;exécution.
-* **[!UICONTROL Abandon en erreur]**: le workflow est arrêté automatiquement et ne peut pas être redémarré. Son état passe à **[!UICONTROL En échec]**.
+* **[!UICONTROL Suspendre le processus]** : le workflow est automatiquement suspendu. Son statut passe à **[!UICONTROL En échec]**. Lorsque le problème est résolu, relancez le workflow.
+* **[!UICONTROL Ignorer]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées. Cela peut s&#39;avérer utile dans le cas de tâches récurrentes. Si la branche comporte un planificateur placé en amont, celui-ci se déclenchera normalement à sa prochaine date d’exécution.
+* **[!UICONTROL Abandon en erreur]** : le workflow est arrêté automatiquement et ne peut pas être redémarré. Son statut passe à **[!UICONTROL En échec]**.
 
 ## Script d&#39;initialisation {#initialization-script}
 
