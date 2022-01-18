@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 source-git-commit: 89c007775d4df7c6d50951283efe764c3c424d91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1289'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -162,32 +162,32 @@ Vous pouvez accéder aux écrans de la console Adobe Campaign par l&#39;interm�
 
    ![](assets/s_ncs_user_interface_web_campaign_01.png)
 
-Outre la navigation dans les campagnes et leur affichage, vous pouvez effectuer les tâches suivantes :
+Outre la navigation dans les campagnes et leur affichage, vous pouvez effectuer les tâches suivantes :
 
 * Surveillance de l’activité sur une instance
-* Participer aux processus de validation, par exemple, valider ou refuser le contenu d’une diffusion
-* Exécuter d’autres actions rapides, par exemple suspendre un workflow
-* Accès à toutes les fonctions de création de rapports
-* Participer aux discussions de forum
+* Participation aux processus de validation, par exemple, validation ou refus du contenu d’une diffusion
+* Exécution d’autres actions rapides, par exemple mis en pause d’un workflow
+* Accès à toutes les fonctionnalités de rapport
+* Participation aux discussions de forum
 
-Ce tableau résume les actions que vous pouvez effectuer sur les campagnes à partir d’un navigateur :
+Ce tableau résume les actions que vous pouvez effectuer sur les campagnes à partir d’un navigateur :
 
 | Page  | Action |
 | --- | --- |
 | Liste des campagnes, diffusions, offres, etc. | Suppression d’un élément de liste |
 | Campagne | Annulation d’une campagne |
 | Diffusion | Valider le contenu et la cible de la diffusion<br/>Envoyer le contenu de la diffusion<br/>Confirmer une diffusion<br/>Mettre en pause et arrêter une diffusion |
-| Application web | Créer une application web<br/>Modification du contenu et des propriétés de l’application<br/>Enregistrer le contenu de l&#39;application en tant que modèle<br/>Publication de l’application |
-| Offre | Valider le contenu et l&#39;éligibilité de l&#39;offre<br/>Désactiver une offre en ligne |
-| Tâche | Terminer une tâche<br/>Annulation d’une tâche |
-| Ressource marketing | Approbation d’une ressource<br/>Verrouillage et déverrouillage d’une ressource |
-| Kit d&#39;opération | Soumettre un kit à validation<br/>Approuver ou refuser un package<br/>Annuler un kit |
-| Commande d&#39;opération | Création d’une commande<br/>Accepter ou refuser une commande <!-- Je n'ai pas pu créer de campaign order pour vérifier cela. Peut-on accéder à ces fonctionnalités depuis l'accès web ? --> |
-| Stock | Supprimer une ligne de stock |
-| Simulation de l&#39;offre | Démarrer et arrêter une simulation |
-| Targeting workflow | Démarrer, mettre en pause et arrêter un workflow |
+| Application web | Créer une application web<br/>Modifier le contenu et les propriétés de l’application<br/>Enregistrer le contenu de l’application en tant que modèle<br/>Publier l’application |
+| Offre | Valider le contenu et l’éligibilité de l’offre<br/>Désactiver une offre en ligne |
+| Tâche | Terminer une tâche<br/>Annuler une tâche |
+| Ressource marketing | Approuver une ressource<br/>Verrouiller et déverrouiller une ressource |
+| Package de campagnes | Soumettre un package pour validation<br/>Valider ou refuser un package<br/>Annuler un package |
+| Commande de campagne | Créer une commande<br/>Accepter ou refuser une commande <!-- Je n'ai pas pu créer de campaign order pour vérifier cela. Peut-on accéder à ces fonctionnalités depuis l'accès web ? --> |
+| Stock | Supprimer des données de stock |
+| Simulation d’offres | Démarrer et arrêter une simulation |
+| Workflow de ciblage | Démarrer, mettre en pause et arrêter un workflow |
 | Rapport | Enregistrer les données actives dans l’historique du rapport |
-| Forum | Ajouter une discussion<br/>Répondre à un message dans une discussion<br/>Suivez une discussion et désabonnez-vous de celle-ci |
+| Forum | Ajouter une discussion<br/>Répondre à un message dans une discussion<br/>Suivre une discussion et s’en désabonner |
 
 ### Validations
 
