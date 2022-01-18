@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
 source-git-commit: 5d2ec0836fe5f106e0c56e5abbe7bab9332d7e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Utilisez l&#39;option Adobe Campaign Classic **Federated Data Access** (FDA)
 
 >[!NOTE]
 >
-> [!DNL Google BigQuery] Le connecteur est disponible pour les déploiements hébergés, hybrides et on-premise. Pour plus dʼinformations, consultez [cette page](../../installation/using/capability-matrix.md).
+> Le connecteur [!DNL Google BigQuery] est disponible pour les déploiements hébergés, hybrides et on-premise. Pour plus dʼinformations, consultez [cette page](../../installation/using/capability-matrix.md).
 
 ![](assets/snowflake_3.png)
 
@@ -85,13 +85,13 @@ L&#39;utilitaire de chargement en masse permet un transfert plus rapide grâce a
 
 ### Configuration du pilote sous Linux {#driver-linux}
 
-Avant de configurer le pilote, notez que le script et les commandes doivent être exécutés par l’utilisateur root. Il est également recommandé d’utiliser Google DNS 8.8.8.8 lors de l’exécution du script.
+Avant de configurer le pilote, notez que le script et les commandes doivent être exécutés par l’utilisateur racine. Il est également recommandé d’utiliser Google DNS 8.8.8.8 lors de l’exécution du script.
 
-Pour configurer [!DNL Google BigQuery] sous Linux, procédez comme suit :
+Pour effectuer la configuration de [!DNL Google BigQuery] sur Linux, procédez comme suit :
 
-1. Avant d’installer ODBC, vérifiez que les packages suivants sont installés sur votre distribution Linux :
+1. Avant d’installer ODBC, vérifiez que les packages suivants sont installés sur votre distribution Linux :
 
-   * Pour Red Hat/CentOS :
+   * Pour Red Hat/CentOS :
 
       ```
       yum update
@@ -99,7 +99,7 @@ Pour configurer [!DNL Google BigQuery] sous Linux, procédez comme suit :
       yum install -y grep sed tar wget perl curl
       ```
 
-   * Sous Debian:
+   * Sous Debian :
 
       ```
       apt-get update
@@ -107,23 +107,23 @@ Pour configurer [!DNL Google BigQuery] sous Linux, procédez comme suit :
       apt-get install -y grep sed tar wget perl curl
       ```
 
-1. Mise à jour du système avant installation :
+1. Mise à jour du système avant installation :
 
-   * Pour Red Hat/CentOS :
+   * Pour Red Hat/CentOS :
 
       ```
       # install unixODBC driver manager
       yum install -y unixODBC
       ```
 
-   * Sous Debian:
+   * Sous Debian :
 
       ```
       # install unixODBC driver manager
       apt-get install -y odbcinst1debian2 libodbc1 odbcinst unixodbc
       ```
 
-1. Accédez au répertoire où se trouve le script et exécutez le script suivant :
+1. Accédez au répertoire où se trouve le script et exécutez le script suivant :
 
    ```
    cd /usr/local/neolane/nl6/bin/fda-setup-scripts
@@ -140,9 +140,9 @@ Pour configurer [!DNL Google BigQuery] sous Linux, procédez comme suit :
 
 L&#39;utilitaire de chargement en masse permet un transfert plus rapide grâce au SDK Google Cloud.
 
-1. Avant d’installer ODBC, vérifiez que les packages suivants sont installés sur votre distribution Linux :
+1. Avant d’installer ODBC, vérifiez que les packages suivants sont installés sur votre distribution Linux :
 
-   * Pour Red Hat/CentOS :
+   * Pour Red Hat/CentOS :
 
       ```
       yum update
@@ -150,7 +150,7 @@ L&#39;utilitaire de chargement en masse permet un transfert plus rapide grâce a
       yum install -y python3
       ```
 
-   * Sous Debian:
+   * Sous Debian :
 
       ```
       apt-get update
@@ -158,7 +158,7 @@ L&#39;utilitaire de chargement en masse permet un transfert plus rapide grâce a
       apt-get install -y python3
       ```
 
-1. Accédez au répertoire où se trouve le script et exécutez le script suivant :
+1. Accédez au répertoire où se trouve le script et exécutez le script suivant :
 
    ```
    cd /usr/local/neolane/nl6/bin/fda-setup-scripts
@@ -197,7 +197,7 @@ Le connecteur prend en charge les options suivantes :
 |:-:|:-:|:-:|
 | ProxyType | chaîne | Type de proxy utilisé pour se connecter à BigQuery par le biais des connecteurs ODBC et SDK. </br>HTTP (par défaut), http_no_tunnel, socks4 et socks5 sont actuellement pris en charge. |
 | ProxyHost | chaîne | Nom d’hôte ou adresse IP où le proxy peut être atteint. |
-| ProxyPort | number | Numéro de port sur lequel le proxy s’exécute, par exemple 8080 |
+| ProxyPort | nombre | Numéro de port sur lequel le proxy s’exécute, par exemple 8080 |
 | ProxyUid | chaîne | Nom d’utilisateur utilisé pour le proxy authentifié |
 | ProxyPwd | chaîne | Mot de passe ProxyUid |
-| bqpath | chaîne | Notez que cela s’applique uniquement à l’outil de chargement en masse (SDK Cloud). </br> Pour éviter d’utiliser la variable PATH ou si le répertoire google-cloud-sdk doit être déplacé vers un autre emplacement, vous pouvez spécifier avec cette option le chemin exact du répertoire bin du sdk cloud sur le serveur. |
+| bqpath | chaîne | Notez que cela s’applique uniquement à l’outil de chargement en masse (SDK Cloud). </br> Pour éviter d’utiliser la variable PATH ou si le répertoire google-cloud-sdk doit être déplacé vers un autre emplacement, vous pouvez spécifier avec cette option le chemin exact du répertoire bin du sdk cloud sur le serveur. |
