@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Pour ajouter une contrainte, sélectionnez-la dans la liste déroulante. Deux ty
 
 Si ce champ est utilisé dans une liste, les valeurs de l’énumération pourront être récupérées automatiquement dans le tableau des valeurs à partir du lien **[!UICONTROL Initialiser la liste des valeurs depuis la base de données]** situé au-dessus de la liste des valeurs.
 
-Vous pouvez par exemple créer une liste déroulante dans laquelle l’utilisateur pourra sélectionner sa langue maternelle. Le champ archivé correspondant peut être associé au **language** énumération contenant une liste de langues :
+Vous pouvez par exemple créer une liste déroulante dans laquelle l’utilisateur pourra sélectionner sa langue maternelle. Le champ archivé correspondant peut être associé à l’énumération **langue** contenant une liste de langues :
 
 ![](assets/s_ncs_admin_survey_database_values_2b.png)
 
