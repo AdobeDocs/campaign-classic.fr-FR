@@ -1,29 +1,29 @@
 ---
 product: campaign
-title: Migration d’une plateforme Linux vers Adobe Campaign v7
-description: Découvrez comment migrer une plateforme Linux vers Adobe Campaign v7
+title: Migration d’une plateforme Linux vers Adobe Campaign v7
+description: Découvrez comment migrer une plateforme Linux vers Adobe Campaign v7
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
 source-git-commit: 63aca25a8d1ae24ef83849b35a44d1b37cfa5e96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1858'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Migration d&#39;une plateforme Linux vers Campaign v7{#migrating-in-linux-for-adobe-campaign-v}
+# Migration d’une plateforme Linux vers Campaign v7{#migrating-in-linux-for-adobe-campaign-v}
 
 ![](../../assets/v7-only.svg)
 
 Les étapes de migration sous Linux sont les suivantes :
 
-1. Arrêter tous les services - [En savoir plus](#service-stop).
-1. Enregistrer la base de données - [En savoir plus](#back-up-the-database).
-1. Désinstallation des packages de version précédente d’Adobe Campaign - [En savoir plus](#uninstalling-adobe-campaign-previous-version-packages).
-1. Migration de la plateforme - [En savoir plus](#deploying-adobe-campaign-v7).
-1. Redémarrage du service - [En savoir plus](#re-starting-services).
+1. Arrêtez tous les services - [En savoir plus](#service-stop).
+1. Enregistrez la base de données - [En savoir plus](#back-up-the-database).
+1. Désinstallez les packages de version précédente d’Adobe Campaign - [En savoir plus](#uninstalling-adobe-campaign-previous-version-packages).
+1. Effectuez la migration de la plateforme - [En savoir plus](#deploying-adobe-campaign-v7).
+1. Redémarrez le service - [En savoir plus](#re-starting-services).
 
 ## Arrêt des services {#service-stop}
 
@@ -71,9 +71,9 @@ Arrêtez d&#39;abord tous les processus accédant à la base de données, sur to
 
 ## Sauvegarde de votre base de données {#back-up-the-database}
 
-La procédure dépend de votre version précédente d&#39;Adobe Campaign :
+La procédure dépend de votre version précédente d’Adobe Campaign.
 
-### Pour Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5-11}
+### Pour Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5-11}
 
 1. Sauvegardez la base de données Adobe Campaign.
 1. Connectez-vous en tant que **neolane** et sauvegardez le répertoire **nl5** à l&#39;aide de la commande suivante :
@@ -108,7 +108,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
    </serverconf>
    ```
 
-### Pour Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6-02}
+### Pour Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6-02}
 
 1. Sauvegardez la base de données Adobe Campaign.
 1. Connectez-vous en tant que **neolane** et sauvegardez le répertoire **nl6** à l&#39;aide de la commande suivante :
@@ -143,7 +143,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
    </serverconf>
    ```
 
-### Pour Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6-1}
+### Pour Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6-1}
 
 1. Sauvegardez la base de données Adobe Campaign.
 1. Connectez-vous en tant que **neolane** et sauvegardez le répertoire **nl6** à l&#39;aide de la commande suivante :
@@ -157,11 +157,11 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
    >
    >Par mesure de précaution, nous vous recommandons vivement de zipper le dossier **nl6.back**, et de le conserver à un autre emplacement que le serveur, sur un support sécurisé.
 
-## Désinstallation des packages de version précédente d’Adobe Campaign {#uninstalling-adobe-campaign-previous-version-packages}
+## Désinstallation des packages de version précédente d’Adobe Campaign {#uninstalling-adobe-campaign-previous-version-packages}
 
-La procédure dépend de votre version précédente d&#39;Adobe Campaign :
+La procédure dépend de votre version précédente d’Adobe Campaign.
 
-### Pour les packages v5 {#uninstalling-adobe-campaign-v5-packages}
+### Pour les packages v5 {#uninstalling-adobe-campaign-v5-packages}
 
 1. Connectez-vous en tant que **root**.
 1. Identifiez les packages Adobe Campaign installés à l&#39;aide de la commande suivante.
@@ -199,7 +199,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
       rprm -ev nlserver5 nlthirdparty5
       ```
 
-### Pour les packages v6 {#uninstalling-adobe-campaign-v6-packages}
+### Pour les packages v6 {#uninstalling-adobe-campaign-v6-packages}
 
 Cette section montre comment désinstaller les packages Adobe Campaign v6.02 ou v6.1.
 
@@ -239,11 +239,11 @@ Cette section montre comment désinstaller les packages Adobe Campaign v6.02 o
       rprm -ev nlserver6 nlthirdparty6
       ```
 
-## Déploiement d’Adobe Campaign v7 {#deploying-adobe-campaign-v7}
+## Déploiement d’Adobe Campaign v7 {#deploying-adobe-campaign-v7}
 
-La procédure dépend de votre version précédente d&#39;Adobe Campaign :
+La procédure dépend de votre version précédente d’Adobe Campaign.
 
-### Depuis Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5_11-1}
+### À partir d’Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5_11-1}
 
 Le déploiement d&#39;Adobe Campaign se déroule en deux parties :
 
@@ -370,7 +370,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 >
 >Ne redémarrez pas les services Adobe Campaign à ce stade. Des modifications doivent préalablement être effectuées sur Apache.
 
-### Depuis Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6_02-1}
+### À partir d’Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6_02-1}
 
 Le déploiement d&#39;Adobe Campaign se déroule en deux parties :
 
@@ -448,7 +448,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    >
    >Le mode « multi timezone » n&#39;était disponible, en v6.02, que pour les moteurs de base de données PostgreSQL. Il est à présent proposé quelle que soit la version de votre moteur de base. Nous vous recommandons fortement de transformer votre base en base « multi timezone ». Pour plus d&#39;informations à propos des options de fuseaux horaires, consultez la section [Fuseaux horaires](../../migration/using/general-configurations.md#time-zones).
 
-### Depuis Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6_1-1}
+### À partir d’Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6_1-1}
 
 Le déploiement d&#39;Adobe Campaign se déroule en deux parties :
 
@@ -576,9 +576,9 @@ Si vous migrez depuis une v6.02 ou antérieure, vous devez paramétrer vos zones
 
 ## Redémarrage des services {#re-starting-services}
 
-La procédure dépend de votre version précédente d&#39;Adobe Campaign :
+La procédure dépend de votre version précédente d&#39;Adobe Campaign.
 
-### Pour Adobe Campaign v5 {#migrating-from-adobe-campaign-v5_11-2}
+### Pour Adobe Campaign v5 {#migrating-from-adobe-campaign-v5_11-2}
 
 Dans les fichiers **config-`<instance name>`.xml**, réactivez le démarrage automatique des services **mta**, **wfserver**, **stat**, etc. 
 
@@ -609,7 +609,7 @@ Sur chacun des serveurs suivants, démarrez Apache puis les services Adobe Camp
 
 Avant de passer à l&#39;étape suivante, testez complètement la nouvelle installation, validez la non-régression et assurez-vous que tout est fonctionnel, en suivant toutes les recommandations données dans la section [Paramétrages généraux](../../migration/using/general-configurations.md).
 
-### Pour Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6_02-2}
+### Pour Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6_02-2}
 
 Dans les fichiers **config-`<instance name>`.xml**, réactivez le démarrage automatique des services **mta**, **wfserver**, **stat**, etc. 
 
@@ -640,7 +640,7 @@ Sur chacun des serveurs suivants, démarrez Apache puis les services Adobe Camp
 
 Testez complètement la nouvelle installation, validez la non-régression et assurez-vous que tout est fonctionnel, en suivant toutes les recommandations de la section [Paramétrages généraux](../../migration/using/general-configurations.md).
 
-### Pour Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6_1-2}
+### Pour Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6_1-2}
 
 Sur chacun des serveurs suivants, démarrez Apache puis les services Adobe Campaign :
 
@@ -650,7 +650,7 @@ Sur chacun des serveurs suivants, démarrez Apache puis les services Adobe Camp
 
 Testez complètement la nouvelle installation, validez la non-régression et assurez-vous que tout est fonctionnel, en suivant toutes les recommandations de la section [Paramétrages généraux](../../migration/using/general-configurations.md).
 
-## Suppression de la version précédente d’Adobe Campaign {#deleting-and-cleansing-adobe-campaign-v5}
+## Suppression de la version précédente d’Adobe Campaign {#deleting-and-cleansing-adobe-campaign-v5}
 
 >[!NOTE]
 >
