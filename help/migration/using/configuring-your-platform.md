@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Adapter votre configuration
-description: Découvrez comment adapter votre configuration avant et après une migration vers Campaign v7
+description: Découvrez comment adapter votre configuration avant et après une migration vers Campaign v7
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
 source-git-commit: 327f220d6700242308ef3738a38cc95b970e3f46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1985'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -17,18 +17,18 @@ ht-degree: 79%
 
 ![](../../assets/v7-only.svg)
 
-Certaines modifications majeures d’Adobe Campaign v7 nécessitent une configuration spécifique. Ces configurations peuvent être nécessaires avant ou après la migration.
+Certaines modifications majeures d’Adobe Campaign v7 nécessitent une configuration spécifique. Ces configurations peuvent être nécessaires avant ou après la migration.
 
-Le paramétrage détaillé à effectuer dans Adobe Campaign v7 lors de la migration depuis Campaign v5 ou v6 est disponible dans [cette page](general-configurations.md).
+Le paramétrage détaillé à effectuer dans Adobe Campaign v7 lors de la migration depuis Campaign v5 ou v6 est disponible dans [cette page](general-configurations.md).
 
 
-Lors de la migration, la variable **NmsRecipient** est recréé à partir de la définition des schémas. Toute modification apportée à la structure SQL de cette table en dehors d’Adobe Campaign sera perdue.
+Pendant la migration, le tableau **NmsRecipient** est reconstruit à partir de la définition des schémas. Toute modification apportée à la structure SQL de cette table en dehors d’Adobe Campaign sera perdue.
 
-Exemple d&#39;éléments à vérifier :
+Exemples d&#39;éléments à vérifier :
 
 * Si vous avez ajouté une colonne (ou un index) dans la table **NmsRecipient** mais que vous ne l&#39;avez pas décrite dans le schéma, celle-ci ne sera pas conservée.
 * L&#39;attribut **tablespace** reprend ses valeurs par défaut, c&#39;est-à-dire celles définies dans l&#39;assistant de déploiement.
-* Si vous avez ajouté une vue de référence au **NmsRecipient** , vous devez le supprimer avant la migration.
+* Si vous avez ajouté une vue qui référence le tableau **NmsRecipient**, vous devez la supprimer avant la migration.
 
 
 ## Avant la migration {#before-the-migration}
@@ -39,13 +39,13 @@ Dans le cadre d&#39;une migration vers Adobe Campaign v7, les éléments suiva
 
    Dans le cadre d&#39;une migration depuis une plateforme v5.11, vous devez indiquer le fuseau horaire à utiliser lors du postupgrade.
 
-   Si vous souhaitez utiliser le mode &quot;multi timezone&quot;, reportez-vous à la section [cette section](../../migration/using/general-configurations.md#time-zones).
+   Si vous souhaitez utiliser le mode « multi timezone », consultez [cette section](../../migration/using/general-configurations.md#time-zones).
 
    Si vous utilisez Oracle comme moteur de base de données, vérifiez que les fichiers de fuseaux horaires Oracle sont bien synchronisés entre le serveur applicatif et le serveur de base. [En savoir plus](../../migration/using/general-configurations.md#oracle)
 
 * Zones de sécurité
 
-   Pour des raisons de sécurité, la plateforme Adobe Campaign n&#39;est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter, avant la migration, les adresses IP des utilisateurs. [En savoir plus](../../migration/using/general-configurations.md#security)
+   Pour des raisons de sécurité, la plateforme Adobe Campaign n’est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter, avant la migration, les adresses IP des utilisateurs. [En savoir plus](../../migration/using/general-configurations.md#security)
 
 * Syntaxe
 
@@ -63,11 +63,11 @@ Dans le cadre d&#39;une migration vers Adobe Campaign v7, les éléments suiva
 
 * Interaction
 
-   Si vous migrez depuis Campaign v6.02 et que vous utilisez le  **Interaction** , vous devez supprimer toutes les références aux schémas 6.02 qui n’existent plus en v7. [En savoir plus](../../migration/using/general-configurations.md#interaction)
+   Si vous migrez depuis Campaign v6.02 et que vous utilisez le module **Interaction**, vous devez supprimer toutes les références de schéma 6.02 qui n’existent plus dans la v7. [En savoir plus](../../migration/using/general-configurations.md#interaction)
 
 ## Après la migration {#after-the-migration}
 
-Après exécution **postupgrade**, vérifiez et configurez les éléments suivants :
+Après avoir exécuté **postupgrade**, vérifiez et configurez les éléments suivants :
 
 * Pages miroir
 
@@ -75,39 +75,39 @@ Après exécution **postupgrade**, vérifiez et configurez les éléments suivan
 
    Si vous utilisez le bloc de personnalisation de la version v5 dans vos messages, les pages miroir ne s&#39;affichent pas. Adobe recommande vivement d&#39;utiliser le nouveau bloc de personnalisation lors de l&#39;insertion d&#39;une page miroir dans vos messages.
 
-   Toutefois, comme solution temporaire (et comme les pages miroir sont toujours en ligne), vous pouvez revenir à l&#39;ancien bloc de personnalisation pour éviter ce problème en modifiant l&#39;option . **[!UICONTROL XtkAcceptOldPasswords]** et définissez-le sur **[!UICONTROL 1]**. L&#39;utilisation du nouveau bloc de personnalisation v6.x n&#39;en sera pas affectée.
+   Toutefois, à titre de solution temporaire (et comme les pages miroir sont toujours actives), vous pouvez revenir à l’ancien bloc de personnalisation pour éviter ce problème en modifiant l’option **[!UICONTROL XtkAcceptOldPasswords]** et en la définissant sur **[!UICONTROL 1]**. L’utilisation du nouveau bloc de personnalisation v6.x n’en sera pas affectée.
 
 * Syntaxe
 
-   Si vous rencontrez des erreurs liées à la syntaxe, vous devez temporairement activer la variable **allowSQLInjection** dans le **serverConf.xml** , car cela vous donne le temps de réécrire le code. Une fois le code adapté, veillez à réactiver la sécurité. [En savoir plus](../../migration/using/general-configurations.md#sqldata)
+   Si vous rencontrez des erreurs, lors du postupgrade, liées à la syntaxe SQLData, vous devez temporairement activer l’option **allowSQLInjection** dans le fichier **serverConf.xml**, le temps de réécrire le code. Une fois le code adapté, n’oubliez pas de réactiver la sécurité. [En savoir plus](../../migration/using/general-configurations.md#sqldata)
 
 * Conflits
 
-   La migration étant effectuée au travers d&#39;un postupgrade, des conflits peuvent apparaître au niveau des rapports, formulaires ou applications web. Ces conflits peuvent être résolus manuellement depuis la console. [En savoir plus](../../migration/using/general-configurations.md#conflicts)
+   La migration étant effectuée au travers d’un postupgrade, des conflits peuvent apparaître au niveau des rapports, formulaires ou applications web. Ces conflits peuvent être résolus manuellement depuis la console. [En savoir plus](../../migration/using/general-configurations.md#conflicts)
 
 * Tomcat
 
    Si vous avez personnalisé le dossier d&#39;installation, vérifiez qu&#39;il est correctement mis à jour après la migration. [En savoir plus](../../migration/using/general-configurations.md#tomcat)
 
-* Rapports 
+* Rapports
 
-   Tous les rapports d&#39;usine utilisent actuellement le moteur de rendu v6.x. Si vous aviez ajouté du code JavaScript dans les rapports, certains éléments peuvent être affectés. [En savoir plus](../../migration/using/general-configurations.md#reports)
+   Tous les rapports prêts à l’emploi utilisent actuellement le moteur de rendu v6.x. Si vous aviez ajouté du code JavaScript dans les rapports, certains éléments peuvent être affectés. [En savoir plus](../../migration/using/general-configurations.md#reports)
 
-* Applications Web
+* Applications web
 
-   Après le postupgrade, si vous rencontrez des problèmes de connexion à vos applications Web identifiées, vous devez activer la variable **allowUserPassword** et **sessionTokenOnly** dans le **serverConf.xml** fichier . Pour éviter tout problème de sécurité, ces deux options doivent être réactivées une fois le problème résolu. [En savoir plus](../../migration/using/general-configurations.md#identified-web-applications)
+   Après le postupgrade, si vous rencontrez des problèmes de connexion à vos applications web identifiées, vous devez activer les options **allowUserPassword** et **sessionTokenOnly** dans le fichier **serverConf.xml**. Pour éviter tout problème de sécurité, ces deux options doivent être réactivées une fois le problème résolu. [En savoir plus](../../migration/using/general-configurations.md#identified-web-applications)
 
-   Selon le type d&#39;applications Web et leur configuration, vous devez effectuer des manipulations complémentaires pour en assurer le bon fonctionnement. [En savoir plus](../../migration/using/general-configurations.md#web-applications)
+   Selon le type d’applications web et leur configuration, vous devez effectuer des manipulations complémentaires pour en assurer le bon fonctionnement. [En savoir plus](../../migration/using/general-configurations.md#web-applications)
 
-   Dans le cas d&#39;une migration depuis une plateforme v5.11, des paramétrages complémentaires doivent être réalisés. [En savoir plus](../../migration/using/general-configurations.md#specific-configurations-in-v5-11.md)
+   Si vous effectuez une migration à partir d’une plateforme v5.11, des paramétrages supplémentaires doivent être réalisés. [En savoir plus](../../migration/using/general-configurations.md#specific-configurations-in-v5-11.md)
 
 * Zones de sécurité
 
-   Avant de démarrer le serveur, vous devez configurer les zones de sécurité. [En savoir plus](../../installation/using/security-zones.md) et [voir ici](../../migration/using/general-configurations.md#security)
+   Avant de démarrer le serveur, vous devez configurer les zones de sécurité. [En savoir plus](../../installation/using/security-zones.md) et [rendez-vous ici](../../migration/using/general-configurations.md#security)
 
 * Workflows
 
-   Si vous migrez depuis une plateforme v5.11, vous devez vérifier le dossier des workflows. [En savoir plus](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11)
+   Si vous effectuez une migration à partir d’une plateforme v5.11, vous devez contrôler le dossier des workflows. [En savoir plus](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11)
 
 * Effectuer un tracking
 
@@ -119,7 +119,7 @@ Après exécution **postupgrade**, vérifiez et configurez les éléments suivan
 
 * Tableaux de bord
 
-   Si une erreur client apparaît, vous devez soit mettre à jour vos tableaux de bord avec le nouveau code Adobe Campaign v7, soit copier manuellement les fichiers suivants de l&#39;instance v6.02 vers l&#39;instance v7 :
+   Si une erreur client apparaît, vous devez soit mettre à jour vos tableaux de bord avec le nouveau code Adobe Campaign v7, soit copier manuellement les fichiers suivants de l’instance v6.02 vers l’instance v7 :
 
    ```
    v6.02 files and spaces:
@@ -131,7 +131,7 @@ Après exécution **postupgrade**, vérifiez et configurez les éléments suivan
    ```
 
 
-## Paramétrages spécifiques v5.11 à v7{#specific-configurations-in-v5-11}
+## Paramétrages spécifiques des versions v5.11 à v7{#specific-configurations-in-v5-11}
 
 ![](../../assets/v7-only.svg)
 
@@ -187,7 +187,7 @@ Si des modifications de structure de base ont été effectuées, par exemple lor
 1. Effectuer le postupgrade
    >[!NOTE]
    >
-   >Vous devez suivre les étapes de migration présentées dans la section [cette section](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md).
+   >Vous devez suivre la procédure de migration décrite dans [cette section](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md).
 1. Réintégrez les modifications SQL.
 
 Dans cet exemple, une vue **NmcTrackingLogMessages** a été créée et celle-ci contient un champ **Timestamp** nommé **tslog**. Dans ce cas, la procédure de migration échoue et le message d&#39;erreur suivant apparaît :
@@ -277,11 +277,11 @@ Les dossiers obsolètes, à supprimer après la migration, sont les suivants :
 | nmsOperator | Opérateurs marketing | MRM installé |
 
 
-## Paramétrages spécifiques v6.02 à v7{#specific-configurations-in-v6-02}
+## Paramétrages spécifiques des versions v6.02 à v7{#specific-configurations-in-v6-02}
 
 ![](../../assets/v7-only.svg)
 
-La section suivante décrit le paramétrage supplémentaire à effectuer lors de la migration depuis une v6.02. Vous devez également effectuer le paramétrage décrit dans la section [cette page](../../migration/using/general-configurations.md).
+La section suivante décrit le paramétrage supplémentaire à effectuer lorsque vous migrez depuis une v6.02. Vous devez également effectuer le paramétrage décrit sur [cette page](../../migration/using/general-configurations.md).
 
 ### Des applications web {#web-applications-v6}
 
