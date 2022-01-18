@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3779'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -345,7 +345,7 @@ Ce workflow technique se trouve dans un sous-dossier du nœud suivant : **Admin
 
 ![](assets/billing.png)
 
-Une fois le workflow démarré tous les 25 du mois, votre opérateur billing reçoit le rapport suivant dans sa boîte de réception.
+Une fois le workflow démarré tous les 25 du mois, votre opérateur de facturation reçoit le rapport suivant dans sa boîte de réception.
 
 ![](assets/billing_2.png)
 
