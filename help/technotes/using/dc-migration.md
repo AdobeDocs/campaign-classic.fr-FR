@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
 source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1557'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ## Contexte
 
-Vous êtes un client important d’Adobe Campaign Classic et nous nous engageons à vous offrir la meilleure expérience et à optimiser la valeur créée. Au fil des ans, nous avons réalisé l’intérêt et la fiabilité de l’hébergement de nos clients dans le cloud.  Dans le cadre de notre [Initiative de mise à niveau annuelle](../../rn/using/rn-overview.md#yearly-upgrade), nous déplaçons tous nos clients vers Adobe Managed Services (cloud public sur AWS) afin de fournir des services meilleurs et plus fiables.
+Vous êtes un client important d’Adobe Campaign Classic et nous nous engageons à vous offrir la meilleure expérience et à optimiser la valeur créée. Au fil des ans, nous avons réalisé l’intérêt et la fiabilité de l’hébergement de nos clients dans le cloud.  Dans le cadre de notre [Initiative de mise à niveau annuelle](../../rn/using/rn-overview.md#yearly-upgrade), nous effectuons la migration de tous nos clients vers Adobe Managed Services (cloud public d’AWS) pour offrir des services plus fiables et de meilleure qualité.
 
 Ce programme a trois objectifs principaux : 
 
@@ -31,7 +31,7 @@ Ce programme a trois objectifs principaux : 
 
 * **Mise à niveau de build** : lorsque le logiciel Adobe Campaign Classic est mis à jour vers le numéro de build sécurisé le plus récent, tout en restant au même niveau de build majeur/mineur. Par exemple : Campaign v7 20.2.3 build 9182 vers Campaign v7 21.2.5 build 9188. [En savoir plus](../../platform/using/faq-build-upgrade.md).
 * **MID/RT** : serveurs d’exécution de messages hébergés sur Adobe Cloud (MID pour les campagnes par lots et RT pour les messages unitaires en temps réel).
-* **Programme de mise à niveau annuelle** - ce programme améliore la sécurité, la prise en charge, la maintenance et la stabilité. Il facilite également les futures mises à niveau et donne accès aux nouvelles fonctionnalités de Campaign.  [En savoir plus](../../rn/using/rn-overview.md#yearly-upgrade).
+* **Programme de mise à niveau annuelle** : ce programme améliore la sécurité, le support, la maintenance et la stabilité. Il facilite également les futures mises à niveau et donne accès aux nouvelles fonctionnalités de Campaign.  [En savoir plus](../../rn/using/rn-overview.md#yearly-upgrade).
 * **AWS** : Amazon Web Services (cloud public d’Amazon)
 * **SFTP** : protocole de transfert de fichiers sécurisé. [En savoir plus](../../platform/using/sftp-server-usage.md).
 
@@ -59,7 +59,7 @@ Ce programme a trois objectifs principaux : 
 
 * Amélioration des capacités pour les emails
 * Bases de données plus volumineuses
-* Version de Campaign testée
+* Version éprouvée de Campaign
 
 **Proposer une solution fiable et robuste aux clients d’Adobe Campaign Classic**
 
@@ -69,8 +69,8 @@ Ce programme a trois objectifs principaux : 
 
 **Les mises à niveau annuelles facilitent les futures mises à niveau**
 
-1. Plus votre entreprise attend avant d’effectuer la mise à niveau, plus celle-ci se complexifie et plus le risque de vulnérabilité augmente (en particulier lorsque le transfert se fait à partir d’une version ancienne).
-1. Grâce à la mise à niveau annuelle de Campaign (qui était l’initiative Gold Standard), votre instance sera modernisée et sera prête à recevoir des mises à jour plus automatisées et régulières avec moins d’intervention manuelle et de ressources moindres.
+1. Plus votre entreprise attend avant d’effectuer la mise à niveau, plus celle-ci se complexifie et plus le risque de vulnérabilité augmente (en particulier lorsque la migration se fait à partir d’une version ancienne).
+1. Grâce à la mise à niveau annuelle de Campaign (anciennement initiative Gold Standard), votre instance sera modernisée. Elle sera prête à recevoir des mises à jour plus régulières et automatisées, en limitant les interventions manuelles et les ressources nécessaires.
 
 ![](assets/GSMigrations.png)
 
@@ -84,7 +84,7 @@ Il est possible de déclencher une migration en [ouvrant un nouveau ticket de su
 
 ### Cette migration est-elle obligatoire ?
 
-Cette migration vers le cloud est **à la première étape de la [programme de mise à niveau annuel](../../rn/using/rn-overview.md#yearly-upgrade)** de vos instances Adobe Campaign. Elle est obligatoire si vous êtes hébergé dans un centre de données hors cloud public (AWS).
+Cette migration vers le cloud est la **première étape du [programme de mise à niveau annuelle](../../rn/using/rn-overview.md#yearly-upgrade)** de vos instances Adobe Campaign. Elle est obligatoire si vous êtes hébergé dans un centre de données hors cloud public (AWS).
 
 Le cloud Adobe Managed Services est hébergé sur Amazon Web Services (AWS), un environnement moderne, sécurisé et optimisé. [En savoir plus sur AWS](https://aws.amazon.com/application-hosting/benefits/).
 
@@ -105,7 +105,7 @@ Nous nous sommes énormément investis dans le développement de technologies de
 
 * La migration s’accompagnera d’un temps d’arrêt inévitable de la plateforme. Le but de ce plan est de contribuer à minimiser ces temps d’inactivité.
 * Modification de l’adresse IP pour les intégrations de données.
-* Phase d’amélioration de la délivrabilité des nouvelles adresses IP d’envoi. Cependant, le plan est destiné à réaliser cette opération de manière transparente pour l’entreprise, contrairement à la montée en réputation initiale qui est effectuée pendant la phase de démarrage.
+* Phase d’amélioration de la délivrabilité des nouvelles adresses IP d’envoi. Cependant, l’objectif est de rendre cette opération transparente pour l’entreprise, contrairement à la montée en réputation initiale qui est effectuée pendant la mise en production.
 
 Pour en savoir plus, consultez la section Migration de Campaign vers le [cloud public - FAQ](dc-migration-faq.md).
 
