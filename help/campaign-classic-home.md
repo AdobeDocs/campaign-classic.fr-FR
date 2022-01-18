@@ -4,9 +4,9 @@ product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 ## Nouveautés
 
-* **[La version de janvier est en ligne.](rn/using/latest-release.md)**<br/> Découvrez les nouvelles fonctionnalités, améliorations et correctifs dans les notes de mise à jour.
+* **[La version de janvier est en ligne !](rn/using/latest-release.md)**<br/> Découvrez les nouvelles fonctionnalités, améliorations et correctifs dans les notes de mise à jour.
 
 * **[FAQ sur la protection de la confidentialité dʼApple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=fr)** et **[note technique](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Trouvez des conseils en réponse à lʼannonce dʼApple concernant iOS 15.
 
@@ -49,7 +49,7 @@ ht-degree: 98%
   </td>
    <td>
     <a href="production/using/build-upgrade.md">
-      <img alt="Upgrade de build" src="platform/using/assets/upgrade.png" />
+      <img alt="Mise à niveau de build" src="platform/using/assets/upgrade.png" />
     </a>
     <div>
       <a href="production/using/build-upgrade.md">
