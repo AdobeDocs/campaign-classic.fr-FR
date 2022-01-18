@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 source-git-commit: babb585438a6e467afad74391035059f7b12a6ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2542'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 ## Version 7.1 (21.1)
 
 >[!CAUTION]
->Utilisez la variable **[!UICONTROL Aide > À propos...]** pour vérifier votre Adobe Campaign [version et numéro de build](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Notez toutefois que pour toutes les builds entre 9277 et 9343 répertoriées sur cette page, le numéro de version indique 7.0 au lieu de 7.1.
+>Utilisez le menu **[!UICONTROL Aide > À propos…]** pour vérifier votre [numéro de version et de build](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) d’Adobe Campaign. Notez toutefois que pour toutes les builds entre 9277 et 9343 répertoriées sur cette page, le numéro de version indique 7.0 au lieu de 7.1.
 
 ### ![](assets/do-not-localize/limited_2.png) Version 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
 
@@ -145,7 +145,7 @@ _5 juin 2021_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Connecteur FDA Google BigQuery</strong><br /> </th> 
+<th> <strong>Connecteur FDA Google BigQuery</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -168,7 +168,7 @@ _5 juin 2021_
 **Mises à jour de compatibilité**
 
 Les systèmes suivants sont désormais pris en charge avec Campaign :
-* Connecteur FDA Google BigQuery
+* Connecteur FDA Google BigQuery
 * Connecteur FDA Vertica
 * PostgreSQL 13
 
