@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2703'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,15 +35,15 @@ De plus, elles réduisent les coûts d&#39;envoi des SMS en excluant les numéro
 
 ### Quarantaine et liste bloquée {#quarantine-vs-denylist}
 
-La **mise en quarantaine** concerne uniquement une adresse, pas le profil lui-même. Cela signifie que si deux profils utilisent la même adresse email, en cas de mise en quarantaine de l&#39;adresse, les deux profils seront impactés.
+La **mise en quarantaine** concerne uniquement une adresse, pas le profil lui-même. Cela signifie que si deux profils utilisent la même adresse e-mail, en cas de mise en quarantaine de l’adresse, les deux profils seront impactés.
 
-De même, un profil dont l&#39;adresse email est en quarantaine peut mettre à jour son profil et saisir une nouvelle adresse, puis être à nouveau ciblé par des actions de diffusion.
+De même, un profil, dont l’adresse e-mail est en quarantaine, qui met à jour son profil et enregistre une nouvelle adresse pourra de nouveau être ciblé par des actions de diffusion.
 
-En revanche, en cas d&#39;insertion en **liste bloquée**, le profil ne sera plus ciblé par aucune diffusion, par exemple après une désinscription (opt-out).
+En revanche, en cas d’insertion en **liste bloquée**, le profil ne sera plus ciblé par aucune diffusion, par exemple après une désinscription.
 
 >[!NOTE]
 >
->Lorsqu’un utilisateur répond à un SMS avec un mot-clé tel que &quot;STOP&quot; pour se désinscrire des diffusions SMS, son profil n’est pas ajouté à la liste bloquée comme dans le processus d’opt-out des emails. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
+>Lorsqu’un utilisateur répond à un SMS avec un mot-clé tel que « STOP » pour se désabonner des diffusions SMS, son profil n’est pas mis en liste bloquée comme c’est le cas pour la désinscription des e-mails. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
 
 ## Identifier les adresses en quarantaine  {#identifying-quarantined-addresses}
 
@@ -267,7 +267,7 @@ Le mécanisme de mise en quarantaine d’Android V2 utilise le même processus 
  <tbody> 
   <tr> 
    <td> <strong>Scénario</strong><br /> </td> 
-   <td> <strong>État</strong><br /> </td> 
+   <td> <strong>Status</strong><br /> </td> 
    <td> <strong>Message de l'erreur</strong><br /> </td> 
    <td> <strong>Type de l'échec</strong><br /> </td> 
    <td> <strong>Raison de l'échec</strong><br /> </td> 
@@ -481,7 +481,7 @@ Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;appliqu
  <tbody> 
   <tr> 
    <td> <strong>Scénario</strong><br /> </td> 
-   <td> <strong>État</strong><br /> </td> 
+   <td> <strong>Status</strong><br /> </td> 
    <td> <strong>Message de l'erreur</strong><br /> </td> 
    <td> <strong>Type de l'échec</strong><br /> </td> 
    <td> <strong>Raison de l'échec</strong><br /> </td> 
