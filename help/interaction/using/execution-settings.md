@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: simulating-offers
 exl-id: e2dea4a0-9ed8-47b6-a16b-eeee653d2290
 source-git-commit: 7728826eea199d2367fcbf556c01ec9d6cae466f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
 ht-degree: 100%
 
