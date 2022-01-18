@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2356'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Les prérequis suivants doivent être remplis :
 
 Vous trouverez plus d’informations dans ces sections : [Mise à jour d’Adobe Campaign](../../production/using/upgrading.md), [Migration vers une nouvelle version](../../migration/using/about-migration.md).
 
-Pour les instances hybrides et hébergées, vous devez demander un upgrade de build à l&#39;équipe d&#39;exploitation technique Adobe. Pour plus d&#39;informations, reportez-vous à la section Forum aux questions située au bas de cette page. Consultez également le [FAQ sur l&#39;upgrade de build](../../platform/using/faq-build-upgrade.md).
+Pour les instances hybrides et hébergées, vous devez demander un upgrade de build à l&#39;équipe d&#39;exploitation technique Adobe. Pour plus d&#39;informations, reportez-vous à la section Forum aux questions située au bas de cette page. Consultez également le [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
 
 ## Préparer l&#39;upgrade
 
@@ -246,7 +246,7 @@ Si les messages transactionnels (Message Center) sont activés sur votre instanc
 
 Dans le contexte d&#39;un environnement de mid-sourcing, vous devez effectuer les étapes supplémentaires ci-après dans le cadre de l&#39;upgrade :
 
-1. Contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner l&#39;upgrade du serveur de mid-sourcing.
+1. Contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner l&#39;upgrade du serveur de mid-sourcing.
 1. Vérifiez que la version a été mise à jour en exécutant un lien de test, par exemple :
 
    ```
