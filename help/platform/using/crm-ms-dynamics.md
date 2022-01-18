@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: 2cdcd45fc142eb9ae9e32c17a67beb4eaf2d2953
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Un déploiement possible est effectué via l’**API Web** (recommandé). Pour d
 
 La synchronisation des données s&#39;effectue via une activité de workflow dédiée. [En savoir plus](../../platform/using/crm-data-sync.md).
 
-## Étapes d&#39;implémentation{#microsoft-dynamics-implementation-steps}
+## Étapes de mise en œuvre{#microsoft-dynamics-implementation-steps}
 
 Pour connecter Microsoft Dynamics 365 à Adobe Campaign via **Web API**, vous devez appliquer les étapes suivantes :
 
@@ -199,7 +199,7 @@ Campaign et Microsoft Dynamics sont maintenant connectés. Vous pouvez configur
 
 >[!NOTE]
 >
-> Vous devez veiller à ajouter à la liste autorisée deux URL : l’URL du serveur et `login.microsoftonline.com` dans la configuration du serveur. Pour plus d’informations sur la configuration des autorisations d’URL, reportez-vous à cette section [page](../../installation/using/url-permissions.md).
+> Vous devez veiller à ajouter à la liste autorisée deux URL : l’URL du serveur et `login.microsoftonline.com` dans la configuration du serveur. Pour plus d’informations sur la façon de configurer les autorisations d’URL, consultez cette [page](../../installation/using/url-permissions.md).
 
 ## Types de données de champ pris en charge {#ms-dyn-supported-types}
 
