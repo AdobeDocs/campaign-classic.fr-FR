@@ -7,9 +7,9 @@ user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2556'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -818,13 +818,13 @@ ht-degree: 99%
       + [Collecter toutes les visites](configuration/using/collecting-all-visits.md)
       + [Tracking anonyme](configuration/using/anonymous-tracking.md)
 + Guide de migration {#migrating-to-a-new-version}
-   + [Migration vers Adobe Campaign v7](migration/using/about-migration.md)
+   + [Migration vers Adobe Campaign v7](migration/using/about-migration.md)
    + Procédure de migration {#migration-procedure}
-      + [Conditions préalables](migration/using/before-starting-migration.md)
-      + [A propos des tests de migration](migration/using/testing-the-migration.md)
+      + [Conditions préalables requises](migration/using/before-starting-migration.md)
+      + [À propos des tests de migration](migration/using/testing-the-migration.md)
       + [Adapter votre configuration](migration/using/configuring-your-platform.md)
    + Démarrer la migration {#migrating-to-adobe-campaign-7}
-      + [Migration d’une plateforme Microsoft Windows](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
+      + [Migration d’une plateforme Microsoft Windows](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
       + [Migration d’une plateforme Linux](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
       + [Configuration de votre plateforme](migration/using/general-configurations.md)
    + [Procédure de restauration](migration/using/about-rollback.md)
