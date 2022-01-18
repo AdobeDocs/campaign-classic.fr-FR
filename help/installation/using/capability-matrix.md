@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 source-git-commit: 1f8a51fc7760e8dcdf369cb759de724b0e7bea0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign propose l&#39;option **Federated Data Access** (FDA) afin d&#3
 
 >[!CAUTION]
 >
->Les systèmes de base de données externes compatibles dépendent de votre modèle d’hébergement. En savoir plus dans [Matrice de compatibilité Campaign](../../rn/using/compatibility-matrix.md).
+>Les systèmes de base de données externes compatibles dépendent de votre modèle d’hébergement. En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/compatibility-matrix.md).
 
 **Voir aussi**
 
