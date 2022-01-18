@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
 source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Les particularités propres à un schéma qui référence une table existante so
 
 >[!IMPORTANT]
 >
->Ne supprimez pas les champs de la table des destinataires intégrée, même s&#39;ils sont inutiles. Cela peut entraîner des erreurs de comportement dans la base de données d’Adobe Campaign.
+>Ne supprimez pas les champs de la table des destinataires intégrée, même s’ils sont inutiles. Cela peut entraîner des erreurs de comportement dans la base de données d’Adobe Campaign.
 
 ## Attribut view {#the-view-attribute}
 
