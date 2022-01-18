@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '935'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -35,17 +35,17 @@ Depuis la section centrale de la page d&#39;accueil, vous pouvez utiliser les li
 
 ### Accès console et accès web {#console-and-web-access}
 
-La plateforme Adobe Campaign est accessible via une console ou par le biais d&#39;un navigateur Internet. Voir les navigateurs compatibles dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#Browsers).
+La plateforme Adobe Campaign est accessible via une console ou par le biais d’un navigateur Internet. Consultez les navigateurs compatibles dans la section relative à la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#Browsers).
 
-L’interface d’accès Web est similaire à l’interface de la console. Depuis un navigateur, vous pouvez utiliser les mêmes fonctions de navigation et d’affichage que dans la console, mais vous ne pouvez exécuter qu’un ensemble réduit d’actions sur les campagnes. Par exemple, vous pouvez afficher et annuler des campagnes, mais vous ne pouvez pas les modifier. Pour un opérateur donné, une opération s&#39;affiche avec les options suivantes dans la console :
+L’interface d’accès web est similaire à l’interface de la console. Depuis un navigateur, vous pouvez utiliser les mêmes fonctionnalités de navigation et d’affichage que dans la console, mais vous ne pouvez exécuter qu’un ensemble réduit d’actions sur les campagnes. Par exemple, vous pouvez afficher et annuler des campagnes, mais vous ne pouvez pas les modifier. Pour un même opérateur, une campagne sera affichée dans la console avec les options suivantes :
 
-![Depuis le tableau de bord d&#39;une opération, l&#39;opérateur peut visualiser et annuler une opération, mais aussi la modifier et lui ajouter des diffusions, des documents et des tâches.](assets/operation_from_console.png)
+![Depuis le tableau de bord d’une campagne, l’opérateur peut visualiser et annuler une campagne, mais aussi la modifier, et y ajouter des diffusions, des documents ainsi que des tâches.](assets/operation_from_console.png)
 
-Alors qu&#39;avec l&#39;accès web, les options vont principalement permettre l&#39;affichage :
+Dans le contexte d’un accès web, les options seront en revanche principalement consultatives :
 
-![Depuis un navigateur, le même opérateur ne peut visualiser et annuler que l&#39;opération.](assets/operation_from_web.png)
+![À partir d’un navigateur, le même opérateur ne peut que visualiser et annuler la campagne.](assets/operation_from_web.png)
 
-En savoir plus sur [utilisation de l’interface web](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
+En savoir plus sur l’[utilisation de l’interface web.](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
 ### Langues {#languages}
 
