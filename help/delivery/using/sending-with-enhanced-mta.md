@@ -174,11 +174,13 @@ Par conséquent, vous devez attendre la fin de la période de validité pour voi
 
 ### Service de retour d&#39;e-mail (bêta) {#email-feedback-service}
 
-Grâce à la fonctionnalité Service de commentaires par email (EFS), l&#39;état de chaque email est signalé avec précision, car les commentaires sont capturés directement depuis le MTA (Message Tranfer Agent) amélioré.
+Grâce à la fonctionnalité Service de retour d&#39;e-mail (EFS - Email Feedback Service), l&#39;état de chaque email est signalé avec précision, car les retours sont capturés directement depuis le MTA (Message Tranfer Agent) amélioré.
+
 
 >[!IMPORTANT]
 >
->Le service de commentaires par email est actuellement disponible en version bêta.
+>Le service de retour d&#39;e-mail est actuellement disponible en version bêta.
+
 >
 >Si vous souhaitez participer à ce programme en version bêta, remplissez [ce formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous recontacterons.
 
@@ -208,6 +210,7 @@ Lorsque des messages soft bounce sont signalés depuis le MTA amélioré, leur s
 
 
 Les tableaux ci-après présentent les modifications des KPI et de l&#39;état des logs d&#39;envoi ajoutées par la fonctionnalité EFS.
+
 
 **Avec le service de retour d&#39;e-mail**
 

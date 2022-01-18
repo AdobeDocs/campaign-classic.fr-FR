@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: rollback
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
 source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 

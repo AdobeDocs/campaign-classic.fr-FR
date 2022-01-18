@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 52aa7b268d5eb83354c3a4d8687ced95300538e2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3460'
 ht-degree: 100%
 

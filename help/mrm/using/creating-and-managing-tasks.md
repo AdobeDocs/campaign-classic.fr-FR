@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3898'
 ht-degree: 100%
 

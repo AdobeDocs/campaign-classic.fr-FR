@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
 

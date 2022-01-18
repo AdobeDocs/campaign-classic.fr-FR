@@ -24,6 +24,7 @@ Avant de commencer la mise à jour, déterminez et confirmez la version d’Adob
 >* Adobe recommande vivement d’effectuer une sauvegarde de base de données sur chaque instance avant de procéder à la mise à jour. Pour plus d’informations, consultez [cette section](../../production/using/backup.md).
 >* Pour effectuer une mise à jour, vérifiez que vous avez la possibilité et les autorisations d’accéder aux instances et aux logs.
 >* Lisez [cette section](../../installation/using/general-architecture.md) et le chapitre [Upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) avant de commencer.
+
 >
 
 
@@ -49,7 +50,6 @@ Il est nécessaire d&#39;arrêter toutes les instances du service nlserver afin 
       **iisreset /stop**
 
    * service Adobe Campaign : **net stop nlserver6**
-
    >[!IMPORTANT]
    >
    >Vous devez également vous assurer que le serveur de redirection (webmdl) est arrêté afin que le fichier **nlsrvmod.dll**, qui est utilisé par IIS, puisse être remplacé par la nouvelle version.
@@ -172,8 +172,9 @@ Pour cela exécutez la commande :
 >
 >* Il est possible que votre script porte le nom **httpd** plutôt que **apache**.
 >* Vous DEVEZ impérativement exécuter cette commande jusqu&#39;à obtenir la réponse suivante :
->
->   Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
+
+   >
+   >   Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
 
 
 Puis redémarrez Apache :

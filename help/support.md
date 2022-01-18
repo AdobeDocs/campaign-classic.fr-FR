@@ -5,7 +5,7 @@ description: Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit�
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Le Panneau de contrôle est directement accessible à partir d&#39;Adobe Experi
 
 ### FAQ sur le Panneau de contrôle
 
-[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr) pour accéder à la FAQ sur le Panneau de contrôle Campaign.
+[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/faq.html) pour accéder à la FAQ sur le Panneau de contrôle Campaign.
 
 ### Gestion SFTP
 
@@ -147,4 +147,4 @@ En savoir plus sur le nouveau Centre de téléchargement [sur cette page](https:
 
 La création d’un ticket vous permet de contacter l’équipe du Service clientèle d’Adobe pour tout problème lié à vos produits Adobe. La console Adobe Admin Console vous permettra de discuter avec le Service clientèle d&#39;Adobe pour résoudre vos problèmes.
 
-Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).

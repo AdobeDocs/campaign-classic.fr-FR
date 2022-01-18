@@ -5,8 +5,9 @@ description: En savoir plus sur les versions de Campaign Classic 2021
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: babb585438a6e467afad74391035059f7b12a6ec
-workflow-type: ht
+exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
+source-git-commit: 1e2c20befebf2343cb0f781aa7f2bd1ed6b3f383
+workflow-type: tm+mt
 source-wordcount: '2542'
 ht-degree: 100%
 

@@ -51,7 +51,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   </td>
  </tr>
     <tr>
-  <td>Connecteur de données Adobe Analytics<br></td>
+  <td>Adobe Analytics - Data Connector<br></td>
    <td><p>À compter de la version 21.1.3 de Campaign, le connecteur de données Adobe Analytics est obsolète.</p>
    <p>Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. <a href="../../platform/using/adobe-analytics-connector.md">En savoir plus</a></p>
   <p><em>Date de suppression prévue : 17 août 2022</em></p>

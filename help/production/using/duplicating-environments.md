@@ -69,6 +69,7 @@ Les étapes ci-dessous doivent être réalisées avec précaution : certains pr
 >
 >* La procédure ci-dessous est valide en langage PostgreSQL, si le langage SQL est différent (Oracle, par exemple), les requêtes SQL doivent être adaptées.
 >* Dans les exemples de commandes proposés ci-après, on considère une instance **prod** et une instance **recette** existantes sous PostgreSQL.
+
 >
 
 
