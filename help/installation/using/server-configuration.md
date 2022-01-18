@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 source-git-commit: e55fff99fd5dec8da998310dc7026c1a506abadc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '627'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -64,9 +64,9 @@ Les nouveaux clients utiliseront le mode Blocking. S’ils souhaitent autoriser 
 
 Les clients existants provenant d’une migration peuvent utiliser pendant un certain temps le mode d’avertissement. Ils doivent entre-temps analyser le trafic sortant pour autoriser les URL.
 
-## Restriction des commandes (côté serveur)
+## Restriction des commandes (côté serveur)
 
-Plusieurs commandes sont incluses dans la liste bloquée et ne peuvent pas être exécutées à l’aide de la fonction execCommand . Une sécurité supplémentaire est fournie par un nouvel utilisateur Unix dédié afin d’exécuter les commandes externes. Pour les installations hébergées, cette restriction est appliquée automatiquement. Pour les installations On-premise, vous pouvez configurer manuellement cette restriction en suivant les instructions décrites sur [cette page](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). En outre, les activités de workflow **[!UICONTROL Script]** et **[!UICONTROL Tâche externe]** ne sont pas disponibles (instances nouvellement installées).
+Plusieurs commandes sont incluses dans la liste bloquée et ne peuvent pas être exécutées à l’aide de la fonction execCommand. Une sécurité supplémentaire est fournie par un nouvel utilisateur Unix dédié afin d’exécuter les commandes externes. Pour les installations hébergées, cette restriction est appliquée automatiquement. Pour les installations On-premise, vous pouvez configurer manuellement cette restriction en suivant les instructions décrites sur [cette page](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). En outre, les activités de workflow **[!UICONTROL Script]** et **[!UICONTROL Tâche externe]** ne sont pas disponibles (instances nouvellement installées).
 
 ## Autres configurations
 
