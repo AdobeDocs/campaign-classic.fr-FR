@@ -7,25 +7,25 @@ content-type: reference
 topic-tags: migration-procedure
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
-# Conditions préalables{#before-starting-migration}
+# Conditions préalables requises{#before-starting-migration}
 
 ![](../../assets/v7-only.svg)
 
-Cette page répertorie les étapes spécifiques à effectuer avant de démarrer le processus de migration. Vous devez également consulter la section [cette page](about-migration.md) pour plus d’informations.
+Cette page répertorie les étapes spécifiques à effectuer avant de démarrer le processus de migration. Vous devez également vous référer à [cette page](about-migration.md) pour plus d’informations.
 
 >[!NOTE]
 >
->Dans ce document, les commandes sont données sous forme d&#39;exemples. Ils peuvent varier en fonction de votre configuration.
+>Dans ce document, les commandes sont données sous forme d’exemples. Ils peuvent varier en fonction de votre configuration.
 
-1. Vérifiez votre version d’Adobe Campaign : avant de procéder à la migration, installez le dernier build de la version actuelle que vous utilisez.
+1. Vérifiez votre version d’Adobe Campaign : avant de procéder à la migration, installez la dernière build de la version actuelle que vous utilisez.
 1. Sauvegardez vos données.
-1. Vérifiez votre environnement : vous ne pouvez pas modifier votre système de moteur de base de données (SGBD). Par exemple, vous ne pouvez pas passer d’un moteur PostgreSQL à un moteur Oracle. Vous pouvez toutefois passer à la dernière version de votre moteur de base de données. Notez qu&#39;il n&#39;est pas possible de passer d&#39;une base non Unicode à une base Unicode.
+1. Vérifiez votre environnement : vous ne pouvez pas modifier votre système de moteur de base de données (SGBD). Par exemple, vous ne pouvez pas passer d’un moteur PostgreSQL à un moteur Oracle. Vous pouvez toutefois passer à la dernière version de votre moteur de base de données. Notez qu’il n&#39;est pas possible de passer d’une base non-Unicode à une base Unicode.
 
 ## Etapes de migration {#migration-steps}
 
