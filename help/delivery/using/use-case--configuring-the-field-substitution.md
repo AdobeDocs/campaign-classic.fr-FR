@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Cette substitution permet de gagner du temps lors de la création de la diffusio
 
 Dans ce cas pratique, le site **Ma bibliothèque en ligne** souhaite envoyer une offre de remise à ses clients en fonction de leurs préférences littéraires.
 
-Le chargé de diffusion a intégré dans son email un champ de personnalisation lié à son genre préféré. Le but est d’utiliser des adresses de contrôle : ces adresses de contrôle contiennent le champ de personnalisation dans leur table, mais aucune valeur n’y est enregistrée.
+Dans son e-mail, le chargé de diffusion a intégré un champ de personnalisation lié au genre littéraire favori. Le but est d’utiliser des adresses de contrôle : ces adresses de contrôle contiennent le champ de personnalisation dans leur table, mais aucune valeur n’y est enregistrée.
 
 Pour utiliser la substitution aléatoire des champs vous devez disposer :
 
