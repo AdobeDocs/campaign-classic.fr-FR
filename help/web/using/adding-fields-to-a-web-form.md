@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 source-git-commit: a5f6478d3c0780464974053e389923614abba582
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2461'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -383,7 +383,7 @@ Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans u
 
 ## Insérer une constante masquée {#inserting-a-hidden-constant}
 
-Lorsque l’utilisateur valide l’une des pages du formulaire, vous pouvez définir une valeur spécifique sur un champ de son profil ou sur une variable.
+Lorsque l’utilisateur valide l’une des pages du formulaire, vous pouvez définir une valeur spécifique pour un champ de son profil ou une variable.
 
 Ce champ n‘est pas visible par l‘utilisateur mais permet d‘enrichir les données de son profil.
 
