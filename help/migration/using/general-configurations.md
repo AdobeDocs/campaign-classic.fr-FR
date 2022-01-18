@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: configuration
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2680'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 98%
 
 ![](../../assets/v7-only.svg)
 
-Cette section décrit le paramétrage à effectuer dans Adobe Campaign v7 lors de la migration depuis une v5.11 ou une v6.02.
+Cette section décrit les paramétrages à effectuer dans Adobe Campaign v7 lors de la migration depuis une v5.11 ou une v6.02.
 
 En complément :
 
-* Si vous migrez depuis une v5.11, vous devez également effectuer le paramétrage décrit dans la section [cette section](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11).
-* Si vous migrez depuis une v6.02, vous devez également effectuer le paramétrage décrit dans la section [cette section](../../migration/using/configuring-your-platform.md#specific-configurations-in-v6-02).
+* Si vous migrez depuis une v5.11, vous devez également effectuer la configuration présentée en détail dans [cette section](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11).
+* Si vous migrez depuis une v6.02, vous devez également effectuer la configuration présentée en détail dans [cette section](../../migration/using/configuring-your-platform.md#specific-configurations-in-v6-02).
 
 ## Fuseaux horaires {#time-zones}
 
