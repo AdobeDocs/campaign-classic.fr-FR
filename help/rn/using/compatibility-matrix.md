@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -188,13 +188,13 @@ Les systèmes de gestion de la relation client (CRM) compatibles avec Adobe Cam
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
-Les bases de données externes compatibles avec le [module Adobe Campaign Federated Data Access](../../installation/using/about-fda.md) sont répertoriées ci-dessous. La compatibilité dépend de votre [modèle d&#39;hébergement](../../installation/using/hosting-models.md).
+Les bases de données externes compatibles avec le [module Adobe Campaign Federated Data Access](../../installation/using/about-fda.md) sont répertoriées ci-dessous. La compatibilité dépend de votre [modèle d’hébergement](../../installation/using/hosting-models.md).
 
-**Managed Services** (hébergé), **Hybride** et **On-premise** Les environnements peuvent connecter Campaign avec les systèmes de base de données externes suivants :
+Les environnements **Managed Services** (hébergé), **Hybride** et **On-premise** peuvent connecter Campaign aux systèmes de base de données externes suivants :
 
 <table>
 <tbody>
-<td><strong>Système de base de données</strong></td>
+<td><strong>Système de la base de données</strong></td>
 <td><strong>Version de la base de données</strong></td>
 <td><strong>Version de Campaign</strong></td>
 <tr>
@@ -230,11 +230,11 @@ Les bases de données externes compatibles avec le [module Adobe Campaign Feder
 </tbody>
 </table>
 
-En outre, **Hybride** et **On-premise** Les environnements peuvent également connecter Campaign à :
+En outre, les environnements **Hybride** et **On-premise** peuvent également connecter Campaign aux éléments suivants :
 
 <table>
 <tbody>
-<td><strong>Système de base de données</strong></td>
+<td><strong>Système de la base de données</strong></td>
 <td><strong>Version de la base de données</strong></td>
 <td><strong>Version de Campaign</strong></td>
 <tr>
@@ -255,7 +255,7 @@ En outre, **Hybride** et **On-premise** Les environnements peuvent également co
 <p>12c</p>
 <p>11g</p>
 </td>
-<td>v7.0 minimum</td>
+<td>V7.0 minimum</td>
 </tr>
 <tr><td>SQL Server </td>
 <td>
@@ -265,13 +265,13 @@ En outre, **Hybride** et **On-premise** Les environnements peuvent également co
 <p>2014</p>
 <p>2012 SP1 et SP2</p>
 </td>
-<td>v7.0 minimum</td>
+<td>V7.0 minimum</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
 <p>5.7</p>
 </td>
-<td>v7.0 minimum</td>
+<td>V7.0 minimum</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -281,14 +281,14 @@ En outre, **Hybride** et **On-premise** Les environnements peuvent également co
 <p>15.10</p>
 <p>15.0</p>
 </td>
-<td>v7.0 minimum</td>
+<td>V7.0 minimum</td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
 <p>7.2</p>
 </td>
-<td>v7.0 minimum</td>
+<td>V7.0 minimum</td>
 </tr>
 <tr>
 <td>Sybase</td>
@@ -296,14 +296,14 @@ En outre, **Hybride** et **On-premise** Les environnements peuvent également co
 <p>IQ 16</p>
 <p>ASE 15.7</p>
 </td>
-<td>v7.0 minimum</td>
+<td>V7.0 minimum</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
 <td>
 <p>SPS 12 version 1</p>
 </td>
-<td>v7.0 minimum</td>
+<td>V7.0 minimum</td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
 <td>
@@ -311,7 +311,7 @@ En outre, **Hybride** et **On-premise** Les environnements peuvent également co
 <p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
 <p>Cloudera CDH6.x</p>
 </td>
-<td>v7.0 minimum</td>
+<td>V7.0 minimum</td>
 </tr>
 </tbody>
 </table>
