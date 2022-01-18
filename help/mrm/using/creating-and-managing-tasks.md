@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3898'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Ils sont sélectionnés à partir de l&#39;icône **[!UICONTROL Ressources]** si
 
 Cliquez sur **[!UICONTROL Ok]** puis renseignez le taux d&#39;utilisation : il représente la charge affectée à l&#39;opérateur pour la durée de réalisation de la tâche. Ce taux est indicatif et exprimé en pourcentage.
 
-Par exemple, pour une tâche dont le planning d&#39;exécution est fixé à 10 jours, un opérateur dont le taux d&#39;utilisation est de 50% sera mobilisé sur cette tâche pendant la moitié de son temps de travail sur les 10 jours.
+Par exemple, pour une tâche dont le planning de réalisation est fixé à 10 jours, un opérateur pour lequel le taux d’utilisation est de 50 % sera mobilisé pour la moitié de son temps de travail sur la réalisation de cette tâche, pendant les 10 jours prévus.
 
 Il est également possible de renseigner, pour chaque opérateur, une charge planifiée ainsi qu&#39;une charge réalisée. Ces durées sont également indicatives.
 
@@ -325,7 +325,7 @@ Dans le champ **[!UICONTROL Ressource marketing]**, définissez la ressource que
 
 L&#39;option **[!UICONTROL Publier la ressource marketing]** permet d&#39;automatiser la publication d&#39;une ressource : lorsque la tâche est **[!UICONTROL Terminée]**, l&#39;état de la ressource passe automatiquement à **[!UICONTROL Publiée]**, même si elle n&#39;avait pas été soumise à validation ni validée,y compris si le validant qui termine la tâche n&#39;est pas le validant de contenu défini dans la ressource.
 
-Le **[!UICONTROL Publier la ressource]** est rendu disponible et le validant de publication de la ressource reçoit un email de notification lui indiquant qu&#39;il est prêt à être publié. Dans le **[!UICONTROL Edition > Tracking]** , la révision et la publication par le validant de tâche apparaissent. Si un workflow de post-traitement des ressources a été défini, il est exécuté maintenant.
+Le bouton **[!UICONTROL Publier la ressource]** est rendu disponible et le réviseur de la publication de la ressource reçoit une notification par e-mail pour l’informer qu’elle est prête à être publiée. Sous l’onglet **[!UICONTROL Modifier > Tracking]**, les options de révision et de publication par le réviseur de la tâche deviennent visibles. Si un workflow de post-traitement des ressources a été défini, il est exécuté maintenant.
 
 ![](assets/mrm_resource_audit_tab.png)
 
@@ -473,7 +473,7 @@ Voici les différentes étapes du cycle de vie complet d&#39;une tâche pour laq
 
    ![](assets/s_ncs_user_task_percentage_done_op.png)
 
-1. Le validant reçoit un email de notification l&#39;informant que l&#39;opérateur a rempli la section qui lui est assignée.
+1. Le réviseur reçoit un e-mail de notification l’informant que l’opérateur a terminé la partie qui lui a été assignée.
 
    Il peut suivre l&#39;avancement dans le tableau de bord de la tâche.
 
