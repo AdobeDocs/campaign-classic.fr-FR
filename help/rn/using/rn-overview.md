@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: 87067a0cca1a4a7f8ea1137ece6d513d58fcdb42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ Chaque nouvelle build est fournie avec un statut matérialisé par une couleur.
 
 Adobe Campaign fait l’objet de mises à jour régulières. Cette fréquence régulière de mises à jour a pour but de vous fournir les dernières fonctionnalités et améliorations. Vous bénéficiez ainsi d’un environnement sécurisé et d’une expérience optimale avec notre produit.
 
-C&#39;est la raison pour laquelle nous pensons qu&#39;il est essentiel que vous **exécuter la version stable la plus récente** d’Adobe Campaign. Vous obtiendrez également un meilleur support, car l’identification, la reproduction et la résolution d’un problème sur un build récent sont généralement beaucoup plus rapides. De plus, de nombreux problèmes que vous pouvez rencontrer ont déjà été corrigés dans les builds les plus récents.
+C’est la raison pour laquelle nous pensons qu’il est important que vous **exécutiez la version la plus récente** d’Adobe Campaign. Vous obtiendrez également un meilleur support, car l’identification, la reproduction et la résolution d’un problème sur un build récent sont généralement beaucoup plus rapides. De plus, de nombreux problèmes que vous pouvez rencontrer ont déjà été corrigés dans les builds les plus récents.
 
-En tant que client hébergé, vous bénéficiez automatiquement de la mise à niveau avec la dernière version stable sans aucune action. En savoir plus dans la section [Section Mise à niveau annuelle](#yearly-upgrade). Si vous migrez depuis un ancien build, Adobe vous recommande d&#39;abord d&#39;effectuer la mise à niveau vers cette version.
+En tant qu’utilisateur hébergé, vous bénéficiez automatiquement de la mise à niveau avec la dernière version stable sans que vous n’ayez aucune action à effectuer. En savoir plus dans la [section Mise à niveau annuelle](#yearly-upgrade). Si vous migrez depuis une ancienne build, Adobe vous recommande d’effectuer d’abord la mise à niveau vers cette version.
 
 ## Recommandations{#recommendations}
 
@@ -59,13 +59,13 @@ Adobe et Adobe Campaign s’engagent à vous offrir une expérience optimale et 
 
 Adobe Campaign Classic, en particulier, utilise toute une gamme de technologies pour offrir une valeur ajoutée. Cette combinaison de technologies nécessite de mettre régulièrement vos instances Campaign Classic à niveau afin de s’assurer que les versions les plus récentes sont utilisées pour offrir une sécurité, une stabilité et des performances supérieures.
 
-En tant qu&#39;utilisateur hébergé, vous bénéficierez automatiquement de l&#39;upgrade avec le dernier build stable sans action. Pour en savoir plus, consultez les questions fréquentes ci-dessous.
+En tant qu’utilisateur hébergé, vous bénéficierez automatiquement de la mise à niveau avec la dernière build stable sans que vous n’ayez aucune action à effectuer. Pour en savoir plus, consultez les FAQ ci-dessous.
 
 ### Pourquoi mon entreprise a-t-elle besoin de cette mise à niveau ?
 
 En tant que client hébergé, si votre compte doit effectuer une mise à niveau d’une ou de plusieurs technologies liées à Campaign Classic, ainsi qu’une mise à jour du build et/ou de la version actuels, vous en serez directement informé par Adobe.
 
-En tant que client on-premise ou hybride utilisant une ancienne version, Adobe vous encourage à passer au dernier build stable.
+En tant que client On-premise ou hybride utilisant une version plus ancienne, Adobe vous incite à passer à la dernière build stable.
 
 Votre compte sera ainsi protégé contre les vulnérabilités et pourra tirer parti des technologies de performances les plus récentes. Cette mise à niveau permettra aussi d’effectuer à l’avenir des mises à niveau plus simples et régulières de votre compte. Celles-ci nécessiteront en outre moins de tâches manuelles et d’intervention.
 
@@ -120,7 +120,7 @@ Nous nous engageons à mettre à votre disposition des informations pertinentes 
   </td>
 
 <td>
-      <img alt="Mise à niveau du build" src="assets/do-not-localize/upgrades.png" />
+      <img alt="Mise à niveau de build" src="assets/do-not-localize/upgrades.png" />
     <div>
     <strong>Mises à niveau plus faciles</strong>
     </a>
