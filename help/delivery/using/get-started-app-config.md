@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Prise en main de la configuration de l&#39;application
 
-Vous trouverez dans cette section un exemple de configuration basé sur une société qui vend des forfaits vacances en ligne. Son application mobile (Neotrips) est disponible pour ses clients en deux versions : Voyages Neotrips pour Android et Neotrips pour iOS.
+Vous trouverez dans cette section un exemple de configuration basé sur une société qui vend des forfaits vacances en ligne. Son application mobile (Neotrips) est disponible pour ses clients en deux versions : Neotrips pour Android et Neotrips pour iOS.
 
 Pour envoyer des notifications push dans Adobe Campaign, vous devez effectuer les opérations suivantes :
 
