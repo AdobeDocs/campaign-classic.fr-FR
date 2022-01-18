@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 source-git-commit: 59a2bc62b4c03ef0702cb57bd9dc808e7d0b444b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 Les tests de migration peuvent être effectués de différentes manières, en fonction de votre configuration.
 
-Vous devez disposer d’un environnement de test/développement pour effectuer les tests de migration. Les environnements Adobe Campaign sont soumis à une licence : vérifiez votre contrat de licence ou contactez votre représentant Adobe.
+Vous devez disposer d’un environnement de test/développement pour effectuer les tests de migration. Les environnements Adobe Campaign sont soumis à une licence : vérifiez votre contrat de licence ou contactez votre représentant Adobe.
 
 1. Arrêtez tous les développements en cours et reportez-les sur l&#39;environnement de production.
 1. Effectuez une sauvegarde de la base de données correspondant à l&#39;environnement de développement.
@@ -65,7 +65,7 @@ Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39
 >[!NOTE]
 >
 >* Vous devez utiliser l’option **-instance:`<instanceame>`**. Il est déconseillé d’utiliser l’option  **-allinstances**.
->* La commande de mise à jour d&#39;Adobe Campaign (**postupgrade**) permet de synchroniser les ressources et de mettre à jour les schémas et la base de données. Cette opération n&#39;est à effectuer qu&#39;une seule fois et uniquement sur un serveur applicatif. Lors de la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
+>* La commande de mise à jour d’Adobe Campaign (**postupgrade**) permet de synchroniser les ressources et de mettre à jour les schémas et la base de données. Cette opération ne peut être effectuée qu’une seule fois et uniquement sur le serveur applicatif. Suite à la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
 
 
 ### Objets non standard ou manquants
@@ -165,10 +165,10 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    </br>Pour passer au déploiement des API Web, voir la section <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Applications Web</a>.<br /> </td>
   </tr> 
   <tr> 
-   <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
+   <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
    <td> PU-0008<br /> </td> 
    <td> Erreur<br /> </td> 
-   <td> Les activités d’action Microsoft CRM, Salesforce, Oracle CRM On Demand ne sont plus disponibles. Pour configurer la synchronisation des données entre Adobe Campaign et un système CRM, vous devez utiliser la variable <a href="../../workflow/using/crm-connector.md" target="_blank">Connecteur CRM</a> activité de ciblage.<br /> </td>
+   <td> Les activités d’action Microsoft CRM, Salesforce, Oracle CRM On Demand ne sont plus disponibles. Pour paramétrer la synchronisation des données entre Adobe Campaign et un système CRM, vous devez utiliser l’activité de ciblage du <a href="../../workflow/using/crm-connector.md" target="_blank">Connecteur CRM</a>.<br /> </td>
   </tr> 
  </tbody> 
 </table>
@@ -187,6 +187,6 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 >
 >Nous vous recommandons fortement d&#39;utiliser des chemins de dossiers absolus et de conserver l&#39;arborescence de dossiers. Par exemple : backupFolder\nms\srcSchema\billing.xml
 
-### Reprendre la migration {#resuming-migration}
+### Reprise de la migration {#resuming-migration}
 
-Si vous relancez le postupgrade à la suite d&#39;un échec de migration, celle-ci reprend là où elle s&#39;était arrêtée.
+Si vous relancez l’opération de postupgrade à la suite d’un échec de migration, celle-ci reprend là où elle s’était arrêtée.
