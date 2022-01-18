@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Dans ce cas pratique, le site **Ma librairie en ligne** souhaite personnaliser s
 
 En concertation avec le service des achats, l&#39;utilisateur en charge des diffusions a créé une newsletter pour les abonnés ayant acheté des romans policiers.
 
-Pour partager avec eux le résultat final de leur collaboration, le chargé de diffusion décide d&#39;ajouter ses collègues du service des achats à la diffusion en tant qu&#39;adresses de contrôle. L&#39;utilisation d&#39;une condition dynamique permet de gagner du temps lors de la configuration et de la mise à jour des adresses.
+Pour partager avec eux le résultat final de leur collaboration, le chargé de diffusion décide d’ajouter ses collègues du service des achats à la diffusion en tant qu’adresses de contrôle. L’utilisation d’une condition dynamique permet d’optimiser le temps de paramétrage et la mise à jour des adresses.
 
 Pour utiliser la condition dynamique vous devez disposer :
 
