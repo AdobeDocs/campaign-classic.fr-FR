@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
 source-git-commit: 6cecc81135afd067712e51ec9c1ad3239170702e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 66%
 
 Utilisez l&#39;option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour Configuration de l&#39;accès à [!DNL Snowflake].
 
-1. Configurer [!DNL Snowflake] on [Linux](#snowflake-linux).
+1. Configurez [!DNL Snowflake] sous [Linux](#snowflake-linux).
 1. Configuration du [compte externe](#snowflake-external) [!DNL Snowflake] dans Campaign
 
 >[!NOTE]
@@ -30,11 +30,11 @@ Utilisez l&#39;option Campaign **Federated Data Access** (FDA) pour traiter les 
 
 ## Snowflake sous Linux {#snowflake-linux}
 
-Pour configurer [!DNL Snowflake] sous Linux, procédez comme suit :
+Pour effectuer la configuration de [!DNL Snowflake] sous Linux, procédez comme suit :
 
-1. Avant d’installer ODBC, vérifiez que les packages suivants sont installés sur votre distribution Linux :
+1. Avant d’installer ODBC, vérifiez que les packages suivants sont installés sur votre distribution Linux :
 
-   * Pour Red Hat/CentOS :
+   * Pour Red Hat/CentOS :
 
       ```
       yum update
@@ -42,7 +42,7 @@ Pour configurer [!DNL Snowflake] sous Linux, procédez comme suit :
       yum install -y grep sed tar wget perl curl
       ```
 
-   * Sous Debian:
+   * Sous Debian :
 
       ```
       apt-get update
@@ -50,21 +50,21 @@ Pour configurer [!DNL Snowflake] sous Linux, procédez comme suit :
       apt-get install -y grep sed tar wget perl curl
       ```
 
-1. Avant d’exécuter le script, vous pouvez accéder à plus d’informations avec la variable `--help` option :
+1. Avant d’exécuter le script, vous pouvez avoir accès à plus d’informations avec l’option `--help` :
 
    ```
    cd /usr/local/neolane/nl6/bin/fda-setup-scripts/
    ./snowflake_odbc-setup.sh --help
    ```
 
-1. Accédez au répertoire où se trouve le script et exécutez le script suivant en tant qu’utilisateur root :
+1. Accédez au répertoire où se trouve le script et exécutez le script suivant en tant qu’utilisateur racine :
 
    ```
    cd /usr/local/neolane/nl6/bin/fda-setup-scripts
    ./snowflake_odbc-setup.sh
    ```
 
-1. Après avoir installé les pilotes ODBC, vous devez redémarrer Campaign Classic. Pour cela, exécutez la commande suivante :
+1. Après avoir installé les pilotes ODBC, vous devez redémarrer Campaign Classic. Pour cela, exécutez la commande suivante :
 
    ```
    systemctl stop nlserver.service
@@ -83,36 +83,36 @@ Vous devez créer un compte externe [!DNL Snowflake] pour connecter votre instan
 
 1. Sélectionnez **[!UICONTROL Base de données externe]** en tant que **[!UICONTROL Type]** de compte externe.
 
-1. Sous **[!UICONTROL Configuration]**, sélectionnez [!DNL Snowflake] de la **[!UICONTROL Type]** menu déroulant.
+1. Sous **[!UICONTROL Configuration]**, sélectionnez [!DNL Snowflake] dans le menu déroulant **[!UICONTROL Type]**.
 
    ![](assets/snowflake_5.png)
 
-1. Ajoutez vos **[!UICONTROL Serveur]** URL et **[!UICONTROL Base]**.
+1. Ajoutez l’URL de votre **[!UICONTROL Serveur]** et votre **[!UICONTROL Base de données]**.
 
-1. Configurez la variable **[!UICONTROL Snowflake]** authentification de compte externe :
+1. Configurez l’authentification du compte externe **[!UICONTROL Snowflake]** :
 
-   * Pour l&#39;authentification Compte/Mot de passe, vous devez indiquer :
+   * Pour l’authentification par compte/mot de passe, vous devez indiquer :
 
-      * **[!UICONTROL Compte]** : nom de l&#39;utilisateur
+      * **[!UICONTROL Compte]** : nom de l’utilisateur
 
       * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur.
 
       ![](assets/snowflake.png)
 
-   * Pour l’authentification Keypair, cliquez sur le **[!UICONTROL Keypair Auth]** pour utiliser votre **[!UICONTROL Clé privée]** pour vous authentifier et copier, collez votre **[!UICONTROL Clé privée]**.
+   * Pour l’authentification par paire de clés, cliquez sur l’onglet **[!UICONTROL Authentification par paire de clés]** pour utiliser votre **[!UICONTROL Clé privée]** afin de vous authentifier et de copier/coller votre **[!UICONTROL Clé privée]**.
 
       ![](assets/snowflake_4.png)
 
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Paramètres]**, puis sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer des fonctions.
+1. Cliquez sur l’onglet **[!UICONTROL Paramètres]**, puis sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer des fonctions.
 
    >[!NOTE]
    >
-   >Pour que toutes les fonctions soient disponibles, vous devez créer les fonctions Adobe Campaign SQL dans la base distante. Pour plus d&#39;informations, consultez cette [page](../../configuration/using/adding-additional-sql-functions.md).
+   >Pour que toutes les fonctions soient disponibles, vous devez créer les fonctions SQL Adobe Campaign dans la base de données distante. Pour plus d’informations, consultez cette [page](../../configuration/using/adding-additional-sql-functions.md).
 
    ![](assets/snowflake_2.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** une fois la configuration terminée.
+1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque la configuration est terminée.
 
 Le connecteur prend en charge les options suivantes :
 
