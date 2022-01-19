@@ -294,7 +294,7 @@ Les règles par défaut sont les suivantes.
 >[!IMPORTANT]
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md) et si votre instance dispose de la fonctionnalité **Webhooks/EFS**, les règles de **[!UICONTROL mail entrant]** ne sont plus utilisées pour les messages d&#39;erreur relatifs aux échecs des diffusions synchrones.
-Voir à ce propos [cette section](#bounce-mail-qualification).
+>Voir à ce propos [cette section](#bounce-mail-qualification).
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par des serveurs distants et qui vous permettent de qualifier l&#39;erreur (**Hard**, **Soft** ou **Ignorée**).
 

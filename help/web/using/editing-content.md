@@ -137,7 +137,6 @@ Les blocs de personnalisation et champs de personnalisation ne peuvent être ins
 >* Nouvelle fenêtre (_blank)
 >* Fenêtre courante (_self)
 >* Comportement par défaut du navigateur
-
 >
 
 
