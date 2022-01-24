@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 6b7ec6b39a79e9b1e6e2bba3d5193765094cf4fd
 workflow-type: tm+mt
 source-wordcount: '7969'
 ht-degree: 100%
@@ -2973,7 +2973,6 @@ Le nœud **web > jsp > classpath** contient la liste de tous les Class Paths �
           $(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
           $(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
           $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
-          $(XTK_INSTALL_DIR)/java/lib/log4j-1.2.11.jar
           $(XTK_INSTALL_DIR)/tomcat-8/lib/annotations-api.jar
           $(XTK_INSTALL_DIR)/tomcat-8/lib/catalina.jar
           $(XTK_INSTALL_DIR)/tomcat-8/lib/websocket-api.jar
