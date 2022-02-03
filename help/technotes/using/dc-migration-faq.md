@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 60fc0fd2a10f05abb77843ef0cb69e44f35a9648
 workflow-type: tm+mt
-source-wordcount: '2243'
-ht-degree: 100%
+source-wordcount: '2216'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Dans le cadre de l’[initiative Gold Standard](../../rn/using/gold-standard.md), Adobe désactive l’ancien centre de données. Les instances Campaign Classic doivent être transférées vers le cloud public Amazon Web Services (AWS). [En savoir plus sur cette initiative](dc-migration.md).
+Adobe désactive l’ancien centre de données : Les instances de Campaign Classic doivent être transférées vers Public Cloud Amazon Web Services (AWS). [En savoir plus sur cette initiative](dc-migration.md).
 
 Vous trouverez ci-dessous un ensemble de questions courantes concernant ce projet, l’impact sur vos environnements Campaign et d’autres ressources utiles.
 
@@ -47,7 +47,7 @@ Les incidences globales sur la base de données et l’infrastructure sont répe
 
    Dans un premier temps, nous allons conserver le même build de Campaign Classic avec la migration.
 
-   Lors d’une étape ultérieure, nous procéderons à la mise à niveau vers la dernière version de build de Campaign Classic GA. Pour plus d’informations, consultez les sections [FAQ sur la mise à niveau de build](../../platform/using/faq-build-upgrade.md) et [Notes de mise à jour de Campaign Gold Standard](../../rn/using/gold-standard.md).
+   Lors d’une étape ultérieure, nous procéderons à la mise à niveau vers la dernière version de build de Campaign Classic GA. Pour plus dʼinformations, consultez [cette page](../../rn/using/rn-overview.md).
 
 * **En quoi consiste le plan pour résoudre les problèmes consécutifs à la migration ?**
 
@@ -63,7 +63,7 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 
    L’adresse IP des serveurs Adobe va changer. Il se peut donc que les clients doivent ajouter ces nouvelles adresses IP à la liste autorisée de leur système.
 
-   [Cliquez ici](#config) pour en savoir plus sur l’ajout d’adresses IP à la liste autorisée.
+   [En savoir plus](#config) à propos de l’adresse IP sur la liste autorisée.
 
 * **Comment allons-nous gérer le port ajouté à la liste autorisée pour l’accès SFTP/FTP ?**
 
@@ -73,7 +73,7 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 
    L’adresse IP des serveurs Adobe va changer. Il se peut donc que les clients doivent ajouter ces nouvelles adresses IP à la liste autorisée de leur système.
 
-   [Cliquez ici](#config) pour en savoir plus sur l’ajout d’adresses IP à la liste autorisée.
+   [En savoir plus](#config) à propos de l’adresse IP sur la liste autorisée.
 
 * **Comment la délégation des sous-domaines sera-t-elle gérée ?**
 
@@ -155,7 +155,7 @@ Les incidences globales sur la configuration, la connectivité avec d’autres s
 
    L’adresse IP des serveurs Adobe va changer. Il se peut donc que les clients doivent ajouter ces nouvelles adresses IP à la liste autorisée de leur système.
 
-   [Cliquez ici](#config) pour en savoir plus sur l’ajout d’adresses IP à la liste autorisée.
+   [En savoir plus](#config) à propos de l’adresse IP en liste autorisée.
 
 * **Allons-nous nous assurer que tous les paramètres de configuration de la mémoire JavaScript sont correctement définis après la migration ?**
 
@@ -169,7 +169,7 @@ Les incidences globales sur la configuration, la connectivité avec d’autres s
 
    Il peut changer en fonction de la nouvelle localisation des serveurs. Toutefois, le client pourra conserver son fuseau horaire actuel.
 
-   [Cliquez ici](../../workflow/using/managing-time-zones.md) pour en savoir plus sur la gestion des fuseaux horaires dans Adobe Campaign Classic v7.
+   [En savoir plus](../../workflow/using/managing-time-zones.md) à propos de la gestion des fuseaux horaires dans Adobe Campaign Classic v7.
 
 
 ## Sécurité et autorisations
