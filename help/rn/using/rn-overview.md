@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 87067a0cca1a4a7f8ea1137ece6d513d58fcdb42
+source-git-commit: 9d8eae6b9c31d98d5e7e14b61f3abcf46311304d
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 100%
+source-wordcount: '917'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Chaque nouvelle build est fournie avec un statut matérialisé par une couleur.
 
-![](assets/do-not-localize/green3.png) **Disponibilité générale** (GA) - Validée en production et recommandée par Adobe.
+![](assets/do-not-localize/green3.png) **Disponibilité générale** (GA) : dernier build stable, validé en production et recommandé par Adobe.
 
 ![](assets/do-not-localize/limited3.png) **Disponibilité limitée** (LA) - Déploiement à la demande uniquement.
 
@@ -41,7 +41,7 @@ En tant qu’utilisateur hébergé, vous bénéficiez automatiquement de la mise
 
 ## Recommandations{#recommendations}
 
-Pour garantir une configuration stable, nous vous recommandons d’installer **la même build stable** sur tous les serveurs qui s’exécutent sur la même configuration client.
+Pour garantir une configuration , nous vous recommandons d’installer **la même build stable** sur tous les serveurs qui s’exécutent sur la même configuration client.
 
 En outre, la console cliente doit présenter la même build que l’instance de serveur.
 
@@ -51,7 +51,7 @@ Pour garder votre implémentation à jour, veillez à lire les pages [Fonctionna
 
 En tant que client hébergé (service géré ou hybride), vous devez contacter l’équipe d’Assistance clientèle pour que votre environnement soit mis à niveau.
 
-En tant qu’utilisateur On-premise, vous pouvez effectuer la mise à niveau. Pour cela, vous devez [télécharger le dernier build stable](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) et mettre à niveau tous vos environnements. Pour en savoir plus sur le [processus de mise à niveau](../../production/using/build-upgrade.md), consultez le [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
+En tant qu’utilisateur On-premise, vous pouvez effectuer la mise à niveau. Pour ce faire, vous devez [télécharger le dernier build stable (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) et mettez à niveau tous vos environnements. Pour en savoir plus sur le [processus de mise à niveau](../../production/using/build-upgrade.md), consultez le [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
 
 ## Mise à niveau annuelle {#yearly-upgrade}
 
@@ -59,13 +59,13 @@ Adobe et Adobe Campaign s’engagent à vous offrir une expérience optimale et 
 
 Adobe Campaign Classic, en particulier, utilise toute une gamme de technologies pour offrir une valeur ajoutée. Cette combinaison de technologies nécessite de mettre régulièrement vos instances Campaign Classic à niveau afin de s’assurer que les versions les plus récentes sont utilisées pour offrir une sécurité, une stabilité et des performances supérieures.
 
-En tant qu’utilisateur hébergé, vous bénéficierez automatiquement de la mise à niveau avec la dernière build stable sans que vous n’ayez aucune action à effectuer. Pour en savoir plus, consultez les FAQ ci-dessous.
+En tant qu’utilisateur  hébergé, vous bénéficiez automatiquement de la mise à niveau  avec le dernier build GA sans que vous n’ayez aucune action à effectuer. Pour en savoir plus, consultez les FAQ ci-dessous.
 
 ### Pourquoi mon entreprise a-t-elle besoin de cette mise à niveau ?
 
 En tant que client hébergé, si votre compte doit effectuer une mise à niveau d’une ou de plusieurs technologies liées à Campaign Classic, ainsi qu’une mise à jour du build et/ou de la version actuels, vous en serez directement informé par Adobe.
 
-En tant que client On-premise ou hybride utilisant une version plus ancienne, Adobe vous incite à passer à la dernière build stable.
+En tant que client on-premise ou hybride utilisant une ancienne version, Adobe vous encourage à passer au dernier build stable (GA).
 
 Votre compte sera ainsi protégé contre les vulnérabilités et pourra tirer parti des technologies de performances les plus récentes. Cette mise à niveau permettra aussi d’effectuer à l’avenir des mises à niveau plus simples et régulières de votre compte. Celles-ci nécessiteront en outre moins de tâches manuelles et d’intervention.
 

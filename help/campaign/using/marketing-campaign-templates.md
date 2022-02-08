@@ -2,11 +2,9 @@
 product: campaign
 title: Modèles de campagne marketing
 description: Modèles de campagne marketing
-audience: campaign
-content-type: reference
-topic-tags: orchestrate-campaigns
+feature: Campaigns, Templates
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 100%

@@ -1,12 +1,10 @@
 ---
 product: campaign
 title: Conception et exécution de campagnes marketing
-description: Définissez, optimisez, exécutez et analysez des campagnes marketing.
-audience: campaign
-content-type: reference
-topic-tags: about-marketing-campaigns
+description: Définissez, optimisez, exécutez et analysez des campagnes marketing
+feature: Campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%

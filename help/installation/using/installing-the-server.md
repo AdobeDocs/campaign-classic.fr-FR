@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e88ed7a5710f9ec8713d9e7151d2fd4904097990
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 98%
 
 ---
 
@@ -157,7 +157,7 @@ net stop nlserver6
 
 ## Installation de LibreOffice {#installing-libreoffice}
 
-Téléchargez LibreOffice, à partir du site [https://www.libreoffice.org/download/libreoffice-fresh/](https://www.libreoffice.org/download/libreoffice-fresh/) par exemple, et suivez les étapes d&#39;installation standard.
+Téléchargez LibreOffice et suivez les étapes d&#39;installation standard.
 
 Ajoutez la variable d&#39;environnement suivante :
 

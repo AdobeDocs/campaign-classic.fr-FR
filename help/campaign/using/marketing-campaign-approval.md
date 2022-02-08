@@ -3,10 +3,8 @@ product: campaign
 title: Validation des campagnes marketing
 description: Découvrez comment gérer les validations des campagnes marketing
 audience: campaign
-content-type: reference
-topic-tags: orchestrate-campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
 workflow-type: tm+mt
 source-wordcount: '2603'
 ht-degree: 100%

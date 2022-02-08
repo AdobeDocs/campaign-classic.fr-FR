@@ -3,10 +3,8 @@ product: campaign
 title: Accès aux campagnes marketing
 description: Accès aux campagnes marketing
 audience: campaign
-content-type: reference
-topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 89c007775d4df7c6d50951283efe764c3c424d91
+source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 100%
