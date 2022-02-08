@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 source-git-commit: 035297523c25061f28751c28df86d562f40f45ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1289'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -241,7 +241,7 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
 
 ### Package Message Center {#message-center-package}
 
-Vous devez installer les canaux de diffusion (Email, Mobile Channel, Mobile App Channel, LINE, etc.) avant d&#39;installer la messagerie transactionnelle (package Message Center). Si vous avez démarré un projet Message Center réservé aux emails et que vous devez ajouter un nouveau canal par la suite, procédez comme suit :
+Vous devez installer des canaux de diffusion (e-mail, canal mobile, canal d’application mobile, LINE, etc.) avant d&#39;installer la messagerie transactionnelle (package Message Center). Si vous avez démarré un projet Message Center réservé aux emails et que vous devez ajouter un nouveau canal par la suite, procédez comme suit :
 
 1. Installez le nouveau canal, par exemple le **Canal mobile**, à l’aide de l’assistant d’import de package (**[!UICONTROL Outils > Avancé > Import de package > Package Adobe Campaign]**).
 1. Importez le fichier (**[!UICONTROL Outils > Avancé > Importer un package > Fichier]**), puis sélectionnez :
@@ -255,18 +255,18 @@ Vous devez installer les canaux de diffusion (Email, Mobile Channel, Mobile App 
    ![](assets/messagecenter_install_channel.png)
 
 
-### [!DNL LINE] configuration du canal{#line-package}
+### Configuration du canal [!DNL LINE]{#line-package}
 
-Pour configurer le [!DNL LINE] , vous devez d’abord installer le canal [!DNL LINE] module.
+Pour configurer le canal [!DNL LINE], vous devez d’abord installer le package [!DNL LINE].
 
-Dans le cadre d&#39;une configuration en mid-sourcing, vous devez :
+Dans le cadre dʼune configuration de midsourcing, procédez comme suit :
 
-* Installez le [!DNL LINE] package sur les instances Marketing et MID
+* Installez le package [!DNL LINE] sur les instances Marketing et MID.
 
-* Configuration de [!DNL LINE] compte externe sur l&#39;instance mkt pour pointer vers l&#39;instance mid en changeant le mode de diffusion. [En savoir plus](../../delivery/using/line-channel.md#configure-line-external)
+* Configurez le compte externe [!DNL LINE] sur lʼinstance mkt pour quʼil pointe vers lʼinstance MID en changeant le mode de diffusion. [En savoir plus](../../delivery/using/line-channel.md#configure-line-external)
 
-* Configuration de [!DNL LINE] informations d’identification dans le compte externe sur l’instance MID.
+* Configurez les informations dʼidentification [!DNL LINE] dans le compte externe sur l’instance MID.
 
 >[!CAUTION]
 >
->Modèles de diffusion Message Center pour [!DNL LINE] Le canal ne sera pas disponible si les packages Message Center sont installés avant [!DNL LINE].
+>Les modèles de diffusion du Message Center pour le canal [!DNL LINE] ne seront pas disponibles si les packages Message Center sont installés avant [!DNL LINE].
