@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: Coupons personnalisés
-description: Coupons personnalisés
-audience: delivery
-content-type: reference
-topic-tags: personalizing-deliveries
+description: Découvrez comment créer et insérer des bons personnalisés
+feature: Personalization
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 0deb18bb0376fc5e94d063145280426ff54db786
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +52,7 @@ Avant d&#39;appliquer les étapes ci-dessous, vérifiez que vous savez quel type
    1. Lorsque la fenêtre contextuelle vous y invite, saisissez un code unique pour le coupon individuel.
    1. Cliquez sur **[!UICONTROL Enregistrer]** pour générer le coupon.
 
-   Pour plus d&#39;informations sur l&#39;onglet Coupons, voir la section [Configuration de coupons individuels](#configuring-individual-coupons).
+   Pour plus d’informations sur l’onglet Coupons , voir [Configuration de coupons individuels](#configuring-individual-coupons).
 
    >[!NOTE]
    >
@@ -136,7 +134,7 @@ Dans l&#39;exemple ci-dessous, la diffusion est créée à partir de la Page d&#
 
 >[!NOTE]
 >
->Pour des consignes sur la gestion du manque de coupons pour une diffusion, voir la section [Gestion des coupons insuffisants](#managing-insufficient-coupons).
+>Pour obtenir des instructions sur la gestion du manque de coupons pour une diffusion, reportez-vous à la section [Gérer les coupons insuffisants](#managing-insufficient-coupons)
 
 Pour confirmer que la diffusion a abouti :
 
@@ -153,7 +151,7 @@ Pour confirmer que la diffusion a abouti :
 >
 >Découvrez comment utiliser une table des destinataires personnalisée [sur cette page](../../configuration/using/about-custom-recipient-table.md).
 
-## Gestion des coupons insuffisants {#managing-insufficient-coupons}
+## Gérer les coupons insuffisants {#managing-insufficient-coupons}
 
 L&#39;analyse de la diffusion s&#39;arrête s&#39;il y a moins de coupons que de messages. Dans ce cas, vous pouvez importer plus de coupons ou restreindre le nombre de messages. Pour limiter le nombre de messages, suivez les consignes ci-dessous.
 

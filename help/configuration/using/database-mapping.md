@@ -2,11 +2,8 @@
 product: campaign
 title: Mapping de la base de données
 description: Mapping de la base de données
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 100%

@@ -2,22 +2,18 @@
 product: campaign
 title: Comprendre la gestion des quarantaines
 description: Comprendre la gestion des quarantaines
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+feature: Monitoring
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: ff35cef03ba35c7a6693a65dc7d2482b916c5bdb
 workflow-type: tm+mt
-source-wordcount: '2703'
-ht-degree: 100%
+source-wordcount: '2702'
+ht-degree: 97%
 
 ---
 
-# Comprendre la gestion des quarantaines{#understanding-quarantine-management}
+# Présentation de la gestion des quarantaines{#understanding-quarantine-management}
 
 ![](../../assets/common.svg)
-
-## À propos des quarantaines {#about-quarantines}
 
 Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires dont l&#39;adresse est en quarantaine sont par défaut exclus lors de l&#39;analyse d&#39;une diffusion : ils ne seront pas ciblés. Une adresse email peut être mise en quarantaine par exemple lorsque la boîte de messagerie est pleine ou si l&#39;adresse n&#39;existe pas. Dans tous les cas, la mise en quarantaine répond à des règles précises qui sont décrites ci-après.
 
@@ -25,9 +21,9 @@ Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires
 >
 >Cette section s&#39;applique aux canaux on-line : email, SMS et notification push.
 
-### Optimiser votre diffusion par le biais des mises en quarantaine  {#optimizing-your-delivery-through-quarantines}
+## Optimiser votre diffusion par le biais de la gestion des quarantaines {#optimizing-your-delivery-through-quarantines}
 
-Les profils dont l&#39;adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
+Les profils dont l&#39;adresse email ou le numéro de téléphone est en quarantaine sont automatiquement exclus lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
 Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d&#39;éviter d&#39;être ajouté à une liste bloquée par ces fournisseurs.
 
@@ -45,15 +41,15 @@ En revanche, en cas d’insertion en **liste bloquée**, le profil ne sera plus 
 >
 >Lorsqu’un utilisateur répond à un SMS avec un mot-clé tel que « STOP » pour se désabonner des diffusions SMS, son profil n’est pas mis en liste bloquée comme c’est le cas pour la désinscription des e-mails. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
 
-## Identifier les adresses en quarantaine  {#identifying-quarantined-addresses}
+## Identifier les adresses en quarantaine {#identifying-quarantined-addresses}
 
 Les adresses en quarantaine peuvent être répertoriées pour une diffusion spécifique ou l&#39;ensemble de la plateforme.
 
-### Identifier les adresses en quarantaine pour une diffusion  {#identifying-quarantined-addresses-for-a-delivery}
+### Identifier les adresses en quarantaine pour une diffusion {#identifying-quarantined-addresses-for-a-delivery}
 
 Les adresses en quarantaine pour une diffusion spécifique sont répertoriées pendant la phase de préparation de la diffusion, dans les logs de diffusion du tableau de bord des diffusions (voir la section [Logs et historique de la diffusion](delivery-dashboard.md#delivery-logs-and-history)).
 
-### Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme  {#identifying-quarantined-addresses-for-the-entire-platform}
+### Identifier les adresses en quarantaine pour l’ensemble de la plateforme {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Les administrateurs peuvent répertorier les adresses en quarantaine pour l&#39;ensemble de la plateforme depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > NP@I et adresses]**.
 
@@ -70,7 +66,7 @@ Les informations disponibles pour chacune des adresses sont les suivantes :
 >L&#39;augmentation du nombre de quarantaines est un phénomène normal, lié à &quot;l&#39;usure&quot; de la base. Par exemple, si l&#39;on considère que la durée de vie d&#39;une adresse email est de trois ans et que la table des destinataires augmente de 50% tous les ans, l&#39;augmentation des quarantaines peut être calculée comme suit :
 >
 >Fin de l&#39;année 1 : (1*0,33)/(1+0,5)=22%.
->Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
+Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
 
 ### Identifier les adresses en quarantaine dans les rapports de diffusion {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -92,7 +88,7 @@ Pour chaque destinataire, vous pouvez consulter l&#39;état de son adresse email
 
 ![](assets/tech_quarant_recipients_filter.png)
 
-### Sortir une adresse de quarantaine {#removing-a-quarantined-address}
+### Supprimer une adresse en quarantaine {#removing-a-quarantined-address}
 
 Si nécessaire, vous pouvez supprimer manuellement une adresse de la liste de quarantaine. En outre, les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaine par le workflow **[!UICONTROL Nettoyage de la base]**.
 
@@ -113,7 +109,7 @@ Les adresses sont automatiquement supprimées de la liste de quarantaine dans le
 Leur état devient ensuite **[!UICONTROL Valide]**.
 
 >[!IMPORTANT]
->Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un email.
+Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un email.
 
 Vous pouvez modifier le nombre d&#39;erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l&#39;assistant de déploiement (**[!UICONTROL Canal email]** > **[!UICONTROL Paramètres avancés]**). Pour plus d&#39;informations sur l&#39;assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md).
 
@@ -253,11 +249,12 @@ Le workflow **[!UICONTROL mobileAppOptOutMgt]** s&#39;exécute toutes les 6 heu
 Pendant l&#39;analyse de la diffusion, tous les appareils qui sont exclus de la cible sont automatiquement ajoutés à la table **excludeLogAppSubRcp**.
 
 >[!NOTE]
->Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
->* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
->* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
->* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
->Adobe Campaign contacte le serveur Baidu toutes les 10 minutes pour récupérer le statut du message envoyé et met à jour les broadlogs. Si un message est déclaré comme envoyé, le statut du message dans les broadlogs est défini sur **[!UICONTROL Reçu]**. Si Baidu déclare une erreur, le statut est défini sur **[!UICONTROL Echoué]**.
+Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
+* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
+* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
+* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
+>
+Adobe Campaign contacte le serveur Baidu toutes les 10 minutes pour récupérer le statut du message envoyé et met à jour les broadlogs. Si un message est déclaré comme envoyé, le statut du message dans les broadlogs est défini sur **[!UICONTROL Reçu]**. Si Baidu déclare une erreur, le statut est défini sur **[!UICONTROL Echoué]**.
 
 **Pour Android V2**
 
@@ -475,7 +472,7 @@ Le mécanisme de mise en quarantaine d’Android V2 utilise le même processus 
 Le mécanisme de quarantaine des messages SMS est globalement identique au processus général. Voir [À propos des quarantaines](#about-quarantines). Les spécificités des SMS sont énumérées ci-dessous.
 
 >[!NOTE]
->Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
+Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
 
 <table> 
  <tbody> 
@@ -533,8 +530,8 @@ Le connecteur SMPP récupère les données du message du SR (rapport d&#39;état
 Avant qu&#39;un nouveau type d&#39;erreur ne soit qualifié, la raison de l&#39;échec est toujours défini sur **Refusé** par défaut.
 
 >[!NOTE]
->Les raisons et les types des échecs sont les mêmes que pour les emails. Pour plus d&#39;informations, consultez la section [Types de diffusion en échec et raisons](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
->Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
+Les raisons et les types des échecs sont les mêmes que pour les emails. Pour plus d&#39;informations, consultez la section [Types de diffusion en échec et raisons](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
 
 Exemple de message généré :
 

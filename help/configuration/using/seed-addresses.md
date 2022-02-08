@@ -2,13 +2,11 @@
 product: campaign
 title: Adresses de contrôle
 description: Adresses de contrôle
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 100%
 
 ---
@@ -44,7 +42,7 @@ Définition du schéma étendu de la table des destinataires :
 
 Les étapes sont les suivantes :
 
-1. Créez une extension du schéma **nms:seedMember**. Voir à ce sujet la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md).
+1. Créez une extension du schéma **nms:seedMember**. Pour plus d’informations, consultez [cette section](../../configuration/using/extending-a-schema.md).
 1. Dans cette extension, ajoutez un nouvel élément à la racine de l&#39;élément **[!UICONTROL seedMember]**, avec les paramètres suivants :
 
    ```
@@ -82,7 +80,7 @@ Les étapes sont les suivantes :
    >    * Dans l’extension **nms:seedMember**, le champ contenant l&#39;adresse email doit avoir comme attribut **name=&quot;email&quot;**. Le nom SQL doit être différent de &#39;sEmail&#39; qui est déjà utilisé pour le schéma des destinataires. Cet attribut doit être immédiatement déclaré sous l’élément **`<element name="custom_cus_person" />`**.
 
 
-1. Modifiez le formulaire **[!UICONTROL seedMember]** en conséquence pour définir un nouvel onglet « Destinataire interne » dans la fenêtre **[!UICONTROL Adresses de contrôle]**. Voir à ce sujet la section [Structure d’un formulaire](../../configuration/using/form-structure.md).
+1. Modifiez le formulaire **[!UICONTROL seedMember]** en conséquence pour définir un nouvel onglet « Destinataire interne » dans la fenêtre **[!UICONTROL Adresses de contrôle]**. Pour plus dʼinformations, consultez [cette page](../../configuration/using/form-structure.md).
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

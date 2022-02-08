@@ -2,11 +2,9 @@
 product: campaign
 title: API orientées données
 description: API orientées données
-audience: configuration
-content-type: reference
-topic-tags: api
+feature: API
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 100%

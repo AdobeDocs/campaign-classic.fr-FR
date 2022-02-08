@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: Création de filtres
-description: Création de filtres
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+description: Découvrez comment créer des filtres pour un tableau personnalisé
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 100%
+source-wordcount: '105'
+ht-degree: 91%
 
 ---
 

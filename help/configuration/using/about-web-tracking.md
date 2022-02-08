@@ -2,11 +2,8 @@
 product: campaign
 title: À propos du tracking web
 description: À propos du tracking web
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%

@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Choisir un mapping de ciblage
-description: Choisir un mapping de ciblage
-audience: delivery
-content-type: reference
-topic-tags: using-delivery-templates
+title: Sélection d’un mapping de ciblage
+description: Découvrez comment cibler le mapping
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
-# Choisir un mapping de ciblage{#selecting-a-target-mapping}
+# Sélection d’un mapping de ciblage{#selecting-a-target-mapping}
 
 ![](../../assets/common.svg)
 
@@ -35,4 +32,4 @@ Ces mappings sont les suivants :
 
 >[!NOTE]
 >
->Vous pouvez créer de nouveaux mapping de ciblage. Cette opération est toutefois réservée à des utilisateurs experts. Pour plus d&#39;informations, consultez le [Guide de configuration](../../configuration/using/target-mapping.md).
+>Vous pouvez également créer de nouveaux mappings de ciblage. Cette opération est réservée à des utilisateurs experts. Pour plus d’informations, consultez [cette section](../../configuration/using/target-mapping.md).

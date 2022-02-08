@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: '"Cas pratique : utiliser la gestion de contenu"'
-description: '"Cas pratique : utiliser la gestion de contenu"'
-audience: delivery
-content-type: reference
-topic-tags: content-management
+title: '"Cas pratique : créer la gestion de contenu"'
+description: '"Cas pratique : créer la gestion de contenu"'
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '1216'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
-# Cas pratique : utiliser la gestion de contenu{#use-case-creating-content-management}
+# Cas pratique : créer la gestion de contenu{#use-case-creating-content-management}
 
 ![](../../assets/common.svg)
 
@@ -24,7 +21,7 @@ Pour créer une gestion de contenu dans Adobe Campaign, les étapes de réalisa
 * [Etape 3 - Créer le formulaire de saisie](#step-3---creating-the-input-form),
 * [Etape 4 - Créer le modèle de construction](#step-4---creating-the-construction-template),
 * [Etape 5 - Créer le modèle de publication](#step-5---creating-the-publication-template),
-* [Etape 6 - Créer les contenus](#step-6---creating-contents).
+* [Etape 6 - Créer le contenu](#step-6---creating-contents).
 
 ## Etape 1 - Analyser le contenu à produire {#step-1---analyzing-the-content-to-be-produced}
 
@@ -326,7 +323,7 @@ Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les 
    </html>
    ```
 
-   L&#39;appel à une fonction en début de template permet de mettre en forme l&#39;appel à des données de personnalisation issues de la base de données Adobe Campaign (ici : recipient.firstName et recipient.lastName), afin qu&#39;elles soient interprétées lors de leur utilisation dans une diffusion. Voir à ce sujet à la section [Inclusion d&#39;un template JavaScript](formatting.md#including-a-javascript-template).
+   L&#39;appel à une fonction en début de template permet de mettre en forme l&#39;appel à des données de personnalisation issues de la base de données Adobe Campaign (ici : recipient.firstName et recipient.lastName), afin qu&#39;elles soient interprétées lors de leur utilisation dans une diffusion. Voir à ce sujet la section [Inclure un modèle JavaScript](formatting.md#including-a-javascript-template).
 
    Dans notre exemple, la fonction contiendra le code suivant :
 
@@ -375,15 +372,15 @@ Pour notre exemple, les étapes sont les suivantes :
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer le modèle de publication.
 
-## Etape 6 - Créer les contenus {#step-6---creating-contents}
+## Etape 6 - Créer le contenu {#step-6---creating-contents}
 
 Vous pouvez enfin créer des contenus à partir de ce modèle de publication.
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur la création de contenu, voir [Utiliser un modèle de contenu](using-a-content-template.md).
+>Pour plus d&#39;informations sur la création de contenu, reportez-vous à la section [Utiliser un modèle de contenu](using-a-content-template.md).
 
-### Créer un contenu dans l&#39;assistant de diffusion {#creating-content-in-the-delivery-wizard}
+### Créer du contenu dans l&#39;assistant de diffusion {#creating-content-in-the-delivery-wizard}
 
 Pour créer un contenu directement dans les diffusions, la procédure est la suivante :
 

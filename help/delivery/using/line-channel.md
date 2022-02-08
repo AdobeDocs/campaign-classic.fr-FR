@@ -1,15 +1,13 @@
 ---
 product: campaign
-title: Canal LINE
-description: Canal LINE
-audience: delivery
-content-type: reference
-topic-tags: sending-messages-on-mobiles
+title: Création de diffusions LINE
+description: Découvrez comment créer des messages LINE
+feature: Line App
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: ad75b8050133b331f6fbfa5042a444a874ba3cb4
-workflow-type: ht
-source-wordcount: '1315'
-ht-degree: 100%
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+workflow-type: tm+mt
+source-wordcount: '1320'
+ht-degree: 99%
 
 ---
 

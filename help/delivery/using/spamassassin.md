@@ -2,22 +2,17 @@
 product: campaign
 title: SpamAssassin
 description: Découvrez comment configurer la détection des messages indésirables avec SpamAssassin
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # SpamAssassin{#spamassassin}
 
 ![](../../assets/common.svg)
-
-## À propos de SpamAssassin {#about-spamassassin}
 
 Adobe Campaign peut être configuré pour fonctionner avec [SpamAssassin](https://spamassassin.apache.org), service tiers destiné à filtrer les emails indésirables. Vous pouvez ainsi attribuer un score aux emails et déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spams utilisés à sa réception.
 
@@ -35,7 +30,7 @@ SpamAssassin utilise diverses techniques de détection des emails indésirables,
 >
 >Les règles qui déterminent si un élément est indésirable ou non sont gérées par SpamAssassin et peuvent être éditées par un administrateur disposant de privilèges.
 
-## Utilisation de SpamAssassin {#using-spamassassin}
+## Utilisation de SpamAssassin dans Campaign {#using-spamassassin}
 
 Une fois que vous avez créé votre email et défini son contenu, suivez les étapes ci-après pour évaluer les risques.
 

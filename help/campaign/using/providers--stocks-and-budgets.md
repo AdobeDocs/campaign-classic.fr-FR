@@ -2,11 +2,9 @@
 product: campaign
 title: Prestataires, stocks et budgets
 description: Prestataires, stocks et budgets
-audience: campaign
-content-type: reference
-topic-tags: orchestrate-campaigns
+feature: Budget Management
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 100%

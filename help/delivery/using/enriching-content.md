@@ -2,11 +2,8 @@
 product: campaign
 title: Enrichir le contenu
 description: Enrichir le contenu
-audience: delivery
-content-type: reference
-topic-tags: content-management
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 100%

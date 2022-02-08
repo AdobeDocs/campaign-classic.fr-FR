@@ -2,11 +2,9 @@
 product: campaign
 title: Création d'une liste de profils avec un workflow
 description: Découvrez comment créer une liste de profils dans un workflow
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+feature: Workflows
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%

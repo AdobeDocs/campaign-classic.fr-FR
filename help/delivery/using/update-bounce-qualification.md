@@ -1,12 +1,9 @@
 ---
 product: campaign
 title: Mettre à jour la qualification des rebonds après une panne d'un FAI
-description: Découvrez comment mettre à jour la qualification des rebonds après une panne d'un fournisseur d'accès à Internet.
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+description: Découvrez comment mettre à jour la qualification des rebonds après une panne d'un fournisseur d'accès à Internet
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: cee019432c64eaaefac86a27b731355242fd1555
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%

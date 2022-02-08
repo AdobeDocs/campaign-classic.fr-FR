@@ -2,11 +2,10 @@
 product: campaign
 title: À propos des typologies de campagne
 description: À propos des typologies de campagne
-audience: campaign
-content-type: reference
+feature: Typology Rules
 topic-tags: campaign-optimization
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 100%

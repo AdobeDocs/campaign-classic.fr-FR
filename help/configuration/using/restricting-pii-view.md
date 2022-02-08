@@ -2,11 +2,9 @@
 product: campaign
 title: Limitation de l'affichage des PII
 description: Limitation de l'affichage des PII
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+feature: PI
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%

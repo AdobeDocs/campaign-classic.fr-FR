@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: Contenu conditionnel
-description: Contenu conditionnel
-audience: delivery
-content-type: reference
-topic-tags: personalizing-deliveries
+description: Découvrez comment ajouter du contenu conditionnel
+feature: Personalization
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +20,7 @@ En configurant des champs de contenu conditionnel, vous pouvez créer une person
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#conditionnal-content-video)
 
 
-## Utiliser des conditions dans un email {#using-conditions-in-an-email}
+## Conditions d’utilisation d’un email {#using-conditions-in-an-email}
 
 Dans l&#39;exemple ci-dessous, vous allez découvrir comment créer de manière dynamique un message personnalisé selon le genre et les centres d&#39;intérêt du destinataire.
 

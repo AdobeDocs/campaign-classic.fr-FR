@@ -2,11 +2,8 @@
 product: campaign
 title: Comment configurer des liens suivis
 description: Comment configurer des liens suivis
-audience: delivery
-content-type: reference
-topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 100%

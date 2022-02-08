@@ -2,11 +2,8 @@
 product: campaign
 title: Points d’entrée réseau Campaign
 description: Points d’entrée réseau Campaign
-audience: installation
-content-type: reference
-topic-tags: additional-configurations
 exl-id: 027ed2b6-365f-434f-9a18-2140512168e9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 100%

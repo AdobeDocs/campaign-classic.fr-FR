@@ -2,10 +2,9 @@
 product: campaign
 title: Utilisation de modèles de diffusion
 audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+feature: Delivery Templates
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 100%

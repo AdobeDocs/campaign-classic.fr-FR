@@ -1,14 +1,13 @@
 ---
 product: campaign
 title: Optimisation de la diffusion des messages
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: Découvrez comment optimiser la diffusion de vos messages
+feature: Deliverability
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 100%
+source-wordcount: '746'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +33,7 @@ Plusieurs facteurs peuvent avoir une incidence directe sur les performances du s
 
 * Si vous êtes éligible, vous pouvez tirer profit des [fonctionnalités du Panneau de contrôle de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr) pour surveiller votre plateforme à l’aide des fonctionnalités de [suivi des performances](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr).
 
-## Vérifier la configuration du réseau {#network-config}
+## Vérification de la configuration réseau {#network-config}
 
 Pour optimiser une diffusion lors d&#39;un envoi en masse et éviter d&#39;être pris pour un spammeur, vérifiez que vous disposez d&#39;une configuration réseau correcte qui ne cherche pas à cacher des informations.
 

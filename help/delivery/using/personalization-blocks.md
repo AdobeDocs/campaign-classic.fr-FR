@@ -1,15 +1,13 @@
 ---
 product: campaign
-title: Blocs de personnalisation
-description: Blocs de personnalisation
-audience: delivery
-content-type: reference
-topic-tags: personalizing-deliveries
+title: 'Blocs de personnalisation '
+description: Découvrez comment utiliser les blocs de personnalisation
+feature: Personalization
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 100%
+source-wordcount: '969'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +21,7 @@ Ces blocs de personnalisation sont dynamiques, personnalisés et possèdent un r
 
 Les blocs de personnalisation sont accessibles notamment à partir du nœud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de l&#39;explorateur Adobe Campaign. Plusieurs blocs sont disponibles par défaut (voir [Blocs de personnalisation d&#39;usine](#out-of-the-box-personalization-blocks)).
 
-Vous pouvez définir de nouveaux blocs qui vous permettront d&#39;optimiser la personnalisation de vos diffusions. Voir à ce sujet la section [Définir des blocs de personnalisation personnalisés](#defining-custom-personalization-blocks).
+Vous pouvez définir de nouveaux blocs qui vous permettront d&#39;optimiser la personnalisation de vos diffusions. Voir à ce sujet la section [Définition de blocs de personnalisation personnalisés](#defining-custom-personalization-blocks).
 
 >[!NOTE]
 >
@@ -38,7 +36,7 @@ Pour insérer un bloc de personnalisation dans un message, procédez comme suit�
 
    ![](assets/s_ncs_user_personalized_block01.png)
 
-1. Le menu **[!UICONTROL Autre...]** donne accès à tous les blocs de personnalisation d&#39;usine et personnalisés (voir [Blocs de personnalisation d&#39;usine](#out-of-the-box-personalization-blocks) et [Définir des blocs de personnalisation personnalisés](#defining-custom-personalization-blocks)).
+1. Le **[!UICONTROL Autre...]** donne accès à tous les blocs de personnalisation d’usine et personnalisés (voir [Blocs de personnalisation d&#39;usine](#out-of-the-box-personalization-blocks) et [Définition de blocs de personnalisation personnalisés](#defining-custom-personalization-blocks)).
 
    ![](assets/s_ncs_user_personalized_block02.png)
 
@@ -70,7 +68,7 @@ Pour ce faire, nous devons insérer les blocs de personnalisation suivants :
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur la génération des pages miroir, voir [Générer la page miroir](sending-messages.md#generating-the-mirror-page).
+>Pour plus d&#39;informations sur la génération des pages miroir, reportez-vous à la section [Générer la page miroir](sending-messages.md#generating-the-mirror-page).
 
 1. Créez une nouvelle diffusion ou ouvrez une diffusion existante de type email.
 1. Dans l&#39;assistant de diffusion, cliquez sur le lien **[!UICONTROL Objet]** pour éditer l&#39;objet du message et saisir un objet.
@@ -102,7 +100,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 
    >[!NOTE]
    >
-   >Pour plus d&#39;informations sur la génération des pages miroir, voir [Générer la page miroir](sending-messages.md#generating-the-mirror-page).
+   >Pour plus d&#39;informations sur la génération des pages miroir, reportez-vous à la section [Générer la page miroir](sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Lien vers la page miroir]** : insère un lien vers la page miroir : « Si vous ne parvenez pas à voir correctement ce message, cliquez ici. ».
 * **[!UICONTROL Lien de désinscription]** : insère un lien permettant de se désabonner de toutes les diffusions (liste bloquée).
@@ -120,7 +118,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 * **[!UICONTROL Style des emails de contenu]** et **[!UICONTROL Style de notification]** : génèrent un code permettant de formater un email avec les styles HTML par défaut. Ces blocs doivent être insérés dans le code source de la diffusion, dans la section **[!UICONTROL ...]**, dans les balises **`<style>...</style>`**.
 * **[!UICONTROL URL d&#39;acceptation d&#39;une offre en mode unitaire]** : insère une URL permettant de définir une offre d&#39;interaction comme étant **[!UICONTROL Acceptée]** (voir [cette section](../../interaction/using/offer-analysis-report.md)).
 
-## Définir des blocs de personnalisation personnalisés {#defining-custom-personalization-blocks}
+## Définition de blocs de personnalisation personnalisés {#defining-custom-personalization-blocks}
 
 Vous pouvez définir de nouveaux champs de personnalisation qui pourront être insérés à partir de l&#39;icône des champs personnalisés via le menu **[!UICONTROL Inclure...]**. Ces champs sont définis dans des blocs de personnalisation.
 

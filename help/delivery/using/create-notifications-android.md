@@ -2,11 +2,9 @@
 product: campaign
 title: Créer une notification push pour les appareils Android
 description: Découvrez comment créer des notifications push pour Android
-audience: delivery
-content-type: reference
-topic-tags: sending-push-notifications
+feature: Push
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 100%

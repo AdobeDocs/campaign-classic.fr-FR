@@ -1,12 +1,10 @@
 ---
 product: campaign
 title: À propos de la référence de schéma dans Adobe Campaign Classic
-description: Découvrez comment configurer des schémas d’extension afin d’étendre le modèle de données conceptuel de la base de données Adobe Campaign Classic.
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+description: Découvrez comment configurer des schémas d’extension afin d’étendre le modèle de données conceptuel de la base de données Adobe Campaign Classic
+feature: Schema Extension
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%

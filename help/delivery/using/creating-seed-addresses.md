@@ -2,18 +2,16 @@
 product: campaign
 title: Créer des adresses de contrôle
 description: Découvrez comment créer et utiliser des adresses de contrôle
-audience: delivery
-content-type: reference
-topic-tags: using-seed-addresses
+feature: Seed Address
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
-# Créer des adresses de contrôle{#creating-seed-addresses}
+# Création d’adresses de contrôle{#creating-seed-addresses}
 
 ![](../../assets/common.svg)
 
@@ -60,4 +58,4 @@ Pour définir un dossier de modèle, la procédure est la suivante :
 
    ![](assets/s_ncs_user_seedlist_folder_is_model.png)
 
-   Les adresses stockées dans ce dossier pourront ainsi être utilisées comme des modèles d&#39;adresses. Vous pouvez les importer dans des diffusions ou des campagnes et les adapter en fonction des besoins spécifiques des livraisons et campagnes concernées (voir [Ajouter des adresses de contrôle](adding-seed-addresses.md)).
+   Les adresses stockées dans ce dossier pourront ainsi être utilisées comme des modèles d&#39;adresses. Vous pouvez les importer dans des diffusions ou des campagnes et les adapter en fonction des besoins spécifiques des diffusions et campagnes concernées (voir [Ajouter des adresses de contrôle](adding-seed-addresses.md)).

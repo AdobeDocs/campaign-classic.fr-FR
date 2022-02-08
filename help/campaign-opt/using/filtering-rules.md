@@ -1,19 +1,17 @@
 ---
 product: campaign
 title: Règles de filtrage
-description: Règles de filtrage
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
+description: Découvrez comment utiliser les règles de filtrage
+feature: Typology Rules
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '528'
+ht-degree: 96%
 
 ---
 
-# Règles de filtrage {#filtering-rules}
+# Règles de filtrage{#filtering-rules}
 
 ![](../../assets/common.svg)
 
@@ -21,7 +19,7 @@ Les règles de filtrage permettent de définir les messages à exclure en foncti
 
 Les règles de filtrage peuvent être associées à d&#39;autres types de règles (contrôle, pression, etc.) dans des typologies, ou regroupées dans une typologie dédiée de type **Filtrage**. Pour plus d&#39;informations, voir la section [Créer et utiliser une typologie de filtrage](#creating-and-using-a-filtering-typology).
 
-## Créer une règle de filtrage      {#creating-a-filtering-rule}
+## Créer une règle de filtrage {#creating-a-filtering-rule}
 
 Vous pouvez par exemple filtrer les abonnés à vos newsletters afin de ne jamais adresser de communications aux inscrits mineurs.
 
@@ -47,7 +45,7 @@ Lorsque cette règle est utilisée dans une diffusion, les abonnés mineurs sont
 
 ![](assets/campaign_opt_create_filter_05.png)
 
-## Traiter une règle de filtrage {#conditioning-a-filtering-rule}
+## Condition d’une règle de filtrage {#conditioning-a-filtering-rule}
 
 Vous pouvez restreindre le champ d&#39;application de la règle de filtrage en fonction de la diffusion ou de la composition de diffusion associée.
 

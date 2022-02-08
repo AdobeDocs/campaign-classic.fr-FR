@@ -1,14 +1,12 @@
 ---
 product: campaign
 title: Statuts de diffusion
-description: En savoir plus sur les statuts disponibles sur votre tableau de bord de diffusion.
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+description: En savoir plus sur les statuts disponibles sur votre tableau de bord de diffusion
+feature: Monitoring
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '642'
 ht-degree: 100%
 
 ---
@@ -31,7 +29,7 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
 
 * [Tableau de bord de la diffusion](delivery-dashboard.md)
 * [Résolution des problèmes liés aux diffusions](delivery-troubleshooting.md)
-* [À propos de la délivrabilité](about-deliverability.md)
+* [Prise en main de la délivrabilité](about-deliverability.md)
 
 ## Liste des statuts de diffusion {#list-delivery-statuses}
 

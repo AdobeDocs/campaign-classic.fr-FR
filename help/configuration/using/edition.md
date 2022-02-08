@@ -2,16 +2,14 @@
 product: campaign
 title: Edition
 description: Edition
-audience: configuration
-content-type: reference
-topic-tags: navigation-hierarchy
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
+
 
 # Modification de l’arborescence de navigation de l’Explorateur Campaign{#edition}
 

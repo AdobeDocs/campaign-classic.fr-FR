@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Insertion des balises sur votre site
-description: Insertion des balises sur votre site
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
+title: Inser des balises de suivi web sur votre site
+description: Découvrez comment insérer des balises de tracking Web sur votre site
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 100%
+source-wordcount: '328'
+ht-degree: 92%
 
 ---
 
-# Insertion des balises sur votre site{#inserting-tags-in-your-site}
+# Insérer des balises de tracking web sur votre site{#inserting-tags-in-your-site}
 
 ![](../../assets/v7-only.svg)
 

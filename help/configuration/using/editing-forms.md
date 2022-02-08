@@ -2,11 +2,8 @@
 product: campaign
 title: Modification de formulaires
 description: Modification de formulaires
-audience: configuration
-content-type: reference
-topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: daecbdecde0b80b47c113acc80618aee314c5434
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 100%

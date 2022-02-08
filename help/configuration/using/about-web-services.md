@@ -2,11 +2,9 @@
 product: campaign
 title: À propos des services web
 description: À propos des services web
-audience: configuration
-content-type: reference
-topic-tags: api
+feature: API
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%

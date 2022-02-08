@@ -2,11 +2,9 @@
 product: campaign
 title: Appels Web Service
 description: Appels Web Service
-audience: configuration
-content-type: reference
-topic-tags: api
+feature: API
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 100%

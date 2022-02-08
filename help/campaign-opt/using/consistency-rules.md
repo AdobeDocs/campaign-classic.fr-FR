@@ -2,14 +2,11 @@
 product: campaign
 title: Règles de cohérence
 description: Règles de cohérence
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -21,9 +18,9 @@ ht-degree: 100%
 
 Adobe Campaign permet d&#39;assurer la cohérence des communications au travers d&#39;un ensemble de règles regroupées dans des typologies de campagne. Ces règles ont pour objectif d&#39;assurer un contrôle sur les diffusions envoyées aux destinataires, leur volume, leur nature, leur pertinence, etc.
 
-Des règles de **capacité** peuvent par exemple éviter de surcharger la plateforme concernée par la diffusion. Par exemple, une offre spéciale contenant un lien de téléchargement ne doit pas s’adresser au même moment à une population trop nombreuse afin de ne pas saturer le serveur, une campagne téléphonique ne doit pas excéder la capacité de traitement du centre d’appels, etc. Pour plus d&#39;informations, consultez la section [Contrôler la capacité](#controlling-capacity).
+Des règles de **capacité** peuvent par exemple éviter de surcharger la plateforme concernée par la diffusion. Par exemple, une offre spéciale contenant un lien de téléchargement ne doit pas s’adresser au même moment à une population trop nombreuse afin de ne pas saturer le serveur, une campagne téléphonique ne doit pas excéder la capacité de traitement du centre d’appels, etc. Voir à ce sujet la section [Capacité de contrôle](#controlling-capacity).
 
-## Contrôler la capacité {#controlling-capacity}
+## Capacité de contrôle {#controlling-capacity}
 
 Avant de diffuser des messages, vous devez vous assurer que votre organisation a la capacité de gérer l&#39;envoi (infrastructure matérielle), les réponses que la diffusion peut générer (messages entrants), le nombre d&#39;appels à assurer pour contacter les abonnés (capacités de traitement du centre d&#39;appels), etc.
 
@@ -55,9 +52,9 @@ Pour créer une règle de capacité, procédez comme suit :
 
    Voir à ce propos [cette section](#monitoring-consumption).
 
-## Définir la charge maximale {#defining-the-maximum-load}
+## Définition de la charge maximale {#defining-the-maximum-load}
 
-Pour définir la charge maximale, vous devez définir les lignes de disponibilité. Pour ce faire, deux options sont disponibles : vous pouvez créer manuellement une ou plusieurs lignes de disponibilité (voir la section [Ajouter unitairement les lignes de disponibilité](#adding-availability-lines-one-by-one)) ou créer des plages de disponibilité. Il est possible d’automatiser la fréquence de ces périodes (voir la section [Ajouter un ensemble de lignes de disponibilité](#add-a-set-of-availability-lines)).
+Pour définir la charge maximale, vous devez définir les lignes de disponibilité. Pour ce faire, deux options sont disponibles : vous pouvez créer manuellement une ou plusieurs lignes de disponibilité (voir [Ajouter unitairement les lignes de disponibilité](#adding-availability-lines-one-by-one)) ou créer des plages de disponibilité. Il est possible d’automatiser la fréquence de ces périodes (voir la section [Ajouter un ensemble de lignes de disponibilité](#add-a-set-of-availability-lines)).
 
 ### Ajouter unitairement les lignes de disponibilité {#adding-availability-lines-one-by-one}
 
@@ -113,7 +110,7 @@ Le nombre de messages à traiter est réparti proportionnellement sur la totalit
 
 ![](assets/campaign_opt_create_capacity_06.png)
 
-## Suivre les consommations {#monitoring-consumption}
+## Surveiller la consommation {#monitoring-consumption}
 
 Par défaut, les règles de capacité n&#39;ont qu&#39;un caractère indicatif. Sélectionnez l&#39;option **[!UICONTROL Exclure de la cible les messages en sur-capacité]** pour que la charge définie ne puisse pas être dépassée. Dans ce cas, les messages excédentaires seront automatiquement exclus des diffusions utilisant cette règle de typologie.
 

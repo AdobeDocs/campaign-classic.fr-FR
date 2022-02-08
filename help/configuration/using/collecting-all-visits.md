@@ -2,11 +2,8 @@
 product: campaign
 title: Collecter toutes les visites
 description: Collecter toutes les visites
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%

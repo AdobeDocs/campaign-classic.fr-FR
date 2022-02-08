@@ -1,14 +1,11 @@
 ---
 product: campaign
-title: Résolution des problèmes
-description: En savoir plus sur les performances des diffusions et comment résoudre les problèmes liés au monitoring des diffusions.
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+title: Résolution des problèmes liés à l'envoi de diffusions
+description: En savoir plus sur les performances des diffusions et comment résoudre les problèmes liés au monitoring des diffusions
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '799'
 ht-degree: 100%
 
 ---

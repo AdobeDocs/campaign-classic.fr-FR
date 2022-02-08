@@ -1,15 +1,13 @@
 ---
 product: campaign
-title: À propos de la délivrabilité dans Campaign 
+title: Prise en main de la délivrabilité dans Campaign
 description: Découvrir les bonnes pratiques en matière de délivrabilité
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
+feature: Deliverability
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '724'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +44,7 @@ Avec Adobe Campaign, le taux de délivrabilité dépend de nombreux facteurs, p
 * Votre réputation d’adresse IP : consultez la section [Stratégie IP](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#ip-strategy).
 * Qualité des adresses ciblées : consultez la section [Gestion des quarantaines](optimize-delivery.md#quarantine-management).
 * Le faible taux de [plaintes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr) et de [hard bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#hard-bounces).
-* Le contenu de votre message : consultez la section [Contrôle du contenu des emails](control-message-content.md).
+* Contenu de votre message : see [Contrôler le contenu de l&#39;email](control-message-content.md).
 * Authentification des messages (SPF, DKIM, DMARC) : consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#authentication).
 * Réputation de l&#39;expéditeur : pour savoir comment les principaux FAI évaluent la réputation d&#39;un expéditeur, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=fr).
 
@@ -60,7 +58,7 @@ Adobe Campaign fournit différents outils pour suivre et améliorer les perform
 Lors de la configuration, de la conception et du test de votre message, assurez-vous de suivre les bonnes pratiques mentionnées dans les sections ci-dessous. Tirer parti de toutes les fonctionnalités d&#39;Adobe Campaign contribue à améliorer la délivrabilité.
 
 * [Bonnes pratiques relatives à la diffusion](delivery-best-practices.md)
-* [Contrôle du contenu des e-mails](control-message-content.md)
+* [Contrôler le contenu de l&#39;email](control-message-content.md)
 * [Inbox rendering](inbox-rendering.md)
 * [Envoyer un bon à tirer](steps-validating-the-delivery.md#sending-a-proof)
 
@@ -82,8 +80,8 @@ Certains fournisseurs d&#39;accès Internet considèrent automatiquement les ema
 
 Voir à ce propos les sections suivantes :
 
-* [Comprendre les échecs de diffusion](understanding-delivery-failures.md)
-* [Comprendre la gestion des quarantaines](understanding-quarantine-management.md)
+* [Présentation des diffusions en échec](understanding-delivery-failures.md)
+* [Présentation de la gestion des quarantaines](understanding-quarantine-management.md)
 * [Quarantaine et liste bloquée](understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ### Utilisation des outils de surveillance et de reporting
@@ -94,25 +92,6 @@ Adobe Campaign permet de vérifier les performances de vos diffusions et de les
 
 Voir à ce propos les sections suivantes :
 
-* [Surveillance de la délivrabilité](monitoring-deliverability.md)
-* [À propos du suivi des diffusions](about-delivery-monitoring.md)
-* [À propos des rapports natifs de Campaign](../../reporting/using/about-campaign-built-in-reports.md)
-
-<!--TO REMOVE
-## Background {#background}
-
-Email deliverability presents a major challenge to marketers - whether they're sending a few thousand messages or several billion. One in five messages never reach the inbox, or their intended recipient.
-
-Once relegated as a "technical issue" for the IT department, email deliverability continues to move higher on the marketing agenda. That's because savvy marketers recognize that although many of its elements are technical in nature, deliverability is ultimately a business issue with significant revenue implications.
-
-Consider the email marketing funnel. Deliverability determines the number of messages received, which in turn impacts each subsequent stage of the funnel. Fewer emails received results in fewer opens, fewer clicks, and fewer conversions. **For companies with a large database, the difference between average and great deliverability could literally mean hundreds of thousands to millions of dollars in revenues.**
-
-![](assets/deliverability_overview_1.png)
-
-By settling for average (80%) deliverability, marketers are leaving significant conversions - and dollars - on the table.
-
-What exactly is email deliverability? And how can marketers improve deliverability rates to widen the mouth of the funnel and squeeze more results from their email campaigns?
-
-Email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal email address, within a short time, and with the expected quality in terms of content and format. These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program. This overview outlines the four fundamentals of email deliverability success and offers best practices for reaching the inbox and driving greater revenues from email marketing programs.
-
-![](assets/deliverability_overview_2.png)-->
+* [Contrôle de la délivrabilité](monitoring-deliverability.md)
+* [Prise en main du monitoring de diffusion](about-delivery-monitoring.md)
+* [Prise en main des rapports natifs de Campaign](../../reporting/using/about-campaign-built-in-reports.md)

@@ -1,23 +1,19 @@
 ---
 product: campaign
 title: Définir la population cible
-description: Définir la population cible
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+description: En savoir plus sur la définition de la population cible
+feature: Audiences
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '1746'
-ht-degree: 100%
+source-wordcount: '1745'
+ht-degree: 95%
 
 ---
 
 # Définir la population cible {#defining-the-target-population}
 
 ![](../../assets/common.svg)
-
-## À propos des populations cibles {#about-target-populations}
 
 Pour chaque diffusion, vous pouvez définir plusieurs types de populations cible :
 
@@ -26,7 +22,7 @@ Pour chaque diffusion, vous pouvez définir plusieurs types de populations cible
 * **Adresses de contrôle** : destinataires ne figurant pas dans la cible mais qui recevront la diffusion (uniquement dans le cadre d’une campagne de marketing). [En savoir plus](about-seed-addresses.md)
 * **Populations témoins** : population qui ne recevra pas la diffusion, servant à suivre le comportement et l’impact de la campagne (uniquement dans le cadre d’une campagne de marketing). [En savoir plus](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 
-## Sélection des principaux destinataires de la diffusion {#selecting-the-main-target}
+## Sélectionner les principaux destinataires de la diffusion {#selecting-the-main-target}
 
 Dans la plupart des cas, la cible principale est extraite de la base de données Adobe Campaign (mode par défaut). Cependant, il est également possible de stocker les destinataires dans un fichier externe. En savoir plus dans [cette section](steps-defining-the-target-population.md#selecting-external-recipients).
 
@@ -39,7 +35,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
 1. Sélectionnez le mapping de ciblage dans la liste déroulante **[!UICONTROL Mapping de ciblage]** . Le mapping de ciblage par défaut d&#39;Adobe Campaign est **[!UICONTROL Destinataire]**, selon le schéma **nms:destinataire**.
 
-   D’autres mappings de ciblage sont disponibles et certains d’entre eux peuvent être liés à votre configuration spécifique. Pour plus d’informations sur les mappings de ciblage, voir la section [Choisir un mapping de ciblage](selecting-a-target-mapping.md).
+   D’autres mappings de ciblage sont disponibles et certains d’entre eux peuvent être liés à votre configuration spécifique. Pour plus d’informations sur les mappings de ciblage, reportez-vous à la section [Sélectionner un mapping de ciblage](selecting-a-target-mapping.md).
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour définir les filtres de restriction.
 
@@ -87,7 +83,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
    ![](assets/s_ncs_user_wizard_email02h.png)
 
-### Sélectionner les destinataires externes {#selecting-external-recipients}
+### Sélection de destinataires externes {#selecting-external-recipients}
 
 Vous pouvez choisir de lancer une diffusion sur des destinataires non enregistrés dans la base mais stockés dans un fichier externe. Nous allons par exemple envoyer ici une diffusion à des destinataires importés depuis un fichier texte.
 
@@ -98,7 +94,7 @@ Pour cela :
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. Par défaut, les destinataires sont importés dans la base de données. Vous devez sélectionner le **[!UICONTROL Mapping de ciblage]**. Pour plus d’informations sur les mappings de ciblage, voir la section [Choisir un mapping de ciblage](selecting-a-target-mapping.md).
+1. Par défaut, les destinataires sont importés dans la base de données. Vous devez sélectionner le **[!UICONTROL Mapping de ciblage]**. Pour plus d’informations sur les mappings de ciblage, reportez-vous à la section [Sélectionner un mapping de ciblage](selecting-a-target-mapping.md)
 
    Vous pouvez également sélectionner **[!UICONTROL Ne pas importer les destinataires dans la base]**.
 
@@ -112,7 +108,7 @@ Pour cela :
 >
 >Lors de la définition du contenu du message, pour une diffusion email, vous ne devez pas inclure de lien vers la page miroir : elle ne pourra pas être générée dans ce mode de diffusion.
 
-### Configuration des paramètres d’exclusion {#customizing-exclusion-settings}
+### Définition des paramètres d’exclusion {#define-exclusion-settings}
 
 Les erreurs sur les adresses ainsi que l&#39;indice de qualité des adresses sont communiqués par le prestataire (FAI). Ces informations sont mises à jour automatiquement dans le profil du destinataire suite aux actions de diffusion et au chargement des fichiers de retour en provenance du prestataire. Elles sont consultables dans le profil, mais ne peuvent être modifiées.
 
@@ -152,7 +148,7 @@ Les options disponibles sont les suivantes :
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur la gestion des quarantaines, voir la section [Comprendre la gestion des quarantaines](understanding-quarantine-management.md).
+   >Pour plus d&#39;informations sur la gestion des quarantaines, reportez-vous à la section [Présentation de la gestion des quarantaines](understanding-quarantine-management.md).
 
 * **[!UICONTROL Limiter la diffusion]** à un nombre donné de messages. Cette option permet de saisir le nombre maximal de messages à envoyer. Si le contenu de la cible est supérieur au nombre de messages indiqué, une sélection aléatoire est appliquée sur la cible.
 
@@ -162,7 +158,7 @@ Vous pouvez réduire la taille de la population cible. Pour ce faire, indiquez l
 
 ![](assets/s_ncs_user_edit_del_exe_tab.png)
 
-## Sélection des destinataires des messages de BAT {#selecting-the-proof-target}
+## Sélectionner les destinataires des messages de BAT {#selecting-the-proof-target}
 
 Le Bon à Tirer (BAT) est un message spécifique qui permet de tester une diffusion avant l&#39;envoi à la cible principale. Les destinataires du BAT sont chargés de la validation du message, tant sur son contenu que sur sa forme.
 
@@ -179,17 +175,17 @@ Pour sélectionner la cible des BAT, procédez comme suit :
 >
 >En règle générale, la cible du BAT peut être ajoutée à la cible principale. Pour cela, cochez l&#39;option correspondante dans la section inférieure de l&#39;onglet **[!UICONTROL Cible principale]**.
 
-## Définir une cible spécifique au BAT {#defining-a-specific-proof-target}
+## Définition d’une cible de BAT spécifique {#defining-a-specific-proof-target}
 
 Lorsque vous sélectionnez la cible du BAT, l&#39;option **[!UICONTROL Définition d&#39;une cible spécifique au BAT]** vous permet de sélectionner les destinataires du BAT parmi les profils de la base de données.
 
-Sélectionnez cette option pour choisir les destinataires via le bouton **[!UICONTROL Ajouter]**, comme pour la définition de la cible principale. Pour plus d&#39;informations, consultez la section [Choisir la cible principale](steps-defining-the-target-population.md#selecting-the-main-target). 
+Sélectionnez cette option pour choisir les destinataires via le bouton **[!UICONTROL Ajouter]**, comme pour la définition de la cible principale. Voir [Sélectionner la cible principale](steps-defining-the-target-population.md#selecting-the-main-target).
 
 ![](assets/s_ncs_user_wizard_email01_143.png)
 
 Pour plus d’informations sur l’envoi de BAT, voir [cette section](steps-validating-the-delivery.md#sending-a-proof).
 
-### Utiliser une substitution de l&#39;adresse dans le BAT {#using-address-substitution-in-proof}
+### Utiliser la substitution des adresses dans le BAT {#using-address-substitution-in-proof}
 
 Au lieu de sélectionner des destinataires dédiés dans la base de données, vous pouvez utiliser l&#39;option **[!UICONTROL Substitution de l&#39;adresse]**.
 
@@ -227,9 +223,9 @@ A l&#39;aide de l&#39;option **[!UICONTROL Cible spécifique et Adresses de cont
 
 Voir aussi :
 
-* [Choisir la cible du BAT](#selecting-the-proof-target)
+* [Sélection de la cible du BAT](#selecting-the-proof-target)
 * [À propos des adresses de contrôle](about-seed-addresses.md)
-* [Cas pratique : sélection des adresses de contrôle selon des critères](use-case--selecting-seed-addresses-on-criteria.md)
+* [Cas d’utilisation : sélection des adresses de contrôle sur critères](use-case--selecting-seed-addresses-on-criteria.md)
 
 ## Tutoriel vidéo {#seeds-and-proofs-video}
 

@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Créer une diffusion depuis un modèle
-description: Créer une diffusion depuis un modèle
-audience: delivery
-content-type: reference
-topic-tags: using-delivery-templates
+title: Création d’une diffusion depuis un modèle
+description: Découvrez comment créer une diffusion à partir d'un modèle
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 84%
 
 ---
 
-# Créer une diffusion depuis un modèle{#creating-a-delivery-from-a-template}
+# Création d’une diffusion depuis un modèle{#creating-a-delivery-from-a-template}
 
 ![](../../assets/common.svg)
 
@@ -45,4 +42,4 @@ Cette action crée une diffusion dans le dossier attaché au modèle. Le nom de 
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur la configuration d&#39;une diffusion, voir [Définir le contenu de l&#39;email](defining-the-email-content.md).
+>Pour plus d’informations sur la configuration d’une diffusion, voir [Définir le contenu de l&#39;email](defining-the-email-content.md).

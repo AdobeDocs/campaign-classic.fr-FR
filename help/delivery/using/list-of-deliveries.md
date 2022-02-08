@@ -1,12 +1,9 @@
 ---
 product: campaign
 title: Accès à la liste des diffusions
-description: En savoir plus sur l'accès à la liste des diffusions créées.
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+description: En savoir plus sur l'accès à la liste des diffusions créées
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%

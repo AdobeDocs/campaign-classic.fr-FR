@@ -2,13 +2,10 @@
 product: campaign
 title: Marketing viral et réseaux sociaux
 description: Marketing viral et réseaux sociaux
-audience: delivery
-content-type: reference
-topic-tags: subscriptions-and-referrals
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '608'
 ht-degree: 100%
 
 ---
@@ -16,8 +13,6 @@ ht-degree: 100%
 # Marketing viral et réseaux sociaux{#viral-and-social-marketing}
 
 ![](../../assets/common.svg)
-
-## À propos du marketing viral {#about-viral-marketing}
 
 Adobe Campaign permet de mettre en place les outils favorisant le marketing viral.
 

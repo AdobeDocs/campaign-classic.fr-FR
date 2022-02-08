@@ -1,19 +1,17 @@
 ---
 product: campaign
 title: À propos de la délivrabilité dans Adobe Campaign Classic
-description: En savoir plus sur la gestion de la délivrabilité dans Adobe Campaign Classic.
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
+description: En savoir plus sur la gestion de la délivrabilité dans Adobe Campaign
+feature: Deliverability
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 100%
+source-wordcount: '772'
+ht-degree: 97%
 
 ---
 
-# Contrôler le contenu de votre message{#control-message-content}
+# Contrôlez le contenu de votre message{#control-message-content}
 
 ![](../../assets/common.svg)
 
@@ -31,7 +29,7 @@ Pour obtenir des conseils supplémentaires sur l’optimisation de la délivrabi
 
 >[!NOTE]
 >
->Pour plus d’informations sur la modification du contenu des emails, voir [Définition du contenu de l’email](defining-the-email-content.md) et [Créer du contenu personnalisé](design-and-personalize.md).
+>Pour plus d’informations sur l’édition du contenu d’un email, voir [Définir le contenu de l&#39;email](defining-the-email-content.md) et [Créer du contenu personnalisé](design-and-personalize.md).
 
 ## Adresse d’expéditeur {#sender-address}
 
@@ -39,9 +37,9 @@ Certains FAI vérifient la validité de l’adresse de l’expéditeur (**[!UICO
 
 Il faut s’assurer qu’une adresse correcte est bien renseignée au niveau de l’instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement...)]** ou dans les scénarios les plus couramment utilisés.
 
-Pour plus d&#39;informations, consultez la section [Définir l’expéditeur](defining-the-email-content.md).
+Consultez [cette page](defining-the-email-content.md) pour plus d’informations.
 
-## Personnalisation  {#personalization}
+## Personnalisation {#personalization}
 
 Pour améliorer l’expérience de vos destinataires et les inciter à ouvrir votre email, Adobe Campaign vous permet de personnaliser vos messages.
 

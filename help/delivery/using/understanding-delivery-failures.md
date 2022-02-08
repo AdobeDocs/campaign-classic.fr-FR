@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Comprendre les diffusions en échec
+title: Présentation des diffusions en échec
 description: Découvrez comment comprendre les échecs de diffusions
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+feature: Monitoring
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '2665'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Comprendre les échecs de diffusion{#understanding-delivery-failures}
+# Présentation des diffusions en échec{#understanding-delivery-failures}
 
 ![](../../assets/common.svg)
 
@@ -192,7 +190,7 @@ Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est tempora
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et spécifiez la durée souhaitée dans le champ correspondant pour modifier la durée d&#39;une diffusion. Voir [Définition de la période de validité](steps-sending-the-delivery.md#defining-validity-period).
 
-Le paramétrage par défaut prévoit cinq reprises séparées d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l&#39;administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion (voir [Paramétrer les reprises](steps-sending-the-delivery.md#configuring-retries)).
+Le paramétrage par défaut prévoit cinq reprises séparées d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l’administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion. Voir [Configuration des reprises](steps-sending-the-delivery.md#configuring-retries).
 
 ## Erreurs synchrones et asynchrones     {#synchronous-and-asynchronous-errors}
 
@@ -294,7 +292,7 @@ Les règles par défaut sont les suivantes.
 >[!IMPORTANT]
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md) et si votre instance dispose de la fonctionnalité **Webhooks/EFS**, les règles de **[!UICONTROL mail entrant]** ne sont plus utilisées pour les messages d&#39;erreur relatifs aux échecs des diffusions synchrones.
->Voir à ce propos [cette section](#bounce-mail-qualification).
+Voir à ce propos [cette section](#bounce-mail-qualification).
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par des serveurs distants et qui vous permettent de qualifier l&#39;erreur (**Hard**, **Soft** ou **Ignorée**).
 

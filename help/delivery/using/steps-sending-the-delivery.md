@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Configuration et envoi de la diffusion
-description: Configuration et envoi de la diffusion
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+title: Configurer et envoyer la diffusion
+description: Découvrez comment configurer et envoyer la diffusion
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 100%
+source-wordcount: '1622'
+ht-degree: 96%
 
 ---
 
-# Configuration et envoi de la diffusion {#configuring-and-sending-the-delivery}
+# Configurer et envoyer la diffusion {#configuring-and-sending-the-delivery}
 
 ![](../../assets/common.svg)
 
@@ -35,7 +32,7 @@ Avant d&#39;envoyer la diffusion, vous pouvez définir les paramètres d&#39;env
    >
    >Lorsque la diffusion est dupliquée, le paramètre est remis à zéro.
 
-* **[!UICONTROL Envoyer en plusieurs vagues]** : pour plus d’informations, voir la section [Envoyer en plusieurs vagues](#sending-using-multiple-waves).
+* **[!UICONTROL Envoyer en plusieurs vagues]**: Voir à ce sujet la section [Envoyer en plusieurs vagues](#sending-using-multiple-waves).
 
 * **[!UICONTROL Tester l’envoi par SMTP]** : cette option vous permet de tester l’envoi d’une diffusion via SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée.
 
@@ -45,11 +42,11 @@ Avant d&#39;envoyer la diffusion, vous pouvez définir les paramètres d&#39;env
 
 * **[!UICONTROL Email Cci]** : permet de stocker les emails sur un système externe à l&#39;aide de l&#39;option BCC en ajoutant une adresse email en &quot;copie cachée&quot; (Cci, ou Bcc en anglais) à la cible des messages. Voir à ce propos [cette section](sending-messages.md#archiving-emails).
 
-## Confirmation de l&#39;envoi des diffusions. {#confirming-delivery}
+## Confirmez l&#39;envoi des diffusions {#confirming-delivery}
 
 Une fois la diffusion configurée et prête à être envoyée, vérifiez que vous avez exécuté l’analyse de la diffusion.
 
-Pour ce faire, cliquez sur **[!UICONTROL Envoyer]**, sélectionnez l’action souhaitée et cliquez sur **[!UICONTROL Analyser]**. Pour plus d&#39;informations, consultez la section [Lancement de l&#39;analyse](steps-validating-the-delivery.md#analyzing-the-delivery).
+Pour ce faire, cliquez sur **[!UICONTROL Envoyer]**, sélectionnez l’action souhaitée et cliquez sur **[!UICONTROL Analyser]**. Voir à ce propos la section [Lancer l’analyse](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -59,11 +56,11 @@ Vous pouvez ensuite fermer l&#39;assistant de diffusion et suivre l&#39;exécuti
 
 Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions. Pour plus d’informations, consultez les sections suivantes :
 
-* [Contrôler une diffusion](about-delivery-monitoring.md)
-* [Comprendre les échecs de diffusion](understanding-delivery-failures.md)
+* [Surveillance d’une diffusion](about-delivery-monitoring.md)
+* [Présentation des diffusions en échec](understanding-delivery-failures.md)
 * [À propos du tracking des messages](about-message-tracking.md)
 
-## Planifier l&#39;envoi de diffusion {#scheduling-the-delivery-sending}
+## Planifier l’envoi de la diffusion {#scheduling-the-delivery-sending}
 
 Vous pouvez différer la diffusion des messages pour planifier l&#39;envoi ou pour gérer la pression commerciale afin de ne pas sur-solliciter une population.
 
@@ -167,7 +164,7 @@ Les deux exemples ci-dessous constituent les cas d&#39;utilisation les plus fré
 
    ![](assets/s_ncs_user_wizard_waves_call_center.png)
 
-## Paramétrer les reprises {#configuring-retries}
+## Configuration des reprises {#configuring-retries}
 
 Les messages temporairement non diffusés en raison d&#39;une erreur **Soft** ou **Ignoré** sont soumis à une nouvelle reprise automatique. Les types et les raisons d&#39;échec de diffusion sont présentés dans cette [section](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
@@ -179,7 +176,7 @@ Pour les installations on-premise et les installations hébergées/hybrides util
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-Par défaut, cinq reprises sont planifiées le premier jour de l’envoi, avec un intervalle minimum d’une heure, réparties sur les 24h de la journée. Après cela, une reprise est programmée chaque jour jusqu’à la date limite de diffusion, qui est définie dans l’onglet **[!UICONTROL Validité]** (voir la section [Définir la période de validité](#defining-validity-period)).
+Par défaut, cinq reprises sont planifiées pour le premier jour de la diffusion, dans un intervalle minimal d&#39;une heure, réparties sur les 24 h de la journée. Les jours suivants, une reprise par jour est programmée jusqu&#39;à la date limite de la diffusion, définie dans l&#39;onglet **[!UICONTROL Validité.]** Voir [Définir la période de validité](#defining-validity-period).
 
 ## Définir la période de validité {#defining-validity-period}
 

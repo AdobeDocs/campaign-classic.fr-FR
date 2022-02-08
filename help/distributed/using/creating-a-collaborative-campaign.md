@@ -1,25 +1,23 @@
 ---
 product: campaign
-title: Créer une opération collaborative
-description: Créer une opération collaborative
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: Création d’une campagne collaborative
+description: Découvrez comment créer une opération collaborative
+feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 100%
+source-wordcount: '990'
+ht-degree: 98%
 
 ---
 
-# Créer une opération collaborative{#creating-a-collaborative-campaign-intro}
+# Création d’une campagne collaborative{#creating-a-collaborative-campaign-intro}
 
 ![](../../assets/v7-only.svg)
 
 L&#39;entité centrale crée les opérations collaboratives à partir des modèles d&#39;opération du **Marketing Distribué**. Voir [cette page](about-distributed-marketing.md#collaborative-campaign).
 
-## Créer une opération collaborative {#creating-a-collaborative-campaign}
+## Création d’une campagne collaborative {#creating-a-collaborative-campaign}
 
 Pour créer une opération collaborative, cliquez sur le noeud **[!UICONTROL Gestion de campagne > Opérations]**, puis sur l&#39;icône **[!UICONTROL Nouveau]**.
 

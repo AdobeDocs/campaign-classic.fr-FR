@@ -2,12 +2,12 @@
 product: campaign
 title: Diffusions de campagnes marketing
 description: En savoir plus sur les diffusions d'opérations marketing
-audience: campaign
+feature: Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,11 +29,11 @@ Pour créer une diffusion associée à une opération, cliquez sur le lien **[!U
 
 Les paramétrages proposés sont adaptés au type de diffusion : courrier, email, canaux mobiles. [En savoir plus](../../delivery/using/steps-about-delivery-creation-steps.md).
 
-## Démarrer la diffusion {#starting-a-delivery}
+## Démarre une diffusion {#starting-a-delivery}
 
 Une fois que toutes les validations ont été accordées, la diffusion est prête à démarrer. La procédure dépend alors du type de diffusion. Pour les diffusions par email ou sur les canaux mobiles, voir la section [Démarrer une diffusion online](#starting-an-online-delivery) et pour les diffusions courrier, voir la section [Démarrer une diffusion offline](#starting-an-offline-delivery).
 
-### Démarrer une diffusion online {#starting-an-online-delivery}
+### Démarrer une diffusion en ligne {#starting-an-online-delivery}
 
 Une fois toutes les demandes de validation approuvées, la diffusion passe à l&#39;état **[!UICONTROL A confirmer]**, et peut être démarrée par un opérateur. Le cas échéant, l&#39;opérateur Adobe Campaign (ou le groupe d&#39;opérateurs) désigné comme validant pour le démarrage de la diffusion est alors notifié qu&#39;une diffusion est prête à être démarrée.
 
@@ -51,7 +51,7 @@ L&#39;information est également remontée au niveau du tableau de bord de l&#39
 
 Un message de confirmation permet de sécuriser cette action.
 
-### Démarrer une diffusion offline {#starting-an-offline-delivery}
+### Démarrer une diffusion hors ligne {#starting-an-offline-delivery}
 
 Lorsque toutes les validations ont été acceptées, la diffusion passe à l&#39;état **[!UICONTROL En attente d&#39;extraction]**. Les fichiers d&#39;extraction sont créés via un workflow spécifique qui, dans une configuration par défaut, démarre automatiquement lorsqu&#39;une diffusion courrier est en attente d&#39;extraction. Lorsqu&#39;un traitement est en cours, il est affiché dans le tableau de bord : il peut être édité depuis son lien.
 
@@ -63,7 +63,7 @@ Lorsque toutes les validations ont été acceptées, la diffusion passe à l&#39
 
 Une fois le workflow d&#39;extraction exécuté correctement, le fichier d&#39;extraction doit être validé (sous réserve que la validation du fichier d&#39;extraction ait été sélectionnée dans le paramétrage de la diffusion).
 
-Pour plus d&#39;informations, reportez-vous à la section [Valider un fichier d&#39;extraction](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
+Voir à ce sujet la section [Valider un fichier d&#39;extraction](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
 
 **Etape 2 - Valider le message au prestataire**
 
@@ -114,7 +114,7 @@ L&#39;extraction du fichier lance deux opérations : le calcul des budgets et l
 >
 >Pour plus d&#39;informations sur le calcul des coûts et la gestion des stocks, voir la section [Prestataires, stocks et budgets](../../campaign/using/providers--stocks-and-budgets.md).
 
-## Gérer les documents associés {#managing-associated-documents}
+## Gestion des documents associés {#managing-associated-documents}
 
 Vous pouvez associer divers documents à une opération, comme des rapports, photos, pages web, diagrammes, etc. Ces documents peuvent avoir n’importe quel format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF et autres). Découvrez comment lier des documents à une campagne [dans cette section](../../campaign/using/marketing-campaign-assets.md).
 
@@ -126,9 +126,9 @@ Vous pouvez également référencer dans les opérations des éléments externes
 
 >[!NOTE]
 >
->Si vous utilisez MRM, vous pouvez également gérer une bibliothèque de ressources marketing sur lesquelles plusieurs intervenants peuvent agir dans un mode collaboratif. Voir à ce sujet la section [Gérer les ressources marketing](../../mrm/using/managing-marketing-resources.md).
+>Si vous utilisez MRM, vous pouvez également gérer une bibliothèque de ressources marketing sur lesquelles plusieurs intervenants peuvent agir dans un mode collaboratif. Voir [Gérer les ressources marketing](../../mrm/using/managing-marketing-resources.md).
 
-### Ajouter des documents {#adding-documents}
+### Ajout de documents {#adding-documents}
 
 Des documents peuvent être associés au niveau de l&#39;opération (documents contextuels) ou au niveau du programme (documents généraux).
 
@@ -155,7 +155,7 @@ Au niveau du tableau de bord, les documents associés à l&#39;opération sont r
 
 Ils peuvent également être édités et modifiés depuis cette vue.
 
-### Associer et structurer les ressources liées via une composition {#associating-and-structuring-resources-linked-via-a-delivery-outline}
+### Association et structure des ressources liées via une composition de diffusion {#associating-and-structuring-resources-linked-via-a-delivery-outline}
 
 >[!NOTE]
 >
@@ -167,7 +167,7 @@ Ces éléments sont regroupés dans des compositions, et telle ou telle composit
 
 Les compositions permettent, au niveau de l&#39;opération, de structurer des éléments externes qui seront associés à la diffusion en fonction de certains critères : agence de rattachement, offre promotionnelle accordée, invitation à un événement local, etc.
 
-#### Créer une composition {#creating-an-outline}
+#### Création d’une composition {#creating-an-outline}
 
 Pour créer une composition, cliquez sur le sous-onglet **[!UICONTROL Compositions de diffusions]** proposé dans l&#39;onglet **[!UICONTROL Edition > Documents]** de l&#39;opération concernée.
 
@@ -205,7 +205,7 @@ Une composition peut contenir des articles, des champs de personnalisation, des 
    >
    >Pour plus d&#39;informations sur les ressources marketing, voir la section [Gérer les ressources marketing](../../mrm/using/managing-marketing-resources.md).
 
-#### Sélectionner une composition {#selecting-an-outline}
+#### Sélection d’une composition {#selecting-an-outline}
 
 Pour chaque diffusion, vous pouvez sélectionner la composition à associer à partir de la section réservée à la configuration de l&#39;extraction, comme dans l&#39;exemple ci-dessous :
 

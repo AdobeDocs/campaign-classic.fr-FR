@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: Simulation de campagnes
-description: Simulation de campagnes
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
+description: Prise en main des simulations de Campaign
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 100%
+source-wordcount: '1376'
+ht-degree: 98%
 
 ---
 
@@ -97,7 +94,7 @@ Dans l&#39;onglet **[!UICONTROL Général]** de la simulation, vous pouvez indiq
 * La **[!UICONTROL Priorité]** est le niveau appliqué à la simulation pour en différer le déclenchement.
 * **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**. Les logs SQL servent à diagnostiquer une simulation si elle se termine en erreur. Ils peuvent aussi aider à savoir pourquoi une simulation est trop lente. Ces messages seront visibles après la simulation dans le sous-onglet **[!UICONTROL Logs SQL]** de l&#39;onglet **[!UICONTROL Suivi]**.
 
-## Exécuter la simulation {#executing-a-simulation}
+## Exécuter une simulation {#executing-a-simulation}
 
 ### Démarrer une simulation {#starting-a-simulation}
 
@@ -129,7 +126,7 @@ Une fois l&#39;exécution terminée, ouvrez la simulation et cliquez sur l&#39;o
 
    Pour un exemple de création de tableau d&#39;analyse, reportez-vous à la fin de la section [Explorer les résultats](#exploring-results).
 
-### Consulter les résultats {#viewing-results}
+### Afficher les résultats {#viewing-results}
 
 #### Journal {#audit}
 
@@ -167,7 +164,7 @@ Pour accéder aux rapports, cliquez sur le lien **[!UICONTROL Rapports]** de la 
 
 Vous pouvez également éditer les rapports à partir du lien **[!UICONTROL Rapports]** accessible depuis le tableau de bord de la simulation.
 
-### Comparer les simulations {#comparing-simulations-}
+### Comparaison des simulations {#comparing-simulations-}
 
 A nouvelle exécution d&#39;une simulation, le résultat calculé remplace le résultat antérieur : vous ne pouvez pas afficher et comparer les résultats d&#39;une exécution à l&#39;autre.
 

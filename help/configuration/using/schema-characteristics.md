@@ -2,11 +2,8 @@
 product: campaign
 title: Caractéristiques du schéma
 description: Caractéristiques du schéma
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%

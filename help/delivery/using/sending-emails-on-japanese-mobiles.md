@@ -1,19 +1,16 @@
 ---
 product: campaign
 title: Envoi d'emails sur des mobiles japonais avec Adobe Campaign Classic
-description: Découvrez comment configurer, concevoir et envoyer des emails qui seront lus sur un mobile japonais.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+description: Découvrez comment configurer, concevoir et envoyer des emails qui seront lus sur un mobile japonais
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
-# Envoi d’emails sur un mobile japonais {#sending-emails-on-japanese-mobiles}
+# Envoyer des emails sur un mobile japonais {#sending-emails-on-japanese-mobiles}
 
 ![](../../assets/common.svg)
 
@@ -50,7 +47,7 @@ Ainsi, vous devez :
 >* Pour Softbank, consultez [cette page](https://www.support.softbankmobile.co.jp/partner/home_tech3/index.cfm).
 
 
-## Test du contenu de l&#39;email {#testing-the-email-content}
+## Tester le contenu de l&#39;email {#testing-the-email-content}
 
 ### Prévisualisation du message {#previewing-the-message}
 
@@ -66,7 +63,7 @@ Dans l&#39;onglet **[!UICONTROL Aperçu]** de la fenêtre d&#39;édition du cont
 
    ![](assets/deco-mail_06.png)
 
-### Exécution d&#39;une règle de typologie {#running-typology-rule}
+### Exécution de la règle de typologie {#running-typology-rule}
 
 En plus du diagnostic de prévisualisation, une deuxième vérification est effectuée lors de l&#39;envoi d&#39;un BAT ou d&#39;une diffusion : une règle de typologie spécifique, **[!UICONTROL Vérification du Deco-mail]**, est lancée au cours de l&#39;analyse.
 
@@ -76,7 +73,7 @@ En plus du diagnostic de prévisualisation, une deuxième vérification est effe
 
 Cette règle permet de s&#39;assurer que la diffusion respecte les [contraintes de format](#limitations-and-recommendations) définies par les opérateurs japonais, notamment la taille totale de l&#39;email, la taille de ses parties HTML et texte, le nombre d&#39;images dans le message et les balises du contenu HTML.
 
-### Envoi d&#39;un bon à tirer {#sending-proofs}
+### Envoi de BAT {#sending-proofs}
 
 Vous pouvez envoyer des BAT pour tester la diffusion. Lors de l&#39;envoi d&#39;un BAT, si vous avez recours à des adresses de substitution, veillez à saisir des adresses correspondant au format des emails du profil utilisé.
 
@@ -91,7 +88,7 @@ Pour envoyer une diffusion à des destinataires dont le format des emails est ja
 * créer deux diffusions, une propre aux destinataires japonais et une pour les autres destinataires (voir [cette section](#designing-a-specific-delivery-for-japanese-formats)) ;
 * créer une seule diffusion et laisser Adobe Campaign détecter automatiquement le format à utiliser (voir [cette section](#designing-a-delivery-for-all-formats)).
 
-### Conception d&#39;une diffusion spécifique pour les formats japonais {#designing-a-specific-delivery-for-japanese-formats}
+### Concevoir une diffusion spécifique pour les formats japonais {#designing-a-specific-delivery-for-japanese-formats}
 
 Vous pouvez créer un workflow comprenant deux diffusions : une destinée à être lue sur un mobile japonais et une pour les destinataires avec un format d&#39;email standard.
 
@@ -101,7 +98,7 @@ Pour cela, utilisez une activité **[!UICONTROL Partage]** dans votre workflow e
 
 ![](assets/deco-mail_07.png)
 
-### Conception d&#39;une diffusion pour tous les formats {#designing-a-delivery-for-all-formats}
+### Concevoir une diffusion pour tous les formats {#designing-a-delivery-for-all-formats}
 
 Lorsqu&#39;Adobe Campaign gère dynamiquement les formats en fonction du domaine (profils avec format des emails défini sur **[!UICONTROL Inconnu]**, **[!UICONTROL HTML]** ou **[!UICONTROL Texte]**), vous pouvez envoyer la même diffusion à tous vos destinataires.
 

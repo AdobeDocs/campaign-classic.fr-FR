@@ -2,14 +2,11 @@
 product: campaign
 title: Créer et identifier la diffusion
 description: Créer et identifier la diffusion
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +14,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-## Créer la diffusion {#creating-the-delivery}
+## Création de la diffusion {#creating-the-delivery}
 
 Vous pouvez créer une diffusion par le biais de la vue d&#39;ensemble ou du menu **[!UICONTROL Créer > Diffusion]**.
 
@@ -34,7 +31,7 @@ Par défaut, un modèle est fourni pour chaque canal installé : courrier, emai
 
 Vous pouvez créer de nouveaux modèles de diffusion afin de préconfigurer des paramètres spécifiques en fonction de vos besoins. Pour plus d’informations sur les modèles, consultez [cette section](about-templates.md).
 
-## Identification de la diffusion {#identifying-the-delivery}
+## Identifier la diffusion {#identifying-the-delivery}
 
 Vous devez renseigner des paramètres pour identifier la diffusion. Pour cela :
 

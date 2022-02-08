@@ -2,11 +2,9 @@
 product: campaign
 title: Marketing distribué de Campaign
 description: Prise en main du marketing distribué
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 100%

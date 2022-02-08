@@ -2,11 +2,9 @@
 product: campaign
 title: À propos de la table des destinataires personnalisée
 description: À propos de la table des destinataires personnalisée
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+feature: Custom Resources
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 100%

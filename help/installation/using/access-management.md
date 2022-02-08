@@ -1,12 +1,10 @@
 ---
 product: campaign
 title: Gestion des accès
-description: En savoir plus sur les bonnes pratiques relatives à la gestion des accès.
-audience: installation
-content-type: reference
-topic-tags: prerequisites-and-recommendations-
+description: En savoir plus sur les bonnes pratiques relatives à la gestion des accès
+feature: Access Management
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%

@@ -1,12 +1,10 @@
 ---
 product: campaign
 title: Tableau de bord de la diffusion
-description: En savoir plus sur l'utilisation du tableau de bord de la diffusion pour surveiller vos diffusions.
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+description: En savoir plus sur l'utilisation du tableau de bord de la diffusion pour surveiller vos diffusions
+feature: Monitoring
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 100%

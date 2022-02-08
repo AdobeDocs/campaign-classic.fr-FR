@@ -2,18 +2,15 @@
 product: campaign
 title: Appliquer les règles
 description: Appliquer les règles
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1042'
+ht-degree: 98%
 
 ---
 
-# Appliquer les règles{#applying-rules}
+# Appliquer les règles de typologie{#applying-rules}
 
 ![](../../assets/common.svg)
 
@@ -40,7 +37,7 @@ Pour appliquer les règles de typologie que vous avez créées, vous devez les a
    >
    >La typologie peut être définie au niveau du modèle de diffusion afin d&#39;être appliquée automatiquement à toutes les diffusions créées à partir de ce modèle.
 
-## Définir des critères d&#39;application {#defining-application-conditions}
+## Définition des conditions d’application {#defining-application-conditions}
 
 Vous pouvez restreindre le champ d&#39;application d&#39;une règle selon vos besoins (sauf pour les règles de contrôle).
 

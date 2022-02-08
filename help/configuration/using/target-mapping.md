@@ -2,13 +2,10 @@
 product: campaign
 title: Mapping de ciblage
 description: Découvrez comment créer un mapping de ciblage
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: 468a986d7cfb8a4c51229cf81b6656ca2d101f40
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
@@ -124,7 +121,3 @@ Pour utiliser le nouveau schéma comme cible d&#39;une diffusion, il existe deux
 * Sélectionner directement le mapping lors de la sélection d&#39;une cible à la création d&#39;une diffusion, comme le montre la capture ci-dessous :
 
 ![](assets/mapping_selection_ciblage.png)
-
-**Rubrique connexe**
-
-* [Répondre rapidement aux demandes des clients pour accéder à leurs données](https://helpx.adobe.com/fr/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)

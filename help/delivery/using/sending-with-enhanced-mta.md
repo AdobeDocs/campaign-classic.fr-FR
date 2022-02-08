@@ -1,12 +1,9 @@
 ---
 product: campaign
 title: Envoi d'emails avec le MTA amélioré dans Adobe Campaign Classic
-description: Découvrez la portée et les spécificités de l'envoi d'emails avec le MTA amélioré d'Adobe Campaign.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+description: Découvrez la portée et les spécificités de l'envoi d'emails avec le MTA amélioré d'Adobe Campaign
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '1991'
 ht-degree: 100%
@@ -180,6 +177,7 @@ Grâce à la fonctionnalité Service de retour d&#39;e-mail (EFS - Email Feedbac
 >[!IMPORTANT]
 >
 >Le service de retour d&#39;e-mail est actuellement disponible en version bêta.
+
 >
 >Si vous souhaitez participer à ce programme en version bêta, remplissez [ce formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous recontacterons.
 

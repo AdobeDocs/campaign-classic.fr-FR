@@ -2,11 +2,8 @@
 product: campaign
 title: 'Configuration '
 description: 'Configuration '
-audience: configuration
-content-type: reference
-topic-tags: navigation-hierarchy
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 100%

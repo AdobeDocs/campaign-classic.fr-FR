@@ -2,11 +2,9 @@
 product: campaign
 title: API orientées métier
 description: API orientées métier
-audience: configuration
-content-type: reference
-topic-tags: api
+feature: API
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%

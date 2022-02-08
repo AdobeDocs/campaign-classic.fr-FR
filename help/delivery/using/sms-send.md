@@ -2,11 +2,9 @@
 product: campaign
 title: Envoi, surveillance et suivi de SMS
 description: Découvrez comment envoyer, surveiller et suivre des SMS dans Campaign
-audience: delivery
-content-type: reference
-topic-tags: sending-messages-on-mobiles
+feature: SMS
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%

@@ -2,11 +2,9 @@
 product: campaign
 title: Accès à une base de données externe
 description: Découvrez comment accéder aux données et les traiter dans une base de données externe
-audience: platform
-content-type: reference
-topic-tags: connectors
+feature: Federated Data Access
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
-source-git-commit: a23f66a4822f3c87770c5c9741e91f78778931cb
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%

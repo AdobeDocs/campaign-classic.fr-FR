@@ -2,11 +2,8 @@
 product: campaign
 title: Mise en forme
 description: Mise en forme
-audience: delivery
-content-type: reference
-topic-tags: content-management
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 100%

@@ -2,11 +2,9 @@
 product: campaign
 title: Créer un modèle de diffusion
 description: Créer un modèle de diffusion
-audience: delivery
-content-type: reference
-topic-tags: using-delivery-templates
+feature: Delivery Templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%

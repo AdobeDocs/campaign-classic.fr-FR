@@ -2,11 +2,9 @@
 product: campaign
 title: Bonnes pratiques relatives au modèle de données
 description: Découvrez comment utiliser le modèle de données de Campaign Classic
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: c281d437907efb4d514bec7cacc698c383f3fe53
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
 source-wordcount: '4024'
 ht-degree: 100%

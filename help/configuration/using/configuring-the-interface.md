@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Configuration de l'interface
-description: Configuration de l'interface
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+title: Configuration de l’interface
+description: Découvrez comment configurer l’interface de Campaign
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 100%
+source-wordcount: '313'
+ht-degree: 96%
 
 ---
 
-# Configuration de l&#39;interface{#configuring-the-interface}
+# Configuration de l’interface{#configuring-the-interface}
 
 ![](../../assets/common.svg)
 

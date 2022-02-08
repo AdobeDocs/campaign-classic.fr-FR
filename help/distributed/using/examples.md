@@ -1,29 +1,27 @@
 ---
 product: campaign
-title: Exemples
-description: Exemples
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: Exemples de marketing distribué
+description: Exemples de marketing distribué
+feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 100%
+source-wordcount: '1371'
+ht-degree: 97%
 
 ---
 
-# Exemples{#examples}
+# Exemples de marketing distribué{#distributed-marketing-samples}
 
 ![](../../assets/v7-only.svg)
 
-## Créer une campagne locale (par formulaire) {#creating-a-local-campaign--by-form-}
+## Créer une opération locale (par formulaire) {#creating-a-local-campaign--by-form-}
 
 Le type d’interface web **par formulaire** implique l’utilisation d’une **application web**. Cette application web peut contenir toutes sortes d’éléments définis personnalisés, selon le paramétrage. Par exemple, vous pouvez proposer des liens pour évaluer la cible, le budget, le contenu, etc. via des API dédiées.
 
 >[!NOTE]
 >
->Les API sont présentées dans un document dédié, accessible selon votre contrat. Voir [API](../../configuration/using/about-web-services.md).
+>Les API sont détaillées dans un document dédié. [En savoir plus](../../configuration/using/about-web-services.md).
 >
 >L’application web utilisée dans cet exemple n’est pas une application web Adobe Campaign d’usine. Pour utiliser un formulaire dans une campagne, vous devez créer l’application web dédiée.
 
@@ -73,7 +71,7 @@ Dans cet exemple, les APIs suivantes sont utilisées :
    var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
    ```
 
-## Créer une opération collaborative (par validation de la cible) {#creating-a-collaborative-campaign--by-target-approval-}
+## Créer une opération collaborative par validation de la cible {#creating-a-collaborative-campaign--by-target-approval-}
 
 ### Introduction {#introduction}
 
@@ -118,7 +116,7 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
 
 ### Côté entité centrale {#central-entity-side}
 
-#### Créer une activité Répartition de données {#creating-a-data-distribution-activity}
+#### Créer une activité de répartition de données {#creating-a-data-distribution-activity}
 
 1. Pour mettre en place une opération collaborative par validation de la cible, vous devez tout d&#39;abord créer une activité **[!UICONTROL Répartition de données]**. A partir du noeud **[!UICONTROL Ressources > Gestion de campagne > Répartition de données]**, cliquez sur l&#39;icône **[!UICONTROL Nouveau]**.
 
@@ -142,7 +140,7 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
 
 1. Enregistrez votre nouvelle boîte de répartition.
 
-#### Créer une opération collaborative {#creating-a-collaborative-campaign}
+#### Création d’une campagne collaborative {#creating-a-collaborative-campaign}
 
 1. A partir du noeud **[!UICONTROL Gestion de campagne > Opération]**, créez une nouvelle **[!UICONTROL opération collaborative par validation de la cible]**.
 1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]**, créez un workflow pour votre opération. Celui-ci doit contenir une activité de **Partage** dont la **[!UICONTROL limitation du nombre d&#39;enregistrements]** est définie par l&#39;activité **[!UICONTROL Répartition de données]**.
@@ -159,7 +157,7 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
 
 1. Sauvegardez votre enregistrement.
 
-#### Publier l&#39;opération {#publishing-the-campaign}
+#### Publiez l&#39;opération {#publishing-the-campaign}
 
 Vous pouvez désormais ajouter un **kit de campagne** à partir de l’onglet **[!UICONTROL Campagnes]**.
 
@@ -178,7 +176,7 @@ Vous pouvez désormais ajouter un **kit de campagne** à partir de l’onglet **
 
    ![](assets/mkg_dist_use_case_target_valid2.png)
 
-## Créer une campagne collaborative (par formulaire) {#creating-a-collaborative-campaign--by-form-}
+## Créer une opération collaborative par formulaire {#creating-a-collaborative-campaign--by-form-}
 
 ### Introduction {#introduction-1}
 
