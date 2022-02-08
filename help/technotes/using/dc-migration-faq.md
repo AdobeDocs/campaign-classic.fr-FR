@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 source-git-commit: 60fc0fd2a10f05abb77843ef0cb69e44f35a9648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2216'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 ![](../../assets/v7-only.svg)
 
-Adobe désactive l’ancien centre de données : Les instances de Campaign Classic doivent être transférées vers Public Cloud Amazon Web Services (AWS). [En savoir plus sur cette initiative](dc-migration.md).
+Adobe désactive l’ancien centre de données : les instances Campaign Classic doivent être transférées vers le cloud public Amazon Web Services (AWS). [En savoir plus sur cette initiative](dc-migration.md).
 
 Vous trouverez ci-dessous un ensemble de questions courantes concernant ce projet, l’impact sur vos environnements Campaign et d’autres ressources utiles.
 
@@ -63,7 +63,7 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 
    L’adresse IP des serveurs Adobe va changer. Il se peut donc que les clients doivent ajouter ces nouvelles adresses IP à la liste autorisée de leur système.
 
-   [En savoir plus](#config) à propos de l’adresse IP sur la liste autorisée.
+   [En savoir plus](#config) sur les adresses IP placées sur la liste autorisée.
 
 * **Comment allons-nous gérer le port ajouté à la liste autorisée pour l’accès SFTP/FTP ?**
 
@@ -73,7 +73,7 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 
    L’adresse IP des serveurs Adobe va changer. Il se peut donc que les clients doivent ajouter ces nouvelles adresses IP à la liste autorisée de leur système.
 
-   [En savoir plus](#config) à propos de l’adresse IP sur la liste autorisée.
+   [En savoir plus](#config) sur les adresses IP placées sur la liste autorisée.
 
 * **Comment la délégation des sous-domaines sera-t-elle gérée ?**
 
@@ -155,7 +155,7 @@ Les incidences globales sur la configuration, la connectivité avec d’autres s
 
    L’adresse IP des serveurs Adobe va changer. Il se peut donc que les clients doivent ajouter ces nouvelles adresses IP à la liste autorisée de leur système.
 
-   [En savoir plus](#config) à propos de l’adresse IP en liste autorisée.
+   [En savoir plus](#config) sur les adresses IP placées sur la liste autorisée.
 
 * **Allons-nous nous assurer que tous les paramètres de configuration de la mémoire JavaScript sont correctement définis après la migration ?**
 
@@ -169,7 +169,7 @@ Les incidences globales sur la configuration, la connectivité avec d’autres s
 
    Il peut changer en fonction de la nouvelle localisation des serveurs. Toutefois, le client pourra conserver son fuseau horaire actuel.
 
-   [En savoir plus](../../workflow/using/managing-time-zones.md) à propos de la gestion des fuseaux horaires dans Adobe Campaign Classic v7.
+   [En savoir plus](../../workflow/using/managing-time-zones.md) sur la gestion des fuseaux horaires dans Adobe Campaign Classic v7.
 
 
 ## Sécurité et autorisations
