@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: 1e2c20befebf2343cb0f781aa7f2bd1ed6b3f383
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '2542'
-ht-degree: 100%
+source-wordcount: '2545'
+ht-degree: 99%
 
 ---
 
@@ -215,7 +215,7 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 * Correction d’un problème lors de l’utilisation d’applications web en raison duquel les balises de tracking généraient des clés primaires incorrectes dans le schéma **nms:trackingURL**. (NEO-27931)
 * La compatibilité avec ODBC 3.x a été améliorée pour garantir la précision des messages d’erreur.
 * Correction d’un problème qui entraînait des blocages de console lors de l’utilisation de modèles de contenu personnalisés dans des diffusions email. (NEO-31547)
-* Correction d’un problème qui empêchait Tomcat d’envoyer des réponses valides en raison d’une connexion lente ou d’une taille de réponse importante.
+* Correction d’un problème qui empêchait Tomcat d’envoyer des réponses valides en raison d’une connexion lente ou d’une taille de réponse importante. (NEO-30858)
 * Correction d’un problème qui se produisait lors de la lecture de la valeur UUID à partir d’une base de données PostgreSQL.
 * Correction d’une erreur qui entraînait des problèmes de performances lors de la recherche de données de proposition liées aux offres. (NEO-27554)
 * Correction d’un problème en raison duquel le processus web ne répondait pas lorsque le service IMS était activé, mais ne répondait pas.
@@ -279,7 +279,7 @@ Si vous souhaitez participer à cette version bêta privée, remplissez ce [form
 * Correction d&#39;un problème en raison duquel certains caractères du code source étaient modifiés lors de la réouverture d&#39;une application web précédemment créée et enregistrée. (NEO-27597)
 * Correction d&#39;un problème qui pouvait se produire lors de la mise à niveau vers un build incluant le nouveau mécanisme de signature pour les liens de tracking (depuis la version 19.1.4 et Campaign 20.2) : lorsque plusieurs modèles étaient associés à un événement, la mise à niveau pouvait entraîner la sélection d&#39;un modèle incorrect lors de l&#39;envoi du message transactionnel. (NEO-28326)
 * Correction d’un problème en raison duquel le MTA ne réagissait pas et ne pouvait traiter les diffusions qu’après son redémarrage. (NEO-27455)
-* Correction d&#39;un problème de la base de données MSSQL lié à la gestion de la date et de l&#39;heure lors des opérations de chargement en masse pour une colonne de type datetime.
+* Correction d’un problème lié à la gestion des fuseaux horaires dans la base de données MSSQL lors des opérations de chargement en masse pour une colonne de type datetime. (NEO-27375)
 * Correction d&#39;un problème de requête de workflow lors de l&#39;utilisation des fonctions xtk Redshift. Les fonctions SubDays, SubSeconds, SubMinutes et SubHours acceptent désormais les deux types de date et d&#39;heure Redshift (NEO-24962).
 * Correction d&#39;un problème en raison duquel un message d&#39;erreur de script s&#39;affichait lors de la tentative de prévisualisation d&#39;un rapport avec accès anonyme. (NEO-27081)
 * Correction d&#39;un problème qui pouvait réduire l&#39;utilisation de la mémoire sur le serveur lors de l&#39;analyse des diffusions.

@@ -2,14 +2,11 @@
 product: campaign
 title: Propriétés du rapport
 description: En savoir plus sur les paramètres des propriétés du rapport
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
-source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +49,7 @@ Les options possibles sont les suivantes :
 * **[!UICONTROL Contrôle d&#39;accès]** : cette option permet à un opérateur Adobe Campaign d&#39;y accéder, après connexion.
 * **[!UICONTROL Compte spécifique]** : permet d&#39;exécuter le rapport avec les droits de l&#39;opérateur sélectionné dans le champ **[!UICONTROL Opérateur]**.
 
-## Gérer la localisation du rapport {#managing-report-localization}
+## Traduire votre rapport {#report-localization}
 
 Vous pouvez paramétrer les langues dans lesquelles vous souhaitez que le rapport soit traduit. Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Localisation]**.
 
@@ -66,7 +63,7 @@ La langue d&#39;édition correspond à la langue dans laquelle vous rédigez. Lo
 >
 >Pour en savoir plus sur la localisation des pages web dans Campaign, consultez [cette section](../../web/using/translating-a-web-form.md).
 
-## Personnaliser le rendu HTML {#personalizing-html-rendering}
+## Personnaliser le rendu des HTMLS {#personalizing-html-rendering}
 
 Dans l&#39;onglet **[!UICONTROL Rendu]**, vous pouvez personnaliser le mode d&#39;affichage des données dans la page. Ainsi, vous pouvez sélectionner :
 

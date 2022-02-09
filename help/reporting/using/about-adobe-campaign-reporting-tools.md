@@ -2,14 +2,12 @@
 product: campaign
 title: À propos des outils de reporting d'Adobe Campaign
 description: Analysez la réussite de vos campagnes dans des rapports natifs ou personnalisés.
-audience: reporting
-content-type: reference
-topic-tags: reporting-in-adobe-campaign
+feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

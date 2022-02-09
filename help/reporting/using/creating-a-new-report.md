@@ -2,14 +2,11 @@
 product: campaign
 title: Créer un nouveau rapport
 description: Découvrez les étapes principales pour créer un nouveau rapport
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -39,7 +36,7 @@ Pour créer un rapport, les étapes sont les suivantes :
 
 1. Enregistrez ce rapport.
 
-## Modéliser le graphique {#modelizing-the-chart}
+## Modèle du graphique {#modelizing-the-chart}
 
 Après avoir enregistré votre rapport, ce dernier s&#39;affiche. Vous pouvez désormais construire le diagramme de votre rapport.
 
@@ -89,9 +86,9 @@ Par contre, il est possible de positionner plusieurs branches. Une seule d&#39;e
 
 ![](assets/reporting_graph_sample_ok.png)
 
-## Créer une page {#creating-a-page}
+## Création d’une page {#creating-a-page}
 
-Le contenu est paramétré au travers des activités positionnées dans le diagramme. Voir à ce sujet la section [Modéliser le diagramme](#modelizing-the-chart).
+Le contenu est paramétré au travers des activités positionnées dans le diagramme. Voir à ce sujet la section [Modéliser le graphique](#modelizing-the-chart).
 
 Pour paramétrer chaque activité, double-cliquez sur son icône.
 

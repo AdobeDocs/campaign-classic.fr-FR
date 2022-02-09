@@ -2,14 +2,11 @@
 product: campaign
 title: Mettre en page les éléments
 description: Mettre en page les éléments
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 100%
+source-wordcount: '432'
+ht-degree: 92%
 
 ---
 
@@ -17,13 +14,13 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-En complément des variantes du graphique disponibles, présentées dans la section [Types de graphiques et leurs variantes](../../reporting/using/creating-a-chart.md#chart-types-and-variants), vous pouvez adapter l&#39;affichage et ajouter des éléments dans la ou les pages du rapport.
+En plus des divers graphiques détaillés [here](../../reporting/using/creating-a-chart.md#chart-types-and-variants), vous pouvez adapter l&#39;affichage et ajouter des éléments à la ou aux pages du rapport.
 
 Vous pouvez utiliser les conteneurs : ils permettent de regrouper plusieurs éléments d&#39;une page et d&#39;en paramétrer la mise en page en colonnes et/ou en cellules. Leur utilisation est présentée dans [cette section](../../web/using/defining-web-forms-layout.md#creating-containers).
 
 Vous pouvez paramétrer la mise en page du rapport au niveau de la page (à la racine de l&#39;arborescence) et la surcharger pour chaque conteneur. Les pages sont organisées en colonnes. Les conteneurs sont également organisés en colonne. Seuls les éléments statiques et les graphiques sont organisés en cellule.
 
-## Définir les options de chaque page {#defining-the-options-for-each-page}
+## Définition des options de chaque page {#defining-the-options-for-each-page}
 
 Vous pouvez utiliser les options de chaque page du rapport.
 
@@ -37,7 +34,7 @@ Les options des **[!UICONTROL Paramètres d&#39;affichage]** permettent de chois
 
 Sélectionnez les différentes options de la section **[!UICONTROL Navigation]** pour autoriser ou non le passage entre les différentes pages du rapport. Lorsque l&#39;option **[!UICONTROL Ne pas autoriser le retour à la page précédente]** ou **[!UICONTROL Ne pas autoriser le passage à la page suivante]** est sélectionnée, les boutons **[!UICONTROL Suivant]** ou **[!UICONTROL Précédent]** ne sont plus disponibles dans la page du rapport.
 
-## Ajouter un en-tête et un pied de page {#adding-a-header-and-a-footer}
+## Ajout d’un en-tête et d’un pied de page {#adding-a-header-and-a-footer}
 
 La fenêtre des propriétés du rapport permet également de définir des éléments de mise en page, tels que : le titre de la fenêtre, le contenu HTML de la zone d&#39;en-tête et celui du pied de page.
 

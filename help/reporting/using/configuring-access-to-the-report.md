@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Paramétrer l'accès au rapport
-description: Paramétrer l'accès au rapport
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+title: Configuration de l’accès au rapport
+description: Configuration de l’accès au rapport
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Paramétrer l&#39;accès au rapport{#configuring-access-to-the-report}
+# Configuration de l’accès au rapport{#configuring-access-to-the-report}
 
 ![](../../assets/common.svg)
 
@@ -61,7 +58,7 @@ Le rapport peut également être partagé avec des opérateurs ou des groupes d&
 
 ![](assets/s_ncs_advuser_report_visibility_8.png)
 
-### Définir les options de filtrage {#defining-the-filtering-options}
+### Définition des options de filtrage {#defining-the-filtering-options}
 
 L’onglet **[!UICONTROL Rapports]** affiche tous les rapports disponibles dans la plateforme, et pour lesquels l’opérateur connecté a un droit d’accès.
 
@@ -77,7 +74,7 @@ Pour définir la catégorie d&#39;un rapport, sélectionnez-la à partir de l&#3
 
 Vous pouvez y saisir une nouvelle catégorie pour l&#39;ajouter dans la liste des catégories disponibles. L&#39;énumération correspondante est alors automatiquement mise à jour.
 
-## Création d&#39;un lien vers un rapport {#creating-a-link-to-a-report-}
+## Création d’un lien vers un rapport {#creating-a-link-to-a-report-}
 
 Vous pouvez faire en sorte qu&#39;un rapport soit accessible depuis un noeud spécifique de l&#39;arborescence comme une liste, un destinataire, une diffusion etc. Pour cela, il suffit de créer un lien vers le rapport concerné et de spécifier l&#39;entité dans laquelle il doit être disponible.
 
@@ -123,7 +120,7 @@ Vous disposez également de paramètres qui vous permettent de contrôler les er
 
 Pour plus d&#39;informations sur ces paramètres, consultez la section **Définir les propriétés d&#39;un formulaire web** du chapitre [Formulaires Web](../../web/using/about-web-forms.md).
 
-## Publication du rapport {#publishing-the-report}
+## Publier le rapport {#publishing-the-report}
 
 La publication du rapport est obligatoire pour le partager avec d’autres opérateurs et l’afficher dans la liste des rapports disponibles (consultez également la section [Contexte d&#39;affichage des rapports](#report-display-context)). Cette opération doit être exécutée à nouveau chaque fois que le rapport est modifié.
 

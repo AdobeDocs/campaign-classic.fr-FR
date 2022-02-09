@@ -1,29 +1,26 @@
 ---
 product: campaign
-title: Définir un contenu conditionnel
-description: Définir un contenu conditionnel
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+title: Définition d’un contenu conditionnel
+description: Définition d’un contenu conditionnel
 exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Définir un contenu conditionnel{#defining-a-conditional-content}
+# Définition d’un contenu conditionnel{#defining-a-conditional-content}
 
 ![](../../assets/common.svg)
 
 Vous pouvez conditionner l&#39;affichage de certains éléments d&#39;un rapport ou d&#39;une ou plusieurs pages du rapport.
 
-Pour rendre des éléments spécifiques conditionnels, adaptez leurs paramètres de visibilité. Voir à ce sujet la section [Conditionner l’affichage d’un élément](#conditioning-item-display).
+Pour rendre des éléments spécifiques conditionnels, adaptez leurs paramètres de visibilité. Voir à ce sujet la section [Affichage de l’élément de condition](#conditioning-item-display).
 
-Pour rendre l’affichage d’une ou de plusieurs pages conditionnel, utilisez une activité de type **[!UICONTROL Test]**. Voir à ce sujet la section [Conditionner l&#39;affichage d&#39;une page](#conditioning-page-display).
+Pour rendre l’affichage d’une ou de plusieurs pages conditionnel, utilisez une activité de type **[!UICONTROL Test]**. Voir à ce sujet la section [Affichage de la page de condition](#conditioning-page-display).
 
-## Conditionner l&#39;affichage d&#39;un élément {#conditioning-item-display}
+## Affichage de l’élément de condition {#conditioning-item-display}
 
 Pour rendre l&#39;affichage d&#39;une partie d&#39;un rapport conditionnel, vous devez définir ses conditions de visibilité : si ces conditions ne sont pas remplies, alors le ou les éléments ne seront pas affichés.
 
@@ -35,7 +32,7 @@ Dans l&#39;exemple suivant, la condition d&#39;affichage dépend de la langue :
 
 ![](assets/reporting_display_condition.png)
 
-## Conditionner l&#39;affichage d&#39;une page {#conditioning-page-display}
+## Affichage de la page de condition {#conditioning-page-display}
 
 Dans le diagramme d&#39;un rapport, l&#39;activité **[!UICONTROL Test]** vous permet de modifier l&#39;enchaînement des pages du rapport en fonction d&#39;une ou plusieurs conditions.
 

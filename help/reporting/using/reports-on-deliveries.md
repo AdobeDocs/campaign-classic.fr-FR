@@ -2,13 +2,10 @@
 product: campaign
 title: Rapports sur les diffusions
 description: Rapports sur les diffusions
-audience: reporting
-content-type: reference
-topic-tags: accessing-built-in-reports
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 100%
 
 ---
@@ -27,7 +24,6 @@ Les types de rapports disponibles sont les suivants :
 
 Vous pouvez accéder aux rapports depuis la page d&#39;accueil de la console cliente, le tableau de bord des rapports ou la liste des diffusions. Le mode d&#39;affichage d&#39;un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d&#39;accueil et permet d&#39;accéder rapidement aux données des diffusions. Cette liste peut être modifiée selon vos besoins. Voir [cette section](../../reporting/using/about-reports-creation-in-campaign.md) pour plus d&#39;informations.
 
-## Ergonomie des rapports {#using-reports}
 
 Un champ de recherche est disponible depuis le tableau de bord des rapports et vous permet d&#39;accéder plus rapidement à l&#39;un des rapports de la liste.
 

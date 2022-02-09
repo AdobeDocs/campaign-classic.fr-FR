@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Collecter les données à analyser
-description: Collecter les données à analyser
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+title: Collecte des données à analyser
+description: Collecte des données à analyser
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Collecter les données à analyser{#collecting-data-to-analyze}
+# Collecte des données à analyser{#collecting-data-to-analyze}
 
 ![](../../assets/common.svg)
 
@@ -33,7 +30,7 @@ Dans tous les cas, les données sont collectées au travers d&#39;une activité 
 
 Ce mode de sélection des données est pertinent lorsque les données du rapport doivent être collectées, ou construites, à partir des données de la base. Dans certains cas, il est également possible de sélectionner directement les données au niveau des éléments utilisés dans le rapport, par exemple lorsque vous insérez un graphique, vous pouvez sélectionner directement les données source. Voir à ce sujet la section [Utiliser le contexte](../../reporting/using/using-the-context.md).
 
-## Utiliser un schéma de la base {#using-the-data-from-a-schema}
+## Utiliser les données d&#39;un schéma {#using-the-data-from-a-schema}
 
 Pour utiliser directement les données associées à un schéma de la base, sélectionnez l&#39;option correspondante dans le requêteur puis paramétrez la requête à appliquer.
 
@@ -75,7 +72,7 @@ L&#39;option **[!UICONTROL Filtrer avec le dossier]** permet de spécifier un do
 
 ![](assets/reporting_control_folder.png)
 
-### Limiter la taille des données collectées {#limiting-the-amount-of-data-collected}
+### Limiter la quantité de données collectées {#limiting-the-amount-of-data-collected}
 
 Paramétrez le nombre d&#39;enregistrements à extraire via la requête à l&#39;aide des options de limitation de résultat :
 

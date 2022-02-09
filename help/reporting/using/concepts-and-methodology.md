@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: Concepts et méthodologie
-description: Concepts et méthodologie
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
+title: Bonnes pratiques relatives aux cubes
+description: Bonnes pratiques relatives aux cubes
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 100%
+source-wordcount: '1567'
+ht-degree: 96%
 
 ---
 
@@ -158,7 +155,7 @@ Pour créer un nouvel agrégat, les étapes sont les suivantes :
 
       ![](assets/s_advuser_cube_agregate_05.png)
 
-## Définition des mesures {#defining-measures}
+## Définir des mesures {#defining-measures}
 
 Les types de mesures à réaliser sont définis dans l&#39;onglet **[!UICONTROL Mesures]** du cube. Vous pouvez calculer des sommes, des moyennes, des écarts, etc.
 
@@ -182,13 +179,13 @@ Pour définir une nouvelle mesure, les étapes sont les suivantes :
 
 1. Saisissez le libellé de la mesure et ajoutez une description, puis cliquez sur **[!UICONTROL Terminer]** pour créer la mesure.
 
-## Affichage des mesures {#displaying-measures}
+## Afficher les mesures {#displaying-measures}
 
 Vous pouvez paramétrer l&#39;affichage des mesures dans le tableau selon vos besoins. Vous pouvez ainsi choisir :
 
 * l’ordre d’affichage des mesures (voir la section [Ordre d’affichage](#display-sequence)),
-* les informations à afficher/masquer dans le rapport (voir la section [Configuration de l’affichage](#configuring-the-display)),
-* les mesures à afficher : pourcentage, total, nombre de décimales, etc. (voir la section [Changement du type de mesure affichée](#changing-the-type-of-measure-displayed)).
+* les informations à afficher/masquer dans le rapport (voir [Configuration de l’affichage](#configuring-the-display))
+* les mesures à afficher : pourcentage, total, nombre de décimales, etc. (voir [Modifier le type de mesure affichée](#changing-the-type-of-measure-displayed)).
 
 ### Ordre d&#39;affichage {#display-sequence}
 
@@ -198,7 +195,7 @@ Vous pouvez changer l&#39;ordre d&#39;affichage en déplaçant les lignes. Dans 
 
 ![](assets/s_advuser_cube_in_report_config_04.png)
 
-### Configuration de l&#39;affichage {#configuring-the-display}
+### Configuration de l’affichage {#configuring-the-display}
 
 Le paramétrage des mesures, lignes et colonnes affichées peut être réalisé unitairement pour chaque mesure ou au niveau général. Une icône spécifique permet d&#39;accéder à la fenêtre de sélection des modes d&#39;affichage.
 
@@ -212,13 +209,13 @@ Les options de coloration permet d&#39;identifier visuellement les valeurs les p
 
 ![](assets/s_advuser_cube_in_report_config_06.png)
 
-### Changement du type de mesure affichée {#changing-the-type-of-measure-displayed}
+### Modifier le type de mesure affichée {#changing-the-type-of-measure-displayed}
 
 Au niveau de chaque mesure, vous pouvez définir l&#39;unité et le formatage à appliquer.
 
 ![](assets/s_advuser_cube_in_report_config_07.png)
 
-## Partager un rapport {#sharing-a-report}
+## Partager votre rapport {#sharing-a-report}
 
 Une fois le rapport paramétré, vous pouvez choisir de le conserver et de le partager avec d&#39;autres opérateurs.
 

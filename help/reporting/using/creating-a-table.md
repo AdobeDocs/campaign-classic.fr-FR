@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Créer un tableau
-description: Créer un tableau
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+title: Création d’un tableau
+description: Création d’un tableau
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '2643'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Créer un tableau{#creating-a-table}
+# Création d’un tableau{#creating-a-table}
 
 ![](../../assets/common.svg)
 
@@ -21,13 +18,13 @@ Vous pouvez ajouter un tableau dans un rapport afin d&#39;afficher les données.
 
 ![](assets/s_advuser_report_page_activity_05.png)
 
-## Créer une liste avec groupement {#creating-a-list-with-group}
+## Création d’une liste avec groupe {#creating-a-list-with-group}
 
 Un tableau de type **[!UICONTROL Liste avec groupement]** vous permet de regrouper certaines de vos données dans le tableau et de produire des statistiques sur les données qu&#39;il contient. Vous pouvez par exemple créer des totaux et des sous-totaux sur les données. Chaque groupement contient une ligne d&#39;en-tête, de détail et de pied.
 
 >[!CAUTION]
 >
->L&#39;activité **[!UICONTROL Page]** qui contient le tableau doit être précédée d&#39;une activité **[!UICONTROL Requête]** ou **[!UICONTROL Script]** afin de collecter les données qui seront analysées dans le rapport. Voir à ce sujet les sections [Collecter les données à analyser](../../reporting/using/collecting-data-to-analyze.md) et [Activité Script](../../reporting/using/advanced-functionalities.md#script-activity).
+>L&#39;activité **[!UICONTROL Page]** qui contient le tableau doit être précédée d&#39;une activité **[!UICONTROL Requête]** ou **[!UICONTROL Script]** afin de collecter les données qui seront analysées dans le rapport. Voir à ce sujet la section [Collecter les données à analyser](../../reporting/using/collecting-data-to-analyze.md) et [Activité Script](../../reporting/using/advanced-functionalities.md#script-activity).
 
 ### Principe de fonctionnement {#operating-principle}
 
@@ -45,7 +42,7 @@ Un exemple complet de mise en œuvre est proposé ici : [Cas pratique : créer
 
 Toutefois, notez que les étapes de création d&#39;un tableau de type &#39;Liste avec groupement&#39; sont les suivantes :
 
-1. Dans le diagramme d&#39;un rapport, positionnez une activité **[!UICONTROL Requête]**. Voir à ce sujet la section [Collecter les données à analyser](../../reporting/using/collecting-data-to-analyze.md).
+1. Dans le diagramme d&#39;un rapport, positionnez une activité **[!UICONTROL Requête]**. Voir [Collecter les données à analyser](../../reporting/using/collecting-data-to-analyze.md).
 1. Renseigner la table source et sélectionner les champs de la table sur lesquels porteront les statistiques.
 1. Positionnez une activité **[!UICONTROL Page]** dans le diagramme. Voir à ce sujet la section [Eléments statiques](../../reporting/using/creating-a-new-report.md#static-elements).
 1. Insérer un tableau de type **[!UICONTROL Liste avec groupement]** dans la page.
@@ -56,7 +53,7 @@ Toutefois, notez que les étapes de création d&#39;un tableau de type &#39;List
 1. Créer le tableau et son contenu.
 1. Affichez le rapport finalisé dans l&#39;onglet **[!UICONTROL Prévisualisation]**. Vous pouvez ensuite publier le rapport et l&#39;exporter vers un autre format. Voir à ce sujet la section [Exporter un rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
-### Ajouter des lignes et des colonnes {#adding-lines-and-columns}
+### Ajout de lignes et de colonnes {#adding-lines-and-columns}
 
 Un tableau de type **[!UICONTROL Liste avec groupement]** est composé par défaut d&#39;une ligne d&#39;en-tête, d&#39;une ligne de détail et d&#39;une ligne de pied.
 
@@ -94,7 +91,7 @@ La largeur des colonnes peut être modifiée à partir de l&#39;entrée **[!UICO
 
 ![](assets/s_advuser_ergo_listgroup_007.png)
 
-### Définir le contenu des cellules {#defining-cell-content}
+### Définition du contenu des cellules {#defining-cell-content}
 
 Pour éditer une cellule du tableau et définir son contenu et son format, cliquez dans la cellule et utilisez le menu contextuel.
 
@@ -118,7 +115,7 @@ Utilisez l&#39;entrée de menu **[!UICONTROL Expression]** pour sélectionner le
 
    ![](assets/s_advuser_ergo_listgroup_008.png)
 
-### Définir le format des cellules {#defining-cell-format}
+### Définition du format de cellule {#defining-cell-format}
 
 ![](assets/s_advuser_ergo_listgroup_017.png)
 
@@ -448,7 +445,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 
    Votre page est à présent paramétrée.
 
-### Etape 6 - Visualiser le rapport {#step-6---viewing-the-report}
+### Etape 6 - Afficher le rapport {#step-6---viewing-the-report}
 
 Pour visualiser le résultat de ce paramétrage, cliquez sur l&#39;onglet **[!UICONTROL Prévisualisation]** puis sélectionnez l&#39;option **[!UICONTROL Global]**.
 

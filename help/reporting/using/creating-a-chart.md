@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Créer un graphique
-description: Créer un graphique
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+title: Création d’un graphique
+description: Découvrez comment concevoir un graphique
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
-source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 98%
 
 ---
 
-# Créer un graphique{#creating-a-chart}
+# Création d’un graphique{#creating-a-chart}
 
 ![](../../assets/common.svg)
 
@@ -127,7 +124,7 @@ Les types d&#39;interactions possibles et leurs paramétrages sont présentés d
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 
-## Calculer des statistiques {#calculating-statistics}
+## Calculer les statistiques {#calculating-statistics}
 
 Dans les graphiques, vous pouvez afficher des statistiques sur les données collectées.
 

@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Traitement du rapport
-description: Traitement du rapport
-audience: reporting
-content-type: reference
-topic-tags: analyzing-populations
+title: Utiliser un rapport d'analyse
+description: Utiliser un rapport d'analyse
 exl-id: d133efec-33e1-4711-a90f-e40385059386
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 100%
+source-wordcount: '876'
+ht-degree: 93%
 
 ---
 
-# Utiliser un rapport d’analyse{#processing-a-report}
+# Utiliser un rapport d&#39;analyse{#processing-a-report}
 
 ![](../../assets/common.svg)
 
@@ -23,7 +20,7 @@ Si vous bénéficiez des droits adéquats, vous pouvez sauvegarder un rapport d&
 
 Pour sauvegarder votre rapport, cliquez sur **[!UICONTROL Enregistrer]** et appliquez un libellé à votre rapport.
 
-Sélectionnez **[!UICONTROL Enregistrer aussi les données]** si vous souhaitez créer un historique de votre rapport et retrouver les valeurs du rapport au moment où vous le sauvegardez. Pour plus d&#39;informations, consultez la section [Archiver les rapports d&#39;analyse](#archiving-analysis-reports).
+Sélectionnez **[!UICONTROL Enregistrer aussi les données]** si vous souhaitez créer un historique de votre rapport et retrouver les valeurs du rapport au moment où vous le sauvegardez. Voir à ce sujet la section [Archiver les rapports d’analyse](#archiving-analysis-reports).
 
 L&#39;option **[!UICONTROL Partager ce rapport]** rend le rapport accessible à d&#39;autres opérateurs.
 
@@ -125,7 +122,7 @@ Pour exporter les données d&#39;un rapport d&#39;analyse, cliquez sur la liste 
 
 Voir à ce propos [cette page](../../reporting/using/actions-on-reports.md).
 
-## Ré-utiliser des analyses et rapports existants {#re-using-existing-reports-and-analyses}
+## Réutiliser des analyses et rapports existants {#re-using-existing-reports-and-analyses}
 
 Vous pouvez créer des rapports d&#39;analyse descriptive sur les données à partir de rapports existants, déjà enregistrés dans Adobe Campaign. Ce mode d&#39;utilisation est possible lorsque des analyses ont été enregistrées ou lorsque des rapports ont été créés et paramétrés pour être accessibles depuis l&#39;assistant d&#39;analyse descriptive.
 
@@ -138,7 +135,7 @@ Pour créer des rapports d&#39;analyse descriptive, l&#39;assistant d&#39;analys
 
    ![](assets/s_ncs_user_report_wizard_01.png)
 
-## Archiver les rapports d&#39;analyse {#archiving-analysis-reports}
+## Archiver les rapports d’analyse {#archiving-analysis-reports}
 
 Lorsque vous créez une analyse descriptive à partir d&#39;une analyse existante, vous avez la possibilité de créer des historiques afin de sauvegarder les données d&#39;une analyse à l&#39;autre et comparer les résultats de vos rapports.
 

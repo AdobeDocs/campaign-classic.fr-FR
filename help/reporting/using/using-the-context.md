@@ -1,27 +1,24 @@
 ---
 product: campaign
-title: Utiliser le contexte
-description: Utiliser le contexte
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+title: Utiliser le contexte dans vos rapports
+description: Découvrez comment utiliser le contexte dans vos rapports
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Utiliser le contexte{#using-the-context}
+# Utiliser le contexte dans vos rapports{#using-the-context}
 
 ![](../../assets/common.svg)
 
-Lorsque vous souhaitez représenter les données sous forme de **[!UICONTROL tableau]** ou de **[!UICONTROL graphique]**, elles peuvent provenir de deux sources : d&#39;une nouvelle requête (voir la section [Définir un filtre direct sur les données](#defining-a-direct-filter-on-data)) ou du contexte du rapport (voir la section [Utiliser les données du contexte](#using-context-data)).
+Lorsque vous souhaitez représenter des données sous la forme de **[!UICONTROL tables]** ou **[!UICONTROL Graphiques]**, elle peut provenir de deux sources : une nouvelle requête (voir [Définir un filtre direct sur les données](#defining-a-direct-filter-on-data)) ou le contexte du rapport (voir [Utiliser les données contextuelles](#using-context-data)).
 
 ## Définir un filtre direct sur les données {#defining-a-direct-filter-on-data}
 
-### Filtrer les données {#filtering-data}
+### Filtrage des données {#filtering-data}
 
 Il n&#39;est pas obligatoire d&#39;utiliser une activité de type **[!UICONTROL Requête]** lors de la construction d&#39;un rapport. En effet, les données peuvent être filtrées directement au niveau des tableaux et des graphiques qui composent ce rapport.
 
@@ -64,7 +61,7 @@ Le résultat sera que seuls les destinataires répondant aux critères de filtra
 
 ![](assets/s_ncs_advuser_report_display_04.png)
 
-## Utiliser les données du contexte {#using-context-data}
+## Utiliser les données contextuelles {#using-context-data}
 
 Lorsque vous souhaitez représenter les données sous forme de **[!UICONTROL tableau]** ou de **[!UICONTROL graphique]**, les données peuvent provenir du contexte du rapport.
 
@@ -72,7 +69,7 @@ Dans la page contenant le tableau ou le graphique, l&#39;onglet **[!UICONTROL Do
 
 ![](assets/s_ncs_advuser_report_datasource_3.png)
 
-* L&#39;option **[!UICONTROL Nouvelle requête]** permet de créer une requête pour collecter des données. Pour plus d&#39;informations, consultez la section [Définir un filtre direct sur les données](#defining-a-direct-filter-on-data).
+* L&#39;option **[!UICONTROL Nouvelle requête]** permet de créer une requête pour collecter des données. Voir à ce sujet la section [Définir un filtre direct sur les données](#defining-a-direct-filter-on-data).
 * L&#39;option **[!UICONTROL Données du contexte]** permet d&#39;utiliser les données d&#39;entrée : le contexte du rapport correspond aux informations qui sont véhiculées dans la transition entrante de la page contenant le graphique ou le tableau. Ce contexte peut, par exemple, contenir les données collectées via une activité **[!UICONTROL Requête]** placée avant l&#39;activité **[!UICONTROL Page]**, et dans laquelle vous spécifiez la table et les champs sur lesquels doit porter le rapport.
 
 Par exemple, dans une boîte de requête, construisez la requête suivante sur les destinataires :

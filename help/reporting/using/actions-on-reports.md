@@ -2,14 +2,11 @@
 product: campaign
 title: Agir sur les rapports
 description: Agir sur les rapports
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 100%
+source-wordcount: '571'
+ht-degree: 97%
 
 ---
 
@@ -56,7 +53,7 @@ Dans les rapports de type **[!UICONTROL Liste avec groupement]** destinés à ê
 * Les rapports ne doivent pas utiliser de formatage spécifique défini au niveau des cellules. Il est préférable d&#39;utiliser le **[!UICONTROL Rendu des formulaires]** pour définir le format des cellules du tableau. Le **[!UICONTROL Rendu des formulaires]** est accessible depuis **[!UICONTROL Administration > Paramétrage > Rendu des formulaires]**.
 * Il est recommandé de ne pas insérer de contenu HTML.
 * Lorsqu&#39;un rapport contient plusieurs éléments de type tableaux, graphiques, etc., ils seront exportés les uns en-dessous des autres.
-* Vous pouvez forcer le retour à la ligne dans les cellules : cette configuration sera conservée dans Excel. Voir à ce sujet la section [Définir le format des cellules](../../reporting/using/creating-a-table.md#defining-cell-format).
+* Vous pouvez forcer le retour à la ligne dans les cellules : cette configuration sera conservée dans Excel. Pour plus d’informations, consultez [cette section](../../reporting/using/creating-a-table.md#defining-cell-format).
 
 ### Retarder l&#39;export {#postpone-the-export}
 

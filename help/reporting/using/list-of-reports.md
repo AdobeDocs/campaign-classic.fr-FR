@@ -2,14 +2,11 @@
 product: campaign
 title: Liste des rapports
 description: Liste des rapports
-audience: reporting
-content-type: reference
-topic-tags: accessing-built-in-reports
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Créer les indicateurs
-description: Créer les indicateurs
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
+title: Création d’indicateurs
+description: Création d’indicateurs
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 93%
 
 ---
 
-# Créer les indicateurs{#creating-indicators}
+# Création d’indicateurs{#creating-indicators}
 
 ![](../../assets/common.svg)
 
@@ -21,10 +18,10 @@ Pour qu&#39;un cube puisse être exploité, vous devez identifier les dimensions
 
 Les étapes de création d&#39;un cube sont les suivantes :
 
-1. Sélectionner la table de travail. Pour plus d&#39;informations, consultez la section [Sélectionner la table de travail](#selecting-the-work-table).
-1. Définir des dimensions. Pour plus d&#39;informations, consultez la section [Définir des dimensions](#defining-dimensions).
-1. Définir des mesures. Pour plus d&#39;informations, consultez la section [Construire les indicateurs](#building-indicators).
-1. Créer des agrégats (facultatif). Pour plus d&#39;informations, consultez la section [Calcul et utilisation d&#39;agrégats](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
+1. Sélectionner la table de travail. Voir [Sélectionner la table de travail](#selecting-the-work-table).
+1. Définir des dimensions. Voir [Définition de dimensions](#defining-dimensions).
+1. Définir des mesures. Voir [Construire les indicateurs](#building-indicators).
+1. Créer des agrégats (facultatif). Voir [Calcul et utilisation d&#39;agrégats](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
 
 L&#39;exemple ci-après permet de créer rapidement un cube simple et de l&#39;utiliser dans un rapport afin d&#39;en explorer les mesures.
 
@@ -105,7 +102,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/s_advuser_cube_wz_11.png)
 
-   Le lien **[!UICONTROL Filtrer les données de la mesure...]** permet de ne sélectionner que les femmes. La procédure de définition des mesures et les options disponibles sont présentées dans la section [Définition des mesures](../../reporting/using/concepts-and-methodology.md#defining-measures).
+   Le lien **[!UICONTROL Filtrer les données de la mesure...]** permet de ne sélectionner que les femmes. La définition des mesures et les options disponibles sont présentées dans la section [Définition de mesures](../../reporting/using/concepts-and-methodology.md#defining-measures).
 
    ![](assets/s_advuser_cube_wz_12.png)
 
@@ -131,7 +128,7 @@ Pour cela :
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. Vous pouvez déplacer les dimensions d&#39;un axe à l&#39;autre, les supprimer, ajouter de nouvelles mesures, etc. Les opérations possibles sont décrites ici : [Utiliser des cubes pour explorer les données](../../reporting/using/using-cubes-to-explore-data.md).
+1. Vous pouvez déplacer les dimensions d&#39;un axe à l&#39;autre, les supprimer, ajouter de nouvelles mesures, etc. Les opérations possibles sont présentées dans la section [cette page](../../reporting/using/using-cubes-to-explore-data.md).
 
    Pour cela, utilisez les icônes correspondantes.
 
