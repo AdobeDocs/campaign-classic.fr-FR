@@ -177,7 +177,6 @@ Grâce à la fonctionnalité Service de retour d&#39;e-mail (EFS - Email Feedbac
 >[!IMPORTANT]
 >
 >Le service de retour d&#39;e-mail est actuellement disponible en version bêta.
-
 >
 >Si vous souhaitez participer à ce programme en version bêta, remplissez [ce formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous recontacterons.
 
