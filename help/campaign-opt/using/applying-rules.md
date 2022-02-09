@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Appliquer les règles
-description: Appliquer les règles
+title: Appliquer les règles de typologie
+description: Découvrez comment appliquer des règles de typologie
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
+source-git-commit: 808f459a0b77b1787fc017c031247ab268b5aafa
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 98%
+source-wordcount: '1047'
+ht-degree: 97%
 
 ---
 

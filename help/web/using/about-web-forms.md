@@ -2,11 +2,9 @@
 product: campaign
 title: Prise en main des formulaires web
 description: Prise en main des formulaires web dans Campaign
-audience: web
-content-type: reference
-topic-tags: web-forms
+feature: Landing Pages
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 100%

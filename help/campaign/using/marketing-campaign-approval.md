@@ -2,8 +2,9 @@
 product: campaign
 title: Validation des campagnes marketing
 description: Découvrez comment gérer les validations des campagnes marketing
+feature: Approvals
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
+source-git-commit: 3af4f259b80b3e03c81ee278b470ef6ffe3fe4d0
 workflow-type: tm+mt
 source-wordcount: '2603'
 ht-degree: 100%

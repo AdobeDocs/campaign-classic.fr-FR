@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Envoyer un email d'anniversaire
+title: Envoi d’un email d’anniversaire
 description: Découvrez comment envoyer un email d’anniversaire à l’aide d’un workflow
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 100%
 
 ---
 
-# Envoyer un email d&#39;anniversaire{#sending-a-birthday-email}
+# Envoi d’un email d’anniversaire{#sending-a-birthday-email}
 
 ![](../../assets/common.svg)
 

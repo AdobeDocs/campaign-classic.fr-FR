@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Paramétrer un import récurrent
+title: Configuration d'un d'import récurrent
 description: Découvrez comment paramétrer un modèle de workflow pour les imports récurrents.
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 100%
 
 ---
 
-# Paramétrage d&#39;un workflow d&#39;import récurrent {#setting-up-a-recurring-import}
+# Configuration d’un workflow d’import récurrent {#setting-up-a-recurring-import}
 
 ![](../../assets/common.svg)
 

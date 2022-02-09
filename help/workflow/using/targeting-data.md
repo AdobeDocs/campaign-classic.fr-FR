@@ -2,24 +2,22 @@
 product: campaign
 title: Cibler les données
 description: En savoir plus sur le ciblage des données dans un workflow
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Query Editor, Data Management
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '2031'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Cibler les données{#targeting-data}
+# Données de la cible{#targeting-data}
 
 ![](../../assets/common.svg)
 
-## Créer une requête        {#creating-queries}
+## Création de requêtes {#creating-queries}
 
-### Sélectionner les données {#selecting-data}
+### Sélectionner des données {#selecting-data}
 
 Une activité **[!UICONTROL Requête]** permet de sélectionner des données de base pour créer la population cible. Voir à ce sujet la section [Créer une requête](query.md#creating-a-query).
 
@@ -79,9 +77,9 @@ Vous pouvez partager une cible en plusieurs sous-ensembles en utilisant uniqueme
 
 Pour plus d’informations, voir la section [Création de sous-ensembles à l’aide de l’activité Partage](#creating-subsets-using-the-split-activity).
 
-## Segmenter des données {#segmenting-data}
+## Données de segment {#segmenting-data}
 
-### Réunir plusieurs cibles (Union) {#combining-several-targets--union-}
+### Combiner plusieurs cibles (Union) {#combining-several-targets--union-}
 
 L&#39;activité d&#39;union permet de regrouper le résultat de plusieurs activités dans une même transition. Les ensembles ne doivent pas nécessairement être homogènes.
 
@@ -139,7 +137,7 @@ La réconciliation entre les données se fait au choix par identifiant, changeme
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
-### Création de sous-ensembles à l&#39;aide de l&#39;activité Partage {#creating-subsets-using-the-split-activity}
+### Créer des sous-ensembles à l&#39;aide de l&#39;activité Partage {#creating-subsets-using-the-split-activity}
 
 L&#39;activité **[!UICONTROL Partage]** est une activité standard qui permet de créer autant d&#39;ensembles que nécessaires à partir d&#39;une ou plusieurs dimensions de filtrage et de générer en sortie une transition par sous-ensemble ou une transition unique.
 
@@ -251,7 +249,7 @@ Pour réaliser ces opérations, Adobe Campaign propose :
 >  
 >Par exemple, la suppression d&#39;un destinataire via un workflow n&#39;entraînera pas la suppression de ses historiques de diffusion. En revanche, la suppression d&#39;un destinataire directement dans le dossier &#39;Destinataires&#39; de l&#39;arborescence entraînera bien la suppression de toutes les données liées à ce dernier.
 
-### Enrichir/Modifier des données {#enriching-and-modifying-data}
+### Enrichir et modifier des données {#enriching-and-modifying-data}
 
 En complément de la dimension de ciblage, la dimension de filtrage permet de préciser la nature des données collectées. Voir à ce sujet la section [Dimension de ciblage et dimension de filtrage](building-a-workflow.md#targeting-and-filtering-dimensions).
 

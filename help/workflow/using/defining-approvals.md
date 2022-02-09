@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Définir les validations
+title: Définition des validations
 description: Les validations permettent à des opérateurs de prendre des décisions à certaines étapes d'un workflow ou de confirmer la poursuite d'un traitement
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Approvals
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3af4f259b80b3e03c81ee278b470ef6ffe3fe4d0
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '871'
+ht-degree: 98%
 
 ---
 
-# Définir les validations {#defining-approvals}
+# Définition des validations {#defining-approvals}
 
 ![](../../assets/common.svg)
 
@@ -29,7 +27,7 @@ Dans les opérations, toutes les étapes qui nécessitent une validation fonctio
 
 ![](assets/validation-1-in-op.png)
 
-Des exemples de validations sont proposés dans cette [section](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
+Vous trouverez des exemples de validations dans la section [cette section](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 Pour répondre, l&#39;opérateur dispose de deux modes : valider via la page web dont l&#39;URL est fournie dans l&#39;email envoyé, ou valider directement depuis la console.
 
@@ -37,7 +35,7 @@ Pour répondre, l&#39;opérateur dispose de deux modes : valider via la page we
 >
 >Une fois la réponse enregistrée, elle ne peut plus être modifiée.
 
-## Envoi d&#39;emails {#sending-emails}
+## Validations par email {#sending-emails}
 
 Il est possible de recevoir un message de validation qui contient un lien vers une page Web permettant de répondre. Pour le recevoir l&#39;opérateur ciblé doit renseigner son adresse email dans son profil. Dans le cas contraire, il devra passer par la console pour répondre.
 
@@ -47,7 +45,7 @@ L&#39;envoi des emails de validation se fait grâce à une diffusion au fil de l
 
 Les diffusions créées depuis ce modèle sont stockées dans le dossier **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Diffusions techniques > Notifications de workflow]**.
 
-## Validation depuis la console {#approval-via-the-console}
+## Validations via la console {#approval-via-the-console}
 
 Dans les opérations, les éléments à valider sont affichés dans le tableau de bord de l&#39;opération.
 

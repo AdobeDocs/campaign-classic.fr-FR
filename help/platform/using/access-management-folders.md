@@ -2,11 +2,11 @@
 product: campaign
 title: Gestion de l’accès aux dossiers Campaign
 description: Découvrez comment octroyer l’accès aux dossiers Campaign et créer des vues
-feature: Application Settings
+feature: Application Settings, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 100%

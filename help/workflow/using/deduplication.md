@@ -2,11 +2,9 @@
 product: campaign
 title: Déduplication
 description: En savoir plus sur l’activité de workflow de déduplication
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Data Management
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: def4f7fb46c838e9fe620820cf387dd3e2b8a55b
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%

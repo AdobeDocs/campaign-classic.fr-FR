@@ -2,18 +2,16 @@
 product: campaign
 title: Requête sur la table des destinataires
 description: Découvrez comment effectuer une requête sur la table des destinataires
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Query Editor
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
 ---
 
-# Requête sur la table des destinataires {#querying-recipient-table}
+# Requête de la table des destinataires {#querying-recipient-table}
 
 ![](../../assets/common.svg)
 

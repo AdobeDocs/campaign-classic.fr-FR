@@ -2,11 +2,9 @@
 product: campaign
 title: Mise à jour de données
 description: En savoir plus sur l’activité de workflow de mise à jour des données
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Data Management
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 100%

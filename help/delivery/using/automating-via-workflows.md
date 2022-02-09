@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: Automatiser via les workflows
-description: Automatiser via les workflows
-audience: delivery
-content-type: reference
-topic-tags: content-management
+title: Automatisation par workflows
+description: Découvrez comment automatiser la gestion de contenu via des workflows
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 100%
+source-wordcount: '1202'
+ht-degree: 99%
 
 ---
 

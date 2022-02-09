@@ -2,11 +2,9 @@
 product: campaign
 title: À propos des workflows
 description: Automatisez les processus avec des workflows, gérez les données et les audiences, envoyez des messages, et plus encore.
-audience: workflow
-content-type: reference
-topic-tags: introduction
+feature: Workflows, Data Management
 exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%

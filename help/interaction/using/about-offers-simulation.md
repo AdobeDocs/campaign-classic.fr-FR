@@ -2,11 +2,8 @@
 product: campaign
 title: À propos de la simulation des offres
 description: À propos de la simulation des offres
-audience: interaction
-content-type: reference
-topic-tags: simulating-offers
 exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
-source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%

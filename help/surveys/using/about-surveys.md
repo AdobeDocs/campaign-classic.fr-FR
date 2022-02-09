@@ -2,11 +2,9 @@
 product: campaign
 title: Prise en main des questionnaires
 description: Prise en main des questionnaires Campaign
-audience: web
-content-type: reference
-topic-tags: online-surveys
+feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%

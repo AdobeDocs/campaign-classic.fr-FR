@@ -2,11 +2,11 @@
 product: campaign
 title: Prise en main des opérateurs Campaign
 description: Découvrez comment créer et gérer des utilisateurs Campaign
-feature: Access Management
+feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 100%

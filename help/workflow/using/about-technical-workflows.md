@@ -2,11 +2,9 @@
 product: campaign
 title: Workflows techniques
 description: Pour en savoir plus sur les workflows techniques disponibles avec les packages Campaign Classic.
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: f007dcbf63d7a69a6d532d0be99b0fa90f4f6d7a
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 100%

@@ -2,11 +2,8 @@
 product: campaign
 title: À propos des canaux entrants
 description: À propos des canaux entrants
-audience: interaction
-content-type: reference
-topic-tags: unitary-interactions
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%

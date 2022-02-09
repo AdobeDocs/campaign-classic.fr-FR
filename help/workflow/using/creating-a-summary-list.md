@@ -2,11 +2,9 @@
 product: campaign
 title: Créer une liste récapitulative
 description: Créer une liste récapitulative
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 100%

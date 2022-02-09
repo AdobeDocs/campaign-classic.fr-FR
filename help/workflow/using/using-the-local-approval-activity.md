@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Utiliser l'activité Validation en local
+title: Utilisation de l’activité de validation en local
 description: Découvrez comment utiliser l’activité Validation en local
 audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 100%
 
 ---
 
-# Utiliser l&#39;activité Validation en local{#using-the-local-approval-activity}
+# Utilisation de l’activité de validation en local{#using-the-local-approval-activity}
 
 ![](../../assets/common.svg)
 
