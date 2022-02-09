@@ -6,14 +6,14 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
-source-git-commit: 08af51345c047612b010c82646cba99becfda459
+source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 100%
+source-wordcount: '270'
+ht-degree: 98%
 
 ---
 
-# À propos des activités d’action{#about-action-activities}
+# Activités d’action dans les workflows{#about-action-activities}
 
 ![](../../assets/common.svg)
 

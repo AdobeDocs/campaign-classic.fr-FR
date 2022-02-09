@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Construire un workflow
+title: Création d’un workflow
 description: Découvrez comment construire un workflow
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 638b259462d3e01d744567e56d67a120359dc34a
+source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 100%
+source-wordcount: '1678'
+ht-degree: 96%
 
 ---
 
-# Construire un workflow {#building-a-workflow}
+# Création d’un workflow {#building-a-workflow}
 
 ![](../../assets/common.svg)
 
@@ -27,7 +25,7 @@ Cette section détaille les principes clés et les bonnes pratiques pour la cré
 * Pour créer des workflows techniques et y accéder, voir [Workflows techniques](#technical-workflows)
 * Pour utiliser des modèles afin de créer des workflows, voir [Modèles de workflows](#workflow-templates)
 
-## Créer un nouveau workflow {#creating-a-new-workflow}
+## Créez un nouveau workflow {#creating-a-new-workflow}
 
 A partir de l&#39;**[!UICONTROL Explorateur]**, accédez à un dossier de workflow. Par défaut, vous pouvez utiliser **[!UICONTROL Profils et cibles]** > **[!UICONTROL Traitements]** > **[!UICONTROL Workflows de ciblage]**.
 
@@ -45,7 +43,7 @@ Saisissez un libellé puis cliquez sur **[!UICONTROL Enregistrer]**.
 >
 >Lorsque vous modifiez le nom interne d&#39;une activité de workflow ou du workflow, assurez-vous de bien sauvegarder le workflow avant de le fermer pour que le nouveau nom interne soit correctement pris en compte.
 
-## Ajouter et relier les activités {#adding-and-linking-activities}
+## Ajouter et lier des activités {#adding-and-linking-activities}
 
 Vous devez maintenant définir les différentes activités et les relier entre elles dans un diagramme. A ce stade de la configuration, sont disponibles le libellé du diagramme et l&#39;état du workflow (En édition). La section inférieure de la fenêtre est réservée à l&#39;édition du diagramme. Elle contient une barre d&#39;outils, une palette d&#39;activités (à gauche) et le diagramme (à droite).
 
@@ -82,11 +80,11 @@ Pour construire le diagramme
 
 >[!CAUTION]
 >
->Vous pouvez copier et coller des activités dans un même workflow. Toutefois, nous vous déconseillons de copier et coller des activités dans différents workflows. Certains paramètres associés à des activités telles que Diffusions et Planificateur peuvent entraîner des conflits et des erreurs lors de l&#39;exécution du workflow de destination. Nous vous recommandons plutôt de **dupliquer** les workflows. Pour plus d&#39;informations, voir la section [Duplication des workflows](#duplicating-workflows).
+>Vous pouvez copier et coller des activités dans un même workflow. Toutefois, nous vous déconseillons de copier et coller des activités dans différents workflows. Certains paramètres associés à des activités telles que Diffusions et Planificateur peuvent entraîner des conflits et des erreurs lors de l&#39;exécution du workflow de destination. Nous vous recommandons plutôt de **dupliquer** les workflows. Pour plus d’informations, voir [Duplication de workflows](#duplicating-workflows).
 
 L&#39;affichage et la mise en page du diagramme peuvent être modifiés à l&#39;aide des éléments suivants :
 
-* **Utilisation de la barre d&#39;outils**
+* **Utilisation de la barre d’outils**
 
    La barre d&#39;outils de l&#39;éditeur de diagramme permet d&#39;accéder aux fonctions de mise en page et d&#39;exécution du workflow.
 
@@ -109,9 +107,9 @@ L&#39;affichage et la mise en page du diagramme peuvent être modifiés à l&#39
 
 * **Gestion des images**
 
-   Vous pouvez personnaliser l&#39;image de fond du diagramme et les images associées aux différentes activités. Pour plus d&#39;informations, consultez la section [Gestion des images d&#39;activité](managing-activity-images.md).
+   Vous pouvez personnaliser l&#39;image de fond du diagramme et les images associées aux différentes activités. Voir [Modification des images d’activité](managing-activity-images.md).
 
-## Configurer les activités {#configuring-activities}
+## Configurer des activités {#configuring-activities}
 
 Double-cliquez sur une activité pour la paramétrer ou cliquez avec le bouton droit et choisissez **[!UICONTROL Ouvrir…]**.
 
@@ -147,9 +145,9 @@ Les workflows de ciblage qui s&#39;inscrivent dans le contexte d&#39;une opérat
 
 Les étapes de création d’un workflow de ciblage sont détaillées dans les sections suivantes :
 
-1. **Identifier** les données dans la base de données - Voir [Créer des requêtes](targeting-data.md#creating-queries)
-1. **Préparer** les données pour répondre aux besoins des diffusions - Voir [Enrichir/Modifier des données](targeting-data.md#enriching-and-modifying-data)
-1. **Utiliser** les données pour effectuer des mises à jour ou dans une diffusion - Voir [Mise à jour de la base de données](how-to-use-workflow-data.md#updating-the-database)
+1. **Identifier** data in the database - Voir [Créer des requêtes](targeting-data.md#creating-queries)
+1. **Préparer** Données pour répondre aux besoins de diffusion - Voir [Enrichir et modifier des données](targeting-data.md#enriching-and-modifying-data)
+1. **Utilisation** données pour effectuer des mises à jour ou dans une diffusion - Voir [Mise à jour de la base de données](how-to-use-workflow-data.md#updating-the-database)
 
 Les résultats de tous les enrichissements et manipulations effectués lors du ciblage sont stockés pour être accessibles dans les champs de personnalisation, notamment pour les utiliser dans la création de messages personnalisés. Voir à ce sujet la section [Données de la cible](data-life-cycle.md#target-data)
 
@@ -219,7 +217,7 @@ En plus des propriétés habituelles des workflows, les propriétés du modèle 
 
 ![](assets/s_advuser_wf_template_properties.png)
 
-## Duplication des workflows {#duplicating-workflows}
+## Duplication de workflows {#duplicating-workflows}
 
 Vous pouvez dupliquer différents types de workflows. Une fois le workflow dupliqué, ses modifications ne sont pas appliquées à la copie de celui-ci.
 
@@ -239,7 +237,7 @@ La fonction Dupliquer n&#39;est pas directement disponible dans l&#39;affichage 
 
 Vous pouvez toutefois créer une vue pour afficher tous les workflows de votre instance. Dans cette vue, vous pouvez dupliquer des workflows à l&#39;aide de la fonction **Dupliquer vers**.
 
-**Commençons par créer une vue :**
+**Création d’une vue**
 
 1. Dans **Explorateur**, accédez au dossier dans lequel vous devez créer votre vue.
 1. Cliquez avec le bouton droit de la souris, accédez à **Ajouter un nouveau dossier** > **Processus**, puis sélectionnez **Workflows**.
@@ -255,7 +253,7 @@ Le nouveau dossier **Workflows** est créé.
 
 Le dossier est désormais renseigné avec tous les workflows de votre instance.
 
-**Duplication d&#39;un workflow de campagne**
+**Dupliquer un workflow de campagne**
 
 1. Sélectionnez un workflow de campagne dans la vue de workflow.
 1. Cliquez avec le bouton droit de la souris sur **Dupliquer vers**.

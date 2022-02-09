@@ -2,14 +2,11 @@
 product: campaign
 title: Paramètres avancés
 description: Paramètres avancés
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-source-git-commit: 7a1b8a1cd3ad434dac5c324056113d7ec15ddd8a
+source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +32,7 @@ Ce champ contient le nom interne de l&#39;activité.
 
 ## Image {#image}
 
-Ce champ vous permet de modifier l’image liée à une activité. Pour plus d’informations à ce sujet, voir : [Gestion des images d’activité](managing-activity-images.md).
+Ce champ vous permet de modifier l’image liée à une activité. Voir à ce sujet la section [Modification des images d’activité](managing-activity-images.md).
 
 ## Exécution {#execution}
 
@@ -67,7 +64,7 @@ Ce champ vous permet de définir le comportement à effectuer dans le cas de l&#
 
 ## Time zone {#time-zone}
 
-Ce champ vous permet de sélectionner le fuseau horaire de l’activité. Voir à ce sujet la section : [Gestion des fuseaux horaires](managing-time-zones.md).
+Ce champ vous permet de sélectionner le fuseau horaire de l’activité. Voir à ce propos : [Gestion des fuseaux horaires](managing-time-zones.md).
 
 ## En cas d&#39;erreur {#in-case-of-errors}
 
