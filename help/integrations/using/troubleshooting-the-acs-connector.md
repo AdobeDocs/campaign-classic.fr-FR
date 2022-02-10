@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -78,7 +78,7 @@ Selon votre mise en œuvre, vous pouvez rencontrer quelques problèmes courants.
 
    De plus, toutes les données associées aux destinataires et stockées dans les tables liées à nms:recipients ne sont pas synchronisées par défaut dans Campaign Standard.
 
-   Pour pouvoir continuer à utiliser les données associées, vous pouvez effectuer votre ciblage dans Campaign v7 et ajouter des données additionnelles comme décrit dans la section [Synchronisation des audiences](../../integrations/using/synchronizing-audiences.md). Vous pouvez également contacter votre consultant pour explorer les possibilités de personnalisation.
+   Pour pouvoir continuer à utiliser les données associées, vous pouvez effectuer votre ciblage dans Campaign v7 et ajouter des données additionnelles comme expliqué dans la section [Synchronisation des audiences](../../integrations/using/synchronizing-audiences.md) ou vous pouvez contacter votre consultant pour explorer les possibilités de personnalisation.
 
 * **J&#39;utilise une autre dimension de profil que la table nms:recipient par défaut dans Campaign v7. Comment synchroniser les profils avec Campaign Standard ?**
 

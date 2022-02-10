@@ -2,9 +2,9 @@
 product: campaign
 title: Gestion des accès
 description: En savoir plus sur les bonnes pratiques relatives à la gestion des accès
-feature: Access Management
+feature: Access Management, Permissions
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%

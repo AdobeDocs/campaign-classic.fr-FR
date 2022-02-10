@@ -1,23 +1,19 @@
 ---
 product: campaign
-title: Principes et cycle des données d’ACS Connector
+title: Prise en main d’ACS Connector
 description: Principes et cycle des données d’ACS Connector
-audience: integrations
-content-type: reference
-topic-tags: acs-connector
+feature: ACS Connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: f007dcbf63d7a69a6d532d0be99b0fa90f4f6d7a
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '2044'
-ht-degree: 100%
+source-wordcount: '2041'
+ht-degree: 96%
 
 ---
 
-# Principes et cycle des données d’ACS Connector{#acs-connector-principles-and-data-cycle}
+# Prise en main d’ACS Connector{#acs-connector-gs}
 
 ![](../../assets/v7-only.svg)
-
-## Introduction {#introduction}
 
 ACS Connector relie Adobe Campaign v7 à Adobe Campaign Standard. Il s’agit d’une fonctionnalité intégrée dans Campaign v7 qui réplique automatiquement les données vers Campaign Standard, rassemblant ainsi les meilleures fonctionnalités des deux applications. Campaign v7 contient des outils avancés pour gérer la base marketing principale. La réplication des données depuis Campaign v7 permet à Campaign Standard d’exploiter les données complètes dans un environnement convivial.
 
@@ -37,9 +33,9 @@ Ce document présente la fonctionnalité ACS Connector. Les sections ci-dessous 
 
 * [Processus](#process) : vue d’ensemble d’ACS Connector et de la gestion de la réplication des données.
 * [Implémentation](#implementation) : vue d’ensemble de la prise en main d’ACS Connector et instructions pour la réplication de données de base et avancées.
-* [Synchronisation de profils](../../integrations/using/synchronizing-profiles.md) : Instructions pour la réplication de profils et la création de diffusions avec ces derniers.
-* [Synchronisation d’audiences](../../integrations/using/synchronizing-audiences.md) : instructions pour le ciblage d’une liste de destinataires dans Campaign v7 et la réplication de la liste vers Campaign Standard sous forme d’audience.
-* [Synchronisation d’applications Web](../../integrations/using/synchronizing-web-applications.md) : instructions pour la liaison d’applications web de Campaign v7 à Campaign Standard.
+* [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md): Instructions sur la réplication de profils et sur la création de diffusions avec ces derniers.
+* [Synchronisation des audiences](../../integrations/using/synchronizing-audiences.md): Instructions sur la façon de cibler une liste de destinataires dans Campaign v7 et de répliquer ensuite la liste dans Campaign Standard en tant qu&#39;audience.
+* [Synchronisation des applications web](../../integrations/using/synchronizing-web-applications.md): Instructions pour lier les applications web de Campaign v7 à Campaign Standard.
 * [Résolution des problèmes liés à ACS Connector](../../integrations/using/troubleshooting-the-acs-connector.md) : validation des réponses aux problèmes courants.
 
 >[!NOTE]
@@ -101,7 +97,7 @@ Les profils répliqués sont prêts à l&#39;emploi pour les diffusions, mais pr
 * **Profils créés dans Campaign Standard** : ACS Connector réplique les données des destinataires dans un sens, de Campaign v7 vers Campaign Standard. Par conséquent, les profils issus de Campaign Standard ne sont pas répliqués dans Campaign v7.
 * **Données de destinataire de base pour Campaign Standard** : ACS Connector réplique les données des destinataires adaptées à Campaign Standard. Elles comprennent le nom, l&#39;adresse, l&#39;adresse email, le numéro de téléphone mobile, le numéro de téléphone personnel et d&#39;autres coordonnées utiles. Si d&#39;autres champs de destinataire et des tables de ciblage personnalisées de Campaign v7 sont essentiels pour votre workflow, veuillez contacter votre consultant.
 * **Import des profils mis en quarantaine** : des listes de profils qui ne souhaitent pas être contactés peuvent être importées dans Campaign v7 ou Campaign Standard en tant que profils mis en quarantaine. Le statut des profils est inclus dans la synchronisation des quarantaines entre les applications et ces profils ne sont pas utilisés dans les diffusions.
-* **Désinscription à un service dans Campaign Standard** : le choix de se désinscrire d’une diffusion n&#39;est pas synchronisé de Campaign Standard vers Campaign v7. Vous pouvez toutefois configurer une diffusion Campaign Standard pour rediriger son lien de désinscription vers Campaign v7. Le profil d&#39;un destinataire qui clique sur le lien de désinscription est mis à jour dans Campaign v7 et les données sont répliquées vers Campaign Standard. Pour plus d&#39;informations, consultez la section [Modification du lien de désinscription](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
+* **Désinscription à un service dans Campaign Standard** : le choix de se désinscrire d’une diffusion n&#39;est pas synchronisé de Campaign Standard vers Campaign v7. Vous pouvez toutefois configurer une diffusion Campaign Standard pour rediriger son lien de désinscription vers Campaign v7. Le profil d&#39;un destinataire qui clique sur le lien de désinscription est mis à jour dans Campaign v7 et les données sont répliquées vers Campaign Standard. Voir [Modification du lien de désinscription](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
 * Seuls les logs de tracking et les broadLogs des emails sont répliqués de Campaign Standard vers Campaign v7.
 
 ### Facturation {#billing}
@@ -122,7 +118,7 @@ La **mise en œuvre de base** vous permet de répliquer les destinataires (champ
 
 La **mise en œuvre avancée** permet des cas d’utilisation plus complexes, si vous disposez de champs de destinataire supplémentaires ou de tables de destinataires personnalisées (table des transactions), par exemple. Voir [Mise en œuvre avancée](#advanced-implementation).
 
-### Installer le package {#installing-the-package}
+### Installez le package {#installing-the-package}
 
 Pour permettre l’utilisation de cette fonctionnalité, le package **[!UICONTROL ACS Connector]** doit être installé. Cette étape est toujours effectuée par l’administrateur technique ou le consultant Adobe.
 

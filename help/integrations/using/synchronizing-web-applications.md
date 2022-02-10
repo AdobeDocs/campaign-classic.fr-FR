@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: Synchronisation des applications web
-description: Synchronisation des applications web
-audience: integrations
-content-type: reference
-topic-tags: acs-connector
+description: Découvrez comment synchroniser des applications web avec ACS Connector
+feature: ACS Connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 100%
+source-wordcount: '864'
+ht-degree: 96%
 
 ---
 
@@ -25,11 +23,11 @@ Si vous disposez d&#39;un grand nombre de services et d&#39;applications web dan
 
 Pour ce faire, les éléments suivants sont nécessaires :
 
-* Des destinataires stockés dans la base de données de Campaign v7 et synchronisés avec Campaign Standard. Consultez la section [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md).
+* Des destinataires stockés dans la base de données de Campaign v7 et synchronisés avec Campaign Standard. Reportez-vous à la section [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md) .
 * Un service et une application web créés et publiés dans Campaign v7.
 * L&#39;application web doit contenir une activité **[!UICONTROL Pré-chargement]** utilisant la méthode d&#39;identification **[!UICONTROL Chiffrement Adobe Campaign]**.
 
-## Création de l&#39;application web et du service {#creating-the-web-application-and-service}
+## Créer l&#39;application web et le service {#creating-the-web-application-and-service}
 
 Dans Campaign v7, vous pouvez créer une application Web qui permet aux destinataires de s&#39;inscrire à un service. L&#39;application Web et le service sont conçus et stockés dans Campaign v7. Le service peut être mis à jour par le biais d&#39;une communication de Campaign Standard. Pour plus d&#39;informations sur les applications Web dans Campaign v7, consultez [cette section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes).
 
@@ -82,11 +80,11 @@ Pour vérifier que les données ont été correctement répliquées, suivez la p
 
    ![](assets/acs_connect_lp_10.png)
 
-## Conception et envoi de l&#39;email {#designing-and-sending-the-email}
+## Concevoir et envoyer l&#39;email {#designing-and-sending-the-email}
 
 Dans cette partie, nous allons voir comment inclure un lien vers la landing page répliquée depuis une application web de Campaign v7 dans un email Campaign Standard.
 
-Les étapes de création, de conception et d&#39;envoi de l&#39;email sont les mêmes que pour un email classique. Pour plus d&#39;informations, consultez la document [Adobe Campaign Standard](https://helpx.adobe.com/fr/support/campaign/standard.html).
+Les étapes de création, de conception et d&#39;envoi de l&#39;email sont les mêmes que pour un email classique. Pour plus d&#39;informations, consultez la document [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=fr).
 
 1. Créez un nouvel email et sélectionnez un ou plusieurs profils répliqués en tant qu&#39;audience.
 1. Editez le contenu et insérez un **[!UICONTROL Lien vers une landing page]**.
