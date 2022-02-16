@@ -4,10 +4,10 @@ title: Comprendre la gestion des quarantaines
 description: Comprendre la gestion des quarantaines
 feature: Monitoring
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: ff35cef03ba35c7a6693a65dc7d2482b916c5bdb
+source-git-commit: afe4329fd230f30e48bfbf5ac2073ca95a6fd04e
 workflow-type: tm+mt
-source-wordcount: '2702'
-ht-degree: 97%
+source-wordcount: '2931'
+ht-degree: 88%
 
 ---
 
@@ -25,21 +25,27 @@ Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires
 
 Les profils dont l&#39;adresse email ou le numéro de téléphone est en quarantaine sont automatiquement exclus lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
-Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d&#39;éviter d&#39;être ajouté à une liste bloquée par ces fournisseurs.
+Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d’éviter d’être ajouté à une liste bloquée par ces fournisseurs.
 
-De plus, elles réduisent les coûts d&#39;envoi des SMS en excluant les numéros de téléphone erronés des diffusions. Pour plus d&#39;informations sur les bonnes pratiques en matière de sécurisation et d&#39;optimisation de vos diffusions, consultez [cette page](delivery-best-practices.md) .
+De plus, elles réduisent les coûts d’envoi des SMS en excluant les numéros de téléphone erronés des diffusions.
+
+Pour plus d’informations sur les bonnes pratiques en matière de sécurisation et d’optimisation de vos diffusions, consultez [cette page](delivery-best-practices.md).
 
 ### Quarantaine et liste bloquée {#quarantine-vs-denylist}
 
-La **mise en quarantaine** concerne uniquement une adresse, pas le profil lui-même. Cela signifie que si deux profils utilisent la même adresse e-mail, en cas de mise en quarantaine de l’adresse, les deux profils seront impactés.
+La quarantaine et la liste bloquée ne s’appliquent pas au même objet :
 
-De même, un profil, dont l’adresse e-mail est en quarantaine, qui met à jour son profil et enregistre une nouvelle adresse pourra de nouveau être ciblé par des actions de diffusion.
+* La **quarantaine** s’applique uniquement à une **adresse** (ou un numéro de téléphone, etc.), et non au profil lui-même. Par exemple, un profil dont l&#39;adresse email est en quarantaine peut mettre à jour son profil et saisir une nouvelle adresse, puis être à nouveau ciblé par des actions de diffusion. De même, si deux profils ont le même numéro de téléphone, ils seront tous deux affectés si le numéro est mis en quarantaine.
 
-En revanche, en cas d’insertion en **liste bloquée**, le profil ne sera plus ciblé par aucune diffusion, par exemple après une désinscription.
+   Les adresses ou numéros de téléphone mis en quarantaine s’affichent dans les [logs d&#39;exclusion](#identifying-quarantined-addresses-for-a-delivery) (pour une diffusion) ou dans la [liste de quarantaine](#identifying-quarantined-addresses-for-the-entire-platform) (pour l&#39;ensemble de la plateforme).
+
+* En revanche, en cas d&#39;insertion en **liste bloquée**, le **profil** ne sera plus ciblé par aucune diffusion, par exemple après une désinscription (opt-out), pour un canal donné. Par exemple, si un profil de la liste bloquée pour le canal e-mail comporte deux adresses e-mail, les deux adresses seront exclues de la diffusion.
+
+   Vous pouvez vérifier si un profil est en liste bloquée pour un ou plusieurs canaux dans la variable **[!UICONTROL Ne plus contacter]** de la section du profil **[!UICONTROL Général]** . Consultez [cette section](../../platform/using/editing-a-profile.md#general-tab).
 
 >[!NOTE]
 >
->Lorsqu’un utilisateur répond à un SMS avec un mot-clé tel que « STOP » pour se désabonner des diffusions SMS, son profil n’est pas mis en liste bloquée comme c’est le cas pour la désinscription des e-mails. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
+>La quarantaine comprend un **[!UICONTROL Placé sur la liste bloquée]** statut, qui s&#39;applique lorsque les destinataires signalent votre message comme indésirable ou répondent à un message SMS avec un mot-clé tel que &quot;STOP&quot;. Dans ce cas, l’adresse ou le numéro de téléphone du profil impliqué est mis en quarantaine avec la variable **[!UICONTROL Placé sur la liste bloquée]** statut. Pour plus d&#39;informations sur la gestion des messages SMS STOP, consultez [cette section](../../delivery/using/sms-send.md#processing-inbound-messages).
 
 ## Identifier les adresses en quarantaine {#identifying-quarantined-addresses}
 
@@ -90,9 +96,12 @@ Pour chaque destinataire, vous pouvez consulter l&#39;état de son adresse email
 
 ### Supprimer une adresse en quarantaine {#removing-a-quarantined-address}
 
-Si nécessaire, vous pouvez supprimer manuellement une adresse de la liste de quarantaine. En outre, les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaine par le workflow **[!UICONTROL Nettoyage de la base]**.
+Si nécessaire, vous pouvez supprimer manuellement une adresse de la liste de quarantaine. En outre, les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaine par le workflow [Nettoyage de la base](../../production/using/database-cleanup-workflow.md).
 
-Pour supprimer manuellement une adresse de la liste de quarantaine :
+Pour supprimer manuellement une adresse de la liste de quarantaine, effectuez l’une des actions ci-dessous.
+
+>[!IMPORTANT]
+La suppression manuelle d’une adresse e-mail de la quarantaine signifie que vous recommencerez à envoyer la diffusion vers cette adresse. Par conséquent, cela peut avoir de graves répercussions sur votre délivrabilité et votre réputation IP, ce qui peut entraîner le blocage de votre adresse IP ou de votre domaine d’envoi. Procédez avec précaution lorsque vous envisagez de supprimer une adresse de quarantaine. En cas de doute, contactez un expert en délivrabilité.
 
 * Vous pouvez changer son état en **[!UICONTROL Valide]** depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > NP@I et adresses]**.
 
@@ -109,21 +118,26 @@ Les adresses sont automatiquement supprimées de la liste de quarantaine dans le
 Leur état devient ensuite **[!UICONTROL Valide]**.
 
 >[!IMPORTANT]
-Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un email.
+Destinataires ayant une adresse dans un **[!UICONTROL Quarantaine]** ou **[!UICONTROL Placé sur la liste bloquée]** ne sera jamais supprimé, même s’il reçoit un courrier électronique.
 
-Vous pouvez modifier le nombre d&#39;erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l&#39;assistant de déploiement (**[!UICONTROL Canal email]** > **[!UICONTROL Paramètres avancés]**). Pour plus d&#39;informations sur l&#39;assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md).
+Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers la méthode [MTA amélioré](sending-with-enhanced-mta.md), nombre maximum de reprises à effectuer en cas de **[!UICONTROL En erreur]** L’état et le délai minimum entre deux tentatives reposent désormais sur les performances historiques et actuelles d’une IP sur un domaine donné.
+
+Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, vous pouvez modifier le nombre d&#39;erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans la variable [assistant de déploiement](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Canal email]** > **[!UICONTROL Paramètres avancés]**) ou [au niveau de la diffusion](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
 ## Conditions de mise en quarantaine d&#39;une adresse  {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaign gère la mise en quarantaine en fonction du type d&#39;échec de la diffusion et de la raison attribuée lors de la qualification des messages d&#39;erreur (voir les sections [Qualification des emails bounce](understanding-delivery-failures.md#bounce-mail-qualification)et [Types de diffusion en échec et raisons](understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
+Adobe Campaign gère les quarantaines en fonction du type de diffusion en échec et de la raison affectée pendant la qualification des messages d’erreur (voir [Qualification des emails bounce](understanding-delivery-failures.md#bounce-mail-qualification) et [Types de diffusion en échec et raisons](understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
 
 * **Erreur de type Ignoré** : les erreurs de type Ignoré ne mettent pas une adresse en quarantaine.
 * **Erreur de type Hard** : l&#39;adresse email correspondante est mise immédiatement en quarantaine.
 * **Erreur de type Soft** : les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d&#39;erreurs. Pour plus d&#39;informations, voir la section [Comprendre la gestion des erreurs de type Soft](#soft-error-management).
 
-Si un utilisateur qualifie un email comme du spam ([feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#feedback-loops)), le message est automatiquement redirigé vers une boîte email technique gérée par Adobe. L’adresse email de l’utilisateur est alors automatiquement mise en quarantaine.
+Si un utilisateur qualifie un email comme du spam ([système de gestion des plaintes (feedback loop)](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#feedback-loops)), le message est automatiquement redirigé vers une boîte email technique gérée par Adobe. L’adresse email de l’utilisateur est alors automatiquement mise en quarantaine avec le **[!UICONTROL Placé sur la liste bloquée]** statut. Ce statut ne concerne que l’adresse. Le profil n’est pas placé sur liste bloquée afin que l’utilisateur puisse continuer à recevoir des SMS et des notifications push.
 
-Dans la liste des adresses en quarantaine, le champ **[!UICONTROL Raison de l&#39;erreur]** indique pourquoi l&#39;adresse sélectionnée a été mise en quarantaine. La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu&#39;elles ne soient pas reciblées ultérieurement.
+>[!NOTE]
+La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu&#39;elles ne soient pas reciblées ultérieurement.
+
+Dans la liste des adresses mises en quarantaine (voir [Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme](#identifying-quarantined-addresses-for-the-entire-platform)), la variable **[!UICONTROL Raison de l’erreur]** indique pourquoi l’adresse sélectionnée a été mise en quarantaine.
 
 ![](assets/tech_quarant_error_reasons.png)
 
@@ -131,11 +145,9 @@ Dans la liste des adresses en quarantaine, le champ **[!UICONTROL Raison de l&#3
 
 Contrairement aux erreurs de type Hard, les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d&#39;erreurs.
 
-* Quand le compteur d&#39;erreurs atteint le seuil limite, l&#39;adresse passe en quarantaine.
-* Dans les paramétrages par défaut, le seuil est de cinq erreurs : deux erreurs sont significatives si elles sont séparées d&#39;au moins 24h. L&#39;adresse est mise en quarantaine à la cinquième erreur.
-* Le seuil du compteur d&#39;erreurs peut être modifié. Pour en savoir plus, voir la section [Reprises après une diffusion temporairement en échec](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Les reprises seront effectuées pendant la [durée de diffusion](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period). Quand le compteur d&#39;erreurs atteint le seuil limite, l&#39;adresse passe en quarantaine. Pour en savoir plus, voir la section [Reprises après une diffusion temporairement en échec](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-Le compteur d&#39;erreurs est réinitialisé si la dernière erreur significative s&#39;est produite plus de 10 jours avant. Le statut de l&#39;adresse passe à **Valide** et est supprimé de la liste des quarantaines grâce au workflow **Nettoyage de la base**.
+Le compteur d&#39;erreurs est réinitialisé si la dernière erreur significative s&#39;est produite plus de 10 jours avant. Le statut de l&#39;adresse passe à **Valide** et est supprimé de la liste des quarantaines grâce au workflow [Nettoyage de la base](../../production/using/database-cleanup-workflow.md).
 
 ## Quarantaines des notifications push {#push-notification-quarantines}
 

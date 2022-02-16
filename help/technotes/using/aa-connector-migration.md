@@ -3,9 +3,9 @@ product: campaign
 title: Migration vers le connecteur Adobe Analytics
 description: FAQ sur Campaign - Connecteur Analytics
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
+source-git-commit: c072cb5b2d33f93ff395e4670507744b0d20c9bc
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '814'
 ht-degree: 100%
 
 ---
@@ -27,8 +27,6 @@ Vous **devez implémenter** la nouvelle intégration du connecteur Adobe Analyt
 ## Qu&#39;est-ce qui a changé ?
 
 Une nouvelle intégration entre Campaign Classic v7 et Adobe Analytics est désormais disponible. Les modifications majeures sont répertoriées ci-dessous.
-
-* L&#39;intégration entre l&#39;authentification Adobe Campaign Classic et Adobe Analytics est passée de l&#39;utilisateur/mot de passe à Adobe Identity Management Service (IMS). Par conséquent, vous devez mettre en œuvre Adobe IMS et vous connecter à Campaign [via un Adobe ID](../../integrations/using/about-adobe-id.md), avant de démarrer l&#39;implémentation du connecteur Analytics.
 
 * La classification **Date de contact**, qui doit être de type date, a été abandonnée par Adobe Analytics. Pour les intégrations migrées, elle restera du même type. Pour toute **Date de contact** créée par Campaign, le type sera **Chaîne**.
 

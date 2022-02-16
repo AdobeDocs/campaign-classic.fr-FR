@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: c30d64e6930cb97f4a3c15acd97654d57d1bbf85
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 100%
+source-wordcount: '762'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,8 @@ Le chemin WSDL d&#39;accès aux deux méthodes est :
 
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** pour accéder au schéma de type temps réel.
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** pour accéder au schéma de type batch.
+
+Pour plus d’informations sur la génération d’un fichier WSDL, voir [cette section](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
 
 Les deux méthodes contiennent un élément **`<urn:sessiontoken>`** permettant de se connecter au module de message transactionnel. Nous vous recommandons d&#39;utiliser une méthode d&#39;identification via des adresses IP approuvées. Pour récupérer le jeton de session, effectuez un appel SOAP de connexion, puis un jeton get suivi d’une fermeture de session. Utilisez le même jeton pour plusieurs appels RT. Les exemples inclus dans cette section utilisent la méthode du jeton de session qui est recommandée.
 

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 87067a0cca1a4a7f8ea1137ece6d513d58fcdb42
+source-git-commit: 31c7e41e747475ab98bcc8ffea90933a05aeaa97
 workflow-type: tm+mt
-source-wordcount: '4816'
-ht-degree: 100%
+source-wordcount: '4888'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,15 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 
 ## 2022
 
-### Janvier 
+### Février 2022 {#february-2022}
+
+Mise à jour de la **Transfert de fichier** section d’activité avec un rappel pour surveiller manuellement la taille du contenu archivé dans le répertoire SFTP, au cas où la variable **Supprimer les fichiers source après leur transfert** n’est pas sélectionnée. [En savoir plus](../../workflow/using/file-transfer.md#properties)
+
+La section Quarantaine et liste bloquée a été clarifiée. [En savoir plus](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+
+Les sections sur l&#39;envoi d&#39;une adresse en quarantaine et sur la suppression des adresses de la liste de quarantaine ont été mises à jour. [En savoir plus](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+
+### Janvier 2022 {#january-2022}
 
 **Mises à jour de la documentation accompagnant la version 7.2.1**
 

@@ -6,9 +6,9 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 47cc5bc2f16ea87b6a12f6bf500c1e8d1f406876
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '652'
 ht-degree: 100%
 
 ---
@@ -81,7 +81,7 @@ Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux optio
 
 * **[!UICONTROL Effacer les fichiers source après leur transfert]**.
 
-   Efface les fichiers sur le serveur distant.
+   Efface les fichiers sur le serveur distant. Si vous ne cochez pas cette option, veillez à surveiller manuellement la taille du contenu archivé dans le répertoire SFTP.
 
 * **[!UICONTROL Utiliser SSL]**
 
