@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Création d’une diffusion depuis un modèle
-description: Découvrez comment créer une diffusion à partir d'un modèle
+description: Découvrez comment créer une diffusion depuis un modèle
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 84%
 
 ![](../../assets/common.svg)
 
-## Associer le modèle à une diffusion {#linking-the-template-to-a-delivery}
+## Association du modèle à une diffusion {#linking-the-template-to-a-delivery}
 
 Pour créer une diffusion basée sur un modèle existant, vous devez sélectionner le modèle dans la liste des modèles de diffusion proposés.
 
@@ -28,7 +28,7 @@ Sélectionnez le répertoire visé depuis le champ **[!UICONTROL Dossier]** ou c
 
 Sélectionnez le modèle de diffusion à utiliser et cliquez sur **[!UICONTROL Ok]**.
 
-## Exécuter le modèle {#executing-the-template}
+## Exécution du modèle {#executing-the-template}
 
 Vous pouvez lancer l&#39;exécution d&#39;un modèle directement depuis la liste des modèles, sans créer de diffusion au préalable. Pour cela, sélectionnez le modèle à exécuter et cliquez sur le bouton droit de la souris. Choisissez **[!UICONTROL Actions>Exécuter le modèle de diffusion...]**.
 
@@ -42,4 +42,4 @@ Cette action crée une diffusion dans le dossier attaché au modèle. Le nom de 
 
 >[!NOTE]
 >
->Pour plus d’informations sur la configuration d’une diffusion, voir [Définir le contenu de l&#39;email](defining-the-email-content.md).
+>Pour plus dʼinformations sur la configuration dʼune diffusion, consultez la section [Définition du contenu de lʼe-mail](defining-the-email-content.md).
