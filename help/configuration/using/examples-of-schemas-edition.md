@@ -1,21 +1,21 @@
 ---
 product: campaign
-title: Exemples d'édition de schémas
-description: Exemples d’édition de schémas
+title: Exemples dʼédition de schémas
+description: Exemples dʼédition de schémas
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Exemples d&#39;édition de schémas{#examples-of-schemas-edition}
+# Exemples dʼédition de schémas{#examples-of-schemas-edition}
 
 ![](../../assets/v7-only.svg)
 
-## Étendre un tableau {#extending-a-table}
+## Extension dʼun tableau {#extending-a-table}
 
 Pour étendre la table des destinataires de schéma **nms:recipient**, la procédure est la suivante :
 
