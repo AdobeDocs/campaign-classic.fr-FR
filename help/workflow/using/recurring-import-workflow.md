@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Configuration d'un d'import récurrent
+title: Configuration dʼun dʼimport récurrent
 description: Découvrez comment paramétrer un modèle de workflow pour les imports récurrents.
 feature: Workflows
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1136'
 ht-degree: 100%
 
