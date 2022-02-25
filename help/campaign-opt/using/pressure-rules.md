@@ -5,9 +5,9 @@ description: Règles de pression
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3460'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -139,7 +139,7 @@ Dans l&#39;exemple suivant, nous allons faire dépendre le poids des newsletters
 
 1. Appliquez cette règle aux messages sur ce sujet : newsletters, offres spéciales, etc. Le poids de ces diffusions, donc leur niveau priorité, dépendra ainsi du niveau d&#39;appétence de chaque destinataire.
 
-## Définir la période {#setting-the-period}
+## Définition de la période {#setting-the-period}
 
 Les règles de pression sont définies par périodes glissantes de **n** jours.
 
@@ -157,7 +157,7 @@ Donc, pour limiter à 15 jours la prise en compte les diffusions, vous pouvez au
 
 ou
 
-1. Entrez **7d** dans le champ **[!UICONTROL Période concernée]** ET cochez la case **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]**. Option : les diffusions envoyées jusqu’à 7 jours avant la date de diffusion et planifiées jusqu’à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
+1. Entrez **7d** dans le champ **[!UICONTROL Période concernée]** ET cochez la case **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]**.  Option : les diffusions envoyées jusqu’à 7 jours avant la date de diffusion et planifiées jusqu’à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
 
    >[!AVAILABILITY]
    >Cette méthode n’est pas disponible dans Campaign v8.
@@ -217,7 +217,7 @@ Si ce nombre est supérieur au seuil, les règles d&#39;arbitrage définies dans
 
 ## Cas pratiques de règles de pression {#use-cases-on-pressure-rules}
 
-### Adapter le seuil selon un critère {#adapting-the-threshold-based-on-criterion}
+### Adaptation du seuil selon un critère {#adapting-the-threshold-based-on-criterion}
 
 Nous allons créer une règle de typologie afin de ne pas envoyer plus de 4 messages par semaine aux clients et pas plus de 2 messages par semaine aux prospects.
 
@@ -287,7 +287,7 @@ Lors de l&#39;analyse de la diffusion, les destinataires des diffusions sont exc
 
    ![](assets/campaign_opt_pressure_sample_1_10.png)
 
-### Calculer le poids de la diffusion en fonction du comportement {#calculating-the-delivery-weight-based-on-behavior}
+### Calcul du poids dʼune diffusion en fonction des comportements {#calculating-the-delivery-weight-based-on-behavior}
 
 Vous pouvez définir des règles de pression selon le comportement des destinataires : ainsi, le poids d&#39;une diffusion peut s&#39;adapter à des critères variables d&#39;un destinataire à l&#39;autre. Vous pouvez par exemple favoriser l&#39;envoi de tel ou tel message selon qu&#39;un destinataire ait visité ou non votre site internet, cliqué dans une rubrique spécifique de la dernière newsletter, qu&#39;il soit abonné ou non à un service d&#39;information ou en fonction des réponses fournies à une enquête ou un jeu en ligne, etc.
 
@@ -313,7 +313,7 @@ Les étapes de paramétrage sont les suivantes :
 1. Cliquez sur le bouton **[!UICONTROL Terminer]** et enregistrez cette règle.
 1. Associez la règle à une typologie de campagne et référencez cette typologie au niveau d&#39;une diffusion pour en valider le fonctionnement.
 
-### Envoyer uniquement les messages dont le poids est le plus élevé {#sending-only-the-highest-weighted-messages}
+### Envoi uniquement des messages dont le poids est le plus élevé {#sending-only-the-highest-weighted-messages}
 
 Vous ne souhaitez pas envoyer plus de 2 messages au cours de la même semaine, avec une limite de 2 messages par jour, à chaque destinataire, et vous voulez uniquement que les messages de poids supérieur soient diffusés.
 
@@ -321,19 +321,19 @@ Pour cela, vous devez planifier plusieurs diffusions avec des poids différents 
 
 Tout d&#39;abord, configurez la règle de pression.
 
-1. Créez une règle de pression. Voir à ce sujet la section [Créer une règle de pression](#creating-a-pressure-rule).
+1. Créez une règle de pression. Pour plus dʼinformations, consultez la section [Création dʼune règle de pression](#creating-a-pressure-rule).
 1. Dans l&#39;onglet **[!UICONTROL Général]**, sélectionnez l&#39;option **[!UICONTROL Réappliquer la règle au début de la personnalisation]**.
 
    ![](assets/campaign_opt_pressure_example_5.png)
 
-   Cette option annule la valeur définie dans le champ **[!UICONTROL Fréquence]** et applique automatiquement la règle pendant la phase de personnalisation. Voir à ce sujet la section [Ajuster la fréquence des calculs](applying-rules.md#adjusting-calculation-frequency).
+   Cette option annule la valeur définie dans le champ **[!UICONTROL Fréquence]** et applique automatiquement la règle pendant la phase de personnalisation. Pour plus dʼinformations, consultez la section [Réglage de la fréquence des calculs](applying-rules.md#adjusting-calculation-frequency).
 
 1. Dans l&#39;onglet **[!UICONTROL Pression]**, sélectionnez **[!UICONTROL 7j]** pour la **[!UICONTROL Période concernée]** et **[!UICONTROL Regroupement à la journée]** pour le **[!UICONTROL Type de période]**.
 1. Sélectionnez l&#39;option **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]** pour inclure les diffusions planifiées.
 
    ![](assets/campaign_opt_pressure_example_1.png)
 
-   Les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion seront prises en compte dans le calcul. Voir à ce sujet la section [Définir la période](#setting-the-period).
+   Les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion seront prises en compte dans le calcul. Pour plus dʼinformations, consultez la section [Définition de la période](#setting-the-period).
 
    >[!AVAILABILITY]
    >Les diffusions planifiées ne peuvent pas être prises en compte dans Campaign v8.
@@ -343,7 +343,7 @@ Tout d&#39;abord, configurez la règle de pression.
 
 Créez et configurez maintenant un workflow pour chaque diffusion à laquelle la règle de pression doit être appliquée.
 
-1. Créez une campagne. Voir à ce propos [cette section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
+1. Créez une campagne. Pour plus d’informations, consultez [cette section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
 1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d&#39;informations sur l&#39;utilisation de cette activité, consultez [cette section](../../workflow/using/query.md).
 1. Ajoutez une activité **[!UICONTROL Diffusion e-mail]** au workflow et ouvrez-la. Pour plus d&#39;informations sur l&#39;utilisation de cette activité, consultez [cette section](../../workflow/using/delivery.md).
 1. Accédez à l&#39;onglet **[!UICONTROL Validations]** des **[!UICONTROL Propriétés de la diffusion]** et désactivez toutes les validations.
