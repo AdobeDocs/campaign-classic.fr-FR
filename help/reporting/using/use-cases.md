@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Cas pratiques
-description: Cas pratiques de création de rapports
+title: Cas dʼutilisation
+description: Cas dʼutilisation de reporting
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1421'
+ht-degree: 100%
 
 ---
 
-# Cas pratiques{#use-cases}
+# Cas dʼutilisation{#use-cases}
 
 ![](../../assets/common.svg)
 
