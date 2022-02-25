@@ -5,7 +5,7 @@ description: Découvrez comment créer des SMS avec Campaign
 feature: SMS
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Pour créer une diffusion SMS, procédez comme suit :
 
    ![](assets/s_user_mobile_wizard.png)
 
-1. Identifiez votre diffusion avec un libellé, un code et une description. Pour plus d&#39;informations à ce sujet, consultez [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
+1. Identifiez votre diffusion avec un libellé, un code et une description. Pour plus d’informations, consultez [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 1. Cliquez sur **[!UICONTROL Continuer]** pour valider ces informations et afficher la fenêtre de configuration du message.
 
 ## Définition du contenu du SMS {#defining-the-sms-content}
