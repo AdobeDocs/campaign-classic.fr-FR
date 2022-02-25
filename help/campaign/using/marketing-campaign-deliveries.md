@@ -5,9 +5,9 @@ description: En savoir plus sur les diffusions d'opérations marketing
 feature: Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1552'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Une fois créées à partir d’une campagne, les diffusions y sont liées et so
 
 ![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](#create-email-video)
 
-## Créer des diffusions {#creating-deliveries}
+## Création de diffusions {#creating-deliveries}
 
 Pour créer une diffusion associée à une opération, cliquez sur le lien **[!UICONTROL Ajouter une diffusion]** proposé dans le tableau de bord de l&#39;opération.
 
@@ -29,11 +29,11 @@ Pour créer une diffusion associée à une opération, cliquez sur le lien **[!U
 
 Les paramétrages proposés sont adaptés au type de diffusion : courrier, email, canaux mobiles. [En savoir plus](../../delivery/using/steps-about-delivery-creation-steps.md).
 
-## Démarre une diffusion {#starting-a-delivery}
+## Démarrage dʼune diffusion {#starting-a-delivery}
 
 Une fois que toutes les validations ont été accordées, la diffusion est prête à démarrer. La procédure dépend alors du type de diffusion. Pour les diffusions par email ou sur les canaux mobiles, voir la section [Démarrer une diffusion online](#starting-an-online-delivery) et pour les diffusions courrier, voir la section [Démarrer une diffusion offline](#starting-an-offline-delivery).
 
-### Démarrer une diffusion en ligne {#starting-an-online-delivery}
+### Démarrage dʼune diffusion en ligne {#starting-an-online-delivery}
 
 Une fois toutes les demandes de validation approuvées, la diffusion passe à l&#39;état **[!UICONTROL A confirmer]**, et peut être démarrée par un opérateur. Le cas échéant, l&#39;opérateur Adobe Campaign (ou le groupe d&#39;opérateurs) désigné comme validant pour le démarrage de la diffusion est alors notifié qu&#39;une diffusion est prête à être démarrée.
 
@@ -51,7 +51,7 @@ L&#39;information est également remontée au niveau du tableau de bord de l&#39
 
 Un message de confirmation permet de sécuriser cette action.
 
-### Démarrer une diffusion hors ligne {#starting-an-offline-delivery}
+### Démarrage dʼune diffusion hors ligne {#starting-an-offline-delivery}
 
 Lorsque toutes les validations ont été acceptées, la diffusion passe à l&#39;état **[!UICONTROL En attente d&#39;extraction]**. Les fichiers d&#39;extraction sont créés via un workflow spécifique qui, dans une configuration par défaut, démarre automatiquement lorsqu&#39;une diffusion courrier est en attente d&#39;extraction. Lorsqu&#39;un traitement est en cours, il est affiché dans le tableau de bord : il peut être édité depuis son lien.
 
@@ -63,9 +63,9 @@ Lorsque toutes les validations ont été acceptées, la diffusion passe à l&#39
 
 Une fois le workflow d&#39;extraction exécuté correctement, le fichier d&#39;extraction doit être validé (sous réserve que la validation du fichier d&#39;extraction ait été sélectionnée dans le paramétrage de la diffusion).
 
-Voir à ce sujet la section [Valider un fichier d&#39;extraction](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
+Pour plus dʼinformations, consultez la section [Validation dʼun fichier dʼextraction](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
 
-**Etape 2 - Valider le message au prestataire**
+**Étape 2 : validation du message au prestataire**
 
 * Une fois le fichier d’extraction validé, vous pouvez générer le BAT de l’e-mail de notification au routeur. Ce message e-mail est construit à partir d’un modèle de diffusion. Il doit être approuvé.
 
@@ -126,7 +126,7 @@ Vous pouvez également référencer dans les opérations des éléments externes
 
 >[!NOTE]
 >
->Si vous utilisez MRM, vous pouvez également gérer une bibliothèque de ressources marketing sur lesquelles plusieurs intervenants peuvent agir dans un mode collaboratif. Voir [Gérer les ressources marketing](../../mrm/using/managing-marketing-resources.md).
+>Si vous utilisez MRM, vous pouvez également gérer une bibliothèque de ressources marketing sur lesquelles plusieurs intervenants peuvent agir dans un mode collaboratif. Consultez la section [Gestion des ressources marketing](../../mrm/using/managing-marketing-resources.md).
 
 ### Ajout de documents {#adding-documents}
 
