@@ -5,7 +5,7 @@ description: Prise en main des questionnaires Campaign
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Le module facultatif de création de questionnaires propose une interface utilis
 * Génération de rapports dédiés. [En savoir plus](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys).
 
 
-## Étapes d&#39;implémentation {#surveys-implementation-steps}
+## Étapes dʼimplémentation {#surveys-implementation-steps}
 
 Pour créer, diffuser et exploiter les résultats d&#39;un questionnaire, les étapes sont les suivantes :
 
