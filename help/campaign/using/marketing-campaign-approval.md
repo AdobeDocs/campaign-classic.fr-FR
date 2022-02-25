@@ -5,7 +5,7 @@ description: Découvrez comment gérer les validations des campagnes marketing
 feature: Approvals
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2607'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Ces messages de notification sont envoyés aux opérateurs spécifiés pour chaq
 
 Les validations peuvent être activées au niveau du modèle de l&#39;opération, au niveau de chaque opération ou au niveau de la diffusion.
 
-Les traitements qui doivent faire l&#39;objet d&#39;une validation sont sélectionnés dans le modèle de l&#39;opération (onglet **[!UICONTROL Propriétés]** > **[!UICONTROL Paramètres avancés de l’opération...]** > **[!UICONTROL Validations]**), ainsi que le(s) responsable(s) des validations (ils recevront les messages de notification, sauf si cette option n&#39;est pas activée). Pour plus d’informations à ce sujet, consultez [cette section](#approving-processes).
+Les traitements qui doivent faire l&#39;objet d&#39;une validation sont sélectionnés dans le modèle de l&#39;opération (onglet **[!UICONTROL Propriétés]** > **[!UICONTROL Paramètres avancés de l’opération...]** > **[!UICONTROL Validations]**), ainsi que le(s) responsable(s) des validations (ils recevront les messages de notification, sauf si cette option n&#39;est pas activée). Pour plus d’informations, consultez [cette section](#approving-processes).
 
 Ce paramétrage peut être surchargé au niveau de chaque opération créée depuis ce modèle et également unitairement au niveau de chacune des diffusions de l&#39;opération, en cliquant sur le bouton **[!UICONTROL Propriétés]** puis sur l&#39;onglet **[!UICONTROL Validations]**.
 
