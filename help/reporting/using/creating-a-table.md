@@ -4,9 +4,9 @@ title: Création d’un tableau
 description: Création d’un tableau
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2643'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -14,17 +14,17 @@ ht-degree: 97%
 
 ![](../../assets/common.svg)
 
-Vous pouvez ajouter un tableau dans un rapport afin d&#39;afficher les données. Il peut s&#39;agir d&#39;un tableau croisé dynamique, créé à travers les mesures d&#39;un cube, d&#39;une liste avec groupement ou d&#39;un tableau de distribution des valeurs.
+Vous pouvez ajouter un tableau dans un rapport afin dʼafficher les données. Il peut sʼagir dʼun tableau croisé dynamique, créé à travers les mesures dʼun cube, dʼune liste avec groupement ou dʼun tableau de répartition des valeurs.
 
 ![](assets/s_advuser_report_page_activity_05.png)
 
-## Création d’une liste avec groupe {#creating-a-list-with-group}
+## Création dʼune liste avec groupement {#creating-a-list-with-group}
 
 Un tableau de type **[!UICONTROL Liste avec groupement]** vous permet de regrouper certaines de vos données dans le tableau et de produire des statistiques sur les données qu&#39;il contient. Vous pouvez par exemple créer des totaux et des sous-totaux sur les données. Chaque groupement contient une ligne d&#39;en-tête, de détail et de pied.
 
 >[!CAUTION]
 >
->L&#39;activité **[!UICONTROL Page]** qui contient le tableau doit être précédée d&#39;une activité **[!UICONTROL Requête]** ou **[!UICONTROL Script]** afin de collecter les données qui seront analysées dans le rapport. Voir à ce sujet la section [Collecter les données à analyser](../../reporting/using/collecting-data-to-analyze.md) et [Activité Script](../../reporting/using/advanced-functionalities.md#script-activity).
+>L&#39;activité **[!UICONTROL Page]** qui contient le tableau doit être précédée d&#39;une activité **[!UICONTROL Requête]** ou **[!UICONTROL Script]** afin de collecter les données qui seront analysées dans le rapport. Pour en savoir plus à ce sujet, consultez les sections [Collecte des données à analyser](../../reporting/using/collecting-data-to-analyze.md) et [Activité Script](../../reporting/using/advanced-functionalities.md#script-activity).
 
 ### Principe de fonctionnement {#operating-principle}
 
@@ -36,13 +36,13 @@ Il permet de répertorier la liste des opérations (**[!UICONTROL Libellé (Opé
 
 ![](assets/s_advuser_ergo_listgroup_005.png)
 
-### Étapes d&#39;implémentation {#implementation-steps}
+### Étapes dʼimplémentation {#implementation-steps}
 
 Un exemple complet de mise en œuvre est proposé ici : [Cas pratique : créer un rapport avec une liste avec groupement](#use-case--create-a-report-with-a-group-list).
 
 Toutefois, notez que les étapes de création d&#39;un tableau de type &#39;Liste avec groupement&#39; sont les suivantes :
 
-1. Dans le diagramme d&#39;un rapport, positionnez une activité **[!UICONTROL Requête]**. Voir [Collecter les données à analyser](../../reporting/using/collecting-data-to-analyze.md).
+1. Dans le diagramme d&#39;un rapport, positionnez une activité **[!UICONTROL Requête]**. Consultez la section [Collecte des données à analyser](../../reporting/using/collecting-data-to-analyze.md).
 1. Renseigner la table source et sélectionner les champs de la table sur lesquels porteront les statistiques.
 1. Positionnez une activité **[!UICONTROL Page]** dans le diagramme. Voir à ce sujet la section [Eléments statiques](../../reporting/using/creating-a-new-report.md#static-elements).
 1. Insérer un tableau de type **[!UICONTROL Liste avec groupement]** dans la page.
@@ -51,7 +51,7 @@ Toutefois, notez que les étapes de création d&#39;un tableau de type &#39;List
    Cette étape est indispensable pour retrouver les champs de la table source et les insérer par la suite dans les cellules du tableau.
 
 1. Créer le tableau et son contenu.
-1. Affichez le rapport finalisé dans l&#39;onglet **[!UICONTROL Prévisualisation]**. Vous pouvez ensuite publier le rapport et l&#39;exporter vers un autre format. Voir à ce sujet la section [Exporter un rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
+1. Affichez le rapport finalisé dans l&#39;onglet **[!UICONTROL Prévisualisation]**. Vous pouvez ensuite publier le rapport et l&#39;exporter vers un autre format. Pour plus dʼinformations, consultez la section [Exportation dʼun rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 ### Ajout de lignes et de colonnes {#adding-lines-and-columns}
 
@@ -115,7 +115,7 @@ Utilisez l&#39;entrée de menu **[!UICONTROL Expression]** pour sélectionner le
 
    ![](assets/s_advuser_ergo_listgroup_008.png)
 
-### Définition du format de cellule {#defining-cell-format}
+### Définition du format des cellules {#defining-cell-format}
 
 ![](assets/s_advuser_ergo_listgroup_017.png)
 
@@ -123,7 +123,7 @@ Pour définir le format de cellule, le menu **[!UICONTROL Format de la cellule..
 
 Ces options permettent de personnaliser le rendu final du rapport et en optimiser la lisibilité des informations.
 
-Utilisez le champ **[!UICONTROL Retour à la ligne]** dans le cadre d&#39;un export des données vers Excel : choisissez la valeur **[!UICONTROL Oui]** pour forcer le retour à la ligne. Cette valeur sera conservée lors de l&#39;export. Voir à ce sujet la section [Exporter un rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
+Utilisez le champ **[!UICONTROL Retour à la ligne]** dans le cadre d&#39;un export des données vers Excel : choisissez la valeur **[!UICONTROL Oui]** pour forcer le retour à la ligne. Cette valeur sera conservée lors de l&#39;export. Pour plus dʼinformations, consultez la section [Exportation dʼun rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 La fenêtre **[!UICONTROL Format de la cellule]**, vous permet d&#39;accéder aux onglets suivants :
 
@@ -445,7 +445,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 
    Votre page est à présent paramétrée.
 
-### Etape 6 - Afficher le rapport {#step-6---viewing-the-report}
+### Étape 6 : visualisation du rapport {#step-6---viewing-the-report}
 
 Pour visualiser le résultat de ce paramétrage, cliquez sur l&#39;onglet **[!UICONTROL Prévisualisation]** puis sélectionnez l&#39;option **[!UICONTROL Global]**.
 
@@ -457,7 +457,7 @@ Si vous cliquez sur le lien d&#39;une des diffusions, le graphique représentant
 
 ![](assets/s_advuser_report_listgroup_022.png)
 
-## Créer un tableau de distribution ou croisé dynamique {#creating-a-breakdown-or-pivot-table}
+## Création dʼun tableau de distribution ou croisé dynamique {#creating-a-breakdown-or-pivot-table}
 
 Ce type de tableau vous permet d&#39;afficher des statistiques calculées sur les données de la base.
 
