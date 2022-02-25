@@ -5,13 +5,13 @@ description: '"Cas pratique : configuration de la substitution des champs"'
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Cas d’utilisation : configuration de la substitution des champs{#use-case-configuring-the-field-substitution}
+# Cas pratique : configuration de la substitution des champs{#use-case-configuring-the-field-substitution}
 
 ![](../../assets/common.svg)
 
@@ -30,11 +30,11 @@ Pour utiliser la substitution aléatoire des champs vous devez disposer :
 * d&#39;une diffusion utilisant un ou plusieurs champs de personnalisation,
 * d&#39;adresses de contrôle dont le **schéma de données** est modifié en fonction des champs de personnalisation utilisés dans la diffusion.
 
-## Création d&#39;une diffusion {#step-1---creating-a-delivery}
+## Création dʼune diffusion {#step-1---creating-a-delivery}
 
-Les étapes de création d&#39;une diffusion sont présentées dans la section [Créer une diffusion email](creating-an-email-delivery.md) .
+Les étapes de création dʼune diffusion sont détaillées dans la section [Création dʼune diffusion e-mail](creating-an-email-delivery.md).
 
-Dans cet exemple, l&#39;utilisateur en charge des diffusions a créé sa newsletter :
+Dans cet exemple, la newsletter a été créée par le chargé de diffusion.
 
 ![](assets/dlv_seeds_usecase_24.png)
 
@@ -51,7 +51,7 @@ Dans cet exemple, le schéma de données des adresses de contrôle reprend une v
 
 Cette énumération permet à l&#39;utilisateur de spécifier le genre littéraire préféré de ses clients.
 
-Pour que cette modification du schéma de données soit visible dans le **Formulaire de saisie** des adresses de contrôle, il faut mettre à jour ce dernier. Reportez-vous à la section [Mettre à jour le formulaire de saisie](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) .
+Pour que cette modification du schéma de données soit visible dans le **Formulaire de saisie** des adresses de contrôle, il faut mettre à jour ce dernier. Pour plus dʼinformations, consultez la section [Mise à jour du formulaire de saisie](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form).
 
 ## Configurer la personnalisation {#configuring-personalization}
 
@@ -61,7 +61,7 @@ Pour que cette modification du schéma de données soit visible dans le **Formul
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Paramétrez votre liste de diffusion et vos adresses de contrôle. Voir [Identification des populations cibles](steps-defining-the-target-population.md).
+1. Paramétrez votre liste de diffusion et vos adresses de contrôle. Consultez la section [Identification des populations cibles](steps-defining-the-target-population.md).
 
    Dans cet exemple, l&#39;utilisateur choisit comme cible principale les clients dont le **genre littéraire préféré** est la Science-Fiction.
 
@@ -73,7 +73,7 @@ Pour que cette modification du schéma de données soit visible dans le **Formul
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur la variable **[!UICONTROL Editer la condition dynamique..]** lien, voir [Cas pratique : sélectionner des adresses de contrôle selon des critères ;](use-case--selecting-seed-addresses-on-criteria.md).
+   >Pour plus d’informations sur le lien **[!UICONTROL Modification de la condition dynamique...]**, consultez la section [Cas dʼutilisation : sélection des adresses de contrôle selon des critères](use-case--selecting-seed-addresses-on-criteria.md).
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** puis sélectionnez une adresse de contrôle pour tester la personnalisation.
 
