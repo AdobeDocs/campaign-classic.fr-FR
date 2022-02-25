@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Prise en main de la délivrabilité dans Campaign
-description: Découvrir les bonnes pratiques en matière de délivrabilité
+description: Découvrez les bonnes pratiques en matière de délivrabilité
 feature: Deliverability
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ En règle générale, les problèmes de délivrabilité sont liés aux mesures d
 
 >[!NOTE]
 >
->Les FAI sont sans cesse obligés de développer de nouvelles techniques de filtrage sophistiquées afin de protéger leurs clients contre les spammeurs. Par conséquent, les critères et les règles qui caractérisent la délivrabilité des emails sont en constante évolution. Prenez soin de consulter le [Guide des bonnes pratiques relatives à la délivrabilité d&#39;Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), qui est mis à jour régulièrement.
+>Les FAI sont sans cesse obligés de développer de nouvelles techniques de filtrage sophistiquées afin de protéger leurs clients contre les spammeurs. Par conséquent, les critères et les règles qui caractérisent la délivrabilité des emails sont en constante évolution. Prenez soin de consulter le [Guide des bonnes pratiques relatives à la délivrabilité d&#39;Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr), qui est mis à jour régulièrement.
 
 ### Taux de délivrabilité
 
@@ -44,7 +44,7 @@ Avec Adobe Campaign, le taux de délivrabilité dépend de nombreux facteurs, p
 * Votre réputation d’adresse IP : consultez la section [Stratégie IP](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#ip-strategy).
 * Qualité des adresses ciblées : consultez la section [Gestion des quarantaines](optimize-delivery.md#quarantine-management).
 * Le faible taux de [plaintes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr) et de [hard bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#hard-bounces).
-* Contenu de votre message : see [Contrôler le contenu de l&#39;email](control-message-content.md).
+* Le contenu de votre message : consultez la section [Contrôle du contenu des e-mails](control-message-content.md).
 * Authentification des messages (SPF, DKIM, DMARC) : consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#authentication).
 * Réputation de l&#39;expéditeur : pour savoir comment les principaux FAI évaluent la réputation d&#39;un expéditeur, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=fr).
 
@@ -58,7 +58,7 @@ Adobe Campaign fournit différents outils pour suivre et améliorer les perform
 Lors de la configuration, de la conception et du test de votre message, assurez-vous de suivre les bonnes pratiques mentionnées dans les sections ci-dessous. Tirer parti de toutes les fonctionnalités d&#39;Adobe Campaign contribue à améliorer la délivrabilité.
 
 * [Bonnes pratiques relatives à la diffusion](delivery-best-practices.md)
-* [Contrôler le contenu de l&#39;email](control-message-content.md)
+* [Contrôle du contenu des e-mails](control-message-content.md)
 * [Inbox rendering](inbox-rendering.md)
 * [Envoyer un bon à tirer](steps-validating-the-delivery.md#sending-a-proof)
 
@@ -92,6 +92,6 @@ Adobe Campaign permet de vérifier les performances de vos diffusions et de les
 
 Voir à ce propos les sections suivantes :
 
-* [Contrôle de la délivrabilité](monitoring-deliverability.md)
-* [Prise en main du monitoring de diffusion](about-delivery-monitoring.md)
+* [Surveillance de la délivrabilité](monitoring-deliverability.md)
+* [Prise en main de la surveillance des diffusions](about-delivery-monitoring.md)
 * [Prise en main des rapports natifs de Campaign](../../reporting/using/about-campaign-built-in-reports.md)
