@@ -4,7 +4,7 @@ title: Envoi d’alertes personnalisées aux opérateurs
 description: Découvrez comment envoyer des alertes personnalisées aux opérateurs
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
 ht-degree: 100%
 
