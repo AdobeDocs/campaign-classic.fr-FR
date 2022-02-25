@@ -1,11 +1,11 @@
 ---
 product: campaign
 title: Conception et exécution de campagnes marketing
-description: Définissez, optimisez, exécutez et analysez des campagnes marketing
+description: Définissez, optimisez, exécutez et analysez des campagnes marketing.
 feature: Campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
    Un workflow d&#39;opération contient les mêmes activités que tous les workflows, mais il est propre à l&#39;opération. Il permet de créer et configurer des diffusions sur tous les canaux disponibles.
 
-   Voir à ce propos [cette section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
+   Pour plus d’informations, consultez [cette section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
 * **Objectifs**
 
@@ -60,7 +60,7 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
    Une composition est une description structurée d&#39;une diffusion. Chaque diffusion peut référencer une composition qui contient, par exemple, les offres associées, des documents à joindre ou un lien vers des magasins. En fonction de la composition sélectionnée, telle ou telle offre sera référencée dans la diffusion.
 
-   Pour plus d’informations à ce sujet, consultez [cette section](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+   Pour plus d’informations, consultez [cette section](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 ## Tutoriel {#video}
 
