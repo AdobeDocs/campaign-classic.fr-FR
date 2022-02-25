@@ -5,9 +5,9 @@ description: Prise en main des modèles de diffusion
 feature: Delivery Templates
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Il existe deux types de modèles :
 
 >[!NOTE]
 >
->Les modèles disponibles dépendent de vos droits d’accès, de la configuration de votre instance et du contexte dans lequel ils sont appelés. Par exemple, lorsque vous créez un service d’information, vous pouvez y associer un modèle de diffusion pour les messages de confirmation : vous ne pourrez alors accéder qu’aux modèles dont le mapping de ciblage correspond à celui des abonnements. Voir à ce sujet la section [Sélectionner un mapping de ciblage](selecting-a-target-mapping.md) et [Services et abonnements](about-services-and-subscriptions.md).
+>Les modèles disponibles dépendent de vos droits d’accès, de la configuration de votre instance et du contexte dans lequel ils sont appelés. Par exemple, lorsque vous créez un service d’information, vous pouvez y associer un modèle de diffusion pour les messages de confirmation : vous ne pourrez alors accéder qu’aux modèles dont le mapping de ciblage correspond à celui des abonnements. Pour plus dʼinformations, consultez les sections [Sélection dʼun mapping de ciblage](selecting-a-target-mapping.md) et [Services et abonnements](about-services-and-subscriptions.md).
