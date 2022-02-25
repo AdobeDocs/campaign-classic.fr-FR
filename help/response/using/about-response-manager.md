@@ -4,7 +4,7 @@ title: À propos de la gestion de la réaction
 description: À propos de la gestion de la réaction
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Vous pouvez également comptabiliser l&#39;ensemble des réactions du foyer du d
 
 Chaque hypothèse est associée à une seule table des transactions. Une diffusion ou une offre peut être associée à plusieurs hypothèses.
 
-## Étapes de mise en œuvre {#method}
+## Étapes dʼimplémentation {#method}
 
 Avant d&#39;utiliser le Response Manager, consultez la section [Configuration](configuration.md) et procédez aux paramétrages qui vous sont nécessaires.
 
