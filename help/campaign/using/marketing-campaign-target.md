@@ -5,7 +5,7 @@ description: Découvrez comment définir l’audience de vos campagnes marketing
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1579'
 ht-degree: 100%
 
