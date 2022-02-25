@@ -5,7 +5,7 @@ description: Surveillance des campagnes marketing
 feature: Campaigns, Monitoring
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
 ht-degree: 100%
 
