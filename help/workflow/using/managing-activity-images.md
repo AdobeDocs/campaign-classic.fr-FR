@@ -4,9 +4,9 @@ title: Modification des images d’activité
 description: Découvrez comment modifier l’image de l’activité
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
 source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
