@@ -1,23 +1,23 @@
 ---
 product: campaign
-title: Création d’une campagne collaborative
-description: Découvrez comment créer une opération collaborative
+title: Création d’une opération collaborative
+description: Découvrez comment créer une campagne collaborative
 feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '990'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Création d’une campagne collaborative{#creating-a-collaborative-campaign-intro}
+# Création d’une opération collaborative{#creating-a-collaborative-campaign-intro}
 
 ![](../../assets/v7-only.svg)
 
-L&#39;entité centrale crée les opérations collaboratives à partir des modèles d&#39;opération du **Marketing Distribué**. Voir [cette page](about-distributed-marketing.md#collaborative-campaign).
+Lʼentité centrale crée les opérations collaboratives à partir des modèles dʼopération du **Marketing Distribué**. Pour en savoir, consultez [cette page](about-distributed-marketing.md#collaborative-campaign).
 
-## Création d’une campagne collaborative {#creating-a-collaborative-campaign}
+## Création d’une opération collaborative {#creating-a-collaborative-campaign}
 
 Pour créer une opération collaborative, cliquez sur le noeud **[!UICONTROL Gestion de campagne > Opérations]**, puis sur l&#39;icône **[!UICONTROL Nouveau]**.
 
@@ -153,7 +153,7 @@ En mode automatique, l&#39;entité locale est préinscrite à l&#39;opération e
 
 Le paramétrage des messages de notification est identique à celui d&#39;une opération locale. Voir [cette section](creating-a-local-campaign.md#notifications).
 
-## Commander une opération {#ordering-a-campaign}
+## Commande dʼune opération {#ordering-a-campaign}
 
 Lorsqu&#39;une opération collaborative est ajoutée dans la liste des kits d&#39;opération, les entités locales faisant partie de l&#39;audience définie par l&#39;entité centrale sont avisées par un message de notification (les **opérations collaboratives par validation de la cible** n&#39;ont pas d&#39;audience prédéfinie). Ce message propose un lien pour s&#39;inscrire à l&#39;opération, comme dans l&#39;exemple ci-dessous :
 
@@ -171,6 +171,6 @@ Lorsqu&#39;une entité locale enregistre sa participation, une notification est 
 
 Pour plus d&#39;informations, consultez la section [Processus de validation](creating-a-local-campaign.md#approval-process).
 
-## Valider une commande {#approving-an-order}
+## Validation dʼune commande {#approving-an-order}
 
-La validation d&#39;une commande d&#39;un kit d&#39;opération collaborative est identique à celle d&#39;une opération locale. Voir [cette section](creating-a-local-campaign.md#approving-an-order).
+La validation dʼune commande dʼun kit dʼopération collaborative est identique à celle dʼune opération locale. Pour en savoir plus, consultez [cette section](creating-a-local-campaign.md#approving-an-order).
