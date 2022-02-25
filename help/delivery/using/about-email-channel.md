@@ -5,7 +5,7 @@ description: Cette section fournit des informations générales spécifiques au 
 feature: Email
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
 ht-degree: 100%
 
