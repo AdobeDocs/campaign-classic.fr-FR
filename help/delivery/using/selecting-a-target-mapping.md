@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Sélection d’un mapping de ciblage
-description: Découvrez comment cibler le mapping
+description: Découvrez comment effectuer un mapping de ciblage
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '181'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,4 +32,4 @@ Ces mappings sont les suivants :
 
 >[!NOTE]
 >
->Vous pouvez également créer de nouveaux mappings de ciblage. Cette opération est réservée à des utilisateurs experts. Pour plus d’informations, consultez [cette section](../../configuration/using/target-mapping.md).
+>Il est possible de créer dʼautres mappings de ciblage. Cette opération est toutefois réservée à des utilisateurs avancés. Pour plus d’informations, consultez [cette section](../../configuration/using/target-mapping.md).
