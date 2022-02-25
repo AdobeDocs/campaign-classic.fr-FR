@@ -1,10 +1,10 @@
 ---
 product: campaign
-title: Résolution des problèmes liés à l'envoi de diffusions
-description: En savoir plus sur les performances des diffusions et comment résoudre les problèmes liés au monitoring des diffusions
+title: Résolution des problèmes liés à lʼenvoi de diffusions
+description: En savoir plus sur les performances des diffusions et comment résoudre les problèmes liés à la surveillance des diffusions
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
 ht-degree: 100%
 
