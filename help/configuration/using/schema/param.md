@@ -4,9 +4,9 @@ title: Éléments et attributs de schéma
 description: élément param
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
