@@ -4,9 +4,9 @@ title: Création d’un graphique
 description: Découvrez comment concevoir un graphique
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '549'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Les types d&#39;interactions possibles et leurs paramétrages sont présentés d
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 
-## Calculer les statistiques {#calculating-statistics}
+## Calcul des statistiques {#calculating-statistics}
 
 Dans les graphiques, vous pouvez afficher des statistiques sur les données collectées.
 
@@ -134,4 +134,4 @@ Pour créer une nouvelle statistique, cliquez sur l&#39;icône **[!UICONTROL Ajo
 
 ![](assets/reporting_add_statistics.png)
 
-Voir à ce propos [cette section](../../reporting/using/using-the-descriptive-analysis-wizard.md#statistics-calculation).
+Pour plus d’informations, consultez [cette section](../../reporting/using/using-the-descriptive-analysis-wizard.md#statistics-calculation).
