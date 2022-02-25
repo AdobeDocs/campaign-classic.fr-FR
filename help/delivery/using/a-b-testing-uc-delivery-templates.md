@@ -1,10 +1,10 @@
 ---
 product: campaign
-title: Créer les modèles de diffusion
-description: Découvrez comment effectuer des tests A/B à l'aide d'un cas d'utilisation spécifique
+title: Création de modèles de diffusion
+description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
 ht-degree: 100%
 
