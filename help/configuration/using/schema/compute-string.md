@@ -4,7 +4,7 @@ title: Eléments et attributs
 description: élément compute-string
 exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '88'
 ht-degree: 100%
 
