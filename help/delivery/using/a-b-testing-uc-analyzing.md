@@ -1,10 +1,10 @@
 ---
 product: campaign
 title: Analyse du résultat
-description: Découvrez comment effectuer des tests A/B à l'aide d'un cas d'utilisation spécifique
+description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
 ht-degree: 100%
 
