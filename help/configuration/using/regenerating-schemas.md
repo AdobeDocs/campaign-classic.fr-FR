@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Régénération des schémas
-description: Découvrez comment régénérer les schémas de Campaign
+description: Découvrez comment régénérer les schémas Campaign
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
