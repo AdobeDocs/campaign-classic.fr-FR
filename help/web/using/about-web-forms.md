@@ -5,7 +5,7 @@ description: Prise en main des formulaires web dans Campaign
 feature: Landing Pages
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
 ht-degree: 100%
 
