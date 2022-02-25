@@ -5,7 +5,7 @@ description: Prise en main du canal SMS
 feature: SMS
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
 ht-degree: 100%
 
