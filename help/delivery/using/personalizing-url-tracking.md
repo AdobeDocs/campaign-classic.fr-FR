@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Configuration des options de tracking d’URL
-description: Découvrez comment configurer les options de suivi d’URL
+description: Découvrez comment configurer les options de tracking d’URL
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Les paramètres avancés du tracking des messages sont accessibles à partir de 
 
 >[!NOTE]
 >
->La gestion des images dans les emails est également paramétrée depuis cette fenêtre. Voir [Ajout d’images](defining-the-email-content.md#adding-images).
+>La gestion des images dans les emails est également paramétrée depuis cette fenêtre. Consultez la section [Ajout d’images](defining-the-email-content.md#adding-images).
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 
@@ -36,7 +36,7 @@ Vous pouvez configurer les options de tracking :
 
 Les URL trackées sont listées dans la fenêtre centrale, sous la forme d&#39;une arborescence.
 
-Vous pouvez activer ou désactiver unitairement le tracking pour chaque URL du message. Voir à ce propos [cette section](how-to-configure-tracked-links.md).
+Vous pouvez activer ou désactiver unitairement le tracking pour chaque URL du message. Pour plus d’informations, consultez [cette section](how-to-configure-tracked-links.md).
 
 L&#39;onglet **[!UICONTROL Avancé]** permet de personnaliser les formules de calcul des URL trackées et de l&#39;URL d&#39;ouverture.
 
