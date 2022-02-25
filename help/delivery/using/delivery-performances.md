@@ -5,7 +5,7 @@ description: En savoir plus sur les performances de diffusion et les bonnes prat
 feature: Deliverability
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
 ht-degree: 100%
 
