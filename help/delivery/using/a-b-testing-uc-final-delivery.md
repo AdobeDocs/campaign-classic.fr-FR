@@ -1,10 +1,10 @@
 ---
 product: campaign
-title: Définir la diffusion finale
-description: Découvrez comment effectuer des tests A/B à l'aide d'un cas d'utilisation spécifique
+title: Définition de la diffusion finale
+description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
 exl-id: bc23a444-a872-48fb-8bba-64b301541089
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
 ht-degree: 100%
 
