@@ -1,10 +1,10 @@
 ---
 product: campaign
-title: Démarrer le workflow
-description: Découvrez comment effectuer des tests A/B à l'aide d'un cas d'utilisation spécifique
+title: Démarrage du workflow
+description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '86'
 ht-degree: 100%
 
