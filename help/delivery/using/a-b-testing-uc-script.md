@@ -1,10 +1,10 @@
 ---
 product: campaign
 title: Création du script
-description: Découvrez comment effectuer des tests A/B à l'aide d'un cas d'utilisation spécifique
+description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Le choix du contenu de la diffusion destinée à la population restante est calc
 
 ## Exemple de script {#example-of-a-script}
 
-Le script suivant peut être utilisé tel quel dans le workflow de ciblage. Pour plus d&#39;informations à ce sujet, consultez [cette section](#implementation).
+Le script suivant peut être utilisé tel quel dans le workflow de ciblage. Pour plus d’informations, consultez [cette section](#implementation).
 
 ```
  // query the database to find the winner (best open rate)
