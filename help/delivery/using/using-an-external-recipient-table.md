@@ -4,7 +4,7 @@ title: Utiliser une table de destinataires externe
 description: Utiliser une table de destinataires externe
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
 ht-degree: 100%
 
