@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Journal d’audit
-description: Découvrez comment surveiller votre instance avec le Suivi Campaign
+description: Découvrez comment surveiller votre instance à lʼaide du journal dʼaudit Campaign
 feature: Audit Trail, Monitoring
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
