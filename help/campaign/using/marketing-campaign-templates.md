@@ -5,7 +5,7 @@ description: Modèles de campagne marketing
 feature: Campaigns, Templates
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1168'
 ht-degree: 100%
 
