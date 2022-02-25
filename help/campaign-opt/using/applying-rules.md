@@ -1,20 +1,20 @@
 ---
 product: campaign
-title: Appliquer les règles de typologie
+title: Application de règles de typologie
 description: Découvrez comment appliquer des règles de typologie
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 source-git-commit: 808f459a0b77b1787fc017c031247ab268b5aafa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Appliquer les règles de typologie{#applying-rules}
+# Application de règles de typologie{#applying-rules}
 
 ![](../../assets/common.svg)
 
-## Appliquer une typologie à une diffusion {#applying-a-typology-to-a-delivery}
+## Application dʼune typologie à une diffusion {#applying-a-typology-to-a-delivery}
 
 Pour appliquer les règles de typologie que vous avez créées, vous devez les associer à une typologie, puis référencer cette typologie dans votre diffusion. Pour cela :
 
@@ -53,7 +53,7 @@ Utilisez alors le requêteur pour définir les conditions de filtrage. Dans l&#3
 >
 >Pour les règles de filtrage, vous pouvez sélectionner le contexte d&#39;application des critères de filtrage : ils peuvent dépendre de la diffusion ou de la composition de diffusion. Voir à ce sujet la section [Traiter une règle de filtrage](filtering-rules.md#conditioning-a-filtering-rule).
 
-## Ajuster la fréquence des calculs {#adjusting-calculation-frequency}
+## Réglage de la fréquence des calculs {#adjusting-calculation-frequency}
 
 Les arbitrages sont automatiquement ré-exécutés chaque nuit, via le workflow de nettoyage de la base. Vous pouvez toutefois conserver les valeurs calculées au-delà de ce délai.
 
