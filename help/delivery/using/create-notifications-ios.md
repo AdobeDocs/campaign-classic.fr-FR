@@ -5,7 +5,7 @@ description: Découvrez comment créer des notifications push pour iOS
 feature: Push
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
 ht-degree: 100%
 
@@ -76,7 +76,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
 
    >[!NOTE]
    >
-   >Les variables d’application doivent être définies dans le code de l’application mobile et saisies lors de la création du service. Pour plus d&#39;informations à ce sujet, consultez [cette section](configuring-the-mobile-application.md).
+   >Les variables d’application doivent être définies dans le code de l’application mobile et saisies lors de la création du service. Pour plus d’informations, consultez [cette section](configuring-the-mobile-application.md).
 
 1. Une fois la notification renseignée, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** pour afficher la prévisualisation de la notification.
 
@@ -88,7 +88,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
    >
    >L&#39;aperçu utilise l&#39;apparence d&#39;iOS 10.
 
-L&#39;envoi du BAT et l&#39;envoi final de la notification s&#39;effectuent de la même manière que pour une diffusion par e-mail.
+L&#39;envoi du BAT et l&#39;envoi final de la notification s&#39;effectuent de la même manière que pour une diffusion e-mail.
 
 Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions. Pour plus d’informations, consultez les sections suivantes :
 
