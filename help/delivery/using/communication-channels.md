@@ -1,11 +1,11 @@
 ---
 product: campaign
 title: Canaux de communication
-description: Créez des diffusions pour envoyer des messages personnalisés sur différents canaux
+description: Création de diffusions pour envoyer des messages personnalisés sur différents canaux
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1211'
 ht-degree: 100%
 
