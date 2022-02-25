@@ -4,9 +4,9 @@ title: Éléments et attributs de schéma
 description: élément enumeration
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
