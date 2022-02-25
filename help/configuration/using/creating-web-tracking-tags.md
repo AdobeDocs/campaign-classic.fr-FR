@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Créer des balises de tracking web
+title: Création de balises de tracking web
 description: Découvrez comment créer des balises de tracking web
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Créer des balises de tracking web{#creating-web-tracking-tags}
+# Création de balises de tracking web{#creating-web-tracking-tags}
 
 ![](../../assets/v7-only.svg)
 
