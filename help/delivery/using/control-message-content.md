@@ -5,13 +5,13 @@ description: En savoir plus sur la gestion de la délivrabilité dans Adobe Cam
 feature: Deliverability
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '772'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Contrôlez le contenu de votre message{#control-message-content}
+# Contrôle du contenu de votre message{#control-message-content}
 
 ![](../../assets/common.svg)
 
@@ -29,7 +29,7 @@ Pour obtenir des conseils supplémentaires sur l’optimisation de la délivrabi
 
 >[!NOTE]
 >
->Pour plus d’informations sur l’édition du contenu d’un email, voir [Définir le contenu de l&#39;email](defining-the-email-content.md) et [Créer du contenu personnalisé](design-and-personalize.md).
+>Pour plus d’informations sur la modification du contenu des e-mails, consultez les sections [Définition du contenu de l’e-mail](defining-the-email-content.md) et [Création de contenu personnalisé](design-and-personalize.md).
 
 ## Adresse d’expéditeur {#sender-address}
 
@@ -37,7 +37,7 @@ Certains FAI vérifient la validité de l’adresse de l’expéditeur (**[!UICO
 
 Il faut s’assurer qu’une adresse correcte est bien renseignée au niveau de l’instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement...)]** ou dans les scénarios les plus couramment utilisés.
 
-Consultez [cette page](defining-the-email-content.md) pour plus d’informations.
+Pour plus d’informations à ce sujet, consultez [cette page](defining-the-email-content.md).
 
 ## Personnalisation {#personalization}
 
