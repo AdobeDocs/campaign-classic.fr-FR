@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Présentation des diffusions en échec
-description: Découvrez comment comprendre les échecs de diffusions
+description: Découvrez les raisons des échecs de vos diffusions
 feature: Monitoring
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2665'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -190,9 +190,9 @@ Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est tempora
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et spécifiez la durée souhaitée dans le champ correspondant pour modifier la durée d&#39;une diffusion. Voir [Définition de la période de validité](steps-sending-the-delivery.md#defining-validity-period).
 
-Le paramétrage par défaut prévoit cinq reprises séparées d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l’administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion. Voir [Configuration des reprises](steps-sending-the-delivery.md#configuring-retries).
+Le paramétrage par défaut prévoit cinq reprises séparées d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l’administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion. Consultez la section [Configuration des reprises](steps-sending-the-delivery.md#configuring-retries).
 
-## Erreurs synchrones et asynchrones     {#synchronous-and-asynchronous-errors}
+## Erreurs synchrones et asynchrones {#synchronous-and-asynchronous-errors}
 
 Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après son envoi (erreur asynchrone).
 
@@ -263,7 +263,7 @@ Les statuts de qualification des mails rebonds sont les suivants :
 
 >[!NOTE]
 >
->En cas de panne d&#39;un fournisseur de services Internet, les emails envoyés par le biais de Campaign seront incorrectement marqués comme des rebonds. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. Pour en savoir plus sur le sujet, consultez [cette page](update-bounce-qualification.md).
+>En cas de panne d&#39;un fournisseur de services Internet, les emails envoyés par le biais de Campaign seront incorrectement marqués comme des rebonds. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. Pour plus d’informations à ce sujet, consultez [cette page](update-bounce-qualification.md).
 
 ### Règles de gestion des emails {#email-management-rules}
 
