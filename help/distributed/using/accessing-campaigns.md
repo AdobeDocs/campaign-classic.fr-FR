@@ -5,9 +5,9 @@ description: Accéder aux opérations
 feature: Distributed Marketing
 exl-id: 5534bd5b-6888-4bf6-8a39-109c6fc0f6c3
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Une fois une opération commandée, la commande validée, et la date de disponib
 
 Selon le type d&#39;opération et les options sélectionnées, elle est exécutée au niveau de chaque entité locale ou par l&#39;entité centrale.
 
-## Accéder à l&#39;opération {#accessing-the-campaign}
+## Accès à la campagne {#accessing-the-campaign}
 
 Une fois la commande validée et la date de disponibilité atteinte, l&#39;opération est créée au niveau local et peut être utilisée. Les opérateurs locaux sont notifiés de sa disponibilité.
 
