@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Créez une diffusion email
-description: Découvrez comment créer une diffusion email
+title: Création dʼune diffusion e-mail
+description: Découvrez comment créer une diffusion e-mail
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Créez une diffusion email{#creating-an-email-delivery}
+# Création dʼune diffusion e-mail{#creating-an-email-delivery}
 
 ![](../../assets/common.svg)
 
@@ -25,5 +25,5 @@ Pour créer une diffusion email, procédez comme suit :
 
    ![](assets/s_ncs_user_wizard_email01_1.png)
 
-1. Identifiez votre diffusion avec un libellé, un code et une description. Pour plus d&#39;informations à ce sujet, consultez [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
+1. Identifiez votre diffusion avec un libellé, un code et une description. Pour plus d’informations, consultez [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 1. Cliquez sur **Continuer** pour valider ces informations et afficher la fenêtre de configuration du message.
