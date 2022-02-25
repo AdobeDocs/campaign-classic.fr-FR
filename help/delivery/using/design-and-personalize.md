@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Créer du contenu personnalisé
-description: Découvrez comment créer du contenu personnalisé dans les diffusions Adobe Campaign
+description: Découvrez comment créer du contenu personnalisé dans les diffusions Adobe Campaign
 feature: Email Design, Personalization
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1299'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
