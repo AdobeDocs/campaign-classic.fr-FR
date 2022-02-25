@@ -4,9 +4,9 @@ title: Mettre en page les éléments
 description: Mettre en page les éléments
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 ![](../../assets/common.svg)
 
-En plus des divers graphiques détaillés [here](../../reporting/using/creating-a-chart.md#chart-types-and-variants), vous pouvez adapter l&#39;affichage et ajouter des éléments à la ou aux pages du rapport.
+En complément des variantes du graphique disponibles, [présentées ici](../../reporting/using/creating-a-chart.md#chart-types-and-variants), vous pouvez adapter lʼaffichage et ajouter des éléments dans la ou les pages du rapport.
 
 Vous pouvez utiliser les conteneurs : ils permettent de regrouper plusieurs éléments d&#39;une page et d&#39;en paramétrer la mise en page en colonnes et/ou en cellules. Leur utilisation est présentée dans [cette section](../../web/using/defining-web-forms-layout.md#creating-containers).
 
@@ -34,7 +34,7 @@ Les options des **[!UICONTROL Paramètres d&#39;affichage]** permettent de chois
 
 Sélectionnez les différentes options de la section **[!UICONTROL Navigation]** pour autoriser ou non le passage entre les différentes pages du rapport. Lorsque l&#39;option **[!UICONTROL Ne pas autoriser le retour à la page précédente]** ou **[!UICONTROL Ne pas autoriser le passage à la page suivante]** est sélectionnée, les boutons **[!UICONTROL Suivant]** ou **[!UICONTROL Précédent]** ne sont plus disponibles dans la page du rapport.
 
-## Ajout d’un en-tête et d’un pied de page {#adding-a-header-and-a-footer}
+## Ajout dʼun en-tête et dʼun pied de page {#adding-a-header-and-a-footer}
 
 La fenêtre des propriétés du rapport permet également de définir des éléments de mise en page, tels que : le titre de la fenêtre, le contenu HTML de la zone d&#39;en-tête et celui du pied de page.
 
