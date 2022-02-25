@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Extension d'un schéma
+title: Extension dʼun schéma
 description: Découvrez comment étendre un schéma
 feature: Schema Extension
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
 ht-degree: 100%
 
 ---
 
-# Extension d&#39;un schéma{#extending-a-schema}
+# Extension dʼun schéma{#extending-a-schema}
 
 ![](../../assets/v7-only.svg)
 
