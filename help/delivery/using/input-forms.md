@@ -4,9 +4,9 @@ title: Formulaires de saisie
 description: Découvrez comment utiliser les formulaires de saisie dans Campaign
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Par défaut, chaque champ est affiché sur une seule ligne et occupe tout l&#39;
 
 La disposition des contrôles entre eux ressemble à celle utilisée dans les tableaux HTML, avec la possibilité de diviser un contrôle en plusieurs colonnes, d&#39;utiliser des imbrications d&#39;éléments ou de spécifier l&#39;occupation de l&#39;espace disponible. Il faut cependant retenir que la mise en page autorise seulement des répartitions de proportions, il n&#39;est pas possible de spécifier des dimensions fixes pour un objet.
 
-Voir à ce propos [cette section](../../configuration/using/form-structure.md#formatting).
+Pour plus d’informations, consultez [cette section](../../configuration/using/form-structure.md#formatting).
 
 ## Contrôles de type liste {#list-type-controls}
 
