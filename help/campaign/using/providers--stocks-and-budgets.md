@@ -5,7 +5,7 @@ description: Prestataires, stocks et budgets
 feature: Budget Management
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1994'
 ht-degree: 100%
 
@@ -163,7 +163,7 @@ Lorsqu’un service est sélectionné, les postes de coûts correspondant au typ
 
 >[!NOTE]
 >
->Si aucun poste de coût ne s’affiche à la sélection d’un service, c’est qu’aucun poste de coût pour ce type de traitement n’a été défini. Par exemple, pour une diffusion par e-mail, si aucun poste de coût de type **[!UICONTROL E-mail]** n’a été défini, aucun poste ne sera affiché et la sélection du service n’aura aucun impact.
+>Si aucun poste de coût ne s’affiche à la sélection d’un service, c’est qu’aucun poste de coût pour ce type de traitement n’a été défini. Par exemple, pour une diffusion e-mail, si aucun poste de coût de type **[!UICONTROL E-mail]** n’a été défini, aucun poste ne sera affiché et la sélection du service n’aura aucun impact.
 
 * Pour une diffusion courrier, vous pouvez sélectionner le service à partir de la fenêtre de configuration.
 
