@@ -5,7 +5,7 @@ description: Adresses de contrôle
 feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
 ht-degree: 100%
 
@@ -95,4 +95,4 @@ Les étapes sont les suivantes :
      </container>
    ```
 
-Si tous les attributs de l&#39;adresse de contrôle ne sont pas renseignés, Adobe Campaign procède automatiquement à la substitution de profils : ils seront alimentés automatiquement, lors de la personnalisation, par les données d&#39;un profil existant.
+Si tous les attributs de lʼadresse de contrôle ne sont pas renseignés, Adobe Campaign procède automatiquement à la substitution de profils : ils seront alimentés automatiquement, lors de la personnalisation, par les données dʼun profil existant.
