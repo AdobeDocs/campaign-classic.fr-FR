@@ -4,9 +4,9 @@ title: Utilisation de l’assistant d’analyse descriptive
 description: Utilisation de l’assistant d’analyse descriptive
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1644'
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ![](../../assets/common.svg)
 
-Pour créer un rapport d&#39;analyse descriptive, vous devez suivre les étapes de l&#39;assistant dédié. Son paramétrage dépend des données à analyser et du rendu souhaité.
+Pour créer un rapport dʼanalyse descriptive, vous devez suivre les étapes de lʼassistant dédié. Son paramétrage dépend des données à analyser et du rendu souhaité.
 
-## Analyser les données dans la base de données {#analyzing-data-in-the-database}
+## Analyse des données dans la base de données {#analyzing-data-in-the-database}
 
 L&#39;assistant d&#39;analyse descriptive peut être lancé à l&#39;aide du menu **[!UICONTROL Outils > Analyse descriptive]** : dans ce cas, l&#39;analyse porte par défaut sur les destinataires (**nms:recipient**). Il s&#39;applique à la totalité des données de la base Adobe Campaign.
 
@@ -32,7 +32,7 @@ Si vous souhaitez produire des statistiques sur une partie de vos données, vous
 
 L&#39;analyse ne portera que sur les destinataires de la base de données agés de 16 ans et plus et résidant à Paris.
 
-## Analyser un ensemble de données {#analyzing-a-set-of-data}
+## Analyse dʼun jeu de données {#analyzing-a-set-of-data}
 
 Vous pouvez utiliser l&#39;assistant d&#39;analyse descriptive à partir d&#39;un autre contexte : une liste, une transition de workflow, une ou plusieurs diffusions, une sélection de destinataires, etc.
 
@@ -48,21 +48,21 @@ L&#39;assistant d&#39;analyse descriptive est alors lancé à partir du bouton d
 
    Un exemple d&#39;analyse descriptive des destinataires est proposé dans la section [Analyse qualitative des données](../../reporting/using/use-cases.md#qualitative-data-analysis).
 
-* Dans le contexte d&#39;un **workflow**, placez le curseur sur une transition pointant vers la table des destinataires, cliquez avec le bouton droit de la souris et sélectionnez **[!UICONTROL Analyser la cible]**. Voir à ce sujet l’exemple de la section [Analyse de la cible d&#39;une transition dans un workflow](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow).
+* Dans le contexte d&#39;un **workflow**, placez le curseur sur une transition pointant vers la table des destinataires, cliquez avec le bouton droit de la souris et sélectionnez **[!UICONTROL Analyser la cible]**. Pour plus dʼinformations, consultez lʼexemple présenté dans la section [Analyse de la cible dʼune transition dans un workflow](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow).
 * Pour les **listes**, sélectionnez une ou plusieurs listes et appliquez la même procédure que pour les destinataires.
 * Dans le contexte d&#39;une **diffusion**, sélectionnez la ou les diffusions dont vous souhaitez analyser la cible, cliquez avec le bouton droit et choisissez **[!UICONTROL Actions > Explorer la cible]**, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/reporting_descriptive_from_deliveries.png)
 
-   Des exemples d&#39;analyses descriptives pour les diffusions sont proposés ici : [Analyser une population](../../reporting/using/use-cases.md#analyzing-a-population) et ici : [Analyse des logs de tracking des destinataires](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
+   Des exemples dʼanalyses descriptives de diffusions sont proposés dans les sections suivantes : [Analyse dʼune population](../../reporting/using/use-cases.md#analyzing-a-population) et [Analyse des logs de tracking des destinataires](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
 
-## Configurer le modèle de distribution qualitative {#configuring-the-qualitative-distribution-template}
+## Configuration du modèle de distribution qualitative {#configuring-the-qualitative-distribution-template}
 
-Le modèle **[!UICONTROL Distribution qualitative]** vous permet de faire des statistiques sur tous types de données (ex. nom d&#39;une société, domaine d&#39;email).
+Le modèle **[!UICONTROL Distribution qualitative]** vous permet de faire des statistiques sur tous types de données (par exemple le nom dʼune société ou le domaine dʼe-mail).
 
-Options de configuration disponibles pour un rapport créé à l’aide de la variable **[!UICONTROL Distribution qualitative]** sont présentés dans la section [Afficher les données dans le tableau](#displaying-data-in-the-table). Un exemple complet est présenté dans la section [Analyser une population](../../reporting/using/use-cases.md#analyzing-a-population).
+Les options de configuration proposées pour un rapport créé à lʼaide du modèle de **[!UICONTROL distribution qualitative]** sont détaillées dans la section [Affichage des données dans le tableau](#displaying-data-in-the-table). Un exemple détaillé est proposé dans la section [Analyse dʼune population](../../reporting/using/use-cases.md#analyzing-a-population).
 
-Lorsque vous utilisez l&#39;assistant d&#39;analyse descriptive pour réaliser une analyse qualitative de vos données, les options disponibles dépendent des paramètres sélectionnés. Elles sont présentées ci-après.
+Lorsque vous utilisez lʼassistant dʼanalyse descriptive pour réaliser une analyse qualitative de vos données, les options disponibles dépendent des paramètres sélectionnés. Elles sont présentées ci-après.
 
 ### Mise en classe des données {#data-binning}
 
@@ -105,7 +105,7 @@ En fonction du contenu du champ, les options proposées peuvent différer.
 
    ![](assets/reporting_descriptive_initialize_modulo_result.png)
 
-### Afficher les données dans le tableau {#displaying-data-in-the-table}
+### Affichage des données dans le tableau {#displaying-data-in-the-table}
 
 Utilisez la barre d&#39;outils pour personnaliser l&#39;affichage des variables dans le tableau : supprimer une colonne, afficher les données en ligne plutôt qu&#39;en colonne, changer le niveau d&#39;affichage des données, consulter ou modifier le calcul des valeurs.
 
@@ -115,7 +115,7 @@ La section supérieure de la fenêtre permet de sélectionner les paramètres d&
 
 Vous pouvez afficher ou masquer le nom des statistiques et sous-totaux, et choisir l&#39;orientation des statistiques. Voir à ce sujet la section [Paramètres de l&#39;affichage du rapport d&#39;analyse](../../reporting/using/processing-a-report.md#analysis-report-display-settings).
 
-### Afficher les données dans le graphique {#displaying-data-in-the-chart}
+### Affichage des données dans le graphique {#displaying-data-in-the-chart}
 
 Dans la première étape de l&#39;assistant d&#39;analyse descriptive, vous pouvez choisir de n&#39;afficher les données que sous forme graphique, sans tableau. Dans ce cas, la sélection des variables doit être faite dans l&#39;étape de paramétrage du graphique. Vous devez d&#39;abord choisir le nombre de variables à afficher et sélectionner les champs de la base concernés.
 
@@ -179,7 +179,7 @@ Les opérations possibles sont les suivantes :
 
       ![](assets/report_compute_data_sample4.png)
 
-### Afficher le rapport {#displaying-the-report}
+### Affichage du rapport {#displaying-the-report}
 
 La dernière étape de l&#39;assistant permet d&#39;afficher le rapport, c&#39;est-à-dire le tableau et/ou le graphique tels qu&#39;ils ont été paramétrés.
 
@@ -195,7 +195,7 @@ Lorsque le rapport contient un graphique, les libellés de la légende permetten
 
 ![](assets/report_display_data_in_graph.png)
 
-## Configurer le modèle de distribution quantitative {#configuring-the-quantitative-distribution-template}
+## Configuration du modèle de distribution quantitative {#configuring-the-quantitative-distribution-template}
 
 Pour générer vous-même une analyse descriptive, sélectionnez l&#39;option **Nouvelle analyse descriptive depuis un modèle** si ce n&#39;est pas le cas par défaut.
 
@@ -231,4 +231,4 @@ Les opérations possibles sont les suivantes :
 
    ![](assets/reporting_descriptive_view_report.png)
 
-   Pour apporter des modifications au rapport, reportez-vous à la section [Traitement du rapport](../../reporting/using/processing-a-report.md).
+   Pour savoir comment apporter des modifications au rapport, consultez la section [Traitement du rapport](../../reporting/using/processing-a-report.md).
