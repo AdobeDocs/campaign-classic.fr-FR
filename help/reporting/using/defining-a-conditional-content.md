@@ -4,9 +4,9 @@ title: Définition d’un contenu conditionnel
 description: Définition d’un contenu conditionnel
 exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '254'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Vous pouvez conditionner l&#39;affichage de certains éléments d&#39;un rapport ou d&#39;une ou plusieurs pages du rapport.
 
-Pour rendre des éléments spécifiques conditionnels, adaptez leurs paramètres de visibilité. Voir à ce sujet la section [Affichage de l’élément de condition](#conditioning-item-display).
+Pour rendre des éléments spécifiques conditionnels, adaptez leurs paramètres de visibilité. Pour plus dʼinformations, consultez la section [Conditionnement de l’affichage d’un élément](#conditioning-item-display).
 
-Pour rendre l’affichage d’une ou de plusieurs pages conditionnel, utilisez une activité de type **[!UICONTROL Test]**. Voir à ce sujet la section [Affichage de la page de condition](#conditioning-page-display).
+Pour rendre l’affichage d’une ou de plusieurs pages conditionnel, utilisez une activité de type **[!UICONTROL Test]**. Pour plus dʼinformations, consultez la section [Conditionnement de lʼaffichage dʼune page](#conditioning-page-display).
 
-## Affichage de l’élément de condition {#conditioning-item-display}
+## Conditionnement de lʼaffichage dʼun élément {#conditioning-item-display}
 
 Pour rendre l&#39;affichage d&#39;une partie d&#39;un rapport conditionnel, vous devez définir ses conditions de visibilité : si ces conditions ne sont pas remplies, alors le ou les éléments ne seront pas affichés.
 
@@ -32,7 +32,7 @@ Dans l&#39;exemple suivant, la condition d&#39;affichage dépend de la langue :
 
 ![](assets/reporting_display_condition.png)
 
-## Affichage de la page de condition {#conditioning-page-display}
+## Conditionnement de lʼaffichage dʼune page {#conditioning-page-display}
 
 Dans le diagramme d&#39;un rapport, l&#39;activité **[!UICONTROL Test]** vous permet de modifier l&#39;enchaînement des pages du rapport en fonction d&#39;une ou plusieurs conditions.
 
@@ -49,6 +49,6 @@ Le principe de fonctionnement de cette activité est le suivant :
 
 1. Sélectionnez l&#39;option **[!UICONTROL Activer le branchement par défaut]** pour ajouter une transition, dans le cas où aucune des conditions paramétrées ne soit remplie.
 
-   Voir à ce propos [cette section](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
+   Pour plus d’informations, consultez [cette section](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
 
 Une activité **[!UICONTROL Test]** peut être positionnée en début de diagramme afin de conditionner l&#39;affichage selon le contexte par exemple, ou le profil de l&#39;opérateur.
