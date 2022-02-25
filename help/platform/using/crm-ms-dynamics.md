@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Campaign - Connecteur Microsoft Dynamics CRM
-description: Découvrez comment connecter Campaign et Microsoft Dynamics
+description: Découvrez comment connecter Campaign et Microsoft Dynamics
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1132'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Un déploiement possible est effectué via l’**API Web** (recommandé). Pour d
 
 La synchronisation des données s&#39;effectue via une activité de workflow dédiée. [En savoir plus](../../platform/using/crm-data-sync.md).
 
-## Étapes de mise en œuvre{#microsoft-dynamics-implementation-steps}
+## Étapes dʼimplémentation{#microsoft-dynamics-implementation-steps}
 
 Pour connecter Microsoft Dynamics 365 à Adobe Campaign via **Web API**, vous devez appliquer les étapes suivantes :
 
