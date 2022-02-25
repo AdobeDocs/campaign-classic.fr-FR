@@ -4,9 +4,9 @@ title: Modèle de publication
 description: Modèle de publication
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ La clé d&#39;identification d&#39;une feuille de style est une chaîne construi
 >
 >Dans la pratique, il est recommandé d&#39;utiliser la même clé pour le schéma, le formulaire et le modèle de publication.
 
-## Créer et configurer le modèle {#creating-and-configuring-the-template}
+## Création et configuration du modèle {#creating-and-configuring-the-template}
 
 Les modèles de publication sont stockés par défaut dans le noeud **[!UICONTROL Administration > Paramétrages > Modèles de publication]**. Pour créer un nouveau modèle, cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des modèles.
 
@@ -84,17 +84,17 @@ Les options de publication disponibles sont les suivantes :
 
    >[!NOTE]
    >
-   >Pour plus d&#39;informations sur la génération du contenu, reportez-vous à la section [Création d’une instance de contenu](using-a-content-template.md#creating-a-content-instance).
+   >Pour plus d’informations sur la génération du contenu, consultez la section [Création d’une instance de contenu](using-a-content-template.md#creating-a-content-instance).
 
 ### Diffusion {#delivery}
 
-Cet onglet permet de sélectionner un modèle de diffusion afin de lancer une diffusion directement sur le contenu. Le contenu de l&#39;email sera automatiquement renseigné en fonction des formats de sortie HTML ou Texte.
+Cet onglet permet de sélectionner un scénario afin de lancer une diffusion directement sur le contenu. Le contenu de lʼe-mail sera automatiquement renseigné en fonction des formats de sortie HTML ou Texte.
 
 ![](assets/d_ncs_content_model3.png)
 
 >[!NOTE]
 >
->Pour un exemple de création d&#39;une diffusion à partir d&#39;un contenu, reportez-vous à la section [Diffuser une instance de contenu](using-a-content-template.md#delivering-a-content-instance).
+>Pour découvrir un exemple de création de diffusion à partir dʼun contenu, consultez la section [Diffusion dʼune instance de contenu](using-a-content-template.md#delivering-a-content-instance).
 
 ### Agrégateur {#aggregator}
 
