@@ -4,9 +4,9 @@ title: Mode de tracking web
 description: Découvrez comment sélectionner le mode de tracking web
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
