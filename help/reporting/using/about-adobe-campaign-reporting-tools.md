@@ -5,9 +5,9 @@ description: Analysez la réussite de vos campagnes dans des rapports natifs ou 
 feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '334'
+ht-degree: 100%
 
 ---
 
@@ -25,21 +25,21 @@ Adobe Campaign propose plusieurs outils de reporting :
 
 1. **Rapports natifs** : Adobe Campaign propose un ensemble de rapports sur les diffusions, les opérations, les activités de la plateforme, les fonctionnalités optionnelles, etc. Ces rapports sont disponibles à partir des différentes fonctionnalités auxquelles ils se rapportent. Ils peuvent être adaptés pour mieux répondre à vos besoins.
 
-   Voir à ce propos [cette section](../../reporting/using/about-campaign-built-in-reports.md).
+   Pour plus d’informations, consultez [cette section](../../reporting/using/about-campaign-built-in-reports.md).
 
 1. **L&#39;analyse descriptive des données** : Adobe Campaign propose un outil visuel afin de produire des statistiques métier sur les données de la base. Vous pouvez créer des rapports d&#39;analyse descriptive à travers un assistant dédié et définir leur contenu et leur présentation en fonction de vos besoins.
 
-   Voir à ce propos [cette section](../../reporting/using/about-descriptive-analysis.md).
+   Pour plus d’informations, consultez [cette section](../../reporting/using/about-descriptive-analysis.md).
 
 1. **Les rapports personnalisés** : Adobe Campaign vous permet de créer des rapports sur les données de la base. Une fois créés, ces rapports sont ensuite rendus accessibles dans les contextes appropriés.
 
    Selon la complexité des requêtes, des calculs et les volumes manipulés, les données analysées dans ces rapports peuvent être collectées via une requête et pré-agrégées dans une liste (workflow de type &#39;data management&#39;) ou dans un Cube (via l&#39;utilisation de Marketing Analytics). Elles seront affichées sous la forme d&#39;un tableau croisé dynamique ou d&#39;une liste avec regroupement.
 
-   Voir à ce propos [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
+   Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
 1. **Les rapports d&#39;analyse** : Marketing Analytics permet une exploration intuitive des données.
 
-   Voir à ce propos [cette section](../../reporting/using/about-cubes.md).
+   Pour plus d’informations, consultez [cette section](../../reporting/using/about-cubes.md).
 
 >[!CAUTION]
 >
