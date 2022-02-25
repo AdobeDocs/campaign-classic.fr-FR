@@ -5,7 +5,7 @@ description: Découvrez comment intégrer le SDK Campaign à votre application m
 feature: Mobile SDK Integration, Push
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1018'
 ht-degree: 100%
 
