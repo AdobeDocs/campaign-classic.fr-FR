@@ -4,7 +4,7 @@ title: À propos des étapes de création de diffusions dans Adobe Campaign Cl
 description: Découvrez les principales étapes de création de diffusions dans Adobe Campaign Classic
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
 ht-degree: 100%
 
