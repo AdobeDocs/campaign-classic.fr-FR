@@ -4,9 +4,9 @@ title: Créer un nouveau rapport
 description: Découvrez les étapes principales pour créer un nouveau rapport
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '961'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Pour créer un rapport, les étapes sont les suivantes :
 
 1. Enregistrez ce rapport.
 
-## Modèle du graphique {#modelizing-the-chart}
+## Modélisation du graphique {#modelizing-the-chart}
 
 Après avoir enregistré votre rapport, ce dernier s&#39;affiche. Vous pouvez désormais construire le diagramme de votre rapport.
 
@@ -58,9 +58,9 @@ Pour construire votre rapport, selon sa nature et son contexte d&#39;utilisation
 
 1. Ajoutez un ou plusieurs activités **[!UICONTROL Requête]** pour collecter les données utiles à la construction du rapport. Les données peuvent être collectées directement via une requête sur un schéma de la base de données, ou au travers d&#39;une liste importée, ou via un Cube existant.
 
-   Voir à ce sujet la section [Collecter les données à analyser](../../reporting/using/collecting-data-to-analyze.md).
+   Pour plus dʼinformations, consultez la section [Collecte des données à analyser](../../reporting/using/collecting-data-to-analyze.md).
 
-   Ces données seront affichées ou non dans le rapport, selon le paramétrage des pages.
+   Ces données seront affichées ou non dans le rapport, selon la configuration des pages.
 
 1. Positionnez une ou plusieurs activités **[!UICONTROL Page]** pour définir la présentation graphique des données collectées. Vous pouvez y insérer des tableaux, graphiques, champs de saisie, et conditionner l&#39;affichage d&#39;une ou plusieurs pages, ou de certains éléments de la page. Le contenu affiché est entièrement paramétrable.
 
@@ -88,7 +88,7 @@ Par contre, il est possible de positionner plusieurs branches. Une seule d&#39;e
 
 ## Création d’une page {#creating-a-page}
 
-Le contenu est paramétré au travers des activités positionnées dans le diagramme. Voir à ce sujet la section [Modéliser le graphique](#modelizing-the-chart).
+Le contenu est paramétré au travers des activités positionnées dans le diagramme. Pour plus dʼinformations, consultez la section [Modélisation du graphique](#modelizing-the-chart).
 
 Pour paramétrer chaque activité, double-cliquez sur son icône.
 
@@ -106,7 +106,7 @@ Vous pouvez également cliquer avec le bouton droit sur le noeud dans lequel vou
 
 >[!CAUTION]
 >
->Si le rapport est destiné à être exporté au format Excel, il est recommandé de ne pas utiliser de formatage complexe en HTML. Voir à ce sujet la section [Exporter un rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
+>Si le rapport est destiné à être exporté au format Excel, il est recommandé de ne pas utiliser de formatage complexe en HTML. Pour plus dʼinformations, consultez la section [Exportation dʼun rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 Une **[!UICONTROL Page]** peut contenir les éléments suivants :
 
