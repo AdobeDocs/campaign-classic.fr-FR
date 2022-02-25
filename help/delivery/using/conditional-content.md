@@ -5,9 +5,9 @@ description: Découvrez comment ajouter du contenu conditionnel
 feature: Personalization, Multilingual Messages
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ En configurant des champs de contenu conditionnel, vous pouvez créer une person
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#conditionnal-content-video)
 
 
-## Conditions d’utilisation d’un email {#using-conditions-in-an-email}
+## Utilisation de conditions dans un e-mail {#using-conditions-in-an-email}
 
 Dans l&#39;exemple ci-dessous, vous allez découvrir comment créer de manière dynamique un message personnalisé selon le genre et les centres d&#39;intérêt du destinataire.
 
@@ -75,7 +75,7 @@ Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** et sélectionnez un destinatai
 
 ![](assets/s_ncs_user_conditional_content08.png)
 
-## Créer un email multilingue {#creating-multilingual-email}
+## Création dʼun e-mail multilingue {#creating-multilingual-email}
 
 Dans l’exemple ci-dessous, vous allez découvrir comment créer un email multilingue. Le contenu s’affiche dans une langue ou une autre, selon la préférence linguistique du destinataire.
 
