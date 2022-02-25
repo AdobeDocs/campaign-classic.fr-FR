@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Tracking anonyme
-description: Découvrez comment configurer le suivi anonyme
+description: Découvrez comment configurer le tracking anonyme
 exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
