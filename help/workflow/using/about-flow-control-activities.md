@@ -5,13 +5,13 @@ description: À propos des activités d’ordonnancement
 feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Activités de contrôle de flux dans les workflows{#about-flow-control-activities}
+# Activités dʼordonnancement dans les workflows{#about-flow-control-activities}
 
 ![](../../assets/common.svg)
 
