@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Envoi d'e-mails transactionnels avec des pièces jointes
-description: Découvrez comment envoyer des e-mails transactionnels avec des pièces jointes individuelles et/ou personnalisées à l'aide d'Adobe Campaign 
+title: Envoi dʼe-mails transactionnels avec des pièces jointes
+description: Découvrez comment envoyer des e-mails transactionnels avec des pièces jointes individuelles et/ou personnalisées à lʼaide dʼAdobe Campaign
 feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '627'
 ht-degree: 100%
 
