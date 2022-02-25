@@ -7,7 +7,7 @@ exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: afe4329fd230f30e48bfbf5ac2073ca95a6fd04e
 workflow-type: tm+mt
 source-wordcount: '2931'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires
 >
 >Cette section s&#39;applique aux canaux on-line : email, SMS et notification push.
 
-## Optimiser votre diffusion par le biais de la gestion des quarantaines {#optimizing-your-delivery-through-quarantines}
+## Optimisation de votre diffusion par le biais de la gestion des quarantaines {#optimizing-your-delivery-through-quarantines}
 
-Les profils dont l&#39;adresse email ou le numéro de téléphone est en quarantaine sont automatiquement exclus lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
+Les profils dont lʼadresse e-mail ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (consultez la section [Identification des adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
 Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d’éviter d’être ajouté à une liste bloquée par ces fournisseurs.
 
@@ -47,15 +47,15 @@ La quarantaine et la liste bloquée ne s’appliquent pas au même objet :
 >
 >La quarantaine comprend un **[!UICONTROL Placé sur la liste bloquée]** statut, qui s&#39;applique lorsque les destinataires signalent votre message comme indésirable ou répondent à un message SMS avec un mot-clé tel que &quot;STOP&quot;. Dans ce cas, l’adresse ou le numéro de téléphone du profil impliqué est mis en quarantaine avec la variable **[!UICONTROL Placé sur la liste bloquée]** statut. Pour plus d&#39;informations sur la gestion des messages SMS STOP, consultez [cette section](../../delivery/using/sms-send.md#processing-inbound-messages).
 
-## Identifier les adresses en quarantaine {#identifying-quarantined-addresses}
+## Identification des adresses en quarantaine {#identifying-quarantined-addresses}
 
-Les adresses en quarantaine peuvent être répertoriées pour une diffusion spécifique ou l&#39;ensemble de la plateforme.
+Les adresses en quarantaine peuvent être répertoriées pour une diffusion spécifique ou lʼensemble de la plateforme.
 
-### Identifier les adresses en quarantaine pour une diffusion {#identifying-quarantined-addresses-for-a-delivery}
+### Identification des adresses en quarantaine pour une diffusion {#identifying-quarantined-addresses-for-a-delivery}
 
-Les adresses en quarantaine pour une diffusion spécifique sont répertoriées pendant la phase de préparation de la diffusion, dans les logs de diffusion du tableau de bord des diffusions (voir la section [Logs et historique de la diffusion](delivery-dashboard.md#delivery-logs-and-history)).
+Les adresses en quarantaine pour une diffusion spécifique sont répertoriées pendant la phase de préparation de la diffusion, dans les logs de diffusion du tableau de bord des diffusions (consultez la section [Logs et historique de la diffusion](delivery-dashboard.md#delivery-logs-and-history)).
 
-### Identifier les adresses en quarantaine pour l’ensemble de la plateforme {#identifying-quarantined-addresses-for-the-entire-platform}
+### Identification des adresses en quarantaine pour lʼensemble de la plateforme {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Les administrateurs peuvent répertorier les adresses en quarantaine pour l&#39;ensemble de la plateforme depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > NP@I et adresses]**.
 
@@ -74,7 +74,7 @@ Les informations disponibles pour chacune des adresses sont les suivantes :
 >Fin de l&#39;année 1 : (1*0,33)/(1+0,5)=22%.
 Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
 
-### Identifier les adresses en quarantaine dans les rapports de diffusion {#identifying-quarantined-addresses-in-delivery-reports}
+### Identification des adresses en quarantaine dans les rapports de diffusion {#identifying-quarantined-addresses-in-delivery-reports}
 
 Les rapports suivants fournissent des informations relatives aux adresses en quarantaine :
 
@@ -88,13 +88,13 @@ Les rapports suivants fournissent des informations relatives aux adresses en qua
 
 Vous pouvez consulter ces informations pour l&#39;ensemble des diffusions de la plateforme (**[!UICONTROL Page d&#39;accueil > Rapports]**) ou pour une diffusion particulière. Vous pouvez également créer des rapports personnalisés et sélectionner les informations à afficher.
 
-### Identifier les adresses en quarantaine pour un destinataire {#identifying-quarantined-addresses-for-a-recipient}
+### Identification des adresses en quarantaine pour un destinataire {#identifying-quarantined-addresses-for-a-recipient}
 
-Pour chaque destinataire, vous pouvez consulter l&#39;état de son adresse email. Pour cela, sélectionnez le profil du destinataire et cliquez sur l&#39;onglet **[!UICONTROL Diffusions]**. Vous pouvez voir pour l&#39;ensemble des diffusions vers ce destinataire si l&#39;adresse a été en échec, mise en quarantaine lors de l&#39;analyse, etc. Pour chaque dossier, vous ne pouvez afficher que les destinataires dont l&#39;adresse email est en quarantaine. Pour cela, utilisez le filtre applicatif **[!UICONTROL Email en quarantaine]**.
+Pour chaque destinataire, vous pouvez consulter lʼétat de son adresse e-mail. Pour cela, sélectionnez le profil du destinataire et cliquez sur lʼonglet **[!UICONTROL Diffusions]**. Vous pouvez voir pour lʼensemble des diffusions vers ce destinataire si lʼadresse a été en échec, mise en quarantaine lors de lʼanalyse, etc. Pour chaque dossier, vous ne pouvez afficher que les destinataires dont lʼadresse e-mail est en quarantaine. Pour cela, utilisez le filtre applicatif **[!UICONTROL E-mail en quarantaine]**.
 
 ![](assets/tech_quarant_recipients_filter.png)
 
-### Supprimer une adresse en quarantaine {#removing-a-quarantined-address}
+### Sortie dʼune adresse de quarantaine {#removing-a-quarantined-address}
 
 Si nécessaire, vous pouvez supprimer manuellement une adresse de la liste de quarantaine. En outre, les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaine par le workflow [Nettoyage de la base](../../production/using/database-cleanup-workflow.md).
 
