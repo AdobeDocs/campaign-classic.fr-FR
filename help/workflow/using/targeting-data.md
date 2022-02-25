@@ -5,9 +5,9 @@ description: En savoir plus sur le ciblage des données dans un workflow
 feature: Query Editor, Data Management
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2031'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 ## Création de requêtes {#creating-queries}
 
-### Sélectionner des données {#selecting-data}
+### Choix des données {#selecting-data}
 
 Une activité **[!UICONTROL Requête]** permet de sélectionner des données de base pour créer la population cible. Voir à ce sujet la section [Créer une requête](query.md#creating-a-query).
 
@@ -25,7 +25,7 @@ Les activités suivantes peuvent également servir à lancer des requêtes et à
 
 Il est possible de collecter des données supplémentaires pour les transférer et les traiter tout au long du cycle de vie du workflow. Voir à ce sujet les sections [Ajouter des données](query.md#adding-data) et [Editer les données additionnelles](#editing-additional-data).
 
-### Editer les données additionnelles {#editing-additional-data}
+### Modification des données additionnelles {#editing-additional-data}
 
 Une fois que des données additionnelles ont été ajoutées, vous pouvez les éditer ou les utiliser pour affiner la cible définie dans l&#39;activité de requête.
 
@@ -51,13 +51,13 @@ Les collections sont affichées dans le sous-onglet **[!UICONTROL Collections]**
 
 ![](assets/query_add_columns_collection.png)
 
-### Affiner la cible en utilisant les données additionnelles {#refining-the-target-using-additional-data}
+### Affinage de la cible en utilisant les données additionnelles {#refining-the-target-using-additional-data}
 
-Les données additionnelles collectées peuvent permettre d&#39;affiner le filtrage des données de la base. Pour cela, cliquez sur le lien **[!UICONTROL Affiner la cible en utilisant les données additionnelles...]** : vous pouvez ainsi sur-filtrer sur les données qui ont été ajoutées.
+Les données additionnelles collectées peuvent permettre dʼaffiner le filtrage des données de la base. Pour cela, cliquez sur le lien **[!UICONTROL Affinage de la cible en utilisant les données additionnelles...]** : vous pouvez ainsi sur-filtrer sur les données qui ont été ajoutées.
 
 ![](assets/wf_add_data_use_additional_data.png)
 
-### Homogénéiser les données {#homogenizing-data}
+### Homogénéisation des données {#homogenizing-data}
 
 Dans les activités de type **[!UICONTROL Union]** ou **[!UICONTROL Intersection]**, vous pouvez choisir de ne conserver que les données additionnelles communes afin d&#39;homogénéiser les données. Dans ce cas, la table de travail temporaire en sortie de cette activité ne contiendra que les données additionnelles présentes dans tous les ensembles en entrée.
 
@@ -69,7 +69,7 @@ Lors des phases de réconciliation des données (dans les activités **[!UICONTR
 
 ![](assets/select-column-and-join.png)
 
-### Créer des sous-ensembles {#creating-subsets}
+### Création de sous-ensembles {#creating-subsets}
 
 L&#39;activité de **[!UICONTROL Partage]** permet de créer des sous-ensembles sur des critères définis au travers de requêtes d&#39;extraction. Pour chaque sous-ensemble, lorsque vous éditez une condition de filtrage sur la population, vous accédez à l&#39;activité de requête standard et pouvez ainsi définir les conditions de segmentation de la cible.
 
@@ -79,7 +79,7 @@ Pour plus d’informations, voir la section [Création de sous-ensembles à l’
 
 ## Données de segment {#segmenting-data}
 
-### Combiner plusieurs cibles (Union) {#combining-several-targets--union-}
+### Réunion de plusieurs cibles (Union) {#combining-several-targets--union-}
 
 L&#39;activité d&#39;union permet de regrouper le résultat de plusieurs activités dans une même transition. Les ensembles ne doivent pas nécessairement être homogènes.
 
@@ -117,7 +117,7 @@ Les options de réconciliation des données sont les suivantes :
 
    ![](assets/join_limit_nb_priority.png)
 
-### Extraire les données communes (Intersection) {#extracting-joint-data--intersection-}
+### Extraction des données communes (Intersection) {#extracting-joint-data--intersection-}
 
 ![](assets/traitements.png)
 
@@ -127,7 +127,7 @@ Il est par ailleurs possible de ne conserver qu&#39;une sélection de colonnes o
 
 L’activité d’intersection est présentée dans la section [Intersection](intersection.md).
 
-### Exclure une population (Exclusion) {#excluding-a-population--exclusion-}
+### Exclusion dʼune population (Exclusion) {#excluding-a-population--exclusion-}
 
 L&#39;activité d&#39;exclusion permet d&#39;exclure d&#39;une population cible les éléments d&#39;une autre cible. La dimension de ciblage en sortie de cette activité sera celle de l&#39;ensemble principal.
 
@@ -137,7 +137,7 @@ La réconciliation entre les données se fait au choix par identifiant, changeme
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
-### Créer des sous-ensembles à l&#39;aide de l&#39;activité Partage {#creating-subsets-using-the-split-activity}
+### Création de sous-ensembles à lʼaide de lʼactivité Partage {#creating-subsets-using-the-split-activity}
 
 L&#39;activité **[!UICONTROL Partage]** est une activité standard qui permet de créer autant d&#39;ensembles que nécessaires à partir d&#39;une ou plusieurs dimensions de filtrage et de générer en sortie une transition par sous-ensemble ou une transition unique.
 
@@ -213,7 +213,7 @@ Vous pourrez par exemple positionner une seule activité de diffusion et personn
 
 Vous pouvez également créer des sous-ensembles à l’aide de l’activité **[!UICONTROL Cellules]**. Pour plus d&#39;informations, consultez la section [Cellules](cells.md).
 
-### Utiliser les données ciblées {#using-targeted-data}
+### Utilisation des données ciblées {#using-targeted-data}
 
 Une fois les données identifiées et préparées, elles peuvent être utilisées dans les contextes suivants :
 
@@ -249,7 +249,7 @@ Pour réaliser ces opérations, Adobe Campaign propose :
 >  
 >Par exemple, la suppression d&#39;un destinataire via un workflow n&#39;entraînera pas la suppression de ses historiques de diffusion. En revanche, la suppression d&#39;un destinataire directement dans le dossier &#39;Destinataires&#39; de l&#39;arborescence entraînera bien la suppression de toutes les données liées à ce dernier.
 
-### Enrichir et modifier des données {#enriching-and-modifying-data}
+### Enrichissement et modification des données {#enriching-and-modifying-data}
 
 En complément de la dimension de ciblage, la dimension de filtrage permet de préciser la nature des données collectées. Voir à ce sujet la section [Dimension de ciblage et dimension de filtrage](building-a-workflow.md#targeting-and-filtering-dimensions).
 
