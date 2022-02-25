@@ -4,9 +4,9 @@ title: Éléments et attributs de schéma
 description: élément method
 exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '205'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
