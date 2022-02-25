@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Ajout d'autres fonctions SQL
-description: Découvrez comment définir des fonctions SQL supplémentaires
+title: Ajout dʼautres fonctions SQL
+description: Découvrez comment définir dʼautres fonctions SQL
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Définition d’autres fonctions SQL{#adding-additional-sql-functions}
+# Définition dʼautres fonctions SQL{#adding-additional-sql-functions}
 
 ![](../../assets/v7-only.svg)
 
