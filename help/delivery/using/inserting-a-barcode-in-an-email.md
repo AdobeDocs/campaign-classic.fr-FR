@@ -3,7 +3,7 @@ product: campaign
 title: Insertion d’un code-barres dans un e-mail
 description: Insertion d’un code-barres dans un e-mail
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
 ht-degree: 100%
 
