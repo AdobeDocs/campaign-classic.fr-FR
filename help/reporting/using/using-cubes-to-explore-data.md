@@ -4,9 +4,9 @@ title: Utilisation des cubes pour explorer les données
 description: Utilisation des cubes pour explorer les données
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '991'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 90%
 
 Marketing Analytics permet de simplifier la création de rapports ainsi que l&#39;identification et la sélection de données de la base via l&#39;utilisation des cubes. Vous pouvez ainsi :
 
-* Créer des rapports basés sur des cubes. Le processus est détaillé ici : [Explorer les données dans un rapport](#exploring-the-data-in-a-report).
-* Collecter des données de la base et les regrouper dans des listes, par exemple pour identifier et construire les cibles des diffusions. Voir à ce sujet la section [Créer une population cible](#building-a-target-population).
-* Insérer un tableau croisé dynamique dans un rapport, au sein duquel vous référencez un cube existant. Voir à ce sujet la section [Insérer un tableau croisé dynamique dans un rapport](#inserting-a-pivot-table-into-a-report).
+* Créer des rapports basés sur des cubes. La procédure est décrite dans la section [Exploration des données dans un rapport](#exploring-the-data-in-a-report).
+* Collecter des données de la base et les regrouper dans des listes, par exemple pour identifier et construire les cibles des diffusions. Pour plus dʼinformations, consultez la section [Construction dʼune population cible](#building-a-target-population).
+* Insérer un tableau croisé dynamique dans un rapport, au sein duquel vous référencez un cube existant. Pour plus dʼinformations, consultez la section [Insertion dʼun tableau croisé dynamique dans un rapport](#inserting-a-pivot-table-into-a-report).
 
 >[!NOTE]
 >
 >Marketing Analytics est nécessaire pour créer ou modifier des cubes. Voir à ce sujet la section [À propos des cubes](../../reporting/using/about-cubes.md).
 
-## Explorer les données dans un rapport {#exploring-the-data-in-a-report}
+## Exploration des données dans un rapport {#exploring-the-data-in-a-report}
 
-### Etape 1 - Créer un rapport basé sur un cube {#step-1---creating-a-report-based-on-a-cube}
+### Étape 1 : création dʼun rapport basé sur un cube {#step-1---creating-a-report-based-on-a-cube}
 
 Pour créer un rapport basé sur un cube, cliquez sur le bouton **[!UICONTROL Créer]** de l’onglet **[!UICONTROL Rapports]** et choisissez le cube à utiliser.
 
-Le processus est détaillé ici : [Créer un rapport basé sur un cube](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
+La procédure est décrite dans la section [Création dʼun rapport basé sur un cube](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
 
-### Etape 2 - Sélection des lignes et colonnes {#step-2---selecting-lines-and-columns}
+### Étape 2 : sélection des lignes et colonnes {#step-2---selecting-lines-and-columns}
 
 L&#39;affichage par défaut propose alors les deux premières dimensions du cube (dans notre exemple : l&#39;âge et la ville).
 
@@ -51,7 +51,7 @@ Les boutons **[!UICONTROL Ajouter]** situés sur chacun des axes permettent d&#3
 
    Les paramètres dépendent du type de données de la dimension sélectionnée.
 
-   Par exemple, pour les dates, plusieurs niveaux peuvent être disponibles. Voir à ce sujet la section [Afficher les mesures](../../reporting/using/concepts-and-methodology.md#displaying-measures).
+   Par exemple, pour les dates, plusieurs niveaux peuvent être disponibles. Pour plus dʼinformations, consultez la section [Affichage des mesures](../../reporting/using/concepts-and-methodology.md#displaying-measures).
 
    Les options proposées sont alors les suivantes :
 
@@ -71,7 +71,7 @@ Les boutons **[!UICONTROL Ajouter]** situés sur chacun des axes permettent d&#3
 
    ![](assets/s_advuser_cube_in_report_04c.png)
 
-### Etape 3 - Paramétrage des mesures à afficher {#step-3---configuring-the-measures-to-display}
+### Étape 3 : configuration des mesures à afficher {#step-3---configuring-the-measures-to-display}
 
 Une fois les lignes et colonnes positionnées, indiquez les mesures que vous souhaitez afficher ainsi que leur mode d&#39;affichage.
 
@@ -93,7 +93,7 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    ![](assets/s_advuser_cube_in_report_config_02.png)
 
-   Vous pouvez notamment choisir d&#39;afficher ou non les libellés des mesures. Voir à ce sujet la section [Configuration de l’affichage](../../reporting/using/concepts-and-methodology.md#configuring-the-display).
+   Vous pouvez notamment choisir d&#39;afficher ou non les libellés des mesures. Pour plus dʼinformations, consultez la section [Configuration de lʼaffichage](../../reporting/using/concepts-and-methodology.md#configuring-the-display).
 
 1. Vous pouvez construire de nouvelles mesures à partir des mesures existantes. Pour cela, cliquez sur le bouton **[!UICONTROL Créer une mesure]** et indiquez son paramétrage.
 
@@ -117,7 +117,7 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    Cliquez ensuite sur le bouton **[!UICONTROL Editer la mesure dynamique]** pour accéder aux paramétrages.
 
-## Créer une population cible {#building-a-target-population}
+## Construction dʼune population cible {#building-a-target-population}
 
 Les rapports construits à partir des cubes permettent de collecter des données de la base et les sauvegarder dans une liste.
 
@@ -153,7 +153,7 @@ Pour regrouper une population dans une liste, les étapes sont les suivantes :
 
    ![](assets/s_advuser_cube_in_report_config_02g.png)
 
-## Insérer un tableau croisé dynamique dans un rapport {#inserting-a-pivot-table-into-a-report}
+## Insertion dʼun tableau croisé dynamique dans un rapport {#inserting-a-pivot-table-into-a-report}
 
 Pour créer un tableau qui explore les données d&#39;un cube, les étapes sont les suivantes :
 
