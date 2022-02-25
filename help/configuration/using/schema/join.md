@@ -4,9 +4,9 @@ title: Éléments et attributs de schéma
 description: élément join
 exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
