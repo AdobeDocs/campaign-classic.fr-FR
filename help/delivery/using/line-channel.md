@@ -5,9 +5,9 @@ description: Découvrez comment créer des messages LINE
 feature: Line App
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1320'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ Pour créer une diffusion [!DNL LINE] vous devez suivre les étapes suivantes :
 
    ![](assets/line_message_01.png)
 
-1. Identifiez votre diffusion avec un **[!UICONTROL Libellé]**, un **[!UICONTROL Code de diffusion]** et une **[!UICONTROL Description]**. Pour plus d&#39;informations à ce sujet, consultez [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
+1. Identifiez votre diffusion avec un **[!UICONTROL Libellé]**, un **[!UICONTROL Code de diffusion]** et une **[!UICONTROL Description]**. Pour plus d’informations, consultez [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 
 1. Cliquez sur **[!UICONTROL Continuer]** pour valider la création de votre diffusion.
 
