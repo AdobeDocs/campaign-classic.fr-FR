@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Créer et identifier la diffusion
-description: Créer et identifier la diffusion
+title: Création et identification de la diffusion
+description: Création et identification de la diffusion
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Créer et identifier la diffusion {#create-and-identify-the-delivery}
+# Création et identification de la diffusion {#create-and-identify-the-delivery}
 
 ![](../../assets/common.svg)
 
@@ -31,7 +31,7 @@ Par défaut, un modèle est fourni pour chaque canal installé : courrier, emai
 
 Vous pouvez créer de nouveaux modèles de diffusion afin de préconfigurer des paramètres spécifiques en fonction de vos besoins. Pour plus d’informations sur les modèles, consultez [cette section](about-templates.md).
 
-## Identifier la diffusion {#identifying-the-delivery}
+## Identification de la diffusion {#identifying-the-delivery}
 
 Vous devez renseigner des paramètres pour identifier la diffusion. Pour cela :
 
