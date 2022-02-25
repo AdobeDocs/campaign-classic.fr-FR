@@ -5,9 +5,9 @@ description: Découvrez comment envoyer les meilleures offres à vos contacts en
 feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
