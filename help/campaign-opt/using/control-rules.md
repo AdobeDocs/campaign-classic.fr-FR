@@ -4,7 +4,7 @@ title: Règles de contrôle
 description: Règles de contrôle
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
 ht-degree: 100%
 
