@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Génération de documents PDF personnalisés
-description: Découvrez comment générer des documents de PDF personnalisés
+description: Découvrez comment générer des documents PDF personnalisés
 feature: Personalization
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Les extensions supportées sont : &quot;.docx&quot;, &quot;.doc&quot;, et &quot
 
 Pour personnaliser vos documents, vous disposez des mêmes fonctionnalités JavaScript que celles disponibles pour la personnalisation des e-mails.
 
-Vous devez activer l&#39;option **[!UICONTROL « Le contenu du fichier est personnalisé et converti en PDF au moment de l’envoi pour chaque message »]**. Cette option est accessible lors de l’ajout de la pièce jointe dans l’email de la diffusion. Pour plus d’informations sur l’ajout d’un fichier calculé en pièce jointe, reportez-vous à la section [Joindre des fichiers](attaching-files.md) .
+Vous devez activer l&#39;option **[!UICONTROL « Le contenu du fichier est personnalisé et converti en PDF au moment de l’envoi pour chaque message »]**. Cette option est accessible lors de l’ajout de la pièce jointe dans l’email de la diffusion. Pour plus d’informations sur l’ajout d’un fichier calculé en pièce jointe, consultez la section [Joindre des fichiers](attaching-files.md).
 
 Exemple de personnalisation de l&#39;en-tête d&#39;une facture :
 
@@ -31,7 +31,7 @@ Exemple de personnalisation de l&#39;en-tête d&#39;une facture :
 
 Si vous souhaitez générer des tableaux dynamiques ou inclure des images à partir d&#39;URL, vous devez suivre une procédure particulière.
 
-## Générer des tableaux dynamiques {#generating-dynamic-tables}
+## Génération de tableaux dynamiques {#generating-dynamic-tables}
 
 La procédure pour générer des tableaux dynamiques est la suivante :
 
@@ -45,13 +45,13 @@ La procédure pour générer des tableaux dynamiques est la suivante :
 
    ![](assets/s_ncs_pdf_table.png)
 
-## Insérer des images externes {#inserting-external-images}
+## Insertion dʼimages externes {#inserting-external-images}
 
 L&#39;insertion d&#39;images externes est utile lorsque, par exemple, vous souhaitez personnaliser un document avec une image dont l&#39;URL est renseignée dans un champ du destinataire.
 
 Pour cela, il est nécessaire de paramétrer un bloc de personnalisation puis d&#39;inclure dans le fichier attaché un appel au bloc de personnalisation.
 
-**Exemple : insérer un logo personnalisé en fonction du pays du destinataire**
+**Exemple : insertion dʼun logo personnalisé en fonction du pays du destinataire**
 
 **Etape n°1 : Création du fichier attaché :**
 
