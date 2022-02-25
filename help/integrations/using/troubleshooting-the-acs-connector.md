@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Résolution des problèmes liés à ACS Connector
-description: Résolution des problèmes liés à ACS Connector
+title: Résolution des problèmes liés au connecteur ACS
+description: Résolution des problèmes liés au connecteur ACS
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
 source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Résolution des problèmes liés à ACS Connector{#troubleshooting-the-acs-connector}
+# Résolution des problèmes liés au connecteur ACS{#troubleshooting-the-acs-connector}
 
 ![](../../assets/v7-only.svg)
 
@@ -78,7 +78,7 @@ Selon votre mise en œuvre, vous pouvez rencontrer quelques problèmes courants.
 
    De plus, toutes les données associées aux destinataires et stockées dans les tables liées à nms:recipients ne sont pas synchronisées par défaut dans Campaign Standard.
 
-   Pour pouvoir continuer à utiliser les données associées, vous pouvez effectuer votre ciblage dans Campaign v7 et ajouter des données additionnelles comme expliqué dans la section [Synchronisation des audiences](../../integrations/using/synchronizing-audiences.md) ou vous pouvez contacter votre consultant pour explorer les possibilités de personnalisation.
+   Pour pouvoir continuer à utiliser les données associées, vous pouvez effectuer votre ciblage dans Campaign v7 et ajouter des données additionnelles comme décrit dans la section [Synchronisation des audiences](../../integrations/using/synchronizing-audiences.md). Vous pouvez également contacter votre consultant pour découvrir avec lui les possibilités de personnalisation.
 
 * **J&#39;utilise une autre dimension de profil que la table nms:recipient par défaut dans Campaign v7. Comment synchroniser les profils avec Campaign Standard ?**
 
