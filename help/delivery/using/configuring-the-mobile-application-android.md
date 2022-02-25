@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Configuration de l’application mobile Android dans Adobe Campaign
+title: Configuration de lʼapplication mobile Android dans Adobe Campaign
 description: Découvrez comment paramétrer votre application mobile pour Android
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
    ![](assets/nmac_service_2.png)
 
-1. Créez votre application Android. Pour plus d&#39;informations à ce sujet, consultez [cette section](configuring-the-mobile-application-android.md#creating-android-app).
+1. Créez votre application Android. Pour plus d’informations, consultez [cette section](configuring-the-mobile-application-android.md#creating-android-app).
 
 ## Création de l&#39;application mobile Android {#creating-android-app}
 
@@ -87,7 +87,7 @@ Après avoir créé votre service, vous devez maintenant créer votre applicatio
 
    ![](assets/nmac_android.png)
 
-1. Assurez-vous que la même **[!UICONTROL clé d&#39;intégration]** est définie dans Adobe Campaign et dans le code de l&#39;application via le SDK. Pour plus d&#39;informations à ce sujet, consultez [cette section](integrating-campaign-sdk-into-the-mobile-application.md).
+1. Assurez-vous que la même **[!UICONTROL clé d&#39;intégration]** est définie dans Adobe Campaign et dans le code de l&#39;application via le SDK. Pour plus d’informations, consultez [cette section](integrating-campaign-sdk-into-the-mobile-application.md).
 
    >[!NOTE]
    >
