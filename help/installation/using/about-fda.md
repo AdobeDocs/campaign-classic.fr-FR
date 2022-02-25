@@ -5,7 +5,7 @@ description: Découvrez comment accéder aux données et les traiter dans une ba
 feature: Federated Data Access
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
 ht-degree: 100%
 
