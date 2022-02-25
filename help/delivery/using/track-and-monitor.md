@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Suivi et surveillance des messages
-description: Découvrez comment suivre et surveiller les messages
+title: Tracking et surveillance des messages
+description: Découvrez comment effectuer le tracking et la surveillance des messages
 feature: Monitoring
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 Vous avez cliqué sur le bouton **Envoyer** ? Voyons maintenant ce qui se passe. Une fois la diffusion envoyée, Adobe Campaign vous permet de conserver une trace des messages envoyés et de découvrir la réaction des destinataires face à votre diffusion. Vous pourrez ainsi améliorer les prochains envois et optimiser vos campagnes suivantes.
 
-## Surveiller les diffusions {#monitoring-deliveries}
+## Surveillance des diffusions {#monitoring-deliveries}
 
 Pour contrôler vos campagnes, vous devez vérifier que le message a bien été délivré à vos destinataires.
 
@@ -36,13 +36,13 @@ Conseil : vérifiez la configuration relative à la gestion du trafic (affinit�
 >
 >Ces étapes ne peuvent être effectuées que par un utilisateur expert.
 
-## Suivi du comportement {#track-behaviour}
+## Tracking du comportement {#track-behaviour}
 
 Pour mieux connaître le comportement de vos destinataires, vous pouvez suivre leur réaction à une diffusion : réception, ouverture, clics sur des liens, désabonnements, etc. Dans Campaign Classic, ces informations figurent dans l’onglet Tracking des destinataires ciblés par la diffusion et dans l’onglet Tracking de la diffusion.
 
-**Conseil** : Le tracking des messages est activé par défaut. Pour paramétrer les URL, sélectionnez l&#39;option Afficher les URL, située dans la section inférieure de l’assistant de diffusion. Pour chaque URL du message, vous pouvez choisir d&#39;activer ou non le tracking.
+**Conseil** : le tracking des messages est activé par défaut. Pour configurer les URL, sélectionnez lʼoption Afficher les URL, située dans la section inférieure de l’assistant de diffusion. Pour chaque URL du message, vous pouvez choisir dʼactiver ou non le tracking.
 
-Voir à ce sujet la section [Configuration du suivi](how-to-configure-tracked-links.md) et le [Indicateurs de tracking](../../reporting/using/delivery-reports.md#tracking-indicators) description.
+Pour en savoir plus à ce sujet, consultez la section [Configuration du tracking](how-to-configure-tracked-links.md) et la description des [Indicateurs de tracking](../../reporting/using/delivery-reports.md#tracking-indicators).
 
 ## Performances des diffusions {#delivery-performances}
 
