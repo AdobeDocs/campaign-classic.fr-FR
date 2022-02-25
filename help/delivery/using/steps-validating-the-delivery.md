@@ -5,9 +5,9 @@ description: Découvrez comment valider une diffusion
 feature: Deliverability, Email Rendering, Proofs
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1807'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Pour cela :
 
 1. **Analyser la diffusion** : cette étape permet de procéder à la préparation des messages à envoyer. [En savoir plus](#analyzing-the-delivery).
 
-   Les règles appliquées pendant l&#39;analyse sont présentées dans [cette section](#validation-process-with-typologies). Les modes de validation disponibles sont présentés dans la section [Changement du mode de validation](#changing-the-approval-mode) .
+   Les règles appliquées pendant lʼanalyse sont présentées dans [cette section](#validation-process-with-typologies). Les modes de validation disponibles sont détaillés dans la section [Modification du mode de validation](#changing-the-approval-mode).
 
 1. **Envoyer des BAT** : cette étape permet de contrôler le contenu, les adresses URL, la personnalisation, etc. Pour en savoir plus, consultez les sections [Envoyer un BAT](steps-validating-the-delivery.md#sending-a-proof) et [Définir une cible spécifique au BAT](steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
