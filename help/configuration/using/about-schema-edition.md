@@ -5,7 +5,7 @@ description: Prise en main de l’édition de schéma
 feature: Schema Extension
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1011'
 ht-degree: 100%
 
@@ -202,7 +202,7 @@ Exemple d&#39;une jointure externe entre la table des destinataires et une table
 
 &quot;xpath-dst&quot; correspond ici à la clé primaire dans le schéma cible et &quot;xpath-src&quot; à la clé étrangère dans le schéma source.
 
-## Suivi {#audit-trail}
+## Journal d’audit {#audit-trail}
 
 Il peut être utile d&#39;ajouter à la fin de votre schéma un élément de suivi.
 
