@@ -5,7 +5,7 @@ description: Prise en main du marketing distribué
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1178'
 ht-degree: 100%
 
