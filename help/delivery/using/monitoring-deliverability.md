@@ -5,24 +5,24 @@ description: Découvrez les outils et les directives concernant la supervision d
 feature: Deliverability
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Suivez votre délivrabilité{#monitoring-deliverability}
+# Suivi de votre délivrabilité{#monitoring-deliverability}
 
 ![](../../assets/common.svg)
 
 Vous trouverez ci-dessous des détails sur les différents outils de surveillance fournis par Adobe Campaign, ainsi que des directives supplémentaires sur l’exploitation des fonctionnalités offertes par Adobe Campaign pour surveiller la délivrabilité de votre plateforme.
 
-## A propos de la supervision de la délivrabilité {#about-deliverability-monitoring}
+## A propos du suivi de la délivrabilité {#about-deliverability-monitoring}
 
 Cette fonctionnalité est disponible via un package dédié dans Adobe Campaign. Pour l’utiliser, ce package doit être installé. Une fois l&#39;installation terminée, redémarrez le serveur pour que le package soit pris en compte.
 * Pour les clients hébergés et hybrides, la **supervision de la délivrabilité** est configurée sur votre instance par l&#39;assistance technique et les consultants d&#39;Adobe. Pour plus d&#39;informations, contactez votre chargé de compte Adobe.
 
-* Pour les installations on-premise, vous devez installer le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** via le menu **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Import de package]**. Voir à ce propos la section [Installation des packages standard Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
+* Pour les installations on-premise, vous devez installer le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** via le menu **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Import de package]**. Pour plus dʼinformations, consultez la section [Installation de packages standard Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
 
 Dans Adobe Campaign Classic, la **supervision de la délivrabilité** est gérée par le workflow **[!UICONTROL Mise à jour pour la délivrabilité]**. Il est installé par défaut sur toutes les instances et permet d&#39;initialiser la liste des règles de qualification des emails bounce, la liste des domaines et la liste des MX. Une fois le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** installé, ce workflow s&#39;exécute de nuit pour mettre à jour régulièrement la liste des règles et vous permettre de gérer activement la délivrabilité des plateformes.
 
