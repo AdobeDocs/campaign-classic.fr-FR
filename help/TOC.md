@@ -7,9 +7,9 @@ user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2555'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -179,8 +179,8 @@ ht-degree: 99%
       + [Création d’adresses de contrôle](delivery/using/creating-seed-addresses.md)
       + [Ajout d’adresses de contrôle](delivery/using/adding-seed-addresses.md)
       + [Utilisation d’une table de destinataires externe](delivery/using/using-an-external-recipient-table.md)
-      + [Cas d’utilisation : sélection des adresses de contrôle sur critères](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
-      + [Cas d’utilisation : configuration de la substitution des champs](delivery/using/use-case--configuring-the-field-substitution.md)
+      + [Cas pratique : sélection des adresses de contrôle selon des critères](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+      + [Cas pratique : configuration de la substitution des champs](delivery/using/use-case--configuring-the-field-substitution.md)
    + A/B testing {#a-b-testing}
       + [Prise en main des tests A/B](delivery/using/get-started-a-b-testing.md)
       + [Configuration des tests AB](delivery/using/configuring-a-b-testing.md)
@@ -266,7 +266,7 @@ ht-degree: 99%
 + Marketing distribué {#distributed-marketing}
    + [À propos du marketing distribué](distributed/using/about-distributed-marketing.md)
    + [Création d’une campagne locale](distributed/using/creating-a-local-campaign.md)
-   + [Création d’une campagne collaborative](distributed/using/creating-a-collaborative-campaign.md)
+   + [Création d’une opération collaborative](distributed/using/creating-a-collaborative-campaign.md)
    + [Publication du kit d’opération](distributed/using/publishing-the-campaign-package.md)
    + [Accès aux campagnes](distributed/using/accessing-campaigns.md)
    + [Suivi d’une campagne](distributed/using/tracking-a-campaign.md)
@@ -374,7 +374,7 @@ ht-degree: 99%
       + [Configuration de l’intégration avec [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [Insertion d’une image dynamique](integrations/using/inserting-a-dynamic-image.md)
    + ACS Connector {#acs-connector}
-      + [Prise en main d’ [!DNL ACS Connector]](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [Prise en main du  [!DNL ACS Connector]](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [Synchronisation des profils](integrations/using/synchronizing-profiles.md)
       + [Synchronisation des audiences](integrations/using/synchronizing-audiences.md)
       + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
@@ -473,7 +473,7 @@ ht-degree: 99%
          + [Chargement du contenu de la diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle    {#monitoring}
+      + Contrôle     {#monitoring}
          + [Envoi d’un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Supervision de vos workflows](workflow/using/supervising-workflows.md)
          + [Envoi d’alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -515,7 +515,7 @@ ht-degree: 99%
       + [Glossaire](interaction/using/glossary.md)
       + [Bonnes pratiques relatives aux interactions](interaction/using/interaction-best-practices.md)
    + Fonctionnement général {#general-operation}
-      + [Étapes de mise en œuvre](interaction/using/implementation-steps.md)
+      + [Étapes dʼimplémentation](interaction/using/implementation-steps.md)
       + [Principes fondamentaux](interaction/using/fundamental-principles.md)
    + Gestion des environnements {#managing-environments}
       + [Présentation des environnements](interaction/using/environments-overview.md)
@@ -699,7 +699,7 @@ ht-degree: 99%
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)
-      + [Suivi](production/using/audit-trail.md)
+      + [Journal d’audit](production/using/audit-trail.md)
    + Traitement des données {#data-processing}
       + [Sauvegarde](production/using/backup.md)
       + [Restauration](production/using/restoration.md)
