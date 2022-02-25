@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Définition de l'audience appropriée
+title: Définition de lʼaudience appropriée
 description: Découvrez les bonnes pratiques lors de la sélection de votre audience
 feature: Audiences
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Vous pouvez, par exemple, envoyer votre diffusion à des visiteurs dont le profi
 
 Ces mappings sont présentés [dans cette section](selecting-a-target-mapping.md).
 
-Vous pouvez également créer et utiliser un mapping de ciblage personnalisé. Voir à ce propos [cette section](../../configuration/using/target-mapping.md).
+Vous pouvez également créer et utiliser un mapping de ciblage personnalisé. Pour plus d’informations, consultez [cette section](../../configuration/using/target-mapping.md).
 
 ## Destinataires externes {#external-recipients}
 
