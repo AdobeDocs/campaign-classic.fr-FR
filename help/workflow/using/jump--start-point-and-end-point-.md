@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: flow-control-activities
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
 source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,4 +31,4 @@ Vous pouvez insérer plusieurs sauts de départ et d&#39;arrivée dans un même 
 
 ![](assets/s_user_segmentation_jump_in.png)
 
-Afin d&#39;améliorer la lisibilité du diagramme, vous pouvez changer l&#39;image associée aux sauts afin d&#39;afficher le chiffre correspondant. Voir [Modification des images d’activité](managing-activity-images.md).
+Afin d&#39;améliorer la lisibilité du diagramme, vous pouvez changer l&#39;image associée aux sauts afin d&#39;afficher le chiffre correspondant. Pour plus dʼinformations, consultez la section [Modification des images dʼactivité](managing-activity-images.md).
