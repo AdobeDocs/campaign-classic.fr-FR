@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Définition d’un mapping de données externe
+title: Définition du mapping des données externe
 description: Découvrez comment mapper des données dans une base de données externe
 exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
 source-git-commit: 3af4f259b80b3e03c81ee278b470ef6ffe3fe4d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Définition d’un mapping de données externe {#defining-data-mapping}
+# Définition du mapping des données externe {#defining-data-mapping}
 
 ![](../../assets/v7-only.svg)
 
