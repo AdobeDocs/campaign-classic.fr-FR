@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Coupons personnalisés
-description: Découvrez comment créer et insérer des bons personnalisés
+description: Découvrez comment créer et insérer des coupons personnalisés
 feature: Personalization
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Le fait d&#39;ajouter des coupons à vos diffusions peut donner une valeur ajout
 >
 >Les données des coupons peuvent être importées et exportée à l&#39;aide de formats CSV et XML. Pour plus d&#39;informations sur l&#39;import et l&#39;export, voir [cette section](../../platform/using/get-started-data-import-export.md).
 
-## Créer un coupon {#creating-a-coupon}
+## Création dʼun coupon {#creating-a-coupon}
 
 Le module coupon offre le choix entre deux options lors de la création de coupons :
 
@@ -52,11 +52,11 @@ Avant d&#39;appliquer les étapes ci-dessous, vérifiez que vous savez quel type
    1. Lorsque la fenêtre contextuelle vous y invite, saisissez un code unique pour le coupon individuel.
    1. Cliquez sur **[!UICONTROL Enregistrer]** pour générer le coupon.
 
-   Pour plus d’informations sur l’onglet Coupons , voir [Configuration de coupons individuels](#configuring-individual-coupons).
+   Pour plus dʼinformations sur lʼonglet Coupons, consultez la section [Configuration de coupons individuels](#configuring-individual-coupons).
 
    >[!NOTE]
    >
-   >Les coupons individuels peuvent être importés en masse. Pour plus de détails sur l&#39;import et l&#39;export, voir [cette section](../../platform/using/get-started-data-import-export.md).
+   >Les coupons individuels peuvent être importés en masse. Pour plus de détails sur lʼimport et lʼexport, consultez [cette section](../../platform/using/get-started-data-import-export.md).
 
 ### Configuration de coupons individuels {#configuring-individual-coupons}
 
@@ -71,7 +71,7 @@ L&#39;onglet Coupons n&#39;est disponible qu&#39;avec les Coupons Individuels. U
 
 Les valeurs des champs **[!UICONTROL état]**, **[!UICONTROL canal]** et **[!UICONTROL adresse]** sont remplies automatiquement. En revanche, les valeurs du champ **[!UICONTROL consommé le]** ne sont pas récupérées par Campaign. Elles peuvent être remplies en important un fichier comportant les informations de consommation des coupons.
 
-## Insérer un coupon dans une diffusion email {#inserting-a-coupon-into-an-email-delivery}
+## Insertion dʼun coupon dans une diffusion e-mail {#inserting-a-coupon-into-an-email-delivery}
 
 Dans l&#39;exemple ci-dessous, la diffusion est créée à partir de la Page d&#39;accueil. Pour des consignes détaillées de création d&#39;une diffusion, voir [cette section](about-email-channel.md). Il est également possible d&#39;ajouter un coupon à une diffusion dans un workflow.
 
@@ -134,7 +134,7 @@ Dans l&#39;exemple ci-dessous, la diffusion est créée à partir de la Page d&#
 
 >[!NOTE]
 >
->Pour obtenir des instructions sur la gestion du manque de coupons pour une diffusion, reportez-vous à la section [Gérer les coupons insuffisants](#managing-insufficient-coupons)
+>Pour obtenir des instructions sur la gestion du manque de coupons pour une diffusion, consultez la section [Gestion des coupons insuffisants](#managing-insufficient-coupons).
 
 Pour confirmer que la diffusion a abouti :
 
@@ -151,7 +151,7 @@ Pour confirmer que la diffusion a abouti :
 >
 >Découvrez comment utiliser une table des destinataires personnalisée [sur cette page](../../configuration/using/about-custom-recipient-table.md).
 
-## Gérer les coupons insuffisants {#managing-insufficient-coupons}
+## Gestion des coupons insuffisants {#managing-insufficient-coupons}
 
 L&#39;analyse de la diffusion s&#39;arrête s&#39;il y a moins de coupons que de messages. Dans ce cas, vous pouvez importer plus de coupons ou restreindre le nombre de messages. Pour limiter le nombre de messages, suivez les consignes ci-dessous.
 
