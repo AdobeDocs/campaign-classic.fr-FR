@@ -1,10 +1,10 @@
 ---
 product: campaign
 title: Personnalisation de la liste des émoticônes
-description: Découvrez comment personnaliser la liste des émoticônes avec Adobe Campaign Classic
+description: Découvrez comment personnaliser la liste des émoticônes avec Adobe Campaign Classic
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
 ht-degree: 100%
 
