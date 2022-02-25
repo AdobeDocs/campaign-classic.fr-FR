@@ -4,13 +4,13 @@ title: Démarrer un workflow
 description: Découvrez comment démarrer un workflow ainsi que la barre d’outils des actions de workflows et le menu contextuel
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
 ht-degree: 100%
 
 ---
 
-# Démarrer un workflow {#starting-a-workflow}
+# Démarrage dʼun workflow {#starting-a-workflow}
 
 ![](../../assets/common.svg)
 
