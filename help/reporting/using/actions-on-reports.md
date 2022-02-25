@@ -4,9 +4,9 @@ title: Agir sur les rapports
 description: Agir sur les rapports
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ La barre d&#39;outils vous permet d&#39;exporter, imprimer, créer un historique
 
 ![](assets/s_ncs_advuser_report_wizard_04.png)
 
-## Exporter un rapport {#exporting-a-report}
+## Exportation dʼun rapport {#exporting-a-report}
 
 Choisissez le format vers lequel vous souhaitez exporter votre rapport dans la liste déroulante (.xls, .pdf ou .ods).
 
@@ -38,7 +38,7 @@ Modifiez les paramètres **[!UICONTROL Papier]** et **[!UICONTROL Marges]** selo
 
 ![](assets/s_ncs_advuser_report_wizard_021.png)
 
-### Exporter dans Microsoft Excel {#exporting-into-microsoft-excel}
+### Exportation dans Microsoft Excel {#exporting-into-microsoft-excel}
 
 Dans les rapports de type **[!UICONTROL Liste avec groupement]** destinés à être exportés au format Excel, les recommandations et limitations sont les suivantes:
 
@@ -81,7 +81,7 @@ Pour en savoir plus sur le fichier **serverConf.xml**, consultez [cette section]
 
 Pour en savoir plus sur le fichier **nlserver**, consultez [cette section](../../production/using/administration.md).
 
-## Imprimer un rapport {#printing-a-report}
+## Impression dʼun rapport {#printing-a-report}
 
 Vous pouvez imprimer votre rapport : pour cela, cliquez sur l&#39;icône d&#39;impression. La boîte de dialogue d&#39;impression s&#39;ouvre.
 
@@ -89,7 +89,7 @@ Pour un meilleur résultat, éditez les options d&#39;impression d&#39;Internet 
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 
-## Créer des historiques de rapports {#creating-report-archives}
+## Création dʼhistoriques de rapports {#creating-report-archives}
 
 L&#39;historisation d&#39;un rapport vous permet de créer une vue du rapport à différentes périodes. Cela peut être pour faire apparaître des statistiques à un instant donné.
 
