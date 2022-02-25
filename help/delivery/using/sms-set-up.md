@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Configuration du canal SMS Campaign
+title: Configuration du canal SMS de Campaign
 description: Découvrez comment configurer le canal SMS dans Campaign
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1800'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/extended_smpp_transliteration.png)
 
-   Voir à ce propos [cette section](#about-character-transliteration).
+   Pour plus d’informations, consultez [cette section](#about-character-transliteration).
 
 1. Dans l&#39;onglet **[!UICONTROL Débit et délais]**, vous pouvez indiquer le débit maximum des messages sortants (&quot;MT&quot;, Mobile Terminated) en MT par seconde. Si vous indiquez &quot;0&quot; dans le champ correspondant, le débit ne sera pas limité.
 
@@ -77,7 +77,7 @@ Pour ce faire, procédez comme suit :
 
 1. Dans l&#39;onglet **[!UICONTROL Mapping des encodages]**, vous pouvez définir les encodages.
 
-   Voir à ce propos [cette section](#about-text-encodings).
+   Pour plus d’informations, consultez [cette section](#about-text-encodings).
 
 1. Dans l&#39;onglet **[!UICONTROL Spécificités du SMSC]**, l&#39;option **[!UICONTROL Envoyer le numéro de téléphone complet]** est désactivée par défaut. Ne l&#39;activez pas si vous souhaitez respecter le protocole SMPP et ne transmettre que des chiffres au serveur du fournisseur SMS (SMSC).
 
@@ -87,7 +87,7 @@ Pour ce faire, procédez comme suit :
 
 1. Si vous paramétrez un connecteur **[!UICONTROL SMPP Générique étendu]**, vous pouvez configurer des réponses automatiques.
 
-   Voir à ce propos [cette section](#automatic-reply).
+   Pour plus d’informations, consultez [cette section](#automatic-reply).
 
 ## Translittération de caractères SMS {#about-character-transliteration}
 
