@@ -4,9 +4,9 @@ title: Création d’indicateurs
 description: Création d’indicateurs
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,16 +18,16 @@ Pour qu&#39;un cube puisse être exploité, vous devez identifier les dimensions
 
 Les étapes de création d&#39;un cube sont les suivantes :
 
-1. Sélectionner la table de travail. Voir [Sélectionner la table de travail](#selecting-the-work-table).
-1. Définir des dimensions. Voir [Définition de dimensions](#defining-dimensions).
-1. Définir des mesures. Voir [Construire les indicateurs](#building-indicators).
-1. Créer des agrégats (facultatif). Voir [Calcul et utilisation d&#39;agrégats](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
+1. Sélectionner la table de travail. Consultez la section [Sélection de la table de travail](#selecting-the-work-table).
+1. Définissez des dimensions. Consultez la section [Définition des dimensions](#defining-dimensions).
+1. Définissez des mesures. Consultez la section [Construction des indicateurs](#building-indicators).
+1. Créez des agrégats (facultatif). Consultez la section [Calcul et utilisation dʼagrégats](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
 
 L&#39;exemple ci-après permet de créer rapidement un cube simple et de l&#39;utiliser dans un rapport afin d&#39;en explorer les mesures.
 
 Les étapes de réalisation sont présentées ci-après, les options et descriptions exhaustives sont présentées dans les autres sections de ce chapitre.
 
-## Sélectionner la table de travail {#selecting-the-work-table}
+## Sélection de la table de travail {#selecting-the-work-table}
 
 Pour créer un cube, cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des cubes.
 
@@ -43,7 +43,7 @@ Cliquez sur le lien **[!UICONTROL Filtrer les données de la source...]** si vou
 
 ![](assets/s_advuser_cube_wz_03.png)
 
-## Définir des dimensions {#defining-dimensions}
+## Définition des dimensions {#defining-dimensions}
 
 Les dimensions correspondent à des axes d&#39;analyse qui sont définis pour chaque cube selon le schéma des faits auquel il se rapporte. Ce sont les dimensions explorées dans l&#39;analyse, comme par exemple le temps (année, mois, jour, etc.), une nomenclature de produits ou contrats (famille, référence, etc.), un segment de population (par ville, tranche d&#39;âge, statut, etc.).
 
@@ -89,7 +89,7 @@ Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle dimensio
 
    Pour plus d&#39;informations, consultez la section [Gérer dynamiquement les classes](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 
-## Construire les indicateurs {#building-indicators}
+## Construction des indicateurs {#building-indicators}
 
 Une fois les dimensions définies, vous devez spécifier le mode de calcul des valeurs qui seront affichées dans les cellules. Pour cela, créez les indicateurs correspondants dans l&#39;onglet **[!UICONTROL Mesures]** : créez autant de mesures que de colonnes à afficher au niveau du rapport qui utilisera le cube.
 
@@ -102,7 +102,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/s_advuser_cube_wz_11.png)
 
-   Le lien **[!UICONTROL Filtrer les données de la mesure...]** permet de ne sélectionner que les femmes. La définition des mesures et les options disponibles sont présentées dans la section [Définition de mesures](../../reporting/using/concepts-and-methodology.md#defining-measures).
+   Le lien **[!UICONTROL Filtrer les données de la mesure...]** permet de ne sélectionner que les femmes. Pour plus dʼinformations sur la définition des mesures et les options disponibles, consultez la section [Définition des mesures](../../reporting/using/concepts-and-methodology.md#defining-measures).
 
    ![](assets/s_advuser_cube_wz_12.png)
 
@@ -112,7 +112,7 @@ Pour cela, les étapes sont les suivantes :
 
 1. Enregistrez le cube.
 
-## Créer un rapport basé sur un cube {#creating-a-report-based-on-a-cube}
+## Création dʼun rapport basé sur un cube {#creating-a-report-based-on-a-cube}
 
 Une fois le cube paramétré, il peut être utilisé comme modèle pour créer un nouveau rapport.
 
@@ -128,7 +128,7 @@ Pour cela :
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. Vous pouvez déplacer les dimensions d&#39;un axe à l&#39;autre, les supprimer, ajouter de nouvelles mesures, etc. Les opérations possibles sont présentées dans la section [cette page](../../reporting/using/using-cubes-to-explore-data.md).
+1. Vous pouvez déplacer les dimensions d&#39;un axe à l&#39;autre, les supprimer, ajouter de nouvelles mesures, etc. Les différentes opérations possibles sont présentées sur [cette page](../../reporting/using/using-cubes-to-explore-data.md).
 
    Pour cela, utilisez les icônes correspondantes.
 
