@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: '"Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne"'
-description: '"Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne"'
+title: '« Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne »'
+description: '« Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne »'
 feature: Reporting, Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
 ht-degree: 100%
 
