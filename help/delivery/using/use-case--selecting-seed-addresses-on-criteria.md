@@ -5,13 +5,13 @@ description: '"Cas pratique : sélection des adresses de contrôle selon des cr
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '912'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Cas d’utilisation : sélection des adresses de contrôle sur critères{#use-case-selecting-seed-addresses-on-criteria}
+# Cas pratique : sélection des adresses de contrôle selon des critères{#use-case-selecting-seed-addresses-on-criteria}
 
 ![](../../assets/common.svg)
 
@@ -28,21 +28,21 @@ Pour utiliser la condition dynamique vous devez disposer :
 * d&#39;une diffusion prête à être envoyée,
 * d&#39;adresses de contrôle ayant une valeur commune. Cette valeur peut tout à fait être un champ existant dans Adobe Campaign. Dans cet exemple, les adresses de contrôle partagent la valeur &quot;Achats&quot; du champ &quot;Service&quot;, qui n&#39;est pas présent par défaut dans l&#39;application.
 
-## Etape 1 - Créer une diffusion {#step-1---creating-a-delivery}
+## Étape 1 : création dʼune diffusion {#step-1---creating-a-delivery}
 
-Les étapes de création d&#39;une diffusion sont présentées dans la section [Créer une diffusion email](creating-an-email-delivery.md) .
+Les étapes de création dʼune diffusion sont détaillées dans la section [Création dʼune diffusion e-mail](creating-an-email-delivery.md).
 
 Dans cet exemple, le chargé de diffusion a créé sa newsletter et sélectionné les destinataires.
 
 ![](assets/dlv_seeds_usecase_01.png)
 
-## Etape 2 - Créer une valeur commune {#step-2---creating-a-common-value}
+## Étape 2 : création dʼune valeur commune {#step-2---creating-a-common-value}
 
 Pour créer une valeur commune comme celle utilisée dans notre exemple (Service Achat), vous devez étendre le **schéma de données** des adresses de contrôle et modifier le formulaire de saisie associé.
 
-### Étendre le schéma de données {#extending-the-data-schema}
+### Extension du schéma de données {#extending-the-data-schema}
 
-Pour plus d’informations sur les extensions de schéma, reportez-vous à la section [cette section](../../configuration/using/data-schemas.md).
+Pour plus d’informations sur les extensions de schéma, consultez [cette section](../../configuration/using/data-schemas.md).
 
 1. Dans le noeud **[!UICONTROL Administration > Paramétrage > Schémas de données]**, cliquez sur l&#39;icône **[!UICONTROL Nouveau]**.
 1. Dans la fenêtre **[!UICONTROL Création d&#39;un schéma de données]** sélectionnez l&#39;option **[!UICONTROL Extension d&#39;un schéma]** et cliquez sur **[!UICONTROL Suivant]**.
@@ -93,9 +93,9 @@ Pour plus d’informations sur les extensions de schéma, reportez-vous à la se
 
    Lorsque la mise à jour est terminée, vous pouvez fermer l&#39;assitant.
 
-1. Déconnectez-vous d&#39;Adobe Campaign puis reconnectez-vous. Les modifications apportées dans le schéma de données des adresses de contrôle sont effectives. Pour qu&#39;elles soient visibles depuis l&#39;écran des adresses de contrôle, vous devez mettre à jour le **[!UICONTROL Formulaire de saisie]** associée. Reportez-vous à la section [Mettre à jour le formulaire de saisie](#updating-the-input-form) .
+1. Déconnectez-vous d&#39;Adobe Campaign puis reconnectez-vous. Les modifications apportées dans le schéma de données des adresses de contrôle sont effectives. Pour qu&#39;elles soient visibles depuis l&#39;écran des adresses de contrôle, vous devez mettre à jour le **[!UICONTROL Formulaire de saisie]** associée. Pour plus dʼinformations, consultez la section [Mise à jour du formulaire de saisie](#updating-the-input-form).
 
-#### Étendre le schéma de données d&#39;une table liée {#extending-the-data-schema-from-a-linked-table}
+#### Extension du schéma de données à partir dʼune table liée {#extending-the-data-schema-from-a-linked-table}
 
 Le schéma de données des adresses de contrôle peut reprendre des valeurs provenant d&#39;une table liée au schéma de données des destinataires.
 
@@ -129,9 +129,9 @@ Elles indiquent :
 
 L&#39;utilisateur peut ensuite reprendre la section à partir de l&#39;**étape 5** et mettre à jour le **[!UICONTROL Formulaire de saisie]** des adresses de contrôle.
 
-Reportez-vous à la section [Mettre à jour le formulaire de saisie](#updating-the-input-form) .
+Pour plus dʼinformations, consultez la section [Mise à jour du formulaire de saisie](#updating-the-input-form).
 
-#### Mettre à jour le formulaire de saisie {#updating-the-input-form}
+#### Mise à jour du formulaire de saisie {#updating-the-input-form}
 
 1. Dans le noeud **[!UICONTROL Administration > Paramétrage > Formulaire de saisie]**, recherchez le formulaire des adresses de contrôle.
 
@@ -152,7 +152,7 @@ Reportez-vous à la section [Mettre à jour le formulaire de saisie](#updating-t
 
 1. Editez les adresses de contrôle que vous souhaitez utiliser pour la diffusion et saisissez la valeur **Achat** dans le champ **[!UICONTROL Service]**.
 
-## Etape 3 - Définition de la condition {#step-3---defining-the-condition}
+## Étape 3 : définition de la condition {#step-3---defining-the-condition}
 
 Vous pouvez maintenant définir la condition dynamique de sélection des adresses de contrôle pour la diffusion. Pour cela :
 
