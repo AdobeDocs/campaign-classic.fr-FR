@@ -4,9 +4,9 @@ title: Éléments et attributs de schéma
 description: élément condition
 exl-id: 71e98d45-3660-4d86-a5ca-8e55ae5896eb
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
