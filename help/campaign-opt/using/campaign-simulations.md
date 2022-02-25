@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Simulation de campagnes
-description: Prise en main des simulations de Campaign
+description: Prise en main des simulations de campagnes
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1376'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ La simulation permet de suivre et de comparer l&#39;impact des diffusions les un
 
 ![](assets/simu_campaign_select_delivery_mode.png)
 
-## Configurer une simulation {#setting-up-a-simulation}
+## Configuration dʼune simulation {#setting-up-a-simulation}
 
-### Créer une simulation {#creating-a-simulation}
+### Création dʼune simulation {#creating-a-simulation}
 
 Pour créer une simulation, les étapes sont les suivantes :
 
@@ -94,9 +94,9 @@ Dans l&#39;onglet **[!UICONTROL Général]** de la simulation, vous pouvez indiq
 * La **[!UICONTROL Priorité]** est le niveau appliqué à la simulation pour en différer le déclenchement.
 * **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**. Les logs SQL servent à diagnostiquer une simulation si elle se termine en erreur. Ils peuvent aussi aider à savoir pourquoi une simulation est trop lente. Ces messages seront visibles après la simulation dans le sous-onglet **[!UICONTROL Logs SQL]** de l&#39;onglet **[!UICONTROL Suivi]**.
 
-## Exécuter une simulation {#executing-a-simulation}
+## Exécution dʼune simulation {#executing-a-simulation}
 
-### Démarrer une simulation {#starting-a-simulation}
+### Démarrage dʼune simulation {#starting-a-simulation}
 
 Une fois le périmètre de la simulation défini, vous pouvez l&#39;exécuter.
 
@@ -126,7 +126,7 @@ Une fois l&#39;exécution terminée, ouvrez la simulation et cliquez sur l&#39;o
 
    Pour un exemple de création de tableau d&#39;analyse, reportez-vous à la fin de la section [Explorer les résultats](#exploring-results).
 
-### Afficher les résultats {#viewing-results}
+### Affichage des résultats {#viewing-results}
 
 #### Journal {#audit}
 
@@ -134,7 +134,7 @@ L&#39;onglet **[!UICONTROL Journal]** sert à suivre l&#39;exécution de la simu
 
 ![](assets/simu_campaign_opti_11.png)
 
-#### Explorer les résultats {#exploring-results}
+#### Exploration des résultats {#exploring-results}
 
 Le sous-onglet **[!UICONTROL Exploration des exclusions]** permet d&#39;analyser les données issues de la simulation.
 
