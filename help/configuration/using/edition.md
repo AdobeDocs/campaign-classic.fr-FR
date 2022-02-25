@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Edition
-description: Edition
+title: Modification
+description: Modification
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
