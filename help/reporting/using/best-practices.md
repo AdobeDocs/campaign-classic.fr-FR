@@ -5,9 +5,9 @@ description: Bonnes pratiques en matière de reporting Campaign
 feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '841'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 ![](../../assets/common.svg)
 
-## Analyser vos besoins{#analyzing-needs}
+## Analyse des besoins{#analyzing-needs}
 
 L&#39;utilisation d&#39;un outil de reporting dépend du volume des données à manipuler, de leur complexité et du type de reporting à mettre en place.
 
@@ -60,7 +60,7 @@ Afin d&#39;optimiser la création, l&#39;utilisation et la pérennité d&#39;un 
 
    Les problématiques liées au volume et à la mise à jour des données doivent être étudiées avec attention afin d&#39;éviter les difficultés d&#39;affichage des rapports, notamment en terme de délais. Dans cette optique, il est recommandé de créer des agrégats afin de pré-calculer certaines données en dehors du rapport. Typiquement, les tables contenant les logs de tracking et les logs de diffusion peuvent atteindre des millions d&#39;enregistrements : les données doivent donc être agrégées, via un workflow, pour être exploitées dans un rapport.
 
-## Optimiser la conception des rapports{#optimizing-report-creation}
+## Optimisation de la conception des rapports{#optimizing-report-creation}
 
 ### Volume des données {#data-volume}
 
@@ -110,6 +110,6 @@ Adobe Campaign vous recommande, en complément, les axes d&#39;optimisation sui
 
    Pour en savoir plus sur le nettoyage et la conservation des données, consultez [cette section](../../configuration/using/data-model-best-practices.md#data-retention).
 
-### Exporter vos rapports {#exporting-reports}
+### Exportation des rapports {#exporting-reports}
 
-Les recommandations spécifiques liées à l&#39;export des rapports sont présentées dans [cette section](../../reporting/using/actions-on-reports.md#exporting-a-report).
+Les recommandations spécifiques liées à lʼexportation des rapports sont présentées dans [cette section](../../reporting/using/actions-on-reports.md#exporting-a-report).
