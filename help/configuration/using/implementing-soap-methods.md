@@ -4,13 +4,13 @@ title: Implémenter des méthodes SOAP
 description: Implémenter des méthodes SOAP
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Mise en oeuvre des méthodes SOAP{#implementing-soap-methods}
+# Implémentation des méthodes SOAP{#implementing-soap-methods}
 
 ![](../../assets/v7-only.svg)
 
@@ -20,7 +20,7 @@ Il est possible de créer des méthodes SOAP en Javascript. Cette fonctionnalit�
 
 Ces méthodes SOAP se comporteront de la même façon que celles définies nativement dans l&#39;application. Les mêmes attributs sont supportés : statique, clé seule et const.
 
-## Définition d’une bibliothèque de méthodes {#defining-a-method-library}
+## Définition dʼune bibliothèque de méthodes {#defining-a-method-library}
 
 La création d&#39;une bibliothèque de méthodes se divise en deux parties :
 
