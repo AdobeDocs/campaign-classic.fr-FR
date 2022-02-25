@@ -5,9 +5,9 @@ description: Découvrez comment créer et utiliser des adresses de contrôle
 feature: Seed Address
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 90%
 
 Les adresses de contrôle ne sont pas gérées via les profils et cibles standards, mais dans un nœud dédié de l&#39;arborescence Adobe Campaign, sous **[!UICONTROL Ressources > Gestion de campagne > Adresses de contrôle]**.
 
-Vous pouvez créer des sous-dossiers afin d&#39;organiser les adresses de contrôle. Pour cela, cliquez avec le bouton droit sur le nœud **[!UICONTROL Adresses de contrôle]** et sélectionnez **[!UICONTROL Ajouter un dossier « Adresses de contrôle »]**. Nommez le sous-dossier et validez par la touche **[!UICONTROL Entrée]** du clavier. Vous pouvez ensuite créer ou copier des adresses de contrôle dans ce sous-dossier. Voir à ce sujet la section [Définir des adresses](#defining-addresses).
+Vous pouvez créer des sous-dossiers afin d&#39;organiser les adresses de contrôle. Pour cela, cliquez avec le bouton droit sur le nœud **[!UICONTROL Adresses de contrôle]** et sélectionnez **[!UICONTROL Ajouter un dossier « Adresses de contrôle »]**. Nommez le sous-dossier et validez par la touche **[!UICONTROL Entrée]** du clavier. Vous pouvez ensuite créer ou copier des adresses de contrôle dans ce sous-dossier. Pour plus dʼinformations à ce sujet, consultez la section [Défintion dʼadresses](#defining-addresses).
 
-Adobe Campaign permet également de créer des modèles d&#39;adresses de contrôle qui sont importées au niveau des diffusions ou des campagnes et sont ensuite adaptées selon les besoins spécifiques aux diffusions et campagnes concernées. Voir [Créer des modèles d&#39;adresses de contrôle](#creating-seed-address-templates).
+Adobe Campaign permet également de créer des modèles dʼadresses de contrôle qui sont importées au niveau des diffusions ou des campagnes et sont ensuite adaptées selon les besoins spécifiques aux diffusions et campagnes concernées. Consultez la section [Création de modèles dʼadresses de contrôle](#creating-seed-address-templates).
 
-## Définir des adresses {#defining-addresses}
+## Définition dʼadresses {#defining-addresses}
 
 Pour créer des adresses de contrôle, procédez comme suit :
 
@@ -58,4 +58,4 @@ Pour définir un dossier de modèle, la procédure est la suivante :
 
    ![](assets/s_ncs_user_seedlist_folder_is_model.png)
 
-   Les adresses stockées dans ce dossier pourront ainsi être utilisées comme des modèles d&#39;adresses. Vous pouvez les importer dans des diffusions ou des campagnes et les adapter en fonction des besoins spécifiques des diffusions et campagnes concernées (voir [Ajouter des adresses de contrôle](adding-seed-addresses.md)).
+   Les adresses stockées dans ce dossier pourront ainsi être utilisées comme des modèles d&#39;adresses. Vous pouvez les importer dans des diffusions ou des campagnes et les adapter en fonction des besoins spécifiques des livraisons et campagnes concernées (consultez la section [Ajout dʼadresses de contrôle](adding-seed-addresses.md)).
