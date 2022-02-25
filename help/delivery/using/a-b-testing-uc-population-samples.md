@@ -1,10 +1,10 @@
 ---
 product: campaign
-title: Configuration d'échantillons de population
-description: Découvrez comment effectuer des tests A/B à l'aide d'un cas d'utilisation spécifique
+title: Configuration dʼéchantillons de population
+description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
 ht-degree: 100%
 
