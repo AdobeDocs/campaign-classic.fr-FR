@@ -4,9 +4,9 @@ title: Référence des schémas
 description: Liste de référence des schémas
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '90'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
