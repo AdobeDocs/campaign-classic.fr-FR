@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow de requête
 feature: Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 ![](../../assets/common.svg)
 
-## Créer une requête {#creating-a-query}
+## Création dʼune requête {#creating-a-query}
 
 Une requête permet de sélectionner une cible selon des critères. Vous pouvez associer un code segment au résultat de la requête et y insérer des données additionnelles.
 Pour plus d’informations sur des exemples de requêtes, voir [cette section](querying-recipient-table.md).
@@ -26,7 +26,7 @@ Pour plus d’informations sur des exemples de requêtes, voir [cette section](q
 
 ![](assets/s_user_segmentation_wizard_9.png)
 
-L&#39;utilisation et la gestion des données additionnelles sont présentées dans la section [Ajouter des données](#adding-data).
+Pour plus dʼinformations sur l’utilisation et la gestion des données additionnelles, consultez la section [Ajout de données](#adding-data).
 
 Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de ciblage, les restrictions et les critères de sélection de la population de la manière suivante :
 
@@ -60,7 +60,7 @@ Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de cib
 
    ![](assets/s_user_segmentation_query_advanced.png)
 
-## Ajouter des données {#adding-data}
+## Ajout de données {#adding-data}
 
 Les colonnes additionnelles permettent de collecter des informations supplémentaires sur la population ciblée, par exemple ses numéros de contrats, ses abonnements à des newsletters ou son origine. Ces données peuvent être stockées dans la base de données Adobe Campaign ou dans une base externe.
 
@@ -73,7 +73,7 @@ Sélectionnez d&#39;abord le type de données à ajouter :
 ![](assets/wf_add_data_1st_option.png)
 
 * Sélectionnez **[!UICONTROL Données liées à la dimension de ciblage]** pour sélectionner des données de la base Adobe Campaign.
-* Sélectionnez **[!UICONTROL Données externes]** pour ajouter des données issues d’une base de données externe. Cette option n’est disponible que si vous avez acquis l’option **Federated Data Access**. Voir à ce sujet la section [Accès à une base externe (FDA)](accessing-an-external-database--fda-.md).
+* Sélectionnez **[!UICONTROL Données externes]** pour ajouter des données issues d’une base de données externe. Cette option n’est disponible que si vous avez acquis l’option **Federated Data Access**. Pour plus dʼinformations, consultez la section [Accès à une base de données externe (FDA)](accessing-an-external-database--fda-.md).
 * Sélectionnez l&#39;option **[!UICONTROL Une proposition d&#39;offre]** pour ajouter un ensemble de colonnes permettant de stocker la meilleure proposition générée par le moteur d&#39;offres. Cette option n&#39;est disponible que si vous avez acquis le module **Interaction**.
 
 Si aucun module optionnel n&#39;est installé sur la plateforme, cette étape n&#39;est pas affichée. Vous accédez directement à l&#39;étape suivante.
@@ -90,10 +90,10 @@ Pour ajouter des données de la base Adobe Campaign :
 
    Vous pouvez ajouter :
 
-   * Un champ calculé à partir de données issues de la population ciblée ou un agrégat (nombre d’achats en attente au cours du dernier mois, montant moyen d’un ticket de caisse, etc.). Pour consulter un exemple, reportez-vous à la section [Sélectionner des données](targeting-data.md#selecting-data).
+   * Un champ calculé à partir de données issues de la population ciblée ou un agrégat (nombre d’achats en attente au cours du dernier mois, montant moyen d’un ticket de caisse, etc.). Un exemple est proposé dans la section [Sélection des données](targeting-data.md#selecting-data).
    * Un nouveau champ, créé à partir du bouton **[!UICONTROL Ajouter]** situé à droite de la liste des colonnes de sortie.
 
-      Vous pouvez également ajouter une collection d’informations, par exemple une liste de contrats, les 5 dernières diffusions, etc. Les collections correspondent à des champs dont les valeurs peuvent être multiples pour un même profil (relation 1-N). Voir à ce sujet la section [Modification des données additionnelles](targeting-data.md#editing-additional-data).
+      Vous pouvez également ajouter une collection d’informations, par exemple une liste de contrats, les 5 dernières diffusions, etc. Les collections correspondent à des champs dont les valeurs peuvent être multiples pour un même profil (relation 1-N). Pour plus dʼinformations, consultez la section [Modification des données additionnelles](targeting-data.md#editing-additional-data).
 
 Pour ajouter une collection d&#39;informations liées à une population ciblée :
 
