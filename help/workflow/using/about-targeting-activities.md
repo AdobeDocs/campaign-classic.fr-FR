@@ -5,9 +5,9 @@ description: À propos des activités de ciblage
 feature: Workflows, Data Management, Audiences
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
