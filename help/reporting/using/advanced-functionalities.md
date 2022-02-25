@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Fonctionnalités avancées
-description: En savoir plus sur les fonctionnalités avancées lors de l’utilisation des rapports
+description: Découvrez-en plus sur les fonctionnalités avancées lorsque vous utilisez des rapports
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Pour cela :
 
    ![](assets/reporting_custom_js.png)
 
-Les scripts référencés doivent être rédigés en Javascript et être compatibles avec les navigateurs courants afin d&#39;assurer leur bonne exécution côté client. Voir à ce propos [cette section](../../web/using/web-forms-answers.md).
+Les scripts référencés doivent être rédigés en Javascript et être compatibles avec les navigateurs courants afin d&#39;assurer leur bonne exécution côté client. Pour plus d’informations, consultez [cette section](../../web/using/web-forms-answers.md).
 
 ### Ajout d&#39;une activité Script {#script-activity}
 
