@@ -5,9 +5,9 @@ description: Prise en main des cubes
 feature: Reporting
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -27,41 +27,41 @@ Une fois créés et paramétrés, les cubes sont utilisés dans les boîtes de r
 >
 >**Marketing Analytics** est un module d&#39;Adobe Campaign. Il doit être installé sur votre instance pour que vous puissiez utiliser les fonctionnalités décrites ci-après.
 
-Utilisez le module Campaign Marketing Analytics pour :
+Le module Marketing Analytics de Campaign vous permet de :
 
 1. Créer des cubes
 
-   * agréger et stocker des données dans une table de travail afin de pré-calculer les indicateurs en fonction des besoins des utilisateurs,
-   * réduire le volume des données impliquées dans les différents calculs utilisés dans les rapports et requêtes, optimiser ainsi de manière significative les temps de calcul des indicateurs,
-   * simplifier l’accès aux données, permettre aux utilisateurs de manipuler les données (pré-agrégées ou non) en fonction de différentes dimensions.
+   * agrégez et stockez des données dans une table de travail afin de pré-calculer des indicateurs, selon les besoins de lʼutilisateur,
+   * réduisez le volume des données impliquées dans les différents calculs utilisés dans les rapports et dans les requêtes, afin dʼoptimiser grandement les temps de calcul des indicateurs.
+   * simplifiez lʼaccès aux données, permettez aux utilisateurs de manipuler des données pré-agrégées ou non, selon différentes dimensions.
 
-   Voir à ce sujet la section [Créer des indicateurs](../../reporting/using/creating-indicators.md).
+   Pour plus dʼinformations à ce sujet, consultez la section [Création dʼindicateurs](../../reporting/using/creating-indicators.md).
 
-1. Créer des tableaux croisés dynamiques
+1. Création de tableaux croisés dynamiques
 
-   * explorer les données calculées, les mesures paramétrées,
-   * sélectionner les données à afficher ainsi que leur mode d&#39;affichage,
-   * personnaliser les mesures et indicateurs utilisés,
-   * proposer des outils d’analyse interactive aux utilisateurs non techniques.
+   * explorez les données calculées, les mesures configurées,
+   * sélectionnez les données à afficher et leur mode dʼaffichage,
+   * personnalisez les mesures et les indicateurs utilisés,
+   * proposez des outils dʼanalyse interactive à des utilisateurs sans connaissances techniques.
 
-   Voir à ce sujet la section [Utiliser des cubes pour explorer les données](../../reporting/using/using-cubes-to-explore-data.md).
+   Pour plus dʼinformations à ce sujet, consultez la section [Utilisation de cubes pour explorer les données](../../reporting/using/using-cubes-to-explore-data.md).
 
 1. Construire des requêtes à partir des données calculées et agrégées dans un cube.
 1. Identifier des populations et les référencer dans des listes.
 
 ## Terminologie {#terminology}
 
-Vous trouverez ci-dessous des termes spécifiques à l’utilisation des cubes.
+Les cubes emploient une terminologie spécifique, consultez les termes utilisés ci-dessous.
 
-* **Cube** - Un cube est une représentation des informations multidimensionnelles : il fournit aux utilisateurs finaux des structures conçues pour l’analyse interactive des données.
+* **Cube** : un cube est une représentation dʼinformations multidimensionnelles, il met à disposition des utilisateurs finaux des structures conçues pour des analyses interactives des données.
 
-* **Table/schéma des faits** - Le tableau des faits (ou schéma des faits) contient les données brutes ou élémentaires sur lesquelles seront basées les analyses. Il s’agit principalement de tables à gros volume (avec éventuellement des tables liées) dont les calculs peuvent être longs. Par exemple, une table des faits peut être : la table des broadlogs, la table des achats, etc.
+* **Table/schéma des faits** : la table des faits (ou le schéma des faits) contient les données brutes ou élémentaires sur lesquelles vont être construites les analyses. Il s’agit principalement de tables à gros volume (avec éventuellement des tables liées) et sur lesquelles les calculs peuvent être longs. Par exemple, une table des faits peut être : la table des broadlogs, la table des achats, etc.
 
-* **Dimension** - Les Dimensions vous permettent de segmenter les données en groupes : une fois créées, les dimensions font office d’axes d’analyse. Dans la plupart des cas, plusieurs niveaux seront définis pour une dimension donnée. Par exemple, pour une dimension temporelle, les niveaux seront les mois, jours, heures, minutes, etc. Cet ensemble de niveaux représente la hiérarchie des dimensions et permet différents niveaux d’analyse des données.
+* **Dimension** : les dimensions permettent de segmenter les données en groupes. Une fois créées, elles font office dʼaxes dʼanalyse. Dans la plupart des cas, pour une même dimension, plusieurs niveaux seront définis. Par exemple, pour une dimension temporelle, les niveaux seront les mois, jours, heures, minutes, etc. Cet ensemble de niveaux représente la hiérarchie de la dimension et permet dʼanalyser plus ou moins finement les données.
 
-* **Mise en classe** - Pour certains champs, vous pouvez définir une mise en classe pour regrouper les valeurs et faciliter la lecture des informations. La mise en classe est appliquée aux niveaux. Il est recommandé de définir une mise en classe lorsque les valeurs distinctes peuvent être nombreuses.
+* **Mise en classe** : pour certains champs, vous pouvez définir une mise en classe afin de regrouper les valeurs et faciliter la lisibilité des informations. Les mises en classe sʼappliquent à des niveaux. Il est recommandé de définir une mise en classe lorsque les valeurs distinctes peuvent être nombreuses.
 
-* **Mesure** - Les mesures les plus courantes sont la somme, la moyenne, le maximum, le minimum, l&#39;écart type, etc. Les mesures peuvent être calculées, par exemple le taux d&#39;acceptation d&#39;une offre sera le rapport entre le nombre de fois où une offre a été présentée et le nombre de fois où elle a été acceptée.
+* **Mesure** : les mesures courantes sont la somme, la moyenne, le maximum, le minimum, lʼécart-type, etc. Les mesures peuvent être calculées, par exemple le taux dʼacceptation dʼune offre sera le rapport entre le nombre de fois où une offre a été présentée et le nombre de fois où elle a été acceptée.
 
 ## Espace de travail des cubes {#cube-workspace}
 
@@ -91,4 +91,4 @@ Les principaux contextes d&#39;utilisation des cubes sont les suivants :
 
    ![](assets/s_advuser_cube_in_report.png)
 
-   Voir à ce sujet la section [Explorer les données dans un rapport](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).
+   Pour plus dʼinformations, consultez la section [Exploration des données dans un rapport](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).
