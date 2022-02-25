@@ -4,9 +4,9 @@ title: Bonnes pratiques relatives aux cubes
 description: Bonnes pratiques relatives aux cubes
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1567'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Vous pouvez créer chaque classe manuellement ou les lier à une énumération e
 
 Pour générer automatiquement les classes, Adobe Campaign propose également un assistant : les valeurs peuvent être réparties en N groupes, ou regroupées selon les plus représentées dans la base.
 
-### Définir chaque classe {#defining-each-bin}
+### Définition de chaque classe {#defining-each-bin}
 
 Pour créer unitairement chaque classe, sélectionnez l&#39;option **[!UICONTROL Définir chaque classe]** et utilisez le tableau pour créer les différentes classes.
 
@@ -65,7 +65,7 @@ Pour créer ce type de mise en classe des valeurs, les étapes sont les suivante
 
    Lorsque les valeurs de l&#39;énumération sont mises à jour, les classes sont automatiquement adaptées, sans aucune action côté utilisateur.
 
-### Créer des plages de valeurs {#creating-value-ranges}
+### Création de plages de valeurs {#creating-value-ranges}
 
 Vous pouvez regrouper les valeurs dans des plages selon l&#39;intervalle souhaité.
 
@@ -75,7 +75,7 @@ Pour définir manuellement les intervalles, cliquez sur le bouton **[!UICONTROL 
 
 Indiquez ensuite les bornes inférieures et supérieures et cliquez sur **[!UICONTROL Ok]** pour valider.
 
-### Générer automatiquement les classes {#generating-bins-automatically}
+### Génération automatique de classes {#generating-bins-automatically}
 
 Vous pouvez également générer automatiquement les classes. Pour cela, cliquez sur le lien **[!UICONTROL Générer les classes...]**.
 
@@ -119,7 +119,7 @@ L&#39;énumération **[!UICONTROL Domaines]** est utilisée pour générer les r
 
 Vous pouvez créer d&#39;autres énumérations réservées à la mise en classe et les utiliser dans d&#39;autres Cubes : toutes les valeurs d&#39;alias seront regroupées dans les classes définies dans le premier onglet de l&#39;énumération.
 
-## Calcul et utilisation d&#39;agrégats {#calculating-and-using-aggregates}
+## Calcul et utilisation dʼagrégats {#calculating-and-using-aggregates}
 
 Vous pouvez précalculer les données les plus volumineuses dans des agrégats.
 
@@ -155,7 +155,7 @@ Pour créer un nouvel agrégat, les étapes sont les suivantes :
 
       ![](assets/s_advuser_cube_agregate_05.png)
 
-## Définir des mesures {#defining-measures}
+## Définition des mesures {#defining-measures}
 
 Les types de mesures à réaliser sont définis dans l&#39;onglet **[!UICONTROL Mesures]** du cube. Vous pouvez calculer des sommes, des moyennes, des écarts, etc.
 
@@ -179,13 +179,13 @@ Pour définir une nouvelle mesure, les étapes sont les suivantes :
 
 1. Saisissez le libellé de la mesure et ajoutez une description, puis cliquez sur **[!UICONTROL Terminer]** pour créer la mesure.
 
-## Afficher les mesures {#displaying-measures}
+## Affichage des mesures {#displaying-measures}
 
 Vous pouvez paramétrer l&#39;affichage des mesures dans le tableau selon vos besoins. Vous pouvez ainsi choisir :
 
 * l’ordre d’affichage des mesures (voir la section [Ordre d’affichage](#display-sequence)),
-* les informations à afficher/masquer dans le rapport (voir [Configuration de l’affichage](#configuring-the-display))
-* les mesures à afficher : pourcentage, total, nombre de décimales, etc. (voir [Modifier le type de mesure affichée](#changing-the-type-of-measure-displayed)).
+* les informations à afficher/masquer dans le rapport (consultez la section [Configuration de l’affichage](#configuring-the-display)).
+* les mesures à afficher : pourcentage, total, nombre de décimales, etc. (consultez la section [Modification du type de mesure affichée](#changing-the-type-of-measure-displayed)).
 
 ### Ordre d&#39;affichage {#display-sequence}
 
@@ -209,13 +209,13 @@ Les options de coloration permet d&#39;identifier visuellement les valeurs les p
 
 ![](assets/s_advuser_cube_in_report_config_06.png)
 
-### Modifier le type de mesure affichée {#changing-the-type-of-measure-displayed}
+### Modification du type de mesure affichée {#changing-the-type-of-measure-displayed}
 
-Au niveau de chaque mesure, vous pouvez définir l&#39;unité et le formatage à appliquer.
+Au niveau de chaque mesure, vous pouvez définir lʼunité et le formatage à appliquer.
 
 ![](assets/s_advuser_cube_in_report_config_07.png)
 
-## Partager votre rapport {#sharing-a-report}
+## Partage du rapport {#sharing-a-report}
 
 Une fois le rapport paramétré, vous pouvez choisir de le conserver et de le partager avec d&#39;autres opérateurs.
 
