@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Définition du contenu du publipostage direct
-description: Découvrez comment définir le contenu du courrier
+description: Découvrez comment définir le contenu du publipostage direct
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Ce lien permet d&#39;accéder à l&#39;assistant d&#39;extraction afin de défin
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-Il est possible d’insérer une URL personnalisée dans le fichier d’extraction. Voir à ce propos [cette section](../../web/using/publishing-a-web-form.md).
+Il est possible d’insérer une URL personnalisée dans le fichier d’extraction. Pour plus d’informations, consultez [cette section](../../web/using/publishing-a-web-form.md).
 
 >[!NOTE]
 >
