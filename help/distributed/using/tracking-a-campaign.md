@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Suivi d’une campagne
-description: Découvrez comment effectuer le suivi d'une campagne avec Campaign Distributed Marketing
+description: Découvrez comment effectuer le suivi dʼune campagne grâce au marketing distribué de Campaign
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Ils peuvent ainsi :
 * [Filtrer les kits](#filter-packages),
 * [Modifier les packages](#edit-packages),
 * [Annuler un kit](#cancel-a-package),
-* [Réinitialiser un package](#reinitializing-a-package).
+* [Réinitialisation dʼun package](#reinitializing-a-package).
 
 ## Filtrer les kits {#filter-packages}
 
@@ -83,7 +83,7 @@ Pour les **opérations collaboratives**, l&#39;annulation d&#39;un kit d&#39;op�
 
 Une fois annulée, l&#39;entité centrale peut toujours accéder au kit et éventuellement le réinitialiser, au besoin. Il ne sera à nouveau proposée aux entités locales que lorsqu&#39;il sera validé et démarré. Le processus de réinitialisation d&#39;un kit d&#39;opération est présenté ci-après.
 
-## Réinitialiser un package {#reinitializing-a-package}
+## Réinitialisation dʼun package {#reinitializing-a-package}
 
 Vous pouvez réinitialiser un kit d&#39;opération déjà publié afin de le modifier puis le mettre à nouveau à disposition des entités locales.
 
