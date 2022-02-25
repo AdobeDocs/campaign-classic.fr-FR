@@ -4,7 +4,7 @@ title: À propos des canaux sortants
 description: À propos des canaux sortants
 exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
 ht-degree: 100%
 
