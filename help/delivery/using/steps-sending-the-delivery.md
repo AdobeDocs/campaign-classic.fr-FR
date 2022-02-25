@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Configurer et envoyer la diffusion
+title: Configuration et envoi de la diffusion
 description: Découvrez comment configurer et envoyer la diffusion
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1622'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Configurer et envoyer la diffusion {#configuring-and-sending-the-delivery}
+# Configuration et envoi de la diffusion {#configuring-and-sending-the-delivery}
 
 ![](../../assets/common.svg)
 
@@ -32,7 +32,7 @@ Avant d&#39;envoyer la diffusion, vous pouvez définir les paramètres d&#39;env
    >
    >Lorsque la diffusion est dupliquée, le paramètre est remis à zéro.
 
-* **[!UICONTROL Envoyer en plusieurs vagues]**: Voir à ce sujet la section [Envoyer en plusieurs vagues](#sending-using-multiple-waves).
+* **[!UICONTROL Envoi en plusieurs vagues]** : pour plus d’informations, consultez la section [Envoi en plusieurs vagues](#sending-using-multiple-waves).
 
 * **[!UICONTROL Tester l’envoi par SMTP]** : cette option vous permet de tester l’envoi d’une diffusion via SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée.
 
@@ -40,13 +40,13 @@ Avant d&#39;envoyer la diffusion, vous pouvez définir les paramètres d&#39;env
    >
    >L&#39;utilisation de cette option est déconseillée dans le cas d&#39;une installation en mid-sourcing afin de ne pas faire appel au MTA. Pour plus d&#39;informations sur la configuration d&#39;un serveur SMTP, voir [cette section](../../installation/using/configure-delivery-settings.md).
 
-* **[!UICONTROL Email Cci]** : permet de stocker les emails sur un système externe à l&#39;aide de l&#39;option BCC en ajoutant une adresse email en &quot;copie cachée&quot; (Cci, ou Bcc en anglais) à la cible des messages. Voir à ce propos [cette section](sending-messages.md#archiving-emails).
+* **[!UICONTROL Email Cci]** : permet de stocker les emails sur un système externe à l&#39;aide de l&#39;option BCC en ajoutant une adresse email en &quot;copie cachée&quot; (Cci, ou Bcc en anglais) à la cible des messages. Pour plus d’informations, consultez [cette section](sending-messages.md#archiving-emails).
 
-## Confirmez l&#39;envoi des diffusions {#confirming-delivery}
+## Confirmation de la diffusion {#confirming-delivery}
 
 Une fois la diffusion configurée et prête à être envoyée, vérifiez que vous avez exécuté l’analyse de la diffusion.
 
-Pour ce faire, cliquez sur **[!UICONTROL Envoyer]**, sélectionnez l’action souhaitée et cliquez sur **[!UICONTROL Analyser]**. Voir à ce propos la section [Lancer l’analyse](steps-validating-the-delivery.md#analyzing-the-delivery).
+Pour ce faire, cliquez sur **[!UICONTROL Envoyer]**, sélectionnez l’action souhaitée et cliquez sur **[!UICONTROL Analyser]**. Pour plus dʼinformations, consultez la section [Lancement de lʼanalyse](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -60,7 +60,7 @@ Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions
 * [Présentation des diffusions en échec](understanding-delivery-failures.md)
 * [À propos du tracking des messages](about-message-tracking.md)
 
-## Planifier l’envoi de la diffusion {#scheduling-the-delivery-sending}
+## Planification de lʼenvoi de la diffusion {#scheduling-the-delivery-sending}
 
 Vous pouvez différer la diffusion des messages pour planifier l&#39;envoi ou pour gérer la pression commerciale afin de ne pas sur-solliciter une population.
 
@@ -102,7 +102,7 @@ Ainsi, si vous planifiez une diffusion pour qu&#39;elle s&#39;exécute automatiq
 
 ![](assets/s_ncs_user_email_del_plan_calendar_timezone.png)
 
-## Envoyer en plusieurs vagues {#sending-using-multiple-waves}
+## Envoi en plusieurs vagues {#sending-using-multiple-waves}
 
 Pour équilibrer la charge, vous pouvez répartir les envois en plusieurs lots. Configurez le nombre de lots et leur proportion par rapport à l&#39;ensemble de la diffusion.
 
@@ -176,9 +176,9 @@ Pour les installations on-premise et les installations hébergées/hybrides util
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-Par défaut, cinq reprises sont planifiées pour le premier jour de la diffusion, dans un intervalle minimal d&#39;une heure, réparties sur les 24 h de la journée. Les jours suivants, une reprise par jour est programmée jusqu&#39;à la date limite de la diffusion, définie dans l&#39;onglet **[!UICONTROL Validité.]** Voir [Définir la période de validité](#defining-validity-period).
+Par défaut, cinq reprises sont planifiées pour le premier jour de la diffusion, dans un intervalle minimal dʼune heure, réparties sur les 24 h de la journée. Les jours suivants, une reprise par jour est programmée jusquʼà la date limite de la diffusion, définie dans lʼonglet **[!UICONTROL Validité]**. Consultez la section [Définition de la période de validité](#defining-validity-period).
 
-## Définir la période de validité {#defining-validity-period}
+## Définition de la période de validité {#defining-validity-period}
 
 Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuvent être envoyés jusqu&#39;à la limite de la diffusion. Elle est indiquée dans les propriétés de la diffusion, à partir de l&#39;onglet **[!UICONTROL Validité]**.
 
