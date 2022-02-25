@@ -4,9 +4,9 @@ title: SpamAssassin
 description: Découvrez comment configurer la détection des messages indésirables avec SpamAssassin
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ SpamAssassin utilise diverses techniques de détection des emails indésirables,
 
 >[!NOTE]
 >
->SpamAssassin doit être installé et configuré sur le serveur d&#39;application d&#39;Adobe Campaign. Voir à ce propos [cette section](../../installation/using/configuring-spamassassin.md).
+>SpamAssassin doit être installé et configuré sur le serveur d&#39;application d&#39;Adobe Campaign. Pour plus d’informations, consultez [cette section](../../installation/using/configuring-spamassassin.md).
 >
 >Les règles qui déterminent si un élément est indésirable ou non sont gérées par SpamAssassin et peuvent être éditées par un administrateur disposant de privilèges.
 
