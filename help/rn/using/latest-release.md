@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 8278228a6610e99f9400343bc967e16f2759dfbe
+source-git-commit: 830d91dc5f6663a24d9fb8c2afeb03cdb93d4eec
 workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 83%
@@ -37,7 +37,7 @@ _1 mars 2022_
 * Correction d’un problème qui entraînait une erreur lors de l’actualisation du workflow de délivrabilité lorsque plus de 1 000 broadlogs étaient simultanément présents. (NEO-40276)
 * Correction d’un problème qui empêchait la mise à jour automatique des indicateurs de diffusion taux d’ouverture et taux de clics. (NEO-43253)
 
-## ![](assets/do-not-localize/green_2.png) Version 7.2.1 - Build 9346 {#release-7-2-1}
+## ![](assets/do-not-localize/limited_2.png) Version 7.2.1 - Build 9346 {#release-7-2-1}
 
 _10 janvier 2022_
 
