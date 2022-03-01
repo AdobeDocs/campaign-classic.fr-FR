@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: fc49c0ec80c8741b01ea150c3bc7362b73357607
-workflow-type: ht
-source-wordcount: '1037'
-ht-degree: 100%
+source-git-commit: 8278228a6610e99f9400343bc967e16f2759dfbe
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 83%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 100%
 ![](../../assets/v7-only.svg)
 
 Cette page répertorie les nouvelles fonctionnalités, les améliorations et les correctifs apportés à la **dernière version de Campaign Classic v7**. Chaque nouvelle build est fournie avec un statut matérialisé par une couleur. En savoir plus sur les statuts de build de Campaign Classic v7 dans [cette page](rn-overview.md).
+
+## ![](assets/do-not-localize/green_2.png) Version 7.2.2 - Build 4349 {#release-7-2-2}
+
+_1 mars 2022_
+
+**Correctifs**
+
+* Correction d’un problème lors de la configuration de la variable **Web Analytics** compte externe, ce qui entraînait toujours l’affichage de l’état d’intégration &quot;Intégration réussie&quot; même en cas d’erreur. (NEO-36672)
+* Correction de plusieurs erreurs de postupgrade liées au mécanisme d’identifiant de séquence lorsque les identifiants étaient négatifs. (NEO-43205, NEO-42846, NEO-42845)
+* Correction d’un problème lors de l’utilisation de la variable **Web Analytics** compte externe avec diffusions récurrentes et continues, ce qui entraînait la perte partielle des données du compte externe. (NEO-38548)
+* Correction d&#39;une erreur qui ralentissait le postupgrade lors de la mise à jour de la table NmsActiveContact. (NEO-43206)
+* Correction d’un problème d’échec de postupgrade qui se produisait lorsque des dossiers d’usine avaient été déplacés du dossier **Administration** vers tout autre emplacement. (NEO-42875)
+* Correction d’un problème lors de l’utilisation d’une **Mise à jour de données** activité de workflow qui pourrait empêcher la mise à jour du schéma des destinataires avec les données des destinataires d’une base de données externe Google Cloud. (NEO-42343)
+* Correction d’un problème lié au connecteur Adobe Analytics lors du postupgrade. (NEO-43318, NEO-38136)
+* Correction d’un CUID remplacé par le problème &quot;VALUE_TO_CHANGE&quot; lors du postupgrade. (NEO-43267)
+* Correction d&#39;une erreur qui entraînait des erreurs lors de la synchronisation des instances de mid-sourcing et marketing sur une configuration multi-mid. (NEO-10432)
+* Correction d’un problème qui entraînait une erreur lors de l’actualisation du workflow de délivrabilité lorsque plus de 1 000 broadlogs étaient simultanément présents. (NEO-40276)
+* Correction d’un problème qui empêchait la mise à jour automatique des indicateurs de diffusion taux d’ouverture et taux de clics. (NEO-43253)
 
 ## ![](assets/do-not-localize/green_2.png) Version 7.2.1 - Build 9346 {#release-7-2-1}
 
