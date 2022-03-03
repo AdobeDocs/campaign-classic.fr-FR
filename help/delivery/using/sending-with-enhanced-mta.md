@@ -4,9 +4,9 @@ title: Envoi d'emails avec le MTA amélioré dans Adobe Campaign Classic
 description: Découvrez la portée et les spécificités de lʼenvoi dʼe-mails avec le MTA amélioré dʼAdobe Campaign
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: 8ac6cddad04d1142b84a735ab8083e732c17714b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2016'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -138,7 +138,7 @@ Pour plus d’informations sur le débit de diffusion, consultez [cette section]
 
 >[!NOTE]
 >
->Avec le [Service de commentaires par email](#email-feedback-service) (EFS) (actuellement disponible en version bêta), le graphique de débit des diffusions Campaign affiche toujours le débit de vos destinataires de messagerie.
+>Avec la fonctionnalité de [Service de retour par e-mail](#email-feedback-service) (EFS) (actuellement disponible en version bêta), le graphique de débit des diffusions Campaign affiche toujours le débit à vos destinataires de messagerie.
 
 ### Période de validité
 
