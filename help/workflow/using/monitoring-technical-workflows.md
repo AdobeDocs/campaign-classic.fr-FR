@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 source-git-commit: 1a4fd75a90667e57149772497a7b1bd14b251db3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,8 +43,8 @@ Pour comprendre la fonction de chaque workflow technique, consultez cette [secti
 
 Pour le **[!UICONTROL Workflow de Nettoyage de la base (&#39;cleanup&#39;)]** :
 
-1. Vérifiez que le workflow **[!UICONTROL Nettoyage de la base]** s&#39;exécute et se termine correctement tous les jours. Voir à ce propos cette [page](../../production/using/database-cleanup-workflow.md)..
-1. Allez voir le journal des logs pour vérifier que le temps écoulé reste relativement constant et n&#39;affecte pas d&#39;autres workflows.
+1. Vérifiez que le workflow **[!UICONTROL Nettoyage de la base]** s’exécute et se termine correctement tous les jours. Voir à ce propos cette [page](../../production/using/database-cleanup-workflow.md)..
+1. Allez voir le journal des logs pour vérifier que le temps écoulé reste relativement constant et n’affecte pas d’autres workflows.
 
 Pour le **[!UICONTROL Workflow de tracking (&#39;tracking&#39;)]** :
 
@@ -52,7 +52,7 @@ Vérifiez que le workflow de Tracking s&#39;exécute comme prévu (une fois par 
 
 Pour la **[!UICONTROL Mise à jour délivrabilité (&#39;deliverabilityUpdate&#39;)]** :
 
-1. Vérifiez que la variable **[!UICONTROL Mise à jour de la délivrabilité]** le workflow s’exécute et se termine correctement tous les jours.
+1. Vérifiez que le workflow **[!UICONTROL Mise à jour délivrabilité]** s’exécute et se termine correctement tous les jours.
 1. Dans le journal des logs, vérifiez que les règles sont mises à jour régulièrement.
 
 Pour le **[!UICONTROL Processus de campagne (&#39;operationMgt&#39;, &#39;deliveryMgt&#39;, ...)]** :
