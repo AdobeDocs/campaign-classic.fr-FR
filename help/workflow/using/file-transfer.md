@@ -2,12 +2,10 @@
 product: campaign
 title: Envoi de fichier
 description: En savoir plus sur l’activité de workflow d’envoi de fichier
-audience: workflow
-content-type: reference
-topic-tags: event-activities
+feature: Workflows, Data Management
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: 47cc5bc2f16ea87b6a12f6bf500c1e8d1f406876
-workflow-type: ht
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
 

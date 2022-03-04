@@ -2,9 +2,10 @@
 product: campaign
 title: Création dʼune diffusion e-mail
 description: Découvrez comment créer une diffusion e-mail
+feature: Email
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 

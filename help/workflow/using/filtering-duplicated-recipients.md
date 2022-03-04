@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Filtrer les destinataires en double
+title: Filtrage des destinataires dupliqués
 description: Découvrez comment filtrer les destinataires en double
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
 
 ---
 
-# Filtrer les destinataires en double {#filtering-duplicated-recipients}
+# Filtrage des destinataires dupliqués {#filtering-duplicated-recipients}
 
 ![](../../assets/common.svg)
 

@@ -2,9 +2,10 @@
 product: campaign
 title: Règles de contrôle
 description: Règles de contrôle
+feature: Typology Rules
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
-workflow-type: ht
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 

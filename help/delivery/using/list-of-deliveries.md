@@ -2,9 +2,10 @@
 product: campaign
 title: Accès à la liste des diffusions
 description: En savoir plus sur lʼaccès à la liste des diffusions créées
+feature: Monitoring
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 

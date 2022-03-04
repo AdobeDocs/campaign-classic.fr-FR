@@ -2,11 +2,9 @@
 product: campaign
 title: Propriétés d’exécution
 description: En savoir plus sur les propriétés des workflows de Campaign
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
+feature: Workflows
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 100%

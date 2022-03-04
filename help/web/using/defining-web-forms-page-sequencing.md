@@ -2,14 +2,12 @@
 product: campaign
 title: Définir l'enchaînement des pages des formulaires web
 description: Définir l'enchaînement des pages des formulaires web
-audience: web
-content-type: reference
-topic-tags: web-forms
+feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

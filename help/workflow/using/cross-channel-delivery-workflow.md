@@ -2,11 +2,9 @@
 product: campaign
 title: Workflow de diffusion cross-canal
 description: En savoir plus sur les workflows de diffusion cross-canal
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows, Channels Activity
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e454cc29038b4eab9fad1dcb46813fc8e1a83db1
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 100%
@@ -37,7 +35,7 @@ Les principales étapes d&#39;implémentation pour ce cas pratique sont les suiv
 
 Pour définir votre cible, créez une requête afin d&#39;identifier les destinataires.
 
-1. Créez une campagne. Voir à ce propos [cette section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
+1. Créez une campagne. Pour plus d’informations, consultez [cette section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
 1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d&#39;informations sur l&#39;utilisation de cette activité, consultez [cette section](query.md).
 1. Définissez les destinataires qui recevront vos diffusions. Par exemple, sélectionnez les membres &quot;Gold&quot; en tant que dimension cible.
 1. Ajoutez des conditions de filtrage à votre requête. Dans cet exemple, sélectionnez les destinataires disposant d&#39;une adresse email et d&#39;un numéro de téléphone portable.

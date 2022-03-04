@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Surveiller l'exécution des workflows
-description: Surveiller l'exécution des workflows
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+title: Surveillance de l’exécution des workflows
+description: Surveillance de l’exécution des workflows
+feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '2098'
 ht-degree: 100%
 
 ---
 
-# Surveiller l&#39;exécution des workflows {#monitoring-workflow-execution}
+# Surveillance de l’exécution des workflows {#monitoring-workflow-execution}
 
 ![](../../assets/common.svg)
 

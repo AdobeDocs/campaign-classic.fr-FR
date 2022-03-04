@@ -1,12 +1,10 @@
 ---
 product: campaign
-title: Utiliser un modèle de formulaire web
-description: Utiliser un modèle de formulaire web
-audience: web
-content-type: reference
-topic-tags: web-forms
+title: Utilisation d’un modèle de formulaire web
+description: Utilisation d’un modèle de formulaire web
+feature: Web Forms
 exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 100%

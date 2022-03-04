@@ -2,11 +2,9 @@
 product: campaign
 title: Contrainte horaire
 description: En savoir plus sur l’activité de workflow de contrainte horaire
-audience: workflow
-content-type: reference
-topic-tags: flow-control-activities
+feature: Workflows
 exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 100%

@@ -2,10 +2,10 @@
 product: campaign
 title: Statuts de diffusion
 description: En savoir plus sur les statuts disponibles sur votre tableau de bord de diffusion
-feature: Monitoring
+feature: Monitoring, Deliverability
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
 

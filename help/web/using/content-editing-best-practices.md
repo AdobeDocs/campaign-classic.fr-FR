@@ -2,11 +2,9 @@
 product: campaign
 title: Bonnes pratiques relatives à l'édition de contenu
 description: Bonnes pratiques relatives à l'édition de contenu
-audience: web
-content-type: reference
-topic-tags: editing-html-content
+feature: Web Apps, Web Forms, Landing Pages
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 100%

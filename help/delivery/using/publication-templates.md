@@ -2,9 +2,10 @@
 product: campaign
 title: Modèle de publication
 description: Modèle de publication
+feature: Templates
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 100%
 

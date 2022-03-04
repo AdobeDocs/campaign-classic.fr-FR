@@ -2,11 +2,9 @@
 product: campaign
 title: Réponses aux formulaires web
 description: Réponses aux formulaires web
-audience: web
-content-type: reference
-topic-tags: web-forms
+feature: Web Forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%

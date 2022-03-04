@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Publier le kit d'opération
-description: Publier le kit d'opération
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: Publication du kit d’opération
+description: Publication du kit d’opération
+feature: Distributed Marketing
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 100%
 
 ---
 
-# Publier le kit d&#39;opération{#publishing-the-campaign-package}
+# Publication du kit d’opération{#publishing-the-campaign-package}
 
 ![](../../assets/v7-only.svg)
 

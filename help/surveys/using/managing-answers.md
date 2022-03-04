@@ -2,11 +2,9 @@
 product: campaign
 title: Gestion des réponses
 description: Découvrez comment gérer les réponses aux questionnaires
-audience: web
-content-type: reference
-topic-tags: online-surveys
+feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%

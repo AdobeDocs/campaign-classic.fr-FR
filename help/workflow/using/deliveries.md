@@ -2,10 +2,8 @@
 product: campaign
 title: Diffusions
 description: En savoir plus sur les workflows de diffusions par défaut
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
-source-git-commit: 794be3d196ea8292699bbf29c8a7038177763e31
+feature: Workflows
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%

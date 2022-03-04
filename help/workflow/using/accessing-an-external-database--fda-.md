@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Accéder à une base externe (FDA)
-description: Accéder à une base externe (FDA)
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
+title: Accès à une base externe (FDA)
+description: Accès à une base externe (FDA)
+feature: Workflows, Data Management, Federated Data Access
 exl-id: 9500a7ba-263d-425b-8cc3-b111c6b9108f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
-# Accéder à une base externe (FDA){#accessing-an-external-database-fda}
+# Accès à une base externe (FDA){#accessing-an-external-database-fda}
 
 ![](../../assets/common.svg)
 

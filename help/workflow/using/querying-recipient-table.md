@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Requête sur la table des destinataires
+title: Requête de la table des destinataires
 description: Découvrez comment effectuer une requête sur la table des destinataires
 feature: Query Editor
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 

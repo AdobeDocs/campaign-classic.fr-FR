@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Créer une Landing Page
-description: Créer une Landing Page
-audience: web
-content-type: reference
-topic-tags: editing-html-content
+title: Création d’une landing page
+description: Création d’une landing page
+feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 100%
 
 ---
 
-# Créer une Landing Page{#creating-a-landing-page}
+# Création d’une landing page{#creating-a-landing-page}
 
 ![](../../assets/common.svg)
 

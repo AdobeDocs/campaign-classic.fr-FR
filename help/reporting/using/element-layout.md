@@ -2,9 +2,10 @@
 product: campaign
 title: Mettre en page les éléments
 description: Mettre en page les éléments
+feature: Reporting
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 

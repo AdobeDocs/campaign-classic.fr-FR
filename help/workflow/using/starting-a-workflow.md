@@ -1,12 +1,13 @@
 ---
 product: campaign
-title: Démarrer un workflow
+title: Démarrage dʼun workflow
 description: Découvrez comment démarrer un workflow ainsi que la barre d’outils des actions de workflows et le menu contextuel
+feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: ht
-source-wordcount: '854'
-ht-degree: 100%
+source-git-commit: 9126e2cc088ef0e5761cc20bd19980d323f3a3ea
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 91%
 
 ---
 
@@ -46,7 +47,9 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
 
    Cette action arrête un workflow en cours d&#39;exécution : l&#39;instance passe alors en état **Terminé**. Les opérations en cours sont interrompues, si possible. Les imports ou requêtes SQL en cours sont immédiatement annulées.
 
-   L&#39;arrêt est un processus asynchrone. La demande est enregistrée, puis le ou les serveurs de workflow vont annuler les opérations en cours. L&#39;arrêt d&#39;une instance peut donc prendre un certain temps, notamment si le workflow est distribué sur plusieurs serveurs : chacun des serveurs doit prendre la main pour annuler les tâches en cours.
+   >[!IMPORTANT]
+   >
+   >L’arrêt d’un workflow est un processus asynchrone : La demande est enregistrée, puis le ou les serveurs de workflow annulent les opérations en cours. L’arrêt d’une instance de workflow peut donc prendre du temps, notamment si le workflow s’exécute sur plusieurs serveurs, chacun d’eux devant prendre le contrôle pour annuler les tâches en cours. Pour éviter tout problème, attendez que l’opération d’arrêt soit terminée et n’effectuez pas plusieurs demandes d’arrêt sur le même workflow.
 
 * **[!UICONTROL Redémarrer]**
 

@@ -2,12 +2,10 @@
 product: campaign
 title: À propos des activités d’événement
 description: À propos des activités d’événement
-audience: workflow
-content-type: reference
-topic-tags: event-activities
+feature: Workflows, Data Management
 exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 

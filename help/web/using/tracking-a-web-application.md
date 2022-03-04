@@ -1,14 +1,12 @@
 ---
 product: campaign
-title: Tracking d’une application web
-description: Tracking d’une application web
-audience: web
-content-type: reference
-topic-tags: web-applications
+title: Tracking des visites sur une application web
+description: Tracking des visites sur une application web
+feature: Web Apps
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '404'
 ht-degree: 100%
 
 ---

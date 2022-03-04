@@ -2,11 +2,9 @@
 product: campaign
 title: Chargement (fichier)
 description: En savoir plus sur l’activité de workflow de chargement (fichier)
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 100%

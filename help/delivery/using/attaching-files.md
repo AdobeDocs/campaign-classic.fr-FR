@@ -2,11 +2,9 @@
 product: campaign
 title: Joindre des fichiers
 description: Joindre des fichiers
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+feature: Email
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 100%

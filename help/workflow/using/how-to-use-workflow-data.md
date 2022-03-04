@@ -2,11 +2,9 @@
 product: campaign
 title: Utiliser les données d'un workflow
 description: Découvrez comment utiliser les données d'un workflow
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Workflows, Data Management
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%

@@ -2,9 +2,10 @@
 product: campaign
 title: Ressources et principes de la gestion de contenu
 description: Ressources et principe de la gestion de contenu
+feature: Templates
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
 

@@ -2,11 +2,9 @@
 product: campaign
 title: Scripts et modèles JavaScript
 description: Scripts et modèles JavaScript
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
+feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: 8e6ebec9af0b7865616cf3904c8d400094567bdb
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%

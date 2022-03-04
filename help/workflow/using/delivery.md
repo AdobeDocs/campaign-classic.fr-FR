@@ -2,11 +2,9 @@
 product: campaign
 title: Diffusion
 description: En savoir plus sur l’activité de workflow de type Diffusion
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows, Channels Activity
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 100%

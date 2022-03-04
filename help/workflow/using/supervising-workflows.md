@@ -2,11 +2,9 @@
 product: campaign
 title: Workflow de supervision
 description: Découvrez comment superviser les workflows de Campaign
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%

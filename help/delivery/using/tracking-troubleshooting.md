@@ -2,9 +2,10 @@
 product: campaign
 title: Résolution des problèmes liés au tracking
 description: Consultez les questions courantes relatives à la configuration et à l’implémentation du tracking dans Adobe Campaign Classic dans cette section.
+feature: Monitoring
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
 

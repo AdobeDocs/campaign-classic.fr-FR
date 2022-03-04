@@ -2,9 +2,10 @@
 product: campaign
 title: Règles de cohérence
 description: Règles de cohérence
+feature: Typology Rules
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: ht
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 100%
 

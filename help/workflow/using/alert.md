@@ -2,11 +2,9 @@
 product: campaign
 title: Alerte
 description: Alerte
-audience: workflow
-content-type: reference
-topic-tags: flow-control-activities
+feature: Workflows
 exl-id: 21698e85-7b58-4bde-bbd2-0ee06ac90307
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 100%

@@ -2,12 +2,10 @@
 product: campaign
 title: Utilisation d’agrégats
 description: Découvrez comment utiliser les agrégats
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 100%
 

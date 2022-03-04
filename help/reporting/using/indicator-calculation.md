@@ -2,9 +2,10 @@
 product: campaign
 title: Calcul des indicateurs
 description: Calcul des indicateurs
+feature: Reporting
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+workflow-type: tm+mt
 source-wordcount: '3021'
 ht-degree: 100%
 

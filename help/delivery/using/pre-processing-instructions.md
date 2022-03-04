@@ -2,9 +2,10 @@
 product: campaign
 title: Instructions de pré-traitement pour les URL trackées
 description: Découvrez les instructions de pré-traitement à utiliser pour écrire le script de l’URL d’un e-mail et pour que l’URL soit toujours trackée
+feature: Monitoring
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
 

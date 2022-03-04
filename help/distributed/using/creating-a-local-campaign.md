@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Créer une opération locale
-description: Créer une opération locale
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: Création d’une campagne locale
+description: Création d’une campagne locale
+feature: Distributed Marketing
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 100%
 
 ---
 
-# Créer une opération locale{#creating-a-local-campaign}
+# Création d’une campagne locale{#creating-a-local-campaign}
 
 ![](../../assets/v7-only.svg)
 

@@ -2,9 +2,10 @@
 product: campaign
 title: Cas dʼutilisation
 description: Cas dʼutilisation de reporting
+feature: Reporting
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 100%
 

@@ -2,11 +2,9 @@
 product: campaign
 title: Exemples de code JavaScript dans les workflows
 description: Ces exemples montrent comment vous pouvez utiliser le code JavaScript dans un workflow
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
+feature: Workflows
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
-source-git-commit: c86559d5ab40b206d701c46bb01d3ba61c835e8b
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 100%

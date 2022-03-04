@@ -2,11 +2,9 @@
 product: campaign
 title: Code SQL et code JavaScript
 description: En savoir plus sur les activités du workflow des codes SQL et JavaScript
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
-source-git-commit: 8e6ebec9af0b7865616cf3904c8d400094567bdb
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%

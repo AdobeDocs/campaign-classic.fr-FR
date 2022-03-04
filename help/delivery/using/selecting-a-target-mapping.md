@@ -2,9 +2,10 @@
 product: campaign
 title: Sélection d’un mapping de ciblage
 description: Découvrez comment effectuer un mapping de ciblage
+feature: Delivery Templates
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 100%
 

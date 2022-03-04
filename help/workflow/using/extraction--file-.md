@@ -2,11 +2,9 @@
 product: campaign
 title: Extraction (fichier)
 description: En savoir plus sur l’activité de workflow d’extraction (fichier)
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows, Data Management Activity
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%

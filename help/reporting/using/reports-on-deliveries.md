@@ -2,9 +2,10 @@
 product: campaign
 title: Rapports sur les diffusions
 description: Rapports sur les diffusions
+feature: Reporting
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
 

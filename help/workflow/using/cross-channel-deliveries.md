@@ -2,11 +2,9 @@
 product: campaign
 title: Diffusions cross-canal
 description: En savoir plus sur les diffusions cross-canal
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e454cc29038b4eab9fad1dcb46813fc8e1a83db1
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%

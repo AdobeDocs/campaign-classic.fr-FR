@@ -2,9 +2,10 @@
 product: campaign
 title: Automatisation par workflows
 description: Découvrez comment automatiser la gestion de contenu à lʼaide des workflows
+feature: Workflows
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 100%
 

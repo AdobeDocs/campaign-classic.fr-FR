@@ -2,9 +2,10 @@
 product: campaign
 title: Simulation de campagnes
 description: Prise en main des simulations de campagnes
+feature: Campaigns
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: ht
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 100%
 

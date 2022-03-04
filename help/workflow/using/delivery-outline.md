@@ -2,11 +2,9 @@
 product: campaign
 title: Composition de diffusion
 description: En savoir plus sur l’activité de workflow de composition de diffusion
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Targeting Activity
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%

@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: 'Cas pratique : création d’une diffusion email'
-description: 'Cas pratique : création d’une diffusion email'
-audience: web
-content-type: reference
-topic-tags: editing-html-content
+title: 'Cas pratique : création d’une diffusion email'
+description: 'Cas pratique : création d’une diffusion email'
+feature: Web Apps, Web Forms, Landing Pages
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '783'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Cas pratique : création d&#39;une diffusion email{#use-case-creating-an-email-delivery}
+# Cas d’utilisation : création d’une diffusion email{#use-case-creating-an-email-delivery}
 
 ![](../../assets/common.svg)
 

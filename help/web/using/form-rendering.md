@@ -2,11 +2,9 @@
 product: campaign
 title: Rendu du formulaire
 description: Rendu du formulaire
-audience: web
-content-type: reference
-topic-tags: web-forms
+feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
-source-git-commit: 9b914099f6755d6ae83f98697a3a38f8cfa625e1
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 100%

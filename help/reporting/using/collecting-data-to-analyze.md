@@ -2,9 +2,10 @@
 product: campaign
 title: Collecte des données à analyser
 description: Collecte des données à analyser
+feature: Reporting
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 

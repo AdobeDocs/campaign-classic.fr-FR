@@ -1,12 +1,10 @@
 ---
 product: campaign
-title: Coordonner les mises à jour des données
-description: Coordonner les mises à jour des données
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+title: Coordination des mises à jour de données
+description: Coordination des mises à jour de données
+feature: Workflows, Data Management
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%

@@ -2,11 +2,9 @@
 product: campaign
 title: Conception d’un questionnaire
 description: Découvrez les étapes clés de la conception d'un questionnaire
-audience: web
-content-type: reference
-topic-tags: online-surveys
+feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 100%

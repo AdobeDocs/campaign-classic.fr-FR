@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Ajouter des champs à un formulaire web
-description: Ajouter des champs à un formulaire web
-audience: web
-content-type: reference
-topic-tags: web-forms
+title: Ajout de champs à un formulaire web
+description: Ajout de champs à un formulaire web
+feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
-source-git-commit: a5f6478d3c0780464974053e389923614abba582
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 100%
 
 ---
 
-# Ajouter des champs à un formulaire web{#adding-fields-to-a-web-form}
+# Ajout de champs à un formulaire web{#adding-fields-to-a-web-form}
 
 ![](../../assets/common.svg)
 

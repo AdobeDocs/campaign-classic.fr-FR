@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: À propos des activités
+title: A propos des activités de workflow
 description: À propos des activités
 feature: Workflows, Data Management
 exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
-source-wordcount: '96'
-ht-degree: 100%
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 96%
 
 ---
 

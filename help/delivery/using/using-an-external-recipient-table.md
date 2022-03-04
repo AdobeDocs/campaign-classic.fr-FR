@@ -1,16 +1,17 @@
 ---
 product: campaign
-title: Utiliser une table de destinataires externe
-description: Utiliser une table de destinataires externe
+title: Utilisation d’une table de destinataires externe
+description: Utilisation d’une table de destinataires externe
+feature: Audiences
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%
 
 ---
 
-# Utiliser une table de destinataires externe{#using-an-external-recipient-table}
+# Utilisation d’une table de destinataires externe{#using-an-external-recipient-table}
 
 ![](../../assets/common.svg)
 

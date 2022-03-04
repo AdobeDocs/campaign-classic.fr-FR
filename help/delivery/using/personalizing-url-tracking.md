@@ -2,9 +2,10 @@
 product: campaign
 title: Configuration des options de tracking d’URL
 description: Découvrez comment configurer les options de tracking d’URL
+feature: Monitoring, Email Design
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 

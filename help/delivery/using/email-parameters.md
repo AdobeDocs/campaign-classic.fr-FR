@@ -1,10 +1,11 @@
 ---
 product: campaign
-title: Paramètre des e-mails
+title: Paramètres de l’email
 description: Découvrez les options et les paramètres spécifiques à la diffusion e-mail
+feature: Email
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 

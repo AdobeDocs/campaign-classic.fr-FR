@@ -2,11 +2,9 @@
 product: campaign
 title: Configurer des questionnaires en ligne
 description: Découvrez comment configurer des questionnaires en ligne
-audience: web
-content-type: reference
-topic-tags: online-surveys
+feature: Surveys
 exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 100%
