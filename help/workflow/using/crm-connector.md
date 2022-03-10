@@ -4,7 +4,7 @@ description: En savoir plus sur le Connecteur CRM et configurer la synchronisati
 feature: Workflows, Data Management
 exl-id: 41966f31-9f37-4ab7-919a-d4624f9d1178
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
 ht-degree: 100%
 
