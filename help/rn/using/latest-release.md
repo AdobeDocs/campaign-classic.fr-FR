@@ -8,8 +8,8 @@ level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: e4cd327d1495987e7d32bd1b903c8fe5de2813f2
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,21 +21,21 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 ## ![](assets/do-not-localize/green_2.png) Version 7.2.2 - Build 9349 {#release-7-2-2}
 
-_1 mars 2022_
+_1er mars 2022_
 
 **Correctifs**
 
-* Correction d’un problème lors de la configuration de la variable **Web Analytics** compte externe, ce qui entraînait toujours l’affichage de l’état d’intégration &quot;Intégration réussie&quot; même en cas d’erreur. (NEO-36672)
-* Correction de plusieurs erreurs de postupgrade liées au mécanisme d’identifiant de séquence lorsque les identifiants étaient négatifs. (NEO-43205, NEO-42846, NEO-42845)
-* Correction d’un problème lors de l’utilisation de la variable **Web Analytics** compte externe avec diffusions récurrentes et continues, ce qui entraînait la perte partielle des données du compte externe. (NEO-38548)
-* Correction d&#39;une erreur qui ralentissait le postupgrade lors de la mise à jour de la table NmsActiveContact. (NEO-43206)
-* Correction d’un problème d’échec de postupgrade qui se produisait lorsque des dossiers d’usine avaient été déplacés du dossier **Administration** vers tout autre emplacement. (NEO-42875)
-* Correction d’un problème lors de l’utilisation d’une **Mise à jour de données** activité de workflow qui pourrait empêcher la mise à jour du schéma des destinataires avec les données des destinataires d’une base de données externe Google Cloud. (NEO-42343)
-* Correction d’un problème lié au connecteur Adobe Analytics lors du postupgrade. (NEO-43318, NEO-38136)
-* Correction d’un CUID remplacé par le problème &quot;VALUE_TO_CHANGE&quot; lors du postupgrade. (NEO-43267)
-* Correction d&#39;une erreur qui entraînait des erreurs lors de la synchronisation des instances de mid-sourcing et marketing sur une configuration multi-mid. (NEO-10432)
-* Correction d’un problème qui entraînait une erreur lors de l’actualisation du workflow de délivrabilité lorsque plus de 1 000 broadlogs étaient simultanément présents. (NEO-40276)
-* Correction d’un problème qui empêchait la mise à jour automatique des indicateurs de diffusion taux d’ouverture et taux de clics. (NEO-43253)
+* Correction dʼun problème lors de la configuration du compte externe **Web Analytics** en raison duquel le statut de lʼintégration affichait toujours « Intégration réussie », même lorsque des erreurs se produisaient. (NEO-36672)
+* Correction de plusieurs erreurs de postupgrade liées au mécanisme d’identification des séquences lorsque les identifiants sont négatifs. (NEO-43205, NEO-42846, NEO-42845)
+* Correction d’un problème lors de l’utilisation du compte externe **Web Analytics** avec des diffusions récurrentes et continues, qui entraînait une perte partielle des données du compte externe. (NEO-38548)
+* Correction dʼune erreur qui ralentissait le postupgrade lors de la mise à jour du tableau NmsActiveContact. (NEO-43206)
+* Correction d’un problème qui entraînait lʼéchec du postupgrade lorsque des dossiers prêts à lʼemploi étaient déplacés du nœud **Administration** vers tout autre emplacement. (NEO-42875)
+* Correction dʼun problème lors de lʼutilisation dʼune activité de workflow **Mise à jour des données** qui pouvait empêcher la mise à jour du schéma du destinataire avec les données de ce dernier provenant dʼune base de données externe Google Cloud. (NEO-42343)
+* Correction d’un problème lié au connecteur Adobe Analytics lors du postupgrade. (NEO-43318, NEO-38136)
+* Correction d’un problème de remplacement du CUID par « VALUE_TO_CHANGE » lors du postupgrade. (NEO-43267)
+* Correction dʼun problème qui entraînait des erreurs lors de la synchronisation des instances de midsourcing et marketing sur une configuration multi-mid. (NEO-10432)
+* Correction d’un problème lors de l’actualisation du workflow de délivrabilité qui entraînait une erreur lorsque plus de 1 000 broadlogs étaient présents en même temps. (NEO-40276)
+* Correction d’un problème qui empêchait la mise à jour automatique des indicateurs de diffusion Taux d’ouverture et Taux de clics. (NEO-43253)
 
 ## ![](assets/do-not-localize/limited_2.png) Version 7.2.1 - Build 9346 {#release-7-2-1}
 

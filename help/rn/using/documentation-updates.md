@@ -31,7 +31,7 @@ La section Quarantaine et liste bloquée a été clarifiée. [En savoir plus](..
 
 Les sections sur l’envoi d&#39;une adresse en quarantaine et sur la suppression des adresses de la liste de quarantaine ont été mises à jour. [En savoir plus](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-Ajout d’une bonne pratique de workflow pour recommander de ne pas exécuter plusieurs requêtes d’arrêt sur le même workflow. [En savoir plus](../../workflow/using/workflow-best-practices.md)
+Ajout d’une bonne pratique en matière de workflow consistant à ne pas exécuter plusieurs demandes d’arrêt sur le même workflow. [En savoir plus](../../workflow/using/workflow-best-practices.md)
 
 Ajout d’informations sur la manière d’empêcher l’exécution d’une diffusion récurrente au sein d’une campagne - [En savoir plus](../../workflow/using/recurring-delivery.md)
 
