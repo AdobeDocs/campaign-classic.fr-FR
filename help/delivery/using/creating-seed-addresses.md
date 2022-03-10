@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Création d’adresses de contrôle
-description: Découvrez comment créer et utiliser des adresses de contrôle
+title: Créer des adresses de contrôle
+description: Découvrez comment créer et utiliser des adresses de contrôle.
 feature: Seed Address
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
 ht-degree: 100%
 
