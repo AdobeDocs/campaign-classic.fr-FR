@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Surveillance des workflows techniques
-description: Surveillance des workflows techniques
+title: Surveiller les workflows techniques
+description: Surveiller les workflows techniques
 feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
 ht-degree: 100%
 
 ---
 
-# Surveillance des workflows techniques {#monitoring-technical-workflows}
+# Surveiller les workflows techniques {#monitoring-technical-workflows}
 
 ![](../../assets/common.svg)
 
