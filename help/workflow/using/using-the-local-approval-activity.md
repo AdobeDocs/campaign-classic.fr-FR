@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité Validation en local
 feature: Workflows
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
 ht-degree: 100%
 
