@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: '"Cas d’utilisation : création de vues d’ensemble"'
-description: '"Cas d’utilisation : création de vues d’ensemble"'
+title: '« Cas d’utilisation : créer des vues dʼensemble »'
+description: '« Cas d’utilisation : créer des vues dʼensemble »'
 feature: Web Apps
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1031'
 ht-degree: 100%
 
