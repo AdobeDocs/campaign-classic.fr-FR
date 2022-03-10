@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Configuration des tests AB
-description: Découvrez comment paramétrer les tests A/B dans Campaign Classic.
+title: Configurer les tests A/B
+description: Découvrez comment configurer les tests A/B dans Campaign Classic.
 feature: A/B Testing
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '216'
 ht-degree: 100%
 
 ---
 
-# Configuration des tests AB {#configuring-a-b-testing}
+# Configurer les tests AB {#configuring-a-b-testing}
 
 ![](../../assets/common.svg)
 
