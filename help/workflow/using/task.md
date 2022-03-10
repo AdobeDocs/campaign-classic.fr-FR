@@ -5,7 +5,7 @@ description: En savoir plus sur l’activité de workflow de tâche
 feature: Workflows
 exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
 ht-degree: 100%
 
