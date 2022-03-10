@@ -5,7 +5,7 @@ description: En savoir plus sur les workflows de diffusion cross-canal
 feature: Workflows, Channels Activity
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
 source-git-commit: e454cc29038b4eab9fad1dcb46813fc8e1a83db1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
 ht-degree: 100%
 
