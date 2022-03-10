@@ -5,7 +5,7 @@ description: Chargement (SOAP)
 feature: Workflows
 exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
