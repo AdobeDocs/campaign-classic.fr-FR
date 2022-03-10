@@ -1,11 +1,11 @@
 ---
 product: campaign
 title: Requête avec une relation multiple-à-multiple
-description: Découvrez comment exécuter des requêtes à l’aide d’une relation plusieurs-à-plusieurs
+description: Découvrez comment exécuter des requêtes à l’aide d’une relation multiple-à-multiple
 feature: Query Editor
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
 ht-degree: 100%
 
