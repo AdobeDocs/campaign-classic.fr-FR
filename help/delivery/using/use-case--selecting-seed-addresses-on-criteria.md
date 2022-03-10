@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: '"Cas pratique : sélection des adresses de contrôle selon des critères"'
-description: '"Cas pratique : sélection des adresses de contrôle selon des critères"'
+title: '« Cas d’utilisation : sélectionner des adresses de contrôle selon des critères »'
+description: '« Cas d’utilisation : sélectionner des adresses de contrôle selon des critères »'
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '912'
 ht-degree: 100%
 
