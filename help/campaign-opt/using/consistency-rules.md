@@ -5,7 +5,7 @@ description: Règles de cohérence
 feature: Typology Rules
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
 ht-degree: 100%
 
