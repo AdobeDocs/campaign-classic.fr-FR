@@ -5,7 +5,7 @@ description: Saut (départ et arrivée)
 feature: Workflows
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
 ht-degree: 100%
 
