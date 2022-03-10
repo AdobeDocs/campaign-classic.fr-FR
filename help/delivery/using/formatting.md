@@ -5,7 +5,7 @@ description: Mise en forme
 feature: Email Design
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1458'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Les attributs et éléments du contenu sont représentés comme des objets JavaS
 **Exemple**:
 
 * **content.@name** : récupère la valeur de l’attribut « name » de l’élément principal
-* **contenu.@`['name']`** : identique au contenu **.syntaxe @name**
+* **content.@`['name']`** : identique au contenu **.syntaxe @name**
 * **content.chapter.length**`<chapter` : retourne le nombre d’éléments sur l’élément de collection
 * **content.chapter`[0]`.@name** : récupère le nom du premier élément `<chapter>`
 * **chapter.name()** : retourne le nom de l’élément `<chapter>`
