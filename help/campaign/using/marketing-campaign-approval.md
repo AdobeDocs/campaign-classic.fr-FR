@@ -5,7 +5,7 @@ description: Découvrez comment gérer les validations des campagnes marketing
 feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2607'
 ht-degree: 100%
 
