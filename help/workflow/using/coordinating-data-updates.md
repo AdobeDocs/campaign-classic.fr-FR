@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Coordination des mises à jour de données
-description: Coordination des mises à jour de données
+title: Coordonner les mises à jour de données
+description: Coordonner les mises à jour de données
 feature: Workflows, Data Management
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
 ht-degree: 100%
 
 ---
 
-# Coordination des mises à jour de données{#coordinating-data-updates}
+# Coordonner les mises à jour de données{#coordinating-data-updates}
 
 ![](../../assets/common.svg)
 
