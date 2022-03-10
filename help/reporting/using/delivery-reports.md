@@ -5,9 +5,9 @@ description: Rapports sur les diffusions
 feature: Reporting
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 source-git-commit: 64d97c7879320296a5f8efc5bb5bc2bea8663c08
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1636'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Ce rapport regroupe les indicateurs clés qui permettent de suivre le comporteme
 >
 >Les pourcentages associés sont calculés par rapport au nombre de messages transmis avec succès.
 
-* **[!UICONTROL Ouvertures distinctes sur la population atteinte]** : Estimation du nombre de destinataires ciblés ayant ouvert au moins une fois un même message. Les clics sur les URL trackées sont pris en compte car les emails doivent être ouverts pour un clic sur un lien.
+* **[!UICONTROL Ouvertures distinctes pour la population atteinte]** : estimation du nombre de destinataires ciblés ayant ouvert un message au moins une fois. Les clics sur les URL trackées sont pris en compte, car il faut ouvrir les e-mails pour cliquer sur un lien.
 * **[!UICONTROL Somme des ouvertures sur la population atteinte]** : Estimation du nombre total d&#39;ouvertures effectuées par des destinataires ciblés.
 * **[!UICONTROL Clics sur le lien de désinscription]** : Nombre de clics effectués sur le lien de désinscription.
 * **[!UICONTROL Clics sur le lien de la page miroir]** : Nombre de clics effectués sur le lien de la page miroir. Pour être comptabilisé, le lien doit être défini comme tel dans l&#39;assistant de diffusion (URL trackées). Reportez-vous à cette [page](../../delivery/using/about-delivery-monitoring.md).
