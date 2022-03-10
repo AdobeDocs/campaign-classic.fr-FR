@@ -5,7 +5,7 @@ description: En savoir plus sur l’activité de workflow de mise à jour des do
 feature: Workflows, Targeting Activity, Data Management
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '946'
 ht-degree: 100%
 
