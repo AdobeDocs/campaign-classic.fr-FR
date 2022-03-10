@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Utilisation d’un modèle de contenu
-description: Utilisation d’un modèle de contenu
+title: Utiliser un modèle de contenu
+description: Utiliser un modèle de contenu
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
 ht-degree: 100%
 
 ---
 
-# Utilisation d’un modèle de contenu{#using-a-content-template}
+# Utiliser un modèle de contenu{#using-a-content-template}
 
 ![](../../assets/common.svg)
 
