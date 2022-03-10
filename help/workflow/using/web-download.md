@@ -5,7 +5,7 @@ description: En savoir plus sur l'activité de workflow de téléchargement Web
 feature: Workflows
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
 ht-degree: 100%
 
