@@ -5,7 +5,7 @@ description: Rapports sur les diffusions
 feature: Reporting
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
 ht-degree: 100%
 
