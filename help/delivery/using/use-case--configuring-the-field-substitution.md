@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: '"Cas pratique : configuration de la substitution des champs"'
-description: '"Cas pratique : configuration de la substitution des champs"'
+title: '« Cas d’utilisation : configurer la substitution des champs »'
+description: '« Cas d’utilisation : configurer la substitution des champs »'
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
 ht-degree: 100%
 
