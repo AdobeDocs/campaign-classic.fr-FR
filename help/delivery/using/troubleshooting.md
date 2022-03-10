@@ -5,7 +5,7 @@ description: Résolution des problèmes liés aux notifications push
 feature: Push
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '99'
 ht-degree: 100%
 
