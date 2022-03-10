@@ -5,7 +5,7 @@ description: Agir sur les rapports
 feature: Reporting
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
 ht-degree: 100%
 
