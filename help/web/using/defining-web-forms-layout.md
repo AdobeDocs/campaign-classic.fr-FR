@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Définition de la disposition des formulaires web
-description: Définition de la disposition des formulaires web
+title: Définir la disposition des formulaires web
+description: Définir la disposition des formulaires web
 feature: Web Forms
 exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
 ht-degree: 100%
 
 ---
 
-# Définition de la disposition des formulaires web{#defining-web-forms-layout}
+# Définir la disposition des formulaires web{#defining-web-forms-layout}
 
 ![](../../assets/common.svg)
 
