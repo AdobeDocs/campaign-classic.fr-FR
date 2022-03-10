@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Modification du contenu
-description: Modification du contenu
+title: Modifier le contenu
+description: Modifier le contenu
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1239'
 ht-degree: 100%
 
 ---
 
-# Modification du contenu{#editing-content}
+# Modifier le contenu{#editing-content}
 
 ![](../../assets/common.svg)
 
