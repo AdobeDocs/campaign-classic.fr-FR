@@ -5,7 +5,7 @@ description: Création d’indicateurs
 feature: Reporting
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
 ht-degree: 100%
 
