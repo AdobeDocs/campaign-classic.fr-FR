@@ -5,7 +5,7 @@ description: Découvrez comment envoyer un rapport à une liste à l’aide d’
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
 ht-degree: 100%
 
