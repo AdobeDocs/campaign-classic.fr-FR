@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: S avec le MTA amélioré dans Adobe Campaign Classic
+title: Envoyer des e-mails avec le MTA amélioré dans Adobe Campaign Classic
 description: Découvrez la portée et les spécificités de lʼenvoi dʼe-mails avec le MTA amélioré dʼAdobe Campaign
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2016'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
