@@ -5,7 +5,7 @@ description: Rendez-vous
 feature: Workflows
 exl-id: 8b6d5c03-e104-4cf0-82ab-a08467e3e478
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
 ht-degree: 100%
 
