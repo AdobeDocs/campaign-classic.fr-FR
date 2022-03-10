@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Traduction d’une application web
-description: Traduction d’une application web
+title: Traduire une application web
+description: Traduire une application web
 feature: Web Apps
 exl-id: 82c5c610-8161-4686-aa79-1b690e763765
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
 ht-degree: 100%
 
 ---
 
-# Traduction d’une application web{#translating-a-web-application}
+# Traduire une application web{#translating-a-web-application}
 
 ![](../../assets/common.svg)
 
