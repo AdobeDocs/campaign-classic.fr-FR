@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Gestion des fuseaux horaires
-description: Gestion des fuseaux horaires
+title: Gérer les fuseaux horaires
+description: Gérer les fuseaux horaires
 feature: Workflows
 exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
 ht-degree: 100%
 
 ---
 
-# Gestion des fuseaux horaires{#managing-time-zones}
+# Gérer les fuseaux horaires{#managing-time-zones}
 
 ![](../../assets/common.svg)
 
