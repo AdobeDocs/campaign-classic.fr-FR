@@ -5,7 +5,7 @@ description: Utilisation des cubes pour explorer les données
 feature: Reporting
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '991'
 ht-degree: 100%
 
