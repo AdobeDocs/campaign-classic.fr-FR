@@ -5,7 +5,7 @@ description: Calcul des indicateurs
 feature: Reporting
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3021'
 ht-degree: 100%
 
