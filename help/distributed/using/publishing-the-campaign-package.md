@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Publication du kit d’opération
-description: Publication du kit d’opération
+title: Publier le pack de campagnes
+description: Publier le pack de campagnes
 feature: Distributed Marketing
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
 ht-degree: 100%
 
 ---
 
-# Publication du kit d’opération{#publishing-the-campaign-package}
+# Publier le pack de campagnes{#publishing-the-campaign-package}
 
 ![](../../assets/v7-only.svg)
 
