@@ -5,7 +5,7 @@ description: Découvrez comment configurer le canal SMS dans Campaign
 feature: SMS
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1800'
 ht-degree: 100%
 
