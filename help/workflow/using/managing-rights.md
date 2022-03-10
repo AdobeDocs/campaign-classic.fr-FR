@@ -5,7 +5,7 @@ description: Découvrez comment gérer les autorisations relatives aux workflows
 feature: Workflows
 exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
 ht-degree: 100%
 
