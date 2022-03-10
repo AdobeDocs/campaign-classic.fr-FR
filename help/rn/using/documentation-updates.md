@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 9126e2cc088ef0e5761cc20bd19980d323f3a3ea
+source-git-commit: deb658fee9a668fd98aebfd1852252114ffb6edc
 workflow-type: tm+mt
-source-wordcount: '4907'
+source-wordcount: '4923'
 ht-degree: 99%
 
 ---
@@ -32,6 +32,8 @@ La section Quarantaine et liste bloquée a été clarifiée. [En savoir plus](..
 Les sections sur l’envoi d&#39;une adresse en quarantaine et sur la suppression des adresses de la liste de quarantaine ont été mises à jour. [En savoir plus](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
 Ajout d’une bonne pratique de workflow pour recommander de ne pas exécuter plusieurs requêtes d’arrêt sur le même workflow. [En savoir plus](../../workflow/using/workflow-best-practices.md)
+
+Ajout d’informations sur la manière d’empêcher l’exécution d’une diffusion récurrente au sein d’une campagne - [En savoir plus](../../workflow/using/recurring-delivery.md)
 
 ### Janvier 2022 {#january-2022}
 

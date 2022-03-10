@@ -4,10 +4,10 @@ title: Diffusion récurrente
 description: En savoir plus sur l’activité de workflow de diffusion récurrente
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 6f0479cfe6c6801eb44fcc7a35bdac1241ec3be6
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 100%
+source-wordcount: '280'
+ht-degree: 82%
 
 ---
 
@@ -39,9 +39,12 @@ Une **diffusion récurrente** crée une nouvelle instance de diffusion chaque fo
 
 ![Diffusion récurrente](assets/delivery_recurring.jpg)
 
+Si vous souhaitez empêcher l&#39;exécution d&#39;une diffusion récurrente, vous devez complètement annuler la campagne ou arrêter l&#39;exécution du workflow. L&#39;arrêt de la diffusion depuis le tableau de bord de Campaign n&#39;arrête que l&#39;occurrence de la diffusion : les instances suivantes de la diffusion récurrente continueront à être créées à chaque exécution du workflow.
+
 >[!NOTE]
 >
->Il n&#39;est pas possible d&#39;envoyer un bon à tirer à partir d&#39;une activité de type **[!UICONTROL Diffusion récurrente]**.\
+>Il n&#39;est pas possible d&#39;envoyer un bon à tirer à partir d&#39;une activité de type **[!UICONTROL Diffusion récurrente]**.
+> 
 >Pour directement créer une diffusion via un workflow de campagne, utilisez les activités de diffusion spécifiques à un canal, qui sont pré-paramétrées (ex : **[!UICONTROL Diffusion e-mail]**).
 
 ## Tutoriel vidéo (#recurring-delivery-video)
