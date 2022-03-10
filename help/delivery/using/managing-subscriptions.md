@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Gestion des abonnements
-description: Gestion des abonnements
+title: Gérer les abonnements
+description: Gérer les abonnements
 feature: Subscriptions
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
 ht-degree: 100%
 
