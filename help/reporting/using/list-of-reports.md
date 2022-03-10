@@ -5,7 +5,7 @@ description: Liste des rapports
 feature: Reporting
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1007'
 ht-degree: 100%
 
