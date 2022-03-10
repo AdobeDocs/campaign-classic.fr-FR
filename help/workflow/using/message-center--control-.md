@@ -4,7 +4,7 @@ title: Message Center (Pilotage)
 description: Message Center (Pilotage)
 feature: Workflows
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
 ht-degree: 100%
 
