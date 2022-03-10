@@ -5,7 +5,7 @@ description: Utilisation dʼun rapport dʼanalyse
 feature: Reporting
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '876'
 ht-degree: 100%
 
