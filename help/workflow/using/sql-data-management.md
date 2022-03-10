@@ -5,7 +5,7 @@ description: En savoir plus sur l’activité de workflow de gestion des donnée
 feature: Workflows
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
 ht-degree: 100%
 
