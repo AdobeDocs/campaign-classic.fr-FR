@@ -5,7 +5,7 @@ description: Dans ce cas pratique, une requête incrémentielle est utilisée po
 feature: Workflows
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
 ht-degree: 100%
 
