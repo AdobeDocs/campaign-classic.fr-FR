@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Publication d’un formulaire web
-description: Publication d’un formulaire web
+title: Publier un formulaire web
+description: Publier un formulaire web
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1024'
 ht-degree: 100%
 
 ---
 
-# Publication d’un formulaire web{#publishing-a-web-form}
+# Publier un formulaire web{#publishing-a-web-form}
 
 ![](../../assets/common.svg)
 
