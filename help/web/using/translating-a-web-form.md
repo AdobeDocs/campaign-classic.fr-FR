@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Traduction d’un formulaire web
-description: Traduction d’un formulaire web
+title: Traduire un formulaire web
+description: Traduire un formulaire web
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
 ht-degree: 100%
 
 ---
 
-# Traduction d’un formulaire web{#translating-a-web-form}
+# Traduire un formulaire web{#translating-a-web-form}
 
 ![](../../assets/common.svg)
 
