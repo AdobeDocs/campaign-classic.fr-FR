@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Contrôle de la délivrabilité dans Adobe Campaign Classic
-description: Découvrez les outils et les directives concernant la supervision de la délivrabilité dans Adobe Campaign Classic.
+title: Surveiller la délivrabilité dans Adobe Campaign Classic
+description: Découvrez les outils et les directives concernant la surveillance de la délivrabilité dans Adobe Campaign Classic.
 feature: Deliverability
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
