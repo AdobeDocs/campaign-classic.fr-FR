@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: c228f827e91f25ee3a837f7fe6549ae4e5714ba3
+source-git-commit: 0cebe1ed2cd045559393c1914258593d608e50a0
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '725'
 ht-degree: 99%
 
 ---
@@ -79,7 +79,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>Microsoft IIS </td>
 <td>
-<p>10.0 sur Windows Server 2016</p>
+<p>10.0 sur Windows Server 2016 et 2019</p>
 <p>8.5 sur Windows Server 2012 R2</p>
 <p>8.0 sur Windows Server 2012 - Windows 8</p>
 </td>
@@ -332,6 +332,7 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
+<p>2019 (à compter de la version 7.2.1)</p>
 <p>2016</p>
 <p>2012</p>
 </td>
