@@ -6,23 +6,23 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 263e5ffe-9302-4823-a814-fdc955e3f90a
-source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 100%
+source-wordcount: '116'
+ht-degree: 21%
 
 ---
 
-# Prise en main des réseaux sociaux{#overview}
+# Prise en main de Twitter{#overview}
 
 ![](../../assets/v7-only.svg)
 
-Social Marketing permet d&#39;envoyer des diffusions, non pas à des profils de destinataires, mais sur vos différentes pages Facebook et comptes Twitter. Sur Facebook, le contenu de ces diffusions s&#39;affichera sous la forme de publications, sur les murs des pages et apparaîtra également dans le fil d&#39;actualité de tous les fans de ces pages. Sur Twitter, le contenu s&#39;affichera sous la forme de tweets, sur les comptes et apparaîtra également dans le fil de tous les abonnés de ces comptes. Vous pourrez également envoyer des messages directs aux abonnés des comptes récupérés.
+Social Marketing vous permet d’envoyer des diffusions vers vos différents comptes Twitter plutôt que vers des profils de destinataires. Sur Twitter, le contenu de la diffusion s’affiche sous forme de tweets et s’affiche sur la page d’accueil des abonnés au compte. Vous pouvez également envoyer des messages directs aux abonnés du compte que vous collectez.
 
 >[!CAUTION]
 >
->Adobe Campaign vous invite à être attentif au respect des conditions d&#39;utilisation de Facebook et de Twitter en ce qui concerne l&#39;envoi de messages.
+>Adobe Campaign vous invite à respecter les conditions d&#39;utilisation de Twitter concernant la diffusion des messages.
 >
 >Avant d’envoyer des publications, vous devez respecter les étapes de configuration décrites dans [cette section](../../social/using/starting-workflows.md).
 
-Cette section présente en détail les éléments spécifiques à une diffusion sur Facebook et Twitter. Tous les éléments communs aux diffusions e-mail sont présentés dans [cette section](../../delivery/using/about-email-channel.md).
+Cette section présente les éléments spécifiques à une diffusion Twitter. Tous les éléments communs avec les diffusions email sont présentés dans la section [cette section](../../delivery/using/about-email-channel.md).

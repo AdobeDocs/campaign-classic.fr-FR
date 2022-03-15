@@ -6,9 +6,9 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 5c11bd0f-2df7-4c7f-b682-955fedf8e664
-source-git-commit: b5334de18eca8fc1147ae0c42fe23a6932bf71d2
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '994'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Grâce aux applications web, le module dédié au marketing sur les réseaux soc
 
 Les étapes de configuration sont les suivantes :
 
-1. Créez une ou plusieurs applications Facebook. [En savoir plus](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application)
+1. Créez une ou plusieurs applications Facebook.
 1. Renseignez les liens **[!UICONTROL Conditions d’utilisation]** et **[!UICONTROL Politique de confidentialité]** qui apparaîtront sur l’écran de demande d’autorisation Facebook. [En savoir plus](#entering-the-terms-of-service-and-privacy-policy-links)
 1. Pour chaque application Facebook, vous devez créer un compte externe de type **[!UICONTROL Facebook Connect]**. [En savoir plus](#configuring-external-accounts)
 1. Pour chaque application Facebook, créez une application web de type Facebook dans Adobe Campaign. [En savoir plus](#creating-a-facebook-type-web-application)

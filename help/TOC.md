@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: ht
-source-wordcount: '2555'
-ht-degree: 100%
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
+workflow-type: tm+mt
+source-wordcount: '2548'
+ht-degree: 99%
 
 ---
 
@@ -585,14 +585,12 @@ ht-degree: 100%
    + [À propos du marketing sur les réseaux sociaux](social/using/about-social-marketing.md)
    + Configuration {#configuration}
       + [Démarrage des workflows](social/using/starting-workflows.md)
-      + [Publication sur les murs Facebook](social/using/publishing-on-facebook-walls.md)
       + [Créez une application Facebook](social/using/creating-a-facebook-application.md)
       + [Configuration de la publication sur Twitter](social/using/configuring-publishing-on-twitter.md)
-   + Publication sur les médias sociaux {#publishing-on-facebook-twitter}
-      + [Prise en main des réseaux sociaux](social/using/overview.md)
-      + [Publication sur Facebook](social/using/publishing-on-facebook.md)
+   + Publication sur Twitter {#publishing-on-facebook-twitter}
+      + [Prise en main de Twitter](social/using/overview.md)
       + [Publication sur Twitter](social/using/publishing-on-twitter.md)
-   + Annexes {#annexes}
+   + Acquisition des contacts Facebook {#annexes}
       + [Exemples d&#39;apps Facebook](social/using/examples-of-facebook-apps.md)
       + [Tracking](social/using/tracking.md)
 + Guide d’installation et de configuration {#installing-campaign-classic}
