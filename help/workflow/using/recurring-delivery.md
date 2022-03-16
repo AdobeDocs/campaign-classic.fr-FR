@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow de diffusion récurren
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 source-git-commit: 6f0479cfe6c6801eb44fcc7a35bdac1241ec3be6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Une **diffusion récurrente** crée une nouvelle instance de diffusion chaque fo
 
 ![Diffusion récurrente](assets/delivery_recurring.jpg)
 
-Si vous souhaitez empêcher l&#39;exécution d&#39;une diffusion récurrente, vous devez complètement annuler la campagne ou arrêter l&#39;exécution du workflow. L&#39;arrêt de la diffusion depuis le tableau de bord de Campaign n&#39;arrête que l&#39;occurrence de la diffusion : les instances suivantes de la diffusion récurrente continueront à être créées à chaque exécution du workflow.
+Si vous souhaitez arrêter lʼexécution dʼune diffusion récurrente, vous devez annuler complètement la campagne ou arrêter le workflow qui lʼexécute. Lʼarrêt de la diffusion à partir du tableau de bord de la campagne ne met fin quʼà lʼoccurrence de la diffusion : les instances suivantes de la diffusion récurrente continueront dʼêtre créées à chaque exécution du workflow.
 
 >[!NOTE]
 >
