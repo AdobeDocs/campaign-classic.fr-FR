@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 9d8eae6b9c31d98d5e7e14b61f3abcf46311304d
-workflow-type: ht
-source-wordcount: '917'
-ht-degree: 100%
+source-git-commit: 329cf80ff021322e57a63cf86f4b4e206f6385d1
+workflow-type: tm+mt
+source-wordcount: '924'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ En tant qu’utilisateur hébergé, vous bénéficiez automatiquement de la mise
 
 Pour garantir une configuration stable, nous vous recommandons d’installer **le même build** sur tous les serveurs qui s’exécutent sur la même configuration client.
 
-En outre, la console cliente doit présenter la même build que l’instance de serveur.
+En outre, sauf mention contraire dans les notes de mise à jour, la console cliente doit être activée. **même version** comme instance de serveur.
 
 Pour garder votre implémentation à jour, veillez à lire les pages [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md) et [Matrice de compatibilité](../../rn/using/compatibility-matrix.md) avec chaque nouvelle version.
 
