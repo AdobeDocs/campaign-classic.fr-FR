@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Configurer l'intégration avec Adobe Target
-description: Configurer l'intégration avec Adobe Target
+title: Configuration de l’intégration à Adobe Target
+description: Découvrez comment configurer l’intégration avec Adobe Target
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
-source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
+source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '211'
+ht-degree: 95%
 
 ---
 

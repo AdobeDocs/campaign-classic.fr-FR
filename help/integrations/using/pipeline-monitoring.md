@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Configuration de l'intégration
-description: Configuration de l'intégration
+title: Surveillance du pipeline
+description: Surveillance du pipeline
 audience: integrations
 content-type: reference
 exl-id: 84399496-33fd-4936-85e7-32de8503740f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '433'
 ht-degree: 100%
 
 ---
