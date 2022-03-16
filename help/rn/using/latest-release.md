@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: e4cd327d1495987e7d32bd1b903c8fe5de2813f2
+source-git-commit: e3ff5bb55e108c163dcf395da84076201f09e61c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1283'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,10 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 ## ![](assets/do-not-localize/green_2.png) Version 7.2.2 - Build 9349 {#release-7-2-2}
 
 _1er mars 2022_
+
+>[!NOTE]
+>
+> Ce build est compatible avec la console cliente v7.2.1.
 
 **Correctifs**
 
@@ -37,6 +41,7 @@ _1er mars 2022_
 * Correction d’un problème lors de l’actualisation du workflow de délivrabilité qui entraînait une erreur lorsque plus de 1 000 broadlogs étaient présents en même temps. (NEO-40276)
 * Correction d’un problème qui empêchait la mise à jour automatique des indicateurs de diffusion Taux d’ouverture et Taux de clics. (NEO-43253)
 
+
 ## ![](assets/do-not-localize/limited_2.png) Version 7.2.1 - Build 9346 {#release-7-2-1}
 
 _10 janvier 2022_
@@ -51,7 +56,7 @@ Plusieurs améliorations de sécurité ont été apportées aux comptes FDA :
 
 **Mises à jour de compatibilité**
 
-Adobe Campaign est désormais compatible avec Windows Server 2019. Reportez-vous à la section [Matrice de compatibilité Campaign](../../rn/using/compatibility-matrix.md#OperatingSystems).
+Adobe Campaign est désormais compatible avec Windows Server 2019. Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compatibility-matrix.md#OperatingSystems).
 
 **Améliorations**
 
