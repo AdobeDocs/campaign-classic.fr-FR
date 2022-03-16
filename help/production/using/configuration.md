@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: 'Configuration '
+title: Configuration supplémentaire
 description: 'Configuration '
-audience: production
-content-type: reference
-topic-tags: production-procedures
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '168'
+ht-degree: 98%
 
 ---
 

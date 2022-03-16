@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Éléments et attributs de schéma
+title: Éléments et attributs de schéma - élément d’énumération
 description: élément enumeration
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
-source-wordcount: '196'
-ht-degree: 100%
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 96%
 
 ---
 
