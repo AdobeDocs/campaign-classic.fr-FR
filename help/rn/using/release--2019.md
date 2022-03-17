@@ -4,7 +4,7 @@ title: Versions de Campaign Classic 2019
 description: En savoir plus sur les versions de Campaign Classic 2019
 exl-id: 8a36a542-e095-4208-b624-e59845592863
 source-git-commit: 0f31ee570ba6e763f48902e91c5d823ac297fc24
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4854'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ### ![](assets/do-not-localize/limited_2.png) Version 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
 
-__
+_15 avril 2021_
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
@@ -200,7 +200,7 @@ Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, no
 
 ### ![](assets/do-not-localize/limited_2.png) Version 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
 
-__
+_15 avril 2021_
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 * Correction d&#39;une régression qui pouvait bloquer l&#39;export des données du workflow vers une base FDA (Teradata, Snowflake).
@@ -226,7 +226,7 @@ _16 décembre 2020_
 >[!CAUTION]
 >
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/using/ims-updates.md)
-> * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+> * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 > * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’en février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
 
 
@@ -371,7 +371,7 @@ _30 mai 2019_
   </tr> 
   <tr> 
    <td> Mise à jour de la matrice de compatibilité<br /> </td> 
-   <td> Avec cette nouvelle version, Adobe Campaign prend maintenant en charge les systèmes de bases de données suivants. Consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html">Matrice de compatibilité</a>.<br /> 
+   <td> Avec cette nouvelle version, Adobe Campaign prend maintenant en charge les systèmes de bases de données suivants. Consultez la <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Matrice de compatibilité</a>.<br /> 
     <ul> 
      <li> <p>Oracle 18c</p> </li> 
      <li> <p>MySQL 5.7 (FDA)</p> </li> 
@@ -401,7 +401,7 @@ _30 mai 2019_
 
 **Améliorations de la sécurité, de la robustesse et de l&#39;évolutivité**
 
-* Optimisation de l&#39;utilisation de la séquence XtkNewId et de sa durée de vie : les tables les plus gourmandes ont été déplacées de la séquence xtkNewId vers les séquences dédiées. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* Optimisation de l&#39;utilisation de la séquence XtkNewId et de sa durée de vie : les tables les plus gourmandes ont été déplacées de la séquence xtkNewId vers les séquences dédiées. [En savoir plus](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA via HTTP v2 : le protocole FDA via HTTP est largement utilisé sur les déploiements hybrides, en particulier pour la préparation des diffusions et la récupération des broadLogs. Sa robustesse a été renforcée de façon à éviter les problèmes réseau et les erreurs possibles lors de la récupération ou de l&#39;envoi de données. Pour cela, les builds aux deux extrémités de la connexion doivent être à jour, sans quoi le protocole antérieur sera encore utilisé.
 * Workflow de tracking : la robustesse du workflow de tracking a été améliorée. Plusieurs problèmes liés aux mises à jour/insertions au niveau des logs de tracking et à la personnalisation du tracking d&#39;URL ont été résolus. En outre, le workflow de tracking détecte désormais les problèmes du log de tracking qui peuvent entraîner des erreurs et arrêter le workflow. Ces problèmes sont maintenant écartés et ne sont pas traités.
 * Workflow de nettoyage : le workflow de nettoyage a été amélioré de manière à éviter les erreurs et arrêts potentiels. Cela optimise la taille et la performance des bases de données.

@@ -63,7 +63,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>Windows Server </td>
 <td>
-<p>2019 (à compter de la version 7.2.1)</p>
+<p>2019 (à partir de la version 7.2.1)</p>
 <p>2016</p>
 <p>2012 R2</p>
 <p>2012</p>
@@ -332,7 +332,7 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2019 (à compter de la version 7.2.1)</p>
+<p>2019 (à partir de la version 7.2.1)</p>
 <p>2016</p>
 <p>2012</p>
 </td>
