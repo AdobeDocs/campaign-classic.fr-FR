@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
+source-git-commit: 4fe661cf6a0fef8126fd24a68b1021760a5d0bfd
 workflow-type: tm+mt
-source-wordcount: '4961'
-ht-degree: 99%
+source-wordcount: '4955'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 
 Ajout d’une description détaillée de la fonction **[!UICONTROL Tester la diffusion SMTP]** . [En savoir plus](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
 
-Mise à jour de la section de présentation des notes de mise à jour pour clarifier les directives de mise à niveau de la console Campaign - [En savoir plus](../../rn/using/rn-overview.md)
+La page Prise en main des mises à niveau a été mise à jour afin de clarifier les directives de mise à niveau de la console Campaign. [En savoir plus](../../rn/using/rn-overview.md)
 
 Le nouveau build de Campaign v7.2.2 est désormais disponible. [En savoir plus](../../rn/using/latest-release.md)
 
@@ -69,7 +69,7 @@ Ajout de l’option de mise à jour par lots dans l’activité Connecteur CRM.
 
 ### Décembre 2021{#dec-2021}
 
-Les notes de mise à jour de Campaign Classic v7 ont été réorganisées afin de simplifier la navigation. [En savoir plus](rn-overview.md)
+Les notes de mise à jour de Campaign Classic v7 ont été réorganisées afin de simplifier la navigation. [En savoir plus](rn-overview.md)
 
 Mise à jour et amélioration de la documentation sur l’édition de formulaires dans Campaign. [En savoir plus](../../configuration/using/editing-forms.md)
 
@@ -124,7 +124,7 @@ Ajout d’une note sur l’intégration entre Campaign et AEM Assets qui a été
 
 ### Juin 2021 {#june-2021}
 
-La section **Messagerie transactionnelle** a été réorganisée et clarifiée avec une nouvelle section Prise en main, comprenant un [schéma amélioré](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) pour une meilleure compréhension du processus. [En savoir plus](../../message-center/using/about-transactional-messaging.md)
+Le **Messages transactionnels** Réorganisation et clarification de la section avec une nouvelle section Prise en main , comprenant une [schéma amélioré](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) pour une meilleure compréhension du processus. [En savoir plus](../../message-center/using/about-transactional-messaging.md)
 
 **Mises à jour de la documentation accompagnant la version 21.1.3**
 
@@ -156,7 +156,7 @@ Une nouvelle note technique a été créée pour apprendre à mettre à jour la 
 
 ### Mars 2021 {#march-2021}
 
-La section [Prise en main des SMS](../../delivery/using/sms-channel.md) a été réorganisée et améliorée. Vous pouvez maintenant découvrir comment [configurer le canal SMS](../../delivery/using/sms-set-up.md), [créer un SMS](../../delivery/using/sms-create.md), [envoyer et tracker les SMS](../../delivery/using/sms-send.md) dans les sections dédiées.
+La section [Prise en main des SMS](../../delivery/using/sms-channel.md) a été réorganisée et améliorée. Vous pouvez maintenant apprendre à [configuration du canal SMS](../../delivery/using/sms-set-up.md), [créer un SMS ;](../../delivery/using/sms-create.md), [envoyer et suivre des SMS ;](../../delivery/using/sms-send.md) dans des sections dédiées.
 
 La page Options d’aide et d’assistance pour Campaign Classic a été intégrée dans la documentation de base. [En savoir plus](../../support.md)
 
@@ -287,7 +287,7 @@ Les pages de la documentation ont été mises à jour pour prendre en compte la 
 
 Des détails ont été ajoutés à la description de la zone « À propos » dans la section « Obtention de votre version Adobe Campaign ». [En savoir plus](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 
-Des instructions pour réaliser un upgrade de build ont été ajoutées à la section « Mise à jour d’Adobe Campaign Classic ». En savoir plus[ En savoir plus](../../production/using/build-upgrade.md)
+Des instructions pour réaliser un upgrade de build ont été ajoutées à la section « Mise à jour d’Adobe Campaign Classic ». [En savoir plus](../../production/using/build-upgrade.md)
 
 Des questions fréquentes sur l’upgrade de build de Campaign ont été ajoutées aux questions courantes de Campaign. En savoir plus[ En savoir plus](../../platform/using/faq-build-upgrade.md)
 
@@ -346,7 +346,7 @@ De nouveaux cas pratiques ont été référencés dans la liste des [cas pratiqu
 * Appeler une variable d&#39;instance dans une requête
 * Application d’un pourcentage fractionné à une population
 
-La section **[!UICONTROL Rendez-vous]** a été enrichie d’informations supplémentaires sur son utilisation, ainsi que d’une note concernant l’utilisation des variables. [En savoir plus](../../workflow/using/and-join.md)
+Le **[!UICONTROL AND-join]** La section activité a été enrichie d’informations supplémentaires sur son utilisation et d’une note sur l’utilisation des variables. [En savoir plus](../../workflow/using/and-join.md)
 
 ### Juillet 2020 {#july-2020}
 
@@ -614,7 +614,7 @@ Suivi - [En savoir plus](../../production/using/audit-trail.md)
 
 Un nouveau FAQ relatif à l&#39;upgrade de build a été créé. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/build-upgrade-faq.html)
 
-Mise à jour de la [matrice de compatibilité](compatibility-matrix.md). La liste des systèmes de base de données pris en charge a été mise à jour, ainsi que les versions Android/iOS et les SDK associés. La matrice de compatibilité 19.0 a été archivée.
+Mise à jour de la [matrice de compatibilité](compatibility-matrix.md). La liste des systèmes de base de données pris en charge a été mise à jour, les versions Android/iOS et les SDK associés. La matrice de compatibilité 19.0 a été archivée.
 
 La page « Fonctionnalités obsolètes et supprimées de Campaign Classic » a été mise à jour. [En savoir plus](deprecated-features.md)
 
@@ -628,7 +628,7 @@ Les guides de prise en main concernant la [sécurité](https://helpx.adobe.com/f
 
 La description de l&#39;option de workflow de pré-processus a été mise à jour pour refléter les modifications de produit. [En savoir plus](../../workflow/using/data-loading--file-.md)
 
-La note technique Marketing Cloud Triggers a été mise à jour. [En savoir plus](../../integrations/using/about-triggers.md)
+Mise à jour de la note technique sur les déclencheurs Experience Cloud - [En savoir plus](../../integrations/using/about-triggers.md)
 
 La liste des messages d&#39;erreur a été mise à jour. [En savoir plus](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
@@ -683,7 +683,7 @@ Des informations ont été ajoutées concernant le Query banding pour le compte
 
 ### Janvier 2019{#release-doc-16-01-2019}
 
-La note technique Marketing Cloud Triggers a été mise à jour. [En savoir plus](../../integrations/using/about-triggers.md)
+Mise à jour de la note technique sur les déclencheurs Experience Cloud - [En savoir plus](../../integrations/using/about-triggers.md)
 
 Une note a été ajoutée dans la section d&#39;approbation des offres pour indiquer que la mention « Contenu validé » signifie que le processus de validation du contenu a été effectué, et ce, que toutes les offres aient été activées/validées ou non. [En savoir plus](../../interaction/using/offer-catalog-overview.md)
 
