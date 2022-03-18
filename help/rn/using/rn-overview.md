@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
+source-git-commit: 29e56d6bf2817eeb863cbe33f99233a8241f2bf5
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 97%
+source-wordcount: '881'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 Chaque nouvelle build est fournie avec un statut matérialisé par une couleur.
 
-![](assets/do-not-localize/green3.png) **Disponibilité générale** (GA) : dernier build stable, validé en production et recommandé par Adobe.
+![](assets/do-not-localize/green3.png) **Disponibilité générale** (GA) : dernier build stable, validé en production et recommandé par Adobe.
 
 ![](assets/do-not-localize/limited3.png) **Disponibilité limitée** (LA) - Déploiement à la demande uniquement.
 
@@ -35,13 +35,13 @@ Chaque nouvelle build est fournie avec un statut matérialisé par une couleur.
 
 Adobe Campaign fait l’objet de mises à jour régulières. Cette fréquence régulière de mises à jour a pour but de vous fournir les dernières fonctionnalités et améliorations. Vous bénéficiez ainsi d’un environnement sécurisé et d’une expérience optimale avec notre produit.
 
-C’est la raison pour laquelle nous pensons qu’il est important que vous **exécutiez la version la plus récente** d’Adobe Campaign. Vous obtiendrez également un meilleur support, car l’identification, la reproduction et la résolution d’un problème sur un build récent sont généralement beaucoup plus rapides. De plus, de nombreux problèmes que vous pouvez rencontrer ont déjà été corrigés dans les builds les plus récents.
+C’est pourquoi il est essentiel que vous **exécuter la version stable la plus récente** d’Adobe Campaign. Cela vous permet également d’obtenir une meilleure expérience de l’assistance, car l’identification, la reproduction et la résolution d’un problème sur un build récent sont généralement beaucoup plus rapides. De plus, de nombreux problèmes que vous pouvez rencontrer ont déjà été corrigés dans les builds les plus récents.
 
 En tant qu’utilisateur hébergé, vous bénéficiez automatiquement de la mise à niveau avec la dernière version stable sans que vous n’ayez aucune action à effectuer. En savoir plus dans la [section Mise à niveau annuelle](#yearly-upgrade). Si vous migrez depuis une ancienne build, Adobe vous recommande d’effectuer d’abord la mise à niveau vers cette version.
 
 ## Recommandations{#recommendations}
 
-Pour garantir une configuration stable, nous vous recommandons d’installer **le même build** sur tous les serveurs qui s’exécutent sur la même configuration client.
+Pour garantir une configuration stable, Adobe recommande d’installer **même version** sur tous les serveurs qui s’exécutent sur la même configuration client.
 
 En outre, sauf mention contraire dans les notes de mise à jour, la console cliente doit être activée. **même version** comme instance de serveur.
 
@@ -49,33 +49,31 @@ Pour garder votre implémentation à jour, veillez à lire les pages [Fonctionna
 
 ## Processus de mise à niveau{#process-upgrade}
 
-En tant que client hébergé (service géré ou hybride), vous devez contacter l’équipe d’Assistance clientèle pour que votre environnement soit mis à niveau.
+En tant que client hébergé (service géré ou hybride), contactez l’équipe d’assistance clientèle pour que votre environnement soit mis à niveau.
 
-En tant qu’utilisateur On-premise, vous pouvez effectuer la mise à niveau. Pour cela, vous devez [télécharger le dernier build stable (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) et mettre à niveau tous vos environnements. Pour en savoir plus sur le [processus de mise à niveau](../../production/using/build-upgrade.md), consultez la [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
+En tant qu’utilisateur On-premise, vous pouvez effectuer la mise à niveau. Pour ce faire, procédez comme suit : [télécharger le dernier build stable (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) et mettez à niveau tous vos environnements. Pour en savoir plus sur le [processus de mise à niveau](../../production/using/build-upgrade.md), consultez la [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
 
 ## Mise à niveau annuelle {#yearly-upgrade}
 
-Adobe et Adobe Campaign s’engagent à vous offrir une expérience optimale et de la valeur ajoutée grâce à leurs solutions logicielles. L’entreprise veille à ce que vous ayez accès aux toutes dernières versions des technologies connexes utilisées par nos solutions pour exécuter ses tâches.
+Adobe s’engage à vous offrir la meilleure expérience et la meilleure valeur possible grâce à ses solutions logicielles. L’organisation s’engage à vous assurer que vous avez accès aux versions les plus récentes des technologies associées que nos solutions utilisent pour exécuter ses tâches.
 
-Adobe Campaign Classic, en particulier, utilise toute une gamme de technologies pour offrir une valeur ajoutée. Cette combinaison de technologies nécessite de mettre régulièrement vos instances Campaign Classic à niveau afin de s’assurer que les versions les plus récentes sont utilisées pour offrir une sécurité, une stabilité et des performances supérieures.
+Adobe Campaign Classic, en particulier, utilise toute une gamme de technologies pour offrir une valeur ajoutée. Cette combinaison de technologies nécessite la mise à niveau régulière de votre ou vos instances de Campaign Classic afin de vous assurer que les versions les plus récentes sont utilisées pour offrir une sécurité, une stabilité et des performances supérieures.
 
-En tant qu’utilisateur hébergé, vous bénéficiez automatiquement de la mise à niveau avec le dernier build GA sans que vous n’ayez aucune action à effectuer. Pour en savoir plus, consultez les FAQ ci-dessous.
+En tant qu’utilisateur hébergé, vous bénéficiez automatiquement de l’upgrade avec le dernier build de GA sans aucune action. Pour en savoir plus, consultez les FAQ ci-dessous.
 
 ### Pourquoi mon entreprise a-t-elle besoin de cette mise à niveau ?
 
-En tant que client hébergé, si votre compte doit effectuer une mise à niveau d’une ou de plusieurs technologies liées à Campaign Classic, ainsi qu’une mise à jour du build et/ou de la version actuels, vous en serez directement informé par Adobe.
+En tant que client hébergé, si votre compte a été identifié comme devant mettre à niveau une ou plusieurs des technologies liées à Campaign Classic et mettre à jour le build et/ou la version actuels, Adobe vous en informe directement.
 
 En tant que client on-premise ou hybride utilisant une version plus ancienne, Adobe vous incite à passer au dernier build stable (GA).
 
-Votre compte sera ainsi protégé contre les vulnérabilités et pourra tirer parti des technologies de performances les plus récentes. Cette mise à niveau permettra aussi d’effectuer à l’avenir des mises à niveau plus simples et régulières de votre compte. Celles-ci nécessiteront en outre moins de tâches manuelles et d’intervention.
+Cela garantit que votre compte est protégé contre les vulnérabilités et utilise une technologie de performances mise à jour. Cette mise à niveau positionne également votre compte pour des mises à niveau plus simples et régulières, qui nécessitent moins de travail manuel et d’intervention.
 
 ### Quel est la procédure et le calendrier de cette mise à niveau ?
 
-L’équipe Adobe accompagnera votre entreprise tout au long de ce parcours.
+L’équipe Adobe est là pour diriger et guider votre organisation tout au long de ce parcours.
 
-Nous avons mis sur pied une équipe constituée de représentants de l’Assistance clientèle, de responsables produit, d’ingénieurs, de spécialistes des opérations techniques et de consultants produits pour vous accompagner et assurer le bon déroulement de la mise à niveau.
-
-Nous nous engageons à mettre à votre disposition des informations pertinentes concernant le projet et les coordonnées de contact.
+Une équipe de représentants de l’assistance clientèle, de responsables produit, d’ingénieurs et de spécialistes des opérations techniques, ainsi que de consultants produit est là pour vous aider et vous assurer que l’expérience est fluide.
 
 ### Avantages
 
@@ -101,7 +99,7 @@ Nous nous engageons à mettre à votre disposition des informations pertinentes 
     <ul>
     <li>De fait, la plupart des problèmes sont résolus grâce aux mises à niveau et peuvent être évités.</li>
     <li>Des mises à niveau régulières permettent de relever les défis auxquels les entreprises doivent faire face et augmentent ainsi leur efficacité.</li>
-    <li>Le volume des interventions de l’Assistance clientèle sera réduit, ce qui permettra des résolutions plus rapides. En outre, une attention plus grande pourra être accordée aux problèmes qui ne sont pas liés aux mises à niveau.</li>
+    <li>Le volume de l’assistance clientèle est réduit, ce qui permet des résolutions plus rapides et davantage d’attention à vos problèmes qui ne sont pas liés aux mises à niveau.</li>
     </ul>
   </td>
 </tr>
@@ -115,7 +113,7 @@ Nous nous engageons à mettre à votre disposition des informations pertinentes 
     <ul>
     <li>Au fil du temps, l’équipe Adobe Campaign identifie les moyens d’améliorer la stabilité et les performances du produit, ainsi que de résoudre les problèmes connus.</li>
     <li>La mise à niveau met votre instance à jour avec ces améliorations et élimine les défis courants auxquels sont confrontées les entreprises qui connaissent une croissance rapide et/ou des instances Campaign Classic de plus en plus complexes.</li>
-    <li>Les équipes marketing et informatiques de votre entreprise ressentiront les améliorations apportées à la pile technologique qui alimente Campaign Classic.</li>
+    <li>Les améliorations apportées à la pile de technologies optimisant Campaign Classic se font sentir au sein des équipes marketing et informatiques de votre entreprise.</li>
     </ul>
   </td>
 
@@ -126,9 +124,9 @@ Nous nous engageons à mettre à votre disposition des informations pertinentes 
     </a>
     </div>
     <ul>
-    <li>Les efforts demandés par une mise à niveau de votre instance Campaign Classic et la complexité de celle-ci augmentent avec l’écart entre 2 versions (v5 —&gt; v7).</li>
+    <li>L’effort et la complexité de la mise à niveau de votre instance de Campaign Classic augmentent avec la distance entre 2 versions (v5 —&gt; v7).</li>
     <li>Plus votre entreprise attend, plus la mise à niveau est complexe (et plus vous êtes exposé à des vulnérabilités).</li>
-    <li>Des mises à niveau régulières réduiront le temps d’arrêt nécessaire pour les effectuer et limiteront le risque de régression.</li>
+    <li>Les mises à jour régulières réduisent le temps d’arrêt de la mise à niveau et le risque de régression.</li>
     </ul>
   </td>
 </tr>
