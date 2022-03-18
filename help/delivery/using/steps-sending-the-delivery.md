@@ -4,10 +4,10 @@ title: Configuration et envoi de la diffusion
 description: Découvrez comment configurer et envoyer la diffusion
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
-source-wordcount: '1622'
-ht-degree: 100%
+source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
+workflow-type: tm+mt
+source-wordcount: '1652'
+ht-degree: 94%
 
 ---
 
@@ -33,13 +33,16 @@ Avant d&#39;envoyer la diffusion, vous pouvez définir les paramètres d&#39;env
    >
    >Lorsque la diffusion est dupliquée, le paramètre est remis à zéro.
 
-* **[!UICONTROL Envoi en plusieurs vagues]** : pour plus d’informations, consultez la section [Envoi en plusieurs vagues](#sending-using-multiple-waves).
+* **[!UICONTROL Envoyer en plusieurs vagues]**: Utilisez cette option pour envoyer vos messages par vagues, plutôt qu’à l’ensemble de votre audience. Configurez le nombre de lots et leur proportion. [En savoir plus](#sending-using-multiple-waves).
 
-* **[!UICONTROL Tester l’envoi par SMTP]** : cette option vous permet de tester l’envoi d’une diffusion via SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée.
+* **[!UICONTROL Tester la diffusion SMTP]**: Utilisez cette option pour tester l&#39;envoi par SMTP. La diffusion est traitée jusqu&#39;à la connexion au serveur SMTP mais n&#39;est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
    >[!NOTE]
    >
-   >L&#39;utilisation de cette option est déconseillée dans le cas d&#39;une installation en mid-sourcing afin de ne pas faire appel au MTA. Pour plus d&#39;informations sur la configuration d&#39;un serveur SMTP, voir [cette section](../../installation/using/configure-delivery-settings.md).
+   >* Cette option n&#39;est pas recommandée en mid-sourcing.
+   >
+   >* Pour en savoir plus sur la configuration du serveur SMTP, voir [cette section](../../installation/using/configure-delivery-settings.md).
+
 
 * **[!UICONTROL Email Cci]** : permet de stocker les emails sur un système externe à l&#39;aide de l&#39;option BCC en ajoutant une adresse email en &quot;copie cachée&quot; (Cci, ou Bcc en anglais) à la cible des messages. Pour plus d’informations, consultez [cette section](sending-messages.md#archiving-emails).
 
