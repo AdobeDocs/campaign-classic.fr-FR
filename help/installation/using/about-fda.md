@@ -1,11 +1,11 @@
 ---
 product: campaign
 title: Prise en main de Federated Data Access
-description: Découvrez comment accéder aux données et les traiter dans une base de données externe
+description: Découvrez comment accéder aux données et les traiter dans une base de données externe.
 feature: Federated Data Access
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
 ht-degree: 100%
 
