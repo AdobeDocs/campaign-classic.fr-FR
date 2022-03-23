@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Éléments et attributs - élément attribute
-description: Eléments et attributs
+description: Éléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1555'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
