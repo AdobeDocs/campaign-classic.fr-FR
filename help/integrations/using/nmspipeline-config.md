@@ -5,7 +5,7 @@ description: Option de pipeline NmsPipeline_Config
 audience: integrations
 content-type: reference
 source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
 ht-degree: 100%
 
