@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Approvisionnement du connecteur Adobe Analytics
-description: En savoir plus sur la configuration du connecteur Adobe Analytics
+title: Approvisionnement du connecteur Adobe Analytics
+description: En savoir plus sur l'approvisionnement du connecteur Adobe Analytics.
 feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '747'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
