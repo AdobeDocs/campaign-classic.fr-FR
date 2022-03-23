@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: FAQ sur la confidentialité et le consentement
-description: FAQ sur la confidentialité et le consentement
+title: Questions fréquentes sur la confidentialité et le consentement
+description: Questions fréquentes sur la confidentialité et le consentement
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
 source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '795'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
