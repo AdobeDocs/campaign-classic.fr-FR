@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Eléments et attributs de schéma - élément
+title: Eléments et attributs de schéma - élément element
 description: élément element
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2014'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
