@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: 'Éléments et attributs de schéma - élément d’aide '
+title: 'Éléments et attributs de schéma - élément help '
 description: élément help
 exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '49'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
