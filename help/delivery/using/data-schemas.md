@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Utilisation des schémas de données dans Campaign
-description: Découvrez comment utiliser les schémas de données dans Campaign
+title: Utiliser les schémas de données dans Campaign
+description: Découvrez comment utiliser les schémas de données dans Campaign.
 feature: Data Model
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Utilisation des schémas de données dans Campaign{#data-schemas}
+# Utiliser les schémas de données dans Campaign{#data-schemas}
 
 ![](../../assets/common.svg)
 
