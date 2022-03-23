@@ -5,9 +5,9 @@ description: Découvrez comment configurer et envoyer la diffusion
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1652'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,13 +33,13 @@ Avant d&#39;envoyer la diffusion, vous pouvez définir les paramètres d&#39;env
    >
    >Lorsque la diffusion est dupliquée, le paramètre est remis à zéro.
 
-* **[!UICONTROL Envoyer en plusieurs vagues]**: Utilisez cette option pour envoyer vos messages par vagues, plutôt qu’à l’ensemble de votre audience. Configurez le nombre de lots et leur proportion. [En savoir plus](#sending-using-multiple-waves).
+* **[!UICONTROL Envoyer en plusieurs vagues]** : utilisez cette option pour envoyer vos messages par vagues, plutôt qu’à l’ensemble de votre audience. Configurez le nombre de lots et leur proportion. [En savoir plus](#sending-using-multiple-waves).
 
-* **[!UICONTROL Tester la diffusion SMTP]**: Utilisez cette option pour tester l&#39;envoi par SMTP. La diffusion est traitée jusqu&#39;à la connexion au serveur SMTP mais n&#39;est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
+* **[!UICONTROL Tester la diffusion via SMTP]** : utilisez cette option pour Tester la diffusion via SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
    >[!NOTE]
    >
-   >* Cette option n&#39;est pas recommandée en mid-sourcing.
+   >* Cette option n’est pas recommandée en midsourcing.
    >
    >* Pour en savoir plus sur la configuration du serveur SMTP, voir [cette section](../../installation/using/configure-delivery-settings.md).
 
