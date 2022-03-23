@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Architecture générale du Campaign Classic
-description: Découvrez comment installer et configurer Campaign Classic
+title: Architecture générale de Campaign Classic
+description: Découvrez comment installer et configurer Campaign Classic.
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1342'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
