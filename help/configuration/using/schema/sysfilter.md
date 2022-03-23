@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Éléments et attributs - élément sysfilter
-description: Eléments et attributs
+title: Éléments et attributs - élément sysFilter
+description: Éléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: a0069688-fd05-42e9-91dd-adc10bea3461
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '45'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
