@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -110,13 +110,13 @@ aptitude install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
 
 Sous Red Hat, utilisez la commande suivante :
 
-* Pour CentOS/RHEL 7 :
+* Pour CentOS/RHEL 7 :
 
    ```
    yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
    ```
 
-* Pour RHEL8 :
+* Pour RHEL 8 :
 
    ```
    dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
@@ -134,13 +134,13 @@ aptitude install fonts-ipafont
 
 Sous Red Hat, utilisez la commande :
 
-* Pour RHEL7 :
+* Pour RHEL 7 :
 
    ```
    yum install ipa-gothic-fonts ipa-mincho-fonts
    ```
 
-* Pour RHEL8 :
+* Pour RHEL 8 :
 
    ```
    dnf install vlgothic-fonts
