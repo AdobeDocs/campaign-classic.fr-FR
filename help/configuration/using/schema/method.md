@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Éléments et attributs de schéma - élément de méthode
+title: Éléments et attributs de schéma - élément method
 description: élément method
 exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
