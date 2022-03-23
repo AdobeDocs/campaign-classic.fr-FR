@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: e3ff5bb55e108c163dcf395da84076201f09e61c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ _1er mars 2022_
 
 >[!NOTE]
 >
-> Ce build est compatible avec la console cliente v7.2.1.
+> Cette build est compatible avec la console cliente v7.2.1.
 
 **Correctifs**
 
