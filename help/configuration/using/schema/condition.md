@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Éléments et attributs de schéma - élément de condition
+title: Éléments et attributs de schéma - élément condition
 description: élément condition
 exl-id: 71e98d45-3660-4d86-a5ca-8e55ae5896eb
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
