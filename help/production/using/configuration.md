@@ -4,9 +4,9 @@ title: Configuration supplémentaire
 description: 'Configuration '
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
