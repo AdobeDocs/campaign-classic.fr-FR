@@ -4,9 +4,9 @@ title: Composants web de Campaign et version 100 dans les navigateurs Chrome Fir
 description: Composants web de Campaign et version 100 dans les navigateurs Chrome, Firefox et Edge
 hide: true
 hidefromtoc: true
-source-git-commit: 48c9aab4f7e5f1f204a003a4d53f8d975247b867
+source-git-commit: ffcba5d7b4a5e5eb140dbe8e4daad072bb1d2400
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Google, Mozilla avertissent que Chrome et Firefox pourraient interrompre certain
 
 Chrome v100 est défini pour la version sur **29 mars 2022** et Firefox v100 sous **3 mai 2022**.
 
-Notez que Microsoft Edge a publié sa version 100 en mars 2022.
+Microsoft a lancé Edge v100 en mars 2022.
 
 Le changement de numéro de version de 2 à 3 chiffres peut entraîner des problèmes lors de la visite de sites web qui ne sont pas préparés à ce changement. Certaines pages web peuvent ne plus s’afficher correctement dans ces nouvelles versions du navigateur.
 
