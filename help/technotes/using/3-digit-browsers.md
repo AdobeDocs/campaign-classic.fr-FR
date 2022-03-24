@@ -4,9 +4,9 @@ title: Composants web de Campaign et version 100 dans les navigateurs Chrome et 
 description: Composants web de Campaign et version 100 dans les navigateurs Chrome et Firefox
 hide: true
 hidefromtoc: true
-source-git-commit: 88148b70de408de7571166e1869c088e10e87bae
+source-git-commit: d238f0aa28289c69c91dc6a028792260708ed9f3
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Les problèmes potentiels ou la perte de fonctionnalités sur le site web provie
 
 ## Cela vous concerne-t-il ?{#version-100-impact}
 
-Adobe vous recommande de tester vos applications web Campaign, notamment les formulaires web et enquêtes, ainsi que les pages miroir d&#39;email, afin de vous assurer qu&#39;elles fonctionneront correctement avec ces nouvelles versions de navigateur.
+Adobe vous recommande de tester vos applications web Campaign, notamment vos formulaires web et enquêtes, afin de vous assurer qu&#39;elles fonctionneront correctement avec ces nouvelles versions de navigateur.
 
 Cette recommandation s’applique à toutes les applications web, en particulier si vous avez inclus du code JavaScript.
 
