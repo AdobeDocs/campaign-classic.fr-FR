@@ -4,16 +4,16 @@ title: Composants web de Campaign et version 100 dans les navigateurs Chrome Fir
 description: Composants web de Campaign et version 100 dans les navigateurs Chrome, Firefox et Edge
 hide: true
 hidefromtoc: true
-source-git-commit: ffcba5d7b4a5e5eb140dbe8e4daad072bb1d2400
+source-git-commit: 8b790141342f85769aa6c9663c2e9a34b504e2c5
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # Impact de la version de navigateur à 3 chiffres sur les composants web de Campaign {#version-100}
 
-Google, Mozilla avertissent que Chrome et Firefox pourraient interrompre certains sites web en raison de leurs versions à 3 chiffres à venir.
+Google et Mozilla avertissent que Chrome et Firefox pourraient interrompre certains sites web en raison de leurs versions à 3 chiffres à venir.
 
 Chrome v100 est défini pour la version sur **29 mars 2022** et Firefox v100 sous **3 mai 2022**.
 
