@@ -4,8 +4,8 @@ title: Définition du contenu d’e-mail dans Adobe Campaign Classic
 description: Découvrez comment définir le contenu d’e-mail avec Adobe Campaign Classic.
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+source-git-commit: f5bd8c1806440b47225130070e166d90d99dcc75
+workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Vous pouvez également insérer des émoticônes dans votre ligne Objet à l’a
 
 Le contenu du message est défini dans la section inférieure de la fenêtre de configuration de la diffusion.
 
-Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préférences des destinataires. Il est recommandé de créer un contenu dans les deux formats afin de permettre un affichage correct dans toutes les messageries. Voir à ce sujet la section [Sélection des formats du message](#selecting-message-formats).
+Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préférences des destinataires. Il est recommandé de créer un contenu dans les deux formats afin de permettre un affichage correct dans toutes les messageries. Voir à ce sujet la section [Sélection des formats du message](email-parameters.md#selecting-message-formats).
 
 * Pour importer un contenu HTML, utilisez le bouton **[!UICONTROL Ouvrir]**. Vous pouvez également coller le code source directement dans le sous-onglet **[!UICONTROL Source]**.
 
