@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 4fe661cf6a0fef8126fd24a68b1021760a5d0bfd
-workflow-type: ht
-source-wordcount: '4955'
-ht-degree: 100%
+source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+workflow-type: tm+mt
+source-wordcount: '4984'
+ht-degree: 99%
 
 ---
 
@@ -26,12 +26,13 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 
 ### Mars 2022 {#mar-2022}
 
-Ajout d’une description détaillée de la fonction **[!UICONTROL Tester la diffusion via SMTP]**. [En savoir plus](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
+* Ajout d’une description détaillée de la fonction **[!UICONTROL Tester la diffusion via SMTP]**. [En savoir plus](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
 
-La page Prise en main des mises à niveau a été mise à jour afin de clarifier les directives de mise à niveau de la console Campaign. [En savoir plus](../../rn/using/rn-overview.md)
+* La page Prise en main des mises à niveau a été mise à jour afin de clarifier les directives de mise à niveau de la console Campaign. [En savoir plus](../../rn/using/rn-overview.md)
 
-La nouvelle build Campaign v7.2.2 est désormais disponible. [En savoir plus](../../rn/using/latest-release.md)
-
+* La nouvelle build Campaign v7.2.2 est désormais disponible. [En savoir plus](../../rn/using/latest-release.md)
+* Ajout d’informations de dépannage relatives au connecteur ACS. [En savoir plus](../../integrations/using/troubleshooting-the-acs-connector.md)
+* Les versions PostgreSQL héritées ayant atteint la fin de vie ont été ajoutées à la [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md#dbe-eol) page.
 
 ### Février 2022 {#february-2022}
 
@@ -474,7 +475,7 @@ Les guides [d’installation](../../installation/using/general-architecture.md),
 
 Le guide dʼinstallation a été mis à jour et synchronisé avec la dernière version de la matrice de compatibilité. De nouveaux systèmes pris en charge ont été ajoutés. Les systèmes obsolètes et non pris en charge ont été supprimés. [En savoir plus](../../installation/using/general-architecture.md)
 
-La matrice de compatibilité a été mise à jour en y intégrant les connecteurs FDA Hadoop 3.0 et Snowflake. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
+La matrice de compatibilité a été mise à jour en y intégrant les connecteurs FDA Hadoop 3.0 et Snowflake. [En savoir plus](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 Une bonne pratique concernant l’affinité IP a été ajoutée au guide d’installation. [En savoir plus](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -492,7 +493,7 @@ Le nouveau paramètre de configuration du rapport des URL a été documenté [ic
 
 La page **Matrice des fonctionnalités On-premise et hébergées de Campaign Classic** a été mise à jour en indiquant les nouveaux connecteurs FDA. [En savoir plus](../../installation/using/capability-matrix.md).
 
-La page **Matrice des fonctionnalités de Campaign Classic** a été mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
+La page **Matrice des fonctionnalités de Campaign Classic** a été mise à jour. [En savoir plus](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 Le nouveau workflow **[!UICONTROL Nettoyage de la table Nmsaddress]** a été documenté [ici](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
 
@@ -544,7 +545,7 @@ Messagerie SMS sécurisée (TLS) - [En savoir plus](https://helpx.adobe.com/fr/c
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-La documentation relative à l&#39;agent de transfert d&#39;emails (MTA) amélioré d&#39;Adobe Campaign est désormais disponible. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html)
+La documentation relative à l&#39;agent de transfert d&#39;emails (MTA) amélioré d&#39;Adobe Campaign est désormais disponible. [En savoir plus](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 Une nouvelle section a été ajoutée pour expliquer comment résoudre les problèmes liés à un workflow qui reste dans l&#39;état &quot;Démarrer dès que possible&quot; au cours d&#39;une campagne. [En savoir plus](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -606,7 +607,7 @@ Les bonnes pratiques pour améliorer les performances des workflows et des diffu
 
 **Nouvelles fonctionnalités incluses dans la version 19.1**
 
-Panneau de contrôle – [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
+Panneau de contrôle – [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 Suivi - [En savoir plus](../../production/using/audit-trail.md)
 
@@ -669,7 +670,7 @@ Ajout d&#39;informations sur le rapport de billing.
 Mise à jour de la documentation sur l&#39;intégration des audiences partagées.
 [En savoir plus](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-Les notes techniques suivantes ont été mises à jour : [Paramètres et protocole du connecteur SMS](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html) et [Génération automatique de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
+Les notes techniques suivantes ont été mises à jour : [Paramètres et protocole du connecteur SMS](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) et [Génération automatique de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
 La section Workflows techniques a été mise à jour. [En savoir plus](../../workflow/using/about-technical-workflows.md)
 
