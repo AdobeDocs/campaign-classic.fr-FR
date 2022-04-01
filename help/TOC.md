@@ -7,9 +7,9 @@ user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: dd7217bd508d718d84c417fcdf7610a5582ef204
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -500,7 +500,7 @@ ht-degree: 99%
       + [Surveillance des workflows techniques](workflow/using/monitoring-technical-workflows.md)
       + [Carte thermique des workflows](workflow/using/heatmap.md)
    + Gestion avancée {#advanced-management}
-      + [Propriétés d&#39;exécution](workflow/using/workflow-properties.md)
+      + [Propriétés de workflow](workflow/using/workflow-properties.md)
       + [Paramètres avancés](workflow/using/advanced-parameters.md)
       + [Scripts et modèles JavaScript](workflow/using/javascript-scripts-and-templates.md)
       + [Exemples de code JavaScript dans les workflows](workflow/using/javascript-in-workflows.md)
@@ -577,7 +577,7 @@ ht-degree: 99%
       + [Exécution de la diffusion](message-center/using/delivery-execution.md)
    + Rapports {#reports}
       + [Accès aux rapports des messages transactionnels](message-center/using/about-transactional-messaging-reports.md)
-      + [Historique des événements](message-center/using/history-of-message-center-events.md)
+      + [Historique des événements Message Center](message-center/using/history-of-message-center-events.md)
       + [Qualité de service Message Center](message-center/using/message-center-service-level.md)
       + [Temps traitement Message Center](message-center/using/message-center-processing-time.md)
    + [Cas pratique](message-center/using/transactional-email-with-attachments.md)
@@ -644,7 +644,7 @@ ht-degree: 99%
       + [Fichiers et ressources](installation/using/file-res-management.md)
       + [Configurer Tomcat](installation/using/configure-tomcat.md)
       + [Configurer les paramètres de diffusion](installation/using/configure-delivery-settings.md)
-      + [Configurations techniques des emails](installation/using/email-deliverability.md)
+      + [Configurations techniques du canal e-mail](installation/using/email-deliverability.md)
       + [Utilisation de serveurs MX avec Campaign](installation/using/using-mx-servers.md)
       + [Configuration du Cci d’email](installation/using/email-archiving.md)
       + [Configuration de SpamAssassin](installation/using/configuring-spamassassin.md)
@@ -828,9 +828,9 @@ ht-degree: 99%
    + [Procédure de restauration](migration/using/about-rollback.md)
 + Notes techniques {#technotes}
    + [Recommandations relatives au dimensionnement du matériel](technotes/using/hardware-sizing.md)
-   + Mises à niveau et compatibilité{#technote-migration}
+   + Mises à niveau et compatibilité {#technote-migration}
       + [Notes techniques](technotes/using/technote.md)
-      + [Impact de la version de navigateur à 3 chiffres](technotes/using/3-digit-browsers.md)
+      + [Impacts de la version de navigateur à 3 chiffres](technotes/using/3-digit-browsers.md)
       + [Mises à jour de la configuration de Campaign](technotes/using/acc-config-updates.md)
       + [Mises à jour de lʼIMS](technotes/using/ims-updates.md)
       + [Fin de vie de la prise en charge du protocole TLS 1.0 et 1.1](technotes/using/eol-tls-support.md)
