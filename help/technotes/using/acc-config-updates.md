@@ -3,9 +3,9 @@ product: campaign
 title: Note technique - Mises à jour de la configuration Adobe Campaign
 description: Mises à jour de la configuration d’Adobe Campaign 
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 0f31ee570ba6e763f48902e91c5d823ac297fc24
-workflow-type: ht
-source-wordcount: '1137'
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+workflow-type: tm+mt
+source-wordcount: '1125'
 ht-degree: 100%
 
 ---
@@ -140,7 +140,7 @@ Découvrez comment vérifier votre version [dans cette section](../../platform/u
 
 En tant que client hébergé, si vous avez effectué la mise à niveau vers le nouveau build, Adobe a déjà mis à jour votre ou vos instance(s) vers l’API basée sur HTTP/2.
 
-En tant que client On-premise/hybride, vous devez mettre à jour votre configuration. [Découvrez comment migrer vers HTTP/2](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)
+En tant que client On-premise/hybride, vous devez mettre à jour votre configuration.
 
 ### Mises à jour du certificat racine d’APNs
 

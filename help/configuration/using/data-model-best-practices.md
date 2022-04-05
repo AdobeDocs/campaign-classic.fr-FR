@@ -4,9 +4,9 @@ title: Bonnes pratiques relatives au modèle de données
 description: Découvrez comment utiliser le modèle de données de Campaign Classic
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: ht
-source-wordcount: '4024'
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+workflow-type: tm+mt
+source-wordcount: '4005'
 ht-degree: 100%
 
 ---
@@ -148,9 +148,7 @@ Lorsqu’une table personnalisée est créée dans Adobe Campaign avec une clé
 
 Par défaut, une séquence personnalisée aura des valeurs comprises entre +1 000 et +2,1 milliards. Techniquement, il est possible d’obtenir un intervalle complet de 4 milliards de valeurs en activant les id négatifs. Cette approche doit être utilisée avec précaution. En effet, un id sera perdu lors du passage d’un nombre négatif à un nombre positif : l’enregistrement 0 est généralement ignoré par Adobe Campaign dans les requêtes SQL générées.
 
-**Rubriques connexes :**
-* Pour plus d’informations sur la fonctionnalité de **génération automatique de séquence**, voir [ce document](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html).
-* Pour en savoir plus sur l’épuisement des séquences, regardez cette [vidéo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+Pour en savoir plus sur l’épuisement des séquences, regardez cette [vidéo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## des index ; {#indexes}
 
@@ -327,5 +325,3 @@ Dans cet exemple :
 * Les tables *Produit* et *Magasin* sont plus petites : moins de 10 000.
 * Les libellés et références de produits ont été placés dans la table *Produit*.
 * La table *Élément de transaction* ne comporte qu’un lien vers la table *Produit*, qui est numérique.
-
-<!--For more detailed best practices on how to optimize the database design for larger volumes, see [Campaign Classic Data model Best practices](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html).-->

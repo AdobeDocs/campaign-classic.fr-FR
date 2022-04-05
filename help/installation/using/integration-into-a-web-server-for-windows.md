@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1001'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Vous pouvez utiliser ce Tomcat intégré pour servir des requêtes HTTP.
 Dans ce cas :
 
 * le port d’écoute par défaut est 8080. Pour savoir comment le modifier, consultez [cette section](../../installation/using/configure-tomcat.md).
-* Vos consoles clientes se connectent alors en utilisant une URL de type [https:// `<computer>`:8080](https://myserver.adobe.com:8080).
+* Vos consoles clientes se connectent alors en utilisant une URL de type ```https:// `<computer>`:8080```.
 
 Cependant, pour des raisons de sécurité et d&#39;administration, il est conseillé d&#39;utiliser un véritable serveur Web comme point d&#39;entrée principal pour le trafic HTTP lorsque la machine qui fait tourner Adobe Campaign est exposée sur Internet et que vous voulez donner un accès à la console depuis l&#39;extérieur de votre réseau.
 

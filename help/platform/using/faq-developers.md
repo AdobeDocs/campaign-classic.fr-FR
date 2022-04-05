@@ -6,14 +6,14 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
-workflow-type: ht
-source-wordcount: '522'
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+workflow-type: tm+mt
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
 
-# FAQ destiné aux développeurs {#dev-faq}
+# FAQ destinée aux développeurs {#dev-faq}
 
 ![](../../assets/v7-only.svg)
 
@@ -25,7 +25,7 @@ Le modèle de données conceptuel de la base de données Adobe Campaign se comp
 
 [Cliquez ici pour en savoir plus sur le modèle de données de Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-datamodel.html).
 
-Les bonnes pratiques sont répertoriées [dans cet article](https://helpx.adobe.com/fr/campaign/kb/acc-data-model-best-practices.html).
+Les bonnes pratiques sont répertoriées [dans cet article](../../configuration/using/data-model-best-practices.md).
 
 ## Comment utiliser des schémas de Campaign ? {#how-to-work-with-campaign-schemas-}
 

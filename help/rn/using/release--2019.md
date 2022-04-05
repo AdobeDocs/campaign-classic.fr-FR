@@ -3,10 +3,10 @@ product: campaign
 title: Versions de Campaign Classic 2019
 description: En savoir plus sur les versions de Campaign Classic 2019
 exl-id: 8a36a542-e095-4208-b624-e59845592863
-source-git-commit: 0f31ee570ba6e763f48902e91c5d823ac297fc24
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '4854'
-ht-degree: 100%
+source-wordcount: '4836'
+ht-degree: 99%
 
 ---
 
@@ -277,8 +277,8 @@ _15 septembre 2020_
 * Correction d&#39;un problème de régression concernant la connexion à la base de données qui provoquait le redémarrage constant du serveur web en raison d&#39;un problème de codage de base de données. Ce problème pouvait conduire à une surconsommation. (NEO-23264)
 * Correction d&#39;un problème lié au workflow de nettoyage de la base de données qui pouvait échouer en raison d&#39;une source de données non gérée. (NEO-23160, NEO-23364)
 * Le workflow de nettoyage purge désormais les listes expirées par lots de 100 plutôt qu&#39;une par une.
-* Après le passage au [nouveau mécanisme d’identifiant de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), toutes les applications web qui mettent à jour la table des destinataires sont republiées pendant le postupgrade.
-* Correction d’un problème qui empêchait l’envoi d’emails lorsque du code JavaScript se trouvait en dehors de la balise de contenu HTML. (NEO-18628)
+* Après le passage au nouveau mécanisme d&#39;identifiant de séquence, toutes les applications web qui mettent à jour la table des destinataires sont republiées pendant le postupgrade.
+* Correction d&#39;un problème qui empêchait l&#39;envoi d&#39;emails lorsque du code JavaScript se trouvait en dehors de la balise de contenu HTML. (NEO-18628)
 * Correction d’un problème qui empêchait la mise à jour des indicateurs de tracking des messages transactionnels par le workflow de tracking. (NEO-17770)
 * Amélioration des performances de l&#39;assistant de mise à jour de la base de données afin de réduire le nombre d&#39;instructions SQL dans le but d&#39;optimiser le temps de réponse.
 * Correction d’un problème de blocage de la console qui pouvait se produire lors de la dévérification des URL trackées dans un email, à partir de l’onglet **Contenu texte** en raison d’une variable non initialisée. (NEO-13545)
@@ -401,7 +401,7 @@ _30 mai 2019_
 
 **Améliorations de la sécurité, de la robustesse et de l&#39;évolutivité**
 
-* Optimisation de l&#39;utilisation de la séquence XtkNewId et de sa durée de vie : les tables les plus gourmandes ont été déplacées de la séquence xtkNewId vers les séquences dédiées. [En savoir plus](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* Optimisation de l’utilisation de la séquence XtkNewId pendant la durée de vie : les tables les plus consommatrices ont été déplacées de la séquence xtkNewId vers des séquences dédiées.
 * FDA via HTTP v2 : le protocole FDA via HTTP est largement utilisé sur les déploiements hybrides, en particulier pour la préparation des diffusions et la récupération des broadLogs. Sa robustesse a été renforcée de façon à éviter les problèmes réseau et les erreurs possibles lors de la récupération ou de l&#39;envoi de données. Pour cela, les builds aux deux extrémités de la connexion doivent être à jour, sans quoi le protocole antérieur sera encore utilisé.
 * Workflow de tracking : la robustesse du workflow de tracking a été améliorée. Plusieurs problèmes liés aux mises à jour/insertions au niveau des logs de tracking et à la personnalisation du tracking d&#39;URL ont été résolus. En outre, le workflow de tracking détecte désormais les problèmes du log de tracking qui peuvent entraîner des erreurs et arrêter le workflow. Ces problèmes sont maintenant écartés et ne sont pas traités.
 * Workflow de nettoyage : le workflow de nettoyage a été amélioré de manière à éviter les erreurs et arrêts potentiels. Cela optimise la taille et la performance des bases de données.

@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ Pour créer une instance, procédez comme suit :
 
 1. Définissez une connexion vers votre serveur applicatif Adobe Campaign à partir d&#39;une URL. Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
 
-   Par exemple, vous pouvez utiliser une URL de type [`https://<machine>.<domain>.com`](https://myserver.adobe.com).
+   Par exemple, vous pouvez utiliser une URL de type `https://<machine>.<domain>.com`.
 
    >[!CAUTION]
    >
@@ -61,7 +61,7 @@ Pour créer une instance, procédez comme suit :
 
    Vous pouvez définir ici une liste de valeurs séparées par des virgules.
 
-   Les caractères ? et * peuvent être utilisés comme jokers pour remplacer un ou plusieurs caractères (DNS, port, etc.). Ainsi, la valeur **demo*** fonctionnera ainsi aussi bien avec &quot;https://demo&quot; que &quot;https://demo:8080&quot; ou encore &quot;https://demo2&quot;.
+   Les caractères ? et &#42; Les caractères peuvent être utilisés comme jokers pour remplacer un ou plusieurs caractères (DNS, port, etc.). Par exemple, la variable **demo&#42;** fonctionne avec &quot;https://demo&quot; comme avec &quot;https://demo:8080&quot; et même &quot;https://demo2&quot;.
 
    Les noms utilisés doivent être définis dans votre DNS. Vous pouvez également indiquer la correspondance entre un nom DNS et une adresse IP dans le fichier **c:/windows/system32/drivers/etc/hosts** sous Windows et dans le fichier **/etc/hosts** sous Linux. Pour vous connecter à l&#39;instance choisie, vous devez donc modifier les paramètres de connexion afin d&#39;utiliser ce nom DNS.
 

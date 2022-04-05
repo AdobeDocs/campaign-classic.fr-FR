@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '366'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 100%
 
 Commencez à utiliser Adobe Campaign en consultant nos guides détaillés intuitifs.
 
-* [Edition du contenu des emails avec Adobe Experience Manager](https://helpx.adobe.com/fr/campaign/kb/acc-aem.html) : découvrez les notions de base pour vous familiariser avec l&#39;intégration entre Adobe Campaign et Experience Manager.
 * [Gestion des données personnelles](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html) : découvrez ce que propose Adobe Campaign Classic pour vous aider à respecter la conformité en matière de données personnelles.
 * [Intégrer le contenu dynamique dans un email](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html?lang=fr) : découvrez les notions de base sur l&#39;intégration entre Campaign Classic et Target Standard.
 * [Gérer la délivrabilité](../../delivery/using/about-deliverability.md) : découvrez les concepts et bonnes pratiques liés à la délivrabilité, ainsi que les outils proposés par Adobe Campaign Classic pour optimiser l&#39;envoi de vos diffusions.

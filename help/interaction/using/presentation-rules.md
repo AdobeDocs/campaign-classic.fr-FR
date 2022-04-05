@@ -6,9 +6,9 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
@@ -110,7 +110,3 @@ Vous allez faire une première proposition d&#39;offre appartenant, entre autre,
    Vous constatez qu&#39;aucune offre sur le Canada n&#39;est retenue.
 
    ![](assets/offer_typology_example_019.png)
-
-**Rubrique connexe**
-
-* [Gestion des offres et contrôle de la redondance sur les canaux](https://helpx.adobe.com/fr/campaign/kb/simplifying-campaign-management-acc.html#Manageoffersandcontrolredundancyacrosschannels)

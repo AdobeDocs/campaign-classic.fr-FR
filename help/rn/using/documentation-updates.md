@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '4984'
+source-wordcount: '4915'
 ht-degree: 99%
 
 ---
@@ -299,8 +299,6 @@ La matrice des fonctionnalités de Campaign par modèle d&#39;hébergement a ét
 La section Fonctionnalités avancées du reporting de Campaign a été améliorée afin d&#39;expliquer en détail comment utiliser les paramètres d&#39;URL et les variables dans les rapports personnalisés. [En savoir plus](../../reporting/using/advanced-functionalities.md)
 
 La page des propriétés des rapports a été réorganisée et enrichie pour faciliter la configuration. [En savoir plus](../../reporting/using/properties-of-the-report.md)
-
-Une nouvelle note technique a été créée avec des détails sur la migration de l&#39;ancien protocole binaire vers l&#39;API du fournisseur de service APN basé sur HTTP/2. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)
 
 ### Septembre 2020 {#september-2020}
 
@@ -670,13 +668,11 @@ Ajout d&#39;informations sur le rapport de billing.
 Mise à jour de la documentation sur l&#39;intégration des audiences partagées.
 [En savoir plus](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-Les notes techniques suivantes ont été mises à jour : [Paramètres et protocole du connecteur SMS](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) et [Génération automatique de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
+La note technique suivante a été mise à jour : [Protocole et paramètres du connecteur SMS](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 La section Workflows techniques a été mise à jour. [En savoir plus](../../workflow/using/about-technical-workflows.md)
 
 La procédure de configuration des noms de domaines Campaign a été améliorée et mise à jour.
-
-La procédure de migration des applications Android entre Google Cloud Messaging (GCM) et Firebase Cloud Messaging (FCM) a été mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/migrate-to-fcm.html)
 
 Le Guide de dimensionnement du matériel pour Campaign a été mis à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/hardware-sizing-guide.html)
 

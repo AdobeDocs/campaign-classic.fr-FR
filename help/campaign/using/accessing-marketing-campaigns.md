@@ -4,9 +4,9 @@ title: Accès aux campagnes marketing
 description: Accès aux campagnes marketing
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: ht
-source-wordcount: '1289'
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+workflow-type: tm+mt
+source-wordcount: '1265'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,7 @@ Les opérations sont créées à partir de modèles d&#39;opérations : vous po
 
 >[!NOTE]
 >
->Vous pouvez accéder aux paramétrages de l&#39;opération, et, au besoin, les modifier, à partir du lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** disponible dans l&#39;onglet **[!UICONTROL Edition.]** Pour plus d&#39;informations sur la définition de paramètres de campagne pour que les diffusions héritent automatiquement des valeurs, voir [notre note technique](https://helpx.adobe.com/fr/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
+>Vous pouvez accéder aux paramétrages de l&#39;opération, et, au besoin, les modifier, à partir du lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** disponible dans l&#39;onglet **[!UICONTROL Edition.]**
 
 ## Utiliser l&#39;interface web {#using-the-web-interface-}
 
