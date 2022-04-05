@@ -4,10 +4,10 @@ title: Rapports globaux
 description: Rapports globaux
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
-source-wordcount: '2386'
-ht-degree: 100%
+source-git-commit: 294309239bc476669e9e017c27bd1b51a0bdaf8c
+workflow-type: tm+mt
+source-wordcount: '2498'
+ht-degree: 99%
 
 ---
 
@@ -48,6 +48,14 @@ Ce rapport contient les informations relatives au débit de diffusion de l&#39;e
 ![](assets/s_ncs_user_report_toolbar.png)
 
 Vous pouvez paramétrer l&#39;affichage des valeurs en sélectionnant le périmètre de la vue : 1 heure, 3 heures, 24 heures, etc. Cliquez sur le lien **[!UICONTROL Actualiser]** pour valider votre choix.
+
+>[!NOTE]
+>
+>Si votre instance est hébergée sur AWS, vous pouvez également surveiller le nombre de diffusions envoyées par heure à l’aide du Campaign Classic. [Panneau de Contrôle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=fr). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr).
+>
+>Le Panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d&#39;octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
+>
+>Notez que votre instance doit être mise à niveau avec le dernier build [Gold Standard](../../rn/using/gold-standard.md) ou le dernier build [GA (21.1.3)](../../rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 ## Activités utilisateurs {#user-activities}
 
