@@ -31,8 +31,8 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 * La page Prise en main des mises à niveau a été mise à jour afin de clarifier les directives de mise à niveau de la console Campaign. [En savoir plus](../../rn/using/rn-overview.md)
 
 * La nouvelle build Campaign v7.2.2 est désormais disponible. [En savoir plus](../../rn/using/latest-release.md)
-* Ajout d’informations de dépannage relatives au connecteur ACS. [En savoir plus](../../integrations/using/troubleshooting-the-acs-connector.md)
-* Les versions PostgreSQL héritées ayant atteint la fin de vie ont été ajoutées à la [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md#dbe-eol) page.
+* Ajout d&#39;informations de dépannage relatives au connecteur ACS. [En savoir plus](../../integrations/using/troubleshooting-the-acs-connector.md)
+* Les versions de PostgreSQL héritées ayant atteint leur fin de vie ont été ajoutées à la page [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md#dbe-eol).
 
 ### Février 2022 {#february-2022}
 
