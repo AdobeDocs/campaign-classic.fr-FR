@@ -157,4 +157,5 @@ Votre profil produit est désormais configuré. Vous devez ensuite créer le pro
    ```
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
+
 Vous pouvez maintenant commencer à utiliser le connecteur Analytics et suivre les comportements de vos clients.
