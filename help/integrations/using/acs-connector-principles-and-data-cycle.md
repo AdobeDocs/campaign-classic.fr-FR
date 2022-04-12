@@ -5,7 +5,7 @@ description: Principes et cycle des données du connecteur ACS
 feature: ACS Connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 100%
 
@@ -150,7 +150,7 @@ Les workflows de réplication ci-dessous sont disponibles en tant que modèles �
 
    >[!NOTE]
    >
-   > Si des instances de Campaign Classic et de Campaign Standard sont utilisées pour envoyer des emails avec des URL trackées, un problème lié aux ID de balise d&#39;URL en double peut se produire pendant la synchronisation. Pour éviter cela, mettez à jour l&#39;activité **Mise à jour des URL de tracking** (writerTrackingUrls) dans le workflow et ajoutez le préfixe « ACS » à l&#39;expression source @tagId.
+   > Si des instances Campaign Classic et Campaign Standard sont utilisées pour envoyer des e-mails avec des URL trackées, un problème lié à des tagID d’URL en double peut se produire pendant la synchronisation. Pour éviter cela, mettez à jour l&#39;activité **Mise à jour des URL de tracking** (writerTrackingUrls) dans le workflow et ajoutez le préfixe « ACS » à l&#39;expression source @tagId.
 
 * **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication) : ce processus incrémentiel reproduit les ID de diffusion, les broadLogs et les logs de tracking des emails de Campaign Standard vers Campaign v7. Il ne prend en compte que les livraisons envoyées de Campaign Standard aux profils qui font partie d’une table spécifique (autre que nms:recipients) de Campaign v7.
 

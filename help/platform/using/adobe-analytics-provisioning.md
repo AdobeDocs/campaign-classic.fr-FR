@@ -7,7 +7,7 @@ role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: cb434747d2bee5d24dcaa1141100c269eea313ad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 100%
 
@@ -157,5 +157,4 @@ Votre profil produit est désormais configuré. Vous devez ensuite créer le pro
    ```
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
-
 Vous pouvez maintenant commencer à utiliser le connecteur Analytics et suivre les comportements de vos clients.

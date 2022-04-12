@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: acs-connector
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
 source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 100%
 
@@ -115,7 +115,7 @@ Selon votre mise en œuvre, vous pouvez rencontrer quelques problèmes courants.
 
 * **Des erreurs se produisent dans le workflow [ACS] Réplication des logs de diffusion du profil. Que dois-je faire ?**
 
-   Si des instances de Campaign Classic et de Campaign Standard sont utilisées pour envoyer des emails avec des URL trackées, un problème lié aux ID de balise d&#39;URL en double peut se produire pendant la synchronisation. Dans le cas présent, le workflow **[ACS] Réplication des logs de diffusion du profil** (newRcpDeliveryLogReplication) échoue toujours en signalant l&#39;erreur suivante :
+   Si des instances Campaign Classic et Campaign Standard sont utilisées pour envoyer des e-mails avec des URL trackées, un problème lié à des tagID d’URL en double peut se produire pendant la synchronisation. Dans le cas présent, le workflow **[ACS] Réplication des logs de diffusion du profil** (newRcpDeliveryLogReplication) échoue toujours en signalant l&#39;erreur suivante :
 
    ```PGS-220000 PostgreSQL error: ERROR: duplicate key value violates unique constraint "nmstrackingurl_tagid" DETAIL: Key (stagid) = (1c7bdec2) already exists.```
 

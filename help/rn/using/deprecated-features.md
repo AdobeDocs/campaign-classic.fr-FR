@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1730'
 ht-degree: 100%
 
@@ -215,7 +215,7 @@ Campaign Classic n’est pas compatible avec les serveurs ci-après dans Federa
 
 * DB2 UDB 9.5, 9.7. Une version plus récente de DB2 est prise en charge via Federated Data Access (FDA). [En savoir plus](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
 * Oracle 9i, 10G R2. Les versions plus récentes d’Oracle sont prises en charge via Federated Data Access (FDA). [En savoir plus](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
-* Les versions de PostgreSQL jusqu&#39;à la version 9.6 ont atteint la fin de vie. Les versions plus récentes de PostgreSQL sont prises en charge via Federated Data Access (FDA). [En savoir plus](https://www.postgresql.org/support/versioning)
+* Les versions de PostgreSQL jusqu&#39;à la version 9.6 ont atteint la fin de vie. Les versions plus récentes de PostgreSQL sont prises en charge via Federated Data Access (FDA). [En savoir plus](https://www.postgresql.org/support/versioning)
 * MSSQL 2000, 2005, 2008 R2. Les versions plus récentes de SQL Server sont prises en charge via Federated Data Access (FDA). [En savoir plus](https://support.microsoft.com/en-us/lifecycle/search/1044)
 * MySQL 5.1. Les versions plus récentes de MySQL sont prises en charge via Federated Data Access (FDA). [En savoir plus](https://en.wikipedia.org/wiki/InfiniDB)
 * InfiniDB a atteint sa fin de vie. [En savoir plus](https://www.mysql.com/support)
@@ -235,7 +235,7 @@ Depuis la version 19.1 du printemps, Adobe Campaign n’est plus compatible av
 * MySQL 5.1
 * DB2 UDB 9.7
 
-Les versions de PostgreSQL jusqu&#39;à la version 9.6 ont atteint la fin de vie. Elles ne sont donc pas prises en charge par Adobe Campaign.
+Les versions de PostgreSQL jusqu&#39;à la version 9.6 ont atteint la fin de vie. Elles ne sont donc pas prises en charge par Adobe Campaign.
 
 ### Connecteurs SMS {#sms-eol}
 
