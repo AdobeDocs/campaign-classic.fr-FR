@@ -5,7 +5,7 @@ description: Découvrez comment utiliser le modèle de données de Campaign Cla
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4005'
 ht-degree: 100%
 
