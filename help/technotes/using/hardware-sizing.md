@@ -4,9 +4,9 @@ title: Recommandations relatives au dimensionnement du matériel pour Campaign C
 description: Recommandations relatives au dimensionnement du matériel pour Campaign Classic v7
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2512'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -252,7 +252,7 @@ Les serveurs en cluster, comme les serveurs d’application redondants sous un p
 Toute configuration RAID recommandée doit être conservée pour la sécurité de la base de données, afin de garantir que la perte d’un périphérique de stockage ne provoque pas de perte de données.
 
 * **Performances d’E/S**
-L’évaluation IOPS recommandée pour le stockage dans la base de données doit être respectée. Il est possible que les services cloud tels qu’Amazon EC2 n’offrent pas les performances requises. Ces services doivent alors être évalués avec soin. Par exemple, les volumes SSD fournis par Amazon EC2 sont actuellement évalués à 20 000 IOPS chacun. En savoir plus dans [Documentation Amazon](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html)), donc une configuration RAID à 4 volumes serait évaluée à 80 000 IOPS, ce qui peut ne pas être suffisant.
+L’évaluation IOPS recommandée pour le stockage dans la base de données doit être respectée. Il est possible que les services cloud tels qu’Amazon EC2 n’offrent pas les performances requises. Ces services doivent alors être évalués avec soin. Par exemple, les volumes SSD fournis par Amazon EC2 sont actuellement évalués à 20 000 IOPS chacun. Consultez la [documentation Amazon](https://docs.aws.amazon.com/fr_fr/AWSEC2/latest/UserGuide/ebs-volume-types.html) pour en savoir plus. De ce fait, une configuration RAID à 4 volumes est évaluée à 80 000 IOPS, ce qui peut ne pas suffire.
 
 Adobe recommande de tester les performances de chaque déploiement virtualisé d’Adobe Campaign avant la mise en production du système.
 
