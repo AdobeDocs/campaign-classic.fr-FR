@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Par exemple, si le **Product Context** n&#39;apparaît pas, le Product Context p
 
 **[!UICONTROL URL du serveur IMS]**
 
-Dans la campagne **Adobe Marketing Cloud** compte externe, vérifiez que la variable **[!UICONTROL URL du serveur IMS]** est `adobeid-na1.services.adobe.com` ou `ims-na1.adobelogin.com`. Assurez-vous que les instances d’évaluation et de production pointent sur le même point de terminaison de production IMS.
+Dans le compte externe **Adobe Marketing Cloud** de Campaign, vérifiez que la variable **[!UICONTROL URL du serveur IMS]** est définie sur `adobeid-na1.services.adobe.com` ou `ims-na1.adobelogin.com`. Assurez-vous que les instances d’évaluation et de production pointent sur le même point d’entrée de production IMS.
 
 **Masque de correspondance**
 
