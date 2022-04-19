@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1051'
 ht-degree: 100%
 
@@ -64,13 +64,13 @@ Toutefois, vous devez appliquer les spécificités suivantes :
    Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 * Les étapes **6**,**9** et **10** ne sont pas nécessaires.
-* Lors des étapes **12** et **13**, vous devez indiquer le port dans l&#39;URL de connexion (car la console communique directement avec Tomcat sans passer par le serveur Web). L&#39;URL devient `http://console.campaign.net:8080`:8080. A l&#39;étape **13**, sélectionnez le package **[!UICONTROL Emission vers Mid-Sourcing]**, en complément des packages à installer.
+* Lors des étapes **12** et **13**, vous devez indiquer le port 8080 dans l’URL de connexion (car la console communique directement avec Tomcat sans passer par le serveur Web). L’URL devient `http://console.campaign.net:8080`. A l’étape **13**, sélectionnez le package **[!UICONTROL Emission vers midsourcing]**, en complément des packages à installer.
 
    ![](assets/s_ncs_install_midsourcing02.png)
 
    >[!CAUTION]
    >
-   >Le routage par défaut des diffusions techniques est automatiquement remplacé par le routage email via Mid-sourcing.
+   >Le routage par défaut des diffusions techniques est automatiquement remplacé par le routage e-mail via midsourcing.
 
 ### Installer et configurer le serveur de mid-sourcing {#installing-and-configuring-the-mid-sourcing-server}
 
