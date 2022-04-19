@@ -5,9 +5,9 @@ description: Rapports globaux
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 source-git-commit: 294309239bc476669e9e017c27bd1b51a0bdaf8c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2498'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Vous pouvez paramétrer l&#39;affichage des valeurs en sélectionnant le périm�
 
 >[!NOTE]
 >
->Si votre instance est hébergée sur AWS, vous pouvez également surveiller le nombre de diffusions envoyées par heure à l’aide du Campaign Classic. [Panneau de Contrôle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=fr). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr).
+>Si votre instance est hébergée sur AWS, vous pouvez également surveiller le nombre de diffusions envoyées par heure à l’aide du [Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=fr) Campaign Classic. Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr).
 >
 >Le Panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d&#39;octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
