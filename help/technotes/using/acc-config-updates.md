@@ -4,7 +4,7 @@ title: Note technique - Mises à jour de la configuration Adobe Campaign
 description: Mises à jour de la configuration d’Adobe Campaign 
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ En tant que client hébergé, si vous avez effectué la mise à niveau vers le n
 
 En tant que client On-premise/hybride, vous devez mettre à jour votre configuration.
 
-### Mises à jour du certificat racine d’APNs
+### Mises à jour du certificat racine d’APNS
 
 Le 29 mars 2021, une mise à jour de l’infrastructure du service Apple Push Notification (APNs) a eu un impact sur le canal iOS d’Adobe Campaign Classic. Une modification de la configuration du système d’exploitation est **obligatoire** pour éviter une panne du canal push d’iOS.
 
