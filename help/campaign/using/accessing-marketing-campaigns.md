@@ -5,7 +5,7 @@ description: Accès aux campagnes marketing
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1265'
 ht-degree: 100%
 
@@ -149,7 +149,7 @@ Les opérations sont créées à partir de modèles d&#39;opérations : vous po
 
 >[!NOTE]
 >
->Vous pouvez accéder aux paramétrages de l&#39;opération, et, au besoin, les modifier, à partir du lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** disponible dans l&#39;onglet **[!UICONTROL Edition.]**
+>Vous pouvez accéder aux paramétrages de la campagne, et, au besoin, les modifier, à partir du lien **[!UICONTROL Paramètres avancés de la campagne...]** disponible dans l’onglet **[!UICONTROL Edition.]**
 
 ## Utiliser l&#39;interface web {#using-the-web-interface-}
 
