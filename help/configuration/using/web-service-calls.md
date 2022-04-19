@@ -5,7 +5,7 @@ description: Appels Web Service
 feature: API
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '922'
 ht-degree: 100%
 
@@ -84,11 +84,11 @@ Avec :
 
 ### Exemple sur la méthode &#39;ExecuteQuery&#39; du schéma &#39;xtk:queryDef&#39; {#example-on-the--executequery--method-of-schema--xtk-querydef-}
 
-On génère le fichier WSDL à partir de l&#39;URL :
+On génère le fichier WSDL à partir de l’URL :
 
 `https://localhost/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef`
 
-Une description WSDL définit d&#39;abord les types utilisés pour former des messages, associés dans des &quot;ports&quot;, reliés à un protocole par des &quot;bindings&quot; formant des Services Web.
+Une description WSDL définit d’abord les types utilisés pour former des messages, associés dans des « ports », reliés à un protocole par des « liaisons » formant des Services Web.
 
 #### Types {#types}
 
