@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: dd7217bd508d718d84c417fcdf7610a5582ef204
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: a8044037e889f59d4288a0746001e84d319f6bcf
+workflow-type: tm+mt
+source-wordcount: '2571'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,11 @@ ht-degree: 100%
    + Confidentialité {#privacy}
       + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
       + [Gestion de la confidentialité](platform/using/privacy-management.md)
-      + [Demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
+      + Demandes d&#39;accès à des informations personnelles {#privacy-requests}
+         + [À propos des demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
+         + [Création et gestion des demandes d’accès à des informations personnelles](platform/using/privacy-requests-ui.md)
+         + [Processus automatique de demande d&#39;accès à des informations personnelles](platform/using/privacy-requests-api.md)
+         + [Droit d’opposition (opt-out) à la vente des informations personnelles](platform/using/privacy-requests-ccpa.md)
    + Gérer les profils {#profile-management}
       + [À propos des profils](platform/using/about-profiles.md)
       + [Modification d’un profil](platform/using/editing-a-profile.md)

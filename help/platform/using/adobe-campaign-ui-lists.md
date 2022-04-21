@@ -4,8 +4,8 @@ title: Gestion et personnalisation de listes
 description: Découvrez comment parcourir et configurer des listes
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Gestion et personnalisation de listes{#manage-and-customize-lists}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Vous pouvez accéder aux listes des enregistrements de la base de données Campaign à l’aide de l’Explorateur. Vous pouvez filtrer ces listes, lancer des recherches, ajouter des informations, filtrer et trier les données.
 
