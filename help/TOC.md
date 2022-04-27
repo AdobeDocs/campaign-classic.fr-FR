@@ -44,7 +44,7 @@ ht-degree: 99%
          + [Confidentialité](platform/using/privacy-faq.md)
          + [Audiences](platform/using/faq-audiences.md)
          + [Concevoir des messages](platform/using/faq-designing.md)
-         + [Envoyer les messages](platform/using/faq-messages.md)
+         + [Envoi de messages](platform/using/faq-messages.md)
          + [Workflows](platform/using/faq-workflows.md)
          + [Configuration ](platform/using/faq-campaign-config.md)
          + [Rapports ](platform/using/faq-reporting.md)
@@ -122,21 +122,21 @@ ht-degree: 99%
       + [Validation de la diffusion](delivery/using/steps-validating-the-delivery.md)
       + [Envoi de la diffusion](delivery/using/steps-sending-the-delivery.md)
       + Bonnes pratiques de diffusion {#delivery-bestpractices}
-         + [Découvrir les bonnes pratiques](delivery/using/delivery-best-practices.md)
-         + [Optimiser votre diffusion](delivery/using/optimize-delivery.md)
-         + [Utilisez les modèles](delivery/using/use-templates.md)
+         + [Découverte des bonnes pratiques](delivery/using/delivery-best-practices.md)
+         + [Optimisation de votre diffusion](delivery/using/optimize-delivery.md)
+         + [Utilisation de modèles](delivery/using/use-templates.md)
          + [Création de contenu personnalisé](delivery/using/design-and-personalize.md)
          + [Définition de l&#39;audience appropriée](delivery/using/define-the-right-audience.md)
          + [Vérification avant envoi](delivery/using/check-before-sending.md)
          + [Tracker et suivre vos diffusions](delivery/using/track-and-monitor.md)
    + Envoi d’emails {#sending-emails}
       + [À propos du canal email](delivery/using/about-email-channel.md)
-      + [Créez une diffusion email](delivery/using/creating-an-email-delivery.md)
-      + [Définition du contenu de l’email](delivery/using/defining-the-email-content.md)
+      + [Création d’une diffusion par e-mail](delivery/using/creating-an-email-delivery.md)
+      + [Définition du contenu de l’e-mail](delivery/using/defining-the-email-content.md)
       + [Définition du contenu interactif](delivery/using/defining-interactive-content.md)
       + Envoi de la diffusion email {#sending-an-email}
-         + [Étapes principales de l’envoi d’un email](delivery/using/sending-messages.md)
-         + [Paramètres de l’email](delivery/using/email-parameters.md)
+         + [Étapes principales de l’envoi d’un e-mail](delivery/using/sending-messages.md)
+         + [Paramètres de l’e-mail](delivery/using/email-parameters.md)
          + [Envoi avec le MTA amélioré](delivery/using/sending-with-enhanced-mta.md)
          + [Envois sur mobiles japonais](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [Joindre des fichiers](delivery/using/attaching-files.md)
@@ -150,7 +150,7 @@ ht-degree: 99%
       + [Migration vers le connecteur SMPP générique étendu](delivery/using/unsupported-connector-migration.md)
    + [Envoi de messages LINE](delivery/using/line-channel.md)
    + Envoi de notifications push {#sending-push-notifications}
-      + [Prise en main du canal des applications mobiles (documentation du produit)](delivery/using/about-mobile-app-channel.md)
+      + [Prise en main du canal des applications mobiles](delivery/using/about-mobile-app-channel.md)
       + [Intégration du SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuration de l’application mobile{#configure-the-mobile-app}
          + [Prise en main de la configuration de l&#39;application](delivery/using/get-started-app-config.md)
@@ -630,7 +630,7 @@ ht-degree: 99%
          + [Intégration dans un serveur web (Windows)](installation/using/integration-into-a-web-server-for-windows.md)
          + [Disponibilité de la console cliente pour Windows](installation/using/client-console-availability-for-windows.md)
       + Campaign sous Linux {#installing-campaign-in-linux-}
-         + [Conditions préalables requises](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+         + [Conditions préalables](installation/using/prerequisites-of-campaign-installation-in-linux.md)
          + [Installation de packages](installation/using/installing-packages-with-linux.md)
          + [Intégration dans un serveur web](installation/using/integration-into-a-web-server-for-linux.md)
       + [Gestion des fuseaux horaires](installation/using/time-zone-management.md)
@@ -822,7 +822,7 @@ ht-degree: 99%
 + Guide de migration {#migrating-to-a-new-version}
    + [Migration vers Adobe Campaign v7](migration/using/about-migration.md)
    + Procédure de migration {#migration-procedure}
-      + [Conditions préalables requises](migration/using/before-starting-migration.md)
+      + [Conditions préalables](migration/using/before-starting-migration.md)
       + [À propos des tests de migration](migration/using/testing-the-migration.md)
       + [Adapter votre configuration](migration/using/configuring-your-platform.md)
    + Démarrer la migration {#migrating-to-adobe-campaign-7}
