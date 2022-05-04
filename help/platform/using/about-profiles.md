@@ -7,7 +7,7 @@ role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '849'
 ht-degree: 100%
 
@@ -91,7 +91,7 @@ La mise en page générale de l’explorateur Adobe Campaign est présentée su
 
 Les profils actifs sont les profils qui sont comptabilisés à des fins de facturation.
 
-La facturation ne concerne que les profils **actifs**. Un profil est considéré comme actif s’il a été ciblé ou s’il a reçu des communications au cours des 12 derniers mois via n’importe quel canal.
+La facturation ne concerne que les profils **actifs**. Un profil est considéré comme actif s&#39;il a été ciblé ou s&#39;il a reçu des communications au cours des 12 derniers mois via n&#39;importe quel canal.
 
 Un profil qui a été ciblé par plusieurs diffusions n’est comptabilisé qu’une seule fois.
 
@@ -99,7 +99,7 @@ Un profil qui a été ciblé par plusieurs diffusions n’est comptabilisé qu�
 >
 >Les canaux Facebook et Twitter ne sont pas pris en compte.
 
-Le nombre de profils actifs est disponible pour les **instances marketing** uniquement. Il n’est pas disponible pour les instances d’exécution, c’est-à-dire les instances MID (mid-sourcing) et RT (Message Center / messagerie en temps réel).
+Le nombre de profils actifs est disponible pour les **instances marketing** uniquement. Il n&#39;est pas disponible pour les instances d&#39;exécution, c&#39;est-à-dire les instances MID (mid-sourcing) et RT (Message Center / messagerie en temps réel).
 
 >[!NOTE]
 >
