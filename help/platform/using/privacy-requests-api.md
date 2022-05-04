@@ -1,14 +1,15 @@
 ---
 product: campaign
 title: Processus automatique de demande d'accès à des informations personnelles
-description: Découvrez comment configurer un processus de demande d’accès automatique à des informations personnelles
+description: Découvrez comment configurer un processus automatique de demande d’accès à des informations personnelles.
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-source-git-commit: a8044037e889f59d4288a0746001e84d319f6bcf
-workflow-type: tm+mt
+exl-id: a93bac61-f615-4178-bc12-0f056e48687d
+source-git-commit: 42b420d7dae7d38e9f4df442146d3b484c25e831
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
