@@ -1,24 +1,25 @@
 ---
 product: campaign
 title: Créer des demandes d’accès à des informations personnelles
-description: Découvrez comment créer et gérer des demandes d’accès à des informations personnelles
+description: Découvrez comment créer et gérer les demandes d’accès à des informations personnelles.
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-source-git-commit: a8044037e889f59d4288a0746001e84d319f6bcf
-workflow-type: tm+mt
+exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
+source-git-commit: 42b420d7dae7d38e9f4df442146d3b484c25e831
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Création et gestion des demandes d’accès à des informations personnelles {#privacy-request-ui}
+# Créer et gérer les demandes d’accès à des informations personnelles {#privacy-request-ui}
 
 ![](../../assets/v7-only.svg)
 
-Cette section décrit comment créer des demandes d’accès et de suppression, ainsi que la manière dont Adobe Campaign les traite.
+Cette section décrit comment créer des demandes d’accès et de suppression et comment elles sont traitées par Adobe Campaign.
 
-## Création d’une demande d’accès à des informations personnelles {#create-privacy-request-ui}
+## Créer une demande d’accès à des informations personnelles {#create-privacy-request-ui}
 
 L&#39;**interface d&#39;Adobe Campaign** permet de créer des demandes d&#39;accès à des informations personnelles et de suivre leur évolution. Pour créer une demande d&#39;accès à des informations personnelles, procédez comme suit :
 
