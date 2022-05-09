@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 61%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 100%
 
 Pour utiliser l&#39;intégration avec l&#39;IMS, les éléments suivants sont requis :
 
-* Vous devez disposer d’une organisation Adobe Experience Cloud et d’identifiants IMS (fournis lors de la première connexion à Adobe Experience Cloud).
-* Vous devez ajouter des utilisateurs dans Experience Cloud. Voir à ce propos [cette page](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr).
+* Vous devez disposer d’un nom et d’un identifiant de l’organisation Adobe Experience Cloud. Pour trouver votre ID d’organisation, reportez-vous à la section [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
+* Vous devez ajouter des utilisateurs dans Experience Cloud. Voir à ce sujet la section [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html){_blank}.
 
 >[!NOTE]
 >
->Veuillez vous assurer que vos utilisateurs sont associés à des groupes Adobe Experience Cloud qui seront synchronisés avec Adobe Campaign. Pour plus d&#39;informations, consultez la section [Configuration du compte externe](#configuring-the-external-account).
+>Veuillez vous assurer que vos utilisateurs sont associés à des groupes Adobe Experience Cloud qui seront synchronisés avec Adobe Campaign. [En savoir plus](#configuring-the-external-account).
 
 ## Mettre à jour la console {#updating-the-console}
 
@@ -38,7 +38,7 @@ Pour utiliser cette fonctionnalité, vous devez impérativement installer la ver
 
 ## Installer le package {#installing-the-package}
 
-Vous devez installer le package **[!UICONTROL Intégration avec Adobe Experience Cloud]**. L’installation d’un package d’intégration est identique à l’installation d’un package standard, détaillée sur [cette page](../../installation/using/installing-campaign-standard-packages.md).
+Vous devez installer le **[!UICONTROL Intégration à Adobe Experience Cloud]** module. L’installation d’un package d’intégration est identique à l’installation d’un package standard, détaillée dans la section [cette page](../../installation/using/installing-campaign-standard-packages.md).
 
 ![](assets/ims_6.png)
 
@@ -58,8 +58,8 @@ Renseignez les informations suivantes :
 
    L&#39;adresse du **[!UICONTROL Serveur de rappel]** (callback server) doit être indiquée en **https**. Ce champ correspond à l&#39;URL d&#39;accès à votre instance Adobe Campaign.
 
-* l’identifiant de l’organisation IMS : cette information est disponible dans Experience Cloud (dans **[!UICONTROL Administration > Détails Experience Cloud]**). Elle est fournie lors de votre première connexion à Adobe Experience Cloud.
-* le masque de correspondance : ce champ permet de définir la syntaxe qui permettra la synchronisation des noms de configuration dans Enterprise Dashboard avec les groupes d&#39;Adobe Campaign. Si vous utilisez la syntaxe &quot;Campaign - tenant_id - (.*)&quot;, le groupe de sécurité créé dans Adobe Campaign sera associé au nom de configuration &quot;Campaign - tenant_id - internal_name&quot; dans Enterprise Dashboard.
+* ID d’organisation : pour trouver l’ID d’organisation, reportez-vous à la section [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
+* Masque de correspondance : ce champ vous permet de définir la syntaxe qui permettra la synchronisation des noms de configuration dans Enterprise Dashboard avec les groupes dans Adobe Campaign. Si vous utilisez la syntaxe &quot;Campaign - tenant_id - (.&#42;)&quot;, le groupe de sécurité créé dans Adobe Campaign sera associé au nom de configuration &quot;Campaign - tenant_id - internal_name&quot; dans Enterprise Dashboard.
 
    >[!CAUTION]
    >

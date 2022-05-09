@@ -6,10 +6,10 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: cb434747d2bee5d24dcaa1141100c269eea313ad
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 100%
+source-wordcount: '746'
+ht-degree: 98%
 
 ---
 
@@ -95,7 +95,7 @@ Votre profil produit est désormais configuré. Vous devez ensuite créer le pro
 
 ## Création de projet Adobe I/O {#create-adobe-io}
 
-1. Accédez à Adobe I/O et connectez-vous en tant qu’**Administrateur système** pour I’organisation IMS.
+1. Accès à Adobe I/O et connexion en tant que **Administrateur système** de votre organisation.
 
    Pour plus d’informations sur les rôles d’administrateur, reportez-vous à cette [page](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html).
 
@@ -157,5 +157,4 @@ Votre profil produit est désormais configuré. Vous devez ensuite créer le pro
    ```
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
-
 Vous pouvez maintenant commencer à utiliser le connecteur Analytics et suivre les comportements de vos clients.

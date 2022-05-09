@@ -5,10 +5,10 @@ description: 'Dépannage du pipeline '
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
-workflow-type: ht
-source-wordcount: '693'
-ht-degree: 100%
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+workflow-type: tm+mt
+source-wordcount: '707'
+ht-degree: 92%
 
 ---
 
@@ -30,11 +30,11 @@ Définissez la configuration JSON dans l’option **NmsPipeline_Config**. Voir �
 
 **Échec du pipeline avec « le sujet doit être une organisation ou un client valide »**
 
-La configuration de l&#39;identifiant de l&#39;organisation n&#39;est pas valide.
+La configuration de l’ID d’organisation n’est pas valide.
 
-1. Vérifiez que l’IMSOrgId est défini dans le fichier serverConf.xml.
-1. Recherchez un IMSOrgId vide dans le fichier de configuration de l’instance qui peut remplacer le paramètre par défaut. Si vous en trouvez un, supprimez-le.
-1. Vérifiez que l’IMSOrgId correspond à celui du client dans Experience Cloud.
+1. Vérifiez que l’ID d’organisation (ImsOrgId) est défini dans le fichier serverConf.xml.
+1. Vérifiez si un ID d’organisation vide dans le fichier de configuration de l’instance peut remplacer celui par défaut. Si vous en trouvez un, supprimez-le.
+1. Vérifiez que l’ID d’organisation est correct. Pour trouver votre ID d’organisation, reportez-vous à la section [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}
 
 **Échec du pipeline avec « clé non valide »**
 
