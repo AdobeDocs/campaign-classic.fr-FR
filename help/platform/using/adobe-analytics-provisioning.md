@@ -9,7 +9,7 @@ exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: bb806da3d865e0d05e7823b2609227ea8effd875
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Votre profil produit est désormais configuré. Vous devez ensuite créer le pro
 
 ## Création de projet Adobe I/O {#create-adobe-io}
 
-1. Accès à Adobe I/O et connexion en tant que **Administrateur système** de votre organisation.
+1. Accédez à Adobe I/O et connectez-vous en tant qu’**Administrateur système** de votre organisation.
 
    Pour plus d’informations sur les rôles d’administrateur, reportez-vous à cette [page](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html).
 
