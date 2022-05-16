@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Définissez la configuration JSON dans l’option **NmsPipeline_Config**. Voir �
 
 **Échec du pipeline avec « le sujet doit être une organisation ou un client valide »**
 
-La configuration de l’ID d’organisation n’est pas valide.
+La configuration de l’identifiant de l’organisation n’est pas valide.
 
-1. Vérifiez que l’ID d’organisation (ImsOrgId) est défini dans le fichier serverConf.xml.
-1. Vérifiez si un ID d’organisation vide dans le fichier de configuration de l’instance peut remplacer celui par défaut. Si vous en trouvez un, supprimez-le.
-1. Vérifiez que l’ID d’organisation est correct. Pour trouver votre ID d’organisation, reportez-vous à la section [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}
+1. Vérifiez que l’identifiant de l’organisation (IMSOrgId) est défini dans le fichier serverConf.xml.
+1. Vérifiez si un identifiant d’organisation vide dans le fichier de paramétrage des instances peut remplacer l’identifiant par défaut. Si vous en trouvez un, supprimez-le.
+1. Vérifiez que l’identifiant de l’organisation est correct. Pour trouver votre identifiant d’organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}
 
 **Échec du pipeline avec « clé non valide »**
 
