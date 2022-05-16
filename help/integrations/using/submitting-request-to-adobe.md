@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->En tant qu’utilisateur v7, pour pouvoir continuer, vérifiez qu’Adobe Identity Management System (IMS) est activé sur votre système. [En savoir plus](../../integrations/using/about-adobe-id.md).
+>En tant qu’utilisateur de la version v7, pour pouvoir poursuivre, assurez-vous qu’Adobe Identity Management System (IMS) est activé sur votre système. [En savoir plus](../../integrations/using/about-adobe-id.md).
 
-Une fois qu&#39;IMS est activé pour votre organisation, vous pouvez demander la configuration de l&#39;intégration de People core service/Audience Manager avec Campaign. Pour ce faire, envoyez un courrier électronique à l’adresse [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) avec les informations suivantes :
+Une fois qu’IMS est activé pour votre organisation, vous pouvez demander la configuration de l’intégration People core service/Audience Manager à Campaign. Pour ce faire, envoyez un e-mail à l’adresse [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) avec les informations suivantes :
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>Type de demande</strong><br /> </td> 
-   <td> Configuration de l'intégration AAM/People core service-Campaign </td> 
+   <td> Configurer l’intégration AAM/People core service-Campaign </td> 
   </tr> 
   <tr> 
    <td> <strong>Nom de l’organisation</strong><br /> </td> 
    <td> Nom de votre organisation </td> 
   </tr> 
   <tr> 
-   <td> <strong>Identifiant de l'organisation</strong><br /> </td> 
-   <td> Votre ID d’organisation. <br> Pour trouver l’ID d’organisation, reportez-vous à la section <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr">cette page</a></td> 
+   <td> <strong>Identifiant de l’organisation</strong><br /> </td> 
+   <td> L’identifiant de votre organisation. <br> Pour trouver l’identifiant de votre organisation, reportez-vous à <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr">cette page</a>.</td> 
   </tr> 
   <tr> 
    <td> <strong>Environnement</strong><br /> </td> 
@@ -43,7 +43,7 @@ Une fois qu&#39;IMS est activé pour votre organisation, vous pouvez demander la
   </tr> 
   <tr> 
    <td> <strong>AAM ou People Service</strong><br /> </td> 
-   <td> Exemple : Adobe Audience Manager. Veillez à indiquer si vous possédez ou non la licence d’Audience Manager.</td> 
+   <td> Exemple : Adobe Audience Manager. Veillez à indiquer si vous possédez ou non une licence Audience Manager.</td> 
   </tr> 
   <tr> 
    <td> <strong>Declared ID ou Visitor ID</strong><br /> </td> 
