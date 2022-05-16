@@ -9,9 +9,9 @@ internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '741'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 89%
 
 Cette intégration ne s’applique qu’à partir des **versions Campaign Classic 20.2.4 et ultérieures, 19.1.8 et Gold Standard 11**.
 
-Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléments suivants :
+Avant de commencer cette implémentation, vérifiez que vous disposez des éléments suivants :
 
-* un valide **Identifiant de l’organisation**: l’ID d’organisation est l’identifiant unique dans Adobe Experience Cloud, utilisé par exemple pour le service VisitorID et l’authentification unique (SSO) IMS. [En savoir plus](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr)
-* Un **accès développeur** à votre organisation. L’administrateur système de l’organisation doit suivre le **Ajout de développeurs à un profil de produit unique** procédure détaillée [dans cette page](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) pour permettre aux développeurs d’accéder au `Analytics - {tenantID}` Profil de produit du produit Adobe Analytics associé aux déclencheurs.
+* un **identifiant d’organisation** valide : l’identifiant de l’organisation est l’identifiant unique dans Adobe Experience Cloud. Il est utilisé, entre autres, pour le service VisitorID et l’authentification unique (SSO) de l’IMS. [En savoir plus](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr)
+* Un **accès développeur** à votre organisation. L’administrateur système de l’organisation doit suivre la procédure **Ajouter des développeurs à un profil de produit unique** présentée [dans cette page](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) pour fournir aux développeurs l’accès au profil du produit `Analytics - {tenantID}` Adobe Analytics associé aux Triggers.
 
 ## Étape 1 : créer/mettre à jour un projet Adobe I/O {#creating-adobe-io-project}
 
-1. Accès [!DNL Adobe I/O] et connectez-vous avec l’accès Développeur de votre organisation.
+1. Accédez à [!DNL Adobe I/O] et connectez-vous avec l’accès développeur de votre organisation.
 
    >[!NOTE]
    >
