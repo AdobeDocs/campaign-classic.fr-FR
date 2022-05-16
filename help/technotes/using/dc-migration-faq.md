@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2215'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -143,9 +143,9 @@ Les incidences globales sur la configuration, la connectivité avec d’autres s
 
    Certaines adresses IP de la liste autorisée seront requises dans la solution externe lorsque l’adresse IP des serveurs applicatifs changera. Cette information sera fournie. Les autres composants de l’intégration, basés sur IMS, doivent fonctionner en l’état.
 
-* **Qu’en est-il des clients qui ne sont pas associés à l’ID d’organisation pour l’intégration IMS ?**
+* **Qu’en est-il des clients qui ne sont pas associés à l’identifiant de l’organisation pour l’intégration IMS ?**
 
-   Les clients qui ne disposent pas d’IMS recevront un : un ID d’organisation est associé à leur instance.
+   Les clients qui ne disposent pas d’IMS recevront un identifiant d’organisation joint à leur instance.
 
 * **Les configurations multi-marques sont-elles affectées par la migration ?**
 
