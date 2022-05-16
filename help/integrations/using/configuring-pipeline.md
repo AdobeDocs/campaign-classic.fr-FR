@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ Avant de démarrer cette configuration, vérifiez que vous utilisez :
    * 20.3.1
 * Adobe Analytics version standard.
 
-Vous avez également besoin des éléments suivants :
+Vous avez également besoin de :
 
 * l’authentification de projet Adobe I/O ;
-* un ID d’organisation valide - Pour trouver votre ID d’organisation, reportez-vous à la section [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}
-* Un accès développeur à votre organisation
-* la configuration des déclencheurs effectuée dans Adobe Analytics.
+* un identifiant d’organisation valide ; pour trouver votre identifiant d’organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}
+* un accès développeur à votre organisation
+* la configuration des déclencheurs effectuée dans Adobe Analytics
 
 ## Fichiers d&#39;authentification et de configuration {#authentication-configuration}
 
