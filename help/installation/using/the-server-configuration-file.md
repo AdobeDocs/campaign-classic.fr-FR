@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7957'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1287,13 +1287,13 @@ Voici les différents paramètres du nœud **inMail**. Il s’agit de la configu
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 800<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 600<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSessionTTLSec<br /> </td> 
@@ -1413,13 +1413,13 @@ Pour plus d&#39;informations, voir la section [Interaction - Mémoire tampon](..
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 800<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 600<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSharedEntries<br /> </td> 
@@ -1538,13 +1538,13 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 800<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 600<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> minConnectionsToLog<br /> </td> 
@@ -2103,13 +2103,13 @@ Voici les différents paramètres du nœud **pipelined**. Il s’agit de la conf
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 800<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 600<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> monitorServerPort<br /> </td> 
@@ -2386,13 +2386,13 @@ Voici les différents paramètres du nœud **sms**. Il s’agit de la configurat
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 800<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 600<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> pollPeriod<br /> </td> 
@@ -2492,13 +2492,13 @@ Voici les différents paramètres du nœud **stat**. Il s’agit de la configura
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 800<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 600<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> port<br /> </td> 
@@ -2569,13 +2569,13 @@ Voici les différents paramètres du nœud **syslogd**. Il s’agit de la config
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 800<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 600<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
@@ -2670,13 +2670,13 @@ Voici les différents paramètres du nœud **tracking**. Il s’agit de la confi
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 800<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 600<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> phishbowlServiceAPIKey<br /> </td> 
@@ -2771,19 +2771,19 @@ Voici les différents paramètres du nœud **trackinglogd**. Il s’agit de la c
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 800<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 600<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSharedLogs<br /> </td> 
    <td> Nb max de logs : nombre maximal de logs stockés en mémoire partagée. Ne peut pas être inférieur à 10 000. <br /> </td> 
    <td> Long<br /> </td> 
-   <td> 25 000<br /> </td> 
+   <td> 25000<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
@@ -2886,13 +2886,13 @@ Pour plus d’informations, consultez cette [section](configuring-campaign-serve
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 800<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 600<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
@@ -3284,7 +3284,7 @@ Pour plus d’informations, consultez cette [section](../../installation/using/d
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> ID d’organisation : identifiant d’organisation unique dans Adobe Experience Cloud, utilisé notamment pour le service VisitorID et le SSO IMS. <br /> </td> 
+   <td> Identifiant de l’organisation : identifiant d’organisation unique dans Adobe Experience Cloud, utilisé notamment pour le service VisitorID et le SSO de l’IMS. <br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3459,13 +3459,13 @@ Pour plus d&#39;informations, voir la section [Workflows en haute disponibilité
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 800<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td> 1 600<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
