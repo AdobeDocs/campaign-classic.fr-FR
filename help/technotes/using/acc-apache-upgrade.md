@@ -5,10 +5,10 @@ description: Adobe Campaign - Mise à jour de sécurité de la version Apache
 hide: true
 hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
-source-git-commit: ef34decdb33cdfd095c437abd5d1eb029f8a0648
-workflow-type: ht
-source-wordcount: '476'
-ht-degree: 100%
+source-git-commit: 7ee1cc501342aa59d1752259bf7228ea47a8cccb
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 87%
 
 ---
 
@@ -37,7 +37,6 @@ Vos instances hors production seront mises à niveau par nos équipes, suivies p
 
    La version actuelle d’Apache est vulnérable et présente une menace potentielle pour la sécurité. Il est important que votre ou vos instances Campaign soient mises à niveau vers la dernière version d’Apache applicable pour éviter tout risque de sécurité.
 
-
 * **Quels sont les clients concernés par les mises à niveau de sécurité ?**
 
    Tous les clients utilisant des environnements Campaign implémentés sur d’anciennes versions d’Apache sont mis à niveau vers la dernière version d’Apache applicable.
@@ -49,6 +48,10 @@ Vos instances hors production seront mises à niveau par nos équipes, suivies p
 * **Le client doit-il prendre des mesures pour cette mise à niveau de sécurité ?**
 
    Aucune action n’est requise, car la mise à jour de sécurité s’exécutera automatiquement.
+
+* **Quel est l’impact sur les opérations/workflows en cours d’exécution pendant la période de maintenance ?**
+
+   Pendant la fenêtre de maintenance, le workflow et les services de messagerie seront arrêtés, et les activités planifiées ne seront pas exécutées. Les activités en cours ou les processus en cours d’exécution seront arrêtés pendant les temps d’arrêt jusqu’au redémarrage du serveur. Une fois l’activité terminée et le serveur redémarré, tous les services reprendront.
 
 * **Le client doit-il effectuer des validations ?**
 
