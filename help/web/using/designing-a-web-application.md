@@ -4,14 +4,14 @@ title: Créer une application web
 description: Créer une application web
 feature: Web Apps
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: 0ad183ae68faf41ac0b14bb37639a4b1da9d8776
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 91%
 
 ---
 
-# Conception d’une application web{#designing-a-web-application}
+# Créer une application web{#designing-a-web-application}
 
 ![](../../assets/common.svg)
 
@@ -19,9 +19,7 @@ Les applications web sont créées et gérées suivant le même principe que les
 
 >[!CAUTION]
 >
->Utilisez le sous-onglet **[!UICONTROL Prévisualisation]** pour vérifier les erreurs lors de la conception de l&#39;application web.
->
->Tant que l&#39;application web n&#39;est pas publiée, les modifications ne sont pas exposées aux utilisateurs finaux.
+>Utilisez le sous-onglet **[!UICONTROL Prévisualisation]** pour vérifier les erreurs lors de la conception de l&#39;application web. Notez que le test de profil utilisé pour prévisualiser votre application web doit se trouver dans un dossier avec **[!UICONTROL Droits d’accès]** pour le **[!UICONTROL Agent des applications web]** de l’opérateur. </br>Tant que l&#39;application web n&#39;est pas publiée, les modifications ne sont pas exposées aux utilisateurs finaux.
 
 ## Insérer des graphiques dans une application web {#inserting-charts-in-a-web-application}
 
