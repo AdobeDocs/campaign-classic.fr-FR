@@ -5,17 +5,17 @@ description: Adobe Campaign - Mise à jour de sécurité de la version Apache
 hide: true
 hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
-source-git-commit: 7ee1cc501342aa59d1752259bf7228ea47a8cccb
+source-git-commit: a3eae4e253f66f5a651ffe0458f60b1f8bdf2258
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 87%
+ht-degree: 81%
 
 ---
 
 # Adobe Campaign - Mise à jour de sécurité de la version Apache {#apache-update}
 
 >[!CAUTION]
->Cet article s’applique aux : clients de Campaign Classic v7 Managed Services, de Campaign v8 et de Campaign Standard.
+>Cet article s’applique à : **Campaign Classic v7 Managed Services** clients, **Campaign v8** clients et **Campaign Standard** clients.
 
 Adobe Campaign fonctionne avec des outils tiers, qui bénéficient de mises à jour de compatibilité fréquentes. Ainsi, seules les versions prises en charge dotées des derniers correctifs et améliorations sont implémentées.
 
@@ -25,7 +25,7 @@ L’équipe d’Adobe Campaign procédera à la mise à niveau de sécurité de
 
 Cette mise à niveau s’exécutera automatiquement en dehors de vos heures de bureau normales, afin que vous puissiez continuer à utiliser le service Campaign sans aucune interruption.
 
-Vos instances hors production seront mises à niveau par nos équipes, suivies par vos instances de production. Comme il s’agit d’un processus de mise à niveau automatique relevant d’Adobe, aucune action n’est requise de votre part. Contactez l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) pour tout problème rencontré.
+Votre ou vos instances hors production seront d&#39;abord mises à niveau par Adobe, puis vos instances de production seront mises à niveau. Comme il s’agit d’un processus de mise à niveau automatique relevant d’Adobe, aucune action n’est requise de votre part. Contactez l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) pour tout problème rencontré.
 
 
 >[!NOTE]
@@ -55,7 +55,7 @@ Vos instances hors production seront mises à niveau par nos équipes, suivies p
 
 * **Le client doit-il effectuer des validations ?**
 
-   Aucun test spécifique n’est nécessaire pour cette mise à niveau de sécurité. Contactez l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) pour tout problème rencontré.
+   Aucun test spécifique n’est nécessaire pour cette mise à niveau de sécurité. Contactez l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) pour tout problème rencontré..
 
 
 * **Puis-je demander un changement de date/heure du créneau prévu pour la mise à niveau de sécurité ?**
