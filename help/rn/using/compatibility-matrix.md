@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+source-git-commit: 5ce8e765866d84781b1000511e9aea4636ebd91d
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 100%
+source-wordcount: '733'
+ht-degree: 96%
 
 ---
 
@@ -227,7 +227,7 @@ Les environnements **Managed Services** (hébergé), **Hybride** et **On-premis
 </tbody>
 </table>
 
-En outre, les environnements **Hybride** et **On-premise** peuvent également connecter Campaign aux éléments suivants :
+En outre, **Hybride** et **On-premise** Les environnements peuvent également connecter Campaign avec les systèmes de base de données externes suivants. Ces systèmes sont **non compatible** avec Campaign **Managed Services** environnements (hébergés).
 
 <table>
 <tbody>
@@ -420,13 +420,7 @@ Les navigateurs ci-après sont compatibles avec Campaign pour un [accès à Inte
 <p>Dernière version</p>
 </td>
 </tr>
-<tr>
-<td>
-<p>Microsoft Internet Explorer </p>
-</td>
-<td>
-<p>11</p>
-</td>
+
 </tr>
 </tbody>
 </table>
