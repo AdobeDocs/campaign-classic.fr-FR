@@ -6,16 +6,16 @@ hide: true
 hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
 source-git-commit: a3eae4e253f66f5a651ffe0458f60b1f8bdf2258
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Adobe Campaign - Mise à jour de sécurité de la version Apache {#apache-update}
 
 >[!CAUTION]
->Cet article s’applique à : **Campaign Classic v7 Managed Services** clients, **Campaign v8** clients et **Campaign Standard** clients.
+>Cet article s’applique aux : clients de **Campaign Classic v7 Managed Services**, de **Campaign v8** et de **Campaign Standard**.
 
 Adobe Campaign fonctionne avec des outils tiers, qui bénéficient de mises à jour de compatibilité fréquentes. Ainsi, seules les versions prises en charge dotées des derniers correctifs et améliorations sont implémentées.
 
@@ -25,7 +25,7 @@ L’équipe d’Adobe Campaign procédera à la mise à niveau de sécurité de
 
 Cette mise à niveau s’exécutera automatiquement en dehors de vos heures de bureau normales, afin que vous puissiez continuer à utiliser le service Campaign sans aucune interruption.
 
-Votre ou vos instances hors production seront d&#39;abord mises à niveau par Adobe, puis vos instances de production seront mises à niveau. Comme il s’agit d’un processus de mise à niveau automatique relevant d’Adobe, aucune action n’est requise de votre part. Contactez l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) pour tout problème rencontré.
+Vos instances hors production seront d&#39;abord mises à niveau par Adobe, suivies de vos instances de production. Comme il s’agit d’un processus de mise à niveau automatique relevant d’Adobe, aucune action n’est requise de votre part. Contactez l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) pour tout problème rencontré.
 
 
 >[!NOTE]
@@ -49,9 +49,9 @@ Votre ou vos instances hors production seront d&#39;abord mises à niveau par Ad
 
    Aucune action n’est requise, car la mise à jour de sécurité s’exécutera automatiquement.
 
-* **Quel est l’impact sur les opérations/workflows en cours d’exécution pendant la période de maintenance ?**
+* **Quel est l’impact sur les campagnes/workflows en cours d’exécution pendant la période de maintenance ?**
 
-   Pendant la fenêtre de maintenance, le workflow et les services de messagerie seront arrêtés, et les activités planifiées ne seront pas exécutées. Les activités en cours ou les processus en cours d’exécution seront arrêtés pendant les temps d’arrêt jusqu’au redémarrage du serveur. Une fois l’activité terminée et le serveur redémarré, tous les services reprendront.
+   Pendant la période de maintenance, le workflow et les services de messagerie seront arrêtés, et les activités planifiées ne seront pas exécutées. Les activités en cours ou les processus en cours d’exécution seront interrompus pendant les temps d’arrêt jusqu’au redémarrage du serveur. Une fois l’activité terminée et le serveur redémarré, tous les services reprendront.
 
 * **Le client doit-il effectuer des validations ?**
 
