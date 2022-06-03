@@ -4,10 +4,10 @@ title: Campaign - Connecteur CRM Salesforce
 description: Découvrez comment connecter Campaign et Salesforce
 feature: Salesforce Integration
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
-workflow-type: ht
-source-wordcount: '357'
-ht-degree: 100%
+source-git-commit: 9a6010d824794b01224f40bb2912a9a80fc0fb88
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
