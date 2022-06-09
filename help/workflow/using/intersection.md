@@ -4,10 +4,10 @@ title: Intersection
 description: Intersection
 feature: Workflows, Targeting Activity
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: eb7a8cd2c9ff476a830dcc6e8e7c29ccd72c24f0
+source-git-commit: 389e5a87ea195024707c3c58e63899ad7949f025
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 88%
+source-wordcount: '448'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,8 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ac_workflow_intersection"
 >title="Intersection activité"
->abstract="Une activité de type Intersection crée une cible à partir de l&#39;intersection des cibles reçues. Une intersection permet d&#39;extraire uniquement la population commune à tous les résultats de l&#39;activité entrante. La cible est créée avec tous les résultats reçus : toutes les activités antérieures doivent donc être terminées avant que l&#39;intersection puisse être exécutée."
+>abstract="Une activité de type Intersection crée une cible à partir de l&#39;intersection des cibles reçues. Une intersection permet d&#39;extraire uniquement la population commune à tous les résultats de l&#39;activité entrante."
+>additional-url="https://video.tv.adobe.com/v/329373" text="Regarder une vidéo de démonstration"
 
 
 ![](../../assets/common.svg)
