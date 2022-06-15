@@ -4,8 +4,8 @@ title: Publier le pack de campagnes
 description: Publier le pack de campagnes
 feature: Distributed Marketing
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
+workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Publier le pack de campagnes{#publishing-the-campaign-package}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Les opérateurs de l&#39;entité centrale publient dans la **[!UICONTROL liste des kits d&#39;opérations]**, les kits qu&#39;ils souhaitent proposer aux entités locales.
 

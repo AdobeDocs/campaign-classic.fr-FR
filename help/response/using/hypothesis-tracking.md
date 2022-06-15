@@ -6,16 +6,16 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Suivi des hypothèses{#hypothesis-tracking}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Le résultat des calculs des hypothèses est disponible à divers niveaux de la plateforme Adobe Campaign : les indicateurs calculés par les hypothèses et les réactions de la population cible peuvent être consultés depuis l&#39;hypothèse de mesure elle-même, ainsi que dans des rapports d&#39;hypothèses accessibles depuis les opérations et les diffusions.
 
@@ -49,7 +49,7 @@ Les informations données par les indicateurs sont les suivantes :
 * **Marge totale des témoins** : somme des marges sur le nombre des témoins.
 * **Marge moyenne des contactés** : somme des marges / nombre des contactés.
 * **Marge moyenne des témoins** : somme des marges / nombre des témoins.
-* **Chiffre d&#39;affaire additionnel** : (Chiffre d&#39;affaire moyen des contactés-Chiffre d&#39;affaire moyen des témoins)*Nombre de contactés
+* **Chiffre d’affaires additionnel**: (Chiffre d’affaires moyen des contactés-Chiffre d’affaires moyen des témoins)&#42;Nombre de contactés
 * **Marge additionnelle** : (Marge moyenne des contactés-Marge moyenne des témoins) / nombre de contactés
 * **Coût moyen des contactés** : coût calculé de la diffusion / Nombre de contactés.
 * **ROI** : coût calculé de la diffusion / Marge totale des contactés
