@@ -4,7 +4,7 @@ title: À propos de la gestion de la réaction
 description: À propos de la gestion de la réaction
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
 ht-degree: 100%
 
