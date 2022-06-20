@@ -5,7 +5,7 @@ description: Découvrez comment effectuer le suivi dʼune campagne grâce au mar
 feature: Distributed Marketing
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
 ht-degree: 100%
 
