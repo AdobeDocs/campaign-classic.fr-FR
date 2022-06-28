@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 490ba0102f54e2d82e0bff1aa72b67ac118bf7a1
-workflow-type: ht
-source-wordcount: '2570'
-ht-degree: 100%
+source-git-commit: a2590a6d8df1e73d77bbdef7b8cf3b2d6efe207f
+workflow-type: tm+mt
+source-wordcount: '2576'
+ht-degree: 99%
 
 ---
 
@@ -834,6 +834,7 @@ ht-degree: 100%
    + [Recommandations relatives au dimensionnement du matériel](technotes/using/hardware-sizing.md)
    + Mises à niveau et compatibilité {#technote-migration}
       + [Notes techniques](technotes/using/technote.md)
+      + [Mise à jour vers le nouveau serveur de délivrabilité](technotes/using/deliverability-server.md)
       + [Mise à niveau de la sécurité d&#39;Apache](technotes/using/acc-apache-upgrade.md)
       + [Mises à jour de la configuration de Campaign](technotes/using/acc-config-updates.md)
       + [Mises à jour de lʼIMS](technotes/using/ims-updates.md)
