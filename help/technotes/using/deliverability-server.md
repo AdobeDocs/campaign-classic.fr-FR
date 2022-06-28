@@ -4,7 +4,7 @@ title: Migration vers le nouveau serveur de délivrabilité
 description: Découvrez comment implémenter le serveur de délivrabilité de Campaign
 hide: true
 hidefromtoc: true
-source-git-commit: a2590a6d8df1e73d77bbdef7b8cf3b2d6efe207f
+source-git-commit: cd2fa2450f6e8389e9c47c412da8943a5c8bb7f3
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 40%
@@ -30,7 +30,7 @@ Ce nouveau serveur garantit une haute disponibilité (9.9) &#x200B; et fournit d
 
 ## Cela vous concerne-t-il ?{#acc-deliverability-impacts}
 
-Si vous utilisez le serveur de délivrabilité Adobe Campaign existant et que votre environnement a été implémenté sur une version inférieure à Campaign 21.1.1, cela vous impacte. Vous devez effectuer la mise à niveau vers Campaign 21.1 (ou version ultérieure).
+Si vous utilisez l&#39;ancien serveur de délivrabilité d&#39;Adobe Campaign et que votre environnement a été implémenté sur une version inférieure à Campaign 21.1.1, vous êtes impacté. Vous devez effectuer la mise à niveau vers Campaign 21.1 (ou version ultérieure).
 
 Découvrez comment vérifier votre version [dans cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
