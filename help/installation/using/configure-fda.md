@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 97%
 
 ---
 
@@ -61,3 +61,10 @@ Suivez les liens ci-dessous pour en savoir plus :
 * Connecter Campaign et [Teradata](../../installation/using/configure-fda-teradata.md)
 
 * Connecter Campaign et [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
+
+* Connecter Campaign et [PostgreSQL](../../installation/using/configure-fda-postgresql.md)
+
+* Connecter Campaign et [Microsoft SQL Server](../../installation/using/configure-fda-sql.md)
+
+* Connecter Campaign et [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
+

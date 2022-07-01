@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
-source-git-commit: 0cfe8439007b56014eba497c511904c4f11b39ce
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '414'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ Utilisez l&#39;option Campaign **Federated Data Access** (FDA) pour traiter les 
 
 1. Configuration de [!DNL Vertica] sous [CentOS](#vertica-centos), [Windows](#vertica-windows) ou [Debian](#vertica-debian)
 1. Configuration du [compte externe](#vertica-external) [!DNL Vertica] dans Campaign
-
 
 >[!NOTE]
 >
@@ -166,4 +165,12 @@ Vous devez créer un compte externe [!DNL Vertica] pour connecter votre instance
    * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
 
    * **[!UICONTROL Base de données]** : nom de la base de données
+
    ![](assets/vertica.png)
+
+Le connecteur prend en charge les options suivantes :
+
+| Option | Description |
+|---|---|
+| TimeZoneName | Vide par défaut. C&#39;est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d&#39;utiliser cette option pour forcer le paramètre de session TIMEZONE. |
+

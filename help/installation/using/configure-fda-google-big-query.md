@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
-source-git-commit: 5d2ec0836fe5f106e0c56e5abbe7bab9332d7e18
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '829'
 ht-degree: 100%
 
 ---
@@ -193,11 +193,11 @@ Vous devez créer un compte externe [!DNL Google BigQuery] pour connecter votre 
 
 Le connecteur prend en charge les options suivantes :
 
-| Option | Valeur | Description |
-|:-:|:-:|:-:|
-| ProxyType | chaîne | Type de proxy utilisé pour se connecter à BigQuery par le biais des connecteurs ODBC et SDK. </br>HTTP (par défaut), http_no_tunnel, socks4 et socks5 sont actuellement pris en charge. |
-| ProxyHost | chaîne | Nom d’hôte ou adresse IP où le proxy peut être atteint. |
-| ProxyPort | nombre | Numéro de port sur lequel le proxy s’exécute, par exemple 8080 |
-| ProxyUid | chaîne | Nom d’utilisateur utilisé pour le proxy authentifié |
-| ProxyPwd | chaîne | Mot de passe ProxyUid |
-| bqpath | chaîne | Notez que cela s’applique uniquement à l’outil de chargement en masse (SDK Cloud). </br> Pour éviter d’utiliser la variable PATH ou si le répertoire google-cloud-sdk doit être déplacé vers un autre emplacement, vous pouvez spécifier avec cette option le chemin exact du répertoire bin du sdk cloud sur le serveur. |
+| Option | Description |
+|:-:|:-:|
+| ProxyType | Type de proxy utilisé pour se connecter à BigQuery par le biais des connecteurs ODBC et SDK. </br>HTTP (par défaut), http_no_tunnel, socks4 et socks5 sont actuellement pris en charge. |
+| ProxyHost | Nom d’hôte ou adresse IP où le proxy peut être atteint. |
+| ProxyPort | Numéro de port sur lequel le proxy s’exécute, par exemple 8080 |
+| ProxyUid | Nom d’utilisateur utilisé pour le proxy authentifié |
+| ProxyPwd | Mot de passe ProxyUid |
+| bqpath | Notez que cela s’applique uniquement à l’outil de chargement en masse (SDK Cloud). </br> Pour éviter d’utiliser la variable PATH ou si le répertoire google-cloud-sdk doit être déplacé vers un autre emplacement, vous pouvez spécifier avec cette option le chemin exact du répertoire bin du sdk cloud sur le serveur. |

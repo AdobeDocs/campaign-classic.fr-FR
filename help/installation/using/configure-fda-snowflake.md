@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 6cecc81135afd067712e51ec9c1ad3239170702e
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 81%
 
 ---
 
@@ -123,3 +123,6 @@ Le connecteur prend en charge les options suivantes :
 | TimeZoneName | Vide par défaut. C&#39;est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d&#39;utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>Pour plus d&#39;informations à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
 | WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>Pour plus d&#39;informations à ce sujet, consultez [cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
 | UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Il est possible d&#39;utiliser cette option pour désactiver les résultats de Snowflake mis en mémoire cache. <br>Pour plus d&#39;informations à ce sujet, voir [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+| bulkThreads | Nombre de threads à utiliser pour le chargeur en masse de Snowflake, plus de threads signifient de meilleures performances pour les chargements en masse plus volumineux. Par défaut, cette valeur est définie sur 1. Le nombre peut être ajusté, en fonction du nombre de threads de la machine. |
+| chunkSize | Détermine la taille de fichier du bloc de chargeur en masse. Par défaut, cette valeur est définie sur 128 Mo. Peuvent être modifiées pour des performances plus optimales, lorsqu’elles sont utilisées avec bulkThreads. Plus de threads principaux simultanés signifie de meilleures performances. <br>Voir à ce sujet la section [Documentation du Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
+| StageName | Nom de l’étape interne préconfigurée. Il sera utilisé en chargement massif au lieu de créer une nouvelle étape temporaire. |

@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1526'
 ht-degree: 100%
 
 ---
@@ -175,33 +175,27 @@ Le tableau suivant répertorie les correspondances des types de données génér
 <table> 
  <tbody> 
   <tr> 
+   <td> <strong>Adobe Campaign</strong><br /> </td> 
    <td> <strong>PosgreSQL</strong><br /> </td> 
    <td> <strong>Oracle</strong><br /> </td> 
    <td> <strong>MS SQL</strong><br /> </td> 
-   <td> <strong>Adobe Campaign</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> Chaîne <br /> </td> 
    <td> VARCHAR(255)<br /> </td> 
    <td> VARCHAR2 (NVARCHAR2 si unicode)<br /> </td> 
-   <td> VARCHAR (VARCHAR CHARACTER SET UNICODE si Unicode)<br /> </td> 
-   <td> VARCHAR<br /> </td> 
    <td> VARCHAR (NVARCHAR si unicode)<br /> </td> 
   </tr> 
   <tr> 
    <td> Booléen<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
-   <td> NUMERIC(3)<br /> </td> 
-   <td> SMALLINT<br /> </td> 
    <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Octet<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
-   <td> NUMERIC(3)<br /> </td> 
-   <td> SMALLINT<br /> </td> 
    <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
@@ -209,38 +203,28 @@ Le tableau suivant répertorie les correspondances des types de données génér
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(5)<br /> </td> 
    <td> SMALLINT<br /> </td> 
-   <td> SMALLINT<br /> </td> 
-   <td> SMALLINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Double<br /> </td> 
    <td> DOUBLE PRECISION<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
-   <td> DOUBLE<br /> </td> 
-   <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
    <td> Long<br /> </td> 
    <td> INTEGER<br /> </td> 
    <td> NUMBER(10)<br /> </td> 
-   <td> INTEGER<br /> </td> 
-   <td> INTEGER<br /> </td> 
    <td> INT<br /> </td> 
   </tr> 
   <tr> 
    <td> Int64<br /> </td> 
    <td> BIGINT<br /> </td> 
    <td> NUMBER(20)<br /> </td> 
-   <td> NUMERIC(20)<br /> </td> 
-   <td> BIGINT<br /> </td> 
    <td> BIGINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Date<br /> </td> 
    <td> DATE<br /> </td> 
-   <td> DATE<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
    <td> DATE<br /> </td> 
    <td> DATETIME<br /> </td> 
   </tr> 
@@ -248,24 +232,18 @@ Le tableau suivant répertorie les correspondances des types de données génér
    <td> Time<br /> </td> 
    <td> TIME<br /> </td> 
    <td> FLOAT<br /> </td> 
-   <td> TIME<br /> </td> 
-   <td> TIME<br /> </td> 
    <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetime<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> DATE<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
    <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012 : DATETIMEOFFSET<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetimenotz<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> DATE<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
    <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012 : DATETIME2<br /> </td> 
   </tr> 
   <tr> 
@@ -273,23 +251,17 @@ Le tableau suivant répertorie les correspondances des types de données génér
    <td> DOUBLE PRÉCISION<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
-   <td> DOUBLE<br /> </td> 
-   <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
    <td> Memo<br /> </td> 
    <td> TEXT<br /> </td> 
    <td> CLOB (NCLOB si Unicode)<br /> </td> 
-   <td> CLOB (CLOB CHARACTER SET UNICODE si Unicode)<br /> </td> 
-   <td> CLOB(6M)<br /> </td> 
    <td> TEXT (NTEXT si Unicode)<br /> </td> 
   </tr> 
   <tr> 
    <td> Blob<br /> </td> 
    <td> BLOB<br /> </td> 
    <td> BLOB<br /> </td> 
-   <td> BLOB<br /> </td> 
-   <td> BLOB(4M)<br /> </td> 
    <td> IMAGE<br /> </td> 
   </tr> 
  </tbody> 
