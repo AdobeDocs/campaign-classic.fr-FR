@@ -4,10 +4,10 @@ title: Agir sur les rapports
 description: Agir sur les rapports
 feature: Reporting
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ Pour en savoir plus sur le fichier **nlserver**, consultez [cette section](../..
 
 Vous pouvez imprimer votre rapport : pour cela, cliquez sur l&#39;icône d&#39;impression. La boîte de dialogue d&#39;impression s&#39;ouvre.
 
-Pour un meilleur résultat, éditez les options d&#39;impression d&#39;Internet Explorer et sélectionnez l&#39;option **[!UICONTROL Imprimer les couleurs et les images d&#39;arrière-plan]**.
+Pour un meilleur résultat, éditez les options d&#39;impression de l&#39;Explorateur et sélectionnez **[!UICONTROL Impression des couleurs et des images d’arrière-plan]**.
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 

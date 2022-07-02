@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 97%
 
 ---
 
@@ -27,11 +27,7 @@ La valeur par défaut de cet attribut est **.+** et vous permet de charger n’i
 
 Pour limiter les formats possibles, remplacez la valeur d’attribut par une expression java régulière valide. Vous pouvez saisir plusieurs valeurs en les séparant par une virgule.
 
-Par exemple : **uploadWhiteList=&quot;.*.png,.*.jpg&quot;** vous permet de télécharger des formats PNG et JPG sur le serveur. Aucun autre format ne sera accepté.
-
->[!NOTE]
->
->Sous Internet Explorer, le chemin complet des fichiers doit être vérifié par l&#39;expression régulière.
+Par exemple : **uploadWhiteList=&quot;.&#42;.png,.&#42;.jpg&quot;** vous permet de télécharger des formats PNG et JPG sur le serveur. Aucun autre format ne sera accepté.
 
 Vous pouvez également empêcher le téléchargement de fichiers importants en configurant le serveur Web. [En savoir plus](web-server-configuration.md)
 
