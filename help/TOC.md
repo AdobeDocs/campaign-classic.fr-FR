@@ -837,7 +837,7 @@ ht-degree: 99%
    + [Recommandations relatives au dimensionnement du matériel](technotes/using/hardware-sizing.md)
    + Mises à niveau et compatibilité {#technote-migration}
       + [Notes techniques](technotes/using/technote.md)
-      + [Mise à jour vers le nouveau serveur de délivrabilité](technotes/using/deliverability-server.md)
+      + [Effectuer une mise à jour vers le nouveau serveur de délivrabilité](technotes/using/deliverability-server.md)
       + [Mise à niveau de la sécurité d&#39;Apache](technotes/using/acc-apache-upgrade.md)
       + [Mises à jour de la configuration de Campaign](technotes/using/acc-config-updates.md)
       + [Mises à jour de lʼIMS](technotes/using/ims-updates.md)
