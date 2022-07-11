@@ -5,7 +5,7 @@ description: Découvrez comment implémenter le serveur de délivrabilité de Ca
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 6740b5eed33612bd7a3b217a8f53b07518f879fb
+source-git-commit: 4ad6f1e3a3d23383d17f947430c32fecefb3a8e1
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 64%
@@ -77,6 +77,7 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
    >[!CAUTION]
    >
    >Si vous utilisez déjà la fonctionnalité d’authentification JWT d’Adobe IO pour une autre intégration, telle qu’Analytics Connector ou Adobe Triggers, vous devez mettre à jour votre projet en ajoutant **API Campaign** à ce projet.
+
 1. Choisir **[!UICONTROL Ajout d’une API]**.
    ![](assets/Add-API.png)
 1. Dans la fenêtre **[!UICONTROL Ajouter une API]**, sélectionnez **[!UICONTROL Adobe Campaign]**.
