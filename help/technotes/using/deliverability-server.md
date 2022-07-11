@@ -5,10 +5,10 @@ description: Découvrez comment implémenter le serveur de délivrabilité de Ca
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: a007e4d5dd73f01657f1642be6f0b1a92f39e9bf
+source-git-commit: 2e4d699aef0bea4f12d1bd2d715493c4a94a74dd
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 87%
+source-wordcount: '969'
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 Depuis la version 7 21.1 de Campaign Classic, Adobe Campaign propose un nouveau serveur de délivrabilité qui assure une haute disponibilité et résout les problèmes de conformité en matière de sécurité. Campaign Classic synchronise désormais les règles de délivrabilité, les broadlogs, ainsi que l’adresse de suppression depuis et vers le nouveau serveur de délivrabilité.
 
-En tant que client Campaign Classic, vous devez implémenter le nouveau serveur de délivrabilité.
+En tant que client Campaign Classic, vous devez implémenter le nouveau serveur de délivrabilité..
 
 >[!NOTE]
 >
@@ -27,7 +27,6 @@ En tant que client Campaign Classic, vous devez implémenter le nouveau serveur
 Adobe désactive les anciens centres de données pour des raisons de conformité en matière de sécurité. Les clients Adobe Campaign Classic doivent effectuer une migration vers le nouveau serveur de délivrabilité, hébergé sur Amazon Web Service (AWS).
 
 Ce nouveau serveur garantit une haute disponibilité (99,9) et fournit des points d’entrée sécurisés et authentifiés permettant aux serveurs de campagne de récupérer les données requises. Ainsi, plutôt que de se connecter à la base de données pour chaque demande, le nouveau serveur de délivrabilité met en cache les données afin de répondre aux demandes, dans la mesure du possible. Ce mécanisme améliore le temps de réponse.
-
 
 ## Cela vous concerne-t-il ?{#acc-deliverability-impacts}
 
@@ -43,6 +42,9 @@ En tant que **client on-premise/hybride**, vous devez effectuer la mise à nivea
 
 ## Étapes d’implémentation (clients hybrides et On-premise) {#implementation-steps}
 
+Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaign doit communiquer avec les services partagés d’Adobe via une authentification basée sur Identity Management Service (IMS). La méthode recommandée consiste à utiliser le jeton de passerelle basé sur Adobe Developer (également appelé Jeton de compte technique ou JWT d’Adobe IO).
+
+
 >[!WARNING]
 >
 >Ces étapes ne doivent être effectuées que par des implémentations hybrides et On-premise.
@@ -51,11 +53,18 @@ En tant que **client on-premise/hybride**, vous devez effectuer la mise à nivea
 
 ### Conditions préalables{#prerequisites}
 
-Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaign doit communiquer avec les services partagés d’Adobe via une authentification basée sur Identity Management Service (IMS). La méthode recommandée consiste à utiliser le jeton de passerelle basé sur Adobe Developer (également appelé Jeton de compte technique ou JWT Adobe IO).
+Avant de commencer l’implémentation, vérifiez la configuration de votre instance.
+
+1. Ouvrez la console cliente Campaign et connectez-vous à Adobe Campaign en tant qu&#39;administrateur.
+1. Accédez à **Administration > Plateforme > Options**.
+1. Vérifiez que la valeur de l’option `DmRendering_cuid` est renseignée.
+
+   * Si cette option est remplie, vous pouvez lancer la mise en oeuvre.
+   * Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour obtenir votre CUID.
+
+      Cette option doit être renseignée sur toutes vos instances Campaign (MKT, MID, RT, EXEC) avec la même valeur.
 
 ### Étape 1 : Créer/mettre à jour votre projet Adobe Developer {#adobe-io-project}
-
-
 
 1. Accédez à [Adobe Developer Console](https://developer.adobe.com/console/home) et connectez-vous avec l’accès développeur de votre organisation.
 
@@ -126,15 +135,7 @@ Pour ce faire :
 
 1. Vous devez arrêter et redémarrer le serveur pour que cette modification soit prise en compte. Vous pouvez également exécuter une commande `config -reload`.
 
-### Étape 3 : vérifier votre configuration
-
-Une fois les paramètres définis, vous pouvez vérifier la configuration de votre instance. Procédez comme suit :
-
-1. Ouvrez la console cliente et connectez-vous à Adobe Campaign en tant qu’administrateur.
-1. Accédez à **Administration > Plateforme > Options**.
-1. Vérifiez que la valeur de l’option `DmRendering_cuid` est renseignée. Cette valeur doit être renseignée sur toutes vos instances Campaign (MKT, MID, RT, EXEC). Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour obtenir votre CUID.
-
-### Étape 4 : activer le nouveau serveur de délivrabilité
+### Étape 3 : activer le nouveau serveur de délivrabilité
 
 Vous pouvez maintenant activer le nouveau serveur de délivrabilité. Procédez comme suit :
 
@@ -142,7 +143,7 @@ Vous pouvez maintenant activer le nouveau serveur de délivrabilité. Procédez 
 1. Accédez à **Administration > Plateforme > Options**.
 1. Accédez à l’option `NewDeliverabilityServer_FeatureFlag` et définissez la valeur sur `1`. Cette configuration doit être effectuée sur toutes vos instances Campaign (MKT, MID, RT, EXEC).
 
-### Étape 5 : valider votre configuration
+### Étape 4 : valider votre configuration
 
 Pour vérifier que l’intégration est réussie, procédez comme suit :
 
