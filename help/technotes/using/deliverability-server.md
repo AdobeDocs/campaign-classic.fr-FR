@@ -5,10 +5,10 @@ description: Découvrez comment implémenter le serveur de délivrabilité de Ca
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: cc13afe3b65864ced1141034344c8243a1939834
-workflow-type: ht
-source-wordcount: '952'
-ht-degree: 100%
+source-git-commit: a007e4d5dd73f01657f1642be6f0b1a92f39e9bf
+workflow-type: tm+mt
+source-wordcount: '965'
+ht-degree: 87%
 
 ---
 
@@ -20,9 +20,9 @@ En tant que client Campaign Classic, vous devez implémenter le nouveau serveur
 
 >[!NOTE]
 >
->Pour toute question sur ces modifications, consultez le [FAQ](#faq-aa). Pour plus d&#39;informations, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Pour toute question sur ces modifications, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
-## Qu&#39;est-ce qui a changé ?{#acc-deliverability-changes}
+## Qu’est-ce qui a changé ?{#acc-deliverability-changes}
 
 Adobe désactive les anciens centres de données pour des raisons de conformité en matière de sécurité. Les clients Adobe Campaign Classic doivent effectuer une migration vers le nouveau serveur de délivrabilité, hébergé sur Amazon Web Service (AWS).
 
@@ -37,19 +37,17 @@ Découvrez comment vérifier votre version [dans cette section](../../platform/u
 
 ## Comment effectuer la mise à jour ?{#acc-deliverability-update}
 
-En tant que client hébergé, Adobe collaborera avec vous afin de mettre à niveau votre ou vos instance(s) vers la nouvelle version.
+Comme **client hébergé**, Adobe collaborera avec vous pour mettre à niveau votre ou vos instances vers la version la plus récente et créer le projet dans la console Adobe Developer.
 
-En tant que client On-premise/hybride, vous devez effectuer la mise à niveau vers l’une des versions les plus récentes pour bénéficier du nouveau serveur de délivrabilité
-.
-Une fois toutes les instances mises à niveau, vous pouvez [implémenter la nouvelle intégration](#implementation-steps) vers le serveur de délivrabilité d’Adobe, et assurer ainsi une transition transparente.
+En tant que **client on-premise/hybride**, vous devez effectuer la mise à niveau vers l’une des versions les plus récentes pour bénéficier du nouveau serveur de délivrabilité. Une fois toutes les instances mises à niveau, vous pouvez [implémenter la nouvelle intégration](#implementation-steps) vers le serveur de délivrabilité d’Adobe, et assurer ainsi une transition transparente.
 
 ## Étapes d’implémentation (clients hybrides et On-premise) {#implementation-steps}
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Ces étapes ne doivent être effectuées que par des implémentations hybrides et On-premise.
 >
->Pour les implémentations hébergées, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Pour les implémentations hébergées, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ### Conditions préalables{#prerequisites}
 
@@ -57,29 +55,45 @@ Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaig
 
 ### Étape 1 : Créer/mettre à jour votre projet Adobe Developer {#adobe-io-project}
 
+
+
 1. Accédez à [Adobe Developer Console](https://developer.adobe.com/console/home) et connectez-vous avec l’accès développeur de votre organisation.
 
    >[!NOTE]
    >
    > Assurez-vous d’être connecté au portail d’organisation approprié.
 
-1. Sélectionnez **[!UICONTROL + Ajouter au projet]** et choisissez **[!UICONTROL API]**.
-1. Dans la fenêtre **[!UICONTROL Ajouter une API]**, sélectionnez **[!UICONTROL Adobe Campaign]**.
-1. Sélectionnez **[!UICONTROL Compte de service (JWT)]** comme type d’authentification.
-1. Si l’identifiant du client était vide, sélectionnez **[!UICONTROL Générer une paire de clés]** pour créer une paire de clés publique et privée.
+1. Sélectionner **[!UICONTROL Créer un projet]**.
+   ![](assets/New-Project.png)
 
-   Les clés seront alors automatiquement téléchargées avec une date d’expiration par défaut de 365 jours. Une fois la date d’expiration atteinte, vous devez générer une nouvelle paire de clés et mettre à jour l’intégration dans le fichier de configuration. L’option 2 vous permet de créer et de télécharger manuellement votre **[!UICONTROL clé publique]** avec une date d’expiration plus longue.
 
    >[!CAUTION]
    >
-   >Vous devez enregistrer le fichier config.zip lorsque l&#39;invite de téléchargement s&#39;affiche, car vous ne pourrez plus le télécharger.
+   >Si vous utilisez déjà la fonctionnalité d’authentification JWT d’Adobe IO pour une autre intégration, telle qu’Analytics Connector ou Adobe Triggers, vous devez mettre à jour votre projet en ajoutant **API Campaign** à ce projet.
+1. Choisir **[!UICONTROL Ajout d’une API]**.
+   ![](assets/Add-API.png)
+1. Dans la fenêtre **[!UICONTROL Ajouter une API]**, sélectionnez **[!UICONTROL Adobe Campaign]**.
+   ![](assets/AC-API.png)
+<!--1. Choose **[!UICONTROL Service Account (JWT)]** as the authentication type.-->
+1. Si l’identifiant du client était vide, sélectionnez **[!UICONTROL Générer une paire de clés]** pour créer une paire de clés publique et privée.
+   ![](assets/Generate-a-key-pair.png)
+
+   Les clés seront alors automatiquement téléchargées avec une date d’expiration par défaut de 365 jours. Une fois la date d’expiration atteinte, vous devez générer une nouvelle paire de clés et mettre à jour l’intégration dans le fichier de configuration. L’option 2 vous permet de créer et de télécharger manuellement votre **[!UICONTROL clé publique]** avec une date d’expiration plus longue.
+   ![](assets/New-key-pair.png)
+
+   >[!CAUTION]
+   >
+   >Vous devez enregistrer la variable `config.zip` lorsque l’invite de téléchargement apparaît, car vous ne pourrez plus le télécharger.
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
-1. Sélectionnez un **[!UICONTROL profil de produit]** existant ou créez-en un si nécessaire. Aucune autorisation n’est requise pour ce **[!UICONTROL profil de produit]**. Pour en savoir plus sur les **[!UICONTROL Profils de produit]** [!DNL Analytics], consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html).
+1. Sélectionnez un **[!UICONTROL profil de produit]** existant ou créez-en un si nécessaire. Aucune autorisation n’est requise pour ce **[!UICONTROL profil de produit]**. Pour en savoir plus sur les Profils de produit ****, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html).
+   ![](assets/Product-Profile-API.png)
 
    Cliquez ensuite sur **[!UICONTROL Enregistrer l’API configurée]**.
 
-1. Dans votre projet, sélectionnez **[!UICONTROL Adobe Campaign]** et copiez les informations suivantes sous **[!UICONTROL Compte Service (JWT)]** :
+1. Dans votre projet, sélectionnez **[!UICONTROL Adobe Campaign]** et copiez les informations suivantes sous **[!UICONTROL Compte de service (JWT)]**
+
+   ![](assets/Config-API.png)
 
    * **[!UICONTROL Identifiant du client]**
    * **[!UICONTROL Secret du client]**
@@ -118,7 +132,7 @@ Une fois les paramètres définis, vous pouvez vérifier la configuration de vot
 
 1. Ouvrez la console cliente et connectez-vous à Adobe Campaign en tant qu’administrateur.
 1. Accédez à **Administration > Plateforme > Options**.
-1. Vérifiez que la valeur de l’option `DmRendering_cuid` est renseignée. Cette valeur doit être renseignée sur toutes vos instances Campaign (MKT, MID, RT, EXEC). Si ce n’est pas le cas, veillez à renseigner la valeur. Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour obtenir votre CUID.
+1. Vérifiez que la valeur de l’option `DmRendering_cuid` est renseignée. Cette valeur doit être renseignée sur toutes vos instances Campaign (MKT, MID, RT, EXEC). Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour obtenir votre CUID.
 
 ### Étape 4 : activer le nouveau serveur de délivrabilité
 
@@ -127,7 +141,6 @@ Vous pouvez maintenant activer le nouveau serveur de délivrabilité. Procédez 
 1. Ouvrez la console cliente et connectez-vous à Adobe Campaign en tant qu’administrateur.
 1. Accédez à **Administration > Plateforme > Options**.
 1. Accédez à l’option `NewDeliverabilityServer_FeatureFlag` et définissez la valeur sur `1`. Cette configuration doit être effectuée sur toutes vos instances Campaign (MKT, MID, RT, EXEC).
-
 
 ### Étape 5 : valider votre configuration
 
@@ -139,14 +152,4 @@ Pour vérifier que l’intégration est réussie, procédez comme suit :
 1. Redémarrez le workflow **Mise à jour pour la délivrabilité** (deliverabilityUpdate). Cette opération doit être réalisée sur toutes vos instances Campaign (MKT, MID, RT, EXEC).
 1. Vérifier les logs : le workflow doit s’exécuter sans erreur.
 
-## FAQ{#faq-aa}
-
-Q :
-R :
-
-Q :
-R :
-
-
-
-Pour d’autres conseils, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Pour d’autres conseils, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
