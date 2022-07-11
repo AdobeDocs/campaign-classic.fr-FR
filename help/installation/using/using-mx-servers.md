@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: 6740b5eed33612bd7a3b217a8f53b07518f879fb
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
@@ -64,7 +64,7 @@ Adobe Campaign gère ce processus en établissant une correspondance entre un t
 >
 >Pour en savoir plus sur les types et les raisons d’un échec des diffusions, consultez cette [section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-## Instance de délivrabilité
+## Instance de délivrabilité {#deliveratbility-env}
 
 Une mise à jour quotidienne des règles MX et des règles de rebond est gérée par un workflow spécifique dans l’instance client qui est connectée au propriétaire de l’instance de délivrabilité de ces règles.
 

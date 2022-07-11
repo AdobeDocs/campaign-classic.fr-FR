@@ -5,10 +5,10 @@ description: Découvrez comment implémenter le serveur de délivrabilité de Ca
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 2c70b5a4434b9fb22490eb3c1705f4e5c803643e
+source-git-commit: 6740b5eed33612bd7a3b217a8f53b07518f879fb
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 79%
+source-wordcount: '1109'
+ht-degree: 64%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 79%
 
 Depuis la version 7 21.1 de Campaign Classic, Adobe Campaign propose un nouveau serveur de délivrabilité qui assure une haute disponibilité et résout les problèmes de conformité en matière de sécurité. Campaign Classic synchronise désormais les règles de délivrabilité, les broadlogs, ainsi que l’adresse de suppression depuis et vers le nouveau serveur de délivrabilité.
 
-En tant que client Campaign Classic, vous devez implémenter le nouveau serveur de délivrabilité..
+En tant que client Campaign Classic, vous devez implémenter le nouveau serveur de délivrabilité. **avant le 31 août 2022**.
 
 >[!NOTE]
 >
->Pour toute question sur ces modifications, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Pour toute question concernant ces modifications, reportez-vous à la section [FAQ](#faq)ou contactez [Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Qu’est-ce qui a changé ?{#acc-deliverability-changes}
 
@@ -30,7 +30,7 @@ Ce nouveau serveur garantit une haute disponibilité (99,9) et fournit des point
 
 ## Cela vous concerne-t-il ?{#acc-deliverability-impacts}
 
-Si vous utilisez l’ancien serveur de délivrabilité d’Adobe Campaign et que votre environnement a été implémenté sur une version antérieure à Campaign 21.1.1, vous êtes concerné. Vous devez effectuer la mise à niveau vers Campaign 21.1 (ou une version ultérieure).
+Si votre environnement a été implémenté sur une version inférieure à [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2), vous êtes affecté. Vous devez effectuer la mise à niveau vers Campaign v7.2.1 (ou version ultérieure).
 
 Découvrez comment vérifier votre version [dans cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
@@ -150,5 +150,22 @@ Pour vérifier que l’intégration est réussie, procédez comme suit :
 1. Accédez à **Administration > Production > Workflows techniques**.
 1. Redémarrez le workflow **Mise à jour pour la délivrabilité** (deliverabilityUpdate). Cette opération doit être réalisée sur toutes vos instances Campaign (MKT, MID, RT, EXEC).
 1. Vérifier les logs : le workflow doit s’exécuter sans erreur.
+
+
+## Forum aux questions {#faq}
+
+### Que se passe-t-il si je ne mets pas à niveau mon environnement ?
+
+Toute instance de Campaign non mise à niveau d&#39;ici le 31 août ne pourra plus se connecter au serveur de délivrabilité de Campaign. Par conséquent, la **Mise à jour pour la délivrabilité** Le workflow (deliverabilityUpdate) échouera. Ce workflow gère la mise à jour quotidienne des règles MX et des règles d&#39;inbounces.
+
+Si vous ne mettez pas à niveau votre environnement, les paramètres d’email cesseront d’être synchronisés (règles de gestion MX, règles de mail entrant, règles de gestion des domaines et règles de qualification des bounces). Cela peut avoir une incidence sur votre délivrabilité au fil du temps. Si une modification importante est apportée à ces règles, celles-ci doivent être appliquées manuellement à partir de ce point.
+
+Pour les instances MKT uniquement [Liste de suppression globale](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) est affectée.
+
+### Je ne peux pas effectuer la mise à niveau maintenant. Quel est le conseil ?
+
+Si vous ne pouvez pas mettre à niveau votre instance avant le 31 août, vous devez désactiver temporairement la variable **Mise à jour pour la délivrabilité** (deliverabilityUpdate) jusqu&#39;à la fin de la mise à niveau afin de ne pas tenter de se synchroniser avec l&#39;ancien serveur de délivrabilité.
+
+
 
 Pour d’autres conseils, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
