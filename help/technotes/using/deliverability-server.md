@@ -5,9 +5,9 @@ description: Découvrez comment implémenter le serveur de délivrabilité de Ca
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 2e4d699aef0bea4f12d1bd2d715493c4a94a74dd
+source-git-commit: 2c70b5a4434b9fb22490eb3c1705f4e5c803643e
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '951'
 ht-degree: 79%
 
 ---
@@ -40,7 +40,7 @@ Comme **client hébergé**, Adobe collaborera avec vous pour mettre à niveau vo
 
 En tant que **client on-premise/hybride**, vous devez effectuer la mise à niveau vers l’une des versions les plus récentes pour bénéficier du nouveau serveur de délivrabilité. Une fois toutes les instances mises à niveau, vous pouvez [implémenter la nouvelle intégration](#implementation-steps) vers le serveur de délivrabilité d’Adobe, et assurer ainsi une transition transparente.
 
-## Étapes d’implémentation (clients hybrides et On-premise) {#implementation-steps}
+## Étapes dʼimplémentation {#implementation-steps}
 
 Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaign doit communiquer avec les services partagés d’Adobe via une authentification basée sur Identity Management Service (IMS). La méthode recommandée consiste à utiliser le jeton de passerelle basé sur Adobe Developer (également appelé Jeton de compte technique ou JWT d’Adobe IO).
 
@@ -48,8 +48,6 @@ Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaig
 >[!WARNING]
 >
 >Ces étapes ne doivent être effectuées que par des implémentations hybrides et On-premise.
->
->Pour les implémentations hébergées, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ### Conditions préalables{#prerequisites}
 
