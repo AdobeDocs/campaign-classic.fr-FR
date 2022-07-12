@@ -2,10 +2,11 @@
 product: campaign
 title: Configurer l’accès à Microsoft SQL Server
 description: Découvrez comment configurer l’accès à Microsoft SQL Server
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
-workflow-type: tm+mt
+exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
+source-git-commit: 6b7638eec1718edf30f81005cd6691dd271aaa0c
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
@@ -13,22 +14,22 @@ ht-degree: 39%
 
 ![](../../assets/v7-only.svg)
 
-Utiliser Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans une base externe Microsoft SQL Server. Suivez les étapes ci-dessous pour Configuration de l&#39;accès à [!DNL Microsoft SQL Server].
+Utilisez l’option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans une base de données Microsoft SQL Server externe. Suivez les étapes ci-dessous pour configurer l’accès à [!DNL Microsoft SQL Server].
 
-1. Configurer [!DNL Microsoft SQL Server] on [CentOS](#sql-centos).
+1. Configurez [!DNL Microsoft SQL Server] sous [CentOS](#sql-centos).
 1. Configurez [!DNL Microsoft SQL Server] sous [Linux](#sql-linux).
-1. Configurer [!DNL Microsoft SQL Server] on [Windows](#sql-windows).
+1. Configurez [!DNL Microsoft SQL Server] sous [Windows](#sql-windows).
 1. Configuration du [compte externe](#sql-external) [!DNL Microsoft SQL Server] dans Campaign
 
 ## Microsoft SQL Server sous CentOS {#sql-centos}
 
 >[!NOTE]
 >
-> [!DNL Microsoft SQL Server] est disponible sur CentOS 7 et 6.
+> [!DNL Microsoft SQL Server] est disponible sous CentOS 7 et 6.
 
-Pour effectuer la configuration de [!DNL Microsoft SQL Server] sur CentOS, procédez comme suit :
+Pour configurer [!DNL Microsoft SQL Server] sous CentOS, procédez comme suit :
 
-1. Téléchargez et installez le pilote ODBC SQL avec la commande suivante :
+1. Téléchargez et installez le pilote ODBC SQL avec la commande suivante :
 
    ```
    sudo su
@@ -44,11 +45,11 @@ Pour effectuer la configuration de [!DNL Microsoft SQL Server] sur CentOS, proc�
 
 >[!NOTE]
 >
-> Si vous exécutez une ancienne version d’Adobe Campaign (antérieure à la version 7.2.1), vous devez installer `unix ODBC drivers`.
+> Si vous exécutez une ancienne version d’Adobe Campaign (antérieure à la version 7.2.1), vous devez installer `unix ODBC drivers`.
 
 1. Téléchargez le pilote ODBC MS à partir de [cette page](https://packages.microsoft.com/ubuntu/16.04/prod/pool/main/m/msodbcsql17/).
 
-1. Exécutez la commande suivante en tant qu’utilisateur root :
+1. Exécutez la commande suivante en tant qu’utilisateur racine :
 
    ```
    # install the mssql odbc that was downloaded
@@ -60,15 +61,15 @@ Pour effectuer la configuration de [!DNL Microsoft SQL Server] sur CentOS, proc�
 
 ## Microsoft SQL Server sous Windows {#sql-windows}
 
-Pour configurer [!DNL Microsoft SQL Server] sous Windows :
+Pour configurer [!DNL Microsoft SQL Server] sous Windows :
 
-1. Sous Windows, cliquez sur **[!UICONTROL Panneau de Contrôle]** &#39;>&#39; **[!UICONTROL Système et sécurité]** &#39;>&#39; **[!UICONTROL Outils d’administration]**&#39;>&#39; **[!UICONTROL Sources de données ODBC (64 bits)]**.
+1. Sous Windows, cliquez sur **[!UICONTROL Panneau de configuration]** &#39;>&#39; **[!UICONTROL Système et sécurité]** &#39;>&#39; **[!UICONTROL Outils d’administration]**&#39;>&#39; **[!UICONTROL Sources de données ODBC (64 bits)]**.
 
-1. Dans la **[!UICONTROL Sources de données ODBC (64 bits)]** nouvelle fenêtre, cliquez sur **[!UICONTROL Ajouter...]**.
+1. Dans la nouvelle fenêtre **[!UICONTROL Sources de données ODBC (64 bits)]**, cliquez sur **[!UICONTROL Ajouter...]**
 
-1. Vérifiez si SQL Server Native Client v11 est répertorié dans la variable **[!UICONTROL Créer une source de données]** fenêtre.
+1. Vérifiez si SQL Server Native Client v11 est répertorié dans la fenêtre **[!UICONTROL Créer une source de données]**.
 
-1. Si SQL Server Native Client n’est pas répertorié, vous pouvez le télécharger dans [cette page](https://www.microsoft.com/en-my/download/details.aspx?id=36434).
+1. Si SQL Server Native Client n’est pas répertorié, vous pouvez le télécharger sur [cette page](https://www.microsoft.com/en-my/download/details.aspx?id=36434).
 
 1. Dans Adobe Campaign, vous pouvez ensuite configurer votre compte externe [!DNL Microsoft SQL Server]. Pour plus d&#39;informations sur la configuration de votre compte externe, voir [cette section](#sql-external).
 
@@ -86,9 +87,9 @@ Vous devez créer un compte externe [!DNL Microsoft SQL Server] pour connecter v
 
    ![](assets/sql.png)
 
-1. Configurez la variable **[!UICONTROL Microsoft SQL Server]** authentification de compte externe :
+1. Configurez l’authentification de compte externe **[!UICONTROL Microsoft SQL Server]** :
 
-   * **[!UICONTROL Serveur]**: URL de la [!DNL Microsoft SQL Server] serveur.
+   * **[!UICONTROL Serveur]** : URL du serveur [!DNL Microsoft SQL Server].
 
    * **[!UICONTROL Compte]** : nom de l’utilisateur.
 
@@ -96,7 +97,7 @@ Vous devez créer un compte externe [!DNL Microsoft SQL Server] pour connecter v
 
    * **[!UICONTROL Base de données]** : nom de la base de données (facultatif).
 
-   * **[!UICONTROL Fuseau horaire]** : Fuseau horaire défini dans [!DNL Microsoft SQL Server]. [En savoir plus](https://docs.microsoft.com/en-us/sql/t-sql/functions/current-timezone-transact-sql?view=sql-server-ver15)
+   * **[!UICONTROL Fuseau horaire]** : fuseau horaire défini dans [!DNL Microsoft SQL Server]. [En savoir plus](https://docs.microsoft.com/fr-fr/sql/t-sql/functions/current-timezone-transact-sql?view=sql-server-ver15)
 
 1. Cliquez sur l’onglet **[!UICONTROL Paramètres]**, puis sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer des fonctions.
 
@@ -110,7 +111,6 @@ Le connecteur prend en charge les options suivantes :
 
 | Option | Description |
 |---|---|
-| Authentification | Type d’authentification pris en charge par le connecteur. Current supported value : ActiveDirectoryMSI. <br> Voir à ce sujet l’exemple 8 de la section [Documentation Microsoft](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings). |
-| Chiffrer | Indique si les connexions utilisent le chiffrement TLS sur le réseau. Les valeurs possibles sont **yes/mandatory (18.0 et versions ultérieures)**, **non/facultatif (18.0 et versions ultérieures)**, et **strict (18.0 et versions ultérieures)**. La valeur par défaut est définie sur **oui** dans les versions 18.0 et ultérieures et **non** dans les versions précédentes. <br>Voir à ce sujet la section [Documentation Microsoft](https://docs.microsoft.com/en-us/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt). |
-| TrustServerCertificate | Active le chiffrement à l’aide d’un certificat de serveur autosigné, lorsqu’il est utilisé avec **Chiffrer**. <br>Valeurs acceptées : **oui** ou **non** (valeur par défaut, ce qui signifie que le certificat du serveur sera validé). |
-
+| Authentification | Type d’authentification pris en charge par le connecteur. Valeur actuelle prise en charge : ActiveDirectoryMSI. <br> Voir à ce sujet l’exemple 8 de la [documentation Microsoft](https://docs.microsoft.com/fr-fr/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings). |
+| Chiffrer | Indique si les connexions utilisent le chiffrement TLS sur le réseau. Les valeurs possibles sont **oui/obligatoire (18.0 et versions ultérieures)**, **non/facultatif (18.0 et versions ultérieures)** et **strict (18.0 et versions ultérieures)**. La valeur par défaut est définie sur **oui** dans les versions 18.0 et ultérieures et **non** dans les versions précédentes. <br>Pour plus d’informations à ce propos, consultez la [documentation Microsoft](https://docs.microsoft.com/fr-fr/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt). |
+| TrustServerCertificate | Active le chiffrement à l’aide d’un certificat de serveur autosigné, lorsqu’il est utilisé avec **Chiffrer**. <br>Valeurs acceptées : **oui** ou **non** (valeur par défaut, ce qui signifie que le certificat du serveur sera validé). |
