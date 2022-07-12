@@ -3,8 +3,8 @@ product: campaign
 title: Diffusions
 description: En savoir plus sur les workflows de diffusions par défaut
 feature: Workflows
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 25e8acdc449c7002e467db17e7c70e3dc017dded
+workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
 
