@@ -7,9 +7,9 @@ user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2585'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 99%
    + Confidentialité {#privacy}
       + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
       + [Gestion de la confidentialité](platform/using/privacy-management.md)
-      + Demandes d&#39;accès à des informations personnelles {#privacy-requests}
+      + Demandes d&#39;accès à des informations personnelles  {#privacy-requests}
          + [À propos des demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
          + [Créer et gérer les demandes d’accès à des informations personnelles](platform/using/privacy-requests-ui.md)
          + [Processus automatique de demande d&#39;accès à des informations personnelles](platform/using/privacy-requests-api.md)
@@ -477,7 +477,7 @@ ht-degree: 99%
          + [Chargement du contenu de la diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle     {#monitoring}
+      + Contrôle      {#monitoring}
          + [Envoi d’un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Supervision de vos workflows](workflow/using/supervising-workflows.md)
          + [Envoi d’alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -677,8 +677,8 @@ ht-degree: 99%
             + [Configurer Sybase IQ](installation/using/configure-fda-sybase.md)
             + [Configurer Teradata](installation/using/configure-fda-teradata.md)
             + [Configurer SAP HANA](installation/using/configure-fda-sap-hana.md)
-            + [Configuration de Microsoft SQL Server](installation/using/configure-fda-sql.md)
-            + [Configuration de PostgreSQL](installation/using/configure-fda-postgresql.md)
+            + [Configurer Microsoft SQL Server](installation/using/configure-fda-sql.md)
+            + [Configurer PostgreSQL](installation/using/configure-fda-postgresql.md)
          + [Droits d’accès distants](installation/using/remote-database-access-rights.md)
          + [Connexion à la base de données](installation/using/connecting-to-database.md)
          + [Création du schéma de données](installation/using/creating-data-schema.md)
@@ -690,7 +690,7 @@ ht-degree: 99%
       + [Création d’instances](installation/using/creating-new-instances.md)
       + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstallation de Campaign](installation/using/uninstalling-campaign.md)
-      + [Installer de nouvelles polices](installation/using/install-fonts.md)
+      + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
    + Introduction {#introduction}
       + [Avant-propos](production/using/foreword.md)
