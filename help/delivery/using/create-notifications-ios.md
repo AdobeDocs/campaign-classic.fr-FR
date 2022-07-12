@@ -5,9 +5,9 @@ description: Découvrez comment créer des notifications push pour iOS
 feature: Push
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1064'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
 
 1. Vous pouvez ajouter un **[!UICONTROL Sous-titre]**, valeur du paramètre sous-titre de la payload de notification iOS. Consultez [cette section](configuring-the-mobile-application.md).
 
-1. Saisissez le contenu du message dans la section **[!UICONTROL Contenu du message]** de l’assistant. L&#39;utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](about-personalization.md).
+1. Saisissez le contenu du message dans la section **[!UICONTROL Contenu du message]** de l’assistant. L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](about-personalization.md).
 
    ![](assets/nmac_delivery_ios_5.png)
 
@@ -106,9 +106,9 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
 
       * **[!UICONTROL Passif]** : le système ajoute la notification à la liste de notifications sans allumer l’écran ni émettre de son. Les notifications ne passent pas en mode Thème.
 
-      * **[!UICONTROL Respect de la durée]**: Le système présente immédiatement la notification, allume l&#39;écran, peut émettre un son et se déplier en mode Mise au point. Ce niveau ne nécessite pas d’autorisation spéciale de la part d’Apple.
+      * **[!UICONTROL Sensible à l’heure]** : le système présente immédiatement la notification, allume l’écran, peut émettre un son et passer en mode Concentration. Ce niveau ne nécessite pas d’autorisation spéciale de la part d’Apple.
 
-      * **[!UICONTROL Critique]**: Le système présente immédiatement la notification, allume l’écran et contourne le bouton d’arrêt ou le mode de mise au point. Notez que ce niveau nécessite une autorisation spéciale de la part d’Apple.
+      * **[!UICONTROL Critique]** : le système présente immédiatement la notification, allume l’écran et contourne le bouton de désactivation ou le mode Concentration. Notez que ce niveau nécessite une autorisation spéciale de la part d’Apple.
    * **[!UICONTROL Score de pertinence]** : définissez un score de pertinence compris entre 0 et 100. Le système l’utilise pour trier les notifications dans le résumé de la notification.
 
    ![](assets/nmac_delivery_ios_8.png)
@@ -123,7 +123,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
    >
    >L&#39;aperçu utilise l&#39;apparence d&#39;iOS 10.
 
-L&#39;envoi du BAT et l&#39;envoi final de la notification s&#39;effectuent de la même manière que pour une diffusion par e-mail. [En savoir plus](steps-validating-the-delivery.md)
+L’envoi du BAT et l’envoi final de la notification s’effectuent de la même manière que pour une diffusion par e-mail. [En savoir plus](steps-validating-the-delivery.md)
 
 Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions. Pour plus d’informations, consultez les sections suivantes :
 
@@ -159,7 +159,7 @@ Vous devez maintenant créer une nouvelle diffusion et l’associer à l’appli
 
    ![](assets/nmac_ios_7.png)
 
-1. Dans la **[!UICONTROL Variables d’application]** , votre **[!UICONTROL Variables d’application]** sont automatiquement ajoutés en fonction de ce qui a été ajouté lors des étapes de configuration.
+1. Dans l’onglet **[!UICONTROL Variables d’application]**, vos **[!UICONTROL variables d’application]** sont automatiquement ajoutées en fonction de ce qui a été ajouté lors des étapes de configuration.
 
    >[!NOTE]
    >
@@ -167,7 +167,7 @@ Vous devez maintenant créer une nouvelle diffusion et l’associer à l’appli
 
    ![](assets/nmac_ios_10.png)
 
-1. Dans la **[!UICONTROL Avancé]** , vérifiez les **[!UICONTROL Contenu mutable]** pour permettre à l’application mobile de télécharger du contenu multimédia.
+1. Dans l’onglet **[!UICONTROL Avancé]**, cochez la case **[!UICONTROL Contenu mutable]** pour permettre à l’application mobile de télécharger du contenu multimédia.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**, puis envoyez votre diffusion.
 
