@@ -5,9 +5,9 @@ description: Créer une landing page
 feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '764'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Vous devez effectuer ces étapes pour chacune des pages insérées dans l&#39;ap
 
 >[!CAUTION]
 >
->**Le DCE exécute le code JavaScript pour la page de HTML chargée.** Erreurs JavaScript dans le modèle de HTML qui peuvent apparaître dans l&#39;interface d&#39;Adobe Campaign. Ces erreurs ne sont pas liées à l’éditeur. Pour vérifier qu’il n’y a aucune erreur dans les fichiers importés, il est recommandé de les tester dans un navigateur web avant d’importer les fichiers dans le DCE.
+>**Le DCE exécute le code JavaScript pour la page HTML chargée.** Erreurs JavaScript dans le modèle HTML qui peuvent apparaître dans l’interface d’Adobe Campaign. Ces erreurs ne sont pas liées à l’éditeur. Pour vérifier qu’il n’y a aucune erreur dans les fichiers importés, il est recommandé de les tester dans un navigateur web avant d’importer les fichiers dans le DCE.
 
 ## Etape 2 - Paramétrage du contenu {#step-2---configuring-the-content}
 
