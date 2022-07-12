@@ -1,29 +1,30 @@
 ---
 product: campaign
-title: Configurer l'accès à PostgreSQL
-description: Découvrez comment configurer l'accès à PostgreSQL
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
-workflow-type: tm+mt
+title: Configurer l’accès à PostgreSQL
+description: Découvrez comment configurer l’accès à PostgreSQL
+exl-id: 2c678f45-2555-4647-9885-bd002db7df37
+source-git-commit: 6b7638eec1718edf30f81005cd6691dd271aaa0c
+workflow-type: ht
 source-wordcount: '388'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
-# Configurer l&#39;accès à PostgreSQL {#configure-fda-postgresql}
+# Configurer l’accès à PostgreSQL {#configure-fda-postgresql}
 
 ![](../../assets/v7-only.svg)
 
-Utiliser Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans une base externe PostgreSQL.
+Utilisez l’option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans une base de données PostgreSQL externe.
 
-## Configuration PostgreSQL {#postgresql-configuration}
+## Configuration de PostgreSQL {#postgresql-configuration}
 
 Vous devez d’abord installer Libpq. Libpq permet aux programmes clients d’envoyer des requêtes au serveur principal PostgreSQL et de recevoir les résultats de ces requêtes.
 
-Suivez les étapes ci-dessous pour Configuration de l&#39;accès à [!DNL PostgreSQL]:
+Suivez les étapes ci-dessous pour configurer l’accès à [!DNL PostgreSQL] :
 
-* Pour CentOS, exécutez la commande suivante : `sudo apt-get -y install libpq-dev`.
+* Pour CentOS, exécutez la commande suivante : `sudo apt-get -y install libpq-dev`.
 
-* Pour Linux, exécutez la commande suivante `yum install postgresql-devel`.
+* Pour Linux, exécutez la commande suivante : `yum install postgresql-devel`.
 
 * Pour Windows, Libpq est implémenté via `libpq.dll` qui est inclus dans l’installation d’Adobe Campaign.
 
@@ -33,7 +34,7 @@ Dans Adobe Campaign, vous pouvez ensuite configurer votre compte externe [!DNL 
 
 >[!NOTE]
 >
-> PostgreSQL est disponible sur CentOS 7 et 6.
+> PostgreSQL est disponible sous CentOS 7 et 6.
 
 Vous devez créer un compte externe [!DNL PostgreSQL] pour connecter votre instance Campaign à votre base de données [!DNL PostgreSQL] externe.
 
@@ -47,9 +48,9 @@ Vous devez créer un compte externe [!DNL PostgreSQL] pour connecter votre insta
 
    ![](assets/postgresql_1.png)
 
-1. Configurez la variable **[!UICONTROL PostgreSQL]** authentification de compte externe :
+1. Configurez l’authentification du compte externe **[!UICONTROL PostgreSQL]** :
 
-   * **[!UICONTROL Serveur]**: URL de la [!DNL PostgreSQL] serveur.
+   * **[!UICONTROL Serveur]** : URL du serveur [!DNL PostgreSQL].
 
    * **[!UICONTROL Compte]** : nom de l’utilisateur.
 
@@ -57,9 +58,9 @@ Vous devez créer un compte externe [!DNL PostgreSQL] pour connecter votre insta
 
    * **[!UICONTROL Base de données]** : nom de la base de données (facultatif).
 
-   * **[!UICONTROL Schéma de travail]**: Nom de votre schéma de travail. [En savoir plus](https://www.postgresql.org/docs/current/ddl-schemas.html)
+   * **[!UICONTROL Schéma de travail]** : nom de votre schéma de travail. [En savoir plus](https://www.postgresql.org/docs/current/ddl-schemas.html)
 
-   * **[!UICONTROL Fuseau horaire]** : Fuseau horaire défini dans [!DNL PostgreSQL]. [En savoir plus](https://www.postgresql.org/docs/7.2/timezones.html)
+   * **[!UICONTROL Fuseau horaire]** : fuseau horaire défini dans [!DNL PostgreSQL]. [En savoir plus](https://www.postgresql.org/docs/7.2/timezones.html)
 
 1. Cliquez sur l’onglet **[!UICONTROL Paramètres]**, puis sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer des fonctions.
 
@@ -73,7 +74,7 @@ Le connecteur prend en charge les options suivantes :
 
 | Option | Description |
 |:-:|:-:|
-| PGSQL_CONNECT_TIMEOUT | Attente maximale de la connexion, en secondes. <br>Voir à ce sujet la section [Documentation PostgreSQL](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-CONNECT-CONNECT-TIMEOUT). |
-| PGSQL_KEEPALIVES_IDLE | Nombre de secondes d’inactivité après lesquelles le protocole TCP doit envoyer un message de maintien en vie au serveur. <br>Voir à ce sujet la section [Documentation PostgreSQL](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE). |
-| PGSQL_KEEPALIVES_INTVL | Nombre de secondes au-delà desquelles le message TCP keepalive non reconnu par le serveur doit être retransmis.  <br>Voir à ce sujet la section [Documentation PostgreSQL](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-INTERVAL). |
-| PGSQL_KEEPALIVES_CNT | Nombre de sauvegardes TCP pouvant être perdues avant que la connexion du client au serveur ne soit considérée comme morte. <br>Voir à ce sujet la section [Documentation PostgreSQL](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-COUNT). |
+| PGSQL_CONNECT_TIMEOUT | Attente maximale de la connexion, en secondes. <br>Pour plus d’informations à ce propos, consultez la [documentation PostgreSQL](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-CONNECT-CONNECT-TIMEOUT). |
+| PGSQL_KEEPALIVES_IDLE | Nombre de secondes d’inactivité au-delà desquelles le protocole TCP doit envoyer un message de maintien en vie au serveur. <br>Pour plus d’informations à ce propos, consultez la [documentation PostgreSQL](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE). |
+| PGSQL_KEEPALIVES_INTVL | Nombre de secondes au-delà desquelles le message TCP de maintien en vie non reconnu par le serveur doit être retransmis.  <br>Pour plus d’informations à ce propos, consultez la [documentation PostgreSQL](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-INTERVAL). |
+| PGSQL_KEEPALIVES_CNT | Nombre de maintiens en vie TCP pouvant être perdus avant que la connexion du client au serveur ne soit considérée comme morte. <br>Pour plus d’informations à ce propos, consultez la [documentation PostgreSQL](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-COUNT). |
