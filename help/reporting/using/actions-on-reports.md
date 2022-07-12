@@ -5,9 +5,9 @@ description: Agir sur les rapports
 feature: Reporting
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '570'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -84,9 +84,9 @@ Pour en savoir plus sur le fichier **nlserver**, consultez [cette section](../..
 
 ## Impression dʼun rapport {#printing-a-report}
 
-Vous pouvez imprimer votre rapport : pour cela, cliquez sur l&#39;icône d&#39;impression. La boîte de dialogue d&#39;impression s&#39;ouvre.
+Vous pouvez imprimer votre rapport : pour cela, cliquez sur l’icône d’impression. La boîte de dialogue d’impression s’ouvre.
 
-Pour un meilleur résultat, éditez les options d&#39;impression de l&#39;Explorateur et sélectionnez **[!UICONTROL Impression des couleurs et des images d’arrière-plan]**.
+Pour un meilleur résultat, éditez les options d’impression d’Explorer et sélectionnez l’option **[!UICONTROL Imprimer les couleurs et les images d’arrière-plan]**.
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 
