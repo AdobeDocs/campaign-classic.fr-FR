@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 2bbf548992b7ab9c0d8a6a0666c2024db5af1f63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1938'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 ## ![](assets/do-not-localize/limited_2.png) Version 7.3.1 - Build 9352 {#release-7-3-1}
 
-_1er juillet 2022_
+_1er juillet 2022_
 
 **Nouveautés**
 
@@ -34,7 +34,7 @@ _1er juillet 2022_
 <tbody> 
 <tr> 
 <td> <p>Avec iOS 15, Apple a ajouté une notion de notification urgente qui permet au développeur de l’application de contourner le mode Focus lorsqu’une notification est considérée comme urgente et doit atteindre l’utilisateur en temps réel.</p>
-<p>Découvrez comment créer une notification sensible dans le <a href="../../delivery/using/create-notifications-ios.md">documentation détaillée</a>.</p>
+<p>Découvrez comment créer une notification urgente dans la <a href="../../delivery/using/create-notifications-ios.md">documentation détaillée</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -42,48 +42,48 @@ _1er juillet 2022_
 
 **Mises à jour de compatibilité**
 
-* Le SDK Adobe Campaign prend désormais en charge Android 12 et iOS 15 pour les notifications push.
-* Adobe Campaign est désormais compatible avec MySQL 8.
+* Le SDK Adobe Campaign prend maintenant en charge Android 12 et iOS 15 pour les notifications push.
+* Adobe Campaign est désormais compatible avec MySQL 8.
 * Adobe Campaign est désormais compatible avec Windows 11.
-* Adobe Campaign est désormais compatible avec Debian 11.
+* Adobe Campaign est désormais compatible avec Debian 11.
 
 Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compatibility-matrix.md#OperatingSystems).
 
 **Améliorations**
 
-* Après la fin de vie d’Internet Explorer 11, le moteur de rendu de HTML pour Adobe Services dans la console utilise désormais Edge Chromium.
-* La gestion des connexions à la base de données dans Adobe Campaign a été améliorée afin d’optimiser la stabilité.
+* Compte tenu de la fin de vie d’Internet Explorer 11, le moteur de rendu HTML pour Adobe Services dans la console utilise désormais Edge Chromium.
+* La gestion des connexions de base de données dans Adobe Campaign a été améliorée afin d’optimiser la stabilité.
 * L’authentification OAuth 2.0 de Microsoft Exchange Online pour POP3 est désormais prise en charge dans Campaign. [En savoir plus](../../installation/using/external-accounts.md#bounce-mails-external-account)
-* Correction de divers problèmes lors de l&#39;utilisation d&#39;une activité de workflow d&#39;enrichissement avec des données externes. (NEO-38069)
-* Le connecteur SAP Hana FDA a été mis à jour pour fonctionner avec la dernière version de la base de données SAP Hana (2.x).
+* Correction de divers problèmes lors de l’utilisation d’une activité de workflow d’enrichissement avec des données externes. (NEO-38069)
+* Le connecteur FDA SAP Hana a été mis à jour pour fonctionner avec la dernière version de la base de données SAP Hana (2.x).
 * Le connecteur FDA Teradata a été mis à jour pour fonctionner avec la dernière version de Teradata (17).
-* Dans la version 20.2, la prise en charge de l’authentification par jeton pour les diffusions iOS a été introduite pour les nouvelles diffusions et les modèles de diffusion. Dans la version 7.2, un correctif a été ajouté au profil pour appliquer la prise en charge de l’authentification par jeton à un maximum de 10 000 diffusions et modèles de diffusion créés précédemment. Dans la version 7.3, le correctif a été amélioré et la limite a été supprimée.
+* Dans la version 20.2, la prise en charge de l’authentification basée sur les jetons pour les diffusions iOS a été introduite pour les nouvelles diffusions et les modèles de diffusion. Dans la version 7.2, un correctif a été ajouté au postupgrade pour appliquer la prise en charge de l’authentification basée sur les jetons à un maximum de 10 000 diffusions et modèles de diffusion créés précédemment. Dans la version 7.3, le correctif a été amélioré et la limite a été supprimée.
 
 **Correctifs**
 
-* Correction d&#39;une erreur du build précédent qui empêchait les utilisateurs de redimensionner la page de connexion IMS.
-* Correction d&#39;une erreur qui se produisait lors de l&#39;installation du package du gestionnaire de contenu sur une instance existante.
-* Correction d’un problème dans la variable **Campagnes** où un message &quot;opération en cours&quot; s’affichait en continu.
-* Avec Adobe Analytics activé, correction d’un problème en raison duquel l’ID (Broadlog ID) et l’ID de campagne (CID) étaient supprimés de l’URL lors de l’envoi d’un email avec une URL sans enregistrer la diffusion.
-* Correction d’un problème lors du téléchargement d’une image dans le dossier Ressources publiques d’une instance avec une configuration spécifique à Message Center. Le message d’erreur suivant s’affiche : &quot;Impossible de télécharger les images sur les serveurs de tracking&quot;.
+* Correction d’une erreur du build précédent qui empêchait les utilisateurs de redimensionner la page de connexion IMS.
+* Correction d’une erreur qui se produisait lors de l’installation du package du gestionnaire de contenu sur une instance existante.
+* Correction d’un problème dans le menu **Campagnes** où un message « opération en cours » s’affichait en continu.
+* Avec Adobe Analytics activé, correction d’un problème en raison duquel le BID (Broadlog ID, identifiant du broadlog) et le CID (identifiant de campagne) étaient supprimés de l’URL lors de l’envoi d’un e-mail avec une URL sans enregistrer la diffusion.
+* Correction d’un problème lors du téléchargement d’une image dans le dossier Ressources publiques d’une instance avec une configuration spécifique à Message Center. Le message d’erreur suivant s’affiche : « Impossible de télécharger les images sur les serveurs de tracking ».
 * Correction d’un problème en raison duquel le système se bloquait lors de la régénération de la configuration en cas de fichiers de configuration erronés.
 * Correction d’un problème qui empêchait la mise à jour correcte des indicateurs de diffusion. (NEO-44827)
 * Correction d’un problème qui entraînait une erreur de postupgrade lors de l’utilisation de requêtes complexes. (NEO-43648)
 * Correction d’un problème qui empêchait le fonctionnement de l’aperçu webApps. (NEO-43242)
-* Correction d’un problème qui entraînait l’échec de la préparation de la diffusion lors de l’utilisation d’un fichier de mapping de ciblage externe dans un workflow avec une activité Chargement (fichier) . (NEO-43691)
+* Correction d’un problème qui entraînait l’échec de la préparation de la diffusion lors de l’utilisation d’un fichier de mapping de ciblage externe dans un workflow avec une activité Chargement (fichier). (NEO-43691)
 * Correction d’un problème qui entraînait des blocages et nécessitait un redémarrage complet de l’instance. (NEO-44645)
-* Correction d’un problème qui empêchait le chargement de la carte thermique des workflows de n’importe quel résultat. (NEO-43360)
-* Correction d’un problème qui entraînait des problèmes de connexion lors de l’utilisation du connecteur externe FDA. (NEO-42722)
-* Correction d’un problème lié aux bons à tirer lors de l’utilisation de la substitution d’adresses et de l’exclusion d’un groupe témoin. (NEO-39695)
-* Correction d’un problème qui entraînait des échecs de workflow en raison d’un problème de connecteur de Snowflake. (NEO-46299)
+* Correction d’un problème qui empêchait le chargement de la carte thermique des workflows de charger n’importe quel résultat. (NEO-43360)
+* Correction d’un problème qui entraînait des difficultés de connexion lors de l’utilisation du connecteur externe FDA. (NEO-42722)
+* Correction d’un problème lié aux bons à tirer lors de l’utilisation de la substitution d’adresse et de l’exclusion d’une population témoin. (NEO-39695)
+* Correction d’un problème qui entraînait des échecs de workflow en raison d’un problème de connecteur Snowflake. (NEO-46299)
 * Correction d’un problème qui bloquait la console cliente en raison d’un caractère non valide dans un bloc de personnalisation. (NEO-45761)
-* Correction d’un problème qui entraînait des problèmes de connexion lors de la création d’un compte externe pour Snowflake en tant que base de données externe. (NEO-45744)
-* Correction d’un problème qui entraînait l’affichage d’informations de tableau protégées par un attribut visibleIf . (NEO-37865)
-* Correction d’un problème qui pouvait afficher le message d’erreur &quot;$ is not defined&quot; lors de la phase d’analyse de la diffusion. (NEO-32940)
+* Correction d’un problème qui entraînait des difficultés de connexion lors de la création d’un compte externe pour Snowflake en tant que base de données externe. (NEO-45744)
+* Correction d’un problème qui entraînait l’affichage d’informations de tableau protégées par un attribut visibleIf. (NEO-37865)
+* Correction d’un problème qui pouvait afficher le message d’erreur « $ non défini » lors de la phase d’analyse de la diffusion. (NEO-32940)
 * Correction d’un problème en raison duquel les diffusions étaient associées à un eventType incorrect. (NEO-45743)
-* Correction d’un problème qui entraînait des blocages en raison de vidages principaux intermittents (NEO-30549).
-* Correction d’un problème qui entraînait des blocages lors de l’utilisation d’un code de HTML erroné dans une diffusion. (NEO-40385)
-* Correction d’un problème qui empêchait les utilisateurs non-administrateurs d’accéder au **Analyse** dans les propriétés de la diffusion. (NEO-34025)
+* Correction d’un problème qui entraînait des blocages en raison de vidages principaux intermittents. (NEO-30549)
+* Correction d’un problème qui entraînait des blocages lors de l’utilisation d’un code HTML erroné dans une diffusion. (NEO-40385)
+* Correction d’un problème qui empêchait les utilisateurs non-administrateurs d’accéder à l’onglet **Analyse** dans les propriétés de la diffusion. (NEO-34025)
 
 ## ![](assets/do-not-localize/green_2.png) Version 7.2.2 - Build 9349 {#release-7-2-2}
 
