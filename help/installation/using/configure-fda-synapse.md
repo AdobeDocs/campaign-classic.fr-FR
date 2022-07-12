@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -241,4 +241,4 @@ Le connecteur prend en charge les options suivantes :
 
 | Option | Description |
 |---|---|
-| Authentification | Type d’authentification pris en charge par le connecteur. Current supported value : ActiveDirectoryMSI. </br>Pour plus d’informations, reportez-vous à la section [SQL doc](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Exemples de chaînes de connexion n°8). |
+| Authentification | Type d’authentification pris en charge par le connecteur. Valeur actuelle prise en charge : ActiveDirectoryMSI. </br>Pour plus d’informations à ce sujet, consultez la [documentation SQL](https://docs.microsoft.com/fr-fr/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (exemple n° 8 de chaînes de connexion). |
