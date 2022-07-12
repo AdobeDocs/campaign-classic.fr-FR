@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2025'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -82,9 +82,9 @@ Pour configurer le compte externe **[!UICONTROL Mails rebonds (defaultPopAccount
 
 >[!IMPORTANT]
 >
->Avant de configurer votre compte externe POP3 à l’aide de Microsoft OAuth 2.0, vous devez enregistrer votre application sur le portail Azure. Pour plus d&#39;informations, consultez [cette page](https://docs.microsoft.com/fr-fr/azure/active-directory/develop/quickstart-register-app).
+>Avant de configurer votre compte externe POP3 à l’aide de Microsoft OAuth 2.0, vous devez enregistrer votre application sur le portail Azure. Pour plus d’informations, consultez [cette page](https://docs.microsoft.com/fr-fr/azure/active-directory/develop/quickstart-register-app).
 
-Pour configurer un environnement externe POP3 à l’aide de **Microsoft OAuth 2.0**, vérifiez les **[!UICONTROL Microsoft OAuth 2.0]** et renseignez les champs suivants :
+Pour configurer un environnement externe POP3 à l’aide de **Microsoft OAuth 2.0**, cochez la case **[!UICONTROL Microsoft OAuth 2.0]** et renseignez les champs suivants :
 
 * **[!UICONTROL Client Azure]**
 
@@ -195,11 +195,11 @@ Le compte externe SFTP vous permet de configurer et de tester l’accès à un 
 
    Mot de passe utilisé pour se connecter au serveur SFTP.
 
-Pour ajouter des clés SSH sous Windows :
+Pour ajouter des clés SSH sous Windows :
 
-1. Créez le **HOME** Variable d’environnement avec la valeur définie comme répertoire d’installation.
+1. Créez la variable d’environnement **HOME** avec la valeur définie comme répertoire d’installation.
 
-2. Ajoutez votre clé privée au `/$HOME/.ssh/id_rsa` dossier.
+2. Ajoutez votre clé privée au dossier `/$HOME/.ssh/id_rsa`.
 
 3. Redémarrez les services Adobe Campaign.
 
