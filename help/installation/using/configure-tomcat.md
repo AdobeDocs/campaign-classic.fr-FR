@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
 source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -52,10 +52,10 @@ Au besoin, cette opération doit être reproduite côté serveur.
 
 ## Masquer le rapport d’erreur Tomcat {#hide-tomcat-error-report}
 
-Pour des raisons de sécurité, nous vous recommandons vivement de masquer le rapport d’erreur Tomcat. Voici les étapes.
+Pour des raisons de sécurité, nous vous recommandons vivement de masquer le rapport d’erreur Tomcat. La procédure est la suivante.
 
-1. Ouvrez le **server.xml** situé dans le fichier **/tomcat-8/conf** répertoire du dossier d’installation d’Adobe Campaign :  `/usr/local/neolane/nl6/tomcat-8/conf`
-1. Ajoutez l’élément suivant en bas après tous les éléments de contexte existants :
+1. Ouvrez le fichier **server.xml** qui se trouve dans le répertoire **/tomcat-8/conf** du dossier d’installation d’Adobe Campaign : `/usr/local/neolane/nl6/tomcat-8/conf`
+1. Ajoutez l’élément suivant en bas après tous les éléments de contexte existants :
 
    ```
    <Valve className="org.apache.catalina.valves.ErrorReportValve" showReport="false" showServerInfo="false"/>
