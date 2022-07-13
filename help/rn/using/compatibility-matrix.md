@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 98%
 
 ---
 
@@ -364,8 +364,26 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 </tbody>
 </table>
 
+### Exécution WebView2 de Microsoft
 
-## SDK Mobile{#MobileSDK}
+<table>
+<tbody>
+<tr>
+<td>
+<p>Exécution Microsoft Edge WebView2
+</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+<td>
+<p><a href="chttp://www.adobe.com/go/acc-ms-webview2-runtime-download_fr">Télécharger à partir du site web du développeur Microsoft</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## SDK mobile{#MobileSDK}
 
 Vous pouvez utiliser Campaign pour [envoyer des notifications push](../../delivery/using/about-mobile-app-channel.md) sur les systèmes dʼexploitation répertoriés ci-dessous, à lʼaide du [SDK mobile](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) associé.
 

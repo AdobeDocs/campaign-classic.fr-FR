@@ -3,10 +3,10 @@ keywords: Campaign Classic;accueil;thèmes populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 29fae1305a6d2b8debbc2aa705c047eaf3730457
-workflow-type: ht
+source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
+workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 * **[Programme de mise à niveau 2022](technotes/using/dc-migration.md)**<br/> Mettez à niveau votre environnement et améliorez la sécurité, l’infrastructure et les performances.
 
-* **[La version de mars est en ligne !](rn/using/latest-release.md)**<br/>Découvrez les nouvelles fonctionnalités, améliorations et correctifs dans les notes de mise à jour.
+* **[La version de juillet est en ligne.](rn/using/latest-release.md)**<br/>Découvrez les nouvelles fonctionnalités, améliorations et correctifs dans les notes de mise à jour.
 
 * **[FAQ sur la protection de la confidentialité dʼApple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=fr)** et **[note technique](technotes/using/apple-mail-app-privacy-protection.md)**<br/> Trouvez des conseils en réponse à lʼannonce dʼApple concernant iOS 15.
 

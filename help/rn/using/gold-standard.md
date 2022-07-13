@@ -6,8 +6,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: ht
+source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
+workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 100%
 
@@ -117,11 +117,11 @@ _29 avril 2020_
 
 Le build 9032@3a9dc9c comprend les correctifs suivants :
 
-* Amélioration de la sécurité des liens de tracking dans les emails. Cette option est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant l&#39;Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism).
+* Amélioration de la sécurité des liens de tracking dans les emails. Cette option est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant l&#39;Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
 
 >[!CAUTION]
 >
->Si vous rencontrez des problèmes avec les notifications push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. [La procédure est détaillée dans cette page](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)
+>Si vous rencontrez des problèmes avec les notifications push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. [La procédure est détaillée dans cette page](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
 
 * Correction d’un problème qui empêchait l’affichage des images sur les diffusions LINE. (NEO-23207)
 * Correction d’un problème lié à l’activité **Transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
@@ -441,12 +441,11 @@ Cette section répertorie tous les systèmes et composants pris en charge pour l
 </tbody>
 </table>
 
-
 ### Console cliente {#ClientConsoleoperatingsystems}
 
 :warning: Les systèmes d&#39;exploitation et le navigateur ci-après sont nécessaires pour utiliser la console cliente Campaign.
 
-### Systèmes d’exploitation
+#### Systèmes d’exploitation
 
 <table>
 <tbody>
