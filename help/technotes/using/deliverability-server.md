@@ -5,18 +5,18 @@ description: Découvrez comment implémenter le serveur de délivrabilité de Ca
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: dfa28fc10bcfddcf35e8ddfa0af1fba718400350
+source-git-commit: 5d6ff45605980e5fe21933c5d8fb6c48e02f1628
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 56%
+source-wordcount: '1163'
+ht-degree: 54%
 
 ---
 
 # Serveur de délivrabilité de Campaign {#acc-deliverability}
 
-Démarrage [version v7.2.1](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign propose un nouveau serveur de délivrabilité qui offre une haute disponibilité et résout les problèmes de conformité en matière de sécurité. Campaign Classic synchronise désormais les règles de délivrabilité, les broadlogs, ainsi que l’adresse de suppression depuis et vers le nouveau serveur de délivrabilité.
+Démarrage [version v7.2.1](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign repose sur un nouveau serveur de délivrabilité qui assure une haute disponibilité et résout les problèmes de conformité en matière de sécurité. Campaign Classic synchronise désormais les règles de délivrabilité, les broadlogs, ainsi que l’adresse de suppression depuis et vers le nouveau serveur de délivrabilité. L’ancien serveur de délivrabilité sera mis hors service le 31 août 2022.
 
-En tant que client Campaign Classic, vous devez implémenter le nouveau serveur de délivrabilité. **avant le 31 août 2022**.
+En tant que client Campaign Classic, vous devez implémenter le nouveau serveur de délivrabilité. **avant le 31 août 2022**.
 
 >[!NOTE]
 >
@@ -30,13 +30,13 @@ Ce nouveau serveur garantit une haute disponibilité (99,9) et fournit des point
 
 ## Cela vous concerne-t-il ?{#acc-deliverability-impacts}
 
-Tous les clients doivent effectuer une mise à niveau vers [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) et mettre en oeuvre leur environnement pour bénéficier du nouveau serveur de délivrabilité.
+Tous les clients sont affectés et doivent effectuer la mise à niveau vers [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) (ou plus) et mettre en oeuvre leur environnement pour bénéficier du nouveau serveur de délivrabilité.
 
 ## Comment effectuer la mise à jour ?{#acc-deliverability-update}
 
 Comme **client hébergé**, Adobe collaborera avec vous pour mettre à niveau votre ou vos instances vers la version la plus récente et créer le projet dans la console Adobe Developer.
 
-En tant que **client on-premise/hybride**, vous devez effectuer la mise à niveau vers [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) pour bénéficier du nouveau serveur de délivrabilité. Une fois toutes les instances mises à niveau, vous devez [mettre en oeuvre la nouvelle intégration ;](#implementation-steps) pour Adobe du serveur de délivrabilité et assurer une transition transparente.
+En tant que **client on-premise/hybride**, vous devez effectuer la mise à niveau vers [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) (ou plus) pour bénéficier du nouveau serveur de délivrabilité. Une fois toutes les instances mises à niveau, vous devez [mettre en oeuvre la nouvelle intégration ;](#implementation-steps) pour Adobe du serveur de délivrabilité et assurer une transition transparente.
 
 ## Étapes dʼimplémentation {#implementation-steps}
 
