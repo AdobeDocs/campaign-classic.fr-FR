@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: ht
+source-git-commit: 0f63636e9cc22ac97e634a4f11dc585cb39b05c0
+workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Consultez les éléments détaillés ci-dessous pour connaître les processus re
 
 ## Implémentations hébergées par Adobe {#hosted-customers}
 
-En tant que client hébergé, deux possibilités s’offrent à vous pour installer ou mettre à jour vos consoles clientes :
+En tant que client hébergé, vous disposez de deux options pour installer ou mettre à jour vos consoles clientes :
 
 1. Adobe peut effectuer un déploiement direct. Une fois la console mise à jour, les utilisateurs sont invités à télécharger la dernière version de la console cliente dans une fenêtre contextuelle.
 
@@ -118,7 +118,7 @@ Une fois la console cliente installée, procédez comme suit pour créer la conn
 
    ![](assets/s_ncs_install_define_connection_01.png)
 
-1. Cliquez sur le menu **[!UICONTROL Ajouter > Connexion]** et saisissez le libellé et l’URL du serveur applicatif Adobe Campaign.
+1. Cliquez sur le menu **[!UICONTROL Ajouter > Connexion]** et saisissez le libellé et l&#39;URL du serveur applicatif Adobe Campaign.
 
    ![](assets/s_ncs_install_define_connection_02.png)
 
