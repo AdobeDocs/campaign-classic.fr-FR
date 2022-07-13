@@ -5,10 +5,10 @@ description: Découvrez comment implémenter le serveur de délivrabilité de Ca
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: bec525c52cb30dfae9530265bc3fdc2395879539
+source-git-commit: dfa28fc10bcfddcf35e8ddfa0af1fba718400350
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 59%
+source-wordcount: '1147'
+ht-degree: 56%
 
 ---
 
@@ -30,15 +30,13 @@ Ce nouveau serveur garantit une haute disponibilité (99,9) et fournit des point
 
 ## Cela vous concerne-t-il ?{#acc-deliverability-impacts}
 
-Si votre environnement a été implémenté sur une version inférieure à [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2), vous êtes affecté. Vous devez effectuer la mise à niveau vers Campaign v7.2.1 (ou version ultérieure).
-
-Découvrez comment vérifier votre version [dans cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Tous les clients doivent effectuer une mise à niveau vers [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) et mettre en oeuvre leur environnement pour bénéficier du nouveau serveur de délivrabilité.
 
 ## Comment effectuer la mise à jour ?{#acc-deliverability-update}
 
 Comme **client hébergé**, Adobe collaborera avec vous pour mettre à niveau votre ou vos instances vers la version la plus récente et créer le projet dans la console Adobe Developer.
 
-En tant que **client on-premise/hybride**, vous devez effectuer la mise à niveau vers l’une des versions les plus récentes pour bénéficier du nouveau serveur de délivrabilité. Une fois toutes les instances mises à niveau, vous pouvez [implémenter la nouvelle intégration](#implementation-steps) vers le serveur de délivrabilité d’Adobe, et assurer ainsi une transition transparente.
+En tant que **client on-premise/hybride**, vous devez effectuer la mise à niveau vers [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) pour bénéficier du nouveau serveur de délivrabilité. Une fois toutes les instances mises à niveau, vous devez [mettre en oeuvre la nouvelle intégration ;](#implementation-steps) pour Adobe du serveur de délivrabilité et assurer une transition transparente.
 
 ## Étapes dʼimplémentation {#implementation-steps}
 
@@ -47,7 +45,7 @@ Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaig
 
 >[!WARNING]
 >
->Ces étapes ne doivent être effectuées que par des implémentations hybrides et On-premise.
+>Ces étapes ne doivent être effectuées que pour les implémentations hybrides et on-premise.
 
 ### Conditions préalables{#prerequisites}
 
