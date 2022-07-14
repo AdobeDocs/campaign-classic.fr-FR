@@ -60,4 +60,5 @@ Pour des raisons de sécurité, nous vous recommandons vivement de masquer le ra
    ```
    <Valve className="org.apache.catalina.valves.ErrorReportValve" showReport="false" showServerInfo="false"/>
    ```
+
 1. Redémarrez les serveurs web nlserver et Apache.
