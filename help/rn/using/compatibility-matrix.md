@@ -377,7 +377,7 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 <p>Dernière version</p>
 </td>
 <td>
-<p><a href="chttp://www.adobe.com/go/acc-ms-webview2-runtime-download_fr">Télécharger à partir du site web du développeur Microsoft</a></p>
+<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download_fr">Télécharger à partir du site web du développeur Microsoft</a></p>
 </td>
 </tr>
 </tbody>
