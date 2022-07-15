@@ -4,10 +4,10 @@ title: Configuration et envoi de la diffusion
 description: Découvrez comment configurer et envoyer la diffusion
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
-workflow-type: ht
-source-wordcount: '1652'
-ht-degree: 100%
+source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
+workflow-type: tm+mt
+source-wordcount: '1598'
+ht-degree: 87%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
->[!NOTE]
->
->Seul le propriétaire d&#39;une diffusion peut démarrer cette dernière. Pour qu&#39;un autre opérateur (ou un groupe d&#39;opérateurs) puisse démarrer une diffusion, vous devez l&#39;ajouter comme validant au niveau du champ **[!UICONTROL Démarrage de la diffusion.]** Pour plus d’informations, consultez [cette section](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
+## Autorisations{#delivery-permissions}
+
+Seul le propriétaire de la diffusion peut démarrer une diffusion. Pour que d&#39;autres opérateurs (ou groupes d&#39;opérateurs) puissent démarrer une diffusion, ajoutez-les en tant que validants dans la **[!UICONTROL Démarrage de la diffusion :]** champ . [En savoir plus](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
 ## Paramètres supplémentaires de diffusion {#delivery-additiona-parameters}
 
@@ -25,32 +25,32 @@ Avant d&#39;envoyer la diffusion, vous pouvez définir les paramètres d&#39;env
 
 ![](assets/s_ncs_user_wizard_delivery.png)
 
-* **[!UICONTROL Priorité de diffusion]** : cette option vous permet d’influencer l’ordre d’envoi des diffusions en indiquant leur niveau de priorité (normal, élevé ou faible). Vous pouvez ainsi privilégier l’envoi de certaines diffusions plus urgentes que d’autres.
+* **[!UICONTROL Priorité de diffusion]**: utilisez cette option pour modifier l&#39;ordre d&#39;envoi de vos diffusions en définissant leur niveau de priorité : normal, élevé ou faible.
 
-* **[!UICONTROL Regrouper les messages par]** : cette option permet de définir le nombre de messages regroupés au sein d’un même package d’envoi XML. Si le paramètre est défini sur 0, les messages sont automatiquement regroupés. La taille du paquet est définie par le calcul `<delivery size>/1024`, avec un minimum de 8 messages et un maximum de 256 messages par package.
+* **[!UICONTROL Quantité de lot de messages]**: utilisez cette option pour définir le nombre de messages regroupés dans le même package de diffusion XML. Si le paramètre est défini sur 0, les messages sont automatiquement regroupés. La taille du paquet est définie par le calcul `<delivery size>/1024`, avec un minimum de 8 messages et un maximum de 256 messages par package.
 
    >[!IMPORTANT]
    >
-   >Lorsque la diffusion est dupliquée, le paramètre est remis à zéro.
+   >Lorsque la diffusion est créée en dupliquant une diffusion existante, ce paramètre est réinitialisé.
 
-* **[!UICONTROL Envoyer en plusieurs vagues]** : utilisez cette option pour envoyer vos messages par vagues, plutôt qu’à l’ensemble de votre audience. Configurez le nombre de lots et leur proportion. [En savoir plus](#sending-using-multiple-waves).
+* **[!UICONTROL Envoyer en plusieurs vagues]**: utilisez cette option pour envoyer vos messages par lots plutôt qu’à l’ensemble de votre audience en même temps. [En savoir plus](#sending-using-multiple-waves).
 
-* **[!UICONTROL Tester la diffusion via SMTP]** : utilisez cette option pour Tester la diffusion via SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
+* **[!UICONTROL Tester la diffusion SMTP]**: utilisez cette option pour tester l&#39;envoi via SMTP. La diffusion est traitée jusqu&#39;à la connexion au serveur SMTP mais n&#39;est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
    >[!NOTE]
    >
-   >* Cette option n’est pas recommandée en midsourcing.
+   >* Cette option ne doit pas être définie en mid-sourcing.
    >
    >* Pour en savoir plus sur la configuration du serveur SMTP, voir [cette section](../../installation/using/configure-delivery-settings.md).
 
 
-* **[!UICONTROL Email Cci]** : permet de stocker les emails sur un système externe à l&#39;aide de l&#39;option BCC en ajoutant une adresse email en &quot;copie cachée&quot; (Cci, ou Bcc en anglais) à la cible des messages. Pour plus d’informations, consultez [cette section](sending-messages.md#archiving-emails).
+* **[!UICONTROL Email Cci]**: utilisez cette option pour stocker les emails sur un système externe via Cci en ajoutant simplement une adresse email en Cci à votre cible de message. [En savoir plus](sending-messages.md#archiving-emails).
 
 ## Confirmation de la diffusion {#confirming-delivery}
 
-Une fois la diffusion configurée et prête à être envoyée, vérifiez que vous avez exécuté l’analyse de la diffusion.
+Une fois la diffusion paramétrée et prête à être envoyée, exécutez l&#39;analyse de la diffusion.
 
-Pour ce faire, cliquez sur **[!UICONTROL Envoyer]**, sélectionnez l’action souhaitée et cliquez sur **[!UICONTROL Analyser]**. Pour plus dʼinformations, consultez la section [Lancement de lʼanalyse](steps-validating-the-delivery.md#analyzing-the-delivery).
+Pour ce faire, cliquez sur **[!UICONTROL Envoyer]**, sélectionnez l’action souhaitée et cliquez sur **[!UICONTROL Analyser]**. [En savoir plus](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -66,7 +66,7 @@ Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions
 
 ## Planification de lʼenvoi de la diffusion {#scheduling-the-delivery-sending}
 
-Vous pouvez différer la diffusion des messages pour planifier l&#39;envoi ou pour gérer la pression commerciale afin de ne pas sur-solliciter une population.
+Vous pouvez différer l&#39;envoi du message en planifiant la diffusion.
 
 1. Cliquez sur le bouton **[!UICONTROL Envoyer]** et sélectionnez l’option **[!UICONTROL Différer la diffusion]**.
 
@@ -78,7 +78,7 @@ Vous pouvez différer la diffusion des messages pour planifier l&#39;envoi ou po
 
 >[!IMPORTANT]
 >
->Une fois que vous avez lancé l&#39;analyse, la date de contact que vous avez définie est figée.Si vous modifiez cette date, veillez à relancer l&#39;analyse pour que vos modifications soient bien prises en compte.
+>Une fois l&#39;analyse lancée, la date de contact que vous avez définie est fixe. Si vous modifiez cette date, vous devez relancer l&#39;analyse afin que vos modifications soient prises en compte.
 
 ![](assets/s_ncs_user_email_del_start_delayed.png)
 
