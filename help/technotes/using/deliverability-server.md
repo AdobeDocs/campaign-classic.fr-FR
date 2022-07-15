@@ -5,10 +5,10 @@ description: Découvrez comment implémenter le serveur de délivrabilité de Ca
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 5d6ff45605980e5fe21933c5d8fb6c48e02f1628
+source-git-commit: 6f6c329808e78a56a61997aba83c55520030afc7
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 54%
+source-wordcount: '1158'
+ht-degree: 51%
 
 ---
 
@@ -20,7 +20,7 @@ En tant que client Campaign Classic, vous devez implémenter le nouveau serveur 
 
 >[!NOTE]
 >
->Pour toute question concernant ces modifications, reportez-vous à la section [FAQ](#faq)ou contactez [Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Pour plus d’informations sur ces modifications, reportez-vous à la section [FAQ](#faq)ou contactez [Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
 
 ## Qu’est-ce qui a changé ?{#acc-deliverability-changes}
 
@@ -56,7 +56,7 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
 1. Vérifiez que la valeur de l’option `DmRendering_cuid` est renseignée.
 
    * Si cette option est remplie, vous pouvez lancer la mise en oeuvre.
-   * Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour obtenir votre CUID.
+   * Si aucune valeur n’est renseignée, contactez [Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour obtenir votre CUID.
 
       Cette option doit être renseignée sur toutes vos instances Campaign (MKT, MID, RT, EXEC) avec la même valeur. En tant que client hybride, contactez Adobe pour que l’option soit définie sur vos instances MID, RT et EXEC.
 
@@ -91,7 +91,7 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
    >Vous devez enregistrer la variable `config.zip` lorsque l’invite de téléchargement apparaît, car vous ne pourrez plus le télécharger.
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
-1. Sélectionnez un **[!UICONTROL profil de produit]** existant ou créez-en un si nécessaire. Aucune autorisation n’est requise pour ce **[!UICONTROL profil de produit]**. Pour en savoir plus sur les Profils de produit ****, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html).
+1. Sélectionnez un **[!UICONTROL profil de produit]** existant ou créez-en un si nécessaire. Aucune autorisation n’est requise pour ce **[!UICONTROL profil de produit]**. Pour plus d’informations sur **[!UICONTROL Profils de produit]**, voir [cette page](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html){_blank}.
    ![](assets/Product-Profile-API.png)
 
    Cliquez ensuite sur **[!UICONTROL Enregistrer l’API configurée]**.
@@ -152,18 +152,17 @@ Pour vérifier que l’intégration est réussie, procédez comme suit :
 
 ## Forum aux questions {#faq}
 
+### Quelle est la chronologie de la mise à jour ?
+
+La transition vers le nouveau serveur de délivrabilité, permettant l&#39;ajout de ces fonctionnalités améliorées et le renforcement de la sécurité, commencera le 22 juillet pour les clients hébergés (Campaign Managed Services). Tous les clients hébergés seront mis à jour d’ici la fin août.
+
+Les clients on-premise et hybrides doivent effectuer une transition pendant la même période.
+
 ### Que se passe-t-il si je ne mets pas à niveau mon environnement ?
 
-Toute instance de Campaign non mise à niveau d&#39;ici le 31 août ne pourra plus se connecter au serveur de délivrabilité de Campaign. Par conséquent, la **Mise à jour pour la délivrabilité** Le workflow (deliverabilityUpdate) échouera. Ce workflow gère la mise à jour quotidienne des règles MX et des règles d&#39;inbounces.
+Toute instance de Campaign non mise à niveau d&#39;ici le 31 août ne pourra plus se connecter au serveur de délivrabilité de Campaign. Par conséquent, la **Mise à jour pour la délivrabilité** Le workflow (deliverabilityUpdate) échoue, ce qui affecte votre délivrabilité.
 
 Si vous ne mettez pas à niveau votre environnement, les paramètres d’email cesseront d’être synchronisés (règles de gestion MX, règles de mail entrant, règles de gestion des domaines et règles de qualification des bounces). Cela peut avoir une incidence sur votre délivrabilité au fil du temps. Si une modification importante est apportée à ces règles, celles-ci doivent être appliquées manuellement à partir de ce point.
 
 Pour les instances MKT uniquement [Liste de suppression globale](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) est affectée.
 
-### Je ne peux pas effectuer la mise à niveau maintenant. Quel est le conseil ?
-
-Si vous ne pouvez pas mettre à niveau votre instance avant le 31 août, vous devez désactiver temporairement la variable **Mise à jour pour la délivrabilité** (deliverabilityUpdate) jusqu&#39;à la fin de la mise à niveau afin de ne pas tenter de se synchroniser avec l&#39;ancien serveur de délivrabilité.
-
-
-
-Pour d’autres conseils, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
