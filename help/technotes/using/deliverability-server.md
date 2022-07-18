@@ -5,7 +5,7 @@ description: Découvrez comment implémenter le serveur de délivrabilité de Ca
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 6f6c329808e78a56a61997aba83c55520030afc7
+source-git-commit: 64813905b360be1f2df7883f018e42bd154c2f9c
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 51%
@@ -58,7 +58,7 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
    * Si cette option est remplie, vous pouvez lancer la mise en oeuvre.
    * Si aucune valeur n’est renseignée, contactez [Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour obtenir votre CUID.
 
-      Cette option doit être renseignée sur toutes vos instances Campaign (MKT, MID, RT, EXEC) avec la même valeur. En tant que client hybride, contactez Adobe pour que l’option soit définie sur vos instances MID, RT et EXEC.
+   Cette option doit être renseignée sur toutes vos instances Campaign (MKT, MID, RT, EXEC) avec la valeur correcte. En tant que client hybride, contactez Adobe pour que l’option soit définie sur vos instances MID, RT et EXEC.
 
 ### Étape 1 : Créer/mettre à jour votre projet Adobe Developer {#adobe-io-project}
 
