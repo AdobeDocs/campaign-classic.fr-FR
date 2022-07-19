@@ -4,8 +4,8 @@ title: À propos des activités de workflows
 description: À propos des activités
 feature: Workflows, Data Management
 exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Activités de workflows{#wf-activities}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Cette section décrit l&#39;ensemble des activités disponibles. En fonction du noeud ou du contexte dans lequel le workflow est créé/édité, les activités disponibles peuvent différer. Par exemple, les workflows créés dans une campagne disposent d&#39;activités de diffusion spécifiques par canal.
 

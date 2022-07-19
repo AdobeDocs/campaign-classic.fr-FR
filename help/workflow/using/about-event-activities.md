@@ -4,8 +4,8 @@ title: À propos des activités d’événement
 description: À propos des activités d’événement
 feature: Workflows, Data Management
 exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Activités d’événement dans les workflows{#about-event-activities}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 La tâche principale de ces activités consiste à attendre un événement. Il peut s&#39;agir par exemple de la réception d&#39;un fichier, d&#39;un mail ou d&#39;un signal envoyé programmatiquement.
 

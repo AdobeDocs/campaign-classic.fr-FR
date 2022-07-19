@@ -4,8 +4,8 @@ title: Règles de cohérence
 description: Règles de cohérence
 feature: Typology Rules
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Règles de cohérence{#consistency-rules}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## À propos des règles de cohérence {#about-consistency-rules}
 

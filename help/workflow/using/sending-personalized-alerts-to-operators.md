@@ -4,8 +4,8 @@ title: Envoi d’alertes personnalisées aux opérateurs
 description: Découvrez comment envoyer des alertes personnalisées aux opérateurs
 feature: Workflows
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Envoi d’alertes personnalisées aux opérateurs{#sending-personalized-alerts-to-operators}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Dans cet exemple, nous souhaitons envoyer à un opérateur une alerte qui contiendra le nom des profils qui ont ouvert une newsletter, sans toutefois cliquer sur le lien qu&#39;il contient.
 

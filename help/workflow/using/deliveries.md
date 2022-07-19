@@ -3,7 +3,7 @@ product: campaign
 title: Diffusions
 description: En savoir plus sur les workflows de diffusions par défaut
 feature: Workflows
-source-git-commit: 25e8acdc449c7002e467db17e7c70e3dc017dded
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Diffusions{#deliveries}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Les workflows présentés ci-dessous sont installés par défaut avec le module **Diffusions**.
 

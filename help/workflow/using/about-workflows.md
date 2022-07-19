@@ -4,16 +4,16 @@ title: À propos des workflows
 description: Automatisez les processus avec des workflows, gérez les données et les audiences, envoyez des messages, et plus encore.
 feature: Workflows, Data Management
 exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '655'
+ht-degree: 100%
 
 ---
 
 # Prise en main des workflows{#gs-workflows}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## À propos des workflows{#about-workflows}
 

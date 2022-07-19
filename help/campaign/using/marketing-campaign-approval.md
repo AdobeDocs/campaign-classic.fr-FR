@@ -4,8 +4,8 @@ title: Configuration et gestion du processus de validation
 description: Découvrez comment gérer les validations des campagnes marketing
 feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Configuration et gestion du processus de validation {#approving-marketing-campaigns}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Chaque étape d’une diffusion peut faire l’objet d’une validation afin d’assurer une surveillance et un contrôle complet des différents processus de la campagne : ciblage, contenu, budget, extraction ou envoi d’un BAT.
 

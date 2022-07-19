@@ -4,8 +4,8 @@ title: Exécuter des requêtes avec gestion des regroupements
 description: Découvrez comment exécuter des requêtes avec gestion des regroupements.
 feature: Query Editor
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Requête avec gestion des regroupements {#querying-using-grouping-management}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Vous allez effectuer une requête pour retrouver les domaines d&#39;email ciblés plus de 30 fois au cours de diffusions précédentes.
 

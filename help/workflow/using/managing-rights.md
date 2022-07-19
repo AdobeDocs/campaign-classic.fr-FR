@@ -4,8 +4,8 @@ title: Gestion des autorisations relatives aux workflows
 description: Découvrez comment gérer les autorisations relatives aux workflows
 feature: Workflows
 exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Gestion des autorisations relatives aux workflows{#managing-rights}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Pour créer, exécuter ou modifier les workflows, les opérateurs Adobe Campaign, lorsqu&#39;ils ne sont pas Administrateurs, doivent avoir les droits correspondants.
 

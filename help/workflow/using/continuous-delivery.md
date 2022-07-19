@@ -4,8 +4,8 @@ title: Diffusion au fil de l'eau
 description: Diffusion au fil de l'eau
 feature: Workflows, Channels Activity
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Diffusion au fil de l&#39;eau{#continuous-delivery}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Une action de type **diffusion au fil de l’eau** permet d‘ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion évite d’avoir à créer une diffusion à chaque fois. Ce mode est souvent plus efficace, en particulier pour les alertes de faible volume ou les notifications envoyées selon les besoins.
 

@@ -4,7 +4,7 @@ title: Diffusion récurrente
 description: En savoir plus sur l’activité de workflow de diffusion récurrente
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 6f0479cfe6c6801eb44fcc7a35bdac1241ec3be6
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Diffusion récurrente{#recurring-delivery}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Une activité de **[!UICONTROL Diffusion récurrente]** permet de paramétrer une instance d&#39;un modèle de diffusion spécifique à une opération.
 

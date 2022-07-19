@@ -4,8 +4,8 @@ title: Envoi d’un rapport à une liste
 description: Découvrez comment envoyer un rapport à une liste à l’aide d’un workflow
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Envoi d’un rapport à une liste{#sending-a-report-to-a-list}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Ce cas pratique présente comment générer, chaque mois, le rapport d&#39;usine **[!UICONTROL Indicateurs de tracking]** au format PDF et l&#39;envoyer à une liste de destinataires.
 

@@ -4,16 +4,16 @@ title: Collecteur de fichiers
 description: En savoir plus sur l’activité de workflow de collecteur de fichiers
 feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Collecteur de fichiers{#file-collector}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Le **Collecteur de fichiers** assure un suivi de l&#39;arrivée d&#39;un ou plusieurs fichiers dans un répertoire et active sa transition pour chacun des fichiers reçus. Pour chaque événement, une variable **[!UICONTROL filename]** contient le nom complet du fichier reçu. Les fichiers collectés sont déplacés dans un autre répertoire afin de ne les prendre en compte qu&#39;une seule fois et pour historisation.
 
@@ -35,7 +35,7 @@ Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vo
 
    * **[!UICONTROL Filtre]**
 
-      Seuls les fichiers correspondant à ce filtre sont pris en compte. Les autres fichiers du répertoire seront ignorés. Si le filtre est vide, tous les fichiers du répertoire seront pris en compte. Exemples de filtre : **&quot;*.zip&quot;**, **&quot;import-*.txt&quot;**.
+      Seuls les fichiers correspondant à ce filtre sont pris en compte. Les autres fichiers du répertoire seront ignorés. Si le filtre est vide, tous les fichiers du répertoire seront pris en compte. Exemples de filtre : **&#42;.zip**, **import-&#42;.txt**.
 
    * **[!UICONTROL Terminer dès qu&#39;un fichier est traité]**
 

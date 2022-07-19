@@ -3,8 +3,8 @@ product: campaign
 title: Emission vers Mid-sourcing
 description: En savoir plus sur les workflows d’émission vers Mid-sourcing
 feature: Workflows
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Émission vers Mid-sourcing{#transfer-to-mid-sourcing}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Les workflows présentés ci-dessous sont installés par défaut avec le module **Émission vers Mid-sourcing**. Pour en savoir plus à ce sujet consultez le [ Guide d&#39;installation de Campaign Classic v7](../../installation/using/mid-sourcing-deployment.md).
 

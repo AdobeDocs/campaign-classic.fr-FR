@@ -4,8 +4,8 @@ title: Saut (départ et arrivée)
 description: Saut (départ et arrivée)
 feature: Workflows
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Saut (départ et arrivée){#jump-start-point-and-end-point}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Les objets graphiques de type **[!UICONTROL Saut]** sont utilisés pour améliorer la lisibilité d&#39;un diagramme complexe, notamment dans le cas où des transitions se croisent.
 

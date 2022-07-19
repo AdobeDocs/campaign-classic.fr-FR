@@ -3,8 +3,8 @@ product: campaign
 title: À propos de la gestion de la réaction
 description: À propos de la gestion de la réaction
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
-source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Prise en main de la gestion de la réaction de Campaign{#about-response-manager}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign propose un module complémentaire de gestion de la réaction qui permet de mesurer le succès et la rentabilité d&#39;une campagne marketing ou d&#39;une proposition d&#39;offre, quel que soit le canal de communication utilisé : email, mobile, courrier, etc.
 

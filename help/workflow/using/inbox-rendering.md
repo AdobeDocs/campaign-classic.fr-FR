@@ -3,7 +3,7 @@ product: campaign
 title: Workflow technique d’Inbox rendering
 description: Cette section décrit le workflow technique installé à l’aide du package Inbox rendering
 feature: Workflows, Inbox Rendering
-source-git-commit: 378788764e244dcad12018d6d703048707d4c3e6
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 70%
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 # Inbox rendering (IR){#inbox-rendering}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Le workflow détaillé ci-dessous est installé par défaut avec le module **Inbox rendering (IR)**. Voir à ce propos [cette section](../../delivery/using/inbox-rendering.md).
 

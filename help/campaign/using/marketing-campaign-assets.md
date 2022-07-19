@@ -4,8 +4,8 @@ title: Compositions de diffusions et documents des campagnes marketing
 description: En savoir plus sur les compositions de diffusions et sur les documents des campagnes marketing
 feature: Campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Gestion des documents associés {#managing-associated-documents}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Vous pouvez associer divers documents à une opération : rapports, photos, pages web, diagrammes et bien d’autres. Ces documents peuvent avoir n’importe quel format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF et autres).
 

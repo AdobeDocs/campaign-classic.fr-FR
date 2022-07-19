@@ -4,8 +4,8 @@ title: Créer un filtre
 description: Découvrez comment créer un filtre lors de lʼexécution de requêtes
 feature: Workflows
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Création d’un filtre {#creating-a-filter}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Les filtres disponibles dans Adobe Campaign sont définis au travers de conditions de filtrage qui sont créées selon le même mode opératoire que les requêtes.
 

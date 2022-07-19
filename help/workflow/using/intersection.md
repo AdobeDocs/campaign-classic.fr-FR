@@ -4,7 +4,7 @@ title: Intersection
 description: Intersection
 feature: Workflows, Targeting Activity
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: 389e5a87ea195024707c3c58e63899ad7949f025
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 93%
@@ -20,7 +20,7 @@ ht-degree: 93%
 >additional-url="https://video.tv.adobe.com/v/329373" text="Regarder une vidéo de démonstration"
 
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Une activité de type **Intersection** crée une cible à partir de l&#39;intersection des cibles reçues.
 

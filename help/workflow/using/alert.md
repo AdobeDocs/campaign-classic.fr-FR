@@ -4,8 +4,8 @@ title: Alerte
 description: Alerte
 feature: Workflows
 exl-id: 21698e85-7b58-4bde-bbd2-0ee06ac90307
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Alerte{#alert}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Une activité de type **Alerte** envoie un message à un groupe d&#39;opérateurs. Son fonctionnement est le même qu&#39;une activité de type validation, mais ici, aucune réponse n&#39;est attendue.
 

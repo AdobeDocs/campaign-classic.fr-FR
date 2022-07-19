@@ -4,8 +4,8 @@ title: Code SQL et code JavaScript
 description: En savoir plus sur les activités du workflow des codes SQL et JavaScript
 feature: Workflows
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Code SQL et code JavaScript{#sql-code-and-javascript-code}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## Code SQL {#sql-code}
 

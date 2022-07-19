@@ -4,8 +4,8 @@ title: Enrichissement des emails avec des champs de date personnalisés
 description: Découvrez comment enrichir les emails avec des champs de date personnalisés
 feature: Workflows
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Enrichissement des emails avec des champs de date personnalisés{#email-enrichment-with-custom-date-fields}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Dans cet exemple, nous souhaitons envoyer un email avec des champs de données personnalisés aux destinataires qui célèbrent leur anniversaire ce mois-ci. Cet email inclura un coupon valide une semaine avant et après leur anniversaire.
 

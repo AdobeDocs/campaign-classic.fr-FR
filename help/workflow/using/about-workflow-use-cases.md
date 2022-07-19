@@ -4,8 +4,8 @@ title: À propos des cas pratiques de workflows
 description: En savoir plus sur les cas pratiques de workflows dans Campaign Classic.
 feature: Workflows, Data Management
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Cas dʼutilisation de workflows {#about-workflow-use-cases}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Cette section présente différents cas pratiques utilisant des fonctionnalités de workflows dans Campaign.
 

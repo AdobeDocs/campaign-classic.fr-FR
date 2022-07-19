@@ -4,8 +4,8 @@ title: Gestion des données SQL
 description: En savoir plus sur l’activité de workflow de gestion des données SQL
 feature: Workflows
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Gestion des données SQL{#sql-data-management}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 L&#39;activité **Gestion des données SQL** permet d&#39;écrire vos requêtes SQL pour créer et remplir les tables de travail.
 

@@ -4,16 +4,16 @@ title: Créer une liste récapitulative
 description: Créer une liste récapitulative
 feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Création d’une liste récapitulative{#creating-a-summary-list}
+# Créer une liste récapitulative{#creating-a-summary-list}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Ce cas pratique détaille la création d&#39;un workflow permettant, à partir d&#39;une collecte de fichiers et suite à plusieurs enrichissements de données, de créer une liste récapitulative. L&#39;exemple est basé sur une liste de contacts ayant effectué des achats dans un magasin.
 
@@ -61,7 +61,7 @@ Ces données sont contenues dans un fichier texte : &quot;Achats.txt&quot;.
 
    Pour plus d&#39;informations sur cette activité, voir la section [Charger des données depuis un fichier](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
 
-1. Configurez l&#39;activité **Collecteur de fichiers** pour collecter des fichiers de type texte (*.txt) dans le répertoire sélectionné.
+1. Configurez la variable **Collecteur de fichiers** activité de collecte de texte (&#42;.txt) de type fichiers du répertoire sélectionné.
 
    ![](assets/uc2_enrich_collecteur.png)
 

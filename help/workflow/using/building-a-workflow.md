@@ -4,8 +4,8 @@ title: Création d’un workflow
 description: Découvrez comment créer un workflow
 feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Création d’un workflow {#building-a-workflow}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Cette section détaille les principes clés et les bonnes pratiques pour la création d’un workflow dans Campaign.
 

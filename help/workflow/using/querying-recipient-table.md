@@ -4,8 +4,8 @@ title: Effectuer une requête sur la table des destinataires
 description: Découvrez comment effectuer une requête sur la table des destinataires.
 feature: Query Editor
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Requête de la table des destinataires {#querying-recipient-table}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Dans cet exemple, vous allez récupérer les noms et emails des destinataires dont le domaine d&#39;email est &quot;free.fr&quot; et non domiciliés à Paris.
 

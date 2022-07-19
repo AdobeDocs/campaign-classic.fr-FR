@@ -3,8 +3,8 @@ product: campaign
 title: Email Deliverability
 description: En savoir plus sur le package de délivrabilité des emails
 feature: Workflows, Deliverability
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Supervision de la délivrabilité (Email Deliverability){#email-deliverability}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Le workflow décrit ci-dessous est installé par défaut sur toutes les instances et permet d&#39;initialiser la liste des règles de qualification des emails bounce, la liste des domaines et la liste des MX. Une fois le package **Supervision de la délivrabilité (Email Deliverability)** installé, le workflow s&#39;exécute de nuit. Voir à ce propos [cette section](../../delivery/using/about-deliverability.md).
 
