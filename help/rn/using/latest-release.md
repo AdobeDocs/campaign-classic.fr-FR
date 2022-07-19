@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
+source-git-commit: 8d6f5a3596c2c919e597e0b6ce3d711276c8df12
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1967'
+ht-degree: 98%
 
 ---
 
@@ -61,12 +61,12 @@ Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compa
 
 **Correctifs**
 
-* Correction d’une erreur du build précédent qui empêchait les utilisateurs de redimensionner la page de connexion IMS.
-* Correction d’une erreur qui se produisait lors de l’installation du package du gestionnaire de contenu sur une instance existante.
-* Correction d’un problème dans le menu **Campagnes** où un message « opération en cours » s’affichait en continu.
-* Avec Adobe Analytics activé, correction d’un problème en raison duquel le BID (Broadlog ID, identifiant du broadlog) et le CID (identifiant de campagne) étaient supprimés de l’URL lors de l’envoi d’un e-mail avec une URL sans enregistrer la diffusion.
-* Correction d’un problème lors du téléchargement d’une image dans le dossier Ressources publiques d’une instance avec une configuration spécifique à Message Center. Le message d’erreur suivant s’affiche : « Impossible de télécharger les images sur les serveurs de tracking ».
-* Correction d’un problème en raison duquel le système se bloquait lors de la régénération de la configuration en cas de fichiers de configuration erronés.
+* Correction d’une erreur du build précédent qui empêchait les utilisateurs de redimensionner la page de connexion IMS. (NEO-30085)
+* Correction d’une erreur qui se produisait lors de l’installation du package du gestionnaire de contenu sur une instance existante. (NEO-32349)
+* Correction d’un problème dans le menu **Campagnes** où un message « opération en cours » s’affichait en continu. (NEO-44904)
+* Avec Adobe Analytics activé, correction d’un problème en raison duquel le BID (Broadlog ID, identifiant du broadlog) et le CID (identifiant de campagne) étaient supprimés de l’URL lors de l’envoi d’un e-mail avec une URL sans enregistrer la diffusion. (NEO-38678)
+* Correction d’un problème lors du téléchargement d’une image dans le dossier Ressources publiques d’une instance avec une configuration spécifique à Message Center. Le message d’erreur suivant s’affiche : « Impossible de télécharger les images sur les serveurs de tracking ». (NEO-38546, NEO-45572)
+* Correction d’un problème en raison duquel le système se bloquait lors de la régénération de la configuration en cas de fichiers de configuration erronés. (NEO-38752)
 * Correction d’un problème qui empêchait la mise à jour correcte des indicateurs de diffusion. (NEO-44827)
 * Correction d’un problème qui entraînait une erreur de postupgrade lors de l’utilisation de requêtes complexes. (NEO-43648)
 * Correction d’un problème qui empêchait le fonctionnement de l’aperçu webApps. (NEO-43242)
