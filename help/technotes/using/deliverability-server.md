@@ -2,8 +2,10 @@
 product: campaign
 title: Effectuer une migration vers le nouveau serveur de délivrabilité
 description: Découvrez comment implémenter le serveur de délivrabilité de Campaign.
+hide: true
+hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: d1070719d7df50939768780a50e46fcb98d59183
+source-git-commit: 02af725ec7f75e31496b72b533db485c85a416e1
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 51%
