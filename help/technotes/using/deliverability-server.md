@@ -1,18 +1,16 @@
 ---
 product: campaign
-title: Effectuer une migration vers le nouveau serveur de délivrabilité
-description: Découvrez comment implémenter le serveur de délivrabilité de Campaign.
-hide: true
-hidefromtoc: true
+title: Mise à jour vers le nouveau serveur de délivrabilité
+description: Découvrez comment mettre à jour le nouveau serveur de délivrabilité de Campaign
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 02af725ec7f75e31496b72b533db485c85a416e1
+source-git-commit: de3a2bf1ab6851184c75bc302ff0c42db186e7f0
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 51%
+source-wordcount: '1164'
+ht-degree: 49%
 
 ---
 
-# Serveur de délivrabilité de Campaign {#acc-deliverability}
+# Mise à jour vers le nouveau serveur de délivrabilité {#acc-deliverability}
 
 Démarrage [version v7.2.1](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign repose sur un nouveau serveur de délivrabilité qui assure une haute disponibilité et résout les problèmes de conformité en matière de sécurité. Campaign Classic synchronise désormais les règles de délivrabilité, les broadlogs, ainsi que l’adresse de suppression depuis et vers le nouveau serveur de délivrabilité. L’ancien serveur de délivrabilité sera mis hors service le 31 août 2022.
 
