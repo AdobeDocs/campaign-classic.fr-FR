@@ -6,10 +6,10 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
+source-git-commit: 56e9fcc4240649f53239b12f1390dea041602e79
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 100%
+source-wordcount: '2910'
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Le workflow **[!UICONTROL Nettoyage de la base]** (cleanup), accessible à partir du noeud **[!UICONTROL Administration > Exploitation > Workflows techniques]**, permet de supprimer les données obsolètes afin d&#39;éviter une croissance exponentielle de la base. Le workflow se déclenche de manière automatique sans intervention de l&#39;utilisateur.
 
-![](assets/ncs_cleanup_workflow.png)
+![cleanup](assets/ncs_cleanup_workflow.png)
 
 ## Configuration  {#configuration}
 
@@ -40,11 +40,11 @@ Par défaut, le workflow **[!UICONTROL Nettoyage de la base]** est paramétré p
 * **[!UICONTROL Hebdomadaire]**
 * **[!UICONTROL Une seule fois]**
 
-![](assets/ncs_cleanup_scheduler.png)
+![planificateur](assets/ncs_cleanup_scheduler.png)
 
 >[!IMPORTANT]
 >
->Pour que le workflow **[!UICONTROL Nettoyage de la base]** puisse se lancer à la date et heure définies dans le planificateur, le moteur de workflow (wfserver) doit être démarré. Si ce n&#39;est pas le cas, le nettoyage de la base se déclenchera au prochain démarrage du moteur de workflow.
+>Pour que la variable **[!UICONTROL Nettoyage de la base]** pour démarrer à la date et à l’heure définies dans le planificateur, le moteur de workflow (wfserver) doit être démarré.
 
 ### L’assistant de déploiement {#deployment-wizard}
 
@@ -83,12 +83,10 @@ L&#39;ensemble des tâches exécutées par le workflow **[!UICONTROL Nettoyage d
 
 >[!IMPORTANT]
 >
->Si l&#39;une de ces tâches échoue, les tâches suivantes ne seront pas exécutées.\
->Les requêtes SQL comportant un attribut **LIMIT** sont exécutées de façon répétée jusqu&#39;à ce que toutes les informations aient été traitées.
-
->[!NOTE]
+>Si l’une de ces tâches échoue, les tâches suivantes ne sont pas exécutées.
 >
->Les sections ci-dessous décrivant les tâches effectuées par le workflow Nettoyage de la base sont réservées aux administrateurs de bases de données ou aux utilisateurs familiarisés avec le langage SQL.
+>Requêtes SQL avec une **LIMIT** sont exécutées à plusieurs reprises jusqu’à ce que toutes les informations soient traitées.
+
 
 ### Nettoyage des listes à supprimer {#lists-to-delete-cleanup}
 
@@ -96,31 +94,31 @@ La première tâche exécutée par le workflow **[!UICONTROL Nettoyage de la bas
 
 1. Les listes à supprimer sont récupérées à l&#39;aide de la requête SQL suivante :
 
-   ```
+   ```sql
    SELECT iGroupId, sLabel, iType FROM NmsGroup WHERE iDeleteStatus <> 0 OR tsExpirationDate <= GetDate() 
    ```
 
 1. Chaque liste possède plusieurs liens vers d&#39;autres tables. Tous ces liens sont supprimés en masse à l&#39;aide de la requête suivante :
 
-   ```
+   ```sql
    DELETE FROM $(relatedTable) WHERE iGroupId=$(l) IN (SELECT iGroupId FROM $(relatedTable) WHERE iGroupId=$(l) LIMIT 5000) 
    ```
 
-   où **$(relatedTable)** est une table liée à **NmsGroup** et **$(l)** est l’identifiant de la liste.
+   where `$(relatedTable)` est une table liée à **NmsGroup** et `$(l)` est l’identifiant de liste.
 
 1. Lorsque la liste est de type &#39;Liste&#39;, la table associée est supprimée à l&#39;aide de la requête suivante :
 
-   ```
+   ```sql
    DROP TABLE grp$(l)
    ```
 
 1. Chaque liste récupérée par l&#39;opération de type **Select** est supprimée à l&#39;aide de la requête suivante :
 
-   ```
+   ```sql
    DELETE FROM NmsGroup WHERE iGroupId=$(l) 
    ```
 
-   où **$(l)** est l’identifiant de la liste
+   where `$(l)` est l’identifiant de liste
 
 ### Nettoyage des diffusions à supprimer ou à recycler {#cleanup-of-deliveries-to-be-deleted-or-recycled}
 
@@ -133,7 +131,7 @@ Cette tâche purge toutes les diffusions à supprimer ou à recycler.
 
    * Dans la table des exclusions de diffusion (**NmsDlvExclusion**), la requête suivante est utilisée :
 
-      ```
+      ```sql
       DELETE FROM NmsDlvExclusion WHERE iDeliveryId=$(l)
       ```
 
@@ -141,11 +139,11 @@ Cette tâche purge toutes les diffusions à supprimer ou à recycler.
 
    * Dans la table des coupons (**NmsCouponValue**), la requête suivante est utilisée (avec des suppressions en masse) :
 
-      ```
+      ```sql
       DELETE FROM NmsCouponValue WHERE iMessageId IN (SELECT iMessageId FROM NmsCouponValue WHERE EXISTS (SELECT B.iBroadLogId FROM $(BroadLogTableName) B WHERE B.iDeliveryId = $(l) AND B.iBroadLogId = iMessageId ) LIMIT 5000)
       ```
 
-      où **$(l)** est l’identifiant de la diffusion.
+      where `$(l)` est l’identifiant de la diffusion.
 
    * Dans les tables de logs de diffusion (**NmsBroadlogXxx**), les suppressions en masse sont exécutées par groupes de 20 000 enregistrements.
    * Dans les tables de propositions d’offres (**NmsPropositionXxx**), les suppressions en masse sont exécutées par groupes de 20 000 enregistrements.
@@ -156,21 +154,21 @@ Cette tâche purge toutes les diffusions à supprimer ou à recycler.
    * Dans la table de log de traitement par lot (**XtkJobLog**), les suppressions en masse sont exécutées par lots de 20 000 enregistrements. Cette table contient le log des diffusions à supprimer.
    * Dans la table de tracking des URL d&#39;une diffusion (**NmsTrackingUrl**), la requête suivante est utilisée :
 
-      ```
+      ```sql
       DELETE FROM NmsTrackingUrl WHERE iDeliveryId=$(l)
       ```
 
-      où **$(l)** est l’identifiant de la diffusion.
+      where `$(l)` est l’identifiant de la diffusion.
 
       Cette table contient les URL présentes dans les diffusions à supprimer afin de permettre leur tracking.
 
 1. La diffusion est ensuite supprimée de la table des diffusions (**NmsDelivery**) :
 
-   ```
+   ```sql
    DELETE FROM NmsDelivery WHERE iDeliveryId = $(l)
    ```
 
-   où **$(l)** est l’identifiant de la diffusion.
+   where `$(l)` est l’identifiant de la diffusion.
 
 #### Diffusions utilisant le mid-sourcing {#deliveries-using-mid-sourcing}
 
@@ -178,7 +176,7 @@ Le workflow **[!UICONTROL Nettoyage de la base]** supprime également les diffus
 
 1. Pour cela, le workflow vérifie que chaque diffusion est inactive (en se basant sur son état). Si une diffusion est active, elle sera interrompue avant d&#39;être supprimée. La vérification est effectuée en exécutant la requête suivante :
 
-   ```
+   ```sql
    SELECT iState FROM NmsDelivery WHERE iDeliveryId = $(l) AND iState <> 100;
    ```
 
@@ -192,23 +190,23 @@ Cette tâche interrompt les diffusions dont la période de validité a expiré.
 
 1. Le workflow **[!UICONTROL Nettoyage de la base]** crée la liste des diffusions ayant expiré. Cette liste inclut toutes les diffusions ayant expiré dont l&#39;état est différent de **[!UICONTROL Terminé]**, ainsi que les diffusions récemment arrêtées avec plus de 10000 messages non traités. La requête suivante est utilisée :
 
-   ```
+   ```sql
    SELECT iDeliveryId, iState FROM NmsDelivery WHERE iDeleteStatus=0 AND iIsModel=0 AND iDeliveryMode=1 AND ( (iState >= 51 AND iState < 85 AND tsValidity IS NOT NULL AND tsValidity < $(currentDate) ) OR (iState = 85 AND DateMinusDays(15) < tsLastModified AND iToDeliver - iProcessed >= 10000 ))
    ```
 
-   où **delivery mode 1** correspond au mode **[!UICONTROL Envoi en masse]**, **state 51** correspond à l’état **[!UICONTROL Démarrage en attente]**, **state 85** correspond à l’état **[!UICONTROL Arrêt]**, et le nombre maximum de logs de diffusion mis à jour en masse sur le serveur de diffusion est de 10 000.
+   où `delivery mode 1` correspond au mode **[!UICONTROL Envoi en masse]**, `state 51` correspond à l’état **[!UICONTROL Démarrage en attente]**, `state 85` correspond à l’état **[!UICONTROL Arrêt]**, et le nombre maximum de logs de diffusion mis à jour en masse sur le serveur de diffusion est de 10 000.
 
 1. Le workflow inclut ensuite la liste des diffusions qui ont récemment expiré et qui utilisent le mid-sourcing. Les diffusions pour lesquelles les logs de diffusion n&#39;ont pas encore été récupérés depuis serveur de mid-sourcing ne sont pas incluses.
 
    La requête suivante est utilisée :
 
-   ```
+   ```sql
    SELECT iDeliveryId, tsValidity, iMidRemoteId, mData FROM NmsDelivery WHERE (iDeliveryMode = 4 AND (iState = 85 OR iState = 95) AND tsValidity IS NOT NULL AND (tsValidity < SubDays(GetDate() , 15) OR tsValidity < $(DateOfLastLogPullUp)) AND tsLastModified > SubDays(GetDate() , 15))
    ```
 
 1. La requête suivante est utilisée pour détecter si le compte externe est toujours actif, afin de pouvoir filtrer les diffusions selon la date :
 
-   ```
+   ```sql
    SELECT iExtAccountId FROM NmsExtAccount WHERE iActive<>0 AND sName=$(providerName)
    ```
 
@@ -216,31 +214,31 @@ Cette tâche interrompt les diffusions dont la période de validité a expiré.
 
    Les requêtes utilisées sont les suivantes :
 
-   ```
+   ```sql
    UPDATE $(BroadLogTableName) SET tsLastModified=$(curdate), iStatus=7, iMsgId=$(bl) WHERE iDeliveryId=$(dl) AND iStatus=6
    ```
 
-   où **$(curdate)** est la date courante du serveur de la base de données, **$(bl)** est l’identifiant du message des logs de diffusion, **$(dl)** est l’identifiant de la diffusion, **delivery status 6** correspond à l’état **[!UICONTROL En attente]** et **delivery status 7** correspond à l’état **[!UICONTROL Envoie annulé]**.
+   where `$(curdate)`est la date courante du serveur de base de données, `$(bl)` est l&#39;identifiant du message des logs de diffusion, `$(dl)` est l&#39;identifiant de la diffusion, `delivery status 6` correspond à **[!UICONTROL En attente]** status et `delivery status 7` correspond à **[!UICONTROL Diffusion annulée]** statut.
 
-   ```
+   ```sql
    UPDATE NmsDelivery SET iState = 95, tsLastModified = $(curdate), tsBroadEnd = tsValidity WHERE iDeliveryId = $(dl)
    ```
 
-   où **delivery state 95** correspond à l’état **[!UICONTROL Terminé]** et **$(dl)** est l’identifiant de la diffusion.
+   where `delivery state 95` correspond à **[!UICONTROL Terminé]** et `$(dl)` est l’identifiant de la diffusion.
 
 1. Tous les fragments (**deliveryParts**) des diffusions obsolètes sont supprimés et tous les fragments obsolètes des diffusions de notification toujours en cours sont supprimés. Une suppression en masse est utilisée pour ces deux tâches.
 
    Les requêtes utilisées sont les suivantes :
 
-   ```
+   ```sql
    DELETE FROM NmsDeliveryPart WHERE iDeliveryPartId IN (SELECT iDeliveryPartId FROM NmsDeliveryPart WHERE iDeliveryId IN (SELECT iDeliveryId FROM NmsDelivery WHERE iState=95 OR iState=85) LIMIT 5000)
    ```
 
-   ```
+   ```sql
    DELETE FROM NmsDeliveryPart WHERE iDeliveryPartId IN (SELECT iDeliveryPartId FROM NmsDeliveryPart WHERE tsValidity < $(curDate) LIMIT 500000)
    ```
 
-   où **delivery state 95** correspond à l’état **[!UICONTROL Terminé]**, **delivery state 85** correspond à l’état **[!UICONTROL Arrêt]** et **$(curDate)** est la date courante du serveur.
+   where `delivery state 95` correspond à **[!UICONTROL Terminé]** status, `delivery state 85` correspond à **[!UICONTROL Stoppé]** et `$(curDate)` est la date courante du serveur.
 
 ### Nettoyage des pages miroir {#cleanup-of-mirror-pages}
 
@@ -248,32 +246,32 @@ Cette tâche supprime les ressources web (pages miroir) utilisées par les diffu
 
 1. Tout d&#39;abord, la liste des diffusions à purger est récupérée à l&#39;aide de la requête suivante :
 
-   ```
+   ```sql
    SELECT iDeliveryId, iNeedMirrorPage FROM NmsDelivery WHERE iWebResPurged = 0 AND tsWebValidity IS NOT NULL AND tsWebValidity < $(curdate)"
    ```
 
-   où **$(curDate)** est la date courante du serveur.
+   where `$(curDate)` est la date courante du serveur.
 
 1. La table **NmsMirrorPageInfo** est ensuite purgée, si nécessaire, à l&#39;aide de l&#39;identifiant de la diffusion récupéré précédemment. Une suppression en masse est utilisée pour générer les requêtes suivantes :
 
-   ```
+   ```sql
    DELETE FROM NmsMirrorPageInfo WHERE iMirrorPageInfoId IN (SELECT iMirrorPageInfoId FROM NmsMirrorPageInfo WHERE iDeliveryId = $(dl)) LIMIT 5000)
    ```
 
-   ```
+   ```sql
    DELETE FROM NmsMirrorPageSearch WHERE iMessageId IN (SELECT iMessageId FROM NmsMirrorPageSearch WHERE iDeliveryId = $(dl)) LIMIT 5000)
    ```
 
-   où **$(dl)** est l’identifiant de la diffusion.
+   where `$(dl)` est l’identifiant de la diffusion.
 
 1. Un log est ensuite ajouté au journal de la diffusion.
 1. Les diffusions purgées sont ensuite identifiées afin de ne pas avoir à les retraiter par la suite. La requête suivante est exécutée :
 
-   ```
+   ```sql
    UPDATE NmsDelivery SET iWebResPurged = 1 WHERE iDeliveryId IN ($(strIn))
    ```
 
-   où **$(strln)** est la liste des identifiants de diffusion.
+   where `$(strIn)` est la liste des identifiants de diffusion.
 
 ### Nettoyage des tables de travail {#cleanup-of-work-tables}
 
@@ -281,21 +279,21 @@ Cette tâche supprime, dans la base de données, les tables de travail correspon
 
 1. La liste des tables dont le nom commence par **wkDlv_** est récupérée en premier lieu avec la requête suivante (postgresql) :
 
-   ```
+   ```sql
    SELECT relname FROM pg_class WHERE relname LIKE Lower('wkDlv_') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
    ```
 
 1. Les tables utilisées par des workflows en cours sont ensuite exclues. Pour cela, la liste des diffusions en cours est récupérée à l&#39;aide de la requête suivante :
 
-   ```
+   ```sql
    SELECT iDeliveryId FROM NmsDelivery WHERE iDeliveryId<>0 AND iDeleteStatus=0 AND iState NOT IN (0,85,100);
    ```
 
-   où 0 est la valeur correspondant à l&#39;état de diffusion **[!UICONTROL En édition]**, 85 correspond à l&#39;état **[!UICONTROL Stoppé]** et 100 correspond à l&#39;état **[!UICONTROL Supprimée]**.
+   where `0` est la valeur qui correspond à la variable **[!UICONTROL En édition]** statut de la diffusion, `85` correspond à **[!UICONTROL Stoppé]** status et `100` correspond à **[!UICONTROL Supprimé]** statut.
 
 1. Les tables qui ne sont plus utilisées sont supprimées à l&#39;aide de la requête suivante :
 
-   ```
+   ```sql
    DROP TABLE wkDlv_15487_1;
    ```
 
@@ -305,15 +303,15 @@ Cette étape permet de supprimer les enregistrements dont les données n&#39;ont
 
 1. Une suppression en masse est exécutée sur la table **XtkReject** avec la requête suivante :
 
-   ```
+   ```sql
    DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l))
    ```
 
-   où **$(curDate)** est la date courante du serveur à laquelle est soustraite la période définie pour l’option **NmsCleanup_RejectsPurgeDelay** (voir [Assistant de déploiement](#deployment-wizard)) et **$(l)** est le nombre maximum d’enregistrements à supprimer en masse.
+   where `$(curDate)` est la date courante du serveur à laquelle est soustraite la période définie pour la variable **NmsCleanup_RejectsPurgeDelay** (voir [Assistant de déploiement](#deployment-wizard)) et `$(l)` est le nombre maximum d&#39;enregistrements à supprimer en masse.
 
 1. Tous les rejets orphelins sont alors supprimés à l&#39;aide de la requête suivante :
 
-   ```
+   ```sql
    DELETE FROM XtkReject WHERE iJobId NOT IN (SELECT iJobId FROM XtkJob)
    ```
 
@@ -327,54 +325,54 @@ Cette tâche purge chaque instance de workflow à l’aide de son identifiant (*
 
 1. Pour récupérer la liste des workflows à supprimer, la requête suivante est utilisée :
 
-   ```
+   ```sql
    SELECT iWorkflowId, iHistory FROM XtkWorkflow WHERE iWorkflowId<>0
    ```
 
 1. Cette requête génère la liste des workflows qui seront utilisés pour supprimer tous les logs associés, les tâches terminées et les évènements terminés, à l&#39;aide des requêtes suivantes :
 
-   ```
+   ```sql
    DELETE FROM XtkWorkflowLog WHERE iWorkflowId=$(lworkflow) AND tsLog < DateMinusDays($(lhistory))
    ```
 
-   ```
+   ```sql
    DELETE FROM XtkWorkflowTask WHERE iWorkflowId=$(lworkflow) AND iStatus<>0 AND tsCompletion < DateMinusDays($(lhistory)) 
    ```
 
-   ```
+   ```sql
    DELETE FROM XtkWorkflowEvent WHERE iWorkflowId=$(l) AND iStatus>2 AND tsProcessing < DateMinusDays($(lHistory))
    ```
 
-   où **$(workflow)** est l’identifiant du workflow et **$(history)** est l’identifiant de l’historique.
+   where `$(lworkflow)` est l’identifiant du workflow et `$(lhistory)` est l’identifiant de l’historique.
 
 1. Toutes les tables inutilisées sont alors supprimées. Pour cela, toutes les tables sont collectées à l&#39;aide d&#39;un masque de type **wkf%** utilisant la requête suivante (postgresql) :
 
-   ```
+   ```sql
    SELECT relname FROM pg_class WHERE relname LIKE Lower('wkf%') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
    ```
 
 1. Puis, toutes les tables utilisées par une instance de workflow en cours sont exclues. La liste des workflows actifs est récupérée à l&#39;aide de la requête suivante :
 
-   ```
+   ```sql
    SELECT iWorkflowId FROM XtkWorkflow WHERE iWorkflowId<>0 AND iState<>20
    ```
 
 1. Chaque identifiant de workflow est ensuite récupéré afin de trouver le nom des tables utilisées par des workflows en cours. Ces noms sont exclus de la liste de tables récupérée précédemment.
 1. Les tables d&#39;historique des activités de type &quot;requête incrémentale&quot; sont exclues, à l&#39;aide des requêtes suivantes :
 
-   ```
+   ```sql
    SELECT relname FROM pg_class WHERE relname LIKE Lower('wkfhisto%') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
    ```
 
-   ```
+   ```sql
    SELECT iWorkflowId FROM XtkWorkflow WHERE iWorkflowId IN ($(strCondition))
    ```
 
-   où **$(strcondition)** est la liste des tables correspondant au masque **wkfhisto%**.
+   where `$(strcondition)` est la liste des tables correspondant au **wkfhisto%** Masque.
 
 1. Les tables restantes sont supprimées à l&#39;aide de la requête suivante :
 
-   ```
+   ```sql
    DROP TABLE wkf15487_12;
    ```
 
@@ -382,7 +380,7 @@ Cette tâche purge chaque instance de workflow à l’aide de son identifiant (*
 
 Cette tâche supprime les logins de workflows à l&#39;aide de la requête suivante :
 
-```
+```sql
 DELETE FROM XtkWorkflowLogin WHERE iWorkflowId NOT IN (SELECT iWorkflowId FROM XtkWorkflow)
 ```
 
@@ -390,7 +388,7 @@ DELETE FROM XtkWorkflowLogin WHERE iWorkflowId NOT IN (SELECT iWorkflowId FROM X
 
 Cette tâche supprime les tables de travail orphelines liées à des groupes. La table **NmsGroup** stocke les groupes à nettoyer (ceux dont le type est différent de 0). Le nom des tables de travail a pour préfixe **grp**. Pour identifier les groupes à nettoyer, la requête suivante est utilisée :
 
-```
+```sql
 SELECT iGroupId FROM NmsGroup WHERE iType>0"
 ```
 
@@ -398,27 +396,27 @@ SELECT iGroupId FROM NmsGroup WHERE iType>0"
 
 Cette tâche supprime les enregistrements obsolètes de la table des visiteurs à l’aide de la suppression en masse. Les enregistrements obsolètes sont ceux pour lesquels la dernière modification est antérieure à la période de conservation définie dans l’assistant de déploiement (voir [Assistant de déploiement](#deployment-wizard)). La requête suivante est utilisée :
 
-```
+```sql
 DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WHERE iRecipientId = 0 AND tsLastModified < AddDays(GetDate(), -30) AND iOrigin = 0 LIMIT 20000)
 ```
 
-où **$(tsDate)** est la date courante du serveur à laquelle est soustraite la période définie pour l&#39;option **NmsCleanup_VisitorPurgeDelay**.
+where `$(tsDate)` est la date courante du serveur à laquelle est soustraite la période définie pour la variable **NmsCleanup_VisitorPurgeDelay** .
 
 ### Nettoyage des NPAI {#cleanup-of-npai}
 
 Cette tâche permet la suppression, dans la table **NmsAddress**, des enregistrements correspondant à des adresses valides. La requête suivante est utilisée pour effectuer une suppression en masse :
 
-```
+```sql
 DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WHERE iStatus=2 AND tsLastModified < $(tsDate1) AND tsLastModified >= $(tsDate2) LIMIT 5000)
 ```
 
-où **status 2** correspond à l’état **[!UICONTROL Valide]**, **$(tsDate1)** est la date courante du serveur et **$(tsDate2)** correspond à l’option **NmsCleanup_LastCleanup**.
+where `status 2` correspond à **[!UICONTROL Valide]** status, `$(tsDate1)` est la date courante du serveur, et `$(tsDate2)` correspond à **NmsCleanup_LastCleanup** .
 
 ### Nettoyage des abonnements {#cleanup-of-subscriptions-}
 
 Cette tâche purge, dans la table **NmsSubscription**, les abonnements qui ont été supprimés par l&#39;utilisateur, à l&#39;aide d&#39;une suppression en masse. La requête suivante est utilisée :
 
-```
+```sql
 DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 ```
 
@@ -428,25 +426,25 @@ Cette tâche supprime les enregistrements obsolètes du tracking et des tables d
 
 1. Tout d&#39;abord, la liste des tables de logs de tracking est récupérée à l&#39;aide de la requête suivante :
 
-   ```
+   ```sql
    SELECT distinct(sTrackingLogSchema) FROM NmsDeliveryMapping WHERE sTrackingLogSchema IS NOT NULL;
    ```
 
 1. Une suppression en masse est utilisée pour purger toutes les tables dans la liste des tables récupérées précédemment. La requête utilisée est la suivante :
 
-   ```
+   ```sql
    DELETE FROM NmsTrackingLogRcp WHERE iTrackingLogId IN (SELECT iTrackingLogId FROM NmsTrackingLogRcp WHERE tsLog < $(tsDate) LIMIT 5000) 
    ```
 
-   où **$(tsDate)** est la date courante du serveur à laquelle est soustraite la période définie pour l’option **NmsCleanup_TrackingLogPurgeDelay**.
+   where `$(tsDate)` est la date courante du serveur à laquelle est soustraite la période définie pour la variable **NmsCleanup_TrackingLogPurgeDelay** .
 
 1. La table des statistiques de tracking est purgée à l&#39;aide d&#39;une suppression en masse. La requête suivante est utilisée :
 
-   ```
+   ```sql
    DELETE FROM NmsTrackingStats WHERE iTrackingStatsId IN (SELECT iTrackingStatsId FROM NmsTrackingStats WHERE tsStart < $(tsDate) LIMIT 5000) 
    ```
 
-   où **$(tsDate)** est la date courante du serveur à laquelle est soustraite la période définie pour l’option **NmsCleanup_TrackingStatPurgeDelay**.
+   where `$(tsDate)` est la date courante du serveur à laquelle est soustraite la période définie pour la variable **NmsCleanup_TrackingStatPurgeDelay** .
 
 ### Nettoyage des logs de diffusion {#cleanup-of-delivery-logs}
 
@@ -454,26 +452,26 @@ Cette tâche permet de purger les logs de diffusion stockés dans différentes t
 
 1. Pour cela, la liste des schémas de logs de diffusion est récupérée à l&#39;aide de la requête suivante :
 
-   ```
+   ```sql
    SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL UNION SELECT distinct(sBroadLogExclSchema) FROM NmsDeliveryMapping WHERE sBroadLogExclSchema IS NOT NULL
    ```
 
 1. Dans le cas de l&#39;utilisation du mid-sourcing, la table **NmsBroadLogMid** n&#39;est pas référencée dans les mappings de diffusion. Le schéma **nms:broadLogMid** est alors ajouté à la liste récupérée par la requête précédente.
 1. Le workflow **Nettoyage de la base** procède ensuite à la purge des enregistrements obsolètes dans les tables récupérées précédemment. La requête suivante est utilisée :
 
-   ```
+   ```sql
    DELETE FROM $(tableName) WHERE iBroadLogId IN (SELECT iBroadLogId FROM $(tableName) WHERE tsLastModified < $(option) LIMIT 5000) 
    ```
 
-   où **$(tableName)** est le nom de chaque table dans la liste de schémas, et **$(option)** est la date définie pour l’option **NmsCleanup_BroadLogPurgeDelay** (voir [Assistant de déploiement](#deployment-wizard)).
+   where `$(tableName)` est le nom de chaque table de la liste des schémas, et `$(option)` est la date définie pour la variable **NmsCleanup_BroadLogPurgeDelay** (voir [Assistant de déploiement](#deployment-wizard)).
 
 1. Le workflow vérifie enfin si la table **NmsProviderMsgId** existe. Si c&#39;est le cas, tous ses enregistrements obsolètes sont supprimés à l&#39;aide de la requête suivante :
 
-   ```
+   ```sql
    DELETE FROM NmsProviderMsgId WHERE iBroadLogId IN (SELECT iBroadLogId FROM NmsProviderMsgId WHERE tsCreated < $(option) LIMIT 5000)
    ```
 
-   où **$(option)** correspond à la date définie pour l’option **NmsCleanup_BroadLogPurgeDelay** (voir [Assistant de déploiement](#deployment-wizard)).
+   where `$(option)` correspond à la date définie pour le **NmsCleanup_BroadLogPurgeDelay** (voir [Assistant de déploiement](#deployment-wizard)).
 
 ### Nettoyage de la table NmsEmailErrorStat {#cleanup-of-the-nmsemailerrorstat-table-}
 
@@ -488,31 +486,31 @@ Si la date de début est inférieure à la date de fin, la table **NmsEmailError
 
 Le nombre total d&#39;erreurs dans la table **NmsEmailErrorStat**, entre les dates de début et de fin, est récupéré à l&#39;aide de la requête suivante :
 
-```
-"SELECT COUNT(*) FROM NmsEmailErrorStat WHERE tsDate>= $(start) AND tsDate< $(end)"
+```sql
+SELECT COUNT(*) FROM NmsEmailErrorStat WHERE tsDate>= $(start) AND tsDate< $(end)
 ```
 
-où **$end** et **$start** sont les dates de début et de fin définies précédemment.
+where `$end` et `$start` sont les dates de début et de fin définies précédemment.
 
 Si le total est supérieur à 0 :
 
 1. La requête suivante est exécutée afin de ne conserver que les erreurs situées au-delà d&#39;un certain seuil (égal à 20) :
 
-   ```
-   "SELECT iMXIP, iPublicId, SUM(iTotalConnections), SUM(iTotalErrors), SUM(iMessageErrors), SUM(iAbortedConnections), SUM(iFailedConnections), SUM(iRefusedConnections), SUM(iTimeoutConnections) FROM NmsEmailErrorStat WHERE tsDate>=$(start ) AND tsDate<$(end ) GROUP BY iMXIP, iPublicId HAVING SUM(iTotalErrors) >= 20"
+   ```sql
+   SELECT iMXIP, iPublicId, SUM(iTotalConnections), SUM(iTotalErrors), SUM(iMessageErrors), SUM(iAbortedConnections), SUM(iFailedConnections), SUM(iRefusedConnections), SUM(iTimeoutConnections) FROM NmsEmailErrorStat WHERE tsDate>=$(start ) AND tsDate<$(end ) GROUP BY iMXIP, iPublicId HAVING SUM(iTotalErrors) >= 20
    ```
 
 1. Le message **coalescingErrors** apparaît.
 1. Une nouvelle connexion est créée pour supprimer toutes les erreurs survenues entre les dates de début et de fin. La requête suivante est utilisée :
 
-   ```
-   "DELETE FROM NmsEmailErrorStat WHERE tsDate>=$(start) AND tsDate<$(end)"
+   ```sql
+   DELETE FROM NmsEmailErrorStat WHERE tsDate>=$(start) AND tsDate<$(end)
    ```
 
 1. Chaque erreur est enregistrée dans la table **NmsEmailErrorStat** à l&#39;aide de la requête suivante :
 
-   ```
-   "INSERT INTO NmsEmailErrorStat(iMXIP, iPublicId, tsDate, iTotalConnections, iTotalErrors, iTimeoutConnections, iRefusedConnections, iAbortedConnections, iFailedConnections, iMessageErrors) VALUES($(lmxip ), $(lpublicId ), $(tsstart ), $(lconnections ), $(lconnectionErrors ),$(ltimeoutConnections ), $(lrefusedConnections ), $(labortedConnections ), $(lfailedConnections ), $(lmessageErrors))"
+   ```sql
+   INSERT INTO NmsEmailErrorStat(iMXIP, iPublicId, tsDate, iTotalConnections, iTotalErrors, iTimeoutConnections, iRefusedConnections, iAbortedConnections, iFailedConnections, iMessageErrors) VALUES($(lmxip ), $(lpublicId ), $(tsstart ), $(lconnections ), $(lconnectionErrors ),$(ltimeoutConnections ), $(lrefusedConnections ), $(labortedConnections ), $(lfailedConnections ), $(lmessageErrors))
    ```
 
    où chaque variable correspond à une valeur récupérée par la requête précédente.
@@ -527,7 +525,7 @@ Deux tâches sont ensuite exécutées : le nettoyage des tables **NmsEmailError
 
 La requête suivante est utilisée :
 
-```
+```sql
 DELETE FROM NmsEmailError WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailErrorStat)
 ```
 
@@ -537,7 +535,7 @@ Cette requête supprime, dans la table **NmsEmailError**, toutes les lignes n&#3
 
 La requête suivante est utilisée :
 
-```
+```sql
 DELETE FROM NmsMxDomain WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailErrorStat)
 ```
 
@@ -549,11 +547,11 @@ Si le module **Interaction** est installé, cette tâche est exécutée afin de 
 
 La liste des tables de propositions est récupérée et une suppression en masse est exécutée sur chacune d&#39;entre elles, à l&#39;aide de la requête suivante :
 
-```
+```sql
 DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FROM NmsPropositionXxx WHERE tsLastModified < $(option) LIMIT 5000) 
 ```
 
-où **$(option)** est la date définie pour l’option **NmsCleanup_PropositionPurgeDelay** (voir [Assistant de déploiement](#deployment-wizard)).
+where `$(option)` est la date définie pour la variable **NmsCleanup_PropositionPurgeDelay** (voir [Assistant de déploiement](#deployment-wizard)).
 
 ### Nettoyage des tables de simulation {#cleanup-of-simulation-tables}
 
@@ -561,13 +559,13 @@ Cette tâche nettoie les tables de simulation orphelines (qui ne sont plus assoc
 
 1. Pour récupérer la liste des simulations à nettoyer, la requête suivante est utilisée :
 
-   ```
+   ```sql
    SELECT iSimulationId FROM NmsSimulation WHERE iSimulationId<>0
    ```
 
 1. Le nom des tables à supprimer est composé du préfixe **wkSimu_** suivi de l&#39;identifiant de la simulation (par exemple : **wkSimu_456831_aggr**). La requête suivante est utilisée :
 
-   ```
+   ```sql
    DROP TABLE wkSimu_456831_aggr
    ```
 
@@ -575,7 +573,7 @@ Cette tâche nettoie les tables de simulation orphelines (qui ne sont plus assoc
 
 La requête suivante est utilisée :
 
-```
+```sql
 DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
 ```
 
@@ -585,7 +583,7 @@ où **$(tsDate)** correspond à la date actuelle du serveur à laquelle est sous
 
 La requête suivante est utilisée :
 
-```
+```sql
 DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WHERE iStatus=STATUS_QUARANTINE AND tsLastModified < $(NmsCleanup_AppSubscriptionRcpPurgeDelay + 5d) AND iType IN (MESSAGETYPE_IOS, MESSAGETYPE_ANDROID ) LIMIT 5000)
 ```
 
@@ -607,7 +605,7 @@ Cette tâche supprime les abonnements liés à des services ou à des applicatio
 
 Pour récupérer la liste des schémas des broadlogs, la requête suivante est utilisée :
 
-```
+```sql
 SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL
 ```
 
@@ -619,8 +617,8 @@ Ce processus de nettoyage supprime également toutes les entrées pour lesquelle
 
 Cette tâche nettoie les informations de la table **sessionInfo**, la requête suivante est utilisée :
 
-```
- DELETE FROM XtkSessionInfo WHERE tsexpiration < $(curdate) 
+```sql
+DELETE FROM XtkSessionInfo WHERE tsexpiration < $(curdate) 
 ```
 
 ### Nettoyage des événements ayant expiré {#cleansing-expired-events}
