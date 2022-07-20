@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 56e9fcc4240649f53239b12f1390dea041602e79
+source-git-commit: b472178316f97f08e9c87f8aebd707709f320e5f
 workflow-type: tm+mt
 source-wordcount: '2910'
 ht-degree: 86%
@@ -247,7 +247,7 @@ Cette tâche supprime les ressources web (pages miroir) utilisées par les diffu
 1. Tout d&#39;abord, la liste des diffusions à purger est récupérée à l&#39;aide de la requête suivante :
 
    ```sql
-   SELECT iDeliveryId, iNeedMirrorPage FROM NmsDelivery WHERE iWebResPurged = 0 AND tsWebValidity IS NOT NULL AND tsWebValidity < $(curdate)"
+   SELECT iDeliveryId, iNeedMirrorPage FROM NmsDelivery WHERE iWebResPurged = 0 AND tsWebValidity IS NOT NULL AND tsWebValidity < $(curdate)
    ```
 
    where `$(curDate)` est la date courante du serveur.
@@ -255,11 +255,11 @@ Cette tâche supprime les ressources web (pages miroir) utilisées par les diffu
 1. La table **NmsMirrorPageInfo** est ensuite purgée, si nécessaire, à l&#39;aide de l&#39;identifiant de la diffusion récupéré précédemment. Une suppression en masse est utilisée pour générer les requêtes suivantes :
 
    ```sql
-   DELETE FROM NmsMirrorPageInfo WHERE iMirrorPageInfoId IN (SELECT iMirrorPageInfoId FROM NmsMirrorPageInfo WHERE iDeliveryId = $(dl)) LIMIT 5000)
+   DELETE FROM NmsMirrorPageInfo WHERE iMirrorPageInfoId IN (SELECT iMirrorPageInfoId FROM NmsMirrorPageInfo WHERE iDeliveryId = $(dl)) LIMIT 5000
    ```
 
    ```sql
-   DELETE FROM NmsMirrorPageSearch WHERE iMessageId IN (SELECT iMessageId FROM NmsMirrorPageSearch WHERE iDeliveryId = $(dl)) LIMIT 5000)
+   DELETE FROM NmsMirrorPageSearch WHERE iMessageId IN (SELECT iMessageId FROM NmsMirrorPageSearch WHERE iDeliveryId = $(dl)) LIMIT 5000
    ```
 
    where `$(dl)` est l’identifiant de la diffusion.
@@ -304,7 +304,7 @@ Cette étape permet de supprimer les enregistrements dont les données n&#39;ont
 1. Une suppression en masse est exécutée sur la table **XtkReject** avec la requête suivante :
 
    ```sql
-   DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l))
+   DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l)
    ```
 
    where `$(curDate)` est la date courante du serveur à laquelle est soustraite la période définie pour la variable **NmsCleanup_RejectsPurgeDelay** (voir [Assistant de déploiement](#deployment-wizard)) et `$(l)` est le nombre maximum d&#39;enregistrements à supprimer en masse.
