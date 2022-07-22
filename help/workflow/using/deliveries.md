@@ -40,7 +40,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
    <td> Ce workflow réalise l’uniformisation des valeurs des énumérations. Par défaut, il se déclenche tous les jours à 3h00.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Mise à jour pour la délivrabilité</span> <br /> </td> 
+   <td> <span class="uicontrol">Actualiser pour la délivrabilité</span> <br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
    <td> Ce workflow permet de créer la liste des règles de qualification des mails rebonds, ainsi que la liste des domaines et des MX dans la plateforme. Ce workflow ne fonctionne que si le port HTTPS est ouvert. Ces listes ne sont pas mises à jour tant que le module Délivrabilité n'est pas installé.<br /> </td> 
   </tr> 

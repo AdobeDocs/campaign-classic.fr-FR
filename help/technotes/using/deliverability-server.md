@@ -6,19 +6,19 @@ exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: a45e18e460c11f474dc1b5663b9f4a3277fac12c
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 49%
+ht-degree: 98%
 
 ---
 
 # Mise à jour vers le nouveau serveur de délivrabilité {#acc-deliverability}
 
-Démarrage [version v7.2.1](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign repose sur un nouveau serveur de délivrabilité qui assure une haute disponibilité et résout les problèmes de conformité en matière de sécurité. Campaign Classic synchronise désormais les règles de délivrabilité, les broadlogs, ainsi que l’adresse de suppression depuis et vers le nouveau serveur de délivrabilité. L’ancien serveur de délivrabilité sera mis hors service le 31 août 2022.
+Depuis la [version 7.2.1](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign s’appuie sur un nouveau serveur de délivrabilité qui assure une haute disponibilité et résout les problèmes de conformité en matière de sécurité. Campaign Classic synchronise désormais les règles de délivrabilité, les broadlogs, ainsi que l’adresse de suppression depuis et vers le nouveau serveur de délivrabilité. L’ancien serveur de délivrabilité sera désactivé le 31 août 2022.
 
-En tant que client Campaign Classic, vous devez implémenter le nouveau serveur de délivrabilité. **avant le 31 août 2022**.
+En tant que client Campaign Classic, vous devez implémenter le nouveau serveur de délivrabilité **avant le 31 août 2022**.
 
 >[!NOTE]
 >
->Pour plus d’informations sur ces modifications, reportez-vous à la section [FAQ](#faq)ou contactez [Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
+>Pour plus d’informations sur ces modifications, reportez-vous à la section [FAQ](#faq) ou contactez [l’Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
 
 ## Qu’est-ce qui a changé ?{#acc-deliverability-changes}
 
@@ -28,33 +28,33 @@ Ce nouveau serveur garantit une haute disponibilité (99,9) et fournit des point
 
 ## Cela vous concerne-t-il ?{#acc-deliverability-impacts}
 
-Tous les clients sont affectés et doivent effectuer la mise à niveau vers [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) (ou plus) et mettre en oeuvre leur environnement pour bénéficier du nouveau serveur de délivrabilité.
+Tous les clients sont affectés et doivent effectuer la mise à niveau vers [la version 7.2.1 de Campaign](../../rn/using/latest-release.md#release-7-2-2) (ou une version ultérieure) et implémenter leur environnement pour bénéficier du nouveau serveur de délivrabilité.
 
 ## Comment effectuer la mise à jour ?{#acc-deliverability-update}
 
-Comme **client hébergé**, Adobe collaborera avec vous pour mettre à niveau votre ou vos instances vers la version la plus récente et créer le projet dans la console Adobe Developer.
+En tant que **client hébergé**, Adobe collaborera avec vous pour mettre à niveau votre ou vos instances vers la version la plus récente et créer le projet dans la console Adobe Developer.
 
-En tant que **client on-premise/hybride**, vous devez effectuer la mise à niveau vers [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) (ou plus) pour bénéficier du nouveau serveur de délivrabilité. Une fois toutes les instances mises à niveau, vous devez [mettre en oeuvre la nouvelle intégration ;](#implementation-steps) pour Adobe du serveur de délivrabilité et assurer une transition transparente.
+En tant que **client on-premise/hybride**, vous devez effectuer la mise à niveau vers [la version 7.2.1 de Campaign](../../rn/using/latest-release.md#release-7-2-2) (ou une version ultérieure) pour bénéficier du nouveau serveur de délivrabilité. Une fois toutes les instances mises à niveau, vous devez [implémenter la nouvelle intégration](#implementation-steps) vers le serveur de délivrabilité d’Adobe, et assurer ainsi une transition transparente.
 
 ## Étapes dʼimplémentation {#implementation-steps}
 
-Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaign doit communiquer avec les services partagés d’Adobe via une authentification basée sur Identity Management Service (IMS). La méthode recommandée consiste à utiliser le jeton de passerelle basé sur Adobe Developer (également appelé Jeton de compte technique ou JWT d’Adobe IO).
+Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaign doit communiquer avec les services partagés d’Adobe via une authentification basée sur Identity Management Service (IMS). Il est préférable d’utiliser le jeton de passerelle basé sur Adobe Developer (également appelé Jeton de compte technique ou JWT Adobe IO).
 
 
 >[!WARNING]
 >
->Ces étapes ne doivent être effectuées que pour les implémentations hybrides et on-premise.
+>Ces étapes ne doivent être effectuées que pour les implémentations hybrides et On-premise.
 
 ### Conditions préalables{#prerequisites}
 
 Avant de commencer l’implémentation, vérifiez la configuration de votre instance.
 
-1. Ouvrez la console cliente Campaign et connectez-vous à Adobe Campaign en tant qu&#39;administrateur.
+1. Ouvrez la console cliente Campaign et connectez-vous à Adobe Campaign en tant qu’administrateur.
 1. Accédez à **Administration > Plateforme > Options**.
 1. Vérifiez que la valeur de l’option `DmRendering_cuid` est renseignée.
 
-   * Si cette option est remplie, vous pouvez lancer la mise en oeuvre.
-   * Si aucune valeur n’est renseignée, contactez [Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour obtenir votre CUID.
+   * Si vous avez renseigné cette option, vous pouvez lancer l’implémentation.
+   * Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour obtenir votre CUID.
 
    Cette option doit être renseignée sur toutes vos instances Campaign (MKT, MID, RT, EXEC) avec la valeur correcte. En tant que client hybride, contactez Adobe pour que l’option soit définie sur vos instances MID, RT et EXEC.
 
@@ -66,7 +66,7 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
    >
    > Assurez-vous d’être connecté au portail d’organisation approprié.
 
-1. Sélectionner **[!UICONTROL Créer un projet]**.
+1. Sélectionnez **[!UICONTROL Créer un projet]**.
    ![](assets/New-Project.png)
 
 
@@ -74,7 +74,7 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
    >
    >Si vous utilisez déjà la fonctionnalité d’authentification JWT d’Adobe IO pour une autre intégration, telle qu’Analytics Connector ou Adobe Triggers, vous devez mettre à jour votre projet en ajoutant **API Campaign** à ce projet.
 
-1. Choisir **[!UICONTROL Ajout d’une API]**.
+1. Choisissez **[!UICONTROL Ajouter une API]**.
    ![](assets/Add-API.png)
 1. Dans la fenêtre **[!UICONTROL Ajouter une API]**, sélectionnez **[!UICONTROL Adobe Campaign]**.
    ![](assets/AC-API.png)
@@ -86,15 +86,15 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
 
    >[!CAUTION]
    >
-   >Vous devez enregistrer la variable `config.zip` lorsque l’invite de téléchargement apparaît, car vous ne pourrez plus le télécharger.
+   >Vous devez enregistrer le fichier `config.zip` lorsque l’invite de téléchargement s’affiche, car vous ne pourrez plus le télécharger.
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
-1. Sélectionnez un **[!UICONTROL profil de produit]** existant ou créez-en un si nécessaire. Aucune autorisation n’est requise pour ce **[!UICONTROL profil de produit]**. Pour plus d’informations sur **[!UICONTROL Profils de produit]**, voir [cette page](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html){_blank}.
+1. Sélectionnez un **[!UICONTROL profil de produit]** existant ou créez-en un si nécessaire. Aucune autorisation n’est requise pour ce **[!UICONTROL profil de produit]**. Pour plus d’informations sur les **[!UICONTROL Profils de produit]**, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html){_blank}.
    ![](assets/Product-Profile-API.png)
 
    Cliquez ensuite sur **[!UICONTROL Enregistrer l’API configurée]**.
 
-1. Dans votre projet, sélectionnez **[!UICONTROL Adobe Campaign]** et copiez les informations suivantes sous **[!UICONTROL Compte de service (JWT)]**
+1. Dans votre projet, sélectionnez **[!UICONTROL Adobe Campaign]** et copiez les informations suivantes sous **[!UICONTROL Compte Service (JWT)]**.
 
    ![](assets/Config-API.png)
 
@@ -144,23 +144,23 @@ Pour vérifier que l’intégration est réussie, procédez comme suit :
 
 1. Ouvrez la console cliente et connectez-vous à Adobe Campaign.
 1. Accédez à **Administration > Production > Workflows techniques**.
-1. Redémarrez le **Mise à jour pour la délivrabilité** Workflow (deliverabilityUpdate). Cette opération doit être réalisée sur toutes vos instances Campaign (MKT, MID, RT, EXEC). En tant que client hybride, contactez Adobe pour que le workflow redémarre sur vos instances MID, RT et EXEC.
+1. Redémarrez le workflow **Actualiser la délivrabilité** (deliverabilityUpdate). Cette opération doit être réalisée sur toutes vos instances Campaign (MKT, MID, RT, EXEC). En tant que client hybride, contactez Adobe pour redémarrer le workflow sur vos instances MID, RT et EXEC.
 1. Vérifier les logs : le workflow doit s’exécuter sans erreur.
 
 
 ## Forum aux questions {#faq}
 
-### Quelle est la chronologie de la mise à jour ?
+### Quelle est le planning de la mise à jour ?
 
-La transition vers le nouveau serveur de délivrabilité, permettant l&#39;ajout de ces fonctionnalités améliorées et le renforcement de la sécurité, commencera le 22 juillet pour les clients hébergés (Campaign Managed Services). Tous les clients hébergés seront mis à jour d’ici la fin août.
+La transition vers le nouveau serveur de délivrabilité, permettant l’ajout de ces fonctionnalités améliorées et le renforcement de la sécurité, commencera le 22 juillet pour les clients hébergés (Campaign Managed Services). Tous les clients hébergés seront mis à jour avant la fin du mois d’août.
 
-Les clients on-premise et hybrides doivent effectuer une transition pendant la même période.
+Les clients on-premise et hybrides doivent effectuer une transition à la même période.
 
-### Que se passe-t-il si je ne mets pas à niveau mon environnement ?
+### Que se passe-t-il si je ne mets pas à niveau mon environnement ?
 
-Toute instance de Campaign non mise à niveau d&#39;ici le 31 août ne pourra plus se connecter au serveur de délivrabilité de Campaign. Par conséquent, la **Mise à jour pour la délivrabilité** Le workflow (deliverabilityUpdate) échoue, ce qui affecte votre délivrabilité.
+Toute instance de Campaign non mise à niveau d’ici le 31 août ne pourra plus se connecter au serveur de délivrabilité de Campaign. Par conséquent, le workflow **Actualiser la délivrabilité** (deliverabilityUpdate) échouera, ce qui affectera votre délivrabilité.
 
-Si vous ne mettez pas à niveau votre environnement, les paramètres d’email cesseront d’être synchronisés (règles de gestion MX, règles de mail entrant, règles de gestion des domaines et règles de qualification des bounces). Cela peut avoir une incidence sur votre délivrabilité au fil du temps. Si une modification importante est apportée à ces règles, celles-ci doivent être appliquées manuellement à partir de ce point.
+Si vous ne mettez pas à niveau votre environnement, les paramètres d’e-mail ne seront plus synchronisés (règles de gestion MX, règles relatives aux e-mails entrants, règles de gestion des domaines et règles de qualification des rebonds). Cela peut affecter votre délivrabilité au fil du temps. Si une modification importante est apportée à ces règles, celles-ci doivent être appliquées manuellement à partir de ce point.
 
-Pour les instances MKT uniquement [Liste de suppression globale](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) est affectée.
+Pour les instances MKT, seule la [Liste de suppression globale](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) est affectée.
 
