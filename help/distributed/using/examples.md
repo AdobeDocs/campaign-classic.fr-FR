@@ -5,8 +5,8 @@ description: Exemples de marketing distribué
 feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '1371'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
