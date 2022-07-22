@@ -5,8 +5,8 @@ description: Ces exemples montrent comment vous pouvez utiliser le code JavaScri
 feature: Workflows
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '1775'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -562,7 +562,7 @@ Vous pouvez insérer, mettre à jour et supprimer des enregistrements. Vous pouv
 * Opération `delete`
 
 >[!IMPORTANT]
-> Si vous utilisez Adobe Campaign v8, nous vous recommandons d’utiliser le mécanisme d’évaluation avec les API d’**ingestion** et de **mise à jour/suppression des données** pour la méthode `Write` dans une table Snowflake. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target=&quot;_blank&quot;}.
+> Si vous utilisez Adobe Campaign v8, nous vous recommandons d’utiliser le mécanisme d’évaluation avec les API d’**ingestion** et de **mise à jour/suppression des données** pour la méthode `Write` dans une table Snowflake. [En savoir plus](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=fr){target=&quot;_blank&quot;}.
 
 #### Exemple 1 : insertion ou mise à jour d’un enregistrement
 
@@ -616,11 +616,11 @@ Cette vidéo présente un exemple d’utilisation d’une méthode d’API non s
 
 ### Documentation des API
 
-* [Exemples d’appels SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html)
+* [Exemples d’appels SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=fr)
 * Méthodes :
-   * [Create](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html)
-   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html)
-   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html)
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
+   * [Create](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=fr)
+   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=fr)
+   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=fr)
+   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=fr)
    * [Write](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=fr)
-* [fonction logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html)
+* [fonction logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=fr)
