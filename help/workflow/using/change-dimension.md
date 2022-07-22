@@ -5,8 +5,8 @@ description: Changement de dimension
 feature: Workflows, Targeting Activity
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '396'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
