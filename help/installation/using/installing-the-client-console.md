@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Avant de commencer l&#39;installation de la console cliente, vous devez effectue
 * Vérifier la compatibilité de votre système et de vos outils avec Adobe Campaign dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
 * Obtenir l&#39;URL du serveur Campaign
 * Obtenir vos informations d&#39;identification utilisateur
-* Demandez à Microsoft Edge Webview2 d’être installé sur votre système (à partir de la version de build 7.3 de Campaign Classic). [En savoir plus](#webview)
+* Installez Microsoft Edge Webview2 sur votre système (à partir de la version de build 7.3 de Campaign Classic). [En savoir plus](#webview)
 
 Le processus d’installation ou de mise à jour de la console cliente varie selon votre implémentation d’Adobe Campaign Classic.
 Consultez les éléments détaillés ci-dessous pour connaître les processus requis pour votre implémentation.
@@ -35,15 +35,15 @@ Consultez les éléments détaillés ci-dessous pour connaître les processus re
 >
 >La console cliente et le serveur applicatif Campaign doivent s’exécuter **sur la même version du produit**. Adobe recommande également d’utiliser le **même build du produit**. Découvrez comment vérifier les versions de votre serveur et de votre client Campaign dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
-## Installation du composant d’exécution Microsoft Edge Webview2 {#webview}
+## Installation du runtime de Microsoft Edge Webview2 {#webview}
 
-À partir de la version de build 7.3 de Campaign Classic, l’installation du runtime Microsoft Edge Webview 2 est requise pour toute installation de console.
+À partir de la version de build 7.3 de Campaign Classic, l’installation du runtime de Microsoft Edge Webview 2 est requise pour toute installation de console.
 
-Web View est installé par défaut dans le cadre du système d’exploitation Windows 11. S’il n’est pas déjà présent sur votre système, Campaign Classic Console Installer vous invite à le télécharger à partir de [Site web du développeur Microsoft](chttp://www.adobe.com/go/acc-ms-webview2-runtime-download_fr). Notez que le lien de téléchargement ne fonctionne pas dans le navigateur Internet Explorer 11, car Microsoft a arrêté sa prise en charge. Assurez-vous d’utiliser un autre navigateur pour accéder au lien.
+Web View est installé par défaut dans le cadre du système d’exploitation Windows 11. S’il n’est pas déjà présent sur votre système, la console de Campaign Classic Installer vous invitera à le télécharger à partir du [site web de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download_fr). Notez que le lien de téléchargement ne fonctionne pas dans le navigateur Internet Explorer 11, car Microsoft ne le prend plus en charge. Assurez-vous d’utiliser un autre navigateur pour accéder au lien.
 
 ## Implémentations hébergées par Adobe {#hosted-customers}
 
-En tant que client hébergé, vous disposez de deux options pour installer ou mettre à jour vos consoles clientes :
+En tant que client hébergé, deux possibilités s’offrent à vous pour installer ou mettre à jour vos consoles clientes :
 
 1. Adobe peut effectuer un déploiement direct. Une fois la console mise à jour, les utilisateurs sont invités à télécharger la dernière version de la console cliente dans une fenêtre contextuelle.
 
@@ -159,7 +159,7 @@ Pour vous connecter à une instance existante, procédez comme suit :
 
 >[!NOTE]
 >
->Pour les versions de build de Campaign Classic 7.3, la console cliente Adobe Campaign peut demander deux fois les informations d’identification du proxy lors de l’authentification par proxy. Cela est dû au fait que Microsoft Edge Webview2 n’enregistre pas les informations d’identification du proxy dans le magasin cache/mot de passe, contrairement à Internet Explorer.
+>Pour les versions de build 7.3 de Campaign Classic, la console cliente d’Adobe Campaign peut demander deux fois les identifiants du proxy lors de l’authentification du proxy. Cela est dû au fait que Microsoft Edge Webview2 n’enregistre pas les identifiants du proxy dans le magasin du cache/de mots de passe, contrairement à Internet Explorer.
 
 **Rubriques connexes :**
 
