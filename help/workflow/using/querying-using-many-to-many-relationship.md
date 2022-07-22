@@ -5,8 +5,8 @@ description: Découvrez comment exécuter des requêtes à l’aide d’une rela
 feature: Query Editor
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '469'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
