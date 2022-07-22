@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -364,20 +364,20 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 </tbody>
 </table>
 
-### Exécution WebView2 de Microsoft
+### Runtime de Microsoft WebView2
 
 <table>
 <tbody>
 <tr>
 <td>
-<p>Exécution Microsoft Edge WebView2
+<p>Runtime de Microsoft Edge WebView2
 </p>
 </td>
 <td>
 <p>Dernière version</p>
 </td>
 <td>
-<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download_fr">Télécharger à partir du site web du développeur Microsoft</a></p>
+<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download_fr">Télécharger à partir du site web de Microsoft Developer</a></p>
 </td>
 </tr>
 </tbody>
