@@ -5,8 +5,8 @@ description: Prise en main des simulations de campagnes
 feature: Campaigns
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '1376'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
