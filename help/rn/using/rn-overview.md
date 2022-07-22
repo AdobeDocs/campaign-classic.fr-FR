@@ -7,21 +7,21 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Mises à jour des versions{#rn-overview}
+# Mise à jour des publications{#rn-overview}
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign Classic publie régulièrement des mises à jour de produit qui apportent de nouvelles fonctionnalités, des correctifs de bogues et améliorent les performances, la sécurité et la convivialité. Ces mises à jour sont publiées en tant que versions de produit. Des informations détaillées sur chaque nouveau build sont disponibles dans la section [Notes de mise à jour](latest-release.md).
+Adobe Campaign Classic publie régulièrement des mises à jour de produit qui comportent de nouvelles fonctionnalités et de nouveaux correctifs et améliorent les performances, la sécurité et la convivialité. Ces mises à jour sont publiées comme des builds du produit. Des informations détaillées sur chaque nouvelle build sont disponibles dans les [notes de mise à jour](latest-release.md).
 
 ## Statuts des versions{#rn-statuses}
 
-Chaque nouvelle version est fournie avec un état identifié par une couleur dans la variable [Notes de mise à jour](latest-release.md).
+Chaque nouvelle build est fournie avec un statut identifié par une couleur dans les [notes de mise à jour](latest-release.md).
 
 ![](assets/do-not-localize/green3.png) **Disponibilité générale** (DG) : dernier build stable, validé en production et recommandé par Adobe.
 
@@ -45,7 +45,7 @@ En tant qu’utilisateur hébergé, vous bénéficiez automatiquement de la mise
 
 Pour garantir une configuration stable, Adobe vous recommande d&#39;installer **le même build** sur tous les serveurs qui s&#39;exécutent sur la même configuration client.
 
-En outre, sauf mention contraire dans la section [Notes de mise à jour](latest-release.md), la console cliente doit être activée. **même version** comme instance de serveur.
+En outre, sauf mention contraire dans les [notes de mise à jour](latest-release.md), la console cliente doit utiliser **la même build** que l’instance de serveur.
 
 Pour garder votre implémentation à jour, veillez à lire les pages [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md) et [Matrice de compatibilité](../../rn/using/compatibility-matrix.md) avec chaque nouvelle version.
 
@@ -53,9 +53,9 @@ Pour garder votre implémentation à jour, veillez à lire les pages [Fonctionna
 
 En tant que client hébergé (service géré ou hybride), vous devez contacter l&#39;assistance clientèle pour que votre environnement soit mis à niveau.
 
-En tant qu&#39;utilisateur on-premise, vous pouvez effectuer la mise à niveau. Pour cela, vous devez [télécharger le dernier build stable (DG)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) et mettre à niveau tous vos environnements.
+En tant qu&#39;utilisateur on-premise, vous pouvez effectuer la mise à niveau. Pour cela, vous devez [télécharger la dernière build stable (DG)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) et mettre à niveau tous vos environnements.
 
-En savoir plus sur la [processus de mise à niveau](../../production/using/build-upgrade.md), et dans le [FAQ sur l&#39;upgrade de build](../../platform/using/faq-build-upgrade.md).
+Pour en savoir plus sur le [processus de mise à niveau](../../production/using/build-upgrade.md), consultez la [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
 
 ## Mise à niveau annuelle {#yearly-upgrade}
 
@@ -128,7 +128,7 @@ Une équipe constituée de représentants de l&#39;assistance clientèle, de res
     </a>
     </div>
     <ul>
-    <li>Les efforts que demande une mise à niveau de votre instance Campaign Classic et la complexité de celle-ci augmentent avec l'écart entre deux versions (v6 --&gt; v7).</li>
+    <li>Les efforts que demande une mise à niveau de votre instance Campaign Classic et la complexité de celle-ci augmentent avec l’écart entre deux versions (v6 --&gt; v7).</li>
     <li>Plus votre entreprise attend, plus la mise à niveau est complexe (et plus vous êtes exposé à des vulnérabilités).</li>
     <li>Des mises à niveau régulières réduisent le temps d'arrêt nécessaire pour les effectuer et limitent le risque de régression.</li>
     </ul>
