@@ -5,8 +5,8 @@ description: En savoir plus sur l’activité de workflow de diffusion récurren
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '280'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
