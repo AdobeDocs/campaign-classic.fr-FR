@@ -5,8 +5,8 @@ description: En savoir plus sur l’activité de workflow de planificateur
 feature: Workflows
 exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '338'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
