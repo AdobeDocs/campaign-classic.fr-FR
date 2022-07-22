@@ -5,9 +5,9 @@ description: Surveiller les workflows techniques
 feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -48,9 +48,9 @@ Pour le **[!UICONTROL Workflow de tracking (&#39;tracking&#39;)]** :
 
 Vérifiez que le workflow de Tracking s&#39;exécute comme prévu (une fois par heure par défaut) et que le journal des logs n&#39;indique pas d&#39;erreurs récurrentes. Voir à ce propos cette [section](delivery.md).
 
-Pour **[!UICONTROL Actualisation pour la délivrabilité (deliverabilityUpdate)]**:
+Pour **[!UICONTROL actualiser la délivrabilité (deliverabilityUpdate)]** :
 
-1. Vérifiez que la variable **[!UICONTROL Mise à jour pour la délivrabilité]** le workflow s’exécute et se termine correctement tous les jours.
+1. Vérifiez que le workflow **[!UICONTROL Actualiser la délivrabilité]** s’exécute et se termine correctement tous les jours.
 1. Dans le journal des logs, vérifiez que les règles sont mises à jour régulièrement.
 
 Pour le **[!UICONTROL Processus de campagne (&#39;operationMgt&#39;, &#39;deliveryMgt&#39;, ...)]** :
