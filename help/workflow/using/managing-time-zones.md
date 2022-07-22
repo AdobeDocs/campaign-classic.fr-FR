@@ -5,8 +5,8 @@ description: Gérer les fuseaux horaires
 feature: Workflows
 exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '296'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
