@@ -5,8 +5,8 @@ description: Règles de pression
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '3460'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
