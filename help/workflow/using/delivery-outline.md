@@ -5,8 +5,8 @@ description: En savoir plus sur l’activité de workflow de composition de diff
 feature: Workflows, Targeting Activity
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '273'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
