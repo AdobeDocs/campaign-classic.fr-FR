@@ -5,8 +5,8 @@ description: En savoir plus sur les propriétés des workflows de Campaign
 feature: Workflows
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '621'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
