@@ -5,8 +5,8 @@ description: En savoir plus sur l’activité de workflow de réception d’emai
 feature: Workflows, Channels Activity
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '367'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
