@@ -5,8 +5,8 @@ description: En savoir plus sur le cycle de vie d’un workflow
 feature: Workflows
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '267'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
