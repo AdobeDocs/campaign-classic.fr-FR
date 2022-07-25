@@ -6,7 +6,7 @@ feature: Budget Management, Campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '1994'
 ht-degree: 100%
 
 ---
