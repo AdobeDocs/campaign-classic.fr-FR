@@ -3,10 +3,10 @@ product: campaign
 title: Mise à jour vers le nouveau serveur de délivrabilité
 description: Découvrez comment mettre à jour le nouveau serveur de délivrabilité de Campaign
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: a45e18e460c11f474dc1b5663b9f4a3277fac12c
+source-git-commit: 8b8935b181b615c0a243799b14d01f778b84b715
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 98%
+source-wordcount: '1186'
+ht-degree: 96%
 
 ---
 
@@ -58,13 +58,13 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
 
    Cette option doit être renseignée sur toutes vos instances Campaign (MKT, MID, RT, EXEC) avec la valeur correcte. En tant que client hybride, contactez Adobe pour que l’option soit définie sur vos instances MID, RT et EXEC.
 
+>[!CAUTION]
+>
+>En tant que client on-premise, si un pare-feu est implémenté sur votre côté, vous devez ajouter cette URL. `https://deliverability-service.adobe.io` à votre liste autorisée. [En savoir plus](../../installation/using/url-permissions.md).
+
 ### Étape 1 : Créer/mettre à jour votre projet Adobe Developer {#adobe-io-project}
 
-1. Accédez à [Adobe Developer Console](https://developer.adobe.com/console/home) et connectez-vous avec l’accès développeur de votre organisation.
-
-   >[!NOTE]
-   >
-   > Assurez-vous d’être connecté au portail d’organisation approprié.
+1. Accédez à [Adobe Developer Console](https://developer.adobe.com/console/home) et connectez-vous avec l’accès développeur de votre organisation. Assurez-vous d’être connecté au portail d’organisation approprié.
 
 1. Sélectionnez **[!UICONTROL Créer un projet]**.
    ![](assets/New-Project.png)
