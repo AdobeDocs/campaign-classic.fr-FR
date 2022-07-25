@@ -6,7 +6,7 @@ feature: Workflows, Targeting Activity
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '316'
 ht-degree: 100%
 
 ---
