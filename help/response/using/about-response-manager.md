@@ -5,7 +5,7 @@ description: À propos de la gestion de la réaction
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
