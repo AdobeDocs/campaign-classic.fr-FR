@@ -6,7 +6,7 @@ feature: Campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '784'
 ht-degree: 100%
 
 ---
