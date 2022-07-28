@@ -5,9 +5,9 @@ description: Créer une liste récapitulative
 feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1060'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Ces données sont contenues dans un fichier texte : &quot;Achats.txt&quot;.
 
    Pour plus d&#39;informations sur cette activité, voir la section [Charger des données depuis un fichier](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
 
-1. Configurez la variable **Collecteur de fichiers** activité de collecte de texte (&#42;.txt) de type fichiers du répertoire sélectionné.
+1. Configurez l’activité **Collecteur de fichiers** pour collecter des fichiers de type texte (&#42;.txt) dans le répertoire sélectionné.
 
    ![](assets/uc2_enrich_collecteur.png)
 
