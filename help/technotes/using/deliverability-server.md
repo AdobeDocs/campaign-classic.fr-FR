@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Mise à jour vers le nouveau serveur de délivrabilité
+title: Effectuer une mise à jour vers le nouveau serveur de délivrabilité
 description: Découvrez comment mettre à jour le nouveau serveur de délivrabilité de Campaign
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 8b8935b181b615c0a243799b14d01f778b84b715
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1186'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Mise à jour vers le nouveau serveur de délivrabilité {#acc-deliverability}
+# Effectuer une mise à jour vers le nouveau serveur de délivrabilité {#acc-deliverability}
 
 Depuis la [version 7.2.1](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign s’appuie sur un nouveau serveur de délivrabilité qui assure une haute disponibilité et résout les problèmes de conformité en matière de sécurité. Campaign Classic synchronise désormais les règles de délivrabilité, les broadlogs, ainsi que l’adresse de suppression depuis et vers le nouveau serveur de délivrabilité. L’ancien serveur de délivrabilité sera désactivé le 31 août 2022.
 
@@ -54,17 +54,17 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
 1. Vérifiez que la valeur de l’option `DmRendering_cuid` est renseignée.
 
    * Si vous avez renseigné cette option, vous pouvez lancer l’implémentation.
-   * Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour obtenir votre CUID.
+   * Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour obtenir votre CUID.
 
    Cette option doit être renseignée sur toutes vos instances Campaign (MKT, MID, RT, EXEC) avec la valeur correcte. En tant que client hybride, contactez Adobe pour que l’option soit définie sur vos instances MID, RT et EXEC.
 
 >[!CAUTION]
 >
->En tant que client on-premise, si un pare-feu est implémenté sur votre côté, vous devez ajouter cette URL. `https://deliverability-service.adobe.io` à votre liste autorisée. [En savoir plus](../../installation/using/url-permissions.md).
+>En tant que client On-Premise, si un pare-feu est implémenté de votre côté, vous devez ajouter cette URL `https://deliverability-service.adobe.io` à votre liste autorisée. [En savoir plus](../../installation/using/url-permissions.md).
 
 ### Étape 1 : Créer/mettre à jour votre projet Adobe Developer {#adobe-io-project}
 
-1. Accédez à [Adobe Developer Console](https://developer.adobe.com/console/home) et connectez-vous avec l’accès développeur de votre organisation. Assurez-vous d’être connecté au portail d’organisation approprié.
+1. Accédez à [Adobe Developer Console](https://developer.adobe.com/console/home) et connectez-vous avec l’accès développeur de votre organisation. Vérifiez votre connexion au portail d’organisation approprié.
 
 1. Sélectionnez **[!UICONTROL Créer un projet]**.
    ![](assets/New-Project.png)
