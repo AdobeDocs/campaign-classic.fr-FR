@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Les informations données par les indicateurs sont les suivantes :
 * **Marge totale des témoins** : somme des marges sur le nombre des témoins.
 * **Marge moyenne des contactés** : somme des marges / nombre des contactés.
 * **Marge moyenne des témoins** : somme des marges / nombre des témoins.
-* **Chiffre d’affaires additionnel**: (Chiffre d’affaires moyen des contactés-Chiffre d’affaires moyen des témoins)&#42;Nombre de contactés
+* **Chiffre d’affaire additionnel** : (Chiffre d’affaire moyen des personnes contactés - Chiffre d’affaire moyen de la population témoin)&#42;Nombre de personnes contactées
 * **Marge additionnelle** : (Marge moyenne des contactés-Marge moyenne des témoins) / nombre de contactés
 * **Coût moyen des contactés** : coût calculé de la diffusion / Nombre de contactés.
 * **ROI** : coût calculé de la diffusion / Marge totale des contactés
