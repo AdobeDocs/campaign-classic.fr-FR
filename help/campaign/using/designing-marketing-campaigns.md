@@ -5,7 +5,7 @@ description: Définissez, optimisez, exécutez et analysez des campagnes marketi
 feature: Campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
