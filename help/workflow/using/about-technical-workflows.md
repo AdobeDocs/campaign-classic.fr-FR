@@ -4,10 +4,10 @@ title: Workflows techniques
 description: Pour en savoir plus sur les workflows techniques disponibles avec les packages Campaign Classic.
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '1724'
-ht-degree: 100%
+source-git-commit: 5bfd755ae8278a221e0f0e6f4121bfb072ebda12
+workflow-type: tm+mt
+source-wordcount: '1715'
+ht-degree: 98%
 
 ---
 
@@ -76,6 +76,6 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 | **Synchronisation des pages Facebook** (syncFacebook) | Réseaux sociaux (Social Marketing)   - Campaign v7 uniquement | Ce workflow synchronise les pages Facebook avec Adobe Campaign tous les jours à 7H00. |
 | **Synchronisation des pages Twitter** (syncTwitter) | Réseaux sociaux (Social Marketing)   - Campaign v7 uniquement | Ce workflow importe les followers Twitter dans Adobe Campaign tous les jours à 7H00. |
 | **Notification des tâches** (taskMgt) | Ressources marketing (MRM)   - Campaign v7 uniquement | Ce workflow permet d&#39;envoyer les messages de notification relatifs aux tâches dans les opérations marketing. |
-| **Tracking** (tracking) | Diffusion | Ce workflow réalise la récupération et la consolidation des informations de tracking. Il assure également le re-calcul des statistiques de tracking et de diffusions, notamment celles utilisées par les workflows d&#39;archivage de Message Center. Par défaut, il se déclenche toutes les heures. |
+| **Tracking** (tracking)) | Diffusion | Ce workflow réalise la récupération et la consolidation des informations de tracking. Il assure également le re-calcul des statistiques de tracking et de diffusions, notamment celles utilisées par les workflows d&#39;archivage de Message Center. Par défaut, il se déclenche toutes les heures. |
 | **Mise à jour du statut des événements** (updateEventsStatus) | Exécution des messages transactionnels (Message Center - Exécution) | Ce workflow permet d&#39;attribuer un statut à l&#39;événement. Les statuts d&#39;un événement sont les suivants :<ul><li>En attente : l&#39;événement se trouve dans la file d&#39;attente. Aucun modèle de message ne lui a encore été associé.</li><li>En attente de diffusion : l&#39;événement est dans la file d&#39;attente, un modèle de message lui a été associé et il est en cours de traitement par la diffusion.</li><li>Envoyé : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été envoyée.</li><li>Ignoré par la diffusion : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été ignorée.</li><li>Erreur de diffusion : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a échoué.</li><li>Evénement non pris en charge : l&#39;association de l&#39;événement à un modèle de message a échoué. L&#39;événement ne sera pas retraité.</li></ul> |
-| **Actualiser pour la délivrabilité** (deliverabilityUpdate) | Diffusion | Une fois le package Supervision de la délivrabilité (Email Deliverability) installé, ce workflow s’exécute de nuit et gère les règles de qualification des e-mails de retour, ainsi que la liste des domaines et des MX. Pour ce faire, le port HTTPS doit être ouvert sur la plateforme. |
+| **Actualiser pour la délivrabilité** (deliverabilityUpdate) | Diffusion | Ce workflow s’exécute de nuit et gère les règles de qualification des emails bounce, ainsi que la liste des domaines et des MX. Pour ce faire, le port HTTPS doit être ouvert sur la plateforme. |
