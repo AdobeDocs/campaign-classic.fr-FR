@@ -4,7 +4,7 @@ title: Effectuer une mise à jour vers le nouveau serveur de délivrabilité
 description: Découvrez comment mettre à jour le nouveau serveur de délivrabilité de Campaign
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: ca9df95442355a0cd18c7c9ef048c2d77e84188e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1186'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Ce nouveau serveur garantit une haute disponibilité (99,9) et fournit des point
 
 ## Cela vous concerne-t-il ?{#acc-deliverability-impacts}
 
-Tous les clients sont affectés et doivent effectuer la mise à niveau vers [la version 7.2.2 de Campaign](../../rn/using/latest-release.md#release-7-2-2) (ou une version ultérieure) et implémenter leur environnement pour bénéficier du nouveau serveur de délivrabilité.
+Tous les clients sont concernés et doivent effectuer la mise à niveau vers [la version 7.2.2 de Campaign](../../rn/using/latest-release.md#release-7-2-2) (ou une version ultérieure) et implémenter leur environnement pour bénéficier du nouveau serveur de délivrabilité.
 
 ## Comment effectuer la mise à jour ?{#acc-deliverability-update}
 
@@ -54,7 +54,7 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
 1. Vérifiez que la valeur de l’option `DmRendering_cuid` est renseignée.
 
    * Si vous avez renseigné cette option, vous pouvez lancer l’implémentation.
-   * Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour obtenir votre CUID.
+   * Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour obtenir votre CUID.
 
    Cette option doit être renseignée sur toutes vos instances Campaign (MKT, MID, RT, EXEC) avec la valeur correcte. En tant que client hybride, contactez Adobe pour que l’option soit définie sur vos instances MID, RT et EXEC.
 
