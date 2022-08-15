@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: 56ff1f02e614a91200a8f2ca106dcc76e82f122d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2034'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Identifiez les heures de faible volume ou trafic qui seraient idéales pour les 
 
 Consultez notre [liste de contrôle d&#39;upgrade de build ci-dessous](#check-list) et vos plans de test, et vérifiez que les ressources qui peuvent réaliser ces tests sont disponibles dans les 24/48 heures suivant un upgrade.
 
-Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html).
+Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html).
 
 ## Les upgrades peuvent-ils être effectués le soir ou en dehors des heures de bureau ?
 
@@ -128,7 +128,7 @@ Non. Au cours de l&#39;upgrade de build, les services de workflow et de messager
 
 ## Mes liens de tracking fonctionnent-ils toujours pendant l&#39;upgrade ?
 
-Les liens de tracking sur les emails déjà envoyés ne fonctionneront pas pendant la mise à niveau, car tous les serveurs sont arrêtés. Ils seront de nouveau opérationnels une fois l&#39;upgrade terminé et les serveurs redémarrés.
+Les liens de tracking présents dans les e-mails déjà envoyés ne fonctionneront pas pendant la mise à niveau, car tous les serveurs sont arrêtés. Ils seront à nouveau opérationnels une fois la mise à niveau terminée et les serveurs redémarrés.
 
 ## Dois-je être disponible pendant l&#39;upgrade de build ?
 
