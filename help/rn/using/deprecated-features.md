@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+source-git-commit: 45c5ef3315e4208184e9c0ab5f20678646fe2d0b
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 100%
+source-wordcount: '1624'
+ht-degree: 92%
 
 ---
 
@@ -43,36 +43,10 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td><strong>Fonctionnalité</strong></td>
    <td><strong>Remplacement</strong></td>
   </tr>
-  <tr>
-  <td>CentOs 8.x (64 bits)<br></td>
-   <td><p>CentOS Linux 8 atteindra sa fin de vie (EOL) le 31 décembre 2021. <a href="https://www.centos.org/centos-linux-eol/">En savoir plus</a></p>
-   <p>Si vous utilisez ce système d’exploitation, vous devez adapter votre implémentation en conséquence. CentOS 7.x (64 bits) et RHEL 8.x/7.x (64 bits) sont toujours pris en charge.</p>
-  <p><em>Date de suppression prévue : 31 décembre 2021.</em></p>
-  </td>
- </tr>
-    <tr>
-  <td>Adobe Analytics - Data Connector<br></td>
-   <td><p>À compter de la version 21.1.3 de Campaign, le connecteur de données Adobe Analytics est obsolète.</p>
-   <p>Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. <a href="../../platform/using/adobe-analytics-connector.md">En savoir plus</a></p>
-  <p><em>Date de suppression prévue : 17 août 2022</em></p>
-  </td>
- </tr>
-    <tr>
-  <td>Rapport de supervision de la délivrabilité technique<br></td>
-   <td><p>À compter de la version Campaign 21.1, le rapport de supervision de la délivrabilité technique est obsolète.</p>
-   <p>Si nécessaire, vous pouvez recevoir ce rapport tous les jours par email jusqu’à la date de suppression de la fonctionnalité. Pour le demander, ouvrez un <a href="https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">cas d’assistance</a> spécifique et indiquez le nom de l’instance et la ou les adresse(s) email où envoyer le rapport.</p> 
-   <p>Adobe vous recommande de collaborer avec l’équipe chargée de la délivrabilité pour définir les meilleurs outils pour superviser les performances de délivrabilité de votre instance.</p>
-  <p><em>Date de suppression prévue : début 2022</em></p>
-  </td>
- </tr>
-  <tr>
-  <td>Authentification OAuth (OAuth et JWT)<br></td>
-  <td><p> Depuis la version Campaign 20.3, l’authentification d’intégration Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers les Adobe I/O. <p>
-  <p>Si vous utilisez l’intégration Triggers, vous devez adapter votre implémentation en conséquence. <a href="../../integrations/using/configuring-adobe-io.md">En savoir plus</a></p> 
-  <p>Pour plus d’informations sur l’abandon de l’authentification OAuth, consultez cette <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
-  <p><em>Date de suppression prévue : 20 octobre 2021. Les environnements hébergés bénéficient d’une extension jusqu’au 25 mai 2022. </em></p>
-  </td>
-  </tr>
+<tr>
+ <td>N/A</td>
+ <td>N/A</td>
+</tr>
  </tbody> 
 </table>
 
@@ -83,9 +57,29 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
 <table> 
  <tbody>
   <tr> 
-   <td><strong>Domaine - Fonctionnalité</strong></td>
-   <td><strong>Remplacement</strong></td>
+   <td><strong>Fonctionnalité</strong></td>
+   <td><strong>Détails</strong></td>
   <tr>  
+      <tr>
+  <td>Adobe Analytics - Data Connector<br></td>
+   <td><p>Le connecteur de données Adobe Analytics a été supprimé le 17 août 2022. Elle avait été abandonnée avec la version 21.1.3 de Campaign.</p>
+   <p>Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. <a href="../../platform/using/adobe-analytics-connector.md">En savoir plus</a></p>
+  </td>
+ </tr>
+    <tr>
+  <td>Rapport de supervision de la délivrabilité technique<br></td>
+   <td><p>Le rapport de supervision de la délivrabilité technique n’est plus disponible. Elle avait été abandonnée avec la version 21.1.3 de Campaign.</p>
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+  </td>
+ </tr>
+  <tr>
+  <td>Authentification OAuth (OAuth et JWT)<br></td>
+  <td><p> L’authentification de l’intégration Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. Ce mode d’authentification était obsolète avec la version 20.3 de Campaign.<p>
+  <p>Si vous utilisiez l’intégration Triggers, découvrez comment adapter votre implémentation. <a href="../../integrations/using/configuring-adobe-io.md">dans cette page</a>.</p> 
+  <p>Pour plus d’informations sur l’abandon de l’authentification OAuth, consultez cette <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
+  <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
+  </td>
+  </tr>
    <td>Reporting<br></td>
    <td><p>Après la fin de vie de Flash Player d’Adobe, le rapport d’évaluation et le moteur de rendu des graphiques ne sont plus disponibles. <a href="../../reporting/using/creating-a-new-report.md">Apprenez-en davantage</a></p>
   </tr>
@@ -142,13 +136,9 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
  </tbody> 
 </table>
 
-## Compatibilité obsolète {#deprecated-compatibility}
+<!--## Deprecated compatibility {#deprecated-compatibility}
 
-Les systèmes suivants sont désormais obsolètes pour Campaign Classic : Reportez-vous à la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) pour effectuer une mise à jour vers une nouvelle version ou passer à un nouveau système avant la fin de la compatibilité.
-
-### Adobe Campaign version 20.2  {#compat-20-2-release}
-
-À compter de la version 20.2, les connecteurs SMS suivants sont obsolètes. Pour plus d&#39;informations, consultez la section [Fonctionnalités obsolètes](#deprecated-features)
+The following systems are deprecated for Campaign Classic. Please refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system before the compatibility ends.-->
 
 ## Fin de compatibilité {#end-of-compatibility}
 
@@ -168,15 +158,20 @@ La console cliente d’Adobe Campaign Classic ne peut plus s’exécuter sur l
 
 ### Systèmes d’exploitation {#o-s-eol}
 
-À compter de la version 21.1.3, la prise en charge de Debian 8 est obsolète.
 
-Depuis la version 19.1, Adobe Campaign n’est plus compatible avec les systèmes d’exploitation ci-après.
+* À compter de la version 22.1, Adobe Campaign n’est plus compatible avec CentOs 8.x (64 bits). CentOS Linux 8 a atteint la fin de vie (EOL) le 31 décembre 2021. [En savoir plus](https://www.centos.org/centos-linux-eol/).
 
-* CentOS 6. [En savoir plus](https://wiki.centos.org/Download)
-* Debian 7. [En savoir plus](https://wiki.debian.org/DebianReleases)
-* RHEL 6.x. [En savoir plus](https://access.redhat.com/support/policy/updates/errata)
-* Windows Server 2008. [En savoir plus](https://support.microsoft.com/en-us/lifecycle/search/1163)
-* SLES 11. [En savoir plus](https://www.suse.com/lifecycle)
+   Si vous utilisiez ce système d’exploitation, adaptez votre mise en oeuvre en conséquence. CentOS 7.x (64 bits) et RHEL 8.x/7.x (64 bits) sont toujours pris en charge.
+
+* À compter de la version 21.1.3, Adobe Campaign n’est plus compatible avec Debian 8.
+
+* Depuis la version 19.1, Adobe Campaign n’est plus compatible avec les systèmes d’exploitation ci-après.
+
+   * CentOS 6. [En savoir plus](https://wiki.centos.org/Download)
+   * Debian 7. [En savoir plus](https://wiki.debian.org/DebianReleases)
+   * RHEL 6.x. [En savoir plus](https://access.redhat.com/support/policy/updates/errata)
+   * Windows Server 2008. [En savoir plus](https://support.microsoft.com/en-us/lifecycle/search/1163)
+   * SLES 11. [En savoir plus](https://www.suse.com/lifecycle)
 
 ### Serveurs web {#web-server-eol}
 
@@ -239,7 +234,7 @@ Les versions de PostgreSQL jusqu&#39;à la version 9.6 ont atteint la fin de vi
 
 ### Connecteurs SMS {#sms-eol}
 
-Adobe Campaign n’est pas compatible avec les connecteurs SMS suivants :
+À compter de la version 20.2, les connecteurs SMS suivants sont obsolètes. Adobe Campaign n’est pas compatible avec :
 
 * SMPP générique (SMPP version 3.4 avec prise en charge du mode binaire)
 * Sybase365 (SAP SMS 365)
