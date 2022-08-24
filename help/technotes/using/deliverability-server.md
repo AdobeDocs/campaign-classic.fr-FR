@@ -5,8 +5,8 @@ description: Découvrez comment mettre à jour le nouveau serveur de délivrabil
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 38f5cb9fdeb9deceab812c6ebc158e2ab37e3155
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1283'
+ht-degree: 93%
 
 ---
 
