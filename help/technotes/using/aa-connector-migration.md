@@ -3,9 +3,9 @@ product: campaign
 title: Migration vers le connecteur Adobe Analytics
 description: FAQ sur Campaign - Connecteur Analytics
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: c072cb5b2d33f93ff395e4670507744b0d20c9bc
+source-git-commit: 9667bb436ffc591b05945dadd683e5f590ae43e5
 workflow-type: ht
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 100%
 
 ---
@@ -80,7 +80,7 @@ L&#39;intégration repose sur les données du jeton de compte technique pour le 
 
 Si nous lisons les détails d&#39;un composant Analytics (comme les mesures/dimensions/segments/suites de rapports), l&#39;API ne renverra pas ces composants dans le résultat (il peut alors sembler que quelque chose a été supprimé du côté Analytics ou est absent). L&#39;API Analytics rejettera ces requêtes et génèrera une erreur.
 
-La solution consiste à mettre à jour le **profil de produit** dans le contexte utilisateur Analytics du jeton d&#39;utilisateur technique avec les composants nouvellement créés/manquants en ajoutant ces composants dans [Adobe Admin Console](https://adminconsole.adobe.com/). Pour d&#39;autres conseils, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+La solution consiste à mettre à jour le **profil de produit** dans le contexte utilisateur d’Analytics du jeton d’utilisateur technique avec les composants nouvellement créés/manquants en ajoutant ces composants dans [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}. Pour d&#39;autres conseils, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Liens utiles
 
