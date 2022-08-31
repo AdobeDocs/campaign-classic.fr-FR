@@ -4,9 +4,9 @@ title: 'Options d’aide et de support pour Campaign Classic '
 description: Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit !
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
-workflow-type: tm+mt
-source-wordcount: '793'
+source-git-commit: 9667bb436ffc591b05945dadd683e5f590ae43e5
+workflow-type: ht
+source-wordcount: '798'
 ht-degree: 100%
 
 ---
@@ -107,7 +107,7 @@ Le Panneau de contrôle est directement accessible à partir d&#39;Adobe Experi
 
 ### FAQ sur le Panneau de contrôle
 
-[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/faq.html) pour accéder à la FAQ sur le Panneau de contrôle Campaign.
+[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr) pour accéder à la FAQ sur le Panneau de contrôle Campaign.
 
 ### Gestion SFTP
 
@@ -132,19 +132,19 @@ Découvrez comment gérer vos paramètres d’instances Campaign Classic dans l
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Le nouveau système de gestion des tickets a été lancé via la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Ce nouveau système nécessite de nouveaux comptes individuels pour chaque utilisateur, avec les autorisations adéquates. Si vous constatez que vous ne pouvez pas vous connecter à l’aide de votre Adobe ID, demandez l’accès par le biais d’Experience League. L’équipe de l’assistance clientèle vous contactera alors dès que possible. [En savoir plus](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html)
+Le nouveau système de gestion des tickets a été lancé depuis la console [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. Ce nouveau système nécessite de nouveaux comptes individuels pour chaque utilisateur, avec les autorisations adéquates. Si vous constatez que vous ne pouvez pas vous connecter à l’aide de votre Adobe ID, demandez l’accès par le biais d’Experience League. L’équipe de l’assistance clientèle vous contactera alors dès que possible. [En savoir plus](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html)
 
 ### Consultation d’experts
 
-Rejoignez la communauté Campaign Classic : cherchez des réponses à une question existante ou posez votre question à la communauté. [Prenez part à la conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=fr)
+Rejoignez la communauté Campaign Classic : cherchez des réponses à une question existante ou posez votre question à la communauté. [Prenez part à la conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=fr){_blank}.
 
 ### Accès au Centre de téléchargement Campaign
 
 Depuis juin 2020, la distribution logicielle de la solution Experience Cloud remplace l’ancien Centre de téléchargement Neolane et permet de trouver et télécharger plus efficacement vos logiciels, packages et outils. [Cliquez ici](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) pour accéder à la distribution logicielle de la solution Experience Cloud.
-En savoir plus sur le nouveau Centre de téléchargement [sur cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
+En savoir plus sur le nouveau centre de téléchargement [sur cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr){_blank}.
 
 ### Création d’un ticket ou démarrage d’une conversation
 
 La création d’un ticket vous permet de contacter l’équipe du Service clientèle d’Adobe pour tout problème lié à vos produits Adobe. La console Adobe Admin Console vous permettra de discuter avec le Service clientèle d&#39;Adobe pour résoudre vos problèmes.
 
-Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html){_blank}.
