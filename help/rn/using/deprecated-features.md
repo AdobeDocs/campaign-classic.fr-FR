@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 45c5ef3315e4208184e9c0ab5f20678646fe2d0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -62,20 +62,20 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
   <tr>  
       <tr>
   <td>Adobe Analytics - Data Connector<br></td>
-   <td><p>Le connecteur de données Adobe Analytics a été supprimé le 17 août 2022. Elle avait été abandonnée avec la version 21.1.3 de Campaign.</p>
+   <td><p>Le Adobe Analytics Data Connector a été supprimé le 17 août 2022. Il avait été abandonné avec la version 21.1.3 de Campaign.</p>
    <p>Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. <a href="../../platform/using/adobe-analytics-connector.md">En savoir plus</a></p>
   </td>
  </tr>
     <tr>
-  <td>Rapport de supervision de la délivrabilité technique<br></td>
-   <td><p>Le rapport de supervision de la délivrabilité technique n’est plus disponible. Elle avait été abandonnée avec la version 21.1.3 de Campaign.</p>
+  <td>Rapport de surveillance de la délivrabilité technique<br></td>
+   <td><p>Le rapport de surveillance de la délivrabilité technique n’est plus disponible. Il avait été abandonné avec la version 21.1.3 de Campaign.</p>
    <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
   <td>Authentification OAuth (OAuth et JWT)<br></td>
-  <td><p> L’authentification de l’intégration Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. Ce mode d’authentification était obsolète avec la version 20.3 de Campaign.<p>
-  <p>Si vous utilisiez l’intégration Triggers, découvrez comment adapter votre implémentation. <a href="../../integrations/using/configuring-adobe-io.md">dans cette page</a>.</p> 
+  <td><p> L’authentification de l’intégration Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. Ce mode d’authentification est devenu obsolète à partir de la version 20.3 de Campaign.<p>
+  <p>Si vous utilisiez l’intégration Triggers, découvrez comment adapter votre implémentation <a href="../../integrations/using/configuring-adobe-io.md">sur cette page</a>.</p> 
   <p>Pour plus d’informations sur l’abandon de l’authentification OAuth, consultez cette <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
   </td>
@@ -159,11 +159,11 @@ La console cliente d’Adobe Campaign Classic ne peut plus s’exécuter sur l
 ### Systèmes d’exploitation {#o-s-eol}
 
 
-* À compter de la version 22.1, Adobe Campaign n’est plus compatible avec CentOs 8.x (64 bits). CentOS Linux 8 a atteint la fin de vie (EOL) le 31 décembre 2021. [En savoir plus](https://www.centos.org/centos-linux-eol/).
+* À partir de la version 22.1, Adobe Campaign n’est plus compatible avec CentOs 8.x (64 bits). CentOS Linux 8 a atteint sa fin de vie (EOL) le 31 décembre 2021. [En savoir plus](https://www.centos.org/centos-linux-eol/).
 
-   Si vous utilisiez ce système d’exploitation, adaptez votre mise en oeuvre en conséquence. CentOS 7.x (64 bits) et RHEL 8.x/7.x (64 bits) sont toujours pris en charge.
+   Si vous utilisiez ce système d’exploitation, adaptez votre implémentation en conséquence. CentOS 7.x (64 bits) et RHEL 8.x/7.x (64 bits) sont toujours pris en charge.
 
-* À compter de la version 21.1.3, Adobe Campaign n’est plus compatible avec Debian 8.
+* À partir de la version 21.1.3, Adobe Campaign n’est plus compatible avec Debian 8.
 
 * Depuis la version 19.1, Adobe Campaign n’est plus compatible avec les systèmes d’exploitation ci-après.
 
@@ -234,7 +234,7 @@ Les versions de PostgreSQL jusqu&#39;à la version 9.6 ont atteint la fin de vi
 
 ### Connecteurs SMS {#sms-eol}
 
-À compter de la version 20.2, les connecteurs SMS suivants sont obsolètes. Adobe Campaign n’est pas compatible avec :
+À compter de la version 20.2, les connecteurs SMS suivants sont obsolètes. Adobe Campaign n’est pas compatible avec :
 
 * SMPP générique (SMPP version 3.4 avec prise en charge du mode binaire)
 * Sybase365 (SAP SMS 365)
