@@ -3,7 +3,7 @@ product: campaign
 title: Effectuer une mise à jour vers le nouveau serveur de délivrabilité
 description: Découvrez comment mettre à jour le nouveau serveur de délivrabilité de Campaign
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 9583763eb1d4403b32a1b77a9542f476c314d167
+source-git-commit: 50ef144950ca9e79b1b3acdf587ffc13e0beeec4
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 93%
@@ -62,7 +62,8 @@ En tant que client On-Premise, vous devez également vérifier qu’un **[!UICON
 1. En tant qu’administrateur, connectez-vous à [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
 1. Accédez à la section **Produit et services** et vérifiez qu’**Adobe Campaign** est répertorié.
 Si vous ne pouvez pas voir **Adobe Campaign**, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
-1. Cliquez sur **Adobe Campaign** et sélectionnez votre organisation. **Attention**: Si vous avez plusieurs organisations, veillez à en sélectionner une correcte. En savoir plus sur les organisations [dans cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+1. Cliquez sur **Adobe Campaign** et sélectionnez votre organisation.
+   **Attention**: Si vous avez plusieurs organisations, veillez à en sélectionner une correcte. En savoir plus sur les organisations [dans cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
 
 1. Vérifiez qu’il existe un **[!UICONTROL profil de produit]**. Dans le cas contraire, créez-le. Aucune autorisation n’est requise pour ce **[!UICONTROL profil de produit]**.
 
