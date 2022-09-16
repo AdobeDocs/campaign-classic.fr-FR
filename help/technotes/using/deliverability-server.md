@@ -3,10 +3,10 @@ product: campaign
 title: Effectuer une mise à jour vers le nouveau serveur de délivrabilité
 description: Découvrez comment mettre à jour le nouveau serveur de délivrabilité de Campaign
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 38f5cb9fdeb9deceab812c6ebc158e2ab37e3155
-workflow-type: ht
-source-wordcount: '1283'
-ht-degree: 100%
+source-git-commit: 7385617d69c823850083a94b561d02c9152803e1
+workflow-type: tm+mt
+source-wordcount: '1365'
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,6 @@ En tant que **client on-premise/hybride**, vous devez effectuer la mise à nivea
 
 Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaign doit communiquer avec les services partagés d’Adobe via une authentification basée sur Identity Management Service (IMS). Il est préférable d’utiliser le jeton de passerelle basé sur Adobe Developer (également appelé Jeton de compte technique ou JWT Adobe IO).
 
-
 >[!WARNING]
 >
 >Ces étapes ne doivent être effectuées que pour les implémentations hybrides et On-premise.
@@ -54,7 +53,7 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
 1. Vérifiez que la valeur de l’option `DmRendering_cuid` est renseignée.
 
    * Si vous avez renseigné cette option, vous pouvez lancer l’implémentation.
-   * Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour obtenir votre CUID.
+   * Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour obtenir votre CUID.
 
    Cette option doit être renseignée sur toutes vos instances Campaign (MKT, MID, RT, EXEC) avec la valeur correcte. En tant que client hybride, contactez Adobe pour que l’option soit définie sur vos instances MID, RT et EXEC.
 
@@ -62,8 +61,13 @@ En tant que client On-Premise, vous devez également vérifier qu’un **[!UICON
 
 1. En tant qu’administrateur, connectez-vous à [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
 1. Accédez à la section **Produit et services** et vérifiez qu’**Adobe Campaign** est répertorié.
-Si vous ne pouvez pas voir **Adobe Campaign**, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
+Si vous ne pouvez pas voir **Adobe Campaign**, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
 1. Cliquez sur **Adobe Campaign** et sélectionnez votre organisation.
+
+   >[!CAUTION]
+   >
+   >Si vous avez plusieurs organisations, veillez à en sélectionner une correcte. En savoir plus sur les organisations [dans cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+
 1. Vérifiez qu’il existe un **[!UICONTROL profil de produit]**. Dans le cas contraire, créez-le. Aucune autorisation n’est requise pour ce **[!UICONTROL profil de produit]**.
 
 
@@ -76,9 +80,12 @@ Si vous ne pouvez pas voir **Adobe Campaign**, contactez l’[Assistance client�
 
 1. Accédez à [Adobe Developer Console](https://developer.adobe.com/console/home) et connectez-vous avec l’accès développeur de votre organisation. Vérifiez votre connexion au portail d’organisation approprié.
 
+   >[!CAUTION]
+   >
+   >Si vous avez plusieurs organisations, veillez à en sélectionner une correcte. En savoir plus sur les organisations [dans cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+
 1. Sélectionnez **[!UICONTROL Créer un projet]**.
    ![](assets/New-Project.png)
-
 
    >[!CAUTION]
    >
@@ -151,12 +158,14 @@ Vous pouvez maintenant activer le nouveau serveur de délivrabilité. Procédez 
 
 Pour vérifier que l’intégration a réussi, procédez comme suit :
 
-
 1. Ouvrez la console cliente et connectez-vous à Adobe Campaign.
 1. Accédez à **Administration > Production > Workflows techniques**.
 1. Redémarrez le workflow **Actualiser la délivrabilité** (deliverabilityUpdate). Cette opération doit être réalisée sur toutes vos instances Campaign (MKT, MID, RT, EXEC). En tant que client hybride, contactez Adobe pour redémarrer le workflow sur vos instances MID, RT et EXEC.
 1. Vérifier les logs : le workflow doit s’exécuter sans erreur.
 
+>[!CAUTION]
+>
+>Après la mise à jour, la variable **Mettre à jour le réseau de contrôle pour Inbox Rendering (updateRenderingSeeds)** Le workflow doit être arrêté, car il ne s’appliquera plus et échouera.
 
 ## Forum aux questions {#faq}
 
@@ -173,4 +182,3 @@ Toute instance de Campaign non mise à niveau d’ici le 31 août ne pourra plus
 Si vous ne mettez pas à niveau votre environnement, les paramètres d’e-mail ne seront plus synchronisés (règles de gestion MX, règles relatives aux e-mails entrants, règles de gestion des domaines et règles de qualification des rebonds). Cela peut affecter votre délivrabilité au fil du temps. Si une modification importante est apportée à ces règles, celles-ci doivent être appliquées manuellement à partir de ce point.
 
 Pour les instances MKT, seule la [Liste de suppression globale](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) est affectée.
-
