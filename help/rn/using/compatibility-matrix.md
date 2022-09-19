@@ -6,8 +6,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: fad7770e26bf06d13f7e2bcf136cc5386a394f50
-workflow-type: ht
+source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
+workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 100%
 
@@ -199,21 +199,15 @@ Les environnements **Managed Services** (hébergé), **Hybride** et **On-premis
 <td><strong>Version de la base de données</strong></td>
 <td><strong>Version de Campaign</strong></td>
 <tr>
-<tr>
-<td>Snowflake</td>
-<td> </td>
-<td>7.2.1 minimum</td>
+<td>Amazon Redshift</td>
+<td><p> </p>
+<td>v7.0 19.1.4 minimum</td>
+</td>
 </tr>
 <tr>
 <td>Google BigQuery</td>
 <td> </td>
 <td>7.2.1 minimum</td>
-</tr>
-<tr>
-<td>Amazon Redshift</td>
-<td><p> </p>
-<td>v7.0 19.1.4 minimum</td>
-</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -223,6 +217,16 @@ Les environnements **Managed Services** (hébergé), **Hybride** et **On-premis
 <p>11.x</p>
 <p>10.x</p>
 </td>
+<td>v7.0 19.1.4 minimum</td>
+</tr>
+<tr>
+<td>Snowflake</td>
+<td> </td>
+<td>7.2.1 minimum</td>
+</tr>
+<tr>
+<td>Vertica Analytics</td>
+<td> </td>
 <td>v7.0 19.1.4 minimum</td>
 </tr>
 </tbody>
@@ -236,14 +240,26 @@ En complément, les environnements **hybrides** et **On-premise** peuvent connec
 <td><strong>Version de la base de données</strong></td>
 <td><strong>Version de Campaign</strong></td>
 <tr>
-<td>Vertica</td>
-<td> </td>
-<td>v7.0 19.1.4 minimum</td>
-</tr>
-<tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td> </td>
 <td>v7.0 19.1.4 minimum</td>
+</tr>
+<tr><td>MySQL</td>
+<td>
+<p>8</p>
+<p>5.7</p>
+</td>
+<td>
+<p>v7.3 minimum</p>
+<p>V7.0 minimum</p>
+</td>
+</tr>
+<tr>
+<td>Netezza</td>
+<td>
+<p>7.2</p>
+</td>
+<td>V7.0 minimum</td>
 </tr>
 <tr>
 <td>Oracle</td>
@@ -252,6 +268,13 @@ En complément, les environnements **hybrides** et **On-premise** peuvent connec
 <p>18c</p>
 <p>12c</p>
 <p>11g</p>
+</td>
+<td>V7.0 minimum</td>
+</tr>
+<tr>
+<td>SAP HANA</td>
+<td>
+<p>SPS 12 version 1</p>
 </td>
 <td>V7.0 minimum</td>
 </tr>
@@ -265,33 +288,6 @@ En complément, les environnements **hybrides** et **On-premise** peuvent connec
 </td>
 <td>V7.0 minimum</td>
 </tr>
-<tr><td>MySQL</td>
-<td>
-<p>8</p>
-<p>5.7</p>
-</td>
-<td>
-<p>v7.3 minimum</p>
-<p>V7.0 minimum</p>
-</td>
-</tr>
-<tr>
-<td>Teradata</td>
-<td>
-<p>16.20</p>
-<p>16</p>
-<p>15.10</p>
-<p>15.0</p>
-</td>
-<td>V7.0 minimum</td>
-</tr>
-<tr>
-<td>Netezza</td>
-<td>
-<p>7.2</p>
-</td>
-<td>V7.0 minimum</td>
-</tr>
 <tr>
 <td>Sybase</td>
 <td>
@@ -301,9 +297,12 @@ En complément, les environnements **hybrides** et **On-premise** peuvent connec
 <td>V7.0 minimum</td>
 </tr>
 <tr>
-<td>SAP HANA</td>
+<td>Teradata</td>
 <td>
-<p>SPS 12 version 1</p>
+<p>16.20</p>
+<p>16</p>
+<p>15.10</p>
+<p>15.0</p>
 </td>
 <td>V7.0 minimum</td>
 </tr>
@@ -330,6 +329,15 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 
 <table>
 <tbody>
+</tr>
+<tr>
+<td>Microsoft Windows</td>
+<td>
+<p>11 (à partir de la version 7.3)</p>
+<p>10 (recommandé pour les instances japonaises)</p>
+<p>8</p>
+</td>
+</tr>
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
@@ -337,15 +345,6 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 <p>2016</p>
 <p>2012</p>
 </td>
-</tr>
-<tr>
-<td>Microsoft Windows</td>
-<td>
-<p>11 (à partir de Campaign v7.3)</p>
-<p>10 (recommandé pour les instances japonaises)</p>
-<p>8</p>
-</td>
-</tr>
 </tbody>
 </table>
 
