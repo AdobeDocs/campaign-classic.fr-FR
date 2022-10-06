@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
 source-git-commit: f580b9b2508c279e03bd2698854aaf3de501200b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,4 +53,4 @@ Suivez les liens ci-dessous pour en savoir plus :
 * Connecter Campaign et [Snowflake](../../installation/using/configure-fda-snowflake.md)
 * Connectez Campaign et [Sybase IQ](../../installation/using/configure-fda-sybase.md)
 * Connecter Campaign et [Teradata](../../installation/using/configure-fda-teradata.md)
-* Connecter Campaign et [verticas analytics](../../installation/using/configure-fda-vertica.md)
+* Connecter Campaign et [Vertica Analytics](../../installation/using/configure-fda-vertica.md)
