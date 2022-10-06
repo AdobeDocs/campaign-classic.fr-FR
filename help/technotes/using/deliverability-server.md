@@ -4,9 +4,9 @@ title: Effectuer une mise à jour vers le nouveau serveur de délivrabilité
 description: Découvrez comment mettre à jour le nouveau serveur de délivrabilité de Campaign
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 50ef144950ca9e79b1b3acdf587ffc13e0beeec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1367'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
 1. Vérifiez que la valeur de l’option `DmRendering_cuid` est renseignée.
 
    * Si vous avez renseigné cette option, vous pouvez lancer l’implémentation.
-   * Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour obtenir votre CUID.
+   * Si aucune valeur n’est renseignée, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour obtenir votre CUID.
 
    Cette option doit être renseignée sur toutes vos instances Campaign (MKT, MID, RT, EXEC) avec la valeur correcte. En tant que client hybride, contactez Adobe pour que l’option soit définie sur vos instances MID, RT et EXEC.
 
@@ -61,9 +61,9 @@ En tant que client On-Premise, vous devez également vérifier qu’un **[!UICON
 
 1. En tant qu’administrateur, connectez-vous à [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
 1. Accédez à la section **Produit et services** et vérifiez qu’**Adobe Campaign** est répertorié.
-Si vous ne pouvez pas voir **Adobe Campaign**, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
+Si vous ne pouvez pas voir **Adobe Campaign**, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
 1. Cliquez sur **Adobe Campaign** et sélectionnez votre organisation.
-   **Attention**: Si vous avez plusieurs organisations, veillez à en sélectionner une correcte. En savoir plus sur les organisations [dans cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+   **Attention** : si vous avez plusieurs organisations, veillez à choisir la bonne. En savoir plus sur les organisations [sur cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr#ims-org-id){_blank}.
 
 1. Vérifiez qu’il existe un **[!UICONTROL profil de produit]**. Dans le cas contraire, créez-le. Aucune autorisation n’est requise pour ce **[!UICONTROL profil de produit]**.
 
@@ -76,7 +76,7 @@ Si vous ne pouvez pas voir **Adobe Campaign**, contactez l’[Assistance client�
 ### Étape 1 : Créer/mettre à jour votre projet Adobe Developer {#adobe-io-project}
 
 1. Accédez à [Adobe Developer Console](https://developer.adobe.com/console/home) et connectez-vous avec l’accès développeur de votre organisation. Vérifiez votre connexion au portail d’organisation approprié.
-   **Attention**: Si vous avez plusieurs organisations, veillez à en sélectionner une correcte. En savoir plus sur les organisations [dans cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+   **Attention** : si vous avez plusieurs organisations, veillez à choisir la bonne. En savoir plus sur les organisations [sur cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr#ims-org-id){_blank}.
 1. Sélectionnez **[!UICONTROL Créer un projet]**.
    ![](assets/New-Project.png)
 
@@ -158,7 +158,7 @@ Pour vérifier que l’intégration a réussi, procédez comme suit :
 
 >[!CAUTION]
 >
->Après la mise à jour, la variable **Mettre à jour le réseau de contrôle pour Inbox Rendering (updateRenderingSeeds)** Le workflow doit être arrêté, car il ne s’appliquera plus et échouera.
+>Après la mise à jour, le workflow **Mettre à jour le réseau de test pour l’Inbox Rendering (updateRenderingSeeds)** doit être arrêté, car il ne s’appliquera plus et échouera.
 
 ## Forum aux questions {#faq}
 
