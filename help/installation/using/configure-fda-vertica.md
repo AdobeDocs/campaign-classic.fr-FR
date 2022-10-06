@@ -1,19 +1,19 @@
 ---
 product: campaign
 title: Configuration de l'accès à Vertica Analytics
-description: Découvrez comment configurer l’accès aux Verticas analytics dans FDA
+description: Découvrez comment configurer l’accès à Vertica Analytics dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
 source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Configurer l’accès à Vertica analytics {#configure-fda-vertica}
+# Configurer l’accès à Vertica Analytics {#configure-fda-vertica}
 
 ![](../../assets/v7-only.svg)
 
@@ -24,7 +24,7 @@ Utilisez l&#39;option Campaign **Federated Data Access** (FDA) pour traiter les 
 
 ![](assets/snowflake_3.png)
 
-## verticas analytics sur CentOS {#vertica-centos}
+## Vertica Analytics sous CentOS {#vertica-centos}
 
 Pour effectuer la configuration de [!DNL Vertica Analytics] sur CentOS, procédez comme suit :
 
@@ -78,7 +78,7 @@ Pour effectuer la configuration de [!DNL Vertica Analytics] sur CentOS, procéde
 
 1. Dans Adobe Campaign, vous pouvez ensuite configurer votre compte externe [!DNL Vertica Analytics]. Pour plus d&#39;informations sur la configuration de votre compte externe, voir [cette section](#vertica-external).
 
-## verticas analytics sous Windows {#vertica-windows}
+## Vertica Analytics sous Windows {#vertica-windows}
 
 1. Téléchargez le pilote [ODBC pour Windows](https://www.vertica.com/download/vertica/client-drivers/). Pour installer le pilote pour Windows, vous devez activer .NET Framework 3.5, sinon l&#39;assistant d&#39;installation tentera de l&#39;activer et de le télécharger automatiquement.
 
@@ -86,7 +86,7 @@ Pour effectuer la configuration de [!DNL Vertica Analytics] sur CentOS, procéde
 
 1. Dans Adobe Campaign, vous pouvez ensuite configurer votre compte externe [!DNL Vertica Analytics]. Pour plus d&#39;informations sur la configuration de votre compte externe, voir [cette section](#vertical-external).
 
-## verticas analytics sous Debian {#vertica-debian}
+## Vertica Analytics sous Debian {#vertica-debian}
 
 1. Téléchargez les pilotes ODBC pour [!DNL Vertica Analytics]. [Cliquez ici](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) pour lancer le téléchargement.
 
@@ -140,7 +140,7 @@ Pour effectuer la configuration de [!DNL Vertica Analytics] sur CentOS, procéde
 
 1. Dans Adobe Campaign, vous pouvez ensuite configurer votre compte externe [!DNL Vertica Analytics]. Pour plus d&#39;informations sur la configuration de votre compte externe, voir [cette section](#vertica-external).
 
-## Compte externe Vertica analytics {#vertica-external}
+## Compte externe Vertica Analytics {#vertica-external}
 
 Vous devez créer un compte externe [!DNL Vertica Analytics] pour connecter votre instance Campaign à votre base de données [!DNL Vertica Analytics] externe.
 
@@ -150,7 +150,7 @@ Vous devez créer un compte externe [!DNL Vertica Analytics] pour connecter votr
 
 1. Sélectionnez **[!UICONTROL Base de données externe]** en tant que **[!UICONTROL Type]** de compte externe.
 
-1. Configurez la variable **[!UICONTROL verticas analytics]** compte externe, vous devez indiquer les informations suivantes :
+1. Pour configurer le compte externe **[!UICONTROL Vertica Analytics]**, vous devez spécifier : 
 
    * **[!UICONTROL Type]**: [!DNL Vertica Analytics]
 
