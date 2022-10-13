@@ -6,16 +6,16 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 878ba2b532d5cb59af77b6450b12ae5d2ff149b2
+workflow-type: tm+mt
+source-wordcount: '1067'
 ht-degree: 100%
 
 ---
 
 # Création d’hypothèses{#creating-hypotheses}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Il existe différentes possibilités pour créer/associer des hypothèses à une offre ou a une diffusion d&#39;une opération :
 

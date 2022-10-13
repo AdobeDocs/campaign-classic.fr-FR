@@ -6,8 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+source-git-commit: 878ba2b532d5cb59af77b6450b12ae5d2ff149b2
+workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Configuration de la gestion de la réaction (Response Manager) de Campaign{#configuration}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Cette section s&#39;adresse aux opérateurs chargés du paramétrage de la gestion de la réaction. La mise en oeuvre de cette configuration requiert des connaissances en termes d&#39;extension de schémas, de création et gestion de workflows et de programmation SQL.
 
