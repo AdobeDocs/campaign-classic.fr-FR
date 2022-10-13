@@ -5,7 +5,7 @@ description: Découvrez comment ingérer des audiences Adobe Experience Platfo
 audience: integrations
 content-type: reference
 exl-id: 6db8a653-b649-402c-8814-24826edadba7
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: 89a18ae9ec57376d6ebec6c416c7562f960eb882
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Ingérer des segments Adobe Experience Platform dans Campaign {#destinations}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Pour ingérer des audiences Adobe Experience Platform dans Campaign et les utiliser dans vos workflows, vous devez d’abord connecter Adobe Campaign en tant que **destination** Adobe Experience Platform et le configurer avec le segment à exporter.
 
