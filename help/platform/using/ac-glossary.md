@@ -6,10 +6,10 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
+source-git-commit: ecd82fe432d44f14b48b162224dd88bb0f6e6f64
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 6%
+source-wordcount: '560'
+ht-degree: 19%
 
 ---
 
@@ -41,6 +41,43 @@ Une activité est un élément de palette ajouté à un workflow pour définir u
 En savoir plus sur [Activités de workflow](../../workflow/using/about-activities.md).
 +++
 
++++**ACS Connector**
+
+ACS Connector (Prime Offering) relie Adobe Campaign v7 et Adobe Campaign Standard. Il s&#39;agit d&#39;une fonctionnalité intégrée de Campaign v7 qui reproduit automatiquement les données vers Campaign Standard, associant le meilleur des deux applications. Campaign v7 contient des outils avancés pour gérer la Principale base de données marketing. La réplication des données depuis Campaign v7 permet à Campaign Standard d’exploiter les données enrichies dans un environnement convivial.
+
+En savoir plus sur [ACS Connector](../../integrations/using/acs-connector-principles-and-data-cycle.md).
++++
+
++++**Principal profil**
+
+Les profils sont considérés comme actifs s’ils ont été ciblés ou ont fait l’objet d’une communication via un canal au cours des 12 derniers mois. Conformément à votre contrat, chacune de vos instances Campaign est configurée avec un nombre spécifique de profils actifs comptabilisés à des fins de facturation.
+
+En savoir plus sur [Profils principaux](about-profiles.md#active-profiles).
++++
+
+
++++**Activité de workflow d’approbation**
+
+*Contexte : Marketing distribué des campagnes*
+
+L&#39;activité Validation en local est une activité de workflow qui permet de mettre en place un processus de validation des diffusions avant l&#39;envoi des messages.
+
+En savoir plus sur les [Activité Validation locale](../../workflow/using/local-approval.md).
++++
+
++++**Audience**
+
+Une audience est l’ensemble des profils ainsi obtenus qui répondent aux critères d’une définition de filtre, basée sur des règles et des attributs.
+
+En savoir plus sur [Audiences](../../campaign/using/marketing-campaign-target.md).
++++
+
++++**Journal d’audit**
+
+Le journal d’audit capture, en temps réel, une liste complète d’actions et d’événements se produisant dans votre instance Adobe Campaign. Il comprend un moyen en libre-service d’accéder à un historique de données pour vous aider à répondre à des questions telles que : ce qui est arrivé à vos workflows, qui les a mis à jour pour la dernière fois ou ce que vos utilisateurs ont fait dans l’instance.
+
+En savoir plus sur [Suivi](../../production/using/audit-trail.md).
++++
 
 ## E - H {#sec-2}
 
