@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: general-operation
 exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ Une offre n&#39;est déployée que sur les emplacements sélectionnés lors de l
 
 ## Types d&#39;interactions et modes de contact {#interaction-types-and-contact-methods}
 
-On distingue deux types d&#39;interactions possibles : les interactions entrantes, provoquées par un contact, et les interactions sortantes, provoquées par le proposeur d&#39;offres.
+Il existe deux types d’interactions possibles : interactions entrantes (initiées par un contact) et interactions sortantes (initiées par le concepteur de l&#39;offre).
 
 Ces deux types d&#39;interactions peuvent être réalisés soit en mode unitaire (l&#39;offre est calculée pour un seul contact), soit en mode batch (l&#39;offre est calculée pour un ensemble de contacts). Généralement, les interactions entrantes sont réalisées en mode unitaire et les interactions sortantes en mode batch. Néanmoins, des exceptions peuvent exister, par exemple pour des messages transactionnels, où l&#39;interaction sortante est réalisée en mode unitaire (voir [cette section](../../message-center/using/about-transactional-messaging.md)).
 

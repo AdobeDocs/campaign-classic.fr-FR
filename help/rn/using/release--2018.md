@@ -2,9 +2,10 @@
 product: campaign
 title: Versions de Campaign Classic 2018
 description: En savoir plus sur les versions de Campaign Classic 2018
+hidefromtoc: true
 exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: ht
+source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
+workflow-type: tm+mt
 source-wordcount: '5423'
 ht-degree: 100%
 
@@ -81,7 +82,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Améliorations**
 
@@ -103,7 +104,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Nouveautés**
 
@@ -248,7 +249,7 @@ Ces modifications d&#39;index peuvent entraîner une augmentation du temps néce
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Nouveautés**
 
@@ -304,7 +305,7 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](../../production/using/build-upgrade.md) ou contactez le [support technique](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](../../production/using/build-upgrade.md) ou contactez le [support technique](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Nouveautés**
 
@@ -322,7 +323,7 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
   </tr> 
   <tr> 
    <td> Prise en charge de Windows Server 2016<br /> </td> 
-   <td> Adobe Campaign est maintenant compatible avec Windows Server 2016. Consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html">matrice de comptabilité de Campaign Classic</a>.<br /> </td> 
+   <td> Adobe Campaign est maintenant compatible avec Windows Server 2016. Consultez la <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">matrice de comptabilité de Campaign Classic</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -339,7 +340,7 @@ Pour les clients existants, le comportement de cette fonction reste inchangé, m
 
 decryptPassword
 
-La fonction **decryptPassword** a été ajoutée. Elle vous permet de déchiffrer un mot de passe stocké dans un compte externe. Reportez-vous à la documentation [JSAPI](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html) pour plus d’informations.
+La fonction **decryptPassword** a été ajoutée. Elle vous permet de déchiffrer un mot de passe stocké dans un compte externe. Reportez-vous à la documentation [JSAPI](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) pour plus d’informations.
 
 API de fichier
 
