@@ -6,9 +6,9 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8aa45f4e9d41b7dc4faf89dad988703b63cea77c
+source-git-commit: cd26bf082d891e55bce489256dd9d43a1e3f243c
 workflow-type: tm+mt
-source-wordcount: '6454'
+source-wordcount: '6453'
 ht-degree: 12%
 
 ---
@@ -51,7 +51,7 @@ En savoir plus sur [Activités de workflow](../../workflow/using/about-activitie
 
 Les profils sont considérés comme actifs s’ils ont été ciblés ou ont fait l’objet d’une communication via un canal au cours des 12 derniers mois. Conformément à votre contrat, chacune de vos instances Campaign est configurée avec un nombre spécifique de profils actifs comptabilisés à des fins de facturation.
 
-En savoir plus sur [Profils principaux](about-profiles.md#active-profiles).
+En savoir plus sur [Profils principaux](../../platform/using/about-profiles.md#active-profiles).
 +++
 
 +++**Activité de workflow d’approbation**
@@ -759,7 +759,7 @@ En savoir plus sur [Formules](../../campaign/using/setting-up-marketing-campaign
 
 Les filtres prédéfinis sont des requêtes qui ont été enregistrées pour réutilisation. L’utilisation de filtres prédéfinis augmente la productivité (car ils ne sont créés qu’une seule fois), contribue à créer de la cohérence (car tous les marketeurs peuvent les utiliser) et à réduire les compétences requises du marketeur, car il peut utiliser du code ou une logique qu’il pourrait ne pas être en mesure de créer lui-même.
 
-En savoir plus sur [Filtres prédéfinis](../../platforrm/using/creating-filters.md).
+En savoir plus sur [Filtres prédéfinis](../../configuration/using/creating-filters.md).
 +++
 
 <!--
@@ -775,14 +775,14 @@ Learn more about [Predictive Engagement Scoring](../../platforrm/using/creating-
 
 La clé Principale est l’identifiant unique de chaque enregistrement dans une table de base de données. Une table doit posséder au moins une clef. Par convention, les clefs sont déclarées après la déclaration de l&#39;élément principal du schéma et à la suite des déclarations d&#39;index. Les clés Principal ne peuvent pas être composites (inclure plusieurs champs).
 
-En savoir plus sur [Clé Principal](../../configuration/using/key.md).
+En savoir plus sur [Clé Principal](../../configuration/using/schema/key.md).
 +++
 
 +++**Profil**
 
 Un profil est un enregistrement d’informations représentant un client final, un prospect ou un prospect. Chaque profil correspond à un enregistrement dans la table nmsRecipient ou une table externe contenant l&#39;identifiant du cookie, l&#39;identifiant client, l&#39;identifiant mobile ou toute autre information relative à un canal particulier.
 
-En savoir plus sur [Profils](../../platforrm/using/about-profiles.md).
+En savoir plus sur [Profils](../../platform/using/about-profiles.md).
 +++
 
 +++**Programme**
@@ -900,7 +900,7 @@ En savoir plus sur [Données cibles](../../workflow/using/data-life-cycle.md#tar
 
 Il s’agit du mappage des canaux de diffusion sur un type de données spécifique. Adobe Campaign n’envoie pas en soi aux adresses électroniques ni aux numéros de téléphone, mais plutôt aux types de données. Les mappages cibles (parfois appelés mappages de diffusion) définissent la manière dont différents canaux de diffusion se connectent aux champs de données d’un schéma. Elle définit la manière dont Campaign envoie vers ce type de données à l’aide d’un champ ou d’une expression spécifique.
 
-En savoir plus sur [Données cibles](../../workflow/using/define-the-right-audience.md#target-mappings).
+En savoir plus sur [Données cibles](../../delivery/using/define-the-right-audience.md#target-mappings).
 +++
 
 +++**Activités de ciblage**
@@ -1000,7 +1000,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 Les règles de typologie sont des règles de fonctionnement qui sont mises en oeuvre dans le cadre de la phase d’analyse de la diffusion. Les règles de typologie sont des contrôles sur le contenu de la diffusion (Règles de contrôle) ou de la cible de la diffusion (Règles de filtrage) ou toute autre logique (Règles de pression) qui impose les exigences de l&#39;entreprise. Les règles sont des éléments granulaires qui peuvent être inclus dans une ou plusieurs typologies.
 
-En savoir plus sur [Typologies](../../campaign/using/about-campaign-typologies.md#typology-rules).
+En savoir plus sur [Typologies](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 +++**Typology**
@@ -1009,7 +1009,7 @@ En savoir plus sur [Typologies](../../campaign/using/about-campaign-typologies.m
 
 Une typologie est un groupe de Règles de typologie qui sont appliquées à la phase d&#39;analyse d&#39;une diffusion. Une typologie de campagne peut contenir plusieurs règles de typologie, mais une diffusion ne peut référencer qu&#39;une seule typologie.
 
-En savoir plus sur [Typologies](../../campaign/using/about-campaign-typologies.md#typologies).
+En savoir plus sur [Typologies](../../campaign-opt/using/about-campaign-typologies.md#typologies).
 +++
 
 ## U - Z {#sec-6}
