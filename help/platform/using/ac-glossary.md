@@ -6,10 +6,10 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: dea815b07f0b91ed550060fa00cf0501ae6594f7
+source-git-commit: 9900fb627dfb310e8f34735a502997ef8e24e769
 workflow-type: tm+mt
-source-wordcount: '6087'
-ht-degree: 13%
+source-wordcount: '5993'
+ht-degree: 12%
 
 ---
 
@@ -60,7 +60,7 @@ En savoir plus sur [Profils principaux](../../platform/using/about-profiles.md#a
 
 L&#39;activité Validation en local est une activité de workflow qui permet de mettre en place un processus de validation des diffusions avant l&#39;envoi des messages.
 
-En savoir plus sur les [Activité Validation locale](../../workflow/using/local-approval.md).
+En savoir plus sur les [Activité Validation en local](../../workflow/using/local-approval.md).
 +++
 
 +++**Audience**
@@ -140,14 +140,14 @@ En savoir plus sur [Validation du contenu](../../campaign/using/marketing-campai
 
 Utilisez les Populations témoins pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Les opérateurs peuvent comparer le comportement de la population cible qui a bien reçu le message avec celui des contacts qui n&#39;ont pas été ciblés. En fonction des envois, les opérateurs pourront également cibler une population témoin dans les prochaines campagnes.
 
-En savoir plus sur [Validation du contenu](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+En savoir plus sur [Groupes de contenu](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 +++
 
 +++**Panneau de contrôle**
 
-Le Panneau de Contrôle vous permet d’accroître l’efficacité de votre travail en tant qu’administrateur de produit d’Adobe Campaign, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances. Dans son interface intuitive, vous pouvez facilement surveiller l&#39;utilisation des principales ressources ou effectuer certaines tâches administratives telles que l&#39;ajout d&#39;adresses IP à la liste autorisée, la surveillance de l&#39;espace de stockage SFTP, la gestion des clés, etc.
+Le Panneau de Contrôle aide les administrateurs de produits d’Adobe Campaign à accroître l’efficacité de leur travail, en leur permettant de gérer les paramètres et de suivre l’utilisation de chacune de leurs instances. Son interface intuitive leur permet de surveiller facilement l’utilisation des ressources clés et d’effectuer des tâches administratives telles que l’ajout de listes autorisées d’adresses IP, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
 
-En savoir plus sur [Validation du contenu](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr).
+En savoir plus sur [Panneau de contenu](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr).
 +++
 
 +++**Cubes**
@@ -170,7 +170,7 @@ En savoir plus sur [Ressources personnalisées](../../configuration/using/about-
 
 Le modèle de données Campaign est un ensemble de schémas qui définissent les types de données et leurs relations (liens). Le modèle de données est une définition abstraite qui est mise en oeuvre physiquement avec une base de données qui contient les données réelles.
 
-En savoir plus sur [Ressources personnalisées](../../configuration/using/about-data-model.md).
+En savoir plus sur [Modèle de données](../../configuration/using/about-data-model.md).
 +++
 
 +++**Workflow de nettoyage de la base de données**
@@ -243,7 +243,7 @@ Une composition est un ensemble structuré d&#39;éléments (documents, magasins
 En savoir plus sur [Courrier](../../delivery/using/about-direct-mail-channel.md).
 +++
 
-+++**Assistant de déploiement**
++++**L’assistant de déploiement**
 
 L’assistant de déploiement définit les paramètres de l’instance Campaign, tels que l’espace de noms par défaut, le planning de nettoyage de la base, les périodes de conservation des données et d’autres paramètres techniques.
 
@@ -270,7 +270,7 @@ En savoir plus sur [Marketing distribué](../../distributed/using/about-distribu
 
 La Répartition des valeurs est un outil qui permet de visualiser la répartition des valeurs d&#39;un attribut de schéma existant actuellement dans la base de données. Vous pouvez ainsi déterminer les valeurs disponibles, leur nombre et leur pourcentage, et éviter tout problème de mise en majuscules et d’orthographe des valeurs lors de la création d’une requête ou d’une expression.
 
-En savoir plus sur [Marketing distribué](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
+En savoir plus sur [Répartition des valeurs](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
 +++
 
 +++**Délégation de domaine**
@@ -482,7 +482,7 @@ En savoir plus sur [Inbox rendering](../../delivery/using/delivery-dashboard.md#
 
 +++**Paramètres des instances**
 
-Les paramètres d’instance sont les détails de configuration d’une instance Adobe Campaign. Ces paramètres sont définis dans l’assistant de déploiement (Outils>Avancé>Assistant de déploiement) ou dans les fichiers de configuration de serveur et/ou d’instance.
+Les paramètres d’instance sont les détails de configuration d’une instance Adobe Campaign. Ces paramètres sont définis dans l&#39;assistant de déploiement (Outils>Avancé>Assistant de déploiement) ou dans les fichiers de configuration de serveur et/ou d&#39;instance.
 
 En savoir plus sur [Paramètres des instances](../../installation/using/about-initial-configuration.md).
 
@@ -492,7 +492,7 @@ En savoir plus sur [Paramètres des instances](../../installation/using/about-in
 
 Les tâches sont gérées par un système d’assistant qui simplifie l’import et l’export de données vers et depuis le produit. Pour des raisons de simplicité et de cohérence, les tâches utilisent le système de création de modèles et peuvent être définies pour s’exécuter selon un planning.
 
-En savoir plus sur [Tâches d’import et d’export](../../platform/using/get-started-data-import-export.md).
+En savoir plus sur [traitements d&#39;import et d&#39;export](../../platform/using/get-started-data-import-export.md).
 +++
 
 +++**Listes**
@@ -542,12 +542,15 @@ L’espace de noms est une partition qui sépare les types de données client de
 En savoir plus sur [Espace de noms](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 +++
 
-+++**Barre de navigation**
+<!--
+----generic, not specific to campaign----
++++**Navigation bar**
 
-La barre de navigation est l’élément de navigation qui s’exécute en haut de l’interface. La barre de navigation regroupe les différentes fonctionnalités principales de la plateforme. Cliquez sur un lien de la barre de navigation pour afficher l&#39;ensemble des fonctionnalités qui y sont liées. La liste des fonctions principales auxquelles vous pouvez accéder dépend des packages et des composants additionnels installés, ainsi que de vos droits d&#39;accès. La barre de navigation a pour but de simplifier la gestion des écrans et d’accroître la productivité.
+The navigation bar is the navigation element running across the top of the interface. The navigation bar regroups the various core capabilities of the platform. Click a navigation bar link to display the set of functionalities related to this capability. The list of core capabilities you can access depends on the packages and add-ons you have installed and on your access rights. The purpose of the Navigation bar is to simplify screen management and increase productivity.
 
-En savoir plus sur [Barre de navigation](../../platform/using/adobe-campaign-workspace.md#browsing-pages).
+Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.md#browsing-pages).
 +++
+-->
 
 +++**Arborescence de navigation**
 
@@ -565,16 +568,16 @@ Dans le cadre de l&#39;opération, du programme ou du plan, les opérateurs peuv
 En savoir plus sur [Objectifs](../../mrm/using/creating-and-managing-tasks.md#expenses-and-revenues).
 +++
 
-+++**Catalogue d’offres**
++++**Catalogue d&#39;offres**
 
 *Contexte : Interaction de campagne*
 
 Un catalogue d’offres est un ensemble d’offres défini dans Adobe Campaign qui peut être sélectionné lors d’une interaction. Le catalogue est organisé de manière hiérarchique avec chaque nœud correspondant à une catégorie.
 
-En savoir plus sur [Catalogue d’offres](../../interaction/using/offer-catalog-overview.md).
+En savoir plus sur [Catalogue d&#39;offres](../../interaction/using/offer-catalog-overview.md).
 +++
 
-+++**Contact d’offre**
++++**Contact de l&#39;offre**
 
 *Contexte : Interaction de campagne*
 
@@ -592,7 +595,7 @@ En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-m
 
 L’offre **Environnement de conception** est l&#39;environnement dans lequel les opérateurs créent des offres, définissent des règles de typologie et sélectionnent le schéma qui sera ciblé par les offres. La table de stockage des propositions d&#39;offres générées est également définie par l&#39;environnement. Par défaut, le module complémentaire Interaction est fourni avec un **Conception** environnement et un **En direct** l’environnement qui y est lié. Les deux environnements sont préconfigurés pour cibler le tableau des destinataires intégrée.
 
-En savoir plus sur [Environnements de conception](../../interaction/using/fundamental-principles.md).
+En savoir plus sur [Environnements de conception d’offre](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**arbitrages entre les moteurs d&#39;offres**
@@ -619,7 +622,7 @@ En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-m
 
 L&#39;environnement des offres est le dossier racine qui définit un catalogue d&#39;offres, ses emplacements disponibles et les filtres prédéfinis de l&#39;environnement. Les opérateurs doivent créer un environnement pour chaque dimension de ciblage. Il existe deux types d’environnements d’offres : Concevoir et vivre.
 
-En savoir plus sur [Environnements](../../interaction/using/fundamental-principles.md).
+En savoir plus sur [Environnements des offres](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**Environnement d’offre en direct**
@@ -628,7 +631,7 @@ En savoir plus sur [Environnements](../../interaction/using/fundamental-principl
 
 L&#39;environnement Offer Live est associé à une campagne. **Environnement de conception**. Il contient des offres en lecture seule dont le contenu et l&#39;éligibilité ont été validés via le **Environnement de conception**. Ils peuvent être sélectionnés pour la présentation sur un site web ou insérés dans un message sortant.
 
-En savoir plus sur [Environnements en ligne](../../interaction/using/fundamental-principles.md).
+En savoir plus sur [Offrir des environnements en ligne](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**Règles de présentation des offres**
@@ -662,7 +665,7 @@ En savoir plus sur [Propositions d&#39;offres](../../interaction/using/creating-
 
 *Contexte : Interaction de campagne*
 
-Une proposition d&#39;offre est le résultat de l&#39;action qui consiste à présenter une offre à un contact dans un emplacement donné, par exemple la bannière d&#39;un site web, un email ou un contenu SMS. Ce résultat est stocké dans la table des propositions d&#39;offre qui définit l&#39;offre, le destinataire et l&#39;horodatage, fournissant ainsi un enregistrement de toutes les offres reçues par un destinataire.
+Une représentation d’offre est une information utilisée par le canal pour afficher l’offre. La représentation de l&#39;offre peut être construite à partir de la fonction de rendu de l&#39;emplacement sur lequel l&#39;offre est représentée ou saisie directement dans l&#39;interface (par exemple, dans le bloc HTML). Une offre peut être représentée par un emplacement.
 
 En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -682,7 +685,7 @@ En savoir plus sur [Simulation des offres](../../interaction/using/about-offers-
 
 Un emplacement est un dossier définissant l’emplacement d’exposition de l’offre. Définir un emplacement permet de définir le canal utilisé, de construire le contenu de l&#39;offre et de spécifier les offres présentées. L&#39;emplacement est l&#39;interface entre le canal et le moteur d&#39;offres.
 
-En savoir plus sur [Simulation des offres](../../interaction/using/creating-offer-spaces.md).
+En savoir plus sur [Emplacement](../../interaction/using/creating-offer-spaces.md).
 +++
 
 +++**Thèmes de l&#39;offre**
@@ -751,7 +754,7 @@ En savoir plus sur [Palette](../../workflow/using/building-a-workflow.md#adding-
 
 Les informations de surveillance des performances s’affichent dans l’onglet Surveillance . Il affiche des mesures pour le système sous-jacent, telles que l’utilisation de la mémoire et du processeur, les statistiques du serveur SMTP, les processus du serveur et d’autres informations pertinentes.
 
-En savoir plus sur [Surveillance des performances](../../production/using/monitoring-processes.md).
+En savoir plus sur [Suivi des performances](../../production/using/monitoring-processes.md).
 +++
 
 +++**Blocs de personnalisation**
@@ -927,14 +930,14 @@ En savoir plus sur [Validation de la cible](../../workflow/using/local-approval.
 
 Les données de la cible sont les données stockées dans la table de travail (transition) d&#39;un workflow. Ces données sont disponibles dans la diffusion pour la personnalisation du contenu de la diffusion ou pour définir la logique des éléments dynamiques de la diffusion.
 
-En savoir plus sur [Données cibles](../../workflow/using/data-life-cycle.md#target-data).
+En savoir plus sur [Données de la cible](../../workflow/using/data-life-cycle.md#target-data).
 +++
 
 +++**Mapping de ciblage**
 
 Le mapping de ciblage est le mappage des canaux de diffusion sur un type de données spécifique. Les mappages de ciblage définissent la manière dont différents canaux de diffusion se lient aux champs de données d’un schéma. Elle définit la manière dont Campaign envoie vers ce type de données à l’aide d’un champ ou d’une expression spécifique.
 
-En savoir plus sur [Mappage de Target](../../delivery/using/selecting-a-target-mapping.md).
+En savoir plus sur [Mapping de ciblage](../../delivery/using/selecting-a-target-mapping.md).
 +++
 
 +++**Activités de ciblage**
