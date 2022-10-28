@@ -4,11 +4,9 @@ title: Glossaire pour Adobe Campaign
 description: Glossaire pour Adobe Campaign
 role: User, Data Architect
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 9900fb627dfb310e8f34735a502997ef8e24e769
+source-git-commit: 3a540b59640d4cf128417f751d0076fd97310768
 workflow-type: tm+mt
-source-wordcount: '5993'
+source-wordcount: '6041'
 ht-degree: 12%
 
 ---
@@ -140,14 +138,14 @@ En savoir plus sur [Validation du contenu](../../campaign/using/marketing-campai
 
 Utilisez les Populations témoins pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Les opérateurs peuvent comparer le comportement de la population cible qui a bien reçu le message avec celui des contacts qui n&#39;ont pas été ciblés. En fonction des envois, les opérateurs pourront également cibler une population témoin dans les prochaines campagnes.
 
-En savoir plus sur [Groupes de contenu](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+En savoir plus sur [Populations témoins](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 +++
 
 +++**Panneau de contrôle**
 
 Le Panneau de Contrôle aide les administrateurs de produits d’Adobe Campaign à accroître l’efficacité de leur travail, en leur permettant de gérer les paramètres et de suivre l’utilisation de chacune de leurs instances. Son interface intuitive leur permet de surveiller facilement l’utilisation des ressources clés et d’effectuer des tâches administratives telles que l’ajout de listes autorisées d’adresses IP, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
 
-En savoir plus sur [Panneau de contenu](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr).
+En savoir plus sur [Panneau de Contrôle](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr).
 +++
 
 +++**Cubes**
@@ -284,12 +282,12 @@ En savoir plus sur [Délégation de domaine](https://experienceleague.adobe.com/
 ## E - H {#sec-2}
 
 <!--
-----DEPREACTED----
+----DEPRECATED------>
 +++**E4X**
 
-The version of Javascript that is used in Adobe Campaign Classic. Sometimes called ECMAScript, it is an extension of Javascript that allows the mixing of Javascript and XML primitives in the same code. Note that E4X is classified as a deprecated language. 
+E4X est la version de JavaScript utilisée dans Adobe Campaign Classic. Parfois appelé ECMAScript, il s’agit d’une extension de JavaScript qui permet de mélanger des primitives JavaScript et XML dans le même code. Notez que E4X est classé comme langue obsolète.
 +++
--->
+
 
 +++**Règles d’éligibilité**
 
@@ -1060,14 +1058,14 @@ En savoir plus sur [Mode unitaire](../../interaction/using/about-inbound-channel
 +++
 
 <!--
------NO OCCURRENCE IN ACC, OLD v6 CONCEPT?----
+-----NO OCCURRENCE IN ACC, OLD v6 CONCEPT?
 +++**Universes**
 
 Application pages hosted by the Campaign instance. Used for approval forms, landing pages, opt-out forms, preference pages or to implement other business requirements.  
 
 Learn more about [Universes](../../workflow/using/about-workflows.md).
 +++
--->
+------>
 
 +++**Des applications web**
 
