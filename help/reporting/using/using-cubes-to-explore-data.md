@@ -3,9 +3,11 @@ product: campaign
 title: Utilisation des cubes pour explorer les données
 description: Utilisation des cubes pour explorer les données
 feature: Reporting
+hide: true
+hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 100%
 
@@ -23,7 +25,7 @@ Marketing Analytics permet de simplifier la création de rapports ainsi que l&#
 
 >[!NOTE]
 >
->Marketing Analytics est nécessaire pour créer ou modifier des cubes. Voir à ce sujet la section [À propos des cubes](../../reporting/using/about-cubes.md).
+>Marketing Analytics est nécessaire pour créer ou modifier des cubes. Voir à ce sujet la section [À propos des cubes](../../reporting/using/ac-cubes.md).
 
 ## Exploration des données dans un rapport {#exploring-the-data-in-a-report}
 
@@ -90,7 +92,7 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    ![](assets/s_advuser_cube_in_report_09.png)
 
-   Un paramétrage global des mesures est également proposé à partir de l&#39;icône **[!UICONTROL Editer la configuration du tableau pivot]** située dans l&#39;entête.
+   Un paramétrage global des mesures est également proposé à partir de l&#39;icône **[!UICONTROL Editer la configuration du tableau pivot]** située dans l&#39;en-tête.
 
    ![](assets/s_advuser_cube_in_report_config_02.png)
 

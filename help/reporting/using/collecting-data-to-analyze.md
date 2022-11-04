@@ -4,8 +4,8 @@ title: Collecte des données à analyser
 description: Collecte des données à analyser
 feature: Reporting
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Vous pouvez sélectionner un cube afin de définir la requête.
 
 ![](assets/reporting_query_from_cube.png)
 
-Les cubes permettent d&#39;étendre les capacités d&#39;exploration et d&#39;analyse des données de la base, tout en simplifiant le paramétrage des rapports et tables pour les utilisateurs finaux : il suffit de sélectionner un cube existant, entièrement paramétré, pour en exploiter les calculs, mesures et statistiques. Pour plus d&#39;informations sur la création de cubes, consultez [cette section](../../reporting/using/about-cubes.md).
+Les cubes permettent d&#39;étendre les capacités d&#39;exploration et d&#39;analyse des données de la base, tout en simplifiant le paramétrage des rapports et tables pour les utilisateurs finaux : il suffit de sélectionner un cube existant, entièrement paramétré, pour en exploiter les calculs, mesures et statistiques. Pour plus d&#39;informations sur la création de cubes, consultez [cette section](../../reporting/using/ac-cubes.md).
 
 Cliquez sur le lien **[!UICONTROL Editer la requête...]** et sélectionnez les indicateurs que vous souhaitez afficher ou exploiter dans votre rapport.
 

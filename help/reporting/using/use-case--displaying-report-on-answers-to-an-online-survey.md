@@ -4,8 +4,8 @@ title: '« Cas d’utilisation : affichage d’un rapport sur les réponses à
 description: '« Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne »'
 feature: Reporting, Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
 ## Etape 2 - Créer le cube, ses mesures et ses indicateurs {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-Vous pouvez ensuite créer le cube et paramétrer ses mesures : elles seront utilisées lors de la création des indicateurs. Ces indicateurs seront affichés dans le rapport. La création et le paramétrage des cubes sont présentés dans la section [À propos des cubes](../../reporting/using/about-cubes.md).
+Vous pouvez ensuite créer le cube et paramétrer ses mesures : elles seront utilisées lors de la création des indicateurs. Ces indicateurs seront affichés dans le rapport. La création et le paramétrage des cubes sont présentés dans la section [À propos des cubes](../../reporting/using/ac-cubes.md).
 
 Dans cet exemple, le cube est basé sur les données de la liste alimentée par le workflow créé à l&#39;étape précédente.
 

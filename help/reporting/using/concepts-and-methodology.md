@@ -3,9 +3,11 @@ product: campaign
 title: Bonnes pratiques relatives aux cubes
 description: Bonnes pratiques relatives aux cubes
 feature: Reporting
+hide: true
+hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 100%
 
@@ -127,8 +129,6 @@ Vous pouvez précalculer les données les plus volumineuses dans des agrégats.
 Les agrégats sont pertinents lorsque vous manipulez un gros volume de données. Ils sont mis à jour automatiquement selon les paramètres définis dans la boîte de workflow dédiée, afin d&#39;intégrer les dernières données collectées dans les indicateurs.
 
 Les agrégats sont définis au niveau du cube, dans l&#39;onglet correspondant.
-
-![](assets/s_advuser_cube_agregate_01.png)
 
 >[!NOTE]
 >

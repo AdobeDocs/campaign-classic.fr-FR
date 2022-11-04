@@ -3,8 +3,8 @@ product: campaign
 title: Gestion des rapports
 description: Gestion des rapports
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Les rapports se basant sur un schéma spécifique aux destinataires par défaut 
 
 Pour créer des rapports, voir [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
-Dans certains cas, vous devrez également mettre en place de nouveaux cubes spécifiques à ces tables. Les cubes sont présentés dans [cette section](../../reporting/using/about-cubes.md).
+Dans certains cas, vous devrez également mettre en place de nouveaux cubes spécifiques à ces tables. Les cubes sont présentés dans [cette section](../../reporting/using/ac-cubes.md).
 
 Les rapports concernés sont les suivants :
 

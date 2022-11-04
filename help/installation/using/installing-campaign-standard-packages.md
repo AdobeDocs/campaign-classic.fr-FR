@@ -3,8 +3,8 @@ product: campaign
 title: Installation des packages natifs de Campaign Classic
 description: Découvrez comment installer les packages natifs de Campaign
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 100%
 
@@ -145,7 +145,7 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Marketing Analytics<br /> </td> 
-   <td> Permet d'analyser et de mesurer les données, de calculer les statistiques, de simplifier et d'optimiser la création et le calcul de rapports. Vous pouvez également créer des rapports et des populations cibles. Facultatif. <a href="../../reporting/using/about-cubes.md">En savoir plus</a><br /> </td> 
+   <td> Permet d'analyser et de mesurer les données, de calculer les statistiques, de simplifier et d'optimiser la création et le calcul de rapports. Vous pouvez également créer des rapports et des populations cibles. Facultatif. <a href="../../reporting/using/ac-cubes.md">En savoir plus</a><br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

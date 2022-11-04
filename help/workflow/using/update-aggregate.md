@@ -4,9 +4,9 @@ title: Mise à jour d’agrégat
 description: En savoir plus sur l’activité de workflow de mise à jour d’agrégat
 feature: Workflows
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
+source-wordcount: '127'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,12 @@ ht-degree: 100%
 
 Les agrégats sont définis au niveau d&#39;un cube, à des fins de reporting. Un onglet **[!UICONTROL Workflow]** est disponible lors du paramétrage d&#39;un agrégat.
 
-Pour plus d&#39;informations concernant les cubes et l&#39;utilisation des agrégats dans Adobe Campaign, consultez la [section](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates) dédiée.
+Les agrégats sont pertinents lorsque vous manipulez un gros volume de données. Ils sont mis à jour automatiquement selon les paramètres définis dans la boîte de workflow dédiée, afin d&#39;intégrer les dernières données collectées dans les indicateurs.
+
+Les agrégats sont définis au niveau du cube, dans l&#39;onglet correspondant.
+
+![](assets/s_advuser_cube_agregate_01.png)
+
 
 L&#39;activité **[!UICONTROL Mise à jour d&#39;agrégat]** permet de choisir le mode de mise à jour à appliquer : complète ou partielle.
 

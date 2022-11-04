@@ -3,8 +3,8 @@ product: campaign
 title: Interaction
 description: Interaction
 feature: Workflows, Interaction
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 
@@ -34,12 +34,12 @@ Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign,
   <tr> 
    <td> <span class="uicontrol">Calcul de l'agrégat full (cube propositionrcp)</span> <br /> </td> 
    <td> <span class="uicontrol">agg_nmspropositionrcp_full</span> <br /> </td> 
-   <td> Ce workflow met à jour l'agrégat <strong>Complet (full)</strong> du cube <strong>Proposition d'offre</strong>. Par défaut, il se déclenche tous les jours à 6H00. Cet agrégat capture les dimensions suivantes : Canal, Diffusion, Offre marketing et Date.<br /> Le cube <strong>Proposition d'offre</strong> est ensuite utilisé pour générer des rapports basés sur les offres. Pour plus d'informations sur les cubes, consultez <a href="../../reporting/using/about-cubes.md">cette section</a>.<br /> </td> 
+   <td> Ce workflow met à jour l'agrégat <strong>Complet (full)</strong> du cube <strong>Proposition d'offre</strong>. Par défaut, il se déclenche tous les jours à 6H00. Cet agrégat capture les dimensions suivantes : Canal, Diffusion, Offre marketing et Date.<br /> Le cube <strong>Proposition d'offre</strong> est ensuite utilisé pour générer des rapports basés sur les offres. Pour plus d'informations sur les cubes, consultez <a href="../../reporting/using/ac-cubes.md">cette section</a>.<br /> </td> 
   </tr> 
    <tr> 
    <td> <span class="uicontrol">Calcul de l'agrégat full (cube propositionrcp) du MessageCenter</span> <br /> </td> 
    <td> <span class="uicontrol">agg_messageCenter_full</span> <br /> </td> 
-   <td> Ce workflow met à jour l’agrégat complet<strong>(Full)</strong> du cube <strong>Message Center</strong>. Il est déclenché tous les jours à 3h du matin par défaut. Cet agrégat capture les dimensions suivantes : Canal, Date, Statut et Type d'événement.<br /> Le cube <strong>Message center</strong> est ensuite utilisé pour générer des rapports basés sur des événements. Vous pouvez en savoir plus sur les cubes dans <a href="../../reporting/using/about-cubes.md">cette section</a>.<br /> </td> 
+   <td> Ce workflow met à jour l’agrégat complet<strong>(Full)</strong> du cube <strong>Message Center</strong>. Il est déclenché tous les jours à 3h du matin par défaut. Cet agrégat capture les dimensions suivantes : Canal, Date, Statut et Type d'événement.<br /> Le cube <strong>Message center</strong> est ensuite utilisé pour générer des rapports basés sur des événements. Vous pouvez en savoir plus sur les cubes dans <a href="../../reporting/using/ac-cubes.md">cette section</a>.<br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 

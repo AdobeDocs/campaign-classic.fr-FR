@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: b29340a0-954d-41e4-b0a3-9d356e4dc753
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Vous pouvez ainsi d&#39;étendre les capacités d&#39;exploration et d&#39;analy
 
 Une fois créés et paramétrés, les cubes sont utilisés dans les boîtes de requête des rapports et les applications Web. Ils peuvent être exploités et manipulés au sein de tableaux croisés dynamiques.
 
-Découvrez comment [explorer vos données](../../reporting/using/using-cubes-to-explore-data.md) avec des cubes.
+Découvrez comment [explorer vos données](../../reporting/using/ac-cubes.md) avec des cubes.
 
 ## Est-il possible de créer un rapport à partir des réponses à un questionnaire en ligne ? {#can-i-create-a-report-from-answers-to-an-online-survey-}
 

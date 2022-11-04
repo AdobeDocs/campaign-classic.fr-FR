@@ -4,8 +4,8 @@ title: Bonnes pratiques en matière de reporting
 description: Bonnes pratiques en matière de reporting Campaign
 feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 100%
 
@@ -29,13 +29,13 @@ Afin d&#39;optimiser la création, l&#39;utilisation et la pérennité d&#39;un 
 
    Vous pouvez par exemple :
 
-   * Explorer les données de la base et définir des mesures. En savoir plus dans [cette section](../../reporting/using/about-cubes.md)
+   * Explorer les données de la base et définir des mesures. En savoir plus dans [cette section](../../reporting/using/ac-cubes.md)
    * Ajouter des indicateurs à un rapport existant. En savoir plus dans [cette section](../../reporting/using/about-reports-creation-in-campaign.md)
    * Visualiser des données dans la base de données. En savoir plus dans [cette section](../../reporting/using/about-descriptive-analysis.md)
    * Créer un rapport de diffusion. En savoir plus dans [cette section](../../reporting/using/about-reports-creation-in-campaign.md)),
    * Exporter les données de la base Adobe Campaign (via un workflow, voir [cette section](../../workflow/using/about-workflows.md)
    * Créer un tableau croisé dynamique. En savoir plus dans [cette section](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
-   * Explorer les données agrégées. En savoir plus dans [cette section](../../reporting/using/about-cubes.md)
+   * Explorer les données agrégées. En savoir plus dans [cette section](../../reporting/using/ac-cubes.md)
    * Utiliser un assistant pour analyser les données. En savoir plus dans [cette section](../../reporting/using/about-descriptive-analysis.md)
    * Analyser de grands volumes de données. En savoir plus dans [cette section](../../reporting/using/about-reports-creation-in-campaign.md)
 

@@ -4,8 +4,8 @@ title: Création d’un tableau
 description: Création d’un tableau
 feature: Reporting
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '2643'
 ht-degree: 100%
 
@@ -464,4 +464,4 @@ Ce type de tableau vous permet d&#39;afficher des statistiques calculées sur le
 
 Les paramètres de création de ce type de rapport sont similaires à ceux utilisés pour l&#39;assistant d&#39;analyse descriptive. Voir à ce propos [cette page](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template).
 
-La création d&#39;un tableau croisé dynamique est présentée dans [cette section](../../reporting/using/using-cubes-to-explore-data.md).
+La création d&#39;un tableau croisé dynamique est présentée dans [cette section](../../reporting/using/ac-cubes.md).
