@@ -3,9 +3,9 @@ product: campaign
 title: Protection de la confidentialité des e-mails dans l’application Mail d’Apple
 description: Découvrez comment vos campagnes peuvent être affectées par la fonction de protection de la confidentialité dans Mail d’Apple.
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
+source-git-commit: 43d9eac2ed161465ca00ee4f511e4c020b4c44a2
 workflow-type: tm+mt
-source-wordcount: '2141'
+source-wordcount: '2109'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ En 2021, Apple a mis en place de nouvelles fonctionnalités de protection de la 
 
 ## Comment cela affecte-t-il mes campagnes ?
 
-Adobe Campaign permet d’utiliser les pixels de tracking pour suivre les ouvertures d’e-mail. Vous pouvez non seulement utiliser cette fonctionnalité pour le ciblage et les campagnes, mais également pour les mesures. Vous pouvez, par exemple, utiliser les taux d’ouverture d’e-mails pour mesurer l’efficacité d’une campagne ainsi que l’interaction client. En bref, il peut y avoir une incidence sur la segmentation, le ciblage et les mesures de vos campagnes. [En savoir plus](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=fr#in-addition-to-measuring-opens%2C-what-else-is-impacted%3F){target=&quot;_blank&quot;}.
+Adobe Campaign permet d’utiliser les pixels de tracking pour suivre les ouvertures d’e-mail. Vous pouvez non seulement utiliser cette fonctionnalité pour le ciblage et les campagnes, mais également pour les mesures. Vous pouvez, par exemple, utiliser les taux d’ouverture d’e-mails pour mesurer l’efficacité d’une campagne ainsi que l’interaction client. En bref, il peut y avoir une incidence sur la segmentation, le ciblage et les mesures de vos campagnes.
 
 ## Quelles actions dois-je entreprendre ?
 
@@ -450,7 +450,3 @@ Ces exemples illustrent comment utiliser des workflows pour ventiler des enregis
    Ce type de workflow est utile si vous stockez les destinataires dans une table distincte de la table des destinataires d’usine.
 
    ![](assets/export-tracking-data-wkf-2.png)
-
-## Liens utiles
-
-[FAQ sur la protection des données personnelles dans Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target=&quot;_blank&quot;}
