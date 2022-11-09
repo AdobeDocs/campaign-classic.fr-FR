@@ -5,9 +5,9 @@ description: Découvrez comment capturer les rendus d'email et y accéder dans u
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: 048189f49623cf00f4c3f1f34ff4b795d80391ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '860'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Avant d&#39;appuyer sur le bouton **Envoyer**, vérifiez que l&#39;affichage de 
 Pour permettre cette vérification, Adobe Campaign utilise la solution web de test d&#39;email [Litmus](https://litmus.com/email-testing) afin de capturer les rendus et les rendre disponibles dans un rapport dédié. Vous pouvez ainsi visualiser l&#39;affichage du message envoyé dans les différents contextes de réception et vérifier la compatibilité sur les principaux postes de travail et dans les applications majeures.
 
 >[!CAUTION]
->Le rendu de la boîte de réception n’est pas compatible avec [diffusions récurrentes](communication-channels.md#recurring-delivery).
+>L’Inbox rendering n’est pas compatible avec les [diffusions récurrentes](communication-channels.md#recurring-delivery).
 
 Litmus est une application de validation et de prévisualisation d&#39;emails offrant de nombreuses fonctionnalités. Elle permet aux créateurs de contenus d&#39;email de prévisualiser le contenu d&#39;un message dans plus de 70 outils de rendu d&#39;email, tels que la boîte de réception Gmail ou le client Apple Mail.
 
