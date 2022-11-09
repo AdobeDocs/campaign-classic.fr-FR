@@ -4,7 +4,7 @@ title: "Cas pratique\_: affichage d'un rapport sur les réponses à un questionn
 description: "Cas pratique\_: affichage d'un rapport sur les réponses à un questionnaire en ligne"
 feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne{#use-case-displaying-report-on-answers-to-an-online-survey}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Les réponses à des questionnaires Adobe Campaign peuvent être collectées et analysées dans des rapports dédiés.
 
