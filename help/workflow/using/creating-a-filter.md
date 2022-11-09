@@ -2,11 +2,11 @@
 product: campaign
 title: Créer un filtre
 description: Découvrez comment créer un filtre lors de lʼexécution de requêtes
-feature: Workflows
+feature: Query Editor, Workflows
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 6232e0df09165bc07c8e521df271874abd5698a9
+workflow-type: tm+mt
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
