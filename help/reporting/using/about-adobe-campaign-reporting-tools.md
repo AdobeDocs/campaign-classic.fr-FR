@@ -5,7 +5,7 @@ description: Analysez la réussite de vos campagnes dans des rapports natifs ou 
 feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
 source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
