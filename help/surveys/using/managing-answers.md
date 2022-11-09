@@ -5,7 +5,7 @@ description: Découvrez comment gérer les réponses aux questionnaires
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
 ht-degree: 100%
 
