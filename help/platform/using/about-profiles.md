@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Prise en main des profils
-description: Utilisation de profils dans Adobe Campaign
+description: Utiliser des profils dans Adobe Campaign
 feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
