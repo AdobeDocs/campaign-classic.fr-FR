@@ -4,7 +4,7 @@ title: Installation des packages natifs de Campaign Classic
 description: Découvrez comment installer les packages natifs de Campaign
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1289'
 ht-degree: 100%
 
