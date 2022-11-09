@@ -5,7 +5,7 @@ description: Créer votre premier questionnaire avec Campaign
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
 source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '963'
 ht-degree: 100%
 
