@@ -5,7 +5,7 @@ description: Création d’un tableau
 feature: Reporting
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2643'
 ht-degree: 100%
 
