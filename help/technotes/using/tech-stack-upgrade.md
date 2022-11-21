@@ -4,14 +4,14 @@ title: Note technique - Mises à niveau du système Adobe Campaign
 description: Mise à niveau du système Adobe Campaign
 hide: true
 hidefromtoc: true
-source-git-commit: 6fc11ea75863abe86e81c4978843e8487cbd83a0
+source-git-commit: b877625c568cc9b1119a76812e92dffdab1f4bb1
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 11%
 
 ---
 
-# Mise à niveau du système Adobe Campaign 2023 {#ac-system-upgrade}
+# Mises à niveau de l’environnement Adobe Campaign 2023 {#ac-system-upgrade}
 
 L’infrastructure de Campaign repose sur des systèmes tiers qui doivent être régulièrement mis à jour avec les dernières versions et correctifs. Ces mises à jour sont obligatoires pour assurer la continuité du service et sécuriser les environnements Campaign contre les risques de sécurité. En outre, un upgrade de Campaign est nécessaire pour garantir la compatibilité avec les modifications système tierces.
 
