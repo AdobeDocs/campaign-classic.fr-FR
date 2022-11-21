@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: ca2f50a501c63cc8b2d4de5d9a41b655a6b6d6cf
+source-git-commit: 95c4a83037bcd2e22a03ac80d1ec4a7896a94ce3
 workflow-type: tm+mt
-source-wordcount: '2715'
+source-wordcount: '2711'
 ht-degree: 75%
 
 ---
@@ -43,8 +43,8 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](depreca
 
 **Autres modifications**
 
-* Les journaux Web ont été améliorés : Les avertissements logonEscalation s’affichent désormais uniquement pour les utilisateurs disposant de droits d’administrateur. (NEO-47167)
-* Pour éviter les erreurs, la variable **Collecte de données pour le workflow du service Carte thermique** (collectDataHeatMapService) est désormais arrêté par défaut. (NEO-33959)
+* Les journaux Web ont été améliorés : `logonEscalation` les avertissements s’affichent désormais uniquement pour les utilisateurs disposant de droits d’administrateur. (NEO-47167)
+* Pour éviter les erreurs, la variable **Collecte de données pour le service Carte thermique** Le workflow (collectDataHeatMapService) est désormais arrêté par défaut. (NEO-33959)
 * Diverses améliorations ont été apportées afin d&#39;optimiser l&#39;utilisation du processeur pour le tableau de bord des campagnes. (NEO-46417)
 * Pour éviter les blocages, la méthode JS loadLibraryDebug a été supprimée. (NEO-46968)
 * Les autres références à la bibliothèque log4j ont été supprimées de l’installation de Campaign sous Windows. (NEO-44851)
@@ -56,11 +56,11 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](depreca
 * Correction d’un problème lors de la réinitialisation de la validation du contenu dans une diffusion email, qui empêchait la révalidation. (NEO-44259)
 * Correction d’un problème qui empêchait le **Validation de la diffusion** à partir de l’affichage. (NEO-47547)
 * Correction d’un problème de performances dans l’onglet HTML d’une diffusion qui pouvait se produire pour un code de HTML volumineux. (NEO-47440)
-* Correction d’un problème qui affectait les mises à jour de l’état du log de diffusion sur l’instance MID, lorsque l’option FeatureFlag_GZIP_Compression était activée. (NEO-49183)
+* Correction d’un problème qui affectait les mises à jour de l’état du journal de diffusion sur l’instance MID, lorsque la variable `FeatureFlag_GZIP_Compression` a été activée. (NEO-49183)
 * Correction d’un problème qui empêchait l’envoi de notifications d’application mobile iOS à partir d’une instance d’exécution lors de l’utilisation de l’authentification par jeton. (NEO-45961)
 * Correction d’un problème lié à la fonction **Mise à jour pour la délivrabilité** workflow (deliverabilityUpdate) qui se bloquait lorsque les broadlogs étaient trop nombreux pour être synchronisés. (NEO-48287)
-* Correction d’un problème de type Événements qui bloquait le workflow de synchronisation de Message Center (mcSynch).
-* Correction d’un problème qui entraînait une erreur lors de l’ajout de la variable **Destinataires ayant ouvert** Indicateur (estimatedRecipientOpen) dans les données additionnelles d’un **Requête** activité de workflow. (NEO-46665)
+* Correction d’un problème de type d’événement qui bloquait la variable **Synchronisation de Message Center** workflow (mcSynch).
+* Correction d’un problème qui entraînait une erreur lors de l’ajout de la variable **Destinataires ayant ouvert**  Indicateur (estimatedRecipientOpen) dans les données additionnelles d’un **Requête** activité de workflow. (NEO-46665)
 * Correction d’un problème lié à la fonction **Facturation** workflow en échec lorsque les packages de contrôle et d&#39;exécution de Message Center sont installés sur la même instance. (NEO-47674)
 * Correction d’un problème lié à la fonction **Facturation** workflow qui a échoué lorsque des tables avec la clé Principale étaient définies sous la forme d’une chaîne au lieu d’un entier. (NEO-46254)
 * Correction d’un problème lié aux filtres de carte thermique lorsque le nom du workflow était trop long. (NEO-46301)
