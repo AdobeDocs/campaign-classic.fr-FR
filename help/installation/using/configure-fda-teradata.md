@@ -6,8 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
-workflow-type: ht
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
+workflow-type: tm+mt
 source-wordcount: '1824'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Vous devez installer des pilotes pour que Teradata puisse établir une connexion
       teradata=Installed
       
       [teradata]
-      Driver=/opt/teradata/client/15.10/lib64/tdata.so
+      Driver=/opt/teradata/client/17.10/lib64/tdataodbc_sb64.so
       APILevel=CORE
       ConnectFunctions=YYY
       DriverODBCVer=3.51

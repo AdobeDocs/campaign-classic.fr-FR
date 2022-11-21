@@ -4,10 +4,10 @@ title: Envoyer des e-mails avec le MTA amélioré dans Adobe Campaign Classic
 description: Découvrez la portée et les spécificités de lʼenvoi dʼe-mails avec le MTA amélioré dʼAdobe Campaign
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
-source-wordcount: '2016'
-ht-degree: 100%
+source-git-commit: 2d5166c355ee090639dcc52866252bae6beb81f6
+workflow-type: tm+mt
+source-wordcount: '2069'
+ht-degree: 93%
 
 ---
 
@@ -37,9 +37,9 @@ L’implémentation du MTA amélioré peut avoir un impact sur certaines fonctio
 
 **Qu’est-ce que le MTA amélioré ?**
 
-Adobe Campaign peut maintenant être mis à niveau en vue d’utiliser un nouveau MTA (Mail Transfer Agent) qui exécute le MTA d&#39;email commercial de SparkPost appelé **Momentum**.
+Adobe Campaign peut désormais être mis à niveau pour utiliser un nouveau MTA (Mail Transfer Agent) qui exécute le MTA de l’email commercial de SparkPost appelé **Moment**.
 
-Momentum offre une technologie MTA innovante et extrêmement performante. Elle comprend une gestion des retours plus intelligente et une fonctionnalité d&#39;optimisation de la délivrabilité automatisée qui aide les expéditeurs à atteindre et à maintenir des taux de remise optimaux aux boîtes de réception.<!--More than 37% of the world’s business email is sent using SparkPost’s MTA technology.-->
+Momentum offre une technologie MTA innovante et extrêmement performante. Elle comprend une gestion des retours plus intelligente et une fonctionnalité d&#39;optimisation de la délivrabilité automatisée qui aide les expéditeurs à atteindre et à maintenir des taux de remise optimaux aux boîtes de réception.<!--More than 37% of the world's business email is sent using SparkPost's MTA technology.-->
 
 **Quels sont les avantages ?**
 
@@ -59,7 +59,7 @@ No, there is no extra fee associated with the upgrade process to enable the use 
 
 * If you are new to Adobe Campaign Classic, you are already using the Enhanced MTA.
 
-* For Adobe Campaign Classic existing customers, we’ve implemented a phased rollout that covers all hosted or partially hosted (hybrid) instances. If you’re not already using it, we’ll be contacting you in the near future with the dates and details for upgrading your Adobe Campaign Classic instances to the Enhanced MTA.
+* For Adobe Campaign Classic existing customers, we've implemented a phased rollout that covers all hosted or partially hosted (hybrid) instances. If you're not already using it, we'll be contacting you in the near future with the dates and details for upgrading your Adobe Campaign Classic instances to the Enhanced MTA.
 -->
 
 ### Mise à niveau vers le MTA amélioré
@@ -117,7 +117,7 @@ Pour en savoir plus sur les typologies, consultez [cette section](../../campaign
 
 ### Nouvelles règles MX
 
-Les règles de débit de diffusion de gestion des MX ne sont plus utilisées. Le MTA amélioré dispose de ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
+Les règles de débit de diffusion de gestion des MX ne sont plus utilisées. Le MTA amélioré possède ses propres règles MX qui lui permettent de personnaliser votre débit par domaine en fonction de votre réputation de courriel historique et des commentaires en temps réel provenant des domaines où vous envoyez des emails.
 
 Pour en savoir plus à propos de la configuration des MX, voir [cette section](../../installation/using/email-deliverability.md#mx-configuration).
 
@@ -140,6 +140,12 @@ Pour plus d’informations sur le débit de diffusion, consultez [cette section]
 >[!NOTE]
 >
 >Avec la fonctionnalité de [Service de retour par e-mail](#email-feedback-service) (EFS) (actuellement disponible en version bêta), le graphique de débit des diffusions Campaign affiche toujours le débit à vos destinataires de messagerie.
+
+### Reprises
+
+Les paramètres de reprise dans la diffusion ne sont plus utilisés par Campaign. Les reprises des soft bounces et la durée entre elles sont déterminées par le MTA amélioré en fonction du type et de la gravité des réponses des bounces revenant du domaine d&#39;email du message.
+
+Pour plus d’informations sur les reprises, voir [cette section](steps-sending-the-delivery.md#configuring-retries).
 
 ### Période de validité
 
@@ -183,7 +189,7 @@ Grâce à la fonctionnalité Service de retour d&#39;e-mail (EFS - Email Feedbac
 >
 >Le service de retour d&#39;e-mail est actuellement disponible en version bêta.
 >
->Si vous souhaitez participer à ce programme en version bêta, remplissez [ce formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous recontacterons.
+>Si vous souhaitez participer à ce programme bêta, remplissez la [ce formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous reviendrons.
 
 Une fois la diffusion lancée, le pourcentage **[!UICONTROL Succès]** n&#39;est plus modifié lorsque le message est relayé avec succès de Campaign vers le MTA amélioré.
 

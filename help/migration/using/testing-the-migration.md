@@ -6,10 +6,10 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 59a2bc62b4c03ef0702cb57bd9dc808e7d0b444b
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '706'
+ht-degree: 97%
 
 ---
 
@@ -124,7 +124,7 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
    <td> Avertissement<br /> </td> 
-   <td> Ce type de syntaxe n’est plus pris en charge dans la personnalisation de la diffusion. Pour plus d'informations, consultez la section <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. Sinon, vérifiez que le type de valeur est correct.<br /> </td> 
+   <td> Ce type de syntaxe n’est plus pris en charge dans la personnalisation de la diffusion. <br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 
@@ -136,7 +136,7 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> logon(<br /> </td> 
    <td> PU-0003<br /> </td> 
    <td> Avertissement<br /> </td> 
-   <td> Cette méthode de connexion ne doit plus être utilisée. Pour plus d'informations, consultez la section <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">Applications web identifiées</a>.<br /> </td> 
+   <td> Cette méthode de connexion ne doit plus être utilisée.<br /> </td> 
   </tr> 
   <tr> 
    <td> new SoapMethodCall(<br /> </td> 
@@ -148,14 +148,8 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> sql=<br /> </td> 
    <td> PU-0005<br /> </td> 
    <td> Erreur<br /> </td> 
-   <td> Ce type d’erreur entraîne un échec de la migration. Pour plus d'informations, consultez la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
+   <td> Ce type d’erreur entraîne un échec de migration.<br /> </td> 
   </tr> 
-  <tr> 
-   <td> SQLDATA<br /> </td> 
-   <td> PU-0006<br /> </td> 
-   <td> Erreur<br /> </td> 
-   <td> Ce type d’erreur entraîne un échec de la migration. Pour plus d'informations, consultez la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si vous obtenez des journaux d’erreurs d’application Web de type vues d’ensemble (migration depuis la version v6.02), consultez la section <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11" target="_blank">Configuration de Campaign</a>.<br /> </td> 
-  </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 
