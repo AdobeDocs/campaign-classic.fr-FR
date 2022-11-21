@@ -4,16 +4,16 @@ title: Note technique - Mises à niveau du système Adobe Campaign
 description: Mise à niveau du système Adobe Campaign
 hide: true
 hidefromtoc: true
-source-git-commit: b119d52b94d95086261fcdc1744698a78296df9c
+source-git-commit: 6fc11ea75863abe86e81c4978843e8487cbd83a0
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 12%
+source-wordcount: '502'
+ht-degree: 11%
 
 ---
 
 # Mise à niveau du système Adobe Campaign 2023 {#ac-system-upgrade}
 
-L’infrastructure de Campaign repose sur des systèmes tiers qui doivent être régulièrement mis à jour avec les versions et correctifs système. Ces mises à jour sont obligatoires pour assurer la continuité du service et sécuriser les environnements Campaign contre les risques de sécurité. En outre, des mises à niveau sont requises pour s’aligner sur les modifications du système tiers.
+L’infrastructure de Campaign repose sur des systèmes tiers qui doivent être régulièrement mis à jour avec les dernières versions et correctifs. Ces mises à jour sont obligatoires pour assurer la continuité du service et sécuriser les environnements Campaign contre les risques de sécurité. En outre, un upgrade de Campaign est nécessaire pour garantir la compatibilité avec les modifications système tierces.
 
 Comme **Client hébergé ou Cloud Services géré**, Adobe vous informe sur ces mises à niveau lorsqu’elles sont nécessaires. Vous devrez mettre à niveau vos environnements conformément aux recommandations pour garantir la conformité.
 
@@ -23,7 +23,7 @@ Pour des raisons de sécurité, vous devez [installer le dernier build de Campai
 
 >[!NOTE]
 >
->Pour toute question sur ces modifications, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Pour toute question sur ces modifications, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Voir aussi [FAQ sur l&#39;upgrade de build](../../platform/using/faq-build-upgrade.md).
 
 ## Upgrade de build Campaign {#ac-upgrade}
 
@@ -60,12 +60,12 @@ Si votre système de base de données pour Campaign est PostgreSQL, pour bénéf
 
 * En tant que client hébergé ou Cloud Services géré, Adobe vous contactera et mettra à niveau votre système de base de données de PostgreSQL 11 vers PostgreSQL 14.
 * En tant que client hybride, si votre système de base de données marketing est PostgreSQL, vous devez le mettre à niveau vers PostgreSQL 14.
-* En tant que client on-premise, vous êtes invité à mettre à niveau votre système de base de données vers PostgreSQL 14. ../integrations/using/configuring-adobe-io.md).
+* En tant que client on-premise, vous êtes invité à mettre à niveau votre système de base de données vers PostgreSQL 14.
 
 
 ## Liens utiles
 
 * [Mise à niveau de votre environnement](../../production/using/build-upgrade.md)
 * [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md)
-* [Télécharger le build Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Téléchargez la dernière version du Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Mise à disposition de la nouvelle console cliente auprès des utilisateurs](../../installation/using/client-console-availability-for-windows.md)
