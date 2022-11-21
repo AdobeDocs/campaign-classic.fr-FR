@@ -3,9 +3,11 @@ product: campaign
 title: Synchronisation des audiences
 description: Découvrez comment synchroniser les audiences à lʼaide du connecteur ACS
 feature: ACS Connector
+hide: true
+hidefromtoc: true
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: ht
+source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
+workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 100%
 

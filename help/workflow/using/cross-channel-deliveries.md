@@ -4,9 +4,9 @@ title: Diffusions cross-canal
 description: En savoir plus sur les diffusions cross-canal
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '296'
+source-git-commit: 31a475c98b09bbeca6a16c6fd98698af10016033
+workflow-type: tm+mt
+source-wordcount: '292'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Les différents canaux disponibles sont :
 * [E-mail](../../delivery/using/about-email-channel.md)
 * [Courrier](../../delivery/using/about-direct-mail-channel.md)
 * [Mobile](../../delivery/using/sms-channel.md)
-* [Twitter](../../social/using/publishing-on-twitter.md) (Campaign Classic v7 uniquement)
+* [Twitter](../../social/using/about-social-marketing.md)
 * [iOS](../../delivery/using/create-notifications-ios.md)
 * [Android](../../delivery/using/create-notifications-android.md)
 

@@ -3,8 +3,10 @@ product: campaign
 title: Prise en main du connecteur ACS
 description: Principes et cycle des données du connecteur ACS
 feature: ACS Connector
+hide: true
+hidefromtoc: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 100%

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: f94d7e2cddd75d50cb21973a62ec223f2344edf1
+source-git-commit: ca2f50a501c63cc8b2d4de5d9a41b655a6b6d6cf
 workflow-type: tm+mt
-source-wordcount: '2656'
-ht-degree: 77%
+source-wordcount: '2715'
+ht-degree: 75%
 
 ---
 
@@ -27,22 +27,19 @@ _21 novembre 2022_
 
 * Après la fin de vie de Microsoft Internet Explorer 11, le moteur de rendu de HTML pour les tableaux de bord dans la console cliente utilise désormais Edge Chromium. (NEO-20741)
 
-<!--
-**Deprecated features**
-
-* Social Marketing with Facebook is now deprecated. You can still use Twitter integration to post on social media, or work with Adobe to create a custom channel.
-
-* ACS Connector (prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.
-
-Learn more in the [Deprecated and removed features page](deprecated-features.md).
-
--->
-
 **Améliorations**
 
 * Le connecteur Google BigQuery prend désormais entièrement en charge les champs booléens. (NEO-49181)
 * Vous pouvez maintenant configurer la durée de validité des cookies IMS dans la variable `Configuration for the redirection service` du fichier serverConf.xml. Cela s’applique aux cookies suivants : `uuid230`, `nllastdelid` et `AMCV_` (NEO-42541)
 * L’adresse IP peut maintenant être masquée dans la requête &quot;/r/test&quot; en définissant `showSourceIP` sur false dans le noeud redirection du fichier serverConf.xml. [En savoir plus](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
+
+**Fonctionnalités obsolètes**
+
+* Social Marketing avec Facebook est désormais obsolète. Vous pouvez utiliser l’intégration de Twitter pour publier sur les médias sociaux ou utiliser Adobe pour créer un canal personnalisé.
+
+* ACS Connector (offre Prime) est désormais obsolète. Vous pouvez utiliser les fonctionnalités d&#39;export/import de Campaign pour extraire et injecter des données dans les deux produits.
+
+En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](deprecated-features.md).
 
 **Autres modifications**
 

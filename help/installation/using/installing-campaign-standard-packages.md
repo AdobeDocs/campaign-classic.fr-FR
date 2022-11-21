@@ -3,10 +3,10 @@ product: campaign
 title: Installation des packages natifs de Campaign Classic
 description: Découvrez comment installer les packages natifs de Campaign
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
-workflow-type: ht
-source-wordcount: '1289'
-ht-degree: 100%
+source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
+workflow-type: tm+mt
+source-wordcount: '1288'
+ht-degree: 99%
 
 ---
 
@@ -229,8 +229,8 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
    <td> Tous </td> 
   </tr> 
   <tr> 
-   <td> ACS Connector<br /> </td> 
-   <td> Relie Adobe Campaign v7 et Adobe Campaign Standard. Il s'agit d'une fonctionnalité intégrée de Campaign v7 qui reproduit automatiquement les données vers Campaign Standard, associant le meilleur des deux applications. Facultatif. <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">En savoir plus</a> <br /> </td> 
+   <td> ACS Connector (obsolète)<br /> </td> 
+   <td> Relie Adobe Campaign v7 et Adobe Campaign Standard. Il s'agit d'une fonctionnalité intégrée de Campaign v7 qui reproduit automatiquement les données vers Campaign Standard, associant le meilleur des deux applications. Facultatif.<br /> </td> 
    <td> Marketing </td> 
   </tr> 
  </tbody> 

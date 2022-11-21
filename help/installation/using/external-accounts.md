@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
-workflow-type: ht
-source-wordcount: '2026'
+source-git-commit: 31a475c98b09bbeca6a16c6fd98698af10016033
+workflow-type: tm+mt
+source-wordcount: '1904'
 ht-degree: 100%
 
 ---
@@ -117,7 +117,7 @@ Les canaux suivants peuvent être configurés :
 * [Phone](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Canal Courrier](../../delivery/using/about-direct-mail-channel.md)
 * [Agence](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
-* [Twitter](../../social/using/configuring-publishing-on-twitter.md)
+* [Twitter](../../social/using/about-social-marketing.md)
 * [Canal iOS](../../delivery/using/configuring-the-mobile-application.md)
 * [Canal Android](../../delivery/using/configuring-the-mobile-application-android.md)
 
@@ -225,29 +225,6 @@ Les paramètres de configuration du compte externe dépendent du moteur de base 
 * Configuration de l&#39;accès à [Sybase IQ](../../installation/using/configure-fda-sybase.md)
 * Configuration de l&#39;accès à [Teradata](../../installation/using/configure-fda-teradata.md)
 
-### Facebook Connect {#facebook-connect-external-account}
-
-Le compte externe **[!UICONTROL Facebook Connect]** vous permet d&#39;afficher du contenu personnalisé dans vos applications Facebook, ce qui facilite l&#39;acquisition de prospects par l&#39;intermédiaire de ce réseau social.
-
-Pour chaque application Facebook, vous devez créer un compte externe de type **[!UICONTROL Facebook Connect]**. Voir à ce sujet [cette page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
-
-![](assets/ext_account_12.png)
-
-* **[!UICONTROL Mode d&#39;hébergement]**
-
-   Mode d&#39;hébergement de l&#39;application entre **[!UICONTROL hébergée chez un partenaire]** et **[!UICONTROL hébergée sur cette instance]**.
-
-* **[!UICONTROL ID de l&#39;application]**
-
-   ID de l&#39;application de votre application Facebook.
-
-* **[!UICONTROL Clé secrète]**
-
-   Secret de l&#39;application de votre application Facebook..
-
-Si vous choisissez le mode Hébergée sur cette instance, vous devez coller l&#39;URL du canevas sécurisée dans le champ **Jeux Web Facebook (https)** sur Facebook.
-
-Pour savoir où trouver ces informations de connexion, consultez [cette page](https://developers.facebook.com/docs/facebook-login/access-tokens).
 
 ## Comptes externes d’intégration de solutions Adobe
 

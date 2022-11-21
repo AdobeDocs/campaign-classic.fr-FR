@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 7f41e3209450421262acf8a753bddd3eae1fe35f
+source-git-commit: 5792ad762befb97888ad32406d3bcb7f97df3fa7
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '5017'
 ht-degree: 98%
 
 ---
@@ -57,7 +57,7 @@ La page Prise en main des mises à niveau a été mise à jour afin de clarifier
 
 La nouvelle build Campaign v7.2.2 est désormais disponible. [En savoir plus](../../rn/using/latest-release.md)
 
-Ajout d&#39;informations de dépannage relatives au connecteur ACS. [En savoir plus](../../integrations/using/troubleshooting-the-acs-connector.md)
+<!--Added troubleshooting information related to the ACS connector. [Read more](../../integrations/using/troubleshooting-the-acs-connector.md)-->
 
 Les versions de PostgreSQL héritées ayant atteint leur fin de vie ont été ajoutées à la page [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md#dbe-eol).
 
