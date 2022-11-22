@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 6eaf7490f1be913986af2924017d014d2ba54559
 workflow-type: tm+mt
 source-wordcount: '2154'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Offres sur canal entrant{#offers-on-an-inbound-channel}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## Présenter une offre à un visiteur anonyme {#presenting-an-offer-to-an-anonymous-visitor}
 
