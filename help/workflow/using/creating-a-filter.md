@@ -5,7 +5,7 @@ description: Découvrez comment créer un filtre lors de lʼexécution de requê
 feature: Query Editor, Workflows
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
 source-git-commit: 6232e0df09165bc07c8e521df271874abd5698a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
 ht-degree: 100%
 
