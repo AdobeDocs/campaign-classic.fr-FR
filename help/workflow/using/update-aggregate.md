@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Mise à jour d’agrégat
+title: Mettre à jour l’agrégat
 description: En savoir plus sur l’activité de workflow de mise à jour d’agrégat
 feature: Workflows
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 ---
 
-# Mise à jour d&#39;agrégat{#update-aggregate}
+# Mettre à jour l’agrégat{#update-aggregate}
 
 ![](../../assets/v7-only.svg)
 
