@@ -118,11 +118,11 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    Une fois créée, vous pouvez éditer et, au besoin, modifier, la configuration de la mesure. Pour cela, cliquez sur le bouton **[!UICONTROL Mesures]**, puis sur l&#39;onglet de la mesure à éditer.
 
-   Cliquez ensuite sur le bouton **[!UICONTROL Editer la mesure dynamique]** pour accéder aux paramétrages.
+   Cliquez ensuite sur le bouton **[!UICONTROL Modifier la mesure dynamique]** pour accéder au menu des paramètres.
 
 ## Construction dʼune population cible {#building-a-target-population}
 
-Les rapports construits à partir des cubes permettent de collecter des données de la base et les sauvegarder dans une liste.
+Les rapports construits à partir des cubes permettent de collecter des données dans le tableau et de les sauvegarder dans une liste.
 
 Pour cela, vous pouvez les ajouter à un panier, dont le contenu sera exporté.
 
