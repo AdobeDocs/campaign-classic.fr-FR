@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Confidentialité
-description: En savoir plus sur les bonnes pratiques à suivre en matière de confidentialité
+title: Personnalisation et confidentialité
+description: Découvrez les bonnes pratiques de sécurité en matière de confidentialité et de personnalisation
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 0e57ffba9b8c7fd05843c3353d2c0d64cbc83b8b
+source-git-commit: f97199e634205742b74a08932a40db2fca138cc3
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 60%
+ht-degree: 59%
 
 ---
 
