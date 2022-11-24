@@ -5,7 +5,7 @@ description: Mise à niveau du système Adobe Campaign
 hide: true
 hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: 1b7b216c22d48159a1590603de220714c1d7cf32
+source-git-commit: b8bbdb4a0d595ec2bc884e041d1e56b81da8aa3d
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 11%
@@ -30,7 +30,7 @@ Pour des raisons de sécurité, vous devez [installer le dernier build de Campai
 
 **Cela vous concerne-t-il ?**
 
-Si vous êtes affecté par la variable [mise à niveau du système d’exploitation](#os-upgrade) et/ou [mise à niveau du système de base de données](#pg-upgrade) présenté ci-dessous, vous devez mettre à niveau vos environnements Campaign vers [la dernière version de 7.3.2](../../rn/using/latest-release.m#release-7-3-2), qui est compatible avec ces systèmes.
+Si vous êtes affecté par la variable [mise à niveau du système d’exploitation](#os-upgrade) et/ou [mise à niveau du système de base de données](#pg-upgrade) présenté ci-dessous, vous devez mettre à niveau vos environnements Campaign vers [la dernière version de 7.3.2](../../rn/using/latest-release.md#release-7-3-2), qui est compatible avec ces systèmes.
 
 **Comment effectuer la mise à jour ?**
 
