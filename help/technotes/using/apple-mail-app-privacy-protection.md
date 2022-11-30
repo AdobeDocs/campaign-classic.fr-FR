@@ -4,7 +4,7 @@ title: Protection de la confidentialité des e-mails dans l’application Mail d
 description: Découvrez comment vos campagnes peuvent être affectées par la fonction de protection de la confidentialité dans Mail d’Apple.
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 source-git-commit: 83fe7eb4f857306ac1c8bb3a93a9393b76ae1e3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2097'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Qu’est-ce qui a changé ?
 
-En 2021, Apple a mis en place de nouvelles fonctionnalités de protection de la confidentialité pour son application de messagerie native. Cette application comprend désormais la fonctionnalité Protection de la confidentialité dans Mail d’Apple. En substance, les expéditeurs ne peuvent plus utiliser les pixels de tracking pour collecter des informations sur les destinataires qui ont choisi d’activer la fonctionnalité de protection de la confidentialité dans Mail d’Apple.
+En 2021, Apple a mis en place de nouvelles fonctionnalités de protection de la confidentialité pour son application de messagerie native. Cette application comprend désormais la fonctionnalité Protection de la confidentialité dans Mail d’Apple. En substance, les expéditeurs et les expéditrices ne peuvent plus utiliser les pixels de tracking pour collecter des informations sur les destinataires qui ont choisi d’activer la fonctionnalité de protection de la confidentialité dans Mail d’Apple.
 
 ## Comment cela affecte-t-il mes campagnes ?
 
