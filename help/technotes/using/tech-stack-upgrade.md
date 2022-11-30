@@ -5,7 +5,7 @@ description: Mise à niveau du système Adobe Campaign
 hide: true
 hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: b8bbdb4a0d595ec2bc884e041d1e56b81da8aa3d
+source-git-commit: 7948f6423b80788adf26a53afcd380953c8b8463
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 11%
@@ -55,7 +55,7 @@ Si vous exécutez Campaign sur un système d&#39;exploitation Debian, vous devez
 
 **Cela vous concerne-t-il ?**
 
-Si votre système de base de données pour Campaign est PostgreSQL, pour bénéficier des dernières innovations PostgreSQL et des mises à jour de sécurité, vous devez effectuer la mise à niveau vers **PostgreSQL 14**. Notez que PostreSQL 11 atteindra la fin de vie le 30 novembre 2022.
+Si votre système de base de données pour Campaign est PostgreSQL, pour bénéficier des dernières innovations PostgreSQL et des mises à jour de sécurité, vous devez effectuer la mise à niveau vers **PostgreSQL 14**. Notez que PostreSQL 11 atteindra la fin de vie le 9 novembre 2023.
 
 **Comment effectuer la mise à jour ?**
 
