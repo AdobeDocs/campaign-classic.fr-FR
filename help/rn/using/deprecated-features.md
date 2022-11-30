@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 0ecf9c69cc4b444feda1e42701a3a27f2b2e7eeb
 workflow-type: tm+mt
 source-wordcount: '1684'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,14 +45,14 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   </tr>
 <tr>
  <td>Marketing pour réseaux sociaux    avec Facebook</td>
- <td>Social Marketing avec Facebook est désormais obsolète. Vous pouvez utiliser l’intégration de Twitter pour publier sur les médias sociaux ou utiliser Adobe pour créer un canal personnalisé.
+ <td>Le marketing des médias sociaux avec Facebook est désormais obsolète. Vous pouvez utiliser l’intégration de Twitter pour publier sur les médias sociaux ou utiliser Adobe pour créer un canal personnalisé.
  <p></p>
   <p>Date de suppression prévue : fin 2023</p>
   </td>
 </tr>
 <tr>
- <td>ACS Connector</td>
- <td>ACS Connector (offre Prime) est désormais obsolète. Vous pouvez utiliser les fonctionnalités d'export/import de Campaign pour extraire et injecter des données dans les deux produits.<p></p>
+ <td>Connecteur ACS</td>
+ <td>Le connecteur ACS (offre Prime) est désormais obsolète. Vous pouvez utiliser les fonctionnalités d’exportation/importation de Campaign pour extraire et injecter des données dans les deux produits.<p></p>
   <p>Date de suppression prévue : fin 2023</p>
   </td>
 </tr>

@@ -9,7 +9,7 @@ exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Arrêtez d&#39;abord tous les processus accédant à la base de données, sur to
 
 ## Sauvegarde de votre base de données Campaign {#back-up-the-database}
 
-Voici la procédure de sauvegarde d’Adobe Campaign v6.1.
+La procédure de sauvegarde d’Adobe Campaign 6.1 est décrite ci-après.
 
 <!--
 
@@ -350,11 +350,11 @@ Sur chacun des serveurs suivants, démarrez IIS puis les services Adobe Campaig
 1. Serveur de mid-sourcing.
 1. Serveur marketing.
 
-Avant de passer à l&#39;étape suivante, testez complètement la nouvelle installation, assurez-vous qu&#39;il n&#39;y a pas de régression et que tout fonctionne.
+Avant de passer à l’étape suivante, testez complètement la nouvelle installation, vérifiez qu’aucune régression n’a lieu et assurez-vous que tout fonctionne.
 
-## Suppression de la version précédente {#deleting-and-cleansing-adobe-campaign-previous-version}
+## Supprimer la version précédente {#deleting-and-cleansing-adobe-campaign-previous-version}
 
-Voici la procédure de suppression d’Adobe Campaign v6.1.
+La procédure de suppression d’Adobe Campaign 6.1 est décrite ci-après.
 
 <!--
 

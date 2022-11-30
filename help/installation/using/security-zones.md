@@ -9,7 +9,7 @@ exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
 source-wordcount: '1495'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -236,13 +236,13 @@ Une fois les zones définies et l&#39;énumération **[!UICONTROL Zone de sécur
 
 * Définissez allowDebug sur true uniquement sur les adresses IP utilisées par les utilisateurs marketing/administrateurs qui doivent créer (ou plutôt prévisualiser) des questionnaires, webApps et rapports. Ce flag permet d’afficher les règles de relais et de les déboguer pour ces adresses IP.
 
-   * Lorsque allowDebug est défini sur false, la sortie est :
+   * Lorsque allowDebug est défini sur false, la sortie est la suivante :
 
       ```
       <redir status='OK' date='...' sourceIP='...'/>
       ```
 
-   * Lorsque allowDebug est défini sur true, la sortie est :
+   * Lorsque allowDebug est défini sur true, la sortie est la suivante :
 
       ```
       <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>

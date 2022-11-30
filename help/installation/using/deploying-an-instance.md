@@ -9,7 +9,7 @@ exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 source-git-commit: 11e175c737d9c6cbb9432ec7835f35ee0e00a5c0
 workflow-type: tm+mt
 source-wordcount: '3290'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -78,10 +78,10 @@ Ces paramètres peuvent être surchargés dans les modèles de diffusion et, uni
 
 Indiquez les paramètres suivants :
 
-* **[!UICONTROL Nom expéditeur]** : le nom de l&#39;expéditeur
-* **[!UICONTROL Adresse expéditeur]** : Adresse de l&#39;expéditeur
-* **[!UICONTROL Nom de l’adresse de réponse]** : le nom, personnalisable, qui est utilisé lorsque le destinataire clique sur le bouton **[!UICONTROL Répondre]** de son logiciel de messagerie
-* **[!UICONTROL Adresse de réponse]** : l’adresse e-mail à utiliser lorsque le destinataire clique sur le bouton **[!UICONTROL Répondre]** de son logiciel de messagerie
+* **[!UICONTROL Nom expéditeur]** : le nom de l’expéditeur
+* **[!UICONTROL Adresse expéditeur]** : l’adresse email de l’expéditeur
+* **[!UICONTROL Nom de l’adresse de réponse]** : le nom, personnalisable, qui est utilisé lorsque le ou la destinataire clique sur le bouton **[!UICONTROL Répondre]** de son logiciel de messagerie
+* **[!UICONTROL Adresse de réponse]** : l’adresse e-mail à utiliser lorsque le ou la destinataire clique sur le bouton **[!UICONTROL Répondre]** de son logiciel de messagerie
 * **[!UICONTROL Adresse d&#39;erreur]** : l&#39;adresse email des messages en erreur. Il s&#39;agit d&#39;une adresse technique utilisée pour gérer les rebonds, notamment les emails reçus par le serveur Adobe Campaign si les adresses ciblés n&#39;existent pas.
 
 En complément, vous pouvez indiquer les **masques** autorisés pour l’adresse expéditeur et l’adresse d’erreur. Au besoin, ces masques doivent être séparés les uns des autres par une virgule. Ce paramétrage est facultatif. Lorsque ces champs sont renseignés, Adobe Campaign contrôle, au moment de l’envoi (ou au moment de l’analyse, lorsque l’adresse ne contient pas d’éléments variables), que les adresses renseignées dans la diffusion sont valables. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problème de délivrabilité. Les adresses d’expédition doivent être configurées sur le serveur d’envoi.
@@ -107,13 +107,13 @@ Cette fenêtre permet de définir, pour toutes les campagnes email, les options 
 Les options disponibles sont les suivantes :
 
 * **[!UICONTROL Durée de diffusion des messages]** : durée maximum au-delà de laquelle la diffusion des messages est arrêtée (par défaut, 5 jours).
-* **[!UICONTROL Durée de validité des ressources en ligne]** : durée pendant laquelle seront conservées toutes les informations relatives au profil du destinataire afin de générer les pages miroir.
-* **[!UICONTROL Exclure les destinataires qui ne souhaitent plus être contactés]** : Lorsque cette option est sélectionnée, les destinataires en liste bloquée ne sont pas contactés.
-* **[!UICONTROL Supprimer automatiquement les doublons]** : lorsque cette option est sélectionnée, la diffusion ne sera pas effectuée sur les adresses emails en doublon.
+* **[!UICONTROL Durée de validité des ressources en ligne]** : durée pendant laquelle seront conservées toutes les informations relatives au profil du ou de la destinataire afin de générer les pages miroir.
+* **[!UICONTROL Exclure les destinataires qui ne souhaitent plus être contactés]** : lorsque cette option est sélectionnée, les destinataires sur liste bloquée ne seront pas contactés.
+* **[!UICONTROL Supprimer automatiquement les doublons]** : lorsque cette option est sélectionnée, la diffusion ne sera pas effectuée sur les adresses e-mail en doublon.
 
 >[!NOTE]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers la méthode [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), la variable **[!UICONTROL Durée de diffusion des messages]** ne sera utilisé que si la variable est définie sur **3,5 jours ou moins**. Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
+>Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), la **[!UICONTROL Durée de diffusion des messages]** ne sera utilisée que si elle est définie sur **3,5 jours ou moins**. Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
 
 ### Paramètres de reprise {#retry-parameters}
 
@@ -121,7 +121,7 @@ Les informations relatives aux reprises sont indiquées dans les champs **Pério
 
 >[!NOTE]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers la méthode [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les paramètres de reprise de Campaign ne sont plus utilisés. Les reprises des soft bounces et la durée entre elles sont déterminées par le MTA amélioré en fonction du type et de la gravité des réponses des bounces revenant du domaine d&#39;email du message.
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les paramètres de reprise ne sont plus utilisés. Les reprises des soft bounces et l’intervalle qui les sépare sont déterminés par le MTA amélioré en fonction du type et de la gravité des réponses des rebonds provenant du domaine de messagerie du message.
 
 ### Paramètres de mise en quarantaine {#quarantine-parameters}
 

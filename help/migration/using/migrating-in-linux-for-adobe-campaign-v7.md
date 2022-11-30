@@ -9,7 +9,7 @@ exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
 source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -208,7 +208,7 @@ Arrêtez d&#39;abord tous les processus accédant à la base de données, sur to
 
 -->
 
-Cette section explique comment désinstaller les packages Adobe Campaign v6.1.
+Cette section montre comment désinstaller les packages Adobe Campaign v6.1.
 
 1. Connectez-vous en tant que **root**.
 1. Identifiez les packages Adobe Campaign installés à l&#39;aide de la commande suivante.
@@ -593,7 +593,7 @@ If you are migrating from v6.02 or earlier, you must configure your security zon
 
 -->
 
-## Redémarrage des services {#re-starting-services}
+## Redémarrer les services {#re-starting-services}
 
 Voici la procédure pour redémarrer les services.
 
@@ -669,7 +669,7 @@ Sur chacun des serveurs suivants, démarrez Apache puis les services Adobe Camp
 1. Serveur de mid-sourcing.
 1. Serveur marketing.
 
-Testez complètement la nouvelle installation, vérifiez qu&#39;elle ne régresse pas et assurez-vous que tout fonctionne correctement.
+Testez complètement la nouvelle installation, vérifiez qu’elle ne régresse pas et assurez-vous que tout fonctionne correctement.
 
 <!--
 

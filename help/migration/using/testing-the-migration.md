@@ -9,7 +9,7 @@ exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -148,7 +148,7 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> sql=<br /> </td> 
    <td> PU-0005<br /> </td> 
    <td> Erreur<br /> </td> 
-   <td> Ce type d’erreur entraîne un échec de migration.<br /> </td> 
+   <td> Ce type d’erreur entraîne un échec de la migration.<br /> </td> 
   </tr> 
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 

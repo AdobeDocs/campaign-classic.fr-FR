@@ -8,7 +8,7 @@ exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
 workflow-type: tm+mt
 source-wordcount: '5972'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ En savoir plus sur les [Profils actifs](../../platform/using/about-profiles.md#a
 
 L’activité Validation en local est une activité de workflow qui permet de mettre en place un processus de validation des diffusions avant l’envoi des messages.
 
-En savoir plus sur les [Activité Validation en local](../../workflow/using/local-approval.md).
+En savoir plus sur l’[Activité Validation en local](../../workflow/using/local-approval.md).
 +++
 
 +++**Audience**
@@ -141,14 +141,14 @@ En savoir plus sur la [Validation du contenu](../../campaign/using/marketing-cam
 
 Vous pouvez utiliser des populations témoins pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Les opérateurs peuvent comparer le comportement de la population cible qui a bien reçu le message avec celui des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, les opérateurs peuvent également cibler une population témoin dans les prochaines campagnes.
 
-En savoir plus sur [Populations témoins](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+En savoir plus sur les [groupes de contrôle](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 +++
 
 +++**Panneau de contrôle**
 
-Le Panneau de Contrôle aide les administrateurs de produits d’Adobe Campaign à accroître l’efficacité de leur travail, en leur permettant de gérer les paramètres et de suivre l’utilisation de chacune de leurs instances. Son interface intuitive leur permet de surveiller facilement l’utilisation des ressources clés et d’effectuer des tâches administratives telles que l’ajout de listes autorisées d’adresses IP, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
+Le panneau de contrôle aide les administrateurs et administratrices de produit Adobe Campaign à accroître l’efficacité de leur travail, en leur permettant de gérer les paramètres et de suivre l’utilisation de chacune de leurs instances. Grâce à son interface intuitive, vous pouvez facilement surveiller l’utilisation des principales ressources ou effectuer certaines tâches administratives telles que l’ajout d&#39;adresses IP à la liste autorisée, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
 
-En savoir plus sur [Panneau de Contrôle](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr).
+En savoir plus sur le [Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr).
 +++
 
 +++**Cubes**
@@ -171,7 +171,7 @@ En savoir plus sur les [ressources personnalisées](../../configuration/using/ab
 
 Le modèle de données Campaign est un ensemble de schémas qui définissent les types de données et leurs relations (liens). Le modèle de données est une définition abstraite qui est mise en œuvre physiquement avec une base de données contenant les données réelles.
 
-En savoir plus sur [Modèle de données](../../configuration/using/about-data-model.md).
+En savoir plus sur le [Modèle de données](../../configuration/using/about-data-model.md).
 +++
 
 +++**Workflow de nettoyage de la base de données**
@@ -246,9 +246,9 @@ En savoir plus sur le [publipostage direct](../../delivery/using/about-direct-ma
 
 +++**L’assistant de déploiement**
 
-L’assistant de déploiement définit les paramètres de l’instance Campaign, tels que l’espace de nommage par défaut, le planning de nettoyage de la base de données, les périodes de conservation des données et d’autres paramètres techniques.
+L’assistant de déploiement définit les paramètres de l’instance Campaign, tels que l’espace de noms par défaut, le planning de nettoyage de la base de données, les périodes de conservation des données et d’autres paramètres techniques.
 
-En savoir plus sur [Assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-wizard).
+En savoir plus sur l’[assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-wizard).
 +++
 
 +++**Analyse descriptive**
@@ -262,16 +262,16 @@ En savoir plus sur l’[analyse descriptive](../../reporting/using/about-descrip
 
 *Contexte : marketing distribué*
 
-Le module complémentaire Marketing Distribué offre aux opérateurs Campaign un espace de travail collaboratif pour l&#39;implémentation des opérations entre les entités centrales (siège social, départements marketing, etc.) et les entités locales (points de vente, agences régionales, etc.). Cette coopération repose sur un espace de travail partagé appelé la **liste des packages Campaign**, où des modèles et des instances de campagne conçus de manière centralisée sont proposés aux entités locales.
+Le module complémentaire Marketing distribué offre aux opérateurs Campaign un espace de travail collaboratif pour l’implémentation des campagnes entre les entités centrales (siège social, services marketing, etc.). et les entités locales (points de vente, agences régionales, etc.). Cette coopération repose sur un espace de travail partagé appelé la **liste des packages Campaign**, où des modèles et des instances de campagne conçus de manière centralisée sont proposés aux entités locales.
 
-En savoir plus sur [Marketing distribué](../../distributed/using/about-distributed-marketing.md)
+En savoir plus sur le [Marketing distribué](../../distributed/using/about-distributed-marketing.md).
 +++
 
 +++**Répartition des valeurs**
 
 La répartition des valeurs est un outil permettant de visualiser la répartition des valeurs d’un attribut de schéma existant actuellement dans la base de données. Vous pouvez ainsi déterminer les valeurs disponibles, leur nombre et leur pourcentage, et éviter tout problème de mise en majuscules et d’orthographe des valeurs lors de la création d’une requête ou d’une expression.
 
-En savoir plus sur [Répartition des valeurs](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
+En savoir plus sur la [Répartition des valeurs](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract).
 +++
 
 +++**Délégation de domaine**
@@ -288,7 +288,7 @@ En savoir plus sur la [Délégation de domaine](https://experienceleague.adobe.c
 ----DEPRECATED------>
 +++**E4X**
 
-E4X est la version de JavaScript utilisée dans Adobe Campaign Classic. Parfois appelé ECMAScript, il s’agit d’une extension de JavaScript qui permet de mélanger des primitives JavaScript et XML dans le même code. Notez que E4X est classé comme langue obsolète.
+Adobe Campaign Classic utilise la version E4X de JavaScript. Également appelé ECMAScript, il s’agit d’une extension de JavaScript qui permet de combiner des primitives JavaScript et XML dans le même code. Notez que E4X est classé comme un langage obsolète.
 +++
 
 
@@ -483,9 +483,9 @@ En savoir plus sur l’[Inbox rendering](../../delivery/using/delivery-dashboard
 
 +++**Paramètres des instances**
 
-Les paramètres d’instance correspondent aux détails de configuration d’une instance Adobe Campaign. Ces paramètres sont définis dans l&#39;assistant de déploiement (Outils>Avancé>Assistant de déploiement) ou dans les fichiers de configuration de serveur et/ou d&#39;instance.
+Les paramètres d’instance correspondent aux détails de configuration d’une instance Adobe Campaign. Ces paramètres sont définis dans l’assistant de déploiement (Outils> Avancé >Assistant de déploiement) ou dans les fichiers de configuration de serveur et/ou d’instance.
 
-En savoir plus sur [Paramètres des instances](../../installation/using/about-initial-configuration.md).
+En savoir plus sur les [Paramètres des instances](../../installation/using/about-initial-configuration.md).
 
 +++
 
@@ -493,7 +493,7 @@ En savoir plus sur [Paramètres des instances](../../installation/using/about-in
 
 Les traitements sont gérés par un système d’assistant qui simplifie l’import et l’export de données vers et depuis le produit. Par souci de simplicité et de cohérence, les traitements utilisent le système de création de modèles et peuvent être définis pour s’exécuter selon un planning.
 
-En savoir plus sur [traitements d&#39;import et d&#39;export](../../platform/using/get-started-data-import-export.md).
+En savoir plus sur les [Traitements d’importation et d’exportation](../../platform/using/get-started-data-import-export.md).
 +++
 
 +++**Listes**
@@ -575,10 +575,10 @@ En savoir plus sur les [Objectifs](../../mrm/using/creating-and-managing-tasks.m
 
 Un catalogue d’offres est un ensemble d’offres définies dans Adobe Campaign qui peuvent être sélectionnées lors d’une interaction. Le catalogue est organisé de manière hiérarchique avec chaque nœud correspondant à une catégorie.
 
-En savoir plus sur [Catalogue d&#39;offres](../../interaction/using/offer-catalog-overview.md).
+En savoir plus sur le [Catalogue d’offres](../../interaction/using/offer-catalog-overview.md).
 +++
 
-+++**Contact de l&#39;offre**
++++**Contact d’offre**
 
 *Contexte : Interaction de Campaign*
 
@@ -596,7 +596,7 @@ En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-m
 
 L’**Environnement en édition** d’offres est l’environnement dans lequel les opérateurs créent des offres, définissent des règles de typologie et sélectionnent le schéma qui sera ciblé par les offres. Le tableau de stockage des propositions d’offres générées est également défini par l’environnement. Par défaut, le module complémentaire Interaction comprend un environnement **En édition** et un environnement **En ligne** qui lui est associé. Les deux environnements sont préconfigurés pour cibler le tableau des destinataires intégré.
 
-En savoir plus sur [Environnements de conception d’offre](../../interaction/using/fundamental-principles.md).
+En savoir plus sur les [Environnements en édition d’offres](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**Arbitrage du moteur d’offres**
@@ -623,7 +623,7 @@ En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-m
 
 L’environnement d’offres est le dossier racine qui définit un catalogue d’offres, ses emplacements disponibles et les filtres prédéfinis de l’environnement. Les opérateurs doivent créer un environnement pour chaque dimension de ciblage. Il existe deux types d’environnements d’offres : en édition et en ligne.
 
-En savoir plus sur [Environnements des offres](../../interaction/using/fundamental-principles.md).
+En savoir plus sur les [Environnements d’offres](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**Environnement en ligne d’offres**
@@ -632,7 +632,7 @@ En savoir plus sur [Environnements des offres](../../interaction/using/fundament
 
 L’environnement en ligne d’offres est associé à un **Environnement en édition** de campagne. Il contient des offres en lecture seule dont le contenu et l’éligibilité ont été approuvés via l’**Environnement en édition**. Elles peuvent être sélectionnées pour une présentation sur un site web ou pour être insérées dans un message sortant.
 
-En savoir plus sur [Offrir des environnements en ligne](../../interaction/using/fundamental-principles.md).
+En savoir plus sur les [Environnements en ligne d’offres](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**Règles de présentation des offres**
@@ -666,7 +666,7 @@ En savoir plus sur les [Propositions d’offre](../../interaction/using/creating
 
 *Contexte : Interaction de Campaign*
 
-Une représentation d’offre est une information utilisée par le canal pour afficher l’offre. La représentation de l&#39;offre peut être construite à partir de la fonction de rendu de l&#39;emplacement sur lequel l&#39;offre est représentée ou saisie directement dans l&#39;interface (par exemple, dans le bloc HTML). Une offre peut être représentée par un emplacement.
+Un rendu de l’offre est une information utilisée par le canal pour afficher l’offre. La représentation de l’offre peut être construite à partir de la fonction de rendu de l’emplacement sur lequel l’offre est représentée ou saisie directement dans l’interface (par exemple, dans le bloc HTML). Une offre peut être représentée par un emplacement.
 
 En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -686,7 +686,7 @@ En savoir plus sur la [Simulation d’offres](../../interaction/using/about-offe
 
 Un emplacement désigne un dossier définissant l’emplacement d’exposition de l’offre. Définir un emplacement permet de définir le canal utilisé, de construire le contenu de l’offre et de spécifier les offres présentées. L’emplacement est l’interface entre le canal et le moteur d’offres.
 
-En savoir plus sur [Emplacement](../../interaction/using/creating-offer-spaces.md).
+En savoir plus sur les [Emplacements](../../interaction/using/creating-offer-spaces.md).
 +++
 
 +++**Thèmes des offres**
@@ -755,7 +755,7 @@ En savoir plus sur la [palette](../../workflow/using/building-a-workflow.md#addi
 
 Les informations de surveillance des performances s’affichent dans l’onglet Surveillance. Celui-ci affiche des mesures pour le système sous-jacent, telles que l’utilisation de la mémoire et du processeur, les statistiques du serveur SMTP, les processus du serveur ainsi que d’autres informations pertinentes.
 
-En savoir plus sur [Suivi des performances](../../production/using/monitoring-processes.md).
+En savoir plus sur la [Surveillance des performances](../../production/using/monitoring-processes.md).
 +++
 
 +++**Blocs de personnalisation**
@@ -877,7 +877,7 @@ En savoir plus sur les [schémas](../../configuration/using/about-schema-referen
 
 L’extension de schéma vous permet de personnaliser les schémas d’usine pour mieux les adapter à vos cas d’utilisation professionnels. Par exemple, vous pouvez ajouter un nouveau champ « Fidélité » à la table des destinataires.
 
-En savoir plus sur [Extension de schéma](../../configuration/using/extending-a-schema.md).
+En savoir plus sur les [extensions de schéma](../../configuration/using/extending-a-schema.md).
 +++
 
 +++**Adresses de contrôle**
@@ -931,14 +931,14 @@ En savoir plus sur la [validation de la cible](../../workflow/using/local-approv
 
 Les données de la cible sont les données stockées dans la table de travail (transition) d’un workflow. Ces données sont disponibles dans la diffusion pour la personnalisation du contenu de la diffusion ou pour définir la logique des éléments dynamiques de la diffusion.
 
-En savoir plus sur [Données de la cible](../../workflow/using/data-life-cycle.md#target-data).
+En savoir plus sur les [Données de la cible](../../workflow/using/data-life-cycle.md#target-data).
 +++
 
 +++**Mapping de ciblage**
 
 Le mapping de ciblage est le mapping des canaux de diffusion sur un type de données spécifique. Les mappings de ciblage définissent la manière dont différents canaux de diffusion se lient aux champs de données d’un schéma. Cela définit la manière dont Campaign effectue des envois vers ce type de données à l’aide d’un champ ou d’une expression spécifique.
 
-En savoir plus sur [Mapping de ciblage](../../delivery/using/selecting-a-target-mapping.md).
+En savoir plus sur le [Mapping de ciblage](../../delivery/using/selecting-a-target-mapping.md).
 +++
 
 +++**Activités de ciblage**
@@ -1016,9 +1016,9 @@ En savoir plus sur la [messagerie transactionnelle](../../message-center/using/a
 <!------- USEFUL HERE??----->
 +++**Campagnes déclenchées**
 
-Les campagnes déclenchées sont des campagnes exécutées lorsqu’une demande d’API est reçue dans un workflow. Les appels d’API sont consommés par une activité Signal dans le workflow qui lance l’exécution du workflow.
+Les campagnes déclenchées sont des campagnes exécutées lorsqu’un workflow reçoit une demande d’API. Les appels d’API sont consommés par une activité Signal dans le workflow qui lance l’exécution du workflow.
 
-En savoir plus sur [Campagnes déclenchées](../../workflow/using/external-signal.md).
+En savoir plus sur les [campagnes déclenchées](../../workflow/using/external-signal.md).
 +++
 
 <!--
@@ -1046,7 +1046,7 @@ En savoir plus sur les [typologies](../../campaign-opt/using/about-campaign-typo
 
 Les règles de typologie sont des règles d’entreprise mises en œuvre dans le cadre de la phase d’analyse de la diffusion. Les règles de typologie sont des vérifications du contenu de la diffusion (règles de contrôle) ou la cible de la diffusion (règles de filtrage) ou toute autre logique (règles de pression) qui appliquent les exigences de l’entreprise. Les règles sont des éléments granulaires qui peuvent être inclus dans une ou plusieurs typologies.
 
-En savoir plus sur [Règles de typologie](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
+En savoir plus sur les [règles de typologie](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 ## U - Z {#sec-6}

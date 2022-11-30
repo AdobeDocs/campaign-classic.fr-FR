@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 5792ad762befb97888ad32406d3bcb7f97df3fa7
 workflow-type: tm+mt
 source-wordcount: '5017'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,15 +25,15 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 
 ### Novembre 2022 {#nov-2022}
 
-Mise à jour de la section Notes de mise à jour avec les améliorations et correctifs de la version 7.3.2. [En savoir plus](latest-release.md)
+Mise à jour de la section Notes de mise à jour avec les améliorations et correctifs de la version 7.3.2. [En savoir plus](latest-release.md)
 
-Mise à jour de la matrice de compatibilité avec la prise en charge de Teradata 17. [En savoir plus](compatibility-matrix.md)
+Mise à jour de la matrice de compatibilité avec la prise en charge de Teradata 17. [En savoir plus](compatibility-matrix.md)
 
-La section Gestion des fichiers et des ressources a été mise à jour avec des informations supplémentaires sur le **uploadWhiteList** attribut. [En savoir plus](../../installation/using/file-res-management.md)
+La section Gestion des fichiers et des ressources a été mise à jour avec des informations supplémentaires sur l’attribut **uploadWhiteList**. [En savoir plus](../../installation/using/file-res-management.md)
 
-La documentation relative aux zones de sécurité a été mise à jour avec des informations supplémentaires sur la variable **allowDebug** attribut . [En savoir plus](../../installation/using/security-zones.md#recommendations)
+La documentation relative aux zones de sécurité a été mise à jour avec des informations supplémentaires sur l’attribut **allowDebug**. [En savoir plus](../../installation/using/security-zones.md#recommendations)
 
-Mise à jour du guide de migration - Les références aux versions Adobe Campaign non prises en charge ont été supprimées. [En savoir plus](../../migration/using/about-migration.md)
+Le guide de migration a été mis à jour. Les références aux versions d’Adobe Campaign non prises en charge ont été supprimées. [En savoir plus](../../migration/using/about-migration.md)
 
 
 ### Juillet 2022 {#july-2022}

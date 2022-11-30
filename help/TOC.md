@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: 5792ad762befb97888ad32406d3bcb7f97df3fa7
 workflow-type: tm+mt
 source-wordcount: '2524'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -314,7 +314,7 @@ ht-degree: 99%
       + [Propriétés du rapport](reporting/using/properties-of-the-report.md)
       + [Configuration de l’accès au rapport](reporting/using/configuring-access-to-the-report.md)
       + [Agir sur les rapports](reporting/using/actions-on-reports.md)
-   + [Conception de rapports avec des cubes](reporting/using/ac-cubes.md)
+   + [Concevoir des rapports avec des cubes](reporting/using/ac-cubes.md)
 + Création de contenu web {#designing-content}
    + Applications web {#web-applications}
       + [Prise en main des applications web](web/using/about-web-applications.md)
@@ -824,9 +824,9 @@ ht-degree: 99%
    + Mises à niveau et compatibilité {#technote-migration}
       + [Notes techniques](technotes/using/technote.md)
       + [Nouveau serveur de délivrabilité](technotes/using/deliverability-server.md)
-      + [Mise à niveau de la sécurité d&#39;Apache](technotes/using/acc-apache-upgrade.md)
-      + [Mises à niveau du système 2023](technotes/using/tech-stack-upgrade.md)
-      + [Mises à jour de lʼIMS](technotes/using/ims-updates.md)
+      + [Mise à niveau de la sécurité d’Apache](technotes/using/acc-apache-upgrade.md)
+      + [Mises à niveau du système en 2023](technotes/using/tech-stack-upgrade.md)
+      + [Mises à jour dʼIMS](technotes/using/ims-updates.md)
       + [Fin de vie de la prise en charge du protocole TLS 1.0 et 1.1](technotes/using/eol-tls-support.md)
    + E-mails et notifications push{#technotes-email}
       + [Protection de la confidentialité des e-mails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)

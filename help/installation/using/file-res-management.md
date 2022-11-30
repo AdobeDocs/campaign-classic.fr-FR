@@ -9,7 +9,7 @@ exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Vous pouvez également empêcher le téléchargement de fichiers importants en c
 
 >[!NOTE]
 >
->Le **uploadWhiteList** restreint les types de fichiers disponibles pour le téléchargement sur le serveur Adobe Campaign. Toutefois, lorsque le mode de publication est **Serveur(s) de tracking** ou **Autres serveurs Adobe Campaign**, la variable **uploadWhitelist** doit également être mis à jour sur ces serveurs.
+>L’attribut **uploadWhiteList** sert à limiter les types de fichiers disponibles au téléchargement sur le serveur Adobe Campaign. Toutefois, lorsque le mode de publication est **Serveur(s) de tracking** ou **Autres serveurs Adobe Campaign**, l’attribut **uploadWhitelist** doit également être mis à jour sur ces serveurs.
 
 ## Paramétrage de la connexion au proxy {#proxy-connection-configuration}
 

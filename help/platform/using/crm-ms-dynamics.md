@@ -7,7 +7,7 @@ exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: 1a2e6a0bc754a1236f64b35e99c1be08f1066f75
 workflow-type: tm+mt
 source-wordcount: '1136'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -216,4 +216,4 @@ Pour Microsoft Dynamics 365, les types d&#39;attribut pris en charge/non pris 
 | Concernant | Non |
 | PartyList | Non |
 | ManagedProperty | Non |
-| Jeu d’options multi-sélection | Non |
+| Groupe d’options de sélection multiple | Non |

@@ -95,7 +95,7 @@ Après avoir exécuté **postupgrade**, vérifiez et configurez les éléments s
 
 * Tomcat
 
-   Si vous avez personnalisé le dossier d&#39;installation, vérifiez qu&#39;il est correctement mis à jour après la migration.
+   Si vous avez personnalisé le dossier d’installation, vérifiez qu’il est correctement mis à jour après la migration.
 
 * Rapports
 
@@ -105,7 +105,7 @@ Après avoir exécuté **postupgrade**, vérifiez et configurez les éléments s
 
    Après le postupgrade, si vous rencontrez des problèmes de connexion à vos applications web identifiées, vous devez activer les options **allowUserPassword** et **sessionTokenOnly** dans le fichier **serverConf.xml**. Pour éviter tout problème de sécurité, ces deux options doivent être réactivées une fois le problème résolu.
 
-   Selon le type d&#39;applications Web et leur configuration, vous devez effectuer des manipulations complémentaires pour en assurer le bon fonctionnement.
+   Selon le type d’applications Web et leur configuration, vous devez effectuer des manipulations complémentaires pour en assurer le bon fonctionnement.
 
 <!--
   If migrating from a v5.11 platform, additional configurations must be carried out. [Learn more](../../migration/using/general-configurations.md#specific-configurations-in-v5-11.md)

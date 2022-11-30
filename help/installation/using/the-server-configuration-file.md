@@ -9,7 +9,7 @@ exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
 source-wordcount: '7979'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -3324,7 +3324,7 @@ Pour plus d’informations, consultez cette [section](../../installation/using/d
   </tr> 
   <tr> 
    <td> showSourceIP<br /> </td> 
-   <td> Lorsqu’elle est définie sur false, la valeur de sourceIP dans la réponse renvoyée par r/test est une chaîne vide. <br /> </td> 
+   <td> Si ce paramètre est défini sur « false », la valeur de sourceIP dans la réponse renvoyée par r/test est une chaîne vide. <br /> </td> 
    <td> Booléen<br /> </td> 
    <td> vrai<br /> </td> 
   </tr> 
