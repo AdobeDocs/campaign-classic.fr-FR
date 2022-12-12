@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: f37f6c080bc6fb70cbd3f853db4ad8685ae8ebf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2739'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ _21 novembre 2022_
 
 **Mises à jour de compatibilité**
 
-* Adobe Campaign est désormais compatible avec PostgreSQL 14.
+* Adobe Campaign est désormais compatible avec PostgreSQL 14.
 * Compte tenu de la fin de vie de Microsoft Internet Explorer 11, le moteur de rendu HTML des tableaux de bord dans la console cliente utilise désormais Edge Chromium. (NEO-20741)
 
 Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compatibility-matrix.md#RDBMSservers).
