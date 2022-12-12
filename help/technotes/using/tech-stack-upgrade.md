@@ -6,9 +6,9 @@ hide: true
 hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
 source-git-commit: bffad77458ab0b4d40490a52c64c99a0fe882d22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ L’infrastructure de Campaign repose sur des systèmes tiers qui doivent être 
 
 En tant que **client(e) hébergé(e) ou Managed Cloud Services**, Adobe vous informe de ces mises à niveau lorsqu’elles sont nécessaires. Vous devrez effectuer la mise à niveau de vos environnements conformément aux recommandations afin de garantir leur conformité.
 
-En tant que **Client On-premise ou hybride**, Adobe vous recommande vivement de mettre à niveau vos versions système et Campaign selon le même calendrier.
+En tant que **client(e) On-premise ou hybride**, Adobe vous recommande vivement de mettre à niveau les versions de votre système et de Campaign selon le même calendrier.
 
 Pour des raisons de sécurité, vous devez [installer la version la plus récente de Campaign](#ac-upgrade), puis mettre à niveau votre [système d’exploitation](#os-upgrade) et/ou votre [Système de gestion de la base de données relationnelle (SGBD)](#pg-upgrade).
 
@@ -30,7 +30,7 @@ Pour des raisons de sécurité, vous devez [installer la version la plus récent
 
 **Cela vous concerne-t-il ?**
 
-Si vous êtes affecté par la variable [mise à niveau du système d’exploitation](#os-upgrade) et/ou [mise à niveau du système de base de données](#pg-upgrade) présenté ci-dessous, vous devez mettre à niveau vos environnements Campaign vers [la dernière version de 7.3.2](../../rn/using/latest-release.md#release-7-3-2), qui est compatible avec ces systèmes.
+Si vous êtes affecté(e) par la [mise à niveau du système d’exploitation](#os-upgrade) et/ou la [mise à niveau du système de la base de données](#pg-upgrade) présentées ci-dessous, vous devez mettre à niveau vos environnements Campaign vers [la dernière version 7.3.2](../../rn/using/latest-release.md#release-7-3-2), compatible avec ces systèmes.
 
 **Comment effectuer la mise à jour ?**
 
@@ -43,7 +43,7 @@ Si vous êtes affecté par la variable [mise à niveau du système d’exploitat
 
 **Cela vous concerne-t-il ?**
 
-Si vous exécutez Campaign sur un système d’exploitation Debian, vous devez déplacer votre infrastructure Campaign vers **Debian 11** pour bénéficier des dernières mises à jour de sécurité de Debian. Notez que la prise en charge de la sécurité pour Debian 9 sera disponible jusqu’au 30 juin 2023.
+Si vous exécutez Campaign sur un système d’exploitation Debian, vous devez déplacer votre infrastructure Campaign vers **Debian 11** pour bénéficier des dernières mises à jour de sécurité de Debian. Notez que la prise en charge en matière de sécurité de Debian 9 sera disponible jusqu’au 30 juin 2023.
 
 **Comment effectuer la mise à jour ?**
 
@@ -55,7 +55,7 @@ Si vous exécutez Campaign sur un système d’exploitation Debian, vous devez d
 
 **Cela vous concerne-t-il ?**
 
-Si votre système de base de données pour Campaign est PostgreSQL, vous devez effectuer la mise à niveau vers **PostgreSQL 14** pour bénéficier des dernières innovations et mises à jour de sécurité de PostgreSQL. Notez que PostgreSQL 11 atteindra la fin de vie le 9 novembre 2023.
+Si votre système de base de données pour Campaign est PostgreSQL, vous devez effectuer la mise à niveau vers **PostgreSQL 14** pour bénéficier des dernières innovations et mises à jour de sécurité de PostgreSQL. Notez que PostgreSQL 11 atteindra sa fin de vie le 9 novembre 2023.
 
 **Comment effectuer la mise à jour ?**
 
