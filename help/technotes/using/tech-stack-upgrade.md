@@ -4,8 +4,8 @@ title: Note technique - mises à niveau du système Adobe Campaign
 description: Mise à niveau du système Adobe Campaign
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
 source-git-commit: d04b672fe2049d83ba17d3d855e1b609e81cf8c9
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
