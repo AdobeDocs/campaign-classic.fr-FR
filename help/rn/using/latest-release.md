@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 1c0aeecd72a35fc6e2e72f4b042df2ff39e5cb6f
+source-git-commit: 8391df5046d56edfb33de5eb9f2afb4738108791
 workflow-type: tm+mt
 source-wordcount: '2773'
 ht-degree: 98%
@@ -149,6 +149,7 @@ Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compa
 * Correction d’un problème qui entraînait des blocages lors de l’utilisation d’un code HTML erroné dans une diffusion. (NEO-40385)
 * Correction d’un problème qui empêchait les utilisateurs non-administrateurs d’accéder à l’onglet **Analyse** dans les propriétés de la diffusion. (NEO-34025)
 * Correction d’un problème qui empêchait le téléchargement d’une image en mode bloc à partir d’un serveur externe pendant la préparation des messages. (NEO-40307)
+* Correction d&#39;une erreur qui entraînait l&#39;envoi de la diffusion à un plus grand nombre de destinataires que prévu. (NEO-45108)
 
 ## ![](assets/do-not-localize/green_2.png) Version 7.2.2 - Build 9349 {#release-7-2-2}
 
@@ -242,4 +243,3 @@ Adobe Campaign est désormais compatible avec Windows Server 2019. Reportez-v
 * Correction d’un problème qui vous empêchait de prévisualiser les diffusions e-mail jointes à un workflow. (NEO-37840)
 * Correction d’un problème qui entraînait la suppression de tables valides contenant des valeurs de liste par le workflow de nettoyage de la base de données. (NEO-34911)
 * Correction dʼun problème qui entraînait le blocage du workflow de facturation sur les instances marketing.
-* Correction d&#39;une erreur qui entraînait l&#39;envoi de la diffusion à un plus grand nombre de destinataires que prévu. (NEO-45108)
