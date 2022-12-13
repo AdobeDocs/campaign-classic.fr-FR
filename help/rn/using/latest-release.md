@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: f37f6c080bc6fb70cbd3f853db4ad8685ae8ebf8
-workflow-type: ht
-source-wordcount: '2739'
-ht-degree: 100%
+source-git-commit: 1c0aeecd72a35fc6e2e72f4b042df2ff39e5cb6f
+workflow-type: tm+mt
+source-wordcount: '2773'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,8 @@ _21 novembre 2022_
 
 **Mises à jour de compatibilité**
 
-* Adobe Campaign est désormais compatible avec PostgreSQL 14.
+* Adobe Campaign est désormais compatible avec PostgreSQL 14. Voir à ce sujet la section [technote](../../technotes/using/tech-stack-upgrade.md).
+
 * Compte tenu de la fin de vie de Microsoft Internet Explorer 11, le moteur de rendu HTML des tableaux de bord dans la console cliente utilise désormais Edge Chromium. (NEO-20741)
 
 Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compatibility-matrix.md#RDBMSservers).
@@ -108,7 +109,7 @@ _1er juillet 2022_
 * Le SDK Adobe Campaign prend maintenant en charge Android 12 et iOS 15 pour les notifications push.
 * Adobe Campaign est désormais compatible avec MySQL 8.
 * Adobe Campaign est désormais compatible avec Windows 11.
-* Adobe Campaign est désormais compatible avec Debian 11.
+* Adobe Campaign est désormais compatible avec Debian 11. Voir à ce sujet la section [technote](../../technotes/using/tech-stack-upgrade.md).
 
 Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compatibility-matrix.md#OperatingSystems).
 
@@ -241,3 +242,4 @@ Adobe Campaign est désormais compatible avec Windows Server 2019. Reportez-v
 * Correction d’un problème qui vous empêchait de prévisualiser les diffusions e-mail jointes à un workflow. (NEO-37840)
 * Correction d’un problème qui entraînait la suppression de tables valides contenant des valeurs de liste par le workflow de nettoyage de la base de données. (NEO-34911)
 * Correction dʼun problème qui entraînait le blocage du workflow de facturation sur les instances marketing.
+* Correction d&#39;une erreur qui entraînait l&#39;envoi de la diffusion à un plus grand nombre de destinataires que prévu. (NEO-45108)
