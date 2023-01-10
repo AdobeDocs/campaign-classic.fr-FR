@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## À propos des workflows{#about-workflows}
 
-Adobe Campaign intègre un module de workflow qui propose une interface de contrôle centralisée de l&#39;ensemble des opérations et processus. Le module de workflow permet d&#39;automatiser et de modéliser les différentes tâches des modules du serveur applicatif. Cet environnement graphique complet permet de construire des processus englobant segmentation, exécution de campagnes, manipulations de fichiers, validations, etc. Le moteur de workflow exécute et assure le suivi des processus.
+Adobe Campaign comprend un module de workflow qui vous permet d’orchestrer l’ensemble des processus et tâches dans les différents modules du serveur d’applications. Cet environnement graphique complet permet de concevoir des processus englobant segmentation, exécution de campagnes, traitement de fichiers, participation humaine, etc. Le moteur de workflow exécute et suit ces processus.
 
 Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
 
