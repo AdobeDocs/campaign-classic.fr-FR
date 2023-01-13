@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
 source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 100%
 
@@ -663,7 +663,7 @@ Fully test the new installation, check that it does not regress and make sure th
 
 -->
 
-Sur chacun des serveurs suivants, démarrez Apache puis les services Adobe Campaign : XXX
+Sur chacun des serveurs suivants, démarrez Apache puis les services Adobe Campaign :
 
 1. Serveur de tracking/redirection.
 1. Serveur de mid-sourcing.
