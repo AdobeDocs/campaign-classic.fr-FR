@@ -663,7 +663,7 @@ Fully test the new installation, check that it does not regress and make sure th
 
 -->
 
-Sur chacun des serveurs suivants, démarrez Apache puis les services Adobe Campaign :
+Sur chacun des serveurs suivants, démarrez Apache puis les services Adobe Campaign : XXX
 
 1. Serveur de tracking/redirection.
 1. Serveur de mid-sourcing.
