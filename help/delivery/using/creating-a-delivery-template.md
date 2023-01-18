@@ -4,10 +4,10 @@ title: Créer un modèle de diffusion
 description: Créer un modèle de diffusion
 feature: Delivery Templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: 65e80f16a6beaee89b51636017c42766589e179e
+workflow-type: tm+mt
+source-wordcount: '392'
+ht-degree: 90%
 
 ---
 
@@ -33,6 +33,10 @@ Pour plus d’informations sur le mode de configuration, voir [Associer le modè
 
 ## Créer un modèle {#creating-a-new-template}
 
+>[!NOTE]
+>
+>Pour éviter les erreurs de configuration, Adobe vous recommande de dupliquer un modèle natif et de personnaliser ses paramètres plutôt que de créer un nouveau modèle.
+
 Pour configurer un modèle de diffusion, procédez comme suit :
 
 1. Ouvrez l&#39;Explorateur de Campaign.
@@ -40,7 +44,7 @@ Pour configurer un modèle de diffusion, procédez comme suit :
 
    ![](assets/delivery_template_1.png)
 
-1. Cliquez sur **Nouveau** dans la barre d&#39;outils pour créer un modèle de diffusion.
+1. Cliquez sur **Nouveau** dans la barre d’outils pour créer un modèle de diffusion, ou **Dupliquer** un modèle existant.
 
    ![](assets/delivery_template_2.png)
 
@@ -62,9 +66,6 @@ Pour configurer un modèle de diffusion, procédez comme suit :
 
 1. Cliquez sur **Enregistrer**. Le modèle peut maintenant être utilisé dans une diffusion.
 
->[!NOTE]
->
->Afin d&#39;éviter toute erreur de paramétrage, il est recommandé de dupliquer un modèle natif et d&#39;en modifier les propriétés plutôt que de créer un nouveau modèle.
 
 ## Tutoriels vidéo {#delivery-template-video}
 
