@@ -4,10 +4,10 @@ title: À propos des activités de ciblage
 description: À propos des activités de ciblage
 feature: Workflows, Audiences, Targeting Activity
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 743baa49e5d62ed1c2f7f635f6bf120a67646e63
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 98%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Ces activités permettent de construire une ou plusieurs cibles en définissant des ensembles puis en partitionnant ou en combinant ces ensembles à l&#39;aide des opérations d&#39;intersection, d&#39;union ou d&#39;exclusion.
+Ces activités permettent de construire une ou plusieurs cibles en définissant des ensembles, puis en partitionnant ou en combinant ces ensembles à l&#39;aide des opérations d&#39;intersection, d&#39;union ou d&#39;exclusion.
 
 * **Requête** : permet d&#39;effectuer une requête. Pour plus d&#39;informations, consultez la section [Créer une requête](query.md#creating-a-query).
 * **Requête incrémentale** : permet d&#39;effectuer une requête et d&#39;en planifier l&#39;exécution. Pour plus d&#39;informations, consultez la section [Requête incrémentale](incremental-query.md).
 * **Lecture de liste** : permet d&#39;utiliser les données contenues dans une liste. Pour plus d&#39;informations, consultez la section [Utiliser les données d&#39;une liste : Lecture de Liste](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
 * **Union** : permet de regrouper le résultat de plusieurs activités dans une même cible. Pour plus d&#39;informations, consultez la section [Union](union.md).
 * **Intersection** : permet de n&#39;extraire que la population commune aux résultats des activités entrantes. Pour plus d&#39;informations, consultez la section [Intersection](intersection.md).
-* **Exclusion** : permet de créer une cible à partir d&#39;une cible principale de laquelle on extrait une ou plusieurs autres cibles. Pour plus d&#39;informations, consultez la section [Intersection](intersection.md).
+* **Exclusion** : permet de créer une cible à partir d&#39;une cible principale de laquelle on extrait une ou plusieurs autres cibles. Reportez-vous à la section [Exclusion](exclusion.md) .
 * **Partage** : permet de partager une cible en plusieurs sous-ensembles. Pour plus d&#39;informations, consultez la section [Partage](split.md).
 * **Cellules** : propose une vue des différents sous-ensembles sous forme de colonnes de données, et permet de faciliter la manipulation de ces sous-ensembles, lorsqu&#39;ils sont nombreux. Pour plus d&#39;informations, consultez la section [Cellules](cells.md).
 * **Offres par cellule** : permet d&#39;associer des offres différentes à chaque sous-ensemble d&#39;une population. Pour plus d&#39;informations, consultez la section [Offres par cellule](offers-by-cell.md).
