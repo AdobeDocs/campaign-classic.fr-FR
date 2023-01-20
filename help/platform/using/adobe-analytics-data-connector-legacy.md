@@ -8,10 +8,10 @@ level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: 1dd0fe6734785b593302ed90db1d150cf6aee00c
 workflow-type: tm+mt
-source-wordcount: '1810'
-ht-degree: 100%
+source-wordcount: '1811'
+ht-degree: 98%
 
 ---
 
@@ -149,7 +149,7 @@ L’intégration d’Adobe Campaign aux plateformes d’Analytics se fait par l
 1. L&#39;onglet **[!UICONTROL Avancé]** vous permet de modifier des paramètres plus techniques.
 
    * **[!UICONTROL Durée de vie]** : permet de définir un délai (en jours) après lequel les événements web récupérés dans Adobe Campaign par les workflows techniques. Par défaut : 180 jours.
-   * **[!UICONTROL Persistance]** : permet de définir la période pendant laquelle tout événement web (un achat par exemple) peut être attribué à une opération de remarketing. Par défaut : 7 jours.
+   * **[!UICONTROL Persistance]**: permet de définir la période pendant laquelle tous les événements web (un achat par exemple) peuvent être attribués à une opération de remarketing. Par défaut : 7 jours.
 
 >[!NOTE]
 >
@@ -186,7 +186,7 @@ Lorsque la synchronisation des données entre Adobe Campaign et Adobe Analytic
 
 ![](assets/webanalytics_segments.png)
 
-Si des segments supplémentaires ont été paramétrés dans l&#39;assistant du connecteur de données, vous pouvez les ajouter dans Adobe Campaign. Pour cela, cliquez sur le lien **[!UICONTROL Actualiser la liste des segments...]** et exécutez les étapes de l&#39;assistant du compte externe. Une fois l&#39;opération effectuée, les nouveaux segments s&#39;affichent dans la liste.
+Si des segments supplémentaires ont été paramétrés dans l&#39;assistant du connecteur de données, vous pouvez les ajouter dans Adobe Campaign. Pour cela, cliquez sur le lien **[!UICONTROL Mettre à jour la liste des segments...]** et exécutez les étapes de l&#39;assistant du compte externe. Une fois l&#39;opération effectuée, les nouveaux segments s&#39;affichent dans la liste.
 
 ![](assets/webanalytics_segments_update.png)
 
