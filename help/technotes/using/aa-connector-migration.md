@@ -4,9 +4,9 @@ title: Migration vers le connecteur Adobe Analytics
 description: FAQ sur Campaign - Connecteur Analytics
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
 source-git-commit: 62ccc9e52de1bc416284e5b1bf48d69dc603923a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '858'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Pour toute question sur ces modifications, consultez le [FAQ](#faq-aa). Pour plu
 
 >[!NOTE]
 >
->Si vous effectuez une migration à partir d’un connecteur de données Adobe Analytics existant (précédemment connu sous le nom d’intégration de Genesis) et que vous utilisez la nouvelle architecture de classification dans Adobe Analytics, vous avez besoin de versions de build commençant à 7.3.1 ou 8.4.1 pour pouvoir migrer vers le nouveau connecteur Adobe Analytics.
+>Si vous effectuez une migration à partir d’un connecteur de données Adobe Analytics existant (anciennement connu sous le nom d’intégration Genesis) et que vous utilisez la nouvelle architecture de classification dans Adobe Analytics, vous avez besoin de versions de build commençant à 7.3.1 ou 8.4.1 pour pouvoir migrer vers le nouveau connecteur Adobe Analytics.
 
 ## Qu&#39;est-ce qui a changé ?
 
@@ -89,5 +89,5 @@ La solution consiste à mettre à jour le **profil de produit** dans le contexte
 * [Mise à niveau de votre environnement](../../production/using/build-upgrade.md)
 * [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md)
 * [Télécharger le build Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
-* [Mise à disposition de la nouvelle console cliente auprès des utilisateurs](../../installation/using/client-console-availability-for-windows.md)
+* [Mettre à disposition la nouvelle console cliente auprès des utilisateurs et des utilisatrices](../../installation/using/client-console-availability-for-windows.md)
 * [Installation de la console cliente Campaign](../../installation/using/installing-the-client-console.md)
