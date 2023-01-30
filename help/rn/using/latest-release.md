@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 8391df5046d56edfb33de5eb9f2afb4738108791
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2773'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ _21 novembre 2022_
 
 **Mises à jour de compatibilité**
 
-* Adobe Campaign est désormais compatible avec PostgreSQL 14. Voir à ce sujet la section [technote](../../technotes/using/tech-stack-upgrade.md).
+* Adobe Campaign est désormais compatible avec PostgreSQL 14. Pour plus d’informations, consultez cette [note technique](../../technotes/using/tech-stack-upgrade.md).
 
 * Compte tenu de la fin de vie de Microsoft Internet Explorer 11, le moteur de rendu HTML des tableaux de bord dans la console cliente utilise désormais Edge Chromium. (NEO-20741)
 
@@ -109,7 +109,7 @@ _1er juillet 2022_
 * Le SDK Adobe Campaign prend maintenant en charge Android 12 et iOS 15 pour les notifications push.
 * Adobe Campaign est désormais compatible avec MySQL 8.
 * Adobe Campaign est désormais compatible avec Windows 11.
-* Adobe Campaign est désormais compatible avec Debian 11. Voir à ce sujet la section [technote](../../technotes/using/tech-stack-upgrade.md).
+* Adobe Campaign est désormais compatible avec Debian 11. Pour plus d’informations, consultez cette [note technique](../../technotes/using/tech-stack-upgrade.md).
 
 Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compatibility-matrix.md#OperatingSystems).
 
@@ -149,7 +149,7 @@ Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compa
 * Correction d’un problème qui entraînait des blocages lors de l’utilisation d’un code HTML erroné dans une diffusion. (NEO-40385)
 * Correction d’un problème qui empêchait les utilisateurs non-administrateurs d’accéder à l’onglet **Analyse** dans les propriétés de la diffusion. (NEO-34025)
 * Correction d’un problème qui empêchait le téléchargement d’une image en mode bloc à partir d’un serveur externe pendant la préparation des messages. (NEO-40307)
-* Correction d&#39;une erreur qui entraînait l&#39;envoi de la diffusion à un plus grand nombre de destinataires que prévu. (NEO-45108)
+* Correction d’une erreur qui entraînait l’envoi de la diffusion à un plus grand nombre de destinataires que prévu. (NEO-45108)
 
 ## ![](assets/do-not-localize/green_2.png) Version 7.2.2 - Build 9349 {#release-7-2-2}
 
