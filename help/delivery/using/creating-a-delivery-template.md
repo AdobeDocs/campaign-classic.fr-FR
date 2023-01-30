@@ -5,9 +5,9 @@ description: Créer un modèle de diffusion
 feature: Delivery Templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 source-git-commit: 65e80f16a6beaee89b51636017c42766589e179e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur le mode de configuration, voir [Associer le modè
 
 >[!NOTE]
 >
->Pour éviter les erreurs de configuration, Adobe vous recommande de dupliquer un modèle natif et de personnaliser ses paramètres plutôt que de créer un nouveau modèle.
+>Afin d’éviter toute erreur de configuration, Adobe recommande de dupliquer un modèle natif et de personnaliser ses paramètres plutôt que de créer un modèle.
 
 Pour configurer un modèle de diffusion, procédez comme suit :
 
@@ -44,7 +44,7 @@ Pour configurer un modèle de diffusion, procédez comme suit :
 
    ![](assets/delivery_template_1.png)
 
-1. Cliquez sur **Nouveau** dans la barre d’outils pour créer un modèle de diffusion, ou **Dupliquer** un modèle existant.
+1. Cliquez sur **Nouveau** dans la barre d’outils pour créer un modèle de diffusion, ou sur **Dupliquer** pour dupliquer un modèle existant.
 
    ![](assets/delivery_template_2.png)
 
