@@ -5,9 +5,9 @@ description: Découvrez comment mettre à jour la qualification des retours apr�
 feature: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: 13f730d428861124060146efa26238ceca38bed6
+source-git-commit: f320c905f50c69a40678729b009a4c238a462e3c
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '531'
 ht-degree: 36%
 
 ---
@@ -34,7 +34,7 @@ Notez que si le report des bounces avec le message &quot;452 request action abor
 >
 >Vous pouvez vérifier le tableau de bord État de l’espace de travail Google sur [cette page](https://www.google.com/appsstatus#hl=fr&amp;v=status){_blank}.
 
-## Symptômes{#update-bounce-symptoms}
+## Impact{#update-bounce-impact}
 
 En cas de panne d&#39;un fournisseur d&#39;accès à Internet, les emails envoyés par la biais de Campaign ne peuvent pas être correctement envoyés à leur destinataire : ils seront incorrectement marqués comme mails rebonds.
 
@@ -57,7 +57,10 @@ En fonction du délai de l’incident et du FAI, les directives recommandées po
 
 * Pour les instances de Campaign Classic v7 avec les informations de réponse de bounce SMTP dans **[!UICONTROL Texte de l’erreur]** champ de la liste de quarantaine :
 
-   * **Texte de l&#39;erreur (texte des quarantaines)** contient &quot;550-5.1.1&quot; ET **Texte de l&#39;erreur (texte des quarantaines)** contient &quot;support.ISP.com&quot; &quot;support.ISP.com&quot; peut être : &quot;support.apple.com&quot; ou &quot;support.google.com&quot;, par exemple
+   * **Texte de l&#39;erreur (texte des quarantaines)** contient &quot;550-5.1.1&quot; ET **Texte de l&#39;erreur (texte des quarantaines)** contient &quot;support.ISP.com&quot;
+
+      où &quot;support.ISP.com&quot; peut être : &quot;support.apple.com&quot; ou &quot;support.google.com&quot;, par exemple
+
    * **Mise à jour du statut (@lastModified)** sur ou après MM/JJ/AAAA HH:MM:SS AM
    * **Mise à jour du statut (@lastModified)** sur ou avant MM/JJ/AAAA HH:MM:SS PM
 
