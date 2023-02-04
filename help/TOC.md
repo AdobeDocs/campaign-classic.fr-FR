@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 5792ad762befb97888ad32406d3bcb7f97df3fa7
+source-git-commit: b4feba7b3099c998d2dc05947390e383acb5fa14
 workflow-type: tm+mt
-source-wordcount: '2524'
-ht-degree: 100%
+source-wordcount: '2532'
+ht-degree: 99%
 
 ---
 
@@ -265,8 +265,8 @@ ht-degree: 100%
 + Gestion des ressources marketing{#mrm}
    + [À propos de la gestion des ressources marketing](mrm/using/about-marketing-resource-management.md)
    + [Création et gestion de tâches](mrm/using/creating-and-managing-tasks.md)
-   + [Coûts de contrôle](mrm/using/controlling-costs.md)
-   + [Gestion des ressources marketing](mrm/using/managing-marketing-resources.md)
+   + [Contrôler les coûts](mrm/using/controlling-costs.md)
+   + [Gérer des ressources marketing](mrm/using/managing-marketing-resources.md)
    + [Forums de discussion](mrm/using/discussion-forums.md)
 + Marketing distribué {#distributed-marketing}
    + [À propos du marketing distribué](distributed/using/about-distributed-marketing.md)
@@ -494,7 +494,7 @@ ht-degree: 100%
          + [Requête avec gestion des regroupements](workflow/using/querying-using-grouping-management.md)
          + [Requête avec une relation multiple-à-multiple](workflow/using/querying-using-many-to-many-relationship.md)
          + [Ajout d’un champ calculé de type Énumérations](workflow/using/adding-enumeration-type-calculated-field.md)
-         + [Création d’un filtre](workflow/using/creating-a-filter.md)
+         + [Créer un filtre](workflow/using/creating-a-filter.md)
          + [Filtrage des destinataires dupliqués](workflow/using/filtering-duplicated-recipients.md)
    + Surveillance des workflows {#monitoring-workflows}
       + [Surveillance de l’exécution des workflows](workflow/using/monitoring-workflow-execution.md)
@@ -831,6 +831,7 @@ ht-degree: 100%
    + E-mails et notifications push{#technotes-email}
       + [Protection de la confidentialité des e-mails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
       + [Mise à jour des hard bounces incorrects](delivery/using/update-bounce-qualification.md)
+      + [Mise à jour de hard bounces incorrects après une panne de FAI](delivery/using/update-bounces.md)
       + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
       + [Mise à jour des URL suivies](technotes/using/tracked-urls.md)
    + Migration vers Adobe Managed Services{#dc-migration}
