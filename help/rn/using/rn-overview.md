@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 9cdd4da153e5e5d1c7203d193067843fe832f38e
+source-git-commit: 1cc1568fe77cc5bbde88092b0e9108792e10fd71
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 90%
+source-wordcount: '934'
+ht-degree: 85%
 
 ---
 
@@ -67,7 +67,7 @@ En tant qu&#39;utilisateur hébergé, vous bénéficiez automatiquement de la mi
 
 ### Pourquoi mon entreprise a-t-elle besoin de cette mise à niveau ?
 
-En tant que client hébergé, si votre compte doit effectuer une mise à niveau d&#39;une ou de plusieurs technologies liées à Campaign Classic, ainsi qu&#39;une mise à jour du build et/ou de la version actuels, vous en serez directement informé par Adobe.
+En tant que client hébergé, si votre compte a été identifié comme devant mettre à niveau une ou plusieurs des technologies liées à Campaign Classic et mettre à niveau votre infrastructure vers la version actuelle (par exemple de v7.2.1 à v7.3.3) et/ou version (de v7 à v8), Adobe vous en informe directement.
 
 En tant que client on-premise ou hybride s’exécutant sur un build plus ancien, Adobe vous encourage à passer au dernier build stable (GA).
 

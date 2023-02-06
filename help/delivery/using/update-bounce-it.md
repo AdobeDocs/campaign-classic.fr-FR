@@ -5,10 +5,10 @@ description: Découvrez comment mettre à jour la qualification des bounces apr�
 feature: Deliverability
 hide: true
 hidefromtow: true
-source-git-commit: 3cf6ffb2b69d44b56615492dd9db8965ae3cf4e1
+source-git-commit: 0e6a46e4a0575fa5a300a952a6bb134f3426172e
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 27%
+source-wordcount: '295'
+ht-degree: 19%
 
 ---
 
@@ -29,11 +29,11 @@ En savoir plus dans la communication officielle [here](https://tecnologia.libero
 
 ## Impact{#outage-impact}
 
-En cas de panne d&#39;un fournisseur d&#39;accès à Internet, les emails envoyés par la biais de Campaign ne peuvent pas être correctement envoyés à leur destinataire : ils seront incorrectement marqués comme mails rebonds. Cela n&#39;a pas seulement un impact sur l&#39;Adobe, mais tout le monde essaie de se faire livrer des emails à Italia Online.
+Comme dans la plupart des cas, lorsqu’un FAI est en panne, certains emails envoyés via Campaign sont marqués à tort comme des bounces. Cela n&#39;a pas seulement eu un impact sur l&#39;Adobe, mais tout le monde essayant de se faire livrer des emails à Italia Online pendant la durée de la panne.
 
-Les symptômes sont les suivants :
+Les symptômes étaient les suivants :
 
-* **Rebonds au report** avec le message `452 requested action aborted: try again later` sont observées ; elles sont automatiquement relancées et aucune action n’est nécessaire. Ils devraient s’améliorer à mesure que le FAI récupère la pleine capacité.
+* **Rebonds au report** avec le message `452 requested action aborted: try again later` - ont été automatiquement relancés et aucune action n’est nécessaire.
 
 * **Hard bounces** avec le message `550 <email address> recipient rejected` ont été renvoyés par le FAI le 26 janvier, de 8h00 à 14h00, heure locale, pour empêcher les expéditeurs de continuer à surcharger leurs serveurs. Comme le confirme le Postmaster en ligne Italia, il ne s&#39;agit pas de vrais hard bounces, nous vous recommandons donc de mettre en quarantaine toutes les adresses email qui ont été exclues le 26 janvier 2023 en raison de ce message.
 
