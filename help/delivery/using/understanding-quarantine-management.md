@@ -4,10 +4,10 @@ title: Comprendre la gestion des quarantaines
 description: Comprendre la gestion des quarantaines
 feature: Monitoring, Deliverability
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: f7813764e55986efa3216b50e5ebf4387bd70e5e
+source-git-commit: c84f48ebdd66524e8dd6c39c88ae29565d11c9b2
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 89%
+source-wordcount: '3100'
+ht-degree: 88%
 
 ---
 
@@ -128,7 +128,9 @@ Pour les installations hébergées ou hybrides, si vous avez effectué une mise 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l’ancien MTA de Campaign, vous pouvez modifier le nombre d’erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l’[assistant de déploiement](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Canal e-mail]** > **[!UICONTROL Paramètres avancés]**) ou [au niveau de la diffusion](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
 
-## Supprimer une adresse de la quarantaine {#removing-a-quarantined-address}
+## Supprimer une adresse de quarantaine {#removing-a-quarantined-address}
+
+### Mises à jour automatiques {#unquarantine-auto}
 
 Les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaine par la fonction [Nettoyage de la base](../../production/using/database-cleanup-workflow.md) workflow.
 
@@ -144,17 +146,21 @@ Leur état devient ensuite **[!UICONTROL Valide]**.
 >
 >Destinataires ayant une adresse dans un **[!UICONTROL Quarantaine]** ou **[!UICONTROL Placé sur la liste bloquée]** ne sont jamais supprimés, même s’ils reçoivent un courrier électronique.
 
+### Mises à jour manuelles {#unquarantine-manual}
+
 Vous pouvez également mettre une adresse en quarantaine manuellement. Pour supprimer manuellement une adresse de la liste de quarantaine, modifiez son statut en **[!UICONTROL Valide]** de la **[!UICONTROL Administration > Campaign Management > Gestion des échecs > Echecs et adresses]** noeud .
 
 ![](assets/tech_quarant_error_status.png)
 
-Vous devrez peut-être effectuer des mises à jour en masse sur la liste de quarantaine, par exemple en cas de panne du FAI, où les emails sont marqués comme des bounces par erreur, car ils ne peuvent pas être correctement remis à leur destinataire.
+### Mises à jour en bloc {#unquarantine-bulk}
 
-Pour ce faire, créez un workflow et ajoutez une requête sur votre table des quarantaines afin de filtrer tous les destinataires concernés afin qu&#39;ils puissent être supprimés de la liste des quarantaines et inclus dans les prochaines diffusions email de Campaign.
+Vous devrez peut-être effectuer des mises à jour en bloc sur la liste de quarantaine, par exemple en cas de panne du FAI. Dans ce cas, les emails sont incorrectement marqués comme rebonds, car ils ne peuvent pas être correctement remis à leur destinataire. Ces adresses doivent être supprimées de la liste de quarantaine.
+
+Pour ce faire, créez un workflow et ajoutez une **[!UICONTROL Requête]** activité sur votre table des quarantaines pour filtrer tous les destinataires concernés. Une fois identifiés, ils peuvent être supprimés de la liste de quarantaine et inclus dans les prochaines diffusions email de Campaign.
 
 Vous trouverez ci-dessous les instructions recommandées pour cette requête :
 
-* Pour les environnements Campaign v8 et Campaign Classic v7 avec les informations de règle de courrier électronique entrant dans **[!UICONTROL Texte de l’erreur]** champ de la liste de quarantaine :
+* Pour les environnements Campaign Classic v7 avec les informations de règle de courrier électronique entrant dans **[!UICONTROL Texte de l’erreur]** champ de la liste de quarantaine :
 
    * **Texte d&#39;erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient »
    * **Domaine de l&#39;email (@domain)** égal à domain1.com OU **Domaine de l&#39;email (@domain)** égal à domain2.com OU **Domaine de l&#39;email (@domain)** égal à domain3.com
@@ -171,11 +177,11 @@ Vous trouverez ci-dessous les instructions recommandées pour cette requête :
    * **Mise à jour du statut (@lastModified)** sur ou avant MM/JJ/AAAA HH:MM:SS PM
 
 
-Une fois que vous disposez de la liste des destinataires concernés, ajoutez une **[!UICONTROL Mise à jour de données]** activité pour définir leur état sur **[!UICONTROL Valide]** afin qu’elles soient supprimées de la liste de quarantaine par la variable **[!UICONTROL Nettoyage de la base]** workflow, Vous pouvez également les supprimer de la table des quarantaines.
+Une fois que vous disposez de la liste des destinataires concernés, ajoutez une **[!UICONTROL Mise à jour de données]** activité pour définir l’état de leur adresse électronique sur **[!UICONTROL Valide]** afin qu’elles soient supprimées de la liste de quarantaine par la variable **[!UICONTROL Nettoyage de la base]** workflow. Vous pouvez également les supprimer de la table des quarantaines.
 
 ## Quarantaines des notifications push {#push-notification-quarantines}
 
-Le mécanisme de quarantaine des notifications Push est globalement identique au processus général. Voir [À propos des quarantaines](#about-quarantines). Toutefois, certaines erreurs sont gérées différemment pour les notifications Push. Par exemple, pour certaines erreurs logicielles, aucune nouvelle tentative n&#39;est effectuée pour une même diffusion. Les spécificités des notifications Push sont énumérées ci-dessous. Le mécanisme d&#39;une nouvelle tentative (nombre de tentatives, fréquence) est le même que pour les emails.
+Le mécanisme de quarantaine des notifications Push est globalement identique au processus général. Toutefois, certaines erreurs sont gérées différemment pour les notifications Push. Par exemple, pour certaines erreurs logicielles, aucune nouvelle tentative n&#39;est effectuée pour une même diffusion. Les spécificités des notifications Push sont énumérées ci-dessous. Le mécanisme d&#39;une nouvelle tentative (nombre de tentatives, fréquence) est le même que pour les emails.
 
 Les éléments mis en quarantaine sont les jetons d&#39;appareil.
 

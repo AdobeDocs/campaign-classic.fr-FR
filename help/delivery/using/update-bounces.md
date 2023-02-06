@@ -5,10 +5,10 @@ description: Découvrez comment mettre à jour la qualification des retours apr�
 feature: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: f320c905f50c69a40678729b009a4c238a462e3c
+source-git-commit: 9cdd4da153e5e5d1c7203d193067843fe832f38e
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 36%
+source-wordcount: '524'
+ht-degree: 37%
 
 ---
 
@@ -48,14 +48,14 @@ Vous devez exécuter une requête sur votre table des quarantaines pour filtrer 
 
 En fonction du délai de l’incident et du FAI, les directives recommandées pour cette requête sont les suivantes.
 
-* Pour les environnements Campaign v8 et Campaign Classic v7 avec les informations de règle de courrier électronique entrant dans **[!UICONTROL Texte de l’erreur]** champ de la liste de quarantaine :
+* Pour les environnements Campaign avec les informations de règle de courrier électronique entrant dans la variable **[!UICONTROL Texte de l’erreur]** champ de la liste de quarantaine :
 
    * **Texte d&#39;erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient »
    * **Domaine de l&#39;email (@domain)** égal à domain1.com OU **Domaine de l&#39;email (@domain)** égal à domain2.com OU **Domaine de l&#39;email (@domain)** égal à domain3.com
    * **Mise à jour du statut (@lastModified)** sur ou après MM/JJ/AAAA HH:MM:SS AM
    * **Mise à jour du statut (@lastModified)** sur ou avant MM/JJ/AAAA HH:MM:SS PM
 
-* Pour les instances de Campaign Classic v7 avec les informations de réponse de bounce SMTP dans **[!UICONTROL Texte de l’erreur]** champ de la liste de quarantaine :
+* Pour les environnements Campaign contenant les informations de réponse SMTP rebond dans **[!UICONTROL Texte de l’erreur]** champ de la liste de quarantaine :
 
    * **Texte de l&#39;erreur (texte des quarantaines)** contient &quot;550-5.1.1&quot; ET **Texte de l&#39;erreur (texte des quarantaines)** contient &quot;support.ISP.com&quot;
 
