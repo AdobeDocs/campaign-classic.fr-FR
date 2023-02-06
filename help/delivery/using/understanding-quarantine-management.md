@@ -4,14 +4,14 @@ title: Comprendre la gestion des quarantaines
 description: Comprendre la gestion des quarantaines
 feature: Monitoring, Deliverability
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
-source-wordcount: '2931'
-ht-degree: 100%
+source-git-commit: f7813764e55986efa3216b50e5ebf4387bd70e5e
+workflow-type: tm+mt
+source-wordcount: '3085'
+ht-degree: 89%
 
 ---
 
-# Présentation de la gestion des quarantaines{#understanding-quarantine-management}
+# Comprendre la gestion des quarantaines{#understanding-quarantine-management}
 
 ![](../../assets/common.svg)
 
@@ -69,10 +69,11 @@ Les informations disponibles pour chacune des adresses sont les suivantes :
 
 >[!NOTE]
 >
->L&#39;augmentation du nombre de quarantaines est un phénomène normal, lié à &quot;l&#39;usure&quot; de la base. Par exemple, si l&#39;on considère que la durée de vie d&#39;une adresse email est de trois ans et que la table des destinataires augmente de 50% tous les ans, l&#39;augmentation des quarantaines peut être calculée comme suit :
+>L&#39;augmentation du nombre de quarantaines est un phénomène normal, lié à &quot;l&#39;usure&quot; de la base. Par exemple, si l&#39;on considère que la durée de vie d&#39;une adresse e-mail est de trois ans et que la table des destinataires augmente de 50 % tous les ans, l&#39;augmentation des quarantaines peut être calculée comme suit :
 >
->Fin de l&#39;année 1 : (1*0,33)/(1+0,5)=22%.
->Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
+>Fin de l&#39;année 1 : (1 &#42; 0,33) / (1 + 0,5) = 22 %.
+>
+>Fin de l&#39;année 2 : ((1,22 &#42; 0,33) + 0,33) / (1,5 + 0,75) = 32,5 %.
 
 ### Identification des adresses en quarantaine dans les rapports de diffusion {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -94,35 +95,6 @@ Pour chaque destinataire, vous pouvez consulter lʼétat de son adresse e-mail. 
 
 ![](assets/tech_quarant_recipients_filter.png)
 
-### Sortie dʼune adresse de quarantaine {#removing-a-quarantined-address}
-
-Si nécessaire, vous pouvez supprimer manuellement une adresse de la liste de quarantaine. En outre, les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaine par le workflow [Nettoyage de la base](../../production/using/database-cleanup-workflow.md).
-
-Pour supprimer manuellement une adresse de la liste de quarantaine, effectuez l’une des actions ci-dessous.
-
->[!IMPORTANT]
->La suppression manuelle d’une adresse e-mail de la quarantaine signifie que vous recommencerez à envoyer la diffusion vers cette adresse. Par conséquent, cela peut avoir de graves répercussions sur votre délivrabilité et votre réputation IP, ce qui peut entraîner le blocage de votre adresse IP ou de votre domaine d’envoi. Procédez avec précaution lorsque vous envisagez de supprimer une adresse de quarantaine. En cas de doute, contactez un expert en délivrabilité.
-
-* Vous pouvez changer son statut en **[!UICONTROL Valide]** depuis le nœud **[!UICONTROL Administration > Gestion de campagnes > Gestion des échecs > Echecs et adresses]**.
-
-   ![](assets/tech_quarant_error_status.png)
-
-* Vous pouvez également modifier son statut en **[!UICONTROL Placé sur la liste autorisée]**. Dans ce cas, l&#39;adresse reste dans la liste de quarantaine, mais elle sera systématiquement ciblée, même si une erreur se produit.
-
-Les adresses sont automatiquement supprimées de la liste de quarantaine dans les cas suivants :
-
-* Les adresses dont l&#39;état est **[!UICONTROL En erreur]** seront supprimées de la liste de quarantaine après une diffusion réussie.
-* Les adresses dont l&#39;état est **[!UICONTROL En erreur]** seront supprimées de la liste de quarantaine si la dernière erreur de type Soft a eu lieu il y a plus de 10 jours. Pour plus d&#39;informations sur la gestion des erreurs de type Soft, consultez [cette section](#soft-error-management).
-* Les adresses dont l&#39;état est **[!UICONTROL En erreur]** et qui ont rebondi avec l&#39;erreur **[!UICONTROL Boîte pleine]** sont supprimées de la liste de quarantaine après 30 jours.
-
-Leur état devient ensuite **[!UICONTROL Valide]**.
-
->[!IMPORTANT]
->Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un e-mail.
-
-Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers la méthode [MTA amélioré](sending-with-enhanced-mta.md), le nombre maximum de reprises à effectuer en cas de statut **[!UICONTROL En erreur]** et le délai minimum entre deux tentatives reposent désormais sur les performances historiques et actuelles d’une IP sur un domaine donné.
-
-Pour les installations on-premise et les installations hébergées/hybrides utilisant l’ancien MTA de Campaign, vous pouvez modifier le nombre d’erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l’[assistant de déploiement](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Canal e-mail]** > **[!UICONTROL Paramètres avancés]**) ou [au niveau de la diffusion](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
 ## Conditions de mise en quarantaine d’une adresse  {#conditions-for-sending-an-address-to-quarantine}
 
@@ -135,6 +107,7 @@ Adobe Campaign gère la mise en quarantaine en fonction du type d’échec de l
 Si un utilisateur qualifie un email comme du spam ([système de gestion des plaintes (feedback loop)](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#feedback-loops)), le message est automatiquement redirigé vers une boîte email technique gérée par Adobe. L’adresse e-mail de l’utilisateur est alors automatiquement mise en quarantaine avec le statut **[!UICONTROL Sur liste bloquée]**. Ce statut ne concerne que l’adresse. Le profil n’est pas placé sur liste bloquée afin que l’utilisateur puisse continuer à recevoir des SMS et des notifications push.
 
 >[!NOTE]
+>
 >La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu&#39;elles ne soient pas reciblées ultérieurement.
 
 Dans la liste des adresses en quarantaine (voir [Identifier les adresses en quarantaine pour l’ensemble de la plateforme](#identifying-quarantined-addresses-for-the-entire-platform)), le champ **[!UICONTROL Raison de l’erreur]** indique pourquoi l’adresse sélectionnée a été mise en quarantaine.
@@ -148,6 +121,57 @@ Contrairement aux erreurs de type Hard, les erreurs de type Soft ne provoquent p
 Les reprises seront effectuées pendant la [durée de diffusion](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period). Quand le compteur d&#39;erreurs atteint le seuil limite, l&#39;adresse passe en quarantaine. Pour en savoir plus, voir la section [Reprises après une diffusion temporairement en échec](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 Le compteur d&#39;erreurs est réinitialisé si la dernière erreur significative s&#39;est produite plus de 10 jours avant. Le statut de l&#39;adresse passe à **Valide** et est supprimé de la liste des quarantaines grâce au workflow [Nettoyage de la base](../../production/using/database-cleanup-workflow.md).
+
+
+Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers la méthode [MTA amélioré](sending-with-enhanced-mta.md), le nombre maximum de reprises à effectuer en cas de statut **[!UICONTROL En erreur]** et le délai minimum entre deux tentatives reposent désormais sur les performances historiques et actuelles d’une IP sur un domaine donné.
+
+Pour les installations on-premise et les installations hébergées/hybrides utilisant l’ancien MTA de Campaign, vous pouvez modifier le nombre d’erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l’[assistant de déploiement](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Canal e-mail]** > **[!UICONTROL Paramètres avancés]**) ou [au niveau de la diffusion](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
+
+
+## Supprimer une adresse de la quarantaine {#removing-a-quarantined-address}
+
+Les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaine par la fonction [Nettoyage de la base](../../production/using/database-cleanup-workflow.md) workflow.
+
+Les adresses sont automatiquement supprimées de la liste de quarantaine dans les cas suivants :
+
+* Les adresses dont l&#39;état est **[!UICONTROL En erreur]** seront supprimées de la liste de quarantaine après une diffusion réussie.
+* Les adresses dont l&#39;état est **[!UICONTROL En erreur]** seront supprimées de la liste de quarantaine si la dernière erreur de type Soft a eu lieu il y a plus de 10 jours. Pour plus d&#39;informations sur la gestion des erreurs de type Soft, consultez [cette section](#soft-error-management).
+* Les adresses dont l&#39;état est **[!UICONTROL En erreur]** et qui ont rebondi avec l&#39;erreur **[!UICONTROL Boîte pleine]** sont supprimées de la liste de quarantaine après 30 jours.
+
+Leur état devient ensuite **[!UICONTROL Valide]**.
+
+>[!IMPORTANT]
+>
+>Destinataires ayant une adresse dans un **[!UICONTROL Quarantaine]** ou **[!UICONTROL Placé sur la liste bloquée]** ne sont jamais supprimés, même s’ils reçoivent un courrier électronique.
+
+Vous pouvez également mettre une adresse en quarantaine manuellement. Pour supprimer manuellement une adresse de la liste de quarantaine, modifiez son statut en **[!UICONTROL Valide]** de la **[!UICONTROL Administration > Campaign Management > Gestion des échecs > Echecs et adresses]** noeud .
+
+![](assets/tech_quarant_error_status.png)
+
+Vous devrez peut-être effectuer des mises à jour en masse sur la liste de quarantaine, par exemple en cas de panne du FAI, où les emails sont marqués comme des bounces par erreur, car ils ne peuvent pas être correctement remis à leur destinataire.
+
+Pour ce faire, créez un workflow et ajoutez une requête sur votre table des quarantaines afin de filtrer tous les destinataires concernés afin qu&#39;ils puissent être supprimés de la liste des quarantaines et inclus dans les prochaines diffusions email de Campaign.
+
+Vous trouverez ci-dessous les instructions recommandées pour cette requête :
+
+* Pour les environnements Campaign v8 et Campaign Classic v7 avec les informations de règle de courrier électronique entrant dans **[!UICONTROL Texte de l’erreur]** champ de la liste de quarantaine :
+
+   * **Texte d&#39;erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient »
+   * **Domaine de l&#39;email (@domain)** égal à domain1.com OU **Domaine de l&#39;email (@domain)** égal à domain2.com OU **Domaine de l&#39;email (@domain)** égal à domain3.com
+   * **Mise à jour du statut (@lastModified)** sur ou après MM/JJ/AAAA HH:MM:SS AM
+   * **Mise à jour du statut (@lastModified)** sur ou avant MM/JJ/AAAA HH:MM:SS PM
+
+* Pour les instances de Campaign Classic v7 avec les informations de réponse de bounce SMTP dans **[!UICONTROL Texte de l’erreur]** champ de la liste de quarantaine :
+
+   * **Texte de l&#39;erreur (texte des quarantaines)** contient &quot;550-5.1.1&quot; ET **Texte de l&#39;erreur (texte des quarantaines)** contient &quot;support.ISP.com&quot;
+
+   où &quot;support.ISP.com&quot; peut être : &quot;support.apple.com&quot; ou &quot;support.google.com&quot;, par exemple
+
+   * **Mise à jour du statut (@lastModified)** sur ou après MM/JJ/AAAA HH:MM:SS AM
+   * **Mise à jour du statut (@lastModified)** sur ou avant MM/JJ/AAAA HH:MM:SS PM
+
+
+Une fois que vous disposez de la liste des destinataires concernés, ajoutez une **[!UICONTROL Mise à jour de données]** activité pour définir leur état sur **[!UICONTROL Valide]** afin qu’elles soient supprimées de la liste de quarantaine par la variable **[!UICONTROL Nettoyage de la base]** workflow, Vous pouvez également les supprimer de la table des quarantaines.
 
 ## Quarantaines des notifications push {#push-notification-quarantines}
 
@@ -261,15 +285,18 @@ Le workflow **[!UICONTROL mobileAppOptOutMgt]** s&#39;exécute toutes les 6 heu
 Pendant l&#39;analyse de la diffusion, tous les appareils qui sont exclus de la cible sont automatiquement ajoutés à la table **excludeLogAppSubRcp**.
 
 >[!NOTE]
+>
 >Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
+>
 >* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
 >* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
 >* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
+>
 >Adobe Campaign contacte le serveur Baidu toutes les 10 minutes pour récupérer le statut du message envoyé et met à jour les broadlogs. Si un message est déclaré comme envoyé, le statut du message dans les broadlogs est défini sur **[!UICONTROL Reçu]**. Si Baidu déclare une erreur, le statut est défini sur **[!UICONTROL Echoué]**.
 
 **Pour Android V2**
 
-Le mécanisme de mise en quarantaine d’Android V2 utilise le même processus qu’Android V1. Il en va de même pour la mise à jour des abonnements et des exclusions. Pour en savoir plus, consultez la section [Android V1](#android-quarantine).
+Le mécanisme de mise en quarantaine d&#39;Android V2 utilise le même processus qu&#39;Android V1. Il en va de même pour la mise à jour des abonnements et des exclusions. Pour en savoir plus, consultez la section [Android V1](#android-quarantine).
 
 <table> 
  <tbody> 
@@ -483,6 +510,7 @@ Le mécanisme de mise en quarantaine d’Android V2 utilise le même processus 
 Le mécanisme de quarantaine des messages SMS est globalement identique au processus général. Voir [À propos des quarantaines](#about-quarantines). Les spécificités des SMS sont énumérées ci-dessous.
 
 >[!NOTE]
+>
 >Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
 
 <table> 
@@ -541,7 +569,9 @@ Le connecteur SMPP récupère les données du message du SR (rapport d&#39;état
 Avant qu&#39;un nouveau type d&#39;erreur ne soit qualifié, la raison de l&#39;échec est toujours défini sur **Refusé** par défaut.
 
 >[!NOTE]
+>
 >Les raisons et les types des échecs sont les mêmes que pour les emails. Pour plus d&#39;informations, consultez la section [Types de diffusion en échec et raisons](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>
 >Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
 
 Exemple de message généré :
