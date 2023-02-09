@@ -54,8 +54,8 @@ Trois modes de protection de la connexion sont disponibles :
 
 Pour plus d’informations, consultez les sections suivantes :
 
-* [Documentation relative au Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+* [Documentation relative au Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
 * [Modèles d&#39;hébergement](hosting-models.md)
-* [Paramétrage du serveur Campaign](configuring-campaign-server.md)
-* [Paramétrage du serveur Campaign   paramètres de fichier](the-server-configuration-file.md)
+* [Paramétrage du serveur Campaign  ](configuring-campaign-server.md)
+* [Paramètres du fichier de configuration du serveur Campaign](the-server-configuration-file.md)
 * [Liste de contrôle relative à la sécurité et à la confidentialité](get-started-security-privacy.md)

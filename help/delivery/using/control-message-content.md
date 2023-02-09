@@ -5,7 +5,7 @@ description: En savoir plus sur la gestion de la délivrabilité dans Adobe Cam
 feature: Deliverability
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 100%
 
@@ -47,17 +47,17 @@ Pour plus d’informations sur l’utilisation des champs de personnalisation da
 
 Vous trouverez dans [cette section](design-and-personalize.md#optimize-personalization) un certain nombre de conseils pour optimiser la personnalisation lors de la création de votre contenu.
 
-## Lien et formulaire d’exclusion {#opt-out}
+## Lien et formulaire d’opt-out {#opt-out}
 
-Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse qu’un lien d’exclusion est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence. On peut éventuellement modifier le niveau d’alerte de cette règle afin qu’elle génère une erreur, de façon à ce qu’en aucun cas une diffusion ne puisse être démarrée sans ce lien.
+Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse qu’un lien d’opt-out est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence. On peut éventuellement modifier le niveau d’alerte de cette règle afin qu’elle génère une erreur, de façon à ce qu’en aucun cas une diffusion ne puisse être démarrée sans ce lien.
 
-Il faut vérifier du début à la fin le bon fonctionnement du lien d’exclusion avant chaque envoi. Par exemple, lors de l’envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que sa validation change bien la valeur de **[!UICONTROL Ne plus contacter cette personne]** à **[!UICONTROL Oui]**. Cette vérification doit être systématique car on ne peut pas exclure une erreur humaine dans la saisie du lien ou dans la modification du formulaire.
+Il faut vérifier du début à la fin le bon fonctionnement du lien d’opt-out avant chaque envoi. Par exemple, lors de l’envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que sa validation change bien la valeur de **[!UICONTROL Ne plus contacter cette personne]** à **[!UICONTROL Oui]**. Cette vérification doit être systématique car on ne peut pas exclure une erreur humaine dans la saisie du lien ou dans la modification du formulaire.
 
-Découvrez comment insérer un lien d’exclusion [dans cette section](personalization-blocks.md#personalization-blocks-example).
+Découvrez comment insérer un lien d&#39;opt-out [dans cette section](personalization-blocks.md#personalization-blocks-example).
 
-Au cas où un problème empêchant l’exclusion ne serait détecté qu’après le démarrage de la diffusion, il sera toutefois possible d’exclure manuellement (à l’aide d’une mise à jour en masse, par exemple) les destinataires qui ont cliqué sur le lien d’exclusion, même s’ils n’ont pas pu confirmer ce choix.
+Au cas où un problème empêchant l’exclusion ne serait détecté qu’après le démarrage de la diffusion, il sera toutefois possible d’exclure manuellement (à l’aide d’une mise à jour en masse, par exemple) les destinataires qui ont cliqué sur le lien d’opt-out, même s’ils n’ont pas pu confirmer ce choix.
 
-Il est recommandé de ne pas empêcher les destinataires qui souhaitent s’exclure en les obligeant à remplir des champs tels que leur adresse email ou leur nom, par exemple. Le formulaire ne doit comporter qu’un seul bouton de validation et la réconciliation ne doit être effectuée que sur l’identifiant chiffré.
+Il est recommandé de ne pas empêcher les destinataires qui souhaitent s’exclure en les obligeant à remplir des champs tels que leur adresse e-mail ou leur nom, par exemple. Le formulaire ne doit comporter qu’un seul bouton de validation et la réconciliation ne doit être effectuée que sur l’identifiant chiffré.
 
 Demander une confirmation supplémentaire n’est pas fiable, car un utilisateur peut disposer de deux adresses email redirigées vers la même boîte (par exemple : prénom.nom@club.com et prénom.nom@internet-club.com). Si le destinataire est capable de se souvenir uniquement de la première adresse et souhaite s’exclure via un message envoyé à l’autre, le formulaire refusera cette adresse, car l’identifiant chiffré et l’adresse email saisie ne correspondront pas.
 

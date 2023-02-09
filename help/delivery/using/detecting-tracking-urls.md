@@ -5,7 +5,7 @@ description: En savoir plus sur le modèle recommandé pour suivre les URL
 feature: Monitoring
 exl-id: 7611d6a1-6c55-4ba3-b905-58426c944991
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 

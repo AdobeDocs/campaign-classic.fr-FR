@@ -5,7 +5,7 @@ description: Personnes et destinataires
 feature: Reporting
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 

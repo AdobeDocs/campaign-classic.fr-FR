@@ -5,7 +5,7 @@ description: Créer une liste récapitulative
 feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 100%
 
@@ -160,7 +160,7 @@ L&#39;objectif de ce deuxième enrichissement est de créer un agrégat sur le s
 
 Pour préparer la liste récapitulative, il est nécessaire d&#39;ajouter des champs provenant du schéma &quot;Achats&quot; ainsi que du premier enrichissement : le champ &quot;ZipCode Reference&quot;.
 
-1. Cliquez sur le lien **[!UICONTROL Éditer les données additionnelles...]** dans l&#39;activité d&#39;enrichissement.
+1. Cliquez sur le lien **[!UICONTROL Modifier les données additionnelles...]** dans l&#39;activité d&#39;enrichissement.
 1. Ajoutez les champs &quot;Achats / Nom Boutique&quot; et &quot;Achats / Zip Code Reference&quot;.
 
    ![](assets/uc2_enrich_enrich7.png)

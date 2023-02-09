@@ -5,7 +5,7 @@ description: Découvrez comment envoyer un rapport à une liste à l’aide d’
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Pour plus d&#39;informations sur la création de listes, reportez-vous à cette 
 
 ## Etape 2 : création du modèle de diffusion {#step-2--creating-the-delivery-template}
 
-1. Dans l&#39;explorateur Adobe Campaign, positionnez-vous sur le noeud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]** et dupliquez le modèle d&#39;usine **[!UICONTROL Diffuser par email]**.
+1. Dans l&#39;explorateur Adobe Campaign, positionnez-vous sur le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]** et dupliquez le modèle d&#39;usine **[!UICONTROL Diffuser par e-mail]**.
 
    ![](assets/use_case_report_2.png)
 

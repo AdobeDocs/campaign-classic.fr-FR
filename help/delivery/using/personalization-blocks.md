@@ -5,7 +5,7 @@ description: Découvrez comment utiliser les blocs de personnalisation
 feature: Personalization
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 100%
 

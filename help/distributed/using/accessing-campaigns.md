@@ -5,7 +5,7 @@ description: Accéder aux opérations
 feature: Distributed Marketing
 exl-id: 5534bd5b-6888-4bf6-8a39-109c6fc0f6c3
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%
 

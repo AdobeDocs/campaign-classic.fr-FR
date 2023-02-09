@@ -4,7 +4,7 @@ title: Structure d'un formulaire
 description: Structure d'un formulaire
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Découvrez les raisons des échecs de vos diffusions
 feature: Monitoring, Deliverability
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2665'
 ht-degree: 100%
 

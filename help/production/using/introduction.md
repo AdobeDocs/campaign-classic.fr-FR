@@ -17,14 +17,14 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Ce chapitre présente la procédure à suivre pour mettre à jour Adobe Campaign avec une nouvelle version, côté client et côté serveur, et décrit le mode de transformation en Unicode d&#39;une instance existante.
+Ce chapitre présente la procédure à suivre pour mettre à niveau Adobe Campaign avec une nouvelle version, côté client et côté serveur, et décrit le mode de transformation en Unicode d&#39;une instance existante.
 
 >[!NOTE]
 >
 >Pour les instances hébergées, vous devez collaborer avec votre administrateur Adobe.\
 >Pour les instances on-premise, vous pouvez obtenir de l&#39;aide auprès des consultants Adobe.
 
-L&#39;opération de mise à jour doit être effectuée sur l&#39;ensemble des serveurs où Adobe Campaign est installé.
+L&#39;opération de mise à niveau doit être effectuée sur l&#39;ensemble des serveurs où Adobe Campaign est installé.
 
 1. Migrez les serveurs de redirection et de tracking (Apache / IIS).
 1. Migrez les serveurs de Power Booster/Cluster.

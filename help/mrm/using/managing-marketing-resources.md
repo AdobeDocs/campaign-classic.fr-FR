@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Gestion des ressources marketing
+title: Gérer des ressources marketing
 description: Découvrez comment gérer les ressources marketing
 audience: campaign
 content-type: reference
@@ -64,7 +64,7 @@ Vous pouvez modifier et mettre à jour une ressource marketing et, au besoin, en
 
 ### Verrouiller/déverrouiller une ressource {#locking-unlocking-a-resource}
 
-Une fois créées, les ressources sont disponibles dans le tableau de bord des ressources marketing et les opérateurs peuvent les éditer et les modifier.
+Une fois créées, les ressources sont disponibles dans le tableau de bord des ressources marketing et les opérateurs et opératrices peuvent les éditer et les modifier.
 
 Lorsqu&#39;un opérateur souhaite travailler sur une ressource, il est préférable de la verrouiller au préalable, afin d&#39;éviter à tout autre opérateur d&#39;y apporter des modifications simultanément. La ressource lui est alors réservée : elle reste accessible mais ne peut être aucunement publiée ni mise à jour sur le serveur par un autre opérateur.
 
@@ -92,7 +92,7 @@ Vous pouvez également, au besoin, la déverrouiller manuellement depuis le tabl
 
 >[!NOTE]
 >
->Seul l&#39;opérateur ayant verrouillé la ressource et les opérateurs ayant des droits Administrateur sont autorisés à déverrouiller une ressource verrouillée.
+>Seul l’opérateur ou l’opératrice ayant verrouillé la ressource et les opérateurs et opératrices ayant des droits Administrateur sont autorisés à déverrouiller une ressource verrouillée.
 
 ### Forums de discussion {#discussion-forums}
 
@@ -110,7 +110,7 @@ L&#39;onglet **[!UICONTROL Historique]** affiche les transferts de fichiers réa
 
 ### Processus de validation {#approval-process}
 
-La date de disponibilité attendue est affichée dans le détail de la ressource, si celle-ci a été indiquée dans l&#39;onglet **[!UICONTROL Tracking]**. Une fois cette date atteinte, il est possible de lancer le processus de validation via le bouton **[!UICONTROL Soumettre à validation]** du tableau de bord de la ressource. La ressource passe alors dans l&#39;état **[!UICONTROL En cours de validation]**.
+La date de disponibilité attendue est affichée dans le détail de la ressource, si celle-ci a été indiquée dans l’onglet **[!UICONTROL Tracking]**. Une fois cette date atteinte, il est possible de lancer le processus de validation via le bouton **[!UICONTROL Soumettre à validation]** du tableau de bord de la ressource. La ressource passe alors dans l’état **[!UICONTROL En cours de validation]**.
 
 Une ressource peut être validée via le bouton **[!UICONTROL Valider la ressource]** de son tableau de bord.
 
@@ -189,7 +189,7 @@ Les ressources marketing peuvent être associées à des diffusions via les comp
 
 ## Gestion des stocks {#stock-management}
 
-Vous pouvez associer une ressource marketing à un ou plusieurs stocks afin de gérer l&#39;approvisionnement et, au besoin, en cas de stock insuffisant, afficher une alerte dans le tableau de bord.
+Vous pouvez associer une ressource marketing à un ou plusieurs stocks afin de gérer l’approvisionnement et, au besoin, en cas de stock insuffisant, afficher une alerte dans le tableau de bord.
 
 >[!NOTE]
 >

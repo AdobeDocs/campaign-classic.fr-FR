@@ -1,10 +1,10 @@
 ---
 product: campaign
 title: Configuration supplémentaire
-description: 'Configuration '
+description: Configuration
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 

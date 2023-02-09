@@ -5,7 +5,7 @@ description: Joindre des fichiers
 feature: Email
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 100%
 

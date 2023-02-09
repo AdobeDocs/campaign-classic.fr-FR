@@ -4,7 +4,7 @@ title: Implémenter des méthodes SOAP
 description: Implémenter des méthodes SOAP
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 

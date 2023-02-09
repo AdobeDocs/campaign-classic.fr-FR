@@ -105,7 +105,7 @@ Cliquez sur **[!UICONTROL Ok]** puis renseignez le taux d&#39;utilisation : il 
 
 Par exemple, pour une tâche dont le planning de réalisation est fixé à 10 jours, un opérateur pour lequel le taux d’utilisation est de 50 % sera mobilisé pour la moitié de son temps de travail sur la réalisation de cette tâche, pendant les 10 jours prévus.
 
-Il est également possible de renseigner, pour chaque opérateur, une charge planifiée ainsi qu&#39;une charge réalisée. Ces durées sont également indicatives.
+Il est également possible de renseigner, pour chaque opérateur ou opératrice, une charge planifiée ainsi qu’une charge réalisée. Ces durées sont également indicatives.
 
 Vous avez la possibilité de définir un rappel qui sera automatiquement envoyé aux opérateurs impliqués dans la réalisation de la tâche, avant la date de fin de la tâche.
 

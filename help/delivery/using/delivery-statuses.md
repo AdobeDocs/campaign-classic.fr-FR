@@ -5,7 +5,7 @@ description: En savoir plus sur les statuts disponibles sur votre tableau de bor
 feature: Monitoring, Deliverability
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
 

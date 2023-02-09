@@ -5,8 +5,8 @@ description: Règles de pression
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '3460'
 ht-degree: 100%
 
 ---
@@ -115,7 +115,7 @@ Vous pouvez indexer le nombre de messages autorisés en fonction du segment auqu
 
 Vous pouvez utiliser une dimension liée à la dimension de ciblage pour définir le seuil : par exemple, inclure les messages envoyés aux profils de destinataires stockés dans la table des visiteurs (pour plus d&#39;informations sur la table des visiteurs, reportez-vous à [cette section](../../surveys/using/use-case--creating-a-refer-a-friend-form.md)) ou ne pas envoyer plus d&#39;un message par semaine à un même foyer (qui peut potentiellement référencer plusieurs adresses email), identifié dans une dimension liée à celle des destinataires.
 
-Pour cela, sélectionnez l&#39;option **[!UICONTROL Comptabiliser les messages sur une dimension liée]** puis de sélectionner la table des visiteurs ou celle des contrats.
+Pour cela, sélectionnez l&#39;option **[!UICONTROL Comptabiliser les messages sur une dimension liée]**, puis sélectionnez la table des visiteurs ou celle des contrats.
 
 ### Poids du message {#message-weight}
 

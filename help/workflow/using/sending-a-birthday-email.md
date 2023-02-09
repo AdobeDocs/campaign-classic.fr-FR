@@ -5,7 +5,7 @@ description: Découvrez comment envoyer un e-mail d’anniversaire à l’aide d
 feature: Workflows
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 100%
 
@@ -204,6 +204,6 @@ Ajoutez une activité de type **Diffusion récurrente** basée sur le modèle de
 >
 >Pour que les workflows s’exécutent, les workflows techniques liés au package Campaign doivent être démarrés. Voir à ce sujet la section [Liste des workflows techniques](about-technical-workflows.md).
 >
->Si les étapes d’approbation sont activées pour la campagne, les diffusions ne sont envoyées qu’une fois ces étapes confirmées. Voir à ce sujet la section [Choix des processus à approuver](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved).
+>Si les étapes d&#39;approbation sont activées pour la campagne, les diffusions ne sont envoyées qu&#39;une fois ces étapes confirmées. Voir à ce sujet la section [Choix des processus à approuver](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved).
 
 ![](assets/birthday-workflow_usecase_1.png)

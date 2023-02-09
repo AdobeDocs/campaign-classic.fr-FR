@@ -5,7 +5,7 @@ description: Ajouter des adresses de contrôle
 feature: Seed Address
 exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 100%
 

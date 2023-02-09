@@ -5,8 +5,8 @@ description: Prise en main des cubes
 feature: Reporting
 exl-id: 71d24f03-d41d-49bc-b9a5-8237902f7d6a
 source-git-commit: c1be67d32c39d20f7794b6019a6e03c9ec29df94
-workflow-type: ht
-source-wordcount: '345'
+workflow-type: tm+mt
+source-wordcount: '343'
 ht-degree: 100%
 
 ---
@@ -45,4 +45,4 @@ Le module Marketing Analytics de Campaign vous permet de :
 1. Construire des requêtes à partir des données calculées et agrégées dans un cube.
 1. Identifier des populations et les référencer dans des listes.
 
-Découvrez comment créer et utiliser des cubes dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=fr){target=&quot;_blank&quot;}.
+Découvrez comment créer et utiliser des cubes dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=fr){target="_blank"}.

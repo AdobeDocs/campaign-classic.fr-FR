@@ -11,7 +11,7 @@ ht-degree: 100%
 
 ---
 
-# Définition du contenu d’e-mail {#defining-the-email-content}
+# Définition du contenu de l’e-mail {#defining-the-email-content}
 
 ![](../../assets/common.svg)
 

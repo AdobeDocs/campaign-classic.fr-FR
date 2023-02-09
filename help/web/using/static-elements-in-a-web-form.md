@@ -5,7 +5,7 @@ description: Eléments statiques dans un formulaire web
 feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 100%
 

@@ -7,7 +7,7 @@ role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Par défaut, les destinataires sont stockés dans le nœud **[!UICONTROL Profils
 
 * trier et filtrer les profils de la base de données - [En savoir plus](../../platform/using/filtering-options.md)
 * déplacer, copier ou enlever des profils de la base de données - [En savoir plus](../../platform/using/managing-profiles.md)
-* modifier un profil - [En savoir plus](../../platform/using/updating-data.md)
+* mettre à jour un profil - [En savoir plus](../../platform/using/updating-data.md)
 * exporter des destinataires - [En savoir plus](../../platform/using/exporting-and-importing-profiles.md)
 * créer des groupes de destinataires - [En savoir plus](../../platform/using/creating-and-managing-lists.md)
 

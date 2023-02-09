@@ -5,7 +5,7 @@ description: Découvrez comment capturer les rendus d'email et y accéder dans u
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: 048189f49623cf00f4c3f1f34ff4b795d80391ef
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 100%
 

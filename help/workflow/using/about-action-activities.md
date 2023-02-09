@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: À propos des activités d’action
-description: À propos des activités d’action
+description: À propos des activités d'action
 feature: Workflows, Data Management
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f

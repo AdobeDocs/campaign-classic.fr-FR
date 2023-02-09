@@ -5,7 +5,7 @@ description: Découvrez comment confirmer la diffusion d’un e-mail, ainsi que 
 feature: Email
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 
@@ -33,6 +33,6 @@ Une fois votre email créé et configuré, vous pouvez l’envoyer à la cible p
 Les sections suivantes décrivent en détail les paramètres et les configurations spécifiques à la diffusion d’emails :
 <!--* [Generating the mirror page](generating-mirror-page.md)
 * [Email BCC](email-bcc.md)-->
-* [Paramètres de l’email](email-parameters.md)
+* [Paramètres de l’e-mail](email-parameters.md)
 * [Envoi d’e-mails avec le MTA amélioré](sending-with-enhanced-mta.md)
 * [Envoi dʼe-mails sur mobiles japonais](sending-emails-on-japanese-mobiles.md)

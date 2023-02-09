@@ -5,7 +5,7 @@ description: Découvrez comment effectuer le tracking et la surveillance des mes
 feature: Monitoring
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 

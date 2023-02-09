@@ -4,7 +4,7 @@ title: Configurer l’accès à Microsoft SQL Server
 description: Découvrez comment configurer l’accès à Microsoft SQL Server
 exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
 source-git-commit: 6b7638eec1718edf30f81005cd6691dd271aaa0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 100%
 

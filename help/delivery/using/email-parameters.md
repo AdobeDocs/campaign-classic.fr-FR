@@ -5,13 +5,13 @@ description: Découvrez les options et les paramètres spécifiques à la diffus
 feature: Email
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 
 ---
 
-# Paramètres de l’email {#email-parameters}
+# Paramètres de l’e-mail {#email-parameters}
 
 ![](../../assets/common.svg)
 

@@ -4,7 +4,7 @@ title: Collecter toutes les visites
 description: Collecter toutes les visites
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 

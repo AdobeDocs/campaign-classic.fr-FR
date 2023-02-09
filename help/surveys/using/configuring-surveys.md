@@ -5,7 +5,7 @@ description: Découvrez comment configurer des questionnaires en ligne
 feature: Surveys
 exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
 source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 100%
 

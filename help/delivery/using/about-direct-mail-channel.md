@@ -5,7 +5,7 @@ description: À propos du canal Courrier
 feature: Direct Mail
 exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 100%
 

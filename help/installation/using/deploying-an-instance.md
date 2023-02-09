@@ -53,7 +53,7 @@ La section inférieure de la fenêtre permet de sélectionner les options à act
 
 * **[!UICONTROL Identifiant client pour la facturation]** : il peut s’agir par exemple du nom de l’instance et du numéro de version.
 * **[!UICONTROL Nom usuel du client]** : saisissez le nom de votre société. Cette information est notamment utilisée notamment dans les liens de désabonnement.
-* **[!UICONTROL Espace de noms]** : saisissez ici un identifiant court, en minuscules. L’objectif consiste à distinguer votre configuration spécifique de la configuration d’usine en cas de mise à jour. L’espace de noms par défaut est **cus** - pour customer (client).
+* **[!UICONTROL Espace de noms]** : saisissez ici un identifiant court, en minuscules. L’objectif consiste à distinguer votre configuration spécifique de la configuration d’usine en cas de mise à niveau. L’espace de noms par défaut est **cus** - pour customer (client).
 
 ### Options techniques {#technical-options}
 

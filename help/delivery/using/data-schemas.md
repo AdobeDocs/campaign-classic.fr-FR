@@ -5,7 +5,7 @@ description: Découvrez comment utiliser les schémas de données dans Campaign.
 feature: Data Model
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
 

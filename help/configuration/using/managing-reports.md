@@ -4,7 +4,7 @@ title: Gestion des rapports
 description: Gestion des rapports
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
 source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
 

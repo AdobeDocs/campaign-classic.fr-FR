@@ -5,7 +5,7 @@ description: Découvrez comment définir l’audience de vos campagnes marketing
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Dans une opération marketing, pour chaque diffusion, vous pouvez définir :
+Dans une campagne marketing, pour chaque diffusion, vous pouvez définir :
 
 * L’audience : en savoir plus dans les sections [Création de l’audience dans un workflow](#building-the-main-target-in-a-workflow) et [Sélection de la population cible](#selecting-the-target-population).
 * Une population témoin : en savoir plus dans [cette section](#defining-a-control-group).
@@ -49,7 +49,7 @@ La cible principale d’une diffusion peut également être définie au travers 
 
 ### Créer le workflow {#creating-a-targeting-workflow}
 
-Le ciblage peut être construit grâce à une combinaison de critères de filtrage, enchaînés graphiquement dans un workflow. Vous pouvez ainsi créer des populations et sous-populations qui seront ciblées selon vos besoins. Pour afficher l&#39;éditeur de workflows, cliquez sur l&#39;onglet **[!UICONTROL Ciblages et workflows]** dans le tableau de bord des campagnes.
+Le ciblage peut être construit grâce à une combinaison de critères de filtrage, enchaînés graphiquement dans un workflow. Vous pouvez ainsi créer des populations et sous-populations qui seront ciblées selon vos besoins. Pour afficher l&#39;éditeur de workflows, cliquez sur l&#39;onglet **[!UICONTROL Ciblages et workflows]** dans le tableau de bord de la campagne.
 
 ![](assets/s_ncs_user_edit_op_wf_link.png)
 

@@ -5,7 +5,7 @@ description: Rendu du formulaire
 feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 100%
 

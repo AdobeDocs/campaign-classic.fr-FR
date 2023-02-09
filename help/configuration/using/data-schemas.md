@@ -5,7 +5,7 @@ description: Prise en main des schémas de données de Campaign
 feature: Schema Extension
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
 

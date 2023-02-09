@@ -5,7 +5,7 @@ description: Découvrez les bonnes pratiques relatives à la conception et à l�
 feature: Deliverability
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
 

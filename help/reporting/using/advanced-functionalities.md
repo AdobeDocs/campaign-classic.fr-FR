@@ -5,7 +5,7 @@ description: Découvrez-en plus sur les fonctionnalités avancées lorsque vous 
 feature: Reporting
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 100%
 

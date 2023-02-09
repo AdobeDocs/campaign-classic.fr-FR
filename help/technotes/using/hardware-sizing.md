@@ -4,7 +4,7 @@ title: Recommandations relatives au dimensionnement du matériel pour Campaign C
 description: Recommandations relatives au dimensionnement du matériel pour Campaign Classic v7
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Les applications web de Campaign peuvent également être déployées sur les se
 
 Pour des raisons de sécurité et de disponibilité, Adobe recommande de séparer le trafic Internet du trafic généré par les utilisateurs professionnels. Pour cette raison, les diagrammes contiennent deux groupes de serveurs : le serveur web (Web1 et Web2 avec accès via Internet) et les serveurs d’applications (App1 et App2 avec processus d’entreprise).
 
-Les expéditeurs d’e-mails commerciaux ont l’obligation légale de disposer d’une page web de désinscription fonctionnelle. Adobe recommande de disposer d’une machine redondante dans chacun des serveurs de ces groupes pour les scénarios de basculement. C’est d’autant plus vrai si Adobe Campaign héberge les pages de désinscription.
+Les expéditeurs d’e-mails commerciaux ont l’obligation légale de disposer d’une page web d&#39;opt-out fonctionnelle. Adobe recommande de disposer d’une machine redondante dans chacun des serveurs de ces groupes pour les scénarios de basculement. C’est d’autant plus vrai si Adobe Campaign héberge les pages d&#39;opt-out.
 
 ### Serveurs proxy inverses
 
@@ -104,7 +104,7 @@ Ces systèmes créent le serveur d’application de l’instance marketing, qui 
 
 Configurez des proxys inverses dans le trafic de répartition de charge DMZ vers les serveurs web Adobe Campaign. Il n’est pas nécessaire d’installer la pile logicielle Adobe Campaign sur des ordinateurs proxy. Tout logiciel ou équipement réseau de proxy inverse peut être utilisé.
 
-Les fonctionnalités de centre de préférences et d’inscription/désinscription d’un abonnement peuvent être fournies par Campaign ou par votre propre site web. Si vous choisissez d’implémenter cette fonctionnalité sur votre site web, vous devez vous assurer que les informations de préférence et d’abonnement sont propagées à la base de données marketing de Campaign. Cela s’effectue généralement à travers la création de fichiers d’extraction qui sont automatiquement chargés par les workflows de Campaign.
+Les fonctionnalités de centre de préférences et d’opt-in/opt-out d’un abonnement peuvent être fournies par Campaign ou par votre propre site web. Si vous choisissez d’implémenter cette fonctionnalité sur votre site web, vous devez vous assurer que les informations de préférence et d’abonnement sont propagées à la base de données marketing de Campaign. Cela s’effectue généralement à travers la création de fichiers d’extraction qui sont automatiquement chargés par les workflows de Campaign.
 
 La consommation d’espace disque sur les serveurs d’application dépend de la période de rétention des fichiers échangés avec les fournisseurs de services tiers (par exemple, les fournisseurs de services d’impression pour le publipostage direct). Cela dépend également de la taille et de la rétention des fichiers plats importés, comme les mises à jour d’abonnement ou de préférences de votre site web, ou des extraits de vos propres systèmes marketing ou CRM.
 

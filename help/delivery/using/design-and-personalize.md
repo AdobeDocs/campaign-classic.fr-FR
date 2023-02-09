@@ -5,7 +5,7 @@ description: Découvrez comment créer du contenu personnalisé dans les diffusi
 feature: Email Design, Personalization
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 100%
 
@@ -70,11 +70,11 @@ Incluez toujours un lien de page miroir. La partie supérieure de l&#39;e-mail c
 
 ### Lien de désabonnement
 
-Le lien de désabonnement est indispensable. Il doit être visible, valide et le formulaire doit être fonctionnel. Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse du message qu’un lien de désinscription est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence.
+Le lien de désabonnement est indispensable. Il doit être visible, valide et le formulaire doit être fonctionnel. Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse du message qu’un lien d&#39;opt-out est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence.
 
 **Conseil** : comme une erreur humaine est toujours possible, vérifiez du début à la fin le bon fonctionnement du lien de désabonnement avant chaque envoi. Par exemple, lors de l’envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que la valeur du champ Ne plus contacter cette personne est changée en Oui.
 
-Découvrez comment insérer un lien d&#39;exclusion [dans cette section](personalization-blocks.md#personalization-blocks-example).
+Découvrez comment insérer un lien d&#39;opt-out [dans cette section](personalization-blocks.md#personalization-blocks-example).
 
 ### Taille des emails
 

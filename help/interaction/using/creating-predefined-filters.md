@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: 399e9468-bf70-425d-af0b-72c29636b513
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 100%
 

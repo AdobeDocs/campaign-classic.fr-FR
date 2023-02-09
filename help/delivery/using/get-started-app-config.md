@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: 'Configurer lʼapplication mobile dans Adobe Campaign '
+title: Configurer lʼapplication mobile dans Adobe Campaign
 description: Découvrez comment débuter avec la configuration de l'application mobile
 feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%
 

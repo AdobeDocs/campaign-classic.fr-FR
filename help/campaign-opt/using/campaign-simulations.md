@@ -5,8 +5,8 @@ description: Prise en main des simulations de campagnes
 feature: Campaigns
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '1376'
 ht-degree: 100%
 
 ---
@@ -188,7 +188,7 @@ Pour comparer les résultats, vous devez utiliser les rapports. En effet, Adobe�
 
 ### Axes de reporting {#reporting-axes}
 
-L’onglet **[!UICONTROL Calculs]** vous permet de définir des axes de reporting sur la cible. Ces axes seront utilisés lors de l’analyse des résultats (voir [Explorer les résultats](#exploring-results)).
+L&#39;onglet **[!UICONTROL Calculs]** vous permet de définir des axes de reporting sur la cible. Ces axes seront utilisés lors de l’analyse des résultats (voir [Explorer les résultats](#exploring-results)).
 
 >[!NOTE]
 >

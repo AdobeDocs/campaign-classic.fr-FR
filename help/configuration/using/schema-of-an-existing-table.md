@@ -4,7 +4,7 @@ title: Schéma d'une table existante
 description: Schéma d'une table existante
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Prise en main des services et des abonnements dans Adobe Campaign
 feature: Subscriptions
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 100%
 

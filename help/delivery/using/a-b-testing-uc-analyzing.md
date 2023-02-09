@@ -5,7 +5,7 @@ description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼ
 feature: A/B Testing
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 

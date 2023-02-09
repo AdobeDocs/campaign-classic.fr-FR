@@ -5,7 +5,7 @@ description: Découvrez comment personnaliser les messages et utiliser un conten
 feature: Personalization
 exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 

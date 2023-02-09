@@ -5,7 +5,7 @@ description: Découvrez comment créer des notifications push pour Android
 feature: Push
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 100%
 

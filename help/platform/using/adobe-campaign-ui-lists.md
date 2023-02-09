@@ -5,7 +5,7 @@ description: Découvrez comment parcourir et configurer des listes
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
 

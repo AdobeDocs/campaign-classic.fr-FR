@@ -5,7 +5,7 @@ description: '« Cas d’utilisation : créer des vues dʼensemble »'
 feature: Web Apps
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Dans l&#39;exemple qui suit, vous allez créer des applications web de type vue 
 
 1. Modifiez le titre de votre page.
 
-   C&#39;est ce titre qui apparaîtra en tête de la vue d&#39;ensemble, ainsi que dans l&#39;aperçu de l&#39;application web.
+   C&#39;est ce titre qui apparaîtra dans l&#39;en-tête d&#39;aperçu, ainsi que dans l&#39;aperçu de l&#39;application web.
 
 1. Dans les propriétés de l&#39;application web, modifiez le rendu de votre application web en sélectionnant le modèle **[!UICONTROL Application web Mono-page]**.
 

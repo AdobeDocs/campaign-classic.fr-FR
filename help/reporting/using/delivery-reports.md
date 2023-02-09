@@ -5,7 +5,7 @@ description: Rapports sur les diffusions
 feature: Reporting
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 source-git-commit: 64d97c7879320296a5f8efc5bb5bc2bea8663c08
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Ce rapport regroupe les indicateurs clés qui permettent de suivre le comporteme
 
 * **[!UICONTROL Ouvertures distinctes pour la population atteinte]** : estimation du nombre de destinataires ciblés ayant ouvert un message au moins une fois. Les clics sur les URL trackées sont pris en compte, car il faut ouvrir les e-mails pour cliquer sur un lien.
 * **[!UICONTROL Somme des ouvertures sur la population atteinte]** : Estimation du nombre total d&#39;ouvertures effectuées par des destinataires ciblés.
-* **[!UICONTROL Clics sur le lien de désinscription]** : Nombre de clics effectués sur le lien de désinscription.
+* **[!UICONTROL Clics sur le lien d&#39;opt-out]** : Nombre de clics effectués sur le lien d&#39;opt-out.
 * **[!UICONTROL Clics sur le lien de la page miroir]** : Nombre de clics effectués sur le lien de la page miroir. Pour être comptabilisé, le lien doit être défini comme tel dans l&#39;assistant de diffusion (URL trackées). Reportez-vous à cette [page](../../delivery/using/about-delivery-monitoring.md).
 * **[!UICONTROL Estimation des transferts]** : Estimation du nombre d&#39;emails transférés par les destinataires cibles de la diffusion à d&#39;autres personnes. Cette valeur est calculée en effectuant la différence entre le nombre de personnes distinctes et le nombre de destinataires distincts ayant cliqué au moins une fois dans le mail.
 
@@ -96,7 +96,7 @@ Ce tableau de valeurs présente la répartition, par domaine Internet, des envoi
 * **[!UICONTROL Clics distincts sur la population atteinte]** : Nombre de personnes distinctes ayant cliqué au moins une fois dans une même diffusion.
 * **[!UICONTROL Clics cumulés]** : Nombre total de clics effectués par des destinataires ciblés, hors liens de désinscription et pages miroir.
 * **[!UICONTROL Clics des destinataires]** : Nombre de destinataires ciblés distincts ayant cliqué au moins une fois dans une même diffusion.
-* **[!UICONTROL Réactivité estimée des destinataires]** : Ratio du nombre de destinataires ayant cliqué au moins une fois dans une même diffusion par rapport à l&#39;estimation du nombre de destinataires ayant ouvert au moins une fois une même diffusion. Ne tient pas compte des clics sur le lien de désinscription et la page miroir.
+* **[!UICONTROL Réactivité estimée des destinataires]** : Ratio du nombre de destinataires ayant cliqué au moins une fois dans une même diffusion par rapport à l&#39;estimation du nombre de destinataires ayant ouvert au moins une fois une même diffusion. Ne tient pas compte des clics sur le lien d&#39;opt-out et la page miroir.
 
 **[!UICONTROL 5. Tracking web]**
 
@@ -126,7 +126,7 @@ Vous pouvez paramétrer le contenu de ce rapport en sélectionnant : le palmar�
 
 Dans la section supérieure du rapport, les taux suivants sont affichés :
 
-* **[!UICONTROL Réactivité]** : Ratio du nombre de destinataires ciblés ayant cliqué au moins une fois dans une même diffusion par rapport à l&#39;estimation du nombre de destinataires ciblés ayant ouvert au moins une fois une même diffusion. Ne tient pas compte des clics sur le lien de désinscription et la page miroir.
+* **[!UICONTROL Réactivité]** : Ratio du nombre de destinataires ciblés ayant cliqué au moins une fois dans une même diffusion par rapport à l&#39;estimation du nombre de destinataires ciblés ayant ouvert au moins une fois une même diffusion. Ne tient pas compte des clics sur le lien d&#39;opt-out et la page miroir.
 
    >[!NOTE]
    >
@@ -193,5 +193,5 @@ Il vous permet de suivre l&#39;impact marketing de la diffusion. Vous pouvez par
 Ce rapport se présente sous la forme d&#39;un tableau de valeur et d&#39;un diagramme de Pareto permettant de mesurer le temps mis pour que la diffusion atteigne son efficacité maximum. Les indicateurs utilisés sont les suivants :
 
 * **[!UICONTROL Ouvertures]** : estimation du temps mis pour atteindre un pourcentage du nombre total de messages ouverts. Les emails au format texte ne sont pas comptabilisés. Pour plus d’informations sur le tracking des ouvertures, consultez la section [Tracking des ouvertures](../../reporting/using/indicator-calculation.md#tracking-opens-).
-* **[!UICONTROL Clics]** : Estimation du temps mis pour atteindre un pourcentage du nombre total de clics enregistrés. Les clics sur le lien de désinscription et la page miroir ne sont pas pris en compte.
+* **[!UICONTROL Clics]** : Estimation du temps mis pour atteindre un pourcentage du nombre total de clics enregistrés. Les clics sur le lien d&#39;opt-out et la page miroir ne sont pas pris en compte.
 * **[!UICONTROL Transactions]** : temps mis pour atteindre un pourcentage du nombre total de transactions suite à la réception d&#39;un message. Pour qu&#39;une transaction soit comptabilisée, une balise de webtracking de type transaction doit être insérée sur la page web correspondante. Le paramétrage du webtracking est présenté dans [cette section](../../configuration/using/about-web-tracking.md).

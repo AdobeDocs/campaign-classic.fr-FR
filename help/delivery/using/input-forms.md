@@ -5,7 +5,7 @@ description: Découvrez comment utiliser les formulaires de saisie dans Campaign
 feature: Data Management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 100%
 

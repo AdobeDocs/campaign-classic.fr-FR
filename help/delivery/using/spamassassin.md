@@ -5,7 +5,7 @@ description: Découvrez comment configurer la détection des messages indésirab
 feature: Email, Deliverability
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%
 

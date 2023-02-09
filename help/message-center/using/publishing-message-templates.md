@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 'Publication de modèles de message '
+title: Publication de modèles de message
 description: Découvrez la publication et l'annulation de la publication d'un modèle de message transactionnel dans Adobe Campaign Classic.
 audience: message-center
 content-type: reference

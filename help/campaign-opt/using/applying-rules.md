@@ -5,8 +5,8 @@ description: Découvrez comment appliquer des règles de typologie
 feature: Typology Rules
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '1047'
 ht-degree: 100%
 
 ---

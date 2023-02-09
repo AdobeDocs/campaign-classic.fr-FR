@@ -4,7 +4,7 @@ title: Autres paramètres de tracking web
 description: En savoir plus sur les paramètres de tracking web
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 100%
 

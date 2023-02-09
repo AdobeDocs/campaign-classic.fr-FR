@@ -4,7 +4,7 @@ title: Configurer l’accès à PostgreSQL
 description: Découvrez comment configurer l’accès à PostgreSQL
 exl-id: 2c678f45-2555-4647-9885-bd002db7df37
 source-git-commit: 6b7638eec1718edf30f81005cd6691dd271aaa0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 

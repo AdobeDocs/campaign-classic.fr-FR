@@ -4,7 +4,7 @@ title: Définition de la balise de tracking web
 description: Définition de la balise de tracking web
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 100%
 

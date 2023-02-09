@@ -4,7 +4,7 @@ title: Mapping de la base de données
 description: Mapping de la base de données
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 100%
 

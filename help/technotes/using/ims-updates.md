@@ -75,7 +75,7 @@ Le message d&#39;avertissement suivant s&#39;affiche pour les utilisateurs s&#39
 
 ![](../../integrations/using/assets/do-not-localize/errorMsg.png)
 
-Si un tel avertissement s&#39;affiche, assurez-vous d&#39;installer les dernières mises à jour du système d&#39;exploitation que vous utilisez. [En savoir plus](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
+Si un tel avertissement s&#39;affiche, assurez-vous d&#39;installer les dernières mises à jour du système d&#39;exploitation que vous utilisez. [En savoir plus](https://helpx.adobe.com/fr/x-productkb/global/update-operating-system-and-browser.html)
 
 Si vous n’avez pas mis à jour votre version d’Internet Explorer, le message suivant s’affiche et vous ne pouvez plus vous connecter à Adobe Campaign :
 

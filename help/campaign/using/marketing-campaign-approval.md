@@ -5,8 +5,8 @@ description: Découvrez comment gérer les validations des campagnes marketing
 feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '2607'
 ht-degree: 100%
 
 ---
@@ -153,7 +153,7 @@ Le contenu des emails de notification peut être personnalisé. Voir [Contenu de
 
 ### Activation/désactivation de la notification {#enabling-disabling-notification}
 
-Par défaut, les messages de notification sont envoyés si la validation du traitement correspondant est activée au niveau du modèle de l&#39;opération, au niveau de l&#39;opération ou au niveau de la diffusion concernée. Toutefois, il est possible de désactiver les notifications afin de n&#39;autoriser les validations que depuis la console.
+Par défaut, les messages de notification sont envoyés si la validation du traitement correspondant est activée au niveau du modèle de la campagne, de la campagne ou de la diffusion concernée. Toutefois, il est possible de désactiver les notifications afin de n&#39;autoriser les validations que depuis la console.
 
 Pour cela, éditez la fenêtre de validation de l&#39;opération ou du modèle d&#39;opération concerné (onglet **[!UICONTROL Edition > Propriétés]** > **[!UICONTROL Paramètres avancés de l&#39;opération...]** > **[!UICONTROL Validations]**) et cochez l&#39;option **[!UICONTROL Ne pas activer l&#39;envoi de notifications]**.
 
@@ -345,7 +345,7 @@ Cette option permet de définir un responsable de l&#39;édition du contenu, par
 
       ![](assets/s_ncs_user_validation_submit_content_available3.png)
 
-      Le message de notification permet au responsable de valider ou refuser le contenu qui lui a été soumis.
+      Le message de notification permet au réviseur de valider ou refuser le contenu qui lui a été soumis.
 
       ![](assets/s_ncs_user_validation_submit_content_available4.png)
 

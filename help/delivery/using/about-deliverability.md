@@ -5,7 +5,7 @@ description: Découvrez les bonnes pratiques en matière de délivrabilité
 feature: Deliverability
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Identification d’un formulaire
 description: Identification d’un formulaire
 exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 100%
 

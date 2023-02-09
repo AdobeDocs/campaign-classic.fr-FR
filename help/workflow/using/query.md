@@ -5,8 +5,8 @@ description: En savoir plus sur l’activité de workflow de requête
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '1692'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de cib
 
    Vous pouvez ajouter plusieurs critères en vous aidant de l&#39;outil de construction d&#39;expressions et les combiner via les opérateurs logiques ET, OU et SAUF. Vous pouvez ensuite afficher la **[!UICONTROL Requête SQL correspondante...]** à votre combinaison de critères. Voir à ce propos cette [section](../../platform/using/defining-filter-conditions.md#building-expressions).
 
-   Enregistrez votre filtre si vous souhaitez pouvoir le réutiliser ultérieurement.
+   Enregistrez votre filtre si vous souhaitez le réutiliser ultérieurement.
 
    ![](assets/s_user_segmentation_query_advanced.png)
 

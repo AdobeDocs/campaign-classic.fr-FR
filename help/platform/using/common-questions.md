@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Besoin d’aide lorsque vous utilisez Campaign Classic ? Lisez les 10 premières questions ci-dessous, ainsi que d’autres questions fréquentes dans cette page. Vous pouvez également procéder comme suit :
+Besoin d’aide lorsque vous utilisez Campaign Classic ? Lisez le top 10 des questions, ainsi que d’autres questions fréquentes dans cette page. Vous pouvez également procéder comme suit :
 
 * [Visionner des tutoriels vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr)
 * [Parcourir les options d&#39;aide autonome](../../platform/using/tutorials.md#how-to-videos)

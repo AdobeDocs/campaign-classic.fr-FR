@@ -5,7 +5,7 @@ description: Découvrez comment configurer, concevoir et envoyer des e-mails qui
 feature: Email, Email Design
 exl-id: 44634227-2340-49c4-b330-740c739ea551
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
 
@@ -82,7 +82,7 @@ Par exemple, vous pouvez remplacer l&#39;adresse d&#39;un profil par test@softba
 
 ![](assets/deco-mail_05.png)
 
-## Envoi des messages {#sending-messages}
+## Envoi de messages {#sending-messages}
 
 Pour envoyer une diffusion à des destinataires dont le format des emails est japonais, vous pouvez procéder de deux manières :
 

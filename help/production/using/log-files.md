@@ -9,7 +9,7 @@ exl-id: c9d427da-6965-4945-90f0-d0770701d55e
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ Les fichiers de log mono-instance sont listés dans le tableau suivant :
 
 Pour optimiser les performances et le stockage, le fichier logins.log est divisé en plusieurs fichiers, un par jour (logins.aa-mm-jj.log) avec un maximum de 365 fichiers conservés. Le nombre de jours peut être modifié dans le fichier serverConf.xml, sous syslogd (option **maxNumberOfLoginsFiles**). Consultez la documentation relative au [fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md#syslogd).
 
-Par défaut, les journaux sont limités à deux fichiers de 10 Mo par module et par instance. Le second fichier est appelé : **`<modulename>`_2.log**. La taille des journaux est donc limitée à 2*10 Mo par module et par instance.
+Par défaut, les journaux sont limités à deux fichiers de 10 Mo par module et par instance. Le second fichier est appelé : **`<modulename>`_2.log**. La taille des journaux est donc limitée à 2&#42;10 Mo par module et par instance.
 
 Vous pouvez toutefois conserver des fichiers plus volumineux. Pour activer cette fonction, modifiez la valeur du paramètre **maxFileSizeMb=&quot;10&quot;** dans le nœud **syslogd** du fichier **conf/serverConf.xml**. Cette valeur représente la taille maximale en Mo d’un fichier de log.
 

@@ -5,7 +5,7 @@ description: Exemples de marketing distribué
 feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 100%
 
@@ -226,7 +226,7 @@ Les étapes sont les suivantes :
 
 ### Côté entité centrale {#central-entity-side-1}
 
-1. Pour mettre en place une opération collaborative par formulaire, vous devez créer une opération à partir du **modèle d&#39;opération collaborative par formulaire**.
+1. Pour mettre en place une opération collaborative (par formulaire), vous devez créer une opération à partir du **modèle d&#39;opération collaborative (par formulaire)**.
 
    ![](assets/mkg_dist_use_case_form_1.png)
 

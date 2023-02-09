@@ -5,7 +5,7 @@ description: Liste des rapports
 feature: Reporting
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Rapports sur les diffusions {#reports-on-deliveries}
 
-Les rapports natifs fournis par Adobe Campaign figurent dans le tableau ci-après.
+Les rapports intégrés fournis par Adobe Campaign figurent dans le tableau ci-après.
 
 Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette section](../../reporting/using/delivery-reports.md).
 
@@ -118,7 +118,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
 
 ## Rapports sur les opérations {#reports-on-campaigns}
 
-Les rapports sur les opérations portent sur les données de la table **nms:operation**.
+Les rapports sur les campagnes portent sur les données du tableau **nms:operation**.
 
 Les rapports natifs fournis par Adobe Campaign figurent dans le tableau ci-après.
 
@@ -179,7 +179,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
 
 ## Rapports sur les services {#reports-on-services}
 
-Les rapports sur les services portent sur les données de la table **nms:service**.
+Les rapports sur les services portent sur les données du tableau **nms:service**.
 
 Les rapports natifs fournis par Adobe Campaign figurent dans le tableau ci-après.
 
@@ -216,7 +216,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez les guide
 
 ## Rapports sur les budgets {#budget-reports}
 
-Les rapports natifs fournis par Adobe Campaign figurent dans le tableau ci-après.
+Les rapports intégrés fournis par Adobe Campaign figurent dans le tableau ci-après.
 
 Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette section](../../campaign/using/designing-marketing-campaigns.md).
 
@@ -272,7 +272,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
 
 ## Rapports sur les simulations {#reports-on-simulations}
 
-Les rapports sur les simulations portent sur les données de la table **nms:simulation**.
+Les rapports sur les simulations portent sur les données du tableau **nms:simulation**.
 
 Les rapports natifs fournis par Adobe Campaign figurent dans le tableau ci-après.
 
@@ -309,7 +309,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez les guide
 
 ## Rapports sur les applications Web {#reports-on-web-applications}
 
-Les rapports sur les applications Web portent sur les données de la table **nms:webApp**.
+Les rapports sur les applications Web portent sur les données du tableau **nms:webApp**.
 
 Les rapports natifs fournis par Adobe Campaign figurent dans le tableau ci-après.
 

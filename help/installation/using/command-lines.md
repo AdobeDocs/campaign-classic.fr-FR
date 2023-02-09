@@ -9,7 +9,7 @@ exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -29,7 +29,7 @@ nlserver config -addinstance:instance/masques DNS[/lang]
 
 (où **eng** et **fra** correspondent aux valeurs possibles du paramètre `[lang]`)
 
-La commande **nlserver config -addinstance:instance1/demo*/fra** permet de créer une instance de nom **instance1** de langue française avec le masque DNS demo*.
+La commande **nlserver config -addinstance:instance1/demo&#42;/eng** permet de créer une instance appelée **instance1** en anglais avec la démonstration de masque DNS&#42;.
 
 ## Déclaration d’une base de données {#declaring-a-database}
 

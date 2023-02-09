@@ -5,7 +5,7 @@ description: Modèle de publication
 feature: Templates
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 100%
 

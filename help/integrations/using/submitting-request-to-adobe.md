@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: 'Envoi d''une demande à Adobe  '
-description: 'Envoi d''une demande à Adobe  '
+title: Envoi d'une demande à Adobe
+description: Envoi d'une demande à Adobe
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%
 

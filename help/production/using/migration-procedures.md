@@ -19,8 +19,8 @@ ht-degree: 100%
 
 Si vous effectuez une mise à niveau d&#39;Adobe Campaign v6 vers v7, il est conseillé de respecter les recommandations ci-dessous.
 
-* Sous Windows, pour la mise à jour du client et du serveur, désinstallez Adobe Campaign v6 avant d&#39;installer la v7. N&#39;oubliez pas de sauvegarder au préalable vos fichiers de configuration et de log.
-* Sous Linux, pour la mise à jour du serveur, supprimez le package Adobe Campaign v6 avant d&#39;installer la v7.
+* Sous Windows, pour la mise à niveau du client et du serveur, désinstallez Adobe Campaign v6 avant d&#39;installer la v7. N&#39;oubliez pas de sauvegarder au préalable vos fichiers de configuration et de log.
+* Sous Linux, pour la mise à niveau du serveur, supprimez le package Adobe Campaign v6 avant d&#39;installer la v7.
 
 Pour plus d&#39;informations sur les procédures de migration et les bonnes pratiques, voir :
 

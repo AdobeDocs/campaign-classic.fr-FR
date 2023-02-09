@@ -5,8 +5,8 @@ description: Modèles de campagne marketing
 feature: Campaigns, Templates
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '1168'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Toutes les opérations marketing sont basées sur un modèle qui stocke les principales caractéristiques et fonctionnalités. Les modèles d’opération sont centralisés dans le nœud **[!UICONTROL Ressources > Modèles > Modèles d’opération]**. Un modèle par défaut est fourni en guise d’exemple standard. Il vous permet de créer une opération qui utilise tous les modules disponibles (Documents, Tâches, Adresses de contrôle et autres). Toutefois, les modules proposés dépendent de vos droits et de la configuration de votre plateforme Adobe Campaign.
+Toutes les campagnes marketing sont basées sur un modèle qui stocke les principales caractéristiques et fonctionnalités. Les modèles d’opération sont centralisés dans le nœud **[!UICONTROL Ressources > Modèles > Modèles d’opération]**. Un modèle par défaut est fourni en guise d’exemple standard. Il vous permet de créer une opération qui utilise tous les modules disponibles (Documents, Tâches, Adresses de contrôle et autres). Toutefois, les modules proposés dépendent de vos droits et de la configuration de votre plateforme Adobe Campaign.
 
 ![](assets/s_ncs_user_campaign_op_template_node.png)
 
@@ -29,7 +29,7 @@ Un modèle natif est fourni pour créer une opération pour laquelle aucune conf
 
 ## Création d’un modèle d’opération {#creating-or-duplicating-a-campaign-template}
 
-Pour créer un modèle d’opération, procédez comme suit :
+Pour créer un modèle de campagne, procédez comme suit :
 
 1. Ouvrez l&#39;**Explorateur** de Campaign.
 1. Dans **Ressources > Modèles > Modèles d&#39;opération**, cliquez sur **Nouveau** dans la barre d&#39;outils située au-dessus de la liste des modèles.
@@ -57,7 +57,7 @@ Pour créer un modèle d’opération, procédez comme suit :
 
 Vous pouvez également **dupliquer** le modèle par défaut afin de le réutiliser et d&#39;adapter sa configuration à vos besoins.
 
-Les divers onglets et sous-onglets du modèle d’opération vous permettent d’accéder à ses paramètres, qui sont décrits dans la section [Configuration générale](#general-configuration).
+Les divers onglets et sous-onglets du modèle de campagne vous permettent d&#39;accéder à ses paramètres, qui sont décrits dans la section [Configuration générale](#general-configuration).
 
 ![](assets/s_ncs_user_new_op_template_duplicate.png)
 
@@ -149,7 +149,7 @@ Les liens et onglets affichés seront les suivants :
 
 ![](assets/s_ncs_user_op_new_template.png)
 
-Lorsque vous créez un modèle d&#39;opération, vous devez indiquer les informations suivantes :
+Lorsque vous créez un modèle de campagne, vous devez indiquer les informations suivantes :
 
 * Saisissez le **libellé** du modèle : ce libellé sera attribué par défaut à toutes les opérations créées à partir de ce modèle.
 * Sélectionnez la **nature** de l&#39;opération dans la liste déroulante. Les valeurs proposées dans cette liste correspondent à celles enregistrées dans l&#39;énumération **[!UICONTROL natureOp]**.
@@ -158,7 +158,7 @@ Lorsque vous créez un modèle d&#39;opération, vous devez indiquer les informa
    >
    >Pour plus d&#39;informations sur les énumérations, reportez-vous à la section [Prise en main](../../platform/using/managing-enumerations.md).
 
-* Sélectionnez le **type de campagne** : unique, récurrente ou périodique. Par défaut, les modèles de campagne s’appliquent aux campagnes uniques. Les opérations périodiques et récurrentes sont décrites dans [cette section](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
+* Sélectionnez le **type de campagne** : unique, récurrente ou périodique. Par défaut, les modèles de campagne s&#39;appliquent aux campagnes uniques. Les opérations périodiques et récurrentes sont décrites dans [cette section](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
 * Indiquez la durée de l&#39;opération, c&#39;est-à-dire la période sur laquelle s&#39;étalera l&#39;opération. Lors de la création d&#39;une opération basée sur ce modèle, les dates de début et de fin de l&#39;opération seront alors automatiquement renseignées.
 
    S&#39;il s&#39;agit d&#39;une opération récurrente, vous devez indiquer les dates de début et de fin de l&#39;opération directement dans le modèle.

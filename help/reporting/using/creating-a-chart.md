@@ -5,7 +5,7 @@ description: Découvrez comment concevoir un graphique
 feature: Reporting
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 100%
 

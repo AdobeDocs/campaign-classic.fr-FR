@@ -5,13 +5,13 @@ description: Utilisation de modèles de diffusion
 feature: Delivery Templates
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 
 ---
 
-# Utilisez les modèles {#use-templates}
+# Utilisation de modèles {#use-templates}
 
 ![](../../assets/common.svg)
 
@@ -41,7 +41,7 @@ Si vous gérez plusieurs marques dans Adobe Campaign, Adobe recommande de dispos
 
 Pour configurer les adresses dans l’interface de Campaign, procédez comme suit :
 
-1. Dans le [modèle de diffusion](creating-a-delivery-template.md), cliquez sur le lien **[!UICONTROL De]**. Dans la fenêtre **[!UICONTROL Paramètres d&#39;en-tête email]**, renseignez les champs suivants :
+1. Dans le [modèle de diffusion](creating-a-delivery-template.md), cliquez sur le lien **[!UICONTROL De]**. Dans la fenêtre **[!UICONTROL Paramètres d&#39;en-tête des e-mails]**, renseignez les champs suivants :
 
    ![](assets/d_best_practices_email_header.png)
 

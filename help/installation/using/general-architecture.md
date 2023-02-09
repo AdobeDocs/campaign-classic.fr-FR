@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 100%
 

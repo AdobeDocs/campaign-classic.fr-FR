@@ -5,7 +5,7 @@ description: Utiliser une table de destinataires externe
 feature: Audiences
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%
 

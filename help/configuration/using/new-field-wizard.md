@@ -5,7 +5,7 @@ description: Assistant d'ajout de champs
 feature: Schema Extension
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 

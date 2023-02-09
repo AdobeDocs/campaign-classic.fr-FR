@@ -5,7 +5,7 @@ description: Prise en main de l’édition de schéma
 feature: Schema Extension
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1011'
 ht-degree: 100%
 

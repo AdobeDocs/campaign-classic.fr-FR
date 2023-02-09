@@ -5,7 +5,7 @@ description: Créer et partager des applications web, des landing pages et des q
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 100%
 

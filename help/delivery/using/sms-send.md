@@ -5,7 +5,7 @@ description: Découvrez comment envoyer, surveiller et suivre des SMS dans Campa
 feature: SMS
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%
 

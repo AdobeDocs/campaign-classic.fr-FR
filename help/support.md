@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: 'Options d’aide et de support pour Campaign Classic '
+title: Options d’aide et de support pour Campaign Classic
 description: Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit !
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: 9667bb436ffc591b05945dadd683e5f590ae43e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 100%
 

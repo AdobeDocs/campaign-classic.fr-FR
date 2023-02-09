@@ -5,7 +5,7 @@ description: Découvrez comment utiliser les agrégats
 feature: Workflows
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 100%
 

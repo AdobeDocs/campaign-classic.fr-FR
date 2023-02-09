@@ -5,7 +5,7 @@ description: Gérer les données entre Campaign et votre gestion de la relation 
 feature: Salesforce Integration, Microsoft CRM Integration
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 100%
 

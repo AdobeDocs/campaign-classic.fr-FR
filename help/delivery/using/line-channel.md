@@ -5,7 +5,7 @@ description: Découvrez comment créer des messages LINE
 feature: Line App
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 100%
 

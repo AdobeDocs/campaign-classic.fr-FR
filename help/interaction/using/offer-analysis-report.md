@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Le rapport **[!UICONTROL Analyse des offres]** vous permet dʼavoir une vue dʼensemble du nombre de propositions acceptées ou refusées.
+Le rapport **[!UICONTROL Analyse des offres]** vous permet d&#39;avoir une vue d&#39;ensemble du nombre de propositions acceptées ou refusées.
 
 >[!NOTE]
 >

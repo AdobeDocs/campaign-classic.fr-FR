@@ -5,7 +5,7 @@ description: Utilisation de l’assistant d’analyse descriptive
 feature: Reporting
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 100%
 

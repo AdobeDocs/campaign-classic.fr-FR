@@ -5,9 +5,9 @@ description: Découvrez comment intégrer le SDK Campaign à votre application m
 feature: Mobile SDK Integration, Push
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: ht
-source-wordcount: '1018'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1012'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ Les SDK Campaign pour iOS et Android sont des composants du module Canal des app
 
 >[!NOTE]
 >
->Pour obtenir le SDK Campaign (anciennement connu sous le nom de SDK Neolane), contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+>Pour obtenir le SDK Campaign (anciennement connu sous le nom de SDK Neolane), contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 L’intérêt du SDK est de faciliter l’intégration d’une application mobile à la plateforme Adobe Campaign.
 
@@ -27,9 +27,9 @@ Pour plus d’informations sur les différentes versions Android et iOS prises e
 
 >[!NOTE]
 >
->Vous pouvez également utiliser le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans Adobe Launch. [En savoir plus dans la documentation relative à Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}.
+>Vous pouvez également utiliser le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans Adobe Launch. [En savoir plus dans la documentation Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target="_blank"}.
 >
->Découvrez comment configurer et installer le SDK mobile Adobe Experience Platform [dans cette vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/configure-push-using-aep-mobile-sdk.html?lang=fr){target=&quot;_blank&quot;}.
+>Découvrez comment configurer et installer le SDK mobile Adobe Experience Platform [dans cette vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/configure-push-using-aep-mobile-sdk.html?lang=fr){target="_blank"}.
 
 ## Charger le SDK Campaign {#loading-campaign-sdk}
 

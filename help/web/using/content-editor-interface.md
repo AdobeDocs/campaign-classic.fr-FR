@@ -5,7 +5,7 @@ description: Interface de l'éditeur de contenu
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Elle contient quatre icônes :
 
    ![](assets/dce_create_fromtemplate.png)
 
-* L&#39;icône **Propriétés de la page** permet de saisir les informations contenues dans l&#39;entête de la page HTML.
+* L&#39;icône **Propriétés de la page** permet de saisir les informations contenues dans la partie supérieure de la page HTML.
 
    ![](assets/dce_popup_headerhtml.png)
 

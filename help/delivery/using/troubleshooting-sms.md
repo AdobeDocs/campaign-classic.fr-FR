@@ -5,7 +5,7 @@ description: En savoir plus sur la résolution des problèmes liés au canal SMS
 feature: SMS
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2744'
 ht-degree: 100%
 

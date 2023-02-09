@@ -5,7 +5,7 @@ description: À propos de la table des destinataires personnalisée
 feature: Custom Resources
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 100%
 

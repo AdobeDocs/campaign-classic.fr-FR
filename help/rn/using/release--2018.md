@@ -5,7 +5,7 @@ description: En savoir plus sur les versions de Campaign Classic 2018
 hidefromtoc: true
 exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
 source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '5423'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Découvrez comment créer une diffusion depuis un modèle
 feature: Delivery Templates
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Sélectionnez le modèle de diffusion à utiliser et cliquez sur **[!UICONTROL O
 
 ## Exécution du modèle {#executing-the-template}
 
-Vous pouvez lancer l&#39;exécution d&#39;un modèle directement depuis la liste des modèles, sans créer de diffusion au préalable. Pour cela, sélectionnez le modèle à exécuter et cliquez sur le bouton droit de la souris. Choisissez **[!UICONTROL Actions>Exécuter le modèle de diffusion...]**.
+Vous pouvez lancer l’exécution d’un modèle directement depuis la liste des modèles, sans devoir créer de diffusion au préalable. Pour ce faire, sélectionnez le modèle à exécuter et cliquez avec le bouton droit de la souris. Sélectionnez **[!UICONTROL Actions > Exécuter le modèle de diffusion...]**.
 
 Vous pouvez aussi utiliser le menu **[!UICONTROL Fichier > Actions > Exécuter le modèle de diffusion...]**.
 

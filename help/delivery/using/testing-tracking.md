@@ -5,7 +5,7 @@ description: Découvrez comment tester le tracking des messages
 feature: Monitoring
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 

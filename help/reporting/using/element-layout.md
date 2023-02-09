@@ -5,7 +5,7 @@ description: Mettre en page les éléments
 feature: Reporting
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ L&#39;onglet **[!UICONTROL Général]**, vous permet de modifier le titre de la 
 
 ![](assets/s_ncs_advuser_report_wizard_022.png)
 
-Le champ **[!UICONTROL Titre]** permet de personnaliser le libellé qui apparaît en tête de la page du rapport. Le titre de la fenêtre est quant à lui paramétrable depuis la fenêtre **[!UICONTROL Propriétés]** du rapport. Voir à ce sujet la section [Ajouter un en-tête et un pied de page](#adding-a-header-and-a-footer).
+Le champ **[!UICONTROL Titre]** permet de personnaliser le libellé qui apparaît dans l&#39;en-tête de la page du rapport. Le titre de la fenêtre est quant à lui paramétrable depuis la fenêtre **[!UICONTROL Propriétés]** du rapport. Voir à ce sujet la section [Ajouter un en-tête et un pied de page](#adding-a-header-and-a-footer).
 
 Les options des **[!UICONTROL Paramètres d&#39;affichage]** permettent de choisir la position de la légende des contrôles dans la page d&#39;un rapport et de définir le nombre de colonnes de la page. Pour plus d&#39;informations sur la mise en page, reportez-vous à la section **Mettre en page les éléments** de [cette section](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page).
 

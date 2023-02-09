@@ -56,7 +56,7 @@ Pour éviter les injections SQL, les fonctions SQL doivent être ajoutées à la
 >
 >Si vous utilisez un build antérieur au build 8140, l’option **XtkPassUnknownSQLFunctionsToRDBMS** peut être définie sur « 1 ». Si vous souhaitez protéger votre base de données, supprimez cette option (ou définissez-la sur « 0 »).
 
-Si vous utilisez des saisies utilisateur pour créer des filtres dans des requêtes ou des instructions SQL, vous devez toujours les placer dans une séquence d’échappement (reportez-vous à la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) - Protection des données : fonctions d’échappement). Ces fonctions sont les suivantes :
+Si vous utilisez des saisies utilisateur pour créer des filtres dans des requêtes ou des instructions SQL, vous devez toujours les placer dans une séquence d’échappement (reportez-vous à la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr) - Protection des données : fonctions d’échappement). Ces fonctions sont les suivantes :
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)

@@ -5,7 +5,7 @@ description: Découvrez comment utiliser les règles de filtrage
 feature: Typology Rules
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 100%
 
@@ -47,17 +47,17 @@ Lorsque cette règle est utilisée dans une diffusion, les abonnés mineurs sont
 
 ## Traitement dʼune règle de filtrage {#conditioning-a-filtering-rule}
 
-Vous pouvez restreindre le champ d&#39;application de la règle de filtrage en fonction de la diffusion ou de la composition de diffusion associée.
+Vous pouvez restreindre le champ d’application de la règle de filtrage en fonction de la diffusion ou de la composition de diffusion associée.
 
 Pour cela, dans l&#39;onglet **[!UICONTROL Général]** de la règle de typologie, sélectionnez le type de restriction à appliquer et créez le filtre, comme ci-dessous :
 
 ![](assets/campaign_opt_create_filter_06.png)
 
-Dans ce cas, même si la règle est associée à toutes les diffusions, elle ne sera appliquée qu&#39;aux diffusions répondant aux critères du filtre défini.
+Dans ce cas, même si la règle est associée à toutes les diffusions, elle ne sera appliquée qu’aux diffusions répondant aux critères du filtre défini.
 
 >[!NOTE]
 >
->Les typologies et les règles de filtrage peuvent être utilisées dans un workflow, dans l&#39;activité **[!UICONTROL Composition de diffusion]**. Voir à ce propos [cette section](../../workflow/using/delivery-outline.md).
+>Les typologies et les règles de filtrage peuvent être utilisées dans un workflow, dans l&#39;activité **[!UICONTROL Composition de diffusion]**. Pour plus d’informations, consultez [cette section](../../workflow/using/delivery-outline.md).
 
 ## Création et utilisation dʼune typologie de filtrage {#creating-and-using-a-filtering-typology}
 

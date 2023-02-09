@@ -4,7 +4,7 @@ title: Éléments et attributs de schéma - élément keyfield
 description: élément keyfield
 exl-id: fb0862f9-5dcc-49f2-b99b-9822aaf3a680
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
 

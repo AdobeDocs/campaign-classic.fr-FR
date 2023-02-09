@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: 'Dépannage du pipeline '
-description: 'Dépannage du pipeline '
+title: Dépannage du pipeline
+description: Dépannage du pipeline
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Cette section fournit des informations générales spécifiques au 
 feature: Email
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Avant d&#39;envoyer des emails :
 
 Les étapes clés pour envoyer un email sont les suivantes :
 
-* [Créez une diffusion email](creating-an-email-delivery.md)
+* [Création d’une diffusion par e-mail](creating-an-email-delivery.md)
 * [Définir la population cible](steps-defining-the-target-population.md)
 * [Définition du contenu de l’email](defining-the-email-content.md)
 * [Envoyer l&#39;e-mail](sending-messages.md)

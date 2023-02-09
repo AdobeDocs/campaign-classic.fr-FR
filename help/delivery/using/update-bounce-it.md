@@ -5,7 +5,8 @@ description: Découvrez comment mettre à jour la qualification des bounces apr�
 feature: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: 3fa54f83ee6a119a4566866933aaee20ec378e91
+exl-id: 66f56801-49b2-4bf9-894b-6c91ce1d0ddd
+source-git-commit: 165797105affc9b5d4e4332f7f158031579bf91c
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 19%

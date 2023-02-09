@@ -200,7 +200,7 @@ Ce serveur héberge les formulaires Web, pages miroir, etc. Les ports suivants d
  <tbody> 
   <tr> 
    <td> Port d'écoute<br /> </td> 
-   <td> Emplacement<br /> </td> 
+   <td> Location<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
@@ -215,7 +215,7 @@ Ce serveur héberge les formulaires Web, pages miroir, etc. Les ports suivants d
  <tbody> 
   <tr> 
    <td> Port d'écoute<br /> </td> 
-   <td> Emplacement<br /> </td> 
+   <td> Location<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 

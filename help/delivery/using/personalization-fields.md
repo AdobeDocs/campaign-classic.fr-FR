@@ -5,7 +5,7 @@ description: Découvrez comment utiliser les champs de personnalisation
 feature: Personalization
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 100%
 

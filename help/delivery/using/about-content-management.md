@@ -5,7 +5,7 @@ description: Prise en main du module de gestion de contenu de Campaign
 feature: Landing Pages, Email Design
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 source-git-commit: 878ba2b532d5cb59af77b6450b12ae5d2ff149b2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Le résultat des calculs des hypothèses est disponible à divers niveaux de la 
 
 ### Indicators {#indicators}
 
-Lorsque l&#39;hypothèse a été calculée, plusieurs indicateurs de mesure sont automatiquement mis-à-jour. Ils sont disponibles dans l&#39;onglet **[!UICONTROL Général]** de l&#39;hypothèse.
+Lorsque l&#39;hypothèse a été calculée, plusieurs indicateurs de mesure sont automatiquement mis à jour. Ils sont disponibles dans l&#39;onglet **[!UICONTROL Général]** de l&#39;hypothèse.
 
 ![](assets/response_hypothesis_delivery_example_010.png)
 

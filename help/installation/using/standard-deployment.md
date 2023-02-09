@@ -9,7 +9,7 @@ exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '832'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ La machine n&#39;étant pas un serveur de tracking, ne pas tenir compte de l&#39
 Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
 
 * Nom de l&#39;instance : **demo**
-* Masque DNS : **console.campaign.net*** (uniquement pour la connexion des consoles clientes et pour les rapports)
+* Masque DNS : **console.campaign.net&#42;** (uniquement pour les connexions console cliente et pour les rapports)
 * Langue : française
 * Base de données : **campaign:demo@dbsrv**
 

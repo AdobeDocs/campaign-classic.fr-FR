@@ -56,7 +56,7 @@ Un workflow est créé pour chaque compte externe et environnement pour la synch
 
 ## Configuration des packages {#packages-configuration}
 
-Les éventuelles extensions de schémas directement liées à **Interaction** (offres, propositions, destinataires, etc.) doivent être déployées sur les instances dʼexécution.
+Les éventuelles extensions de schémas directement liées à **Interaction** (offres, propositions, destinataires, etc.) doivent être déployées sur les instances d&#39;exécution.
 
 Le package Interaction doit être installé sur toutes les instances (pilotage et exécution). Deux packages supplémentaires sont disponibles : un package dédié à installer sur les instances de pilotage, et un package dédié à installer sur chaque instance d&#39;exécution.
 
@@ -111,8 +111,8 @@ Voici la liste des options de maintenance disponibles sur l&#39;instance de pilo
 >
 >Ces options ne doivent être utilisées que dans des cas de maintenance spécifiques.
 
-* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`** : date de dernière synchronisation d’un environnement sur une instance donnée.
-* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`** : date de dernière synchronisation des propositions d’un schéma donné d’une instance vers une autre.
+* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`** : date de dernière synchronisation d&#39;un environnement sur une instance donnée.
+* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`** : date de dernière synchronisation des propositions d&#39;un schéma donné d&#39;une instance vers une autre.
 * **`NmsInteraction_MapWorkflowId`** : option contenant la liste de tous les workflows de synchronisation générés.
 
 L&#39;option suivante est disponible sur les instances d&#39;exécution :

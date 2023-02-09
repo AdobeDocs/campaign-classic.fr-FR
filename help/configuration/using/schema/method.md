@@ -4,7 +4,7 @@ title: Éléments et attributs de schéma - élément method
 description: élément method
 exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
 

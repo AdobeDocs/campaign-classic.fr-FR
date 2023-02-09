@@ -5,7 +5,7 @@ description: Découvrez comment écrire des liens dans des emails qui peuvent ê
 feature: Personalization
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 

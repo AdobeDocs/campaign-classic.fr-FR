@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Additional data
-description: Données additionnelles
+description: Additional data
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Données additionnelles{#additional-data}
+# Additional data{#additional-data}
 
 ![](../../assets/v7-only.svg)
 

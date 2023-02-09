@@ -5,7 +5,7 @@ description: En savoir plus sur lʼutilisation du tableau de bord de la diffusio
 feature: Monitoring
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 100%
 

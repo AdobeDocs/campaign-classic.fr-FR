@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Les opérateurs Adobe Campaign peuvent échanger des informations via les forums de discussion. Les éléments suivants ont chacun leur propre forum : plans, programmes, opérations, ressources, simulations, stocks. Chaque opérateur a également un forum personnel. Toutes les discussions sont publiques, même celles sur les forums personnels des opérateurs.
 
-Les opérateurs peuvent s&#39;abonner à des forums afin de recevoir un email de notification à chaque message posté dans ceux-ci.
+Les opérateurs/opératrices peuvent s’abonner à des forums afin de recevoir un e-mail de notification à chaque message posté dans ceux-ci.
 
 ## Accéder à un forum {#accessing-a-forum}
 
@@ -66,7 +66,7 @@ Dans la boîte **[!UICONTROL Forum de discussion]** :
 
 >[!NOTE]
 >
->Une fois un message posté dans le forum, il ne peut plus être modifié ni supprimé.
+>Une fois un message publié dans le forum, il ne peut plus être modifié ni supprimé.
 
 ## Poster un message dans le forum personnel d&#39;un opérateur {#posting-to-the-personal-forum-of-an-operator}
 

@@ -4,7 +4,7 @@ title: Mapping de ciblage
 description: Découvrez comment créer un mapping de ciblage
 exl-id: 38333669-5598-4811-a121-b677c1413f56
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Découvrez comment publier, suivre et utiliser les données collect
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 100%
 

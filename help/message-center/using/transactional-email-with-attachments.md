@@ -5,7 +5,7 @@ description: D√©couvrez comment envoyer des e-mails transactionnels avec des pi√
 feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 100%
 

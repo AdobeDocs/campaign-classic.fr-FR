@@ -5,7 +5,7 @@ description: Une fois que votre message est prêt, effectuez toutes les vérific
 feature: Deliverability
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 source-git-commit: 808f459a0b77b1787fc017c031247ab268b5aafa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 100%
 

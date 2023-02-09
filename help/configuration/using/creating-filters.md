@@ -4,7 +4,7 @@ title: Création de filtres
 description: Découvrez comment créer des filtres pour un tableau personnalisé
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 

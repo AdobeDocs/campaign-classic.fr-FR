@@ -5,8 +5,8 @@ description: Découvrez comment créer et exécuter des campagnes marketing
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '1294'
 ht-degree: 100%
 
 ---
@@ -125,7 +125,7 @@ Dans cet onglet, définissez les dates prévues d&#39;exécution des opérations
 
 ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-Le mode de paramétrage du planning d&#39;exécution correspond à celui de l&#39;objet **[!UICONTROL Planificateur]** du Workflow. Voir à ce sujet [cette section](../../workflow/using/architecture.md).
+Le mode de configuration du planning d&#39;exécution correspond à l&#39;objet **[!UICONTROL Planificateur]** du workflow. Pour plus d’informations, consultez [cette section](../../workflow/using/architecture.md).
 
 >[!IMPORTANT]
 >
@@ -136,7 +136,7 @@ Le mode de paramétrage du planning d&#39;exécution correspond à celui de l&#3
 
    >[!NOTE]
    >
-   >Ce workflow doit être enregistré comme un modèle de workflow récurrent. Pour cela, éditez les propriétés du workflow et sélectionnez l&#39;option **[!UICONTROL Modèle de workflow récurrent]** dans l&#39;onglet **[!UICONTROL Exécution]**.
+   >Ce workflow doit être enregistré comme un modèle de workflow récurrent. Pour cela, modifiez les propriétés du workflow et sélectionnez l&#39;option **[!UICONTROL Modèle de workflow récurrent]** dans l&#39;onglet **[!UICONTROL Exécution]**.
 
    ![](assets/s_ncs_user_op_template_recur_wf_option.png)
 

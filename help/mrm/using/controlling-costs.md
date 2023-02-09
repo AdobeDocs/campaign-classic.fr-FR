@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Contrôle des coûts
+title: Contrôler les coûts
 description: Découvrez comment contrôler les coûts
 audience: campaign
 content-type: reference

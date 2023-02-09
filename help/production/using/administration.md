@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 'Administration '
-description: 'Administration '
+title: Administration
+description: Administration
 audience: production
 content-type: reference
 topic-tags: production-procedures

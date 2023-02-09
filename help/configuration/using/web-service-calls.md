@@ -5,7 +5,7 @@ description: Appels Web Service
 feature: API
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 100%
 
@@ -224,8 +224,8 @@ Le jeton de sécurité possède les caractéristiques suivantes :
 
 Lors d&#39;un accès console, il est :
 
-* transmis dans la réponse du logon (dans l&#39;entête HTTP)
-* utilisé à chaque requête (dans l&#39;entête HTTP)
+* transmis dans la réponse du logon (dans l&#39;en-tête HTTP)
+* utilisé à chaque requête (dans l&#39;en-tête HTTP)
 
 Lors d&#39;un POST et GET HTTP :
 
@@ -234,7 +234,7 @@ Lors d&#39;un POST et GET HTTP :
 
 Lors d&#39;un appel SOAP :
 
-* il est ajouté aux entêtes de l&#39;appel
+* il est ajouté aux en-têtes de l&#39;appel
 
 ### Exemples d&#39;appels {#call-examples}
 

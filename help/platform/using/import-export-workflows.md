@@ -31,7 +31,7 @@ Pour plus d&#39;informations sur l&#39;utilisation de l&#39;activité de lecture
 
 ### Charger des données depuis un fichier {#loading-data-from-a-file}
 
-Les données traitées dans un workflow peuvent êtes extraites d&#39;un fichier structuré pour qu&#39;il puisse être importé dans Adobe Campaign.
+Les données traitées dans un workflow peuvent êtes extraites d&#39;un fichier structuré pour qu&#39;elles puissent être importées dans Adobe Campaign.
 
 Une description de l&#39;activité de chargement de fichier est disponible dans la section [Chargement (fichier)](../../workflow/using/data-loading--file-.md).
 

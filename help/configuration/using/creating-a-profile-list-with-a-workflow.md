@@ -5,7 +5,7 @@ description: Découvrez comment créer une liste de profils dans un workflow
 feature: Workflows
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
 source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 

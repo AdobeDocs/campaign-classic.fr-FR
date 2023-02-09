@@ -9,7 +9,7 @@ exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '3090'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -239,7 +239,7 @@ Ces règles sont appliquées dans l&#39;ordre : la première règle dont le mas
 
 Les paramètres disponibles pour chacune des règles sont les suivants :
 
-* **[!UICONTROL Masque des MX]** : domaine auquel s’applique la règle. Chaque règle fixe un masque d&#39;adresse du MX. Tout MX dont le nom correspond à ce masque est éligible. Le masque peut contenir les caractères génériques &quot;*&quot; et &quot;?&quot;.
+* **[!UICONTROL Masque des MX]** : domaine auquel s’applique la règle. Chaque règle définit un masque d&#39;adresse pour le MX. Tout MX dont le nom correspond à ce masque est éligible. Le masque peut contenir &quot;&#42;&quot; et &quot;?&quot; caractères génériques.
 
    Par exemple, les adresses :
 
@@ -249,7 +249,7 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
    sont compatibles avec les masques :
 
-   * *.yahoo.com
+   * &#42;.yahoo.com
    * ?.mx.yahoo.com
 
    Par exemple, pour l&#39;adresse email foobar@gmail.com, le domaine est gmail.com et l&#39;enregistrement MX est :
@@ -402,9 +402,9 @@ Si, par exemple, la première adresse est inutilisable vers un MX donné, les me
     * &quot;2&quot;: 5 / (5+1) = 83 %
     * &quot;3&quot;: 1 / (5+1) = 17 %
 
-* **includeDomains** : permet de réserver cette adresse IP aux emails appartenant à un domaine particulier. C&#39;est une liste de masques pouvant contenir un ou plusieurs jokers &#39;*&#39;. Si l&#39;attribut n&#39;est pas renseigné, tous les domaines peuvent utiliser cette adresse IP.
+* **includeDomains**: permet de réserver cette adresse IP aux emails appartenant à un domaine spécifique. Liste de masques pouvant contenir un ou plusieurs caractères génériques (&#39;&#42;&quot;). Si l’attribut n’est pas spécifié, tous les domaines peuvent utiliser cette adresse IP.
 
-   Exemple : **includeDomains=&quot;wanadoo.com,orange.com,yahoo.*&quot;**
+   Exemple : **includeDomains=&quot;wanadoo.com,orange.com,yahoo.&#42;&quot;**
 
 * **excludeDomains** : exclut une liste de domaines de cette adresse IP. Ce filtre est applique après le filtre **includeDomains**.
 

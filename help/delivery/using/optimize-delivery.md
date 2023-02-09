@@ -5,13 +5,13 @@ description: Découvrez comment optimiser la diffusion de vos messages
 feature: Deliverability
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 100%
 
 ---
 
-# Optimiser votre diffusion {#optimize-delivery}
+# Optimisation de votre diffusion {#optimize-delivery}
 
 ![](../../assets/common.svg)
 

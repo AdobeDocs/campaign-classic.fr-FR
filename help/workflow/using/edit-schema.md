@@ -5,8 +5,8 @@ description: En savoir plus sur l’activité de workflow d’édition du schém
 feature: Workflows, Targeting Activity
 exl-id: d26966a8-b5db-4fa4-85ec-7ebd770c4ef3
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '118'
 ht-degree: 100%
 
 ---

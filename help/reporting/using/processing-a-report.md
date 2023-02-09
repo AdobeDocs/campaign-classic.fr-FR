@@ -5,7 +5,7 @@ description: Utilisation dʼun rapport dʼanalyse
 feature: Reporting
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 100%
 
@@ -109,7 +109,7 @@ Les options disponibles sont les suivantes :
 * L&#39;option **[!UICONTROL Cumuler les valeurs]** permet d&#39;additionner les différentes valeurs retournées d&#39;une série à l&#39;autre.
 * Vous pouvez choisir d&#39;afficher ou non la légende du graphe : pour ne pas afficher de légende, désélectionnez l&#39;option correspondante. Par défaut, la légende est affichée en haut à droite, à l&#39;extérieur du graphe.
 
-   La légende peut également être positionnée dans le graphe afin d&#39;optimiser au maximum la zone d&#39;affichage. Pour cela, sélectionnez l&#39;option **[!UICONTROL Inclure dans le graphe]**.
+   La légende peut également être affichée dans la partie supérieure du graphe afin d’optimiser au maximum la zone d’affichage. Pour cela, sélectionnez l’option **[!UICONTROL Inclure dans le graphe]**.
 
    Sélectionnez l&#39;alignement vertical et horizontal dans la liste déroulante **[!UICONTROL Position de la légende]**.
 

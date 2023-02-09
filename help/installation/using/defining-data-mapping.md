@@ -4,7 +4,7 @@ title: Définition du mapping des données externe
 description: Découvrez comment mapper des données dans une base de données externe
 exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
 source-git-commit: 3af4f259b80b3e03c81ee278b470ef6ffe3fe4d0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 

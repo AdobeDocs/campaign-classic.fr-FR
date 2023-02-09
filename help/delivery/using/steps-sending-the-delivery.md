@@ -5,7 +5,7 @@ description: Découvrez comment configurer et envoyer la diffusion
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1598'
 ht-degree: 100%
 

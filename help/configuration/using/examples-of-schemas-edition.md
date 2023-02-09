@@ -4,7 +4,7 @@ title: Exemples dʼédition de schémas
 description: Exemples dʼédition de schémas
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 100%
 

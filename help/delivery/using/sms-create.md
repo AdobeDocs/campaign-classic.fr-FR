@@ -5,7 +5,7 @@ description: Découvrez comment créer des SMS avec Campaign
 feature: SMS
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: 29e56d6bf2817eeb863cbe33f99233a8241f2bf5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 

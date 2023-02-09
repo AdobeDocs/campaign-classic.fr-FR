@@ -5,7 +5,7 @@ description: Découvrez comment modifier l’image de l’activité
 feature: Workflows
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
 

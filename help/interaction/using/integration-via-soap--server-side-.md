@@ -25,7 +25,7 @@ Pour une proposition d&#39;offres via SOAP, vous devez ajouter la commande **nms
 
 * **targetId** : clé primaire du destinataire (il peut s&#39;agir d&#39;une clé composite).
 * **maxCount** : indique le nombre de propositions d&#39;offre pour le contact.
-* **context** : vous permet d’ajouter des informations contextuelles dans le schéma d’espace. Si le schéma utilisé est **nms:interaction**, **`<empty>`** doit être ajouté.
+* **context** : vous permet d&#39;ajouter des informations contextuelles dans le schéma d&#39;espace. Si le schéma utilisé est **nms:interaction**, **`<empty>`** doit être ajouté.
 * **categories** : indique la ou les catégories auxquelles doivent appartenir la ou les offres proposées.
 * **themes** : indique la ou les thèmes auxquelles doivent appartenir la ou les offres proposées.
 * **uuid** : valeur du cookie permanent Adobe Campaign (&quot;uuid230&quot;).
@@ -47,7 +47,7 @@ Ajoutez la commande **nms:interaction#UpdateStatus** dans l&#39;URL, puis les pa
 
 * **proposition** : chaîne de caractères, contient l&#39;identifiant de la proposition donnée en sortie lors d&#39;un appel au moteur. Voir [Proposition d&#39;offres](#offer-proposition).
 * **status** : nombre, indique le nouveau statut de l&#39;offre. Les valeurs possibles sont listées dans l&#39;énumération **propositionStatus**, dans le schéma **nms:common**. Par exemple, d&#39;usine, le nombre 3 correspond au statut **Acceptée**.
-* **Context** : élément XML, vous permet d’ajouter des informations contextuelles dans le schéma d’espace. Si le schéma utilisé est **nms:interaction**, **`<empty>`** doit être ajouté.
+* **Context** : élément XML, vous permet d&#39;ajouter des informations contextuelles dans le schéma d&#39;espace. Si le schéma utilisé est **nms:interaction**, **`<empty>`** doit être ajouté.
 
 ## Exemple d&#39;utilisation d&#39;un appel SOAP {#example-using-a-soap-call}
 

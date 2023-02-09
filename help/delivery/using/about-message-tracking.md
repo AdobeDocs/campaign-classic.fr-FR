@@ -5,7 +5,7 @@ description: Découvrez les instructions générales relatives au tracking dans 
 feature: Monitoring, Email
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: 29fae1305a6d2b8debbc2aa705c047eaf3730457
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Vous pouvez également tracker et mesurer les visites sur les pages d&#39;applic
 
 **Désinscription (opt-out) du tracking des applications web**
 
-La désinscription du tracking des applications web vous permet d’arrêter le tracking des comportements web des utilisateurs finaux qui se désinscrivent du tracking comportemental. Vous pouvez inclure la possibilité d’afficher une bannière dans des applications web ou des landing pages pour permettre aux utilisateurs de se désinscrire. [En savoir plus](../../web/using/web-application-tracking-opt-out.md)
+Le processus d’opt-out du tracking des applications web vous permet d&#39;arrêter le tracking des comportements web des utilisateurs finaux qui se désinscrivent du tracking comportemental. Vous pouvez inclure la possibilité d’afficher une bannière dans des applications web ou des landing pages pour permettre aux utilisateurs de se désinscrire. [En savoir plus](../../web/using/web-application-tracking-opt-out.md)
 
 ## Rapports de tracking {#tracking-reports}
 

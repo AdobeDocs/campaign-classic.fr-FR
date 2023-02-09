@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Connexion par LDAP
-description: 'Découvrez comment utiliser LDAP pour vous connecter à Campaign '
+description: Découvrez comment utiliser LDAP pour vous connecter à Campaign
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -9,7 +9,7 @@ exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1195'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -189,4 +189,4 @@ Cette section propose quelques cas pratiques simples afin de réaliser les param
 
    Les groupes ne sont jamais créés à la volée, ni côté Adobe Campaign, ni côté LDAP. Ils doivent être créés unitairement à la fois dans Adobe Campaign et dans l&#39;annuaire LDAP.
 
-   Les noms des groupes dans l&#39;annuaire LDAP doivent correspondre aux noms des groupes dans Adobe Campaign. Leur masque d&#39;association est défini dans la dernière étape de configuration de l&#39;assistant de déploiement, par exemple : Adobe Campaign_(.*).
+   Les noms des groupes dans l&#39;annuaire LDAP doivent correspondre aux noms des groupes Adobe Campaign. Leur masque d&#39;association est défini dans la dernière étape de configuration de l&#39;assistant de déploiement : Adobe Campaign_(.&#42;), par exemple.

@@ -5,7 +5,7 @@ description: En savoir plus sur la définition de la population cible
 feature: Audiences, Proofs
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1745'
 ht-degree: 100%
 

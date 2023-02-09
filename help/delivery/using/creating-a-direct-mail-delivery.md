@@ -5,7 +5,7 @@ description: Découvrez comment créer une diffusion courrier
 feature: Direct Mail
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 100%
 

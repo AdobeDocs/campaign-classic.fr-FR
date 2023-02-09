@@ -97,6 +97,6 @@ Pour cela, les étapes sont les suivantes :
    >Vous pouvez également vous référer à la section [Configuration des serveurs de diffusion](../../installation/using/email-deliverability.md#delivery-server-configuration).
 
 **Rubriques connexes :**
-* [Configurations techniques des emails](email-deliverability.md)
+* [Configurations techniques du canal e-mail](email-deliverability.md)
 * [Utilisation de serveurs MX avec Campaign](using-mx-servers.md)
 * [Configuration du Cci d’email](email-archiving.md)

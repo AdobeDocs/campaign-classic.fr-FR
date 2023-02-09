@@ -4,7 +4,7 @@ title: Configuration de l’interface
 description: Découvrez comment configurer lʼinterface de Campaign
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 

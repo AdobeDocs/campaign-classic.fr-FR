@@ -4,7 +4,7 @@ title: Architecture des messages transactionnels
 description: Cette section décrit lʼarchitecture des messages transactionnels Adobe Campaign Classic et les canaux disponibles pour diffuser des messages transactionnels
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 100%
 

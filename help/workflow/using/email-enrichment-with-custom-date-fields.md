@@ -5,7 +5,7 @@ description: Découvrez comment enrichir les emails avec des champs de date pers
 feature: Workflows
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 100%
 

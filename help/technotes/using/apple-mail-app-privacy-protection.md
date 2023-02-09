@@ -4,7 +4,7 @@ title: Protection de la confidentialité des e-mails dans l’application Mail d
 description: Découvrez comment vos campagnes peuvent être affectées par la fonction de protection de la confidentialité dans Mail d’Apple.
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 source-git-commit: 83fe7eb4f857306ac1c8bb3a93a9393b76ae1e3c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2097'
 ht-degree: 100%
 

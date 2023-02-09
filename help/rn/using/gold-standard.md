@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: '"versions [!DNL Gold Standard]"'
+title: "versions [!DNL Gold Standard]"
 description: Notes de mise à jour et matrice de compatibilité pour Campaign Classic  [!DNL Gold Standard]
 feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 100%
 

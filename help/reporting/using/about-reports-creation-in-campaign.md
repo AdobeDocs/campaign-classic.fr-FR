@@ -5,7 +5,7 @@ description: Découvrez les étapes clés de création dʼun rapport
 feature: Reporting
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%
 

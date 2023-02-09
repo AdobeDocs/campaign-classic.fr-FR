@@ -5,7 +5,7 @@ description: En savoir plus sur les versions de Campaign Classic 2019
 hidefromtoc: true
 exl-id: 8a36a542-e095-4208-b624-e59845592863
 source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4836'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ### ![](assets/do-not-localize/limited_2.png) Version 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
 
-__
+_15 avril 2021_
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
@@ -201,7 +201,7 @@ Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, no
 
 ### ![](assets/do-not-localize/limited_2.png) Version 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
 
-__
+_15 avril 2021_
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 * Correction d&#39;une régression qui pouvait bloquer l&#39;export des données du workflow vers une base FDA (Teradata, Snowflake).
@@ -410,7 +410,7 @@ _30 mai 2019_
 * Taille de la base de données - XtkJobLog : un mécanisme de purge a été ajouté à cette table. Cela a un impact positif sur la taille de la base de données.
 * Archivage des emails en Cci : les paramètres par défaut de l&#39;archivage des emails en Cci ont été modifiés en vue d&#39;accélérer l&#39;archivage. [En savoir plus](../../installation/using/email-archiving.md#parameters)
 * Mise à jour de la structure des bases de données : les demandes SQL générées par l&#39;assistant de mise à jour de la base de données ont été améliorées dans le but d&#39;accélérer l&#39;exécution.
-* Barrières de sécurité pour les actions des opérateurs : plusieurs barrières de sécurité ont été mises en place afin d&#39;empêcher les opérateurs de réaliser des actions susceptibles d&#39;impacter l&#39;intégrité de la plateforme. Les schémas natifs ne peuvent plus être supprimés via l&#39;interface. En outre, le code XML source d&#39;un workflow ne peut plus être édité par les utilisateurs non administrateurs.
+* Mécanismes de sécurisation pour les actions des opérateurs : plusieurs mécanismes de sécurisation ont été mis en place afin d&#39;empêcher les opérateurs de réaliser des actions susceptibles d&#39;impacter l&#39;intégrité de la plateforme. Les schémas natifs ne peuvent plus être supprimés via l&#39;interface. En outre, le code XML source d&#39;un workflow ne peut plus être édité par les utilisateurs non administrateurs.
 * Deux nouvelles options sont disponibles : **XtkSecurity_Restrict_EditXML** (qui vous permet de désactiver l&#39;édition du code XML des diffusions) et **NmsOperation_OperationMgtDebug** (qui vous permet de surveiller l&#39;exécution du workflow technique operationMgt). [En savoir plus](../../installation/using/configuring-campaign-options.md)
 
 **Autres changements**

@@ -5,8 +5,8 @@ description: Surveillance des campagnes marketing
 feature: Campaigns, Monitoring
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '258'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Suivi d’une campagne {#tracking-a-campaign}
 
-Pour chaque opération, l&#39;onglet **[!UICONTROL Tracking]** permet de visualiser les traitements réalisés et leurs états. Les informations accessibles depuis ce sous-onglet sont les suivantes :
+Pour chaque campagne, l&#39;onglet **[!UICONTROL Tracking]** vous permet de visualiser tous les traitements et leur statut. Les informations accessibles à partir de ce sous-onglet sont les suivantes :
 
 * Le journal des activités affiche les traitements réalisés sur l&#39;opération en général : création ou démarrage de workflow, validation, extraction, etc.
 

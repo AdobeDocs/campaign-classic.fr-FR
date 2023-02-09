@@ -5,7 +5,7 @@ description: Les validations permettent à des opérateurs de prendre des décis
 feature: Approvals
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Pour répondre, l&#39;opérateur dispose de deux modes : valider via la page we
 
 ## Validations par e-mail {#sending-emails}
 
-Il est possible de recevoir un message de validation qui contient un lien vers une page Web permettant de répondre. Pour le recevoir l&#39;opérateur ciblé doit renseigner son adresse email dans son profil. Dans le cas contraire, il devra passer par la console pour répondre.
+Il est possible de recevoir un message de validation qui contient un lien vers une page web permettant de répondre. Pour le recevoir l&#39;opérateur ciblé doit renseigner son adresse e-mail dans son profil. Dans le cas contraire, il devra passer par la console pour répondre.
 
 La gestion des opérateurs est présentée dans cette [section](../../platform/using/access-management.md).
 

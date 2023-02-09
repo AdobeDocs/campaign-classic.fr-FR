@@ -5,7 +5,7 @@ description: Gestion des modèles
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: 69805e60-8fc6-45d1-9087-5f7d949cc76a
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 100%
 

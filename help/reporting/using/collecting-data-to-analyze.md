@@ -5,7 +5,7 @@ description: Collecte des données à analyser
 feature: Reporting
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
 source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 

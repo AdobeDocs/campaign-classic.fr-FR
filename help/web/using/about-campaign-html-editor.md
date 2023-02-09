@@ -5,7 +5,7 @@ description: Prise en main du DCE Campaign
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 

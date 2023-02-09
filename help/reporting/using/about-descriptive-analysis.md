@@ -5,7 +5,7 @@ description: Prise en main de l’analyse descriptive
 feature: Reporting
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 

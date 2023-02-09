@@ -5,7 +5,7 @@ description: Découvrez comment créer un workflow
 feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Saisissez un libellé puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Ajout et liaison dʼactivités {#adding-and-linking-activities}
 
-Vous devez maintenant définir les différentes activités et les relier entre elles dans un diagramme. A ce stade de la configuration, sont disponibles le libellé du diagramme et l&#39;état du workflow (En édition). La section inférieure de la fenêtre est réservée à l&#39;édition du diagramme. Elle contient une barre d&#39;outils, une palette d&#39;activités (à gauche) et le diagramme (à droite).
+Vous devez maintenant définir les différentes activités et les relier entre elles dans un diagramme. À ce stade de la configuration, sont disponibles le libellé du diagramme et le statut du workflow (Édition en cours). La section inférieure de la fenêtre est réservée à l&#39;édition du diagramme. Elle contient une barre d&#39;outils, une palette d&#39;activités (à gauche) et le diagramme (à droite).
 
 ![](assets/new-workflow-2.png)
 

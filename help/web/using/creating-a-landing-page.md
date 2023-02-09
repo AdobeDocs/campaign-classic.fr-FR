@@ -5,7 +5,7 @@ description: Créer une landing page
 feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 100%
 

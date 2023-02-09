@@ -4,7 +4,7 @@ title: Ajout dʼautres fonctions SQL
 description: Découvrez comment définir dʼautres fonctions SQL
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Matrice des fonctionnalités Campaign On-premise, hybride et hébergé
 description: Découvrez les principales différences entre les déploiements hébergés et On-premise
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 

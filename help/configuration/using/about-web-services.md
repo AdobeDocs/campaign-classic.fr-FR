@@ -5,7 +5,7 @@ description: À propos des services web
 feature: API
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
 source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 

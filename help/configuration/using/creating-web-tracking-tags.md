@@ -4,7 +4,7 @@ title: Création de balises de tracking web
 description: Découvrez comment créer des balises de tracking web
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 

@@ -5,13 +5,13 @@ description: Gérer les abonnements
 feature: Subscriptions
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 100%
 
 ---
 
-# Gestion des abonnements{#managing-subscriptions}
+# Gérer les abonnements{#managing-subscriptions}
 
 ![](../../assets/common.svg)
 

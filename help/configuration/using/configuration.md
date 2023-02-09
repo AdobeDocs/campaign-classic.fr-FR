@@ -4,7 +4,7 @@ title: Configurer l’arborescence de navigation de l’Explorateur Campaign
 description: Découvrez comment configurer l’arborescence de navigation de l’Explorateur Campaign.
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 100%
 
