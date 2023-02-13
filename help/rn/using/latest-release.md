@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 8391df5046d56edfb33de5eb9f2afb4738108791
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2773'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ _21 novembre 2022_
 
 >[!CAUTION]
 >
->La mise à niveau de la console client est obligatoire. Découvrez comment mettre à niveau votre console client sur cette [page](../../installation/using/installing-the-client-console.md).
+>La mise à niveau de la console cliente est obligatoire. Découvrez comment mettre à niveau votre console cliente sur cette [page](../../installation/using/installing-the-client-console.md).
 
 **Mises à jour de compatibilité**
 
@@ -39,11 +39,11 @@ Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compa
 
 * Le connecteur Google BigQuery prend désormais entièrement en charge les champs booléens. (NEO-49181)
 * Vous pouvez désormais configurer la durée de validité des cookies IMS dans la section `Configuration for the redirection service` du fichier serverConf.xml. Les cookies suivants sont concernés : `uuid230`, `nllastdelid` et `AMCV_` (NEO-42541).
-* L’adresse IP peut désormais être masquée dans la requête « /r/test » en définissant `showSourceIP` sur false dans le nœud de redirection du fichier serverConf.xml. [En savoir plus](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656).
+* L’adresse IP peut désormais être masquée dans la requête « /r/test » en définissant `showSourceIP` sur « false » dans le nœud de redirection du fichier serverConf.xml. [En savoir plus](../../installation/using/the-server-configuration-file.md#redirection-redirection) (NEO-46656).
 
 **Fonctionnalités obsolètes**
 
-* Le marketing des médias sociaux avec Facebook est désormais obsolète. Vous pouvez utiliser l’intégration de Twitter pour publier sur les médias sociaux ou utiliser Adobe pour créer un canal personnalisé.
+* Le marketing social avec Facebook est désormais obsolète. Vous pouvez utiliser l’intégration de Twitter pour publier sur les médias sociaux ou utiliser Adobe pour créer un canal personnalisé.
 * Le connecteur ACS (offre Prime) est désormais obsolète. Vous pouvez utiliser les fonctionnalités d’exportation/importation de Campaign pour extraire et injecter des données dans les deux produits.
 
 En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](deprecated-features.md).
@@ -59,13 +59,13 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](depreca
 **Correctifs**
 
 * Correction d’un problème qui empêchait l’utilisation de l’option de workflow **Fusionner les lignes sélectionnées**. (NEO-48488)
-* Correction d’un problème qui empêchait la mise à jour correcte de l’indicateur de diffusion de **Succès** lors de l’utilisation du MTA amélioré d’Adobe Campaign. (NEO-50462)
-* Correction d’un problème lors de la réinitialisation de la validation du contenu dans une diffusion e-mail, qui empêchait la revalidation de celui-ci. (NEO-44259)
+* Correction d’un problème qui empêchait la mise à jour correcte de l’indicateur de diffusion **Succès** lors de l’utilisation du MTA amélioré d’Adobe Campaign. (NEO-50462)
+* Correction d’un problème lors de la réinitialisation de la validation du contenu dans une diffusion par e-mail, qui empêchait la revalidation de celui-ci. (NEO-44259)
 * Correction d’un problème en raison duquel le bouton **Validation de la diffusion** n’était pas affiché. (NEO-47547)
 * Correction d’un problème de performances dans l’onglet HTML d’une diffusion, qui pouvait se produire lors de l’utilisation d’un code HTML volumineux. (NEO-47440)
 * Correction d’un problème qui affectait les mises à jour du statut des logs de diffusion sur l’instance MID, lorsque l’option `FeatureFlag_GZIP_Compression` était activée. (NEO-49183)
 * Correction d’un problème qui empêchait l’envoi de notifications d’applications mobiles iOS à partir d’une instance d’exécution lors de l’utilisation de l’authentification par jeton. (NEO-45961)
-* Correction d’un problème entraînant le blocage du workflow **Mise à jour pour la délivrabilité** (deliverabilityUpdate) lorsque les broadlogs étaient trop nombreux pour être synchronisés. (NEO-48287)
+* Correction d’un problème entraînant le blocage du workflow **Actualisation pour la délivrabilité** (deliverabilityUpdate) lorsque les broadlogs étaient trop nombreux pour être synchronisés. (NEO-48287)
 * Correction d’un problème de type d’événement qui entraînait le blocage du workflow **Synchronisation de Message Center** (mcSynch).
 * Correction d’un problème qui pouvait entraîner une erreur lors de l’ajout de l’indicateur **Destinataires ayant ouvert** (estimatedRecipientOpen) dans les données additionnelles d’une activité de workflow **Requête**. (NEO-46665)
 * Correction d’un problème lié au workflow **Facturation** qui échouait lorsque les packages de contrôle et d’exécution de Message Center étaient installés sur la même instance. (NEO-47674)
@@ -77,8 +77,8 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](depreca
 * Correction d’un problème qui empêchait l’insertion d’un type de données « Time » dans une activité de workflow **Mise à jour des données** sur MSSQL. (NEO-47763)
 * Correction d’un problème qui entraînait le blocage du processus MTA lorsque le fuseau horaire du moteur n’était pas défini (spécifique à MSSQL). (NEO-46619)
 * Correction d’un problème lié à l’importation de fichiers HTML lorsque les nœuds d’image (img) contenaient des URL avec des champs de personnalisation. (NEO-48396)
-* Correction d’une erreur HTTP 500 lors de la tentative de connexion à une instance dans laquelle le nœud `limit` n’était pas configuré dans le fichier serverConf.xml.
-* Correction d’un problème qui entraînait une erreur « Discordance des jeux de caractères » lors de l’utilisation de certaines fonctions, telles que `to_nclob`, avec une base de données Oracle unicode où NChar n’était pas activé. (NEO-49361)
+* Correction d’une erreur HTTP 500 lors de la tentative de connexion à une instance dans laquelle le nœud `limit` n’était pas configuré dans le fichier serverConf.xml.
+* Correction d’un problème qui entraînait une erreur « Discordance des jeux de caractères » lors de l’utilisation de certaines fonctions, telles que `to_nclob`, avec une base de données Oracle Unicode où NChar n’était pas activé. (NEO-49361)
 * Correction d’un problème qui entraînait une erreur lorsqu’un utilisateur ou une utilisatrice disposant de droits d’accès en lecture sur le dossier nmsDeliveryMapping essayait de lancer une campagne ou un workflow. (NEO-48230)
 * Correction d’un problème qui empêchait le bon fonctionnement de la fonction `JSPContext.sqlExecWithOneParam`. (NEO-50066)
 * Correction de diverses erreurs de redirection. (NEO-50030)
@@ -97,7 +97,7 @@ _1er juillet 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Avec iOS 15, Apple a ajouté une notion de notification urgente qui permet au développeur de l’application de contourner le mode Focus lorsqu’une notification est considérée comme urgente et doit atteindre l’utilisateur en temps réel.</p>
+<td> <p>Avec iOS 15, Apple a ajouté une notion de notification urgente qui permet à la personne qui développe l’application de contourner le mode Focus lorsqu’une notification est considérée comme urgente et doit atteindre l’utilisateur ou l’utilisatrice en temps réel.</p>
 <p>Découvrez comment créer une notification urgente dans la <a href="../../delivery/using/create-notifications-ios.md">documentation détaillée</a>.</p>
 </td> 
 </tr> 
@@ -115,7 +115,7 @@ Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compa
 
 **Améliorations**
 
-* Compte tenu de la fin de vie d’Internet Explorer 11, le moteur de rendu HTML pour Adobe Services (page de connexion) dans la console cliente utilise désormais Edge Chromium. Notez que Microsoft Internet Explorer 11 est toujours le moteur de rendu de HTML pour les tableaux de bord dans la console cliente.  En outre, l’installation du runtime de Microsoft Edge Webview 2 est désormais requise pour toute installation de la console cliente (à partir de la version de build 7.3 de Campaign Classic). [En savoir plus](../../installation/using/installing-the-client-console.md)
+* Compte tenu de la fin de vie d’Internet Explorer 11, le moteur de rendu HTML pour Adobe Services (page de connexion) dans la console cliente utilise désormais Edge Chromium. Notez que Microsoft Internet Explorer 11 est toujours le moteur de rendu de HTML pour les tableaux de bord dans la console cliente.  En outre, l’installation du runtime de Microsoft Edge Webview 2 est désormais requise pour toute installation de la console cliente (à partir de la version de build 7.3 de Campaign Classic). [En savoir plus](../../installation/using/installing-the-client-console.md)
 * La gestion des connexions de base de données dans Adobe Campaign a été améliorée afin d’optimiser la stabilité.
 * L’authentification OAuth 2.0 de Microsoft Exchange Online pour POP3 est désormais prise en charge dans Campaign. [En savoir plus](../../installation/using/external-accounts.md#bounce-mails-external-account)
 * Correction de divers problèmes lors de l’utilisation d’une activité de workflow d’enrichissement avec des données externes. (NEO-38069)
@@ -125,7 +125,7 @@ Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compa
 
 **Correctifs**
 
-* Correction d’une erreur du build précédent qui empêchait les utilisateurs de redimensionner la page de connexion IMS. (NEO-30085)
+* Correction d’une erreur de la build précédente qui empêchait le redimensionnement de la page de connexion IMS. (NEO-30085)
 * Correction d’une erreur qui se produisait lors de l’installation du package du gestionnaire de contenu sur une instance existante. (NEO-32349)
 * Correction d’un problème dans le menu **Campagnes** où un message « opération en cours » s’affichait en continu. (NEO-44904)
 * Avec Adobe Analytics activé, correction d’un problème en raison duquel le BID (Broadlog ID, identifiant du broadlog) et le CID (identifiant de campagne) étaient supprimés de l’URL lors de l’envoi d’un e-mail avec une URL sans enregistrer la diffusion. (NEO-38678)
@@ -134,7 +134,7 @@ Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compa
 * Correction d’un problème qui empêchait la mise à jour correcte des indicateurs de diffusion. (NEO-44827)
 * Correction d’un problème qui entraînait une erreur de postupgrade lors de l’utilisation de requêtes complexes. (NEO-43648)
 * Correction d’un problème qui empêchait le fonctionnement de l’aperçu webApps. (NEO-43242)
-* Correction d’un problème qui entraînait l’échec de la préparation de la diffusion lors de l’utilisation d’un fichier de mapping de ciblage externe dans un workflow avec une activité Chargement (fichier). (NEO-43691)
+* Correction d’un problème qui entraînait l’échec de la préparation de la diffusion lors de l’utilisation d’un fichier de mapping de ciblage externe dans un workflow avec une activité Chargement de données (fichier). (NEO-43691)
 * Correction d’un problème qui entraînait des blocages et nécessitait un redémarrage complet de l’instance. (NEO-44645)
 * Correction d’un problème qui empêchait le chargement de la carte thermique des workflows de charger n’importe quel résultat. (NEO-43360)
 * Correction d’un problème qui entraînait des difficultés de connexion lors de l’utilisation du connecteur externe FDA. (NEO-42722)
@@ -147,7 +147,7 @@ Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compa
 * Correction d’un problème en raison duquel les diffusions étaient associées à un eventType incorrect. (NEO-45743)
 * Correction d’un problème qui entraînait des blocages en raison de vidages principaux intermittents. (NEO-30549)
 * Correction d’un problème qui entraînait des blocages lors de l’utilisation d’un code HTML erroné dans une diffusion. (NEO-40385)
-* Correction d’un problème qui empêchait les utilisateurs non-administrateurs d’accéder à l’onglet **Analyse** dans les propriétés de la diffusion. (NEO-34025)
+* Correction d’un problème qui empêchait les personnes ne disposant pas de privilèges d’administration d’accéder à l’onglet **Analyse** dans les propriétés de la diffusion. (NEO-34025)
 * Correction d’un problème qui empêchait le téléchargement d’une image en mode bloc à partir d’un serveur externe pendant la préparation des messages. (NEO-40307)
 * Correction d’une erreur qui entraînait l’envoi de la diffusion à un plus grand nombre de destinataires que prévu. (NEO-45108)
 
@@ -182,7 +182,7 @@ _10 janvier 2022_
 Plusieurs améliorations de sécurité ont été apportées aux comptes FDA :
 
 * Lors de la configuration de votre compte externe FDA, vous pouvez désormais vous connecter à votre compte Snowflake à l’aide de l’authentification par paire de clés pour une sécurité d’authentification renforcée. [En savoir plus](../../installation/using/configure-fda-snowflake.md)
-* Lors de la configuration de votre compte externe FDA, vous pouvez désormais vous connecter à votre compte Azure Synapse Analytics à l’aide de l’identité managée affectée par le système. [En savoir plus](../../installation/using/configure-fda-synapse.md#azure-external)
+* Lors de la configuration de votre compte externe FDA, vous pouvez désormais vous connecter à votre compte Azure Synapse Analytics à l’aide de l’identité gérée affectée par le système. [En savoir plus](../../installation/using/configure-fda-synapse.md#azure-external)
 * Toutes les références à la bibliothèque log4j ont été supprimées de Campaign pour assurer une sécurité optimale.
 
 **Mises à jour de compatibilité**
@@ -206,8 +206,8 @@ Adobe Campaign est désormais compatible avec Windows Server 2019. Reportez-v
 
 **Autres changements**
 
-* Suite à leur abandon, les activités d’action Microsoft CRM, Salesforce et Oracle CRM On Demand ont été supprimées de l’interface. Pour paramétrer la synchronisation des données entre Adobe Campaign et un système CRM, vous pouvez utiliser l’activité Connecteur CRM. [En savoir plus](../../workflow/using/crm-connector.md)
-* Le champ **[!UICONTROL Identifiant chiffré]** a été ajouté au schéma des visiteurs (nms:visitor). Ce champ est calculé et doit être utilisé pour les applications web. Cela s’applique lorsque le canal LINE est paramétré sur l’instance de mid-sourcing.
+* Suite à leur abandon, les activités d’action Microsoft CRM, Salesforce et Oracle CRM On Demand ont été supprimées de l’interface. Pour configurer la synchronisation des données entre Adobe Campaign et un système CRM, vous pouvez utiliser l’activité Connecteur CRM. [En savoir plus](../../workflow/using/crm-connector.md)
+* Le champ **[!UICONTROL Identifiant chiffré]** a été ajouté au schéma des visiteurs (nms:visitor). Ce champ est calculé et doit être utilisé pour les applications web. Cela s’applique lorsque le canal LINE est configuré sur l’instance de midsourcing.
 * Les sources de données CRM peuvent désormais être utilisées avec l’activité **Modifier la source de données**.
 * Une nouvelle option a été ajoutée dans les propriétés de **Gestion des erreurs** des activités de workflow : l’option **Abandon en cas d’erreur** arrête automatiquement le workflow. Vous ne pouvez pas le redémarrer par la suite (NEO-29661). [En savoir plus](../../workflow/using/advanced-parameters.md#in-case-of-errors)
 * Une séquence dédiée est désormais utilisée pour générer les clés primaires de la table nmsGroup, qui sert à créer des groupes statistiques de destinataires. Auparavant, la séquence XtkNewId était utilisée. (NEO-30832)
@@ -218,7 +218,7 @@ Adobe Campaign est désormais compatible avec Windows Server 2019. Reportez-v
 
 * Correction d’un problème lors de la création d’une diffusion qui entraînait une erreur dans l’onglet **Images** de la fenêtre **Tracking &amp; Images**. Ce problème se produisait lors de l’utilisation d’une configuration de proxy automatique. (NEO-33260)
 * Correction d’un problème qui empêchait le téléchargement d’un fichier sur un serveur Debian 10 (HTTPS) en mode synchrone.
-* Correction d’une erreur qui empêchait les enregistrements de la table des statistiques de diffusions (`nmsDeliveryLogStats`) d’être purgés de l’instance de mid-sourcing pendant le nettoyage de la base de données après la suppression des diffusions associées. (NEO-31034)
+* Correction d’une erreur qui empêchait les enregistrements de la table des statistiques de diffusions (`nmsDeliveryLogStats`) d’être purgés de l’instance de midsourcing pendant le nettoyage de la base de données après la suppression des diffusions associées. (NEO-31034)
 * Correction d’un problème qui empêchait l’envoi de notifications d’application mobile sur iOS lors de l’utilisation de l’authentification basée sur les jetons (NEO-38640).
 * Correction d’un problème qui entraînait l’affichage de messages d’erreur de script lors de la création et de la configuration de rapports (NEO-38393).
 * Correction d’un problème qui entraînait l’échec du workflow de tracking sur Oracle en raison de la mise à jour simultanée de volumes élevés d’indicateurs de diffusion (NEO-39653).
@@ -236,10 +236,10 @@ Adobe Campaign est désormais compatible avec Windows Server 2019. Reportez-v
 * Correction dʼun problème en raison duquel les problèmes de délai dʼexpiration du réseau étaient incorrectement enregistrés en tant que problèmes dʼinterruption de script au lieu dʼerreurs de réseau. Ce problème se produisait dans le cas de requêtes HTTP incluses dans les activités JavaScript. (NEO-38079)
 * Correction dʼun problème en raison duquel des résultats incorrects étaient renvoyés lors de lʼexécution des fonctions Amazon Redshift HoursDiff et MinutesDiff lors de la tentative dʼextraction du composant dʼheure.(NEO-31673)
 * Correction d’un problème qui empêchait le chargement du rapport **Hot Clicks** pour les diffusions depuis la build 9182. (NEO-28900)
-* Correction d’une erreur qui remplaçait le symbole &amp; dans une URL par la référence d’entité de caractère (`&amp;`) empêchant les utilisateurs d’accéder à l’URL associée à un code QR. (NEO-28621)
-* Correction d’un problème en raison duquel un compte externe était créé chaque fois qu’un utilisateur créait un workflow de campagne et une activité de diffusion associée à un compte Web Analytics. Ce problème était dû à un ID manquant dans l’objet de diffusion webAnalyticsAccount. (NEO-39691)
+* Correction d’une erreur qui remplaçait le symbole « &amp; » dans une URL par la référence d’entité de caractère (`&amp;`) empêchant l’accès à l’URL associée à un code QR. (NEO-28621)
+* Correction d’un problème en raison duquel un compte externe était créé lors de chaque création d’un workflow de campagne et d’une activité de diffusion associée à un compte Web Analytics. Ce problème était dû à un ID manquant dans l’objet de diffusion webAnalyticsAccount. (NEO-39691)
 * Correction dʼun problème en raison duquel lʼactivité du workflow de **Lecture de liste** ne fonctionnait pas lorsque la liste était identifiée dans la base de données par un identifiant négatif. (NEO-39607)
-* Correction d’un problème qui entraînait l’échec du workflow **mid-sourcing (logs de diffusion)**. (NEO-39662)
+* Correction d’un problème qui entraînait l’échec du workflow **Midsourcing (logs de diffusion)**. (NEO-39662)
 * Correction d’un problème qui vous empêchait de prévisualiser les diffusions e-mail jointes à un workflow. (NEO-37840)
 * Correction d’un problème qui entraînait la suppression de tables valides contenant des valeurs de liste par le workflow de nettoyage de la base de données. (NEO-34911)
 * Correction dʼun problème qui entraînait le blocage du workflow de facturation sur les instances marketing.
