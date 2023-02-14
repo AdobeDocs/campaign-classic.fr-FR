@@ -138,7 +138,7 @@ Une équipe constituée de représentants de l’assistance clientèle, de respo
 
 ## Ressources supplémentaires{#support}
 
-* [Trouver votre version de Campaign](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+* [Trouver votre version de Campaign](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 * [Aide et support](../../support.md)
 * [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr)
 * [Dernières mises à jour de la documentation](../../rn/using/documentation-updates.md)
