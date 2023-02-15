@@ -27,7 +27,7 @@ Chaque nouvelle build est fournie avec un statut identifié par une couleur dans
 
 ![](assets/do-not-localize/limited3.png) **Disponibilité limitée** (LA, Limited Availability) : déploiement à la demande uniquement.
 
-![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) : build la plus récente avec des nouvelles fonctionnalités.
+![](assets/do-not-localize/blue3.png) **Version d’évaluation** (RC, Release Candidate) : build la plus récente avec des nouvelles fonctionnalités.
 
 ![](assets/do-not-localize/orange3.png) **Plus disponible** : aucun déploiement. Aucun correctif. Il est recommandé de mettre à jour vers une build plus récente.
 
