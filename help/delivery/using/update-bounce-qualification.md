@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Mise à jour de la qualification des bounces après une interruption d’Apple 2021
-description: Découvrez comment mettre à jour la qualification des bounces après une panne d’Apple 2021
+title: Mise à jour de la qualification des retours après la panne d’Apple en 2021
+description: Découvrez comment mettre à jour la qualification des retours après la panne dʼApple en 2021.
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: c84f48ebdd66524e8dd6c39c88ae29565d11c9b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
