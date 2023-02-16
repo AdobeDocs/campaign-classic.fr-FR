@@ -7,9 +7,9 @@ user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 985c0f170b8a56d7cdf76779ed9581832da301b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2532'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -830,8 +830,8 @@ ht-degree: 99%
       + [Fin de vie de la prise en charge du protocole TLS 1.0 et 1.1](technotes/using/eol-tls-support.md)
    + E-mails et notifications push{#technotes-email}
       + [Protection de la confidentialité des e-mails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
-      + [Mise à jour des hard bounces incorrects](delivery/using/update-bounce-qualification.md)
-      + [Mise à jour de hard bounces incorrects après une panne de FAI](delivery/using/update-bounces.md)
+      + [Mise à jour des erreurs hard incorrectes](delivery/using/update-bounce-qualification.md)
+      + [Mettre à jour les erreurs hard incorrectes après une panne d’un FAI](delivery/using/update-bounces.md)
       + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
       + [Mise à jour des URL suivies](technotes/using/tracked-urls.md)
    + Migration vers Adobe Managed Services{#dc-migration}
