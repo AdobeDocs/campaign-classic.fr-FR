@@ -5,9 +5,9 @@ description: Découvrez comment configurer le canal SMS dans Campaign
 feature: SMS
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: 0ae52b00f69298e001596583fe166771faddead2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1826'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Pour diffuser vers un téléphone mobile, vous devez avoir :
 >
 > Pour les diffusions SMS, la typologie doit utiliser une affinité SMS spécifique créée dans **un** conteneur de serveur d’applications dédié. [En savoir plus](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
 
-## Création d’un compte externe SMPP {#creating-an-smpp-external-account}
+## Créer un compte externe SMPP {#creating-an-smpp-external-account}
 
 >[!IMPORTANT]
 >
->L’utilisation du même compte et du même mot de passe pour plusieurs comptes SMS externes peut entraîner des conflits et des chevauchements entre les comptes. Reportez-vous à la section [Page de dépannage des SMS](troubleshooting-sms.md#external-account-conflict).
+>L’utilisation du même compte et du même mot de passe pour plusieurs comptes SMS externes peut entraîner des conflits et des chevauchements entre les comptes. Reportez-vous à la [page de résolution des problèmes de SMS](troubleshooting-sms.md#external-account-conflict).
 
 Pour envoyer un SMS à un téléphone mobile, vous devez d’abord créer votre compte externe SMPP.
 Pour plus d’informations sur les paramètres et le protocole SMS, reportez-vous à cette [page](sms-protocol.md).
