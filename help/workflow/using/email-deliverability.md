@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Le workflow décrit ci-dessous est installé par défaut sur toutes les instances et permet d&#39;initialiser la liste des règles de qualification des emails bounce, la liste des domaines et la liste des MX. Une fois le package **Supervision de la délivrabilité (Email Deliverability)** installé, le workflow s&#39;exécute de nuit. Voir à ce propos [cette section](../../delivery/using/about-deliverability.md).
+Le workflow décrit ci-dessous est installé par défaut sur toutes les instances et permet d’initialiser la liste des règles de qualification des emails rebonds, la liste des domaines et la liste des MX. Une fois le package **Supervision de la délivrabilité (Email Deliverability)** installé, le workflow s&#39;exécute de nuit. Voir à ce propos [cette section](../../delivery/using/about-deliverability.md).
 
 <table> 
  <tbody> 

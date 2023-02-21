@@ -48,7 +48,7 @@ _7 septembre 2021_
 
 **Autres changements**
 
-* Correction d’une régression introduite dans la version 21.1.3 avec la nouvelle barrière de sécurité du workflow de facturation. Le workflow de facturation a été exécuté sur des instances incorrectes et sʼest bloqué lors de la tentative dʼenvoi du rapport de facturation, qui n’avait pas été généré. Vous devez redémarrer manuellement le workflow pour que le correctif soit appliqué.
+* Correction d’une régression introduite dans la version 21.1.3 avec le nouveau mécanisme de sécurisation du workflow de facturation. Le workflow de facturation a été exécuté sur des instances incorrectes et sʼest bloqué lors de la tentative dʼenvoi du rapport de facturation, qui n’avait pas été généré. Vous devez redémarrer manuellement le workflow pour que le correctif soit appliqué.
 * Les connecteurs Microsoft CRM (déploiements Office 365 et On-premise) précédemment obsolètes ont été supprimés de l’interface. [En savoir plus](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Suite à la migration vers Tomcat 8, le script de configuration IIS a été mis à jour afin de corriger les problèmes d&#39;intégration IIS. (NEO-31019)
 * L&#39;identification de la source de données a été améliorée dans les onglets de données et de schéma de la fenêtre **Visualiser la population** des transitions de workflow.
@@ -192,7 +192,7 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 
 **Autres modifications**
 
-* Une barrière de sécurité a été ajoutée pour permettre uniquement l’exécution du [workflow technique de facturation](../../production/using/monitoring-processes.md#billing-report) sur l’instance marketing.
+* Un mécanisme de sécurisation a été ajouté pour permettre uniquement l’exécution du [workflow technique de facturation](../../production/using/monitoring-processes.md#billing-report) sur l’instance marketing.
 * Le tiers openssl pour Windows a été mis à jour vers la version 1.1.1h.
 * Dans la description du package Debian, nlserver a été changé en serveur Adobe Campaign Classic.
 

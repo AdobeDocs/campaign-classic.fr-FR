@@ -134,7 +134,7 @@ Le type de graphique **Jauge** a été supprimé.
 
 Les captures dʼécran et paramètres des rapports et applications Web ont été mis à jour suite à la suppression dʼAdobe Flash.
 
-La description du [workflow technique de facturation](../../production/using/monitoring-processes.md#billing-report) a été mise à jour avec une nouvelle limite de protection.
+La description du [workflow technique de facturation](../../production/using/monitoring-processes.md#billing-report) a été mise à jour avec un nouveau mécanisme de sécurisation.
 
 ### Août 2021{#aug-2021}
 

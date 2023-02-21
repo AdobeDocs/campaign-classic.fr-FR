@@ -5,7 +5,7 @@ description: Comprendre la gestion des quarantaines
 feature: Monitoring, Deliverability
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: c84f48ebdd66524e8dd6c39c88ae29565d11c9b2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3100'
 ht-degree: 100%
 

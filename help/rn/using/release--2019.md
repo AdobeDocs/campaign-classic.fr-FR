@@ -140,7 +140,7 @@ _2 décembre 2019_
 * Pour optimiser les performances et le stockage, la gestion du fichier **logins.log** a été améliorée. Le fichier est maintenant divisé en plusieurs fichiers, un par jour, avec un maximum de 365 fichiers conservés. [En savoir plus](../../production/using/log-files.md)
 * Le compte externe Microsoft Dynamics CRM peut désormais être configuré à l&#39;aide des informations d&#39;identification (mot de passe + nom d&#39;utilisateur) ou du certificat (clé privée). [En savoir plus](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
 * Certaines améliorations ont été apportées au connecteur Hadoop FDA pour améliorer la fiabilité
-* Une barrière de sécurité spécifique a été ajoutée pour vérifier l&#39;espace disque avant de permettre le transfert des ressources publiques sur le serveur.
+* Un mécanisme de sécurisation spécifique a été ajouté pour vérifier l&#39;espace disque avant de permettre le transfert des ressources publiques sur le serveur.
 * De nouvelles [options Campaign](../../installation/using/configuring-campaign-options.md) ont été ajoutées :
    * L&#39;option de configuration **WdbcKillSessionPolicy** permet d&#39;influer sur le comportement **Arrêt inconditionnel** pour tous les workflows et les requêtes de base de données PostgreSQL.
    * L&#39;option **NmsOperation_DeliveryPreparationWindow** permet de définir le nombre de jours au-delà desquels les diffusions dont le statut est incohérent seront exclues du nombre de diffusions en cours.
@@ -150,7 +150,7 @@ _2 décembre 2019_
 * Une nouvelle option **Durée maximale d&#39;exécution de la personnalisation** des propriétés de diffusion permet de définir un délai d&#39;expiration pour la durée d&#39;exécution de la personnalisation. Ce mécanisme empêche que cette durée ne soit trop longue. [En savoir plus](../../delivery/using/personalization-fields.md#timing-out-personalization)
 * L&#39;option **protocole ftp** a été ajoutée pour vous permettre d&#39;utiliser une configuration proxy pour les connexions SFTP. [En savoir plus](../../installation/using/file-res-management.md)
 * Nouvelle prise en charge de l&#39;accès par proxy à un serveur SFTP externe pour les environnements on-premise.
-* Une barrière de sécurité spécifique a été ajoutée pour empêcher l&#39;installation de packages incompatibles avec l&#39;instance Campaign. [En savoir plus](../../installation/using/installing-campaign-standard-packages.md)
+* Un mécanisme de sécurisation spécifique a été ajouté pour empêcher l&#39;installation de packages incompatibles avec l&#39;instance Campaign. [En savoir plus](../../installation/using/installing-campaign-standard-packages.md)
 
 _Systèmes obsolètes_
 
@@ -367,8 +367,8 @@ _30 mai 2019_
    <td> <p>En tant qu'administrateur, augmentez votre productivité en surveillant et en gérant les modifications apportées dans l'instance Adobe Campaign Classic. Le Suivi consigne les actions effectuées sur les schémas sources, les workflows et les options. Vous pouvez déterminer rapidement si un élément a été créé, modifié ou supprimé.</p><p>Pour plus d'informations, consultez la <a href="../../production/using/audit-trail.md">documentation détaillée</a> et visualisez la <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/monitoring/audit-trail.html?lang=fr">vidéo pratique</a>.</p></td> 
   </tr> 
   <tr> 
-   <td> Barrière de sécurité, robustesse et évolutivité<br /> </td> 
-   <td> Nous avons ajouté une série d'améliorations à Campaign Classic. Les améliorations en termes de barrière de sécurité, de robustesse et d'évolutivité sont répertoriées ci-dessous.<br /> </td> 
+   <td> Mécanisme de sécurisation, robustesse et évolutivité<br /> </td> 
+   <td> Nous avons ajouté une série d'améliorations à Campaign Classic. Les améliorations en termes de mécanisme de sécurisation, de robustesse et d'évolutivité sont répertoriées ci-dessous.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mise à jour de la matrice de compatibilité<br /> </td> 
@@ -400,7 +400,7 @@ _30 mai 2019_
 * Une nouvelle option XtkSecurity_Disable_GetSetEnv a été ajoutée afin de bloquer l&#39;utilisation des fonctions setEnv et getEnv.
 * Les informations sensibles sont désormais masquées dans la trace de la pile d’applications.
 
-**Améliorations de la sécurité, de la robustesse et de l&#39;évolutivité**
+**Améliorations du mécanisme de sécurisation, de la robustesse et de l&#39;évolutivité**
 
 * Optimisation de l’utilisation de la séquence XtkNewId et de sa durée de vie : les tables les plus gourmandes en donnnées ont été déplacées de la séquence xtkNewId vers les séquences dédiées.
 * FDA via HTTP v2 : le protocole FDA via HTTP est largement utilisé sur les déploiements hybrides, en particulier pour la préparation des diffusions et la récupération des broadLogs. Sa robustesse a été renforcée de façon à éviter les problèmes réseau et les erreurs possibles lors de la récupération ou de l&#39;envoi de données. Pour cela, les builds aux deux extrémités de la connexion doivent être à jour, sans quoi le protocole antérieur sera encore utilisé.

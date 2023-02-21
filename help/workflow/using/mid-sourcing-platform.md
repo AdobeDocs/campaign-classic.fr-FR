@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Le workflow présenté ci-dessous est installé par défaut avec le module **Plateforme de mid-sourcing**. Pour plus d’informations sur ce module, consultez cette [section](../../installation/using/mid-sourcing-deployment.md).
+Le workflow détaillé ci-dessous est installé par défaut avec le module **Plateforme de Mid-sourcing.** Voir à ce propos [cette section](../../installation/using/mid-sourcing-deployment.md).
 
 <table> 
  <tbody> 

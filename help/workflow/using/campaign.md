@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Les workflows présentés ci-dessous sont installés par défaut avec le module **Campaign**. Pour plus d’informations sur ce module, consultez cette [section](../../campaign/using/designing-marketing-campaigns.md).
+Les workflows présentés ci-dessous sont installés par défaut avec le module **Campaign.** Voir à ce propos [cette section](../../campaign/using/designing-marketing-campaigns.md).
 
 >[!CAUTION]
 >

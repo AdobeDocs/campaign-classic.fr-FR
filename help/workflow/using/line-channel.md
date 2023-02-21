@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Les workflows présentés ci-dessous sont installés par défaut avec le module **Canal LINE**. Pour plus d’informations sur ce module, consultez cette [section](../../delivery/using/line-channel.md).
+Les workflows présentés ci-dessous sont installés par défaut avec le module **canal LINE**. Voir à ce propos [cette section](../../delivery/using/line-channel.md).
 
 <table> 
  <tbody> 

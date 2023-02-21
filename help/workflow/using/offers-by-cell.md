@@ -17,7 +17,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Offres par cellules]** vous permet de répartir la population entrante (par exemple issue d&#39;une requête) en plusieurs segments, et de définir une offre à proposer pour chacun de ces segments.
 
-Cette activité ne peut être utilisée qu&#39;avec **Interaction**. Pour plus d&#39;informations, consultez cette [section](../../interaction/using/about-outbound-channels.md).
+Cette activité ne peut être utilisée qu’avec **Interaction**. Pour plus d’informations, consultez cette [section](../../interaction/using/about-outbound-channels.md).
 
 Pour cela :
 

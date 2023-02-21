@@ -365,7 +365,7 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](https://helpx.adob
 
 * La messagerie transactionnelle a été améliorée pour offrir une meilleure expérience utilisateur. Vous pouvez désormais dépublier un modèle de message transactionnel, ce qui le supprime des instances d&#39;exécution. [En savoir plus](../../message-center/using/publishing-message-templates.md#template-unpublication).
 
-* De nouvelles options sont disponibles pour définir des limites lors de l&#39;envoi d&#39;emails contenant des images ou des pièces jointes. Ces garde-fous permettent d&#39;éviter des problèmes de performances, ce qui est particulièrement utile pour les messages transactionnels. [En savoir plus](../../installation/using/configuring-campaign-options.md#delivery)
+* De nouvelles options sont disponibles pour définir des limites lors de l&#39;envoi d&#39;emails contenant des images ou des pièces jointes. Ces mécanismes de sécurisation permettent d&#39;éviter des problèmes de performances, ce qui est particulièrement utile pour les messages transactionnels. [En savoir plus](../../installation/using/configuring-campaign-options.md#delivery)
 
 * La nouvelle option **Préparer les fragments de diffusion dans la base de données** permet d&#39;effectuer la préparation de la diffusion directement dans la base de données, ce qui peut accélérer considérablement l&#39;analyse. Cette option n&#39;est proposée que pour des configurations spécifiques. [En savoir plus](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis). (NEO-23886)
 

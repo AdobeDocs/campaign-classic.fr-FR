@@ -4,7 +4,7 @@ title: Modification de formulaires
 description: Modification de formulaires
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
 source-git-commit: 4af44f38d495d31dec4b9b7a142dbed0c2450d56
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 100%
 
