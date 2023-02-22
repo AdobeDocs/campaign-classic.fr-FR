@@ -49,6 +49,7 @@ Il est nécessaire d&#39;arrêter toutes les instances du service nlserver afin 
       **iisreset /stop**
 
    * service Adobe Campaign : **net stop nlserver6**
+
    >[!IMPORTANT]
    >
    >Vous devez également vous assurer que le serveur de redirection (webmdl) est arrêté afin que le fichier **nlsrvmod.dll**, qui est utilisé par IIS, puisse être remplacé par la nouvelle version.
@@ -171,9 +172,8 @@ Pour cela exécutez la commande :
 >
 >* Il est possible que votre script porte le nom **httpd** plutôt que **apache**.
 >* Vous DEVEZ impérativement exécuter cette commande jusqu&#39;à obtenir la réponse suivante :
-
-   >
-   >   Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
+>
+>   Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
 
 
 Puis redémarrez Apache :
