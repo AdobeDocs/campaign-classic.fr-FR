@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 1cc1568fe77cc5bbde88092b0e9108792e10fd71
+source-git-commit: f797aafac99d6b9c2bdb409a1d0883c889fd3b0e
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 100%
+source-wordcount: '935'
+ht-degree: 88%
 
 ---
 
@@ -51,9 +51,9 @@ Pour garder votre implémentation à jour, veillez à lire les pages [Fonctionna
 
 ## Processus de mise à niveau{#process-upgrade}
 
-En tant que client hébergé (service géré ou hybride), vous devez contacter l’assistance clientèle pour que votre environnement soit mis à niveau.
+En tant que client hébergé, Managed Services ou hybride, contactez l’assistance clientèle d’Adobe pour que votre environnement soit mis à niveau.
 
-En tant qu’utilisateur on-premise, vous pouvez effectuer la mise à niveau. Pour cela, vous devez [télécharger la dernière build stable (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) et mettre à niveau tous vos environnements.
+En tant que client on-premise, vous pouvez effectuer la mise à niveau. Pour cela, vous devez [télécharger la dernière build stable (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) et mettre à niveau tous vos environnements.
 
 Pour en savoir plus sur le [processus de mise à niveau](../../production/using/build-upgrade.md), consultez la [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
 
@@ -67,7 +67,7 @@ En tant qu’utilisateur hébergé, vous bénéficiez automatiquement de la mise
 
 ### Pourquoi mon entreprise a-t-elle besoin de cette mise à niveau ?
 
-En tant que client hébergé, si votre compte a été identifié comme devant mettre à niveau une ou plusieurs des technologies liées à Campaign Classic et mettre à niveau votre infrastructure vers la build (de v7.2.1 à v7.3.3, par exemple) et/ou la version actuelle (de v7 à v8), Adobe vous en informe directement.
+En tant que client hébergé, si votre compte a été identifié comme devant mettre à niveau une ou plusieurs des technologies liées à Campaign Classic et mettre à niveau votre infrastructure vers la version actuelle (par exemple de v7.2.1 à v7.3.3) et/ou version (par exemple de v7 à v8), Adobe vous en informe directement.
 
 En tant que client on-premise ou hybride utilisant une build plus ancienne, Adobe vous invite à passer à la dernière build stable (GA).
 
@@ -77,7 +77,7 @@ Votre compte sera ainsi protégé contre les vulnérabilités et pourra tirer pa
 
 L’équipe d’Adobe accompagne et guide votre entreprise tout au long de ce parcours.
 
-Une équipe constituée de représentants de l’assistance clientèle, de responsables produit, d’ingénieurs, de spécialistes des opérations techniques et de consultants produits est là pour vous accompagner et assurer le bon déroulement de la mise à niveau.
+Une équipe de représentants de l’assistance clientèle, de responsables produit, d’ingénieurs et de spécialistes des opérations techniques, ainsi que de consultants produit est là pour vous aider et vous assurer que l’expérience est fluide.
 
 ### Avantages
 
