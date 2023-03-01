@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 8391df5046d56edfb33de5eb9f2afb4738108791
+source-git-commit: 2654157b02b549d4184ed6a5a93acad47e452713
 workflow-type: tm+mt
-source-wordcount: '2773'
+source-wordcount: '2774'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ _21 novembre 2022_
 
 * Compte tenu de la fin de vie de Microsoft Internet Explorer 11, le moteur de rendu HTML des tableaux de bord dans la console cliente utilise désormais Edge Chromium. (NEO-20741)
 
-Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compatibility-matrix.md#RDBMSservers).
+En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/compatibility-matrix.md#RDBMSservers).
 
 **Améliorations**
 
