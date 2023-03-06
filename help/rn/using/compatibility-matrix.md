@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 84c6dacb96bd0853be9eaef0dfa7e36116f8a46a
+source-git-commit: c7c6c6a2fe6beb17bfb203e8895661c2f3084cc2
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '781'
 ht-degree: 90%
 
 ---
@@ -248,7 +248,7 @@ En complément, les environnements **hybrides** et **On-premise** peuvent connec
 </tr>
 <tr><td>MySQL</td>
 <td>
-<p>8 (à partir de Campaign v7.3)</p>
+<p>8</p>
 <p>5.7</p>
 </td>
 <td>
@@ -271,7 +271,12 @@ En complément, les environnements **hybrides** et **On-premise** peuvent connec
 <p>12c</p>
 <p>11g</p>
 </td>
-<td>V7.0 minimum</td>
+<td>
+<p>V7.0 minimum</p>
+<p></p>
+<p></p>
+<p></p>
+</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
@@ -330,22 +335,32 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 
 <table>
 <tbody>
-</tr>
+<td><strong>Système</strong></td>
+<td><strong>Version du système d'exploitation</strong></td>
+<td><strong>Version de Campaign</strong></td>
 <tr>
 <td>Microsoft Windows</td>
 <td>
-<p>11 (à partir de Campaign v7.3)</p>
+<p>11</p>
 <p>10</p>
 <p>8</p>
 </td>
+<td>
+<p>v7.3 minimum</p>
+<p></p>
+<p></p>
 </tr>
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2019 (à partir de Campaign v7.2.1)</p>
+<p>2019</p>
 <p>2016</p>
 <p>2012</p>
 </td>
+<td>
+<p>v7.2.1 minimum</p>
+<p></p>
+<p></p>
 </tbody>
 </table>
 
