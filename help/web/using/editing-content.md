@@ -5,7 +5,7 @@ description: Modifier le contenu
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 source-git-commit: 7f5770c5181b4f2e966d8ecfe6b1d4b9c764e5fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1239'
 ht-degree: 100%
 
@@ -221,9 +221,9 @@ Sélectionnez un fichier image enregistré en local.
 
 ![](assets/dce_popup_imgupload.png)
 
-L’icône **Supprimer** supprime la balise  contenant l’image.
+L’icône **Supprimer** supprime la balise contenant l’image.
 
-L’icône **Dupliquer** duplique la balise  et son contenu.
+L’icône **Dupliquer** duplique la balise et son contenu.
 
 >[!CAUTION]
 >
