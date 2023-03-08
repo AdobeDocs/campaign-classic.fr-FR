@@ -9,7 +9,7 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: c7c6c6a2fe6beb17bfb203e8895661c2f3084cc2
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -42,13 +42,13 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <td>
 <p>7.x</p>
 <p><strong>Important :</strong> si vous utilisez RHEL, vous devez désactiver SELinux ou demander à vos architectes d'écrire des règles SELinux personnalisées pour vérifier qu'un SELinux activé ne pose pas de problème pour les opérations de Campaign.</p>
-<p>8.x</br><strong>Important :</strong> CentOS Linux 8 atteindra la fin de vie (EOL) le 31 décembre 2021. Pour plus d’informations à ce sujet, consultez la page <a href="../../rn/using/deprecated-features.md">Fonctionnalités obsolètes</a>.</p>
+<p>8.x</br><strong>Important :</strong> CentOS Linux 8 atteindra sa fin de vie (EOL) le 31 décembre 2021. Pour plus d’informations à ce sujet, consultez la page <a href="../../rn/using/deprecated-features.md">Fonctionnalités obsolètes</a>.</p>
 </td>
 </tr>
 <tr>
 <td>Debian</td>
 <td>
-<p>11 (à partir de Campaign v7.3)</p>
+<p>11 (à partir de Campaign v7.3)</p>
 <p>10</p>
 <p>9</p>
 </td>
@@ -64,7 +64,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>Windows Server </td>
 <td>
-<p>2019 (à partir de Campaign v7.2)</p>
+<p>2019 (à partir de Campaign v7.2)</p>
 <p>2016</p>
 <p>2012 R2</p>
 <p>2012</p>
@@ -104,7 +104,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>Campaign prend en charge le Java Development Kit (JDK) développé par Oracle et OpenJDK.</p>
+<p>Campaign prend en charge le kit de développement Java (JDK) développé par Oracle et OpenJDK.</p>
 </td>
 </tr>
 <tr>
@@ -138,7 +138,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>14.x (à partir de Campaign v7.3.2)</p>
+<p>14.x (à partir de Campaign v7.3.2)</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
@@ -154,7 +154,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 et SP2</p>
-<p><strong>Important :</strong> Microsoft SQL Server nʼest pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html#database-access-layers">En savoir plus</a>.</p>
+<p><strong>Important :</strong> Microsoft SQL Server nʼest pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html?lang=fr#database-access-layers">En savoir plus</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -366,9 +366,9 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 
 ### Runtime de Microsoft WebView2
 
-Runtime de Microsoft Edge WebView2 La dernière version est obligatoire pour la console cliente Campaign.
+Runtime de Microsoft Edge WebView2 dernière version est obligatoire pour la console cliente Campaign.
 
-Téléchargez Microsoft Edge WebView2 à partir de [Site du développeur de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_fr).
+Téléchargez Microsoft Edge WebView2 à partir du [site Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download_fr).
 
 
 ## SDK mobile{#MobileSDK}
@@ -378,14 +378,14 @@ Vous pouvez utiliser Campaign pour [envoyer des notifications push](../../delive
 <table>
 <tbody>
 <tr>
-<td>Google Android</td>
+<td>Google Android</td>
 <td>
 <p>12 (à partir de Campaign v7.3), 9.0, 8.x, 7.x</p>
 <p>avec SDK Mobile version 1.1.1</p>
 </td>
 </tr>
 <tr>
-<td>Apple iOS</td>
+<td>Apple iOS</td>
 <td>
 <p>iOS 9 - 15</p>
 <p>avec SDK Mobile version 1.0.26, compatible avec les versions 32 et 64 bits. iOS 15 est pris en charge à partir de Campaign v7.3</p>
@@ -396,7 +396,7 @@ Vous pouvez utiliser Campaign pour [envoyer des notifications push](../../delive
 
 ## Navigateurs{#Browsers}
 
-Les navigateurs suivants, dans leur dernière version, sont compatibles avec Campaign pour [Accès Web](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
+Les navigateurs suivants, dans leur dernière version, sont compatibles avec Campaign pour un [accès web](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
 * Google Chrome
 * Microsoft Edge
