@@ -6,10 +6,10 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: f2ec24a122eff94f62bd79e656e771fecd803659
 workflow-type: tm+mt
-source-wordcount: '3779'
-ht-degree: 100%
+source-wordcount: '3783'
+ht-degree: 99%
 
 ---
 
@@ -269,7 +269,8 @@ Le rapport **[!UICONTROL Statistiques SMTP d&#39;envoi]** permet de contrôler l
 La liste des indicateurs de ce rapport est proposée sous le graphique.
 
 1. Nombre total de messages envoyés.
-1. &#x200B;
+1. Représente les messages in/out :
+
    * Ligne bleue : messages prêts à l&#39;envoi arrivant dans le Shaper, i.e. dernière étape avant l&#39;envoi SMTP (correspond à ce qui entre).
 
    * Ligne verte : messages envoyés avec succès (correspond à ce qui sort).
