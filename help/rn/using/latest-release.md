@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 2654157b02b549d4184ed6a5a93acad47e452713
+source-git-commit: 754e6d2486897958827a15ab8a3d14ec17935891
 workflow-type: tm+mt
-source-wordcount: '2774'
-ht-degree: 100%
+source-wordcount: '2971'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,37 @@ ht-degree: 100%
 
 Cette page répertorie les nouvelles fonctionnalités, les améliorations et les correctifs apportés à la **dernière version de Campaign Classic v7**. Chaque nouvelle build est fournie avec un statut matérialisé par une couleur. En savoir plus sur les statuts de build de Campaign Classic v7 dans [cette page](rn-overview.md).
 
-## ![](assets/do-not-localize/green_2.png) Version 7.3.2 - Build 9356 {#release-7-3-2}
+## ![](assets/do-not-localize/green_2.png) Version 7.3.3 - Build 9359 {#release-7-3-3}
+
+>[!CAUTION]
+>
+> Cette version n’est disponible que pour les utilisateurs de Cloud Services gérés pour l’instant. Elle sera bientôt disponible pour les déploiements on-premise et hybrides.
+
+>[!CAUTION]
+>
+>La mise à niveau de la console cliente est obligatoire. Découvrez comment mettre à niveau votre console cliente sur cette [page](../../installation/using/installing-the-client-console.md).
+
+_9 mars 2023_
+
+**Amélioration de la sécurité**
+
+* Pour optimiser la sécurité, Tomcat a été mis à jour de la version 8.5.81 à la version 8.5.85. (NEO-56936)
+
+**Améliorations**
+
+* Le workflow Facturation a été amélioré pour optimiser les performances. (NEO-47658)
+* Le workflow de tracking a été amélioré afin d&#39;optimiser les performances en cas de diffusion de taille importante. (NEO-45064)
+* La gestion du suivi a été améliorée afin de résoudre les problèmes éventuels liés aux paramètres dynamiques dans les URL. La version 3 de la gestion du suivi gère désormais les URL de type ajax (avec des paramètres après un &quot;#&quot;) et empêche les outils tiers de modifier les URL de suivi. Pour appliquer cette modification, vous devez contacter Adobe. (NEO-46535)
+
+<!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
+
+**Correctifs**
+
+* Correction d’un problème qui empêchait l’envoi de notifications push de BAT iOS depuis l’instance de pilotage (contexte des messages transactionnels). (NEO-54713)
+* Correction d’un problème qui empêchait le défilement dans la variable **Modifier** de Digital Content Editor (DCE). (NEO-54474)
+* Correction d’un problème en raison duquel deux activités d’enrichissement utilisaient le même identifiant dans leur liaison, ce qui entraînait l’utilisation des liens de la première activité d’enrichissement par la seconde. (NEO-48851)
+
+## ![](assets/do-not-localize/orange_2.png) Version 7.3.2 - Build 9356 {#release-7-3-2}
 
 _21 novembre 2022_
 
