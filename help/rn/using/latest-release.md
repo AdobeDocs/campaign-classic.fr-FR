@@ -9,7 +9,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 02ab5f4520179fcce8eedbe3dcc7b08cb9cfe0d2
 workflow-type: tm+mt
 source-wordcount: '2991'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 >
 >Cette version est GA pour les utilisateurs de Cloud Services gérés uniquement.
 
-_9 mars 2023_
+_9 mars 2023_
 
 **Amélioration de la sécurité**
 
@@ -48,7 +48,7 @@ _9 mars 2023_
 **Correctifs**
 
 * Correction d’un problème qui empêchait l’envoi de notifications push de BAT iOS depuis l’instance de pilotage (contexte des messages transactionnels). (NEO-54713)
-* Correction d’un problème qui empêchait le défilement dans la variable **Modifier** de Digital Content Editor (DCE). (NEO-54474)
+* Correction d’un problème qui empêchait le défilement dans l’onglet **Modifier** de Digital Content Editor (DCE). (NEO-54474)
 * Correction d’un problème en raison duquel deux activités d’enrichissement utilisaient le même identifiant dans leur liaison, ce qui entraînait l’utilisation des liens de la première activité d’enrichissement par la seconde. (NEO-48851)
 
 ## ![](assets/do-not-localize/green.png) Version 7.3.2 - Build 9356 {#release-7-3-2}

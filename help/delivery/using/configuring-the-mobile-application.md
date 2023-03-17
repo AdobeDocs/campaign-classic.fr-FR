@@ -4,9 +4,9 @@ title: Paramétrer lʼapplication mobile iOS dans Adobe Campaign
 description: Découvrez comment paramétrer votre application mobile pour iOS.
 feature: Push
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: fd19a2f11773e9e4c841f685a3491a763493e572
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '738'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Votre connecteur iOS est maintenant paramétré. Vous pouvez créer votre servic
 
 >[!CAUTION]
 >
->L&#39;application doit avoir été configurée pour des actions de Push AVANT toute intégration au SDK Adobe Campaign.
+>L&#39;application doit avoir été configurée pour des actions de Push AVANT toute intégration au SDK Adobe 
 >
 >Si ce n&#39;est pas le cas, veuillez consulter [cette page](https://developer.apple.com/documentation/usernotifications).
 

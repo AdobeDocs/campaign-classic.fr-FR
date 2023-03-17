@@ -4,32 +4,28 @@ title: Intégration du SDK Campaign
 description: Découvrez comment intégrer le SDK Campaign à votre application mobile
 feature: Mobile SDK Integration, Push
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: 0ae52b00f69298e001596583fe166771faddead2
+source-git-commit: fd19a2f11773e9e4c841f685a3491a763493e572
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 100%
+source-wordcount: '1022'
+ht-degree: 94%
 
 ---
 
 # Intégration du SDK Campaign à votre application {#integrating-campaign-sdk-into-the-mobile-application}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
-Les SDK Campaign pour iOS et Android sont des composants du module Canal des applications mobiles.
 
 >[!NOTE]
 >
->Pour obtenir le SDK Campaign (anciennement connu sous le nom de SDK Neolane), contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+>Adobe recommande d’utiliser le SDK Mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données. Le SDK Adobe Experience Platform Mobile permet d’optimiser les solutions et services Experience Cloud de l’Adobe dans vos applications mobiles. La configuration des SDK est gérée via l’interface utilisateur de la collecte de données pour une configuration flexible et des intégrations extensibles basées sur des règles. [En savoir plus dans la documentation Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
-L’intérêt du SDK est de faciliter l’intégration d’une application mobile à la plateforme Adobe Campaign.
+Les SDK Campaign pour iOS et Android sont des composants du module Canal des applications mobiles. L’intérêt du SDK est de faciliter l’intégration d’une application mobile à la plateforme Adobe Campaign.
+
+Pour obtenir le SDK Campaign (anciennement connu sous le nom de SDK Neolane), contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 Pour plus d’informations sur les différentes versions Android et iOS prises en charge, consultez la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#MobileSDK).
 
->[!NOTE]
->
->Vous pouvez également utiliser le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans Adobe Launch. [En savoir plus dans la documentation relative à Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
->
->Découvrez comment configurer et installer le SDK mobile Adobe Experience Platform [dans cette vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/configure-push-using-aep-mobile-sdk.html?lang=fr){target="_blank"}.
 
 ## Charger le SDK Campaign {#loading-campaign-sdk}
 
