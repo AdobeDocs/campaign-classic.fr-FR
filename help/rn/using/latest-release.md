@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 02ab5f4520179fcce8eedbe3dcc7b08cb9cfe0d2
+source-git-commit: 143fe21447f91120e63df4409597472849bb6d47
 workflow-type: tm+mt
-source-wordcount: '2991'
-ht-degree: 94%
+source-wordcount: '2949'
+ht-degree: 95%
 
 ---
 
@@ -23,15 +23,9 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 >[!CAUTION]
 >
-> Cette version n’est disponible que pour les utilisateurs de Cloud Services gérés pour l’instant. Elle sera bientôt disponible pour les déploiements on-premise et hybrides.
->
 >La mise à niveau de la console cliente est obligatoire. Découvrez comment mettre à niveau votre console cliente sur cette [page](../../installation/using/installing-the-client-console.md).
 
->[!NOTE]
->
->Cette version est GA pour les utilisateurs de Cloud Services gérés uniquement.
-
-_9 mars 2023_
+_20 mars 2023_
 
 **Amélioration de la sécurité**
 
@@ -51,17 +45,13 @@ _9 mars 2023_
 * Correction d’un problème qui empêchait le défilement dans l’onglet **Modifier** de Digital Content Editor (DCE). (NEO-54474)
 * Correction d’un problème en raison duquel deux activités d’enrichissement utilisaient le même identifiant dans leur liaison, ce qui entraînait l’utilisation des liens de la première activité d’enrichissement par la seconde. (NEO-48851)
 
-## ![](assets/do-not-localize/green.png) Version 7.3.2 - Build 9356 {#release-7-3-2}
+## ![](assets/do-not-localize/orange_2.png) Version 7.3.2 - Build 9356 {#release-7-3-2}
 
 _21 novembre 2022_
 
 >[!CAUTION]
 >
 >La mise à niveau de la console cliente est obligatoire. Découvrez comment mettre à niveau votre console cliente sur cette [page](../../installation/using/installing-the-client-console.md).
-
->[!NOTE]
->
->Cette version est GA pour les déploiements on-premise et hybrides uniquement.
 
 **Mises à jour de compatibilité**
 
