@@ -336,7 +336,7 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 <table>
 <tbody>
 <td><strong>Système</strong></td>
-<td><strong>Version du système d'exploitation</strong></td>
+<td><strong>Version du système d’exploitation</strong></td>
 <td><strong>Version de Campaign</strong></td>
 <tr>
 <td>Microsoft Windows</td>

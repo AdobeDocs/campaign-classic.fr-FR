@@ -9,7 +9,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 143fe21447f91120e63df4409597472849bb6d47
 workflow-type: tm+mt
 source-wordcount: '2949'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ _20 mars 2023_
 
 **Amélioration de la sécurité**
 
-* Pour optimiser la sécurité, Tomcat a été mis à jour de la version 8.5.81 à la version 8.5.85. (NEO-56936)
+* Afin d’améliorer la sécurité, Tomcat a été mis à jour de la version 8.5.81 vers la version 8.5.85. (NEO-56936)
 
 **Améliorations**
 
-* Le workflow Facturation a été amélioré pour optimiser les performances. (NEO-47658)
-* Le workflow de tracking a été amélioré afin d&#39;optimiser les performances en cas de diffusion de taille importante. (NEO-45064)
-* La gestion du suivi a été améliorée afin de résoudre les problèmes éventuels liés aux paramètres dynamiques dans les URL. La version 3 de la gestion du suivi gère désormais les URL de type ajax (avec des paramètres après un &quot;#&quot;) et empêche les outils tiers de modifier les URL de suivi. Pour appliquer cette modification, vous devez contacter Adobe. (NEO-46535)
+* Le workflow de facturation a été amélioré pour optimiser les performances. (NEO-47658)
+* Le workflow de tracking a été amélioré afin d’optimiser les performances en cas de diffusion de taille importante. (NEO-45064)
+* La gestion du tracking a été améliorée afin de résoudre les problèmes éventuels liés aux paramètres dynamiques dans les URL. La version 3 de la gestion du tracking gère désormais les URL de type ajax (avec des paramètres après un symbole « # ») et empêche les outils tiers de modifier les URL de tracking. Pour appliquer cette modification, vous devez contacter Adobe. (NEO-46535)
 
 <!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
 
@@ -43,7 +43,7 @@ _20 mars 2023_
 
 * Correction d’un problème qui empêchait l’envoi de notifications push de BAT iOS depuis l’instance de pilotage (contexte des messages transactionnels). (NEO-54713)
 * Correction d’un problème qui empêchait le défilement dans l’onglet **Modifier** de Digital Content Editor (DCE). (NEO-54474)
-* Correction d’un problème en raison duquel deux activités d’enrichissement utilisaient le même identifiant dans leur liaison, ce qui entraînait l’utilisation des liens de la première activité d’enrichissement par la seconde. (NEO-48851)
+* Correction d’un problème en raison duquel deux activités d’enrichissement utilisaient le même identifiant de nom dans leur liaison, ce qui entraînait l’utilisation des liens de la première activité d’enrichissement par la seconde. (NEO-48851)
 
 ## ![](assets/do-not-localize/orange_2.png) Version 7.3.2 - Build 9356 {#release-7-3-2}
 
