@@ -4,10 +4,10 @@ title: Intégration du SDK Campaign
 description: Découvrez comment intégrer le SDK Campaign à votre application mobile
 feature: Mobile SDK Integration, Push
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: fd19a2f11773e9e4c841f685a3491a763493e572
+source-git-commit: 1ead0b1afc8c924cb4f8d36c608cd570e5fe7a44
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 94%
+source-wordcount: '997'
+ht-degree: 92%
 
 ---
 
@@ -15,19 +15,17 @@ ht-degree: 94%
 
 ![](../../assets/v7-only.svg)
 
-
->[!NOTE]
+>[!CAUTION]
 >
->Adobe recommande d’utiliser le SDK Mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données. Le SDK Adobe Experience Platform Mobile permet d’optimiser les solutions et services Experience Cloud de l’Adobe dans vos applications mobiles. La configuration des SDK est gérée via l’interface utilisateur de la collecte de données pour une configuration flexible et des intégrations extensibles basées sur des règles. [En savoir plus dans la documentation Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
-
-Les SDK Campaign pour iOS et Android sont des composants du module Canal des applications mobiles. L’intérêt du SDK est de faciliter l’intégration d’une application mobile à la plateforme Adobe Campaign.
+>Adobe recommande vivement d’utiliser le SDK Mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données. Le SDK Adobe Experience Platform Mobile permet d’optimiser les solutions et services Experience Cloud de l’Adobe dans vos applications mobiles. La configuration des SDK est gérée via l’interface utilisateur de la collecte de données pour une configuration flexible et des intégrations extensibles basées sur des règles. [En savoir plus dans la documentation Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
 Pour obtenir le SDK Campaign (anciennement connu sous le nom de SDK Neolane), contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 Pour plus d’informations sur les différentes versions Android et iOS prises en charge, consultez la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#MobileSDK).
 
+Vous trouverez ci-dessous les étapes d’intégration du SDK Campaign.
 
-## Charger le SDK Campaign {#loading-campaign-sdk}
++++**Charger le SDK Campaign**
 
 * **Sous Android** : le fichier **neolane_sdk-release.aar** doit être lié au projet.
 
@@ -55,7 +53,9 @@ Pour plus d’informations sur les différentes versions Android et iOS prises e
    >
    >Pour la version 1.0.25 du SDK, les quatre architectures sont disponibles dans le fichier **Neolane_SDK.h**.
 
-## Déclarer les paramètres d&#39;intégration {#declaring-integration-settings}
++++
+
++++**Déclarer les paramètres d&#39;intégration**
 
 Afin d&#39;intégrer le SDK Campaign dans l&#39;application mobile, l&#39;administrateur fonctionnel doit fournir au développeur les informations suivantes :
 
@@ -85,7 +85,9 @@ Afin d&#39;intégrer le SDK Campaign dans l&#39;application mobile, l&#39;admini
    [nl setIntegrationKey:strIntegrationKey];
    ```
 
-## Fonction d&#39;enregistrement {#registration-function}
++++
+
++++**Fonction d&#39;enregistrement**
 
 La fonction d&#39;enregistrement permet :
 
@@ -141,7 +143,9 @@ La fonction d&#39;enregistrement permet :
    }
    ```
 
-## Fonction de tracking {#tracking-function}
++++
+
++++**Fonction de tracking**
 
 * **Sous Android** :
 
@@ -293,7 +297,9 @@ La fonction d&#39;enregistrement permet :
    >
    >À partir de la version 7.0, une fois la fonction **application:didReceiveRemoteNotification:fetchCompletionHandler** mise en œuvre, le système d&#39;exploitation appelle uniquement cette fonction. La fonction **application:didReceiveRemoteNotification** n&#39;est donc pas appelée.
 
-## Suivi des notifications silencieuses {#silent-notification-tracking}
++++
+
++++**Suivi des notifications silencieuses**
 
 iOS permet d&#39;envoyer des notifications silencieuses, des notifications ou des données qui seront directement envoyées à une application mobile sans les afficher. Adobe Campaign vous permet de les tracker.
 
@@ -333,7 +339,9 @@ Pour suivre votre notification silencieuse, suivez l&#39;exemple ci-après.
 }
 ```
 
-### Délégué RegisterDeviceStatus {#registerdevicestatus-delegate}
++++
+
++++**Délégué RegisterDeviceStatus**
 
 >[!NOTE]
 >
@@ -529,7 +537,9 @@ Pour implémenter le délégué **registerDeviceStatus**, procédez comme suit 
    @end
    ```
 
-## Variables {#variables}
++++
+
++++**Variables**
 
 Les variables vous permettent de définir le comportement de l&#39;application mobile après réception d&#39;une notification. Ces variables doivent être définies dans le code de l&#39;application mobile et dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Variables]** du service d&#39;applications mobiles dédié (voir la section [Paramétrage de l&#39;application mobile dans Adobe Campaign](configuring-the-mobile-application.md)). Voici un exemple de code qui permet à une application mobile de collecter toutes les variables ajoutées dans une notification. Dans notre exemple, nous utilisons la variable &quot;VAR&quot;.
 
@@ -577,7 +587,9 @@ Les variables vous permettent de définir le comportement de l&#39;application m
 >
 >Adobe recommande de choisir des noms de variables courts car la taille des notifications est limitée : 4 ko pour iOS et Android.
 
-## Extension du service de notification {#notification-service-extension}
++++
+
++++**Extension du service de notification**
 
 **Pour iOS**
 
@@ -611,7 +623,9 @@ Le média doit être téléchargé au niveau de l&#39;extension du service de no
     // Perform the download to local storage
 ```
 
-## Extension du contenu de notification {#notification-content-extension}
++++
+
++++**Extension du contenu de notification**
 
 **Pour iOS**
 
@@ -662,3 +676,5 @@ A ce niveau, vous devez effectuer les opérations suivantes :
    }
    @end
    ```
+
++++
