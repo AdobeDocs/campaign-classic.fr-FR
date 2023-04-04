@@ -5,9 +5,9 @@ description: Découvrez comment créer et utiliser des adresses de contrôle.
 feature: Seed Address
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
 source-git-commit: 0065a25250d73c71e7569768a38b5836cccab992
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Pour créer des adresses de contrôle, procédez comme suit :
    >
    >Le libellé de l&#39;adresse reprend automatiquement le nom et le prénom saisis.
    >
-   >Il n&#39;est pas nécessaire de renseigner tous les champs de chaque onglet lors de la création d&#39;une adresse de contrôle. Les éléments de personnalisation manquants sont renseignés de manière aléatoire lors de l’analyse de la diffusion.
+   >Lors de la création d’une adresse de contrôle, il n’est pas nécessaire de renseigner tous les champs de chaque onglet. En effet, les éléments de personnalisation manquants sont renseignés de manière aléatoire lors de l’analyse de la diffusion.
 
    ![](assets/s_ncs_user_seedlist_new_address.png)
 
-1. Dans le **[!UICONTROL Champs d’adresse]** , saisissez les valeurs qui seront insérées dans les logs de diffusion lors de la phase d’analyse (dans la variable **[!UICONTROL nms:broadLog]** ).
+1. Indiquez dans l’onglet **[!UICONTROL Champs de l’adresse]** les valeurs qui seront insérées dans les logs de diffusion lors de la phase d’analyse (dans la table **[!UICONTROL nms:broadLog]**).
 
 1. Dans l&#39;onglet **[!UICONTROL Données additionnelles]**, renseignez les données de personnalisation utilisées pour les diffusions créées dans les workflows Data management et auxquelles vous souhaitez affecter une valeur spécifique.
 
