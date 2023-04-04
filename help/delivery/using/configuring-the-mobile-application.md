@@ -5,7 +5,7 @@ description: Découvrez comment paramétrer votre application mobile pour iOS.
 feature: Push
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: fd19a2f11773e9e4c841f685a3491a763493e572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '738'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Votre connecteur iOS est maintenant paramétré. Vous pouvez créer votre servic
 
 >[!CAUTION]
 >
->L&#39;application doit avoir été configurée pour des actions de Push AVANT toute intégration au SDK Adobe 
+>L&#39;application doit avoir été configurée pour des actions de Push AVANT toute intégration au SDK Adobe.
 >
 >Si ce n&#39;est pas le cas, veuillez consulter [cette page](https://developer.apple.com/documentation/usernotifications).
 
