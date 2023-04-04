@@ -5,9 +5,9 @@ description: Découvrez comment intégrer le SDK Campaign à votre application m
 feature: Mobile SDK Integration, Push
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: 1ead0b1afc8c924cb4f8d36c608cd570e5fe7a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '997'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 92%
 
 >[!CAUTION]
 >
->Adobe recommande vivement d’utiliser le SDK Mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données. Le SDK Adobe Experience Platform Mobile permet d’optimiser les solutions et services Experience Cloud de l’Adobe dans vos applications mobiles. La configuration des SDK est gérée via l’interface utilisateur de la collecte de données pour une configuration flexible et des intégrations extensibles basées sur des règles. [En savoir plus dans la documentation Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+>Adobe recommande vivement d’utiliser le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données. Le SDK mobile Adobe Experience Platform permet d’optimiser les solutions et services Experience Cloud d’Adobe dans vos applications mobiles. La configuration des SDK s’effectue dans l’interface utilisateur de collecte de données, qui offre des options de configuration flexibles et des intégrations extensibles basées sur des règles. [En savoir plus dans la documentation Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
 Pour obtenir le SDK Campaign (anciennement connu sous le nom de SDK Neolane), contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 Pour plus d’informations sur les différentes versions Android et iOS prises en charge, consultez la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#MobileSDK).
 
-Vous trouverez ci-dessous les étapes d’intégration du SDK Campaign.
+Vous trouverez ci-dessous la procédure pour intégrer le SDK Campaign.
 
 +++**Charger le SDK Campaign**
 
@@ -345,7 +345,7 @@ Pour suivre votre notification silencieuse, suivez l&#39;exemple ci-après.
 
 >[!NOTE]
 >
->Ceci s&#39;applique exclusivement à iOS.
+>Cela s&#39;applique exclusivement à iOS.
 
 Sous iOS, le protocole délégué vous permet d’obtenir le résultat de l’appel de **registerDevice** et peut être utilisé pour déterminer si une erreur s’est produite pendant l’enregistrement.
 
