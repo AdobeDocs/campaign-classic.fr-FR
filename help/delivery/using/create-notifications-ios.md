@@ -4,7 +4,7 @@ title: Créer une notification push pour les appareils iOS
 description: Découvrez comment créer des notifications push pour iOS
 feature: Push
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Créer des notifications pour iOS{#create-notifications-ios}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Cette section présente les éléments spécifiques à la diffusion de notifications iOS. Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
 

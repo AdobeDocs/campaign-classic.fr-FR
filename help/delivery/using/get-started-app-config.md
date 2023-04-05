@@ -4,7 +4,7 @@ title: Configurer lʼapplication mobile dans Adobe Campaign
 description: Découvrez comment débuter avec la configuration de l'application mobile
 feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # Prise en main de la configuration de l&#39;application
+
+![](../../assets/v7-only.svg)
 
 Vous trouverez dans cette section un exemple de configuration basé sur une société qui vend des forfaits vacances en ligne. Son application mobile (Neotrips) est disponible pour ses clients en deux versions : Neotrips pour Android et Neotrips pour iOS.
 
