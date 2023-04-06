@@ -5,8 +5,8 @@ description: Découvrez comment débuter avec la configuration de l'application 
 feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
-workflow-type: tm+mt
-source-wordcount: '311'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
