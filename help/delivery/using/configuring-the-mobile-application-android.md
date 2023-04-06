@@ -5,8 +5,8 @@ description: Découvrez comment paramétrer votre application mobile pour Androi
 feature: Push
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
-workflow-type: tm+mt
-source-wordcount: '1074'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
