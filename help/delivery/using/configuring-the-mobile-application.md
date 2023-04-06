@@ -5,8 +5,8 @@ description: Découvrez comment paramétrer votre application mobile pour iOS.
 feature: Push
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
-workflow-type: tm+mt
-source-wordcount: '738'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
