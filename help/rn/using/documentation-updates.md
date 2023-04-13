@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: a4a5e014d8055cf29bdbf7debb72eb20388c9b19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3600'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 
 ### Avril 2023
 
-Ajout d’une technote sur l’activation de Microsoft Edge Chromium sur les environnements on-premise/hybrides - [En savoir plus](../../technotes/using/edge-chromium.md)
+Ajout d’une note technique sur l’activation de Microsoft Edge Chromium sur les environnements On-Premise/hybrides. [En savoir plus](../../technotes/using/edge-chromium.md)
 
 ### Mars 2023
 
