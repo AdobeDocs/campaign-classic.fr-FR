@@ -2,13 +2,13 @@
 product: campaign
 title: 'Note technique : activation de Microsoft Edge Chromium dans votre environnement Campaign'
 description: Campaign - Edge Chromium
-source-git-commit: a4a5e014d8055cf29bdbf7debb72eb20388c9b19
+exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
+source-git-commit: 095919608e08a0bf8ad1487fa5ec0a1ddb443c7b
 workflow-type: ht
-source-wordcount: '246'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
-
 
 # Comment activer Microsoft Edge Chromium dans votre environnement {#edge-conf}
 
@@ -65,4 +65,3 @@ Si votre environnement a été mis à niveau vers Campaign Classic v7.3 (ou ve
 * [Mise à niveau de votre environnement](../../production/using/build-upgrade.md)
 * [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md)
 * [Installer la console cliente Campaign](../../installation/using/installing-the-client-console.md)
-
