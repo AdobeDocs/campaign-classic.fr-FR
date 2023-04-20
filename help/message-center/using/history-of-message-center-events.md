@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: reports
 exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
 source-git-commit: 1348c1d88d0732b0dda4ed488b4a258ac7e15c42
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '151'
+ht-degree: 100%
 
 ---
 
