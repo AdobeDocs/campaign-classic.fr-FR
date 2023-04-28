@@ -6,9 +6,9 @@ title: Guide de Campaign Classic v7
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: bdccc4ee7cbb8c765d488879f99677b2302d32e7
-workflow-type: ht
-source-wordcount: '2536'
+source-git-commit: 0f831817fc2e6b7b1d95a71f4ea08ec104268d11
+workflow-type: tm+mt
+source-wordcount: '2531'
 ht-degree: 100%
 
 ---
