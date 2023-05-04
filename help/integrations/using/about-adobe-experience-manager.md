@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
 source-git-commit: 98a67e5b6e3f8cf8ba596db1fadd61fff821be30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
 ht-degree: 100%
 
@@ -32,4 +32,4 @@ Vous devez au préalable disposer des éléments suivants :
 
 Adobe Campaign est compatible avec Adobe Experience Manager 6,1, 6.2, 6.3, 6.4 et 6.5. Les sections ci-après présentent une vue d’ensemble de l’intégration.
 
-Pour plus d&#39;informations, consultez la [documentation Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html?lang=fr)
+Pour plus d&#39;informations, consultez la [documentation Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html?lang=fr).
