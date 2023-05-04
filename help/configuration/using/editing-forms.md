@@ -318,6 +318,7 @@ Pour modifier le type d’un formulaire existant en `iconbox`, procédez comme s
           </container>
       </form>
       ```
+      
    Vous pouvez également supprimer l’attribut `type="frame"` des éléments `<container>` existants.
 
 ### Création d’un formulaire de type notebook
