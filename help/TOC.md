@@ -7,7 +7,7 @@ user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 0f831817fc2e6b7b1d95a71f4ea08ec104268d11
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2531'
 ht-degree: 100%
 
