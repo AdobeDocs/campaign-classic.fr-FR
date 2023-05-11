@@ -5,9 +5,11 @@ description: Découvrez comment migrer une plateforme Linux vers Adobe Campaign
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
+hide: true
+hidefromtoc: true
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
-workflow-type: tm+mt
+source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
+workflow-type: ht
 source-wordcount: '493'
 ht-degree: 100%
 
@@ -481,7 +483,6 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
       ```
       rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
-      
    >[!IMPORTANT]
    >
    >Il est impératif que l&#39;installation des packages réussisse pour passer à l&#39;étape suivante.
