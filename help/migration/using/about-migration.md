@@ -5,9 +5,11 @@ description: Découvrez comment effectuer une migration vers Campaign Classic �
 audience: migration
 content-type: reference
 topic-tags: migration-overview
+hide: true
+hidefromtoc: true
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
-workflow-type: tm+mt
+source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
+workflow-type: ht
 source-wordcount: '452'
 ht-degree: 100%
 
