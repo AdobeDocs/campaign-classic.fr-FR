@@ -5,9 +5,11 @@ description: Découvrez comment adapter votre configuration avant et après une 
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
+hide: true
+hidefromtoc: true
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
-workflow-type: tm+mt
+source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
+workflow-type: ht
 source-wordcount: '472'
 ht-degree: 100%
 
