@@ -2,11 +2,13 @@
 product: campaign
 title: Principe de configuration
 description: Principe de configuration
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Principe de configuration{#configuration-principle}
 
-![](../../assets/v7-only.svg)
+
 
 La plateforme Adobe Campaign repose sur le concept d&#39;instance semblable à la notion d&#39;hôte virtuel comme c&#39;est le cas par exemple sous Apache. Ce mode de fonctionnement permet de mutualiser un serveur en y affectant plusieurs instances. Chaque instance est totalement découplée des autres et fonctionne avec sa propre base et son propre fichier de configuration.
 

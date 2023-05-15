@@ -2,11 +2,13 @@
 product: campaign
 title: Intégration à un serveur web pour Windows
 description: Intégration à un serveur web pour Windows
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Intégration à un serveur web pour Windows{#integration-into-a-web-server-for-windows}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign inclut Apache Tomcat pour agir comme point d&#39;entrée dans le code du serveur applicatif via HTTP (et SOAP).
 

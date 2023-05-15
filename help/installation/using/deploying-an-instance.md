@@ -2,20 +2,22 @@
 product: campaign
 title: Déploiement d’une instance
 description: En savoir plus sur l’assistant de déploiement de Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 11e175c737d9c6cbb9432ec7835f35ee0e00a5c0
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '3290'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Déploiement d’une instance{#deploying-an-instance}
 
-![](../../assets/v7-only.svg)
+
 
 >[!NOTE]
 >
@@ -102,7 +104,7 @@ Le lien **Paramètres avancés...** permet d’accéder aux options de diffusion
 
 ![](assets/s_ncs_install_deployment_wiz_05.png)
 
-Cette fenêtre permet de définir, pour toutes les campagnes email, les options de diffusion et de gestion de la qualité des adresses.
+Cette fenêtre permet de définir, pour toutes les campagnes par e-mail, les options de diffusion et de gestion de la qualité des adresses.
 
 Les options disponibles sont les suivantes :
 
@@ -195,7 +197,7 @@ Lorsque vous activez le tracking sur une instance, les URL présentes dans les d
 
 ![](assets/s_ncs_install_deployment_wiz_08.png)
 
-Pour permettre le bon fonctionnement du tracking sur cette instance, les informations suivantes doivent être paramétrées :
+Pour garantir l&#39;efficacité du tracking sur cette instance, les informations suivantes doivent être affichées :
 <!--With Mid-sourcing architecture, you can externalize tracking management. To do this:-->
 
 * **[!UICONTROL URL externe]** et/ou **[!UICONTROL URL externe sécurisée]** : saisir l&#39;URL de redirection à utiliser dans les emails à envoyer.
@@ -283,7 +285,7 @@ L’étape suivante permet de définir les paramètres par défaut lors des diff
 Renseignez les informations suivantes :
 
 * **[!UICONTROL Libellé]** : indiquez un nom pour ce compte SMS/ Wap Push. Il peut contenir par exemple le nom de votre prestataire.
-* Pour les champs **[!UICONTROL Serveur]**, **[!UICONTROL Port]**, **[!UICONTROL Compte]**, **[!UICONTROL Mot de passe]**, **[!UICONTROL Connecteur]**, **[!UICONTROL Endpoint envoi]**, **[!UICONTROL Endpoint rcp]**, **[!UICONTROL Endpoint notif]**, contactez votre prestataire afin d’obtenir les paramètres nécessaires.
+* Pour les champs **[!UICONTROL Serveur]**, **[!UICONTROL Port]**, **[!UICONTROL Compte]**, **[!UICONTROL Mot de passe]**, **[!UICONTROL Connecteur]**, **[!UICONTROL Point d’entrée envoi]**, **[!UICONTROL Point d’entrée rcp]**, **[!UICONTROL Point d’entrée notif]**, contactez votre prestataire afin d’obtenir les paramètres nécessaires.
 
 ### Paramètres des SMS envoyés {#parameters-of-sms-sent}
 
@@ -304,7 +306,7 @@ Les options de configuration pour les mises en quarantaines sont les suivantes 
 
 ## Options régionales {#regional-settings}
 
-Cette étape permet d’indiquer des préférences relatives aux contraintes sur les données (data policy).
+Cette étape permet d’indiquer des préférences relatives aux politiques de données (data policy).
 
 ![](assets/s_ncs_install_deployment_wiz_14.png)
 

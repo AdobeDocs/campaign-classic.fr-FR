@@ -2,11 +2,13 @@
 product: campaign
 title: Prérequis pour l’installation de Campaign sous Windows
 description: Prérequis pour l’installation de Campaign sous Windows
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: a7cf59cc-9260-4109-af4c-b2e2a9c999da
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Prise en main de l’installation de Campaign sous Windows {#prerequisites-of-campaign-installation-in-windows}
 
-![](../../assets/v7-only.svg)
+
 
 La configuration technique et logicielle requise pour l&#39;installation d&#39;Adobe Campaign est présentée dans la [Matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 

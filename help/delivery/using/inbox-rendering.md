@@ -2,18 +2,20 @@
 product: campaign
 title: Inbox rendering     dans Campaign
 description: Découvrez comment capturer les rendus d'email et y accéder dans un rapport dédié
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 048189f49623cf00f4c3f1f34ff4b795d80391ef
+source-git-commit: e011333411af79b985166a4e73592a1860749cf1
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 100%
+source-wordcount: '878'
+ht-degree: 98%
 
 ---
 
 # Inbox rendering{#inbox-rendering}
 
-![](../../assets/common.svg)
+
 
 ## À propos de l&#39;inbox rendering {#about-inbox-rendering}
 
@@ -33,6 +35,8 @@ Les clients mobiles, de messagerie et webmail disponibles pour l&#39;**Inbox ren
 >L&#39;Inbox rendering n&#39;est pas nécessaire pour tester les personnalisations dans les diffusions. Celles-ci peuvent être vérifiées à l&#39;aide des outils d&#39;Adobe Campaign tels que l&#39;**[!UICONTROL aperçu]** et les [bons à tirer](steps-validating-the-delivery.md#sending-a-proof).
 
 ## Activation de l&#39;Inbox rendering{#activating-inbox-rendering}
+
+[!BADGE On-premise et hybride]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"}
 
 Pour les clients hébergés et hybrides, l&#39;Inbox rendering est configuré pour votre instance par l&#39;assistance technique et les consultants d&#39;Adobe. Pour plus d&#39;informations, contactez votre chargé de compte Adobe.
 

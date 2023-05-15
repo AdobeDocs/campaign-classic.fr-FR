@@ -2,11 +2,13 @@
 product: campaign
 title: Installation de packages avec Linux
 description: Installation de packages avec Linux
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: fbab510788abe0fccbbd791233c906e7f9d8d703
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Installation de packages avec Linux{#installing-packages-with-linux}
 
-![](../../assets/v7-only.svg)
+
 
 Pour une plateforme Linux 32 bits, procédez à une installation d&#39;Adobe Campaign 32 bits. Pour une plateforme Linux 64 bits, procédez à une installation d&#39;Adobe Campaign 64 bits.
 

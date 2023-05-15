@@ -2,12 +2,14 @@
 product: campaign
 title: Surveillance des processus
 description: Découvrez comment surveiller les processus de Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: f2ec24a122eff94f62bd79e656e771fecd803659
-workflow-type: ht
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+workflow-type: tm+mt
 source-wordcount: '3783'
 ht-degree: 100%
 
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Surveillance des processus{#monitoring-processes}
 
-![](../../assets/v7-only.svg)
+
 
 La surveillance du serveur applicatif et du serveur de redirection (**tracking**) peut être manuelle ou automatique.
 

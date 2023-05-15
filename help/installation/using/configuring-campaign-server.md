@@ -2,11 +2,13 @@
 product: campaign
 title: Configuration du serveur Campaign
 description: Configuration du serveur Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: 294309239bc476669e9e017c27bd1b51a0bdaf8c
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Prise en main de la configuration du serveur Campaign{#gs-campaign-server-config}
 
-![](../../assets/v7-only.svg)
+
 
 Ce chapitre décrit les configurations côté serveur qui peuvent être exécutées en fonction de vos besoins et des spécificités de votre environnement.
 

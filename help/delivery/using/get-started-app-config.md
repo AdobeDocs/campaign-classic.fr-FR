@@ -2,18 +2,19 @@
 product: campaign
 title: Configurer lʼapplication mobile dans Adobe Campaign
 description: Découvrez comment débuter avec la configuration de l'application mobile
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
-workflow-type: ht
-source-wordcount: '311'
-ht-degree: 100%
+source-git-commit: e011333411af79b985166a4e73592a1860749cf1
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 97%
 
 ---
 
 # Prise en main de la configuration de l&#39;application
 
-![](../../assets/v7-only.svg)
+
 
 Vous trouverez dans cette section un exemple de configuration basé sur une société qui vend des forfaits vacances en ligne. Son application mobile (Neotrips) est disponible pour ses clients en deux versions : Neotrips pour Android et Neotrips pour iOS.
 
@@ -30,6 +31,8 @@ Pour envoyer des notifications push dans Adobe Campaign, vous devez effectuer l
 >Dans l&#39;onglet **[!UICONTROL Abonnements]** du service, vous trouverez la liste de tous les abonnés au service, c&#39;est-à-dire toutes les personnes ayant installé l&#39;application sur leur terminal mobile et accepté de recevoir des notifications.
 
 ## Installez le package {#installing-package-ios}
+
+[!BADGE On-premise et hybride]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"}
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment installer le package d’application mobile en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=fr#sending-messages)
 

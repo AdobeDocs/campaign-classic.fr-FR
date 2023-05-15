@@ -2,11 +2,13 @@
 product: campaign
 title: Intégration à un serveur Web pour Linux
 description: Découvrez comment intégrer Campaign dans un serveur Web (Linux)
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Intégration à un serveur Web pour Linux{#integration-into-a-web-server-for-linux}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign inclut Apache Tomcat pour agir comme point d&#39;entrée dans le code du serveur applicatif via HTTP (et SOAP).
 

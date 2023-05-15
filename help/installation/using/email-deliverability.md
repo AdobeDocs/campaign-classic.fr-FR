@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: Configuration technique des emails
-description: Découvrez comment configurer Campaign pour contrôler la sortie de vos instances lors de la diffusion des emails.
+description: Découvrez comment configurer Campaign pour contrôler la sortie de vos instances lors de la diffusion des emails
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '3090'
 ht-degree: 97%
@@ -15,7 +17,7 @@ ht-degree: 97%
 
 # Configurations techniques des emails{#email-deliverability}
 
-![](../../assets/v7-only.svg)
+
 
 ## Vue d&#39;ensemble {#overview}
 
