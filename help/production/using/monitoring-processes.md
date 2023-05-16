@@ -8,22 +8,21 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
+source-git-commit: 9ea7eea5a539407a17b0a11c942570cfa6c16f2f
 workflow-type: tm+mt
-source-wordcount: '3783'
-ht-degree: 100%
+source-wordcount: '3771'
+ht-degree: 95%
 
 ---
 
 # Surveillance des processus{#monitoring-processes}
 
 
-
 La surveillance du serveur applicatif et du serveur de redirection (**tracking**) peut être manuelle ou automatique.
 
 ## Surveillance manuelle {#manual-monitoring}
 
-Accédez à **[!UICONTROL Supervision]**, puis cliquez sur le lien **[!UICONTROL Vue générale]** pour afficher la page de supervision des processus Adobe Campaign.
+Pour accéder à la page de surveillance des processus Adobe Campaign, accédez à la page **[!UICONTROL Surveillance]** , puis cliquez sur le bouton **[!UICONTROL Présentation]** lien.
 
 ![](assets/d_ncs_monitoring.png)
 
@@ -33,25 +32,25 @@ La page qui s&#39;affiche permet de visualiser l&#39;état de l&#39;instance con
 * la liste des processus manquants et les informations d&#39;exécution (date de démarrage, PID, etc.),
 * une vue des workflows et des diffusions.
 
-D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](../../production/using/monitoring-guidelines.md).
+D&#39;autres moyens de surveillance des processus de Campaign sont présentés dans la section [cette page](../../production/using/monitoring-guidelines.md).
 
 ### Journal des logs {#log-journal}
 
-Il est possible d&#39;afficher le journal des logs relatif à un processus. Pour cela, cliquez sur un processus, par exemple **mta**, puis sur **[!UICONTROL Ouvrir le journal des logs]** .
+Pour afficher le journal des logs associé à un processus, cliquez sur le processus, **mta** par exemple, sélectionnez **[!UICONTROL Ouvrir le journal des logs]** .
 
 ![](assets/d_ncs_monitoring2.png)
 
 ### Indicateurs système {#system-indicators}
 
-La liste des indicateurs système permet d&#39;afficher des informations concernant la machine comme la mémoire physique et virtuelle de la machine, les processus en cours d&#39;activité ou son espace disque. Les indicateurs sont différents selon que le serveur est installé sur une machine utilisant un système d&#39;exploitation Linux ou Windows. Dans la page **[!UICONTROL Supervision de l&#39;instance]**, cliquez sur le lien **[!UICONTROL Afficher]** pour dérouler la liste des indicateurs.
+Accédez à la liste des indicateurs système pour afficher les informations relatives à la machine, telles que sa mémoire physique et virtuelle, ses processus principaux et l&#39;espace disque disponible. Les indicateurs sont différents pour les systèmes d’exploitation Linux et Windows. Accédez au **[!UICONTROL Surveillance d’instance]** et cliquez sur le bouton **[!UICONTROL Affichage]** pour ouvrir la liste des indicateurs.
 
 #### Windows {#in-windows}
 
-* **[!UICONTROL Pending events queued]** : indicateur propre à **Message Center**. Reportez-vous à [cette section](../../message-center/using/additional-configurations.md#monitoring-thresholds) pour plus d&#39;informations.
+* **[!UICONTROL Événements en attente placés en file d&#39;attente]**: indicateur spécifique à **Message Center**. [En savoir plus](../../message-center/using/additional-configurations.md#monitoring-thresholds)
 
 * **[!UICONTROL Memory]** : informations relatives à la mémoire physique (RAM).
 
-   **[!UICONTROL Current value]** : consommation réelle de mémoire.
+   **[!UICONTROL Valeur actuelle]**: consommation de mémoire actuelle.
 
    **[!UICONTROL Max Value]** : quantité totale de mémoire installée.
 
@@ -83,7 +82,7 @@ La liste des indicateurs système permet d&#39;afficher des informations concern
 
    **[!UICONTROL Max Value]** : capacité totale du disque.
 
-   **[!UICONTROL Available]** : espace libre du disque
+   **[!UICONTROL Available]** : espace libre du disque.
 
    **[!UICONTROL Used]** : taux d&#39;utilisation du disque en pourcentage.
 
@@ -117,7 +116,7 @@ La liste des indicateurs système permet d&#39;afficher des informations concern
 
    **[!UICONTROL Alert]** : cet indicateur s&#39;affiche lorsque la charge atteint 90% de la valeur maximale autorisée au cours de la dernière minute, ou des cinq ou quinze dernières minutes.
 
-* **[!UICONTROL Memory]** : informations relatives à la mémoire physique (RAM).
+* **[!UICONTROL Mémoire]**  informations relatives à la mémoire physique (RAM).
 
    **[!UICONTROL Current value]** : consommation réelle de mémoire.
 
@@ -209,11 +208,11 @@ La liste des indicateurs système permet d&#39;afficher des informations concern
 
    **[!UICONTROL Warning]** : cet indicateur s&#39;affiche lorsque le nombre de processus zombie s&#39;approche de 2.
 
-   **[!UICONTROL Alert]** : cet indicateur s&#39;affiche lorsque le nombre de processus zombie atteint 2.
+   **[!UICONTROL Alerte]**: cet indicateur s&#39;affiche lorsque le nombre de processus zombie atteint 2.
 
-#### Indicateurs personnalisés {#customized-indicators}
+#### Personnalisation des indicateurs {#customized-indicators}
 
-Adobe Campaign vous permet de personnaliser les indicateurs. Pour ce faire :
+Adobe Campaign vous permet de personnaliser les indicateurs, comme décrit ci-dessous :
 
 1. Créez un fichier **.sh** et nommez-le **[!UICONTROL cust_indicators.sh]** .
 1. Ajoutez vos indicateurs personnalisés dans ce fichier. Par exemple :
@@ -239,17 +238,15 @@ Adobe Campaign vous permet de personnaliser les indicateurs. Pour ce faire :
    </indicator>"
    ```
 
-1. Placez ce fichier dans le dossier **[!UICONTROL usr/local/neolane/nl6]**.
+1. Enregistrez le fichier dans le **[!UICONTROL usr/local/neolane/nl6]** dossier.
 
-Ce fichier sera appelé par Adobe Campaign.
+Ce fichier est appelé par Adobe Campaign.
 
 ## Rapports SMTP {#smtp-reports}
 
 Les rapports de monitoring sur les envois SMTP sont intégrés dans la plateforme Adobe Campaign. Ils sont accessibles via la console ou un accès Web.
 
-Ces rapports affichent les statistiques SMTP d&#39;envoi et les erreurs SMTP par domaine.
-
-Pour y accéder, les droits d&#39;Administration doivent être associés à l&#39;opérateur.
+Ces rapports affichent les statistiques SMTP d&#39;envoi et les erreurs SMTP par domaine. Pour y accéder, l&#39;opérateur doit disposer des **Administration** droits.
 
 Ils sont regroupés dans **Supervision** > &#39;Monitoring SMTP&#39;.
 
