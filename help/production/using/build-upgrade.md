@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 100%
+source-wordcount: '2355'
+ht-degree: 98%
 
 ---
 
@@ -93,9 +93,9 @@ Vous devez également connaître toutes les [lignes de commande utiles](../../in
 * **nlserver pdump** : répertorie les processus en cours d&#39;exécution.
 * **nlserver pdump -who** : répertorie les sessions clientes actives.
 * **nlserver monitor -missing** : répertorie les propriétés manquantes.
-* **nlserver start process@instanceName** : démarre un processus.
-* **nlserver stop process@instanceName** : arrête un processus.
-* **nlserver restart process@instanceName** : redémarre un processus.
+* **nlserver start process@instance-name**: Démarrage d’un processus
+* **nlserver stop process@instance-name**: arrête un processus ;
+* **nlserver restart process@instance-name**: redémarre un processus.
 * **nlserver shutdown** : arrête tous les processus de Campaign.
 * **nlserver watchdog -svc** : démarre le processus watchdog (UNIX uniquement).
 
@@ -278,7 +278,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 Si l&#39;avertissement concerne un conflit de ressources, il requiert l&#39;intervention de l&#39;utilisateur pour être résolu.
 
-Le fichier de **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** contient le résultat de la synchronisation. Il est disponible par défaut dans le répertoire suivant : **installationDirectory/var/instanceName/postupgrade**. Les erreurs et les avertissements sont indiqués par les attributs d&#39;erreur et d&#39;avertissement.
+Le fichier de **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** contient le résultat de la synchronisation. Il est disponible par défaut dans le répertoire suivant : **installationDirectory/var/`<instance-name>`/postupgrade**. Les erreurs et les avertissements sont indiqués par les attributs d&#39;erreur et d&#39;avertissement.
 
 ### Analyser les conflits
 

@@ -2,9 +2,11 @@
 product: campaign
 title: Statuts de diffusion
 description: En savoir plus sur les statuts disponibles sur votre tableau de bord de diffusion
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Statuts de diffusion {#delivery-statuses}
 
-![](../../assets/common.svg)
+
 
 <!--ajouter intro 
 
@@ -109,19 +111,19 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
       nlserver pdump
       HH:MM:SS > Application server for Adobe Campaign Classic (X.Y.Z YY.R build nnnn@SHA1) of DD/MM/YYYY
       [...]
-      mta@<INSTANCENAME> (9268) - 23.0 Mb
+      mta@<instance-name> (9268) - 23.0 Mb
       [...]
       ```
 
    1. Si le MTA n&#39;est pas listé, démarrez-le à l&#39;aide de la commande suivante :
 
       ```
-      nlserver start mta@<INSTANCENAME>
+      nlserver start mta@<instance-name>
       ```
 
       >[!NOTE]
       >
-      >Remplacez `<INSTANCENAME>` par le nom de votre instance (production, développement, etc.). Le nom de l&#39;instance est identifié via les fichiers de configuration : `[path of application]nl6/conf/config-<INSTANCENAME>.xml`
+      >Remplacez `<instance-name>` par le nom de votre instance (production, développement, etc.). Le nom de l&#39;instance est identifié via les fichiers de configuration : `[path of application]nl6/conf/config-<instance-name>.xml`
 
 * La diffusion peut utiliser une affinité qui n&#39;a pas été configurée sur le serveur d&#39;envoi.
 

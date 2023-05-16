@@ -1,12 +1,14 @@
 ---
 product: campaign
-title: Utiliser le serveur SFTP
-description: Découvrez les bonnes pratiques et la résolution des problèmes liés au serveur SFTP.
+title: Utilisation du serveur SFTP
+description: Découvrez les bonnes pratiques et la résolution des problèmes liés au serveur SFTP
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Bonnes pratiques et résolution des problèmes liés au serveur SFTP {#sftp-server-usage}
 
-![](../../assets/common.svg)
+
 
 ## Recommandations globales relatives au serveur SFTP {#global-recommendations}
 
@@ -79,8 +81,8 @@ La section ci-après indique les informations à vérifier et à fournir à l’
    Si l&#39;instance est en cours d&#39;exécution, vous devez obtenir ce type de réponse :
 
    ```
-   <redir status='OK' date='YYYY-MM-DD HH:MM:SS' build='XXXX' instance='instanceName'
-   sourceIP='AAA.BB.CCC.DD' host='instanceUrl' localHost='instanceName'/>
+   <redir status='OK' date='YYYY-MM-DD HH:MM:SS' build='XXXX' instance='instance-name'
+   sourceIP='AAA.BB.CCC.DD' host='instanceUrl' localHost='instance-name'/>
    ```
 
    Dans tous les cas, indiquez la réponse de la commande dans le ticket de support.

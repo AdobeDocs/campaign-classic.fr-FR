@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
-source-git-commit: dcc441272b29f682165a26006800e914e7c38252
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 69%
+source-wordcount: '198'
+ht-degree: 68%
 
 ---
 
@@ -30,21 +30,21 @@ La grande majorité des données se trouve dans la base. Elle représente 99% de
 
 Ces fichiers sont répartis en plusieurs catégories :
 
-* Fichiers de configuration, stockés dans `nl6/conf`, vous permettent de reconfigurer Adobe Campaign très rapidement.
+* Fichiers de configuration, stockés dans **nl6/conf**, vous permettent de reconfigurer Adobe Campaign très rapidement.
 
-* Fichiers de redirection, stockés dans  `nl6/var/`<instancename>`/redir`, se trouvent sur les serveurs de suivi (souvent appelés &quot;frontaux&quot;) et incluent toutes les redirections de campagne précédentes. Elles sont toujours utilisées par les campagnes précédentes.
+* Fichiers de redirection, stockés dans  **nl6/var/`<instance-name>`/redir**, se trouvent sur les serveurs de suivi (souvent appelés &quot;frontaux&quot;) et incluent toutes les redirections de campagne précédentes. Elles sont toujours utilisées par les campagnes précédentes.
 
-* Fichiers journaux, stockés dans `nl6/var/`<instancename>`/log`, peut être utilisé pour tracer les problèmes.
+* Fichiers journaux, stockés dans **nl6/var/`<instance-name>`/log**, peut être utilisé pour tracer les problèmes.
 
 Les répertoires à sauvegarder sont donc :
 
-* `nl6/conf`
+* nl6/conf
 
-* `nl6/var/`<instanceName>`/redir` (pour chaque instance)
+* nl6/var/`<instance-name>`/redir (pour chaque instance)
 
-* `nl6/var/`<instanceName>`/log` (facultatif)
+* nl6/var/`<instance-name>`/log (facultatif)
 
-* `nl6/var/`<instanceName>`/relay` (facultatif)
+* nl6/var/`<instance-name>`/relay (facultatif)
 
 
 ## Base de données {#database}
