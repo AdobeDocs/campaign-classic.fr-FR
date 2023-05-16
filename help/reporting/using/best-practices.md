@@ -2,18 +2,19 @@
 product: campaign
 title: Bonnes pratiques en matière de reporting
 description: Bonnes pratiques en matière de reporting Campaign
+badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 100%
+source-wordcount: '852'
+ht-degree: 98%
 
 ---
 
 # Bonnes pratiques en matière de reporting{#best-practices-reporting}
 
-![](../../assets/common.svg)
+
 
 ## Analyse des besoins{#analyzing-needs}
 

@@ -2,9 +2,10 @@
 product: campaign
 title: Étapes dʼimplémentation
 description: Étapes de lʼimplémentation du module Interaction de Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Interaction, Offers
 exl-id: 82b88ab7-6a95-4bb3-b8b3-abea0fdd4ca0
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Étapes dʼimplémentation{#implementation-steps}
 
-![](../../assets/v7-only.svg)
+
 
 ## Paramétrage {#configuring-interaction}
 

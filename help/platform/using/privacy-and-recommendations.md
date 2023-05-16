@@ -2,11 +2,13 @@
 product: campaign
 title: Confidentialité et consentement
 description: En savoir plus sur la confidentialité et le consentement
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '2032'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Confidentialité et consentement{#privacy-and-recommendations}
 
-![](../../assets/common.svg)
+
 
 ## Recommandations générales {#general-recommendations}
 

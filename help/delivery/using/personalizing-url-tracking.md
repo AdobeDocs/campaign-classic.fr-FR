@@ -2,9 +2,11 @@
 product: campaign
 title: Configuration des options de tracking d’URL
 description: Découvrez comment configurer les options de tracking d’URL
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email Design
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Configuration des options de tracking d’URL{#personalizing-url-tracking}
 
-![](../../assets/common.svg)
+
 
 Les paramètres avancés du tracking des messages sont accessibles à partir de l&#39;icône **[!UICONTROL Tracking &amp; images]** située dans la barre d&#39;outils de l&#39;assistant de diffusion.
 

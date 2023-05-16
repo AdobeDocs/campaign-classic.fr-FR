@@ -2,8 +2,9 @@
 product: campaign
 title: Insertion de balises de tracking web sur votre site
 description: Découvrez comment insérer des balises de tracking web sur votre site
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 100%
@@ -11,8 +12,6 @@ ht-degree: 100%
 ---
 
 # Insertion de balises de tracking web sur votre site{#inserting-tags-in-your-site}
-
-![](../../assets/v7-only.svg)
 
 ## Méthode simple {#simple-method}
 

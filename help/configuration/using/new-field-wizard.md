@@ -2,9 +2,10 @@
 product: campaign
 title: Assistant d'ajout de champs
 description: Assistant d'ajout de champs
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Schema Extension
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
@@ -13,7 +14,6 @@ ht-degree: 100%
 
 # Assistant d&#39;ajout de champs{#new-field-wizard}
 
-![](../../assets/v7-only.svg)
 
 Un assistant accessible à partir du menu **[!UICONTROL Outils > Avancé > Ajout de champs]** permet d&#39;ajouter un ou plusieurs champs dans une table de la base de données.
 

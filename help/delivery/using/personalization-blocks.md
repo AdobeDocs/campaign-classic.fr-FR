@@ -2,9 +2,11 @@
 product: campaign
 title: Blocs de personnalisation
 description: Découvrez comment utiliser les blocs de personnalisation
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Blocs de personnalisation{#personalization-blocks}
 
-![](../../assets/common.svg)
+
 
 Les blocs de personnalisation sont dynamiques, personnalisés et possèdent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Consultez la section [Insertion de blocs de personnalisation](#inserting-personalization-blocks).
 

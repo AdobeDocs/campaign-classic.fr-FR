@@ -2,9 +2,11 @@
 product: campaign
 title: Optimisation de la diffusion des messages
 description: Découvrez comment optimiser la diffusion de vos messages
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Optimisation de votre diffusion {#optimize-delivery}
 
-![](../../assets/common.svg)
+
 
 Avant même de commencer à créer des diffusions, vous pouvez prendre des mesures pour sécuriser et optimiser le processus d&#39;envoi en amont.
 

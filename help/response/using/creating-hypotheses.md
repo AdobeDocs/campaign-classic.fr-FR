@@ -2,11 +2,13 @@
 product: campaign
 title: Création d’hypothèses
 description: Découvrez comment créer des hypothèses dans la Gestion de la réaction (Response Manager) de Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
-source-git-commit: 878ba2b532d5cb59af77b6450b12ae5d2ff149b2
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Création d’hypothèses{#creating-hypotheses}
 
-![](../../assets/common.svg)
+
 
 Il existe différentes possibilités pour créer/associer des hypothèses à une offre ou a une diffusion d&#39;une opération :
 

@@ -2,11 +2,12 @@
 product: campaign
 title: Installation de la console
 description: Découvrez comment installer la console cliente
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Installer et mettre à jour la console cliente Campaign{#installing-the-client-console}
 
-![](../../assets/v7-only.svg)
+
 
 La console cliente Campaign est un client riche qui vous permet de vous connecter à votre ou vos serveur(s) applicatif(s) Campaign.
 
@@ -45,7 +46,7 @@ Web View est installé par défaut dans le cadre du système d’exploitation Wi
 
 En tant que client hébergé, deux possibilités s’offrent à vous pour installer ou mettre à jour vos consoles clientes :
 
-1. Adobe peut effectuer un déploiement direct. Une fois la console mise à jour, les utilisateurs sont invités à télécharger la dernière version de la console cliente dans une fenêtre contextuelle.
+1. Adobe peut effectuer un déploiement direct. Une fois la console mise à jour, les utilisateurs sont invités à télécharger la dernière version de la console cliente dans une fenêtre pop-up.
 
 1. Vous pouvez effectuer un téléchargement sur vos consoles clientes à partir de la [distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
 
@@ -92,7 +93,7 @@ Si l’option **[!UICONTROL Ne plus poser cette question]** a été sélectionn�
 
 ### Mettre à jour la console pour une implémentation existante{#update-the-client-console}
 
-Une fois la console disponible dans le dossier du serveur Campaign, les utilisateurs sont invités à télécharger la dernière version de la console cliente dans une fenêtre contextuelle.
+Une fois la console disponible dans le dossier du serveur Campaign, les utilisateurs sont invités à télécharger la dernière version de la console cliente dans une fenêtre pop-up.
 
 **Les utilisateurs devront disposer d’un accès administrateur pour effectuer la mise à jour. Si les utilisateurs ne disposent pas de droits d’administration, un administrateur système devra effectuer un déploiement sur toutes les consoles clientes**.
 

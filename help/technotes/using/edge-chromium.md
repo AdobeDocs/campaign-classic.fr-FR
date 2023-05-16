@@ -1,9 +1,10 @@
 ---
 product: campaign
 title: 'Note technique : activation de Microsoft Edge Chromium dans votre environnement Campaign'
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 description: Campaign - Edge Chromium
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
-source-git-commit: 095919608e08a0bf8ad1487fa5ec0a1ddb443c7b
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # Comment activer Microsoft Edge Chromium dans votre environnement {#edge-conf}
 
-![](../../assets/v7-only.svg)
+
 
 
 ## Qu’est-ce qui a changé ?

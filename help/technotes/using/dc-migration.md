@@ -2,11 +2,12 @@
 product: campaign
 title: Migration vers le cloud public
 description: En savoir plus sur la migration de Campaign Classic vers le cloud public
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1557'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Vue d’ensemble{#dc-ovv}
 
-![](../../assets/v7-only.svg)
+
 
 ## Contexte
 

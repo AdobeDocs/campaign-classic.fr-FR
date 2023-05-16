@@ -2,9 +2,10 @@
 product: campaign
 title: Règles de pression
 description: Règles de pression
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '3460'
 ht-degree: 100%
@@ -12,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Règles de pression{#pressure-rules}
-
-![](../../assets/v7-only.svg)
 
 ## À propos de la fatigue marketing {#about-marketing-fatigue}
 

@@ -2,9 +2,10 @@
 product: campaign
 title: Utiliser les données d'un workflow
 description: Découvrez comment utiliser les données d'un workflow
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Utiliser les données d&#39;un workflow{#how-to-use-workflow-data}
 
-![](../../assets/v7-only.svg)
+
 
 ## Mettre à jour la base de données {#updating-the-database}
 

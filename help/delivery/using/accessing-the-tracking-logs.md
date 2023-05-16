@@ -2,9 +2,11 @@
 product: campaign
 title: Accéder aux logs de tracking
 description: Accéder aux logs de tracking
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: df494786-5950-4646-aa9c-4dde45845057
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Accès aux logs de tracking{#accessing-the-tracking-logs}
 
-![](../../assets/common.svg)
+
 
 Une fois la diffusion envoyée et le tracking activé, le workflow technique **[!UICONTROL Tracking]** est chargé de récupérer les informations de tracking. Par défaut, il s&#39;exécute toutes les heures.
 

@@ -2,9 +2,10 @@
 product: campaign
 title: Mise à jour de liste
 description: Mise à jour de liste
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Mise à jour de liste{#list-update}
 
-![](../../assets/v7-only.svg)
+
 
 Une activité de type **Mise à jour de liste** enregistre la population spécifiée par la transition dans une liste de destinataires.
 
@@ -21,7 +22,7 @@ Une activité de type **Mise à jour de liste** enregistre la population spécif
 
 La liste peut être sélectionnée parmi les listes existantes.
 
-Elle peut également être créée en utilisant les options **[!UICONTROL Créer la liste si besoin (Nom calculé)]** et **[!UICONTROL Créer la liste si besoin (Dossier et Nom calculé)]**. Ces options vous permettent de saisir le libellé de votre choix pour créer la liste et éventuellement le dossier dans lequel elle sera enregistrée. Le libellé peut également être calculé automatiquement via l&#39;insertion de champs dynamiques ou d&#39;un script. Les différents champs dynamiques sont disponibles dans le menu contextuel situé à droite du libellé.
+Elle peut également être créée en utilisant les options **[!UICONTROL Créer la liste si besoin (Nom calculé)]** et **[!UICONTROL Créer la liste si besoin (Dossier et Nom calculé)]**. Ces options vous permettent de saisir le libellé de votre choix pour créer la liste et éventuellement le dossier dans lequel elle sera enregistrée. Le libellé peut également être calculé automatiquement via l’insertion de champs dynamiques ou d’un script. Les différents champs dynamiques sont disponibles dans le menu pop-up situé à droite du libellé.
 
 ![](assets/s_user_segmentation_update_list_calc.png)
 
@@ -69,7 +70,7 @@ Identifie la population à sauvegarder dans le groupe.
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo montre comment créer une liste de destinataires à partir de l‘Explorateur.
+Cette vidéo montre comment créer une liste de destinataires à partir de l’Explorateur.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 

@@ -1,9 +1,10 @@
 ---
 product: campaign
-title: Exemples dʼédition de schémas
-description: Exemples dʼédition de schémas
+title: Exemples d'édition de schémas
+description: Exemples d'édition de schémas
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 100%
@@ -12,8 +13,6 @@ ht-degree: 100%
 
 
 # Exemples dʼédition de schémas{#examples-of-schemas-edition}
-
-![](../../assets/v7-only.svg)
 
 ## Extension dʼun tableau {#extending-a-table}
 

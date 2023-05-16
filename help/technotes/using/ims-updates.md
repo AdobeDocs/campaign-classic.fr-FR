@@ -2,9 +2,10 @@
 product: campaign
 title: Note technique - Mise à jour de votre environnement pour vous connecter à Adobe Campaign avec IMS
 description: Campaign - Mises à jour d'IMS
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: bdccc4ee7cbb8c765d488879f99677b2302d32e7
-workflow-type: ht
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 100%
 
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # Comment mettre à jour votre environnement pour vous connecter à Adobe Campaign avec IMS {#acc-ims-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Le 30 juin 2021, des modifications ont été apportées aux fonctionnalités de connexion d’[Adobe Identity Management System](https://helpx.adobe.com/fr/enterprise/using/identity.html) (IMS) ce qui pourrait avoir une incidence sur votre capacité à continuer à utiliser Adobe Campaign. Découvrez comment vous assurer que vous continuez à utiliser Adobe Campaign Classic v7 sans interruption.
 

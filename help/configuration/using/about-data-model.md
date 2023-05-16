@@ -2,9 +2,10 @@
 product: campaign
 title: Prise en main du modèle de données de Campaign Classic
 description: Découvrez comment étendre le modèle de données Campaign, modifier des schémas, utiliser des API, et plus encore
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Data Model
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
@@ -12,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Prise en main du modèle de données de Campaign{#about-data-model}
-
-![](../../assets/v7-only.svg)
 
 Le modèle de données conceptuel de la base de données Adobe Campaign se compose d’un ensemble de tables intégrées et de leur interaction. Les tables et concepts principaux sont répertoriés dans cette page.
 

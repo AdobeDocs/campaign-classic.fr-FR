@@ -2,9 +2,11 @@
 product: campaign
 title: Créer un workflow de ciblage
 description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique.
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Création d&#39;un workflow de ciblage {#step-1--creating-a-targeting-workflow}
 
-![](../../assets/common.svg)
+
 
 Vous devez créer votre workflow dans l&#39;onglet **[!UICONTROL Ciblages et Workflows]** d&#39;une opération. Il est composé d&#39;une activité **[!UICONTROL Requête]**, d&#39;une activité **[!UICONTROL Partage]** à laquelle sont reliées deux activités **[!UICONTROL Diffusions e-mail]**, une activité **[!UICONTROL Attente]**, d&#39;une activité **[!UICONTROL Code JavaScript]** et une activité **[!UICONTROL Diffusion]**.
 

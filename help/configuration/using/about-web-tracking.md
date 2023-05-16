@@ -2,8 +2,9 @@
 product: campaign
 title: À propos du tracking web
 description: À propos du tracking web
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
@@ -11,8 +12,6 @@ ht-degree: 100%
 ---
 
 # À propos du tracking web{#about-web-tracking}
-
-![](../../assets/v7-only.svg)
 
 Outre le suivi standard qui montre le comportement d’un internaute qui clique sur un lien dans un e-mail, la plateforme Adobe Campaign permet de collecter des informations sur la navigation des internautes sur votre site web. Cette collecte de données est réalisée par le module de tracking web.
 

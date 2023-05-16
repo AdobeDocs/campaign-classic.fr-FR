@@ -2,9 +2,10 @@
 product: campaign
 title: À propos des activités d’ordonnancement
 description: À propos des activités d’ordonnancement
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Activités dʼordonnancement dans les workflows{#about-flow-control-activities}
 
-![](../../assets/v7-only.svg)
+
 
 Les activités suivantes sont les activités de base : leur tâche consiste principalement à coordonner les autres activités.
 

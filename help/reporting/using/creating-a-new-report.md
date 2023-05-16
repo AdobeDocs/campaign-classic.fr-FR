@@ -4,7 +4,7 @@ title: Créer un rapport
 description: Découvrez les étapes principales pour créer un rapport
 feature: Reporting
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Création d’un rapport{#creating-a-new-report}
 
-![](../../assets/common.svg)
+
 
 Pour créer un rapport, les étapes sont les suivantes :
 
@@ -112,7 +112,7 @@ Vous pouvez également cliquer avec le bouton droit sur le noeud dans lequel vou
 Une **[!UICONTROL Page]** peut contenir les éléments suivants :
 
 * Des **[!UICONTROL Graphiques]** de type Histogramme, Secteurs, Courbes, etc.
-* Des **[!UICONTROL Tableaux]** de type Tableau croisé dynamique, Liste avec groupement ou Distribution.
+* Des **[!UICONTROL Tableaux]** de type Tableau croisé dynamique, Liste avec groupement ou Répartition.
 * Des **[!UICONTROL Contrôles de saisie]** de type Texte ou Nombre.
 * Des **[!UICONTROL Contrôles de sélection]** de type Liste déroulante, Case à cocher, Bouton radio, Choix multiples, Dates ou Matrice.
 * Des **[!UICONTROL Contrôles avancés]** de type Editeur de lien, Constante, Choix de dossier.

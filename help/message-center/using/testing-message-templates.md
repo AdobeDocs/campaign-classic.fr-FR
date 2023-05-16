@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: Test des modèles de message transactionnel
-description: Découvrez comment gérer les adresses de contrôle dans les messages transactionnels afin de les prévisualiser et de les tester dans Adobe Campaign Classic.
+description: Découvrez comment gérer les adresses de contrôle dans les messages transactionnels afin de les prévisualiser et de les tester dans Adobe Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Test des modèles de message transactionnel {#testing-message-templates}
 
-![](../../assets/v7-only.svg)
+
 
 Une fois que votre [modèle de message](../../message-center/using/creating-the-message-template.md) est prêt, suivez les étapes ci-dessous pour le prévisualiser et le tester.
 
@@ -95,7 +96,7 @@ Lorsque vous avez créé une ou plusieurs adresses de contrôle, ainsi que le co
 
 À l&#39;aide des adresses de contrôle, vous pouvez également afficher le rendu du message pour les différents fournisseurs d&#39;accès Internet. Pour plus d&#39;informations, consultez la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
 
-## Envoi d&#39;un BAT {#sending-a-proof}
+## Envoyer un BAT {#sending-a-proof}
 
 Vous pouvez tester la diffusion du message en envoyant un BAT vers une adresse de contrôle créée précédemment.
 

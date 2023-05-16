@@ -2,11 +2,12 @@
 product: campaign
 title: Prise en main des mises à niveau
 description: En savoir plus sur les mises à niveau de Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: f797aafac99d6b9c2bdb409a1d0883c889fd3b0e
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Mise à jour des versions{#rn-overview}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign Classic publie régulièrement des mises à jour de produit qui comportent de nouvelles fonctionnalités et de nouveaux correctifs et améliorent les performances, la sécurité et la convivialité. Ces mises à jour sont publiées comme des **builds de produit**. Des informations détaillées sur chaque nouvelle build sont disponibles dans les [notes de mise à jour](latest-release.md).
 

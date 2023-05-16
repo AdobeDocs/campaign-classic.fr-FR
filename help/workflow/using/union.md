@@ -2,9 +2,10 @@
 product: campaign
 title: Union
 description: En savoir plus sur l’activité de workflow d’union
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Union{#union}
 
-![](../../assets/v7-only.svg)
+
 
 Une union permet de regrouper le résultat de plusieurs activités entrantes dans une même cible. La cible est construite avec tous les résultats reçus : toutes les activités antérieures doivent donc être terminées pour que l&#39;union soit exécutée.
 

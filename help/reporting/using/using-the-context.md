@@ -2,9 +2,11 @@
 product: campaign
 title: Utilisation du contexte dans vos rapports
 description: Découvrez comment utiliser le contexte dans vos rapports
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Utilisation du contexte dans vos rapports{#using-the-context}
 
-![](../../assets/common.svg)
+
 
 Lorsque vous souhaitez représenter les données sous forme de **[!UICONTROL tableau]** ou de **[!UICONTROL graphique]**, elles peuvent provenir de deux sources : dʼune nouvelle requête (consultez la section [Définition dʼun filtre direct sur les données](#defining-a-direct-filter-on-data)) ou du contexte du rapport (consultez la section [Utilisation des données du contexte](#using-context-data)).
 

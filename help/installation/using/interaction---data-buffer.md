@@ -2,11 +2,12 @@
 product: campaign
 title: Interaction - Mémoire tampon
 description: Interaction - Mémoire tampon
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Interaction - Mémoire tampon{#interaction-data-buffer}
 
-![](../../assets/v7-only.svg)
+
 
 Il est possible de configurer une zone de mémoire tampon afin d’augmenter les performances d’Interaction entrante en désynchronisant le calcul des propositions d’offre. Cette configuration est à effectuer dans le fichier de configuration propre à l’instance (config-Instance.xml).
 

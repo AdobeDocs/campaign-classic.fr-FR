@@ -2,9 +2,11 @@
 product: campaign
 title: Gérer les abonnements
 description: Gérer les abonnements
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Subscriptions
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Gérer les abonnements{#managing-subscriptions}
 
-![](../../assets/common.svg)
+
 
 ## À propos des services d&#39;informations {#about-information-services}
 

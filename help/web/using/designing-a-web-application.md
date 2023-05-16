@@ -2,9 +2,11 @@
 product: campaign
 title: Créer une application web
 description: Créer une application web
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
-source-git-commit: 0ad183ae68faf41ac0b14bb37639a4b1da9d8776
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Créer une application web{#designing-a-web-application}
 
-![](../../assets/common.svg)
+
 
 Les applications web sont créées et gérées suivant le même principe que les [formulaires web](about-web-forms.md).
 

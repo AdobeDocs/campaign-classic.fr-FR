@@ -2,9 +2,11 @@
 product: campaign
 title: Définir lʼenchaînement des pages des formulaires web
 description: Définir lʼenchaînement des pages des formulaires web
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Définir lʼenchaînement des pages des formulaires web{#defining-web-forms-page-sequencing}
 
-![](../../assets/common.svg)
+
 
 Le formulaire peut contenir une ou plusieurs pages. Il est créé à l’aide d’un diagramme qui vous permet de séquencer les pages, les tests, l’exécution de scripts, le saut de page et l’enregistrement des étapes. Le mode de conception de diagramme global est identique à celui d’un workflow Campaign.
 

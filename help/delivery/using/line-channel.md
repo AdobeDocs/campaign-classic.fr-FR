@@ -2,9 +2,11 @@
 product: campaign
 title: Création de diffusions LINE
 description: Découvrez comment créer des messages LINE
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Line App
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Création de diffusions LINE{#line-channel}
 
-![](../../assets/common.svg)
+
 
 [!DNL LINE] est une application pour la messagerie instantanée, les appels vocaux et vidéo gratuits, disponible sur tous les systèmes d&#39;exploitation mobiles et sur PC.
 

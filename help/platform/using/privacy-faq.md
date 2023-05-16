@@ -2,11 +2,13 @@
 product: campaign
 title: Questions fréquentes sur la confidentialité et le consentement
 description: Questions fréquentes sur la confidentialité et le consentement
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
-source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # FAQ sur la confidentialité {#privacy-faq}
 
-![](../../assets/common.svg)
+
 
 Voici quelques-unes des questions fréquentes sur la confidentialité et le consentement lors de l’utilisation d’Adobe Campaign.
 
@@ -42,7 +44,7 @@ Adobe ne fournit pas de conseils juridiques. Nous vous recommandons donc de vous
 
 * Examinez les différents types de données client stockées dans Adobe Campaign et définissez des identifiants uniques (il en faudra certainement plusieurs).
 
-* Définissez des règles et procédures d’authentification et de confirmation de l’identité des titulaires des données.
+* Définissez des politiques et procédures d’authentification et de confirmation de l’identité des titulaires des données.
 
 * Assurez-vous que la réponse adressée au titulaire des données est parfaitement compréhensible.
 

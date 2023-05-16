@@ -2,9 +2,10 @@
 product: campaign
 title: Saut (départ et arrivée)
 description: Saut (départ et arrivée)
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Saut (départ et arrivée){#jump-start-point-and-end-point}
 
-![](../../assets/v7-only.svg)
+
 
 Les objets graphiques de type **[!UICONTROL Saut]** sont utilisés pour améliorer la lisibilité d&#39;un diagramme complexe, notamment dans le cas où des transitions se croisent.
 

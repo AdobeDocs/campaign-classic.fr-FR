@@ -2,9 +2,11 @@
 product: campaign
 title: Créer une application web
 description: Créer une application web
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: 5ccf5a21-48aa-4c0d-8cc8-457eb07d9f74
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Créer une application web{#creating-a-new-web-application}
 
-![](../../assets/common.svg)
+
 
 Le type d&#39;une application web est sélectionné au moment de sa création.
 

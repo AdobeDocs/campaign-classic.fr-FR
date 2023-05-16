@@ -2,9 +2,10 @@
 product: campaign
 title: Interaction et la gestion des offres
 description: Découvrez comment envoyer les meilleures offres à vos contacts en fonction des règles d’éligibilité
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Interaction et la gestion des offres{#interaction-and-offer-management}
 
-![](../../assets/v7-only.svg)
+
 
 Interaction permet de réagir en temps réel lors d&#39;une interaction avec un contact (un client ou une cible donnée) en lui proposant une ou plusieurs offres adaptées. Il peut s&#39;agir par exemple d&#39;un simple message de communication, d&#39;une promotion sur un ou plusieurs produits ou d&#39;un service.
 

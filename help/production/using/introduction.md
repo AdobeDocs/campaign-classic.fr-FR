@@ -2,26 +2,27 @@
 product: campaign
 title: Introduction
 description: Introduction
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 93%
 
 ---
 
 # Introduction{#introduction}
 
-![](../../assets/v7-only.svg)
+
 
 Ce chapitre présente la procédure à suivre pour mettre à niveau Adobe Campaign avec une nouvelle version, côté client et côté serveur, et décrit le mode de transformation en Unicode d&#39;une instance existante.
 
 >[!NOTE]
 >
->Pour les instances hébergées, vous devez collaborer avec votre administrateur Adobe.\
+>Pour les instances de services hébergés/gérés, vous devez collaborer avec votre administrateur d’Adobe.\
 >Pour les instances on-premise, vous pouvez obtenir de l&#39;aide auprès des consultants Adobe.
 
 L&#39;opération de mise à niveau doit être effectuée sur l&#39;ensemble des serveurs où Adobe Campaign est installé.

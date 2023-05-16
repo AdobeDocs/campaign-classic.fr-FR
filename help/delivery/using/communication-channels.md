@@ -2,9 +2,11 @@
 product: campaign
 title: Canaux de communication
 description: Création de diffusions pour envoyer des messages personnalisés sur différents canaux
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Canaux de communication{#communication-channels}
 
-![](../../assets/common.svg)
+
 
 Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’emails, SMS, messages LINE, notifications push et courrier, et mesurer leur efficacité à l’aide de différents [rapports](../../reporting/using/delivery-reports.md) dédiés. Ces messages sont conçus et envoyés à l&#39;aide de diffusions, et peuvent être personnalisés pour chaque destinataire.
 

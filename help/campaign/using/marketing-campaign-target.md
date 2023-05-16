@@ -2,9 +2,10 @@
 product: campaign
 title: Audience cible de la campagne marketing
 description: Découvrez comment définir l’audience de vos campagnes marketing
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 100%
@@ -12,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Sélection de l’audience de vos campagnes {#marketing-campaign-deliveries}
-
-![](../../assets/v7-only.svg)
 
 Dans une campagne marketing, pour chaque diffusion, vous pouvez définir :
 
@@ -238,7 +237,7 @@ Vous pouvez définir une nouvelle population qui sera utilisée comme population
 
 #### Tutoriel vidéo {#create-email-video}
 
-Cette vidéo explique comment créer une campagne et un email dans Adobe Campaign.
+Cette vidéo explique comment créer une campagne et un e-mail dans Adobe Campaign.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 

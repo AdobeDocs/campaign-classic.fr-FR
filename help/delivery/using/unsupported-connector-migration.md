@@ -2,9 +2,10 @@
 product: campaign
 title: Migration du connecteur SMS non pris en charge
 description: Migration du connecteur SMS non pris en charge vers le connecteur SMPP générique étendu
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hidefromtoc: true
 exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Migration du connecteur SMS non pris en charge vers le connecteur SMPP générique étendu{#unsupported-connector-migration}
 
-![](../../assets/v7-only.svg)
+
 
 À compter de la version 20.2, les connecteurs hérités sont obsolètes. Ce document vous guide dans la migration vers le connecteur SMPP recommandé des connecteurs qui s’exécutent toujours sur l’ancien système.
 

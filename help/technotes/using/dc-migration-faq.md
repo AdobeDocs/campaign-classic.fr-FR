@@ -2,11 +2,12 @@
 product: campaign
 title: FAQ sur la migration vers Adobe Managed Services (cloud public)
 description: FAQ sur la migration de Campaign Classic vers le cloud public
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2215'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # FAQ sur la migration vers le cloud public{#dc-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe désactive l’ancien centre de données : les instances Campaign Classic doivent être transférées vers le cloud public Amazon Web Services (AWS). [En savoir plus sur cette initiative](dc-migration.md).
 
@@ -123,7 +124,7 @@ Examinons les deux cas suivants :
 
 * Trafic entrant : toute activité réseau déclenchée à partir de vos systèmes ou de tout autre tiers vers les serveurs Adobe Campaign. La configuration est gérée par Adobe, puis copiée de l’ancienne plateforme vers le cloud public au cours de la migration. Suite à la migration, la connectivité du trafic entrant est donc préservée et aucune action n’est requise de la part du client.
 
-* Trafic sortant : toute activité réseau déclenchée par les serveurs Adobe Campaign vers votre système d’information ou tout autre tiers (par exemple, un fournisseur de services SMS). Selon les stratégies de sécurité mises en place au sein de votre organisation, le changement des adresses IP peut nécessiter une opération d’ajout à la liste autorisée à partir de votre système d’information ou de tout autre tiers.
+* Trafic sortant : toute activité réseau déclenchée par les serveurs Adobe Campaign vers votre système d’information ou tout autre tiers (par exemple, un fournisseur de services SMS). Selon les politiques de sécurité mises en place au sein de votre organisation, le changement des adresses IP peut nécessiter une opération d’ajout à la liste autorisée à partir de votre système d’information ou de tout autre tiers.
 
 ### Incidences globales
 

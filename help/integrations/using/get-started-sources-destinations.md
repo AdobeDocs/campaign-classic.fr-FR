@@ -1,11 +1,12 @@
 ---
 product: campaign
 title: Prise en main des sources et des destinations
-description: En savoir plus sur les sources et les destinations d’Adobe Experience Platform.
+description: En savoir plus sur les sources et les destinations d’Adobe Experience Platform
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
-source-git-commit: 89a18ae9ec57376d6ebec6c416c7562f960eb882
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 # Utilisation des sources et des destinations {#rtcdp}
 
-![](../../assets/v7-only.svg)
+
 
 ## À propos des sources et des destinations
 

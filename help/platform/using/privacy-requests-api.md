@@ -2,11 +2,12 @@
 product: campaign
 title: Processus automatique de demande d'accès à des informations personnelles
 description: Découvrez comment configurer un processus automatique de demande d’accès à des informations personnelles.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: a93bac61-f615-4178-bc12-0f056e48687d
-source-git-commit: 42b420d7dae7d38e9f4df442146d3b484c25e831
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Processus automatique de demande d&#39;accès à des informations personnelles {#automatic-privacy-request-api}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign fournit une **API** qui permet de configurer un processus automatique de demande d&#39;accès à des informations personnelles.
 

@@ -2,11 +2,12 @@
 product: campaign
 title: Espace de travail Adobe Campaign
 description: Découvrez comment utiliser et personnaliser l’espace de travail Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Espace de travail Adobe Campaign{#adobe-campaign-workspace}
 
-![](../../assets/v7-only.svg)
+
 
 ## Exploration de l’interface Adobe Campaign {#about-adobe-campaign-interface}
 

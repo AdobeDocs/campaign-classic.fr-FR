@@ -2,8 +2,9 @@
 product: campaign
 title: Régénération des schémas
 description: Découvrez comment régénérer les schémas Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
@@ -11,8 +12,6 @@ ht-degree: 100%
 ---
 
 # Régénération des schémas{#regenerating-schemas}
-
-![](../../assets/v7-only.svg)
 
 Lors de la modification d&#39;un schéma et de l&#39;enregistrement des modifications, le schéma étendu est automatiquement généré. Vous devrez peut-être toutefois régénérer les schémas manuellement pour appliquer les modifications. Pour ce faire :
 

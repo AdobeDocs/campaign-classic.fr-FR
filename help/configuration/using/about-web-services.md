@@ -2,9 +2,10 @@
 product: campaign
 title: À propos des services web
 description: À propos des services web
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: API
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
@@ -12,8 +13,6 @@ ht-degree: 100%
 ---
 
 # À propos des services web{#about-web-services}
-
-![](../../assets/v7-only.svg)
 
 ## Définition des API Adobe Campaign {#definition-of-adobe-campaign-apis}
 
@@ -167,7 +166,7 @@ catch (SoapException e)
 }
 ```
 
-## URL du serveur des services Web (ou point d&#39;entrée) {#url-of-web-service-server--or-endpoint-}
+## URL du serveur des services Web (ou point d’entrée) {#url-of-web-service-server--or-endpoint-}
 
 Pour soumettre le service Web, il faut contacter le serveur Adobe Campaign implémentant la méthode du service correspondant.
 

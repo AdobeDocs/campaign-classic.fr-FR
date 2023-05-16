@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: Temps de traitement Message Center
-description: En savoir plus sur le rapport Temps de traitement Message Center.
+description: En savoir plus sur le rapport Temps de traitement Message Center
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Temps de traitement Message Center {#message-center-processing-time}
 
-![](../../assets/v7-only.svg)
+
 
 Ce rapport présente les principaux indicateurs associés à la file d&#39;attente en temps réel.
 
@@ -36,4 +37,4 @@ Les indicateurs affichés dans la section **[!UICONTROL Indicateurs sur la péri
 
 >[!NOTE]
 >
->Les seuils d&#39;avertissement (orange) et d&#39;alerte (rouge) des indicateurs sont paramétrables dans l&#39;assistant de déploiement d&#39;Adobe Campaign. Voir [Seuils de suivi](../../message-center/using/additional-configurations.md#monitoring-thresholds).
+>Les seuils d’avertissement (orange) et d’alerte (rouge) des indicateurs sont paramétrables dans l’assistant de déploiement d’Adobe Campaign. Voir [Seuils de suivi](../../message-center/using/additional-configurations.md#monitoring-thresholds).

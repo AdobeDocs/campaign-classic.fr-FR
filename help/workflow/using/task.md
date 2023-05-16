@@ -2,9 +2,10 @@
 product: campaign
 title: Tâche
 description: En savoir plus sur l’activité de workflow de tâche
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Tâche{#task}
 
-![](../../assets/v7-only.svg)
+
 
 >[!AVAILABILITY]
 >

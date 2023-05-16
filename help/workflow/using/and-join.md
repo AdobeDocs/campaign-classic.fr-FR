@@ -2,9 +2,10 @@
 product: campaign
 title: Rendez-vous
 description: Rendez-vous
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 8b6d5c03-e104-4cf0-82ab-a08467e3e478
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Rendez-vous{#and-join}
 
-![](../../assets/v7-only.svg)
+
 
 Un rendez-vous ne déclenche sa transition sortante qu&#39;une fois toutes les transitions entrantes activées, donc quand toutes les activités précédentes sont terminées. Cela permet de s&#39;assurer que certaines activités sont bien terminées avant de continuer l&#39;exécution du workflow.
 

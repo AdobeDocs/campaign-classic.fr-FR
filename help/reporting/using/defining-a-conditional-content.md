@@ -2,9 +2,11 @@
 product: campaign
 title: Définition d’un contenu conditionnel
 description: Définition d’un contenu conditionnel
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Définition d’un contenu conditionnel{#defining-a-conditional-content}
 
-![](../../assets/common.svg)
+
 
 Vous pouvez conditionner l&#39;affichage de certains éléments d&#39;un rapport ou d&#39;une ou plusieurs pages du rapport.
 

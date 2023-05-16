@@ -2,8 +2,9 @@
 product: campaign
 title: Implémenter des méthodes SOAP
 description: Implémenter des méthodes SOAP
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # Implémentation des méthodes SOAP{#implementing-soap-methods}
 
-![](../../assets/v7-only.svg)
+
 
 ## Introduction {#introduction}
 

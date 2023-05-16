@@ -3,7 +3,7 @@ product: campaign
 title: À propos de la simulation des offres
 description: À propos de la simulation des offres
 exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # À propos de la simulation des offres{#about-offers-simulation}
 
-![](../../assets/common.svg)
+
 
 Le module **Simulation** vous permet de tester la répartition des offres d&#39;une catégorie ou d&#39;un environnement avant de lancer votre proposition auprès de vos destinataires.
 

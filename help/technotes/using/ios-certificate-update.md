@@ -2,8 +2,9 @@
 product: campaign
 title: Note technique - Mise à jour du certificat du serveur du service Apple Push Notification
 description: Mise à jour du certificat du serveur du service Apple Push Notification
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
-source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # Mise à jour du certificat du serveur du service Apple Push Notification {#apns-certificate-update}
 
-![](../../assets/v7-only.svg)
+
 
 Le 29 mars 2021, une mise à jour de l’infrastructure du service Apple Push Notification (APNs) a eu un impact sur le canal iOS d’Adobe Campaign Classic. Une modification de la configuration du système d’exploitation est **obligatoire** pour éviter une panne du canal push d’iOS.
 

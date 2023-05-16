@@ -2,9 +2,10 @@
 product: campaign
 title: Enrichir les données
 description: En savoir plus sur l’activité de workflow d’enrichissement
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Enrichment Activity
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Enrichir les données{#enriching-data}
 
-![](../../assets/v7-only.svg)
+
 
 ## À propos de l&#39;enrichissement des données {#about-enriching-data}
 
@@ -56,7 +57,7 @@ La seconde requête permet de cibler les destinataires ayant participé au derni
 
 ![](assets/uc1_enrich_5.png)
 
-Une activité de type **[!UICONTROL Intersection]** est ensuite ajoutée pour cibler les destinataires qui ont été ajoutés dans la base au cours des six derniers mois et qui ont participé au dernier jeu.
+Une activité de type **[!UICONTROL Intersection]** est ensuite ajoutée pour cibler les destinataires qui ont été ajoutés dans la base de données au cours des six derniers mois et qui ont participé au dernier jeu.
 
 ## Etape 2 : Enrichissement {#step-2--enrichment}
 

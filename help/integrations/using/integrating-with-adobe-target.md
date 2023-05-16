@@ -2,11 +2,13 @@
 product: campaign
 title: Utilisation d’Adobe Campaign et Adobe Target
 description: Découvrez comment intégrer Adobe Campaign à Adobe Target
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
-source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Utilisation de Campaign et Target{#integrating-with-adobe-target}
 
-![](../../assets/common.svg)
+
 
 Utilisez Adobe Campaign avec Adobe Target pour optimiser le contenu des e-mails.
 

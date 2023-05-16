@@ -2,9 +2,11 @@
 product: campaign
 title: Prise en main de l’analyse descriptive
 description: Prise en main de l’analyse descriptive
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Prise en main de l’analyse descriptive{#about-descriptive-analysis}
 
-![](../../assets/common.svg)
+
 
 Afin de produire des statistiques sur les données de la base, vous pouvez créer des rapports d&#39;analyse descriptive à travers un assistant dédié et définir leur contenu et leur présentation en fonction de vos besoins.
 

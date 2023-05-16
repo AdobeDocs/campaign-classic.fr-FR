@@ -2,11 +2,12 @@
 product: campaign
 title: Gérer les demandes d'accès à des informations personnelles
 description: En savoir plus sur les demandes d'accès à des informations personnelles
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: a8044037e889f59d4288a0746001e84d319f6bcf
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # À propos des demandes d&#39;accès à des informations personnelles {#privacy-requests}
 
-![](../../assets/v7-only.svg)
+
 
 Pour obtenir une présentation générale de la gestion de la protection des données, consultez [cette section](privacy-management.md).
 

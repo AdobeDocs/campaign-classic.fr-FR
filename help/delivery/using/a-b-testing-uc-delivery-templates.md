@@ -2,9 +2,11 @@
 product: campaign
 title: Créer les modèles de diffusion
 description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Création des modèles de diffusion {#step-3--creating-two-delivery-templates}
 
-![](../../assets/common.svg)
+
 
 Vous allez à présent créer deux modèles de diffusion. Chaque modèle sera référencé dans une activité **[!UICONTROL Diffusion e-mail]** rattachée à l&#39;activité **[!UICONTROL Partage]**. Reportez-vous à [cette section](about-templates.md) pour plus d&#39;informations.
 

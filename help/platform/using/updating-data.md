@@ -2,11 +2,12 @@
 product: campaign
 title: Mettre à jour les données
 description: Mettre à jour les données
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Mise à jour de données{#updating-data}
 
-![](../../assets/v7-only.svg)
+
 
 Les informations attachées au profil d’un destinataire peuvent être mises à jour manuellement ou automatiquement.
 

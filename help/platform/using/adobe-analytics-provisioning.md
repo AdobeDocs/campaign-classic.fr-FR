@@ -2,11 +2,12 @@
 product: campaign
 title: Approvisionnement du connecteur Adobe Analytics
 description: En savoir plus sur l'approvisionnement du connecteur Adobe Analytics.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: bb806da3d865e0d05e7823b2609227ea8effd875
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Approvisionnement du connecteur Adobe Analytics {#adobe-analytics-connector-provisioning}
 
-![](../../assets/v7-only.svg)
+
 
 >[!IMPORTANT]
 >

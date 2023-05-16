@@ -2,20 +2,21 @@
 product: campaign
 title: Bonnes pratiques relatives aux cubes
 description: Bonnes pratiques relatives aux cubes
+badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Reporting
 hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 100%
+source-wordcount: '1578'
+ht-degree: 99%
 
 ---
 
 # Bonnes pratiques relatives aux cubes{#concepts-and-methodology}
 
-![](../../assets/common.svg)
+
 
 ## Mise en classe des données {#data-binning}
 

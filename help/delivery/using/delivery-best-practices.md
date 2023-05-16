@@ -2,9 +2,11 @@
 product: campaign
 title: Bonnes pratiques de diffusion Campaign
 description: Découvrez les bonnes pratiques relatives à la conception et à lʼenvoi dʼune diffusion
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Bonnes pratiques relatives à la diffusion {#delivery-best-practices}
 
-![](../../assets/common.svg)
+
 
 Découvrez les bonnes pratiques en matière de conception et d&#39;envoi de diffusions avec Adobe Campaign. Cliquez sur les liens ci-dessous pour parcourir les rubriques et trouver des conseils.
 

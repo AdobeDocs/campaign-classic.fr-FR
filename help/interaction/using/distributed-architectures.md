@@ -2,11 +2,12 @@
 product: campaign
 title: Architectures réparties
 description: Architectures réparties
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Architectures réparties{#distributed-architectures}
 
-![](../../assets/v7-only.svg)
+
 
 ## Principe {#principle}
 
@@ -84,7 +85,6 @@ Sur les instances de pilotage :
       grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
       grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
       ```
-      
    >[!NOTE]
    >
    >L&#39;adresse IP de l&#39;instance de pilotage doit être autorisée sur les instances d&#39;exécution.

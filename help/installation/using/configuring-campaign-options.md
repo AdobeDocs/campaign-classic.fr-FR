@@ -2,11 +2,12 @@
 product: campaign
 title: Paramétrer les options de Campaign
 description: Découvrez comment paramétrer les options de Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '3994'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Liste des options de Campaign Classic{#configuring-campaign-options}
 
-![](../../assets/v7-only.svg)
+
 
 Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de paramétrer les options d&#39;Adobe Campaign. Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campaign et d&#39;autres peuvent être ajoutées manuellement en cas de besoin. Les options disponibles varient en fonction des packages installés avec votre instance.
 
@@ -431,7 +432,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Disable_JSFileSandboxing</span> <br /> </td> 
-   <td> Si 1 est sélectionné, cette option désactive le mode bac à sable pour les fichiers en JavaScript.<br /> </td> 
+   <td> Si 1 est sélectionné, cette option désactive le mode sandbox pour les fichiers en JavaScript.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_SaveOptions_AllowNonAdmin</span> <br /> </td> 

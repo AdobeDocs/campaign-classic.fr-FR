@@ -2,9 +2,11 @@
 product: campaign
 title: À propos des rapports natifs de Campaign
 description: À propos des rapports natifs de Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # À propos des rapports natifs de Campaign{#about-campaign-built-in-reports}
 
-![](../../assets/common.svg)
+
 
 Ce chapitre propose la liste des rapports intégrés d&#39;Adobe Campaign, leur contenu et leur contexte d&#39;affichage. Les informations proposées ci-dessous vous permettront d&#39;éviter de créer des rapports déjà proposés dans la plateforme.
 

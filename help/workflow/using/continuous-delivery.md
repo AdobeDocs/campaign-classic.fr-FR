@@ -2,9 +2,10 @@
 product: campaign
 title: Diffusion au fil de l'eau
 description: Diffusion au fil de l'eau
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Diffusion au fil de l&#39;eau{#continuous-delivery}
 
-![](../../assets/v7-only.svg)
+
 
 Une action de type **diffusion au fil de l’eau** permet d‘ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion évite d’avoir à créer une diffusion à chaque fois. Ce mode est souvent plus efficace, en particulier pour les alertes de faible volume ou les notifications envoyées selon les besoins.
 
@@ -60,7 +61,7 @@ Une diffusion au fil de l’eau crée une diffusion et des logs de diffusion UNI
 
 ## Tutoriel vidéo {#continuous-delivery-video}
 
-Cette vidéo montre comment configurer une diffusion au fil de l’eau avec une requête incrémentale.
+Cette vidéo montre comment configurer une diffusion en continu avec une requête incrémentale.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 

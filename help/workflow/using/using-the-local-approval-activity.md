@@ -2,9 +2,10 @@
 product: campaign
 title: Utilisation de l’activité de validation en local
 description: Découvrez comment utiliser l’activité Validation en local
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Utilisation de l’activité de validation en local{#using-the-local-approval-activity}
 
-![](../../assets/v7-only.svg)
+
 
 Intégrée à un workflow de ciblage, l&#39;activité **[!UICONTROL Validation en local]** permet de mettre en place un processus de validation des destinataires avant l&#39;envoi de la diffusion.
 

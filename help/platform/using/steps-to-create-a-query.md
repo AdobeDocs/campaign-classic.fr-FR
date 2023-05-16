@@ -2,11 +2,13 @@
 product: campaign
 title: Etapes pour créer une requête
 description: Etapes pour créer une requête
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Etapes pour créer une requête{#steps-to-create-a-query}
 
-![](../../assets/common.svg)
+
 
 Les étapes de construction d&#39;une requête dans Adobe Campaign sont les suivantes :
 

@@ -2,11 +2,13 @@
 product: campaign
 title: Exemple d'extension
 description: Exemple d'extension
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
-source-git-commit: 07a5742c6f142c786ad8ba2f8774e7e90e8cd191
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Exemple d&#39;extension{#extension-example}
 
-![](../../assets/common.svg)
+
 
 Dans le cas d&#39;un contact entrant (centre d&#39;appel ou site web), les offres les plus pertinentes sont proposées à un contact donné grâce à un ensemble de règles d&#39;éligibilité. Pour enrichir les critères d&#39;éligibilité de vos offres, il est nécessaire d&#39;étendre le schéma **nms:interaction**.
 

@@ -2,8 +2,9 @@
 product: campaign
 title: Email Deliverability
 description: En savoir plus sur le package de délivrabilité des emails
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Deliverability
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Supervision de la délivrabilité (Email Deliverability){#email-deliverability}
 
-![](../../assets/v7-only.svg)
+
 
 Le workflow décrit ci-dessous est installé par défaut sur toutes les instances et permet d’initialiser la liste des règles de qualification des emails rebonds, la liste des domaines et la liste des MX. Une fois le package **Supervision de la délivrabilité (Email Deliverability)** installé, le workflow s&#39;exécute de nuit. Voir à ce propos [cette section](../../delivery/using/about-deliverability.md).
 

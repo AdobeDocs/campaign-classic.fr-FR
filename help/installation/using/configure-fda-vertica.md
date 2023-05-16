@@ -2,11 +2,12 @@
 product: campaign
 title: Configuration de l'accès à Vertica Analytics
 description: Découvrez comment configurer l’accès à Vertica Analytics dans FDA
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
-source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Configurer l’accès à Vertica Analytics {#configure-fda-vertica}
 
-![](../../assets/v7-only.svg)
+
 
 Utilisez l&#39;option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour Configuration de l&#39;accès à [!DNL Vertica Analytics].
 

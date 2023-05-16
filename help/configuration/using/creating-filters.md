@@ -2,8 +2,10 @@
 product: campaign
 title: Création de filtres
 description: Découvrez comment créer des filtres pour un tableau personnalisé
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
@@ -12,7 +14,7 @@ ht-degree: 100%
 
 # Création de filtres{#creating-filters}
 
-![](../../assets/common.svg)
+
 
 La nouvelle table des destinataires, comme la table des destinataires intégrée d’Adobe Campaign, peut recevoir un lot de filtres prédéfinis.
 

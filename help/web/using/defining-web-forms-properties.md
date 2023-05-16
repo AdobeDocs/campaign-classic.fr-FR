@@ -2,9 +2,11 @@
 product: campaign
 title: Définir les propriétés des formulaires web
 description: Définir les propriétés des formulaires web
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Définir les propriétés des formulaires web{#defining-web-forms-properties}
 
-![](../../assets/common.svg)
+
 
 Vous pouvez configurer et personnaliser entièrement les formulaires web pour répondre à vos besoins. Les paramètres doivent être renseignés dans la fenêtre des propriétés.
 

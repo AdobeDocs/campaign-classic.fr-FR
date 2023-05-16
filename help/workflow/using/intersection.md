@@ -2,9 +2,10 @@
 product: campaign
 title: Intersection
 description: Intersection
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
@@ -20,7 +21,7 @@ ht-degree: 100%
 >additional-url="https://video.tv.adobe.com/v/329373" text="Regarder une vidéo de démonstration"
 
 
-![](../../assets/v7-only.svg)
+
 
 Une activité de type **Intersection** crée une cible à partir de l&#39;intersection des cibles reçues.
 

@@ -2,8 +2,9 @@
 product: campaign
 title: Mode de tracking web
 description: Découvrez comment sélectionner le mode de tracking web
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # Mode de tracking web{#web-tracking-mode}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign permet de sélectionner depuis l&#39;assistant de déploiement, un mode de tracking Web qui définit la façon dont les logs de tracking sont remontés dans l&#39;application.
 

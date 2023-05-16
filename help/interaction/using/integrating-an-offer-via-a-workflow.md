@@ -2,11 +2,12 @@
 product: campaign
 title: Intégrer une offre via un workflow
 description: Intégrer une offre via un workflow
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Intégrer une offre via un workflow{#integrating-an-offer-via-a-workflow}
 
-![](../../assets/v7-only.svg)
+
 
 En dehors de l&#39;activité de diffusion elle-même, plusieurs activités des workflows vous permettent de définir la présentation d&#39;offres :
 

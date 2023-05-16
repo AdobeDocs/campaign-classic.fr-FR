@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: Définition du contenu d’e-mail dans Adobe Campaign Classic
-description: Découvrez comment définir le contenu d’e-mail avec Adobe Campaign Classic.
+description: Découvrez comment définir le contenu d’e-mail avec Adobe Campaign 
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: f5bd8c1806440b47225130070e166d90d99dcc75
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2063'
 ht-degree: 100%
 
 ---
 
 # Définition du contenu de l’e-mail {#defining-the-email-content}
 
-![](../../assets/common.svg)
+
 
 ## Expéditeur {#sender}
 
@@ -55,7 +57,7 @@ Par exemple, dans le message ci-dessus, le sujet du message est personnalisé po
 >
 >L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](about-personalization.md).
 
-Vous pouvez également insérer des émoticônes dans votre ligne Objet à l’aide de la fenêtre contextuelle **[!UICONTROL Insérer une émoticône]**.
+Vous pouvez également insérer des émoticônes dans votre ligne Objet à l’aide de la fenêtre pop-up **[!UICONTROL Insérer une émoticône]**.
 
 ## Contenu du message {#message-content}
 
@@ -135,7 +137,7 @@ Ainsi, un onglet supplémentaire permet de saisir un contenu qui sera automatiqu
 Vous pouvez insérer des émoticônes dans le contenu d’un email.
 
 1. Cliquez sur l’icône **[!UICONTROL Insérer une émoticône]**.
-1. Sélectionnez une émoticône dans la fenêtre contextuelle.
+1. Sélectionnez une émoticône dans la fenêtre pop-up.
 
    ![](assets/emoticon_4.png)
 
@@ -239,7 +241,7 @@ Si vous cochez l&#39;option **[!UICONTROL Inclure les images dans l&#39;email]**
 
 Le module de génération de codes-barres permet de créer plusieurs types de codes-barres répondant aux normes les plus courantes, dans les formats 1D (unidimensionnel) et 2D (bidimensionnel).
 
-Il est possible de générer dynamiquement un code-barres sous la forme d&#39;un bitmap au moyen d&#39;une valeur définie grâce à des critères client. Un code-barres personnalisé peut être intégré à des communications émises par email dans le cadre d&#39;une campagne marketing. Le destinataire pourra imprimer ce message et le présenter à la société émettrice qui le scannera (lors d&#39;un passage en caisse par exemple).
+Il est possible de générer dynamiquement un code-barres sous la forme d’un bitmap au moyen d’une valeur définie grâce à des critères client. Des code-barres personnalisés peuvent être inclus dans des campagnes par e-mail. Le destinataire pourra imprimer ce message et le présenter à la société émettrice qui le scannera (lors d’un passage en caisse par exemple).
 
 Pour insérer un code-barres dans un email, positionnez le curseur dans le contenu, là où vous souhaitez l&#39;afficher, et cliquez sur le bouton de personnalisation. Choisissez **[!UICONTROL Inclure > Code-barres...]**.
 

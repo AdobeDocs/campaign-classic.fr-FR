@@ -2,8 +2,9 @@
 product: campaign
 title: Référence des schémas
 description: Liste de référence des schémas
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 100%
@@ -11,8 +12,6 @@ ht-degree: 100%
 ---
 
 # Référence des schémas {#schema-reference}
-
-![](../../assets/v7-only.svg)
 
 Durant l&#39;édition d&#39;un schéma, un système de validation basé sur le schéma source (xtk:srcSchema) est accessible. Cependant certaines erreurs peuvent être remontées lors de la mise à jour de la base de données via l&#39;assistant &quot;Mise à jour de la structure de la base...&quot;.
 

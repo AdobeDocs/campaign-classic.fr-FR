@@ -2,11 +2,12 @@
 product: campaign
 title: Gérer des profils
 description: Gérer des profils
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Gestion des profils{#managing-profiles}
 
-![](../../assets/v7-only.svg)
+
 
 ## Arborescence des destinataires {#recipient-tree}
 

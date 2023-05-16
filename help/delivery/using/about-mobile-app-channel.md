@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: Prise en main du canal des applications mobiles
-description: Prise en main du canal des applications mobiles dans Adobe Campaign Classic
+description: Prise en main du canal des applications mobiles dans Adobe Campaign 
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Push
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '668'
 ht-degree: 100%
 
 ---
 
 # Prise en main du canal des applications mobiles{#about-mobile-app-channel}
 
-![](../../assets/common.svg)
+
 
 Le (**canal des applications mobiles**) permet d’envoyer des notifications personnalisées depuis la plateforme Adobe Campaign sur des terminaux iOS et Android, via des applications.
 

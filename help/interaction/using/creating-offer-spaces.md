@@ -2,11 +2,12 @@
 product: campaign
 title: Créer des emplacements d'offres
 description: Créer des emplacements d'offres
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Créer des emplacements d&#39;offres{#creating-offer-spaces}
 
-![](../../assets/v7-only.svg)
+
 
 La création des emplacements ne peut être effectuée que par un **administrateur technique** qui a accès au sous-dossier des emplacements. Elle ne s&#39;effectue que dans l&#39;environnement en édition. Les emplacements sont automatiquement dupliqués dans l&#39;environnement en ligne lors de la validation des offres.
 

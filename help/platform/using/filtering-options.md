@@ -2,11 +2,13 @@
 product: campaign
 title: Options de filtrage
 description: Options de filtrage
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Options de filtrage{#filtering-options}
 
-![](../../assets/common.svg)
+
 
 ## À propos du filtrage {#about-filtering}
 

@@ -2,9 +2,10 @@
 product: campaign
 title: Workflow de supervision
 description: Découvrez comment superviser les workflows de Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Cas d’utilisation : supervision de vos workflows{#supervising-workflows}
 
-![](../../assets/v7-only.svg)
+
 
 Ce cas pratique détaille la création d&#39;un workflow qui permet de suivre le statut d&#39;un ensemble de workflows dont l&#39;état est &quot;en pause&quot;, &quot;stoppé&quot; ou &quot;en erreur&quot;.
 

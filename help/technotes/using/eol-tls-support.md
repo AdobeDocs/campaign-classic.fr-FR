@@ -2,11 +2,12 @@
 product: campaign
 title: Fin de vie de la prise en charge du protocole TLS 1.0 et 1.1
 description: Fin de vie de la prise en charge du protocole TLS 1.0 et 1.1
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
-source-git-commit: ee7c85f94fc03f6cfca8da11ddea5ebd32d0b2b4
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Fin de vie de la prise en charge du protocole TLS 1.0 et 1.1{#eol-tls-support}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe ne prend plus en charge les systèmes utilisateur et les systèmes client qui ne sont pas conformes au protocole TLS (Transport Layer Security) 1.2. Si vous continuez à utiliser des versions plus anciennes du protocole TLS, vous risquez de perdre l’accès à tous les produits et services Adobe.
 

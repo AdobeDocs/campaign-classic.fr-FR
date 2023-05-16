@@ -2,11 +2,13 @@
 product: campaign
 title: Résolution des problèmes
 description: Résolution des problèmes
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 61bb184e-affa-430c-8571-56e911cd5a3d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Résolution des problèmes{#troubleshooting}
 
-![](../../assets/common.svg)
+
 
 En cas d&#39;erreur, vérifiez que les éléments suivants sont correctement configurés :
 

@@ -2,9 +2,11 @@
 product: campaign
 title: Rendu du formulaire
 description: Rendu du formulaire
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Rendu du formulaire{#form-rendering}
 
-![](../../assets/common.svg)
+
 
 ## Choisir le modèle de rendu du formulaire {#selecting-the-form-rendering-template}
 

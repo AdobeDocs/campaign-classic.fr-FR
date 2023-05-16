@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: Bonnes pratiques en matière d'import et d'export
-description: En savoir plus sur les bonnes pratiques à suivre lors de l'import ou de l'export de données.
+description: En savoir plus sur les bonnes pratiques à suivre lors de l'import ou de l'export de données
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Bonnes pratiques en matière d&#39;import et d&#39;export {#import-export-best-practices}
 
-![](../../assets/common.svg)
+
 
 Pour garantir la cohérence des données au sein de la base de données et éviter les erreurs fréquentes lors de la mise à jour de la base de données ou de l&#39;export de données, faites preuve de précaution et suivez les quelques règles simples détaillées ci-dessous.
 

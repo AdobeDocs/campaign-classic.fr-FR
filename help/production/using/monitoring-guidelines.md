@@ -1,10 +1,11 @@
 ---
 product: campaign
-title: Directives de supervision
-description: Découvrez les conseils et les bonnes pratiques pour surveiller les instances et les processus Campaign.
+title: Instructions de surveillance
+description: Découvrez les conseils et les bonnes pratiques pour surveiller les instances et les processus Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Instructions de surveillance {#monitoring-guidelines}
 
-![](../../assets/v7-only.svg)
+
 
 ## Tableau de bord de supervision de l’instance {#instance-monitoring-dashboard}
 

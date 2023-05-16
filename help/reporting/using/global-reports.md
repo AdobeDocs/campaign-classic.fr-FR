@@ -2,18 +2,19 @@
 product: campaign
 title: Rapports globaux
 description: Rapports globaux
+badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '2498'
-ht-degree: 100%
+source-wordcount: '2509'
+ht-degree: 99%
 
 ---
 
 # Rapports globaux {#global-reports}
 
-![](../../assets/common.svg)
+
 
 Ces rapports portent sur l&#39;activité de l&#39;ensemble des données de la base. Pour accéder au tableau de bord des rapports, positionnez-vous sur l&#39;onglet **[!UICONTROL Rapports]**.
 
@@ -77,7 +78,7 @@ Le **[!UICONTROL Nombre de messages traités]** représente le nombre total de m
 
 ![](assets/s_ncs_user_errors_report.png)
 
-**[!UICONTROL Ventilation des erreurs par type]**
+**[!UICONTROL Répartition des erreurs par type]**
 
 >[!NOTE]
 >
@@ -109,7 +110,7 @@ Les indicateurs utilisés sont les suivants :
 
    ![](assets/s_ncs_user_errors_report_detail.png)
 
-**[!UICONTROL Ventilation des erreurs par domaine]**
+**[!UICONTROL Répartition des erreurs par domaine]**
 
 La seconde partie de ce rapport présente la répartition des échecs par domaine Internet sous la forme d&#39;un tableau de valeurs et d&#39;un graphique.
 

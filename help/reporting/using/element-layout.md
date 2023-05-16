@@ -2,9 +2,11 @@
 product: campaign
 title: Mettre en page les éléments
 description: Mettre en page les éléments
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Mettre en page les éléments{#element-layout}
 
-![](../../assets/common.svg)
+
 
 En complément des variantes du graphique disponibles, [présentées ici](../../reporting/using/creating-a-chart.md#chart-types-and-variants), vous pouvez adapter lʼaffichage et ajouter des éléments dans la ou les pages du rapport.
 

@@ -2,11 +2,13 @@
 product: campaign
 title: Utiliser les packages de données
 description: Utiliser les packages de données
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Utiliser les packages de données{#working-with-data-packages}
 
-![](../../assets/common.svg)
+
 
 ## À propos des packages de données {#about-data-packages}
 

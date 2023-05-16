@@ -2,13 +2,14 @@
 product: campaign
 title: Paramétrages généraux
 description: Paramétrages généraux
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: migration
 content-type: reference
 topic-tags: configuration
 hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2680'
 ht-degree: 99%
@@ -17,7 +18,7 @@ ht-degree: 99%
 
 # Paramétrages généraux{#general-configurations}
 
-![](../../assets/v7-only.svg)
+
 
 Cette section décrit les paramétrages à effectuer dans Adobe Campaign v7 lors de la migration depuis une v5.11 ou une v6.02.
 

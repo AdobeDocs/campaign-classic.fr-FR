@@ -2,11 +2,12 @@
 product: campaign
 title: Configurer l’accès à Hadoop 
 description: Découvrez comment configurer l’accès à Hadoop dans FDA
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Configurer l’accès à Hadoop  {#configure-access-to-hadoop}
 
-![](../../assets/v7-only.svg)
+
 
 Utilisez l’option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Hadoop.
 

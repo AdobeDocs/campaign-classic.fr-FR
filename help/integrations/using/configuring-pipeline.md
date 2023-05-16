@@ -2,10 +2,12 @@
 product: campaign
 title: Configuration du pipeline
 description: Découvrez comment configurer le pipeline
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 100%
@@ -14,9 +16,9 @@ ht-degree: 100%
 
 # Configuration du pipeline {#configuring-pipeline}
 
-![](../../assets/common.svg)
 
-Les paramètres d&#39;authentification tels que l&#39;identifiant client, la clé privée et le point d&#39;entrée de l&#39;authentification sont configurés dans les fichiers de configuration de l&#39;instance.
+
+Les paramètres d’authentification tels que l’identifiant client, la clé privée et le point d’entrée de l’authentification sont configurés dans les fichiers de configuration de l’instance.
 La liste des déclencheurs à traiter est configurée dans une option au format JSON.
 Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui envoie des emails. La campagne est configurée de sorte qu&#39;un client qui a les deux événements de déclencheur reçoive un email.
 

@@ -2,10 +2,11 @@
 product: campaign
 title: Note technique - Mises à jour de la configuration Adobe Campaign
 description: Mises à jour de la configuration d’Adobe Campaign 
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 8ea5a42e0539ea23c1d9940e3f38f2c90fdcc223
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 100%
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 # Mises à jour de la configuration d’Adobe Campaign 2021 {#acc-config-updates}
 
-![](../../assets/v7-only.svg)
+
 
 Une mise à jour de l’infrastructure et des paramètres doit être régulièrement effectuée avec les derniers builds et correctifs de produits. Ces correctifs sont nécessaires pour assurer la sécurité et la continuité du service. En outre, des mises à niveau seront nécessaires pour s’aligner sur les modifications tierces.
 

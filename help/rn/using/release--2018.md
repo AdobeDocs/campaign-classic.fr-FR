@@ -2,9 +2,10 @@
 product: campaign
 title: Versions de Campaign Classic 2018
 description: En savoir plus sur les versions de Campaign Classic 2018
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hidefromtoc: true
 exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
-source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '5423'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Versions 2018{#release-2018}
 
-![](../../assets/v7-only.svg)
+
 
 ## Version 18.10
 

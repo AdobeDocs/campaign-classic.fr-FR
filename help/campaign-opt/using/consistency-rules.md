@@ -2,9 +2,10 @@
 product: campaign
 title: Règles de cohérence
 description: Règles de cohérence
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Typology Rules
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 100%
@@ -12,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Règles de cohérence{#consistency-rules}
-
-![](../../assets/v7-only.svg)
 
 ## À propos des règles de cohérence {#about-consistency-rules}
 

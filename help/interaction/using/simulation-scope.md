@@ -2,11 +2,13 @@
 product: campaign
 title: Périmètre de la simulation
 description: Périmètre de la simulation
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
-source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Périmètre de la simulation{#simulation-scope}
 
-![](../../assets/common.svg)
+
 
 ## Définition du périmètre {#definition-of-the-scope}
 

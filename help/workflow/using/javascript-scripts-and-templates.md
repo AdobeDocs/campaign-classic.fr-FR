@@ -2,9 +2,10 @@
 product: campaign
 title: Scripts et modèles JavaScript
 description: Scripts et modèles JavaScript
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Scripts et modèles JavaScript{#javascript-scripts-and-templates}
 
-![](../../assets/v7-only.svg)
+
 
 Les scripts vont permettre de calculer des valeurs, d&#39;échanger des données entre les différentes tâches du processus et d&#39;exécuter des opérations spécifiques à l&#39;aide d&#39;appels SOAP.
 

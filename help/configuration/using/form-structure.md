@@ -2,8 +2,10 @@
 product: campaign
 title: Structure d'un formulaire
 description: Structure d'un formulaire
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 100%
@@ -12,7 +14,7 @@ ht-degree: 100%
 
 # Structure d&#39;un formulaire{#form-structure}
 
-![](../../assets/common.svg)
+
 
 La description d’un formulaire est un document XML structuré respectant la grammaire du schéma de formulaire **xtk:form**.
 

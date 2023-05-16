@@ -2,11 +2,12 @@
 product: campaign
 title: Le fichier de configuration du serveur
 description: Le fichier de configuration du serveur
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '7979'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Le fichier de configuration du serveur{#the-server-configuration-file}
 
-![](../../assets/v7-only.svg)
+
 
 La configuration globale d’Adobe Campaign est définie dans le fichier **serverConf.xml** qui se trouve dans le répertoire **conf** du répertoire d’installation. Cette section répertorie l’ensemble des nœuds et des paramètres du fichier **serverConf.xml**.
 

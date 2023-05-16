@@ -2,11 +2,12 @@
 product: campaign
 title: Configuration des connecteurs de FDA
 description: Découvrir les étapes de configuration de FDA
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: f580b9b2508c279e03bd2698854aaf3de501200b
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Configuration des connecteurs FDA {#specific-configurations-by-database-type}
 
-![](../../assets/v7-only.svg)
+
 
 En fonction des bases de données externes auxquelles vous souhaitez pouvoir accéder depuis Adobe Campaign, certains paramétrages spécifiques sont nécessaires. Ces paramétrages concernent essentiellement l&#39;installation de pilotes et la déclarations de variables d&#39;environnement propres à chaque SGBDR sur le serveur Adobe Campaign.
 

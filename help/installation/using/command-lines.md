@@ -2,11 +2,12 @@
 product: campaign
 title: Lignes de commande
 description: Lignes de commande
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 84%
@@ -15,7 +16,7 @@ ht-degree: 84%
 
 # Lignes de commande{#command-lines}
 
-![](../../assets/v7-only.svg)
+
 
 Les lignes de commande suivantes requièrent la possibilité d&#39;accéder au serveur applicatif. Pour les déploiements hébergés par Adobe, ces commandes ne peuvent être exécutées que par Adobe.
 

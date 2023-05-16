@@ -2,8 +2,9 @@
 product: campaign
 title: Matrice des fonctionnalités Campaign On-premise, hybride et hébergé
 description: Découvrez les principales différences entre les déploiements hébergés et On-premise
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # Matrice des fonctionnalités par modèle{#capability-matrix-per-model}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign Classic est fourni avec un ensemble de modules et d&#39;options. La disponibilité de ces modules et leur utilisation peuvent dépendre du type de déploiement de votre installation. Cet article présente des détails sur les principales différences de certaines fonctionnalités entre les déploiements entièrement hébergés (Managed Services) et On-premise.
 

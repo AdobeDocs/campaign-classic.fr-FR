@@ -2,8 +2,10 @@
 product: campaign
 title: Modification de formulaires
 description: Modification de formulaires
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 4af44f38d495d31dec4b9b7a142dbed0c2450d56
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Modification de formulaires{#editing-forms}
 
-![](../../assets/common.svg)
+
 
 ## Vue d’ensemble
 
@@ -318,7 +320,6 @@ Pour modifier le type d’un formulaire existant en `iconbox`, procédez comme s
           </container>
       </form>
       ```
-      
    Vous pouvez également supprimer l’attribut `type="frame"` des éléments `<container>` existants.
 
 ### Création d’un formulaire de type notebook

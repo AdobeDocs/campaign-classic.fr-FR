@@ -2,9 +2,11 @@
 product: campaign
 title: Créer du contenu personnalisé
 description: Découvrez comment créer du contenu personnalisé dans les diffusions Adobe Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design, Personalization
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Création de contenu personnalisé {#build-personalized-content}
 
-![](../../assets/common.svg)
+
 
 Lors de la conception du contenu de votre message, évitez les problèmes courants qui peuvent vous empêcher d’exécuter votre diffusion. La plupart du temps, les erreurs possibles sont liées à la [personnalisation](about-personalization.md), au [formatage](defining-the-email-content.md#message-content) et aux [images](defining-the-email-content.md#adding-images).
 

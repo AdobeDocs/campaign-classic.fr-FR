@@ -2,9 +2,11 @@
 product: campaign
 title: Prise en main des questionnaires
 description: Prise en main des questionnaires Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Prise en main des questionnaires{#about-surveys}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign comprend un module graphique pour définir et publier des applications Web. Il est utilisé pour créer des pages, telles qu&#39;un formulaire d&#39;édition sur un réseau extranet, ou des formulaires de notification comprenant des données de la base de données avec des tableaux, graphiques, formulaires de saisie, etc. Utilisez cette fonctionnalité pour concevoir et publier des pages web dans lesquelles les utilisateurs peuvent rechercher ou saisir des informations.
 

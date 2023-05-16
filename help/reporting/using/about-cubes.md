@@ -2,11 +2,13 @@
 product: campaign
 title: À propos des cubes
 description: Prise en main des cubes
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 hide: true
 hidefromtoc: true
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
-source-git-commit: 2665ea2ba67a0ca2a4beb0b076543b3245acbebb
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Prise en main des cubes{#about-cubes}
 
-![](../../assets/common.svg)
+
 
 ## Terminologie {#terminology}
 

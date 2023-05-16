@@ -2,11 +2,13 @@
 product: campaign
 title: Gestion de la confidentialité
 description: En savoir plus sur la gestion de la confidentialité
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Gestion de la confidentialité {#privacy-management}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign propose un ensemble d’outils pour vous aider à vous conformer aux [règlements sur la protection des données](#privacy-management-regulations) (notamment RGPD, CCPA, PDPA, LGPD).
 

@@ -2,9 +2,11 @@
 product: campaign
 title: Bonnes pratiques relatives à l'édition de contenu
 description: Bonnes pratiques relatives à l'édition de contenu
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Bonnes pratiques relatives à l&#39;édition de contenu{#content-editing-best-practices}
 
-![](../../assets/common.svg)
+
 
 Afin de garantir un fonctionnement optimal de l&#39;éditeur, il est recommandé de respecter les recommandations suivantes :
 

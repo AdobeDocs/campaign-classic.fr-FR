@@ -2,11 +2,13 @@
 product: campaign
 title: Utilisation des cubes pour explorer les données
 description: Utilisation des cubes pour explorer les données
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 hide: true
 hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Utilisation des cubes pour explorer les données{#using-cubes-to-explore-data}
 
-![](../../assets/common.svg)
+
 
 Marketing Analytics permet de simplifier la création de rapports ainsi que l&#39;identification et la sélection de données de la base via l&#39;utilisation des cubes. Vous pouvez ainsi :
 

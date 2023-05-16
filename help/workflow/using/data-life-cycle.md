@@ -2,9 +2,10 @@
 product: campaign
 title: Cycle de vie des données
 description: En savoir plus sur le cycle de vie des données dans les workflows
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Cycle de vie des données {#data-life-cycle}
 
-![](../../assets/v7-only.svg)
+
 
 ## Table de travail {#work-table}
 

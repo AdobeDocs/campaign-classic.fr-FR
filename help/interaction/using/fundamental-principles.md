@@ -2,11 +2,12 @@
 product: campaign
 title: Principes fondamentaux
 description: Principes fondamentaux
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: general-operation
 exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
-source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Principes fondamentaux{#fundamental-principles}
 
-![](../../assets/v7-only.svg)
+
 
 ## Déploiement des environnements {#deploying-environments}
 

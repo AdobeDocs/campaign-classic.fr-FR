@@ -2,9 +2,11 @@
 product: campaign
 title: Création d’un tableau
 description: Création d’un tableau
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '2643'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Création d’un tableau{#creating-a-table}
 
-![](../../assets/common.svg)
+
 
 Vous pouvez ajouter un tableau dans un rapport afin dʼafficher les données. Il peut sʼagir dʼun tableau croisé dynamique, créé à travers les mesures dʼun cube, dʼune liste avec groupement ou dʼun tableau de répartition des valeurs.
 
@@ -458,7 +460,7 @@ Si vous cliquez sur le lien d&#39;une des diffusions, le graphique représentant
 
 ![](assets/s_advuser_report_listgroup_022.png)
 
-## Création dʼun tableau de distribution ou croisé dynamique {#creating-a-breakdown-or-pivot-table}
+## Création dʼun tableau de répartition ou croisé dynamique {#creating-a-breakdown-or-pivot-table}
 
 Ce type de tableau vous permet d&#39;afficher des statistiques calculées sur les données de la base.
 

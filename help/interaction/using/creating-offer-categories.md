@@ -2,11 +2,12 @@
 product: campaign
 title: Créer des catégories d'offres
 description: Créer des catégories d'offres
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: ed97a1b5-c870-4b67-98b6-16adc316fd46
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Créer des catégories d&#39;offres{#creating-offer-categories}
 
-![](../../assets/v7-only.svg)
+
 
 La création des catégories d&#39;offres s&#39;effectue uniquement dans l&#39;environnement **[!UICONTROL En édition]**. Elles sont automatiquement déployées dans l&#39;environnement **[!UICONTROL En ligne]** (c.-à.-d. rendues disponibles pour être proposées) lorsque la ou les offres créées/modifiées qu&#39;elles contiennent sont validées. Par défaut, l&#39;environnement **[!UICONTROL En édition]** contient une catégorie destinée à recevoir l&#39;ensemble des offres. Il est possible de créer des sous-catégories afin de hiérarchiser les offres du catalogue.
 

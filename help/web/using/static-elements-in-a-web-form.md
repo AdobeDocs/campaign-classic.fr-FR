@@ -2,9 +2,11 @@
 product: campaign
 title: Eléments statiques dans un formulaire web
 description: Eléments statiques dans un formulaire web
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Eléments statiques dans un formulaire web{#static-elements-in-a-web-form}
 
-![](../../assets/common.svg)
+
 
 Vous pouvez inclure des éléments avec lesquels l’utilisateur n’a aucune interaction dans les pages du formulaire ; il s’agit d’éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Ces éléments sont créés par le premier bouton de la barre d&#39;outils, en sélectionnant **[!UICONTROL Éléments statiques]**.
 

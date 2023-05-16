@@ -2,9 +2,11 @@
 product: campaign
 title: Définition de lʼaudience appropriée
 description: Découvrez les bonnes pratiques lors de la sélection de votre audience
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Audiences
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Définition de l&#39;audience appropriée {#define-the-right-audience}
 
-![](../../assets/common.svg)
+
 
 La population ciblée est essentielle : créez soigneusement vos listes, testez vos emails sur les clients de messagerie et les appareils mobiles les plus utilisés et vérifiez que vos listes email sont à jour (sans adresses inconnues ou obsolètes). Vous pouvez également envoyer des bons à tirer permettant de configurer un cycle de validation complet.
 

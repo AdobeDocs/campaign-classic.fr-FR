@@ -2,9 +2,11 @@
 product: campaign
 title: Prise en main de l‘éditeur HTML Campaign
 description: Prise en main du DCE Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Prise en main de l‘éditeur HTML Campaign{#about-campaign-html-editor}
 
-![](../../assets/common.svg)
+
 
 Le **Digital Content Editor (DCE)** est un éditeur de contenus HTML qui permet de créer ou modifier facilement des modèles ou du contenu au format HTML dans Adobe Campaign.
 

@@ -1,19 +1,18 @@
 ---
 product: campaign
-title: Modification
-description: Modification
+title: Modification de l’arborescence de navigation de l’Explorateur Campaign
+description: Modification de l’arborescence de navigation de l’Explorateur Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
 
 
 # Modification de l’arborescence de navigation de l’Explorateur Campaign{#edition}
-
-![](../../assets/v7-only.svg)
 
 L&#39;écran de création et de configuration des documents de paramétrage de l&#39;arborescence de navigation est accessible à partir du nœud **[!UICONTROL Administration > Paramétrage > Arborescences de navigation]** :
 

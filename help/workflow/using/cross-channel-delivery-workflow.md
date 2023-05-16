@@ -2,9 +2,10 @@
 product: campaign
 title: Workflow de diffusion cross-canal
 description: En savoir plus sur les workflows de diffusion cross-canal
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Workflow de diffusion cross-canal{#cross-channel-delivery-workflow}
 
-![](../../assets/v7-only.svg)
+
 
 Ce cas pratique présente un exemple impliquant un workflow de diffusion cross-canal. Le concept général des diffusions cross-canal est présenté dans [cette section](cross-channel-deliveries.md).
 

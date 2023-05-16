@@ -2,9 +2,10 @@
 product: campaign
 title: Réception d'emails
 description: En savoir plus sur l’activité de workflow de réception d’emails
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Réception d&#39;emails{#inbound-emails}
 
-![](../../assets/v7-only.svg)
+
 
 L&#39;activité **Réception d&#39;emails** permet de récupérer et de traiter des emails depuis une messagerie accessible via le protocole POP3.
 

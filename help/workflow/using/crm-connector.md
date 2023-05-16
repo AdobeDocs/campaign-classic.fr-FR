@@ -1,9 +1,10 @@
 ---
 title: Connecteur CRM
 description: En savoir plus sur le Connecteur CRM et configurer la synchronisation des données
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 41966f31-9f37-4ab7-919a-d4624f9d1178
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # Connecteur CRM{#crm-connector}
 
-![](../../assets/v7-only.svg)
+
 
 L&#39;activité **Connecteur CRM** permet de paramétrer la synchronisation des données entre Adobe Campaign et un système CRM.
 

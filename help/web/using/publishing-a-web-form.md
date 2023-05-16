@@ -2,9 +2,11 @@
 product: campaign
 title: Publier un formulaire web
 description: Publier un formulaire web
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Publier un formulaire web{#publishing-a-web-form}
 
-![](../../assets/common.svg)
+
 
 ## Précharger les données du formulaire {#pre-loading-the-form-data}
 

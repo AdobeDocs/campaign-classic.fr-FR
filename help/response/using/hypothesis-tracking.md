@@ -2,11 +2,13 @@
 product: campaign
 title: Suivi des hypothèses
 description: Découvrez comment effectuer un suivi des d'hypothèses dans la Gestion de la réaction (Response Manager) de Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
-source-git-commit: 878ba2b532d5cb59af77b6450b12ae5d2ff149b2
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Suivi des hypothèses{#hypothesis-tracking}
 
-![](../../assets/common.svg)
+
 
 Le résultat des calculs des hypothèses est disponible à divers niveaux de la plateforme Adobe Campaign : les indicateurs calculés par les hypothèses et les réactions de la population cible peuvent être consultés depuis l&#39;hypothèse de mesure elle-même, ainsi que dans des rapports d&#39;hypothèses accessibles depuis les opérations et les diffusions.
 

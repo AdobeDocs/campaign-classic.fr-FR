@@ -2,9 +2,11 @@
 product: campaign
 title: Interface de l'éditeur de contenu
 description: Interface de l'éditeur de contenu
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Interface de l&#39;éditeur de contenu{#content-editor-interface}
 
-![](../../assets/common.svg)
+
 
 ## Fenêtre d&#39;édition {#editing-window}
 
@@ -22,7 +24,7 @@ La fenêtre d&#39;édition du DCE est organisée en trois sections distinctes. E
 ![](assets/dce_decoupe_window_nb.png)
 
 1. La section **supérieure** est une zone d&#39;affichage pour des messages destinés à l&#39;utilisateur. Ces messages indiquent le statut de l&#39;application Web ou de la diffusion en cours de création ainsi que les avertissements et messages d&#39;erreurs liés au contenu. Pour plus d&#39;informations, consultez la section [États du contenu HTML](content-editing-best-practices.md#html-content-statuses).
-1. La section **gauche** de la fenêtre est la zone d&#39;édition du contenu. Depuis cette zone, l&#39;utilisateur peut interagir directement avec le contenu, grâce à la barre d&#39;outils contextuelle : insérer un lien sur une image, modifier la police de caractères, supprimer un champ, etc. Pour plus d&#39;informations, consultez la section [Editer les formulaires](editing-content.md#editing-forms).
+1. La section **gauche** de la fenêtre est la zone d’édition du contenu. Depuis cette zone, l’utilisateur peut interagir directement avec le contenu, grâce à la barre d’outils pop-up : insérer un lien sur une image, modifier la police de caractères, supprimer un champ, etc. Pour plus d&#39;informations, consultez la section [Editer les formulaires](editing-content.md#editing-forms).
 1. La section **droite** de la fenêtre est la zone de contrôle du rendu. Elle regroupe les différentes options de l&#39;éditeur, notamment celles liées aux paramètres de l&#39;entête de la page et aux options générales associées à un bloc : ajouter une bordure, associer un champ de la base à une zone de saisie, accéder aux propriétés de la page Web, etc. Voir à ce propos les sections [Options globales](#global-options) et [Editer le contenu](editing-content.md).
 
 ## Options globales {#global-options}
@@ -80,7 +82,7 @@ Vous pouvez ainsi :
 
 ## Barre d&#39;outils de contenu {#content-toolbar}
 
-La barre d&#39;outils est un **élément contextuel** de l&#39;interface du DCE qui présente des fonctionnalités différentes selon le bloc sélectionné.
+La barre d’outils est un élément pop-up de l’**élément pop-up** de l’interface du DCE qui présente des fonctionnalités différentes selon le bloc sélectionné.
 
 >[!CAUTION]
 >

@@ -2,9 +2,10 @@
 product: campaign
 title: Requête incrémentale
 description: En savoir plus sur l’activité de workflow de requête incrémentale
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Requête incrémentale{#incremental-query}
 
-![](../../assets/v7-only.svg)
+
 
 Une requête incrémentale permet de sélectionner périodiquement une cible selon un critère, mais d&#39;exclure les personnes qui ont déjà été ciblées sur ce critère les fois précédentes.
 

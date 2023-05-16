@@ -2,8 +2,9 @@
 product: campaign
 title: À propos des canaux sortants
 description: À propos des canaux sortants
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
-source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # À propos des canaux sortants{#about-outbound-channels}
 
-![](../../assets/v7-only.svg)
+
 
 Les offres peuvent être présentées à divers emplacements utilisant un canal entrant ou sortant. Ce chapitre traite des canaux sortants.
 

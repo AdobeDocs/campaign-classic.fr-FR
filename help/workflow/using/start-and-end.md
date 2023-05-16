@@ -2,9 +2,10 @@
 product: campaign
 title: Début et Fin
 description: En savoir plus sur les activités de workflow de début et de fin
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Début et Fin{#start-and-end}
 
-![](../../assets/v7-only.svg)
+
 
 Les activités **[!UICONTROL Début]** et **[!UICONTROL Fin]** permettent de marquer graphiquement le début et la fin d&#39;un workflow. Elles n&#39;ont pas d&#39;impact fonctionnel et sont donc facultatives.
 

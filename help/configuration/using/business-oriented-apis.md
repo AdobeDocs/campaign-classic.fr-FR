@@ -2,9 +2,10 @@
 product: campaign
 title: API orientées métier
 description: API orientées métier
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: API
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
@@ -12,8 +13,6 @@ ht-degree: 100%
 ---
 
 # API orientées métier{#business-oriented-apis}
-
-![](../../assets/v7-only.svg)
 
 Les API métier sont spécifiques à chaque type d&#39;objet. Elles agissent sur :
 

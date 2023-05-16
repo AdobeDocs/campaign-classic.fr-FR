@@ -2,11 +2,12 @@
 product: campaign
 title: Déploiement Stand-alone
 description: Déploiement Stand-alone
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 98%
@@ -15,7 +16,7 @@ ht-degree: 98%
 
 # Déploiement Stand-alone{#standalone-deployment}
 
-![](../../assets/v7-only.svg)
+
 
 Cette configuration regroupe tous les composants sur une seule machine :
 

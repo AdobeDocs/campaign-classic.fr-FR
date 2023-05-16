@@ -2,9 +2,11 @@
 product: campaign
 title: Utiliser un modèle de formulaire web
 description: Utiliser un modèle de formulaire web
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Utiliser un modèle de formulaire web{#using-a-web-form-template}
 
-![](../../assets/common.svg)
+
 
 Un modèle de formulaire est un paramétrage réutilisable pour créer de nouveaux formulaires. Les modèles de formulaires sont stockés par défaut avec les modèles d&#39;applications Web, sous le noeud **[!UICONTROL Ressources > Modèles > Modèles d&#39;applications Web]**.
 

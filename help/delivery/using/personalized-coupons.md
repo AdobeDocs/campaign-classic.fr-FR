@@ -2,9 +2,11 @@
 product: campaign
 title: Coupons personnalisés
 description: Découvrez comment créer et insérer des coupons personnalisés
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Coupons personnalisés{#personalized-coupons}
 
-![](../../assets/common.svg)
+
 
 Le fait d&#39;ajouter des coupons à vos diffusions peut donner une valeur ajoutée à vos destinataires en termes de produits et services. Le module coupon de Campaign permet de créer un jeu de coupons à ajouter à des offres marketing à venir. Lorsque vous êtes prêt à créer une diffusion, assignez les coupons applicables. Dans la mesure où les coupons sont valables pendant une période définie, un coupon assigné est lié de façon unique à son message de diffusion. De plus, Campaign confirme qu&#39;il y a suffisamment de coupons par rapport au nombre de messages avant l&#39;envoi de la diffusion.
 
@@ -49,7 +51,7 @@ Avant d&#39;appliquer les étapes ci-dessous, vérifiez que vous savez quel type
    **[!UICONTROL Coupons individuels]** : un coupon individuel peut être personnalisé davantage à l&#39;aide de codes coupon supplémentaires. Par exemple, un coupon individuel est créé pour une promotion dans un magasin d&#39;équipement sportif. Or, la liste des destinataires est longue et ceux-ci s&#39;intéressent à des sports différents. Vous pouvez ajouter des noms de code pour le coupon individuel en fonction d&#39;un sport précis (p.ex. le foot, le football américain, le baseball, etc.) et envoyer chaque code aux destinataires concernés.
 
    1. Lorsque vous sélectionnez le type Individuel, un nouvel onglet, Coupons, apparaît en bas à gauche. Allez dans l&#39;onglet **[!UICONTROL Coupons]** et cliquez sur **[!UICONTROL Ajouter]**.
-   1. Lorsque la fenêtre contextuelle vous y invite, saisissez un code unique pour le coupon individuel.
+   1. Lorsque la fenêtre pop-up vous y invite, saisissez un code unique pour le coupon individuel.
    1. Cliquez sur **[!UICONTROL Enregistrer]** pour générer le coupon.
 
    Pour plus dʼinformations sur lʼonglet Coupons, consultez la section [Configuration de coupons individuels](#configuring-individual-coupons).

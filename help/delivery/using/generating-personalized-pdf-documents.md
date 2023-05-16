@@ -2,9 +2,11 @@
 product: campaign
 title: Génération de documents PDF personnalisés
 description: Découvrez comment générer des documents PDF personnalisés
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Génération de documents PDF personnalisés{#generating-personalized-pdf-documents}
 
-![](../../assets/common.svg)
+
 
 ## À propos des documents PDF variables {#about-variable-pdf-documents}
 

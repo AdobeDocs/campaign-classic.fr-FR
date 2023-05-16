@@ -2,9 +2,11 @@
 product: campaign
 title: Configuration et envoi de la diffusion
 description: Découvrez comment configurer et envoyer la diffusion
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1598'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Configuration et envoi de la diffusion {#configuring-and-sending-the-delivery}
 
-![](../../assets/common.svg)
+
 
 ## Autorisations{#delivery-permissions}
 

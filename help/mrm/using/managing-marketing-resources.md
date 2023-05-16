@@ -2,11 +2,12 @@
 product: campaign
 title: Gérer des ressources marketing
 description: Découvrez comment gérer les ressources marketing
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Gestion des ressources marketing{#managing-marketing-resources}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign permet d&#39;assurer le suivi et le tracking des ressources marketing impliquées dans le cycle de vie des opérations. Ces ressources marketing peuvent être par exemple une brochure, un visuel, ou tout autre support de communication sur lequel plusieurs opérateurs sont appelés à intervenir.
 

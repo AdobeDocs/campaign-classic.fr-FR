@@ -2,8 +2,10 @@
 product: campaign
 title: À propos de la gestion de la réaction
 description: À propos de la gestion de la réaction
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
-source-git-commit: 878ba2b532d5cb59af77b6450b12ae5d2ff149b2
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
@@ -12,7 +14,7 @@ ht-degree: 100%
 
 # Prise en main de la gestion de la réaction de Campaign{#about-response-manager}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign propose un module complémentaire de gestion de la réaction qui permet de mesurer le succès et la rentabilité d&#39;une campagne marketing ou d&#39;une proposition d&#39;offre, quel que soit le canal de communication utilisé : email, mobile, courrier, etc.
 

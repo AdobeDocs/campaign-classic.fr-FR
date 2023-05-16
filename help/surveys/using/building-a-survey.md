@@ -2,9 +2,11 @@
 product: campaign
 title: Conception d’un questionnaire
 description: Découvrez les étapes clés de la conception d'un questionnaire
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
-source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Conception d’un questionnaire{#building-a-survey}
 
-![](../../assets/common.svg)
+
 
 ## Créer un nouveau questionnaire {#creating-a-new-survey}
 

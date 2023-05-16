@@ -2,9 +2,11 @@
 product: campaign
 title: Fonctionnalités avancées
 description: Découvrez-en plus sur les fonctionnalités avancées lorsque vous utilisez des rapports
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Fonctionnalités avancées{#advanced-functionalities}
 
-![](../../assets/common.svg)
+
 
 En tant qu&#39;utilisateur technique, en plus des [propriétés générales](../../reporting/using/properties-of-the-report.md), vous pouvez tirer parti de fonctionnalités avancées pour configurer vos rapports, telles que :
 

@@ -2,9 +2,11 @@
 product: campaign
 title: '« Cas d’utilisation : sélectionner des adresses de contrôle selon des critères »'
 description: '« Cas d’utilisation : sélectionner des adresses de contrôle selon des critères »'
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Cas pratique : sélection des adresses de contrôle selon des critères{#use-case-selecting-seed-addresses-on-criteria}
 
-![](../../assets/common.svg)
+
 
 Le lien **[!UICONTROL Editer la condition dynamique...]** permet, dans le cadre d&#39;une diffusion ou d&#39;une opération, de choisir des adresses de contrôle en fonction de critères de sélection spécifiques.
 

@@ -2,9 +2,10 @@
 product: campaign
 title: Déduplication
 description: En savoir plus sur l’activité de workflow de déduplication
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Déduplication{#deduplication}
 
-![](../../assets/v7-only.svg)
+
 
 La déduplication supprime les doublons dans le ou les résultats des activités entrantes. La déduplication peut être effectuée en fonction de l&#39;adresse email, du numéro de téléphone ou d&#39;un autre champ.
 

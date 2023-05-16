@@ -2,11 +2,13 @@
 product: campaign
 title: Partage d'audiences avec Adobe Experience Cloud
 description: Partage d'audiences avec Adobe Experience Cloud
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
-source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Partage d&#39;audiences avec Adobe Experience Cloud{#sharing-audiences-with-adobe-experience-cloud}
 
-![](../../assets/common.svg)
+
 
 >[!CAUTION]
 >

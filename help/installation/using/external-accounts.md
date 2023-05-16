@@ -2,11 +2,12 @@
 product: campaign
 title: Comptes externes
 description: Découvrez comment créer des comptes externes
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 31a475c98b09bbeca6a16c6fd98698af10016033
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Comptes externes{#external-accounts}
 
-![](../../assets/v7-only.svg)
+
 
 Un ensemble de comptes externes prédéfinis est livré avec Adobe Campaign. Pour établir des connexions avec des systèmes externes, vous pouvez créer des comptes externes.
 
@@ -157,7 +158,7 @@ Pour ce faire, spécifiez dans ce compte externe l&#39;adresse et les informatio
 
 * **[!UICONTROL Port]**
 
-   Numéro de port de la connexion FTP. Le port par défaut est 21.
+   Numéro de port de connexion FTP. Le port par défaut est 21.
 
 * **[!UICONTROL Compte]**
 

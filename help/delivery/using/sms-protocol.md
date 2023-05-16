@@ -2,9 +2,11 @@
 product: campaign
 title: Protocole et paramètres du connecteur SMS
 description: En savoir plus sur le connecteur SMS et comment le configurer
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 2c145829517a6961d502cc3e7b904547f8c71602
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '8460'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Protocole et paramètres du connecteur SMS {#sms-connector-protocol}
 
-![](../../assets/common.svg)
+
 
 >[!NOTE]
 >
@@ -61,7 +63,7 @@ Un SMS contient plus d&#39;informations que de texte. Voici une liste de ce que 
 
 * Adresse de l&#39;expéditeur, qui peut être appelée `oADC` ou parfois `sender id`. Il peut s&#39;agir d&#39;un numéro de téléphone utilisé au quotidien, d&#39;un numéro court envoyé par l&#39;intermédiaire d&#39;un fournisseur ou d&#39;un nom. Le nom est une fonctionnalité facultative. Dans ce cas, vous ne pouvez pas répondre au SMS.
 
-* Indicateur indiquant si le message est un message Flash. Un message Flash est une fenêtre contextuelle qui n&#39;est pas stockée en mémoire.
+* Indicateur indiquant si le message est un message Flash. Un message Flash est un pop-up qui n’est pas stocké en mémoire.
 
 * Indicateur indiquant si un SR est attendu ou non.
 
@@ -272,7 +274,7 @@ Les connecteurs Adobe Campaign Classic (à l&#39;exception de l&#39;option SMPP
 
 #### Format de champ de texte SR {#sr-text-field-format}
 
-La spécification recommande d&#39;utiliser ce format pour le champ de texte SR. Il s&#39;agit d&#39;une liste de sous-champs séparés dans l&#39;espace par deux points pour séparer le nom du champ et sa valeur. Les noms de champ ne sont pas sensibles à la casse.
+La spécification recommande d&#39;utiliser ce format pour le champ de texte SR. Il s&#39;agit d&#39;une liste de sous-champs séparés dans l&#39;espace par deux points pour séparer le nom du champ et sa valeur. Les noms de champ ne respectent jamais la casse.
 
 Exemple d&#39;un champ de texte SR correspondant à la recommandation de l&#39;Annexe B :
 
@@ -535,7 +537,7 @@ Lorsque la connexion TCP est perdue, le connecteur attend ce nombre de secondes 
 
 #### Délai d&#39;expiration des MT {#expiration-period}
 
-Délai entre `SUBMIT_SM` et son `SUBMIT_SM_RESP` correspondant. Si `RESP` n&#39;est pas reçu à temps, le message sera considéré comme ayant échoué et la stratégie de nouvelle tentative globale du MTA s&#39;appliquera.
+Délai entre `SUBMIT_SM` et son `SUBMIT_SM_RESP` correspondant. Si `RESP` n&#39;est pas reçu à temps, le message sera considéré comme ayant échoué et la politique de nouvelle tentative globale du MTA s&#39;appliquera.
 
 #### Délai d&#39;attente maximal d&#39;un bind {#bind-timeout}
 

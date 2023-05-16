@@ -1,9 +1,10 @@
 ---
 title: Utiliser la fonctionnalité de fusion de l’activité de déduplication
 description: Découvrez comment utiliser la fonctionnalité de fusion de l’activité de déduplication.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # Utiliser la fonctionnalité de fusion de l’activité de déduplication {#deduplication-merge}
 
-![](../../assets/v7-only.svg)
+
 
 ## À propos de ce cas d&#39;utilisation {#about-this-use-case}
 

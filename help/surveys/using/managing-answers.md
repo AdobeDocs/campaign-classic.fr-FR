@@ -2,9 +2,11 @@
 product: campaign
 title: Gestion des réponses
 description: Découvrez comment gérer les réponses aux questionnaires
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
-source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Gestion des réponses{#managing-answers}
 
-![](../../assets/common.svg)
+
 
 ## Stocker les réponses collectées {#storing-collected-answers}
 

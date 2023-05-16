@@ -2,9 +2,10 @@
 product: campaign
 title: Requête
 description: En savoir plus sur l’activité de workflow de requête
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1692'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Requête{#query}
 
-![](../../assets/v7-only.svg)
+
 
 ## Création dʼune requête {#creating-a-query}
 
@@ -151,7 +152,7 @@ Dans l&#39;exemple suivant, la requête cherchera à identifier les hommes de 18
    ![](assets/query_example_preview.png)
 
 1. Sauvegardez éventuellement vos filtres pour pouvoir les réutiliser ultérieurement puis cliquez sur **[!UICONTROL Terminer]** > **[!UICONTROL Ok]**.
-1. Poursuivez l&#39;édition de votre workflow en y ajoutant d&#39;autres activités. Une fois ce dernier lancé et l&#39;étape de la requête précédemment créée terminée, le nombre de destinataires trouvés s&#39;affiche. Vous pouvez en afficher le détail via le menu contextuel de la souris (clic droit sur la transition > **[!UICONTROL Afficher la cible]**).
+1. Poursuivez l’édition de votre workflow en y ajoutant d’autres activités. Une fois ce dernier lancé et l’étape de la requête précédemment créée terminée, le nombre de destinataires trouvés s’affiche. Vous pouvez en afficher le détail via le menu pop-up de la souris (clic droit sur la transition > **[!UICONTROL Afficher la cible]**).
 
    ![](assets/query_example_result.png)
 

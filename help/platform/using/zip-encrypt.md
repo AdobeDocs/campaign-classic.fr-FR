@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: Compresser ou chiffrer un fichier
-description: Découvrez comment compresser ou chiffrer un fichier dans Campaign Classic avant de le traiter.
+description: Découvrez comment compresser ou chiffrer un fichier dans Campaign  avant de le traiter
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
 
 # Compresser ou chiffrer un fichier {#zipping-or-encrypting-a-file}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign permet d&#39;exporter des fichiers compressés ou chiffrés. Lors de la définition d&#39;un export par le biais d&#39;une activité **[!UICONTROL Extraction (fichier)]**, vous pouvez définir une étape de post-traitement pour le compresser ou le chiffrer.
 

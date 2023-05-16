@@ -2,9 +2,11 @@
 product: campaign
 title: Vérification avant envoi
 description: Une fois que votre message est prêt, effectuez toutes les vérifications avant de l’envoyer.
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: 808f459a0b77b1787fc017c031247ab268b5aafa
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Effectuer toutes les vérifications avant d’envoyer {#perform-all-checks}
 
-![](../../assets/common.svg)
+
 
 Une fois que votre message est prêt, vérifiez que le contenu s&#39;affiche correctement sur tous les appareils et qu&#39;il ne contient aucune erreur, comme des liens rompus ou une personnalisation incorrecte.
 
@@ -35,7 +37,7 @@ L&#39;inbox rendering vous permet de prévisualiser vos messages sur les princip
 
 * Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception : webmail, service de messagerie, mobile, etc.
 
-* Les fonctionnalités d&#39;inbox rendering sont essentielles pour déterminer si vos campagnes email réussissent à passer les filtres des principaux FAI et des services webmail. Les outils de ce type envoient une copie de vérification d&#39;un email à un réseau de boîtes de réception de test pour que vous puissiez voir comment le message s&#39;affichera à travers ces différents services. Ils peuvent également inclure des rapports et des options de correction de code qui vous permettent d&#39;identifier rapidement les problèmes et de les corriger afin d&#39;améliorer la délivrabilité.
+* Les fonctionnalités d’inbox rendering sont essentielles pour déterminer si vos campagnes par e-mail réussissent à passer les filtres des principaux FAI et des services webmail. Les outils de ce type envoient une copie de vérification d’un e-mail à un réseau de boîtes de réception de test pour que vous puissiez voir comment le message s’affichera à travers ces différents services. Ils peuvent également inclure des rapports et des options de correction de code qui vous permettent d’identifier rapidement les problèmes et de les corriger afin d’améliorer la délivrabilité.
 
 En savoir plus [dans cette section](inbox-rendering.md).
 
@@ -103,7 +105,7 @@ Vous pouvez ainsi :
 
 ### Utiliser des typologies
 
-Vous pouvez utiliser des règles de typologie pour exclure une partie de la cible en fonction de critères spécifiques. Elles permettent de s’assurer que les messages envoyés répondent le mieux possible aux attentes ou aux besoins du client, dans le respect des stratégies de communication de l’entreprise. Vous pouvez, par exemple, filtrer les destinataires mineurs du public cible de votre newsletter. En savoir plus [dans cet exemple](../../campaign-opt/using/filtering-rules.md).
+Vous pouvez utiliser des règles de typologie pour exclure une partie de la cible en fonction de critères spécifiques. Elles permettent de s’assurer que les messages envoyés répondent le mieux possible aux attentes ou aux besoins du client, dans le respect des politiques de communication de l’entreprise. Vous pouvez, par exemple, filtrer les destinataires mineurs du public cible de votre newsletter. En savoir plus [dans cet exemple](../../campaign-opt/using/filtering-rules.md).
 
 ### Éviter les pièces jointes
 

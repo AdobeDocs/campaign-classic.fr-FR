@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: Points clés de la gestion de la délivrabilité dans Adobe Campaign Classic
-description: Quels sont les points clés à vérifier lors de la gestion de la délivrabilité dans Adobe Campaign Classic ?
+description: Découvrez les points clés à vérifier lors de la gestion de la délivrabilité dans Adobe Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 100%
+source-wordcount: '668'
+ht-degree: 98%
 
 ---
 
 # Résolution des problèmes de délivrabilité{#deliverability-faq}
 
-![](../../assets/common.svg)
+
 
 Vous rencontrez un problème de délivrabilité ? La solution se trouve peut-être ici.
 

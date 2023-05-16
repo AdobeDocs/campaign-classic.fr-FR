@@ -2,11 +2,12 @@
 product: campaign
 title: Exporter et importer des profils
 description: Exporter et importer des profils
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: fd0f7b6e-84e1-442d-ae88-817fb6758d64
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Importation et exportation de profils{#exporting-and-importing-profiles}
 
-![](../../assets/v7-only.svg)
+
 
 Vous pouvez [utiliser des workflows](#use-workflows) pour importer et exporter des profils de destinataires dans la base de données Adobe Campaign ou pour configurer des [imports ou des exports génériques](#create-jobs).
 

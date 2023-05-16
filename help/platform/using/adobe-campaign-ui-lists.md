@@ -2,9 +2,10 @@
 product: campaign
 title: Gestion et personnalisation de listes
 description: Découvrez comment parcourir et configurer des listes
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Gestion et personnalisation de listes{#manage-and-customize-lists}
 
-![](../../assets/v7-only.svg)
+
 
 Vous pouvez accéder aux listes des enregistrements de la base de données Campaign à l’aide de l’Explorateur. Vous pouvez filtrer ces listes, lancer des recherches, ajouter des informations, filtrer et trier les données.
 
@@ -163,13 +164,13 @@ Cliquez sur **[!UICONTROL Enregistrer]** dans la fenêtre des propriétés du do
 
 ## Export d’une liste {#exporting-a-list}
 
-Pour exporter les données d&#39;une liste, vous devez utiliser l&#39;assistant d&#39;export. Pour y accéder, sélectionnez les éléments de la liste à exporter, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Exporter...]**.
+Pour exporter les données d’une liste, vous devez utiliser l’assistant d’export. Pour y accéder, sélectionnez les éléments de la liste à exporter, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Exporter...]**.
 
 L&#39;utilisation des fonctions d&#39;importation et d&#39;exportation est expliquée dans la section [Imports et exports génériques](../../platform/using/about-generic-imports-exports.md).
 
 >[!CAUTION]
 >
->Les éléments d&#39;une liste ne doivent pas être exportés via la fonction Copier/Coller.
+>Les éléments d’une liste ne doivent pas être exportés via la fonction Copier/Coller.
 
 ## Tri d’une liste {#sorting-a-list}
 

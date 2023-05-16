@@ -2,20 +2,21 @@
 product: campaign
 title: Archivage des emails
 description: Archivage des emails
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 100%
+source-wordcount: '1367'
+ht-degree: 98%
 
 ---
 
 # Configuration du Cci d’email {#email-archiving}
 
-![](../../assets/v7-only.svg)
+
 
 Vous pouvez paramétrer Adobe Campaign pour conserver une copie des emails envoyés depuis votre plateforme.
 
@@ -34,6 +35,9 @@ Pour ce faire, les fichiers .eml correspondant aux emails envoyés sont transfé
 * Le système d&#39;archivage des emails a été modifié avec Adobe Campaign 17.2 (build 8795). Si vous utilisiez déjà l&#39;archivage des emails, vous devez effectuer une mise à niveau manuelle vers le nouveau système d&#39;Email Cci. Pour plus d’informations, consultez la section [Déplacement vers le nouvel Email Cci](#updated-email-archiving-system--bcc-).
 
 ## Activer Email Cci (On-premise) {#activating-email-archiving--on-premise-}
+
+[!BADGE On-premise et hybride]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"}
+
 
 Pour activer l’archivage des emails en Cci lorsqu’Adobe Campaign est installé on-premise, suivez les étapes ci-dessous.
 
@@ -102,6 +106,9 @@ Veillez à ajuster ces paramètres en fonction du débit d&#39;envoi des emails.
 
 ## Configuration de l&#39;adresse email en Cci (on-premise) {#configuring-the-bcc-email-address--on-premise-}
 
+[!BADGE On-premise et hybride]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"}
+
+
 >[!IMPORTANT]
 >
 >Pour des raisons de confidentialité, les emails en Cci doivent être traités dans un système d&#39;archivage capable de stocker en toute sécurité les informations d&#39;identification personnelles (PII).
@@ -124,6 +131,10 @@ Dans le fichier **config-`<instance name>.xml`**, utilisez les paramètres suiva
 >En outre, le relais affecte le statut **[!UICONTROL Envoyé]** à tous les emails, y compris ceux qui ne sont pas envoyés. Tous les messages sont donc archivés.
 
 ## Passage au nouvel Email Cci {#updated-email-archiving-system--bcc-}
+
+[!BADGE On-premise et hybride]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"}
+
+
 
 >[!IMPORTANT]
 >

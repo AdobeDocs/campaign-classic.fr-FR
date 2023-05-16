@@ -2,18 +2,19 @@
 product: campaign
 title: Liste des rapports
 description: Liste des rapports
+badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Reporting
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 100%
+source-wordcount: '1018'
+ht-degree: 98%
 
 ---
 
 # Liste des rapports{#list-of-reports}
 
-![](../../assets/common.svg)
+
 
 ## Rapports sur les diffusions {#reports-on-deliveries}
 

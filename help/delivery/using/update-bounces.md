@@ -2,11 +2,13 @@
 product: campaign
 title: Mettre à jour la qualification des rebonds après une panne d’un FAI
 description: Découvrez comment mettre à jour la qualification des retours après une panne dʼun fournisseur dʼaccès à Internet
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
-source-git-commit: 165797105affc9b5d4e4332f7f158031579bf91c
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Mettre à jour les erreurs hard incorrectes après une panne d’un FAI {#update-bounces}
 
-![](../../assets/common.svg)
+
 
 ## Contexte{#update-bounce-context}
 

@@ -2,14 +2,15 @@
 product: campaign
 title: Restauration de la version précédente
 description: Découvrez comment restaurer la version précédente
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: migration
 content-type: reference
 topic-tags: rollback
 hide: true
 hidefromtoc: true
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
-source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
-workflow-type: ht
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 100%
 
@@ -17,7 +18,7 @@ ht-degree: 100%
 
 # Restauration de la version précédente{#about-rollback}
 
-![](../../assets/v7-only.svg)
+
 
 Après une migration, en cas de problème, vous devrez peut-être revenir à la version précédente de Campaign.
 

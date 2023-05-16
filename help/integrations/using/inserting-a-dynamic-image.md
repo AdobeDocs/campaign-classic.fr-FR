@@ -2,11 +2,13 @@
 product: campaign
 title: Insertion d’une image dynamique
 description: Insertion d’une image dynamique
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
-source-git-commit: b6e24c63ece12f25b7dafe3fede9e38b3aab2427
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Insertion de contenu dynamique Target {#inserting-a-dynamic-image}
 
-![](../../assets/common.svg)
+
 
 Cette page vous explique comment intégrer une offre dynamique provenant d’Adobe Target dans un e-mail créé dans Adobe Campaign.
 

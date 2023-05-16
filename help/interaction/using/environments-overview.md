@@ -2,11 +2,12 @@
 product: campaign
 title: Présentation des environnements
 description: Présentation des environnements
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: ba588591-5171-4c35-bc8c-3979274e21b2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Présentation des environnements{#environments-overview}
 
-![](../../assets/v7-only.svg)
+
 
 Ce chapitre décrit la gestion des environnements d&#39;offres dans Interaction.
 

@@ -2,9 +2,10 @@
 product: campaign
 title: Versions de Campaign Classic 2019
 description: En savoir plus sur les versions de Campaign Classic 2019
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hidefromtoc: true
 exl-id: 8a36a542-e095-4208-b624-e59845592863
-source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '4836'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Versions 2019{#release-2019}
 
-![](../../assets/v7-only.svg)
+
 
 ## Version 19.2{#release-19-2}
 
@@ -132,7 +133,7 @@ _2 décembre 2019_
 **Améliorations de la sécurité**
 
 * Correction des vulnérabilités de la génération de scripts intersites stockés de l&#39;interface de Campaign - validation des données d&#39;entrée et codage en sortie. (NEO-16810)
-* Correction d&#39;un problème de sécurité concernant l&#39;autorisation de profil qui pouvait accepter l&#39;accès à des données non autorisées. Les règles de restriction de connexion ont été renforcées. (NEO-14445)
+* Correction d&#39;un problème de sécurité concernant l&#39;autorisation de profil qui pouvait accepter l&#39;accès à des données non autorisées. Les politiques de restriction de connexion ont été renforcées. (NEO-14445)
 
 **Améliorations**
 
@@ -170,7 +171,7 @@ Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, no
 * Correction d&#39;un problème en raison duquel certains messages ne pouvaient pas être traités par le serveur de Mid-sourcing. (NEO-12395)
 * Correction d&#39;un problème dans le workflow de nettoyage de la base de données lors de l&#39;utilisation de l&#39;option query banding avec Teradata. (NEO-12399)
 * Correction d&#39;un problème affectant l&#39;analyse des diffusions avec une règle de typologie incluant le domaine ne.jp. (NEO-12609)
-* Correction d&#39;un problème lié aux SMS pour les mises à jour TLS qui impliquaient des règles de certificat plus restrictives. Ces mises à jour peuvent entraîner un échec de la connexion entre les serveurs de marketing et de Mid-sourcing en cas de certificat obsolète. (NEO-17698)
+* Correction d&#39;un problème lié aux SMS pour les mises à jour TLS qui impliquaient des politiques de certificat plus restrictives. Ces mises à jour peuvent entraîner un échec de la connexion entre les serveurs de marketing et de Mid-sourcing en cas de certificat obsolète. (NEO-17698)
 * Correction d&#39;un problème en cas d&#39;utilisation du bouton **Tester la connexion** pour un compte externe dans un environnement de Mid-sourcing avec l&#39;authentification Vault. (NEO-12722)
 * Correction d&#39;un problème concernant les requêtes utilisant des fonctions de date avec une connexion FDA Hadoop. (NEO-12847)
 * Correction d&#39;un problème survenant lors du remplacement d&#39;une image dans l&#39;éditeur d&#39;email. (NEO-13098)

@@ -2,9 +2,11 @@
 product: campaign
 title: Utiliser les schémas de données dans Campaign
 description: Découvrez comment utiliser les schémas de données dans Campaign.
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Data Model
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Utiliser les schémas de données dans Campaign{#data-schemas}
 
-![](../../assets/common.svg)
+
 
 Vous trouverez ci-après quelques principes généraux sur l&#39;utilisation des schémas de données dans Adobe Campaign.
 

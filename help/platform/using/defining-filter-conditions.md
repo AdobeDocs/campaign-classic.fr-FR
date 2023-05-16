@@ -2,11 +2,13 @@
 product: campaign
 title: Définir les conditions de filtrage
 description: Définir les conditions de filtrage
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '3394'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Définition des conditions de filtre{#defining-filter-conditions}
 
-![](../../assets/common.svg)
+
 
 ## Sélectionner l’opérateur {#choosing-the-operator}
 

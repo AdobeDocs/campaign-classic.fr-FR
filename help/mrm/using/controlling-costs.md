@@ -2,11 +2,12 @@
 product: campaign
 title: Contrôler les coûts
 description: Découvrez comment contrôler les coûts
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2539'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Contrôle des coûts{#controlling-costs}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign permet de contrôler les coûts marketing planifiés, engagés et facturés, et de les ventiler par catégories à l&#39;aide du module Marketing Resource Management.
 
@@ -182,7 +183,7 @@ Les coûts sont répartis en 3 catégories :
 
    Le coût prévisionnel estimé correspond à une estimation des coûts pour les traitements de l&#39;opération. Tant qu&#39;il est en édition, les montants saisis ne sont pas consolidés. Il doit être au statut **[!UICONTROL Renseigné]** pour que les montants saisis soient pris en compte dans les calculs.
 
-   Ce montant est saisi manuellement et peut être ventilé en plusieurs catégories de dépenses. Pour ventiler un coût, cliquez sur le lien **[!UICONTROL Ventilation...]**, puis sur le bouton **[!UICONTROL Ajouter]** pour définir un nouveau montant.
+   Ce montant est saisi manuellement et peut être réparti en plusieurs catégories de dépenses. Pour répartir un coût, cliquez sur le lien **[!UICONTROL Répartition...]**, puis sur le bouton **[!UICONTROL Ajouter]** pour définir un nouveau montant.
 
    ![](assets/s_user_edit_budget_tab_ventil.png)
 
@@ -201,7 +202,7 @@ Les coûts sont répartis en 3 catégories :
 
    >[!NOTE]
    >
-   >Le lien **[!UICONTROL Ventilation]** permet de visualiser les détails du calcul, ainsi que la date du dernier calcul des coûts.
+   >Le lien **[!UICONTROL Répartition]** permet de visualiser les détails du calcul, ainsi que la date du dernier calcul des coûts.
 
 1. Coût réel
 
@@ -261,7 +262,7 @@ Nous allons créer une opération avec :
 
    ![](assets/s_user_cost_mgmt_sample_4.png)
 
-1. Indiquez le coût prévisionnel estimé, avec ventilation :
+1. Indiquez le coût prévisionnel estimé, avec répartition :
 
    ![](assets/s_user_cost_mgmt_sample_9.png)
 
@@ -297,7 +298,7 @@ Au niveau de la diffusion, le coût calculé est mis à jour avec ces informatio
 
 ![](assets/s_user_cost_mgmt_sample_12.png)
 
-Lorsque vous éditez le coût calculé, vous pouvez vérifier la ventilation des coûts ainsi que l&#39;état et la date du calcul des coûts.
+Lorsque vous éditez le coût calculé, vous pouvez vérifier la répartition des coûts ainsi que l’état et la date du calcul des coûts.
 
 #### Étape 5 - Créer les tâches {#step-5---creating-tasks}
 
@@ -315,7 +316,7 @@ Dans cette campagne, nous allons ajouter les deux tâches pour lesquelles les st
 
    Une fois la tâche enregistrée, le coût calculé est renseigné avec la valeur saisie pour le coût prévisionnel estimé.
 
-   Lorsque la tâche est terminée (statut **[!UICONTROL Terminé]**), le coût calculé est automatiquement mis à jour avec le coût de la Grande Salle tel que renseigné dans sa structure de coût. Ce coût est également ventilé sur la catégorie.
+   Lorsque la tâche est terminée (statut **[!UICONTROL Terminé]**), le coût calculé est automatiquement mis à jour avec le coût de la Grande Salle tel que renseigné dans sa structure de coût. Ce coût est également réparti sur la catégorie.
 
 1. Selon le même mode opératoire, créez ensuite une seconde tâche, planifiée sur 5 jours et associée à la structure de coûts créée précédemment.
 

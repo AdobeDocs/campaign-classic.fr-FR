@@ -2,11 +2,12 @@
 product: campaign
 title: FAQ sur les tests et les envois
 description: FAQ Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
-source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Validation, envoi et tracking des messages {#validate-send-track}
 
-![](../../assets/v7-only.svg)
+
 
 ## Tests et validation {#test-and-validate-before-sending}
 
@@ -52,7 +53,7 @@ Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adob
 
 ### Qu&#39;est-ce qu&#39;une règle de typologie ? {#what-is-a-typology-rule-}
 
-Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester différentes combinaisons en appliquant des règles de contrainte spécifiques. Elles permettent de s’assurer que les messages envoyés répondent le mieux possible aux attentes ou aux besoins du client, dans le respect des stratégies de communication de l’entreprise.
+Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester différentes combinaisons en appliquant des règles de contrainte spécifiques. Elles permettent de s’assurer que les messages envoyés répondent le mieux possible aux attentes ou aux besoins du client, dans le respect des politiques de communication de l’entreprise.
 
 [Pour en savoir plus, cliquez ici](../../campaign-opt/using/about-campaign-typologies.md).
 

@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: Bonnes pratiques relatives aux interactions Adobe Campaign Classic
-description: Cette section présente l'approche recommandée pour gérer le module Interaction dans Adobe Campaign Classic.
+description: Cette section présente l'approche recommandée pour gérer le module Interaction dans Adobe Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 98413cde-50c9-416c-8316-85837f724c27
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Bonnes pratiques relatives aux interactions{#interaction-best-practices}
 
-![](../../assets/v7-only.svg)
+
 
 ## Recommandations générales {#general-recommendations}
 
