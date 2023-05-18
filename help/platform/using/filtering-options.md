@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: filtering-data
 exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
-source-wordcount: '283'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
