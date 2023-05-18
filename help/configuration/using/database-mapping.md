@@ -5,8 +5,8 @@ description: Mapping de la base de données
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
-source-wordcount: '1974'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
