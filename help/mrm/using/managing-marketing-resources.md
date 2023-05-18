@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
-source-wordcount: '1445'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
