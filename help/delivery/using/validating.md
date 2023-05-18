@@ -7,8 +7,8 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Direct Mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
-source-wordcount: '268'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
