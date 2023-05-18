@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
-source-wordcount: '1342'
+source-git-commit: 9ea7eea5a539407a17b0a11c942570cfa6c16f2f
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
