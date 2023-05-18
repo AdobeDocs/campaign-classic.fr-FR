@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
-source-wordcount: '660'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
