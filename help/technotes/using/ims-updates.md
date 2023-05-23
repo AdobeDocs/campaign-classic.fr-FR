@@ -4,9 +4,9 @@ title: Note technique - Mise à jour de votre environnement pour vous connecter 
 description: Campaign - Mises à jour d'IMS
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+workflow-type: tm+mt
+source-wordcount: '585'
 ht-degree: 100%
 
 ---
@@ -93,4 +93,4 @@ Si vous n’avez pas mis à jour votre version d’Internet Explorer, le message
 * [Mise à disposition de la nouvelle console cliente auprès des utilisateurs](../../installation/using/client-console-availability-for-windows.md)
 * [Installer la console cliente Campaign](../../installation/using/installing-the-client-console.md)
 * [Accéder à la distribution logicielle Adobe](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr)
-* [Télécharger le build Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Télécharger le build Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html)
