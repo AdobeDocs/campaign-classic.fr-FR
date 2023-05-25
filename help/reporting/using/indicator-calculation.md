@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 feature: Reporting
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3032'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
