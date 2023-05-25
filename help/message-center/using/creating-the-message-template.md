@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Conception de modèles de messages transactionnels
+title: Concevoir des modèles de messages transactionnels
 description: Découvrez comment créer et concevoir un modèle de message transactionnel dans Adobe Campaign Classic
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Transactional Messaging
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
 ht-degree: 100%
 
