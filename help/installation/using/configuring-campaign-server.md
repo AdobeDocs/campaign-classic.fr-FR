@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1580'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Configurez ou adaptez le serveur Campaign en fonction de vos besoins et de votre
 * Configurer un [tracking redondant](#redundant-tracking)
 * Gérer la [haute disponibilité et les affinités de workflow](#high-availability-workflows-and-affinities)
 * Configurer la gestion des fichiers - [En savoir plus](file-res-management.md)
-   * Limiter le format des fichiers envoyés
+   * Limiter le format des fichiers chargés
    * Activer l’accès aux ressources publiques
    * Configurer la connexion au proxy
 * [Redémarrage automatique des processus](#automatic-process-restart)
