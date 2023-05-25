@@ -77,7 +77,7 @@ _2 décembre 2019_
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>La CCPA est la nouvelle loi sur la protection des renseignements personnels de l'État de Californie. Elle a pour objectif d'harmoniser et de moderniser les exigences en matière de protection des données qui entreront en vigueur le 1er janvier 2020. Cette loi s'applique aux clients Adobe Campaign qui détiennent des données pour des personnes concernées résidant en Californie.</p>
+   <td> <p>La CCPA est la nouvelle loi sur la protection des renseignements personnels de l'État de Californie. Elle a pour objectif d'harmoniser et de moderniser les exigences en matière de protection des données qui entreront en vigueur le 1er janvier 2020. Cette loi s’applique aux clients Adobe Campaign qui détiennent des données pour les titulaires de données résidant en Californie.</p>
     <p> Outre les fonctionnalités de protection des données déjà disponibles (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), Adobe Campaign vous aide à mieux vous préparer à l'application de la réglementation CCPA :</p>
     <ul>
       <li>Droit d'accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD. <a href="https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html#righttoaccess">En savoir plus</a></li>
@@ -141,7 +141,7 @@ _2 décembre 2019_
 * Pour optimiser les performances et le stockage, la gestion du fichier **logins.log** a été améliorée. Le fichier est maintenant divisé en plusieurs fichiers, un par jour, avec un maximum de 365 fichiers conservés. [En savoir plus](../../production/using/log-files.md)
 * Le compte externe Microsoft Dynamics CRM peut désormais être configuré à l&#39;aide des informations d&#39;identification (mot de passe + nom d&#39;utilisateur) ou du certificat (clé privée). [En savoir plus](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
 * Certaines améliorations ont été apportées au connecteur Hadoop FDA pour améliorer la fiabilité
-* Un mécanisme de sécurisation spécifique a été ajouté pour vérifier l&#39;espace disque avant de permettre le transfert des ressources publiques sur le serveur.
+* Un mécanisme de sécurisation spécifique a été ajouté pour vérifier l&#39;espace disque avant de permettre le chargement des ressources publiques sur le serveur.
 * De nouvelles [options Campaign](../../installation/using/configuring-campaign-options.md) ont été ajoutées :
    * L&#39;option de configuration **WdbcKillSessionPolicy** permet d&#39;influer sur le comportement **Arrêt inconditionnel** pour tous les workflows et les requêtes de base de données PostgreSQL.
    * L&#39;option **NmsOperation_DeliveryPreparationWindow** permet de définir le nombre de jours au-delà desquels les diffusions dont le statut est incohérent seront exclues du nombre de diffusions en cours.

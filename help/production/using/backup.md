@@ -11,7 +11,7 @@ exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ La grande majorité des données se trouve dans la base. Elle représente 99% de
 
 Ces fichiers sont répartis en plusieurs catégories :
 
-* Fichiers de configuration, stockés dans **nl6/conf**, vous permettent de reconfigurer Adobe Campaign très rapidement.
+* Les fichiers de configuration, stockés dans **nl6/conf**, vous permettent de reconfigurer Adobe Campaign très rapidement.
 
-* Fichiers de redirection, stockés dans  **nl6/var/`<instance-name>`/redir**, se trouvent sur les serveurs de suivi (souvent appelés &quot;frontaux&quot;) et incluent toutes les redirections de campagne précédentes. Elles sont toujours utilisées par les campagnes précédentes.
+* Les fichiers de redirection, stockés dans **nl6/var/`<instance-name>`/redir**, se trouvent sur les serveurs de tracking (souvent appelés « frontaux ») et incluent toutes les redirections de campagnes précédentes. Ils sont toujours utilisés par les campagnes précédentes.
 
-* Fichiers journaux, stockés dans **nl6/var/`<instance-name>`/log**, peut être utilisé pour tracer les problèmes.
+* Les fichiers journaux, stockés dans **nl6/var/`<instance-name>`/log**, peuvent être utilisés pour effectuer le suivi les problèmes.
 
 Les répertoires à sauvegarder sont donc :
 
@@ -51,7 +51,7 @@ Les répertoires à sauvegarder sont donc :
 
 >[!IMPORTANT]
 >
->Il est impératif de sauvegarder la base de données.
+>La sauvegarde de la base de données est essentielle.
 
 
 La base de données contient toutes les informations affichées dans la console cliente riche Adobe Campaign, ainsi que toutes les données métiers.

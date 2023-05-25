@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Configuration technique des emails
-description: Découvrez comment configurer Campaign pour contrôler la sortie de vos instances lors de la diffusion des emails
+description: Découvrez comment configurer Campaign pour contrôler la sortie de vos instances lors de la diffusion des e-mails.
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
@@ -11,7 +11,7 @@ exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '3090'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -241,7 +241,7 @@ Ces règles sont appliquées dans l&#39;ordre : la première règle dont le mas
 
 Les paramètres disponibles pour chacune des règles sont les suivants :
 
-* **[!UICONTROL Masque des MX]** : domaine auquel s’applique la règle. Chaque règle définit un masque d&#39;adresse pour le MX. Tout MX dont le nom correspond à ce masque est éligible. Le masque peut contenir &quot;&#42;&quot; et &quot;?&quot; caractères génériques.
+* **[!UICONTROL Masque des MX]** : domaine auquel s’applique la règle. Chaque règle fixe un masque d&#39;adresse du MX. Tout MX dont le nom correspond à ce masque est éligible. Le masque peut contenir « &#42; » et « ? ».
 
    Par exemple, les adresses :
 
@@ -404,11 +404,11 @@ Si, par exemple, la première adresse est inutilisable vers un MX donné, les me
     * &quot;2&quot;: 5 / (5+1) = 83 %
     * &quot;3&quot;: 1 / (5+1) = 17 %
 
-* **includeDomains**: permet de réserver cette adresse IP aux emails appartenant à un domaine spécifique. Liste de masques pouvant contenir un ou plusieurs caractères génériques (&#39;&#42;&quot;). Si l’attribut n’est pas spécifié, tous les domaines peuvent utiliser cette adresse IP.
+* **includeDomains** : vous permet de réserver cette adresse IP aux e-mails appartenant à un domaine particulier. Il s&#39;agit d&#39;une liste de masques pouvant contenir un ou plusieurs caractères génériques « &#42; ». Si l&#39;attribut n&#39;est pas renseigné, tous les domaines peuvent utiliser cette adresse IP.
 
    Exemple : **includeDomains=&quot;wanadoo.com,orange.com,yahoo.&#42;&quot;**
 
-* **excludeDomains** : exclut une liste de domaines de cette adresse IP. Ce filtre est applique après le filtre **includeDomains**.
+* **excludeDomains** : exclut une liste de domaines de cette adresse IP. Ce filtre est appliqué après le filtre **includeDomains**.
 
    ![](assets/s_ncs_install_mta_ips.png)
 

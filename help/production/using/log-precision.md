@@ -11,7 +11,7 @@ exl-id: c2470098-62f3-4fee-b1c5-800ed0e91f75
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -49,9 +49,9 @@ Adobe Campaign peut fonctionner sous deux niveaux de logs :
 
    >[!NOTE]
    >
-   >Si vous utilisez **tracefilter :&#42;**, tous les types de journaux sont activés : ncm, rdr, nms, jst, timing, wdbc, ldap, soap, xtk, xtkquery, session, xtkwriter, réseau, pop3, inmail\
-   >Les types de logs les plus utiles sont les suivants : **wdbc** (affiche toutes les requêtes SQL), **soap** (affiche tous les appels SOAP), **ldap** (affiche toutes les requêtes LDAP lors de l&#39;authentification), **xtkquery** (affiche la liste de toutes les querydef).\
-   >Vous pouvez les utiliser individuellement (**tracefilter:soap,wdbc** par exemple). Vous pouvez également tous les activer et choisir d’en exclure d’autres : **-tracefilter :&#42;,!soap**
+   >Si vous utilisez **tracefilter:&#42;**, tous les types de journaux sont activés : ncm, rdr, nms, jst, timing, wdbc, ldap, soap, xtk, xtkquery, session, xtkwriter, network, pop3, inmail.\
+   >Les types de journaux les plus utiles sont les suivants : **wdbc** (affiche toutes les requêtes SQL), **soap** (affiche tous les appels SOAP), **ldap** (affiche toutes les requêtes LDAP lors de l&#39;authentification), **xtkquery** (affiche la liste de toutes les querydef).\
+   >Vous pouvez les utiliser individuellement (par exemple : **tracefilter:soap,wdbc**). Vous pouvez aussi tous les activer et choisir d’en exclure certains : **-tracefilter:&#42;,!soap**
 
    Vérifiez que l&#39;erreur s&#39;est bien produite, puis relancez le processus normalement :
 

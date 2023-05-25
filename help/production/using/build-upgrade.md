@@ -11,7 +11,7 @@ exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '2355'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,9 +93,9 @@ Vous devez également connaître toutes les [lignes de commande utiles](../../in
 * **nlserver pdump** : répertorie les processus en cours d&#39;exécution.
 * **nlserver pdump -who** : répertorie les sessions clientes actives.
 * **nlserver monitor -missing** : répertorie les propriétés manquantes.
-* **nlserver start process@instance-name**: Démarrage d’un processus
-* **nlserver stop process@instance-name**: arrête un processus ;
-* **nlserver restart process@instance-name**: redémarre un processus.
+* **nlserver start process@instance-name** : démarre un processus.
+* **nlserver stop process@instance-name** : arrête un processus.
+* **nlserver restart process@instance-name** : redémarre un processus.
 * **nlserver shutdown** : arrête tous les processus de Campaign.
 * **nlserver watchdog -svc** : démarre le processus watchdog (UNIX uniquement).
 
@@ -278,7 +278,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 Si l&#39;avertissement concerne un conflit de ressources, il requiert l&#39;intervention de l&#39;utilisateur pour être résolu.
 
-Le fichier de **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** contient le résultat de la synchronisation. Il est disponible par défaut dans le répertoire suivant : **installationDirectory/var/`<instance-name>`/postupgrade**. Les erreurs et les avertissements sont indiqués par les attributs d&#39;erreur et d&#39;avertissement.
+Le fichier de **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** contient le résultat de la synchronisation. Il est disponible par défaut dans le répertoire suivant : **installationDirectory/var/`<instance-name>`/postupgrade**. Les erreurs et les avertissements sont indiqués par les attributs d&#39;erreur et d&#39;avertissement.
 
 ### Analyser les conflits
 

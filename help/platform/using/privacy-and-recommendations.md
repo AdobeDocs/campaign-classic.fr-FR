@@ -87,7 +87,7 @@ Les [principaux règlements](#privacy-regulations) se réfèrent de la manière 
 * Un **responsable du traitement des données** est un individu ou une partie qui collecte, utilise ou partage des données personnelles selon les instructions du contrôleur de données.
 * Un **titulaire de données** est une personne vivante dont les données à caractère personnel sont collectées, utilisées ou partagées et qui peut être identifiée, directement ou indirectement, par référence à ces données à caractère personnel.
 
-Ainsi, en tant qu’entreprise qui collecte et partage des données personnelles, vous êtes le contrôleur de données, vos clients sont les titulaires de données et Adobe Campaign agit comme un responsable du traitement des données lors du traitement des données personnelles des clients selon vos instructions. Notez qu&#39;en tant que contrôleur de données, il vous appartient de gérer les relations avec les titulaires de données, par exemple lors de la gestion des [demandes d&#39;accès à des informations personnelles](#privacy-requests).
+Ainsi, en tant qu’entreprise qui collecte et partage des données personnelles, vous êtes le contrôleur de données, vos clients sont les titulaires de données et Adobe Campaign agit comme un responsable du traitement des données lors du traitement des données personnelles des clients selon vos instructions. Notez qu’en tant que contrôleur de données, il vous appartient de gérer les relations avec les titulaires de données, par exemple lors de la gestion des [demandes d’accès à des informations personnelles](#privacy-requests). 
 
 ### Scénario d’utilisation {#use-case-scenario}
 
@@ -107,7 +107,7 @@ Voici les différentes personnes utilisées dans cet exemple :
 
 Voici le flux général de ce cas pratique :
 
-1. Le **titulaire de données** (Laura) envoie une demande RGPD au **contrôleur de données** par email, par le biais de l’assistance clientèle ou d’un portail web.
+1. La **titulaire de données** (Laura) envoie une demande RGPD au **contrôleur de données**, par le biais d’un e-mail, de l’assistance clientèle ou d’un portail web.
 
 1. Le **contrôleur de données** (Anne) transmet la demande RGPD à Campaign via l’interface ou à l’aide d’une API.
 

@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Instructions de surveillance
-description: Découvrez les conseils et les bonnes pratiques pour surveiller les instances et les processus Campaign
+description: Découvrez les instructions et les bonnes pratiques pour surveiller les instances et les processus Campaign.
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9

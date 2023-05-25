@@ -11,7 +11,7 @@ exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '3290'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -197,7 +197,7 @@ Lorsque vous activez le tracking sur une instance, les URL présentes dans les d
 
 ![](assets/s_ncs_install_deployment_wiz_08.png)
 
-Pour garantir l&#39;efficacité du tracking sur cette instance, les informations suivantes doivent être affichées :
+Pour garantir l&#39;efficacité du tracking sur cette instance, les informations suivantes doivent être affichées :
 <!--With Mid-sourcing architecture, you can externalize tracking management. To do this:-->
 
 * **[!UICONTROL URL externe]** et/ou **[!UICONTROL URL externe sécurisée]** : saisir l&#39;URL de redirection à utiliser dans les emails à envoyer.
@@ -359,7 +359,7 @@ Les ressources publiques sont accessibles à partir du noeud **Administration > 
 
 ### URL des ressources publiques {#public-resources-url}
 
-Le premier champ permet de saisir le début de l’URL des ressources lorsqu’elles sont mises en ligne. Les ressources sont alors accessibles via cette nouvelle URL.
+Le premier champ permet de saisir le début de l’URL des ressources lorsqu’elles sont chargées. Les ressources sont alors accessibles via cette nouvelle URL.
 
 Dans une diffusion, vous pouvez utiliser des images stockées dans la bibliothèque de ressources publiques ou toute autre image locale ou stockée sur un serveur.
 
@@ -373,7 +373,7 @@ Dans une diffusion, vous pouvez utiliser des images stockées dans la bibliothè
 
 Dans une diffusion, vous pouvez utiliser des images stockées dans la bibliothèque de ressources publiques ou toute autre image locale ou stockée sur un serveur.
 
-Le champ **Masques des URL** permet d’indiquer la liste des masques des URL qui seront ignorées lors de la mise en ligne automatique des images. Par exemple, si vous utilisez des images qui sont stockées sur un site accessible depuis l’extérieur, notamment sur votre site internet, vous pouvez saisir dans ce champ l’URL d’accès au site.
+Le champ **Masques des URL** permet d’indiquer la liste des masques des URL qui seront ignorées lors du chargement automatique des images. Par exemple, si vous utilisez des images qui sont stockées sur un site accessible depuis l’extérieur, notamment sur votre site internet, vous pouvez saisir dans ce champ l’URL d’accès au site.
 
 ![](assets/s_ncs_install_deployment_wiz_img_mask.png)
 
