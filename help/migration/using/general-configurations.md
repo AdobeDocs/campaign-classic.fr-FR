@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2680'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -357,7 +357,7 @@ fonction agrégat(collection)
    >
    >Les jointures sont faites automatiquement pour les fonctions d&#39;agrégat. Il n&#39;est plus nécessaire de préciser la condition WHERE O0.iOperationId=iOperationId
    >
-   >Il n’est plus possible d’utiliser la fonction &quot;count(&#42;)&quot;. Vous devez utiliser &quot;countall()&quot;.
+   >Il n&#39;est plus possible d&#39;utiliser la fonction « count(&#42;) ». Vous devez utiliser « countall() ».
 
 * Ancienne syntaxe :
 
