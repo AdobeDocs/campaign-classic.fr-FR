@@ -5,7 +5,7 @@ description: Cette section décrit lʼarchitecture des messages transactionnels 
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
 ht-degree: 100%
 
