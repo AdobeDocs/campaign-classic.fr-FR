@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-## Optimiser la personnalisation d&#39;un e-mail avec des données externes {#optimizing-email-personalization-with-external-data}
+## Optimiser la personnalisation d’un e-mail avec des données externes {#optimizing-email-personalization-with-external-data}
 
 Vous pouvez prétraiter la personnalisation des messages dans un workflow dédié. Pour ce faire, utilisez l&#39;option **[!UICONTROL Préparer les données de personnalisation avec un workflow]**, disponible dans l&#39;onglet **[!UICONTROL Analyse]** des propriétés de la diffusion.
 
