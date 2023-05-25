@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Définition du contenu d’e-mail dans Adobe Campaign Classic
-description: Découvrez comment définir le contenu d’e-mail avec Adobe Campaign 
+description: Découvrez comment définir le contenu d'e-mail avec Adobe Campaign
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2063'
 ht-degree: 100%
 
