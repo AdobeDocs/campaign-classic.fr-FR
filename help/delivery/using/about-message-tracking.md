@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Prise en main du tracking
-description: Découvrez les instructions générales relatives au tracking dans Adobe Campaign
+title: Commencer avec le tracking
+description: Découvrez les instructions générales relatives au tracking dans Adobe Campaign.
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
 ht-degree: 100%
 
