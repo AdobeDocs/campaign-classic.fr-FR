@@ -5,7 +5,7 @@ description: En savoir plus sur les paramètres de tracking web
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
 ht-degree: 100%
 
