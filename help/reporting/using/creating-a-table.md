@@ -8,7 +8,7 @@ feature: Reporting
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '2643'
 ht-degree: 100%
 
 ---
