@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Ce chapitre présente la procédure à suivre pour mettre à niveau Adobe Campa
 
 >[!NOTE]
 >
->Pour les instances de services hébergés/gérés, vous devez collaborer avec votre administrateur d’Adobe.\
+>Pour les instances de services hébergés/gérés, vous devez collaborer avec votre administrateur Adobe.\
 >Pour les instances on-premise, vous pouvez obtenir de l&#39;aide auprès des consultants Adobe.
 
 L&#39;opération de mise à niveau doit être effectuée sur l&#39;ensemble des serveurs où Adobe Campaign est installé.
