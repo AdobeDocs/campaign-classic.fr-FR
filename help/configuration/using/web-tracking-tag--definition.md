@@ -5,7 +5,7 @@ description: Définition de la balise de tracking web
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
 ht-degree: 100%
 
