@@ -8,7 +8,7 @@ feature: SMS
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '1826'
 ht-degree: 100%
 
 ---
