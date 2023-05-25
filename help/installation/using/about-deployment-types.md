@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
 ht-degree: 100%
 
