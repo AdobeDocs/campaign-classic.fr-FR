@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 
 
-Adobe Campaign permet de définir et de gérer les droits attribués aux différents opérateurs. Ces ensembles de droits et de restrictions permettent d’autoriser ou de refuser :
+Adobe Campaign permet de définir et de gérer les droits attribués aux différents opérateurs. Ces ensembles de droits et de restrictions permettent d&#39;autoriser ou de refuser :
 
 * l&#39;accès à certaines fonctionnalités (via les droits nommés),
 * l&#39;accès à certains enregistrements,
@@ -26,9 +26,9 @@ Les autorisations s&#39;appliquent à des profils d&#39;opérateurs ou à des gr
 
 Elles sont complétées par des paramètres de sécurité liés au mode de connexion de l’opérateur à Adobe Campaign. En savoir plus sur les zones de sécurité dans [cette page](../../installation/using/security-zones.md).
 
-Vous pouvez accorder deux types d’autorisations à un utilisateur :
+Vous pouvez accorder deux types d&#39;autorisations à un utilisateur :
 
-* Vous pouvez définir des groupes d&#39;opérateurs auxquels vous attribuez des droits, puis associer les opérateurs à un ou plusieurs groupes. Ce mode de fonctionnement permet de mutualiser les autorisations et d’uniformiser les profils des opérateurs. Cela facilite également la gestion et la maintenance des profils. La création et la gestion des groupes sont présentées dans [cette section](access-management-groups.md).
+* Vous pouvez définir des groupes d&#39;opérateurs auxquels vous attribuez des droits, puis associer les opérateurs à un ou plusieurs groupes. Ce mode de fonctionnement permet de mutualiser les autorisations et d&#39;uniformiser les profils des opérateurs. Cela facilite également la gestion et la maintenance des profils. La création et la gestion des groupes sont présentées dans [cette section](access-management-groups.md).
 
 * Vous pouvez directement attribuer des droits nommés aux utilisateurs, dans certains cas pour surcharger les droits attribués via les groupes. Ces droits sont présentés sur [cette page](access-management-named-rights.md).
 
