@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1088'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Lorsque le volume s&#39;accroît, une variante de cette architecture déporte le
 Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
 
 * Nom de l&#39;instance : **demo**
-* Masque DNS : **console.campaign.net&#42;** (uniquement pour les connexions console cliente et pour les rapports)
+* Masque DNS : **console.campaign.net&#42;** (uniquement pour la connexion des consoles clientes et pour les rapports)
 * Base de données : **campaign:demo@dbsrv**
 
 ### Installer et configurer (mono-machine) {#installing-and-configuring--single-machine-}
