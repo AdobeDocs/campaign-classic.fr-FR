@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Sélectionnez le modèle de diffusion à utiliser et cliquez sur **[!UICONTROL O
 
 ## Exécution du modèle {#executing-the-template}
 
-Vous pouvez lancer l’exécution d’un modèle directement depuis la liste des modèles, sans devoir créer de diffusion au préalable. Pour ce faire, sélectionnez le modèle à exécuter et cliquez avec le bouton droit de la souris. Sélectionnez **[!UICONTROL Actions > Exécuter le modèle de diffusion...]**.
+Vous pouvez lancer l&#39;exécution d&#39;un modèle directement depuis la liste des modèles, sans devoir créer de diffusion au préalable. Pour ce faire, sélectionnez le modèle à exécuter et cliquez avec le bouton droit de la souris. Sélectionnez **[!UICONTROL Actions > Exécuter le modèle de diffusion...]**.
 
 Vous pouvez aussi utiliser le menu **[!UICONTROL Fichier > Actions > Exécuter le modèle de diffusion...]**.
 
