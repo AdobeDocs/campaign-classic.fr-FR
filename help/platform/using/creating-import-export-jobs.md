@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Création de traitements d'import et d'export
-description: Découvrez comment créer des traitements d'import et d'export dans Campaign 
+description: Découvrez comment créer des traitements d'import et d'export dans Campaign.
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
