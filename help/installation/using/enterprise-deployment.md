@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Coûts du matériel et d&#39;administration plus élevés.
 Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
 
 * Nom de l&#39;instance : demo
-* Masque DNS : tracking.campaign.net&#42;, console.campaign.net&#42; (le serveur d’applications gère les URL pour les connexions et les rapports de la console cliente, ainsi que pour les pages miroir et les pages de désinscription)
+* Masque DNS : tracking.campaign.net&#42;, console.campaign.net&#42; (le serveur applicatif gère les URL pour la connexion des consoles clientes et les rapports, ainsi que les URL des pages miroir et de désinscription).
 * Langue : française
 * Base de données : campaign:demo@dbsrv
 
