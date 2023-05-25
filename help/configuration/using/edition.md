@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Modification de l’arborescence de navigation de l’Explorateur Campaign
-description: Modification de l’arborescence de navigation de l’Explorateur Campaign
+title: Modifier l'arborescence de navigation de l'Explorateur Campaign
+description: Modifier l'arborescence de navigation de l'Explorateur Campaign
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
 ht-degree: 100%
 
