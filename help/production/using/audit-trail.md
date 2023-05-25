@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Audit Trail, Monitoring
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
 ht-degree: 100%
 
