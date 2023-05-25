@@ -9,7 +9,7 @@ topic-tags: adobe-target
 exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '211'
 ht-degree: 100%
 
 ---
