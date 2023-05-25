@@ -9,7 +9,7 @@ level: Beginner
 hidefromtoc: true
 exl-id: e2eb7e04-faaa-4df0-913d-471c291eeb03
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6610'
 ht-degree: 100%
 
@@ -181,7 +181,7 @@ Sous Linux, _apache_neolane.conf_ est maintenant installé dans le répertoire `
 
 ### ![](assets/do-not-localize/limited_2.png) Version 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
 
-_15 avril 2021_
+__
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
@@ -210,7 +210,7 @@ _31 mars 2021_
 
 ### ![](assets/do-not-localize/red_2.png) Version 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
 
-_15 avril 2021_
+__
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 * Correction d&#39;une régression qui empêchait l&#39;utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. (NEO-31453, NEO-31454)
@@ -332,7 +332,7 @@ _lundi 8 juin 2020_
   <tr> 
    <td> <p>La loi thaïlandaise sur la protection des données personnelles (PDPA) est la nouvelle loi sur la protection de la vie privée destinée à harmoniser et moderniser les exigences en matière de protection des données en Thaïlande. </p>
    <p>Au Brésil, la loi générale sur la protection des données (Lei Geral de Proteção de Dados - LGPD) entrera en vigueur début 2021 pour toutes les entreprises qui collectent ou traitent des données personnelles.</p>
-   <p>Ces réglementations s'appliquent aux clients Adobe Campaign qui détiennent des données pour des personnes concernées résidant dans ces pays. Outre les fonctionnalités de confidentialité déjà disponibles dans Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous profitons de l'occasion pour inclure d'autres fonctionnalités afin de faciliter votre préparation à la réglementation PDPA et LGPD :</p>
+   <p>Ces réglementations s’appliquent aux clients Adobe Campaign qui détiennent des données pour les titulaires de données résidant dans ces pays. Outre les fonctionnalités de confidentialité déjà disponibles dans Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous profitons de l'occasion pour inclure d'autres fonctionnalités afin de faciliter votre préparation à la réglementation PDPA et LGPD :</p>
    <ul> 
      <li><p>Droit d'accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD et le CCPA. <a href="https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html">En savoir plus</a></p></li> 
      <li> <p>Lors de la création d'une demande d'accès à des informations personnelles à l'aide de l'interface Campaign ou d'une API, vous sélectionnez maintenant le type de <strong>règlement</strong> : PDPA, LGPD, RGPD, CCPA. <a href="https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html#ManagingPrivacyRequests">En savoir plus</a>.</p></li>
@@ -346,7 +346,7 @@ _lundi 8 juin 2020_
 
 * La sécurité améliorée du tracking des liens dans les emails est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l&#39;activer en contactant l&#39;Assistance clientèle. Pour plus d&#39;informations sur la fonctionnalité et la procédure d&#39;activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html). (NEO-24232)
 
-* Pour optimiser la sécurité, l&#39;algorithme de hachage MD5 utilisé pour générer des noms de fichier a été renforcé grâce aux fonctions sha256 pour l&#39;envoi de fichiers publics. (NEO-17044)
+* Pour optimiser la sécurité, l’algorithme de hachage MD5 utilisé pour générer des noms de fichier a été renforcé grâce aux fonctions sha256 pour le chargement de fichiers publics. (NEO-17044)
 
 * Pour renforcer la sécurité contre les attaques XSS, les scripts client sont désactivés lors de l&#39;exécution d&#39;une page miroir. (NEO-17987)
 
@@ -498,7 +498,7 @@ Un exemple pour Linux est disponible dans cette [page](../../configuration/using
 
 ### ![](assets/do-not-localize/limited_2.png) Version 20.1.4 - Build 9126 {#release-20-1-4-build-9126}
 
-_15 avril 2021_
+__
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
