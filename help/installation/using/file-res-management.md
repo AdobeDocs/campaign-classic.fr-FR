@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 
 
-## Limiter le format des fichiers envoyés {#limiting-uploadable-files}
+## Limiter le format des fichiers chargés {#limiting-uploadable-files}
 
 Utilisez l’attribut **uploadWhiteList** pour limiter les types de fichiers disponibles pour téléchargement sur le serveur Adobe Campaign.
 
