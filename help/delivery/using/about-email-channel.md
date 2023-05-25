@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: À propos du canal email dans Adobe Campaign Classic
-description: Cette section fournit des informations générales spécifiques au canal email dans Adobe Campaign
+title: À propos du canal e-mail dans Adobe Campaign Classic
+description: Cette section fournit des informations générales spécifiques au canal e-mail dans Adobe Campaign.
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
 ht-degree: 100%
 
