@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Ingérer des segments Adobe Experience Platform dans Campaign
-description: Découvrez comment ingérer des audiences Adobe Experience Platform dans Campaign Classic
+description: Découvrez comment ingérer des audiences Adobe Experience Platform dans Campaign Classic.
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference
 exl-id: 6db8a653-b649-402c-8814-24826edadba7
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
 ht-degree: 100%
 
