@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: Accès aux rapports des messages transactionnels
-description: Découvrez comment accéder aux rapports des messages transactionnels Adobe Campaign Classic
+title: Accéder aux rapports des messages transactionnels
+description: Découvrez comment accéder aux rapports des messages transactionnels Adobe Campaign Classic.
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: 42d43d67-7660-4d81-9280-10f030aa8f0e
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '52'
 ht-degree: 100%
 
