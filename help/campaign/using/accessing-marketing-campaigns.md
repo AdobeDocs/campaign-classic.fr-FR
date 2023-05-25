@@ -6,31 +6,31 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1217'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Accès aux campagnes marketing{#accessing-marketing-campaigns}
 
-Adobe Campaign vous permet de créer, paramétrer, exécuter et analyser des campagnes marketing. Toutes les campagnes marketing peuvent être gérées à partir d’un centre de contrôle unifié.
+Adobe Campaign vous permet de créer, configurer, exécuter et analyser les campagnes marketing. Toutes les campagnes marketing peuvent être gérées depuis un centre de contrôle unifié.
 
 ## Notions de base sur l&#39;espace de travail {#workspace-basics}
 
 ### Page d&#39;accueil        {#home-page}
 
-Une fois connecté à Adobe Campaign, parcourez les différentes fonctionnalités à l’aide de liens dans la barre de navigation.
+Dans Adobe Campaign, parcourez les différentes fonctionnalités à l&#39;aide des liens dans la barre de navigation.
 
 
 ![](assets/campaign_global_view.png)
 
 
-Les éléments de campagne se trouvent dans la variable **[!UICONTROL Campagnes]** tab : vous y trouverez un aperçu des programmes marketing, des campagnes et de leurs sous-ensembles. Un programme de marketing est constitué de campagnes, elles-mêmes formées de diffusions, de tâches, de ressources liées, etc. Dans le cadre de la gestion des campagnes marketing via Campaign, les informations relatives aux diffusions, aux budgets, aux validants et aux documents associés figurent dans les opérations.
+Les éléments d&#39;une campagne se trouvent dans l&#39;onglet **[!UICONTROL Campagnes]** : vous y trouverez une vue d&#39;ensemble des programmes et des campagnes marketing ainsi que de leurs sous-ensembles. Un programme marketing est constitué de campagnes, elles-mêmes formées de diffusions, de tâches, de ressources liées, etc. Dans le contexte de Marketing Campaign Management à l&#39;aide de Campaign, les informations concernant les diffusions, les budgets, les réviseurs et les documents liés sont disponibles dans chaque campagne.
 
 Le bloc de **[!UICONTROL Navigation]** de l&#39;onglet **[!UICONTROL Campagnes]** offre diverses entrées en fonction des modules installés sur l&#39;instance. Vous pouvez, par exemple, accéder aux éléments suivants :
 
-* **Calendrier des campagnes**: calendrier des plans, programmes marketing, diffusions et campagnes. Voir à ce sujet la section [Calendrier des campagnes](#campaign-calendar).
+* **Calendrier des campagnes** : calendrier des plans, des programmes marketing, des diffusions et des campagnes. Voir à ce sujet la section [Calendrier des campagnes](#campaign-calendar).
 * **Opérations** : accès aux campagnes contenues dans l&#39;ensemble des programmes marketing.
 * **Diffusions** : accès aux diffusions contenues dans les opérations.
 * **Applications Web** : accès aux applications web (formulaires, landing pages, etc.)
@@ -43,19 +43,19 @@ Le bloc de **[!UICONTROL Navigation]** de l&#39;onglet **[!UICONTROL Campagnes]*
 
 ### Calendrier des campagnes {#campaign-calendar}
 
-Chaque campagne appartient à un programme qui appartient à son tour à un plan. Les plans, programmes et campagnes sont accessibles à partir du **[!UICONTROL Calendrier des campagnes]** dans le menu **Campagnes** .
+Chaque campagne appartient à un programme qui appartient à son tour à un plan. Les plans, programmes et campagnes sont accessibles via le menu **[!UICONTROL Calendrier des campagnes]** dans l&#39;onglet **Campagnes**.
 
-Pour éditer un plan, un programme, une opération ou une diffusion, cliquez sur son nom dans le calendrier, puis sur le lien **[!UICONTROL Ouvrir...]**. L&#39;élément visé est alors affiché dans un nouvel onglet, comme dans l&#39;exemple ci-dessous :
+Pour éditer un plan, un programme, une campagne ou une diffusion, cliquez sur son nom dans le calendrier, puis sur le lien **[!UICONTROL Ouvrir...]**. L&#39;élément visé est alors affiché dans un nouvel onglet, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/d_ncs_user_interface_hierar.png)
 
-Vous pouvez filtrer les informations affichées dans le calendrier des campagnes : cliquez sur **[!UICONTROL Filtrer]** et sélectionnez les critères de filtrage.
+Vous pouvez filtrer les informations affichées dans le calendrier des campagnes. Pour cela, cliquez sur le lien **[!UICONTROL Filtrer]** et sélectionnez les critères de filtrage.
 
 ![](assets/campaign_planning_filter.png)
 
 >[!NOTE]
 >
->Lorsque vous filtrez sur une date, toutes les campagnes dont la date de début est postérieure à la date spécifiée et/ou dont la date de fin est antérieure à la date spécifiée sont affichées. Sélectionnez des dates à l’aide des calendriers situés à droite de chaque champ.
+>Lorsque vous filtrez sur une date, toutes les campagnes dont la date de début est postérieure à la date spécifiée et/ou dont la date de fin est antérieure à la date spécifiée sont affichées. Sélectionnez les dates à l&#39;aide des calendriers proposés à droite de chaque champ.
 
 Vous pouvez également utiliser le champ **[!UICONTROL Rechercher]** pour filtrer les éléments affichés.
 
@@ -69,7 +69,7 @@ Grâce à Campaign, vous pouvez gérer un ensemble de programmes composés de di
 
 Lorsque vous éditez un programme, utilisez les onglets présentés ci-dessous pour naviguer et le paramétrer.
 
-* Le **Planification** Cet onglet affiche le calendrier des programmes pour un mois, une semaine ou un jour selon l’onglet sur lequel vous cliquez dans l’en-tête du calendrier.
+* L&#39;onglet **Planning** affiche le calendrier du programme sur un mois, une semaine ou une journée selon l&#39;onglet sélectionné dans l&#39;en-tête du calendrier.
 
    Au besoin, vous pouvez créer une opération, un programme ou une tâche depuis cette vue.
 
@@ -116,15 +116,15 @@ Avec Adobe Campaign, vous pouvez mettre en place des processus collaboratifs po
 
 #### Planning {#schedule}
 
-Une opération centralise un ensemble de diffusions. Pour chaque opération, le planning propose une vue globale de tous les composants : vous pouvez afficher les tâches et les diffusions, et y accéder facilement.
+Une campagne centralise un ensemble de diffusions. Pour chaque campagne, le planning propose une vue globale de tous les composants : vous pouvez afficher les tâches et les diffusions, et y accéder facilement.
 
 ![](assets/campaign_planning_tab.png)
 
 #### Forum {#forum}
 
-Pour chaque opération, les intervenants peuvent échanger des messages via un forum dédié.
+Pour chaque campagne, les intervenants peuvent échanger des messages via un forum dédié.
 
-En savoir plus dans [Forums de discussion](../../mrm/using/discussion-forums.md).
+Pour en savoir plus, consultez les [forums de discussion](../../mrm/using/discussion-forums.md).
 
 #### Rapports  {#reports}
 
@@ -138,12 +138,12 @@ Le lien **[!UICONTROL Rapports]** permet d&#39;accéder aux rapports de l&#39;op
 
 #### Configuration  {#configuration}
 
-Les opérations sont créées à partir de modèles d&#39;opérations : vous pouvez paramétrer des modèles réutilisables pour lesquels certaines options sont sélectionnées et certains paramétrages seront déjà enregistrés. Pour chaque opération, les fonctionnalités suivantes sont proposées :
+Les campagnes sont créées à partir de modèles de campagne : vous pouvez paramétrer des modèles réutilisables pour lesquels certaines options sont sélectionnées et certains paramétres seront déjà enregistrés. Pour chaque campagne, les fonctionnalités suivantes sont proposées :
 
-* Référencement de [documents et ressources](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents): vous pouvez associer des documents à l&#39;opération (brief, compte-rendu, images, etc.). Tous les formats de document sont pris en charge.
-* Définition des coûts : pour chaque opération, Adobe Campaign permet de définir [postes de coûts et structures de calcul des coûts](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories) qui peut être utilisé lors de la création de la campagne marketing. Par exemple : frais d&#39;impression, utilisation d&#39;une agence externe, location de salle.
-* Définition d’objectifs : vous pouvez définir des objectifs à réaliser dans le cadre d’une opération. Ces objectifs sont quantifiables, par exemple : nombre d’abonnés à atteindre, chiffre d’affaires à réaliser, etc. Ces informations sont ensuite exploitées dans les rapports sur les opérations.
-* Gestion [adresses de contrôle](../../delivery/using/about-seed-addresses.md) et [populations témoins](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+* Référencement des [documents et ressources](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents) : vous pouvez associer des documents à la campagne (résumés, rapports, images, etc.). Tous les formats de documents sont pris en charge.
+* Définition des coûts : Adobe Campaign permet de définir, pour chaque campagne, des [postes de coûts et des structures de calcul des coûts](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories) que vous pouvez utiliser lors de la création de la campagne marketing. Par exemple : coûts d&#39;impression, intervention d&#39;une agence externe, location d&#39;une salle.
+* Définition d&#39;objectifs : vous pouvez définir des objectifs à réaliser dans le cadre d&#39;une campagne. Ces objectifs sont quantifiables, par exemple : nombre d&#39;abonnés à atteindre, chiffre d&#39;affaires à réaliser, etc. Ces informations sont ensuite exploitées dans les rapports sur les campagnes.
+* Gestion des [adresses de contrôle](../../delivery/using/about-seed-addresses.md) et des [groupes de contrôle](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)
 * Gestion des validations : vous pouvez sélectionner les traitements qui feront l&#39;objet d&#39;une validation et éventuellement sélectionner les opérateurs ou groupes d&#39;opérateurs validants. [En savoir plus](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)
 
 >[!NOTE]
