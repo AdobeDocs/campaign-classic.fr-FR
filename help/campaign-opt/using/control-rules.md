@@ -7,7 +7,7 @@ feature: Typology Rules
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '382'
 ht-degree: 100%
 
 ---
