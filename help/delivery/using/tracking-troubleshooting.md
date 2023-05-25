@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Résolution des problèmes liés au tracking
-description: Consultez les questions courantes relatives à la configuration et à l’implémentation du tracking dans Adobe Campaign  dans cette section.
+description: Consultez les questions courantes relatives à la configuration et à l'implémentation du tracking dans Adobe Campaign dans cette section.
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
 ht-degree: 100%
 
