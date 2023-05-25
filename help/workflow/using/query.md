@@ -7,7 +7,7 @@ feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '1692'
 ht-degree: 100%
 
 ---
