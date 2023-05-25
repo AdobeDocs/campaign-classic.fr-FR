@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Paramétrages additionnels
+title: Configurations supplémentaires
 description: Découvrez comment paramétrer des configurations supplémentaires pour les messages transactionnels dans Adobe Campaign Classic
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
 ht-degree: 100%
 
