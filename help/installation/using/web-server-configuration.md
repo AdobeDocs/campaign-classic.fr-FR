@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Configuration du serveur web
-description: En savoir plus sur les bonnes pratiques clés de configuration d’un serveur web
+description: En savoir plus sur les bonnes pratiques clés de configuration d'un serveur web
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
 ht-degree: 100%
 
