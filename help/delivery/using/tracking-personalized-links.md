@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Prise en main du tracking des liens personnalisés
-description: Découvrez comment écrire des liens dans des emails qui peuvent être personnalisés et prendre en charge le tracking dans Campaign
+title: Commencer avec le tracking des liens personnalisés
+description: Découvrez comment écrire des liens dans des e-mails qui peuvent être personnalisés et prendre en charge le tracking dans Campaign.
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
 ht-degree: 100%
 
