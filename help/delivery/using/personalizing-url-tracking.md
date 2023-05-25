@@ -8,7 +8,7 @@ feature: Monitoring, Email Design
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '174'
 ht-degree: 100%
 
 ---
