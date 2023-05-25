@@ -5,7 +5,7 @@ description: Découvrez comment définir dʼautres fonctions SQL
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
 ht-degree: 100%
 
