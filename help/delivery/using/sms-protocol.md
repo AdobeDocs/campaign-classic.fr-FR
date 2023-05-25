@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8460'
 ht-degree: 100%
 
@@ -412,7 +412,7 @@ Le connecteur SMPP étendu Adobe Campaign Classic peut contrôler le nombre de 
 
 Pour Adobe Campaign Classic, le nombre de connexions de récepteurs et d&#39;émetteurs peut être différent :
 
-* **</br>Connexions de l&#39;émetteur = Nombre de connexions enfant MTA * Nombre de processus enfant MTA * Nombre de MTA (si la réponse automatique est définie) + Nombre de connexions enfant MTA**
+* **Connexions de l&#39;émetteur = Nombre de connexions enfant MTA * Nombre de processus enfant MTA * Nombre de MTA </br>(si la réponse automatique est définie) + Nombre de connexions enfant MTA**
 
 Comme nous l&#39;avons suggéré plus haut, le processus SMS d&#39;Adobe Campaign Classic ouvre davantage de connexions d&#39;émetteur si la réponse automatique est activée. Ces connexions supplémentaires sont utilisées pour envoyer les réponses automatiques.
 
