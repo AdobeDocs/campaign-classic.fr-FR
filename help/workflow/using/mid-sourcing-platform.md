@@ -5,7 +5,7 @@ description: Plateforme de Mid-sourcing
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '52'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Le workflow détaillé ci-dessous est installé par défaut avec le module **Plateforme de Mid-sourcing.** Voir à ce propos [cette section](../../installation/using/mid-sourcing-deployment.md).
+Le workflow détaillé ci-dessous est installé par défaut avec le module **Plateforme de midsourcing**. Voir à ce propos [cette section](../../installation/using/mid-sourcing-deployment.md).
 
 <table> 
  <tbody> 
