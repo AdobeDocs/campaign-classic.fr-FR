@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
-source-wordcount: '609'
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+workflow-type: tm+mt
+source-wordcount: '572'
 ht-degree: 100%
 
 ---
@@ -120,10 +120,6 @@ Suivez les étapes ci-dessous pour commencer la configuration dans Adobe Experi
 1. Configurez la **réplication** entre les instances Adobe Experience Manager de création et de publication.
 
    Pour découvrir comment configurer la réplication, consultez la [documentation](https://helpx.adobe.com/fr/experience-manager/6-5/sites/deploying/using/replication.html) d&#39;Adobe Experience Manager.
-
-1. Uniquement pour AEM versions 5.6.1 et 6.0 : installez le package de fonctionnalités (**FeaturePack**) dédié à l&#39;intégration sur votre instance de création, puis répliquez l&#39;installation sur votre instance de publication.
-
-   Pour découvrir comment installer le package de fonctionnalités (FeaturePack), consultez la [documentation](https://helpx.adobe.com/fr/experience-manager/aem-previous-versions.html) d&#39;Adobe Experience Manager.
 
 1. Connectez Adobe Experience Manager à Adobe Campaign en configurant un **Cloud Service dédié**.
 

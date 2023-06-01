@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '2034'
-ht-degree: 100%
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+workflow-type: tm+mt
+source-wordcount: '1998'
+ht-degree: 98%
 
 ---
 
@@ -54,15 +54,16 @@ En revanche, les mises à niveau de version s’accompagnent souvent de changeme
 
 Par exemple, si l&#39;on reprend les informations de serveur figurant dans la capture d&#39;écran de la section précédente :
 
-* Une mise à niveau de build signifierait passer du build 6880 à n’importe quel build supérieur à 6880. Par exemple, de v6.1.1 build 8222 à v6.1.1 build 8666.
+* Une mise à niveau de build signifierait passer du build 9342 à n’importe quel build supérieur à 9342. Par exemple, de v7.1 build 9342 à v7.1 build 9342.
 
-* Une mise à niveau de version signifierait passer de la version 6.0.2 à n’importe quelle version supérieure à 6.0.2. Par exemple : de v6.0.1 build 2222 à v6.1.1 build 8666.
+* Une mise à niveau de version impliquerait de passer de la version 6 à n’importe quelle version plus récente.  Par exemple : v6.1.1 build 8666 à v7.1 build 9342.
 
 ## Dois-je sauvegarder mes données avant d&#39;effectuer ces mises à jour ?
 
 Adobe réalisera une sauvegarde de votre système avant tout changement. Toutefois, si votre système hors production (serveurs de développement ou de test) a fait l’objet de personnalisations critiques, nous vous RECOMMANDONS FORTEMENT d’exporter ces personnalisations sous la forme d’un package avant toute mise à niveau.
 
-![](assets/do-not-localize/how-to-video.png) Pour plus d‘informations, [regardez cette vidéo pratique](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+<!--
+![](assets/do-not-localize/how-to-video.png) For more information, [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
 
 ## Quand les mises à jour auront-elles lieu ?
 
@@ -97,7 +98,9 @@ L&#39;upgrade de build requiert les ressources suivantes :
 
 ## Comment me préparer à l&#39;upgrade de build ?
 
-Dans vos systèmes de développement et de test, exportez tous vos travaux qui sont critiques et qui doivent être préservés. Pour plus d&#39;informations, [regardez cette vidéo pratique](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+Dans vos systèmes de développement et de test, exportez tous vos travaux qui sont critiques et qui doivent être préservés.
+
+<!--For more information please [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
 
 Rafraîchissez vos connaissances des workflows de chemin critique et des diffusions développées dans vos runbooks (ou par votre équipe/partenaire consultant) en consultant la documentation fournie à votre équipe au terme de l&#39;implémentation.
 
@@ -105,7 +108,7 @@ Identifiez les heures de faible volume ou trafic qui seraient idéales pour les 
 
 Consultez notre [liste de contrôle d&#39;upgrade de build ci-dessous](#check-list) et vos plans de test, et vérifiez que les ressources qui peuvent réaliser ces tests sont disponibles dans les 24/48 heures suivant un upgrade.
 
-Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html).
+Pour plus d’informations, [voir cette section](../../production/using/build-upgrade.md).
 
 ## Les upgrades peuvent-ils être effectués le soir ou en dehors des heures de bureau ?
 

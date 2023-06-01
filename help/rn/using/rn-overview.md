@@ -7,9 +7,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '935'
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+workflow-type: tm+mt
+source-wordcount: '933'
 ht-degree: 100%
 
 ---
@@ -129,7 +129,7 @@ Une équipe constituée de représentants et représentantes de l’assistance c
     </a>
     </div>
     <ul>
-    <li>Les efforts que demande une mise à niveau de votre instance Campaign Classic et la complexité de celle-ci augmentent avec l’écart entre deux versions (v6 --&gt; v7).</li>
+    <li>Les efforts que demande une mise à niveau de votre instance Campaign Classic et la complexité de celle-ci augmentent avec l’écart entre deux versions.</li>
     <li>Plus votre entreprise attend, plus la mise à niveau est complexe (et plus vous êtes exposé à des vulnérabilités).</li>
     <li>Des mises à niveau régulières réduisent le temps d’arrêt nécessaire pour les effectuer et limitent le risque de régression.</li>
     </ul>

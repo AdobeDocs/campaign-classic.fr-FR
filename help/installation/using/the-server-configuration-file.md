@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '7979'
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+workflow-type: tm+mt
+source-wordcount: '7955'
 ht-degree: 100%
 
 ---
@@ -1619,12 +1619,12 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
    <td> Booléen<br /> </td> 
    <td> vrai <br /> </td> 
   </tr> 
-  <tr> 
+  <!--tr> 
    <td> statServerVersion<br /> </td> 
-   <td> Version du protocole utilisé : version du protocole de communication (1 pour un serveur 5.11 et 6.0.2, 2 pour un serveur 6.1).<br /> </td> 
-   <td> Chaîne <br /> </td> 
-   <td> Si non définie, la dernière version est utilisée. <br /> </td> 
-  </tr> 
+   <td> Protocol version used: communication protocol version (1 for a v5.11 and 6.0.2 server, 2 for a v6.1 server).<br /> </td> 
+   <td> String<br /> </td> 
+   <td> If undefined, the latest version is used. <br /> </td> 
+  </tr--> 
   <tr> 
    <td> useMomentum<br /> </td> 
    <td> Si la valeur est "true", votre instance utilise le <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">MTA amélioré</a>.<br /> </td> 
