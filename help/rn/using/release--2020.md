@@ -9,7 +9,7 @@ level: Beginner
 hidefromtoc: true
 exl-id: e2eb7e04-faaa-4df0-913d-471c291eeb03
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6610'
 ht-degree: 100%
 
@@ -181,7 +181,7 @@ Sous Linux, _apache_neolane.conf_ est maintenant installé dans le répertoire `
 
 ### ![](assets/do-not-localize/limited_2.png) Version 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
 
-_15 avril 2021_
+__
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
@@ -210,7 +210,7 @@ _31 mars 2021_
 
 ### ![](assets/do-not-localize/red_2.png) Version 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
 
-_15 avril 2021_
+__
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 * Correction d&#39;une régression qui empêchait l&#39;utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. (NEO-31453, NEO-31454)
@@ -498,7 +498,7 @@ Un exemple pour Linux est disponible dans cette [page](../../configuration/using
 
 ### ![](assets/do-not-localize/limited_2.png) Version 20.1.4 - Build 9126 {#release-20-1-4-build-9126}
 
-_15 avril 2021_
+__
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
