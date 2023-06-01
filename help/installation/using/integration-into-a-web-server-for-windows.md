@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: ht
-source-wordcount: '1001'
+source-wordcount: '910'
 ht-degree: 100%
 
 ---
@@ -171,15 +171,3 @@ Vous devez, dans ce cas, augmenter cette limite :
 >
 >Pour plus d&#39;informations sur cette option de IIS, consultez la section &quot;How To&quot; de la [documentation officielle](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits) (en anglais).
 
-### Corriger l&#39;affichage des messages d&#39;erreur http {#configuring-http-error-message-display}
-
-Si vous utilisez un serveur IIS version 6.1, il est possible que les messages d&#39;erreur générés soient difficilement lisibles en raison de la présence d&#39;un code HTML non souhaité.
-
-Pour corriger cela et afficher correctement l&#39;erreur, effectuez le paramétrage suivant :
-
-1. Ouvrez le Gestionnaire des services Internet (IIS) via le menu **[!UICONTROL Démarrer > (Panneau de configuration) > Outils d&#39;administration]**.
-1. Dans le volet **Connexions**, sélectionnez le site créé pour votre installation d&#39;Adobe Campaign, puis double-cliquez sur **Éditeur de configuration** dans le volet principal.
-1. Dans la liste déroulante **Section**, sélectionnez **system.webServer** > **httpErrors**.
-1. Sélectionnez la valeur **PassThrough** au niveau de la ligne **existingResponse**.
-
-![](assets/ins_iis_httperrors.png)
