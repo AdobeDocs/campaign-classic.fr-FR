@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
-source-wordcount: '526'
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+workflow-type: ht
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
@@ -41,8 +41,6 @@ Pour localiser la version de Tomcat intégrée dans une instance d’Adobe Camp
 
 1. Accédez au sous-dossier *\tomcat-7\lib* dans le dossier d’installation Adobe Campaign (par exemple, *C:\Program Files\ [dossier_Installation]* sous Windows ou */usr/local/neolane/nl6* sous Linux).
 
-   Si vous exécutez une ancienne version d’Adobe Campaign à l’aide de Tomcat v6, utilisez *\tomcat-6\lib*.
-
 1. Copiez le fichier *catalina.jar* dans un dossier temporaire externe (votre bureau, par exemple) et remplacez l’extension .jar par .zip.
 
 1. Décompressez le fichier copié. Vous obtiendrez de nombreux sous-dossiers et fichiers.
@@ -64,5 +62,4 @@ Une fois que vous avez pu déterminer la version exacte de Tomcat utilisée dans
 >[!NOTE]
 >
 >La version majeure de Tomcat intégrée n’est mise à niveau que lorsque la version majeure d’Adobe Campaign change (bien que les versions plus anciennes ne soient plus officiellement prises en charge, les informations peuvent s’avérer utiles car certains clients exécutent toujours ces versions).
->
->Par exemple, Adobe Campaign v6.02 utilisera toujours Tomcat v6.x.
+
