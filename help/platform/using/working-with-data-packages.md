@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: ht
 source-wordcount: '2512'
 ht-degree: 100%
@@ -166,7 +166,7 @@ Contenu de package :
 
 ```
 <?xml version='1.0'?>
-<package author="Administrator (admin)" buildNumber="7974" buildVersion="6.1" img=""
+<package author="Administrator (admin)" buildNumber="7974" buildVersion="7.1" img=""
 label="" name="" namespace="" vendor="">
  <desc></desc>
  <version buildDate="2013-01-09 10:30:18.954Z"/>
