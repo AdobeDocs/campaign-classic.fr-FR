@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Utilisation du serveur SFTP
-description: Découvrez les bonnes pratiques et la résolution des problèmes liés au serveur SFTP
+description: Découvrez les bonnes pratiques et la résolution des problèmes liés au serveur SFTP.
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1159'
 ht-degree: 100%
 
