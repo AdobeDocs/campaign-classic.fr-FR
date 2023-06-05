@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1998'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,9 +54,9 @@ En revanche, les mises à niveau de version s’accompagnent souvent de changeme
 
 Par exemple, si l&#39;on reprend les informations de serveur figurant dans la capture d&#39;écran de la section précédente :
 
-* Une mise à niveau de build signifierait passer du build 9342 à n’importe quel build supérieur à 9342. Par exemple, de v7.1 build 9342 à v7.1 build 9342.
+* Une mise à niveau de build signifierait passer de la build 9342 à n’importe quelle build supérieure à 9342. Par exemple, de v7.1 build 9342 à v7.1 build 9342.
 
-* Une mise à niveau de version impliquerait de passer de la version 6 à n’importe quelle version plus récente.  Par exemple : v6.1.1 build 8666 à v7.1 build 9342.
+* Une mise à niveau de version signifierait passer de la version 6 à n’importe quelle version plus récente.  Par exemple, de v6.1.1 build 8666 à v7.1 build 9342.
 
 ## Dois-je sauvegarder mes données avant d&#39;effectuer ces mises à jour ?
 
@@ -98,7 +98,7 @@ L&#39;upgrade de build requiert les ressources suivantes :
 
 ## Comment me préparer à l&#39;upgrade de build ?
 
-Dans vos systèmes de développement et de test, exportez tous vos travaux qui sont critiques et qui doivent être préservés.
+Dans vos systèmes de développement et d’évaluation, exportez tous les travaux critiques et qui doivent être préservés.
 
 <!--For more information please [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
 
@@ -108,7 +108,7 @@ Identifiez les heures de faible volume ou trafic qui seraient idéales pour les 
 
 Consultez notre [liste de contrôle d&#39;upgrade de build ci-dessous](#check-list) et vos plans de test, et vérifiez que les ressources qui peuvent réaliser ces tests sont disponibles dans les 24/48 heures suivant un upgrade.
 
-Pour plus d’informations, [voir cette section](../../production/using/build-upgrade.md).
+Pour plus d’informations, [consultez cette section](../../production/using/build-upgrade.md).
 
 ## Les upgrades peuvent-ils être effectués le soir ou en dehors des heures de bureau ?
 
