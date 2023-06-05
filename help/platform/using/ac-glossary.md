@@ -6,9 +6,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5974'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1013,7 +1013,7 @@ La messagerie transactionnelle est un module de Campaign conçu pour gérer les 
 En savoir plus sur la [messagerie transactionnelle](../../message-center/using/about-transactional-messaging.md).
 +++
 
-&lt;!— UTILE ICI ??—>
+&lt;!------- UTILE ICI ??----->
 +++**Campagnes déclenchées**
 
 Les campagnes déclenchées sont des campagnes exécutées lorsqu’un workflow reçoit une demande d’API. Les appels d’API sont consommés par une activité Signal dans le workflow qui lance l’exécution du workflow.
