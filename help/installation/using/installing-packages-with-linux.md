@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1186'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -73,9 +73,9 @@ yum install bc.x86_64
 
 ### Sous Debian 64 bits {#in-debian-64-bits}
 
-Pour installer Adobe Campaign 64 bits sur un système d&#39;exploitation Debian 64 bits, les étapes sont les suivantes :
+Pour installer Adobe Campaign 64 bits sur un système d’exploitation Debian 64 bits, les étapes sont les suivantes :
 
-1. Vous devez d’abord obtenir le package Adobe Campaign : **nlserver6-v7-XXXX-linux-2.6-amd64.deb** où **XXXX** est le numéro de build.
+1. Vous devez d’abord obtenir le package Adobe Campaign : **nlserver6-v7-XXXX-linux-2.6-amd64.deb**, où **XXXX** est le numéro de la build.
 
    >[!CAUTION]
    >
