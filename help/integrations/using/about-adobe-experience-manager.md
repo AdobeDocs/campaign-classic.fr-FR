@@ -8,7 +8,7 @@ audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
 ht-degree: 100%
 
@@ -32,4 +32,4 @@ Vous devez au préalable disposer des éléments suivants :
 * Une instance Adobe Experience Manager de publication (dite de **publishing**).
 * Une instance Adobe Campaign.
 
-Pour plus d&#39;informations, consultez la [documentation Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html?lang=fr).
+Pour plus d’informations, consultez la [documentation Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html?lang=fr).
