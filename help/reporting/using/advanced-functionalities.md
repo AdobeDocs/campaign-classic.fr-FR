@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
 ht-degree: 100%
 
