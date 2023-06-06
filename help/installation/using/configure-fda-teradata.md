@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '1824'
-ht-degree: 100%
+source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+workflow-type: tm+mt
+source-wordcount: '1786'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Le connecteur prend en charge les options suivantes :
 
 | Option | Description |
 |---|---|
-| TD_MAX_SESSIONS | Indique le nombre maximal de sessions de connexion que le transporteur parallèle Teradata peut acquérir pour une tâche d’opérateur. <br>Pour plus d’informations à ce sujet, consultez [cette page](https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/ds2ref/p1naft0um1kn3vn1ubgkrjdf7c3a.html). |
+| TD_MAX_SESSIONS | Indique le nombre maximal de sessions de connexion que le transporteur parallèle Teradata peut acquérir pour une tâche d’opérateur. |
 | TimeZoneName | Nom du fuseau horaire du serveur. |
 | CharacterSet | Utilisé pour configurer le jeu de caractères Teradata. <br>Pour plus d’informations à ce sujet, consultez [cette page](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001). |
 | IANAAppCodePage | Page de code de l’application ODBC. <br>Pour plus d’informations à ce sujet, consultez [cette page](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page) |
@@ -226,7 +226,7 @@ Pour installer sha2 :
 
 ### Installation de UDF_UTF16TO8  {#UDF-UTF16TO8-installation}
 
-Si vous souhaitez utiliser les fonctions udf_utf16to8 dans votre instance d’Adobe Campaign, vous devez installer la fonction de mode utilisateur sur votre base de données Teradata à partir **de la boîte à outils Teradata Unicode** de cette [page](https://downloads.teradata.com/download/tools/unicode-tool-kit) (utk_release1.7.0.0.zip).
+Si vous souhaitez utiliser les fonctions udf_utf16to8 dans votre instance Adobe Campaign, installez la fonction de mode utilisateur sur votre base de données Teradata à partir de la fonction **Kit d&#39;outils Unicode teradata**.
 
 La fonction sha1 du fichier téléchargé se présente comme suit : e58235f434f52c71316a577cb48e20b97d24f470.
 

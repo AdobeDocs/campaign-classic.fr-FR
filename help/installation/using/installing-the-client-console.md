@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: ht
-source-wordcount: '1139'
-ht-degree: 100%
+source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+workflow-type: tm+mt
+source-wordcount: '1137'
+ht-degree: 99%
 
 ---
 
@@ -40,7 +40,7 @@ Consultez les éléments détaillés ci-dessous pour connaître les processus re
 
 À partir de la version de build 7.3 de Campaign Classic, l’installation du runtime de Microsoft Edge Webview 2 est requise pour toute installation de console.
 
-Web View est installé par défaut dans le cadre du système d’exploitation Windows 11. S’il n’est pas déjà présent sur votre système, la console de Campaign Classic Installer vous invitera à le télécharger à partir du [site web de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download_fr). Notez que le lien de téléchargement ne fonctionne pas dans le navigateur Internet Explorer 11, car Microsoft ne le prend plus en charge. Assurez-vous d’utiliser un autre navigateur pour accéder au lien.
+Web View est installé par défaut dans le cadre du système d’exploitation Windows 11. S’il n’est pas déjà présent sur votre système, la console de Campaign Classic Installer vous invitera à le télécharger à partir du [site web de Microsoft Developer](https://www.adobe.com/go/acc-ms-webview2-runtime-download). Notez que le lien de téléchargement ne fonctionne pas dans le navigateur Internet Explorer 11, car Microsoft ne le prend plus en charge. Assurez-vous d’utiliser un autre navigateur pour accéder au lien.
 
 ## Implémentations hébergées par Adobe {#hosted-customers}
 
@@ -48,7 +48,7 @@ En tant que client hébergé, deux possibilités s’offrent à vous pour instal
 
 1. Adobe peut effectuer un déploiement direct. Une fois la console mise à jour, les utilisateurs sont invités à télécharger la dernière version de la console cliente dans une fenêtre pop-up.
 
-1. Vous pouvez effectuer un téléchargement sur vos consoles clientes à partir de la [distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
+1. Vous pouvez effectuer un téléchargement sur vos consoles clientes à partir de la [distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html).
 
    **Les utilisateurs devront disposer d’un accès administrateur pour effectuer la mise à jour. Si les utilisateurs ne disposent pas de droits d’administration, un administrateur système devra effectuer un déploiement sur toutes les consoles clientes**.
 
@@ -132,7 +132,7 @@ Une fois la console cliente installée, procédez comme suit pour créer la conn
 
 1. Définissez une connexion vers votre serveur applicatif Adobe Campaign à partir d&#39;une URL. Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
 
-   Par exemple, vous pouvez utiliser une URL de type [`https://<machine>.<domain>.com`](https://myserver.adobe.com).
+   Par exemple, vous pouvez utiliser une URL de type `https://<machine>.<domain>.com`.
 
 1. Si Adobe IMS est configuré pour votre organisation, cochez l’option **[!UICONTROL Se connecter avec un Adobe ID.]**
 
