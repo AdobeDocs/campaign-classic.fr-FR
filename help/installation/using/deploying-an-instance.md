@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 131f1c658f76bd9e4e62fe95cf1cec8e9cc25122
+source-git-commit: 84dc10d9f1979b7b9277fbc6837bc5ee9ab0e9dd
 workflow-type: tm+mt
-source-wordcount: '3493'
+source-wordcount: '3491'
 ht-degree: 91%
 
 ---
@@ -82,9 +82,9 @@ Indiquez les paramètres suivants :
 * **[!UICONTROL Adresse expéditeur]** : Saisissez l&#39;adresse email de l&#39;expéditeur. Lors de l’envoi d’emails à partir d’Adobe Campaign, la variable **Adresse de l’expéditeur** La boîte aux lettres n’est pas surveillée et les utilisateurs marketing ne peuvent pas accéder à cette boîte. Adobe Campaign ne permet pas non plus de répondre automatiquement ou de transférer automatiquement les emails reçus dans cette boîte aux lettres. En savoir plus sur les bonnes pratiques en matière de délivrabilité [dans cette documentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html){_blank}.
 
 * **[!UICONTROL Texte de l’adresse de réponse]** : Saisissez le nom utilisé lorsque le destinataire clique sur le bouton **[!UICONTROL Répondre]** bouton .
-* **[!UICONTROL Adresse de réponse]** : Saisissez l&#39;adresse email à utiliser lorsque le destinataire clique sur le bouton **[!UICONTROL Répondre]** dans leur logiciel client de messagerie. L’objet de la variable **Adresse de réponse** est le cas où vous souhaitez que le destinataire réponde à une adresse différente de celle du **Adresse de l’expéditeur**.  Cette adresse doit être une adresse email valide, associée à une boîte aux lettres surveillée et hébergée par le client.  Il peut s’agir d’une boîte aux lettres d’assistance, par exemple customer-care@customer.com, dans laquelle les courriers électroniques sont lus et reçoivent une réponse.
+* **[!UICONTROL Adresse de réponse]** : Saisissez l&#39;adresse email à utiliser lorsque le destinataire clique sur le bouton **[!UICONTROL Répondre]** dans leur logiciel client de messagerie. L’objet de la variable **Adresse de réponse** est le cas où vous souhaitez que le destinataire réponde à une adresse différente de celle du **Adresse de l’expéditeur**.  Cette adresse doit être une adresse email valide, associée à une boîte aux lettres surveillée et hébergée par le client.  Il peut s’agir d’une boîte aux lettres d’assistance, par exemple : `customer-care@customer.com`, où les courriers électroniques sont lus et reçoivent une réponse.
 
-* **[!UICONTROL Adresse d’erreur]** : Saisissez l&#39;adresse email des messages en erreur. Il s’agit de l’adresse technique utilisée pour gérer les mails rebonds, y compris les emails reçus par le serveur Adobe Campaign en raison d’adresses cibles inexistantes. Cette adresse doit être une adresse email valide, associée à une boîte aux lettres surveillée et hébergée par le client. Il peut s’agir d’une boîte de mails rebonds, par exemple errors@customer.com.
+* **[!UICONTROL Adresse d’erreur]** : Saisissez l&#39;adresse email des messages en erreur. Il s’agit de l’adresse technique utilisée pour gérer les mails rebonds, y compris les emails reçus par le serveur Adobe Campaign en raison d’adresses cibles inexistantes. Cette adresse doit être une adresse email valide, associée à une boîte aux lettres surveillée et hébergée par le client. Il peut s’agir d’une boîte de mails rebonds, par exemple : `errors@customer.com`.
 
 
 En complément, vous pouvez indiquer les **masques** autorisés pour l&#39;adresse expéditeur et l&#39;adresse d&#39;erreur. Au besoin, ces masques doivent être séparés les uns des autres par une virgule. Ce paramétrage est facultatif. Lorsque ces champs sont renseignés, Adobe Campaign contrôle, au moment de l&#39;envoi (ou au moment de l&#39;analyse, lorsque l&#39;adresse ne contient pas d&#39;éléments variables), que les adresses renseignées dans la diffusion sont valables. Ce fonctionnement permet d&#39;éviter l&#39;utilisation d&#39;adresses qui pourraient poser des problème de délivrabilité. Les adresses d&#39;expédition doivent être configurées sur le serveur d&#39;envoi.
