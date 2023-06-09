@@ -8,16 +8,14 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
-source-wordcount: '3290'
-ht-degree: 100%
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+workflow-type: tm+mt
+source-wordcount: '3483'
+ht-degree: 91%
 
 ---
 
 # Déploiement d’une instance{#deploying-an-instance}
-
-
 
 >[!NOTE]
 >
@@ -25,7 +23,7 @@ ht-degree: 100%
 
 ## L’assistant de déploiement {#deployment-wizard}
 
-Un assistant graphique accessible à partir de la console cliente Adobe Campaign permet de renseigner les paramètres de l’instance sur laquelle vous allez vous connecter.
+Adobe Campaign fournit un assistant graphique, disponible dans la console cliente Adobe Campaign, pour définir les paramètres de l&#39;instance à laquelle vous allez vous connecter.
 
 Pour démarrer l’assistant de déploiement, sélectionnez **Outils > Avancé > Assistant de déploiement**.
 
@@ -80,13 +78,36 @@ Ces paramètres peuvent être surchargés dans les modèles de diffusion et, uni
 
 Indiquez les paramètres suivants :
 
-* **[!UICONTROL Nom expéditeur]** : le nom de l’expéditeur
-* **[!UICONTROL Adresse expéditeur]** : l’adresse email de l’expéditeur
-* **[!UICONTROL Nom de l’adresse de réponse]** : le nom, personnalisable, qui est utilisé lorsque le ou la destinataire clique sur le bouton **[!UICONTROL Répondre]** de son logiciel de messagerie
-* **[!UICONTROL Adresse de réponse]** : l’adresse e-mail à utiliser lorsque le ou la destinataire clique sur le bouton **[!UICONTROL Répondre]** de son logiciel de messagerie
-* **[!UICONTROL Adresse d&#39;erreur]** : l&#39;adresse email des messages en erreur. Il s&#39;agit d&#39;une adresse technique utilisée pour gérer les rebonds, notamment les emails reçus par le serveur Adobe Campaign si les adresses ciblés n&#39;existent pas.
+* **[!UICONTROL Nom de l&#39;expéditeur]** : Saisissez le nom de l&#39;expéditeur.
+* **[!UICONTROL Adresse expéditeur]** : Saisissez l&#39;adresse email de l&#39;expéditeur.
 
-En complément, vous pouvez indiquer les **masques** autorisés pour l’adresse expéditeur et l’adresse d’erreur. Au besoin, ces masques doivent être séparés les uns des autres par une virgule. Ce paramétrage est facultatif. Lorsque ces champs sont renseignés, Adobe Campaign contrôle, au moment de l’envoi (ou au moment de l’analyse, lorsque l’adresse ne contient pas d’éléments variables), que les adresses renseignées dans la diffusion sont valables. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problème de délivrabilité. Les adresses d’expédition doivent être configurées sur le serveur d’envoi.
+  >[!NOTE]
+  >
+  > Lors de l’envoi d’emails à partir d’Adobe Campaign, la variable **Adresse de l’expéditeur** La boîte aux lettres n’est pas surveillée et les utilisateurs marketing ne peuvent pas accéder à cette boîte. Adobe Campaign ne permet pas non plus de répondre automatiquement ou de transférer automatiquement les emails reçus dans cette boîte aux lettres.
+
+* **[!UICONTROL Texte de l’adresse de réponse]** : Saisissez le nom utilisé lorsque le destinataire clique sur le bouton **[!UICONTROL Répondre]** bouton .
+* **[!UICONTROL Adresse de réponse]** : Saisissez l&#39;adresse email à utiliser lorsque le destinataire clique sur le bouton **[!UICONTROL Répondre]** dans leur logiciel client de messagerie.
+
+  >[!NOTE]
+  >
+  >L’objet de la variable **Adresse de réponse** est le cas où vous souhaitez que le destinataire réponde à une adresse différente de celle du **Adresse de l’expéditeur**.  Cette adresse doit être une adresse email valide et associée à une boîte email surveillée.  Cette boîte aux lettres doit être hébergée par le client.  Il peut s’agir d’une boîte aux lettres d’assistance, par exemple customer-care@customer.com, dans laquelle les courriers électroniques sont lus et reçoivent une réponse.
+
+* **[!UICONTROL Adresse d’erreur]** : Saisissez l&#39;adresse email des messages en erreur. Il s’agit de l’adresse technique utilisée pour gérer les mails rebonds, y compris les emails reçus par le serveur Adobe Campaign en raison d’adresses cibles inexistantes.
+
+  >[!NOTE]
+  >
+  > Cette adresse doit être une adresse email valide et associée à une boîte email surveillée. Cette boîte aux lettres doit être hébergée par le client. Il peut s’agir d’une boîte de mails rebonds, par exemple errors@customer.com.
+
+
+En complément, vous pouvez indiquer les **masques** autorisés pour l&#39;adresse expéditeur et l&#39;adresse d&#39;erreur. Au besoin, ces masques doivent être séparés les uns des autres par une virgule. Ce paramétrage est facultatif. Lorsque ces champs sont renseignés, Adobe Campaign contrôle, au moment de l&#39;envoi (ou au moment de l&#39;analyse, lorsque l&#39;adresse ne contient pas d&#39;éléments variables), que les adresses renseignées dans la diffusion sont valables. Ce fonctionnement permet d&#39;éviter l&#39;utilisation d&#39;adresses qui pourraient poser des problème de délivrabilité. Les adresses d&#39;expédition doivent être configurées sur le serveur d&#39;envoi.
+
+>[!NOTE]
+>
+>* Ces paramètres sont enregistrés dans les options de la plateforme Campaign. [En savoir plus](../../installation/using/configuring-campaign-options.md).
+> 
+>* Pour les configurations multi-branding, vous pouvez adapter l’adresse d’erreur et remplacer cette configuration à partir du compte externe Routage e-mail . [En savoir plus](../../installation/using/external-accounts.md#email-routing-external-account).
+>
+
 
 ### Caractères autorisés dans les adresses {#characters-authorized-in-addresses}
 
@@ -183,15 +204,15 @@ Lorsque vous activez le tracking sur une instance, les URL présentes dans les d
 
 * Les informations concernant les URL externes (sécurisées ou non) saisies dans cette étape de l&#39;assistant de déploiement sont utilisées pour construire la nouvelle URL. En plus de ces informations, le lien ainsi transformé contient : l&#39;identifiant de la diffusion, l&#39;identifiant du destinataire et l&#39;identifiant de l&#39;URL.
 
-   Les informations de tracking sont collectées par Adobe Campaign sur le ou les serveurs de tracking afin d&#39;alimenter le profil des destinataires ainsi que les données liées à la diffusion (onglets **[!UICONTROL Tracking]**).
+  Les informations de tracking sont collectées par Adobe Campaign sur le ou les serveurs de tracking afin d&#39;alimenter le profil des destinataires ainsi que les données liées à la diffusion (onglets **[!UICONTROL Tracking]**).
 
-   Les informations concernant les URL internes ne sont utilisées que par le serveur applicatif Adobe Campaign afin de contacter le ou les serveurs de tracking.
+  Les informations concernant les URL internes ne sont utilisées que par le serveur applicatif Adobe Campaign afin de contacter le ou les serveurs de tracking.
 
-   Voir à ce sujet la section [Serveur de tracking](#tracking-server).
+  Voir à ce sujet la section [Serveur de tracking](#tracking-server).
 
 * Une fois les URL configurées, il est nécessaire d’activer le tracking. Pour cela, l’instance doit être enregistrée auprès du ou des serveurs de tracking.
 
-   Pour plus d’informations, consultez [Enregistrement du tracking](#saving-tracking).
+  Pour plus d’informations, consultez [Enregistrement du tracking](#saving-tracking).
 
 ### Serveur de tracking {#tracking-server}
 
@@ -203,7 +224,7 @@ Pour garantir l&#39;efficacité du tracking sur cette instance, les informations
 * **[!UICONTROL URL externe]** et/ou **[!UICONTROL URL externe sécurisée]** : saisir l&#39;URL de redirection à utiliser dans les emails à envoyer.
 * **[!UICONTROL URL interne(s)]** : URL utilisée(s) uniquement par le serveur Adobe Campaign afin de contacter le(s) serveur(s) de tracking pour la collecte des logs et le téléchargement des URL. Il n&#39;est pas nécessaire de l&#39;associer à l&#39;instance.
 
-   Si vous ne renseignez pas d’URL, par défaut l’URL de tracking sera utilisée.
+  Si vous ne renseignez pas d’URL, par défaut l’URL de tracking sera utilisée.
 
 Dans le cadre d&#39;une architecture en Mid-Sourcing, vous pouvez externaliser la gestion du tracking. Pour cela :
 
@@ -337,6 +358,13 @@ Renseignez dans cette page les URL des serveurs pour :
 
 Adobe Campaign offre la possibilité de différencier ces trois URL afin de mieux répartir la charge sur plusieurs plateformes.
 
+
+>[!NOTE]
+>
+>* Ces paramètres sont enregistrés dans les options de la plateforme Campaign. [En savoir plus](../../installation/using/configuring-campaign-options.md).
+>* Pour les configurations multi-marques, vous pouvez adapter l&#39;URL de la page miroir et remplacer cette configuration à partir du compte externe Routage email . [En savoir plus](../../installation/using/configuring-campaign-options.md).
+
+
 ## Gestion des ressources publiques {#managing-public-resources}
 
 >[!IMPORTANT]
@@ -365,7 +393,7 @@ Dans une diffusion, vous pouvez utiliser des images stockées dans la bibliothè
 
 * Pour les images des e-mails, l’URL **https://** serveur **/res/img**.
 
-   Cette valeur peut être surchargée au niveau de chaque diffusion.
+  Cette valeur peut être surchargée au niveau de chaque diffusion.
 
 * Pour les ressources publiques, l’URL **https://** serveur **/res/** instance ****où&#x200B;**instance**est le nom de l’instance de tracking.
 
@@ -390,38 +418,38 @@ Les modes de publication suivants sont disponibles :
 
 * Serveur(s) de tracking
 
-   Les ressources seront automatiquement copiées vers les différents serveurs de tracking. Ils sont configurés à l’étape [Paramétrage du tracking](#tracking-configuration).
+  Les ressources seront automatiquement copiées vers les différents serveurs de tracking. Ils sont configurés à l’étape [Paramétrage du tracking](#tracking-configuration).
 
 * Autre(s) serveur(s) Adobe Campaign
 
-   Vous pouvez utiliser un ou plusieurs autres serveurs Adobe Campaign où seront copiées les ressources.
+  Vous pouvez utiliser un ou plusieurs autres serveurs Adobe Campaign où seront copiées les ressources.
 
-   Côté serveur, pour utiliser un serveur Adobe Campaign dédié, vous devez créer une nouvelle instance avec la commande suivante :
+  Côté serveur, pour utiliser un serveur Adobe Campaign dédié, vous devez créer une nouvelle instance avec la commande suivante :
 
-   ```
-   nlserver config -addtrackinginstance:<trackingA>/<trackingA*>
-   ```
+  ```
+  nlserver config -addtrackinginstance:<trackingA>/<trackingA*>
+  ```
 
-   Puis saisissez le mot de passe.
+  Puis saisissez le mot de passe.
 
-   Les paramètres du ou des serveurs dédiés sont indiqués dans les champs **[!UICONTROL URL médias]**, **[!UICONTROL Nom de l’instance]** et **[!UICONTROL Mot de passe]**.
+  Les paramètres du ou des serveurs dédiés sont indiqués dans les champs **[!UICONTROL URL médias]**, **[!UICONTROL Nom de l’instance]** et **[!UICONTROL Mot de passe]**.
 
-   ![](assets/s_ncs_install_images_upload_b.png)
+  ![](assets/s_ncs_install_images_upload_b.png)
 
 * Script de publication manuelle (seulement pour les ressources publiques)
 
-   ![](assets/s_ncs_install_images_upload_c.png)
+  ![](assets/s_ncs_install_images_upload_c.png)
 
-   Vous pouvez publier les ressources via un script :
+  Vous pouvez publier les ressources via un script :
 
    * Vous devez créer ce script : son contenu dépend de votre configuration.
    * Le script sera appelé via la commande suivante :
 
-      ```
-      [INSTALL]/copyToFrontal.vbs "$(XTK_INSTALL_DIR)\var\<instance>\upload\" "img1,img2,img3"
-      ```
+     ```
+     [INSTALL]/copyToFrontal.vbs "$(XTK_INSTALL_DIR)\var\<instance>\upload\" "img1,img2,img3"
+     ```
 
-      où `[INSTALL]` est le chemin d’accès au dossier d’installation d’Adobe Campaign.
+     où `[INSTALL]` est le chemin d’accès au dossier d’installation d’Adobe Campaign.
 
    * Sous Unix, assurez-vous que ce script soit exécutable.
 

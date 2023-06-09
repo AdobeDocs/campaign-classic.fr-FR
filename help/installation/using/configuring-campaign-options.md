@@ -7,16 +7,14 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '3994'
-ht-degree: 100%
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+workflow-type: tm+mt
+source-wordcount: '3996'
+ht-degree: 98%
 
 ---
 
 # Liste des options de Campaign Classic{#configuring-campaign-options}
-
-
 
 Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de paramétrer les options d&#39;Adobe Campaign. Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campaign et d&#39;autres peuvent être ajoutées manuellement en cas de besoin. Les options disponibles varient en fonction des packages installés avec votre instance.
 
@@ -26,7 +24,6 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
 >* Les options non répertoriées dans cette page sont exclusivement internes et **ne doivent pas être modifiées**.
 >
 >* La modification ou la mise à jour des options d’Adobe Campaign ne peut être effectuée que par des utilisateurs experts.
-
 
 ## Diffusion {#delivery}
 
@@ -147,11 +144,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultReplyToAddr</span> <br /> </td> 
-   <td> Adresse email 'répondre' par défaut au niveau de l'instance utilisée pour la diffusion de l'email si l'utilisateur l'a laissée vide.<br /> </td> 
+   <td> Adresse email 'répondre à' par défaut au niveau de l'instance utilisée pour la diffusion de l'email si l'utilisateur l'a laissée vide.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> Nom usuel du client. Utilisé dans certains messages d’avertissement affichés aux destinataires.<br />« Vous recevez ce message, car vous avez été en contact avec ***** ou une entreprise affiliée. Pour ne plus recevoir de messages de *****. »<br /> </td> 
+   <td> Nom usuel du client. Utilisé dans certains messages d’avertissement affichés aux destinataires.<br /> "Vous recevez ce message car vous avez été en contact avec `Organisation` ou une société affiliée. Pour ne plus recevoir de messages de "l’organisation"<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
@@ -298,11 +295,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_DefaultIgnoredImage</span> <br /> </td> 
-   <td> Liste des masques d'URL pour les images ignorées lors de la mise en ligne.<br /> </td> 
+   <td> Liste des masques d’URL pour les images ignorées lors du chargement.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImagePublishing</span> </td> 
-   <td> Paramétrage de la mise en ligne des images. Les valeurs peuvent être aucun/tracking/script/liste (elles peuvent être remplacées par les paramètres facultatifs de l’opérateur). </td> 
+   <td> Paramétrage du chargement des images. Les valeurs peuvent être aucun/tracking/script/liste (elles peuvent être remplacées par les paramètres facultatifs de l’opérateur). </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImageSubDirectory</span> <br /> </td> 
@@ -322,15 +319,15 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MediaInstance</span> <br /> </td> 
-   <td> Permet de paramétrer le nom de l'instance pour la mise en ligne des images.<br /> </td> 
+   <td> Permet de paramétrer le nom de l’instance pour le chargement des images.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MediaPassword</span> <br /> </td> 
-   <td> Permet de paramétrer le mot de passe pour la mise en ligne des images.<br /> </td> 
+   <td> Permet de paramétrer le mot de passe pour le chargement des images.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MediaServers</span> <br /> </td> 
-   <td> Permet de paramétrer la ou les URL médias pour la mise en ligne des images.<br /> </td> 
+   <td> Permet de paramétrer la ou les URL médias pour le chargement des images.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MsgWebValidityDuration</span> <br /> </td> 

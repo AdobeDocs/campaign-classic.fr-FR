@@ -7,16 +7,14 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 100%
 
 ---
 
 # Paramètres de sécurité du serveur {#server-configuration}
-
-
 
 ## Protection des téléchargements de fichiers
 
@@ -76,9 +74,9 @@ Vous pouvez ajouter des en-têtes HTTP supplémentaires à toutes les pages (pou
 * Vous pouvez ajouter d’autres en-têtes tels que HSTS, X-FRAME-OPTIONS, CSP et bien d’autres.
 * Vous devez les tester dans un environnement de test avant de les appliquer en production.
 
-   >[!IMPORTANT]
-   >
-   >L’ajout de certains en-têtes peut entraîner un dysfonctionnement d’Adobe Campaign.
+  >[!IMPORTANT]
+  >
+  >L’ajout de certains en-têtes peut entraîner un dysfonctionnement d’Adobe Campaign.
 
 Adobe Campaign vous permet de définir un mot de passe en clair dans l’élément `<dbcnx .../>`. N’utilisez pas cette fonctionnalité.
 

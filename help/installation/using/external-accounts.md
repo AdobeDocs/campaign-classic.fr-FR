@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '1904'
-ht-degree: 100%
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 92%
 
 ---
 
@@ -59,27 +59,27 @@ Pour configurer le compte externe **[!UICONTROL Mails rebonds (defaultPopAccount
 
 * **[!UICONTROL Serveur]**
 
-   URL du serveur POP3.
+  URL du serveur POP3.
 
 * **[!UICONTROL Port]**
 
-   Numéro de port de la connexion POP3. Le port par défaut est 110.
+  Numéro de port de la connexion POP3. Le port par défaut est 110.
 
 * **[!UICONTROL Compte]**
 
-   Nom de l&#39;utilisateur.
+  Nom de l&#39;utilisateur.
 
 * **[!UICONTROL Mot de passe]**
 
-   Mot de passe du compte de l&#39;utilisateur.
+  Mot de passe du compte de l&#39;utilisateur.
 
 * **[!UICONTROL Chiffrement]**
 
-   Type de chiffrement choisi entre **[!UICONTROL Par défaut]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** ou **[!UICONTROL POP3S]**.
+  Type de chiffrement choisi entre **[!UICONTROL Par défaut]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** ou **[!UICONTROL POP3S]**.
 
 * **[!UICONTROL Fonction]**
 
-   E-mail entrant ou routeur SOAP
+  E-mail entrant ou routeur SOAP
 
 >[!IMPORTANT]
 >
@@ -89,19 +89,19 @@ Pour configurer un environnement externe POP3 à l’aide de **Microsoft OAuth 
 
 * **[!UICONTROL Client Azure]**
 
-   L’ID Azure (ou l’ID de répertoire (client)) se trouve dans le menu déroulant **Essentiels** de la présentation de votre application dans le portail Azure.
+  L’ID Azure (ou l’ID de répertoire (client)) se trouve dans le menu déroulant **Essentiels** de la présentation de votre application dans le portail Azure.
 
 * **[!UICONTROL Identifiant de client Azure]**
 
-   L’ID client (ou l’ID d’application (client)) se trouve dans le menu déroulant **Essentiels** de la présentation de votre application dans le portail Azure.
+  L’ID client (ou l’ID d’application (client)) se trouve dans le menu déroulant **Essentiels** de la présentation de votre application dans le portail Azure.
 
 * **[!UICONTROL Secret client Azure]**
 
-   L’ID de secret client se trouve dans la variable **Secrets client** du menu **Certificats et secrets** de votre application dans le portail Azure.
+  L’ID de secret client se trouve dans la variable **Secrets client** du menu **Certificats et secrets** de votre application dans le portail Azure.
 
 * **[!UICONTROL URL de redirection Azure]**
 
-   L’URL de redirection se trouve dans le menu **Authentification** de votre application dans le portail Azure. Elle doit se terminer par la syntaxe suivante : `nl/jsp/oauth.jsp`, par exemple `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
+  L’URL de redirection se trouve dans le menu **Authentification** de votre application dans le portail Azure. Elle doit se terminer par la syntaxe suivante : `nl/jsp/oauth.jsp`, par exemple `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
 Après avoir saisi les différentes informations d’identification, vous pouvez cliquer sur **[!UICONTROL Configurer la connexion]** pour terminer la configuration de votre compte externe.
 
@@ -113,7 +113,7 @@ Le compte externe **[!UICONTROL Routage]** vous permet de configurer chaque cana
 
 Les canaux suivants peuvent être configurés :
 
-* [Email](../../installation/using/deploying-an-instance.md#email-channel-parameters)
+* [Email](#email-routing-external-account)
 * [Mobile (SMS)](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)
 * [Phone](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Canal Courrier](../../delivery/using/about-direct-mail-channel.md)
@@ -122,23 +122,37 @@ Les canaux suivants peuvent être configurés :
 * [Canal iOS](../../delivery/using/configuring-the-mobile-application.md)
 * [Canal Android](../../delivery/using/configuring-the-mobile-application-android.md)
 
+### Routage par e-mail {#email-routing-external-account}
+
+Le compte externe de routage des emails est fourni par défaut, adapté à votre configuration.
+
+En tant que client on-premise, vous pouvez créer de nouveaux comptes externes de routage ou mettre à jour des paramètres, comme décrit ci-dessous. Cette configuration est réservée à des utilisateurs experts et peut avoir un impact sur votre délivrabilité. Pour toute question, contactez l’assistance clientèle Adobe ou votre représentant Adobe.
+
+* Vous devez utiliser un **Mid-sourcing**, **Externe** routage ou **Bulk** type de routage de diffusion.
+
+* Pour **Bulk** et **Mid-sourcing** les modes de diffusion, vous pouvez définir vos paramètres de marque dans le **Marques** . Ces paramètres servent à remplacer la variable [paramètres par défaut](../../installation/using/deploying-an-instance.md#email-channel-parameters) pour **URL de la page miroir** et **Adresse d’erreur** avec des paramètres spécifiques à votre marque.
+
+  ![](assets/ext-account-branding.png)
+
+* Pour configurer un compte externe Mid-sourcing, reportez-vous à la section [cette section](mid-sourcing-server.md)
+
 ### Instance d&#39;exécution  {#execution-instance-external-account}
 
-Si vous possédez une architecture répartie, vous devez spécifier les instances d&#39;exécution liées à l&#39;instance de contrôle et les connecter. Les modèles de messages transactionnels sont déployés sur l&#39;instance d&#39;exécution.
+Si vous disposez d&#39;une architecture répartie, vous devez spécifier les instances d&#39;exécution liées à l&#39;instance de pilotage et les connecter. Les modèles de messages transactionnels sont déployés sur l’instance d’exécution.
 
 ![](assets/ext_account_13.png)
 
 * **[!UICONTROL URL]**
 
-   URL du serveur sur lequel est installée l&#39;instance d&#39;exécution.
+  URL du serveur sur lequel est installée l&#39;instance d&#39;exécution.
 
 * **[!UICONTROL Compte]**
 
-   Nom du compte qui doit correspondre à l&#39;Agent Message Center tel qu&#39;il a été défini dans le dossier de l&#39;opérateur.
+  Nom du compte qui doit correspondre à l&#39;Agent Message Center tel qu&#39;il a été défini dans le dossier de l&#39;opérateur.
 
 * **[!UICONTROL Mot de passe]**
 
-   Mot de passe du compte tel qu&#39;il a été défini dans le dossier de l&#39;opérateur.
+  Mot de passe du compte tel qu&#39;il a été défini dans le dossier de l&#39;opérateur.
 
 Pour plus d&#39;informations sur cette configuration, consultez [cette page](../../message-center/using/configuring-instances.md#control-instance).
 
@@ -154,23 +168,23 @@ Pour ce faire, spécifiez dans ce compte externe l&#39;adresse et les informatio
 
 * **[!UICONTROL Serveur]**
 
-   Nom du serveur FTP.
+  Nom du serveur FTP.
 
 * **[!UICONTROL Port]**
 
-   Numéro de port de connexion FTP. Le port par défaut est 21.
+  Numéro de port de connexion FTP. Le port par défaut est 21.
 
 * **[!UICONTROL Compte]**
 
-   Nom de l&#39;utilisateur.
+  Nom de l&#39;utilisateur.
 
 * **[!UICONTROL Mot de passe]**
 
-   Mot de passe du compte de l&#39;utilisateur.
+  Mot de passe du compte de l&#39;utilisateur.
 
 * **[!UICONTROL Chiffrement]**
 
-   Type de chiffrement choisi entre **[!UICONTROL Aucun]** et **[!UICONTROL SSL]**.
+  Type de chiffrement choisi entre **[!UICONTROL Aucun]** et **[!UICONTROL SSL]**.
 
 Pour savoir où trouver ces informations de connexion, consultez [cette page](https://help.dreamhost.com/hc/en-us/articles/115000675027-FTP-overview-and-credentials).
 
@@ -182,19 +196,19 @@ Le compte externe SFTP vous permet de configurer et de tester l’accès à un 
 
 * **[!UICONTROL Serveur]**
 
-   URL du serveur SFTP.
+  URL du serveur SFTP.
 
 * **[!UICONTROL Port]**
 
-   Numéro de port de connexion FTP. Le port par défaut est 22.
+  Numéro de port de connexion FTP. Le port par défaut est 22.
 
 * **[!UICONTROL Compte]**
 
-   Nom du compte utilisé pour se connecter au serveur SFTP.
+  Nom du compte utilisé pour se connecter au serveur SFTP.
 
 * **[!UICONTROL Mot de passe]**
 
-   Mot de passe utilisé pour se connecter au serveur SFTP.
+  Mot de passe utilisé pour se connecter au serveur SFTP.
 
 Pour ajouter des clés SSH sous Windows :
 
@@ -237,39 +251,39 @@ Pour vous connecter à la console Adobe Campaign à l’aide d’un Adobe ID, 
 
 * **[!UICONTROL Serveurs IMS]**
 
-   URL de votre serveur IMS. Assurez-vous que les instances de test et de production pointent sur le même point de terminaison de production IMS.
+  URL de votre serveur IMS. Assurez-vous que les instances de test et de production pointent sur le même point de terminaison de production IMS.
 
 * **[!UICONTROL Scope IMS]**
 
-   Les périmètres définis ici doivent être un sous-ensemble de ceux provisionnés par IMS.
+  Les périmètres définis ici doivent être un sous-ensemble de ceux provisionnés par IMS.
 
 * **[!UICONTROL Identifiant du client IMS]**
 
-   ID de votre client IMS.
+  ID de votre client IMS.
 
 * **[!UICONTROL Secret client IMS]**
 
-   Informations de connexion de votre secret client IMS..
+  Informations de connexion de votre secret client IMS..
 
 * **[!UICONTROL Serveur de rappel]**
 
-   URL d&#39;accès à votre instance Adobe Campaign..
+  URL d&#39;accès à votre instance Adobe Campaign..
 
 * **[!UICONTROL Identifiant de l&#39;organisation IMS]**
 
-   Identifiant de votre organisation. Pour trouver l’identifiant de votre organisation, reportez-vous [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
+  Identifiant de votre organisation. Pour trouver l’identifiant de votre organisation, reportez-vous [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
 
 * **[!UICONTROL Masque de correspondance]**
 
-   Syntaxe qui permettra la synchronisation des noms de configuration dans Enterprise Dashboard avec les groupes dans Adobe Campaign.
+  Syntaxe qui permettra la synchronisation des noms de configuration dans Enterprise Dashboard avec les groupes dans Adobe Campaign.
 
 * **[!UICONTROL Serveur]**
 
-   URL de votre instance Adobe Experience Cloud.
+  URL de votre instance Adobe Experience Cloud.
 
 * **[!UICONTROL Tenant]**
 
-   Nom de votre tenant Adobe Experience Cloud.
+  Nom de votre tenant Adobe Experience Cloud.
 
 Pour plus d&#39;informations sur cette configuration, consultez [cette page](../../integrations/using/configuring-ims.md).
 
@@ -289,15 +303,15 @@ Le compte externe **[!UICONTROL AEM (instance AEM)]** vous permet de gérer le c
 
 * **[!UICONTROL Serveur]**
 
-   URL du serveur Adobe Experience Manager.
+  URL du serveur Adobe Experience Manager.
 
 * **[!UICONTROL Port]**
 
-   Nom du compte utilisé pour se connecter à l&#39;instance de création Adobe Experience Manager.
+  Nom du compte utilisé pour se connecter à l&#39;instance de création Adobe Experience Manager.
 
 * **[!UICONTROL Mot de passe]**
 
-   Mot de passe utilisé pour se connecter à l&#39;instance de création Adobe Experience Manager.
+  Mot de passe utilisé pour se connecter à l&#39;instance de création Adobe Experience Manager.
 
 Voir à ce propos cette [section](../../integrations/using/about-adobe-experience-manager.md).
 
@@ -319,21 +333,21 @@ Avec le type de déploiement **[!UICONTROL Web API]** et l&#39;authentification 
 
 * **[!UICONTROL Compte]**
 
-   Compte utilisé pour se connecter à Microsoft CRM.
+  Compte utilisé pour se connecter à Microsoft CRM.
 
 * **[!UICONTROL Serveur]**
 
-   URL de votre serveur Microsoft CRM.
+  URL de votre serveur Microsoft CRM.
 
-   Pour trouver votre **[!UICONTROL URL de serveur]** Microsoft CRM, accédez à votre compte Microsoft Dynamics CRM, puis cliquez sur **Dynamics 365** et sélectionnez votre application. Vous pouvez ensuite trouver votre **[!UICONTROL URL de serveur]** dans la barre d’adresse de votre navigateur, par exemple : `https://myserver.crm.dynamics.com/`.
+  Pour trouver votre **[!UICONTROL URL de serveur]** Microsoft CRM, accédez à votre compte Microsoft Dynamics CRM, puis cliquez sur **Dynamics 365** et sélectionnez votre application. Vous pouvez ensuite trouver votre **[!UICONTROL URL de serveur]** dans la barre d’adresse de votre navigateur, par exemple : `https://myserver.crm.dynamics.com/`.
 
 * **[!UICONTROL Identifiant du client]**
 
-   ID du client qui se trouve sur le portail de gestion Microsoft Azure au niveau de la catégorie **[!UICONTROL Mettre à jour votre code]**, dans le champ **[!UICONTROL ID du client]**.
+  ID du client qui se trouve sur le portail de gestion Microsoft Azure au niveau de la catégorie **[!UICONTROL Mettre à jour votre code]**, dans le champ **[!UICONTROL ID du client]**.
 
 * **[!UICONTROL Version CRM]**
 
-   Sélectionnez la version du CRM **[!UICONTROL Dynamics CRM 365]**.
+  Sélectionnez la version du CRM **[!UICONTROL Dynamics CRM 365]**.
 
 Avec le type de déploiement **[!UICONTROL API web]** et l’authentification **[!UICONTROL Certificat]**, vous devez fournir les détails suivants :
 
@@ -341,15 +355,15 @@ Avec le type de déploiement **[!UICONTROL API web]** et l’authentification **
 
 * **[!UICONTROL Serveur]**
 
-   URL de votre serveur Microsoft CRM.
+  URL de votre serveur Microsoft CRM.
 
-   Pour trouver votre **[!UICONTROL URL de serveur]** Microsoft CRM, accédez à votre compte Microsoft Dynamics CRM, puis cliquez sur **Dynamics 365** et sélectionnez votre application. Vous pouvez ensuite trouver votre **[!UICONTROL URL de serveur]** dans la barre d’adresse de votre navigateur, par exemple : `https://myserver.crm.dynamics.com/`.
+  Pour trouver votre **[!UICONTROL URL de serveur]** Microsoft CRM, accédez à votre compte Microsoft Dynamics CRM, puis cliquez sur **Dynamics 365** et sélectionnez votre application. Vous pouvez ensuite trouver votre **[!UICONTROL URL de serveur]** dans la barre d’adresse de votre navigateur, par exemple : `https://myserver.crm.dynamics.com/`.
 
 * **[!UICONTROL Clé privée (encodée en Base64)]**
 
-   Notez que la clé privée doit être chiffrée en Base64.
+  Notez que la clé privée doit être chiffrée en Base64.
 
-   Pour cela, vous pouvez utiliser l&#39;aide d&#39;un encodeur Base64 ou utiliser la ligne de commande `base64 -w0 private.key` sous Linux.
+  Pour cela, vous pouvez utiliser l&#39;aide d&#39;un encodeur Base64 ou utiliser la ligne de commande `base64 -w0 private.key` sous Linux.
 
 * **[!UICONTROL Identifiant de clé personnalisé]**
 
@@ -357,11 +371,11 @@ Avec le type de déploiement **[!UICONTROL API web]** et l’authentification **
 
 * **[!UICONTROL Identifiant du client]**
 
-   ID du client qui se trouve sur le portail de gestion Microsoft Azure au niveau de la catégorie **[!UICONTROL Mettre à jour votre code]**, dans le champ **[!UICONTROL ID du client]**.
+  ID du client qui se trouve sur le portail de gestion Microsoft Azure au niveau de la catégorie **[!UICONTROL Mettre à jour votre code]**, dans le champ **[!UICONTROL ID du client]**.
 
 * **[!UICONTROL Version CRM]**
 
-   Version du CRM parmi **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** et **[!UICONTROL Dynamics CRM 2016]**.
+  Version du CRM parmi **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** et **[!UICONTROL Dynamics CRM 2016]**.
 
 Pour plus d&#39;informations sur cette configuration, consultez [cette page](../../platform/using/crm-connectors.md).
 
@@ -375,23 +389,23 @@ Pour configurer le compte externe Salesforce CRM afin de l’utiliser avec Adobe
 
 * **[!UICONTROL Compte]**
 
-   Compte utilisé pour se connecter à Salesforce CRM.
+  Compte utilisé pour se connecter à Salesforce CRM.
 
 * **[!UICONTROL Mot de passe]**
 
-   Mot de passe utilisé pour se connecter à Salesforce CRM.
+  Mot de passe utilisé pour se connecter à Salesforce CRM.
 
 * **[!UICONTROL Identifiant du client]**
 
-   Pour savoir où trouver votre identifiant du client, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+  Pour savoir où trouver votre identifiant du client, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
 
 * **[!UICONTROL Jeton de sécurité]**
 
-   Pour savoir où trouver votre jeton de sécurité, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+  Pour savoir où trouver votre jeton de sécurité, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
 
 * **[!UICONTROL Version de l&#39;API]**
 
-   Sélectionnez la version de l’API.
+  Sélectionnez la version de l’API.
 
 Pour ce compte externe, vous devez configurer votre Salesforce CRM à l&#39;aide de l&#39;assistant de configuration.
 
@@ -409,23 +423,23 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
 
 * **[!UICONTROL Serveur du compte AWS S3]**
 
-   URL du serveur qui doit être renseignée de la manière suivante :
+  URL du serveur qui doit être renseignée de la manière suivante :
 
-   ```
-   <S3bucket name>.s3.amazonaws.com/<s3object path>
-   ```
+  ```
+  <S3bucket name>.s3.amazonaws.com/<s3object path>
+  ```
 
 * **[!UICONTROL ID de la clé d&#39;accès AWS]**
 
-   Pour savoir où trouver votre ID de la clé d&#39;accès AWS, consultez [cette page](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
+  Pour savoir où trouver votre ID de la clé d&#39;accès AWS, consultez [cette page](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
 
 * **[!UICONTROL Clé d&#39;accès secrète à AWS]**
 
-   Pour savoir où trouver votre clé d&#39;accès secrète à AWS, consultez [cette page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+  Pour savoir où trouver votre clé d&#39;accès secrète à AWS, consultez [cette page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
 * **[!UICONTROL Région AWS]**
 
-   Pour en savoir plus sur la région AWS, consultez cette [page](https://aws.amazon.com/fr/about-aws/global-infrastructure/regions_az/).
+  Pour en savoir plus sur la région AWS, consultez cette [page](https://aws.amazon.com/fr/about-aws/global-infrastructure/regions_az/).
 
 * La case à cocher **[!UICONTROL Utiliser le chiffrement coté serveur]** vous permet de stocker votre fichier en mode chiffré dans S3.
 
@@ -441,12 +455,12 @@ Pour configurer le **[!UICONTROL compte externe Azure]** afin de l’utiliser av
 
 * **[!UICONTROL Serveur]**
 
-   URL de votre serveur de stockage Azure Blob.
+  URL de votre serveur de stockage Azure Blob.
 
 * **[!UICONTROL Chiffrement]**
 
-   Type de chiffrement choisi entre **[!UICONTROL Aucun]** et **[!UICONTROL SSL]**.
+  Type de chiffrement choisi entre **[!UICONTROL Aucun]** et **[!UICONTROL SSL]**.
 
 * **[!UICONTROL Clé d’accès]**
 
-   Pour savoir où trouver votre **** clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+  Pour savoir où trouver votre **** clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).

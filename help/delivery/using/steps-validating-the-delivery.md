@@ -6,8 +6,8 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability, Email Rendering, Proofs
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -106,6 +106,7 @@ Pour accélérer la préparation de la diffusion, vous pouvez cocher l’option 
 Lorsque cette option est activée, la préparation de la diffusion est effectuée directement dans la base de données, ce qui peut accélérer considérablement l’analyse.
 
 Actuellement, cette option n’est disponible que si les conditions suivantes sont remplies :
+
 * La diffusion doit être un email. Les autres canaux ne sont pas pris en charge pour l’instant.
 * Vous ne devez pas utiliser de routage de mid-sourcing ou externe. Seul le type de routage de diffusion en masse est possible. Vous pouvez vérifier le routage utilisé dans l’onglet **[!UICONTROL Général]** des **[!UICONTROL Propriétés de la diffusion]**.
 * Vous ne pouvez pas cibler une population provenant d’un fichier externe. Pour une diffusion unique, cliquez sur le lien **[!UICONTROL À]** dans les **[!UICONTROL Paramètres de l’e-mail]** et vérifiez que l’option **[!UICONTROL Définie depuis la base de données]** est sélectionnée. Pour une diffusion utilisée dans un workflow, vérifiez que les destinataires sont **[!UICONTROL Spécifiés par le ou les événements entrants]** dans l’onglet **[!UICONTROL Diffusion]**.
@@ -136,7 +137,6 @@ Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adob
 >* Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](steps-validating-the-delivery.md#changing-the-approval-mode).
 >* La configuration de la cible du BAT est expliquée dans la section [Définir une cible spécifique au BAT](steps-defining-the-target-population.md#defining-a-specific-proof-target).
 >
-
 
 Pour envoyer un BAT, procédez comme suit :
 
@@ -211,7 +211,7 @@ L&#39;onglet **[!UICONTROL Règle]** propose la liste des règles de typologie �
 
 ## Changer le mode de validation {#changing-the-approval-mode}
 
-L&#39;onglet **[!UICONTROL Analyse]** des propriétés de la diffusion vous permet de sélectionner le mode de validation. En effet, si des avertissements sont générés lors de l&#39;analyse (par exemple, si certains caractères sont accentués dans le sujet de la diffusion, etc.), vous pouvez paramétrer la diffusion afin de définir si elle doit toutefois être exécutée ou non. Par défaut, à la fin de la phase d&#39;analyse, l&#39;utilisateur doit valider l&#39;envoi des messages : il s&#39;agit d&#39;une validation **manuelle**.
+L’onglet **[!UICONTROL Analyse]** des propriétés de la diffusion vous permet de sélectionner le mode de validation. En effet, si des avertissements sont générés lors de l’analyse (par exemple, si certains caractères sont accentués dans l’objet de la diffusion, etc.), vous pouvez paramétrer la diffusion afin de définir si elle doit toutefois être exécutée ou non. Par défaut, à la fin de la phase d’analyse, l’utilisateur doit valider l’envoi des messages : il s’agit d’une validation **manuelle**. 
 
 Vous pouvez choisir un autre mode de validation dans la liste déroulante du champ correspondant.
 

@@ -6,10 +6,10 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+workflow-type: tm+mt
 source-wordcount: '2665'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -201,15 +201,15 @@ Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après 
 * Erreur synchrone : le serveur de mail distant contacté par le serveur de diffusion Adobe Campaign a retourné immédiatement un message d&#39;erreur ; la diffusion ne peut être envoyée au serveur du profil. Adobe Campaign qualifie chaque échec afin de déterminer si les adresses email concernées doivent être mises en quarantaine ou non. Voir [Qualification des emails bounce](#bounce-mail-qualification).
 * Erreur asynchrone : un mail rebond ou un SR a été renvoyé plus tard par le serveur de réception. Ce mail est récupéré dans une boîte email technique relevée par l&#39;application pour marquer les messages en erreur. Les erreurs asynchrones peuvent se produire jusqu&#39;à une semaine après l&#39;envoi d&#39;une diffusion.
 
-   >[!NOTE]
-   >
-   >Le paramétrage de la boîte des mails rebonds est décrit dans [cette section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
+  >[!NOTE]
+  >
+  >Le paramétrage de la boîte des mails rebonds est décrit dans [cette section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-   La [feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#feedback-loops) fonctionne comme les emails de bounce. Lorsqu&#39;un utilisateur qualifie un email de spam, vous pouvez configurer des règles d&#39;email dans Adobe Campaign pour bloquer toutes les diffusions à cet utilisateur. Les messages envoyés à des utilisateurs qui ont qualifié un email comme spam sont automatiquement redirigés vers une boîte de réception spécialement créée à cet effet. Les adresses de ces utilisateurs figurent sur la liste bloquée même s&#39;ils n&#39;ont pas cliqué sur le lien de désinscription. Les adresses figurent sur la liste bloquée de la table des quarantaines (**NmsAddress**) et non de la table des destinataires (**NmsRecipient**).
+  La [feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#feedback-loops) fonctionne comme les emails de bounce. Lorsqu&#39;un utilisateur qualifie un email de spam, vous pouvez configurer des règles d&#39;email dans Adobe Campaign pour bloquer toutes les diffusions à cet utilisateur. Les messages envoyés à des utilisateurs qui ont qualifié un email comme spam sont automatiquement redirigés vers une boîte de réception spécialement créée à cet effet. Les adresses de ces utilisateurs figurent sur la liste bloquée même s&#39;ils n&#39;ont pas cliqué sur le lien de désinscription. Les adresses figurent sur la liste bloquée de la table des quarantaines (**NmsAddress**) et non de la table des destinataires (**NmsRecipient**).
 
-   >[!NOTE]
-   >
-   >La gestion des plaintes est décrite dans la section [Gestion de la délivrabilité](about-deliverability.md).
+  >[!NOTE]
+  >
+  >La gestion des plaintes est décrite dans la section [Gestion de la délivrabilité](about-deliverability.md).
 
 ## Gestion des emails bounce {#bounce-mail-management}
 
@@ -234,7 +234,6 @@ Pour les installations on-premise et les installations hébergées/hybrides util
 >* Les rebonds **asynchrones** restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Pour plus d&#39;informations, consultez la section [Règles de gestion des emails](#email-management-rules).
 >
 >* Pour les instances qui utilisent le MTA amélioré sans **WebHooks/EFS**, les règles de **[!UICONTROL mail entrant]** sont également utilisées pour traiter les mails rebonds synchrones provenant du MTA amélioré, avec la même adresse email que pour les mails rebonds asynchrones.
-
 
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l’ancien MTA de Campaign, lorsque la diffusion d&#39;un email échoue, le serveur de diffusion d&#39;Adobe Campaign reçoit un message d&#39;erreur du serveur de messagerie ou du serveur DNS distant. La liste des erreurs est composée de chaînes contenues dans le message renvoyé par le serveur distant. Les types et raisons des échec sont affectés à chaque message d&#39;erreur.
@@ -288,7 +287,6 @@ Les règles par défaut sont les suivantes.
 >* Le serveur de diffusion (MTA) doit être relancé si les paramètres sont modifiés.
 >* La modification ou la création de règles de gestion est réservée à des utilisateurs experts.
 
-
 #### Mail entrant {#inbound-email}
 
 >[!IMPORTANT]
@@ -297,7 +295,7 @@ Les règles par défaut sont les suivantes.
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par des serveurs distants et qui vous permettent de qualifier l&#39;erreur (**Hard**, **Soft** ou **Ignorée**).
 
-Lors de l&#39;échec d&#39;un envoi d&#39;email, le serveur de messagerie distant renvoie un message d&#39;erreur rebond à l&#39;adresse spécifiée dans les paramètres de la plateforme. Adobe Campaign compare le contenu de chaque mail rebond aux chaînes disponibles dans la liste des règles puis attribue l&#39;un des trois [types d&#39;erreurs](#delivery-failure-types-and-reasons).
+En cas d’échec d’un envoi d’email, le serveur distant renvoie un message rebond à l’adresse spécifiée dans la variable [paramètres de plateforme](../../installation/using/deploying-an-instance.md). Adobe Campaign compare le contenu de chaque mail rebond aux chaînes de la liste des règles, puis lui attribue l’une des trois [types d’erreur](#delivery-failure-types-and-reasons).
 
 >[!NOTE]
 >
