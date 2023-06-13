@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '627'
 ht-degree: 100%
 
