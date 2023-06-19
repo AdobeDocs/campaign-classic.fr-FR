@@ -5,10 +5,10 @@ description: Découvrez comment envoyer des e-mails transactionnels avec des pi�
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: 9e1d49cd1ae89a3bdf42febd48c5a340fe7ec674
+source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 89%
+source-wordcount: '666'
+ht-degree: 87%
 
 ---
 
@@ -40,7 +40,7 @@ Dans ce scénario, les pièces jointes ne sont pas créées à l&#39;avance, mai
 
 ## Recommendations et barrières de sécurité {#important-notes}
 
-Pour éviter tout problème de performances, les images incluses dans les emails ne doivent pas dépasser 100 Mo par défaut. Cette limite peut être configurée à partir du `NmsDelivery_MaxDownloadedImageSize` .
+Pour éviter des problèmes de performances, les images incluses dans les emails ne doivent pas dépasser 100 Mo. Cette limite, définie par défaut, peut être modifiée à partir de la variable `NmsDelivery_MaxDownloadedImageSize` . Cependant, Adobe recommande vivement d’éviter les images volumineuses dans vos diffusions email.
 
 Adobe recommande également de limiter la taille et le nombre de fichiers joints. Par défaut, vous ne pouvez ajouter qu’un seul fichier en tant que pièce jointe à un email. Ce seuil peut être configuré à partir du `NmsDelivery_MaxRecommendedAttachments` .
 
