@@ -4,10 +4,10 @@ title: Options d’aide et de support pour Campaign Classic
 description: Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit !
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
-source-wordcount: '796'
-ht-degree: 100%
+source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 98%
 
 ---
 
@@ -140,8 +140,7 @@ Rejoignez la communauté Campaign Classic : cherchez des réponses à une ques
 
 ### Accès au Centre de téléchargement Campaign
 
-Depuis juin 2020, la distribution logicielle de la solution Experience Cloud remplace l’ancien Centre de téléchargement Neolane et permet de trouver et télécharger plus efficacement vos logiciels, packages et outils. [Cliquez ici](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) pour accéder à la distribution logicielle de la solution Experience Cloud.
-En savoir plus sur le nouveau centre de téléchargement [sur cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr){_blank}.
+En tant qu’administrateur de Campaign, accédez à [cette page](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) pour accéder à la distribution logicielle Experience Cloud.
 
 ### Création d’un ticket ou démarrage d’une conversation
 
