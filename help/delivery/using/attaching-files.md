@@ -6,16 +6,14 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
-source-wordcount: '1035'
-ht-degree: 100%
+source-git-commit: 9e1d49cd1ae89a3bdf42febd48c5a340fe7ec674
+workflow-type: tm+mt
+source-wordcount: '1061'
+ht-degree: 93%
 
 ---
 
 # Joindre des fichiers à un email {#attaching-files}
-
-
 
 ## À propos des pièces jointes à un email {#about-email-attachments}
 
@@ -33,6 +31,14 @@ Deux cas se présentent :
 >[!NOTE]
 >
 >Ce type de configuration est généralement réalisé dans les modèles de diffusion. Voir à ce sujet la section [À propos des modèles](about-templates.md).
+
+## Mécanismes de sécurisation {#attachments-guardrails}
+
+Pour éviter tout problème de performances, les images incluses dans les emails ne doivent pas dépasser 100 Mo par défaut. Cette limite peut être configurée à partir du `NmsDelivery_MaxDownloadedImageSize` .
+
+Adobe recommande également de limiter la taille et le nombre de fichiers joints. Par défaut, vous ne pouvez ajouter qu’un seul fichier en tant que pièce jointe à un email. Ce seuil peut être configuré à partir du `NmsDelivery_MaxRecommendedAttachments` .
+
+En savoir plus dans [la liste des options du Campaign Classic ;](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## Joindre un fichier local {#attaching-a-local-file}
 
@@ -113,9 +119,7 @@ Pour ce type d&#39;attachement, les étapes de paramétrage sont les suivantes 
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
->[!NOTE]
->
->Pour éviter tout problème de performances, si vous incluez des images téléchargées à la volée à partir d’une URL personnalisée en tant que pièce jointe, la taille d’une image ne doit pas dépasser 100 000 octets par défaut. Le seuil recommandé peut être configuré à partir de la [liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
+
 
 ### Joindre un fichier calculé {#attach-a-calculated-file}
 
@@ -182,6 +186,6 @@ L&#39;onglet **[!UICONTROL Avancé]** permet de définir des options avancées s
 * Vous pouvez définir des options de filtrage afin de ne pas transmettre le fichier joint à tous les destinataires. L&#39;option **[!UICONTROL Activer le filtrage des destinataires qui recevront la pièce jointe]** active une zone de saisie utilisée pour définir un script de sélection des destinataires. Ce script doit être saisi en JavaScript.
 * Vous pouvez scripter le nom du fichier afin de le personnaliser.
 
-   Entrez votre texte dans la fenêtre et utilisez les champs de personnalisation disponibles dans la liste déroulante. Dans l&#39;exemple ci-dessous, le nom du fichier est personnalisé pour contenir la date du jour et le nom du destinataire.
+  Entrez votre texte dans la fenêtre et utilisez les champs de personnalisation disponibles dans la liste déroulante. Dans l&#39;exemple ci-dessous, le nom du fichier est personnalisé pour contenir la date du jour et le nom du destinataire.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)
+  ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)

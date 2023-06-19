@@ -6,16 +6,14 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
-source-wordcount: '2063'
-ht-degree: 100%
+source-git-commit: 9e1d49cd1ae89a3bdf42febd48c5a340fe7ec674
+workflow-type: tm+mt
+source-wordcount: '2005'
+ht-degree: 93%
 
 ---
 
 # Définition du contenu de l’e-mail {#defining-the-email-content}
-
-
 
 ## Expéditeur {#sender}
 
@@ -29,15 +27,14 @@ L’insertion et l’utilisation de champs de personnalisation sont présentées
 
 >[!NOTE]
 >
->* Par défaut, l&#39;adresse de réponse est l&#39;adresse de l&#39;expéditeur.
->* Les paramètres d&#39;en-tête ne doivent pas être vides.Par défaut, ils contiennent les valeurs saisies lors de la configuration de l&#39;assistant de déploiement. Pour plus d&#39;informations, reportez-vous au [Guide d&#39;installation](../../installation/using/deploying-an-instance.md).
+>* Par défaut, l’adresse de l’expéditeur est utilisée pour les réponses.
+>* Les paramètres d’en-tête ne doivent pas être vides. Par défaut, elles contiennent les valeurs saisies lors de la configuration de l’assistant de déploiement. En savoir plus dans [cette section](../../installation/using/deploying-an-instance.md).
 >* L&#39;adresse de l&#39;expéditeur est obligatoire pour permettre l&#39;envoi d&#39;un email (norme RFC).
 >* Adobe Campaign effectue une vérification syntaxique des adresses email saisies.
 
-
->[!IMPORTANT]
+>[!CAUTION]
 >
->Dans le cadre des contrôles mis en place par les Fournisseurs d&#39;Accès Internet (FAI) afin de lutter contre les emails non-sollicités (spam), Adobe recommande de créer des comptes emails correspondants aux adresses spécifiées pour l&#39;expédition et la réponse. Vérifiez auprès de l&#39;administrateur de votre messagerie.
+>Pour éviter tout problème de délivrabilité, les comptes email qui correspondent aux adresses spécifiées pour les diffusions et les réponses doivent exister et doivent être surveillés. Vérifiez auprès de votre administrateur système.
 
 ## Objet du message {#message-subject}
 
@@ -51,7 +48,7 @@ L&#39;objet du message est paramétré dans le champ correspondant.Vous pouvez l
 
 Le contenu des champs sera remplacé par la valeur enregistrée dans le profil du destinataire lors de l&#39;envoi du message.
 
-Par exemple, dans le message ci-dessus, le sujet du message est personnalisé pour chaque destinataire avec les données de son profil.
+Par exemple, dans le message ci-dessus, l’objet du message est personnalisé pour chaque destinataire avec les données de son profil.
 
 >[!NOTE]
 >
@@ -71,45 +68,45 @@ Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préfére
 
 * Pour importer un contenu HTML, utilisez le bouton **[!UICONTROL Ouvrir]**. Vous pouvez également coller le code source directement dans le sous-onglet **[!UICONTROL Source]**.
 
-   Si vous utilisez [Digital Content Editor](../../web/using/about-campaign-html-editor.md) (DCE), consultez [Sélection d&#39;un modèle de contenu](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
+  Si vous utilisez [Digital Content Editor](../../web/using/about-campaign-html-editor.md) (DCE), consultez [Sélection d&#39;un modèle de contenu](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
 
-   >[!IMPORTANT]
-   >
-   >Le contenu HTML doit être préalablement créé puis importé dans Adobe Campaign. L&#39;éditeur HTML n&#39;est pas conçu pour la création de contenu.
+  >[!IMPORTANT]
+  >
+  >Le contenu HTML doit être préalablement créé puis importé dans Adobe Campaign. L&#39;éditeur HTML n&#39;est pas conçu pour la création de contenu.
 
-   Le sous-onglet **[!UICONTROL Aperçu]** permet, pour chaque contenu, de visualiser le rendu pour un destinataire. Les champs de personnalisation et les éléments conditionnels du contenu sont remplacés par les informations correspondantes pour le profil sélectionné.
+  Le sous-onglet **[!UICONTROL Aperçu]** permet, pour chaque contenu, de visualiser le rendu pour un destinataire. Les champs de personnalisation et les éléments conditionnels du contenu sont remplacés par les informations correspondantes pour le profil sélectionné.
 
-   Les boutons de la barre d&#39;outils permettent d&#39;accéder aux paramètres de mise en forme standard pour la page HTML.
+  Les boutons de la barre d&#39;outils permettent d&#39;accéder aux paramètres de mise en forme standard pour la page HTML.
 
-   ![](assets/s_ncs_user_wizard_email01_138.png)
+  ![](assets/s_ncs_user_wizard_email01_138.png)
 
-   Vous pouvez insérer des images dans les messages depuis un fichier local ou depuis la bibliothèque d&#39;images disponible dans Adobe Campaign. Pour cela, cliquez sur l&#39;icône **[!UICONTROL Image]** et sélectionnez l&#39;option adéquate.
+  Vous pouvez insérer des images dans les messages depuis un fichier local ou depuis la bibliothèque d&#39;images disponible dans Adobe Campaign. Pour cela, cliquez sur l&#39;icône **[!UICONTROL Image]** et sélectionnez l&#39;option adéquate.
 
-   ![](assets/s_ncs_user_wizard_email01_18.png)
+  ![](assets/s_ncs_user_wizard_email01_18.png)
 
-   Les images de la bibliothèque sont accessibles depuis le dossier **[!UICONTROL Ressources>On-line>Ressources publiques]** de l’arborescence. Voir aussi la section [Ajout d’images](#adding-images).
+  Les images de la bibliothèque sont accessibles depuis le dossier **[!UICONTROL Ressources>On-line>Ressources publiques]** de l’arborescence. Voir aussi la section [Ajout d’images](#adding-images).
 
-   Le dernier bouton de la barre d&#39;outils permet d&#39;insérer des champs de personnalisation.
+  Le dernier bouton de la barre d&#39;outils permet d&#39;insérer des champs de personnalisation.
 
-   >[!NOTE]
-   >
-   >L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](about-personalization.md).
+  >[!NOTE]
+  >
+  >L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](about-personalization.md).
 
-   Les onglets en bas de page permettent d&#39;afficher le code HTML associé à la page en cours de création et de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** et sélectionnez un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d&#39;outils. Vous pouvez sélectionner un destinataire parmi la ou les cibles définies ou choisir un autre destinataire.
+  Les onglets en bas de page permettent d&#39;afficher le code HTML associé à la page en cours de création et de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** et sélectionnez un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d&#39;outils. Vous pouvez sélectionner un destinataire parmi la ou les cibles définies ou choisir un autre destinataire.
 
-   ![](assets/s_ncs_user_wizard_email01_139.png)
+  ![](assets/s_ncs_user_wizard_email01_139.png)
 
-   Vous pouvez valider le message HTML. Vous pouvez également visualiser le contenu de l&#39;en-tête de l&#39;email.
+  Vous pouvez valider le message HTML. Vous pouvez également visualiser le contenu de l&#39;en-tête de l&#39;email.
 
-   ![](assets/s_ncs_user_wizard_email01_140.png)
+  ![](assets/s_ncs_user_wizard_email01_140.png)
 
 * Pour importer un contenu texte, utilisez le bouton **[!UICONTROL Ouvrir]** ou l&#39;onglet **[!UICONTROL Contenu texte]** pour saisir le contenu du message lorsqu&#39;il sera affiché au format texte. Les boutons de la barre d&#39;outils permettent d&#39;accéder aux actions sur le contenu. Le dernier bouton permet d&#39;insérer des champs de personnalisation.
 
-   ![](assets/s_ncs_user_wizard_email01_141.png)
+  ![](assets/s_ncs_user_wizard_email01_141.png)
 
-   Comme pour le format HTML, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** en bas de page pour visualiser le rendu du message, avec sa personnalisation.
+  Comme pour le format HTML, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** en bas de page pour visualiser le rendu du message, avec sa personnalisation.
 
-   ![](assets/s_ncs_user_wizard_email01_142.png)
+  ![](assets/s_ncs_user_wizard_email01_142.png)
 
 
 ## Définition du contenu interactif {#amp-for-email-format}
@@ -118,7 +115,7 @@ Adobe Campaign permet de tester le nouveau format interactif [AMP for email](ht
 
 Voir à ce propos [cette section](defining-interactive-content.md).
 
-## Utilisation de la gestion de contenu {#using-content-management}
+## Utiliser la gestion de contenu {#using-content-management}
 
 Vous pouvez définir le contenu de la diffusion en utilisant les formulaires d&#39;une gestion de contenu, directement dans l&#39;assistant de diffusion. Pour cela, vous devez référencer le modèle de publication de la gestion de contenu à utiliser, dans l&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion.
 
@@ -132,7 +129,7 @@ Ainsi, un onglet supplémentaire permet de saisir un contenu qui sera automatiqu
 >
 >Pour plus d’informations sur la gestion de contenu dans Adobe Campaign, voir [cette section](about-content-management.md).
 
-## Insertion d’émoticônes {#inserting-emoticons}
+## Insérer des émoticônes {#inserting-emoticons}
 
 Vous pouvez insérer des émoticônes dans le contenu d’un email.
 
@@ -145,22 +142,29 @@ Vous pouvez insérer des émoticônes dans le contenu d’un email.
 
 Pour personnaliser la liste des émoticônes, voir cette [page](customizing-emoticon-list.md).
 
-## Ajout d&#39;images {#adding-images}
+## Ajouter des images {#adding-images}
 
 Les diffusions par email au format HTML peuvent contenir des images. Depuis l&#39;assistant de diffusion, vous pouvez importer une page HTML contenant des images ou insérer des images directement depuis l&#39;éditeur HTML à partir de l&#39;icône **[!UICONTROL Image]**.
+
+
+### Mécanismes de sécurisation {#img-guardrails}
+
+Pour éviter tout problème de performances, les images incluses dans les emails ne doivent pas dépasser 100 Mo par défaut. Cette limite peut être configurée à partir du `NmsDelivery_MaxDownloadedImageSize` .
+
+En savoir plus dans [la liste des options du Campaign Classic ;](../../installation/using/configuring-campaign-options.md#delivery).
+
+### Types d&#39;images {#img-types}
 
 Ces images peuvent être :
 
 * locales ou appelées depuis un serveur
 * stockées dans la bibliothèque des ressources publiques d&#39;Adobe Campaign
 
-   Les ressources publiques sont accessibles à partir du nœud **[!UICONTROL Ressources >On-line > Ressources publiques]** de l&#39;arborescence Adobe Campaign. Elles sont regroupées dans une bibliothèque et peuvent être incluses dans les emails, mais aussi utilisées au niveau des opérations ou des tâches, ainsi que pour la gestion de contenu.
+  Les ressources publiques sont accessibles à partir du nœud **[!UICONTROL Ressources >On-line > Ressources publiques]** de l&#39;arborescence Adobe Campaign. Elles sont regroupées dans une bibliothèque et peuvent être incluses dans les emails, mais aussi utilisées au niveau des opérations ou des tâches, ainsi que pour la gestion de contenu.
 
 * Une ressource partagée via Adobe Experience Cloud. Consultez [cette section](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
 
->[!IMPORTANT]
->
->Pour inclure des images dans les emails via l&#39;assistant de diffusion, l&#39;instance Adobe Campaign doit être paramétrée afin de permettre la gestion des ressources publiques. Cette opération est réalisée dans l&#39;assistant de déploiement. Reportez-vous à [cette section](../../installation/using/deploying-an-instance.md) pour consulter les informations de paramétrage.
+### Insérer et gérer des images {#manage-images}
 
 L&#39;assistant de diffusion vous permet d&#39;ajouter dans le contenu des messages des images locales ou des images stockées dans la bibliothèque. Pour cela, cliquez sur le bouton **[!UICONTROL Image]** situé dans la barre d&#39;outils du contenu HTML.
 
@@ -175,27 +179,25 @@ Pour gérer les images via l’assistant de diffusion :
 1. Cliquez sur l’icône **[!UICONTROL Tracking &amp; Images]** dans la barre d’outils.
    ![](assets/s_ncs_user_email_del_img_param.png)
 
-1. Sélectionnez **[!UICONTROL Mise en ligne des images]** dans l’onglet **[!UICONTROL Images]**.
+1. Sélectionnez **[!UICONTROL Chargement des images]** dans l’onglet **[!UICONTROL Images]**.
 1. Vous pouvez ensuite choisir d’inclure les images dans le message email.
    ![](assets/s_ncs_user_email_del_img_upload.png)
 
-* Vous pouvez mettre en ligne les images manuellement sans attendre la phase d’analyse de la diffusion. Pour ce faire, cliquez sur le lien **[!UICONTROL Mettre en ligne les images tout de suite...]**.
+* Vous pouvez charger les images manuellement sans attendre la phase d’analyse de la diffusion. Pour ce faire, cliquez sur le lien **[!UICONTROL Charger les images tout de suite...]**.
 * Vous pouvez spécifier un autre chemin d’accès aux images sur le serveur de tracking. Pour ce faire, renseignez-le dans le champ **[!UICONTROL URL des images]**. Cette valeur remplace la valeur définie dans les paramètres de l’assistant d’installation.
 
-Dans l&#39;assistant de diffusion, lorsque vous ouvrez un contenu HTML avec des images incluses en relatif, un message vous propose alors de mettre en ligne immédiatement les images, selon les paramètres de la diffusion.
+Dans l’assistant de diffusion, lorsque vous ouvrez un contenu HTML avec des images incluses en relatif, un message vous propose alors de charger immédiatement les images, selon les paramètres de la diffusion.
 
 ![](assets/s_ncs_user_email_del_img_local.png)
 
 >[!IMPORTANT]
 >
->* Les chemins d&#39;accès aux images sont modifiés lors d&#39;une mise en ligne manuelle ou lors de l&#39;envoi des messages.
+> Les URL de l&#39;image sont modifiées lors du téléchargement manuel ou de l&#39;envoi des messages.
 > 
->* Pour éviter tout problème de performances, si vous incluez des images téléchargées à la volée à partir d&#39;une URL personnalisée en tant que [pièce jointe](attaching-files.md), la taille d&#39;une image ne doit pas dépasser 100 000 octets par défaut. Le seuil recommandé peut être configuré à partir de la [liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
+### Cas pratique : envoyer un message avec des images {#uc-images}
 
-**Cas pratique : envoyer un message avec des images**
-
-Voici un exemple de diffusion avec quatre images :
+Voici un exemple de diffusion avec quatre images :
 
 ![](assets/s_ncs_user_images_in_delivery_wiz_1.png)
 
@@ -208,12 +210,12 @@ Cliquez sur l&#39;icône **[!UICONTROL Tracking &amp; Images]** puis sur l&#39;o
 Pour chaque image détectée, vous pouvez visualiser son état :
 
 * Si une image est locale ou enregistrée sur un autre serveur, et même si ce serveur est accessible depuis l&#39;extérieur (sur un site internet par exemple), elle sera détectée comme **[!UICONTROL Pas encore en ligne]**.
-* Les images sont détectées comme **[!UICONTROL Déjà en ligne]** si elles ont été mises en ligne antérieurement lors de la création d&#39;une autre diffusion.
-* Dans l&#39;assistant de déploiement, vous pouvez définir des URL pour lesquelles la détection des images ne sera pas active : la mise en ligne de ces images est alors **[!UICONTROL Ignorée]**.
+* Les images sont détectées comme **[!UICONTROL Déjà en ligne]** si elles ont été chargées antérieurement lors de la création d’une autre diffusion.
+* Dans l’assistant de déploiement, vous pouvez définir des URL pour lesquelles la détection des images ne sera pas active : le chargement de ces images est alors **[!UICONTROL Ignorée]**.
 
 >[!NOTE]
 >
->Une image est identifiée par son contenu, et non par son nom ou son chemin d&#39;accès. Ainsi, une image mise en ligne antérieurement sous un autre nom ou depuis un autre répertoire sera détectée comme **[!UICONTROL Déjà en ligne]**.
+>Une image est identifiée par son contenu, et non par son nom ou son chemin d’accès. Ainsi, une image chargée antérieurement sous un autre nom ou depuis un autre répertoire sera détectée comme **[!UICONTROL Déjà en ligne]**.
 
 Lors de la phase d&#39;analyse du message, les images sont automatiquement téléchargées sur le serveur afin d&#39;être accessibles depuis l&#39;extérieur, sauf les images locales qui doivent avoir été téléchargées préalablement.
 
@@ -253,23 +255,23 @@ Puis paramétrez les éléments suivants en fonction de vos besoins :
 
    * Pour le format 1D, Adobe Campaign propose les types suivants: Codabar, Code 128, GS1-128 (anciennement EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, Interleaved 2 of 5, POSTNET et Royal Mail (RM4SCC).
 
-      Exemple de code-barres 1D :
+     Exemple de code-barres 1D :
 
-      ![](assets/barcode_insert_08.png)
+     ![](assets/barcode_insert_08.png)
 
    * Les types DataMatrix et PDF417 concernent le format 2D.
 
-      Exemple de code-barres 2D :
+     Exemple de code-barres 2D :
 
-      ![](assets/barcode_insert_09.png)
+     ![](assets/barcode_insert_09.png)
 
    * Pour insérer un QR Code, sélectionnez ce type et indiquez le taux de correction d&#39;erreur à appliquer. Ce taux définit la quantité d&#39;informations répétées et donc une tolérance plus ou moins importante aux dégradations.
 
-      ![](assets/barcode_insert_06.png)
+     ![](assets/barcode_insert_06.png)
 
-      Exemple de QR Code :
+     Exemple de QR Code :
 
-      ![](assets/barcode_insert_12.png)
+     ![](assets/barcode_insert_12.png)
 
 1. Indiquez la taille du code-barres à insérer dans l&#39;email : le paramétrage de l&#39;échelle permet d&#39;augmenter ou de réduire la taille du code-barres, de x 1 à x 10.
 1. Le champ **[!UICONTROL Valeur]** permet de définir la valeur du code-barres. Une valeur peut correspondre à une offre promotionnelle et peut être une fonction d&#39;un critère, ce peut être la valeur d&#39;un champ de la base de données relative aux clients.
