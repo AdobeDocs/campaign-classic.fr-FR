@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -166,7 +166,6 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 >* Le pilote SGBDR doit correspondre à la version du serveur SGBDR.
 >
 >* PostgreSQL constitue le SGBDR pour les environnements hébergés.
-
 
 ## Connecteurs CRM{#CRMconnectors}
 
@@ -369,7 +368,7 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 
 Runtime de Microsoft Edge WebView2 dernière version est obligatoire pour la console cliente Campaign.
 
-Téléchargez Microsoft Edge WebView2 à partir du [site Microsoft Developer](https://www.adobe.com/go/acc-ms-webview2-runtime-download).
+Téléchargez Microsoft Edge WebView2 à partir du [site Microsoft Developer](https://www.adobe.com/go/acc-ms-webview2-runtime-download_fr).
 
 
 ## SDK mobile{#MobileSDK}
