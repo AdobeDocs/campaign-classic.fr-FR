@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
 source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1786'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,26 +40,26 @@ Vous devez installer des pilotes pour que Teradata puisse établir une connexion
 
    * **/etc/odbc.ini**
 
-      ```
-      [ODBC]
-      InstallDir=/etc/
-      ```
+     ```
+     [ODBC]
+     InstallDir=/etc/
+     ```
 
-      « InstallDir » correspond à l’emplacement du fichier **odbcinst.ini**.
+     « InstallDir » correspond à l’emplacement du fichier **odbcinst.ini**.
 
    * **/etc/odbcinst.ini**
 
-      ```
-      [ODBC DRIVERS]
-      teradata=Installed
-      
-      [teradata]
-      Driver=/opt/teradata/client/17.10/lib64/tdataodbc_sb64.so
-      APILevel=CORE
-      ConnectFunctions=YYY
-      DriverODBCVer=3.51
-      SQLLevel=1
-      ```
+     ```
+     [ODBC DRIVERS]
+     teradata=Installed
+     
+     [teradata]
+     Driver=/opt/teradata/client/17.10/lib64/tdataodbc_sb64.so
+     APILevel=CORE
+     ConnectFunctions=YYY
+     DriverODBCVer=3.51
+     SQLLevel=1
+     ```
 
 1. Définissez les variables d’environnement du serveur Adobe Campaign :
 
@@ -70,6 +70,7 @@ Vous devez installer des pilotes pour que Teradata puisse établir une connexion
 >[!NOTE]
 >
 >La connexion à une base de données externe Teradata dans FDA nécessite certaines étapes de configuration supplémentaires sur le serveur Adobe Campaign. [En savoir plus](#teradata-additional-configurations).
+>
 
 ## Compte externe Teradata{#teradata-external}
 
@@ -101,7 +102,7 @@ Le connecteur prend en charge les options suivantes :
 
 | Option | Description |
 |---|---|
-| TD_MAX_SESSIONS | Indique le nombre maximal de sessions de connexion que le transporteur parallèle Teradata peut acquérir pour une tâche d’opérateur. |
+| TD_MAX_SESSIONS | Indique le nombre maximal de sessions de connexion que le Teradata Parallel Transporter peut acquérir pour un traitement d’opérateur. |
 | TimeZoneName | Nom du fuseau horaire du serveur. |
 | CharacterSet | Utilisé pour configurer le jeu de caractères Teradata. <br>Pour plus d’informations à ce sujet, consultez [cette page](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001). |
 | IANAAppCodePage | Page de code de l’application ODBC. <br>Pour plus d’informations à ce sujet, consultez [cette page](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page) |
@@ -226,7 +227,7 @@ Pour installer sha2 :
 
 ### Installation de UDF_UTF16TO8  {#UDF-UTF16TO8-installation}
 
-Si vous souhaitez utiliser les fonctions udf_utf16to8 dans votre instance Adobe Campaign, installez la fonction de mode utilisateur sur votre base de données Teradata à partir de la fonction **Kit d&#39;outils Unicode teradata**.
+Si vous souhaitez utiliser les fonctions udf_utf16to8 dans votre instance d’Adobe Campaign, installez la fonction de mode utilisateur sur votre base de données Teradata à partir de la **boîte à outils Teradata Unicode**.
 
 La fonction sha1 du fichier téléchargé se présente comme suit : e58235f434f52c71316a577cb48e20b97d24f470.
 
