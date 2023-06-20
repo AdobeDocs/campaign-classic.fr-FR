@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Email Design
 exl-id: 44634227-2340-49c4-b330-740c739ea551
 source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '760'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Ainsi, vous devez :
 
 >[!NOTE]
 >
->Des limitations spécifiques à chaque opérateur doivent être prises en compte lors de la création de votre message. Consultez la documentation de leur produit.
+>Des limitations spécifiques à chaque opérateur sont à prendre en compte lors de la création de votre message. Consultez la documentation de leur produit.
 
 
 ## Test du contenu d’e-mail {#testing-the-email-content}
@@ -60,7 +60,7 @@ Dans l&#39;onglet **[!UICONTROL Aperçu]** de la fenêtre d&#39;édition du cont
 * vérifier que le nombre d&#39;images dans le message ne dépasse pas la limite imposée par le format (20 images).
 * vérifier la taille totale du message (inférieure à 100 Ko).
 
-   ![](assets/deco-mail_06.png)
+  ![](assets/deco-mail_06.png)
 
 ### Exécution de la règle de typologie {#running-typology-rule}
 
