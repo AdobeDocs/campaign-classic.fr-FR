@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2665'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -295,7 +295,7 @@ Les règles par défaut sont les suivantes.
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par des serveurs distants et qui vous permettent de qualifier l&#39;erreur (**Hard**, **Soft** ou **Ignorée**).
 
-En cas d’échec d’un envoi d’email, le serveur distant renvoie un message rebond à l’adresse spécifiée dans la variable [paramètres de plateforme](../../installation/using/deploying-an-instance.md). Adobe Campaign compare le contenu de chaque mail rebond aux chaînes de la liste des règles, puis lui attribue l’une des trois [types d’erreur](#delivery-failure-types-and-reasons).
+Lors de l’échec de l’envoi d’un e-mail, le serveur de messagerie distant renvoie un message de rebond à l’adresse spécifiée dans les [paramètres de la plateforme](../../installation/using/deploying-an-instance.md). Adobe Campaign compare le contenu de chaque rebond aux chaînes disponibles dans la liste des règles, puis attribue l’un des trois [types d’erreurs](#delivery-failure-types-and-reasons).
 
 >[!NOTE]
 >
