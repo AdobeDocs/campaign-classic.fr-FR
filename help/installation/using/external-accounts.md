@@ -10,7 +10,7 @@ exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
 workflow-type: tm+mt
 source-wordcount: '2020'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -122,23 +122,23 @@ Les canaux suivants peuvent être configurés :
 * [Canal iOS](../../delivery/using/configuring-the-mobile-application.md)
 * [Canal Android](../../delivery/using/configuring-the-mobile-application-android.md)
 
-### Routage par e-mail {#email-routing-external-account}
+### Routage des e-mails {#email-routing-external-account}
 
-Le compte externe de routage des emails est fourni par défaut, adapté à votre configuration.
+Le compte externe de routage des e-mails fourni par défaut est adapté à votre configuration.
 
-En tant que client on-premise/hybride, vous pouvez créer de nouveaux comptes externes de routage ou mettre à jour des paramètres, comme décrit ci-dessous. Cette configuration est réservée à des utilisateurs experts et peut avoir un impact sur votre délivrabilité. Pour toute question, contactez l’assistance clientèle Adobe ou votre représentant Adobe.
+En tant que client on-premise/hybride, vous pouvez créer de nouveaux comptes externes de routage ou mettre à jour des paramètres, comme décrit ci-dessous. Cette configuration est réservée à des personnes expertes et peut avoir un impact sur votre délivrabilité. Pour toute question, contactez l’Assistance clientèle Adobe ou votre représentant/représentante Adobe.
 
 * Vous pouvez utiliser une **Mid-sourcing**, **Externe** routage ou **Bulk** type de routage de diffusion.
 
-* Pour **Bulk** et **Mid-sourcing** les modes de diffusion, vous pouvez définir vos paramètres de marque dans le **Marques** . Ces paramètres servent à remplacer la variable [paramètres par défaut](../../installation/using/deploying-an-instance.md#email-channel-parameters) pour **URL de la page miroir** et **Adresse d’erreur** avec des paramètres spécifiques à votre marque.
+* Pour les modes de diffusion **en masse** et **en midsourcing**, vous pouvez définir vos paramètres de branding dans l’onglet **branding**. Ces paramètres servent à remplacer les [paramètres par défaut](../../installation/using/deploying-an-instance.md#email-channel-parameters) de l’**URL de la page miroir** et l’**adresse d’erreur** par des paramètres spécifiques à votre marque.
 
   ![](assets/ext-account-branding.png)
 
-* Pour configurer un compte externe Mid-sourcing, reportez-vous à la section [cette section](mid-sourcing-server.md)
+* Pour configurer un compte externe en midsourcing, reportez-vous à [cette section](mid-sourcing-server.md).
 
 ### Instance d&#39;exécution  {#execution-instance-external-account}
 
-Si vous disposez d&#39;une architecture répartie, vous devez spécifier les instances d&#39;exécution liées à l&#39;instance de pilotage et les connecter. Les modèles de messages transactionnels sont déployés sur l’instance d’exécution.
+Si vous possédez une architecture répartie, vous devez spécifier les instances d’exécution liées à l’instance de pilotage et les connecter. Les modèles de messages transactionnels sont déployés sur l’instance d’exécution.
 
 ![](assets/ext_account_13.png)
 
