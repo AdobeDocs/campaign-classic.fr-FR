@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3996'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -144,11 +144,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultReplyToAddr</span> <br /> </td> 
-   <td> Adresse email 'répondre à' par défaut au niveau de l'instance utilisée pour la diffusion de l'email si l'utilisateur l'a laissée vide.<br /> </td> 
+   <td> Adresse e-mail 'répondre' par défaut au niveau de l’instance utilisée pour la diffusion de l’e-mail si l’utilisateur ou l’utilisatrice l’a laissée vide.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> Nom usuel du client. Utilisé dans certains messages d’avertissement affichés aux destinataires.<br /> "Vous recevez ce message car vous avez été en contact avec `Organisation` ou une société affiliée. Pour ne plus recevoir de messages de "l’organisation"<br /> </td> 
+   <td> Nom usuel du client. Utilisé dans certains messages d’avertissement affichés aux destinataires.<br /> "Vous recevez ce message, car vous avez été en contact avec 'Organization' ou une société affiliée. Pour ne plus recevoir de messages de 'Organization' <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
@@ -156,7 +156,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ReplyToName</span> <br /> </td> 
-   <td> Libellé de l'email 'répondre' par défaut au niveau de l'instance utilisée pour la diffusion de l'email si l'utilisateur l'a laissé vide.<br /> </td> 
+   <td> Libellé de l’e-mail 'répondre' par défaut au niveau de l’instance utilisée pour la diffusion de l’e-mail si l’utilisateur ou l’utilisatrice l’a laissé vide.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_RetryCount</span> <br /> </td> 
