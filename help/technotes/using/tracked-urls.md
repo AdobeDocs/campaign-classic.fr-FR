@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 hide: true
 hidefromtoc: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '361'
+source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -31,11 +31,11 @@ Si votre environnement s&#39;exécute sur l&#39;une des versions répertoriées 
 
 * Gold Standard 8 à 11. [En savoir plus](../../rn/using/gold-standard.md#gs-8)
 * Campaign versions 21.1.1 (build 9277) à 21.1.2 (build 9282). [En savoir plus](../../rn/using/latest-release.md)
-* Campaign versions 20.3.1 (build 9228) à 20.3.3 (build 9234). [En savoir plus](../../rn/using/release--2020.md#release-20-3)
-* Campaign versions 20.2.1 (build 9178) à 20.2.4 (build 9187). [En savoir plus](../../rn/using/release--2020.md#release-20-2)
-* Campaign versions 20.1.1 (build 9122) à 21.1.3 (build 9124). [En savoir plus](../../rn/using/release--2020.md#release-20-1)
-* Campaign versions 19.2.2 (build 9080) à 19.2.3 (build 9081). [En savoir plus](../../rn/using/release--2019.md#release-19-2)
-* Campaign versions 19.1.5 (build 9033) à 19.1.7 (build 9036). [En savoir plus](../../rn/using/release--2019.md#release-19-1)
+* Campaign versions 20.3.1 (build 9228) à 20.3.3 (build 9234).
+* Campaign versions 20.2.1 (build 9178) à 20.2.4 (build 9187).
+* Campaign versions 20.1.1 (build 9122) à 21.1.3 (build 9124).
+* Campaign versions 19.2.2 (build 9080) à 19.2.3 (build 9081).
+* Campaign versions 19.1.5 (build 9033) à 19.1.7 (build 9036).
 
 
 Découvrez comment vérifier votre version [dans cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
@@ -59,6 +59,7 @@ Procédez comme suit :
 >[!NOTE]
 >
 >Le fichier **config-`<instance>`.xml** remplace les paramètres **serverConf.xml**. Si **signEmailLinks** est présent dans **config-`<instance>`.xml** (où **instance** est le nom de votre instance), il doit également être défini sur **false**.
+>
 
 **Quel est l&#39;impact ?**
 
@@ -69,3 +70,4 @@ Une fois la mise à jour terminée, tous les liens fonctionnent comme prévu.
 >[!NOTE]
 >
 >Pour toute question sur ces modifications, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>
