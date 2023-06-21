@@ -4,9 +4,10 @@ title: Versions de Campaign Classic 2019
 description: En savoir plus sur les versions de Campaign Classic 2019
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hidefromtoc: true
+hide: true
 exl-id: 8a36a542-e095-4208-b624-e59845592863
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+source-git-commit: 378ac691c15f8200f8a14d573d4b15521f6cb531
+workflow-type: tm+mt
 source-wordcount: '4836'
 ht-degree: 100%
 
@@ -20,7 +21,7 @@ ht-degree: 100%
 
 ### ![](assets/do-not-localize/limited_2.png) Version 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
 
-__
+_15 avril 2021_
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
@@ -47,7 +48,6 @@ _23 décembre 2020_
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/using/ims-updates.md)
 >
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-
 
 
 * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme dʼauthentification IMS.
@@ -202,7 +202,7 @@ Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, no
 
 ### ![](assets/do-not-localize/limited_2.png) Version 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
 
-__
+_15 avril 2021_
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 * Correction d&#39;une régression qui pouvait bloquer l&#39;export des données du workflow vers une base FDA (Teradata, Snowflake).
@@ -230,7 +230,6 @@ _16 décembre 2020_
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/using/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 > * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’en février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md#step-optional) à Adobe.
-
 
 
 **Améliorations**

@@ -7,9 +7,10 @@ feature: Overview
 role: User
 level: Beginner
 hidefromtoc: true
+hide: true
 exl-id: e2eb7e04-faaa-4df0-913d-471c291eeb03
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+source-git-commit: 378ac691c15f8200f8a14d573d4b15521f6cb531
+workflow-type: tm+mt
 source-wordcount: '6610'
 ht-degree: 100%
 
@@ -38,7 +39,6 @@ _27 octobre 2020_
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/using/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 > * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’en février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md#step-optional) à Adobe.
-
 
 **Nouveautés**
 
@@ -181,7 +181,7 @@ Sous Linux, _apache_neolane.conf_ est maintenant installé dans le répertoire `
 
 ### ![](assets/do-not-localize/limited_2.png) Version 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
 
-__
+_15 avril 2021_
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
@@ -210,7 +210,7 @@ _31 mars 2021_
 
 ### ![](assets/do-not-localize/red_2.png) Version 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
 
-__
+_15 avril 2021_
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 * Correction d&#39;une régression qui empêchait l&#39;utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. (NEO-31453, NEO-31454)
@@ -228,7 +228,6 @@ _22 décembre 2020_
 > * Cette version s&#39;accompagne d&#39;un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe IDentity Service (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter après le **30 juin 2021**.  [En savoir plus](../../technotes/using/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 > * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’en février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md#step-optional) à Adobe.
-
 
 **Améliorations**
 
@@ -375,9 +374,9 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](https://helpx.adob
 
 * La version de mémoire partagée a été augmentée.
 
-   >[!WARNING]
-   >
-   >Cette amélioration nécessite une étape supplémentaire suite à la mise à niveau. Consultez la section **Évolutions techniques** ci-dessous.
+  >[!WARNING]
+  >
+  >Cette amélioration nécessite une étape supplémentaire suite à la mise à niveau. Consultez la section **Évolutions techniques** ci-dessous.
 
 * Le workflow de nettoyage a été amélioré. Les tables de travail orphelines de tous les workflows supprimés sont désormais automatiquement supprimées par le workflow de nettoyage. [En savoir plus](../../production/using/database-cleanup-workflow.md#cleanup-of-workflow-instances).
 
@@ -498,7 +497,7 @@ Un exemple pour Linux est disponible dans cette [page](../../configuration/using
 
 ### ![](assets/do-not-localize/limited_2.png) Version 20.1.4 - Build 9126 {#release-20-1-4-build-9126}
 
-__
+_15 avril 2021_
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
@@ -525,7 +524,6 @@ _23 décembre 2020_
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/using/ims-updates.md)
 >
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-
 
 * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme dʼauthentification IMS.
 * Correction d&#39;un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
