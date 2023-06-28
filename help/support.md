@@ -5,9 +5,9 @@ description: Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit�
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ Rejoignez la communauté Campaign Classic : cherchez des réponses à une ques
 
 ### Accès au Centre de téléchargement Campaign
 
-En tant qu’administrateur de Campaign, accédez à [cette page](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) pour accéder à la distribution logicielle Experience Cloud.
+En tant qu’administrateur ou administratrice de Campaign, visitez [cette page](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) pour accéder à la distribution logicielle d’Experience Cloud.
 
 ### Création d’un ticket ou démarrage d’une conversation
 
