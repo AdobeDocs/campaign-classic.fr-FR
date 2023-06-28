@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2020'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,9 +126,9 @@ Les canaux suivants peuvent être configurés :
 
 Le compte externe de routage des e-mails fourni par défaut est adapté à votre configuration.
 
-En tant que client on-premise/hybride, vous pouvez créer de nouveaux comptes externes de routage ou mettre à jour des paramètres, comme décrit ci-dessous. Cette configuration est réservée à des personnes expertes et peut avoir un impact sur votre délivrabilité. Pour toute question, contactez l’Assistance clientèle Adobe ou votre représentant/représentante Adobe.
+En tant que société cliente on-premise/hybride, vous pouvez créer de nouveaux comptes externes de routage ou mettre à jour des paramètres, comme décrit ci-dessous. Cette configuration est réservée à des personnes expertes et peut avoir un impact sur votre délivrabilité. Pour toute question, contactez l’Assistance clientèle Adobe ou votre représentant/représentante Adobe.
 
-* Vous pouvez utiliser une **Mid-sourcing**, **Externe** routage ou **Bulk** type de routage de diffusion.
+* Vous pouvez utiliser un routage **en midsourcing** ou **externe**, ou encore un type de routage de diffusion **en masse**.
 
 * Pour les modes de diffusion **en masse** et **en midsourcing**, vous pouvez définir vos paramètres de branding dans l’onglet **branding**. Ces paramètres servent à remplacer les [paramètres par défaut](../../installation/using/deploying-an-instance.md#email-channel-parameters) de l’**URL de la page miroir** et l’**adresse d’erreur** par des paramètres spécifiques à votre marque.
 
