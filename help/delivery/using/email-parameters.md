@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '978'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ Pour ce faire, sélectionnez l’option **[!UICONTROL Forcer l&#39;encodage des 
 
 L&#39;onglet **[!UICONTROL SMTP]** des paramètres de la diffusion permet de paramétrer la gestion des mails rebonds.
 
-Par défaut, les mails rebonds sont reçus dans la variable [boîte d&#39;erreur par défaut de la plateforme](../../installation/using/deploying-an-instance.md#parameters-for-delivered-emails-parameters-for-delivered-emails), mais vous pouvez définir une adresse d’erreur spécifique pour une diffusion.
+Par défaut, les e-mails rebonds sont réceptionnés dans la [boîte d&#39;erreur par défaut de la plateforme](../../installation/using/deploying-an-instance.md#parameters-for-delivered-emails-parameters-for-delivered-emails). Vous pouvez toutefois définir une adresse d’erreur spécifique pour une diffusion.
 
 Vous pouvez également définir une adresse spécifique depuis cet écran afin d&#39;investiguer sur les causes des mails rebonds n&#39;ayant pas pu être automatiquement qualifiés par l&#39;application. Pour chacun de ces champs, l&#39;icône d&#39;**ajout de champs personnalisés** permet d&#39;ajouter des paramètres de personnalisation.
 
