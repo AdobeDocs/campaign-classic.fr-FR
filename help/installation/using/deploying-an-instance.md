@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3516'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Indiquez les paramètres suivants :
 * **[!UICONTROL Nom de l’adresse de réponse]** : saisissez le nom utilisé lorsque le destinataire clique sur le bouton **[!UICONTROL Répondre]**.
 * **[!UICONTROL Adresse de réponse]** : saisissez l’adresse e-mail à utiliser lorsque le ou la destinataire clique sur le bouton **[!UICONTROL Répondre]** de son logiciel de messagerie. Le champ **Adresse de réponse** est utile si vous souhaitez que le ou la destinataire réponde à une adresse différente de celle de l’**Adresse expéditeur**. Cette adresse e-mail doit être valide, associée à une boîte aux lettres surveillée et hébergée par le client ou la cliente.  Il peut s’agir d’une boîte aux lettres d’assistance, par exemple `customer-care@customer.com`, où les e-mails sont lus et reçoivent une réponse.
 
-* **[!UICONTROL Adresse d&#39;erreur]** : saisissez l’adresse e-mail des messages comportant une erreur. Il s’agit d’une adresse technique utilisée pour gérer les rebonds, notamment les e-mails reçus par le serveur Adobe Campaign si les adresses cible n’existent pas. Cette adresse e-mail doit être valide, associée à une boîte aux lettres surveillée et hébergée par le client ou la cliente. Il peut s’agir d’une boîte pour les e-mails rebonds, par exemple `errors@customer.com`. Cette adresse peut être modifiée au niveau d&#39;une diffusion ou dans les modèles de diffusion, à partir du champ **SMTP** de l’onglet des propriétés de la diffusion/du modèle de diffusion. [En savoir plus](../../delivery/using/email-parameters.md#managing-bounce-emails-managing-bounce-emails).
+* **[!UICONTROL Adresse d&#39;erreur]** : saisissez l’adresse e-mail des messages comportant une erreur. Il s’agit d’une adresse technique utilisée pour gérer les rebonds, notamment les e-mails reçus par le serveur Adobe Campaign si les adresses cible n’existent pas. Cette adresse e-mail doit être valide, associée à une boîte aux lettres surveillée et hébergée par le client ou la cliente. Il peut s’agir d’une boîte pour les e-mails rebonds, par exemple `errors@customer.com`. Cette adresse peut être modifiée au niveau d’une diffusion ou dans les modèles de diffusion, à partir de l’onglet **SMTP** des propriétés de la diffusion/du modèle de diffusion. [En savoir plus](../../delivery/using/email-parameters.md#managing-bounce-emails-managing-bounce-emails).
 
 
 En complément, vous pouvez indiquer les **masques** autorisés pour l&#39;adresse expéditeur et l&#39;adresse d&#39;erreur. Au besoin, ces masques doivent être séparés les uns des autres par une virgule. Ce paramétrage est facultatif. Lorsque ces champs sont renseignés, Adobe Campaign contrôle, au moment de l&#39;envoi (ou au moment de l&#39;analyse, lorsque l&#39;adresse ne contient pas d&#39;éléments variables), que les adresses renseignées dans la diffusion sont valables. Ce fonctionnement permet d&#39;éviter l&#39;utilisation d&#39;adresses qui pourraient poser des problème de délivrabilité. Les adresses d&#39;expédition doivent être configurées sur le serveur d&#39;envoi.
