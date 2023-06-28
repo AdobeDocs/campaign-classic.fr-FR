@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
 source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -38,13 +38,13 @@ Dans ce scénario, les pièces jointes ne sont pas créées à l&#39;avance, mai
 * Si elle est associée à une transaction (comme dans l&#39;exemple de scénario ci-dessus), elle peut contenir des données dynamiques générées pendant le processus client.
 * L&#39;ajout de fichiers PDF optimise la sécurité lorsque vous pouvez les chiffrer et les envoyer via HTTPS.
 
-## Recommendations et barrières de sécurité {#important-notes}
+## Recommendations et mécanismes de sécurisation {#important-notes}
 
-Pour éviter des problèmes de performances, les images incluses dans les emails ne doivent pas dépasser 100 Mo. Cette limite, définie par défaut, peut être modifiée à partir de la variable `NmsDelivery_MaxDownloadedImageSize` . Cependant, Adobe recommande vivement d’éviter les images volumineuses dans vos diffusions email.
+Pour éviter des problèmes de performances, les images incluses dans les e-mails ne doivent pas dépasser 100 Mo. Cette limite, définie par défaut, peut être modifiée à partir de l’option `NmsDelivery_MaxDownloadedImageSize`. Cependant, Adobe recommande vivement d’éviter les images volumineuses dans vos diffusions e-mail.
 
-Adobe recommande également de limiter la taille et le nombre de fichiers joints. Par défaut, vous ne pouvez ajouter qu’un seul fichier en tant que pièce jointe à un email. Ce seuil peut être configuré à partir du `NmsDelivery_MaxRecommendedAttachments` .
+Adobe recommande également de limiter la taille et le nombre de fichiers joints. Par défaut, vous ne pouvez ajouter qu’un seul fichier en tant que pièce jointe à un e-mail. Ce seuil peut être configuré à partir de l’option `NmsDelivery_MaxRecommendedAttachments`.
 
-En savoir plus dans [la liste des options du Campaign Classic ;](../../installation/using/configuring-campaign-options.md#delivery).
+En savoir plus dans [la liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 Avant de mettre en œuvre ce scénario, lisez attentivement les directives suivantes :
 
