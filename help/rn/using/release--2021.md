@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: a06623611ff3f8d9dfb5d498e01686e12a924923
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2597'
 ht-degree: 100%
 
 ---
@@ -19,8 +19,11 @@ ht-degree: 100%
 
 >[!CAUTION]
 >Utilisez le menu **[!UICONTROL Aide > À propos…]** pour vérifier votre [numéro de version et de build](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) d’Adobe Campaign. Notez toutefois que pour toutes les builds entre 9277 et 9343 répertoriées sur cette page, le numéro de version indique 7.0 au lieu de 7.1.
+> 
 
-### ![](assets/do-not-localize/limited_2.png) Version 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
+### Version 21.1.4 - Build 9343 {#release-21-1-4-build-9343}
+
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 _8 octobre 2021_
 
@@ -32,7 +35,9 @@ _8 octobre 2021_
 
 * Correction dʼune erreur « Lʼaffinité IP xxx est introuvable sur le serveur MID xxx » qui pouvait se produire lors de lʼenvoi dʼune diffusion comportant plusieurs affinités IP sur une instance multi-midsourcing. (NEO-37514)
 
-### ![](assets/do-not-localize/limited_2.png) Version 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
+### Version 21.1.4 - Build 9342 {#release-21-1-4-build-9342}
+
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 _7 septembre 2021_
 
@@ -66,7 +71,9 @@ _7 septembre 2021_
 * Correction d’un problème qui empêchait l’utilisation de variables dans une activité de workflow **Enrichissement** lorsque la transition entrante provenait d’une source de données FDA.
 * Correction d’un problème qui entraînait des URL rompues dans les e-mails.
 
-### ![](assets/do-not-localize/limited_2.png) Version 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
+### Version 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
+
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 _5 juin 2021_
 
@@ -222,14 +229,18 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 * Correction d’un problème qui empêchait l’envoi d’une diffusion avec un groupe de BAT en raison d’un mécanisme d’association spécifique qui faisait échouer la personnalisation de la diffusion. (NEO-14391)
 * Correction d’un problème qui empêchait l’envoi d’une alerte avec l’activité d’alerte si une requête et une activité d’enrichissement ciblaient la table de diffusions. (NEO-25157)
 
-### ![](assets/do-not-localize/red_2.png) Version 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
+### Version 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
+
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 _15 avril 2021_
 
 * La gestion des mots de passe a été améliorée pour optimiser la sécurité.
 * Correction d&#39;un problème qui pouvait provoquer des blocages de MTA.
 
-### ![](assets/do-not-localize/red_2.png) Version 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
+### Version 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
+
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 _22 février 2021_
 

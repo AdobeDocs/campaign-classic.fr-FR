@@ -5,16 +5,18 @@ description: En savoir plus sur les versions de Campaign Classic 2022
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 88ee8d1575f6397a35fb6f7412cd08119a75c131
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '2027'
 ht-degree: 100%
 
 ---
 
 # Versions 2022{#release-2022}
 
-## ![](assets/do-not-localize/orange_2.png) Version 7.3.1 - Build 9352 {#release-7-3-1}
+## Version 7.3.1 - Build 9352 {#release-7-3-1}
+
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 _1er juillet 2022_
 
@@ -82,7 +84,9 @@ Reportez-vous à la [matrice de compatibilité de Campaign](../../rn/using/compa
 * Correction d’un problème qui empêchait le téléchargement d’une image en mode bloc à partir d’un serveur externe pendant la préparation des messages. (NEO-40307)
 * Correction d’une erreur qui entraînait l’envoi de la diffusion à un plus grand nombre de destinataires que prévu. (NEO-45108)
 
-## ![](assets/do-not-localize/green_2.png) Version 7.2.2 - Build 9349 {#release-7-2-2}
+## Version 7.2.2 - Build 9349 {#release-7-2-2}
+
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 _1er mars 2022_
 
@@ -104,7 +108,9 @@ _1er mars 2022_
 * Correction d’un problème lors de l’actualisation du workflow de délivrabilité qui entraînait une erreur lorsque plus de 1 000 broadlogs étaient présents en même temps. (NEO-40276)
 * Correction d’un problème qui empêchait la mise à jour automatique des indicateurs de diffusion Taux d’ouverture et Taux de clics. (NEO-43253)
 
-## ![](assets/do-not-localize/limited_2.png) Version 7.2.1 - Build 9346 {#release-7-2-1}
+## Version 7.2.1 - Build 9346 {#release-7-2-1}
+
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 _10 janvier 2022_
 

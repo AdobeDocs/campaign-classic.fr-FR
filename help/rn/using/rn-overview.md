@@ -7,10 +7,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: ht
-source-wordcount: '933'
-ht-degree: 100%
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
+workflow-type: tm+mt
+source-wordcount: '932'
+ht-degree: 97%
 
 ---
 
@@ -24,15 +24,26 @@ Adobe Campaign Classic publie régulièrement des mises à jour de produit qui c
 
 Chaque nouvelle build est fournie avec un statut identifié par une couleur dans les [notes de mise à jour](latest-release.md).
 
-![](assets/do-not-localize/green3.png) **Disponibilité générale** (GA, General Availability) : dernière build stable, validée en production et recommandée par Adobe.
 
-![](assets/do-not-localize/limited3.png) **Disponibilité limitée** (LA, Limited Availability) : déploiement à la demande uniquement.
+| Statut | Description |
+|---|---|
+| [!BADGE Disponibilité générale]{type=Positive} | Dernier build stable, validé en production et recommandé par Adobe. |
+| [!BADGE Disponibilité limitée]{type=Neutral} | Déploiement à la demande uniquement. |
+| [!BADGE Version diffusable]{type=Informative} | Dernière version avec de nouvelles fonctionnalités. |
+| [!BADGE Plus disponible]{type=Caution} | Aucun déploiement. Aucun correctif. Il est recommandé de mettre à jour vers une build plus récente. |
+| [!BADGE Obsolète]{type=negative} | Aucun déploiement. Aucun correctif. Les implémentations existantes doivent être mises à niveau. |
 
-![](assets/do-not-localize/blue3.png) **Version d’évaluation** (RC, Release Candidate) : build la plus récente avec des nouvelles fonctionnalités.
+<!--
+![](assets/do-not-localize/green3.png) **General Availability** (GA) - Latest stable build, validated in production, and recommended by Adobe. 
 
-![](assets/do-not-localize/orange3.png) **Plus disponible** : aucun déploiement. Aucun correctif. Il est recommandé de mettre à jour vers une build plus récente.
+![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
-![](assets/do-not-localize/red3.png) **Obsolète** : aucun déploiement. Aucun correctif. Les implémentations existantes doivent être mises à niveau.
+![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest build with new capabilities.
+
+![](assets/do-not-localize/orange3.png) **No longer available** - No deployment. No bug fix. Update to a newer build is recommended.
+
+![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. No bug fix. Existing implementations must be upgraded.
+-->
 
 ## Cycle de publication des versions{#rn-cycle}
 
