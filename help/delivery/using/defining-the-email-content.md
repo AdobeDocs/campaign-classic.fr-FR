@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2017'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ L’insertion et l’utilisation de champs de personnalisation sont présentées
 
 >[!NOTE]
 >
->* Par défaut, l’adresse de l’expéditeur est utilisée pour les réponses.
->* Les paramètres d’en-tête ne doivent pas être vides. Par défaut, elles contiennent les valeurs saisies lors de la configuration de l’assistant de déploiement. En savoir plus dans [cette section](../../installation/using/deploying-an-instance.md).
+>* Par défaut, l’adresse de réponse est l’adresse de l’expéditeur ou de l’expéditrice.
+>* Les paramètres d’en-tête ne doivent pas être vides. Par défaut, ils contiennent les valeurs saisies lors de la configuration de l’assistant de déploiement. En savoir plus dans [cette section](../../installation/using/deploying-an-instance.md).
 >* L&#39;adresse de l&#39;expéditeur est obligatoire pour permettre l&#39;envoi d&#39;un email (norme RFC).
 >* Adobe Campaign effectue une vérification syntaxique des adresses email saisies.
 
 >[!CAUTION]
 >
->Pour éviter tout problème de délivrabilité, les comptes email qui correspondent aux adresses spécifiées pour les diffusions et les réponses doivent exister et doivent être surveillés. Vérifiez auprès de votre administrateur système.
+>Pour éviter tout problème de délivrabilité, les comptes e-mail qui correspondent aux adresses spécifiées pour les diffusions et les réponses doivent exister et doivent être surveillés. Parlez-en avec l’administrateur ou l’administratrice système.
 
 ## Objet du message {#message-subject}
 
@@ -144,16 +144,16 @@ Pour personnaliser la liste des émoticônes, voir cette [page](customizing-emot
 
 ## Ajouter des images {#adding-images}
 
-Les diffusions par email au format HTML peuvent contenir des images. Depuis l&#39;assistant de diffusion, vous pouvez importer une page HTML contenant des images ou insérer des images directement depuis l&#39;éditeur HTML à partir de l&#39;icône **[!UICONTROL Image]**.
+Les diffusions par e-mail au format HTML peuvent contenir des images. Depuis l&#39;assistant de diffusion, vous pouvez importer une page HTML contenant des images ou insérer des images directement depuis l&#39;éditeur HTML à partir de l&#39;icône **[!UICONTROL Image]**.
 
 
 ### Mécanismes de sécurisation {#img-guardrails}
 
-Pour éviter des problèmes de performances, les images incluses dans les emails ne doivent pas dépasser 100 Mo. Cette limite, définie par défaut, peut être modifiée à partir de la variable `NmsDelivery_MaxDownloadedImageSize` . Cependant, Adobe recommande vivement d’éviter les images volumineuses dans vos diffusions email.
+Pour éviter des problèmes de performances, les images incluses dans les e-mails ne doivent pas dépasser 100 Mo. Cette limite, définie par défaut, peut être modifiée à partir de l’option `NmsDelivery_MaxDownloadedImageSize`. Cependant, Adobe recommande vivement d’éviter les images volumineuses dans vos diffusions e-mail.
 
-En savoir plus dans [la liste des options du Campaign Classic ;](../../installation/using/configuring-campaign-options.md#delivery).
+En savoir plus dans [la liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
-### Types d&#39;images {#img-types}
+### Types d’images {#img-types}
 
 Ces images peuvent être :
 
@@ -192,12 +192,12 @@ Dans l’assistant de diffusion, lorsque vous ouvrez un contenu HTML avec des im
 
 >[!IMPORTANT]
 >
-> Les URL de l&#39;image sont modifiées lors du téléchargement manuel ou de l&#39;envoi des messages.
+> Les URL des images sont modifiées lors d’un chargement manuel ou lors de l’envoi des messages.
 > 
 
 ### Cas pratique : envoyer un message avec des images {#uc-images}
 
-Voici un exemple de diffusion avec quatre images :
+Voici un exemple de diffusion avec quatre images :
 
 ![](assets/s_ncs_user_images_in_delivery_wiz_1.png)
 
