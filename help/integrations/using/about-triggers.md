@@ -7,16 +7,14 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 2f6a5884e47ce10ce3c281a4377ee37522c52131
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 91%
 
 ---
 
 # Utilisation des triggers Campaign et Experience Cloud{#about-adobe-experience-triggers}
-
-
 
 [!DNL Triggers] est une intégration entre Adobe Campaign et Adobe Analytics, qui utilise le pipeline. Le pipeline récupère les actions ou déclencheurs des utilisateurs de votre site web. Un abandon de panier est un exemple de déclencheur. Les déclencheurs sont traités dans Adobe Campaign pour envoyer des emails en temps quasi réel.
 
@@ -28,6 +26,8 @@ ht-degree: 100%
 
 Il permet des intégrations plus agiles puisque la configuration est minimale et qu’un tiers n’est pas impliqué.
 Il prend également en charge des volumes élevés de trafic sans affecter les performances des activités marketing. Par exemple, l’intégration peut traiter un million de déclencheurs par heure.
+
+![](assets/do-not-localize/book.png) Découvrez comment [création d’un déclencheur Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html) et identifier, définir et surveiller les comportements critiques des consommateurs.
 
 ## Architecture de [!DNL Triggers]  {#triggers-architecture}
 
