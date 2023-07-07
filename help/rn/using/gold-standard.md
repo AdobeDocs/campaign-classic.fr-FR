@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1780'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Vous trouverez dans cette page des notes de mise à jour et une matrice de compa
 ## Notes de mise à jour de [!DNL Gold Standard]
 
 
-### [!DNL Gold Standard] Version 12{#gs-12}
+### [!DNL Gold Standard] version 12{#gs-12}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
@@ -40,7 +40,7 @@ Le build 9032@99a3894 comprend les correctifs suivants :
 * La fonctionnalité de signature de suivi a été améliorée afin d’éviter les erreurs liées à la manière dont les outils tiers (clients de messagerie, navigateurs Internet, etc.) gèrent les caractères spéciaux. Les paramètres d’URL sont désormais chiffrés.
 * Correction d’un problème lié aux sélecteurs de date qui entraînait l’affichage d’un message d’erreur de blocage dans une console. (NEO-36345)
 
-### [!DNL Gold Standard] Version 11{#gs-11}
+### [!DNL Gold Standard] version 11{#gs-11}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
@@ -87,7 +87,7 @@ Le build 9032@d3b452f comprend les améliorations et correctifs suivants :
 
 * Correction d&#39;un problème en raison duquel les workflows échouaient lors de l&#39;exécution d&#39;une activité d&#39;**enrichissement**. (NEO-17338)
 
-### [!DNL Gold Standard] Version 10{#gs-10}
+### [!DNL Gold Standard] version 10{#gs-10}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
@@ -101,7 +101,7 @@ Correction d’un problème qui empêchait le tracking de fonctionner lorsque la
 >
 >Nous vous recommandons de mettre à niveau la console cliente avec celle disponible dans cette version. Pour plus d’informations, consultez [cette page](../../installation/using/installing-the-client-console.md)
 
-### [!DNL Gold Standard] version 9{#gs-9}
+### [!DNL Gold Standard] version 9{#gs-9}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
@@ -120,7 +120,7 @@ Les correctifs suivants sont liés au mécanisme de sécurité des liens de trac
 * Correction d’un problème de suivi lors de l’utilisation de formules de tracking personnalisées spécifiques. (NEO-25277)
 
 
-### [!DNL Gold Standard] Version 8{#gs-8}
+### [!DNL Gold Standard] version 8{#gs-8}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
@@ -147,7 +147,7 @@ Le build 9032@3a9dc9c comprend les correctifs suivants :
 * Correction d’une régression qui entraînait le blocage du workflow de nettoyage.
 * Correction d’une régression mineure dans les logs du workflow de nettoyage.
 
-### [!DNL Gold Standard] Version 6{#gs-6}
+### [!DNL Gold Standard] version 6{#gs-6}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
@@ -157,7 +157,7 @@ Le build 9032@19f73c5 comprend le correctif suivant :
 
 * Correction d’un problème de comptes externes, lié à l’utilisation de FTP sur SSL. (NEO-20498)
 
-### [!DNL Gold Standard] Version 5{#gs-5}
+### [!DNL Gold Standard] version 5{#gs-5}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
@@ -167,7 +167,7 @@ Le build 9032@d6b8062 comprend le correctif suivant :
 
 * Correction d’un problème de suivi sur les canaux de communication suivants : mobile (SMS, MMS), push (iOS, Android) et réseaux sociaux (Facebook, Twitter). (NEO-19595)
 
-### [!DNL Gold Standard] Version 4{#gs-4}
+### [!DNL Gold Standard] version 4{#gs-4}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
@@ -177,7 +177,7 @@ Le build 9032@bc4a935 comprend le correctif suivant :
 
 * Correction d’un problème de performances lors de l’envoi de messages avec une base de données MSSQL. (NEO-17558)
 
-### [!DNL Gold Standard] Version 3{#gs-3}
+### [!DNL Gold Standard] version 3{#gs-3}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
@@ -189,7 +189,7 @@ Le build 9032@3468c7b comprend les correctifs suivants :
 * Correction d’un problème lors de l’affichage de rapports cumulatifs sur plusieurs diffusions. (NEO-18165)
 * Correction d’un problème susceptible de bloquer ou de provoquer le blocage du serveur web.
 
-### [!DNL Gold Standard] Version 2{#gs-2}
+### [!DNL Gold Standard] version 2{#gs-2}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
