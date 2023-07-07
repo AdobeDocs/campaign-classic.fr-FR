@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 source-git-commit: 45bf9d76dc41fd8cecfaab3f258856861201db3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1163'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Consultez les éléments détaillés ci-dessous pour connaître les processus re
 >
 >* La console cliente et le serveur applicatif Campaign doivent s’exécuter **sur la même version du produit**. Adobe recommande également d’utiliser le **même build du produit**. Découvrez comment vérifier les versions de votre serveur et de votre client Campaign dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 >
->* L’accès au dossier d’installation dans lequel la console est installée doit être limité à l’utilisateur prévu uniquement, en veillant à ce que les autorisations d’écriture soient restreintes en conséquence.
+>* L’accès au dossier d’installation dans lequel la console est installée doit être limité à l’utilisateur ou l’utilisatrice prévu(e) uniquement, en veillant à ce que les autorisations d’écriture soient restreintes en conséquence.
 
 
 
