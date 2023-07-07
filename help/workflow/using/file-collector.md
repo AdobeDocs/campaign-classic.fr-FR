@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
 source-git-commit: 1f87a5fba1298955fa07b9a045b21718c76a7fce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vo
 
    Les deux options suivantes sont disponibles :
 
-   * **[!UICONTROL Traiter l&#39;absence de fichier]**
+   * **[!UICONTROL Traiter les fichiers absents]**
 
      Cette option fait apparaître une transition particulière qui sera activée à chaque vérification de présence de fichier si aucun fichier correspondant au filtre n&#39;est trouvé dans le répertoire spécifié.
 
