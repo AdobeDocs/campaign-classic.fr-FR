@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 100%
 
@@ -85,16 +85,16 @@ Une fois le chemin d’accès au dossier local défini, ajoutez et modifiez les 
 
 * **compressionFormat** : format utilisé lors de la compression des fichiers .eml. Les valeurs possibles sont les suivantes :
 
-   **0** : pas de compression (valeur par défaut)
+  **0** : pas de compression (valeur par défaut)
 
-   **1 : compression (au format .zip)**
+  **1 : compression (au format .zip)**
 
 * **compressBatchSize** : nombre de fichiers .eml ajoutés à une archive (fichier .zip).
 * **archivingType** : stratégie d&#39;archivage à utiliser. Les valeurs possibles sont les suivantes :
 
-   **0** : les copies brutes des emails envoyés sont enregistrées au format .eml dans le dossier **dataLogPath** (valeur par défaut). Une copie d’archivage du fichier **`<deliveryid>-<broadlogid>-sent.eml`** est enregistrée dans le dossier **dataLogPath/archives**. Le chemin d’accès au fichier de l’email envoyé devient **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
+  **0** : les copies brutes des emails envoyés sont enregistrées au format .eml dans le dossier **dataLogPath** (valeur par défaut). Une copie d’archivage du fichier **`<deliveryid>-<broadlogid>-sent.eml`** est enregistrée dans le dossier **dataLogPath/archives**. Le chemin d’accès au fichier de l’email envoyé devient **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
 
-   **1** : les copies brutes des emails sont enregistrées au format .eml dans le dossier **dataLogPath** et sont envoyées à l’adresse email Cci via SMTP. Une fois que les copies d’email sont envoyées à l’adresse Cci, le nom du fichier d’archive devient **`<deliveryid>-<broadlogid>-sent-archived.eml`** et le fichier est déplacé dans le dossier **dataLogPath/archives**. Le chemin d’accès au fichier de l’email envoyé et archivé Cci est alors **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
+  **1** : les copies brutes des emails sont enregistrées au format .eml dans le dossier **dataLogPath** et sont envoyées à l’adresse email Cci via SMTP. Une fois que les copies d’email sont envoyées à l’adresse Cci, le nom du fichier d’archive devient **`<deliveryid>-<broadlogid>-sent-archived.eml`** et le fichier est déplacé dans le dossier **dataLogPath/archives**. Le chemin d’accès au fichier de l’email envoyé et archivé Cci est alors **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
 
 * **expirationDelay** : nombre de jours pendant lesquels les fichiers .eml sont conservés pour archivage. Après ce délai, ils sont automatiquement déplacés vers le dossier **dataLogPath/archives** pour compression. Par défaut, les fichiers .eml expirent au bout de deux jours.
 * **purgeArchivesDelay** : nombre de jours pendant lesquels les archives sont conservées dans le dossier **dataLogPath/`<archives>`**. Après cette période, ils sont définitivement supprimés. La purge commence lorsque le MTA est lancé. Par défaut, elle est exécutée tous les sept jours.

@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
 
@@ -30,11 +30,11 @@ Dans Adobe Campaign, deux types de listes sont disponibles :
 
 * Type **[!UICONTROL Groupe]** : les listes de type **[!UICONTROL Groupe]** appartiennent à une liste **statique** de personnes sélectionnées selon des critères précis. La liste est comme un instantané d&#39;un ensemble de profils. En cas d&#39;ajouts de profils à la base de données, le contenu de la liste n&#39;est pas automatiquement mis à jour.
 
-   Pour plus d&#39;informations sur la création d&#39;une liste de type **[!UICONTROL Groupe]**, consultez cette [page](#creating-a-profile-list-from-a-group).
+  Pour plus d&#39;informations sur la création d&#39;une liste de type **[!UICONTROL Groupe]**, consultez cette [page](#creating-a-profile-list-from-a-group).
 
 * Type **[!UICONTROL Liste]** : les listes de type **[!UICONTROL Liste]** permettent d&#39;utiliser des workflows afin de créer et gérer des listes. Il s&#39;agit alors de listes spécifiques, issues d&#39;un import de données, et qui peuvent faire l&#39;objet d&#39;une mise à jour automatique via l&#39;activité de workflow dédiée **[!UICONTROL Mise à jour de liste]**.
 
-   Contrairement à la liste de type **[!UICONTROL Groupe]**, ce type de liste peut être automatiquement mis à jour avec une activité **[!UICONTROL Planificateur]**. Pour obtenir un exemple de création de listes de type **[!UICONTROL Liste]**, consultez [cette page](../../workflow/using/list-update.md).
+  Contrairement à la liste de type **[!UICONTROL Groupe]**, ce type de liste peut être automatiquement mis à jour avec une activité **[!UICONTROL Planificateur]**. Pour obtenir un exemple de création de listes de type **[!UICONTROL Liste]**, consultez [cette page](../../workflow/using/list-update.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#create-list-video)
 
@@ -58,7 +58,7 @@ Pour créer une liste de type **[!UICONTROL Groupe]**, procédez comme suit :
    * Ajoutez une description pour cette liste.
    * Vous pouvez définir une date d&#39;expiration : lorsque cette date est atteinte, la liste est purgée et automatiquement supprimée.
 
-      ![](assets/list_expiration_date.png)
+     ![](assets/list_expiration_date.png)
 
 1. Dans l&#39;onglet **[!UICONTROL Contenu]**, cliquez sur **[!UICONTROL Ajouter]** pour sélectionner les profils appartenant à la liste.
 
@@ -113,11 +113,11 @@ Pour supprimer un profil d&#39;une liste, vous pouvez :
 
 * Editer la liste, sélectionner le profil dans l&#39;onglet **[!UICONTROL Contenu]**, puis cliquer sur l&#39;icône **[!UICONTROL Supprimer]**.
 
-   ![](assets/list_remove_a_recipient.png)
+  ![](assets/list_remove_a_recipient.png)
 
 * Editer le profil, cliquer sur l&#39;onglet **[!UICONTROL Liste]**, puis sur l&#39;icône **[!UICONTROL Supprimer]**.
 
-   ![](assets/recipient_remove_a_list.png)
+  ![](assets/recipient_remove_a_list.png)
 
 ## Supprimer une liste de profils {#deleting-a-list-of-profiles}
 

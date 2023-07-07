@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Line App
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 100%
 
@@ -165,19 +165,19 @@ Vous pouvez utiliser :
 
 * une **[!UICONTROL image personnalisée]**,
 
-   >[!NOTE]
-   >
-   >Vous pouvez utiliser la variable **%SIZE%** pour optimiser l&#39;affichage de l&#39;image en fonction de la taille de l&#39;écran de l&#39;appareil mobile du destinataire de la diffusion.
+  >[!NOTE]
+  >
+  >Vous pouvez utiliser la variable **%SIZE%** pour optimiser l&#39;affichage de l&#39;image en fonction de la taille de l&#39;écran de l&#39;appareil mobile du destinataire de la diffusion.
 
-   ![](assets/line_message_04.png)
+  ![](assets/line_message_04.png)
 
 * une **[!UICONTROL URL d&#39;image]** par taille d&#39;écran de l&#39;appareil,
 
-   ![](assets/line_message_03.png)
+  ![](assets/line_message_03.png)
 
-   L&#39;option **[!UICONTROL Définir les images par taille d&#39;écran d&#39;appareil]** vous permet d&#39;utiliser différentes résolutions d&#39;image pour optimiser la visibilité de la diffusion sur les appareils mobiles. Seules les images de même hauteur et largeur sont prises en charge.
+  L&#39;option **[!UICONTROL Définir les images par taille d&#39;écran d&#39;appareil]** vous permet d&#39;utiliser différentes résolutions d&#39;image pour optimiser la visibilité de la diffusion sur les appareils mobiles. Seules les images de même hauteur et largeur sont prises en charge.
 
-   Les images peuvent être définies en fonction de la taille de l&#39;écran :
+  Les images peuvent être définies en fonction de la taille de l&#39;écran :
 
    * 1040 px
    * 700 px
@@ -185,17 +185,17 @@ Vous pouvez utiliser :
    * 300 px
    * 240 px
 
-   >[!CAUTION]
-   >
-   >La taille 1 040 x 1 040 px est obligatoire pour toutes les images LINE avec un lien.
+  >[!CAUTION]
+  >
+  >La taille 1 040 x 1 040 px est obligatoire pour toutes les images LINE avec un lien.
 
-   Vous devez ensuite ajouter un texte alternatif qui apparaîtra en pop-up sur l&#39;appareil mobile du destinataire.
+  Vous devez ensuite ajouter un texte alternatif qui apparaîtra en pop-up sur l&#39;appareil mobile du destinataire.
 
 * et les **[!UICONTROL Liens]**.
 
-   La section **[!UICONTROL Liens]** permet d’effectuer un choix parmi différentes dispositions qui divisent votre image en plusieurs zones interactives. Vous pouvez ensuite affecter à chacune d&#39;elles une **[!UICONTROL URL de lien]** dédiée.
+  La section **[!UICONTROL Liens]** permet d’effectuer un choix parmi différentes dispositions qui divisent votre image en plusieurs zones interactives. Vous pouvez ensuite affecter à chacune d&#39;elles une **[!UICONTROL URL de lien]** dédiée.
 
-   ![](assets/line_message_05.png)
+  ![](assets/line_message_05.png)
 
 ### Paramétrage d&#39;une diffusion de type Message vidéo {#configuring-a-video-message-delivery}
 
@@ -205,7 +205,7 @@ Le champ **[!UICONTROL URL de l&#39;image d&#39;aperçu]** permet d&#39;ajouter 
 
 Le champ **[!UICONTROL URL de l&#39;image vidéo]** vous permet d&#39;ajouter l&#39;URL de votre fichier vidéo avec une limite de caractères de 1 000. Seul le format mp4 est pris en charge avec une taille de fichier limitée à 200 Mo.
 
-Veuillez noter que les vidéos larges ou de grande taille peuvent être recadrées lors de la lecture sur certains périphériques.
+Veuillez noter que les vidéos larges ou de grande taille peuvent être recadrées lors de la lecture sur certains appareils.
 
 ![](assets/line_message_06.png)
 

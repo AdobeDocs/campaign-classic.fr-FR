@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
 
@@ -50,9 +50,9 @@ Nous devons tout d&#39;abord configurer ou vérifier les comptes externes d&#39;
 
    * L&#39;URL du **[!UICONTROL serveur de compte AWS S3]** de votre serveur doit être renseignée comme suit :
 
-      ```
-      <S3bucket name>.s3.amazonaws.com/<s3object path>
-      ```
+     ```
+     <S3bucket name>.s3.amazonaws.com/<s3object path>
+     ```
 
    * **[!UICONTROL Id de la clé d&#39;accès AWS]**
 Pour savoir où trouver votre Id de la clé d&#39;accès AWS, consultez cette [page](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
@@ -62,6 +62,7 @@ Pour savoir où trouver votre clé d&#39;accès secrète à AWS, consultez cette
 
    * **[!UICONTROL Région AWS]**
 Pour en savoir plus sur la région AWS, consultez cette [page](https://aws.amazon.com/fr/about-aws/global-infrastructure/regions_az/).
+
    ![](assets/aam_config_2.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** et configurez le compte externe **[!UICONTROL Import d&#39;audiences depuis Adobe Experience Cloud]** comme indiqué dans les étapes précédentes.

@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 100%
 
@@ -89,11 +89,11 @@ Vous pouvez, au choix :
 
 * Récupérer les valeurs les plus représentées
 
-   Dans l&#39;exemple ci-dessus, les 4 valeurs les plus représentées seront affichées, les autres seront comptabilisées et regroupées sous le libellé &#39;Autres&#39;.
+  Dans l&#39;exemple ci-dessus, les 4 valeurs les plus représentées seront affichées, les autres seront comptabilisées et regroupées sous le libellé &#39;Autres&#39;.
 
 * Générer les classes sous forme de plages
 
-   Dans l&#39;exemple ci-dessus, Adobe Campaign crée automatiquement 4 plages de valeurs de même taille pour afficher les valeurs de la base.
+  Dans l&#39;exemple ci-dessus, Adobe Campaign crée automatiquement 4 plages de valeurs de même taille pour afficher les valeurs de la base.
 
 Dans ce cas, le filtre sélectionné au niveau du schéma des faits est ignoré.
 
@@ -153,9 +153,9 @@ Pour créer un nouvel agrégat, les étapes sont les suivantes :
    * L&#39;activité **[!UICONTROL Planificateur]** permet de définir la fréquence de mise à jour des calculs. Le planificateur est présenté dans [cette section](../../workflow/using/scheduler.md).
    * L&#39;activité **[!UICONTROL Mise à jour d&#39;agrégat]** permet de choisir le mode de mise à jour à appliquer : complète ou partielle.
 
-      Par défaut, une mise à jour complète est réalisée à chaque calcul. Pour permettre une mise à jour partielle des données, sélectionnez l&#39;option correspondante puis définissez les conditions de mise à jour.
+     Par défaut, une mise à jour complète est réalisée à chaque calcul. Pour permettre une mise à jour partielle des données, sélectionnez l&#39;option correspondante puis définissez les conditions de mise à jour.
 
-      ![](assets/s_advuser_cube_agregate_05.png)
+     ![](assets/s_advuser_cube_agregate_05.png)
 
 ## Définition des mesures {#defining-measures}
 
@@ -203,7 +203,7 @@ Le paramétrage des mesures, lignes et colonnes affichées peut être réalisé 
 
 * Cliquez sur l&#39;icône **[!UICONTROL Editer la configuration du tableau pivot]** pour accéder à la fenêtre de configuration générale pour toutes les mesures.
 
-   Vous pouvez choisir d&#39;afficher ou non les libellés des mesures ainsi que leur localisation (en ligne ou en colonne).
+  Vous pouvez choisir d&#39;afficher ou non les libellés des mesures ainsi que leur localisation (en ligne ou en colonne).
 
 ![](assets/s_advuser_cube_in_report_config_05.png)
 

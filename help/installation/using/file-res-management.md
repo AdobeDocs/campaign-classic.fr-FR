@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 100%
 
@@ -48,6 +48,7 @@ Les connexions proxy suivantes sont possibles : HTTP, HTTPS, FTP, SFTP. Notez 
 >Seul le mode d’authentification de base est pris en charge. L’authentification NTLM n’est pas prise en charge.
 >
 >Les proxys SOCKS ne sont pas pris en charge.
+>
 
 Vous pouvez utiliser la commande suivante :
 

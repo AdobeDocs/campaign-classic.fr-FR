@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
 
@@ -89,19 +89,20 @@ Les étapes sont les suivantes :
 
    * Créer l&#39;instance via la console :
 
-      ![](assets/install_create_new_connexion.png)
+     ![](assets/install_create_new_connexion.png)
 
-      Voir à ce sujet la section [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
+     Voir à ce sujet la section [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
 
-      ou
+     ou
 
    * Créer l&#39;instance en ligne de commande :
 
-      ```
-      nlserver config -addinstance:demo/tracking.campaign.net*
-      ```
+     ```
+     nlserver config -addinstance:demo/tracking.campaign.net*
+     ```
 
-      Voir à ce sujet la section [Création d&#39;une instance](../../installation/using/command-lines.md#creating-an-instance).
+     Voir à ce sujet la section [Création d&#39;une instance](../../installation/using/command-lines.md#creating-an-instance).
+
    Le nom de l&#39;instance est le même que le celui du serveur applicatif.
 
    La connexion au serveur avec le module **nlserver web** (pages miroir, désinscription) s&#39;effectuera à partir de l&#39;URL du répartiteur de charge (tracking.campaign.net).
@@ -124,24 +125,24 @@ Les étapes sont les suivantes :
 
    * la configuration DNS du module MTA :
 
-      ```
-      <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
-      ```
+     ```
+     <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
+     ```
 
-      >[!NOTE]
-      >
-      >Le paramètre **nameServers** n&#39;est utile que sous Windows.
+     >[!NOTE]
+     >
+     >Le paramètre **nameServers** n&#39;est utile que sous Windows.
 
-      Voir à ce sujet la section [Paramètres de diffusion](configure-delivery-settings.md).
+     Voir à ce sujet la section [Paramètres de diffusion](configure-delivery-settings.md).
 
    * les serveurs de tracking redondants dans les paramètres de la redirection :
 
-      ```
-      <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
-      <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
-      ```
+     ```
+     <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
+     <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
+     ```
 
-      Voir à ce sujet la section [Tracking redondant](configuring-campaign-server.md#redundant-tracking).
+     Voir à ce sujet la section [Tracking redondant](configuring-campaign-server.md#redundant-tracking).
 
 1. Démarrez le site web et testez la redirection à partir de l&#39;URL : [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test)
 

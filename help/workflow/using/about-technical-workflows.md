@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 | **Calcul de l&#39;agrégat intégral de MessageCenter** (agg_messageCenter_full) | Contrôle des messages transactionnels (Message Center - Pilotage) | Ce workflow met à jour l’agrégat intégral du cube Message Center. Il est déclenché tous les jours à 3h du matin par défaut. Cet agrégat capture les dimensions suivantes : Canal, Date, Statut et Type d&#39;événement. Le cube Message Center est ensuite utilisé pour générer des rapports basés sur des événements. Vous pouvez en savoir plus sur les cubes dans [cette section](../../reporting/using/ac-cubes.md) |
 | **Mid-sourcing (compteurs des diffusions)** (defaultMidSourcingDlv) | Emission vers Mid-sourcing | Ce workflow collecte les informations de comptage des diffusions sur le serveur de mid-sourcing. Les informations de comptage comprennent les indicateurs généraux de diffusion tels que le nombre de diffusions envoyées, etc. Les informations de tracking comme les ouvertures ne sont pas incluses. Par défaut, il se déclenche toutes les dix minutes. |
 | **Mid-sourcing (logs de diffusion)** (defaultMidSourcingLog) | Emission vers Mid-sourcing | Ce workflow collecte les logs des diffusions sur le serveur de mid-sourcing. Par défaut, il se déclenche toutes les heures. |
-| **Gestion des opt-out NMAC** (mobileAppOptOutMgt) | Canal des applications mobiles | Ce workflow met à jour les désinscriptions aux notifications sur les terminaux mobiles. Par défaut, il se déclenche toutes les 6H00 entre 1H00 et minuit. Pour plus d&#39;informations, voir à ce sujet [cette section](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines). |
+| **Gestion des opt-out NMAC** (mobileAppOptOutMgt) | Canal des applications mobiles | Ce workflow met à jour les désinscriptions aux notifications sur les appareils mobiles. Par défaut, il se déclenche toutes les 6 heures entre 1 h 00 et minuit. Pour plus d&#39;informations, voir à ce sujet [cette section](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines). |
 | **Notification d&#39;offre** (offerMgt) | Diffusion | Toutes les heures, ce workflow déploie les offres validées sur l&#39;environnement en ligne, ainsi que toutes les catégories contenues dans le catalogue d&#39;offres. |
 | **Nettoyage des workflows en pause** (cleanupPausedWorkflows) | Diffusion | Ce workflow analyse les workflows en pause dont le niveau de priorité est défini sur normal et déclenche des avertissements et des notifications lorsqu&#39;ils sont en pause depuis trop longtemps. Après un mois, les workflows techniques en pause sont arrêtés de manière inconditionnelle. Par défaut, ce workflow est déclenché tous les lundis à 5h00. Pour plus d’informations, voir [Gérer les workflows en pause](monitoring-workflow-execution.md#handling-of-paused-workflows). |
 | **Nettoyage des demandes d&#39;accès à des informations personnelles** (cleanupPrivacyRequests) | Règlement sur la protection des informations personnelles | Ce workflow supprime les fichiers de demande d’accès qui ont plus de 90 jours. |

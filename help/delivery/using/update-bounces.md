@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -36,6 +36,7 @@ Notez que si des bounces de report affichant le message « 452 action demandée
 >Vous pouvez vérifier le tableau de bord de statut du système Apple sur [cette page](https://www.apple.com/fr/support/systemstatus/){_blank}..
 >
 >Vous pouvez vérifier le tableau de bord de statut de Google Workspace sur [cette page](https://www.google.com/appsstatus#hl=fr&amp;v=status){_blank}.
+>
 
 ## Impact{#update-bounce-impact}
 
@@ -62,7 +63,7 @@ En fonction du calendrier de l’incident et du FAI, voici les instructions reco
 
    * **Le texte d’erreur (texte de quarantaine)** contient « 550-5.1.1 » ET **Le texte d’erreur (texte de quarantaine)** contient « support.ISP.com »,
 
-      où « ISP.com » peut être « support.apple.com » ou « support.google.com », par exemple.
+     où « ISP.com » peut être « support.apple.com » ou « support.google.com », par exemple.
 
    * **Mise à jour du statut (@lastModified)** le ou après le JJ/MM/AAAA à HH:MM:SS AM
    * **Mise à jour du statut (@lastModified)** le ou avant le JJ/MM/AAAA à HH:MM:SS PM

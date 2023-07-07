@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
 
@@ -26,11 +26,11 @@ Pour chaque champ de saisie d&#39;un formulaire, les options de stockage suivant
 
 * **[!UICONTROL Editer un destinataire]**
 
-   Vous pouvez sélectionner un champ de la base de données : les réponses des utilisateurs seront stockées dans ce champ. Pour chaque utilisateur, seule la dernière valeur saisie est enregistrée et ajoutée à leur profil : voir à ce sujet la section [Stockage des données dans la base de données](#storing-data-in-the-database).
+  Vous pouvez sélectionner un champ de la base de données : les réponses des utilisateurs seront stockées dans ce champ. Pour chaque utilisateur, seule la dernière valeur saisie est enregistrée et ajoutée à leur profil : voir à ce sujet la section [Stockage des données dans la base de données](#storing-data-in-the-database).
 
 * **[!UICONTROL Variable]**
 
-   Vous pouvez utiliser une variable si vous ne souhaitez pas stocker les informations dans la base de données. Les variables locales peuvent être déclarées en amont. Voir à ce sujet la section [Stocker les données dans une variable locale](#storing-data-in-a-local-variable).
+  Vous pouvez utiliser une variable si vous ne souhaitez pas stocker les informations dans la base de données. Les variables locales peuvent être déclarées en amont. Voir à ce sujet la section [Stocker les données dans une variable locale](#storing-data-in-a-local-variable).
 
 ### Stockage des données dans la base de données {#storing-data-in-the-database}
 
@@ -88,25 +88,25 @@ Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans 
 
 * Pour un contenu stocké dans un champ de la base :
 
-   ```
-   <%=ctx.recipient.@field name%
-   ```
+  ```
+  <%=ctx.recipient.@field name%
+  ```
 
 * Pour un contenu stocké dans une variable locale :
 
-   ```
-   <%= ctx.vars.variable name %
-   ```
+  ```
+  <%= ctx.vars.variable name %
+  ```
 
 * Pour un contenu stocké dans un champ texte HTML :
 
-   ```
-   <%== HTML field name %
-   ```
+  ```
+  <%== HTML field name %
+  ```
 
-   >[!NOTE]
-   >
-   >Contrairement aux autres champs pour lesquels les caractères `<%=` sont remplacés par des caractères d’échappement, le contenu HTML est conservé tel quel grâce à l’utilisation de la syntaxe`<%==`.
+  >[!NOTE]
+  >
+  >Contrairement aux autres champs pour lesquels les caractères `<%=` sont remplacés par des caractères d’échappement, le contenu HTML est conservé tel quel grâce à l’utilisation de la syntaxe`<%==`.
 
 ## Enregistrer les réponses aux formulaires web {#saving-web-forms-answers}
 
@@ -118,15 +118,15 @@ Deux modes d&#39;utilisation de cette boîte sont possibles :
 
 * Si l’accès au formulaire web se fait via un lien envoyé dans un email, et donc si l’utilisateur qui a accès à l’application web est déjà en base, vous pouvez cocher l’option **[!UICONTROL Mettre à jour l’enregistrement pré-chargé]**. Voir à ce sujet la section [Diffuser un formulaire par email](publishing-a-web-form.md#delivering-a-form-via-email).
 
-   Adobe Campaign utilise alors par défaut la clé primaire chiffrée du profil de l’utilisateur, qui est un identifiant unique attribué à chaque profil par Adobe Campaign. Vous devez paramétrer les informations à précharger à partir de la boîte de préchargement. Pour plus d’informations, consultez la section [Précharger les données du formulaire](publishing-a-web-form.md#pre-loading-the-form-data).
+  Adobe Campaign utilise alors par défaut la clé primaire chiffrée du profil de l’utilisateur, qui est un identifiant unique attribué à chaque profil par Adobe Campaign. Vous devez paramétrer les informations à précharger à partir de la boîte de préchargement. Pour plus d’informations, consultez la section [Précharger les données du formulaire](publishing-a-web-form.md#pre-loading-the-form-data).
 
-   >[!CAUTION]
-   >
-   >Cette option surcharge les données de l’utilisateur, y compris son adresse e-mail si un champ permet de la saisir. Elle ne permet pas de créer des profils et requiert l’utilisation d’une boîte de préchargement dans le formulaire.
+  >[!CAUTION]
+  >
+  >Cette option surcharge les données de l’utilisateur, y compris son adresse e-mail si un champ permet de la saisir. Elle ne permet pas de créer des profils et requiert l’utilisation d’une boîte de préchargement dans le formulaire.
 
 * Pour enrichir les données des destinataires en base, modifiez la boîte d’enregistrement pour sélectionner la clé de réconciliation. Pour une utilisation en interne (typiquement, sur un intranet) ou pour un formulaire de création de profils, par exemple, vous pouvez sélectionner le ou les champs de réconciliation. La boîte propose tous les champs de la base de données utilisés dans les différentes pages de l’application web :
 
-   ![](assets/s_ncs_admin_survey_save_box_edit.png)
+  ![](assets/s_ncs_admin_survey_save_box_edit.png)
 
 Par défaut, les données sont importées dans la base par une opération de **[!UICONTROL Mise à jour ou insertion]** : s’il existe dans la base, l’élément est mis à jour (par exemple la newsletter choisie ou l’e-mail renseigné). S’il n’existe pas, l’information est ajoutée.
 

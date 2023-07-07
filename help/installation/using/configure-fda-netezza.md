@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
 
@@ -36,33 +36,33 @@ La connexion à une base de données externe Netezza en FDA requiert les paramé
 
    * **/etc/odbc.ini**
 
-      ```
-      [ODBC]
-      InstallDir=/etc/
-      ```
+     ```
+     [ODBC]
+     InstallDir=/etc/
+     ```
 
-      « InstallDir » correspond à l’emplacement du fichier odbcinst.ini.
+     « InstallDir » correspond à l’emplacement du fichier odbcinst.ini.
 
    * **/etc/odbcinst.ini**
 
-      ```
-      [ODBC Drivers]
-      NetezzaSQL = Installed
-      
-      [NetezzaSQL]
-      Driver           = /usr/local/nz/lib/libnzsqlodbc3.so
-      Setup            = /usr/local/nz/lib/libnzsqlodbc3.so
-      APILevel         = 1
-      ConnectFunctions = YYN
-      Description      = Netezza ODBC driver
-      DriverODBCVer    = 03.51
-      DebugLogging     = false
-      LogPath          = /tmp
-      UnicodeTranslationOption = utf8
-      CharacterTranslationOption = all
-      PreFetch         = 256
-      Socket           = 16384
-      ```
+     ```
+     [ODBC Drivers]
+     NetezzaSQL = Installed
+     
+     [NetezzaSQL]
+     Driver           = /usr/local/nz/lib/libnzsqlodbc3.so
+     Setup            = /usr/local/nz/lib/libnzsqlodbc3.so
+     APILevel         = 1
+     ConnectFunctions = YYN
+     Description      = Netezza ODBC driver
+     DriverODBCVer    = 03.51
+     DebugLogging     = false
+     LogPath          = /tmp
+     UnicodeTranslationOption = utf8
+     CharacterTranslationOption = all
+     PreFetch         = 256
+     Socket           = 16384
+     ```
 
 1. Définissez les variables d’environnement du serveur Adobe Campaign :
 

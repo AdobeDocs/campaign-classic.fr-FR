@@ -5,7 +5,7 @@ description: Méthodes SOAP en JavaScript
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 100%
 
@@ -50,52 +50,52 @@ for each (var w in res.workflow)
 
 * Requête sur la table des destinataires avec une opération &quot;get&quot; :
 
-   ```
-   var query = xtk.queryDef.create(  
-     <queryDef schema="nms:recipient" operation="get">    
-       <select>      
-         <node expr="@firstName"/>      
-         <node expr="@lastName"/>      
-         <node expr="@email"/>    
-       </select>    
-       <where>      
-         <condition expr="@email = 'peter.martinez@adobe.com'"/>    
-       </where>  
-     </queryDef>)
-   
-   var recipient = query.ExecuteQuery()
-   
-   logInfo(recipient.@firstName)
-   logInfo(recipient.@lastName)
-   ```
+  ```
+  var query = xtk.queryDef.create(  
+    <queryDef schema="nms:recipient" operation="get">    
+      <select>      
+        <node expr="@firstName"/>      
+        <node expr="@lastName"/>      
+        <node expr="@email"/>    
+      </select>    
+      <where>      
+        <condition expr="@email = 'peter.martinez@adobe.com'"/>    
+      </where>  
+    </queryDef>)
+  
+  var recipient = query.ExecuteQuery()
+  
+  logInfo(recipient.@firstName)
+  logInfo(recipient.@lastName)
+  ```
 
 * Requête sur la table des destinataires avec une opération &quot;select&quot; :
 
-   ```
-   var query = xtk.queryDef.create(  
-     <queryDef schema="nms:recipient" operation="select">    
-       <select>      
-         <node expr="@email"/>      
-         <node expr="@lastName"/>      
-         <node expr="@firstName"/>    
-       </select>    
-       <where>      
-         <condition expr="@age > 25"/>    
-       </where>    
-     </queryDef>)
-   
-   var res = query.ExecuteQuery()
-   
-   for each (var recipient in res.recipient) 
-   {  
-     logInfo(recipient.@email)  
-     logInfo(recipient.@firstName)  
-     logInfo(recipient.@lastName)
-   }
-   ```
+  ```
+  var query = xtk.queryDef.create(  
+    <queryDef schema="nms:recipient" operation="select">    
+      <select>      
+        <node expr="@email"/>      
+        <node expr="@lastName"/>      
+        <node expr="@firstName"/>    
+      </select>    
+      <where>      
+        <condition expr="@age > 25"/>    
+      </where>    
+    </queryDef>)
+  
+  var res = query.ExecuteQuery()
+  
+  for each (var recipient in res.recipient) 
+  {  
+    logInfo(recipient.@email)  
+    logInfo(recipient.@firstName)  
+    logInfo(recipient.@lastName)
+  }
+  ```
 
 * Ecriture de données sur la table des destinataires :
 
-   ```
-   xtk.session.Write(<recipient _operation="insert" lastName="Martinez" firstName="Peter" xtkschema="nms:recipient"/>);
-   ```
+  ```
+  xtk.session.Write(<recipient _operation="insert" lastName="Martinez" firstName="Peter" xtkschema="nms:recipient"/>);
+  ```

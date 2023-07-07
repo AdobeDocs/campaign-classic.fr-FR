@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
 
@@ -31,32 +31,32 @@ Il existe trois seuils différents :
 
    * **Côté Tomcat** : ensemble des requêtes arrivant effectivement sur le client Tomcat Adobe Campaign.
 
-      Ce seuil est configuré dans le fichier **nl6/tomcat-8/conf/server.xml**. L&#39;attribut **maxThreads** permet d&#39;augmenter le seuil du nombre de requêtes traitées à la fois. Il peut être remplacé par 250, par exemple.
+     Ce seuil est configuré dans le fichier **nl6/tomcat-8/conf/server.xml**. L&#39;attribut **maxThreads** permet d&#39;augmenter le seuil du nombre de requêtes traitées à la fois. Il peut être remplacé par 250, par exemple.
 
-      ```
-      <Connector protocol="HTTP/1.1" port="8080"
-                     maxThreads="75"
-                     minSpareThreads="5"
-                     enableLookups="true" redirectPort="8443"
-                     acceptCount="100" connectionTimeout="20000"
-                     disableUploadTimeout="true" />
-          <Engine name="Tomcat-Standalone" defaultHost="localhost">
-            <Host name="localhost" appBase="./"
-                  unpackWARs="true" autoDeploy="true">
-      ```
+     ```
+     <Connector protocol="HTTP/1.1" port="8080"
+                    maxThreads="75"
+                    minSpareThreads="5"
+                    enableLookups="true" redirectPort="8443"
+                    acceptCount="100" connectionTimeout="20000"
+                    disableUploadTimeout="true" />
+         <Engine name="Tomcat-Standalone" defaultHost="localhost">
+           <Host name="localhost" appBase="./"
+                 unpackWARs="true" autoDeploy="true">
+     ```
 
    * **Base de données** : ensemble de toutes les connexions ouvertes simultanément sur la base de données par un processus.
 
-      Ce seuil est paramétré dans le fichier **nl6/conf/serverConf.xml**. L&#39;attribut **maxCnx** situé dans **datasource pool** permet d&#39;augmenter le seuil des requêtes traitées simultanément.
+     Ce seuil est paramétré dans le fichier **nl6/conf/serverConf.xml**. L&#39;attribut **maxCnx** situé dans **datasource pool** permet d&#39;augmenter le seuil des requêtes traitées simultanément.
 
-      ```
-          <!-- Data source
-               -->
-            <dataSource name="default">
-              <dbcnx NChar="" bulkCopyUtility="" dbSchema="" encrypted="" login="" password="" provider="" server="" timezone="" unicodeData="" useTimestampTZ=""/>
-              <sqlParams funcPrefix="">
-                <postConnectSQL/>
-              </sqlParams>
-              <pool aliveTestDelaySec="600" freeCnx="0" maxCnx="90" maxIdleDelaySec="1200"/>
-            </dataSource>
-      ```
+     ```
+         <!-- Data source
+              -->
+           <dataSource name="default">
+             <dbcnx NChar="" bulkCopyUtility="" dbSchema="" encrypted="" login="" password="" provider="" server="" timezone="" unicodeData="" useTimestampTZ=""/>
+             <sqlParams funcPrefix="">
+               <postConnectSQL/>
+             </sqlParams>
+             <pool aliveTestDelaySec="600" freeCnx="0" maxCnx="90" maxIdleDelaySec="1200"/>
+           </dataSource>
+     ```

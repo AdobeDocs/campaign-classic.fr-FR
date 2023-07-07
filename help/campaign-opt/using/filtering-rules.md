@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Typology Rules
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 100%
 
@@ -79,6 +79,7 @@ Vous pouvez également associer directement des règles de filtrage depuis cet o
 >Seules les typologies et règles de filtrage sont proposées dans la fenêtre de sélection.
 >
 >Ces paramétrages peuvent être définis au niveau du modèle de diffusion afin de les appliquer automatiquement à toute nouvelle diffusion créée à partir de ce modèle.
+>
 
 ## Règles d&#39;exclusion de délivrabilité par défaut      {#default-deliverability-exclusion-rules}
 

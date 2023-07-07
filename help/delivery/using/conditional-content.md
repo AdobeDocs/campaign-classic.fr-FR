@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization, Multilingual Messages
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -48,22 +48,22 @@ Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, res
 
    * Sélectionnez le premier élément de l’expression **`<field>`** (par défaut, cet élément est en surbrillance lors de l’insertion de l’expression **if**) et cliquez sur l’icône de personnalisation pour le remplacer par le champ sur lequel porte le test.
 
-      ![](assets/s_ncs_user_conditional_content03.png)
+     ![](assets/s_ncs_user_conditional_content03.png)
 
    * Remplacez **`<value>`** par la valeur du champ pour lequel la condition sera remplie. Cette valeur doit être entre guillemets.
    * Spécifiez ensuite le contenu à insérer lorsque la condition est vérifiée. Ce contenu peut être du texte, une image, un formulaire, un lien hypertexte, etc.
 
-      ![](assets/s_ncs_user_conditional_content04.png)
+     ![](assets/s_ncs_user_conditional_content04.png)
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** pour visualiser le contenu du message en fonction du destinataire de la diffusion :
 
    * Sélection d&#39;un destinataire pour lequel la condition est vérifiée :
 
-      ![](assets/s_ncs_user_conditional_content05.png)
+     ![](assets/s_ncs_user_conditional_content05.png)
 
    * Sélection d&#39;un destinataire pour lequel la condition n&#39;est pas vérifiée :
 
-      ![](assets/s_ncs_user_conditional_content06.png)
+     ![](assets/s_ncs_user_conditional_content06.png)
 
 Vous pouvez ajouter d&#39;autres cas et définir un contenu différent en fonction des valeurs d&#39;un ou plusieurs champs. Utilisez pour cela les options **[!UICONTROL Contenu conditionnel > Sinon]** et **[!UICONTROL Contenu conditionnel > Sinon si]**. Le paramétrage de ces expressions est le même que pour l&#39;expression **if**.
 

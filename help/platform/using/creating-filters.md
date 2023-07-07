@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2087'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Lorsque vous naviguez dans l’arborescence d’Adobe Campaign (à partir du me
 
 >[!NOTE]
 >
->Les paramètres de configuration de l’interface utilisateur sont définis localement pour le périphérique. Il peut parfois être nécessaire de nettoyer ces données, en particulier si des problèmes surviennent lors de leur actualisation. Pour ce faire, utilisez le menu **[!UICONTROL Fichier > Vider le cache local]**.
+>Les paramètres de configuration de l’interface utilisateur sont définis localement pour l’appareil. Il peut parfois être nécessaire de nettoyer ces données, en particulier si des problèmes surviennent lors de leur actualisation. Pour ce faire, utilisez le menu **[!UICONTROL Fichier > Vider le cache local]**.
 
 ## Typologie des filtres disponibles {#typology-of-available-filters}
 
@@ -35,9 +35,9 @@ Les types de filtres disponibles dans Adobe Campaign sont les suivants :
 
 * **Filtres par défaut**
 
-   Le **filtre par défaut** est accessible depuis les champs situés au-dessus des listes. Il permet de filtrer sur des champs prédéfinis (par défaut, pour les profils de destinataires, le nom et l&#39;email). Les champs permettent de saisir les caractères sur lesquels porte le filtre ou de sélectionner les conditions de filtrage dans une liste déroulante.
+  Le **filtre par défaut** est accessible depuis les champs situés au-dessus des listes. Il permet de filtrer sur des champs prédéfinis (par défaut, pour les profils de destinataires, le nom et l&#39;email). Les champs permettent de saisir les caractères sur lesquels porte le filtre ou de sélectionner les conditions de filtrage dans une liste déroulante.
 
-   ![](assets/filters_recipient_default_filter.png)
+  ![](assets/filters_recipient_default_filter.png)
 <!--
   >[!NOTE]
   >
@@ -47,31 +47,31 @@ Vous pouvez modifier le filtre par défaut d’une liste. Pour plus d’informat
 
 * **Filtres simples**
 
-   Les **filtres simples** sont des filtres ponctuels sur les colonnes. Ils sont définis avec un ou plusieurs critères de recherche simple sur les colonnes affichées.
+  Les **filtres simples** sont des filtres ponctuels sur les colonnes. Ils sont définis avec un ou plusieurs critères de recherche simple sur les colonnes affichées.
 
-   Vous pouvez conjuguer plusieurs filtres simples sur une même liste de données pour affiner votre recherche. Les champs de filtrage s&#39;affichent les uns en-dessous des autres. Ils peuvent être supprimés indépendamment les uns des autres.
+  Vous pouvez conjuguer plusieurs filtres simples sur une même liste de données pour affiner votre recherche. Les champs de filtrage s&#39;affichent les uns en-dessous des autres. Ils peuvent être supprimés indépendamment les uns des autres.
 
-   ![](assets/filters_recipient_simple_filter.png)
+  ![](assets/filters_recipient_simple_filter.png)
 
-   Les filtres simples sont détaillés dans la section [Créer un filtre simple](#creating-a-simple-filter).
+  Les filtres simples sont détaillés dans la section [Créer un filtre simple](#creating-a-simple-filter).
 
 * **Filtres avancés**
 
-   Les **filtres avancés** sont créés à partir d’une requête ou d’une combinaison de requêtes sur les données.
+  Les **filtres avancés** sont créés à partir d’une requête ou d’une combinaison de requêtes sur les données.
 
-   Pour plus d’informations sur la création d’un filtre avancé, voir la section [Créer un filtre avancé](#creating-an-advanced-filter).
+  Pour plus d’informations sur la création d’un filtre avancé, voir la section [Créer un filtre avancé](#creating-an-advanced-filter).
 
-   Vous pouvez utiliser des fonctions pour définir le contenu du filtre. Pour plus d’informations à ce sujet, consultez la section [Créer un filtre avancé avec fonctions](#creating-an-advanced-filter-with-functions).
+  Vous pouvez utiliser des fonctions pour définir le contenu du filtre. Pour plus d’informations à ce sujet, consultez la section [Créer un filtre avancé avec fonctions](#creating-an-advanced-filter-with-functions).
 
-   >[!NOTE]
-   >
-   >Pour plus d’informations sur la construction des requêtes dans Adobe Campaign, reportez-vous à [cette section](../../platform/using/about-queries-in-campaign.md).
+  >[!NOTE]
+  >
+  >Pour plus d’informations sur la construction des requêtes dans Adobe Campaign, reportez-vous à [cette section](../../platform/using/about-queries-in-campaign.md).
 
 * **Filtres utilisateurs**
 
-   Un **filtre applicatif** est un filtre avancé qui a été enregistré afin d&#39;en conserver le paramétrage et le partager avec les autres opérateurs.
+  Un **filtre applicatif** est un filtre avancé qui a été enregistré afin d&#39;en conserver le paramétrage et le partager avec les autres opérateurs.
 
-   Le bouton **[!UICONTROL Filtres]**, situé au-dessus des listes, propose un ensemble de filtres d’application pouvant être combinés pour affiner le filtrage. La méthode de création de ces filtres est présentée dans la section [Enregistrer un filtre](#saving-a-filter).
+  Le bouton **[!UICONTROL Filtres]**, situé au-dessus des listes, propose un ensemble de filtres d’application pouvant être combinés pour affiner le filtrage. La méthode de création de ces filtres est présentée dans la section [Enregistrer un filtre](#saving-a-filter).
 
 ## Modifier le filtre par défaut {#altering-the-default-filter}
 
@@ -188,15 +188,15 @@ Les filtres avancés peuvent utiliser des fonctions : les **filtres avec foncti
    * **[!UICONTROL Filtre utilisateur]** pour sélectionner l’un des filtres utilisateur existants. Les filtres utilisateur sont présentés dans la section [Enregistrer un filtre](#saving-a-filter).
    * **[!UICONTROL Expression]** pour accéder à l&#39;éditeur d&#39;expressions
 
-      L&#39;éditeur d&#39;expression permet de définir un filtre avancé. Il se présente comme suit :
+     L&#39;éditeur d&#39;expression permet de définir un filtre avancé. Il se présente comme suit :
 
-      ![](assets/s_ncs_user_create_exp_exple01.png)
+     ![](assets/s_ncs_user_create_exp_exple01.png)
 
-      Il vous permet de sélectionner des champs dans les tables de base de données et de leur associer des fonctions avancées : sélectionnez la fonction à utiliser dans la **[!UICONTROL liste des fonctions]**. Les fonctions disponibles sont présentées dans la [liste des fonctions](../../platform/using/defining-filter-conditions.md#list-of-functions). Ensuite, sélectionnez les champs concernés par les fonctions et cliquez sur **[!UICONTROL OK]** pour valider l’expression.
+     Il vous permet de sélectionner des champs dans les tables de base de données et de leur associer des fonctions avancées : sélectionnez la fonction à utiliser dans la **[!UICONTROL liste des fonctions]**. Les fonctions disponibles sont présentées dans la [liste des fonctions](../../platform/using/defining-filter-conditions.md#list-of-functions). Ensuite, sélectionnez les champs concernés par les fonctions et cliquez sur **[!UICONTROL OK]** pour valider l’expression.
 
-      >[!NOTE]
-      >
-      >Un exemple de création de filtre à partir d’une expression est présenté dans [cette section](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
+     >[!NOTE]
+     >
+     >Un exemple de création de filtre à partir d’une expression est présenté dans [cette section](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
 
 ## Enregistrer un filtre {#saving-a-filter}
 
@@ -208,13 +208,13 @@ Ces filtres sont également accessibles directement depuis l&#39;assistant de di
 
 * Transformer un filtre avancé en filtre applicatif : pour cela, vous devez cliquer sur **[!UICONTROL Enregistrer]** avant de fermer l&#39;éditeur de filtres avancés.
 
-   ![](assets/s_ncs_user_filter_save.png)
+  ![](assets/s_ncs_user_filter_save.png)
 
 * Créer ce filtre applicatif depuis le noeud **[!UICONTROL Administration > Paramétrage > Filtres prédéfinis]** (ou **[!UICONTROL Profils et Cibles > Filtres prédéfinis]** pour les destinataires). Pour cela, cliquez avec le bouton droit de la souris dans la liste des filtres et choisissez **[!UICONTROL Nouveau...]**. La procédure est la même que pour créer des filtres avancés.
 
-   Le champ **[!UICONTROL Libellé]** vous permet de nommer ce filtre. Ce nom apparaîtra dans la liste déroulante du bouton **[!UICONTROL Filtres...]**.
+  Le champ **[!UICONTROL Libellé]** vous permet de nommer ce filtre. Ce nom apparaîtra dans la liste déroulante du bouton **[!UICONTROL Filtres...]**.
 
-   ![](assets/user_filter_apply.png)
+  ![](assets/user_filter_apply.png)
 
 Vous pouvez supprimer l&#39;ensemble des filtres sur la liste en cours à partir de l&#39;option **[!UICONTROL Pas de filtre]** accessible depuis le bouton droit de la souris ou l&#39;icône **[!UICONTROL Filtres]**, située au-dessus de la liste.
 
@@ -349,15 +349,15 @@ Exemples de comptage :
 
 * Sélection des destinataires de moins de 30 ans :
 
-   ![](assets/predefined_filters_01.png)
+  ![](assets/predefined_filters_01.png)
 
 * Sélection des destinataires de 18 ans et plus :
 
-   ![](assets/predefined_filters_03.png)
+  ![](assets/predefined_filters_03.png)
 
 * Sélection des destinataires qui ont entre 18 et 30 ans :
 
-   ![](assets/predefined_filters_02.png)
+  ![](assets/predefined_filters_02.png)
 
 ## Paramètres avancés des filtres sur les données {#advanced-settings-for-data-filters}
 
@@ -365,17 +365,17 @@ Cliquez sur l&#39;onglet **[!UICONTROL Paramètres]** pour accéder aux options 
 
 * **[!UICONTROL Filtre par défaut pour le type de document associé]** : cette option permet de proposer ce filtre par défaut dans l&#39;éditeur des listes concernées par le tri.
 
-   Par exemple, le filtre **[!UICONTROL Par nom ou login]** est appliqué aux opérateurs. Cette option est sélectionnée donc le filtre est systématiquement proposé sur toutes les listes d&#39;opérateurs.
+  Par exemple, le filtre **[!UICONTROL Par nom ou login]** est appliqué aux opérateurs. Cette option est sélectionnée donc le filtre est systématiquement proposé sur toutes les listes d&#39;opérateurs.
 
 * **[!UICONTROL Filtre partagé avec les autres opérateurs]** : cette option permet de rendre ce filtre disponible pour tous les autres opérateurs sur la base courante.
 * **[!UICONTROL Utilisation d&#39;un formulaire de saisie des paramètres]** : cette option permet de définir le ou les champs de filtrage qui s&#39;afficheront au-dessus de la liste lorsque ce filtre sera sélectionné. Ces champs permettent de définir les paramètres du filtre. Ce formulaire doit alors être saisi au format XML depuis le bouton **[!UICONTROL Formulaire]**. Par exemple, le filtre préconfiguré **[!UICONTROL Ayant ouvert]**, disponible dans la liste des destinataires, affiche un champ de filtrage permettant de sélectionner la diffusion visée par le filtre.
 
-   Le bouton **[!UICONTROL Aperçu]** permet de visualiser le résultat du filtre choisi.
+  Le bouton **[!UICONTROL Aperçu]** permet de visualiser le résultat du filtre choisi.
 
 * Le lien **[!UICONTROL Paramètres avancés]** permet de définir des paramétrages complémentaires, et notamment d&#39;associer à ce filtre une table SQL afin de le rendre commun à tous les éditeurs qui partagent cette table.
 
-   Cochez l&#39;option **[!UICONTROL Ne pas restreindre le filtre]** si vous souhaitez interdire à l&#39;utilisateur de surcharger ce filtre.
+  Cochez l&#39;option **[!UICONTROL Ne pas restreindre le filtre]** si vous souhaitez interdire à l&#39;utilisateur de surcharger ce filtre.
 
-   Cette option est par exemple activée pour les filtres &quot;Destinataires d&#39;une diffusion&quot; et &quot;Destinataires des diffusions appartenant à un dossier&quot; proposés dans l&#39;assistant de diffusion et qui ne peuvent pas être surchargés.
+  Cette option est par exemple activée pour les filtres &quot;Destinataires d&#39;une diffusion&quot; et &quot;Destinataires des diffusions appartenant à un dossier&quot; proposés dans l&#39;assistant de diffusion et qui ne peuvent pas être surchargés.
 
-   ![](assets/s_ncs_user_filter_advanced_param.png)
+  ![](assets/s_ncs_user_filter_advanced_param.png)

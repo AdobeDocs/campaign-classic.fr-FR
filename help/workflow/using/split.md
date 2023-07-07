@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2133'
 ht-degree: 100%
 
@@ -76,7 +76,8 @@ Si vous ne souhaitez pas utiliser l&#39;ensemble de la population d&#39;un sous-
    * **[!UICONTROL Conserver les premiers suite à un tri]** : cette option permet de définir une limitation suivant un ou plusieurs ordres de tri. Si vous choisissez le champ **[!UICONTROL Age]** comme critère de tri, et que vous définissez ensuite une limite de 100, seuls les 100 destinataires les moins âgés seront conservés.
    * **[!UICONTROL Conserver les premiers suite à un tri (critères, aléatoire)]** : cette option regroupe les deux options précédentes. Elle permet de définir une limitation suivant un ou plusieurs ordres de tri puis d&#39;appliquer une sélection aléatoire sur les premiers enregistrements dans le cas où certains enregistrements ont des valeurs égales pour les critères choisis.
 
-      Par exemple, si vous choisissez le champ **[!UICONTROL Age]** comme critère de tri, et que vous définissez ensuite une limite de 100, mais que les 2000 destinataires les plus jeunes en base ont tous 18 ans, alors 100 destinataires seront sélectionnés aléatoirement parmi ces 2000.
+     Par exemple, si vous choisissez le champ **[!UICONTROL Age]** comme critère de tri, et que vous définissez ensuite une limite de 100, mais que les 2000 destinataires les plus jeunes en base ont tous 18 ans, alors 100 destinataires seront sélectionnés aléatoirement parmi ces 2000.
+
    ![](assets/s_user_segmentation_partage_wz1.png)
 
 1. Si vous choisissez de définir des critères de tri, une étape supplémentaire vous permet de définir les colonnes et l&#39;ordre de tri.
@@ -91,12 +92,12 @@ Si vous ne souhaitez pas utiliser l&#39;ensemble de la population d&#39;un sous-
 
    * **[!UICONTROL Taille (en %)]** : un pourcentage d&#39;enregistrements. Par exemple, le paramétrage ci-dessus extraira 10% de la population totale.
 
-      Le pourcentage porte sur la population initiale, non sur le résultat de l&#39;activité.
+     Le pourcentage porte sur la population initiale, non sur le résultat de l&#39;activité.
 
    * **[!UICONTROL Taille (en % du segment)]** : un pourcentage d&#39;enregistrements portant uniquement sur le sous-ensemble et non sur la population initiale.
    * **[!UICONTROL Taille maximale]** : un nombre maximum d&#39;enregistrements.
-   * **[!UICONTROL Par groupement de données]** : vous pouvez effectuer une limitation du nombre d&#39;enregistrements en fonction des valeurs d&#39;un champ précis de la population entrante. Voir à ce sujet la section [Limiter le nombre d&#39;enregistrements des sous-ensembles par groupement de données](#limiting-the-number-of-subset-records-by-data-grouping).
-   * **[!UICONTROL Par groupement de données (%)]** : vous pouvez effectuer une limitation du nombre d&#39;enregistrements en fonction des valeurs d&#39;un champ précis de la population entrante, sous la forme d&#39;un pourcentage. Voir à ce sujet la section [Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données](#limiting-the-number-of-subset-records-by-data-grouping).
+   * **[!UICONTROL Par groupement de données]** : vous pouvez effectuer une limitation du nombre d&#39;enregistrements en fonction des valeurs d&#39;un champ précis de la population entrante. Voir à ce sujet la section [Limiter le nombre d’enregistrements des sous-ensembles par répartition de données](#limiting-the-number-of-subset-records-by-data-grouping).
+   * **[!UICONTROL Par groupement de données (%)]** : vous pouvez effectuer une limitation du nombre d&#39;enregistrements en fonction des valeurs d&#39;un champ précis de la population entrante, sous la forme d&#39;un pourcentage. Voir à ce sujet la section [Limiter le nombre d’enregistrements des sous-ensembles par répartition de données](#limiting-the-number-of-subset-records-by-data-grouping).
    * **[!UICONTROL Par répartition de données]** : si vos champs de groupement comportent un trop grand nombre de valeurs ou que vous souhaitez éviter de ressaisir les valeurs à chaque nouvelle activité de partage, Adobe Campaign vous offre la possibilité d&#39;effectuer une limitation **[!UICONTROL Par répartition de données]** (module optionnel Distributed Marketing). Voir à ce sujet la section [Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données](#limiting-the-number-of-subset-records-per-data-distribution).
 
 1. Cliquez sur **[!UICONTROL Terminer]** pour valider les critères de sélection des enregistrements. Le paramétrage défini est alors affiché dans la fenêtre centrale de l&#39;éditeur.
@@ -123,7 +124,7 @@ Par exemple, si vous choisissez le champ **[!UICONTROL Langue]** comme champ de 
 
 ## Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données {#limiting-the-number-of-subset-records-per-data-distribution}
 
-Si vos champs de groupement contiennent un trop grand nombre de valeurs ou si vous souhaitez éviter de réinitialiser les valeurs pour chaque nouvelle activité de partage, Adobe Campaign vous permet de créer une limite par répartition de données. Lors de la sélection des valeurs de limitation des données (voir à ce sujet la section [Créer des sous-ensembles](#creating-subsets)), sélectionnez l&#39;option **[!UICONTROL Par répartition de données]** et sélectionnez un modèle dans le menu déroulant. La création d&#39;un modèle de répartition de données est illustrée ci-dessous.
+Si vos champs de groupement contiennent un trop grand nombre de valeurs ou si vous souhaitez éviter de réinitialiser les valeurs pour chaque nouvelle activité de partage, Adobe Campaign vous permet de créer une limite par répartition de données. Lors de la sélection des valeurs de limitation des données (voir à ce sujet la section [Créer des sous-ensembles](#creating-subsets)), sélectionnez l’option **[!UICONTROL Par répartition de données]** et sélectionnez un modèle dans le menu déroulant. La création d&#39;un modèle de répartition de données est illustrée ci-dessous.
 
 Un exemple de l&#39;activité **[!UICONTROL Validation en local]** avec un modèle de répartition est présenté dans la section [Utiliser l&#39;activité Validation en local](using-the-local-approval-activity.md).
 
@@ -152,7 +153,7 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
    * **[!UICONTROL Type d&#39;affectation]** : sélectionnez le type d&#39;affectation de la répartition de données. Vous avez le choix entre une affectation par groupe ou opérateur ou une affectation par entité locale. L&#39;affectation par entité locale est utilisée dans le cadre du **marketing distribué**. Pour plus d&#39;informations, consultez cette [section](../../distributed/using/about-distributed-marketing.md).
    * **[!UICONTROL Stockage des validations]** : si vous utilisez une activité **[!UICONTROL Validation en local]** dans votre workflow de ciblage (voir la section [Validation en local](local-approval.md)), indiquez le schéma dans lequel seront stockés les résultats de validation. Vous devez spécifier un schéma de stockage pour chaque schéma de ciblage. Si vous utilisez le schéma de ciblage **[!UICONTROL Destinataires]**, saisissez le schéma de stockage par défaut **[!UICONTROL Validation en local d&#39;un destinataire]**.
 
-      Il n&#39;est pas nécessaire de renseigner le champ **[!UICONTROL Stockage des validations]** dans le cas d&#39;une simple limitation par groupement de données, sans validation en local.
+     Il n&#39;est pas nécessaire de renseigner le champ **[!UICONTROL Stockage des validations]** dans le cas d&#39;une simple limitation par groupement de données, sans validation en local.
 
 1. Si vous utilisez une activité **[!UICONTROL Validation en local]** (voir la section [Validation en local](local-approval.md)), renseignez ensuite les **[!UICONTROL Paramètres avancés]** du modèle de répartition :
 
@@ -162,23 +163,23 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
 
    * **[!UICONTROL Valider les messages ciblés]** : cochez cette option si vous souhaitez que tous les destinataires soient pré-sélectionnés dans la liste de destinataires à valider. Si cette option est décochée, aucun destinataire ne sera pré-sélectionné.
 
-      >[!NOTE]
-      >
-      >Cette option est cochée par défaut.
+     >[!NOTE]
+     >
+     >Cette option est cochée par défaut.
 
-      ![](assets/local_validation_notification.png)
+     ![](assets/local_validation_notification.png)
 
    * **[!UICONTROL Libellé de la diffusion]** : permet de définir une expression pour afficher le libellé de la diffusion dans la notification de retour. L&#39;expression par défaut renseigne le libellé standard de la diffusion (compute string). Vous avez la possibilité de modifier cette expression.
 
-      ![](assets/local_validation_notification_3.png)
+     ![](assets/local_validation_notification_3.png)
 
    * **[!UICONTROL Champ de groupement]** : ce champ permet de définir le groupement utilisé pour l&#39;affichage des destinataires dans les notifications de validation et de retour.
 
-      ![](assets/local_validation_notification_4.png)
+     ![](assets/local_validation_notification_4.png)
 
    * **[!UICONTROL Interface Web]** : permet d&#39;associer une application web à la liste des destinataires. Dans les notifications de validation et de retour, chaque destinataire sera cliquable et pointera vers l&#39;application web sélectionnée. Le champ **[!UICONTROL Paramètres]** (par exemple, **[!UICONTROL recipientId]**) permet de renseigner le paramètre additionnel qui sera utilisé dans l&#39;URL de l&#39;application web.
 
-      ![](assets/local_validation_notification_5.png)
+     ![](assets/local_validation_notification_5.png)
 
 1. L&#39;onglet **[!UICONTROL Répartition]** permet de définir la liste des valeurs de répartition.
 
@@ -187,16 +188,16 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
    * **[!UICONTROL Valeur]** : saisissez les valeurs de répartition.
    * **[!UICONTROL Pourcentage/Fixe]** : renseignez la limite d&#39;enregistrements (fixe ou en pourcentage) associée à chaque valeur.
 
-      Cette colonne est définie par le champ **[!UICONTROL Type de répartition]** de l&#39;onglet **[!UICONTROL Général]**.
+     Cette colonne est définie par le champ **[!UICONTROL Type de répartition]** de l&#39;onglet **[!UICONTROL Général]**.
 
    * **[!UICONTROL Libellé]** : saisissez le libellé associé à chaque valeur.
    * **[!UICONTROL Groupe ou opérateur]** : si vous utilisez une activité **[!UICONTROL Validation en local]** (voir la section [Validation en local](local-approval.md)), sélectionnez l&#39;opérateur ou le groupe d&#39;opérateurs affecté à chaque valeur de répartition.
 
-      Il n&#39;est pas nécessaire de renseigner le champ **[!UICONTROL Groupe ou opérateur]** dans le cas d&#39;une simple limitation par groupement de données, sans validation en local.
+     Il n&#39;est pas nécessaire de renseigner le champ **[!UICONTROL Groupe ou opérateur]** dans le cas d&#39;une simple limitation par groupement de données, sans validation en local.
 
-      >[!IMPORTANT]
-      >
-      >Vérifiez que les opérateurs disposent des droits adéquats.
+     >[!IMPORTANT]
+     >
+     >Vérifiez que les opérateurs disposent des droits adéquats.
 
    * **[!UICONTROL Entité locale]** : sélectionnez l&#39;entité locale affectée à chaque valeur de répartition. Les entités locales sont utilisées dans le cadre du **marketing distribué**. Pour plus d&#39;informations, consultez cette [section](../../distributed/using/about-distributed-marketing.md).
 

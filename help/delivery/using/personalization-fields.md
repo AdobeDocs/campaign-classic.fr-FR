@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Les champs de personnalisation peuvent provenir de deux types de sources de donn
 
 ## Insertion d&#39;un champ de personnalisation {#inserting-a-personalization-field}
 
-Pour insérer des champs de personnalisation, cliquez sur l&#39;icône déroulante accessible depuis toute zone d&#39;édition des en-têtes, du sujet ou du corps principal du message.
+Pour insérer des champs de personnalisation, cliquez sur l’icône déroulante accessible depuis toute zone d’édition des en-têtes, de l’objet ou du corps principal du message.
 
 ![](assets/s_ncs_user_add_custom_field.png)
 

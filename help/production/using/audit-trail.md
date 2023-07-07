@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Audit Trail, Monitoring
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Le Suivi comprend trois composants :
 
 * **Suivi Schéma** : consultez les activités et les dernières modifications apportées à vos schémas.
 
-   Pour plus d’informations sur les schémas, consultez [cette page](../../configuration/using/data-schemas.md).
+  Pour plus d’informations sur les schémas, consultez [cette page](../../configuration/using/data-schemas.md).
 
 * **Suivi Workflow** : consultez les activités et les dernières modifications apportées aux workflows, ainsi que l’état de vos workflows, tel que :
 
@@ -42,13 +42,13 @@ Le Suivi comprend trois composants :
    * Réveiller qui correspond à l’action Traitement anticipé des tâches en attente
    * Arrêt inconditionnel
 
-   Pour plus d’informations sur les workflows, consultez [cette page](../../workflow/using/about-workflows.md).
+  Pour plus d’informations sur les workflows, consultez [cette page](../../workflow/using/about-workflows.md).
 
-   Pour plus d’informations sur la surveillance des workflows, consultez la [section dédiée](../../workflow/using/monitoring-workflow-execution.md).
+  Pour plus d’informations sur la surveillance des workflows, consultez la [section dédiée](../../workflow/using/monitoring-workflow-execution.md).
 
 * **Suivi Option** : consultez les activités et les dernières modifications apportées à vos options.
 
-   Pour plus d’informations sur les options, consultez [cette page](../../installation/using/configuring-campaign-options.md).
+  Pour plus d’informations sur les options, consultez [cette page](../../installation/using/configuring-campaign-options.md).
 
 ## Accéder au Suivi {#accessing-audit-trail}
 

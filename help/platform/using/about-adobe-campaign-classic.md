@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 100%
 
@@ -27,7 +27,6 @@ Adobe Campaign permet d&#39;orchestrer les différentes étapes nécessaires à
 >* Les ressources d’aide de cette collection s’appliquent à Campaign Classic v7 dans son [dernier build](../../rn/using/latest-release.md). Un badge spécifique est disponible lorsqu&#39;une section s&#39;applique également à Campaign v8.
 >
 >* La documentation d’Adobe Campaign v8 est disponible [ici](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr).
-
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez les fonctionnalités principales en vidéo](#video)
 

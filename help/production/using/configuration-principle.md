@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
@@ -25,9 +25,9 @@ Sur un même serveur, deux éléments sont communs à l&#39;ensemble des instanc
 
 * Le mot de passe **internal** : il s&#39;agit du mot de passe administrateur général. Il est commun à toutes les instances d&#39;un même serveur applicatif.
 
-   >[!IMPORTANT]
-   >
-   >Pour vous connecter avec l’identifiant **Internal**, vous devez impérativement avoir défini un mot de passe. Voir à ce sujet [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
+  >[!IMPORTANT]
+  >
+  >Pour vous connecter avec l’identifiant **Internal**, vous devez impérativement avoir défini un mot de passe. Voir à ce sujet [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 * De nombreux paramétrages techniques du serveur : ces paramétrages peuvent tous être surchargés dans la configuration spécifique d&#39;une instance.
 
@@ -42,6 +42,6 @@ Le chargement de la configuration d&#39;une instance est réalisé de la manièr
 * Le module charge le fichier **serverConf.xml** pour obtenir les paramètres communs à toutes les instances.
 * Il charge ensuite le fichier **config-**`<instance>`**.xml**. Les valeurs trouvées dans ce fichier ont priorité sur les valeurs contenues dans **serverConf.xml**.
 
-   Ces deux fichiers ont le même format. Toute valeur du fichier **serverConf.xml** peut être surchargée pour une instance donnée dans le fichier **config-`<instance>`.xml**.
+  Ces deux fichiers ont le même format. Toute valeur du fichier **serverConf.xml** peut être surchargée pour une instance donnée dans le fichier **config-`<instance>`.xml**.
 
 Ce principe de fonctionnement permet une très grande souplesse dans les paramétrages.

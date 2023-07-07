@@ -8,7 +8,7 @@ role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 100%
 
@@ -69,6 +69,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
    * **[!UICONTROL INSERTION DES DOSSIERS DOSSIERS]** : dans l’arborescence d’Adobe Campaign (sous réserve d’un accès en écriture sur les branches concernées),
    * **[!UICONTROL WORKFLOW]** : droit pour utiliser les workflows.
+
    >[!NOTE]
    >
    >Ce groupe ne permet pas aux opérateurs de démarrer les diffusions.

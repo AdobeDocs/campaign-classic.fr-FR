@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Budget Management, Campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 100%
 
@@ -77,10 +77,10 @@ Pour créer un modèle de prestation et définir son contenu, les étapes sont l
    * Cliquez sur le bouton **[!UICONTROL Ajouter]** pour définir les types de coûts associés à ce poste.
    * Au besoin, associez une ligne de stock à chaque type de coût afin de reporter automatiquement les quantités utilisées sur les stocks existant.
 
-      >[!NOTE]
-      >
-      >Les lignes de stock sont définies dans le noeud **[!UICONTROL Gestion des stocks]**.\
-      >Voir à ce sujet la section [Gestion des stocks et des commandes](#stock-and-order-management).
+     >[!NOTE]
+     >
+     >Les lignes de stock sont définies dans le noeud **[!UICONTROL Gestion des stocks]**.\
+     >Voir à ce sujet la section [Gestion des stocks et des commandes](#stock-and-order-management).
 
 1. Vous pouvez pré-sélectionner une valeur pour ce poste de coût : elle sera proposée par défaut au niveau des postes de coûts du prestataire (plutôt qu&#39;une valeur vide). Pour cela, cochez l&#39;option dans la colonne **[!UICONTROL Sélectionné]** pour le type de poste concerné :
 
@@ -100,15 +100,15 @@ Cliquez sur l&#39;onglet **[!UICONTROL Structure de coûts]** pour paramétrer l
 
 * Pour créer la structure de coût, sélectionnez dans les listes déroulantes le type de message et le poste de coût concerné, ainsi que le type de coût sur lequel s&#39;appliquera la règle de calcul. Le contenu de ces listes déroulantes reprend les informations renseignées depuis l&#39;onglet **[!UICONTROL Postes de coût]**.
 
-   Vous devez attribuer un libellé à la structure de coûts. Par défaut, il est composé comme suit : **Poste de coût - Type de coût**.
+  Vous devez attribuer un libellé à la structure de coûts. Par défaut, il est composé comme suit : **Poste de coût - Type de coût**.
 
-   Vous pouvez toutefois le renommer : saisissez alors directement la valeur souhaitée dans le champ **[!UICONTROL Libellé]**.
+  Vous pouvez toutefois le renommer : saisissez alors directement la valeur souhaitée dans le champ **[!UICONTROL Libellé]**.
 
 * La formule de calcul du coût est définie dans la section inférieure de la fenêtre.
 
-   Cette formule peut être fixe (quel que soit le nombre de message), ou calculée en fonction du nombre de messages.
+  Cette formule peut être fixe (quel que soit le nombre de message), ou calculée en fonction du nombre de messages.
 
-   Lorsqu&#39;elle dépend du nombre de messages, la structure de calcul du coût peut être **[!UICONTROL Linéaire]**, **[!UICONTROL Linéaire par seuil]** ou **[!UICONTROL Constant par seuil]**.
+  Lorsqu&#39;elle dépend du nombre de messages, la structure de calcul du coût peut être **[!UICONTROL Linéaire]**, **[!UICONTROL Linéaire par seuil]** ou **[!UICONTROL Constant par seuil]**.
 
 #### Structure linéaire {#linear-structure}
 
@@ -146,11 +146,11 @@ Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Traitements]** pour paramétre
 
 * La section **[!UICONTROL Extraction des fichiers]** indique le modèle d&#39;export utilisé par la diffusion lorsque cette prestation est sélectionnée. Vous pouvez indiquer le nom du fichier de sortie dans le champ **[!UICONTROL Fichier d&#39;extraction]**. Le bouton situé à droite du champ permet d&#39;insérer des variables.
 
-   ![](assets/s_ncs_user_supplier_node_02a.png)
+  ![](assets/s_ncs_user_supplier_node_02a.png)
 
 * La section **[!UICONTROL E-mail de notification]** permet d’indiquer le modèle de notification au fournisseur de services après l’envoi des fichiers. Vous devez sélectionner le modèle utilisé pour créer le message d’alerte et le groupe de destinataires.
 
-   Par défaut, les modèles de diffusion pour les messages de notification sont enregistrés sous le noeud **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]**, accessible depuis la vue globale.
+  Par défaut, les modèles de diffusion pour les messages de notification sont enregistrés sous le noeud **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]**, accessible depuis la vue globale.
 
 * La section **[!UICONTROL Post-traitement]** permet de sélectionner le workflow à lancer une fois la diffusion validée. Si un modèle de workflow est renseigné, une instance de workflow sera automatiquement créée puis démarrée dès que la validation sera effective. Ce workflow peut par exemple permettre d&#39;envoyer le fichier d&#39;extraction vers un prestataire externe chargé de l&#39;exploiter.
 
@@ -166,12 +166,12 @@ Lorsqu’un service est sélectionné, les postes de coûts correspondant au typ
 
 * Pour une diffusion courrier, vous pouvez sélectionner le service à partir de la fenêtre de configuration.
 
-   ![](assets/s_ncs_user_supplier_mail_delivery_select.png)
+  ![](assets/s_ncs_user_supplier_mail_delivery_select.png)
 
 * Pour une diffusion sur canaux mobiles ou par téléphone, le mode de sélection est le même.
 * Pour une diffusion par email, la prestation est sélectionnée à partir de l&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion, comme dans l&#39;exemple ci-dessous :
 
-   ![](assets/s_ncs_user_supplier_email_delivery_select.png)
+  ![](assets/s_ncs_user_supplier_email_delivery_select.png)
 
 La colonne **[!UICONTROL Montant à surcharger]** permet d&#39;ajouter un coût pour ce poste dans le contexte de la diffusion ou de la tâche concernée.
 
@@ -236,7 +236,7 @@ Cliquez sur le bouton **[!UICONTROL Créer]** pour définir les paramètres du s
 
 * Indiquez la quantité initialement en stock dans le champ **[!UICONTROL Stock initial]**. Les champs **[!UICONTROL Consommé]** et **[!UICONTROL En stock]** sont calculés automatiquement et mis à jour, au fil des opérations.
 
-   ![](assets/s_ncs_user_stocks_create_line.png)
+  ![](assets/s_ncs_user_stocks_create_line.png)
 
 * Indiquez, dans le champ **[!UICONTROL Niveau d&#39;alerte]**, le seuil à partir duquel il faudra alerter les opérateurs de le renouveler. Lorsque le niveau d&#39;alerte est atteint, un avertissement est affiché dans la fenêtre de validation des diffusions qui utilisent ce stock.
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 100%
 
@@ -67,11 +67,11 @@ L&#39;étape de routage consiste à associer un événement au modèle de messag
 
 * Type d&#39;événement spécifié dans les propriétés de l&#39;événement lui-même :
 
-   ![](assets/messagecenter_event_type_001.png)
+  ![](assets/messagecenter_event_type_001.png)
 
 * Type d&#39;événement spécifié dans les propriétés du modèle de message :
 
-   ![](assets/messagecenter_event_type_002.png)
+  ![](assets/messagecenter_event_type_002.png)
 
 Par défaut, le routage s&#39;appuie sur les informations suivantes :
 

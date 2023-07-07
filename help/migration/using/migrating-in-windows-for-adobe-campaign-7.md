@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1119'
 ht-degree: 100%
 
@@ -288,17 +288,17 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    * Pour chaque type de port d&#39;écoute (**[!UICONTROL http]** et/ou **[!UICONTROL https]**), sélectionnez la ligne correspondante et cliquez sur **[!UICONTROL Modifier]**.
    * Saisissez un autre port que celui qui est renseigné. Par défaut, le port d&#39;écoute est 80 pour le http et 443 pour le https. Vérifiez que le nouveau port est disponible.
 
-      ![](assets/_migration_iis_3_611.png)
+     ![](assets/_migration_iis_3_611.png)
 
-      >[!NOTE]
-      >
-      >Si votre serveur IIS embarque plusieurs sites web pour Adobe Campaign configurés de manière avancée (port commun et adresses IP différentes), veuillez vous rapprocher de votre administrateur.
+     >[!NOTE]
+     >
+     >Si votre serveur IIS embarque plusieurs sites web pour Adobe Campaign configurés de manière avancée (port commun et adresses IP différentes), veuillez vous rapprocher de votre administrateur.
 
 1. Créez un nouveau site web pour Adobe Campaign v7 :
 
    * Cliquez avec le bouton droit sur le dossier **[!UICONTROL Sites]** et sélectionnez **[!UICONTROL Ajouter un site Web]**.
 
-      ![](assets/_migration_iis_4.png)
+     ![](assets/_migration_iis_4.png)
 
    * Renseignez le nom du site, par exemple **Adobe Campaign v7**.
    * Le chemin d&#39;accès au répertoire de base du site Web n&#39;est pas utilisé, mais le champ **[!UICONTROL Chemin d&#39;accès physique]** doit être obligatoirement renseigné. Saisissez par exemple le chemin physique par défaut de IIS : **C:\inetpub\wwwroot**.
@@ -306,38 +306,38 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    * Dans les champs **[!UICONTROL adresse IP]** et **[!UICONTROL Port]**, vous pouvez laisser les valeurs par défaut. Si vous souhaitez utiliser d&#39;autres valeurs, vérifiez que l&#39;adresse IP et/ou le port sont disponibles.
    * Cochez la case **[!UICONTROL Démarrage immédiat du site Web]**.
 
-      ![](assets/_migration_iis_5_7.png)
+     ![](assets/_migration_iis_5_7.png)
 
 1. Exécutez le script **iis_neolane_setup.vbs** permettant de configurer automatiquement le paramétrage des ressources utilisées par le serveur Adobe Campaign sur le répertoire virtuel créé précédemment.
 
    * Ce fichier se trouve dans le répertoire **`[Adobe Campaign v7]`\conf**, où **`[Adobe Campaign v7]`** est le chemin d&#39;accès au répertoire d&#39;installation d&#39;Adobe Campaign. La commande d&#39;exécution du script est la suivante (pour les administrateurs) :
 
-      ```
-      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
-      cscript iis_neolane_setup.vbs
-      ```
+     ```
+     cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
+     cscript iis_neolane_setup.vbs
+     ```
 
    * Cliquez sur **[!UICONTROL OK]** pour confirmer l&#39;exécution du script.
 
-      ![](assets/s_ncs_install_iis7_parameters_step2_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step2_7.png)
 
    * Saisissez le numéro du site Web que vous avez créé précédemment pour Adobe Campaign v7 et cliquez sur **[!UICONTROL OK]**.
 
-      ![](assets/s_ncs_install_iis7_parameters_step3_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step3_7.png)
 
    * Un message de confirmation doit s&#39;afficher :
 
-      ![](assets/s_ncs_install_iis7_parameters_step7_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step7_7.png)
 
    * Dans l&#39;onglet **[!UICONTROL Affichage du contenu]**, vérifiez que la configuration du site Web est bien paramétrée avec les ressources Adobe Campaign :
 
-      ![](assets/s_ncs_install_iis7_parameters_step6_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step6_7.png)
 
-      >[!NOTE]
-      >
-      >Si l&#39;arborescence n&#39;est pas affichée, redémarrez le Gestionnaire de service Internet (IIS).
-      >
-      >Les étapes suivantes de configuration de IIS sont décrites dans [cette section](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
+     >[!NOTE]
+     >
+     >Si l&#39;arborescence n&#39;est pas affichée, redémarrez le Gestionnaire de service Internet (IIS).
+     >
+     >Les étapes suivantes de configuration de IIS sont décrites dans [cette section](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
 
 <!--
 ## Security zones {#security-zones}

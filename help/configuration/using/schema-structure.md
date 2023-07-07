@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 100%
 
@@ -117,9 +117,9 @@ Les règles à respecter sont les suivantes :
 
 * Chaque **`<element>`** et **`<attribute>`** doit être identifié par son nom à partir de l&#39;attribut **name**.
 
-   >[!IMPORTANT]
-   >
-   >Le nom de l&#39;élément doit être concis, de préférence en anglais, et ne comprendre que des caractères autorisés conformes aux règles de nommage des noms XML.
+  >[!IMPORTANT]
+  >
+  >Le nom de l&#39;élément doit être concis, de préférence en anglais, et ne comprendre que des caractères autorisés conformes aux règles de nommage des noms XML.
 
 * Seuls les éléments **`<element>`** peuvent contenir des éléments **`<attribute>`** et des éléments **`<element>`** dans la structure XML.
 * Un élément **`<attribute>`** doit être unique par son nom dans un **`<element>`**.
@@ -137,7 +137,7 @@ Les types de données supportés dans un schéma sont les suivants :
 
 * **string** : chaîne de caractères. Exemples : un prénom, une ville, etc.
 
-   La taille peut être spécifiée via l&#39;attribut **length** (optionnel, valeur par défaut &quot;255&quot;).
+  La taille peut être spécifiée via l&#39;attribut **length** (optionnel, valeur par défaut &quot;255&quot;).
 
 * **boolean** : champ booléen. Exemples de valeurs possibles : vrai/faux, 0/1, oui/non, etc.
 * **byte**, **short**, **long** : entiers (1 octet, 2 octets, 4 octets). Exemples : un age, un numéro de compte, un nombre de points, etc.
@@ -148,9 +148,9 @@ Les types de données supportés dans un schéma sont les suivants :
 * **memo** : champ texte long (multi-lignes). Exemples : une description, un commentaire, etc.
 * **uuid** : champ de type &quot;uniqueidentifier&quot; pour la prise en charge d’un GUID (pris en charge uniquement sous Microsoft SQL Server).
 
-   >[!NOTE]
-   >
-   >Pour contenir un champ de type **uuid** sur les moteurs autres que Microsoft SQL Server, il faut ajouter et renseigner la fonction &quot;newuuid()&quot; dans sa valeur par défaut.
+  >[!NOTE]
+  >
+  >Pour contenir un champ de type **uuid** sur les moteurs autres que Microsoft SQL Server, il faut ajouter et renseigner la fonction &quot;newuuid()&quot; dans sa valeur par défaut.
 
 Notre schéma d&#39;exemple complété avec les types :
 
@@ -274,33 +274,33 @@ Les éléments **`<elements>`** et **`<attributes>`** du schéma de données peu
 
 * La propriété **label** permet de saisir une description courte.
 
-   >[!NOTE]
-   >
-   >Le libellé est associé à la langue courante de l&#39;instance.
+  >[!NOTE]
+  >
+  >Le libellé est associé à la langue courante de l&#39;instance.
 
-   **Exemple**:
+  **Exemple**:
 
-   ```
-   <attribute name="email" type="string" length="80" label="Email"/>
-   ```
+  ```
+  <attribute name="email" type="string" length="80" label="Email"/>
+  ```
 
-   Le libellé est visible à partir du formulaire de saisie de la console cliente Adobe Campaign :
+  Le libellé est visible à partir du formulaire de saisie de la console cliente Adobe Campaign :
 
-   ![](assets/d_ncs_integration_schema_label.png)
+  ![](assets/d_ncs_integration_schema_label.png)
 
 * La propriété **desc** permet de saisir une description longue.
 
-   La description est visible à partir du formulaire de saisie dans la barre de statut de la fenêtre principale de la console cliente Adobe Campaign.
+  La description est visible à partir du formulaire de saisie dans la barre de statut de la fenêtre principale de la console cliente Adobe Campaign.
 
-   >[!NOTE]
-   >
-   >La description est associée à la langue courante de l&#39;instance.
+  >[!NOTE]
+  >
+  >La description est associée à la langue courante de l&#39;instance.
 
-   **Exemple**:
+  **Exemple**:
 
-   ```
-   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
-   ```
+  ```
+  <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
+  ```
 
 ### Les valeurs par défaut {#default-values}
 
@@ -313,11 +313,11 @@ La valeur doit être une expression conforme au langage XPath. Pour plus d&#39;i
 * Date courante : **default=&quot;GetDate()&quot;**
 * Compteur : **default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
 
-   Dans cet exemple, la valeur par défaut est construite à l&#39;aide de la concaténation d&#39;une chaîne et de l&#39;appel de la fonction **CounterValue** avec un nom de compteur gratuit. Le nombre renvoyé est incrémenté d&#39;une unité à chaque insertion.
+  Dans cet exemple, la valeur par défaut est construite à l&#39;aide de la concaténation d&#39;une chaîne et de l&#39;appel de la fonction **CounterValue** avec un nom de compteur gratuit. Le nombre renvoyé est incrémenté d&#39;une unité à chaque insertion.
 
-   >[!NOTE]
-   >
-   >Dans la console cliente Adobe Campaign, le noeud **[!UICONTROL Administration>Compteurs]** permet de gérer les compteurs.
+  >[!NOTE]
+  >
+  >Dans la console cliente Adobe Campaign, le noeud **[!UICONTROL Administration>Compteurs]** permet de gérer les compteurs.
 
 Pour lier une valeur par défaut à un champ, vous pouvez utiliser le `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
@@ -381,13 +381,13 @@ Les valeurs de l&#39;énumération sont déclarées dans l&#39;élément **`<val
 
 * La propriété **dbenum** permet de définir une énumération dont les propriétés sont similaires à celles de la propriété **enum**.
 
-   En revanche, l&#39;attribut **name** ne stocke pas de valeur en interne, mais un code, ce qui permet d&#39;étendre les tables concernées sans avoir à modifier leur schéma.
+  En revanche, l&#39;attribut **name** ne stocke pas de valeur en interne, mais un code, ce qui permet d&#39;étendre les tables concernées sans avoir à modifier leur schéma.
 
-   Les valeurs sont définies depuis le nœud **[!UICONTROL Administration > Énumérations]**.
+  Les valeurs sont définies depuis le nœud **[!UICONTROL Administration > Énumérations]**.
 
-   Cette énumération est utilisée par exemple, pour spécifier la nature des opérations.
+  Cette énumération est utilisée par exemple, pour spécifier la nature des opérations.
 
-   ![](assets/d_ncs_configuration_schema_dbenum.png)
+  ![](assets/d_ncs_configuration_schema_dbenum.png)
 
 ### Exemple {#example}
 
@@ -456,7 +456,6 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 >* **Location/@city** n&#39;est pas valide ; veuillez utiliser **`[location/@city]`**
 >* **`[@email]`** et **@email** sont équivalents
 >
-
 
 Il est aussi possible de définir des expressions complexes, telles que les opérations arithmétiques :
 

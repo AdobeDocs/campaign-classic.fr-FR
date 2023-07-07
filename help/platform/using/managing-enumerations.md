@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 100%
 
@@ -33,15 +33,15 @@ La définition des valeurs des champs de ce type et l&#39;administration globale
 * La section supérieure propose la liste des champs pour lesquels une énumération a été définie.
 * La section inférieure liste les valeurs proposées. Ces valeurs seront reprises dans les éditeurs utilisant ce champ.
 
-   ![](assets/s_ncs_user_itemized_list_values.png)
+  ![](assets/s_ncs_user_itemized_list_values.png)
 
-   Pour créer une nouvelle valeur d&#39;énumération, cliquez sur **[!UICONTROL Ajouter]**.
+  Pour créer une nouvelle valeur d&#39;énumération, cliquez sur **[!UICONTROL Ajouter]**.
 
-   ![](assets/s_ncs_user_itemized_list.png)
+  ![](assets/s_ncs_user_itemized_list.png)
 
-   Si l&#39;option **[!UICONTROL Ouverte]** est sélectionnée, l&#39;utilisateur peut ajouter une nouvelle valeur d&#39;énumération par saisie directe dans le champ correspondant. Un message de confirmation permet de créer cette valeur.
+  Si l&#39;option **[!UICONTROL Ouverte]** est sélectionnée, l&#39;utilisateur peut ajouter une nouvelle valeur d&#39;énumération par saisie directe dans le champ correspondant. Un message de confirmation permet de créer cette valeur.
 
-   ![](assets/s_ncs_user_itemized_list_new_value.png)
+  ![](assets/s_ncs_user_itemized_list_new_value.png)
 
 * Si l&#39;option **[!UICONTROL Fermée]** est sélectionnée, alors les utilisateurs ne pourront pas créer de nouvelles valeurs mais seulement choisir parmi les valeurs proposées.
 
@@ -61,9 +61,9 @@ En effet, la valeur saisie peut être :
 * remplacée automatiquement par son alias : cet alias doit être défini dans l&#39;onglet **[!UICONTROL Alias]** de l&#39;énumération,
 * stockée dans la liste des alias : un alias pourra lui être attribué ultérieurement.
 
-   >[!NOTE]
-   >
-   >Si vous devez utiliser les fonctionnalités de normalisation des données, sélectionnez l&#39;option **[!UICONTROL Support des alias]** dans l&#39;énumération.
+  >[!NOTE]
+  >
+  >Si vous devez utiliser les fonctionnalités de normalisation des données, sélectionnez l&#39;option **[!UICONTROL Support des alias]** dans l&#39;énumération.
 
 ### Utilisation des alias {#using-aliases}
 

@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2355'
 ht-degree: 100%
 
@@ -125,22 +125,22 @@ Pour ce faire, procédez comme suit :
 
    * Vérifiez que le seul fragment de diffusion (deliverypart) est celui dont l&#39;ID est égal à **0** :
 
-      ```
-      SELECT * FROM neolane.nmsdeliverypart;
-      ```
+     ```
+     SELECT * FROM neolane.nmsdeliverypart;
+     ```
 
    * Vérifiez que la mise à jour des statuts des diffusions est correcte :
 
-      ```
-      SELECT iSate, count(*) FROM neolane.nmsdeliveryGroup By iProd;
-      ```
+     ```
+     SELECT iSate, count(*) FROM neolane.nmsdeliveryGroup By iProd;
+     ```
 
    * Vérifiez que la mise à jour des statuts des workflows est correcte :
 
-      ```
-      SELECT iState, count (*) FROM neolane.xtkworkflowGROUP BY iState;
-      SELECT iStatus, count (*) FROM neolane.xtkworkflowGROUP BY iStatus;
-      ```
+     ```
+     SELECT iState, count (*) FROM neolane.xtkworkflowGROUP BY iState;
+     SELECT iStatus, count (*) FROM neolane.xtkworkflowGROUP BY iStatus;
+     ```
 
 ### Arrêter les services
 
@@ -154,6 +154,7 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
    >[!NOTE]
    >
    >Assurez-vous que le serveur de redirection (webmdl) est arrêté afin que le fichier nlsrvmod.dll, qui est utilisé par IIS, puisse être remplacé par la nouvelle version.
+   >
 
 1. Assurez-vous qu&#39;aucune tâche n&#39;est active à l&#39;aide de la commande **nlserver pdump**. Si aucune tâche n&#39;est active, la sortie doit ressembler à celle-ci :
 
@@ -165,7 +166,7 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
 
 ### Mettre à jour l&#39;application serveur Adobe Campaign
 
-1. Exécutez le fichier **Setup.exe**. Si vous devez télécharger ce fichier, accédez [au Centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
+1. Exécutez le fichier **Setup.exe**. Si vous devez télécharger ce fichier, accédez [au Centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html).
 
 1. Sélectionnez le mode d&#39;installation : **Mise à jour** ou **Réparation**.
 
@@ -188,6 +189,7 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
    >[!NOTE]
    >
    >Cette opération n&#39;est à effectuer qu&#39;une seule fois et uniquement sur un serveur applicatif nlserverweb.
+   >
 
    Pour n&#39;effectuer la synchronisation que sur une seule base, utilisez la commande suivante :
 
@@ -258,6 +260,7 @@ Dans le contexte d&#39;un environnement de mid-sourcing, vous devez effectuer le
 >[!NOTE]
 >
 >Le serveur de mid-sourcing doit toujours exécuter la même version (ou une version plus récente) que les serveurs marketing.
+>
 
 ## En cas de conflits
 
@@ -345,6 +348,7 @@ Il existe trois façons de résoudre un conflit : **accepter la nouvelle versio
 
 >[!IMPORTANT]
 >Il est vivement recommandé de résoudre les conflits.
+>
 
 ### Réaliser une fusion{#perform-a-merge}
 
@@ -408,6 +412,7 @@ Voici la procédure pour effectuer une fusion complexe :
 
 >[!IMPORTANT]
 >Des compétences en développement sont nécessaires pour effectuer des fusions complexes.
+>
 
 **Rubriques connexes :**
 

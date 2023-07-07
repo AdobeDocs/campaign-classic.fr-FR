@@ -5,7 +5,7 @@ description: Recommandations relatives au dimensionnement du matériel pour Camp
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 100%
 
@@ -188,10 +188,10 @@ Ce déploiement comprend également des appels Message Center, pilotés à parti
 Dans ce scénario, Adobe recommande d’installer Adobe Campaign sur quatre machines, comme suit :
 
 * Serveurs d’application
-   **Deux systèmes, 3Ghz+ quatre cœurs, 8 Go de RAM, RAID 1 ou 10, SSD de 80 Go**
+  **Deux systèmes, 3Ghz+ quatre cœurs, 8 Go de RAM, RAID 1 ou 10, SSD de 80 Go**
 
 * Serveurs Web
-   **Deux systèmes, 3Ghz+ quatre cœurs, 16 Go de RAM, RAID 1 ou 10, SSD de 80 Go**
+  **Deux systèmes, 3Ghz+ quatre cœurs, 16 Go de RAM, RAID 1 ou 10, SSD de 80 Go**
 
 
 Les serveurs d’application prennent directement en charge les utilisateurs de la console Campaign et l’exécution des workflows de campagne. Cette fonctionnalité est déployée sur deux serveurs identiques pour permettre une haute disponibilité ; ils partagent un système de fichiers NAS (Network-Attached Storage) pour activer le basculement.
@@ -229,7 +229,7 @@ Comme pour la taille des campagnes par e-mail, le volume des messages SMS ne pla
 * **Complexité du schéma de la base de données**
 La quantité de données relatives à chaque destinataire actif requiert à la fois de l’espace de stockage et de l’espace de mémoire tampon dans la base de données. Par conséquent, un nombre plus élevé de destinataires nécessite généralement davantage de capacité au niveau de la mémoire et du processeur sur le serveur de base de données. Les schémas complexes nécessitent également la jonction de davantage de tables pour la segmentation. De ce fait, les opérations de segmentation peuvent s’exécuter beaucoup plus lentement et nécessiter davantage de capacité au niveau du processeur et de la mémoire dans la base de données lorsque les données sont réparties entre plusieurs tables.
 
-   La mémoire du serveur de la base de données est estimée en veillant à ce que le pool de mémoire tampon de la base de données puisse contenir toutes les données des destinataires, ainsi que des tables temporaires pour exécuter les workflows, avec une marge supplémentaire pour les autres opérations de base de données.
+  La mémoire du serveur de la base de données est estimée en veillant à ce que le pool de mémoire tampon de la base de données puisse contenir toutes les données des destinataires, ainsi que des tables temporaires pour exécuter les workflows, avec une marge supplémentaire pour les autres opérations de base de données.
 
 * **Utilisation des interactions sortantes**
 Les règles relatives aux interactions en mode batch sont évaluées dans les workflows qui transmettent toute la complexité du calcul à la base de données. Le principal facteur d’effort sur la base de données est le nombre total d’offres éligibles calculées lors d’un appel au moteur (taille de la cible X nombre moyen d’offres par destinataire avant de conserver les N meilleures offres). La vitesse du processeur du serveur de la base de données est le premier facteur de performance.
@@ -240,7 +240,7 @@ Les règles et offres d’interactions entrantes sont évaluées dans la base de
 * **Période de rétention des données de tracking**
 L’augmentation de la rétention des données de tracking au-delà de 90 jours nécessite davantage de stockage dans la base de données. En outre, cela peut ralentir le système car les nouvelles données de tracking sont insérées dans des tables volumineuses. Les données de tracking ne sont plus utiles pour la segmentation des campagnes au-delà de 90 jours. Il est donc recommandé d’utiliser une période de rétention plus courte.
 
-   Si vous avez besoin d’une analyse à long terme de l’expérience marketing des destinataires, il vous faut déplacer les données de tracking dans Adobe Analytics ou dans un autre système d’analyse.
+  Si vous avez besoin d’une analyse à long terme de l’expérience marketing des destinataires, il vous faut déplacer les données de tracking dans Adobe Analytics ou dans un autre système d’analyse.
 
 ## Virtualisation
 
@@ -250,7 +250,7 @@ Tous les serveurs Campaign sont de bons candidats à la virtualisation. Plusieur
 Les serveurs en cluster, comme les serveurs d’application redondants sous un proxy avec équilibrage de charge, doivent être déployés sur un matériel distinct pour s’assurer que les deux machines virtuelles ne tombent pas en panne en cas de défaillance matérielle.
 
 * **Configuration d’E/S**
-Toute configuration RAID recommandée doit être conservée pour la sécurité de la base de données, afin de garantir que la perte d’un périphérique de stockage ne provoque pas de perte de données.
+Toute configuration RAID recommandée doit être conservée pour la sécurité de la base de données, afin de garantir que la perte d’un appareil de stockage ne provoque pas de perte de données.
 
 * **Performances d’E/S**
 L’évaluation IOPS recommandée pour le stockage dans la base de données doit être respectée. Il est possible que les services cloud tels qu’Amazon EC2 n’offrent pas les performances requises. Ces services doivent alors être évalués avec soin. Par exemple, les volumes SSD fournis par Amazon EC2 sont actuellement évalués à 20 000 IOPS chacun. Consultez la [documentation Amazon](https://docs.aws.amazon.com/fr_fr/AWSEC2/latest/UserGuide/ebs-volume-types.html) pour en savoir plus. De ce fait, une configuration RAID à 4 volumes est évaluée à 80 000 IOPS, ce qui peut ne pas suffire.

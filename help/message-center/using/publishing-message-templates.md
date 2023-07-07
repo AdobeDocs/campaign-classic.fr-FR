@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Lorsqu’un modèle de message a été publié sur les instances d’exécution,
 
 * En effet, un modèle publié peut toujours être appelé si l&#39;événement correspondant est déclenché : si vous n’utilisez plus de modèle de message, il est recommandé de le dépublier. Vous éviterez ainsi d&#39;envoyer par erreur un message transactionnel indésirable.
 
-   Par exemple, vous avez publié un modèle de message utilisé uniquement pour les campagnes de Noël. Vous pouvez le dépublier une fois la période de Noël terminée et le publier de nouveau l&#39;année suivante.
+  Par exemple, vous avez publié un modèle de message utilisé uniquement pour les campagnes de Noël. Vous pouvez le dépublier une fois la période de Noël terminée et le publier de nouveau l&#39;année suivante.
 
 * En outre, vous ne pouvez pas supprimer un modèle de message transactionnel dont le statut est **[!UICONTROL Publié]**. Vous devez d&#39;abord le dépublier.
 
@@ -82,8 +82,8 @@ Une fois la publication annulée :
 
 * Les deux modèles de message (appliqués aux types d’événements par lot et temps réel) sont supprimés de chaque instance d’exécution.
 
-   Ils n’apparaissent plus dans le dossier **[!UICONTROL Administration > Exploitation > Message Center (Exécution) > Défaut > Modèles de messages transactionnels]** (voir [cette section](#template-publication)).
+  Ils n’apparaissent plus dans le dossier **[!UICONTROL Administration > Exploitation > Message Center (Exécution) > Défaut > Modèles de messages transactionnels]** (voir [cette section](#template-publication)).
 
 * Une fois la dépublication d’un modèle effectuée, vous pouvez le supprimer de l’instance de pilotage.
 
-   Pour ce faire, sélectionnez-le dans la liste et cliquez sur le bouton **[!UICONTROL Supprimer]** en haut à droite de l&#39;écran.
+  Pour ce faire, sélectionnez-le dans la liste et cliquez sur le bouton **[!UICONTROL Supprimer]** en haut à droite de l&#39;écran.

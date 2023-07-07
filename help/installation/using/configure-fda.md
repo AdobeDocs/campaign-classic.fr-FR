@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -25,6 +25,7 @@ En règle générale, il est nécessaire d&#39;installer la couche cliente corre
 >[!NOTE]
 >
 >Les versions compatibles sont répertoriées dans la [Matrice de compatibilité Campaign](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
+>
 
 ## Étapes de configuration {#fda-configuration-steps}
 

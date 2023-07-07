@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3394'
 ht-degree: 100%
 
@@ -134,15 +134,15 @@ Cliquez sur le **[!UICONTROL Et]** (proposé par défaut) et faites votre choix 
 * **[!UICONTROL Et]** : ajoute une condition en plus de la précédente et permet de surfiltrer.
 * **[!UICONTROL Ou]** : permet de prendre en compte au moins un résultat par rapport aux conditions définies.
 
-   L&#39;exemple ci-dessous permet de retrouver des destinataires dont le domaine d&#39;email contient &quot;voila.fr&quot; OU dont le code postal commence par le chiffre &quot;49&quot;.
+  L&#39;exemple ci-dessous permet de retrouver des destinataires dont le domaine d&#39;email contient &quot;voila.fr&quot; OU dont le code postal commence par le chiffre &quot;49&quot;.
 
-   ![](assets/query_condition_modif_02.png)
+  ![](assets/query_condition_modif_02.png)
 
 * **[!UICONTROL Sauf]** : si vous avez deux filtres et que le premier permet de ne pas obtenir de valeur, une relation de ce type crée une exception.
 
-   Dans l&#39;exemple ci-dessous, on recherche des destinataires dont le domaine d&#39;email contient &quot;voila.fr&quot; SAUF si le nom de famille des destinataires correspond à la valeur &quot;Smith&quot;.
+  Dans l&#39;exemple ci-dessous, on recherche des destinataires dont le domaine d&#39;email contient &quot;voila.fr&quot; SAUF si le nom de famille des destinataires correspond à la valeur &quot;Smith&quot;.
 
-   ![](assets/query_condition_modif_03.png)
+  ![](assets/query_condition_modif_03.png)
 
 Cet autre exemple montre un filtre permettant d&#39;afficher : les destinataires de langue espagnole OU les femmes dont le numéro de téléphone mobile est renseigné OU les destinataires qui n&#39;ont pas renseigné leur numéro de compte et dont le nom de société commence &quot;N&quot;.
 
@@ -155,7 +155,7 @@ Cette section explique comment hiérarchiser les conditions. Ceci est possible g
 * La flèche pointant vers la droite permet d&#39;ajouter un niveau de parenthèses au filtrage.
 * La flèche pointant vers la gauche permet de supprimer un niveau de parenthèses.
 
-   ![](assets/query_condition_modif_04.png)
+  ![](assets/query_condition_modif_04.png)
 
 * Les flèches pointant vers le haut et vers le bas permettent de déplacer une condition. Cela modifie l&#39;ordre d&#39;exécution des filtres.
 
@@ -266,7 +266,6 @@ Liens vers une table et éléments de collection :
 >* Modifiez l&#39;ordre des colonnes de sortie grâce aux flèches.
 >* L’icône **[!UICONTROL Répartition des valeurs]** sert à visualiser la répartition des valeurs du champ sélectionné (par exemple, les répartitions liées aux villes des destinataires, à la langue des destinataires, etc.).
 
-
 ## Créer des champs calculés {#creating-calculated-fields}
 
 Au besoin, ajoutez une colonne lors du formatage des données. Un champ calculé rajoute une colonne dans la fenêtre de prévisualisation des données. Cliquez sur **[!UICONTROL Ajouter un champ calculé]**.
@@ -277,25 +276,25 @@ Quatre types de champ calculé sont proposés :
 
 * **[!UICONTROL Chaîne fixe]** : pour ajouter une chaîne de caractères.
 
-   ![](assets/query_editor_nveau_60.png)
+  ![](assets/query_editor_nveau_60.png)
 
 * **[!UICONTROL Chaîne avec fusion JavaScript]** : la valeur du champ calculé combine une chaîne de caractères à des directives JavaScript.
 
-   ![](assets/query_editor_nveau_61.png)
+  ![](assets/query_editor_nveau_61.png)
 
 * **[!UICONTROL Expression JavaScript]** : la valeur du champ calculé est le résultat de l&#39;évaluation d&#39;une fonction JavaScript. La valeur retournée peut être typée (nombre, date, etc.).
 
-   ![](assets/query_editor_nveau_62.png)
+  ![](assets/query_editor_nveau_62.png)
 
 * **[!UICONTROL Enumérations]**. Ce type de champ permet d&#39;utiliser/transformer le contenu d&#39;une des colonnes de sortie dans une nouvelle colonne.
 
-   On peut utiliser la valeur source d&#39;une colonne et lui donner une valeur de destination. Cette valeur de destination sera affichée dans la nouvelle colonne de sortie.
+  On peut utiliser la valeur source d&#39;une colonne et lui donner une valeur de destination. Cette valeur de destination sera affichée dans la nouvelle colonne de sortie.
 
-   Un exemple d&#39;ajout de champ calculé de type **[!UICONTROL Enumérations]** est disponible. Reportez-vous à [cette section](../../workflow/using/adding-enumeration-type-calculated-field.md).
+  Un exemple d&#39;ajout de champ calculé de type **[!UICONTROL Enumérations]** est disponible. Reportez-vous à [cette section](../../workflow/using/adding-enumeration-type-calculated-field.md).
 
-   ![](assets/query_editor_nveau_63.png)
+  ![](assets/query_editor_nveau_63.png)
 
-   Le champ calculé de type **[!UICONTROL Enumérations]** peut comporter quatre conditions :
+  Le champ calculé de type **[!UICONTROL Enumérations]** peut comporter quatre conditions :
 
    * **[!UICONTROL Conserver la valeur source]** restitue la valeur de la source, sans transformation dans la cible.
    * **[!UICONTROL Utiliser la valeur suivante]** sert à saisir une valeur de destination par défaut, pour les valeurs sources non définies.
@@ -341,7 +340,7 @@ Voici le détail des choix de la fenêtre **[!UICONTROL Types de formules]** :
    * **[!UICONTROL Valeur minimum]** permet d&#39;obtenir parmi des clients, ceux qui ont souscrit à une offre le plus récemment.
    * **[!UICONTROL Moyenne]**. Cette fonction permet de calculer l&#39;âge moyen des destinataires.
 
-      La case **[!UICONTROL Distinct]** permet de récupérer les valeurs uniques et non nulles d&#39;une colonne. On peut ainsi récupérer les logs de tracking d&#39;un destinataire qui seront ramenés à la valeur 1 car il s&#39;agit d&#39;un seul destinataire.
+     La case **[!UICONTROL Distinct]** permet de récupérer les valeurs uniques et non nulles d&#39;une colonne. On peut ainsi récupérer les logs de tracking d&#39;un destinataire qui seront ramenés à la valeur 1 car il s&#39;agit d&#39;un seul destinataire.
 
 1. **[!UICONTROL Expression]** ouvre la fenêtre **[!UICONTROL Edition de l&#39;expression]**. Par exemple, une expression pourra détecter les numéros de téléphone de plus de 10 chiffres, synonymes de possibles erreurs de saisie.
 

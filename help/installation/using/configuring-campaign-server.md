@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 100%
 
@@ -95,35 +95,35 @@ On distingue deux types de processus : multi-instance et mono-instance.
 
 * **multi-instance** : un seul processus est démarré pour toutes les instances, il s&#39;agit des processus **web**, **syslogd** et **trackinglogd**.
 
-   L’activation peut être configurée à partir du fichier **config-default.xm**.
+  L’activation peut être configurée à partir du fichier **config-default.xm**.
 
-   Déclaration d&#39;un serveur Adobe Campaign pour l&#39;accès aux consoles clientes et pour la redirection (tracking) :
+  Déclaration d&#39;un serveur Adobe Campaign pour l&#39;accès aux consoles clientes et pour la redirection (tracking) :
 
-   ```
-   vi nl6/conf/config-default.xml
-   <web args="-tomcat" autoStart="true"/>  
-   <!-- to start if the machine is also a redirection server -->  
-   <trackinglogd autoStart="true"/>
-   ```
+  ```
+  vi nl6/conf/config-default.xml
+  <web args="-tomcat" autoStart="true"/>  
+  <!-- to start if the machine is also a redirection server -->  
+  <trackinglogd autoStart="true"/>
+  ```
 
-   Dans cet exemple, le fichier est modifié à l’aide d’une commande **vi** sous Linux. Il peut être modifié à l’aide de n’importe quel éditeur **.txt** ou **.xml**.
+  Dans cet exemple, le fichier est modifié à l’aide d’une commande **vi** sous Linux. Il peut être modifié à l’aide de n’importe quel éditeur **.txt** ou **.xml**.
 
 * **mono-instance** : un processus est démarré par instance (modules : **mta**, **wfserver**, **inMail**, **sms** et **stat**).
 
-   L&#39;activation est paramétrable à partir du fichier de configuration de l&#39;instance :
+  L&#39;activation est paramétrable à partir du fichier de configuration de l&#39;instance :
 
-   ```
-   config-<instance>.xml
-   ```
+  ```
+  config-<instance>.xml
+  ```
 
-   Déclaration d&#39;un serveur pour la diffusion, l&#39;exécution des instances de workflow et la récupération des mails rebond :
+  Déclaration d&#39;un serveur pour la diffusion, l&#39;exécution des instances de workflow et la récupération des mails rebond :
 
-   ```
-   <mta autoStart="true" statServerAddress="localhost"/>
-   <wfserver autoStart="true"/>  
-   <inMail autoStart="true"/>
-   <stat autoStart="true"/>
-   ```
+  ```
+  <mta autoStart="true" statServerAddress="localhost"/>
+  <wfserver autoStart="true"/>  
+  <inMail autoStart="true"/>
+  <stat autoStart="true"/>
+  ```
 
 **Enregistrement de données Campaign**
 
@@ -131,13 +131,13 @@ Vous pouvez configurer le répertoire de stockage (répertoire **var**) des donn
 
 * Sous Windows, indiquez la valeur suivante dans la variable système **XTK_VAR_DIR**.
 
-   ```
-   D:\log\AdobeCampaign
-   ```
+  ```
+  D:\log\AdobeCampaign
+  ```
 
 * Sous Linux, rendez-vous dans le fichier **customer.sh** et indiquez : **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
 
-   Pour plus d’informations à ce sujet, reportez-vous à la section [Personnalisation des paramètres](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
+  Pour plus d’informations à ce sujet, reportez-vous à la section [Personnalisation des paramètres](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
 
 
 ## Sécurité et relais des pages dynamiques {#dynamic-page-security-and-relays}

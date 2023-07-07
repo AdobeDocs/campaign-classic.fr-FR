@@ -8,7 +8,7 @@ audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Votre version d’Adobe Campaign Classic ne prend pas en charge le pipeline.
 L’option **NmsPipeline_Config** n’est pas définie. Il s’agit en fait d’une erreur d’analyse JSON.
 Définissez la configuration JSON dans l’option **NmsPipeline_Config**. Voir « Option de routage » dans cette page.
 
-**Échec du pipeline avec « le sujet doit être une organisation ou un client valide »**
+**Échec du pipeline avec « l’objet doit être une organisation ou un client valide »**
 
 La configuration de l’identifiant de l’organisation n’est pas valide.
 

@@ -5,7 +5,7 @@ description: Définition de la balise de tracking web
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 100%
 
@@ -100,23 +100,23 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
 
 * Passage sur une page d&#39;identifiant &#39;accueil&#39;
 
-   **https://myserver.adobe.com/r/9862?tagid=home**
+  **https://myserver.adobe.com/r/9862?tagid=home**
 
 * Collecte des informations relatives au chiffre d&#39;affaires
 
-   **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
 
 * Spécification d&#39;un champ pour retrouver le destinataire
 
-   **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
 
-   Un destinataire dont le numéro de compte est 10 est passé sur la page d&#39;accueil.
+  Un destinataire dont le numéro de compte est 10 est passé sur la page d&#39;accueil.
 
 * Utilisation d&#39;une diffusion par défaut
 
-   **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
 
-   Un destinataire est passé sur la page d&#39;accueil. Cette information sera stockée dans la diffusion dont l&#39;identifiant est 230 (soit e6 en base 16), si aucun cookie de session contenant un identifiant de diffusion n&#39;est envoyé avec cette requête.
+  Un destinataire est passé sur la page d&#39;accueil. Cette information sera stockée dans la diffusion dont l&#39;identifiant est 230 (soit e6 en base 16), si aucun cookie de session contenant un identifiant de diffusion n&#39;est envoyé avec cette requête.
 
 >[!NOTE]
 >

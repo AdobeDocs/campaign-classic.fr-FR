@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 100%
 
@@ -71,9 +71,9 @@ Ce rapport regroupe les indicateurs clés qui permettent de suivre le comporteme
 * **[!UICONTROL Clics sur le lien de la page miroir]** : Nombre de clics effectués sur le lien de la page miroir. Pour être comptabilisé, le lien doit être défini comme tel dans l&#39;assistant de diffusion (URL trackées). Reportez-vous à cette [page](../../delivery/using/about-delivery-monitoring.md).
 * **[!UICONTROL Estimation des transferts]** : Estimation du nombre d&#39;emails transférés par les destinataires cibles de la diffusion à d&#39;autres personnes. Cette valeur est calculée en effectuant la différence entre le nombre de personnes distinctes et le nombre de destinataires distincts ayant cliqué au moins une fois dans le mail.
 
-   >[!NOTE]
-   >
-   >Pour plus d’informations sur la distinction personnes / destinataires ciblés, consultez la section [Distinction personnes / destinataires ciblés](../../reporting/using/indicator-calculation.md#targeted-persons---recipients).
+  >[!NOTE]
+  >
+  >Pour plus d’informations sur la distinction personnes / destinataires ciblés, consultez la section [Distinction personnes / destinataires ciblés](../../reporting/using/indicator-calculation.md#targeted-persons---recipients).
 
 **[!UICONTROL 3. Taux d&#39;ouverture et de clic]**
 
@@ -110,9 +110,9 @@ Ce tableau de valeurs présente la répartition, par domaine Internet, des envoi
 * **[!UICONTROL Nombre moyen d&#39;articles par transaction]** : Moyenne du nombre d&#39;article par achat effectué par les destinataires distincts.
 * **[!UICONTROL Montant moyen par message]** : Moyenne du montant des achats générés, par message.
 
-   >[!NOTE]
-   >
-   >Pour qu&#39;une page visitée, une transaction, un montant ou un article soit comptabilisé, une balise de webtracking doit être insérée sur la page web correspondante. Le paramétrage du webtracking est présenté dans [cette section](../../configuration/using/about-web-tracking.md).
+  >[!NOTE]
+  >
+  >Pour qu&#39;une page visitée, une transaction, un montant ou un article soit comptabilisé, une balise de webtracking doit être insérée sur la page web correspondante. Le paramétrage du webtracking est présenté dans [cette section](../../configuration/using/about-web-tracking.md).
 
 **[!UICONTROL 6. Partage vers email et réseaux sociaux]**
 
@@ -130,9 +130,9 @@ Dans la section supérieure du rapport, les taux suivants sont affichés :
 
 * **[!UICONTROL Réactivité]** : Ratio du nombre de destinataires ciblés ayant cliqué au moins une fois dans une même diffusion par rapport à l&#39;estimation du nombre de destinataires ciblés ayant ouvert au moins une fois une même diffusion. Ne tient pas compte des clics sur le lien d&#39;opt-out et la page miroir.
 
-   >[!NOTE]
-   >
-   >Pour plus d’informations sur le tracking des ouvertures, consultez la section [Tracking des ouvertures](../../reporting/using/indicator-calculation.md#tracking-opens-).
+  >[!NOTE]
+  >
+  >Pour plus d’informations sur le tracking des ouvertures, consultez la section [Tracking des ouvertures](../../reporting/using/indicator-calculation.md#tracking-opens-).
 
 * **[!UICONTROL Clics distincts]** : Nombre de personnes distinctes ayant cliqué au moins une fois (hors lien de désinscription et page miroir) dans une même diffusion. Le taux affiché est calculé par rapport au nombre de messages transmis avec succès.
 * **[!UICONTROL Clics cumulés]** : Nombre total de clics effectués par des destinataires ciblés (hors lien de désinscription et page miroir). Le taux affiché est calculé par rapport au nombre de messages transmis avec succès.

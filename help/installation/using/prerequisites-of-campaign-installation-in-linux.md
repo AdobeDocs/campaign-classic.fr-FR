@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 100%
 
@@ -44,33 +44,33 @@ Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des libra
 
 * La bibliothèque C doit supporter le mode TLS (Thread Local Storage). Ce mode est actif dans la plupart des cas, sauf avec certains kernels dans lesquels le support Xen a été activé.
 
-   Pour le vérifier, vous pouvez par exemple utiliser la commande **uname -a | grep xen**.
+  Pour le vérifier, vous pouvez par exemple utiliser la commande **uname -a | grep xen**.
 
-   La configuration est correcte lorsque cette commande ne retourne aucune information (ligne vide).
+  La configuration est correcte lorsque cette commande ne retourne aucune information (ligne vide).
 
 * Vous devez disposer de la version OpenSSL **1.0.2** ou d’une version ultérieure.
 
-   Pour les distributions RHEL 7/8, la version 1.0 d’OpenSSL est requise.
+  Pour les distributions RHEL 7/8, la version 1.0 d’OpenSSL est requise.
 
 * Pour utiliser Adobe Campaign, la librairie suivante doit être installée : **libicu**.
 
-   Les versions supportées de **libicu** sont les suivantes (distribution 32bits ou 64bits) :
+  Les versions supportées de **libicu** sont les suivantes (distribution 32bits ou 64bits) :
 
    * RHEL 7/8, CentOS 7 : libicu50
    * Debian 8 : libicu52
    * Debian 9 : libicu57
 
-   Pour utiliser Adobe Campaign, la bibliothèque libc-ares doit être installée. Sous RHEL/CentOS, exécutez la commande suivante :
+  Pour utiliser Adobe Campaign, la bibliothèque libc-ares doit être installée. Sous RHEL/CentOS, exécutez la commande suivante :
 
-   ```
-   yum install c-ares
-   ```
+  ```
+  yum install c-ares
+  ```
 
-   Sous Debian :
+  Sous Debian :
 
-   ```
-   aptitude install libc-ares2
-   ```
+  ```
+  aptitude install libc-ares2
+  ```
 
 ### SELinux {#selinux}
 
@@ -114,15 +114,15 @@ Sous Red Hat, utilisez la commande suivante :
 
 * Pour CentOS/RHEL 7 :
 
-   ```
-   yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
-   ```
+  ```
+  yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
+  ```
 
 * Pour RHEL 8 :
 
-   ```
-   dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
-   ```
+  ```
+  dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
+  ```
 
 ### Polices de caractères pour les instances japonaises {#fonts-for-japanese-instances}
 
@@ -138,15 +138,15 @@ Sous Red Hat, utilisez la commande :
 
 * Pour RHEL 7 :
 
-   ```
-   yum install ipa-gothic-fonts ipa-mincho-fonts
-   ```
+  ```
+  yum install ipa-gothic-fonts ipa-mincho-fonts
+  ```
 
 * Pour RHEL 8 :
 
-   ```
-   dnf install vlgothic-fonts
-   ```
+  ```
+  dnf install vlgothic-fonts
+  ```
 
 ### Installation de LibreOffice sous Debian {#installing-libreoffice-for-debian}
 

@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 100%
 
@@ -53,17 +53,17 @@ Par défaut, lorsque l&#39;export est lancé depuis le nœud **[!UICONTROL Trait
 
 * Par défaut, l&#39;option **[!UICONTROL Rapatrier en local le fichier généré après l&#39;export]** est cochée : dans le champ **[!UICONTROL Fichier local]**, renseignez le chemin et le nom du fichier à créer, ou parcourez votre disque local en cliquant sur le dossier situé à droite du champ. Vous pouvez décocher cette option pour saisir le chemin d&#39;accès et le nom du fichier de sortie sur le serveur.
 
-   >[!NOTE]
-   >
-   >Les traitements automatiques d&#39;import et d&#39;export sont toujours effectués sur le serveur.
-   >
-   >Si vous souhaitez n&#39;exporter qu&#39;une partie des données, cliquez sur le lien **[!UICONTROL Paramètres avancés...]** et indiquez le nombre de lignes à exporter dans le champ correspondant.
+  >[!NOTE]
+  >
+  >Les traitements automatiques d&#39;import et d&#39;export sont toujours effectués sur le serveur.
+  >
+  >Si vous souhaitez n&#39;exporter qu&#39;une partie des données, cliquez sur le lien **[!UICONTROL Paramètres avancés...]** et indiquez le nombre de lignes à exporter dans le champ correspondant.
 
 * Vous pouvez créer un export différentiel afin de n&#39;exporter que les enregistrements modifiés depuis la dernière exécution. Pour cela, cliquez sur le lien **[!UICONTROL Paramètres avancés...]**, cliquez sur l&#39;onglet **[!UICONTROL Export différentiel]** et cochez l&#39;option **[!UICONTROL Activer l&#39;export différentiel]**.
 
-   ![](assets/s_ncs_user_export_wizard02_b.png)
+  ![](assets/s_ncs_user_export_wizard02_b.png)
 
-   Vous devez indiquer la date de la dernière modification. Elle peut être récupérée dans un champ ou calculée.
+  Vous devez indiquer la date de la dernière modification. Elle peut être récupérée dans un champ ou calculée.
 
 ## Etape 3 - Définition du format de sortie {#step-3---defining-the-output-format}
 
@@ -111,7 +111,7 @@ Vous pouvez modifier l&#39;ordre et le libellé des champs pour le fichier de so
    * Passer en minuscules
    * Première lettre en majuscule
 
-   ![](assets/s_ncs_user_export_wizard06.png)
+  ![](assets/s_ncs_user_export_wizard06.png)
 
 * Cliquez sur l&#39;icône **[!UICONTROL Ajouter un champ calculé]** si vous voulez créer un champ calculé (par exemple, une colonne contenant le nom+le prénom). Voir à ce sujet la section [Champs calculés](../../platform/using/executing-import-jobs.md#calculated-fields).
 

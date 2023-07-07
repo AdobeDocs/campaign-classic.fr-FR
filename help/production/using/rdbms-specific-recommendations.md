@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 100%
 
@@ -143,7 +143,6 @@ VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
 >* Pour les très grandes tables (généralement au-dessus de 5 Go), la commande VACUUM FULL peut devenir assez inefficace et nécessiter beaucoup de temps. Adobe déconseille de l&#39;utiliser pour la table **YyyNmsBroadLogXxx**.
 >* Cette opération de maintenance peut être implémentée par un workflow Adobe Campaign, à l&#39;aide d&#39;une activité **[!UICONTROL SQL]**. Voir à ce propos [cette section](../../workflow/using/architecture.md). Assurez-vous de planifier la maintenance pendant une période de faible activité qui n&#39;entrera pas en conflit avec votre période de sauvegarde.
 >
-
 
 ### Reconstruire une base {#rebuilding-a-database}
 
@@ -436,19 +435,19 @@ L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez u
 
    * Si le taux de fragmentation de l&#39;index est compris entre 10% et 40%, il est recommandé d&#39;effectuer une réorganisation :
 
-      Choisissez la base de données et les objets (tables ou vues) dont vous voulez réorganiser l&#39;index puis cliquez sur **[!UICONTROL Suivant]**.
+     Choisissez la base de données et les objets (tables ou vues) dont vous voulez réorganiser l&#39;index puis cliquez sur **[!UICONTROL Suivant]**.
 
-      >[!NOTE]
-      >
-      >Selon votre configuration vous ne pourrez sélectionner que les tables sélectionnées précédemment ou la totalité des tables de votre base de données.
+     >[!NOTE]
+     >
+     >Selon votre configuration vous ne pourrez sélectionner que les tables sélectionnées précédemment ou la totalité des tables de votre base de données.
 
    * Si le taux de fragmentation de l&#39;index est supérieur à 40%, il est recommandé d&#39;effectuer une reconstruction :
 
-      Choisissez les options de la tâche de reconstruction de l&#39;index puis cliquez sur **[!UICONTROL Suivant]**.
+     Choisissez les options de la tâche de reconstruction de l&#39;index puis cliquez sur **[!UICONTROL Suivant]**.
 
-      >[!NOTE]
-      >
-      >Le processus de reconstruction de l&#39;index est plus contraignant en termes d&#39;utilisation du processeur et verrouille les ressources de la base de données. Sélectionnez l&#39;option **[!UICONTROL Conserver l&#39;index en ligne lors de la réindexation]** si vous souhaitez que l&#39;index soit disponible pendant la reconstruction.
+     >[!NOTE]
+     >
+     >Le processus de reconstruction de l&#39;index est plus contraignant en termes d&#39;utilisation du processeur et verrouille les ressources de la base de données. Sélectionnez l&#39;option **[!UICONTROL Conserver l&#39;index en ligne lors de la réindexation]** si vous souhaitez que l&#39;index soit disponible pendant la reconstruction.
 
 1. Choisissez les options du rapport d&#39;activité des tâches de maintenance puis cliquez sur **[!UICONTROL Suivant]**.
 1. Vérifiez la liste des tâches du plan de maintenance puis cliquez sur **[!UICONTROL Terminer]**.

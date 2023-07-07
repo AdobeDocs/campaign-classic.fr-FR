@@ -48,7 +48,7 @@ Une énumération se définit au tout début d&#39;un schéma (avant la définit
 
 * **basetype (string)**: type des valeurs stockées dans l&#39;énumération.
 
-   Liste des types disponibles :
+  Liste des types disponibles :
 
    * ANY
    * bin

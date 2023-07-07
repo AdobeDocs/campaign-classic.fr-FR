@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 100%
 
@@ -65,17 +65,17 @@ Deux autres rapports sur les questionnaires Web sont également disponibles par 
 
 * Général
 
-   Ce rapport regroupe des informations générales sur le questionnaire : l&#39;évolution du nombre de réponses dans le temps, la répartition par origines et par langues.
+  Ce rapport regroupe des informations générales sur le questionnaire : l&#39;évolution du nombre de réponses dans le temps, la répartition par origines et par langues.
 
-   Exemple de rapport général :
+  Exemple de rapport général :
 
-   ![](assets/s_ncs_admin_survey_report_0.png)
+  ![](assets/s_ncs_admin_survey_report_0.png)
 
 * Répartition des réponses
 
-   Ce rapport permet de consulter la répartition des réponses pour chaque question. Cette répartition n&#39;est disponible que pour les réponses fournies à des champs stockés dans des conteneurs de type **[!UICONTROL Question]**. Elle n&#39;est valable que pour les contrôles de sélection (pas de répartition sur les champs de type texte, par exemple).
+  Ce rapport permet de consulter la répartition des réponses pour chaque question. Cette répartition n&#39;est disponible que pour les réponses fournies à des champs stockés dans des conteneurs de type **[!UICONTROL Question]**. Elle n&#39;est valable que pour les contrôles de sélection (pas de répartition sur les champs de type texte, par exemple).
 
-   ![](assets/s_ncs_admin_survey_report_2.png)
+  ![](assets/s_ncs_admin_survey_report_2.png)
 
 ## Exporter les réponses {#exporting-answers}
 
@@ -145,19 +145,19 @@ Editez la boîte de partage pour la paramétrer :
 
 * Sélectionnez d&#39;abord le schéma adéquat dans l&#39;onglet **[!UICONTROL Général]** avant de paramétrer le sous-ensemble :
 
-   ![](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
+  ![](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
 
 * Dans l&#39;onglet **[!UICONTROL Sous-ensembles]**, sélectionnez l&#39;option **[!UICONTROL Limiter les enregistrements sélectionnés]** puis cliquez sur le lien **[!UICONTROL Editer...]**.
 
-   ![](assets/s_ncs_admin_survey_responses_wf_box_7.png)
+  ![](assets/s_ncs_admin_survey_responses_wf_box_7.png)
 
 * Sélectionnez l&#39;option **[!UICONTROL Conserver les premiers suite à un tri]** et indiquez la colonne de tri. Cochez l&#39;option **[!UICONTROL Tri descendant]**.
 
-   ![](assets/s_ncs_admin_survey_responses_wf_box_8.png)
+  ![](assets/s_ncs_admin_survey_responses_wf_box_8.png)
 
 * Cliquez sur le bouton **[!UICONTROL Suivant]** et limitez le nombre d&#39;enregistrements à 5.
 
-   ![](assets/s_ncs_admin_survey_responses_wf_box_9.png)
+  ![](assets/s_ncs_admin_survey_responses_wf_box_9.png)
 
 * Cliquez sur **[!UICONTROL Terminer]** puis relancez le workflow pour valider le ciblage.
 

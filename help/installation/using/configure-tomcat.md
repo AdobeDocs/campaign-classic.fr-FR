@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
 
@@ -26,6 +26,7 @@ Pour en savoir plus sur Tomcat dans Campaign et comment localiser votre version 
 >[!NOTE]
 >
 >Cette procédure est limitée aux déploiements **On-Premise**.
+>
 
 ## Port par défaut pour Apache Tomcat {#default-port-for-tomcat}
 

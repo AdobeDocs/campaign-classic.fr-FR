@@ -8,7 +8,7 @@ audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 100%
 

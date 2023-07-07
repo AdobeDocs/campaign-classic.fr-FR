@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 100%
 
@@ -82,9 +82,9 @@ Pour plus d’informations sur la création d’un modèle de distribution de do
    * **[!UICONTROL Libellé]** : saisissez le libellé du domaine qui apparaîtra dans les notifications de validation et de retour.
    * **[!UICONTROL Groupe ou opérateur]** : sélectionnez l&#39;opérateur ou le groupe d&#39;opérateurs affecté au domaine.
 
-      >[!CAUTION]
-      >
-      >Vérifiez que les opérateurs disposent des droits adéquats.
+     >[!CAUTION]
+     >
+     >Vérifiez que les opérateurs disposent des droits adéquats.
 
 ## Etape 2 : création du workflow de ciblage {#step-2--creating-the-targeting-workflow}
 

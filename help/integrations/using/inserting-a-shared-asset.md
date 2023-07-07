@@ -27,15 +27,15 @@ Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisé
 
    * si vous utilisez le [mode d&#39;édition standard](../../delivery/using/defining-the-email-content.md#adding-images), sélectionnez **[!UICONTROL Image]** > **[!UICONTROL Sélectionner une ressource partagée]**.
 
-      ![](assets/dam_insert_image_standard.png)
+     ![](assets/dam_insert_image_standard.png)
 
    * si vous utilisez le [mode d&#39;édition avancé](../../web/using/about-campaign-html-editor.md) (DCE), placez-vous sur un bloc de type image, puis via le menu contextuel, sélectionnez **[!UICONTROL Sélectionner une ressource partagée]**.
 
-      ![](assets/dam_insert_image_dce.png)
+     ![](assets/dam_insert_image_dce.png)
 
-      >[!NOTE]
-      >
-      >Vous ne pouvez pas insérer d&#39;images partagées depuis Adobe Campaign dans l&#39;[accès web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) si vous utilisez le DCE.
+     >[!NOTE]
+     >
+     >Vous ne pouvez pas insérer d&#39;images partagées depuis Adobe Campaign dans l&#39;[accès web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) si vous utilisez le DCE.
 
 1. Dans la fenêtre de sélection qui s&#39;ouvre, sélectionnez une image, puis validez.
 

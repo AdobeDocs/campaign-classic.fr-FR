@@ -5,7 +5,7 @@ description: Découvrez comment définir dʼautres fonctions SQL
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
 
@@ -64,22 +64,22 @@ La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &
 
 * Les champs **nom**, **espace de noms**, et **description du package** (&quot;name&quot;, &quot;namespace&quot; et &quot;label&quot;) sont essentiellement indicatifs. Ils permettent de voir le package récapitulé dans la liste des packages installés (Explorateur/Administration/Gestion des packages/Packages installés).
 * Les champs **buildVersion** et **buildNumber** sont obligatoires. Ils doivent correspondre à la version du serveur auquel la console est connectée. Cette information est disponible dans la boîte de dialogue &quot;Aide/À propos&quot;.
-* Les blocs suivants, **entities** et **funclist**, sont obligatoires. Dans funcList, les champs &quot;name&quot; et &quot;namespace&quot; sont obligatoires, mais leur nom est laissé au choix de l&#39;utilisateur, et il désignent la liste de fonctions de manière unique.
+* Les blocs suivants, **entities** et **funclist**, sont obligatoires. Dans funcList, les champs « name » et « namespace » sont obligatoires, mais leur nom est laissé au choix de l’utilisateur, et il désignent la liste de fonctions de manière unique.
 
-   Cela signifie que si l&#39;on importe plus tard une autre liste de fonctions avec le même couple namespace/name (ici &quot;cus::maListe&quot;), les fonctions précédemment importées seront effacées. Inversement, si l&#39;on change ce couple namespace/name, la nouvelle série de fonctions importées s&#39;ajoutera à la précédente.
+  Cela signifie que si l’on importe plus tard une autre liste de fonctions avec le même couple namespace/name (ici « cus::maListe »), les fonctions précédemment importées seront effacées. Inversement, si l’on change ce couple namespace/name, la nouvelle série de fonctions importées s’ajoutera à la précédente. 
 
 * L&#39;élément **group** permet de définir visuellement dans quel groupe de fonctions la ou les fonctions importées apparaîtront dans l&#39;éditeur de fonction. L&#39;attribut @name peut, soit être un nom déjà existant (auquel cas les fonctions s&#39;ajouteront au groupe considéré), soit un nouveau nom, qui apparaîtra sous forme d&#39;un nouveau groupe.
 * Pour mémoire, les valeurs possibles pour l’attribut @name dans l’élément `<group>` sont :
 
-   ```
-     name="aggregate"      ( label="Aggregates"         )
-     name="string"             ( label="String"           )
-     name="date"               ( label="Date"             )
-     name="numeric"          ( label="Numeric"        )
-     name="geomarketing" ( label="Geomarketing"     )
-     name="other"              ( label="Others"           )
-     name="window"          ( label="Windowing functions" )
-   ```
+  ```
+    name="aggregate"      ( label="Aggregates"         )
+    name="string"             ( label="String"           )
+    name="date"               ( label="Date"             )
+    name="numeric"          ( label="Numeric"        )
+    name="geomarketing" ( label="Geomarketing"     )
+    name="other"              ( label="Others"           )
+    name="window"          ( label="Windowing functions" )
+  ```
 
 >[!IMPORTANT]
 >
@@ -108,13 +108,13 @@ Le champ **@name** fait référence au nom de la fonction et « args » corres
 * **@help** est le champ qui est affiché en bas de la fenêtre d&#39;édition d&#39;expressions.
 * **@display** est informatif.
 
-   >[!NOTE]
-   >
-   >Dans les attributs @help et @display, la chaîne &quot;$1&quot; représente le nom qui a été donné au premier paramètre de la fonction (ici, &quot;Âge&quot;). $2, $3... représenteraient les paramètres suivants. Dans l&#39;attribut @body décrit ci-après, $1 désigne la valeur de l&#39;argument passé à la fonction lors de l&#39;appel.
+  >[!NOTE]
+  >
+  >Dans les attributs @help et @display, la chaîne &quot;$1&quot; représente le nom qui a été donné au premier paramètre de la fonction (ici, &quot;Âge&quot;). $2, $3... représenteraient les paramètres suivants. Dans l&#39;attribut @body décrit ci-après, $1 désigne la valeur de l&#39;argument passé à la fonction lors de l&#39;appel.
 
-   >[!NOTE]
-   >
-   >La description doit être une chaîne de caractères valide au sens XML : noter l&#39;utilisation de &#39;&lt;&#39; et &#39;>&#39; au lieu de &lt; et >.
+  >[!NOTE]
+  >
+  >La description doit être une chaîne de caractères valide au sens XML : noter l&#39;utilisation de &#39;&lt;&#39; et &#39;>&#39; au lieu de &lt; et >.
 
 * **@type** est le type de retour de la fonction, il peut prendre les valeurs habituelles (long, string, byte, datetime...). S&#39;il est omis, le serveur détermine le type au mieux d&#39;après les types intervenant dans l&#39;expression implémentant la fonction.
 * **@minArgs** et **maxArgs** désignent le nombre de paramètres (minimum et maximum) de la fonction. Par exemple, dans le cas d&#39;une fonction à 2 paramètres, minArgs et maxArgs vaudront 2 et 2. Dans le cas de 3 paramètres, plus 1 optionnel, ils vaudront 3 et 4 respectivement.
@@ -123,9 +123,9 @@ Le champ **@name** fait référence au nom de la fonction et « args » corres
    * L&#39;attribut **@provider** est obligatoire, il indique pour quels systèmes de bases de données l&#39;implémentation est fournie. Comme le montre l&#39;exemple, on peut fournir des implémentations différentes selon la base de données, quand les syntaxes des expressions ou fonctions sous-jacentes diffèrent.
    * Et l&#39;attribut **@body** contient l&#39;implémentation de la fonction. Noter que cette implémentation doit être une expression, au sens du langage de la base de données (pas de bloc de code). Selon les bases, les expressions peuvent être des sous-requêtes (&quot;(select column from table where...)&quot;) ne retournant qu&#39;une seule valeur. C&#39;est par exemple le cas sous Oracle (la requête doit être parenthésée).
 
-   >[!NOTE]
-   >
-   >Si seules une ou deux bases de données sont susceptibles d&#39;être interrogées par la fonction que l&#39;on définit, on peut bien sûr ne fournir que les définitions correspondant à ces bases.
+  >[!NOTE]
+  >
+  >Si seules une ou deux bases de données sont susceptibles d&#39;être interrogées par la fonction que l&#39;on définit, on peut bien sûr ne fournir que les définitions correspondant à ces bases.
 
 ## Le descripteur de fonction &#39;pass-through&#39; {#pass-through--function-descriptor}
 

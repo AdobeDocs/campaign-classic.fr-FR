@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 100%
 
@@ -75,11 +75,11 @@ Pour cela :
 
 * Cliquez sur l&#39;icône **[!UICONTROL Edition]**.
 
-   ![](assets/dce_sidebar_options.png)
+  ![](assets/dce_sidebar_options.png)
 
 * Complétez le champ **[!UICONTROL Valeur]** avec la valeur de l&#39;énumération associée (définie par le champ sélectionné).
 
-   ![](assets/dce_sidebar_completeoptionradio.png)
+  ![](assets/dce_sidebar_completeoptionradio.png)
 
 ### Modifier les champs de formulaires {#modifying-form-fields}
 
@@ -91,7 +91,7 @@ Vous pouvez ainsi :
 * Dupliquer le champ sélectionné en créant un nouveau bloc, à partir de l&#39;icône **[!UICONTROL Dupliquer]**.
 * Editer la fenêtre **[!UICONTROL Données de formulaire]** afin d&#39;associer un champ de la base à la zone du formulaire, à partir de l&#39;icône **[!UICONTROL Editer]**.
 
-   ![](assets/dce_toolbar_formblock_edition.png)
+  ![](assets/dce_toolbar_formblock_edition.png)
 
 ## Ajouter une action sur un bouton {#adding-an-action-to-a-button}
 
@@ -138,7 +138,6 @@ Les blocs de personnalisation et champs de personnalisation ne peuvent être ins
 >* Fenêtre courante (_self)
 >* Comportement par défaut du navigateur
 >
-
 
 ### Lien vers une URL {#link-to-a-url}
 
@@ -204,7 +203,6 @@ Les options disponibles sont les suivantes :
 >
 >* Icône **Dupliquer** : duplique le bloc et également tous les styles rattachés au bloc.
 
-
 ## Gestion des images et animations {#managing-images-and-animations}
 
 Le Digital Content Editor permet de travailler avec **tous types d&#39;images** dont le format est compatible avec les navigateurs.
@@ -238,7 +236,7 @@ Lorsque vous sélectionnez un bloc contenant une image, vous accédez aux propri
 * **Légende** permet de définir une légende associée à l&#39;image (correspond à l&#39;attribut HTML **alt**).
 * **Dimensions** permet de spécifier, en pixels, de la taille de l&#39;image.
 
-   ![](assets/dce_popup_imgsize.png)
+  ![](assets/dce_popup_imgsize.png)
 
 ## Ajouter du contenu de personnalisation {#adding-personalization-content}
 

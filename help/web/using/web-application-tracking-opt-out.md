@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
 
@@ -42,11 +42,11 @@ Si le tracking web est activé, vous pouvez sélectionner l&#39;une des options 
 * Aucune bannière.
 * Configurer la bannière manuellement dans chaque page : cochez cette option et sélectionnez la bannière dans chaque page dans les propriétés de page.
 
-   ![](assets/pageproperties.png)
+  ![](assets/pageproperties.png)
 
 * Ajouter automatiquement la bannière à toutes les pages : sélectionnez la bannière directement dans les propriétés de l&#39;application Web.
 
-   ![](assets/optoutconfig.png)
+  ![](assets/optoutconfig.png)
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Les API côté client disponibles pour personnaliser la bannière sont les suiva
 * **NL.ClientWebTracking.forbid()** : définit la valeur du cookie d&#39;opt-out de sorte à interdire le tracking web. Pour être interdit, le tracking web nécessite une saisie de l&#39;utilisateur.
 * **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)** : ferme la bannière du cookie d&#39;opt-out une fois que l&#39;utilisateur a cliqué sur le bouton d&#39;acceptation ou de refus (pendant la phase de propagation de l&#39;événement clic).
 
-   bannerDomElt {DOMElement} : élément DOM racine de la bannière du cookie qui doit être supprimé.
+  bannerDomElt {DOMElement} : élément DOM racine de la bannière du cookie qui doit être supprimé.
 
 * **NL.ClientWebTracking.hasUserPrefs()** : renvoie la valeur true si l’utilisateur a choisi les préférences du tracking web.
 * **NL.ClientWebTracking.getUserPrefs()**: renvoie la valeur du cookie d&#39;opt-out qui définit les préférences de l&#39;utilisateur.
@@ -93,23 +93,23 @@ Si vous devez écrire du code JSSP, les API côté serveur suivantes sont dispon
 
 * **NL.ServerWebTracking.generateOptOutBanner(escapeJs)** : génère les balises pour que bannière d&#39;opt-out soit insérée dans la page JSSP.
 
-   **escapeJs {Boolean}** : a la valeur true lorsque les balises générées doivent être placées dans une séquence d&#39;échappement afin d&#39;être utilisées dans le script JavaScript.
+  **escapeJs {Boolean}** : a la valeur true lorsque les balises générées doivent être placées dans une séquence d&#39;échappement afin d&#39;être utilisées dans le script JavaScript.
 
-   Cette chaîne renvoie le code HTML des balises de la bannière d&#39;opt-out qui doivent être imprimées sur la page.
+  Cette chaîne renvoie le code HTML des balises de la bannière d&#39;opt-out qui doivent être imprimées sur la page.
 
 * **NL.ServerWebTracking._displayOptOutBanner() :**
 
-   Renvoie la valeur &quot;true&quot; si la bannière d‘opt-out doit s‘afficher après que l‘administrateur l‘ait sélectionnée.
+  Renvoie la valeur &quot;true&quot; si la bannière d‘opt-out doit s‘afficher après que l‘administrateur l‘ait sélectionnée.
 
-   Ce code est appelé lorsque l&#39;administrateur a déjà choisi d&#39;utiliser la bannière d&#39;opt-out pour le tracking web.
+  Ce code est appelé lorsque l&#39;administrateur a déjà choisi d&#39;utiliser la bannière d&#39;opt-out pour le tracking web.
 
-   La bannière doit s&#39;afficher si l&#39;utilisateur n&#39;a pas encore décidé s&#39;il souhaitait être tracké ou non.
+  La bannière doit s&#39;afficher si l&#39;utilisateur n&#39;a pas encore décidé s&#39;il souhaitait être tracké ou non.
 
 * **NL.ServerWebTracking.renderOptOutBanner(escapeJs) :**
 
-   effectue le rendu des balises pour la bannière d&#39;opt-out en les insérant dans la page JSSP. Elle est appelée telle quelle dans JSSP entre &lt;% %>.
+  effectue le rendu des balises pour la bannière d&#39;opt-out en les insérant dans la page JSSP. Elle est appelée telle quelle dans JSSP entre &lt;% %>.
 
-   **escapeJs {Boolean}** : a la valeur true lorsque les balises générées doivent être placées dans une séquence d&#39;échappement afin d&#39;être utilisées dans le script JavaScript.
+  **escapeJs {Boolean}** : a la valeur true lorsque les balises générées doivent être placées dans une séquence d&#39;échappement afin d&#39;être utilisées dans le script JavaScript.
 
 Exemple JSSP :
 

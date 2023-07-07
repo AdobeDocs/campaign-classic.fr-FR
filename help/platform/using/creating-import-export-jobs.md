@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 
@@ -23,17 +23,17 @@ Une fois les modèles paramétrés, les opérations d&#39;import et d&#39;export
 
 * Dans la section **[!UICONTROL Profils et cibles]** de l&#39;espace de travail d&#39;Adobe Campaign, cliquez sur le lien **[!UICONTROL Traitements]** : vous accédez alors à la liste des imports et exports existants.
 
-   Cliquez sur le bouton **[!UICONTROL Créer]** et choisissez le type de traitement que vous souhaitez réaliser.
+  Cliquez sur le bouton **[!UICONTROL Créer]** et choisissez le type de traitement que vous souhaitez réaliser.
 
-   ![](assets/s_ncs_user_import_from_home.png)
+  ![](assets/s_ncs_user_import_from_home.png)
 
 * Vous pouvez également lancer les imports et exports depuis la section **[!UICONTROL Surveillance]** de l&#39;espace de travail : deux liens dédiés vous permettent de démarrer directement l&#39;import ou l&#39;export.
 
-   ![](assets/s_ncs_user_import_from_production.png)
+  ![](assets/s_ncs_user_import_from_production.png)
 
 * Enfin, les imports et exports peuvent être lancés à partir de l&#39;explorateur Adobe Campaign.
 
-   ![](assets/s_ncs_user_export_wizard_launch_from_menu.png)
+  ![](assets/s_ncs_user_export_wizard_launch_from_menu.png)
 
 
 Toutes ces actions ouvrent les assistants d&#39;export ou d&#39;import de données. Ils sont détaillés dans les sections suivantes :

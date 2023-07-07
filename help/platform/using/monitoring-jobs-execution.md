@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
 
@@ -34,36 +34,36 @@ Chaque statut est représenté par une icône et un libellé spéciaux. Les stat
 
 * **Edition en cours**
 
-   Traitement en cours de création.
+  Traitement en cours de création.
 
 * **En cours d&#39;exécution**
 
-   Traitement en cours d&#39;exécution.
+  Traitement en cours d&#39;exécution.
 
 * **Annuler**
 
-   Clic sur le bouton **[!UICONTROL Annuler]** : l&#39;annulation du traitement en cours.
+  Clic sur le bouton **[!UICONTROL Annuler]** : l&#39;annulation du traitement en cours.
 
 * **Annulation en cours**
 
-   La commande d&#39;annulation a été prise en compte et le traitement est en cours d&#39;annulation.
+  La commande d&#39;annulation a été prise en compte et le traitement est en cours d&#39;annulation.
 
 * **Pause en cours**
 
-   Clic sur le bouton **[!UICONTROL Pause]** : la suspension du traitement est en cours.
+  Clic sur le bouton **[!UICONTROL Pause]** : la suspension du traitement est en cours.
 
 * **En pause**
 
-   Clic sur le bouton **[!UICONTROL Pause]** : le traitement est suspendu. Il peut être relancé via le bouton **[!UICONTROL Démarrer]**.
+  Clic sur le bouton **[!UICONTROL Pause]** : le traitement est suspendu. Il peut être relancé via le bouton **[!UICONTROL Démarrer]**.
 
 * **Terminé**
 
-   Exécution du traitement terminée.
+  Exécution du traitement terminée.
 
 * **Terminé en erreur**
 
-   Le traitement n&#39;a pas été exécuté à cause d&#39;une erreur technique.
+  Le traitement n&#39;a pas été exécuté à cause d&#39;une erreur technique.
 
 * **Arrêt du serveur en cours**
 
-   Le traitement en cours est interrompu à cause d&#39;un arrêt du serveur Adobe Campaign.
+  Le traitement en cours est interrompu à cause d&#39;un arrêt du serveur Adobe Campaign.

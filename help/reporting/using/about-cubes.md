@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 
@@ -43,22 +43,22 @@ Les principaux contextes d&#39;utilisation des cubes sont les suivants :
 
 * Les exports de données peuvent être réalisés directement dans un rapport, conçu à partir de l’onglet **[!UICONTROL Rapports]** de la plateforme Adobe Campaign.
 
-   Pour cela, créez un nouveau rapport et sélectionnez le cube à utiliser.
+  Pour cela, créez un nouveau rapport et sélectionnez le cube à utiliser.
 
-   ![](assets/cube_create_new.png)
+  ![](assets/cube_create_new.png)
 
-   Les cubes apparaissent comme des modèles à partir desquels sont créés les rapports. Une fois le modèle sélectionné, cliquez sur le bouton **[!UICONTROL Créer]** pour paramétrer et visualiser le rapport correspondant.
+  Les cubes apparaissent comme des modèles à partir desquels sont créés les rapports. Une fois le modèle sélectionné, cliquez sur le bouton **[!UICONTROL Créer]** pour paramétrer et visualiser le rapport correspondant.
 
-   Vous pouvez alors adapter les mesures, modifier le mode d&#39;affichage ou configurer le tableau, puis afficher le rapport à partir du bouton central.
+  Vous pouvez alors adapter les mesures, modifier le mode d&#39;affichage ou configurer le tableau, puis afficher le rapport à partir du bouton central.
 
-   ![](assets/cube_display_new.png)
+  ![](assets/cube_display_new.png)
 
 * Vous pouvez également référencer un cube dans la boîte de **[!UICONTROL Requête]** d&#39;un rapport afin d&#39;en utiliser les indicateurs, comme dans l&#39;exemple ci-dessous :
 
-   ![](assets/s_advuser_query_using_a_cube.png)
+  ![](assets/s_advuser_query_using_a_cube.png)
 
 * Vous pouvez également insérer un tableau croisé dynamique basé sur un cube dans n&#39;importe quelle page d&#39;un rapport. Pour cela, référencez le cube à utiliser dans l&#39;onglet **[!UICONTROL Données]** du tableau croisé dynamique de la page concernée.
 
-   ![](assets/s_advuser_cube_in_report.png)
+  ![](assets/s_advuser_cube_in_report.png)
 
-   Pour plus dʼinformations, consultez la section [Exploration des données dans un rapport](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).
+  Pour plus dʼinformations, consultez la section [Exploration des données dans un rapport](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).

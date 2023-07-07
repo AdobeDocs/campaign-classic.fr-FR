@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 100%
 
@@ -39,15 +39,15 @@ Pour créer un graphique dans un rapport, les étapes sont les suivantes :
 
    * Cliquez sur le lien **[!UICONTROL Filtrer les données...]** pour définir les critères de filtrage sur les données de la base.
 
-      ![](assets/reporting_graph_add_filter.png)
+     ![](assets/reporting_graph_add_filter.png)
 
    * Pour utiliser les données contextuelles, sélectionnez **[!UICONTROL Données contextuelles]** dans la liste déroulante **[!UICONTROL Source]** et cliquez sur le lien **[!UICONTROL Paramètres avancés...]**. Sélectionnez ensuite les données sur lesquelles porteront les statistiques.
 
-      ![](assets/reporting_graph_from_context.png)
+     ![](assets/reporting_graph_from_context.png)
 
-      Vous aurez ensuite accès aux données du contexte pour définir les valeurs à afficher dans le graphique :
+     Vous aurez ensuite accès aux données du contexte pour définir les valeurs à afficher dans le graphique :
 
-      ![](assets/reporting_graph_select-from_context.png)
+     ![](assets/reporting_graph_select-from_context.png)
 
 ## Types de graphiques et leurs variantes {#chart-types-and-variants}
 

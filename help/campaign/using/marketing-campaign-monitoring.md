@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Campaigns, Monitoring
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 
@@ -20,19 +20,19 @@ Pour chaque campagne, l&#39;onglet **[!UICONTROL Tracking]** vous permet de visu
 
 * Le journal des activités affiche les traitements réalisés sur l&#39;opération en général : création ou démarrage de workflow, validation, extraction, etc.
 
-   ![](assets/s_ncs_user_op_edit_exe_tab_a.png)
+  ![](assets/s_ncs_user_op_edit_exe_tab_a.png)
 
 * Le sous-onglet **[!UICONTROL Diffusions]** regroupe toutes les diffusions de l&#39;opération. Vous pouvez les éditer depuis cette vue. Pour cela, sélectionner la diffusion et cliquez sur l&#39;icône **[!UICONTROL Détail]**.
 
-   ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
+  ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
 * Le sous-onglet **[!UICONTROL Tâches]** regroupe toutes les tâches rattachées à l’opération. Cette vue vous permet de les éditer ou de les supprimer. Les tâches sont disponibles avec l&#39;application MRM. Elles sont présentées dans [cette section](../../mrm/using/creating-and-managing-tasks.md).
 
-   ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
+  ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
 * Les workflows créés pour générer les messages aux prestataires sont affichés dans le sous-onglet **[!UICONTROL Traitements sur les prestataires]**. Cliquez sur l&#39;icône **[!UICONTROL Détail]** pour afficher le workflow sélectionné.
 
-   ![](assets/s_ncs_user_op_edit_exe_tab_d.png)
+  ![](assets/s_ncs_user_op_edit_exe_tab_d.png)
 
 ## Tracking de la diffusion {#delivery-tracking}
 

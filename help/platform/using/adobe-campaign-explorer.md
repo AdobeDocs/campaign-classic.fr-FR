@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 100%
 
@@ -50,24 +50,24 @@ Découvrez comment définir des autorisations sur les dossiers [dans cette secti
 
 * **Utilisation de dossiers natifs**
 
-   L’utilisation des dossiers natifs facilite l’utilisation, la maintenance et le dépannage de l’application pour les personnes qui ne sont pas impliquées dans le projet. Vous ne devez pas créer de structures de dossiers personnalisées pour les destinataires, les listes, les diffusions et autres, mais utiliser les dossiers standard comme Administration, Profils et cibles, Gestion de campagnes.
+  L’utilisation des dossiers natifs facilite l’utilisation, la maintenance et le dépannage de l’application pour les personnes qui ne sont pas impliquées dans le projet. Vous ne devez pas créer de structures de dossiers personnalisées pour les destinataires, les listes, les diffusions et autres, mais utiliser les dossiers standard comme Administration, Profils et cibles, Gestion de campagnes.
 
 * **Création de sous-dossiers**
 
-   Placez les workflows techniques dans le dossier standard : Administration / Production / Workflows techniques. Créez ensuite des sous-répertoires par type de workflow.
+  Placez les workflows techniques dans le dossier standard : Administration / Production / Workflows techniques. Créez ensuite des sous-répertoires par type de workflow.
 
 * **Définition d’une convention de nommage**
 
-   Par exemple, vous pouvez nommer les workflows par ordre alphabétique, de sorte qu’ils s’affichent dans l’ordre d’exécution.
+  Par exemple, vous pouvez nommer les workflows par ordre alphabétique, de sorte qu’ils s’affichent dans l’ordre d’exécution.
 
-   Par exemple :
+  Par exemple :
 
    * A1 - import des destinataires, démarre à 10 h ;
    * A2 - import des tickets, démarre à 11 h.
 
 * **Création de modèles pour permettre aux utilisateurs de commencer**
 
-   Créez des modèles de diffusion, de workflow ou de campagnes spécifiques aux utilisateurs. Cette structure permet de gagner du temps et de s’assurer que le mappage et les typologies de diffusion appropriés sont utilisés pour chaque utilisateur.
+  Créez des modèles de diffusion, de workflow ou de campagnes spécifiques aux utilisateurs. Cette structure permet de gagner du temps et de s’assurer que le mappage et les typologies de diffusion appropriés sont utilisés pour chaque utilisateur.
 
 ## Résolution d&#39;écran {#screen-resolution}
 

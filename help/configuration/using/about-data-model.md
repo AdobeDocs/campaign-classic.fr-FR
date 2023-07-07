@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Data Model
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -112,7 +112,7 @@ En savoir plus sur le modèle de données Campaign dans les sections suivantes 
 
 * **Description complète de chaque table** - Pour obtenir la description de chaque table, accédez à&#x200B;**[!UICONTROL h>Admin > Configuration > Schémas de données]**, sélectionnez une ressource dans la liste et cliquez sur l’onglet  **[!UICONTROL Documentation]**.
 
-   ![](assets/data-model_documentation-tab.png)
+  ![](assets/data-model_documentation-tab.png)
 
 
 * **Schémas Campaign** - La structure physique et logique des données transportées dans l’application est décrite dans le langage XML. Celui-ci obéit à une grammaire spécifique à Adobe Campaign, appelée un schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).

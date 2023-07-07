@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Audiences, Proofs
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1745'
 ht-degree: 100%
 
@@ -52,23 +52,23 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
    * **[!UICONTROL Critères de filtrage]** : cette option permet de définir une requête et d&#39;en visualiser le résultat. Le mode de définition des requêtes est présenté dans [cette section](../../platform/using/creating-filters.md#creating-an-advanced-filter).
    * **[!UICONTROL Abonnés d&#39;un service d&#39;information]** : cette option vous permet de sélectionner une newsletter à laquelle les destinataires doivent être abonnés pour être ciblés par la diffusion en cours de création.
 
-      ![](assets/s_ncs_user_wizard_email02c.png)
+     ![](assets/s_ncs_user_wizard_email02c.png)
 
    * **[!UICONTROL Destinataires d&#39;une diffusion]** : cette option permet de définir comme critère de ciblage les destinataires d&#39;une diffusion existante. Vous devez alors sélectionner la diffusion dans la liste :
 
-      ![](assets/s_ncs_user_wizard_email02d.png)
+     ![](assets/s_ncs_user_wizard_email02d.png)
 
    * **[!UICONTROL Destinataires des diffusions appartenant à un dossier]** : cette option permet de sélectionner un dossier de diffusions et de cibler les destinataires des diffusions contenues dans ce dossier.
 
-      ![](assets/s_ncs_user_wizard_email02e.png)
+     ![](assets/s_ncs_user_wizard_email02e.png)
 
-      Vous pouvez filtrer sur le comportement des destinataires en le sélectionnant depuis la liste déroulante :
+     Vous pouvez filtrer sur le comportement des destinataires en le sélectionnant depuis la liste déroulante :
 
-      ![](assets/s_ncs_user_wizard_email02f.png)
+     ![](assets/s_ncs_user_wizard_email02f.png)
 
-      >[!NOTE]
-      >
-      >L&#39;option **[!UICONTROL Inclure les sous-dossiers]** permet de cibler également sur les diffusions contenues dans les dossiers situés en sous-arborescence du noeud sélectionné.
+     >[!NOTE]
+     >
+     >L&#39;option **[!UICONTROL Inclure les sous-dossiers]** permet de cibler également sur les diffusions contenues dans les dossiers situés en sous-arborescence du noeud sélectionné.
 
    * **[!UICONTROL Destinataires présents dans un dossier]** : cette option permet de cibler les profils contenus dans un dossier spécifique de l&#39;arborescence.
    * **[!UICONTROL Un destinataire]** : cette option permet de sélectionner un destinataire spécifique parmi les profils de la base.
@@ -76,7 +76,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
    * **[!UICONTROL Filtres utilisateurs]** : cette option permet d&#39;accéder aux filtres préconfigurés disponibles afin de les utiliser comme critères de filtrage des profils de la base. Les filtres préconfigurés sont présentés dans [cette section](../../platform/using/creating-filters.md#saving-a-filter).
    * L&#39;option **[!UICONTROL Exclure les destinataires correspondant à ce segment]** permet de cibler sur les destinataires ne répondant pas au(x) critère(s) de ciblage défini(s). Pour utiliser cette option, cochez la case correspondante puis opérez un ciblage, comme défini précédemment, pour exclure les profils en résultant.
 
-      ![](assets/s_ncs_user_wizard_email02g.png)
+     ![](assets/s_ncs_user_wizard_email02g.png)
 
 1. Saisissez un nom pour ce ciblage dans le champ **[!UICONTROL Libellé]**. Par défaut, le libellé sera celui correspondant au premier critère de ciblage. En cas de combinaison, il est préférable d&#39;utiliser un nom explicite.
 1. Cliquez sur **[!UICONTROL Terminer]** pour valider le ciblage paramétré.
@@ -134,23 +134,23 @@ Les options disponibles sont les suivantes :
 
 * **[!UICONTROL Exclure les adresses en double lors de la diffusion]** : cette option, active par défaut, permet d’effectuer un dédoublonnage des adresses email lors de la diffusion. La stratégie adoptée peut être variable en fonction de l’utilisation d’Adobe Campaign et de la nature des données dans la base de données.
 
-   La valeur par défaut de l&#39;option est paramétrable pour chaque modèle de diffusion.
+  La valeur par défaut de l&#39;option est paramétrable pour chaque modèle de diffusion.
 
-   Par exemple :
+  Par exemple :
 
    * Diffusion d&#39;une newsletter ou distribution électronique de documents : pas de dédoublonnage, dans certains cas, si les données ne comportent nativement pas de doublons. Un couple s&#39;inscrivant avec la même adresse email pourrait s&#39;attendre à recevoir deux emails spécifiques personnalisés à leurs nom et prénom respectifs. Dans ce cas, cette option peut être décochée.
    * Diffusion d&#39;une campagne marketing : le dédoublonnage est fondamental pour éviter l&#39;envoi d&#39;un trop grand nombre de messages à un même destinataire. Dans ce cas, cette option doit être cochée.
 
-      Si vous décochez cette option, vous avez accès à une option supplémentaire : **[!UICONTROL Conserver les enregistrements ciblés en double (même identifiant)]**. Elle permet d&#39;autoriser des envois multiples vers les destinataires qui correspondent à plusieurs critères de ciblage.
+     Si vous décochez cette option, vous avez accès à une option supplémentaire : **[!UICONTROL Conserver les enregistrements ciblés en double (même identifiant)]**. Elle permet d&#39;autoriser des envois multiples vers les destinataires qui correspondent à plusieurs critères de ciblage.
 
-      ![](assets/s_ncs_user_wizard_email02j.png)
+     ![](assets/s_ncs_user_wizard_email02j.png)
 
 * **[!UICONTROL Exclure les destinataires qui ne veulent plus être contactés]**, c&#39;est-à-dire les destinataires dont les adresses email se trouvent sur une liste bloquée (&#39;opt out&#39;). Cette option doit rester sélectionnée afin de respecter l&#39;éthique professionnelle du e-marketing et les lois régissant le e-commerce.
 * **[!UICONTROL Exclure les destinataires en quarantaine]** : cette option permet dʼexclure de la cible les profils dont les adresses ne répondent pas. Il est vivement recommandé de NE PAS décocher cette option.
 
-   >[!NOTE]
-   >
-   >Pour plus d’informations sur la gestion des quarantaines, consultez la section [Compréhension de la gestion des quarantaines](understanding-quarantine-management.md).
+  >[!NOTE]
+  >
+  >Pour plus d’informations sur la gestion des quarantaines, consultez la section [Compréhension de la gestion des quarantaines](understanding-quarantine-management.md).
 
 * **[!UICONTROL Limiter la diffusion]** à un nombre donné de messages : cette option permet de saisir le nombre maximal de messages à envoyer. Si le contenu de la cible est supérieur au nombre de messages indiqué, une sélection aléatoire est appliquée sur la cible.
 

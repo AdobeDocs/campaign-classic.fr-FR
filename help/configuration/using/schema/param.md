@@ -51,7 +51,7 @@ Cet élément permet de définir un paramètre d&#39;un appel à une méthode S
 * **name (MNTOKEN)**: nom interne du `<param>`
 * **type (string)** : cet attribut définit le type d’élément `<param>`
 
-   Liste des types disponibles :
+  Liste des types disponibles :
 
    * ANY
    * bin

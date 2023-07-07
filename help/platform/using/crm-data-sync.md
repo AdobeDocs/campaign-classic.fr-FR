@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Salesforce Integration, Microsoft CRM Integration
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 100%
 
@@ -110,9 +110,9 @@ L&#39;activation de l&#39;option **[!UICONTROL Index automatique]** génère tro
 * **vars.crmStartImport** : représente la date de début (incluse) de la dernière récupération des données.
 * **vars.crmEndDate** : représente la date de fin (exclue) de la dernière récupération des données.
 
-   >[!NOTE]
-   >
-   >Ces dates sont exprimées au format **aaaa/MM/jj hh:mm:ss**.
+  >[!NOTE]
+  >
+  >Ces dates sont exprimées au format **aaaa/MM/jj hh:mm:ss**.
 
 ### Filtrage des données {#filtering-data}
 
@@ -256,3 +256,4 @@ L&#39;onglet **[!UICONTROL Comportement]** vous permet d&#39;activer le traiteme
 >[!NOTE]
 >
 >Même lorsque l&#39;option **[!UICONTROL Traiter les rejets]** n&#39;est pas activée, un avertissement est généré pour chaque colonne rejetée.
+>

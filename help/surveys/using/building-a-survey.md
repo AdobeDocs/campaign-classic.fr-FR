@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 100%
 
@@ -92,7 +92,6 @@ De plus, l&#39;espace de stockage pour ce champ de saisie doit être un **champ 
 >
 >* Cette fonctionnalité n&#39;est disponible que dans les formulaires de type **Questionnaires**.
 >* Cette option n’est pas compatible avec l’affichage de questions aléatoires. [En savoir plus](#adding-questions).
-
 
 ### Ajouter des questions {#adding-questions}
 

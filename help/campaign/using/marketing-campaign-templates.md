@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Campaigns, Templates
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 100%
 
@@ -94,53 +94,53 @@ Les liens et onglets affichés seront les suivants :
 
 * **Population témoin**
 
-   Lorsque ce module est sélectionné, un onglet supplémentaire est ajouté dans les paramètres avancés du modèle et des opérations basées sur ce modèle. La configuration peut être définie à partir du modèle ou individuellement, au niveau de chaque opération. En savoir plus sur les populations témoins dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+  Lorsque ce module est sélectionné, un onglet supplémentaire est ajouté dans les paramètres avancés du modèle et des opérations basées sur ce modèle. La configuration peut être définie à partir du modèle ou individuellement, au niveau de chaque opération. En savoir plus sur les populations témoins dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
-   ![](assets/s_ncs_user_op_template_activate_1.png)
+  ![](assets/s_ncs_user_op_template_activate_1.png)
 
 * **Adresses de contrôle**
 
-   Lorsque ce module est sélectionné, un onglet supplémentaire est ajouté dans les paramètres avancés du modèle et des opérations basées sur ce modèle. La configuration peut être définie à partir du modèle ou individuellement, au niveau de chaque opération. En savoir plus sur les adresses de contrôle dans [cette section](../../delivery/using/about-seed-addresses.md).
+  Lorsque ce module est sélectionné, un onglet supplémentaire est ajouté dans les paramètres avancés du modèle et des opérations basées sur ce modèle. La configuration peut être définie à partir du modèle ou individuellement, au niveau de chaque opération. En savoir plus sur les adresses de contrôle dans [cette section](../../delivery/using/about-seed-addresses.md).
 
-   ![](assets/s_ncs_user_op_template_activate_2.png)
+  ![](assets/s_ncs_user_op_template_activate_2.png)
 
 * **Documents**
 
-   Lorsque ce module est sélectionné, un onglet supplémentaire est ajouté dans l’onglet **[!UICONTROL Édition]** du modèle et des opérations basées sur ce modèle. Les documents attachés peuvent être ajoutés à partir du modèle ou individuellement, au niveau de chaque opération. En savoir plus sur les documents dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
+  Lorsque ce module est sélectionné, un onglet supplémentaire est ajouté dans l’onglet **[!UICONTROL Édition]** du modèle et des opérations basées sur ce modèle. Les documents attachés peuvent être ajoutés à partir du modèle ou individuellement, au niveau de chaque opération. En savoir plus sur les documents dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
 
-   ![](assets/s_ncs_user_op_template_activate_3.png)
+  ![](assets/s_ncs_user_op_template_activate_3.png)
 
 * **Composition**
 
-   Lorsque ce module est sélectionné, un sous-onglet **[!UICONTROL Compositions de diffusion]** est ajouté à l’onglet **[!UICONTROL Documents]** afin de définir des compositions de diffusion pour l’opération. En savoir plus sur les compositions de diffusion dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+  Lorsque ce module est sélectionné, un sous-onglet **[!UICONTROL Compositions de diffusion]** est ajouté à l’onglet **[!UICONTROL Documents]** afin de définir des compositions de diffusion pour l’opération. En savoir plus sur les compositions de diffusion dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
-   ![](assets/s_ncs_user_op_template_activate_4.png)
+  ![](assets/s_ncs_user_op_template_activate_4.png)
 
 * **Ciblages et workflows**
 
-   Lorsque vous sélectionnez le module **[!UICONTROL Ciblages et workflows]**, un onglet est ajouté pour vous permettre de créer un ou plusieurs workflows pour les opérations basées sur ce modèle. Les workflows peuvent également être configurés individuellement pour chaque opération en fonction de ce modèle. En savoir plus sur les workflows des opérations dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
+  Lorsque vous sélectionnez le module **[!UICONTROL Ciblages et workflows]**, un onglet est ajouté pour vous permettre de créer un ou plusieurs workflows pour les opérations basées sur ce modèle. Les workflows peuvent également être configurés individuellement pour chaque opération en fonction de ce modèle. En savoir plus sur les workflows des opérations dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
-   ![](assets/s_ncs_user_op_template_activate_5.png)
+  ![](assets/s_ncs_user_op_template_activate_5.png)
 
-   Lorsque ce module est activé, un onglet supplémentaire est ajouté dans les paramètres avancés de l&#39;opération afin de définir les priorités d&#39;exécution des traitements.
+  Lorsque ce module est activé, un onglet supplémentaire est ajouté dans les paramètres avancés de l&#39;opération afin de définir les priorités d&#39;exécution des traitements.
 
-   ![](assets/s_ncs_user_op_template_activate_5a.png)
+  ![](assets/s_ncs_user_op_template_activate_5a.png)
 
 * **Validation**
 
-   Si vous sélectionnez le module **[!UICONTROL Validation]**, vous pouvez sélectionner les processus à valider et choisir les opérateurs chargés de leur validation. En savoir plus sur les validations dans [cette section](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
+  Si vous sélectionnez le module **[!UICONTROL Validation]**, vous pouvez sélectionner les processus à valider et choisir les opérateurs chargés de leur validation. En savoir plus sur les validations dans [cette section](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
-   ![](assets/s_ncs_user_op_template_activate_5b.png)
+  ![](assets/s_ncs_user_op_template_activate_5b.png)
 
-   Vous pouvez choisir d&#39;activer ou non la validation des traitements, à partir de l&#39;onglet **[!UICONTROL Validations]** des paramètres avancés du modèle. Les traitements pour lesquels une validation est sélectionnée devront être validés pour autoriser la diffusion des messages.
+  Vous pouvez choisir d&#39;activer ou non la validation des traitements, à partir de l&#39;onglet **[!UICONTROL Validations]** des paramètres avancés du modèle. Les traitements pour lesquels une validation est sélectionnée devront être validés pour autoriser la diffusion des messages.
 
-   Vous devez associer un opérateur ou groupe d&#39;opérateur validant à chaque validation activée.
+  Vous devez associer un opérateur ou groupe d&#39;opérateur validant à chaque validation activée.
 
 * **Dépenses et objectifs**
 
-   Lorsque ce module est sélectionné, un onglet **[!UICONTROL Budget]** est ajouté dans les détails du modèle et des opérations basées sur ce modèle afin de sélectionner le budget associé.
+  Lorsque ce module est sélectionné, un onglet **[!UICONTROL Budget]** est ajouté dans les détails du modèle et des opérations basées sur ce modèle afin de sélectionner le budget associé.
 
-   ![](assets/s_ncs_user_op_template_activate_7.png)
+  ![](assets/s_ncs_user_op_template_activate_7.png)
 
 ## Propriétés et exécution {#general-configuration}
 
@@ -153,14 +153,14 @@ Lorsque vous créez un modèle de campagne, vous devez indiquer les informations
 * Saisissez le **libellé** du modèle : ce libellé sera attribué par défaut à toutes les opérations créées à partir de ce modèle.
 * Sélectionnez la **nature** de l&#39;opération dans la liste déroulante. Les valeurs proposées dans cette liste correspondent à celles enregistrées dans l&#39;énumération **[!UICONTROL natureOp]**.
 
-   >[!NOTE]
-   >
-   >Pour plus d&#39;informations sur les énumérations, reportez-vous à la section [Prise en main](../../platform/using/managing-enumerations.md).
+  >[!NOTE]
+  >
+  >Pour plus d&#39;informations sur les énumérations, reportez-vous à la section [Prise en main](../../platform/using/managing-enumerations.md).
 
 * Sélectionnez le **type de campagne** : unique, récurrente ou périodique. Par défaut, les modèles de campagne s&#39;appliquent aux campagnes uniques. Les opérations périodiques et récurrentes sont décrites dans [cette section](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
 * Indiquez la durée de l&#39;opération, c&#39;est-à-dire la période sur laquelle s&#39;étalera l&#39;opération. Lors de la création d&#39;une opération basée sur ce modèle, les dates de début et de fin de l&#39;opération seront alors automatiquement renseignées.
 
-   S&#39;il s&#39;agit d&#39;une opération récurrente, vous devez indiquer les dates de début et de fin de l&#39;opération directement dans le modèle.
+  S&#39;il s&#39;agit d&#39;une opération récurrente, vous devez indiquer les dates de début et de fin de l&#39;opération directement dans le modèle.
 
 * Indiquez le **programme d&#39;appartenance** du modèle : les opérations basées sur le modèle seront associées au programme sélectionné.
 

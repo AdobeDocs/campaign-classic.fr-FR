@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 100%
 
@@ -111,12 +111,12 @@ Les conseils de dépannage suivants vous aideront à résoudre les problèmes le
 
 * Vérifier que le processus trackinglogd est en cours d&#39;exécution
 
-   Ce processus lit la mémoire partagée IIS/serveur web et écrit les logs de redirection.
+  Ce processus lit la mémoire partagée IIS/serveur web et écrit les logs de redirection.
 
-   Vous pouvez y accéder à partir de la page d&#39;accueil en sélectionnant l&#39;onglet Supervision dans votre instance. Vous pouvez également exécuter la commande suivante sur l’instance : `<user>@<instance>:~$ nlserver pdump`
+  Vous pouvez y accéder à partir de la page d&#39;accueil en sélectionnant l&#39;onglet Supervision dans votre instance. Vous pouvez également exécuter la commande suivante sur l’instance : `<user>@<instance>:~$ nlserver pdump`
 
-   Si le processus trackinglogd n’apparaît pas dans la liste, lancez-le avec la commande suivante sur l’instance : `<user>@<instance>:~$ nlserver start trackinglogd`
+  Si le processus trackinglogd n’apparaît pas dans la liste, lancez-le avec la commande suivante sur l’instance : `<user>@<instance>:~$ nlserver start trackinglogd`
 
 * Vérifiez que le workflow technique de tracking s&#39;est récemment exécuté.
 
-   Vous pouvez localiser le workflow technique de tracking dans les dossiers Administration > Exploitation > Workflows techniques.
+  Vous pouvez localiser le workflow technique de tracking dans les dossiers Administration > Exploitation > Workflows techniques.

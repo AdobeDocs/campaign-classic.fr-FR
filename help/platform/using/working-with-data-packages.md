@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 100%
 
@@ -34,11 +34,11 @@ Il existe trois types de packages exportables : les packages utilisateur, les p
 * **Package utilisateur** : il permet de choisir la liste des entités à exporter. Ce type de package gère les dépendances et vérifie les erreurs.
 * **Package plateforme** : il regroupe toutes les ressources techniques ajoutées (non livrées d&#39;usine) : schémas, code JavaScript, etc.
 
-   ![](assets/ncs_datapackage_package_platform.png)
+  ![](assets/ncs_datapackage_package_platform.png)
 
 * **Package admin** : il regroupe tous les modèles et objets métiers ajoutés (non livrés d’usine) : modèles, librairies, etc.
 
-   ![](assets/ncs_datapackage_package_admin.png)
+  ![](assets/ncs_datapackage_package_admin.png)
 
 >[!CAUTION]
 >
@@ -281,15 +281,15 @@ La génération de packages peut être paramétrée à partir de l&#39;onglet **
 * **[!UICONTROL Inclure un script d&#39;installation]** : vous permet d&#39;ajouter un script JavaScript à exécuter à l&#39;importation du package. S&#39;il est sélectionné, un onglet **[!UICONTROL Script]** est ajouté à l&#39;écran de définition de package.
 * **[!UICONTROL Inclure les valeurs par défaut]** : ajoute au package les valeurs de tous les attributs des entités.
 
-   Cette option n&#39;est pas sélectionnée par défaut de manière à éviter les exports de longueur importante. Cela signifie que les attributs des entités avec des valeurs par défaut (&#39;chaîne vide&#39;, &#39;0&#39; et &#39;faux&#39; si elles ne sont pas définies d&#39;une autre façon dans le schéma) ne seront pas ajoutés dans le package et ne seront donc pas exportés.
+  Cette option n&#39;est pas sélectionnée par défaut de manière à éviter les exports de longueur importante. Cela signifie que les attributs des entités avec des valeurs par défaut (&#39;chaîne vide&#39;, &#39;0&#39; et &#39;faux&#39; si elles ne sont pas définies d&#39;une autre façon dans le schéma) ne seront pas ajoutés dans le package et ne seront donc pas exportés.
 
-   >[!CAUTION]
-   >
-   >La désélection de cette option peut entraîner une fusion des versions locales et importées.
-   >
-   >Si l&#39;instance où le package est importé contient des entités identiques à celles du package (par exemple, avec le même ID externe), leurs attributs ne seront pas mis à jour. Cela se produit si les attributs d&#39;une instance précédente possèdent des valeurs par défaut, car ils ne sont pas inclus dans le package.
-   >
-   >Dans ce cas, la sélection de l&#39;option **[!UICONTROL Inclure les valeurs par défaut]** empêcherait la fusion des versions, car tous les attributs de l&#39;instance précédente seraient exportés avec le package.
+  >[!CAUTION]
+  >
+  >La désélection de cette option peut entraîner une fusion des versions locales et importées.
+  >
+  >Si l&#39;instance où le package est importé contient des entités identiques à celles du package (par exemple, avec le même ID externe), leurs attributs ne seront pas mis à jour. Cela se produit si les attributs d&#39;une instance précédente possèdent des valeurs par défaut, car ils ne sont pas inclus dans le package.
+  >
+  >Dans ce cas, la sélection de l&#39;option **[!UICONTROL Inclure les valeurs par défaut]** empêcherait la fusion des versions, car tous les attributs de l&#39;instance précédente seraient exportés avec le package.
 
 ### Exporter des packages à partir d&#39;une définition de package {#exporting-packages-from-a-package-definition}
 
@@ -442,7 +442,7 @@ Le package de mise à jour ne doit contenir qu&#39;une seule entité spécifique
    * Le compte externe est créé.
    * Le nouveau package est : 5101 - 2 - compte externe de l&#39;application de réseaux sociaux (socialApplication_extAccount).
    * En parallèle, le package 101 est mis à jour pour être ajouté au compte externe, mais sans être déployé.
-      ![](assets/ncs_datapackage_best-practices-1.png)
+     ![](assets/ncs_datapackage_best-practices-1.png)
 
 #### Documentation du package {#package-documentation}
 

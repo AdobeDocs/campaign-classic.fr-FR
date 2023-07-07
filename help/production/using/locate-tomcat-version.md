@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 100%
 
@@ -62,4 +62,5 @@ Une fois que vous avez pu déterminer la version exacte de Tomcat utilisée dans
 >[!NOTE]
 >
 >La version majeure de Tomcat intégrée n’est mise à niveau que lorsque la version majeure d’Adobe Campaign change (bien que les versions plus anciennes ne soient plus officiellement prises en charge, les informations peuvent s’avérer utiles car certains clients exécutent toujours ces versions).
+>
 

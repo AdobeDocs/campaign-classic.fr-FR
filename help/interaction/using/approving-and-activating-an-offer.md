@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
 
@@ -65,27 +65,27 @@ Une tâche parent planifiée pour finir le mardi 9 octobre à 17h a 2 tâches en
 
 * La liste complète des règles peut être consultée lorsque vous cliquez sur **[!UICONTROL Planning et règle d&#39;éligibilité de l&#39;offre]**.
 
-   ![](assets/offer_validate_005.png)
+  ![](assets/offer_validate_005.png)
 
 * Si vous souhaitez modifier les règles d&#39;éligibilité, cliquez sur **[!UICONTROL Rejeter]**, puis sur **[!UICONTROL Validation de l&#39;éligibilité]**.
 
-   ![](assets/offer_validate_007.png)
+  ![](assets/offer_validate_007.png)
 
-   Les différents statuts sont mis à jour dans le tableau de bord de l&#39;offre.
+  Les différents statuts sont mis à jour dans le tableau de bord de l&#39;offre.
 
-   ![](assets/offer_validate_006.png)
+  ![](assets/offer_validate_006.png)
 
 * Pour accepter l&#39;éligibilité de l&#39;offre, cliquez sur **[!UICONTROL Valider l&#39;éligibilité]**.
 
-   ![](assets/offer_validate_008.png)
+  ![](assets/offer_validate_008.png)
 
-   Approuvez l&#39;éligibilité, ajoutez un commentaire le cas échéant, puis cliquez sur **[!UICONTROL Validation de l&#39;éligibilité]**.
+  Approuvez l&#39;éligibilité, ajoutez un commentaire le cas échéant, puis cliquez sur **[!UICONTROL Validation de l&#39;éligibilité]**.
 
-   ![](assets/offer_validate_009.png)
+  ![](assets/offer_validate_009.png)
 
-   Les différents statuts sont mis à jour dans le tableau de bord de l&#39;offre.
+  Les différents statuts sont mis à jour dans le tableau de bord de l&#39;offre.
 
-   ![](assets/offer_validate_010.png)
+  ![](assets/offer_validate_010.png)
 
 ## Suivi des validations {#approval-tracking}
 

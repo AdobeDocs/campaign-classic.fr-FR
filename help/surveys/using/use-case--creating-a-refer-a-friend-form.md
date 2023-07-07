@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -75,17 +75,18 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    * Vous devez sélectionner la table des visiteurs comme mapping de ciblage.
 
-      ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
+     ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
 
    * Les coordonnées du filleul, ainsi que les informations relatives au parrain, proviennent de la table des visiteurs. Elles sont insérées en utilisant le bouton de personnalisation.
 
-      ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
+     ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
 
    * Ce modèle contient un lien vers le formulaire du jeu-concours et le lien d&#39;inscription pour que le filleul puisse s&#39;abonner à la newsletter.
 
-      Le lien d&#39;inscription est inséré au travers d&#39;un bloc de personnalisation. Par défaut, il permet d&#39;abonner les profils au service **newsletter**. Ce bloc de personnalisation peut être modifié selon vos besoins, par exemple pour inscrire à un autre service.
+     Le lien d&#39;inscription est inséré au travers d&#39;un bloc de personnalisation. Par défaut, il permet d&#39;abonner les profils au service **newsletter**. Ce bloc de personnalisation peut être modifié selon vos besoins, par exemple pour inscrire à un autre service.
 
    * Le nom interne (ici &#39;referrer&#39;) sera utilisé dans le script d&#39;envoi du message, à l&#39;étape suivante.
+
    >[!NOTE]
    >
    >Les modèles de diffusion sont présentés dans [cette page](../../delivery/using/about-templates.md).

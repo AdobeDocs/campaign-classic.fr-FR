@@ -5,7 +5,7 @@ description: Cette section décrit lʼarchitecture des messages transactionnels 
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 100%
 
@@ -128,7 +128,7 @@ You also have to enable the unitary mode on your offer spaces. For more on this,
 
 ### Notifications push transactionnelles {#transactional-messaging-and-push-notifications}
 
-Couplés au module Canal des applications mobiles, les messages transactionnels permettent d&#39;émettre des messages transactionnels au travers des notifications push sur des applications mobiles.
+Couplés au module Canal des applications mobiles, les messages transactionnels permettent d’émettre des messages transactionnels au travers des notifications push sur des appareils mobiles.
 
 >[!NOTE]
 >
@@ -199,14 +199,13 @@ Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **
    * **[!UICONTROL Serveur]** : saisissez l&#39;URL du serveur de base de données.
    * **[!UICONTROL Compte]** : saisissez le compte de la base de données.
 
-      >[!NOTE]
-      >
-      >L&#39;utilisateur de la base de données doit avoir des droits de lecture sur les tables suivantes pour la connexion FDA : XtkOption, NmsVisitor, NmsVisitorSub, NmsService, NmsBroadLogRtEvent, NmsBroadLogBatchEvent, NmsTrackingLogRtEvent, NmsTrackingLogBatchEvent, NmsRtEvent, NmsBatchEvent, NmsBroadLogMsg, NmsTrackingUrl, NmsDelivery, NmsWebTrackingLogXtkFolder.
+     >[!NOTE]
+     >
+     >L&#39;utilisateur de la base de données doit avoir des droits de lecture sur les tables suivantes pour la connexion FDA : XtkOption, NmsVisitor, NmsVisitorSub, NmsService, NmsBroadLogRtEvent, NmsBroadLogBatchEvent, NmsTrackingLogRtEvent, NmsTrackingLogBatchEvent, NmsRtEvent, NmsBatchEvent, NmsBroadLogMsg, NmsTrackingUrl, NmsDelivery, NmsWebTrackingLogXtkFolder.
 
    * **[!UICONTROL Mot de passe]** : saisissez le mot de passe du compte de la base de données.
    * **[!UICONTROL Base de données]** : saisissez le nom de la base de données de l&#39;instance d&#39;exécution.
    * La case **[!UICONTROL Cible d&#39;un compte Relais HTTP vers base distante]** doit être cochée.
-
 
 1. Créez un compte **[!UICONTROL Base de données externe]** dans l&#39;instance **marketing** avec la configuration ci-dessous.
 
@@ -223,7 +222,6 @@ Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **
    * **[!UICONTROL Compte]** : saisissez le compte utilisé pour accéder à l&#39;instance d&#39;exécution.
    * **[!UICONTROL Mot de passe]** : saisissez le mot de passe du compte utilisé pour accéder à l&#39;instance d&#39;exécution.
    * **[!UICONTROL Source de données]** : saisissez la syntaxe suivante **[!UICONTROL nms:extAccount:ID pour le compte de base de données externe dans l&#39;instance d&#39;exécution]**.
-
 
 1. Créez un compte externe **[!UICONTROL Instance d&#39;exécution]** dans votre instance **marketing** à l&#39;aide de la configuration suivante pour créer le workflow de synchronisation des données :
 
@@ -245,7 +243,5 @@ Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **
    * **[!UICONTROL Compte FDA]** : sélectionnez votre compte FDA dans la liste déroulante.
    * Cliquez sur le bouton **[!UICONTROL Créer le workflow d&#39;archivage]**.
    * Cliquez sur le bouton **[!UICONTROL Créer le workflow de synchronisation des données]** pour créer le workflow de synchronisation des données LINE.
-
-
 
 1. Vous pouvez maintenant [créer des messages transactionnels](../../message-center/using/creating-the-message-template.md).

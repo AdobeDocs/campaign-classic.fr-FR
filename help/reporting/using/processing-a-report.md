@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Vous pouvez personnaliser la disposition des données directement dans les table
 * **[!UICONTROL Trier de A à Z]** pour trier les valeurs de la variable par ordre croissant.
 * **[!UICONTROL Trier de Z à A]** pour trier les valeurs de la variable par ordre décroissant.
 
-   ![](assets/s_ncs_advuser_report_wizard_016.png)
+  ![](assets/s_ncs_advuser_report_wizard_016.png)
 
 Pour revenir à l&#39;affichage initial, actualisez la vue.
 
@@ -111,11 +111,11 @@ Les options disponibles sont les suivantes :
 * L&#39;option **[!UICONTROL Cumuler les valeurs]** permet d&#39;additionner les différentes valeurs retournées d&#39;une série à l&#39;autre.
 * Vous pouvez choisir d&#39;afficher ou non la légende du graphe : pour ne pas afficher de légende, désélectionnez l&#39;option correspondante. Par défaut, la légende est affichée en haut à droite, à l&#39;extérieur du graphe.
 
-   La légende peut également être affichée dans la partie supérieure du graphe afin d’optimiser au maximum la zone d’affichage. Pour cela, sélectionnez l’option **[!UICONTROL Inclure dans le graphe]**.
+  La légende peut également être affichée dans la partie supérieure du graphe afin d’optimiser au maximum la zone d’affichage. Pour cela, sélectionnez l’option **[!UICONTROL Inclure dans le graphe]**.
 
-   Sélectionnez l&#39;alignement vertical et horizontal dans la liste déroulante **[!UICONTROL Position de la légende]**.
+  Sélectionnez l&#39;alignement vertical et horizontal dans la liste déroulante **[!UICONTROL Position de la légende]**.
 
-   ![](assets/s_ncs_advuser_report_wizard_3d.png)
+  ![](assets/s_ncs_advuser_report_wizard_3d.png)
 
 ## Exportation dʼun rapport dʼanalyse {#exporting-an-analysis-report}
 

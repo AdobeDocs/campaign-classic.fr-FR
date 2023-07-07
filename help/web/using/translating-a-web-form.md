@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 100%
 
@@ -114,16 +114,16 @@ Vous pouvez exporter et importer les chaînes de caractères afin de les traduir
    * **[!UICONTROL Un fichier par langue]** : l&#39;export génèrera un fichier par langue de traduction. Chaque fichier sera commun à toutes les applications web sélectionnées.
    * **[!UICONTROL Un fichier par application web]** : l&#39;export génèrera un fichier par application web sélectionnée. Chaque fichier contiendra toutes les langues de traduction.
 
-      >[!NOTE]
-      >
-      >Ce type d&#39;export n&#39;est pas disponible pour l&#39;export en XLIFF.
+     >[!NOTE]
+     >
+     >Ce type d&#39;export n&#39;est pas disponible pour l&#39;export en XLIFF.
 
    * **[!UICONTROL Un fichier par langue et par application web]** : l&#39;export génèrera plusieurs fichiers. Chaque fichier contiendra une langue de traduction pour une même application web.
    * **[!UICONTROL Un fichier pour l&#39;ensemble]** : l&#39;export génèrera un seul fichier multilingue commun à toutes les applications web. Il contiendra toutes les langues de traduction pour toutes les applications web sélectionnées.
 
-      >[!NOTE]
-      >
-      >Ce type d&#39;export n&#39;est pas disponible pour l&#39;export en XLIFF.
+     >[!NOTE]
+     >
+     >Ce type d&#39;export n&#39;est pas disponible pour l&#39;export en XLIFF.
 
 1. Choisissez ensuite le **[!UICONTROL Dossier cible]** dans lequel les fichiers seront enregistrés.
 1. Sélectionnez le format de fichier (**[!UICONTROL CSV]** ou **[!UICONTROL XLIFF]**) et cliquez enfin sur **[!UICONTROL Démarrer]**.

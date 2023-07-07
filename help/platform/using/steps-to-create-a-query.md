@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Vous pouvez regrouper les données des colonnes de sortie : pour cela, cochez *
 
 * La fonction de groupement **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]** permet un groupement (&quot;group by&quot;) et une sélection de ce qui a été groupé (&quot;having&quot;). Elle s&#39;applique aux champs inscrits en colonne de sortie. Par exemple, cette option regroupe les choix d&#39;une colonne de sortie et récupère un type d&#39;information particulier : les destinataires âgés de 35 à 50 ans.
 
-   Voir à ce propos [cette section](../../workflow/using/querying-using-grouping-management.md).
+  Voir à ce propos [cette section](../../workflow/using/querying-using-grouping-management.md).
 
 * La fonction **[!UICONTROL Supprimer les doublons (DISTINCT)]** permet de dédoublonner des résultats identiques obtenus en colonne de sortie. Si l&#39;on recense les destinataires en sélectionnant les champs Nom, Prénom et Email en colonne de sortie, ceux qui ont un prénom, un nom et une adresse email identiques sont éliminés. En effet, il s&#39;agit du même contact renseigné plus d&#39;une fois dans la base. Ainsi, un seul résultat sera pris en compte.
 
@@ -85,13 +85,13 @@ Après la sélection de **[!UICONTROL Critères de filtrage]**, vous accédez à
 * Pour créer un nouveau filtre, sélectionnez les champs, opérateurs et valeurs nécessaires à la création de la formule. Elle devra être vérifiée pour permettre la sélection des données. Il est possible de combiner plusieurs conditions (voir à ce sujet la section [Définir les conditions de filtrage](../../platform/using/defining-filter-conditions.md)).
 * Pour utiliser des filtres enregistrés au préalable, déroulez la liste du bouton **[!UICONTROL Ajouter]**, cliquez sur **[!UICONTROL Filtre prédéfini]** puis sélectionnez un filtre pré-enregistré.
 
-   ![](assets/query_editor_15.png)
+  ![](assets/query_editor_15.png)
 
 * Les filtres créés dans le **[!UICONTROL Requêteur générique]** peuvent être utilisés dans d&#39;autres applications de requêtage (et inversement). Pour enregistrer un filtre, cliquez sur l&#39;icône **[!UICONTROL Enregistrer]**.
 
-   >[!NOTE]
-   >
-   >La création et l&#39;utilisation des filtres sont présentées dans la section [Options de filtrage](../../platform/using/filtering-options.md).
+  >[!NOTE]
+  >
+  >La création et l&#39;utilisation des filtres sont présentées dans la section [Options de filtrage](../../platform/using/filtering-options.md).
 
 Dans l&#39;exemple ci-dessous, pour ne récupérer que les destinataires de langue française, choisissez : &quot;langue des destinataires **égal à** FR&quot;.
 

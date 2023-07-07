@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Campaigns
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 100%
 
@@ -113,9 +113,9 @@ Une fois l&#39;exécution terminée, ouvrez la simulation et cliquez sur l&#39;o
    * Le **[!UICONTROL Comptage initial]** correspond à la cible telle qu&#39;elle a été calculée lors de son estimation, au niveau de la diffusion.
    * Le **[!UICONTROL Comptage final]** affiche le nombre de destinataires comptabilisés après l&#39;exécution de la simulation.
 
-      Le delta entre comptage initial et final reflète l&#39;application des différentes règles ou filtrages paramétrés en amont de la simulation.
+     Le delta entre comptage initial et final reflète l&#39;application des différentes règles ou filtrages paramétrés en amont de la simulation.
 
-      Pour comprendre ce calcul, éditez le sous-onglet **[!UICONTROL Exclusions]**.
+     Pour comprendre ce calcul, éditez le sous-onglet **[!UICONTROL Exclusions]**.
 
 1. Le sous-onglet **[!UICONTROL Exclusions]** permet de visualiser la répartition des exclusions par diffusions.
 
@@ -207,15 +207,15 @@ Dans l&#39;exemple suivant, nous allons créer un axe de reporting supplémentai
 
    * **[!UICONTROL Générer les statistiques de recouvrement des cibles]** afin d&#39;obtenir toutes les statistiques de recouvrement dans le rapport de simulation. Le recouvrement correspond aux destinataires ciblés dans au moins deux diffusions d&#39;une même simulation.
 
-      >[!IMPORTANT]
-      >
-      >Le choix de cette option augmente considérablement le temps d&#39;exécution de la simulation.
+     >[!IMPORTANT]
+     >
+     >Le choix de cette option augmente considérablement le temps d&#39;exécution de la simulation.
 
    * **[!UICONTROL Conserver la table de travail de la simulation]** afin de garder des traces de la simulation.
 
-      >[!IMPORTANT]
-      >
-      >La conservation systématique de ces tables requiert une capacité de stockage élevée : assurez-vous que la taille de la base de données le permet.
+     >[!IMPORTANT]
+     >
+     >La conservation systématique de ces tables requiert une capacité de stockage élevée : assurez-vous que la taille de la base de données le permet.
 
 A l&#39;affichage des résultats de la simulation, les informations relatives à l&#39;expression sélectionnée seront affichées dans le sous-onglet **[!UICONTROL Recouvrements]**.
 

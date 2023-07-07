@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 100%
 
@@ -42,19 +42,19 @@ Utilisez l&#39;option Adobe Campaign Classic **Federated Data Access** (FDA)
 
    * **[!UICONTROL Projet]** : permet de créer ou utiliser un projet existant.
 
-      Pour plus d&#39;informations, consultez cette [page](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+     Pour plus d&#39;informations, consultez cette [page](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
 
    * **[!UICONTROL Compte Service]** : permet de créer un compte de service.
 
-      Pour plus d&#39;informations, consultez cette [page](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+     Pour plus d&#39;informations, consultez cette [page](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
 
    * **[!UICONTROL Chemin d&#39;accès au fichier de clé]** : le **[!UICONTROL compte Service]** nécessite un **[!UICONTROL fichier de clé]** pour une connexion [!DNL Google BigQuery] via ODBC.
 
-      Pour plus d&#39;informations, consultez cette [page](https://cloud.google.com/iam/docs/creating-managing-service-account-keys).
+     Pour plus d&#39;informations, consultez cette [page](https://cloud.google.com/iam/docs/creating-managing-service-account-keys).
 
    * **[!UICONTROL Jeu de données]** : le **[!UICONTROL jeu de données]** est facultatif pour une connexion ODBC. Comme chaque requête doit fournir le jeu de données dans lequel se trouve la table, la spécification d&#39;un **[!UICONTROL jeu de données]** est obligatoire pour le connecteur FDA [!DNL Google BigQuery] dans Adobe Campaign Classic.
 
-      Pour plus d&#39;informations, consultez cette [page](https://cloud.google.com/bigquery/docs/datasets).
+     Pour plus d&#39;informations, consultez cette [page](https://cloud.google.com/bigquery/docs/datasets).
 
 1. Dans Adobe Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Google BigQuery]. Pour plus d&#39;informations sur la configuration de votre compte externe, voir [cette section](#google-external).
 
@@ -94,35 +94,35 @@ Pour effectuer la configuration de [!DNL Google BigQuery] sur Linux, procédez c
 
    * Pour Red Hat/CentOS :
 
-      ```
-      yum update
-      yum upgrade
-      yum install -y grep sed tar wget perl curl
-      ```
+     ```
+     yum update
+     yum upgrade
+     yum install -y grep sed tar wget perl curl
+     ```
 
    * Sous Debian :
 
-      ```
-      apt-get update
-      apt-get upgrade
-      apt-get install -y grep sed tar wget perl curl
-      ```
+     ```
+     apt-get update
+     apt-get upgrade
+     apt-get install -y grep sed tar wget perl curl
+     ```
 
 1. Mise à jour du système avant installation :
 
    * Pour Red Hat/CentOS :
 
-      ```
-      # install unixODBC driver manager
-      yum install -y unixODBC
-      ```
+     ```
+     # install unixODBC driver manager
+     yum install -y unixODBC
+     ```
 
    * Sous Debian :
 
-      ```
-      # install unixODBC driver manager
-      apt-get install -y odbcinst1debian2 libodbc1 odbcinst unixodbc
-      ```
+     ```
+     # install unixODBC driver manager
+     apt-get install -y odbcinst1debian2 libodbc1 odbcinst unixodbc
+     ```
 
 1. Avant d’exécuter le script, vous pouvez obtenir plus d’informations en spécifiant « --help argument: ».
 
@@ -152,19 +152,19 @@ L&#39;utilitaire de chargement en masse permet un transfert plus rapide grâce a
 
    * Pour Red Hat/CentOS :
 
-      ```
-      yum update
-      yum upgrade
-      yum install -y python3
-      ```
+     ```
+     yum update
+     yum upgrade
+     yum install -y python3
+     ```
 
    * Sous Debian :
 
-      ```
-      apt-get update
-      apt-get upgrade
-      apt-get install -y python3
-      ```
+     ```
+     apt-get update
+     apt-get upgrade
+     apt-get install -y python3
+     ```
 
 1. Accédez au répertoire où se trouve le script et exécutez le script suivant :
 
@@ -195,6 +195,7 @@ Vous devez créer un compte externe [!DNL Google BigQuery] pour connecter votre 
       * **[!UICONTROL Télécharger le fichier de clé sur le serveur]** : sélectionnez **[!UICONTROL Cliquer ici pour effectuer le téléchargement]** si vous choisissez de télécharger la clé via Adobe Campaign Classic.
 
       * **[!UICONTROL Saisir manuellement le chemin d&#39;accès au fichier de clé]** : copiez/collez votre chemin absolu dans ce champ si vous choisissez d&#39;utiliser une clé préexistante.
+
    * **[!UICONTROL Jeu de données]** : nom de votre **[!UICONTROL jeu de données]**. Pour plus d&#39;informations à ce propos, consultez la [documentation Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro).
 
    ![](assets/google-big-query.png)

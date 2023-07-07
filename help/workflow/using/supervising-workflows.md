@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
 
@@ -137,17 +137,17 @@ Ce modèle doit comporter :
 * **l&#39;adresse mail du superviseur**.
 * **un contenu HTML** permettant d&#39;insérer du texte personnalisé.
 
-   ![](assets/uc_monitoring_workflow_variables_diffusion.png)
+  ![](assets/uc_monitoring_workflow_variables_diffusion.png)
 
-   Les trois variables déclarées (WF_Stop, WF_Paused, WF_Error) correspondent aux trois variables d&#39;événements du workflow.
+  Les trois variables déclarées (WF_Stop, WF_Paused, WF_Error) correspondent aux trois variables d&#39;événements du workflow.
 
-   Ces variables doivent être déclarées dans l&#39;onglet **Variables** des propriétés du modèles de diffusion.
+  Ces variables doivent être déclarées dans l&#39;onglet **Variables** des propriétés du modèles de diffusion.
 
-   Afin de récupérer **le contenu des variables d&#39;événements du workflow**, il est nécessaire de déclarer des variables propres à la diffusion qui seront initialisées avec les valeurs retournées par le code JavaScript.
+  Afin de récupérer **le contenu des variables d&#39;événements du workflow**, il est nécessaire de déclarer des variables propres à la diffusion qui seront initialisées avec les valeurs retournées par le code JavaScript.
 
-   Le contenu de modèle de diffusion est le suivant :
+  Le contenu de modèle de diffusion est le suivant :
 
-   ![](assets/uc_monitoring_workflow_model_diffusion.png)
+  ![](assets/uc_monitoring_workflow_model_diffusion.png)
 
 Une fois le modèle crée et validé, vous devez configurer l&#39;activité **Diffusion** pour:
 
@@ -161,21 +161,21 @@ En double cliquant sur l&#39;activité **Diffusion**, choisissez les options sui
 * Action à effectuer : sélectionnez **Préparer et démarrer**.
 * Décochez l&#39;option **Traiter les erreurs**.
 
-   ![](assets/uc_monitoring_workflow_optionmodel.png)
+  ![](assets/uc_monitoring_workflow_optionmodel.png)
 
 * Dans l&#39;onglet **Script** de l&#39;activité **Diffusion**, ajoutez trois variables de type **chaîne de caractères** via le sélecteur de champs de personnalisation
 
-   ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
+  ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
 
-   ![](assets/uc_monitoring_workflow_linkvariables.png)
+  ![](assets/uc_monitoring_workflow_linkvariables.png)
 
-   Les trois variables déclarées sont :
+  Les trois variables déclarées sont :
 
-   ```
-   delivery.variables._var[0].stringValue = vars.strWorkflowError;
-   delivery.variables._var[1].stringValue = vars.strWorkflowPaused;
-   delivery.variables._var[2].stringValue = vars.strWorkflowStop; 
-   ```
+  ```
+  delivery.variables._var[0].stringValue = vars.strWorkflowError;
+  delivery.variables._var[1].stringValue = vars.strWorkflowPaused;
+  delivery.variables._var[2].stringValue = vars.strWorkflowStop; 
+  ```
 
 Une fois lancé, ce workflow de suivi envoie au destinataire de la diffusion un message récapitulatif de la forme :
 

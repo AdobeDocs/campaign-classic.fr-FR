@@ -47,9 +47,9 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
 
 * **_operation (string)**: définit le type d&#39;écriture dans la base.
 
-   Cet attribut est principalement utilisé lors d&#39;une extension de schéma usine.
+  Cet attribut est principalement utilisé lors d&#39;une extension de schéma usine.
 
-   Les valeurs accessibles sont:
+  Les valeurs accessibles sont:
 
    * &quot;none&quot; : Réconciliation seule. Signifie qu&#39;Adobe Campaign va retrouver l&#39;élément sans le mettre à jour ou générer une erreur s&#39;il n&#39;existe pas.
    * &quot;insertOrUpdate&quot; : Mise à jour avec insertion. Signifie qu&#39;Adobe Campaign va mettre à jour l&#39;élément ou le créer s&#39;il n&#39;existe pas.
@@ -84,30 +84,30 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
    * &quot;shared&quot; : le contenu est stocké dans une table partagée par type de données
    * &quot;dedicated&quot; : le contenu est stocké dans une table dédiée
 
-   Les tables SQL de caractéristiques sont construites automatiquement en fonction du type de la caractéristique :
+  Les tables SQL de caractéristiques sont construites automatiquement en fonction du type de la caractéristique :
 
    * dédié : `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
-   Deux types de champs de caractéristiques sont disponibles : les champs simples oà¹ une seule valeur est autorisée sur la caractéristique et les champs à choix multiples oà¹ la caractéristique est associée à un élément de collection qui peut donc contenir plusieurs valeurs.
+  Deux types de champs de caractéristiques sont disponibles : les champs simples oà¹ une seule valeur est autorisée sur la caractéristique et les champs à choix multiples oà¹ la caractéristique est associée à un élément de collection qui peut donc contenir plusieurs valeurs.
 
-   Lorsque une caractéristique est définie dans un schéma, ce schéma doit comporter une clef principale basé sur un seul champ (clef composite non autorisée).
+  Lorsque une caractéristique est définie dans un schéma, ce schéma doit comporter une clef principale basé sur un seul champ (clef composite non autorisée).
 
 * **featureDate (boolean)**: attribut associé au champ de caractéristiques &quot;feature&quot;, si sa valeur est &quot;true&quot;, il permet de connaître la date de la dernière mise à jour de la valeur.
-* **img (string)**: permet de définir un chemin pour une image associée à un champ (namespace + nom de l&#39;image)(exemple : img=&quot;cus:mypicture.jpg&quot;). Physiquement l&#39;image doit être importée sur le serveur applicatif.
+* **img (string)** : permet de définir un chemin pour une image associée à un champ (espace de noms + nom de l’image)(exemple : img= »cus:mypicture.jpg »). Physiquement, l’image doit être importée sur le serveur applicatif. 
 * **label (string)**: libellé associé au champ, le plus souvent destiné à l&#39;utilisateur dans l&#39;interface. Il permet d&#39;éviter les contraintes de nommage.
 * **length (string)**: nombre de caractères maximal autorisés pour une valeur du champ SQL de type &quot;string&quot;. Si l&#39;attribut &quot;@length&quot; n&#39;est pas précisé, Adobe Campaign crée automatiquement un champ de 255 caractères.
 * **localizable (boolean)**: s&#39;il est activé, cet attribut indique à l&#39;outil de collecte de récupérer la valeur de l&#39;attribut &quot;@label&quot; pour traduction (usage interne).
 * **name (MNTOKEN)**: nom de l&#39;attribut qui correspondra au nom du champ dans la table. La valeur de l&#39;attribut &quot;@name&quot; doit être courte, de préférence en anglais et elle doit respecter les contraintes de nommage liées au XML.
 
-   Lors de l&#39;écriture du schéma en base, des préfixes sont automatiquement rajoutés par Adobe Campaign au nom du champ:
+  Lors de l&#39;écriture du schéma en base, des préfixes sont automatiquement rajoutés par Adobe Campaign au nom du champ:
 
    * &quot;i&quot; : préfixe pour le type &#39;entier&#39;.
    * &quot;d&quot; : préfixe pour le type &#39;double&#39;.
    * &quot;s&quot; : préfixe pour le type chaine de caractère.
    * &quot;ts&quot; : préfixe pour le type &#39;date&#39;.
 
-   Pour définir intégralement le nom du champ dans la table, il faut utiliser l&#39;option &quot;@sqlname&quot; dans la définition d&#39;un attribut.
+  Pour définir intégralement le nom du champ dans la table, il faut utiliser l&#39;option &quot;@sqlname&quot; dans la définition d&#39;un attribut.
 
 * **notNull (boolean)**: permet de redéfinir le comportement de Adobe Campaign concernant la gestion des enregistrements NULL en base de données. Par défaut, les champs numériques sont non-nuls et les champs de type chaîne et date peuvent être nuls.
 * **pkgStatus (string)**: durant l&#39;export de package, les valeurs seront prises en compte ou non en fonction de la valeur de l&#39;attribut &quot;@pkgStatus&quot; :
@@ -126,9 +126,9 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
 * **translatedExpr (chaîne)** : si un attribut « @expr » est présent, l’attribut « @translatedExpr » permet de redéfinir une expression, correspondant à l’expression définie dans « @expr », qui sera collectée par l’outil de traduction (usage interne).
 * **type (MNTOKEN)**: type du champ.
 
-   Les types de champs sont génériques. C&#39;est en fonction du type de base de donnée installé qu&#39;Adobe Campaign transforme le type défini en valeur propre à la base de données installées lors de la mise à jour de la structure.
+  Les types de champs sont génériques. C&#39;est en fonction du type de base de donnée installé qu&#39;Adobe Campaign transforme le type défini en valeur propre à la base de données installées lors de la mise à jour de la structure.
 
-   Liste des types disponibles :
+  Liste des types disponibles :
 
    * ANY
    * bin
@@ -157,16 +157,16 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
    * timespan
    * uuid
 
-   Si l&#39;attribut &quot;@type&quot; est laissé vide, Adobe Campaign associe par défaut un type chaîne de caractères (STRING) de longueur 100 au champ.
+  Si l&#39;attribut &quot;@type&quot; est laissé vide, Adobe Campaign associe par défaut un type chaîne de caractères (STRING) de longueur 100 au champ.
 
-   Si le champ est de type STRING et que le nom du champ n&#39;est pas précisé par la présence de l&#39;attribut &quot;@sqlname&quot;, alors le nom du champ dans la base de données sera automatiquement précédé du caractère &#39;s&#39;. Ce fonctionnement sera similaire avec les champs de type INTEGER (i), DOUBLE (d) et DATE(ts).
+  Si le champ est de type STRING et que le nom du champ n&#39;est pas précisé par la présence de l&#39;attribut &quot;@sqlname&quot;, alors le nom du champ dans la base de données sera automatiquement précédé du caractère &#39;s&#39;. Ce fonctionnement sera similaire avec les champs de type INTEGER (i), DOUBLE (d) et DATE(ts).
 
 * **userEnum (string)**: reçoit le nom interne d&#39;une énumération &quot;ouverte&quot;. Les valeurs de l&#39;énumération peuvent être définies par l&#39;utilisateur dans l&#39;interface.
 * **visibleIf (string)**: définit une condition sous la forme d&#39;une expression XTK pour montrer ou masquer l&#39;attribut.
 
-   >[!IMPORTANT]
-   >
-   >L&#39;attribut est masqué mais ses données sont toujours accessibles.
+  >[!IMPORTANT]
+  >
+  >L&#39;attribut est masqué mais ses données sont toujours accessibles.
 
 * **xml (boolean)**: si cette option est activée, les valeurs du champ n&#39;ont pas de champ SQL associé. Adobe Campaign crée un champ &quot;mData&quot; de type Text pour stocker les enregistrements. En conséquence, il n&#39;y a pas de filtrage ni de tri sur ces champs.
 

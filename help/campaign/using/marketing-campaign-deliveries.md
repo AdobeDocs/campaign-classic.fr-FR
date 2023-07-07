@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opéra
 
 Une fois créées à partir d’une campagne, les diffusions y sont liées et sont consolidées au niveau de cette campagne.
 
-![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[Découvrez cette fonctionnalité en vidéo](#create-email-video)
 
 ## Création de diffusions {#creating-deliveries}
 
@@ -68,32 +68,32 @@ Pour plus dʼinformations, consultez la section [Validation dʼun fichier dʼext
 
 * Une fois le fichier d’extraction validé, vous pouvez générer le BAT de l’e-mail de notification au routeur. Ce message e-mail est construit à partir d’un modèle de diffusion. Il doit être approuvé.
 
-   >[!NOTE]
-   >
-   >Cette étape n&#39;est proposée que si l&#39;envoi et la validation des BAT ont été activés à partir de la fenêtre des validations.
+  >[!NOTE]
+  >
+  >Cette étape n&#39;est proposée que si l&#39;envoi et la validation des BAT ont été activés à partir de la fenêtre des validations.
 
 ![](assets/s_ncs_user_file_valid_select_BAT.png)
 
 
 * Cliquez sur le bouton **[!UICONTROL Envoyer un BAT]** pour lancer la création des BAT.
 
-   La cible des BAT doit avoir été préalablement définie.
+  La cible des BAT doit avoir été préalablement définie.
 
-   Vous pouvez créer autant de BAT que nécessaire. Ils sont accessibles à partir du lien **[!UICONTROL Courriers...]** du détail de la diffusion.
+  Vous pouvez créer autant de BAT que nécessaire. Ils sont accessibles à partir du lien **[!UICONTROL Courriers...]** du détail de la diffusion.
 
-   ![](assets/s_ncs_user_file_notif_submit_proof.png)
+  ![](assets/s_ncs_user_file_notif_submit_proof.png)
 
 * La diffusion est alors à l&#39;état **[!UICONTROL A soumettre]**. Le bouton **[!UICONTROL Soumettre les BAT]** lance le processus de validation des BAT.
 
-   ![](assets/s_ncs_user_file_notif_submit_proof_validation.png)
+  ![](assets/s_ncs_user_file_notif_submit_proof_validation.png)
 
 * La diffusion passe à l&#39;état **[!UICONTROL BAT à valider]** et un bouton permet d&#39;accepter ou refuser la validation.
 
-   ![](assets/s_ncs_user_file_notif_supplier_link.png)
+  ![](assets/s_ncs_user_file_notif_supplier_link.png)
 
-   Vous pouvez alors accepter ou refuser cette validation, ou revenir à l&#39;étape d&#39;extraction
+  Vous pouvez alors accepter ou refuser cette validation, ou revenir à l&#39;étape d&#39;extraction
 
-   ![](assets/s_ncs_user_file_notif_supplier_link_confirm.png)
+  ![](assets/s_ncs_user_file_notif_supplier_link_confirm.png)
 
 * Puis le fichier d&#39;extraction est envoyé au routeur et la diffusion est terminée.
 
@@ -103,11 +103,11 @@ L&#39;extraction du fichier lance deux opérations : le calcul des budgets et l
 
 * Au niveau de l&#39;opération, l&#39;onglet **[!UICONTROL Budget]** permet de gérer les budgets. Le cumul des lignes de coût est repris dans le champ **[!UICONTROL Coût calculé]** de l&#39;onglet principal de l&#39;opération et du programme auquel elle appartient. Les montants sont également répercutés au niveau du budget de l&#39;opération.
 
-   Le coût réel sera calculé au final en fonction des informations fournies par le routeur : seuls les courriers réellement envoyés sont facturés.
+  Le coût réel sera calculé au final en fonction des informations fournies par le routeur : seuls les courriers réellement envoyés sont facturés.
 
 * Les stocks sont définis dans le noeud **[!UICONTROL Administration > Gestion de campagne > Stocks]** de l&#39;arborescence, et les structures de coût, dans le noeud **[!UICONTROL Administration > Gestion de campagne > Prestataires]**.
 
-   Au niveau des stocks, vous pouvez visualiser les lignes de stocks. Pour définir le stock initial, vous devez ouvrir une ligne de stock. Le stock est décrémenté au fur et à mesure des diffusions. Vous pouvez définir un niveau d&#39;alerte et des notifications.
+  Au niveau des stocks, vous pouvez visualiser les lignes de stocks. Pour définir le stock initial, vous devez ouvrir une ligne de stock. Le stock est décrémenté au fur et à mesure des diffusions. Vous pouvez définir un niveau d&#39;alerte et des notifications.
 
 >[!NOTE]
 >
@@ -190,19 +190,19 @@ Une composition peut contenir des articles, des champs de personnalisation, des 
 * Les articles sont par exemple des documents physiques qui sont ici référencés et décrits, et seront joints à la diffusion.
 * Les champs de personnalisation permettent de créer des éléments de personnalisation relatifs aux diffusions et non aux destinataires. Ainsi, il est possible de créer des valeurs qui seront utilisées dans les diffusions pour une cible spécifique (offre de bienvenue, pourcentage de réduction, etc.) Ils sont créés dans Adobe Campaign et importés dans la composition, via le lien **[!UICONTROL Importer des champs de personnalisation...]**.
 
-   ![](assets/s_ncs_user_op_add_composition_field.png)
+  ![](assets/s_ncs_user_op_add_composition_field.png)
 
-   Ils peuvent également être créés directement dans la composition, en cliquant sur l&#39;icône **[!UICONTROL Ajouter]** située à droite de la zone de liste.
+  Ils peuvent également être créés directement dans la composition, en cliquant sur l&#39;icône **[!UICONTROL Ajouter]** située à droite de la zone de liste.
 
-   ![](assets/s_ncs_user_op_add_composition_field_button.png)
+  ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
 * Les ressources sont des ressources marketing générées dans le tableau de bord des ressources marketing, qui est accessible à partir du lien **[!UICONTROL Ressources]** de l’onglet **[!UICONTROL Campagnes]**.
 
-   ![](assets/s_ncs_user_mkg_resource_ovv.png)
+  ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
-   >[!NOTE]
-   >
-   >Pour plus d&#39;informations sur les ressources marketing, voir la section [Gérer les ressources marketing](../../mrm/using/managing-marketing-resources.md).
+  >[!NOTE]
+  >
+  >Pour plus d&#39;informations sur les ressources marketing, voir la section [Gérer les ressources marketing](../../mrm/using/managing-marketing-resources.md).
 
 #### Sélection d’une composition {#selecting-an-outline}
 

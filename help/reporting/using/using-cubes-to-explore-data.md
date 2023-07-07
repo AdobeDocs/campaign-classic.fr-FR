@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    * Combinaison de mesures : ce type de mesure permet de construire la nouvelle mesure à partir de mesures existantes.
 
-      Entre ces mesures, les opérateurs disponibles sont : somme, différence, multiplication et taux.
+     Entre ces mesures, les opérateurs disponibles sont : somme, différence, multiplication et taux.
 
    * Proportion : ce type de mesure permet de calculer le nombre d&#39;enregistrements mesurés pour une dimension donnée. Vous pouvez calculer la proportionnalité par rapport à une dimension ou une sous-dimension.
    * Variation : cette mesure permet de calculer la variation des valeurs d&#39;un niveau.

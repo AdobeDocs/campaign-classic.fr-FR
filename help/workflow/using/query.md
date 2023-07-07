@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1692'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Pour ajouter des données de la base Adobe Campaign :
    * Un champ calculé à partir de données issues de la population ciblée ou un agrégat (nombre d’achats en attente au cours du dernier mois, montant moyen d’un ticket de caisse, etc.). Un exemple est proposé dans la section [Sélection des données](targeting-data.md#selecting-data).
    * Un nouveau champ, créé à partir du bouton **[!UICONTROL Ajouter]** situé à droite de la liste des colonnes de sortie.
 
-      Vous pouvez également ajouter une collection d’informations, par exemple une liste de contrats, les 5 dernières diffusions, etc. Les collections correspondent à des champs dont les valeurs peuvent être multiples pour un même profil (relation 1-N). Pour plus dʼinformations, consultez la section [Modification des données additionnelles](targeting-data.md#editing-additional-data).
+     Vous pouvez également ajouter une collection d’informations, par exemple une liste de contrats, les 5 dernières diffusions, etc. Les collections correspondent à des champs dont les valeurs peuvent être multiples pour un même profil (relation 1-N). Pour plus dʼinformations, consultez la section [Modification des données additionnelles](targeting-data.md#editing-additional-data).
 
 Pour ajouter une collection d&#39;informations liées à une population ciblée :
 
@@ -107,11 +107,11 @@ Pour ajouter une collection d&#39;informations liées à une population ciblée�
 
    * Si un seul élément de la collection correspond aux conditions de filtrage définies à l&#39;étape suivante, sélectionnez **[!UICONTROL Ligne unique]** dans le champ **[!UICONTROL Données collectées]**.
 
-      >[!IMPORTANT]
-      >
-      >Ce mode optimise la requête SQL générée grâce à une jointure directe sur les éléments de la collection.
-      >
-      >Si la condition initiale n&#39;est pas respectée, le résultat peut être erroné (lignes manquantes ou doublons).
+     >[!IMPORTANT]
+     >
+     >Ce mode optimise la requête SQL générée grâce à une jointure directe sur les éléments de la collection.
+     >
+     >Si la condition initiale n&#39;est pas respectée, le résultat peut être erroné (lignes manquantes ou doublons).
 
    * Si vous choisissez de récupérer plusieurs lignes (**[!UICONTROL Limiter le nombre de lignes]**), vous pouvez indiquer le nombre de lignes à collecter.
    * Si les colonnes collectées contiennent des agrégats, par exemple le nombre de sinistres déclarés, la moyenne des dépenses sur un site, etc., vous pouvez utiliser la valeur **[!UICONTROL Agrégats]**.
@@ -179,24 +179,24 @@ La section ci-dessous présente les bonnes pratiques pour optimiser les requête
 * Évitez d’effectuer des jointures externes. Dans la mesure du possible, utilisez l’enregistrement Zero ID pour obtenir la fonctionnalité de jointure externe.
 * Utilisez le type de données approprié pour les jointures.
 
-   Assurez-vous que la clause `where` est du même type que le champ.
+  Assurez-vous que la clause `where` est du même type que le champ.
 
-   Il existe une erreur courante : `iBlacklist='3'` où `iBlacklist` est un champ numérique et `3` correspond à une valeur de texte.
+  Il existe une erreur courante : `iBlacklist='3'` où `iBlacklist` est un champ numérique et `3` correspond à une valeur de texte.
 
-   Assurez-vous de connaître le plan d’exécution de votre requête. Évitez les analyses de table complètes, en particulier pour les requêtes en temps réel ou quasi temps réel qui s’exécutent toutes les minutes.
+  Assurez-vous de connaître le plan d’exécution de votre requête. Évitez les analyses de table complètes, en particulier pour les requêtes en temps réel ou quasi temps réel qui s’exécutent toutes les minutes.
 
-   Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
+  Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
 
-   ![](assets/do-not-localize/v7.jpeg)[  Documentation Campaign v7](../../configuration/using/database-mapping.md)
+  ![](assets/do-not-localize/v7.jpeg)[Documentation Campaign v7](../../configuration/using/database-mapping.md)
 
-   ![](assets/do-not-localize/v8.png)[  Documentation Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=fr)
+  ![](assets/do-not-localize/v8.png)[Documentation Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=fr)
 
 ### Fonctions {#functions}
 
 * Attention aux fonctions comme `Lower(...)`. Si vous avez recours à la fonction Lower, l’index n’est pas utilisé.
 * Vérifiez soigneusement les requêtes contenant les instructions « like », « upper » ou « lower ». Appliquez « upper » à la saisie utilisateur et non au champ de base de données.
 
-   Pour plus d’informations sur les fonctions, consultez [cette section](../../platform/using/defining-filter-conditions.md#list-of-functions).
+  Pour plus d’informations sur les fonctions, consultez [cette section](../../platform/using/defining-filter-conditions.md#list-of-functions).
 
 ### Dimensions de filtrage {#filtering-dimensions}
 
@@ -229,10 +229,10 @@ Pour plus d’informations sur les dimensions de filtrage, consultez [cette sec
    * Application,
    * Volumes.
 
-   >[!NOTE]
-   >
-   >Une fonctionnalité opérationnelle dans un environnement de développement peut ne pas l’être dans un environnement de production. Les données peuvent en effet être différentes de l’un à l’autre. Essayez d’identifier les principales différences pour anticiper les risques et préparer des solutions.
+  >[!NOTE]
+  >
+  >Une fonctionnalité opérationnelle dans un environnement de développement peut ne pas l’être dans un environnement de production. Les données peuvent en effet être différentes de l’un à l’autre. Essayez d’identifier les principales différences pour anticiper les risques et préparer des solutions.
 
 * Effectuez des configurations qui correspondent aux volumes cible. Les gros volumes nécessitent des configurations spécifiques. Une configuration adaptée pour 100 000 destinataires peut ne pas fonctionner pour 10 000 000.
 
-   Pensez à la façon dont le système va évoluer une fois mis en service. Si un élément fonctionne à petite échelle, il ne sera pas nécessairement adapté à de plus grands volumes. Les tests doivent être effectués avec des volumes similaires à ceux de la production. Vous devez également évaluer l’incidence des évolutions de volumes (nombre d’appels, taille de la base de données) aux heures et aux jours de pointe, et pendant toute la durée du projet.
+  Pensez à la façon dont le système va évoluer une fois mis en service. Si un élément fonctionne à petite échelle, il ne sera pas nécessairement adapté à de plus grands volumes. Les tests doivent être effectués avec des volumes similaires à ceux de la production. Vous devez également évaluer l’incidence des évolutions de volumes (nombre d’appels, taille de la base de données) aux heures et aux jours de pointe, et pendant toute la durée du projet.

@@ -5,7 +5,7 @@ description: Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit�
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
 

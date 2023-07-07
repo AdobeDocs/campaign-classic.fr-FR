@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2539'
 ht-degree: 100%
 
@@ -52,21 +52,21 @@ Les budgets sont créés au niveau de la vue globale, à partir du noeud **[!UIC
 
 * Ajouter un nouveau budget
 
-   Cliquez sur l&#39;icône **[!UICONTROL Nouveau]**, nommez et enregistrez le budget.
+  Cliquez sur l&#39;icône **[!UICONTROL Nouveau]**, nommez et enregistrez le budget.
 
 * Saisir le montant initial
 
-   Indiquez le montant alloué dans le champ correspondant. Les autres montants sont renseignés automatiquement. Voir [Calculer les montants](#calculating-amounts).
+  Indiquez le montant alloué dans le champ correspondant. Les autres montants sont renseignés automatiquement. Voir [Calculer les montants](#calculating-amounts).
 
 * Définir la période de validité
 
-   Indiquez les dates de début et de fin. Ces informations sont indicatives.
+  Indiquez les dates de début et de fin. Ces informations sont indicatives.
 
 * Dépenses
 
-   Créez les catégories de dépenses auxquelles pourront être rattachés les coûts affectés à ce budget au niveau des opérations, diffusions, tâches, etc. Pour plus d&#39;informations, consultez la section [Catégories de dépenses](#expense-categories).
+  Créez les catégories de dépenses auxquelles pourront être rattachés les coûts affectés à ce budget au niveau des opérations, diffusions, tâches, etc. Pour plus d&#39;informations, consultez la section [Catégories de dépenses](#expense-categories).
 
-   ![](assets/s_ncs_user_budget_create_and_save.png)
+  ![](assets/s_ncs_user_budget_create_and_save.png)
 
 >[!NOTE]
 >
@@ -362,7 +362,7 @@ Les factures sont créées et stockées dans le noeud **[!UICONTROL MRM > Fact
 
 ![](assets/s_user_cost_create_invoice.png)
 
-Une facture est composée de lignes de factures dont le total permet de calculer automatiquement le montant. Ces lignes sont créées manuellement depuis l&#39;onglet **[!UICONTROL Lignes de facture]**. Elles peuvent être associées à une commande afin de remonter l&#39;information au niveau des commandes.
+Une facture est composée de lignes de factures dont le total permet de calculer automatiquement le montant. Ces lignes sont créées manuellement depuis l’onglet **[!UICONTROL Lignes de facture]**. Elles peuvent être associées à une commande afin de charger les informations vers les commandes.
 
 ![](assets/s_user_cost_invoice_add_line.png)
 

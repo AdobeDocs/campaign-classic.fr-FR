@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 
@@ -42,9 +42,9 @@ Les droits attribués au chargé d&#39;offres lui permettent d&#39;effectuer les
 * Paramétrer l&#39;éligibilité des offres.
 * Valider des offres.
 
-   >[!NOTE]
-   >
-   >Le chargé d’offres ne peut valider une offre que dans deux cas particuliers. Le premier étant si aucune personne en particulier n’a été spécifiée comme validant et le second étant si l’opérateur en charge de la création des modèles (disposant du droit pour l’affectation des validants) l’a spécifié comme validant dans le modèle d’offre sur lequel l’offre était basée.
+  >[!NOTE]
+  >
+  >Le chargé d’offres ne peut valider une offre que dans deux cas particuliers. Le premier étant si aucune personne en particulier n’a été spécifiée comme validant et le second étant si l’opérateur en charge de la création des modèles (disposant du droit pour l’affectation des validants) l’a spécifié comme validant dans le modèle d’offre sur lequel l’offre était basée.
 
 ## Chargé de diffusion {#delivery-manager}
 
@@ -59,9 +59,9 @@ Les droits attribués au chargé de diffusion lui permettent d’effectuer les o
 * Afficher et modifier des catégories d&#39;offres.
 * Valider des offres s’il y est spécifié comme l’un des validants.
 
-   >[!NOTE]
-   >
-   >Le chargé de diffusion ne peut valider une offre que s’il a été défini comme validant lors de la configuration de l’offre.
+  >[!NOTE]
+  >
+  >Le chargé de diffusion ne peut valider une offre que s’il a été défini comme validant lors de la configuration de l’offre.
 
 ## Récapitulatif des droits selon le type d&#39;opérateur {#recap-of-rights-according-to-operator}
 

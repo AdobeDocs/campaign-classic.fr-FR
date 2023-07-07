@@ -5,7 +5,7 @@ description: Découvrez les étapes principales pour créer un rapport
 feature: Reporting
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 100%
 
@@ -145,15 +145,15 @@ Vous pouvez intégrer un ou plusieurs contrôles de sélection dans vos rapports
 
 * via des boutons radio ou des cases à cocher :
 
-   ![](assets/reporting_radio_buttons.png)
+  ![](assets/reporting_radio_buttons.png)
 
 * via une liste déroulante :
 
-   ![](assets/reporting_control_list.png)
+  ![](assets/reporting_control_list.png)
 
 * via un calendrier :
 
-   ![](assets/reporting_control_date.png)
+  ![](assets/reporting_control_date.png)
 
 Enfin, vous pouvez intégrer un ou plusieurs contrôles avancés dans vos rapports. Ce type de contrôle offre la possibilité d&#39;insérer un lien, une constante ou de sélectionner un dossier.
 

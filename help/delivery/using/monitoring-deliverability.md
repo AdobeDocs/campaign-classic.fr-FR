@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Vous pouvez également utiliser les outils suivants :
    * **[!UICONTROL Erreurs hard]**, qui indiquent la qualité des données. Ce chiffre doit être inférieur à 2 %.
    * **[!UICONTROL Erreurs soft]** qui indiquent la réputation. Cette valeur ne doit pas être supérieure à 10 % pour un fournisseur d’accès à internet donné.
 
-   Pour plus d&#39;informations, consultez la section [Statistiques de diffusion](../../reporting/using/global-reports.md#delivery-statistics).
+  Pour plus d&#39;informations, consultez la section [Statistiques de diffusion](../../reporting/using/global-reports.md#delivery-statistics).
 * Plus généralement, le [tableau de bord des diffusions](about-delivery-monitoring.md) donne accès aux éléments suivants :
    * [Synthèse des diffusions](delivery-dashboard.md#delivery-summary), qui indique le détail de l’envoi et le nombre de messages à envoyer, traités et envoyés avec succès.
    * [Logs et historique de la diffusion](delivery-dashboard.md#delivery-logs-and-history), qui montrent les cibles exclues et le motif d’exclusion.

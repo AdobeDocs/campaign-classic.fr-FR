@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -144,16 +144,16 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
 
 * Au besoin, installez Perl et SpamAssassin à l&#39;aide de la commande suivante :
 
-   ```
-   apt-get install spamassassin libxml-writer-perl
-   ```
+  ```
+  apt-get install spamassassin libxml-writer-perl
+  ```
 
 * Dans le fichier **serverConf.xml** (disponible sous `/usr/local/[INSTALL]/nl6/conf/`), modifiez la ligne **spamCheck** comme suit :
 
-   ```
-   <spamCheck command="perl
-   /usr/local/[NSTALL]/nl6/bin/spamcheck.pl"/>
-   ```
+  ```
+  <spamCheck command="perl
+  /usr/local/[NSTALL]/nl6/bin/spamcheck.pl"/>
+  ```
 
 ### Etapes d&#39;installation sous RHEL/CentOS {#installation-steps-in-rhel-centos}
 

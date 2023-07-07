@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Approvals
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 100%
 
@@ -26,15 +26,15 @@ Au besoin, vous pouvez affecter la tâche de validation à un opérateur unique 
 
 * Pour sélectionner un opérateur unique, sélectionnez la valeur **[!UICONTROL Opérateur]** dans le champ **[!UICONTROL Type d&#39;affectation]** et sélectionnez l&#39;opérateur concerné dans la liste déroulante du champ **[!UICONTROL Assignation]**.
 
-   ![](assets/s_advuser_validation_box_assign.png)
+  ![](assets/s_advuser_validation_box_assign.png)
 
-   >[!CAUTION]
-   >
-   >Seul l&#39;opérateur sélectionné sera habilité à valider la tâche.
+  >[!CAUTION]
+  >
+  >Seul l&#39;opérateur sélectionné sera habilité à valider la tâche.
 
 * Vous pouvez définir une requête afin de filtrer les opérateurs validants. Pour cela, sélectionnez la valeur **[!UICONTROL Filtre]** dans le champ **[!UICONTROL Type d&#39;affectation]** puis cliquez sur le lien **[!UICONTROL Paramètres avancés...]** pour définir les critères de filtrage, comme dans l&#39;exemple ci-dessous :
 
-   ![](assets/s_advuser_validation_box_filter.png)
+  ![](assets/s_advuser_validation_box_filter.png)
 
 Dans le cas d&#39;une validation simple, la transition correspondant au choix de l&#39;opérateur est activée et la tâche est terminée : les autres opérateurs ne peuvent plus répondre.
 
@@ -56,7 +56,7 @@ Les variables de personnalisation peuvent être utilisées dans le message envoy
 
 ![](assets/edit_validation.png)
 
-Le champ **[!UICONTROL Titre]** contient le titre du message : il s&#39;agit du sujet de l&#39;email envoyé. Le titre, comme le corps du message, sont des templates JavaScript et peuvent donc contenir des valeurs calculées en fonction du contexte du workflow.
+Le champ **[!UICONTROL Titre]** contient le titre du message : il s’agit de l’objet de l’e-mail envoyé. Le titre, comme le corps du message, sont des modèles JavaScript et peuvent donc contenir des valeurs calculées en fonction du contexte du workflow.
 
 La section inférieure de l&#39;éditeur permet de définir la liste des réponses possibles. A chaque réponse correspond une transition. Le nom est l&#39;identifiant interne et le libellé est le texte qui sera affiché dans la liste des choix.
 
@@ -70,8 +70,8 @@ Un exemple de validation est proposé dans la section [Définir les validations]
 
 * **[!UICONTROL response]**
 
-   Commentaire associé à la réponse
+  Commentaire associé à la réponse
 
 * **[!UICONTROL responseOperator]**
 
-   Identifiant de l&#39;opérateur qui a répondu. Ce champ est une valeur numérique, mais de type **[!UICONTROL String]**.
+  Identifiant de l&#39;opérateur qui a répondu. Ce champ est une valeur numérique, mais de type **[!UICONTROL String]**.

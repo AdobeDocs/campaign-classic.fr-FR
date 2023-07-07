@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
 
@@ -99,11 +99,11 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
 
 * Le Message Transfert Agent (MTA) qui exécute les modules et les processus sur le serveur de diffusion et qui gère l’envoi des e-mails peut ne pas avoir été lancé ou doit être redémarré.
 
-   Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
+  Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
 
-   >[!NOTE]
-   >
-   >Cette opération peut être effectuée avec un modèle d’hébergement **On-premise** ou **hybride** ayant accès au serveur Campaign (voir [modèles d&#39;hébergement](../../installation/using/hosting-models.md)).
+  >[!NOTE]
+  >
+  >Cette opération peut être effectuée avec un modèle d’hébergement **On-premise** ou **hybride** ayant accès au serveur Campaign (voir [modèles d&#39;hébergement](../../installation/using/hosting-models.md)).
 
    1. Vérifiez que vos modules `mta@<instance>` sont bien lancés sur vos serveurs MTA.
 
@@ -127,13 +127,13 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
 
 * La diffusion peut utiliser une affinité qui n&#39;a pas été configurée sur le serveur d&#39;envoi.
 
-   Dans ce cas, vérifiez la configuration de la gestion du trafic (affinité IP) et utilisez le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour lier les diffusions au MTA qui gère l&#39;affinité. Voir à ce propos [cette section](../../installation/using/configure-delivery-settings.md).
+  Dans ce cas, vérifiez la configuration de la gestion du trafic (affinité IP) et utilisez le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour lier les diffusions au MTA qui gère l&#39;affinité. Voir à ce propos [cette section](../../installation/using/configure-delivery-settings.md).
 
 * Lorsque trop de campagnes sont en cours d&#39;exécution, l’état de la diffusion reste « En attente ».
 
-   La limite des campagnes simultanées est définie dans l&#39;option **[!UICONTROL NmsOperation_LimitConcurrency]**. La valeur par défaut est 10.
+  La limite des campagnes simultanées est définie dans l&#39;option **[!UICONTROL NmsOperation_LimitConcurrency]**. La valeur par défaut est 10.
 
-   En savoir plus sur les options sur [cette page](../../installation/using/configuring-campaign-options.md).
+  En savoir plus sur les options sur [cette page](../../installation/using/configuring-campaign-options.md).
 
 
 **Rubriques connexes :**

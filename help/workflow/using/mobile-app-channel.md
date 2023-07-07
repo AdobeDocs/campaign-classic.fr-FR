@@ -5,7 +5,7 @@ description: Canal des applications mobiles
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Le workflow présenté ci-dessous est installé par défaut avec le module **Can
   <tr> 
    <td> <span class="uicontrol">Gestion des opt-out NMAC</span> <br /> </td> 
    <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> Ce workflow met à jour les désinscriptions aux notifications sur les terminaux mobiles. Par défaut, il se déclenche toutes les 6H00 entre 1H00 et minuit. Pour plus d’informations, consultez cette <a href="../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines">section</a>.<br /> </td> 
+   <td> Ce workflow met à jour les désinscriptions aux notifications sur les appareils mobiles. Par défaut, il se déclenche toutes les 6 heures entre 1 h 00 et minuit. Pour plus d’informations, consultez cette <a href="../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines">section</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

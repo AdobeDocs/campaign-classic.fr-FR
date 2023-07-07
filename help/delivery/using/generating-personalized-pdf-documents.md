@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -43,9 +43,9 @@ La procédure pour générer des tableaux dynamiques est la suivante :
 * Insérez, dans chaque cellule de la deuxième ligne du tableau, les scripts retournant les valeurs à afficher.
 * Fermez votre boucle dans la troisième et dernière ligne du tableau.
 
-   Exemple de définition d&#39;un tableau dynamique :
+  Exemple de définition d&#39;un tableau dynamique :
 
-   ![](assets/s_ncs_pdf_table.png)
+  ![](assets/s_ncs_pdf_table.png)
 
 ## Insertion dʼimages externes {#inserting-external-images}
 
@@ -68,9 +68,9 @@ Pour cela, il est nécessaire de paramétrer un bloc de personnalisation puis d&
 * Créez un nouveau bloc de personnalisation &quot;Mon Logo&quot; avec pour nom interne &quot;Mon_Logo&quot;.
 * Cliquez sur le lien **[!UICONTROL Paramètres avancés...]** et cochez l&#39;option **[!UICONTROL &quot;Le bloc est inclus dans un document attaché&quot;]**. Cette option va permettre de recopier la définition du bloc de personnalisation directement dans le contenu du fichier OpenOffice.
 
-   ![](assets/s_ncs_pdf_bloc_option.png)
+  ![](assets/s_ncs_pdf_bloc_option.png)
 
-   Il est nécessaire de distinguer deux types de déclaration à l&#39;intérieur du bloc de personnalisation :
+  Il est nécessaire de distinguer deux types de déclaration à l&#39;intérieur du bloc de personnalisation :
 
    * Le code Adobe Campaign des champs de personnalisation pour lequel les chevrons « ouvert » et « fermé » doivent être remplacés par des caractères échappés (respectivement `&lt;` et `&gt;`).
    * Le code XML OpenOffice qui sera intégralement recopié dans le document OpenOffice.

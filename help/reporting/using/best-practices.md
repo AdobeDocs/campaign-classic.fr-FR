@@ -6,7 +6,7 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Ainsi :
 
 * Le temps de calcul d&#39;un rapport ne doit jamais excéder 5 minutes.
 
-   De même, lors de sa phase de conception, avec un faible volume de données, si le calcul du rapport excède 60 secondes, alors la méthode employée doit être ré-étudiée.
+  De même, lors de sa phase de conception, avec un faible volume de données, si le calcul du rapport excède 60 secondes, alors la méthode employée doit être ré-étudiée.
 
 * Lors de l&#39;utilisation de Marketing Analytics, les données de reporting ne doivent pas excéder 10 millions de lignes.
 
@@ -99,17 +99,17 @@ Adobe Campaign vous recommande, en complément, les axes d&#39;optimisation sui
 
 * Travailler sur votre modèle de données : les champs indexés doivent être utilisés prioritairement afin d&#39;améliorer les performances de calcul.
 
-   Pour repérer rapidement un champ indexé, observez le nom de la colonne dans l&#39;interface d&#39;Adobe Campaign : la flèche de tri est soulignée en rouge lorsque le champ est indexé.
+  Pour repérer rapidement un champ indexé, observez le nom de la colonne dans l&#39;interface d&#39;Adobe Campaign : la flèche de tri est soulignée en rouge lorsque le champ est indexé.
 
-   Pour plus d&#39;informations sur les index, consultez [cette section](../../configuration/using/data-model-best-practices.md#indexes).
+  Pour plus d&#39;informations sur les index, consultez [cette section](../../configuration/using/data-model-best-practices.md#indexes).
 
 * Assurez-vous que le rapport est évolutif : le volume de données peut augmenter considérablement au fil du temps.
 
-   De même, le volume des données manipulées dans les phases de test peut différer fortement du volume effectif des données en production. Les phases de test ne doivent donc pas être négligées.
+  De même, le volume des données manipulées dans les phases de test peut différer fortement du volume effectif des données en production. Les phases de test ne doivent donc pas être négligées.
 
-   Enfin, les délais de purge des données doivent être connus, et au besoin adaptés pour faciliter la manipulation des informations.
+  Enfin, les délais de purge des données doivent être connus, et au besoin adaptés pour faciliter la manipulation des informations.
 
-   Pour en savoir plus sur le nettoyage et la conservation des données, consultez [cette section](../../configuration/using/data-model-best-practices.md#data-retention).
+  Pour en savoir plus sur le nettoyage et la conservation des données, consultez [cette section](../../configuration/using/data-model-best-practices.md#data-retention).
 
 ### Exportation des rapports {#exporting-reports}
 

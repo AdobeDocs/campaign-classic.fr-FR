@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Comme John n&#39;a ni ouvert ni cliqué dans l&#39;email, il n&#39;apparaît pas
 
 **Calcul intermédiaire :**
 
-|  | Destinataires ayant cliqué | Personnes ayant cliqué | Destinataires ayant ouvert |
+|   | Destinataires ayant cliqué | Personnes ayant cliqué | Destinataires ayant ouvert |
 |---|---|---|---|
 | John | - | - | - |
 | Total intermédiaire | 0 | 0 | 0 |
@@ -73,7 +73,7 @@ L&#39;ouverture est attribuée à un destinataire, Marie. Adobe Campaign compta
 
 **Calcul intermédiaire :**
 
-|  | Destinataires ayant cliqué | Personnes ayant cliqué | Destinataires ayant ouvert |
+|   | Destinataires ayant cliqué | Personnes ayant cliqué | Destinataires ayant ouvert |
 |---|---|---|---|
 | John | - | - | - |
 | Marie | - | - | +1 |
@@ -95,7 +95,7 @@ Personnes : comme le navigateur de ce destinataire accepte les cookies, nous ob
 
 **Calcul intermédiaire :**
 
-|  | Destinataires ayant cliqué | Personnes ayant cliqué | Destinataires ayant ouvert |
+|   | Destinataires ayant cliqué | Personnes ayant cliqué | Destinataires ayant ouvert |
 |---|---|---|---|
 | John | - | - | - |
 | Marie | - | - | +1 |
@@ -116,7 +116,7 @@ Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par
 
 **Calcul intermédiaire :**
 
-|  | Destinataires ayant cliqué | Personnes ayant cliqué | Destinataires ayant ouvert |
+|   | Destinataires ayant cliqué | Personnes ayant cliqué | Destinataires ayant ouvert |
 |---|---|---|---|
 | John | - | - | - |
 | Marie | - | - | +1 |
@@ -140,7 +140,7 @@ L&#39;ouverture et les 4 clics effectués par Henry apparaissent dans les logs s
 
 **Calcul intermédiaire :**
 
-|  | Destinataires ayant cliqué | Personnes ayant cliqué | Destinataires ayant ouvert |
+|   | Destinataires ayant cliqué | Personnes ayant cliqué | Destinataires ayant ouvert |
 |---|---|---|---|
 | John | - | - | - |
 | Marie | - | - | +1 |
@@ -173,4 +173,3 @@ La réactivité brute et l&#39;estimation des transferts sont calculées de la m
 >* A représente l&#39;indicateur **[!UICONTROL Clics]** (destinataires ayant cliqués).
 >* B représente l&#39;indicateur **[!UICONTROL Clics distincts sur la population atteinte]** (personnes ayant cliqué).
 >* C représente l&#39;indicateur **[!UICONTROL Ouvertures distinctes sur la population atteinte]** (destinataires ayant ouvert).
-

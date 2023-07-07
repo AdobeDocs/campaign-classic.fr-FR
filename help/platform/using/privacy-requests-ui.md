@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ L&#39;**interface d&#39;Adobe Campaign** permet de créer des demandes d&#39;ac
 
    ![](assets/privacy-request-new.png)
 
-1. Sélectionnez le **[!UICONTROL Règlement]** (RGPD, CCPA, PDPA ou LGPD), le **[!UICONTROL type de demande]** (Accès ou Suppression), sélectionnez un **[!UICONTROL Espace de noms]** et entrez la **[!UICONTROL valeur de réconciliation]**. Si vous utilisez l&#39;email comme espace de noms, saisissez l&#39;adresse email du titulaire de données.
+1. Sélectionnez le **[!UICONTROL Règlement]** (RGPD, CCPA, PDPA ou LGPD), le **[!UICONTROL type de demande]** (Accès ou Suppression), sélectionnez un **[!UICONTROL Espace de noms]** et entrez la **[!UICONTROL valeur de réconciliation]**. Si vous utilisez l’e-mail comme espace de noms, saisissez l’adresse e-mail du titulaire de données.
 
    ![](assets/privacy-request-properties.png)
 
@@ -45,7 +45,7 @@ Les workflows techniques d&#39;accès à des informations personnelles s&#39;ex�
 
 ## Liste des tables {#list-of-tables}
 
-Lors de l&#39;exécution d&#39;une demande d&#39;accès ou de suppression de données personnelles, Adobe Campaign recherche toutes les données du titulaire des données en fonction de la **[!UICONTROL Valeur de réconciliation]** dans toutes les tables ayant un lien avec la table du destinataire (type own).
+Lors de l’exécution d’une demande d’accès ou de suppression de données personnelles, Adobe Campaign recherche toutes les données du titulaire des données en fonction de la **[!UICONTROL Valeur de réconciliation]** dans toutes les tables ayant un lien avec la table du destinataire (type own).
 
 Voici la liste des tables d&#39;usine qui sont prises en compte lors de l&#39;exécution des demandes d&#39;accès à des données personnelles :
 
@@ -69,7 +69,6 @@ Si vous avez créé des tables personnalisées ayant un lien avec la table du de
 >* Vous devez gérer la suppression pour toutes les tables enfants.
 >* Adobe recommande de créer un workflow ETL qui ajoute les lignes à supprimer dans la table Accès à des informations personnelles et de laisser le workflow **[!UICONTROL Supprimer les données de demande d&#39;accès à des informations personnelles]** effectuer la suppression. Nous suggérons de limiter à 200 profils par jour la suppression pour des raisons de performances.
 
-
 ## États des demandes d&#39;accès à des informations personnelles {#privacy-request-statuses}
 
 Voici les différents états des demandes d&#39;accès à des informations personnelles :
@@ -80,7 +79,7 @@ Voici les différents états des demandes d&#39;accès à des informations perso
 * **[!UICONTROL Suppression en cours]** : le workflow traite la suppression.
 * **[!UICONTROL Confirmation de suppression en attente]** : (demande de suppression dans le mode de processus en 2 étapes) - le workflow a traité la demande d&#39;accès. Une confirmation manuelle est requise pour effectuer la suppression. Le bouton est disponible pendant 15 jours.
 * **[!UICONTROL Terminé]** : le traitement de la demande s&#39;est terminé sans erreur.
-* **[!UICONTROL Erreur]** : le workflow a rencontré une erreur. La raison apparaît dans la colonne **[!UICONTROL Statut de la demande]** de la liste des demandes d&#39;accès aux informations personnelles. Par exemple, le statut **[!UICONTROL Erreur : données introuvables]** indique qu&#39;aucune donnée du destinataire correspondant à la **[!UICONTROL Valeur de réconciliation]** du titulaire des données n&#39;a été trouvée dans la base de données.
+* **[!UICONTROL Erreur]** : le workflow a rencontré une erreur. La raison apparaît dans la colonne **[!UICONTROL Statut de la demande]** de la liste des demandes d’accès aux informations personnelles. Par exemple, le statut **[!UICONTROL Erreur : données introuvables]** indique qu’aucune donnée du destinataire correspondant à la **[!UICONTROL Valeur de réconciliation]** du titulaire des données n’a été trouvée dans la base de données.
 
 ## Processus en 2 étapes {#two-step-process}
 
@@ -108,11 +107,11 @@ Cette URL est stockée dans le champ **[!UICONTROL &quot;Emplacement du fichier&
 
 L&#39;information est disponible dans la base de données pendant 90 jours. Une fois la demande nettoyée par le workflow technique, l&#39;information est supprimée de la base de données et l&#39;URL devient obsolète. Vérifiez que l&#39;URL est encore valide avant de télécharger les données depuis une page web.
 
-Voici un exemple de fichier de données d&#39;un titulaire de données :
+Voici un exemple de fichier de données d’un titulaire de données :
 
 ![](assets/do-not-localize/privacy-access-file.png)
 
-Les contrôleurs de données peuvent facilement créer une application web comprenant l&#39;URL JSSP correspondante pour que le fichier de données du titulaire des données soit disponible sur une page web.
+Les contrôleurs de données peuvent facilement créer une application web comprenant l’URL JSSP correspondante pour que le fichier de données du titulaire des données soit disponible sur une page web.
 
 ![](assets/privacy-gdpr-jssp.png)
 
@@ -152,4 +151,4 @@ Voici un élément de code que vous pouvez utiliser comme exemple dans l&#39;act
 </body> </html>
 ```
 
-En raison des restrictions d&#39;accès au fichier de données du titulaire de données, l&#39;accès anonyme à une page web doit être désactivé. Seul un opérateur avec le droit nommé **[!UICONTROL Droit relatif aux données personnelles]** peut se connecter à la page et télécharger les données.
+En raison des restrictions d’accès au fichier de données du titulaire de données, l’accès anonyme à une page web doit être désactivé. Seul un opérateur avec le droit nommé **[!UICONTROL Droit relatif aux données personnelles]** peut se connecter à la page et télécharger les données.

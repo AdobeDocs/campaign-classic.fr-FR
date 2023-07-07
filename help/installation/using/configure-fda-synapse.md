@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -30,7 +30,6 @@ Utilisez l’option Campaign [Federated Data Access](../../installation/using/
 >* Vous aurez besoin des privilèges racine pour installer un pilote ODBC.
 >* Les pilotes ODBC Red Hat Enterprise fournis par Microsoft peuvent également être utilisés avec CentOS pour se connecter à SQL Server.
 >* La version 13.0 fonctionnera avec Red Hat 6 et 7.
-
 
 Pour configurer Azure Synapse sur CentOS, procédez comme suit :
 
@@ -136,9 +135,9 @@ Pour configurer Azure Synapse sous Windows :
 * Vous aurez besoin des privilèges racine pour installer un pilote ODBC.
 * Curl est nécessaire pour installer le package msodbcsql. Si vous ne l’avez pas installé, exécutez la commande suivante :
 
-   ```
-   sudo apt-get install curl
-   ```
+  ```
+  sudo apt-get install curl
+  ```
 
 Pour configurer Azure Synapse sous Debian :
 
@@ -222,7 +221,7 @@ Pour créer votre compte externe [!DNL Azure Synapse], procédez comme suit :
 
       * **[!UICONTROL Base de données]** : nom de la base de données
 
-      ![](assets/azure_3.png)
+     ![](assets/azure_3.png)
 
    * Pour l’authentification d’identité gérée par le système, vous devez indiquer les informations suivantes :
 
@@ -232,9 +231,7 @@ Pour créer votre compte externe [!DNL Azure Synapse], procédez comme suit :
 
       * **[!UICONTROL Options]** : ajoutez la syntaxe suivante `Authentication=ActiveDirectoryMsi`
 
-      ![](assets/azure_4.png)
-
-
+     ![](assets/azure_4.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

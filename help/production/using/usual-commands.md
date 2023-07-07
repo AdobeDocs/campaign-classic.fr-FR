@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
@@ -32,7 +32,6 @@ Le paramètre **`<command>`** correspond au module.
 >* Vous pouvez dans tous les cas adjoindre l&#39;argument **-noconsole** afin de supprimer les commentaires affichés après le lancement des modules.
 >* A contrario, vous pouvez ajouter l&#39;argument **-verbose** pour afficher plus d&#39;informations.
 >
-
 
 ## Commandes de monitoring {#monitoring-commands-}
 
@@ -100,25 +99,25 @@ Pour arrêter les services Adobe Campaign, vous pouvez utiliser une des command
 
    * Sous Linux :
 
-      ```
-      /etc/init.d/nlserver6 stop
-      ```
+     ```
+     /etc/init.d/nlserver6 stop
+     ```
 
-      >[!NOTE]
-      >
-      >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl stop nlserver**
+     >[!NOTE]
+     >
+     >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl stop nlserver**
 
    * Sous Windows :
 
-      ```
-      net stop nlserver6
-      ```
+     ```
+     net stop nlserver6
+     ```
 
 * Sinon, dans le compte Adobe Campaign :
 
-   ```
-   nlserver shutdown 
-   ```
+  ```
+  nlserver shutdown 
+  ```
 
 ## Redémarrer les services {#restart-services}
 
@@ -128,9 +127,9 @@ De même, afin de démarrer Adobe Campaign vous pouvez utiliser une des command
 
    * Sous Linux : /etc/init.d/nlserver6 start
 
-      >[!NOTE]
-      >
-      >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
+     >[!NOTE]
+     >
+     >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
 
    * Sous Windows : net start nlserver6
 
@@ -165,3 +164,4 @@ Pour changer le mode de passe **internal** : **nlserver config -internalpasswor
 >* Dans le cas d&#39;une base Oracle, il ne faut pas préciser le compte. La syntaxe sera donc la suivante :
 >
 >  nlserver config -setdblogin:Oracle:test6@dbserver
+>

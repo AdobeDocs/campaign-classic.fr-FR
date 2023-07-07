@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Schema Extension
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1011'
 ht-degree: 100%
 
@@ -133,7 +133,7 @@ La liste complète des attributs est disponible dans la section [`<attribute>`El
 * **@xml**
 * **@type**
 
-   Pour obtenir le tableau répertoriant les correspondances des types de données générés par Adobe Campaign pour les différents systèmes de gestion de base de données, consultez la section [Correspondance des types de données Adobe Campaign/SGBD](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
+  Pour obtenir le tableau répertoriant les correspondances des types de données générés par Adobe Campaign pour les différents systèmes de gestion de base de données, consultez la section [Correspondance des types de données Adobe Campaign/SGBD](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
 
 Pour en xavoir plus sur chaque attribut, consultez la section [Description des attributs](../../configuration/using/schema/attribute.md).
 

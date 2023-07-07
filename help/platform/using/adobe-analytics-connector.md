@@ -8,7 +8,7 @@ role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 100%
 
@@ -27,7 +27,6 @@ Le connecteur Adobe Analytics permet à Adobe Campaign et Adobe Analytics d�
 >* Le connecteur Adobe Analytics n&#39;est pas compatible avec les messages transactionnels (Message Center).
 >
 >* Avant de commencer, assurez-vous que le système Adobe Identity Management (IMS) est implémenté dans Campaign. [En savoir plus dans cette page](../../integrations/using/about-adobe-id.md).
-
 
 Avec le connecteur Adobe Analytics, Adobe Campaign peut mesurer l&#39;audience Internet (Web Analytics). Grâce à ces intégrations, Adobe Campaign peut récupérer des données sur le comportement des visiteurs pour un ou plusieurs sites à la suite d&#39;une campagne marketing. Après analyse, l&#39;application peut exécuter des campagnes de remarketing avec une vue pour les convertir en acheteurs. Réciproquement, les outils Web Analytics permettent à Adobe Campaign de transférer des indicateurs et des attributs de campagne à ses plateformes.
 
@@ -227,9 +226,9 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
 * **[!UICONTROL Identification des contacts convertis]** : répertorie les visiteurs du site ayant concrétisé leur achat après une campagne de remarketing. Les données récupérées par ce workflow sont accessibles dans le rapport **[!UICONTROL Efficacité du remarketing]**, voir cette [page](#creating-a-re-marketing-campaign).
 * **[!UICONTROL Envoi des indicateurs et des attributs de campagne]** : permet d’envoyer les indicateurs des campagnes depuis Adobe Campaign vers Adobe Experience Cloud via le connecteur Adobe Analytics. Ce workflow est déclenché à 4 heures du matin tous les jours et peut prendre 24 heures pour que les données soient envoyées à Analytics.
 
-   Veuillez noter que ce workflow ne devrait pas être redémarré. Dans le cas contraire, il renverrait toutes les données précédentes, ce qui peut fausser les résultats d&#39;Analytics.
+  Veuillez noter que ce workflow ne devrait pas être redémarré. Dans le cas contraire, il renverrait toutes les données précédentes, ce qui peut fausser les résultats d&#39;Analytics.
 
-   Les indicateurs concernés sont les suivants :
+  Les indicateurs concernés sont les suivants :
 
    * **[!UICONTROL Messages à envoyer]** (@toDeliver)
    * **[!UICONTROL Traités]** (@processed)
@@ -242,11 +241,11 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
    * **[!UICONTROL Désinscription (opt-out)]** (@optOut)
    * **[!UICONTROL Erreurs]** (@error)
 
-   >[!NOTE]
-   >
-   >Les données envoyées correspondent au delta basé sur la dernière prise de photo, ce qui peut générer une valeur négative dans les données de mesure.
+  >[!NOTE]
+  >
+  >Les données envoyées correspondent au delta basé sur la dernière prise de photo, ce qui peut générer une valeur négative dans les données de mesure.
 
-   Les attributs envoyés sont les suivants :
+  Les attributs envoyés sont les suivants :
 
    * **[!UICONTROL Nom interne]** (@internalName)
    * **[!UICONTROL Libellé]** (@label)
@@ -256,7 +255,6 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
    * **[!UICONTROL Tag 2]** (webAnalytics/@tag2)
    * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
    * **[!UICONTROL Date de contact]** (scheduling/@contactDate)
-
 
 ## Tracking des diffusions dans Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
 

@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -20,15 +20,15 @@ Dans cet exemple, vous allez comptabiliser le nombre de destinataires domicilié
 
 * Quelle table doit-on sélectionner ?
 
-   La table des destinataires (**nms:recipient**).
+  La table des destinataires (**nms:recipient**).
 
 * Quels sont les champs à sélectionner en colonne de sortie ?
 
-   Clé primaire (avec comptage) et Genre.
+  Clé primaire (avec comptage) et Genre.
 
 * En fonction de quels critères seront filtrées les informations ?
 
-   En fonction des destinataires domiciliés à Paris.
+  En fonction des destinataires domiciliés à Paris.
 
 Pour réaliser cet exemple, les étapes sont les suivantes :
 

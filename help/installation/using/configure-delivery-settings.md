@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 100%
 
@@ -23,13 +23,13 @@ Les paramètres de diffusion doivent être configurés dans le dossier **serverC
 
 * **Configuration DNS** : renseignez le domaine de diffusion ainsi que les adresses IP (ou host) des serveurs DNS utilisés pour répondre aux requêtes DNS de type MX par le module MTA à partir de **`<dnsconfig>`**.
 
-   >[!NOTE]
-   >
-   >Le paramètre **nameServers** est indispensable pour une installation sous Windows. Pour une installation Linux, il doit être laissé vide.
+  >[!NOTE]
+  >
+  >Le paramètre **nameServers** est indispensable pour une installation sous Windows. Pour une installation Linux, il doit être laissé vide.
 
-   ```
-   <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
-   ```
+  ```
+  <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
+  ```
 
 Vous pouvez également effectuer les configurations suivantes en fonction de vos besoins et de vos paramètres : configurer un [relais SMTP](#smtp-relay), adapter le nombre de [processus enfants MTA](#mta-child-processes), [gérer le trafic SMTP sortant](#managing-outbound-smtp-traffic-with-affinities).
 

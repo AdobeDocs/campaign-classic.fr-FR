@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Query Editor, Data Management
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 100%
 
@@ -90,33 +90,33 @@ Les options de réconciliation des données sont les suivantes :
 
 * **[!UICONTROL Uniquement les clés]**
 
-   Cette option peut être utilisée si les populations en entrée sont homogènes.
+  Cette option peut être utilisée si les populations en entrée sont homogènes.
 
 * **[!UICONTROL Toutes les colonnes communes]**
 
-   Cette option permet de réconcilier les données à partir de toutes les colonnes communes aux différentes populations de la cible.
+  Cette option permet de réconcilier les données à partir de toutes les colonnes communes aux différentes populations de la cible.
 
-   Adobe Campaign identifie les colonnes d&#39;après leur nom. Un niveau de tolérance minimal est accepté : par exemple, une colonne &#39;Email&#39; pourra être reconnue comme identique à une colonne &#39;@email&#39;.
+  Adobe Campaign identifie les colonnes d&#39;après leur nom. Un niveau de tolérance minimal est accepté : par exemple, une colonne &#39;Email&#39; pourra être reconnue comme identique à une colonne &#39;@email&#39;.
 
 * **[!UICONTROL Une sélection de colonnes]**
 
-   Sélectionnez cette option pour définir la liste des colonnes sur lesquelles sera appliquée la réconciliation des données.
+  Sélectionnez cette option pour définir la liste des colonnes sur lesquelles sera appliquée la réconciliation des données.
 
-   Sélectionnez d&#39;abord l&#39;ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
+  Sélectionnez d&#39;abord l&#39;ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
 
-   ![](assets/join_reconciliation_options_01.png)
+  ![](assets/join_reconciliation_options_01.png)
 
-   >[!CAUTION]
-   >
-   >Lors de la réconciliation des données, les populations ne sont pas dédoublonnées.
+  >[!CAUTION]
+  >
+  >Lors de la réconciliation des données, les populations ne sont pas dédoublonnées.
 
-   Vous pouvez limiter la taille de la population à un nombre donné d&#39;enregistrements. Pour cela, cochez l&#39;option correspondante et indiquez le nombre d&#39;enregistrements à conserver.
+  Vous pouvez limiter la taille de la population à un nombre donné d&#39;enregistrements. Pour cela, cochez l&#39;option correspondante et indiquez le nombre d&#39;enregistrements à conserver.
 
-   Indiquez également l&#39;ordre de priorité des populations entrantes : la section inférieure de la fenêtre liste les transitions entrantes de l&#39;activité d&#39;union et vous permet de les ordonner en utilisant les flèches bleues situées à droite de la fenêtre.
+  Indiquez également l&#39;ordre de priorité des populations entrantes : la section inférieure de la fenêtre liste les transitions entrantes de l&#39;activité d&#39;union et vous permet de les ordonner en utilisant les flèches bleues situées à droite de la fenêtre.
 
-   Les enregistrements conservés seront issus d&#39;abord de la population de première transition entrante de la liste, puis, si le nombre maximum n&#39;est pas atteint, ils seront issus de la population de la deuxième transition entrante, etc.
+  Les enregistrements conservés seront issus d&#39;abord de la population de première transition entrante de la liste, puis, si le nombre maximum n&#39;est pas atteint, ils seront issus de la population de la deuxième transition entrante, etc.
 
-   ![](assets/join_limit_nb_priority.png)
+  ![](assets/join_limit_nb_priority.png)
 
 ### Extraction des données communes (Intersection) {#extracting-joint-data--intersection-}
 
@@ -178,9 +178,9 @@ Pour la configurer, vous devez d&#39;abord sélectionner des critères :
 
    Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
 
-   ![](assets/do-not-localize/v7.jpeg)[  Documentation Campaign v7](../../installation/using/about-fda.md)
+   ![](assets/do-not-localize/v7.jpeg)[Documentation Campaign v7](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png)[  Documentation Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=fr)
+   ![](assets/do-not-localize/v8.png)[Documentation Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=fr)
 
 Nous devons ensuite ajouter de nouveaux sous-ensembles :
 
@@ -220,15 +220,15 @@ Une fois les données identifiées et préparées, elles peuvent être utilisée
 
 * Vous pouvez mettre à jour les données de la base suite à la manipulation des données dans les différentes étapes du workflow.
 
-   Pour plus d&#39;informations, consultez la section [Mise à jour de données](update-data.md).
+  Pour plus d&#39;informations, consultez la section [Mise à jour de données](update-data.md).
 
 * Vous pouvez également actualiser le contenu de listes existantes.
 
-   Pour plus d&#39;informations, consultez la section [Mise à jour de liste](list-update.md).
+  Pour plus d&#39;informations, consultez la section [Mise à jour de liste](list-update.md).
 
 * Vous pouvez préparer ou démarrer des diffusions directement dans le workflow.
 
-   Voir à ce propos les sections [Diffusion](delivery.md), [Agir sur une diffusion](delivery-control.md) et [Diffusion au fil de l’eau](continuous-delivery.md).
+  Voir à ce propos les sections [Diffusion](delivery.md), [Agir sur une diffusion](delivery-control.md) et [Diffusion au fil de l’eau](continuous-delivery.md).
 
 ## Data Management {#data-management}
 

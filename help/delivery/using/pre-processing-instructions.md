@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
 
@@ -35,31 +35,31 @@ Les exemples suivants sont parmi les plus couramment utilisés :
 
 * Inclusion du lien de la page miroir :
 
-   ```
-   <%@ include view="MirrorPage" %>  
-   ```
+  ```
+  <%@ include view="MirrorPage" %>  
+  ```
 
 * URL de la page miroir :
 
-   ```
-   View as a <a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page.
-   ```
+  ```
+  View as a <a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page.
+  ```
 
 * URL de désinscription par défaut :
 
-   ```
-   <%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>
-   ```
+  ```
+  <%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>
+  ```
 
 * Autres exemples :
 
-   ```
-   <%@ include file='http://www.google.com' %>
-   <%@ include file='file:///X:/france/service/test.html' %>
-   <%@ include option='NmsServer_URL' %>
-   ```
+  ```
+  <%@ include file='http://www.google.com' %>
+  <%@ include file='file:///X:/france/service/test.html' %>
+  <%@ include option='NmsServer_URL' %>
+  ```
 
-   Utilisez le bouton de personnalisation de l’assistant de diffusion pour obtenir la syntaxe correcte.
+  Utilisez le bouton de personnalisation de l’assistant de diffusion pour obtenir la syntaxe correcte.
 
 ## [!DNL value] {#value}
 
@@ -88,17 +88,17 @@ Pour la personnalisation de l’email, l’objet diffusion est accessible de deu
 
 * Utilisation de JavaScript :
 
-   ```
-   <%= delivery.myField %>`.
-   ```
+  ```
+  <%= delivery.myField %>`.
+  ```
 
-   Dans la diffusion d’objets JavaScript, les champs personnalisés ne sont pas pris en charge. Ils fonctionnent dans la prévisualisation, mais pas dans le MTA parce que celui-ci ne peut accéder qu&#39;au schéma de diffusion d’usine.
+  Dans la diffusion d’objets JavaScript, les champs personnalisés ne sont pas pris en charge. Ils fonctionnent dans la prévisualisation, mais pas dans le MTA parce que celui-ci ne peut accéder qu&#39;au schéma de diffusion d’usine.
 
 * Utilisation d’un pré-traitement :
 
-   ```
-   <%@ value object="delivery"
-   ```
+  ```
+  <%@ value object="delivery"
+  ```
 
 
 **Attention**

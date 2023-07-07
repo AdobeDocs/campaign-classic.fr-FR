@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2643'
 ht-degree: 100%
 
@@ -64,15 +64,15 @@ Un groupement contient lui-même une ligne d&#39;en-tête, de détail et de pied
 
 * **Ligne d&#39;en-tête** : elle permet de donner un titre aux colonnes du tableau.
 
-   ![](assets/s_advuser_ergo_listgroup_003a.png)
+  ![](assets/s_advuser_ergo_listgroup_003a.png)
 
 * **Ligne de détail**: elle contient les valeurs des statistiques.
 
-   ![](assets/s_advuser_ergo_listgroup_004.png)
+  ![](assets/s_advuser_ergo_listgroup_004.png)
 
 * **Ligne de pied** : permet d&#39;afficher les totaux des statistiques.
 
-   ![](assets/s_advuser_ergo_listgroup_003.png)
+  ![](assets/s_advuser_ergo_listgroup_003.png)
 
 Vous pouvez ajouter des colonnes et des lignes selon vos besoins.
 
@@ -104,19 +104,19 @@ Utilisez l&#39;entrée de menu **[!UICONTROL Expression]** pour sélectionner le
 
 * Si vous souhaitez insérer les valeurs à analyser directement dans le tableau, sélectionnez-les parmi les champs disponibles.
 
-   La liste des champs disponibles correspond au contenu de la requête précédant le tableau dans le diagramme de construction du rapport.
+  La liste des champs disponibles correspond au contenu de la requête précédant le tableau dans le diagramme de construction du rapport.
 
-   ![](assets/s_advuser_ergo_listgroup_011.png)
+  ![](assets/s_advuser_ergo_listgroup_011.png)
 
 * Saisir un libellé dans une cellule, par exemple dans une cellule d&#39;en-tête.
 
-   Pour cela, procédez comme pour insérer un champ de la base mais ne sélectionnez aucune expression. Saisissez le libellé dans le champ **[!UICONTROL Libellé]** : il sera affiché tel quel.
+  Pour cela, procédez comme pour insérer un champ de la base mais ne sélectionnez aucune expression. Saisissez le libellé dans le champ **[!UICONTROL Libellé]** : il sera affiché tel quel.
 
 * Calculer un agrégat (une moyenne, une somme, etc.) et l&#39;afficher dans une cellule.
 
-   Pour cela, utilisez l&#39;entrée de menu **[!UICONTROL Agrégats]** et sélectionnez l&#39;opération voulue.
+  Pour cela, utilisez l&#39;entrée de menu **[!UICONTROL Agrégats]** et sélectionnez l&#39;opération voulue.
 
-   ![](assets/s_advuser_ergo_listgroup_008.png)
+  ![](assets/s_advuser_ergo_listgroup_008.png)
 
 ### Définition du format des cellules {#defining-cell-format}
 
@@ -248,7 +248,6 @@ Double-cliquez sur la première requête pour l&#39;éditer, puis respectez les 
    * Clé étrangère du lien &#39;Opération&#39; (champ&#39;id&#39;) : **@operationId**
    * Taux d&#39;erreur : **@errorRatio**
 
-
 1. Cliquez deux fois sur le bouton **[!UICONTROL Suivant]**, jusqu&#39;à l&#39;étape **[!UICONTROL Filtrage des données]**.
 
    Ajoutez une condition de filtrage afin de ne collecter que les diffusions rattachées à une opération.
@@ -371,7 +370,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 
    * calculer la somme des clés primaires, afin de compter le nombre de logs de diffusion :
 
-      ![](assets/reporting_quick_start_query-2_count.png)
+     ![](assets/reporting_quick_start_query-2_count.png)
 
    * collecter les domaines des emails des destinataires et regrouper les informations sur ce champ : pour cela, sélectionnez l&#39;option **[!UICONTROL Grouper]** sur la colonne du nom de domaine.
 
@@ -382,8 +381,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
    * count(clé primaire) : **@count**
    * Domaine de l&#39;email (Destinataire) : **@domain**
 
-      ![](assets/reporting_quick_start_query-2_alias.png)
-
+     ![](assets/reporting_quick_start_query-2_alias.png)
 
 1. Cliquez deux fois sur le bouton **[!UICONTROL Suivant]**, jusqu&#39;à l&#39;étape **[!UICONTROL Filtrage des données]**.
 
@@ -412,9 +410,9 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
    * Ajoutez deux colonnes supplémentaires à droite.
    * Dans la 1ère cellule de la ligne de détail, ajoutez l&#39;expression **[!UICONTROL rowNum()-1]** afin de compter le nombre de lignes. Puis modifiez le format de cellule : dans l&#39;onglet **[!UICONTROL Plus]**, sélectionnez **[!UICONTROL Pastille de couleur]** et cliquez sur **[!UICONTROL Ok]**.
 
-      ![](assets/s_advuser_report_listgroup_018.png)
+     ![](assets/s_advuser_report_listgroup_018.png)
 
-      Ce paramétrage va vous permettre d&#39;utiliser le tableau comme légende pour le graphique.
+     Ce paramétrage va vous permettre d&#39;utiliser le tableau comme légende pour le graphique.
 
    * Dans la 2e cellule de la ligne de détail, ajoutez l&#39;expression **[!UICONTROL Domaine de l&#39;email(Destinataire)]**.
    * Dans la 3e cellule de la ligne de détail, ajoutez l&#39;expression **[!UICONTROL count(clé primaire)]**.

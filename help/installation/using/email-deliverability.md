@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3090'
 ht-degree: 100%
 
@@ -243,41 +243,41 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
 * **[!UICONTROL Masque des MX]** : domaine auquel s’applique la règle. Chaque règle fixe un masque d&#39;adresse du MX. Tout MX dont le nom correspond à ce masque est éligible. Le masque peut contenir « &#42; » et « ? ».
 
-   Par exemple, les adresses :
+  Par exemple, les adresses :
 
    * a.mx.yahoo.com
    * b.mx.yahoo.com
    * c.mx.yahoo.com
 
-   sont compatibles avec les masques :
+  sont compatibles avec les masques :
 
    * &#42;.yahoo.com
    * ?.mx.yahoo.com
 
-   Par exemple, pour l&#39;adresse email foobar@gmail.com, le domaine est gmail.com et l&#39;enregistrement MX est :
+  Par exemple, pour l&#39;adresse email foobar@gmail.com, le domaine est gmail.com et l&#39;enregistrement MX est :
 
-   ```
-   gmail.com mail exchanger = 20 alt2.gmail-smtp-in.l.google.com.
-   gmail.com mail exchanger = 10 alt1.gmail-smtp-in.l.google.com.
-   gmail.com mail exchanger = 40 alt4.gmail-smtp-in.l.google.com.
-   gmail.com mail exchanger = 5  gmail-smtp-in.l.google.com.
-   gmail.com mail exchanger = 30 alt3.gmail-smtp-in.l.google.com.
-   ```
+  ```
+  gmail.com mail exchanger = 20 alt2.gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 10 alt1.gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 40 alt4.gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 5  gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 30 alt3.gmail-smtp-in.l.google.com.
+  ```
 
-   Dans ce cas, la règle MX `*.google.com` sera utilisée. Comme vous pouvez le constater, le masque de règle MX ne correspond pas nécessairement au domaine de l’email. Les règles MX appliquées aux adresses email gmail.com seront celles qui comportent le masque `*.google.com`.
+  Dans ce cas, la règle MX `*.google.com` sera utilisée. Comme vous pouvez le constater, le masque de règle MX ne correspond pas nécessairement au domaine de l’email. Les règles MX appliquées aux adresses email gmail.com seront celles qui comportent le masque `*.google.com`.
 
 * **[!UICONTROL Plage des identifiants]** : cette option permet d&#39;indiquer les plages d&#39;identifiants (publicId) pour lesquelles la règle s&#39;applique. Vous pouvez indiquer :
 
    * Un nombre : la règle ne s&#39;appliquera qu&#39;à ce publicId,
    * Une plage de nombres (**nombre1-nombre2**) la règle s&#39;appliquera à tous les publicId compris entre ces deux nombres.
 
-   >[!NOTE]
-   >
-   >Lorsque ce champ est vide, la règle s&#39;applique à tous les identifiants.
+  >[!NOTE]
+  >
+  >Lorsque ce champ est vide, la règle s&#39;applique à tous les identifiants.
 
-   Une ID Publique est l&#39;identifiant interne d&#39;une adresse IP publique utilisée par un ou plusieurs MTA. Ces ID sont définies dans les serveurs MTA dans le fichier **config-instance.xml**.
+  Une ID Publique est l&#39;identifiant interne d&#39;une adresse IP publique utilisée par un ou plusieurs MTA. Ces ID sont définies dans les serveurs MTA dans le fichier **config-instance.xml**.
 
-   ![](assets/s_ncs_install_mta_ips.png)
+  ![](assets/s_ncs_install_mta_ips.png)
 
 * **[!UICONTROL Partagé]** : définit le paramétrage des propriétés pour la règle MX. Si Oui, les paramètres sont tous partagés sur toutes les IP disponibles de l’instance. Si Non, les règles MX sont définies pour chaque IP. Le nombre maximum de messages est multiplié par le nombre d’IP disponibles.
 * **[!UICONTROL Nombre maximum de connexions]** : nombre maximum de connexions simultanées au domaine de l’expéditeur.
@@ -285,9 +285,9 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 * **[!UICONTROL Messages par heure]** : nombre maximum de messages pouvant être envoyés en une heure au domaine de l’expéditeur.
 * **[!UICONTROL Timeout de connexion]** : délai maximum pour tenter de se connecter à un domaine.
 
-   >[!NOTE]
-   >
-   >Le système d&#39;exploitation Windows peut émettre un **timeout** avant cette limite. Cette limite dépend de la version de Windows.
+  >[!NOTE]
+  >
+  >Le système d&#39;exploitation Windows peut émettre un **timeout** avant cette limite. Cette limite dépend de la version de Windows.
 
 * **[!UICONTROL Timeout Data]** : durée maximale d&#39;attente d&#39;une réponse du serveur après l&#39;envoi du contenu du message (section DATA du protocole SMTP).
 * **[!UICONTROL Timeout]** : durée maximale d&#39;attente de réponse pour les autres échanges avec le serveur SMTP.
@@ -295,9 +295,9 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
    * **[!UICONTROL Configuration par défaut]** : c&#39;est la configuration générale indiquée dans le fichier de configuration serverConf.xml qui est appliquée.
 
-      >[!IMPORTANT]
-      >
-      >Il n&#39;est pas recommandé de modifier le paramétrage par défaut.
+     >[!IMPORTANT]
+     >
+     >Il n&#39;est pas recommandé de modifier le paramétrage par défaut.
 
    * **[!UICONTROL Désactivé]** : les messages sont systématiquement envoyés sans chiffrement.
    * **[!UICONTROL Opportuniste]** : la diffusion des messages est chiffrée si le serveur de réception (SMTP) est capable de gérer le protocole TLS.
@@ -324,7 +324,7 @@ Le paramètre **Structure MIME** (Multipurpose Internet Mail Extensions) permet 
 
 * **multipart** : envoi du message au format texte et HTML. Si le format HTML n&#39;est pas accepté, le message pourra tout de même s&#39;afficher au format texte.
 
-   Par défaut, la structure multipart est de type **multipart/alternative**, mais devient automatiquement **multipart/related** lorsque qu&#39;on ajoute une image au message. Certains fournisseurs exigeant le format **multipart/related** par défaut, l&#39;option **[!UICONTROL Forcer multipart/related]** permet d&#39;imposer ce format même si aucune image n&#39;est jointe.
+  Par défaut, la structure multipart est de type **multipart/alternative**, mais devient automatiquement **multipart/related** lorsque qu&#39;on ajoute une image au message. Certains fournisseurs exigeant le format **multipart/related** par défaut, l&#39;option **[!UICONTROL Forcer multipart/related]** permet d&#39;imposer ce format même si aucune image n&#39;est jointe.
 
 * **html** : envoi du message au format HTML uniquement. Si le format HTML n&#39;est pas accepté, le message ne s&#39;affichera pas.
 * **text** : envoi du message au format texte uniquement. L&#39;avantage des messages au format texte est leur taille très réduite.
@@ -406,11 +406,11 @@ Si, par exemple, la première adresse est inutilisable vers un MX donné, les me
 
 * **includeDomains** : vous permet de réserver cette adresse IP aux e-mails appartenant à un domaine particulier. Il s&#39;agit d&#39;une liste de masques pouvant contenir un ou plusieurs caractères génériques « &#42; ». Si l&#39;attribut n&#39;est pas renseigné, tous les domaines peuvent utiliser cette adresse IP.
 
-   Exemple : **includeDomains=&quot;wanadoo.com,orange.com,yahoo.&#42;&quot;**
+  Exemple : **includeDomains=&quot;wanadoo.com,orange.com,yahoo.&#42;&quot;**
 
 * **excludeDomains** : exclut une liste de domaines de cette adresse IP. Ce filtre est appliqué après le filtre **includeDomains**.
 
-   ![](assets/s_ncs_install_mta_ips.png)
+  ![](assets/s_ncs_install_mta_ips.png)
 
 ## Optimisation de l&#39;envoi d&#39;emails {#email-sending-optimization}
 

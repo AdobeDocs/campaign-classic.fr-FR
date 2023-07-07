@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 100%
 
@@ -42,35 +42,35 @@ Dans cet exemple, l&#39;activité **Commande d&#39;opération** comprend :
 
 * des champs qui seront renseignés par l&#39;entité locale lors de la commande,
 
-   ![](assets/mkg_dist_web_app2.png)
+  ![](assets/mkg_dist_web_app2.png)
 
 * des liens qui permettront à l&#39;entité locale d&#39;évaluer l&#39;opération (par exemple la cible, le budget, le contenu, etc.),
 
-   ![](assets/mkg_dist_web_app3.png)
+  ![](assets/mkg_dist_web_app3.png)
 
 * des scripts qui permettent de calculer et d&#39;afficher le résultat de ces évaluations.
 
-   ![](assets/mkg_dist_web_app4.png)
+  ![](assets/mkg_dist_web_app4.png)
 
 Dans cet exemple, les APIs suivantes sont utilisées :
 
 * Pour l&#39;évaluation du ciblage,
 
-   ```
-   var res = nms.localOrder.EvaluateTarget(ctx.localOrder);
-   ```
+  ```
+  var res = nms.localOrder.EvaluateTarget(ctx.localOrder);
+  ```
 
 * Pour l&#39;évaluation du budget,
 
-   ```
-   var res = nms.localOrder.EvaluateDeliveryBudget(ctx.@deliveryId, NL.XTK.parseNumber(ctx.@compt));
-   ```
+  ```
+  var res = nms.localOrder.EvaluateDeliveryBudget(ctx.@deliveryId, NL.XTK.parseNumber(ctx.@compt));
+  ```
 
 * Pour l&#39;évaluation du contenu,
 
-   ```
-   var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
-   ```
+  ```
+  var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
+  ```
 
 ## Création dʼune opération collaborative (par validation de la cible) {#creating-a-collaborative-campaign--by-target-approval-}
 
@@ -219,7 +219,7 @@ Les étapes sont les suivantes :
    * prévisualise le contenu de la diffusion,
    * valide sa participation.
 
-      ![](assets/mkg_dist_use_case_form_8.png)
+     ![](assets/mkg_dist_use_case_form_8.png)
 
 1. L&#39;opérateur en charge de la validation des commandes approuve la participation.
 

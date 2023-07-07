@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 100%
 
@@ -28,9 +28,9 @@ Les types de champs disponibles sont les suivants :
 * Image enregistrée dans la bibliothèque de ressources ou sur un serveur accessible par les utilisateurs. Voir [Insérer des images](#inserting-images).
 * Script exécuté côté client et/ou côté serveur. Il doit être rédigé en Javascript et compatible avec la plupart des navigateurs afin d&#39;assurer une bonne exécution côté client.
 
-   >[!NOTE]
-   >
-   >Côté serveur, le script peut utiliser les fonctions définies dans la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr).
+  >[!NOTE]
+  >
+  >Côté serveur, le script peut utiliser les fonctions définies dans la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr).
 
 ## Insérer du contenu HTML {#inserting-html-content}
 
@@ -63,7 +63,7 @@ Pour ajouter un lien hypertexte, accédez au menu **[!UICONTROL Éléments stati
 * Le champ **[!UICONTROL Fenêtre]** permet de sélectionner le mode d&#39;affichage du lien, lorsqu&#39;il s&#39;agit d&#39;un site. Vous pouvez choisir d&#39;ouvrir le lien dans une nouvelle fenêtre, dans la fenêtre courante ou dans une autre fenêtre.
 * Vous pouvez ajouter une bulle d&#39;aide, comme dans l&#39;exemple ci-dessous :
 
-   ![](assets/s_ncs_admin_survey_send_an_email.png)
+  ![](assets/s_ncs_admin_survey_send_an_email.png)
 
 * Vous pouvez choisir d&#39;afficher le lien sous forme de bouton ou d&#39;image. Pour cela, sélectionnez l&#39;affichage dans le champ **[!UICONTROL Type]**.
 
@@ -77,39 +77,39 @@ Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;uti
 
 * Actualiser la page
 
-   Pour cela, sélectionnez l&#39;option **[!UICONTROL Actualiser la page]** dans la liste déroulante du champ **[!UICONTROL Action]**.
+  Pour cela, sélectionnez l&#39;option **[!UICONTROL Actualiser la page]** dans la liste déroulante du champ **[!UICONTROL Action]**.
 
-   ![](assets/s_ncs_admin_survey_link_refresh.png)
+  ![](assets/s_ncs_admin_survey_link_refresh.png)
 
 * Afficher la page suivante / précédente
 
-   Pour cela, sélectionnez l&#39;option **[!UICONTROL Page suivante]** ou **[!UICONTROL Page précédente]** dans la liste déroulante du champ **[!UICONTROL Action]**.
+  Pour cela, sélectionnez l&#39;option **[!UICONTROL Page suivante]** ou **[!UICONTROL Page précédente]** dans la liste déroulante du champ **[!UICONTROL Action]**.
 
-   ![](assets/s_ncs_admin_survey_link_next.png)
+  ![](assets/s_ncs_admin_survey_link_next.png)
 
-   Vous pouvez masquer les boutons **[!UICONTROL Suivant]** et/ou **[!UICONTROL Précédent]** si un lien est destiné à les remplacer. Voir à ce sujet cette [page](defining-web-forms-page-sequencing.md).
+  Vous pouvez masquer les boutons **[!UICONTROL Suivant]** et/ou **[!UICONTROL Précédent]** si un lien est destiné à les remplacer. Voir à ce sujet cette [page](defining-web-forms-page-sequencing.md).
 
-   Ainsi, le lien paramétré remplacera le bouton **[!UICONTROL Suivant]** utilisé par défaut.
+  Ainsi, le lien paramétré remplacera le bouton **[!UICONTROL Suivant]** utilisé par défaut.
 
-   ![](assets/s_ncs_admin_survey_link_next_ex.png)
+  ![](assets/s_ncs_admin_survey_link_next_ex.png)
 
 * Afficher une autre page
 
-   L&#39;option **[!UICONTROL Activer une transition]** permet d&#39;afficher une page spécifique, associée à la transition sortante sélectionnée dans le champ **[!UICONTROL Transition]**.
+  L&#39;option **[!UICONTROL Activer une transition]** permet d&#39;afficher une page spécifique, associée à la transition sortante sélectionnée dans le champ **[!UICONTROL Transition]**.
 
-   ![](assets/s_ncs_admin_survey_link_viral.png)
+  ![](assets/s_ncs_admin_survey_link_viral.png)
 
-   Par défaut, une page n&#39;a qu&#39;une transition sortante. Pour créer de nouvelles transitions, sélectionnez la page puis cliquez sur le bouton **[!UICONTROL Ajouter]** de la section **[!UICONTROL Transitions sortantes]**, comme dans l&#39;exemple ci-dessous :
+  Par défaut, une page n&#39;a qu&#39;une transition sortante. Pour créer de nouvelles transitions, sélectionnez la page puis cliquez sur le bouton **[!UICONTROL Ajouter]** de la section **[!UICONTROL Transitions sortantes]**, comme dans l&#39;exemple ci-dessous :
 
-   ![](assets/s_ncs_admin_survey_add_transition.png)
+  ![](assets/s_ncs_admin_survey_add_transition.png)
 
-   Dans le diagramme, cet ajout sera représenté comme dans l&#39;exemple ci-dessous :
+  Dans le diagramme, cet ajout sera représenté comme dans l&#39;exemple ci-dessous :
 
-   ![](assets/s_ncs_admin_survey_add_transition_graph.png)
+  ![](assets/s_ncs_admin_survey_add_transition_graph.png)
 
-   >[!NOTE]
-   >
-   >Pour plus d&#39;informations sur l&#39;enchaînement des pages dans un formulaire web, voir [Définir l&#39;enchaînement des pages des formulaires web](defining-web-forms-page-sequencing.md).
+  >[!NOTE]
+  >
+  >Pour plus d&#39;informations sur l&#39;enchaînement des pages dans un formulaire web, voir [Définir l&#39;enchaînement des pages des formulaires web](defining-web-forms-page-sequencing.md).
 
 ### Personnaliser le contenu HTML {#personalizing-html-content}
 

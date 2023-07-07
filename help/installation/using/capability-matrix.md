@@ -5,7 +5,7 @@ description: Découvrez les principales différences entre les déploiements hé
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -46,6 +46,7 @@ Adobe Campaign propose l&#39;option **Federated Data Access** (FDA) afin d&#3
 >[!CAUTION]
 >
 >Les systèmes de base de données externes compatibles dépendent de votre modèle d’hébergement. En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/compatibility-matrix.md).
+>
 
 **Voir aussi**
 

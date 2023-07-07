@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: 21698e85-7b58-4bde-bbd2-0ee06ac90307
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Une activité de type **Alerte** envoie un message à un groupe d&#39;opérateurs. Son fonctionnement est le même qu&#39;une activité de type validation, mais ici, aucune réponse n&#39;est attendue.
+Une activité de type **Alerte** envoie un message à un groupe d’opératrices et d’opérateurs. Son fonctionnement est le même qu’une activité de type validation, mais ici, aucune réponse n’est attendue.
 
 ![](assets/edit_alerte.png)
 

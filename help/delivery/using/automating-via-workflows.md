@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Workflows
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ L&#39;activité **Gestion de contenu** est accessible à partir de la barre d&#3
 Les propriétés de l&#39;activité se divisent en quatre étapes :
 
 * **[!UICONTROL Contenu]** : permet de renseigner un contenu déjà existant ou de le créer,
-* **[!UICONTROL Mettre à jour du contenu]** : permet de modifier le sujet du contenu ou de mettre à jour le contenu à partir d&#39;un flux de données XML,
+* **[!UICONTROL Mettre à jour du contenu]** : permet de modifier l’objet du contenu ou de mettre à jour le contenu à partir d’un flux de données XML,
 * **[!UICONTROL Action à effectuer]** : permet d&#39;enregistrer ou de générer le contenu,
 * **[!UICONTROL Transition]** : permet de générer ou non une transition sortante et, si elle existe, de la nommer.
 
@@ -36,41 +36,41 @@ Les propriétés de l&#39;activité se divisent en quatre étapes :
 
 * **Spécifié par la transition**
 
-   Le contenu à utiliser a été créé précédemment, les traitements porteront sur l&#39;instance de contenu propagée par l&#39;événement entrant. L&#39;identifiant du contenu est accessible à partir de la variable &quot;contentId&quot; de l&#39;événement.
+  Le contenu à utiliser a été créé précédemment, les traitements porteront sur l&#39;instance de contenu propagée par l&#39;événement entrant. L&#39;identifiant du contenu est accessible à partir de la variable &quot;contentId&quot; de l&#39;événement.
 
 * **Explicite**
 
-   Permet de choisir un contenu déjà créé.
+  Permet de choisir un contenu déjà créé.
 
 * **Calculé par un script**
 
-   Choisit une instance de contenu à partir d&#39;un template JavaScript, le code à évaluer permet de récupérer l&#39;identifiant du contenu.
+  Choisit une instance de contenu à partir d&#39;un template JavaScript, le code à évaluer permet de récupérer l&#39;identifiant du contenu.
 
 * **Nouveau, créé depuis un modèle de publication**
 
-   Crée un nouveau contenu depuis un modèle de publication. L&#39;instance de contenu sera enregistrée dans le dossier &quot;Chaîne&quot; renseigné.
+  Crée un nouveau contenu depuis un modèle de publication. L&#39;instance de contenu sera enregistrée dans le dossier &quot;Chaîne&quot; renseigné.
 
 ### Mettre à jour le contenu {#update-the-content}
 
 * **Objet**
 
-   Permet de modifier le sujet de l&#39;action de diffusion lors d&#39;une publication.
+  Permet de modifier l’objet de l’action de diffusion lors d’une publication.
 
 * **Accès aux données provenant d&#39;un flux XML**
 
-   Le contenu est mis à jour à partir d&#39;un flux XML provenant d&#39;une source externe. Une URL doit être renseignée pour le téléchargement des données.
+  Le contenu est mis à jour à partir d&#39;un flux XML provenant d&#39;une source externe. Une URL doit être renseignée pour le téléchargement des données.
 
-   Une feuille de style XSL peut être utilisée pour transformer les données XML entrantes.
+  Une feuille de style XSL peut être utilisée pour transformer les données XML entrantes.
 
 ### Action à effectuer {#action-to-execute}
 
 * **Enregistrer**
 
-   Sauve le contenu créé ou modifié, l&#39;identifiant du contenu sauvé est propagé dans la variable &quot;contentId&quot; de l&#39;événement sortant.
+  Sauve le contenu créé ou modifié, l&#39;identifiant du contenu sauvé est propagé dans la variable &quot;contentId&quot; de l&#39;événement sortant.
 
 * **Générer**
 
-   Génère les fichiers de sortie pour chacun des modèles de transformation dont le type de publication est &quot;Fichier&quot;. La transition sortante est activée pour chacun des fichiers générés, avec pour paramètres l&#39;identifiant du contenu sauvegardé dans la variable &quot;contentId&quot; et le nom du fichier dans la variable &quot;filename&quot;.
+  Génère les fichiers de sortie pour chacun des modèles de transformation dont le type de publication est &quot;Fichier&quot;. La transition sortante est activée pour chacun des fichiers générés, avec pour paramètres l&#39;identifiant du contenu sauvegardé dans la variable &quot;contentId&quot; et le nom du fichier dans la variable &quot;filename&quot;.
 
 ### Transition {#transition}
 
@@ -90,7 +90,7 @@ Le contenu est paramétré à partir de l&#39;activité Gestion de contenu, comm
 
 Une nouvelle instance de contenu est créée à partir du modèle de publication et du dossier chaîne de contenu.
 
-Dans notre exemple, nous avons surchargé le sujet de la diffusion. Il sera pris en compte à la place de celui renseigné dans le modèle de diffusion de l&#39;activité **[!UICONTROL Diffusion]**.
+Dans notre exemple, nous avons surchargé l’objet de la diffusion. Il sera pris en compte à la place de celui renseigné dans le modèle de diffusion de l’activité **[!UICONTROL Diffusion]**.
 
 Le contenu est complété automatiquement par un flux XML provenant de l&#39;URL renseignée :
 

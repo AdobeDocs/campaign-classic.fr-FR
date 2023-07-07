@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Data Management
 exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
@@ -42,29 +42,29 @@ Chaque workflow comprend :
 
 * **[!UICONTROL Activities]**
 
-   Une activité décrit un modèle de tâche. Il existe différents types d&#39;activités, représentés sur le diagramme par des icônes. Chaque type possède des propriétés communes et des propriétés spécifiques. Par exemple, si toutes les activités ont un nom et un libellé, seule l&#39;activité **[!UICONTROL Validation]** a une assignation.
+  Une activité décrit un modèle de tâche. Il existe différents types d&#39;activités, représentés sur le diagramme par des icônes. Chaque type possède des propriétés communes et des propriétés spécifiques. Par exemple, si toutes les activités ont un nom et un libellé, seule l&#39;activité **[!UICONTROL Validation]** a une assignation.
 
-   Dans un diagramme de workflow, une même activité peut engendrer plusieurs tâches, notamment en cas de boucle ou d&#39;actions récurrentes (périodiques).
+  Dans un diagramme de workflow, une même activité peut engendrer plusieurs tâches, notamment en cas de boucle ou d&#39;actions récurrentes (périodiques).
 
-   Toutes les activités de workflow sont répertoriées dans [cette section](about-activities.md), notamment les cas pratiques et les exemples.
+  Toutes les activités de workflow sont répertoriées dans [cette section](about-activities.md), notamment les cas pratiques et les exemples.
 
 * **[!UICONTROL Transitions]**
 
-   Les transitions permettent de relier entres elles les activités et de définir leur ordre d&#39;enchaînement. Une transition relie une activité source à une activité destination. Il existe différents types de transitions, qui dépendent de l&#39;activité source. Certaines transitions possèdent des paramètres supplémentaires tels qu&#39;une durée, une condition ou un filtre.
+  Les transitions permettent de relier entres elles les activités et de définir leur ordre d&#39;enchaînement. Une transition relie une activité source à une activité destination. Il existe différents types de transitions, qui dépendent de l&#39;activité source. Certaines transitions possèdent des paramètres supplémentaires tels qu&#39;une durée, une condition ou un filtre.
 
-   Une transition est flottante si elle n&#39;est pas rattachée à une activité destination. Les transitions flottantes apparaissent en orange et la pointe de leur flèche est remplacée par un losange.
+  Une transition est flottante si elle n&#39;est pas rattachée à une activité destination. Les transitions flottantes apparaissent en orange et la pointe de leur flèche est remplacée par un losange.
 
-   >[!NOTE]
-   >
-   >Un workflow contenant des transitions flottantes peut être exécuté : l&#39;exécution générera un avertissement et sera suspendue lors de l&#39;activation d&#39;une telle transition, mais aucune erreur ne sera générée. Il est ainsi possible de démarrer un workflow sans en avoir terminé la conception et de le compléter au fur et à mesure.
+  >[!NOTE]
+  >
+  >Un workflow contenant des transitions flottantes peut être exécuté : l&#39;exécution générera un avertissement et sera suspendue lors de l&#39;activation d&#39;une telle transition, mais aucune erreur ne sera générée. Il est ainsi possible de démarrer un workflow sans en avoir terminé la conception et de le compléter au fur et à mesure.
 
-   Pour plus d&#39;informations sur la création d&#39;un workflow, consultez [cette section](building-a-workflow.md).
+  Pour plus d&#39;informations sur la création d&#39;un workflow, consultez [cette section](building-a-workflow.md).
 
 * **[!UICONTROL Tables de travail]**
 
-   La table de travail contient l&#39;ensemble des informations portées par la transition. Ainsi, chaque workflow utilise plusieurs tables de travail. Les données véhiculées dans ces tables peuvent être accédées et utilisées tout au long du cycle de vie du workflow, sous réserve qu&#39;elles ne soient pas purgées. En effet, les tables inutiles sont purgées à chaque passivation du workflow, et potentiellement en cours d&#39;exécution pour les plus volumineuses afin de ne pas surcharger le serveur.
+  La table de travail contient l&#39;ensemble des informations portées par la transition. Ainsi, chaque workflow utilise plusieurs tables de travail. Les données véhiculées dans ces tables peuvent être accédées et utilisées tout au long du cycle de vie du workflow, sous réserve qu&#39;elles ne soient pas purgées. En effet, les tables inutiles sont purgées à chaque passivation du workflow, et potentiellement en cours d&#39;exécution pour les plus volumineuses afin de ne pas surcharger le serveur.
 
-   Pour plus d&#39;informations sur les données de workflow et les tables, consultez [cette section](how-to-use-workflow-data.md).
+  Pour plus d&#39;informations sur les données de workflow et les tables, consultez [cette section](how-to-use-workflow-data.md).
 
 ## Principes fondamentaux et bonnes pratiques{#principles-workflows}
 

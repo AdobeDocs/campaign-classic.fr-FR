@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Targeting Activity, Data Management
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Indiquez comment identifier les enregistrements dans la base de données :
 
 * Si les données en entrée correspondent à une dimension de ciblage existante, sélectionnez l&#39;option **[!UICONTROL En utilisant directement la dimension de ciblage]** et sélectionnez-la dans le champ **[!UICONTROL Dimension mise à jour]**.
 
-   Vous pouvez afficher les champs de la dimension sélectionnée à l&#39;aide du bouton en forme de loupe **[!UICONTROL Editer ce lien]**.
+  Vous pouvez afficher les champs de la dimension sélectionnée à l&#39;aide du bouton en forme de loupe **[!UICONTROL Editer ce lien]**.
 
 * Dans le cas contraire, indiquez un ou plusieurs liens qui permettront d&#39;identifier les données dans la base ou utilisez directement des clés de réconciliation.
 

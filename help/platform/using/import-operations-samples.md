@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 100%
 
@@ -76,31 +76,31 @@ Pour importer dans la base Adobe Campaign de nouveaux profils de destinataires 
    * Positionnez-vous au niveau de la table **Destinataires (nms:recipient)**.
    * Sélectionnez l&#39;opération **[!UICONTROL Insertion]** et laissez les autres champs par défaut.
 
-      ![](assets/s_ncs_user_import_example04_01.png)
+     ![](assets/s_ncs_user_import_example04_01.png)
 
 1. Import des destinataires
 
    * Au besoin, indiquez un dossier particulier où importer vos enregistrements.
 
-      ![](assets/s_ncs_user_import_example05_01.png)
+     ![](assets/s_ncs_user_import_example05_01.png)
 
 1. Lancement de l&#39;import
 
    * Cliquez sur **[!UICONTROL Démarrer]**.
 
-      Dans la section centrale de l&#39;éditeur, vous pouvez vérifier que l&#39;opération d&#39;import s&#39;est bien déroulée et visualiser le nombre d&#39;enregistrements traités.
+     Dans la section centrale de l&#39;éditeur, vous pouvez vérifier que l&#39;opération d&#39;import s&#39;est bien déroulée et visualiser le nombre d&#39;enregistrements traités.
 
-      ![](assets/s_ncs_user_import_example06_01.png)
+     ![](assets/s_ncs_user_import_example06_01.png)
 
-      Le mode **[!UICONTROL Tracking]** vous permet de suivre les détails de l&#39;import pour chacun des enregistrements du fichier source. Pour cela, à partir de la page d&#39;accueil, cliquez sur **[!UICONTROL Profils et Cibles]** puis **[!UICONTROL Traitements]**, sélectionnez cet import et consultez les onglets **[!UICONTROL Général]**, **[!UICONTROL Journal]** et **[!UICONTROL Rejets]**.
+     Le mode **[!UICONTROL Tracking]** vous permet de suivre les détails de l&#39;import pour chacun des enregistrements du fichier source. Pour cela, à partir de la page d&#39;accueil, cliquez sur **[!UICONTROL Profils et Cibles]** puis **[!UICONTROL Traitements]**, sélectionnez cet import et consultez les onglets **[!UICONTROL Général]**, **[!UICONTROL Journal]** et **[!UICONTROL Rejets]**.
 
       * Consultation du déroulement de l&#39;import
 
-         ![](assets/s_ncs_user_import_example07_01.png)
+        ![](assets/s_ncs_user_import_example07_01.png)
 
       * Consultation du traitement pour chaque enregistrement
 
-         ![](assets/s_ncs_user_import_example07_02.png)
+        ![](assets/s_ncs_user_import_example07_02.png)
 
 ## Mise à jour et insertion de destinataires {#example--update-and-insert-recipients}
 
@@ -128,19 +128,19 @@ Vous souhaitez mettre à jour des enregistrements déjà existants dans la base 
    * Conservez l&#39;option **[!UICONTROL Gestions des duplicatas]** en mode **[!UICONTROL Mise à jour]**, pour que les enregistrements existants dans la base soient modifiés avec les données du fichier texte.
    * Sélectionnez les champs **[!UICONTROL Date de naissance]**, **[!UICONTROL Nom]** et **[!UICONTROL Société]** et attribuez-leur une clé de réconciliation.
 
-      ![](assets/s_ncs_user_import_example04_02.png)
+     ![](assets/s_ncs_user_import_example04_02.png)
 
 1. Lancement de l&#39;import
 
    * Cliquez sur **[!UICONTROL Démarrer]**.
 
-      Dans la fenêtre de tracking, vous pouvez vérifier que l&#39;opération d&#39;import s&#39;est bien passée et le nombre d&#39;enregistrements qui ont été traités.
+     Dans la fenêtre de tracking, vous pouvez vérifier que l&#39;opération d&#39;import s&#39;est bien passée et le nombre d&#39;enregistrements qui ont été traités.
 
-      ![](assets/s_ncs_user_import_example06_02.png)
+     ![](assets/s_ncs_user_import_example06_02.png)
 
    * Vérifiez dans la table des destinataires que les enregistrements ont bien été modifiés par cette opération.
 
-      ![](assets/s_ncs_user_import_example06_03.png)
+     ![](assets/s_ncs_user_import_example06_03.png)
 
 ## Enrichissement des valeurs par celles d&#39;un fichier externe {#example--enrich-the-values-with-those-of-an-external-file}
 
@@ -150,11 +150,11 @@ Dans cet exemple, vous noterez que certains champs de votre fichier texte ont un
 
 * Contenu du fichier texte à importer
 
-   ![](assets/s_ncs_user_import_example02_03.png)
+  ![](assets/s_ncs_user_import_example02_03.png)
 
 * Etat de la base de données avant import
 
-   ![](assets/s_ncs_user_import_example06_04.png)
+  ![](assets/s_ncs_user_import_example06_04.png)
 
 Les étapes sont les suivantes :
 
@@ -181,7 +181,7 @@ Les étapes sont les suivantes :
    * Recommencez l&#39;opération pour le noeud **[!UICONTROL Société (@company)]**.
    * Attribuez une clé de réconciliation aux champs **[!UICONTROL Date de naissance]**, **[!UICONTROL E-mail]** et **[!UICONTROL Prénom]**.
 
-      ![](assets/s_ncs_user_import_example04_03.png)
+     ![](assets/s_ncs_user_import_example04_03.png)
 
 1. Lancement de l&#39;import
 
@@ -201,11 +201,11 @@ Dans cet exemple, vous noterez que certains champs de votre fichier texte ont un
 
 * Contenu du fichier texte à importer
 
-   ![](assets/s_ncs_user_import_example02_04.png)
+  ![](assets/s_ncs_user_import_example02_04.png)
 
 * Etat de la base de données avant import
 
-   ![](assets/s_ncs_user_import_example06_07.png)
+  ![](assets/s_ncs_user_import_example06_07.png)
 
 1. Choix du modèle
 
@@ -229,13 +229,13 @@ Dans cet exemple, vous noterez que certains champs de votre fichier texte ont un
    * Positionnez-vous sur le noeud **[!UICONTROL N° de compte (@account)]** et sélectionnez l&#39;option **[!UICONTROL Tenir compte des valeurs vides]**.
    * Sélectionnez les champs **[!UICONTROL Date de naissance]**, **[!UICONTROL E-mail]** et **[!UICONTROL Prénom]**, puis attribuez-leur une clé de réconciliation.
 
-      ![](assets/s_ncs_user_import_example04_04.png)
+     ![](assets/s_ncs_user_import_example04_04.png)
 
 1. Lancement de l&#39;import
 
    * Cliquez sur **[!UICONTROL Démarrer]**.
    * Vérifiez dans la table des destinataires que les enregistrements ont bien été modifiés par l&#39;opération.
 
-      ![](assets/s_ncs_user_import_example06_06.png)
+     ![](assets/s_ncs_user_import_example06_06.png)
 
-      Les valeurs du fichier texte qui étaient vides ont écrasées celles de la base. Les valeurs déjà existantes dans la base ont été mises à jour par celle du fichier d&#39;import, conformément à l&#39;option **[!UICONTROL Mise à jour]** sélectionnée pour les duplicatas à l&#39;étape 4.
+     Les valeurs du fichier texte qui étaient vides ont écrasées celles de la base. Les valeurs déjà existantes dans la base ont été mises à jour par celle du fichier d&#39;import, conformément à l&#39;option **[!UICONTROL Mise à jour]** sélectionnée pour les duplicatas à l&#39;étape 4.

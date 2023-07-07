@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Query Editor
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 
@@ -20,15 +20,15 @@ Vous allez effectuer une requête pour retrouver les domaines d&#39;email ciblé
 
 * Quelle table doit-on sélectionner ?
 
-   La table des destinataires (nms:recipient).
+  La table des destinataires (nms:recipient).
 
 * Quels sont les champs à sélectionner en colonne de sortie ?
 
-   Domaine de l&#39;email et clé primaire (avec un comptage).
+  Domaine de l&#39;email et clé primaire (avec un comptage).
 
 * Groupement des données ?
 
-   En fonction du domaine d&#39;email avec un comptage des clés primaires supérieures à 30. Cette opération s&#39;effectue avec l&#39;option **[!UICONTROL Group by + Having]**. **[!UICONTROL Group by + Having]** sert à effectuer un groupement (&quot;group by&quot;) et une sélection de ce qui a été groupé (&quot;having&quot;).
+  En fonction du domaine d&#39;email avec un comptage des clés primaires supérieures à 30. Cette opération s&#39;effectue avec l&#39;option **[!UICONTROL Group by + Having]**. **[!UICONTROL Group by + Having]** sert à effectuer un groupement (&quot;group by&quot;) et une sélection de ce qui a été groupé (&quot;having&quot;).
 
 Pour réaliser cet exemple, les étapes sont les suivantes :
 

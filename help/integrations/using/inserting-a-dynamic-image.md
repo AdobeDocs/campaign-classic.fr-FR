@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 100%
 
@@ -49,11 +49,11 @@ Dans Adobe Campaign, vous pouvez insérer une image dynamique de Target dans un
 
 * Si vous utilisez l&#39;éditeur Digital Content Editor, choisissez une image existante, puis sélectionnez **[!UICONTROL Insérer]** > **[!UICONTROL Image dynamique servie par Adobe Target]** depuis la barre d&#39;outils.
 
-   ![](assets/target_5.png)
+  ![](assets/target_5.png)
 
 * Si vous utilisez l&#39;éditeur standard, placez le curseur à l&#39;endroit où vous souhaitez insérer l&#39;image et sélectionnez **[!UICONTROL Inclure]** > **[!UICONTROL Image dynamique servie par Adobe Target...]** dans le menu déroulant de personnalisation.
 
-   ![](assets/target_12.png)
+  ![](assets/target_12.png)
 
 ### Définition des paramètres de l’image {#defining-image-parameters}
 

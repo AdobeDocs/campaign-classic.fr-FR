@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 100%
 
@@ -110,41 +110,41 @@ Ces critères constituent les cas d&#39;application les plus courants d&#39;une 
 
 * **Filtre sur le canal**
 
-   **[!UICONTROL Sur le même canal uniquement]** : permet d&#39;exclure les propositions d&#39;offre sur le canal spécifié dans l&#39;onglet **[!UICONTROL Général]**.
+  **[!UICONTROL Sur le même canal uniquement]** : permet d&#39;exclure les propositions d&#39;offre sur le canal spécifié dans l&#39;onglet **[!UICONTROL Général]**.
 
-   Par exemple, le canal spécifié pour la règle dans l&#39;onglet **[!UICONTROL Général]** est l&#39;email. Si les offres auxquelles la règle s&#39;applique n&#39;ont été proposées que sur le canal web, le moteur d&#39;interaction pourra présenter les offres dans une diffusion par email. En revanche, dès que les offres auront été présentées par email, le moteur d&#39;interaction choisira un autre canal pour proposer les offres.
+  Par exemple, le canal spécifié pour la règle dans l&#39;onglet **[!UICONTROL Général]** est l&#39;email. Si les offres auxquelles la règle s&#39;applique n&#39;ont été proposées que sur le canal web, le moteur d&#39;interaction pourra présenter les offres dans une diffusion par email. En revanche, dès que les offres auront été présentées par email, le moteur d&#39;interaction choisira un autre canal pour proposer les offres.
 
-   >[!NOTE]
-   >
-   >Il s&#39;agit bien du canal et non de l&#39;emplacement. Si la règle doit exclure une offre sur le canal web, l&#39;offre destinée à être proposée sur un site web à deux emplacements, (une bannière et le corps de texte de la page par exemple), n&#39;apparaîtra pas sur le site si elle a déjà été proposée auparavant.
-   >
-   >Dans le cas d&#39;un workflow impliquant la présentation d&#39;offres, les règles ne sont correctement prises en compte que si elles sont paramétrées sur **[!UICONTROL Tous les canaux]**.
+  >[!NOTE]
+  >
+  >Il s&#39;agit bien du canal et non de l&#39;emplacement. Si la règle doit exclure une offre sur le canal web, l&#39;offre destinée à être proposée sur un site web à deux emplacements, (une bannière et le corps de texte de la page par exemple), n&#39;apparaîtra pas sur le site si elle a déjà été proposée auparavant.
+  >
+  >Dans le cas d&#39;un workflow impliquant la présentation d&#39;offres, les règles ne sont correctement prises en compte que si elles sont paramétrées sur **[!UICONTROL Tous les canaux]**.
 
 * **Filtre sur l&#39;offre**
 
-   Ce filtre permet de limiter à certains ensembles d&#39;offres les propositions d&#39;offres à comptabiliser.
+  Ce filtre permet de limiter à certains ensembles d&#39;offres les propositions d&#39;offres à comptabiliser.
 
-   **[!UICONTROL Toutes les offres]** : valeur par défaut. Aucun filtre sur les offres n&#39;est appliqué.
+  **[!UICONTROL Toutes les offres]** : valeur par défaut. Aucun filtre sur les offres n&#39;est appliqué.
 
-   **[!UICONTROL L&#39;offre en cours de présentation]** : l&#39;offre spécifiée dans l&#39;onglet **[!UICONTROL Général]** est exclue si elle a déjà été proposée.
+  **[!UICONTROL L&#39;offre en cours de présentation]** : l&#39;offre spécifiée dans l&#39;onglet **[!UICONTROL Général]** est exclue si elle a déjà été proposée.
 
-   **[!UICONTROL Les offres de la même catégorie]** : une offre est exclue si une proposition d&#39;offre de la même catégorie a déjà été faite.
+  **[!UICONTROL Les offres de la même catégorie]** : une offre est exclue si une proposition d&#39;offre de la même catégorie a déjà été faite.
 
-   **[!UICONTROL Les offres auxquelles la règle s&#39;applique]** : lorsque plusieurs offres sont définies dans l&#39;onglet **[!UICONTROL Général]**, chaque proposition d&#39;offre de cet ensemble d&#39;offres est prise en compte et aboutit à l&#39;exclusion de toutes si le nombre maximum de proposition est atteint.
+  **[!UICONTROL Les offres auxquelles la règle s&#39;applique]** : lorsque plusieurs offres sont définies dans l&#39;onglet **[!UICONTROL Général]**, chaque proposition d&#39;offre de cet ensemble d&#39;offres est prise en compte et aboutit à l&#39;exclusion de toutes si le nombre maximum de proposition est atteint.
 
-   Par exemple, les offres N°2, 3 et 5 sont définies dans l&#39;onglet **[!UICONTROL Général]**. Le nombre maximum de propositions est fixé à 2. Si l&#39;offre N°2 et 5 sont proposées chacune une fois, le nombre de propositions comptabilisé est de 2. Par conséquent, l&#39;offre N°3 ne sera jamais présentée.
+  Par exemple, les offres N°2, 3 et 5 sont définies dans l&#39;onglet **[!UICONTROL Général]**. Le nombre maximum de propositions est fixé à 2. Si l&#39;offre N°2 et 5 sont proposées chacune une fois, le nombre de propositions comptabilisé est de 2. Par conséquent, l&#39;offre N°3 ne sera jamais présentée.
 
 * **Filtre sur l&#39;état de la proposition**
 
-   Ce filtre permet de choisir directement les états les plus courants des propositions d&#39;offres à prendre en compte dans l&#39;historique des propositions.
+  Ce filtre permet de choisir directement les états les plus courants des propositions d&#39;offres à prendre en compte dans l&#39;historique des propositions.
 
-   **[!UICONTROL Quel que soit l&#39;état des propositions]** : valeur par défaut. Aucun filtre n&#39;est appliqué sur l&#39;état des propositions.
+  **[!UICONTROL Quel que soit l&#39;état des propositions]** : valeur par défaut. Aucun filtre n&#39;est appliqué sur l&#39;état des propositions.
 
-   **[!UICONTROL Propositions acceptées ou refusées]** : permet d&#39;exclure les offres déjà proposées qui ont été acceptées ou refusées.
+  **[!UICONTROL Propositions acceptées ou refusées]** : permet d&#39;exclure les offres déjà proposées qui ont été acceptées ou refusées.
 
-   **[!UICONTROL Propositions acceptées]** : permet d&#39;exclure les offres déjà proposées qui ont été acceptées.
+  **[!UICONTROL Propositions acceptées]** : permet d&#39;exclure les offres déjà proposées qui ont été acceptées.
 
-   **[!UICONTROL Propositions refusées]** : permet d&#39;exclure les offres déjà proposées qui ont été refusées.
+  **[!UICONTROL Propositions refusées]** : permet d&#39;exclure les offres déjà proposées qui ont été refusées.
 
 ### Définir les destinataires {#defining-recipients}
 

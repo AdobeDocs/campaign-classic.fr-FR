@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 100%
 
@@ -34,27 +34,27 @@ La fenêtre correspondante permet de configurer l&#39;identification des utilisa
 
    * Mot de passe crypté (**md5**)
 
-      Mode par défaut.
+     Mode par défaut.
 
    * Mot de passe en clair + SSL (**TLS**)
 
-      Toute la procédure d&#39;authentification (mot de passe compris) est chiffrée. Le port sécurisé 636 ne doit pas être utilisé dans ce mode : Adobe Campaign passe automatiquement en mode sécurisé.
+     Toute la procédure d&#39;authentification (mot de passe compris) est chiffrée. Le port sécurisé 636 ne doit pas être utilisé dans ce mode : Adobe Campaign passe automatiquement en mode sécurisé.
 
-      Lorsque vous utilisez ce mode d&#39;authentification, sous Linux, le certificat est vérifié par la bibliothèque client openLDAP. Nous vous recommandons d&#39;utiliser un certificat SSL valide afin que la procédure d&#39;authentification soit chiffrée. Dans le cas contraire, les informations seront passées en clair.
+     Lorsque vous utilisez ce mode d&#39;authentification, sous Linux, le certificat est vérifié par la bibliothèque client openLDAP. Nous vous recommandons d&#39;utiliser un certificat SSL valide afin que la procédure d&#39;authentification soit chiffrée. Dans le cas contraire, les informations seront passées en clair.
 
-      Le certificat est également vérifié sous Windows.
+     Le certificat est également vérifié sous Windows.
 
    * Windows NT LAN Manager (**NTLM**)
 
-      Authentification propriétaire Windows. Le champ **[!UICONTROL Identifiant unique]** est utilisé pour le nom de domaine seulement.
+     Authentification propriétaire Windows. Le champ **[!UICONTROL Identifiant unique]** est utilisé pour le nom de domaine seulement.
 
    * Distributed Password Authentication (**DPA**)
 
-      Authentification propriétaire Windows. Le champ **[!UICONTROL Identifiant unique]** n&#39;est utilisé que pour le nom de domaine (domaine.com).
+     Authentification propriétaire Windows. Le champ **[!UICONTROL Identifiant unique]** n&#39;est utilisé que pour le nom de domaine (domaine.com).
 
    * Mot de passe en clair (plain text)
 
-      Aucun chiffrement (utiliser en test uniquement).
+     Aucun chiffrement (utiliser en test uniquement).
 
 * Choisissez le mode d&#39;identification des utilisateurs : **[!UICONTROL Composer automatiquement l&#39;identifiant unique de l&#39;utilisateur]** (voir l&#39;étape [Calcul de l&#39;identifiant unique](#distinguished-name-calculation)) ou **[!UICONTROL Rechercher l&#39;identifiant unique de l&#39;utilisateur dans l&#39;annuaire]** (voir l&#39;étape [Recherche des identifiants](#searching-for-identifiers)).
 
@@ -102,17 +102,17 @@ Si vous choisissez de calculer l&#39;identifiant unique (DN), l&#39;étape suiva
 
 * Indiquez l&#39;identifiant unique de l&#39;utilisateur dans l&#39;annuaire (Distinguished Name - DN) dans le champ **[!UICONTROL Identifiant unique (DN)]**.
 
-   **[!UICONTROL (login)]** sera remplacé par l&#39;identifiant de l&#39;opérateur Adobe Campaign.
+  **[!UICONTROL (login)]** sera remplacé par l&#39;identifiant de l&#39;opérateur Adobe Campaign.
 
-   >[!CAUTION]
-   >
-   >Le paramètre **[!UICONTROL dc]** doit être en minuscules.
+  >[!CAUTION]
+  >
+  >Le paramètre **[!UICONTROL dc]** doit être en minuscules.
 
 * Sélectionnez l&#39;option **[!UICONTROL Activer la synchronisation des droits utilisateurs depuis les autorisations ou groupes de l&#39;annuaire]** afin de synchroniser l&#39;association entre les groupes et les utilisateurs dans l&#39;annuaire LDAP et l&#39;association entre les groupes et les utilisateurs dans Adobe Campaign.
 
-   Lorsque vous sélectionnez cette option, les champs **[!UICONTROL DN applicatif pour la recherche]** et **[!UICONTROL Mot de passe du login applicatif]** sont actifs.
+  Lorsque vous sélectionnez cette option, les champs **[!UICONTROL DN applicatif pour la recherche]** et **[!UICONTROL Mot de passe du login applicatif]** sont actifs.
 
-   Si vous renseignez ces deux champs. Adobe Campaign se connectera alors au serveur LDAP avec son propre login et mot de passe. S&#39;ils sont vides, Adobe Campaign se connectera au serveur de manière anonyme.
+  Si vous renseignez ces deux champs. Adobe Campaign se connectera alors au serveur LDAP avec son propre login et mot de passe. S&#39;ils sont vides, Adobe Campaign se connectera au serveur de manière anonyme.
 
 ## Recherche des identifiants {#searching-for-identifiers}
 
@@ -121,9 +121,9 @@ Si vous choisissez de faire une recherche sur l&#39;identifiant, l&#39;assistant
 * Dans les champs **[!UICONTROL DN applicatif pour la recherche]** et **[!UICONTROL Mot de passe du login applicatif]** indiquez l&#39;identifiant et le mot de passe avec lesquels Adobe Campaign se connectera pour rechercher l&#39;identifiant. S&#39;ils sont vides, Adobe Campaign se connectera au serveur de manière anonyme.
 * Les champs **[!UICONTROL Identifiant de la base]** et **[!UICONTROL Etendue de la recherche]** permettent de déterminer le sous-ensemble de l&#39;annuaire LDAP à partir duquel s&#39;effectuera la recherche.
 
-   Sélectionnez le mode voulu dans la liste déroulante :
+  Sélectionnez le mode voulu dans la liste déroulante :
 
-   ![](assets/s_ncs_install_deployment_wiz_ldap_03.png)
+  ![](assets/s_ncs_install_deployment_wiz_ldap_03.png)
 
    1. **[!UICONTROL Récursif (mode par défaut)]**.
 
@@ -150,9 +150,9 @@ Vous devez fournir plusieurs paramètres pour retrouver le ou les groupes auxque
 * le champ **[!UICONTROL Identifiant de la base]**,
 * le champ **[!UICONTROL Etendue de la recherche]**,
 
-   >[!NOTE]
-   >
-   >Si vous avez choisi de rechercher l&#39;identifiant de l&#39;utilisateur, vous pouvez sélectionner **[!UICONTROL Réutiliser les paramètres de recherche du DN]** afin de reporter les valeurs choisies pour l&#39;identifiant de la base et l&#39;étendue de la recherche dans la fenêtre précédente.
+  >[!NOTE]
+  >
+  >Si vous avez choisi de rechercher l&#39;identifiant de l&#39;utilisateur, vous pouvez sélectionner **[!UICONTROL Réutiliser les paramètres de recherche du DN]** afin de reporter les valeurs choisies pour l&#39;identifiant de la base et l&#39;étendue de la recherche dans la fenêtre précédente.
 
 * le champ **[!UICONTROL Filtre de recherche de droits]**, basé sur le login et l&#39;identifiant unique de l&#39;utilisateur,
 * le champ **[!UICONTROL Attribut contenant le nom du groupe ou de l&#39;autorisation]** concernant l&#39;utilisateur,

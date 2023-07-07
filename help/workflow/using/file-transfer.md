@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Data Management
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 
 1. **Envoi de fichier**
 
-   Pour envoyer un fichier sur un serveur, sélectionnez l&#39;option **[!UICONTROL Envoi de fichier]** dans le champ **[!UICONTROL Action]**. Vous devez indiquer le serveur cible dans la section **[!UICONTROL Serveur distant]** de l&#39;éditeur. Les paramètres sont les mêmes que pour la réception de fichiers. Voir ci-dessus.
+   Pour envoyer un fichier sur un serveur, sélectionnez l’option **[!UICONTROL Chargement de fichier]** dans le champ **[!UICONTROL Action]**. Vous devez indiquer le serveur cible dans la section **[!UICONTROL Serveur distant]** de l&#39;éditeur. Les paramètres sont les mêmes que pour la réception de fichiers. Voir ci-dessus.
 
    Le fichier source peut être issu de l&#39;activité précédente : dans ce cas, l&#39;option **[!UICONTROL Utiliser le fichier généré par l&#39;activité précédente]** doit être cochée.
 
@@ -80,19 +80,19 @@ Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux optio
 
 * **[!UICONTROL Effacer les fichiers source après leur transfert]**.
 
-   Efface les fichiers sur le serveur distant. Si vous ne cochez pas cette option, veillez à surveiller manuellement la taille du contenu archivé dans le répertoire SFTP.
+  Efface les fichiers sur le serveur distant. Si vous ne cochez pas cette option, veillez à surveiller manuellement la taille du contenu archivé dans le répertoire SFTP.
 
 * **[!UICONTROL Utiliser SSL]**
 
-   Permet d&#39;utiliser une connexion sécurisée via le protocole SSL lors des transferts de fichier.
+  Permet d&#39;utiliser une connexion sécurisée via le protocole SSL lors des transferts de fichier.
 
 * **[!UICONTROL Afficher les logs de la session]**
 
-   Permet de récupérer les logs du stockage Blob Azure, S3, du transfert FTP ou SFTP et de les inclure dans les logs de workflow.
+  Permet de récupérer les logs du stockage Blob Azure, S3, du transfert FTP ou SFTP et de les inclure dans les logs de workflow.
 
 * **[!UICONTROL Désactiver le mode passif]**.
 
-   Permet d&#39;indiquer le port de connexion à utiliser pour le transfert des données.
+  Permet d&#39;indiquer le port de connexion à utiliser pour le transfert des données.
 
 Le lien **[!UICONTROL Paramètres d’historisation des fichiers...]** permet d’accéder aux options présentées dans la section [Téléchargement Web](web-download.md) (étape **[!UICONTROL Historisation des fichiers]**).
 
@@ -100,10 +100,10 @@ Le lien **[!UICONTROL Paramètres d’historisation des fichiers...]** permet d�
 
 * filename
 
-   Nom complet du fichier envoyé.
+  Nom complet du fichier envoyé.
 
 ## Paramètres de sortie {#output-parameters}
 
 * filename
 
-   Nom complet du fichier reçu lorsque l&#39;option **[!UICONTROL Utiliser le fichier généré par l&#39;activité précédente]** est sélectionnée.
+  Nom complet du fichier reçu lorsque l&#39;option **[!UICONTROL Utiliser le fichier généré par l&#39;activité précédente]** est sélectionnée.

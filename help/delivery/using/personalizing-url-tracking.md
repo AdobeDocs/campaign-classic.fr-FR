@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email Design
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
@@ -29,9 +29,9 @@ Vous pouvez configurer les options de tracking :
 
 * Activer/Désactiver le tracking des URL de tous les messages.
 
-   >[!CAUTION]
-   >
-   >Lorsque le tracking n&#39;est pas activé sur une diffusion (c&#39;est-à-dire, l&#39;option **[!UICONTROL Activer le tracking]** n&#39;est pas sélectionnée), les rapports et les données associés au tracking ne sont pas disponibles : les rapports Ouvertures, Hot click et URL suivies ne contiendront aucune donnée et les onglets **[!UICONTROL Logs de tracking]** ne seront pas affichés pour cette diffusion.
+  >[!CAUTION]
+  >
+  >Lorsque le tracking n&#39;est pas activé sur une diffusion (c&#39;est-à-dire, l&#39;option **[!UICONTROL Activer le tracking]** n&#39;est pas sélectionnée), les rapports et les données associés au tracking ne sont pas disponibles : les rapports Ouvertures, Hot click et URL suivies ne contiendront aucune donnée et les onglets **[!UICONTROL Logs de tracking]** ne seront pas affichés pour cette diffusion.
 
 * Activer/Désactiver le tracking à l&#39;ouverture du message.
 

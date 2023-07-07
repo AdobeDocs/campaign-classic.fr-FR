@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ Il permet de définir les propriétés suivantes :
 * **[!UICONTROL Lignes]** : nombre de lignes pour une zone de type **[!UICONTROL Texte Multi-lignes]**,
 * **[!UICONTROL Style inline]** : permet de surcharger la feuille de styles CSS avec des paramètres supplémentaires. Ils sont séparés les uns des autres par des caractères **;**, comme dans l&#39;exemple ci-dessous :.
 
-   ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
+  ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
 ### Définir les en-têtes et pieds de page {#defining-headers-and-footers}
 
@@ -148,11 +148,11 @@ Dans la fenêtre de sélection d&#39;un champ, vous pouvez sélectionner parmi l
 
 * L&#39;arborescence principale contient les paramètres du contexte du formulaire. Les paramètres par défaut sont l&#39;Identifiant (qui correspond à l&#39;identifiant chiffré du destinataire), la Langue et l&#39;Origine.
 
-   Voir à ce propos [cette page](defining-web-forms-properties.md#form-url-parameters).
+  Voir à ce propos [cette page](defining-web-forms-properties.md#form-url-parameters).
 
 * La sous-arborescence **[!UICONTROL Destinataires]** contient les champs de saisie insérés dans le formulaire et stockés dans la base de données.
 
-   Pour plus d&#39;informations, voir la section [Stockage des données dans la base de données](web-forms-answers.md#storing-data-in-the-database).
+  Pour plus d&#39;informations, voir la section [Stockage des données dans la base de données](web-forms-answers.md#storing-data-in-the-database).
 
 * La sous-arborescence **[!UICONTROL Variables]** contient les variables disponibles pour ce formulaire. Pour plus d&#39;informations, voir la section [Stocker les données dans une variable locale](web-forms-answers.md#storing-data-in-a-local-variable).
 

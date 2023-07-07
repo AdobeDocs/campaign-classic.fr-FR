@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3460'
 ht-degree: 100%
 
@@ -63,6 +63,7 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Pressio
    >Les diffusions planifiées ne sont prises en compte que si l&#39;option **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]** est sélectionnée. Consultez à ce sujet la section [Définir la période](#setting-the-period).
    >
    >Cette option n’est pas disponible dans Campaign v8.
+   >
 
 1. Indiquez le mode de calcul du nombre maximum de messages.
 
@@ -87,7 +88,8 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Pressio
    * La section supérieure de cet onglet permet de restreindre les destinataires concernés.
    * La section inférieure de cet onglet permet de filtrer les messages à comptabiliser.
 
-      Dans l&#39;exemple ci-dessous, seuls les destinataires enregistrés dans le dossier **NewContacts** sont pris en compte et seules les diffusions commençant par **Newsletter** sont concernées.
+     Dans l&#39;exemple ci-dessous, seuls les destinataires enregistrés dans le dossier **NewContacts** sont pris en compte et seules les diffusions commençant par **Newsletter** sont concernées.
+
    ![](assets/campaign_opt_create_a_rule_05.png)
 
 1. L&#39;onglet **[!UICONTROL Typologies]** permet de consulter les typologies de campagne qui appliquent cette règle ou l&#39;associent à une ou plusieurs typologies existantes. Pour plus d&#39;informations, consultez la section [Appliquer les typologies](about-campaign-typologies.md#applying-typologies).
@@ -160,6 +162,7 @@ ou
 
    >[!AVAILABILITY]
    >Cette méthode n’est pas disponible dans Campaign v8.
+   >
 
 Le jour de début de la période dépend du paramétrage de la base de données.
 
@@ -276,15 +279,15 @@ Lors de l&#39;analyse de la diffusion, les destinataires des diffusions sont exc
 
 * Observer le résultat de l&#39;analyse :
 
-   ![](assets/campaign_opt_pressure_sample_1_8.png)
+  ![](assets/campaign_opt_pressure_sample_1_8.png)
 
 * Editer la diffusion et cliquer sur l&#39;onglet **[!UICONTROL Diffusion]**, puis sur le sous-onglet **[!UICONTROL Exclusions]** :
 
-   ![](assets/campaign_opt_pressure_sample_1_9.png)
+  ![](assets/campaign_opt_pressure_sample_1_9.png)
 
 * Cliquer sur l&#39;onglet **[!UICONTROL Suivi]** puis sur le sous-onglet **[!UICONTROL Causes d&#39;exclusions]** pour afficher le nombre d&#39;exclusions et les règles de typologies appliquées :
 
-   ![](assets/campaign_opt_pressure_sample_1_10.png)
+  ![](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### Calcul du poids dʼune diffusion en fonction des comportements {#calculating-the-delivery-weight-based-on-behavior}
 
@@ -336,6 +339,7 @@ Tout d&#39;abord, configurez la règle de pression.
 
    >[!AVAILABILITY]
    >Les diffusions planifiées ne peuvent pas être prises en compte dans Campaign v8.
+   >
 
 1. Dans l&#39;onglet **[!UICONTROL Typologies]**, associez la règle à une typologie de campagne.
 1. Enregistrez vos modifications.

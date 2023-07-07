@@ -44,15 +44,15 @@ Il est possible de définir plusieurs index. Un index peut référencer un ou pl
 
 L&#39;ordre des éléments `<keyfield>` définis dans un `<dbindex>` est très important. Le premier `<keyfield>` doit être le critère d&#39;indexation sur lequel reposent principalement les requêtes.
 
-Le nom de l&#39;index en base est calculé par concaténation du nom de la table et du nom de l&#39;index. Exemple : Nom de la table : &quot;Sample&quot;, Namespace : &quot;Cus&quot;, nom de l&#39;index : &quot;MyIndex&quot; - nom du champ de l&#39;index lors de la requête de création de l&#39;index en table : &quot;CusSample_myIndex&quot;.
+Le nom de l’index en base est calculé par concaténation du nom de la table et du nom de l’index. Exemple : Nom de la table : « Sample », Namespace : « Cus », nom de l’index : « MyIndex » - nom du champ de l’index lors de la requête de création de l’index en table : « CusSample_myIndex ».
 
 ## Description des attributs {#attribute-description-3}
 
 * **_operation (string)**: définit le type d&#39;écriture dans la base.
 
-   Cet attribut est principalement utilisé lors d&#39;une extension de schéma usine.
+  Cet attribut est principalement utilisé lors d&#39;une extension de schéma usine.
 
-   Les valeurs accessibles sont:
+  Les valeurs accessibles sont:
 
    * &quot;none&quot; : Réconciliation seule. Signifie qu&#39;Adobe Campaign va retrouver l&#39;élément sans le mettre à jour ou générer une erreur s&#39;il n&#39;existe pas.
    * &quot;insertOrUpdate&quot; : Mise à jour avec insertion. Signifie qu&#39;Adobe Campaign va mettre à jour l&#39;élément ou le créer s&#39;il n&#39;existe pas.

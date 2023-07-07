@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%
 
@@ -37,19 +37,19 @@ Pour effectuer la configuration de [!DNL Snowflake] sous Linux, procédez comme 
 
    * Pour Red Hat/CentOS :
 
-      ```
-      yum update
-      yum upgrade
-      yum install -y grep sed tar wget perl curl
-      ```
+     ```
+     yum update
+     yum upgrade
+     yum install -y grep sed tar wget perl curl
+     ```
 
    * Sous Debian :
 
-      ```
-      apt-get update
-      apt-get upgrade
-      apt-get install -y grep sed tar wget perl curl
-      ```
+     ```
+     apt-get update
+     apt-get upgrade
+     apt-get install -y grep sed tar wget perl curl
+     ```
 
 1. Avant d’exécuter le script, vous pouvez avoir accès à plus d’informations avec l’option `--help` :
 
@@ -98,12 +98,11 @@ Vous devez créer un compte externe [!DNL Snowflake] pour connecter votre instan
 
       * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur.
 
-      ![](assets/snowflake.png)
+     ![](assets/snowflake.png)
 
    * Pour l’authentification par paire de clés, cliquez sur l’onglet **[!UICONTROL Authentification par paire de clés]** pour utiliser votre **[!UICONTROL Clé privée]** afin de vous authentifier et de copier/coller votre **[!UICONTROL Clé privée]**.
 
-      ![](assets/snowflake_4.png)
-
+     ![](assets/snowflake_4.png)
 
 1. Cliquez sur l’onglet **[!UICONTROL Paramètres]**, puis sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer des fonctions.
 

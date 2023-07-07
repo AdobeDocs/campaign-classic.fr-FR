@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 
@@ -26,19 +26,19 @@ Les principales fonctionnalités proposées dans cette version sont les suivante
 * Possibilité d&#39;insérer plusieurs balises de tracking sur une même page, afin de faciliter la définition de chemins de navigation (ex : achat, inscription, retour, etc.).
 * Visualisation des chemins de navigation et des balises de tracking des différentes pages depuis le tableau de bord de l&#39;application Web.
 
-   ![](assets/trackers_1.png)
+  ![](assets/trackers_1.png)
 
 * Génération d&#39;un rapport de tracking complet.
 
-   ![](assets/trackers_5.png)
+  ![](assets/trackers_5.png)
 
-   Les principaux indicateurs sont les suivants :
+  Les principaux indicateurs sont les suivants :
 
    * **Taux de conversion** : nombre de personnes qui ont parcouru toutes les étapes d&#39;un chemin de navigation.
    * **Taux de rebond** : nombre de personnes qui n&#39;ont affiché que la première étape.
    * **Entonnoir de conversion** : taux de perte entre chacune des étapes.
 
-   En complément, un graphique de type **Secteur** représente la population en fonction de son origine.
+  En complément, un graphique de type **Secteur** représente la population en fonction de son origine.
 
 ## Identification de la source du trafic {#identifying-the-traffic-source}
 

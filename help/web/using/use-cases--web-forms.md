@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 100%
 
@@ -184,7 +184,7 @@ Ainsi, l&#39;inscription à la newsletter est réalisée selon les étapes suiva
    * il n&#39;est plus sur la liste bloquée,
    * il est abonné au service d’information.
 
-      ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
+     ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
 
 ## Afficher différentes options en fonction de la valeur sélectionnée {#displaying-different-options-depending-on-the-selected-values}
 
@@ -194,11 +194,11 @@ Dans l&#39;exemple suivant, l&#39;utilisateur est invité à choisir un type de 
 
 * Lorsqu&#39;il sélectionne un véhicule particulier, il pourra choisir entre un véhicule &quot;Voiture individuelle&quot; ou &quot;Monospace&quot; :
 
-   ![](assets/s_ncs_admin_survey_condition_sample2.png)
+  ![](assets/s_ncs_admin_survey_condition_sample2.png)
 
 * Lorsqu&#39;il sélectionne un véhicule professionnel, il pourra choisir parmi les utilitaires de la liste déroulante :
 
-   ![](assets/s_ncs_admin_survey_condition_sample1.png)
+  ![](assets/s_ncs_admin_survey_condition_sample1.png)
 
 Dans cet exemple, le type de véhicule n&#39;est pas stocké dans la base de données : la liste déroulante correspondante est paramétrée comme suit :
 
@@ -212,8 +212,8 @@ Le conditionnement de l&#39;affichage de la colonne de droite est paramétré au
 
 * Conditionnement de la visibilité des champs pour un véhicule personnel :
 
-   ![](assets/s_ncs_admin_survey_condition_config2.png)
+  ![](assets/s_ncs_admin_survey_condition_config2.png)
 
 * Conditionnement de la visibilité des champs pour un véhicule professionnel :
 
-   ![](assets/s_ncs_admin_survey_condition_config3.png)
+  ![](assets/s_ncs_admin_survey_condition_config3.png)

@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
 
@@ -47,11 +47,11 @@ Dans les rapports de type **[!UICONTROL Liste avec groupement]** destinés à ê
 
 * Ces rapports ne doivent pas contenir de ligne vide.
 
-   ![](assets/export_limitations_remove_empty_line.png)
+  ![](assets/export_limitations_remove_empty_line.png)
 
 * La légende de la liste doit être cachée.
 
-   ![](assets/export_limitations_hide_label.png)
+  ![](assets/export_limitations_hide_label.png)
 
 * Les rapports ne doivent pas utiliser de formatage spécifique défini au niveau des cellules. Il est préférable d&#39;utiliser le **[!UICONTROL Rendu des formulaires]** pour définir le format des cellules du tableau. Le **[!UICONTROL Rendu des formulaires]** est accessible depuis **[!UICONTROL Administration > Paramétrage > Rendu des formulaires]**.
 * Il est recommandé de ne pas insérer de contenu HTML.

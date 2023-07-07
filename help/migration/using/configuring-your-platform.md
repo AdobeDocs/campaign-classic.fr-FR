@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Dans le cadre d&#39;une migration vers Adobe Campaign v7, les éléments suiva
 
 * Mots de passe
 
-   Vous devez configurer les mots de passe **Admin** et **Interne**. [En savoir plus](../../migration/using/before-starting-migration.md#user-passwords)
+  Vous devez configurer les mots de passe **Admin** et **Interne**. [En savoir plus](../../migration/using/before-starting-migration.md#user-passwords)
 
 <!--
 * Tree structure
@@ -82,33 +82,33 @@ Après avoir exécuté **postupgrade**, vérifiez et configurez les éléments s
 
 * Pages miroir
 
-   Dans la version v6.x, le bloc de personnalisation des pages miroir a changé. Cette nouvelle version renforce la sécurité lors de l&#39;accès à ces pages.
+  Dans la version v6.x, le bloc de personnalisation des pages miroir a changé. Cette nouvelle version renforce la sécurité lors de l&#39;accès à ces pages.
 
-   Si vous utilisez le bloc de personnalisation de la version v5 dans vos messages, les pages miroir ne s&#39;affichent pas. Adobe recommande vivement d&#39;utiliser le nouveau bloc de personnalisation lors de l&#39;insertion d&#39;une page miroir dans vos messages.
+  Si vous utilisez le bloc de personnalisation de la version v5 dans vos messages, les pages miroir ne s&#39;affichent pas. Adobe recommande vivement d&#39;utiliser le nouveau bloc de personnalisation lors de l&#39;insertion d&#39;une page miroir dans vos messages.
 
-   Toutefois, à titre de solution temporaire (et comme les pages miroir sont toujours actives), vous pouvez revenir à l’ancien bloc de personnalisation pour éviter ce problème en modifiant l’option **[!UICONTROL XtkAcceptOldPasswords]** et en la définissant sur **[!UICONTROL 1]**. L’utilisation du nouveau bloc de personnalisation v6.x n’en sera pas affectée.
+  Toutefois, à titre de solution temporaire (et comme les pages miroir sont toujours actives), vous pouvez revenir à l’ancien bloc de personnalisation pour éviter ce problème en modifiant l’option **[!UICONTROL XtkAcceptOldPasswords]** et en la définissant sur **[!UICONTROL 1]**. L’utilisation du nouveau bloc de personnalisation v6.x n’en sera pas affectée.
 
 * Syntaxe
 
-   Si vous rencontrez des erreurs, lors du postupgrade, liées à la syntaxe SQLData, vous devez temporairement activer l’option **allowSQLInjection** dans le fichier **serverConf.xml**, le temps de réécrire le code. Une fois le code adapté, n’oubliez pas de réactiver la sécurité.
+  Si vous rencontrez des erreurs, lors du postupgrade, liées à la syntaxe SQLData, vous devez temporairement activer l’option **allowSQLInjection** dans le fichier **serverConf.xml**, le temps de réécrire le code. Une fois le code adapté, n’oubliez pas de réactiver la sécurité.
 
 * Conflits
 
-   La migration étant effectuée au travers d&#39;un postupgrade, des conflits peuvent apparaître au niveau des rapports, formulaires ou applications web. Ces conflits peuvent être résolus manuellement depuis la console.
+  La migration étant effectuée au travers d&#39;un postupgrade, des conflits peuvent apparaître au niveau des rapports, formulaires ou applications web. Ces conflits peuvent être résolus manuellement depuis la console.
 
 * Tomcat
 
-   Si vous avez personnalisé le dossier d’installation, vérifiez qu’il est correctement mis à jour après la migration.
+  Si vous avez personnalisé le dossier d’installation, vérifiez qu’il est correctement mis à jour après la migration.
 
 * Rapports
 
-   Tous les rapports prêts à l’emploi utilisent actuellement le moteur de rendu v6.x. Si vous aviez ajouté du code JavaScript dans les rapports, certains éléments peuvent être affectés.
+  Tous les rapports prêts à l’emploi utilisent actuellement le moteur de rendu v6.x. Si vous aviez ajouté du code JavaScript dans les rapports, certains éléments peuvent être affectés.
 
 * Applications web
 
-   Après le postupgrade, si vous rencontrez des problèmes de connexion à vos applications web identifiées, vous devez activer les options **allowUserPassword** et **sessionTokenOnly** dans le fichier **serverConf.xml**. Pour éviter tout problème de sécurité, ces deux options doivent être réactivées une fois le problème résolu.
+  Après le postupgrade, si vous rencontrez des problèmes de connexion à vos applications web identifiées, vous devez activer les options **allowUserPassword** et **sessionTokenOnly** dans le fichier **serverConf.xml**. Pour éviter tout problème de sécurité, ces deux options doivent être réactivées une fois le problème résolu.
 
-   Selon le type d’applications Web et leur configuration, vous devez effectuer des manipulations complémentaires pour en assurer le bon fonctionnement.
+  Selon le type d’applications Web et leur configuration, vous devez effectuer des manipulations complémentaires pour en assurer le bon fonctionnement.
 
 <!--
   If migrating from a v5.11 platform, additional configurations must be carried out. [Learn more](../../migration/using/general-configurations.md#specific-configurations-in-v5-11.md)
@@ -137,7 +137,7 @@ Après avoir exécuté **postupgrade**, vérifiez et configurez les éléments s
 
 * Interaction
 
-   Si vous utilisez **Interaction**, vous devez ajuster les paramètres après la migration.
+  Si vous utilisez **Interaction**, vous devez ajuster les paramètres après la migration.
 
 <!--
 

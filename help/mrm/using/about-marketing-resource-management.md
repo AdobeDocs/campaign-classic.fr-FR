@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 100%
 
@@ -34,15 +34,15 @@ Dans le cadre de la gestion des ressources marketing Adobe Campaign, les concep
 
 * **Tâche**
 
-   Une tâche correspond à une action à mener dans le cadre d&#39;une opération. Une tâche est assignée à un groupe ou à une personne. Une tâche enfant peut être dépendante d&#39;une tâche mère, ainsi la tâche parent ne sera accomplie que lorsque toutes les tâches filles seront terminées. Une tâche peut être par exemple : un référencement de site internet, une revue de budget, un brief, etc.
+  Une tâche correspond à une action à mener dans le cadre d&#39;une opération. Une tâche est assignée à un groupe ou à une personne. Une tâche enfant peut être dépendante d&#39;une tâche mère, ainsi la tâche parent ne sera accomplie que lorsque toutes les tâches filles seront terminées. Une tâche peut être par exemple : un référencement de site internet, une revue de budget, un brief, etc.
 
-   Voir à ce sujet la section [Créer et gérer les tâches](../../mrm/using/creating-and-managing-tasks.md).
+  Voir à ce sujet la section [Créer et gérer les tâches](../../mrm/using/creating-and-managing-tasks.md).
 
 * **Ressource marketing**
 
-   Adobe Campaign permet le tracking de la réalisation de projets marketing collaboratifs tels que des supports de communication, des plans d&#39;action, des newsletters, etc. Le cycle de réalisation et de validation de ces ressources marketing peut être suivi depuis le tableau de bord des ressources jusqu&#39;à leur publication.
+  Adobe Campaign permet le tracking de la réalisation de projets marketing collaboratifs tels que des supports de communication, des plans d&#39;action, des newsletters, etc. Le cycle de réalisation et de validation de ces ressources marketing peut être suivi depuis le tableau de bord des ressources jusqu&#39;à leur publication.
 
-   Voir à ce sujet la section [Gérer les ressources marketing](../../mrm/using/managing-marketing-resources.md).
+  Voir à ce sujet la section [Gérer les ressources marketing](../../mrm/using/managing-marketing-resources.md).
 
 >[!NOTE]
 >

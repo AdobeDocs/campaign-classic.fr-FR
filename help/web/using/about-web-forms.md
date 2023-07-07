@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Landing Pages, Web Forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 100%
 
@@ -55,15 +55,15 @@ Pour définir le paramétrage et le contenu du formulaire Web, les étapes sont 
 
 * Commencez par créer les pages et contrôles requis : champs de saisie, listes déroulantes, contenus HTML, etc.
 
-   Cette étape est présentée ci-dessous.
+  Cette étape est présentée ci-dessous.
 
 * Définir de l&#39;enchaînement des pages et conditionner l&#39;affichage.
 
-   Cette étape est présentée dans la section [Définir l&#39;enchaînement des pages des formulaires web](defining-web-forms-page-sequencing.md).
+  Cette étape est présentée dans la section [Définir l&#39;enchaînement des pages des formulaires web](defining-web-forms-page-sequencing.md).
 
 * Au besoin, traduire le contenu.
 
-   Cette étape est présentée dans la section [Traduire un formulaire web](translating-a-web-form.md).
+  Cette étape est présentée dans la section [Traduire un formulaire web](translating-a-web-form.md).
 
 ## À propos de la conception des formulaires web {#about-web-forms-designing}
 
@@ -81,7 +81,6 @@ La définition du contenu et de la mise en page des écrans du formulaire sont p
 >* Au cours de la conception des pages, vous pouvez visualiser le rendu final dans le sous-onglet **[!UICONTROL Aperçu]**. Pour visualiser les modifications, vous devez enregistrer le formulaire. Les erreurs éventuelles sont affichées dans l&#39;onglet **[!UICONTROL Journal]**.
 >* Vous pouvez contrôler le bon enchaînement des pages et le stockage des informations en activant le mode debug au niveau du formulaire Web. Pour cela, à partir du sous-onglet **[!UICONTROL Aperçu]**, cochez l&#39;option **[!UICONTROL Activer le mode debug]** : les informations collectées et les éventuelles erreurs d&#39;exécution seront alors affichées en bas de chaque page.
 >
-
 
 ### Utiliser les icônes de la barre d&#39;outils {#using-the-icons-in-the-toolbar}
 

@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1771'
 ht-degree: 100%
 
@@ -185,47 +185,47 @@ Vous pouvez utiliser les opérations suivantes :
 
 * Clause `select`
 
-   Indiquez les colonnes à renvoyer. Par exemple, pour sélectionner le prénom et le nom de la personne, écrivez le code suivant :
+  Indiquez les colonnes à renvoyer. Par exemple, pour sélectionner le prénom et le nom de la personne, écrivez le code suivant :
 
-   ```xml
-   <select>
-       <node expr="@firstName"/>
-       <node expr="@lastName"/>
-   </select>
-   ```
+  ```xml
+  <select>
+      <node expr="@firstName"/>
+      <node expr="@lastName"/>
+  </select>
+  ```
 
-   Avec le schéma `nms:recipient`, les éléments sont renvoyés sous la forme suivante :
+  Avec le schéma `nms:recipient`, les éléments sont renvoyés sous la forme suivante :
 
-   ```xml
-   <recipient firstName="Bo" lastName="Didley"/>
-   ```
+  ```xml
+  <recipient firstName="Bo" lastName="Didley"/>
+  ```
 
 * Clause `where`
 
-   Pour spécifier des conditions, utilisez une clause `where`. Par exemple, pour sélectionner les enregistrements qui se trouvent dans le dossier **Formation**, vous pouvez écrire le code suivant :
+  Pour spécifier des conditions, utilisez une clause `where`. Par exemple, pour sélectionner les enregistrements qui se trouvent dans le dossier **Formation**, vous pouvez écrire le code suivant :
 
-   ```xml
-   <where>
-       <condition expr="[folder/@label]='Training'"/>
-   </where>
-   ```
+  ```xml
+  <where>
+      <condition expr="[folder/@label]='Training'"/>
+  </where>
+  ```
 
-   Lorsque vous combinez plusieurs expressions, utilisez l’opérateur booléen dans la première expression. Par exemple, pour sélectionner toutes les personnes nommées Isabel Garcia, vous pouvez écrire le code suivant :
+  Lorsque vous combinez plusieurs expressions, utilisez l’opérateur booléen dans la première expression. Par exemple, pour sélectionner toutes les personnes nommées Isabel Garcia, vous pouvez écrire le code suivant :
 
-   ```xml
-   <condition boolOperator="AND" expr="@firstName='Isabel'"/>
-   <condition expr="@lastName='Garcia'"/>
-   ```
+  ```xml
+  <condition boolOperator="AND" expr="@firstName='Isabel'"/>
+  <condition expr="@lastName='Garcia'"/>
+  ```
 
 * Clause `orderBy`
 
-   Pour trier le jeu de résultats, spécifiez la clause `orderBy` sous la forme d’un élément XML avec l’attribut `sortDesc`. Par exemple, pour trier les noms par ordre croissant, vous pouvez écrire le code suivant :
+  Pour trier le jeu de résultats, spécifiez la clause `orderBy` sous la forme d’un élément XML avec l’attribut `sortDesc`. Par exemple, pour trier les noms par ordre croissant, vous pouvez écrire le code suivant :
 
-   ```xml
-   <orderBy>
-       <node expr="@lastName> sortDesc="false"/>
-   </orderBy>
-   ```
+  ```xml
+  <orderBy>
+      <node expr="@lastName> sortDesc="false"/>
+  </orderBy>
+  ```
 
 ### Étape 2 : créer un objet de requête
 
@@ -371,11 +371,11 @@ Vous pouvez déclencher des workflows de différentes manières :
    * Ajoutez un script d’initialisation à l’activité de **[!UICONTROL Fin]** du workflow initial.
    * Ajoutez l’activité **[!UICONTROL Signal externe]** au début du workflow cible.
 
-      Une fois le workflow initial terminé, un événement est publié. La transition sortante est activée et les variables d’événement sont renseignées. Ensuite, l’événement est reçu par le workflow cible.
+     Une fois le workflow initial terminé, un événement est publié. La transition sortante est activée et les variables d’événement sont renseignées. Ensuite, l’événement est reçu par le workflow cible.
 
-      >[!TIP]
-      >
-      >Lorsque vous ajoutez un script à une activité, il est recommandé de placer le nom de l’activité entre des tirets doubles, par exemple : `-- end --`. [En savoir plus](workflow-best-practices.md) sur les bonnes pratiques relatives aux workflows.
+     >[!TIP]
+     >
+     >Lorsque vous ajoutez un script à une activité, il est recommandé de placer le nom de l’activité entre des tirets doubles, par exemple : `-- end --`. [En savoir plus](workflow-best-practices.md) sur les bonnes pratiques relatives aux workflows.
 
 Syntaxe de la méthode `PostEvent` :
 
@@ -558,7 +558,7 @@ Vous pouvez insérer, mettre à jour et supprimer des enregistrements. Vous pouv
 * Opération `update`
 * Opération `insertOrUpdate` avec argument `_key` permettant d’identifier l’enregistrement à mettre à jour
 
-   Si vous ne spécifiez pas le dossier **Destinataires**, en cas de correspondance, l’enregistrement est mis à jour dans n’importe quel sous-dossier. Sinon, l’enregistrement est créé dans le dossier racine **Destinataires**.
+  Si vous ne spécifiez pas le dossier **Destinataires**, en cas de correspondance, l’enregistrement est mis à jour dans n’importe quel sous-dossier. Sinon, l’enregistrement est créé dans le dossier racine **Destinataires**.
 
 * Opération `delete`
 

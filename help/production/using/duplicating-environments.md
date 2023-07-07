@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1296'
 ht-degree: 100%
 
@@ -73,7 +73,6 @@ Les étapes ci-dessous doivent être réalisées avec précaution : certains pr
 >* Dans les exemples de commandes proposés ci-après, on considère une instance **prod** et une instance **recette** existantes sous PostgreSQL.
 >
 
-
 ### Etape 1 - Sauvegarder les données de l&#39;environnement-source (prod) {#step-1---make-a-backup-of-the-source-environment--prod--data}
 
 Copier les bases de données
@@ -121,15 +120,15 @@ Pour arrêter tous les processus, les commandes sont les suivantes :
 
 * Sous Windows :
 
-   ```
-   net stop nlserver6
-   ```
+  ```
+  net stop nlserver6
+  ```
 
 * Sous Linux :
 
-   ```
-   /etc/init.d/nlserver6 stop
-   ```
+  ```
+  /etc/init.d/nlserver6 stop
+  ```
 
 Vérifiez que tous les processus sont bien arrêtés via la commande suivante :
 
@@ -236,15 +235,15 @@ Pour démarrer les processus Adobe Campaign, les commandes sont les suivantes 
 
 * Sous Windows :
 
-   ```
-   net start nlserver6
-   ```
+  ```
+  net start nlserver6
+  ```
 
 * Sous Linux :
 
-   ```
-   /etc/init.d/nlserver6 start
-   ```
+  ```
+  /etc/init.d/nlserver6 start
+  ```
 
 Vérifier que les processus sont bien démarrés via la commande suivante :
 

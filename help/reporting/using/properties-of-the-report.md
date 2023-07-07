@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Dans l&#39;onglet **[!UICONTROL Général]** des propriétés du rapport, vous p
 
 * L&#39;espace de **stockage** est sélectionné lors de la création du rapport. Pour modifier le tableau des données du rapport, cliquez sur l&#39;icône **[!UICONTROL Choisir le lien]** située à droite du champ **[!UICONTROL Type de document]**.
 
-   ![](assets/s_ncs_advuser_report_properties_02.png)
+  ![](assets/s_ncs_advuser_report_properties_02.png)
 
 * Paramètres du **contrôle d&#39;accès**. Ces paramètres sont décrits ci-dessous.
 
@@ -47,7 +47,7 @@ Les options possibles sont les suivantes :
 
 * **[!UICONTROL Accès anonyme]** : cette option permet un accès illimité au rapport. Cependant, aucune manipulation n&#39;est possible.
 
-   Les autorisations de l’opérateur technique « webapp » sont utilisées pour afficher les éléments du rapport. En savoir plus [dans cette section](../../platform/using/access-management-operators.md).
+  Les autorisations de l’opérateur technique « webapp » sont utilisées pour afficher les éléments du rapport. En savoir plus [dans cette section](../../platform/using/access-management-operators.md).
 
 * **[!UICONTROL Contrôle d&#39;accès]** : cette option permet à un opérateur Adobe Campaign d&#39;y accéder, après connexion.
 * **[!UICONTROL Compte spécifique]** : permet d&#39;exécuter le rapport avec les droits de l&#39;opérateur sélectionné dans le champ **[!UICONTROL Opérateur]**.

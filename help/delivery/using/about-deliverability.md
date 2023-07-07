@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ Voir à ce propos les sections suivantes :
 
 Utilisez les outils proposés par Adobe Campaign pour surveiller votre délivrabilité.
 
-Adobe Campaign permet de vérifier les performances de vos diffusions et de les comprendre à l&#39;aide d&#39;un ensemble d&#39;indicateurs et de rapports en temps réel intégrés.
+Adobe Campaign permet de vérifier les performances de vos diffusions et de les comprendre à l’aide d’un ensemble d’indicateurs et de rapports en temps réel intégrés.
 
 Voir à ce propos les sections suivantes :
 

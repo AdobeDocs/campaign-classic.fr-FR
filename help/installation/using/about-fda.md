@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Federated Data Access
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Pour utiliser cette fonctionnalité, les prérequis sont énumérés ci-dessous�
 * **Configuration** : la liste des bases de données externes compatibles dépend de votre [modèle d’hébergement](../../installation/using/hosting-models.md).
 * **Version de base de données externe** : vous devez disposer d’une base de données externe compatible avec le module Adobe Campaign FDA.
 
-   La liste des systèmes de base de données et des versions compatibles par modèle d’hébergement est détaillée dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA) de Campaign.
+  La liste des systèmes de base de données et des versions compatibles par modèle d’hébergement est détaillée dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA) de Campaign.
 
 * **Autorisations** : les utilisateurs doivent également disposer des [autorisations nécessaires](../../installation/using/remote-database-access-rights.md) dans Adobe Campaign et dans la base de données externe.
 

@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%
 
@@ -34,13 +34,13 @@ Les options disponibles sont les suivantes :
 
 * **Adresse expéditeur** : permet de personnaliser le nom de l’expéditeur de la diffusion en utilisant une chaîne de caractères alphanumériques limités à onze caractères. Le champ ne doit pas être exclusivement composé de chiffres. Vous pouvez définir une condition pour afficher, par exemple, différents noms selon l’indicatif régional du destinataire :
 
-   ```
-   <% if( String(recipient.mobilePhone).indexOf("+1") == 0){ %>NeoShopUS<%} else {%>NeoShopWorld<%}%>
-   ```
+  ```
+  <% if( String(recipient.mobilePhone).indexOf("+1") == 0){ %>NeoShopUS<%} else {%>NeoShopWorld<%}%>
+  ```
 
-   >[!IMPORTANT]
-   >
-   >Vérifiez la loi en vigueur dans votre pays concernant la modification du nom de l&#39;expéditeur. Vérifiez également auprès de votre opérateur s&#39;il propose cette fonctionnalité.
+  >[!IMPORTANT]
+  >
+  >Vérifiez la loi en vigueur dans votre pays concernant la modification du nom de l&#39;expéditeur. Vérifiez également auprès de votre opérateur s&#39;il propose cette fonctionnalité.
 
 * **Mode de transmission** : moyen d&#39;acheminement des messages par SMS.
 * **Priorité** : niveau d&#39;importance attribué à un message. La priorité **[!UICONTROL Normale]** est sélectionnée par défaut. Renseignez-vous auprès de votre fournisseur pour connaître les tarifs d&#39;un SMS envoyé en priorité **[!UICONTROL Haute]**.
@@ -72,17 +72,16 @@ Le module **nlserver sms** interroge à intervalle régulier le routeur des mess
 
 * **Accusés de réception** : consultez les logs de diffusion pour connaître le statut de vos messages.
 
-   >[!NOTE]
-   >
-   >Tout SMS envoyé est lié à un compte externe par la clé primaire de celui-ci. De cette manière :
-   >
-   > * Les accusés de réception d&#39;un compte externe de SMS effacé ne sont pas traités correctement.
-   > * Un compte SMS ne peut être associé qu&#39;à un seul compte externe afin que les accusés de réception soient correctement attribués à ce dernier
-
+  >[!NOTE]
+  >
+  >Tout SMS envoyé est lié à un compte externe par la clé primaire de celui-ci. De cette manière :
+  >
+  > * Les accusés de réception d&#39;un compte externe de SMS effacé ne sont pas traités correctement.
+  > * Un compte SMS ne peut être associé qu&#39;à un seul compte externe afin que les accusés de réception soient correctement attribués à ce dernier
 
 * **Désinscription** : les destinataires qui ne souhaitent plus recevoir de diffusions par SMS peuvent renvoyer un message contenant le mot STOP. Si votre fournisseur vous le permet contractuellement, vous avez la possibilité de récupérer ses messages via l&#39;activité de workflow **Réception de SMS** puis de créer une requête afin que l&#39;option **Ne plus contacter cette personne** soit activée pour les destinataires concernés.
 
-   Reportez-vous au guide [Workflows](../../workflow/using/architecture.md).
+  Reportez-vous au guide [Workflows](../../workflow/using/architecture.md).
 
 ## Schéma InSMS {#insms-schema}
 
@@ -94,11 +93,11 @@ Le schéma InSMS contient les informations relatives aux SMS entrants. Une descr
 * **created** : date d&#39;insertion du message entrant dans Adobe Campaign.
 * **extAccount** : compte externe Adobe Campaign.
 
-   >[!IMPORTANT]
-   >
-   >Les champs suivants sont spécifiques à Netsize.
-   >
-   >Si l&#39;opérateur utilisé n&#39;est pas Netsize, ces champs sont considérés comme vides.
+  >[!IMPORTANT]
+  >
+  >Les champs suivants sont spécifiques à Netsize.
+  >
+  >Si l&#39;opérateur utilisé n&#39;est pas Netsize, ces champs sont considérés comme vides.
 
 * **alias** : alias du message entrant.
 * **separator** : séparateur entre l&#39;alias et le corps du message.

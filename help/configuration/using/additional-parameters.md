@@ -5,7 +5,7 @@ description: En savoir plus sur les paramètres de tracking web
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 100%
 
@@ -68,16 +68,16 @@ Une fois la configuration modifiée, vous devez :
 * Arrêter le serveur Web qui héberge le module de redirection (Apache, IIS, ou autre),
 * Arrêter le serveur Adobe Campaign : **net stop nlserver6** sous Windows, **/etc/init.d/nlserver6 stop** sous Linux,
 
-   >[!NOTE]
-   >
-   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl stop nlserver**
+  >[!NOTE]
+  >
+  >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl stop nlserver**
 
 * Sous Linux, supprimer les segments de mémoire partagée via la commande **ipcrm**,
 * Redémarrer le serveur Adobe Campaign : **net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux,
 
-   >[!NOTE]
-   >
-   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
+  >[!NOTE]
+  >
+  >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
 
 * Redémarrer le serveur Web.
 

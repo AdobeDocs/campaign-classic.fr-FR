@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Une fois exécuté, le workflow qui a été appelé en tant que sous-workflow re
 * Le nombre de populations intermédiaires ne peut pas être affiché.
 * Les logs de sous-workflow s’affichent dans le workflow principal.
 
-   ![](assets/subworkflow_logs.png)
+  ![](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

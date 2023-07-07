@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 100%
 
@@ -100,9 +100,9 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 * **[!UICONTROL Powered by Adobe Campaign]** : insère le logo &quot;Powered by Adobe Campaign&quot;.
 * **[!UICONTROL URL de page miroir]** : insère l&#39;URL de page miroir qui permet aux concepteurs de diffusion de vérifier le lien.
 
-   >[!NOTE]
-   >
-   >Pour plus dʼinformations sur la génération des pages miroir, consultez la section [Génération de la page miroir](sending-messages.md#generating-the-mirror-page).
+  >[!NOTE]
+  >
+  >Pour plus dʼinformations sur la génération des pages miroir, consultez la section [Génération de la page miroir](sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Lien vers la page miroir]** : insère un lien vers la page miroir : « Si vous ne parvenez pas à voir correctement ce message, cliquez ici ».
 * **[!UICONTROL Lien de désinscription]** : insère un lien permettant de se désabonner de toutes les diffusions (liste bloquée).
@@ -111,9 +111,9 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 * **[!UICONTROL Lien d&#39;inscription]** : insère un lien d&#39;inscription qui a été défini lors du paramétrage de l&#39;instance.
 * **[!UICONTROL Lien d&#39;inscription (avec parrain)]** : insère un lien d&#39;inscription qui permet d&#39;identifier le visiteur et la diffusion. Le lien a été défini lors du paramétrage de l&#39;instance.
 
-   >[!NOTE]
-   >
-   >Ce bloc peut être utilisé dans les diffusions qui ciblent uniquement les visiteurs.
+  >[!NOTE]
+  >
+  >Ce bloc peut être utilisé dans les diffusions qui ciblent uniquement les visiteurs.
 
 * **[!UICONTROL Confirmation de votre inscription]** : insère un lien permettant de confirmer l&#39;inscription.
 * **[!UICONTROL Liens de partage vers réseaux sociaux]** : insère des boutons grâce auxquels le destinataire peut partager un lien vers le contenu de la page miroir avec le client de messagerie, Facebook, Twitter et LinkedIn (voir [Marketing viral : transférer à un ami](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
@@ -136,9 +136,9 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
    * Sélectionnez l&#39;option **[!UICONTROL Afficher dans les menus de personnalisation]** pour rendre ce bloc accessible depuis l&#39;icône d&#39;insertion de champs de personnalisation.
    * Sélectionnez éventuellement l&#39;option **[!UICONTROL Le contenu du bloc dépend du format]** pour définir deux blocs distincts pour les emails au format HTML et ceux au format texte.
 
-      Deux onglets seront alors affichés dans la section inférieure de cet éditeur (Contenu HTML et Contenu Texte) pour définir les contenus correspondants.
+     Deux onglets seront alors affichés dans la section inférieure de cet éditeur (Contenu HTML et Contenu Texte) pour définir les contenus correspondants.
 
-      ![](assets/s_ncs_user_personalized_block_b.png)
+     ![](assets/s_ncs_user_personalized_block_b.png)
 
    * Saisissez le contenu (en HTML, texte, JavaScript, etc.) du ou des blocs de personnalisation et cliquez sur le bouton **[!UICONTROL Enregistrer]**.
 

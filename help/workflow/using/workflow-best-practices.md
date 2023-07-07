@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 100%
 
@@ -30,17 +30,17 @@ Deux autres solutions sont proposées :
 
 * **Conserver le résultat des populations intermédiaires entre deux exécutions**
 
-   Cette option, disponible dans l&#39;onglet **[!UICONTROL Général]** des propriétés d&#39;un workflow, permet de conserver temporairement les tables entre deux exécutions d&#39;un workflow. Elle peut être utilisée à des fins de développement et de test pour surveiller les données et vérifier les résultats. Bien que cette option puisse être utilisée dans des environnements de développement, elle ne doit jamais l&#39;être dans des environnements de production. La conservation des tables temporaires peut entraîner une augmentation significative de la taille de la base de données, voire même un dépassement des limites de taille. Elle peut aussi ralentir la sauvegarde.
+  Cette option, disponible dans l&#39;onglet **[!UICONTROL Général]** des propriétés d&#39;un workflow, permet de conserver temporairement les tables entre deux exécutions d&#39;un workflow. Elle peut être utilisée à des fins de développement et de test pour surveiller les données et vérifier les résultats. Bien que cette option puisse être utilisée dans des environnements de développement, elle ne doit jamais l&#39;être dans des environnements de production. La conservation des tables temporaires peut entraîner une augmentation significative de la taille de la base de données, voire même un dépassement des limites de taille. Elle peut aussi ralentir la sauvegarde.
 
-   Seules les tables de travail de la dernière exécution du workflow sont conservées. Celles des exécutions précédentes sont purgées par le workflow de **[!UICONTROL nettoyage]** qui s&#39;exécute tous les jours.
+  Seules les tables de travail de la dernière exécution du workflow sont conservées. Celles des exécutions précédentes sont purgées par le workflow de **[!UICONTROL nettoyage]** qui s&#39;exécute tous les jours.
 
-   >[!CAUTION]
-   >
-   >Cette option ne doit jamais être cochée dans un workflow de production. Elle sert à analyser les résultats et est conçue uniquement à des fins de test. Elle ne doit donc être utilisée que dans les environnements de développement ou d’évaluation.
+  >[!CAUTION]
+  >
+  >Cette option ne doit jamais être cochée dans un workflow de production. Elle sert à analyser les résultats et est conçue uniquement à des fins de test. Elle ne doit donc être utilisée que dans les environnements de développement ou d’évaluation.
 
 * **Enregistrer les requêtes SQL dans le journal**
 
-   Cette option, disponible dans l&#39;onglet **[!UICONTROL Exécution]** des propriétés d&#39;un workflow, permet d&#39;enregistrer toutes les requêtes SQL générées par l&#39;outil à partir des différentes activités. Elle permet ainsi de savoir ce qui est actuellement exécuté par la plateforme. Cette option ne doit toutefois être utilisée que temporairement pendant le développement et ne pas être activée en production.
+  Cette option, disponible dans l&#39;onglet **[!UICONTROL Exécution]** des propriétés d&#39;un workflow, permet d&#39;enregistrer toutes les requêtes SQL générées par l&#39;outil à partir des différentes activités. Elle permet ainsi de savoir ce qui est actuellement exécuté par la plateforme. Cette option ne doit toutefois être utilisée que temporairement pendant le développement et ne pas être activée en production.
 
 Purgez les logs lorsqu’ils ne sont plus nécessaires. L’historique d’un workflow n’est pas purgé automatiquement : tous les messages sont conservés par défaut. Vous pouvez purger l’historique depuis le menu **[!UICONTROL Fichier > Actions]** ou en cliquant sur le bouton Actions situé dans la barre d’outils au-dessus de la liste. Choisissez Purge de l’historique.
 Pour savoir comment purger les logs, consultez cette [documentation](starting-a-workflow.md).
@@ -142,7 +142,7 @@ Le nom d&#39;une activité figure dans l&#39;onglet **[!UICONTROL Avancé]**. Ne
 * Commencez toujours votre workflow par une activité **[!UICONTROL Début]** ou une activité **[!UICONTROL Planificateur]**. Lorsque cela est pertinent, vous pouvez également utiliser une activité **[!UICONTROL Signal externe]**.
 * Lors de la construction de votre workflow, n&#39;utilisez qu&#39;une seule **** activité Planificateur par branche. Si une même branche d&#39;un workflow comporte plusieurs planificateurs (liés les uns aux autres), le nombre de tâches à exécuter sera multiplié de manière exponentielle, ce qui surchargerait considérablement la base. Cette règle s’applique également à toutes les activités comportant un onglet **[!UICONTROL Planification &amp; historique]**. En savoir plus sur la [planification](scheduler.md).
 
-   ![](assets/wf-scheduler.png)
+  ![](assets/wf-scheduler.png)
 
 * Utilisez des activités **[!UICONTROL Fin]** dans tous vos workflows. Cela permet à Adobe Campaign de libérer l’espace temporaire utilisé pour réaliser les calculs dans les workflows. Voir à ce sujet la section [Début et Fin](start-and-end.md).
 

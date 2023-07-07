@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2910'
 ht-degree: 100%
 
@@ -63,16 +63,16 @@ Les champs de la fenêtre **[!UICONTROL Purge des données]** correspondent aux 
 * Profils des visiteurs : **NmsCleanup_VisitorPurgeDelay** (voir [Nettoyage des visiteurs](#cleanup-of-visitors))
 * Propositions d’offres : **NmsCleanup_PropositionPurgeDelay** (voir [Nettoyage des propositions](#cleanup-of-propositions))
 
-   >[!NOTE]
-   >
-   >Le champ **[!UICONTROL Propositions d&#39;offres]** est uniquement disponible si le module **Interaction** est installé.
+  >[!NOTE]
+  >
+  >Le champ **[!UICONTROL Propositions d&#39;offres]** est uniquement disponible si le module **Interaction** est installé.
 
 * Événements : **NmsCleanup_EventPurgeDelay** (voir [Nettoyage des événements expirés](#cleansing-expired-events))
 * Événements historisés : **NmsCleanup_EventHistoPurgeDelay** (voir [Nettoyage des événements expirés](#cleansing-expired-events))
 
-   >[!NOTE]
-   >
-   >Les champs **[!UICONTROL Evénements]** et **[!UICONTROL Evénements historisés]** sont uniquement disponibles si le module **Message Center** est installé.
+  >[!NOTE]
+  >
+  >Les champs **[!UICONTROL Evénements]** et **[!UICONTROL Evénements historisés]** sont uniquement disponibles si le module **Message Center** est installé.
 
 * Journal d’audit : **XtkCleanup_AuditTrailPurgeDelay** (voir [Nettoyage du journal d’audit](#cleanup-of-audit-trail))
 
@@ -132,19 +132,19 @@ Cette tâche purge toutes les diffusions à supprimer ou à recycler.
 
    * Dans la table des exclusions de diffusion (**NmsDlvExclusion**), la requête suivante est utilisée :
 
-      ```sql
-      DELETE FROM NmsDlvExclusion WHERE iDeliveryId=$(l)
-      ```
+     ```sql
+     DELETE FROM NmsDlvExclusion WHERE iDeliveryId=$(l)
+     ```
 
-      où **$(l)** est l’identifiant de la diffusion.
+     où **$(l)** est l’identifiant de la diffusion.
 
    * Dans la table des coupons (**NmsCouponValue**), la requête suivante est utilisée (avec des suppressions en masse) :
 
-      ```sql
-      DELETE FROM NmsCouponValue WHERE iMessageId IN (SELECT iMessageId FROM NmsCouponValue WHERE EXISTS (SELECT B.iBroadLogId FROM $(BroadLogTableName) B WHERE B.iDeliveryId = $(l) AND B.iBroadLogId = iMessageId ) LIMIT 5000)
-      ```
+     ```sql
+     DELETE FROM NmsCouponValue WHERE iMessageId IN (SELECT iMessageId FROM NmsCouponValue WHERE EXISTS (SELECT B.iBroadLogId FROM $(BroadLogTableName) B WHERE B.iDeliveryId = $(l) AND B.iBroadLogId = iMessageId ) LIMIT 5000)
+     ```
 
-      où `$(l)` est l’identifiant de la diffusion.
+     où `$(l)` est l’identifiant de la diffusion.
 
    * Dans les tables de logs de diffusion (**NmsBroadlogXxx**), les suppressions en masse sont exécutées par groupes de 20 000 enregistrements.
    * Dans les tables de propositions d’offres (**NmsPropositionXxx**), les suppressions en masse sont exécutées par groupes de 20 000 enregistrements.
@@ -155,13 +155,13 @@ Cette tâche purge toutes les diffusions à supprimer ou à recycler.
    * Dans la table de log de traitement par lot (**XtkJobLog**), les suppressions en masse sont exécutées par lots de 20 000 enregistrements. Cette table contient le log des diffusions à supprimer.
    * Dans le tableau de tracking des URL d’une diffusion (**NmsTrackingUrl**), la requête suivante est utilisée :
 
-      ```sql
-      DELETE FROM NmsTrackingUrl WHERE iDeliveryId=$(l)
-      ```
+     ```sql
+     DELETE FROM NmsTrackingUrl WHERE iDeliveryId=$(l)
+     ```
 
-      où `$(l)` est l’identifiant de la diffusion.
+     où `$(l)` est l’identifiant de la diffusion.
 
-      Cette table contient les URL présentes dans les diffusions à supprimer afin de permettre leur tracking.
+     Cette table contient les URL présentes dans les diffusions à supprimer afin de permettre leur tracking.
 
 1. La diffusion est ensuite supprimée de la table des diffusions (**NmsDelivery**) :
 

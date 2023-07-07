@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 100%
 
@@ -50,18 +50,18 @@ La connexion à une base de données externe Oracle en FDA requiert les paramét
 
    * **libclntsh.so**
 
-      ```
-      cd /usr/lib/oracle/<version>/client<architecture>/lib
-      ln -s libclntsh.so.<version> libclntsh.so
-      ```
+     ```
+     cd /usr/lib/oracle/<version>/client<architecture>/lib
+     ln -s libclntsh.so.<version> libclntsh.so
+     ```
 
    * **libaio1**
 
-      ```
-      aptitude install libaio1
-      or
-      yum install libaio1
-      ```
+     ```
+     aptitude install libaio1
+     or
+     yum install libaio1
+     ```
 
 1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Oracle]. Pour plus d’informations sur la configuration de votre compte externe, voir [cette section](#oracle-external).
 
@@ -98,4 +98,5 @@ Le compte externe [!DNL Oracle] permet de connecter votre instance Campaign à v
    * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
 
    * **[!UICONTROL Fuseau horaire]** : fuseau horaire du serveur
+
    ![](assets/oracle_config.png)

@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
 
@@ -57,42 +57,42 @@ Les logs de diffusion sont la clé pour apprendre pourquoi une diffusion a écho
 
 * Les messages des destinataires échouent avec une erreur &quot;Inatteignable&quot; indiquant :
 
-   ```
-   Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
-   ```
+  ```
+  Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
+  ```
 
-   Le problème est presque toujours dû à une personnalisation du code HTML qui tente d’appeler une table ou un champ non défini ou mappé dans le ciblage amont ou dans le mapping de ciblage de la diffusion.
+  Le problème est presque toujours dû à une personnalisation du code HTML qui tente d’appeler une table ou un champ non défini ou mappé dans le ciblage amont ou dans le mapping de ciblage de la diffusion.
 
-   Pour corriger ce problème, le workflow et le contenu de la diffusion doivent être examinés afin de déterminer précisément quelle personnalisation tente d’appeler la table en question et si la table peut être mappée ou non. À partir de là, supprimer l’appel à cette table dans le code HTML ou résoudre le mapping sur la diffusion peut permettre de résoudre le problème.
+  Pour corriger ce problème, le workflow et le contenu de la diffusion doivent être examinés afin de déterminer précisément quelle personnalisation tente d’appeler la table en question et si la table peut être mappée ou non. À partir de là, supprimer l’appel à cette table dans le code HTML ou résoudre le mapping sur la diffusion peut permettre de résoudre le problème.
 
 * Dans le modèle de déploiement Mid-sourcing, le message suivant peut apparaître dans les logs de diffusion :
 
-   ```
-   Error during the call of method 'AppendDeliveryPart' on the mid sourcing server: 'Communication error with the server: please check this one is correctly configured. Code HTTP 408 'Service temporarily unavailable'.
-   ```
+  ```
+  Error during the call of method 'AppendDeliveryPart' on the mid sourcing server: 'Communication error with the server: please check this one is correctly configured. Code HTTP 408 'Service temporarily unavailable'.
+  ```
 
-   La cause de cette erreur est liée à des problèmes de performance. Elle indique que l’instance marketing a passé trop de temps à créer des données avant de les envoyer au serveur de mid-sourcing.
+  La cause de cette erreur est liée à des problèmes de performance. Elle indique que l’instance marketing a passé trop de temps à créer des données avant de les envoyer au serveur de mid-sourcing.
 
-   Pour la corriger, il est recommandé d’effectuer un nettoyage et une réindexation de la base de données. Pour plus d’informations sur la maintenance de la base de données, consultez [cette section](../../production/using/recommendations.md).
+  Pour la corriger, il est recommandé d’effectuer un nettoyage et une réindexation de la base de données. Pour plus d’informations sur la maintenance de la base de données, consultez [cette section](../../production/using/recommendations.md).
 
-   Vous devez également redémarrer tous les workflows avec une activité planifiée et tous ceux dans un état en échec. Consultez [cette section](../../workflow/using/scheduler.md).
+  Vous devez également redémarrer tous les workflows avec une activité planifiée et tous ceux dans un état en échec. Consultez [cette section](../../workflow/using/scheduler.md).
 
 * En cas d’échec d’une diffusion, l’erreur suivante peut s’afficher dans les logs de diffusion :
 
-   ```
-   DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
-   ```
+  ```
+  DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
+  ```
 
-   En règle générale, cette erreur signifie qu’un champ ou un bloc de personnalisation dans l’email possède plusieurs valeurs pour le destinataire. Un bloc de personnalisation est utilisé et il récupère plusieurs enregistrements pour un destinataire spécifique.
+  En règle générale, cette erreur signifie qu’un champ ou un bloc de personnalisation dans l’email possède plusieurs valeurs pour le destinataire. Un bloc de personnalisation est utilisé et il récupère plusieurs enregistrements pour un destinataire spécifique.
 
-   Pour la corriger, vérifiez les données de personnalisation utilisées, puis contrôlez la cible des destinataires qui possèdent plusieurs entrées pour l’un de ces champs. Vous pouvez également utiliser une activité de **[!UICONTROL Déduplication]** dans le workflow de ciblage avant l’activité de diffusion pour vérifier qu’il n’existe qu’un seul champ de personnalisation à la fois. Pour plus d’informations sur la déduplication, consultez [cette page](../../workflow/using/deduplication.md).
+  Pour la corriger, vérifiez les données de personnalisation utilisées, puis contrôlez la cible des destinataires qui possèdent plusieurs entrées pour l’un de ces champs. Vous pouvez également utiliser une activité de **[!UICONTROL Déduplication]** dans le workflow de ciblage avant l’activité de diffusion pour vérifier qu’il n’existe qu’un seul champ de personnalisation à la fois. Pour plus d’informations sur la déduplication, consultez [cette page](../../workflow/using/deduplication.md).
 
 * Certaines diffusions peuvent échouer avec une erreur &quot;Inatteignable&quot; indiquant :
 
-   ```
-   Inbound email bounce (rule 'Auto_replies' has matched this bounce).
-   ```
+  ```
+  Inbound email bounce (rule 'Auto_replies' has matched this bounce).
+  ```
 
-   Cela signifie que la diffusion a réussi mais qu’Adobe Campaign a reçu une réponse automatique du destinataire (par exemple une réponse &quot;Absent du bureau&quot;) qui correspondait aux règles d’email entrant &quot;Réponses_automatiques&quot;.
+  Cela signifie que la diffusion a réussi mais qu’Adobe Campaign a reçu une réponse automatique du destinataire (par exemple une réponse &quot;Absent du bureau&quot;) qui correspondait aux règles d’email entrant &quot;Réponses_automatiques&quot;.
 
-   L’email de réponse automatique est ignoré par Adobe Campaign et l’adresse du destinataire n’est pas envoyée en quarantaine.
+  L’email de réponse automatique est ignoré par Adobe Campaign et l’adresse du destinataire n’est pas envoyée en quarantaine.

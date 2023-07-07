@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 100%
 
@@ -41,29 +41,29 @@ Elle contient quatre icônes :
 
 * L&#39;icône **Choisir un autre contenu** permet à l&#39;utilisateur de charger un nouveau contenu à partir d&#39;un modèle (existant ou modèle livré d&#39;usine).
 
-   ![](assets/dce_popup_templatechoice.png)
+  ![](assets/dce_popup_templatechoice.png)
 
-   >[!CAUTION]
-   >
-   >Le contenu sélectionné remplace le contenu actuel.
+  >[!CAUTION]
+  >
+  >Le contenu sélectionné remplace le contenu actuel.
 
 * L’icône **Enregistrer comme modèle** permet d’enregistrer le contenu actuel en tant que modèle. Vous devez saisir le libellé et le nom interne du modèle. Les modèles sont stockés dans le nœud : **[!UICONTROL Ressources > Modèles > Modèles de contenu]**.
 
-   ![](assets/dce_popup_savetemplate.png)
+  ![](assets/dce_popup_savetemplate.png)
 
-   Une fois enregistré, le modèle est disponible et peut être sélectionné lors de la création d&#39;un nouveau contenu.
+  Une fois enregistré, le modèle est disponible et peut être sélectionné lors de la création d&#39;un nouveau contenu.
 
-   ![](assets/dce_create_fromtemplate.png)
+  ![](assets/dce_create_fromtemplate.png)
 
 * L&#39;icône **Propriétés de la page** permet de saisir les informations contenues dans la partie supérieure de la page HTML.
 
-   ![](assets/dce_popup_headerhtml.png)
+  ![](assets/dce_popup_headerhtml.png)
 
-   >[!NOTE]
-   >
-   >Ces informations correspondent aux balises HTML **`<title>`** et **`<meta>`** de la page.
-   >
-   >Les mots-clés doivent être séparés par des virgules.
+  >[!NOTE]
+  >
+  >Ces informations correspondent aux balises HTML **`<title>`** et **`<meta>`** de la page.
+  >
+  >Les mots-clés doivent être séparés par des virgules.
 
 ## Options des blocs {#block-options}
 

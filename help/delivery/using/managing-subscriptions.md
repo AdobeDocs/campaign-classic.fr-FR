@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Subscriptions
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 100%
 
@@ -54,9 +54,9 @@ Pour éditer un service existant, cliquez sur son nom. Pour créer un service, c
 
 * Saisissez le nom du service dans le champ **[!UICONTROL Libellé]** et sélectionnez le canal de diffusion : Email, Mobile, Facebook, Twitter, Application mobile.
 
-   >[!NOTE]
-   >
-   >Les abonnements Facebook et Twitter sont détaillés dans [cette section](../../social/using/about-social-marketing.md). Les abonnements aux applications mobiles sont détaillés dans [À propos de Mobile App Channel](about-mobile-app-channel.md).
+  >[!NOTE]
+  >
+  >Les abonnements Facebook et Twitter sont détaillés dans [cette section](../../social/using/about-social-marketing.md). Les abonnements aux applications mobiles sont détaillés dans [À propos de Mobile App Channel](about-mobile-app-channel.md).
 
 * Pour un service de type Email, choisissez le **mode de diffusion**. Les modes possibles sont : **[!UICONTROL Newsletter]** ou **[!UICONTROL Viral]**.
 * Vous pouvez envoyer des **messages de confirmation** lors de l&#39;inscription ou de la désinscription : vous devez alors choisir les modèles de diffusion à utiliser pour créer les diffusions correspondantes depuis les champs **[!UICONTROL Inscription]** ou **[!UICONTROL Désinscription]**. Ces modèles doivent être paramétrés avec un mapping de ciblage de type **[!UICONTROL Abonnement]**, sans aucune cible définie. Pour plus d&#39;informations, consultez la section [À propos du canal Email](about-email-channel.md).
@@ -125,22 +125,22 @@ Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
 
 * Ajouter manuellement ce service : pour cela, depuis l&#39;onglet **[!UICONTROL Abonnements]** de leur profil, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez le service d&#39;information visé.
 
-   Voir à ce sujet la section sur l&#39;édition de profils dans [cette section](../../platform/using/editing-a-profile.md).
+  Voir à ce sujet la section sur l&#39;édition de profils dans [cette section](../../platform/using/editing-a-profile.md).
 
 * Abonner automatiquement à ce service un ensemble de destinataires. La liste de ces destinataires peut être issue d&#39;une opération de filtrages, d&#39;un groupe, d&#39;un dossier, d&#39;un import ou d&#39;une sélection directe par la souris. Pour abonner ces destinataires, sélectionnez les profils et cliquez sur le bouton droit de la souris. Choisissez **[!UICONTROL Actions > Abonner la sélection à un service...]** puis sélectionnez le service visé et lancez l&#39;opération.
 * Importer des destinataires et les abonner automatiquement à un service d&#39;information : pour cela, sélectionnez le service visé dans la dernière étape de l&#39;assistant d&#39;import.
 
-   Pour plus d’informations, consultez [cette section](../../platform/using/executing-import-jobs.md).
+  Pour plus d’informations, consultez [cette section](../../platform/using/executing-import-jobs.md).
 
 * Utiliser un formulaire web pour que les destinataires puissent s&#39;abonner à un service.
 
-   Pour plus d’informations, consultez [cette section](../../web/using/about-web-applications.md).
+  Pour plus d’informations, consultez [cette section](../../web/using/about-web-applications.md).
 
 * Créer un workflow de ciblage et utiliser une boîte de type **[!UICONTROL Service d&#39;inscriptions]**.
 
-   ![](assets/s_ncs_user_subscribe_from_wf.png)
+  ![](assets/s_ncs_user_subscribe_from_wf.png)
 
-   Les workflows et leur utilisation sont présentés dans [cette section](../../workflow/using/about-workflows.md).
+  Les workflows et leur utilisation sont présentés dans [cette section](../../workflow/using/about-workflows.md).
 
 ### Désinscrire un destinataire d&#39;un service {#unsubscribing-a-recipient-from-a-service}
 

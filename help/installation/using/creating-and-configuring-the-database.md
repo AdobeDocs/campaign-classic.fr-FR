@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 100%
 
@@ -61,11 +61,11 @@ Selon le moteur de base sélectionné, les informations d&#39;identification du 
 * Pour un moteur **PostgreSQL** ou **DB2**, indiquez le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
 * Pour un moteur **Microsoft SQL Server**, vous devez définir :   le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
 
-   >[!CAUTION]
-   >
-   > Depuis la version 20.3, l&#39;authentification Windows NT est désactivée. **[!UICONTROL L&#39;authentification SQL Server]** est désormais le seul mode d&#39;authentification disponible pour Microsoft SQL Server. [En savoir plus](../../rn/using/deprecated-features.md)
+  >[!CAUTION]
+  >
+  > Depuis la version 20.3, l&#39;authentification Windows NT est désactivée. **[!UICONTROL L&#39;authentification SQL Server]** est désormais le seul mode d&#39;authentification disponible pour Microsoft SQL Server. [En savoir plus](../../rn/using/deprecated-features.md)
 
-   ![](assets/s_ncs_install_db_mssql_creation01.png)
+  ![](assets/s_ncs_install_db_mssql_creation01.png)
 
 ### Etape 2 - Connexion au serveur {#step-2---connecting-to-the-server}
 
@@ -90,24 +90,24 @@ Vous devez définir les paramètres suivants :
 
 * Indiquez le nom de la base de données à créer.
 
-   >[!NOTE]
-   >
-   >Pour une base DB2, nom de la base ne doit pas excéder 8 caractères.
+  >[!NOTE]
+  >
+  >Pour une base DB2, nom de la base ne doit pas excéder 8 caractères.
 
 * Saisissez le mot de passe du compte associé à cette base.
 * Indiquez si la base doit être Unicode ou non.
 
-   L&#39;option **[!UICONTROL Base Unicode]** permet de stocker tous les types de caractères en Unicode, quelle que soit la langue.
+  L&#39;option **[!UICONTROL Base Unicode]** permet de stocker tous les types de caractères en Unicode, quelle que soit la langue.
 
-   >[!NOTE]
-   >
-   >Pour une base Oracle, l&#39;option **[!UICONTROL Stockage Unicode]** permet d&#39;utiliser des champs de type **NCLOB**, **NVARCHAR**, etc.
-   > 
-   >Si vous ne sélectionnez pas cette option, le jeu de caractères (charset) de la base Oracle doit permettre le stockage des données dans toutes les langues (AL32UTF8 est recommandé).
+  >[!NOTE]
+  >
+  >Pour une base Oracle, l&#39;option **[!UICONTROL Stockage Unicode]** permet d&#39;utiliser des champs de type **NCLOB**, **NVARCHAR**, etc.
+  > 
+  >Si vous ne sélectionnez pas cette option, le jeu de caractères (charset) de la base Oracle doit permettre le stockage des données dans toutes les langues (AL32UTF8 est recommandé).
 
 * Choisissez le fuseau horaire de la base de données et indiquez éventuellement si la base doit être en UTC, lorsque cette option est disponible.
 
-   Voir à ce sujet la section [Gestion des fuseaux horaires](../../installation/using/time-zone-management.md).
+  Voir à ce sujet la section [Gestion des fuseaux horaires](../../installation/using/time-zone-management.md).
 
 ### Etape 4 - Packages à installer {#step-4---packages-to-install}
 
@@ -125,7 +125,7 @@ La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibili
 
 * Pour une base Oracle, Microsoft SQL Server ou PostgreSQL, l&#39;administrateur de bases de données peut par ailleurs déterminer ici des **paramètres de stockage** à utiliser lors de la création des objets base de données.
 
-   Ces paramètres reçoivent les noms exacts des tablespaces (avertissement : respecte la casse). Ils sont respectivement stockés dans le nœud **[!UICONTROL Administration > Plateforme > Options]** dans les options suivantes (voir [cette section](../../installation/using/configuring-campaign-options.md#database)) :
+  Ces paramètres reçoivent les noms exacts des tablespaces (avertissement : respecte la casse). Ils sont respectivement stockés dans le nœud **[!UICONTROL Administration > Plateforme > Options]** dans les options suivantes (voir [cette section](../../installation/using/configuring-campaign-options.md#database)) :
 
    * **WdbcOptions_TableSpaceUser**: tables utilisateur basées sur un schéma
    * **WdbcOptions_TableSpaceIndex**: index des tables utilisateur basées sur un schéma
@@ -135,7 +135,7 @@ La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibili
 * Pour une base Oracle, l&#39;utilisateur Adobe Campaign doit avoir accès aux librairies Oracle, typiquement en étant membre du groupe **oinstall**.
 * L&#39;option **[!UICONTROL Fixer ou changer le mot de passe administrateur]** permet de renseigner le mot de passe associé à l&#39;opérateur Adobe Campaign ayant les droits administrateur.
 
-   Il est vivement recommandé de définir le mot de passe du compte administrateur Adobe Campaign afin de ne pas créer de faille de sécurité.
+  Il est vivement recommandé de définir le mot de passe du compte administrateur Adobe Campaign afin de ne pas créer de faille de sécurité.
 
 ### Etape 6 - Lancement de la création de la base {#step-6---creating-the-database}
 
@@ -201,10 +201,10 @@ Vous devez définir les paramètres suivants :
 * Saisissez le nom de la base de données à utiliser,
 * Saisissez le nom et le mot de passe du compte associé à cette base,
 
-   >[!NOTE]
-   >
-   >Assurez-vous que le nom du schéma et le nom d’utilisateur correspondent. La méthode recommandée pour créer une base de données est la console cliente de Campaign.
-   >Pour une base Oracle, il n&#39;est pas nécessaire de saisir le nom du compte.
+  >[!NOTE]
+  >
+  >Assurez-vous que le nom du schéma et le nom d’utilisateur correspondent. La méthode recommandée pour créer une base de données est la console cliente de Campaign.
+  >Pour une base Oracle, il n&#39;est pas nécessaire de saisir le nom du compte.
 
 * Indiquez si la base doit être Unicode ou non.
 
@@ -226,7 +226,7 @@ La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibili
 * Pour une base Oracle, l&#39;utilisateur Adobe Campaign doit avoir accès aux librairies Oracle, typiquement en étant membre du groupe **oinstall**.
 * L&#39;option **[!UICONTROL Fixer ou changer le mot de passe administrateur]** permet de renseigner le mot de passe associé à l&#39;opérateur Adobe Campaign ayant les droits administrateur.
 
-   Il est vivement recommandé de définir le mot de passe du compte administrateur Adobe Campaign afin de ne pas créer de faille de sécurité.
+  Il est vivement recommandé de définir le mot de passe du compte administrateur Adobe Campaign afin de ne pas créer de faille de sécurité.
 
 ### Etape 5 - Lancement de la création de la base {#step-5---creating-the-database}
 

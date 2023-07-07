@@ -9,7 +9,7 @@ exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1811'
 ht-degree: 100%
 
@@ -201,9 +201,9 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
 * **[!UICONTROL Identification des contacts convertis]** : répertorie les visiteurs du site ayant concrétisé leur achat après une campagne de remarketing. Les données récupérées par ce workflow sont accessibles dans le rapport **[!UICONTROL Efficacité du remarketing]**, voir cette [page](#creating-a-re-marketing-campaign).
 * **[!UICONTROL Envoi des indicateurs et attributs de campagne]** : permet d’envoyer les indicateurs des campagnes par e-mail depuis Adobe Campaign vers Adobe Experience Cloud via Adobe Analytics - Connecteur de données. Ce workflow est déclenché à 4 heures du matin tous les jours et peut prendre 24 heures pour que les données soient envoyées à Analytics.
 
-   Veuillez noter que ce workflow ne devrait pas être redémarré. Dans le cas contraire, il renverrait toutes les données précédentes, ce qui peut fausser les résultats d&#39;Analytics.
+  Veuillez noter que ce workflow ne devrait pas être redémarré. Dans le cas contraire, il renverrait toutes les données précédentes, ce qui peut fausser les résultats d&#39;Analytics.
 
-   Les indicateurs concernés sont les suivants :
+  Les indicateurs concernés sont les suivants :
 
    * **[!UICONTROL Messages à envoyer]** (@toDeliver)
    * **[!UICONTROL Traités]** (@processed)
@@ -216,11 +216,11 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
    * **[!UICONTROL Désinscription (opt-out)]** (@optOut)
    * **[!UICONTROL Erreurs]** (@error)
 
-   >[!NOTE]
-   >
-   >Les données envoyées correspondent au delta basé sur la dernière prise de photo, ce qui peut générer une valeur négative dans les données de mesure.
+  >[!NOTE]
+  >
+  >Les données envoyées correspondent au delta basé sur la dernière prise de photo, ce qui peut générer une valeur négative dans les données de mesure.
 
-   Les attributs envoyés sont les suivants :
+  Les attributs envoyés sont les suivants :
 
    * **[!UICONTROL Nom interne]** (@internalName)
    * **[!UICONTROL Libellé]** (@label)
@@ -230,7 +230,6 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
    * **[!UICONTROL Tag 2]** (webAnalytics/@tag2)
    * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
    * **[!UICONTROL Date de contact]** (scheduling/@contactDate)
-
 
 ## Tracking des diffusions dans Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
 

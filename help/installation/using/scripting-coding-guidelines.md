@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 100%
 
@@ -28,28 +28,28 @@ Si vous écrivez un script à l’aide d’un workflow, d’applications web ou 
 
 * Si besoin est, utilisez des fonctions (instruction prepare) paramétrables au lieu de la concaténation de chaîne.
 
-   Mauvaise pratique :
+  Mauvaise pratique :
 
-   ```
-   sqlGetInt( "select iRecipientId from NmsRecipient where sEmail ='" + request.getParameter('email') +  "'  limit 1" )
-   ```
+  ```
+  sqlGetInt( "select iRecipientId from NmsRecipient where sEmail ='" + request.getParameter('email') +  "'  limit 1" )
+  ```
 
-   Bonne pratique :
+  Bonne pratique :
 
-   ```
-   sqlGetInt( "select iRecipientId from NmsRecipient where sEmail = $(sz) limit 1", request.getParameter('email'));
-   ```
+  ```
+  sqlGetInt( "select iRecipientId from NmsRecipient where sEmail = $(sz) limit 1", request.getParameter('email'));
+  ```
 
-   >[!IMPORTANT]
-   >
-   >sqlSelect ne prend pas en charge cette fonctionnalité. Vous devez donc utiliser la fonction de requête de la classe DBEngine :
+  >[!IMPORTANT]
+  >
+  >sqlSelect ne prend pas en charge cette fonctionnalité. Vous devez donc utiliser la fonction de requête de la classe DBEngine :
 
-   ```
-   var cnx = application.getConnection()
-   var stmt = cnx.query("SELECT sFirstName, sLastName FROM NmsRecipient where sEmail = $(sz)", request.getParameter('email'))
-   for each(var row in stmt) logInfo(row[0] + " : " + row[1])
-   cnx.dispose()
-   ```
+  ```
+  var cnx = application.getConnection()
+  var stmt = cnx.query("SELECT sFirstName, sLastName FROM NmsRecipient where sEmail = $(sz)", request.getParameter('email'))
+  for each(var row in stmt) logInfo(row[0] + " : " + row[1])
+  cnx.dispose()
+  ```
 
 Pour éviter les injections SQL, les fonctions SQL doivent être ajoutées à la liste autorisée à utiliser dans Adobe Campaign. Une fois qu’elles ont été ajoutées à la liste autorisée, vos opérateurs peuvent les voir dans l’éditeur d’expression. Reportez-vous à [cette page](../../configuration/using/adding-additional-sql-functions.md).
 
@@ -79,23 +79,23 @@ En plus du modèle de sécurité basé sur les dossiers, vous pouvez utiliser de
 
 * Vous pouvez ajouter des filtres système (sysFilter) pour empêcher tout accès en lecture/écriture à vos données (reportez-vous à [cette page](../../configuration/using/filtering-schemas.md)).
 
-   ```
-   <sysFilter name="writeAccess">    
-       <condition enabledIf="hasNamedRight('myNewRole')=false" expr="FALSE"/>  
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="writeAccess">    
+      <condition enabledIf="hasNamedRight('myNewRole')=false" expr="FALSE"/>  
+  </sysFilter>
+  ```
 
 * Vous pouvez également protéger certaines actions (méthode SOAP) définies dans les schémas. Il vous suffit de définir l’attribut d’accès avec le droit nommé correspondant comme valeur.
 
-   ```
-   <method name="grantVIPAccess" access="myNewRole">
-       <parameters>
-   ...
-       </parameters>
-   </method>
-   ```
+  ```
+  <method name="grantVIPAccess" access="myNewRole">
+      <parameters>
+  ...
+      </parameters>
+  </method>
+  ```
 
-   Pour plus d’informations à ce sujet, consultez [cette page](../../configuration/using/implementing-soap-methods.md).
+  Pour plus d’informations à ce sujet, consultez [cette page](../../configuration/using/implementing-soap-methods.md).
 
 >[!IMPORTANT]
 >
@@ -146,7 +146,8 @@ La méthode générale pour ajouter un captcha dans le DCE consiste à créer un
    * La ligne 4 permet de changer la taille du cadre gris du captcha (width/height) et la longueur du mot généré (minWordSize/maxWordSize).
    * Avant d’utiliser un reCAPTCHA Google, vous devez vous enregistrer sur Google et créer un site reCAPTCHA.
 
-      `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
+     `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
+
    Vous devriez être en mesure de désactiver le bouton de validation, mais comme il n’existe pas de bouton/lien standard, il est préférable de le faire dans le code HTML. Pour savoir comment effectuer cela, consultez [cette page](https://developers.google.com/recaptcha/).
 
 ### Mise à jour de votre application web

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -24,11 +24,11 @@ Adobe Campaign fournit deux séries d&#39;options architecturales pré-packagé
 
 * **Power Booster**
 
-   Cette option fournit un support pour une instance d&#39;exécution supplémentaire découplée de l&#39;instance applicative Adobe Campaign principale en rapport avec une application donnée. Une instance dédiée peut être hébergée hors site ou bien par un prestataire tiers. Lorsqu&#39;elle est mise en oeuvre, l&#39;exécution email, le tracking, les pages miroir et les messages « bounce » sont pris en charge indépendamment des fonctionnalités de l&#39;application centrale.
+  Cette option fournit un support pour une instance d&#39;exécution supplémentaire découplée de l&#39;instance applicative Adobe Campaign principale en rapport avec une application donnée. Une instance dédiée peut être hébergée hors site ou bien par un prestataire tiers. Lorsqu&#39;elle est mise en oeuvre, l&#39;exécution email, le tracking, les pages miroir et les messages « bounce » sont pris en charge indépendamment des fonctionnalités de l&#39;application centrale.
 
 * **Power Cluster**
 
-   Cette option fournit un support pour 2 à N instances d&#39;exécution en configuration clusterisée découplées de l&#39;instance applicative Adobe Campaign principale et ceci en rapport avec une application donnée. Des clusters peuvent être hébergés hors site, dans des déploiements distribués ou bien par des prestataires tiers. En plus des bénéfices d&#39;isolation des processus, l&#39;option Adobe Campaign Power Cluster permet la redondance ainsi que des stratégies « scale out » à base de matériel banalisé pour une évolution simplifiée du niveau de service ou de performance.
+  Cette option fournit un support pour 2 à N instances d&#39;exécution en configuration clusterisée découplées de l&#39;instance applicative Adobe Campaign principale et ceci en rapport avec une application donnée. Des clusters peuvent être hébergés hors site, dans des déploiements distribués ou bien par des prestataires tiers. En plus des bénéfices d&#39;isolation des processus, l&#39;option Adobe Campaign Power Cluster permet la redondance ainsi que des stratégies « scale out » à base de matériel banalisé pour une évolution simplifiée du niveau de service ou de performance.
 
 ![](assets/architectural_options_diagram.png)
 

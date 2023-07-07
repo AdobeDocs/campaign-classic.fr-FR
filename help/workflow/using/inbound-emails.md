@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Channels Activity
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 100%
 
@@ -26,31 +26,31 @@ Le premier onglet de l&#39;activité **Réception d&#39;email** permet de rensei
 
    * **[!UICONTROL Utiliser un compte externe]**
 
-      Lorsque cette option est activée, vous pouvez sélectionner un compte externe de type POP3 plutôt que de saisir les paramètres de connexion. Le champ **[!UICONTROL Compte externe]** indique le compte externe de type POP3 à utiliser pour se connecter à la messagerie. Ce champ n&#39;est visible que si l&#39;option &#39;Utiliser un compte externe&#39; est activée.
+     Lorsque cette option est activée, vous pouvez sélectionner un compte externe de type POP3 plutôt que de saisir les paramètres de connexion. Le champ **[!UICONTROL Compte externe]** indique le compte externe de type POP3 à utiliser pour se connecter à la messagerie. Ce champ n&#39;est visible que si l&#39;option &#39;Utiliser un compte externe&#39; est activée.
 
-      Si cette option n&#39;est pas sélectionnée, vous devez indiquer les paramètres suivants :
+     Si cette option n&#39;est pas sélectionnée, vous devez indiquer les paramètres suivants :
 
-      ![](assets/email_rec_edit_1b.png)
+     ![](assets/email_rec_edit_1b.png)
 
       * **[!UICONTROL Serveur POP3]**
 
-         Nom du serveur POP3.
+        Nom du serveur POP3.
 
       * **[!UICONTROL Compte POP3]**
 
-         Nom de l&#39;utilisateur.
+        Nom de l&#39;utilisateur.
 
       * **[!UICONTROL Mot de passe]**
 
-         Mot de passe du compte de l&#39;utilisateur.
+        Mot de passe du compte de l&#39;utilisateur.
 
       * **[!UICONTROL Port]**
 
-         Numéro de port de la connexion POP3. Le port par défaut est 110.
+        Numéro de port de la connexion POP3. Le port par défaut est 110.
+
    * **[!UICONTROL Terminer dès qu&#39;un email est traité]**
 
-      Cette option permet de traiter les emails un par un. L&#39;activité n&#39;active sa transition qu&#39;une seule fois puis termine le traitement en laissant les messages non traités sur le serveur.
-
+     Cette option permet de traiter les emails un par un. L&#39;activité n&#39;active sa transition qu&#39;une seule fois puis termine le traitement en laissant les messages non traités sur le serveur.
 
 1. **[!UICONTROL Script]**
 

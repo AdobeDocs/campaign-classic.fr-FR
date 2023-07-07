@@ -19,6 +19,7 @@ En tant que client Campaign Classic, vous devez implémenter le nouveau serveur
 >[!NOTE]
 >
 >Pour plus d’informations sur ces modifications, reportez-vous à la section [FAQ](#faq) ou contactez [l’Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
+>
 
 ## Qu’est-ce qui a changé ?{#acc-deliverability-changes}
 
@@ -43,6 +44,7 @@ Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaig
 >[!WARNING]
 >
 >Ces étapes ne doivent être effectuées que pour les implémentations hybrides et On-premise.
+>
 
 ### Conditions préalables{#prerequisites}
 

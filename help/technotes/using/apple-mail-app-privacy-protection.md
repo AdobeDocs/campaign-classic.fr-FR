@@ -61,21 +61,21 @@ Pour collecter des informations à partir des données Adobe Campaign, vous pou
 
 * Rapport sur les **[!UICONTROL Systèmes d’exploitation]**
 
-   Pour identifier la proportion de visiteurs par système d’exploitation et par version, utilisez ce rapport. [En savoir plus](../../reporting/using/global-reports.md#operating-systems).
+  Pour identifier la proportion de visiteurs par système d’exploitation et par version, utilisez ce rapport. [En savoir plus](../../reporting/using/global-reports.md#operating-systems).
 
-   Vous pouvez afficher la répartition des visiteurs par système d’exploitation au regard du nombre total de visiteurs.
+  Vous pouvez afficher la répartition des visiteurs par système d’exploitation au regard du nombre total de visiteurs.
 
-   ![](../../reporting/using/assets/s_ncs_user_os_report.png)
+  ![](../../reporting/using/assets/s_ncs_user_os_report.png)
 
-   Pour chaque système d’exploitation, vous pouvez afficher la répartition des visiteurs en fonction de la version du système d’exploitation.
+  Pour chaque système d’exploitation, vous pouvez afficher la répartition des visiteurs en fonction de la version du système d’exploitation.
 
-   ![](../../reporting/using/assets/s_ncs_user_os_report2.png)
+  ![](../../reporting/using/assets/s_ncs_user_os_report2.png)
 
 * Rapport sur la **[!UICONTROL Répartition des ouvertures]**
 
-   Utilisez ce rapport pour identifier la proportion d’ouvertures d’e-mails par système d’exploitation. [En savoir plus](../../reporting/using/global-reports.md#breakdown-of-opens).
+  Utilisez ce rapport pour identifier la proportion d’ouvertures d’e-mails par système d’exploitation. [En savoir plus](../../reporting/using/global-reports.md#breakdown-of-opens).
 
-   ![](../../reporting/using/assets/dlv_useragent_report.png)
+  ![](../../reporting/using/assets/dlv_useragent_report.png)
 
 ### Déterminer l’utilisation du suivi des ouvertures d’e-mails {#find-email-open-tracking}
 
@@ -89,21 +89,21 @@ Dans cet exemple, un spécialiste marketing souhaite envoyer une offre de récom
 
 * Vous pouvez utiliser les ouvertures d’e-mail comme critère de ciblage dans une requête.
 
-   Vous pouvez indiquer, sous forme de condition de filtrage, que le type d’URL des logs de tracking d’une diffusion spécifique doit être défini sur **[!UICONTROL Ouverture]**.
+  Vous pouvez indiquer, sous forme de condition de filtrage, que le type d’URL des logs de tracking d’une diffusion spécifique doit être défini sur **[!UICONTROL Ouverture]**.
 
-   ![](assets/identify-email-open-tracking-2.png)
+  ![](assets/identify-email-open-tracking-2.png)
 
 * Vous pouvez utiliser un filtre prédéfini. [En savoir plus](../../workflow/using/creating-a-filter.md).
 
-   ![](assets/identify-email-open-tracking-3.png)
+  ![](assets/identify-email-open-tracking-3.png)
 
-   Vous pouvez utiliser ce filtre prédéfini dans les activités de requête des workflows.
+  Vous pouvez utiliser ce filtre prédéfini dans les activités de requête des workflows.
 
-   ![](assets/identify-email-open-tracking-4.png)
+  ![](assets/identify-email-open-tracking-4.png)
 
-   >[!NOTE]
-   >
-   >Vous ne pouvez pas afficher les critères de ciblage d’un filtre prédéfini depuis un workflow.
+  >[!NOTE]
+  >
+  >Vous ne pouvez pas afficher les critères de ciblage d’un filtre prédéfini depuis un workflow.
 
 Pour récupérer la liste de workflows qui utilisent les ouvertures d’e-mail comme critère de ciblage, vous devez effectuer une requête au schéma `xtk:workflow`. Le contenu du workflow est stocké dans le champ **[!UICONTROL Mémo XML (données)]** au format XML.
 
@@ -326,7 +326,7 @@ Nous vous recommandons vivement de conserver ces données, et ce, pour diverses 
 
 * Ces données sont conservées par Adobe Campaign pendant une période limitée. La période de rétention varie en fonction de la configuration de votre instance.
 
-   Vérifiez la configuration de votre instance. [En savoir plus](../../platform/using/privacy-management.md#data-retention).
+  Vérifiez la configuration de votre instance. [En savoir plus](../../platform/using/privacy-management.md#data-retention).
 
 * En dépit des modifications récentes effectuées par Apple, vous pouvez utiliser les données de tracking pour ajouter une énorme valeur afin de stimuler l’engagement de votre audience.
 * Il est possible qu’Apple apporte des modifications supplémentaires à son application Mail native et à sa fonctionnalité de protection de la confidentialité dans Mail.
@@ -433,9 +433,9 @@ Ces exemples illustrent comment utiliser des workflows pour ventiler des enregis
 
    1. Une activité **[!UICONTROL Fin]** suit chaque activité **[!UICONTROL Déduplication]**.
 
-   Ce type de workflow est utile si vous stockez uniquement les destinataires dans la table des destinataires d’usine pour le ciblage.
+  Ce type de workflow est utile si vous stockez uniquement les destinataires dans la table des destinataires d’usine pour le ciblage.
 
-   ![](assets/export-tracking-data-wkf-1.png)
+  ![](assets/export-tracking-data-wkf-1.png)
 
 * Le deuxième exemple de workflow comprend les activités suivantes :
 
@@ -445,8 +445,9 @@ Ces exemples illustrent comment utiliser des workflows pour ventiler des enregis
 
       * Dans une transition, l’activité **[!UICONTROL Changement de dimension]** permet de trouver les destinataires auxquels le log de tracking fait référence.
       * Dans l’autre transition, l’activité **[!UICONTROL Partage]** permet de diviser la sélection par application de messagerie, navigateur, système d’exploitation et appareil.
+
    1. Une activité **[!UICONTROL Fin]** suit chaque transition après l’activité **[!UICONTROL Partage]**.
 
-   Ce type de workflow est utile si vous stockez les destinataires dans une table distincte de la table des destinataires d’usine.
+  Ce type de workflow est utile si vous stockez les destinataires dans une table distincte de la table des destinataires d’usine.
 
-   ![](assets/export-tracking-data-wkf-2.png)
+  ![](assets/export-tracking-data-wkf-2.png)

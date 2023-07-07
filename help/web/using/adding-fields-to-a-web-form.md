@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 100%
 
@@ -72,39 +72,40 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
 
 * **Texte** : permet à l&#39;utilisateur de saisir du texte, sur une ligne.
 
-   ![](assets/s_ncs_admin_survey_txt_ex.png)
+  ![](assets/s_ncs_admin_survey_txt_ex.png)
 
 * **Nombre** : permet à l&#39;utilisateur de saisir un nombre sur une ligne. Voir à ce sujet la section [Ajouter des nombres](#adding-numbers).
 
-   Lors de la validation de la page, le contenu des champs est contrôlé afin de vérifier que la valeur saisie est compatible avec le champ. Voir à ce sujet la section [Définir les paramètres de contrôle](form-rendering.md#defining-control-settings).
+  Lors de la validation de la page, le contenu des champs est contrôlé afin de vérifier que la valeur saisie est compatible avec le champ. Voir à ce sujet la section [Définir les paramètres de contrôle](form-rendering.md#defining-control-settings).
 
 * **Mot de passe** : permet à l&#39;utilisateur de saisir du texte sur une seule ligne. Lors de la saisie, les caractères sont remplacés par des points :
 
-   ![](assets/s_ncs_admin_survey_passwd_ex.png)
+  ![](assets/s_ncs_admin_survey_passwd_ex.png)
 
-   >[!CAUTION]
-   >
-   >Les mots de passe sont stockés en clair dans la base, sans chiffrement.
+  >[!CAUTION]
+  >
+  >Les mots de passe sont stockés en clair dans la base, sans chiffrement.
 
 * **Texte multi-lignes** : permet à l&#39;utilisateur de saisir du texte sur plusieurs lignes.
 
-   ![](assets/s_ncs_admin_survey_txtmulti_ex.png)
+  ![](assets/s_ncs_admin_survey_txtmulti_ex.png)
 
-   >[!CAUTION]
-   >
-   >Les champs de texte multi-lignes sont des champs spécifiques qui peuvent contenir des retours à la ligne. Leur espace de stockage doit être associé à un champ mappé sur un élément XML et non sur un attribut XML.
+  >[!CAUTION]
+  >
+  >Les champs de texte multi-lignes sont des champs spécifiques qui peuvent contenir des retours à la ligne. Leur espace de stockage doit être associé à un champ mappé sur un élément XML et non sur un attribut XML.
+  >   
 
 * **Texte multi-lignes enrichi** : permet à l&#39;utilisateur de saisir du texte, avec mise en forme, qui sera stocké au format HTML.
 
-   ![](assets/s_ncs_admin_survey_txthtmli_ex.png)
+  ![](assets/s_ncs_admin_survey_txthtmli_ex.png)
 
-   Vous pouvez sélectionner le type d&#39;éditeur qui sera proposé aux utilisateurs. Pour cela, utilisez la liste déroulante du champ **[!UICONTROL Editeur Html]** de l&#39;onglet **[!UICONTROL Avancé]**.
+  Vous pouvez sélectionner le type d&#39;éditeur qui sera proposé aux utilisateurs. Pour cela, utilisez la liste déroulante du champ **[!UICONTROL Editeur Html]** de l&#39;onglet **[!UICONTROL Avancé]**.
 
-   ![](assets/webapp_enrich_text_type.png)
+  ![](assets/webapp_enrich_text_type.png)
 
-   Selon le type d&#39;éditeur sélectionné, le nombre d&#39;icônes affichées sera différent. Pour un éditeur **[!UICONTROL Avancé]**, le rendu sera le suivant :
+  Selon le type d&#39;éditeur sélectionné, le nombre d&#39;icônes affichées sera différent. Pour un éditeur **[!UICONTROL Avancé]**, le rendu sera le suivant :
 
-   ![](assets/webapp_enrich_text_max.png)
+  ![](assets/webapp_enrich_text_max.png)
 
 ### Paramétrage des champs de saisie {#configure-input-fields}
 
@@ -180,7 +181,7 @@ Nous allons insérer une case à cocher dans un formulaire afin de transmettre u
 
 ![](assets/s_ncs_admin_survey_check_box_ex.png)
 
-L&#39;information sera remontée dans la base de données dans un champ existant (ici, le champ **[!UICONTROL Commentaire]**) :
+Les informations seront chargées vers la base de données dans un champ existant (ici, le champ **[!UICONTROL Commentaire]**) :
 
 ![](assets/s_ncs_admin_survey_check_box_ex_list.png)
 
@@ -378,7 +379,6 @@ Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans u
 >* Lorsque plusieurs serveurs sont associés à l&#39;instance (architecture « load balancing »), vous devez vous assurer que les appels au formulaire web arrivent sur le même serveur.
 >* Ce type d&#39;implémentation peut nécessiter l&#39;intervention de l&#39;équipe Consulting d&#39;Adobe Campaign.
 >
-
 
 ## Insérer une constante masquée {#inserting-a-hidden-constant}
 

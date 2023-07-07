@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
@@ -37,13 +37,13 @@ Adobe Campaign offre aux contrôleurs de données deux moyens d&#39;effectuer l
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les données personnelles et sur les différentes entités qui gèrent les données (Contrôleur de données, Responsable du traitement des données et Titulaire de données), consultez la section [Données personnelles et personnes concernées](privacy-and-recommendations.md#personal-data).
+>Pour plus d’informations sur les données personnelles et sur les différentes entités qui gèrent les données (contrôleur de données, responsable du traitement des données et titulaire de données), consultez la section [Données personnelles et personas](privacy-and-recommendations.md#personal-data).
 
 ## Conditions préalables requises {#prerequesites}
 
 Adobe Campaign met à la disposition des contrôleurs de données des outils afin de créer et traiter des demandes d&#39;accès à des informations personnelles pour les données stockées dans Adobe Campaign. Il incombe toutefois au contrôleur de données de gérer la relation avec le titulaire de données (e-mail, assistance clientèle ou portail web).
 
-Par conséquent, il est de votre responsabilité, en tant que contrôleur de données, de vérifier l&#39;identité du titulaire de données à l&#39;origine de la demande et de confirmer que les données renvoyées au demandeur concernent le titulaire de données.
+Par conséquent, il est de votre responsabilité, en tant que contrôleur de données, de vérifier l’identité du titulaire de données à l’origine de la demande et de confirmer que les données renvoyées au demandeur concernent le titulaire de données.
 
 ## Installation du package relatif à la confidentialité {#install-privacy-package}
 
@@ -52,7 +52,7 @@ Pour utiliser cette fonctionnalité, vous devez installer le package **[!UICONTR
 Deux nouveaux dossiers spécifiques à la confidentialité sont créés sous **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** :
 
 * **[!UICONTROL Demandes d&#39;accès à des informations personnelles]** : c&#39;est là que vous créez les demandes d&#39;accès à des informations personnelles et que vous suivez leur évolution.
-* **[!UICONTROL Espaces de noms]** : c&#39;est là que vous définissez le champ à utiliser pour identifier le titulaire des données dans la base de données Adobe Campaign.
+* **[!UICONTROL Espaces de noms]** : c’est là que vous définissez le champ à utiliser pour identifier le titulaire des données dans la base de données Adobe Campaign.
 
 ![](assets/privacy-folders.png)
 
@@ -70,7 +70,7 @@ Le droit nommé **[!UICONTROL Droit relatif aux données personnelles]** a été
 
 ## Espaces de noms {#namesspaces}
 
-Avant de créer des demandes d&#39;accès à des informations personnelles, vous devez définir l&#39;espace de noms que vous utiliserez. Il s&#39;agit de la clé qui sera utilisée pour identifier le titulaire de données dans la base de données Adobe Campaign.
+Avant de créer des demandes d&#39;accès à des informations personnelles, vous devez définir l&#39;espace de noms que vous utiliserez. Il s’agit de la clé qui sera utilisée pour identifier le titulaire de données dans la base de données Adobe Campaign.
 
 Trois espaces de noms d&#39;usine sont disponibles : email, téléphone et téléphone mobile. Si vous avez besoin d&#39;un autre espace de noms (un champ personnalisé de destinataire, par exemple), vous pouvez le créer dans **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Espaces de noms]**.
 

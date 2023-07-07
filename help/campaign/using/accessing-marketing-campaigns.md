@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 100%
 
@@ -71,13 +71,13 @@ Lorsque vous éditez un programme, utilisez les onglets présentés ci-dessous p
 
 * L&#39;onglet **Planning** affiche le calendrier du programme sur un mois, une semaine ou une journée selon l&#39;onglet sélectionné dans l&#39;en-tête du calendrier.
 
-   Au besoin, vous pouvez créer une opération, un programme ou une tâche depuis cette vue.
+  Au besoin, vous pouvez créer une opération, un programme ou une tâche depuis cette vue.
 
-   ![](assets/s_ncs_user_interface_campaign02.png)
+  ![](assets/s_ncs_user_interface_campaign02.png)
 
 * L&#39;onglet **Edition** vous permet de modifier le programme : son nom, ses dates de début et fin, son budget, ses documents associés, etc.
 
-   ![](assets/s_ncs_user_interface_campaign05.png)
+  ![](assets/s_ncs_user_interface_campaign05.png)
 
 #### Parcourir les opérations {#browsing-campaigns}
 

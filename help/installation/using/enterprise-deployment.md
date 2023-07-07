@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 100%
 
@@ -120,19 +120,19 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
 
    * Créer l&#39;instance via la console :
 
-      ![](assets/install_create_new_connexion.png)
+     ![](assets/install_create_new_connexion.png)
 
-      Voir à ce sujet la section [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
+     Voir à ce sujet la section [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
 
-      ou
+     ou
 
    * Créer l&#39;instance en ligne de commande :
 
-      ```
-      nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
-      ```
+     ```
+     nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
+     ```
 
-      Voir à ce sujet la section [Création d’une instance](../../installation/using/command-lines.md#creating-an-instance).
+     Voir à ce sujet la section [Création d’une instance](../../installation/using/command-lines.md#creating-an-instance).
 
 1. Editez le fichier **config-demo.xml** (nouvellement créé à partir de la commande précédente et présent à côté du fichier **config-default.xml**), vérifiez que les processus **mta** (diffusion), **wfserver** (workflow), **inMail** (mails rebonds) et **stat** (statistiques) sont activés, puis configurez l’adresse du serveur de statistiques **app** :
 

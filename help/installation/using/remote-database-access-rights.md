@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 100%
 
@@ -28,9 +28,9 @@ Tout d&#39;abord, afin qu&#39;un utilisateur puisse effectuer des opérations su
    * **base** correspond au nom de la base de données externe.
    * **server** correspond au nom du serveur de la base de données externe.
 
-      >[!NOTE]
-      >
-      >La partie **:base** est optionnelle sur Oracle.
+     >[!NOTE]
+     >
+     >La partie **:base** est optionnelle sur Oracle.
 
 1. Enregistrez le droit nommé puis associez-le à l&#39;utilisateur de votre choix à partir du noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l&#39;explorateur Adobe Campaign.
 

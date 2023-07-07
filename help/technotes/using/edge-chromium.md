@@ -5,7 +5,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 description: Campaign - Edge Chromium
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -32,9 +32,9 @@ Si votre environnement a été mis à niveau vers Campaign Classic v7.3 (ou ve
 
 * En tant que cliente ou client **On-Premise/hybride**, vous devez activer Microsoft Edge Chromium sur votre ou vos instances.
 
-   Lors de la mise à niveau vers Campaign Classic v7.3 (et versions ultérieures), un nouvel attribut `webView2Mode` est disponible dans le fichier de configuration du serveur Campaign `serverConf.xml`. Cet attribut doit être activé.
+  Lors de la mise à niveau vers Campaign Classic v7.3 (et versions ultérieures), un nouvel attribut `webView2Mode` est disponible dans le fichier de configuration du serveur Campaign `serverConf.xml`. Cet attribut doit être activé.
 
-   Pour ce faire, respectez les étapes suivantes sur tous vos environnements (MKT, MID, RT) :
+  Pour ce faire, respectez les étapes suivantes sur tous vos environnements (MKT, MID, RT) :
 
    1. Modifiez le fichier de configuration du serveur Campaign (`serverConf.xml`).
    1. Dans le module `<web>`, définissez `webView2Mode = "1"`.
@@ -60,6 +60,7 @@ Si votre environnement a été mis à niveau vers Campaign Classic v7.3 (ou ve
 >[!NOTE]
 >
 >Pour toute question sur ces modifications, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>
 
 ## Rubriques connexes
 

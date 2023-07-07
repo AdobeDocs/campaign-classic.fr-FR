@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 100%
 
@@ -100,27 +100,27 @@ Pour installer Adobe Campaign sur un système d’exploitation Debian 8/9, ten
 * OpenSSL doit être installé préalablement.
 * Installer les librairies libicu52 (Debian 8) ou libicu57 (Debian 9), libprotobuf9 (Debian8) et libc-ares2 avec les commandes suivantes :
 
-   ```
-   aptitude install libicu52 (Debian 8) libicu57 (Debian 9)
-   ```
+  ```
+  aptitude install libicu52 (Debian 8) libicu57 (Debian 9)
+  ```
 
-   ```
-   aptitude install libc-ares2
-   ```
+  ```
+  aptitude install libc-ares2
+  ```
 
-   ```
-   aptitude install libprotobuf9 (only Debian 8)
-   ```
+  ```
+  aptitude install libprotobuf9 (only Debian 8)
+  ```
 
 * Installer le JDK7 avec la commande suivante :
 
-   ```
-   aptitude install openjdk-7-jdk (Debian 8)
-   ```
+  ```
+  aptitude install openjdk-7-jdk (Debian 8)
+  ```
 
-   ```
-   aptitude install openjdk-7-jdk (Debian 9)
-   ```
+  ```
+  aptitude install openjdk-7-jdk (Debian 9)
+  ```
 
 ## Personnaliser les paramètres {#personalizing-parameters}
 
@@ -178,55 +178,55 @@ Au besoin, éditez le fichier **customer.sh** à l&#39;aide de la commande **vi 
 
 * Pour le client Oracle :
 
-   ```
-   export ORACLE_HOME=/usr/local/instantclient_10_2
-   export TNS_ADMIN=/etc/oracle
-   export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
-   ```
+  ```
+  export ORACLE_HOME=/usr/local/instantclient_10_2
+  export TNS_ADMIN=/etc/oracle
+  export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
+  ```
 
-   Le contenu de la variable d&#39;environnement ORACLE_HOME correspond au répertoire d&#39;installation d&#39;Oracle.
+  Le contenu de la variable d&#39;environnement ORACLE_HOME correspond au répertoire d&#39;installation d&#39;Oracle.
 
-   Le contenu de la variable TNS_ADMIN doit correspondre au répertoire d&#39;enregistrement du fichier **tnsnames.ora**.
+  Le contenu de la variable TNS_ADMIN doit correspondre au répertoire d&#39;enregistrement du fichier **tnsnames.ora**.
 
 * Pour LibreOffice :
 
-   Si vous souhaitez faire fonctionner Adobe Campaign sur une version de LibreOffice existante, une configuration complémentaire est nécessaire : vous devez indiquer les chemins d&#39;accès aux répertoires d&#39;installation. Par exemple :
+  Si vous souhaitez faire fonctionner Adobe Campaign sur une version de LibreOffice existante, une configuration complémentaire est nécessaire : vous devez indiquer les chemins d&#39;accès aux répertoires d&#39;installation. Par exemple :
 
    * Debian
 
-      Les valeurs par défaut de OOO_INSTALL_DIR et OOO_BASIS_INSTALL_DIR sont fournies. Vous pouvez les remplacer dans **customer.sh** si la disposition de l&#39;installation LibreOffice est différente :
+     Les valeurs par défaut de OOO_INSTALL_DIR et OOO_BASIS_INSTALL_DIR sont fournies. Vous pouvez les remplacer dans **customer.sh** si la disposition de l&#39;installation LibreOffice est différente :
 
-      ```
-      export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
-      export OOO_INSTALL_DIR=/usr/lib/libreoffice/
-      ```
+     ```
+     export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
+     export OOO_INSTALL_DIR=/usr/lib/libreoffice/
+     ```
 
    * CentOs
 
-      Utiliser les valeurs par défaut suivantes :
+     Utiliser les valeurs par défaut suivantes :
 
-      ```
-      export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
-      export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
-      ```
+     ```
+     export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
+     export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
+     ```
 
 * Pour Java Development Kit (JDK) :
 
-   Par défaut, le script de configuration de l&#39;environnement Adobe Campaign (`~/nl6/env.sh`) recherche le répertoire d&#39;installation du JDK. Ce comportement n&#39;étant pas fiable à 100 %, vous devez indiquer le JDK à utiliser. Pour ce faire, vous pouvez forcer la variable d&#39;environnement **JDK_HOME** à l&#39;aide de la commande suivante :
+  Par défaut, le script de configuration de l&#39;environnement Adobe Campaign (`~/nl6/env.sh`) recherche le répertoire d&#39;installation du JDK. Ce comportement n&#39;étant pas fiable à 100 %, vous devez indiquer le JDK à utiliser. Pour ce faire, vous pouvez forcer la variable d&#39;environnement **JDK_HOME** à l&#39;aide de la commande suivante :
 
-   ```
-   export JDK_HOME=/usr/java/jdk1.6.0_07
-   ```
+  ```
+  export JDK_HOME=/usr/java/jdk1.6.0_07
+  ```
 
-   >[!NOTE]
-   >
-   >Il s&#39;agit ici d&#39;un exemple. Assurez-vous que la version du JDK utilisée correspond au nom du répertoire.
+  >[!NOTE]
+  >
+  >Il s&#39;agit ici d&#39;un exemple. Assurez-vous que la version du JDK utilisée correspond au nom du répertoire.
 
-   Pour tester la configuration du JDK, connectez-vous en tant qu&#39;utilisateur Adobe Campaign système avec la commande suivante :
+  Pour tester la configuration du JDK, connectez-vous en tant qu&#39;utilisateur Adobe Campaign système avec la commande suivante :
 
-   ```
-   su - neolane
-   ```
+  ```
+  su - neolane
+  ```
 
 Vous devez relancer le service Adobe Campaign afin que les changements d&#39;environnement soient pris en compte.
 
@@ -251,29 +251,29 @@ Lorsque vous utilisez Oracle avec Adobe Campaign, vous devez configurer les cou
 * Utilisez la version cliente complète
 * Définition TNS
 
-   Vous devez ajouter vos définitions TNS lors de la phase d&#39;installation. Pour cela, les commandes sont les suivantes :
+  Vous devez ajouter vos définitions TNS lors de la phase d&#39;installation. Pour cela, les commandes sont les suivantes :
 
-   ```
-   cd /etc
-   mkdir oracle
-   cd oracle
-   vi tnsnames.ora
-   ```
+  ```
+  cd /etc
+  mkdir oracle
+  cd oracle
+  vi tnsnames.ora
+  ```
 
 * Variables d&#39;environnement
 
-   Pour plus d&#39;informations, consultez la section [Variables d&#39;environnement](../../installation/using/installing-packages-with-linux.md#environment-variables).
+  Pour plus d&#39;informations, consultez la section [Variables d&#39;environnement](../../installation/using/installing-packages-with-linux.md#environment-variables).
 
 * Paramétrage pour Adobe Campaign
 
-   Pour finaliser l&#39;installation du client Oracle pour Adobe Campaign, vous devez créer un lien symbolique pour le fichier **.so** utilisé par Adobe Campaign.
+  Pour finaliser l&#39;installation du client Oracle pour Adobe Campaign, vous devez créer un lien symbolique pour le fichier **.so** utilisé par Adobe Campaign.
 
-   Pour cela, les commandes sont les suivantes :
+  Pour cela, les commandes sont les suivantes :
 
-   ```
-   cd /usr/lib/oracle/10.2.0.4/client/lib
-   ln -s libclntsh.so.10.1 libclntsh.so
-   ```
+  ```
+  cd /usr/lib/oracle/10.2.0.4/client/lib
+  ln -s libclntsh.so.10.1 libclntsh.so
+  ```
 
 En cas de problème, vérifiez que les packages listés dans la [documentation d&#39;installation Oracle](https://docs.oracle.com/) sont bien installés.
 

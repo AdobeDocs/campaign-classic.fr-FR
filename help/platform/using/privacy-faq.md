@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 100%
 
@@ -44,9 +44,9 @@ Adobe ne fournit pas de conseils juridiques. Nous vous recommandons donc de vous
 
 * Examinez les différents types de données client stockées dans Adobe Campaign et définissez des identifiants uniques (il en faudra certainement plusieurs).
 
-* Définissez des politiques et procédures d’authentification et de confirmation de l’identité des titulaires des données.
+* Définissez des règles et procédures d’authentification et de validation pour la confirmation de l’identité des titulaires des données.
 
-* Assurez-vous que la réponse adressée au titulaire des données est parfaitement compréhensible.
+* Assurez-vous que la réponse adressée au titulaire de données est parfaitement compréhensible.
 
 **Obtention du consentement**
 
@@ -92,7 +92,7 @@ Par exemple, il est possible d’étendre le modèle de données dans Adobe Cam
 
 ### Quelles données les contrôleurs de données peuvent-ils supprimer dans Adobe Campaign en réponse à une requête d’un client (titulaire des données) ?
 
-Toutes les données associées au titulaire de données seront supprimées, y compris les tableaux prêts à l’emploi et personnalisés.
+Toutes les données associées au titulaire de données seront supprimées, y compris les tables d’usine et personnalisées.
 
 Techniquement, toutes les données liées au titulaire de données avec `integrity="own"` seront supprimées.
 
@@ -112,7 +112,7 @@ Lorsque vous recevez une demande de suppression, vous devez vérifier, en tant q
 
 ## Renouvellement d’opt-in {#opt-in-again}
 
-### Est-ce qu’un titulaire de données dont les données ont été effacées d’Adobe Campaign peut à nouveau donner son accord plus tard ?
+### Est-ce qu’un titulaire de données, dont les données ont été effacées d’Adobe Campaign, peut à nouveau donner son accord plus tard ?
 
 Il est possible pour un titulaire de données de donner à nouveau son accord ou d’être ajouté en tant que nouveau destinataire après l’effacement de ses données d’Adobe Campaign.
 

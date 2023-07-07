@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
    <td><p>Depuis la version 20.2 de Campaign, l’archivage des emails basé sur les fichiers n’est plus disponible. L’archivage des emails est désormais disponible par le biais d’une adresse de messagerie Cci dédiée. <a href="../../installation/using/email-archiving.md">En savoir plus</a></p></td>
   </tr> 
    <tr> 
-   <td>Gestion des leads</td>
+   <td>Gestion des prospects</td>
    <td><p>À compter de la version 20.2 de Campaign, le module Gestion des leads n’est plus disponible. Il est possible de mettre en œuvre des fonctionnalités similaires à l’aide d’autres activités de workflow natives et des modifications de modèles de données.</p></td>
    </tr>
    <tr>

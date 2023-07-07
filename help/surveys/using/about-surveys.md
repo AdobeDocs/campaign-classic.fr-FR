@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
 
@@ -30,7 +30,6 @@ Découvrez comment créer votre premier questionnaire dans [cette page](getting-
 >* Les étapes détaillées de création d&#39;un formulaire web standard sont présentées dans [ce document](../../web/using/about-web-forms.md).
 >
 >* La gestion des applications web est présentée dans [ce document](../../web/using/about-web-applications.md). Pour plus d&#39;informations, reportez-vous à ce chapitre.
-
 
 ## Périmètre de la fonctionnalité {#campaign-surveys-scope}
 

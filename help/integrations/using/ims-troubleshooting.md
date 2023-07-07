@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
 
@@ -75,12 +75,12 @@ Redémarrez le serveur si des modifications ont été apportées aux paramètres
 
 * L&#39;utilisateur est redirigé vers la page adobe.com :
 
-   Il y a un problème avec l&#39;**[!UICONTROL URL de callback]**. Reportez-vous aux étapes précédentes pour vérifier le paramétrage de l&#39;**[!UICONTROL URL de callback]**.
+  Il y a un problème avec l&#39;**[!UICONTROL URL de callback]**. Reportez-vous aux étapes précédentes pour vérifier le paramétrage de l&#39;**[!UICONTROL URL de callback]**.
 
 * Affichage du message &quot;Le login ne possède aucun droit correspondant à l&#39;expression&quot; :
 
-   Reportez-vous aux étapes précédentes pour vérifier le paramétrage du **[!UICONTROL masque de correspondance]** et des groupes d&#39;opérateurs.
+  Reportez-vous aux étapes précédentes pour vérifier le paramétrage du **[!UICONTROL masque de correspondance]** et des groupes d&#39;opérateurs.
 
 * L&#39;utilisateur ne parvient pas à accéder à la page de login Adobe ID :
 
-   Reportez-vous aux étapes précédentes pour vérifier le paramétrage du périmètre.
+  Reportez-vous aux étapes précédentes pour vérifier le paramétrage du périmètre.

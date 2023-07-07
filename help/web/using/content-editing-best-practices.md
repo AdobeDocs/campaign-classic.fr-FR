@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 100%
 
@@ -23,21 +23,21 @@ Afin de garantir un fonctionnement optimal de l&#39;éditeur, il est recommandé
 * Si la page HTML contient des **scripts en langage JavaScript**, ils doivent s&#39;exécuter **sans erreur** hors de l&#39;éditeur.
 * Lors de la construction d&#39;un modèle, il est conseillé d&#39;ajouter un attribut **&#39;type&#39;** aux balises. `<input>` Cette information sera interprétée par l&#39;éditeur et aidera l&#39;utilisateur à associer un champ de la base de données au champ du formulaire lors du paramétrage de l&#39;application web.
 
-   Exemple de code HTML dans le modèle :
+  Exemple de code HTML dans le modèle :
 
-   ```
-   <input id="email" type="email" name="email"/>
-   ```
+  ```
+  <input id="email" type="email" name="email"/>
+  ```
 
-   L&#39;attribut **&#39;type&#39;** est visible dans l&#39;interface sous la forme :
+  L&#39;attribut **&#39;type&#39;** est visible dans l&#39;interface sous la forme :
 
-   ![](assets/dce_sidebar_inputtypechanges.png)
+  ![](assets/dce_sidebar_inputtypechanges.png)
 
-   La liste officielle des attributs « types » est disponible [sur ce site](https://www.w3schools.com/tags/att_input_type.asp).
+  La liste officielle des attributs « types » est disponible [sur ce site](https://www.w3schools.com/tags/att_input_type.asp).
 
 * Enchaînement des étapes pour simuler une page de fin avec le DCE :
 
-   ![](assets/dce_enchainement.png)
+  ![](assets/dce_enchainement.png)
 
 * Assurez-vous qu’il n’y a bien qu&#39;un seul `<body> </body>` dans la page.
 * Lorsqu&#39;un fichier CSS ou JS est téléchargé, les images contenues dans le fichier .zip ne le sont pas. Les références de ces images présentes dans le CSS ne sont donc pas mises à jour.

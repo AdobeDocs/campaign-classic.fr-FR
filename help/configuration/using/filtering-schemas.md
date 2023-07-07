@@ -5,7 +5,7 @@ description: Filtrage des schémas
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Vous pouvez filtrer l’accès aux schémas pour des utilisateurs spécifiques, 
 
 * **readAccess** : permet d&#39;accéder aux données d&#39;un schéma en lecture seule.
 
-   **Attention** : toutes les tables liées doivent être définies avec la même restriction. Cette configuration peut avoir une incidence sur les performances.
+  **Attention** : toutes les tables liées doivent être définies avec la même restriction. Cette configuration peut avoir une incidence sur les performances.
 
 * **writeAccess** : permet d&#39;accéder aux données d&#39;un schéma en écriture.
 
@@ -31,29 +31,29 @@ Ces filtres sont renseignés au niveau de l’**élément** principal des schém
 
 * Restreindre les autorisations d’ÉCRITURE
 
-   Ici, le filtre sert à interdire les autorisations d’ÉCRITURE sur le schéma aux opérateurs ne disposant pas de la autorisation ADMINISTRATION. Ainsi, seuls les administrateurs pourront accéder en écriture aux entités décrites par ce schéma.
+  Ici, le filtre sert à interdire les autorisations d’ÉCRITURE sur le schéma aux opérateurs ne disposant pas de la autorisation ADMINISTRATION. Ainsi, seuls les administrateurs pourront accéder en écriture aux entités décrites par ce schéma.
 
-   ```
-   <sysFilter name="writeAccess">      
-    <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="writeAccess">      
+   <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
+  </sysFilter>
+  ```
 
 * Restreindre les autorisations de LECTURE et d’ÉCRITURE :
 
-   Ici, le filtre sert à interdire à la fois les autorisations de LECTURE et d’ÉCRITURE du schéma à tous les opérateurs. Seul le compte **interne**, représenté par l’expression &quot;$(loginId)!=0&quot;, possède ces autorisations.
+  Ici, le filtre sert à interdire à la fois les autorisations de LECTURE et d’ÉCRITURE du schéma à tous les opérateurs. Seul le compte **interne**, représenté par l’expression &quot;$(loginId)!=0&quot;, possède ces autorisations.
 
-   ```
-   <sysFilter name="readAccess"> 
-    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
-   </sysFilter>
-   
-   <sysFilter name="writeAccess">  
-    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="readAccess"> 
+   <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
+  </sysFilter>
+  
+  <sysFilter name="writeAccess">  
+   <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
+  </sysFilter>
+  ```
 
-   Les valeurs possibles de l’attribut **expr** utilisé pour définir la condition sont TRUE ou FALSE.
+  Les valeurs possibles de l’attribut **expr** utilisé pour définir la condition sont TRUE ou FALSE.
 
 >[!NOTE]
 >
