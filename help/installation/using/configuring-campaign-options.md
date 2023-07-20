@@ -2,15 +2,15 @@
 product: campaign
 title: Paramétrer les options de Campaign
 description: Découvrez comment paramétrer les options de Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+source-git-commit: 942d44104ae56e9334f42f10751979ce4f4a714d
 workflow-type: tm+mt
-source-wordcount: '3996'
-ht-degree: 100%
+source-wordcount: '4014'
+ht-degree: 98%
 
 ---
 
@@ -72,11 +72,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_LogsPerTransac</span> <br /> </td> 
-   <td> Nombre de BroadLogs créés pour une diffusion à la fois.<br /> </td> 
+   <td> Taille minimale du lot (nombre de lignes) pour l’insertion de broadLogs lors de la préparation d’une diffusion.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MaxDelayPerTransac</span> <br /> </td> 
-   <td> Insertion (dans une table) de logs (broadLogs) par transactions : nombre de lignes à traiter par batch.<br /> </td> 
+   <td> Seuil de durée du lot (nombre de millisecondes) sous lequel la taille du lot pour l’insertion de broadLogs est doublée lors de la préparation d’une diffusion.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MidAnalyzeBatchSize</span> <br /> </td> 
