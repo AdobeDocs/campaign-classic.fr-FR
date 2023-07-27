@@ -2,21 +2,19 @@
 product: campaign
 title: À propos d‘Adobe Campaign Classic
 description: Découvrez les principales fonctionnalités, l'interface utilisateur et les instructions globales.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: be57635a6165790b8c8964d106ed0a3cb76c63af
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 100%
+source-wordcount: '930'
+ht-degree: 99%
 
 ---
 
 # Prise en main de Campaign Classic{#about-adobe-campaign-classic}
-
-
 
 Pour favoriser l&#39;engagement des clients et offrir des expériences attrayantes, les marques doivent créer des parcours client cohérents à tous les points de contact. Les marketeurs peuvent désormais concevoir, planifier, exécuter, gérer et optimiser des campagnes marketing cross-canal qui offrent un retour sur investissement élevé et fidélisent les clients.
 

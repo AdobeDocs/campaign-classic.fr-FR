@@ -2,13 +2,13 @@
 product: campaign
 title: Règles de pression
 description: Règles de pression
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: be57635a6165790b8c8964d106ed0a3cb76c63af
 workflow-type: tm+mt
-source-wordcount: '3460'
-ht-degree: 100%
+source-wordcount: '3441'
+ht-degree: 99%
 
 ---
 
@@ -61,8 +61,6 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Pressio
    >[!NOTE]
    >
    >Les diffusions planifiées ne sont prises en compte que si l&#39;option **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]** est sélectionnée. Consultez à ce sujet la section [Définir la période](#setting-the-period).
-   >
-   >Cette option n’est pas disponible dans Campaign v8.
    >
 
 1. Indiquez le mode de calcul du nombre maximum de messages.
@@ -159,10 +157,6 @@ Donc, pour limiter à 15 jours la prise en compte les diffusions, vous pouvez au
 ou
 
 1. Entrez **7d** dans le champ **[!UICONTROL Période concernée]** ET cochez la case **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]**.  Option : les diffusions envoyées jusqu’à 7 jours avant la date de diffusion et planifiées jusqu’à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
-
-   >[!AVAILABILITY]
-   >Cette méthode n’est pas disponible dans Campaign v8.
-   >
 
 Le jour de début de la période dépend du paramétrage de la base de données.
 
@@ -336,10 +330,6 @@ Tout d&#39;abord, configurez la règle de pression.
    ![](assets/campaign_opt_pressure_example_1.png)
 
    Les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion seront prises en compte dans le calcul. Pour plus dʼinformations, consultez la section [Définition de la période](#setting-the-period).
-
-   >[!AVAILABILITY]
-   >Les diffusions planifiées ne peuvent pas être prises en compte dans Campaign v8.
-   >
 
 1. Dans l&#39;onglet **[!UICONTROL Typologies]**, associez la règle à une typologie de campagne.
 1. Enregistrez vos modifications.
