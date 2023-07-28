@@ -2,14 +2,14 @@
 product: campaign
 title: Définition du contenu d’e-mail dans Adobe Campaign Classic
 description: Découvrez comment définir le contenu d'e-mail avec Adobe Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
+source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
 workflow-type: tm+mt
-source-wordcount: '2017'
-ht-degree: 100%
+source-wordcount: '2029'
+ht-degree: 98%
 
 ---
 
@@ -149,7 +149,7 @@ Les diffusions par e-mail au format HTML peuvent contenir des images. Depuis l&#
 
 ### Mécanismes de sécurisation {#img-guardrails}
 
-Pour éviter des problèmes de performances, les images incluses dans les e-mails ne doivent pas dépasser 100 Mo. Cette limite, définie par défaut, peut être modifiée à partir de l’option `NmsDelivery_MaxDownloadedImageSize`. Cependant, Adobe recommande vivement d’éviter les images volumineuses dans vos diffusions e-mail.
+Pour éviter des problèmes de performances, les images incluses dans les emails ne doivent pas dépasser 100 Ko. Cette limite, définie par défaut, peut être modifiée à partir de l’option `NmsDelivery_MaxDownloadedImageSize`. Cependant, Adobe recommande vivement d’éviter les images volumineuses dans vos diffusions e-mail.
 
 En savoir plus dans [la liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 

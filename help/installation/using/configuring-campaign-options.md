@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 942d44104ae56e9334f42f10751979ce4f4a714d
+source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
 workflow-type: tm+mt
-source-wordcount: '4014'
-ht-degree: 98%
+source-wordcount: '4015'
+ht-degree: 97%
 
 ---
 
@@ -112,7 +112,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
  <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
-   <td> Permet de définir la taille maximale (en octets) autorisée pour une image téléchargée à partir d’une URL personnalisée et jointe à un email. La valeur par défaut est de 100 000 octets. Lors de l’envoi d’un BAT et du téléchargement des images pour traiter l’email, si la taille d’une image dépasse cette valeur ou si un problème de téléchargement se produit, une erreur s’affiche dans les logs de diffusion et la diffusion du BAT échoue.<br /> </td> 
+   <td> Permet de définir la taille maximale (en octets) autorisée pour une image téléchargée à partir d’une URL personnalisée et jointe à un email. La valeur par défaut est de 100 000 octets (100 Ko). Lors de l’envoi d’un BAT et du téléchargement des images pour traiter l’email, si la taille d’une image dépasse cette valeur ou si un problème de téléchargement se produit, une erreur s’affiche dans les logs de diffusion et la diffusion du BAT échoue.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRecommendedAttachments</span> <br /> </td> 
@@ -208,7 +208,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>Cette option est utilisée par le workflow technique <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> pour le comptage du nombre de diffusions en cours.</p>Elle vous permet de définir le nombre de jours au-delà desquels les diffusions dont le statut est incohérent seront exclues du nombre de diffusions en cours.</p><p>Par défaut, la valeur est définie sur « 7 », ce qui signifie que les diffusions incohérentes remontant à plus de 7 jours seront exclues.</p></td> 
+   <td><p>Cette option est utilisée par le workflow technique <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> pour le comptage du nombre de diffusions en cours.</p>Elle vous permet de définir le nombre de jours au-delà desquels les diffusions dont le statut est incohérent seront exclues du nombre de diffusions en cours.</p><p>Par défaut, la valeur est définie sur "7", ce qui signifie que les diffusions incohérentes de plus de 7 jours seront exclues.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -413,7 +413,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
-   <td> (Mode de compatibilité d’installation : build&gt;6000) Lorsqu’elle est activée (valeur « 1 »), cette option permet l’utilisation d’anciens mots de passe stockés dans la base de données pour la connexion aux comptes externes ou à l’instance.<br /> </td> 
+   <td> (Mode de compatibilité d’installation : build &gt; 6000) Lorsqu’elle est activée (valeur "1"), cette option permet l’utilisation d’anciens mots de passe stockés dans la base de données pour la connexion aux comptes externes ou à l’instance.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
@@ -822,7 +822,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_IntranetURL</span> <br /> </td> 
-   <td> URL de base du serveur web interne.<br /> </td> 
+   <td> URL de base du serveur applicatif interne.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_LastPostUpgrade</span> <br /> </td> 
