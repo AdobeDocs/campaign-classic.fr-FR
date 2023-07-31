@@ -2,11 +2,12 @@
 product: campaign
 title: Glossaire pour Adobe Campaign
 description: Glossaire pour Adobe Campaign
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: tm+mt
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
 source-wordcount: '5974'
 ht-degree: 100%
 
@@ -333,11 +334,11 @@ An engine call is a server call that starts real-time processing on server side 
 +++
 -->
 
-+++**Activité Enrichissement**
++++**Activité d’enrichissement**
 
-L’activité Enrichissement est une activité de workflow avancée qui permet aux opérateurs d’enrichir les données de la table de travail générée qui seront traitées dans le workflow. L’activité Enrichissement est généralement utilisée à la suite des activités de ciblage ou d’une importation de fichier et avant les activités qui consomment les données ciblées. Les enrichissements peuvent transformer les données de la transition entrante et configurer l’activité pour compléter la transition sortante avec des données améliorées. Ils permettent à l’opérateur de combiner des données provenant de plusieurs jeux de données ou de créer des liens avec une ressource temporaire.
+L’activité d’enrichissement est une activité de workflow avancée qui permet aux opérateurs d’enrichir les données de la table de travail générée qui seront traitées dans le workflow. L’activité Enrichissement est généralement utilisée à la suite des activités de ciblage ou d’une importation de fichier et avant les activités qui consomment les données ciblées. Les enrichissements peuvent transformer les données de la transition entrante et configurer l’activité pour compléter la transition sortante avec des données améliorées. Ils permettent à l’opérateur de combiner des données provenant de plusieurs jeux de données ou de créer des liens avec une ressource temporaire.
 
-[En savoir plus sur l’activité Enrichissement](../../workflow/using/enrichment.md).
+[En savoir plus sur l’activité d’enrichissement](../../workflow/using/enrichment.md).
 +++
 
 +++**Énumérations**
@@ -788,7 +789,7 @@ En savoir plus sur les [Plans](../../campaign/using/setting-up-marketing-campaig
 
 +++**Filtres prédéfinis**
 
-Les filtres prédéfinis sont des requêtes qui ont été enregistrées pour réutilisation. L’utilisation de filtres prédéfinis augmente la productivité (car ils ne sont créés qu’une seule fois), contribue à assurer une cohérence (car tous les professionnels du marketing peuvent les utiliser) et à réduire les compétences requises du professionnel du marketing, car ce dernier peut utiliser du code ou une logique qu’il pourrait ne pas être en mesure de créer lui-même.
+Les filtres prédéfinis sont des requêtes qui ont été enregistrées pour réutilisation. L’utilisation de filtres prédéfinis augmente la productivité (car ils ne sont créés qu’une seule fois), contribue à assurer une cohérence (car tous les spécialistes marketing peuvent les utiliser) et à réduire les compétences requises du spécialiste marketing, car ce dernier peut utiliser du code ou une logique qu’il pourrait ne pas être en mesure de créer lui-même.
 
 En savoir plus sur les [filtres prédéfinis](../../platform/using/creating-filters.md#filtering-recipients).
 +++
