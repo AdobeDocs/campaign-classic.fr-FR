@@ -2,14 +2,15 @@
 product: campaign
 title: Exporter et importer des profils
 description: Exporter et importer des profils
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Profiles
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: fd0f7b6e-84e1-442d-ae88-817fb6758d64
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
-source-wordcount: '153'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '160'
 ht-degree: 100%
 
 ---
