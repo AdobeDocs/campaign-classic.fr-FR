@@ -2,12 +2,12 @@
 product: campaign
 title: Versions de Campaign Classic 2021
 description: En savoir plus sur les versions de Campaign Classic 2021
-feature: Overview
+feature: Release Notes
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
-workflow-type: tm+mt
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
 source-wordcount: '2597'
 ht-degree: 100%
 
