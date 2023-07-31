@@ -2,13 +2,14 @@
 product: campaign
 title: Problème de signature des URL trackées
 description: Problème de signature des URL trackées
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Technote
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 hide: true
 hidefromtoc: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
-source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
-workflow-type: tm+mt
-source-wordcount: '351'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '358'
 ht-degree: 100%
 
 ---
