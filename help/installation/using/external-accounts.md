@@ -2,14 +2,15 @@
 product: campaign
 title: Comptes externes
 description: Découvrez comment créer des comptes externes
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Application Settings, External Account
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
-workflow-type: tm+mt
-source-wordcount: '2020'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '2027'
 ht-degree: 100%
 
 ---
