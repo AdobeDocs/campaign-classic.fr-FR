@@ -2,12 +2,13 @@
 product: campaign
 title: Modification de formulaires
 description: Modification de formulaires
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Configuration
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
-source-wordcount: '1727'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '1739'
 ht-degree: 100%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 100%
 
 ## Vue d’ensemble
 
-Les marketeurs et les opérateurs utilisent des formulaires de saisie pour créer, modifier et prévisualiser des enregistrements. Les formulaires affichent une représentation visuelle des informations.
+Les spécialistes marketing et les opérateurs utilisent des formulaires de saisie pour créer, modifier et prévisualiser des enregistrements. Les formulaires affichent une représentation visuelle des informations.
 
 Vous pouvez créer et modifier des formulaires de saisie :
 
