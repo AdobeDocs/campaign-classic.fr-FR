@@ -2,9 +2,10 @@
 product: campaign
 title: Effectuer une mise à jour vers le nouveau serveur de délivrabilité
 description: Découvrez comment mettre à jour le nouveau serveur de délivrabilité de Campaign
+feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 50ef144950ca9e79b1b3acdf587ffc13e0beeec4
-workflow-type: tm+mt
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
 source-wordcount: '1367'
 ht-degree: 100%
 
