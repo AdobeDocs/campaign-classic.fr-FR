@@ -2,14 +2,15 @@
 product: campaign
 title: Gestion des énumérations
 description: Gestion des énumérations
-badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+feature: Data Management
+badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
-source-wordcount: '946'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '942'
 ht-degree: 100%
 
 ---
