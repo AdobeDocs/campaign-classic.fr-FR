@@ -2,12 +2,13 @@
 product: campaign
 title: Questions courantes
 description: FAQ d'Adobe Campaign Classic
+feature: Overview
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
