@@ -2,14 +2,15 @@
 product: campaign
 title: Gérer des profils
 description: Gérer des profils
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Profiles
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
-source-wordcount: '239'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '246'
 ht-degree: 100%
 
 ---
@@ -32,7 +33,7 @@ Chaque noeud correspond à un dossier. Les données de chaque dossier doivent ê
 
 ## Déplacer des destinataires {#moving-recipients}
 
-Vous pouvez sélectionner un ou plusieurs destinataires et le(s) déplacer en effectuant un glisser-déposer depuis la liste des destinataires vers le dossier visé. Un message d’avertissement vous permet de confirmer l’opération.
+Vous pouvez sélectionner un ou plusieurs destinataires et le(s) déplacer en effectuant un glisser-déposer depuis la liste des destinataires vers le dossier visé. Un message d’avertissement vous permet de confirmer cette action.
 
 ## Copier un destinataire {#copying-a-recipient}
 
