@@ -2,14 +2,14 @@
 product: campaign
 title: Mises à jour de la documentation dʼAdobe Campaign Classic v7
 description: Cette page répertorie toutes les nouvelles fonctionnalités et les mises à jour de la documentation d’Adobe Campaign Classic
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Overview
+feature: Release Notes
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
-workflow-type: tm+mt
-source-wordcount: '3600'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '3607'
 ht-degree: 100%
 
 ---
