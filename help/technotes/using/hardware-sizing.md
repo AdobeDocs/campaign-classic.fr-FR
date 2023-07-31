@@ -2,11 +2,12 @@
 product: campaign
 title: Recommandations relatives au dimensionnement du matériel pour Campaign Classic v7
 description: Recommandations relatives au dimensionnement du matériel pour Campaign Classic v7
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Technote
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
-source-wordcount: '2512'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '2519'
 ht-degree: 100%
 
 ---
