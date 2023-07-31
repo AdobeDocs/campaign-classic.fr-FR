@@ -2,12 +2,12 @@
 product: campaign
 title: Liste des rapports
 description: Liste des rapports
-badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
-feature: Reporting
+badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
-source-wordcount: '1018'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '1014'
 ht-degree: 100%
 
 ---
