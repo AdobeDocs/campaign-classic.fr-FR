@@ -2,13 +2,13 @@
 product: campaign
 title: Règles de pression
 description: Règles de pression
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
-feature: Fatigue Management, Typology Rules
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+feature: Fatigue Management, Typology Rules, Campaigns
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: be57635a6165790b8c8964d106ed0a3cb76c63af
-workflow-type: tm+mt
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
 source-wordcount: '3441'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
