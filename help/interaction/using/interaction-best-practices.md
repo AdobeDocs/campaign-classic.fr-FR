@@ -2,14 +2,15 @@
 product: campaign
 title: Bonnes pratiques relatives aux interactions Adobe Campaign Classic
 description: Cette section présente l'approche recommandée pour gérer le module Interaction dans Adobe Campaign Classic.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Interaction, Offers
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 98413cde-50c9-416c-8316-85837f724c27
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
-source-wordcount: '1197'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '1204'
 ht-degree: 100%
 
 ---
@@ -63,15 +64,15 @@ Cette section contient des conseils plus détaillés sur la gestion des offres e
 
 ### Utilisation de plusieurs espaces d&#39;offres dans une diffusion par email {#multiple-offer-spaces}
 
-Lorsque vous incluez des offres dans des diffusions, elles sont généralement sélectionnées en amont dans le workflow Campaign par le biais d&#39;une activité Enrichissement (ou d&#39;une autre activité similaire).
+Lorsque vous incluez des offres dans des diffusions, elles sont généralement sélectionnées en amont dans le workflow Campaign par le biais d’une activité d’enrichissement (ou d’une autre activité similaire).
 
-Pour sélectionner des offres dans une activité Enrichissement, vous pouvez choisir l&#39;emplacement d&#39;offre à utiliser. Cependant, quel que soit l&#39;emplacement sélectionné, le menu de personnalisation de la diffusion dépend de l&#39;espace d&#39;offre configuré dans la diffusion.
+Pour sélectionner des offres dans une activité d’enrichissement, vous pouvez choisir l’emplacement d’offre à utiliser. Cependant, quel que soit l&#39;emplacement sélectionné, le menu de personnalisation de la diffusion dépend de l&#39;espace d&#39;offre configuré dans la diffusion.
 
 Dans l&#39;exemple ci-dessous, l&#39;emplacement d&#39;offre sélectionné dans la diffusion est **[!UICONTROL Email (Environnement - Destinataire)]**:
 
 ![](assets/Interaction-best-practices-offer-space-selected.png)
 
-Si l&#39;emplacement d&#39;offre sélectionné dans la diffusion ne dispose pas d&#39;une fonction de rendu HTML configurée, vous ne la verrez pas dans le menu de diffusion et elle ne sera pas disponible pour pouvoir le sélectionner. Comme indiqué plus haut, cette situation est indépendante de l&#39;emplacement d&#39;offre sélectionné dans l&#39;activité Enrichissement.
+Si l&#39;emplacement d&#39;offre sélectionné dans la diffusion ne dispose pas d&#39;une fonction de rendu HTML configurée, vous ne la verrez pas dans le menu de diffusion et elle ne sera pas disponible pour pouvoir le sélectionner. Comme indiqué plus haut, cette situation est indépendante de l’emplacement d’offre sélectionné dans l’activité d’enrichissement.
 
 Dans l&#39;exemple ci-dessous, la fonction de rendu HTML est disponible dans la liste déroulante, car l&#39;emplacement d&#39;offre sélectionné dans la diffusion comporte une fonction de rendu :
 
