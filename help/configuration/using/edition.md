@@ -2,17 +2,18 @@
 product: campaign
 title: Modifier l'arborescence de navigation de l'Explorateur Campaign
 description: Modifier l'arborescence de navigation de l'Explorateur Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Application Settings
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
-source-wordcount: '135'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '142'
 ht-degree: 100%
 
 ---
 
 
-# Modifier l&#39;arborescence de navigation de l&#39;Explorateur Campaign{#edition}
+# Modification de l’arborescence de navigation de l’Explorateur Campaign{#edition}
 
 L&#39;écran de création et de configuration des documents de paramétrage de l&#39;arborescence de navigation est accessible à partir du nœud **[!UICONTROL Administration > Paramétrage > Arborescences de navigation]** :
 
