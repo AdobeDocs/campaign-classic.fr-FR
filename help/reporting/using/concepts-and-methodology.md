@@ -2,14 +2,14 @@
 product: campaign
 title: Bonnes pratiques relatives aux cubes
 description: Bonnes pratiques relatives aux cubes
-badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
-feature: Reporting
+feature: Reporting, Monitoring
+badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
-source-wordcount: '1578'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '1574'
 ht-degree: 100%
 
 ---
@@ -201,7 +201,7 @@ Vous pouvez changer l&#39;ordre d&#39;affichage en déplaçant les lignes. Dans 
 
 Le paramétrage des mesures, lignes et colonnes affichées peut être réalisé unitairement pour chaque mesure ou au niveau général. Une icône spécifique permet d&#39;accéder à la fenêtre de sélection des modes d&#39;affichage.
 
-* Cliquez sur l&#39;icône **[!UICONTROL Editer la configuration du tableau pivot]** pour accéder à la fenêtre de configuration générale pour toutes les mesures.
+* Cliquez sur l’icône **[!UICONTROL Modifier la configuration du tableau croisé dynamique]** pour accéder à la fenêtre de configuration.
 
   Vous pouvez choisir d&#39;afficher ou non les libellés des mesures ainsi que leur localisation (en ligne ou en colonne).
 
