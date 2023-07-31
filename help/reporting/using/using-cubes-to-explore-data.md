@@ -2,15 +2,15 @@
 product: campaign
 title: Utilisation des cubes pour explorer les données
 description: Utilisation des cubes pour explorer les données
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+feature: Reporting, Monitoring
 hide: true
 hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
-source-wordcount: '991'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '1003'
 ht-degree: 100%
 
 ---
@@ -94,7 +94,7 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    ![](assets/s_advuser_cube_in_report_09.png)
 
-   Un paramétrage global des mesures est également proposé à partir de l&#39;icône **[!UICONTROL Editer la configuration du tableau pivot]** située dans l&#39;en-tête.
+   Une configuration globale des mesures est également possible à partir de l’icône **[!UICONTROL Modifier la configuration du tableau croisé dynamique]** située dans l’en-tête.
 
    ![](assets/s_advuser_cube_in_report_config_02.png)
 
@@ -162,7 +162,7 @@ Pour regrouper une population dans une liste, les étapes sont les suivantes :
 
 Pour créer un tableau qui explore les données d&#39;un cube, les étapes sont les suivantes :
 
-1. Créez un nouveau rapport, avec une seule page, et insérez un tableau pivot dynamique. Voir à ce propos [cette page](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table).
+1. Créez un nouveau rapport, avec une seule page, et insérez-y un tableau croisé dynamique. Voir à ce propos [cette page](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table).
 
    ![](assets/s_advuser_cube_in_report_01.png)
 
