@@ -2,11 +2,11 @@
 product: campaign
 title: Versions de Campaign Classic 2022
 description: En savoir plus sur les versions de Campaign Classic 2022
-feature: Overview
+feature: Release Notes
 role: User
 level: Beginner
-source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
-workflow-type: tm+mt
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
 source-wordcount: '2027'
 ht-degree: 100%
 
