@@ -2,14 +2,15 @@
 product: campaign
 title: Résolution des problèmes de production
 description: Découvrez les procédures de résolution des problèmes de production relatives à la configuration, à la surveillance, au processus de mise à niveau, au traitement des données et à la maintenance des bases de données d'Adobe Campaign.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Monitoring, Troubleshooting
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
-source-wordcount: '219'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
