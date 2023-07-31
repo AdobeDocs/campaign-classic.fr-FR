@@ -2,13 +2,13 @@
 product: campaign
 title: Configuration de l’accès au rapport
 description: Configuration de l’accès au rapport
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+feature: Reporting, Monitoring
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
-source-wordcount: '794'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '806'
 ht-degree: 100%
 
 ---
