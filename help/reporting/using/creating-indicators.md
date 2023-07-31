@@ -2,12 +2,12 @@
 product: campaign
 title: Création d’indicateurs
 description: Création d’indicateurs
-feature: Reporting
+feature: Reporting, Monitoring
 hide: true
 hidefromtoc: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
 source-wordcount: '748'
 ht-degree: 100%
 
