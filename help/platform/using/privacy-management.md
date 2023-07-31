@@ -2,15 +2,16 @@
 product: campaign
 title: Gestion de la confidentialité
 description: En savoir plus sur la gestion de la confidentialité
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Privacy, Privacy Tools
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
-source-wordcount: '886'
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: ht
+source-wordcount: '898'
 ht-degree: 100%
 
 ---
@@ -112,7 +113,7 @@ Pour en savoir plus sur la conservation des données ou pour définir des pério
 
 Adobe Campaign permet de gérer les droits assignés aux divers opérateurs Campaign par l&#39;intermédiaire de différents rôles préconfigurés ou personnalisés.
 
-Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données. Par exemple, plusieurs responsables marketing peuvent couvrir des secteurs géographiques différents en n&#39;ayant accès qu&#39;aux données de leur secteur.
+Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données. Par exemple, plusieurs spécialistes marketing peuvent couvrir des secteurs géographiques différents en n’ayant accès qu’aux données de leur secteur.
 
 De même, cette fonctionnalité vous permet également de configurer différentes fonctions pour chaque utilisateur, notamment la limitation des personnes autorisées à envoyer des diffusions, ou plus important encore pour la gestion de la confidentialité, celles qui peuvent modifier ou exporter des données.
 
