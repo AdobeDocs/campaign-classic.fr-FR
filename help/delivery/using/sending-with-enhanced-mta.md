@@ -6,10 +6,10 @@ badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Class
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 4c0c3007a03d4274fa1b436259cb2d302fcc8185
+source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 100%
+source-wordcount: '1378'
+ht-degree: 96%
 
 ---
 
@@ -116,10 +116,6 @@ Le graphique du débit des diffusions de Campaign n&#39;affiche plus le débit v
 
 Pour plus d’informations sur le débit de diffusion, consultez [cette section](../../reporting/using/global-reports.md#delivery-throughput).
 
->[!NOTE]
->
->Avec la fonctionnalité de [Service de retour par e-mail](#email-feedback-service) (EFS) (actuellement disponible en version bêta), le graphique de débit des diffusions Campaign affiche toujours le débit à vos destinataires de messagerie.
-
 ### Reprises
 
 Les paramètres de reprise lors de la diffusion ne sont pas utilisés par Campaign. Les reprises des soft bounces et l’intervalle qui les sépare sont déterminés par le MTA amélioré en fonction du type et de la gravité des réponses des rebonds provenant du domaine de messagerie du message.
@@ -157,63 +153,13 @@ Lorsque les messages soft bounce sont renvoyés du MTA amélioré, ils apparaiss
 
 Par conséquent, vous devez attendre la fin de la période de validité pour voir le pourcentage **[!UICONTROL Succès]** final et le nombre final de messages réellement **[!UICONTROL Envoyés]** et en **[!UICONTROL En échec]**.
 
-<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
-
-### Service de retour d&#39;e-mail (bêta) {#email-feedback-service}
-
-Grâce à la fonctionnalité Service de retour d&#39;e-mail (EFS - Email Feedback Service), l&#39;état de chaque email est signalé avec précision, car les retours sont capturés directement depuis le MTA (Message Tranfer Agent) amélioré.
-
-
->[!IMPORTANT]
->
->Le service de retour d&#39;e-mail est actuellement disponible en version bêta.
->
->Si vous souhaitez participer à ce programme Bêta, remplissez [ce formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous recontacterons.
-
-Une fois la diffusion lancée, le pourcentage **[!UICONTROL Succès]** n&#39;est plus modifié lorsque le message est relayé avec succès de Campaign vers le MTA amélioré.
-
-<!--![](assets/efs-sending.png)-->
-
-Les logs de diffusion affichent le statut **[!UICONTROL Pris en compte par le prestataire]** pour chaque adresse ciblée.
-
-<!--![](assets/efs-pending.png)-->
-
-Lorsque le message est effectivement diffusé aux profils ciblés et que ces informations sont renvoyées en temps réel du MTA amélioré, les logs de diffusion affichent l&#39;état **[!UICONTROL Envoyés]** pour chaque adresse ayant reçu le message avec succès. Le pourcentage **[!UICONTROL Succès]** augmente en conséquence lorsqu&#39;une diffusion est effectuée avec succès.
-
-Lorsque des messages hard bounce sont signalés depuis le MTA amélioré, leur statut de log passe de **[!UICONTROL Pris en compte par le prestataire]** à **[!UICONTROL En échec]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
-
-Lorsque des messages soft bounce sont signalés depuis le MTA amélioré, leur statut de log reste inchangé (**[!UICONTROL pris en compte par le prestataire]**) : seule la [raison de l’erreur](understanding-delivery-failures.md#delivery-failure-types-and-reasons) est mise à jour<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. Le pourcentage **[!UICONTROL Succès]** reste inchangé. L&#39;envoi des messages soft bounce fait ensuite l&#39;objet de reprises tout au long de la [période de validité](steps-sending-the-delivery.md#defining-validity-period) de la diffusion :
-
-* Si une reprise est effectuée avec succès avant la fin de la période de validité, l’état du message passe à **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** augmente en conséquence.
-
-* Sinon, l’état devient **[!UICONTROL Échec]**. Le <!--and **[!UICONTROL Bounces + errors]** -->pourcentage **[!UICONTROL Succès]** reste inchangé.
-
->[!NOTE]
->
->Pour plus d&#39;informations sur les hard et soft bounces, voir [cette section](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
->
->Pour plus d&#39;informations sur les reprises après une diffusion temporairement en échec, voir [cette section](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
-
-
-Les tableaux ci-après présentent les modifications des KPI et de l&#39;état des logs d&#39;envoi ajoutées par la fonctionnalité EFS.
-
-
-**Avec le service de retour d&#39;e-mail**
-
-| Étape du processus d’envoi | Résumé des KPI | État des logs d&#39;envoi |
-|--- |--- |--- |
-| Le message est relayé avec succès de Campaign vers le MTA amélioré | Le pourcentage **[!UICONTROL Succès]** n’est pas affiché (démarre à 0 %) | Pris en compte par le prestataire |
-| Les messages hard bounce sont renvoyés du MTA amélioré. | Aucun changement du pourcentage **[!UICONTROL Succès]** | En échec |
-| Les messages soft bounce sont renvoyés du MTA amélioré. | Aucun changement du pourcentage **[!UICONTROL Succès]** | Pris en compte par le prestataire |
-| Les reprises des messages soft bounce sont effectuées avec succès | Le pourcentage **[!UICONTROL Succès]** augmente en conséquence | Envoyés |
-| Échec des reprises des messages soft bounce | Aucun changement du pourcentage **[!UICONTROL Succès]** | En échec |
-
-**Sans le service de retour d&#39;e-mail**
+Le tableau ci-dessous présente les différentes étapes du processus d’envoi avec les KPI et les statuts des envois correspondants.
 
 | Étape du processus d’envoi | Résumé des KPI | État des logs d&#39;envoi |
 |--- |--- |--- |
 | Le message est relayé avec succès de Campaign vers le MTA amélioré | Le pourcentage **[!UICONTROL Succès]** commence à 100 % | Envoyés |
-| Les messages hard bounce sont renvoyés du MTA amélioré. | Le pourcentage **[!UICONTROL Succès]** diminue en conséquence | En échec |
-| Les messages soft bounce sont renvoyés du MTA amélioré. | Aucun changement du pourcentage **[!UICONTROL Succès]** | Envoyés |
-| Les reprises des messages soft bounce sont effectuées avec succès | Aucun changement du pourcentage **[!UICONTROL Succès]** | Envoyés | Le pourcentage **[!UICONTROL Succès]** augmente en conséquence | Envoyés |
-| Échec des reprises des messages soft bounce | Le pourcentage **[!UICONTROL Succès]** diminue en conséquence | En échec |
+| Les messages hard bounce sont renvoyés du MTA amélioré. | **[!UICONTROL Succès]** est diminué en conséquence | En échec |
+| Les messages soft bounce sont renvoyés du MTA amélioré. | Aucune modification dans **[!UICONTROL Succès]** pourcentage | Envoyés |
+| Les reprises des messages soft bounce sont effectuées avec succès | Aucune modification dans **[!UICONTROL Succès]** pourcentage | Envoyés | **[!UICONTROL Succès]** augmente en conséquence | Envoyés |
+| Échec des reprises des messages soft bounce | **[!UICONTROL Succès]** est diminué en conséquence | En échec |
+

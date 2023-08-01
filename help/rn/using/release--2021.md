@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2551'
 ht-degree: 100%
 
 ---
@@ -270,9 +270,6 @@ Cette fonctionnalité est disponible en version bêta privée et sera progressiv
 * Le calcul de l&#39;indicateur Délivrés est désormais fondé sur les commentaires en temps réel du MTA amélioré, ce qui contribue à l&#39;amélioration de la précision et de la réactivité.
 * EFS résout le problème des retards grâce au reporting synchrone des soft bounces.
 
-
-Pour plus d&#39;informations, consultez la [documentation détaillée](../../delivery/using/sending-with-enhanced-mta.md#efs).
-Si vous souhaitez participer à cette version bêta privée, remplissez ce [formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous recontacterons.
 
 **Autres changements**
 
