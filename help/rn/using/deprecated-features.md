@@ -3,14 +3,14 @@ product: campaign
 title: Fonctionnalités obsolètes et supprimées de Campaign Classic
 description: Cette page répertorie les fonctionnalités obsolètes et supprimées d’Adobe Campaign Classic
 feature: Release Notes
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1515'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

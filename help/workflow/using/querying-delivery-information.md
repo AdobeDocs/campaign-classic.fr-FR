@@ -2,13 +2,13 @@
 product: campaign
 title: Requête sur les informations de diffusion
 description: Découvrez comment interroger les informations diffusion
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Query Editor, Workflows
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

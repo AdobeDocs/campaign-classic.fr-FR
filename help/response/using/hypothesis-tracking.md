@@ -3,16 +3,16 @@ product: campaign
 title: Suivi des hypothèses
 description: Découvrez comment effectuer un suivi des d'hypothèses dans la Gestion de la réaction (Response Manager) de Campaign
 feature: Campaigns, Monitoring, Reporting
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

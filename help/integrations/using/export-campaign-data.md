@@ -3,14 +3,14 @@ product: campaign
 title: Exporter des données de Campaign vers Adobe Experience Platform
 description: Découvrez comment exporter des données de Campaign Classic vers Adobe Experience Platform
 feature: Platform Integration
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

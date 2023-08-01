@@ -3,12 +3,12 @@ product: campaign
 title: Prise en main des cubes
 description: Prise en main des cubes
 feature: Reporting, Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: 71d24f03-d41d-49bc-b9a5-8237902f7d6a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

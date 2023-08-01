@@ -2,14 +2,14 @@
 product: campaign
 title: Création d'une liste de profils avec un workflow
 description: Découvrez comment créer une liste de profils dans un workflow
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Workflows, Profiles
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 

@@ -2,13 +2,13 @@
 product: campaign
 title: Application de règles de typologie
 description: Découvrez comment appliquer des règles de typologie
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Typology Rules, Campaigns
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

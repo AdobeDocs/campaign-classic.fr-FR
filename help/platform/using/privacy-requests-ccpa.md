@@ -3,16 +3,16 @@ product: campaign
 title: Droit d’opposition (opt-out) à la vente des informations personnelles
 description: En savoir plus sur le droit d’opposition à la vente de données personnelles
 feature: Privacy, Privacy Tools
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

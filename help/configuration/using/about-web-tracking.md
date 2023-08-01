@@ -1,13 +1,14 @@
 ---
 product: campaign
 title: À propos du tracking web
+feature: Configuration, Instance Settings
 description: À propos du tracking web
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 96%
 
 ---
 

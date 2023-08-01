@@ -2,15 +2,16 @@
 product: campaign
 title: Le fichier de configuration du serveur
 description: Le fichier de configuration du serveur
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '7955'
-ht-degree: 100%
+source-wordcount: '7962'
+ht-degree: 99%
 
 ---
 
@@ -804,7 +805,7 @@ Voici les différents paramètres du nœud **monitoring**. Il s’agit de la con
  <tbody> 
   <tr> 
    <td> maxPreparationJobsSec<br /> </td> 
-   <td> Durée maximale de préparation : durée en secondes au-delà de laquelle une diffusion ne doit plus être en préparation.<br /> </td> 
+   <td> Durée maximale de préparation : durée en secondes au-delà de laquelle une action de diffusion ne doit plus être en préparation.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 3600<br /> </td> 
   </tr> 
@@ -3313,13 +3314,13 @@ Pour plus d’informations, consultez cette [section](../../installation/using/d
   </tr> 
   <tr> 
    <td> expirationURL<br /> </td> 
-   <td> Page des redirections périmées : adresse de la page web utilisée par défaut par le module de redirection lorsque la diffusion a expiré.<br /> </td> 
+   <td> Page des redirections périmées : adresse de la page web utilisée par défaut par le module de redirection lorsque l’action de diffusion a expiré.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> maxJobsInCache<br /> </td> 
-   <td> Nb max de jobs : nombre maximal de diffusions chargées simultanément en mémoire. Ne peut pas être inférieur à 50. <br /> </td> 
+   <td> Nb max de jobs : nombre maximal d’actions de diffusion chargées simultanément en mémoire. Ne peut pas être inférieur à 50. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 100<br /> </td> 
   </tr> 

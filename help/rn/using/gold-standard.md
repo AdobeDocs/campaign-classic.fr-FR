@@ -2,15 +2,15 @@
 product: campaign
 title: "versions [!DNL Gold Standard]"
 description: Notes de mise à jour et matrice de compatibilité pour Campaign Classic  [!DNL Gold Standard]
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Overview
+feature: Release Notes
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1780'
-ht-degree: 100%
+source-wordcount: '1787'
+ht-degree: 99%
 
 ---
 

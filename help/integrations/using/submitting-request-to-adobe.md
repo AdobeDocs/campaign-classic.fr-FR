@@ -2,20 +2,21 @@
 product: campaign
 title: Envoi d'une demande à Adobe
 description: Envoi d'une demande à Adobe
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Audiences, People Core Service Integration
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 100%
+source-wordcount: '158'
+ht-degree: 93%
 
 ---
 
-# Envoi d&#39;une demande à Adobe  {#submitting-request-to-adobe}
+# Envoi d&#39;une demande à Adobe       {#submitting-request-to-adobe}
 
 
 

@@ -3,15 +3,15 @@ product: campaign
 title: Archivage des emails
 description: Archivage des emails
 feature: Installation, Instance Settings, Email
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1374'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

@@ -3,15 +3,15 @@ product: campaign
 title: Historique des événements Message Center
 description: En savoir plus sur le rapport Historique des événements
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 

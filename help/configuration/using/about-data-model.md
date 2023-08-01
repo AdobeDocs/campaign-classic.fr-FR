@@ -2,13 +2,13 @@
 product: campaign
 title: Prise en main du modèle de données de Campaign Classic
 description: Découvrez comment étendre le modèle de données Campaign, modifier des schémas, utiliser des API, et plus encore
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Data Model, Configuration
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

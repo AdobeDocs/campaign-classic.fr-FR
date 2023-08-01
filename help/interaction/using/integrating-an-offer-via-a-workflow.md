@@ -2,15 +2,16 @@
 product: campaign
 title: Intégrer une offre via un workflow
 description: Intégrer une offre via un workflow
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Interaction, Offers, Workflows
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 100%
+source-wordcount: '1101'
+ht-degree: 99%
 
 ---
 
@@ -51,11 +52,11 @@ L&#39;activité de composition de diffusion, disponible dans les workflows de ca
 
 ## Enrichissement {#enrichment}
 
-L&#39;activité d&#39;enrichissement vous permet d&#39;ajouter des offres ou des liens vers des offres pour les destinataires d&#39;une diffusion.
+L’activité d’enrichissement vous permet d’ajouter des offres ou des liens vers des offres pour les destinataires d’une diffusion.
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur l&#39;activité d&#39;enrichissement, consultez la documentation dédiée dans le [Guide des Workflows](../../workflow/using/enrichment.md).
+>Pour plus d’informations sur l’activité d’enrichissement, consultez la documentation dédiée dans le [Guide des Workflows](../../workflow/using/enrichment.md).
 
 Vous pouvez par exemple enrichir les données d&#39;une requête sur les destinataires, avant une diffusion.
 
@@ -70,7 +71,7 @@ Deux méthodes permettent de définir des propositions d&#39;offre.
 
 Après avoir paramétré votre requête (voir le [Guide des Workflows](../../workflow/using/query.md)) :
 
-1. Placez et ouvrez une activité d&#39;enrichissement.
+1. Placez et ouvrez une activité d’enrichissement.
 1. Dans l&#39;onglet **[!UICONTROL Enrichissement]**, sélectionnez **[!UICONTROL Ajouter des données]**.
 1. Sélectionnez **[!UICONTROL Une proposition d&#39;offre]** dans les types de données à ajouter.
 
@@ -91,11 +92,11 @@ Après avoir paramétré votre requête (voir le [Guide des Workflows](../../wor
 
    >[!NOTE]
    >
-   >Le nombre de propositions disponibles pour la prévisualisation dépend du paramétrage réalisé dans l&#39;activité d&#39;enrichissement et non d&#39;un éventuel paramétrage directement dans la diffusion.
+   >Le nombre de propositions disponibles pour la prévisualisation dépend du paramétrage réalisé dans l’activité d’enrichissement et non d’un éventuel paramétrage directement dans la diffusion.
 
 ### En référençant un lien vers une offre {#referencing-a-link-to-an-offer}
 
-Vous avez également la possibilité de référencer un lien vers une offre dans une activité d&#39;enrichissement.
+Vous avez également la possibilité de référencer un lien vers une offre dans une activité d’enrichissement.
 
 Pour cela :
 
@@ -105,7 +106,7 @@ Pour cela :
 
    ![](assets/int_enrichment_link1.png)
 
-1. Définissez la jointure entre les données de la table entrante dans l&#39;activité d&#39;enrichissement (ici la table des destinataires) et la table des offres. Vous pouvez par exemple associer un code offre à un destinataire.
+1. Définissez la jointure entre les données de la table entrante dans l’activité d’enrichissement (ici la table des destinataires) et la table des offres. Vous pouvez par exemple associer un code offre à un destinataire.
 
    ![](assets/int_enrichment_link2.png)
 
@@ -142,7 +143,7 @@ La diffusion stocke automatiquement le rang et le poids des offres. Ces informat
 
 L&#39;activité **[!UICONTROL Moteur d&#39;offres]** vous permet également de définir un appel au moteur d&#39;offres en amont d&#39;une diffusion.
 
-Cette activité fonctionne sur le même principe que l&#39;activité d&#39;enrichissement avec un appel au moteur, en enrichissant les données de la population entrante avec une offre calculée par le moteur, avant une diffusion.
+Cette activité fonctionne sur le même principe que l’activité d’enrichissement avec un appel au moteur, en enrichissant les données de la population entrante avec une offre calculée par le moteur, avant une diffusion.
 
 ![](assets/int_offerengine_activity2.png)
 

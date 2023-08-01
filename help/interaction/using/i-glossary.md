@@ -3,15 +3,15 @@ product: campaign
 title: Glossaire d’Interaction de Campaign
 description: Glossaire d’Interaction de Campaign
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

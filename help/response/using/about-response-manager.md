@@ -3,13 +3,13 @@ product: campaign
 title: À propos de la gestion de la réaction
 description: À propos de la gestion de la réaction
 feature: Campaigns
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

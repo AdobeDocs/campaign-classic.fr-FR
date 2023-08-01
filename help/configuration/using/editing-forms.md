@@ -3,13 +3,13 @@ product: campaign
 title: Modification de formulaires
 description: Modification de formulaires
 feature: Configuration
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1739'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

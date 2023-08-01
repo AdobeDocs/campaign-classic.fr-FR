@@ -3,15 +3,15 @@ product: campaign
 title: Créer des demandes d’accès à des informations personnelles
 description: Découvrez comment créer et gérer les demandes d’accès à des informations personnelles.
 feature: Privacy, Privacy Tools
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

@@ -3,12 +3,12 @@ product: campaign
 title: Collecte des données à analyser
 description: Collecte des données à analyser
 feature: Reporting, Monitoring
-badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
