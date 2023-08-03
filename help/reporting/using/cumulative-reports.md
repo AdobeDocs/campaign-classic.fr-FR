@@ -2,14 +2,14 @@
 product: campaign
 title: Rapports cumulés
 description: Rapports cumulés
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Reporting, Monitoring
 exl-id: e67748dd-fa50-4992-b85f-474389e876cf
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '83'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
