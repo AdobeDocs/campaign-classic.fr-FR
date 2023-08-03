@@ -3,13 +3,13 @@ product: campaign
 title: Structure d'un formulaire
 description: Structure d'un formulaire
 feature: Application Settings
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2415'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
