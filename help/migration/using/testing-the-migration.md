@@ -3,7 +3,7 @@ product: campaign
 title: Tester la migration
 description: Tester la migration
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
