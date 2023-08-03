@@ -3,12 +3,12 @@ product: campaign
 title: Mode de tracking web
 description: Découvrez comment sélectionner le mode de tracking web
 feature: Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
