@@ -3,12 +3,12 @@ product: campaign
 title: Architecture des messages transactionnels
 description: Cette section décrit lʼarchitecture des messages transactionnels Adobe Campaign Classic et les canaux disponibles pour diffuser des messages transactionnels
 feature: Transactional Messaging, Message Center, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1232'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
