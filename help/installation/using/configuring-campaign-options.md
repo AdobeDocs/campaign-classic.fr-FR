@@ -3,15 +3,15 @@ product: campaign
 title: Paramétrer les options de Campaign
 description: Découvrez comment paramétrer les options de Campaign
 feature: Installation, Application Settings
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4015'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -73,11 +73,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_LogsPerTransac</span> <br /> </td> 
-   <td> Taille minimale du lot (nombre de lignes) pour l’insertion de broadLogs lors de la préparation d’une diffusion.<br /> </td> 
+   <td> Taille minimale du lot (nombre de lignes) pour l’insertion des broadLogs lors de la préparation d’une diffusion.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MaxDelayPerTransac</span> <br /> </td> 
-   <td> Seuil de durée du lot (nombre de millisecondes) sous lequel la taille du lot pour l’insertion de broadLogs est doublée lors de la préparation d’une diffusion.<br /> </td> 
+   <td> Seuil de durée du lot (nombre de millisecondes) sous lequel la taille du lot pour l’insertion des broadLogs est doublée lors de la préparation d’une diffusion.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MidAnalyzeBatchSize</span> <br /> </td> 
@@ -113,7 +113,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
  <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
-   <td> Permet de définir la taille maximale (en octets) autorisée pour une image téléchargée à partir d’une URL personnalisée et jointe à un email. La valeur par défaut est de 100 000 octets (100 Ko). Lors de l’envoi d’un BAT et du téléchargement des images pour traiter l’email, si la taille d’une image dépasse cette valeur ou si un problème de téléchargement se produit, une erreur s’affiche dans les logs de diffusion et la diffusion du BAT échoue.<br /> </td> 
+   <td> Permet de définir la taille maximale (en octets) autorisée pour une image téléchargée à partir d’une URL personnalisée et jointe à un email. La valeur par défaut est de 100 000 octets (100 Ko). Lors de l’envoi d’un BAT et du téléchargement des images pour traiter l’email, si la taille d’une image dépasse cette valeur ou si un problème de téléchargement se produit, une erreur s’affiche dans les logs de diffusion et la diffusion du BAT échoue.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRecommendedAttachments</span> <br /> </td> 
@@ -209,7 +209,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>Cette option est utilisée par le workflow technique <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> pour le comptage du nombre de diffusions en cours.</p>Elle vous permet de définir le nombre de jours au-delà desquels les diffusions dont le statut est incohérent seront exclues du nombre de diffusions en cours.</p><p>Par défaut, la valeur est définie sur "7", ce qui signifie que les diffusions incohérentes de plus de 7 jours seront exclues.</p></td> 
+   <td><p>Cette option est utilisée par le workflow technique <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> pour le comptage du nombre de diffusions en cours.</p>Elle vous permet de définir le nombre de jours au-delà desquels les diffusions dont le statut est incohérent seront exclues du nombre de diffusions en cours.</p><p>Par défaut, la valeur est définie sur « 7 », ce qui signifie que les diffusions incohérentes remontant à plus de 7 jours seront exclues.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -414,7 +414,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
-   <td> (Mode de compatibilité d’installation : build &gt; 6000) Lorsqu’elle est activée (valeur "1"), cette option permet l’utilisation d’anciens mots de passe stockés dans la base de données pour la connexion aux comptes externes ou à l’instance.<br /> </td> 
+   <td> (Installer le mode de compatibilité : build&gt;6000) Lorsqu’elle est activée (valeur « 1 »), cette option permet l’utilisation d’anciens mots de passe stockés dans la base de données pour la connexion aux comptes externes ou à l’instance.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
