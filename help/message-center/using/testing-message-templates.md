@@ -3,15 +3,15 @@ product: campaign
 title: Test des modèles de message transactionnel
 description: Découvrez comment gérer les adresses de contrôle dans les messages transactionnels afin de les prévisualiser et de les tester dans Adobe Campaign Classic.
 feature: Transactional Messaging, Message Center, Templates
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
