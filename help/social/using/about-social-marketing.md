@@ -3,15 +3,15 @@ product: campaign
 title: À propos du marketing sur les réseaux sociaux
 description: Découvrez comment utiliser Campaign pour interagir avec des clients et des clientes via Twitter.
 feature: Social Marketing
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: social
 content-type: reference
 topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '97'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
