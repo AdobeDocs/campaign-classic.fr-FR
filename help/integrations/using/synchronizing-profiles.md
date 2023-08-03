@@ -3,14 +3,14 @@ product: campaign
 title: Synchronisation des profils
 description: Découvrez comment synchroniser les profils à lʼaide du connecteur ACS
 feature: ACS Connector
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 hide: true
 hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
