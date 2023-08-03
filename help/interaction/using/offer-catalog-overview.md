@@ -3,15 +3,15 @@ product: campaign
 title: Présentation du catalogue d'offres
 description: En savoir plus sur le catalogue d’offres dans Campaign
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 464a6548-1b91-4e09-b620-3b820ef69653
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '140'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
