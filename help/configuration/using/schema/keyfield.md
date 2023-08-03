@@ -5,7 +5,7 @@ description: élément keyfield
 feature: Schema Extension
 exl-id: fb0862f9-5dcc-49f2-b99b-9822aaf3a680
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '103'
 ht-degree: 100%
 
