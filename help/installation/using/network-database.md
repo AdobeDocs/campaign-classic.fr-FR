@@ -3,15 +3,15 @@ product: campaign
 title: Réseau, base de données et SSL/TLS
 description: En savoir plus sur les bonnes pratiques en matière de configuration du réseau, de la base de données et du protocole SSL/TLS
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
