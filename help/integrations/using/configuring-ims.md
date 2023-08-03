@@ -3,16 +3,16 @@ product: campaign
 title: Paramétrer IMS
 description: Découvrez comment vous connecter via un Adobe ID
 feature: Configuration
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
