@@ -3,16 +3,16 @@ product: campaign
 title: Modèles d'hypothèse
 description: Découvrez comment créer des modèles d'hypothèse dans la Gestion de la réaction (Response Manager) de Campaign
 feature: Campaigns, Templates
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1517'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
