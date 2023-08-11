@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Envoyer des e-mails avec le MTA amélioré dans Adobe Campaign Classic
-description: Découvrez la portée et les spécificités de lʼenvoi dʼe-mails avec le MTA amélioré dʼAdobe Campaign
+description: Découvrez la portée et les spécificités de lʼenvoi dʼe-mails avec le MTA amélioré dʼAdobe Campaign.
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1378'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Non. La mise à niveau n’exige pas de basculer vers de nouvelles adresses IP. 
 
 **La mise à niveau vers le MTA amélioré aura-t-elle un impact sur les campagnes ou les diffusions en cours ?**
 
-Pour les clients qui utilisent la fonctionnalité de messagerie transactionnelle d&#39;Adobe Campaign, tout appel d’API pour déclencher un email sera mis en file d’attente pendant la très courte période de temps d’arrêt de la mise à niveau et sera réessayé une fois la mise à niveau terminée.
+Pour les clients et clientes qui utilisent la fonctionnalité de messagerie transactionnelle d&#39;Adobe Campaign, tout appel d’API pour déclencher un e-mail sera mis en file d’attente pendant la très courte période de temps d’arrêt de la mise à niveau et sera réessayé une fois la mise à niveau terminée.
 
 ## Spécificités du MTA amélioré {#enhanced-mta-impacts}
 
@@ -158,8 +158,8 @@ Le tableau ci-dessous présente les différentes étapes du processus d’envoi 
 | Étape du processus d’envoi | Résumé des KPI | État des logs d&#39;envoi |
 |--- |--- |--- |
 | Le message est relayé avec succès de Campaign vers le MTA amélioré | Le pourcentage **[!UICONTROL Succès]** commence à 100 % | Envoyés |
-| Les messages hard bounce sont renvoyés du MTA amélioré. | **[!UICONTROL Succès]** est diminué en conséquence | En échec |
-| Les messages soft bounce sont renvoyés du MTA amélioré. | Aucune modification dans **[!UICONTROL Succès]** pourcentage | Envoyés |
-| Les reprises des messages soft bounce sont effectuées avec succès | Aucune modification dans **[!UICONTROL Succès]** pourcentage | Envoyés | **[!UICONTROL Succès]** augmente en conséquence | Envoyés |
-| Échec des reprises des messages soft bounce | **[!UICONTROL Succès]** est diminué en conséquence | En échec |
+| Les messages hard bounce sont renvoyés du MTA amélioré. | Le pourcentage **[!UICONTROL Succès]** diminue en conséquence. | En échec |
+| Les messages soft bounce sont renvoyés du MTA amélioré. | Aucun changement du pourcentage **[!UICONTROL Succès]**. | Envoyés |
+| Les reprises des messages soft bounce sont effectuées avec succès | Aucun changement du pourcentage **[!UICONTROL Succès]**. | Envoyés | Le pourcentage **[!UICONTROL Succès]** augmente en conséquence. | Envoyés |
+| Échec des reprises des messages soft bounce | Le pourcentage **[!UICONTROL Succès]** diminue en conséquence. | En échec |
 
