@@ -1,21 +1,21 @@
 ---
 product: campaign
-title: Etapes de mise en place
-description: Etapes de mise en place
+title: Étapes de mise en place
+description: Étapes de mise en place
 feature: Configuration
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Etapes de mise en place{#setup-stages}
+# Étapes de mise en place{#setup-stages}
 
 Le principe de base repose sur l&#39;ajout des balises de tracking Web dans certaines pages de votre site.
 
