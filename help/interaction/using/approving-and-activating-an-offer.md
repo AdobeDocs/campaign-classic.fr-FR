@@ -3,20 +3,20 @@ product: campaign
 title: Valider et activer une offre
 description: Valider et activer une offre
 feature: Interaction, Offers
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '672'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Valider et activer une offre{#approving-and-activating-an-offer}
+# Validation et activation d&#39;une offre{#approving-and-activating-an-offer}
 
 
 
