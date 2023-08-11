@@ -3,15 +3,15 @@ product: campaign
 title: Le fichier de configuration du serveur
 description: Le fichier de configuration du serveur
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7962'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
