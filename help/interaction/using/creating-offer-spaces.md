@@ -3,19 +3,19 @@ product: campaign
 title: Créer des emplacements d'offres
 description: Créer des emplacements d'offres
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Créer des emplacements d&#39;offres{#creating-offer-spaces}
+# Création d&#39;emplacements d&#39;offres{#creating-offer-spaces}
 
 
 
