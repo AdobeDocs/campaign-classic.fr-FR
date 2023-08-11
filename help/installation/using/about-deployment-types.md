@@ -3,15 +3,15 @@ product: campaign
 title: À propos des types de déploiement
 description: À propos des types de déploiement
 feature: Installation, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
