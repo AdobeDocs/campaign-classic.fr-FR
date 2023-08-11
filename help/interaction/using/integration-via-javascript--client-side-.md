@@ -3,15 +3,15 @@ product: campaign
 title: Intégration via JavaScript (côté client)
 description: Intégration via JavaScript (côté client)
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1171'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
