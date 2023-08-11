@@ -3,7 +3,7 @@ product: campaign
 title: Paramétrages généraux
 description: Paramétrages généraux
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: migration
 content-type: reference
 topic-tags: configuration
@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2687'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
