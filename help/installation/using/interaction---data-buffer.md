@@ -3,15 +3,15 @@ product: campaign
 title: Interaction - Mémoire tampon
 description: Interaction - Mémoire tampon
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
