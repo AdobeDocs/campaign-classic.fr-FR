@@ -3,16 +3,16 @@ product: campaign
 title: Collecter toutes les visites
 description: Collecter toutes les visites
 feature: Configuration, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Collecter toutes les visites{#collecting-all-visits}
+# Collecte de toutes les visites{#collecting-all-visits}
 
 Le module de webtracking fourni par Adobe Campaign permet de collecter les visites de certaines pages du site effectuées par un destinataire dans le cadre du tracking de site suite à un clic dans un message.
 
