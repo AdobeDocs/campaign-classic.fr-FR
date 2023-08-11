@@ -2,15 +2,15 @@
 product: campaign
 title: FAQ sur la migration vers Adobe Managed Services (cloud public)
 description: FAQ sur la migration de Campaign Classic vers le cloud public
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2222'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
