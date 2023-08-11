@@ -3,19 +3,19 @@ product: campaign
 title: Créer une offre
 description: Créer une offre
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '841'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Créer une offre{#creating-an-offer}
+# Création d&#39;une offre{#creating-an-offer}
 
 
 
