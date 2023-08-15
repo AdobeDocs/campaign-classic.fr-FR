@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Définir la diffusion finale
-description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique.
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: A/B Testing
 exl-id: bc23a444-a872-48fb-8bba-64b301541089
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '130'
 ht-degree: 100%
 
 ---

@@ -2,12 +2,12 @@
 product: campaign
 title: Agir sur une diffusion
 description: En savoir plus sur l’activité de workflow de contrôle de diffusion
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '187'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Une activité de type **Agir sur une diffusion** permet de démarrer, mettre en pause ou arrêter une diffusion.
+Une action de type **Agir sur une diffusion** permet de démarrer, mettre en pause ou arrêter une diffusion.
 
 Il peut s&#39;agir de la diffusion spécifiée par la transition, d&#39;une diffusion explicitement sélectionnée ou bien calculée par un script. Pour plus d&#39;informations, consultez la section [Diffusion](delivery.md).
 

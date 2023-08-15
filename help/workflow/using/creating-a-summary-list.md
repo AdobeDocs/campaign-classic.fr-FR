@@ -2,17 +2,17 @@
 product: campaign
 title: Créer une liste récapitulative
 description: Créer une liste récapitulative
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1067'
 ht-degree: 100%
 
 ---
 
-# Créer une liste récapitulative{#creating-a-summary-list}
+# Création d’une liste récapitulative{#creating-a-summary-list}
 
 
 
@@ -26,7 +26,7 @@ La structure de données suivante est utilisée :
 
 Son objectif est le suivant :
 
-* Utiliser les différentes options de l&#39;activité d&#39;enrichissement
+* Utiliser les différentes options de l’activité d’enrichissement
 * Mettre à jour des données en base suite à une réconciliation
 * Créer une &quot;vue&quot; globale des données enrichies
 
@@ -78,7 +78,7 @@ Ces données sont contenues dans un fichier texte : &quot;Achats.txt&quot;.
 
 Une fois les données importées, l&#39;enrichissement est effectué en créant un lien vers une table de référence correspondant au schéma &quot;Magasins&quot;.
 
-Positionnez l&#39;activité d&#39;enrichissement puis configurez-la comme suit :
+Positionnez l’activité d’enrichissement, puis configurez-la comme suit :
 
 1. Sélectionnez l&#39;ensemble principal qui est constitué des données venant de l&#39;activité **Chargement (fichier)**.
 
@@ -101,7 +101,7 @@ Dans la fenêtre suivante, vous devez créer une condition de jointure en sélec
 
 Suite à la création du lien, nous allons ajouter une colonne supplémentaire à la table de travail du workflow provenant du schéma &quot;Magasins&quot; : le champ &quot;ZipCode Reference&quot;.
 
-1. Ouvrez l&#39;activité d&#39;enrichissement.
+1. Ouvrez l’activité d’enrichissement.
 1. Cliquez sur **[!UICONTROL Editer les données additionnelles.]**
 1. Ajoutez le champ &quot;Zip Code Reference&quot; dans les **[!UICONTROL Colonnes de sortie]**.
 
@@ -117,7 +117,7 @@ Cette étape consiste à écrire dans la table &quot;Achats&quot; les données i
 
 Une réconciliation entre les données de la table de travail du workflow et la dimension de ciblage **Achats** doit être effectuée avant la mise à jour des données dans la table **Achats**.
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Réconciliation]** de l&#39;activité d&#39;enrichissement.
+1. Cliquez sur l’onglet **[!UICONTROL Réconciliation]** de l’activité d’enrichissement.
 1. Sélectionnez la dimension de ciblage, dans notre cas le schéma &quot;Achats&quot;.
 1. Sélectionnez une &quot;expression source&quot; pour les données de la table du workflow (ici le champ &quot;NomMag&quot;).
 1. Sélectionnez une &quot;expression destination&quot; pour les données de la table &quot;Achats&quot; (ici le champ &quot;NomMag&quot;).
@@ -161,7 +161,7 @@ L&#39;objectif de ce deuxième enrichissement est de créer un agrégat sur le s
 
 Pour préparer la liste récapitulative, il est nécessaire d&#39;ajouter des champs provenant du schéma &quot;Achats&quot; ainsi que du premier enrichissement : le champ &quot;ZipCode Reference&quot;.
 
-1. Cliquez sur le lien **[!UICONTROL Modifier les données additionnelles...]** dans l&#39;activité d&#39;enrichissement.
+1. Cliquez sur le lien **[!UICONTROL Modifier les données additionnelles…]** dans l’activité d’enrichissement.
 1. Ajoutez les champs &quot;Achats / Nom Boutique&quot; et &quot;Achats / Zip Code Reference&quot;.
 
    ![](assets/uc2_enrich_enrich7.png)
@@ -175,7 +175,7 @@ Pour préparer la liste récapitulative, il est nécessaire d&#39;ajouter des ch
 
 La dernière étape consiste à écrire toutes les données enrichies dans une liste.
 
-1. Placez une activité **Mise à jour de liste** dans le workflow. Cette activité doit être reliée à la transition sortante de la deuxième activité d&#39;enrichissement.
+1. Placez une activité **Mise à jour de liste** dans le workflow. Cette activité doit être reliée à la transition sortante de la deuxième activité d’enrichissement.
 1. Sélectionnez l&#39;option **[!UICONTROL Créer la liste si besoin (Nom calculé)]**.
 1. Sélectionnez une valeur pour le nom calculé. Le libellé choisi pour la liste est la date courante : &lt;%= formatDate(new Date(), &quot;%2D/%2M/%2Y&quot;) %>.
 

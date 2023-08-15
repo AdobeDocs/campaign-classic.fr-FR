@@ -2,12 +2,12 @@
 product: campaign
 title: Prise en main du marketing distribué
 description: Prise en main du marketing distribué
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1187'
 ht-degree: 100%
 
 ---

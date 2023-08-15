@@ -2,12 +2,12 @@
 product: campaign
 title: Suivi d’une campagne
 description: Découvrez comment effectuer le suivi dʼune campagne grâce au marketing distribué de Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Distributed Marketing
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,7 @@ Vous avez la possibilité de motiver cette annulation dans le champ **[!UICONTRO
 
 Pour les **opérations locales**, l&#39;annulation d&#39;un kit le supprime de la liste des opérations marketing disponibles.
 
-Pour les **opérations collaboratives**, l&#39;annulation d&#39;un kit d&#39;opération provoque :
+Pour les **campagnes collaboratives**, l&#39;annulation d&#39;un kit d&#39;opération provoque de nombreuses actions :
 
 1. L&#39;annulation de toutes les commandes relatives à ce kit,
 

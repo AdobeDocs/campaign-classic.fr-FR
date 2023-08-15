@@ -2,12 +2,12 @@
 product: campaign
 title: Enrichissement
 description: En savoir plus sur l’activité de workflow d’enrichissement
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Enrichment Activity, Targeting Activity
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1428'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ L&#39;activité **[!UICONTROL Enrichissement]** permet d&#39;ajouter des informa
 
 ## Définitions {#definitions}
 
-Pour utiliser l&#39;activité d&#39;enrichissement, il est important de connaître les différentes possibilités offertes lors de l&#39;ajout de données.
+Pour utiliser l’activité d’enrichissement, il est important de connaître les différentes possibilités offertes lors de l’ajout de données.
 
 ![](assets/enrichment_edit.png)
 
@@ -71,7 +71,7 @@ Dans l&#39;exemple ci-dessous, la transition sortante sera enrichie avec les inf
 
 ![](assets/enrichment_add_data.png)
 
-Cliquez avec le bouton droit sur la transition entrante de l&#39;activité d&#39;enrichissement pour visualiser les données avant l&#39;étape d&#39;enrichissement.
+Cliquez avec le bouton droit sur la transition entrante de l’activité d’enrichissement pour visualiser les données avant l’étape d’enrichissement.
 
 ![](assets/enrichment_content_before.png)
 
@@ -91,7 +91,7 @@ Le schéma correspondant a également été enrichi.
 
 ## Gérer les données additionnelles {#managing-additional-data}
 
-Décochez l&#39;option **[!UICONTROL Conserver toutes les données additionnelles de l&#39;ensemble principal]** si vous ne souhaitez pas conserver les données additionnelles définies précédemment dans l&#39;activité de requête. Dans ce cas, seules les colonnes additionnelles sélectionnées dans l&#39;activité d&#39;enrichissement seront ajoutées à la table de travail en sortie. Les informations supplémentaires ajoutées au niveau des activités en amont ne seront pas conservées.
+Décochez l’option **[!UICONTROL Conserver toutes les données additionnelles de l’ensemble principal]** si vous ne souhaitez pas conserver les données additionnelles définies précédemment dans l’activité de requête. Dans ce cas, seules les colonnes additionnelles sélectionnées dans l’activité d’enrichissement seront ajoutées à la table de travail en sortie. Les informations supplémentaires ajoutées au niveau des activités en amont ne seront pas conservées. 
 
 ![](assets/enrichment_edit_without_additional.png)
 
@@ -101,7 +101,7 @@ Les données et le schéma en sortie de l&#39;étape d&#39;enrichissement seront
 
 ## Créer un lien {#creating-a-link}
 
-Vous pouvez utiliser l&#39;activité d&#39;enrichissement pour créer un lien entre les données de travail et les données de la base Adobe Campaign : il s&#39;agira d&#39;un lien local au workflow entre les données entrantes.
+Vous pouvez utiliser l’activité d’enrichissement pour créer un lien entre les données de travail et les données de la base Adobe Campaign : il s’agira d’un lien local au workflow entre les données entrantes.
 
 Par exemple, si vous chargez les données d&#39;un fichier contenant le numéro de compte, le pays et l&#39;email des destinataires, vous devez créer un lien vers la table des pays afin de mettre à jour cette information dans leur profil.
 
@@ -120,7 +120,7 @@ Pour cela, les étapes sont les suivantes :
    83TY2;SWITZERLAND;mike@gmail.com
    ```
 
-1. Editez l&#39;activité d&#39;enrichissement et cliquez sur le lien **Ajouter des données...** pour créer une jointure avec la table des Pays.
+1. Modifiez l’activité d’enrichissement et cliquez sur le lien **Ajouter des données…** pour créer une jointure avec la table des Pays.
 
    ![](assets/enrichment_edit_after_file_box.png)
 
@@ -132,13 +132,13 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/enrichment_add_a_link_select_join.png)
 
-En sortie de cette activité d&#39;enrichissement, le schéma temporaire contiendra le lien vers la table des pays :
+En sortie de cette activité d’enrichissement, le schéma temporaire contiendra le lien vers la table des pays :
 
 ![](assets/enrichment_external_link_schema.png)
 
 ## Réconciliation des données {#data-reconciliation}
 
-L&#39;activité d&#39;enrichissement peut être utilisée pour paramétrer la réconciliation des données, notamment suite au chargement de données dans la base. Dans ce cas, l&#39;onglet **[!UICONTROL Réconciliation]** permet de définir le lien entre les données de la base Adobe Campaign et les données de la table de travail.
+L’activité d’enrichissement peut être utilisée pour paramétrer la réconciliation des données, notamment suite au chargement de données dans la base. Dans ce cas, l’onglet **[!UICONTROL Réconciliation]** permet de définir le lien entre les données de la base Adobe Campaign et les données de la table de travail.
 
 Sélectionnez l&#39;option **[!UICONTROL Identifier le document de ciblage à partir des données de travail]** et indiquez le schéma vers lequel vous souhaitez faire le lien et indiquez les conditions de jointure : pour cela, sélectionnez les champs à réconcilier dans les données de travail (**[!UICONTROL Expression source]**) et dans la dimension de ciblage (**[!UICONTROL Expression destination]**).
 
@@ -150,9 +150,9 @@ Si plusieurs conditions de jointure sont indiquées, elles doivent TOUTES être 
 
 ## Insérer une proposition d&#39;offre {#inserting-an-offer-proposition}
 
-L&#39;activité d&#39;enrichissement vous permet d&#39;ajouter des offres ou des liens vers des offres pour les destinataires d&#39;une diffusion.
+L’activité d’enrichissement vous permet d’ajouter des offres ou des liens vers des offres pour les destinataires d’une diffusion.
 
-Pour plus d&#39;informations sur l&#39;activité d&#39;enrichissement, consultez cette [section](enrichment.md).
+Pour plus d’informations sur l’activité d’enrichissement, consultez cette [section](enrichment.md).
 
 Vous pouvez par exemple enrichir les données d&#39;une requête sur les destinataires, avant une diffusion.
 
@@ -160,7 +160,7 @@ Vous pouvez par exemple enrichir les données d&#39;une requête sur les destina
 
 Après avoir paramétré votre requête (voir cette [section](query.md)) :
 
-1. Placez et ouvrez une activité d&#39;enrichissement.
+1. Placez et ouvrez une activité d’enrichissement.
 1. Dans l&#39;onglet **[!UICONTROL Enrichissement]**, sélectionnez **[!UICONTROL Ajouter des données]**.
 1. Sélectionnez **[!UICONTROL Une proposition d&#39;offre]** dans les types de données à ajouter.
 
@@ -179,13 +179,13 @@ Après avoir paramétré votre requête (voir cette [section](query.md)) :
 
 1. Paramétrez ensuite une activité de diffusion correspondant au canal de votre choix. Voir [Diffusions cross-canal](cross-channel-deliveries.md).
 
-   Le nombre de propositions disponibles pour la prévisualisation dépend du paramétrage réalisé dans l&#39;activité d&#39;enrichissement et non d&#39;un éventuel paramétrage directement dans la diffusion.
+   Le nombre de propositions disponibles pour la prévisualisation dépend du paramétrage réalisé dans l’activité d’enrichissement et non d’un éventuel paramétrage directement dans la diffusion.
 
 Pour spécifier des propositions d’offres, vous pouvez également choisir de référencer un lien vers une offre. Voir à ce sujet la section [Référencer un lien vers une offre](#referencing-a-link-to-an-offer).
 
 ## En référençant un lien vers une offre {#referencing-a-link-to-an-offer}
 
-Vous avez également la possibilité de référencer un lien vers une offre dans une activité d&#39;enrichissement.
+Vous avez également la possibilité de référencer un lien vers une offre dans une activité d’enrichissement.
 
 Pour cela :
 
@@ -195,7 +195,7 @@ Pour cela :
 
    ![](assets/int_enrichment_link1.png)
 
-1. Définissez la jointure entre les données de la table entrante dans l&#39;activité d&#39;enrichissement (ici la table des destinataires) et la table des offres. Vous pouvez par exemple associer un code offre à un destinataire.
+1. Définissez la jointure entre les données de la table entrante dans l’activité d’enrichissement (ici la table des destinataires) et la table des offres. Vous pouvez par exemple associer un code offre à un destinataire.
 
    ![](assets/int_enrichment_link2.png)
 
@@ -213,7 +213,7 @@ L&#39;activité **[!UICONTROL Moteur d&#39;offres]** stocke bien ces information
 
 Cependant, il est possible de stocker ces informations de la manière suivante :
 
-1. Créez un appel au moteur d&#39;offre dans une activité d&#39;enrichissement placée après une requête et avant une activité de diffusion.
+1. Créez un appel au moteur d’offre dans une activité d’enrichissement placée après une requête et avant une activité de diffusion.
 1. Dans la fenêtre principale de l&#39;activité, sélectionnez **[!UICONTROL Editer les données additionnelles]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)

@@ -2,12 +2,12 @@
 product: campaign
 title: Créer une notification push pour les appareils Android
 description: Découvrez comment créer des notifications push pour Android
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Push
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '823'
 ht-degree: 100%
 
 ---

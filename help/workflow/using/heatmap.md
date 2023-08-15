@@ -2,12 +2,12 @@
 product: campaign
 title: Carte thermique des workflows Campaign
 description: Surveillez vos workflows avec la Carte thermique des workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Heatmap
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1188'
 ht-degree: 100%
 
 ---

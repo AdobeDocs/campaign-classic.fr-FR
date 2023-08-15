@@ -2,12 +2,12 @@
 product: campaign
 title: Déduplication
 description: En savoir plus sur l’activité de workflow de déduplication
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Targeting Activity
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1153'
 ht-degree: 100%
 
 ---

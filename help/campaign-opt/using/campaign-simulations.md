@@ -2,12 +2,12 @@
 product: campaign
 title: Simulation de campagnes
 description: Prise en main des simulations de campagnes
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Campaigns
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1383'
 ht-degree: 100%
 
 ---

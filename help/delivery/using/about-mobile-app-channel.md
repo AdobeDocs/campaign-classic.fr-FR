@@ -2,13 +2,13 @@
 product: campaign
 title: Prise en main du canal des applications mobiles
 description: Commencer avec le canal des applications mobiles dans Adobe Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Push
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '680'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,7 @@ L&#39;application mobile est téléchargée par l&#39;utilisateur sur l&#39;App 
 
 ### Etape 2 : diffusion {#step-2--delivery}
 
-Le marketeur cible les abonnés d&#39;une application. Le processus de diffusion envoie au service de notifications les paramètres de connexion (certificat pour iOS et clé de projet pour Android), l&#39;identifiant de notification (push id), et le contenu de la notification. Le service de notification envoie les notifications sur les terminaux ciblés.
+Le spécialiste marketing cible les abonnés d’une application.Le processus de diffusion envoie au service de notifications les paramètres de connexion (certificat pour iOS et clé de projet pour Android), l’identifiant de notification (push id), et le contenu de la notification.Le service de notification envoie les notifications sur les terminaux ciblés.
 
 Les informations suivantes sont remontées dans Adobe Campaign :
 

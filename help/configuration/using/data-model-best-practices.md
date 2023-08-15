@@ -2,12 +2,12 @@
 product: campaign
 title: Bonnes pratiques relatives au modèle de données
 description: Découvrez comment utiliser le modèle de données de Campaign Classic
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4012'
 ht-degree: 100%
 
 ---
@@ -277,7 +277,7 @@ Afin d&#39;optimiser les performances à tout moment, suivez les bonnes pratique
 
 ### Relations de type &quot;un à plusieurs&quot;  {#one-to-many-relationships}
 
-* La conception des données a un impact sur la convivialité et les fonctionnalités. Si vous concevez votre modèle de données avec de nombreuses relations de type &quot;un à plusieurs&quot;, il devient plus difficile pour les utilisateurs de construire une logique significative dans l&#39;application. Il peut s&#39;avérer difficile pour les marketeurs n&#39;ayant pas de compétences techniques de construire et de comprendre correctement la logique.
+* La conception des données a un impact sur la convivialité et les fonctionnalités. Si vous concevez votre modèle de données avec de nombreuses relations de type &quot;un à plusieurs&quot;, il devient plus difficile pour les utilisateurs de construire une logique significative dans l&#39;application. Il peut s’avérer difficile pour les spécialistes marketing n’ayant pas de compétences techniques de construire et de comprendre correctement la logique.
 * Qu&#39;une table comporte tous les champs essentiels est une bonne chose car cela facilite la création de requêtes par les utilisateurs. Il est aussi parfois judicieux de dupliquer certains champs d&#39;une table à l&#39;autre si cela permet d&#39;éviter une jointure.
 * Certaines fonctionnalités intégrées ne pourront pas faire référence à des relations de type &quot;un à plusieurs&quot;, par exemple la formule Pondération d&#39;offre et Diffusions.
 

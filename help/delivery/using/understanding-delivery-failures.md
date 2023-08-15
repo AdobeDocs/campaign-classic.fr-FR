@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Monitoring, Deliverability
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2675'
 ht-degree: 100%
 

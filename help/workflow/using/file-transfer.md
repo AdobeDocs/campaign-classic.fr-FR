@@ -2,12 +2,12 @@
 product: campaign
 title: Envoi de fichier
 description: En savoir plus sur l’activité de workflow d’envoi de fichier
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '659'
 ht-degree: 100%
 
 ---

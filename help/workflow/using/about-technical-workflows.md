@@ -2,12 +2,12 @@
 product: campaign
 title: Workflows techniques
 description: En savoir plus sur les workflows techniques disponibles avec les packages Campaign Classic
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1722'
 ht-degree: 100%
 
 ---

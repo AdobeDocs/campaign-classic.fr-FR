@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 100%
 

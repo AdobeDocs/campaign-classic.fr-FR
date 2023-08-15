@@ -2,12 +2,12 @@
 product: campaign
 title: Réception de SMS
 description: En savoir plus sur l’activité de workflow de réception de SMS
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Channels Activity
 exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '125'
 ht-degree: 100%
 
 ---

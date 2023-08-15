@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: response-manager
 exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 100%
 

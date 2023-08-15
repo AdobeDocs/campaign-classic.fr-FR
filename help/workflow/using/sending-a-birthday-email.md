@@ -2,12 +2,12 @@
 product: campaign
 title: Envoi d’un e-mail d’anniversaire
 description: Découvrez comment envoyer un e-mail d’anniversaire à l’aide d’un workflow
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '941'
 ht-degree: 100%
 
 ---

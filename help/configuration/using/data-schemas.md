@@ -2,12 +2,12 @@
 product: campaign
 title: Schémas de données
 description: Prise en main des schémas de données de Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Schema Extension
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---

@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Push, Troubleshooting
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
 

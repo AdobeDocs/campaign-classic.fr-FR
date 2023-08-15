@@ -2,11 +2,11 @@
 product: campaign
 title: Emission vers Mid-sourcing
 description: En savoir plus sur les workflows d’émission vers Mid-sourcing
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '114'
 ht-degree: 100%
 
 ---

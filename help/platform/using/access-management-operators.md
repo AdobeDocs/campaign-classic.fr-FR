@@ -2,14 +2,14 @@
 product: campaign
 title: Prise en main des opérateurs Campaign
 description: Découvrez comment créer et gérer des utilisateurs Campaign
-badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1221'
 ht-degree: 100%
 
 ---

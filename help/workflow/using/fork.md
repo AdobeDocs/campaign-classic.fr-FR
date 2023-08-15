@@ -2,17 +2,17 @@
 product: campaign
 title: Branchement
 description: En savoir plus sur l'activité de workflow Branchement
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '433'
 ht-degree: 100%
 
 ---
 
-# Branchement{#fork}
+# Branchement {#fork}
 
 
 

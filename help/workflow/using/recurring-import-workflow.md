@@ -2,12 +2,12 @@
 product: campaign
 title: Configuration dʼun dʼimport récurrent
 description: Découvrez comment paramétrer un modèle de workflow pour les imports récurrents
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1143'
 ht-degree: 100%
 
 ---

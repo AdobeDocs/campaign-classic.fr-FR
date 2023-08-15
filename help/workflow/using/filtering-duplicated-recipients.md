@@ -2,12 +2,12 @@
 product: campaign
 title: Filtrer les destinataires en double
 description: Découvrez comment filtrer les destinataires en double.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '163'
 ht-degree: 100%
 
 ---

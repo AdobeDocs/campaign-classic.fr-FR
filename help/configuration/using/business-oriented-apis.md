@@ -2,12 +2,12 @@
 product: campaign
 title: API orientées métier
 description: API orientées métier
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: API
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '639'
 ht-degree: 100%
 
 ---

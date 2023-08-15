@@ -2,12 +2,12 @@
 product: campaign
 title: Créer un filtre
 description: Découvrez comment créer un filtre lors de lʼexécution de requêtes
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Query Editor, Workflows
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '235'
 ht-degree: 100%
 
 ---

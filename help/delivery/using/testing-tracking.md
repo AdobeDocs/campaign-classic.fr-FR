@@ -2,13 +2,13 @@
 product: campaign
 title: Test du tracking des messages
 description: Découvrez comment tester le tracking des messages
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Monitoring
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '272'
 ht-degree: 100%
 
 ---

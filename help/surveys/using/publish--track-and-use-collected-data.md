@@ -2,13 +2,13 @@
 product: campaign
 title: Publier, suivre et utiliser les données collectées
 description: Découvrez comment publier, suivre et utiliser les données collectées dans un questionnaire
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '889'
 ht-degree: 100%
 
 ---

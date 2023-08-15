@@ -2,12 +2,12 @@
 product: campaign
 title: Scripts et modèles JavaScript
 description: Scripts et modèles JavaScript
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1270'
 ht-degree: 100%
 
 ---

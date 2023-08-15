@@ -2,14 +2,14 @@
 product: campaign
 title: Gestion de l’accès aux dossiers Campaign
 description: Découvrez comment octroyer l’accès aux dossiers Campaign et créer des vues
-badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Application Settings, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '782'
 ht-degree: 100%
 
 ---

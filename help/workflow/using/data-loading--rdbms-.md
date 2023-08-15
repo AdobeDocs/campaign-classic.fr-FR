@@ -2,12 +2,12 @@
 product: campaign
 title: Chargement (SGBD)
 description: En savoir plus sur l’activité de workflow de chargement (SGBD)
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Data Management Activity
 exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '210'
 ht-degree: 100%
 
 ---

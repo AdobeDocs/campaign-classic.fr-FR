@@ -2,12 +2,12 @@
 product: campaign
 title: Définition des validations
 description: Les validations permettent à des opérateurs de prendre des décisions à certaines étapes dʼun workflow ou de confirmer la poursuite dʼun traitement.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Approvals
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '878'
 ht-degree: 100%
 
 ---
