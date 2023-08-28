@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 324e26ba1db14e10bb79eee60ba43ddc36e8e94f
 workflow-type: tm+mt
-source-wordcount: '3607'
-ht-degree: 100%
+source-wordcount: '3630'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,10 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md) pour connaître les mises à jour relatives aux versions.
 
 ## 2023
+
+### Août 2023
+
+Une limitation a été ajoutée pour indiquer que vous ne pouvez pas utiliser Adobe Campaign pour décompresser les fichiers compressés d’une taille supérieure à 4 Go. [En savoir plus](../../platform/using/unzip-decrypt.md)
 
 ### Avril 2023
 
