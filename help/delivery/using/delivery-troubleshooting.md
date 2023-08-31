@@ -5,17 +5,16 @@ description: En savoir plus sur les performances des diffusions et comment réso
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Monitoring, Deliverability, Troubleshooting
+role: User
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '811'
 ht-degree: 100%
 
 ---
 
 # Résolution des problèmes liés à l&#39;envoi de diffusions {#delivery-troubleshooting}
-
-
 
 Cette section répertorie les problèmes courants que vous pouvez rencontrer lors de l’envoi de diffusions et comment les résoudre.
 
