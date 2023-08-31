@@ -5,8 +5,9 @@ description: Découvrez les raisons des échecs de vos diffusions
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Monitoring, Deliverability
+role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '2675'
 ht-degree: 100%
@@ -14,8 +15,6 @@ ht-degree: 100%
 ---
 
 # Présentation des diffusions en échec{#understanding-delivery-failures}
-
-
 
 ## À propos des diffusions en échec {#about-delivery-failures}
 

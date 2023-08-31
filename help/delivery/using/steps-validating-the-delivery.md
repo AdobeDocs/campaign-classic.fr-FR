@@ -5,8 +5,9 @@ description: Découvrez comment valider une diffusion
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Deliverability, Email Rendering, Proofs
+role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 100%
@@ -14,8 +15,6 @@ ht-degree: 100%
 ---
 
 # Validation de la diffusion {#validating-the-delivery}
-
-
 
 Une fois la diffusion créée et paramétrée, vous devez la valider avant de l&#39;envoyer à la cible principale.
 

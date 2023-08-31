@@ -5,8 +5,9 @@ description: Découvrez la portée et les spécificités de lʼenvoi dʼe-mails 
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Email
+role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: e83d85a26a5c8dd26ea2468246ef448edf8fee9b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 99%
@@ -14,8 +15,6 @@ ht-degree: 99%
 ---
 
 # Envoi d&#39;emails avec le MTA amélioré {#sending-with-enhanced-mta}
-
-
 
 Le **MTA amélioré d&#39;Adobe Campaign** (Mail Transfer Agent) fournit une infrastructure d&#39;envoi mise à niveau qui permet d&#39;améliorer les performances en matière de délivrabilité, de réputation, de débit, de reporting, de gestion des rebonds, de montée en charge des adresses IP et de gestion des paramètres de connexion.
 

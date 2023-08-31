@@ -5,17 +5,16 @@ description: Comprendre la gestion des quarantaines
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Monitoring, Deliverability
+role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '3112'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Présentation de la gestion des quarantaines{#understanding-quarantine-management}
-
-
 
 Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires dont l&#39;adresse est en quarantaine sont par défaut exclus lors de l&#39;analyse d&#39;une diffusion : ils ne seront pas ciblés. Une adresse email peut être mise en quarantaine par exemple lorsque la boîte de messagerie est pleine ou si l&#39;adresse n&#39;existe pas. Dans tous les cas, la mise en quarantaine répond à des règles précises qui sont décrites ci-après.
 
@@ -43,11 +42,11 @@ La quarantaine et la liste bloquée ne s’appliquent pas au même objet :
 
 * En revanche, en cas d&#39;insertion en **liste bloquée**, le **profil** ne sera plus ciblé par aucune diffusion, par exemple après une désinscription (opt-out), pour un canal donné. Par exemple, si un profil de la liste bloquée pour le canal e-mail comporte deux adresses e-mail, les deux adresses seront exclues de la diffusion.
 
-  Vous pouvez vérifier si un profil est sur liste bloquée pour un ou plusieurs canaux dans la section **[!UICONTROL Ne plus contacter]** de l’onglet **[!UICONTROL Général]** du profil. Consultez [cette section](../../platform/using/editing-a-profile.md#general-tab).
+  Vous pouvez vérifier si un profil se trouve en liste bloquée pour un ou plusieurs canaux dans la variable **[!UICONTROL Ne plus contacter]** section du profil **[!UICONTROL Général]** . Consultez [cette section](../../platform/using/editing-a-profile.md#general-tab).
 
 >[!NOTE]
 >
->La mise en quarantaine inclut un statut **[!UICONTROL Sur liste bloquée]**, qui s’applique lorsque les destinataires signalent votre message comme étant un spam ou répondent à un message SMS avec un mot-clé tel que « STOP ». Dans ce cas, l’adresse ou le numéro de téléphone du profil impliqué est mis en quarantaine avec le statut **[!UICONTROL Sur liste bloquée]**. Pour plus d&#39;informations sur la gestion des messages SMS STOP, consultez [cette section](../../delivery/using/sms-send.md#processing-inbound-messages).
+>La mise en quarantaine comprend un **[!UICONTROL Placé sur la liste bloquée]** statut, qui s&#39;applique lorsque les destinataires signalent votre message comme indésirable ou répondent à un message SMS avec un mot-clé tel que &quot;STOP&quot;. Dans ce cas, l’adresse ou le numéro de téléphone du profil impliqué est mis en quarantaine avec la variable **[!UICONTROL Placé sur la liste bloquée]** statut. Pour plus d&#39;informations sur la gestion des messages SMS STOP, consultez [cette section](../../delivery/using/sms-send.md#processing-inbound-messages).
 
 ## Identification des adresses en quarantaine {#identifying-quarantined-addresses}
 
@@ -164,16 +163,16 @@ Vous trouverez ci-dessous les instructions recommandées pour cette requête :
 
 * Pour les environnements Campaign Classic v7 contenant des informations de règles d’email entrant dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
-   * **Texte d’erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient »
+   * **Texte de l&#39;erreur (texte de la quarantaine)** contient &quot;Momen_Code10_InvalidRecipient&quot;
    * **Domaine d’e-mail (@domain)** égal à domain1.com OU **domaine d’email (@domain)** égal à domain2.com OU **domaine d’email (@domain)** égal à domain3.com
    * **Mise à jour du statut (@lastModified)** le ou après le JJ/MM/AAAA à HH:MM:SS AM
    * **Mise à jour du statut (@lastModified)** le ou avant le JJ/MM/AAAA à HH:MM:SS PM
 
 * Pour les instances Campaign Classic v7 contenant des informations de réponse de rebond SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
-   * **Le texte d’erreur (texte de quarantaine)** contient « 550-5.1.1 » ET **Le texte d’erreur (texte de quarantaine)** contient « support.ISP.com »,
+   * **Texte de l&#39;erreur (texte de la quarantaine)** contient &quot;550-5.1.1&quot; ET **Texte de l&#39;erreur (texte de la quarantaine)** contient &quot;support.ISP.com&quot;
 
-  où « ISP.com » peut être « support.apple.com » ou « support.google.com », par exemple.
+  où &quot;support.ISP.com&quot; peut être : &quot;support.apple.com&quot; ou &quot;support.google.com&quot;, par exemple
 
    * **Mise à jour du statut (@lastModified)** le ou après le JJ/MM/AAAA à HH:MM:SS AM
    * **Mise à jour du statut (@lastModified)** le ou avant le JJ/MM/AAAA à HH:MM:SS PM

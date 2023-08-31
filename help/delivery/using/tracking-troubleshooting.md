@@ -5,8 +5,9 @@ description: Consultez les questions courantes relatives à la configuration et 
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Monitoring, Troubleshooting
+role: User
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
@@ -14,8 +15,6 @@ ht-degree: 100%
 ---
 
 # Résolution des problèmes liés au tracking {#tracking-troubleshooting}
-
-
 
 Dans cette section, vous trouverez des questions courantes relatives à la configuration et à l’implémentation du tracking dans Adobe Campaign Classic.
 

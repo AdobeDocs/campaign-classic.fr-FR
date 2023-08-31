@@ -5,8 +5,9 @@ description: Découvrez les instructions de pré-traitement à utiliser pour éc
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Monitoring
+role: User, Data Engineer, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 100%
@@ -14,8 +15,6 @@ ht-degree: 100%
 ---
 
 # Instructions de pré-traitement {#pre-processing-instructions}
-
-
 
 Vous pouvez utiliser une syntaxe spécifique dans le contenu de la diffusion afin d’ajouter des instructions et de créer un script pour l’URL de l’email suivi. Les &lt;%@ ne sont pas des instructions JavaScript. Cette syntaxe est propre à Adobe Campaign.
 

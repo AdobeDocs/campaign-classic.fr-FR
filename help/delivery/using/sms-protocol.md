@@ -5,8 +5,9 @@ description: En savoir plus sur le connecteur SMS et comment le configurer
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: SMS
+role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '8458'
 ht-degree: 99%
@@ -14,8 +15,6 @@ ht-degree: 99%
 ---
 
 # Protocole et paramètres du connecteur SMS {#sms-connector-protocol}
-
-
 
 >[!NOTE]
 >

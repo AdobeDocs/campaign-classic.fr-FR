@@ -5,21 +5,20 @@ description: Modèle de publication
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Templates
+role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 100%
+source-wordcount: '844'
+ht-degree: 98%
 
 ---
 
 # Modèle de publication{#publication-templates}
 
-
-
 ## À propos des modèles de publication {#about-publication-templates}
 
-Le modèle de publication est la fiche d&#39;identité du contenu à publier. Il référence les ressources utilisées dans le processus de publication, à savoir :
+Le modèle de publication référence les ressources utilisées dans le processus de publication, c&#39;est-à-dire :
 
 * le schéma de données,
 * le formulaire de saisie,
