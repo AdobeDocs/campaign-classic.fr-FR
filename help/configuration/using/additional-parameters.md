@@ -3,10 +3,11 @@ product: campaign
 title: Autres paramètres de tracking web
 description: En savoir plus sur les paramètres de tracking web
 feature: Configuration, Instance Settings
+role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '359'
 ht-degree: 100%
 
