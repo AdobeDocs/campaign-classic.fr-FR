@@ -5,17 +5,16 @@ description: Découvrez comment créer une diffusion e-mail
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Email
+role: User
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '110'
 ht-degree: 100%
 
 ---
 
 # Création d’une diffusion par e-mail{#creating-an-email-delivery}
-
-
 
 Pour créer une diffusion email, procédez comme suit :
 
