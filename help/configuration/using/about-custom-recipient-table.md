@@ -3,19 +3,18 @@ product: campaign
 title: À propos de la table des destinataires personnalisée
 description: À propos de la table des destinataires personnalisée
 feature: Configuration, Custom Resources
+role: User, Data Engineer, Developer
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '695'
 ht-degree: 100%
 
 ---
 
 # Utilisation d’une table des destinataires personnalisée{#about-custom-recipient-table}
-
-
 
 Cette section présente les principes d’utilisation d’une table de destinataires personnalisée (ou externe).
 
