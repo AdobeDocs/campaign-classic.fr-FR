@@ -3,19 +3,18 @@ product: campaign
 title: Configuration de l’interface
 description: Découvrez comment configurer lʼinterface de Campaign
 feature: Application Settings
+role: Data Engineer, Developer
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '325'
 ht-degree: 100%
 
 ---
 
 # Configuration de l’interface{#configuring-the-interface}
-
-
 
 Afin de visualiser et de dialoguer avec la nouvelle table des destinataires dans l&#39;interface d&#39;Adobe Campaign, il faut suivre les étapes suivantes :
 
