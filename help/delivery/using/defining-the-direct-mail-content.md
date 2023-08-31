@@ -5,17 +5,16 @@ description: Découvrez comment définir le contenu du publipostage direct
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Direct Mail
+role: User
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '195'
 ht-degree: 100%
 
 ---
 
 # Définition du contenu du publipostage direct{#defining-the-direct-mail-content}
-
-
 
 ## Fichier d&#39;extraction {#extraction-file}
 
