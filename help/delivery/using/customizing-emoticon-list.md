@@ -5,17 +5,16 @@ description: Découvrez comment personnaliser la liste des émoticônes avec Ado
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Email, Push
+role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '485'
 ht-degree: 100%
 
 ---
 
 # Personnalisation de la liste des émoticônes {#customize-emoticons}
-
-
 
 La liste des émoticônes affichée dans la fenêtre pop-up est régie par une énumération. Vous pouvez ainsi afficher les valeurs contenues dans une liste pour limiter les choix de l’utilisateur pour un champ donné.
 Il est possible de personnaliser la position des émoticônes dans la liste et d’en ajouter d’autres.
