@@ -5,9 +5,10 @@ description: Joindre des fichiers
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Email
+role: User
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '1085'
 ht-degree: 100%
 
