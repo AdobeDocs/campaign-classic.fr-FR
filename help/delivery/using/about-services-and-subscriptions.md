@@ -5,17 +5,16 @@ description: Prise en main des services et des abonnements dans Adobe Campaign
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Subscriptions
+role: User
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
 ---
 
 # À propos des services et des abonnements{#about-services-and-subscriptions}
-
-
 
 Adobe Campaign permet de créer et administrer des services d&#39;information (par exemple des newsletters) et de gérer les abonnements à ces services. Il est possible de définir plusieurs services en parallèle, par exemple des newsletters spécialisées pour certaines catégories de produits, certaines thématiques ou sections d&#39;un site web, des abonnements à différents types d&#39;alertes ou de notifications temps réel. Pour plus d&#39;informations, consultez la section [Gestion des abonnements](managing-subscriptions.md).
 
