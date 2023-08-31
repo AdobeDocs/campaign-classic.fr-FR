@@ -4,17 +4,16 @@ title: Créer une notification push pour les appareils Android
 description: Découvrez comment créer des notifications push pour Android
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Push
+role: User, Developer, Data Engineer
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '823'
 ht-degree: 100%
 
 ---
 
 # Créer des notifications pour Android{#create-notificaations-android}
-
-
 
 Utilisez Adobe Campaign pour envoyer des notifications push sur les appareils Android. Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
 
