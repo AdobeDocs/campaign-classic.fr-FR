@@ -5,17 +5,16 @@ description: Découvrez comment créer du contenu personnalisé dans les diffusi
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Email Design, Personalization
+role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '1311'
 ht-degree: 100%
 
 ---
 
 # Création de contenu personnalisé {#build-personalized-content}
-
-
 
 Lors de la conception du contenu de votre message, évitez les problèmes courants qui peuvent vous empêcher d’exécuter votre diffusion. La plupart du temps, les erreurs possibles sont liées à la [personnalisation](about-personalization.md), au [formatage](defining-the-email-content.md#message-content) et aux [images](defining-the-email-content.md#adding-images).
 
