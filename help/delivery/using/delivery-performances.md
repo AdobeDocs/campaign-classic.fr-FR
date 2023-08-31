@@ -5,17 +5,16 @@ description: En savoir plus sur les performances et les bonnes pratiques de diff
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Deliverability
+role: User, Data Engineer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '470'
 ht-degree: 100%
 
 ---
 
 # Bonnes pratiques des performances de diffusion {#delivery-performances}
-
-
 
 Nous vous recommandons de suivre les instructions ci-dessous pour vous assurer que vos diffusions fonctionnent bien, ainsi que les vérifications effectuées si vous rencontrez des problèmes de diffusions.
 
