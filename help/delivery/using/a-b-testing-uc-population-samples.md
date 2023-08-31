@@ -5,17 +5,16 @@ description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼ
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: A/B Testing
+role: User
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 97%
 
 ---
 
-# Configuration des échantillons de population {#step-2--configuring-population-samples}
-
-
+# Test AB : Configuration d’exemples de population {#step-2--configuring-population-samples}
 
 ## Configurer l&#39;activité de Requête {#configuring-the-query-activity}
 

@@ -1,14 +1,15 @@
 ---
 product: campaign
 title: Règles de cohérence
-description: Règles de cohérence
+description: Découvrez comment utiliser les règles de cohérence dans Adobe Campaign
+role: User, Data Engineer
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Typology Rules, Campaigns
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 100%
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 

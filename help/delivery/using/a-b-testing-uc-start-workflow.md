@@ -5,15 +5,16 @@ description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼ
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: A/B Testing
+role: User
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 100%
+source-wordcount: '100'
+ht-degree: 95%
 
 ---
 
-# Démarrez le workflow {#step-7--starting-the-workflow}
+# Tests AB : démarrez le workflow. {#step-7--starting-the-workflow}
 
 
 

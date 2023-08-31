@@ -5,16 +5,16 @@ description: En savoir plus sur la gestion de la délivrabilité dans Adobe Cam
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Deliverability
+role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Contrôle du contenu de votre message{#control-message-content}
-
 
 
 Pour que vos emails atteignent vos destinataires et améliorer ainsi leur taux de délivrabilité, assurez-vous qu’ils respectent un certain nombre de règles. Dans le cas contraire, le contenu de certains messages peut être détecté comme du spam. Adobe Campaign fournit plusieurs outils vous permettant de vérifier que votre contenu respecte ces règles.
@@ -43,7 +43,7 @@ Pour plus d’informations à ce sujet, consultez [cette page](defining-the-emai
 
 ## Personnalisation {#personalization}
 
-Pour améliorer l’expérience de vos destinataires et les inciter à ouvrir votre email, Adobe Campaign vous permet de personnaliser vos messages.
+Pour améliorer l&#39;expérience de vos destinataires et leur permettre d&#39;ouvrir votre email, Adobe Campaign vous permet de personnaliser vos messages.
 
 Pour plus d’informations sur l’utilisation des champs de personnalisation dans Adobe Campaign, voir [cette section](personalization-fields.md).
 

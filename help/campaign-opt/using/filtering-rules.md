@@ -1,14 +1,15 @@
 ---
 product: campaign
 title: Règles de filtrage
-description: Découvrez comment utiliser les règles de filtrage
+description: Découvrez comment utiliser les règles de filtrage dans Adobe Campaign
+role: User, Data Engineer
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Typology Rules, Campaigns
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 99%
 
 ---
 

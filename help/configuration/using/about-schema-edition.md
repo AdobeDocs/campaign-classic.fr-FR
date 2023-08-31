@@ -4,11 +4,12 @@ title: À propos de l’édition de schéma
 description: Prise en main de l’édition de schéma
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Schema Extension
+role: Data Engineer, Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -102,7 +103,7 @@ Exemple:
 </key>
 ```
 
-Dans cet exemple, au lieu de laisser l&#39;attribut **@autopk** créer une clé primaire par défaut nommée &quot;id&quot;, on définit ici la clé primaire &quot;householdId&quot;.
+Dans cet exemple, au lieu de laisser la variable **@autopk** crée une clé primaire par défaut appelée &quot;id&quot; que nous spécifions notre propre clé primaire &quot;householdId&quot;.
 
 >[!IMPORTANT]
 >
