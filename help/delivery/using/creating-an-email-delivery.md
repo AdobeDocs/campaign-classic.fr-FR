@@ -8,7 +8,7 @@ feature: Email
 role: User
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
 ht-degree: 100%
 
