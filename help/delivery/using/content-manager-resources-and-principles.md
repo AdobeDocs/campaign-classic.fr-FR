@@ -8,7 +8,7 @@ feature: Templates
 role: User, Developer, Data Engineer
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
 ht-degree: 100%
 
