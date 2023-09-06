@@ -1,16 +1,16 @@
 ---
 product: campaign
 title: Gérer les abonnements
-description: Découvrez comment gérer les abonnements dans Adobe Campaign
+description: Découvrez comment gérer les abonnements dans Adobe Campaign
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1173'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
