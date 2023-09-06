@@ -8,9 +8,9 @@ feature: Monitoring, Email
 role: User
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '696'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ Les conseils de dépannage suivants vous aideront à résoudre les problèmes le
 
   Vous pouvez y accéder à partir de la page d&#39;accueil en sélectionnant l&#39;onglet Supervision dans votre instance. Vous pouvez également exécuter la commande suivante sur l’instance : `<user>@<instance>:~$ nlserver pdump`
 
-  Si le processus trackinglogd n&#39;apparaît pas dans la liste, lancez-le avec la commande suivante sur l&#39;instance : `<user>@<instance>:~$ nlserver start trackinglogd`
+  Si le processus trackinglogd n’apparaît pas dans la liste, lancez-le avec la commande suivante sur l’instance : `<user>@<instance>:~$ nlserver start trackinglogd`
 
 * Vérifiez que le workflow technique de tracking s&#39;est récemment exécuté.
 
