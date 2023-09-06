@@ -8,9 +8,9 @@ feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '784'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Pour plus d’informations à ce sujet, consultez [cette page](defining-the-emai
 
 ## Personnalisation {#personalization}
 
-Pour améliorer l&#39;expérience de vos destinataires et leur permettre d&#39;ouvrir votre email, Adobe Campaign vous permet de personnaliser vos messages.
+Pour améliorer l’expérience de vos destinataires et les inciter à ouvrir votre e-mail, Adobe Campaign vous permet de personnaliser vos messages.
 
 Pour plus d’informations sur l’utilisation des champs de personnalisation dans Adobe Campaign, voir [cette section](personalization-fields.md).
 
