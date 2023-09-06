@@ -7,9 +7,9 @@ feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1018'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Exemple:
 </key>
 ```
 
-Dans cet exemple, au lieu de laisser la variable **@autopk** crée une clé primaire par défaut appelée &quot;id&quot; que nous spécifions notre propre clé primaire &quot;householdId&quot;.
+Dans cet exemple, au lieu de laisser l’attribut **@autopk** créer une clé primaire par défaut nommée « id », on définit ici la clé primaire « householdId ».
 
 >[!IMPORTANT]
 >
