@@ -8,13 +8,13 @@ feature: A/B Testing
 role: User
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Test AB : test A/B : test A/B de ce cas pratique {#ab-testing-use-case}
+# AB Testing : procéder aux tests AB de ce cas d’utilisation {#ab-testing-use-case}
 
 Dans ce cas pratique, vous allez comparer deux contenus de diffusion par email via un workflow de ciblage. Le message et le texte sont identiques dans les deux diffusions. Seules les présentations diffèrent.
 
