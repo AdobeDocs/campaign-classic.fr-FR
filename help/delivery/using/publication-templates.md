@@ -8,17 +8,17 @@ feature: Templates
 role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '844'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Modèle de publication{#publication-templates}
+# Modèles de publication{#publication-templates}
 
 ## À propos des modèles de publication {#about-publication-templates}
 
-Le modèle de publication référence les ressources utilisées dans le processus de publication, c&#39;est-à-dire :
+Le modèle de publication référence les ressources utilisées dans le processus de publication, à savoir :
 
 * le schéma de données,
 * le formulaire de saisie,
