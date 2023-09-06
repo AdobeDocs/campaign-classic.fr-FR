@@ -8,9 +8,9 @@ feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8458'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -832,16 +832,16 @@ Même si vous ne pouvez pas vérifier vous-même les logs, il sera plus facile p
 ### Tester votre SMS {#test}
 
 * **Envoyer des SMS avec toutes sortes de caractères**
-Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d&#39;envoyer des messages avec autant de caractères différents que possible. Si vous définissez un tableau de mapping de caractères personnalisé, envoyez au moins un SMS pour toutes les valeurs `data_coding` possibles.
+Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d&#39;envoyer des messages avec autant de caractères différents que possible. Si vous définissez un tableau de mapping de caractères personnalisé, envoyez au moins un SMS pour toutes les valeurs `data_coding`.
 
 * **Vérifier que les SR sont correctement traités**
-Le SMS doit être marqué comme reçu dans le log de diffusion. Le log de diffusion doit réussir et se présenter comme suit :
+Le SMS doit être marqué comme reçu dans le log de diffusion. Le journal de diffusion ne doit pas rencontrer de problème et se présenter comme suit :
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Vérifiez que vous avez modifié le nom du fournisseur de diffusions. Le log de diffusion ne doit jamais contenir **SR Generic** sur les environnements de production.
 
 * **Vérifier que les MO sont traités**
 Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.) essayez de faire des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
-Archivez le journal auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` (command_status=0) réussi.
+Archivez le journal auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` (command_status=0).
 
 ### Vérifier les PDU {#check-pdus}
 
