@@ -1,20 +1,20 @@
 ---
 product: campaign
-title: À propos du canal Courrier
-description: À propos du canal Courrier
+title: À propos du canal Publipostage direct
+description: À propos du canal Publipostage direct
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Direct Mail
 role: User
 exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
 ht-degree: 100%
 
 ---
 
-# À propos du canal Courrier{#about-direct-mail-channel}
+# À propos du canal Publipostage direct{#about-direct-mail-channel}
 
 
 Adobe Campaign vous permet de produire des fichiers afin de diffuser des lettres personnalisées en masse. Les profils des destinataires doivent contenir au moins leurs noms et adresses postales.
