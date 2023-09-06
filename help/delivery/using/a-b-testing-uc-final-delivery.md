@@ -1,20 +1,20 @@
 ---
 product: campaign
 title: Définir la diffusion finale
-description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique.
+description: Découvrez comment effectuer des tests AB à lʼaide dʼun cas dʼutilisation spécifique.
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: A/B Testing
 role: User
 exl-id: bc23a444-a872-48fb-8bba-64b301541089
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Tests AB : définissez la diffusion finale {#step-6--defining-the-final-delivery}
+# AB Testing : définir la diffusion finale {#step-6--defining-the-final-delivery}
 
 Une fois que le script pour sélectionner le gagnant du test A/B a été créé, vous pouvez définir les paramètres de la diffusion finale.
 
