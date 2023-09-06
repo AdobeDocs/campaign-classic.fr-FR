@@ -7,13 +7,13 @@ feature: API
 role: Data Engineer, Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1868'
 ht-degree: 100%
 
 ---
 
-# API orientées données {#data-oriented-apis}
+# API orientées données{#data-oriented-apis}
 
 Les API orientées données permettent d’adresser le modèle de données dans son intégralité.
 
