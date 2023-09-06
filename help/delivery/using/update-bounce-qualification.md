@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -39,17 +39,17 @@ En fonction du calendrier de l&#39;incident, voici les instructions recommandée
 
 >[!IMPORTANT]
 >
->Ces dates/heures sont basées sur le fuseau horaire standard de l&#39;Est (EST). Ajustez le fuseau horaire de votre instance.
+>Ces dates/heures sont basées sur le fuseau horaire standard de l&#39;Est (EST). Configurez le fuseau horaire de votre instance.
 
-* Pour les instances Campaign contenant des informations de réponse de retour SMTP dans le champ **[!UICONTROL Texte d&#39;erreur]** de la liste de quarantaine :
+* Pour les instances Campaign contenant des informations de réponse de retour SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
-   * **Texte de l&#39;erreur (texte de la quarantaine)** contient &quot;succès de recherche d’utilisateur, mais aucun enregistrement d’utilisateur trouvé&quot; ET **Texte de l&#39;erreur (texte de la quarantaine)** contient &quot;support.apple.com&quot;
+   * **Le texte d’erreur (texte de quarantaine)** contient « l’utilisateur a été trouvé, mais pas l’enregistrement d’utilisateur » **ET le texte d’erreur (texte de quarantaine)** contient « support.apple.com ».
    * **Mise à jour du statut (@lastModified)** le ou après le 26/04/2021 à 07:00:00
    * **Mise à jour du statut (@lastModified)** le ou avant le 26/04/2021 à 13:00:00
 
 * Pour les instances Campaign contenant des informations de règles d&#39;email entrant dans le champ **[!UICONTROL Texte d&#39;erreur]** de la liste de quarantaine :
 
-   * **Texte de l&#39;erreur (texte de la quarantaine)** contient &quot;Momen_Code10_InvalidRecipient&quot;
+   * Le **texte d’erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient ».
    * **Domaine d&#39;e-mail (@domaine)** égal à icloud.com OU **domaine d&#39;e-mail (@domaine)** égal à me.com OU **domaine d&#39;e-mail (@domaine)** égal à mac.com
    * **Mise à jour du statut (@lastModified)** le ou après le 26/04/2021 à 07:00:00
    * **Mise à jour du statut (@lastModified)** le ou avant le 26/04/2021 à 13:00:00
