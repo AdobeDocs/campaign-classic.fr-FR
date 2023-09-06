@@ -8,9 +8,9 @@ feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ En règle générale, les problèmes de délivrabilité sont liés aux mesures d
 
 ### Taux de délivrabilité
 
-Le taux de délivrabilité est le nombre de messages qui ont atteint les boîtes de réception des destinataires par rapport au nombre de messages qui ont été délivrés. Pour améliorer la délivrabilité, vous pouvez faire en sorte d&#39;augmenter ce taux.
+Le taux de délivrabilité correspond au nombre de messages qui ont atteint les boîtes de réception des destinataires comparé au nombre de messages délivrés. Pour améliorer la délivrabilité, vous pouvez faire en sorte d&#39;augmenter ce taux.
 
 Avec Adobe Campaign, le taux de délivrabilité dépend de nombreux facteurs, parmi lesquels :
 
