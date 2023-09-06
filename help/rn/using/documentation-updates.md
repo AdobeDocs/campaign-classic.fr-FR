@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 324e26ba1db14e10bb79eee60ba43ddc36e8e94f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3630'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 
 ### Août 2023
 
-Une limitation a été ajoutée pour indiquer que vous ne pouvez pas utiliser Adobe Campaign pour décompresser les fichiers compressés d’une taille supérieure à 4 Go. [En savoir plus](../../platform/using/unzip-decrypt.md)
+Une limitation a été ajoutée pour indiquer que vous ne pouvez pas utiliser Adobe Campaign pour décompresser les fichiers compressés d’une taille supérieure à 4 Go. [En savoir plus](../../platform/using/unzip-decrypt.md)
 
 ### Avril 2023
 
