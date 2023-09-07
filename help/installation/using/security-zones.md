@@ -9,10 +9,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '1520'
-ht-degree: 100%
+source-wordcount: '1506'
+ht-degree: 99%
 
 ---
 
@@ -252,7 +252,7 @@ Une fois les zones définies et l&#39;énumération **[!UICONTROL Zone de sécur
      <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
      ```
 
-* Ne définissez jamais les attributs allowEmptyPassword, allowUserPassword et allowSQLInjection sur true. Ils ne servent qu’à faciliter la migration de la v5 vers la v6.0 :
+* Ne définissez jamais les attributs allowEmptyPassword, allowUserPassword et allowSQLInjection sur true.
 
    * L’attribut **allowEmptyPassword** permet aux opérateurs de disposer d’un mot de passe vide. Si c’est votre cas, demandez à tous les opérateurs de définir un mot de passe avec un délai. Une fois ce délai passé, définissez cet attribut sur la valeur false.
 

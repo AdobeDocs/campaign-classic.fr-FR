@@ -7,16 +7,84 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '1869'
+ht-degree: 62%
 
 ---
 
 # Dernière version{#latest-release}
 
 Cette page répertorie les nouvelles fonctionnalités, les améliorations et les correctifs apportés à la **dernière version de Campaign Classic v7**. Chaque nouvelle build est fournie avec un statut matérialisé par une couleur. En savoir plus sur les statuts de build de Campaign Classic v7 dans [cette page](rn-overview.md).
+
+## Version 7.3.4 - Build 9364 {#release-7-3-4}
+
+[!BADGE Disponibilité générale]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité générale"}
+
+>[!CAUTION]
+>
+>La mise à niveau de la console cliente est obligatoire. Découvrez comment mettre à niveau votre console cliente sur cette [page](../../installation/using/installing-the-client-console.md).
+>
+> Si vous utilisez [Campaign - Connecteur Microsoft Dynamics CRM](../../platform/using/crm-connectors.md), vous devez mettre à niveau vos serveurs de marketing et de mid-sourcing avec ce nouveau build.
+
+_Septembre_ 7 janvier 2023_
+
+**Amélioration de la sécurité**
+
+* La sécurité a été améliorée dans les API IMS. Les informations sensibles au client (c’est-à-dire les jetons d’accès) ont été supprimées des paramètres d’URL. Ces informations d’identification sont désormais envoyées dans l’en-tête des données de publication ou de l’autorisation, ce qui garantit un processus de communication plus sécurisé. (NEO-63045)
+* La sécurité a été améliorée dans les applications web pour empêcher les attaques DDOS. (NEO-50757)
+* La sécurité a été améliorée afin d’empêcher les données PII d’être exposées dans les erreurs de logs web. (NEO-46827)
+* La sécurité a été optimisée pour empêcher l&#39;inclusion du jeton de sécurité dans l&#39;URL de la page d&#39;accueil de Campaign. (NEO-38519)
+
+**Mises à jour de compatibilité**
+
+* Tomcat a été mis à jour vers la version 8.5.91
+* La bibliothèque libexpat a été mise à jour vers la version 2.5.0 afin d’améliorer la sécurité. (NEO-51023)
+
+**Améliorations**
+
+* Le paramètre MaxWorkingSetMb du fichier de configuration du serveur (serverConf.xml) a été modifié afin d’optimiser l’allocation de mémoire pour les diffusions. (NEO-49204)
+* Le compte externe BigQuery a été amélioré avec de nouvelles options utilisées pour configurer le SDK GCloud. (NEO-63879) [En savoir plus](../../installation/using/configure-fda-google-big-query.md#google-external)
+* Une nouvelle `cusHeader` a été ajoutée dans le fichier de configuration du serveur (serverConf.xml). Il vous permet d’ajouter des en-têtes personnalisés lors du téléchargement d’un fichier depuis un serveur externe. (NEO-58339) [En savoir plus](../../installation/using/the-server-configuration-file.md#cusheaders).
+* La gestion des logs de tracking a été améliorée afin d&#39;éviter des identifiants négatifs pour lastMsgId. Il a été remplacé de int32 à int64. (NEO-52290)
+* Le workflow Mid-sourcing (statistiques de diffusion) a été ajouté d&#39;usine. Ce nouveau workflow synchronise les données des statistiques de diffusion (nms:deliveryStat) du milieu vers l&#39;instance marketing. (NEO-36802)
+
+**Correctifs**
+
+* Correction d’un problème qui pouvait se produire lorsqu’une demande de service était effectuée avant la connexion IMS, si l’authentification d’appel de demande de service utilisait un jeton de service. (NEO-64903)
+* Correction d’un problème de régression qui entraînait des problèmes de défilement lors de l’utilisation du Digital Content Editor. (NEO-64671, NEO-59256)
+* Correction d’un problème de régression lors du collage de contenu d’Excel dans le Digital Content Editor. (NEO-63287)
+* Correction d’un problème qui empêchait l’affichage correct des applications web en mode de compatibilité v5. (NEO-63174)
+* Correction d’un problème qui empêchait les opérateurs non-administrateurs d’envoyer des diffusions webAnalytics. (NEO-62750)
+* Correction d’un problème qui empêchait les navigateurs d’ajouter des espaces supplémentaires lors de l’utilisation de contenu conditionnel dans une diffusion. (NEO-62132)
+* Correction d’un problème de régression qui empêchait le bon fonctionnement du calcul des contacts actifs dans le workflow Facturation lors de l’utilisation de schémas cibles associés à plusieurs schémas de logs. (NEO-61468)
+* Correction d’un problème qui entraînait une erreur et empêchait le défilement lors de l’édition du contenu d’une diffusion. (NEO-61364)
+* Correction d’un problème en raison duquel une fenêtre contextuelle s’ouvrait lors d’un clic sur une image dans l’éditeur de contenu d’e-mail. (NEO-60752)
+* Correction d’une erreur qui entraînait le codage incorrect des caractères spéciaux dans le contenu HTML d’une diffusion dans plusieurs navigateurs. (NEO-60081)
+* Correction d’un problème de synchronisation qui pouvait se produire lors de l’utilisation de l’activité de workflow inSMS . (NEO-59544)
+* Correction d’un problème lors de l’utilisation du connecteur Big Query avec l’horodatage ou les champs datetime. (NEO-59502, NEO-49768)
+* Correction d’un problème qui empêchait l’utilisation des rapports de diffusion cumulés. (NEO-59211)
+* Correction d’un problème qui pouvait entraîner des erreurs lors du partage d’audiences avec People Core Service. (NEO-58637)
+* Correction d’un problème lors de l’affichage de la page miroir d’une diffusion. (NEO-58325)
+* Correction d’un problème qui empêchait le fonctionnement de l’expression xtk XtkLibrary.Right() . (NEO-57870)
+* Correction d’un problème en raison duquel l’attribut style de la balise body était modifié lors du téléchargement d’une image dans le Digital Content Editor. (NEO-57697)
+* Correction d’un problème lié aux caractères spéciaux lors de l’exécution d’exportations par lots avec l’activité Connecteur CRM . (NEO-54300)
+* Correction d’un problème qui empêchait le chargement en masse de fonctionner avec les types de données &quot;string&quot; lors de l’utilisation d’une activité de Chargement et du connecteur Big Query. (NEO-53748)
+* Correction d’un problème de clé de cache qui entraînait des problèmes de rendu d’offre. (NEO-51516, NEO-49995)
+* Correction d’un problème qui entraînait une erreur de validation lors de l’envoi d’une diffusion courrier à l’aide de targetMapping avec validations. (NEO-50758)
+* Correction d’un problème de gestion des requêtes qui pouvait avoir un impact sur les performances de diffusion. (NEO-49991)
+* Correction d’un problème lors de l’utilisation de comptes externes dans les activités de diffusion de workflow de campagne, qui entraînait des problèmes de configuration de compte externe. (NEO-49959)
+* Correction d&#39;un problème de performances lors de l&#39;envoi de notifications push. (NEO-49953) Correction d’un problème en raison duquel les caractères japonais s’affichaient incorrectement lors de l’exportation de rapports (NEO-49308).
+* Correction d’un problème en raison duquel le rapport d’erreur Tomcat affichait trop de détails d’erreur. (NEO-49029)
+* Correction d’un problème qui entraînait une erreur de diffusion lors de l’utilisation d’un grand nombre d’offres. (NEO-48807)
+* Correction d’un problème qui empêchait le **Mise à jour de données** l’activité de workflow ne fonctionne pas correctement. (NEO-48140)
+* Correction d’un problème qui empêchait la synchronisation des données de suivi des clics pour les diffusions utilisant un compte externe différent de l’email.(NEO-47277)
+* Correction d&#39;une erreur qui empêchait la synchronisation des logs de tracking en temps réel sur l&#39;instance marketing Message Center. (NEO-42540)
+* Correction d’un problème qui empêchait l’affichage du préfixe de l’espace de travail dans la fenêtre de découverte d’un schéma, pour les tables de base de données de Snowflake. (NEO-40297)
+* Correction d’un problème qui empêchait `<img-amp>` de l’utilisation des balises dans le contenu d’un email. (NEO-38685)
+* Correction d&#39;une erreur qui entraînait l&#39;échec du workflow d&#39;archivage de Message Center lors de l&#39;utilisation d&#39;un relais HTTP. (NEO-33783)
+* Correction d’un problème qui entraînait des erreurs de nom et de taille de police dans l’éditeur de contenu d’email. (NEO-61342)
 
 ## Version 7.3.3 - Build 9359 {#release-7-3-3}
 

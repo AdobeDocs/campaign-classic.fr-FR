@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '7962'
-ht-degree: 100%
+source-wordcount: '8056'
+ht-degree: 98%
 
 ---
 
@@ -43,6 +43,7 @@ Les premiers paramètres se trouvent dans le nœud **shared**. Ils sont liés à
 * [proxyConfig](#proxyconfig)
 * [threadPool](#threadpool)
 * [urlPermission](#urlpermission)
+* [cusHeaders](#cusheaders)
 * [xtkJobs](#xtkjobs)
 
 **Autres paramètres**
@@ -997,6 +998,29 @@ Pour plus d&#39;informations, voir la section [Protection des connexions sortant
   </tr> 
  </tbody> 
 </table>
+
+## cusHeaders {#cusheaders}
+
+Ce noeud permet d’ajouter des en-têtes spécifiques dans les requêtes effectuées lors du téléchargement d’un fichier depuis un serveur externe. Les réseaux de diffusion de contenu (CND) peuvent demander un en-tête spécifique afin de faire confiance au demandeur. Ces en-têtes peuvent être utilisés pour améliorer la confiance dans les requêtes Campaign, en particulier lors du téléchargement de documents personnalisés pour chaque destinataire à l&#39;étape d&#39;exécution de la diffusion. Un nombre élevé de requêtes de téléchargement de ressources peut être interprété comme une attaque DDos. dnsPattern permet de définir des noms d’en-tête et des valeurs spécifiques pour différents CDN en fonction de leur nom de domaine.
+
+```
+  <!-- List of custom headers added to request. 
+         -->
+    <cusHeaders>
+
+    <!-- Pattern of DNS name or domain 
+         value :  dnsPattern: All or part of the URL's domain to verify, * is a wild card Default:  -->
+      <dnsPattern value="">
+
+    <!-- Header Name and Value 
+           headerName :  Header Name 
+           headerValue :  Header Value -->
+        <headerDef headerName="" headerValue=""/>
+
+      </dnsPattern>
+
+    </cusHeaders> 
+```
 
 ### url {#url}
 

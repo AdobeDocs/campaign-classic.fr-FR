@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 100%
+source-wordcount: '784'
+ht-degree: 99%
 
 ---
 
@@ -43,7 +43,6 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <td>
 <p>7.x</p>
 <p><strong>Important :</strong> si vous utilisez RHEL, vous devez désactiver SELinux ou demander à vos architectes d'écrire des règles SELinux personnalisées pour vérifier qu'un SELinux activé ne pose pas de problème pour les opérations de Campaign.</p>
-<p>8.x</br><strong>Important :</strong> CentOS Linux 8 atteindra sa fin de vie (EOL) le 31 décembre 2021. Pour plus d’informations à ce sujet, consultez la page <a href="../../rn/using/deprecated-features.md">Fonctionnalités obsolètes</a>.</p>
 </td>
 </tr>
 <tr>
@@ -51,7 +50,6 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <td>
 <p>11 (à partir de Campaign v7.3)</p>
 <p>10</p>
-<p>9</p>
 </td>
 </tr>
 <tr>
@@ -143,7 +141,6 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
-<p>10.x</p>
 <p><strong>Remarque :</strong> vous pouvez également utiliser Amazon RDS pour PostgreSQL avec les versions indiquées ci-dessus.</p>
 </td>
 </tr>
@@ -217,7 +214,6 @@ Les environnements **Managed Services** (hébergé), **Hybride** et **On-premis
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
-<p>10.x</p>
 </td>
 <td>v7.0 19.1.4 minimum</td>
 </tr>
@@ -306,11 +302,8 @@ En complément, les environnements **hybrides** et **On-premise** peuvent connec
 <tr>
 <td>Teradata</td>
 <td>
-<p>17</p>
-<p>16.20</p>
-<p>16</p>
-<p>15.10</p>
-<p>15.0</p>
+<p>17.x</p>
+<p>16.x (dernière version)</p>
 </td>
 <td>V7.0 minimum</td>
 </tr>
