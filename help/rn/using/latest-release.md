@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
+source-git-commit: 1866e7483d68c1d44f7d069d48d277110a5caa81
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1865'
 ht-degree: 62%
 
 ---
@@ -88,7 +88,7 @@ _Septembre_ 7 janvier 2023_
 
 ## Version 7.3.3 - Build 9359 {#release-7-3-3}
 
-[!BADGE Disponibilité générale]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité générale"}
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 >[!CAUTION]
 >
@@ -116,7 +116,7 @@ _20 mars 2023_
 
 ## Version 7.3.2 - Build 9356 {#release-7-3-2}
 
-[!BADGE Disponibilité limitée]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 _21 novembre 2022_
 
