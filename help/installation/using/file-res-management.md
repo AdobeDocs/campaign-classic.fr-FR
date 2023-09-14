@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Les connexions FTP/FTPS sont définies dans le paramètre proxyFTP :
 
 Si vous utilisez le même proxy pour plusieurs types de connexions, seul le paramètre proxyHTTP sera défini avec useSingleProxy défini sur &quot;1&quot; ou &quot;true&quot;.
 
-Si vous disposez de connexions internes qui ne doivent pas passer par le proxy, ajoutez-les dans le paramètre override.
+Si des connexions internes ne doivent pas passer à travers le proxy, ajoutez-les dans le paramètre override.
 
 Si vous souhaitez désactiver temporairement la connexion au proxy, définissez le paramètre activ » sur &quot;false&quot; ou &quot;0&quot;.
 
