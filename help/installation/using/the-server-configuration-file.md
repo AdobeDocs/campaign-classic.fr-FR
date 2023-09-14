@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8056'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -1001,7 +1001,7 @@ Pour plus d&#39;informations, voir la section [Protection des connexions sortant
 
 ## cusHeaders {#cusheaders}
 
-Ce noeud permet d’ajouter des en-têtes spécifiques dans les requêtes effectuées lors du téléchargement d’un fichier depuis un serveur externe. Les réseaux de diffusion de contenu (CND) peuvent demander un en-tête spécifique afin de faire confiance au demandeur. Ces en-têtes peuvent être utilisés pour améliorer la confiance dans les requêtes Campaign, en particulier lors du téléchargement de documents personnalisés pour chaque destinataire à l&#39;étape d&#39;exécution de la diffusion. Un nombre élevé de requêtes de téléchargement de ressources peut être interprété comme une attaque DDos. dnsPattern permet de définir des noms d’en-tête et des valeurs spécifiques pour différents CDN en fonction de leur nom de domaine.
+Ce nœud permet d’ajouter des en-têtes spécifiques dans les requêtes effectuées lors du chargement d’un fichier depuis un serveur externe. Les réseaux de diffusion de contenu (CDN) peuvent demander un en-tête spécifique afin de faire confiance au demandeur ou à la demandeuse. Ces en-têtes peuvent être utilisés pour améliorer la confiance dans les requêtes Campaign, en particulier lors du téléchargement de documents personnalisés pour chaque destinataire à l’étape d’exécution de la diffusion. Un nombre élevé de requêtes de téléchargement de ressources peut être interprété comme une attaque DDos. dnsPattern vous permet de définir des valeurs et des noms d’en-tête spécifiques pour différents réseaux CDN en fonction de leur nom de domaine.
 
 ```
   <!-- List of custom headers added to request. 
