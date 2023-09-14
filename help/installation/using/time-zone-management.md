@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '997'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -103,6 +103,6 @@ Exemple de valeurs possibles :
 
   Ces valeurs sont extraites de la base de données tz (Olson). Pour plus d&#39;informations, voir la page [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 
-## Oracle de données et fuseau horaire du serveur
+## Base de données Oracle et fuseau horaire du serveur
 
-Pour la base principale, Campaign utilise le fuseau horaire du serveur pour définir le fuseau horaire de la session sur la connexion à la base de données. L’option &quot;WdbcTimeZone&quot; n’a aucun impact. Le fuseau horaire du serveur doit donc correspondre à celui de la base de données principale utilisée par Campaign. Si vous ne pouvez pas modifier le fuseau horaire du serveur, le fuseau horaire utilisé par Campaign peut être remplacé en définissant la variable d&#39;environnement TZ dans customer.sh.
+Pour la base de données principale, Campaign utilise le fuseau horaire du serveur pour définir le fuseau horaire de la session sur la connexion à la base de données. L’option « WdbcTimeZone » n’a aucun impact. Le fuseau horaire du serveur doit donc correspondre à celui de la base de données principale utilisée par Campaign. Si vous ne pouvez pas modifier le fuseau horaire du serveur, le fuseau horaire utilisé par Campaign peut être remplacé en définissant la variable d’environnement TZ dans customer.sh.
