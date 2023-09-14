@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2001'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Par exemple, si l&#39;on reprend les informations de serveur figurant dans la ca
 
 * Une mise à niveau de build signifierait passer de la build 9342 à n’importe quelle build supérieure à 9342. Par exemple, de v7.1 build 9342 à v7.1 build 9342.
 
-* Une mise à niveau de version impliquerait de passer d’une version majeure précédente à une version plus récente.
+* Une mise à niveau de version signifierait passer d’une version précédente à n’importe quelle version plus récente.
 
 ## Dois-je sauvegarder mes données avant d&#39;effectuer ces mises à jour ?
 
