@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1065'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -211,7 +211,7 @@ Le connecteur prend en charge les options suivantes :
 | ProxyUid | Nom d’utilisateur utilisé pour le proxy authentifié |
 | ProxyPwd | Mot de passe ProxyUid |
 | bqpath | Notez que cela s’applique uniquement à l’outil de chargement en masse (SDK Cloud). </br> Pour éviter d’utiliser la variable PATH ou si le répertoire google-cloud-sdk doit être déplacé vers un autre emplacement, vous pouvez spécifier avec cette option le chemin exact du répertoire bin du sdk cloud sur le serveur. |
-| GCloudConfigName | Notez que cette version s’applique uniquement à partir de la version 7.3.4 et à l’outil de chargement en masse (SDK Cloud).</br> Le SDK Google Cloud utilise des configurations pour charger les données dans les tables BigQuery. La configuration nommée `accfda` stocke les paramètres pour le chargement des données. Cependant, cette option permet aux utilisateurs de spécifier un nom différent pour la configuration. |
-| GCloudDefaultConfigName | Notez que cette version s’applique uniquement à partir de la version 7.3.4 et à l’outil de chargement en masse (SDK Cloud).</br> La configuration du SDK Cloud Google actif ne peut pas être supprimée sans transférer au préalable la balise active vers une nouvelle configuration. Cette configuration temporaire est nécessaire pour recréer la configuration principale de chargement des données. Le nom par défaut de la configuration temporaire est `default`, cela peut être modifié si nécessaire. |
-| GCloudRecreateConfig | Notez que cette version s’applique uniquement à partir de la version 7.3.4 et à l’outil de chargement en masse (SDK Cloud).</br> Lorsque la variable est définie sur `false`, le mécanisme de chargement en masse évite de tenter de recréer, de supprimer ou de modifier les configurations du SDK Google Cloud. Au lieu de cela, il se poursuit avec le chargement des données à l’aide de la configuration existante sur la machine. Cette fonctionnalité est utile lorsque d’autres opérations dépendent des configurations du SDK Google Cloud. </br> Si l&#39;utilisateur active cette option de moteur sans configurer correctement, le mécanisme de chargement en masse émet un message d&#39;avertissement : `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Pour éviter d’autres erreurs, il revient à l’utilisation du mécanisme de chargement en masse par défaut du tableau ODBC. |
+| GCloudConfigName | Notez que cela s’applique uniquement à partir de la version 7.3.4 et à l’outil de chargement en masse (SDK Cloud).</br> Le SDK Google Cloud utilise des configurations pour charger les données dans les tableaux BigQuery. La configuration nommée `accfda` stocke les paramètres pour le chargement des données. Cependant, cette option permet aux personnes de spécifier un nom différent pour la configuration. |
+| GCloudDefaultConfigName | Notez que cela s’applique uniquement à partir de la version 7.3.4 et à l’outil de chargement en masse (SDK Cloud).</br> La configuration active du SDK Google Cloud ne peut pas être supprimée sans transférer au préalable la balise active vers une nouvelle configuration. Cette configuration temporaire est nécessaire pour recréer la configuration principale de chargement des données. Le nom par défaut de la configuration temporaire est `default`, et peut être modifié si nécessaire. |
+| GCloudRecreateConfig | Notez que cela s’applique uniquement à partir de la version 7.3.4 et à l’outil de chargement en masse (SDK Cloud).</br> Lorsqu’il est défini sur `false`, le mécanisme de chargement en masse évite de tenter de recréer, de supprimer ou de modifier les configurations du SDK Google Cloud. Au lieu de cela, il procède au chargement des données à l’aide de la configuration existante sur la machine. Cette fonctionnalité est utile lorsque d’autres opérations dépendent des configurations du SDK Google Cloud. </br> Si la personne active cette option de moteur sans une configuration appropriée, le mécanisme de chargement en masse émet un message d’avertissement : `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Pour éviter d’autres erreurs, le mécanisme de chargement en masse par défaut du tableau ODBC est rétabli. |
 
