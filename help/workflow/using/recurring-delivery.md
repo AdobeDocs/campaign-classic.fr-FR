@@ -5,10 +5,10 @@ description: En savoir plus sur l’activité de workflow de diffusion récurren
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 05210269da2a32310c19911a3bc32240c84dc7ad
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '286'
+ht-degree: 93%
 
 ---
 
@@ -34,7 +34,7 @@ Le paramétrage de cette activité est semblable à la création d&#39;un modèl
 
 Un exemple d&#39;utilisation de cette activité est proposé dans cette [section](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
-## Configuration d’une diffusion récurrente
+## Configuration d’une diffusion récurrente {#set-up-recurring-delivery}
 
 Une **diffusion récurrente** crée une nouvelle instance de diffusion chaque fois qu’elle s’exécute. Par exemple, si le workflow est planifié pour s’exécuter une fois par semaine, 52 diffusions seront créées en une année. Cela signifie également que le broadlog et les logs de tracking seront séparés par chaque instance de diffusion.
 
@@ -46,9 +46,9 @@ Si vous souhaitez arrêter lʼexécution dʼune diffusion récurrente, vous deve
 >
 >Il n&#39;est pas possible d&#39;envoyer un bon à tirer à partir d&#39;une activité de type **[!UICONTROL Diffusion récurrente]**.
 > 
->Pour directement créer une diffusion via un workflow de campagne, utilisez les activités de diffusion spécifiques à un canal, qui sont pré-paramétrées (ex : **[!UICONTROL Diffusion e-mail]**).
+>Pour créer directement une diffusion via un workflow de campagne, utilisez les activités spécifiques au canal qui sont préconfigurées (ex. **[!UICONTROL Diffusion récurrente]**).
 
-## Tutoriel vidéo (#recurring-delivery-video)
+## Tutoriel vidéo {#recurring-delivery-video}
 
 Cette vidéo explique comment configurer une diffusion récurrente et une activité Planificateur.
 
