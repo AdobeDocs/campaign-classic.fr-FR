@@ -2,12 +2,12 @@
 product: campaign
 title: Prise en main des sources et des destinations
 description: En savoir plus sur les sources et les destinations d’Adobe Experience Platform
-feature: Platform Integration
+feature: Experience Platform Integration
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: d15592aaccf036fc956049e611139ea5a46e9fc0
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
