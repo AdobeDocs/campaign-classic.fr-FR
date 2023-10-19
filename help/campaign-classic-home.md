@@ -4,9 +4,9 @@ product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 feature: Overview
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: baa1cfe3b8e65daee7902c85c0ca3ef293b44657
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '171'
 ht-degree: 100%
 
 ---
@@ -17,13 +17,11 @@ ht-degree: 100%
 
 ## Nouveautés
 
-* **[La version de mars est en ligne !](rn/using/latest-release.md)**<br/>Découvrez les nouvelles fonctionnalités, améliorations et correctifs dans les notes de mise à jour.
-
-* **[Programme de mise à niveau 2022](technotes/using/dc-migration.md)**<br/> Mettez à niveau votre environnement et améliorez la sécurité, l’infrastructure et les performances.
+* **[La version de septembre est publiée.](rn/using/latest-release.md)**<br/>Découvrez les nouvelles fonctionnalités, améliorations et correctifs dans les notes de mise à jour.
 
 <!--* **[Secure your Campaign environment](technotes/using/tech-stack-upgrade.md)**<br/> Update to the latest versions to secure your Campaign platform-->
 
-* **[Mise à jour de votre intégration Triggers Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)**<br/> Lʼancien service dʼauthentification oAuth tire sa révérence : vous devez migrer vers Adobe I/O.
+* **[Mise à jour de votre intégration Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)**<br/> Lʼancien service dʼauthentification oAuth tire sa révérence : vous devez migrer vers Adobe I/O.
 
 [Autres mises à jour](rn/using/documentation-updates.md)
 
