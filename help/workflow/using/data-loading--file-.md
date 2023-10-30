@@ -5,10 +5,10 @@ description: En savoir plus sur l’activité de workflow de chargement (fichier
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 5723d3d617413070b7aed2be2849acca61c10815
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 100%
+source-wordcount: '1191'
+ht-degree: 98%
 
 ---
 
@@ -49,6 +49,10 @@ Vous pouvez alors modifier le formatage général du fichier ainsi que le format
 Le formatage général du fichier permet de définir la manière dont seront reconnues les colonnes (encodage du fichier, séparateurs utilisés, etc.)
 
 Le formatage des colonnes permet de définir le traitement des valeurs de chaque colonne :
+
+>[!NOTE]
+>
+>Vous pouvez ajouter autant de colonnes que vous le souhaitez. La longueur maximale des valeurs de chaque colonne est déterminée par le type de données choisi.
 
 * **[!UICONTROL Ignorer la colonne]** : permet de ne pas traiter cette colonne lors du chargement des données.
 * **[!UICONTROL Type de données]** : permet de spécifier le type de données attendu dans la colonne.
