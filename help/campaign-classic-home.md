@@ -4,7 +4,7 @@ product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 feature: Overview
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: baa1cfe3b8e65daee7902c85c0ca3ef293b44657
+source-git-commit: 038239cf15dc49e6e84ca31a94ef61029c66c4b7
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Documentation de Campaign Classic v7 {#campaign-classic-documentation}
 
-![](platform/using/assets/do-not-localize/banner_acc_doc.jpg)
+<!--![](platform/using/assets/do-not-localize/banner_acc_doc.jpg) -->
 
 ## Nouveautés
 
