@@ -6,7 +6,7 @@ feature: Installation, Privacy, Privacy Tools, URL Personalization
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: a2106e55617209f28da42c50008d16188563b2da
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 100%
 
