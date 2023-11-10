@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 source-git-commit: 05210269da2a32310c19911a3bc32240c84dc7ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ Si vous souhaitez arrêter lʼexécution dʼune diffusion récurrente, vous deve
 
 >[!NOTE]
 >
->Il n&#39;est pas possible d&#39;envoyer un bon à tirer à partir d&#39;une activité de type **[!UICONTROL Diffusion récurrente]**.
+>Il n’est pas possible d’envoyer un BAT à partir d’une activité de type **[!UICONTROL Diffusion récurrente]**.
 > 
->Pour créer directement une diffusion via un workflow de campagne, utilisez les activités spécifiques au canal qui sont préconfigurées (ex. **[!UICONTROL Diffusion récurrente]**).
+>Pour créer directement une diffusion via un workflow de campagne, utilisez les activités spécifiques à un canal, qui sont pré-configurées (par exemple : **[!UICONTROL Diffusion récurrente]**).
 
 ## Tutoriel vidéo {#recurring-delivery-video}
 
