@@ -6,13 +6,13 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 source-git-commit: 1baf424138c95b16add37d9d556e3a2566a869c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1208'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Démarrage dʼun workflow {#starting-a-workflow}
+# Démarrer un workflow {#starting-a-workflow}
 
 
 
@@ -50,7 +50,7 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
 
   >[!IMPORTANT]
   >
-  >L’arrêt d’un workflow est un processus asynchrone : la demande est enregistrée, puis le ou les serveurs de workflow annulent les opérations en cours. L’arrêt d’une instance de workflow peut donc prendre du temps, surtout si le workflow est exécuté sur plusieurs serveurs, car chacun d’eux doit alors prendre le contrôle pour annuler les tâches en cours. Pour éviter tout problème, attendez que l’opération d’arrêt soit terminée et n’effectuez pas plusieurs demandes d’arrêt sur le même workflow.
+  >L’arrêt d’un workflow suit un processus asynchrone : la demande est enregistrée, puis le ou les serveurs de workflow annulent les opérations en cours. L’arrêt d’une instance de workflow peut donc prendre du temps, surtout si le workflow est exécuté sur plusieurs serveurs, car chacun d’eux doit alors prendre le contrôle pour annuler les tâches en cours. Pour éviter tout problème, attendez que l’opération d’arrêt soit terminée et n’effectuez pas plusieurs demandes d’arrêt sur le même workflow.
 
 * **[!UICONTROL Arrêt inconditionnel]**
 
@@ -85,7 +85,7 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
   Les options **[!UICONTROL Mettre à jour en masse les lignes sélectionnées]** et **[!UICONTROL Fusionner les lignes sélectionnées]** sont des options génériques de la plateforme disponibles dans tous les menus **[!UICONTROL Actions]**. Voir à ce sujet cette [section](../../platform/using/updating-data.md).
 
 
-## Bonnes pratiques d&#39;exécution des workflows {#workflow-execution-best-practices}
+## Bonnes pratiques relatives à l’exécution des workflows {#workflow-execution-best-practices}
 
 **Ne planifiez pas l’exécution d’un workflow à une fréquence supérieure à toutes les 15 minutes**, car cela peut nuire aux performances générales du système et créer des blocs dans la base de données.
 
