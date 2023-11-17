@@ -8,10 +8,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 52dcc8c01c5ce2421bfb59235bd0e458e7c8122f
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 93%
 
 ---
 
@@ -92,6 +92,12 @@ Sur la ou les instances d&#39;exécution, les workflows techniques des messages 
    * **[!UICONTROL Ignoré par la diffusion]** : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été ignorée.
    * **[!UICONTROL Erreur de diffusion]** : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a échoué.
    * **[!UICONTROL Evénement non pris en charge]** : l&#39;association de l&#39;événement à un modèle de message a échoué. L&#39;événement ne sera pas retraité.
+
+### Planification du workflow d’archivage
+
+Évitez de modifier la variable **workflow d&#39;archivage** planning qui s’exécute sur l’instance de pilotage. Sinon, certaines données de suivi extraites de l’instance d’exécution peuvent être perdues.
+
+Si vous modifiez la planification du workflow d’archivage, vous devez également modifier la variable **workflow de suivi** planifiez sur l&#39;instance d&#39;exécution pour qu&#39;elle corresponde au planning du workflow d&#39;archivage sur l&#39;instance de pilotage.
 
 ## Configuration du multibranding {#configuring-multibranding}
 
