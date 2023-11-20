@@ -6,10 +6,10 @@ role: User, Data Engineer
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Typology Rules, Campaigns
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: a37e67ef3f348737a099dab00a84b6854bd52e57
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 92%
 
 ---
 
@@ -101,7 +101,7 @@ Les lignes de disponibilité n&#39;ont qu&#39;un caractère indicatif. Pour excl
 
 ![](assets/campaign_opt_create_capacity_04.png)
 
-Le nombre de messages à traiter est réparti proportionnellement sur la totalité de la plage de disponibilité définie. C&#39;est le cas notamment pour les centres d&#39;appels dont le nombre maximum d&#39;appels par jour est plafonné. Dans le cas des diffusions email, l&#39;option **[!UICONTROL Ne pas limiter la capacité instantanée de diffusion]** permet d&#39;ignorer cette plage de disponibilité et d&#39;envoyer vos emails en masse au même moment.
+Le nombre maximum de messages qui peuvent être traités est réparti proportionnellement sur la totalité de la plage de disponibilité définie. Cela est particulièrement pertinent pour les centres d’appels, car leur nombre maximum d’appels par jour est limité. Dans le cas de diffusions email, la variable **[!UICONTROL Ne pas limiter la capacité instantanée de diffusion]** permet d&#39;ignorer cette plage de disponibilité et d&#39;envoyer vos emails en même temps.
 
 ![](assets/campaign_opt_create_capacity_05.png)
 
