@@ -7,7 +7,7 @@ feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: ccc48c93d81266b0971acc3a549458e0823eeb37
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 100%
@@ -15,8 +15,6 @@ ht-degree: 100%
 ---
 
 # Connecteur Adobe Analytics{#adobe-analytics-connector}
-
-
 
 ## À propos de l&#39;intégration du connecteur Adobe Analytics {#about-analytics-connector-integration}
 

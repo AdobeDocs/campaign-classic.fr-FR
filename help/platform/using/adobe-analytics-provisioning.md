@@ -7,16 +7,14 @@ feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: ccc48c93d81266b0971acc3a549458e0823eeb37
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '773'
+ht-degree: 95%
 
 ---
 
 # Approvisionnement du connecteur Adobe Analytics {#adobe-analytics-connector-provisioning}
-
-
 
 >[!IMPORTANT]
 >
@@ -31,6 +29,12 @@ L’intégration entre l’authentification Adobe Campaign Classic et Adobe A
 * Si vous implémentez un nouveau connecteur, la mise en œuvre d’Adobe IMS est facultative. En l’absence d&#39;un utilisateur Adobe ID, Adobe Campaign utilisera un utilisateur technique pour se synchroniser avec Adobe Analytics.
 
 Pour que cette intégration fonctionne, vous devez créer un profil produit Adobe Analytics qui sera utilisé exclusivement pour le connecteur Analytics. Vous devez ensuite créer un projet Adobe I/O.
+
+<!--
+>[!AVAILABILITY]
+>
+> JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
+-->
 
 ## Création d’un profil produit Adobe Analytics {#analytics-product-profile}
 
@@ -72,7 +76,9 @@ Pour en savoir plus sur les profils produit, consultez la [documentation relativ
 
    ![](assets/do-not-localize/triggers_13.png)
 
-1. Pour la fonctionnalité **[!UICONTROL Dimensions]**, ajoutez les **[!UICONTROL Dimensions]** que vous devrez configurer ultérieurement.
+1. Pour le **[!UICONTROL Dimensions]** , ajoutez la fonction **[!UICONTROL Dimensions]** nécessaire pour une configuration ultérieure.
+
+   Assurez-vous que les Dimensions sélectionnées correspondent à celles à configurer dans la variable [Compte externe](adobe-analytics-connector.md#external-account-classic) et s’aligner sur le nombre d’eVars correspondant de [Adobe Analytics](adobe-analytics-connector.md#configure-conversion-success).
 
 1. Pour la fonctionnalité **[!UICONTROL Outils de suites de rapports]**, ajoutez les autorisations suivantes :
 
