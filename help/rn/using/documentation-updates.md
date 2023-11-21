@@ -7,22 +7,24 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 324e26ba1db14e10bb79eee60ba43ddc36e8e94f
+source-git-commit: 8ecb5aba9a070276927e97586ed463ab485717d6
 workflow-type: tm+mt
-source-wordcount: '3630'
-ht-degree: 100%
+source-wordcount: '3668'
+ht-degree: 98%
 
 ---
 
 # Mises à jour de la documentation{#documentation-updates}
-
-
 
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et par version de Campaign.
 
 Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md) pour connaître les mises à jour relatives aux versions.
 
 ## 2023
+
+### Novembre 2023
+
+JWT (JSON Web Tokens) est actuellement en cours d’obsolescence et est remplacé par OAuth. La transition sera progressivement effectuée dans les prochaines versions de Campaign et la documentation sera mise à jour pour refléter ces mises à jour.
 
 ### Août 2023
 
@@ -183,7 +185,7 @@ Nouveau connecteur FDA Vertica Analytics - [En savoir plus](../../installation
 
 Nouveau connecteur FDA Google BigQuery - [En savoir plus](../../installation/using/configure-fda-google-big-query.md)
 
-La description du workflow technique « Facturation (billing) » comprend maintenant les tâches effectuées à l’origine par le « Comptage des profils de facturation actifs (billingActiveContactCount) ». [En savoir plus](../../workflow/using/about-technical-workflows.md)
+La description du workflow technique &quot;Facturation (billing)&quot; inclut désormais les tâches initialement effectuées par le &quot;Nombre de profils de facturation actifs (billingActiveContactCount)&quot;. [En savoir plus](../../workflow/using/about-technical-workflows.md)
 
 ## Mai 2021 {#may-2021}
 
@@ -404,7 +406,7 @@ La section Confidentialité et consentement a été améliorée avec des informa
 
 La page Gestion de la confidentialité dans Campaign Classic a été mise à jour avec des informations sur le champ « réglementation » qui est maintenant disponible lors de l&#39;utilisation de l’API permettant de configurer le processus de demande automatique d’accès à des informations personnelles. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-La page de présentation de la gestion des données personnelles a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne sur la protection des données (Lei Geral de Proteção de Dados - LGPD). [En savoir plus](../../platform/using/privacy-and-recommendations.md)
+La page Vue d’ensemble de la gestion de la protection des données a été mise à jour pour inclure des informations relatives aux réglementations PDPA (Personal Data Protection Act) thaïlandaise et LGPD (Lei Geral de Proteção de Dados) brésilienne. [En savoir plus](../../platform/using/privacy-and-recommendations.md)
 
 Des informations ont été ajoutées sur les journaux des sous-workflows et sur le comportement en cas dʼerreur. [En savoir plus](../../workflow/using/sub-workflow.md)
 
@@ -759,4 +761,3 @@ Added a use case on how to send an email with custom data fields using the Enric
 
 Feature videos have been moved [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 -->
-
