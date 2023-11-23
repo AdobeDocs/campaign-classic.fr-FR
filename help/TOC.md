@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 88ee8d1575f6397a35fb6f7412cd08119a75c131
+source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
 workflow-type: tm+mt
-source-wordcount: '2529'
-ht-degree: 100%
+source-wordcount: '2532'
+ht-degree: 99%
 
 ---
 
@@ -306,7 +306,7 @@ ht-degree: 100%
       + [Utilisation du contexte](reporting/using/using-the-context.md)
       + [Création d’un tableau](reporting/using/creating-a-table.md)
       + [Création d’un graphique](reporting/using/creating-a-chart.md)
-      + [Mettre en page les éléments](reporting/using/element-layout.md)
+      + [Disposer les éléments](reporting/using/element-layout.md)
       + [Définition d’un contenu conditionnel](reporting/using/defining-a-conditional-content.md)
       + [Fonctionnalités avancées](reporting/using/advanced-functionalities.md)
       + [Propriétés du rapport](reporting/using/properties-of-the-report.md)
@@ -652,6 +652,7 @@ ht-degree: 100%
          + [Bonnes pratiques et limites](installation/using/fda-best-practices.md)
          + Instructions de configuration {#config-databases}
             + [Etapes de configuration](installation/using/configure-fda.md)
+            + [Configuration de Amazon Redshift](installation/using/configure-fda-redshift.md)
             + [Configurer Azure Synapse](installation/using/configure-fda-synapse.md)
             + [Configurer Google BigQuery](installation/using/configure-fda-google-big-query.md)
             + [Configurer Hadoop](installation/using/configure-fda-hadoop.md)

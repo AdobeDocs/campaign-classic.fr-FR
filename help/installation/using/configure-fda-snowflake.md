@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
@@ -16,8 +16,6 @@ ht-degree: 100%
 ---
 
 # Configurer l’accès à Snowflake {#configure-access-to-snowflake}
-
-
 
 Utilisez l&#39;option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour Configuration de l&#39;accès à [!DNL Snowflake].
 
@@ -97,7 +95,7 @@ Vous devez créer un compte externe [!DNL Snowflake] pour connecter votre instan
 
       * **[!UICONTROL Compte]** : nom de l’utilisateur
 
-      * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur.
+      * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur.
 
      ![](assets/snowflake.png)
 
