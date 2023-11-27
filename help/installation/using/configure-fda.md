@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
 source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,8 +45,8 @@ Selon les bases de données externes auxquelles vous souhaitez accéder à parti
 
 Suivez les liens ci-dessous pour en savoir plus :
 
-* Connecter Campaign et [Amazon Redshift](../../installation/using/configure-fda-redshift.md)
-* Connecter Campaign et [Azure Synapse](../../installation/using/configure-fda-synapse.md)
+* Connecter Campaign et [Amazon Redshift](../../installation/using/configure-fda-redshift.md)
+* Connecter Campaign et [Azure Synapse](../../installation/using/configure-fda-synapse.md)
 * Connecter Campaign et [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 * Connecter Campaign et [Hadoop](../../installation/using/configure-fda-hadoop.md)
 * Connecter Campaign et [Microsoft SQL Server](../../installation/using/configure-fda-sql.md)
