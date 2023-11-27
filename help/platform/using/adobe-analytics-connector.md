@@ -279,7 +279,7 @@ Adobe Campaign met à votre disposition des modèles de diffusion personnalisé
 
 1. Dans l&#39;**[!UICONTROL Explorateur]**, accédez au dossier **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]** de l&#39;arborescence Adobe Campaign.
 
-1. Dupliquez le modèle **[!UICONTROL Diffuser par email (remarketing)]** ou les exemples de modèles de remarketing proposés par Adobe Campaign.
+1. Dupliquez le modèle **[!UICONTROL Diffuser par e-mail (remarketing)]** ou les exemples de modèles de remarketing proposés par Adobe Campaign.
 
    ![](assets/webanalytics_delivery_model.png)
 
