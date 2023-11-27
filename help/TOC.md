@@ -7,9 +7,9 @@ user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2532'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
       + [Prise en main d’Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
       + [Lancement d’Adobe Campaign](platform/using/launching-adobe-campaign.md)
       + Espace de travail Adobe Campaign{#campaign-workspace}
-         + [Prise en main de l’IU de Campaign](platform/using/adobe-campaign-workspace.md)
+         + [Prise en main de l’UI de Campaign](platform/using/adobe-campaign-workspace.md)
          + [Utilisation de l’explorateur Campaign](platform/using/adobe-campaign-explorer.md)
          + [Parcours et personnalisation des listes](platform/using/adobe-campaign-ui-lists.md)
       + Forum aux questions {#faq}
@@ -652,7 +652,7 @@ ht-degree: 99%
          + [Bonnes pratiques et limites](installation/using/fda-best-practices.md)
          + Instructions de configuration {#config-databases}
             + [Etapes de configuration](installation/using/configure-fda.md)
-            + [Configuration de Amazon Redshift](installation/using/configure-fda-redshift.md)
+            + [Configurer Amazon Redshift](installation/using/configure-fda-redshift.md)
             + [Configurer Azure Synapse](installation/using/configure-fda-synapse.md)
             + [Configurer Google BigQuery](installation/using/configure-fda-google-big-query.md)
             + [Configurer Hadoop](installation/using/configure-fda-hadoop.md)
