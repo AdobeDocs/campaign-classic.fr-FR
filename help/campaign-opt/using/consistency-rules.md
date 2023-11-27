@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Typology Rules, Campaigns
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 source-git-commit: a37e67ef3f348737a099dab00a84b6854bd52e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -97,11 +97,11 @@ Le workflow **[!UICONTROL Prévisionnel]** crée automatiquement toutes les lign
 
 ## Exclure des messages lorsque la limite de capacité est atteinte {#exclude-messages-when-capacity-limit-reached}
 
-Les lignes de disponibilité n&#39;ont qu&#39;un caractère indicatif. Pour exclure les messages excédentaires, cochez l&#39;option **[!UICONTROL Exclure de la cible les messages en sur-capacité]**. Dans ce cas, la capacité ne pourra pas être dépassée. Pour la même population que dans l&#39;exemple précédent, la consommation et la capacité restante ne pourront pas excéder la quantité initiale :
+Les lignes de disponibilité n’ont qu’un caractère indicatif. Pour exclure les messages excédentaires, cochez l’option **[!UICONTROL Exclure de la cible les messages en sur-capacité]**. Dans ce cas, la capacité ne pourra pas être dépassée. Pour la même population que dans l’exemple précédent, la consommation et la capacité restante ne pourront pas excéder la quantité initiale :
 
 ![](assets/campaign_opt_create_capacity_04.png)
 
-Le nombre maximum de messages qui peuvent être traités est réparti proportionnellement sur la totalité de la plage de disponibilité définie. Cela est particulièrement pertinent pour les centres d’appels, car leur nombre maximum d’appels par jour est limité. Dans le cas de diffusions email, la variable **[!UICONTROL Ne pas limiter la capacité instantanée de diffusion]** permet d&#39;ignorer cette plage de disponibilité et d&#39;envoyer vos emails en même temps.
+Le nombre maximum de messages qui peuvent être traités est réparti proportionnellement sur l’ensemble de la plage de disponibilité définie. Cela est particulièrement adapté aux centres d’appels, car leur nombre maximum d’appels par jour est limité. Dans le cas de diffusions par e-mail, l’option **[!UICONTROL Ne pas limiter la capacité instantanée de diffusion]** vous permet d’ignorer cette plage de disponibilité et d’envoyer vos e-mails en même temps.
 
 ![](assets/campaign_opt_create_capacity_05.png)
 
