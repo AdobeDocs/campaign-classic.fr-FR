@@ -5,9 +5,9 @@ description: Découvrez comment mettre à jour le nouveau serveur de délivrabil
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1404'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,13 +42,13 @@ En tant que **client on-premise/hybride**, vous devez effectuer la mise à nivea
 
 >[!WARNING]
 >
->Ces étapes ne doivent être effectuées que pour les implémentations hybrides et On-premise.
+>Ces étapes ne doivent être effectuées que pour les implémentations hybrides et On-Premise.
 
 Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaign doit communiquer avec les services partagés d’Adobe via une authentification basée sur Identity Management Service (IMS). Il est préférable d’utiliser le jeton de passerelle basé sur Adobe Developer (également appelé Jeton de compte technique ou JWT Adobe IO).
 
 >[!AVAILABILITY]
 >
-> JWT (JSON Web Tokens) est actuellement en cours d’obsolescence et est remplacé par OAuth. La transition sera progressivement effectuée dans les prochaines versions de Campaign et la documentation sera mise à jour pour refléter ces mises à jour.
+> JWT (JSON Web Tokens) est actuellement en voie de devenir obsolète et sera remplacé par OAuth. La transition s’effectuera progressivement dans les prochaines versions de Campaign et la documentation sera actualisée pour refléter ces mises à jour.
 
 ### Conditions préalables{#prerequisites}
 
