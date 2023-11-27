@@ -34,7 +34,7 @@ Pour créer une hypothèse sur une diffusion existante, procédez comme suit :
 
 >[!NOTE]
 >
->Cette opération est uniquement possible pour les diffusions en édition.
+>Cette opération est uniquement possible pour les livraisons en attente.
 
 1. Dans l&#39;arborescence d&#39;Adobe Campaign, positionnez-vous au niveau de **[!UICONTROL Gestion de campagne > Hypothèses de mesure]**.
 1. Cliquez sur le bouton **[!UICONTROL Nouveau]** ou cliquez avec le bouton droit de la souris dans la liste des hypothèses et sélectionnez **[!UICONTROL Nouveau]** dans le menu contextuel.

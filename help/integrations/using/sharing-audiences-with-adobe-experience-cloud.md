@@ -41,6 +41,6 @@ L’intégration prend en charge deux types d’identifiants Adobe Experience 
 
   >[!NOTE]
   >
-  > Désormais, la source de données des ID déclarés peut également être utilisée avec l’intégration de People Core Service.
+  > Désormais, la source de données des ID déclarés peut également être utilisée avec l’intégration People Core Service.
   >
   >Si vous utilisez l’intégration de People Core Service et que vous souhaitez ajouter l’intégration d’Audience Manager, vous aurez besoin de l’aide d’un consultant Adobe Audience Manager. Ce dernier vous aidera à éviter de perdre toutes les synchronisations d’ID collectées lors de la transition vers l’utilisation de cette source de données d’ID déclarés dans un contexte Adobe Audience Manager.

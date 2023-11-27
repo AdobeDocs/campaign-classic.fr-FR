@@ -274,7 +274,7 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
    ![](assets/s_advuser_report_listgroup_005.png)
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Données]** et modifiez l&#39;aspect du tableau : ajoutez trois colonnes à droite.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Données]** et modifiez la mise en page du tableau : ajoutez trois colonnes à droite.
 
    ![](assets/s_advuser_report_listgroup_006.png)
 

@@ -606,7 +606,7 @@ Voici la procédure à suivre après avoir déplacé le contenu des offres si vo
 
 1. Faites de même pour toutes les offres de l&#39;environnement &quot;ENV&quot;.
 1. Activez toutes les offres de l&#39;environnement &quot;ENV_DESIGN&quot; sur les canaux correspondants.
-1. Testez la mise en ligne sur une offre. Si vous ne rencontrez pas d&#39;erreurs, effectuez un traitement anticipé de la dernière tâche du workflow **[!UICONTROL Notification des offres]** (offerMgt) pour mettre en ligne toutes les offres.
+1. Testez la mise en production d’une offre. Si vous ne rencontrez pas d’erreurs, exécutez les tâches en attente sur la dernière tâche du workflow **[!UICONTROL Notification des offres]** (offerMgt) pour mettre en production toutes les offres.
 
    ![](assets/migration_interaction_6.png)
 

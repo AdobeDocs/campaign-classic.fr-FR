@@ -37,7 +37,7 @@ Dans Adobe Campaign, utilisez [Applications Web](../../web/using/about-web-form
 
 * créer des formulaires multi-pages ;
 * gérer des formulaires multilingues avec un outil de traduction intégré ;
-* gérer l&#39;interface graphique, la mise en page à plusieurs colonnes ;
+* gérer l&#39;interface graphique, la mise en page en multi-colonnes ;
 * ajouter une personnalisation et définir la position du champ ;
 * conditionner l&#39;affichage des champs du formulaire en fonction des réponses ;
 * conditionner l&#39;affichage de la page ;

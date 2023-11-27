@@ -7,7 +7,7 @@ feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 100%
 
@@ -637,9 +637,9 @@ A ce niveau, vous devez effectuer les opérations suivantes :
 
   Si vous souhaitez que l&#39;application mobile affiche une image, définissez la valeur de la catégorie dans Adobe Campaign, par exemple &quot;image&quot;. Dans l&#39;application mobile, vous créez une extension de notification avec le paramètre **UNNotificationExtensionCategory** ayant pour valeur &quot;image&quot;. Lorsque la notification push est reçue sur l&#39;appareil, l&#39;extension est appelée selon la valeur de la catégorie définie.
 
-* Définir le style de la notification
+* Définir la mise en page de la notification
 
-  Vous devez définir le style avec les widgets adéquats. Pour une image, c&#39;est le widget **UIImageView**.
+  Vous devez définir une mise en page avec les widgets adéquats. Pour une image, c&#39;est le widget **UIImageView**.
 
 * Afficher le contenu multimédia
 

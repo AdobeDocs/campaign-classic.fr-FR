@@ -39,7 +39,7 @@ L&#39;analyse quantitative permet quant à elle de fournir des statistiques glob
 
 ![](assets/reporting_descriptive_quantitative_sample.png)
 
-Ces rapports sont produits via l&#39;assistant d&#39;analyse descriptive qui propose différentes étapes afin de choisir le type de rapport à générer, sélectionner les données et leur formatage. Le rapport est affiché dans sa dernière étape. Au besoin, le rapport peut être publié et ainsi partagé avec les autres opérateurs, imprimé ou exporté au format Excel, PDF ou OpenDocument.
+Ces rapports sont produits via l&#39;assistant d&#39;analyse descriptive qui propose différentes étapes afin de choisir le type de rapport à générer, sélectionner les données et leur disposition. Le rapport est affiché dans sa dernière étape. Au besoin, le rapport peut être publié et ainsi partagé avec les autres opérateurs, imprimé ou exporté au format Excel, PDF ou OpenDocument.
 
 Les rapports d&#39;analyse descriptive n&#39;offrent pas la puissance des rapports d&#39;Adobe Campaign mais permettent de visualiser rapidement le contenu de la base ou les données d&#39;une sélection.
 

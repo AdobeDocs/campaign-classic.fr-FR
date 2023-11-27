@@ -95,7 +95,7 @@ Pour paramétrer chaque activité, double-cliquez sur son icône.
 
 Le contenu affiché est défini dans les activités de type **Page**.
 
-Un rapport peut contenir une ou plusieurs pages. Les pages sont créées à travers un éditeur dédié qui permet d&#39;y insérer, dans une arborescence, des zones de saisie, des champs de sélection, des éléments statiques, des graphiques ou des tableaux. La mise en page de ces éléments est réalisée au travers de conteneurs. Voir à ce sujet la section [Mettre en page des éléments](../../reporting/using/element-layout.md).
+Un rapport peut contenir une ou plusieurs pages. Les pages sont créées à travers un éditeur dédié qui permet d&#39;y insérer, dans une arborescence, des zones de saisie, des champs de sélection, des éléments statiques, des graphiques ou des tableaux. La mise en page de ces éléments est réalisée au travers de conteneurs. Voir à ce sujet la section [Disposer les éléments](../../reporting/using/element-layout.md).
 
 Pour ajouter un composant dans la page, utilisez les icônes situées dans la section gauche de la barre d&#39;outils.
 
@@ -117,7 +117,7 @@ Une **[!UICONTROL Page]** peut contenir les éléments suivants :
 * Des **[!UICONTROL Contrôles de sélection]** de type Liste déroulante, Case à cocher, Bouton radio, Choix multiples, Dates ou Matrice.
 * Des **[!UICONTROL Contrôles avancés]** de type Editeur de lien, Constante, Choix de dossier.
 * Des **[!UICONTROL Eléments statiques]** de type Valeur, Lien, HTML, Image, etc.
-* Des **[!UICONTROL Conteneur]** pour assurer la mise en page des composants.
+* Des **[!UICONTROL Conteneurs]** pour assurer la mise en page des composants.
 
 Le mode de paramétrage d&#39;une page et de ses composants est présenté dans [cette section](../../web/using/about-web-forms.md).
 

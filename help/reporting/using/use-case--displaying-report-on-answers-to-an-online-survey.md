@@ -79,7 +79,7 @@ Définissez les dimensions et mesures à afficher dans le rapport. Ici, nous aff
 
 L&#39;onglet **[!UICONTROL Prévisualisation]** permet de contrôler le rendu du rapport.
 
-## Etape 3 - Créer le rapport et paramétrer l&#39;affichage des données dans le tableau {#step-3---creating-the-report-and-configuring-the-data-layout-within-the-table}
+## Étape 3 - Créer le rapport et paramétrer la disposition des données dans le tableau {#step-3---creating-the-report-and-configuring-the-data-layout-within-the-table}
 
 Vous pouvez ensuite créer un rapport basé sur ce cube et en exploiter les données et les informations.
 

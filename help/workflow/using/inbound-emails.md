@@ -42,7 +42,7 @@ Le premier onglet de l&#39;activité **Réception d&#39;email** permet de rensei
 
       * **[!UICONTROL Mot de passe]**
 
-        Mot de passe du compte de l&#39;utilisateur.
+        Mot de passe du compte d’utilisateur.
 
       * **[!UICONTROL Port]**
 

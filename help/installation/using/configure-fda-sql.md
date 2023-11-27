@@ -95,7 +95,7 @@ Vous devez créer un compte externe [!DNL Microsoft SQL Server] pour connecter v
 
    * **[!UICONTROL Compte]** : nom de l’utilisateur.
 
-   * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur.
+   * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur.
 
    * **[!UICONTROL Base de données]** : nom de la base de données (facultatif).
 

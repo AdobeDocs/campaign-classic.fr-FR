@@ -59,7 +59,7 @@ Le compte externe [!DNL Hadoop] vous permet de connecter votre instance Campaign
 
    * **[!UICONTROL Compte]** : nom de l’utilisateur
 
-   * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
+   * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur
 
    * **[!UICONTROL Base de données]** : nom de la base de données s’il n’est pas spécifié dans le DSN. Il peut rester vide s’il est spécifié dans le DSN
 

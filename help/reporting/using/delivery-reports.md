@@ -46,7 +46,7 @@ Vous pouvez suivre l&#39;exécution des diffusions à l&#39;aide de différents 
 
 ## Indicateurs de tracking {#tracking-indicators}
 
-Ce rapport regroupe les indicateurs clés qui permettent de suivre le comportement des destinataires à la réception de la diffusion. Il donne accès aux statistiques d&#39;envoi, de réception, aux taux d&#39;ouverture et de clic, aux flux de clics générés, au web tracking et aux partages vers les réseaux sociaux.
+Ce rapport regroupe les indicateurs clés qui permettent de suivre le comportement des destinataires à la réception de la diffusion. Il donne accès aux statistiques d’envoi, de réception, aux taux d’ouvertures et de clics, aux flux de clics générés, au tracking web et aux partages vers les réseaux sociaux.
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Ce rapport regroupe les indicateurs clés qui permettent de suivre le comporteme
   >
   >Pour plus d’informations sur la distinction personnes / destinataires ciblés, consultez la section [Distinction personnes / destinataires ciblés](../../reporting/using/indicator-calculation.md#targeted-persons---recipients).
 
-**[!UICONTROL 3. Taux d&#39;ouverture et de clic]**
+**[!UICONTROL 3. Taux d’ouvertures et de clics]**
 
 Ce tableau de valeurs présente la répartition, par domaine Internet, des envois, des ouvertures, des clics et de la réactivité brute. Les indicateurs utilisés sont les suivants :
 

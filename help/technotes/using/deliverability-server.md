@@ -5,7 +5,7 @@ description: Découvrez comment mettre à jour le nouveau serveur de délivrabil
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 100%
 

@@ -8,7 +8,7 @@ feature: Line App
 role: User
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1332'
 ht-degree: 100%
 
@@ -216,7 +216,7 @@ Après l&#39;envoi de votre diffusion, vous pouvez afficher vos rapports [!DNL L
 
 >[!NOTE]
 >
->Les rapports de suivi indiquent le taux de clic publicitaire. [!DNL LINE] ne prend pas en compte le taux d&#39;ouverture.
+>Les rapports de suivi indiquent le taux de clics. [!DNL LINE] ne prend pas en compte le taux d&#39;ouverture.
 
 ![](assets/line_reports_01.png)
 

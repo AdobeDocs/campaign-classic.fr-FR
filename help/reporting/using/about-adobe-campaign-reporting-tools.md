@@ -29,7 +29,7 @@ Adobe Campaign propose plusieurs outils de reporting :
 
    Pour plus d’informations, consultez [cette section](../../reporting/using/about-campaign-built-in-reports.md).
 
-1. **L&#39;analyse descriptive des données** : Adobe Campaign propose un outil visuel afin de produire des statistiques métier sur les données de la base. Vous pouvez créer des rapports d&#39;analyse descriptive à travers un assistant dédié et définir leur contenu et leur présentation en fonction de vos besoins.
+1. **L&#39;analyse descriptive des données** : Adobe Campaign propose un outil visuel afin de produire des statistiques métier sur les données de la base. Vous pouvez créer des rapports d&#39;analyse descriptive à travers un assistant dédié et définir leur contenu et leur mise en page en fonction de vos besoins.
 
    Pour plus d’informations, consultez [cette section](../../reporting/using/about-descriptive-analysis.md).
 

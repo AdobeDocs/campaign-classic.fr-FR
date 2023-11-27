@@ -190,7 +190,7 @@ Lorsque le rapport contient un tableau, vous constaterez que la cellule du résu
 
 ![](assets/report_compute_data_sample1.png)
 
-Vous pouvez modifier la présentation des résultats. Pour cela, cliquez avec le bouton droit sur la variable concernée et choisissez l&#39;entrée dans le menu contextuel.
+Vous pouvez modifier la mise en page des résultats. Pour cela, cliquez avec le bouton droit sur la variable concernée et choisissez l&#39;entrée dans le menu contextuel.
 
 ![](assets/s_ncs_user_report_wizard_029.png)
 

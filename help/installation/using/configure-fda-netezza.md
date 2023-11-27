@@ -87,7 +87,7 @@ Le compte externe Netezza vous permet de connecter l’instance Campaign à la b
 
    * **[!UICONTROL Compte]** : nom de l’utilisateur
 
-   * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
+   * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur
 
    * **[!UICONTROL Base de données]** : nom de la base de données
 

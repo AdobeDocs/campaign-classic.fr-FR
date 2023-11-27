@@ -310,7 +310,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez les guide
 
 ## Rapports sur les applications Web {#reports-on-web-applications}
 
-Les rapports sur les applications Web portent sur les données du tableau **nms:webApp**.
+Les rapports sur les applications Web portent sur les données du tableau **nms:WebApp**.
 
 Les rapports natifs fournis par Adobe Campaign figurent dans le tableau ci-après.
 

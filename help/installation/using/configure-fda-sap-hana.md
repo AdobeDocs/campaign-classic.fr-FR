@@ -78,4 +78,4 @@ Le compte externe SAP HANA permet de connecter l’instance Campaign à la base 
 
    * **[!UICONTROL Compte]** : nom de l’utilisateur
 
-   * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
+   * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur

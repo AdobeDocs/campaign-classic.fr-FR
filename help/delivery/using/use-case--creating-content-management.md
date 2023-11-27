@@ -48,7 +48,7 @@ Cette newsletter contient trois types d&#39;éléments :
 
    ![](assets/s_ncs_content_define_statics.png)
 
-Les différents éléments de cette newsletter sont assemblés selon les règles définies dans un template Javascript qui référence tous les éléments à insérer et modélise leur mise en forme.
+Les différents éléments de cette newsletter sont assemblés selon les règles définies dans un template Javascript qui référence tous les éléments à insérer et modélise leur disposition.
 
 Ces éléments sont créés via un schéma dédié qui précise pour chaque contenu : son nom, son libellé, son type, sa taille et toute autre information utile à son exploitation dans Adobe Campaign.
 
@@ -218,7 +218,7 @@ Pour créer un formulaire de saisie pour la gestion de contenu, les étapes sont
 
 Le langage XSLT permet de transformer un document XML en un autre document de sortie. Cette transformation est elle-même décrite en XML dans un document appelé feuille de style.
 
-Dans notre exemple, nous allons utiliser un template Javascript pour définir le mode de construction et de mise en forme des données dans le document généré.
+Dans notre exemple, nous allons utiliser un template Javascript pour définir le mode de construction et de disposition des données dans le document généré.
 
 >[!NOTE]
 >

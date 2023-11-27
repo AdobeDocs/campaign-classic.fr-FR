@@ -72,7 +72,7 @@ Pour configurer le compte externe **[!UICONTROL Mails rebonds (defaultPopAccount
 
 * **[!UICONTROL Mot de passe]**
 
-  Mot de passe du compte de l&#39;utilisateur.
+  Mot de passe du compte d’utilisateur.
 
 * **[!UICONTROL Chiffrement]**
 
@@ -181,7 +181,7 @@ Pour ce faire, spécifiez dans ce compte externe l&#39;adresse et les informatio
 
 * **[!UICONTROL Mot de passe]**
 
-  Mot de passe du compte de l&#39;utilisateur.
+  Mot de passe du compte d’utilisateur.
 
 * **[!UICONTROL Chiffrement]**
 

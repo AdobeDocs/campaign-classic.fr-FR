@@ -225,7 +225,7 @@ Cette section répertorie tous les systèmes et composants pris en charge pour l
 >Adobe Campaign Classic est compatible avec tous les systèmes et outils répertoriés dans cette page. Lorsque des versions spécifiques de ces systèmes et outils tiers arrivent en fin de vie (EOL) avec leurs créateurs respectifs, Adobe Campaign n&#39;est plus compatible avec celles-ci. Elles sont alors supprimées de notre matrice de compatibilité pour la version suivante du produit. Pour éviter tout problème, vérifiez que vous disposez des versions prises en charge des systèmes répertoriés dans la matrice de compatibilité.
 >
 
-### Systèmes d&#39;exploitation{#OperatingSystems-gs}
+### Systèmes d’exploitation{#OperatingSystems-gs}
 
 <table> 
 <tbody> 

@@ -8,7 +8,7 @@ feature: Landing Pages, Email Design
 role: User
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Le module Adobe Campaign Content Manager est un [package natif](../../install
 
 Le module de gestion de contenu intègre des fonctionnalités de groupe de travail, de workflow et d’agrégation de contenu. Il permet de mettre automatiquement en forme un message : email, courrier, SMS, web, etc.
 
-L&#39;utilisation de la gestion de contenu dans une diffusion permet de proposer des champs de saisie ou de sélection aux opérateurs chargés de la création des contenus. La mise en page et la mise en forme de ces contenus ainsi que leur transformation sont gérées automatiquement au travers de la feuille de style.
+L&#39;utilisation de la gestion de contenu dans une diffusion permet de proposer des champs de saisie ou de sélection aux opérateurs chargés de la création des contenus. La mise en page et l’affichage de ces contenus ainsi que leur transformation sont gérées automatiquement au travers de la feuille de style.
 
 ![](assets/s_ncs_content_create_content_sample.png)
 

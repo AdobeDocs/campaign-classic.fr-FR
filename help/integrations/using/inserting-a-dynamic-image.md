@@ -36,7 +36,7 @@ Pour cela, les étapes sont les suivantes :
 
 1. [Insertion de l&#39;offre dynamique dans un e-mail](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
 1. [Création d&#39;offres de redirection](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
-1. [Création d&#39;audiences](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
+1. [Création d’audiences](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
 1. [Création d&#39;une activité de ciblage d&#39;expérience](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
 1. [Prévisualisation et envoi de l’e-mail](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
@@ -85,7 +85,7 @@ Dans notre cas, nous avons besoin de deux offres de redirection, la troisième (
 
 1. Suivez la même procédure pour l&#39;offre de redirection restante. Voir à ce propos [cette page](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=fr).
 
-## Création d&#39;audiences {#audiences-target}
+## Création d’audiences {#audiences-target}
 
 Avec Target, vous devez créer les deux audiences dans lesquelles les visiteurs de votre offre seront classés selon les différents contenus à diffuser. Pour chaque audience, ajoutez une règle pour définir qui pourra visualiser l’offre.
 

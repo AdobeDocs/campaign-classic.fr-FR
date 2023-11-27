@@ -106,5 +106,5 @@ Lorsque vous contactez l&#39;équipe d&#39;Assistance clientèle d&#39;Adobe, vo
 **Rubriques connexes** :
 
 * [Options d&#39;aide et de support d&#39;Adobe Campaign](../../support.md)
-* [Distribution du logiciel Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Distribution du logiciel Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html)
 * [Adobe Experience Cloud et sessions d&#39;experts](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

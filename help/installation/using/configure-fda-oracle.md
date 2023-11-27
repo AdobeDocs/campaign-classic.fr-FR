@@ -96,7 +96,7 @@ Le compte externe [!DNL Oracle] permet de connecter votre instance Campaign à v
 
    * **[!UICONTROL Compte]** : nom de l’utilisateur
 
-   * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
+   * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur
 
    * **[!UICONTROL Fuseau horaire]** : fuseau horaire du serveur
 

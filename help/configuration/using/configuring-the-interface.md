@@ -8,7 +8,7 @@ badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Class
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
    >
    >Pour connaître l&#39;intégralité des possibilités concernant les fichiers de type **form**, reportez-vous à [cette page](../../configuration/using/identifying-a-form.md).
 
-   Dans le cas de l&#39;exemple actuel, le fichier **form** doit être basé sur le schéma **cus:individual** et donc de la forme suivante :
+   Dans le cas de l&#39;exemple actuel, le fichier **form** doit être basé sur le schéma **cus:individual** et donc de la mise en page suivante :
 
    ```
    <container colspan="2">

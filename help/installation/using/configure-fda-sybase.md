@@ -84,7 +84,7 @@ Le compte externe Sybase IQ permet de connecter votre instance Campaign à la ba
 
    * **[!UICONTROL Compte]** : nom de l’utilisateur
 
-   * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
+   * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur
 
    * **[!UICONTROL Base de données]** : nom de la base de données
 

@@ -61,7 +61,7 @@ Les champs **[!UICONTROL Position]** permettent de définir la position des él�
 
 ## Personnaliser le rendu du formulaire {#customizing-form-rendering}
 
-### Adapter la mise en page des éléments {#changing-the-layout-of-elements}
+### Adapter la disposition des éléments {#changing-the-layout-of-elements}
 
 Vous pouvez surcharger la feuille de style au niveau de chaque élément du formulaire (champs de saisie, images, boutons radio, etc.).
 

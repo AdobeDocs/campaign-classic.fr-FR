@@ -29,7 +29,7 @@ Vous pouvez référencer un modèle de contenu dans une diffusion afin d&#39;uti
 
 ![](assets/s_ncs_content_deliver_a_content.png)
 
-La mise en forme sera appliquée automatiquement, selon les paramètres sélectionnés. Pour la visualiser, cliquez sur l&#39;onglet **[!UICONTROL Aperçu HTML]** (ou **[!UICONTROL Aperçu texte]**) et sélectionnez un destinataire afin de tester les éléments de personnalisation.
+La mise en page sera appliquée automatiquement, selon les paramètres sélectionnés. Pour la visualiser, cliquez sur l&#39;onglet **[!UICONTROL Aperçu HTML]** (ou **[!UICONTROL Aperçu texte]**) et sélectionnez un destinataire afin de tester les éléments de personnalisation.
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 

@@ -218,7 +218,7 @@ Pour créer votre compte externe [!DNL Azure Synapse], procédez comme suit :
 
       * **[!UICONTROL Compte]** : nom de l&#39;utilisateur
 
-      * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
+      * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur
 
       * **[!UICONTROL Base de données]** : nom de la base de données
 

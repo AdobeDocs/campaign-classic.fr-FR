@@ -82,7 +82,7 @@ Dans l&#39;exemple suivant, nous utiliserons une page de type **[!UICONTROL Page
 
   ![](assets/s_ncs_admin_survey_change_label.png)
 
-  Créez à présent un champ de saisie pour le numéro de compte de l&#39;utilisateur : répétez l&#39;opération et choisissez le champ &#39;N° de compte&#39;. 
+  Créez à présent un champ de saisie pour le numéro de compte de l’utilisateur ou de l’utilisatrice : répétez l’opération et choisissez le champ « N° de compte ». 
 
   Ajoutez de la même façon un champ pour permettre à l&#39;utilisateur de saisir son email.
 

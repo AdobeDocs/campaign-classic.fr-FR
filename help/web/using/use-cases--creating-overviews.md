@@ -171,7 +171,7 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 
    ![](assets/s_ncs_configuration_webapp_container.png)
 
-   Pour la mise en page des éléments, reportez-vous à [cette section](about-web-forms.md).
+   Pour la disposition des éléments, reportez-vous à [cette section](about-web-forms.md).
 
 1. Appliquez **dottedFilter**.
 

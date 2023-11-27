@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Une fois que toutes les validations ont été accordées, la diffusion est prêt
 
 ### Démarrage dʼune diffusion en ligne {#starting-an-online-delivery}
 
-Une fois toutes les demandes de validation approuvées, la diffusion passe à l&#39;état **[!UICONTROL A confirmer]**, et peut être démarrée par un opérateur. Le cas échéant, l&#39;opérateur Adobe Campaign (ou le groupe d&#39;opérateurs) désigné comme validant pour le démarrage de la diffusion est alors notifié qu&#39;une diffusion est prête à être démarrée.
+Une fois toutes les demandes de validation approuvées, l’état passe sur **[!UICONTROL À confirmer]** et la procédure peut être lancée. Le cas échéant, l’opérateur ou l’opératrice Adobe Campaign (ou le groupe) en charge de la révision dans le cadre du démarrage de la procédure reçoit une notification indiquant qu’une livraison est prête à être démarrée.
 
 >[!NOTE]
 >

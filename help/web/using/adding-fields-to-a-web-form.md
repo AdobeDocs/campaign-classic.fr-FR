@@ -95,7 +95,7 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
   >Les champs de texte multi-lignes sont des champs spécifiques qui peuvent contenir des retours à la ligne. Leur espace de stockage doit être associé à un champ mappé sur un élément XML et non sur un attribut XML.
   >   
 
-* **Texte multi-lignes enrichi** : permet à l&#39;utilisateur de saisir du texte, avec mise en forme, qui sera stocké au format HTML.
+* **Texte multi-lignes enrichi** : permet à l&#39;utilisateur de saisir du texte avec une certaine disposition, qui sera stocké au format HTML.
 
   ![](assets/s_ncs_admin_survey_txthtmli_ex.png)
 
@@ -215,7 +215,7 @@ Pour ajouter des boutons radio via une liste, sélectionnez le menu **[!UICONTRO
 
 ![](assets/s_ncs_admin_survey_radio_button_sample2.png)
 
-Vous ajoutez autant de boutons radio que de libellés. L&#39;avantage est de pouvoir importer les valeurs d&#39;un champ existant, s&#39;il s&#39;agit d&#39;un champ énuméré, et de permettre le choix d&#39;une des options proposées. En revanche, la mise en page des boutons radio sera moins souple que celle des boutons unitaires.
+Vous ajoutez autant de boutons radio que de libellés. L&#39;avantage est de pouvoir importer les valeurs d&#39;un champ existant, s&#39;il s&#39;agit d&#39;un champ énuméré, et de permettre le choix d&#39;une des options proposées. En revanche, la disposition des boutons radio sera moins souple que celle des boutons unitaires.
 
 >[!NOTE]
 >

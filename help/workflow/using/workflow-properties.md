@@ -73,7 +73,7 @@ Cette section n&#39;apparaît que dans les workflows d&#39;opérations.
 
 * **[!UICONTROL Template]**
 
-  Dans ce champ, choisissez le modèle de notification à envoyer au groupe de supervision du workflow lorsque celui-ci passe **[!UICONTROL En échec]**.
+  Dans ce champ, choisissez le modèle de notification à envoyer au groupe de supervision du workflow lorsque celui-ci passe sur **[!UICONTROL En échec]**.
 
   Les opérateurs concernés seront avertis par email, sous réserve que leur adresse email soit renseignée dans leur profil. Définissez les superviseurs du workflow via le champ **[!UICONTROL Superviseur(s)]** des propriétés (onglet **[!UICONTROL Général]**).
 
