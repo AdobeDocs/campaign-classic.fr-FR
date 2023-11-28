@@ -6,10 +6,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Data Model
 role: Data Engineer, Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 100%
+source-wordcount: '2390'
+ht-degree: 98%
 
 ---
 
@@ -261,12 +261,12 @@ Cet ensemble de tables est lié au module **Canal des applications mobiles**. Il
 
 ## Module Social Marketing {#social-marketing-module}
 
-Cet ensemble de tables est lié au module **Gestion des réseaux sociaux** qui permet d’interagir avec les clients et les prospects via Facebook et Twitter. Pour plus d&#39;informations, consultez la section [À propos du marketing sur les réseaux sociaux](../../social/using/about-social-marketing.md).
+Cet ensemble de tables est lié au **Gestion des réseaux sociaux** , qui permet d’interagir avec les clients et les prospects via Facebook et X (anciennement connu sous le nom de Twitter). Pour plus d&#39;informations, consultez la section [À propos du marketing sur les réseaux sociaux](../../social/using/about-social-marketing.md).
 
 ![](assets/data-model_social.png)
 
 * **NmsVisitor** : cette table correspond au schéma **nms:visitor**. Elle contient des informations sur les visiteurs.
-* **NmsVisitorSub** : cette table correspond au schéma **nms:visitorSub**. Elle permet de lier un visiteur avec les services auxquels il s’est abonné (Twitter ou Facebook).
+* **NmsVisitorSub** : cette table correspond au schéma **nms:visitorSub**. Il permet de lier un visiteur aux services auxquels il s’est abonné (X ou Facebook).
 * **NmsFriendShipRel** : cette table correspond au schéma **nms:friendshipRel**. Elle permet de lier des visiteurs à leurs amis dans le cadre du service Facebook.
 * **NmsVisitorInterestRel** : cette table correspond au schéma **nms:visitorInterestRel**. Elle permet de lier des visiteurs et leurs centres d’intérêt.
 * **NmsInterest** : cette table correspond au schéma **nms:interest**. Elle contient la liste des centres d’intérêt de chaque visiteur.

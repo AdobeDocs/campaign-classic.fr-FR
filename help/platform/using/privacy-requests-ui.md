@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%
 

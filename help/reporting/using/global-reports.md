@@ -5,10 +5,10 @@ description: Rapports globaux
 badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '2503'
-ht-degree: 100%
+source-wordcount: '2511'
+ht-degree: 96%
 
 ---
 
@@ -167,9 +167,9 @@ Le tableau de valeurs utilise les indicateurs suivants :
 
 ### Partage vers les réseaux sociaux {#sharing-to-social-networks}
 
-Le marketing viral permet aux destinataires de vos diffusions de partager l&#39;information avec leur réseau : ajouter le lien à leur profil (Facebook, Twitter, etc.), ou envoyer un message à un ami. Chaque partage et chaque accès à l&#39;information partagée fait l&#39;objet d&#39;un tracking au niveau de la diffusion. Pour plus d&#39;informations sur le marketing viral, reportez-vous à [cette section](../../delivery/using/viral-and-social-marketing.md).
+Le marketing viral permet aux destinataires de vos diffusions de partager l&#39;information avec leur réseau de contacts : ils peuvent ajouter un lien vers leur profil (Facebook, X, anciennement connu sous le nom de Twitter, etc.) ou envoyer un message à un ami. Chaque partage et chaque accès aux informations partagées sont suivis dans la diffusion. Pour plus d&#39;informations sur le marketing viral, consultez [cette section](../../delivery/using/viral-and-social-marketing.md).
 
-Ce rapport présente la répartition du partage et de l&#39;ouverture des messages par réseau social (Facebook, Twitter, etc.) et/ou par email.
+Ce rapport présente la répartition des messages partagés et ouverts par réseau social (Facebook, X, etc.) et/ou par email.
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -202,7 +202,7 @@ Cette section comporte deux graphiques représentant la répartition des partage
 
 ## Statistiques des activités de partage {#statistics-on-sharing-activities}
 
-Ce rapport présente l&#39;évolution dans le temps des activités de partage vers les réseaux sociaux (Facebook, Twitter, email, etc.).
+Ce rapport présente l’évolution des partages vers les réseaux sociaux (Facebook, X, anciennement connu sous le nom de Twitter, email, etc.) dans le temps.
 
 Pour plus d&#39;informations sur le marketing viral, consultez [cette section](../../delivery/using/viral-and-social-marketing.md).
 

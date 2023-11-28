@@ -5,10 +5,10 @@ description: Liste des rapports
 badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 100%
+source-wordcount: '1018'
+ht-degree: 98%
 
 ---
 
@@ -360,7 +360,7 @@ Les rapports suivants sont également fournis natifs. Pour plus d&#39;informatio
   </tr> 
   <tr> 
    <td> Historique des acquisitions de prospects sociaux (socialVisitorStatistics)<br /> </td> 
-   <td> Historique des acquisitions des prospects Twitter et Facebook. Dépend du composant additionnel Social Marketing.<br /> </td> 
+   <td> Historique des acquisitions de X (anciennement appelé Twitter) et de prospects Facebook. Dépend du composant additionnel Social Marketing.<br /> </td> 
    <td> nms:visitor<br /> </td> 
   </tr> 
   <tr> 

@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '2551'
-ht-degree: 100%
+source-wordcount: '2555'
+ht-degree: 98%
 
 ---
 
@@ -293,7 +293,7 @@ Cette fonctionnalité est disponible en version bêta privée et sera progressiv
 * Correction d&#39;un problème qui pouvait réduire l&#39;utilisation de la mémoire sur le serveur lors de l&#39;analyse des diffusions.
 * Correction d&#39;un problème en raison duquel l&#39;instance ne fonctionnait pas lors de l&#39;exécution de requêtes complexes spécifiques.
 * Correction d&#39;un problème qui empêchait l&#39;exécution du workflow technique **Synchronisation des pages Twitter**. (NEO-28634)
-* Correction d&#39;un problème qui pouvait afficher un message d&#39;erreur lié à la fonction decryptPassword lors de la tentative de publication sur Twitter à l&#39;aide du modèle de diffusion **Tweet (twitter)**. (NEO-28216)
+* Correction d’un problème qui entraînait l’affichage d’un message d’erreur lié à la fonction decryptPassword lors de la publication sur X (anciennement appelée Twitter) à l’aide de la fonction **Tweet (par twitter)** modèle de diffusion. (NEO-28216)
 * Correction d&#39;un problème survenant lors de l&#39;utilisation d&#39;une activité **JavaScript** pour effectuer une requête HTTP dans un workflow. Après avoir défini le numéro de port dans le nom d’hôte, l’appel échouait avec l’erreur suivante (NEO-29146) :
 
 ```

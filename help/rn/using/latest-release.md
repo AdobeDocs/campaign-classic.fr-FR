@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 155fbcd2846cfc5a8db25194bd8d7007356db24e
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '1869'
-ht-degree: 100%
+source-wordcount: '1873'
+ht-degree: 98%
 
 ---
 
@@ -141,7 +141,7 @@ En savoir plus sur la [matrice de compatibilité de Campaign](../../rn/using/com
 
 **Fonctionnalités obsolètes**
 
-* Le marketing social avec Facebook est désormais obsolète. Vous pouvez utiliser l’intégration de Twitter pour publier sur les médias sociaux ou utiliser Adobe pour créer un canal personnalisé.
+* Le marketing social avec Facebook est désormais obsolète. Vous pouvez utiliser l’intégration X (anciennement appelée Twitter) pour publier sur les médias sociaux ou travailler avec Adobe pour créer un canal personnalisé.
 * Le connecteur ACS (offre Prime) est désormais obsolète. Vous pouvez utiliser les fonctionnalités d’exportation/importation de Campaign pour extraire et injecter des données dans les deux produits.
 
 En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](deprecated-features.md).

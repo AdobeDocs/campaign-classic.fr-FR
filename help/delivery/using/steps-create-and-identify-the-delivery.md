@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Channel Configuration
 role: User
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '291'
-ht-degree: 100%
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ Pour créer une diffusion, cliquez sur le bouton **[!UICONTROL Créer]** situé 
 
 ![](assets/s_ncs_user_wizard_email01_1.png)
 
-Par défaut, un modèle est fourni pour chaque canal installé : courrier, email, fax, téléphone, canaux mobiles (SMS), Facebook, Twitter, etc.
+Un modèle par défaut est fourni pour chaque canal installé : courrier, email, fax, téléphone, canal mobile (SMS), Facebook, X (anciennement appelé Twitter), etc.
 
 >[!NOTE]
 >

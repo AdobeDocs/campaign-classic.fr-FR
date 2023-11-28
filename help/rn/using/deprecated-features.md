@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 100%
+source-wordcount: '1519'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   </tr>
 <tr>
  <td>Marketing pour réseaux sociaux    avec Facebook</td>
- <td>Le marketing des médias sociaux avec Facebook est désormais obsolète. Vous pouvez utiliser l’intégration de Twitter pour publier sur les médias sociaux ou utiliser Adobe pour créer un canal personnalisé.
+ <td>Le marketing des médias sociaux avec Facebook est désormais obsolète. Vous pouvez utiliser l’intégration X (anciennement appelée Twitter) pour publier sur les médias sociaux ou travailler avec Adobe pour créer un canal personnalisé.
  <p></p>
   <p>Date de suppression prévue : fin 2023</p>
   </td>
