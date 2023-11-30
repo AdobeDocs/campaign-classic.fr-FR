@@ -5,16 +5,14 @@ description: En savoir plus sur l’activité de workflow de diffusion récurren
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 05210269da2a32310c19911a3bc32240c84dc7ad
+source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 89%
 
 ---
 
 # Diffusion récurrente{#recurring-delivery}
-
-
 
 Une activité de **[!UICONTROL Diffusion récurrente]** permet de paramétrer une instance d&#39;un modèle de diffusion spécifique à une opération.
 
@@ -32,11 +30,15 @@ Pour cela :
 
 Le paramétrage de cette activité est semblable à la création d&#39;un modèle de diffusion au niveau des options disponibles. Voir à ce sujet cette [section](../../delivery/using/about-templates.md).
 
+>[!CAUTION]
+>
+>Les diffusions récurrentes ne prennent pas en charge l’envoi de BAT, y compris [données de la cible](../../workflow/using/data-life-cycle.md#target-data) éléments de personnalisation.
+
 Un exemple d&#39;utilisation de cette activité est proposé dans cette [section](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 ## Configuration d’une diffusion récurrente {#set-up-recurring-delivery}
 
-Une **diffusion récurrente** crée une nouvelle instance de diffusion chaque fois qu’elle s’exécute. Par exemple, si le workflow est planifié pour s’exécuter une fois par semaine, 52 diffusions seront créées en une année. Cela signifie également que le broadlog et les logs de tracking seront séparés par chaque instance de diffusion.
+Une **diffusion récurrente** crée une nouvelle instance de diffusion chaque fois qu’elle s’exécute. Par exemple, si le workflow est planifié pour s’exécuter une fois par semaine, il en résultera 52 diffusions au bout d’un an. Cela signifie également que le broadlog et les logs de tracking seront séparés par chaque instance de diffusion.
 
 ![Diffusion récurrente](assets/delivery_recurring.jpg)
 

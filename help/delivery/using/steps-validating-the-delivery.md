@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 100%
+source-wordcount: '1818'
+ht-degree: 99%
 
 ---
 
@@ -133,13 +133,16 @@ Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adob
 
 >[!NOTE]
 >
->* Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](steps-validating-the-delivery.md#changing-the-approval-mode).
->* La configuration de la cible du BAT est expliquée dans la section [Définir une cible spécifique au BAT](steps-defining-the-target-population.md#defining-a-specific-proof-target).
->
+>Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](steps-validating-the-delivery.md#changing-the-approval-mode).
 
 Pour envoyer un BAT, procédez comme suit :
 
 1. Vérifiez que la cible du BAT a été configurée comme décrit dans la section [Définir une cible spécifique au BAT](steps-defining-the-target-population.md#defining-a-specific-proof-target).
+
+   >[!CAUTION]
+   >
+   >[Diffusions récurrentes](../../workflow/using/recurring-delivery.md) ne prennent pas en charge l’envoi de BAT, y compris [données de la cible](../../workflow/using/data-life-cycle.md#target-data) éléments de personnalisation.
+
 1. Cliquez sur **[!UICONTROL Envoyer un BAT]** dans la barre supérieure de l&#39;assistant de diffusion.
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
