@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: 8b0162680d6a3a2d4891d1f71020b44b28046ad7
 workflow-type: tm+mt
-source-wordcount: '2675'
-ht-degree: 100%
+source-wordcount: '2624'
+ht-degree: 98%
 
 ---
 
@@ -287,11 +287,13 @@ Les règles par défaut sont les suivantes.
 
 #### Mail entrant {#inbound-email}
 
->[!IMPORTANT]
->
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md) et si votre instance dispose de la fonctionnalité **WebHooks**, les règles d’**[!UICONTROL e-mail entrant]** ne sont plus utilisées pour les messages d’erreur relatifs aux échecs des diffusions synchrones. Voir à ce propos [cette section](#bounce-mail-qualification).
+<!--
+STATEMENT ONLY TRUE with Momentum and EFS+:
+For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), and if your instance has **Webhooks** functionality, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
 
-Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par des serveurs distants et qui vous permettent de qualifier l&#39;erreur (**Hard**, **Soft** ou **Ignorée**).
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, these rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).-->
+
+La variable **[!UICONTROL Email entrant]** Les règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l’erreur (**Hard**, **Soft** ou **Ignoré**).
 
 Lors de l’échec de l’envoi d’un e-mail, le serveur de messagerie distant renvoie un message de rebond à l’adresse spécifiée dans les [paramètres de la plateforme](../../installation/using/deploying-an-instance.md). Adobe Campaign compare le contenu de chaque rebond aux chaînes disponibles dans la liste des règles, puis attribue l’un des trois [types d’erreurs](#delivery-failure-types-and-reasons).
 
