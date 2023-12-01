@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
+source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 99%
+source-wordcount: '1806'
+ht-degree: 100%
 
 ---
 
@@ -138,10 +138,6 @@ Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adob
 Pour envoyer un BAT, procédez comme suit :
 
 1. Vérifiez que la cible du BAT a été configurée comme décrit dans la section [Définir une cible spécifique au BAT](steps-defining-the-target-population.md#defining-a-specific-proof-target).
-
-   >[!CAUTION]
-   >
-   >[Diffusions récurrentes](../../workflow/using/recurring-delivery.md) ne prennent pas en charge l’envoi de BAT, y compris [données de la cible](../../workflow/using/data-life-cycle.md#target-data) éléments de personnalisation.
 
 1. Cliquez sur **[!UICONTROL Envoyer un BAT]** dans la barre supérieure de l&#39;assistant de diffusion.
 

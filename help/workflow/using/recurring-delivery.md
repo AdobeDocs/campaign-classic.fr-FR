@@ -5,10 +5,10 @@ description: En savoir plus sur l’activité de workflow de diffusion récurren
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
+source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 89%
+source-wordcount: '301'
+ht-degree: 88%
 
 ---
 
@@ -32,7 +32,7 @@ Le paramétrage de cette activité est semblable à la création d&#39;un modèl
 
 >[!CAUTION]
 >
->Les diffusions récurrentes ne prennent pas en charge l’envoi de BAT, y compris [données de la cible](../../workflow/using/data-life-cycle.md#target-data) éléments de personnalisation.
+>Les diffusions récurrentes ne prennent pas en charge la prévisualisation du contenu ou l’envoi de BAT, y compris [données de la cible](../../workflow/using/data-life-cycle.md#target-data) éléments de personnalisation.
 
 Un exemple d&#39;utilisation de cette activité est proposé dans cette [section](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
