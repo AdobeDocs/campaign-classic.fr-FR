@@ -4,9 +4,9 @@ title: Effectuer une mise à jour vers le nouveau serveur de délivrabilité
 description: Découvrez comment mettre à jour le nouveau serveur de délivrabilité de Campaign
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
+source-git-commit: eea3657f1cffa215e1fc1cb1eb8782b83321aae4
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1300'
 ht-degree: 100%
 
 ---
@@ -145,15 +145,7 @@ Pour ce faire :
 
 1. Vous devez arrêter et redémarrer le serveur pour que cette modification soit prise en compte. Vous pouvez également exécuter une commande `config -reload`.
 
-### Étape 3 : activer le nouveau serveur de délivrabilité
-
-Vous pouvez maintenant activer le nouveau serveur de délivrabilité. Procédez comme suit :
-
-1. Ouvrez la console cliente et connectez-vous à Adobe Campaign en tant qu’administrateur.
-1. Accédez à **Administration > Plateforme > Options**.
-1. Accédez à l’option `NewDeliverabilityServer_FeatureFlag` et définissez la valeur sur `1`. Cette configuration doit être effectuée sur toutes vos instances Campaign (MKT, MID, RT, EXEC). En tant que client hybride, contactez Adobe pour que l’option soit définie sur vos instances MID, RT et EXEC.
-
-### Étape 4 : valider votre configuration
+### Étape 3 : valider votre configuration
 
 Pour vérifier que l’intégration a réussi, procédez comme suit :
 
