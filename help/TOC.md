@@ -8,8 +8,8 @@ sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
 workflow-type: tm+mt
-source-wordcount: '2532'
-ht-degree: 100%
+source-wordcount: '2531'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
    + Confidentialité {#privacy}
       + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
       + [Gestion de la confidentialité](platform/using/privacy-management.md)
-      + Demandes d&#39;accès à des informations personnelles  {#privacy-requests}
+      + Demandes d&#39;accès à des informations personnelles {#privacy-requests}
          + [À propos des demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
          + [Créer et gérer les demandes d’accès à des informations personnelles](platform/using/privacy-requests-ui.md)
          + [Processus automatique de demande d&#39;accès à des informations personnelles](platform/using/privacy-requests-api.md)
@@ -472,7 +472,7 @@ ht-degree: 100%
          + [Chargement du contenu de la diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle      {#monitoring}
+      + Surveillance {#monitoring}
          + [Envoi d’un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Supervision de vos workflows](workflow/using/supervising-workflows.md)
          + [Envoi d’alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
