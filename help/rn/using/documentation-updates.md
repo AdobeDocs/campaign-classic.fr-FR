@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 8ecb5aba9a070276927e97586ed463ab485717d6
+source-git-commit: 38cd50072bdedbac566eb3a56d86328d1e5e1883
 workflow-type: tm+mt
-source-wordcount: '3668'
-ht-degree: 100%
+source-wordcount: '3671'
+ht-degree: 99%
 
 ---
 
@@ -22,9 +22,11 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 
 ## 2023
 
-### Novembre 2023
+### Décembre 2023
 
-JWT (JSON Web Tokens) est actuellement en voie de devenir obsolète et sera remplacé par OAuth. La transition s’effectuera progressivement dans les prochaines versions de Campaign et la documentation sera actualisée pour refléter ces mises à jour.
+JWT (JSON Web Tokens) est actuellement en cours d’obsolescence et est remplacé par OAuth. La transition sera progressivement effectuée dans les prochaines versions de Campaign et la documentation sera modifiée pour refléter ces mises à jour.
+
+Ajout de la configuration du compte externe FDA pour Amazon Redshift. [En savoir plus](../../installation/using/configure-fda-redshift.md)
 
 ### Août 2023
 
