@@ -2,9 +2,8 @@
 keywords: Campaign Classic;accueil;thèmes populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
-feature: Overview
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: b280a75c7bd34d81657d6c7f1a859890c963352b
+source-git-commit: 93d6ffc4ac3047ab6a9a41859bed48f6ffac605b
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 8%
