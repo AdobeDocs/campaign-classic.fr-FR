@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 38cd50072bdedbac566eb3a56d86328d1e5e1883
+source-git-commit: cc6d85bcf822ba9be99e39cf459a5aa20cc2d4fe
 workflow-type: tm+mt
 source-wordcount: '3671'
 ht-degree: 99%
@@ -22,21 +22,21 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 
 ## 2023
 
-### Décembre 2023
+### Décembre 2023 {#dec-2023}
 
 JWT (JSON Web Tokens) est actuellement en cours d’obsolescence et est remplacé par OAuth. La transition sera progressivement effectuée dans les prochaines versions de Campaign et la documentation sera modifiée pour refléter ces mises à jour.
 
 Ajout de la configuration du compte externe FDA pour Amazon Redshift. [En savoir plus](../../installation/using/configure-fda-redshift.md)
 
-### Août 2023
+### Août 2023 {#aug-2023}
 
 Une limitation a été ajoutée pour indiquer que vous ne pouvez pas utiliser Adobe Campaign pour décompresser les fichiers compressés d’une taille supérieure à 4 Go. [En savoir plus](../../platform/using/unzip-decrypt.md)
 
-### Avril 2023
+### Avril 2023 {#apr-2023}
 
 Ajout d’une note technique sur l’activation de Microsoft Edge Chromium sur les environnements On-Premise/hybrides. [En savoir plus](../../technotes/using/edge-chromium.md)
 
-### Mars 2023
+### Mars 2023 {#mar-2023}
 
 Mise à jour de la section Notes de mise à jour avec les améliorations et correctifs de la version 7.3.3. [En savoir plus](latest-release.md)
 
