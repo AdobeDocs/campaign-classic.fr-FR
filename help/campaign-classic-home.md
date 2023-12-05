@@ -3,10 +3,10 @@ keywords: Campaign Classic;accueil;thèmes populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 93d6ffc4ac3047ab6a9a41859bed48f6ffac605b
+source-git-commit: 41dcf70724761237a8230bad04322bd3322c0e6f
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 8%
+source-wordcount: '314'
+ht-degree: 7%
 
 ---
 
@@ -20,17 +20,24 @@ Découvrez les dernières améliorations apportées à la documentation et au pr
 
 >[!BEGINTABS]
 
+
+>[!TAB La version de décembre est en ligne !]
+
+Découvrez les mises à jour, les améliorations et les correctifs fournis avec Campaign Classic v7.3.5.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
+
+>[!TAB Déplacer vers le service Identity Management Adobe]
+
+Pour renforcer la sécurité et le processus d&#39;authentification, Adobe Campaign recommande vivement de migrer le mode d&#39;authentification de l&#39;utilisateur final de l&#39;authentification native login/password vers Adobe Identity Management System (IMS).
+
+[![image](assets/do-not-localize/learn-more-button.svg)](technotes/using/migrate-users-to-ims.md)
+
 >[!TAB Mettre à jour votre intégration Adobe Experience Cloud]
 
 Le service d’authentification oAuth hérité a atteint la fin de vie : vous devez migrer vers Adobe I/O.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](integrations/using/configuring-adobe-io.md)
-
->[!TAB La version de septembre est en ligne !]
-
-Découvrez les mises à jour de sécurité et de compatibilité, les améliorations et les correctifs apportés par cette nouvelle version.
-
-[![image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
 >[!ENDTABS]
 
