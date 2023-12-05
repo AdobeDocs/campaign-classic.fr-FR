@@ -3,7 +3,7 @@ keywords: Campaign Classic;accueil;thèmes populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 5fe07c7955b529cd7f1a481167dd4139aa886bb0
+source-git-commit: 4917efbe0ac119875029305b3f8c3303056cfcc8
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 7%
@@ -27,7 +27,7 @@ Découvrez les mises à jour, les améliorations et les correctifs fournis avec 
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
->[!TAB Déplacer vers le service Identity Management Adobe]
+>[!TAB Accéder à Adobe Identity Management System]
 
 Pour renforcer la sécurité et le processus d&#39;authentification, Adobe Campaign recommande vivement de migrer le mode d&#39;authentification de l&#39;utilisateur final de l&#39;authentification native login/password vers Adobe Identity Management System (IMS).
 
