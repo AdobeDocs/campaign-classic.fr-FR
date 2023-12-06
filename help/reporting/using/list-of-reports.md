@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1018'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -360,7 +360,7 @@ Les rapports suivants sont également fournis natifs. Pour plus d&#39;informatio
   </tr> 
   <tr> 
    <td> Historique des acquisitions de prospects sociaux (socialVisitorStatistics)<br /> </td> 
-   <td> Historique des acquisitions de X (anciennement appelé Twitter) et de prospects Facebook. Dépend du composant additionnel Social Marketing.<br /> </td> 
+   <td> Historique des acquisitions de prospects X (anciennement Twitter) et Facebook. Dépend du module complémentaire Social Marketing.<br /> </td> 
    <td> nms:visitor<br /> </td> 
   </tr> 
   <tr> 
