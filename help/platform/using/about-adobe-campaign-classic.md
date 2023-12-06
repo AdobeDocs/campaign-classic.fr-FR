@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '934'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Les fonctions ci-dessous sont disponibles. Selon votre contrat de licence, certa
 * [MRM](../../mrm/using/about-marketing-resource-management.md) : gérez les ressources marketing et les budgets.
 * [Interaction](../../interaction/using/interaction-and-offer-management.md) : gérez les offres avec Campaign.
 * [Message Center](../../message-center/using/about-transactional-messaging.md) : envoyez des messages transactionnels par email, par SMS ou sur une application mobile.
-* [Social Marketing](../../social/using/about-social-marketing.md) - communiquer sur les médias sociaux : Facebook, X (anciennement connu sous le nom de Twitter),
+* [Marketing des médias sociaux (Social Marketing)](../../social/using/about-social-marketing.md) : communiquez sur les médias sociaux : Facebook, X (anciennement Twitter).
 * [Workflow/Data Management](../../workflow/using/about-workflows.md) : automatisez les processus et gérez les données à l&#39;aide de workflows.
 * [Applications web](../../web/using/about-web-applications.md) : créez des pages web et des formulaires.
 * [Survey Manager](../../surveys/using/about-surveys.md) : créez des questionnaires et des enquêtes en ligne.
