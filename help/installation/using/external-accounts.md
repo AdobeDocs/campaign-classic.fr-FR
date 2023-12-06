@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2031'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ Les canaux suivants peuvent être configurés :
 * [Phone](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Canal Courrier](../../delivery/using/about-direct-mail-channel.md)
 * [Agence](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
-* [X (anciennement appelé Twitter)](../../social/using/about-social-marketing.md)
+* [X (anciennement Twitter)](../../social/using/about-social-marketing.md)
 * [Canal iOS](../../delivery/using/configuring-the-mobile-application.md)
 * [Canal Android](../../delivery/using/configuring-the-mobile-application-android.md)
 
