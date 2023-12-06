@@ -8,9 +8,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: 8b0162680d6a3a2d4891d1f71020b44b28046ad7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2624'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -293,7 +293,7 @@ For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](s
 
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, these rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).-->
 
-La variable **[!UICONTROL Email entrant]** Les règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l’erreur (**Hard**, **Soft** ou **Ignoré**).
+Les règles **[!UICONTROL Mail entrant]** contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l’erreur en **Hard**, **Soft** ou **Ignoré**.
 
 Lors de l’échec de l’envoi d’un e-mail, le serveur de messagerie distant renvoie un message de rebond à l’adresse spécifiée dans les [paramètres de la plateforme](../../installation/using/deploying-an-instance.md). Adobe Campaign compare le contenu de chaque rebond aux chaînes disponibles dans la liste des règles, puis attribue l’un des trois [types d’erreurs](#delivery-failure-types-and-reasons).
 
