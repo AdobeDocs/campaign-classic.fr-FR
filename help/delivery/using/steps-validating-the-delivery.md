@@ -10,7 +10,7 @@ exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
 workflow-type: tm+mt
 source-wordcount: '1806'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -96,7 +96,7 @@ Cet onglet permet d&#39;accéder aux options suivantes :
 * **[!UICONTROL Préparer les données de personnalisation avec un workflow]** : cette option permet de préparer, dans un workflow automatique, les données de personnalisation contenues dans la diffusion, ce qui permet d’augmenter considérablement les performances d’exécution de la personnalisation. Pour plus d’informations à ce sujet, voir la section [Optimiser la personnalisation](personalization-fields.md#optimizing-personalization).
 * **[!UICONTROL Lancer le traitement dans un processus détaché]** : cette option permet de lancer l’analyse de la diffusion dans un processus à part. Par défaut, la fonction d’analyse utilise le processus du serveur applicatif d’Adobe Campaign (nlserver web). En cochant cette option, vous êtes assuré que l’analyse sera menée à son terme, même en cas de défaillance du serveur applicatif.
 * **[!UICONTROL Enregistrer les requêtes SQL générées pendant l’analyse dans le journal]** : cette option permet d&#39;ajouter les logs des requêtes SQL dans le journal de la diffusion lors de la phase d’analyse.
-* **[!UICONTROL Ignorer les scripts de personnalisation lors de l’envoi]** : cette option permet de ne pas interpréter les directives JavaScript présentes dans les contenus HTML. Elles seront affichées telles quelles dans les contenus envoyés. Ces directives sont introduites par la balise **&lt;%=**.
+* **[!UICONTROL Ignorer les scripts de personnalisation lors de l’envoi]** : cette option permet de ne pas interpréter les directives JavaScript présentes dans le contenu du HTML. Ils s’affichent tels quels dans le contenu diffusé. Ces directives sont introduites avec la méthode **&lt;%=** ).
 
 ### Améliorer les performances des analyses de diffusions {#improving-delivery-analysis}
 
@@ -173,11 +173,11 @@ Les options disponibles sont les suivantes :
 * La première option permet de conserver les doublons du BAT.
 * Les deux options ci-dessous permettent de conserver les destinataires qui se trouvent sur la liste bloquée et les adresses en quarantaine. Voir la description de ces options pour la cible principale dans la section [Personnaliser les paramètres d’exclusion](steps-defining-the-target-population.md#customizing-exclusion-settings). Contrairement à la cible d’une diffusion, où ces adresses sont exclues par défaut, elles sont conservées par défaut pour la cible d’un BAT.
 * L&#39;option **[!UICONTROL Conserver le code diffusion pour le BAT]** permet d&#39;attribuer au BAT le même code de diffusion que celui défini pour la diffusion à laquelle il correspond : ce code est spécifié dans la première étape de l&#39;assistant de diffusion.
-* Par défaut, l&#39;objet du BAT est préfixé par &quot;BAT N°&quot;, où N° correspond au numéro du BAT. Vous pouvez modifier ce préfixe dans le champ **[!UICONTROL Préfixe du libellé]**.
+* Par défaut, le sujet du BAT est précédé du préfixe &#39;Bon à tirer #&#39;, où # est le numéro du BAT. Vous pouvez modifier ce préfixe dans le champ **[!UICONTROL Préfixe de libellé]**.
 
 ## Processus de validation avec des typologies {#validation-process-with-typologies}
 
-Avant tout envoi, vous devez analyser la diffusion afin d&#39;en valider le contenu et le paramétrage. Les règles de vérification appliquées lors de la phase d&#39;analyse sont définies dans une **typologie**. Par défaut, pour les emails, l&#39;analyse porte sur les points suivants :
+Avant d&#39;envoyer des messages, vous devez analyser la campagne pour en valider le contenu et le paramétrage. Les règles de vérification appliquées lors de la phase d&#39;analyse sont définies dans un **typologie**. Par défaut pour les e-mails, l’analyse exécute les tâches suivantes :
 
 * validation de l&#39;objet,
 * validation des URL et des images,
@@ -199,17 +199,17 @@ Vous pouvez également éditer la typologie courante en cliquant sur l&#39;icôn
 
 ![](assets/s_ncs_user_email_del_typo_tab.png)
 
-L&#39;onglet **[!UICONTROL Règle]** propose la liste des règles de typologie à appliquer. Sélectionnez une règle et cliquez sur l&#39;icône **[!UICONTROL Détail...]** pour en visualiser le paramétrage :
+La variable **[!UICONTROL Règle]** donne la liste des règles de typologie à appliquer. Sélectionnez une règle et cliquez sur le bouton **[!UICONTROL Détail...]** pour en visualiser la configuration :
 
 ![](assets/s_ncs_user_email_del_typo_rules_edit.png)
 
 >[!NOTE]
 >
->Les typologies de type **[!UICONTROL Arbitrage]** sont utilisées dans le cadre de la gestion de la pression commerciale. Voir à ce sujet [cette section](../../mrm/using/about-marketing-resource-management.md).
+>**[!UICONTROL Arbitrage]** les typologies de type sont utilisées dans le cadre de la gestion de la pression commerciale. Pour plus d’informations, consultez [cette section](../../mrm/using/about-marketing-resource-management.md).
 
 ## Changer le mode de validation {#changing-the-approval-mode}
 
-L’onglet **[!UICONTROL Analyse]** des propriétés de la diffusion vous permet de sélectionner le mode de validation. En effet, si des avertissements sont générés lors de l’analyse (par exemple, si certains caractères sont accentués dans l’objet de la diffusion, etc.), vous pouvez paramétrer la diffusion afin de définir si elle doit toutefois être exécutée ou non. Par défaut, à la fin de la phase d’analyse, l’utilisateur doit valider l’envoi des messages : il s’agit d’une validation **manuelle**. 
+La variable **[!UICONTROL Analyse]** pour les propriétés de la diffusion, vous pouvez sélectionner le mode de validation. Si des avertissements sont générés lors de l&#39;analyse (par exemple, si certains caractères sont accentués dans l&#39;objet de la diffusion, etc.), vous pouvez paramétrer la diffusion pour définir si elle doit encore être exécutée ou non. Par défaut, l’utilisateur ou l’utilisatrice doit confirmer l’envoi des messages à la fin de la phase d’analyse : il s’agit d’une validation **manuelle**.
 
 Vous pouvez choisir un autre mode de validation dans la liste déroulante du champ correspondant.
 

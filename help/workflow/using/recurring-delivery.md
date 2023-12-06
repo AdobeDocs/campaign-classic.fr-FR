@@ -7,8 +7,8 @@ feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 88%
+source-wordcount: '297'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Pour cela :
 
 1. Paramétrez le modèle de diffusion.
 
-Le paramétrage de cette activité est semblable à la création d&#39;un modèle de diffusion au niveau des options disponibles. Voir à ce sujet cette [section](../../delivery/using/about-templates.md).
+Le paramétrage de cette activité est similaire à celui de la création d&#39;un modèle de diffusion au niveau des options disponibles. Pour plus d’informations à ce sujet, consultez cette [section](../../delivery/using/about-templates.md).
 
 >[!CAUTION]
 >
@@ -38,7 +38,7 @@ Un exemple d&#39;utilisation de cette activité est proposé dans cette [section
 
 ## Configuration d’une diffusion récurrente {#set-up-recurring-delivery}
 
-Une **diffusion récurrente** crée une nouvelle instance de diffusion chaque fois qu’elle s’exécute. Par exemple, si le workflow est planifié pour s’exécuter une fois par semaine, il en résultera 52 diffusions au bout d’un an. Cela signifie également que le broadlog et les logs de tracking seront séparés par chaque instance de diffusion.
+Une **diffusion récurrente** crée une nouvelle instance de diffusion chaque fois qu’elle s’exécute. Par exemple, si le workflow est planifié pour s’exécuter une fois par semaine, 52 diffusions seront créées en une année. Cela signifie également que le broadlog et les logs de tracking seront séparés par chaque instance de diffusion.
 
 ![Diffusion récurrente](assets/delivery_recurring.jpg)
 
