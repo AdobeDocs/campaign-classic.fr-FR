@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
 source-git-commit: 624978901943b4c74f50c20298c9596f73b25b1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1294'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Pour vous aider à configurer des plans de maintenance, cette section répertori
 
 >[!IMPORTANT]
 >
->Adobe recommande vivement de ne pas exécuter VACUUM FULL sur les configurations de base de données hébergées par l’Adobe Campaign. La maintenance proposée est un guide pour les installations ON-PREMISE uniquement. Pour les mises en oeuvre et schémas de table personnalisés, utilisez VACUUM FULL à vos risques et périls, car VACUUM, sans surveillance, peut verrouiller exclusivement les tables à l’origine de requêtes bloquées et, dans certains cas, verrouiller la base de données entière.
+>Adobe recommande vivement de ne pas exécuter VACUUM FULL sur les configurations de base de données hébergées par Adobe Campaign. La maintenance proposée est un guide pour les installations On-Premise uniquement. Pour les mises en œuvre et schémas de table personnalisés, utilisez VACUUM FULL à vos risques et périls, car VACUUM sans surveillance peut verrouiller exclusivement les tables à l’origine de requêtes bloquées et, dans certains cas, verrouiller la base de données entière.
 
 Dans PostgreSQL, vous pouvez utiliser les mots-clés habituels suivants :
 
