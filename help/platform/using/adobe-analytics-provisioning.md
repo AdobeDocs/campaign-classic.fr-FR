@@ -9,9 +9,9 @@ role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: d690a5c4b9779ccd90b50bfbc74df18f0ac60d14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 92%
 >
 >Pour les implémentations hébergées et Managed Services de Campaign, veuillez contacter [l’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
-L’intégration entre l’authentification Adobe Campaign Classic et Adobe Analytics prend en charge Adobe Identity Management Service (IMS) :
+L’intégration entre l’authentification d’Adobe Campaign Classic et d’Adobe Analytics prend en charge Adobe Identity Management Service (IMS) :
 
-* Si vous gérez un compte externe migré, vous devez mettre en œuvre Adobe IMS et vous connecter à Adobe Campaign via un Adobe ID.
+* Si vous gérez un compte externe migré, vous devez mettre en œuvre Adobe IMS et vous connecter à Adobe Campaign via un Adobe ID.
 
-  Notez que l’utilisateur connecté via Adobe ID IMS doit être le propriétaire du **Connecteur de données** dans Adobe Analytics et disposer des autorisations pour la variable **Profil de produit** mentions [below](#analytics-product-profile).
+  L’utilisateur ou l’utilisatrice qui se connecte via Adobe ID IMS doit être propriétaire du compte **Connecteur de données** dans Adobe Analytics et disposer d’un ensemble d’autorisations pour le **Profil de produit** mentionné [ci-dessous](#analytics-product-profile).
 
-Le problème était que le propriétaire du connecteur de données était un utilisateur différent de celui qui était connecté à Campaign et qui tentait l’intégration à Analytics.
+Le problème était que la personne propriétaire du connecteur de données ne correspondait pas à la personne connectée à Campaign et qui tentait l’intégration à Analytics.
 
 * Si vous implémentez un nouveau connecteur, la mise en œuvre d’Adobe IMS est facultative. En l’absence d&#39;un utilisateur Adobe ID, Adobe Campaign utilisera un utilisateur technique pour se synchroniser avec Adobe Analytics.
 
