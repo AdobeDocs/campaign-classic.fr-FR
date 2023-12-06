@@ -8,9 +8,9 @@ feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ Pour éditer un service existant, cliquez sur son nom. Pour créer un service, c
 
 ![](assets/s_ncs_user_services_add.png)
 
-* Saisissez le nom du service dans le champ **[!UICONTROL Libellé]** et sélectionnez le canal de diffusion : email, mobile, Facebook, X (anciennement appelé Twitter) ou applications mobiles.
+* Saisissez le nom du service dans le champ **[!UICONTROL Libellé]** et sélectionnez le canal de diffusion : e-mail, mobile, Facebook, X (anciennement Twitter) ou applications mobiles.
 
   >[!NOTE]
   >
-  >Les abonnements facebook et X sont détaillés dans la section [cette section](../../social/using/about-social-marketing.md). Les abonnements aux applications mobiles sont détaillés dans [À propos de Mobile App Channel](about-mobile-app-channel.md).
+  >Les abonnements Facebook et X sont détaillés dans [cette section](../../social/using/about-social-marketing.md). Les abonnements aux applications mobiles sont détaillés dans [À propos de Mobile App Channel](about-mobile-app-channel.md).
 
 * Pour un service de type Email, choisissez le **mode de diffusion**. Les modes possibles sont : **[!UICONTROL Newsletter]** ou **[!UICONTROL Viral]**.
 * Vous pouvez envoyer des **messages de confirmation** lors de l&#39;inscription ou de la désinscription : vous devez alors choisir les modèles de diffusion à utiliser pour créer les diffusions correspondantes depuis les champs **[!UICONTROL Inscription]** ou **[!UICONTROL Désinscription]**. Ces modèles doivent être paramétrés avec un mapping de ciblage de type **[!UICONTROL Abonnement]**, sans aucune cible définie. Pour plus d&#39;informations, consultez la section [À propos du canal Email](about-email-channel.md).
