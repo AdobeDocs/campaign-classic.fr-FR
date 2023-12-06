@@ -8,9 +8,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Un profil qui a été ciblé par plusieurs diffusions n&#39;est comptabilisé qu
 
 >[!NOTE]
 >
->Les canaux facebook et X (anciennement appelés Twitter) ne sont pas pris en compte.
+>Les canaux Facebook et X (anciennement Twitter) ne sont pas pris en compte.
 
 Le nombre de profils actifs est disponible pour les **instances marketing** uniquement. Il n&#39;est pas disponible pour les instances d&#39;exécution, c&#39;est-à-dire les instances MID (mid-sourcing) et RT (Message Center / messagerie en temps réel).
 
