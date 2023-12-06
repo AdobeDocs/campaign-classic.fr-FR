@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1791'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ _17 décembre 2019_
 
 Le build 9032@d6b8062 comprend le correctif suivant :
 
-* Correction d’un problème de suivi sur les canaux de communication suivants : mobile (SMS, MMS), push (iOS, Android) et réseaux sociaux (Facebook, X - anciennement appelé Twitter). (NEO-19595)
+* Correction d’un problème de suivi sur les canaux de communication suivants : mobile (SMS, MMS), notification push (iOS, Android) et réseaux sociaux (Facebook, X, anciennement Twitter). (NEO-19595)
 
 ### [!DNL Gold Standard] version 4{#gs-4}
 
