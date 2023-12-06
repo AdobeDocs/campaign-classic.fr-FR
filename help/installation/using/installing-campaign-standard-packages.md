@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 badge-v7-prem: label="On-premise et hybride" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1317'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr--> 
   <tr> 
    <td> Réseaux sociaux (Social Marketing) <br /> </td> 
-   <td> Synchronise Adobe Campaign avec X (anciennement appelé Twitter) et Facebook. <a href="../../social/using/about-social-marketing.md">En savoir plus</a> <br /> </td> 
+   <td> Synchroniser Adobe Campaign avec X (anciennement Twitter) et Facebook. <a href="../../social/using/about-social-marketing.md">En savoir plus</a> <br /> </td> 
    <td> Tous</td> 
   </tr> 
   <tr> 
