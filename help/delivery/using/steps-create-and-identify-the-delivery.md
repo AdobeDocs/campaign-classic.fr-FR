@@ -8,9 +8,9 @@ feature: Channel Configuration
 role: User
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Pour créer une diffusion, cliquez sur le bouton **[!UICONTROL Créer]** situé 
 
 ![](assets/s_ncs_user_wizard_email01_1.png)
 
-Un modèle par défaut est fourni pour chaque canal installé : courrier, email, fax, téléphone, canal mobile (SMS), Facebook, X (anciennement appelé Twitter), etc.
+Par défaut, un modèle est fourni pour chaque canal installé : publipostage direct, e-mail, fax, téléphone, canal mobile (SMS), Facebook, X (anciennement Twitter), etc.
 
 >[!NOTE]
 >
