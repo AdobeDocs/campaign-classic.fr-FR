@@ -9,18 +9,18 @@ content-type: reference
 topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '101'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
-# À propos du marketing sur les réseaux sociaux{#about-social-marketing}
+# À propos du marketing des médias sociaux{#about-social-marketing}
 
-La variable **Gestion des réseaux sociaux** (Social Marketing) est une application conçue pour la gestion des réseaux sociaux qui permet d&#39;interagir avec les clients et les prospects via X (anciennement appelée Twitter).
+L’application **Gestion des réseaux sociaux** (Social Marketing) vous permet d’interagir avec vos clientes et clients et vos prospects via X (anciennement Twitter).
 
-Découvrez les étapes clés pour intégrer Campaign et X dans [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=fr){target="_blank"}.
+Découvrez les principales étapes pour intégrer Campaign à X dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=fr){target="_blank"}.
 
-En tant que client on-premise ou hybride, votre compte externe X doit être configuré et activé. Pour les configurations hybrides, l’onglet **Mid-sourcing** doit également être défini avec une connexion active à la plateforme de mid-sourcing.
+En tant que client ou cliente On-Premise ou hybride, votre compte externe X doit être configuré et activé. Pour les configurations hybrides, l’onglet **Midsourcing** doit également être défini avec une connexion active à la plateforme de midsourcing.
 
 ![](assets/tw-external-account.png)
