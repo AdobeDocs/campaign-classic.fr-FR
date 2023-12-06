@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: e6a2986e5355b32164386e1f6d64f52dc6977632
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ Après l&#39;envoi de cette demande, Adobe effectue l&#39;approvisionnement de l
 >
 >Si vous utilisez le domaine demdex et que vous suivez la syntaxe **ftp-out.demdex.com** pour le compte externe d&#39;import et **ftp-in.demdex.com** pour le compte externe d&#39;export, vous devez adapter votre implémentation en conséquence et passer au connecteur Amazon Simple Storage Service (S3) pour importer ou exporter des données. Pour plus d&#39;informations sur la configuration de vos comptes externes avec Amazon S3, consultez cette [section](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign).
 
-Le diagramme suivant décrit le fonctionnement de cette intégration. Ici, AAM signifie Adobe Audience Manager et AC, Adobe Campaign.
+Le diagramme suivant décrit le fonctionnement de cette intégration. Ici, AAM signifie Adobe Audience Manager, et AC Adobe Campaign.
 
 ![](assets/aam_diagram.png){align="center"}
 
-## Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign   {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+## Étape 1 : configuration ou vérification des comptes externes dans Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 Nous devons tout d&#39;abord configurer ou vérifier les comptes externes d&#39;Adobe Campaign en procédant comme suit :
 
@@ -90,7 +90,7 @@ Pour configurer la source de données **[!UICONTROL Destinataires - Id Visiteur]
 
 Pour la configuration de l&#39;intégration avec People Core service ou Audience Manager, il faut également configurer le serveur de tracking Campaign.
 
-Pour permettre aux audiences partagées de fonctionner avec l’identifiant visiteur, le domaine du serveur de suivi doit être un sous-domaine de l’URL sur laquelle l’utilisateur a cliqué ou du site web principal.
+Pour permettre aux audiences partagées de fonctionner avec l’identifiant du visiteur ou de la visiteuse, le domaine du serveur de suivi doit être un sous-domaine de l’URL sur laquelle l’utilisateur ou l’utilisatrice a cliqué ou du site web principal.
 
 >[!IMPORTANT]
 >
@@ -98,8 +98,8 @@ Pour permettre aux audiences partagées de fonctionner avec l’identifiant visi
 
 ## Étape 4 : Configuration du service d&#39;identification des visiteurs {#step-4--configure-the-visitor-id-service}
 
-Si le service d&#39;identification des visiteurs (Visitor ID) n&#39;a jamais été configuré dans vos propriétés/sites web, reportez-vous à ce [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=fr) ou cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two) pour découvrir comment configurer ce service.
+Si le service d’identification des visiteurs et des visiteuses (Visitor ID) n’a jamais été configuré dans vos propriétés/sites web, reportez-vous à ce [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=fr) ou cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two) pour découvrir comment configurer ce service.
 
-Synchroniser les identifiants de client avec l’identifiant déclaré à l’aide de la variable `setCustomerID` dans le service d’ID Experience Cloud avec le code d’intégration : `AdobeCampaignID`. La variable `AdobeCampaignID` doit correspondre à la valeur de la clé de réconciliation définie dans la source de données du destinataire configurée dans [Étape 2 : configuration des sources de données](#step-2--configure-the-data-sources).
+Synchronisez les identifiants des clientes et clients avec l’identifiant déclaré à l’aide de la fonction `setCustomerID` dans le service d’ID Experience Cloud avec le code d’intégration : `AdobeCampaignID`. L’`AdobeCampaignID` doit correspondre à la valeur de la clé de réconciliation définie dans la source de données destinataire configurée dans [Étape 2 : configuration des sources de données](#step-2--configure-the-data-sources).
 
-La configuration et la mise en service sont terminées. L&#39;intégration peut être maintenant utilisée pour importer et exporter des audiences ou des segments.
+La configuration et la mise en service sont terminées. L’intégration peut être maintenant utilisée pour importer et exporter des audiences ou des segments.
