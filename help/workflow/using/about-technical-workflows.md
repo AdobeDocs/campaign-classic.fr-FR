@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1726'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 |------|--------|-----------|
 | **Gestion des alias** (aliasCleansing) | Diffusion | Ce workflow réalise l’uniformisation des valeurs des énumérations. Par défaut, il se déclenche tous les jours à 3h00. |
 | **Facturation** (billing) | Diffusion | Ce workflow transmet par email le rapport d&#39;activité du système à l&#39;opérateur &#39;billing&#39;. Il est déclenché le 25 de chaque mois sur l&#39;instance Marketing. |
-| **Calcul des statistiques Twitter** (statsTwitter) | Réseaux sociaux (Social Marketing)   - Campaign v7 uniquement | Ce workflow calcule les statistiques liées aux retweets et aux visites sur X (anciennement appelé Twitter). |
+| **Calcul des statistiques Twitter** (statsTwitter) | Réseaux sociaux (Social Marketing)   - Campaign v7 uniquement | Ce workflow calcule les statistiques liées aux republications et aux visites sur X (anciennement Twitter). |
 | **Traitements sur les opérations** (operationMgt) | Campagnes marketing (Campaign) | Ce workflow gère les traitements sur les opérations marketing (démarrage du ciblage, extraction des fichiers, etc.). Il crée également les workflows relatifs aux opérations récurrentes et périodiques. |
 | **Collecter les données pour le service Carte thermique** (collectDataHeatMapService) | Installé par défaut | Ce workflow récupère les données requises par le service Carte thermique. |
 | **Collecter les demandes d&#39;accès à des informations personnelles** (collectPrivacyRequests) | Règlement sur la protection des informations personnelles | Ce workflow génère les données du destinataire stockées dans Adobe Campaign et les met à disposition sur l’écran de la demande d’accès. |
@@ -75,7 +75,7 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 | **Stock : commandes et alertes** (stockMgt) | Campagnes marketing (Campaign) | Ce workflow lance le calcul des stocks sur les lignes de commande et gère les seuils d&#39;alerte. |
 | **Synchronisation des fans Facebook** (syncFacebookFans) | Réseaux sociaux (Social Marketing)   - Campaign v7 uniquement | Ce workflow importe les fans Facebook dans Adobe Campaign tous les jours à 7H00. |
 | **Synchronisation des pages Facebook** (syncFacebook) | Réseaux sociaux (Social Marketing)   - Campaign v7 uniquement | Ce workflow synchronise les pages Facebook avec Adobe Campaign tous les jours à 7H00. |
-| **Synchronisation des pages Twitter** (syncTwitter) | Réseaux sociaux (Social Marketing)   - Campaign v7 uniquement | Ce workflow importe X abonnés dans Adobe Campaign tous les jours à 7H00. |
+| **Synchronisation des pages Twitter** (syncTwitter) | Réseaux sociaux (Social Marketing)   - Campaign v7 uniquement | Ce workflow importe les personnes abonnées X dans Adobe Campaign tous les jours à 7h00. |
 | **Notification des tâches** (taskMgt) | Ressources marketing (MRM)   - Campaign v7 uniquement | Ce workflow permet d&#39;envoyer les messages de notification relatifs aux tâches dans les opérations marketing. |
 | **Tracking** (tracking)) | Diffusion | Ce workflow réalise la récupération et la consolidation des informations de tracking. Il assure également le re-calcul des statistiques de tracking et de diffusions, notamment celles utilisées par les workflows d&#39;archivage de Message Center. Par défaut, il se déclenche toutes les heures. |
 | **Mise à jour du statut des événements** (updateEventsStatus) | Exécution des messages transactionnels (Message Center - Exécution) | Ce workflow permet d&#39;attribuer un statut à l&#39;événement. Les statuts d&#39;un événement sont les suivants :<ul><li>En attente : l&#39;événement se trouve dans la file d&#39;attente. Aucun modèle de message ne lui a encore été associé.</li><li>En attente de diffusion : l&#39;événement est dans la file d&#39;attente, un modèle de message lui a été associé et il est en cours de traitement par la diffusion.</li><li>Envoyé : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été envoyée.</li><li>Ignoré par la diffusion : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été ignorée.</li><li>Erreur de diffusion : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a échoué.</li><li>Evénement non pris en charge : l&#39;association de l&#39;événement à un modèle de message a échoué. L&#39;événement ne sera pas retraité.</li></ul> |
