@@ -8,9 +8,9 @@ feature: Subscriptions
 role: User
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -22,4 +22,4 @@ Vous pouvez également permettre aux destinataires de vos diffusions de les part
 
 >[!NOTE]
 >
->Cette fonctionnalité est fournie en standard avec Adobe Campaign. L’application facultative Social Marketing vous permet de contacter vos clients et prospects par le biais de Facebook et X (anciennement appelée Twitter).
+>Cette fonctionnalité est fournie par défaut avec Adobe Campaign. L’application facultative Social Marketing vous permet de contacter votre clientèle et vos prospects par le biais de Facebook et X (anciennement Twitter).
