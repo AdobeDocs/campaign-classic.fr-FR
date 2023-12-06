@@ -7,9 +7,9 @@ badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Class
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 Adobe Campaign permet de mettre en place les outils favorisant le marketing viral.
 
-Cela permet aux destinataires de la diffusion ou aux visiteurs du site web de partager des informations avec leur réseau : de l&#39;ajout d&#39;un lien vers leur profil Facebook ou X (anciennement appelé Twitter) à l&#39;envoi d&#39;un message à un ami.
+Vous pouvez ainsi permettre aux personnes destinataires de vos diffusions, ou encore aux personnes qui consultent votre site web, de partager l’information avec leur réseau : elles peuvent ainsi ajouter le lien à leur profil Facebook ou X (anciennement Twitter) ou envoyer un message à une connaissance.
 
 ![](assets/s_ncs_user_viral_icons.png)
 
