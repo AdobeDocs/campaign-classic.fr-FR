@@ -8,9 +8,9 @@ feature: Delivery Templates
 role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Ces mappings sont les suivants :
 | Nom | Utilisation | Schéma standard |
 |---|---|---|
 | Destinataires | Diffuser aux destinataires de la base Adobe Campaign | nms:recipient |
-| Visiteurs | Diffuser aux visiteurs dont les profils ont été collectés par exemple via un parrainage (marketing viral) ou via les réseaux sociaux (Facebook, X - anciennement connu sous le nom de Twitter). | mns:visitor |
+| Visiteurs | Diffuser aux visiteurs et visiteuses dont les profils ont été collectés, par exemple via un parrainage (marketing viral), via les réseaux sociaux (Facebook, X, anciennement Twitter), etc. | mns:visitor |
 | Abonnements  | Diffuser aux destinataires abonnés à un service d&#39;information, par exemple une newsletter | nms:subscription |
 | Abonnements des visiteurs | Diffuser à des visiteurs abonnés à un service d&#39;information | nms:visitorSub |
 | Service | Publier sur un compte X ou une page Facebook | nms:service |
