@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 source-git-commit: e808e71ccf949bdaf735cdb2895389f03638bd71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1224'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Pour ce faire, les fichiers .eml correspondant aux emails envoyés sont transfé
 * Pour les **installations On-premise**, suivez les instructions d&#39;activation ci-dessous : voir les sections [Activer les emails Cci (On-premise)](#activating-email-archiving--on-premise-) et [Configuration de l&#39;adresse email en Cci (on-premise)](#configuring-the-bcc-email-address--on-premise-).
 * Vous ne pouvez utiliser qu&#39;une seule adresse email en Cci.
 * Une fois que la fonctionnalité Email Cci est configurée, assurez-vous qu&#39;elle est activée dans le modèle de diffusion ou dans la diffusion via l&#39;option **[!UICONTROL Email Cci]**. Voir à ce propos [cette section](../../delivery/using/sending-messages.md#archiving-emails).
-* Seuls les emails envoyés sont pris en compte, les retours ne le sont pas.
+* Seuls les e-mails envoyés sont pris en compte, les rebonds ne le sont pas.
 * Le système d&#39;archivage des emails a été modifié avec Adobe Campaign 17.2 (build 8795). Si vous utilisiez déjà l&#39;archivage des emails, vous devez effectuer une mise à niveau manuelle vers le nouveau système d&#39;Email Cci. Pour plus d’informations, consultez la section [Déplacement vers le nouvel Email Cci](#updated-email-archiving-system--bcc-).
 
 ## Activer Email Cci (On-premise) {#activating-email-archiving--on-premise-}
@@ -54,7 +54,7 @@ Le chemin du dossier local doit être spécifié dans le fichier **config-`<inst
 
 >[!NOTE]
 >
->Les équipes en charge de l&#39;implémentation doivent s&#39;assurer que les conditions de sécurité permettent l&#39;accès au dossier défini via les paramètres **dataLogPath**.
+>Les équipes en charge de l’implémentation doivent s’assurer que les conditions de sécurité permettent l’accès au dossier défini via les paramètres **dataLogPath**.
 
 Le chemin complet est comme suit : **`<datalogpath>  YYYY-MM-DDHHh`**. La date et l&#39;heure sont paramétrées par rapport à l&#39;heure locale du serveur qui lance le MTA. Par exemple :
 
@@ -72,7 +72,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 >
 >Dans une instance mid-sourcing, le dossier des emails en Cci se trouve sur le serveur de mid-sourcing.
 >
->Les deliveryID et broadlogID sont ceux du serveur de mid-sourcing lorsque le statut des emails n&#39;est pas envoyé. Une fois que l’état a été remplacé par **[!UICONTROL Envoyé]**, ces identifiants proviennent du serveur marketing.
+>Les deliveryID et broadlogID sont ceux du serveur de midsourcing lorsque le statut des e-mails n’est pas envoyé. Une fois que le statut a été remplacé par **[!UICONTROL Envoyé]**, ces identifiants proviennent du serveur marketing.
 
 ### Paramètres {#parameters}
 
@@ -93,20 +93,20 @@ Une fois le chemin d’accès au dossier local défini, ajoutez et modifiez les 
 * **compressBatchSize** : nombre de fichiers .eml ajoutés à une archive (fichier .zip).
 
 
-* **archivingType**: stratégie d’archivage à utiliser. La seule valeur possible est **1**. Les copies brutes des emails envoyés sont enregistrées au format .eml dans **dataLogPath** et ils sont envoyés à l’adresse email en Cci via SMTP. Une fois que les copies d’email sont envoyées à l’adresse Cci, le nom du fichier d’archive devient **`<deliveryid>-<broadlogid>-sent-archived.eml`** et le fichier est déplacé dans le dossier **dataLogPath/archives**. Le chemin d’accès au fichier de l’email envoyé et archivé Cci est alors **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
+* **archivingType** : stratégie d’archivage à utiliser. La seule valeur possible est **1**. Les copies brutes des e-mails sont enregistrées au format .eml dans le dossier **dataLogPath** et sont envoyées à l’adresse e-mail Cci via SMTP. Une fois que les copies d’e-mail sont envoyées à l’adresse Cci, le nom du fichier d’archive devient **`<deliveryid>-<broadlogid>-sent-archived.eml`** et le fichier est déplacé dans le dossier **dataLogPath/archives**. Le chemin d’accès au fichier de l’email envoyé et archivé Cci est alors **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
 
   <!--
   **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.-->
 
-* **expirationDelay**: nombre de jours pendant lesquels les fichiers .eml sont conservés pour archivage. Après ce délai, ils sont automatiquement déplacés vers le **dataLogPath/archives** dossier de compression. Par défaut, les fichiers .eml expirent après deux jours.
+* **expirationDelay** : nombre de jours pendant lesquels les fichiers .eml sont conservés pour archivage. Après ce délai, ils sont automatiquement déplacés vers le dossier **dataLogPath/archives** en vue de leur compression. Par défaut, les fichiers .eml expirent après deux jours.
 * **purgeArchivesDelay** : nombre de jours pendant lesquels les archives sont conservées dans le dossier **dataLogPath/`<archives>`**. Après cette période, ils sont définitivement supprimés. La purge commence lorsque le MTA est lancé. Par défaut, elle est exécutée tous les sept jours.
-* **pollDelay** : fréquence de vérification (en secondes) des nouveaux emails envoyés entrant dans le dossier **dataLogPath**. Par exemple, si ce paramètre est défini sur 60, cela signifie que chaque minute, le processus d’archivage passe par les fichiers .eml dans les dossiers **dataLogPath/`<date and time>`** , applique une purge si nécessaire et envoie des copies d’emails à l’adresse Cci et/ou compresse les fichiers archivés au besoin.
-* **acquireLimit**: nombre de fichiers .eml traités à la fois avant que le processus d’archivage ne soit à nouveau appliqué, en fonction des **pollDelay** . Par exemple, si vous définissez la variable **acquireLimit** à 100 lorsque la variable **pollDelay** est défini sur 60, 100 fichiers .eml seront traités par minute.
-* **smtpNbConnection** : nombre de connexions SMTP à l&#39;adresse email en Cci.
+* **pollDelay** : fréquence de vérification (en secondes) des nouveaux e-mails envoyés entrant dans le dossier **dataLogPath**. Par exemple, si ce paramètre est défini sur 60, cela signifie que chaque minute, le processus d’archivage passe par les fichiers .eml dans les dossiers **dataLogPath/`<date and time>`**, applique une purge si nécessaire et envoie des copies d’e-mails à l’adresse Cci et/ou compresse les fichiers archivés au besoin.
+* **acquireLimit** : nombre de fichiers .eml traités à la fois avant que le processus d’archivage ne soit à nouveau appliqué, en fonction du paramètre **pollDelay**. Par exemple, si vous définissez le paramètre **acquireLimit** sur 100 et le paramètre **pollDelay** sur 60, 100 fichiers .eml seront traités par minute.
+* **smtpNbConnection** : nombre de connexions SMTP à l’adresse e-mail en Cci.
 
-Veillez à ajuster ces paramètres en fonction du débit d&#39;envoi des emails. Par exemple, dans une configuration où le MTA envoie 30 000 emails par heure, vous pouvez définir la variable **pollDelay** sur 600, la variable **acquireLimit** sur 5000 et la variable **smtpNbConnection** sur 2. Cela signifie que, grâce à 2 connexions SMTP, 5 000 emails seront envoyés à l&#39;adresse Cci toutes les 10 minutes.
+Veillez à ajuster ces paramètres en fonction du débit d’envoi des e-mails. Par exemple, dans une configuration où le MTA envoie 30 000 e-mails par heure, vous pouvez définir les paramètres **pollDelay** sur 600, **acquireLimit** sur 5 000 et **smtpNbConnection** sur 2. 5 000 e-mails seront alors envoyés à l’adresse Cci toutes les 10 minutes via 2 connexions SMTP.
 
-## Configuration de l&#39;adresse email en Cci (on-premise) {#configuring-the-bcc-email-address--on-premise-}
+## Configurer l’adresse e-mail en Cci (on-premise) {#configuring-the-bcc-email-address--on-premise-}
 
 [!BADGE On-premise et hybride]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"}
 
@@ -156,7 +156,7 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 * **Mise en pool du MTA** : la fonctionnalité d’archivage en Cci fonctionne au niveau du MTA. Elle permet de dupliquer chaque e-mail envoyé par le MTA. Le MTA pouvant être mis en pool à travers plusieurs instances (par exemple de développement, de test ou de production), voire entre plusieurs clients (dans un environnement mid-sourcing), l’utilisation de cette fonctionnalité a une incidence sur la sécurité :
 
    * Si vous partagez un MTA avec plusieurs clients et que l&#39;un d&#39;eux active cette option, il aura accès à la totalité des emails provenant des autres clients utilisant le même MTA. Afin d&#39;éviter une telle situation, utilisez un MTA différent pour chaque client.
-   * Si vous utilisez le même MTA entre plusieurs instances (développement, test, production) d&#39;un même client, les messages envoyés depuis ces trois instances combinées seront dupliqués par l&#39;option dataLogPath.
+   * Si vous utilisez le même MTA entre plusieurs instances (développement, test, production) d’un même client, les messages envoyés depuis ces trois instances combinées seront dupliqués par l’option dataLogPath.
 
 * **Emails par connexion** : l’archivage des emails en Cci fonctionne en ouvrant une connexion et en essayant d’envoyer tous les emails via cette connexion. Adobe recommande de vérifier avec votre contact technique le nombre d’emails acceptés sur une connexion donnée. L’augmentation de ce nombre peut avoir un grand impact sur le débit Cci.
 * **IP d’envoi en Cci** : actuellement, les emails en Cci ne sont pas envoyés par les proxys MTA normaux. En revanche, une connexion directe est ouverte du serveur MTA au serveur de messagerie de destination. Cela signifie que vous devrez peut-être ajouter des adresses IP supplémentaires à la liste autorisée de votre réseau, en fonction de la configuration de votre serveur de messagerie.
