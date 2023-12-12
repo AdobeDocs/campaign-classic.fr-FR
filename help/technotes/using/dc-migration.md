@@ -10,9 +10,9 @@ solution: Campaign
 version: Classic v7
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
 source-git-commit: 87a27eb96fe9fbcb68a5e961b95cb4588eee85e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1540'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Ce programme a trois objectifs principaux : 
 
 * Combler les vulnérabilités de sécurité identifiées en transférant l’infrastructure vers un environnement sécurisé et moderne (AWS).
 * Éliminer les processus d’extension potentiellement fastidieux, assurer l’accès à nos [agents MTA enrichis](../../delivery/using//sending-with-enhanced-mta.md) et améliorer l’ensemble des niveaux de service de maintenance.
-* Préparez votre instance pour le futur de Adobe Campaign Classic, y compris des mises à niveau plus automatisées et régulières qui ne nécessiteront pas autant de ressources, ni autant de temps.
+* Préparez votre instance pour la version future d’Adobe Campaign Classic, notamment des mises à niveau plus régulières et automatisées qui nécessiteront moins de ressources et de temps.
 
 ### Glossaire
 
@@ -81,7 +81,7 @@ Ce programme a trois objectifs principaux : 
 
 À cet effet, les comptes nécessitant cette migration recevront un email de la part d’Adobe avec un calendrier et un accès à la documentation. Cette notification indiquera que la migration de votre compte est planifiée.
 
-Il est possible de déclencher une migration en [ouvrant un nouveau ticket de support auprès de l’Assistance clientèle](https://experienceleague.adobe.com/?support-solution=Campaign#support). Utilisez l’objet &quot;Migrer vers AWS&quot;.
+Il est possible de déclencher une migration en [ouvrant un nouveau ticket de support auprès de l’Assistance clientèle](https://experienceleague.adobe.com/?support-solution=Campaign#support). Utilisez la ligne d’objet « Migration vers AWS ».
 
 ### Cette migration est-elle obligatoire ?
 
@@ -123,7 +123,7 @@ Adobe gère l’essentiel des actions. Nous avons besoin de vous pour la validat
 
 **Base de données**
 
-La base de données sera extraite de l’ancien centre de données, puis restaurée dans le cloud public (AWS). Une fois redémarrée dans le nouveau centre de données, l’application reprendra à partir de l’état exact antérieur à l’arrêt. Les utilisateurs ne verront aucune différence, sauf que certaines tâches planifiées auront été retardées.
+La base de données sera extraite de l’ancien centre de données, puis restaurée dans le cloud public (AWS). Une fois redémarrée dans le nouveau centre de données, l’application reprendra à partir de l’état exact antérieur à l’arrêt. Les utilisateurs et les utilisatrices ne verront aucune différence, à l’exception du report de certaines tâches planifiées.
 
 **Adresses IP servant à l’envoi d’e-mails**
 
@@ -142,7 +142,7 @@ En général, le client doit vérifier les éventuelles restrictions d’adresse
 
 **Serveurs Campaign**
 
-Les serveurs Campaign existants (en fait, les conteneurs) seront déplacés vers le cloud public (AWS) selon une approche &quot;d’effet élévateur et de changement&quot;. En d’autres termes, l’ensemble du serveur sera transféré vers le nouveau centre de données et aucune installation nouvelle ne sera nécessaire. L’opération ne nécessitera pas plus de travail qu’une reconfiguration technique de bas niveau.
+Les serveurs Campaign existants (les conteneurs) seront déplacés vers le cloud public (AWS) selon une approche « lift-and-shift » (migration sans refonte). En d’autres termes, l’ensemble du serveur sera transféré vers le nouveau centre de données et aucune installation nouvelle ne sera nécessaire. L’opération ne nécessitera pas plus de travail qu’une reconfiguration technique de bas niveau.
 
 **Noms de serveur**
 
@@ -159,7 +159,7 @@ Cela signifie que le changement sera transparent pour les utilisateurs et les im
 
 **Adresses IP servant à l’envoi d’e-mails**
 
-Tout d&#39;abord, la délivrabilité des Adobes évaluera l&#39;état de délivrabilité de la plateforme et recommandera un plan pour passer aux nouvelles adresses IP.
+Tout d’abord, l’équipe chargée de la délivrabilité d’Adobe évaluera le statut de la plateforme concernant la délivrabilité et recommandera un plan de basculement vers les nouvelles adresses IP.
 
 Adobe attribuera le même nombre d’adresses IP au nouveau centre de données.
 
@@ -183,7 +183,7 @@ Suggestions :
 
 **Pause des exécutions**
 
-Nous recommandons de ralentir voire idéalement de suspendre l’exécution des diffusions et des workflows juste avant l’arrêt de l’application sur l’ancien centre de données. Cela permettra de faciliter le redémarrage sur le cloud public (AWS), car les processus auront eu le temps de s’interrompre de manière &quot;élégante&quot; et d’enregistrer tout état d’exécution en cours.
+Nous recommandons de ralentir voire idéalement de suspendre l’exécution des diffusions et des workflows juste avant l’arrêt de l’application sur l’ancien centre de données. Il sera ainsi plus facile de redémarrer les activités sur le cloud public (AWS), car les processus auront eu le temps nécessaire pour s’interrompre de manière « élégante » et enregistrer l’état d’exécution en cours.
 
 **Pendant la migration**
 
