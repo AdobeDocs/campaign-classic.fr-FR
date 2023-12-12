@@ -5,7 +5,7 @@ description: Découvrez comment mettre à jour le nouveau serveur de délivrabil
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: eea3657f1cffa215e1fc1cb1eb8782b83321aae4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1300'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaig
 
 >[!AVAILABILITY]
 >
-> JWT (JSON Web Tokens) est actuellement en voie de devenir obsolète et sera remplacé par OAuth. La transition s’effectuera progressivement dans les prochaines versions de Campaign et la documentation sera actualisée pour refléter ces mises à jour.
+> JWT (JSON Web Tokens) est actuellement en voie de devenir obsolète et sera remplacé par OAuth. La transition sera progressivement effectuée dans les prochaines versions de Campaign et la documentation sera modifiée pour refléter ces mises à jour.
 
 ### Conditions préalables{#prerequisites}
 
