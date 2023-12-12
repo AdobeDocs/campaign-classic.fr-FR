@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: cc6d85bcf822ba9be99e39cf459a5aa20cc2d4fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3671'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 
 ### Décembre 2023 {#dec-2023}
 
-JWT (JSON Web Tokens) est actuellement en cours d’obsolescence et est remplacé par OAuth. La transition sera progressivement effectuée dans les prochaines versions de Campaign et la documentation sera modifiée pour refléter ces mises à jour.
+JWT (JSON Web Tokens) est actuellement en voie de devenir obsolète et sera remplacé par OAuth. La transition sera progressivement effectuée dans les prochaines versions de Campaign et la documentation sera modifiée pour refléter ces mises à jour.
 
-Ajout de la configuration du compte externe FDA pour Amazon Redshift. [En savoir plus](../../installation/using/configure-fda-redshift.md)
+Ajout de la configuration du compte externe FDA pour Amazon Redshift. [En savoir plus](../../installation/using/configure-fda-redshift.md)
 
 ### Août 2023 {#aug-2023}
 
@@ -203,7 +203,7 @@ Une nouvelle note technique a été créée concernant le problème de signature
 
 Une nouvelle section a été consacrée à la manière d&#39;utiliser les sources et destinations Adobe Experience Platform pour partager des données entre Campaign Classic et Real-time Customer Data Platform (RTCDP). [En savoir plus](../../integrations/using/get-started-sources-destinations.md)
 
-Une nouvelle note technique a été créée pour apprendre à mettre à jour la qualification des bounces après une panne de FAI. [En savoir plus](../../delivery/using/update-bounce-qualification.md)
+Une nouvelle note technique a été créée pour apprendre à mettre à jour la qualification des rebonds après une panne de FAI. [En savoir plus](../../delivery/using/update-bounce-qualification.md)
 
 ## Mars 2021 {#march-2021}
 
@@ -478,7 +478,7 @@ La section décrivant le modèle de données intégré d’Adobe Campaign a ét
 
 Les cas d’utilisation des workflows ont été mis à jour et réorganisés en sections thématiques. [En savoir plus](../../workflow/using/about-workflow-use-cases.md)
 
-Les sections [Qualification des emails bounce](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)et [Règles de gestion des emails](../../delivery/using/understanding-delivery-failures.md#email-management-rules) ont été mises à jour pour les améliorer.
+Les sections [Qualification des e-mails rejetés](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)et [Règles de gestion des e-mails](../../delivery/using/understanding-delivery-failures.md#email-management-rules) ont été mises à jour pour les améliorer.
 
 L’article sur le MTA amélioré d’Adobe Campaign a été mis à jour. Il ne s’applique désormais qu’à Campaign Classic. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html)
 
