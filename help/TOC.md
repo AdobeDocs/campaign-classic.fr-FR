@@ -7,9 +7,9 @@ user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: c2ac8fcf1d9746dbddffc90491a6f214e2c3df2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2544'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 99%
    + Confidentialité {#privacy}
       + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
       + [Gestion de la confidentialité](platform/using/privacy-management.md)
-      + Demandes d&#39;accès à des informations personnelles {#privacy-requests}
+      + Demandes d’accès à des informations personnelles {#privacy-requests}
          + [À propos des demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
          + [Créer et gérer les demandes d’accès à des informations personnelles](platform/using/privacy-requests-ui.md)
          + [Processus automatique de demande d&#39;accès à des informations personnelles](platform/using/privacy-requests-api.md)
@@ -472,7 +472,7 @@ ht-degree: 99%
          + [Chargement du contenu de la diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Surveillance {#monitoring}
+      + Surveillance {#monitoring}
          + [Envoi d’un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Supervision de vos workflows](workflow/using/supervising-workflows.md)
          + [Envoi d’alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -820,7 +820,7 @@ ht-degree: 99%
    + [Procédure de restauration](migration/using/about-rollback.md)
 + Notes techniques {#technotes}
    + [Recommandations relatives au dimensionnement du matériel](technotes/using/hardware-sizing.md)
-   + Mise à niveau vers IMS{#ims}
+   + Mettre à niveau vers IMS{#ims}
       + [Migrer les utilisateurs et utilisatrices vers IMS](technotes/using/migrate-users-to-ims.md)
       + [Migrer un opérateur ou une opératrice technique vers Developer Console](technotes/using/ims-migration.md)
    + Mises à niveau et compatibilité {#technote-migration}
@@ -833,8 +833,8 @@ ht-degree: 99%
       + [Fin de vie de la prise en charge du protocole TLS 1.0 et 1.1](technotes/using/eol-tls-support.md)
    + E-mails et notifications push{#technotes-email}
       + [Protection de la confidentialité des e-mails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
-      + [Mise à jour des erreurs hard incorrectes](delivery/using/update-bounce-qualification.md)
-      + [Mettre à jour les erreurs hard incorrectes après une panne d’un FAI](delivery/using/update-bounces.md)
+      + [Mise à jour des rebonds définitifs incorrects](delivery/using/update-bounce-qualification.md)
+      + [Mettre à jour les rebonds définitifs incorrects après une panne d’un FAI](delivery/using/update-bounces.md)
       + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
       + [Mise à jour des URL suivies](technotes/using/tracked-urls.md)
    + Migration vers Adobe Managed Services{#dc-migration}
