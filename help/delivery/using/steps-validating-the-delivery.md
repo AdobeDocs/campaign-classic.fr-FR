@@ -8,9 +8,9 @@ feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1806'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Cet onglet permet d&#39;accéder aux options suivantes :
 * **[!UICONTROL Préparer les données de personnalisation avec un workflow]** : cette option permet de préparer, dans un workflow automatique, les données de personnalisation contenues dans la diffusion, ce qui permet d’augmenter considérablement les performances d’exécution de la personnalisation. Pour plus d’informations à ce sujet, voir la section [Optimiser la personnalisation](personalization-fields.md#optimizing-personalization).
 * **[!UICONTROL Lancer le traitement dans un processus détaché]** : cette option permet de lancer l’analyse de la diffusion dans un processus à part. Par défaut, la fonction d’analyse utilise le processus du serveur applicatif d’Adobe Campaign (nlserver web). En cochant cette option, vous êtes assuré que l’analyse sera menée à son terme, même en cas de défaillance du serveur applicatif.
 * **[!UICONTROL Enregistrer les requêtes SQL générées pendant l’analyse dans le journal]** : cette option permet d&#39;ajouter les logs des requêtes SQL dans le journal de la diffusion lors de la phase d’analyse.
-* **[!UICONTROL Ignorer les scripts de personnalisation lors de l’envoi]** : cette option permet de ne pas interpréter les directives JavaScript présentes dans le contenu du HTML. Ils s’affichent tels quels dans le contenu diffusé. Ces directives sont introduites avec la méthode **&lt;%=** ).
+* **[!UICONTROL Ignorer les scripts de personnalisation lors de l’envoi]** : cette option permet de ne pas interpréter les directives JavaScript présentes dans le contenu HTML. Elles seront affichées telles quelles dans le contenu diffusé. Ces directives sont introduites par la balise **&lt;%=**).
 
 ### Améliorer les performances des analyses de diffusions {#improving-delivery-analysis}
 
@@ -173,11 +173,11 @@ Les options disponibles sont les suivantes :
 * La première option permet de conserver les doublons du BAT.
 * Les deux options ci-dessous permettent de conserver les destinataires qui se trouvent sur la liste bloquée et les adresses en quarantaine. Voir la description de ces options pour la cible principale dans la section [Personnaliser les paramètres d’exclusion](steps-defining-the-target-population.md#customizing-exclusion-settings). Contrairement à la cible d’une diffusion, où ces adresses sont exclues par défaut, elles sont conservées par défaut pour la cible d’un BAT.
 * L&#39;option **[!UICONTROL Conserver le code diffusion pour le BAT]** permet d&#39;attribuer au BAT le même code de diffusion que celui défini pour la diffusion à laquelle il correspond : ce code est spécifié dans la première étape de l&#39;assistant de diffusion.
-* Par défaut, le sujet du BAT est précédé du préfixe &#39;Bon à tirer #&#39;, où # est le numéro du BAT. Vous pouvez modifier ce préfixe dans le champ **[!UICONTROL Préfixe de libellé]**.
+* Par défaut, l’objet du BAT est précédé du préfixe « BAT # », où # correspond au numéro du BAT. Vous pouvez modifier ce préfixe dans le champ **[!UICONTROL Préfixe de libellé]**.
 
 ## Processus de validation avec des typologies {#validation-process-with-typologies}
 
-Avant d&#39;envoyer des messages, vous devez analyser la campagne pour en valider le contenu et le paramétrage. Les règles de vérification appliquées lors de la phase d&#39;analyse sont définies dans un **typologie**. Par défaut pour les e-mails, l’analyse exécute les tâches suivantes :
+Avant d’envoyer des messages, vous devez analyser la campagne pour en valider le contenu et le paramétrage. Les règles de vérification appliquées lors de la phase d’analyse sont définies dans une **typologie**. Par défaut pour les e-mails, l’analyse exécute les tâches suivantes :
 
 * validation de l&#39;objet,
 * validation des URL et des images,
@@ -195,21 +195,21 @@ Vous pouvez créer de nouvelles règles et définir de nouvelles typologies depu
 
 Pour plus d’informations sur les règles de typologie, consultez [cette page ](../../campaign-opt/using/about-campaign-typologies.md).
 
-Vous pouvez également éditer la typologie courante en cliquant sur l&#39;icône **[!UICONTROL Editer le lien]** situé à droite du champ **[!UICONTROL Typologie]**.
+Vous pouvez également éditer la typologie courante en cliquant sur l’icône **[!UICONTROL Editer le lien]** situé à droite du champ **[!UICONTROL Typologie]**.
 
 ![](assets/s_ncs_user_email_del_typo_tab.png)
 
-La variable **[!UICONTROL Règle]** donne la liste des règles de typologie à appliquer. Sélectionnez une règle et cliquez sur le bouton **[!UICONTROL Détail...]** pour en visualiser la configuration :
+L’onglet **[!UICONTROL Règle]** donne la liste des règles de typologie à appliquer. Sélectionnez une règle et cliquez sur l’icône **[!UICONTROL Détail...]** pour en afficher la configuration :
 
 ![](assets/s_ncs_user_email_del_typo_rules_edit.png)
 
 >[!NOTE]
 >
->**[!UICONTROL Arbitrage]** les typologies de type sont utilisées dans le cadre de la gestion de la pression commerciale. Pour plus d’informations, consultez [cette section](../../mrm/using/about-marketing-resource-management.md).
+>Les typologies de type **[!UICONTROL Arbitrage]** sont utilisées dans le cadre de la gestion de la pression commerciale. Pour plus d’informations, consultez [cette section](../../mrm/using/about-marketing-resource-management.md).
 
 ## Changer le mode de validation {#changing-the-approval-mode}
 
-La variable **[!UICONTROL Analyse]** pour les propriétés de la diffusion, vous pouvez sélectionner le mode de validation. Si des avertissements sont générés lors de l&#39;analyse (par exemple, si certains caractères sont accentués dans l&#39;objet de la diffusion, etc.), vous pouvez paramétrer la diffusion pour définir si elle doit encore être exécutée ou non. Par défaut, l’utilisateur ou l’utilisatrice doit confirmer l’envoi des messages à la fin de la phase d’analyse : il s’agit d’une validation **manuelle**.
+L’onglet **[!UICONTROL Analyse]** dans les propriétés de la diffusion vous permet de sélectionner le mode de validation. Si l’analyse génère des avertissements, (par exemple, si certains caractères sont accentués dans l’objet de la diffusion, etc.), vous pouvez choisir de continuer son exécution ou non dans les paramètres de la diffusion. Par défaut, l’utilisateur ou l’utilisatrice doit confirmer l’envoi des messages à la fin de la phase d’analyse : il s’agit d’une validation **manuelle**.
 
 Vous pouvez choisir un autre mode de validation dans la liste déroulante du champ correspondant.
 
