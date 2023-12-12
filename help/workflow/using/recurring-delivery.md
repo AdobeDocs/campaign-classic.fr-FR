@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ Pour cela :
 
 1. Paramétrez le modèle de diffusion.
 
-Le paramétrage de cette activité est similaire à celui de la création d&#39;un modèle de diffusion au niveau des options disponibles. Pour plus d’informations à ce sujet, consultez cette [section](../../delivery/using/about-templates.md).
+Le paramétrage de cette activité est semblable à la création d’un modèle de diffusion au niveau des options disponibles. Pour plus d’informations à ce sujet, consultez cette [section](../../delivery/using/about-templates.md).
 
 >[!CAUTION]
 >
->Les diffusions récurrentes ne prennent pas en charge la prévisualisation du contenu ou l’envoi de BAT, y compris [données de la cible](../../workflow/using/data-life-cycle.md#target-data) éléments de personnalisation.
+>Les diffusions récurrentes ne prennent pas en charge la prévisualisation du contenu ou l’envoi de BAT, y compris les éléments de personnalisation des [données de la cible](../../workflow/using/data-life-cycle.md#target-data).
 
 Un exemple d&#39;utilisation de cette activité est proposé dans cette [section](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
