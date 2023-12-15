@@ -6,10 +6,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Technote, Upgrade
 role: User
 level: Beginner
-solution: Campaign
-version: Classic v7
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-source-git-commit: 87a27eb96fe9fbcb68a5e961b95cb4588eee85e3
+source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
 workflow-type: ht
 source-wordcount: '1540'
 ht-degree: 100%
