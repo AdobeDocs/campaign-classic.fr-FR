@@ -6,22 +6,16 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '745'
-ht-degree: 100%
+source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
+workflow-type: tm+mt
+source-wordcount: '708'
+ht-degree: 92%
 
 ---
 
 # Étapes de configuration pour iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
-
-
 Une fois le package installé, vous pouvez définir les paramètres de votre application iOS dans Adobe Campaign Classic.
-
->[!NOTE]
->
->Pour savoir comment configurer votre application pour Android et comment créer une diffusion pour Android, reportez-vous à cette [section](configuring-the-mobile-application-android.md).
 
 Les étapes clés sont les suivantes :
 
@@ -30,7 +24,6 @@ Les étapes clés sont les suivantes :
 1. [Intégration de l&#39;application mobile iOS dans Campaign](#creating-ios-app)
 
 Vous pourrez ensuite [créer une notification push pour les appareils iOS](create-notifications-ios.md).
-
 
 ## Configuration du compte externe iOS {#configuring-external-account-ios}
 
@@ -65,7 +58,7 @@ Votre connecteur iOS est maintenant paramétré. Vous pouvez créer votre servic
 
    >[!NOTE]
    >
-   >Le mapping de ciblage par défaut **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** est lié à la table des destinataires. Si vous souhaitez utiliser un autre mapping de ciblage, vous devez créer un nouveau mapping de ciblage et le renseigner dans le champ **[!UICONTROL Mapping de ciblage]** du service. La création d&#39;un mapping de ciblage est présentée dans le [Guide de configuration](../../configuration/using/about-custom-recipient-table.md).
+   >Par défaut **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** le mapping de ciblage est lié à la table des destinataires. Si vous souhaitez utiliser un autre mapping de ciblage, vous devez créer un nouveau mapping de ciblage et le saisir dans la variable **[!UICONTROL Mapping de ciblage]** du service. Pour plus d&#39;informations sur la création d&#39;un mapping de ciblage, reportez-vous à la section [Guide de configuration](../../configuration/using/about-custom-recipient-table.md).
 
    ![](assets/nmac_ios.png)
 

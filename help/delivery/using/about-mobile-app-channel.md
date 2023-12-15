@@ -7,20 +7,16 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 100%
+source-wordcount: '687'
+ht-degree: 93%
 
 ---
 
 # Prise en main du canal des applications mobiles{#about-mobile-app-channel}
 
-Le (**canal des applications mobiles**) permet d’envoyer des notifications personnalisées depuis la plateforme Adobe Campaign sur des terminaux iOS et Android, via des applications.
-
->[!CAUTION]
->
->Ce document décrit le processus d’intégration de votre application mobile avec la plateforme Adobe Campaign. Il ne donne aucune information ni sur la création de l’application mobile ni sur son paramétrage pour la gestion des notifications. Si vous souhaitez obtenir des informations à ce sujet, reportez-vous aux documentations officielles [Apple](https://developer.apple.com/) et [Android](https://developer.android.com/index.html).
+Le (**canal des applications mobiles**) permet d’envoyer des notifications push personnalisées depuis la plateforme Adobe Campaign sur des terminaux iOS et Android, via des applications.
 
 Deux canaux de diffusions sont disponibles :
 
@@ -32,14 +28,14 @@ Deux canaux de diffusions sont disponibles :
 
   ![](assets/nmac_intro_1.png)
 
-A ces deux canaux correspondent deux activités de diffusion dans les workflows des opérations :
+  >[!IMPORTANT]
+  >
+  >Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et auront une incidence sur votre mise en œuvre d’Adobe Campaign. Il se peut que la configuration de vos services d’abonnement pour les messages push Android doive être mise à jour pour prendre en charge cette modification. Vous pouvez déjà vérifier et agir. En savoir plus à ce sujet [technote d’Adobe Campaign v8](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+
+Les workflows des opérations contiennent deux activités de diffusion correspondant à ces deux canaux. Deux modèles sont également disponibles pour les messages transactionnels.
 
 ![](assets/nmac_intro_3.png)
 
-
->[!NOTE]
->
->Deux modèles sont également disponibles pour les messages transactionnels.
 
 Vous pouvez définir le comportement de l’application lorsque l’utilisateur active la notification afin d’afficher l’écran correspondant au contexte de l’application. Par exemple :
 
@@ -57,7 +53,7 @@ Adobe Campaign est compatible avec APNs HTTP/2. Pour plus d’informations sur 
 
 Pour plus d’informations sur la création d’une diffusion, voir [cette section](steps-about-delivery-creation-steps.md).
 
-## Parcours des données {#data-path}
+## Chemin de données {#data-path}
 
 Les schémas suivants présentent les étapes permettant à une application mobile d&#39;échanger des données avec Adobe Campaign. Ce processus comporte trois acteurs :
 
