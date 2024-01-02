@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Prise en main du canal des applications mobiles
+title: Commencer avec le canal des applications mobiles
 description: Commencer avec le canal des applications mobiles dans Adobe Campaign
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
@@ -8,15 +8,15 @@ feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 source-git-commit: 92c79e7050124bc707f4d6b87c7952016586002c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Prise en main du canal des applications mobiles{#about-mobile-app-channel}
 
-Le (**canal des applications mobiles**) permet d’envoyer des notifications push personnalisées depuis la plateforme Adobe Campaign sur des terminaux iOS et Android, via des applications.
+Le **canal des applications mobiles** permet d’envoyer des notifications push personnalisées depuis la plateforme Adobe Campaign sur des terminaux iOS et Android, via des applications.
 
 Deux canaux de diffusions sont disponibles :
 
@@ -30,9 +30,9 @@ Deux canaux de diffusions sont disponibles :
 
   >[!IMPORTANT]
   >
-  >Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et auront une incidence sur votre mise en œuvre d’Adobe Campaign. Il se peut que la configuration de vos services d’abonnement pour les messages push Android doive être mise à jour pour prendre en charge cette modification. Vous pouvez déjà vérifier et agir. En savoir plus à ce sujet [technote d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+  >Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et auront une incidence sur votre mise en œuvre d’Adobe Campaign. Il se peut que la configuration de vos services d’abonnement pour les notifications push Android doive être mise à jour pour prendre en charge cette modification. Vous pouvez déjà vérifier et agir. En savoir plus dans cette [note technique d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=fr){target="_blank"}.
 
-Les workflows des opérations contiennent deux activités de diffusion correspondant à ces deux canaux. Deux modèles sont également disponibles pour les messages transactionnels.
+A ces deux canaux correspondent deux activités de diffusion dans les workflows de campagne. Deux modèles sont également disponibles pour les messages transactionnels.
 
 ![](assets/nmac_intro_3.png)
 
