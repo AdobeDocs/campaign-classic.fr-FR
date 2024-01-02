@@ -7,9 +7,9 @@ feature: Push
 role: User, Developer, Data Engineer
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '757'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Firebase Cloud Messaging vous permet de choisir entre deux types de messages 
 * **[!UICONTROL Message de notification]**, géré automatiquement par le SDK FCM.
   <br> FCM affiche automatiquement le message sur les appareils de vos utilisateurs pour le compte de l&#39;application cliente. Les messages de notification contiennent un ensemble de paramètres et d&#39;options prédéfini, mais peuvent encore être personnalisés avec des variables d&#39;application personnalisées.
 
-Pour plus d’informations sur les types de messages Firebase Cloud Messaging, voir [Documentation FCM](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages){target="_blank"}.
+Pour plus d’informations sur les types de messages Firebase Cloud Messaging, consultez la [documentation de FCM](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages){target="_blank"}.
 
 
 ## Créer un message de données {#creating-data-message}
@@ -100,7 +100,7 @@ L&#39;image et la page web doivent s&#39;afficher dans la notification push lors
    * **[!UICONTROL Balise]** : définissez l&#39;identifiant utilisé pour remplacer les notifications existantes dans le tiroir de notifications.
    * **[!UICONTROL Action de clic]** : définissez l&#39;action associée à un clic de l&#39;utilisateur sur votre notification.
 
-   Pour plus d’informations sur **[!UICONTROL Options de notification]** et comment remplir ces champs, voir [Documentation FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
+   Pour plus d’informations sur les **[!UICONTROL options de notification]** et sur la façon de remplir ces champs, consultez la [documentation FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
 
    ![](assets/nmac_android_8.png)
 
