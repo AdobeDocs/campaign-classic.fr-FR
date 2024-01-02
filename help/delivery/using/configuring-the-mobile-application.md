@@ -7,9 +7,9 @@ feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '708'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -58,11 +58,11 @@ Votre connecteur iOS est maintenant paramétré. Vous pouvez créer votre servic
 
    >[!NOTE]
    >
-   >Par défaut **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** le mapping de ciblage est lié à la table des destinataires. Si vous souhaitez utiliser un autre mapping de ciblage, vous devez créer un nouveau mapping de ciblage et le saisir dans la variable **[!UICONTROL Mapping de ciblage]** du service. Pour plus d&#39;informations sur la création d&#39;un mapping de ciblage, reportez-vous à la section [Guide de configuration](../../configuration/using/about-custom-recipient-table.md).
+   >Par défaut, le mapping de ciblage **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** est lié à la table des destinataires. Si vous souhaitez utiliser un autre mapping de ciblage, vous devez en créer un nouveau et le saisir dans le champ **[!UICONTROL Mapping de ciblage]** du service. Pour plus d’informations sur la création d’un mapping de ciblage, reportez-vous au [Guide de configuration](../../configuration/using/about-custom-recipient-table.md).
 
    ![](assets/nmac_ios.png)
 
-1. Cliquez ensuite sur le bouton **[!UICONTROL Ajouter]** pour sélectionner le type d&#39;application.
+1. Cliquez ensuite sur le bouton **[!UICONTROL Ajouter]** pour sélectionner le type d’application.
 
    ![](assets/nmac_service_2.png)
 
