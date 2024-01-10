@@ -4,34 +4,28 @@ title: Implémenter l'IMS
 description: Implémenter l'IMS
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v7-prem: label="On-premise et hybride" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 49271e291953483ee14709b26ec053217a336718
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 100%
+source-wordcount: '83'
+ht-degree: 26%
 
 ---
 
 # Implémenter l&#39;IMS{#implementing-ims}
 
+Une fois [Configuration IMS](configuring-ims.md) est terminée, vous pouvez activer la connexion.
 
+Pour activer le mode d&#39;authentification IMS dans Adobe Campaign, procédez comme suit :
 
-## Activer la connexion via l&#39;IMS {#enabling-the-ims-connection}
-
-1. Pour activer la connexion via l&#39;IMS, cochez la case **[!UICONTROL Se connecter avec un Adobe ID]** dans la fenêtre de gestion des connexions de la console.
+1. Ouvrez l’écran de connexion de la console cliente .
+1. Sélectionnez l&#39;environnement pour lequel vous devez activer la connexion.
+1. Vérifiez les **[!UICONTROL Connexion à un Adobe ID]** et enregistrez vos modifications.
 
    ![](assets/ims_1.png)
 
-1. Saisissez votre identifiant et mot de passe Adobe. L&#39;écran d&#39;accueil Adobe Campaign apparait.
-
-   ![](assets/ims_2.png)
-
-## Désactiver la connexion via l&#39;IMS {#disabling-the-ims-connection}
-
-Pour désactiver la connexion via l&#39;Adobe ID, déconnectez-vous, cliquez sur le menu **[!UICONTROL Fichier > Connexions]** et décochez la case **[!UICONTROL Se connecter avec un Adobe ID]**.
-
-![](assets/ims_4.png)
+1. Lors de la connexion à cet environnement, utilisez votre Adobe ID et votre mot de passe.

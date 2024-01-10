@@ -4,23 +4,22 @@ title: Dépanner IMS
 description: Dépanner IMS
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v7-prem: label="On-premise et hybride" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 49271e291953483ee14709b26ec053217a336718
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '432'
+ht-degree: 79%
 
 ---
 
 # Dépannage d&#39;IMS{#ims-troubleshooting}
 
 
-
-Les conseils de dépannage suivants aideront les clients **on-premise** à résoudre les problèmes les plus fréquents lors de l&#39;utilisation de l&#39;intégration IMS. Si vous êtes un client **hébergé**, veuillez contacter Adobe.
+Les conseils de dépannage suivants vous aideront à **on-premise** et **hybride** Les clients résolvent les problèmes les plus courants survenant lors de l’utilisation de l’intégration IMS. Pour **hébergé** clients, veuillez contacter Adobe.
 
 **Compte externe**
 
@@ -37,7 +36,7 @@ Si le compte externe possède un champ **Product Context**, vérifiez que sa val
 
 Vérifiez que votre Product Context est identique pour Campaign et Experience Cloud.
 
-Par exemple, si le **Product Context** n&#39;apparaît pas, le Product Context par défaut doit être **dma_campaign** à la fois dans Campaign et Experience Cloud. Si le champ **Product Context** apparaît, le Product Context par défaut doit être **dma_campaign_classic** à la fois dans Campaign et Experience Cloud.
+Par exemple, si la variable **Product Context** n’apparaît pas, le contexte de produit par défaut doit être **dma_campaign** dans Campaign et dans Experience Cloud. Si la variable **Product Context** apparaît, le contexte de produit par défaut doit être **dma_campaign_classic** dans Campaign et dans Experience Cloud.
 
 **[!UICONTROL URL du serveur IMS]**
 
@@ -76,7 +75,7 @@ Redémarrez le serveur si des modifications ont été apportées aux paramètres
 
 * L&#39;utilisateur est redirigé vers la page adobe.com :
 
-  Il y a un problème avec l&#39;**[!UICONTROL URL de callback]**. Reportez-vous aux étapes précédentes pour vérifier le paramétrage de l&#39;**[!UICONTROL URL de callback]**.
+  Il existe un problème avec la variable **[!UICONTROL URL de callback]**. Reportez-vous aux étapes précédentes pour vérifier le **[!UICONTROL URL de callback]** configuration.
 
 * Affichage du message &quot;Le login ne possède aucun droit correspondant à l&#39;expression&quot; :
 

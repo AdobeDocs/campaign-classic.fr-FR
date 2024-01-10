@@ -4,29 +4,26 @@ title: Paramétrer IMS
 description: Découvrez comment vous connecter via un Adobe ID
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v7-prem: label="On-premise et hybride" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 49271e291953483ee14709b26ec053217a336718
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 52%
 
 ---
 
 # Paramétrer IMS{#configuring-ims}
 
-
-
 >[!IMPORTANT]
 >
->L’implémentation d’Adobe IMS est strictement réservée aux administrateurs techniques d’Adobe. Contactez votre chargé de compte Adobe pour démarrer le processus de mise en œuvre.
+>En tant qu’utilisateur de services hébergés ou gérés Campaign, votre implémentation Adobe IMS appartient à Adobe. Les étapes décrites ci-dessous s’appliquent uniquement aux clients on-premise et hybrides.
+> L’implémentation d’Adobe IMS ne doit être effectuée que par des administrateurs techniques d’Adobe. Contactez votre représentant d’Adobe pour lancer le processus de mise en oeuvre.
 
-## Conditions préalables requises {#prerequisites}
-
-Pour utiliser l&#39;intégration avec l&#39;IMS, les éléments suivants sont requis :
+## Conditions préalables {#prerequisites}
 
 * Vous devez disposer d’un nom et d’un identifiant de l’organisation Adobe Experience Cloud. Pour trouver l’identifiant de votre organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
 * Vous devez ajouter des utilisateurs dans Experience Cloud. Pour en savoir plus, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=fr){_blank}.
@@ -37,7 +34,7 @@ Pour utiliser l&#39;intégration avec l&#39;IMS, les éléments suivants sont re
 
 ## Mettre à jour la console {#updating-the-console}
 
-Pour utiliser cette fonctionnalité, vous devez impérativement installer la version la plus récente de la console.
+Pour utiliser cette fonctionnalité, vous devez impérativement installer la dernière version de la console cliente.
 
 ## Installer le package {#installing-the-package}
 
@@ -49,23 +46,16 @@ Vous devez installer le pack intégré **[!UICONTROL Intégration à Adobe Exper
 
 Configurez le compte externe **Adobe Experience Cloud** dans **[!UICONTROL Administration > Plateforme > Comptes externes]**.
 
->[!CAUTION]
->
->Ce paramétrage est réservé à l&#39;administrateur technique.
-
 ![](assets/ims_5.png)
 
 Renseignez les informations suivantes :
 
-* les informations de connexion au serveur IMS utilisé (identifiant et secret). Ces informations sont fournies par le support Adobe. Pour plus d&#39;informations, consultez la [FAQ Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=fr).
+* Informations de connexion au serveur IMS utilisé (identifiant et secret). Ces informations sont fournies par l’équipe d’assistance clientèle d’Adobe. Pour plus d’informations, voir la section [Questions fréquentes à l’intention des administrateurs Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=fr).
 
   L&#39;adresse du **[!UICONTROL Serveur de rappel]** (callback server) doit être indiquée en **https**. Ce champ correspond à l&#39;URL d&#39;accès à votre instance Adobe Campaign.
 
 * Identifiant de l’organisation : pour trouver l’identifiant de votre organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
-* Le masque de correspondance : ce champ permet de définir la syntaxe qui permettra la synchronisation des noms de configuration dans Enterprise Dashboard avec les groupes d’Adobe Campaign. Si vous utilisez la syntaxe « Campaign - tenant_id - (&#42;) », le groupe de sécurité créé dans Adobe Campaign sera associé au nom de configuration « Campaign - tenant_id - internal_name » dans Enterprise Dashboard.
 
-  >[!CAUTION]
-  >
-  >Le masque de correspondance est indispensable au bon fonctionnement de la connexion via l&#39;Adobe ID.
+* Masque de correspondance : ce champ permet de définir la syntaxe qui permettra de synchroniser les noms de configuration dans Enterprise Dashboard avec les groupes dans Adobe Campaign. Si vous utilisez la syntaxe &quot;Campaign - tenant_id - (.&#42;)&quot;, le groupe de sécurité créé dans Adobe Campaign sera associé au nom de configuration &quot;Campaign - tenant_id - internal_name&quot; dans Enterprise Dashboard.
 
-* les informations de connexion à Adobe Experience Cloud, notamment le nom du tenant Adobe Experience Cloud.
+* Informations de connexion Adobe Experience Cloud, qui est le nom du tenant Adobe Experience Cloud.
