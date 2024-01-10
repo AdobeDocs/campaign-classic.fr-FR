@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2258'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 _5 décembre 2023_
 
 
-### Améliorations de la sécurité  {#release-7-3-5-security}
+### Améliorations de la sécurité {#release-7-3-5-security}
 
 
 * Avec Campaign Classic v7.3.5, le processus d’authentification a été amélioré et sécurisé. Les opérateurs ou opératrices techniques doivent à présent utiliser Adobe Identity Management System (IMS) pour se connecter à Campaign. Découvrez comment migrer votre ou vos comptes techniques existants dans [cette note technique](../../technotes/using/ims-migration.md).
@@ -57,7 +57,7 @@ _5 décembre 2023_
 
 _7 septembre 2023_
 
-### Améliorations de la sécurité  {#release-7-3-4-security}
+### Améliorations de la sécurité {#release-7-3-4-security}
 
 * La sécurité a été améliorée dans les API IMS. Les informations sensibles pour la clientèle (c’est-à-dire les jetons d’accès) ont été supprimées des paramètres d’URL. Ces informations d’identification sont désormais envoyées dans les données de publication ou l’en-tête de l’autorisation, ce qui garantit un processus de communication plus sécurisé. (NEO-63045)
 * La sécurité a été améliorée dans les applications web pour empêcher les attaques DDOS. (NEO-50757)
@@ -120,7 +120,7 @@ Correction d’un problème en raison duquel les caractères japonais s’affich
 
 >[!AVAILABILITY]
 >
->Une mise à niveau spécifique du correctif Campaign v7.3.3.IMS est disponible pour cette version, si aucun autre correctif n&#39;a été appliqué à votre environnement. Elle apporte [Mises à jour de sécurité du système Adobe Identity Management (IMS) avec la version v7.3.5](#release-7-3-5-security) aux environnements v7.3.3 existants.
+>Une mise à niveau spécifique du correctif Campaign v7.3.3.IMS est disponible pour cette version, si aucun autre correctif n’a été appliqué à votre environnement. Elle effectue les [mises à jour de sécurité d’Adobe Identity Management System (IMS) de la version v7.3.5](#release-7-3-5-security) sur les environnements v7.3.3 existants.
 
 
 _20 mars 2023_
