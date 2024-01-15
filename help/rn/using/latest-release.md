@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
-workflow-type: ht
-source-wordcount: '2258'
-ht-degree: 100%
+source-git-commit: da35a3050d838cd8e57bf802dc066e32f22f8273
+workflow-type: tm+mt
+source-wordcount: '2295'
+ht-degree: 99%
 
 ---
 
@@ -154,10 +154,10 @@ _20 mars 2023_
 
 [!BADGE Disponibilité limitée]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
 
-<!--
+
 >[!AVAILABILITY]
 >
->A specific Campaign v7.3.2.IMS patch upgrade is available for this version - if no other patch has been applied to your environment. It brings [Adobe Identity Management System (IMS) security updates coming with v7.3.5](#release-7-3-5-security) to existing v7.3.3 environments.-->
+>Une mise à niveau spécifique du correctif Campaign v7.3.2.IMS est disponible pour cette version, si aucun autre correctif n&#39;a été appliqué à votre environnement. Elle effectue les [mises à jour de sécurité d’Adobe Identity Management System (IMS) de la version v7.3.5](#release-7-3-5-security) sur les environnements v7.3.3 existants.
 
 _21 novembre 2022_
 
