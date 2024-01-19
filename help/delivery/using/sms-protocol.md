@@ -8,9 +8,9 @@ feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 73fd678d54ba1db647c1c188e8064b28466b3cd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8448'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -412,7 +412,7 @@ Le connecteur SMPP étendu Adobe Campaign Classic peut contrôler le nombre de 
 
 Pour Adobe Campaign Classic, le nombre de connexions de récepteurs et d&#39;émetteurs peut être différent :
 
-* **Connexions de l’émetteur = Nombre de connexions enfant MTA * Nombre de processus enfant MTA * Nombre de MTA (si la réponse automatique est définie) * Nombre de connexions enfant MTA**
+* **Connexions de l&#39;émetteur = Nombre de connexions enfant MTA * Nombre de processus enfant MTA * Nombre de MTA (si la réponse automatique est définie) * Nombre de connexions enfant MTA**
 
 Comme nous l&#39;avons suggéré plus haut, le processus SMS d&#39;Adobe Campaign Classic ouvre davantage de connexions d&#39;émetteur si la réponse automatique est activée. Ces connexions supplémentaires sont utilisées pour envoyer les réponses automatiques.
 
@@ -832,7 +832,7 @@ Même si vous ne pouvez pas vérifier vous-même les logs, il sera plus facile p
 ### Tester votre SMS {#test}
 
 * **Envoyer des SMS avec toutes sortes de caractères**
-Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d&#39;envoyer des messages avec autant de caractères différents que possible. Si vous configurez une table de mappage des caractères personnalisée, envoyez au moins un SMS pour tous les `data_coding` valeurs.
+Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d&#39;envoyer des messages avec autant de caractères différents que possible. Si vous définissez un tableau de mapping de caractères personnalisé, envoyez au moins un SMS pour toutes les valeurs `data_coding` possibles.
 
 * **Vérifier que les SR sont correctement traités**
 Le SMS doit être marqué comme reçu dans le log de diffusion. Le journal de diffusion ne doit pas rencontrer de problème et se présenter comme suit :
@@ -841,7 +841,7 @@ Vérifiez que vous avez modifié le nom du fournisseur de diffusions. Le log de 
 
 * **Vérifier que les MO sont traités**
 Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.) essayez de faire des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
-Archivez le journal auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` (command_status=0).
+Archivez le journal auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` réussi (command_status=0).
 
 ### Vérifier les PDU {#check-pdus}
 
