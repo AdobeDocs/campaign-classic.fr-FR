@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: da35a3050d838cd8e57bf802dc066e32f22f8273
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2295'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ _20 mars 2023_
 
 >[!AVAILABILITY]
 >
->Une mise à niveau spécifique du correctif Campaign v7.3.2.IMS est disponible pour cette version, si aucun autre correctif n&#39;a été appliqué à votre environnement. Elle effectue les [mises à jour de sécurité d’Adobe Identity Management System (IMS) de la version v7.3.5](#release-7-3-5-security) sur les environnements v7.3.3 existants.
+>Une mise à niveau spécifique du correctif Campaign v7.3.2.IMS est disponible pour cette version, si aucun autre correctif n’a été appliqué à votre environnement. Elle effectue les [mises à jour de sécurité d’Adobe Identity Management System (IMS) de la version v7.3.5](#release-7-3-5-security) sur les environnements v7.3.3 existants.
 
 _21 novembre 2022_
 
