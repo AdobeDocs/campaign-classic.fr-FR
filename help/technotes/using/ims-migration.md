@@ -5,9 +5,9 @@ feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
 source-git-commit: da35a3050d838cd8e57bf802dc066e32f22f8273
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1700'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ La mise à niveau de votre environnement vers l’une des versions de produit su
 
 * Campaign v7.3.5 (recommandé)
 * Campaign v7.3.3.IMS
-* Campaign v7.3.2.IMS
+* Campaign v7.3.2.IMS
 
 Ces versions de Campaign sont présentées dans la section [Notes de mise à jour](../../rn/using/latest-release.md).
 
