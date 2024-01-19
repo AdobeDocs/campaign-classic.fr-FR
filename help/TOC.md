@@ -3,18 +3,18 @@ audience: end-user
 breadcrumb-title: Documentation de Campaign Classic v7
 product: campaign
 title: Guide de Campaign Classic v7
-user-guide-description: Documentation du produit pour Adobe Campaign Classic v7.
+user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: cb1f079fbb7af6bb6645aae86261ca723fd97c3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2524'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Documentation de Adobe Campaign Classic v7 {#using}
+# Documentation Adobe Campaign Classic v7 {#using}
 
 + [Documentation Campaign v7](campaign-classic-home.md)
 + [Dernières mises à jour](rn/using/documentation-updates.md)
