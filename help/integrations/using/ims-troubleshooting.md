@@ -10,16 +10,16 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
 source-git-commit: 49271e291953483ee14709b26ec053217a336718
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Dépannage d&#39;IMS{#ims-troubleshooting}
+# Dépanner IMS{#ims-troubleshooting}
 
 
-Les conseils de dépannage suivants vous aideront à **on-premise** et **hybride** Les clients résolvent les problèmes les plus courants survenant lors de l’utilisation de l’intégration IMS. Pour **hébergé** clients, veuillez contacter Adobe.
+Les conseils de dépannage suivants aideront les clientes et clients **On-Premise** et **hybrides** à résoudre les problèmes les plus courants lors de l’utilisation de l’intégration IMS. Pour les clientes et clients **hébergés**, veuillez contacter Adobe.
 
 **Compte externe**
 
@@ -36,7 +36,7 @@ Si le compte externe possède un champ **Product Context**, vérifiez que sa val
 
 Vérifiez que votre Product Context est identique pour Campaign et Experience Cloud.
 
-Par exemple, si la variable **Product Context** n’apparaît pas, le contexte de produit par défaut doit être **dma_campaign** dans Campaign et dans Experience Cloud. Si la variable **Product Context** apparaît, le contexte de produit par défaut doit être **dma_campaign_classic** dans Campaign et dans Experience Cloud.
+Par exemple, si **Product Context** n’apparaît pas, le contexte de produit par défaut doit être **dma_campaign** dans Campaign et Experience Cloud. Si **Product Context** apparaît, le contexte de produit par défaut doit être **dma_campaign_classic** dans Campaign et Experience Cloud.
 
 **[!UICONTROL URL du serveur IMS]**
 
@@ -75,7 +75,7 @@ Redémarrez le serveur si des modifications ont été apportées aux paramètres
 
 * L&#39;utilisateur est redirigé vers la page adobe.com :
 
-  Il existe un problème avec la variable **[!UICONTROL URL de callback]**. Reportez-vous aux étapes précédentes pour vérifier le **[!UICONTROL URL de callback]** configuration.
+  Il existe un problème avec l’**[!UICONTROL URL de callback]**. Reportez-vous aux étapes précédentes pour vérifier la configuration de l’**[!UICONTROL URL de callback]**.
 
 * Affichage du message &quot;Le login ne possède aucun droit correspondant à l&#39;expression&quot; :
 
