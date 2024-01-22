@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Direct Mail
 role: User
 exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: ba542c0811141e707589568706d44c73c280c0d3
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,8 @@ Adobe Campaign vous permet de produire des fichiers afin de diffuser des lettre
 
 >[!NOTE]
 >
->Les adresses postales sont des champs calculés. Par défaut, une adresse peut contenir jusqu&#39;à six lignes : la première contient le prénom et le nom, les suivantes contiennent les coordonnées postales (rue et compléments), et la dernière contient le code postal et la ville.\
->Une adresse est considérée comme complète si les champs relatifs au nom, au code postal et à la ville ne sont pas vides.
+>Les adresses postales sont des champs calculés. Par défaut, une adresse peut contenir jusqu&#39;à six lignes : la première contient le prénom et le nom, les suivantes contiennent l&#39;adresse postale (rue et compléments) et la dernière contient le code postal et la ville. La définition du champ postalAddress calculé par défaut peut être vérifiée dans le schéma nms:recipient .
+>
+>Une adresse est considérée comme complète si les champs Nom, Code postal et Ville ne sont pas vides. Les destinataires dont les adresses sont incomplètes seront exclus des diffusions courrier.
 
 Les sections ci-dessous fournissent des informations spécifiques au canal courrier. Pour des informations générales sur la création et l’envoi d’une diffusion, consultez [cette section](steps-about-delivery-creation-steps.md).
