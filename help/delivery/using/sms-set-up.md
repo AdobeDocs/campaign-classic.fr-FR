@@ -7,14 +7,14 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: SMS
 role: User, Developer, Admin
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
 workflow-type: tm+mt
-source-wordcount: '1838'
-ht-degree: 100%
+source-wordcount: '1853'
+ht-degree: 97%
 
 ---
 
-# Configurer le canal SMS {#setting-up-sms-channel}
+# Configuration du canal SMS sur une instance autonome {#setting-up-sms-channel}
 
 Pour diffuser vers un téléphone mobile, vous devez avoir :
 
@@ -301,7 +301,7 @@ Lors du paramétrage d&#39;un nouveau compte externe de routage vers mobiles par
 
 >[!NOTE]
 >
->La correspondance entre la valeur du **data_coding** et l&#39;encodage réellement utilisé est standardisée. Cependant, certains SMSC possèdent une correspondance qui leur est propre : dans ce cas, votre administrateur **Adobe Campaign** doit déclarer cette correspondance. Consultez votre fournisseur pour en savoir plus.
+>La correspondance entre la valeur du **data_coding** et l&#39;encodage réellement utilisé est standardisée. Néanmoins, certains SMSC possèdent leur propre mapping spécifique : dans ce cas, votre **Adobe Campaign** L’administrateur doit déclarer ce mappage. Consultez votre fournisseur pour en savoir plus.
 
 Vous pouvez déclarer des **data_coding** et forcer l&#39;encodage si besoin : pour ce faire, spécifiez un seul encodage dans le tableau.
 
@@ -354,7 +354,7 @@ La procédure de configuration d’un compte externe à l’aide du connecteur S
 
 ## Modifier le modèle de diffusion {#changing-the-delivery-template}
 
-Adobe Campaign met à votre disposition un modèle de diffusion vers mobiles. Ce modèle est disponible dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion.]** Pour plus d&#39;informations, consultez la section [Modèles](about-templates.md).
+Adobe Campaign vous fournit un modèle de diffusion vers mobiles. Ce modèle est disponible dans la **[!UICONTROL Ressources > Modèles > Modèles de diffusion]** noeud . Pour plus d&#39;informations, consultez la section [Modèles](about-templates.md).
 
 Pour diffuser par le canal SMS, vous devez créer un modèle dans lequel le connecteur du canal est référencé.
 
