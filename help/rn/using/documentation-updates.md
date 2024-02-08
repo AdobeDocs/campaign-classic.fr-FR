@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3722'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 
 Ajout d’informations sur la définition du champ postalAddress par défaut pour Courrier et sur les raisons pour lesquelles il est important de s’assurer que les adresses sont complètes. [En savoir plus](../../delivery/using/about-direct-mail-channel.md)
 
-Ajout d&#39;une nouvelle page sur la configuration du canal SMS dans Campaign sur une infrastructure de mid-sourcing. [En savoir plus](../../delivery/using/sms-set-up-mid.md)
+Ajout d&#39;une nouvelle page sur la configuration du canal SMS dans Campaign dans une infrastructure midsourcing. [En savoir plus](../../delivery/using/sms-set-up-mid.md)
 
 ## 2023
 
