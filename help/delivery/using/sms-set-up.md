@@ -8,13 +8,13 @@ feature: SMS
 role: User, Developer, Admin
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1853'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Configuration du canal SMS sur une instance autonome {#setting-up-sms-channel}
+# Configurer le canal SMS sur une instance autonome {#setting-up-sms-channel}
 
 Pour diffuser vers un téléphone mobile, vous devez avoir :
 
@@ -293,7 +293,7 @@ CR : retour chariot (Carriage Return)
 
 ^ { } `[ ~ ]` | €
 
-## Codages de texte {#about-text-encodings}
+## Encodages de texte {#about-text-encodings}
 
 Lors de l&#39;envoi d&#39;un SMS, Adobe Campaign peut utiliser un ou plusieurs encodages de texte. Chaque encodage possède un jeu de caractères disponibles qui lui est propre, et le nombre de caractères qu&#39;il est possible de mettre dans un SMS dépend de l&#39;encodage.
 
@@ -301,7 +301,7 @@ Lors du paramétrage d&#39;un nouveau compte externe de routage vers mobiles par
 
 >[!NOTE]
 >
->La correspondance entre la valeur du **data_coding** et l&#39;encodage réellement utilisé est standardisée. Néanmoins, certains SMSC possèdent leur propre mapping spécifique : dans ce cas, votre **Adobe Campaign** L’administrateur doit déclarer ce mappage. Consultez votre fournisseur pour en savoir plus.
+>La correspondance entre la valeur du **data_coding** et l&#39;encodage réellement utilisé est standardisée. Cependant, certains SMSC possèdent une correspondance qui leur est propre : dans ce cas, votre administrateur **Adobe Campaign** doit déclarer cette correspondance. Consultez votre fournisseur pour en savoir plus.
 
 Vous pouvez déclarer des **data_coding** et forcer l&#39;encodage si besoin : pour ce faire, spécifiez un seul encodage dans le tableau.
 
@@ -354,7 +354,7 @@ La procédure de configuration d’un compte externe à l’aide du connecteur S
 
 ## Modifier le modèle de diffusion {#changing-the-delivery-template}
 
-Adobe Campaign vous fournit un modèle de diffusion vers mobiles. Ce modèle est disponible dans la **[!UICONTROL Ressources > Modèles > Modèles de diffusion]** noeud . Pour plus d&#39;informations, consultez la section [Modèles](about-templates.md).
+Adobe Campaign vous met à disposition un modèle de diffusion vers les mobiles. Ce modèle est disponible dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]**. Pour plus d&#39;informations, consultez la section [Modèles](about-templates.md).
 
 Pour diffuser par le canal SMS, vous devez créer un modèle dans lequel le connecteur du canal est référencé.
 
