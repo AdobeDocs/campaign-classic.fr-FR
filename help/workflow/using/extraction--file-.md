@@ -5,10 +5,10 @@ description: En savoir plus sur l’activité de workflow d’extraction (fichie
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Data Management Activity
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 58998fa2480a33776507a434ed846541ac19e58b
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 83%
 
 ---
 
@@ -31,7 +31,7 @@ Pour paramétrer l&#39;extraction des données, les étapes sont les suivantes 
 
    L&#39;option **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]** ajoute une étape supplémentaire afin de filtrer sur le résultat final de l&#39;agrégat, par exemple sur tel type de commande, sur les clients ayant passé plus de 10 commandes, etc.
 
-1. Au besoin, vous pouvez ajouter de nouvelles colonnes dans le fichier de sortie, résultat de calculs ou de traitements sur les données par exemple. Pour cela, cliquez sur l&#39;icône **[!UICONTROL Ajouter]**.
+1. Au besoin, vous pouvez ajouter de nouvelles colonnes dans le fichier de sortie, par exemple des résultats de calcul ou de traitement. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter]** Icône
 
    ![](assets/s_advuser_extract_file_add_col.png)
 
@@ -39,7 +39,7 @@ Pour paramétrer l&#39;extraction des données, les étapes sont les suivantes 
 
    ![](assets/s_advuser_extract_file_add_exp.png)
 
-   Vous accédez alors à la fenêtre de sélection. Cliquez sur **[!UICONTROL Sélection avancée]** afin de choisir le traitement à effectuer sur les données.
+   Vous accédez alors à la fenêtre de sélection. Cliquez sur **[!UICONTROL Sélection avancée]** pour choisir le processus à appliquer aux données.
 
    ![](assets/s_advuser_extract_file_advanced_selection.png)
 
@@ -49,7 +49,7 @@ Pour paramétrer l&#39;extraction des données, les étapes sont les suivantes 
 
 Vous pouvez définir un post-traitement à exécuter pendant l’extraction des données, ce qui vous permet de compresser ou de chiffrer les fichiers. Pour ce faire, la commande souhaitée doit être ajoutée dans l’onglet **[!UICONTROL Script]** de l’activité.
 
-Pour plus d’informations à ce sujet, consultez cette section : [Compresser ou chiffrer un fichier](how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+Voir à ce propos cette section : [Compresser ou chiffrer un fichier](../../platform/using/zip-encrypt.md)
 
 ![](assets/postprocessing_dataextraction.png)
 

@@ -9,16 +9,14 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: a2106e55617209f28da42c50008d16188563b2da
+source-git-commit: 58998fa2480a33776507a434ed846541ac19e58b
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '539'
 ht-degree: 100%
 
 ---
 
 # Compresser ou chiffrer un fichier {#zipping-or-encrypting-a-file}
-
-
 
 Adobe Campaign permet d&#39;exporter des fichiers compressés ou chiffrés. Lors de la définition d&#39;un export par le biais d&#39;une activité **[!UICONTROL Extraction (fichier)]**, vous pouvez définir une étape de post-traitement pour le compresser ou le chiffrer.
 
