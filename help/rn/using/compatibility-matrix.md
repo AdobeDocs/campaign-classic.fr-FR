@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 3db5242e2074c6d0530258073ae83c11164d7365
+source-git-commit: e430978dd182eaea082122ef748118e5210b05d5
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 100%
+source-wordcount: '805'
+ht-degree: 96%
 
 ---
 
@@ -41,6 +41,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr> 
 <td>CentOs</td>
 <td>
+<p>8.x (uniquement pour les environnements hybrides)</p>
 <p>7.x</p>
 <p><strong>Important :</strong> si vous utilisez RHEL, vous devez désactiver SELinux ou demander à vos architectes d'écrire des règles SELinux personnalisées pour vérifier qu'un SELinux activé ne pose pas de problème pour les opérations de Campaign.</p>
 </td>
@@ -77,7 +78,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>Microsoft IIS </td>
 <td>
-<p>10.0 sur Windows Server 2016  et 2019</p>
+<p>10.0 sous Windows Server 2016 et 2019</p>
 </td>
 </tr>
 <tr>
@@ -353,7 +354,7 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 
 ### Runtime de Microsoft WebView2
 
-Runtime de Microsoft Edge WebView2 dernière version est obligatoire pour la console cliente Campaign.
+La dernière version du runtime Microsoft Edge WebView2 est obligatoire pour la console cliente Campaign.
 
 Téléchargez Microsoft Edge WebView2 à partir du [site Microsoft Developer](https://www.adobe.com/go/acc-ms-webview2-runtime-download_fr).
 
