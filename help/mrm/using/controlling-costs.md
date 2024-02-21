@@ -8,10 +8,10 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '2546'
-ht-degree: 100%
+source-wordcount: '2566'
+ht-degree: 89%
 
 ---
 
@@ -35,7 +35,7 @@ Les étapes de mise en oeuvre de la gestion des budgets avec MRM sont les suivan
 
 1. Définition du mode de calcul des coûts
 
-   Les structures de coûts sont définies au niveau des prestataires. Pour plus d&#39;informations, consultez la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+   Les structures de coûts sont définies au niveau des prestataires. Pour plus d&#39;informations, consultez la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 1. Définition des coûts des opérations (diffusions/tâches)
 
@@ -49,7 +49,7 @@ Les étapes de mise en oeuvre de la gestion des budgets avec MRM sont les suivan
 
 ## Créer un budget {#creating-a-budget}
 
-Les budgets sont créés au niveau de la vue globale, à partir du noeud **[!UICONTROL Gestion de campagne > Budgets]**. Le bouton **[!UICONTROL Nouveau]** de la barre d&#39;outils permet de créer un budget.
+Les budgets sont créés au niveau de la carte, à partir du **[!UICONTROL Gestion de campagne > Budgets]** noeud . La variable **[!UICONTROL Nouveau]** dans la barre d&#39;outils permet de créer un budget.
 
 * Ajouter un nouveau budget
 
@@ -89,7 +89,7 @@ Au niveau des opérations, selon le niveau d&#39;engagement, un coût peut être
 
 >[!CAUTION]
 >
->A la création d&#39;une opération, dans l&#39;onglet **[!UICONTROL Budget]**, le statut de réalisation doit être positionné à **[!UICONTROL Renseigné]** pour que les coûts soient pris en compte à l&#39;exécution. Si le statut est **[!UICONTROL En édition]**, les coûts ne seront pas consolidés.
+>Lors de la création d&#39;une campagne, l&#39;état d&#39;avancement dans **[!UICONTROL Budget]** doit être défini sur **[!UICONTROL Défini]** pour la prise en compte des coûts d&#39;exécution. Si l’état est **[!UICONTROL En édition]**, les coûts ne seront pas consolidés.
 >   
 >L&#39;option **[!UICONTROL Niveau d&#39;engagement]** représente une projection des coûts dans le futur avant qu&#39;ils ne soient imputés au budget. Suivant le stade d&#39;avancement d&#39;une opération, d&#39;une tâche ou d&#39;une diffusion, vous pouvez décider d&#39;assigner un niveau d&#39;engagement plus ou moins élevé (1. Prévu, 2. Réservé, 3. Engagé) à l&#39;aide de la liste déroulante.
 
@@ -122,7 +122,7 @@ Lorsqu&#39;une dépense fait l&#39;objet d&#39;une facture et que la facture est
 
 ### Catégories de dépense {#expense-categories}
 
-Les montants peuvent être répartis en plusieurs catégories de dépense afin de permettre une meilleure lisibilité des informations et un reporting plus fin des investissements marketing. Les catégories de dépenses sont définies lors de la création des budgets, à partir du noeud **[!UICONTROL Budgets]** de l&#39;arborescence.
+Les montants peuvent être répartis en plusieurs catégories de dépenses afin de permettre une meilleure lisibilité des données et un reporting plus fin des investissements marketing. Les catégories de dépenses sont définies lors de la création du budget, à l&#39;aide de l&#39;option **[!UICONTROL Budgets]** du noeud de l’arborescence.
 
 Pour ajouter une catégorie, cliquez sur le bouton **[!UICONTROL Ajouter]** dans la section inférieure de la fenêtre.
 
@@ -132,7 +132,7 @@ Vous pouvez sélectionner une catégorie parmi celles existantes ou définir une
 
 ### Rattacher un budget à un autre {#linking-a-budget-to-another}
 
-Vous pouvez rattacher un budget à un budget principal. Pour cela, sélectionnez le budget principal dans le champ **[!UICONTROL Budget de rattachement]** des budgets secondaires.
+Vous pouvez associer un budget à un budget principal. Pour cela, sélectionnez le budget principal dans le **[!UICONTROL budget associé]** champ des budgets secondaires.
 
 ![](assets/budget_link.png)
 
@@ -158,7 +158,7 @@ Ainsi, chaque ligne de dépense contient les informations suivantes :
 * La ligne de facture correspondante (MRM seulement)
 * La liste des coûts calculés par postes de coûts (si une structure de coûts existe)
 
-Dans l&#39;exemple ci-dessus, la ligne de dépenses éditée correspond aux coûts calculés sur la diffusion **Catalogue** de l&#39;opération **Fidélisation**. Lorsqu&#39;on édite la diffusion, l&#39;onglet **[!UICONTROL Courrier]** permet de visualiser le mode de calcul de la ligne de dépense.
+Dans l&#39;exemple ci-dessus, la ligne de dépense éditée contient les coûts calculés pour le **Nouvelles cartes** pour la **Loyalty Spring Pack** campaign. Lorsque la diffusion est éditée, la variable **[!UICONTROL Courrier]** vous permet de visualiser le mode de calcul de la ligne de dépense.
 
 Le calcul des coûts pour cette diffusion se base sur les postes de coûts sélectionnés pour le prestataire concerné :
 
@@ -170,7 +170,7 @@ En fonction des postes de coûts sélectionnés, les structures de coûts corres
 
 >[!NOTE]
 >
->Les postes et les structures de coûts sont présentés dans la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+>Les postes et les structures de coûts sont présentés dans la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 ## Engagement, calcul et imputation des coûts {#cost-commitment--calculation-and-charging}
 
@@ -182,9 +182,9 @@ Les coûts sont répartis en 3 catégories :
 
 1. Coût prévisionnel estimé
 
-   Le coût prévisionnel estimé correspond à une estimation des coûts pour les traitements de l&#39;opération. Tant qu&#39;il est en édition, les montants saisis ne sont pas consolidés. Il doit être au statut **[!UICONTROL Renseigné]** pour que les montants saisis soient pris en compte dans les calculs.
+   Le coût prévisionnel estimé est une estimation des coûts pour les traitements de l&#39;opération. Tant qu&#39;il est en édition, les montants saisis ne sont pas consolidés. Elle doit avoir **[!UICONTROL Spécifié]** statut des montants saisis à prendre en compte dans les calculs.
 
-   Ce montant est saisi manuellement et peut être réparti en plusieurs catégories de dépenses. Pour répartir un coût, cliquez sur le lien **[!UICONTROL Répartition...]**, puis sur le bouton **[!UICONTROL Ajouter]** pour définir un nouveau montant.
+   Ce montant est saisi manuellement et peut être ventilé en plusieurs catégories de dépenses. Pour ventiler un coût, cliquez sur l’icône **[!UICONTROL Ventilation...]** puis le lien **[!UICONTROL Ajouter]** pour définir un nouveau montant.
 
    ![](assets/s_user_edit_budget_tab_ventil.png)
 
@@ -233,7 +233,7 @@ Nous allons créer une opération avec :
 
 #### Étape 2 - Configurer le prestataire et définir les structures de coûts {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. Créez un prestataire et un modèle de prestation avec sa structure de coûts associée à partir du nœud **[!UICONTROL Administration > Campagnes.]** Pour plus d&#39;informations, reportez-vous à la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+1. Créez un prestataire et un modèle de prestation avec sa structure de coûts associée à partir du nœud **[!UICONTROL Administration > Campagnes.]** Pour plus d&#39;informations, reportez-vous à la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
    Pour les diffusions courrier, créez des postes de coût **[!UICONTROL Enveloppes]** (types 114x229 et 162x229), **[!UICONTROL Affranchissement et routage]** et **[!UICONTROL Impression]** (types A3 et A4). Puis créez les structures de coûts suivantes :
 
@@ -363,7 +363,7 @@ Les factures sont créées et stockées dans le noeud **[!UICONTROL MRM > Fact
 
 ![](assets/s_user_cost_create_invoice.png)
 
-Une facture est composée de lignes de factures dont le total permet de calculer automatiquement le montant. Ces lignes sont créées manuellement depuis l’onglet **[!UICONTROL Lignes de facture]**. Elles peuvent être associées à une commande afin de charger les informations vers les commandes.
+Une facture est composée de lignes de factures dont le total permet de calculer automatiquement le montant. Ces lignes sont créées manuellement à partir du **[!UICONTROL Lignes de facture]** . Ils peuvent être associés à une commande pour transférer les informations vers les commandes.
 
 ![](assets/s_user_cost_invoice_add_line.png)
 

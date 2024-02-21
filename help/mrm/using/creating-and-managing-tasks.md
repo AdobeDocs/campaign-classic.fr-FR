@@ -8,10 +8,10 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '3905'
-ht-degree: 100%
+source-wordcount: '3919'
+ht-degree: 88%
 
 ---
 
@@ -71,7 +71,7 @@ Vous pouvez également créer une tâche à partir du tableau de bord d&#39;une 
 
 ![](assets/s_ncs_user_task_create_new_from_op.png)
 
-Une fois créée, la tâche est ajoutée dans le calendrier des campagnes et dans la liste des tâches. Pour éditer une tâche, sélectionnez-la dans le planning, ou cliquez sur son nom dans la vue d&#39;ensemble des tâches, et cliquez sur le lien **[!UICONTROL Ouvrir]**.
+Une fois créée, la tâche est ajoutée au planning de l&#39;opération et à la liste des tâches. Pour modifier une tâche, sélectionnez-la dans le planning ou cliquez sur son nom dans la vue d&#39;ensemble des tâches, puis cliquez sur le bouton **[!UICONTROL Ouvrir]** lien.
 
 ![](assets/s_ncs_user_task_edit_simple.png)
 
@@ -89,7 +89,7 @@ Le cycle de vie d&#39;une tâche est présenté dans la section [Cycle de vie](#
 
 Le responsable de la tâche est le seul opérateur habilité à clore la tâche.
 
-Par défaut, lorsqu&#39;un opérateur Adobe Campaign crée une tâche, elle lui est automatiquement assignée. Vous pouvez toutefois sélectionner un autre opérateur dans le champ **[!UICONTROL Affecté à]**.
+Par défaut, lorsqu&#39;un opérateur Adobe Campaign crée une tâche, elle lui est automatiquement assignée. Pour sélectionner un autre opérateur, utilisez la méthode **[!UICONTROL Affecté à]** champ .
 
 ![](assets/s_ncs_user_task_edit_simple_general_tab.png)
 
@@ -99,7 +99,7 @@ Par défaut, lorsqu&#39;un opérateur Adobe Campaign crée une tâche, elle lui
 
 En plus du responsable, vous pouvez indiquer les opérateurs impliqués dans la réalisation de la tâche. Ces opérateurs ne sont pas habilités à clore la tâche. Ils peuvent uniquement valider la partie de la tâche qui leur est assignée.
 
-Ils sont sélectionnés à partir de l&#39;icône **[!UICONTROL Ressources]** située dans la barre d&#39;outils de la tâche. Cliquez sur **[!UICONTROL Ajouter]** et sélectionnez les opérateurs concernés.
+Ils sont sélectionnés à l’aide du **[!UICONTROL Ressources]** dans la barre d’outils de la tâche. Cliquez sur **[!UICONTROL Ajouter]** et sélectionnez les opérateurs et opératrices concernés.
 
 ![](assets/s_ncs_user_task_add_resources.png)
 
@@ -121,11 +121,11 @@ Le tableau de bord de l&#39;opérateur permet de consulter sa charge de travail,
 
 ### Opérateurs validants {#reviewers}
 
-En plus des intervenants, vous pouvez également définir des opérateurs qui valideront la tâche une fois qu&#39;elle aura été close par son responsable. Pour cela, cliquez sur l&#39;option **[!UICONTROL Activer la validation de la tâche]**, dans la partie inférieure gauche de la fenêtre des **[!UICONTROL Ressources]**. Il peut s&#39;agir d&#39;un opérateur individuel, d&#39;un groupe d&#39;opérateurs ou d&#39;une liste d&#39;opérateurs.
+En complément des participants, vous pouvez définir des opérateurs qui valideront la tâche une fois qu&#39;elle aura été close par le responsable. Pour ce faire, cliquez sur le bouton **[!UICONTROL Activer la validation des tâches]** dans la section inférieure gauche de l’objet **[!UICONTROL Ressources]** fenêtre. Il peut s’agir d’un opérateur ou d’une opératrice individuel(le), d’un groupe d’opérateurs ou d’opératrices ou d’une liste d’opérateurs ou d’opératrices.
 
 ![](assets/s_ncs_user_task_edit_resource_validation.png)
 
-Pour désigner une liste d&#39;opérateurs, cliquez sur le lien **[!UICONTROL Editer...]** situé à droite du champ désignant le premier validant et ajoutez autant d&#39;opérateurs additionnels que nécessaire, comme dans l&#39;exemple ci-dessous :
+Pour désigner une liste d’opérateurs ou d’opératrices, cliquez sur le lien **[!UICONTROL Editer...]** situé à droite du champ désignant le premier validant ou la première validante et ajoutez autant d’opérateurs et d’opératrices supplémentaires que nécessaire, comme dans l’exemple ci-dessous :
 
 ![](assets/s_ncs_user_task_edit_resource_operators.png)
 
@@ -133,7 +133,7 @@ Vous pouvez définir un planning de validation pour la tâche, dans la section i
 
 ![](assets/s_ncs_user_edit_op_valid_calendar.png)
 
-Le responsable de la tâche peut se charger de la validation et ce, même si des opérateurs validants ont été définis. Si aucun opérateur validant n&#39;est défini, les notifications seront alors adressées au responsable de la tâche. Tous les autres opérateurs Adobe Campaign ayant des droits **[!UICONTROL Administrateur]** sont également habilités à valider la tâche. En revanche, ils ne reçoivent pas de notifications.
+Le responsable de la tâche peut se charger de la validation, même si d&#39;autres opérateurs lui ont déjà été assignés. Si aucun opérateur validant n&#39;a été défini, les notifications seront envoyées au responsable de la tâche. Tous les autres opérateurs Adobe Campaign avec **[!UICONTROL Administrateur]** Les droits peuvent également approuver la tâche. Cependant, elles ne recevront aucune notification.
 
 ### Documents référencés {#documents-referenced}
 
@@ -195,7 +195,7 @@ Un prestataire externe peut être impliqué dans la gestion de la tâche.
 
 Pour cela, éditez les propriétés de la tâche et sélectionnez le prestataire concerné. Les postes de coûts associés au prestataire sont automatiquement listés dans la section centrale de la fenêtre.
 
-Pour plus d&#39;informations, reportez-vous à la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+Pour plus d&#39;informations, reportez-vous à la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 Sélectionnez les postes de coûts afférents à la réalisation de la tâche. Pour cela, choisissez le type de coût et ajoutez éventuellement un montant à surcharger.
 
@@ -309,14 +309,14 @@ La tâche de création d&#39;une ressource marketing interagit avec la ressource
 * Les opérateurs peuvent travailler normalement sur la ressource (télécharger le fichier vers ou depuis le serveur, verrouiller et déverrouiller la ressource) : cela n&#39;a pas d&#39;incidence sur la tâche.
 * La validation et la publication de la ressource peuvent être faites via la tâche : si l&#39;option **[!UICONTROL Publier la ressource marketing]** est active, la ressource est automatiquement validée et publiée lorsque la tâche est terminée. Si l&#39;option n&#39;est pas active, il n&#39;y a pas d&#39;interaction entre la tâche et la ressource : une action effectuée dans l&#39;une n&#39;aura aucun effet sur l&#39;autre.
 
-  Vous pouvez utiliser une série de tâches liées pour définir un chemin de validation complet. Cochez l&#39;option **[!UICONTROL Publier la ressource marketing]** uniquement au niveau de la dernière tâche : toutes les tâches devront être terminées pour que la ressource puisse être publiée. De plus, lorsque vous créerez une tâche de ressource marketing enfant d&#39;une autre tâche de ressource marketing, la ressource sera automatiquement sélectionnée dans la tâche-fille.
+  Vous pouvez utiliser une série de tâches liées pour définir un cycle de validation complet. Vérifiez les **[!UICONTROL Publier la ressource marketing]** uniquement pour la dernière tâche : toutes les tâches devront être terminées pour que la ressource soit publiée. De plus, lorsque vous créez une tâche de ressource marketing enfant, la ressource est automatiquement sélectionnée dans la tâche enfant.
 
    * **Via la ressource** : si vous soumettez la ressource à validation ou la validez, ces actions n&#39;auront aucun effet sur la tâche.
    * **Via la tâche** : si l&#39;option **[!UICONTROL Publier la ressource marketing]** est cochée dans la tâche, la ressource est automatiquement validée et publiée lorsque la tâche est terminée (voir ci-dessous). Si l&#39;option n&#39;est pas cochée, il n&#39;y a pas d&#39;interaction entre la tâche et la ressource :une action effectuée dans l&#39;une n&#39;aura aucune incidence sur l&#39;autre.
 
 #### Paramétrer une tâche de création de ressource marketing {#configuring-a-marketing-resource-creation-task}
 
-Le validant de la tâche peut être différent du validant de contenu défini dans la ressource. Cependant, si l&#39;option **[!UICONTROL Publier la ressource marketing]** est cochée (voir ci-dessous), le validant de la tâche est autorisé à valider le contenu de la ressource, puisque terminer la tâche valide automatiquement la ressource (ou, si aucun validant n&#39;est défini, le responsable de la tâche).
+La personne qui consulte la tâche n’est pas nécessaire pour la même personne que celle qui consulte le contenu défini dans la ressource. Cependant, si la variable **[!UICONTROL Publier la ressource marketing]** est cochée (voir ci-dessous), le validant de la tâche est autorisé à valider le contenu de la ressource, puisque terminer la tâche valide automatiquement la ressource (ou, si aucun validant n&#39;est défini, le responsable de la tâche).
 
 ![](assets/mrm_task_asset_creation.png)
 
@@ -378,7 +378,7 @@ Lors de sa création, les éléments suivants doivent être renseignés dans la 
 
   ![](assets/mrm_task_notif_dashboard_msg.png)
 
-Vous pouvez attacher une pièce jointe à la tâche, et à l&#39;email de notification. Pour cela, cliquez sur l&#39;icône **[!UICONTROL Documents]** dans la barre d&#39;outils en haut de la boîte.
+Vous pouvez ajouter une pièce jointe à la tâche et à l&#39;email de notification. Pour ce faire, cliquez sur le bouton **[!UICONTROL Documents]** dans la barre d’outils située dans le coin supérieur droit.
 
 ## Cycle de vie {#life-cycle-1}
 
@@ -428,8 +428,8 @@ Les statuts des tâches sont visualisables dans la vue d&#39;ensemble des tâche
 Une tâche peut être : **[!UICONTROL Planifiée]**, **[!UICONTROL En cours]**, **[!UICONTROL Terminée]**, **[!UICONTROL Annulée]**, **[!UICONTROL En attente de validation]** ou **[!UICONTROL Refusée]**.
 
 * A sa création, une tâche est **[!UICONTROL Planifiée]** si sa date de début se situe dans le futur. Une fois créée, elle reste planifiée tant que sa date de début n&#39;est pas atteinte.
-* Une fois débutée, la tâche est **[!UICONTROL En cours]**. Lorsque le responsable de la tâche la clôt, elle passe en **[!UICONTROL Terminée]**.
-* Si un validant a été défini, la tâche est **[!UICONTROL En attente de validation]** entre le moment où le responsable la clôt et le moment où le validant la valide. Si le validant la refuse, la tâche est **[!UICONTROL Refusée]**.
+* Une fois qu’elle a été lancée, la tâche est **[!UICONTROL En cours]**. Lorsque le responsable de la tâche la ferme, elle passe à **[!UICONTROL Terminé]**.
+* Si un validant a été défini, la tâche sera **[!UICONTROL En attente de validation]** une fois que le responsable l&#39;a clôt et jusqu&#39;à ce que le validant l&#39;approuve. Si le validant le refuse, la tâche sera **[!UICONTROL Rejetés]**.
 * Une tâche peut être annulée par son responsable depuis le tableau de bord ou à partir de la **[!UICONTROL Vue d&#39;ensemble des tâches]** en cliquant sur le bouton **[!UICONTROL Annuler]**.
 * Pour planifier une tâche, saisissez une date de démarrage dans le futur. Vous pouvez alors envoyer une notification initiale aux opérateurs Adobe Campaign impliqués dans la réalisation de cette tâche. Voir à ce sujet la section [Cycle de vie complet d&#39;une tâche](#complete-task-life-cycle).
 
@@ -461,7 +461,7 @@ Voici les différentes étapes du cycle de vie complet d&#39;une tâche pour laq
 
    A la création d&#39;une tâche planifiée dans le futur, celle-ci passe à l&#39;état **[!UICONTROL Planifiée]**.
 
-1. A la date de début de la tâche, le responsable et les intervenants reçoivent un email de notification les informant que la tâche a commencé. La tâche passe à l&#39;état **[!UICONTROL En cours]**.
+1. A la date de début de la tâche, le responsable et les intervenants reçoivent une notification leur indiquant que la tâche est lancée. Son état passe à **[!UICONTROL En cours]**.
 1. Lorsqu&#39;un intervenant a terminé la partie qui lui a été assignée, il valide la tâche, au choix :
 
    * à partir de l&#39;email de notification.
@@ -508,4 +508,4 @@ Voici les différentes étapes du cycle de vie complet d&#39;une tâche pour laq
 
    >[!NOTE]
    >
-   >Lorsqu&#39;une tâche est terminée, le responsable a la possibilité de réinitialiser son cycle de vie. Pour cela, ouvrez la tâche, puis cliquez sur le lien **[!UICONTROL Réinitialiser la tâche pour l&#39;exécuter à nouveau...]** situé dans la partie inférieure de son tableau de bord.
+   >Une fois la tâche terminée, son cycle de vie peut être réinitialisé par le responsable. Pour ce faire, ouvrez la tâche et cliquez sur le bouton **[!UICONTROL Réinitialiser la tâche pour l’exécuter à nouveau...]** lien au bas du tableau de bord.

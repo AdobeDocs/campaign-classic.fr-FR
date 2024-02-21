@@ -5,10 +5,10 @@ description: En savoir plus sur l’activité de workflow de requête
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '1699'
-ht-degree: 100%
+source-wordcount: '1701'
+ht-degree: 83%
 
 ---
 
@@ -45,7 +45,7 @@ Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de cib
 
    ![](assets/query_temporary_table.png)
 
-1. Définissez la sélection des populations via l&#39;assistant. Les champs à renseigner peuvent différer en fonction du type de cible. Vous pouvez afficher un aperçu de la population ciblée avec vos critères actuels via l&#39;onglet **[!UICONTROL Aperçu]**.
+1. Définissez les populations à l&#39;aide de l&#39;assistant. Les champs à renseigner peuvent différer en fonction du type de cible. Vous pouvez prévisualiser la population ciblée avec vos critères actuels à l’aide de la variable **[!UICONTROL Aperçu]** .
 
    La création et l&#39;utilisation des filtres et des requêtes sont présentées dans cette [section](../../platform/using/filtering-options.md).
 
@@ -53,9 +53,9 @@ Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de cib
 
 1. Ajoutez éventuellement des critères de filtrage manuellement si vous avez sélectionné **[!UICONTROL Critères de filtrage]** à l&#39;étape 1 ou via l&#39;option **[!UICONTROL Filtres]** > **[!UICONTROL Filtre avancé...]**.
 
-   Vous pouvez également ajouter des conditions de groupement de données en cochant la case correspondante. Pour cela, la dimension de filtrage doit impérativement être différente de la dimension de ciblage de la requête. Pour plus d&#39;informations concernant le groupement, consultez cette [section](querying-using-grouping-management.md).
+   Vous pouvez également ajouter des conditions de groupement de données en cochant la case correspondante. Pour cela, la dimension de filtrage doit être différente de la dimension de ciblage de la requête. Pour plus d&#39;informations sur le groupement, reportez-vous à cette section [section](querying-using-grouping-management.md).
 
-   Vous pouvez ajouter plusieurs critères en vous aidant de l&#39;outil de construction d&#39;expressions et les combiner via les opérateurs logiques ET, OU et SAUF. Vous pouvez ensuite afficher la **[!UICONTROL Requête SQL correspondante...]** à votre combinaison de critères. Voir à ce propos cette [section](../../platform/using/defining-filter-conditions.md#building-expressions).
+   Vous pouvez également ajouter d’autres critères à l’aide du générateur d’expression et les combiner avec les options logiques AND, OR et SACEPT. Vous pouvez ensuite afficher un aperçu de la **[!UICONTROL Requête SQL correspondante...]** pour votre combinaison de critères. Voir à ce propos cette [section](../../platform/using/defining-filter-conditions.md#building-expressions).
 
    Enregistrez votre filtre si vous souhaitez le réutiliser ultérieurement.
 
@@ -74,8 +74,8 @@ Sélectionnez d&#39;abord le type de données à ajouter :
 ![](assets/wf_add_data_1st_option.png)
 
 * Sélectionnez **[!UICONTROL Données liées à la dimension de ciblage]** pour sélectionner des données de la base Adobe Campaign.
-* Sélectionnez **[!UICONTROL Données externes]** pour ajouter des données issues d’une base de données externe. Cette option n’est disponible que si vous avez acquis l’option **Federated Data Access**. Pour plus dʼinformations, consultez la section [Accès à une base de données externe (FDA)](accessing-an-external-database--fda-.md).
-* Sélectionnez l&#39;option **[!UICONTROL Une proposition d&#39;offre]** pour ajouter un ensemble de colonnes permettant de stocker la meilleure proposition générée par le moteur d&#39;offres. Cette option n&#39;est disponible que si vous avez acquis le module **Interaction**.
+* Sélectionner **[!UICONTROL Données externes]** pour ajouter des données provenant d&#39;une base externe. Cette option n’est disponible que si vous avez acheté la variable **Federated Data Access** . Pour plus dʼinformations, consultez la section [Accès à une base de données externe (FDA)](accessing-an-external-database-fda.md).
+* Sélectionnez la variable **[!UICONTROL Une proposition d&#39;offre]** pour ajouter un ensemble de colonnes permettant de stocker la meilleure proposition générée par le moteur d&#39;offres. Cette option n’est disponible que si vous avez acheté la variable **Interaction** module .
 
 Si aucun module optionnel n&#39;est installé sur la plateforme, cette étape n&#39;est pas affichée. Vous accédez directement à l&#39;étape suivante.
 
@@ -114,7 +114,7 @@ Pour ajouter une collection d&#39;informations liées à une population ciblée�
      >Si la condition initiale n&#39;est pas respectée, le résultat peut être erroné (lignes manquantes ou doublons).
 
    * Si vous choisissez de récupérer plusieurs lignes (**[!UICONTROL Limiter le nombre de lignes]**), vous pouvez indiquer le nombre de lignes à collecter.
-   * Si les colonnes collectées contiennent des agrégats, par exemple le nombre de sinistres déclarés, la moyenne des dépenses sur un site, etc., vous pouvez utiliser la valeur **[!UICONTROL Agrégats]**.
+   * Si les colonnes collectées contiennent des agrégats, par exemple le nombre de sinistres déclarés, la moyenne des dépenses sur un site, etc. vous pouvez utiliser la variable **[!UICONTROL Agrégats]** .
 
    ![](assets/query_add_collection_param.png)
 
@@ -152,7 +152,7 @@ Dans l&#39;exemple suivant, la requête cherchera à identifier les hommes de 18
    ![](assets/query_example_preview.png)
 
 1. Sauvegardez éventuellement vos filtres pour pouvoir les réutiliser ultérieurement puis cliquez sur **[!UICONTROL Terminer]** > **[!UICONTROL Ok]**.
-1. Poursuivez l’édition de votre workflow en y ajoutant d’autres activités. Une fois ce dernier lancé et l’étape de la requête précédemment créée terminée, le nombre de destinataires trouvés s’affiche. Vous pouvez en afficher le détail via le menu pop-up de la souris (clic droit sur la transition > **[!UICONTROL Afficher la cible]**).
+1. Poursuivez l&#39;édition de votre workflow en y ajoutant d&#39;autres activités. Une fois lancé et l&#39;étape de requête précédente terminée, le nombre de destinataires trouvés s&#39;affiche. Vous pouvez afficher d’autres détails à l’aide du menu contextuel de la souris (cliquez avec le bouton droit de la souris sur la transition > **[!UICONTROL Afficher la cible...]**).
 
    ![](assets/query_example_result.png)
 
@@ -162,9 +162,9 @@ Dans l&#39;exemple suivant, la requête cherchera à identifier les hommes de 18
 * schema
 * recCount
 
-Ce triplet de valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
+Ce triplet de valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans le tableau.
 
-Cette valeur est le schéma de la table de travail. Ce paramètre est valable pour toutes les transitions avec **[!UICONTROL tableName]** et **[!UICONTROL schema]**.
+Cette valeur est le schéma de la table de travail. Ce paramètre est valide pour toutes les transitions avec **[!UICONTROL tableName]** et **[!UICONTROL schema]**.
 
 ## Optimisation des requêtes {#optimizing-queries}
 

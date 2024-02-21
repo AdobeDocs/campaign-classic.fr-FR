@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -41,7 +41,7 @@ Découvrez comment importer un contenu HTML pour créer et envoyer en un clic un
 
 ## Comment utiliser le Digital Content Editor d’Adobe Campaign pour concevoir un e-mail ?  {#how-to-use-campaign-dce-to-create-an-email-content-}
 
-[Concevoir un email avec le Digital Content Editor Campaign](../../web/using/use-case--creating-an-email-delivery.md) : apprenez, à travers un exemple, à utiliser le DCE Campaign pour concevoir un email.
+[Concevoir un email avec le Digital Content Editor Campaign](../../web/using/use-case-creating-an-email-delivery.md) : apprenez, à travers un exemple, à utiliser le DCE Campaign pour concevoir un email.
 
 ## Comment créer une newsletter par abonnement dans Campaign ?  {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 
@@ -53,15 +53,15 @@ Les messages diffusés par Adobe Campaign peuvent faire l&#39;objet de plusieur
 
 * Personnaliser le format du message. [Pour en savoir plus, cliquez ici](../../delivery/using/defining-the-email-content.md#message-content).
 * Insérer des champs de personnalisation dynamiques. [Pour en savoir plus, cliquez ici](../../delivery/using/personalization-fields.md).
-* Insérer des blocs de personnalisation prédéfinis ou créer les vôtres. [Pour en savoir plus, cliquez ici](../../delivery/using/personalization-blocks.md).
-* Créer du contenu conditionnel. [Pour en savoir plus, cliquez ici](../../delivery/using/conditional-content.md) et consultez [cette section](../../delivery/using/conditional-content.md).
+* Insérer des blocs de personnalisation prédéfinis ou créer votre propre bloc. [Pour en savoir plus, cliquez ici](../../delivery/using/personalization-blocks.md).
+* Créer du contenu conditionnel. [Cliquez ici pour en savoir plus](../../delivery/using/conditional-content.md) et lire [cette section](../../delivery/using/conditional-content.md).
 
 ## Puis-je envoyer des messages multilingues ?  {#can-i-send-multilingual-messages-}
 
 Vous pouvez envoyer des messages multilingues à vos destinataires, en fonction de leurs préférences ou de leur pays, par exemple.
 
-Pour cela, vous pouvez localiser le contenu du message et le personnaliser en fonction du profil du destinataire, à l&#39;aide de [conditions](../../delivery/using/conditional-content.md). Vous pouvez également utiliser des [workflows](../../workflow/using/split.md) pour sélectionner la version du message à envoyer en fonction d&#39;un test sur les préférences linguistiques.
+Pour cela, vous pouvez localiser le contenu du message et le personnaliser en fonction du profil du destinataire, à l&#39;aide de la fonction [conditions](../../delivery/using/conditional-content.md). Vous pouvez également utiliser [workflows](../../workflow/using/split.md) pour sélectionner la version du message à envoyer en fonction d&#39;un test sur la langue souhaitée.
 
 ## Comment puis-je localiser un formulaire web ?  {#how-can-i-localize-a-webform-}
 
-Vous pouvez localiser une application web dans plusieurs langues. Le mécanisme de traduction est présenté dans [cette section](../../web/using/translating-a-web-form.md).
+Vous pouvez localiser une application web dans plusieurs langues. Le mécanisme de traduction est présenté dans la section [cette section](../../web/using/translating-a-web-form.md).

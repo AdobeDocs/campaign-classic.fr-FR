@@ -6,10 +6,10 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '1301'
-ht-degree: 100%
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
+source-wordcount: '1296'
+ht-degree: 89%
 
 ---
 
@@ -31,7 +31,7 @@ Pour créer une campagne marketing, suivez les étapes suivantes :
 
 1. Surveillez les diffusions. [En savoir plus](../../campaign/using/marketing-campaign-monitoring.md).
 
-1. Planifiez les opérations et les coûts associés. [En savoir plus](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+1. Planifiez les opérations et les coûts associés. [En savoir plus](../../campaign/using/providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
 Une fois ces étapes terminées, vous pouvez lancer les diffusions (voir [cette section](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), vérifier les données, les processus et les informations relatifs aux diffusions et, si nécessaire, gérer les documents associés (voir [cette section](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). Vous pouvez également suivre l’exécution des phases de traitement des opérations et des diffusions (voir [cette section](../../campaign/using/marketing-campaign-monitoring.md)).
 
@@ -59,29 +59,29 @@ Pour configurer l&#39;arborescence des dossiers des plans marketing et des progr
 
 ### Ajout d’une opération {#adding-a-campaign}
 
-Vous pouvez créer une opération depuis la liste des opérations. Pour afficher cette vue, sélectionnez le lien **[!UICONTROL Opérations]** disponible depuis l&#39;univers **[!UICONTROL Campagnes]**.
+Vous pouvez créer une campagne à partir de la liste des campagnes. Pour afficher cette vue, sélectionnez la **[!UICONTROL Campagnes]** dans le menu **[!UICONTROL Campagnes]** tableau de bord.
 
 ![](assets/s_ncs_user_add_an_op_from_list.png)
 
-Le champ **[!UICONTROL Programme]** permet de sélectionner le programme auquel sera rattachée l&#39;opération. Cette information est obligatoire.
+Le champ **[!UICONTROL Programme]** permet de sélectionner le programme auquel sera rattachée l’opération. Cette information est obligatoire.
 
 ![](assets/s_ncs_user_new_op_wz_a.png)
 
-Les opérations peuvent également être créées depuis un programme. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** proposé dans l&#39;onglet **[!UICONTROL Planning]** programme concerné.
+Les campagnes peuvent également être créées au moyen d’un programme. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter]** dans le **[!UICONTROL Planification]** onglet du programme concerné.
 
 ![](assets/s_ncs_user_add_an_op.png)
 
-Lorsque vous créez une opération à partir de l&#39;onglet **[!UICONTROL Planning]** d&#39;un programme, l&#39;opération est automatiquement rattachée au programme concerné. Le champ **[!UICONTROL Programme]** est alors masqué.
+Lorsque vous créez une campagne à partir du **[!UICONTROL Planification]** onglet d&#39;un programme, l&#39;opération est automatiquement rattachée au programme concerné. La variable **[!UICONTROL Programme]** est masqué dans ce cas.
 
 Dans la fenêtre de création de campagne, sélectionnez le modèle de campagne et ajoutez un nom et une description de la campagne. Vous pouvez également spécifier les dates de début et de fin de la campagne.
 
-Cliquez sur **[!UICONTROL OK]** pour créer l&#39;opération. Elle est ajoutée au planning du programme.
+Cliquez sur **[!UICONTROL OK]** pour créer la campagne. Il est ajouté au planning du programme.
 
 ![](assets/s_ncs_user_program_planning_with_op.png)
 
 >[!NOTE]
 >
->Pour filtrer les opérations à afficher, cliquez sur le lien **[!UICONTROL Filtrer]** et sélectionnez le statut des opérations à afficher
+>Pour filtrer les opérations à afficher, cliquez sur le lien **[!UICONTROL Filtrer]** et sélectionnez le statut des opérations à afficher.
 
 ![](assets/s_ncs_user_program_planning_filter.png)
 
@@ -136,7 +136,7 @@ Le mode de configuration du planning d&#39;exécution correspond à l&#39;objet 
 
    >[!NOTE]
    >
-   >Ce workflow doit être enregistré comme un modèle de workflow récurrent. Pour cela, modifiez les propriétés du workflow et sélectionnez l&#39;option **[!UICONTROL Modèle de workflow récurrent]** dans l&#39;onglet **[!UICONTROL Exécution]**.
+   >Ce workflow doit être enregistré comme un modèle de workflow récurrent. Pour ce faire, éditez les propriétés du workflow et sélectionnez l’option **[!UICONTROL Modèle de workflow récurrent]** dans le **[!UICONTROL Exécution]** .
 
    ![](assets/s_ncs_user_op_template_recur_wf_option.png)
 
@@ -153,14 +153,14 @@ Pour créer l&#39;opération récurrente et exécuter ses workflows selon le pla
 
    Pour chaque ligne, il est possible d&#39;ajouter les options supplémentaires suivantes :
 
-   * **[!UICONTROL A valider]** : permet de forcer les demandes de validation des diffusions dans le workflow.
+   * **[!UICONTROL A valider]** : permet de forcer les demandes de validation de diffusion dans le workflow.
    * **[!UICONTROL A démarrer]** : permet de démarrer le workflow une fois la date de début atteinte.
 
    Le champ **[!UICONTROL Créer d&#39;avance pour]** permet de créer l&#39;ensemble des workflows couvrant la période renseignée.
 
    A l&#39;exécution du workflow **[!UICONTROL Traitements sur les opérations]**, les workflows dédiés sont créés selon les occurrences définies dans le planning de l&#39;opération. Ainsi, un workflow est créé pour chaque date d&#39;exécution.
 
-1. Les workflows récurrents sont créés automatiquement à partir du modèle de workflow présent dans l&#39;opération. Ils sont visibles à partir de l&#39;onglet **[!UICONTROL Ciblages et workflows]** de l&#39;opération.
+1. Les workflows récurrents sont créés automatiquement à partir du modèle de workflow présent dans l&#39;opération. Elles sont visibles à partir de la variable **[!UICONTROL Ciblage et workflows]** de l&#39;opération.
 
    ![](assets/s_ncs_user_op_recur_planning_wfs.png)
 

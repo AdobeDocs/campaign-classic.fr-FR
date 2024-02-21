@@ -6,10 +6,10 @@ badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Class
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '907'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,7 @@ En complément des modes de stockage standard communs à tous les formulaires We
 
 ### Stocker les réponses dans un champ archivé {#storing-in-an-archived-field}
 
-Vous pouvez facilement étendre le modèle de données en ajoutant de nouveaux espaces de stockage pour enregistrer les réponses fournies dans les questionnaires. Vous devez pour cela choisir l&#39;option **[!UICONTROL Stocker les réponses à une question]** lors de la création du champ de saisie. Cliquez sur le lien **[!UICONTROL Nouveau champ...]** et indiquez ses propriétés :
+Il est facile d&#39;étendre le modèle de données en ajoutant de nouveaux espaces de stockage pour enregistrer les réponses fournies dans les questionnaires. Pour ce faire, sélectionnez l’option **[!UICONTROL Stocker les réponses à une question]** lors de la création du champ de saisie. Cliquez sur le bouton **[!UICONTROL Nouveau champ...]** et indiquez ses propriétés :
 
 ![](assets/s_ncs_admin_survey_new_space.png)
 
@@ -61,7 +61,7 @@ Dans l&#39;onglet **[!UICONTROL Général]** du champ, le lien **[!UICONTROL Ini
 
 Pour stocker les types de contrats d&#39;un utilisateur dans un même champ, créez un champ de saisie de type **[!UICONTROL Texte]** et sélectionnez l&#39;option **[!UICONTROL Stocker les réponses à une question]**.
 
-Cliquez sur le lien **[!UICONTROL Nouveau champ...]** et indiquez les propriétés du champ. Sélectionnez l&#39;option **[!UICONTROL Choix multiples]** afin de permettre le stockage de plusieurs valeurs.
+Cliquez sur le bouton **[!UICONTROL Nouveau champ...]** et renseignez les propriétés du champ. Sélectionnez la variable **[!UICONTROL Plusieurs valeurs]** pour permettre le stockage de plusieurs valeurs.
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex1.png)
 
@@ -81,7 +81,7 @@ Vous pouvez les visualiser dans l&#39;onglet **[!UICONTROL Réponses]** du quest
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex4.png)
 
-Vous pouvez également filtrer les destinataires en fonction des réponses fournies pour n&#39;afficher que les utilisateurs recherchés. Pour cela, créez un workflow de ciblage et utilisez la boîte **[!UICONTROL Réponses à un questionnaire]**.
+Vous pouvez également filtrer les destinataires en fonction des réponses afin de n&#39;afficher que les utilisateurs qui vous intéressent. Pour cela, créez un workflow de ciblage et utilisez la méthode **[!UICONTROL Réponses à un questionnaire]** de la boîte.
 
 ![](assets/s_ncs_admin_survey_read_responses_wf.png)
 
@@ -101,7 +101,7 @@ Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans 
 
 ### Paramètres de stockage {#storage-settings}
 
-Vous pouvez archiver les réponses aux questionnaires au format XML. Vous pouvez ainsi conserver une copie brute des réponses collectées, ce qui peut s&#39;avérer utile en cas de normalisation excessive des données dans une liste détaillée d&#39;informations. [En savoir plus](../../surveys/using/publish--track-and-use-collected-data.md#standardizing-data)
+Vous pouvez archiver les réponses aux questionnaires au format XML. Vous pouvez ainsi conserver une copie brute des réponses collectées, ce qui peut s&#39;avérer utile en cas de normalisation excessive des données dans une liste détaillée d&#39;informations. [En savoir plus](../../surveys/using/publish-track-and-use-collected-data.md#standardizing-data)
 
 >[!CAUTION]
 >
@@ -114,7 +114,7 @@ Pour cela :
 
 ![](assets/s_ncs_admin_survey_xml_archive_option.png)
 
-Vous pouvez l&#39;activer par défaut pour tous les questionnaires (cette option est appliquée à la publication du questionnaire). Pour cela, créez l&#39;option **[!UICONTROL NmsWebApp_XmlBackup]** et attribuez-lui la valeur **[!UICONTROL 1]**, comme ci-dessous :
+Vous pouvez l&#39;activer par défaut pour toutes les enquêtes (cette option est appliquée à la publication de l&#39;enquête). Pour ce faire, créez le **[!UICONTROL NmsWebApp_XmlBackup]** option et attribuer une valeur **[!UICONTROL 1]** , comme illustré ci-dessous :
 
 ![](assets/s_ncs_admin_survey_xml_global_option.png)
 

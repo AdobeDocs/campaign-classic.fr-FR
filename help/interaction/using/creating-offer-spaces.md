@@ -8,10 +8,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '1044'
+ht-degree: 88%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 La création des emplacements ne peut être effectuée que par un **administrateur technique** qui a accès au sous-dossier des emplacements. Elle ne s&#39;effectue que dans l&#39;environnement en édition. Les emplacements sont automatiquement dupliqués dans l&#39;environnement en ligne lors de la validation des offres.
 
-Le contenu des offres du catalogue est paramétré dans les emplacements. Par défaut, le contenu peut être composé des champs suivants : **[!UICONTROL Titre]**, **[!UICONTROL URL de destination]**, **[!UICONTROL URL de l&#39;image]**, **[!UICONTROL Contenu HTML]** et **[!UICONTROL Contenu Texte]**. L&#39;ordre des champs est paramétré au niveau de l&#39;emplacement.
+Le contenu des offres du catalogue est paramétré dans les emplacements. Par défaut, le contenu peut contenir les champs suivants : **[!UICONTROL Titre]**, **[!UICONTROL URL de destination]**, **[!UICONTROL URL d&#39;image]**, **[!UICONTROL Contenu HTML]** et **[!UICONTROL Contenu texte]**. La séquence des champs est paramétrée dans l&#39;emplacement.
 
-Des paramètres avancés vous permettent de définir une clé d&#39;identification du contact (qui peut être composée de plusieurs éléments, comme par exemple le champ nom et le champ email à la fois). Voir à ce sujet la section [Présenter une offre identifiée](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer).
+Des paramètres avancés vous permettent de définir une clé d&#39;identification du contact (qui peut être composée de plusieurs éléments, comme par exemple le champ nom et le champ email à la fois). Voir à ce sujet la section [Présenter une offre identifiée](../../interaction/using/integration-via-javascript-client-side.md#presenting-an-identified-offer).
 
 Le rendu HTML ou XML est créé via une fonction de rendu. L&#39;ordre des champs définis dans la fonction de rendu doit être identique à celui paramétré dans le contenu.
 
@@ -100,7 +100,7 @@ Ces valeurs ne sont pas appliquées par défaut et doivent donc être paramétr�
 
 ### Paramétrer l&#39;état à la création de la proposition {#configuring-the-status-when-the-proposition-is-created}
 
-Lorsqu&#39;une proposition d&#39;offre est créée par le moteur d&#39;interaction, son état est modifié, qu&#39;il s&#39;agisse d&#39;une interaction entrante ou sortante. Le choix entre les différentes valeurs dépend de la façon dont auront été configurés les emplacements des offres dans l&#39;environnement **[!UICONTROL En édition]**.
+Lorsqu&#39;une proposition d&#39;offre est créée par le moteur d&#39;interaction, son état est modifié, qu&#39;il s&#39;agisse d&#39;une interaction entrante ou sortante. Le choix entre ces deux valeurs dépend de la configuration des emplacements dans la variable **[!UICONTROL Conception]** environnement
 
 Pour chaque emplacement, vous pouvez paramétrer l&#39;état que vous souhaitez appliquer lors de la création de la proposition, selon l&#39;information que vous voulez voir apparaître dans les rapports d&#39;offre.
 
@@ -140,13 +140,13 @@ Dès lors qu&#39;un visiteur clique sur l&#39;offre, et donc sur l&#39;URL, le s
 
 >[!NOTE]
 >
->Si vous souhaitez appliquer un autre état dans l&#39;URL (par exemple, si une proposition d&#39;offre est refusée), utilisez la valeur correspondant à l&#39;état souhaité. Par exemple, **[!UICONTROL Refusée]** = &quot;5&quot;, **[!UICONTROL Présentée]** = &quot;1&quot;, etc.
+>Si vous souhaitez spécifier un autre état dans l’URL (par exemple si une proposition d’offre est refusée), utilisez la valeur correspondant à l’état souhaité. Exemple : **[!UICONTROL Rejetés]** = &quot;5&quot;, **[!UICONTROL Présenté]** = &quot;1&quot;, etc.
 >
->Les états et leur valeur peuvent être récupérés dans le schéma de données **[!UICONTROL Offer propositions (nms)]**. Voir à ce propos [cette page](../../configuration/using/data-schemas.md).
+>Les états et leurs valeurs peuvent être récupérés dans la variable **[!UICONTROL Propositions d&#39;offres (nms)]** schéma de données. Pour plus d’informations, consultez [cette page](../../configuration/using/data-schemas.md).
 
 **Interaction sortante**
 
-Dans le cas d&#39;une interaction sortante, vous pouvez appliquer automatiquement le statut **[!UICONTROL Intéressante]** à une proposition d&#39;offre lorsque la diffusion contient un lien. Il suffit d&#39;ajouter la valeur **_urlType=&quot;11&quot;** dans le lien :
+Dans le cas d&#39;une interaction sortante, vous pouvez appliquer automatiquement la variable **[!UICONTROL Intéressé]** statut à une proposition d&#39;offre lorsque la diffusion contient un lien. Ajoutez simplement la valeur **_urlType=&quot;11&quot;** au lien :
 
 ```
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>
