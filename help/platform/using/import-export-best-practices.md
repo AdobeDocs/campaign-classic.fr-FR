@@ -9,8 +9,8 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '535'
 ht-degree: 100%
 
@@ -61,8 +61,8 @@ Lorsque cela est possible, utilisez des fichiers compressés pour les imports et
 
 **Rubriques connexes :**
 
-* [Activité Chargement (fichier)](../../workflow/using/data-loading--file-.md)
-* [Activité Extraction des données (fichier)](../../workflow/using/extraction--file-.md)
+* [Activité Chargement (fichier)](../../workflow/using/data-loading-file.md)
+* [Activité Extraction des données (fichier)](../../workflow/using/extraction-file.md)
 
 ## Importer en mode Delta {#importing-in-delta-mode}
 

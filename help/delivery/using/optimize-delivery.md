@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Deliverability
 role: User
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: tm+mt
-source-wordcount: '758'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
+source-wordcount: '746'
 ht-degree: 100%
 
 ---
@@ -77,4 +77,4 @@ Lorsque vous commencez à envoyer des emails sur une nouvelle plateforme, vous p
 
 Pour éviter d&#39;envoyer des messages à des adresses invalides, limiter les communications abusives et améliorer la réputation de l&#39;expéditeur, Adobe recommande de mettre en place un mécanisme de double opt-in pour une confirmation après inscription. Cela vous permet de vous assurer que le destinataire est bien à l&#39;origine de l&#39;abonnement.
 
-Les détails de la mise en œuvre de ce mécanisme sont décrits dans [cette section](../../web/using/use-cases--web-forms.md).
+Les détails de la mise en œuvre de ce mécanisme sont décrits dans [cette section](../../web/using/use-cases-web-forms.md).

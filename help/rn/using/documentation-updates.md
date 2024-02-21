@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: ht
 source-wordcount: '3722'
 ht-degree: 100%
@@ -684,7 +684,7 @@ A section has been added describing the Campaign server uninstallation steps. [R
 
 The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [deliverability](../../delivery/using/about-deliverability.md) and [privacy](../../platform/using/privacy-management.md) getting started guides have been updated.
 
-The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../workflow/using/data-loading--file-.md)
+The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../workflow/using/data-loading-file.md)
 
 The Experience Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
 

@@ -8,8 +8,8 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '424'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Dans plusieurs activités des workflows Adobe Campaign, vous pouvez utiliser le
 
 * **Créer des sous-ensembles** : l&#39;activité de [partage](../../workflow/using/split.md) vous permet de créer des sous-ensembles. Vous pouvez utiliser des données externes pour définir les critères de filtrage à utiliser. Pour plus d’informations, consultez [cette page](../../workflow/using/split.md).
 
-* **Charger la base de données externe** : vous pouvez utiliser les données externes dans l&#39;activité de [chargement](../../workflow/using/data-loading--rdbms-.md) (SGBD). En savoir plus sur [cette page](../../workflow/using/data-loading--rdbms-.md).
+* **Charger la base de données externe** : vous pouvez utiliser les données externes dans l&#39;activité de [chargement](../../workflow/using/data-loading-rdbms.md) (SGBD). En savoir plus sur [cette page](../../workflow/using/data-loading-rdbms.md).
 
 * **Ajouter des informations et des liens** - L’activité d’[Enrichissement](../../workflow/using/enrichment.md) permet d’ajouter des données supplémentaires à la table de travail du workflow et de créer des liens vers une table externe. Dans ce contexte, elle peut utiliser des données provenant d’une base de données externe. En savoir plus sur [cette page](../../workflow/using/enrichment.md).
 

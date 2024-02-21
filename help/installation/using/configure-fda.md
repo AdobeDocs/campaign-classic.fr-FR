@@ -8,8 +8,8 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '354'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Pour configurer l&#39;accès à une base de données externe avec FDA, les étap
 1. Créez le schéma de la base de données externe dans Adobe Campaign. Il est ainsi possible d&#39;identifier la structure des données de la base de données externe. [En savoir plus](../../installation/using/creating-data-schema.md)
 1. Si nécessaire, créez un mapping de ciblage à partir du schéma créé précédemment. Ceci est nécessaire si les destinataires de vos diffusions proviennent de la base de données externe. Cette implémentation s&#39;accompagne de limitations liées à la personnalisation des messages. [En savoir plus](../../installation/using/defining-data-mapping.md)
 
-Une fois le schéma de données créé, les données peuvent être traitées dans Adobe Campaign. Voir à ce propos [cette section](../../workflow/using/accessing-an-external-database--fda-.md).
+Une fois le schéma de données créé, les données peuvent être traitées dans Adobe Campaign. Voir à ce propos [cette section](../../workflow/using/accessing-an-external-database-fda.md).
 
 ## Configuration spécifique à la base de données {#fda-specific-configuration}
 

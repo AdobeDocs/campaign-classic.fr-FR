@@ -9,9 +9,9 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: a2106e55617209f28da42c50008d16188563b2da
-workflow-type: tm+mt
-source-wordcount: '762'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 # Décompresser ou déchiffrer un fichier {#unzipping-or-decrypting-a-file-before-processing}
 
-Adobe Campaign permet d’importer des fichiers compressés ou chiffrés. Avant qu’un fichier ne puisse être lu dans une activité [Chargement de données (fichier)](../../workflow/using/data-loading--file-.md), vous pouvez définir une étape de prétraitement pour le décompresser ou le déchiffrer.
+Adobe Campaign permet d’importer des fichiers compressés ou chiffrés. Avant qu’un fichier ne puisse être lu dans une activité [Chargement de données (fichier)](../../workflow/using/data-loading-file.md), vous pouvez définir une étape de prétraitement pour le décompresser ou le déchiffrer.
 
 >[!IMPORTANT]
 >
@@ -52,7 +52,7 @@ Le cas pratique ci-dessous présente un exemple.
 
 **Rubriques connexes :**
 
-* [Activité Chargement (fichier)](../../workflow/using/data-loading--file-.md).
+* [Activité Chargement (fichier)](../../workflow/using/data-loading-file.md).
 * [Compresser ou chiffrer un fichier](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
 ## Cas pratique : import de données chiffrées à l&#39;aide d&#39;une clé générée par le Panneau de contrôle {#use-case-gpg-decrypt}
@@ -85,7 +85,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
    Les concepts généraux de configuration de l&#39;activité sont présentés dans [cette section](../../workflow/using/file-transfer.md).
 
-1. Ouvrez l&#39;activité **[!UICONTROL Chargement (fichier)]**, puis configurez-la selon vos besoins. Les concepts généraux de paramétrage de l&#39;activité sont présentés dans [cette section](../../workflow/using/data-loading--file-.md).
+1. Ouvrez l&#39;activité **[!UICONTROL Chargement (fichier)]**, puis configurez-la selon vos besoins. Les concepts généraux de paramétrage de l&#39;activité sont présentés dans [cette section](../../workflow/using/data-loading-file.md).
 
    Ajoutez une étape de prétraitement à l’activité pour déchiffrer les données entrantes. Pour ce faire, sélectionnez l&#39;option **[!UICONTROL Inclure un pré-traitement du fichier]**, puis copiez-collez cette commande de déchiffrage dans le champ **[!UICONTROL Commande]** :
 

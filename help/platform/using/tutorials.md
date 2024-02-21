@@ -9,9 +9,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
-source-wordcount: '376'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
@@ -34,9 +34,9 @@ Commencez à utiliser Adobe Campaign en consultant nos guides détaillés intui
 Obtenez des informations supplémentaires sur Adobe Campaign en consultant les cas pratiques et exemples suivants :
 
 * [Créer un filtre sur le format des emails des abonnés](../../platform/using/use-case.md#creating-a-filter-on-the-email-format-of-subscribers) : apprenez à créer un filtre afin de trier les abonnement à des newsletters en fonction du format d&#39;email renseigné par les destinataires.
-* [Créer un formulaire d&#39;inscription avec double opt-in](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in) : apprenez à envoyer une demande de confirmation d&#39;inscription pour créer un double opt-in de façon à vérifier que le destinataire s&#39;est inscrit de façon intentionnelle.
-* [Créer une diffusion e-mail](../../web/using/use-case--creating-an-email-delivery.md) : apprenez à créer une diffusion e-mail à l&#39;aide du Digital Content Editor.
-* [Créer des vues d&#39;ensemble](../../web/using/use-cases--creating-overviews.md) : créez des applications Web de type &quot;vue d&#39;ensemble&quot; afin d&#39;afficher toutes les applications Web dans votre base de données.
+* [Créer un formulaire d&#39;inscription avec double opt-in](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in) : apprenez à envoyer une demande de confirmation d&#39;inscription pour créer un double opt-in de façon à vérifier que le destinataire s&#39;est inscrit de façon intentionnelle.
+* [Créer une diffusion e-mail](../../web/using/use-case-creating-an-email-delivery.md) : apprenez à créer une diffusion e-mail à l&#39;aide du Digital Content Editor.
+* [Créer des vues d&#39;ensemble](../../web/using/use-cases-creating-overviews.md) : créez des applications Web de type &quot;vue d&#39;ensemble&quot; afin d&#39;afficher toutes les applications Web dans votre base de données.
 * [Cas pratiques de workflows](../../workflow/using/about-workflow-use-cases.md) : découvrez comment utiliser les workflows à travers ces cas pratiques.
 
 ## Aide autonome {#how-to-videos}

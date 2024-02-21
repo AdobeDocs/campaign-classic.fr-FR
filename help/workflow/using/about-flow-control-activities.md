@@ -5,8 +5,8 @@ description: À propos des activités d’ordonnancement
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '241'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Les activités suivantes sont les activités de base : leur tâche consiste pri
 * **Attente** : active la transition sortante après un délai donné. Pour plus d&#39;informations, consultez la section [Attente](wait.md).
 * **Contrainte horaire** : permet de suspendre l’exécution d’une tâche pendant une période déterminée. Pour plus d&#39;informations, consultez la section [Contrainte horaire](time-constraint.md).
 * **Sous-workflow** : permet de lancer l’exécution d’un autre workflow. Pour plus d&#39;informations, consultez la section [Sous-workflow](sub-workflow.md).
-* **Sauts** : permettent de mettre en place des transitions sans lien. Pour plus d&#39;informations, consultez la section [Saut (départ et arrivée)](jump--start-point-and-end-point-.md).
+* **Sauts** : permettent de mettre en place des transitions sans lien. Pour plus d&#39;informations, consultez la section [Saut (départ et arrivée)](jump-start-point-and-end-point.md).
 * **Signal externe** : permet d’activer la transition sortante sur réception d’un signal externe. Consultez la section [Signal externe](external-signal.md).
 * **Validation** : permet d’envoyer un email à un opérateur ou à un groupe d’opérateurs et d’attendre la validation pour continuer l’exécution. Pour plus d&#39;informations, consultez la section [Validation](approval.md).
 * **Alerte** : permet d’envoyer un email d’alerte à un opérateur ou à un groupe d’opérateurs. Pour plus d&#39;informations, consultez la section [Alerte](alert.md).

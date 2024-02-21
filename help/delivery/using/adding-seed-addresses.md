@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Seed Address
 role: User
 exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Trois modes d&#39;insertion sont possibles :
 
    Pour cela, cliquez sur le lien **[!UICONTROL Editer la condition dynamique...]**, puis indiquez les paramètres de sélection des adresses de contrôle. Vous pouvez par exemple inclure toutes les adresses de contrôle contenues dans un dossier spécifique ou les adresses de contrôle appartenant à un service particulier de votre société.
 
-   Vous trouverez un exemple dans la section : [Cas pratique : sélectionner des adresses de contrôle selon des critères](use-case--selecting-seed-addresses-on-criteria.md).
+   Vous trouverez un exemple dans la section : [Cas pratique : sélectionner des adresses de contrôle selon des critères](use-case-selecting-seed-addresses-on-criteria.md).
 
 >[!NOTE]
 >

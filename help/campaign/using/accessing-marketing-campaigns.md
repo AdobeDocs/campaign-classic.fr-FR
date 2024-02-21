@@ -6,8 +6,8 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '1224'
 ht-degree: 100%
 
@@ -142,9 +142,9 @@ Le lien **[!UICONTROL Rapports]** permet d&#39;accéder aux rapports de l&#39;op
 Les campagnes sont créées à partir de modèles de campagne : vous pouvez paramétrer des modèles réutilisables pour lesquels certaines options sont sélectionnées et certains paramétres seront déjà enregistrés. Pour chaque campagne, les fonctionnalités suivantes sont proposées :
 
 * Référencement des [documents et ressources](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents) : vous pouvez associer des documents à la campagne (résumés, rapports, images, etc.). Tous les formats de documents sont pris en charge.
-* Définition des coûts : Adobe Campaign permet de définir, pour chaque campagne, des [postes de coûts et des structures de calcul des coûts](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories) que vous pouvez utiliser lors de la création de la campagne marketing. Par exemple : coûts d&#39;impression, intervention d&#39;une agence externe, location d&#39;une salle.
+* Définition des coûts : Adobe Campaign permet de définir, pour chaque campagne, des [postes de coûts et des structures de calcul des coûts](../../campaign/using/providers-stocks-and-budgets.md#defining-cost-categories) que vous pouvez utiliser lors de la création de la campagne marketing. Par exemple : coûts d&#39;impression, intervention d&#39;une agence externe, location d&#39;une salle.
 * Définition d&#39;objectifs : vous pouvez définir des objectifs à réaliser dans le cadre d&#39;une campagne. Ces objectifs sont quantifiables, par exemple : nombre d&#39;abonnés à atteindre, chiffre d&#39;affaires à réaliser, etc. Ces informations sont ensuite exploitées dans les rapports sur les campagnes.
-* Gestion des [adresses de contrôle](../../delivery/using/about-seed-addresses.md) et des [groupes de contrôle](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)
+* Gestion des [adresses de contrôle](../../delivery/using/about-seed-addresses.md) et des [populations témoins](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)
 * Gestion des validations : vous pouvez sélectionner les traitements qui feront l&#39;objet d&#39;une validation et éventuellement sélectionner les opérateurs ou groupes d&#39;opérateurs validants. [En savoir plus](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)
 
 >[!NOTE]

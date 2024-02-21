@@ -9,9 +9,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
-source-wordcount: '2037'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
+source-wordcount: '1980'
 ht-degree: 100%
 
 ---
@@ -79,7 +79,7 @@ Pour plus d’informations sur la confidentialité dans Adobe Experience Cloud
 
 Pour la gestion des informations personnelles, il est important de définir les données à traiter avec soin et par qui.
 * **Les données personnelles** sont des informations qui permettent d&#39;identifier directement ou indirectement un individu vivant.
-* **Les données personnelles sensibles** sont des informations relatives à l&#39;origine, aux points de vue politiques, aux croyances religieuses, aux antécédents criminels, aux renseignements génétiques, aux données sur la santé, aux préférences sexuelles, aux renseignements biométriques ainsi qu&#39;à l&#39;appartenance syndicale.
+* Les **données personnelles sensibles** sont des informations relatives à l’origine, aux points de vue politiques, aux croyances religieuses, aux antécédents criminels, aux renseignements génétiques, aux données sur la santé, aux préférences sexuelles, aux renseignements biométriques ainsi qu’à l’appartenance syndicale.
 
 Lors de l&#39;intégration de Campaign à d&#39;autres solutions Experience Cloud dans lesquelles des audiences peuvent être transférées d&#39;un système à un autre, comme [Adobe Analytics](../../platform/using/adobe-analytics-connector.md), [Audience Manager ou People core service](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md), ou avec d&#39;autres solutions par l&#39;intermédiaire de [connecteurs CRM](../../platform/using/crm-connectors.md), vous devez veiller à la protection des données personnelles.
 
@@ -120,7 +120,7 @@ Voici le flux général de ce cas pratique :
 
 Adobe Campaign vous permet de collecter des données, y compris des informations personnelles et sensibles. Il est donc essentiel de recevoir et surveiller le consentement de vos destinataires.
 
-* Demandez toujours aux destinataires d&#39;accepter de recevoir des communications. Pour ce faire, continuez à honorer les demandes d&#39;opt-out le plus rapidement possible et vérifiez le consentement par le biais d&#39;un processus de double opt-in. Pour plus d&#39;informations à ce sujet, voir [Créer un formulaire d&#39;abonnement avec double opt-in](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in).
+* Demandez toujours aux destinataires d&#39;accepter de recevoir des communications. Pour ce faire, continuez à honorer les demandes d&#39;opt-out le plus rapidement possible et vérifiez le consentement par le biais d&#39;un processus de double opt-in. Pour plus d&#39;informations à ce sujet, voir [Créer un formulaire d&#39;abonnement avec double opt-in](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
 * N&#39;importez pas de listes frauduleuses et utilisez des adresses de contrôle pour vérifier que votre fichier client n&#39;est pas utilisé de façon frauduleuse. Pour plus d’informations à ce sujet, voir [À propos des adresses de contrôle](../../delivery/using/about-seed-addresses.md).
 * Grâce à la gestion des droits et du consentement, vous pouvez tracker les préférences de vos destinataires et gérer les données correspondantes et les utilisateurs de votre organisation qui peuvent y accéder. Pour plus d’informations, consultez [cette section](#consent).
 * Faciliter et gérer les demandes d&#39;accès à des informations personnelles de vos destinataires. Pour plus d’informations, consultez [cette section](#privacy-requests).

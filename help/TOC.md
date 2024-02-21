@@ -6,7 +6,7 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: ht
 source-wordcount: '2536'
 ht-degree: 100%
@@ -23,8 +23,8 @@ ht-degree: 100%
    + [Dernière version](rn/using/latest-release.md)
    + Versions précédentes {#previous-releases}
       + [[!DNL Gold Standard]](rn/using/gold-standard.md)
-      + [2021](rn/using/release--2021.md)
-      + [2022](rn/using/release--2022.md)
+      + [2021](rn/using/release-2021.md)
+      + [2022](rn/using/release-2022.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
    + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
 + Prise en main {#getting-started}
@@ -184,8 +184,8 @@ ht-degree: 100%
       + [Création d’adresses de contrôle](delivery/using/creating-seed-addresses.md)
       + [Ajout d’adresses de contrôle](delivery/using/adding-seed-addresses.md)
       + [Utilisation d’une table de destinataires externe](delivery/using/using-an-external-recipient-table.md)
-      + [Cas pratique : sélection des adresses de contrôle selon des critères](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
-      + [Cas pratique : configuration de la substitution des champs](delivery/using/use-case--configuring-the-field-substitution.md)
+      + [Cas pratique : sélection des adresses de contrôle selon des critères](delivery/using/use-case-selecting-seed-addresses-on-criteria.md)
+      + [Cas pratique : configuration de la substitution des champs](delivery/using/use-case-configuring-the-field-substitution.md)
    + A/B testing {#a-b-testing}
       + [Prise en main des tests A/B](delivery/using/get-started-a-b-testing.md)
       + [Configuration des tests AB](delivery/using/configuring-a-b-testing.md)
@@ -233,7 +233,7 @@ ht-degree: 100%
    + Module de gestion de contenu {#content-management}
       + [À propos de la gestion de contenu](delivery/using/about-content-management.md)
       + [Ressources et principes de la gestion de contenu](delivery/using/content-manager-resources-and-principles.md)
-      + [Cas pratique : utiliser la gestion de contenu](delivery/using/use-case--creating-content-management.md)
+      + [Cas pratique : utiliser la gestion de contenu](delivery/using/use-case-creating-content-management.md)
       + [Schémas de données](delivery/using/data-schemas.md)
       + [Formulaires de saisie](delivery/using/input-forms.md)
       + [Mise en forme](delivery/using/formatting.md)
@@ -253,7 +253,7 @@ ht-degree: 100%
       + [Gestion des documents et des ressources](campaign/using/marketing-campaign-assets.md)
       + [Configuration et gestion des validations](campaign/using/marketing-campaign-approval.md)
       + [Surveillance de vos campagnes](campaign/using/marketing-campaign-monitoring.md)
-      + [Prestataires, stocks et budgets](campaign/using/providers--stocks-and-budgets.md)
+      + [Prestataires, stocks et budgets](campaign/using/providers-stocks-and-budgets.md)
    + Optimisation des campagnes {#campaign-optimization}
       + [À propos des typologies de campagne](campaign-opt/using/about-campaign-typologies.md)
       + [Règles de pression](campaign-opt/using/pressure-rules.md)
@@ -320,7 +320,7 @@ ht-degree: 100%
       + [Prise en main des applications web](web/using/about-web-applications.md)
       + [Création d’une application web](web/using/creating-a-new-web-application.md)
       + [Conception d’une application web](web/using/designing-a-web-application.md)
-      + [Cas d’utilisation : création de vues d’ensemble](web/using/use-cases--creating-overviews.md)
+      + [Cas d’utilisation : création de vues d’ensemble](web/using/use-cases-creating-overviews.md)
       + [Traduction d’une application web](web/using/translating-a-web-application.md)
       + [Tracking des visites sur une application web](web/using/tracking-a-web-application.md)
       + [Désinscription (opt-out) du tracking des applications web](web/using/web-application-tracking-opt-out.md)
@@ -331,7 +331,7 @@ ht-degree: 100%
       + [Modification du contenu](web/using/editing-content.md)
       + [Bonnes pratiques relatives à l&#39;édition de contenu](web/using/content-editing-best-practices.md)
       + [Création d’une landing page](web/using/creating-a-landing-page.md)
-      + [Cas d’utilisation : création d’une diffusion email](web/using/use-case--creating-an-email-delivery.md)
+      + [Cas d’utilisation : création d’une diffusion email](web/using/use-case-creating-an-email-delivery.md)
    + Formulaires web {#web-forms}
       + [Prise en main des formulaires web](web/using/about-web-forms.md)
       + [Utilisation d’un modèle de formulaire web](web/using/using-a-web-form-template.md)
@@ -344,16 +344,16 @@ ht-degree: 100%
       + [Publication d’un formulaire web](web/using/publishing-a-web-form.md)
       + [Définition des propriétés des formulaires web](web/using/defining-web-forms-properties.md)
       + [Traduction d’un formulaire web](web/using/translating-a-web-form.md)
-      + [Cas pratiques : formulaires web](web/using/use-cases--web-forms.md)
+      + [Cas pratiques : formulaires web](web/using/use-cases-web-forms.md)
 + Création de questionnaires en ligne{#online-surveys}
    + [Prise en main des questionnaires](surveys/using/about-surveys.md)
    + [Étapes clés de création d’un questionnaire](surveys/using/getting-started-with-surveys.md)
    + [Conception d’un questionnaire](surveys/using/building-a-survey.md)
    + [Gestion des réponses](surveys/using/managing-answers.md)
-   + [Publier, suivre et utiliser les données collectées](surveys/using/publish--track-and-use-collected-data.md)
+   + [Publier, suivre et utiliser les données collectées](surveys/using/publish-track-and-use-collected-data.md)
    + [Configuration des questionnaires](surveys/using/configuring-surveys.md)
-   + [Cas d’utilisation : création d’un formulaire de référence](surveys/using/use-case--creating-a-refer-a-friend-form.md)
-   + [Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
+   + [Cas d’utilisation : création d’un formulaire de référence](surveys/using/use-case-creating-a-refer-a-friend-form.md)
+   + [Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Intégration avec Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [À propos des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
    + Partage d&#39;audiences {#audience-sharing}
@@ -437,7 +437,7 @@ ht-degree: 100%
       + [Attente](workflow/using/wait.md)
       + [Contrainte horaire](workflow/using/time-constraint.md)
       + [Sous-workflow](workflow/using/sub-workflow.md)
-      + [Saut (départ et arrivée)](workflow/using/jump--start-point-and-end-point-.md)
+      + [Saut (départ et arrivée)](workflow/using/jump-start-point-and-end-point.md)
       + [Signal externe](workflow/using/external-signal.md)
       + [Validation](workflow/using/approval.md)
       + [Alerte](workflow/using/alert.md)
@@ -450,11 +450,11 @@ ht-degree: 100%
       + [Diffusion récurrente](workflow/using/recurring-delivery.md)
       + [Diffusions cross-canal](workflow/using/cross-channel-deliveries.md)
       + [Validation en local](workflow/using/local-approval.md)
-      + [Chargement (SGBD)](workflow/using/data-loading--rdbms-.md)
-      + [Chargement (SOAP)](workflow/using/loading--soap-.md)
-      + [Chargement (fichier)](workflow/using/data-loading--file-.md)
+      + [Chargement (SGBD)](workflow/using/data-loading-rdbms.md)
+      + [Chargement (SOAP)](workflow/using/loading-soap.md)
+      + [Chargement (fichier)](workflow/using/data-loading-file.md)
       + [Gestion de contenu](workflow/using/content-management.md)
-      + [Extraction (fichier)](workflow/using/extraction--file-.md)
+      + [Extraction (fichier)](workflow/using/extraction-file.md)
       + [Code SQL et code JavaScript](workflow/using/sql-code-and-javascript-code.md)
       + [Gestion des données SQL](workflow/using/sql-data-management.md)
       + [Module nlserver](workflow/using/nlserver-module.md)
@@ -505,7 +505,7 @@ ht-degree: 100%
       + [Paramètres avancés](workflow/using/advanced-parameters.md)
       + [Scripts et modèles JavaScript](workflow/using/javascript-scripts-and-templates.md)
       + [Exemples de code JavaScript dans les workflows](workflow/using/javascript-in-workflows.md)
-      + [Accès à une base de données externe](workflow/using/accessing-an-external-database--fda-.md)
+      + [Accès à une base de données externe](workflow/using/accessing-an-external-database-fda.md)
       + [Gestion des autorisations](workflow/using/managing-rights.md)
       + [Modification des images d’activité](workflow/using/managing-activity-images.md)
       + [Gérer les fuseaux horaires](workflow/using/managing-time-zones.md)
@@ -543,8 +543,8 @@ ht-degree: 100%
       + [Intégration d’une offre via un workflow](interaction/using/integrating-an-offer-via-a-workflow.md)
    + Interactions unitaires {#unitary-interactions}
       + [À propos des canaux entrants](interaction/using/about-inbound-channels.md)
-      + [Intégration via JavaScript (côté client)](interaction/using/integration-via-javascript--client-side-.md)
-      + [Intégration via SOAP (côté serveur)](interaction/using/integration-via-soap--server-side-.md)
+      + [Intégration via JavaScript (côté client)](interaction/using/integration-via-javascript-client-side.md)
+      + [Intégration via SOAP (côté serveur)](interaction/using/integration-via-soap-server-side.md)
       + [Interactions anonymes](interaction/using/anonymous-interactions.md)
    + Tracking des offres {#tracking-offers}
       + [Historique des propositions](interaction/using/offer-proposition-history.md)
@@ -556,7 +556,7 @@ ht-degree: 100%
       + [Création d’un environnement de test](interaction/using/creating-a-test-environment.md)
       + [Modifier le comportement standard du moteur](interaction/using/hooks.md)
       + [Architectures réparties](interaction/using/distributed-architectures.md)
-      + [Configuration du buffer de données](installation/using/interaction---data-buffer.md)
+      + [Configuration du buffer de données](installation/using/interaction-data-buffer.md)
    + Cas pratique {#case-study}
       + [Règles de présentation](interaction/using/presentation-rules.md)
       + [Offres sur canal entrant](interaction/using/offers-on-an-inbound-channel.md)
@@ -590,7 +590,7 @@ ht-degree: 100%
       + Modèles d&#39;hébergement{#hosting-models-lp}
          + [Modèles d’hébergement Campaign](installation/using/hosting-models.md)
          + [Matrice des fonctionnalités](installation/using/capability-matrix.md)
-   + Types de déploiements {#deployment-types-}
+   + Types de déploiements {#deployment-types}
       + [À propos des types de déploiement](installation/using/about-deployment-types.md)
       + [Déploiement Stand-alone](installation/using/standalone-deployment.md)
       + [Déploiement Standard](installation/using/standard-deployment.md)
@@ -611,12 +611,12 @@ ht-degree: 100%
          + [Serveur applicatif](installation/using/application-server.md)
          + [Serveur de messagerie](installation/using/messaging-server.md)
          + [Configuration réseau](installation/using/network-configuration.md)
-      + Campaign sous Windows {#installing-campaign-in-windows-}
+      + Campaign sous Windows {#installing-campaign-in-windows}
          + [Prise en main](installation/using/prerequisites-of-campaign-installation-in-windows.md)
          + [Installation du serveur](installation/using/installing-the-server.md)
          + [Intégration dans un serveur web (Windows)](installation/using/integration-into-a-web-server-for-windows.md)
          + [Disponibilité de la console cliente pour Windows](installation/using/client-console-availability-for-windows.md)
-      + Campaign sous Linux {#installing-campaign-in-linux-}
+      + Campaign sous Linux {#installing-campaign-in-linux}
          + [Conditions préalables](installation/using/prerequisites-of-campaign-installation-in-linux.md)
          + [Installation de packages](installation/using/installing-packages-with-linux.md)
          + [Intégration dans un serveur web](installation/using/integration-into-a-web-server-for-linux.md)
@@ -803,7 +803,7 @@ ht-degree: 100%
    + Mise en place du tracking web {#setting-up-web-tracking}
       + [À propos du tracking web](configuration/using/about-web-tracking.md)
       + [Mode de tracking web](configuration/using/web-tracking-mode.md)
-      + [Balise de tracking web : définition](configuration/using/web-tracking-tag--definition.md)
+      + [Balise de tracking web : définition](configuration/using/web-tracking-tag-definition.md)
       + [Etapes de mise en place](configuration/using/setup-stages.md)
       + [Paramètres supplémentaires](configuration/using/additional-parameters.md)
       + [Créer les balises de tracking web](configuration/using/creating-web-tracking-tags.md)

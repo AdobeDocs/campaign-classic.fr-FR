@@ -6,8 +6,8 @@ badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Class
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '547'
 ht-degree: 100%
 
@@ -51,8 +51,8 @@ Le module facultatif de création de questionnaires propose une interface utilis
 * Extension dynamique de la base de données : création de réponses qui ne font pas partie du modèle de données initial. [En savoir plus](../../surveys/using/managing-answers.md#storing-collected-answers).
 * Gestion des scores. [En savoir plus](../../surveys/using/managing-answers.md#score-management).
 * Affichage aléatoire des questions. [En savoir plus](../../surveys/using/building-a-survey.md#adding-questions).
-* Tracking en temps réel des réponses. [En savoir plus](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking).
-* Génération de rapports dédiés. [En savoir plus](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys).
+* Tracking en temps réel des réponses. [En savoir plus](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking).
+* Génération de rapports dédiés. [En savoir plus](../../surveys/using/publish-track-and-use-collected-data.md#reports-on-surveys).
 
 
 ## Étapes dʼimplémentation {#surveys-implementation-steps}

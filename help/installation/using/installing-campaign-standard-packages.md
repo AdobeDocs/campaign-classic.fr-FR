@@ -6,9 +6,9 @@ feature: Installation, Application Settings
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 badge-v7-prem: label="On-premise et hybride" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: ht
-source-wordcount: '1317'
+source-wordcount: '1306'
 ht-degree: 100%
 
 ---
@@ -158,7 +158,7 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Accès aux données externes (Federated Data Access)<br /> </td> 
-   <td> Propose l’option Federated Data Access (FDA) afin d’exploiter des informations stockées dans une ou plusieurs bases de données externes : vous pouvez accéder à des données externes sans modifier la structure des données d’Adobe Campaign.  Facultatif. <a href="../../workflow/using/accessing-an-external-database--fda-.md">En savoir plus</a> <br /> </td> 
+   <td> Propose l’option Federated Data Access (FDA) afin d’exploiter des informations stockées dans une ou plusieurs bases de données externes : vous pouvez accéder à des données externes sans modifier la structure des données d’Adobe Campaign.  Facultatif. <a href="../../workflow/using/accessing-an-external-database-fda.md">En savoir plus</a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
