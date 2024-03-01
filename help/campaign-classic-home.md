@@ -3,10 +3,10 @@ keywords: Campaign Classic;accueil;thèmes populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 6dd2a2343c0204c01dd0fa4910299efa15c29849
-workflow-type: ht
-source-wordcount: '342'
-ht-degree: 100%
+source-git-commit: 23f2565cc847805cff6df028935f74404cdcff24
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 96%
 
 ---
 
@@ -106,7 +106,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
 <br/>
-<strong>Ressources pour le développement</strong><br/> <a href="configuration/using/about-data-model.md">Description du modèle de données</a> - <a href="configuration/using/about-schema-reference.md">Structure d’un schéma</a> - <a href="configuration/using/editing-forms.md">Structure d’un schéma</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="configuration/using/about-custom-recipient-table.md">Tableau de personnes destinataires personnalisé</a>
+<strong>Ressources pour le développement</strong><br/> <a href="configuration/using/about-data-model.md">Description du modèle de données</a> - <a href="configuration/using/about-schema-reference.md">Structure d’un schéma</a> - <a href="configuration/using/editing-forms.md">Structure d’un schéma</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html&gt;Documentation de référence JSAPI&lt;/a&gt; - &lt;a href=&quot;&quot;&gt;" configuration/using/about-custom-recipient-table.md">Tableau de personnes destinataires personnalisé</a>
     </td>
   </tr>
 </table>

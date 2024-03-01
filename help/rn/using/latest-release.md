@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: da35a3050d838cd8e57bf802dc066e32f22f8273
-workflow-type: ht
-source-wordcount: '2295'
+source-git-commit: 23f2565cc847805cff6df028935f74404cdcff24
+workflow-type: tm+mt
+source-wordcount: '2278'
 ht-degree: 100%
 
 ---
@@ -188,7 +188,7 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](depreca
 
 ### Autres changements  {#release-7-3-2-other}
 
-* Amélioration des journaux web : les avertissements `logonEscalation` s’affichent désormais uniquement pour les utilisateurs et utilisatrices disposant de privilèges d’administration. (NEO-47167)
+<!--* Web logs have been improved: `logonEscalation` warnings are now only displayed for users with admin privileges. (NEO-47167)-->
 * Pour éviter les erreurs, le workflow **Collecter les données pour le service Carte thermique** (collectDataHeatMapService) est désormais arrêté par défaut. (NEO-33959)
 * Plusieurs améliorations ont été apportées afin d’optimiser l’utilisation du processeur pour le tableau de bord des campagnes. (NEO-46417)
 * Pour éviter les blocages, la méthode JS loadLibraryDebug a été supprimée. (NEO-46968)
