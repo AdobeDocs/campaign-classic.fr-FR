@@ -5,7 +5,7 @@ description: Présentation de la gestion des clés dans les schémas de données
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
-source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
+source-git-commit: 4a29c189e1e438bbb90067ece63ced0196c618ec
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 72%
@@ -28,7 +28,6 @@ Une clé est déclarée à partir de l&#39;élément principal du schéma de don
 ```
 
 Une clé est dite &quot;clé primaire&quot; lorsqu’elle est renseignée en premier dans le schéma, ou si elle contient la variable `internal` est défini sur &quot;true&quot;.
-
 
 Les règles suivantes s’appliquent aux clés :
 
