@@ -5,181 +5,25 @@ description: Mapping de la base de données
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
-exl-id: 728b509f-2755-48df-8b12-449b7044e317
 source-git-commit: f03e72d4ecd17446264adf74603aefca95f99d41
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 84%
+source-wordcount: '918'
+ht-degree: 66%
 
 ---
 
-# Mapping de la base de données{#database-mapping}
 
-Le mapping SQL de l’exemple de schéma décrit [dans cette page](schema-structure.md) génère le document XML suivant :
-
-```sql
-<schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">
-  <enumeration basetype="byte" name="gender">    
-    <value label="Not specified" name="unknown" value="0"/>    
-    <value label="Male" name="male" value="1"/>    
-    <value label="Female" name="female" value="2"/> 
-  </enumeration>  
-
-  <element name="recipient" sqltable="CusRecipient">    
-    <attribute desc="Recipient email address" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
-    <attribute default="GetDate()" label="Date of creation" name="created" sqlname="tsCreated" type="datetime"/>    
-    <attribute enum="gender" label="Gender" name="gender" sqlname="iGender" type="byte"/>    
-    <element label="Location" name="location">      
-      <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
-    </element>  
-  </element>
-</schema>
-```
-
-L’élément racine du schéma a été remplacé par **`<srcschema>`** to **`<schema>`**.
-
-Cet autre type de document est généré automatiquement à partir du schéma source et est simplement appelé schéma.
-
-Les noms SQL sont déduits automatiquement en fonction du nom et du type de l&#39;élément.
-
-Les règles de nommage des noms SQL sont les suivantes :
-
-* **table**: concaténation de l’espace de noms et du nom du schéma
-
-  Dans notre exemple le nom de la table est renseigné à partir de l&#39;élément principal du schéma dans l&#39;attribut **sqltable** :
-
-  ```sql
-  <element name="recipient" sqltable="CusRecipient">
-  ```
-
-* **field**: nom de l’élément précédé d’un préfixe défini selon le type : &#39;i&#39; pour entier, &#39;d&#39; pour double, &#39;s&#39; pour chaîne, &#39;ts&#39; pour dates, etc.
-
-  Le nom du champ est renseigné à partir de l&#39;attribut **sqlname** pour chaque **`<attribute>`** et **`<element>`** typé :
-
-  ```sql
-  <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
-  ```
-
->[!NOTE]
->
->Les noms SQL peuvent être surchargés à partir du schéma source, il faut renseigner les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l&#39;élément concerné.
-
-Le script SQL de création de la table généré à partir du schéma étendu est le suivant :
-
-```sql
-CREATE TABLE CusRecipient(
-  iGender NUMERIC(3) NOT NULL Default 0,   
-  sCity VARCHAR(50),   
-  sEmail VARCHAR(80),
-  tsCreated TIMESTAMP Default NULL);
-```
-
-Les contraintes des champs SQL sont les suivantes :
-
-* aucune valeur nulle dans les champs numériques et de date
-* les champs numériques sont initialisés à 0
-
-## Champs XML {#xml-fields}
-
-Par défaut, tout  **`<attribute>`** et **`<element>`** L’élément de type -type est mappé sur un champ SQL de la table du schéma de données. Vous pouvez toutefois référencer ce champ au format XML plutôt que SQL, ce qui signifie que les données sont stockées dans un champ mémo (&quot;mData&quot;) de la table contenant les valeurs de tous les champs XML. Le stockage de ces données est un document XML qui respecte la structure du schéma.
-
-Pour renseigner un champ en XML, il faut ajouter l&#39;attribut **xml** avec la valeur &quot;true&quot; sur l&#39;élément concerné.
-
-**Exemple** : voici deux exemples d&#39;utilisation des champs de type XML.
-
-* Champ commentaire multi-lignes :
-
-  ```sql
-  <element name="comment" xml="true" type="memo" label="Comment"/>
-  ```
-
-* Description de données au format HTML :
-
-  ```sql
-  <element name="description" xml="true" type="html" label="Description"/>
-  ```
-
-  Le type &quot;html&quot; permet de stocker le contenu HTML dans une balise CDATA et d&#39;afficher un contrôle spécifique d&#39;édition HTML dans l&#39;interface cliente Adobe Campaign.
-
-Utilisez les champs XML pour ajouter de nouveaux champs sans modifier la structure physique de la base de données. Un autre avantage est d&#39;utiliser moins de ressources (taille allouée aux champs SQL, limite du nombre de champs par table, etc.). Notez toutefois que vous ne pouvez pas indexer ou filtrer un champ XML.
-
-## Champs indexés {#indexed-fields}
-
-Les index permettent d’optimiser les performances des requêtes SQL utilisées dans l’application.
-
-Un index est déclaré à partir de l’élément principal du schéma de données.
-
-```sql
-<dbindex name="name_of_index" unique="true/false">
-  <keyfield xpath="xpath_of_field1"/>
-  <keyfield xpath="xpath_of_field2"/>
-  ...
-</key>
-```
-
-Les index suivent les règles suivantes :
-
-* Un index peut référencer un ou plusieurs champs de la table.
-* Un index peut être unique (pour éviter les doublons) dans tous les champs si la variable **unique** contient la valeur &quot;true&quot;
-* Le nom SQL de l&#39;index est déterminé à partir du nom SQL de la table et du nom de l&#39;index.
-
->[!NOTE]
->
->* Par convention, les index sont les éléments déclarés en premier à partir de l’élément principal du schéma.
->
->* Les index sont crées automatiquement lors d’un mapping de table (mapping standard ou FDA).
-
-**Exemple**:
-
-* Ajout d’un index à l’adresse e-mail et la ville :
-
-  ```sql
-  <srcSchema name="recipient" namespace="cus">
-    <element name="recipient">
-      <dbindex name="email">
-        <keyfield xpath="@email"/> 
-        <keyfield xpath="location/@city"/> 
-      </dbindex>
-  
-      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-      <element name="location" label="Location">
-        <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
-      </element>
-    </element>
-  </srcSchema>
-  ```
-
-* Ajout d’un index unique au champ du nom « id » :
-
-  ```sql
-  <srcSchema name="recipient" namespace="cus">
-    <element name="recipient">
-      <dbindex name="id" unique="true">
-        <keyfield xpath="@id"/> 
-      </dbindex>
-  
-      <dbindex name="email">
-        <keyfield xpath="@email"/> 
-      </dbindex>
-  
-      <attribute name="id" type="long" label="Identifier"/>
-      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-    </element>
-  </srcSchema>
-  ```
-
-
-## Gestion des liens {#links--relation-between-tables}
+# Gestion des liens {#links--relation-between-tables}
 
 Un lien décrit l&#39;association d&#39;une table vers une autre table.
 
-Les différents types d&#39;associations (dites &quot;cardinalités&quot;) sont les suivants :
+Les types d’associations, également appelés cardinalités, sont répertoriés ci-dessous.
 
 * cardinalité 1-1 : à une occurrence de la table source peut correspondre au plus une occurrence de la table cible,
 * cardinalité 1-N : à une occurrence de la table source peuvent correspondre plusieurs occurrences de la table cible, mais à une occurrence de la table cible peut correspondre au plus une occurrence de la table source,
 * cardinalité N-N : à une occurrence de la table source peuvent correspondre plusieurs occurrences de la table cible et vice versa.
 
-Dans l&#39;interface, vous pouvez distinguer facilement les différents types de relations grâce à leurs icônes.
+Dans l’interface utilisateur, les cardinalités sont représentées par une icône spécifique.
 
 Pour les relations de jointure avec une table/base de données de campagne :
 
@@ -187,7 +31,7 @@ Pour les relations de jointure avec une table/base de données de campagne :
 * ![](assets/externaljoin11.png) : Cardinalité 1-1, jointure externe. Par exemple, entre un destinataire et son pays. Un destinataire ne peut être associé qu&#39;à une seule occurrence dans la table des pays. Le contenu de la table des pays ne sera pas enregistré.
 * ![](assets/join_with_campaign1n.png) : Cardinalité 1-N. Par exemple, entre un destinataire et la table des abonnements. Un destinataire peut être associé à plusieurs occurrences dans la table des abonnements.
 
-Pour les relations de jointure à l&#39;aide de Federated Database Access :
+Pour les relations de jointure à l’aide de Federated Database Access (FDA) :
 
 * ![](assets/join_fda_11.png) : Cardinalité 1-1
 * ![](assets/join_fda_1m.png) : Cardinalité 1-N
@@ -208,20 +52,21 @@ Les liens suivent les règles suivantes :
 
 * La définition d&#39;un lien est renseignée sur un **`<element>`** de type **link** avec les attributs suivants :
 
-   * **name** : nom du lien à partir de la table source,
-   * **target** : nom du schéma cible,
-   * **label** : libellé du lien,
-   * **revLink** (optionnel) : nom du lien reverse à partir du schéma cible (déduit automatiquement par défaut),
-   * **integrity** (optionnel) : intégrité référentielle de l&#39;occurrence de la table source envers l&#39;occurrence de la table cible. Les valeurs possibles sont les suivantes :
+   * **name**: nom du lien de la table source
+   * **cible**: nom du schéma cible
+   * **label**: libellé du lien
+   * **revLink** (facultatif) : nom du lien inverse du schéma cible (déduit automatiquement par défaut)
+   * **integrity** (facultatif) : intégrité référentielle de l’occurrence de la table source par rapport à celle de la table cible.
+Les valeurs possibles sont les suivantes :
 
-      * **define**: la suppression de l&#39;occurrence source est possible si elle n&#39;est plus référencée par une occurrence cible,
-      * **normal** : la suppression de l&#39;occurrence source initialise les clés du lien sur l&#39;occurrence cible (mode par défaut), ce type d&#39;intégrité initiliase toutes les clés étrangères,
-      * **own** : la suppression de l&#39;occurrence source entraîne la suppression de l&#39;occurrence cible,
-      * **owncopy** : idem **own** (en cas de suppression) ou duplique les occurrences (en cas de duplication),
-      * **neutral** : ne fait rien.
+      * **définir**: il est possible de supprimer l’occurrence source si elle n’est plus référencée par une occurrence cible.
+      * **normal**: la suppression de l’occurrence source initialise les clés du lien sur l’occurrence cible (mode par défaut), ce type d’intégrité initialise toutes les clés étrangères
+      * **own**: la suppression de l’occurrence source entraîne la suppression de l’occurrence cible
+      * **owncopy**: identique à **own** (en cas de suppression) ou duplique les occurrences (en cas de duplication)
+      * **neutral**: aucun comportement spécifique
 
-   * **revIntegrity** (optionnel) : intégrité sur le schéma cible (optionnel, &quot;normal&quot; par défaut),
-   * **revCardinality** (optionnel) : avec la valeur &quot;single&quot; renseigne la cardinalité de type 1-1 (par défaut 1-N).
+   * **revIntegrity** (facultatif) : intégrité sur le schéma cible (facultatif, &quot;normal&quot; par défaut)
+   * **revCardinality** (facultatif) : avec la valeur &quot;single&quot; renseigne la cardinalité de type 1-1 (par défaut 1-N)
    * **externalJoin** (optionnel) : force la jointure externe
    * **revExternalJoin** (optionnel) : force la jointure externe sur le lien reverse
 
@@ -234,9 +79,9 @@ Les liens suivent les règles suivantes :
 >
 >Par convention, les liens sont les éléments déclarés en fin de schéma.
 
-### Exemple 1 {#example-1}
+## Exemple : lien inverse {#example-1}
 
-Relation 1-N vers la table de schéma &quot;cus:company&quot; :
+Dans l&#39;exemple ci-dessous, nous déclarons une relation 1-N à la table de schéma &quot;cus:company&quot; :
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
@@ -297,9 +142,9 @@ Un lien réverse vers la table &quot;cus:recipient&quot; a été ajouté avec le
 * **unbound** : le lien est déclaré comme élément de collection pour une cardinalité 1-N (par défaut)
 * **integrity** : par défaut &quot;define&quot; (peut être forcée avec l&#39;attribut &quot;revIntegrity&quot; dans la définition du lien sur le schéma source)
 
-### Exemple 2 {#example-2}
+## Exemple : lien simple {#example-2}
 
-Dans cet exemple, nous déclarons un lien vers la table de schéma « nms:address ». La jointure est externe et est renseignée explicitement avec l’adresse e-mail du destinataire et le champ « @address » de la table liée (« nms:address »).
+Dans cet exemple, nous déclarons un lien vers la table de schéma &quot;nms:address&quot;. La jointure est externe et est renseignée explicitement avec l&#39;adresse email du destinataire et le champ &quot;@address&quot; de la table liée (&quot;nms:address&quot;).
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
@@ -312,17 +157,17 @@ Dans cet exemple, nous déclarons un lien vers la table de schéma « nms:addre
 </srcSchema>
 ```
 
-### Exemple 3 {#example-3}
+## Exemple : cardinalité unique {#example-3}
 
-Relation 1-1 vers la table de schéma &quot;cus:extension&quot; :
+Dans cet exemple, nous créons une relation 1-1 avec la table de schéma &quot;cus:extension&quot; :
 
 ```sql
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
-### Exemple 4 {#example-4}
+## Exemple : lien vers un dossier {#example-4}
 
-Lien sur un dossier (schéma &quot;xtk:folder&quot;) :
+Dans cet exemple, nous déclarons un lien vers un dossier (schéma &quot;xtk:folder&quot;) :
 
 ```sql
 <element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
@@ -330,9 +175,9 @@ Lien sur un dossier (schéma &quot;xtk:folder&quot;) :
 
 La valeur par défaut retourne l&#39;identifiant du premier dossier éligible de type du paramètre renseigné dans la fonction &quot;DefaultFolder(&#39;nmsFolder&#39;)&quot;.
 
-### Exemple 5 {#example-5}
+## Exemple : créer une clé sur un lien {#example-5}
 
-Dans cet exemple, on souhaite créer une clé sur un lien (&quot;company&quot; vers le schéma &quot;cus:company&quot;) avec l&#39;attribut **xlink** et un champ de la table (&quot;email&quot;) :
+Dans cet exemple, nous créons une clé sur un lien (&quot;company&quot; vers le schéma &quot;cus:company&quot;) avec le **xlink** et un champ de la table (&quot;email&quot;) :
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
