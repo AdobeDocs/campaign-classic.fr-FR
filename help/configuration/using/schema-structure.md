@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Structure d'un schéma
+title: Présentation de la structure de schéma dans Adobe Campaign
 description: Structure d'un schéma
 feature: Custom Resources
 role: Data Engineer, Developer
@@ -9,18 +9,22 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 100%
+source-wordcount: '1500'
+ht-degree: 77%
 
 ---
 
-# Structure d&#39;un schéma{#schema-structure}
+# Présentation de la structure du schéma {#schema-structure}
 
-La structure de base d&#39;un `<srcschema>` est la suivante :
+La structure de base d’un schéma est décrite ci-dessous.
 
-```
+## Schémas de données  {#data-schema}
+
+Pour un `<srcschema>`, la structure est la suivante :
+
+```sql
 <srcSchema>
     <enumeration>
         ...          //definition of enumerations
@@ -63,7 +67,7 @@ La structure de base d&#39;un `<srcschema>` est la suivante :
 
 Le document XML d&#39;un schéma de données doit contenir l&#39;élément racine **`<srcschema>`** avec les attributs **name** et **namespace** pour renseigner respectivement le nom du schéma et son espace de noms.
 
-```
+```sql
 <srcSchema name="schema_name" namespace="namespace">
 ...
 </srcSchema>
@@ -71,7 +75,7 @@ Le document XML d&#39;un schéma de données doit contenir l&#39;élément racin
 
 Pour illustrer la structure d&#39;un schéma de données, nous partirons du contenu XML suivant :
 
-```
+```sql
 <recipient email="John.doe@aol.com" created="2009/03/12" gender="1"> 
   <location city="London"/>
 </recipient>
@@ -79,7 +83,7 @@ Pour illustrer la structure d&#39;un schéma de données, nous partirons du cont
 
 Avec son schéma de données correspondant :
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email"/>
@@ -94,7 +98,7 @@ Avec son schéma de données correspondant :
 
 ## Description {#description}
 
-Le point d&#39;entrée du schéma est son élément principal. Il est facilement identifiable car son nom est identique à celui du schéma et il doit être enfant de l&#39;élément racine. C&#39;est à partir de cet élément que commence la description du contenu.
+Le point d’entrée du schéma est son élément principal. Il est facile à identifier, car il porte le même nom que le schéma et il doit être l’enfant de l’élément racine. La description du contenu commence par cet élément.
 
 Dans notre exemple, l&#39;élément principal est représenté par la ligne :
 
@@ -102,11 +106,11 @@ Dans notre exemple, l&#39;élément principal est représenté par la ligne :
 <element name="recipient">
 ```
 
-Les éléments **`<attribute>`** et **`<element>`** qui suivent l&#39;élément principal permettent de définir l&#39;emplacement et le nom des données dans la structure XML.
+La variable **`<attribute>`** et **`<element>`** les éléments qui suivent l&#39;élément principal sont utilisés pour définir l&#39;emplacement et le nom des éléments de données dans la structure XML.
 
 Soit dans notre schéma d&#39;exemple :
 
-```
+```sql
 <attribute name="email"/>
 <attribute name="created"/>
 <attribute name="gender"/>
@@ -115,13 +119,13 @@ Soit dans notre schéma d&#39;exemple :
 </element>
 ```
 
-Les règles à respecter sont les suivantes :
+Les règles suivantes s’appliquent :
 
 * Chaque **`<element>`** et **`<attribute>`** doit être identifié par son nom à partir de l&#39;attribut **name**.
 
   >[!IMPORTANT]
   >
-  >Le nom de l&#39;élément doit être concis, de préférence en anglais, et ne comprendre que des caractères autorisés conformes aux règles de nommage des noms XML.
+  >Le nom de l’élément doit être concis, de préférence en anglais, et ne comprendre que les caractères autorisés dans les règles de nommage XML.
 
 * Seuls les éléments **`<element>`** peuvent contenir des éléments **`<attribute>`** et des éléments **`<element>`** dans la structure XML.
 * Un élément **`<attribute>`** doit être unique par son nom dans un **`<element>`**.
@@ -131,9 +135,9 @@ Les règles à respecter sont les suivantes :
 
 Le type de données est renseigné à partir de l&#39;attribut **type** sur les éléments **`<attribute>`** et **`<element>`**.
 
-Une liste complète est disponible dans la description de l&#39;[`<attribute>`élément](../../configuration/using/schema/attribute.md) et de l’[`<element>`élément](../../configuration/using/schema/element.md)).
+Une liste complète est disponible dans la description de l&#39;[`<attribute>`élément](../../configuration/using/schema/attribute.md) et de l’[`<element>`élément](../../configuration/using/schema/element.md).
 
-Lorsque cet attribut n&#39;est pas renseigné, **string** est le type de données par défaut, sauf si l&#39;élément contient des éléments enfants. Si tel est le cas, il est utilisé uniquement pour structurer les éléments de manière hiérarchique (élément **`<location>`** dans notre exemple).
+Lorsque cet attribut n’est pas renseigné, **string** est le type de données par défaut, sauf si l’élément contient des éléments enfants. Si tel est le cas, il est utilisé uniquement pour structurer les éléments de manière hiérarchique (élément **`<location>`** dans notre exemple).
 
 Les types de données supportés dans un schéma sont les suivants :
 
@@ -152,11 +156,11 @@ Les types de données supportés dans un schéma sont les suivants :
 
   >[!NOTE]
   >
-  >Pour contenir un champ de type **uuid** sur les moteurs autres que Microsoft SQL Server, il faut ajouter et renseigner la fonction &quot;newuuid()&quot; dans sa valeur par défaut.
+  >Pour contenir un **uuid** champ dans SGBDR autre que Microsoft SQL Server, `the newuuid()` doit être ajoutée et complétée avec sa valeur par défaut.
 
 Notre schéma d&#39;exemple complété avec les types :
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email" type="string" length="80"/>
@@ -179,91 +183,76 @@ Le tableau suivant répertorie les correspondances des types de données génér
    <td> <strong>Adobe Campaign</strong><br /> </td> 
    <td> <strong>PosgreSQL</strong><br /> </td> 
    <td> <strong>Oracle</strong><br /> </td> 
-   <td> <strong>MS SQL</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> Chaîne <br /> </td> 
    <td> VARCHAR(255)<br /> </td> 
    <td> VARCHAR2 (NVARCHAR2 si unicode)<br /> </td> 
-   <td> VARCHAR (NVARCHAR si unicode)<br /> </td> 
   </tr> 
   <tr> 
    <td> Booléen<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
-   <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Octet<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
-   <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Court<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(5)<br /> </td> 
-   <td> SMALLINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Double<br /> </td> 
    <td> DOUBLE PRECISION<br /> </td> 
-   <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
    <td> Long<br /> </td> 
    <td> INTEGER<br /> </td> 
    <td> NUMBER(10)<br /> </td> 
-   <td> INT<br /> </td> 
   </tr> 
   <tr> 
    <td> Int64<br /> </td> 
    <td> BIGINT<br /> </td> 
    <td> NUMBER(20)<br /> </td> 
-   <td> BIGINT<br /> </td> 
   </tr> 
   <tr> 
    <td> Date<br /> </td> 
    <td> DATE<br /> </td> 
    <td> DATE<br /> </td> 
-   <td> DATETIME<br /> </td> 
   </tr> 
   <tr> 
    <td> Time<br /> </td> 
    <td> TIME<br /> </td> 
-   <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetime<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> DATE<br /> </td> 
-   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012 : DATETIMEOFFSET<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetimenotz<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> DATE<br /> </td> 
-   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012 : DATETIME2<br /> </td> 
   </tr> 
   <tr> 
    <td> Timespan<br /> </td> 
    <td> DOUBLE PRECISION<br /> </td> 
-   <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
    <td> Memo<br /> </td> 
    <td> TEXT<br /> </td> 
    <td> CLOB (NCLOB si Unicode)<br /> </td> 
-   <td> TEXT (NTEXT si Unicode)<br /> </td> 
   </tr> 
   <tr> 
    <td> Blob<br /> </td> 
    <td> BLOB<br /> </td> 
    <td> BLOB<br /> </td> 
-   <td> IMAGE<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -282,17 +271,17 @@ Les éléments **`<elements>`** et **`<attributes>`** du schéma de données peu
 
   **Exemple**:
 
-  ```
+  ```sql
   <attribute name="email" type="string" length="80" label="Email"/>
   ```
 
-  Le libellé est visible à partir du formulaire de saisie de la console cliente Adobe Campaign :
+  Le libellé est affiché dans le formulaire de saisie de la console cliente Adobe Campaign :
 
   ![](assets/d_ncs_integration_schema_label.png)
 
 * La propriété **desc** permet de saisir une description longue.
 
-  La description est visible à partir du formulaire de saisie dans la barre de statut de la fenêtre principale de la console cliente Adobe Campaign.
+  La description s&#39;affiche dans le formulaire de saisie, dans la barre d&#39;état de la fenêtre principale de la console cliente Adobe Campaign.
 
   >[!NOTE]
   >
@@ -300,15 +289,15 @@ Les éléments **`<elements>`** et **`<attributes>`** du schéma de données peu
 
   **Exemple**:
 
-  ```
+  ```sql
   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
   ```
 
 ### Les valeurs par défaut {#default-values}
 
-La propriété **default** permet de définir une expression retournant une valeur par défaut à la création du contenu.
+Utilisez la variable **default** pour définir une expression renvoyant une valeur par défaut lors de la création du contenu.
 
-La valeur doit être une expression conforme au langage XPath. Pour plus d&#39;informations, consultez la section [Référencer avec XPath](../../configuration/using/schema-structure.md#referencing-with-xpath).
+La valeur doit être une expression conforme au langage XPath. Pour plus d’informations, consultez la section [Référencer avec XPath](../../configuration/using/schema-structure.md#referencing-with-xpath).
 
 **Exemple**:
 
@@ -319,9 +308,9 @@ La valeur doit être une expression conforme au langage XPath. Pour plus d&#39;i
 
   >[!NOTE]
   >
-  >Dans la console cliente Adobe Campaign, le noeud **[!UICONTROL Administration>Compteurs]** permet de gérer les compteurs.
+  >Dans la console cliente Adobe Campaign, accédez au **[!UICONTROL Administration > Compteurs]** de l’Explorateur pour gérer les compteurs.
 
-Pour lier une valeur par défaut à un champ, vous pouvez utiliser le `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
+Pour associer une valeur par défaut à un champ, vous pouvez utiliser la variable `<default>`  ou  `<sqldefault>`   champ .
 
 `<default>` : vous permet de préremplir le champ avec une valeur par défaut lors de la création d’entités. La valeur ne sera pas une valeur SQL par défaut.
 
@@ -329,13 +318,13 @@ Pour lier une valeur par défaut à un champ, vous pouvez utiliser le `<default>
 
 ### Énumérations {#enumerations}
 
-#### Énumération libre {#free-enumeration}
+#### Enumération ouverte {#free-enumeration}
 
-La propriété **userEnum** permet de définir une énumération libre pour mémoriser et afficher les valeurs renseignées à partir de ce champ. La syntaxe est la suivante :
+La variable **userEnum** permet de définir une énumération ouverte pour stocker et afficher les valeurs renseignées à partir de ce champ.
 
-**userEnum=&quot;nom de l&#39;énumeration&quot;**
+La syntaxe est la suivante :
 
-Le nom donné à l&#39;énumération est libre et peut être partagé avec d&#39;autres champs.
+`userEnum="name of enumeration"`
 
 Une liste déroulante énumère la liste de ces valeurs à partir du formulaire de saisie :
 
@@ -343,7 +332,7 @@ Une liste déroulante énumère la liste de ces valeurs à partir du formulaire 
 
 >[!NOTE]
 >
->Dans la console cliente Adobe Campaign, le nœud **[!UICONTROL Administration > Enumérations]** permet de gérer les énumérations.
+>Dans la console cliente Adobe Campaign, accédez au **[!UICONTROL Administration > Enumérations]** de l’ Explorateur pour gérer les énumérations.
 
 #### Énumération fixe {#set-enumeration}
 
@@ -357,7 +346,7 @@ Les énumérations permettent à l&#39;utilisateur de sélectionner une valeur d
 
 Exemple de déclaration d&#39;énumération dans le schéma de données :
 
-```
+```sql
 <enumeration name="gender" basetype="byte" default="0">    
   <value name="unknown" label="Not specified" value="0"/>    
   <value name="male" label="male" value="1"/>   
@@ -369,33 +358,31 @@ Une énumération est déclarée en dehors de l&#39;élément principal à parti
 
 Les propriétés de l&#39;énumération sont :
 
-* **baseType** : type de données associées aux valeurs,
-* **label** : description de l&#39;énumération,
-* **name** : nom de l&#39;énumération,
-* **default** : valeur par défaut de l&#39;énumération.
+* **baseType**: type de données associé aux valeurs
+* **label**: description de l’énumération
+* **name**: nom de l&#39;énumération
+* **default**: valeur par défaut de l&#39;énumération
 
 Les valeurs de l&#39;énumération sont déclarées dans l&#39;élément **`<value>`** avec les attributs suivants :
 
-* **name** : nom de la valeur stockée en interne,
-* **label** : libellé affiché à partir de l&#39;interface graphique.
+* **name**: nom de la valeur stockée en interne.
+* **label**: libellé affiché dans l&#39;interface graphique
 
 #### Enumération dbenum {#dbenum-enumeration}
 
-* La propriété **dbenum** permet de définir une énumération dont les propriétés sont similaires à celles de la propriété **enum**.
+*Le **dbenum** permet de définir une énumération dont les propriétés sont similaires à celles de la propriété **enum** .
 
-  En revanche, l&#39;attribut **name** ne stocke pas de valeur en interne, mais un code, ce qui permet d&#39;étendre les tables concernées sans avoir à modifier leur schéma.
+En revanche, l&#39;attribut **name** ne stocke pas de valeur en interne, mais un code, ce qui permet d&#39;étendre les tables concernées sans avoir à modifier leur schéma.
 
-  Les valeurs sont définies depuis le nœud **[!UICONTROL Administration > Énumérations]**.
+Cette énumération est utilisée par exemple, pour spécifier la nature des opérations.
 
-  Cette énumération est utilisée par exemple, pour spécifier la nature des opérations.
-
-  ![](assets/d_ncs_configuration_schema_dbenum.png)
+![](assets/d_ncs_configuration_schema_dbenum.png)
 
 ### Exemple {#example}
 
 Notre schéma d&#39;exemple complété avec les propriétés :
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -422,7 +409,7 @@ L&#39;attribut **unbound** avec la valeur &quot;true&quot; permet de renseigner 
 
 **Exemple** : définition de l&#39;élément de collection **`<group>`** dans le schéma.
 
-```
+```sql
 <element name="group" unbound="true" label="List of groups">
   <attribute name="label" type="string" label="Label"/>
 </element>
@@ -430,7 +417,7 @@ L&#39;attribut **unbound** avec la valeur &quot;true&quot; permet de renseigner 
 
 Avec la projection du contenu XML :
 
-```
+```sql
 <group label="Group1"/>
 <group label="Group2"/>
 ```
@@ -439,7 +426,7 @@ Avec la projection du contenu XML :
 
 Le langage XPath est utilisé dans Adobe Campaign pour référencer un élément ou un attribut appartenant à un schéma de données.
 
-XPath est une syntaxe permettant la localisation d&#39;un nœud dans l&#39;arbre d&#39;un document XML.
+XPath est une syntaxe permettant la localisation d’un nœud dans l’arbre d’un document XML.
 
 Les éléments sont désignés par leur nom, les attributs sont désignés par leur nom précédé d&#39;un caractère &quot;@&quot;.
 
@@ -473,18 +460,18 @@ La liste des fonctions disponibles est accessible à partir de n&#39;importe que
 **Exemple**:
 
 * **GetDate()** : retourne la date courante
-* **Year(@created)** : retourne l&#39;année de la date contenue dans l&#39;attribut &quot;created&quot;
-* **GetEmailDomain(@email)** : renvoie le domaine de l’adresse e-mail.
+* **Year(@created)**: renvoie l’année de la date contenue dans l’attribut &quot;created&quot;
+* **GetEmailDomain(@email)**: renvoie le domaine de l’adresse électronique
 
 ## Construire une chaîne via la compute string {#building-a-string-via-the-compute-string}
 
-Une **Compute string** est une expression XPath utilisée pour construire une chaîne représentant un enregistrement de la table associée au schéma. La **Compute string** est surtout utilisée dans l&#39;interface graphique pour afficher le libellé d&#39;un enregistrement sélectionné.
+**Compute string** est une expression XPath utilisée pour construire une chaîne représentant un enregistrement dans une table associée au schéma. **Compute string** est principalement utilisée dans l’interface graphique pour afficher le libellé d’un enregistrement sélectionné.
 
-La chaîne **Compute string** est définie via l&#39;élément **`<compute-string>`** sous l&#39;élément principal du schéma de données. Un attribut **expr** contient une expression XPath pour calculer l&#39;affichage.
+La chaîne **Compute string** est définie via l&#39;élément **`<compute-string>`** sous l&#39;élément principal du schéma de données. Un attribut **expr** contient une expression XPath pour calculer l’affichage.
 
 **Exemple** : compute string de la table des destinataires.
 
-```
+```sql
 <srcSchema name="recipient" namespace="nms">  
   <element name="recipient">
     <compute-string expr="@lastName + ' ' + @firstName +' (' + @email + ')' "/>

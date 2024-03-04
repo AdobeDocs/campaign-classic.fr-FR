@@ -6,18 +6,18 @@ feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 100%
+source-wordcount: '1984'
+ht-degree: 82%
 
 ---
 
 # Mapping de la base de données{#database-mapping}
 
-Le mapping SQL de notre schéma d&#39;exemple donne le document XML suivant :
+Le mapping SQL de l’exemple de schéma décrit [dans cette page](schema-structure.md) génère le document XML suivant :
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">
   <enumeration basetype="byte" name="gender">    
     <value label="Not specified" name="unknown" value="0"/>    
@@ -38,27 +38,27 @@ Le mapping SQL de notre schéma d&#39;exemple donne le document XML suivant :
 
 ## Description {#description}
 
-L&#39;élément racine du schéma n&#39;est plus **`<srcschema>`**, mais **`<schema>`**.
+L’élément racine du schéma a été remplacé par **`<srcschema>`** to **`<schema>`**.
 
-Nous sommes sur un autre type de document qui est généré automatiquement à partir du schéma source, on parle alors simplement de schéma. C&#39;est ce schéma qui sera utilisé par l&#39;application Adobe Campaign.
+Cet autre type de document est généré automatiquement à partir du schéma source et est simplement appelé schéma.
 
 Les noms SQL sont déduits automatiquement en fonction du nom et du type de l&#39;élément.
 
 Les règles de nommage des noms SQL sont les suivantes :
 
-* table : concaténation de l&#39;espace de noms et du nom du schéma
+* **table**: concaténation de l’espace de noms et du nom du schéma
 
   Dans notre exemple le nom de la table est renseigné à partir de l&#39;élément principal du schéma dans l&#39;attribut **sqltable** :
 
-  ```
+  ```sql
   <element name="recipient" sqltable="CusRecipient">
   ```
 
-* champ : nom de l&#39;élément précédé d&#39;un préfixe défini en fonction de son type (&#39;i&#39; pour entier, &#39;d&#39; pour double, &#39;s&#39; pour chaîne, &#39;ts&#39; pour les dates, etc.)
+* **field**: nom de l’élément précédé d’un préfixe défini selon le type : &#39;i&#39; pour entier, &#39;d&#39; pour double, &#39;s&#39; pour chaîne, &#39;ts&#39; pour dates, etc.
 
   Le nom du champ est renseigné à partir de l&#39;attribut **sqlname** pour chaque **`<attribute>`** et **`<element>`** typé :
 
-  ```
+  ```sql
   <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
   ```
 
@@ -68,7 +68,7 @@ Les règles de nommage des noms SQL sont les suivantes :
 
 Le script SQL de création de la table généré à partir du schéma étendu est le suivant :
 
-```
+```sql
 CREATE TABLE CusRecipient(
   iGender NUMERIC(3) NOT NULL Default 0,   
   sCity VARCHAR(50),   
@@ -78,12 +78,12 @@ CREATE TABLE CusRecipient(
 
 Les contraintes des champs SQL sont les suivantes :
 
-* pas de valeurs nulles sur les types numériques et dates,
-* les champs numériques sont initialisés à 0.
+* aucune valeur nulle dans les champs numériques et de date
+* les champs numériques sont initialisés à 0
 
 ## Champs XML {#xml-fields}
 
-Par défaut, tout élément **`<attribute>`** et **`<element>`** typé est mappé sur un champ SQL de la table du schéma de données. Vous pouvez toutefois référencer ce champ au format XML plutôt que SQL, ce qui signifie que les données sont stockées dans un champ mémo (&quot;mData&quot;) de la table contenant les valeurs de tous les champs XML. Le stockage de ces données est un document XML qui respecte la structure du schéma.
+Par défaut, tout  **`<attribute>`** et **`<element>`** L’élément de type -type est mappé sur un champ SQL de la table du schéma de données. Vous pouvez toutefois référencer ce champ au format XML plutôt que SQL, ce qui signifie que les données sont stockées dans un champ mémo (&quot;mData&quot;) de la table contenant les valeurs de tous les champs XML. Le stockage de ces données est un document XML qui respecte la structure du schéma.
 
 Pour renseigner un champ en XML, il faut ajouter l&#39;attribut **xml** avec la valeur &quot;true&quot; sur l&#39;élément concerné.
 
@@ -91,21 +91,19 @@ Pour renseigner un champ en XML, il faut ajouter l&#39;attribut **xml** avec la 
 
 * Champ commentaire multi-lignes :
 
-  ```
+  ```sql
   <element name="comment" xml="true" type="memo" label="Comment"/>
   ```
 
 * Description de données au format HTML :
 
-  ```
+  ```sql
   <element name="description" xml="true" type="html" label="Description"/>
   ```
 
   Le type &quot;html&quot; permet de stocker le contenu HTML dans une balise CDATA et d&#39;afficher un contrôle spécifique d&#39;édition HTML dans l&#39;interface cliente Adobe Campaign.
 
-L’utilisation de champs XML permet d’ajouter des champs sans avoir à modifier la structure physique de la base. Un autre avantage est d’utiliser moins de ressources (taille alouée des champs SQL, limite sur le nombre de champs par table, etc.).
-
-L’inconvénient principal est l’impossibilité d’indexer ou de filtrer un champ XML.
+Utilisez les champs XML pour ajouter de nouveaux champs sans modifier la structure physique de la base de données. Un autre avantage est d&#39;utiliser moins de ressources (taille allouée aux champs SQL, limite du nombre de champs par table, etc.). Notez toutefois que vous ne pouvez pas indexer ou filtrer un champ XML.
 
 ## Champs indexés {#indexed-fields}
 
@@ -113,7 +111,7 @@ Les index permettent d’optimiser les performances des requêtes SQL utilisées
 
 Un index est déclaré à partir de l’élément principal du schéma de données.
 
-```
+```sql
 <dbindex name="name_of_index" unique="true/false">
   <keyfield xpath="xpath_of_field1"/>
   <keyfield xpath="xpath_of_field2"/>
@@ -124,22 +122,20 @@ Un index est déclaré à partir de l’élément principal du schéma de donné
 Les index suivent les règles suivantes :
 
 * Un index peut référencer un ou plusieurs champs de la table.
-* Un index peut être unique (afin d’éviter les doublons) sur l’ensemble des champs qui le compose si l’attribut **unique** est renseigné avec la valeur &quot;true&quot;.
-* Le nom SQL de l’index est déduit à partir du nom SQL de la table et du nom de l’index.
+* Un index peut être unique (pour éviter les doublons) dans tous les champs si la variable **unique** contient la valeur &quot;true&quot;
+* Le nom SQL de l&#39;index est déterminé à partir du nom SQL de la table et du nom de l&#39;index.
 
 >[!NOTE]
 >
->Par convention, les index sont les éléments déclarés en premier à partir de l’élément principal du schéma.
-
->[!NOTE]
+>* Par convention, les index sont les éléments déclarés en premier à partir de l’élément principal du schéma.
 >
->Les index sont crées automatiquement lors d’un mapping de table (mapping standard ou FDA).
+>* Les index sont crées automatiquement lors d’un mapping de table (mapping standard ou FDA).
 
 **Exemple**:
 
 * Ajout d’un index à l’adresse e-mail et la ville :
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <dbindex name="email">
@@ -157,7 +153,7 @@ Les index suivent les règles suivantes :
 
 * Ajout d’un index unique au champ du nom « id » :
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <dbindex name="id" unique="true">
@@ -180,7 +176,7 @@ Une table doit posséder au moins une clé permettant d&#39;identifier un enregi
 
 Une clé est déclarée à partir de l&#39;élément principal du schéma de données.
 
-```
+```sql
 <key name="name_of_key">
   <keyfield xpath="xpath_of_field1"/>
   <keyfield xpath="xpath_of_field2"/>
@@ -188,25 +184,23 @@ Une clé est déclarée à partir de l&#39;élément principal du schéma de don
 </key>
 ```
 
-Les clés suivent les règles suivantes :
+Les règles suivantes s’appliquent aux clés :
 
-* Une clé peut référencer un ou plusieurs champs de la table.
-* Une clé est dite primaire (ou prioritaire) lorsqu’elle est renseignée en premier dans le schéma ou si elle contient l’attribut **internal** avec la valeur &quot;true&quot;.
-* Un index unique est implicitement déclaré pour chaque définition de clé. Il est possible d’empêcher la création de l’index sur la clé en ajoutant l’attribut **noDbIndex** avec la valeur &quot;true&quot;.
-
->[!NOTE]
->
->Par convention, les clés sont les éléments déclarés à partir de l’élément principal du schéma après la définition des index.
+* Une clé peut référencer un ou plusieurs champs du tableau.
+* Une clé est dite primaire (ou prioritaire) lorsqu’elle est renseignée en premier dans le schéma ou si elle contient la variable **internal** avec la valeur &quot;true&quot;
+* Un index unique est implicitement déclaré pour chaque définition de clé. Vous pouvez empêcher la création d’un index sur la clé en ajoutant la variable **noDbIndex** avec la valeur &quot;true&quot;
 
 >[!NOTE]
 >
->Les clés sont crées lorsque, lors du mapping de la table (mapping standard ou FDA), Adobe Campaign trouve des index uniques.
+>* Par convention, les clés sont les éléments déclarés à partir de l’élément principal du schéma après la définition des index.
+>
+>* Les clés sont crées lorsque, lors du mapping de la table (mapping standard ou FDA), Adobe Campaign trouve des index uniques.
 
 **Exemple**:
 
 * Ajout d’une clé à l’adresse e-mail et la ville :
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <key name="email">
@@ -224,7 +218,7 @@ Les clés suivent les règles suivantes :
 
   Le schéma généré :
 
-  ```
+  ```sql
   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
     <element name="recipient" sqltable="CusRecipient">    
      <dbindex name="email" unique="true">      
@@ -247,7 +241,7 @@ Les clés suivent les règles suivantes :
 
 * Ajout d&#39;une clé primaire ou interne sur le champ de nom &quot;id&quot; :
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <key name="id" internal="true">
@@ -266,7 +260,7 @@ Les clés suivent les règles suivantes :
 
   Le schéma généré :
 
-  ```
+  ```sql
   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
     <element name="recipient" sqltable="CusRecipient">    
       <key name="email">      
@@ -289,7 +283,7 @@ Les clés suivent les règles suivantes :
 
 ### Clé auto-incrémentale {#auto-incremental-key}
 
-La clé primaire de la plupart des tables Adobe Campaign est un entier long 32 bits auto-généré par le moteur de base de données. Le calcul de la valeur de la clé repose sur une séquence (par défaut la fonction SQL **XtkNewId**) générant un nombre unique dans toute la base. Le contenu de la clé est automatiquement renseigné à l&#39;insertion de l&#39;enregistrement.
+La clé primaire de la plupart des tables Adobe Campaign est un entier long 32 bits généré automatiquement par le moteur de base de données. Le calcul de la valeur de la clé dépend d’une séquence (par défaut, la variable **XtkNewId** fonction SQL) générant un nombre unique dans la base de données entière. Le contenu de la clé est automatiquement renseigné à l&#39;insertion de l&#39;enregistrement.
 
 L’avantage d’une clé incrémentale est d’obtenir une clé technique non modifiable utilisée pour les jointures entre les tables. De plus, cette clé n’est pas consommatrice car elle utilise un entier sur deux octets.
 
@@ -311,7 +305,7 @@ Pour déclarer une clé unique, il faut renseigner l’attribut **autopk** (avec
 
 Déclaration d&#39;une clé incrémentale dans le schéma source :
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient" autopk="true">
   ...
@@ -321,7 +315,7 @@ Déclaration d&#39;une clé incrémentale dans le schéma source :
 
 Le schéma généré :
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" autopk="true" pkSequence="XtkNewId" sqltable="CusRecipient"> 
     <dbindex name="id" unique="true">
@@ -370,7 +364,7 @@ Pour plus d’informations sur les tables FDA, voir la section [Accès à une ba
 
 Un lien doit être déclaré dans le schéma possédant la clé étrangère de la table liée à partir de l&#39;élément principal :
 
-```
+```sql
 <element name="name_of_link" type="link" target="key_of_destination_schema">
   <join xpath-dst="xpath_of_field1_destination_table" xpath-src="xpath_of_field1_source_table"/>
   <join xpath-dst="xpath_of_field2_destination_table" xpath-src="xpath_of_field2_source_table"/>
@@ -412,7 +406,7 @@ Les liens suivent les règles suivantes :
 
 Relation 1-N vers la table de schéma &quot;cus:company&quot; :
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     ...
@@ -423,7 +417,7 @@ Relation 1-N vers la table de schéma &quot;cus:company&quot; :
 
 Le schéma généré :
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" sqltable="CusRecipient"> 
     <dbindex name="companyId">      
@@ -438,13 +432,13 @@ Le schéma généré :
 </schema>
 ```
 
-La définition du lien est complétée avec les champs composant la jointure, c&#39;est-à -dire la clé primaire avec son XPath (&quot;@id&quot;) dans le schéma destination et la clé étrangère avec son XPath (&quot;@company-id&quot;) dans le schéma.
+La définition du lien est complétée avec les champs composant la jointure, c’est-à-dire la clé primaire avec son XPath (« @id ») dans le schéma destination et la clé étrangère avec son XPath (« @company-id ») dans le schéma.
 
 La clé étrangère est ajoutée automatiquement dans un élément reprenant les même caractéristiques que le champ associé dans la table destination avec comme convention de nommage le nom du schéma cible suivi du nom du champ associé (&quot;company-id&quot; dans notre exemple).
 
 Le schéma étendu de la cible (&quot;cus:company&quot;) :
 
-```
+```sql
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
   <element name="company" sqltable="CusCompany" autopk="true"> 
     <dbindex name="id" unique="true">     
@@ -475,7 +469,7 @@ Un lien réverse vers la table &quot;cus:recipient&quot; a été ajouté avec le
 
 Dans cet exemple, nous déclarons un lien vers la table de schéma « nms:address ». La jointure est externe et est renseignée explicitement avec l’adresse e-mail du destinataire et le champ « @address » de la table liée (« nms:address »).
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient"> 
     ...
@@ -490,7 +484,7 @@ Dans cet exemple, nous déclarons un lien vers la table de schéma « nms:addre
 
 Relation 1-1 vers la table de schéma &quot;cus:extension&quot; :
 
-```
+```sql
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
@@ -498,7 +492,7 @@ Relation 1-1 vers la table de schéma &quot;cus:extension&quot; :
 
 Lien sur un dossier (schéma &quot;xtk:folder&quot;) :
 
-```
+```sql
 <element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
@@ -508,7 +502,7 @@ La valeur par défaut retourne l&#39;identifiant du premier dossier éligible de
 
 Dans cet exemple, on souhaite créer une clé sur un lien (&quot;company&quot; vers le schéma &quot;cus:company&quot;) avec l&#39;attribut **xlink** et un champ de la table (&quot;email&quot;) :
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <key name="companyEmail"> 
@@ -524,7 +518,7 @@ Dans cet exemple, on souhaite créer une clé sur un lien (&quot;company&quot; v
 
 Le schéma généré :
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" sqltable="CusRecipient"> 
     <dbindex name="companyId">      

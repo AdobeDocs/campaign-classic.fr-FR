@@ -1,27 +1,27 @@
 ---
 product: campaign
-title: À propos de la référence de schéma dans Adobe Campaign Classic
-description: Découvrez comment configurer des schémas d’extension afin d’étendre le modèle de données conceptuel de la base de données Adobe Campaign Classic
+title: Prise en main des schémas dans Adobe Campaign
+description: Découvrez comment utiliser les schémas et étendre le modèle de données conceptuel de la base de données Adobe Campaign
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '376'
+ht-degree: 75%
 
 ---
 
-# À propos de la référence des schémas{#about-schema-reference}
+# Prise en main des schémas {#about-schema-reference}
+
+## Présentation d’un schéma {#what-is-a-schema}
 
 Ce chapitre explique comment configurer des schémas d’extension afin d’étendre le modèle conceptuel de données de la base de données Adobe Campaign.
 
-Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, voir la section [Modèle de données Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/acc-datamodel.html).
+Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, voir la section [Modèle de données Campaign Classic](about-data-model.md).
 
-La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée **schéma**.
-
-Un schéma est un document XML associé à une table de la base de données, il définit la structuration des données et décrit la définition SQL de la table :
+Dans Adobe Campaign, la structure physique et logique des données véhiculées dans l’application est décrite en XML. A **schema** est un document XML associé à une table de base de données. Il définit la structure des données et décrit la définition SQL de la table :
 
 * le nom de la table,
 * des champs ;
@@ -72,7 +72,7 @@ Les balises **`<element>`** définissent les noms des éléments d&#39;entité. 
 
 Un schéma de données est identifié par son nom et son espace de noms.
 
-Un espace de noms permet de regrouper un ensemble de schémas par centres d&#39;intérêt. Par exemple, on utilisera l&#39;espace de noms **cus** pour le paramétrage spécifique aux clients (**customers**).
+Un espace de noms permet de regrouper un ensemble de schémas par zone d’intérêt. Par exemple, la variable **cus** L’espace de noms est utilisé pour la configuration spécifique au client (**clients**).
 
 La clé d&#39;identification d&#39;un schéma est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39;, par exemple **cus:recipient**.
 
