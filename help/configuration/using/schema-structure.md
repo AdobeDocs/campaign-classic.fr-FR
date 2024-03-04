@@ -9,9 +9,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
+source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1521'
 ht-degree: 77%
 
 ---
@@ -485,3 +485,14 @@ Résultat de la chaîne calculée sur un destinataire : **Dupont René (rene.du
 >[!NOTE]
 >
 >Si le schéma ne contient pas de Compute string, une Compute string est renseignée par défaut avec les valeurs de la clé primaire du schéma.
+
+
+## En savoir plus
+
+Pour en savoir plus, consultez les liens suivants :
+
+* [Prise en main des schémas](about-schema-reference.md)
+* [Mapping de la base de données](database-mapping.md)
+* [Gestion des liens](database-links.md)
+* [Gestion des clés](database-keys.md)
+* [Modèle de données Campaign](about-data-model.md)

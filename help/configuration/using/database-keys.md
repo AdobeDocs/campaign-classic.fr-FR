@@ -5,9 +5,9 @@ description: Présentation de la gestion des clés dans les schémas de données
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
-source-git-commit: f03e72d4ecd17446264adf74603aefca95f99d41
+source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '625'
 ht-degree: 72%
 
 ---
@@ -180,3 +180,13 @@ En plus de la définition de la clé et de son index, un champ numérique de nom
 >
 >Un enregistrement avec une clé primaire à 0 est automatiquement inséré à la création de la table. Cet enregistrement est utilisé pour éviter les jointures externes, non efficaces sur les tables à volumes. Par défaut, toutes les clés étrangères sont initialisées avec la valeur 0, ce qui permet de toujours retourner un résultat sur la jointure lorsque la donnée n’est pas renseignée.
 
+
+## En savoir plus
+
+Pour en savoir plus, consultez les liens suivants :
+
+* [Prise en main des schémas](about-schema-reference.md)
+* [Structure d&#39;un schéma](schema-structure.md)
+* [Mapping de la base de données](database-mapping.md)
+* [Gestion des liens](database-links.md)
+* [Modèle de données Campaign](about-data-model.md)

@@ -5,9 +5,9 @@ description: Mapping de la base de données
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
-source-git-commit: f03e72d4ecd17446264adf74603aefca95f99d41
+source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '939'
 ht-degree: 66%
 
 ---
@@ -222,3 +222,13 @@ Le schéma généré :
 ```
 
 La définition de la clé de nom &quot;companyEmail&quot; a été entendue avec la clé étrangère du lien &quot;company&quot;, cette clé engendre un index unique sur les deux champs.
+
+## En savoir plus
+
+Pour en savoir plus, consultez les liens suivants :
+
+* [Prise en main des schémas](about-schema-reference.md)
+* [Structure d&#39;un schéma](schema-structure.md)
+* [Mapping de la base de données](database-mapping.md)
+* [Gestion des clés](database-keys.md)
+* [Modèle de données Campaign](about-data-model.md)
