@@ -4,10 +4,10 @@ description: Découvrez comment migrer les opérateurs et opératrices technique
 feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
-source-git-commit: b2c37e2426d3b6ba5174d4a446320e0f50485a76
+source-git-commit: 17a43a6e2e3ee7a3a2b81545bf96d766e6e97a05
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 98%
+source-wordcount: '1738'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 98%
 Dans le cadre des efforts visant à renforcer le processus de sécurité et d’authentification, à partir de Campaign Classic v7.3.5, le processus d’authentification de Campaign Classic est en cours d’amélioration. Les opérateurs et opératrices techniques peuvent désormais utiliser [Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}. **Adobe recommande d’effectuer cette migration dans Campaign v7.3.5 afin de pouvoir migrer en douceur vers Campaign v8.**
 
 Un opérateur ou une opératrice technique est un profil utilisateur de Campaign qui a été explicitement créé pour l’intégration de l’API. Cet article décrit les étapes à suivre pour migrer un opérateur ou une opératrice technique vers un compte technique par le biais de l’Adobe Developer Console.
-
 
 ## Cela vous concerne-t-il ?{#ims-impacts}
 
@@ -53,7 +52,7 @@ Ces versions de Campaign sont présentées dans la section [Notes de mise à jou
 
 * Clientes et clients Campaign hébergés et Managed Services
 
-  Pour les appels d’API dans les instances Message Center, un profil de produit doit avoir été créé lors de la mise à niveau vers Campaign v7.3.5 (ou une autre [version compatible avec la migration IMS](#ims-versions-tech)) ou lors de l’approvisionnement de l’instance. Ce profil de produit est nommé :
+  Pour les appels API vers les instances Message Center, le profil de produit (mentionné ci-dessous) doit être créé lors de la mise à niveau vers Campaign v7.3.5 (ou autre). [Version compatible avec la migration IMS](#ims-versions-tech)) ou pendant la mise en service de l’instance. Notez que si vous ne voyez pas le profil de produit, contactez votre gestionnaire de transition ou le service clientèle pour obtenir le profil de produit créé avant de démarrer la migration IMS. Ce profil de produit est nommé :
 
   `campaign - <your campaign instance> - messagecenter`
 
