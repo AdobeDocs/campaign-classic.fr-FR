@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Email Design
 role: User, Developer, Data Engineer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 100%
+source-wordcount: '1465'
+ht-degree: 85%
 
 ---
 
@@ -158,7 +158,7 @@ Exemples:
 
 ### Inclusion de template JavaScript {#including-a-javascript-template}
 
-Il est possible de se constituer une bibliothèque de fonctions ou de variables afin de les utiliser ultérieurement. Pour cela, vous devez importer le template JavaScript avec la fonction **eval**. Ainsi, vous pourrez enrichir les contextes avec des fonctions supplémentaires déclarées dans d&#39;autres template JavaScript.
+Vous pouvez constituer une bibliothèque de fonctions ou de variables pour une utilisation ultérieure. Pour cela, importez le template JavaScript avec le **eval** de la fonction Vous pouvez ainsi enrichir les contextes avec des fonctions supplémentaires déclarées dans d&#39;autres modèles JavaScript.
 
 **Exemple** : import du template **common.js**.
 
@@ -375,7 +375,7 @@ Cette transformation est elle-même décrite en XML dans un document appelé feu
 
 ### Identification d&#39;une feuille de style {#identifying-a-stylesheet}
 
-Une feuille de style est identifiée par son nom et son espace de noms de la même manière que les schémas et les formulaires. Il est cependant recommandé de compléter le nom de la feuille de style avec l&#39;extension **.xsl**.
+Une feuille de style est identifiée par son nom et son espace de noms, tout comme les schémas et les formulaires. Il est toutefois recommandé d’ajouter la variable **.xml** extension au nom de la feuille de style.
 
 La clé d&#39;identification d&#39;une feuille de style est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39; (par exemple : **cus:livre.xsl**).
 
@@ -443,7 +443,7 @@ Les instructions suivantes décrivent le paramétrage de la feuille de style pou
 </xsl:template>
 ```
 
-Par défaut, le processeur XSLT recherche le **template** s&#39;appliquant au noeud racine ou principal du document XML en entrée. La construction du document de sortie commence à partir de ce **template**.
+Par défaut, le processeur XSLT recherche l’objet **modèle** qui s’applique au noeud racine ou principal du document XML d’entrée. La construction du document de sortie commence ainsi. **modèle**.
 
 Dans notre exemple, on génère une page HTML à partir du schéma &quot;cus:livre&quot; en affichant le nom du livre et la liste des chapitres.
 
@@ -479,7 +479,7 @@ Exemples:
 
 ### Inclusion de feuilles de style {#including-stylesheets}
 
-Il est possible de se constituer une bibliothèque de templates ou de variables à partager avec plusieurs feuilles de style. Le **template** &quot;longMonth&quot;, présenté ci-dessus, est un exemple-type de l&#39;intérêt de déporter un template dans une feuille de style afin d&#39;être ré-utilisé ultérieurement.
+Il est possible de créer une bibliothèque de modèles ou de variables à partager entre plusieurs feuilles de style. Le &quot;longMonth&quot; **modèle**, présenté ci-dessus, est un exemple typique de l’avantage de placer un modèle à distance dans une feuille de style afin qu’il puisse être réutilisé ultérieurement.
 
 La directive **`<xsl:include>`** indique le nom de la feuille de style à inclure dans le document.
 
@@ -527,7 +527,7 @@ Ces deux options sont accessibles à partir de l&#39;écran des gestions des opt
 * NcmResourcesDir = &quot;https://server/images/&quot;
 * NcmResourcesDirPreview = &quot;x:/images/&quot;
 
-Lors du traitement de la feuille de style, selon le contexte (aperçu ou publication), l&#39;attribut **_resPath** sur l&#39;élément principal du document XML en entrée est automatiquement renseigné avec l&#39;une ou l&#39;autre des deux options.
+Lors du traitement de la feuille de style, selon le contexte (aperçu ou publication), l’attribut **_resPath** sur l’élément principal du document XML en entrée est automatiquement renseigné avec l’une ou l’autre des deux options.
 
 Exemple d&#39;utilisation de l&#39;option d&#39;emplacement des images et son utilisation avec une image :
 
@@ -537,7 +537,7 @@ Exemple d&#39;utilisation de l&#39;option d&#39;emplacement des images et son ut
 
 >[!NOTE]
 >
->Il est conseillé de déclarer une variable contenant la référence du serveur où sont stockées les images (&quot;resPath&quot; dans notre exemple).
+>Il est conseillé de déclarer une variable contenant la référence du serveur où sont stockées les images (« resPath » dans notre exemple).
 
 ### Utilisation des ressources publiques {#using-public-resources}
 
@@ -565,7 +565,7 @@ Dans le formulaire, le champ de sélection de l&#39;image sera ajouté via la sy
 
 ## Affichage des dates {#date-display}
 
-Dans le document XML en entrée, les dates sont stockées dans le format interne XML : **AAA/MM/JJ HH:MM:SS** (exemple 2018/10/01 12:23:30).
+Dans le document XML en entrée, les dates sont stockées au format interne XML : **`YYYY/MM/DD HH:MM:SS`** (exemple `2018/10/01 12:23:30`).
 
 Adobe Campaign met à disposition des fonctions de formatage des dates pour les templates JavaScript et les feuilles de style XSL qui sont présentés ci-après.
 
@@ -602,7 +602,7 @@ Exemples:
 
 ### Formatage des dates en XSL {#xsl-date-formatting}
 
-Il n&#39;existe pas de fonction standard de gestion des dates dans la syntaxe XSLT. Pour afficher une date dans le format souhaité, Adobe Campaign met à disposition la fonction externe **date-format**. Elle prend en entrée le contenu de la date et une chaîne spécifiant le format de sortie avec la syntaxe suivante : **%4Y/%2M/%2D %2H%2N%2S**
+La syntaxe XSLT ne contient aucune fonction de gestion des dates standard. Pour afficher une date dans le format souhaité, Adobe Campaign fournit la fonction externe **date-format**. Cette fonction prend en entrée le contenu de la date et une chaîne spécifiant le format de sortie avec la syntaxe suivante : **%4Y/%2M/%2D %2H%2N%2S**
 
 Exemples:
 

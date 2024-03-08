@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Social Marketing
+title: Marketing social
 description: En savoir plus sur les workflows techniques de Social Marketing
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
+workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->:warning: Cette fonctionnalité est disponible uniquement dans Campaign Classic v7. [Apprenez-en davantage](../../social/using/about-social-marketing.md)
+>`:warning:` Cette fonctionnalité est disponible uniquement dans Campaign Classic v7. [Apprenez-en davantage](../../social/using/about-social-marketing.md)
 
 Les workflows présentés ci-dessous sont installés par défaut avec le module **Marketing social**.
 
@@ -52,7 +52,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Synchronisation des comptes Twitter</span> <br /> </td> 
    <td> <span class="uicontrol">syncTwitter</span> <br /> </td> 
-   <td> Ce workflow importe les personnes abonnées X dans Adobe Campaign tous les jours à 7h00.<br /> </td> 
+   <td> Ce workflow importe les abonnées et les abonnés X dans Adobe Campaign tous les jours à 07h00.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

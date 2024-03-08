@@ -6,10 +6,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 100%
+source-wordcount: '995'
+ht-degree: 87%
 
 ---
 
@@ -49,7 +49,7 @@ Vous trouverez ci-dessous la procédure pour intégrer le SDK Campaign.
 
   A partir de la version 1.0.26 du SDK, cette autorisation n&#39;est plus utilisée.
 
-* **Sous iOS** : les fichiers **libNeolaneSDK.a** et **Neolane_SDK.h** doivent être liés au projet. A partir de la version 1.0.24 du SDK, l&#39;option **ENABLE_BITCODE** est activée.
+* **Dans iOS**: la valeur **libNeolaneSDK.a** et **Neolane_SDK.h** Les fichiers doivent être liés au projet. À partir de la version 1.0.24 du SDK, l’option **ENABLE_BITCODE** est activée.
 
   >[!NOTE]
   >
@@ -153,7 +153,7 @@ La fonction d&#39;enregistrement permet :
 
   Les fonctions de tracking permettent de tracker l&#39;affichage de la notification (impression sur écran) et l&#39;activation des notifications (ouvertures).
 
-  Pour tracker l&#39;affichage d&#39;une notification (réalisé via l&#39;appel de la fonction **notifyReceive** du SDK),suivez l&#39;implémentation ci-après. Si vous utilisez FCM (Firebase Cloud Messaging), nous vous conseillons d&#39;utiliser la fonction **notifyReceive** lors de l&#39;appel de la fonction **onMessageReceived** par le système Android.
+  Pour tracker l&#39;affichage de la notification (via l&#39;appel de la fonction **notifyReceive** du SDK), suivez l’implémentation ci-dessous. Notez que si vous utilisez FCM (Firebase Cloud Messaging), nous vous conseillons d’utiliser la variable **notifyReceive** lorsque la fonction **onMessageReceived** est appelée par le système Android.
 
   ```
   package com.android.YourApplication;
@@ -249,7 +249,7 @@ La fonction d&#39;enregistrement permet :
   }
   ```
 
-  Voici un exemple d&#39;implémentation pour le tracking de l&#39;ouverture d&#39;une notification (réalisé via l&#39;appel de la fonction **notifyOpening** du SDK). La classe **NotificationActivity** correspond à celle utilisée pour créer l&#39;objet **notifIntent** dans l&#39;exemple précédent.
+  Voici un exemple d&#39;implémentation pour le suivi de l&#39;ouverture d&#39;une notification (exécuté par l&#39;appel de la fonction **notifyOpening** du SDK). La variable **NotificationActivity** correspond à celle utilisée pour créer la classe **notifIntent** dans l’exemple précédent.
 
   ```
   public class NotificationActivity extends Activity {
@@ -297,7 +297,7 @@ La fonction d&#39;enregistrement permet :
 
   >[!NOTE]
   >
-  >À partir de la version 7.0, une fois la fonction **application:didReceiveRemoteNotification:fetchCompletionHandler** mise en œuvre, le système d&#39;exploitation appelle uniquement cette fonction. La fonction **application:didReceiveRemoteNotification** n&#39;est donc pas appelée.
+  >À partir de la version 7.0, une fois que la variable **`application:didReceiveRemoteNotification:fetchCompletionHandler`** est implémentée, le système d’exploitation appelle uniquement cette fonction. La variable **`application:didReceiveRemoteNotification`** n’est donc pas appelée.
 
 +++
 
@@ -639,7 +639,7 @@ A ce niveau, vous devez effectuer les opérations suivantes :
 
 * Définir la mise en page de la notification
 
-  Vous devez définir une mise en page avec les widgets adéquats. Pour une image, c&#39;est le widget **UIImageView**.
+  Vous devez définir une disposition avec les widgets appropriés. Pour une image, le widget se nomme **UIImageView**.
 
 * Afficher le contenu multimédia
 

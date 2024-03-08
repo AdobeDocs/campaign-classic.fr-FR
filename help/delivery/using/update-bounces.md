@@ -1,21 +1,21 @@
 ---
 product: campaign
 title: Mettre à jour la qualification des rebonds après une panne d’un FAI
-description: Découvrez comment mettre à jour la qualification des retours après une panne dʼun fournisseur dʼaccès à Internet
+description: Découvrez comment mettre à jour la qualification des rebonds après une panne dʼun fournisseur dʼaccès à Internet
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Deliverability
 hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 88%
 
 ---
 
-# Mettre à jour les erreurs hard incorrectes après une panne d’un FAI {#update-bounces}
+# Mettre à jour les rebonds définitifs incorrects après une panne d’un FAI {#update-bounces}
 
 
 
@@ -27,9 +27,9 @@ Des problèmes globaux chez Apple ou Gmail, par exemple, peuvent entraîner l’
 
 * « “adresse email” 550 5.1.1 : utilisateur trouvé, mais aucun enregistrement d’utilisateur trouvé. »
 
-* « “adresse email” 550 du destinataire rejetée »
+* &quot;550 &#39;adresse email&#39; du destinataire rejeté&quot;
 
-Notez que si des bounces de report affichant le message « 452 action demandée abandonnée : réessayez ultérieurement » sont observés, les envois sont automatiquement repris et aucune action n’est nécessaire. Ils devraient s’améliorer à mesure que le FAI retrouve sa pleine capacité.
+Notez que si les rebonds de report avec le message &quot;452 action demandée abandonnée : réessayez plus tard&quot; sont observés, ils sont automatiquement repris et aucune action n’est nécessaire. Ils devraient s’améliorer à mesure que le FAI retrouve sa pleine capacité.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Notez que si des bounces de report affichant le message « 452 action demandée
 
 En cas de panne d&#39;un fournisseur d&#39;accès à Internet, les emails envoyés par la biais de Campaign ne peuvent pas être correctement envoyés à leur destinataire : ils seront incorrectement marqués comme mails rebonds.
 
-Selon la logique standard de gestion des bounces, Adobe Campaign a automatiquement ajouté ces destinataires à la liste de quarantaine avec un **[!UICONTROL Statut]** de **[!UICONTROL Quarantaine]**. Pour corriger ce problème, vous devez mettre à jour votre table de quarantaines dans Campaign en recherchant et en supprimant ces destinataires ou en basculant leur **[!UICONTROL Statut]** sur **[!UICONTROL Valide]** afin que le processus de nettoyage de nuit les supprime.
+Selon la logique standard de gestion des rebonds, Adobe Campaign a automatiquement ajouté ces destinataires à la liste de quarantaine avec un paramètre **[!UICONTROL Statut]** de **[!UICONTROL Quarantaine]**. Pour corriger ce problème, vous devez mettre à jour votre table de quarantaines dans Campaign en recherchant et en supprimant ces destinataires ou en basculant leur **[!UICONTROL Statut]** sur **[!UICONTROL Valide]** afin que le processus de nettoyage de nuit les supprime.
 
 Pour trouver les destinataires qui ont été affecté(e)s par ce problème, consultez les instructions ci-dessous.
 
@@ -54,23 +54,23 @@ En fonction du calendrier de l’incident et du FAI, voici les instructions reco
 
 * Pour les environnements Campaign contenant des informations de règles d’e-mail entrant dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
-   * **Texte d’erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient »
+   * **Texte d&#39;erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient »
    * **Domaine d’e-mail (@domain)** égal à domain1.com OU **domaine d’email (@domain)** égal à domain2.com OU **domaine d’email (@domain)** égal à domain3.com
-   * **Mise à jour du statut (@lastModified)** le ou après le JJ/MM/AAAA à HH:MM:SS AM
-   * **Mise à jour du statut (@lastModified)** le ou avant le JJ/MM/AAAA à HH:MM:SS PM
+   * **Mise à jour du statut (@lastModified)** sur ou après `MM/DD/YYYY HH:MM:SS AM`
+   * **Mise à jour du statut (@lastModified)** le ou avant `MM/DD/YYYY HH:MM:SS PM`
 
 * Pour les environnements Campaign contenant des informations de réponse de rebond SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
    * **Le texte d’erreur (texte de quarantaine)** contient « 550-5.1.1 » ET **Le texte d’erreur (texte de quarantaine)** contient « support.ISP.com »,
 
-     où « ISP.com » peut être « support.apple.com » ou « support.google.com », par exemple.
+     où « support.ISP.com » peut être « support.apple.com » ou « support.google.com », par exemple.
 
-   * **Mise à jour du statut (@lastModified)** le ou après le JJ/MM/AAAA à HH:MM:SS AM
-   * **Mise à jour du statut (@lastModified)** le ou avant le JJ/MM/AAAA à HH:MM:SS PM
+   * **Mise à jour du statut (@lastModified)** sur ou après `MM/DD/YYYY HH:MM:SS AM`
+   * **Mise à jour du statut (@lastModified)** le ou avant  `MM/DD/YYYY HH:MM:SS PM`
 
 
 Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l’état **[!UICONTROL Valide]** afin qu’ils soient supprimés de la liste de quarantaine par le processus de **[!UICONTROL nettoyage de la base de données]**, soit simplement les supprimer de la table.
 
 **Rubriques connexes :**
 * [Présentation des diffusions en échec](understanding-delivery-failures.md)
-* [Qualification des emails bounce   ](understanding-delivery-failures.md#bounce-mail-qualification)
+* [Qualification des e-mails rejetés](understanding-delivery-failures.md#bounce-mail-qualification)

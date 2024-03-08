@@ -10,10 +10,10 @@ topic-tags: configuration
 hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '2687'
-ht-degree: 100%
+source-wordcount: '2662'
+ht-degree: 84%
 
 ---
 
@@ -90,7 +90,7 @@ Pour vérifier si les deux côtés sont sur les mêmes fuseaux horaires :
 >
 >Pour des raisons de sécurité, la plateforme Adobe Campaign n&#39;est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter les adresses IP des utilisateurs.
 
-Adobe Campaign v7 implique le concept de **zones de sécurité**. Chaque utilisateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;utilisateur doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. Le paramétrage des zones de sécurité est effectué dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un utilisateur à une zone de sécurité doit être définie dans la console (**[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
+Adobe Campaign v7 implique le concept de **zones de sécurité**. Chaque utilisateur doit être associé à une zone pour se connecter à une instance et son adresse IP doit être incluse dans les plages d&#39;adresses ou définies dans la zone de sécurité. La configuration des zones de sécurité peut être effectuée dans le fichier de configuration du serveur Adobe Campaign. La zone de sécurité à laquelle un utilisateur est associé doit être définie dans la console (**[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
 
 **Avant la migration**, vous devez définir, avec l&#39;aide de votre administrateur réseau, les zones de sécurité qu&#39;il faudra activer après la migration.
 
@@ -108,17 +108,17 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->Le mot de passe **internal** doit être identique sur tous les serveurs de tracking. Pour plus d&#39;informations, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier) et [cette section](../../platform/using/access-management.md).
+>Le mot de passe **interne** doit être identique pour tous les serveurs de tracking. Pour plus d’informations, voir [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier) et [cette section](../../platform/using/access-management.md).
 
 ### Nouveautés v7 {#new-features-in-v7}
 
-* Les utilisateurs n&#39;ayant aucun droit ne peuvent plus se connecter à Adobe Campaign. Il est nécessaire de leur ajouter manuellement un droit, en créant par exemple un droit nommé **connect**.
+* Les utilisateurs ne disposant d’aucune autorisation ne peuvent plus se connecter à Adobe Campaign. Leurs autorisations doivent être ajoutées manuellement, par exemple en créant une autorisation appelée **connect**.
 
   Les utilisateurs impactés par cette modification sont identifiés et listés lors du postupgrade.
 
 * Le tracking ne fonctionne plus si le mot de passe est vide. Le cas échéant, un message d&#39;erreur vous en informe et vous invite à le reconfigurer.
 * Les mots de passe utilisateur ne sont plus stockés dans le schéma **xtk:sessionInfo**.
-* Les droits d&#39;administration sont désormais requis pour pouvoir utiliser les fonctions **xtk:builder:EvaluateJavaScript** et **xtk:builder:EvaluateJavaScriptTemplate**.
+* Les autorisations d’administration sont désormais nécessaires pour utiliser la variable **`xtk:builder:EvaluateJavaScript`** et **`xtk:builder:EvaluateJavaScriptTemplate`** fonctions.
 
 Certains schémas d&#39;usine ont été modifiés et ne sont désormais accessibles en écriture, par défaut, que par les opérateur possédant le droit **admin** :
 
@@ -175,7 +175,7 @@ Nouveau lien utilisant la page de connexion :
 
 ### Fonctions SQL {#sql-functions}
 
-Les appels de fonctions SQL inconnues ne sont plus naturellement transmis au serveur. Toutes les fonctions SQL doivent à présent être ajoutées dans le schéma **xtk:funcList** (voir à ce sujet [cette section](../../configuration/using/adding-additional-sql-functions.md)). Dans le cadre d&#39;une migration, une option est ajoutée lors du postupgrade permettant de conserver la compatibilité avec d&#39;anciennes fonctions SQL non déclarées. Si vous souhaitez continuer à utiliser ces fonctions, vérifiez que l&#39;option **XtkPassUnknownSQLFunctionsToRDBMS** est bien définie au niveau du nœud **[!UICONTROL Administration > Plateforme > Options]**.
+Les appels de fonctions SQL inconnues ne sont plus naturellement envoyés au serveur. Actuellement, toutes les fonctions SQL doivent être ajoutées au **xtk:funcList** schéma (voir à ce sujet la section [cette section](../../configuration/using/adding-additional-sql-functions.md)). Lors de la migration, une option est ajoutée lors du postupgrade. Celle-ci permet de maintenir la compatibilité avec les anciennes fonctions SQL non déclarées. Si vous souhaitez continuer à utiliser ces fonctions, vérifiez que la fonction **XtkPassUnknownSQLFunctionsToRDBMS** est en effet définie au niveau de la fonction **[!UICONTROL Administration > Plateforme > Options]** niveau du noeud.
 
 >[!IMPORTANT]
 >
@@ -266,7 +266,7 @@ Lorsqu&#39;un attribut de type &quot;@expr&quot; est utilisé, le SQLData peut �
 
 Les instances d&#39;Adobe Campaign v7 sont sécurisées par défaut. La sécurisation intervient au niveau des définitions de zones de sécurité dans le fichier **[!UICONTROL serverConf.xml]** : l&#39;attribut **allowSQLInjection** gère la sécurisation de la syntaxe SQL.
 
-En cas d&#39;erreur SQLData lors de l&#39;exécution du postupgrade, vous devez modifier cet attribut afin d&#39;autoriser temporairement l&#39;utilisation des syntaxes basées sur le SQLData, le temps de réécrire le code. Pour cela, l&#39;option suivante doit être modifiée dans le fichier **serverConf.xml** :
+Si une erreur SQLData se produit lors de l&#39;exécution du postupgrade, vous devez modifier cet attribut afin de permettre temporairement l&#39;utilisation de syntaxes basées sur le SQLData, ce qui vous permet de réécrire le code. Pour ce faire, l’option suivante doit être modifiée dans la variable **serverConf.xml** fichier :
 
 ```
 allowSQLInjection="true"
@@ -429,7 +429,7 @@ Lors de la synchronisation des ressources, la commande **postupgrade** permet de
 
 Le résultat de la synchronisation peut être consulté de deux manières :
 
-* Depuis l&#39;invite de commandes, les erreurs sont matérialisées par un triple chevron **>>>** et la synchronisation s&#39;interrompt immédiatement. Les avertissements sont signalés par un double chevron **>>** et doivent être résolus lorsque le processus de synchronisation est terminé. A la fin du postupgrade, un résumé est affiché dans l&#39;invite de commande. Par exemple :
+* Dans l&#39;interface de ligne de commande, les erreurs sont matérialisées par un triple chevron **&quot;>** et la synchronisation est arrêtée automatiquement. Les avertissements sont signalés par un double chevron **&quot;** et doit être résolu une fois la synchronisation terminée. A la fin du postupgrade, un résumé est affiché dans l&#39;invite de commande. Par exemple :
 
   ```
   2013-04-09 07:48:39.749Z        00002E7A          1     info    log     =========Summary of the update==========
@@ -461,7 +461,7 @@ Il existe trois possibilités de résoudre un conflit :
 
   >[!IMPORTANT]
   >
-  >Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des utilisateurs experts.
+  Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des utilisateurs experts.
 
 Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
@@ -473,7 +473,7 @@ Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
    ![](assets/s_ncs_production_conflict003.png)
 
-1. Positionnez-vous sur le conflit que vous venez de résoudre. Cliquez sur l&#39;icône **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Déclarer comme résolu]**.
+1. Accédez au conflit que vous auriez résolu. Cliquez sur le bouton **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Déclarer comme résolu]**.
 1. Enregistrez vos modifications : le conflit est désormais résolu.
 
 ## Tomcat {#tomcat}
@@ -508,13 +508,13 @@ Dans v7, le contenu de l&#39;offre a été déplacé. Dans la version 6.02, le c
 
 >[!IMPORTANT]
 >
->Si certaines diffusions utilisant des offres étaient paramétrées pour être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions en v7. Si vous n&#39;avez pas la possibilité de le faire, un mode &quot;compatibilité&quot; est proposé. Ce mode est fortement déconseillé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d&#39;Interaction v7. C&#39;est un mode transitoire permettant de terminer les campagnes en cours avant d&#39;effectuer la véritable migration 6.1. Veuillez nous contacter si vous souhaitez obtenir plus d&#39;informations sur ce mode.
+Si certaines diffusions utilisant des offres étaient paramétrées pour être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions en v7. Si vous n&#39;avez pas la possibilité de le faire, un mode &quot;compatibilité&quot; est proposé. Ce mode est fortement déconseillé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d&#39;Interaction v7. C&#39;est un mode transitoire permettant de terminer les campagnes en cours avant d&#39;effectuer la véritable migration 6.1. Veuillez nous contacter si vous souhaitez obtenir plus d&#39;informations sur ce mode.
 
-Un exemple de script de déplacement (**interactionTo610_full_XX.js**) est disponible dans le dossier **Migration** du répertoire d&#39;installation d&#39;Adobe Campaign v7. Ce fichier présente un exemple de script pour un client utilisant une seule représentation email par offre (les champs **[!UICONTROL htmlSource]** et **[!UICONTROL textSource]**). Le contenu qui était dans la table **NmsEmailOfferView** est déplacé vers la table des offres.
+Exemple de script de mouvement (**interactionTo610_full_XX.js**) est disponible dans la variable **Migration** dans le dossier Adobe Campaign v7. Ce fichier présente un exemple de script pour un client utilisant une représentation par email unique par offre (le **[!UICONTROL htmlSource]** et **[!UICONTROL textSource]** ). Le contenu qui se trouvait dans la variable **NmsEmailOfferView** a été déplacée vers la table des offres.
 
 >[!NOTE]
 >
->L&#39;utilisation de ce script ne permet pas de bénéficier des fonctionnalités &quot;gestion de contenu&quot; et &quot;fonctions de rendu&quot;. Pour bénéficier de ces fonctionnalités, vous devez repenser le catalogue d&#39;offres, en particulier le contenu des offres et la configuration des emplacements.
+L&#39;utilisation de ce script ne permet pas de bénéficier des fonctionnalités &quot;gestion de contenu&quot; et &quot;fonctions de rendu&quot;. Pour bénéficier de ces fonctionnalités, vous devez repenser le catalogue d&#39;offres, en particulier le contenu des offres et la configuration des emplacements.
 
 ```
 loadLibrary("/nl/core/shared/nl.js");
@@ -588,7 +588,7 @@ logInfo("Done");
 
 Voici la procédure à suivre après avoir déplacé le contenu des offres si vous disposez d&#39;un seul environnement. Prenons comme exemple un environnement &quot;ENV&quot;.
 
-1. Dans tous les emplacements de l&#39;environnement &quot;ENV&quot;, mettez à jour la liste des champs utilisés. Par exemple, pour un emplacement qui utilise uniquement le champ **[!UICONTROL htmlSource]**, vous devez ajouter le champ **[!UICONTROL view/htmlSource]**.
+1. Dans tous les emplacements de l&#39;environnement &quot;ENV&quot;, mettre à jour la liste des champs utilisés. Par exemple, pour un emplacement qui utilise uniquement la variable **[!UICONTROL htmlSource]**, vous devez ajouter la variable **[!UICONTROL view/htmlSource]**.
 
    ![](assets/migration_interaction_2.png)
 
@@ -606,7 +606,7 @@ Voici la procédure à suivre après avoir déplacé le contenu des offres si vo
 
 1. Faites de même pour toutes les offres de l&#39;environnement &quot;ENV&quot;.
 1. Activez toutes les offres de l&#39;environnement &quot;ENV_DESIGN&quot; sur les canaux correspondants.
-1. Testez la mise en production d’une offre. Si vous ne rencontrez pas d’erreurs, exécutez les tâches en attente sur la dernière tâche du workflow **[!UICONTROL Notification des offres]** (offerMgt) pour mettre en production toutes les offres.
+1. Testez la mise en ligne d’une offre. Si vous ne rencontrez aucun problème, exécutez les tâches en attente sur la dernière tâche de workflow. **[!UICONTROL Notification des offres]** (offerMgt) pour que toutes les offres soient mises en ligne.
 
    ![](assets/migration_interaction_6.png)
 
@@ -614,7 +614,7 @@ Voici la procédure à suivre après avoir déplacé le contenu des offres si vo
 
    >[!NOTE]
    >
-   >Les noms des catégories et des offres en ligne sont modifiés lors de leur mise en ligne. Sur le canal entrant, mettez à jour toutes les références aux offres et catégories.
+   Les noms des catégories et des offres en ligne sont modifiés lors de leur mise en ligne. Sur le canal entrant, mettez à jour toutes les références aux offres et catégories.
 
 ## Rapports  {#reports}
 

@@ -5,7 +5,7 @@ description: En savoir plus sur l’activité de workflow de tâche
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->:warning: Cette fonctionnalité est disponible uniquement dans Campaign Classic v7. [Apprenez-en davantage](../../mrm/using/creating-and-managing-tasks.md)
+>`:warning:` Cette fonctionnalité est disponible uniquement dans Campaign Classic v7. [Apprenez-en davantage](../../mrm/using/creating-and-managing-tasks.md)
 
 Dans un workflow de campagne, l&#39;activité **[!UICONTROL Tâche]** permet de définir deux scénarios : un premier si la tâche est complétée et un second si la tâche n&#39;est pas complétée (si elle est manuellement indiquée comme non complétée ou si elle expire).
 

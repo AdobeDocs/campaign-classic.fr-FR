@@ -5,10 +5,10 @@ description: Gérer les données entre Campaign et votre gestion de la relation 
 feature: Microsoft CRM Integration, Salesforce Integration
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '1634'
-ht-degree: 100%
+source-wordcount: '1627'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ Pour importer des données depuis le CRM dans Adobe Campaign, vous devez réali
 Pour un import, les étapes de paramétrage de l&#39;activité **[!UICONTROL Connecteur CRM]** sont les suivantes :
 
 1. Sélectionnez une opération de type **[!UICONTROL Import depuis le CRM]**.
-1. Dans la liste déroulante **[!UICONTROL Objet distant]**, sélectionnez l&#39;objet concerné par le traitement. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
+1. Accédez à la liste déroulante **[!UICONTROL Objet distant]** et sélectionnez l’objet concerné par le processus. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
 1. Dans la section **[!UICONTROL Champs distants]**, indiquez les champs à importer.
 
    Pour ajouter un champ, cliquez sur le bouton **[!UICONTROL Ajouter]** de la barre d&#39;outils puis sur l&#39;icône **[!UICONTROL Editer l&#39;expression]**.
@@ -67,7 +67,7 @@ Pour un import, les étapes de paramétrage de l&#39;activité **[!UICONTROL Con
    >
    >La date de la dernière modification côté CRM est également requise pour permettre l&#39;import incrémental des données.
 
-1. Vous pouvez également filtrer les données à importer selon vos besoins. Pour cela, cliquez sur le lien **[!UICONTROL Editer le filtre...]**.
+1. Vous pouvez également filtrer les données à importer selon vos besoins. Pour ce faire, cliquez sur le lien **[!UICONTROL Modifier le filtre..]**.
 
    Dans l&#39;exemple suivant, Adobe Campaign n&#39;importera que les contact ayant eu une activité après le 1er novembre 2012.
 
@@ -93,7 +93,7 @@ La date de la dernière synchronisation est stockée dans l&#39;option indiquée
 >
 >Cette note s&#39;applique uniquement à l&#39;activité **[!UICONTROL Connecteur CRM]** générique. Pour les autres activités CRM, le processus est automatique.
 >
->Cette option doit être créée et renseignée manuellement sous **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Il doit s’agir d’une option de texte et sa valeur doit correspondre au format suivant : **aaaa/MM/jj hh:mm:ss**.
+>Cette option doit être créée et renseignée manuellement sous **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Il doit s’agir d’une option de texte et sa valeur doit correspondre au format suivant : **`yyyy/MM/dd hh:mm:ss`**.
 > 
 >Pour tout autre import, vous devez mettre à jour manuellement cette option.
 
@@ -112,7 +112,7 @@ L&#39;activation de l&#39;option **[!UICONTROL Index automatique]** génère tro
 
   >[!NOTE]
   >
-  >Ces dates sont exprimées au format **aaaa/MM/jj hh:mm:ss**.
+  >Ces dates sont présentées au format suivant : **`yyyy/MM/dd hh:mm:ss`**.
 
 ### Filtrage des données {#filtering-data}
 
@@ -163,7 +163,7 @@ Pour exporter des données vers le CRM, vous devez réaliser un workflow du type
 Pour un export, les étapes de paramétrage de l&#39;activité **[!UICONTROL Connecteur CRM]** sont les suivantes :
 
 1. Sélectionnez une opération de type **[!UICONTROL Exporter vers le CRM]**.
-1. Dans la liste déroulante **[!UICONTROL Objet distant]**, sélectionnez l&#39;objet concerné par le traitement. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
+1. Accédez à la liste déroulante **[!UICONTROL Objet distant]** et sélectionnez l’objet concerné par le processus. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
 
    >[!IMPORTANT]
    >
@@ -209,7 +209,7 @@ Les autres conversions possibles sont les suivantes :
 
 ### Traitement des erreurs {#error-processing}
 
-Dans le cadre d&#39;un import ou d&#39;un export de données, il est possible d&#39;appliquer un traitement spécifique aux erreurs et rejets. Pour cela, sélectionnez les options **[!UICONTROL Traiter les rejets]** et **[!UICONTROL Traiter les erreurs]**, dans l&#39;onglet **[!UICONTROL Comportement]**.
+Dans le cadre d&#39;un import ou d&#39;un export de données, vous pouvez appliquer un traitement spécifique aux erreurs et rejets. Pour ce faire, sélectionnez l’option **[!UICONTROL Rejets de processus]** et **[!UICONTROL Traiter les erreurs]** dans le **[!UICONTROL Comportement]** .
 
 ![](assets/crm_export_options.png)
 
@@ -236,7 +236,7 @@ Afin de permettre la mise en place d&#39;un processus exhaustif de synchronisati
 Pour cela, les étapes sont les suivantes :
 
 1. Sélectionnez une opération de type **[!UICONTROL Import des objets supprimés dans le CRM]**.
-1. Dans la liste déroulante **[!UICONTROL Objet distant]**, sélectionnez l&#39;objet concerné par le traitement. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
+1. Accédez à la liste déroulante **[!UICONTROL Objet distant]** et sélectionnez l’objet concerné par le processus. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
 1. Indiquez la période de suppression à prendre en compte dans les champs **[!UICONTROL Date de début]** et **[!UICONTROL Date de fin]**. Ces dates seront incluses dans la période.
 
    ![](assets/crm_import_deleted_obj.png)
@@ -251,7 +251,7 @@ Pour supprimer des objets côté CRM, vous devez indiquer la clé primaire des �
 
 ![](assets/crm_delete_in_crm.png)
 
-L&#39;onglet **[!UICONTROL Comportement]** vous permet d&#39;activer le traitement des rejets. Cette option génère une seconde transition en sortie de l&#39;activité **[!UICONTROL Connecteur CRM]**. Voir à ce sujet la section [Traitement des erreurs](#error-processing).
+La variable **[!UICONTROL Comportement]** vous permet d&#39;activer le traitement des rejets. Cette option génère une seconde transition de sortie pour la variable **[!UICONTROL Connecteur CRM]** activité. Voir à ce sujet la section [Traitement des erreurs](#error-processing).
 
 >[!NOTE]
 >

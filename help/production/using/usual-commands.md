@@ -9,10 +9,10 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 90%
 
 ---
 
@@ -62,7 +62,7 @@ Datasource Server Provider Login
 default xxxxx myserver myprovider test400
 ```
 
-Une autre commande utile est la commande **nlserver monitor**. Elle permet de lister le fichier XML de monitoring (obtenu dans le client Adobe Campaign ou par la page web **monitor.jsp**).
+Une autre commande utile est : **nlserver monitor**. Il répertorie le fichier XML de surveillance (obtenu dans le client Adobe Campaign ou via l’ **monitor.jsp** page web).
 
 Vous pouvez lui adjoindre le paramètre **-missing** pour lister les modules absents (erreur dans ces modules, arrêt des modules, etc.)
 
@@ -156,7 +156,7 @@ Pour changer le mode de passe **internal** : **nlserver config -internalpasswor
 
 >[!IMPORTANT]
 >
->Pour vous connecter avec l’identifiant **Internal**, vous devez impérativement avoir défini un mot de passe. Voir à ce sujet [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
+>Pour vous connecter avec le **Interne** , vous devez avoir défini un mot de passe au préalable. Pour plus d’informations, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 >[!NOTE]
 >
@@ -164,5 +164,5 @@ Pour changer le mode de passe **internal** : **nlserver config -internalpasswor
 >* Pour obtenir la liste des paramètres, utilisez le paramètre **-?** : **nlserver config -?**
 >* Dans le cas d&#39;une base Oracle, il ne faut pas préciser le compte. La syntaxe sera donc la suivante :
 >
->  nlserver config -setdblogin:Oracle:test6@dbserver
+>  `nlserver config -setdblogin:Oracle:test6@dbserver`
 >

@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '1791'
-ht-degree: 100%
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
+workflow-type: tm+mt
+source-wordcount: '1781'
+ht-degree: 98%
 
 ---
 
@@ -212,7 +212,7 @@ Le build 19.1.4 initial comprend les correctifs suivants :
 * Correction d&#39;une régression causée par NEO-12727 qui entraînait l&#39;arrêt des workflows lorsqu&#39;une activité de test était exécutée deux fois. (NEO-16835)
 * Correction d&#39;un problème qui entraînait le renvoi d&#39;un code HTTP erroné (HTTP 200 OK à la place de HTTP 403 Interdit) lorsqu&#39;un jeton de session non valide ou ayant expiré était utilisé dans les appels d&#39;API. (NEO-16826)
 * Correction d&#39;un problème lié à la clé DKIM qui n&#39;était plus incorporée dans les emails, ce qui entraînait des problèmes de délivrabilité. (NEO-16804)
-* Correction de divers problèmes liés à la planification des workflows. Les workflows devaient être exécutés une fois par jour sans tenir compte de la configuration du planificateur. (NEO-16619, NEO-16426)
+* Correction de divers problèmes liés à la planification des workflows. Les workflows étaient planifiés pour être exécutés une fois par jour sans prendre en compte la configuration du planificateur. (NEO-16619, NEO-16426)
 
 
 ## Matrice de compatibilité de [!DNL Gold Standard]{#compatibility-matrix-gs}
@@ -467,7 +467,7 @@ Cette section répertorie tous les systèmes et composants pris en charge pour l
 
 ### Console cliente {#ClientConsoleoperatingsystems}
 
-:warning: Les systèmes d&#39;exploitation et le navigateur ci-après sont nécessaires pour utiliser la console cliente Campaign.
+`:warning:` Les systèmes d&#39;exploitation et le navigateur ci-après sont nécessaires pour utiliser la console cliente Campaign.
 
 #### Systèmes d’exploitation
 
