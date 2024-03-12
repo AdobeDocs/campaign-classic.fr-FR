@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: bc6f5d569d0c8a5eba4499a854af370258ce83a2
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 100%
+source-wordcount: '1407'
+ht-degree: 98%
 
 ---
 
@@ -40,11 +40,11 @@ L’implémentation du MTA amélioré peut avoir un impact sur certaines fonctio
 
 Adobe Campaign peut maintenant être mis à niveau en vue d’utiliser un nouveau MTA (Mail Transfer Agent) qui exécute le MTA d’e-mail commercial de SparkPost appelé **Momentum**.
 
-Momentum offre une technologie MTA innovante et extrêmement performante. Elle comprend une gestion des retours plus intelligente et une fonctionnalité d&#39;optimisation de la délivrabilité automatisée qui aide les expéditeurs à atteindre et à maintenir des taux de remise optimaux aux boîtes de réception.<!--More than 37% of the world's business email is sent using SparkPost's MTA technology.-->
+Momentum offre une technologie MTA innovante et extrêmement performante. Elle comprend une gestion des rebonds plus intelligente et une fonctionnalité d’optimisation de la délivrabilité automatisée qui aide les expéditeurs à atteindre et à maintenir des taux de remise optimaux aux boîtes de réception.<!--More than 37% of the world's business email is sent using SparkPost's MTA technology.-->
 
 **Quels sont les avantages ?**
 
-* Les clients Adobe Campaign qui utilisent le MTA amélioré ont vu une <!--300%-->augmentation importante de la vitesse de débit globale et une <!--90%+-->réduction significative des soft bounces.
+* Les clients Adobe Campaign qui utilisent le MTA amélioré ont vu une <!--300%-->augmentation importante de la vitesse de débit globale et une <!--90%+-->réduction significative des rebonds temporaires.
 * Le MTA amélioré utilise la dernière technologie MTA pour vous offrir des vitesses de débit optimales pour votre diffusion par email.
 * En s&#39;adaptant instantanément et automatiquement aux retours qu&#39;il reçoit, il garantit également une diffusion par email plus précise et plus intelligente avec des données de diffusion en temps réel.
 
@@ -99,15 +99,19 @@ Les règles de débit de diffusion de gestion des MX ne sont plus utilisées. Le
 
 Pour en savoir plus à propos de la configuration des MX, voir [cette section](../../installation/using/email-deliverability.md#mx-configuration).
 
-### Qualification des retours
+### Qualification des rebonds
 
-Les qualifications des retours dans la table **[!UICONTROL Qualification des logs de diffusion]** Campaign ne sont plus utilisées pour les messages d’erreur relatifs aux échecs des diffusions **synchrones**. Le MTA amélioré détermine le type et la qualification de retour, puis renvoie ces informations à Campaign.
+Les qualifications des rebonds dans la table **[!UICONTROL Qualification des logs de diffusion]** Campaign ne sont plus utilisées pour les messages d’erreur relatifs aux échecs des diffusions **synchrones**. Le MTA amélioré détermine le type et la qualification de rebond, puis renvoie ces informations à Campaign.
 
 >[!NOTE]
 >
->Le MTA amélioré qualifie le retour SMTP et envoie cette qualification à Campaign sous la forme d’un code de retour mappé à un motif et à une qualification de retour Campaign.
+>Le MTA amélioré qualifie le rebond SMTP et envoie cette qualification à Campaign sous la forme d’un code de retour mappé à un motif et à une qualification de rebond Campaign.
 
-Pour plus d’informations sur la qualification des retours, consultez [cette section](understanding-delivery-failures.md#bounce-mail-qualification).
+Pour plus d’informations sur la qualification des rebonds, consultez [cette section](understanding-delivery-failures.md#bounce-mail-qualification).
+
+### Diffusion
+
+Une diffusion ne peut pas être arrêtée une fois qu’elle a été transférée au MTA amélioré, même si elle s’affiche avec la fonction **[!UICONTROL Stoppé]** dans Campaign.
 
 ### Débit des diffusions
 
@@ -138,9 +142,9 @@ Pour en savoir plus sur la signature DKIM, consultez le [Guide des bonnes pratiq
 
 ### Rapports de réussite de diffusion
 
-Dans la vue **[!UICONTROL Résumé]** du [tableau de bord](delivery-dashboard.md) d&#39;une diffusion email, le pourcentage **[!UICONTROL Succès]** débute à 100 %, puis diminue progressivement tout au long de la [période de validité](steps-sending-the-delivery.md#defining-validity-period) de la diffusion, à mesure que les erreurs soft et hard bounces font l&#39;objet de rapports du MTA amélioré vers Campaign.
+Dans la vue **[!UICONTROL Résumé]** du [tableau de bord](delivery-dashboard.md) d’une diffusion par e-mail, le pourcentage **[!UICONTROL Succès]** débute à 100 %, puis diminue progressivement tout au long de la [période de validité](steps-sending-the-delivery.md#defining-validity-period) de la diffusion, à mesure que les rebonds temporaires et définitifs font l’objet de rapports du MTA amélioré vers Campaign.
 
-En effet, tous les messages s&#39;affichent comme **[!UICONTROL Envoyés]** dans les [logs d&#39;envoi](delivery-dashboard.md#delivery-logs-and-history) dès qu&#39;ils sont correctement relayés de Campaign vers le MTA amélioré. Ils restent dans cet état à moins ou jusqu’à ce qu’un [bounce](understanding-delivery-failures.md#delivery-failure-types-and-reasons) pour ce message soit communiqué de nouveau de la MTA améliorée à Campaign.
+En effet, tous les messages s&#39;affichent comme **[!UICONTROL Envoyés]** dans les [logs d&#39;envoi](delivery-dashboard.md#delivery-logs-and-history) dès qu&#39;ils sont correctement relayés de Campaign vers le MTA amélioré. Ils restent dans cet état à moins ou jusqu’à ce qu’un [rebond ](understanding-delivery-failures.md#delivery-failure-types-and-reasons) pour ce message soit communiqué de nouveau de la MTA améliorée à Campaign.
 
 Lorsque les messages hard bounce sont renvoyés du MTA amélioré, leur état passe de **[!UICONTROL Envoyés]** à **[!UICONTROL En échec]** et le pourcentage **[!UICONTROL Succès]** diminue en conséquence.
 
