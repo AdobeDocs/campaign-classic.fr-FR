@@ -4,7 +4,7 @@ title: Activité de workflow SMS entrant pour l'infrastructure de mid-sourcing
 description: Activité de workflow SMS entrant pour l'infrastructure de mid-sourcing
 feature: Technote, SMS
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
-source-git-commit: 5667cb6b45742638f8c984d7eb9633660f64fc0f
+source-git-commit: 85adfe3515480bed559091427ff1acec14a70320
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 1. Ajoutez une extension au `nms:inSMS` schéma sur votre instance Marketing. L’extension ajoute un nouvel attribut à la variable `nms:inSMS` et tracker la clé primaire de l&#39;enregistrement inSMS provenant de l&#39;instance Mid-sourcing.
 
-   ```
+   ```xml
    <element img="nms:miniatures/mini-sms.png" label="Incoming SMS"
           labelSingular="Incoming SMS" name="inSMS">
    <dbindex name="midInSMSId" unique="false">
@@ -55,7 +55,7 @@ ht-degree: 2%
 
    Remplacez le bloc ci-dessous. Notez que ce script peut varier si vous avez déjà personnalisé ce code.
 
-   ```
+   ```Javascript
    var lastSynchKey = getOption('SMS_MO_INDEX_WKF1105_inSmsUS_smsmidus');
    
    var smsId = application.getNewIds(1);
@@ -70,7 +70,8 @@ ht-degree: 2%
    ```
 
    Avec le nouveau script personnalisé suivant pour mettre à jour les données inSMS à partir d&#39;une clé composite, combinant la clé primaire de l&#39;enregistrement Mid-sourcing et l&#39;identifiant du compte externe du routage Marketing SMS.
-Procédez comme suit :
+
+   Procédez comme suit :
 
    * Saisissez la valeur réelle pour `<EXTERNAL_ACCOUNT_ID>`, par exemple, `var iExtAccountId=72733155`.
    * Veillez à conserver les éléments suivants dans le script personnalisé :
@@ -111,7 +112,7 @@ Procédez comme suit :
 
    Le script réinitialise le pointeur de la clé primaire sur 24 heures auparavant. Le workflow tentera de retraiter toutes les données inSMS de l&#39;instance Mid-sourcing au cours des dernières 24 heures et d&#39;ajouter toutes les données manquantes à l&#39;instance Marketing.
 
-   ```
+   ```Javascript
    // please enter real external account ID to replace <EXTERNAL_ACCOUNT_ID>
    // please enter real pointer option name to replace '<POINTER_OPTION_NAME>'
    // OPTION NAME format: SMS_MO_INDEX_{internal name of the workflow}_inSms_{internal name of the external account to access the mid}
