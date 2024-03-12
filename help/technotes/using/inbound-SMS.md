@@ -4,9 +4,9 @@ title: Activité de workflow SMS entrant pour l'infrastructure de mid-sourcing
 description: Activité de workflow SMS entrant pour l'infrastructure de mid-sourcing
 feature: Technote, SMS
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
-source-git-commit: de57e7aec255ab2995d1a758642e6a73cafa91b3
+source-git-commit: 5667cb6b45742638f8c984d7eb9633660f64fc0f
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '430'
 ht-degree: 2%
 
 ---
@@ -70,11 +70,20 @@ ht-degree: 2%
    ```
 
    Avec le nouveau script personnalisé suivant pour mettre à jour les données inSMS à partir d&#39;une clé composite, combinant la clé primaire de l&#39;enregistrement Mid-sourcing et l&#39;identifiant du compte externe du routage Marketing SMS.
+Procédez comme suit :
 
-   ```
+   * Saisissez la valeur réelle pour `<EXTERNAL_ACCOUNT_ID>`, par exemple, `var iExtAccountId=72733155`.
+   * Veillez à conserver les éléments suivants dans le script personnalisé :
+      * `_operation="insertOrUpdate"`
+      * `_key="@midInSMSId,@extAccount-id"`
+      * `midInSMSId={smsMessage.id}`
+      * `inSms.@["extAccount-id"] = iExtAccountId;{}`
+
+   ```Javascript
    // please enter real external account ID to replace <EXTERNAL ACCOUNT ID>
    var iExtAccountId=<EXTERNAL_ACCOUNT_ID>;
-   // make sure to keep the following elements in the custom script (the rest is optional and custom code can be added): _operation="insertOrUpdate", _key="@midInSMSId,@extAccount-id", midInSMSId={smsMessage.id}, inSms.@["extAccount-id"] = iExtAccountId;, var inSms = <inSMS xtkschema="nms:inSMS" _operation="insertOrUpdate"
+   
+   var inSms = <inSMS xtkschema="nms:inSMS" _operation="insertOrUpdate"
    
                _key="@midInSMSId,@extAccount-id"
                midInSMSId={smsMessage.id}
@@ -90,6 +99,7 @@ ht-degree: 2%
                operatorCode = {smsMessage.operatorCode}
                linkedSmsId={smsMessage.linkedSmsId}
                separator = {smsMessage.separator}/>
+   
    inSms.@["extAccount-id"] = iExtAccountId;
    
    xtk.session.Write(inSms);
