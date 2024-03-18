@@ -6,10 +6,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
-workflow-type: ht
-source-wordcount: '708'
-ht-degree: 100%
+source-git-commit: 466f04bce8f4c62b5dbb0e9d15150ab0c3bf2fbd
+workflow-type: tm+mt
+source-wordcount: '689'
+ht-degree: 96%
 
 ---
 
@@ -103,21 +103,24 @@ Dans l’exemple suivant, nous ajoutons **mediaURl** et **mediaExt** pour créer
 
 1. Sélectionnez l&#39;une des icônes d’usine dans le champ **[!UICONTROL Icône de l&#39;application]** pour personnaliser l&#39;application mobile dans votre service.
 
-1. Sélectionnez le **[!UICONTROL mode d&#39;authentification]**. Veuillez noter que vous pourrez toujours modifier votre mode d&#39;authentification ultérieurement dans l&#39;onglet **[!UICONTROL Certificat]** de votre application mobile.
-   * **[!UICONTROL Authentification basée sur les certificats]** : cliquez sur **[!UICONTROL Renseigner le certificat...]**, sélectionnez votre clé p12 et saisissez le mot de passe fourni par le développeur d&#39;applications mobiles.
-   * **[!UICONTROL Authentification basée sur les jetons]** : renseignez les paramètres de connexion **[!UICONTROL Identifiant de la clé]**, **[!UICONTROL Identifiant de l&#39;équipe]** et **[!UICONTROL Identifiant de paquet]**, puis sélectionnez votre certificat p8 en cliquant sur **[!UICONTROL Renseigner la clé privée.]** Pour plus d&#39;informations sur l&#39;**[!UICONTROL authentification basée sur les jetons]**, reportez-vous à la [documentation Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns).
+1. Sélectionnez la variable **[!UICONTROL Mode d’authentification]**.
+
+   ![](assets/nmac_ios_5.png)
+
+   Deux modes sont disponibles :
+
+   * (Recommandé) **[!UICONTROL Authentification basée sur les jetons]** : renseignez les paramètres de connexion APNs **[!UICONTROL Identifiant de la clé]**, **[!UICONTROL Identifiant de l&#39;équipe]** et **[!UICONTROL Identifiant de paquet]**, puis sélectionnez votre certificat p8 en cliquant sur **[!UICONTROL Renseigner la clé privée…]**. Pour plus d&#39;informations sur l&#39;**[!UICONTROL authentification basée sur les jetons]**, reportez-vous à la [documentation Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
+
+   * **[!UICONTROL Authentification basée sur les certificats]** : cliquez sur **[!UICONTROL Renseigner le certificat...]**, sélectionnez votre clé p12 et saisissez le mot de passe fourni par le développeur ou la développeuse d&#39;applications mobiles.
 
    >[!NOTE]
    >
-   > Adobe recommande l&#39;utilisation d&#39;une **[!UICONTROL authentification basée sur les jetons]** pour votre configuration iOS, car ce mode d&#39;authentification est plus sécurisé et n&#39;est pas lié à l’expiration du certificat.
+   > Adobe recommande d’utiliser **[!UICONTROL Authentification basée sur les jetons]** pour votre configuration iOS depuis l&#39;authentification P8, les clés sont plus récentes et plus sécurisées.
 
-   ![](assets/nmac_ios_4.png)
-
-1. Vous pouvez cliquer sur **[!UICONTROL Tester la connexion]** pour vous assurer qu’elle fonctionne bien.
+1. Utilisez le bouton **[!UICONTROL Tester la connexion]** pour valider votre configuration.
 
 1. Cliquez sur **[!UICONTROL Suivant]** pour passer à la configuration de l’application de production et procédez comme décrit ci-dessus.
 
-   ![](assets/nmac_ios_5.png)
 
 1. Cliquez sur **[!UICONTROL Terminer]**.
 
