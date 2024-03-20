@@ -7,9 +7,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 834d6c02536187b348842e6d524c4a83d02b355d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
    + [Prise en main des mises à niveau](rn/using/rn-overview.md)
    + [Dernière version](rn/using/latest-release.md)
    + Versions précédentes {#previous-releases}
-      + [Versions de 2022](rn/using/release-2022.md)
+      + [Versions 2022](rn/using/release-2022.md)
       + [Versions 2021](rn/using/release-2021.md)
       + [Versions [!DNL Gold Standard]](rn/using/gold-standard.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
@@ -740,7 +740,7 @@ ht-degree: 99%
       + [À propos du modèle de données](configuration/using/about-data-model.md)
       + [Description du modèle de données](configuration/using/data-model-description.md)
       + [Bonnes pratiques](configuration/using/data-model-best-practices.md)
-   + Utilisation des schémas {#schema-reference}
+   + Utilisation des schémas {#schema-reference}
       + [Prise en main des schémas](configuration/using/about-schema-reference.md)
       + [Structure d&#39;un schéma](configuration/using/schema-structure.md)
       + [Mapping de la base de données](configuration/using/database-mapping.md)
@@ -824,7 +824,7 @@ ht-degree: 99%
    + [Procédure de restauration](migration/using/about-rollback.md)
 + Notes techniques {#technotes}
    + [Recommandations relatives au dimensionnement du matériel](technotes/using/hardware-sizing.md)
-   + [Activité de workflow SMS entrant pour l&#39;infrastructure de mid-sourcing](technotes/using/inbound-SMS.md)
+   + [Activité de workflow de SMS entrants pour une infrastructure de midsourcing](technotes/using/inbound-SMS.md)
    + Mettre à niveau vers IMS{#ims}
       + [Migrer les utilisateurs et utilisatrices vers IMS](technotes/using/migrate-users-to-ims.md)
       + [Migrer un opérateur ou une opératrice technique vers Developer Console](technotes/using/ims-migration.md)

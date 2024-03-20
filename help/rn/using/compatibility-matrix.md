@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 3e771d9a18c083bee8239b95d1d68d63928217c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '764'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 >[!IMPORTANT]
 >
->Si vous utilisez RHEL, vous devez être prêt à désactiver SELinux ou à demander à vos architectes d’écrire des règles SELinux personnalisées pour vérifier qu’un SELinux activé ne provoque pas de problèmes avec les opérations Campaign.
+>Si vous utilisez RHEL, vous devez désactiver SELinux ou demander à vos architectes d’écrire des règles SELinux personnalisées pour vérifier qu’un SELinux activé ne pose pas de problème pour les opérations de Campaign.
 
 ## Serveurs web{#WebServers}
 
@@ -79,7 +79,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>Microsoft IIS </td>
 <td>
-<p>10.0 sous Windows Server 2016 et 2019</p>
+<p>10.0 sur Windows Server 2016 et 2019</p>
 </td>
 </tr>
 <tr>
@@ -150,7 +150,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 et SP2</p>
-<p><strong>Important :</strong> Microsoft SQL Server nʼest pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html#database-access-layers">En savoir plus</a>.</p>
+<p><strong>Important :</strong> Microsoft SQL Server nʼest pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html?lang=fr#database-access-layers">En savoir plus</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -355,7 +355,7 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 
 ### Runtime de Microsoft WebView2
 
-La dernière version du runtime Microsoft Edge WebView2 est obligatoire pour la console cliente Campaign.
+La dernière version du Runtime Microsoft Edge WebView2 est obligatoire pour la console cliente Campaign.
 
 Téléchargez Microsoft Edge WebView2 à partir du [site Microsoft Developer](https://www.adobe.com/go/acc-ms-webview2-runtime-download_fr).
 

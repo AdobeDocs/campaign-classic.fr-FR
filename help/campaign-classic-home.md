@@ -4,9 +4,9 @@ product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: b74ae2335fa5ba7a2cc4c3a0fdb375d7698dcd81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '346'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>Ressources pour les développeurs</strong><br/><a href="configuration/using/about-data-model.md">Description du modèle de données</a> - <a href="configuration/using/about-schema-reference.md">Structure d'un schéma</a> - <a href="configuration/using/editing-forms.md">Structure d'un schéma</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr">Documentation de référence JSAPI</a> - <a href="configuration/using/about-custom-recipient-table.md">Table de destinataires personnalisée</a>
+      <strong>Ressources pour le développement</strong><br/> <a href="configuration/using/about-data-model.md">Description du modèle de données</a> - <a href="configuration/using/about-schema-reference.md">Structure du schéma</a> - <a href="configuration/using/editing-forms.md">Structure du schéma</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr">Documentation de référence JSAPI</a> - <a href="configuration/using/about-custom-recipient-table.md">Tableau de destinataires personnalisé</a>
     </td>
   </tr>
 </table>

@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: f3dc9d56c693f334923d627a28a9e45b92b1c0c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1558'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td><strong>Détails</strong></td>
   </tr>
 <tr>
- <td>Social Marketing avec Facebook</td>
+ <td>Marketing des médias sociaux avec Facebook</td>
  <td>Le marketing social avec Facebook est désormais obsolète. Vous pouvez utiliser l’intégration de X (anciennement Twitter) pour publier sur les médias sociaux ou utiliser Adobe pour créer un canal personnalisé.
  <p></p>
   <!--p>Target removal date: End of 2023</p-->

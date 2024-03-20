@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 517f09e508207b14e6b870f926753b2d9a547262
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ _5 décembre 2023_
 
 * En outre, dans le cadre des efforts visant à renforcer la sécurité et le processus d’authentification, Adobe Campaign recommande vivement de migrer le mode d’authentification de l’utilisateur final et de l’utilisatrice finale et de passer de l’authentification native par nom d’utilisateur ou d’utilisatrice/mot de passe à Adobe Identity Management System (IMS). Découvrez comment effectuer la migration de vos opérateurs et opératrices dans [cette note technique](../../technotes/using/migrate-users-to-ims.md).
 
-* Désormais, lorsqu’un formulaire web a la variable **En attente de publication** , il ne devient pas automatiquement actif. Pour éviter tout problème de sécurité, il doit être publié avant qu’il ne devienne **En ligne** et accessible via l’URL du formulaire web dans un navigateur web. [En savoir plus](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
+* Désormais, lorsqu’un formulaire web a le statut **En attente de publication**, il n’est plus automatiquement mis en ligne. Pour éviter tout problème de sécurité, il doit être publié avant qu’il ne passe **En ligne** et devienne accessible via l’URL du formulaire web dans un navigateur web. [En savoir plus](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
 
 ### Correctifs {#release-7-3-5-patches}
 
