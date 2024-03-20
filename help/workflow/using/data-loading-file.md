@@ -5,10 +5,10 @@ description: En savoir plus sur l’activité de workflow de chargement (fichier
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 67a6e03318a74b665dc6928028470f98c0abae5e
+source-git-commit: 229844437770c460d958724e2dc15941e35939a6
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 86%
+source-wordcount: '1256'
+ht-degree: 81%
 
 ---
 
@@ -28,11 +28,17 @@ La section supérieure de la fenêtre de configuration de cette activité permet
 
 ![](assets/s_advuser_wf_etl_file.png)
 
-Vous pouvez définir un pré-traitement à exécuter lors de l&#39;import du fichier, par exemple pour ne pas avoir à décompresser le fichier sur le serveur (et donc économiser de l&#39;espace pour le fichier décompressé) mais pour inclure le décompresser dans le traitement du fichier. Sélectionnez la variable **[!UICONTROL Prétraiter le fichier]** et choisissez l’une des trois options suivantes : **[!UICONTROL Aucun]**, **[!UICONTROL Décompression]** (zcat) ou **[!UICONTROL Décrypter]** (gpg).
+## Application de l’étape de prétraitement {#pre-processing}
+
+Vous pouvez définir un pré-traitement à exécuter lors de l&#39;import du fichier, par exemple pour ne pas avoir à décompresser le fichier sur le serveur (et donc économiser de l&#39;espace pour le fichier décompressé) mais pour inclure le décompresser dans le traitement du fichier. [Découvrez comment décompresser ou déchiffrer un fichier avant traitement](../../platform/using/unzip-decrypt.md).
+
+Pour ce faire, sélectionnez la variable **[!UICONTROL Prétraiter le fichier]** et choisissez l’une des trois options suivantes : **[!UICONTROL Aucun]**, **[!UICONTROL Décompression]** (zcat) ou **[!UICONTROL Décrypter]** (gpg).
 
 ![](assets/preprocessing-dataloading.png)
 
-Pour plus d’informations à ce sujet, consultez cette section : [Compresser ou chiffrer un fichier avant traitement](../../platform/using/unzip-decrypt.md).
+>[!CAUTION]
+>
+>Si vous utilisez un déploiement hybride ou on-premise, les commandes de prétraitement peuvent ne pas fonctionner d’usine, car leur configuration par défaut utilise &quot;zcat&quot;, qui n’est pas disponible sous Windows. Dans ce cas, vous devez ajuster la variable **preProcessCommand** dans le fichier de configuration du serveur (serverConf.xml) en fonction de vos besoins. [Découvrez comment configurer les commandes de prétraitement dans le fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 ## Définir le format du fichier {#defining-the-file-format}
 
