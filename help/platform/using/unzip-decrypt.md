@@ -9,10 +9,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 67a6e03318a74b665dc6928028470f98c0abae5e
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 100%
+source-wordcount: '727'
+ht-degree: 89%
 
 ---
 
@@ -44,7 +44,7 @@ Vous pouvez ensuite utiliser les commandes de pré-traitement de votre choix dan
 1. Ajoutez et configurez une activité **[!UICONTROL Transfert de fichier]** dans le workflow.
 1. Ajoutez une activité **[!UICONTROL Chargement (fichier)]** et définissez le format de fichier.
 1. Cochez l&#39;option **[!UICONTROL Inclure un pré-traitement du fichier]**.
-1. Spécifiez la commande de pré-traitement à appliquer.
+1. Sélectionnez la commande de prétraitement à appliquer.
 1. Ajoutez d&#39;autres activités pour gérer les données provenant du fichier.
 1. Enregistrez et exécutez le workflow.
 
@@ -87,17 +87,15 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 1. Ouvrez l&#39;activité **[!UICONTROL Chargement (fichier)]**, puis configurez-la selon vos besoins. Les concepts généraux de paramétrage de l&#39;activité sont présentés dans [cette section](../../workflow/using/data-loading-file.md).
 
-   Ajoutez une étape de prétraitement à l’activité pour déchiffrer les données entrantes. Pour ce faire, sélectionnez l&#39;option **[!UICONTROL Inclure un pré-traitement du fichier]**, puis copiez-collez cette commande de déchiffrage dans le champ **[!UICONTROL Commande]** :
-
-   `gpg --batch --passphrase passphrase --decrypt <%=vars.filename%>`
+   Ajoutez une étape de prétraitement à l’activité pour déchiffrer les données entrantes. Pour ce faire, sélectionnez l’option **[!UICONTROL Prétraiter le fichier]** , puis sélectionnez **[!UICONTROL Décrypter]** de la **[!UICONTROL Commande]** liste déroulante :
 
    ![](assets/gpg_load.png)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Dans cet exemple, nous employons la phrase secrète utilisée par défaut par le Panneau de contrôle, qui est « passphrase ».
+   >Si des modifications sont nécessaires au niveau des commandes disponibles, vous pouvez accéder à [Adobe de l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour ajuster les paramètres preProcessCommand.
    >
-   >Si des clés GPG ont déjà été installées sur votre instance par le biais d&#39;une demande du service d&#39;Assistance clientèle, la phrase secrète peut avoir été modifiée et être différente de celle par défaut.
+   >Si vous utilisez un déploiement hybride, vous pouvez configurer ces commandes directement à partir du fichier de configuration du serveur (serverConf.xml). [Découvrez comment configurer les commandes de prétraitement dans le fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 1. Cliquez sur **[!UICONTROL OK]** pour valider la configuration de l&#39;activité.
 

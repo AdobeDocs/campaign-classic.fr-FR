@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 67a6e03318a74b665dc6928028470f98c0abae5e
 workflow-type: tm+mt
 source-wordcount: '8075'
 ht-degree: 76%
@@ -16,8 +16,6 @@ ht-degree: 76%
 ---
 
 # Le fichier de configuration du serveur{#the-server-configuration-file}
-
-
 
 La configuration globale d’Adobe Campaign est définie dans le fichier **serverConf.xml** qui se trouve dans le répertoire **conf** du répertoire d’installation. Cette section répertorie l’ensemble des nœuds et des paramètres du fichier **serverConf.xml**.
 
