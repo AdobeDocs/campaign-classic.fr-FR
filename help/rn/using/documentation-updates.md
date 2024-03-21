@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: a6113868f5e22583c8017b1134f69d66b92e92f1
 workflow-type: tm+mt
-source-wordcount: '3722'
-ht-degree: 100%
+source-wordcount: '3739'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,10 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md) pour connaître les mises à jour relatives aux versions.
 
 ## 2024
+
+### Mars 2024 {#mar-2024}
+
+La section relative à la configuration des applications mobiles a été mise à jour pour la connexion basée sur les jetons iOS aux APNS. [En savoir plus](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app)
 
 ### Janvier 2024 {#jan-2024}
 
