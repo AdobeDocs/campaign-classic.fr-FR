@@ -9,10 +9,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
 source-wordcount: '1980'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -79,9 +79,9 @@ Pour plus d’informations sur la confidentialité dans Adobe Experience Cloud
 
 Pour la gestion des informations personnelles, il est important de définir les données à traiter avec soin et par qui.
 * **Les données personnelles** sont des informations qui permettent d&#39;identifier directement ou indirectement un individu vivant.
-* Les **données personnelles sensibles** sont des informations relatives à l’origine, aux points de vue politiques, aux croyances religieuses, aux antécédents criminels, aux renseignements génétiques, aux données sur la santé, aux préférences sexuelles, aux renseignements biométriques ainsi qu’à l’appartenance syndicale.
+* Les **données personnelles sensibles** sont des informations relatives à l’origine, aux points de vue politiques, aux croyances religieuses, aux antécédents criminels, aux informations génétiques, aux données sur la santé, aux préférences sexuelles, aux renseignements biométriques, ainsi qu’à l’appartenance syndicale.
 
-Lors de l&#39;intégration de Campaign à d&#39;autres solutions Experience Cloud dans lesquelles des audiences peuvent être transférées d&#39;un système à un autre, comme [Adobe Analytics](../../platform/using/adobe-analytics-connector.md), [Audience Manager ou People core service](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md), ou avec d&#39;autres solutions par l&#39;intermédiaire de [connecteurs CRM](../../platform/using/crm-connectors.md), vous devez veiller à la protection des données personnelles.
+Lors de l&#39;intégration de Campaign à d&#39;autres solutions Experience Cloud dans lesquelles des audiences peuvent être transférées d&#39;un système à un autre, comme [Adobe Analytics](../../platform/using/gs-aa.md), [Audience Manager ou People core service](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md), ou avec d&#39;autres solutions par l&#39;intermédiaire de [connecteurs CRM](../../platform/using/crm-connectors.md), vous devez veiller à la protection des données personnelles.
 
 Les [principaux règlements](#privacy-regulations) se réfèrent de la manière suivante aux différentes entités chargées des données :
 * Un **contrôleur de données** est l&#39;autorité qui détermine les moyens et les objectifs de la collecte, de l&#39;utilisation et du partage des données personnelles.
@@ -100,7 +100,7 @@ Voici les différentes personnes utilisées dans cet exemple :
 
 * **Laura** est la **titulaire de données**. Elle reçoit les messages de la compagnie aérienne. Laura voyage peut-être fréquemment, mais elle peut décider à un moment donné de ne pas recevoir de publicité personnalisée ou de messages marketing de la part de la compagnie aérienne. Elle demandera à la compagnie aérienne (selon leur processus) de supprimer son numéro de vol fréquent.
 
-* **Anne** est le **contrôleur de données** de la compagnie aérienne. Elle reçoit la demande de Laura, récupère les identifiants utiles requis pour identifier le titulaire de données et soumet la demande dans Adobe Campaign.
+* **Anne** est le **contrôleur de données** de la compagnie aérienne. Elle reçoit la demande de Laura, récupère les identifiants utiles requis pour identifier le titulaire de données et envoie la demande dans Adobe Campaign.
 
 * **Adobe Campaign** est le **responsable du traitement des données**.
 

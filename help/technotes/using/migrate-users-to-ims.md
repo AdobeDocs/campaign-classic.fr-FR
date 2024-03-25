@@ -2,10 +2,10 @@
 title: Migrer les opérateurs et opératrices de Campaign vers Adobe Identity Management System (IMS)
 description: Découvrez comment migrer les opérateurs et opératrices Campaign vers Adobe Identity Management System (IMS).
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
-source-git-commit: 1879fe179381be654bad876de2423d25049db43c
-workflow-type: ht
-source-wordcount: '1280'
-ht-degree: 100%
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+workflow-type: tm+mt
+source-wordcount: '1278'
+ht-degree: 98%
 
 ---
 
@@ -13,9 +13,7 @@ ht-degree: 100%
 
 Dans le cadre de ses efforts constants pour renforcer la sécurité et le processus d’authentification, Adobe Campaign recommande vivement de migrer le mode d’authentification de l’utilisateur ou de l’utilisatrice, et de passer de l’authentification native par nom d’utilisateur ou d’utilisatrice/mot de passe à Adobe Identity Management System (IMS). Les opérateurs ou opératrices techniques doivent implémenter [Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign.
 
-Notez que dans Campaign v8, la connexion par nom d’utilisateur ou d’utilisatrice/mot de passe (ou authentification native) ne sera plus autorisée. **Adobe recommande d’effectuer cette migration dans Campaign v7.3.5 afin de pouvoir migrer en douceur vers Campaign v8.**
-
-
+Notez que dans Campaign v8, la connexion avec l’utilisateur/mot de passe (ou authentification native) n’est pas autorisée. **Adobe recommande d’effectuer cette migration dans Campaign v7.3.5 afin de pouvoir migrer en douceur vers Campaign v8.**
 
 ## Qu’est-ce qui a changé ?{#move-to-ims-changes}
 

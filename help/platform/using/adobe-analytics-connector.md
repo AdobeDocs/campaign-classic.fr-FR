@@ -6,11 +6,13 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
-source-git-commit: ccc48c93d81266b0971acc3a549458e0823eeb37
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 100%
+source-wordcount: '1700'
+ht-degree: 97%
 
 ---
 
@@ -121,7 +123,7 @@ Vous devez configurer vos **[!UICONTROL variables de conversion]** et **[!UICONT
    * **[!UICONTROL Ouvertures uniques]**
    * **[!UICONTROL Désabonnement]**
 
-   Pour découvrir comment configurer les **[!UICONTROL événements de succès]**, reportez-vous à cette [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=fr#admin-tools)..
+   Pour savoir comment configurer **[!UICONTROL Événements de succès]**, voir à ce sujet [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=fr#admin-tools).
 
    >[!NOTE]
    >
@@ -213,7 +215,7 @@ Pour plus d’informations, consultez la page [Profils de produit pour Adobe An
 
 ### Workflows techniques des processus Web Analytics {#technical-workflows-of-web-analytics-processes}
 
-L&#39;échange des données entre Adobe Campaign et Adobe Analytics est géré par quatre workflows techniques qui s&#39;exécutent en tâche de fond.
+L’échange des données entre Adobe Campaign et Adobe Analytics est géré par quatre workflows techniques qui s’exécutent en arrière-plan.
 
 Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossier **[!UICONTROL Administration]** > **[!UICONTROL Exploitation]** > **[!UICONTROL Workflows techniques]** > **[!UICONTROL Processus Web Analytics]**.
 
@@ -221,7 +223,7 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
 
 * **[!UICONTROL Récupération des événements web]** : toutes les heures, ce workflow télécharge les segments portant sur le comportement des internautes sur un site donné, les inclut dans la base de données Adobe Campaign et lance le workflow de remarketing.
 * **[!UICONTROL Purge des événements]** : ce workflow permet de supprimer de la base tous les événements selon la période paramétrée dans le champ **[!UICONTROL Durée de vie]**. Pour plus d&#39;informations, consultez la section [Configuration de votre compte externe dans Adobe Campaign Classic](#external-account-classic).
-* **[!UICONTROL Identification des contacts convertis]** : répertorie les visiteurs du site ayant concrétisé leur achat après une campagne de remarketing. Les données récupérées par ce workflow sont accessibles dans le rapport **[!UICONTROL Efficacité du remarketing]**, voir cette [page](#creating-a-re-marketing-campaign).
+* **[!UICONTROL Identification des contacts convertis]**: répertoire des visiteurs qui ont effectué un achat suite à une campagne de remarketing. Les données collectées par ce workflow sont accessibles dans la variable **[!UICONTROL Efficacité du remarketing]** rapport, voir [page](#creating-a-re-marketing-campaign).
 * **[!UICONTROL Envoi des indicateurs et des attributs de campagne]** : permet d’envoyer les indicateurs des campagnes depuis Adobe Campaign vers Adobe Experience Cloud via le connecteur Adobe Analytics. Ce workflow est déclenché à 4 heures du matin tous les jours et peut prendre 24 heures pour que les données soient envoyées à Analytics.
 
   Veuillez noter que ce workflow ne devrait pas être redémarré. Dans le cas contraire, il renverrait toutes les données précédentes, ce qui peut fausser les résultats d&#39;Analytics.

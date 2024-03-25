@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: f3dc9d56c693f334923d627a28a9e45b92b1c0c3
-workflow-type: ht
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
       <tr>
   <td>Adobe Analytics - Data Connector<br></td>
    <td><p>Le Adobe Analytics Data Connector a été supprimé le 17 août 2022. Il avait été abandonné avec la version 21.1.3 de Campaign.</p>
-   <p>Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. <a href="../../platform/using/adobe-analytics-connector.md">En savoir plus</a></p>
+   <p>Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. <a href="../../platform/using/gs-aa.md">En savoir plus</a></p>
   </td>
  </tr>
     <tr>

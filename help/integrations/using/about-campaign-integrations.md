@@ -9,9 +9,9 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '741'
 ht-degree: 100%
 
 ---
@@ -95,7 +95,7 @@ Le tableau suivant donne accès à la documentation disponible sur les intégrat
   </tr> 
   <tr> 
    <td> <strong>Connecteur Adobe Analytics</strong><br /> </td> 
-   <td> <strong>Connecteur Adobe Analytics</strong> permet à Adobe Campaign et à Adobe Analytics d’interagir par le biais de segments portant sur le comportement des utilisateurs suite à une campagne par e-mail. Réciproquement, elle envoie des indicateurs et des attributs de campagnes par e-mail diffusées par Adobe Campaign à Adobe Analytics.<br /> <p><a href="../../platform/using/adobe-analytics-connector.md">En savoir plus</a> sur l'intégration Adobe Campaign - Analytics Connector.</p><br /> </td> 
+   <td> <strong>Connecteur Adobe Analytics</strong> permet à Adobe Campaign et à Adobe Analytics d’interagir par le biais de segments portant sur le comportement des utilisateurs suite à une campagne par e-mail. Réciproquement, elle envoie des indicateurs et des attributs de campagnes par e-mail diffusées par Adobe Campaign à Adobe Analytics.<br /> <p><a href="../../platform/using/gs-aa.md">En savoir plus</a> sur l'intégration Adobe Campaign - Analytics Connector.</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>

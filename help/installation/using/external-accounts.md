@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '2031'
-ht-degree: 100%
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+workflow-type: tm+mt
+source-wordcount: '1989'
+ht-degree: 92%
 
 ---
 
@@ -50,7 +50,7 @@ Le compte externe est créé et ajouté à la liste des comptes externes.
 
 ### Mails rebonds {#bounce-mails-external-account}
 
-Le compte externe **Mails rebonds** spécifie le compte POP3 externe à utiliser pour se connecter au service de messagerie. Pour plus d&#39;informations sur ce compte externe, consultez cette [page](../../workflow/using/inbound-emails.md).
+Le compte externe **Mails rebonds** spécifie le compte externe POP3 à utiliser pour se connecter au service de messagerie. Voir à ce sujet ce compte externe [page](../../workflow/using/inbound-emails.md).
 
 Tous les serveurs configurés pour l&#39;accès POP3 peuvent être utilisés pour recevoir les retours d&#39;email.
 
@@ -161,7 +161,7 @@ Pour plus d&#39;informations sur cette configuration, consultez [cette page](../
 
 ### FTP {#ftp-external-account}
 
-Le compte externe FTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs FTP 898 utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Voir à ce sujet [cette page](../../workflow/using/file-transfer.md).
+Le compte externe FTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que les serveurs FTP 898 utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus à ce sujet, consultez cette [page](../../workflow/using/file-transfer.md).
 
 Pour ce faire, spécifiez dans ce compte externe l&#39;adresse et les informations de connexion utilisées pour établir la connexion au serveur FTP.
 
@@ -191,7 +191,7 @@ Pour savoir où trouver ces informations de connexion, consultez [cette page](ht
 
 ### SFTP {#sftp-external-account}
 
-Le compte externe SFTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Voir à ce sujet [cette page](../../workflow/using/file-transfer.md).
+Le compte externe SFTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus à ce sujet, consultez cette [page](../../workflow/using/file-transfer.md).
 
 ![](assets/ext_account_4.png)
 
@@ -264,11 +264,11 @@ Pour vous connecter à la console Adobe Campaign à l’aide d’un Adobe ID, 
 
 * **[!UICONTROL Secret client IMS]**
 
-  Informations de connexion de votre secret client IMS..
+  Identifiants de votre secret client IMS.
 
 * **[!UICONTROL Serveur de rappel]**
 
-  URL d&#39;accès à votre instance Adobe Campaign..
+  Accédez à l’URL de votre instance Adobe Campaign.
 
 * **[!UICONTROL Identifiant de l&#39;organisation IMS]**
 
@@ -294,7 +294,7 @@ Le compte externe **[!UICONTROL Web Analytics]** vous permet de transférer des
 
 ![](assets/ext_account_10.png)
 
-Pour ce compte externe, la formule de calcul pour les URL trackées doit être enrichie, et la connexion entre les deux solutions doit être validée. Voir à ce sujet [cette page](../../platform/using/adobe-analytics-connector.md#external-account-classic).
+Pour ce compte externe, la formule de calcul des URL trackées doit être enrichie et la connexion entre les deux solutions doit être validée. Pour en savoir plus à ce sujet, consultez cette [page](../../platform/using/gs-aa.md).
 
 ### Adobe Experience Manager {#adobe-experience-manager-external-account}
 
@@ -416,7 +416,7 @@ Pour plus d&#39;informations sur cette configuration, consultez [cette page](../
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Voir à ce sujet [cette page](../../workflow/using/file-transfer.md).
+Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Pour en savoir plus à ce sujet, consultez cette [page](../../workflow/using/file-transfer.md).
 
 ![](assets/ext_account_3.png)
 
