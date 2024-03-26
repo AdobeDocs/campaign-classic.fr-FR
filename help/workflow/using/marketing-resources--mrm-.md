@@ -7,7 +7,7 @@ feature: Workflows, Targeting Activity
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
@@ -38,7 +38,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Traitements dans les forums de discussion</span> <br /> </td> 
    <td> <span class="uicontrol">newsgroupMgt</span> <br /> </td> 
-   <td> Ce workflow gère l'envoi des notifications dans les forums de discussion. Il se déclenche lorsqu'il reçoit un signal de validation.<br /> </td> 
+   <td> Ce workflow gère l'envoi des notifications dans les forums de discussion. Elle est déclenchée lorsqu’un signal de validation est reçu.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

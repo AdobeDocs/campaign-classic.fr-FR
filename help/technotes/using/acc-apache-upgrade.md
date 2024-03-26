@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 100%
+source-wordcount: '529'
+ht-degree: 97%
 
 ---
 
@@ -57,7 +57,7 @@ Vos instances hors production seront d&#39;abord mises à niveau par Adobe, suiv
 
 * **Le client doit-il effectuer des validations ?**
 
-  Aucun test spécifique n’est nécessaire pour cette mise à niveau de sécurité. Contactez l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) pour tout problème rencontré..
+  Aucun test spécifique n’est nécessaire pour cette mise à niveau de sécurité. Si un problème est observé, veuillez contacter [Adobe de l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
 
 * **Puis-je demander un changement de date/heure du créneau prévu pour la mise à niveau de sécurité ?**

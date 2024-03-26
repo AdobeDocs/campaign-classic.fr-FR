@@ -9,7 +9,7 @@ exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ Pour enregistrer les données dans un champ existant de la base de données, cli
 
 >[!NOTE]
 >
->Le document de référence par défaut est le schéma des destinataires **nms:recipient**. Pour le visualiser ou en choisir un nouveau, sélectionnez le formulaire dans la liste et cliquez sur le bouton **[!UICONTROL Propriétés]**.
+>Le document de référence par défaut est : **nms:recipient** schéma. Pour l’afficher ou en choisir un nouveau, sélectionnez le formulaire dans la liste, puis cliquez sur le bouton **[!UICONTROL Propriétés]** bouton .
 
 ### Stocker les données dans une variable locale {#storing-data-in-a-local-variable}
 
@@ -54,7 +54,7 @@ Il est enregistré dans une variable qui doit être sélectionnée lors de la cr
 
 ![](assets/s_ncs_admin_survey_no_storage_variable2.png)
 
-Vous pouvez afficher les variables existantes et créer de nouvelles variables à partir du lien **[!UICONTROL Editer les variables...]**. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle variable.
+Vous pouvez afficher les variables existantes et en créer de nouvelles au moyen de l’option **[!UICONTROL Modifier les variables...]** lien. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle variable.
 
 ![](assets/s_ncs_admin_survey_add_a_variable.png)
 
@@ -62,7 +62,7 @@ La variable ajoutée sera disponible dans la liste des variables locales lors de
 
 >[!NOTE]
 >
->Pour chaque formulaire, les variables peuvent être créées en amont. Pour cela, sélectionnez le formulaire et cliquez sur le bouton **[!UICONTROL Propriétés]**. L&#39;onglet **[!UICONTROL Variables]** regroupe les variables locales pour le formulaire.
+>Pour chaque formulaire, vous pouvez créer des variables en amont. Pour cela, sélectionnez le formulaire et cliquez sur le bouton **[!UICONTROL Propriétés]** bouton . La variable **[!UICONTROL Variables]** contient les variables locales du formulaire.
 
 **Exemple de stockage local avec conditionnement**
 

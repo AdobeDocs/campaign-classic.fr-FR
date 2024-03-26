@@ -7,8 +7,8 @@ feature: Data Model
 role: Data Engineer, Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '2390'
+workflow-type: tm+mt
+source-wordcount: '2411'
 ht-degree: 100%
 
 ---
@@ -178,17 +178,17 @@ Les indicateurs suivants sont automatiquement mis à jour lors de l’exécution
 * Nombre de contactés : **iContactReacted**. Nombre distinct de contacts ciblés dans l’hypothèse.
 * Nombre de contacts de la population témoin : **iProofReacted**. Nombre distinct de contacts ciblés de la population témoin pour l’hypothèse.
 * Taux de réponse des contactés : **dContactReactedRate**. Taux de réponse des contacts ciblés pour l’hypothèse.
-* Taux de réponse des témoins : **dProofReactedRate**. Taux de réponse de la population témoin pour l’hypothèse.
+* Taux de réponse de la population témoin : **dProofReactedRate**. Taux de réponse de la population témoin pour l’hypothèse.
 * Chiffre d’affaires total des contactés : **dContactReactedTotalAmount**. Chiffre d’affaires total des contacts ciblés dans l’hypothèse.
-* Chiffre d’affaires moyen des témoins : **dContactReactedAvgAmount**. Chiffre d’affaires moyen des contacts ciblés de la population témoin dans l’hypothèse.
-* Chiffre d’affaires total des témoins : **dProofReactedTotalAmount**. Chiffre d’affaires total des témoins de l’hypothèse.
-* Chiffre d’affaires moyen des témoins : **dProofReactedAvgAmount**. Chiffre d’affaires moyen des témoins de l’hypothèse.
+* Chiffre d’affaires moyen de la population témoin : **dContactReactedAvgAmount**. Chiffre d’affaires moyen des contacts ciblés de la population témoin dans l’hypothèse.
+* Chiffre d’affaires total de la population témoin : **dProofReactedTotalAmount**. Chiffre d’affaires total de la population témoin de l’hypothèse.
+* Chiffre d’affaires moyen de la population témoin : **dProofReactedAvgAmount**. Chiffre d’affaires moyen de la population témoin de l’hypothèse.
 * Marge totale des contactés : **dContactReactedTotalMargin**. Marge totale des contacts ciblés dans l’hypothèse.
 * Marge moyenne des contactés : **dContactReactedAvgMargin**. Marge moyenne des contacts ciblés dans l’hypothèse.
-* Marge totale des témoins : **dProofReactedTotalMargin**. Marge totale des témoins ciblés dans l’hypothèse.
-* Marge moyenne des témoins : **dProofReactedAvgMargin**. Marge moyenne de la population témoin ciblée dans l’hypothèse
-* Chiffre d’affaires additionnel : **dAdditionnalAmount**. (Chiffre d’affaires moyen des contactés - chiffre d’affaires moyen des témoins) * nombre des contactés.
-* Marge additionnelle : **dAdditionalMargin**. (Marge moyenne des contactés - marge moyenne des témoins) / nombre des contactés.
+* Marge totale de la population témoin : **dProofReactedTotalMargin**. Marge totale de la population témoin ciblée dans l’hypothèse.
+* Marge moyenne de la population témoin : **dProofReactedAvgMargin**. Marge moyenne de la population témoin ciblée dans l’hypothèse
+* Chiffre d’affaires additionnel : **dAdditionnalAmount**. (Chiffre d’affaires moyen des contactés - chiffre d’affaires moyen de la population témoin) * nombre des contactés.
+* Marge additionnelle : **dAdditionalMargin**. (Marge moyenne des contactés - marge moyenne de la population témoin) / nombre des contactés.
 * Coût moyen des contactés (expression SQL). Coût calculé de la diffusion / nombre des contactés.
 * ROI (expression SQL). Coût calculé de la diffusion / marge totale des contactés.
 * ROI effectif (expression SQL). Coût calculé de la diffusion / marge additionnelle.

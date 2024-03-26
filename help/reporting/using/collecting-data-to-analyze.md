@@ -8,7 +8,7 @@ exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -24,7 +24,7 @@ Dans cette activité, trois méthodes distinctes sont proposées :
 1. Exploiter les données contenues dans une liste.
 1. Utiliser les données d&#39;un Cube existant.
 
-Le choix de l&#39;une ou l&#39;autre des méthodes dépend du type de calcul à réaliser, du volume des données à manipuler, de leur pérennité, etc. Tous ces paramètres doivent être étudiés avec précision afin de ne pas surcharger la base Adobe Campaign et d&#39;optimiser la génération et la manipulation des rapports créés. Reportez-vous à ce propos à [cette page](../../reporting/using/best-practices.md#optimizing-report-creation).
+Le choix de la méthode dépend du type de calcul, du volume des données et de leur durabilité, etc. Tous ces paramètres doivent être étudiés avec soin afin de ne pas surcharger la base Adobe Campaign et d&#39;optimiser la génération et la manipulation des rapports créés. Pour plus d’informations, consultez [cette page](../../reporting/using/best-practices.md#optimizing-report-creation).
 
 Dans tous les cas, les données sont collectées au travers d&#39;une activité de type **[!UICONTROL Requête]**.
 
@@ -56,7 +56,7 @@ Vous pouvez sélectionner un cube afin de définir la requête.
 
 ![](assets/reporting_query_from_cube.png)
 
-Les cubes permettent d&#39;étendre les capacités d&#39;exploration et d&#39;analyse des données de la base, tout en simplifiant le paramétrage des rapports et tables pour les utilisateurs finaux : il suffit de sélectionner un cube existant, entièrement paramétré, pour en exploiter les calculs, mesures et statistiques. Pour plus d&#39;informations sur la création de cubes, consultez [cette section](../../reporting/using/ac-cubes.md).
+Les cubes permettent d&#39;étendre les capacités d&#39;exploration et d&#39;analyse de la base de données tout en simplifiant le paramétrage des rapports et tableaux pour les utilisateurs finaux : il suffit de sélectionner un cube existant, entièrement paramétré, pour en exploiter les calculs, mesures et statistiques. Pour plus d&#39;informations sur la création de cubes, voir [cette section](../../reporting/using/ac-cubes.md).
 
 Cliquez sur le lien **[!UICONTROL Editer la requête...]** et sélectionnez les indicateurs que vous souhaitez afficher ou exploiter dans votre rapport.
 

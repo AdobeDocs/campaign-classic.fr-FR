@@ -8,8 +8,8 @@ feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '2614'
-ht-degree: 100%
+source-wordcount: '2613'
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ La procédure de validation est présentée dans [cette section](#checking-and-a
 
 >[!NOTE]
 >
->Seul le propriétaire d’une diffusion peut démarrer cette dernière. Pour qu’un autre opérateur (ou un groupe d’opérateurs) puisse démarrer une diffusion, vous devez l’ajouter comme validant au niveau du champ **[!UICONTROL Démarrage de la diffusion :]**.\
+>Seule la personne propriétaire de la diffusion peut démarrer une diffusion. Pour qu&#39;un autre opérateur (ou groupe d&#39;opérateurs) puisse démarrer une diffusion, vous devez l&#39;ajouter comme validant dans la **[!UICONTROL Démarrage de la diffusion :]** champ .\
 >[En savoir plus](#selecting-reviewers).
 
 ## Principe de fonctionnement {#operating-principle-}
@@ -63,14 +63,14 @@ Pour chaque type de validation, les opérateurs ou groupes d’opérateurs charg
 
 ![](assets/s_user_validation_add_operator.png)
 
-Si aucun opérateur validant n&#39;est identifié, le responsable de l&#39;opération sera chargé de la validation. Les notifications lui seront alors adressées. Le responsable de l&#39;opération est désigné dans l&#39;onglet **[!UICONTROL Edition > Propriétés]** de l&#39;opération :
+Si aucun opérateur validant n&#39;est spécifié, le responsable de l&#39;opération sera chargé de la validation et recevra les notifications. Le responsable de campagne est spécifié dans la variable **[!UICONTROL Modifier > Propriétés]** de l&#39;opération :
 
 ![](assets/s_user_op_manager_field.png)
 
 >[!NOTE]
 >
 >Tous les autres opérateurs Adobe Campaign ayant des droits **[!UICONTROL Administrateur]** sont également habilités à valider les traitements. En revanche, ils ne reçoivent pas de notifications.\
->Par défaut, le responsable de la campagne ne peut pas effectuer de validation ou démarrer les diffusions si des opérateurs validants sont définis. Vous pouvez modifier ce comportement et autoriser le responsable de la campagne à valider/démarrer les diffusions en créant l&#39;option **NmsCampaign_Activate_OwnerConfirmation** avec pour valeur **1**.
+>Par défaut, le responsable de l&#39;opération ne peut pas effectuer de validation ni démarrer les diffusions si des opérateurs validants ont été définis. Vous pouvez modifier ce comportement et autoriser le responsable de l&#39;opération à valider/démarrer des diffusions en créant la variable **NmsCampaign_Activate_OwnerConfirmation** option avec **1** comme valeur.
 
 ## Modes de validation {#approval-modes}
 
@@ -80,7 +80,7 @@ Pour valider un traitement depuis la console ou l&#39;interface web, cliquez sur
 
 ![](assets/s_user_validation_from_console.png)
 
-Vérifiez les informations, puis acceptez ou refusez la validation. Saisissez éventuellement un commentaire et cliquez sur **[!UICONTROL Ok]** pour enregistrer.
+Vérifiez les informations à valider, acceptez ou refusez la validation et, au besoin, saisissez un commentaire. Cliquez sur **[!UICONTROL Ok]** pour enregistrer.
 
 >[!NOTE]
 >
@@ -138,7 +138,7 @@ Pour sélectionner le mode de validation (manuelle ou automatique), cliquez sur 
 >
 >Le mode de validation sélectionné sera appliqué à toutes les diffusions de l&#39;opération.
 
-La validation manuelle permet, lors de la construction du workflow de ciblage, de ne pas créer les liens de validation et envoyer les notifications automatiquement. Le tableau de bord de l&#39;opération propose alors un lien **[!UICONTROL Soumettre le ciblage à validation]** afin de lancer le processus de validation manuellement.
+Lorsqu’un workflow de ciblage est en cours de construction, la validation manuelle permet d’éviter de créer des liens de validation ou d’envoyer automatiquement des notifications. Le tableau de bord de la campagne propose alors un lien **[!UICONTROL Soumettre le ciblage pour validation]** afin de lancer manuellement le processus de validation.
 
 Un message de confirmation permet d&#39;autoriser les validations sur les traitements sélectionnés pour cette diffusion.
 
@@ -162,7 +162,7 @@ Pour cela, éditez la fenêtre de validation de l&#39;opération ou du modèle d
 
 ### Contenu des messages de notification {#notification-content}
 
-Le contenu des notifications est défini dans un modèle spécifique : **[!UICONTROL Notification des validations dans une opération marketing]**. Ce modèle est enregistré dans le dossier **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]** de l&#39;arborescence Adobe Campaign.
+Le contenu des notifications est défini dans un modèle spécifique : **[!UICONTROL Notification des validations pour la campagne marketing]**. Ce modèle est enregistré dans le dossier **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]** de l’arborescence Adobe Campaign.
 
 ## Révision et validation des diffusions {#checking-and-approving-deliveries}
 
@@ -189,7 +189,7 @@ Le statut de l&#39;opération est alors **[!UICONTROL A valider]**.
 
 >[!NOTE]
 >
->Lors d&#39;un workflow de ciblage, si une erreur liée à un problème de paramétrage s&#39;est produite au cours de la préparation des messages, le tableau de bord propose le lien **[!UICONTROL Relancer la préparation des messages]**. Corrigez l&#39;erreur, puis cliquez sur ce lien afin de relancer la préparation des messages sans repasser par la phase de ciblage.
+>Dans un workflow de ciblage, si une erreur liée à un problème de configuration se produit lors de la préparation du message, le lien **[!UICONTROL Redémarrer la préparation des messages]** s&#39;affiche sur le tableau de bord. Corrigez l&#39;erreur et cliquez sur ce lien pour relancer la préparation des messages tout en contournant l&#39;étape de ciblage.
 
 ![](assets/s_user_validation_relaunch_message_preparation.png)
 
@@ -298,7 +298,7 @@ Il est possible de configurer un cycle de validation du contenu. Pour ce faire, 
 
      >[!NOTE]
      >
-     >Dans le tableau de bord de l&#39;opération, vous pouvez visualiser la liste des BAT envoyés, en cliquant sur le lien **[!UICONTROL Inbox Rendering...]**. Vous pouvez consulter leur contenu en cliquant sur l&#39;icône **[!UICONTROL Détails]** située à droite de la liste.
+     >Ce tableau de bord de la campagne permet de visualiser la liste des BAT envoyés, en cliquant sur le lien **[!UICONTROL Inbox rendering…]**. Pour afficher leur contenu, cliquez sur l’icône **[!UICONTROL Détail]** situé à droite de la liste.
 
      ![](assets/s_ncs_user_validation_content_BAT_details.png)
 
@@ -306,13 +306,13 @@ Il est possible de configurer un cycle de validation du contenu. Pour ce faire, 
 
    >[!NOTE]
    >
-   >A tout moment, le responsable de l&#39;opération peut relancer le cycle de validation du contenu. Pour cela, cliquez sur le lien situé sur la ligne **[!UICONTROL Etat du contenu]**, dans le tableau de bord de l&#39;opération (au niveau de la diffusion), puis cliquez sur **[!UICONTROL Réinitialiser la validation du contenu pour la soumettre à nouveau.]**
+   >La personne responsable de la campagne peut à tout moment relancer le cycle de validation du contenu. Pour ce faire, cliquez sur le lien de la ligne **[!UICONTROL Statut du contenu]** du tableau de bord de la campagne (au niveau de la diffusion), puis cliquez sur **[!UICONTROL Réinitialiser la validation du contenu pour la soumettre à nouveau]**.
 
    ![](assets/s_user_validation_relaunch_content_validation.png)
 
-#### Assigner l&#39;édition du contenu {#assign-content-editing}
+#### Assigner l’édition du contenu {#assign-content-editing}
 
-Cette option permet de définir un responsable de l&#39;édition du contenu, par exemple un webmaster. Lorsque l&#39;option **[!UICONTROL Assigner l&#39;édition du contenu]** est sélectionnée dans la fenêtre de paramétrage de la validation des traitements, plusieurs étapes de validation sont ajoutées entre la création de la diffusion et l&#39;envoi de l&#39;email de notification au responsable du contenu :
+Cette option vous permet de définir une personne responsable de l’édition du contenu, par exemple un ou une webmaster. Si l’option **[!UICONTROL Assigner l’édition du contenu]** est sélectionnée dans la fenêtre de paramétrage de la validation, plusieurs étapes de validation sont ajoutées entre la création de la diffusion et la diffusion de l’e-mail de notification à la personne responsable du contenu :
 
 1. Après la création d&#39;une nouvelle diffusion, le responsable de l&#39;opération clique sur le lien **[!UICONTROL Soumettre l&#39;édition du contenu]**, dans le tableau de bord de l&#39;opération, pour lancer le cycle d&#39;édition du contenu.
 
@@ -352,7 +352,7 @@ Cette option permet de définir un responsable de l&#39;édition du contenu, par
 
 #### Validation externe du contenu {#external-content-approval}
 
-Cette option permet de définir un responsable externe du contenu qui validera le rendu de la diffusion, par exemple la cohérence de la communication de la marque, les tarifs annoncés, etc. Lorsque l&#39;option **[!UICONTROL Validation externe du contenu]** est sélectionnée dans la fenêtre de paramétrage de la validation des traitements, plusieurs étapes de validation sont ajoutées entre la validation du contenu par le responsable du contenu et l&#39;envoi de l&#39;email de notification au responsable de l&#39;opération :
+Cette option permet de définir une personne externe chargée de la validation du rendu des diffusions, comme la cohérence dans la communication de la marque, les tarifs, etc. Lorsque l’option **[!UICONTROL Validation externe du contenu]** est sélectionnée dans la fenêtre de paramétrage de la validation, plusieurs étapes de validation sont ajoutées entre la validation du contenu et l’envoi de la notification à la personne responsable de la campagne :
 
 1. Le responsable externe du contenu reçoit un email de notification l&#39;informant que le contenu a été validé et que la validation externe doit être effectuée.
 1. L&#39;email de notification propose des liens vers les BAT envoyés, lui permettant de visualiser le rendu de la diffusion, et un bouton pour valider ou refuser le contenu de la diffusion.

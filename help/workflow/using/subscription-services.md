@@ -7,8 +7,8 @@ feature: Workflows, Targeting Activity, Subscription Services Activity
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Pour la paramétrer, éditez l&#39;activité et saisissez son libellé, puis cho
 1. Cliquez sur **[!UICONTROL Inscription]** ou **[!UICONTROL Désinscription]** si vous souhaitez abonner ou désabonner la population spécifiée au service d&#39;information sélectionné.
 1. Sélectionnez **[!UICONTROL Envoyer un message de confirmation]** pour prévenir un destinataire lorsqu&#39;il est abonné ou désabonné à un service.
 
-   Le contenu de ce message est précisé dans un modèle de diffusion attaché au service d&#39;information. Voir à ce sujet cette [section](../../delivery/using/managing-subscriptions.md).
+   Le contenu de ce message est précisé dans un modèle de diffusion associé au service d&#39;information. Pour plus d’informations à ce sujet, consultez cette [section](../../delivery/using/managing-subscriptions.md).
 
 ## Exemple : inscrire une liste de destinataires à une newsletter {#example--subscribe-a-list-of-recipients-to-a-newsletter}
 

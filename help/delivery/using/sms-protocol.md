@@ -8,7 +8,7 @@ feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 73fd678d54ba1db647c1c188e8064b28466b3cd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '8448'
 ht-degree: 100%
 

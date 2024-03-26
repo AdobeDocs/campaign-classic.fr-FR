@@ -12,7 +12,7 @@ exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -58,6 +58,6 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_user_filter_on_events.png)
 
-   Le nom du filtre courant est affiché au-dessus de la liste. Pour annuler ce filtre, cliquez sur l’icône **[!UICONTROL Supprimer ce filtre]**.
+   Le nom du filtre courant est affiché au-dessus de la liste. Pour annuler le filtre, cliquez sur le bouton **[!UICONTROL Supprimer ce filtre]** Icône
 
    ![](assets/s_ncs_user_filter_on_subscriptions.png)

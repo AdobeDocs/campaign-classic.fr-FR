@@ -11,7 +11,7 @@ topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '488'
 ht-degree: 100%
 
 ---
@@ -34,8 +34,8 @@ Ces indicateurs sont les suivants :
 
 * **Nombre de contacts répondants** : nombre distinct d&#39;individus contactés qui répondent à l&#39;hypothèse.
 * **Taux de réponse des contactés** : nombre de contacts répondants / total des contacts de la diffusion.
-* **Nombre de témoins répondants** : nombre distinct des témoins répondant à l&#39;hypothèse.
-* **Taux de réponse des témoins** : nombre de témoins répondants / total des témoins de la diffusion.
+* **Nombre de contacts de la population témoin interrogés** : nombre de populations témoins correspondant à l’hypothèse.
+* **Taux de réponse de la population témoin** : nombre de populations témoins interrogées / nombre total des populations témoins de la diffusion.
 * **Nombres de réactions** : nombre d&#39;enregistrements dans la table contenant la relation entre les individus, l&#39;hypothèse et la table des transactions.
 
 Vous pouvez obtenir la liste complète des indicateurs en cliquant sur le lien **[!UICONTROL Afficher la liste]** :
@@ -45,15 +45,15 @@ Vous pouvez obtenir la liste complète des indicateurs en cliquant sur le lien *
 Les informations données par les indicateurs sont les suivantes :
 
 * **Chiffre d&#39;affaires total des contactés** : somme des montants sur le nombre d&#39;individus contactés.
-* **Chiffre d&#39;affaires total des témoins** : somme des montants sur le nombre des témoins.
+* **Chiffre d’affaires total de la population témoin** : somme des montants sur le nombre de populations témoins.
 * **Chiffre d&#39;affaires moyen des contactés** : somme des montants / nombre des contactés.
-* **Chiffre d&#39;affaires moyen des témoins** : somme des montants / nombre des témoins.
+* **Chiffre d’affaires moyen de la population témoin** : somme des montants / population témoin.
 * **Marge totale des contactés** : somme des marges sur le nombre des contactés.
-* **Marge totale des témoins** : somme des marges sur le nombre des témoins.
+* **Marge totale de la population témoin** : somme des marges sur population témoin.
 * **Marge moyenne des contactés** : somme des marges / nombre des contactés.
-* **Marge moyenne des témoins** : somme des marges / nombre des témoins.
+* **Marge moyenne des populations témoins** : somme des marges / population témoin.
 * **Chiffre d’affaire additionnel** : (Chiffre d’affaire moyen des personnes contactés - Chiffre d’affaire moyen de la population témoin)&#42;Nombre de personnes contactées
-* **Marge additionnelle** : (Marge moyenne des contactés-Marge moyenne des témoins) / nombre de contactés
+* **Marge additionnelle** : (Marge moyenne des contactés-Marge moyenne de la population témoin) / nombre de contactés
 * **Coût moyen des contactés** : coût calculé de la diffusion / Nombre de contactés.
 * **ROI** : coût calculé de la diffusion / Marge totale des contactés
 * **ROI effectif** : coût calculé de la diffusion / Marge additionnelle.

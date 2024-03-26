@@ -12,7 +12,7 @@ exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -28,13 +28,13 @@ Les commandes d&#39;installation permettent de :
 
 * Copier les fichiers sous **/usr/local/neolane**
 * Créer un compte Linux Adobe Campaign (et le groupe associé), avec pour répertoire racine (home directory) : **/usr/local/neolane**,
-* Créer un script de démarrage automatique au démarrage **/etc/init.d/nlserver6**, ou créer une unité systemd (à partir de la version 20.1).
+* Création d’un script automatique **/etc/init.d/nlserver6** à utiliser au démarrage ou à créer une unité systemd (à partir de la version 20.1).
 
 >[!NOTE]
 >
->L&#39;utilisateur système **neolane** ne doit pas avoir été créé avant de lancer ces commandes. L&#39;utilisateur **neolane** est automatiquement créé lors de l&#39;installation.
+>La variable **neolane** l’utilisateur système ne doit pas avoir été créé avant l’exécution de la commande. La variable **neolane** l’utilisateur est automatiquement créé lors de l’installation.
 >
->Le répertoire **home** associé à l&#39;utilisateur **neolane** est lui aussi automatiquement créé sous **[!UICONTROL /usr/local/neolane]**. Assurez-vous que **[!UICONTROL /usr/local]** comporte suffisamment d&#39;espace disque (quelques giga-octets sont nécessaires).
+>La variable **home** du répertoire **neolane** l’utilisateur est également créé automatiquement dans **[!UICONTROL /usr/local/neolane]**. Assurez-vous qu’il y a suffisamment d’espace sur le **[!UICONTROL /usr/local]** disque (plusieurs Go).
 
 Vous pouvez tester si le serveur peut s&#39;atteindre lui-même en lançant un **ping`hostname`**.
 
@@ -44,7 +44,7 @@ Pour installer Adobe Campaign sur un système d&#39;exploitation RPM (RHEL, Cen
 
 1. Vous devez au préalable accéder aux deux packages d&#39;Adobe Campaign.
 
-   Le fichier est nommé comme ci-dessous, où **XXXX** représente le numéro de build d&#39;Adobe Campaign : **nlserver6-v7-XXXX-0.x86_64.rpm**.
+   Le fichier est nommé comme ci-dessous, où **XXXX** est le numéro de build d’Adobe Campaign : **nlserver6-v7-XXXX-0.x86_64.rpm**.
 
    >[!CAUTION]
    >

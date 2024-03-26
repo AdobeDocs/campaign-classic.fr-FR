@@ -43,7 +43,7 @@ Cet élément définit les champs à intégrer à un index ou bien à une cl�
 
 ## Exemples       {#examples-}
 
-Sélection du champ &quot;sName&quot; dans un index avec un Xpath sur &quot;@name&quot;:
+Sélection du champ « sName » dans un index avec un Xpath sur « @name » :
 
 ```
 <keyfield xpath="@name"/>

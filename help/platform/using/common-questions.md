@@ -9,8 +9,8 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '504'
+ht-degree: 85%
 
 ---
 
@@ -36,13 +36,13 @@ En tant que client hébergé, vous pouvez bénéficier de la mise à niveau annu
 
 ## 2. Qu&#39;est-ce que le workflow Nettoyage de la base ? {#what-is-the-database-cleanup-workflow-}
 
-Le workflow Nettoyage de la base de données permet de supprimer les données obsolètes afin d’éviter une croissance exponentielle de la base. Ce workflow technique intégré se déclenche de manière automatique sans intervention de l’utilisateur. Il est accessible à partir du nœud **[!UICONTROL Administration > Exploitation > Workflows techniques]** de l’explorateur Campaign.
+Le workflow Nettoyage de la base supprime les données obsolètes afin d’éviter une croissance exponentielle de la base de données. Ce workflow technique intégré est déclenché automatiquement sans intervention de l’utilisateur. Il est accessible à partir du **[!UICONTROL Administration > Exploitation > Workflows techniques]** noeud de l’Explorateur Campaign.
 
 [Cliquez ici pour en savoir plus](../../production/using/database-cleanup-workflow.md) sur le workflow de nettoyage de la base.
 
 ## 3. Comment configurer des zones de sécurité ? {#how-can-i-configure-security-zones-}
 
-L’interface Security Zones Self Service peut être utilisée pour gérer les entrées de la configuration Zone de sécurité VPN d’un déploiement Adobe Campaign Classic. Pour plus d’informations sur les zones de sécurité dans Campaign, consultez [cette section](../../installation/using/security-zones.md).
+L’interface Security Zones Self Service peut être utilisée pour gérer les entrées dans la configuration Zone de sécurité VPN d’un déploiement Adobe Campaign Classic. Lire [cette section](../../installation/using/security-zones.md) pour en savoir plus sur les zones de sécurité dans Campaign.
 
 [Cliquez ici pour en savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-security-zones-self-service.html) sur l’interface utilisateur Security Zone Self Service.
 

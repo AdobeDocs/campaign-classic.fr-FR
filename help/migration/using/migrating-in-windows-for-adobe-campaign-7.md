@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 100%
+source-wordcount: '1122'
+ht-degree: 93%
 
 ---
 
@@ -256,7 +256,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    >
    >Pour la première des commandes ci-dessous, ne copiez pas le fichier **config-default.xml**.
 
-1. Dans les fichiers **serverConf.xml** et **config-default.xml** d&#39;Adobe Campaign v7, appliquez les paramétrages spécifiques dont vous disposiez dans la version précédente d&#39;Adobe Campaign. Pour le fichier **serverConf.xml**, utilisez le fichier **Neolane v5/conf/serverConf.xml.diff**, **Neolane v6/conf/serverConf.xml.diff** ou **Adobe Campaign v6/conf/serverConf.xml.diff**.
+1. Dans le **serverConf.xml** et **config-default.xml** des fichiers d&#39;Adobe Campaign v7, appliquez les configurations spécifiques dont vous disposiez dans la version précédente d&#39;Adobe Campaign. Pour le **serverConf.xml** , utilisez le fichier **Neolane v5/conf/serverConf.xml.diff**, **Neolane v6/conf/serverConf.xml.diff** ou **Adobe Campaign v6/conf/serverConf.xml.diff** fichier .
 
    >[!NOTE]
    >
@@ -302,7 +302,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
      ![](assets/_migration_iis_4.png)
 
    * Renseignez le nom du site, par exemple **Adobe Campaign v7**.
-   * Le chemin d&#39;accès au répertoire de base du site Web n&#39;est pas utilisé, mais le champ **[!UICONTROL Chemin d&#39;accès physique]** doit être obligatoirement renseigné. Saisissez par exemple le chemin physique par défaut de IIS : **C:\inetpub\wwwroot**.
+   * Le chemin d’accès au répertoire de base du site web n’est pas utilisé, mais la variable **[!UICONTROL Chemin d’accès physique]** doit être renseigné. Saisissez le chemin d&#39;accès IIS par défaut : **C:\inetpub\wwwroot**.
    * Cliquez sur le bouton **[!UICONTROL Se connecter en tant que]**, et vérifiez que l&#39;option **[!UICONTROL Utilisateur de l&#39;application]** est sélectionnée.
    * Dans les champs **[!UICONTROL adresse IP]** et **[!UICONTROL Port]**, vous pouvez laisser les valeurs par défaut. Si vous souhaitez utiliser d&#39;autres valeurs, vérifiez que l&#39;adresse IP et/ou le port sont disponibles.
    * Cochez la case **[!UICONTROL Démarrage immédiat du site Web]**.

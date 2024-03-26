@@ -10,7 +10,7 @@ topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '843'
 ht-degree: 100%
 
 ---

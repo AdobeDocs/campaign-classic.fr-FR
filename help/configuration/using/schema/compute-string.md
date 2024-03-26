@@ -41,7 +41,7 @@ Lorsqu’aucun `<compute-string>` n’est défini, un élément `<compute-string
 
 ## Description des attributs {#attribute-description-1}
 
-* **expr (string)**: expression XTK et/ou Xpath.
+* **expr (string)** : expression XTK et/ou Xpath.
 
 ## Exemples       {#examples-1}
 

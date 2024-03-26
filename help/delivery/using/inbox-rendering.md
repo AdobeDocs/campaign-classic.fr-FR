@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Inbox rendering     dans Campaign
+title: Inbox rendering dans Campaign
 description: Découvrez comment capturer les rendus d'email et y accéder dans un rapport dédié
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
@@ -9,8 +9,8 @@ role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 100%
+source-wordcount: '880'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ Les clients mobiles, de messagerie et webmail disponibles pour l&#39;**Inbox ren
 
 >[!NOTE]
 >
->L&#39;Inbox rendering n&#39;est pas nécessaire pour tester les personnalisations dans les diffusions. Celles-ci peuvent être vérifiées à l&#39;aide des outils d&#39;Adobe Campaign tels que l&#39;**[!UICONTROL aperçu]** et les [bons à tirer](steps-validating-the-delivery.md#sending-a-proof).
+>L&#39;Inbox rendering n&#39;est pas nécessaire pour tester la personnalisation dans les diffusions. La personnalisation peut être vérifiée à l’aide d’outils Adobe Campaign tels que **[!UICONTROL Aperçu]** et [Bons à tirer](steps-validating-the-delivery.md#sending-a-proof).
 
 ## Activation de l&#39;Inbox rendering{#activating-inbox-rendering}
 
@@ -108,7 +108,7 @@ Pour plus d&#39;informations sur la conception et le ciblage d&#39;une diffusion
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   Un BAT est envoyé. Les miniatures de rendu sont accessibles dans ce BAT quelques minutes après l&#39;envoi des e-mails. Pour plus d&#39;informations sur l&#39;envoi de BAT, consultez[cette section](steps-validating-the-delivery.md#sending-a-proof).
+   Un bon à tirer est envoyé. Les vignettes de rendu sont accessibles dans ce BAT quelques minutes après l&#39;envoi des emails. Pour plus d&#39;informations sur l&#39;envoi de BAT, reportez-vous à la section [cette section](steps-validating-the-delivery.md#sending-a-proof).
 
 1. Une fois envoyé, le BAT apparaît dans la liste de diffusion. Double-cliquez dessus.
 

@@ -35,7 +35,7 @@ Voici les étapes générales de ce scénario :
 Dans ce scénario, les pièces jointes ne sont pas créées à l&#39;avance, mais ajoutées à la volée aux emails sortants, avec les avantages suivants :
 
 * Vous pouvez personnaliser le contenu de la pièce jointe.
-* Si elle est associée à une transaction (comme dans l&#39;exemple de scénario ci-dessus), elle peut contenir des données dynamiques générées pendant le processus client.
+* Si elle est associée à une transaction (comme dans l’exemple de scénario ci-dessus), elle peut contenir des données dynamiques générées pendant le processus client.
 * L&#39;ajout de fichiers PDF optimise la sécurité lorsque vous pouvez les chiffrer et les envoyer via HTTPS.
 
 ## Recommendations et mécanismes de sécurisation {#important-notes}
@@ -69,7 +69,7 @@ Pour ajouter à la volée une pièce jointe à un message transactionnel, procé
 
    Vous pouvez ainsi joindre les fichiers à un email, même s&#39;ils ne sont pas hébergés sur l&#39;instance d&#39;exécution.
 
-1. Vous pouvez envoyer des emails via un déclencheur de message SOAP. Un appel SOAP contient un paramètre d&#39;URL (attachmentURL).
+1. Vous pouvez envoyer des emails via un déclencheur de message SOAP. Un appel SOAP contient un paramètre d’URL (attachmentURL).
 
    Pour plus d&#39;informations sur les requêtes SOAP, voir la section [Description des événements](../../message-center/using/event-description.md).
 

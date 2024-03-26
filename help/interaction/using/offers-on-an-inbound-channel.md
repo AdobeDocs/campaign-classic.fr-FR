@@ -12,7 +12,7 @@ exl-id: 90afced3-465d-4370-8a33-51a7e4356135
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '2166'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ Vous obtenez une arborescence contenant votre nouvel environnement :
    >
    >L&#39;emplacement est automatiquement lié à l&#39;environnement anonyme.
 
-1. Modifiez le libellé et sélectionnez le canal **[!UICONTROL Web entrant]**. Vous devez également cocher la case **[!UICONTROL Autoriser le mode unitaire]**.
+1. Modifiez le libellé et sélectionnez le **[!UICONTROL Web entrant]** canal. Vous devez également vérifier la variable **[!UICONTROL Activation du mode unitaire]** de la boîte.
 
    ![](assets/offer_inbound_anonymous_example_006.png)
 
@@ -279,7 +279,7 @@ Vous allez à présent créer deux offres dans chacune des catégories crées pr
 
    ![](assets/offer_inbound_fallback_example_036.png)
 
-1. Effectuez le cycle de validation de chacune des offres afin de déclencher leur mise en ligne. Lors de la validation du contenu, activez l&#39;emplacement **Partenaires** ou **Premium**, en fonction de l&#39;offre.
+1. Exécutez le cycle de validation de chaque offre pour commencer à la mettre en ligne. Lorsque vous validez du contenu, activez la variable **Partenaire** ou **Premium** emplacement, en fonction de l&#39;offre.
 
 ### Paramétrer les emplacements dans l&#39;environnement identifié {#configure-the-offer-spaces-in-the-identified-environment}
 
@@ -364,7 +364,7 @@ Vous allez créer deux offres personnalisées dans chaque catégorie, soit quatr
    ![](assets/offer_inbound_fallback_example_017.png)
 
 1. Dans l&#39;onglet **[!UICONTROL Eligibilité]**, appliquez le même poids qu&#39;à la première offre de cette catégorie, afin que les offres soient affichées à tour de rôle sur le site web.
-1. Effectuez le cycle de validation de chacune des offres afin de déclencher leur mise en ligne. Lors de la validation du contenu, activez l&#39;emplacement **Partenaires** ou **Premium**, en fonction de l&#39;offre.
+1. Exécutez le cycle de validation de chaque offre pour commencer à les mettre à jour. Lors de la validation du contenu, activez la fonction **Partenaire** ou **Premium** des emplacements.
 
 ### Paramétrer les emplacements dans la page web {#configuring-offer-spaces-on-the-web-page}
 
@@ -384,11 +384,11 @@ Pour paramétrer les emplacements des offres dans la page HTML du site web, proc
 
    ![](assets/offer_inbound_fallback_example_040.png)
 
-   Dans notre exemple, **ContBO1** et **ContBO2** reçoivent la valeur **SPC27**, soit le nom interne de l&#39;emplacement **Premium** créé précédemment dans l&#39;environnement identifié. Les valeurs **OC34** et **OC30** correspondent au nom interne des catégories **Premium** des environnements anonymes et identifiés.
+   Dans cet exemple, **ContBO1** et **ContBO2** recevoir la valeur **OsWebBestOfferIdentified**, c’est-à-dire le nom interne du **Premium** emplacement créé précédemment dans l&#39;environnement identifié. La variable **CatBestOffer** et **CatBestOfferAnonym** correspondent au nom interne de la variable **Premium** des catégories pour les environnements anonymes et identifiés.
 
    ![](assets/offer_inbound_fallback_example_041.png)
 
-   De même, **ContPtn** reçoit la valeur **SPC29** qui correspond au nom interne de l&#39;emplacement **Partenaires** créé dans l&#39;environnement identifié. **OC35** et **OC31** correspondent au nom interne des catégories **Partenaires** des environnements anonymes et identifiés.
+   De même, **ContPtn** reçoit la **OSWebPartnerIdentified** qui correspond au nom interne de la variable **Partenaire** emplacement créé dans l&#39;environnement identifié. **OC30** et **Anonyme de partenaire de chat** correspond au nom interne de la fonction **Partenaire** des catégories pour les environnements anonymes et identifiés.
 
    ![](assets/offer_inbound_fallback_example_042.png)
 
@@ -406,6 +406,6 @@ Pour paramétrer les emplacements des offres dans la page HTML du site web, proc
 
 Lors de l&#39;affichage de la page web, le script permet d&#39;appeler le moteur d&#39;Interaction afin que s&#39;affiche le contenu des offres dans les emplacements prévus à cet effet sur la page web. En un seul appel au serveur Adobe Campaign, le moteur détermine l&#39;environnement, l&#39;emplacement et les catégories à sélectionner.
 
-Dans notre exemple, le moteur reconnaît l&#39;environnement identifié (**OE18**). Il identifie l&#39;emplacement (**SPC27**) et la catégorie **Premium** (**OC34**) pour le premier et le deuxième emplacement de la page web, ainsi que l&#39;emplacement (**SPC29**) et la catégorie **Partenaires** (**OC35**) pour le troisième emplacement dans le site.
+Dans cet exemple, le moteur reconnaît l’environnement identifié (**EnvNeobankIdnRecip**). Il identifie l&#39;emplacement (**OSWebBestOfferIdentified**) et la variable **Premium** category (**CatBestOffer**) pour les premier et deuxième emplacements de la page web, ainsi que le (**OSWebPartnerIdentified**) de l’emplacement et de la variable **Partenaire** category (**OC30**) pour le troisième emplacement sur le site.
 
 Si jamais le moteur n&#39;identifie pas le destinataire, il bascule vers les emplacements anonymes qui sont référencés dans les emplacements identifiés et vers les catégories anonymes (**OC30** et **OC31**) telles qu&#39;elles sont spécifiées dans le script.

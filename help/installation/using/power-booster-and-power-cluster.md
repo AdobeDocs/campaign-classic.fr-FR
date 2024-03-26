@@ -10,8 +10,8 @@ topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '420'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign fournit deux séries d&#39;options architecturales pré-packagé
 
 * **Power Booster**
 
-  Cette option fournit un support pour une instance d&#39;exécution supplémentaire découplée de l&#39;instance applicative Adobe Campaign principale en rapport avec une application donnée. Une instance dédiée peut être hébergée hors site ou bien par un prestataire tiers. Lorsqu&#39;elle est mise en oeuvre, l&#39;exécution email, le tracking, les pages miroir et les messages « bounce » sont pris en charge indépendamment des fonctionnalités de l&#39;application centrale.
+  Cette option fournit un support pour une instance d’exécution supplémentaire découplée de l’instance applicative Adobe Campaign principale en rapport avec une application donnée. Une instance dédiée peut être hébergée hors site ou bien par un prestataire tiers. Lorsqu’elle est mise en œuvre, l’exécution e-mail, le tracking, les pages miroir et les messages de rebond sont pris en charge indépendamment des fonctionnalités de l’application centrale.
 
 * **Power Cluster**
 
@@ -89,6 +89,6 @@ exposés sur l'internet public<br /> </td>
 
 ## Recommandations      {#recommendations}
 
-* Une instance d&#39;exécution doit être dédiée à un service. Vous ne pouvez pas installer un package correspondant à un service auquel vous n&#39;avez pas souscrit. Par exemple, si vous avez souscrit à l&#39;option **Power Booster** pour le service **Message Center**, vous ne pouvez installer que le package **[!UICONTROL Exécution des messages transactionnels]** sur l&#39;instance d&#39;exécution dédiée. Vérifiez votre contrat de licence.
-* Dans la mesure où les instances dédiées (ou clusters) sont des instances Adobe Campaign, les recommandations sont les mêmes que pour une instance principale. Voir à ce sujet [ce document](../../production/using/foreword.md).
+* Une instance d&#39;exécution doit être dédiée à un service. Vous ne pouvez pas installer un package pour un service auquel vous ne vous êtes pas abonné. Par exemple, si vous vous abonnez au **Power Booster** pour l’ **Message Center** , vous ne pouvez installer que la fonction **[!UICONTROL Exécution des messages transactionnels]** package sur l&#39;instance d&#39;exécution dédiée. Veuillez vérifier votre contrat de licence.
+* Les instances dédiées (ou clusters) étant des instances Adobe Campaign, les recommandations sont les mêmes que pour une instance principale. Voir à ce sujet la section [ce document](../../production/using/foreword.md).
 * Pour dimensionner correctement l&#39;instance d&#39;un point de vue base de données/composants matériels, nous vous invitons à vous rapprocher des services professionnels d&#39;Adobe Campaign.

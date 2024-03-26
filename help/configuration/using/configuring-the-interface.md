@@ -9,7 +9,7 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '323'
 ht-degree: 100%
 
 ---

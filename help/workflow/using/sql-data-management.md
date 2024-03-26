@@ -7,8 +7,8 @@ feature: Workflows
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 86%
 
 ---
 
@@ -22,7 +22,7 @@ L&#39;activité **Gestion des données SQL** permet d&#39;écrire vos requêtes 
 
 Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont remplis :
 
-* L&#39;activité est disponible uniquement pour les sources de données distantes. Le package **[!UICONTROL FDA]** (Federated Data Access) doit donc être installé sur votre instance. [En savoir plus](../../installation/using/about-fda.md).
+* L’activité est disponible uniquement pour les sources de données distantes. La variable **[!UICONTROL FDA]** Le package (Federated Data Access) doit donc être installé sur votre instance. [En savoir plus](../../installation/using/about-fda.md).
 
   Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
 
@@ -48,7 +48,7 @@ Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont 
    >
    >Il incombe à la personne chargée de l&#39;écriture du script SQL de s&#39;assurer que celui-ci est fonctionnel et que ses références (noms de champs, etc.) sont conformes au schéma sortant.
 
-   Si vous souhaitez charger un code SQL existant, sélectionnez l&#39;option **[!UICONTROL Le code SQL est contenu dans une entité stockée dans la base]**. Les scripts SQL doivent être créés et stockés dans le menu **[!UICONTROL Administration]** / **[!UICONTROL Paramétrage]** / **[!UICONTROL Scripts SQL]**.
+   Si vous souhaitez charger un code SQL existant, sélectionnez la variable **[!UICONTROL Le script SQL est contenu dans une entité stockée dans la base de données]** . Les scripts SQL doivent être créés et stockés dans la variable **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL Scripts SQL]** .
 
    Sinon, saisissez ou effectuez un copier-coller du script SQL dans la zone dédiée.
 

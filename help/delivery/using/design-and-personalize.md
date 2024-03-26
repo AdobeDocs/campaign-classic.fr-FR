@@ -9,8 +9,8 @@ role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 100%
+source-wordcount: '1307'
+ht-degree: 98%
 
 ---
 
@@ -71,9 +71,9 @@ Incluez toujours un lien de page miroir. La partie supérieure de l&#39;e-mail c
 
 ### Lien de désabonnement
 
-Le lien de désabonnement est indispensable. Il doit être visible, valide et le formulaire doit être fonctionnel. Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse du message qu’un lien d&#39;opt-out est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence.
+Le lien de désabonnement est indispensable. Il doit être visible, valide et le formulaire fonctionnel. Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie si un lien de désinscription a été inclus et génère un avertissement en cas d’absence.
 
-**Conseil** : comme une erreur humaine est toujours possible, vérifiez du début à la fin le bon fonctionnement du lien de désabonnement avant chaque envoi. Par exemple, lors de l’envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que la valeur du champ Ne plus contacter cette personne est changée en Oui.
+**Conseil** : comme une erreur humaine est toujours possible, vérifiez du début à la fin le bon fonctionnement du lien de désabonnement avant chaque envoi. Par exemple, lors de l&#39;envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que la valeur du champ Ne plus contacter cette personne est changée en Oui.
 
 Découvrez comment insérer un lien d&#39;opt-out [dans cette section](personalization-blocks.md#personalization-blocks-example).
 
@@ -95,7 +95,7 @@ Veillez à tester toutes les modifications avant l’envoi final
 
 Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM (Global System for Mobile Communications). Les SMS utilisant l&#39;encodage GSM sont limités à 160 caractères, ou 153 caractères par SMS pour les messages envoyés en plusieurs parties.
 
-La translittération consiste à remplacer un caractère d&#39;un SMS par un autre lorsque ce caractère n&#39;est pas pris en charge par la norme GSM. Notez que l&#39;insertion de champs de personnalisation dans le contenu du SMS peut introduire des caractères non pris en charge par l&#39;encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l&#39;onglet des paramètres du canal SMPP du **[!UICONTROL Compte externe]** correspondant.
+La translittération consiste à remplacer un caractère de SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM. Notez que l’insertion de champs de personnalisation dans le contenu de votre SMS peut introduire des caractères qui ne sont pas pris en charge par l’encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
 En savoir plus dans [cette section](sms-set-up.md#creating-an-smpp-external-account).
 
 **Conseils** :
@@ -138,7 +138,7 @@ Certains clients de messagerie bloquent les images par défaut, et certains util
 
 * Si le texte doit être contenu dans une image, utilisez du texte de titre et du texte alternatif pour vous assurer que votre message passe bien. Mettez en forme votre texte de titre et alternatif pour améliorer son aspect.
 
-* Évitez d&#39;utiliser des images de fond, car elles ne sont pas prises en charge par certains clients de messagerie.
+* Évitez d’utiliser des images d’arrière-plan, car elles ne sont pas prises en charge par certains clients de messagerie.
 
 ### Rendre les images réactives
 

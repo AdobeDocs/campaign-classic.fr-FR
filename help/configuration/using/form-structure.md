@@ -9,7 +9,7 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2419'
 ht-degree: 100%
 
 ---
@@ -139,9 +139,9 @@ Un texte d&#39;aide a été ajouté à l&#39;aide de la balise `<static>` avec l
 
 Les conteneurs permettent de regrouper un ensemble de contrôles. Ils sont représentés par l’élément **`<container>`**. Ils ont été utilisés ci-dessus pour mettre en forme les contrôles sur plusieurs colonnes.
 
-L&#39;attribut **xpath** sur un `<container>` permet de simplifier le référencement des contrôles enfants. Le référencement des contrôles est alors relatif à l’élément `<container>` parent.
+L’attribut **xpath** sur un `<container>` permet de simplifier le référencement des contrôles enfants. Le référencement des contrôles est alors relatif à l’élément `<container>` parent.
 
-Exemple de conteneur sans &quot;xpath&quot; :
+Exemple de conteneur sans « xpath » :
 
 ```xml
 <container colcount="2">
@@ -150,7 +150,7 @@ Exemple de conteneur sans &quot;xpath&quot; :
 </container>
 ```
 
-Exemple avec ajout du &quot;xpath&quot; sur l&#39;élément de nom &quot;location&quot; :
+Exemple avec ajout du « xpath » sur l’élément de nom « location » :
 
 ```xml
 <container colcount="2" xpath="location">
@@ -182,7 +182,7 @@ Un conteneur à onglets met en forme les données dans des pages accessibles dep
 </container>
 ```
 
-Le conteneur principal est défini par l&#39;attribut **type=&quot;notebook&quot;**. Les onglets sont déclarés dans les conteneurs enfants, le libellé des onglets est renseigné à partir de l&#39;attribut **label**.
+Le conteneur principal est défini par l’attribut **type=&quot;notebook&quot;**. Les onglets sont déclarés dans les conteneurs enfants et le libellé des onglets est renseigné à partir de l’attribut **label**.
 
 ![](assets/d_ncs_integration_form_exemple7.png)
 
@@ -210,7 +210,7 @@ Ce conteneur affiche une barre d&#39;icônes verticale permettant de sélectionn
 </container>
 ```
 
-Le conteneur principal est défini par l&#39;attribut **type=&quot;iconbox&quot;**. Les pages associées aux icônes sont déclarées dans les conteneurs enfants. Le libellé des icônes est renseigné à partir de l&#39;attribut **label**.
+Le conteneur principal est défini par l’attribut **type=&quot;iconbox&quot;**. Les pages associées aux icônes sont déclarées dans les conteneurs enfants. Le libellé des icônes est renseigné à partir de l’attribut **label**.
 
 L&#39;icône d&#39;une page est renseignée à partir de l&#39;attribut `img="<image>"`, où `<image>` est le nom de l&#39;image correspondant à sa clé construite avec le nom et l&#39;espace de noms (par exemple &quot;xtk:properties.png&quot;).
 
@@ -231,7 +231,7 @@ Cet exemple illustre la visibilité des contrôles sur la valeur du champ &quot;
 </container>
 ```
 
-Un conteneur de visibilité est défini par l&#39;attribut **type=&quot;visibleGroup&quot;**. L&#39;attribut **visibleIf** contient la condition de visibilité.
+Un conteneur de visibilité est défini par l’attribut **type=&quot;visibleGroup&quot;**. L’attribut **visibleIf** contient la condition de visibilité.
 
 Exemples de syntaxes de conditions :
 
@@ -241,7 +241,7 @@ Exemples de syntaxes de conditions :
 
 #### Conteneur d&#39;activation {#enabling-container}
 
-Ce conteneur pemet l&#39;activation ou la désactivation d&#39;un ensemble de données à partir d&#39;une condition dynamique. La désactivation d&#39;un contrôle empêche son édition. L&#39;exemple suivant illustre l&#39;activation des contrôles à partir de la valeur du champ &quot;Genre&quot; :
+Ce conteneur pemet l’activation ou la désactivation d’un ensemble de données à partir d’une condition dynamique. La désactivation d’un contrôle empêche son édition. L’exemple suivant illustre l’activation des contrôles à partir de la valeur du champ « Genre » :
 
 ```xml
 <container type="enabledGroup" enabledIf="@gender=1">
@@ -252,7 +252,7 @@ Ce conteneur pemet l&#39;activation ou la désactivation d&#39;un ensemble de do
 </container>
 ```
 
-Un conteneur d&#39;activation est défini par l&#39;attribut **type=&quot;enabledGroup&quot;**. L&#39;attribut **enabledIf** contient la condition d&#39;activation.
+Un conteneur d’activation est défini par l’attribut **type=&quot;enabledGroup&quot;**. L’attribut **enabledIf** contient la condition d’activation.
 
 ## Edition d&#39;un lien {#editing-a-link}
 
@@ -270,7 +270,7 @@ Le contrôle d&#39;édition du lien dans son formulaire de saisie est :
 <input xpath="company"/>
 ```
 
-Le choix de la cible est accessible à partir de la zone d&#39;édition. Une aide à la saisie par auto-complétion permet de retrouver facilement un élément de la cible en fonction des premiers caractères renseignés. La recherche se base alors sur la **Compute string** définie dans le schéma ciblé. Si la cible n&#39;existe pas après validation dans le contrôle, un message de confirmation de création à la volée de la cible est affiché. La confirmation crée un nouvel enregistrement de la table cible et l&#39;associe sur le lien.
+La sélection de la cible est possible à partir du champ d’édition. L’entrée est facilitée par l’auto-complétion de sorte qu’un élément cible puisse être facilement retrouvé à partir des premiers caractères saisis. La recherche est ensuite basée sur l’élément **Compute string** défini dans le schéma ciblé. Si le schéma n’existe pas après validation dans le contrôle, un message de confirmation de création de la cible à la volée s’affiche. La confirmation crée un nouvel enregistrement dans le tableau cible et l’associe au lien.
 
 Une liste déroulante permet de sélectionner un élément de la cible parmi la liste des enregistrements déjà créés.
 
@@ -278,7 +278,7 @@ L&#39;icône **[!UICONTROL Modifier le lien]** (dossier) lance une forme de sél
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
-L&#39;icône **[!UICONTROL Editer le lien]** (loupe) lance la forme d&#39;édition de l&#39;élément lié. La forme utilisée est déduite par défaut sur la clé du schéma ciblé, l&#39;attribut **form** permet de forcer le nom de la forme d&#39;édition (par exemple &quot;cus:company2&quot;).
+L’icône **[!UICONTROL Modifier le lien]** (loupe) lance le formulaire d’édition de l’élément lié. Le formulaire utilisé est déduit par défaut de la clé du schéma ciblé. L’attribut **form** permet d’imposer le nom du formulaire d’édition (par exemple, « cus:company2 »).
 
 Vous pouvez restreindre le choix des éléments de la cible en ajoutant l’élément **`<sysfilter>`** à partir de la définition du lien dans le formulaire de saisie :
 
@@ -390,11 +390,11 @@ Pour notre exemple, nous partirons du formulaire de saisie du schéma &quot;cus:
 </input>
 ```
 
-L&#39;attribut **xpathChoiceTarget** permet de lancer une forme de choix à partir du lien renseigné. La création de l&#39;enregistrement de la table de relation va automatiquement mettre à jour le lien sur le destinataire courant et le service sélectionné.
+L’attribut **xpathChoiceTarget** permet de lancer un formulaire de sélection à partir du lien saisi. La création de l’enregistrement de la table de relation va automatiquement mettre à jour le lien sur le destinataire courant et le service sélectionné.
 
 >[!NOTE]
 >
->L&#39;attribut **xpathEditTarget** permet de forcer l&#39;édition de la ligne sélectionnée sur le lien renseigné.
+>L’attribut **xpathEditTarget** permet de forcer l’édition de la ligne sélectionnée sur le lien renseigné.
 
 ### Propriétés de la liste {#list-properties}
 
@@ -404,8 +404,8 @@ L&#39;attribut **xpathChoiceTarget** permet de lancer une forme de choix à part
 * **img** : affiche l&#39;image associée à la liste
 * **form** : surcharge la forme d&#39;édition de l&#39;élément ciblé
 * **zoom** : ajoute le bouton **[!UICONTROL Zoom]** pour l&#39;édition de l&#39;élément ciblé
-* **xpathEditTarget** : fixe l&#39;édition sur le lien renseigné
-* **xpathChoiceTarget** : pour l&#39;ajout, lance la forme de choix sur le lien renseigné
+* **xpathEditTarget** : définit l’édition sur le lien saisi
+* **xpathChoiceTarget** : pour l’ajout, lance la formulaire de sélection sur le lien saisi
 
 ## Contrôles liste mémoire {#memory-list-controls}
 
@@ -480,7 +480,7 @@ Le formulaire de modification est rempli à partir de l’élément `<form>` sou
 * **form** : surcharge la forme d&#39;édition de l&#39;élément ciblé
 * **zoom** : ajoute le bouton **[!UICONTROL Zoom]** pour l&#39;édition de l&#39;élément ciblé
 * **zoomOnAdd** : lance le forme d&#39;édition sur l&#39;ajout
-* **xpathChoiceTarget** : pour l&#39;ajout, lance la forme de choix sur le lien renseigné
+* **xpathChoiceTarget** : pour l’ajout, lance la formulaire de sélection sur le lien saisi
 
 ## Champs non éditables {#non-editable-fields}
 
@@ -511,7 +511,7 @@ Exemple sur le champ &quot;Genre&quot; :
 
 ## Case à cocher {#checkbox}
 
-Une case à cocher permet de refléter un état booléen (qu&#39;elle soit cochée ou non). Par défaut, ce contrôle est utilisé par les champs de type &quot;booléen&quot; (true/false). On peut associer à ce bouton une variable qui prendra par défaut la valeur 0 ou 1. Cette valeur peut être surchargée à partir de l&#39;attribut **checkValue**.
+Une case à cocher permet de refléter un état booléen (qu’elle soit cochée ou non). Par défaut, ce contrôle est utilisé par les champs de type « booléen » (true/false). On peut associer à ce bouton une variable qui prendra par défaut la valeur 0 ou 1. Cette valeur peut être surchargée à partir de l’attribut **checkValue**.
 
 ```xml
 <input xpath="@boolean1"/>

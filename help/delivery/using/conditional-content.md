@@ -9,8 +9,8 @@ role: User
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '512'
+ht-degree: 79%
 
 ---
 
@@ -25,7 +25,7 @@ En configurant des champs de contenu conditionnel, vous pouvez créer une person
 
 Dans l&#39;exemple ci-dessous, vous allez découvrir comment créer de manière dynamique un message personnalisé selon le genre et les centres d&#39;intérêt du destinataire.
 
-* Affichage de &quot;Monsieur&quot; ou &quot;Madame&quot; selon que la valeur du champ **[!UICONTROL Genre]** de la source de données vaut respectivement M ou F,
+* Affichage de &quot;M.&quot; ou &quot;Mme&quot; selon la valeur de la variable **[!UICONTROL Genre]** champ (M ou F) dans la source de données,
 * Assemblage personnalisé d&#39;une newsletter ou d&#39;offres promotionnelles en fonction des centres d&#39;intérêt renseignés ou détectés :
 
    * Centre d&#39;intérêt 1 -- > Bloc 1
@@ -64,7 +64,7 @@ Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, res
 
      ![](assets/s_ncs_user_conditional_content06.png)
 
-Vous pouvez ajouter d&#39;autres cas et définir un contenu différent en fonction des valeurs d&#39;un ou plusieurs champs. Utilisez pour cela les options **[!UICONTROL Contenu conditionnel > Sinon]** et **[!UICONTROL Contenu conditionnel > Sinon si]**. Le paramétrage de ces expressions est le même que pour l&#39;expression **if**.
+Vous pouvez ajouter d’autres cas et définir un contenu différent en fonction des valeurs d’un ou de plusieurs champs. Pour ce faire, utilisez **[!UICONTROL Contenu conditionnel > Sinon]** et **[!UICONTROL Contenu conditionnel > Sinon si]**. Ces expressions sont configurées de la même manière que la fonction **if** expression.
 
 ![](assets/s_ncs_user_conditional_content07.png)
 
@@ -80,7 +80,7 @@ Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** et sélectionnez un destinatai
 
 Dans l’exemple ci-dessous, vous allez découvrir comment créer un email multilingue. Le contenu s’affiche dans une langue ou une autre, selon la préférence linguistique du destinataire.
 
-1. Créez un email et sélectionnez la population cible. Dans cet exemple, la condition d&#39;affichage d&#39;une version ou d&#39;une autre sera basée sur la valeur **Langue** du profil du destinataire. Dans cet exemple, ces valeurs sont définies sur **EN**, **FR**, **ES**.
+1. Créez un email et sélectionnez la population cible. Dans cet exemple, la condition d’affichage d’une version ou d’une autre sera basée sur la variable **Langue** valeur du profil du destinataire. Dans cet exemple, ces valeurs sont définies sur **EN**, **FR**, **ES**.
 1. Dans le contenu HTML de l&#39;email, cliquez sur l&#39;onglet **[!UICONTROL Source]** et collez le code suivant :
 
    ```

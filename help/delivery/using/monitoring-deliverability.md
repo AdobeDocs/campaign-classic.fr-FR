@@ -9,7 +9,7 @@ role: User, Admin
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Cette fonctionnalité est disponible via un package dédié dans Adobe Campaign
 
 * Pour les installations on-premise, vous devez installer le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** via le menu **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Import de package]**. Pour plus dʼinformations, consultez la section [Installation de packages standard Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
 
-Dans Adobe Campaign Classic, la **supervision de la délivrabilité** est gérée par le workflow **[!UICONTROL Mise à jour pour la délivrabilité]**. Il est installé par défaut sur toutes les instances et permet d&#39;initialiser la liste des règles de qualification des emails bounce, la liste des domaines et la liste des MX. Une fois le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** installé, ce workflow s&#39;exécute de nuit pour mettre à jour régulièrement la liste des règles et vous permettre de gérer activement la délivrabilité des plateformes.
+Dans Adobe Campaign Classic, la **supervision de la délivrabilité** est gérée par le workflow **[!UICONTROL Mise à jour pour la délivrabilité]**. Il est installé par défaut sur toutes les instances et permet d’initialiser la liste des règles de qualification des e-mails rejetés, la liste des domaines et la liste des MX. Une fois le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** installé, ce workflow s&#39;exécute de nuit pour mettre à jour régulièrement la liste des règles et vous permettre de gérer activement la délivrabilité des plateformes.
 
 Le package Délivrabilité vous donne accès aux informations suivantes :
 
@@ -38,8 +38,8 @@ Vous pouvez également utiliser les outils suivants :
 
 * Rapport **[!UICONTROL Débit de diffusion]**, qui donne une vue d’ensemble du débit global de la plateforme pour une période donnée. Voir à ce propos [cette section](../../reporting/using/global-reports.md#delivery-throughput).
 * Chaque diffusion génère un rapport de statistiques de diffusion pour les différents fournisseurs d’accès à internet (FAI). Il présente certaines mesures de réputation et de qualité des données qui peuvent avoir un impact sur votre délivrabilité, notamment les chiffres suivants :
-   * **[!UICONTROL Erreurs hard]**, qui indiquent la qualité des données. Ce chiffre doit être inférieur à 2 %.
-   * **[!UICONTROL Erreurs soft]** qui indiquent la réputation. Cette valeur ne doit pas être supérieure à 10 % pour un fournisseur d’accès à internet donné.
+   * **[!UICONTROL Rebonds définitifs]**, qui indiquent la qualité des données. Ce chiffre doit être inférieur à 2 %.
+   * **[!UICONTROL Rebonds temporaires]**, qui indiquent la réputation. Cette valeur ne doit pas être supérieure à 10 % pour un fournisseur d’accès à internet donné.
 
   Pour plus d&#39;informations, consultez la section [Statistiques de diffusion](../../reporting/using/global-reports.md#delivery-statistics).
 * Plus généralement, le [tableau de bord des diffusions](about-delivery-monitoring.md) donne accès aux éléments suivants :

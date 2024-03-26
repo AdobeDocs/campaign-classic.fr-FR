@@ -6,9 +6,9 @@ feature: Installation, Privacy, Privacy Tools, URL Personalization
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: a2106e55617209f28da42c50008d16188563b2da
-workflow-type: ht
-source-wordcount: '862'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '822'
+ht-degree: 96%
 
 ---
 
@@ -177,7 +177,7 @@ Pour protéger vos pages, procédez comme suit :
 
 1. Il arrive que l’ajout d’un fichier **robots.txt** ne soit pas suffisant en termes de sécurité. Par exemple, si un autre site web contient un lien vers votre page, il peut apparaître dans un résultat de recherche.
 
-   Outre le fichier **robots.txt**, il est conseillé d’ajouter un en-tête **X-Robots-Tag**. Vous pouvez le faire dans Apache ou IIS, ainsi que dans le fichier de configuration **serverConf.xml**.
+   En plus de la variable **robots.txt** , il est conseillé d’ajouter une **X-Robots-Tag** en-tête . Vous pouvez le faire dans Apache ou IIS et dans la variable **serverConf.xml** fichier de configuration.
 
    Pour plus d’informations, reportez-vous à [cet article](https://developers.google.com/search/reference/robots_meta_tag).
 

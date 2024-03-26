@@ -1,23 +1,23 @@
 ---
 product: campaign
-title: Mise à jour de la qualification des retours après la panne d’Apple en 2021
-description: Découvrez comment mettre à jour la qualification des retours après la panne dʼApple en 2021.
+title: Mise à jour de la qualification des rebonds après la panne d’Apple en 2021
+description: Découvrez comment mettre à jour la qualification des rebonds après la panne dʼApple en 2021.
 badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '464'
 ht-degree: 100%
 
 ---
 
-# Mettre à jour les erreurs hard incorrectes après une panne d&#39;Apple {#update-bounce-qualification.md}
+# Mettre à jour les rebonds définitifs incorrects après une panne d’Apple {#update-bounce-qualification.md}
 
 ## Contexte
 
-Le 26 avril 2021, suite à un problème mondial chez Apple, l&#39;envoi de certains e-mails à des adresses électroniques Apple valides a entraîné des erreurs hard injustifiées. Ces adresses e-mail ont été considérées comme non valides par les serveurs Apple, avec la réponse de retours suivante :  « 550 5.1.1 &quot;adresse e-mail&quot;: user lookup success but no user record found » (l&#39;utilisateur a été trouvé, mais aucun enregistrement d&#39;utilisateur trouvé).
+Le 26 avril 2021, suite à un problème mondial chez Apple, l’envoi de certains e-mails à des adresses e-mail Apple valides a entraîné des rebonds définitifs incorrects. Ces adresses e-mail ont été considérées comme non valides par les serveurs Apple, avec la réponse de rebond suivante : « 550 5.1.1 &quot;adresse e-mail&quot;: user lookup success but no user record found » (l’utilisateur a été trouvé, mais aucun enregistrement d’utilisateur trouvé).
 
 Ce problème s&#39;est produit le 26 avril et a duré de 7 h à 13 h EST. 
 
@@ -27,7 +27,7 @@ Ce problème s&#39;est produit le 26 avril et a duré de 7 h à 13 h EST.
 
 En cas de panne d&#39;un fournisseur d&#39;accès à Internet, les emails envoyés par la biais de Campaign ne peuvent pas être correctement envoyés à leur destinataire : ils seront incorrectement marqués comme mails rebonds.
 
-Selon la logique standard de gestion des bounces, Adobe Campaign a automatiquement ajouté ces destinataires à la liste de quarantaine avec un **[!UICONTROL Statut]** de **[!UICONTROL Quarantaine]**. Pour corriger ce problème, vous devez mettre à jour votre table de quarantaines dans Campaign en recherchant et en supprimant ces destinataires ou en basculant leur **[!UICONTROL Statut]** sur **[!UICONTROL Valide]** afin que le processus de nettoyage de nuit les supprime.
+Selon la logique standard de gestion des rebonds, Adobe Campaign a automatiquement ajouté ces destinataires à la liste de quarantaine avec un paramètre **[!UICONTROL Statut]** de **[!UICONTROL Quarantaine]**. Pour corriger ce problème, vous devez mettre à jour votre table de quarantaines dans Campaign en recherchant et en supprimant ces destinataires ou en basculant leur **[!UICONTROL Statut]** sur **[!UICONTROL Valide]** afin que le processus de nettoyage de nuit les supprime.
 
 Pour trouver les destinataires qui ont été affectés par ce problème , ou au cas où cela se reproduirait avec un autre FAI, référez-vous aux instructions ci-dessous.
 
@@ -41,7 +41,7 @@ En fonction du calendrier de l&#39;incident, voici les instructions recommandée
 >
 >Ces dates/heures sont basées sur le fuseau horaire standard de l&#39;Est (EST). Configurez le fuseau horaire de votre instance.
 
-* Pour les instances Campaign contenant des informations de réponse de retour SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
+* Pour les instances Campaign contenant des informations de réponse de rebond SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
    * **Le texte d’erreur (texte de quarantaine)** contient « l’utilisateur a été trouvé, mais pas l’enregistrement d’utilisateur » **ET le texte d’erreur (texte de quarantaine)** contient « support.apple.com ».
    * **Mise à jour du statut (@lastModified)** le ou après le 26/04/2021 à 07:00:00
@@ -58,4 +58,4 @@ Une fois que vous disposez de la liste des destinataires concernés, vous pouvez
 
 **Rubriques connexes :**
 * [Présentation des diffusions en échec](understanding-delivery-failures.md)
-* [Qualification des emails bounce   ](understanding-delivery-failures.md#bounce-mail-qualification)
+* [Qualification des e-mails rejetés](understanding-delivery-failures.md#bounce-mail-qualification)

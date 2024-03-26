@@ -9,8 +9,8 @@ topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 100%
+source-wordcount: '1558'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
 * **advanced (boolean)**: quand cette option est activée (@advanced=&quot;true&quot;), elle permet de masquer l&#39;élément dans la liste des champs disponibles et accessibles pour la configuration d&#39;une liste dans un formulaire.
 * **applicableIf (string)** : cet attribut vous permet de rendre les champs facultatifs. L’élément `<attribute>` sera pris en compte lors de la mise à jour de la base de données lorsque la contrainte sera respectée. &quot;applicableIf&quot; reçoit une expression XTK.
 * **autoIncrement (boolean)**: si cette option est activée, le champ devient un compteur. Cela permet d&#39;incrémenter une valeur (le plus souvent un ID).(usage interne)
-* **belongsTo (string)**: prend le nom et l’espace de noms de la table qui partage le champ - renseigne le schéma où est déclaré l&#39;attribut. (utilisé uniquement dans un `<schema>`).
+* **belongsTo (string)**: prend le nom et l’espace de noms de la table qui partage le champ et renseigne le schéma où l’attribut est déclaré. (utilisé uniquement dans une `<schema>`).
 * **dataPolicy (string)**: permet de préciser des contraintes de validation sur les valeurs permises dans le champ de type SQL ou XML, les valeurs pour cet attribut sont :
 
    * &quot;none&quot; : pas de valeur
@@ -73,13 +73,13 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
    * &quot;identifier&quot;: nom d&#39;identifiant
    * &quot;resIdentifier&quot;: nom de fichier
 
-* **dbEnum (string)**: reçoit le nom interne d&#39;une énumération &quot;fermée&quot;. Les valeurs de l&#39;énumération doivent être définies dans le `<srcschema>`.
+* **dbEnum (string)**: reçoit le nom interne d&#39;une énumération &quot;fermée&quot;. Les valeurs de l&#39;énumération doivent être définies dans la variable `<srcschema>`.
 * **defOnDuplicate (boolean)**: si cet attribut est activé, lors de la duplication d&#39;un enregistrement, la valeur par défaut (définie dans &quot;@default&quot;) est réappliquée automatiquement à l&#39;enregistrement.
 * **default (string)**: permet de définir la valeur du champ par défaut (appel à une fonction, valeur par défaut). Cet attribut reçoit une expression XTK.
 * **desc (string)**: permet d&#39;insérer une description de l&#39;attribut. Cette description s&#39;affiche dans la barre de statut de l&#39;interface.
 * **edit (string)**: cet attribut précise le type d&#39;input qui sera utilisé dans le formulaire associé au schéma.
 * **enum (string)**: reçoit le nom de l&#39;énumération associé au champ. L&#39;énumération peut être insérée dans le même schéma ou bien dans un schéma distant. L&#39;énumération définie une liste fermée de valeurs.
-* **expr (string)**: définit une expression de précalcul du champ. Cet attribut reçoit un Xpath ou une expression XTK.
+* **expr (string)** : définit une expression de précalcul du champ. Cet attribut reçoit un Xpath ou une expression XTK.
 * **feature (string)**: définit un champ de caractéristiques. Les champs de caractéristiques sont utilisés pour étendre les données d&#39;une table existante, mais avec un stockage déporté dans une table annexe. Les valeurs acceptées sont :
 
    * &quot;shared&quot; : le contenu est stocké dans une table partagée par type de données

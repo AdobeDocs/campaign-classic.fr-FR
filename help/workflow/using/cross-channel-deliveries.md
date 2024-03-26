@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -50,17 +50,17 @@ Dans l&#39;exemple ci-dessous, nous allons créer un workflow pour envoyer un e-
 1. Ajoutez une activité de **[!UICONTROL Partage]** à votre workflow pour diviser les destinataires ayant un numéro de mobile et ceux ayant une adresse email.
 1. Dans l&#39;onglet **[!UICONTROL Diffusion]**, sélectionnez une diffusion pour chacune de vos cibles.
 
-   Pour créer votre diffusion, procédez de la même manière qu&#39;avec un assistant de diffusion classique en double-cliquant sur l&#39;activité diffusion de votre workflow. Voir à ce propos cette [page](../../delivery/using/about-email-channel.md).
+   Créez votre diffusion de la même manière qu&#39;avec un assistant de diffusion classique en double-cliquant sur l&#39;activité de diffusion de votre workflow. Pour en savoir plus à ce sujet, consultez cette [page](../../delivery/using/about-email-channel.md).
 
    ![](assets/cross_channel_delivery_3.png)
 
 1. Pour éviter que les destinataires ne reçoivent trop de diffusion à la fois, ajoutez et configurez une activité **[!UICONTROL Attente]**.
 1. Ajoutez une activité **[!UICONTROL Partage]** pour diviser les abonnés aux applications mobiles iOS ou Android.
 
-   Sélectionnez un service pour chacun des systèmes d&#39;exploitation. Pour en savoir plus sur la création de service, voir cette [page](../../delivery/using/configuring-the-mobile-application.md).
+   Sélectionnez un service pour chacun des systèmes d’exploitation. Pour plus d’informations sur la création de service, reportez-vous à cette section [page](../../delivery/using/configuring-the-mobile-application.md).
 
    ![](assets/cross_channel_delivery_4.png)
 
-1. Sélectionnez et configurez une diffusion application mobile pour chacun des systèmes d&#39;exploitation.
+1. Sélectionnez et configurez une diffusion pour application mobile pour chacun des systèmes d’exploitation.
 
    ![](assets/cross_channel_delivery_5.png)

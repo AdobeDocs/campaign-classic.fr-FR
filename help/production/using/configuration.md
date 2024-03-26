@@ -8,8 +8,8 @@ badge-v7-prem: label="On-premise et hybride" type="Caution" url="https://experie
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 62%
 
 ---
 
@@ -41,7 +41,7 @@ Vous devez créer la variable d&#39;environnement **TRACE_ADDR** avec la valeur 
 
 ## Configuration de zones de sécurité {#configuring-security-zones}
 
-Chaque opérateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;opérateur doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. La configuration technique des zones est effectuée dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un opérateur à une zone de sécurité doit être défini dans la console (noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
+Chaque opérateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;opérateur doit être incluse dans les adresses ou les plages d&#39;adresses définies dans la zone de sécurité. Le paramétrage technique des zones est effectué dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un opérateur à une zone de sécurité doit être définie dans la console ( **[!UICONTROL Administration > Gestion des accès > Opérateurs]** ).
 
 >[!NOTE]
 >

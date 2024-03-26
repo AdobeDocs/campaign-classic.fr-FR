@@ -11,8 +11,8 @@ topic-tags: production-procedures
 exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ Sur un même serveur, deux éléments sont communs à l&#39;ensemble des instanc
 
   >[!IMPORTANT]
   >
-  >Pour vous connecter avec l’identifiant **Internal**, vous devez impérativement avoir défini un mot de passe. Voir à ce sujet [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
+  >Pour vous connecter avec le **Interne** , vous devez avoir défini un mot de passe au préalable. Pour plus d’informations, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 * De nombreux paramétrages techniques du serveur : ces paramétrages peuvent tous être surchargés dans la configuration spécifique d&#39;une instance.
 

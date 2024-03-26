@@ -7,8 +7,8 @@ feature: Workflows
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 90%
 
 ---
 
@@ -34,11 +34,11 @@ Pour parvenir à effectuer un filtre du type **Date de création = max (Date de 
 1. Créez une requête. Ici, le but est de calculer la dernière date de création connue parmi la totalité des destinataires de la base. La requête ne contient donc pas de filtre.
 1. Sélectionnez **[!UICONTROL Ajouter des données]**.
 1. Dans les fenêtres successives, sélectionnez **[!UICONTROL Données liées à la dimension de filtrage]** puis **[!UICONTROL Données de la dimension de filtrage]**.
-1. Dans la fenêtre **[!UICONTROL Données à ajouter]**, ajoutez une colonne calculant la valeur maximale du champ **Date de création** de la table des destinataires. Vous pouvez vous aider de l&#39;éditeur d&#39;expression ou entrer directement **max(@created)** à hauteur du champ **[!UICONTROL Expression]**. Cliquez ensuite sur le bouton **[!UICONTROL Terminer]**.
+1. Dans le **[!UICONTROL Données à ajouter]** , ajoutez une colonne qui calcule la valeur maximale pour la variable **Date de création** dans la table des destinataires. Vous pouvez utiliser l’éditeur d’expression ou saisir **max(@created)** directement dans un champ de la **[!UICONTROL Expression]** colonne . Cliquez ensuite sur le bouton **[!UICONTROL Terminer]** bouton .
 
    ![](assets/datamanagement_usecase_2.png)
 
-1. Sélectionnez **[!UICONTROL Editer les données additionnelles...]** puis **[!UICONTROL Paramètres avancés...]**. Cochez l&#39;option **[!UICONTROL Désactiver l&#39;ajout automatique des clés primaires de la dimension de ciblage]**.
+1. Cliquez sur **[!UICONTROL Modification des données additionnelles]** then **[!UICONTROL Paramètres avancés...]**. Vérifiez les **[!UICONTROL Désactiver l&#39;ajout automatique des clés primaires de la dimension de ciblage]** .
 
    Cette option permet de ne pas renvoyer tous les destinataires comme résultat et de ne conserver que les données explicitement ajoutées. Dans le cas présent, il s&#39;agit de la dernière date à laquelle un destinataire a été créé.
 

@@ -10,8 +10,8 @@ topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 100%
+source-wordcount: '720'
+ht-degree: 92%
 
 ---
 
@@ -82,12 +82,12 @@ Par défaut, le routage s&#39;appuie sur les informations suivantes :
 
 ## Statuts des événements {#event-statuses}
 
-L&#39;**historique des événements** (sous **[!UICONTROL Message Center]** > **[!UICONTROL Historique des événements]**), regroupe dans une même vue tous les événements traités. Ils peuvent être catégorisés par type d&#39;événement ou par **statut**. Ces statuts sont les suivants :
+La variable **Historique des événements**, sous **[!UICONTROL Message Center]** > **[!UICONTROL Historique des événements]** , regroupe tous les événements traités dans une seule vue. Ils peuvent être classés par type d’événement ou par **status**. Ces états sont les suivants :
 
 * **En attente** : l&#39;événement peut être :
 
-   * Un événement qui vient d&#39;être collecté et qui n&#39;a pas encore été traité. La colonne **[!UICONTROL Nombre d&#39;erreurs]** affiche la valeur 0. Le modèle d&#39;e-mail n&#39;a pas encore été associé.
-   * Un événement traité mais dont la confirmation est erronée. La colonne **[!UICONTROL Nombre d&#39;erreurs]** affiche une valeur qui n&#39;est pas 0. Pour savoir quand cet événement sera à nouveau traité, consultez la colonne **[!UICONTROL Traitement demandé le]**.
+   * Un événement qui vient d’être collecté et qui n’a pas encore été traité. La colonne **[!UICONTROL Nombre d’erreurs]** affiche la valeur 0. Le modèle d’e-mail n’a pas encore été lié.
+   * Un événement traité, mais dont la confirmation est erronée. La colonne **[!UICONTROL Nombre d’erreurs]** affiche une valeur différente de 0. Pour savoir quand cet événement sera traité à nouveau, consultez la colonne **[!UICONTROL Traitement demandé le]**.
 
 * **En attente de diffusion** : l&#39;événement a été traité et le modèle de diffusion est associé. L&#39;e-mail est en attente de diffusion et le processus de diffusion classique est appliqué. Pour plus d&#39;informations, vous pouvez ouvrir la diffusion.
 * **Envoyé**, **Ignoré** et **Erreur de diffusion** : ces statuts de diffusion sont récupérés par le workflow **updateEventsStatus** qui collecte les statuts des diffusions. Pour plus de détails, vous pouvez ouvrir la diffusion concernée.

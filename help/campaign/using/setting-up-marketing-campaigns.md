@@ -9,7 +9,7 @@ exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '1296'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -71,7 +71,7 @@ Les campagnes peuvent également être créées au moyen d’un programme. Pour 
 
 ![](assets/s_ncs_user_add_an_op.png)
 
-Lorsque vous créez une campagne à partir du **[!UICONTROL Planification]** onglet d&#39;un programme, l&#39;opération est automatiquement rattachée au programme concerné. La variable **[!UICONTROL Programme]** est masqué dans ce cas.
+Lorsque vous créez une campagne à partir de l’onglet **[!UICONTROL Planning]** d’un programme, la campagne est automatiquement rattachée au programme concerné. Le champ **[!UICONTROL Programme]** est alors masqué.
 
 Dans la fenêtre de création de campagne, sélectionnez le modèle de campagne et ajoutez un nom et une description de la campagne. Vous pouvez également spécifier les dates de début et de fin de la campagne.
 

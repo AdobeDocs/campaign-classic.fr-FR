@@ -11,8 +11,8 @@ topic-tags: troubleshooting
 exl-id: e77800f5-c0ae-446d-8ff3-bc8a18c97dbd
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 100%
+source-wordcount: '148'
+ht-degree: 63%
 
 ---
 
@@ -26,7 +26,7 @@ Lorsque vous lancez le système en production, vous pouvez obtenir des messages 
 
 La cause est la suivante :
 
-Adobe Campaign génère des fichiers temporaires sous **/tmp**, puis les renomme pour les déplacer sous **/usr/local/neolane/nl6/var**. Cette erreur se produit lorsque les deux dossiers (**/tmp** et **/usr/local/neolane/nl6/var**, qui est en fait un lien symbolique vers **/var/nl6**) correspondent à des appareils différents. La commande **df** permet de le vérifier.
+Adobe Campaign génère des fichiers temporaires sous **/tmp**, puis les renomme pour les déplacer vers **/usr/local/neolane/nl6/var**. Cette erreur se produit lorsque les deux dossiers (**/tmp** et **/usr/local/neolane/nl6/var**, qui est en fait un lien symbolique vers **/var/nl6**) correspondent à différents appareils. La variable **df** est utilisée pour la vérification.
 
 Pour corriger ce problème, les fichiers temporaires doivent être générés dans le même appareil que la destination.
 

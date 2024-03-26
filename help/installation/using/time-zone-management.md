@@ -11,8 +11,8 @@ topic-tags: additional-configurations
 exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 100%
+source-wordcount: '976'
+ht-degree: 81%
 
 ---
 
@@ -28,7 +28,7 @@ Afin de permettre cette utilisation de la plateforme Adobe Campaign à l&#39;é
 
 Adobe Campaign permet de stocker des dates/heures au format UTC (temps universel coordonné). Lorsque des données sont exposées, elles sont converties en date/heure locale de l&#39;opérateur. La conversion est effectuée automatiquement lorsque la base de données est paramétrée au format UTC (voir la section [Configuration](#configuration)). Si la base de données n&#39;est pas paramétrée au format UTC, les informations relatives aux fuseaux horaires des dates de la plateforme sont stockées dans une option.
 
-Les principales fonctionnalités de la plateforme concernées par la gestion des fuseaux horaires sont : les imports/exports de données, la gestion des opérateurs et les Workflows. La **notion d&#39;héritage** est disponible pour les imports/exports ou les Workflows. Par défaut, ils sont paramétrés sur le fuseau horaire du serveur de base de données, mais il est possible de redéfinir de nouveaux fuseaux horaires pour un workflow et même pour une seule activité.
+Les principales fonctionnalités de la plateforme concernant la gestion des fuseaux horaires sont les suivantes : import/export de données et gestion des opérateurs et des workflows. La variable **concept d’héritage** est disponible pour les imports/exports ou les Workflows. Par défaut, ils sont configurés pour le fuseau horaire du serveur de base de données, mais vous pouvez redéfinir de nouveaux fuseaux horaires pour un workflow et même pour une seule activité.
 
 Les **opérateurs** peuvent agir sur les fuseaux horaires lors du **paramétrage d&#39;une diffusion** et en particulier définir le fuseau horaire dans lequel la diffusion va être exécutée.
 
@@ -36,7 +36,7 @@ Les **opérateurs** peuvent agir sur les fuseaux horaires lors du **paramétrage
 >
 >Si la base de données ne gère pas le multi-fuseaux horaires, alors pour toutes les manipulations de filtrage de données, les requêtes SQL doivent être exécutées dans le fuseau horaire du serveur de base de données.
 
-Chaque opérateur Adobe Campaign est associé à un fuseau horaire : cette information est paramétrée dans son profil. Voir à ce sujet [ce document](../../platform/using/access-management.md).
+Chaque opérateur Adobe Campaign est associé à un fuseau horaire : cette information est paramétrée dans son profil. Voir à ce sujet la section [ce document](../../platform/using/access-management.md).
 
 Lorsque la plateforme Adobe Campaign ne nécessite pas la gestion des fuseaux horaires, il est possible de conserver un mode de stockage au format local, avec un fuseau horaire spécifique associé.
 
@@ -55,7 +55,7 @@ Le mode de stockage des dates et heures est choisi lors de la création de la ba
 D&#39;un point de vue technique, les informations de type **Date+heure** peuvent être stockées dans la base de données selon deux modes différents :
 
 1. Format TIMESTAMP WITH TIMEZONE : le moteur de base de données stocke les dates en UTC. Chaque session ouverte aura un fuseau horaire associé et les dates seront converties en fonction de ce fuseau horaire.
-1. Format local + fuseau horaire local : toutes les dates sont stockées au format local (pas de gestion des décalages horaires) et un fuseau horaire unique leur est associé. Le fuseau horaire est stocké dans l&#39;option **WdbcTimeZone** de l&#39;instance Adobe Campaign et peut être modifié à partir du menu **[!UICONTROL Administration > Plateforme > Options]** de l&#39;arborescence.
+1. Format local + fuseau horaire local : toutes les dates sont stockées au format local (pas de gestion des décalages horaires) et un seul fuseau horaire leur est attribué. Le fuseau horaire est stocké dans la variable **WdbcTimeZone** de l’instance Adobe Campaign et peut être modifiée via l’option **[!UICONTROL Administration > Plateforme > Options]** du menu de l’arborescence.
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ D&#39;un point de vue technique, les informations de type **Date+heure** peuvent
 
 ### Création d&#39;une nouvelle instance {#creating-a-new-instance}
 
-Afin de permettre à plusieurs utilisateurs internationaux de collaborer sur une même instance, vous devez configurer les fuseaux horaires (timezone) lors de la création de l&#39;instance pour gérer les décalages horaires entre les pays. Pour cela, lors de la création de l&#39;instance, sélectionnez le mode de gestion des dates et heures dans la section **[!UICONTROL Fuseau horaire]** de l&#39;étape de configuration de la base de données.
+Pour que plusieurs utilisateurs internationaux puissent travailler sur la même instance, vous devez configurer les fuseaux horaires lors de la création de l’instance afin de gérer les décalages horaires entre les pays. Lors de la création de l&#39;instance, sélectionnez le mode de gestion des dates et heures dans la **[!UICONTROL Fuseau horaire]** de l&#39;étape de configuration de la base de données.
 
 Cochez l&#39;option **[!UICONTROL Base UTC (champs dates avec fuseau horaire)]** pour stocker toutes les données comportant des dates et heures au format UTC (champs SQL et champs XML).
 

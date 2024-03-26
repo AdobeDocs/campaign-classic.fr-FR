@@ -8,7 +8,7 @@ exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -44,7 +44,7 @@ Ces options sont généralement sélectionnées au niveau du diagramme en cliqua
 
 * **[!UICONTROL Normale]** : l&#39;activité est exécutée normalement.
 * **[!UICONTROL Ne pas activer]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées.
-* **[!UICONTROL Activer mais ne pas exécuter]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) sont automatiquement suspendues. Cela peut s&#39;avérer utile si vous désirez être présent au déclenchement de la tâche. Pour exécuter manuellement la tâche, cliquez sur l&#39;activité avec le bouton droit et sélectionnez **[!UICONTROL Exécution normale]**.
+* **[!UICONTROL Activer mais ne pas exécuter]**: cette tâche et toutes les tâches suivantes (dans la même branche) sont automatiquement arrêtées. Cela peut s’avérer utile si vous souhaitez y être au début de la tâche. Pour exécuter manuellement la tâche, cliquez avec le bouton droit de la souris sur l’activité et sélectionnez **[!UICONTROL Exécution normale]**.
 
 ## Affinité {#affinity}
 
@@ -55,7 +55,7 @@ Le paramétrage des workflows en haute disponibilité est présenté dans cette 
 
 ## Durée max. d’exécution {#max--execution-period}
 
-Ce champ vous permet de définir une alerte vous avertissant lorsque la tâche est trop longue. Cela n&#39;a aucun impact sur le fonctionnement du workflow. Si la tâche n&#39;est pas terminée au bout du temps défini dans le champ **[!UICONTROL Durée max. d&#39;exécution]**, la page **[!UICONTROL Supervision de l&#39;instance]** affichera une alerte concernant ce workflow. Cette page est accessible à partir de l&#39;onglet **[!UICONTROL Supervision]** de la page d&#39;accueil.
+Ce champ permet de définir un avertissement lorsque la tâche prend trop de temps. Cela n’aura aucune incidence sur le fonctionnement du workflow. Si la tâche n’est pas terminée au moment où la fonction **[!UICONTROL Max. période d&#39;exécution]** est terminé, la variable **[!UICONTROL Surveillance des instances]** affiche un avertissement pour ce processus. Cette page est accessible via **[!UICONTROL Surveillance]** de la page d’accueil.
 
 ## Comportement {#behavior}
 

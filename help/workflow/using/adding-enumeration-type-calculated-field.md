@@ -10,8 +10,8 @@ feature: Workflows, Data Management
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 67%
 
 ---
 
@@ -52,7 +52,7 @@ Les étapes sont les suivantes :
 
 1. Dans le champ **[!UICONTROL Type]** de la fenêtre **[!UICONTROL Définition d&#39;un champ calculé d&#39;export]**, sélectionnez **[!UICONTROL Enumérations]**.
 
-   Définissez à quelle colonne doit se référer le nouveau champ calculé. Pour cela, sélectionnez la colonne **[!UICONTROL Genre]** dans le menu déroulant du champ **[!UICONTROL Colonne source]** : c&#39;est à la colonne **[!UICONTROL Genre]** que vont correspondre les valeurs de destination.
+   Définissez la colonne à laquelle doit se référer le nouveau champ calculé. Pour ce faire, sélectionnez l’option **[!UICONTROL Genre]** dans le menu déroulant du **[!UICONTROL Colonne source]** champ : les valeurs de destination vont correspondre au **[!UICONTROL Genre]** colonne .
 
    ![](assets/query_editor_nveau_76.png)
 
@@ -80,10 +80,10 @@ Les étapes sont les suivantes :
 
    ![](assets/query_editor_nveau_78.png)
 
-   Par exemple, si vous ne renseignez pas le genre &quot;2&quot; dans la **[!UICONTROL Liste des valeurs d&#39;énumérations]** et que la fonction **[!UICONTROL Générer un avertissement et continuer]** du champ **[!UICONTROL Dans les autres cas]** est sélectionnée, un log d&#39;avertissement est généré. Ce log signale que le genre &quot;2&quot; (féminin) n&#39;a pas été renseigné. Il est affiché dans le champ **[!UICONTROL Logs générés lors de l&#39;export]**, dans la fenêtre de prévisualisation des données.
+   Par exemple, si vous n’entrez pas le genre &quot;2&quot; dans la variable **[!UICONTROL Liste des valeurs d&#39;énumération]**, et la variable **[!UICONTROL Générer un avertissement et continuer]** de la fonction **[!UICONTROL Dans d’autres cas]** est sélectionné, vous obtiendrez un journal d’avertissement. Ce journal indique que le genre &quot;2&quot; (féminin) n&#39;a pas été renseigné. Il s’affiche dans la **[!UICONTROL Logs générés lors de l&#39;export]** champ de la fenêtre de prévisualisation des données.
 
    ![](assets/query_editor_nveau_79.png)
 
-   Dans un autre cas, la valeur d&#39;énumération &quot;2&quot; n&#39;est pas renseignée. Sélectionnez la fonction **[!UICONTROL Générer une erreur et rejeter la ligne]** : tous les destinataires de genre &quot;2&quot; seront signalés en anomalie et les autres informations de la même ligne (nom, prénom, etc.) ne seront pas exportées. Un log d&#39;erreur s&#39;affiche dans le champ **[!UICONTROL Logs générés lors de l&#39;export]** de la fenêtre de prévisualisation des données. Ce log indique que la valeur d&#39;énumération &quot;2&quot; n&#39;est pas renseignée.
+   Prenons un autre exemple et disons que la valeur de l&#39;énumération &quot;2&quot; n&#39;est pas saisie. Sélectionnez la variable **[!UICONTROL Générer une erreur et rejeter la ligne]** fonction : tous les destinataires du genre &quot;2&quot; génèrent des anomalies et les autres informations de la ligne (prénom et nom, etc.) ne seront pas exportés. Un journal des erreurs s’affiche dans la variable **[!UICONTROL Logs générés lors de l&#39;export]** champ de la fenêtre de prévisualisation des données. Ce journal indique que la valeur de l&#39;énumération &quot;2&quot; n&#39;est pas saisie.
 
    ![](assets/query_editor_nveau_80.png)

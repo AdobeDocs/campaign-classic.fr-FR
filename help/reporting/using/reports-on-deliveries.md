@@ -9,7 +9,7 @@ exl-id: dcbf280c-3040-4218-a453-1497662fef2e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 100%
+ht-degree: 75%
 
 ---
 
@@ -25,7 +25,7 @@ Les types de rapports disponibles sont les suivants :
 * Rapports de diffusion, voir la section [Rapports de diffusion](../../reporting/using/delivery-reports.md).
 * Rapports cumulés, voir la section [Rapports cumulés](../../reporting/using/cumulative-reports.md).
 
-Vous pouvez accéder aux rapports depuis la page d&#39;accueil de la console cliente, le tableau de bord des rapports ou la liste des diffusions. Le mode d&#39;affichage d&#39;un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d&#39;accueil et permet d&#39;accéder rapidement aux données des diffusions. Cette liste peut être modifiée selon vos besoins. Voir [cette section](../../reporting/using/about-reports-creation-in-campaign.md) pour plus d&#39;informations.
+Vous pouvez accéder aux rapports depuis la page d&#39;accueil de la console cliente, le tableau de bord des rapports ou la liste des diffusions. Le mode d&#39;affichage d&#39;un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d&#39;accueil et permet d&#39;accéder rapidement aux données de diffusion. Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
 
 Un champ de recherche est disponible depuis le tableau de bord des rapports et vous permet d&#39;accéder plus rapidement à l&#39;un des rapports de la liste.

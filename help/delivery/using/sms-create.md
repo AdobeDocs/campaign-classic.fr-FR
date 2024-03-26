@@ -8,9 +8,9 @@ feature: SMS
 role: User
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '452'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 89%
 
 ---
 
@@ -42,7 +42,7 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    L&#39;utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](about-personalization.md).
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** en bas de page afin de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, vous devez choisir un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d&#39;outils. Sélectionnez un individu parmi la ou les cibles définies ou choisissez une autre personne.
+1. Cliquez sur **[!UICONTROL Aperçu]** au bas de la page pour visualiser le rendu du message avec sa personnalisation. Pour lancer l&#39;aperçu, sélectionnez un destinataire à l&#39;aide de la fonction **[!UICONTROL Test de la personnalisation]** dans la barre d’outils. Vous pouvez sélectionner un destinataire parmi les cibles définies ou choisir un autre destinataire.
 
    ![](assets/s_ncs_user_wizard_sms01_139.png)
 
@@ -56,7 +56,7 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    >[!NOTE]
    >
-   >La longueur des messages SMS est limitée à 160 caractères si la page de code Latin-1 (ISO-8859-1) est utilisée. Si le message est rédigé en unicode, il ne peut dépasser 70 caractères. Certains caractères spéciaux peuvent avoir une influence sur la longueur du message. Pour plus d’informations sur la longueur des messages, voir la section [Translittération des caractères](#about-character-transliteration).
+   >La longueur des messages SMS est limitée à 160 caractères si la page de code Latin-1 (ISO-8859-1) est utilisée. Si le message est rédigé en unicode, il ne peut dépasser 70 caractères. Certains caractères spéciaux peuvent avoir une influence sur la longueur du message. Pour plus d’informations sur la longueur des messages, voir la section [Translittération des caractères SMS](#about-character-transliteration).
    >
    >Lors de la présence de champs de personnalisation ou de contenu conditionnel, la taille du message varie d&#39;un destinataire à l&#39;autre. La longueur du message doit être évaluée une fois la personnalisation effectuée.
    >

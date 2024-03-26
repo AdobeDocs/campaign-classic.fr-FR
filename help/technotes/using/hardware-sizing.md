@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2519'
+source-wordcount: '2576'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 100%
 >
 >Cet article est uniquement fourni à titre de guide illustratif général. Vous devez contacter votre gestionnaire du succès client Adobe Campaign afin d’obtenir le dimensionnement exact dont vous avez besoin pour votre déploiement avant de démarrer un projet Campaign. N’acquérez et ne déployez **pas** de matériel ni d’infrastructure tant que cela n’est pas fait.
 
-Ce document fournit des recommandations générales relatives au déploiement d’Adobe Campaign Classic v7 dans votre centre de données On-premise ou votre environnement cloud virtualisé. Ce type de déploiement, dit **hybride** ou de **mid-sourcing**, place l’instance marketing et la base de données marketing de Campaign sous votre contrôle opérationnel. Dans le même temps, les services Adobe Cloud Messaging sont utilisés pour envoyer des e-mails, des SMS ou des messages SMPP, et collecter les données d’ouverture d’e-mail, de bounce et de suivi des clics.
+Ce document fournit des recommandations générales relatives au déploiement d’Adobe Campaign Classic v7 dans votre centre de données On-premise ou votre environnement cloud virtualisé. Ce type de déploiement, dit **hybride** ou de **mid-sourcing**, place l’instance marketing et la base de données marketing de Campaign sous votre contrôle opérationnel. Dans le même temps, les services Adobe Cloud Messaging sont utilisés pour envoyer des e-mails, des SMS ou des messages SMPP, et collecter les données d’ouverture d’e-mail, de rebond et de suivi des clics.
 
 L’instance marketing est la partie de l’architecture Adobe Campaign qui stimule toute l’activité marketing. C’est également celle qui stocke toutes les données des destinataires et les données d’analyse renvoyées par les campagnes. L’instance marketing est un ensemble de serveurs On-premise exécutant les services Adobe Campaign et une base de données relationnelle.
 
@@ -58,7 +58,7 @@ Campaign est une application centrée sur la base de données. Les performances 
 
 Les serveurs d’application de votre instance marketing nécessitent suffisamment de capacité au niveau du processeur et de la mémoire pour exécuter des workflows et répondre aux appels d’API SOAP, y compris les requêtes des utilisateurs de la console Campaign. La configuration requise pour le processeur peut être significative pour les workflows qui utilisent des interactions sortantes avec des règles d’offre complexes, les workflows qui exécutent du code JavaScript personnalisé et les applications web avec des niveaux de trafic élevés.
 
-Les applications web de Campaign peuvent également être déployées sur les serveurs d’applications de l’instance marketing ou sur des systèmes de serveurs web distincts. Les charges de travail des applications web étant en conflit avec les workflows importants et les utilisateurs de la console Campaign, il est possible de déployer ces applications web et les interactions entrantes sur des serveurs distincts afin de garantir un fonctionnement fiable et optimal des fonctionnalités de base de Campaign.
+Les applications web de Campaign peuvent également être déployées sur les serveurs d’applications de l’instance marketing ou sur des systèmes de serveurs web distincts. Les charges de travail des applications web étant en conflit avec les workflows importants et les utilisateurs ou utilisatrices de la console Campaign, il est possible de déployer ces applications web et les interactions entrantes sur des serveurs distincts afin de garantir un fonctionnement fiable et optimal des fonctionnalités de base de Campaign.
 
 Pour des raisons de sécurité et de disponibilité, Adobe recommande de séparer le trafic Internet du trafic généré par les utilisateurs professionnels. Pour cette raison, les diagrammes contiennent deux groupes de serveurs : le serveur web (Web1 et Web2 avec accès via Internet) et les serveurs d’applications (App1 et App2 avec processus d’entreprise).
 

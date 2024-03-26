@@ -8,9 +8,9 @@ feature: Channel Configuration
 role: User
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 Vous pouvez créer une diffusion par le biais de la vue d&#39;ensemble ou du menu **[!UICONTROL Créer > Diffusion]**.
 
 
-Pour créer une diffusion, cliquez sur le bouton **[!UICONTROL Créer]** situé au-dessus de la liste des diffusions. Lorsque vous créez une diffusion, vous devez indiquer le canal de diffusion utilisé. Pour cela, sélectionnez le modèle de diffusion correspondant, à partir de la liste déroulante du champ **[!UICONTROL Modèle de diffusion]**.
+Pour créer une diffusion, cliquez sur **[!UICONTROL Créer]** au-dessus de la liste des diffusions. Lorsque vous créez une diffusion, vous devez indiquer le canal de diffusion utilisé. Pour cela, sélectionnez le modèle de diffusion approprié dans la liste déroulante du **[!UICONTROL Modèle de diffusion]** champ .
 
 ![](assets/s_ncs_user_wizard_email01_1.png)
 

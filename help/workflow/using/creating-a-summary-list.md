@@ -7,8 +7,8 @@ feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 100%
+source-wordcount: '1071'
+ht-degree: 89%
 
 ---
 
@@ -66,7 +66,7 @@ Ces données sont contenues dans un fichier texte : &quot;Achats.txt&quot;.
 
    ![](assets/uc2_enrich_collecteur.png)
 
-   L&#39;activité **Collecteur de fichiers** permet de gérer l&#39;absence de fichier sur le répertoire source. Pour cela il faut cocher l&#39;option **[!UICONTROL Traiter l&#39;absence de fichier]**. Dans ce workflow, une activité **Attente** a été positionnée pour tenter une nouvelle collecte du fichier s&#39;il n&#39;est pas présent dans le répertoire mentionné.
+   La variable **Collecteur de fichiers** activity permet de gérer l’absence de fichier dans le répertoire source. Pour ce faire, cochez la case **[!UICONTROL Traiter l&#39;absence de fichier]** . Dans ce workflow, une **Attente** une activité a été ajoutée pour essayer une autre collection de fichiers si elle est absente du répertoire au moment de la collecte.
 
 1. Paramétrez l&#39;activité **Chargement (fichier)** en vous basant sur un fichier exemple ayant le même format que les données à importer.
 
@@ -113,7 +113,7 @@ Les données de la table de travail du workflow après cet enrichissement sont l
 
 ## Étape 2 : Écrire des données enrichies dans la table &#39;Achats&#39; {#step-2--writing-enriched-data-to-the--purchases--table}
 
-Cette étape consiste à écrire dans la table &quot;Achats&quot; les données importées et enrichies. Une activité **Mise à jour de données** est nécessaire pour réaliser cette action.
+Cette étape décrit comment écrire les données importées et enrichies dans la table &quot;Achats&quot;. Pour ce faire, nous devons utiliser un **Mise à jour de données** activité.
 
 Une réconciliation entre les données de la table de travail du workflow et la dimension de ciblage **Achats** doit être effectuée avant la mise à jour des données dans la table **Achats**.
 
@@ -121,7 +121,7 @@ Une réconciliation entre les données de la table de travail du workflow et la 
 1. Sélectionnez la dimension de ciblage, dans notre cas le schéma &quot;Achats&quot;.
 1. Sélectionnez une &quot;expression source&quot; pour les données de la table du workflow (ici le champ &quot;NomMag&quot;).
 1. Sélectionnez une &quot;expression destination&quot; pour les données de la table &quot;Achats&quot; (ici le champ &quot;NomMag&quot;).
-1. Cochez l&#39;option **[!UICONTROL Conserver les données non rapprochées de la table de travail]**.
+1. Cochez l’option **[!UICONTROL Conserver les données non réconciliées de la table de travail]**.
 
 ![](assets/uc2_enrich_reconciliation.png)
 
@@ -130,7 +130,7 @@ Dans l&#39;activité **Mise à jour de données**, la configuration suivante est
 1. Sélectionnez l&#39;option **[!UICONTROL Ajouter ou mettre à jour]** dans le champ **[!UICONTROL Type d&#39;opération]** afin de ne pas créer de nouveaux enregistrements à chaque collecte du fichier.
 1. Sélectionnez la valeur **[!UICONTROL En utilisant directement la dimension de ciblage]** pour l&#39;option **[!UICONTROL Identification des enregistrements]**.
 1. Sélectionnez le schéma &quot;Achats&quot; comme **[!UICONTROL Type de document]**.
-1. Indiquez à Adobe Campaign la liste des champs à mettre à jour. Dans la colonne **[!UICONTROL Destination]**, les champs du schéma &quot;Achats&quot; doivent être définis. La colonne **[!UICONTROL Expression]** permet de sélectionner les champs de la table de travail du workflow afin de réaliser un mapping.
+1. Indiquez la liste des champs à mettre à jour. La variable **[!UICONTROL Destination]** permet de définir les champs du schéma &quot;Achats&quot;. La variable **[!UICONTROL Expression]** permet de sélectionner les champs de la table de travail pour effectuer un mapping.
 1. Cliquez sur l&#39;option **[!UICONTROL Générer une transition sortante.]**
 
 ![](assets/uc2_enrich_miseajour.png)

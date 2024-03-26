@@ -10,7 +10,7 @@ exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 100%
+ht-degree: 71%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Le nom du fichier contenant les données extraites est défini dans le champ **[!UICONTROL Fichier]**. Le bouton situé à droite du champ permet d&#39;utiliser des champs de personnalisation pour créer le nom du fichier.
 
-Par défaut, le fichier d&#39;extraction est créé et stocké sur le serveur. Vous pouvez l&#39;enregistrer sur votre machine. Pour cela, cochez l&#39;option **[!UICONTROL Rapatrier en local le fichier généré après l&#39;export]**. Dans ce cas, vous devez indiquer le chemin d&#39;accès au répertoire de stockage local et le nom du fichier.
+Par défaut, le fichier d&#39;extraction est créé et stocké sur le serveur. Vous pouvez l&#39;enregistrer sur votre ordinateur. Pour ce faire, cochez la case **[!UICONTROL Téléchargez le fichier généré après l&#39;analyse de la diffusion.]**. Dans ce cas, vous devez indiquer le chemin d’accès au répertoire de stockage local ainsi que le nom du fichier.
 
 ![](assets/s_ncs_user_mail_delivery_local_file.png)
 

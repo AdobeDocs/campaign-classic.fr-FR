@@ -10,8 +10,8 @@ topic-tags: connectors
 exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 81%
 
 ---
 
@@ -29,11 +29,11 @@ Utilisez l’option Campaign [Federated Data Access](../../installation/using/ab
 La connexion à une base de données externe Oracle en FDA requiert les paramétrages additionnels ci-dessous sur le serveur Adobe Campaign.
 
 1. Installez le client complet Oracle correspondant à votre version d’Oracle.
-1. Ajoutez vos définitions TNS à votre installation. Pour cela, indiquez-les dans un fichier **tnsnames.ora** dans le répertoire /etc/oracle. Si ce répertoire n’existe pas, créez-le.
+1. Ajoutez vos définitions TNS à votre installation. Pour ce faire, spécifiez-les dans un **tnsnames.ora** dans le référentiel /etc/oracle. Si ce référentiel n’existe pas, créez-le.
 
    Créez alors une nouvelle variable d&#39;environnement TNS_ADMIN : export TNS_ADMIN=/etc/oracle et redémarrez la machine.
 
-1. Intégrez Oracle à votre serveur Adobe Campaign (nlserver). Pour cela, vérifiez que le fichier **customer.sh** est bien présent dans le dossier &quot;nl6&quot; de l’arborescence du serveur Adobe Campaign et que ce dernier comprend bien les liens vers les bibliothèques Oracle.
+1. Intégrez Oracle à votre serveur Adobe Campaign (nlserver). Pour ce faire, vérifiez que la variable **customer.sh** est présent dans le dossier &quot;nl6&quot; de l’arborescence du serveur Adobe Campaign et qu’il comprend les liens vers les bibliothèques Oracles.
 
    Par exemple pour un client 11.2 :
 

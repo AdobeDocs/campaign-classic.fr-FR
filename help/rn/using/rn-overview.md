@@ -9,8 +9,8 @@ level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 97%
 
 ---
 
@@ -27,9 +27,9 @@ Chaque nouvelle build est fournie avec un statut identifié par une couleur dans
 
 | Statut | Description |
 |---|---|
-| [!BADGE Disponibilité générale]{type=Positive} | Disponibilité générale : dernière build stable, validée en production et recommandée par Adobe. |
+| [!BADGE Disponibilité générale]{type=Positif} | Disponibilité générale : dernière build stable, validée en production et recommandée par Adobe. |
 | [!BADGE Disponibilité limitée]{type=Neutral} | Déploiement à la demande uniquement. |
-| [!BADGE Version admissible]{type=Informative} | Build la plus récente avec des nouvelles fonctionnalités. |
+| [!BADGE Release Candidate]{type=Informative} | Build la plus récente avec des nouvelles fonctionnalités. |
 | [!BADGE Plus disponible]{type=Caution} | Aucun déploiement. Aucun correctif. Il est recommandé de mettre à jour vers une build plus récente. |
 | [!BADGE Obsolète]{type=negative} | Aucun déploiement. Aucun correctif. Les implémentations existantes doivent être mises à niveau. |
 

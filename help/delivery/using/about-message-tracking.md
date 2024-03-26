@@ -8,9 +8,9 @@ feature: Monitoring, Email
 role: User
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ Grâce à ses fonctionnalités de tracking, Adobe Campaign vous permet de track
 
 Ces informations sont récupérées dans l&#39;onglet **[!UICONTROL Tracking]** du profil de chaque destinataire de la diffusion. Cet onglet présente tous les liens URL trackés sur lesquels le destinataire sélectionné dans la liste a cliqué. Il s’agit de l’accumulation de toutes les URL trackées dans les diffusions qui sont toujours présentes dans l’écran de diffusion. La liste peut être configurée et contient généralement les informations suivantes : l’URL sur laquelle l’utilisateur a cliqué, la date et l’heure du clic et le document dans lequel l’URL a été trouvée. Pour plus d’informations, consultez [cette section](../../platform/using/editing-a-profile.md#tracking-tab).
 
-Le **tableau de bord des diffusions** est la clé pour suivre les diffusions et les erreurs éventuelles rencontrées lors de l’envoi des messages. Voir à ce sujet [cette section](delivery-dashboard.md).
+La variable **tableau de bord des diffusions** est également la clé pour surveiller vos diffusions et les éventuels problèmes rencontrés lors de l’envoi des messages. Voir à ce sujet la section [cette section](delivery-dashboard.md).
 
 Le diagramme suivant présente les étapes de la conversation entre l&#39;utilisateur et les différents serveurs.
 
@@ -98,7 +98,7 @@ Comprenez la différence de tracking entre une personne/plusieurs personnes et u
 
 **Indicateurs de tracking**
 
-Ce rapport combine les indicateurs clés pour le tracking du comportement des destinataires à la réception de la diffusion, tels que les taux d&#39;ouverture, de clics publicitaires et de flux de clics. [En savoir plus](../../reporting/using/delivery-reports.md#tracking-indicators)
+Ce rapport combine les indicateurs clés pour le tracking du comportement des destinataires à la réception de la diffusion, tels que les taux d’ouvertures, les taux de clics et les flux de clics. [En savoir plus](../../reporting/using/delivery-reports.md#tracking-indicators)
 
 **Calcul des indicateurs**
 

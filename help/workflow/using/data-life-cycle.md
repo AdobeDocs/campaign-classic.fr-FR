@@ -7,8 +7,8 @@ feature: Workflows, Data Management
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 81%
 
 ---
 
@@ -40,7 +40,7 @@ Sélectionnez pour cela le menu correspondant :
 
   Voir à ce propos cette [section](../../reporting/using/using-the-descriptive-analysis-wizard.md).
 
-Les données de la cible sont purgées au fur et à mesure de l&#39;exécution du workflow. Seule la dernière table de travail est accessible. Vous pouvez paramétrer le workflow pour que toutes les tables de travail restent accessibles. Pour cela, cochez l&#39;option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** dans les propriétés du workflow.
+Les données de la cible sont purgées au fur et à mesure de l&#39;exécution du workflow. Seule la dernière table de travail est accessible. Vous pouvez paramétrer le workflow pour que toutes les tables de travail restent accessibles : vérifiez les **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** dans les propriétés du workflow.
 
 Toutefois, l&#39;activation de cette option est à éviter lorsque les données manipulées sont volumineuses.
 
@@ -58,7 +58,7 @@ Vous pouvez ainsi utiliser dans une diffusion des données collectées via une l
 
 Les éléments de personnalisation de type **[!UICONTROL Extension de la cible]** (targetData) ne sont disponible que dans le cadre des workflows de ciblage. Ainsi, la cible de la diffusion doit être construite dans le workflow et spécifiée dans la transition entrante de la diffusion.
 
-Si vous souhaitez créer des BAT pour les diffusions, la cible des BAT doit alors être construite selon le mode **[!UICONTROL Substitution des adresses]**, afin que les données de personnalisation puissent être renseignées. Voir à ce propos cette [section](../../delivery/using/steps-defining-the-target-population.md#using-address-substitution-in-proof).
+Si vous souhaitez créer des BAT de diffusion, la cible du BAT doit être créée en fonction de la variable **[!UICONTROL Substitution des adresses]** afin que les données de personnalisation puissent être renseignées. Pour plus d’informations à ce sujet, consultez cette [section](../../delivery/using/steps-defining-the-target-population.md#using-address-substitution-in-proof).
 
 Dans l&#39;exemple suivant, nous allons collecter dans une liste des informations relatives à des clients qui seront utilisées dans un mail personnalisé.
 
@@ -96,7 +96,7 @@ Les étapes sont les suivantes :
 
    >[!CAUTION]
    >
-   >Seules les données contenues dans la transition peuvent être utilisées pour personnaliser la diffusion. Les champs de personnalisation de type **targetData** ne sont disponibles que pour la population en entrée de l&#39;activité **[!UICONTROL Diffusion]**.
+   >Seules les données contenues dans la transition peuvent être utilisées pour personnaliser la diffusion. **targetData** les champs de personnalisation de type ne sont disponibles que pour la population entrante de la variable **[!UICONTROL Diffusion]** activité.
 
 1. Dans le modèle de diffusion, utilisez les champs collectés dans le workflow.
 

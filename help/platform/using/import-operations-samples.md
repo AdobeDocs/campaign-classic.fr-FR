@@ -11,8 +11,8 @@ topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 100%
+source-wordcount: '1122'
+ht-degree: 88%
 
 ---
 
@@ -53,7 +53,7 @@ Pour importer dans la base Adobe Campaign de nouveaux profils de destinataires 
 
 1. Choix du modèle
 
-   * A partir de la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur le lien **[!UICONTROL Profils et cibles]** puis sur **[!UICONTROL Traitements]**. Au-dessus de la liste des traitements, cliquez sur **[!UICONTROL Nouvel import]**.
+   * Sur la page d’accueil d’Adobe Campaign, cliquez sur le bouton **[!UICONTROL Profils et cibles]** link, puis **[!UICONTROL Tâches]**. Au-dessus de la liste des tâches, cliquez sur **[!UICONTROL Nouvel import]**.
    * Conservez le modèle **[!UICONTROL Nouvel import texte]** sélectionné par défaut.
    * Modifiez le libellé et la description.
    * Sélectionnez **[!UICONTROL Import simple]**.
@@ -68,7 +68,7 @@ Pour importer dans la base Adobe Campaign de nouveaux profils de destinataires 
 
 1. Association des champs
 
-   Cliquez sur l&#39;icône **[!UICONTROL Deviner les champs destination]** pour effectuer automatiquement l&#39;association entre les schémas source et destination. Vérifiez les informations de cette fenêtre avant de cliquer sur **[!UICONTROL Suivant]**.
+   Cliquez sur le bouton **[!UICONTROL Consultation des champs de destination]** pour mapper automatiquement les schémas source et de destination. Vérifiez les informations de cette fenêtre avant de cliquer sur **[!UICONTROL Suivant]**.
 
    ![](assets/s_ncs_user_import_example03_01.png)
 
@@ -93,7 +93,7 @@ Pour importer dans la base Adobe Campaign de nouveaux profils de destinataires 
 
      ![](assets/s_ncs_user_import_example06_01.png)
 
-     Le mode **[!UICONTROL Tracking]** vous permet de suivre les détails de l&#39;import pour chacun des enregistrements du fichier source. Pour cela, à partir de la page d&#39;accueil, cliquez sur **[!UICONTROL Profils et Cibles]** puis **[!UICONTROL Traitements]**, sélectionnez cet import et consultez les onglets **[!UICONTROL Général]**, **[!UICONTROL Journal]** et **[!UICONTROL Rejets]**.
+     La variable **[!UICONTROL Tracking]** permet de suivre les détails de l&#39;import pour chaque enregistrement dans le fichier source. Pour ce faire, dans la page d’accueil, cliquez sur **[!UICONTROL Profils et cibles]** then **[!UICONTROL Processus]**, sélectionnez l’importation appropriée et recherchez le **[!UICONTROL Général]**, **[!UICONTROL Journal]** et **[!UICONTROL Rejets]** onglets.
 
       * Consultation du déroulement de l&#39;import
 
@@ -239,4 +239,4 @@ Dans cet exemple, vous noterez que certains champs de votre fichier texte ont un
 
      ![](assets/s_ncs_user_import_example06_06.png)
 
-     Les valeurs du fichier texte qui étaient vides ont écrasées celles de la base. Les valeurs déjà existantes dans la base ont été mises à jour par celle du fichier d&#39;import, conformément à l&#39;option **[!UICONTROL Mise à jour]** sélectionnée pour les duplicatas à l&#39;étape 4.
+     Les valeurs du fichier texte qui étaient vides ont écrasées celles de la base de données. Les valeurs existantes dans la base de données ont été mises à jour avec celles du fichier d&#39;import, conformément à la **[!UICONTROL Mettre à jour]** option sélectionnée pour les doublons à l’étape 4.

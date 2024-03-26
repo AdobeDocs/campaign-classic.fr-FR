@@ -8,8 +8,8 @@ feature: Landing Pages, Web Forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 84%
 
 ---
 
@@ -78,8 +78,8 @@ La définition du contenu et de la mise en page des écrans du formulaire sont p
 
 >[!NOTE]
 >
->* Au cours de la conception des pages, vous pouvez visualiser le rendu final dans le sous-onglet **[!UICONTROL Aperçu]**. Pour visualiser les modifications, vous devez enregistrer le formulaire. Les erreurs éventuelles sont affichées dans l&#39;onglet **[!UICONTROL Journal]**.
->* Vous pouvez contrôler le bon enchaînement des pages et le stockage des informations en activant le mode debug au niveau du formulaire Web. Pour cela, à partir du sous-onglet **[!UICONTROL Aperçu]**, cochez l&#39;option **[!UICONTROL Activer le mode debug]** : les informations collectées et les éventuelles erreurs d&#39;exécution seront alors affichées en bas de chaque page.
+>* Lors de la conception de la page, vous pouvez afficher le rendu final dans la **[!UICONTROL Aperçu]** . Pour afficher les modifications, enregistrez d’abord le formulaire. Toutes les erreurs s’affichent dans la variable **[!UICONTROL Journal]** .
+>* Pour vous assurer que l&#39;affichage des pages et le stockage des informations se produisent dans l&#39;ordre approprié, activez le mode debug dans le formulaire Web. Pour ce faire, accédez à la **[!UICONTROL Aperçu]** et cochez la case **[!UICONTROL Activation du mode de débogage]** box : toutes les informations collectées et les erreurs d&#39;exécution possibles seront affichées en bas de chaque page.
 >
 
 ### Utiliser les icônes de la barre d&#39;outils {#using-the-icons-in-the-toolbar}

@@ -7,9 +7,9 @@ badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Class
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 100%
+ht-degree: 74%
 
 ---
 
@@ -45,7 +45,7 @@ Lorsque le destinataire clique sur l&#39;icône d&#39;un des réseaux sociaux pr
 
 >[!NOTE]
 >
->Ce bloc de personnalisation contient tous les liens (envoi d&#39;un message et partage vers tous les réseaux sociaux). Il peut être modifié selon vos besoins. Ce paramétrage est toutefois réservé à des utilisateurs avancés. Pour cela, éditez le bloc de personnalisation correspondant accessible à partir du noeud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de l&#39;arborescence Adobe Campaign.
+>Ce bloc de personnalisation contient tous les liens (envoi et partage de messages sur tous les réseaux sociaux). Il peut être modifié selon vos besoins. La configuration est toutefois réservée aux utilisateurs avancés. Pour éditer le bloc de personnalisation correspondant, accédez au **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** du noeud de l’arborescence Adobe Campaign.
 
 ## Marketing viral : transférer à un ami {#viral-marketing--forward-to-a-friend}
 
@@ -68,7 +68,7 @@ Les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Le contenu de ce message peut être personnalisé selon vos besoins. Il est créé à partir du modèle **[!UICONTROL Transfert du message initial]**, stocké dans le noeud **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]** de l&#39;arborescence.
+   >Le contenu de ce message peut être personnalisé selon vos besoins. Il est créé en fonction de la variable **[!UICONTROL Transfert du message d’origine]** , qui est stocké dans la variable **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]** noeud .
    >
    >Vous pouvez également modifier le formulaire de transfert du message proposé au parrain. Pour cela, vous devez modifier l&#39;application Web **Formulaire de partage** stockée dans le noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence.
 
@@ -78,11 +78,11 @@ Les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Ce paramétrage peut être adapté. Pour cela, vous devez modifier l&#39;application Web **Inscription de destinataire** stockée dans le noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence.
+   >Ce paramétrage peut être adapté. Pour ce faire, vous devez modifier la variable **Inscription de destinataire** Application Web stockée dans la variable **[!UICONTROL Ressources > On > Applications Web]** noeud .
    >
    >Pour plus d&#39;informations sur les applications Web, consultez [cette section](../../web/using/about-web-applications.md).
 
-   A la validation du formulaire, un message de confirmation est adressé au filleul : il ne sera définitivement inscrit que lorsqu&#39;il aura activé le lien contenu dans le message de confirmation. Ce message est créé à partir du modèle **[!UICONTROL Confirmation d&#39;inscription]**, stocké dans le nœud **[!UICONTROL Administration > Gestion de campagnes > Modèles des diffusions techniques]** de l&#39;arborescence.
+   Une fois validés, un message de confirmation leur est adressé : ils ne seront définitivement enregistrés que lorsqu&#39;ils auront activé le lien contenu dans le message de confirmation. Ce message est créé à partir de la fonction **[!UICONTROL Confirmation d&#39;inscription]** , qui est stocké dans la variable **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]** noeud .
 
    Le filleul est alors ajouté dans le dossier **Destinataires** de la base de données, et il est abonné (par défaut) au service d&#39;information **Newsletter**.
 

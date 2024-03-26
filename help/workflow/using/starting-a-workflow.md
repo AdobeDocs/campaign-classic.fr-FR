@@ -7,8 +7,8 @@ feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 source-git-commit: 1baf424138c95b16add37d9d556e3a2566a869c2
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 100%
+source-wordcount: '1209'
+ht-degree: 73%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Un workflow est toujours démarré manuellement. Au démarrage, il peut toutefois rester inactif en fonction des informations spécifiées par le biais d&#39;un planificateur (voir [Planificateur](scheduler.md)) ou d&#39;une planification d&#39;activité.
 
-Les actions relatives à l&#39;exécution du workflow de ciblage (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur sera disponible pour l&#39;appliquer.
+Actions liées à l&#39;exécution du workflow de ciblage (lancement, arrêt, pause, etc.) are **asynchrone** processus : la commande est enregistrée et sera effective dès que le serveur sera disponible pour l&#39;appliquer.
 
 La barre d&#39;outils permet de lancer et suivre l&#39;exécution du workflow.
 
@@ -30,7 +30,7 @@ La liste des options disponibles dans le menu **[!UICONTROL Actions]** et le men
 
 ## Barre d&#39;outils des actions {#actions-toolbar}
 
-Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow). Le bouton **[!UICONTROL Actions]** vous donne accès à des options d&#39;exécution supplémentaires permettant d&#39;agir individuellement sur le ou les workflows sélectionnés. Vous pouvez également utiliser le menu **[!UICONTROL Fichier > Actions]** ou cliquer avec le bouton droit sur un workflow et sélectionner **[!UICONTROL Actions]**.
+Les boutons de la barre d&#39;outils sont présentés dans la section [section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow). La variable **[!UICONTROL Actions]** donne accès à des options d&#39;exécution supplémentaires permettant d&#39;agir sur les workflows sélectionnés. Vous pouvez également utiliser le menu **[!UICONTROL Fichier > Actions]** ou cliquez avec le bouton droit de la souris sur un workflow et sélectionnez **[!UICONTROL Actions]**.
 
 ![](assets/purge_historique.png)
 
@@ -46,7 +46,7 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
 
 * **[!UICONTROL Stopper]**
 
-  Cette action arrête un workflow en cours d&#39;exécution : l&#39;instance passe alors en état **Terminé**. Les opérations en cours sont interrompues, si possible. Les imports ou requêtes SQL en cours sont immédiatement annulées.
+  Cette action arrête un workflow en cours d’exécution. L’état de l’instance est défini sur **Terminé**. Si possible, les opérations en cours sont interrompues. Les imports et requêtes SQL sont immédiatement annulées.
 
   >[!IMPORTANT]
   >
@@ -64,7 +64,7 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
 
   Cette action consiste à arrêter puis démarrer un workflow. Dans la plupart des cas, elle permet de redémarrer plus vite. Elle est également utile pour automatiser le redémarrage lorsque l&#39;arrêt prend un certain temps : en effet la commande &#39;Démarrer&#39; n&#39;est disponible que lorsque l&#39;arrêt est effectif.
 
-  Les actions **[!UICONTROL Démarrer / Pause / Stopper / Redémarrer]** sont également disponibles via les icônes d&#39;exécution de la barre d&#39;outils. Voir à ce sujet cette [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
+  La variable **[!UICONTROL Démarrer / Mettre en pause / Arrêter / Redémarrer]** Les actions sont également disponibles à partir des icônes d&#39;exécution de la barre d&#39;outils. Pour plus d’informations à ce sujet, consultez cette [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
 
 * **[!UICONTROL Purge de l&#39;historique]**
 
@@ -72,29 +72,29 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
 
 * **[!UICONTROL Démarrer en mode simulation]**
 
-  Cette option permet de démarrer le workflow, non pas en mode réel, mais en mode simulation. Lorsque vous activez ce mode, seules les activités n&#39;ayant pas d&#39;impact sur la base ni sur le système de fichiers sont exécutées, par exemple les activités de type **[!UICONTROL Requête]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc. Les activités ayant un impact (**[!UICONTROL Export]**, **[!UICONTROL Import]**, etc) ainsi que celles qui leur succèdent (dans la même branche) ne sont pas exécutées.
+  Cette option permet de lancer le workflow en mode simulation et non en mode réel. Cela signifie que lorsque vous activez ce mode, seules les activités qui n&#39;ont pas d&#39;impact sur la base de données ou le système de fichiers sont exécutées (par exemple : **[!UICONTROL Requête]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Activités qui ont un impact (par exemple, **[!UICONTROL Exporter]**, **[!UICONTROL Importer]**, etc.) ainsi que celles qui leur succèdent (dans la même branche) ne sont pas exécutées.
 
 * **[!UICONTROL Traitement anticipé des tâches en attente]**
 
-  Cette action permet de lancer dès que possible toutes les tâches en attente. Si vous souhaitez lancer une tâche particulière, cliquez avec le bouton droit sur l&#39;activité correspondante et sélectionnez **[!UICONTROL Traitement anticipé de la (des) tâche(s)]**.
+  Cette action permet de lancer dès que possible toutes les tâches en attente. Pour lancer une tâche spécifique, cliquez avec le bouton droit de la souris sur l&#39;activité correspondante et sélectionnez **[!UICONTROL Traitement anticipé des tâches en attente]**.
 
 * **[!UICONTROL Sauver comme modèle]**
 
-  Cette action crée un nouveau modèle de workflow à partir du workflow sélectionné. Vous devez indiquer son dossier d&#39;enregistrement (dans le champ **[!UICONTROL Dossier]**).
+  Cette action crée un modèle de workflow à partir du workflow sélectionné. Vous devez spécifier le dossier dans lequel il sera enregistré (dans la variable **[!UICONTROL Dossier]** ).
 
-  Les options **[!UICONTROL Mettre à jour en masse les lignes sélectionnées]** et **[!UICONTROL Fusionner les lignes sélectionnées]** sont des options génériques de la plateforme disponibles dans tous les menus **[!UICONTROL Actions]**. Voir à ce sujet cette [section](../../platform/using/updating-data.md).
+  La variable **[!UICONTROL Mise à jour en masse des lignes sélectionnées]** et **[!UICONTROL Fusionner les lignes sélectionnées]** options sont des options de plateforme génériques disponibles dans toutes les **[!UICONTROL Actions]** menus. Pour plus d’informations à ce sujet, consultez cette [section](../../platform/using/updating-data.md).
 
 
 ## Bonnes pratiques relatives à l’exécution des workflows {#workflow-execution-best-practices}
 
 **Ne planifiez pas l’exécution d’un workflow à une fréquence supérieure à toutes les 15 minutes**, car cela peut nuire aux performances générales du système et créer des blocs dans la base de données.
 
-**Évitez de laisser les workflows en pause**. Si vous créez un workflow temporaire, vérifiez quʼil pourra se terminer correctement et quʼil ne restera pas dans un état **[!UICONTROL en pause]**, car il vous obligerait à conserver les tables temporaires, ce qui augmenterait la taille de la base de données. Affectez des superviseurs dans les propriétés du workflow pour envoyer une alerte en cas d’échec ou de suspension d’un workflow par le système.
+**Évitez de laisser vos workflows en pause**. Si vous créez un workflow temporaire, assurez-vous qu’il se terminera correctement et qu’il ne restera pas dans un **[!UICONTROL paused]** état. S’il est en pause, cela signifie que vous devez conserver les tables temporaires et ainsi augmenter la taille de la base de données. Affectez des superviseurs dans les propriétés du workflow pour envoyer une alerte en cas d’échec ou de suspension d’un workflow par le système.
 
 Pour éviter que les workflows soient dans un état en pause :
 
 * Vérifiez vos workflows régulièrement pour vous assurer qu&#39;il n&#39;y a pas d&#39;erreurs inattendues.
-* Faites en sorte que vos workflows soient aussi simples que possible, en fractionnant par exemple les workflows volumineux en plusieurs workflows différents. Vous pouvez utiliser des activités **[!UICONTROL Signal externe]** pour déclencher leur exécution selon celle d&#39;autres workflows.
+* Faites en sorte que vos workflows soient aussi simples que possible, en fractionnant par exemple les workflows volumineux en plusieurs workflows différents. Vous pouvez utiliser **[!UICONTROL Signal externe]** les activités déclenchent leur exécution en fonction de l’exécution d’autres workflows.
 * Évitez de conserver dans vos workflows des activités désactivées contenant des flux. Cette situation conduit à maintenir des threads ouverts et de nombreuses tables temporaires qui consomment beaucoup d’espace. Ne conservez pas, dans vos workflows, des activités se trouvant dans les états **[!UICONTROL Ne pas activer]** ou **[!UICONTROL Activer, mais ne pas exécuter]**.
 
 **Arrêtez les workflows qui ne sont pas utilisés**. En continuant à s’exécuter, ils maintiennent les connexions avec la base de données.

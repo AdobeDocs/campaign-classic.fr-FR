@@ -11,7 +11,7 @@ exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -121,7 +121,7 @@ return aReturnedProps;
 
 Ce point d&#39;extension permet d&#39;appeler un moteur externe pour sélectionner une liste de produits associés à une offre. L&#39;exécution s&#39;effectue dans l&#39;offre après l&#39;application des règles d&#39;éligibilité, et avant l&#39;application des règles de typologie.
 
-L&#39;intégrateur doit, au préalable, avoir étendu le schéma des propositions **PropositionRcp** avec les données additionnelles du produit qu&#39;il souhaite stocker avec la proposition. Pour définir le stockage de ces données (code produit, par exemple), un lien **[!UICONTROL Proposition en cours de traitement]** est disponible dans l&#39;onglet **[!UICONTROL Stockage]** de l&#39;emplacement.
+L’intégrateur doit au préalable étendre les propositions. **PropositionRcp** schéma avec les informations supplémentaires sur le produit. Pour indiquer où ces données seront stockées, une **[!UICONTROL Proposition en traitement]** est disponible dans la variable **[!UICONTROL Stockage]** de l’espace
 
 ![](assets/interaction_hooks_3.png)
 

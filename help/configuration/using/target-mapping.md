@@ -10,7 +10,7 @@ exl-id: 38333669-5598-4811-a121-b677c1413f56
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -89,7 +89,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/mapping_diffusion_wizard_1.png)
 
-1. Dans la fenêtre suivante **Edition des formules d&#39;adresse**, sélectionnez les champs du schéma correspondant aux différentes adresses de diffusion. Dans le cas actuel, il est possible de mapper le champ **@email** et **@mobile**.
+1. Dans le **Modifier les formulaires d’adresse** sélectionnez les champs du schéma correspondant aux différentes adresses de diffusion. Ici, nous pouvons cartographier la variable **@email** et **@mobile** des champs.
 
    ![](assets/mapping_diffusion_wizard_2.png)
 

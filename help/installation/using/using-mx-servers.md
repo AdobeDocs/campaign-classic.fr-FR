@@ -49,19 +49,19 @@ Il s’agit du processus utilisé par Adobe Campaign pour traiter les erreurs l
 
 ### Comment fonctionne un mail rebond ?
 
-L’adresse d’erreur traite les retours renvoyés par les FAI. Le processus analyse différents codes d’erreur SMTP et applique l’action appropriée, conformément à la norme RegEx.
+L’adresse d’erreur traite les rebonds renvoyés par les FAI. Le processus analyse différents codes d’erreur SMTP et applique l’action appropriée, conformément à la norme RegEx.
 
-Par exemple, une adresse email provoque un retour « 550 Utilisateur inconnu » envoyé par un FAI. Ce code d’erreur est traité par l’adresse d’erreur Adobe Campaign (adresse de chemin de retour). Cette erreur est ensuite comparée à la norme RegEx et la règle appropriée est appliquée. L’email est considéré comme une *erreur hard* (correspondant au type), avec un *utilisateur inconnu* (correspondant à la raison). Il est ensuite envoyé en quarantaine après la première boucle dans le système.
+Par exemple, une adresse email provoque un retour « 550 Utilisateur inconnu » envoyé par un FAI. Ce code d’erreur est traité par l’adresse d’erreur Adobe Campaign (adresse de chemin de retour). Cette erreur est ensuite comparée à la norme RegEx et la règle appropriée est appliquée. L’e-mail est considéré comme un *rebond définitif* (correspondant au type), avec un *utilisateur inconnu* (correspondant à la raison). Il est ensuite envoyé en quarantaine après la première boucle dans le système.
 
 ### Comment Adobe Campaign gère-t-il la situation ?
 
 Adobe Campaign gère ce processus en établissant une correspondance entre un type d’erreur et une raison :
 
-* **[!UICONTROL Utilisateur inconnu]** : adresse correcte du point de vue syntaxique, mais inexistante. Cette erreur est catégorisée comme une erreur hard et conduit à une mise en quarantaine dès la première erreur.
-* **[!UICONTROL Boîte pleine]** : boîte aux lettres qui a atteint sa capacité maximale. Cette erreur peut également indiquer que l’utilisateur n’utilise plus cette boîte aux lettres. L’erreur est catégorisée comme une erreur soft et conduit à une mise en quarantaine à la troisième erreur et à une suppression dans la quarantaine suite à une période de 30 jours.
-* **[!UICONTROL Utilisateur inactif]** : la boîte aux lettres a été désactivée par le fournisseur d’accès à Internet, car l’utilisateur a été inactif au cours des 6 derniers mois. Cette erreur est catégorisée comme une erreur soft et conduit à une mise en quarantaine à la troisième erreur.
-* **[!UICONTROL Domaine invalide]** : le domaine de l’adresse email n’existe pas. Cette erreur est catégorisée comme une erreur soft et conduit à une mise en quarantaine à la troisième erreur.
-* **[!UICONTROL Refusé]** : Le FAI a refusé de remettre l’email à ses utilisateurs. Cette erreur est classée comme une erreur soft et n’aboutit pas à une mise en quarantaine, car elle n’est pas liée à l’adresse email mais à l’adresse IP ou à la réputation d’un domaine.
+* **[!UICONTROL Utilisateur inconnu]** : adresse correcte du point de vue syntaxique, mais inexistante. Cette erreur est catégorisée comme un rebond définitif et conduit à une mise en quarantaine dès la première erreur.
+* **[!UICONTROL Boîte pleine]** : boîte aux lettres qui a atteint sa capacité maximale. Cette erreur peut également indiquer que l’utilisateur n’utilise plus cette boîte aux lettres. L’erreur est catégorisée comme un rebond temporaire et conduit à une mise en quarantaine à la troisième erreur et à une suppression dans la quarantaine suite à une période de 30 jours.
+* **[!UICONTROL Utilisateur inactif]** : la boîte aux lettres a été désactivée par le fournisseur d’accès à Internet, car l’utilisateur a été inactif au cours des 6 derniers mois. Cette erreur est catégorisée comme un rebond temporaire et conduit à une mise en quarantaine à la troisième erreur.
+* **[!UICONTROL Domaine invalide]** : le domaine de l’adresse email n’existe pas. Cette erreur est catégorisée comme un rebond temporaire et conduit à une mise en quarantaine à la troisième erreur.
+* **[!UICONTROL Refusé]** : Le FAI a refusé de remettre l’email à ses utilisateurs. Cette erreur est classée comme un rebond temporaire et n’aboutit pas à une mise en quarantaine, car elle n’est pas liée à l’adresse e-mail mais à l’adresse IP ou à la réputation d’un domaine.
 
 >[!NOTE]
 >
@@ -81,12 +81,12 @@ Le mode personnalisé est destiné aux clients avancés qui souhaitent définir 
 
 ## Exemples de rebonds
 
-* **Utilisateur inconnu** (erreur hard) : 550 5.1.1 ... L’utilisateur est inconnu {mx003}
-* **Boîte pleine** (erreur soft) : 550 5.2.2 Dépassement du quota d’utilisateurs
-* **Boîte aux lettres inactive** (erreur soft) : 550 5.7.1 : adresse du destinataire refusée : boîte aux lettres inactive, non affichée pendant plus de 6 mois
-* **Domaine invalide** (erreur soft) : échec de la requête DNS pour ’ourdan.com’
-* **Refusé** (erreur soft) : retour de mail entrant (la règle ’Feedback_loop_Hotmail’ correspond à ce retour)
-* **Inatteignable** (erreur soft) : 421 4.16.55 [TS01] Messages de x.x.x.x reportés temporairement en raison de plaintes excessives de l’utilisateur
+* **Utilisateur inconnu** (rebond définitif) : 550 5.1.1 ... L’utilisateur est inconnu {mx003}
+* **Boîte pleine** (rebond temporaire) : 550 5.2.2 Dépassement du quota d’utilisateurs
+* **Boîte aux lettres inactive** (rebond temporaire) : 550 5.7.1 : adresse du destinataire refusée : boîte aux lettres inactive, non affichée pendant plus de 6 mois
+* **Domaine non valide** (rebond temporaire) : échec de la requête DNS pour ’ourdan.com’
+* **Refusé** (rebond temporaire) : retour de mail entrant (la règle ’Feedback_loop_Hotmail’ correspond à ce retour)
+* **Inatteignable** (rebond temporaire) : 421 4.16.55 [TS01] Messages de x.x.x.x reportés temporairement en raison de plaintes excessives de l’utilisateur
 
 **Rubriques connexes :**
 * [Configuration des MX](../../installation/using/email-deliverability.md#mx-configuration)

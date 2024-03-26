@@ -7,8 +7,8 @@ feature: Workflows, Data Management
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 89%
 
 ---
 
@@ -64,6 +64,6 @@ Dans le cadre d&#39;une diffusion par email, les champs de personnalisation peuv
 
 ![](assets/s_advuser_add_data_email.png)
 
-Si un code segment est indiqué dans une activité de ciblage, il est ajouté dans une colonne spécifique de la table du workflow et il sera proposé parmi les champs de personnalisation. Pour afficher tous les champs de personnalisation, cliquez sur le lien **[!UICONTROL Extension de la cible > Autre...]** accessible à partir du bouton de personnalisation.
+Si un code segment est spécifié dans une activité de ciblage, il est ajouté dans une colonne spécifique de la table du workflow et sera proposé avec les champs de personnalisation. Pour afficher tous les champs de personnalisation, cliquez sur le bouton **[!UICONTROL Extension Target > Autre...]** lien accessible à partir du bouton de personnalisation.
 
 ![](assets/s_advuser_segment_code_select.png)

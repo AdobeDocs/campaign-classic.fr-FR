@@ -54,7 +54,7 @@ Un contrôle d’édition est renseigné sur un élément **`<input>`** avec l�
 
 Le langage XPath est utilisé dans Adobe Campaign pour référencer un élément ou un attribut appartenant à un schéma de données.
 
-XPath est une syntaxe permettant la localisation d&#39;un nœud dans l&#39;arbre d&#39;un document XML.
+XPath est une syntaxe permettant la localisation d’un nœud dans l’arbre d’un document XML.
 
 Les éléments sont désignés par leur nom, les attributs sont désignés par leur nom précédé d&#39;un caractère &quot;@&quot;.
 
@@ -171,7 +171,7 @@ Cette liste présente l&#39;édition des éléments de collection sous la forme 
 
 Le contrôle liste doit être renseigné avec l&#39;attribut **type=&quot;notebooklist&quot;**, le chemin renseigné doit porter sur l&#39;élément de collection.
 
-Le titre de l&#39;onglet contient la valeur de la donnée renseignée à partir de l&#39;attribut **xpath-label**.
+Le titre de l’onglet contient la valeur de la donnée renseignée à partir de l’attribut **xpath-label**.
 
 Les contrôles d’édition doivent être déclarés sous un élément **`<container>`** enfant du contrôle liste.
 

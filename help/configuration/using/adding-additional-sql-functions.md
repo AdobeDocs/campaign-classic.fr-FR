@@ -8,8 +8,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 100%
+source-wordcount: '1044'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Une fois ces fonctions ajoutées, elles apparaissent dans l&#39;éditeur d&#39;e
 
 >[!IMPORTANT]
 >
->Les appels de fonctions SQL dans la console ne sont plus naturellement transmis au serveur. Le mécanisme décrit ici devient donc **le seul moyen d&#39;appeler** sur le serveur des fonctions SQL non prévues initialement.
+>Les appels de fonctions SQL dans la console ne sont plus naturellement envoyés au serveur. Le mécanisme décrit ici devient donc **le seul moyen d’appeler** sur le serveur de fonctions SQL non planifié.
 
 ## Installation {#installation}
 

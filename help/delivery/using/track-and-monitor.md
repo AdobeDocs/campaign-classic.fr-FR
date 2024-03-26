@@ -9,8 +9,8 @@ role: User
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 92%
 
 ---
 
@@ -47,7 +47,7 @@ Pour en savoir plus à ce sujet, consultez la section [Configuration du tracking
 
 ## Performances des diffusions {#delivery-performances}
 
-Pour mesurer la vitesse à laquelle les messages sont diffusés, vous pouvez contrôler le débit de diffusion. Les critères constituent le nombre de messages diffusés par heure et la taille des messages, en bits par seconde. Pour plus d&#39;informations, consultez la section [Débit de diffusion](../../reporting/using/global-reports.md#delivery-throughput).
+Pour mesurer la vitesse à laquelle les messages sont diffusés, vous pouvez contrôler le débit de diffusion. Les critères sont le nombre de messages envoyés par heure et la taille des messages (en bits par seconde). Pour plus d&#39;informations, consultez la section [Débit de diffusion](../../reporting/using/global-reports.md#delivery-throughput).
 
 **Conseils** :
 

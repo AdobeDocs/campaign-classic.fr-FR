@@ -9,8 +9,8 @@ level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2222'
-ht-degree: 100%
+source-wordcount: '2211'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Pour toute autre question, contactez l’[Assistance clientèle d’Adobe](https
 
 Les incidences globales sur la base de données et l’infrastructure sont répertoriées ci-dessous.
 
-* **La base de données va-t-elle changer ? Quelle est la version de la nouvelle base de données ? Quel sera le système d’exploitation ?**
+* **La base de données va-t-elle changer ? Quelle est la version de la nouvelle base de données ? Quel système d’exploitation sera utilisé ?**
 
   Adobe se réserve le droit de choisir et de déployer le moteur de gestion de base de données le plus approprié pour assurer le fonctionnement d’Adobe Campaign Service dans des conditions optimales.
 

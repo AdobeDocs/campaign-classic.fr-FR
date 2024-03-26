@@ -10,8 +10,8 @@ topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 100%
+source-wordcount: '757'
+ht-degree: 93%
 
 ---
 
@@ -121,7 +121,7 @@ Les attributs obligatoires des éléments **`<rtevent>`** et **`<batchevent>`** 
 <rtEvent type="order_confirmation" email="john.doe@domain.com" origin="eCommerce" wishedChannel="0" externalId="1242" mobilePhone="+33620202020"> 
 ```
 
-Dans cet exemple, deux canaux sont renseignés : l&#39;adresse email et le numéro de téléphone portable. Le champ **wishedChannel** permet de définir le canal qui sera utilisé lors de la transformation de l&#39;évènement en message. La valeur &quot;0&quot; correspond au canal email, la valeur &quot;1&quot; au canal mobile, etc.
+Dans cet exemple, deux canaux sont proposés : l&#39;adresse email et le numéro de téléphone portable. La variable **wishChannel** permet de sélectionner le canal à utiliser lors de la transformation de l&#39;événement en message. La valeur &quot;0&quot; correspond au canal email, la valeur &quot;1&quot; au canal mobile, etc.
 
 Si vous souhaitez différer le traitement d&#39;un évènement, ajoutez le champ **[!UICONTROL scheduled]** suivi de la date désirée. L&#39;évènement sera transformé en message à cette date.
 
@@ -164,7 +164,7 @@ Lors de la réception d&#39;un événement, Adobe Campaign génère un identifi
 
 >[!IMPORTANT]
 >
->Lors de la réception d&#39;appels SOAP, Adobe Campaign vérifie le format des adresses email. Si une adresse email n&#39;est pas correctement mise en forme, une erreur est renvoyée.
+>Lors de la réception d&#39;appels SOAP, Adobe Campaign vérifie le format des adresses email. Si une adresse e-mail n&#39;est pas correctement mise en forme, une erreur est renvoyée.
 
 * Exemple d&#39;identifiant renvoyé par la méthode lorsque le traitement d&#39;un événement a réussi :
 

@@ -11,8 +11,8 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '502'
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ Pour télécharger le JDK Java, accédez à l’adresse : [https://www.oracle.
 
 >[!CAUTION]
 >
->Afin de préserver le bon fonctionnement de votre plateforme et conserver la compatibilité avec la version installée, vous devez impérativement désactiver les fonctions de mises à jour automatiques du JDK sous Windows et Linux.
+>Afin de préserver le fonctionnement optimal de votre plateforme et de conserver la compatibilité avec la version installée, vous devez impérativement désactiver les fonctions de mise à jour automatique du JDK sous Windows et Linux.
 
 Pour installer le JDK dans un environnement Linux, il est préférable d&#39;utiliser un gestionnaire de paquets.
 
@@ -68,7 +68,7 @@ Sous Linux, OpenSSL doit être installé. Adobe Campaign prend en charge OpenSS
 
 ## Export des rapports {#exporting-reports}
 
-Adobe Campaign permet d&#39;exporter les rapports de la plateforme aux formats Microsoft Excel et Adobe PDF. Pour le format Microsoft Excel, Adobe Campaign utilise **LibreOffice**. Pour le format Adobe PDF, Adobe Campaign utilise le convertisseur **PhantomJS**. PhantomJS est fourni dans le package d&#39;usine, et LibreOffice doit être installé sur la ou les machines sur lesquelles s&#39;exécute le serveur applicatif Adobe Campaign (processus **nlserver web**).
+Adobe Campaign vous permet d’exporter des rapports de plateforme au format Microsoft Excel et Adobe PDF. Pour le format Excel Microsoft, Adobe Campaign utilise **LibreOffice**. Pour le format Adobe PDF, Adobe Campaign utilise la variable **PhantomJS** convertisseur. PhantomJs est inclus dans le package d’usine et LibreOffice doit être installé sur la ou les machines sur lesquelles le serveur applicatif Adobe Campaign est exécuté (**nlserver web** processus).
 
 >[!NOTE]
 >

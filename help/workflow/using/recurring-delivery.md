@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 

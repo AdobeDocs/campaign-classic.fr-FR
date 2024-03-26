@@ -7,8 +7,8 @@ feature: Workflows, Targeting Activity, Data Management
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 82%
 
 ---
 
@@ -54,11 +54,11 @@ Vous pouvez également utiliser l&#39;icône **[!UICONTROL Ajouter]** pour séle
 
 ![](assets/s_advuser_update_data_3.png)
 
-Sélectionnez tous les champs à mettre à jour et, au besoin, ajoutez des conditions pour que cette mise à jour soit réalisée. Pour cela, utilisez la colonne **[!UICONTROL Prise en compte si]**. Les conditions sont appliquées les unes après les autres, dans l&#39;ordre de la liste. Utilisez les flèches situées à droite pour modifier l&#39;ordre des mises à jour.
+Sélectionnez tous les champs à mettre à jour et, au besoin, ajoutez des conditions selon lesquelles effectuer la mise à jour. Pour cela, utilisez la colonne **[!UICONTROL Prise en compte si]**. Les conditions sont appliquées les unes après les autres, dans l&#39;ordre de la liste. Utilisez les flèches situées à droite pour modifier l&#39;ordre des mises à jour.
 
 Vous pouvez utiliser plusieurs fois le même champ de destination.
 
-Dans le cadre d&#39;une opération de type **[!UICONTROL Ajouter ou mettre à jour]**, vous pouvez sélectionner individuellement, pour chaque champ, l&#39;opération à appliquer. Pour cela, sélectionner la valeur souhaitée dans la colonne **[!UICONTROL Opération]**.
+Dans un **[!UICONTROL Insérer ou mettre à jour]** , vous pouvez sélectionner l&#39;opération à appliquer, individuellement ou pour chaque champ. Pour ce faire, sélectionnez la valeur souhaitée dans la variable **[!UICONTROL Opération]** colonne .
 
 ![](assets/s_advuser_update_data_5.png)
 
@@ -73,7 +73,7 @@ Le lien **[!UICONTROL Paramètres avancés]** permet de spécifier des options s
 * **[!UICONTROL Vider la valeur destination si la valeur source est vide (NULL)]**. Cette option est cochée par défaut.
 * **[!UICONTROL Mettre à jour toutes les colonnes dont les noms correspondent]**.
 * Préciser les conditions de prise en compte des éléments de la source à l&#39;aide d&#39;une expression dans le champ **[!UICONTROL Prise en compte]**.
-* Préciser les conditions de prise en compte des doublons à l&#39;aide d&#39;une expression. Si vous cochez l&#39;option **[!UICONTROL Ignorer les enregistrements concernant la même cible]**, seul le premier de la liste des expressions sera pris en compte.
+* Spécifiez les conditions de prise en compte des doublons à l’aide d’une expression. Si vous cochez la variable **[!UICONTROL Ignorer les enregistrements relatifs à la même cible]** , seul le premier de la liste des expressions sera pris en compte.
 
 **[!UICONTROL Générer une transition sortante]**
 
@@ -101,7 +101,7 @@ La mise à jour des données et la fusion des collections permet de mettre à jo
 
 1. Indiquez les collections à déplacer vers l&#39;enregistrement primaire et les champs à mettre à jour.
 
-   Renseignez également les règles s&#39;appliquant à ces derniers lorsqu&#39;un ou plusieurs enregistrements secondaires sont identifiés. Pour cela, vous pouvez vous aider de l&#39;outil de construction d&#39;expressions. Voir à ce propos cette [section](../../platform/using/defining-filter-conditions.md#building-expressions). Par exemple, en indiquant que c&#39;est la valeur mise à jour le plus récemment parmi les différents enregistrements qui doit être conservée.
+   Renseignez les règles qui s&#39;appliquent à ces derniers lorsqu&#39;un ou plusieurs enregistrements secondaires sont identifiés. Pour ce faire, vous pouvez utiliser le générateur d’expression. Voir à ce sujet la section [section](../../platform/using/defining-filter-conditions.md#building-expressions). Par exemple, en indiquant qu’il s’agit de la valeur mise à jour le plus récemment parmi tous les différents enregistrements qui doivent être conservés.
 
    Indiquez ensuite les conditions de prise en compte de la règle.
 

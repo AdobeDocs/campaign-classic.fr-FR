@@ -8,8 +8,8 @@ feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 100%
+source-wordcount: '679'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ Si un utilisateur final se désinscrit (opt-out) du tracking comportemental via 
 
 Pour s&#39;afficher dans des applications Web ou des landing pages, la bannière doit être configurée.
 
-Adobe Campaign contient un exemple de bannière que vous devez adapter à vos besoins. Cette version de bannière apparaît en tant que bloc de personnalisation dans le dossier des modèles de contenu. Pour plus d&#39;informations, reportez-vous à [cette page](../../delivery/using/personalization-blocks.md).
+Adobe Campaign est fourni avec un exemple de bannière que vous devez adapter à vos besoins. Cette version de bannière s’affiche sous la forme d’un bloc de personnalisation situé dans le dossier du modèle de contenu. Pour plus d’informations, consultez [cette page](../../delivery/using/personalization-blocks.md).
 
 >[!IMPORTANT]
 >
@@ -66,7 +66,7 @@ La bannière par défaut possède la structure suivante :
 
 Vous devez remplacer le texte **Veuillez insérer votre message ici** par le bloc qui contient les informations sur le tracking. Ce remplacement doit être effectué dans le nouveau bloc de personnalisation associé à la bannière d’opt-out.
 
-La bannière est fournie avec une feuille CSS spécifique. Vous pouvez toutefois remplacer les styles lors de la création et de la configuration d&#39;une page web. Voir à ce propos [cette page](content-editor-interface.md).
+La bannière est fournie avec une page CSS spécifique. Vous pouvez toutefois remplacer les styles lors de la création et de la configuration d’une page web. Pour plus d’informations, consultez [cette page](content-editor-interface.md).
 
 ## Définir le cookie de désinscription (opt-out) à l&#39;aide des API {#setting-the-opt-out-cookie-using-api}
 
@@ -97,7 +97,7 @@ Si vous devez écrire du code JSSP, les API côté serveur suivantes sont dispon
 
   Cette chaîne renvoie le code HTML des balises de la bannière d&#39;opt-out qui doivent être imprimées sur la page.
 
-* **NL.ServerWebTracking._displayOptOutBanner() :**
+* **NL.ServerWebTracking._displayOptOutBanner()**
 
   Renvoie la valeur &quot;true&quot; si la bannière d‘opt-out doit s‘afficher après que l‘administrateur l‘ait sélectionnée.
 

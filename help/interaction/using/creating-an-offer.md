@@ -10,8 +10,8 @@ topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 100%
+source-wordcount: '845'
+ht-degree: 94%
 
 ---
 
@@ -59,7 +59,7 @@ En dehors de ces dates, l&#39;offre ne sera pas sélectionnée par le moteur d&#
 
 Vous pouvez appliquer des filtres sur la cible de l&#39;offre.
 
-Pour cela, cliquez sur le lien **[!UICONTROL Edition de la requête]** et sélectionnez le filtre que vous souhaitez appliquer. (Reportez-vous à [cette section](../../platform/using/steps-to-create-a-query.md#step-4---filter-data)).
+Pour ce faire, cliquez sur le bouton **[!UICONTROL Modifier la requête]** et sélectionnez le filtre à appliquer. (Voir [cette section](../../platform/using/steps-to-create-a-query.md#step-4---filter-data)).
 
 ![](assets/offer_eligibility_create_003.png)
 
@@ -129,7 +129,7 @@ Pour le visualiser, cliquez sur le lien **[!UICONTROL Planning et règles d&#39;
 
 1. Complétez les différents champs du contenu de l&#39;offre.
 
-   * **[!UICONTROL Titre]** : indiquez le titre que vous souhaitez faire apparaître dans votre offre. Attention, il ne s&#39;agit pas du libellé de l&#39;offre défini dans l&#39;onglet **[!UICONTROL Général]**.
+   * **[!UICONTROL Titre]** : indiquez le titre que vous souhaitez faire apparaître dans votre offre. Attention, il ne s&#39;agit pas du libellé de l&#39;offre, défini dans la variable **[!UICONTROL Général]** .
    * **[!UICONTROL URL de destination]** : indiquez l&#39;URL de votre offre. Pour être traitée correctement, elle doit impérativement débuter par &quot;http://&quot; ou &quot;https://&quot;.
    * **[!UICONTROL URL de l&#39;image]** : indiquez une URL ou un chemin d&#39;accès vers l&#39;image de votre offre.
    * **[!UICONTROL Contenu HTML]** / **[!UICONTROL Contenu texte]** : saisissez le corps de votre offre dans l&#39;onglet de votre souhait. Pour générer le tracking, le **[!UICONTROL contenu HTML]** doit être constitué d&#39;éléments HTML intégrables dans un élément de type `<div>`. Par exemple, le résultat d&#39;un élément `<table>` dans la page HTML sera le suivant :

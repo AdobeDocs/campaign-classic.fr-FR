@@ -10,7 +10,7 @@ exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -101,15 +101,15 @@ Pour modifier les autorisations, vous pouvez :
 
   ![](assets/s_ncs_user_folder_properties_security02.png)
 
-* **Autoriser un groupe ou un opérateur**. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez le groupe ou l&#39;opérateur auquel vous souhaitez attribuer des autorisations sur ce dossier.
-* **Interdire un groupe ou un opérateur**. Pour cela, cliquez sur le bouton **[!UICONTROL Supprimer]** et sélectionnez le groupe ou l&#39;opérateur auquel vous souhaitez retirer toute autorisation sur ce dossier.
+* **Autoriser un groupe ou un opérateur**. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez le groupe ou l&#39;opérateur auquel vous souhaitez attribuer des autorisations pour ce dossier.
+* **Interdire un groupe ou un opérateur**. Pour ce faire, cliquez sur **[!UICONTROL Supprimer]** et sélectionnez le groupe ou l&#39;opérateur à partir duquel vous souhaitez supprimer l&#39;autorisation pour ce dossier.
 * **Sélectionner les droits attribués à un groupe ou un opérateur**. Pour cela, cliquez sur le groupe ou l&#39;opérateur visé : cochez les droits d&#39;accès que vous voulez lui attribuer et décochez les autres.
 
   ![](assets/s_ncs_user_folder_properties_security03.png)
 
 ### Propager les autorisations {#propagate-permissions}
 
-Vous pouvez propager les autorisations et les droits d&#39;accès. Pour cela, sélectionnez l&#39;option **[!UICONTROL Propager]** dans les propriétés du dossier.
+Vous pouvez propager les autorisations et les droits d&#39;accès. Pour ce faire, sélectionnez l’option **[!UICONTROL Propager]** dans les propriétés du dossier.
 
 Les autorisations définies dans cette fenêtre seront alors appliquées à l&#39;ensemble des sous-dossiers du nœud courant. Vous pourrez ensuite surcharger ces autorisations pour chacun des sous-dossiers.
 

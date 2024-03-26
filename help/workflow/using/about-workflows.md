@@ -8,7 +8,7 @@ exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ Chaque workflow comprend :
 
 * **[!UICONTROL Activities]**
 
-  Une activité décrit un modèle de tâche. Il existe différents types d&#39;activités, représentés sur le diagramme par des icônes. Chaque type possède des propriétés communes et des propriétés spécifiques. Par exemple, si toutes les activités ont un nom et un libellé, seule l&#39;activité **[!UICONTROL Validation]** a une assignation.
+  Une activité décrit un modèle de tâche. Les différentes activités disponibles sont représentées sur le diagramme par des icônes. Chaque type possède des propriétés communes et des propriétés spécifiques. Par exemple, si toutes les activités ont un nom et un libellé, seule la variable **[!UICONTROL Validation]** a une affectation.
 
   Dans un diagramme de workflow, une même activité peut engendrer plusieurs tâches, notamment en cas de boucle ou d&#39;actions récurrentes (périodiques).
 

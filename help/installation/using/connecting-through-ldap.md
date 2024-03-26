@@ -11,8 +11,8 @@ topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 100%
+source-wordcount: '1214'
+ht-degree: 80%
 
 ---
 
@@ -47,11 +47,11 @@ La fenêtre correspondante permet de configurer l&#39;identification des utilisa
 
    * Windows NT LAN Manager (**NTLM**)
 
-     Authentification propriétaire Windows. Le champ **[!UICONTROL Identifiant unique]** est utilisé pour le nom de domaine seulement.
+     Authentification propriétaire Windows. La variable **[!UICONTROL Identifiant unique]** est utilisé pour le nom de domaine uniquement.
 
    * Distributed Password Authentication (**DPA**)
 
-     Authentification propriétaire Windows. Le champ **[!UICONTROL Identifiant unique]** n&#39;est utilisé que pour le nom de domaine (domaine.com).
+     Authentification propriétaire Windows. La variable **[!UICONTROL Identifiant unique]** est utilisé pour le nom de domaine uniquement (domain.com).
 
    * Mot de passe en clair (plain text)
 
@@ -166,7 +166,7 @@ Cliquez sur **[!UICONTROL Enregistrer]** pour terminer la configuration de l&#39
 
 Une fois le paramétrage validé, vous devez définir quels opérateurs Adobe Campaign seront gérés via l&#39;annuaire LDAP.
 
-Pour utiliser l&#39;annuaire LDAP pour l&#39;authentification d&#39;un opérateur, éditez le profil de l&#39;opérateur et cliquez sur le lien **[!UICONTROL Editer les paramètres d&#39;accès]**. Sélectionnez l&#39;option **[!UICONTROL Utiliser LDAP pour vérifier le mot de passe]** : le champ **[!UICONTROL Mot de passe]** sera alors grisé pour cet opérateur.
+Pour utiliser l&#39;annuaire LDAP pour l&#39;authentification d&#39;un opérateur, éditez le profil correspondant et cliquez sur le bouton **[!UICONTROL Modification des paramètres d’accès]** lien. Sélectionnez la variable **[!UICONTROL Utilisation de LDAP pour l’authentification]** Option : **[!UICONTROL Password]** est grisé pour cet opérateur.
 
 ![](assets/s_ncs_install_operator_in_ldap.png)
 
@@ -176,7 +176,7 @@ Cette section propose quelques cas pratiques simples afin de réaliser les param
 
 1. Un utilisateur existe dans l&#39;annuaire LDAP mais n&#39;a pas été créé dans Adobe Campaign.
 
-   Adobe Campaign peut être configuré afin que l&#39;utilisateur accède à la plateforme en utilisant son authentification LDAP. Pour cela, Adobe Campaign doit pouvoir contrôler la validité du couple identifiant/mot de passe dans l&#39;annuaire LDAP. L&#39;opérateur pourra ainsi être créé à la volée dans Adobe Campaign : pour cela, cochez l&#39;option **[!UICONTROL Autoriser la connexion des utilisateurs déclarés dans l&#39;annuaire LDAP si l&#39;opérateur n&#39;est pas déclaré dans Adobe Campaign]**. Dans ce cas, la synchronisation des groupes doit également être paramétrée : l&#39;option **[!UICONTROL Activer la synchronisation des droits utilisateurs depuis les autorisations ou groupes de l&#39;annuaire]** doit être sélectionnée.
+   Adobe Campaign peut être configuré de sorte que l&#39;utilisateur puisse accéder à la plateforme via son authentification LDAP. Adobe Campaign doit pouvoir contrôler la validité de la combinaison ID/mot de passe dans l&#39;annuaire LDAP, de sorte que l&#39;opérateur puisse être créé à la volée dans Adobe Campaign. Pour ce faire, cochez la case **[!UICONTROL Activer la connexion des utilisateurs déclarés dans l&#39;annuaire LDAP si l&#39;opérateur n&#39;est pas déclaré dans Adobe Campaign]** . Dans ce cas, la synchronisation des groupes doit également être configurée : la fonction **[!UICONTROL Activer la synchronisation des droits utilisateurs depuis les autorisations ou groupes de l&#39;annuaire]** doit être sélectionnée.
 
 1. Un utilisateur existe dans Adobe Campaign mais n&#39;a pas été créé dans l&#39;annuaire LDAP.
 
@@ -184,10 +184,10 @@ Cette section propose quelques cas pratiques simples afin de réaliser les param
 
 1. Un groupe n&#39;existe pas dans Adobe Campaign mais seulement dans l&#39;annuaire LDAP.
 
-   Ce groupe ne sera pas créé dans Adobe Campaign. Vous devez créer le groupe et synchroniser les groupes afin de permettre la correspondance via l&#39;option **[!UICONTROL Activer la synchronisation des droits utilisateurs depuis les autorisations ou groupes de l&#39;annuaire]**.
+   Ce groupe ne sera pas créé dans Adobe Campaign. Vous devez créer le groupe et synchroniser les groupes pour activer une correspondance via le **[!UICONTROL Activer la synchronisation des droits utilisateurs depuis les autorisations ou groupes de l&#39;annuaire]** .
 
 1. Des groupes existent dans Adobe Campaign et l&#39;utilisation de l&#39;annuaire LDAP est activée a posteriori : les groupes d&#39;utilisateurs côté Adobe Campaign ne sont pas remplacés automatiquement par le contenu des groupes LDAP. De même, si un groupe n&#39;existe que dans Adobe Campaign, aucun utilisateur LDAP ne peut y être ajouté avant que le groupe ne soit créé et synchronisé côté LDAP.
 
    Les groupes ne sont jamais créés à la volée, ni côté Adobe Campaign, ni côté LDAP. Ils doivent être créés unitairement à la fois dans Adobe Campaign et dans l&#39;annuaire LDAP.
 
-   Les noms des groupes dans le répertoire LDAP doivent correspondre aux noms des groupes dans Adobe Campaign. Leur masque d&#39;association est défini dans la dernière étape de configuration de l&#39;assistant de déploiement, par exemple : Adobe Campaign (.&#42;).
+   Les noms des groupes dans l&#39;annuaire LDAP doivent correspondre aux noms des groupes Adobe Campaign. Leur masque d&#39;association est défini dans la dernière étape de configuration de l&#39;assistant de déploiement : Adobe Campaign_(.&#42;), par exemple.

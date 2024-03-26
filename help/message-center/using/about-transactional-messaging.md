@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '651'
+ht-degree: 94%
 
 ---
 
@@ -45,7 +45,7 @@ Cette fonctionnalité repose sur une architecture spécifique, où l&#39;**insta
 
 >[!NOTE]
 >
->Pour créer des utilisateurs pour les instances d&#39;exécution Message Center hébergées sur Adobe Cloud, vous devez contacter l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Les utilisateurs de Message Center sont des opérateurs spécifiques qui ont besoin d&#39;autorisations dédiées pour accéder aux dossiers **[!UICONTROL Evénements temps réel (nmsRtEvent)]**.
+>Pour créer de nouveaux utilisateurs pour les instances d&#39;exécution Message Center hébergées sur Adobe Cloud, vous devez contacter [Adobe de l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Les utilisateurs de Message Center sont des opérateurs spécifiques qui nécessitent des autorisations dédiées pour accéder à **[!UICONTROL Événements en temps réel (nmsRtEvent)]** dossiers.
 
 Le processus global de messagerie transactionnelle peut être décrit comme suit :
 

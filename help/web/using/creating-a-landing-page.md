@@ -8,8 +8,8 @@ feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 100%
+source-wordcount: '782'
+ht-degree: 94%
 
 ---
 
@@ -90,7 +90,7 @@ Vous devez effectuer ces étapes pour chacune des pages insérées dans l&#39;ap
 
 >[!CAUTION]
 >
->**Le DCE exécute le code JavaScript pour la page HTML chargée.** Erreurs JavaScript dans le modèle HTML qui peuvent apparaître dans l’interface d’Adobe Campaign. Ces erreurs ne sont pas liées à l’éditeur. Pour vérifier qu’il n’y a aucune erreur dans les fichiers importés, il est recommandé de les tester dans un navigateur web avant d’importer les fichiers dans le DCE.
+>**Le DCE exécute le code JavaScript pour la page de HTML chargée.** Erreurs JavaScript dans le modèle de HTML qui peuvent apparaître dans l&#39;interface d&#39;Adobe Campaign. Ces erreurs ne sont pas liées à l’éditeur. Pour vérifier qu’il n’y a aucune erreur dans les fichiers importés, il est recommandé de les tester dans un navigateur web avant d’importer les fichiers dans le DCE.
 
 ## Etape 2 - Paramétrage du contenu {#step-2---configuring-the-content}
 
@@ -104,8 +104,8 @@ Nous allons d&#39;abord modifier les couleurs de la page. Pour cela :
 
 1. Ouvrez la page **[!UICONTROL Collecte]**.
 1. Cliquez sur la zone d&#39;arrière-plan.
-1. Cliquez sur la zone **Couleur de fond** dans la zone droite.
-1. Sélectionnez une nouvelle couleur de fond dans le nuancier.
+1. Cliquez sur la zone **Couleur d’arrière-plan** dans la zone droite.
+1. Sélectionnez une nouvelle couleur d’arrière-plan dans le nuancier.
 1. Validez le changement en cliquant sur **OK**
 
    ![](assets/dce_uc1_changecolor.png)
@@ -134,7 +134,7 @@ Il est possible de rendre un champ obligatoire : par exemple, cliquez sur le ch
 
 Cette étape est obligatoire car elle va permettre à l’application Web de déterminer le déroulement des étapes : enregistrer les données collectées dans la base puis afficher la page suivante (page **Remerciements**).
 
-1. Sélectionnez le bouton **[!UICONTROL Send It!]** de la page **[!UICONTROL Collecte]**.
+1. Sélectionnez la variable **[!UICONTROL Envoyez-le !]** du bouton **[!UICONTROL Collection]** page.
 1. Cliquez dans le menu déroulant **[!UICONTROL Action]**.
 1. Sélectionnez l&#39;action **[!UICONTROL Page Suivante]**.
 
@@ -151,7 +151,7 @@ Cette étape permet de personnaliser le contenu de la page de remerciements. Pou
 
    ![](assets/dce_uc1_persochamp.png)
 
-Le champ de personnalisation s&#39;affiche sur fond jaune dans l&#39;éditeur.
+Le champ de personnalisation s’affiche sur un arrière-plan jaune dans l’éditeur.
 
 ![](assets/dce_uc1_edit_champperso.png)
 

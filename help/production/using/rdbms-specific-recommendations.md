@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
 source-git-commit: 624978901943b4c74f50c20298c9596f73b25b1b
-workflow-type: ht
-source-wordcount: '1294'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1287'
+ht-degree: 94%
 
 ---
 
@@ -146,7 +146,7 @@ VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
 >* Adobe vous recommande d&#39;ajouter les tables spécifiques à votre modèle de données, qui peuvent faire l&#39;objet de mises à jour importantes. Cela peut être le cas pour **NmsRecipient** si vous disposez de flux de réplication de données quotidiens volumineux.
 >* L’instruction VACUUM verrouille la table, ce qui met certains processus en attente pendant toute la durée de la maintenance.
 >* Pour les très grandes tables (généralement au-dessus de 5 Go), la commande VACUUM FULL peut devenir assez inefficace et nécessiter beaucoup de temps. Adobe déconseille de l&#39;utiliser pour la table **YyyNmsBroadLogXxx**.
->* Cette opération de maintenance peut être implémentée par un workflow Adobe Campaign, à l&#39;aide d&#39;une activité **[!UICONTROL SQL]**. Voir à ce propos [cette section](../../workflow/using/architecture.md). Assurez-vous de planifier la maintenance pendant une période de faible activité qui n&#39;entrera pas en conflit avec votre période de sauvegarde.
+>* Cette opération de maintenance peut être mise en oeuvre par un workflow Adobe Campaign, à l’aide d’une **[!UICONTROL SQL]** activité. Pour plus d’informations, consultez [cette section](../../workflow/using/architecture.md). Assurez-vous de planifier la maintenance pendant une période de faible activité qui n&#39;entrera pas en conflit avec votre période de sauvegarde.
 >
 
 ### Reconstruire une base {#rebuilding-a-database}
@@ -156,7 +156,7 @@ PostgreSQL ne propose pas de moyen efficace pour effectuer une reconstruction de
 * effectuer la maintenance lorsque la plateforme Adobe Campaign est arrêtée,
 * arrêter les différents sous-services Adobe Campaign susceptibles d&#39;écrire dans la table qui est en cours de reconstruction (par exemple **nlserver stop wfserver@nom_de_l&#39;instance** pour arrêter le processus de workflow).
 
-Voici un exemple de défragmentation de table à l&#39;aide de fonctions qui permettent de générer le langage de définition de données (LDD) voulu. La requête SQL suivante permet de créer deux nouvelles fonctions : **GenRebuildTablePart1** et **GenRebuildTablePart2** qui peuvent être utilisées pour générer le LDD destiné à recréer une table.
+Voici un exemple de défragmentation de table à l&#39;aide de fonctions spécifiques pour générer le langage de définition de données (LDD) nécessaire. Le SQL suivant permet de créer deux nouvelles fonctions : **GenRebuildTablePart1** et **GenRebuildTablePart2**, qui peut être utilisé pour générer le code DDL nécessaire pour recréer un tableau.
 
 * La première fonction permet de créer une table de travail (** _tmp** dans notre exemple) qui est une copie de la table d&#39;origine.
 * La deuxième fonction supprime la table d&#39;origine et renomme la table de travail et ses index comme celle d&#39;origine.
@@ -418,7 +418,7 @@ Veuillez consulter votre administrateur de base de données pour connaître les 
 L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une autre version, contactez l&#39;administrateur de base de données pour connaître les procédures de maintenance de cette version.
 
 1. Connectez-vous à Microsoft SQL Server Management Studio avec un identifiant auquel ont été attribués des droits administrateur.
-1. Cliquez avec le bouton droit de la souris sur le dossier **[!UICONTROL Gestion > Plans de maintenance]** et sélectionnez **[!UICONTROL Assistant Plan de maintenance]** dans le menu contextuel..
+1. Accédez au **[!UICONTROL Gestion > Plans de maintenance]** dossier, cliquez dessus avec le bouton droit de la souris et choisissez **[!UICONTROL Assistant Plan de maintenance]**.
 1. Cliquez sur **[!UICONTROL Suivant]** lorsque la page d&#39;accueil s&#39;affiche.
 1. Choisissez le type de plan de maintenance que vous souhaitez créer (exécution de la maintenance en une fois ou création d&#39;un plan pour chaque tâche de maintenance), puis cliquez sur **[!UICONTROL Modifier]**.
 1. Dans la fenêtre **[!UICONTROL Propriétés de la planification du traitement]**, choisissez les paramètres d&#39;exécution voulus et cliquez sur **[!UICONTROL OK]** puis sur **[!UICONTROL Suivant]**.

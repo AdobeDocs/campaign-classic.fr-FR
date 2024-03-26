@@ -10,7 +10,7 @@ exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -22,7 +22,7 @@ Les rapports se basant sur un schéma spécifique aux destinataires par défaut 
 
 Pour créer des rapports, voir [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
-Dans certains cas, vous devrez également mettre en place de nouveaux cubes spécifiques à ces tables. Les cubes sont présentés dans [cette section](../../reporting/using/ac-cubes.md).
+Dans certains cas, vous devez également mettre en place de nouveaux cubes spécifiques à ces tables. Les cubes sont présentés dans la section [cette section](../../reporting/using/ac-cubes.md).
 
 Les rapports concernés sont les suivants :
 

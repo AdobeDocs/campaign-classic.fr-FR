@@ -7,8 +7,8 @@ feature: Distributed Marketing
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 100%
+source-wordcount: '1705'
+ht-degree: 97%
 
 ---
 
@@ -70,12 +70,12 @@ Quatre types d’interface web sont disponibles :
 
   >[!NOTE]
   >
-  >L’application web utilisée ici est un exemple. Vous devez créer une application web spécifique pour pouvoir utiliser un formulaire. Pour plus d&#39;informations, consultez la section [API](../../configuration/using/about-web-services.md).
+  >L&#39;application web utilisée dans cet exemple est un exemple. Vous devez créer une application web spécifique pour pouvoir utiliser un formulaire. Voir [API](../../configuration/using/about-web-services.md).
 
   ![](assets/mkt_distr_7.png)
 
-* **[!UICONTROL Par formulaire externe]** : l&#39;entité locale a accès aux paramètres de la campagne dans son extranet (non Adobe Campaign). Ces paramètres sont identiques à ceux d&#39;une **opération locale par formulaire**.
-* **[!UICONTROL Simple]** : l&#39;entité locale commande l&#39;opération en utilisant le formulaire par défaut, sans la localiser.
+* **[!UICONTROL Par formulaire externe]** : l’entité locale a accès aux paramètres de la campagne dans son extranet (et non dans Adobe Campaign). Ces paramètres sont identiques à ceux d’une **campagne locale (par formulaire)**.
+* **[!UICONTROL Simple]** : l’entité locale commande l’opération en utilisant le formulaire par défaut, sans la localiser.
 
   ![](assets/mkt_distr_5.png)
 
@@ -106,7 +106,7 @@ Si l&#39;on ne souhaite pas renseigner de validants pour les opérations, le nom
 
 ### Documents {#documents}
 
-Vous pouvez permettre aux opérateurs de l&#39;entité locale d&#39;associer des documents (fichiers textes, tableurs, images, description de l&#39;opération, etc.) à l&#39;opération locale, lors de la création de la commande. Le lien **[!UICONTROL Paramètres avancés de saisie de l&#39;opération...]** permet de limiter le nombre de documents. Pour cela, indiquez le nombre maximum de documents autorisés dans le champ **[!UICONTROL Nombre de documents]**.
+Vous pouvez permettre aux opérateurs et opératrices de l’entité locale d’associer des documents (fichiers texte, tableurs, images, descriptions de campagnes, etc.) à la campagne locale lors de la création de la commande. Le lien **[!UICONTROL Paramètres avancés de saisie de l’opération...]** permet de limiter le nombre de documents. Pour ce faire, il vous suffit de saisir le nombre maximal autorisé dans le champ **[!UICONTROL Nombre de documents]**.
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 
@@ -146,7 +146,7 @@ Au besoin, paramétrez la taille maximale de la diffusion :
 
 ![](assets/mkg_dist_local_op_creation4e.png)
 
-Localisez le HTML de votre diffusion. Par exemple, dans **[!UICONTROL Diffusion > Commande courante > Champs additionnels]**, utilisez le champs **[!UICONTROL Segment d&#39;âge]** pour localiser la diffusion en fonction de l&#39;âge de la cible.
+Localisez le HTML de votre diffusion. Par exemple, dans **[!UICONTROL Diffusion > Commande courante > Champs additionnels]**, utilisez le champ **[!UICONTROL Segment d’âge]** pour localiser la diffusion en fonction de l’âge de la cible.
 
 ![](assets/mkt_dist_local_campaign_localize_html.png)
 
@@ -301,15 +301,15 @@ Lorsqu&#39;une commande d&#39;opération est effectuée par une entité locale, 
 
 #### Validation via la console Adobe Campaign {#approving-via-the-adobe-campaign-console}
 
-La commande peut également être validée à partir de la console, depuis la vue d&#39;ensemble des commandes d&#39;opérations. Pour valider une commande, sélectionnez-la puis cliquez sur le bouton **[!UICONTROL Valider la commande]**.
+La commande peut également être validée à partir de la console, dans la vue d&#39;ensemble des commandes de l&#39;opération. Pour approuver une commande, sélectionnez-la et cliquez sur **[!UICONTROL Approuver la commande]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 
 >[!NOTE]
 >
->L&#39;opération peut toujours être éditée et ses paramètres modifiés, jusqu&#39;à la date de disponibilité de l&#39;opération. L&#39;entité locale peut également renoncer à l&#39;opération en cliquant sur le bouton **[!UICONTROL Annuler]**.
+>La campagne peut toujours être éditée et reconfigurée jusqu’à sa date de disponibilité. Les entités locales peuvent également rejeter la campagne en cliquant sur le bouton **[!UICONTROL Annuler]**.
 
-#### Créer une campagne        {#creating-a-campaign}
+#### Créer une campagne {#creating-a-campaign}
 
 Lorsque la commande d&#39;une opération est validée, celle-ci peut être paramétrée et exécutée par l&#39;entité locale.
 

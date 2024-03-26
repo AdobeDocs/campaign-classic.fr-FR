@@ -11,7 +11,7 @@ exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -47,7 +47,7 @@ Les principaux contextes d&#39;utilisation des cubes sont les suivants :
 
   ![](assets/cube_create_new.png)
 
-  Les cubes apparaissent comme des modèles à partir desquels sont créés les rapports. Une fois le modèle sélectionné, cliquez sur le bouton **[!UICONTROL Créer]** pour paramétrer et visualiser le rapport correspondant.
+  Les cubes sont des modèles à partir desquels des rapports sont créés. Une fois le modèle sélectionné, cliquez sur **[!UICONTROL Créer]** pour configurer et afficher le rapport correspondant.
 
   Vous pouvez alors adapter les mesures, modifier le mode d&#39;affichage ou configurer le tableau, puis afficher le rapport à partir du bouton central.
 
@@ -57,7 +57,7 @@ Les principaux contextes d&#39;utilisation des cubes sont les suivants :
 
   ![](assets/s_advuser_query_using_a_cube.png)
 
-* Vous pouvez également insérer un tableau croisé dynamique basé sur un cube dans n&#39;importe quelle page d&#39;un rapport. Pour cela, référencez le cube à utiliser dans l&#39;onglet **[!UICONTROL Données]** du tableau croisé dynamique de la page concernée.
+* Vous pouvez également insérer un tableau croisé dynamique basé sur un cube dans n&#39;importe quelle page d&#39;un rapport. Pour ce faire, référencez le cube à utiliser sous l’onglet **[!UICONTROL Données]** du tableau croisé dynamique de la page concernée.
 
   ![](assets/s_advuser_cube_in_report.png)
 

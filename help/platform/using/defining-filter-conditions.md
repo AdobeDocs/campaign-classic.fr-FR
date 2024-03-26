@@ -11,8 +11,8 @@ topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3406'
-ht-degree: 100%
+source-wordcount: '3475'
+ht-degree: 82%
 
 ---
 
@@ -80,22 +80,22 @@ Voici une liste descriptive des opérateurs disponibles :
   <tr> 
    <td> <span class="uicontrol">Contient</span> <br /> </td> 
    <td> Obtenir un résultat comportant au moins la valeur qui est renseignée.<br /> </td> 
-   <td> <strong>Domaine de l'email (@domain) contient 'mail'</strong>. Ici, tous les noms de domaine comportant la valeur 'mail' seront retournés en résultat. Par conséquent, le nom de domaine 'gmail.com' fera partie des résultats retournés.<br /> </td> 
+   <td> <strong>Domaine de l'email (@domain) contient 'mail'</strong>, renverra tous les noms de domaine contenant "mail". Le domaine 'gmail.com' sera donc également retourné.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Ne contient pas</span> <br /> </td> 
    <td> Ne pas obtenir de résultats contenant au moins la valeur renseignée.<br /> </td> 
-   <td> <strong>Domaine de l'email (@domain) ne contient pas 'vo'</strong>. Dans ce cas, les noms de domaine contenant la valeur 'vo' ne seront pas proposés dans les résultats. Ainsi, le nom de domaine 'voila.fr' ne sera pas proposé dans les résultats.<br /> </td> 
+   <td> <strong>Domaine de l'email (@domain) ne contient pas 'vo'</strong>. Dans ce cas, les noms de domaine contenant "vo" ne seront pas renvoyés. Le nom de domaine 'voila.fr' n'apparaîtra pas dans les résultats.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Comme</span> <br /> </td> 
    <td> <span class="uicontrol">Comme</span> est quasiment identique à l'opérateur <span class="uicontrol">Contient. </span> Il vous permet d’insérer un caractère joker <span class="uicontrol">%</span> dans la valeur.<br /> </td> 
-   <td> <strong>Nom (@lastName) comme 'Mart%n</strong>'. Ici, le caractère de substitution sert de "joker" afin de retrouver le nom "Martin" dans le cas très hypothétique où l'opérateur aurait oublié quelle est la lettre située entre les lettre 't' et 'n' (un 'i' en l'occurrence...).<br /> </td> 
+   <td> <strong>Nom (@lastName) comme 'Jon%s'</strong>. Ici, le caractère joker est utilisé comme "joker" pour trouver le nom "Jones", si l'opérateur a oublié la lettre manquante entre le 'n' et le 's'.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Pas comme</span> <br /> </td> 
-   <td> Similaire à <span class="uicontrol">Comme</span>. Permet de ne pas obtenir la valeur renseignée. La valeur renseignée doit ici aussi comporter le <span class="uicontrol">caractère joker</span> %.<br /> </td> 
-   <td> <strong>Nom (@lastName) pas comme 'Smi%h'</strong>. Ici, les destinataires répondant au nom de 'Smi%h' ne seront pas retournés en résultat.<br /> </td> 
+   <td> Est similaire à <span class="uicontrol">Comme</span> . Permet de ne pas récupérer la valeur saisie. La valeur renseignée doit ici aussi comporter le caractère de substitution <span class="uicontrol">%</span>.<br /> </td> 
+   <td> <strong>Nom (@lastName) différent de 'Smi%h'</strong>. Ici, les destinataires dont le nom est 'Smi%h' ne seront pas retournés.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Est vide</span> <br /> </td> 
@@ -104,18 +104,18 @@ Voici une liste descriptive des opérateurs disponibles :
   </tr> 
   <tr> 
    <td> <span class="uicontrol">N'est pas vide</span> <br /> </td> 
-   <td> Est contraire à l'opérateur <span class="uicontrol">Est vide</span>. Il n'est pas non plus nécessaire d'entrer de données dans la seconde colonne Valeur.<br /> </td> 
+   <td> Fonctionne en sens inverse de la fonction <span class="uicontrol">Est vide</span> de l’opérateur. Il n'est pas nécessaire de saisir des données dans la seconde colonne Valeur.<br /> </td> 
    <td> <strong>Email (@email) n'est pas vide</strong>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Est compris dans</span> <br /> </td> 
-   <td> Obtenir les résultats compris dans les valeurs indiquées. Ces valeurs doivent toujours être séparées par une virgule.<br /> </td> 
+   <td> Renvoie les résultats compris dans les valeurs indiquées. Ces valeurs doivent être séparées par une virgule.<br /> </td> 
    <td> <strong>Code Postal (location/@zipCode) est compris dans '75014, 75015'</strong>. Si des destinataires sont recherchés, la requête retrouvera ceux dont le code postal égal à 75014 et 75015. <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">N'est pas compris dans</span> <br /> </td> 
-   <td> Le principe est le même qu'avec l'opérateur <span class="uicontrol">Est compris dans</span>. Ici, il s'agit d'exclure les destinataires en fonction des valeurs indiquées.<br /> </td> 
-   <td> <strong>Code Postal (location/@zipCode) n'est pas compris dans '75013, 75015,75016,75019'</strong>. Contrairement à l'exemple précédent, les destinataires avec un code postal égal à 75013, 75015, 75016 et 75019 ne seront pas retournés.<br /> </td> 
+   <td> Fonctionne comme le <span class="uicontrol">Est inclus dans</span> de l’opérateur. Ici, nous allons exclure les destinataires en fonction des valeurs renseignées.<br /> </td> 
+   <td> <strong>La date de naissance (@birthDate) n’est pas incluse dans "12/10/1979,12/10/1984"</strong>. Contrairement à l’exemple précédent, les destinataires nés à cette date ne seront pas renvoyés.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -160,19 +160,19 @@ Cette section explique comment hiérarchiser les conditions. Ceci est possible g
 
 * Les flèches pointant vers le haut et vers le bas permettent de déplacer une condition. Cela modifie l&#39;ordre d&#39;exécution des filtres.
 
-L&#39;exemple qui suit montre le comportement de la flèche servant à supprimer le niveau de parenthèse. La condition de filtrage de base est : **[!UICONTROL Ville égale à Saumur OU genre égal à masculin et numéro de téléphone mobile non renseigné OU numéro de compte commence par &quot;95&quot; et dont nom de société commence par &quot;A&quot;]**.
+Cet exemple montre comment utiliser la flèche pour supprimer un niveau de parenthèses. Commencez par la condition de filtrage suivante : **[!UICONTROL Ville égale à Londres OU genre égal à masculin et mobile non indiqué OU numéro de compte commence par &quot;95&quot; et le nom de la société commence par &quot;A&quot;]**.
 
 Pointez votre curseur sur la condition de filtrage **[!UICONTROL Gender (@gender) égal à Masculin]** puis cliquez sur la flèche **[!UICONTROL Supprimer un niveau de parenthèses]**.
 
 ![](assets/query_editor_nveau_32.png)
 
-La condition **[!UICONTROL Gender (@gender) égal à Masculin]** vient d&#39;être extraite de sa parenthèse. Elle se situe désormais au même niveau que la condition &quot;Ville égale à Saumur&quot;. Ces deux conditions sont liées par un **[!UICONTROL Et]**.
+La variable **[!UICONTROL Genre (@gender) égal à Masculin]** a été extraite de sa parenthèse. Il est passé au même niveau que la condition &quot;Ville égale à Londres&quot;. Ces conditions sont liées (**[!UICONTROL Et]**).
 
 ## Sélectionner les données à extraire {#selecting-data-to-extract}
 
-Les champs disponibles varient d&#39;une table à l&#39;autre. Tous les champs sont stockés dans un nœud principal, nommé **[!UICONTROL Elément principal]**. Les champs de l&#39;exemple ci-dessous sont ceux de la table des destinataires (nms:recipient). Les champs sont toujours ordonnés alphabétiquement.
+Les champs disponibles varient d’une table à l’autre. Tous les champs sont stockés dans un noeud principal appelé **[!UICONTROL Elément principal]**. Dans l&#39;exemple suivant, les champs disponibles se trouvent dans la table des destinataires. Les champs sont toujours affichés par ordre alphabétique.
 
-Le détail du champ sélectionné est visible au bas de la fenêtre. Par exemple, le champ **[!UICONTROL Domaine de l&#39;email]** est un **[!UICONTROL Champ calculé SQL]**. Le reste de son appellation est **[!UICONTROL (@domain)]**.
+Le détail du champ sélectionné est visible en bas de la fenêtre. Par exemple, la variable **[!UICONTROL Domaine de l&#39;email]** est un **[!UICONTROL Champ SQL calculé]** et son extension est **[!UICONTROL (@domain)]**.
 
 ![](assets/query_editor_nveau_59.png)
 
@@ -180,11 +180,11 @@ Le détail du champ sélectionné est visible au bas de la fenêtre. Par exemple
 >
 >Utilisez la section **[!UICONTROL Rechercher]** pour retrouver un champ disponible.
 
-Double-cliquez sur un champ disponible pour l&#39;ajouter aux colonnes de sortie. En fin de requête, chaque champ sélectionné correspond à une colonne dans la fenêtre **[!UICONTROL Prévisualisation des données]**.
+Double-cliquez sur un champ disponible pour l&#39;ajouter aux colonnes de sortie. A la fin de la requête, chaque champ sélectionné crée une colonne dans le champ **[!UICONTROL Aperçu des données]** fenêtre.
 
 ![](assets/query_editor_nveau_01.png)
 
-Les champs avancés ne sont pas affichés par défaut. Cliquez sur **[!UICONTROL Afficher les champs avancés]**, en bas à droite des champs disponibles pour les afficher. Cette fonction affiche le nom complet des champs.
+Les champs avancés ne sont pas affichés par défaut. Cliquez sur **[!UICONTROL Afficher les champs avancés]** dans le coin inférieur droit des champs disponibles pour tout afficher. Cliquez de nouveau pour revenir à la vue précédente.
 
 Par exemple, dans la table des destinataires, les champs avancés sont **Booléen 1**, **[!UICONTROL Booléen 2]**, **[!UICONTROL Booléen 3]**, **[!UICONTROL Clé étrangère du lien &quot;Dossier&quot;]**, etc.
 
@@ -249,12 +249,12 @@ Liens vers une table et éléments de collection :
  <tbody> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_51.png" /> </td> 
-   <td> Liens vers une table en particulier. Ils correspondent à des associations de type 1-1. A une occurrence de la table source peut correspondre au plus une occurrence de la table cible. Un seul et même destinataire sera associé à un pays par exemple.<br /> </td> 
+   <td> Liens vers une table en particulier. Elles correspondent à des associations de type 1-1. Une occurrence de la table source ne peut correspondre qu’à une seule occurrence de la table cible. Par exemple, un seul destinataire peut être lié à un pays.<br /> </td> 
    <td> Dossier, Etat, Pays, etc. <br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_52.png" /> </td> 
-   <td> Eléments de collection sur une table spécifique. Ils correspondent à des associations de type 1-N. A une occurrence de la table source peuvent correspondre plusieurs occurrences de la table cible, mais à une occurrence de la table cible peut correspondre au plus une seule occurrence de la table source. Par exemple, un seul destinataire peut être inscrit à 'n' lettres d'abonnements.<br /> </td> 
+   <td> Elément de collection sur une table spécifique. Elles correspondent à des associations de type 1-N. Une occurrence de la table source peut correspondre à plusieurs occurrences de la table cible, mais une occurrence de la table cible peut correspondre à une seule occurrence de la table source. Par exemple, un destinataire peut s'abonner à "n" lettres d'abonnement.<br /> </td> 
    <td> Abonnements, listes, logs d'exclusion, etc.<br /> </td> 
   </tr> 
  </tbody> 
@@ -269,7 +269,7 @@ Liens vers une table et éléments de collection :
 
 ## Créer des champs calculés {#creating-calculated-fields}
 
-Au besoin, ajoutez une colonne lors du formatage des données. Un champ calculé rajoute une colonne dans la fenêtre de prévisualisation des données. Cliquez sur **[!UICONTROL Ajouter un champ calculé]**.
+Au besoin, ajoutez une colonne lors du formatage des données. Un champ calculé ajoute une colonne à la section d’aperçu des données. Cliquez sur **[!UICONTROL Ajouter un champ calculé]**.
 
 ![](assets/query_editor_nveau_43.png)
 
@@ -316,11 +316,11 @@ L&#39;exemple ci-dessous présente comment faire un comptage sur une clé primai
 
 Les étapes sont les suivantes :
 
-1. Cliquez sur **[!UICONTROL Ajouter]** dans la fenêtre **[!UICONTROL Données à extraire]**. Dans la fenêtre **[!UICONTROL Type de formule]**, sélectionnez un type de formule pour renseigner votre expression.
+1. Cliquez sur **[!UICONTROL Ajouter]** dans le **[!UICONTROL Données à extraire]** fenêtre. Dans le **[!UICONTROL Type de formule]** sélectionnez un type de formule pour renseigner l&#39;expression.
 
    Plusieurs types de formules sont disponibles : **[!UICONTROL Champ simple]**, **[!UICONTROL Agrégat]**, **[!UICONTROL Expression]**.
 
-   Sélectionnez **[!UICONTROL Traitement sur une fonction d&#39;agrégat]** puis **[!UICONTROL Comptage]**. Cliquez sur **[!UICONTROL Suivant]**.
+   Sélectionner **[!UICONTROL Traitement sur une fonction d&#39;agrégat]**, et **[!UICONTROL Count]**. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/query_editor_nveau_54.png)
 
@@ -351,7 +351,7 @@ Voici le détail des choix de la fenêtre **[!UICONTROL Types de formules]** :
 
 ## Liste des fonctions {#list-of-functions}
 
-Dans le cas où une formule de type **[!UICONTROL Expression]** est choisie, vous vous retrouvez dans la fenêtre édition de l&#39;expression. Différentes catégories de fonctions sont à associer aux champs disponibles : **[!UICONTROL Agrégats]**, **[!UICONTROL Chaine]**, **[!UICONTROL Date]**, **[!UICONTROL Numérique]**, **[!UICONTROL Monétaire]**, **[!UICONTROL Géomarketing]**, **[!UICONTROL Autres]** et **[!UICONTROL Fonctions Windows]**.
+Si **[!UICONTROL Expression]** type de formule choisie, vous serez alors dirigé vers la fenêtre &quot;éditer l&#39;expression&quot;. Différentes catégories de fonctions peuvent être associées aux champs disponibles : **[!UICONTROL Agrégats]**, **[!UICONTROL Chaîne]**, **[!UICONTROL Date]**, **[!UICONTROL Numérique]**, **[!UICONTROL Devise]**, **[!UICONTROL Geomarketing]**, **[!UICONTROL Fonction Windows]** et **[!UICONTROL Autres]**.
 
 L&#39;éditeur d&#39;expression se présente comme suit :
 
@@ -452,7 +452,7 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> Renvoie le troisième paramètre si les deux premiers paramètres sont égaux sinon renvoie le dernier paramètre<br /> </td> 
+   <td> Renvoie le troisième paramètre si les deux premiers paramètres sont égaux. Sinon, renvoie le dernier paramètre.<br /> </td> 
    <td> IfEquals(&lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -462,13 +462,13 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> Concatène les trois chaînes passées en paramètres. Ajoute des espaces entre les chaînes si nécessaire.<br /> </td> 
+   <td> Concatène les chaînes passées en paramètres. Ajoute des espaces entre les chaînes si nécessaire.<br /> </td> 
    <td> JuxtWords(&lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> Concatène les trois chaînes passées en paramètres. Ajoute des espaces entre les chaînes si nécessaire<br /> </td> 
-   <td> JuxtWords3(&lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td>  
+   <td> Concatène les chaînes passées en paramètres. Ajoute des espaces entre les chaînes si nécessaire.<br /> </td> 
+   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
@@ -904,7 +904,7 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
   </tr> 
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
-   <td> Renvoie la distance entre deux points donnés par leur longitude et leur latitude, exprimées en degrés..<br /> </td> 
+   <td> Renvoie la distance entre deux points donnés par leur longitude et leur latitude, exprimées en degrés.<br /> </td> 
    <td> Distance(&lt;Longitude A&gt;, &lt;Latitude A&gt;, &lt;Longitude B&gt;, &lt;Latitude B&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -921,7 +921,7 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
   </tr> 
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> Renvoie la valeur 1 si la condition est vérifiée. Sinon, renvoie la valeur 2<br /> </td> 
+   <td> Renvoie la valeur 1 si la condition est vérifiée. Sinon, renvoie la valeur 2.<br /> </td> 
    <td> Case(When(&lt;condition&gt;, &lt;valeur 1&gt;), Else(&lt;valeur 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
@@ -936,7 +936,7 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> Renvoie la valeur 3 si valeur 1 = valeur 2, sinon renvoie la valeur 4<br /> </td> 
+   <td> Renvoie la valeur 3 si la valeur 1 = la valeur 2. Sinon, renvoie la valeur 4.<br /> </td> 
    <td> Decode(&lt;valeur 1&gt;, &lt;valeur 2&gt;, &lt;valeur 3&gt;, &lt;valeur 4&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -956,7 +956,7 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> Renvoie la valeur 1 si l'expression est vraie, sinon renvoie la valeur 2<br /> </td> 
+   <td> Renvoie la valeur 1 si l’expression est vraie. Sinon, renvoie la valeur 2.<br /> </td> 
    <td> Iif(&lt;condition&gt;, &lt;valeur 1&gt;, &lt;valeur 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -991,7 +991,7 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> Renvoie la valeur 1 si l'expression est vérifiée. Sinon, renvoie la valeur 2 (ne peut être utilisée qu'en paramètre de la fonction Case)<br /> </td> 
+   <td> Renvoie la valeur 1 si l’expression est vraie. Sinon, renvoie la valeur 2 (ne peut être utilisée qu’en paramètre de la fonction Case).<br /> </td> 
    <td> When(&lt;condition&gt;, &lt;valeur 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 

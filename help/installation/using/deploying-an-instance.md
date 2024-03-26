@@ -11,8 +11,8 @@ topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3541'
-ht-degree: 100%
+source-wordcount: '3545'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ La section inférieure de la fenêtre permet de sélectionner les options à act
 
 * **[!UICONTROL Identifiant client pour la facturation]** : il peut s’agir par exemple du nom de l’instance et du numéro de version.
 * **[!UICONTROL Nom usuel du client]** : saisissez le nom de votre société. Cette information est notamment utilisée notamment dans les liens de désabonnement.
-* **[!UICONTROL Espace de noms]** : saisissez ici un identifiant court, en minuscules. L’objectif consiste à distinguer votre configuration spécifique de la configuration d’usine en cas de mise à niveau. L’espace de noms par défaut est **cus** - pour customer (client).
+* **[!UICONTROL Espace de noms]** : saisissez un identifiant court en minuscules. L’objectif est de faire la distinction entre votre configuration spécifique et la configuration d’usine en cas de mise à niveau. L’espace de noms par défaut est : **cus** - pour le client.
 
 ### Options techniques {#technical-options}
 
@@ -102,7 +102,7 @@ En complément, vous pouvez indiquer les **masques** autorisés pour l&#39;adres
 
 <!--This window enables you to define, for all email campaigns, the delivery and address-quality management options.-->
 
-Dans la base Adobe Campaign, toute adresse email doit être composée comme suit : `x@y.z`. Les caractères **x**, **y** et **z** ne doivent pas être vides, ni contenir des caractères non autorisés.
+Dans la base Adobe Campaign, toutes les adresses email doivent être créées comme suit : `x@y.z`. La variable **x**, **y** et **z** Les caractères ne doivent pas être vides et ne doivent pas contenir de caractères non autorisés.
 
 Vous pouvez ici définir la liste des caractères autorisés (’data policy’) dans le champ email de la base de données. Les caractères absents de la liste seront interdits, et donc refusés lors d’une saisie dans la base, mais aussi lors d’un import ou à la validation d’un formulaire Web.
 
@@ -167,7 +167,7 @@ Une fois les paramètres POP renseignés, cliquez sur **Test** afin de vérifier
 
 ### Mails rebonds non traités {#unprocessed-bounce-mails}
 
-Les mails rebonds sont traités de façon automatique par Adobe Campaign, en appliquant les règles répertoriées dans le nœud **Administration > Gestion de campagne > Gestion des NP@I > Qualification des logs de diffusion**. Voir à ce sujet [Gestion des mails rebonds](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+Les rebonds sont gérés automatiquement par Adobe Campaign, en appliquant les règles répertoriées dans la section **Administration > Campaign Management > Gestion des échecs > Qualification des logs de diffusion** noeud . Voir à ce sujet la section [Gestion des mails rebonds](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
 
 Les mails rebonds non traités ne sont pas affichés dans l’interface Adobe Campaign. Ils sont supprimés automatiquement à moins qu’ils ne soient transférés à une boîte de tierce partie au moyen des champs suivants :
 
@@ -444,7 +444,7 @@ Les modes de publication suivants sont disponibles :
 
 Pour les images, il doit les copier depuis le dossier &quot;images&quot; renseigné via l’option **NmsDelivery_ImageSubDirectory** vers un ou plusieurs serveurs frontaux. Ces serveurs vont stocker les images afin de les rendre accessibles via la nouvelle URL configurée.
 
-En cas de publication sur un serveur Adobe Campaign, et non via un script de publication manuelle, les images d&#39;une diffusion sont stockées dans le `$(XTK_INSTALL_DIR)/var/res/img/ directory`. L&#39;URL correspondante est la suivante : **`https://server/res/img`**.
+En cas de publication sur un serveur Adobe Campaign sans script de publication manuelle, les images d&#39;une diffusion sont stockées par défaut dans la variable `$(XTK_INSTALL_DIR)/var/res/img/ directory`. L’URL correspondante est la suivante : **`https://server/res/img`**.
 
 `XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)`. L’URL correspondante est la suivante : **`https://server/res/instance`** où instance est le nom de l’instance de tracking.
 
@@ -458,7 +458,7 @@ Cette fonctionnalité permet de **synchroniser des ressources publiques** sur pl
 
 Si une ressource publique n’est pas présente sur le serveur de tracking ou si la ressource renvoie une erreur 404, le serveur de tracking va essayer de trouver la ressource sur un des spare-serveurs.
 
-Vous devez déclarer et configurer les spare-serveurs dans le fichier **serverConf.xml** du serveur Marketing. Tous les paramètres disponibles dans **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
+La déclaration et la configuration des spare-serveurs doivent être effectuées dans le **serverConf.xml** fichier . Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
 **Déclaration**
 
@@ -520,4 +520,4 @@ La dernière étape de l’assistant de déploiement permet de paramétrer la pu
 
 ![](assets/s_ncs_install_deployment_wiz_16.png)
 
-Les données sont supprimées automatiquement par le workflow Nettoyage de la base (cleanup). Le fonctionnement et le paramétrage de ce workflow, ainsi que le détail des éléments supprimés, sont présentés dans ce [document](../../production/using/database-cleanup-workflow.md).
+Les données sont automatiquement supprimées via le workflow Nettoyage de la base . Pour plus d&#39;informations sur la configuration et le fonctionnement de ce workflow et pour plus d&#39;informations sur les éléments supprimés, reportez-vous à cette section [document](../../production/using/database-cleanup-workflow.md).

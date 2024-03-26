@@ -8,8 +8,8 @@ role: Data Engineer, Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1868'
-ht-degree: 100%
+source-wordcount: '1875'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ La méthode **ExecuteQuery** est présentée dans [ExecuteQuery (xtk:queryDef)](
 
 Les commandes Write permettent d&#39;écrire des documents simples ou complexes, avec des écritures dans une ou plusieurs tables de la base.
 
-Les API transactionnelles permettent de gérer les réconciliations via la commande **updateOrInsert** : une même commande permet la création ou la mise à jour des données. Vous pouvez également paramétrer la fusion (**merge**) des modifications : ce mode de fonctionnement permet d&#39;autoriser la mise à jour partielle.
+Les API transactionnelles vous permettent de gérer les réconciliations via le **updateOrInsert** : une commande permet de créer ou mettre à jour des données. Vous pouvez également configurer la fusion des modifications (**merge**) : ce mode de fonctionnement permet d&#39;autoriser les mises à jour partielles.
 
 La structure XML propose une vision logique des données et permet de s&#39;affranchir de la structure physique de la table SQL.
 
@@ -432,7 +432,7 @@ Exemple de document de retour sur une opération de type &quot;count&quot; :
 
 #### Alias {#alias}
 
-Un alias permet de modifier l&#39;emplacement des données dans le document en sortie. L&#39;attribut **alias** doit être renseigné avec un XPath sur le champ correspondant.
+Un alias permet de modifier l&#39;emplacement des données dans le document de sortie. La variable **alias** doit spécifier un XPath sur le champ correspondant.
 
 ```
 <queryDef schema="nms:recipient" operation="get">
@@ -535,7 +535,7 @@ La réconciliation des données s&#39;opère à partir de la définition des cl�
 
 La clé du schéma de l&#39;entité à mettre à jour est renseignée à partir de l&#39;attribut **xtkschema**.
 
-La clé de réconciliation peut être forcée avec l&#39;attribut **_key** contenant la liste des XPath qui composent la clé (séparés par une virgule).
+La clé de réconciliation peut être forcée avec l’attribut **_key** contenant la liste des XPath qui composent la clé (séparés par une virgule).
 
 Il est possible de forcer le type d&#39;opération en renseignant l&#39;attribut **_operation** avec les valeurs suivantes :
 

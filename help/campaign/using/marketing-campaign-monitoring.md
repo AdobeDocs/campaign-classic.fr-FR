@@ -9,7 +9,7 @@ exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ Pour chaque campagne, l&#39;onglet **[!UICONTROL Tracking]** vous permet de visu
 
   ![](assets/s_ncs_user_op_edit_exe_tab_a.png)
 
-* Le sous-onglet **[!UICONTROL Diffusions]** regroupe toutes les diffusions de l&#39;opération. Vous pouvez les éditer depuis cette vue. Pour cela, sélectionner la diffusion et cliquez sur l&#39;icône **[!UICONTROL Détail]**.
+* La variable **[!UICONTROL Diffusions]** Le sous-onglet contient toutes les diffusions de l&#39;opération qui peuvent être éditées à partir de cette vue. Pour cela, sélectionnez la diffusion et cliquez sur l&#39;icône **[!UICONTROL Détail]**.
 
   ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
@@ -31,7 +31,7 @@ Pour chaque campagne, l&#39;onglet **[!UICONTROL Tracking]** vous permet de visu
 
   ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
-* Les workflows créés pour générer les messages aux prestataires sont affichés dans le sous-onglet **[!UICONTROL Traitements sur les prestataires]**. Cliquez sur l&#39;icône **[!UICONTROL Détail]** pour afficher le workflow sélectionné.
+* Les workflows créés pour générer les messages pour les prestataires s&#39;affichent dans le **[!UICONTROL Traitements sur les prestataires]** sous-onglet. Cliquez sur le bouton **[!UICONTROL Détail]** pour afficher le workflow sélectionné.
 
   ![](assets/s_ncs_user_op_edit_exe_tab_d.png)
 

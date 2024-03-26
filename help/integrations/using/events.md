@@ -10,8 +10,8 @@ content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 100%
+source-wordcount: '1215'
+ht-degree: 98%
 
 ---
 
@@ -220,7 +220,7 @@ Les événements peuvent être affichés avec un formulaire simple basé sur le 
 
 >[!NOTE]
 >
->Le nœud d’événement de pipeline n’est pas natif et doit être ajouté, de même que le formulaire associé doit être créé dans Campaign. Ces opérations sont limitées aux utilisateurs experts uniquement. Pour plus d’informations à ce sujet, reportez-vous aux sections suivantes : [Arborescence de navigation](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy) et [Édition de formulaires](../../configuration/using/editing-forms.md).
+>Le nœud d’événement de pipeline n’est pas natif et doit être ajouté, de même que le formulaire associé doit être créé dans Campaign. Ces opérations sont limitées aux utilisateurs experts uniquement. Voir à ce propos les sections suivantes : [Arborescence de navigation](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). et [Modification de formulaires](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 

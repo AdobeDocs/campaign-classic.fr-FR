@@ -8,8 +8,8 @@ feature: Web Apps
 exl-id: 82c5c610-8161-4686-aa79-1b690e763765
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Lorsque vous sélectionnez une ou plusieurs langues supplémentaires via l&#39;o
 
 Cette option vous permet d&#39;indiquer si le contenu du bloc doit être traduit ou non.
 
-Les chaînes marquées sont collectées pour être traduites, de la même manière que les autres chaînes de l&#39;application web, via l&#39;onglet **[!UICONTROL Traductions]** de l&#39;application. Voir à ce sujet [cette page](translating-a-web-form.md).
+Les chaînes à traduire sont collectées de la même manière que les autres chaînes de l&#39;application Web, via le **[!UICONTROL Traductions]** de l’application. Pour plus d’informations, consultez [cette page](translating-a-web-form.md).
 
 Pour marquer les chaînes à traduire :
 

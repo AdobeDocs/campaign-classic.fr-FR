@@ -4,7 +4,7 @@ product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: b74ae2335fa5ba7a2cc4c3a0fdb375d7698dcd81
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 100%
 

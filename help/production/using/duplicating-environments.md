@@ -11,8 +11,8 @@ topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 100%
+source-wordcount: '1324'
+ht-degree: 97%
 
 ---
 
@@ -90,7 +90,7 @@ pg_dump mydatabase > mydatabase.sql
 
 La plupart des éléments de configuration diffèrent d&#39;un environnement à l&#39;autre : comptes externes (mid-sourcing, routing, etc.), options techniques (nom de la plateforme, DatabaseId, adresses email et URL par défaut, etc.).
 
-Avant de restaurer la base source sur la base cible, vous devez exporter la configuration de l&#39;environnement cible (recette). Vous devez exporter le contenu des deux tables suivantes : **xtk:option** et **nms:extaccount**.
+Avant d&#39;enregistrer la base source dans la base cible, vous devez exporter la configuration de l&#39;environnement cible (recette). Pour cela, exportez le contenu de ces deux tables : **xtkoption** et **nmsextaccount**.
 
 Cet export permet de conserver la configuration de la recette et de ne rafraîchir que les données de la recette (workflows, modèles, applications Web, detinataires, etc.).
 

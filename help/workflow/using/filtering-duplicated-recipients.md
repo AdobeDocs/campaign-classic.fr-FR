@@ -8,7 +8,7 @@ exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 66%
 
 ---
 
@@ -25,11 +25,11 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    ![](assets/query_recipients_1.png)
 
-1. Définissez la condition de filtrage suivante pour cibler les destinataires qui se trouvent dans le log de diffusion. Sélectionnez **Log de diffusion d&#39;un destinataire (broadlog)** dans la colonne **Expression**. Sélectionnez ensuite **existent tel que** dans la colonne **Opérateur**.
+1. Définissez la condition de filtrage suivante pour cibler les destinataires qui se trouvent dans le log de diffusion. Choisir **Log de diffusion des destinataires (broadlog)** dans le **Expression** colonne, choisissez **existent tels que** dans le **Opérateur** colonne .
 
    ![](assets/query_recipients_2.png)
 
-1. Définissez la condition de filtrage suivante pour cibler votre diffusion. Sélectionnez **[!UICONTROL Nom interne]** dans la colonne Expression et **[!UICONTROL égal à]** dans la colonne Opérateur.
+1. Définissez la condition de filtrage suivante pour cibler votre diffusion. Choisir **[!UICONTROL Nom interne]** dans la colonne Expression et **[!UICONTROL égal à]** dans la colonne Opérateur .
 1. Dans la colonne de la valeur, ajoutez le nom interne de la diffusion ciblée.
 
    ![](assets/query_recipients_3.png)

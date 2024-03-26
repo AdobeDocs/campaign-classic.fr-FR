@@ -7,8 +7,8 @@ feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 100%
+source-wordcount: '1686'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Cette section détaille les principes clés et les bonnes pratiques pour la cré
 
 ## Création dʼun workflow {#creating-a-new-workflow}
 
-A partir de l&#39;**[!UICONTROL Explorateur]**, accédez à un dossier de workflow. Par défaut, vous pouvez utiliser **[!UICONTROL Profils et cibles]** > **[!UICONTROL Traitements]** > **[!UICONTROL Workflows de ciblage]**.
+Dans la **[!UICONTROL Explorateur]**, accédez à un dossier de workflow. Par défaut, vous pouvez utiliser **[!UICONTROL Profils et cibles]** > **[!UICONTROL Tâches]** > **[!UICONTROL Workflows de ciblage]**.
 
 Pour créer un workflow, cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des workflows.
 
@@ -108,7 +108,7 @@ Lʼaffichage et la mise en page du diagramme peuvent être modifiés à lʼaide 
 
 * **Gestion des images**
 
-  Vous pouvez personnaliser l&#39;image de fond du diagramme et les images associées aux différentes activités. Consultez la section [Modification des images dʼactivité](managing-activity-images.md).
+  Vous pouvez personnaliser l’image d’arrière-plan du diagramme et les images associées aux différentes activités. Consultez la section [Modification des images dʼactivité](managing-activity-images.md).
 
 ## Configuration des activités {#configuring-activities}
 
@@ -118,7 +118,7 @@ Double-cliquez sur une activité pour la paramétrer ou cliquez avec le bouton d
 >
 >Les activités de workflow d’opérations disponibles sont présentées dans [cette section](about-activities.md).
 
-Le premier onglet contient le paramétrage de base. L’onglet **[!UICONTROL Avancé]** contient des paramètres supplémentaires, qui permettent notamment de définir le comportement en cas d’erreur ainsi que la durée d’exécution de l’activité, et de saisir un script d’initialisation.
+Le premier onglet contient le paramétrage de base. La variable **[!UICONTROL Avancé]** contient les paramètres supplémentaires, qui sont notamment utilisés pour définir le comportement en cas d’erreur, définir la durée d’exécution d’une activité et saisir un script d’initialisation.
 
 Afin de faciliter la compréhension des activités et améliorer la lisibilité du workflow, vous pouvez saisir des commentaires dans les activités : ces commentaires seront affichés automatiquement lorsqu&#39;un opérateur passe la souris sur l&#39;activité.
 
@@ -160,7 +160,7 @@ Par exemple, pour sélectionner les clients détenteur d&#39;une assurance-vie d
 
 Lors de la sélection d&#39;une dimension de ciblage, seules les dimensions de filtrage compatibles sont proposées dans l&#39;interface.
 
-Ces deux dimensions doivent nécessairement avoir un lien. Ainsi, le contenu de la liste **[!UICONTROL Dimension de filtrage]** dépend de la dimension de ciblage indiquée dans le premier champ.
+Ces deux dimensions doivent être liées. Ainsi, le contenu de la variable **[!UICONTROL Dimension de filtrage]** La liste dépend de la dimension de ciblage indiquée dans le premier champ.
 
 Par exemple, pour les destinataires (**recipient**), les dimensions de filtrage disponibles seront les suivantes :
 
@@ -188,7 +188,7 @@ Les workflows des opérations et des exemples de mise en œuvre sont présentés
 
 ## Workflows techniques {#technical-workflows}
 
-Les workflows techniques sont livrés d&#39;usine avec Adobe Campaign. Les workflows techniques sont des opérations ou traitements programmés périodiquement pour s&#39;exécuter sur le serveur. Ils permettent de réaliser les opérations de maintenance sur la base, remonter les informations de tracking sur les diffusions et mettre en place les traitements prévisionnels sur les diffusions. La configuration des workflows techniques est réalisée depuis le noeud **[!UICONTROL Administration > Exploitation > Workflows techniques]**.
+Les workflows techniques sont fournis d&#39;usine avec Adobe Campaign. Il s’agit d’opérations ou de tâches planifiées pour une exécution périodique sur le serveur. Ils permettent d&#39;effectuer la maintenance sur la base, de transférer les informations de tracking sur les diffusions et de mettre en place les traitements prévisionnels sur les diffusions. Les workflows techniques sont configurés via le nœud **[!UICONTROL Administration > Exploitation > Workflows techniques]**.
 
 ![](assets/navtree.png)
 

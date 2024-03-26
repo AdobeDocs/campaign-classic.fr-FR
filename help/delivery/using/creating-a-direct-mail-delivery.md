@@ -27,5 +27,5 @@ Pour créer une diffusion courrier, procédez comme suit :
 
    ![](assets/direct_mail.png)
 
-1. Identifiez la diffusion avec un libellé, un code et une description. Voir à ce propos [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery)
+1. Identifiez votre diffusion avec un libellé, un code et une description. Voir à ce propos [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery)
 1. Cliquez sur **Continuer** pour valider ces informations et afficher la fenêtre de configuration du message.

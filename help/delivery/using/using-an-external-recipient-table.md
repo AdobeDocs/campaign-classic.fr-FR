@@ -9,7 +9,7 @@ exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 
 
-Si la table des diffusions est une table externe, vous devez effectuer des paramétrages complémentaires. Le schéma **[!UICONTROL nms:seedmember]** doit alors être étendu. Un onglet supplémentaire est alors ajouté au niveau des adresses de contrôle afin de définir les champs adéquats, comme dans l&#39;exemple ci-dessous :
+Si le tableau des diffusions est un tableau externe, vous devrez effectuer des configurations supplémentaires. Le schéma **[!UICONTROL nms:seedmember]** doit être étendu. Un onglet est ajouté au niveau des adresses de contrôle afin de définir les champs adéquats, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 

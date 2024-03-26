@@ -32,7 +32,7 @@ Au besoin, vous pouvez affecter la tâche de validation à un opérateur unique 
   >
   >Seul l&#39;opérateur sélectionné sera habilité à valider la tâche.
 
-* Vous pouvez définir une requête afin de filtrer les opérateurs validants. Pour cela, sélectionnez la valeur **[!UICONTROL Filtre]** dans le champ **[!UICONTROL Type d&#39;affectation]** puis cliquez sur le lien **[!UICONTROL Paramètres avancés...]** pour définir les critères de filtrage, comme dans l&#39;exemple ci-dessous :
+* Vous pouvez définir une requête pour filtrer les opérateurs et opératrices en charge de la validation. Pour cela, sélectionnez la valeur **[!UICONTROL Filtre]** dans le champ **[!UICONTROL Type d’affectation]**, puis cliquez sur le lien **[!UICONTROL Paramètres avancés...]** pour définir les critères de filtrage, comme dans l’exemple ci-dessous :
 
   ![](assets/s_advuser_validation_box_filter.png)
 
@@ -74,4 +74,4 @@ Un exemple de validation est proposé dans la section [Définir les validations]
 
 * **[!UICONTROL responseOperator]**
 
-  Identifiant de l&#39;opérateur qui a répondu. Ce champ est une valeur numérique, mais de type **[!UICONTROL String]**.
+  Identifiant de la personne qui a répondu. Ce champ est une valeur numérique, mais un champ **[!UICONTROL Chaîne]**.

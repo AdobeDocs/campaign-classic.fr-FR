@@ -11,7 +11,7 @@ exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -39,13 +39,13 @@ Pour afficher le contenu d&#39;un message, cliquez sur son en-tête.
 
 **Commencer une nouvelle discussion**
 
-Pour commencer une nouvelle discussion, cliquez sur le bouton **[!UICONTROL Ajouter une discussion]** en haut à droite. La boîte **[!UICONTROL Forum de discussion]** apparaît (voir ci-dessous).
+Pour commencer une nouvelle discussion, cliquez sur le bouton **[!UICONTROL Ajouter une discussion]** dans le coin supérieur droit. La boîte de dialogue **[!UICONTROL Forum de discussion]** s’affiche alors (cf. image ci-dessous).
 
 ![](assets/mrm_forum_new_thread.png)
 
 **Poster un message dans une discussion existante**
 
-Pour poster un message dans une discussion existante, ouvrez le message auquel vous voulez répondre, puis cliquez sur le lien **[!UICONTROL Répondre]** en haut à gauche de celui-ci. La boîte **[!UICONTROL Forum de discussion]** apparaît (voir ci-dessous).
+Pour envoyer un message à une discussion existante, ouvrez le message auquel vous souhaitez répondre, puis cliquez sur le bouton **[!UICONTROL Répondre]** dans le coin supérieur gauche. La boîte de dialogue **[!UICONTROL Forum de discussion]** s’affiche alors (cf. image ci-dessous).
 
 ![](assets/mrm_forum_answer_msg.png)
 
@@ -93,7 +93,7 @@ Vous pouvez vous abonner à un forum afin d&#39;en suivre les discussions. Une f
 
   ![](assets/mrm_forum_unsubscribe.png)
 
-* Dans votre tableau de bord personnel, vous pouvez voir la liste des forums auxquels vous êtes abonné afin de pouvoir accéder à ceux-ci plus rapidement. Cliquez sur le lien **[!UICONTROL Abonnements aux forums de discussion]** pour afficher la liste, puis cliquez sur le nom de l&#39;élément désiré pour accéder à son forum.
+* Votre tableau de bord personnel répertorie les forums auxquels vous êtes abonné. Cliquez sur le bouton **[!UICONTROL Abonnement aux forums de discussion]** pour afficher la liste, puis cliquez sur l&#39;élément qui vous intéresse pour accéder à son forum.
 
   ![](assets/platform_dashboard_operator_subscr_forums.png)
 
@@ -114,4 +114,4 @@ Si des opérateurs abonnés à un forum ne reçoivent pas les notifications atte
    * Depuis la page d&#39;accueil d&#39;Adobe Campaign, allez à **[!UICONTROL Campagnes > Navigation > Diffusions]**, puis ouvrez la diffusion **[!UICONTROL Notification des forums de discussion]**.
    * Dans l&#39;explorateur, allez à **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Diffusions techniques > Notifications de workflow]**, puis cliquez sur **[!UICONTROL Notification des forums de discussion]**.
 
-  Dans la boîte **[!UICONTROL Notification des forums de discussion]**, les logs de diffusion se trouvent dans l&#39;onglet **[!UICONTROL Édition > Diffusion]**. Consultez également les onglets **[!UICONTROL Tracking > Journal]** et **[!UICONTROL Causes d&#39;exclusion]**.
+  Dans le **[!UICONTROL Notifications des forums de discussion]** , les logs de diffusion se trouvent dans la variable **[!UICONTROL Modifier > Diffusion]** . Vous pouvez également afficher la variable **[!UICONTROL Tracking > Journal]** et la variable **[!UICONTROL Exclusions appliquées]** onglets.

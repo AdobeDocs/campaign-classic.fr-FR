@@ -9,7 +9,7 @@ exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ Les options possibles sont les suivantes :
 
 ## Traduction de votre rapport {#report-localization}
 
-Vous pouvez paramétrer les langues dans lesquelles vous souhaitez que le rapport soit traduit. Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Localisation]**.
+Vous pouvez configurer les langues dans lesquelles vous souhaitez que le rapport soit traduit. Pour ce faire, cliquez sur le bouton **[!UICONTROL Localisation]** .
 
 ![](assets/s_ncs_advuser_report_properties_06.png)
 

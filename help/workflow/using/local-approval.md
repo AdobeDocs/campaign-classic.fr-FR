@@ -7,7 +7,7 @@ feature: Workflows
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '707'
 ht-degree: 100%
 
 ---
@@ -48,20 +48,20 @@ Les champs à renseigner dans le cas d&#39;une notification pour la validation d
 
 ![](assets/local_validation_3.png)
 
-* **[!UICONTROL Contexte de répartition]** : sélectionnez l&#39;option **[!UICONTROL Spécifié par la transition]** si vous utilisez une activité de type **[!UICONTROL Partage]** pour limiter la population ciblée. Dans ce cas, le modèle de répartition est renseigné dans l&#39;activité de partage. Si vous ne limitez pas la population ciblée, sélectionnez ici l&#39;option **[!UICONTROL Explicite]** et renseignez le modèle de répartition dans le champ **[!UICONTROL Répartition des données]**.
+* **[!UICONTROL Contexte de distribution]** : sélectionnez l’option **[!UICONTROL Spécifié dans la transition]** si vous utilisez une activité de type **[!UICONTROL Partage]** pour limiter la population ciblée. Dans ce cas, le modèle de répartition est renseigné dans l’activité de partage. Si vous ne limitez pas la population ciblée, sélectionnez ici l’option **[!UICONTROL Explicite]** et renseignez le modèle de répartition dans le champ **[!UICONTROL Répartition des données]**.
 
   Pour plus d’informations sur la création d’un modèle de distribution de données, voir [Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données](split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 * **[!UICONTROL Gestion de la validation :]**
 
-   * Sélectionnez le modèle de diffusion ainsi que l&#39;objet qui seront utilisés pour l&#39;email de notification. Un modèle par défaut est disponible : **[!UICONTROL Notification de la validation en local]**. Vous pouvez également ajouter une description qui apparaîtra au-dessus des listes de destinataires dans les notifications de validation et de retour.
+   * Sélectionnez le modèle de diffusion et l’objet qui seront utilisés pour l’e-mail de notification. Un modèle par défaut est disponible : **[!UICONTROL Notification de validation locale]**. Vous pouvez également ajouter une description qui apparaîtra au-dessus des listes de personnes destinataires dans les notifications d’approbation et de commentaires.
    * Définissez le **[!UICONTROL Type de validation]**, qui correspond à la date limite de validation (date ou délai à partir du début de la validation). A cette date, le workflow reprend et les destinataires qui n&#39;ont pas été validés ne sont pas pris en compte dans le ciblage. Lorsque les notifications sont envoyées, l&#39;activité est mise en attente afin que les responsables locaux puissent valider leurs contacts.
 
      >[!NOTE]
      >
      >Par défaut, lorsque la validation débute, l&#39;activité est mise en attente pendant trois jours.
 
-     Vous avez également la possibilité d&#39;ajouter un ou plusieurs rappels afin d&#39;informer les responsables locaux que la date limite de validation approche. Pour cela, cliquez sur le lien **[!UICONTROL Ajouter un rappel]**.
+     Vous pouvez également ajouter un ou plusieurs rappels pour informer les personnes responsables locales que l’échéance approche. Pour ce faire, cliquez sur le lien **[!UICONTROL Ajouter un rappel]**.
 
 * **[!UICONTROL Complémentaire]** : L&#39;option **[!UICONTROL Générer le complémentaire]** permet de générer un second ensemble contenant toutes les cibles non validées.
 
@@ -79,8 +79,8 @@ Les champs à renseigner dans le cas d&#39;un rapport de retour de diffusion son
 
 ![](assets/local_validation_workflow_4.png)
 
-* Sélectionnez l&#39;option **[!UICONTROL Spécifiée par la transition]** si la diffusion a été renseignée dans une activité précédente. Sélectionnez **[!UICONTROL Explicite]** pour spécifier la diffusion dans l&#39;activité de validation en local.
-* Sélectionnez le modèle de diffusion ainsi que l&#39;objet qui seront utilisés pour l&#39;email de notification. Un modèle par défaut est disponible : **[!UICONTROL Notification de la validation en local]**.
+* Sélectionnez l’option **[!UICONTROL Spécifié dans la transition]** si la diffusion a été saisie au cours d’une activité précédente. Sélectionnez **[!UICONTROL Explicite]** pour définir la diffusion dans l’activité d’approbation locale.
+* Sélectionnez le modèle de diffusion et l’objet de l’e-mail de notification. Il existe un modèle par défaut : **[!UICONTROL Notification de validation locale]**.
 
 ## Exemple : validation de la diffusion d&#39;un workflow {#example--approving-a-workflow-delivery}
 

@@ -10,8 +10,8 @@ topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 90%
 
 ---
 
@@ -71,7 +71,7 @@ Procédez comme suit pour créer un compte externe de type **[!UICONTROL instanc
 
    ![](assets/messagecenter_create_extaccount_004.png)
 
-1. Le compte doit correspondre à l&#39;Agent Message Center tel qu&#39;il est défini dans le dossier des opérateurs. Par défaut, le compte fourni d&#39;usine par Adobe Campaign est **[!UICONTROL mc]** .
+1. Le compte doit correspondre à l&#39;Agent Message Center tel que défini dans le dossier de l&#39;opérateur. Par défaut, le compte d’usine fourni par Adobe Campaign est **[!UICONTROL mc]** .
 
    ![](assets/messagecenter_create_extaccount_005.png)
 
@@ -190,18 +190,18 @@ Pour utiliser plusieurs instances de pilotage, ce paramétrage doit être réali
 
    ![](assets/messagecenter_multi_control_3.png)
 
-1. Créez les opérateurs **mc1** et **mc2** en dupliquant l&#39;opérateur Message Center fourni par défaut (**mc**). La création d&#39;opérateurs est présentée dans [cette section](../../platform/using/access-management-operators.md).
+1. Créez le **mc1** et **mc2** en dupliquant l&#39;opérateur Message Center fourni par défaut (**mc**). La création d&#39;opérateurs est présentée dans la section [cette section](../../platform/using/access-management-operators.md).
 
    ![](assets/messagecenter_multi_control_4.png)
 
    >[!NOTE]
    >
-   >Les opérateurs **mc1** et **mc2** doivent disposer du droit **[!UICONTROL Exécution Message Center]**, et l&#39;accès à la console cliente Adobe Campaign ne doit pas leur être autorisé. Un opérateur doit toujours être associé à une zone de sécurité. Voir à ce sujet [cette section](../../installation/using/security-zones.md).
+   >**mc1** et **mc2** les opérateurs doivent **[!UICONTROL Exécution de Message Center]** et ne peuvent pas accéder à la console cliente Adobe Campaign. Un opérateur doit toujours être associé à une zone de sécurité. Pour plus d’informations, consultez [cette section](../../installation/using/security-zones.md).
 
 1. Pour chaque opérateur, cochez la case **[!UICONTROL Restreindre aux données présentes dans les sous-dossiers de]**, et sélectionnez le dossier correspondant (**Dossier 1** pour l&#39;opérateur **mc1** et **Dossier 2** pour l&#39;opérateur **mc2**).
 
    ![](assets/messagecenter_multi_control_5.png)
 
-1. Attribuez à chaque opérateur les droits en lecture et en écriture sur son dossier. Pour cela, effectuez un clic droit sur le dossier et sélectionnez **[!UICONTROL Propriétés]**. Sélectionnez ensuite l&#39;onglet **[!UICONTROL Sécurité]** et ajoutez l&#39;opérateur correspondant (**mc1** pour le dossier **Dossier 1** et **mc2** pour le dossier **Dossier 2**). Vérifiez que les cases **[!UICONTROL Lecture/Ecriture des données]** sont bien cochées.
+1. Attribuez à chaque opérateur des autorisations de lecture et d’écriture sur son dossier. Pour cela, cliquez avec le bouton droit sur le dossier et sélectionnez **[!UICONTROL Propriétés]** . Sélectionnez ensuite le **[!UICONTROL Sécurité]** et ajoutez l&#39;opérateur correspondant (**mc1** pour **Dossier 1** et **mc2** pour **Dossier 2**). Assurez-vous que la variable **[!UICONTROL Lecture/écriture de données]** sont cochées.
 
    ![](assets/messagecenter_multi_control_6.png)

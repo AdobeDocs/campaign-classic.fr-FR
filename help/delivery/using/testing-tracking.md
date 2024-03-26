@@ -9,8 +9,8 @@ role: User
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '273'
+ht-degree: 88%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez tester le tracking sur les pages miroir, les logs d&#39;email et les
 
    Cliquez sur **Rafraîchir** si vous ne voyez aucun nouveau log.
 
-1. Accédez à la page du profil du destinataire que vous avez utilisé pour le test, puis sélectionnez l&#39;onglet **Tracking**. Certains enregistrements doivent s&#39;afficher avec la valeur **Page miroir** dans la colonne **Type**.
+1. Accédez à la page du profil du destinataire que vous avez utilisé pour le test, puis sélectionnez la variable **Tracking** . Certains enregistrements doivent apparaître avec la fonction **Page miroir** dans la variable **Type** colonne .
 
    >[!NOTE]
    >

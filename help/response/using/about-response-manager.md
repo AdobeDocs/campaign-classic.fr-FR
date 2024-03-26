@@ -9,7 +9,7 @@ exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign propose un module complémentaire de gestion de la réaction qui
 
 Afin de déduire le comportement des personnes ciblées suite à la réception d&#39;une offre ou d&#39;une diffusion, des hypothèses peuvent être paramétrées sur une période donnée à partir de la date de contact. Ces hypothèses sont basées sur une table des **transactions** qui enregistre les achats et qui contient également le détail de ces achats.
 
-Les hypothèses sont délimitées dans le temps et peuvent être réalisées sur une population témoin que l&#39;on comparera à la population ciblée. Les résultats de l&#39;hypothèse sont donnés par des **indicateurs** qui sont automatiquement mis à jour lorsque le calcul est terminé. Le ROI associé aux hypothèses sera pris en compte dans les rapports de campagne.
+Les hypothèses sont limitées dans le temps et peuvent être appliquées à une population témoin à comparer à la population cible. Les résultats des hypothèses sont fournis par **indicators** qui sont automatiquement mis à jour une fois le calcul terminé. Le ROI associé aux hypothèses sera pris en compte dans les rapports de l&#39;opération.
 
 D&#39;autre part, les **rapports** standards fournis avec le Response Manager permettent de synthétiser les informations relatives à l&#39;augmentation du chiffre d&#39;affaire, au calcul de la marge, ainsi qu&#39;au retour sur investissement de la diffusion ou de l&#39;offre.
 

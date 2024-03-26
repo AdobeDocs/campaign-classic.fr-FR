@@ -7,7 +7,7 @@ role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 100%
 

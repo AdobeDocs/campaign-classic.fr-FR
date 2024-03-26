@@ -11,7 +11,7 @@ exl-id: 44c57b0c-3561-4943-812f-945f5fcbb142
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 100%
+ht-degree: 63%
 
 ---
 
@@ -39,6 +39,6 @@ Les statistiques sont classées selon trois critères :
 
   ![](assets/offer_report_perdeliveries.png)
 
-Vous pouvez filtrer les données à l&#39;aide de différents critères disponibles dans la partie supérieure du rapport. Lorsque vous avez choisi les critères, cliquez sur le lien **[!UICONTROL Actualiser]** pour les appliquer au rapport.
+Les données peuvent être filtrées selon les différents critères disponibles dans la section supérieure du rapport. Une fois que vous avez sélectionné les critères souhaités, cliquez sur le bouton **[!UICONTROL Actualiser]** pour les appliquer au rapport.
 
 ![](assets/offer_report_criteria.png)

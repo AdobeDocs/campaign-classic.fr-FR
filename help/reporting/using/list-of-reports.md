@@ -6,7 +6,7 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 100%
 
@@ -40,8 +40,8 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
-   <td> Echecs et retours (errors)<br /> </td> 
-   <td> Ventilation des échecs et retours, par cause et domaine de messagerie.<br /> </td> 
+   <td> Échecs et rebonds (erreurs)<br /> </td> 
+   <td> Répartition des rebonds et des non-délivrables, par cause et domaine.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
   </tr> 
   <tr> 
    <td> Statistiques de diffusion (statisticsPerDelivery)<br /> </td> 
-   <td> Statistiques (messages traités, messages délivrés, erreurs hard, erreurs soft, ouvertures, clics, désinscriptions) par domaine de l'email.<br /> </td> 
+   <td> Statistiques (messages traités, messages délivrés, rebonds définitifs, rebonds temporaires, ouvertures, clics, désinscriptions) par domaine d’e-mail.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
   </tr> 
   <tr> 
    <td> Synthèse des diffusions (deliverySending)<br /> </td> 
-   <td> Synthèse des indicateurs de la diffusion : cible, exclusions et envois.<br /> </td> 
+   <td> Synthèse des indicateurs de la diffusion : cible, exclusions et messages envoyés.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
@@ -144,8 +144,8 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
    <td> Affiche en détail les dépenses rattachées à l'opération. Dépend de Campaign.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Echecs et retours (operationErrors)<br /> </td> 
-   <td> Ventilation des échecs et retours, par cause et domaine de messagerie. Dépend de Campaign.<br /> </td> 
+   <td> Échecs et rebonds (operationErrors)<br /> </td> 
+   <td> Répartition des rebonds et des non-délivrables, par cause et domaine. Dépend de Campaign.<br /> </td> 
   </tr> 
   <tr> 
    <td> Exploration des lignes de coût (budgetExplorerOperation)<br /> </td> 
@@ -360,7 +360,7 @@ Les rapports suivants sont également fournis natifs. Pour plus d&#39;informatio
   </tr> 
   <tr> 
    <td> Historique des acquisitions de prospects sociaux (socialVisitorStatistics)<br /> </td> 
-   <td> Historique des acquisitions de prospects X (anciennement Twitter) et Facebook. Dépend du module complémentaire Social Marketing.<br /> </td> 
+   <td> Historique des acquisitions de prospects X (anciennement Twitter) et Facebook, en fonction du module complémentaire Social Marketing.<br /> </td> 
    <td> nms:visitor<br /> </td> 
   </tr> 
   <tr> 

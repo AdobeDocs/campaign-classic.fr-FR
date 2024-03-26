@@ -12,7 +12,7 @@ exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ Chaque statut est représenté par une icône et un libellé spéciaux. Les stat
 
 * **En pause**
 
-  Clic sur le bouton **[!UICONTROL Pause]** : le traitement est suspendu. Il peut être relancé via le bouton **[!UICONTROL Démarrer]**.
+  Cliquez sur **[!UICONTROL Pause]**: la tâche est suspendue. Il peut être redémarré en cliquant sur **[!UICONTROL Début]**.
 
 * **Terminé**
 

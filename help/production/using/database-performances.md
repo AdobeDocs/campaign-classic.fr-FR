@@ -11,8 +11,8 @@ topic-tags: troubleshooting
 exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '503'
+ht-degree: 95%
 
 ---
 
@@ -69,7 +69,7 @@ Vous devez vérifier le nombre et la taille des tables de travail. Lorsqu&#39;el
 
 >[!IMPORTANT]
 >
->Si cette opération prend beaucoup de temps et qu&#39;une fois effectuée, beaucoup d&#39;espace disque est libéré, il est indispensable d&#39;effectuer une maintenance en profondeur (reconstruction des index, etc.). Voir à ce sujet [cette section](../../production/using/recommendations.md).
+>Si l&#39;opération prend beaucoup de temps et libère beaucoup d&#39;espace, cela signifie qu&#39;une maintenance en profondeur est nécessaire (reconstruction des index, etc.). Pour plus d’informations, consultez [cette section](../../production/using/recommendations.md).
 
 **Suivi des processus Adobe Campaign**
 

@@ -8,8 +8,8 @@ feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 100%
+source-wordcount: '1280'
+ht-degree: 71%
 
 ---
 
@@ -25,7 +25,7 @@ La fenêtre des propriétés est accessible à partir du bouton **[!UICONTROL Pr
 
 ## Propriétés générales du formulaire {#overall-form-properties}
 
-Dans l&#39;onglet **[!UICONTROL Général]** de la fenêtre des propriétés, vous pouvez modifier le **Libellé** du formulaire. Il est fortement déconseillé de modifier le **Nom interne**.
+Dans le **[!UICONTROL Général]** de la fenêtre des propriétés, vous pouvez modifier la variable **Libellé** du formulaire. Il est vivement recommandé de ne pas modifier la variable **Nom interne**.
 
 ![](assets/s_ncs_admin_survey_properties_general_tab.png)
 
@@ -33,7 +33,7 @@ Le modèle de formulaire est choisi lors de la création du formulaire. Il ne pe
 
 ## Stockage des données d&#39;un formulaire {#form-data-storage}
 
-Par défaut, les champs des formulaires Web sont stockés dans la table des destinataires. Vous pouvez modifier la table utilisée en sélectionnant une nouvelle table dans le champ **[!UICONTROL Type de document]**. L&#39;icône **[!UICONTROL Loupe]** permet de visualiser le contenu de la table sélectionnée.
+Par défaut, les champs des formulaires Web sont stockés dans la table des destinataires. Vous pouvez modifier le tableau utilisé en sélectionnant un nouveau tableau à partir du **[!UICONTROL Type de document]** champ . La variable **[!UICONTROL Zoom]** permet de visualiser le contenu du tableau sélectionné.
 
 Les réponses fournies sont stockées par défaut dans la table **Réponse à un formulaire d&#39;un destinataire**.
 
@@ -47,7 +47,7 @@ Par défaut, elle affiche les informations suivantes :
 
 ![](assets/s_ncs_admin_survey_default_error_page.png)
 
-Le contenu des chaînes affichées est défini dans l&#39;onglet **[!UICONTROL Page d&#39;erreur]** de la fenêtre des propriétés. L&#39;onglet **[!UICONTROL HTML]** affiche le rendu, l&#39;onglet **[!UICONTROL Textes]** permet de modifier les chaînes de texte et d&#39;en ajouter, au besoin :
+Le contenu des chaînes affichées est défini dans la variable **[!UICONTROL Page d’erreur]** de la fenêtre des propriétés. La variable **[!UICONTROL HTML]** affiche le rendu et la variable **[!UICONTROL Textes]** Vous pouvez modifier les chaînes de texte et ajouter du texte si nécessaire :
 
 ![](assets/s_ncs_admin_survey_error_page.png)
 
@@ -75,13 +75,13 @@ Ces éléments sont affichés en bas de chaque page. Leur positionnement peut ê
 
 >[!NOTE]
 >
->Le bouton **[!UICONTROL Précédent]** peut être masqué sur certaines pages. Pour cela, cochez l&#39;option **[!UICONTROL Ne pas autoriser le retour à la page précédente]** dans la page concernée. Cette option est accessible lorsque la racine de l&#39;arborescence de la page est sélectionnée.
+>Il est possible de masquer le **[!UICONTROL Précédent]** sur certaines pages. Pour cela, accédez à la page concernée et cochez la case **[!UICONTROL Ne pas autoriser le retour à la page précédente]** . Cette option est accessible lorsque la racine de l’arborescence de page est sélectionnée.
 
 Le champ **[!UICONTROL Modèle]** de l&#39;onglet **[!UICONTROL Rendu]** permet de sélectionner un thème parmi ceux disponibles.
 
 Les thèmes sont enregistrés dans le nœud **[!UICONTROL Administration > Configuration > Rendus des formulaires]** de l’arborescence. Voir [Choisir le modèle de rendu du formulaire](form-rendering.md#selecting-the-form-rendering-template).
 
-Un exemple de rendu est affiché dans la section inférieure de la fenêtre des propriétés. L&#39;icône **[!UICONTROL Editer le lien]** permet de visualiser le paramétrage correspondant au thème sélectionné.
+Un exemple de rendu est affiché dans la partie inférieure de la fenêtre des propriétés. La variable **[!UICONTROL Lien d’édition]** vous permet d’afficher la configuration du thème sélectionné.
 
 ![](assets/s_ncs_admin_survey_properties_render.png)
 
@@ -101,13 +101,13 @@ La période de validité est comprise entre la date de **[!UICONTROL Démarrage]
 
 >[!NOTE]
 >
->Si le formulaire est fermé, donc si sa période de validité n&#39;est pas atteinte ou est dépassée, ou s&#39;il a été fermé par l&#39;opérateur Adobe Campaign, alors un message s&#39;affiche lorsque l&#39;utilisateur tente d&#39;y accéder. Vous pouvez personnaliser ce message en cliquant sur le lien **[!UICONTROL Personnaliser le message affiché si le formulaire est fermé...]**.
+>Si le formulaire est fermé, donc que sa période de validité n&#39;a pas été atteinte ou a expiré, ou s&#39;il a été fermé par l&#39;opérateur Adobe Campaign, un message s&#39;affiche lorsque l&#39;utilisateur tente d&#39;y accéder. Vous pouvez personnaliser ce message en cliquant sur **[!UICONTROL Personnalisez le message affiché si le formulaire est fermé...]**.
 
 ## Contrôle d&#39;accès au formulaire {#form-access-control}
 
 Par défaut, l&#39;accès aux formulaires Web se fait en mode anonyme : tous les opérateurs qui accèdent au formulaire se voient attribuer les droits correspondant à l&#39;opérateur WebApp.
 
-Vous pouvez activer le contrôle d&#39;accès pour l&#39;affichage du formulaire, par exemple lorsque vous diffusez un formulaire sur un site intranet, afin d&#39;authentifier les utilisateurs. Pour cela, affichez la fenêtre des **[!UICONTROL Propriétés]** du formulaire concerné et cliquez sur l&#39;option **[!UICONTROL Activer le contrôle d&#39;accès]**, comme ci-dessous :
+Vous pouvez activer le contrôle d’accès pour l’affichage du formulaire, par exemple lorsque vous diffusez un formulaire sur un site intranet, afin d’authentifier les utilisateurs. Pour ce faire, affichez la variable **[!UICONTROL Propriétés]** du formulaire concerné et cliquez sur le bouton **[!UICONTROL Activer le contrôle d’accès]** , comme illustré ci-dessous :
 
 ![](assets/s_ncs_admin_survey_access_ctrl.png)
 
@@ -115,7 +115,7 @@ Lors de l&#39;accès au formulaire, la page d&#39;authentification suivante sera
 
 ![](assets/s_ncs_admin_survey_access_login.png)
 
-Les login et mot de passe sont ceux des opérateurs Adobe Campaign. Voir à ce sujet [cette section](../../platform/using/access-management.md).
+Les login et mot de passe sont ceux des opérateurs Adobe Campaign. Pour plus d’informations, consultez [cette section](../../platform/using/access-management.md).
 
 L&#39;option **[!UICONTROL Utiliser un compte spécifique]** permet de circonscrire les droits en lecture ou écriture de l&#39;opérateur accédant au formulaire. Sélectionnez dans la liste déroulante un opérateur ou groupe d&#39;opérateurs référent pour définir ces autorisations.
 
@@ -134,7 +134,7 @@ Par défaut, les paramètres suivants sont disponibles :
 * **id** pour indiquer l&#39;identifiant chiffré.
 * **lang** pour modifier la langue d&#39;affichage.
 * **origin** pour indiquer l&#39;origine du répondant.
-* **_uuid** permet la visualisation d&#39;un formulaire non publié et le tracking des erreurs. Ce paramètre doit être utilisé pour une utilisation interne (création et débogage) : lorsque vous accédez au formulaire Web via cette URL, les enregistrements créés ne sont pas pris en compte dans le suivi (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
+* **_uuid** active l’affichage des formulaires avant la publication et le suivi des erreurs. Ce paramètre est destiné à un usage interne (création et débogage) : lorsque vous accédez au formulaire Web via cette URL, les enregistrements créés ne sont pas pris en compte dans le tracking (rapports). L’origine est forcée au **[!UICONTROL Adobe Campaign]** .
 
   S&#39;utilise avec les paramètres **_preview** et/ou **_debug** :
 
@@ -152,7 +152,7 @@ Des paramètres supplémentaires peuvent être ajoutés à partir l&#39;onglet *
 
 ![](assets/s_ncs_admin_survey_properties_param.png)
 
-Vous devez indiquer un espace de stockage d&#39;où sera récupérée la valeur du paramètre. Pour cela, sélectionnez une des options de stockage puis cliquez sur l&#39;onglet **[!UICONTROL Stockage]** pour sélectionner le champ ou la variable concernée. Les options de stockage sont détaillées dans les [Champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
+Vous devez spécifier un emplacement de stockage à partir duquel la valeur du paramètre sera récupérée. Pour ce faire, sélectionnez l’une des options de stockage, puis cliquez sur le bouton **[!UICONTROL Stockage]** pour sélectionner le champ ou la variable concernée. Les options de stockage sont détaillées dans les [Champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
 
 Le statut du répondant (par exemple 0, 1 ou toute autre valeur) pourra alors être ajouté dans l&#39;URL d&#39;accès au formulaire. Cette information peut être réutilisée dans les pages du formulaire ou dans une boîte de test. Vous pouvez ainsi conditionner les pages affichées en fonction de la valeur du contexte, comme dans l&#39;exemple suivant :
 

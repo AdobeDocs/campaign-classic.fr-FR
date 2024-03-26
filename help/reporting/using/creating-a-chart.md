@@ -8,8 +8,8 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: '565'
+ht-degree: 90%
 
 ---
 
@@ -61,7 +61,7 @@ Il peut également être modifié à partir de la section **[!UICONTROL Type de 
 
 ![](assets/reporting_change_graph_type.png)
 
-Les variantes dépendent du type de graphique sélectionné. Elles sont sélectionnées à partir du lien **[!UICONTROL Variantes...]**.
+Les variantes dépendent du type de graphique sélectionné. Ils sont sélectionnés à l’aide de l’option **[!UICONTROL Variantes...]** lien.
 
 ### Répartition : les secteurs {#breakdown--pie-charts}
 
@@ -113,7 +113,7 @@ Lorsque les valeurs s&#39;y prêtent, vous pouvez les empiler.
 
 ![](assets/reporting_graph_type_histo.png)
 
-Au besoin, vous pouvez inverser l&#39;ordre d&#39;affichage des valeurs. Pour cela, sélectionnez l&#39;option **[!UICONTROL Empilement inversé]**.
+Au besoin, vous pouvez inverser la séquence d’affichage des valeurs. Pour ce faire, sélectionnez l’option **[!UICONTROL Empilement inversé]** .
 
 ### Conversion : le funnel {#conversion--funnel}
 
@@ -121,7 +121,7 @@ Ce type de graphique permet de suivre le taux de conversion des éléments mesur
 
 ## Interaction avec le graphique {#interaction-with-the-chart}
 
-Vous pouvez définir une action lorsque l&#39;utilisateur clique sur le graphique. Ouvrez la fenêtre **[!UICONTROL Evénements d&#39;interaction]** et choisissez l&#39;action à effectuer.
+Vous pouvez définir une action lorsque l&#39;utilisateur clique sur le graphique. Ouvrez le **[!UICONTROL Événements d’interaction]** et sélectionnez l’action à exécuter.
 
 Les types d&#39;interactions possibles et leurs paramétrages sont présentés dans [cette section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 

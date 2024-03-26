@@ -7,8 +7,8 @@ feature: Workflows
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ Ces campagnes étant lancées à chaque début de saison afin de proposer des ac
 
 1. Le but étant de mettre à jour la liste avant chaque début de saison, sélectionnez le type de périodicité **[!UICONTROL Mensuel]**.
 1. À l&#39;écran suivant, sélectionnez les mois de mars, juin, septembre et décembre. Indiquez comme jour le 20 du mois et choisissez l&#39;heure à laquelle lancer l&#39;exécution du workflow.
-1. Sélectionnez ensuite la période de validité de la requête. Par exemple, si vous souhaitez que cette dernière soit active en permanence, sélectionnez **[!UICONTROL Validité permanente]**.
+1. Sélectionnez ensuite la période de validité de la requête. Par exemple, si vous souhaitez que cette activité soit active de manière permanente, sélectionnez **[!UICONTROL Validité permanente]**.
 
    ![](assets/incremental_query_example_2.png)
 

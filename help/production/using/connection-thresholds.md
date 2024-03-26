@@ -11,8 +11,8 @@ topic-tags: troubleshooting
 exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 85%
 
 ---
 
@@ -48,7 +48,7 @@ Il existe trois seuils différents :
 
    * **Base de données** : ensemble de toutes les connexions ouvertes simultanément sur la base de données par un processus.
 
-     Ce seuil est paramétré dans le fichier **nl6/conf/serverConf.xml**. L&#39;attribut **maxCnx** situé dans **datasource pool** permet d&#39;augmenter le seuil des requêtes traitées simultanément.
+     Ce seuil est configuré dans le fichier . **nl6/conf/serverConf.xml**. La variable **maxCnx** situé dans **datasource pool** permet d&#39;augmenter le seuil des requêtes traitées simultanément.
 
      ```
          <!-- Data source

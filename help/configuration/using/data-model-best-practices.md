@@ -7,7 +7,7 @@ feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '4012'
+source-wordcount: '4037'
 ht-degree: 100%
 
 ---
@@ -278,7 +278,7 @@ Afin d&#39;optimiser les performances à tout moment, suivez les bonnes pratique
 ### Relations de type &quot;un à plusieurs&quot;  {#one-to-many-relationships}
 
 * La conception des données a un impact sur la convivialité et les fonctionnalités. Si vous concevez votre modèle de données avec de nombreuses relations de type &quot;un à plusieurs&quot;, il devient plus difficile pour les utilisateurs de construire une logique significative dans l&#39;application. Il peut s’avérer difficile pour les spécialistes marketing n’ayant pas de compétences techniques de construire et de comprendre correctement la logique.
-* Qu&#39;une table comporte tous les champs essentiels est une bonne chose car cela facilite la création de requêtes par les utilisateurs. Il est aussi parfois judicieux de dupliquer certains champs d&#39;une table à l&#39;autre si cela permet d&#39;éviter une jointure.
+* Qu&#39;une table comporte tous les champs essentiels est une bonne chose car cela facilite la création de requêtes par les utilisateurs. Parfois, pour des raisons de performances, il est aussi judicieux de dupliquer certains champs d’une table à l’autre si cela permet d’éviter une jointure.
 * Certaines fonctionnalités intégrées ne pourront pas faire référence à des relations de type &quot;un à plusieurs&quot;, par exemple la formule Pondération d&#39;offre et Diffusions.
 
 ## Tables volumineuses {#large-tables}

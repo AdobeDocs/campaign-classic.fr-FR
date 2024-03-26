@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '2511'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2495'
+ht-degree: 85%
 
 ---
 
@@ -35,7 +35,7 @@ Cliquez sur les noms des rapports pour les afficher. Par défaut, les rapports s
 * **[!UICONTROL Systèmes d&#39;exploitation]** : voir [Systèmes d’exploitation](#operating-systems).
 * **[!UICONTROL URL et flux de clics]** : voir [URL et flux de clics](../../reporting/using/delivery-reports.md#urls-and-click-streams).
 * **[!UICONTROL Indicateurs de tracking]** : voir [Indicateurs de tracking](../../reporting/using/delivery-reports.md#tracking-indicators).
-* **[!UICONTROL Echecs et retours]** : [Echecs et retours](#non-deliverables-and-bounces).
+* **[!UICONTROL Non-délivrables et rebonds]** : voir [Non-délivrables et rebonds](#non-deliverables-and-bounces).
 * **[!UICONTROL Activités utilisateurs]** : voir [Activités utilisateurs](#user-activities).
 * **[!UICONTROL Suivi des abonnements]** : voir [Suivi des abonnements](#subscription-tracking).
 * **[!UICONTROL Synthèse des diffusions]** : voir [Synthèse des diffusions](../../reporting/using/delivery-reports.md#delivery-summary).
@@ -48,7 +48,7 @@ Ce rapport contient les informations relatives au débit de diffusion de l&#39;e
 
 ![](assets/s_ncs_user_report_toolbar.png)
 
-Vous pouvez paramétrer l&#39;affichage des valeurs en sélectionnant le périmètre de la vue : 1 heure, 3 heures, 24 heures, etc. Cliquez sur le lien **[!UICONTROL Actualiser]** pour valider votre choix.
+Vous pouvez paramétrer l&#39;affichage des valeurs en sélectionnant le périmètre de la vue : 1 heure, 3 heures, 24 heures, etc. Cliquez sur **[!UICONTROL Actualiser]** pour confirmer votre sélection.
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Ce rapport présente la répartition des ouvertures, clics et transactions, par 
 Les options disponibles sont les suivantes :
 
 * **[!UICONTROL Ouvertures]** : Nombre total de messages ouverts. Les emails au format texte ne sont pas pris en compte. Pour plus d&#39;informations sur le tracking des ouvertures, consultez la section [Tracking des ouvertures](../../reporting/using/indicator-calculation.md#tracking-opens-).
-* **[!UICONTROL Clics]** : Nombre total de clics sur les liens des diffusions. Les clics sur les liens de désinscription et de page miroir ne sont pas pris en compte.
-* **[!UICONTROL Transactions]** : nombre total de transactions suite à la réception d&#39;un message. Pour qu&#39;une transaction soit comptabilisée, une balise de webtracking de type transaction doit être insérée sur la page web correspondante. Le paramétrage du webtracking est présenté dans [cette section](../../configuration/using/about-web-tracking.md).
+* **[!UICONTROL Clics]** : Nombre total de clics sur les liens des diffusions. Les clics sur les liens de désinscription et les pages miroir ne sont pas pris en compte.
+* **[!UICONTROL Transactions]** : Nombre total de transactions après réception d’un message. Pour qu&#39;une transaction soit prise en compte, une balise de webtracking de type transaction doit être insérée dans la page web correspondante. Le paramétrage du webtracking est présenté dans la section [cette section](../../configuration/using/about-web-tracking.md).
 
-## Échecs et bounces {#non-deliverables-and-bounces}
+## Non-délivrables et rebonds {#non-deliverables-and-bounces}
 
-Ce rapport présente la répartition des messages en échec et la répartition des échecs par domaine Internet.
+Ce rapport présente la répartition des non-délivrables et la répartition des rebonds par domaine Internet.
 
 Le **[!UICONTROL Nombre de messages traités]** représente le nombre total de messages traités par le serveur de diffusion. Cette valeur est inférieure au nombre de messages à diffuser lorsque certaines diffusions ont été stoppées ou mises en pause (avant d&#39;être traitées par le serveur).
 
@@ -82,7 +82,7 @@ Le **[!UICONTROL Nombre de messages traités]** représente le nombre total de m
 
 >[!NOTE]
 >
->Les erreurs présentées dans ce rapport enclenchent le mécanisme de mise en quarantaine. Pour plus d&#39;information sur la gestion des quarantaines, consultez la section [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md).
+>Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d&#39;informations sur la gestion des quarantaines, voir [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md).
 
 La première partie de ce rapport présente la répartition des messages en échec sous la forme d&#39;un tableau de valeurs et d&#39;un graphique.
 
@@ -104,7 +104,7 @@ Les indicateurs utilisés sont les suivants :
 
   >[!NOTE]
   >
-  >Cet indicateur ne concerne que les diffusions sur les canaux mobiles. Voir à ce sujet [cette section](../../delivery/using/sms-channel.md).
+  >Cet indicateur ne concerne que les diffusions sur les canaux mobiles. Pour plus d’informations, consultez [cette section](../../delivery/using/sms-channel.md).
 
   Vous pouvez déplier chaque ligne du tableau de valeurs en cliquant sur le symbole `[+]` correspondant. Cela permet d’afficher, pour chaque type d’erreur, la répartition des messages d’erreur, par domaine.
 
@@ -126,7 +126,7 @@ Vous pouvez déplier chaque ligne du tableau de valeurs en cliquant sur le symbo
 
 >[!NOTE]
 >
->Les noms de domaine qui apparaissent dans ce rapport sont définis au niveau des cubes. Vous pouvez modifier ces valeurs en éditant le cube **[!UICONTROL Logs de diffusion (broadlogrcp)]**. Voir à ce sujet [cette section](../../reporting/using/ac-cubes.md). La catégorie **[!UICONTROL Autres]** regroupe les noms de domaine qui n&#39;appartiennent à aucune classe.
+>Les noms de domaine affichés dans ce rapport sont définis au niveau des cubes. Pour modifier ces valeurs, modifiez la variable **[!UICONTROL Logs de diffusion (broadlogrcp)]** cube. Pour plus d’informations, consultez [cette section](../../reporting/using/ac-cubes.md). La variable **[!UICONTROL Autres]** category comprend les noms de domaine qui n’appartiennent pas à une classe spécifique.
 
 ## Navigateurs {#browsers}
 
@@ -186,13 +186,13 @@ Le tableau central présente les statistiques de partage et d&#39;ouverture du m
 
 Dans la colonne **[!UICONTROL Partages]**, les indicateurs sont les suivants :
 
-* **[!UICONTROL Nb partages]** : Nombre total de messages partagés, sur chaque réseau social. Cette valeur correspond au nombre total de clics effectués sur l&#39;icône correspondante du bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**.
+* **[!UICONTROL Non. des activités de partage]** : Nombre total de messages partagés sur chaque réseau social. Cette valeur est égale au nombre total de clics sur l&#39;icône de la correspondance **[!UICONTROL Liens de partage vers les réseaux sociaux]** bloc de personnalisation.
 * **[!UICONTROL Répartition]** : Taux représentant la répartition des partages, par réseau social, par rapport au nombre total de partages.
 * **[!UICONTROL Taux de partage]** : Ce taux représente la répartition des partages, par réseau social, par rapport au nombre de messages à diffuser.
 
 Dans la colonne **[!UICONTROL Ouvertures]**, les indicateurs sont les suivants :
 
-* **[!UICONTROL Nb ouvertures]** : Nombre total de messages ouverts par les personnes à qui le message a été transféré (via le bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**). Cette valeur correspond au nombre de fois où la page miroir a été affichée. Les messages ouverts par les destinataires cibles de la diffusion ne sont pas pris en compte dans cette valeur.
+* **[!UICONTROL Non. of opens]** : Nombre total de messages ouverts par les personnes à qui le message a été transféré (via le **[!UICONTROL Liens de partage vers les réseaux sociaux]** bloc de personnalisation). Cette valeur correspond au nombre de fois où la page miroir s’affichait. Les ouvertures par destinataires de diffusion ne sont pas prises en compte.
 * **[!UICONTROL Répartition]** : Ce taux représente la répartition des ouvertures, par réseau social, par rapport au nombre total d&#39;ouvertures.
 * **[!UICONTROL Taux d&#39;ouverture]** : Ce taux représente la répartition des ouvertures, par réseau social, par rapport au nombre total de partages.
 
@@ -212,9 +212,9 @@ Les statistiques sont présentées sous la forme d&#39;un tableau de valeurs et 
 
 Les indicateurs utilisés sont les suivants :
 
-* **[!UICONTROL Nouveaux contacts]** : Nombre de nouvelles inscriptions suite à la réception d&#39;un message partagé par email. Cette valeur correspond au nombre de personnes qui ont reçu un message partagé par email, qui ont cliqué sur le **[!UICONTROL Lien d&#39;inscription]** et qui ont rempli le formulaire d&#39;inscription.
+* **[!UICONTROL Nouveaux contacts]** : Nombre de nouveaux abonnements suite à la réception d&#39;un message partagé par email. Cette valeur correspond au nombre de personnes qui ont reçu un message partagé par e-mail, ayant cliqué sur la variable **[!UICONTROL Lien d&#39;abonnement]** et remplissez le formulaire d&#39;inscription.
 * **[!UICONTROL Ouvertures]** : Nombre total de messages ouverts par les personnes à qui le message a été transféré (via le bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**). Cette valeur correspond au nombre de fois où la page miroir a été affichée. Les messages ouverts par les destinataires cibles de la diffusion ne sont pas pris en compte dans cette valeur.
-* **[!UICONTROL Partages]** : Nombre total de messages partagés sur les réseaux sociaux. Cette valeur correspond au nombre total de clics effectués sur l&#39;icône correspondante du bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**.
+* **[!UICONTROL Partage d&#39;activités]** : Nombre total de messages partagés sur les réseaux sociaux. Cette valeur correspond au nombre total de clics sur l’icône de la variable **[!UICONTROL Liens de partage vers les réseaux sociaux]** bloc de personnalisation.
 
 ## Systèmes d’exploitation {#operating-systems}
 
@@ -259,7 +259,7 @@ Ce rapport permet d&#39;assurer le suivi des abonnements aux services d&#39;info
 
 ![](assets/s_ncs_user_services_report.png)
 
-Il peut être affiché pour un abonnement particulier en cliquant sur **[!UICONTROL Profils et Cibles > Services et Abonnements]** à partir de l&#39;écran d&#39;accueil ou de l&#39;explorateur. Sélectionnez l&#39;abonnement visé et cliquez sur l&#39;onglet **[!UICONTROL Rapports]**. Par défaut, le rapport **[!UICONTROL Tracking des abonnements]** est disponible. Il permet de consulter l&#39;évolution des inscriptions et désinscriptions ainsi que le taux de fidélité sur une période. La représentation de ces données peut être paramétrée à partir de la liste déroulante. Cliquez sur le bouton **[!UICONTROL Actualiser]** pour valider le paramétrage sélectionné.
+Il peut être affiché pour un abonnement en cliquant sur l’icône **[!UICONTROL Profils et cibles > Services et abonnements]** du noeud de la page d&#39;accueil ou de l&#39;explorateur. Sélectionnez l’abonnement souhaité, puis cliquez sur le bouton **[!UICONTROL Rapports]** . La variable **[!UICONTROL Tracking des abonnements]** est disponible par défaut. Il vous permet de visualiser les tendances d&#39;inscription et de désinscription, ainsi que le taux de fidélité sur une période. Vous pouvez paramétrer la représentation de ces données depuis la liste déroulante. Cliquez sur **[!UICONTROL Actualiser]** pour valider la configuration sélectionnée.
 
 Voir à ce propos [cette page](../../delivery/using/managing-subscriptions.md).
 
@@ -281,7 +281,7 @@ Ce graphique représente l&#39;évolution dans le temps des inscriptions et dés
 
 ## Statistiques de diffusion {#delivery-statistics}
 
-Ce rapport présente la répartition, par domaine Internet, des messages traités et envoyés, des erreurs hard et soft, des ouvertures, des clics et des désinscriptions.
+Ce rapport présente la répartition, par domaine Internet, des messages traités et envoyés, des rebonds définitifs et temporaires, des ouvertures, des clics et des désinscriptions.
 
 ![](assets/s_ncs_user_broadcast_report.png)
 
@@ -289,12 +289,12 @@ Les indicateurs utilisés sont les suivants :
 
 * **[!UICONTROL Emails traités]** : Nombre total de messages traités par le serveur de diffusion.
 * **[!UICONTROL Délivrés]** : Pourcentage du nombre de messages traités avec succès, par rapport au nombre total de messages traités.
-* **[!UICONTROL Erreurs hard]** : Pourcentage du nombre d&#39;erreurs &quot;hard&quot;, par rapport au nombre total de messages traités.
-* **[!UICONTROL Erreurs soft]** : Pourcentage du nombre d&#39;erreurs &quot;soft&quot;, par rapport au nombre total de messages traités.
+* **[!UICONTROL Rebonds définitifs]** : pourcentage du nombre de rebonds « définitifs », par rapport au nombre total de messages traités.
+* **[!UICONTROL Rebonds temporaires]** : pourcentage du nombre de rebonds « temporaires », par rapport au nombre total de messages traités.
 
   >[!NOTE]
   >
-  >Pour plus d&#39;informations sur les hard et soft bounces, consultez la section [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md).
+  >Pour plus d’informations sur les rebonds définitifs et temporaires, consultez la section [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md).
 
 * **[!UICONTROL Ouvertures]** : pourcentage du nombre de destinataires ciblés distincts ayant ouvert au moins une fois un même message, par rapport au nombre de messages traités avec succès.
 * **[!UICONTROL Clics]** : Pourcentage du nombre de personnes distinctes ayant cliqué au moins une fois dans une même diffusion, par rapport au nombre de messages traités avec succès.

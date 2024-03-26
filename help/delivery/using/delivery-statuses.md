@@ -9,8 +9,8 @@ role: User
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '649'
+ht-degree: 91%
 
 ---
 
@@ -83,7 +83,7 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
   </tr> 
   <tr> 
    <td> Préparé<br /> </td> 
-   <td> Statut intermédiaire utilisé uniquement pour les connecteurs externes tels que le canal mobile.Il succède à l'état 'En attente' et c'est le connecteur externe qui déterminera le statut suivant.<br /> </td> 
+   <td> Statut intermédiaire utilisé uniquement pour les connecteurs externes tels que le canal mobile. Il suit le statut 'En attente' et est le connecteur externe qui déterminera le statut suivant.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +94,7 @@ Pour découvrir comment optimiser la délivrabilité de vos emails Adobe Campai
 
 Après avoir validé votre diffusion, vous pouvez constater que son statut est **[!UICONTROL En attente]**.Ce statut signifie que le processus d&#39;exécution attend la disponibilité de certaines ressources.
 
-Le statut **[!UICONTROL En attente]** peut d&#39;abord signifier que votre diffusion a été planifiée et qu&#39;elle est en attente jusqu&#39;à la date spécifiée.Voir à ce sujet la section [Planifier la diffusion](steps-sending-the-delivery.md#scheduling-the-delivery-sending).
+La variable **[!UICONTROL En attente]** L’état peut d’abord signifier que votre diffusion a été planifiée et qu’elle est en attente jusqu’à la date indiquée. Voir à ce sujet la section [Planifier la diffusion](steps-sending-the-delivery.md#scheduling-the-delivery-sending) .
 
 Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL En attente]**, la raison peut en être la suivante :
 

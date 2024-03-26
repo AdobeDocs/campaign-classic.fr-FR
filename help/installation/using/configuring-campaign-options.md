@@ -10,8 +10,8 @@ topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '4007'
-ht-degree: 100%
+source-wordcount: '3841'
+ht-degree: 90%
 
 ---
 
@@ -46,11 +46,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">DmRendering_cuid</span> <br /> </td> 
-   <td> Identifiant pour les rapports de délivrabilité. Merci de contacter le support pour obtenir votre identifiant.<br /> </td> 
+   <td> Identifiant des rapports de diffusion. Veuillez contacter le support pour obtenir votre identifiant.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">DmRendering_SeedTargets</span> <br /> </td> 
-   <td> Liste des schémas pour lesquels vous souhaitez utiliser des adresses de test pour l'Inbox Rendering (les noms des éléments sont séparés par des virgules). Par exemple : custom_nms_recipient.<br /> </td> 
+   <td> Liste des schémas pour lesquels vous souhaitez utiliser des adresses de test pour l'Inbox Rendering. (les noms des éléments sont séparés par des virgules) Par exemple : custom_nms_recipient.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
@@ -58,7 +58,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> Permet d’autoriser l’opérateur en charge de la diffusion à confirmer l’envoi, si un opérateur ou un groupe spécifique d’opérateurs est désigné pour démarrer une diffusion dans les propriétés de la diffusion.</p><p> Pour ce faire, activez l'option en saisissant "1" comme valeur. Pour désactiver cette option, entrez "0".</p><p> Le processus de confirmation des envois fonctionnera alors comme par défaut : seul l'opérateur ou le groupe d'opérateurs désigné pour l'envoi (ou un administrateur) dans les propriétés de la diffusion pourra confirmer et effectuer l'envoi. Voir <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">cette section</a>.</p> </td> 
+   <td><p> Permet d’autoriser l’opérateur en charge de la diffusion à confirmer l’envoi, si un opérateur ou un groupe spécifique d’opérateurs est désigné pour démarrer une diffusion dans les propriétés de la diffusion.</p><p> Pour ce faire, activez l'option en saisissant "1" comme valeur. Pour désactiver cette option, entrez "0".</p><p> Le processus de confirmation des envois fonctionnera alors comme par défaut : seul l'opérateur ou le groupe d'opérateurs désigné pour l'envoi (ou un administrateur) dans les propriétés de la diffusion pourra confirmer et effectuer l'envoi. Consultez <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">cette section</a>.</p> </td> 
    <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
    <td> Adobe Campaign utilise une variable globale "Nms_DefaultRcpSchema" pour dialoguer avec la base de destinataires par défaut (nms:recipient).<br /> La valeur de l'option doit correspondre au nom du schéma qui correspond à la table de destinataires externe.<br /> </td> 
@@ -173,7 +173,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInmail_AllowlistEmails</span> <br /> </td> 
-   <td> Liste des adresses email de transfert autorisées (à partir du module de traitement du courrier entrant). Les adresses doivent être séparées par des virgules (ou * pour les autoriser toutes). Par exemple, xyz@abc.com,pqr@abc.com.<br /> </td> 
+   <td> Liste des adresses email de transfert autorisées (à partir du module de traitement du courrier entrant). Les adresses doivent être séparées par des virgules (ou * pour autoriser toutes). Par exemple, xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
@@ -288,11 +288,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NcmRessourcesDir</span> <br /> </td> 
-   <td> Emplacement des ressources pour la publication dans la console cliente d'Adobe Campaign. Voir <a href="../../delivery/using/formatting.md#image-referencing">cette section</a>.<br /> </td> 
+   <td> Emplacement des ressources pour la publication dans la console cliente Adobe Campaign. Consultez <a href="../../delivery/using/formatting.md#image-referencing">cette section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmRessourcesDirPreview</span> <br /> </td> 
-   <td> Emplacement des ressources pour la prévisualisation dans la console cliente d'Adobe Campaign. Voir <a href="../../delivery/using/formatting.md#image-referencing">cette section</a>.<br /> </td> 
+   <td> Emplacement des ressources pour la prévisualisation dans la console cliente Adobe Campaign. Consultez <a href="../../delivery/using/formatting.md#image-referencing">cette section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_DefaultIgnoredImage</span> <br /> </td> 
@@ -365,7 +365,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> Vous permet de surveiller l’exécution du workflow technique <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a>. Si ce paramètre est activé (avec la valeur "1"), les informations d’exécution sont consignées dans les logs d’audit du workflow.<br /> </td> 
+   <td> Permet de surveiller le <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a> exécution technique du workflow. Lorsqu’elles sont activées (valeur "1"), les informations d’exécution sont consignées dans les journaux d’audit du workflow.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 
@@ -385,7 +385,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCampaign_Activate_OwnerConfirmation</span> <br /> </td> 
-   <td> Activez la validation des diffusion par le propriétaire de l'opération en entrant "1" comme valeur. Pour désactiver cette option, entrez "0".<br /> </td> 
+   <td> Activez la validation des diffusions par le propriétaire de l’opération en saisissant "1" comme valeur. Pour désactiver cette option, saisissez "0".<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsAsset_JavascriptExt</span> <br /> </td> 
@@ -418,7 +418,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
-   <td> Cette clé est utilisée pour chiffrer la plupart des mots de passe dans la base de données (comptes externes, mot de passe LDAP...).<br /> </td> 
+   <td> Cette clé est utilisée pour chiffrer la plupart des mots de passe dans la base de données. (comptes externes, mot de passe LDAP...).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Allow_PrivilegeEscalation</span> <br /> </td> 
@@ -459,7 +459,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">MC_EnrichmentCustomJs</span> <br /> </td> 
-   <td> Bibliothèque JavaScript à personnaliser pour l'enrichissement des événements. Doit contenir l'implémentation de ces deux fonctions :<br /> 
+   <td> Bibliothèque JavaScript à personnaliser pour l'enrichissement des événements. Doit contenir l’implémentation de ces deux fonctions :<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">enrichRtEvents(aiEventId);</span> : enrichit et enregistre les événements dans la base de données (où <span class="uicontrol">aiEventId</span> correspond à la table des événements temps réel traités).</p> </li> 
      <li> <p> <span class="uicontrol">enrichBatchEvents(aiEventId);</span> : enrichit et enregistre les événements dans la base de données (où <span class="uicontrol">aiEventId</span> correspond à la table des ID des événements batch traités).</p> </li> 
@@ -471,7 +471,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RoutingCustomJs</span> <br /> </td> 
-   <td> Bibliothèque JavaScript à personnaliser pour le routage des événements. Doit contenir l'implémentation de ces deux fonctions :<br /> 
+   <td> Bibliothèque JavaScript à personnaliser pour le routage des événements. Doit contenir l’implémentation de ces deux fonctions :<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">dispatchRtEvent(iEventId);</span> : renvoie le nom interne du message transactionnel sélectionné pour traiter l'événement temps réel (où <span class="uicontrol">iEventId</span> correspond à l'ID du traitement temps réel traité).</p> </li> 
      <li> <p> <span class="uicontrol">dispatchBatchEvent(iEventId);</span> : renvoie le nom interne du message transactionnel sélectionné pour traiter l'événement batch (où <span class="uicontrol">iEventId</span> correspond à l'ID du traitement batch traité).</p> </li> 
@@ -672,7 +672,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkDatabaseId</span> <br /> </td> 
-   <td> ID de la base de données. Commence par 'u' pour la Base Unicode.<br /> </td> 
+   <td> Identifiant de la base de données. Commence par "u" pour la base de données Unicode.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkInstancePrefix</span> <br /> </td> 
@@ -692,11 +692,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NlMigration_KeepFolderStructure</span> <br /> </td> 
-   <td> Pendant la migration, la structure arborescente est automatiquement réorganisée selon les standards de la nouvelle version.<br /> Cette option vous permet de désactiver la migration automatique de l'arbre de navigation. Si vous l'utilisez, après la migration vous devrez supprimer les dossiers obsolètes, ajouter les nouveaux dossiers et effectuer toutes les vérifications nécessaires.<br /> 
+   <td> Pendant la migration, la structure arborescente est automatiquement réorganisée selon les standards de la nouvelle version.<br /> Cette option permet de désactiver la migration automatique de l'arborescence de navigation. Si vous l’utilisez, après la migration, vous devrez supprimer les dossiers obsolètes, ajouter les nouveaux dossiers et effectuer toutes les vérifications nécessaires.<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">Type de données :</span> entier</p> </li> 
      <li> <p> <span class="uicontrol">Valeur (texte)</span> : 1 </p> </li> 
-    </ul> Cette option devrait uniquement être utilisée si l'arbre de navigation d'usine a subi un trop grand nombre de modifications.<br /> </td> 
+    </ul> Cette option ne doit être utilisée que si l'arborescence de navigation d'usine a subi un trop grand nombre de modifications.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span> <br /> </td> 
@@ -725,11 +725,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">AEMResourceTypeFilter</span> <br /> </td> 
-   <td> Types de ressources AEM qui peuvent être utilisés dans Adobe Campaign. Les valeurs doivent être séparées par des virgules.<br /> </td> 
+   <td> Types de ressources AEM pouvant être utilisés dans Adobe Campaign. Les valeurs doivent être séparées par des virgules.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Permet de paramétrer les Triggers Experience Cloud. Le type de données est "texte long" et doit être au format JSON. Voir <a class="anchorLink" href="https://helpx.adobe.com/fr/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Utilisation des Triggers Experience Cloud avec Adobe Campaign Classic</a>.<br /> </td> 
+   <td> Permet de configurer les déclencheurs Experience Cloud. Le type de données est "texte long" et doit être au format JSON. Voir <a class="anchorLink" href="https://helpx.adobe.com/fr/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Utilisation de Triggers Experience Cloud avec Adobe Campaign Classic</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
@@ -835,7 +835,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkPassUnknownSQLFunctionsToRDBMS</span> <br /> </td> 
-   <td> Permet de continuer à utiliser les anciennes fonctions SQL non déclarées après la migration. Nous vous recommandons fortement de ne pas utiliser cette option en raison des risques de sécurité qu'elle présente.<br /> </td> 
+   <td> Permet de continuer à utiliser d’anciennes fonctions SQL non déclarées après la migration. Il est vivement déconseillé d’utiliser cette option en raison des risques de sécurité qu’elle présente.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -925,7 +925,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">Privacy_Request_ConfirmDeletePending</span> <br /> </td> 
-   <td> Si l'option 1 est sélectionnée, vous devez confirmer manuellement, dans une seconde étape, la suppression dans l'interface utilisateur. Sinon, les données seront supprimées sans confirmation.<br /> </td> 
+   <td> Si l’option 1 est sélectionnée, vous devez confirmer manuellement la suppression dans l’interface lors d’une seconde étape. Sinon, les données seront supprimées sans confirmation.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Privacy_Request_ConfirmDeletePendingDelay</span> <br /> </td> 

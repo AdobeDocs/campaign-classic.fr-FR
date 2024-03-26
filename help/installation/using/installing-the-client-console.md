@@ -10,8 +10,8 @@ topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 100%
+source-wordcount: '1159'
+ht-degree: 96%
 
 ---
 
@@ -117,7 +117,7 @@ Les utilisateurs doivent maintenant télécharger et installer la console en pro
 
 1. Cliquez sur le lien **[!UICONTROL Téléchargement]** proposé dans la page d’installation.
 1. Téléchargez et enregistrez le fichier d’installation client.
-1. Exécutez le fichier téléchargé sur un poste sous Windows : l&#39;installation démarre. Le chemin d&#39;installation par défaut de la console cliente est **$PROGRAMFILES$/Adobe/Adobe Campaign Classic vX Client**, où X correspond à 6 ou 7, selon votre version d&#39;Adobe Campaign.
+1. Exécutez le fichier téléchargé sur un ordinateur sous Windows : l’installation démarre. Le chemin d’installation par défaut de la console cliente est : **$PROGRAMFILES$/Adobe/Adobe Campaign Classic vX Client**, où &quot;X&quot; est &quot;6&quot; ou &quot;7&quot;, selon votre version Adobe Campaign.
 
 ### Créer la connexion - Nouveaux utilisateurs uniquement{#create-the-connection}
 

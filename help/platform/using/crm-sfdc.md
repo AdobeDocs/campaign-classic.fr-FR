@@ -7,7 +7,7 @@ feature: Salesforce Integration
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '356'
 ht-degree: 100%
 
 ---

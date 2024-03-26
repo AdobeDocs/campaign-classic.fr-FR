@@ -8,7 +8,7 @@ exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -80,7 +80,7 @@ Pour insérer des balises de personnalisation dans le corps d&#39;un message ema
 
    ![](assets/messagecenter_create_custo_002.png)
 
-1. Complétez la balise selon la syntaxe suivante : **nom de l&#39;élément**.@**nom de l&#39;attribut** comme illustré ci-dessous.
+1. Renseignez la balise en utilisant la syntaxe suivante : **nom de l’élément**.@**nom de l’attribut** comme illustré ci-dessous.
 
    ![](assets/messagecenter_create_custo_003.png)
 

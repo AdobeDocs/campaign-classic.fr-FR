@@ -11,7 +11,7 @@ exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -56,7 +56,7 @@ En fonction du calendrier de l’incident et du FAI, voici les instructions reco
 
    * **Texte d&#39;erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient »
    * **Domaine d’e-mail (@domain)** égal à domain1.com OU **domaine d’email (@domain)** égal à domain2.com OU **domaine d’email (@domain)** égal à domain3.com
-   * **Mise à jour du statut (@lastModified)** sur ou après `MM/DD/YYYY HH:MM:SS AM`
+   * **Statut de la mise à jour (@lastModified)** à partir du `MM/DD/YYYY HH:MM:SS AM`
    * **Mise à jour du statut (@lastModified)** le ou avant `MM/DD/YYYY HH:MM:SS PM`
 
 * Pour les environnements Campaign contenant des informations de réponse de rebond SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
@@ -65,8 +65,8 @@ En fonction du calendrier de l’incident et du FAI, voici les instructions reco
 
      où « support.ISP.com » peut être « support.apple.com » ou « support.google.com », par exemple.
 
-   * **Mise à jour du statut (@lastModified)** sur ou après `MM/DD/YYYY HH:MM:SS AM`
-   * **Mise à jour du statut (@lastModified)** le ou avant  `MM/DD/YYYY HH:MM:SS PM`
+   * **Statut de la mise à jour (@lastModified)** à partir du `MM/DD/YYYY HH:MM:SS AM`
+   * **Statut de la mise à jour (@lastModified)** le ou avant le `MM/DD/YYYY HH:MM:SS PM`
 
 
 Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l’état **[!UICONTROL Valide]** afin qu’ils soient supprimés de la liste de quarantaine par le processus de **[!UICONTROL nettoyage de la base de données]**, soit simplement les supprimer de la table.

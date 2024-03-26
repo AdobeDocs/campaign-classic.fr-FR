@@ -11,7 +11,7 @@ exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
 source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '1452'
-ht-degree: 77%
+ht-degree: 83%
 
 ---
 
@@ -62,7 +62,7 @@ Vous pouvez modifier et mettre à jour une ressource marketing et, au besoin, en
 
 >[!NOTE]
 >
->La variable **[!UICONTROL Histoire]** contient le journal de téléchargement et de mise à jour de la ressource. La variable **[!UICONTROL Détails]** permet de visualiser la version sélectionnée.
+>L’onglet **[!UICONTROL Historique]** contient le journal de téléchargement et de mise à jour de la ressource. Le bouton **[!UICONTROL Détails]** permet de visualiser la version sélectionnée.
 
 ### Verrouiller/déverrouiller une ressource {#locking-unlocking-a-resource}
 
@@ -112,7 +112,7 @@ L&#39;onglet **[!UICONTROL Historique]** affiche les transferts de fichiers réa
 
 ### Processus de validation {#approval-process}
 
-La date de disponibilité attendue est affichée dans les détails de la ressource, si elle a été spécifiée dans la variable **[!UICONTROL Tracking]** . Une fois cette date atteinte, vous pouvez exécuter le processus de validation à l&#39;aide du **[!UICONTROL Soumettre à validation]** dans le tableau de bord de la ressource. La ressource passe alors à l’état **[!UICONTROL Validation en cours]**.
+La date de disponibilité prévue est affichée dans les détails de la ressource, si elle a été spécifiée dans l’onglet **[!UICONTROL Tracking]**. Une fois cette date atteinte, vous pouvez exécuter le processus de validation à l’aide du bouton **[!UICONTROL Soumettre à validation]** du tableau de bord de la ressource. La ressource adopte alors le statut **[!UICONTROL Validation en cours]**.
 
 Une ressource peut être validée via le bouton **[!UICONTROL Valider la ressource]** de son tableau de bord.
 
@@ -144,7 +144,7 @@ Vous pouvez également automatiser la publication d&#39;une ressource via un wor
 
 Publier une ressource signifie la rendre disponible afin qu&#39;elle puisse être utilisée (par exemple dans une autre tâche). La publication proprement dite varie suivant la nature de votre ressource : pour un flyer, la publication peut consister à envoyer le fichier à un imprimeur, pour une page web, la publier sur un site...
 
-Pour qu&#39;Adobe Campaign puisse publier, vous devez créer un workflow adéquat et le lier à la ressource. Pour ce faire, ouvrez le **[!UICONTROL Paramètres avancés]** de la ressource, puis sélectionnez le workflow de votre choix dans la **[!UICONTROL Post-traitement]** champ .
+Pour qu’Adobe Campaign puisse effectuer la publication, vous devez créer un workflow adéquat et le lier à la ressource. Pour ce faire, ouvrez le **[!UICONTROL Paramètres avancés]** de la ressource, puis sélectionnez le workflow de votre choix dans la **[!UICONTROL Post-traitement]** champ .
 
 ![](assets/mrm_asset_postprocessing_workflow.png)
 

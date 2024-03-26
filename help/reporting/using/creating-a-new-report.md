@@ -7,7 +7,7 @@ exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Pour créer un rapport, les étapes sont les suivantes :
 
    Pour plus d&#39;informations sur ces modèles de rapport, consultez [cette section](../../reporting/using/about-descriptive-analysis.md).
 
-1. Saisissez le nom du rapport et sa description dans les champs correspondants. Indiquez le **[!UICONTROL schéma]** sur lequel s&#39;appliquera le rapport.
+1. Renseignez le nom du rapport et sa description dans les champs correspondants. Spécifiez la variable **[!UICONTROL schema]** sur laquelle le rapport sera appliqué.
 
    ![](assets/s_ncs_advuser_report_wizard_020.png)
 
@@ -116,7 +116,7 @@ Une **[!UICONTROL Page]** peut contenir les éléments suivants :
 * Des **[!UICONTROL Contrôles de saisie]** de type Texte ou Nombre.
 * Des **[!UICONTROL Contrôles de sélection]** de type Liste déroulante, Case à cocher, Bouton radio, Choix multiples, Dates ou Matrice.
 * Des **[!UICONTROL Contrôles avancés]** de type Editeur de lien, Constante, Choix de dossier.
-* Des **[!UICONTROL Eléments statiques]** de type Valeur, Lien, HTML, Image, etc.
+* Valeur, lien, HTML, image, etc. **[!UICONTROL Eléments statiques]**.
 * Des **[!UICONTROL Conteneurs]** pour assurer la mise en page des composants.
 
 Le mode de paramétrage d&#39;une page et de ses composants est présenté dans [cette section](../../web/using/about-web-forms.md).

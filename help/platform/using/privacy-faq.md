@@ -113,7 +113,7 @@ Lorsque vous recevez une demande de suppression, vous devez vérifier, en tant q
 
 ## Renouvellement d’opt-in {#opt-in-again}
 
-### Est-ce qu’un titulaire de données, dont les données ont été effacées d’Adobe Campaign, peut à nouveau donner son accord plus tard ?
+### Est-ce qu’un ou une titulaire de données, dont les données ont été effacées d’Adobe Campaign, peut à nouveau donner son opt-in plus tard ?
 
 Il est possible pour un titulaire de données de donner à nouveau son accord ou d’être ajouté en tant que nouveau destinataire après l’effacement de ses données d’Adobe Campaign.
 

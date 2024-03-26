@@ -50,8 +50,8 @@ Si l’élément `<join>` n&#39;est pas précisé lors de la définition d&#39;u
 ## Description des attributs {#attribute-description-7}
 
 * **dstFilterExpr (string)** : cet attribut permet de restreindre le nombre de valeurs éligibles dans la table distante.
-* **xpath-dst (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; de la table distante).
-* **xpath-src (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; dans le schéma courant).
+* **xpath-dst (string)** : cet attribut reçoit un Xpath (attribut « @name » de la table distante).
+* **xpath-src (string)** : cet attribut reçoit un Xpath (attribut « @name » dans le schéma courant).
 
 ## Exemples       {#examples-6}
 

@@ -7,9 +7,9 @@ feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '1018'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1020'
+ht-degree: 93%
 
 ---
 
@@ -81,7 +81,7 @@ Exemples:
 </dbindex>
 ```
 
-L&#39;attribut **xpath** pointe vers le champ de votre schéma que vous souhaitez indexer.
+L’attribut **xpath** pointe vers le champ de votre schéma que vous souhaitez indexer.
 
 >[!IMPORTANT]
 >
@@ -113,7 +113,7 @@ Pour en savoir plus sur les clés, consultez la section [Gestion des clés](../.
 
 ## Attributs (champs) {#attributes--fields-}
 
-Les attributs permettent de définir les champs composant votre objet de données. Utilisez le bouton **[!UICONTROL Insérer]** de la barre d&#39;outils d’édition du schéma pour ajouter les modèles d’attribut vides dans votre XML, à l’endroit où se trouve votre curseur. Voir à ce sujet la section [Schémas de données](../../configuration/using/data-schemas.md).
+Les attributs vous permettent de définir les champs qui constituent votre objet de données. Vous pouvez utiliser la variable **[!UICONTROL Insérer]** dans la barre d’outils d’édition de schéma pour déposer les modèles d’attribut vides dans votre XML où se trouve votre curseur. Voir à ce sujet la section [Schémas de données](../../configuration/using/data-schemas.md).
 
 ![](assets/schemaextension_getting_started_2.png)
 
@@ -200,7 +200,7 @@ Exemple d&#39;une jointure externe entre la table des destinataires et une table
 </element>
 ```
 
-&quot;xpath-dst&quot; correspond ici à la clé primaire dans le schéma cible et &quot;xpath-src&quot; à la clé étrangère dans le schéma source.
+« xpath-dst » correspond ici à la clé primaire dans le schéma cible et « xpath-src » à la clé étrangère dans le schéma source.
 
 ## Journal d’audit {#audit-trail}
 
@@ -222,4 +222,4 @@ Voir à ce sujet la section [Mettre à jour la structure de la base de données]
 
 >[!NOTE]
 >
->Lorsque les modifications n&#39;ont aucun impact sur la structure de la base de données, vous devez uniquement régénérer les schémas. Pour ce faire, sélectionnez le ou les schémas à mettre à jour, cliquez avec le bouton droit et sélectionnez **[!UICONTROL Actions > Régénérer les schémas sélectionnés...]**. Voir à ce sujet la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).
+>Lorsque les modifications n’ont pas d’impact sur la structure de la base de données, il vous suffit de régénérer les schémas. Pour cela, sélectionnez le ou les schémas à mettre à jour, cliquez avec le bouton droit et choisissez **[!UICONTROL Actions > Régénérer les schémas sélectionnés...]** . Pour plus d&#39;informations, consultez la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).

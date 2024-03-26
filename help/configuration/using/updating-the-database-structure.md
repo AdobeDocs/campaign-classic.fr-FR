@@ -8,7 +8,7 @@ exl-id: 6c1e061b-8636-4285-8d83-97474544d252
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -26,7 +26,7 @@ Les modules présents dans la base de données sont automatiquement renseignés 
 
 Les options **[!UICONTROL Ajouter les procédures stockées]** et **[!UICONTROL Importer les données d&#39;initialisation]** permettent respectivement de lancer les scripts SQL initiaux et les packages de données (&quot;data package&quot;) exécutés lors de la création de la base de données.
 
-Il est possible d&#39;importer un jeu de données provenant d&#39;un package de données externe : pour cela, il faut cocher l&#39;option **[!UICONTROL Importer un package]** et renseigner le fichier XML du package.
+Vous pouvez importer un ensemble de données à partir d’un package de données externe. Pour ce faire, sélectionnez **[!UICONTROL Importer un package]** et saisissez le fichier XML du package.
 
 Suivez les étapes et visualisez le script SQL de mise à jour de la base de données :
 

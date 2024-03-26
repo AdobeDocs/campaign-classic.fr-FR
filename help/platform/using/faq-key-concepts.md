@@ -10,8 +10,8 @@ topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 100%
+source-wordcount: '835'
+ht-degree: 95%
 
 ---
 
@@ -80,7 +80,7 @@ Un workflow permet par exemple de télécharger un fichier depuis un serveur, de
 
 Un workflow peut également faire intervenir des opérateurs afin de notifier ou valider une opération ou faire un choix. Ainsi, il est possible de créer une action de diffusion, d&#39;assigner une tâche à un ou plusieurs opérateurs qui seront chargés de saisir son contenu ou spécifier sa cible, puis de faire valider le BAT avant de démarrer la diffusion.
 
-[Cliquez ici pour en savoir plus](../../workflow/using/about-workflows.md) sur les workflows. Vous pouvez également consulter les [bonnes pratiques en matière de workflow](../../workflow/using/building-a-workflow.md).
+[Cliquez ici pour en savoir plus](../../workflow/using/about-workflows.md) à propos des processus. Vous pouvez également lire [bonnes pratiques relatives aux workflows](../../workflow/using/building-a-workflow.md).
 
 ## Comment créer et envoyer un premier email ?  {#how-to-create-and-send-a-first-email-}
 
@@ -118,7 +118,7 @@ Consultez la [liste de contrôle relative à la configuration de la sécurité](
 
 ## Comment traduire un message d’erreur ?  {#how-to-translate-an-error-message-}
 
-Un message d&#39;erreur est affiché dans une langue étrangère ? Tous les messages d&#39;erreur et leur traduction sont répertoriés dans [cette page](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr).
+Un message d&#39;erreur s&#39;affiche dans une langue étrangère ? Tous les messages d’erreur et leur traduction sont répertoriés dans [cette page](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr).
 
 ## Est-il possible de créer un formulaire web et collecter les réponses dans Campaign ?  {#can-i-create-a-webform-and-collect-answers-in-campaign-}
 

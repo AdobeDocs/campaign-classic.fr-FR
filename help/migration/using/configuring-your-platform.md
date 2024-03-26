@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 100%
+source-wordcount: '477'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Exemples d&#39;éléments à vérifier :
 
 ## Avant la migration {#before-the-migration}
 
-Dans le cadre d&#39;une migration vers Adobe Campaign v7, les éléments suivants doivent être paramétrés. Ces paramétrages impliquent une prise en compte avant le lancement du **postupgrade**.
+Lors de la migration vers Adobe Campaign v7, les éléments suivants doivent être configurés. Ces éléments doivent être abordés avant de commencer la **postupgrade**.
 
 <!--
 

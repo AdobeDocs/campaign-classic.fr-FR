@@ -9,7 +9,7 @@ exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -47,7 +47,7 @@ Elle contient quatre icônes :
   >
   >Le contenu sélectionné remplace le contenu actuel.
 
-* L’icône **Enregistrer comme modèle** permet d’enregistrer le contenu actuel en tant que modèle. Vous devez saisir le libellé et le nom interne du modèle. Les modèles sont stockés dans le nœud : **[!UICONTROL Ressources > Modèles > Modèles de contenu]**.
+* La variable **Enregistrer en tant que modèle** permet d&#39;enregistrer le contenu actuel en tant que modèle. Vous devez saisir le libellé et le nom interne du modèle. Les modèles sont stockés dans la variable **[!UICONTROL Ressources > Modèles > Modèles de contenu]** noeud .
 
   ![](assets/dce_popup_savetemplate.png)
 
@@ -74,7 +74,7 @@ La section droite de l&#39;éditeur regroupe les principales options qui permett
 Vous pouvez ainsi :
 
 * Déterminer l&#39;affichage d&#39;un ou de plusieurs blocs, voir à ce propos la section [Définir une condition de visibilité](editing-content.md#defining-a-visibility-condition),
-* Définir les bordures et les cadres, voir à ce propos la section [Ajouter une bordure et une trame](editing-content.md#adding-a-border-and-background),
+* Définir les bordures et les cadres, voir à ce propos la section [Ajouter une bordure et un arrière-plan](editing-content.md#adding-a-border-and-background),
 * Définir les attributs d&#39;image (taille, légende), voir à ce propos la section [Modifier les propriétés d&#39;une image](editing-content.md#editing-image-properties),
 * Lier la base de données à un élément de formulaire (zone d&#39;entrée, case à cocher), voir à ce propos la section [Modifier les propriétés des données d&#39;un formulaire](editing-content.md#changing-the-data-properties-for-a-form),
 * Rendre une partie d&#39;un formulaire obligatoire, voir à ce propos la section [Modifier les propriétés des données d&#39;un formulaire](editing-content.md#changing-the-data-properties-for-a-form),
@@ -86,4 +86,4 @@ La barre d’outils est un élément pop-up de l’**élément pop-up** de l’i
 
 >[!CAUTION]
 >
->Certaines fonctionnalités de la barre d&#39;outils permettent de mettre en forme le contenu HTML. Cependant, si la page contient une feuille de style CSS, les **instructions** provenant de la feuille de style peuvent s&#39;avérer **prioritaires** par rapport aux instructions spécifiées avec la barre d&#39;outils.
+>Certaines fonctionnalités de la barre d&#39;outils permettent de mettre en forme le contenu HTML. Cependant, si la page contient une feuille de style CSS, la variable **instructions** de la feuille de style peut s’avérer nécessaire. **priority** sur les instructions spécifiées avec la barre d’outils.

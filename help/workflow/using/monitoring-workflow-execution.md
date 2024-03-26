@@ -7,8 +7,8 @@ feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '2105'
-ht-degree: 100%
+source-wordcount: '2107'
+ht-degree: 98%
 
 ---
 
@@ -44,15 +44,15 @@ Le journal contient l&#39;historique de l&#39;exécution du workflow. Il mémori
 
   ![](assets/new-workflow-display-log-tab.png)
 
-* Filtrer les messages dans le journal par activité. Pour cela, cliquez sur le bouton **[!UICONTROL Afficher les tâches et le journal]** de la barre d&#39;outils située au-dessus du diagramme afin de faire apparaître les onglets **[!UICONTROL Journal]** et **[!UICONTROL Tâches]** sous le diagramme. Sélectionnez une activité pour visualiser tous les messages liés à cette activité. Cette liste affiche également tous les messages lorsqu&#39;aucune activité n&#39;est sélectionnée.
+* Filtrer les messages du journal par activité. Pour ce faire, cliquez sur **[!UICONTROL Afficher les tâches et le journal]** dans la barre d’outils située au-dessus du diagramme afin d’afficher les onglets **[!UICONTROL Journal]** et **[!UICONTROL Tâches]** sous le diagramme. Sélectionnez une activité pour visualiser tous les messages associés. Cette liste contient tous les messages lorsqu’aucune activité n’est sélectionnée.
 
   ![](assets/new-workflow-display-log-activity.png)
 
   >[!NOTE]
   >
-  >Cliquez sur l&#39;arrière-plan du diagramme pour tout désélectionner.
+  >Cliquez sur l’arrière-plan du diagramme pour tout désélectionner.
 
-* Visualiser uniquement les messages associés à une tâche particulière. Pour cela, sélectionnez l&#39;onglet **[!UICONTROL Tâches]** puis cliquez sur une activité du diagramme pour limiter la liste à une activité particulière. Double-cliquez sur une tâche pour afficher toutes les informations ; le dernier onglet de la fenêtre permet d&#39;afficher le journal.
+* Affichez uniquement les messages liés à une tâche donnée. Pour ce faire, sélectionnez l’option **[!UICONTROL Tâche]**, puis sélectionnez une activité dans le diagramme afin de restreindre la liste. Double-cliquez sur une tâche pour afficher les informations ; le dernier onglet de la fenêtre contient le journal.
 
   ![](assets/new-workflow-display-tasks-activity.png)
 
@@ -96,7 +96,7 @@ Le journal affiche la liste chronologique des messages d&#39;exécution des acti
 
 ## Purger l&#39;historique {#purging-the-logs}
 
-L&#39;historique d&#39;un workflow n&#39;est pas purgé automatiquement : tous les messages sont conservés par défaut. Vous pouvez purger l&#39;historique depuis le menu **[!UICONTROL Fichier > Action]** ou en cliquant sur le bouton **[!UICONTROL Actions]** situé dans la barre d’outils au-dessus de la liste. Choisissez **[!UICONTROL Purge de l’historique]**. es options disponibles dans le menu **[!UICONTROL Actions]** sont détaillées dans la section [Barre d’outils des actions](starting-a-workflow.md).
+L’historique d’un workflow n’est pas purgé automatiquement : tous les messages sont conservés par défaut. L’historique peut être purgé via le menu **[!UICONTROL Fichier > Actions]** ou en cliquant sur le bouton **[!UICONTROL Actions]** situé dans la barre d’outils au-dessus de la liste. Sélectionnez **[!UICONTROL Purger l’historique]**. Les options disponibles dans le menu **[!UICONTROL Actions]** sont détaillées dans la section [Barre d’outils des actions](starting-a-workflow.md).
 
 ![](assets/purge_historique.png)
 
@@ -114,11 +114,11 @@ Lorsqu’une erreur se produit, le workflow se met en pause et l’activité qui
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
-Dans l&#39;Explorateur Adobe Campaign, la liste des workflows affiche par défaut une colonne **[!UICONTROL En échec]**.
+Dans l’explorateur Adobe Campaign, la liste des workflows affiche par défaut une colonne **[!UICONTROL En échec]**.
 
 ![](assets/wf-explorer_errors_col.png)
 
-Lorsqu&#39;un workflow est en erreur, le ou les opérateurs appartenant au groupe de supervision du workflow sont avertis par email, sous réserve que leur adresse email soit renseignée dans leur profil. Ce groupe est sélectionné dans le champ **[!UICONTROL Superviseur(s)]** des propriétés du workflow.
+Lorsqu’un workflow est en erreur, la ou les personnes appartenant au groupe de supervision du workflow sont averties par e-mail, pour autant que leur adresse e-mail soit indiquée dans leur profil. Ce groupe est sélectionné dans le champ **[!UICONTROL Personnes chargées de la supervision]** des propriétés de workflow.
 
 ![](assets/wf-properties_select-supervisors.png)
 
@@ -132,15 +132,15 @@ Le lien permet d&#39;accéder en Web à la console Adobe Campaign et, après co
 
 ![](assets/wf-notification_error-console.png)
 
-Vous pouvez paramétrer le workflow pour qu&#39;il ne se mette pas en pause et continue son exécution en cas d&#39;erreur. Pour cela, éditez les **[!UICONTROL Propriétés]** du workflow et, dans la section **[!UICONTROL Gestion des erreurs]**, sélectionnez l&#39;option **[!UICONTROL Ignorer]** dans le champ **[!UICONTROL En cas d&#39;erreur]**. Vous pouvez alors indiquer le nombre d&#39;erreurs consécutives qui peuvent être ignorées avant que le processus ne soit suspendu.
+Vous pouvez paramétrer le workflow pour qu’il ne se mette pas en pause et continue son exécution en cas d’erreur. Pour ce faire, modifiez les **[!UICONTROL Propriétés]** du workflow et dans la section **[!UICONTROL Gestion des erreurs]**, sélectionnez **[!UICONTROL Ignorer]** dans le champ **[!UICONTROL En cas d’erreur]**. Vous pouvez indiquer le nombre d’erreurs qui peuvent être ignorées avant la suspension du processus.
 
-Dans ce cas, la tâche en erreur est abandonnée. Ce mode est particulièrement adapté aux workflows conçus pour retenter l&#39;opération ultérieurement (actions périodiques).
+Dans ce cas, la tâche en erreur est abandonnée. Ce mode est particulièrement adapté aux workflows conçus pour retenter l’opération ultérieurement (actions périodiques).
 
 ![](assets/wf_edit_properties_for_error_mgt.png)
 
 >[!NOTE]
 >
->Vous pouvez appliquer ce paramétrage unitairement au niveau des activités. Pour cela, éditer les propriétés de l&#39;activité et sélectionnez le mode de gestion des erreurs dans l&#39;onglet **[!UICONTROL Avancé]**.
+>Vous pouvez appliquer ce paramétrage au niveau de chaque activité. Pour ce faire, modifiez les propriétés de l’activité et sélectionnez le mode de gestion des erreurs dans l’onglet **[!UICONTROL Avancé]**.
 
 Pour plus d’informations sur la résolution des problèmes d’exécution des workflows, consultez le [Guide de production de Campaign Classic v7](../../production/using/workflow-execution.md).
 
@@ -198,7 +198,7 @@ Voici un workflow de test simple :
 
 ![](assets/wkf_simultaneous_execution1.png)
 
-Le **[!UICONTROL Planificateur]** déclenche un évènement toutes les minutes. L&#39;activité **[!UICONTROL Test]** suivante va tester la variable d&#39;instance **isRunning** pour décider si l&#39;exécution doit se poursuivre ou non :
+Le **[!UICONTROL Planificateur]** déclenche un événement toutes les minutes. L’activité **[!UICONTROL Test]** suivante va tester la variable d’instance **isRunning** pour décider si l’exécution doit se poursuivre ou non :
 
 ![](assets/wkf_simultaneous_execution2.png)
 
@@ -233,9 +233,9 @@ Cette section présente un cas d’utilisation : [Coordonner les mises à jour 
 
 ## Maintenance de la base de données {#database-maintenance}
 
-Les workflows utilisent beaucoup de tables de travail qui occupent de l&#39;espace et finissent par ralentir l&#39;ensemble de la plateforme s&#39;ils ne sont pas maintenus. Pour plus d&#39;informations sur la maintenance des bases de données, voir cette [section](../../production/using/tables-to-maintain.md).
+Les workflows utilisent de nombreuses tables de travail qui occupent de l&#39;espace et finissent par ralentir l&#39;ensemble de la plateforme si elles ne sont pas gérées. Pour plus d&#39;informations sur la maintenance de la base de données, reportez-vous à cette section [section](../../production/using/tables-to-maintain.md) .
 
-Le workflow **Nettoyage de la base** (cleanup), accessible à partir du noeud **Administration > Exploitation > Workflows techniques**, permet de supprimer les données obsolètes afin d&#39;éviter une croissance exponentielle de la base. Le workflow se déclenche de manière automatique sans intervention de l&#39;utilisateur. Voir [Guide de production de Campaign Classic v7](../../production/using/database-cleanup-workflow.md).
+Le workflow **Nettoyage de la base** (cleanup), accessible à partir du nœud **Administration > Exploitation > Workflows techniques** permet de supprimer les données obsolètes afin d&#39;éviter une croissance exponentielle de la base. Le workflow se déclenche de manière automatique sans intervention de l&#39;utilisateur. Voir [Guide de production de Campaign Classic v7](../../production/using/database-cleanup-workflow.md).
 
 Vous pouvez également créer des workflows techniques spécifiques pour purger les données inutiles qui occupent de l’espace. Reportez-vous au [Guide de production de Campaign Classic v7](../../production/using/application-objects.md) et à cette [section](#purging-the-logs).
 
@@ -243,8 +243,8 @@ Vous pouvez également créer des workflows techniques spécifiques pour purger 
 
 Par défaut, si un workflow est en pause, ses tables de travail ne sont jamais purgées. Depuis le build 8880, les workflows ayant été dans un état « en pause » pendant trop longtemps sont automatiquement arrêtés et leurs tables de travail sont purgées. Ce comportement est déclenché comme suit :
 
-* Les workflows qui sont en pause depuis plus de 7 jours apparaissent sous la forme d&#39;un avertissement dans le tableau de bord de supervision (et l&#39;API de supervision) et une notification est envoyée au groupe des superviseurs.
-* Cela se produit chaque semaine, lorsque le workflow technique **[!UICONTROL cleanupPausedWorkflows]** est déclenché. Pour plus d’informations sur le workflow, consultez [cette section](delivery.md).
+* Les workflows qui sont en pause depuis plus de 7 jours apparaissent sous la forme d’un avertissement dans le tableau de bord de surveillance (et l’API de surveillance) et une notification est envoyée au groupe des personnes chargées de la supervision.
+* Cette situation se produit chaque semaine, lorsque le workflow technique **[!UICONTROL cleanupPausedWorkflows]** est déclenché. Pour plus d’informations sur le workflow, reportez-vous à [cette section](delivery.md).
 * Après 4 notifications (un mois en pause par défaut), le workflow est arrêté de manière inconditionnelle. Un journal s’affiche dans le workflow après son arrêt. Les tables sont purgées lors de la prochaine exécution du workflow **[!UICONTROL de nettoyage]**
 
 Ces périodes peuvent être configurées à l&#39;aide de l&#39;option NmsServer_PausedWorkflowPeriod.

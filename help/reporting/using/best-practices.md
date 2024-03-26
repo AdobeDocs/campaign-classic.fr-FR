@@ -7,7 +7,7 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ Afin d&#39;optimiser la création, l&#39;utilisation et la pérennité d&#39;un 
 
 1. Définir le contenu
 
-   Vous devez ensuite savoir quel type de données vous souhaitez afficher : indicateurs d&#39;une diffusion, rapport sur les profils de la base de données, etc.
+   Vous devez ensuite savoir quel type de données vous souhaitez afficher : indicateurs de diffusion, rapport sur les profils de la base de données, etc.
 
    Vous devez également connaître la nature de ces données (simples, issues d&#39;un calcul, volumineuses, etc.), leur localisation (dans Adobe Campaign, dans un système tiers), leur fréquence de mise à jour, afin de définir la périodicité du calcul (quotidien, hebdomadaire, à la volée), ainsi que leur volume.
 

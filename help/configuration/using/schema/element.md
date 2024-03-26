@@ -6,8 +6,8 @@ feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
-source-wordcount: '2014'
-ht-degree: 100%
+source-wordcount: '2016'
+ht-degree: 97%
 
 ---
 
@@ -80,14 +80,14 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
    * &quot;identifier&quot;: nom d&#39;identifiant
    * &quot;resIdentifier&quot;: nom de fichier
 
-* **dbEnum (string)**: reçoit le nom interne d&#39;une énumération &quot;fermée&quot;. Les valeurs de l&#39;énumération doivent être définies dans le `<srcschema>`.
+* **dbEnum (string)**: reçoit le nom interne d&#39;une énumération &quot;fermée&quot;. Les valeurs de l&#39;énumération doivent être définies dans la variable `<srcschema>`.
 * **defOnDuplicate (boolean)**: si cet attribut est activé, lors de la duplication d&#39;un enregistrement, la valeur par défaut (définie dans &quot;@default&quot;) est réappliquée automatiquement à l&#39;enregistrement.
 * **default (string)**: permet de définir le comportement de l&#39;élément (appel à une fonction, valeur par défaut). Cet attribut reçoit une expression XTK.
 * **desc (string)**: permet d&#39;insérer une description de l&#39;élément. Cette description s&#39;affiche dans la barre de statut de l&#39;interface.
 * **displayAsField (boolean)** : si cet attribut est activé, un `<element>` de type « link » s’affiche sous forme de champ dans l’arborescence des schémas (onglet « Structure »). De cette façon, il est possible d&#39;afficher un lien en tant que champ local et de modifier son comportement pendant une requête. Lorsque l&#39;élément est trouvé dans le SELECT d&#39;une requête, la valeur de la cible du lien est utilisée. Lorsque l’élément est trouvé dans le WHERE d’une requête, la clé sous-jacente du lien est utilisée.
 * **edit (string)**: cet attribut précise le type d&#39;input qui sera utilisé dans le formulaire associé à l&#39;élément du schéma en cours de définition.
 * **enum (string)**: reçoit le nom de l&#39;énumération associé au champ. L&#39;énumération peut être insérée dans le même schéma ou bien dans un schéma distant. L&#39;énumération définie une liste fermée de valeurs.
-* **expr (string)**: cet attribut définit un champ calculé dont la définition n&#39;est pas stockée dans la table. Il reçoit un Xpath ou une expression XTK.
+* **expr (string)** : cet attribut définit un champ calculé dont la définition n’est pas stockée dans la table. Il reçoit un Xpath ou une expression XTK.
 * **externalJoin (boolean)**: jointure externe dans un élément de type &quot;link&quot;.
 * **feature (string)**: définit un champ de caractéristiques. Les champs de caractéristiques sont utilisés pour étendre les données d&#39;une table existante, mais avec un stockage déporté dans une table annexe. Les valeurs acceptées sont :
 
@@ -104,7 +104,7 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
   Lorsque une caractéristique est définie dans un schéma, ce schéma doit comporter une clef principale basé sur un seul champ (clef composite non autorisée).
 
 * **featureDate (boolean)**: attribut associé au champ de caractéristiques &quot;feature&quot;, si sa valeur est &quot;true&quot;, il permet de connaître la date de la dernière mise à jour de la valeur.
-* **filterPath (string)**: cet attribut reçoit un Xpath et permet de définir un filtre sur un champ.
+* **filterPath (string)** : cet attribut reçoit un Xpath et permet de définir un filtre sur un champ.
 * **folderLink (string)**: cet attribut reçoit le nom du lien qui permet de retrouver les dossiers dans lesquels sont stockés les entités.
 * **folderModel (string)**: définit le type de dossier permettant le stockage des entités. Cet attribut n&#39;est défini que si &quot;@folderLink&quot; est présent.
 * **folderProcess (string)**: définit le lien dans lequel est stocké les instances des modèles des entités. Cet attribut n&#39;est défini que si &quot;@folderLink&quot; est présent.
@@ -147,7 +147,7 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
 * **ref (string)** : cet attribut définit une référence vers un élément &lt;element> partagé par plusieurs schémas (factorisation des définitions). La définition n&#39;est pas recopiée dans le schéma courant.
 * **required (boolean)**: si cet attribut est activé (@required=&quot;true&quot;), le champ est mis en avant dans l&#39;interface. Le label du champ est affiché en rouge dans un formulaire.
 * **revAdvanced (boolean)**: s&#39;il est activé, cet attribut précise que le lien inverse est de type &quot;advanced&quot;.
-* **revCardinality (string)** : cet attribut définit la cardinalité d&#39;un lien entre deux tables. Il est utilisé dans un `<element>` de type &quot;link&quot;.
+* **revCardinality (string)**: cet attribut définit la cardinalité d&#39;un lien entre deux tables. Il est utilisé dans un type &quot;link&quot;. `<element>`.
 
   Les valeurs possibles sont les suivantes :
 
@@ -160,7 +160,7 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
 * **revExternalJoin (boolean)**: s&#39;il est activé, cet attribut permet de forcer la jointure externe sur le lien inverse.
 * **revIntegrity (string)**: cet attribut définit l&#39;intégrité sur le schéma cible. Les mêmes valeurs que l&#39;attribut &quot;@integrity&quot; sont autorisés. Par défaut, Adobe Campaign donne la valeur &quot;normal&quot; à cet attribut.
 * **revLabel (string)**: libellé du lien inverse.
-* **revLink (string)** : nom du lien inverse. Si la valeur est &quot;_NONE_&quot;, aucun lien inverse ne sera créé dans le schéma destination.
+* **revLink (string)**: nom du lien inverse. Si la valeur est &quot;_AUCUN_&quot;, aucun lien inverse ne sera créé dans le schéma de destination.
 * **revTarget (string)**: cible du lien inverse.
 * **sql (boolean)**: si cet attribut est activé (@sql=&quot;true&quot;), il force le stockage de l&#39;élément en SQL même lorsque l&#39;élément a la propriété xml=&quot;true&quot;.
 * **sqlname (string)**: nom du champ lors de la création de la table. Si &quot;@sqlname&quot; n&#39;est pas précisé la valeur de l&#39;attribut &quot;@name&quot; est pris par défaut. Lors de l&#39;écriture du schéma en table des préfixes seront automatiquement rajoutés en fonction du type du champ.

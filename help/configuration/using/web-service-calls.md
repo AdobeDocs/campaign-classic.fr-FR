@@ -8,8 +8,8 @@ role: Data Engineer, Developer
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 100%
+source-wordcount: '930'
+ht-degree: 99%
 
 ---
 
@@ -216,7 +216,7 @@ Le jeton de sécurité possède les caractéristiques suivantes :
 * il est stocké dans la console Adobe Campaign
 * lors d&#39;un accès Web :
 
-   * il est stocké dans une propriété document.__securityToken
+   * il est stocké dans un document.__securityToken, propriété
    * les URL de la page sont mises à jour pour actualiser le jeton de sécurité
    * les formulaires sont également mises à jour via un champ caché contenant le jeton
 

@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 exl-id: 2c678f45-2555-4647-9885-bd002db7df37
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '366'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Vous devez créer un compte externe [!DNL PostgreSQL] pour connecter votre insta
 
    * **[!UICONTROL Compte]** : nom de l’utilisateur.
 
-   * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur.
+   * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur.
 
    * **[!UICONTROL Base de données]** : nom de la base de données (facultatif).
 

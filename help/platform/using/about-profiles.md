@@ -8,9 +8,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '866'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '852'
+ht-degree: 88%
 
 ---
 
@@ -38,7 +38,7 @@ Les profils peuvent être identifiés selon leur espace de stockage. Ainsi, un p
 
 Les destinataires des diffusions sont stockés dans la base de données sous forme de profils regroupant les informations qui leur sont attachées : nom, prénom, coordonnées, abonnements, diffusions, etc. Lorsque vous créez des campagnes, vous pouvez définir la cible des diffusions à partir d&#39;une sélection parmi les profils présents dans la base, selon des critères simples ou avancés.
 
-Vous pouvez également créer des campagnes visant des destinataires dont les profils ne sont pas stockés dans la base de données mais dans des fichiers. Il s&#39;agit alors de diffusions dites &quot;externes&quot;. Pour plus d&#39;informations sur ce type de diffusions, consultez [cette page](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+Vous pouvez également créer des campagnes destinées à des destinataires dont les profils ne sont pas stockés dans la base de données, mais dans des fichiers. Il s’agit de diffusions dites &quot;externes&quot;. Pour plus d&#39;informations sur ce type de diffusion, reportez-vous à la section [cette page](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
 
 Les principales méthodes pour créer des profils de destinataires sont les suivantes :
 
@@ -52,7 +52,7 @@ Les principales méthodes pour créer des profils de destinataires sont les suiv
 
 ## Profils et cibles {#profiles-and-targets}
 
-Le lien **[!UICONTROL Profils et cibles]** permet d&#39;afficher les destinataires stockés dans la base de données Adobe Campaign. Vous pouvez créer un nouveau destinataire, en éditer un existant et accéder à son profil. Pour plus d&#39;informations, consultez [cette page](../../platform/using/editing-a-profile.md).
+La variable **[!UICONTROL Profils et cibles]** lien permet d&#39;afficher les destinataires stockés dans la base de données Adobe Campaign. Vous pouvez créer un nouveau destinataire, en éditer un existant et accéder à son profil. Pour plus d’informations, consultez [cette page](../../platform/using/editing-a-profile.md).
 
 ![](assets/d_ncs_user_interface_target_link.png)
 
@@ -66,9 +66,9 @@ Il permet également d&#39;accéder :
 
 La page des destinataires permet d&#39;effectuer les opérations courantes sur les profils : édition, mise à jour, ajout, suppression, tri.
 
-Pour des manipulations de profils plus avancées, il est nécessaire d&#39;éditer l&#39;arborescence Adobe Campaign pour accéder à des fonctionnalités avancées. Pour cela, cliquez sur le lien **[!UICONTROL Explorateur]** depuis la page d&#39;accueil d&#39;Adobe Campaign.
+Pour des manipulations de profils plus avancées, vous devez modifier l’arborescence d’Adobe Campaign. Pour ce faire, cliquez sur le bouton **[!UICONTROL Explorateur]** lien sur la page d’accueil d’Adobe Campaign.
 
-Par défaut, les destinataires sont stockés dans le nœud **[!UICONTROL Profils et Cibles > Destinataires]** de l&#39;arborescence. Vous pouvez créer des destinataires depuis cette vue, mais aussi :
+Par défaut, les destinataires sont stockés dans le nœud **[!UICONTROL Profils et cibles > Destinataires]** de l&#39;arborescence. Vous pouvez créer des destinataires depuis cette vue, ainsi que :
 
 * trier et filtrer les profils de la base de données - [En savoir plus](../../platform/using/filtering-options.md)
 * déplacer, copier ou enlever des profils de la base de données - [En savoir plus](../../platform/using/managing-profiles.md)

@@ -11,8 +11,8 @@ topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2524'
-ht-degree: 100%
+source-wordcount: '2547'
+ht-degree: 93%
 
 ---
 
@@ -112,9 +112,9 @@ Pour les trois types de package, l&#39;assistant propose les étapes suivantes 
 
    >[!CAUTION]
    >
-   >Si vous exportez un dossier de type **[!UICONTROL Catégorie d&#39;offres]**, **[!UICONTROL Environnement d&#39;offres]**, **[!UICONTROL Programme]** ou **[!UICONTROL Plan]**, ne sélectionnez en aucun cas l&#39;entité **xtk:folder** au risque de perdre une partie des données. Sélectionnez l&#39;entité correspondant au dossier : **nms:offerCategory** pour les catégories d&#39;offres, **nms:offerEnv** pour les environnements d&#39;offres, **nms:program** pour les programmes et **nms:plan** pour les plans.
+   >Si vous exportez une **[!UICONTROL Catégorie d&#39;offres]**, **[!UICONTROL Environnement des offres]**, **[!UICONTROL Programme]** ou **[!UICONTROL Planifier]** Entrez un dossier, ne sélectionnez jamais le dossier **xtk:folder** car vous risquez de perdre certaines données. Sélectionnez l&#39;entité correspondant au dossier : **nms:offerCategory** pour les catégories d&#39;offres, **nms:offerEnv** pour les environnements d&#39;offres, **nms:program** pour les programmes, et **nms:plan** pour les plans.
 
-   La gestion de la liste permet l&#39;ajout ou la suppression de la configuration des entités à exporter. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner une nouvelle entité.
+   La gestion des listes permet d&#39;ajouter ou supprimer des entités à exporter depuis la configuration. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner une nouvelle entité.
 
    Le bouton **[!UICONTROL Détail]** édite la configuration sélectionnée.
 
@@ -140,7 +140,7 @@ Pour les trois types de package, l&#39;assistant propose les étapes suivantes 
 
    ![](assets/ncs_datapackage_export6.png)
 
-1. La dernière étape de l&#39;assistant d&#39;export de package permet de démarrer l&#39;export. Les données seront stockées dans le fichier indiqué dans le champ **[!UICONTROL Fichier]**.
+1. La dernière page de l&#39;assistant d&#39;export de package permet de lancer l&#39;export. Les données seront stockées dans le fichier indiqué dans la variable **[!UICONTROL Fichier]** champ .
 
    ![](assets/ncs_datapackage_export7.png)
 
@@ -274,12 +274,12 @@ Les entités peuvent être ajoutées directement à une définition de package �
 
 ### Paramétrer la génération des définitions de packages {#configuring-package-definitions-generation}
 
-La génération de packages peut être paramétrée à partir de l&#39;onglet **[!UICONTROL Contenu]** de définition de package. Pour ce faire, cliquez sur le lien **[!UICONTROL Paramètres de génération]**.
+La génération de package peut être configurée à partir de la définition de package **[!UICONTROL Contenu]** . Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres de génération]** lien.
 
 ![](assets/packagedefinition_generationparameters.png)
 
 * **[!UICONTROL Inclure la définition]** : inclut la définition actuellement utilisée dans la définition de package.
-* **[!UICONTROL Inclure un script d&#39;installation]** : vous permet d&#39;ajouter un script JavaScript à exécuter à l&#39;importation du package. S&#39;il est sélectionné, un onglet **[!UICONTROL Script]** est ajouté à l&#39;écran de définition de package.
+* **[!UICONTROL Inclure un script d’installation]**: vous permet d’ajouter un script JavaScript à exécuter lors de l’importation du package. Lorsque cette option est sélectionnée, une **[!UICONTROL Script]** est ajouté à l’écran de définition de package.
 * **[!UICONTROL Inclure les valeurs par défaut]** : ajoute au package les valeurs de tous les attributs des entités.
 
   Cette option n&#39;est pas sélectionnée par défaut de manière à éviter les exports de longueur importante. Cela signifie que les attributs des entités avec des valeurs par défaut (&#39;chaîne vide&#39;, &#39;0&#39; et &#39;faux&#39; si elles ne sont pas définies d&#39;une autre façon dans le schéma) ne seront pas ajoutés dans le package et ne seront donc pas exportés.
@@ -354,7 +354,7 @@ Effectuez toujours l&#39;import dans la même version de la plateforme. Vous dev
 
 >[!IMPORTANT]
 >
->L&#39;import entre différentes versions n&#39;est pas pris en charge par Adobe.
+>L’import entre différentes versions n’est pas pris en charge par Adobe.
 <!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
 
 Accordez de l&#39;attention à la structure du schéma et de la base de données. L&#39;import de packages avec schéma doit être suivie de la génération des schémas.

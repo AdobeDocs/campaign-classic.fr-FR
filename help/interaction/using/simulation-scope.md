@@ -11,7 +11,7 @@ topic-tags: simulating-offers
 exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '253'
 ht-degree: 100%
 
 ---
@@ -51,6 +51,6 @@ Vous pouvez également choisir d&#39;effectuer la simulation sur toutes les offr
 
 Vous pouvez enrichir l&#39;analyse de la simulation en ajoutant des axes de reporting sur la cible ou les offres elles-mêmes depuis l&#39;onglet **[!UICONTROL Calculs]**.
 
-Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez les champs voulus. Les axes seront utilisés pour le calcul de la simulation et apparaîtront dans le rapport d&#39;analyse. Pour plus d’informations, consultez [Enregistrement du tracking](../../interaction/using/simulation-tracking.md).
+Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez les champs voulus. Les axes seront utilisés pour le calcul de la simulation et apparaîtront dans le rapport d&#39;analyse. Pour plus d’informations, consultez [Suivi des simulations](../../interaction/using/simulation-tracking.md).
 
 ![](assets/offer_simulation_011.png)

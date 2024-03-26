@@ -11,8 +11,8 @@ topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 100%
+source-wordcount: '1381'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ Sélectionnez le moteur de base de données parmi ceux proposés dans la liste d
 
 Les bases de données prises en charge sont répertoriées dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) de Campaign.
 
-Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ici : **[!UICONTROL Créer ou recycler une base de données]**.
+Identifiez le serveur et choisissez le type d&#39;opération à effectuer. Dans ce cas, **[!UICONTROL Créer ou recycler une base de données]**.
 
 ![](assets/s_ncs_install_db_oracle_creation01.png)
 
@@ -60,7 +60,7 @@ Selon le moteur de base sélectionné, les informations d&#39;identification du 
 
 * Pour un moteur **Oracle**, renseignez le **nom TNS** qui a été défini sur le serveur applicatif.
 * Pour un moteur **PostgreSQL** ou **DB2**, indiquez le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
-* Pour un moteur **Microsoft SQL Server**, vous devez définir :   le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
+* Pour un **Microsoft SQL Server** , vous devez définir : le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
 
   >[!CAUTION]
   >
@@ -140,7 +140,7 @@ La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibili
 
 ### Etape 6 - Lancement de la création de la base {#step-6---creating-the-database}
 
-La dernière étape de l&#39;assistant permet de lancer la création de la base de données. Pour cela, cliquez sur le bouton **[!UICONTROL Démarrer]**.
+La dernière étape de l&#39;assistant permet de créer la base de données. Cliquez sur **[!UICONTROL Début]** pour confirmer.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
@@ -176,7 +176,7 @@ Sélectionnez le moteur de base de données parmi ceux proposés dans la liste d
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ici : **[!UICONTROL Utiliser une base de données existante]**.
+Identifiez le serveur et choisissez le type d&#39;opération que vous souhaitez réaliser. Dans ce cas, **[!UICONTROL Utiliser une base existante]**.
 
 ![](assets/s_ncs_install_db_oracle_exists_01.png)
 
@@ -231,7 +231,7 @@ La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibili
 
 ### Etape 5 - Lancement de la création de la base {#step-5---creating-the-database}
 
-La dernière étape de l&#39;assistant permet de lancer la création de la base de données. Pour cela, cliquez sur le bouton **[!UICONTROL Démarrer]**.
+La dernière étape de l&#39;assistant permet de créer la base de données. Cliquez sur **[!UICONTROL Début]** pour confirmer.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 

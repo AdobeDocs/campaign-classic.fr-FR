@@ -10,8 +10,8 @@ topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: 52dcc8c01c5ce2421bfb59235bd0e458e7c8122f
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '850'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ Pour ce faire, procédez comme suit :
 
 >[!NOTE]
 >
->Le nombre d&#39;événements en attente dans la file est affiché dans la section [Indicateurs système](../../production/using/monitoring-processes.md#system-indicators) de la page de suivi des processus Adobe Campaign. Pour plus d&#39;informations sur l&#39;assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md#deployment-wizard).
+>Le nombre d’événements en attente dans la file d’attente s’affiche dans la variable [Indicateurs système](../../production/using/monitoring-processes.md#system-indicators) de la page de surveillance des processus Adobe Campaign. Pour plus d’informations sur l’assistant de déploiement, reportez-vous à la section [cette section](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
 ## Purge des événements {#purging-events}
 

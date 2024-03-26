@@ -9,8 +9,8 @@ role: User, Data Engineer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ Nous vous recommandons de suivre les instructions ci-dessous pour vous assurer q
 En cas de mauvaises performances des diffusions, vous pouvez vérifier les points suivants :
 
 * **Taille de la diffusion** : l&#39;envoi de diffusions volumineuses peut prendre plus de temps. Les enfants du MTA sont configurés pour gérer une taille de batch par défaut, qui convient à la plupart des instances, mais qui doit être vérifiée lorsque les diffusions sont constamment lentes.
-* **Cible de la diffusion** : les performances d&#39;une diffusion peuvent être impactées par les soft bounces, qui sont traités en fonction de la configuration des reprises. Plus le nombre des erreurs est élevé, plus les reprises sont nécessaires.
+* **Cible de la diffusion** : les performances d’une diffusion peuvent être impactées par les rebonds temporaires, qui sont traités en fonction de la configuration des reprises. Plus le nombre des erreurs est élevé, plus les reprises sont nécessaires.
 * **Charge globale de la plateforme** : il est possible que la plateforme soit affectée lorsque plusieurs diffusions volumineuses sont envoyées. Vous pouvez également vérifier la réputation IP et l’existence de problèmes de délivrabilité. Pour plus d’informations à ce sujet, consultez [cette section](about-deliverability.md) ainsi que le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
-La maintenance de la plateforme et de la base de données peut également impacter les performances d’envoi des diffusions. Voir à ce sujet [cette page](../../production/using/database-performances.md).
+La maintenance de la plateforme et de la base de données peut également affecter les performances d’envoi des diffusions. Pour plus d’informations, consultez [cette page](../../production/using/database-performances.md).

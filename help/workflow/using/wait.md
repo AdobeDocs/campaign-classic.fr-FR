@@ -8,7 +8,7 @@ exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
@@ -28,6 +28,6 @@ Dans le champ **[!UICONTROL Durée]**, la valeur peut être exprimée dans l&#39
 
   L&#39;unité par défaut est le jour (**j**).
 
-* Tandis que si, par exemple, les paramètres régionaux sont définis sur &#39;Français&#39; : **s** pour les secondes, **mn** pour les minutes, **h** pour les heures, **j** pour les jours, **m** pour les mois, **a** pour les années. Lors de la validation, la valeur est automatiquement traduite dans l&#39;unité la plus lisible, comme dans l&#39;exemple ci-dessus : **90s** a été traduit en **1mn 30s**.
+* Si, par exemple, les paramètres régionaux sont définis sur &quot;Français&quot; : **s** pour les secondes, **mn** pour les minutes, **h** pour les heures, **j** pour les jours, **m** pour les mois, **a** pour des années. Au moment de la validation, la valeur est automatiquement convertie en unité la plus lisible, comme dans l&#39;exemple ci-dessus. **90 s** a été converti en **30 min**.
 
   L&#39;unité par défaut est le jour (**j**).

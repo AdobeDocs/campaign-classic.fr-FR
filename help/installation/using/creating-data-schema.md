@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '202'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Pour créer un schéma sur une base de données externe :
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. Cliquez sur **[!UICONTROL OK]** pour valider. Adobe Campaign détecte automatiquement la structure de la table sélectionnée et génère le schéma logique. Veuillez noter qu&#39;Adobe Campaign ne génère pas de liens.
+1. Cliquez sur **[!UICONTROL OK]** pour confirmer. Adobe Campaign détecte automatiquement la structure de la table sélectionnée et génère le schéma logique. Veuillez noter qu&#39;Adobe Campaign ne génère pas de liens.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour en valider la création.
 

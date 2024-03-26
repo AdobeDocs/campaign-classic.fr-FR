@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '838'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 96%
 
 ---
 
@@ -80,7 +80,7 @@ Voici les différents états des demandes d&#39;accès à des informations perso
 * **[!UICONTROL Suppression en cours]** : le workflow traite la suppression.
 * **[!UICONTROL Confirmation de suppression en attente]** : (demande de suppression dans le mode de processus en 2 étapes) - le workflow a traité la demande d&#39;accès. Une confirmation manuelle est requise pour effectuer la suppression. Le bouton est disponible pendant 15 jours.
 * **[!UICONTROL Terminé]** : le traitement de la demande s&#39;est terminé sans erreur.
-* **[!UICONTROL Erreur]** : le workflow a rencontré une erreur. La raison apparaît dans la colonne **[!UICONTROL Statut de la demande]** de la liste des demandes d’accès aux informations personnelles. Par exemple, le statut **[!UICONTROL Erreur : données introuvables]** indique qu’aucune donnée du destinataire correspondant à la **[!UICONTROL Valeur de réconciliation]** du titulaire des données n’a été trouvée dans la base de données.
+* **[!UICONTROL Erreur]** : le workflow a rencontré une erreur. La raison apparaît dans la liste des demandes d’accès à des informations personnelles dans la variable **[!UICONTROL État de la requête]** colonne . Par exemple, le statut **[!UICONTROL Erreur : données introuvables]** indique qu’aucune donnée du destinataire correspondant à la **[!UICONTROL Valeur de réconciliation]** du titulaire de données n’a été trouvée dans la base de données. 
 
 ## Processus en 2 étapes {#two-step-process}
 
@@ -152,4 +152,4 @@ Voici un élément de code que vous pouvez utiliser comme exemple dans l&#39;act
 </body> </html>
 ```
 
-En raison des restrictions d’accès au fichier de données du titulaire de données, l’accès anonyme à une page web doit être désactivé. Seul un opérateur avec le droit nommé **[!UICONTROL Droit relatif aux données personnelles]** peut se connecter à la page et télécharger les données.
+En raison de la restriction de l’accès au fichier de données du titulaire de données, l’accès anonyme à la page web doit être désactivé. Seul l’opérateur avec la variable **[!UICONTROL Droit relatif aux données personnelles]** les droits nommés peuvent se connecter à la page et télécharger les données.

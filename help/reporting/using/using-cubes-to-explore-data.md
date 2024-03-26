@@ -10,8 +10,8 @@ hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 100%
+source-wordcount: '1012'
+ht-degree: 95%
 
 ---
 
@@ -100,7 +100,7 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    Vous pouvez notamment choisir d&#39;afficher ou non les libellés des mesures. Pour plus dʼinformations, consultez la section [Configuration de lʼaffichage](../../reporting/using/concepts-and-methodology.md#configuring-the-display).
 
-1. Vous pouvez construire de nouvelles mesures à partir des mesures existantes. Pour cela, cliquez sur le bouton **[!UICONTROL Créer une mesure]** et indiquez son paramétrage.
+1. Il est possible de construire de nouvelles mesures à partir des mesures existantes. Pour ce faire, cliquez sur **[!UICONTROL Créer une mesure]** et configurez-la.
 
    ![](assets/s_advuser_cube_in_report_config_02a.png)
 
@@ -118,7 +118,7 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    ![](assets/s_advuser_cube_in_report_config_02b.png)
 
-   Une fois créée, vous pouvez éditer et, au besoin, modifier, la configuration de la mesure. Pour cela, cliquez sur le bouton **[!UICONTROL Mesures]**, puis sur l&#39;onglet de la mesure à éditer.
+   Une fois que vous avez créé une mesure, vous pouvez l&#39;éditer et, au besoin, en modifier le paramétrage. Pour ce faire, cliquez sur le bouton **[!UICONTROL Mesures]** puis accédez à l&#39;onglet de la mesure à modifier.
 
    Cliquez ensuite sur le bouton **[!UICONTROL Modifier la mesure dynamique]** pour accéder au menu des paramètres.
 

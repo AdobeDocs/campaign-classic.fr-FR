@@ -7,8 +7,8 @@ feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 100%
+source-wordcount: '1207'
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ En bas à droite de l&#39;écran de liste, un **[!UICONTROL compteur]** indique 
 
 ![](assets/s_ncs_user_nb_200_0.png)
 
-Si un point d’interrogation ( **?** ) apparaît à la place du nombre à droite, cliquez sur le compteur pour lancer le calcul.
+Si un **?**&quot; apparaît au lieu du nombre à droite, cliquez sur le compteur pour lancer le calcul.
 
 ### Chargement d’enregistrements supplémentaires {#loading-more-records}
 
@@ -77,7 +77,7 @@ Une autre méthode pour ajouter des colonnes, lorsque vous souhaitez afficher de
 
    >[!NOTE]
    >
-   >Par défaut, les champs avancés ne sont pas affichés. Pour les afficher, cliquez sur l&#39;icône **Afficher les champs avancés**, située en bas à droite de la liste des champs disponibles.
+   >Par défaut, les champs avancés ne sont pas affichés. Pour les afficher, cliquez sur **Afficher les champs avancés** en bas à droite de la liste des champs disponibles.
    >
    >Les libellés sont affichés par table puis par ordre alphabétique.
    >
@@ -115,7 +115,7 @@ Dans la fenêtre de configuration de la liste, sélectionnez la colonne à masqu
 
 ![](assets/s_ncs_user_removecolumn_icon.png)
 
-Répétez l&#39;opération pour chaque colonne à masquer. Cliquez sur **[!UICONTROL OK]** pour valider la configuration et visualiser le résultat.
+Répétez l’opération pour chaque colonne à masquer. Cliquez sur **[!UICONTROL OK]** pour valider la configuration et visualiser le résultat.
 
 ### Ajuster la largeur des colonnes {#adjust-column-width}
 
@@ -162,9 +162,9 @@ Cliquez sur **[!UICONTROL Enregistrer]** dans la fenêtre des propriétés du do
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
-## Export d’une liste {#exporting-a-list}
+## Exporter une liste {#exporting-a-list}
 
-Pour exporter les données d’une liste, vous devez utiliser l’assistant d’export. Pour y accéder, sélectionnez les éléments de la liste à exporter, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Exporter...]**.
+Pour exporter les données d’une liste, vous devez utiliser un assistant d’export. Pour y accéder, sélectionnez les éléments de la liste à exporter, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Exporter...]**.
 
 L&#39;utilisation des fonctions d&#39;importation et d&#39;exportation est expliquée dans la section [Imports et exports génériques](../../platform/using/about-generic-imports-exports.md).
 
@@ -199,7 +199,7 @@ Vous pouvez également paramétrer le tri ou combiner les critères de tri. Pour
 
 ### Recherche d&#39;éléments {#running-a-search}
 
-Vous pouvez lancer une recherche parmi les champs disponibles dans un éditeur à partir du champ **[!UICONTROL Rechercher]** situé au-dessus de la liste des champs. Utilisez la touche **Entrée** du clavier pour parcourir la liste : les libellés des champs qui correspondent à votre recherche apparaissent en gras.
+Vous pouvez lancer une recherche parmi les champs disponibles dans un éditeur à l’aide du **[!UICONTROL Rechercher]** situé au-dessus de la liste des champs. Presse **Entrée** à l’aide du clavier ou parcourez la liste. Les libellés des champs correspondant à votre recherche apparaissent en gras.
 
 >[!NOTE]
 >

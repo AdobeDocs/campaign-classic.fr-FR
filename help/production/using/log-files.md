@@ -11,8 +11,8 @@ topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ L&#39;arborescence des fichiers de log est la suivante :
 
 Chaque module **nlserver** génère un fichier journal enregistré dans le répertoire suivant : **`<installation directory>`/var/`<instance>`/log/`<module>`.log**.
 
-L&#39;enregistrement des logs sur le disque est assuré par le module **nlserver syslogd**. Ce module est similaire au **daemon syslog** UNIX, mais adapté afin d&#39;avoir un comportement homogène entre UNIX et Windows. Les autres modules Adobe Campaign n&#39;enregistrent pas leurs logs sur le disque : ils délèguent cette tâche au module **syslogd** en lui envoyant des paquets UDP.
+La variable **nlserver syslogd** module enregistre les journaux sur le disque. Ce module est similaire au Unix **daemon syslog**, mais a été adapté à des fins de compatibilité entre Unix et Windows. Les autres modules Adobe Campaign n’enregistrent pas leurs logs sur le disque ; ils délèguent cette tâche au **syslogd** en lui envoyant des paquets UDP.
 
 Par défaut, le module **syslogd** est installé sur la plateforme Adobe Campaign, mais il est possible d’utiliser un autre **daemon syslog**. Ce module crée les fichiers journaux dans le répertoire des **logs**.
 

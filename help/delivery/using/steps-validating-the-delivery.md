@@ -8,7 +8,7 @@ feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1806'
 ht-degree: 100%
 

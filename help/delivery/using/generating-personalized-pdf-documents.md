@@ -9,8 +9,8 @@ role: User
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,7 @@ Si vous souhaitez générer des tableaux dynamiques ou inclure des images à par
 La procédure pour générer des tableaux dynamiques est la suivante :
 
 * Créez un tableau de trois lignes, avec autant de colonnes que vous le souhaitez, et paramétrez sa mise en page (bordures, trame, etc.).
-* Positionnez le curseur sur le tableau créé, et cliquez dans le menu **[!UICONTROL Tableau > Propriétés du tableau]**. Depuis l&#39;onglet **[!UICONTROL Tableau]**, saisissez un nom commençant par **NlJsTable**.
+* Positionnez-vous sur le tableau et cliquez sur le bouton **[!UICONTROL Tableau > Propriétés du tableau]** . Accédez au **[!UICONTROL Tableau]** et saisissez un nom commençant par **NlJsTable**.
 * Dans la première cellule de la première ligne, définissez une boucle (&quot;for&quot; par exemple) qui va permettre d&#39;itérer sur les valeurs que vous souhaitez afficher dans votre tableau.
 * Insérez, dans chaque cellule de la deuxième ligne du tableau, les scripts retournant les valeurs à afficher.
 * Fermez votre boucle dans la troisième et dernière ligne du tableau.
@@ -50,11 +50,11 @@ La procédure pour générer des tableaux dynamiques est la suivante :
 
 L&#39;insertion d&#39;images externes est utile lorsque, par exemple, vous souhaitez personnaliser un document avec une image dont l&#39;URL est renseignée dans un champ du destinataire.
 
-Pour cela, il est nécessaire de paramétrer un bloc de personnalisation puis d&#39;inclure dans le fichier attaché un appel au bloc de personnalisation.
+Pour cela, il est nécessaire de paramétrer un bloc de personnalisation, puis d’inclure dans la pièce jointe un appel au bloc de personnalisation.
 
 **Exemple : insertion dʼun logo personnalisé en fonction du pays du destinataire**
 
-**Etape n°1 : Création du fichier attaché :**
+**Étape n°1 : Création de la pièce jointe :**
 
 * Insérez l&#39;appel au bloc de personnalisation : **&lt;%@ include view=&quot;nomdubloc&quot; %>**
 * Insérez votre contenu personnalisé ou non dans le corps du fichier
@@ -65,7 +65,7 @@ Pour cela, il est nécessaire de paramétrer un bloc de personnalisation puis d&
 
 * Allez dans le menu **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de la console Adobe Campaign.
 * Créez un nouveau bloc de personnalisation &quot;Mon Logo&quot; avec pour nom interne &quot;Mon_Logo&quot;.
-* Cliquez sur le lien **[!UICONTROL Paramètres avancés...]** et cochez l&#39;option **[!UICONTROL &quot;Le bloc est inclus dans un document attaché&quot;]**. Cette option va permettre de recopier la définition du bloc de personnalisation directement dans le contenu du fichier OpenOffice.
+* Cliquez sur le lien **[!UICONTROL Paramètres avancés…]** et cochez l’option **[!UICONTROL « Le bloc est inclus dans une pièce jointe »]**. Cette option va permettre de recopier la définition du bloc de personnalisation directement dans le contenu du fichier OpenOffice.
 
   ![](assets/s_ncs_pdf_bloc_option.png)
 

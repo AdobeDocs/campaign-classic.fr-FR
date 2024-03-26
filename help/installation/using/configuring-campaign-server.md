@@ -11,8 +11,8 @@ topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 100%
+source-wordcount: '1577'
+ht-degree: 95%
 
 ---
 
@@ -94,7 +94,7 @@ Pour appliquer les modifications dans ces fichiers, si le service Adobe Campaig
 
 On distingue deux types de processus : multi-instance et mono-instance.
 
-* **multi-instance** : un seul processus est démarré pour toutes les instances, il s&#39;agit des processus **web**, **syslogd** et **trackinglogd**.
+* **multi-instance**: un seul processus est démarré pour toutes les instances. C’est le cas pour **web**, **syslogd** et **trackinglogd** processus.
 
   L’activation peut être configurée à partir du fichier **config-default.xm**.
 
@@ -128,7 +128,7 @@ On distingue deux types de processus : multi-instance et mono-instance.
 
 **Enregistrement de données Campaign**
 
-Vous pouvez configurer le répertoire de stockage (répertoire **var**) des données Adobe Campaign (logs, téléchargements, redirections, etc.). Pour cela, utilisez la variable système **XTK_VAR_DIR** :
+Vous pouvez configurer le répertoire de stockage (**var** ) des données Adobe Campaign (logs, téléchargements, redirections, etc.). Pour ce faire, utilisez la méthode **XTK_VAR_DIR** Variable système :
 
 * Sous Windows, indiquez la valeur suivante dans la variable système **XTK_VAR_DIR**.
 
@@ -169,7 +169,7 @@ Les JSSP utilisées pour le canal des applications mobiles sont les suivantes :
 
 **Exemple:**
 
-Vous pouvez empêcher la connexion des postes clients de l&#39;extérieur. Pour cela, il suffit de restreindre l&#39;exécution de **soaprouter.jsp** et de n&#39;autoriser que l&#39;exécution des pages miroirs, des liens viraux, des formulaires web et des ressources publiques.
+Il est possible d’empêcher la connexion des machines clientes de l’extérieur. Pour cela, il suffit de restreindre l&#39;exécution de **soaprouter.jsp** et n&#39;autoriser que l&#39;exécution des pages miroir, des liens viraux, des formulaires web et des ressources publiques.
 
 Les paramètres sont les suivants :
 

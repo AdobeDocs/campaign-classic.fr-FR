@@ -8,8 +8,8 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 100%
+source-wordcount: '1255'
+ht-degree: 98%
 
 ---
 
@@ -37,13 +37,13 @@ Ces conditions adoptent la syntaxe d’expression XTK (par exemple **ctx.recipie
 >
 >Les blocs dynamiques non visibles, tels que les menus déroulants, ne peuvent être édités.
 
-## Ajouter une bordure et une trame {#adding-a-border-and-background}
+## Ajouter une bordure et un arrière-plan {#adding-a-border-and-background}
 
 Vous pouvez ajouter une **bordure** au bloc sélectionné. Les bordures se définissent au travers de trois options : style, taille et couleur.
 
 ![](assets/dce_popup_border.png)
 
-Vous pouvez aussi définir une **couleur de fond** en sélectionnant une couleur dans le nuancier.
+Vous pouvez aussi définir une **couleur d’arrière-plan** en sélectionnant une couleur dans le nuancier.
 
 ![](assets/dce_popup_background.png)
 
@@ -145,7 +145,7 @@ L&#39;option **Lien vers une URL externe** permet d&#39;ouvrir n&#39;importe que
 
 ![](assets/dce_toolbar_imgblock_externallink.png)
 
-Saisissez l&#39;adresse du lien visé dans le champ **URL**. Le champ URL est à renseigner de cette manière : **https://www.monURL.com**.
+Saisissez l&#39;adresse du lien en question dans le champ **URL** champ . Le champ URL doit être renseigné comme suit : **https://www.myURL.com**.
 
 ### Lien vers une application Web {#link-to-a-web-application}
 
@@ -194,7 +194,7 @@ Les options disponibles sont les suivantes :
 * Icône **Aligner à gauche** : aligne le texte à gauche du bloc sélectionné (ajoute style=&quot;text-align: left;&quot;)
 * Icône **Centrer** : centre le texte du bloc sélectionné (ajoute style=&quot;text-align: center;&quot;)
 * Icône **Aligner à droite** : aligne le texte à droite du bloc sélectionné (ajoute style=&quot;text-align: right;&quot;)
-* Icône **Changer la couleur de fond** : permet de changer la couleur de fond du bloc sélectionné (ajoute style=&quot;background-color: rgba(170, 86, 255, 0.87))
+* Icône **Changer la couleur d’arrière-plan** : permet de changer la couleur d’arrière-plan du bloc sélectionné (add style=&quot;background-color: rgba(170, 86, 255, 0.87))
 * Icône **Changer la couleur du texte** : permet de changer la couleur de tout le texte dans le bloc ou seulement celle du texte sélectionné (`<span style="color: #CODE">`)
 
 >[!NOTE]

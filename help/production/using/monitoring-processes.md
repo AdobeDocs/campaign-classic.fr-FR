@@ -11,8 +11,8 @@ topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3796'
-ht-degree: 100%
+source-wordcount: '3822'
+ht-degree: 92%
 
 ---
 
@@ -99,7 +99,7 @@ Accédez à la liste des indicateurs système pour afficher les informations rel
 
   **[!UICONTROL Alerte]** : cet indicateur s&#39;affiche lorsque le nombre de processus est à 1.
 
-  Lorsque l&#39;indicateur **[!UICONTROL Alerte]** s&#39;affiche, une des causes possible peut-être que le processus en question est verrouillé par le moteur de base de données SQL ou qu&#39;il est en boucle infinie. Le processus **watchdog** fourni par Adobe Campaign relance automatiquement la totalité des processus chaque jour et permet de remédier au problème. Vous pouvez cependant interrompre le processus concerné vous-même afin de forcer son redémarrage.
+  Lorsque la variable **[!UICONTROL Alerte]** s&#39;affiche, il se peut que le processus concerné soit verrouillé par le moteur de base de données SQL ou qu&#39;il soit bloqué dans une boucle infinie. La variable **watchdog** Le processus fourni par Adobe Campaign redémarre automatiquement tous les processus chaque jour et vous permet de résoudre ce problème. Cependant, vous pouvez également arrêter vous-même le processus concerné pour forcer le redémarrage.
 
 #### Linux {#in-linux}
 
@@ -282,7 +282,7 @@ La liste des indicateurs de ce rapport est proposée sous le graphique.
 
    * Courbe bleue : la file des messages actifs. Ces messages seront envoyés dès que possible.
 
-   * Courbe kaki : la file &#39;deferred&#39;. Ces messages ne peuvent pas être envoyés dans l&#39;immédiat pour cause de limitation du serveur de statistiques (throttling) ou parce qu&#39;aucune connexion vers la cible n&#39;est disponible. L&#39;envoi de ces messages sera tenté toutes les 5s, 10s, 20s, 40s, ..., 2min, etc., pendant la durée maximum **MaxAgeSec** définie, avant d&#39;être abandonnés.
+   * Courbe Kaki : la file d&#39;attente &#39;différée&#39;. Ces messages ne peuvent pas être renvoyés pour le moment en raison du ralentissement ou parce qu’aucune connexion à la cible n’est disponible. Les reprises auront lieu toutes les 5, 10, 20, 40, 2 min, etc. pour le défini **MaxAgeSec** temps avant d’être abandonné.
 
 1. Ce graphique présente un détail des messages abandonnés (courbe rouge sur le 2e graphe) : il montre la part des messages abandonnés sans avoir essayé de les envoyer (en mauve) par rapport aux messages dont l&#39;envoi a échoué (en rouge). Il permet donc de voir la part des messages qui ne passent pas dans le délai imparti à cause de limitations par le serveur de statistiques (throttling) ou à cause de l&#39;indisponibilité de serveurs distants.
 1. Connexions SMTP ouvertes ou en cours d&#39;ouverture.
@@ -330,7 +330,7 @@ Cliquez sur un identifiant PublicId pour en visualiser le détail.
 
 >[!NOTE]
 >
->Le pourcentage d&#39;erreurs est représenté par deux graphiques. Le premier est une barre de progression horizontale sur fond noir. Le second graphique est chronologique. La période sélectionnée est divisée en douze intervalles de temps, chacun représenté par une barre de progression verticale. Dans les deux représentations, si aucune erreur n&#39;a été détectée, la barre est noire. La couleur de la barre varie en fonction du pourcentage d&#39;erreurs (jaune, puis orange, et enfin rouge). La couleur grise signifie qu&#39;aucun volume de données significatif n&#39;a été remonté. Il est possible d&#39;afficher le pourcentage exact d&#39;erreurs en positionnant le curseur de la souris sur un graphique.
+>Le pourcentage d’erreurs est représenté par deux graphiques. Le premier est une barre de progression horizontale sur un arrière-plan noir. Le second graphique est chronologique. La période sélectionnée est divisée en douze intervalles de temps, chacun représenté par une barre de progression verticale. Dans les deux représentations, si aucune erreur n’a été détectée, la barre est noire. La couleur de la barre varie en fonction du pourcentage d’erreurs (jaune, puis orange, et enfin rouge). La couleur grise signifie qu’aucun volume de données significatif n’a été remonté. Il est possible d’afficher le pourcentage exact d’erreurs en positionnant le curseur de la souris sur un graphique.
 
 >[!NOTE]
 >
@@ -351,9 +351,9 @@ Une fois le workflow démarré tous les 25 du mois, votre opérateur de factura
 Les mesures suivantes sont disponibles pour effectuer le suivi de vos diffusions :
 
 * **[!UICONTROL Date de démarrage]** : date de démarrage de la diffusion. Notez qu’elle ne peut pas être antérieure à la date indiquée dans le champ « à partir du » du rapport.
-* **[!UICONTROL Libellé]** : libellé de la diffusion. Les diffusions comportant moins de 100 messages à envoyer sont considérées trop petites et sont donc agrégées par date de démarrage, auquel cas le libellé indique le nombre d’agrégats, par exemple, [Agrégation de 3 petites diffusions].
+* **[!UICONTROL Libellé]** : libellé de la diffusion. Les diffusions qui ont moins de 100 messages à envoyer sont considérées comme trop petites et sont donc agrégées par date de début, auquel cas le libellé affiche le nombre d&#39;agrégats, par exemple. [Agrégation de 3 diffusions de petite taille].
 * **[!UICONTROL Volume total]** : volume total d’octets transférés pour la diffusion.
-* **[!UICONTROL Volume moyen]** : volume moyen d’octets transférés. Il s’agit du résultat de la formule suivante **(volume total/messages)**, qui est la base de calcul de la mesure **[!UICONTROL Multiplicateur]**.
+* **[!UICONTROL Volume moyen]** : volume moyen d’octets transférés. Le résultat de la formule suivante **(volume total/messages)**, qui est la base de calcul de la variable **[!UICONTROL Multiplicateur]** mesure.
 * **[!UICONTROL Messages]** : nombre de messages envoyés, incluant à la fois les messages envoyés avec succès et les reprises (suite à la réception d’un message rebond de la part du serveur contacté).
 * **[!UICONTROL Multiplicateur (x)]** : la valeur du multiplicateur est déduite du volume moyen des messages.
 * **[!UICONTROL Total]** : résultat de la multiplication des messages et du multiplicateur.
@@ -490,7 +490,7 @@ Pour une surveillance automatique, les précautions suivantes sont requises avan
 * Vous devez avoir les fichiers **netreport.tgz** (installation sous Linux) ou **netreport.zip** (installation sous Windows),
 * il est fortement conseillé de ne pas installer le monitoring sur la machine à surveiller,
 * il est indispensable que la machine sur laquelle il sera installé possède un JRE ou un JDK,
-* sous Linux, la machine à surveiller doit posséder le package **bc**. Voir à ce sujet [cette section](../../installation/using/installing-packages-with-linux.md#distribution-based-on-rpm--packages).
+* sous Linux, la machine à surveiller doit avoir la fonction **bc** module. Pour plus d’informations, consultez [cette section](../../installation/using/installing-packages-with-linux.md#distribution-based-on-rpm--packages).
 
 ### Procédure d&#39;installation {#installation-procedure}
 
@@ -545,7 +545,7 @@ Voici un exemple de configuration :
 
 >[!IMPORTANT]
 >
->Pour que la connexion à l&#39;opérateur **monitoring** fonctionne, la machine sur laquelle le netreport est exécuté doit être dans une zone de sécurité en mode **sessionTokenOnly**. Si aucun masque IP de confiance n&#39;a été défini pour cet opérateur, la zone de sécurité doit être également en mode **allowEmptyPassword** et **allowUserPassword**.
+>Pour le **monitoring** pour fonctionner, la machine sur laquelle le netreport est exécuté doit se trouver dans une zone de sécurité située dans **sessionTokenOnly** mode . Si aucun masque IP de confiance n&#39;a été spécifié pour cet opérateur, la zone de sécurité doit également être **allowEmptyPassword** et **allowUserPassword** mode .
 
 #### Elément &#39;properties&#39; {#properties--element}
 
@@ -593,7 +593,7 @@ Cet élément paramètre la surveillance sur l&#39;host d&#39;un serveur donné,
 * **alias** (optionnel) : nom sous lequel apparaîtra la machine surveillée dans le rapport.
 * **sessionToken** : permet de s&#39;authentifier sous la forme d&#39;un jeton de session autorisé.
 
-  Pour paramétrer le token de session, sélectionnez l&#39;opérateur **monitoring** dans la console Adobe Campaign. Dans l&#39;onglet **Droit d&#39;accès**, indiquez les adresses IP des machines autorisées à surveiller cette instance. Depuis ces machines, vous pourrez alors vous connecter à la page de monitoring avec l&#39;identifiant **monitoring** sans avoir besoin de spécifier de mot de passe.
+  Pour configurer le jeton de session, sélectionnez l’option **monitoring** dans la console Adobe Campaign. Dans le **Droits d’accès** , indiquez les adresses IP des machines autorisées à surveiller cette instance. Vous pourrez alors vous connecter à la page de surveillance à partir de ces machines à l’aide de la fonction **monitoring** et sans avoir à spécifier de mot de passe.
 
   ![](assets/ncs_operators_rights_02.png)
 

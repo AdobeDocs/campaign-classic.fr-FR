@@ -8,8 +8,8 @@ feature: Web Forms
 exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 78%
 
 ---
 
@@ -41,7 +41,7 @@ Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
 
 La mise en page du formulaire web est définie page par page, pour chaque conteneur et peut être surchargée si nécessaire.
 
-Les pages sont organisées en colonnes : chaque page contient un certain nombre de colonnes. Chaque champ de la page occupe **n** cellules. Les conteneurs s’étendent eux aussi sur un certain nombre de colonnes et les champs qu’ils contiennent s’étendent sur un certain nombre de cellules.
+Les pages sont organisées en colonnes : chaque page contient un certain nombre de colonnes. Chaque champ de la page occupe **n** cellules. Les conteneurs s&#39;étendent eux aussi sur un certain nombre de colonnes et les champs qu&#39;ils contiennent s&#39;étendent sur un certain nombre de cellules.
 
 Par défaut, les pages sont construites sur une seule colonne et chaque élément occupe une cellule. Ainsi, les zones sont affichées les unes en dessous des autres, chacune occupant toute la ligne, comme ci-dessous :
 
@@ -69,7 +69,7 @@ Vous pouvez modifier la mise en page au niveau de chaque conteneur. Dans notre e
 
 ![](assets/s_ncs_admin_survey_container_ex2_rend.png)
 
-Le titre et la liste occupent une cellule chacun (donc toute une ligne du conteneur) et la case à cocher s&#39;étend sur deux cellules. Le nombre de cellule attribuée à la zone de saisie est défini dans l&#39;onglet **[!UICONTROL Général]** ou dans l&#39;onglet **[!UICONTROL Avancé]**, selon le type de zone :
+Le titre et la liste occupent une cellule chacun (et donc une ligne entière du conteneur) et la case à cocher s’étend sur deux cellules. Le nombre de cellules attribuées au champ de saisie est défini dans la variable **[!UICONTROL Général]** ou le **[!UICONTROL Avancé]** , en fonction du type de champ :
 
 ![](assets/s_ncs_admin_survey_container_ex2.png)
 
@@ -79,7 +79,7 @@ Vous pouvez définir l&#39;alignement des champs et des libellés du formulaire.
 
 Par défaut, les paramètres d&#39;affichage des champs et autres contenus de la page sont hérités du paramétrage général du formulaire, le paramétrage de la page ou celui du conteneur parent, s&#39;il existe.
 
-Les paramètres d&#39;affichage globaux pour tout le formulaire sont indiqués dans la boîte de propriétés du formulaire. L&#39;onglet **[!UICONTROL Rendu]** permet de sélectionner la position des libellés.
+Les paramètres d’affichage globaux pour l’ensemble du formulaire sont indiqués dans la zone des propriétés du formulaire. La variable **[!UICONTROL Rendu]** vous permet de sélectionner la position des libellés.
 
 ![](assets/s_ncs_admin_survey_label_position.png)
 

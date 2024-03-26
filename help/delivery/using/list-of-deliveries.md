@@ -10,7 +10,7 @@ exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -30,7 +30,7 @@ Par défaut, la liste des diffusions affiche les noms et états des diffusions c
 
 >[!NOTE]
 >
->Pour les diffusions volumineuses, il peut être utile d&#39;actualiser ces valeurs. Pour cela, sélectionnez la diffusion visée et cliquez avec le bouton droit de la souris. Choisissez **[!UICONTROL Action > Recalculer les indicateurs de diffusion et de tracking...]** et renseignez les étapes de l&#39;assistant pour mettre à jour les informations.
+>Pour les diffusions volumineuses, vous pouvez mettre à jour ces valeurs. Pour cela, sélectionnez la diffusion visée et cliquez avec le bouton droit de la souris. Sélectionner **[!UICONTROL Action > Recalculer les indicateurs de diffusion et de tracking...]** puis utilisez l’assistant pour mettre à jour ces informations.
 
 **Rubriques connexes :**
 

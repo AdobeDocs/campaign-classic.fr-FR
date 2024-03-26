@@ -9,8 +9,8 @@ role: User
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 100%
+source-wordcount: '1331'
+ht-degree: 98%
 
 ---
 
@@ -156,7 +156,7 @@ Une diffusion [!DNL LINE] de type **[!UICONTROL Message texte]** est un message 
 
 ![](assets/line_message_02.png)
 
-Le paramétrage de ce type de message est similaire au paramétrage du format **[!UICONTROL texte]** dans un e-mail. Pour plus d&#39;informations, voir [cette page](defining-the-email-content.md#message-content).
+Le paramétrage de ce type de message est similaire à celui de la variable **[!UICONTROL Texte]** dans un email. Pour plus d’informations, consultez cette [page](defining-the-email-content.md#message-content).
 
 ### Paramétrer une diffusion de type Image et lien {#configuring-an-image-and-link-delivery}
 

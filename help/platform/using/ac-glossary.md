@@ -7,8 +7,8 @@ role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '5978'
+workflow-type: tm+mt
+source-wordcount: '5959'
 ht-degree: 100%
 
 ---
@@ -142,7 +142,7 @@ En savoir plus sur la [Validation du contenu](../../campaign/using/marketing-cam
 
 Vous pouvez utiliser des populations témoins pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Les opérateurs peuvent comparer le comportement de la population cible qui a bien reçu le message avec celui des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, les opérateurs peuvent également cibler une population témoin dans les prochaines campagnes.
 
-En savoir plus sur les [groupes de contrôle](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+En savoir plus sur les [populations témoins](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 +++
 
 +++**Panneau de contrôle**

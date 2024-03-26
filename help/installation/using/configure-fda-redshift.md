@@ -7,9 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 audience: platform
 content-type: reference
 topic-tags: connectors
-source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
-workflow-type: ht
-source-wordcount: '284'
+exl-id: ef2b98bd-441e-4e59-bb41-4e835e250663
+source-git-commit: 2ba6066b2999973e64ed3b429af78696f093dd09
+workflow-type: tm+mt
+source-wordcount: '276'
 ht-degree: 100%
 
 ---

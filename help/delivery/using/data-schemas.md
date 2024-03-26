@@ -10,7 +10,7 @@ exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -176,4 +176,4 @@ La sauvegarde du schéma source va automatiquement lancer la génération du sch
 
 >[!NOTE]
 >
->Le contrôle d&#39;édition **Nom** permet de saisir la clé du schéma composée du nom et de l&#39;espace de noms. Les attributs **name** et **namespace** de l&#39;élément racine du schéma sont automatiquement mis à jour dans la zone d&#39;édition XML du schéma.
+>La variable **Nom** le contrôle d&#39;édition permet de saisir la clé du schéma, composée du nom et de l&#39;espace de noms. La variable **name** et **namespace** Les attributs de l’élément racine du schéma sont automatiquement mis à jour dans la zone d’édition XML du schéma.

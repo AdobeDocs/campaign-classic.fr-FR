@@ -11,7 +11,7 @@ exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -55,7 +55,7 @@ L&#39;indice de qualité de cette adresse est reporté dans cet écran, ainsi qu
 
 ## Onglet Autres {#other-tab}
 
-Cet écran contient des champs libres qui peuvent être personnalisés en fonction des besoins. Vous pouvez ainsi modifier l&#39;intitulé des champs et en définir le format, via le menu **[!UICONTROL Propriétés du champ...]**, comme dans l&#39;exemple suivant :
+Cet écran contient des champs définis par l’utilisateur qui peuvent être personnalisés en fonction des besoins. Vous pouvez également modifier les noms des champs et définir leur format, via **[!UICONTROL Propriétés du champ...]**, comme illustré ci-dessous :
 
 ![](assets/s_ncs_user_profile_others_tab.png)
 
@@ -65,7 +65,7 @@ Cet écran contient des champs libres qui peuvent être personnalisés en foncti
 
 ## Onglet Listes {#lists-tab}
 
-Cet écran permet d&#39;afficher le ou les groupes auxquels appartient le profil sélectionné. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour inscrire le profil dans une liste. Cliquez sur le bouton **[!UICONTROL Détail]** pour afficher la description et la totalité des profils de la liste sélectionnée.
+Cet écran affiche le ou les groupes auxquels appartient le profil sélectionné. Cliquez sur **[!UICONTROL Ajouter]** pour abonner le profil à une liste. Cliquez sur **[!UICONTROL Détail]** pour afficher la description et la liste des profils dans la liste sélectionnée.
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
@@ -77,9 +77,9 @@ Cet écran contient les services d&#39;information auxquels s&#39;est abonné le
 
 ![](assets/s_ncs_user_profile_subscript_tab_details.png)
 
-Le bouton **[!UICONTROL Détail]** affiche les propriétés de l&#39;abonnement sélectionné. Le bouton **[!UICONTROL Ajouter]** permet d&#39;ajouter manuellement un nouvel abonnement.
+La variable **[!UICONTROL Détail]** affiche les propriétés de l’abonnement sélectionné. La variable **[!UICONTROL Ajouter]** sert à ajouter manuellement un nouvel abonnement.
 
-Voir à ce propos [cette page](../../delivery/using/managing-subscriptions.md).
+Pour plus d’informations, consultez [cette page](../../delivery/using/managing-subscriptions.md).
 
 ## Onglet Diffusions {#deliveries-tab}
 

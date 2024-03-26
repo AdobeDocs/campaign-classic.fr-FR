@@ -10,8 +10,8 @@ content-type: reference
 exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 100%
+source-wordcount: '362'
+ht-degree: 85%
 
 ---
 
@@ -51,7 +51,7 @@ Cette intégration peut être utilisée, par exemple, pour créer une newsletter
    ![](assets/aem_uc_6.png)
 
 1. Comme à l&#39;étape précédente, lancez ensuite le workflow **[!UICONTROL Approuver pour Adobe Campaign]**.
-1. Une clause d&#39;exclusion de responsabilité apparaît en haut de la page. Cliquez sur **[!UICONTROL Terminé]** pour confirmer la consultation, puis cliquez sur **[!UICONTROL OK]**.
+1. Une clause de non-responsabilité s’affiche en haut de votre page. Cliquez sur **[!UICONTROL Terminer]** pour confirmer la révision, puis cliquez sur **[!UICONTROL Ok]**.
 
    ![](assets/aem_uc_7.png)
 
@@ -74,7 +74,7 @@ Votre newsletter est maintenant prête et synchronisée dans Adobe Campaign.
 1. Ajoutez un **[!UICONTROL Libellé]** à votre diffusion, puis cliquez sur **[!UICONTROL Continuer]**.
 1. Cliquez sur le bouton **[!UICONTROL Synchroniser]**.
 
-   Si ce bouton ne s&#39;affiche pas dans votre interface, cliquez sur le bouton **[!UICONTROL Propriétés]** et sélectionnez l&#39;onglet **[!UICONTROL Avancé]**. Le champ **[!UICONTROL Mode d&#39;édition du contenu]** doit être défini sur **[!UICONTROL AEM]** avec votre instance AEM dans le champ **[!UICONTROL Compte AEM]**.
+   Si ce bouton n’apparaît pas dans votre interface, cliquez sur le bouton **[!UICONTROL Propriétés]** et sélectionnez l’option **[!UICONTROL Avancé]** . La variable **[!UICONTROL Mode d&#39;édition du contenu]** doit être défini sur **[!UICONTROL AEM]** avec votre instance AEM dans le **[!UICONTROL Compte AEM]** champ .
 
    ![](assets/aem_uc_11.png)
 

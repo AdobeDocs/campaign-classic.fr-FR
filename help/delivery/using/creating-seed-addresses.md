@@ -8,9 +8,9 @@ feature: Seed Address
 role: User, Data Engineer
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Les adresses de contrôle ne sont pas gérées via les profils et cibles standards, mais dans un nœud dédié de l&#39;arborescence Adobe Campaign, sous **[!UICONTROL Ressources > Gestion de campagne > Adresses de contrôle]**.
 
-Vous pouvez créer des sous-dossiers afin d&#39;organiser les adresses de contrôle. Pour cela, cliquez avec le bouton droit sur le nœud **[!UICONTROL Adresses de contrôle]** et sélectionnez **[!UICONTROL Ajouter un dossier « Adresses de contrôle »]**. Nommez le sous-dossier et validez par la touche **[!UICONTROL Entrée]** du clavier. Vous pouvez ensuite créer ou copier des adresses de contrôle dans ce sous-dossier. Pour plus dʼinformations à ce sujet, consultez la section [Défintion dʼadresses](#defining-addresses).
+Vous pouvez créer des sous-dossiers afin d&#39;organiser les adresses de contrôle. Pour ce faire, cliquez avec le bouton droit de la souris sur la page **[!UICONTROL Adresses de contrôle]** noeud et sélectionnez **[!UICONTROL Créer un dossier &quot;Adresses de contrôle&quot;]**. Nommez le sous-dossier, puis appuyez sur **[!UICONTROL Entrée]** pour valider. Vous pouvez maintenant créer ou copier des adresses de contrôle dans ce sous-dossier. Pour plus dʼinformations à ce sujet, consultez la section [Défintion dʼadresses](#defining-addresses).
 
 Adobe Campaign permet également de créer des modèles dʼadresses de contrôle qui sont importées au niveau des diffusions ou des campagnes et sont ensuite adaptées selon les besoins spécifiques aux diffusions et campagnes concernées. Consultez la section [Création de modèles dʼadresses de contrôle](#creating-seed-address-templates).
 

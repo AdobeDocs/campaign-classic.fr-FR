@@ -10,8 +10,8 @@ content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '553'
+ht-degree: 95%
 
 ---
 
@@ -55,7 +55,7 @@ Vous devez configurer une zone de sécurité pour que cet opérateur puisse se c
 
 >[!CAUTION]
 >
->Il est vivement recommandé de créer une zone de sécurité dédiée à AEM afin d&#39;éviter tout problème de sécurité. Voir à ce propos le [guide](../../installation/using/security-zones.md) d&#39;installation.
+>Nous vous recommandons vivement de créer une zone de sécurité dédiée à l&#39;AEM afin d&#39;éviter tout problème de sécurité. Voir à ce sujet la section Installation [guide](../../installation/using/security-zones.md).
 
 Si votre instance Campaign est hébergée par Adobe, contactez l’équipe d&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Si vous utilisez Campaign on-premise, procédez comme suit :
 

@@ -11,8 +11,8 @@ topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2099'
-ht-degree: 100%
+source-wordcount: '2106'
+ht-degree: 90%
 
 ---
 
@@ -148,14 +148,14 @@ Pour créer un **filtre avancé**, respectez les étapes suivantes :
 
    ![](assets/s_user_filter_choose_field.png)
 
-1. Sélectionnez dans la liste le champ sur lequel les données seront filtrées. Cliquez sur **[!UICONTROL Terminer]** pour valider.
+1. Dans la liste, sélectionnez le champ sur lequel les données seront filtrées. Cliquez sur **[!UICONTROL Terminer]** pour valider.
 1. Cliquez dans la colonne **[!UICONTROL Opérateur]** et sélectionnez dans la liste déroulante l&#39;opérateur à appliquer.
-1. Sélectionnez une valeur attendue dans la colonne **[!UICONTROL Valeur]**. Vous pouvez combiner plusieurs filtres pour affiner votre requête. Pour ajouter un critère de filtrage, cliquez sur le bouton **[!UICONTROL Ajouter]**.
+1. Sélectionnez une valeur attendue dans la colonne **[!UICONTROL Valeur]**. Vous pouvez combiner plusieurs filtres pour affiner votre requête. Pour ajouter une condition de filtre, cliquez sur **[!UICONTROL Ajouter]**.
 
    ![](assets/s_ncs_user_filter_add_button_alone.png)
 
-1. Vous pouvez hiérarchiser les expressions ou modifier l&#39;ordre des expressions de la requête en utilisant les flèches de la barre d&#39;outils.
-1. L&#39;opérateur par défaut entre les expressions est le **Et**, mais vous pouvez le modifier en cliquant dans le champ. Vous pouvez choisir un opérateur **Ou**.
+1. Vous pouvez hiérarchiser les expressions ou modifier l’ordre des expressions de la requête en utilisant les flèches de la barre d’outils.
+1. L’opérateur par défaut entre les expressions est **Et**, mais vous pouvez le modifier en cliquant sur le champ . Vous pouvez sélectionner un **Ou** de l’opérateur.
 
    ![](assets/s_ncs_user_filter_operator.png)
 
@@ -207,13 +207,13 @@ Vous pouvez créer un **filtre applicatif** en enregistrant un filtre avancé :
 
 Ces filtres sont également accessibles directement depuis l&#39;assistant de diffusion, dans l&#39;étape de sélection de la cible (consultez [cette section](../../delivery/using/creating-an-email-delivery.md) pour plus d&#39;informations sur la création de diffusions). Pour créer un filtre applicatif, vous pouvez :
 
-* Transformer un filtre avancé en filtre applicatif : pour cela, vous devez cliquer sur **[!UICONTROL Enregistrer]** avant de fermer l&#39;éditeur de filtres avancés.
+* Convertissez un filtre avancé en filtre d’application. Pour ce faire, cliquez sur **[!UICONTROL Enregistrer]** avant de fermer l’éditeur de filtres avancés.
 
   ![](assets/s_ncs_user_filter_save.png)
 
-* Créer ce filtre applicatif depuis le noeud **[!UICONTROL Administration > Paramétrage > Filtres prédéfinis]** (ou **[!UICONTROL Profils et Cibles > Filtres prédéfinis]** pour les destinataires). Pour cela, cliquez avec le bouton droit de la souris dans la liste des filtres et choisissez **[!UICONTROL Nouveau...]**. La procédure est la même que pour créer des filtres avancés.
+* Créez ce filtre d&#39;application à partir du **[!UICONTROL Administration > Configuration > Filtres prédéfinis]** (ou **[!UICONTROL Profils et cibles > Filtres prédéfinis]** pour les destinataires) noeud de l’arborescence. Pour cela, cliquez avec le bouton droit de la souris dans la liste des filtres, puis sélectionnez **[!UICONTROL Nouveau...]**. La procédure est la même que pour la création de filtres avancés.
 
-  Le champ **[!UICONTROL Libellé]** vous permet de nommer ce filtre. Ce nom apparaîtra dans la liste déroulante du bouton **[!UICONTROL Filtres...]**.
+  La variable **[!UICONTROL Libellé]** vous permet de nommer ce filtre. Ce nom apparaît dans la zone combinée de la fonction **[!UICONTROL Filtres...]** bouton .
 
   ![](assets/user_filter_apply.png)
 
@@ -369,7 +369,7 @@ Cliquez sur l&#39;onglet **[!UICONTROL Paramètres]** pour accéder aux options 
   Par exemple, le filtre **[!UICONTROL Par nom ou login]** est appliqué aux opérateurs. Cette option est sélectionnée donc le filtre est systématiquement proposé sur toutes les listes d&#39;opérateurs.
 
 * **[!UICONTROL Filtre partagé avec les autres opérateurs]** : cette option permet de rendre ce filtre disponible pour tous les autres opérateurs sur la base courante.
-* **[!UICONTROL Utilisation d&#39;un formulaire de saisie des paramètres]** : cette option permet de définir le ou les champs de filtrage qui s&#39;afficheront au-dessus de la liste lorsque ce filtre sera sélectionné. Ces champs permettent de définir les paramètres du filtre. Ce formulaire doit alors être saisi au format XML depuis le bouton **[!UICONTROL Formulaire]**. Par exemple, le filtre préconfiguré **[!UICONTROL Ayant ouvert]**, disponible dans la liste des destinataires, affiche un champ de filtrage permettant de sélectionner la diffusion visée par le filtre.
+* **[!UICONTROL Utiliser le formulaire de saisie des paramètres]**: cette option permet de définir le ou les champs de filtrage qui seront affichés au-dessus de la liste lorsque ce filtre est sélectionné. Ces champs permettent de définir les paramètres de filtrage. Ce formulaire doit être renseigné au format XML via le **[!UICONTROL Formulaire]** bouton . Par exemple, le filtre préconfiguré **[!UICONTROL Destinataires ayant ouvert]**, disponible depuis la liste des destinataires, affiche un champ de filtre qui permet de sélectionner la diffusion à laquelle le filtre est destiné.
 
   Le bouton **[!UICONTROL Aperçu]** permet de visualiser le résultat du filtre choisi.
 

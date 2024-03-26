@@ -11,8 +11,8 @@ topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 100%
+source-wordcount: '955'
+ht-degree: 75%
 
 ---
 
@@ -36,7 +36,7 @@ Les étapes de construction d&#39;une requête dans Adobe Campaign sont les sui
 
 ## Etape 1 - Sélection de la table {#step-1---choose-a-table}
 
-Sélectionnez la table contenant les données sur lesquelles vous souhaitez effectuer une requête dans la fenêtre **[!UICONTROL Type de document]**. Au besoin, filtrez les données en utilisant le champ de filtrage ou le bouton **[!UICONTROL Filtres]**.
+Sélectionnez la table contenant les données à interroger dans le **[!UICONTROL Type de document]** fenêtre. Au besoin, filtrez les données à l&#39;aide du champ de filtrage ou de la variable **[!UICONTROL Filtres]** bouton .
 
 ![](assets/query_editor_nveau_21.png)
 
@@ -48,11 +48,11 @@ Sélectionnez par exemple **[!UICONTROL Age]**, **[!UICONTROL Clé primaire]**, 
 
 ![](assets/query_editor_nveau_01.png)
 
-Vous pouvez éditer une expression en y insérant une formule ou réaliser un traitement sur une fonction d&#39;agrégat. Pour cela, cliquez dans le champ de la colonne **[!UICONTROL Expression]** puis choisissez **[!UICONTROL Editer l&#39;expression]**.
+Vous pouvez éditer une expression en y insérant une formule ou en exécutant un processus sur une fonction d&#39;agrégat. Pour ce faire, cliquez sur le bouton **[!UICONTROL Expression]** champ de colonne, puis sélectionnez **[!UICONTROL Expression d’édition]**.
 
 ![](assets/query_editor_nveau_97.png)
 
-Vous pouvez regrouper les données des colonnes de sortie : pour cela, cochez **[!UICONTROL Oui]** dans la colonne **[!UICONTROL Grouper]** de la fenêtre **[!UICONTROL Données à extraire]**. Cette fonction génère un résultat autour de l&#39;axe de groupement coché. Un exemple de requête avec regroupement est proposé dans [cette section](../../workflow/using/querying-delivery-information.md).
+Il est possible de regrouper les données des colonnes de sortie : pour cela, cochez la case **[!UICONTROL Oui]** dans le **[!UICONTROL Groupe]** de la colonne **[!UICONTROL Données à extraire]** fenêtre. Cette fonction génère un résultat autour de l&#39;axe de groupement coché. Un exemple de requête avec regroupement est disponible dans [cette section](../../workflow/using/querying-delivery-information.md).
 
 ![](assets/query_editor_nveau_56.png)
 
@@ -88,7 +88,7 @@ Après la sélection de **[!UICONTROL Critères de filtrage]**, vous accédez à
 
   ![](assets/query_editor_15.png)
 
-* Les filtres créés dans le **[!UICONTROL Requêteur générique]** peuvent être utilisés dans d&#39;autres applications de requêtage (et inversement). Pour enregistrer un filtre, cliquez sur l&#39;icône **[!UICONTROL Enregistrer]**.
+* Les filtres créés dans la variable **[!UICONTROL Éditeur de requêtes générique]** sont disponibles dans d’autres applications de requête et vice versa. Pour enregistrer un filtre, cliquez sur le bouton **[!UICONTROL Enregistrer]** Icône
 
   >[!NOTE]
   >
@@ -122,7 +122,7 @@ Une colonne qui n&#39;est pas cochée ne s&#39;affichera pas dans la fenêtre de
 
 ![](assets/query_editor_nveau_10.png)
 
-La colonne **[!UICONTROL Transformation]** permet de modifier la casse du libellé d&#39;une colonne. Sélectionnez une colonne puis cliquez dans la colonne **[!UICONTROL Transformation]**. Les modifications possibles sont :
+La variable **[!UICONTROL Transformation]** permet de changer le libellé d&#39;une colonne en majuscules ou en minuscules. Sélectionnez la colonne et cliquez sur le bouton **[!UICONTROL Transformation]** colonne . Vous pouvez choisir :
 
 * **[!UICONTROL Passer en minuscules]**,
 * **[!UICONTROL Passer en majuscules]**,
@@ -132,7 +132,7 @@ La colonne **[!UICONTROL Transformation]** permet de modifier la casse du libell
 
 ## Etape 6 - Prévisualisation des données {#step-6---preview-data}
 
-La fenêtre **[!UICONTROL Prévisualisation des données]** est la dernière étape. Cliquez sur **[!UICONTROL Lancer la prévisualisation des données]** pour obtenir le résultat de la requête. Il est disponible soit en colonnes, soit au format XML. Cliquez sur l&#39;onglet **[!UICONTROL Requêtes SQL générées]** pour visualiser la requête en langage SQL.
+La variable **[!UICONTROL Aperçu des données]** La fenêtre est la dernière étape. Cliquez sur **[!UICONTROL Lancer la prévisualisation des données]** pour obtenir le résultat de votre requête. Il est disponible en colonnes ou au format XML. Cliquez sur le bouton **[!UICONTROL Requêtes SQL générées]** pour visualiser la requête au format SQL.
 
 Dans cet exemple, les données sont triées selon l&#39;âge des destinataires ciblés et dans un ordre croissant.
 
@@ -140,4 +140,4 @@ Dans cet exemple, les données sont triées selon l&#39;âge des destinataires c
 
 >[!NOTE]
 >
->Dans la fenêtre **[!UICONTROL Prévisualisation des données]**, les 200 premières lignes de résultat s&#39;affichent par défaut. Pour modifier cette quantité, saisissez un chiffre dans la case **[!UICONTROL Lignes à visualiser]**, validez puis cliquez sur **[!UICONTROL Lancer la prévisualisation des données]**.
+>Par défaut, seules les 200 premières lignes sont affichées dans la variable **[!UICONTROL Aperçu des données]** fenêtre. Pour modifier ce paramètre, saisissez un nombre dans le champ **[!UICONTROL Lignes à afficher]** puis cliquez sur **[!UICONTROL Lancer la prévisualisation des données]**.

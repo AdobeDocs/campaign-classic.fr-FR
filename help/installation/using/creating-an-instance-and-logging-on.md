@@ -10,8 +10,8 @@ topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ Lorsque la console Adobe Campaign est démarrée, vous accédez à une page de 
 
 Pour créer une instance, procédez comme suit :
 
-1. Pour accéder à la fenêtre de paramétrage des connexions, cliquez sur le lien situé en haut à droite des champs des identifiant et mot de passe. Ce lien peut être **[!UICONTROL Nouveau...]** ou le nom d&#39;une instance existante.
+1. Cliquez sur le lien situé en haut à droite des champs des informations d’identification pour accéder à la fenêtre de configuration de la connexion. Ce lien peut être : **[!UICONTROL Nouveau...]** ou un nom d’instance existant.
 
    ![](assets/s_ncs_install_define_connection_01.png)
 

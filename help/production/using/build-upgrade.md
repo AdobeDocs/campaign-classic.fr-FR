@@ -11,8 +11,8 @@ topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2380'
-ht-degree: 100%
+source-wordcount: '2330'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Les prérequis suivants doivent être remplis :
 
 Vous trouverez plus d’informations dans ces sections : [Mise à jour d’Adobe Campaign](../../production/using/upgrading.md), [Migration vers une nouvelle version](../../migration/using/about-migration.md).
 
-Pour les instances hybrides et hébergées, vous devez demander un upgrade de build à l&#39;équipe d&#39;exploitation technique Adobe. Pour plus d&#39;informations, reportez-vous à la section Forum aux questions située au bas de cette page. Consultez également le [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
+Pour les instances hybrides et hébergées, vous devez demander l&#39;upgrade de build à l&#39;équipe des opérations techniques d&#39;Adobe. Pour plus d&#39;informations à ce sujet, reportez-vous à la section Forum aux questions située en bas de cette page. Consultez également la section [FAQ sur l&#39;upgrade de build](../../platform/using/faq-build-upgrade.md).
 
 ## Préparer l&#39;upgrade
 
@@ -149,7 +149,7 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
 
 1. Arrêtez les services suivants :
 
-   * services Web (IIS) :  **iisreset /stop**
+   * Services Web (IIS) : **iisreset /stop**
    * service Adobe Campaign : **net stop nlserver6**
 
    >[!NOTE]
@@ -391,8 +391,8 @@ Il existe différents types de fusions :
 Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
 1. Dans la partie inférieure de la fenêtre, faites une recherche sur la **_conflict_string_** pour localiser les entités en conflit. L&#39;entité installée avec la nouvelle version contient l&#39;argument new, l&#39;entité correspondant à la version précédente contient l&#39;argument custom.
-1. Supprimez la version que vous ne souhaitez pas conserver. Effacez la chaîne **_conflict_argument_** de l&#39;entité que vous gardez.
-1. Positionnez-vous sur le conflit que vous venez de résoudre. Cliquez sur l&#39;icône **Actions** et sélectionnez **Déclarer comme résolu**.
+1. Supprimez la version que vous ne souhaitez pas conserver. Supprimez le **_conflict_argument_** chaîne de l’entité que vous conservez.
+1. Accédez au conflit que vous avez résolu. Cliquez sur le bouton **Actions** et sélectionnez **Déclarer comme résolu**.
 1. Enregistrez vos modifications : le conflit est désormais résolu.
 
 #### Fusions complexes{#complex-merges}

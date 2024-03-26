@@ -10,7 +10,7 @@ exl-id: 099161b4-b4cb-433c-aed6-71157269a536
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -78,7 +78,7 @@ Dans un schéma, un index se définit comme suit :
 
 Il est donc important de déclarer les index existants de la table personnalisée dans le schéma correspondant.
 
-Un index est implicitement déclaré pour chaque déclaration de clé et de lien du schéma source. Il est possible d&#39;empêcher la déclaration de l&#39;index en précisant l&#39;attribut **noDbIndex=&quot;true&quot;** :
+Un index est implicitement déclaré pour chaque déclaration de clé et de lien du schéma source. La déclaration d’index peut être empêchée en spécifiant la variable **noDbIndex=&quot;true&quot;** attribute:
 
 **Exemple**:
 

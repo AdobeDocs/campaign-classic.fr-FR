@@ -11,8 +11,8 @@ topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 100%
+source-wordcount: '1489'
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ Une zone est définie par :
 
 Les zones de sécurité sont imbriquées. Chaque définition d’une nouvelle zone à l’intérieur d’une autre réduit donc le nombre d’opérateurs pouvant s’y connecter tout en augmentant les droits attribués à chaque opérateur.
 
-Les zones peuvent être définies lors de la configuration du serveur dans le fichier **serverConf.xml**. Tous les paramètres disponibles dans **serverConf.xml** sont répertoriés dans [cette section](../../installation/using/the-server-configuration-file.md).
+Les zones doivent être définies lors de la configuration du serveur, dans la variable **serverConf.xml** fichier . Tous les paramètres disponibles dans la variable **serverConf.xml** sont répertoriés dans [cette section](../../installation/using/the-server-configuration-file.md).
 
 Chaque zone définit des droits, comme par exemple :
 
@@ -55,7 +55,7 @@ Chaque zone définit des droits, comme par exemple :
 >[!NOTE]
 >
 >**Chaque opérateur doit être associé à une zone.** Si l&#39;adresse IP de l&#39;opérateur appartient à la plage définie par la zone, l&#39;opérateur peut donc se connecter à l&#39;instance.\
->Il se peut que l&#39;adresse IP de l&#39;opérateur soit définie dans plusieurs zones. Dans ce cas, l&#39;opérateur reçoit **l&#39;union** des droits disponibles pour chacune des zones.
+>L&#39;adresse IP de l&#39;opérateur peut être définie dans plusieurs zones. Dans ce cas, l&#39;opérateur reçoit la **set** des droits disponibles pour chaque zone.
 
 Le fichier **serverConf.xml** livré d&#39;usine contient trois zones : **public, vpn et lan**.
 
@@ -100,7 +100,7 @@ L&#39;ensemble des droits définissant une zone sont les suivants :
 >
 >Dans la définition d&#39;une zone, chaque attribut recevant la valeur **true** réduit la sécurité.
 
-Dans le cas de Message Center, quand il y a plusieurs instances d&#39;exécution, vous devez créer une zone de sécurité supplémentaire avec l&#39;attribut **sessionTokenOnly** défini sur **true**, dans laquelle seules les adresses IP nécessaires doivent être ajoutées. Le paramétrage des instances est présenté dans [ce document](../../message-center/using/configuring-instances.md).
+Lors de l&#39;utilisation de Message Center, s&#39;il existe plusieurs instances d&#39;exécution, vous devez créer une zone de sécurité supplémentaire avec la variable **sessionTokenOnly** attribut défini comme **true**, dans laquelle seules les adresses IP nécessaires doivent être ajoutées. Pour plus d’informations sur le paramétrage des instances, reportez-vous à la section [ce document](../../message-center/using/configuring-instances.md).
 
 ## Bonnes pratiques pour les zones de sécurité {#best-practices-for-security-zones}
 
@@ -225,7 +225,7 @@ Une fois les zones définies et l&#39;énumération **[!UICONTROL Zone de sécur
 
 ## Recommandations
 
-* Assurez-vous que le proxy inverse n’est pas autorisé dans subNetwork. Si c’est le cas, l’**ensemble** du trafic est détecté comme provenant de cette adresse IP locale et est donc considéré comme digne de confiance.
+* Vérifiez que le proxy inverse n’est pas autorisé dans subNetwork. Si c&#39;est le cas, **all** Le trafic sera détecté comme provenant de cette adresse IP locale et sera donc approuvé.
 
 * Limitez l’utilisation de sessionTokenOnly=&quot;true&quot; :
 

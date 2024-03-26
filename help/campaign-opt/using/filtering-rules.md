@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Règles de filtrage
-description: Découvrez comment utiliser les règles de filtrage dans Adobe Campaign
+description: Découvrez comment utiliser les règles de filtrage dans Adobe Campaign
 role: User, Data Engineer
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Typology Rules, Campaigns
@@ -9,7 +9,7 @@ exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ Ces typologies spécifiques peuvent être associées à une diffusion lors du ch
 
 ![](assets/campaign_opt_apply_typo_filtering.png)
 
-Sélectionnez ensuite la ou les typologies de filtrage à appliquer à la diffusion. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionner la typologie à appliquer.
+Sélectionnez ensuite la typologie de filtrage à appliquer à la diffusion. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez les typologies à appliquer.
 
 Vous pouvez également associer directement des règles de filtrage depuis cet onglet, sans qu&#39;elles soient regroupées dans une typologie. Pour cela, utilisez la section inférieure de la fenêtre.
 

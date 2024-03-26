@@ -7,8 +7,8 @@ feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 94%
 
 ---
 
@@ -46,9 +46,9 @@ Pour plus d&#39;informations sur la création de listes, reportez-vous à cette 
 
    ![](assets/use_case_report_3.png)
 
-1. Chaque fois que le workflow est exécuté, le rapport des **[!UICONTROL Indicateurs de tracking]** est mis à jour (voir [Etape 3 : création du workflow](#step-3--creating-the-workflow)). Pour inclure la dernière version du rapport dans la diffusion, vous devez ajouter un **[!UICONTROL Attachement calculé]** :
+1. Chaque fois que le workflow est exécuté, le rapport des **[!UICONTROL Indicateurs de tracking]** est mis à jour (voir [Etape 3 : création du workflow](#step-3--creating-the-workflow)). Pour inclure la dernière version du rapport dans la diffusion, vous devez ajouter une **[!UICONTROL Pièce jointe calculée]** :
 
-   Pour plus d&#39;informations sur la création d&#39;un attachement calculé, reportez-vous à cette [section](../../delivery/using/attaching-files.md#creating-a-calculated-attachment).
+   Pour plus d’informations sur la création d’une pièce jointe calculée, reportez-vous à cette [section](../../delivery/using/attaching-files.md#creating-a-calculated-attachment).
 
    * Cliquez sur le lien **[!UICONTROL Pièces jointes]**, cliquez sur **[!UICONTROL Ajouter]** puis sélectionnez **[!UICONTROL Attachement calculé]**.
 
@@ -68,7 +68,7 @@ Pour plus d&#39;informations sur la création de listes, reportez-vous à cette 
      >
      >Le fichier doit être présent sur le serveur. Son chemin d’accès et son nom doivent être identiques à ceux saisis dans l’activité de type **[!UICONTROL Code JavaScript]** du workflow (voir : [Etape 3 : création du workflow](#step-3--creating-the-workflow)).
 
-   * Sélectionnez l&#39;onglet **[!UICONTROL Avancé]** et cochez la case **[!UICONTROL Scripter le nom du fichier qui sera affiché dans la messagerie du destinataire]**. Dans la zone d&#39;édition, saisissez le nom que vous souhaitez donner à la pièce jointe, dans la diffusion finale.
+   * Sélectionnez l’onglet **[!UICONTROL Avancé]** et cochez la case **[!UICONTROL Scripter le nom du fichier qui sera affiché dans la messagerie du destinataire]**. Dans la zone d&#39;édition, saisissez le nom que vous souhaitez donner à la pièce jointe dans la diffusion finale.
 
      ![](assets/use_case_report_6bis.png)
 
@@ -111,12 +111,12 @@ Pour réaliser ce cas d&#39;utilisation, le workflow suivant a été créé. Cel
 
    Les variables utilisées sont les suivantes :
 
-   * **var reportName** : saisissez, entre guillemets, le nom interne du rapport. Dans notre exemple, le nom interne du rapport **Indicateur de tracking** est &quot;deliveryFeedback&quot;.
+   * **var reportName**: saisissez le nom interne du rapport entre guillemets doubles. Dans ce cas, le nom interne de la variable **Indicateur de suivi** Le rapport est &quot;deliveryFeedback&quot;.
    * **var path** : saisissez le chemin d’enregistrement du fichier (&quot;tmp/files/&quot;), le nom que vous souhaitez donner au fichier (&quot;deliveryFeedback&quot;) et l’extension du fichier (&quot;.pdf&quot;). Dans notre exemple, nous avons utilisé le nom interne comme nom de fichier. Les valeurs doivent être entre guillemets et séparées par le caractère &quot;+&quot;.
 
      >[!CAUTION]
      >
-     >Le fichier doit être enregistré sur le serveur. Vous devez saisir le même chemin et le même nom dans l’onglet **[!UICONTROL Général]** de la fenêtre d’édition de l’attachement calculé (voir : [Etape 2 : Création du modèle de diffusion](#step-2--creating-the-delivery-template)).
+     >Le fichier doit être enregistré sur le serveur. Vous devez saisir le même chemin et le même nom dans l’onglet **[!UICONTROL Général]** de la fenêtre d’édition de la pièce jointe calculée (voir : [Étape 2 : Création du modèle de diffusion](#step-2--creating-the-delivery-template)).
 
    * **var exportFormat** : saisissez le format d&#39;export du fichier (&quot;PDF&quot;).
    * **var _ctx** (contexte) : dans notre exemple, nous utilisons le rapport **[!UICONTROL Indicateurs de tracking]** dans son contexte global.

@@ -37,7 +37,7 @@ Par défaut, elles sont classées dans un sous-dossier correspondant au mois d&#
 
 >[!NOTE]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré d&#39;Adobe Campaign](../../delivery/using/sending-with-enhanced-mta.md), tous les messages transactionnels peuvent également être envoyés avec celui-ci pour optimiser la délivrabilité, le débit et la gestion des retours. Tous les impacts sont les mêmes que pour les messages marketing standard.
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré d’Adobe Campaign](../../delivery/using/sending-with-enhanced-mta.md), tous les messages transactionnels peuvent également être envoyés avec celui-ci pour optimiser la délivrabilité, le débit et la gestion des rebonds. Tous les impacts sont les mêmes que pour les messages marketing standard.
 
 ## Surveillance de message transactionnel {#transactional-message-monitoring}
 
@@ -47,7 +47,7 @@ Les diffusions transactionnelles envoyées à partir de l&#39;instance d&#39;ex�
 
 >[!NOTE]
 >
->Les diffusions hebdomadaires accumulent les événements en fonction de la dernière mise à jour de l&#39;événement, et non de la date de création de l&#39;événement. Par conséquent, lors de l&#39;extraction de logs de diffusion de messagerie transactionnelle à partir de l&#39;instance de pilotage, l&#39;identifiant de diffusion associé à chaque identifiant de log de diffusion peut changer au fil du temps lorsque le journal est mis à jour (par exemple, lorsqu&#39;un retour entrant est reçu pour l&#39;événement).
+>Les diffusions hebdomadaires accumulent les événements en fonction de la dernière mise à jour de l&#39;événement, et non de la date de création de l&#39;événement. Par conséquent, lors de l’extraction de logs de diffusion de messagerie transactionnelle à partir de l’instance de pilotage, l’identifiant de diffusion associé à chaque identifiant de log de diffusion peut changer au fil du temps lorsque le journal est mis à jour (par exemple, lorsqu’un rebond entrant est reçu pour l’événement).
 
 <!--The transactional deliveries sent from the execution instance are synchronized back to the control instance as follows.
 

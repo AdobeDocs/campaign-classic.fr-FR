@@ -8,7 +8,7 @@ exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Ces activités permettent de construire une ou plusieurs cibles en définissant 
 * **Partage** : permet de partager une cible en plusieurs sous-ensembles. Pour plus d&#39;informations, consultez la section [Partage](split.md).
 * **Cellules** : propose une vue des différents sous-ensembles sous forme de colonnes de données, et permet de faciliter la manipulation de ces sous-ensembles, lorsqu&#39;ils sont nombreux. Pour plus d&#39;informations, consultez la section [Cellules](cells.md).
 * **Offres par cellule** : permet d&#39;associer des offres différentes à chaque sous-ensemble d&#39;une population. Pour plus d&#39;informations, consultez la section [Offres par cellule](offers-by-cell.md).
-* **Réponses à un questionnaire** : permet de récupérer les informations collectées dans un questionnaire. Consultez à ce propos cette [section](../../surveys/using/getting-started-with-surveys.md).
+* **Réponses aux questionnaires**: permet de récupérer les informations collectées lors d&#39;un questionnaire. Pour plus d’informations à ce sujet, consultez cette [section](../../surveys/using/getting-started-with-surveys.md).
 * **Composition de diffusion** : permet d&#39;ajouter un plan de diffusion. Pour plus d&#39;informations, consultez la section [Composition de diffusion](../../workflow/using/delivery-outline.md).
 * **Enrichissement** : permet d&#39;ajouter des données additionnelles à la table de travail du workflow. Pour plus d&#39;informations, consultez la section [Enrichissement](../../workflow/using/enrichment.md).
 * **Edition du schéma** : permet de transformer, normaliser et, si nécessaire, enrichir les données. Pour plus d&#39;informations, consultez la section [Edition du schéma](../../workflow/using/edit-schema.md).

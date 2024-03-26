@@ -10,8 +10,8 @@ topic-tags: unitary-interactions
 exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ Lorsque vous créez l&#39;environnement anonyme via l&#39;assistant de création
 
 La **[!UICONTROL Dimension de ciblage]** est automatiquement préremplie. Elle pointe par défaut sur la table des visiteurs.
 
-Le champ **[!UICONTROL Dossier des visiteurs]** s&#39;affiche. Il est automatiquement prérempli pour pointer sur le dossier **[!UICONTROL Visiteurs]**. Ce champ permet de spécifier l&#39;endroit où sont stockés les profils des visiteurs.
+La variable **[!UICONTROL Dossier du visiteur]** s’affiche. Il est automatiquement renseigné pour établir un lien vers la variable **[!UICONTROL Visiteurs]** dossier. Ce champ vous permet de choisir l’emplacement de stockage des profils du visiteur.
 
 ![](assets/anonymous_environment_option.png)
 

@@ -9,7 +9,7 @@ exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '534'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -35,7 +35,7 @@ Pour cela, cliquez sur le lien **[!UICONTROL Filtrer les données...]** disponib
 
 Dans l&#39;exemple suivant, le graphique ne doit afficher que les profils de destinataires vivant en France et qui ont effectué des achats pendant l&#39;année.
 
-Pour définir ce filtre, positionnez une page dans le diagramme et éditez-la. Cliquez sur le lien **[!UICONTROL Filtrer les données]** et créez le filtre correspondant aux données que vous voulez afficher. Pour plus d&#39;informations sur la construction des requêtes dans Adobe Campaign, reportez-vous à [cette section](../../platform/using/about-queries-in-campaign.md).
+Pour définir ce filtre, positionnez une page dans le graphique et éditez-la. Cliquez sur le bouton **[!UICONTROL Filtrage des données]** liez et créez le filtre correspondant aux données que vous souhaitez afficher. Pour plus d&#39;informations sur la construction des requêtes dans Adobe Campaign, reportez-vous à [cette section](../../platform/using/about-queries-in-campaign.md).
 
 ![](assets/s_ncs_advuser_report_wizard_029.png)
 
@@ -73,7 +73,7 @@ Dans la page contenant le tableau ou le graphique, l&#39;onglet **[!UICONTROL Do
 ![](assets/s_ncs_advuser_report_datasource_3.png)
 
 * L&#39;option **[!UICONTROL Nouvelle requête]** permet de créer une requête pour collecter des données. Pour plus dʼinformations, consultez la section [Définition dʼun filtre direct sur les données](#defining-a-direct-filter-on-data).
-* L&#39;option **[!UICONTROL Données du contexte]** permet d&#39;utiliser les données d&#39;entrée : le contexte du rapport correspond aux informations qui sont véhiculées dans la transition entrante de la page contenant le graphique ou le tableau. Ce contexte peut, par exemple, contenir les données collectées via une activité **[!UICONTROL Requête]** placée avant l&#39;activité **[!UICONTROL Page]**, et dans laquelle vous spécifiez la table et les champs sur lesquels doit porter le rapport.
+* La variable **[!UICONTROL Données contextuelles]** permet d&#39;utiliser les données d&#39;entrée : le contexte du rapport correspond aux informations contenues dans la transition entrante de la page contenant le graphique ou le tableau. Ce contexte peut, par exemple, contenir des données collectées via un **[!UICONTROL Requête]** l’activité placée avant la **[!UICONTROL Page]** activité et pour laquelle vous devez spécifier la table et les champs sur lesquels porte le rapport.
 
 Par exemple, dans une boîte de requête, construisez la requête suivante sur les destinataires :
 

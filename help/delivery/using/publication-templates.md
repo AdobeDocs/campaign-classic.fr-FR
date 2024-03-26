@@ -9,8 +9,8 @@ role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 100%
+source-wordcount: '845'
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ La clé d&#39;identification d&#39;une feuille de style est une chaîne construi
 
 ## Création et configuration du modèle {#creating-and-configuring-the-template}
 
-Les modèles de publication sont stockés par défaut dans le noeud **[!UICONTROL Administration > Paramétrages > Modèles de publication]**. Pour créer un nouveau modèle, cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des modèles.
+Les modèles de publication sont stockés par défaut dans la variable **[!UICONTROL Administration > Paramétrage > Modèles de publication]** noeud . Pour créer un modèle, cliquez sur le bouton **[!UICONTROL Nouveau]** au-dessus de la liste des modèles.
 
 Pour paramétrer le modèle de publication, indiquez le nom du modèle (c&#39;est-à-dire la clé d&#39;identification composée du nom et de l&#39;espace de noms), son libellé, le schéma de données et le formulaire de saisie auxquels il est associé.
 
@@ -74,7 +74,7 @@ Les options de publication disponibles sont les suivantes :
 
   Une variable est renseignée avec le format suivant : **`$(<xpath>)`**, où **`<xpath>`** est le chemin d’un champ du schéma de données du modèle de publication.
 
-  Le nom du fichier peut être composé d&#39;un champ de type date. Pour formater correctement ce champ, vous devez utiliser la fonction **$date-format**, avec comme paramètres le chemin du champ et le format de sortie.
+  Le nom d’un fichier peut être composé d’un champ de type date. Pour formater correctement ce champ, utilisez la méthode **$date-format** , en utilisant le chemin du champ et le format de sortie comme paramètres.
 
   Par défaut, le format de construction du nom du fichier utilise les variables sur les champs &quot;@name&quot; et &quot;@date&quot; :
 

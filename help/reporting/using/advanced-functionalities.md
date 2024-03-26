@@ -8,8 +8,8 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ Les scripts référencés doivent être rédigés en Javascript et être compati
 
 Lors de la [conception de votre rapport](../../reporting/using/creating-a-new-report.md#modelizing-the-chart), utilisez l&#39;activité **[!UICONTROL Script]** pour traiter les données et créer facilement des requêtes complexes qui n&#39;activent pas le langage SQL. Vous pouvez saisir directement votre requête dans la fenêtre de script.
 
-L’onglet **[!UICONTROL Textes]** vous permet de définir des chaînes de texte. Elles peuvent ensuite être utilisées avec la syntaxe suivante : **$(Identifiant)**. Pour plus d’informations sur l’utilisation de textes, voir [Ajouter un en-tête et un pied de page](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
+La variable **[!UICONTROL Textes]** vous permet de définir des chaînes de texte. Ils peuvent ensuite être utilisés avec la syntaxe suivante : **$(Identifiant)**. Pour plus d’informations sur l’utilisation de textes, voir [Ajouter un en-tête et un pied de page](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
 >[!CAUTION]
 >

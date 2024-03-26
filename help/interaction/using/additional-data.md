@@ -11,7 +11,7 @@ exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
@@ -68,7 +68,7 @@ Si vous souhaitez stocker ces données dans la table des propositions, vous deve
 
 ### Canal entrant (page Web) {#input-channel--web-page-}
 
-Pour passer des données additionnelles lors de l&#39;appel au moteur, vous devez ajouter la variable **interactionGlobalCtx** dans le code Javascript de la page web. Insérez, dans cette variable, le nœud **Interaction** contenant les données d&#39;appel. Vous devez respecter la même structure xml que dans l&#39;extension du schéma **nms:interaction**. Voir à ce sujet la section [Configuration des données additionnelles](#additional-data-configuration).
+Pour transférer des données supplémentaires lors de l’appel au moteur, vous devez ajouter la variable **interactionGlobalCtx** dans le code JavaScript de la page web. Insérez la méthode **Interaction** noeud contenant les données d’appel dans cette variable. Vous devez respecter la même structure xml que dans la variable **nms:interaction** schéma. Voir à ce sujet la section [Configuration des données additionnelles](#additional-data-configuration).
 
 ```
 interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
@@ -90,9 +90,9 @@ Par exemple, vous pouvez choisir de ne présenter l&#39;offre qu&#39;aux personn
 
 >[!NOTE]
 >
->Vous devez limiter la règle aux canaux pour lesquels les données sont définies. Dans notre exemple, nous limitons la règle au canal web entrant (champ **[!UICONTROL Pris en compte si]**).
+>Vous devez limiter la règle aux canaux pour lesquels les données sont définies. Dans notre exemple, nous limitons la règle au canal web entrant (**[!UICONTROL Pris en compte si]** ).
 
-### Personnalisation      {#personalization}
+### Personnalisation {#personalization}
 
 Il est également possible d&#39;utiliser ces données additionnelles lors de la personnalisation d&#39;une offre. Vous pouvez, par exemple, ajouter une condition sur la langue de navigation.
 
@@ -102,7 +102,7 @@ Il est également possible d&#39;utiliser ces données additionnelles lors de la
 >
 >Vous devez limiter la personnalisation aux canaux pour lesquels les données sont définies. Dans notre exemple, nous limitons la règle au canal web entrant.
 
-Si vous avez personnalisé une offre sur des données additionnelles, celles-ci ne s&#39;afficheront pas par défaut dans la prévisualisation car elles ne sont pas disponibles en base. Sur l&#39;onglet **[!UICONTROL Exemple de données d&#39;appel]** de l&#39;environnement, vous devez ajouter les échantillons de valeurs à utiliser dans la prévisualisation. Veillez à respecter la même structure xml que dans l&#39;extension du schéma **nms:interaction**. Voir à ce sujet la section [Configuration des données additionnelles](#additional-data-configuration).
+Si vous avez personnalisé une offre à l&#39;aide de données additionnelles, ces données n&#39;apparaîtront pas dans l&#39;aperçu par défaut car elles ne sont pas disponibles dans la base de données. Dans l’environnement **[!UICONTROL Exemple de données d&#39;appel]** , vous devez ajouter des exemples de valeurs à utiliser dans l’aperçu. Respectez la même structure xml que dans la variable **nms:interaction** extension de schéma. Voir à ce sujet la section [Configuration des données additionnelles](#additional-data-configuration).
 
 ![](assets/ita_calldata_preview.png)
 
@@ -120,7 +120,7 @@ Au moment de l&#39;appel au moteur, il est possible de stocker les données addi
 
 Au niveau de l&#39;emplacement, positionnez-vous sur l&#39;onglet **[!UICONTROL Stockage]** et cliquez sur le bouton **[!UICONTROL Ajouter]**.
 
-Dans la colonne **[!UICONTROL Chemin de stockage]**, sélectionnez le champ de stockage dans la table des propositions. Dans la colonne **[!UICONTROL Expression]**, sélectionnez le champ additionnel dans le noeud **[!UICONTROL Interaction]**.
+Dans le **[!UICONTROL Chemin de stockage]** , sélectionnez le champ de stockage dans la table des propositions. Dans le **[!UICONTROL Expression]** , sélectionnez le champ supplémentaire de la colonne **[!UICONTROL Interaction]** noeud .
 
 Il est possible de récupérer les données d&#39;appel au moment de la génération de la proposition ou au moment de son acceptation (lorsque la personne clique sur l&#39;offre).
 

@@ -9,7 +9,7 @@ exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '1383'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -39,7 +39,7 @@ Pour créer une simulation, les étapes sont les suivantes :
 
    ![](assets/simu_campaign_opti_01.png)
 
-1. Indiquez le modèle et le nom de la simulation. Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour créer la simulation.
+1. Saisissez le modèle et le nom de la simulation. Cliquez sur **[!UICONTROL Enregistrer]** pour créer la simulation.
 
    ![](assets/simu_campaign_opti_02.png)
 
@@ -47,7 +47,7 @@ Pour créer une simulation, les étapes sont les suivantes :
 
    ![](assets/simu_campaign_opti_edit.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Périmètre]**, indiquez les diffusions à considérer dans cette simulation. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et indiquez le mode de sélection des diffusions à prendre en compte.
+1. Dans le **[!UICONTROL Portée]** , indiquez les diffusions à prendre en compte pour cette simulation. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter]** et indiquez le mode de sélection de la diffusion à prendre en compte.
 
    ![](assets/simu_campaign_opti_edit_scope.png)
 
@@ -55,7 +55,7 @@ Pour créer une simulation, les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Si vous sélectionnez les diffusions d&#39;un plan, d&#39;un programme ou d&#39;une opération, Adobe Campaign peut réactualiser automatiquement la liste des diffusions à prendre en compte à chaque lancement de la simulation. Pour cela, cochez l&#39;option **[!UICONTROL Réactualiser la sélection des diffusions à chaque démarrage de la simulation]**.
+   >Si vous sélectionnez des diffusions depuis un plan, un programme ou une opération, Adobe Campaign peut automatiquement actualiser la liste des diffusions à prendre en compte au démarrage de la simulation. Pour ce faire, cochez la case **[!UICONTROL Actualiser la sélection des diffusions à chaque démarrage de la simulation]** .
    >  
    >Dans le cas contraire, seules les diffusions présentes dans le plan, le programme et la ou les opérations au moment de la création de la simulation seront prises en comptes : les diffusions ajoutées ultérieurement seront ignorées.
 
@@ -71,7 +71,7 @@ Pour créer une simulation, les étapes sont les suivantes :
 
    ![](assets/simu_campaign_opti_edit_scope_save.png)
 
-   Au besoin, vous pouvez utiliser une condition dynamique à partir du lien **[!UICONTROL Editer la condition dynamique...]**.
+   Au besoin, vous pouvez utiliser une condition dynamique à partir du **[!UICONTROL Editer la condition dynamique..]** lien.
 
    Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour valider ce paramétrage.
 
@@ -93,7 +93,7 @@ Dans l&#39;onglet **[!UICONTROL Général]** de la simulation, vous pouvez indiq
 
 * **[!UICONTROL Différer l&#39;exécution vers une plage horaire de faible activité]** reporte le lancement de la simulation vers une plage horaire moins chargée, en fonction du degré de priorité choisie. Une simulation est très coûteuse en termes de ressources sur le moteur de base de données. A ce titre, il est souvent utile de décaler l&#39;exécution des simulations non urgentes vers une plage de faible activité (la nuit par exemple).
 * La **[!UICONTROL Priorité]** est le niveau appliqué à la simulation pour en différer le déclenchement.
-* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**. Les logs SQL servent à diagnostiquer une simulation si elle se termine en erreur. Ils peuvent aussi aider à savoir pourquoi une simulation est trop lente. Ces messages seront visibles après la simulation dans le sous-onglet **[!UICONTROL Logs SQL]** de l&#39;onglet **[!UICONTROL Suivi]**.
+* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**. Les logs SQL permettent de diagnostiquer une simulation si elle se termine par des erreurs. Ils peuvent également vous aider à comprendre pourquoi une simulation est trop lente. Ces messages seront visibles après la simulation dans la **[!UICONTROL Journaux SQL]** sous-onglet du **[!UICONTROL Audit]** .
 
 ## Exécution dʼune simulation {#executing-a-simulation}
 
@@ -131,7 +131,7 @@ Une fois l&#39;exécution terminée, ouvrez la simulation et cliquez sur l&#39;o
 
 #### Journal {#audit}
 
-L&#39;onglet **[!UICONTROL Journal]** sert à suivre l&#39;exécution de la simulation. Le sous-onglet **[!UICONTROL Logs SQL]** est utile aux utilisateurs experts. Il répertorie les logs d&#39;exécution, en langage SQL. Ces logs ne s&#39;affichent que si l&#39;option **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** a été sélectionnée dans l&#39;onglet **[!UICONTROL Général]** avant l&#39;exécution de la simulation.
+La variable **[!UICONTROL Audit]** vous permet de suivre l&#39;exécution de la simulation. La variable **[!UICONTROL Journaux SQL]** est utile pour les utilisateurs experts. Il répertorie les logs d&#39;exécution au format SQL. Ces journaux ne s’affichent que si la variable **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** a été sélectionnée dans la variable **[!UICONTROL Général]** avant exécution de la simulation.
 
 ![](assets/simu_campaign_opti_11.png)
 
@@ -143,7 +143,7 @@ L&#39;analyse descriptive est présentée dans cette [section](../../reporting/u
 
 ## Résultats d&#39;une simulation {#results-of-a-simulation}
 
-Les indicateurs présentés dans l&#39;onglet **[!UICONTROL Résultats]** donnent un premier aperçu du résultat de la simulation. La vue **[!UICONTROL Rapports]**, accessible depuis le tableau de bord de la simulation, permet d&#39;avoir une vue plus fiable des informations.****
+Les indicateurs dans la variable **[!UICONTROL Journal]** et **[!UICONTROL Résultats]** les onglets donnent un premier aperçu des résultats de la simulation. Pour obtenir une vue plus détaillée des résultats, ouvrez le **[!UICONTROL Rapports]** .
 
 ### Rapports  {#reports}
 
@@ -157,7 +157,7 @@ Par défaut, les rapports suivants sont proposés :
 
 >[!NOTE]
 >
->Vous pouvez créer des rapports et les ajouter aux rapports proposés. Voir à ce sujet [cette section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
+>Vous pouvez créer de nouveaux rapports et les ajouter aux rapports proposés. Pour plus d’informations, consultez [cette section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
 
 Pour accéder aux rapports, cliquez sur le lien **[!UICONTROL Rapports]** de la simulation visée à partir de son tableau de bord.
 

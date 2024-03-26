@@ -10,8 +10,8 @@ topic-tags: troubleshooting
 exl-id: 6ccda57d-f7a3-4501-b2f4-59fcb05f9013
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '116'
+ht-degree: 88%
 
 ---
 
@@ -25,7 +25,7 @@ Pour les clients hébergés, ce déplacement n&#39;a aucun impact. Pour les inst
 
 **Utilisateurs d&#39;Apache :**
 
-Si les utilisateurs d&#39;Apache utilisent le fichier **apache_neolane.conf** fourni, le déplacement des fichiers n&#39;a aucun impact..
+Si les utilisateurs d’Apache utilisent le **apache_neolane.conf**.
 
 **Utilisateurs d&#39;IIS :**
 

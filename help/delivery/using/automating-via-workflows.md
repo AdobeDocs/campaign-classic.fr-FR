@@ -9,8 +9,8 @@ role: User
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 100%
+source-wordcount: '1212'
+ht-degree: 93%
 
 ---
 
@@ -89,7 +89,7 @@ Le contenu est paramétré à partir de l&#39;activité Gestion de contenu, comm
 
 Une nouvelle instance de contenu est créée à partir du modèle de publication et du dossier chaîne de contenu.
 
-Dans notre exemple, nous avons surchargé l’objet de la diffusion. Il sera pris en compte à la place de celui renseigné dans le modèle de diffusion de l’activité **[!UICONTROL Diffusion]**.
+Dans notre exemple, nous avons surchargé le sujet de la diffusion. Elle sera prise en compte au lieu de celle saisie dans la variable **[!UICONTROL Diffusion]** modèle.
 
 Le contenu est complété automatiquement par un flux XML provenant de l&#39;URL renseignée :
 
@@ -215,11 +215,11 @@ L&#39;action finale de l&#39;activité est de préparer et de lancer la diffusio
 
 ### Import du contenu depuis FTP {#importing-content-from-ftp}
 
-Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
+Si le contenu de votre diffusion figure dans un fichier HTML situé sur un serveur FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
 
 ### Import du contenu depuis le connecteur Amazon Simple Storage Service (S3) {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
-Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve dans des compartiments Amazon Simple Storage Service (S3), vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
+Si le contenu de votre diffusion se trouve dans des compartiments Amazon Simple Storage Service (S3), vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
 
 ## Mise à jour semi-automatique {#semi-automatic-update}
 

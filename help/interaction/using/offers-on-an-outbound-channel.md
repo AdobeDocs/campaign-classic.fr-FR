@@ -11,8 +11,8 @@ topic-tags: case-study
 exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '480'
+ht-degree: 94%
 
 ---
 
@@ -94,7 +94,7 @@ Dans votre base, vous disposez d&#39;une catégorie d&#39;offres de voyages à d
 1. Entrez des dates de validité. Vous devez obligatoirement spécifier au moins une date de début. Ceci permet au moteur d&#39;offres de filtrer les offres et de choisir celles qui sont valides à la date donnée.
 1. Si nécessaire, spécifiez un ou plusieurs thèmes pour limiter le nombre d&#39;offres à celles ayant ce mot-clé dans leurs paramètres.
 
-   Dans notre exemple, la catégorie **Produits financiers** contient deux sous-catégories ayant chacune un thème distinct. La simulation portera seulement sur les offres de la catégorie dont le thème d&#39;application est **Clients &lt; 1 an**.
+   Dans notre exemple, la variable **Voyage** catégorie contient deux sous-catégories avec deux thèmes distincts. Nous allons lancer une simulation pour les offres avec l’événement **Clients > 1 an** thème.
 
    ![](assets/offer_simulation_example_007.png)
 

@@ -11,8 +11,8 @@ topic-tags: production-procedures
 exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 93%
 
 ---
 
@@ -90,7 +90,7 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
   >
   >   **nlserver start mta@moninstance -verbose**
   >
-  >   Cette option ajoute des logs supplémentaires. Nous vous conseillons de redémarrer les processus sans l&#39;option **-verbose** après avoir obtenu vos informations afin de ne pas surcharger les logs.
+  >   Cette option ajoute des journaux supplémentaires. Nous vous recommandons de redémarrer les processus sans le **-verbose** une fois que vous avez trouvé les informations souhaitées, pour éviter de surcharger les logs.
 
 * Démarrer tous les processus Adobe Campaign (équivalent à un démarrage du service **nlserver6**) :
 

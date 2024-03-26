@@ -7,7 +7,7 @@ feature: Workflows
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 100%
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ Le workflow détaillé ci-dessous est installé par défaut avec le module **Pla
   <tr> 
    <td> <span class="uicontrol">Indicateurs de diffusion</span> <br /> </td> 
    <td> <span class="uicontrol">deliveryIndicators</span> <br /> </td> 
-   <td> Ce workflow met à jour les indicateurs de tracking des diffusions. Par défaut, ce workflow se déclenche toutes les heures.<br /> </td> 
+   <td> Ce workflow met à jour les indicateurs de tracking des diffusions. Par défaut, ce workflow est déclenché toutes les heures.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

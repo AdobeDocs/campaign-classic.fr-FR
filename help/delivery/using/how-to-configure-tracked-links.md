@@ -9,8 +9,8 @@ role: User, Developer
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 92%
 
 ---
 
@@ -73,4 +73,4 @@ Le tracking des messages est activé par défaut. Pour personnaliser le tracking
    * **[!UICONTROL Opt-out]** : considère cette URL comme une option d’opt-out ou une URL de désabonnement.
    * **[!UICONTROL Page miroir]** : considère cette URL comme une URL de page miroir.
 
-1. De plus, vous pouvez sélectionner une catégorie pour chaque URL suivie dans la liste déroulante de la colonne **[!UICONTROL Catégorie]**. Ces catégories peuvent être affichées dans les rapports, comme par exemple **[!UICONTROL URL et flux de clics]** (voir [cette section](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). Elles sont définies dans une énumération spécifique : **[!UICONTROL urlCategory]** (voir [Gestion des énumérations](../../platform/using/managing-enumerations.md)).
+1. En outre, vous pouvez sélectionner une catégorie pour chaque URL trackée dans la liste déroulante du **[!UICONTROL Catégorie]** colonne . Ces catégories peuvent être des rapports affichés, comme dans le cas de **[!UICONTROL URL et flux de clics]** (voir [cette section](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). Les catégories sont définies dans une énumération spécifique : **[!UICONTROL urlCategory]** (voir [Gestion des énumérations](../../platform/using/managing-enumerations.md)).

@@ -11,8 +11,8 @@ topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 100%
+source-wordcount: '924'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ De même, vous devez utiliser un serveur Web lorsque vous souhaitez utiliser les
 
 ## Configuration du serveur Web IIS {#configuring-the-iis-web-server}
 
-La procédure de configuration d&#39;un serveur Web IIS est essentiellement graphique. Celle-ci implique l&#39;utilisation d&#39;un site Web (soit existant, soit à créer) pour l&#39;accès aux ressources du serveur Adobe Campaign, à savoir : les fichiers Java (.jsp), les feuilles de styles (.css, .xsl), les images (.png), la DLL ISAPI pour la redirection, etc.
+La procédure de configuration d’un serveur web IIS est essentiellement graphique. Celle-ci implique l’utilisation d’un site web (soit existant, soit en attente de création) pour l’accès aux ressources du serveur Adobe Campaign, à savoir : les fichiers Java (.jsp), les feuilles de styles (.css, .xsl), les images (.png), la DLL ISAPI pour la redirection, etc.
 
 Les sections suivantes présentent le mode de configuration sous IIS 7. Les paramétrages pour IIS 8 sont globalement identiques.
 
@@ -102,7 +102,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/s_ncs_install_iis7_parameters_step8.png)
 
-1. Vérifiez, à partir de l&#39;onglet **Sécurité de répertoire** des propriétés du site Web, que l&#39;accès anonyme est activé. Au besoin, cliquez sur le lien **[!UICONTROL Edit...]** pour modifier le paramétrage.
+1. Dans le **Sécurité du répertoire** du site Web, vérifiez que l&#39;accès anonyme est activé. Si nécessaire, cliquez sur le bouton **[!UICONTROL Modifier]** pour modifier les paramètres.
 
    ![](assets/s_ncs_install_iis7_parameters_step9.png)
 

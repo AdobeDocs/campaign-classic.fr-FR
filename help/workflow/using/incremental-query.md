@@ -7,8 +7,8 @@ feature: Workflows, Targeting Activity
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 87%
 
 ---
 
@@ -33,7 +33,7 @@ La requête est définie selon le même mode que pour les requêtes standard, ma
 
 Pour cela :
 
-1. Dans l&#39;onglet **[!UICONTROL Planification &amp; Historique]**, sélectionnez l&#39;option **[!UICONTROL Planifier l&#39;exécution]**. La tâche reste active une fois créée et ne se déclenchera qu&#39;aux heures spécifiées par le planning pour exécuter la requête. En revanche, si l&#39;option est désactivée, la requête est exécutée immédiatement **et une seule fois**.
+1. Dans le **[!UICONTROL Planification et historique]** , sélectionnez l’onglet **[!UICONTROL Planifier l&#39;exécution]** . La tâche reste active une fois créée et ne sera déclenchée qu&#39;aux heures spécifiées par le planning d&#39;exécution de la requête. Cependant, si l&#39;option est désactivée, la requête est exécutée immédiatement. **et en une seule fois**.
 1. Cliquez sur le bouton **[!UICONTROL Changer]**.
 
    Dans la fenêtre **[!UICONTROL Assistant d&#39;édition d&#39;un planning]** qui s&#39;affiche, vous pouvez paramétrer le type de périodicité, les événements de la périodicité et la période de validité des événements.
@@ -66,4 +66,4 @@ Pour cela :
 * schema
 * recCount
 
-Ce triplet de valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
+Ce jeu de trois valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.

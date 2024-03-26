@@ -9,8 +9,8 @@ role: User
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 100%
+source-wordcount: '812'
+ht-degree: 79%
 
 ---
 
@@ -32,11 +32,11 @@ Après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**, votre diffusion sem
 
 * Certains fournisseurs de messagerie ont peut-être ajouté vos adresses IP à une liste bloquée. Dans ce cas, vérifiez vos broadlogs et consultez [cette section](about-deliverability.md).
 
-* Votre diffusion peut être trop volumineuse pour être traitée rapidement. Cela peut être le cas lorsque la taille de la diffusion dépasse 60 Ko ou que la personnalisation JavaScript est importante. Pour obtenir des instructions relatives au contenu, consultez [Bonnes pratiques de diffusion](delivery-best-practices.md) d’Adobe Campaign.
+* Votre diffusion peut être trop volumineuse pour être traitée rapidement. Cela peut être le cas avec une personnalisation JavaScript élevée ou si votre diffusion pèse plus de 60 Ko. Reportez-vous à Adobe Campaign [Bonnes pratiques de diffusion](delivery-best-practices.md) pour en savoir plus sur les directives relatives au contenu.
 
 * Le MTA Adobe Campaign a peut-être été soumis à une limitation. Celle-ci est due aux éléments suivants :
 
-   * Messages en attente (message **[!UICONTROL quotas satisfaits]**) : les quotas déclarés par les règles déclaratives MX définies dans Campaign ont été respectés. Pour plus d’informations sur ce type de message, consultez [cette page](deliverability-faq.md). Pour en savoir plus sur les règles MX, consultez [cette section](../../installation/using/email-deliverability.md#about-mx-rules).
+   * Messages mis en attente (**[!UICONTROL Quota atteint]** message) : les quotas déclarés par les règles MX déclaratives définies dans Campaign ont été atteints. Pour plus d’informations sur ce message, voir [cette page](deliverability-faq.md). Pour en savoir plus sur les règles MX, consultez [cette section](../../installation/using/email-deliverability.md#about-mx-rules).
 
    * Messages mis en attente (message **[!UICONTROL Contrôle de flux dynamique]**) : le MTA de Campaign a rencontré des erreurs lors de la diffusion des messages pour un FAI donné, ce qui a entraîné un ralentissement afin d’éviter une densité d’erreurs trop importante et une mise sur liste bloquée éventuelle.
 
@@ -72,9 +72,9 @@ Les logs de diffusion sont la clé pour apprendre pourquoi une diffusion a écho
 
   La cause de cette erreur est liée à des problèmes de performance. Elle indique que l’instance marketing a passé trop de temps à créer des données avant de les envoyer au serveur de mid-sourcing.
 
-  Pour la corriger, il est recommandé d’effectuer un nettoyage et une réindexation de la base de données. Pour plus d’informations sur la maintenance de la base de données, consultez [cette section](../../production/using/recommendations.md).
+  Pour résoudre ce problème, il est recommandé d&#39;effectuer un nettoyage et une réindexation de la base de données. Pour plus d&#39;informations sur la maintenance de la base, reportez-vous à la section [cette section](../../production/using/recommendations.md).
 
-  Vous devez également redémarrer tous les workflows avec une activité planifiée et tous ceux dans un état en échec. Consultez [cette section](../../workflow/using/scheduler.md).
+  Vous devez également redémarrer tous les workflows avec une activité planifiée et tous ceux dont l’état est en échec. Consultez [cette section](../../workflow/using/scheduler.md).
 
 * En cas d’échec d’une diffusion, l’erreur suivante peut s’afficher dans les logs de diffusion :
 
@@ -84,7 +84,7 @@ Les logs de diffusion sont la clé pour apprendre pourquoi une diffusion a écho
 
   En règle générale, cette erreur signifie qu’un champ ou un bloc de personnalisation dans l’email possède plusieurs valeurs pour le destinataire. Un bloc de personnalisation est utilisé et il récupère plusieurs enregistrements pour un destinataire spécifique.
 
-  Pour la corriger, vérifiez les données de personnalisation utilisées, puis contrôlez la cible des destinataires qui possèdent plusieurs entrées pour l’un de ces champs. Vous pouvez également utiliser une activité de **[!UICONTROL Déduplication]** dans le workflow de ciblage avant l’activité de diffusion pour vérifier qu’il n’existe qu’un seul champ de personnalisation à la fois. Pour plus d’informations sur la déduplication, consultez [cette page](../../workflow/using/deduplication.md).
+  Pour résoudre ce problème, vérifiez les données de personnalisation utilisées, puis vérifiez la cible des destinataires ayant plusieurs entrées pour l&#39;un de ces champs. Vous pouvez également utiliser une **[!UICONTROL Déduplication]** activité dans le workflow de ciblage avant l&#39;activité de diffusion pour vérifier qu&#39;il n&#39;y a qu&#39;un seul champ de personnalisation à la fois. Pour plus d’informations sur la déduplication, reportez-vous à la section [cette page](../../workflow/using/deduplication.md).
 
 * Certaines diffusions peuvent échouer avec une erreur &quot;Inatteignable&quot; indiquant :
 

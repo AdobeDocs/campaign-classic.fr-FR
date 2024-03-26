@@ -9,7 +9,7 @@ exl-id: d133efec-33e1-4711-a90f-e40385059386
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -45,7 +45,7 @@ Ces options sont communes avec celles des rapports standards. Elles sont présen
 
 ## Configuration de la mise en page dʼun rapport dʼanalyse descriptive {#configuring-the-layout-of-a-descriptive-analysis-report}
 
-Vous pouvez personnaliser l&#39;affichage et la disposition de vos données dans les graphiques et les tableaux d&#39;analyse descriptive. Toutes les options sont disponibles depuis l&#39;arborescence d&#39;Adobe Campaign, dans l&#39;onglet **[!UICONTROL Edition]** de chaque rapport.
+Vous pouvez personnaliser l&#39;affichage et la mise en page de vos données dans les graphiques et les tableaux de l&#39;analyse descriptive. Toutes les options sont accessibles à partir de l’arborescence Adobe Campaign, dans la **[!UICONTROL Modifier]** de chaque rapport.
 
 ### Mode d&#39;affichage du rapport d&#39;analyse {#analysis-report-display-mode}
 
@@ -100,18 +100,18 @@ Pour revenir à l&#39;affichage initial, actualisez la vue.
 
 ### Options des graphiques des rapports d&#39;analyse {#analysis-report-chart-options}
 
-Vous pouvez personnaliser l&#39;affichage des données du graphique. Pour cela, cliquez sur le lien **[!UICONTROL Variantes...]** proposé à l&#39;étape de sélection du type de graphique.
+Il est possible de personnaliser l&#39;affichage des données dans le graphique. Pour ce faire, cliquez sur le bouton **[!UICONTROL Variables...]** lien disponible lors de l’étape de sélection du type de graphique.
 
 ![](assets/s_ncs_advuser_report_wizard_3c.png)
 
 Les options disponibles sont les suivantes :
 
 * La section supérieure de la fenêtre permet de modifier la zone d&#39;affichage du graphique.
-* Par défaut, les libellés sont affichés dans le graphique. Vous pouvez les masquer en décochant l&#39;option **[!UICONTROL Afficher les valeurs]**.
+* Par défaut, les libellés sont affichés dans le graphique. Vous pouvez les masquer en décochant la case **[!UICONTROL Afficher les valeurs]** .
 * L&#39;option **[!UICONTROL Cumuler les valeurs]** permet d&#39;additionner les différentes valeurs retournées d&#39;une série à l&#39;autre.
 * Vous pouvez choisir d&#39;afficher ou non la légende du graphe : pour ne pas afficher de légende, désélectionnez l&#39;option correspondante. Par défaut, la légende est affichée en haut à droite, à l&#39;extérieur du graphe.
 
-  La légende peut également être affichée dans la partie supérieure du graphe afin d’optimiser au maximum la zone d’affichage. Pour cela, sélectionnez l’option **[!UICONTROL Inclure dans le graphe]**.
+  La légende peut également être positionnée au-dessus du graphique afin d&#39;économiser de l&#39;espace. Pour cela, sélectionnez l&#39;option **[!UICONTROL Inclure dans le graphique]**
 
   Sélectionnez l&#39;alignement vertical et horizontal dans la liste déroulante **[!UICONTROL Position de la légende]**.
 

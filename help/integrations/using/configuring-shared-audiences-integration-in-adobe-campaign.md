@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: e6a2986e5355b32164386e1f6d64f52dc6977632
-workflow-type: ht
-source-wordcount: '640'
+workflow-type: tm+mt
+source-wordcount: '616'
 ht-degree: 100%
 
 ---
@@ -90,16 +90,16 @@ Pour configurer la source de données **[!UICONTROL Destinataires - Id Visiteur]
 
 Pour la configuration de l&#39;intégration avec People Core service ou Audience Manager, il faut également configurer le serveur de tracking Campaign.
 
-Pour permettre aux audiences partagées de fonctionner avec l’identifiant du visiteur ou de la visiteuse, le domaine du serveur de suivi doit être un sous-domaine de l’URL sur laquelle l’utilisateur ou l’utilisatrice a cliqué ou du site web principal.
+Pour permettre aux audiences partagées de fonctionner avec les identifiants visiteur, le domaine du serveur de tracking doit être un sous-domaine de l’URL sur laquelle l’utilisateur ou l’utilisatrice a cliqué ou du site Web principal.
 
 >[!IMPORTANT]
 >
->Vérifiez que le serveur de tracking Campaign est enregistré sur le domaine (CNAME). Vous trouverez des informations supplémentaires sur la délégation des noms de domaine dans [cet article](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr).
+>Vous devez vérifier que le serveur de tracking Campaign est enregistré sur le domaine (CNAME). Vous trouverez des informations supplémentaires sur la délégation des noms de domaine dans [cet article](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr).
 
 ## Étape 4 : Configuration du service d&#39;identification des visiteurs {#step-4--configure-the-visitor-id-service}
 
-Si le service d’identification des visiteurs et des visiteuses (Visitor ID) n’a jamais été configuré dans vos propriétés/sites web, reportez-vous à ce [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=fr) ou cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two) pour découvrir comment configurer ce service.
+Si le service des identifiants visiteurs (Visitor ID) n’a jamais été configuré dans vos propriétés/sites Web, reportez-vous à ce [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=fr) ou cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two) pour découvrir comment configurer ce service.
 
-Synchronisez les identifiants des clientes et clients avec l’identifiant déclaré à l’aide de la fonction `setCustomerID` dans le service d’ID Experience Cloud avec le code d’intégration : `AdobeCampaignID`. L’`AdobeCampaignID` doit correspondre à la valeur de la clé de réconciliation définie dans la source de données destinataire configurée dans [Étape 2 : configuration des sources de données](#step-2--configure-the-data-sources).
+Synchronisez les identifiants client avec l’identifiant déclaré à l’aide de la fonction `setCustomerID` dans le service ID Experience Cloud avec le code d’intégration : `AdobeCampaignID`. Le `AdobeCampaignID` doit correspondre à la valeur de la clé de réconciliation définie dans la source de données destinataires configurée dans [Étape 2 : configuration des sources de données](#step-2--configure-the-data-sources).
 
 La configuration et la mise en service sont terminées. L’intégration peut être maintenant utilisée pour importer et exporter des audiences ou des segments.

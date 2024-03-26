@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Configuration de l'accès à Vertica Analytics
+title: Configurer l’accès à Vertica Analytics
 description: Découvrez comment configurer l’accès à Vertica Analytics dans FDA
 feature: Installation, Federated Data Access
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
@@ -10,7 +10,7 @@ topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '392'
 ht-degree: 100%
 
 ---
@@ -160,7 +160,7 @@ Vous devez créer un compte externe [!DNL Vertica Analytics] pour connecter votr
 
    * **[!UICONTROL Compte]** : nom de l&#39;utilisateur
 
-   * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
+   * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur
 
    * **[!UICONTROL Base de données]** : nom de la base de données
 

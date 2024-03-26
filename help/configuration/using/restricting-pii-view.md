@@ -7,8 +7,8 @@ feature: PI
 role: Data Engineer, Developer
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '406'
+workflow-type: tm+mt
+source-wordcount: '408'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Certains clients ont besoin que les utilisateurs marketing puissent accéder aux
 
 ## Mise en œuvre {#implementation}
 
-Un nouvel attribut pouvant être appliqué à un élément ou un attribut a été ajouté aux schémas. Il complète l&#39;attribut **[!UICONTROL visibleIf]** existant et s&#39;appelle **[!UICONTROL accessibleIf]**. Lorsqu&#39;il contient une expression XTK liée au contexte utilisateur actuel, cet attribut peut utiliser des valeurs telles que **[!UICONTROL HasNamedRight]** ou **[!UICONTROL $(login)]**.
+Un nouvel attribut pouvant être appliqué à n’importe quel élément ou attribut a été ajouté aux schémas. Il complète l’attribut **[!UICONTROL visibleIf]** existant et s’appelle **[!UICONTROL accessibleIf]**. Lorsqu’il contient une expression XTK liée au contexte utilisateur actuel, cet attribut peut utiliser des valeurs telles que **[!UICONTROL HasNamedRight]** ou **[!UICONTROL $(login)]**.
 
 Vous trouverez ci-dessous un exemple d&#39;extension de schéma de destinataire qui illustre cette utilisation :
 

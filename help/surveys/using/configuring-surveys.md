@@ -9,7 +9,7 @@ exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 100%
+ht-degree: 42%
 
 ---
 
@@ -27,6 +27,6 @@ Les paramètres disponibles sont présentés dans [ce document ](../../web/using
 
 ## Stockage des données d&#39;un questionnaire {#survey-data-storage}
 
-Par défaut, les champs des formulaires Web sont stockés dans la table des destinataires. Vous pouvez modifier la table utilisée en sélectionnant une nouvelle table dans le champ **[!UICONTROL Type de document]**. L&#39;icône **[!UICONTROL Loupe]** permet de visualiser le contenu de la table sélectionnée.
+Par défaut, les champs des formulaires Web sont stockés dans la table des destinataires. Pour utiliser un autre tableau, sélectionnez-le dans le **[!UICONTROL Type de document]** champ . La variable **[!UICONTROL Zoom]** permet de visualiser le contenu du tableau sélectionné.
 
-Les réponses fournies par les utilisateurs dans les questionnaires et qui ne sont pas stockées dans des champs (mais dans des variables locales) sont stockées dans la table **Réponses aux questionnaires**. Vous pouvez modifier le schéma utilisé à partir du champ **[!UICONTROL Bibliothèque]**. Ce champ n’est disponible que pour les **questionnaires**.
+Les réponses fournies par les utilisateurs aux enquêtes qui ne sont pas stockées dans les champs (mais dans des variables locales) sont stockées dans la variable **Réponses aux questionnaires** table. Vous pouvez modifier le schéma utilisé en fonction de la variable **[!UICONTROL Bibliothèque]** champ . Ce champ est disponible uniquement pour **questionnaires**.

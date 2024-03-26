@@ -11,8 +11,8 @@ topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 100%
+source-wordcount: '1160'
+ht-degree: 91%
 
 ---
 
@@ -191,7 +191,7 @@ Lors de la synchronisation des ressources, la commande **postupgrade** permet de
 
 Le résultat de la synchronisation peut être consulté de deux manières :
 
-* Depuis l&#39;invite de commandes, les erreurs sont matérialisées par un triple chevron **>>>** et la synchronisation s&#39;interrompt immédiatement. Les avertissements sont signalés par un double chevron **>>** et doivent être résolus lorsque le processus de synchronisation est terminé. A la fin du postupgrade, un résumé est affiché dans l&#39;invite de commande. Par exemple :
+* Dans l&#39;interface de ligne de commande, les erreurs sont matérialisées par un triple chevron **&quot;>** et la synchronisation est arrêtée automatiquement. Les avertissements sont signalés par un double chevron **&quot;** et doit être résolu une fois la synchronisation terminée. A la fin du postupgrade, un résumé est affiché dans l&#39;invite de commande. Il peut ressembler à ceci :
 
   ```
   2013-04-09 07:48:39.749Z 00002E7A 1 info log =========Summary of the update==========
@@ -225,15 +225,15 @@ Il existe trois possibilités de résoudre un conflit :
 
 Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
-1. Dans la partie inférieure de la fenêtre, effectuez une recherche sur la chaîne **_conflit_** pour localiser les entités en conflit. L’entité installée avec la nouvelle version contient l’argument **new**, l’entité correspondant à la version précédente contient l’argument **cus**.
+1. Dans la section inférieure de la fenêtre, recherchez le **_conflit_** chaîne pour localiser les entités avec des conflits. L&#39;entité installée avec la nouvelle version contient le **nouvel** argument. L&#39;entité qui correspond à la version précédente contient l&#39;argument **cus**.
 
    ![](assets/s_ncs_production_conflict002.png)
 
-1. Supprimez la version que vous ne souhaitez pas conserver. Effacez la chaîne **_conflict_argument_** de l’entité que vous gardez.
+1. Supprimez la version que vous ne souhaitez pas conserver. Supprimez le **_conflict_argument_** chaîne de l’entité que vous conservez.
 
    ![](assets/s_ncs_production_conflict003.png)
 
-1. Positionnez-vous sur le conflit que vous venez de résoudre. Cliquez sur l&#39;icône **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Déclarer comme résolu]** .
+1. Accédez au conflit que vous avez résolu. Cliquez sur le bouton **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Déclarer comme résolu]** .
 1. Enregistrez vos modifications : le conflit est désormais résolu.
 
 ### Bonnes pratiques {#best-practices}

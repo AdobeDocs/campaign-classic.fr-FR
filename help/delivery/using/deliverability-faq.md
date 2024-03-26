@@ -9,7 +9,7 @@ role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '674'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Si le problème persiste, contactez les services commerciaux, les services charg
 
    * Le statut **[!UICONTROL Placé sur la liste bloquée]** signifie que l&#39;un de vos destinataires a déclaré un message comme étant un spam.
 
-   * L&#39;application du statut **[!UICONTROL Quarantaine]** résulte d&#39;une erreur soft ou hard.
+   * L’application du statut **[!UICONTROL Quarantaine]** est le résultat d’un rebond temporaire ou définitif.
 
   Voir à ce propos [cette section](understanding-quarantine-management.md#quarantine-vs-denylist).
 

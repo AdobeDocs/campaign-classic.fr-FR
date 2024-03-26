@@ -8,7 +8,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '426'
 ht-degree: 100%
 
 ---

@@ -8,9 +8,9 @@ feature: Personalization
 role: User
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '985'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '981'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez définir de nouveaux blocs qui vous permettront d&#39;optimiser la p
 
 >[!NOTE]
 >
->Les blocs de personnalisation sont aussi disponibles depuis le **[!UICONTROL Digital Content Editor (DCE)]**. Pour plus dʼinformations, consultez [cette page](../../web/using/editing-content.md#inserting-a-personalization-block).
+>Les blocs de personnalisation sont également disponibles à partir de la **[!UICONTROL Digital Content Editor (DCE)]** . Pour plus d’informations, consultez [cette page](../../web/using/editing-content.md#inserting-a-personalization-block).
 
 ## Insertion de blocs de personnalisation {#inserting-personalization-blocks}
 
@@ -49,11 +49,11 @@ Pour insérer un bloc de personnalisation dans un message, procédez comme suit�
 
    ![](assets/s_ncs_user_personalized_block04.png)
 
-Vous pouvez inclure le code source d&#39;un bloc de personnalisation dans le contenu de la diffusion. Pour cela, cochez l&#39;option **[!UICONTROL Inclure le code source HTML du bloc]** lorsque vous le sélectionnez.
+Vous pouvez inclure le code source d&#39;un bloc de personnalisation dans le contenu de la diffusion. Pour ce faire, sélectionnez **[!UICONTROL Inclure le code source du HTML du bloc]** lors de sa sélection.
 
 ![](assets/s_ncs_user_personalized_block05.png)
 
-Le code source HTML est inséré dans le contenu de la diffusion. Par exemple, le bloc de personnalisation **[!UICONTROL Salutations]** s&#39;affiche comme ci-dessous :
+Le code source du HTML est inséré dans le contenu de la diffusion. Par exemple, la variable **[!UICONTROL Salutations]** le bloc de personnalisation s’affiche comme ci-dessous :
 
 ![](assets/s_ncs_user_personalized_block06.png)
 
@@ -73,7 +73,7 @@ Pour ce faire, nous devons insérer les blocs de personnalisation suivants :
 
 1. Créez une nouvelle diffusion ou ouvrez une diffusion existante de type email.
 1. Dans l&#39;assistant de diffusion, cliquez sur le lien **[!UICONTROL Objet]** pour éditer l&#39;objet du message et saisir un objet.
-1. Insérez ensuite les blocs de personnalisation dans le corps du message. Pour cela, cliquez dans le contenu du message, cliquez sur l&#39;icône de champs de personnalisation et sélectionnez le menu **[!UICONTROL Inclure]**.
+1. Insérez les blocs de personnalisation dans le corps du message. Pour cela, cliquez dans le contenu du message, cliquez sur l&#39;icône de champ personnalisé et sélectionnez l&#39;option **[!UICONTROL Inclure]** .
 1. Sélectionnez le premier bloc à insérer. Renouvelez la procédure pour inclure les deux autres blocs.
 
    ![](assets/s_ncs_user_personalized_block_example.png)
@@ -107,8 +107,8 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 * **[!UICONTROL Lien de désinscription]** : insère un lien permettant de se désabonner de toutes les diffusions (liste bloquée).
 * **[!UICONTROL Fonction de formatage d&#39;un nom propre]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule.
 * **[!UICONTROL URL de la page d&#39;inscription]** : insère une URL d&#39;abonnement (voir [À propos des services et des abonnements](about-services-and-subscriptions.md)).
-* **[!UICONTROL Lien d&#39;inscription]** : insère un lien d&#39;inscription qui a été défini lors du paramétrage de l&#39;instance.
-* **[!UICONTROL Lien d&#39;inscription (avec parrain)]** : insère un lien d&#39;inscription qui permet d&#39;identifier le visiteur et la diffusion. Le lien a été défini lors du paramétrage de l&#39;instance.
+* **[!UICONTROL Lien d’inscription]** : insère un lien d’inscription. qui a été défini lors de la configuration de l’instance.
+* **[!UICONTROL Lien d’inscription (avec parrain)]** : insère un lien d’inscription permettant d’identifier le visiteur ou la visiteuse et la diffusion. Le lien a été défini lors de la configuration de l&#39;instance.
 
   >[!NOTE]
   >
@@ -139,7 +139,7 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * Saisissez le contenu (en HTML, texte, JavaScript, etc.) du ou des blocs de personnalisation et cliquez sur le bouton **[!UICONTROL Enregistrer]**.
+   * Saisissez le contenu (en langage HTML, texte, JavaScript, etc.) du ou des blocs de personnalisation, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Tutoriel vidéo {#personalization-blocks-video}
 

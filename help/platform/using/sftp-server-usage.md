@@ -11,8 +11,8 @@ topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 100%
+source-wordcount: '1123'
+ht-degree: 97%
 
 ---
 
@@ -73,7 +73,7 @@ En outre, lors de la spécification dans Campaign Classic d’un chemin d’acc�
 
 La section ci-après indique les informations à vérifier et à fournir à l’équipe de support d’Adobe via l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) lorsque vous rencontrez des problèmes liés aux serveurs SFTP hébergés d’Adobe.
 
-1. Vérifiez que votre instance est en cours d’exécution. Pour cela, ouvrez votre navigateur, puis effectuez un appel **[!UICONTROL GET]** sur le point d’entrée **[!UICONTROL /r/test]** de l’instance :
+1. Vérifiez que votre instance est en cours d’exécution. Pour ce faire, ouvrez votre navigateur, puis créez une **[!UICONTROL GET]** appel sur l&#39;instance **[!UICONTROL /r/test]** endpoint :
 
    ```
    https://instanceUrl/r/test

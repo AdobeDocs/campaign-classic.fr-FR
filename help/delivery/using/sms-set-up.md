@@ -8,7 +8,7 @@ feature: SMS
 role: User, Developer, Admin
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Pour ce faire, procédez comme suit :
    >
    > À partir de la version 20.2, les anciens connecteurs sont abandonnés et ne sont plus pris en charge. Nous vous recommandons d’utiliser le connecteur **[!UICONTROL SMPP générique étendu]**. Pour plus d’informations sur la migration vers le connecteur recommandé, voir cette [page](unsupported-connector-migration.md).
 
-1. L&#39;option **[!UICONTROL Activer les traces SMPP en mode verbeux dans le fichier journal]** vous permet de sauvegarder tout le trafic SMPP dans les fichiers journaux. Cette option doit être activée pour résoudre les problèmes liés au connecteur et pour effectuer une comparaison avec le trafic observé par le fournisseur.
+1. L’option **[!UICONTROL Activer les traces SMPP en mode verbeux dans le fichier de log]** permet de vider tout le trafic SMPP des fichiers journaux. Cette option doit être activée pour dépanner le connecteur et pour comparer le trafic affiché chez le fournisseur.
 
 1. Adressez-vous à votre fournisseur de service SMS pour qu&#39;il vous explique comment renseigner dans l&#39;onglet **[!UICONTROL Paramètres de connexion]** les différents champs du compte externe.
 

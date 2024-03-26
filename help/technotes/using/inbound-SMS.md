@@ -1,17 +1,18 @@
 ---
 product: campaign
-title: Activité de workflow SMS entrant pour l'infrastructure de mid-sourcing
-description: Activité de workflow SMS entrant pour l'infrastructure de mid-sourcing
+title: Activité de workflow de SMS entrants pour une infrastructure de midsourcing
+description: Activité de workflow de SMS entrants pour une infrastructure de midsourcing
 feature: Technote, SMS
 badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
-source-git-commit: 85adfe3515480bed559091427ff1acec14a70320
+exl-id: 756039b2-5f57-4dc5-8166-a421206b886b
+source-git-commit: f9a17541596ba2afa96502dc99408b6f99d2cb2b
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
-# Activité de workflow SMS entrant pour l&#39;infrastructure de mid-sourcing {#inbound-sms}
+# Activité de workflow de SMS entrants pour une infrastructure de midsourcing {#inbound-sms}
 
 ## Limites {#limitations}
 
@@ -145,5 +146,3 @@ ht-degree: 2%
    > * S&#39;il existe plusieurs workflows InSMS par instance Mid-sourcing, la duplication des données peut se produire, car l&#39;identifiant SMS Mid-sourcing reste constant tandis que les identifiants du compte externe varient.
 
 1. Enregistrez et redémarrez le workflow.
-
-

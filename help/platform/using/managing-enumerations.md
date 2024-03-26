@@ -11,7 +11,7 @@ exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '942'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -68,7 +68,7 @@ En effet, la valeur saisie peut être :
 
 ### Utilisation des alias {#using-aliases}
 
-L&#39;option **[!UICONTROL Support des alias]** permet de gérer les alias pour l&#39;énumération sélectionnée. Lorsque cette option est cochée, l&#39;onglet **[!UICONTROL Alias]** est ajouté en bas de la fenêtre.
+L’option **[!UICONTROL Gestion des alias]** permet d’utiliser des alias pour l’énumération sélectionnée. Lorsque cette option est sélectionnée, l’onglet **[!UICONTROL Alias]** s’affiche au bas de la fenêtre.
 
 ![](assets/s_ncs_user_itemized_list_alias_option.png)
 
@@ -90,7 +90,7 @@ Vérifiez les paramètres avant de valider cette opération.
 
 ![](assets/s_ncs_user_itemized_list_alias_create_3.png)
 
-Ainsi, lorsque l&#39;utilisateur renseigne la valeur **NEILSEN** dans un champ « société » (dans la console Adobe Campaign ou dans un formulaire), elle sera remplacée par la valeur **NEILSEN Ltd**. Le remplacement des valeurs est réalisé par le workflow **Cleansing des alais**. Pour plus d&#39;informations, consultez la section [Exécution du cleansing des données](#running-data-cleansing).
+Ainsi, lorsqu’un utilisateur saisit la valeur **NEILSEN** dans un champ &quot;société&quot; (dans la console Adobe Campaign ou dans un formulaire), il sera automatiquement remplacé par la valeur **NIELSEN Ltd**. Le remplacement des valeurs est effectué par la fonction **Gestion des alias** workflow. Pour plus d’informations, consultez la section [Exécuter le cleansing des données](#running-data-cleansing).
 
 ![](assets/s_ncs_user_itemized_list_alias_use.png)
 
@@ -114,7 +114,7 @@ Une fois l&#39;exécution terminée, l&#39;alias est ajouté dans la liste des a
 
 #### Récupérer les hits d’alias {#retrieving-alias-hits}
 
-Les valeurs saisies par les utilisateurs peuvent être transformées en alias. En effet, lorsque l&#39;utilisateur saisit une valeur qui n&#39;est pas présente dans la liste des valeurs d&#39;énumération, cette valeur est stockée dans l&#39;onglet **[!UICONTROL Alias]**.
+Les valeurs saisies par les utilisateurs peuvent être transformées en alias. En effet, lorsque l’utilisateur saisit une valeur qui n’est pas incluse dans l’énumération, elle est stockée dans la variable **[!UICONTROL Alias]** .
 
 Le workflow technique **Cleansing des alias** récupère ces valeurs chaque nuit afin de mettre à jour la liste détaillée. Pour plus d&#39;informations, consultez la section [Exécution du cleansing des données](#running-data-cleansing)
 
@@ -122,7 +122,7 @@ Au besoin, la colonne **[!UICONTROL Hits]** peut afficher le nombre de fois où 
 
 ### Exécuter le cleansing des données {#running-data-cleansing}
 
-Le cleansing des données est réalisé par le workflow technique **[!UICONTROL Cleansing des alias]**. Les paramétrages définis pour les énumérations sont appliqués lors de son exécution. Voir [Workflow de cleansing des alias](#alias-cleansing-workflow).
+Le cleansing des données est effectué par le workflow technique **[!UICONTROL Cleansing des alias]**. Les paramétrages définis pour les énumérations sont appliqués lors de l&#39;exécution. Voir [Workflow de cleansing des alias](#alias-cleansing-workflow).
 
 Vous pouvez déclencher la normalisation via le lien **[!UICONTROL Uniformiser les valeurs...]**.
 
@@ -136,13 +136,13 @@ Cliquez sur le bouton **[!UICONTROL Démarrer]** pour lancer l&#39;uniformisatio
 
 #### Calculer les occurrences de saisie {#calculating-entry-occurrences}
 
-Le sous-onglet **[!UICONTROL Alias]** d&#39;une énumération peut afficher le nombre d&#39;apparitions d&#39;un alias parmi toutes les valeurs saisies. Cette information est une estimation. Elle s&#39;affichera dans la colonne **[!UICONTROL Hits]**.
+La variable **[!UICONTROL Alias]** un sous-onglet d&#39;une énumération peut afficher le nombre d&#39;occurrences d&#39;un alias parmi toutes les valeurs renseignées. Ces informations sont une estimation qui sera affichée dans la colonne **[!UICONTROL Accès]**.
 
 >[!CAUTION]
 >
 >Le calcul des occurrences de saisie d&#39;un alias peut être long. Cette fonctionnalité doit par conséquent être utilisée avec précaution.
 
-Vous pouvez lancer le calcul des occurrences ponctuellement, via le lien **[!UICONTROL Uniformiser les valeurs...]**. Pour cela, cliquez sur le lien **[!UICONTROL Paramètres avancés...]** et sélectionnez la ou les options souhaitées.
+Vous pouvez lancer manuellement le calcul des occurrences via le lien **[!UICONTROL Nettoyer les valeurs...]**. Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres avancés...]** et sélectionnez la ou les options souhaitées.
 
 ![](assets/s_ncs_user_itemized_list_alias_hits.png)
 

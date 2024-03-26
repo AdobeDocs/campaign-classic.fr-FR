@@ -10,7 +10,7 @@ exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '1085'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez joindre un ou plusieurs fichiers à une diffusion d’email.
 Deux cas se présentent :
 
 * Sélectionner un fichier et le joindre tel quel à la diffusion.
-* Personnaliser le contenu de la pièce jointe pour chaque destinataire. Dans ce cas, vous devez créer un **attachement calculé** : le nom de la pièce jointe est calculé au moment de l&#39;envoi pour chaque message et peut ainsi dépendre du destinataire. Le contenu peut également être personnalisé et converti en PDF au moment de l&#39;envoi, si vous avez souscrit à l&#39;option **Variable Digital Printing**.
+* Personnalisez le contenu de la pièce jointe pour chaque destinataire. Dans ce cas, vous devez créer une **attachement calculé**: le nom de la pièce jointe est calculé au moment de l&#39;envoi pour chaque message selon le destinataire. Le contenu peut également être personnalisé et converti en PDF au moment de l&#39;envoi, si vous avez la variable **Impression numérique variable** .
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Une fois le fichier sélectionné, il est immédiatement téléchargé sur le se
 
 ![](assets/s_ncs_user_wizard_email_attachement_e.png)
 
-## Créer un attachement calculé {#creating-a-calculated-attachment}
+## Créer une pièce jointe calculée {#creating-a-calculated-attachment}
 
 Lorsque vous créez un attachement calculé, le nom de la pièce jointe peut être calculé au moment de l&#39;analyse ou de l&#39;envoi pour chaque message et dépendre du destinataire. Il peut également être personnalisé et converti en PDF.
 
@@ -72,7 +72,7 @@ Lorsque vous créez un attachement calculé, le nom de la pièce jointe peut êt
 Pour créer une pièce jointe personnalisée, procédez comme suit :
 
 1. Cliquez sur le lien **[!UICONTROL Pièces jointes]**.
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]**, puis sélectionnez **[!UICONTROL Attachement calculé]**.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]**, puis sélectionnez **[!UICONTROL Pièce jointe calculée]**.
 1. Sélectionnez le type de calcul dans la liste déroulante **[!UICONTROL Type]** :
 
 ![](assets/s_ncs_user_wizard_email01_136.png)
@@ -105,7 +105,7 @@ L’option **[!UICONTROL Le contenu du fichier est personnalisé et converti en 
 
 ![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
-Pour ce type d&#39;attachement, les étapes de paramétrage sont les suivantes :
+Pour ce type de pièce jointe, les étapes de configuration sont les suivantes :
 
 1. Sélectionnez le fichier à télécharger.
 1. Précisez le libellé si nécessaire.
@@ -124,7 +124,7 @@ Pour ce type d&#39;attachement, les étapes de paramétrage sont les suivantes 
 
 ### Joindre un fichier calculé {#attach-a-calculated-file}
 
-Vous pouvez calculer le nom d&#39;un attachement pendant la préparation de la diffusion. Pour cela, sélectionnez l&#39;option **[!UICONTROL Le nom de fichier est calculé lors de l&#39;analyse de la diffusion (il ne peut pas dépendre du destinataire)]**.
+Vous pouvez calculer le nom de la pièce jointe pendant la préparation de la diffusion. Pour cela, sélectionnez l&#39;option **[!UICONTROL Le nom de fichier est calculé lors de l&#39;analyse de la diffusion (il ne peut pas dépendre du destinataire).]**.
 
 >[!NOTE]
 >
@@ -147,7 +147,7 @@ Vous pouvez calculer le nom d&#39;un attachement pendant la préparation de la d
 
 ### Joindre un fichier personnalisé {#attach-a-personalized-file}
 
-Lorsque vous sélectionnez un fichier attaché, vous pouvez choisir l&#39;option **[!UICONTROL Le nom de fichier est calculé au moment de l&#39;envoi pour chaque destinataire (il peut dépendre du destinataire)]**. Vous pouvez ensuite associer les données de personnalisation des destinataires au nom du fichier à envoyer.
+Lorsque vous sélectionnez la pièce jointe, vous pouvez choisir l’option **[!UICONTROL Le nom de fichier est calculé au moment de l’envoi pour chaque destinataire (il peut dépendre du destinataire)]**. Vous pouvez ensuite associer les données de personnalisation des destinataires au nom du fichier à envoyer.
 
 >[!NOTE]
 >
@@ -168,9 +168,9 @@ Lorsque vous sélectionnez un fichier attaché, vous pouvez choisir l&#39;option
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_011.png)
 
-### Paramètres des fichiers attachés {#attachment-settings}
+### Paramètres des pièces jointes {#attachment-settings}
 
-Pour les deux premières options, vous pouvez choisir de **[!UICONTROL Télécharger le fichier sur le serveur]**, en cochant l&#39;option correspondante. Le lien **[!UICONTROL Mettre à jour sur le serveur]** permet de lancer le téléchargement.
+Pour les deux premières options, vous pouvez choisir **[!UICONTROL Télécharger le fichier sur le serveur]** en sélectionnant l’option appropriée. La variable **[!UICONTROL Mettre à jour le fichier sur le serveur]** permet de lancer le téléchargement.
 
 ![](assets/s_ncs_user_wizard_email01_137.png)
 
@@ -184,7 +184,7 @@ En cas de changement de fichier, un message d&#39;avertissement est affiché :
 
 L&#39;onglet **[!UICONTROL Avancé]** permet de définir des options avancées sur les fichiers joints :
 
-* Vous pouvez définir des options de filtrage afin de ne pas transmettre le fichier joint à tous les destinataires. L&#39;option **[!UICONTROL Activer le filtrage des destinataires qui recevront la pièce jointe]** active une zone de saisie utilisée pour définir un script de sélection des destinataires. Ce script doit être saisi en JavaScript.
+* Vous pouvez définir des options de filtrage afin de ne pas envoyer le fichier joint à tous les destinataires. L’option **[!UICONTROL Activer le filtrage des destinataires qui recevront la pièce jointe]** active un champ de saisie utilisé pour définir un script de sélection des destinataires, qui doit être saisi en JavaScript.
 * Vous pouvez scripter le nom du fichier afin de le personnaliser.
 
   Entrez votre texte dans la fenêtre et utilisez les champs de personnalisation disponibles dans la liste déroulante. Dans l&#39;exemple ci-dessous, le nom du fichier est personnalisé pour contenir la date du jour et le nom du destinataire.

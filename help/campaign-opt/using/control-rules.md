@@ -8,8 +8,8 @@ feature: Typology Rules, Campaigns
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,7 @@ Un ensemble de règles livrées d&#39;usine assurent les contrôles usuels. Ces 
 
 ## Créer une règle de contrôle {#creating-a-control-rule}
 
-Afin de répondre à vos besoins, vous pouvez définir de nouvelles règles de contrôle. Pour cela, créez une règle de typologie de type **[!UICONTROL Contrôle]** et saisissez la formule de contrôle en SQL dans l&#39;onglet **[!UICONTROL Code]**.
+Il est possible de créer de nouvelles règles de contrôle en fonction de vos besoins. Pour ce faire, créez une **[!UICONTROL Contrôle]** règle de typologie et renseigner la formule de contrôle en SQL dans la **[!UICONTROL Code]** .
 
 **Exemple:**
 
@@ -40,7 +40,7 @@ Dans l&#39;exemple suivant, nous allons créer une règle afin de ne pas diffuse
 
 Les étapes sont les suivantes :
 
-1. Créez une règle de typologie de type **[!UICONTROL Contrôle]**. Sélectionnez un niveau d&#39;alerte de type Avertissement (**[!UICONTROL Warning]**).
+1. Créez un **[!UICONTROL Contrôle]** règle de typologie. Sélectionnez une **[!UICONTROL Avertissement]** niveau d’alerte.
 
    ![](assets/campaign_opt_create_control_01.png)
 

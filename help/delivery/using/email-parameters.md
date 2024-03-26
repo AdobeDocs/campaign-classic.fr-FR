@@ -9,8 +9,8 @@ role: User, Developer, Data Engineer
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 100%
+source-wordcount: '993'
+ht-degree: 88%
 
 ---
 
@@ -52,7 +52,7 @@ Pour activer la fonctionnalité Email Cci pour un modèle de diffusion email, p
 
 ## Sélection des formats du message {#selecting-message-formats}
 
-Vous pouvez paramétrer le format des emails envoyés. Pour cela, éditez les propriétés de la diffusion et cliquez sur l&#39;onglet **[!UICONTROL Envoi]**.
+Vous pouvez modifier le format des e-mails envoyés. Pour cela, éditez les propriétés de la diffusion et cliquez sur le bouton **[!UICONTROL Diffusion]**.
 
 ![](assets/s_ncs_user_wizard_email_param.png)
 
@@ -96,7 +96,7 @@ Outre le mode par défaut, les options disponibles sont les suivantes :
 
 * **[!UICONTROL Forcer la génération de la page miroir]** : même si aucun lien vers la page miroir n&#39;est inséré dans la diffusion, la page miroir sera créée.
 * **[!UICONTROL Ne pas générer de page miroir]** : aucune page miroir n&#39;est générée, même si le lien est présent dans la diffusion.
-* **[!UICONTROL Générer une page miroir accessible depuis l&#39;identifiant du message]** : cette option permet d&#39;accéder au contenu de la page miroir, avec les informations de personnalisation, dans la fenêtre des logs de diffusion. Pour cela, une fois la diffusion terminée, cliquez sur l&#39;onglet **[!UICONTROL Diffusion]** et sélectionnez la ligne du destinataire dont vous souhaitez visualiser la page miroir. Cliquez ensuite sur le lien **[!UICONTROL Afficher la page miroir de ce message...]**.
+* **[!UICONTROL Génère une page miroir accessible à l’aide de l’identifiant du message uniquement]**: cette option permet d&#39;accéder au contenu de la page miroir, avec les informations de personnalisation, dans la fenêtre des logs de diffusion. Pour cela, après la fin de la diffusion, cliquez sur le bouton **[!UICONTROL Diffusion]** et sélectionnez la ligne du destinataire dont vous souhaitez visualiser la page miroir. Cliquez sur le bouton **[!UICONTROL Afficher la page miroir de ce message...]** lien.
 
   ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -118,15 +118,15 @@ L&#39;onglet **[!UICONTROL SMTP]** des paramètres de la diffusion permet de par
 
 Par défaut, les e-mails rebonds sont réceptionnés dans la [boîte d&#39;erreur par défaut de la plateforme](../../installation/using/deploying-an-instance.md#parameters-for-delivered-emails-parameters-for-delivered-emails). Vous pouvez toutefois définir une adresse d’erreur spécifique pour une diffusion.
 
-Vous pouvez également définir une adresse spécifique depuis cet écran afin d&#39;investiguer sur les causes des mails rebonds n&#39;ayant pas pu être automatiquement qualifiés par l&#39;application. Pour chacun de ces champs, l&#39;icône d&#39;**ajout de champs personnalisés** permet d&#39;ajouter des paramètres de personnalisation.
+Vous pouvez également définir une adresse spécifique à partir de cet écran afin d&#39;examiner les raisons des mails rebonds alors qu&#39;ils n&#39;ont pas pu être qualifiés automatiquement par l&#39;application. Pour chacun de ces champs, la variable **Ajouter des champs personnalisés** vous permet d&#39;ajouter des paramètres de personnalisation.
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-Pour plus d’informations sur la gestion des mails rebonds, consultez [cette section](understanding-delivery-failures.md#bounce-mail-management).
+Pour plus d’informations sur la gestion des e-mails de rebond, consultez [cette section](understanding-delivery-failures.md#bounce-mail-management).
 
 ## Ajouter des en-têtes SMTP {#adding-smtp-headers}
 
-Vous pouvez ajouter des en-têtes SMTP supplémentaires à vos diffusions. Pour cela, utilisez la section correspondante dans l&#39;onglet **[!UICONTROL SMTP]** des propriétés de la diffusion.
+Vous pouvez ajouter des en-têtes SMTP à vos diffusions. Pour ce faire, utilisez la section correspondante de l’onglet **[!UICONTROL SMTP]** de la diffusion.
 
 Le script saisi dans cette fenêtre doit référencer un en-tête par ligne, sous la forme **nom: valeur**.
 

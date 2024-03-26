@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 100%
+source-wordcount: '722'
+ht-degree: 81%
 
 ---
 
@@ -39,7 +39,7 @@ Vous devez disposer d’un environnement de test/développement pour effectuer l
 
    >[!NOTE]
    >
-   >Par défaut la commande se lance en mode **dry**, et liste l&#39;ensemble des requêtes qui seront exécutées par la commande, mais sans les lancer. Pour exécuter les requêtes de cautérisation, utilisez l&#39;argument **run** dans la commande.
+   >La commande se lance par défaut dans **dry** et répertorie toutes les requêtes qui ont été exécutées par cette commande, sans les lancer. Pour exécuter des requêtes de cautérisation, utilisez **run** dans la commande .
 
 1. Assurez-vous que vos sauvegardes sont intègres en tentant de les restaurer. Vérifiez que vous avez bien accès à votre base de données, vos tables, vos données, etc.
 1. Testez la procédure de migration sur l&#39;environnement de développement.
@@ -69,7 +69,7 @@ Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39
 >[!NOTE]
 >
 >* Vous devez utiliser l’option **-instance:`<instanceame>`**. Il est déconseillé d’utiliser l’option  **-allinstances**.
->* La commande de mise à jour d’Adobe Campaign (**postupgrade**) permet de synchroniser les ressources et de mettre à jour les schémas et la base de données. Cette opération ne peut être effectuée qu’une seule fois et uniquement sur le serveur applicatif. Suite à la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
+>* La commande de mise à jour d’Adobe Campaign (**postupgrade**) permet de synchroniser les ressources et de mettre à jour les schémas et la base de données. Cette opération ne peut être effectuée qu&#39;une seule fois et uniquement sur le serveur applicatif. Après la synchronisation des ressources, la variable **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
 
 ### Objets non standard ou manquants
 
@@ -99,7 +99,7 @@ Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39
 
 ### Processus de vérification {#verification-process}
 
-Intégré en standard dans la commande de postupgrade, ce processus permet d&#39;afficher les avertissements et erreurs qui pourraient faire échouer la migration. **Si des erreurs sont affichées, la migration n&#39;est pas exécutée.** Dans ce cas, corrigez toutes les erreurs, puis relancez le postupgrade.
+Intégré en standard dans la commande de postupgrade, ce processus permet d&#39;afficher les avertissements et erreurs qui pourraient faire échouer la migration. **Si des erreurs s’affichent, la migration n’a pas été exécutée.** Si cela se produit, corrigez toutes les erreurs, puis relancez le postupgrade.
 
 Il est possible de lancer la vérification seule (sans migration) à l&#39;aide de la commande :
 
@@ -127,7 +127,7 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
    <td> Avertissement<br /> </td> 
-   <td> Ce type de syntaxe n’est plus pris en charge dans la personnalisation de la diffusion. <br /> </td> 
+   <td> Ce type de syntaxe n'est plus pris en charge dans la personnalisation des diffusions. <br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 

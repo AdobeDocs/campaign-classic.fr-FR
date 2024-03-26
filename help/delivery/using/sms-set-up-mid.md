@@ -6,8 +6,9 @@ badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Class
 badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: SMS
 role: User, Developer, Admin
-source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
-workflow-type: ht
+exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
+source-git-commit: 46dcd80d5adc31a66b47c6d75e7914b0a686326b
+workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 100%
 
@@ -187,4 +188,3 @@ Vous disposez à présent d&#39;un compte externe et d&#39;un modèle de diffusi
 * [Translittération de caractères SMS](sms-set-up.md#about-character-transliteration)
 * [Encodages de texte](sms-set-up.md#about-text-encodings)
 * [Réponse automatique](sms-set-up.md#automatic-reply)
-

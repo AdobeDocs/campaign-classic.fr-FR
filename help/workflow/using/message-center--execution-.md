@@ -6,8 +6,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Workflows
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '230'
+ht-degree: 93%
 
 ---
 
@@ -34,7 +34,7 @@ Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign,
   <tr> 
    <td> <span class="uicontrol">Mise à jour du statut des événements</span> <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span> <br /> </td> 
-   <td> Ce workflow permet d'attribuer un statut à l'événement. Les statuts d'un événement sont les suivants :<br /> 
+   <td> Ce workflow permet d'attribuer un statut à un événement. Les statuts des événements sont les suivants :<br /> 
     <ul> 
      <li> <p><strong>En attente</strong> : l'événement se trouve dans la file d'attente. Aucun modèle de message ne lui a encore été associé.</p> </li> 
      <li> <p><strong>En attente de diffusion</strong> : l'événement est dans la file d'attente, un modèle de message lui a été associé et il est en cours de traitement par la diffusion.</p> </li> 

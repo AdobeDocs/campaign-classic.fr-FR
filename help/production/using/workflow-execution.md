@@ -11,8 +11,8 @@ topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 100%
+source-wordcount: '666'
+ht-degree: 95%
 
 ---
 
@@ -119,6 +119,6 @@ Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
 
 Si un workflow est en échec, procédez comme suit :
 
-1. Vérifiez le journal du workflow. Voir à ce propos les sections [Suivre l&#39;exécution des workflows](../../workflow/using/monitoring-workflow-execution.md) et [Afficher les logs](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
-1. Effectuez un suivi des workflows techniques. Voir à ce propos [cette section](../../workflow/using/monitoring-technical-workflows.md).
+1. Vérifiez le journal du workflow. Voir à ce sujet la section [Surveillance de l&#39;exécution des workflows](../../workflow/using/monitoring-workflow-execution.md) et [Afficher les logs](../../workflow/using/monitoring-workflow-execution.md#displaying-logs) sections.
+1. Surveillez les workflows techniques. Voir à ce propos la section [cette section](../../workflow/using/monitoring-technical-workflows.md).
 1. Recherchez des échecs dans chaque activité du workflow.

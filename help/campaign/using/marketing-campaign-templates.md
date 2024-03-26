@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à
 feature: Campaigns, Templates
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1175'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -53,7 +53,7 @@ Pour créer un modèle de campagne, procédez comme suit :
 
 1. Renseignez le champ **Libellé** et cliquez sur **OK**.
 1. Créez votre workflow selon vos besoins.
-1. Cliquez sur **Enregistrer**. Le modèle peut maintenant être utilisé dans une campagne.
+1. Cliquez sur **Enregistrer**. Votre modèle est maintenant prêt à être utilisé dans une campagne.
 
 Vous pouvez également **dupliquer** le modèle par défaut afin de le réutiliser et d&#39;adapter sa configuration à vos besoins.
 
@@ -152,7 +152,7 @@ Les liens et onglets affichés seront les suivants :
 Lorsque vous créez un modèle de campagne, vous devez indiquer les informations suivantes :
 
 * Saisissez le **libellé** du modèle : ce libellé sera attribué par défaut à toutes les opérations créées à partir de ce modèle.
-* Sélectionnez la **nature** de l&#39;opération dans la liste déroulante. Les valeurs proposées dans cette liste correspondent à celles enregistrées dans l&#39;énumération **[!UICONTROL natureOp]**.
+* Sélectionner l&#39;opération **nature** dans la liste déroulante. Les valeurs disponibles dans cette liste sont celles enregistrées dans la variable **[!UICONTROL natureOp]** énumération.
 
   >[!NOTE]
   >
@@ -175,7 +175,7 @@ Le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** permet de c
 
 Vous pouvez créer le planning d’une opération et suivre ainsi les réalisations, par exemple pour préparer un planning d’événement pour une date spécifique. Les modèles d’opération vous permettent maintenant de calculer la date de début d’une tâche en fonction de la date de fin d’une opération.
 
-Dans la boîte de paramétrage de la tâche, dans la zone **[!UICONTROL Planning de réalisation]**, cochez la case **[!UICONTROL La date de démarrage est calculée à partir de la date de fin de l&#39;opération]**. (Ici, &quot;date de démarrage&quot; désigne la date de début de la tâche.) Dans le champ **[!UICONTROL Démarrage]**, entrez un intervalle : la tâche commencera d&#39;autant avant la date de fin de l&#39;opération. Si vous entrez une durée supérieure à la durée de l&#39;opération, la tâche commencera avant le début de l&#39;opération.
+Dans la boîte de configuration de la tâche, accédez à la **[!UICONTROL Planning d’implémentation]** et vérifiez les **[!UICONTROL La date de début est calculée en fonction de la date de fin de la campagne.]** de la boîte. (Ici, &quot;date de début&quot; est la date de début de la tâche). Accédez au **[!UICONTROL Début]** et saisissez un intervalle : la tâche démarrera bien avant la date de fin de la campagne. Si vous saisissez une période supérieure à la dernière de la campagne, la tâche commencera avant la campagne.
 
 ![](assets/mrm_task_in_template_start_date.png)
 

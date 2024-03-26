@@ -8,8 +8,8 @@ feature: Reporting, Monitoring
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2655'
-ht-degree: 100%
+source-wordcount: '2664'
+ht-degree: 92%
 
 ---
 
@@ -84,7 +84,7 @@ Le groupement peut être positionné dans n&#39;importe quelle ligne du tableau 
 
 ![](assets/s_advuser_ergo_listgroup_006.png)
 
-La nature de la ligne que vous ajoutez dépend de l&#39;emplacement du curseur : par exemple, pour ajouter une ligne d&#39;en-tête, vous devez positionner la souris sur un en-tête puis cliquer sur **[!UICONTROL Ajouter > Une ligne au-dessus/dessous]**.
+La nature de la ligne que vous ajoutez dépend de l’emplacement du curseur. Par exemple, pour ajouter une ligne d’en-tête, placez votre curseur sur un en-tête, puis cliquez sur **[!UICONTROL Ajouter > Une ligne au-dessus/dessous]**.
 
 ![](assets/s_advuser_ergo_listgroup_006a.png)
 
@@ -110,7 +110,7 @@ Utilisez l&#39;entrée de menu **[!UICONTROL Expression]** pour sélectionner le
 
 * Saisir un libellé dans une cellule, par exemple dans une cellule d&#39;en-tête.
 
-  Pour cela, procédez comme pour insérer un champ de la base mais ne sélectionnez aucune expression. Saisissez le libellé dans le champ **[!UICONTROL Libellé]** : il sera affiché tel quel.
+  Pour cela, procédez de la même manière que pour insérer un champ de la base, mais ne sélectionnez pas d&#39;expression. Saisissez le libellé dans le champ **[!UICONTROL Libellé]** champ . Il s’affiche tel quel.
 
 * Calculer un agrégat (une moyenne, une somme, etc.) et l&#39;afficher dans une cellule.
 
@@ -322,7 +322,7 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
    ![](assets/s_advuser_report_listgroup_014.png)
 
-1. Editez la 3e cellule de la ligne de pied du groupement, sélectionnez l&#39;indicateur des diffusions traitées et appliquez-lui l&#39;agrégat **[!UICONTROL Somme]**.
+1. Modifiez la 3e cellule de la ligne de pied de page du groupe, sélectionnez l’indicateur des diffusions traitées et appliquez-lui l’agrégat **[!UICONTROL Somme]**.
 
    ![](assets/s_advuser_report_listgroup_015.png)
 
@@ -332,11 +332,11 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
 1. Sélectionnez cette cellule pour afficher une barre de valeur pour représenter le taux d&#39;erreur des diffusions.
 
-   Pour cela, accédez au format de la cellule puis à l&#39;onglet **[!UICONTROL Plus]**. Choisissez ensuite l&#39;entrée **[!UICONTROL Barre de valeur]** dans la liste déroulante et sélectionnez l&#39;option **[!UICONTROL Cacher la valeur de la cellule]**.
+   Pour ce faire, accédez au format de cellule, puis au **[!UICONTROL Plus]** . Sélectionnez la variable **[!UICONTROL Barre de valeurs]** dans la liste déroulante et sélectionnez l’option **[!UICONTROL Masquer la valeur de cellule]** .
 
    ![](assets/s_advuser_report_listgroup_023.png)
 
-   Vous pouvez dès à présent visualiser le rendu de ce rapport. Cliquez sur l&#39;onglet **[!UICONTROL Prévisualisation]** et sélectionnez l&#39;option **[!UICONTROL Global]** : vous affichez ainsi la liste de toutes les diffusions de la base Adobe Campaign qui sont liées à une opération.
+   Vous pouvez désormais visualiser le rendu du rapport. Cliquez sur le bouton **[!UICONTROL Aperçu]** et sélectionnez l’option **[!UICONTROL Global]** option : affiche la liste de toutes les diffusions de la base Adobe Campaign liées à une opération.
 
    ![](assets/s_advuser_report_listgroup_025.png)
 
@@ -408,7 +408,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 1. Dans l&#39;onglet **[!UICONTROL Données]**, adaptez le tableau comme suit :
 
    * Ajoutez deux colonnes supplémentaires à droite.
-   * Dans la 1ère cellule de la ligne de détail, ajoutez l&#39;expression **[!UICONTROL rowNum()-1]** afin de compter le nombre de lignes. Puis modifiez le format de cellule : dans l&#39;onglet **[!UICONTROL Plus]**, sélectionnez **[!UICONTROL Pastille de couleur]** et cliquez sur **[!UICONTROL Ok]**.
+   * Dans la première cellule de la ligne de détail, ajoutez le **[!UICONTROL rowNum()-1]** pour compter le nombre de lignes. Modifiez ensuite le format de la cellule : dans la variable **[!UICONTROL Plus]** onglet, sélectionnez **[!UICONTROL Onglet Couleur]** et cliquez sur **[!UICONTROL Ok]**.
 
      ![](assets/s_advuser_report_listgroup_018.png)
 
@@ -421,7 +421,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 
 1. Ajoutez un graphique en secteurs dans la page à l&#39;aide du menu contextuel et attribuez-lui le libellé **Domaines d&#39;email**. Voir à ce sujet la section [Types de graphiques et leurs variantes](../../reporting/using/creating-a-chart.md#chart-types-and-variants).
 1. Cliquez sur le lien **[!UICONTROL Variantes]** et déselectionnez les options **[!UICONTROL Afficher les libellés]** et **[!UICONTROL Afficher la légende]**.
-1. Vérifiez qu&#39;aucun tri de valeurs n&#39;est paramétré. Reportez-vous à [cette section](../../reporting/using/processing-a-report.md#configuring-the-layout-of-a-descriptive-analysis-report) pour plus d&#39;informations sur ce sujet.
+1. Vérifiez qu’aucun tri de valeurs n’est configuré. Pour plus d’informations, consultez [cette section](../../reporting/using/processing-a-report.md#configuring-the-layout-of-a-descriptive-analysis-report).
 
    ![](assets/s_advuser_report_listgroup_0191.png)
 
@@ -462,6 +462,6 @@ Si vous cliquez sur le lien d&#39;une des diffusions, le graphique représentant
 
 Ce type de tableau vous permet d&#39;afficher des statistiques calculées sur les données de la base.
 
-Les paramètres de création de ce type de rapport sont similaires à ceux utilisés pour l&#39;assistant d&#39;analyse descriptive. Voir à ce propos [cette page](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template).
+Le paramétrage de ce type de rapport est similaire à celui de l&#39;assistant d&#39;analyse descriptive. Pour plus d’informations, consultez [cette page](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template).
 
 La création d&#39;un tableau croisé dynamique est présentée dans [cette section](../../reporting/using/ac-cubes.md).

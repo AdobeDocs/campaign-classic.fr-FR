@@ -11,7 +11,7 @@ exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -23,10 +23,10 @@ Voici la définition des éléments principaux d&#39;Interaction.
 
 * **Environnement** : ensemble regroupant un Catalogue d&#39;offres et des points d&#39;intégration (emplacements). Vous devez créer un environnement par dimension de ciblage. Il existe deux types d&#39;environnements :
 
-   * **Environnement en édition** : environnement dans lequel sont créées les offres et où sont définies les règles de typologie qui vont déterminer les offres à présenter ou non à une personne ciblée. La table des individus qui seront ciblés par les offres et la table destinée à stocker toutes les propositions d&#39;offres y sont également définies. Le nœud **[!UICONTROL Environnement en édition]** contient les sous-dossiers des emplacements, des filtres prédéfinis et des catégories d&#39;offres. À chaque **[!UICONTROL Environnement en édition]** correspond un **[!UICONTROL Environnement en ligne]** en lecture seule, généré à partir de ce même **[!UICONTROL Environnement en édition]**.
-   * **Environnement en ligne** : environnement associé à un **[!UICONTROL Environnement en édition]**. Il contient des offres en lecture seule dont le contenu et l&#39;éligibilité ont été validés à partir de l&#39;**[!UICONTROL Environnement en édition]**. Elles sont destinées à être sélectionnées pour être présentées sur un site web ou insérées dans un message.
+   * **Environnement en édition** : environnement dans lequel les offres sont créées et/ou les règles de typologie sont définies (règles qui déterminent les offres à présenter ou non à une personne ciblée). La table des individus qui seront ciblés par les offres et la table de stockage de toutes les propositions d&#39;offres sont également définies dans cette table. Le nœud **[!UICONTROL Environnement en édition]** contient des sous-dossiers d&#39;emplacements, des filtres prédéfinis et des catégories d&#39;offres. Pour chaque **[!UICONTROL Environnement en édition]**, il existe un **[!UICONTROL Environnement en ligne]** correspondant, généré à partir de ce même **[!UICONTROL Environnement en édition]**.
+   * **Environnement en ligne**: environnement associé à un **[!UICONTROL Environnement de conception]**. Il contient des offres en lecture seule dont le contenu et l’éligibilité ont été approuvés via l’**[!UICONTROL Environnement en édition]**. Ils doivent être sélectionnés pour être présentés sur un site Web ou insérés dans un message.
 
-* **Emplacement** : dossier définissant les lieux d&#39;exposition de l&#39;offre. La définition d&#39;un emplacement permet à la fois d&#39;indiquer le canal utilisé, de spécifier s&#39;il est possible ou non de l&#39;utiliser en mode unitaire (par défaut : uniquement en mode batch), de construire le contenu de l&#39;offre par l&#39;intermédiaire de fonctions de rendu et de spécifier le thème des offres présentées. Un emplacement est une interface entre le canal et le moteur d&#39;offres.
+* Un **emplacement** désigne un dossier définissant l’emplacement d’exposition de l’offre. La définition d&#39;un emplacement permet de définir le canal utilisé, de spécifier s&#39;il peut être utilisé ou non en mode unitaire (par défaut : uniquement en mode batch), de construire le contenu de l&#39;offre à l&#39;aide de fonctions de rendu et de spécifier l&#39;offre présentée. Un emplacement est une interface entre le canal et le moteur d&#39;offres.
 
   >[!IMPORTANT]
   >
@@ -62,9 +62,9 @@ Voici la définition des éléments principaux d&#39;Interaction.
      >Les contacts anonymes non identifiés sont rattachés à la dimension de ciblage des visiteurs.
 
 * **Interaction sortante** : appel du moteur d&#39;interaction à partir d&#39;une liste de contacts (mails, courrier, etc.). Les mêmes règles et processus sont appliqués à chaque contact. Ce type d&#39;interaction est généralement traité en mode batch.
-* **Interaction entrante** : interaction faisant suite à un appel entrant généré par une action d&#39;un contact sur le canal. Ce type d&#39;interaction est généralement traité en mode unitaire.
-* **Mode batch** : le mode batch permet de sélectionner la meilleure offre pour un ensemble de contacts. Les règles d&#39;éligibilité/priorisation sont appliquées à l&#39;ensemble des contacts. Ce mode est généralement utilisé pour les interactions sortantes.
-* **Mode unitaire** : un seul contact est traité à la fois. Ce mode est généralement utilisé pour les interactions entrantes et pour les messages transactionnels.
+* **Interaction entrante** : interaction faisant suite à un appel entrant généré par l’action d’un contact sur le canal. Ce type d&#39;interaction est généralement traité en mode unitaire.
+* **Mode Lot** : le mode Lot permet de sélectionner la meilleure offre pour un ensemble de contacts. Les règles d&#39;éligibilité/priorisation sont appliquées à tous les contacts de l&#39;ensemble. Ce mode est généralement utilisé pour les interactions sortantes.
+* **Mode unitaire** : un seul contact est traité à la fois. Ce mode est généralement utilisé pour les interactions entrantes et les messages transactionnels.
 * **Mode d&#39;identification** : il se réfère au statut d&#39;un contact.
 
    * **[!UICONTROL explicite]** : le contact est identifié, il s’est authentifié sur l’interface du canal.

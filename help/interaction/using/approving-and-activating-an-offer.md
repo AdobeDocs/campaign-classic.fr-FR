@@ -12,7 +12,7 @@ exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -90,7 +90,7 @@ Une tâche parent planifiée pour finir le mardi 9 octobre à 17h a 2 tâches en
 
 ## Suivi des validations {#approval-tracking}
 
-Le suivi des validations est disponible dans le tableau de bord de l&#39;offre. Cliquez sur **[!UICONTROL Afficher/cacher le journal]** pour y accéder.
+Le suivi des validations est disponible dans le tableau de bord de l&#39;offre. Cliquez sur **[!UICONTROL Masquer/afficher les journaux]** pour y accéder.
 
 ![](assets/offer_validate_012.png)
 
@@ -110,7 +110,7 @@ Une fois la validation lancée, il est possible de la réinitialiser. Pour ce fa
 
 ## Publication de l&#39;offre {#publishing-the-offer}
 
-Lorsque le contenu et l&#39;éligibilité de l&#39;offre ont tous deux été validés, l&#39;offre est mise en ligne. La mise en ligne est effectuée par un workflow technique qui se lance automatiquement pour chaque offre dont le cycle de validation est terminé. Le workflow **[!UICONTROL Notification des offres]** se lance également toutes les heures afin de synchroniser (si besoin) les emplacements et les catégories contenues dans le catalogue d&#39;offres depuis l&#39;environnement en édition vers l&#39;environnement en ligne.
+Une fois le contenu et l&#39;éligibilité d&#39;une offre validés, l&#39;offre est publiée par un workflow qui s&#39;exécute automatiquement pour chaque offre dont le cycle de validation est terminé. La variable **[!UICONTROL Notification des offres]** le workflow s’exécute également toutes les heures afin de synchroniser (si nécessaire) les emplacements et catégories contenus dans le catalogue d’offres de l’environnement en édition vers l’environnement en ligne.
 
 Le tableau de bord de l&#39;offre disponible dans l&#39;environnement en édition contient les informations relatives à la mise en ligne, notamment le nom de l&#39;offre correspondante dans l&#39;environnement en ligne.
 

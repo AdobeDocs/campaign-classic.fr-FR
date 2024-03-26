@@ -8,9 +8,9 @@ badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaig
 feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 100%
+ht-degree: 75%
 
 ---
 
@@ -52,7 +52,7 @@ Les étapes sont les suivantes :
    name="custom_customNamespace_customSchema"
    ```
 
-   Cet élément doit contenir les champs nécessaires à l&#39;export de campagnes. Ces champs doivent porter le même nom que le champ correspondant dans le schéma externe. Par exemple, si le schéma est **[!UICONTROL cus:person]**, le schéma **[!UICONTROL nms:seedMember]** devra être étendu comme dans l&#39;exemple suivant :
+   Cet élément doit contenir les champs nécessaires à l&#39;export des campagnes. Ces champs doivent porter le même nom que les champs correspondants du schéma externe. Par exemple, si le schéma est **[!UICONTROL cus:person]** , la variable **[!UICONTROL nms:seedMember]** schéma doit être étendu comme suit :
 
    ```
      <srcSchema extendedSchema="nms:seedMember" label="Seed addresses" labelSingular="Seed address" name="seedMember" namespace="cus">
@@ -80,7 +80,7 @@ Les étapes sont les suivantes :
    >    
    >    * Lors de l&#39;extension, vous devez obligatoirement préciser **un nom SQL (@sqlname)** pour le champ &#39;email&#39;. Le nom SQL doit être différent de &#39;sEmail&#39; qui est réservé pour le schéma des destinataires.
    >    * Vous devez impérativement mettre à jour la structure de la base avec le schéma créé lors de l&#39;extension de **nms:seedMember**.
-   >    * Dans l’extension **nms:seedMember**, le champ contenant l&#39;adresse email doit avoir comme attribut **name=&quot;email&quot;**. Le nom SQL doit être différent de &#39;sEmail&#39; qui est déjà utilisé pour le schéma des destinataires. Cet attribut doit être immédiatement déclaré sous l’élément **`<element name="custom_cus_person" />`**.
+   >    * Dans le **nms:seedMember** , le champ contenant l’adresse électronique doit avoir la valeur **name=&quot;email&quot;** comme attribut. Le nom SQL doit être différent de &#39;sEmail&#39; qui est déjà utilisé pour le schéma des destinataires. Cet attribut doit être immédiatement déclaré sous la variable **`<element name="custom_cus_person" />`** élément .
    >    
    >
 
