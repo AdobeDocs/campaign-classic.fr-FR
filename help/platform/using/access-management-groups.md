@@ -7,10 +7,10 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 4e99ec73f99264e91ca427542e29bd42da88a3f9
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 95%
 
 ---
 
@@ -80,7 +80,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 1. **[!UICONTROL Consultation des rapports]**
 
-   Ce groupe est réservé aux opérateurs externes afin d&#39;accéder aux rapports de diffusions depuis un accès Web.
+   Ce groupe est réservé aux opérateurs externes afin d&#39;activer les icônes Rapport, Planning et Forum dans le tableau de bord des opérations pour un opérateur spécifique.
 
 1. **[!UICONTROL Exécution des workflows]**
 
