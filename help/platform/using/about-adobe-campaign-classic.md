@@ -7,9 +7,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: 776560c5f9ba91a5864a7dc950fd7499ceb37d1b
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '919'
 ht-degree: 65%
 
 ---
@@ -68,7 +68,7 @@ Vous pouvez combiner les fonctionnalités de diffusion et de gestion de campagne
 
 ## Fonctions principales et composants additionnels {#core-capabilities-and-add-ons}
 
-Adobe Campaign propose un ensemble de fonctionnalités pour vous aider à mettre en oeuvre et optimiser les fonctionnalités de marketing conversationnel selon vos besoins et votre architecture. Certaines d’entre elles sont des fonctionnalités principales, tandis que d’autres dépendent de l’installation d’un package et de votre configuration. Une description détaillée du produit est disponible ici : [Description du produit Adobe Campaign Classic](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-classic---product-description.html).
+Adobe Campaign propose un ensemble de fonctionnalités pour vous aider à mettre en oeuvre et optimiser les fonctionnalités de marketing conversationnel selon vos besoins et votre architecture. Certaines d’entre elles sont des fonctionnalités principales, tandis que d’autres dépendent de l’installation d’un package et de votre configuration. Une description détaillée du produit est disponible ici : [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 Les fonctions ci-dessous sont disponibles. Selon votre contrat de licence, certaines de ces fonctions peuvent ne pas être disponibles dans votre instance.
 
