@@ -2,15 +2,14 @@
 product: campaign
 title: Contenu conditionnel
 description: Découvrez comment ajouter du contenu conditionnel
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Personalization, Multilingual Messages
 role: User
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 79%
+source-wordcount: '509'
+ht-degree: 78%
 
 ---
 

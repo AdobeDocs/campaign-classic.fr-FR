@@ -3,16 +3,15 @@ product: campaign
 title: Paramètres d'exécution
 description: Paramètres d'exécution
 feature: Interaction, Offers
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: e2dea4a0-9ed8-47b6-a16b-eeee653d2290
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 77%
+source-wordcount: '171'
+ht-degree: 74%
 
 ---
 

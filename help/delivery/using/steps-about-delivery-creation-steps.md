@@ -2,15 +2,14 @@
 product: campaign
 title: À propos des étapes de création de diffusions dans Adobe Campaign
 description: Découvrez les principales étapes de création de diffusions dans Adobe Campaign
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Channel Configuration
 role: User
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 100%
+source-wordcount: '139'
+ht-degree: 97%
 
 ---
 

@@ -3,13 +3,12 @@ product: campaign
 title: À propos des outils de reporting d'Adobe Campaign
 description: Analysez la réussite de vos campagnes dans des rapports natifs ou personnalisés.
 feature: Reporting, Monitoring
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 94%
+source-wordcount: '344'
+ht-degree: 93%
 
 ---
 

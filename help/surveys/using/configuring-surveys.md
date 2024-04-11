@@ -2,14 +2,13 @@
 product: campaign
 title: Configurer des questionnaires en ligne
 description: Découvrez comment configurer des questionnaires en ligne
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Surveys
 exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 42%
+source-wordcount: '131'
+ht-degree: 38%
 
 ---
 

@@ -2,15 +2,14 @@
 product: campaign
 title: Création et identification de la diffusion
 description: Création et identification de la diffusion
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Channel Configuration
 role: User
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 86%
+source-wordcount: '292'
+ht-degree: 84%
 
 ---
 

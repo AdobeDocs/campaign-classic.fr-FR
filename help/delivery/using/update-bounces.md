@@ -2,15 +2,14 @@
 product: campaign
 title: Mettre à jour la qualification des rebonds après une panne d’un FAI
 description: Découvrez comment mettre à jour la qualification des rebonds après une panne dʼun fournisseur dʼaccès à Internet
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Deliverability
 hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
-source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '503'
 ht-degree: 92%
 
 ---
@@ -55,9 +54,9 @@ En fonction du calendrier de l’incident et du FAI, voici les instructions reco
 * Pour les environnements Campaign contenant des informations de règles d’e-mail entrant dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
    * **Texte d&#39;erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient »
-   * **Domaine d’e-mail (@domain)** égal à domain1.com OU **domaine d’email (@domain)** égal à domain2.com OU **domaine d’email (@domain)** égal à domain3.com
+   * **Domaine d’e-mail (@domain)** égal à domain1.com OU **domaine d’e-mail (@domain)** égal à domain2.com OU **domaine d’e-mail (@domain)** égal à domain3.com
    * **Statut de la mise à jour (@lastModified)** à partir du `MM/DD/YYYY HH:MM:SS AM`
-   * **Mise à jour du statut (@lastModified)** le ou avant `MM/DD/YYYY HH:MM:SS PM`
+   * **Statut de la mise à jour (@lastModified)** le ou avant le `MM/DD/YYYY HH:MM:SS PM`
 
 * Pour les environnements Campaign contenant des informations de réponse de rebond SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 

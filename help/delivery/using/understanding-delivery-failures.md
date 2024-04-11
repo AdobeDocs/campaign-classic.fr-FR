@@ -2,15 +2,14 @@
 product: campaign
 title: Présentation des diffusions en échec
 description: Découvrez les raisons des échecs de vos diffusions
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 8b0162680d6a3a2d4891d1f71020b44b28046ad7
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '2621'
-ht-degree: 84%
+source-wordcount: '2618'
+ht-degree: 83%
 
 ---
 

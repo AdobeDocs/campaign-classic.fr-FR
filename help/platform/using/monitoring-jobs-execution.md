@@ -3,16 +3,15 @@ product: campaign
 title: Surveillance de l'exécution des traitements
 description: Découvrez comment surveiller l'exécution des traitements d'import et d'export.
 feature: Monitoring
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 93%
+source-wordcount: '201'
+ht-degree: 91%
 
 ---
 

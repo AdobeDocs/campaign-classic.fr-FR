@@ -3,16 +3,15 @@ product: campaign
 title: À propos des intégrations de Campaign
 description: Utilisez d'autres solutions Adobe et combinez leurs différentes fonctionnalités avec Campaign.
 feature: Overview
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 100%
+source-wordcount: '738'
+ht-degree: 99%
 
 ---
 

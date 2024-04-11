@@ -2,15 +2,14 @@
 product: campaign
 title: Bonnes pratiques de diffusion Campaign
 description: Découvrez les bonnes pratiques relatives à la conception et à lʼenvoi dʼune diffusion
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Deliverability
 role: User
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '108'
+ht-degree: 96%
 
 ---
 

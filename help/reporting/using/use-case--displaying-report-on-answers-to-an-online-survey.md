@@ -2,13 +2,12 @@
 product: campaign
 title: '« Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne »'
 description: '« Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne »'
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Reporting, Monitoring, Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '515'
 ht-degree: 95%
 
 ---

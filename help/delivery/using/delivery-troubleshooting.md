@@ -2,15 +2,14 @@
 product: campaign
 title: Résolution des problèmes liés à lʼenvoi de diffusions
 description: En savoir plus sur les performances des diffusions et comment résoudre les problèmes liés à la surveillance des diffusions
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Monitoring, Deliverability, Troubleshooting
 role: User
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 79%
+source-wordcount: '809'
+ht-degree: 78%
 
 ---
 

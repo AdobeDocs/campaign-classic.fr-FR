@@ -2,15 +2,14 @@
 product: campaign
 title: Création d’une diffusion depuis un modèle
 description: Découvrez comment créer une diffusion depuis un modèle
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Delivery Templates
 role: User
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 98%
 
 ---
 

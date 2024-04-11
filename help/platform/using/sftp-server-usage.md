@@ -3,15 +3,14 @@ product: campaign
 title: Utilisation du serveur SFTP
 description: Découvrez les bonnes pratiques et la résolution des problèmes liés au serveur SFTP.
 feature: Troubleshooting
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1120'
 ht-degree: 97%
 
 ---

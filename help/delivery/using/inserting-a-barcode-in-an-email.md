@@ -2,14 +2,13 @@
 product: campaign
 title: Insertion d’un code-barres dans un e-mail
 description: Insertion d’un code-barres dans un e-mail
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Email Design
 role: User
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 80%
+source-wordcount: '544'
+ht-degree: 79%
 
 ---
 

@@ -2,15 +2,14 @@
 product: campaign
 title: Tableau de bord de la diffusion
 description: En savoir plus sur lʼutilisation du tableau de bord de la diffusion pour surveiller vos diffusions
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Monitoring
 role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 81%
+source-wordcount: '1255'
+ht-degree: 80%
 
 ---
 

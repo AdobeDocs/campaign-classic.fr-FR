@@ -2,15 +2,14 @@
 product: campaign
 title: Créer des adresses de contrôle
 description: Découvrez comment créer et utiliser des adresses de contrôle.
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Seed Address
 role: User, Data Engineer
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 89%
+source-wordcount: '449'
+ht-degree: 88%
 
 ---
 

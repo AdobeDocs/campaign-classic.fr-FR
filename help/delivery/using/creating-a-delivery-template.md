@@ -2,15 +2,14 @@
 product: campaign
 title: Créer un modèle de diffusion
 description: Créer un modèle de diffusion
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Delivery Templates
 role: User
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 72%
+source-wordcount: '396'
+ht-degree: 71%
 
 ---
 

@@ -2,14 +2,13 @@
 product: campaign
 title: Propriétés du rapport
 description: En savoir plus sur les paramètres des propriétés du rapport
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Reporting, Monitoring
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 95%
+source-wordcount: '460'
+ht-degree: 94%
 
 ---
 

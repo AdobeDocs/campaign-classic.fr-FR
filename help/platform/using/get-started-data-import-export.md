@@ -3,16 +3,15 @@ product: campaign
 title: Prise en main de l'import et de l'export de données
 description: En savoir plus sur l'import et l'export de données dans Campaign
 feature: Data Management, Encryption
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
-source-git-commit: a2106e55617209f28da42c50008d16188563b2da
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 98%
 
 ---
 

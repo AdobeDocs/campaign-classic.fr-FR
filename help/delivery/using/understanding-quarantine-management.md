@@ -2,14 +2,13 @@
 product: campaign
 title: Comprendre la gestion des quarantaines
 description: Comprendre la gestion des quarantaines
-badge-v7: label="v7" type="Informative" tooltip="S’applique à Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
 feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3090'
 ht-degree: 88%
 
 ---
@@ -164,9 +163,9 @@ Vous trouverez ci-dessous les instructions recommandées pour cette requête :
 * Pour les environnements Campaign Classic v7 contenant des informations de règles d’email entrant dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
    * **Texte d&#39;erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient »
-   * **Domaine d’e-mail (@domain)** égal à domain1.com OU **domaine d’email (@domain)** égal à domain2.com OU **domaine d’email (@domain)** égal à domain3.com
+   * **Domaine d’e-mail (@domain)** égal à domain1.com OU **domaine d’e-mail (@domain)** égal à domain2.com OU **domaine d’e-mail (@domain)** égal à domain3.com
    * **Statut de la mise à jour (@lastModified)** à partir du `MM/DD/YYYY HH:MM:SS AM`
-   * **Mise à jour du statut (@lastModified)** le ou avant `MM/DD/YYYY HH:MM:SS PM`
+   * **Statut de la mise à jour (@lastModified)** le ou avant le `MM/DD/YYYY HH:MM:SS PM`
 
 * Pour les instances Campaign Classic v7 contenant des informations de réponse de rebond SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
