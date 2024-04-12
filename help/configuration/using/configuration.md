@@ -4,11 +4,10 @@ title: Configurer l’arborescence de navigation de l’Explorateur Campaign
 feature: Application Settings
 description: Découvrez comment configurer l’arborescence de navigation de l’Explorateur Campaign.
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1207'
 ht-degree: 91%
 
 ---

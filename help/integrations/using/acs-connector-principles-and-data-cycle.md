@@ -3,13 +3,12 @@ product: campaign
 title: Prise en main du connecteur ACS
 description: Principes et cycle des données du connecteur ACS
 feature: ACS Connector
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 hide: true
 hidefromtoc: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '2099'
+source-wordcount: '2092'
 ht-degree: 96%
 
 ---

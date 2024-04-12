@@ -2,13 +2,12 @@
 product: campaign
 title: Création d’un workflow
 description: Découvrez comment créer un workflow
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 92%
+source-wordcount: '1679'
+ht-degree: 94%
 
 ---
 
@@ -160,7 +159,7 @@ Par exemple, pour sélectionner les clients détenteur d&#39;une assurance-vie d
 
 Lors de la sélection d&#39;une dimension de ciblage, seules les dimensions de filtrage compatibles sont proposées dans l&#39;interface.
 
-Ces deux dimensions doivent être liées. Ainsi, le contenu de la variable **[!UICONTROL Dimension de filtrage]** La liste dépend de la dimension de ciblage indiquée dans le premier champ.
+Ces deux dimensions doivent être liées. Ainsi, le contenu de la liste **[!UICONTROL Dimension de filtrage]** dépend de la dimension de ciblage indiquée dans le premier champ.
 
 Par exemple, pour les destinataires (**recipient**), les dimensions de filtrage disponibles seront les suivantes :
 

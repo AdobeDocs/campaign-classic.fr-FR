@@ -3,19 +3,18 @@ product: campaign
 title: FAQ destinée aux développeurs
 description: FAQ destinée aux développeurs
 feature: Troubleshooting, Configuration
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 81%
+source-wordcount: '508'
+ht-degree: 80%
 
 ---
 
-# FAQ destiné aux développeurs {#dev-faq}
+# FAQ destinée aux développeurs {#dev-faq}
 
 
 

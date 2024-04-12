@@ -2,12 +2,11 @@
 product: campaign
 title: À propos des activités de ciblage
 description: À propos des activités de ciblage
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Audiences, Targeting Activity
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '443'
 ht-degree: 97%
 
 ---

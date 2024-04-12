@@ -4,18 +4,17 @@ title: Mapping de la base de données
 description: Mapping de la base de données
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: e05dcd81-bbca-4767-8da3-ea064f7f6c8e
-source-git-commit: 46dcd80d5adc31a66b47c6d75e7914b0a686326b
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 66%
+source-wordcount: '932'
+ht-degree: 99%
 
 ---
 
 # Gestion des liens {#links--relation-between-tables}
 
-Un lien décrit l&#39;association d&#39;une table vers une autre table.
+Un lien décrit l&#39;association d’une table vers une autre table.
 
 Les types d’associations, également appelés cardinalités, sont répertoriés ci-dessous.
 
@@ -31,7 +30,7 @@ Pour les relations de jointure avec une table/base de données de campagne :
 * ![](assets/externaljoin11.png) : Cardinalité 1-1, jointure externe. Par exemple, entre un destinataire et son pays. Un destinataire ne peut être associé qu&#39;à une seule occurrence dans la table des pays. Le contenu de la table des pays ne sera pas enregistré.
 * ![](assets/join_with_campaign1n.png) : Cardinalité 1-N. Par exemple, entre un destinataire et la table des abonnements. Un destinataire peut être associé à plusieurs occurrences dans la table des abonnements.
 
-Pour les relations de jointure à l’aide de Federated Database Access (FDA) :
+Pour les relations de jointure utilisant Federated Database Access (FDA) :
 
 * ![](assets/join_fda_11.png) : Cardinalité 1-1
 * ![](assets/join_fda_1m.png) : Cardinalité 1-N
@@ -52,21 +51,21 @@ Les liens suivent les règles suivantes :
 
 * La définition d&#39;un lien est renseignée sur un **`<element>`** de type **link** avec les attributs suivants :
 
-   * **name**: nom du lien de la table source
-   * **cible**: nom du schéma cible
-   * **label**: libellé du lien
-   * **revLink** (facultatif) : nom du lien inverse du schéma cible (déduit automatiquement par défaut)
-   * **integrity** (facultatif) : intégrité référentielle de l’occurrence de la table source par rapport à celle de la table cible.
+   * **name** : nom du lien à partir de la table source
+   * **target** : nom du schéma cible
+   * **label** : libellé du lien
+   * **revLink** (optionnel) : nom du lien inverse à partir du schéma cible (déduit automatiquement par défaut)
+   * **integrity** (optionnel) : intégrité référentielle de l’occurrence de la table source par rapport à l’occurrence de la table cible.
 Les valeurs possibles sont les suivantes :
 
-      * **définir**: il est possible de supprimer l’occurrence source si elle n’est plus référencée par une occurrence cible.
-      * **normal**: la suppression de l’occurrence source initialise les clés du lien sur l’occurrence cible (mode par défaut), ce type d’intégrité initialise toutes les clés étrangères
-      * **own**: la suppression de l’occurrence source entraîne la suppression de l’occurrence cible
-      * **owncopy**: identique à **own** (en cas de suppression) ou duplique les occurrences (en cas de duplication)
-      * **neutral**: aucun comportement spécifique
+      * **define** : la suppression de l’occurrence source est possible si elle n’est plus référencée par une occurrence cible
+      * **normal** : la suppression de l’occurrence source initialise les clés du lien sur l’occurrence cible (mode par défaut), ce type d’intégrité initialise toutes les clés étrangères
+      * **own** : la suppression de l’occurrence source entraîne la suppression de l’occurrence cible
+      * **owncopy** : semblable à **own** (en cas de suppression) ou duplique les occurrences (en cas de duplication)
+      * **neutral** : aucun comportement spécifique
 
-   * **revIntegrity** (facultatif) : intégrité sur le schéma cible (facultatif, &quot;normal&quot; par défaut)
-   * **revCardinality** (facultatif) : avec la valeur &quot;single&quot; renseigne la cardinalité de type 1-1 (par défaut 1-N)
+   * **revIntegrity** (optionnel) : intégrité sur le schéma cible (optionnel, « normal » par défaut)
+   * **revCardinality** (optionnel) : avec la valeur « Single », renseigne la cardinalité de type 1-1 (par défaut 1-N)
    * **externalJoin** (optionnel) : force la jointure externe
    * **revExternalJoin** (optionnel) : force la jointure externe sur le lien reverse
 
@@ -79,9 +78,9 @@ Les valeurs possibles sont les suivantes :
 >
 >Par convention, les liens sont les éléments déclarés en fin de schéma.
 
-## Exemple : lien inverse {#example-1}
+## Exemple : lien inverse {#example-1}
 
-Dans l&#39;exemple ci-dessous, nous déclarons une relation 1-N à la table de schéma &quot;cus:company&quot; :
+Dans l’exemple ci-dessous, nous déclarons une relation 1-N à la table de schémas « cus:company » :
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
@@ -142,9 +141,9 @@ Un lien réverse vers la table &quot;cus:recipient&quot; a été ajouté avec le
 * **unbound** : le lien est déclaré comme élément de collection pour une cardinalité 1-N (par défaut)
 * **integrity** : par défaut &quot;define&quot; (peut être forcée avec l&#39;attribut &quot;revIntegrity&quot; dans la définition du lien sur le schéma source)
 
-## Exemple : lien simple {#example-2}
+## Exemple : lien simple {#example-2}
 
-Dans cet exemple, nous déclarons un lien vers la table de schéma &quot;nms:address&quot;. La jointure est externe et est renseignée explicitement avec l&#39;adresse email du destinataire et le champ &quot;@address&quot; de la table liée (&quot;nms:address&quot;).
+Dans cet exemple, nous déclarons un lien vers la table de schémas « nms:address ». La jointure est externe et est renseignée explicitement avec l’adresse e-mail de la personne destinataire et le champ « @address » de la table liée (« nms:address »).
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
@@ -157,27 +156,27 @@ Dans cet exemple, nous déclarons un lien vers la table de schéma &quot;nms:add
 </srcSchema>
 ```
 
-## Exemple : cardinalité unique {#example-3}
+## Exemple : cardinalité unique {#example-3}
 
-Dans cet exemple, nous créons une relation 1-1 avec la table de schéma &quot;cus:extension&quot; :
+Dans cet exemple, nous créons une relation 1-1 avec la table de schémas « cus:extension » :
 
 ```sql
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
-## Exemple : lien vers un dossier {#example-4}
+## Exemple : lien vers un dossier {#example-4}
 
-Dans cet exemple, nous déclarons un lien vers un dossier (schéma &quot;xtk:folder&quot;) :
+Dans cet exemple, nous déclarons un lien vers un dossier (schéma « xtk:folder ») :
 
 ```sql
 <element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
-La valeur par défaut retourne l&#39;identifiant du premier dossier éligible de type du paramètre renseigné dans la fonction &quot;DefaultFolder(&#39;nmsFolder&#39;)&quot;.
+La valeur par défaut renvoie l’identifiant du premier dossier éligible de type du paramètre renseigné dans la fonction « DefaultFolder(&#39;nmsFolder&#39;) ».
 
-## Exemple : créer une clé sur un lien {#example-5}
+## Exemple : créer une clé sur un lien {#example-5}
 
-Dans cet exemple, nous créons une clé sur un lien (&quot;company&quot; vers le schéma &quot;cus:company&quot;) avec le **xlink** et un champ de la table (&quot;email&quot;) :
+Dans cet exemple, on souhaite créer une clé sur un lien (« company » vers le schéma « cus:company ») avec l’attribut **xlink** et un champ de la table (« email ») :
 
 ```sql
 <srcSchema name="recipient" namespace="cus">

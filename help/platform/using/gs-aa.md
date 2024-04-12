@@ -2,14 +2,14 @@
 product: campaign
 title: Utilisation d’Adobe Campaign et d’Adobe Analytics
 description: Utilisation d’Adobe Campaign et Adobe Analytics
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+exl-id: 985cf088-7546-4875-8e11-cafe5bd3e323
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 51%
+source-wordcount: '184'
+ht-degree: 50%
 
 ---
 
@@ -34,4 +34,3 @@ Avant de commencer à utiliser le connecteur Adobe Campaign-Adobe Analytics, ten
 ## Configuration et utilisation {#adobe-analytics-connector-usage}
 
 Découvrez comment utiliser Adobe Campaign et Adobe Analytics dans [Documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}.
-

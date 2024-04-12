@@ -3,13 +3,12 @@ product: campaign
 title: Diffusions de campagnes marketing
 description: En savoir plus sur les diffusions d'opérations marketing
 role: User
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 87%
+source-wordcount: '1550'
+ht-degree: 93%
 
 ---
 
@@ -45,7 +44,7 @@ Une fois toutes les demandes de validation approuvées, l’état passe sur **[!
 
 ![](assets/s_ncs_user_edit_del_to_start_from_del.png)
 
-Les informations s&#39;affichent également dans le tableau de bord de l&#39;opération. La variable **[!UICONTROL Confirmer l&#39;envoi]** lien permet de lancer la diffusion.
+Les informations s’affichent également dans le tableau de bord de la campagne. Le lien **[!UICONTROL Confirmer la diffusion]** permet de lancer la diffusion.
 
 ![](assets/s_ncs_user_edit_del_to_start.png)
 
@@ -80,11 +79,11 @@ Pour plus dʼinformations, consultez la section [Validation dʼun fichier dʼext
 
   La cible des BAT doit avoir été préalablement définie.
 
-  Vous pouvez créer autant de BAT que nécessaire. Elles sont accessibles via le **[!UICONTROL Courrier...]** lien du détail de la diffusion.
+  Vous pouvez créer autant de BAT que nécessaire. Ces derniers sont accessibles via le lien **[!UICONTROL Courrier...]** dans le détail de la diffusion.
 
   ![](assets/s_ncs_user_file_notif_submit_proof.png)
 
-* La diffusion passe alors à l’état **[!UICONTROL Pour envoyer]**. Cliquez sur le bouton **[!UICONTROL Envoyer un bon à tirer]** pour lancer le processus de validation.
+* Le statut de la diffusion passe alors à **[!UICONTROL À envoyer]**. Cliquez sur le bouton **[!UICONTROL Soumettre les BAT]** pour lancer le processus de validation.
 
   ![](assets/s_ncs_user_file_notif_submit_proof_validation.png)
 
@@ -189,7 +188,7 @@ Cliquez ensuite sur **[!UICONTROL Ajouter une composition de diffusion]** et cr�
 Une composition peut contenir des articles, des champs de personnalisation, des ressources et des offres :
 
 * Les articles sont par exemple des documents physiques qui sont ici référencés et décrits, et seront joints à la diffusion.
-* Les champs de personnalisation permettent de créer des éléments de personnalisation liés aux diffusions plutôt qu&#39;aux destinataires. Il est ainsi possible de créer des valeurs à utiliser dans les diffusions pour une cible spécifique (offre de bienvenue, réduction, etc.) Ils sont créés dans Adobe Campaign et importés dans la composition via le **[!UICONTROL Importer des champs de personnalisation...]** lien.
+* Les champs de personnalisation permettent de créer des éléments de personnalisation liés aux diffusions plutôt qu’aux destinataires. Il est ainsi possible de créer des valeurs à utiliser dans les diffusions pour une cible spécifique (offre de bienvenue, réduction, etc.) Ils sont créés dans Adobe Campaign et importés dans la composition via le lien **[!UICONTROL Importer des champs de personnalisation]**.
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 

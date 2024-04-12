@@ -3,14 +3,13 @@ product: campaign
 title: Prise en main de la gestion des ressources marketing
 description: Découvrez la gestion des ressources marketing
 feature: Resource Management
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '375'
 ht-degree: 100%
 
 ---

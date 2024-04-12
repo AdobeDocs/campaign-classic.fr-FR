@@ -2,17 +2,16 @@
 product: campaign
 title: Mettre à jour l’agrégat
 description: En savoir plus sur l’activité de workflow de mise à jour d’agrégat
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '127'
 ht-degree: 100%
 
 ---
 
-# Mise à jour d&#39;agrégat{#update-aggregate}
+# Mettre à jour l’agrégat{#update-aggregate}
 
 
 

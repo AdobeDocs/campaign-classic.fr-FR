@@ -2,12 +2,11 @@
 product: campaign
 title: Diffusion au fil de l'eau
 description: Diffusion au fil de l'eau
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Channels Activity
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '369'
 ht-degree: 87%
 
 ---

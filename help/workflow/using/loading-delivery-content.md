@@ -2,12 +2,11 @@
 product: campaign
 title: Charger le contenu de la diffusion
 description: Charger le contenu de la diffusion
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
-source-git-commit: 81d12ac055536fbe097466ad737bf7fee1b593ad
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '345'
 ht-degree: 96%
 
 ---

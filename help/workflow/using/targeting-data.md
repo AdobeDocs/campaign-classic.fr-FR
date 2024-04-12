@@ -2,13 +2,12 @@
 product: campaign
 title: Cibler les données
 description: En savoir plus sur le ciblage des données dans un workflow
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Query Editor, Data Management, Workflows
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '2033'
-ht-degree: 81%
+source-wordcount: '2026'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +33,7 @@ Le lien **[!UICONTROL Editer les données additionnelles...]** permet de visuali
 
 ![](assets/wf_add_data_edit_link.png)
 
-Pour ajouter des données aux colonnes de sortie définies précédemment, sélectionnez-les dans la liste des champs disponibles. Pour créer une colonne de sortie, cliquez sur le bouton **[!UICONTROL Ajouter]** puis sélectionnez le champ et cliquez sur **[!UICONTROL Expression d’édition]**.
+Pour ajouter des données aux colonnes de sortie définies précédemment, sélectionnez-les dans la liste des champs disponibles. Pour créer une colonne de sortie, cliquez sur l’icône **[!UICONTROL Ajouter]**, puis sélectionnez le champ et cliquez sur **[!UICONTROL Modifier une expression]**.
 
 ![](assets/query_add_an_output_column.png)
 
@@ -48,13 +47,13 @@ L&#39;option **[!UICONTROL Ajouter un sous-élément]** permet d&#39;adjoindre d
 
 Les sous-éléments seront représentés en sous-arborescence de la collection à laquelle ils sont associés.
 
-Les collections s’affichent dans la **[!UICONTROL Collections]** sous-onglet. Vous pouvez filtrer les éléments collectés en cliquant sur le **[!UICONTROL Détail]** de la collection sélectionnée. L&#39;assistant de filtrage permet de sélectionner les données collectées et de définir les conditions de filtrage à appliquer aux données de la collection.
+Les collections s’affichent dans le sous-onglet **[!UICONTROL Collections]**. Vous pouvez filtrer les éléments collectés en cliquant sur l’icône **[!UICONTROL Détail]** de la collection sélectionnée. L’assistant de filtrage permet de sélectionner les données collectées et de définir les conditions de filtrage à appliquer aux données de la collection.
 
 ![](assets/query_add_columns_collection.png)
 
 ### Affinage de la cible en utilisant les données additionnelles {#refining-the-target-using-additional-data}
 
-Les données additionnelles collectées peuvent permettre d&#39;affiner le filtrage des données de la base. Pour ce faire, cliquez sur le bouton **[!UICONTROL Affiner la cible en utilisant les données additionnelles...]** lien : permet de surfiltrer les données ajoutées.
+Les données supplémentaires collectées peuvent permettre d’affiner le filtrage des données de la base. Pour ce faire, cliquez sur le lien **[!UICONTROL Affiner la cible en utilisant les données supplémentaires...]** pour surfiltrer les données ajoutées.
 
 ![](assets/wf_add_data_use_additional_data.png)
 
@@ -72,9 +71,9 @@ Lors des phases de réconciliation des données (dans les activités **[!UICONTR
 
 ### Création de sous-ensembles {#creating-subsets}
 
-L&#39;activité de **[!UICONTROL Partage]** permet de créer des sous-ensembles sur des critères définis au travers de requêtes d&#39;extraction. Pour chaque sous-ensemble, lorsque vous éditez une condition de filtrage sur la population, vous accédez à l&#39;activité de requête standard et pouvez ainsi définir les conditions de segmentation de la cible.
+L&#39;activité de **[!UICONTROL Partage]** permet de créer des sous-ensembles sur des critères définis au travers de requêtes d’extraction. Pour chaque sous-ensemble, lorsque vous modifiez une condition de filtrage sur la population, vous accédez à l’activité de requête standard et pouvez ainsi définir les conditions de segmentation de la cible.
 
-Vous pouvez diviser une cible en plusieurs sous-ensembles en utilisant uniquement les données additionnelles comme conditions de filtrage, ou en complément des données de la cible. Vous pouvez également utiliser des données externes si vous avez acheté la variable **Federated Data Access** .
+Vous pouvez diviser une cible en plusieurs sous-ensembles en utilisant uniquement les données supplémentaires comme conditions de filtrage, ou en complément des données de la cible. Vous pouvez également utiliser des données externes si vous avez acheté l’option **Federated Data Access**.
 
 Pour plus d’informations, voir la section [Création de sous-ensembles à l’aide de l’activité Partage](#creating-subsets-using-the-split-activity).
 
@@ -130,9 +129,9 @@ L’activité d’intersection est présentée dans la section [Intersection](in
 
 ### Exclusion dʼune population (Exclusion) {#excluding-a-population--exclusion-}
 
-L&#39;activité d&#39;exclusion permet d&#39;exclure d&#39;une population cible les éléments d&#39;une autre cible. La dimension de ciblage en sortie de cette activité sera celle de l&#39;ensemble principal.
+L’activité d’exclusion permet d’exclure d’une population cible les éléments d’une autre cible. La dimension de ciblage en sortie de cette activité sera celle de l’ensemble principal.
 
-Au besoin, il est possible de manipuler les tables entrantes. En effet, pour exclure une cible d&#39;une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur **[!UICONTROL Ajouter]** et indiquez les conditions de changement de dimension.
+Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter]** et indiquez les conditions de modification des dimensions.
 
 La réconciliation entre les données se fait au choix par identifiant, changement d&#39;axe ou jointure. Un exemple est disponible dans la section [Utiliser les données d’une liste : Lecture de Liste](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
 
@@ -164,7 +163,7 @@ Pour la configurer, vous devez d&#39;abord sélectionner des critères :
 
    Vous pouvez également associer un code segment au sous-ensemble afin de l&#39;identifier et l&#39;utiliser pour cibler la population de ce sous-ensemble.
 
-   Au besoin, vous pouvez modifier les dimensions de ciblage et de filtrage individuellement pour chaque sous-ensemble que vous souhaitez créer. Pour ce faire, modifiez la condition de filtrage du sous-ensemble et cochez la case **[!UICONTROL Utiliser une dimension de filtrage spécifique]** .
+   Au besoin, vous pouvez modifier les dimensions de ciblage et de filtrage individuellement pour chaque sous-ensemble à créer. Pour ce faire, modifiez la condition de filtrage du sous-ensemble et cochez la case **[!UICONTROL Utiliser une dimension de filtrage spécifique]**.
 
    ![](assets/split-subset-config-specific-filtering.png)
 
@@ -192,7 +191,7 @@ Nous devons ensuite ajouter de nouveaux sous-ensembles :
 
    ![](assets/wf_split_edit_filtering.png)
 
-1. Au besoin, vous pouvez modifier individuellement la dimension de filtrage de chaque sous-ensemble. Vous pouvez ainsi créer un ensemble pour tous les titulaires de la carte Gold, un pour tous les destinataires ayant cliqué dans la dernière newsletter et un troisième pour les personnes âgées de 18 à 25 ans qui ont effectué un achat en magasin au cours des 30 derniers jours, en utilisant tous la même activité de partage. Pour ce faire, sélectionnez l’option **[!UICONTROL Utiliser une dimension de filtrage spécifique]** et sélectionnez le contexte de filtrage des données.
+1. Au besoin, vous pouvez modifier la dimension de filtrage individuellement pour chaque sous-ensemble. Ainsi, vous pouvez, à partir de la même activité de partage, construire un ensemble avec toutes les personnes titulaires d’un contrat Gold, un autre avec toutes les personnes destinataires ayant cliqué dans la dernière newsletter et un troisième regroupant les personnes de 18 à 25 ans ayant effectué un achat en magasin dans les 30 derniers jours. Pour ce faire, sélectionnez l’option **[!UICONTROL Utiliser une dimension de filtrage spécifique]** et sélectionnez le contexte de filtrage des données.
 
    ![](assets/wf_split_change_dimension.png)
 
@@ -204,7 +203,7 @@ Une fois les sous-ensembles créés, par défaut, l&#39;activité de partage pro
 
 ![](assets/wf_split_multi_outputs.png)
 
-Vous pouvez regrouper tous ces sous-ensembles dans une seule transition de sortie. Dans ce cas, le lien vers les sous-ensembles respectifs sera visible dans le code segment, par exemple. Pour ce faire, sélectionnez l’option **[!UICONTROL Générer tous les sous-ensembles dans la même table]** .
+Vous pouvez regrouper tous ces sous-ensembles dans une seule transition de sortie. Dans ce cas, le lien vers les sous-ensembles respectifs sera visible dans le code segment, par exemple. Pour ce faire, sélectionnez l’option **[!UICONTROL Générer tous les sous-ensembles dans le même tableau]**.
 
 ![](assets/wf_split_select_option_single_output.png)
 

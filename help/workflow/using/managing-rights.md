@@ -2,13 +2,12 @@
 product: campaign
 title: Gestion des autorisations relatives aux workflows
 description: Découvrez comment gérer les autorisations relatives aux workflows
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 76%
+source-wordcount: '336'
+ht-degree: 75%
 
 ---
 

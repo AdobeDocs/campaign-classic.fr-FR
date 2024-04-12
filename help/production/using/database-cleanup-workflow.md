@@ -3,14 +3,13 @@ product: campaign
 title: Workflow de nettoyage de la base de données
 description: Découvrez comment les données obsolètes sont automatiquement nettoyées
 feature: Monitoring, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 624978901943b4c74f50c20298c9596f73b25b1b
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '2921'
+source-wordcount: '2914'
 ht-degree: 92%
 
 ---

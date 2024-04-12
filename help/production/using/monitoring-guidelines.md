@@ -3,11 +3,10 @@ product: campaign
 title: Instructions de surveillance
 description: Découvrez les instructions et les bonnes pratiques pour surveiller les instances et les processus Campaign.
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '744'
 ht-degree: 100%
 
 ---

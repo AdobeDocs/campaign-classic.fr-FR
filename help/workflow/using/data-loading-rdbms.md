@@ -2,13 +2,12 @@
 product: campaign
 title: Chargement (SGBD)
 description: En savoir plus sur l’activité de workflow de chargement (SGBD)
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Data Management Activity
 exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 66%
+source-wordcount: '203'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +25,7 @@ Le principe de fonctionnement est le suivant :
 
    ![](assets/s_advuser_wf_sgbd_sample_1.png)
 
-   Le nom de la table renseignée dans le champ correspondant sert de modèle pour collecter les données dans la base externe. Le nom de la table traitée par le workflow peut être calculé ou véhiculé par la transition entrante de l&#39;activité de chargement de données. Pour sélectionner le tableau à utiliser, cliquez sur le bouton **[!UICONTROL Avancé..]**. et sélectionnez l’option **[!UICONTROL Spécifié par la transition]** ou **[!UICONTROL Explicite]**.
+   Le nom de la table saisi dans le champ correspondant sert de modèle pour collecter les données dans la base externe. Le nom de la table qui sera effectivement traitée par le workflow peut être calculé ou véhiculé par la transition entrante de l’activité de chargement. Pour sélectionner la table à utiliser, cliquez sur le lien **[!UICONTROL Avancé..]**. et sélectionnez l’option **[!UICONTROL Spécifié par la transition]** ou **[!UICONTROL Explicite]**.
 
    ![](assets/s_advuser_wf_sgbd_sample_5.png)
 
@@ -34,6 +33,6 @@ Le principe de fonctionnement est le suivant :
 
    ![](assets/s_advuser_wf_sgbd_sample_2.png)
 
-1. Vous pouvez définir un filtre sur ces données. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modifier la requête....]** lien.
+1. Vous pouvez définir un filtre sur ces données. Pour ce faire, cliquez sur le lien **[!UICONTROL Modifier la requête...]**
 
    Les données ainsi collectées peuvent être utilisées tout au long du cycle de vie du workflow.

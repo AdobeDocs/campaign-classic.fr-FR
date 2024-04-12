@@ -2,12 +2,11 @@
 product: campaign
 title: À propos des activités d’ordonnancement
 description: À propos des activités d’ordonnancement
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '234'
 ht-degree: 100%
 
 ---

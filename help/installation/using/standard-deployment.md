@@ -3,14 +3,13 @@ product: campaign
 title: Déploiement Standard
 description: Déploiement Standard
 feature: Installation, Architecture, Deployment
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '836'
 ht-degree: 100%
 
 ---

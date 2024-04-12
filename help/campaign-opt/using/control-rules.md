@@ -3,12 +3,11 @@ product: campaign
 title: Règles de contrôle
 description: Découvrez comment utiliser les règles de contrôle dans Adobe Campaign
 role: User, Data Engineer
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Typology Rules, Campaigns
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '393'
 ht-degree: 89%
 
 ---

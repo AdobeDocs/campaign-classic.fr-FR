@@ -4,12 +4,11 @@ title: Gestion des clés dans les schémas de données
 description: Présentation de la gestion des clés dans les schémas de données
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
-source-git-commit: 46dcd80d5adc31a66b47c6d75e7914b0a686326b
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 72%
+source-wordcount: '618'
+ht-degree: 80%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 72%
 
 Chaque table associée à un schéma de données doit posséder au moins une clé pour identifier un enregistrement dans une table.
 
-Une clé est déclarée à partir de l&#39;élément principal du schéma de données.
+Une clé est déclarée à partir de l’élément principal du schéma de données.
 
 ```sql
 <key name="name_of_key">
@@ -27,7 +26,7 @@ Une clé est déclarée à partir de l&#39;élément principal du schéma de don
 </key>
 ```
 
-Une clé est dite &quot;clé primaire&quot; lorsqu’elle est renseignée en premier dans le schéma, ou si elle contient la variable `internal` est défini sur &quot;true&quot;.
+Une clé est dite primaire lorsqu’elle est renseignée en premier dans le schéma ou si elle contient l’attribut `internal` avec la valeur « true ».
 
 Les règles suivantes s’appliquent aux clés :
 

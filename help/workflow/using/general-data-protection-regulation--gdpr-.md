@@ -2,11 +2,10 @@
 product: campaign
 title: Workflows relatifs au règlement sur la protection des informations personnelles
 description: En savoir plus sur les workflows relatifs au règlement sur la protection des informations personnelles
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Privacy
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '104'
 ht-degree: 100%
 
 ---

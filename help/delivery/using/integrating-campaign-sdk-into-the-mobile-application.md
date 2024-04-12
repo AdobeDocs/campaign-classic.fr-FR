@@ -2,13 +2,12 @@
 product: campaign
 title: Intégration du SDK Campaign
 description: Découvrez comment intégrer le SDK Campaign à votre application mobile
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '988'
 ht-degree: 87%
 
 ---

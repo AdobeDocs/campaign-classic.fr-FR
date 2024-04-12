@@ -2,15 +2,14 @@
 product: campaign
 title: À propos des connecteurs
 description: À propos des connecteurs
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 66%
+source-wordcount: '193'
+ht-degree: 65%
 
 ---
 
@@ -23,7 +22,7 @@ Adobe Campaign fournit plusieurs connecteurs qui vous permettent de communiquer
 Les connecteurs disponibles sont répertoriés ci-dessous :
 
 * FDA Connector (**Federated Data Access**) vous permet de connecter Campaign à une ou plusieurs bases de données externes et de traiter les informations stockées dans celles-ci sans affecter vos données Campaign. [En savoir plus](../../installation/using/about-fda.md).
-* Les connecteurs CRM permettent d&#39;échanger des données entre Adobe Campaign et votre solution CRM à l&#39;aide d&#39;activités de workflow dédiées. [En savoir plus](../../platform/using/crm-connectors.md).
+* Les connecteurs CRM permettent d&#39;exchange des données entre Adobe Campaign et votre solution CRM à l&#39;aide d&#39;activités de workflow dédiées. [En savoir plus](../../platform/using/crm-connectors.md).
 * Analytics Connectors vous permet de partager des données entre Adobe Campaign et Adobe Analytics. [En savoir plus](../../platform/using/gs-aa.md).
 
 Vous pouvez également intégrer Campaign à plusieurs autres systèmes, tels que :

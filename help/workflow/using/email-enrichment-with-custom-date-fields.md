@@ -2,12 +2,11 @@
 product: campaign
 title: Enrichissement des emails avec des champs de date personnalisés
 description: Découvrez comment enrichir les emails avec des champs de date personnalisés
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '631'
 ht-degree: 82%
 
 ---
@@ -81,7 +80,7 @@ Vous devez maintenant paramétrer votre activité **[!UICONTROL Enrichissement]*
 
    ![](assets/uc_enrichment_12.png)
 
-1. Cliquez sur **[!UICONTROL Ok]**. Votre enrichissement est maintenant prêt.
+1. Cliquez sur **[!UICONTROL OK]**. Votre enrichissement est maintenant prêt.
 
 Après votre activité **[!UICONTROL Enrichissement]**, vous pouvez ajouter une diffusion. Dans ce cas, nous avons ajouté une diffusion par email pour envoyer une offre spéciale avec des dates de validité aux clients célébrant leur anniversaire ce mois-ci.
 

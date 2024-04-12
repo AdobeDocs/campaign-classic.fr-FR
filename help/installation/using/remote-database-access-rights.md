@@ -3,14 +3,13 @@ product: campaign
 title: Autorisations d’accès à une base de données externe
 description: Autorisations d’accès aux bases de données externes
 feature: Installation, Instance Settings, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '986'
 ht-degree: 100%
 
 ---

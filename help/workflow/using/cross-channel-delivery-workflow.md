@@ -2,12 +2,11 @@
 product: campaign
 title: Workflow de diffusion cross-canal
 description: En savoir plus sur les workflows de diffusion cross-canal
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Channels Activity
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '762'
 ht-degree: 72%
 
 ---

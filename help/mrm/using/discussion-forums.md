@@ -3,14 +3,13 @@ product: campaign
 title: Forums de discussion
 description: Découvrez comment utiliser les forums de discussion de Campaign
 feature: Resource Management
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '804'
 ht-degree: 87%
 
 ---

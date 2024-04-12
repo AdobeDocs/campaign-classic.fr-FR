@@ -3,15 +3,14 @@ product: campaign
 title: Editer un profil
 description: Editer un profil
 feature: Profiles
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 82%
+source-wordcount: '487'
+ht-degree: 81%
 
 ---
 

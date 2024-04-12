@@ -1,14 +1,13 @@
 ---
 product: campaign
 title: Nouvel assistant d’ajout de champs
-description: Nouvel assistant d’ajout de champs
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+description: Assistant d'ajout de champs
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '206'
 ht-degree: 100%
 
 ---

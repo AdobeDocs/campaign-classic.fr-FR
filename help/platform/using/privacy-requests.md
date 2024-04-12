@@ -3,14 +3,13 @@ product: campaign
 title: Gérer les demandes d'accès à des informations personnelles
 description: En savoir plus sur les demandes d'accès à des informations personnelles
 feature: Privacy, Privacy Tools
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '531'
 ht-degree: 100%
 
 ---

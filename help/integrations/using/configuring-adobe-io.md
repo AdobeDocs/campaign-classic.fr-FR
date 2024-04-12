@@ -3,16 +3,15 @@ product: campaign
 title: Configuration d’Adobe I/O pour les Triggers Adobe Experience Cloud
 description: Découvrez comment configurer Adobe I/O pour les Triggers Adobe Experience Cloud
 feature: Triggers
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 audience: integrations
 content-type: reference
 index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '794'
 ht-degree: 100%
 
 ---

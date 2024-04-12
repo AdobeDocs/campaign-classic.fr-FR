@@ -2,12 +2,11 @@
 product: campaign
 title: Exclusion
 description: En savoir plus sur l’activité de workflow d’exclusion
-badge-v7-only: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Workflows, Targeting Activity
 exl-id: f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '367'
 ht-degree: 89%
 
 ---
