@@ -4,10 +4,10 @@ title: Téléchargement Web
 description: En savoir plus sur l'activité de workflow de téléchargement Web
 feature: Workflows
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: a0c0c7d13704b0155004e578d6739852ceb43c81
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 82%
+source-wordcount: '538'
+ht-degree: 68%
 
 ---
 
@@ -58,6 +58,10 @@ L&#39;activité de type **Téléchargement Web** permet de lancer le télécharg
 1. **Paramètres avancés**
 
    Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;indiquer les options supplémentaires ci-dessous :
+
+   * **[!UICONTROL Suivez les redirections]**: la redirection de fichier permet d&#39;utiliser des remplacements pour diriger la saisie ou la sortie de données vers un appareil d&#39;un autre type.
+   * **[!UICONTROL Ajout des en-têtes HTTP au fichier]**: dans certains cas, vous pouvez ajouter des en-têtes HTTP supplémentaires à un fichier. Le plus souvent, ces en-têtes seront utilisés pour fournir des informations supplémentaires à des fins de dépannage, pour les [Partage des ressources cross-origin (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS)ou pour définir des directives de mise en cache spécifiques.
+   * **[!UICONTROL Ignorer le code de retour HTTP]**: les codes retour HTTP, également appelés codes d’état HTTP, indiquent le résultat d’une requête HTTP.
 
    ![](assets/download_web_edit_advanced.png)
 
