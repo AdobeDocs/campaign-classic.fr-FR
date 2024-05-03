@@ -4,10 +4,10 @@ description: Découvrez comment migrer les opérateurs et opératrices technique
 feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
-source-git-commit: c63fea4d400440005ecf3733413c346bd4a2fd18
+source-git-commit: c8ff250c1e4013d4c8271a3a388ddbabcfaeea38
 workflow-type: tm+mt
 source-wordcount: '1748'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -166,7 +166,7 @@ Pour tester la connexion, procédez comme décrit dans le [guide des information
 
 ### Étape 8 : mettre à jour les intégrations d’API tierces {#ims-migration-step-8}
 
-Vous devez maintenant mettre à jour les intégrations d’API qui effectuent des appels dans Adobe Campaign pour utiliser le compte technique nouvellement créé.
+Vous devez maintenant mettre à jour toutes les intégrations d’API qui appellent dans Adobe Campaign pour utiliser le compte technique nouvellement créé.
 
 Pour plus d’informations sur les étapes d’intégration de l’API, reportez-vous aux exemples de code ci-dessous.
 
