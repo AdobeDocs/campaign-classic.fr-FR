@@ -2,14 +2,14 @@
 product: campaign
 title: Formulaires de saisie
 description: Découvrez comment utiliser les formulaires de saisie dans Campaign
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Data Management
 role: User, Developer
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

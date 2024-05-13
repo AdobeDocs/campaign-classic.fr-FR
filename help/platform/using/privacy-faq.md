@@ -3,15 +3,15 @@ product: campaign
 title: Questions fréquentes sur la confidentialité et le consentement
 description: Questions fréquentes sur la confidentialité et le consentement
 feature: Privacy, Privacy Tools
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

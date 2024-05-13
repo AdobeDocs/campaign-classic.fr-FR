@@ -3,15 +3,15 @@ product: campaign
 title: Création de modèles d'import et d'export
 description: Découvrez comment créer des modèles d'import et d'export dans Campaign.
 feature: Templates
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1180e664-5ead-4d5d-b1c3-6fe397c1f3a2
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

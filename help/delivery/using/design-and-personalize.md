@@ -2,14 +2,14 @@
 product: campaign
 title: Créer du contenu personnalisé
 description: Découvrez comment créer du contenu personnalisé dans les diffusions Adobe Campaign
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Email Design, Personalization
 role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1304'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Incluez toujours un lien de page miroir. La partie supérieure de l&#39;e-mail c
 
 ### Lien de désabonnement
 
-Le lien de désabonnement est indispensable. Il doit être visible, valide et le formulaire fonctionnel. Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie si un lien de désinscription a été inclus et génère un avertissement en cas d’absence.
+Le lien de désabonnement est indispensable. Il doit être visible, valide et le formulaire fonctionnel. Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse qu’un lien d’exclusion est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence.
 
 **Conseil** : comme une erreur humaine est toujours possible, vérifiez du début à la fin le bon fonctionnement du lien de désabonnement avant chaque envoi. Par exemple, lors de l&#39;envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que la valeur du champ Ne plus contacter cette personne est changée en Oui.
 

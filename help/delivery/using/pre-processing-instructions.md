@@ -2,14 +2,14 @@
 product: campaign
 title: Instructions de pré-traitement pour les URL trackées
 description: Découvrez les instructions de pré-traitement à utiliser pour écrire le script de l’URL d’un e-mail et pour que l’URL soit toujours trackée
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Monitoring
 role: User, Data Engineer, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

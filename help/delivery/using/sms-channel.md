@@ -2,14 +2,14 @@
 product: campaign
 title: Prise en main du canal SMS
 description: Prise en main du canal SMS
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: SMS
 role: User
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

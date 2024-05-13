@@ -3,14 +3,14 @@ product: campaign
 title: Configuration du pipeline
 description: Découvrez comment configurer le pipeline
 feature: Triggers
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '928'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ La liste des paramètres facultatifs se trouve ci-dessous :
 
 | Option | Description |
 |:-:|:-:|
-| appName(hérité) | AppID de l&#39;application OAuth enregistrée dans l&#39;application Legacy Oath où la clé publique a été chargée. Voir à ce propos [cette page](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) |
+| appName (hérité) | AppID de l&#39;application OAuth enregistrée dans l&#39;application Legacy Oath où la clé publique a été chargée. Voir à ce propos [cette page](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) |
 | authGatewayEndpoint(hérité) | URL permettant d&#39;obtenir des jetons de passerelle. Par défaut: ```https://api.omniture.com``` |
 | authPrivateKey(hérité) | La clé privée, la partie publique téléchargée dans l&#39;application Legacy Oath, AES chiffré avec l&#39;option XtkKey : ```cryptString("PRIVATE_KEY")``` |
 | disableAuth(hérité) | La désactivation de l&#39;authentification, la connexion sans jetons de passerelle n&#39;est acceptée que par certains points d’entrée du pipeline de développement. |

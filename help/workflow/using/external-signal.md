@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow de signal externe
 feature: Workflows
 exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Lorsqu’une tâche « Signal externe » est activée, elle est suspendue ind�
 
 Reportez-vous à la documentation en ligne sur les appels SOAP pour plus d&#39;information sur la fonction PostEvent.
 
-Vous pouvez paramétrer cette activité afin de définir des événements en cas d&#39;absence de signal. Pour cela, éditez l&#39;activité et cliquez sur le bouton **[!UICONTROL Expiration]** . Cliquez sur le bouton **[!UICONTROL Insérer]** pour créer et configurer un événement.
+Vous pouvez configurer cette activité afin de définir des événements en cas d’absence de signal. Pour cela, modifiez l’activité et cliquez sur l’onglet **[!UICONTROL Expiration]**. Cliquez sur le bouton **[!UICONTROL Insérer]** pour créer et configurer un événement.
 
 ![](assets/edit_signal.png)
 

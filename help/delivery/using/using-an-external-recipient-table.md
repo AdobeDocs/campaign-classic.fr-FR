@@ -1,22 +1,22 @@
 ---
 product: campaign
-title: Utiliser une table de destinataires externe
-description: Utiliser une table de destinataires externe
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+title: Utiliser une table de personnes destinataires externe
+description: Utiliser une table de personnes destinataires externe
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Audiences
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# Utiliser une table de destinataires externe{#using-an-external-recipient-table}
+# Utiliser une table de personnes destinataires externe{#using-an-external-recipient-table}
 
 
 
-Si le tableau des diffusions est un tableau externe, vous devrez effectuer des configurations supplémentaires. Le schéma **[!UICONTROL nms:seedmember]** doit être étendu. Un onglet est ajouté au niveau des adresses de contrôle afin de définir les champs adéquats, comme dans l&#39;exemple ci-dessous :
+Si le tableau des diffusions est un tableau externe, vous devrez effectuer des configurations supplémentaires. Le schéma **[!UICONTROL nms:seedmember]** doit être étendu. Un onglet est ajouté aux adresses de contrôle afin de définir les champs adéquats, comme indiqué ci-dessous :
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 

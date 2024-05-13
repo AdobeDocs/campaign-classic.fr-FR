@@ -2,14 +2,14 @@
 product: campaign
 title: Accéder aux logs de tracking
 description: Accéder aux logs de tracking
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Monitoring
 role: User
 exl-id: df494786-5950-4646-aa9c-4dde45845057
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '102'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -27,4 +27,4 @@ Elles sont également accessibles depuis l&#39;onglet **[!UICONTROL Tracking]** 
 
 >[!NOTE]
 >
->Si vous ne pouvez pas voir la variable **[!UICONTROL Tracking]** d&#39;une diffusion, cela signifie que le tracking n&#39;a pas été activé. Consultez [cette section](how-to-configure-tracked-links.md).
+>Si l’onglet **[!UICONTROL Tracking]** d’une diffusion n’est pas visible, cela signifie que le tracking n’a pas été activé. Consultez [cette section](how-to-configure-tracked-links.md).

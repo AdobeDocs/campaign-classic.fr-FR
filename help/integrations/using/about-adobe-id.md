@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Les utilisateurs et utilisatrices de Campaign peuvent se connecter à la console
 
 >[!IMPORTANT]
 >
-> Notez que dans Campaign v8, la connexion avec l’utilisateur/mot de passe (ou authentification native) n’est pas autorisée. **Adobe recommande d’effectuer cette migration dans Campaign v7.3.5 afin de pouvoir migrer en douceur vers Campaign v8.**
+> Notez que dans Campaign v8, la connexion par nom d’utilisateur ou d’utilisatrice et mot de passe (ou authentification native) n’est plus autorisée. **Adobe recommande d’effectuer cette migration dans Campaign v7.3.5 afin de pouvoir migrer en douceur vers Campaign v8.**
 
 
 <!--

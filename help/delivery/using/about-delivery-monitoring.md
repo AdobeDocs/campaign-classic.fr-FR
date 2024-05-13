@@ -2,14 +2,14 @@
 product: campaign
 title: Prise en main de la surveillance des diffusions
 description: Découvrez les fonctionnalités de surveillance des diffusions dans Campaign Classic
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

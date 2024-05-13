@@ -2,13 +2,13 @@
 product: campaign
 title: Définition d’un contenu conditionnel
 description: Définition d’un contenu conditionnel
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

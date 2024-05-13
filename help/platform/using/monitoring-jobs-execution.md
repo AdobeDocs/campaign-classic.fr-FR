@@ -3,15 +3,15 @@ product: campaign
 title: Surveillance de l'exécution des traitements
 description: Découvrez comment surveiller l'exécution des traitements d'import et d'export.
 feature: Monitoring
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Chaque statut est représenté par une icône et un libellé spéciaux. Les stat
 
 * **En pause**
 
-  Cliquez sur **[!UICONTROL Pause]**: la tâche est suspendue. Il peut être redémarré en cliquant sur **[!UICONTROL Début]**.
+  Clic sur le bouton **[!UICONTROL Pause]** : le traitement est suspendu. Il peut être redémarré en cliquant sur **[!UICONTROL Démarrer]**.
 
 * **Terminé**
 

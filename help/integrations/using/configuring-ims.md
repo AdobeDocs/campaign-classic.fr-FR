@@ -3,15 +3,15 @@ product: campaign
 title: Paramétrer IMS
 description: Découvrez comment vous connecter via un Adobe ID
 feature: Configuration
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

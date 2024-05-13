@@ -3,15 +3,15 @@ product: campaign
 title: Utilisation d’Adobe Campaign et Adobe Target
 description: Découvrez comment intégrer Adobe Campaign à Adobe Target
 feature: Target Integration
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

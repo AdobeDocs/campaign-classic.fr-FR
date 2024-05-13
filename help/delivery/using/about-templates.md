@@ -2,14 +2,14 @@
 product: campaign
 title: À propos des modèles
 description: Prise en main des modèles de diffusion
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Delivery Templates
 role: User
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

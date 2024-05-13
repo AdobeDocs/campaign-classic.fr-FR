@@ -2,15 +2,15 @@
 product: campaign
 title: Approvisionnement du connecteur Adobe Analytics
 description: En savoir plus sur l'approvisionnement du connecteur Adobe Analytics.
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides v7"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements On-Premise et hybrides."
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Pour en savoir plus sur les profils produit, consultez la [documentation relativ
 
 1. Pour les fonctionnalités liées aux **[!UICONTROL Dimensions]**, ajoutez les **[!UICONTROL Dimensions]** nécessaires pour la configuration ultérieure.
 
-   Assurez-vous que les Dimensions sélectionnées correspondent à celles à configurer dans le compte externe et alignez-les avec le nombre d’eVars correspondant provenant d’Adobe Analytics.
+   Assurez-vous que les Dimensions sélectionnées correspondent à celles à configurer dans le compte externe et coïncident avec le nombre d’eVars correspondant d’Adobe Analytics.
 
 1. Pour la fonctionnalité **[!UICONTROL Outils de suites de rapports]**, ajoutez les autorisations suivantes :
 

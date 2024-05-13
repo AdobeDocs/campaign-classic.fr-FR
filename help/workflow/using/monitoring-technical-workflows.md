@@ -5,9 +5,9 @@ description: Surveiller les workflows techniques
 feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Pour comprendre la fonction de chaque workflow technique, consultez cette [secti
 
 Pour le **[!UICONTROL Workflow de Nettoyage de la base (&#39;cleanup&#39;)]** :
 
-1. Vérifiez que la variable **[!UICONTROL Nettoyage de la base]** le workflow s’exécute et se termine correctement tous les jours. Voir à ce sujet la section [page](../../production/using/database-cleanup-workflow.md).
+1. Vérifiez que le workflow de **[!UICONTROL Nettoyage de la base]** s’exécute et se termine correctement tous les jours. Pour plus d’informations, consultez [cette page](../../production/using/database-cleanup-workflow.md).
 1. Allez voir le journal des logs pour vérifier que le temps écoulé reste relativement constant et n’affecte pas d’autres workflows.
 
 Pour le **[!UICONTROL Workflow de tracking (&#39;tracking&#39;)]** :

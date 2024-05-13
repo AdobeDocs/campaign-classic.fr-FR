@@ -2,14 +2,14 @@
 product: campaign
 title: Surveiller la délivrabilité dans Adobe Campaign
 description: Découvrez les outils et les instructions concernant la surveillance de la délivrabilité dans Adobe Campaign.
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Deliverability
 role: User, Admin
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

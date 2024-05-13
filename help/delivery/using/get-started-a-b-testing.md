@@ -2,14 +2,14 @@
 product: campaign
 title: Commencer avec les tests AB
 description: En savoir plus sur les tests AB dans Campaign
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: A/B Testing
 role: User
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

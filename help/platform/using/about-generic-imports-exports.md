@@ -2,15 +2,15 @@
 product: campaign
 title: À propos des imports et exports génériques
 description: En savoir plus sur les imports et exports génériques
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

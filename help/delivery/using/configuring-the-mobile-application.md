@@ -6,9 +6,9 @@ feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Dans l’exemple suivant, nous ajoutons **mediaURl** et **mediaExt** pour créer
 
 1. Sélectionnez l&#39;une des icônes d’usine dans le champ **[!UICONTROL Icône de l&#39;application]** pour personnaliser l&#39;application mobile dans votre service.
 
-1. Sélectionnez la variable **[!UICONTROL Mode d’authentification]**.
+1. Sélectionnez le **[!UICONTROL mode d’authentification]**.
 
    ![](assets/nmac_ios_5.png)
 
@@ -114,7 +114,7 @@ Dans l’exemple suivant, nous ajoutons **mediaURl** et **mediaExt** pour créer
 
    >[!NOTE]
    >
-   > Adobe recommande d’utiliser **[!UICONTROL Authentification basée sur les jetons]** pour votre configuration iOS depuis l&#39;authentification P8, les clés sont plus récentes et plus sécurisées.
+   > Adobe recommande d’utiliser l’**[!UICONTROL Authentification basée sur les jetons]** pour votre configuration iOS, car les clés d’authentification P8 sont plus récentes et sécurisées.
 
 1. Utilisez le bouton **[!UICONTROL Tester la connexion]** pour valider votre configuration.
 

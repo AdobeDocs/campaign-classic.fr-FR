@@ -2,14 +2,14 @@
 product: campaign
 title: Définition de lʼaudience appropriée
 description: Découvrez les bonnes pratiques lors de la sélection de votre audience
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Audiences
 role: User
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

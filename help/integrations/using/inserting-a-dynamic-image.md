@@ -3,15 +3,15 @@ product: campaign
 title: Insertion d’une image dynamique
 description: Insertion d’une image dynamique
 feature: Target Integration
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '875'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Dans ce message, les images peuvent varier de façon dynamique en fonction des e
 Pour cela, les étapes sont les suivantes :
 
 1. [Insertion de l&#39;offre dynamique dans un e-mail](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
-1. [Création d&#39;offres de redirection](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
+1. [Créer des offres de redirection](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
 1. [Création d’audiences](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
 1. [Création d&#39;une activité de ciblage d&#39;expérience](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
 1. [Prévisualisation et envoi de l’e-mail](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
@@ -62,11 +62,11 @@ Dans Adobe Campaign, vous pouvez insérer une image dynamique de Target dans un
 * La **[!UICONTROL Landing Page]** : si vous souhaitez que l’image par défaut soit redirigée vers une landing page par défaut. Cette adresse URL ne s’applique qu’aux cas où l’image par défaut est affichée dans l’email final et est facultative.
 * Les **[!UICONTROL Paramètres de décision additionnels]** : associez les champs définis dans les segments d’Adobe Target et les champs d’Adobe Campaign. Les champs d’Adobe Campaign utilisés doivent avoir été spécifiés au niveau du « rawbox ». Dans notre exemple, nous avons ajouté le champ Pays.
 
-Dans Adobe Target, si vous utilisez les autorisations Enterprise, ajoutez la propriété correspondante dans ce champ. En savoir plus sur les autorisations de Target Enterprise dans [cette page](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=fr).
+Dans Adobe Target, si vous utilisez les autorisations Enterprise, ajoutez la propriété correspondante dans ce champ. Pour plus d’informations sur les autorisations Target Enterprise, consultez [cette page](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=fr).
 
 ![](assets/target_13.png)
 
-## Création d&#39;offres de redirection {#create-redirect-offers}
+## Créer des offres de redirection {#create-redirect-offers}
 
 Avec Target, vous pouvez créer différentes versions de votre offre. Selon chaque expérience utilisateur, vous pouvez créer une offre de redirection et spécifier l&#39;image qui sera affichée.
 

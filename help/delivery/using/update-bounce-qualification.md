@@ -2,13 +2,13 @@
 product: campaign
 title: Mise à jour de la qualification des rebonds après la panne d’Apple en 2021
 description: Découvrez comment mettre à jour la qualification des rebonds après la panne dʼApple en 2021.
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

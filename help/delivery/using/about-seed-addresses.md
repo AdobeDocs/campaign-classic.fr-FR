@@ -2,14 +2,14 @@
 product: campaign
 title: À propos des adresses de contrôle
 description: Prise en main des adresses de contrôle
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Seed Address
 role: User
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,5 +44,5 @@ Dans le cadre des diffusions courrier, les adresses de contrôle sont ajoutées 
 >Pour les diffusions courrier, le format du fichier d&#39;extraction doit respecter les limitations suivantes :
 >
 >* Il ne doit pas utiliser l&#39;option **[!UICONTROL Gérer les groupements (GROUP BY+HAVING)]**.
->* Si des collections d’éléments sont extraites, ces champs auront une valeur vide pour les adresses de contrôle, sauf si la variable **[!UICONTROL Ligne unique (utilisateur expert)]** est sélectionnée. Pour plus d’informations, consultez [cette section](../../platform/using/executing-export-jobs.md#step-7---data-formatting).
+>* Si des collections d’éléments sont extraites, ces champs auront une valeur vide pour les adresses de contrôle, sauf si l’option **[!UICONTROL Ligne unique (mode expert)]** est cochée. Pour plus d’informations, consultez [cette section](../../platform/using/executing-export-jobs.md#step-7---data-formatting).
 >

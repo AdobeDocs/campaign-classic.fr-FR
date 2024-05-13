@@ -2,14 +2,14 @@
 product: campaign
 title: Configuration du canal SMS de Campaign
 description: Découvrez comment configurer le canal SMS dans Campaign
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: SMS
 role: User, Developer, Admin
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1850'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Pour ce faire, procédez comme suit :
    >
    > À partir de la version 20.2, les anciens connecteurs sont abandonnés et ne sont plus pris en charge. Nous vous recommandons d’utiliser le connecteur **[!UICONTROL SMPP générique étendu]**. Pour plus d’informations sur la migration vers le connecteur recommandé, voir cette [page](unsupported-connector-migration.md).
 
-1. L’option **[!UICONTROL Activer les traces SMPP en mode verbeux dans le fichier de log]** permet de vider tout le trafic SMPP des fichiers journaux. Cette option doit être activée pour dépanner le connecteur et pour comparer le trafic affiché chez le fournisseur.
+1. L’option **[!UICONTROL Activer les traces SMPP en mode verbeux dans le fichier journal]** permet de vider tout le trafic SMPP des fichiers journaux. Cette option doit être activée pour dépanner le connecteur et pour comparer le trafic affiché chez le fournisseur.
 
 1. Adressez-vous à votre fournisseur de service SMS pour qu&#39;il vous explique comment renseigner dans l&#39;onglet **[!UICONTROL Paramètres de connexion]** les différents champs du compte externe.
 

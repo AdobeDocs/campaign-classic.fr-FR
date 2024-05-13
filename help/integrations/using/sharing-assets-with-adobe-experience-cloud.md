@@ -3,15 +3,15 @@ product: campaign
 title: Partage de ressources avec Adobe Experience Cloud
 description: Partage de ressources avec Adobe Experience Cloud
 feature: Asset Sharing
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: b28aa5a5-afba-458b-8a85-375493c6c836
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

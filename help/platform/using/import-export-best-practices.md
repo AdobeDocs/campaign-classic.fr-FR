@@ -3,15 +3,15 @@ product: campaign
 title: Bonnes pratiques en matière d'import et d'export
 description: En savoir plus sur les bonnes pratiques à suivre lors de l'import ou de l'export de données
 feature: Data Management
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

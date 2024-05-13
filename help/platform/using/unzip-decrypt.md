@@ -3,15 +3,15 @@ product: campaign
 title: Décompresser ou déchiffrer un fichier
 description: Découvrez comment décompresser ou déchiffrer un fichier dans Campaign avant de le traiter.
 feature: Workflows, Encryption
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -86,15 +86,15 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 1. Ouvrez l&#39;activité **[!UICONTROL Chargement (fichier)]**, puis configurez-la selon vos besoins. Les concepts généraux de paramétrage de l&#39;activité sont présentés dans [cette section](../../workflow/using/data-loading-file.md).
 
-   Ajoutez une étape de prétraitement à l’activité pour déchiffrer les données entrantes. Pour ce faire, sélectionnez l’option **[!UICONTROL Prétraiter le fichier]** , puis sélectionnez **[!UICONTROL Décrypter]** de la **[!UICONTROL Commande]** liste déroulante :
+   Ajoutez une étape de prétraitement à l’activité pour déchiffrer les données entrantes. Pour ce faire, sélectionnez l’option **[!UICONTROL Inclure un pré-traitement du fichier]**, puis sélectionnez **[!UICONTROL Déchiffrer]** de la liste déroulante **[!UICONTROL Commande]** :
 
    ![](assets/gpg_load.png)
 
    >[!NOTE]
    >
-   >Si des modifications sont nécessaires au niveau des commandes disponibles, vous pouvez accéder à [Adobe de l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour ajuster les paramètres preProcessCommand.
+   >Si des modifications sont nécessaires au niveau des commandes disponibles, vous pouvez accéder à [l’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour ajuster les paramètres preProcessCommand.
    >
-   >Si vous utilisez un déploiement hybride, vous pouvez configurer ces commandes directement à partir du fichier de configuration du serveur (serverConf.xml). [Découvrez comment configurer les commandes de prétraitement dans le fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md#preprocesscommand)
+   >Si vous utilisez un déploiement hybride, vous pouvez configurer ces commandes directement à partir du fichier de configuration du serveur (serverConf.xml). [Découvrir comment configurer les commandes de prétraitement dans le fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 1. Cliquez sur **[!UICONTROL OK]** pour valider la configuration de l&#39;activité.
 

@@ -3,15 +3,15 @@ product: campaign
 title: Compresser ou chiffrer un fichier
 description: Découvrez comment compresser ou chiffrer un fichier dans Campaign avant de le traiter.
 feature: Data Management, Encryption
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -3,15 +3,15 @@ product: campaign
 title: Règles de présentation
 description: Règles de présentation
 feature: Interaction, Offers
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

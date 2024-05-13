@@ -2,14 +2,14 @@
 product: campaign
 title: Création de diffusions LINE
 description: Découvrez comment créer des messages LINE
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Line App
 role: User
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1328'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -155,7 +155,7 @@ Une diffusion [!DNL LINE] de type **[!UICONTROL Message texte]** est un message 
 
 ![](assets/line_message_02.png)
 
-Le paramétrage de ce type de message est similaire à celui de la variable **[!UICONTROL Texte]** dans un email. Pour plus d’informations, consultez cette [page](defining-the-email-content.md#message-content).
+La configuration de ce type de message est similaire à la configuration du format **[!UICONTROL texte]** dans un e-mail. Pour plus d’informations, consultez cette [page](defining-the-email-content.md#message-content).
 
 ### Paramétrer une diffusion de type Image et lien {#configuring-an-image-and-link-delivery}
 

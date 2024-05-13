@@ -2,13 +2,13 @@
 product: campaign
 title: Rapports sur les diffusions
 description: Rapports sur les diffusions
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Les types de rapports disponibles sont les suivants :
 * Rapports de diffusion, voir la section [Rapports de diffusion](../../reporting/using/delivery-reports.md).
 * Rapports cumulés, voir la section [Rapports cumulés](../../reporting/using/cumulative-reports.md).
 
-Vous pouvez accéder aux rapports depuis la page d&#39;accueil de la console cliente, le tableau de bord des rapports ou la liste des diffusions. Le mode d&#39;affichage d&#39;un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d&#39;accueil et permet d&#39;accéder rapidement aux données de diffusion. Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
+Vous pouvez accéder aux rapports depuis la page d’accueil de la console cliente, le tableau de bord des rapports ou la liste des diffusions. Le mode d’affichage d’un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d’accueil et permet d’accéder rapidement aux données des diffusions. Cette liste peut être modifiée selon vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
 
 Un champ de recherche est disponible depuis le tableau de bord des rapports et vous permet d&#39;accéder plus rapidement à l&#39;un des rapports de la liste.

@@ -3,15 +3,15 @@ product: campaign
 title: Partage d'audiences avec Adobe Experience Cloud
 description: Partage d'audiences avec Adobe Experience Cloud
 feature: Audiences, People Core Service Integration
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Avec Adobe Campaign, vous pouvez partager des audiences et des segments avec le
 
 1. Intégrer **Adobe Campaign** à **People core service** (aussi appelé **Profiles &amp; Audiences core service**) ou Adobe Audience Manager. Vous pourrez alors :
 
-   * importer dans Adobe Campaign des audiences/segments provenant de différentes solutions d&#39;Adobe Experience Cloud. L&#39;import d&#39;audiences peut être réalisé depuis les listes dans Adobe Campaign.
+   * importer dans Adobe Campaign des audiences/segments provenant de différentes solutions d’Adobe Experience Cloud. L’import d’audiences peut être réalisé depuis les listes dans Adobe Campaign ;
 
-   * Exportez des listes sous la forme d’audiences partagées Adobe Experience Cloud. Ces audiences peuvent être utilisées dans les différentes solutions Adobe Experience Cloud que vous utilisez. L&#39;export d&#39;audiences peut être réalisé à la suite d&#39;un ciblage dans un workflow, à l&#39;aide d&#39;une activité dédiée **[!UICONTROL Mise à jour d&#39;audience partagée]**.
+   * exporter des listes sous la forme d’audiences partagées Adobe Experience Cloud. Ces audiences peuvent être exploitées dans les différentes solutions d’Adobe Experience Cloud que vous utilisez. L’export d’audiences peut être réalisé à la suite d’un ciblage dans un workflow, à l’aide d’une activité dédiée **[!UICONTROL Mise à jour d’audience partagée]**.
 
 L’intégration prend en charge deux types d’identifiants Adobe Experience Cloud :
 

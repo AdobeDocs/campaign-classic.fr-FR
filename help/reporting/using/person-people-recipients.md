@@ -2,13 +2,13 @@
 product: campaign
 title: Personnes et destinataires
 description: Personnes et destinataires
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

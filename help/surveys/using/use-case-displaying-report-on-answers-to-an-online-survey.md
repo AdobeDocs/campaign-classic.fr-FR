@@ -2,13 +2,13 @@
 product: campaign
 title: "Cas pratique\_: affichage d'un rapport sur les réponses à un questionnaire en ligne"
 description: "Cas pratique\_: affichage d'un rapport sur les réponses à un questionnaire en ligne"
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Avant de démarrer ce cas pratique, vous devez disposer d&#39;un questionnaire e
 
 Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
-1. Créez un workflow et placez un **[!UICONTROL Réponses à un questionnaire]** activité. L&#39;utilisation de cette activité est présentée dans la section [cette section](../../surveys/using/publish-track-and-use-collected-data.md#using-the-collected-data).
+1. Créez un workflow et positionnez une activité **[!UICONTROL Réponses à un questionnaire]**. Pour plus d’informations sur cette activité, consultez [cette section](../../surveys/using/publish-track-and-use-collected-data.md#using-the-collected-data).
 1. Editez l&#39;activité et sélectionnez le questionnaire dont vous souhaitez analyser les réponses.
 1. Activez l&#39;option **[!UICONTROL Sélectionner toutes les données des réponses]** afin de collecter toutes les informations.
 

@@ -2,13 +2,13 @@
 product: campaign
 title: Bonnes pratiques relatives à l'édition de contenu
 description: Bonnes pratiques relatives à l'édition de contenu
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ La section supérieure de l&#39;éditeur affiche les message liés à l&#39;éta
 * Le contenu HTML est fonctionnel.
 * L&#39;application Web n&#39;a pas été publiée, elle n&#39;est pas accessible en ligne.
 * L&#39;application Web est en ligne, toute modification nécessite une nouvelle publication.
-* Le contenu de la page n’est pas fonctionnel. Elle doit inclure un HTML (`<form>`)
+* Le contenu de la page n’est pas fonctionnel. Elle doit inclure un formulaire HTML (`<form>`).
 * Il reste n zone(s) de saisie ou boutons à configurer.
 * Pour permettre le passage à la page suivante, vous devez associer l&#39;action &#39;Page Suivante&#39; à un bouton ou un lien de la page courante.
 

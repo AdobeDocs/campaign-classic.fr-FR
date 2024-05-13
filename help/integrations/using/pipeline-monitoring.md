@@ -3,14 +3,14 @@ product: campaign
 title: Surveillance du pipeline
 description: Surveillance du pipeline
 feature: Triggers
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
 content-type: reference
 exl-id: 84399496-33fd-4936-85e7-32de8503740f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow de chargement (fichier
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1249'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,17 +27,17 @@ La section supérieure de la fenêtre de configuration de cette activité permet
 
 ![](assets/s_advuser_wf_etl_file.png)
 
-## Application de l’étape de prétraitement {#pre-processing}
+## Appliquer l’étape de pré-traitement {#pre-processing}
 
-Vous pouvez définir un pré-traitement à exécuter lors de l’import du fichier, par exemple pour ne pas avoir à décompresser le fichier sur le serveur (et donc réserver de la place pour le fichier décompressé), mais faire en sorte que la décompression soit incluse dans le traitement du fichier. [Découvrez comment décompresser ou déchiffrer un fichier avant traitement](../../platform/using/unzip-decrypt.md).
+Vous pouvez définir un pré-traitement à exécuter lors de l’import du fichier, par exemple pour ne pas avoir à décompresser le fichier sur le serveur (et donc réserver de la place pour le fichier décompressé), mais faire en sorte que la décompression soit incluse dans le traitement du fichier. [Découvrez comment décompresser ou déchiffrer un fichier avant de le traiter](../../platform/using/unzip-decrypt.md).
 
-Pour ce faire, sélectionnez la variable **[!UICONTROL Prétraiter le fichier]** et choisissez l’une des trois options suivantes : **[!UICONTROL Aucun]**, **[!UICONTROL Décompression]** (zcat) ou **[!UICONTROL Décrypter]** (gpg).
+Pour ce faire, sélectionnez l’option **[!UICONTROL Inclure un prétraitement du fichier]** et choisissez l’une des trois options suivantes : **[!UICONTROL Aucun]**, **[!UICONTROL Décompresser]** (zcat) ou **[!UICONTROL Déchiffrer]** (gpg).
 
 ![](assets/preprocessing-dataloading.png)
 
 >[!CAUTION]
 >
->Si vous utilisez un déploiement hybride ou on-premise, les commandes de prétraitement peuvent ne pas fonctionner d’usine, car leur configuration par défaut utilise &quot;zcat&quot;, qui n’est pas disponible sous Windows. Dans ce cas, vous devez ajuster la variable **preProcessCommand** dans le fichier de configuration du serveur (serverConf.xml) en fonction de vos besoins. [Découvrez comment configurer les commandes de prétraitement dans le fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md#preprocesscommand)
+>Si vous utilisez un déploiement hybride ou On-Premise, les commandes de prétraitement peuvent ne pas fonctionner d’usine, car leur configuration par défaut utilise « zcat », qui n’est pas disponible sous Windows. Dans ce cas, vous devez ajuster le nœud **preProcessCommand** dans le fichier de configuration du serveur (serverConf.xml) en fonction de vos besoins. [Découvrir comment configurer les commandes de prétraitement dans le fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 ## Définir le format du fichier {#defining-the-file-format}
 
@@ -119,7 +119,7 @@ L&#39;exemple suivant permet de collecter tous les jours un fichier sur le serve
    * la première colonne contient un code correspondant à l&#39;événement : achat (d&#39;un montant supérieur ou inférieur à 3000 euros), sans achat ou retour d&#39;un ou plusieurs articles.
    * les quatre colonnes suivantes contiennent le prénom, le nom, l&#39;email et le numéro de compte du client.
 
-   Le paramétrage du format du fichier à charger correspond à celui défini lors d&#39;un import de données dans Adobe Campaign. Pour plus d’informations à ce sujet, consultez cette [section](../../platform/using/executing-import-jobs.md#step-2---source-file-selection).
+   La configuration du format du fichier à charger correspond à celle définie lors d’un import de données dans Adobe Campaign. Pour plus d’informations à ce sujet, consultez cette [section](../../platform/using/executing-import-jobs.md#step-2---source-file-selection).
 
 1. Dans l&#39;activité de partage, indiquez les sous-ensembles à créer, en fonction de la valeur de la colonne **Evénement**.
 

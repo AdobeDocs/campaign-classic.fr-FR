@@ -2,14 +2,14 @@
 product: campaign
 title: Création d’une diffusion courrier
 description: Découvrez comment créer une diffusion courrier
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Direct Mail
 role: User
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '96'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

@@ -2,14 +2,14 @@
 product: campaign
 title: Prise en main de la délivrabilité dans Campaign
 description: Découvrez les bonnes pratiques en matière de délivrabilité
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '665'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

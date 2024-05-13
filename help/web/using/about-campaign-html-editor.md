@@ -3,12 +3,12 @@ product: campaign
 title: Prise en main de l‘éditeur HTML Campaign
 description: Prise en main du DCE Campaign
 feature: Web Apps, Web Forms, Landing Pages, Email Design
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

@@ -2,14 +2,14 @@
 product: campaign
 title: Commencer avec le tracking
 description: Découvrez les instructions générales relatives au tracking dans Adobe Campaign.
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Monitoring, Email
 role: User
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Grâce à ses fonctionnalités de tracking, Adobe Campaign vous permet de track
 
 Ces informations sont récupérées dans l&#39;onglet **[!UICONTROL Tracking]** du profil de chaque destinataire de la diffusion. Cet onglet présente tous les liens URL trackés sur lesquels le destinataire sélectionné dans la liste a cliqué. Il s’agit de l’accumulation de toutes les URL trackées dans les diffusions qui sont toujours présentes dans l’écran de diffusion. La liste peut être configurée et contient généralement les informations suivantes : l’URL sur laquelle l’utilisateur a cliqué, la date et l’heure du clic et le document dans lequel l’URL a été trouvée. Pour plus d’informations, consultez [cette section](../../platform/using/editing-a-profile.md#tracking-tab).
 
-La variable **tableau de bord des diffusions** est également la clé pour surveiller vos diffusions et les éventuels problèmes rencontrés lors de l’envoi des messages. Voir à ce sujet la section [cette section](delivery-dashboard.md).
+Le **tableau de bord des diffusions** est la clé pour suivre les diffusions et les erreurs éventuelles rencontrées lors de l’envoi des messages. Pour plus d’informations, consultez [cette section](delivery-dashboard.md).
 
-Le diagramme suivant présente les étapes de la conversation entre l&#39;utilisateur et les différents serveurs.
+Le diagramme suivant présente les étapes de la conversation entre l’utilisateur ou l’utilisatrice et les différents serveurs.
 
 ![](assets/tracking-diagram.png)
 

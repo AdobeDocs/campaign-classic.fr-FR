@@ -2,14 +2,14 @@
 product: campaign
 title: Configuration des options de tracking d’URL
 description: Découvrez comment configurer les options de tracking d’URL
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Monitoring, Email Design, Personalization
 role: User
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

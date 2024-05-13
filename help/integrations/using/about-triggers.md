@@ -3,14 +3,14 @@ product: campaign
 title: À propos des Triggers Adobe Experience Cloud
 description: Prise en main de la mise en œuvre des Triggers d’Adobe Experience Cloud
 feature: Triggers
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

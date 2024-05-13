@@ -2,14 +2,14 @@
 product: campaign
 title: Bonnes pratiques des performances de diffusion
 description: En savoir plus sur les performances et les bonnes pratiques de diffusion
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Deliverability
 role: User, Data Engineer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -53,4 +53,4 @@ En cas de mauvaises performances des diffusions, vous pouvez vérifier les point
 * **Cible de la diffusion** : les performances d’une diffusion peuvent être impactées par les rebonds temporaires, qui sont traités en fonction de la configuration des reprises. Plus le nombre des erreurs est élevé, plus les reprises sont nécessaires.
 * **Charge globale de la plateforme** : il est possible que la plateforme soit affectée lorsque plusieurs diffusions volumineuses sont envoyées. Vous pouvez également vérifier la réputation IP et l’existence de problèmes de délivrabilité. Pour plus d’informations à ce sujet, consultez [cette section](about-deliverability.md) ainsi que le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
-La maintenance de la plateforme et de la base de données peut également affecter les performances d’envoi des diffusions. Pour plus d’informations, consultez [cette page](../../production/using/database-performances.md).
+La maintenance de la plateforme et de la base de données peut également impacter les performances d’envoi des diffusions. Pour plus d’informations, consultez [cette page](../../production/using/database-performances.md).

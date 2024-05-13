@@ -3,12 +3,12 @@ product: campaign
 title: Étapes clés de la création dʼun rapport
 description: Découvrez les étapes clés de création dʼun rapport
 feature: Reporting, Monitoring
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

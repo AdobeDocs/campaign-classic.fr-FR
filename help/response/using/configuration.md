@@ -3,15 +3,15 @@ product: campaign
 title: Configuration de la gestion de la réaction (Response Manager) de Campaign
 description: Découvrez comment configurer la gestion de la réaction (Response Manager) de Campaign
 feature: Campaigns
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
