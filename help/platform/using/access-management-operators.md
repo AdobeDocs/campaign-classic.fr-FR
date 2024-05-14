@@ -7,15 +7,22 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: e1a085384fb27ec165c487c112fbc70fe9738d9e
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 84%
+source-wordcount: '1303'
+ht-degree: 79%
 
 ---
 
 # Création et gestion d’opérateurs {#operators}
 
+>[!CAUTION]
+>
+>À compter de Campaign Classic v7.3.1, tous les opérateurs doivent utiliser [Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour vous connecter à Campaign.
+>
+>Dans le cadre de l&#39;effort visant à renforcer la sécurité et le processus d&#39;authentification, Adobe Campaign recommande vivement de migrer le mode d&#39;authentification de tous les opérateurs existants de l&#39;authentification native login/password vers Adobe Identity Management System (IMS). Découvrez comment migrer vos opérateurs dans [cette page](../../technotes/using/migrate-users-to-ims.md).
+> 
+>Après cette migration, notez que la section suivante ne s&#39;applique plus.  Découvrez comment configurer des autorisations avec Adobe IMS dans [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
 
 
 ## Prise en main des opérateurs Campaign  {#about-operators}
