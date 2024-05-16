@@ -5,18 +5,21 @@ description: Prise en main des questionnaires Campaign
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '544'
-ht-degree: 100%
+source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 95%
 
 ---
 
 # Prise en main des questionnaires{#about-surveys}
 
-
-
 Adobe Campaign comprend un module graphique pour définir et publier des applications Web. Il est utilisé pour créer des pages, telles qu&#39;un formulaire d&#39;édition sur un réseau extranet, ou des formulaires de notification comprenant des données de la base de données avec des tableaux, graphiques, formulaires de saisie, etc. Utilisez cette fonctionnalité pour concevoir et publier des pages web dans lesquelles les utilisateurs peuvent rechercher ou saisir des informations.
+
+>[!AVAILABILITY]
+>
+>La gestion des questionnaires n&#39;est pas disponible dans Campaign v8 dans le contexte d&#39;un déploiement d&#39;entreprise (FFDA). En savoir plus dans [Documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
+
 
 Le module complémentaire **Questionnaire** facultatif permet de créer un nouveau type d&#39;application web pour créer et gérer des questionnaires en ligne, tels que des formulaires permettant d&#39;ajouter ou de modifier des informations de profil, de vous abonner ou de vous désabonner d&#39;une publication, ou un formulaire de participation à un concours. Une fois les réponses collectées, elles sont stockées dans la base de données ou dans des variables locales. Le modèle de données peut être étendu dynamiquement à l&#39;aide des réponses données aux questionnaires. Vous pouvez visualiser les résultats en temps réel, filtrer les réponses et les analyser à l&#39;aide de graphiques dédiés.
 
