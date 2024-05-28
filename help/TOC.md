@@ -6,9 +6,9 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 8fec4d038eddaa3c5a2aade1b619f2543453d4de
+source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
 workflow-type: tm+mt
-source-wordcount: '2552'
+source-wordcount: '2548'
 ht-degree: 99%
 
 ---
@@ -21,10 +21,10 @@ ht-degree: 99%
    + [Prise en main des mises à niveau](rn/using/rn-overview.md)
    + [Dernière version](rn/using/latest-release.md)
    + Versions précédentes {#previous-releases}
-      + [Versions 2023](rn/using/release-2023.md)
-      + [Versions 2022](rn/using/release-2022.md)
-      + [Versions 2021](rn/using/release-2021.md)
-      + [Versions [!DNL Gold Standard]](rn/using/gold-standard.md)
+      + [2023](rn/using/release-2023.md)
+      + [2022](rn/using/release-2022.md)
+      + [2021](rn/using/release-2021.md)
+      + [[!DNL Gold Standard]](rn/using/gold-standard.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
    + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
    + [Mises à jour de la documentation](rn/using/documentation-updates.md)

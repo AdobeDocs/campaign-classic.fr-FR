@@ -5,10 +5,10 @@ description: Découvrez comment intégrer le SDK Campaign à votre application m
 feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
 workflow-type: tm+mt
 source-wordcount: '988'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ Vous trouverez ci-dessous la procédure pour intégrer le SDK Campaign.
   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/");
   ```
 
-  La permisson suivante permet de récupérer un identifiant unique par téléphone :
+  L’autorisation suivante permet de récupérer l’identifiant unique d’un mobile :
 
   ```
   <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
@@ -48,7 +48,7 @@ Vous trouverez ci-dessous la procédure pour intégrer le SDK Campaign.
 
   A partir de la version 1.0.26 du SDK, cette autorisation n&#39;est plus utilisée.
 
-* **Dans iOS**: la valeur **libNeolaneSDK.a** et **Neolane_SDK.h** Les fichiers doivent être liés au projet. À partir de la version 1.0.24 du SDK, l’option **ENABLE_BITCODE** est activée.
+* **Sous iOS** : les fichiers **libNeolaneSDK.a** et **Neolane_SDK.h** doivent être liés au projet. A partir de la version 1.0.24 du SDK, l&#39;option **ENABLE_BITCODE** est activée.
 
   >[!NOTE]
   >
@@ -152,7 +152,7 @@ La fonction d&#39;enregistrement permet :
 
   Les fonctions de tracking permettent de tracker l&#39;affichage de la notification (impression sur écran) et l&#39;activation des notifications (ouvertures).
 
-  Pour tracker l&#39;affichage de la notification (via l&#39;appel de la fonction **notifyReceive** du SDK), suivez l’implémentation ci-dessous. Notez que si vous utilisez FCM (Firebase Cloud Messaging), nous vous conseillons d’utiliser la variable **notifyReceive** lorsque la fonction **onMessageReceived** est appelée par le système Android.
+  Pour tracker l&#39;affichage d&#39;une notification (réalisé via l&#39;appel de la fonction **notifyReceive** du SDK),suivez l&#39;implémentation ci-après. Si vous utilisez FCM (Firebase Cloud Messaging), nous vous conseillons d&#39;utiliser la fonction **notifyReceive** lors de l&#39;appel de la fonction **onMessageReceived** par le système Android.
 
   ```
   package com.android.YourApplication;
@@ -248,7 +248,7 @@ La fonction d&#39;enregistrement permet :
   }
   ```
 
-  Voici un exemple d&#39;implémentation pour le suivi de l&#39;ouverture d&#39;une notification (exécuté par l&#39;appel de la fonction **notifyOpening** du SDK). La variable **NotificationActivity** correspond à celle utilisée pour créer la classe **notifIntent** dans l’exemple précédent.
+  Voici un exemple d&#39;implémentation pour le tracking de l&#39;ouverture d&#39;une notification (réalisé via l&#39;appel de la fonction **notifyOpening** du SDK). La classe **NotificationActivity** correspond à celle utilisée pour créer l&#39;objet **notifIntent** dans l&#39;exemple précédent.
 
   ```
   public class NotificationActivity extends Activity {
