@@ -2,14 +2,14 @@
 product: campaign
 title: Canaux de communication
 description: Création de diffusions pour envoyer des messages personnalisés sur différents canaux
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 8fbfc211c4e791b324c34d3d180daa7597c00c7f
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -23,16 +23,16 @@ Les principales fonctionnalités comprennent le ciblage, la définition et la pe
 >
 >Adobe Campaign offre un ensemble d’outils destinés à surveiller votre délivrabilité et à optimiser l’envoi d’emails. En savoir plus dans [cette section](about-deliverability.md).
 
-L&#39;envoi d&#39;une diffusion peut être automatisé en préparant une diffusion et/ou en l&#39;envoyant dans le cadre d&#39;un workflow. Pour plus d&#39;informations sur les activités de type diffusion dans les workflows, reportez-vous à la section [cette section](../../workflow/using/about-action-activities.md).
+L&#39;envoi d&#39;une diffusion peut être automatisé en préparant la diffusion ou en l&#39;envoyant par le biais d&#39;un workflow. Pour plus d&#39;informations sur les activités de type diffusion dans les workflows, consultez [cette section](../../workflow/using/about-action-activities.md).
 
 Les canaux de diffusion proposés par Adobe Campaign sont les suivants :
 
 1. **Canal email** : les diffusions email permettent d&#39;adresser des messages électroniques personnalisés à la population cible. Voir [À propos du canal email](about-email-channel.md).
 1. **Canal courrier** : les diffusions courrier permettent de générer un fichier d&#39;extraction contenant les données relatives à la population cible. Voir [À propos du canal courrier](about-direct-mail-channel.md).
 1. **Canal mobile** : les diffusions sur canaux mobiles permettent d&#39;adresser des SMS ou des messages LINE personnalisés à la population cible. Voir [Canal SMS](sms-channel.md).
-1. **Canal des applications mobiles**: les diffusions d’applications mobiles vous permettent d’envoyer des notifications aux systèmes iOS et Android. Voir [Mobile app channel](about-mobile-app-channel.md) chapitre.
+1. **Canal des applications mobiles** : les diffusions par applications mobiles permettent d&#39;envoyer des notifications sur des systèmes iOS et Android. Voir [Canal des applications mobiles](about-mobile-app-channel.md).
 
-   Les autres canaux sont présentés dans [cette page](steps-about-delivery-creation-steps.md#other-channels).
+   Les autres canaux sont décrits sur [cette section](#other-channels).
 
    >[!NOTE]
    >
@@ -54,8 +54,8 @@ Le [canal Email](about-email-channel.md) est l&#39;un des principaux canaux dans
 Vous pouvez envoyer différents types d&#39;emails :
 
 * Emails uniques : emails que vous pouvez envoyer une fois à une cible définie. Ils sont généralement utilisés pour promouvoir un contenu spécifique qui ne sera préparé et envoyé qu&#39;une seule fois (newsletter, email promotionnel, etc.).
-* Emails récurrents : dans une campagne, envoyez régulièrement le même email et agrégez chaque envoi et ses rapports de manière périodique. Le même email est envoyé, mais généralement à une cible différente, en fonction de la cible éligible pour le jour de l’envoi. Un exemple courant est un email d&#39;anniversaire. Voir à ce sujet la section [Diffusions récurrentes](../../workflow/using/recurring-delivery.md).
-* Emails transactionnels : emails unitaires déclenchés en fonction du comportement de vos clients. Voir [Messages transactionnels](../../message-center/using/about-transactional-messaging.md).
+* Emails récurrents : dans une campagne, envoyez régulièrement le même email et agrégez chaque envoi et ses rapports de manière périodique. Le même email est envoyé, mais généralement à une cible différente, en fonction de la cible éligible pour le jour de l’envoi. Un exemple courant est un email d&#39;anniversaire. Pour plus d&#39;informations, consultez la section [Diffusions récurrentes](../../workflow/using/recurring-delivery.md).
+* Emails transactionnels : emails unitaires qui sont déclenchés en fonction du comportement de vos clients. Pour plus d&#39;informations, consultez la section [Messages transactionnels](../../message-center/using/about-transactional-messaging.md).
 
 Pour plus d&#39;informations sur l&#39;utilisation des diffusions et les recommandations relatives à celles-ci, consultez [Bonnes pratiques de diffusion](delivery-best-practices.md) de Campaign.
 
