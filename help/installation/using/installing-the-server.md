@@ -3,21 +3,19 @@ product: campaign
 title: Installation du serveur
 description: Installation du serveur
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Installation du serveur{#installing-the-server}
-
-
 
 ## Exécution du programme d&#39;installation {#executing-the-installation-program}
 
@@ -70,13 +68,13 @@ Les étapes d&#39;installation du serveur Adobe Campaign sont les suivantes :
 
 Vous pouvez procéder à un test initial de l&#39;installation à l&#39;aide de la commande suivante :
 
-```
+```sql
 nlserver pdump
 ```
 
 Lorsqu&#39;Adobe Campaign n&#39;est pas démarré, la réponse est :
 
-```
+```sql
 No task
 ```
 
@@ -84,7 +82,7 @@ No task
 
 Une fois le test d&#39;installation réalisé, ouvrez l&#39;invite de commande depuis le menu **[!UICONTROL Démarrer > Programmes > Adobe Campaign]** et saisissez la commande suivante :
 
-```
+```sql
 nlserver web
 ```
 
@@ -104,13 +102,13 @@ Les informations affichées sont alors les suivantes :
 
 Saisissez la combinaison **Ctr+C** pour arrêter le processus, puis la commande suivante :
 
-```
+```sql
 nlserver start web
 ```
 
 Les informations affichées sont alors les suivantes :
 
-```
+```sql
 12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:17:21 >   Start of the 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair') task in a new process 
 12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -122,13 +120,13 @@ Les informations affichées sont alors les suivantes :
 
 Pour l&#39;arrêter, saisissez :
 
-```
+```sql
 nlserver stop web
 ```
 
 Les informations affichées sont alors les suivantes :
 
-```
+```sql
 12:18:31 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:18:31 >   Stop requested for 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair', pid=29188, tid=-1224824320)...
 12:18:31 >   Stop requested (pid=29188)
@@ -145,13 +143,13 @@ En savoir plus dans [cette section](../../installation/using/configuring-campaig
 
 Pour lancer les services Adobe Campaign, démarrez le service Adobe Campaign à partir du gestionnaire des services, ou saisissez la ligne de commande suivante (en ayant les droits suffisants) :
 
-```
+```sql
 net start nlserver6
 ```
 
 Si vous avez besoin d&#39;arrêter les processus Adobe Campaign par la suite, saisissez la commande :
 
-```
+```sql
 net stop nlserver6
 ```
 
@@ -161,6 +159,6 @@ Téléchargez la suite LibreOffice et suivez la procédure dʼinstallation stand
 
 Ajoutez la variable dʼenvironnement suivante :
 
-```
+```sql
 OOO_BASIS_INSTALL_DIR="C:\Program Files (x86)\LibreOffice 6\"
 ```

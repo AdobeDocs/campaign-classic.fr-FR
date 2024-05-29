@@ -3,21 +3,19 @@ product: campaign
 title: Administration
 description: Administration
 feature: Monitoring
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Administration{#administration}
-
-
 
 Le démarrage automatique des modules Adobe Campaign (**web**, **mta**, **wfserver**, etc.) est assuré par le service **nlserver**.
 
@@ -89,7 +87,7 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
   >
   >   **nlserver start mta@moninstance -verbose**
   >
-  >   Cette option ajoute des journaux supplémentaires. Nous vous recommandons de redémarrer les processus sans le **-verbose** une fois que vous avez trouvé les informations souhaitées, pour éviter de surcharger les logs.
+  >   Cette option ajoute des logs supplémentaires. Nous vous conseillons de redémarrer les processus sans l&#39;option **-verbose** après avoir obtenu vos informations afin de ne pas surcharger les logs.
 
 * Démarrer tous les processus Adobe Campaign (équivalent à un démarrage du service **nlserver6**) :
 
