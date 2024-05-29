@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: b7339512d85a7bd0c5aae24af46739daafb1ba51
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '753'
 ht-degree: 100%
 
 ---
@@ -148,7 +148,6 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
-<p>2012 - SP1 et SP2</p>
 <p><strong>Important :</strong> Microsoft SQL Server nʼest pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html?lang=fr#database-access-layers">En savoir plus</a>.</p>
 </td>
 </tr>
