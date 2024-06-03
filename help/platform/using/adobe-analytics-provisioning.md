@@ -7,10 +7,10 @@ feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: a08b386ff73fd9a2e9b3909c8f8de5e419104ce4
+workflow-type: tm+mt
+source-wordcount: '958'
+ht-degree: 82%
 
 ---
 
@@ -36,7 +36,11 @@ Pour que cette intégration fonctionne, vous devez créer un profil produit Adob
 
 >[!AVAILABILITY]
 >
-> JWT (JSON Web Tokens) est actuellement en voie de devenir obsolète et sera remplacé par OAuth. La transition s’effectuera progressivement dans les prochaines versions de Campaign et la documentation sera actualisée pour refléter ces mises à jour.
+> Les informations d’identification du compte de service (JWT) sont en train d’être abandonnées par Adobe. Les intégrations de Campaign avec les solutions et applications Adobe doivent désormais se baser sur les informations d’identification OAuth serveur à serveur. </br>
+>
+> * Si vous avez implémenté des intégrations entrantes avec Campaign, vous devez migrer votre compte technique comme décrit dans cette documentation. Les informations d’identification du compte de service existant (JWT) continueront à fonctionner jusqu’au 27 janvier 2025. En outre, la création d’informations d’identification de compte de service (JWT) dans Developer Console n’est plus possible à compter du 3 juin 2024. Les informations d’identification d’un nouveau compte de service (JWT) ne peuvent plus être créées ni ajoutées à un projet après cette date. </br>
+>
+> * Si vous avez implémenté des intégrations sortantes, telles que l’intégration Campaign-Analytics ou l’intégration des Triggers Experience Cloud, elles continueront à fonctionner jusqu’au 27 janvier 2025. Toutefois, avant cette date, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers oAuth. Comme la création d’informations d’identification de compte de service (JWT) dans Developer Console n’est plus possible à compter du 3 juin 2024, vous ne pouvez pas créer une nouvelle intégration sortante basée sur JWT après cette date.
 
 ## Création d’un profil produit Adobe Analytics {#analytics-product-profile}
 
