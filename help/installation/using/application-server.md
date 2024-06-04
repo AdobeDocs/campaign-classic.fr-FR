@@ -3,25 +3,25 @@ product: campaign
 title: Serveur applicatif
 description: Serveur applicatif
 feature: Installation
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 30670fba2fb84b968ef2e8a8f24746c81cc05f57
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 86%
+source-wordcount: '565'
+ht-degree: 65%
 
 ---
 
 # Serveur applicatif{#application-server}
 
-
-
 Les couches d&#39;accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles depuis le compte Adobe Campaign.
 
 ## Java Development Kit - JDK {#java-development-kit---jdk}
+
+Java Development Kit, ou JDK, est un kit de développement logiciel. Il s’agit du composant de base qui permet le développement d’applications Java et Java.
 
 Le module de génération de pages Web dynamiques repose sur la technologie JSP 1.2. A cet effet, un moteur Tomcat (d&#39;origine Apache) est inclus dans l&#39;application. Il nécessite la présence d&#39;un Java Development Kit (JDK), installé sur tous les serveurs sur lesquels l&#39;application Adobe Campaign sera installée.
 
@@ -31,33 +31,46 @@ L&#39;application a été validée pour le JDK développé par Oracle ainsi que 
 
 Les versions prises en charge sont détaillées dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) de Campaign.
 
->[!NOTE]
->
->Il est possible d&#39;installer la version adéquate du JDK en plus d&#39;une autre version qui serait déjà utilisée par d&#39;autres applications sur la machine.
->  
->Lors de l&#39;installation, il n&#39;est pas obligatoire de faire l&#39;intégration avec les navigateurs Web.
->
->Sur une machine exécutant uniquement les agents de diffusion (processus **nlserver mta**) ou le serveur de workflow (processus **nlserver wfserver**), l&#39;installation du JDK n&#39;est pas nécessaire.
 
-Pour télécharger le JDK Java, accédez à l’adresse : [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-**Avertissement : vous devez télécharger un JDK (Java Development Kit) et non un JRE (Java Runtime Environment).**
+### Recommandations
+
+Java Development Kit peut être installé à l’aide de la version appropriée du JDK déjà utilisée par d’autres applications sur l’ordinateur.
+
+Lors de l’installation du JDK, l’intégration avec les navigateurs Web n’est pas requise.
+
+Sur une machine qui exécute uniquement les agents de diffusion (**nlserver mta** processus) ou le serveur de workflow (**nlserver wfserver** ), l’installation d’un JDK n’est pas requise.
+
 
 >[!CAUTION]
 >
->Afin de préserver le fonctionnement optimal de votre plateforme et de conserver la compatibilité avec la version installée, vous devez impérativement désactiver les fonctions de mise à jour automatique du JDK sous Windows et Linux.
+> Afin de préserver le fonctionnement optimal de votre plateforme et de conserver la compatibilité avec la version installée, vous devez impérativement désactiver les fonctions de mise à jour automatique du JDK sous Windows et Linux.
+>
+> Lors de la mise à niveau de votre version Java, vous devez d’abord désinstaller la version précédente. Les deux versions de Java installées sur le même ordinateur peuvent provoquer des conflits.
 
-Pour installer le JDK dans un environnement Linux, il est préférable d&#39;utiliser un gestionnaire de paquets.
 
-Pour Debian 8 et 9, utilisez la commande suivante :
+### Etapes d&#39;installation
 
-```
+Java Development Kit est spécifique à la plateforme : des programmes d’installation distincts sont nécessaires pour chaque système d’exploitation.
+
+Pour télécharger le JDK Java, connectez-vous à [Oracle de site web](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
+
+>[!CAUTION]
+>
+> Veillez à télécharger un kit de développement Java (JDK) et non un environnement d’exécution Java (JRE).
+
+
+Pour installer le JDSL dans un environnement Linux, Adobe recommande d’utiliser un gestionnaire de packages.
+
+Pour Debian, utilisez la commande suivante :
+
+```sql
 aptitude install openjdk-8-jdk
 ```
 
-Pour RHEL 7, utilisez la commande suivante :
+Pour RHEL, utilisez la commande suivante :
 
-```
+```sql
 yum install java-1.8.0-openjdk
 ```
 
@@ -65,9 +78,13 @@ yum install java-1.8.0-openjdk
 
 Sous Linux, OpenSSL doit être installé. Adobe Campaign prend en charge OpenSSL version 1.0.2 ou ultérieure.
 
-## Export des rapports {#exporting-reports}
+## Exporter des rapports {#exporting-reports}
 
-Adobe Campaign vous permet d’exporter des rapports de plateforme au format Microsoft Excel et Adobe PDF. Pour le format Excel Microsoft, Adobe Campaign utilise **LibreOffice**. Pour le format Adobe PDF, Adobe Campaign utilise la variable **PhantomJS** convertisseur. PhantomJs est inclus dans le package d’usine et LibreOffice doit être installé sur la ou les machines sur lesquelles le serveur applicatif Adobe Campaign est exécuté (**nlserver web** processus).
+Vous pouvez utiliser Adobe Campaign pour exporter des rapports vers Microsoft Excel et Adobe PDF.
+
+* Pour le format Excel Microsoft, Adobe Campaign repose sur **LibreOffice**.
+
+* Pour le format Adobe PDF, Adobe Campaign utilise le convertisseur **PhantomJS**. PhantomJS est fourni dans le package d&#39;usine, et LibreOffice doit être installé sur la ou les machines sur lesquelles s&#39;exécute le serveur applicatif Adobe Campaign (processus **nlserver web**).
 
 >[!NOTE]
 >
