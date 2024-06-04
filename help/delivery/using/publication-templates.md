@@ -2,14 +2,14 @@
 product: campaign
 title: Modèle de publication
 description: Modèle de publication
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Templates
 role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: a94774daa4005fe95066b85f921d9baa981b2a7c
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ La clé d&#39;identification d&#39;une feuille de style est une chaîne construi
 
 ## Création et configuration du modèle {#creating-and-configuring-the-template}
 
-Les modèles de publication sont stockés par défaut dans la variable **[!UICONTROL Administration > Paramétrage > Modèles de publication]** noeud . Pour créer un modèle, cliquez sur le bouton **[!UICONTROL Nouveau]** au-dessus de la liste des modèles.
+Les modèles de publication sont stockés par défaut dans le noeud **[!UICONTROL Administration > Paramétrages > Modèles de publication]**. Pour créer un nouveau modèle, cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des modèles.
 
 Pour paramétrer le modèle de publication, indiquez le nom du modèle (c&#39;est-à-dire la clé d&#39;identification composée du nom et de l&#39;espace de noms), son libellé, le schéma de données et le formulaire de saisie auxquels il est associé.
 
@@ -73,11 +73,11 @@ Les options de publication disponibles sont les suivantes :
 
   Une variable est renseignée avec le format suivant : **`$(<xpath>)`**, où **`<xpath>`** est le chemin d’un champ du schéma de données du modèle de publication.
 
-  Le nom d’un fichier peut être composé d’un champ de type date. Pour formater correctement ce champ, utilisez la méthode **$date-format** , en utilisant le chemin du champ et le format de sortie comme paramètres.
+  Le nom du fichier peut être composé d&#39;un champ de type date. Pour formater correctement ce champ, vous devez utiliser la fonction **$date-format**, avec comme paramètres le chemin du champ et le format de sortie.
 
   Par défaut, le format de construction du nom du fichier utilise les variables sur les champs &quot;@name&quot; et &quot;@date&quot; :
 
-  ```
+  ```xml
   ct_$(@name)_$date-format(@date,'%4Y%2M%2D').htm
   ```
 
@@ -117,7 +117,7 @@ Le principe consiste à générer une page principale énumérant la liste des c
 
 La feuille de style (&quot;cus:livre.xsl&quot;) correspondante est la suivante :
 
-```
+```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -140,7 +140,7 @@ La feuille de style (&quot;cus:livre.xsl&quot;) correspondante est la suivante 
 
 Une deuxième feuille de style (&quot;cus:chapitre.xsl&quot;) est nécessaire pour générer le détail des chapitres :
 
-```
+```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -167,7 +167,7 @@ Une deuxième feuille de style (&quot;cus:chapitre.xsl&quot;) est nécessaire po
 
 La balise de découpe est renseignée en début de page à inclure dans le fichier à générer.
 
-```
+```xml
 <xsl:comment> #nl:output_replace($(path)/<xsl:value-of select="@id"/>.htm)</xsl:comment>
 ```
 
