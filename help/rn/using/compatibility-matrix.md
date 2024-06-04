@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 7e1c3b256cf43232e49d9daa0bf44d1e114b565b
+source-git-commit: 5d107e03ec572838dc2010446233c3bc5debf27e
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '750'
 ht-degree: 98%
 
 ---
@@ -100,7 +100,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>Pour en savoir plus sur JDK et Campaign, consultez [cette page](../../installation/using/application-server.md#java-development-kit—jdk).</p>
+<p>En savoir plus sur JDK et Campaign dans <a href="../../installation/using/application-server.md#java-development-kit---jdk">cette page</a>.</p>
 </td>
 </tr>
 <tr>
