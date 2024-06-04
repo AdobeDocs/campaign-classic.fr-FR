@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 991ad88101468c3e7f5d676586dfdd05d63e7c6d
 workflow-type: tm+mt
-source-wordcount: '1999'
-ht-degree: 100%
+source-wordcount: '2045'
+ht-degree: 96%
 
 ---
 
@@ -120,7 +120,11 @@ L&#39;installation de l&#39;upgrade de build n’engendre aucun coût pour les c
 
 ## L&#39;instance est-elle accessible pendant l&#39;upgrade ?
 
-Non. Le serveur est arrêté au cours d&#39;un upgrade de façon à assurer l&#39;intégrité des données lors de cette opération. Une fois l&#39;upgrade terminé, il est redémarré et tous les services reprennent.
+Non. Le serveur est arrêté au cours d&#39;un upgrade de façon à assurer l&#39;intégrité des données lors de cette opération. Une fois l&#39;upgrade terminé, le serveur est redémarré et tous les services reprennent.
+
+## Puis-je continuer à utiliser mon instance Campaign pendant le processus de mise à niveau ?
+
+Non. Adobe recommande de désactiver toutes les opérations de l&#39;opération durant la période de maintenance afin d&#39;éviter de perdre ou de rater des données. Vous ne devez pas créer ni déployer de campagne, de requête, de workflows ou de diffusions au cours de la mise à niveau.
 
 ## Les emails continueront-ils à être envoyés depuis Message Center au cours du processus d&#39;upgrade ?
 
@@ -128,7 +132,7 @@ Lorsque l&#39;upgrade s’applique à Message Center (RT), celui-ci n&#39;enver
 
 ## Les workflows continueront-ils à s&#39;exécuter et à envoyer les diffusions ?
 
-Non. Au cours de l&#39;upgrade de build, les services de workflow et de messagerie sont arrêtés. Cela signifie que les workflows ne s&#39;exécuteront pas et que les diffusions ne sont pas envoyées. Ils reprendront une fois le système redémarré. Cependant, Adobe vous conseille fortement de vérifier les workflows de chemin critique après un upgrade pour vous assurer qu&#39;ils s&#39;exécutent correctement.
+Non. Au cours de l&#39;upgrade de build, les services de workflow et de messagerie sont arrêtés. Cela signifie que les workflows ne s&#39;exécuteront pas et que les diffusions ne sont pas envoyées. Ils reprendront une fois le système redémarré. Cependant, Adobe recommande vivement que tous les workflows de chemin critique soient vérifiés après une mise à niveau afin de s’assurer qu’ils s’exécutent correctement.
 
 ## Mes liens de tracking fonctionnent-ils toujours pendant l&#39;upgrade ?
 
