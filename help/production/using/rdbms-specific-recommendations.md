@@ -3,15 +3,15 @@ product: campaign
 title: Spécificités par SGBDR
 description: Spécificités par SGBDR
 feature: Monitoring
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0654046f7e8271377e38b21a7b2e48f3859353f0
 workflow-type: tm+mt
 source-wordcount: '1281'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -30,11 +30,11 @@ Pour vous aider à configurer des plans de maintenance, cette section répertori
    ```
    create or replace view uvSpace
     as
-    SELECT c1.relname AS tablename, c2.relname AS indexname, c2.relpages * 8 / 1024 AS size_mbytes, c2.relfilenode AS filename, 0 AS row_count
+    SELECT c1.relname AS tablename, c2.relname AS indexname, c2.relpages * 8  / 1024 AS size_mbytes, c2.relfilenode AS filename, cast(0 AS bigint) AS row_count
     FROM pg_class c1, pg_class c2, pg_index i
     WHERE c1.oid = i.indrelid AND i.indexrelid = c2.oid
-    UNION 
-    SELECT pg_class.relname AS tablename, NULL::"unknown" AS indexname, pg_class.relpages * 8 / 1024 AS size_mbytes, pg_class.relfilenode AS filename, cast(pg_class.reltuples as integer) AS row_count
+    UNION
+    SELECT pg_class.relname AS tablename, NULL::"unknown" AS indexname, pg_class.relpages * 8  /1024  AS size_mbytes, pg_class.relfilenode AS filename, cast(pg_class.reltuples as bigint) AS row_count
     FROM pg_class
     WHERE pg_class.relkind = 'r'::"char"
     ORDER BY 3 DESC, 1, 2 DESC;
@@ -145,7 +145,7 @@ VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
 >* Adobe vous recommande d&#39;ajouter les tables spécifiques à votre modèle de données, qui peuvent faire l&#39;objet de mises à jour importantes. Cela peut être le cas pour **NmsRecipient** si vous disposez de flux de réplication de données quotidiens volumineux.
 >* L’instruction VACUUM verrouille la table, ce qui met certains processus en attente pendant toute la durée de la maintenance.
 >* Pour les très grandes tables (généralement au-dessus de 5 Go), la commande VACUUM FULL peut devenir assez inefficace et nécessiter beaucoup de temps. Adobe déconseille de l&#39;utiliser pour la table **YyyNmsBroadLogXxx**.
->* Cette opération de maintenance peut être mise en oeuvre par un workflow Adobe Campaign, à l’aide d’une **[!UICONTROL SQL]** activité. Pour plus d’informations, consultez [cette section](../../workflow/using/architecture.md). Assurez-vous de planifier la maintenance pendant une période de faible activité qui n&#39;entrera pas en conflit avec votre période de sauvegarde.
+>* Cette opération de maintenance peut être implémentée par un workflow Adobe Campaign, à l&#39;aide d&#39;une activité **[!UICONTROL SQL]**. Pour plus d’informations, consultez [cette section](../../workflow/using/architecture.md). Assurez-vous de planifier la maintenance pendant une période de faible activité qui n&#39;entrera pas en conflit avec votre période de sauvegarde.
 >
 
 ### Reconstruire une base {#rebuilding-a-database}
