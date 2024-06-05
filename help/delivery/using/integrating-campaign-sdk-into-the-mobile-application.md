@@ -5,10 +5,10 @@ description: Découvrez comment intégrer le SDK Campaign à votre application m
 feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
+source-git-commit: 00d46a7508def4d472e6bb8940a4d40a23c4fb07
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 96%
+source-wordcount: '987'
+ht-degree: 93%
 
 ---
 
@@ -542,7 +542,7 @@ Pour implémenter le délégué **registerDeviceStatus**, procédez comme suit 
 
 +++**Variables**
 
-Les variables vous permettent de définir le comportement de l&#39;application mobile après réception d&#39;une notification. Ces variables doivent être définies dans le code de l&#39;application mobile et dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Variables]** du service d&#39;applications mobiles dédié (voir la section [Paramétrage de l&#39;application mobile dans Adobe Campaign](configuring-the-mobile-application.md)). Voici un exemple de code qui permet à une application mobile de collecter toutes les variables ajoutées dans une notification. Dans notre exemple, nous utilisons la variable &quot;VAR&quot;.
+Les variables vous permettent de définir le comportement de l&#39;application mobile après réception d&#39;une notification. Ces variables doivent être définies dans le code de l’application mobile et dans la console Adobe Campaign, dans la variable **[!UICONTROL Variables]** dans l’application mobile dédiée (voir [Configuration d’une application mobile dans Adobe Campaign](configuring-the-mobile-application.md)). Voici un exemple de code qui permet à une application mobile de collecter toutes les variables ajoutées dans une notification. Dans notre exemple, nous utilisons la variable &quot;VAR&quot;.
 
 * **Sous Android** :
 
