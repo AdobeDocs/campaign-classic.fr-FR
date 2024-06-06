@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
 source-git-commit: 0654046f7e8271377e38b21a7b2e48f3859353f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1281'
 ht-degree: 100%
 
