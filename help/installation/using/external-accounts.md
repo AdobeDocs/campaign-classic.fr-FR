@@ -10,7 +10,7 @@ exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 source-git-commit: 8fbfc211c4e791b324c34d3d180daa7597c00c7f
 workflow-type: tm+mt
 source-wordcount: '1982'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -158,7 +158,7 @@ Pour plus d&#39;informations sur cette configuration, consultez [cette page](../
 
 ### FTP {#ftp-external-account}
 
-Le compte externe FTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que les serveurs FTP 898 utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus à ce sujet, consultez cette [page](../../workflow/using/file-transfer.md).
+Le compte externe FTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs FTP 898 utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus à ce sujet, consultez cette [page](../../workflow/using/file-transfer.md).
 
 Pour ce faire, spécifiez dans ce compte externe l&#39;adresse et les informations de connexion utilisées pour établir la connexion au serveur FTP.
 
@@ -188,7 +188,7 @@ Pour savoir où trouver ces informations de connexion, consultez [cette page](ht
 
 ### SFTP {#sftp-external-account}
 
-Le compte externe SFTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus à ce sujet, consultez cette [page](../../workflow/using/file-transfer.md).
+Le compte externe SFTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus à ce sujet, consultez cette [page](../../workflow/using/file-transfer.md).
 
 ![](assets/ext_account_4.png)
 
@@ -261,11 +261,11 @@ Pour vous connecter à la console Adobe Campaign à l’aide d’un Adobe ID, 
 
 * **[!UICONTROL Secret client IMS]**
 
-  Identifiants de votre secret client IMS.
+  Informations d’identification de votre secret client IMS.
 
 * **[!UICONTROL Serveur de rappel]**
 
-  Accédez à l’URL de votre instance Adobe Campaign.
+  URL d’accès à votre instance Adobe Campaign.
 
 * **[!UICONTROL Identifiant de l&#39;organisation IMS]**
 
@@ -413,7 +413,7 @@ Pour plus d&#39;informations sur cette configuration, consultez [cette page](../
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Pour en savoir plus à ce sujet, consultez cette [page](../../workflow/using/file-transfer.md).
+Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Pour en savoir plus à ce sujet, consultez cette [page](../../workflow/using/file-transfer.md).
 
 ![](assets/ext_account_3.png)
 

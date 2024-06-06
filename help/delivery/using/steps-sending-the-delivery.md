@@ -9,7 +9,7 @@ exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
 workflow-type: tm+mt
 source-wordcount: '1624'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Ainsi, si vous planifiez une diffusion pour qu&#39;elle s&#39;exécute automatiq
 
 ## Envoi en plusieurs vagues {#sending-using-multiple-waves}
 
-Pour équilibrer la charge, vous pouvez répartir les envois en plusieurs lots. Configurez le nombre de lots et leur proportion par rapport à l&#39;ensemble de la diffusion.
+Pour équilibrer la charge, vous pouvez répartir les envois en plusieurs lots. Configurez le nombre de lots et leur proportion par rapport à l’ensemble de la diffusion.
 
 >[!NOTE]
 >
@@ -160,9 +160,9 @@ Les deux exemples ci-dessous constituent les cas d&#39;utilisation les plus fré
 
 * **Campagnes impliquant un centre d&#39;appels**
 
-  Lors de la gestion d’une campagne de fidélité par téléphone, votre entreprise dispose d’une capacité limitée de traitement du nombre d’appels pour contacter les abonnés.
+  Lorsque vous gérez une campagne de fidélisation par téléphone, votre organisation a une capacité de traitement des appels limitée pour contacter les personnes abonnées.
 
-  Grâce aux vagues, vous pouvez limiter le nombre de messages à 20 par jour, en tenant compte par exemple de la capacité de traitement quotidien d&#39;un centre d&#39;appels.
+  Grâce aux vagues, vous pouvez limiter le nombre de messages à 20 par jour, par exemple, ce qui correspond à la capacité de traitement quotidienne d’un centre d’appel.
 
   Pour ce faire, sélectionnez l’option **[!UICONTROL Planification de plusieurs vagues de même taille]**. Saisissez **[!UICONTROL 20]** comme taille de vague et **[!UICONTROL 1 j]** dans le champ **[!UICONTROL Période]**.
 

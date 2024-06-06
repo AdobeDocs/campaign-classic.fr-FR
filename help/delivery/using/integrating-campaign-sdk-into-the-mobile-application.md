@@ -8,7 +8,7 @@ exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: 00d46a7508def4d472e6bb8940a4d40a23c4fb07
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -296,7 +296,7 @@ La fonction d&#39;enregistrement permet :
 
   >[!NOTE]
   >
-  >À partir de la version 7.0, une fois que la variable **`application:didReceiveRemoteNotification:fetchCompletionHandler`** est implémentée, le système d’exploitation appelle uniquement cette fonction. La variable **`application:didReceiveRemoteNotification`** n’est donc pas appelée.
+  >À partir de la version 7.0, une fois la fonction **`application:didReceiveRemoteNotification:fetchCompletionHandler`** mise en œuvre, le système d&#39;exploitation appelle uniquement cette fonction. La fonction **`application:didReceiveRemoteNotification`** n&#39;est donc pas appelée.
 
 +++
 
