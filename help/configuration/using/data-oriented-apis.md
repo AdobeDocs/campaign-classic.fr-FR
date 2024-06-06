@@ -6,9 +6,9 @@ feature: API
 role: Data Engineer, Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1868'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ La méthode **ExecuteQuery** est présentée dans [ExecuteQuery (xtk:queryDef)](
 
 Les commandes Write permettent d&#39;écrire des documents simples ou complexes, avec des écritures dans une ou plusieurs tables de la base.
 
-Les API transactionnelles vous permettent de gérer les réconciliations via le **updateOrInsert** : une commande permet de créer ou mettre à jour des données. Vous pouvez également configurer la fusion des modifications (**merge**) : ce mode de fonctionnement permet d&#39;autoriser les mises à jour partielles.
+Les API transactionnelles permettent de gérer les réconciliations via la commande **updateOrInsert** : une même commande permet la création ou la mise à jour des données. Vous pouvez également paramétrer la fusion (**merge**) des modifications : ce mode de fonctionnement permet d&#39;autoriser la mise à jour partielle.
 
 La structure XML propose une vision logique des données et permet de s&#39;affranchir de la structure physique de la table SQL.
 
@@ -431,7 +431,7 @@ Exemple de document de retour sur une opération de type &quot;count&quot; :
 
 #### Alias {#alias}
 
-Un alias permet de modifier l&#39;emplacement des données dans le document de sortie. La variable **alias** doit spécifier un XPath sur le champ correspondant.
+Un alias permet de modifier l’emplacement des données dans le document en sortie. L’attribut **alias** doit être renseigné avec un XPath sur le champ correspondant.
 
 ```
 <queryDef schema="nms:recipient" operation="get">

@@ -2,13 +2,13 @@
 product: campaign
 title: Étapes clés de création d’un questionnaire
 description: Créer votre premier questionnaire avec Campaign
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '986'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Pour créer un questionnaire, accédez à l&#39;onglet **[!UICONTROL Campagnes]*
 
 ## Étape 2 - Sélectionner le modèle {#step-2---selecting-the-template}
 
-Sélectionnez un modèle de questionnaire, puis nommez l&#39;enquête. Ce nom ne sera pas visible par les utilisateurs finaux, mais il permet d&#39;identifier l&#39;enquête dans Adobe Campaign. Cliquez sur **[!UICONTROL Enregistrer]** pour ajouter le questionnaire à la liste des applications Web.
+Sélectionnez un modèle de questionnaire, puis nommez le questionnaire. Ce nom ne sera pas visible par les utilisateurs finaux, mais il permettra d&#39;identifier le questionnaire dans Adobe Campaign. Cliquez sur **[!UICONTROL Enregistrer]** : le questionnaire est ajouté dans la liste des applications Web.
 
 ![](assets/s_ncs_admin_survey_wz_00.png)
 
@@ -61,13 +61,13 @@ Un questionnaire doit contenir **au minimum** les trois composants suivants : u
 
 ## Étape 4 - Créer le contenu de la page {#step-4---creating-the-page-content}
 
-Dans l’exemple suivant, nous utilisons une **[!UICONTROL Page (compatibilité v5)]** saisissez page. Ce type de page est accessible à partir du menu avancé du **[!UICONTROL Modifier]** .
+Dans l&#39;exemple suivant, nous utiliserons une page de type **[!UICONTROL Page (compatibilité v5)]**. Ce type de page est accessible à partir de la palette avancée de l&#39;onglet **[!UICONTROL Edition]**.
 
 ![](assets/s_ncs_admin_survey_pagev5.png)
 
 * **Ajouter des champs de saisie**
 
-  Pour créer le contenu de la page, vous devez l&#39;éditer : pour cela, double-cliquez sur le bouton **[!UICONTROL Page]** . Cliquez sur la première icône de la barre d&#39;outils pour ouvrir l&#39;assistant de création de champ. Pour créer un champ de saisie du nom d&#39;utilisateur à stocker dans le champ correspondant du profil du destinataire, sélectionnez **[!UICONTROL Modifier un destinataire]**.
+  Pour créer le contenu de la page, vous devez le modifier : pour cela, double-cliquez sur l’objet **[!UICONTROL Page]**. Cliquez sur la première icône de la barre d&#39;outils pour ouvrir l&#39;assistant de création de champs. Pour créer un champ de saisie du nom de l&#39;utilisateur qui sera stocké dans le champ correspondant du profil du destinataire, choisissez **[!UICONTROL Editer un destinataire]**.
 
   ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
@@ -91,7 +91,7 @@ Dans l’exemple suivant, nous utilisons une **[!UICONTROL Page (compatibilité 
 
   ![](assets/s_ncs_admin_survey_add_qu.png)
 
-  Saisissez le libellé de la question et insérez le ou les champs de réponse en sous-branche de la question. Pour cela, le noeud associé à la question doit être sélectionné lors de la création du champ de réponse. Ajouter un **[!UICONTROL liste déroulante]** en utilisant la variable **[!UICONTROL Contrôles de sélection]** ou en cliquant avec le bouton droit de la souris, comme illustré ci-dessous :
+  Saisissez le libellé de la question et insérez le ou les champs de réponse en tant que sous-branche de la question. Pour cela, le nœud liée à la question doit être sélectionné lors de la création du champ de réponse. Ajoutez une **[!UICONTROL liste déroulante]**, à partir de l&#39;icône **[!UICONTROL Contrôles de sélection]** ou en cliquant sur le bouton droit de la souris, comme ci-dessous :
 
   ![](assets/s_ncs_admin_survey_add_list.png)
 
@@ -107,7 +107,7 @@ Dans l’exemple suivant, nous utilisons une **[!UICONTROL Page (compatibilité 
 
   >[!NOTE]
   >
-  >Pour chaque champ ou chaque question, vous pouvez adapter la mise en page à vos besoins, grâce aux options de la section **[!UICONTROL Avancé]** . La mise en page des écrans du questionnaire est présentée dans la section [cette section](../../web/using/about-web-forms.md).
+  >Pour chaque champ ou chaque question, vous pouvez adapter la mise en page à vos besoins en utilisant les options de l&#39;onglet **[!UICONTROL Avancé]**. La mise en page des écrans du questionnaire est présentée dans [cette section](../../web/using/about-web-forms.md).
 
   Dans l&#39;écran de détail, cliquez sur l&#39;onglet **[!UICONTROL Prévisualisation]** pour consulter le rendu du questionnaire que vous venez de créer.
 

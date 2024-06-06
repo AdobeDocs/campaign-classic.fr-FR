@@ -5,9 +5,9 @@ description: Découvrez comment effectuer des calculs d'agrégats dans des requ�
 feature: Workflows
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Dans cet exemple, vous allez comptabiliser le nombre de destinataires domicilié
 
 Pour réaliser cet exemple, les étapes sont les suivantes :
 
-1. Dans **[!UICONTROL Données à extraire]**, définissez un nombre pour la clé primaire (comme illustré dans l’exemple précédent). Ajoutez la variable **[!UICONTROL Genre]** dans la colonne de sortie. Vérifiez les **[!UICONTROL Groupe]** dans le **[!UICONTROL Genre]** colonne . Ainsi, les destinataires seront regroupés par sexe.
+1. Dans **[!UICONTROL Données à extraire]**, définissez un comptage de la clé primaire (comme dans l&#39;exemple précédent). Ajoutez le champ **[!UICONTROL Genre]** en colonne de sortie. Cochez l&#39;option **[!UICONTROL Grouper]** de la colonne **[!UICONTROL Genre]**. Ainsi, les destinataires seront regroupés par genre.
 
    ![](assets/query_editor_nveau_27.png)
 

@@ -5,9 +5,9 @@ description: En savoir plus sur le ciblage des données dans un workflow
 feature: Query Editor, Data Management, Workflows
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2026'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -197,7 +197,7 @@ Nous devons ensuite ajouter de nouveaux sous-ensembles :
 
    >[!NOTE]
    >
-   >Si vous avez acquis la variable **Federated Data Access** , vous pouvez créer des sous-ensembles en fonction des informations contenues dans une base externe. Pour cela, sélectionnez le schéma de la table externe dans le **[!UICONTROL Dimension de ciblage]** champ . Voir à ce sujet la section [Accéder à une base externe (FDA)](accessing-an-external-database-fda.md).
+   >Si vous avez acquis l’option **Federated Data Access**, vous pouvez créer des sous-ensembles selon les informations contenues dans une base externe. Pour cela, sélectionnez le schéma de la table externe visée dans le champ **[!UICONTROL Dimension de ciblage]**. Voir à ce sujet la section [Accéder à une base externe (FDA)](accessing-an-external-database-fda.md).
 
 Une fois les sous-ensembles créés, par défaut, l&#39;activité de partage propose en sortie autant de transitions que de sous-ensembles :
 

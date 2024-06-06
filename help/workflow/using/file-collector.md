@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow de collecteur de fichi
 feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vo
 
    Voir l’étape **[!UICONTROL Historisation des fichiers]** de la section [Téléchargement Web](web-download.md).
 
-L’ordre de traitement des fichiers ne peut pas être déterminé. Pour traiter un ensemble de fichiers de manière séquentielle, utilisez la variable **[!UICONTROL Terminer dès qu&#39;un fichier a été traité]** et créez une boucle. Dans ce cas, les fichiers seront traités par ordre alphabétique. La variable **[!UICONTROL Traiter l&#39;absence de fichier]** permet de terminer l’itération.
+L&#39;ordre de traitement des fichiers ne peut être déterminé. Pour traiter séquentiellement un ensemble de fichier, il faut utiliser l&#39;option **[!UICONTROL Terminer dès qu&#39;un fichier est traité]** et faire une boucle. Dans ce cas, les fichiers seront traités par ordre alphabétique. L&#39;option **[!UICONTROL Traiter l&#39;absence de fichier]** permet de terminer l&#39;itération.
 
 ![](assets/file_collect_loop.png)
 

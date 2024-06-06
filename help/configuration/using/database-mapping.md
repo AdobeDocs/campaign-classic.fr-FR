@@ -6,15 +6,15 @@ feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 # Mapping de la base de données{#database-mapping}
 
-Le mapping SQL de l’exemple de schéma décrit [dans cette page](schema-structure.md) génère le document XML suivant :
+Le mapping SQL de l’exemple de schéma décrit [dans cette page](schema-structure.md) génère le document XML suivant :
 
 ```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">
@@ -35,7 +35,7 @@ Le mapping SQL de l’exemple de schéma décrit [dans cette page](schema-struct
 </schema>
 ```
 
-L’élément racine du schéma a été remplacé par **`<srcschema>`** to **`<schema>`**.
+L’élément racine du schéma est passé de **`<srcschema>`** à **`<schema>`**.
 
 Cet autre type de document est généré automatiquement à partir du schéma source et est simplement appelé schéma.
 
@@ -43,7 +43,7 @@ Les noms SQL sont déduits automatiquement en fonction du nom et du type de l&#3
 
 Les règles de nommage des noms SQL sont les suivantes :
 
-* **table**: concaténation de l’espace de noms et du nom du schéma
+* **table** : concaténation de l&#39;espace de noms et du nom du schéma
 
   Dans notre exemple le nom de la table est renseigné à partir de l&#39;élément principal du schéma dans l&#39;attribut **sqltable** :
 
@@ -51,7 +51,7 @@ Les règles de nommage des noms SQL sont les suivantes :
   <element name="recipient" sqltable="CusRecipient">
   ```
 
-* **field**: nom de l’élément précédé d’un préfixe défini selon le type : &#39;i&#39; pour entier, &#39;d&#39; pour double, &#39;s&#39; pour chaîne, &#39;ts&#39; pour dates, etc.
+* **champ** : nom de l&#39;élément précédé d&#39;un préfixe défini en fonction de son type :&#39;i&#39; pour entier, &#39;d&#39; pour doublon, &#39;s&#39; pour chaîne, &#39;ts&#39; pour les dates, etc.
 
   Le nom du champ est renseigné à partir de l&#39;attribut **sqlname** pour chaque **`<attribute>`** et **`<element>`** typé :
 
@@ -80,7 +80,7 @@ Les contraintes des champs SQL sont les suivantes :
 
 ## Champs XML {#xml-fields}
 
-Par défaut, tout  **`<attribute>`** et **`<element>`** L’élément de type -type est mappé sur un champ SQL de la table du schéma de données. Vous pouvez toutefois référencer ce champ au format XML plutôt que SQL, ce qui signifie que les données sont stockées dans un champ mémo (&quot;mData&quot;) de la table contenant les valeurs de tous les champs XML. Le stockage de ces données est un document XML qui respecte la structure du schéma.
+Par défaut, tout élément de type **`<attribute>`** et **`<element>`** est mappé sur un champ SQL de la table du schéma de données. Vous pouvez toutefois référencer ce champ au format XML plutôt que SQL, ce qui signifie que les données sont stockées dans un champ mémo (&quot;mData&quot;) de la table contenant les valeurs de tous les champs XML. Le stockage de ces données est un document XML qui respecte la structure du schéma.
 
 Pour renseigner un champ en XML, il faut ajouter l&#39;attribut **xml** avec la valeur &quot;true&quot; sur l&#39;élément concerné.
 
@@ -100,7 +100,7 @@ Pour renseigner un champ en XML, il faut ajouter l&#39;attribut **xml** avec la 
 
   Le type &quot;html&quot; permet de stocker le contenu HTML dans une balise CDATA et d&#39;afficher un contrôle spécifique d&#39;édition HTML dans l&#39;interface cliente Adobe Campaign.
 
-Utilisez les champs XML pour ajouter de nouveaux champs sans modifier la structure physique de la base de données. Un autre avantage est d&#39;utiliser moins de ressources (taille allouée aux champs SQL, limite du nombre de champs par table, etc.). Notez toutefois que vous ne pouvez pas indexer ou filtrer un champ XML.
+Utilisez les champs XML pour ajouter de nouveaux champs sans modifier la structure physique de la base de données. Un autre avantage est d&#39;utiliser moins de ressources (taille allouée des champs SQL, limite du nombre de champs par table, etc.). Notez toutefois que vous ne pouvez pas indexer ou filtrer un champ XML.
 
 ## Champs indexés {#indexed-fields}
 
@@ -119,8 +119,8 @@ Un index est déclaré à partir de l’élément principal du schéma de donné
 Les index suivent les règles suivantes :
 
 * Un index peut référencer un ou plusieurs champs de la table.
-* Un index peut être unique (pour éviter les doublons) dans tous les champs si la variable **unique** contient la valeur &quot;true&quot;
-* Le nom SQL de l&#39;index est déterminé à partir du nom SQL de la table et du nom de l&#39;index.
+* Un index peut être unique (afin d’éviter les doublons) dans tous les champs si l’attribut **unique** contient la valeur « true ».
+* Le nom SQL de l’index est déterminé à partir du nom SQL de la table et du nom de l’index.
 
 >[!NOTE]
 >
@@ -169,7 +169,7 @@ Les index suivent les règles suivantes :
 
 ## En savoir plus
 
-Pour en savoir plus, consultez les liens suivants :
+Pour en savoir plus, consultez les liens suivants :
 
 * [Prise en main des schémas](about-schema-reference.md)
 * [Structure d&#39;un schéma](schema-structure.md)

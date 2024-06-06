@@ -2,14 +2,14 @@
 product: campaign
 title: Génération de documents PDF personnalisés
 description: Découvrez comment générer des documents PDF personnalisés
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Personalization
 role: User
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Si vous souhaitez générer des tableaux dynamiques ou inclure des images à par
 La procédure pour générer des tableaux dynamiques est la suivante :
 
 * Créez un tableau de trois lignes, avec autant de colonnes que vous le souhaitez, et paramétrez sa mise en page (bordures, trame, etc.).
-* Positionnez-vous sur le tableau et cliquez sur le bouton **[!UICONTROL Tableau > Propriétés du tableau]** . Accédez au **[!UICONTROL Tableau]** et saisissez un nom commençant par **NlJsTable**.
+* Positionnez le curseur sur le tableau créé, et cliquez dans le menu **[!UICONTROL Tableau > Propriétés du tableau]**. Depuis l&#39;onglet **[!UICONTROL Tableau]**, saisissez un nom commençant par **NlJsTable**.
 * Dans la première cellule de la première ligne, définissez une boucle (&quot;for&quot; par exemple) qui va permettre d&#39;itérer sur les valeurs que vous souhaitez afficher dans votre tableau.
 * Insérez, dans chaque cellule de la deuxième ligne du tableau, les scripts retournant les valeurs à afficher.
 * Fermez votre boucle dans la troisième et dernière ligne du tableau.

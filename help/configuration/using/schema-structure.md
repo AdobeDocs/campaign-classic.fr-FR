@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Présentation de la structure de schéma dans Adobe Campaign
+title: Comprendre la structure d'un schéma dans Adobe Campaign
 description: Structure d'un schéma
 feature: Custom Resources
 role: Data Engineer, Developer
@@ -9,19 +9,19 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1514'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
-# Présentation de la structure du schéma {#schema-structure}
+# Comprendre la structure d&#39;un schéma {#schema-structure}
 
 La structure de base d’un schéma est décrite ci-dessous.
 
 ## Schémas de données  {#data-schema}
 
-Pour un `<srcschema>`, la structure est la suivante :
+Pour un `<srcschema>`, la structure est la suivante :
 
 ```sql
 <srcSchema>
@@ -97,7 +97,7 @@ Avec son schéma de données correspondant :
 
 ## Description {#description}
 
-Le point d’entrée du schéma est son élément principal. Il est facile à identifier, car il porte le même nom que le schéma et il doit être l’enfant de l’élément racine. La description du contenu commence par cet élément.
+Le point d’entrée du schéma est son élément principal. Il est facilement identifiable car son nom est identique à celui du schéma et il doit être enfant de l&#39;élément racine. C&#39;est à partir de cet élément que commence la description du contenu.
 
 Dans notre exemple, l&#39;élément principal est représenté par la ligne :
 
@@ -105,7 +105,7 @@ Dans notre exemple, l&#39;élément principal est représenté par la ligne :
 <element name="recipient">
 ```
 
-La variable **`<attribute>`** et **`<element>`** les éléments qui suivent l&#39;élément principal sont utilisés pour définir l&#39;emplacement et le nom des éléments de données dans la structure XML.
+Les éléments **`<attribute>`** et **`<element>`** qui suivent l&#39;élément principal permettent de définir l&#39;emplacement et le nom des éléments de données dans la structure XML.
 
 Soit dans notre schéma d&#39;exemple :
 
@@ -118,13 +118,13 @@ Soit dans notre schéma d&#39;exemple :
 </element>
 ```
 
-Les règles suivantes s’appliquent :
+Les règles suivantes s’appliquent :
 
 * Chaque **`<element>`** et **`<attribute>`** doit être identifié par son nom à partir de l&#39;attribut **name**.
 
   >[!IMPORTANT]
   >
-  >Le nom de l’élément doit être concis, de préférence en anglais, et ne comprendre que les caractères autorisés dans les règles de nommage XML.
+  >Le nom de l&#39;élément doit être concis, de préférence en anglais, et ne comprendre que des caractères autorisés dans les règles de nommage XML.
 
 * Seuls les éléments **`<element>`** peuvent contenir des éléments **`<attribute>`** et des éléments **`<element>`** dans la structure XML.
 * Un élément **`<attribute>`** doit être unique par son nom dans un **`<element>`**.
@@ -155,7 +155,7 @@ Les types de données supportés dans un schéma sont les suivants :
 
   >[!NOTE]
   >
-  >Pour contenir un **uuid** champ dans SGBDR autre que Microsoft SQL Server, `the newuuid()` doit être ajoutée et complétée avec sa valeur par défaut.
+  >Pour contenir un champ de type **uuid** dans un SGBDR autre que Microsoft SQL Server, la fonction `the newuuid()` doit être ajoutée et renseignée avec sa valeur par défaut.
 
 Notre schéma d&#39;exemple complété avec les types :
 
@@ -274,13 +274,13 @@ Les éléments **`<elements>`** et **`<attributes>`** du schéma de données peu
   <attribute name="email" type="string" length="80" label="Email"/>
   ```
 
-  Le libellé est affiché dans le formulaire de saisie de la console cliente Adobe Campaign :
+  Le libellé est affiché dans le formulaire de saisie de la console cliente Adobe Campaign :
 
   ![](assets/d_ncs_integration_schema_label.png)
 
 * La propriété **desc** permet de saisir une description longue.
 
-  La description s&#39;affiche dans le formulaire de saisie, dans la barre d&#39;état de la fenêtre principale de la console cliente Adobe Campaign.
+  La description est affichée dans le formulaire de saisie dans la barre de statut de la fenêtre principale de la console cliente Adobe Campaign.
 
   >[!NOTE]
   >
@@ -294,7 +294,7 @@ Les éléments **`<elements>`** et **`<attributes>`** du schéma de données peu
 
 ### Les valeurs par défaut {#default-values}
 
-Utilisez la variable **default** pour définir une expression renvoyant une valeur par défaut lors de la création du contenu.
+Utilisez la propriété **default** pour définir une expression qui renvoie une valeur par défaut lors de la création du contenu.
 
 La valeur doit être une expression conforme au langage XPath. Pour plus d’informations, consultez la section [Référencer avec XPath](../../configuration/using/schema-structure.md#referencing-with-xpath).
 
@@ -307,9 +307,9 @@ La valeur doit être une expression conforme au langage XPath. Pour plus d’inf
 
   >[!NOTE]
   >
-  >Dans la console cliente Adobe Campaign, accédez au **[!UICONTROL Administration > Compteurs]** de l’Explorateur pour gérer les compteurs.
+  >Dans la console cliente Adobe Campaign, accédez au dossier **[!UICONTROL Administration > Compteurs]** de l’explorateur pour gérer les compteurs.
 
-Pour associer une valeur par défaut à un champ, vous pouvez utiliser la variable `<default>`  ou  `<sqldefault>`   champ .
+Pour lier une valeur par défaut à un champ, vous pouvez utiliser le champ `<default>` ou `<sqldefault>`.
 
 `<default>` : vous permet de préremplir le champ avec une valeur par défaut lors de la création d’entités. La valeur ne sera pas une valeur SQL par défaut.
 
@@ -319,7 +319,7 @@ Pour associer une valeur par défaut à un champ, vous pouvez utiliser la variab
 
 #### Enumération ouverte {#free-enumeration}
 
-La variable **userEnum** permet de définir une énumération ouverte pour stocker et afficher les valeurs renseignées à partir de ce champ.
+La propriété **userEnum** permet de définir une énumération ouverte pour stocker et afficher les valeurs renseignées dans ce champ.
 
 La syntaxe est la suivante :
 
@@ -331,7 +331,7 @@ Une liste déroulante énumère la liste de ces valeurs à partir du formulaire 
 
 >[!NOTE]
 >
->Dans la console cliente Adobe Campaign, accédez au **[!UICONTROL Administration > Enumérations]** de l’ Explorateur pour gérer les énumérations.
+>Dans la console cliente Adobe Campaign, accédez au dossier **[!UICONTROL Administration > Énumérations]** de l’explorateur pour gérer les énumérations.
 
 #### Énumération fixe {#set-enumeration}
 
@@ -357,19 +357,19 @@ Une énumération est déclarée en dehors de l&#39;élément principal à parti
 
 Les propriétés de l&#39;énumération sont :
 
-* **baseType**: type de données associé aux valeurs
-* **label**: description de l’énumération
-* **name**: nom de l&#39;énumération
-* **default**: valeur par défaut de l&#39;énumération
+* **baseType** : type des données associées aux valeurs
+* **label** : description de l&#39;énumération
+* **name** : nom de l&#39;énumération
+* **default** : valeur par défaut de l&#39;énumération
 
 Les valeurs de l&#39;énumération sont déclarées dans l&#39;élément **`<value>`** avec les attributs suivants :
 
-* **name**: nom de la valeur stockée en interne.
-* **label**: libellé affiché dans l&#39;interface graphique
+* **name** : nom de la valeur stockée en interne
+* **label** : libellé affiché dans l&#39;interface graphique
 
 #### Enumération dbenum {#dbenum-enumeration}
 
-*Le **dbenum** permet de définir une énumération dont les propriétés sont similaires à celles de la propriété **enum** .
+* La propriété **dbenum** permet de définir une énumération dont les propriétés sont semblables à celles de la propriété **enum**.
 
 En revanche, l&#39;attribut **name** ne stocke pas de valeur en interne, mais un code, ce qui permet d&#39;étendre les tables concernées sans avoir à modifier leur schéma.
 
@@ -459,8 +459,8 @@ La liste des fonctions disponibles est accessible à partir de n&#39;importe que
 **Exemple**:
 
 * **GetDate()** : retourne la date courante
-* **Year(@created)**: renvoie l’année de la date contenue dans l’attribut &quot;created&quot;
-* **GetEmailDomain(@email)**: renvoie le domaine de l’adresse électronique
+* **Year(@created)** : renvoie l&#39;année de la date contenue dans l&#39;attribut « created »
+* **GetEmailDomain(@email)** : renvoie le domaine de l’adresse e-mail
 
 ## Construire une chaîne via la compute string {#building-a-string-via-the-compute-string}
 
@@ -488,7 +488,7 @@ Résultat de la chaîne calculée sur un destinataire : **Dupont René (rene.du
 
 ## En savoir plus
 
-Pour en savoir plus, consultez les liens suivants :
+Pour en savoir plus, consultez les liens suivants :
 
 * [Prise en main des schémas](about-schema-reference.md)
 * [Mapping de la base de données](database-mapping.md)

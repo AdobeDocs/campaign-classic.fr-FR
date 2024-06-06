@@ -3,15 +3,15 @@ product: campaign
 title: Types de maintenance
 description: Types de maintenance
 feature: Monitoring
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -68,20 +68,20 @@ Pour reconstruire une table, plusieurs stratégies sont envisageables :
   <tr> 
    <td> Défragmentation à chaud<br /> </td> 
    <td> La plupart des moteurs de base de données mettent à disposition des méthodes de défragmentation.<br /> </td> 
-   <td> Il suffit d'utiliser la méthode de défragmentation de la base de données. Ces méthodes prennent généralement en charge les problèmes d’intégrité en verrouillant les données pendant la défragmentation.<br /> </td> 
+   <td> Il suffit d'utiliser la méthode de défragmentation du moteur de base de données. Ces méthodes ont l'avantage de préserver l'intégrité des données, notamment en les verrouillant pendant la défragmentation.<br /> </td> 
    <td> Selon les bases, ces méthodes de défragmentation peuvent être fournies comme une option du SGBDR (Cf. Oracle) et ne sont pas toujours les plus efficaces sur les tables très volumineuses.<br /> </td> 
   </tr> 
   <tr> 
    <td> Sauvegarde puis restauration<br /> </td> 
    <td> Cette opération consiste à sauvegarder la table sous forme de fichier puis à la supprimer de la base de données et à la restaurer à partir du fichier de sauvegarde.<br /> </td> 
-   <td> Il s’agit de la méthode la plus simple pour défragmenter un tableau. C’est également la seule solution lorsque la base de données est presque pleine.<br /> </td> 
+   <td> Il s'agit de la façon la plus simple de défragmenter une table. C'est également la seule envisageable lorsque la base occupe presque tout l'espace-disque.<br /> </td> 
    <td> La table étant supprimée puis recréée, il est impossible de garder l'application en état de fonctionnement, même en lecture seule car la table n'est pas accessible pendant la phase de restauration.<br /> </td> 
   </tr> 
   <tr> 
    <td> Duplication puis renommage et suppression<br /> </td> 
    <td> Cette opération consiste à créer une copie de la table et de ses index, à supprimer la table originelle puis à la remplacer par sa copie après l'avoir renommée.<br /> </td> 
    <td> Cette méthode est plus rapide que la première approche, car elle génère moins d'E/S (pas de copie en tant que fichier ni de lecture à partir de ce fichier).<br /> </td> 
-   <td> Requiert deux fois plus d'espace-disque.<br /> Tous les processus actifs qui écrivent sur la table pendant le processus doivent être arrêtés. Toutefois, les processus de lecture ne seront pas affectés, car la table est échangée au dernier moment une fois reconstruite. <br /> </td> 
+   <td> Requiert deux fois plus d'espace-disque.<br /> Tous les processus actifs qui accèdent à la table en écriture doivent être arrêtés. Toutefois, les processus de lecture ne sont pas affectés, car la table est échangée au dernier moment une fois la reconstruction effectuée. <br /> </td> 
   </tr> 
  </tbody> 
 </table>

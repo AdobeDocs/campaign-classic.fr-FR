@@ -2,14 +2,14 @@
 product: campaign
 title: Tracking et surveillance des messages
 description: Découvrez comment effectuer le tracking et la surveillance des messages
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Monitoring, Reporting
 role: User
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Pour en savoir plus à ce sujet, consultez la section [Configuration du tracking
 
 ## Performances des diffusions {#delivery-performances}
 
-Pour mesurer la vitesse à laquelle les messages sont diffusés, vous pouvez contrôler le débit de diffusion. Les critères sont le nombre de messages envoyés par heure et la taille des messages (en bits par seconde). Pour plus d&#39;informations, consultez la section [Débit de diffusion](../../reporting/using/global-reports.md#delivery-throughput).
+Pour mesurer la vitesse à laquelle les messages sont diffusés, vous pouvez surveiller le débit de diffusion. Les critères sont le nombre de messages envoyés par heure et la taille des messages (en bits par seconde). Pour plus d&#39;informations, consultez la section [Débit de diffusion](../../reporting/using/global-reports.md#delivery-throughput).
 
 **Conseils** :
 

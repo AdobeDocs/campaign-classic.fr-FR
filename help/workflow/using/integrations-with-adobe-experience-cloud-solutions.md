@@ -5,9 +5,9 @@ description: En savoir plus sur les workflows des intégrations avec les solutio
 feature: Workflows, Audiences, People Core Service Integration
 topic-tags: technical-workflows
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Export d’audiences vers Adobe Experience Cloud</span> <br /> </td> 
    <td> <span class="uicontrol">exportSharedAudience</span> <br /> </td> 
-   <td> Ce workflow exporte les audiences en tant qu’audiences/segments partagés. Ces audiences peuvent être utilisées dans les différentes solutions Adobe Experience Cloud que vous utilisez.<br /> </td> 
+   <td> Ce workflow permet d’exporter des audiences en tant qu’audiences/segments partagés. Ces audiences peuvent être exploitées dans les différentes solutions d’Adobe Experience Cloud que vous utilisez.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

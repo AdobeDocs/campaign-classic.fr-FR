@@ -5,9 +5,9 @@ description: Surveillez vos workflows avec la Carte thermique des workflows
 feature: Workflows, Heatmap
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1191'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Elle permet plus précisément aux administrateurs de la plateforme d’effectue
 
 >[!NOTE]
 >
->En plus de la variable **Carte thermique des workflows**, vous pouvez créer un workflow qui vous permettra de surveiller l’état d’un ensemble de workflows et d’envoyer des messages récurrents aux superviseurs. Pour plus de détails, reportez-vous à la [section dédiée](supervising-workflows.md).
+>Outre la **carte thermique des workflows**, vous pouvez créer un workflow qui vous permettra de surveiller le statut d’un ensemble de workflows et d’envoyer des messages récurrents aux superviseurs. Pour plus de détails, reportez-vous à la [section dédiée](supervising-workflows.md).
 
 L’utilisation de la carte thermique des workflows demande une bonne maîtrise des concepts suivants : [Workflows](about-workflows.md), [Activités](about-activities.md) et [Bonnes pratiques relatives aux workflows](workflow-best-practices.md).
 
@@ -54,7 +54,7 @@ L’utilisation de la carte thermique des workflows demande une bonne maîtrise 
 
    >[!NOTE]
    >
-   >Seuls les workflows qui n’ont pas été supprimés par la variable **[!UICONTROL Nettoyer la base]** Les workflows sont visibles. Pour plus d&#39;informations sur le workflow Nettoyage de la base, reportez-vous à la section [cette section](../../production/using/database-cleanup-workflow.md).\
+   >Seuls les workflows qui n&#39;ont pas été supprimés par le workflow **[!UICONTROL Nettoyage de la base]** sont visibles. Pour plus d&#39;informations sur le workflow Nettoyage de la base, consultez [cette section](../../production/using/database-cleanup-workflow.md).\
    >Par défaut, le fuseau horaire de la carte thermique des workflows est celui défini pour l&#39;utilisateur administrateur actuel. Vous pouvez vouloir le changer si, par exemple, vous ne vous trouvez pas dans la même zone géographique que les utilisateurs marketing avec lesquels vous travaillez.
 
 1. Cliquez sur le bouton **[!UICONTROL Filtres]**.

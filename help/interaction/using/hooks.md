@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ return aReturnedProps;
 
 Ce point d&#39;extension permet d&#39;appeler un moteur externe pour sélectionner une liste de produits associés à une offre. L&#39;exécution s&#39;effectue dans l&#39;offre après l&#39;application des règles d&#39;éligibilité, et avant l&#39;application des règles de typologie.
 
-L’intégrateur doit au préalable étendre les propositions. **PropositionRcp** schéma avec les informations supplémentaires sur le produit. Pour indiquer où ces données seront stockées, une **[!UICONTROL Proposition en traitement]** est disponible dans la variable **[!UICONTROL Stockage]** de l’espace
+L’intégrateur doit, au préalable, étendre le schéma **PropositionRcp** des propositions avec les informations supplémentaires sur le produit. Pour indiquer où ces données seront stockées, un lien **[!UICONTROL Proposition en cours de traitement]** est disponible dans l’onglet **[!UICONTROL Stockage]** de l’emplacement.
 
 ![](assets/interaction_hooks_3.png)
 

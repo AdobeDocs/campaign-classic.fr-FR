@@ -6,9 +6,9 @@ feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1037'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Une fois ces fonctions ajoutées, elles apparaissent dans l&#39;éditeur d&#39;e
 
 >[!IMPORTANT]
 >
->Les appels de fonctions SQL dans la console ne sont plus naturellement envoyés au serveur. Le mécanisme décrit ici devient donc **le seul moyen d’appeler** sur le serveur de fonctions SQL non planifié.
+>Les appels de fonctions SQL dans la console ne sont plus naturellement transmis au serveur. Le mécanisme décrit ici devient donc **le seul moyen d&#39;appeler** sur le serveur des fonctions SQL non prévues initialement.
 
 ## Installation {#installation}
 

@@ -5,9 +5,9 @@ description: Découvrez comment envoyer un rapport à une liste à l’aide d’
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '728'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Pour plus d&#39;informations sur la création de listes, reportez-vous à cette 
      >
      >Le fichier doit être présent sur le serveur. Son chemin d’accès et son nom doivent être identiques à ceux saisis dans l’activité de type **[!UICONTROL Code JavaScript]** du workflow (voir : [Etape 3 : création du workflow](#step-3--creating-the-workflow)).
 
-   * Sélectionnez l’onglet **[!UICONTROL Avancé]** et cochez la case **[!UICONTROL Scripter le nom du fichier qui sera affiché dans la messagerie du destinataire]**. Dans la zone d&#39;édition, saisissez le nom que vous souhaitez donner à la pièce jointe dans la diffusion finale.
+   * Sélectionnez l’onglet **[!UICONTROL Avancé]** et cochez la case **[!UICONTROL Scripter le nom du fichier qui sera affiché dans la messagerie du destinataire]**. Dans la zone d&#39;édition, saisissez le nom que vous souhaitez donner à la pièce jointe, dans la diffusion finale.
 
      ![](assets/use_case_report_6bis.png)
 
@@ -110,7 +110,7 @@ Pour réaliser ce cas d&#39;utilisation, le workflow suivant a été créé. Cel
 
    Les variables utilisées sont les suivantes :
 
-   * **var reportName**: saisissez le nom interne du rapport entre guillemets doubles. Dans ce cas, le nom interne de la variable **Indicateur de suivi** Le rapport est &quot;deliveryFeedback&quot;.
+   * **var reportName** : saisissez, entre guillemets, le nom interne du rapport. Dans notre exemple, le nom interne du rapport **Indicateur de tracking** est &quot;deliveryFeedback&quot;.
    * **var path** : saisissez le chemin d’enregistrement du fichier (&quot;tmp/files/&quot;), le nom que vous souhaitez donner au fichier (&quot;deliveryFeedback&quot;) et l’extension du fichier (&quot;.pdf&quot;). Dans notre exemple, nous avons utilisé le nom interne comme nom de fichier. Les valeurs doivent être entre guillemets et séparées par le caractère &quot;+&quot;.
 
      >[!CAUTION]

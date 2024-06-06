@@ -3,15 +3,15 @@ product: campaign
 title: Performances de la base
 description: Performances de la base
 feature: Monitoring
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Vous devez vérifier le nombre et la taille des tables de travail. Lorsqu&#39;el
 
 >[!IMPORTANT]
 >
->Si l&#39;opération prend beaucoup de temps et libère beaucoup d&#39;espace, cela signifie qu&#39;une maintenance en profondeur est nécessaire (reconstruction des index, etc.). Pour plus d’informations, consultez [cette section](../../production/using/recommendations.md).
+>Si cette opération prend beaucoup de temps et qu&#39;une fois effectuée, beaucoup d&#39;espace disque est libéré, il est indispensable d&#39;effectuer une maintenance en profondeur (reconstruction des index, etc.). Pour plus d’informations, consultez [cette section](../../production/using/recommendations.md).
 
 **Suivi des processus Adobe Campaign**
 

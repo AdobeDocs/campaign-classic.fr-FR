@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: e1a085384fb27ec165c487c112fbc70fe9738d9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1303'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 79%
 
 >[!CAUTION]
 >
->À compter de Campaign Classic v7.3.1, tous les opérateurs doivent utiliser [Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour vous connecter à Campaign.
+>Lors du démarrage de Campaign Classic v7.3.1, l’ensemble des opérateurs et opératrices doivent utiliser [Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign.
 >
->Dans le cadre de l&#39;effort visant à renforcer la sécurité et le processus d&#39;authentification, Adobe Campaign recommande vivement de migrer le mode d&#39;authentification de tous les opérateurs existants de l&#39;authentification native login/password vers Adobe Identity Management System (IMS). Découvrez comment migrer vos opérateurs dans [cette page](../../technotes/using/migrate-users-to-ims.md).
+>Dans le cadre de ses efforts constants pour renforcer la sécurité et le processus d’authentification, Adobe Campaign recommande vivement de faire passer le mode d’authentification de l’ensemble des opérateurs et opératrices de l’authentification native par nom d’utilisateur/mot de passe à Adobe Identity Management System (IMS). Découvrez comment effectuer la migration de vos opérateurs et opératrices sur [cette page](../../technotes/using/migrate-users-to-ims.md).
 > 
->Après cette migration, notez que la section suivante ne s&#39;applique plus.  Découvrez comment configurer des autorisations avec Adobe IMS dans [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
+>À l’issue de cette migration, notez que la section suivante ne s’applique plus.  Découvrez comment configurer des autorisations avec Adobe IMS dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
 
 
 ## Prise en main des opérateurs Campaign  {#about-operators}
@@ -41,9 +41,9 @@ Pour plus d&#39;informations sur l&#39;intégration d&#39;Adobe Campaign avec L
 
 >[!IMPORTANT]
 >
->Les opérateurs doivent être associés à une zone de sécurité pour se connecter à une instance. Pour plus d&#39;informations sur les zones de sécurité dans Adobe Campaign, reportez-vous à la section [cette page](../../installation/using/security-zones.md).
+>Un opérateur doit être associé à une zone de sécurité pour se connecter à une instance. Pour plus d&#39;informations sur les zones de sécurité dans Adobe Campaign, consultez [cette page](../../installation/using/security-zones.md).
 
-Les utilisateurs peuvent également se connecter directement à Adobe Campaign à l’aide de leur Adobe ID. Pour en savoir plus à ce sujet, consultez cette [page](../../integrations/using/about-adobe-id.md).
+Les utilisateurs peuvent également se connecter directement à Adobe Campaign via leur Adobe ID. Pour en savoir plus à ce sujet, consultez cette [page](../../integrations/using/about-adobe-id.md).
 
 ## Création d’un opérateur {#creating-an-operator}
 
@@ -53,9 +53,9 @@ Pour créer un opérateur et accorder des autorisations, procédez comme suit :
 
    ![](assets/s_ncs_user_operator_new.png)
 
-1. Spécifiez la variable **[!UICONTROL Paramètres d&#39;identification]** de l&#39;utilisateur : son identifiant, son mot de passe et son nom. Le login et le mot de passe seront utilisés par l&#39;opérateur pour se connecter à Adobe Campaign. Une fois connecté, l’utilisateur peut modifier son mot de passe au moyen de l’option **[!UICONTROL Outils > Modifier le mot de passe]** . L&#39;email de l&#39;opérateur est essentiel car il permet à l&#39;opérateur de recevoir des notifications, par exemple lors du traitement des validations.
+1. Spécifiez les **[!UICONTROL Paramètres d’identification]** de l&#39;utilisateur ou de l’utilisatrice : identifiant, mot de passe et nom. Le nom d’utilisateur et le mot de passe seront utilisés par l’opérateur ou l’opératrice pour se connecter à Adobe Campaign. Une fois connecté, l&#39;utilisateur peut changer son mot de passe depuis le menu **[!UICONTROL Outils > Changement de mot de passe]**. L&#39;email de l&#39;opérateur est essentiel, car il lui permet de recevoir des notifications, par exemple lors du traitement des validations.
 
-   Cette section permet également d&#39;associer un opérateur à une entité organisationnelle. Voir à ce sujet la section [cette page](../../distributed/using/about-distributed-marketing.md).
+   Cette section permet également d&#39;associer l&#39;opérateur à une entité organisationnelle. Voir à ce propos [cette page](../../distributed/using/about-distributed-marketing.md).
 
 1. Sélectionnez les autorisations accordées à l&#39;opérateur dans la section **[!UICONTROL Droits d&#39;accès de l&#39;opérateur]**.
 
@@ -75,9 +75,9 @@ Pour créer un opérateur et accorder des autorisations, procédez comme suit :
 
 >[!NOTE]
 >
->Vous pouvez organiser les opérateurs selon vos besoins en créant des dossiers d&#39;opérateurs. Pour cela, cliquez avec le bouton droit de la souris sur le dossier des opérateurs et sélectionnez **[!UICONTROL Ajouter un dossier &quot;Opérateurs&quot;]**.
+>Vous pouvez organiser les opérateurs selon vos besoins en créant des dossiers d&#39;opérateurs. Pour cela, cliquez avec le bouton droit de la souris sur le dossier des opérateurs et sélectionnez **[!UICONTROL Ajouter un dossier &#39;Opérateurs&#39;]**.
 
-Une fois le profil de l&#39;opérateur créé, vous pouvez compléter ou mettre à jour ses informations. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modifier]** .
+Une fois le profil de l&#39;opérateur créé, vous pouvez compléter ou mettre à jour ses informations. Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Edition]**.
 
 ![](assets/operator_edit_profile.png)
 
@@ -114,7 +114,7 @@ Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;acc
   >Même si son compte est désactivé, l’opérateur peut toujours recevoir des alertes ou des notifications de la part de Campaign. Pour arrêter l’envoi de notifications Campaign à cet opérateur, Adobe vous recommande de supprimer l’adresse e-mail de son profil.
 
 * L&#39;option **[!UICONTROL Interdire l&#39;accès depuis la console cliente]** permet de restreindre l&#39;utilisation d&#39;Adobe Campaign à un [accès web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) ou par le biais d&#39;API : l&#39;accès à la console cliente Adobe Campaign n&#39;est plus disponible.
-* Il est possible d&#39;associer une zone de sécurité à l&#39;opérateur. Pour plus d’informations, consultez [cette page](../../installation/using/security-zones.md).
+* Vous pouvez associer une zone de sécurité à l&#39;opérateur. Pour plus d’informations, consultez [cette page](../../installation/using/security-zones.md).
 * Vous pouvez également définir un masque IP de confiance à partir du lien correspondant.
 
   L&#39;opérateur pourra se connecter à Adobe Campaign sans saisir son mot de passe si son adresse IP est dans cette liste.

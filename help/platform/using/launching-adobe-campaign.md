@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '540'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ La page de connexion de la console cliente permet de configurer ou de sélection
 
 ## Connexion à Adobe Campaign {#connecting-to-adobe-campaign}
 
-Vous pouvez vous connecter à Adobe Campaign à l’aide de votre Adobe ID. Pour plus d’informations, consultez [cette page](../../integrations/using/about-adobe-id.md).
+Il est possible de vous connecter à Adobe Campaign via votre Adobe ID. Pour plus d’informations, consultez [cette page](../../integrations/using/about-adobe-id.md).
 
 Vous pouvez aussi vous connecter via un login/mot de passe dédié :
 
@@ -44,7 +44,7 @@ Vous pouvez aussi vous connecter via un login/mot de passe dédié :
 
 1. Saisissez votre mot de passe dans le champ **[!UICONTROL Mot de passe]**.
 
-   La première fois que vous accédez à la base de données, votre mot de passe est celui que vous aura attribué l’administrateur. Une fois connecté, vous pouvez modifier votre mot de passe via le **[!UICONTROL Outils > Modifier le mot de passe...]** . Des détails sur les opérateurs et les connexions sont disponibles dans [Gestion des accès](../../platform/using/access-management.md).
+   La première fois que vous accédez à la base de données, votre mot de passe est celui qui vous a été attribué par l’équipe d’administration. Une fois connecté, vous pouvez modifier votre mot de passe via le menu **[!UICONTROL Outils > Changer le mot de passe…]** Des détails sur les opérateurs et les connexions sont disponibles dans [Gestion des accès](../../platform/using/access-management.md).
 
 1. Cliquez sur **[!UICONTROL CONNEXION]** pour confirmer.<!--You can also press the **Enter** key to launch connection.-->
 
@@ -69,7 +69,7 @@ Vous devez ensuite définir les paramètres de cette connexion. Pour cela :
 
 1. Ajoutez l’adresse du serveur applicatif dans le champ **[!UICONTROL URL]**. Si vous ne connaissez pas l’URL de connexion, contactez votre administrateur.
 
-1. Vérifier **[!UICONTROL Connexion à un Adobe ID]** pour que les opérateurs se connectent à la console via leur Adobe ID. Pour plus d’informations, consultez [cette page](../../integrations/using/about-adobe-id.md).
+1. Cochez la case **[!UICONTROL Se connecter avec un Adobe ID]** pour que les opérateurs puissent se connecter à la console via leur Adobe ID. Pour plus d’informations, consultez [cette page](../../integrations/using/about-adobe-id.md).
 
 1. Cliquez sur **[!UICONTROL OK]** pour valider.
 

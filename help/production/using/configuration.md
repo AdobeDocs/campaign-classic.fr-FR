@@ -3,12 +3,12 @@ product: campaign
 title: Configuration supplémentaire
 description: Configuration
 feature: Monitoring, Configuration
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Vous devez créer la variable d&#39;environnement **TRACE_ADDR** avec la valeur 
 
 ## Configuration de zones de sécurité {#configuring-security-zones}
 
-Chaque opérateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;opérateur doit être incluse dans les adresses ou les plages d&#39;adresses définies dans la zone de sécurité. Le paramétrage technique des zones est effectué dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un opérateur à une zone de sécurité doit être définie dans la console ( **[!UICONTROL Administration > Gestion des accès > Opérateurs]** ).
+Chaque opérateur doit être associé à une zone pour se connecter à une instance et son adresse IP doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. La configuration d’une zone technique est effectuée dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un opérateur à une zone de sécurité doit être défini dans la console (noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
 
 >[!NOTE]
 >

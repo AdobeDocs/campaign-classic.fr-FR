@@ -2,14 +2,14 @@
 product: campaign
 title: Utiliser les schémas de données dans Campaign
 description: Découvrez comment utiliser les schémas de données dans Campaign.
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Data Model
 role: User, Developer, Data Engineer
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -175,4 +175,4 @@ La sauvegarde du schéma source va automatiquement lancer la génération du sch
 
 >[!NOTE]
 >
->La variable **Nom** le contrôle d&#39;édition permet de saisir la clé du schéma, composée du nom et de l&#39;espace de noms. La variable **name** et **namespace** Les attributs de l’élément racine du schéma sont automatiquement mis à jour dans la zone d’édition XML du schéma.
+>Le contrôle d&#39;édition **Nom** permet de saisir la clé du schéma composée du nom et de l&#39;espace de noms. Les attributs **name** et **namespace** de l&#39;élément racine du schéma sont automatiquement mis à jour dans la zone d&#39;édition XML du schéma.

@@ -5,9 +5,9 @@ description: Découvrez les bonnes pratiques de sécurité en matière de confid
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -176,7 +176,7 @@ Pour protéger vos pages, procédez comme suit :
 
 1. Il arrive que l’ajout d’un fichier **robots.txt** ne soit pas suffisant en termes de sécurité. Par exemple, si un autre site web contient un lien vers votre page, il peut apparaître dans un résultat de recherche.
 
-   En plus de la variable **robots.txt** , il est conseillé d’ajouter une **X-Robots-Tag** en-tête . Vous pouvez le faire dans Apache ou IIS et dans la variable **serverConf.xml** fichier de configuration.
+   Outre le fichier **robots.txt**, il est conseillé d’ajouter un en-tête **X-Robots-Tag**. Vous pouvez le faire dans Apache ou IIS, ainsi que dans le fichier de configuration **serverConf.xml**.
 
    Pour plus d’informations, reportez-vous à [cet article](https://developers.google.com/search/reference/robots_meta_tag).
 

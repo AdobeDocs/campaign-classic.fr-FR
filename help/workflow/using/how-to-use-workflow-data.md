@@ -5,9 +5,9 @@ description: Découvrez comment utiliser les données d'un workflow
 feature: Workflows, Data Management
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -63,6 +63,6 @@ Dans le cadre d&#39;une diffusion par email, les champs de personnalisation peuv
 
 ![](assets/s_advuser_add_data_email.png)
 
-Si un code segment est spécifié dans une activité de ciblage, il est ajouté dans une colonne spécifique de la table du workflow et sera proposé avec les champs de personnalisation. Pour afficher tous les champs de personnalisation, cliquez sur le bouton **[!UICONTROL Extension Target > Autre...]** lien accessible à partir du bouton de personnalisation.
+Si un code segment est spécifié dans une activité de ciblage, il est ajouté dans une colonne spécifique de la table du workflow et il sera proposé avec les champs de personnalisation. Pour afficher tous les champs de personnalisation, cliquez sur le lien **[!UICONTROL Extension de la cible > Autre]** accessible au moyen du bouton de personnalisation.
 
 ![](assets/s_advuser_segment_code_select.png)

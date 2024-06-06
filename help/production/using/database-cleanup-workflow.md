@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2914'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ L&#39;**[!UICONTROL Assistant de déploiement]**, accessible à partir du menu *
 
 ![](assets/ncs_cleanup_deployment-wizard.png)
 
-Les champs de la variable **[!UICONTROL Purge des données]** correspondent aux options suivantes. Ils sont utilisés par certaines des tâches exécutées par la fonction **[!UICONTROL Nettoyer la base]** workflow :
+Les champs de la fenêtre **[!UICONTROL Purge des données]** correspondent aux options suivantes. Ils sont utilisés par certaines des tâches exécutées par le workflow **[!UICONTROL Nettoyage de la base]** :
 
 * Tracking consolidé : **NmsCleanup_TrackingStatPurgeDelay** (voir [Nettoyage des logs de tracking](#cleanup-of-tracking-logs))
 * Logs de diffusion : **NmsCleanup_BroadLogPurgeDelay** (voir [Nettoyage des logs de diffusion](#cleanup-of-delivery-logs))
@@ -189,7 +189,7 @@ Le workflow **[!UICONTROL Nettoyage de la base]** supprime également les diffus
 
 Cette tâche interrompt les diffusions dont la période de validité a expiré.
 
-1. La variable **[!UICONTROL Nettoyer la base]** crée la liste des diffusions ayant expiré. Cette liste inclut toutes les diffusions ayant expiré dont le statut est autre que **[!UICONTROL Terminé]** , ainsi que les diffusions récemment arrêtées avec plus de 10 000 messages non traités. La requête suivante est utilisée :
+1. Le workflow **[!UICONTROL Nettoyage de la base]** crée la liste des diffusions ayant expiré. Cette liste inclut toutes les diffusions ayant expiré dont l&#39;état est différent de **[!UICONTROL Terminé]**, ainsi que les diffusions récemment arrêtées avec plus de 10000 messages non traités. La requête suivante est utilisée :
 
    ```sql
    SELECT iDeliveryId, iState FROM NmsDelivery WHERE iDeleteStatus=0 AND iIsModel=0 AND iDeliveryMode=1 AND ( (iState >= 51 AND iState < 85 AND tsValidity IS NOT NULL AND tsValidity < $(currentDate) ) OR (iState = 85 AND DateMinusDays(15) < tsLastModified AND iToDeliver - iProcessed >= 10000 ))
@@ -322,7 +322,7 @@ Cette tâche purge chaque instance de workflow à l’aide de son identifiant (*
 
 >[!NOTE]
 >
->La fréquence de purge de l’historique est spécifiée pour chaque workflow dans la variable **Jours d&#39;historique** (valeur par défaut de 30 jours). Ce champ se trouve dans la variable **Exécution** de l’onglet des propriétés du workflow. Pour plus d’informations, consultez [cette section](../../workflow/using/workflow-properties.md#execution).
+>La périodicité de la purge de l’historique est définie pour chaque workflow dans le champ **Jours d’historique** (valeur par défaut de 30 jours). Ce champ se situe sur l’onglet **Exécution** des propriétés du workflow. Pour plus d’informations, consultez [cette section](../../workflow/using/workflow-properties.md#execution).
 
 1. Pour récupérer la liste des workflows à supprimer, la requête suivante est utilisée :
 
@@ -346,7 +346,7 @@ Cette tâche purge chaque instance de workflow à l’aide de son identifiant (*
 
    où `$(lworkflow)` est l’identifiant du workflow et `$(lhistory)` est l’identifiant de l’historique.
 
-1. Toutes les tables inutilisées sont supprimées. Pour cela, toutes les tables sont collectées à l&#39;aide d&#39;un **wkf%** saisissez mask à l&#39;aide de la requête suivante (postgresql) :
+1. Toutes les tables inutilisées sont supprimées. À cette fin, toutes les tables sont collectées grâce à un masque de type **wkf%** à l’aide de la requête suivante (postgresql) :
 
    ```sql
    SELECT relname FROM pg_class WHERE relname LIKE Lower('wkf%') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
@@ -387,7 +387,7 @@ DELETE FROM XtkWorkflowLogin WHERE iWorkflowId NOT IN (SELECT iWorkflowId FROM X
 
 ### Nettoyage des tables de travail orphelines {#cleanup-of-orphan-work-tables}
 
-Cette tâche supprime les tables de travail orphelines liées à des groupes. La variable **NmsGroup** table stocke les groupes à nettoyer (avec un type différent de 0). Le préfixe des noms de table est : **grp**. Pour identifier les groupes à nettoyer, la requête suivante est utilisée :
+Cette tâche supprime les tables de travail orphelines liées à des groupes. La table **NmsGroup** stocke les groupes à nettoyer (ceux dont le type est différent de 0). Le nom des tables de travail a pour préfixe **grp**. Pour identifier les groupes à nettoyer, la requête suivante est utilisée :
 
 ```sql
 SELECT iGroupId FROM NmsGroup WHERE iType>0"
@@ -457,7 +457,7 @@ Cette tâche permet de purger les logs de diffusion stockés dans différentes t
    SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL UNION SELECT distinct(sBroadLogExclSchema) FROM NmsDeliveryMapping WHERE sBroadLogExclSchema IS NOT NULL
    ```
 
-1. Lors de l&#39;utilisation du mid-sourcing, la variable **NmsBroadLogMid** n’est pas référencée dans les mappages de diffusion. La variable **nms:broadLogMid** schéma est ajouté à la liste récupérée par la requête précédente.
+1. Dans le cas de l&#39;utilisation du mid-sourcing, la table **NmsBroadLogMid** n&#39;est pas référencée dans les mappings de diffusion. Le schéma **nms:broadLogMid** est alors ajouté à la liste récupérée par la requête précédente.
 1. Le workflow **Nettoyage de la base** procède ensuite à la purge des enregistrements obsolètes dans les tables récupérées précédemment. La requête suivante est utilisée :
 
    ```sql
@@ -476,12 +476,12 @@ Cette tâche permet de purger les logs de diffusion stockés dans différentes t
 
 ### Nettoyage de la table NmsEmailErrorStat {#cleanup-of-the-nmsemailerrorstat-table-}
 
-Cette tâche nettoie la fonction **NmsEmailErrorStat** table. Le programme principal (**coalesceErrors**) définit deux dates :
+Cette tâche nettoie la table **NmsEmailErrorStat**. Le programme principal (**coalesceErrors**) définit deux dates :
 
 * **Date de début :** date du prochain traitement correspondant à l&#39;option **NmsLastErrorStatCoalesce** ou correspondant à la date la plus récente dans la table.
 * **Date de fin :** date courante du serveur.
 
-Si la date de début est supérieure ou égale à la date de fin, aucun traitement n&#39;est effectué. Dans ce cas, la variable **coalesceUpToDate** s’affiche.
+Si la date de début est supérieure ou égale à la date de fin, aucun traitement n&#39;a lieu. Le message **coalesceUpToDate** apparaît alors.
 
 Si la date de début est inférieure à la date de fin, la table **NmsEmailErrorStat** est nettoyée.
 

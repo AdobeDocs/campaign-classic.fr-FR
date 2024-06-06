@@ -2,14 +2,14 @@
 product: campaign
 title: Envoyer des e-mails sur des mobiles japonais avec Adobe Campaign Classic
 description: Découvrez comment configurer, concevoir et envoyer des e-mails qui seront lus sur un mobile japonais
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Email, Email Design
 role: User
 exl-id: 44634227-2340-49c4-b330-740c739ea551
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Pour qu&#39;un destinataire puisse recevoir correctement des messages dans l&#39
 
 Cependant, si vous laissez l&#39;option **[!UICONTROL Format des emails]** définie sur **[!UICONTROL Inconnu]**, **[!UICONTROL HTML]** ou **[!UICONTROL Texte]**, Adobe Campaign détectera automatiquement, lors de l&#39;envoi de l&#39;email, le format japonais à utiliser pour que le message s&#39;affiche correctement.
 
-Ce système de détection automatique est basé sur la liste des domaines prédéfinis définis dans la variable **[!UICONTROL Gestion des formats des emails]** jeu de règles mail. Pour plus d&#39;informations sur la gestion des formats d&#39;email, reportez-vous à la section [cette page](../../installation/using/email-deliverability.md#managing-email-formats).
+Ce système de détection automatique repose sur la liste des domaines prédéfinis dans l&#39;ensemble de règles de mail **[!UICONTROL Gestion des formats des emails]**. Pour plus d&#39;informations sur la gestion des formats des emails, consultez [cette page](../../installation/using/email-deliverability.md#managing-email-formats).
 
 ## Limites et recommandations {#limitations-and-recommendations}
 
@@ -103,4 +103,4 @@ Le contenu du message s&#39;affichera correctement d&#39;une part pour les utili
 
 >[!IMPORTANT]
 >
->Veillez à respecter les spécificités liées à chaque format d&#39;email japonais (Deco-mail, Decoration Mail et Decore Mail). Pour plus d’informations sur les limitations, voir [cette section](#limitations-and-recommendations).
+>Veillez toutefois à respecter les spécificités liées à chaque format d&#39;email japonais (Deco-mail, Decoration Mail et Decore Mail). Pour plus d&#39;informations sur les limites, consultez [cette section](#limitations-and-recommendations).

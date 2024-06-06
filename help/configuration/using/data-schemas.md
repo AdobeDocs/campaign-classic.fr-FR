@@ -6,9 +6,9 @@ feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Pour cela, vous devez créer le schéma de la table puis procéder à la mise à
    >
    >Par défaut, les schémas créés par les utilisateurs sont stockés dans l&#39;espace de noms « cus ». Pour plus d&#39;informations, consultez la section [Identification d&#39;un schéma](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 
-1. Créez le contenu du tableau. Il est recommandé d&#39;utiliser l&#39;assistant de saisie pour vérifier qu&#39;aucun paramètre n&#39;est manquant. Pour ce faire, cliquez sur le bouton **[!UICONTROL Insérer]** et sélectionnez le type de paramètre à ajouter.
+1. Créez le contenu de la table. Il est recommandé d’utiliser l’assistant de saisie pour s’assurer qu’il ne manque aucun paramètre. Pour ce faire, cliquez sur le bouton **[!UICONTROL Insérer]** et sélectionnez le type de paramètre à ajouter.
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 

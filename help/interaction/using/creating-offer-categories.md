@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: ed97a1b5-c870-4b67-98b6-16adc316fd46
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Pour créer une catégorie supplémentaire, procédez comme suit :
 
    ![](assets/offer_cat_create_002.png)
 
-1. Renommez la catégorie. Vous pouvez modifier le libellé ultérieurement à l’aide du **[!UICONTROL Général]** .
+1. Renommez la catégorie. Vous pourrez modifier le libellé ultérieurement via l&#39;onglet **[!UICONTROL Général]** de la catégorie.
 
    ![](assets/offer_cat_create_003.png)
 
@@ -58,6 +58,6 @@ Pour créer une catégorie supplémentaire, procédez comme suit :
 
      ![](assets/offer_cat_create_006.png)
 
-Un récapitulatif des règles d&#39;éligibilité est disponible sur le tableau de bord des offres incluses dans la catégorie. Pour les afficher, cliquez sur le bouton **[!UICONTROL Planning et règles d&#39;éligibilité de l&#39;offre]** lien.
+Un récapitulatif des règles d&#39;éligibilité est disponible sur le tableau de bord des offres faisant partie de la catégorie. Pour les visualiser, cliquez sur le lien **[!UICONTROL Planning et règles d&#39;éligibilité de l&#39;offre]**.
 
 ![](assets/offer_create_006.png)

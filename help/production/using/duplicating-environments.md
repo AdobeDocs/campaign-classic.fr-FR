@@ -3,15 +3,15 @@ product: campaign
 title: Duplication d'environnements
 description: Duplication d'environnements
 feature: Monitoring
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1318'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ pg_dump mydatabase > mydatabase.sql
 
 La plupart des éléments de configuration diffèrent d&#39;un environnement à l&#39;autre : comptes externes (mid-sourcing, routing, etc.), options techniques (nom de la plateforme, DatabaseId, adresses email et URL par défaut, etc.).
 
-Avant d&#39;enregistrer la base source dans la base cible, vous devez exporter la configuration de l&#39;environnement cible (recette). Pour cela, exportez le contenu de ces deux tables : **xtkoption** et **nmsextaccount**.
+Avant de restaurer la base source sur la base cible, vous devez exporter la configuration de l&#39;environnement cible (recette). Vous devez exporter le contenu des deux tables suivantes : **xtk:option** et **nms:extaccount**.
 
 Cet export permet de conserver la configuration de la recette et de ne rafraîchir que les données de la recette (workflows, modèles, applications Web, detinataires, etc.).
 

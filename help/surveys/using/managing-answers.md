@@ -2,13 +2,13 @@
 product: campaign
 title: Gestion des réponses
 description: Découvrez comment gérer les réponses aux questionnaires
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '904'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ En complément des modes de stockage standard communs à tous les formulaires We
 
 ### Stocker les réponses dans un champ archivé {#storing-in-an-archived-field}
 
-Il est facile d&#39;étendre le modèle de données en ajoutant de nouveaux espaces de stockage pour enregistrer les réponses fournies dans les questionnaires. Pour ce faire, sélectionnez l’option **[!UICONTROL Stocker les réponses à une question]** lors de la création du champ de saisie. Cliquez sur le bouton **[!UICONTROL Nouveau champ...]** et indiquez ses propriétés :
+Il est facile d&#39;étendre le modèle de données en ajoutant de nouveaux espaces de stockage pour enregistrer les réponses fournies dans les questionnaires. Pour cela, sélectionnez l&#39;option **[!UICONTROL Stocker les réponses à une question]** lors de la création du champ de saisie. Cliquez sur le bouton **[!UICONTROL Nouveau champ]** et indiquez ses propriétés :
 
 ![](assets/s_ncs_admin_survey_new_space.png)
 
@@ -60,7 +60,7 @@ Dans l&#39;onglet **[!UICONTROL Général]** du champ, le lien **[!UICONTROL Ini
 
 Pour stocker les types de contrats d&#39;un utilisateur dans un même champ, créez un champ de saisie de type **[!UICONTROL Texte]** et sélectionnez l&#39;option **[!UICONTROL Stocker les réponses à une question]**.
 
-Cliquez sur le bouton **[!UICONTROL Nouveau champ...]** et renseignez les propriétés du champ. Sélectionnez la variable **[!UICONTROL Plusieurs valeurs]** pour permettre le stockage de plusieurs valeurs.
+Cliquez sur le lien **[!UICONTROL Nouveau champ]** et saisissez les propriétés du champ. Sélectionnez l&#39;option **[!UICONTROL Valeurs multiples]** afin de permettre le stockage de plusieurs valeurs.
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex1.png)
 
@@ -80,7 +80,7 @@ Vous pouvez les visualiser dans l&#39;onglet **[!UICONTROL Réponses]** du quest
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex4.png)
 
-Vous pouvez également filtrer les destinataires en fonction des réponses afin de n&#39;afficher que les utilisateurs qui vous intéressent. Pour cela, créez un workflow de ciblage et utilisez la méthode **[!UICONTROL Réponses à un questionnaire]** de la boîte.
+Vous pouvez également filtrer les destinataires en fonction des réponses fournies pour n&#39;afficher que les utilisateurs recherchés. Pour cela, créez un workflow de ciblage et utilisez la boîte **[!UICONTROL Réponses à un questionnaire]**.
 
 ![](assets/s_ncs_admin_survey_read_responses_wf.png)
 
@@ -113,7 +113,7 @@ Pour cela :
 
 ![](assets/s_ncs_admin_survey_xml_archive_option.png)
 
-Vous pouvez l&#39;activer par défaut pour toutes les enquêtes (cette option est appliquée à la publication de l&#39;enquête). Pour ce faire, créez le **[!UICONTROL NmsWebApp_XmlBackup]** option et attribuer une valeur **[!UICONTROL 1]** , comme illustré ci-dessous :
+Vous pouvez l&#39;activer par défaut pour tous les questionnaires (cette option est appliquée à la publication du questionnaire). Pour ce faire, créez l’option **[!UICONTROL NmsWebApp_XmlBackup]** et affectez-lui la valeur **[!UICONTROL 1]**, comme illustré ci-dessous :
 
 ![](assets/s_ncs_admin_survey_xml_global_option.png)
 

@@ -6,9 +6,9 @@ role: User, Data Engineer
 feature: Typology Rules, Campaigns
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Avec Adobe Campaign, vous pouvez concevoir et appliquer quatre types de règles
 * Les règles de **capacité** qui vous permettent de limiter les charges pour garantir des conditions de traitement optimales. Voir à ce sujet la section [Contrôler la capacité](consistency-rules.md#controlling-capacity).
 * Les règles de **contrôle** qui vous permettent de vérifier la validité des messages avant leur envoi. Voir à ce sujet la section [Règles de contrôle](control-rules.md).
 
-Une fois créées, les règles de typologie sont regroupées dans des typologies de campagne qui sont référencées dans les diffusions. Voir [Appliquer les typologies](#applying-typologies).
+Une fois créées, les règles de typologie sont regroupées dans des typologies de campagne, qui sont référencées dans les diffusions. Pour plus d&#39;informations, consultez la section [Appliquer les typologies](#applying-typologies).
 
 ## Typologies {#typologies}
 
@@ -56,7 +56,7 @@ Vous trouverez ci-dessous les étapes nécessaires pour créer et appliquer une 
    Les typologies sont accessibles sous le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des typologies]** > **[!UICONTROL Typologies]**.
 
 1. Configurez votre diffusion pour utiliser la typologie que vous avez créée. Pour plus d’informations, consultez [cette section](applying-rules.md#applying-a-typology-to-a-delivery).
-1. Testez et contrôlez le comportement par le biais de simulations de campagne. Pour plus d&#39;informations sur les simulations d&#39;opérations, reportez-vous à la section [cette section](campaign-simulations.md).
+1. Testez et contrôlez le comportement par le biais de simulations de campagne. Pour plus d&#39;informations sur les simulations de campagnes, consultez [cette section](campaign-simulations.md).
 
 Lors de la préparation de la diffusion, les destinataires sont exclus lorsque le critère est satisfait. Vous pouvez consulter les journaux pour surveiller les exclusions. Des exemples de cas d’utilisation des règles de typologie de pression sont disponibles dans [cette page](pressure-rules.md#use-cases-on-pressure-rules).
 

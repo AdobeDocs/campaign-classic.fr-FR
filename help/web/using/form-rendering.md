@@ -2,13 +2,13 @@
 product: campaign
 title: Rendu du formulaire
 description: Rendu du formulaire
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1051'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ La loupe permet d&#39;éditer le modèle sélectionné.
 
 ![](assets/s_ncs_admin_survey_render_edit.png)
 
-Vous pouvez modifier ou remplacer ces modèles. Pour ce faire, cliquez sur le bouton **[!UICONTROL Mise en page...]** lier et personnaliser les informations.
+Vous pouvez modifier ou remplacer ces modèles. Pour cela, cliquez sur le lien **[!UICONTROL Mise en page]** et personnalisez les informations.
 
 ![](assets/s_ncs_admin_survey_render_edit_param.png)
 
@@ -41,13 +41,13 @@ L&#39;onglet **[!UICONTROL En-têtes/Pieds]** permet de modifier les information
 
 ![](assets/s_ncs_admin_survey_render_edit_header.png)
 
-Chaque ligne de la variable **[!UICONTROL En-têtes de page]** et **[!UICONTROL Pieds de page]** correspond à une ligne de la page de HTML. Cliquez sur **[!UICONTROL Ajouter]** pour créer une ligne.
+Chaque ligne des sections **[!UICONTROL En-têtes de page]** et **[!UICONTROL Pieds de page]** correspond à une ligne dans la page HTML. Cliquez sur **[!UICONTROL Ajouter]** pour créer une nouvelle ligne.
 
 Sélectionnez une ligne existante et cliquez sur le bouton **[!UICONTROL Détail]** pour la personnaliser.
 
 ![](assets/s_ncs_admin_survey_render_edit_header_detail.png)
 
-Vous pouvez modifier le contenu de la ligne, ajouter des bordures et modifier les attributs de police à partir des onglets correspondants. Cliquez sur **[!UICONTROL OK]** pour confirmer ces modifications.
+Vous pouvez modifier le contenu de la ligne, ajouter des bordures et changer les attributs de la police de caractères utilisée à partir des onglets correspondants. Cliquez sur **[!UICONTROL OK]** pour valider ces modifications.
 
 Les champs **[!UICONTROL Position]** permettent de définir la position des éléments dans l&#39;en-tête et dans le pied de page.
 
@@ -77,7 +77,7 @@ Il permet de définir les propriétés suivantes :
 * **[!UICONTROL Largeur]** de la zone : elle peut être exprimée en pourcentage, en em, en points ou en pixels (valeur par défaut),
 * **[!UICONTROL Longueur]** maximale : nombre de caractères maximum autorisé (pour un contrôle de type Texte, Nombre, Mot de passe),
 * **[!UICONTROL Lignes]** : nombre de lignes pour une zone de type **[!UICONTROL Texte Multi-lignes]**,
-* **[!UICONTROL Style intégré]**: vous permet de surcharger la feuille de style CSS avec des paramètres supplémentaires. Ces fichiers sont séparés à l’aide de **;** comme illustré dans l’exemple ci-dessous :
+* **[!UICONTROL Style intégré]** : permet de surcharger la feuille de style CSS avec des paramètres supplémentaires. Ces derniers sont séparés à l’aide des caractères **;** comme illustré dans l’exemple ci-dessous :
 
   ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
@@ -85,13 +85,13 @@ Il permet de définir les propriétés suivantes :
 
 Les champs sont enchaînés dans une arborescence dont la racine porte le nom de la page. Sélectionnez-la pour modifier ce nom.
 
-Le titre de la fenêtre doit être saisi dans la **[!UICONTROL Page]** de la fenêtre des propriétés du formulaire. Vous pouvez également ajouter un contenu défini à l’en-tête et au pied de page (ces informations s’afficheront sur chaque page). Ce contenu est saisi dans les sections correspondantes de la fonction **[!UICONTROL Textes]** , comme illustré ci-dessous :
+Le titre de la fenêtre doit être saisi dans l&#39;onglet **[!UICONTROL Page]** de la fenêtre des propriétés du formulaire. Vous pouvez également ajouter un contenu fixe à l’en-tête et au pied de page (ces informations figureront sur chacune des pages). Ce contenu doit être saisi dans les sections correspondantes de l&#39;onglet **[!UICONTROL Textes]**, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_admin_survey_titles_config.png)
 
 ### Ajouter des éléments dans l&#39;en-tête HTML {#adding-elements-to-html-header}
 
-Vous pouvez saisir des éléments supplémentaires à insérer dans l’en-tête de HTML d’une page de formulaire. Pour ce faire, saisissez les éléments dans le champ **[!UICONTROL En-tête]** de la page concernée.
+Vous pouvez saisir des élément additionnels à insérer dans l&#39;en-tête HTML d&#39;une page de formulaire. Pour cela, saisissez ces éléments dans l&#39;onglet **[!UICONTROL En-tête]** de la page visée.
 
 Ainsi, par exemple, vous pouvez y référencer une icône qui sera affichée dans la barre de titre de la page.
 
@@ -157,7 +157,7 @@ Dans la fenêtre de sélection d&#39;un champ, vous pouvez sélectionner parmi l
 
 Pour plus d&#39;informations, reportez-vous au cas d&#39;utilisation disponible ici : [Afficher différentes options en fonction de la valeur sélectionnée](use-cases-web-forms.md#displaying-different-options-depending-on-the-selected-values).
 
-Vous pouvez également conditionner l’affichage des pages du formulaire à l’aide de la fonction **[!UICONTROL Test]** . Pour en savoir plus à ce sujet, consultez cette [page](defining-web-forms-page-sequencing.md#conditional-page-display).
+Vous pouvez aussi conditionner l&#39;affichage des pages du formulaire via l&#39;objet **[!UICONTROL Test]**. Pour en savoir plus à ce sujet, consultez cette [page](defining-web-forms-page-sequencing.md#conditional-page-display).
 
 ## Importer des éléments depuis un formulaire existant {#importing-elements-from-an-existing-form}
 

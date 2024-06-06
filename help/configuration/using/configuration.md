@@ -6,9 +6,9 @@ description: Découvrez comment configurer l’arborescence de navigation de l�
 role: Data Engineer, Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1207'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -83,14 +83,14 @@ La description d&#39;une commande globale est renseignée sur l&#39;élément **
 * **label** : libellé de la commande.
 * **desc** : description visible à partir de la barre de statut de l&#39;écran principal.
 * **form** : formulaire à lancer : la valeur à renseigner est la clé d&#39;identification du formulaire de saisie (par exemple &quot;cus:recipient&quot;).
-* **rights**: liste des droits nommés (séparés par une virgule) permettant d&#39;accéder à cette commande. La liste des droits disponibles est accessible à partir du **[!UICONTROL Administration > Gestion des accès > Droits nommés]** dossier.
+* **rights** : liste des droits nommés (séparés par une virgule) permettant l&#39;accès à cette commande. La liste des droits disponibles est accessible à partir du dossier **[!UICONTROL Administration > Gestion des accès > Droits nommés]**.
 * **promptLabel** : affiche une boîte de confirmation avant l&#39;exécution de la commande.
 
 Un élément **`<command>`** peut contenir des sous-éléments **`<command>`**. Dans ce cas, l’élément parent vous permet d’afficher un sous-menu composé de ces éléments enfants.
 
 L&#39;affichage des commandes respecte l&#39;ordre de déclaration dans le document XML.
 
-Un séparateur de commande permet d&#39;afficher une barre de séparation entre les commandes. Il est identifié par la variable **&#39;-&#39;** contenu dans le libellé de la commande.
+Un séparateur de commande permet d’afficher une barre de séparation entre les commandes. Il est identifié par la valeur **&#39;-&#39;** contenue dans le libellé de la commande.
 
 La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur l’API SOAP, consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr).
 
@@ -252,7 +252,7 @@ La description de la commande est renseignée sur l’élément **`<command>`** 
 * **label** : libellé de la commande.
 * **desc** : description visible à partir de la barre de statut de l&#39;écran principal.
 * **form** : formulaire à lancer : la valeur à renseigner est la clé d&#39;identification du formulaire de saisie (par exemple : &quot;cus:recipient&quot;).
-* **rights**: liste des droits nommés (séparés par une virgule) permettant d&#39;accéder à cette commande. La liste des droits disponibles est accessible à partir du **[!UICONTROL Administration > Gestion des accès > Droits nommés]** dossier.
+* **rights** : liste des droits nommés (séparés par une virgule) permettant l&#39;accès à cette commande. La liste des droits disponibles est accessible à partir du dossier **[!UICONTROL Administration > Gestion des accès > Droits nommés]**.
 * **promptLabel** : affiche une boîte de confirmation avant l&#39;exécution de la commande.
 * **monoSelection** : force la mono sélection (sélection multiple par défaut).
 * **refreshView** : force le rechargement de la liste après l&#39;exécution de la commande.
@@ -263,7 +263,7 @@ Un élément **`<command>`** peut contenir des sous-éléments **`<command>`**. 
 
 L&#39;affichage des commandes respecte l&#39;ordre de déclaration dans le document XML.
 
-Un séparateur de commande permet d&#39;afficher une barre de séparation entre les commandes. Il est identifié par la variable **&#39;-&#39;** contenu dans le libellé de la commande.
+Un séparateur de commande permet d’afficher une barre de séparation entre les commandes. Il est identifié par la valeur **&#39;-&#39;** contenue dans le libellé de la commande.
 
 La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur les API SOAP, consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr).
 

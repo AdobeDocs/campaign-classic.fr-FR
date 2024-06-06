@@ -3,13 +3,13 @@ product: campaign
 title: Adresses de contrôle
 description: Adresses de contrôle
 role: Data Engineer, Developer
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Les étapes sont les suivantes :
    name="custom_customNamespace_customSchema"
    ```
 
-   Cet élément doit contenir les champs nécessaires à l&#39;export des campagnes. Ces champs doivent porter le même nom que les champs correspondants du schéma externe. Par exemple, si le schéma est **[!UICONTROL cus:person]** , la variable **[!UICONTROL nms:seedMember]** schéma doit être étendu comme suit :
+   Cet élément doit contenir les champs nécessaires à l&#39;export des campagnes. Ces champs doivent porter le même nom que les champs correspondants du schéma externe. Par exemple, si le schéma est **[!UICONTROL cus:person]**, le schéma **[!UICONTROL nms:seedMember]** devra être étendu comme dans l&#39;exemple suivant :
 
    ```
      <srcSchema extendedSchema="nms:seedMember" label="Seed addresses" labelSingular="Seed address" name="seedMember" namespace="cus">
@@ -79,7 +79,7 @@ Les étapes sont les suivantes :
    >    
    >    * Lors de l&#39;extension, vous devez obligatoirement préciser **un nom SQL (@sqlname)** pour le champ &#39;email&#39;. Le nom SQL doit être différent de &#39;sEmail&#39; qui est réservé pour le schéma des destinataires.
    >    * Vous devez impérativement mettre à jour la structure de la base avec le schéma créé lors de l&#39;extension de **nms:seedMember**.
-   >    * Dans le **nms:seedMember** , le champ contenant l’adresse électronique doit avoir la valeur **name=&quot;email&quot;** comme attribut. Le nom SQL doit être différent de &#39;sEmail&#39; qui est déjà utilisé pour le schéma des destinataires. Cet attribut doit être immédiatement déclaré sous la variable **`<element name="custom_cus_person" />`** élément .
+   >    * Dans l’extension **nms:seedMember**, le champ contenant l&#39;adresse e-mail doit avoir comme attribut **name=&quot;email&quot;**. Le nom SQL doit être différent de « sEmail » qui est déjà utilisé pour le schéma des destinataires. Cet attribut doit être immédiatement déclaré sous l’élément **`<element name="custom_cus_person" />`**.
    >    
    >
 

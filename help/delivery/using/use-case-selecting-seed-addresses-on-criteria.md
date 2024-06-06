@@ -2,13 +2,13 @@
 product: campaign
 title: '« Cas d’utilisation : sélectionner des adresses de contrôle selon des critères »'
 description: '« Cas d’utilisation : sélectionner des adresses de contrôle selon des critères »'
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -87,13 +87,13 @@ Pour plus d’informations sur les extensions de schéma, consultez [cette secti
 
    ![](assets/dlv_seeds_usecase_13.png)
 
-1. Suivez l’assistant jusqu’à ce que vous accédiez à la page pour exécuter la mise à jour. Cliquez sur le bouton **[!UICONTROL Démarrer]** pour lancer l&#39;opération.
+1. Suivez l&#39;assistant pour afficher la page de lancement de la mise à jour. Cliquez sur le bouton **[!UICONTROL Démarrer]** pour lancer l&#39;opération.
 
    ![](assets/dlv_seeds_usecase_14.png)
 
    Lorsque la mise à jour est terminée, vous pouvez fermer l&#39;assitant.
 
-1. Déconnectez-vous, puis reconnectez-vous à Adobe Campaign. Les modifications apportées au schéma de données des adresses de contrôle sont désormais effectives. Pour qu&#39;ils soient visibles à partir de l&#39;écran des adresses de contrôle, vous devez mettre à jour le **[!UICONTROL Formulaire de saisie]**. Pour plus dʼinformations, consultez la section [Mise à jour du formulaire de saisie](#updating-the-input-form).
+1. Déconnectez-vous, puis reconnectez-vous à Adobe Campaign. Les modifications apportées au schéma de données des adresses de contrôle sont désormais effectives. Pour qu&#39;elles soient visibles depuis l&#39;écran des adresses de contrôle, vous devez mettre à jour le **[!UICONTROL Formulaire de saisie]** associée. Pour plus dʼinformations, consultez la section [Mise à jour du formulaire de saisie](#updating-the-input-form).
 
 #### Extension du schéma de données à partir dʼune table liée {#extending-the-data-schema-from-a-linked-table}
 
@@ -103,7 +103,7 @@ Par exemple, l&#39;utilisateur souhaite intégrer l&#39;**[!UICONTROL Extension 
 
 ![](assets/dlv_seeds_usecase_06.png)
 
-Ils doivent donc étendre le schéma de données des adresses de contrôle comme décrit dans la section . Toutefois, les lignes de code à intégrer à **étape 4** sont les suivantes :
+Le schéma de données des adresses de contrôle doit donc être étendu comme décrit dans la section. Toutefois, les lignes de code à intégrer à l’**étape 4** sont les suivantes :
 
 ```
 <element name="country">
@@ -146,7 +146,7 @@ Pour plus dʼinformations, consultez la section [Mise à jour du formulaire de s
    ![](assets/dlv_seeds_usecase_21.png)
 
 1. Enregistrez vos modifications.
-1. Ouvrez une adresse de contrôle. La variable **[!UICONTROL Service]** apparaît dans le champ **[!UICONTROL Destinataire]** table.
+1. Ouvrez une adresse de contrôle. Le champ **[!UICONTROL Service]** apparaît dans la table **[!UICONTROL Destinataire]**.
 
    ![](assets/dlv_seeds_usecase_22.png)
 
@@ -164,17 +164,17 @@ Vous pouvez maintenant définir la condition dynamique de sélection des adresse
 
    ![](assets/dlv_seeds_usecase_02.png)
 
-1. Sélectionnez l&#39;expression qui vous permet de choisir les adresses de contrôle désirées. Ici, l’utilisateur sélectionne la variable **[!UICONTROL Service (@workField)]** expression.
+1. Choisissez l&#39;expression qui vous permet de sélectionner les adresses de contrôle désirées. Ici l&#39;utilisateur sélectionne l&#39;expression **[!UICONTROL Service (@workField)]**.
 
    ![](assets/dlv_seeds_usecase_03.png)
 
-1. Sélectionnez la valeur souhaitée. Dans cet exemple, l’utilisateur sélectionne la variable **Achat** département dans la liste déroulante des valeurs.
+1. Choisissez la valeur souhaitée. Dans cet exemple, l&#39;utilisateur choisit le service **Achats** dans la liste déroulante des valeurs.
 
    ![](assets/dlv_seeds_usecase_17.png)
 
    >[!NOTE]
    >
-   >L’extension de schéma créée précédemment provient de la variable **destinataire** schéma. Les valeurs affichées dans l&#39;écran ci-dessus proviennent d&#39;une énumération de la fonction **destinataire** schéma.
+   >L&#39;extension de schéma créée plus tôt provient du schéma **recipient**. Les valeurs affichées dans l&#39;écran ci-dessus viennent d&#39;une énumération du schéma **recipient**.
 
 1. Cliquez sur **[!UICONTROL Ok]**.
 

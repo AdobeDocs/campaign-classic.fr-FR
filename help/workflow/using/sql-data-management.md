@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow de gestion des donnée
 feature: Workflows
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ L&#39;activité **Gestion des données SQL** permet d&#39;écrire vos requêtes 
 
 Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont remplis :
 
-* L’activité est disponible uniquement pour les sources de données distantes. La variable **[!UICONTROL FDA]** Le package (Federated Data Access) doit donc être installé sur votre instance. [En savoir plus](../../installation/using/about-fda.md).
+* L&#39;activité est disponible uniquement pour les sources de données distantes. Le package **[!UICONTROL FDA]** (Federated Data Access) doit donc être installé sur votre instance. [En savoir plus](../../installation/using/about-fda.md).
 
   Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
 
@@ -47,7 +47,7 @@ Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont 
    >
    >Il incombe à la personne chargée de l&#39;écriture du script SQL de s&#39;assurer que celui-ci est fonctionnel et que ses références (noms de champs, etc.) sont conformes au schéma sortant.
 
-   Si vous souhaitez charger un code SQL existant, sélectionnez la variable **[!UICONTROL Le script SQL est contenu dans une entité stockée dans la base de données]** . Les scripts SQL doivent être créés et stockés dans la variable **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL Scripts SQL]** .
+   Si vous souhaitez charger un code SQL existant, sélectionnez l&#39;option **[!UICONTROL Le code SQL est contenu dans une entité stockée dans la base]**. Les scripts SQL doivent être créés et stockés dans le menu **[!UICONTROL Administration]** / **[!UICONTROL Paramétrage]** / **[!UICONTROL Scripts SQL]**.
 
    Sinon, saisissez ou effectuez un copier-coller du script SQL dans la zone dédiée.
 

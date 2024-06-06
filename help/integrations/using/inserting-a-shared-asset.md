@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: asset-sharing
 exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -46,4 +46,4 @@ Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisé
 
 >[!NOTE]
 >
->Si vous utilisez l’intégration avec Adobe Target, vous pouvez utiliser une image partagée comme image par défaut. Pour plus d’informations, consultez [cette page](../../integrations/using/integrating-with-adobe-target.md).
+>Si vous utilisez l&#39;intégration avec Adobe Target, vous pouvez utiliser une image partagée comme image par défaut. Pour plus d’informations, consultez [cette page](../../integrations/using/integrating-with-adobe-target.md).

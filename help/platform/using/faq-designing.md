@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -52,15 +52,15 @@ Les messages diffusés par Adobe Campaign peuvent faire l&#39;objet de plusieur
 
 * Personnaliser le format du message. [Pour en savoir plus, cliquez ici](../../delivery/using/defining-the-email-content.md#message-content).
 * Insérer des champs de personnalisation dynamiques. [Pour en savoir plus, cliquez ici](../../delivery/using/personalization-fields.md).
-* Insérer des blocs de personnalisation prédéfinis ou créer votre propre bloc. [Pour en savoir plus, cliquez ici](../../delivery/using/personalization-blocks.md).
-* Créer du contenu conditionnel. [Cliquez ici pour en savoir plus](../../delivery/using/conditional-content.md) et lire [cette section](../../delivery/using/conditional-content.md).
+* Insérer des blocs de personnalisation prédéfinis ou créer les vôtres. [Pour en savoir plus, cliquez ici](../../delivery/using/personalization-blocks.md).
+* Créer du contenu conditionnel. [Pour en savoir plus, cliquez ici](../../delivery/using/conditional-content.md) et consultez [cette section](../../delivery/using/conditional-content.md).
 
 ## Puis-je envoyer des messages multilingues ?  {#can-i-send-multilingual-messages-}
 
 Vous pouvez envoyer des messages multilingues à vos destinataires, en fonction de leurs préférences ou de leur pays, par exemple.
 
-Pour cela, vous pouvez localiser le contenu du message et le personnaliser en fonction du profil du destinataire, à l&#39;aide de la fonction [conditions](../../delivery/using/conditional-content.md). Vous pouvez également utiliser [workflows](../../workflow/using/split.md) pour sélectionner la version du message à envoyer en fonction d&#39;un test sur la langue souhaitée.
+Pour cela, vous pouvez localiser le contenu du message et le personnaliser en fonction du profil du destinataire, à l&#39;aide de [conditions](../../delivery/using/conditional-content.md). Vous pouvez également utiliser des [workflows](../../workflow/using/split.md) pour sélectionner la version du message à envoyer en fonction d&#39;un test sur les préférences linguistiques.
 
-## Comment puis-je localiser un formulaire web ?  {#how-can-i-localize-a-webform-}
+## Comment puis-je localiser un formulaire web ? {#how-can-i-localize-a-webform-}
 
-Vous pouvez localiser une application web dans plusieurs langues. Le mécanisme de traduction est présenté dans la section [cette section](../../web/using/translating-a-web-form.md).
+Vous pouvez localiser une application web dans plusieurs langues. Le mécanisme de traduction est présenté dans [cette section](../../web/using/translating-a-web-form.md).

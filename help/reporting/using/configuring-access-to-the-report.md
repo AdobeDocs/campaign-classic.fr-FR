@@ -3,12 +3,12 @@ product: campaign
 title: Configuration de l’accès au rapport
 description: Configuration de l’accès au rapport
 feature: Reporting, Monitoring
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Définissez le contexte d&#39;affichage du rapport dans la plateforme Adobe Cam
 
 ### Type de sélection {#selection-type}
 
-L&#39;accès au rapport peut être limité à un contexte ou emplacement spécifique, par exemple une diffusion, un destinataire, une sélection de destinataires, etc. Cet accès est configuré dans la variable **[!UICONTROL Type de sélection]** de la **[!UICONTROL Affichage]** .
+L&#39;accès au rapport peut être limité à un contexte, ou emplacement, spécifique, par exemple une diffusion, un destinataire, une sélection de destinataires, etc. Cet accès est paramétré dans la section **[!UICONTROL Type de sélection]** de l&#39;onglet **[!UICONTROL Affichage]**.
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 
@@ -86,7 +86,7 @@ A titre d&#39;exemple, nous allons créer un lien vers un rapport afin qu&#39;il
 
    ![](assets/s_ncs_advuser_report_wizard_link_01.png)
 
-1. Sélectionnez le rapport vers lequel vous souhaitez créer un lien à l&#39;aide de la liste déroulante. Dans cet exemple, nous allons sélectionner la variable **Répartition par pays** rapport.
+1. Sélectionnez le rapport vers lequel vous souhaitez créer un lien à l&#39;aide de la liste déroulante. Dans notre exemple nous sélectionnons le rapport **Répartition par pays**.
 
    ![](assets/s_ncs_advuser_report_wizard_link_02.png)
 
@@ -114,11 +114,11 @@ Avant de publier votre rapport, vérifiez qu&#39;il s&#39;affiche correctement d
 
 Pour afficher l&#39;aperçu du rapport, sélectionnez l&#39;option **[!UICONTROL Global]** ou **[!UICONTROL Sélection]**.
 
-Ces deux options sont sélectionnées en fonction des paramètres d&#39;affichage du rapport. Si le paramètre d’affichage est **[!UICONTROL Global]**, vous devez sélectionner la variable **[!UICONTROL Global]** option d’aperçu. Si les paramètres d’affichage sont **[!UICONTROL Sélection unique]** ou **[!UICONTROL Sélection multiple]**, la variable **[!UICONTROL Sélection]** l’option d’aperçu doit être sélectionnée.
+Vous devrez choisir entre ses deux options en fonction des paramètres d&#39;affichage du rapport. Si le paramètre d&#39;affichage choisi est **[!UICONTROL Global]**, vous devrez sélectionner l&#39;option d&#39;aperçu **[!UICONTROL Global]**. Si les paramètres d&#39;affichage sont **[!UICONTROL Mono-sélection]** ou **[!UICONTROL Multi-sélection]**, l&#39;option d&#39;aperçu **[!UICONTROL Sélection]** doit être sélectionné.
 
 Voir à ce sujet la section [Contexte d&#39;affichage des rapports](#report-display-context).
 
-Des paramètres spécifiques permettent de contrôler les erreurs. La variable **_uuid** se trouve dans l’URL du rapport. Vous pouvez ajouter la variable **&amp;_preview** ou le **&amp;_debug** à cette fin.
+Vous disposez également de paramètres qui vous permettent de contrôler les erreurs. Le paramètre **_uuid** est présent dans l&#39;URL du rapport. Vous pouvez lui adjoindre les paramètres **&amp;_preview** ou **&amp;_debug**.
 
 Pour plus d&#39;informations sur ces paramètres, consultez la section **Définir les propriétés d&#39;un formulaire web** du chapitre [Formulaires Web](../../web/using/about-web-forms.md).
 

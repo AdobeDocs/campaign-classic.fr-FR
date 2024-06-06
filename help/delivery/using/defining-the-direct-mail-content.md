@@ -2,14 +2,14 @@
 product: campaign
 title: Définition du contenu du publipostage direct
 description: Découvrez comment définir le contenu du publipostage direct
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Direct Mail
 role: User
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 69%
 
 Le nom du fichier contenant les données extraites est défini dans le champ **[!UICONTROL Fichier]**. Le bouton situé à droite du champ permet d&#39;utiliser des champs de personnalisation pour créer le nom du fichier.
 
-Par défaut, le fichier d&#39;extraction est créé et stocké sur le serveur. Vous pouvez l&#39;enregistrer sur votre ordinateur. Pour ce faire, cochez la case **[!UICONTROL Téléchargez le fichier généré après l&#39;analyse de la diffusion.]**. Dans ce cas, vous devez indiquer le chemin d’accès au répertoire de stockage local ainsi que le nom du fichier.
+Par défaut, le fichier d&#39;extraction est créé et stocké sur le serveur. Vous pouvez l&#39;enregistrer sur votre ordinateur. Pour cela, cochez l&#39;option **[!UICONTROL Rapatrier en local le fichier généré après l&#39;export]**. Dans ce cas, vous devez indiquer le chemin d&#39;accès au répertoire de stockage local et le nom du fichier.
 
 ![](assets/s_ncs_user_mail_delivery_local_file.png)
 

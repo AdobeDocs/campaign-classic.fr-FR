@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 feature: Reporting, Monitoring
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3098'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-Ce rapport repose sur la variable **[!UICONTROL Tracking consolidé]** table (nms:trackingStats). Ce tableau agrégé est utilisé pour des raisons de performances lors de l’affichage des rapports, à la place de la fonction **[!UICONTROL Logs de tracking des destinataires]** table (nms:trackingLogRcp) et elle n&#39;est pas calculée en temps réel. Le tableau est généré quelques minutes après la récupération des logs de tracking. Si les indicateurs sont à jour, les résultats seront les mêmes que pour les indicateurs de la variable **Indicateurs de tracking** rapport. L&#39;indicateur @totalclicks indique le nombre total de clics sur une période de 5 minutes.
+Ce rapport se base sur la table **[!UICONTROL Tracking consolidé]** (nms:trackingStats). Cette table d&#39;agrégats est utilisée pour des raisons de performance lors de l&#39;affichage des rapports, à la place de la table **[!UICONTROL Logs de tracking des destinaires]** (nms:trackingLogRcp) et n&#39;est pas calculée en temps réel. La table est générée quelques minutes après la récupération des logs de tracking. Si les indicateurs sont à jour, les résultats seront les mêmes que pour les indicateurs du rapport **Indicateurs de tracking**. L&#39;indicateur @totalclicks correspond à la somme des clics sur une période de 5 minutes.
 
 ## Non-délivrables et rebonds {#non-deliverables-and-bounces-1}
 
@@ -132,7 +132,7 @@ Ce rapport se base sur la table **[!UICONTROL Statistiques d&#39;envoi et de tra
 
 **Répartition par domaine**
 
-La deuxième partie du rapport présente la répartition des messages en échec, par domaine Internet et non par type d&#39;erreur. La formule associée au **Erreur** Indicateur (@value) dans ce cas est : Count(@status=2 et @domain=&quot;Valeur du nom de domaine&quot;), c&#39;est-à-dire un comptage de tous les messages dont le statut est en échec pour ce domaine.
+La deuxième partie du rapport présente la répartition des messages en échec, non pas par type d&#39;erreur, mais par domaine Internet. Dans ce cas, la formule associée à l’indicateur **Erreur** (@value) est : Count(@status=2 et @domain=&quot;Valeur du nom de domaine&quot;), c&#39;est-à-dire un décompte de tous les messages dont le statut est en échec pour ce domaine.
 
 ## Navigateurs {#browsers-1}
 
@@ -481,7 +481,7 @@ Ce rapport se base sur la table **[!UICONTROL Services]** (nms:service).
   <tr> 
    <td> Evolution<br /> </td> 
    <td> -<br /> </td> 
-   <td> Nombre d'abonnements soustrait au nombre de désabonnements. Le taux est calculé par rapport au nombre total d'abonnés.<br /> </td> 
+   <td> Nombre de désabonnements soustrait au nombre d'abonnements. Le taux associé est calculé par rapport au nombre total d'abonnés.<br /> </td> 
    <td> Iif(number(@_subscription) &gt; number(@_unsubscription), '+', '')+format(@_subscription - @_unsubscription, 'number', '# ##0')+ Iif(@_subscriber&gt;0,' (' + format(100*percent(@_subscription - @_unsubscription, @_subscriber), 'number', '#,##0.00')+ '%)','')<br /> </td> 
   </tr> 
   <tr> 
@@ -915,11 +915,11 @@ Ce rapport se base sur les tables **Diffusions** (nms:delivery) et **Logs de tra
 
 ## Autres indicateurs {#other-indicators}
 
-La variable **Envoyé** Indicateur (@sent), accessible à partir du **Diffusions (nms:delivery) > Indicateurs** correspond au nombre total de SMS envoyés au prestataire. Cet indicateur n&#39;est utilisé que pour les diffusions SMS et ne doit pas être utilisé pour d&#39;autres types de diffusions (à ne pas confondre avec le **@success** et **@processed** les indicateurs).
+L&#39;indicateur **Envoyés** (@sent), accessible à partir du noeud **Diffusions(nms:delivery)>Indicateurs**, correspond au nombre total de SMS envoyés au prestataire. Cet indicateur est utilisé uniquement pour les diffusions SMS et ne doit pas être utilisé pour les autres types de diffusions (ne pas confondre avec les indicateurs **@success** et **@processed**).
 
 ## Synchronisation des indicateurs {#indicator-synchronization}
 
-Si vous rencontrez une désynchronisation ou une incohérence pour certains indicateurs, sélectionnez la diffusion concernée dans l&#39;explorateur Adobe Campaign, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Action > Recalculer les indicateurs de diffusion et de tracking]**. Cliquez sur **[!UICONTROL Suivant]**, puis cliquez sur **[!UICONTROL Terminer]**.
+Si vous observez une désynchronisation ou une incohérence de certains indicateurs, sélectionnez la diffusion concernée dans l&#39;explorateur Adobe Campaign, cliquez avec le bouton droit et choisissez **[!UICONTROL Actions > Recalculer les indicateurs de diffusion et de tracking]**. Cliquez sur **[!UICONTROL Suivant]** puis sur **[!UICONTROL Terminer]**.
 
 ![](assets/s_ncs_user_recalculate_indicators.png)
 

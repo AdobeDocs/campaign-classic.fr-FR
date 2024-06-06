@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: appendices
 exl-id: e2b026ba-aaf3-443d-8c36-c908288a14fd
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '36'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -42,4 +42,4 @@ rm -rf /user/local/neolane
 
 **Windows :**
 
-Consultez cette section [page](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version). N’oubliez pas de supprimer le dossier d’installation de Campaign.
+Consultez cette [page](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version). N’oubliez pas de supprimer le dossier d’installation de Campaign.

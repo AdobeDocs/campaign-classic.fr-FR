@@ -3,15 +3,15 @@ product: campaign
 title: Configuration technique des emails
 description: Découvrez comment configurer Campaign pour contrôler la sortie de vos instances lors de la diffusion des e-mails.
 feature: Installation, Deliverability
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3161'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ Pour un examen plus approfondi de ce qu’est la délivrabilité, y compris les 
 
 ## Principe de fonctionnement {#operating-principle}
 
-Il est possible de contrôler la sortie d’une ou de plusieurs instances Adobe Campaign afin de limiter le nombre d’emails envoyés en fonction d’un domaine. Par exemple, vous pouvez limiter la sortie à 20 000 par heure pour **yahoo.com** les adresses, lors de la configuration de 100 000 messages par heure pour tous les autres domaines.
+Le débit d&#39;une ou de plusieurs instances Adobe Campaign peut être contrôlé afin de limiter le nombre d&#39;e-mails envoyés en fonction du domaine. Par exemple, vous pouvez limiter la sortie à 20 000 messages par heure pour les adresses **yahoo.com**, tout en configurant 100 000 messages par heure pour tous les autres domaines.
 
-La sortie du message doit être contrôlée pour chaque adresse IP utilisée par les serveurs de diffusion (**mta**). Plusieurs **mta** répartie sur plusieurs machines et appartenant à différentes instances Adobe Campaign peuvent partager la même adresse IP pour la diffusion des emails : un processus doit être configuré pour coordonner l&#39;utilisation de ces adresses IP.
+Le débit des messages doit être contrôlé pour chacune des adresses IP utilisées par les serveurs de diffusion (**mta**) pour l&#39;envoi des emails. Plusieurs **mta** repartis sur plusieurs machines et appartenant à différentes instances Adobe Campaign peuvent partager les mêmes adresses IP pour l&#39;envoi d&#39;emails : il est donc nécessaire qu&#39;un processus coordonne l&#39;utilisation de ces adresses IP.
 
 C&#39;est la fonction du module **stat** : il fédère toutes les demandes d&#39;ouvertures de connexions et d&#39;envois de messages vers les serveurs de messagerie pour un ensemble d&#39;adresses IP. Le serveur de statistiques maintient ainsi le compte des envois et peut autoriser ou refuser les envois dans le temps en fonction des quotas définis.
 
@@ -46,12 +46,12 @@ C&#39;est la fonction du module **stat** : il fédère toutes les demandes d&#3
 
 ### Serveurs de diffusion {#delivery-servers}
 
-La variable **mta** distribue des messages à ses **mtachild** modules enfants. Chaque **mtachild** prépare les messages avant de demander l’autorisation au serveur de statistiques et de les envoyer.
+Le module **mta** distribue les messages à ses modules enfants **mtachild**. Chaque **mtachild** prépare les messages, puis demande l&#39;autorisation au serveur de statistiques avant de les envoyer.
 
 Les étapes sont les suivantes :
 
 1. Le **mta** sélectionne les messages éligibles pour l&#39;envoi et les assigne à un **mtachild** disponible.
-1. La variable **mtachild** charge toutes les informations nécessaires à la construction du message (contenu, éléments de personnalisation, pièces jointes, images, etc.) ; et transfère le message à la fonction **Email Traffic Shaper**.
+1. Le module **mtachild** charge toutes les informations nécessaires à la construction du message (contenu, éléments de personnalisation, pièces jointes, images, etc.) et transfère le message à **Email Traffic Shaper**.
 1. Lorsque le gestionnaire d&#39;envoi a reçu l&#39;autorisation du serveur de statistiques (**smtp stat**), le message est envoyé au destinataire.
 
 ![](assets/s_ncs_install_email_traffic_shaper.png)
@@ -77,7 +77,7 @@ Le serveur de statistiques peut fédérer plusieurs instances ou plusieurs machi
 
 Les statistiques de diffusion sont conservées pour chaque MX cible et pour chaque IP source. Par exemple, si le domaine ciblé possède 5 MX et la plateforme peut utiliser 3 adresses IP différentes, le serveur pourra gérer jusqu&#39;à 15 séries d&#39;indicateurs pour ce domaine.
 
-L’adresse IP source correspond à l’adresse IP publique, c’est-à-dire à l’adresse telle qu’elle est vue par le serveur de messagerie distant. Cette adresse IP peut être différente de l’adresse de l’ordinateur qui héberge la variable **mta**, si un routeur NAT est fourni. C’est pourquoi le serveur de statistiques utilise un identifiant qui correspond à l’IP publique (**publicId**). L&#39;association entre l&#39;adresse locale et cet identifiant est déclarée dans le fichier de configuration **serverConf.xml**. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
+L&#39;adresse IP source correspond à l&#39;adresse IP publique, c&#39;est-à-dire à l&#39;adresse telle qu&#39;elle est envoyée par le serveur de messagerie distant. Cette adresse IP peut différer de celle de la machine qui héberge le **mta**, si un routeur NAT est fourni. C’est pourquoi le serveur de statistiques utilise un identifiant qui correspond à l’adresse IP publique (**publicId**). L&#39;association entre l&#39;adresse locale et cet identifiant est déclarée dans le fichier de configuration **serverConf.xml**. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
 ## Contrôle de la sortie de diffusion {#delivery-output-controlling}
 
@@ -99,7 +99,7 @@ Lorsqu&#39;un message est envoyé, 3 résultats sont possibles :
 
    >[!NOTE]
    >
-   >A **path** est une connexion entre Adobe Campaign **mta** et la cible **mta**. Adobe Campaign **mta** peut choisir parmi plusieurs adresses IP de départ et plusieurs adresses IP de domaine cible.
+   >Un **chemin** désigne une connexion entre le **mta** Adobe Campaign et le **mta** cible. Le **mta** Adobe Campaign peut choisir parmi plusieurs adresses IP de départ et plusieurs adresses IP de domaine cible.
 
 ### Abandon d&#39;un message {#message-abandonment}
 
@@ -241,7 +241,7 @@ Ces règles sont appliquées dans l&#39;ordre : la première règle dont le mas
 
 Les paramètres disponibles pour chacune des règles sont les suivants :
 
-* **[!UICONTROL Masque des MX]** : domaine auquel s’applique la règle. Chaque règle définit un masque d&#39;adresse pour le MX. Tout MX dont le nom correspond à ce masque est éligible. Le masque peut contenir &quot;&#42;&quot; et &quot;?&quot; caractères génériques.
+* **[!UICONTROL Masque des MX]** : domaine auquel s’applique la règle. Chaque règle définit un masque d&#39;adresse pour le MX. Tout MX dont le nom correspond à ce masque est donc éligible. Le masque peut contenir les caractères génériques « &#42; » et « ? ».
 
   Par exemple, les adresses :
 
@@ -316,7 +316,7 @@ Il est possible de définir le format des messages envoyés, de sorte que l&#39;
 
 Pour cela, accédez au document **[!UICONTROL Gestion des formats des emails]** du dossier **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Gestion de NP@I]** > **[!UICONTROL Jeux de règles mail]** de l&#39;arborescence.
 
-Ce document contient la liste de tous les domaines prédéfinis correspondant aux formats japonais gérés par Adobe Campaign. Pour plus d’informations, voir [ce document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+Ce document contient notamment une liste de domaines prédéfinis correspondant aux formats japonais gérés par Adobe Campaign. Pour plus d&#39;informations, consultez [ce document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
 ![](assets/mail_rule_sets.png)
 
@@ -324,14 +324,14 @@ Le paramètre **Structure MIME** (Multipurpose Internet Mail Extensions) permet 
 
 * **multipart** : envoi du message au format texte et HTML. Si le format HTML n&#39;est pas accepté, le message pourra tout de même s&#39;afficher au format texte.
 
-  Par défaut, la structure multipartie est **multipart/alternative**, mais devient automatiquement **multipart/related** lorsqu’une image est ajoutée au message. Certains fournisseurs attendent de la **multipart/related** par défaut, le format **[!UICONTROL Force multipart/related]** Cette option impose ce format même si aucune image n’est jointe.
+  Par défaut, la structure multipart est de type **multipart/alternative**, mais devient automatiquement **multipart/related** lorsque qu&#39;on ajoute une image au message. Certains fournisseurs exigeant le format **multipart/related** par défaut, l&#39;option **[!UICONTROL Forcer multipart/related]** permet d&#39;imposer ce format même si aucune image n&#39;est jointe.
 
 * **html** : envoi du message au format HTML uniquement. Si le format HTML n&#39;est pas accepté, le message ne s&#39;affichera pas.
 * **text** : envoi du message au format texte uniquement. L&#39;avantage des messages au format texte est leur taille très réduite.
 
 Si l&#39;option **[!UICONTROL Inclusion des images]** est activée, celles-ci s&#39;affichent directement dans le corps de l&#39;email. Les images sont alors téléchargées et les liens URL remplacés par leur contenu.
 
-Cette option est particulièrement utilisée par le marché japonais pour les **Deco-mail**, **Decore Mail** ou **Decoration Mail**. Pour plus d’informations, consultez [ce document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+Cette option est notamment utilisée par le marché japonais pour les emails au format **Deco-mail**, **Decore Mail** ou **Decoration Mail**. Pour plus d&#39;informations, consultez [ce document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
 >[!IMPORTANT]
 >
@@ -404,11 +404,11 @@ Si, par exemple, la première adresse est inutilisable vers un MX donné, les me
     * &quot;2&quot;: 5 / (5+1) = 83 %
     * &quot;3&quot;: 1 / (5+1) = 17 %
 
-* **includeDomains**: permet de réserver cette adresse IP aux emails appartenant à un domaine spécifique. Liste de masques pouvant contenir un ou plusieurs caractères génériques (&#39;&#42;&quot;). Si l’attribut n’est pas spécifié, tous les domaines peuvent utiliser cette adresse IP.
+* **includeDomains** : permet de réserver cette adresse IP aux e-mails appartenant à un domaine particulier. Liste de masques pouvant contenir un ou plusieurs caractères génériques (« &#42; »). Si l&#39;attribut n&#39;est pas renseigné, tous les domaines peuvent utiliser cette adresse IP.
 
   Exemple : **includeDomains=&quot;wanadoo.com,orange.com,yahoo.&#42;&quot;**
 
-* **excludeDomains**: exclut une liste de domaines pour cette adresse IP. Ce filtre est appliqué après la **includeDomains** filtre.
+* **excludeDomains** : exclut une liste de domaines de cette adresse IP. Ce filtre est appliqué après le filtre **includeDomains**.
 
   ![](assets/s_ncs_install_mta_ips.png)
 
@@ -422,10 +422,10 @@ Le paramètre **maxWaitingMessages** indique le nombre maximum de messages prép
 
 Ce paramètre est très important et particulièrement critique si les messages ne sont pas triés par domaine.
 
-Une fois que la variable **maxWorkingSetMb** (256) le seuil est atteint, le serveur de diffusion cesse d&#39;envoyer les messages. Les performances diminueront considérablement jusqu’à ce que la variable **mtachild** recommence. Pour contourner ce problème, vous pouvez augmenter le seuil de la variable **maxWorkingSetMb** ou diminuer le seuil de la variable **maxWaitingMessages** .
+Lorsque le seuil maximum du paramètre **maxWorkingSetMb** (256) est atteint, le serveur de diffusion n&#39;envoie plus de messages. Les performances diminueront très fortement jusqu&#39;à ce que le **mtachild** redémarre. Pour pallier à ce problème, vous pouvez soit augmenter le plafond du paramètre **maxWorkingSetMb**, soit diminuer celui du paramètre **maxWaitingMessages**.
 
 Le paramètre **maxWorkingSetMb** se calcule empiriquement en multipliant le nombre maximum de messages par la taille moyenne d&#39;un message, le tout multiplié par 2,5. Par exemple, si un message a une taille de 50 ko en moyenne, et que le paramètre **maxWaitingMessages** a pour valeur 1000, la mémoire consommée sera d&#39;environ 125 Mo.
 
 ### Ajuster le nombre de mtachild {#adjust-the-number-of-mtachild}
 
-Le nombre d&#39;enfants ne doit pas excéder le nombre de processeurs de la machine (environ 1000 sessions). Nous vous recommandons de ne pas dépasser 8 **mtachild**. Vous pouvez alors augmenter le nombre de messages par **child** (**maxMsgPerChild**) pour atteindre une durée de vie suffisante.
+Le nombre d&#39;enfants ne doit pas dépasser le nombre de processeurs de la machine (environ 1 000 sessions). L&#39;ordre du millier de sessions semble une bonne valeur. **** Il faut alors augmenter le nombre de messages par **enfant** (**maxMsgPerChild**) pour avoir une durée de vie suffisante.

@@ -3,15 +3,15 @@ product: campaign
 title: Modèles d'hypothèse
 description: Découvrez comment créer des modèles d'hypothèse dans la Gestion de la réaction (Response Manager) de Campaign
 feature: Campaigns, Templates
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1516'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ L&#39;onglet **[!UICONTROL Général]** du modèle permet de définir les option
 
   La définition et le paramétrage d&#39;une population témoin sont présentés dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
-* **[!UICONTROL Canal]** : vous pouvez choisir un canal spécifique ou mettre le modèle d&#39;hypothèse à la disposition de tous les canaux dans la console Adobe Campaign en sélectionnant l&#39;option **[!UICONTROL Tous les canaux]** dans la liste déroulante. Si vous paramétrez le modèle pour un canal spécifique, vous pourrez ainsi filtrer automatiquement les diffusions par canal lors de la création de l&#39;hypothèse. [Apprenez-en davantage](creating-hypotheses.md)
+* **[!UICONTROL Canal]** : vous pouvez choisir un canal spécifique ou mettre le modèle d&#39;hypothèse à la disposition de tous les canaux dans la console Adobe Campaign en sélectionnant l&#39;option **[!UICONTROL Tous les canaux]** dans la liste déroulante. Si vous paramétrez le modèle pour un canal particulier, cela permet de filtrer automatiquement les diffusions par canal au moment de la création de l&#39;hypothèse. [Apprenez-en davantage](creating-hypotheses.md)
 
   ![](assets/response_properties_001.png)
 
@@ -117,7 +117,7 @@ L&#39;onglet **[!UICONTROL Général]** du modèle permet également de définir
 
 Cet onglet contient les différents champs et tables permettant de conserver l&#39;historique des réactions des destinataires en termes de transactions. Consultez cette [section](../../configuration/using/about-schema-reference.md) pour plus d’informations sur les tables dédiées à la gestion de la réaction.
 
-* **[!UICONTROL Schéma (stockage des logs de réaction)]**: sélectionnez la table des réactions des destinataires. Le tableau d’usine d’Adobe Campaign est **NmsRemaMatchRcp**.
+* **[!UICONTROL Schéma (stockage des logs de réaction)]** : indiquez la table des réactions des destinataires. La table livrée d&#39;usine dans Adobe Campaign est **NmsRemaMatchRcp**.
 * **[!UICONTROL Schéma des transactions]** : choisissez la table sur laquelle vous allez effectuer vos hypothèses, soit la table des transactions ou des achats.
 * **[!UICONTROL Schéma de requêtage]** : sélectionnez les critères permettant de filtrer l&#39;hypothèse.
 * **[!UICONTROL Lien vers les individus]** : sélectionnez le lien entre les individus et la table sélectionnée comme schéma des transactions.
@@ -185,7 +185,7 @@ Lorsque la table des transactions et les champs sur lesquels va porter l&#39;hyp
 
 ## Exemple : création d&#39;un modèle d&#39;hypothèse sur une diffusion {#example--creating-a-hypothesis-template-on-a-delivery}
 
-Dans cet exemple, nous allons créer un modèle d&#39;hypothèse sur une diffusion de type courrier. La table des transactions (**Achats** dans notre exemple) sur lesquelles seront basées les hypothèses contient des lignes d&#39;achat liées à des articles ou produits. Nous voulons configurer notre modèle pour créer des hypothèses sur les articles ou les produits de la table d&#39;achats.
+Dans cet exemple, vous allez créer un modèle d&#39;hypothèse sur une diffusion de type courrier. La table des transactions (**Achats** dans notre exemple) sur laquelle seront basées les hypothèses contient des lignes d&#39;achat auxquelles sont rattachés des articles ou produits. Vous allez paramétrer votre modèle pour faire des hypothèses sur les articles ou produits de votre table d&#39;achats.
 
 1. Dans l&#39;explorateur Adobe Campaign, positionnez-vous au niveau du noeud **[!UICONTROL Ressources > Modèles > Modèles d&#39;hypothèse]**.
 1. Cliquez sur **[!UICONTROL Nouveau]** pour créer un modèle.

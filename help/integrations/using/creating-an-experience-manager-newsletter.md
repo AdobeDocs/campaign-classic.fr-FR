@@ -3,14 +3,14 @@ product: campaign
 title: Création d'une newsletter Experience Manager
 description: Création d'une newsletter Experience Manager
 feature: Experience Manager Integration
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
 content-type: reference
 exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Cette intégration peut être utilisée, par exemple, pour créer une newsletter
    ![](assets/aem_uc_6.png)
 
 1. Comme à l&#39;étape précédente, lancez ensuite le workflow **[!UICONTROL Approuver pour Adobe Campaign]**.
-1. Une clause de non-responsabilité s’affiche en haut de votre page. Cliquez sur **[!UICONTROL Terminer]** pour confirmer la révision, puis cliquez sur **[!UICONTROL Ok]**.
+1. Une clause d&#39;exclusion de responsabilité apparaît en haut de la page. Cliquez sur **[!UICONTROL Terminé]** pour confirmer la consultation, puis cliquez sur **[!UICONTROL OK]**.
 
    ![](assets/aem_uc_7.png)
 
@@ -73,7 +73,7 @@ Votre newsletter est maintenant prête et synchronisée dans Adobe Campaign.
 1. Ajoutez un **[!UICONTROL Libellé]** à votre diffusion, puis cliquez sur **[!UICONTROL Continuer]**.
 1. Cliquez sur le bouton **[!UICONTROL Synchroniser]**.
 
-   Si ce bouton n’apparaît pas dans votre interface, cliquez sur le bouton **[!UICONTROL Propriétés]** et sélectionnez l’option **[!UICONTROL Avancé]** . La variable **[!UICONTROL Mode d&#39;édition du contenu]** doit être défini sur **[!UICONTROL AEM]** avec votre instance AEM dans le **[!UICONTROL Compte AEM]** champ .
+   Si ce bouton ne s&#39;affiche pas dans votre interface, cliquez sur le bouton **[!UICONTROL Propriétés]** et sélectionnez l&#39;onglet **[!UICONTROL Avancé]**. Le champ **[!UICONTROL Mode d&#39;édition du contenu]** doit être défini sur **[!UICONTROL AEM]** avec votre instance AEM dans le champ **[!UICONTROL Compte AEM]**.
 
    ![](assets/aem_uc_11.png)
 

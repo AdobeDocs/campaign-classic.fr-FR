@@ -5,7 +5,7 @@ description: À propos des canaux entrants
 feature: Interaction, Offers
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
 ht-degree: 100%
 

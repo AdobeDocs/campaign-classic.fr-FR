@@ -3,12 +3,12 @@ product: campaign
 title: Fonctionnalités avancées
 description: Découvrez-en plus sur les fonctionnalités avancées lorsque vous utilisez des rapports
 feature: Reporting, Monitoring
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Les scripts référencés doivent être rédigés en Javascript et être compati
 
 Lors de la [conception de votre rapport](../../reporting/using/creating-a-new-report.md#modelizing-the-chart), utilisez l&#39;activité **[!UICONTROL Script]** pour traiter les données et créer facilement des requêtes complexes qui n&#39;activent pas le langage SQL. Vous pouvez saisir directement votre requête dans la fenêtre de script.
 
-La variable **[!UICONTROL Textes]** vous permet de définir des chaînes de texte. Ils peuvent ensuite être utilisés avec la syntaxe suivante : **$(Identifiant)**. Pour plus d’informations sur l’utilisation de textes, voir [Ajouter un en-tête et un pied de page](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
+L’onglet **[!UICONTROL Textes]** vous permet de définir des chaînes de texte. Elles peuvent ensuite être utilisées avec la syntaxe suivante : **$(Identifier)**. Pour plus d’informations sur l’utilisation de textes, voir [Ajouter un en-tête et un pied de page](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
 >[!CAUTION]
 >

@@ -2,13 +2,13 @@
 product: campaign
 title: Propriétés du rapport
 description: En savoir plus sur les paramètres des propriétés du rapport
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Les options possibles sont les suivantes :
 
 ## Traduction de votre rapport {#report-localization}
 
-Vous pouvez configurer les langues dans lesquelles vous souhaitez que le rapport soit traduit. Pour ce faire, cliquez sur le bouton **[!UICONTROL Localisation]** .
+Vous pouvez paramétrer les langues dans lesquelles vous souhaitez que le rapport soit traduit. Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Localisation]**.
 
 ![](assets/s_ncs_advuser_report_properties_06.png)
 

@@ -2,13 +2,13 @@
 product: campaign
 title: Désinscription (opt-out) du tracking des applications web
 description: Désinscription (opt-out) du tracking des applications web
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Si un utilisateur final se désinscrit (opt-out) du tracking comportemental via 
 
 Pour s&#39;afficher dans des applications Web ou des landing pages, la bannière doit être configurée.
 
-Adobe Campaign est fourni avec un exemple de bannière que vous devez adapter à vos besoins. Cette version de bannière s’affiche sous la forme d’un bloc de personnalisation situé dans le dossier du modèle de contenu. Pour plus d’informations, consultez [cette page](../../delivery/using/personalization-blocks.md).
+Adobe Campaign propose un exemple de bannière que vous devez adapter à vos besoins. Cette version de bannière apparaît en tant que bloc de personnalisation dans le dossier des modèles de contenu. Pour plus d’informations, consultez [cette page](../../delivery/using/personalization-blocks.md).
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ La bannière par défaut possède la structure suivante :
 
 Vous devez remplacer le texte **Veuillez insérer votre message ici** par le bloc qui contient les informations sur le tracking. Ce remplacement doit être effectué dans le nouveau bloc de personnalisation associé à la bannière d’opt-out.
 
-La bannière est fournie avec une page CSS spécifique. Vous pouvez toutefois remplacer les styles lors de la création et de la configuration d’une page web. Pour plus d’informations, consultez [cette page](content-editor-interface.md).
+La bannière est fournie avec une feuille CSS spécifique. Vous pouvez toutefois remplacer les styles lors de la création et de la configuration d&#39;une page web. Pour plus d’informations, consultez [cette page](content-editor-interface.md).
 
 ## Définir le cookie de désinscription (opt-out) à l&#39;aide des API {#setting-the-opt-out-cookie-using-api}
 

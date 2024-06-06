@@ -5,9 +5,9 @@ description: Découvrez comment superviser les workflows de Campaign
 feature: Workflows
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Pour suivre le statut d&#39;un ensemble de workflows, vous devez procéder comme
 
 >[!NOTE]
 >
->En plus du workflow, Campaign **Carte thermique des workflows** vous permet d’analyser dans le détail les workflows en cours d’exécution. Pour plus de détails, reportez-vous à la [section dédiée](heatmap.md).
+>Outre le workflow, la **carte thermique des workflows Campaign** vous permet d’analyser dans le détail les workflows en cours d’exécution. Pour plus de détails, reportez-vous à la [section dédiée](heatmap.md).
 >
 >Pour plus d’informations sur la **surveillance de l’exécution des workflows**, consultez [cette section](monitoring-workflow-execution.md).
 
@@ -39,7 +39,7 @@ Pour suivre le statut d&#39;un ensemble de workflows, vous devez procéder comme
 
 Le dossier de workflows que nous allons suivre est le dossier **&quot;CustomWorkflows&quot;** stocké dans le noeud : **Administration > Exploitation > Workflows Techniques**. Ce dossier contient un ensemble de workflows métiers.
 
-La variable **Workflow de surveillance** est stocké à la racine du dossier Workflows techniques . Le libellé utilisé est : **&quot;Surveillance&quot;**.
+Le **workflow de suivi** est stocké à la racine du dossier Workflows Techniques. Le libellé utilisé est **&quot;Suivi&quot;**.
 
 Le schéma suivant montre l&#39;ordonnancement des activités :
 
@@ -123,7 +123,7 @@ Une diffusion est envoyée au superviseur **si au moins une des trois variables 
 
 ![](assets/uc_monitoring_workflow_test.png)
 
-L&#39;activité &quot;Attente&quot; peut être paramétrée pour relancer le workflow de monitoring à intervalles réguliers. Pour ce cas pratique, **le temps d’attente est défini sur une heure.**.
+L&#39;activité &quot;Attente&quot; peut être paramétrée pour relancer le workflow de suivi à intervalle régulier. Pour ce cas pratique, **la durée d&#39;attente est fixée à une heure**.
 
 ![](assets/uc_monitoring_workflow_attente.png)
 

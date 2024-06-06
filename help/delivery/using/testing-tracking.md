@@ -2,14 +2,14 @@
 product: campaign
 title: Test du tracking des messages
 description: Découvrez comment tester le tracking des messages
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Monitoring
 role: User
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez tester le tracking sur les pages miroir, les logs d&#39;email et les
 
    Cliquez sur **Rafraîchir** si vous ne voyez aucun nouveau log.
 
-1. Accédez à la page du profil du destinataire que vous avez utilisé pour le test, puis sélectionnez la variable **Tracking** . Certains enregistrements doivent apparaître avec la fonction **Page miroir** dans la variable **Type** colonne .
+1. Accédez à la page du profil du destinataire que vous avez utilisé pour le test, puis sélectionnez l&#39;onglet **Tracking**. Certains enregistrements doivent s&#39;afficher avec la valeur **Page miroir** dans la colonne **Type**.
 
    >[!NOTE]
    >

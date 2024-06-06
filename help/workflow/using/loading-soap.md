@@ -5,9 +5,9 @@ description: Chargement (SOAP)
 feature: Workflows
 exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Le principe de fonctionnement est le suivant :
 
    Si vous souhaitez mettre à jour l&#39;exemple, sélectionnez **[!UICONTROL Ré-analyser l&#39;exemple]**.
 
-   Vous pouvez également personnaliser le format des données des colonnes via le **[!UICONTROL Paramètres avancés]** lien. Pour plus d&#39;informations sur le formatage des données importées, reportez-vous à cette section [section](../../platform/using/executing-import-jobs.md).
+   Vous pouvez également personnaliser les mises en forme des données des colonnes via le lien **[!UICONTROL Paramètres avancés]**. Pour plus d&#39;informations à propos de la mise en forme de données importées, consultez cette [section](../../platform/using/executing-import-jobs.md).
 
 1. Si vous le souhaitez, vous pouvez choisir d&#39;utiliser le numéro de ligne comme identifiant et/ou indiquer que l&#39;appel SOAP renvoie plusieurs éléments.
 1. Saisissez les scripts des onglets suivants selon leur fonction :

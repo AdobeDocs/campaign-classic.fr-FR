@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: database-maintenance
 exl-id: fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign utilise une séquence d&#39;identifiants qui doit être consomm�
 
 Lorsque la séquence dépasse les 2 milliards (2 147 483 648 pour être exact), elle revient à zéro, ce qui crée des problèmes et doit être évité. Cette séquence doit donc être suivie.
 
-Pour éviter cela avec les tableaux volumineux, pensez à utiliser une séquence spécifique. Vous pouvez le faire à l’aide de la méthode **pkSequence** dans le schéma.
+Pour empêcher ce problème avec les tables volumineuses, envisagez d&#39;utiliser une séquence spécifique. Cela peut être réalisé avec l&#39;attribut **pkSequence** dans le schéma.
 
 Les workflows avec une fréquence élevée qui crée de nombreux logs consomment de nombreux identifiants. Il est donc vivement recommandé d&#39;éviter un trop grand nombre de logs et des workflows à haute fréquence.
 
@@ -40,7 +40,7 @@ Cette méthode permet également de mettre en lumière les utilisateurs qui cré
 
 ## Diffusions {#deliveries}
 
-L&#39;instance doit contenir, à tout moment, moins de 1 000 diffusions. Le fait d’avoir beaucoup de diffusions consomme de l’espace de base de données et crée des problèmes. Une instance qui crée plus de 10 diffusions par jour doit être comparée aux besoins de l’entreprise. Envisagez d’utiliser des diffusions au fil de l’eau pour créer moins de diffusions. Pour plus d’informations, consultez [cette section](../../workflow/using/continuous-delivery.md).
+Le nombre de diffusions doit être à tout moment inférieur à 1 000 sur l&#39;instance. Un nombre trop élevé de diffusions occupe de l&#39;espace de base de données et entraîne des problèmes. Une instance qui crée plus de 10 diffusions par jour doit être contrôlée au regard des besoins de l&#39;entreprise. Pensez à utiliser des diffusions continues pour créer un nombre inférieur de diffusions. Pour plus d’informations, consultez [cette section](../../workflow/using/continuous-delivery.md).
 
 Les diffusions de plus de deux ans doivent être purgées de l&#39;instance.
 
@@ -48,7 +48,7 @@ Les diffusions de plus de deux ans doivent être purgées de l&#39;instance.
 
 Le nombre de fichiers sur le disque du serveur applicatif ne doit pas augmenter indéfiniment.
 
-Les workflows d&#39;import créent des fichiers et entraînent donc une extension de disque. Cela peut être évité en utilisant la norme [Collecteur de fichiers](../../workflow/using/file-collector.md) activité. Le collecteur de fichiers déplace les fichiers vers un dossier temporaire et les purge automatiquement.
+Les workflows d&#39;import créent des fichiers et peuvent donc entraîner une extension de disque. Ce problème peut être évité grâce à l&#39;activité [Collecteur de fichiers](../../workflow/using/file-collector.md) standard. Le collecteur de fichiers déplace les fichiers vers un dossier temporaire et les purge automatiquement.
 
 Si un workflow importe des fichiers et n&#39;utilise pas les fonctionnalités standards, il doit être purgé pour conserver un espace disque minimal.
 
@@ -56,6 +56,6 @@ Si un workflow importe des fichiers et n&#39;utilise pas les fonctionnalités st
 
 Chaque [workflow](../../workflow/using/data-life-cycle.md#work-table) qui importe des données dans Adobe Campaign entraîne une augmentation de la taille de la base de données.
 
-Vérifiez que les workflows de nettoyage ou de purge sont en cours d’exécution et qu’ils purgent effectivement les enregistrements. Toutes les données et tous les logs transactionnels doivent être purgés. La tâche de nettoyage purge les tables standards uniquement : logs de tracking et broadlogs. Les tables spécifiques doivent être purgées par des workflows spécifiques. Consultez [cette section](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
+Vérifiez que les workflows de nettoyage ou de purge sont en cours d&#39;exécution et qu&#39;ils purgent effectivement les enregistrements. L&#39;ensemble des données transactionnelles et des journaux doivent être purgés. La tâche de nettoyage purge uniquement les tables standard : logs de tracking et broadlogs. Les tables spécifiques doivent être purgées par des workflows spécifiques. Consultez [cette section](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
 
 Surveillez les données transactionnelles âgées en vérifiant la date la plus ancienne de création des enregistrements.

@@ -3,15 +3,15 @@ product: campaign
 title: Configuration du serveur Campaign
 description: Configuration du serveur Campaign
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 source-git-commit: fa089574b028193b6da346482d6ea42b1d19f0aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1571'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Pour appliquer les modifications dans ces fichiers, si le service Adobe Campaig
 
 On distingue deux types de processus : multi-instance et mono-instance.
 
-* **multi-instance**: un seul processus est démarré pour toutes les instances. C’est le cas pour **web**, **syslogd** et **trackinglogd** processus.
+* **multi-instance** : un seul processus est démarré pour toutes les instances. C’est le cas pour les processus **web**, **syslogd** et **trackinglogd**.
 
   L’activation peut être configurée à partir du fichier **config-default.xm**.
 
@@ -127,7 +127,7 @@ On distingue deux types de processus : multi-instance et mono-instance.
 
 **Enregistrement de données Campaign**
 
-Vous pouvez configurer le répertoire de stockage (**var** ) des données Adobe Campaign (logs, téléchargements, redirections, etc.). Pour ce faire, utilisez la méthode **XTK_VAR_DIR** Variable système :
+Vous pouvez configurer le répertoire de stockage (répertoire **var**) des données Adobe Campaign (logs, téléchargements, redirections, etc.). Pour cela, utilisez la variable système **XTK_VAR_DIR** :
 
 * Sous Windows, indiquez la valeur suivante dans la variable système **XTK_VAR_DIR**.
 
@@ -168,7 +168,7 @@ Les JSSP utilisées pour le canal des applications mobiles sont les suivantes :
 
 **Exemple:**
 
-Il est possible d’empêcher la connexion des machines clientes de l’extérieur. Pour cela, il suffit de restreindre l&#39;exécution de **soaprouter.jsp** et n&#39;autoriser que l&#39;exécution des pages miroir, des liens viraux, des formulaires web et des ressources publiques.
+Vous pouvez empêcher la connexion des postes clients de l&#39;extérieur. Pour cela, il suffit de restreindre l&#39;exécution de **soaprouter.jsp** et de n&#39;autoriser que l&#39;exécution des pages miroirs, des liens viraux, des formulaires web et des ressources publiques.
 
 Les paramètres sont les suivants :
 

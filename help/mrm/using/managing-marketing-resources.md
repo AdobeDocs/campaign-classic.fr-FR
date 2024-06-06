@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -30,17 +30,17 @@ Pour ajouter une ressource, cliquez sur le bouton **[!UICONTROL Créer]**.
 
 ![](assets/s_ncs_user_mkg_resource_add.png)
 
-Pour rendre une ressource disponible sur le serveur Adobe Campaign, vous devez ajouter la ressource souhaitée en la faisant glisser et en la déposant dans la zone centrale de l’éditeur. Vous pouvez également cliquer sur le bouton **[!UICONTROL Télécharger le fichier sur le serveur...]** lien.
+Pour mettre à disposition une ressource sur le serveur Adobe Campaign, vous devez ajouter la ressource souhaitée par un glisser-déposer dans la zone centrale de l&#39;éditeur. Vous pouvez également cliquer sur le lien **[!UICONTROL Télécharger le fichier sur le serveur...]**.
 
 ![](assets/s_ncs_user_mkg_resource_file.png)
 
 Un message de confirmation permet de lancer le téléchargement.
 
-Une fois le chargement terminé, la ressource est ajoutée à la liste des ressources disponibles. Il est accessible aux opérateurs Adobe Campaign. Ils peuvent le visualiser (via l’événement **[!UICONTROL Aperçu]** ), effectuez une copie pour la modifier ou mettez à jour le fichier sur le serveur (à l’aide de la fonction **[!UICONTROL Modifier]** ).
+Une fois le chargement terminé, la ressource est ajoutée à la liste des ressources disponibles. Elle est accessible aux opérateurs Adobe Campaign. Ils peuvent la visualiser (à partir de l’onglet **[!UICONTROL Aperçu]**), effectuer une copie pour la modifier ou mettre à jour le fichier sur le serveur (à l’aide de l’onglet **[!UICONTROL Edition]** ).
 
 ![](assets/s_ncs_user_mkg_resource_extract.png)
 
-Cliquez sur le bouton **[!UICONTROL Général]** onglet permettant de sélectionner les opérateurs ou groupes d&#39;opérateurs chargés du suivi, du tracking et de la validation de cette ressource. La sélection du validant s&#39;effectue via le **[!UICONTROL Paramètres avancés]** lien.
+Cliquez sur l&#39;onglet **[!UICONTROL Général]** pour sélectionner les opérateurs, ou groupes d&#39;opérateurs, responsables du suivi, du tracking et de l’approbation de cette ressource. Le choix de l&#39;opérateur validant se fait via le lien **[!UICONTROL Paramètres avancés]**.
 
 * L&#39;opérateur auquel la ressource est affectée est chargé d&#39;en assurer le tracking.
 * L&#39;opérateur validant est celui qui est responsable de la validation de la ressource marketing. Il sera notifié lors du lancement du processus de validation de la ressource.
@@ -49,7 +49,7 @@ Cliquez sur le bouton **[!UICONTROL Général]** onglet permettant de sélection
 
 * Au besoin, vous pouvez également définir un relecteur.
 
-Vous pouvez indiquer une date de disponibilité (indicatif) pour la ressource. Au-delà de cette date, la ressource reçoit le statut **[!UICONTROL En retard]**.
+Vous pouvez spécifier une date de disponibilité de la ressource ; cette date est indicative. Au-delà de cette date, la ressource reçoit le statut **[!UICONTROL En retard]**.
 
 ## Travail collaboratif sur les ressources {#collaborative-work-on-resources}
 
@@ -117,7 +117,7 @@ Une ressource peut être validée via le bouton **[!UICONTROL Valider la ressour
 
 ![](assets/s_ncs_user_task_valid_date.png)
 
-Les opérateurs ou opératrices habilités peuvent alors accepter ou refuser l’approbation. Cette action est possible soit via l&#39;email envoyé (en cliquant sur le lien contenu dans le message de notification), soit via la console (en cliquant sur le lien **[!UICONTROL Approuver]** ).
+Les opérateurs ou opératrices habilités peuvent alors accepter ou refuser l’approbation. Cette action est à la fois possible depuis l&#39;email envoyé (en cliquant sur le lien inclus dans le message de notification ) et à partir de la console (en cliquant sur le bouton **[!UICONTROL Valider]**).
 
 La fenêtre de validation permet de saisir un commentaire.
 
@@ -143,7 +143,7 @@ Vous pouvez également automatiser la publication d&#39;une ressource via un wor
 
 Publier une ressource signifie la rendre disponible afin qu&#39;elle puisse être utilisée (par exemple dans une autre tâche). La publication proprement dite varie suivant la nature de votre ressource : pour un flyer, la publication peut consister à envoyer le fichier à un imprimeur, pour une page web, la publier sur un site...
 
-Pour qu’Adobe Campaign puisse effectuer la publication, vous devez créer un workflow adéquat et le lier à la ressource. Pour ce faire, ouvrez le **[!UICONTROL Paramètres avancés]** de la ressource, puis sélectionnez le workflow de votre choix dans la **[!UICONTROL Post-traitement]** champ .
+Pour qu’Adobe Campaign puisse effectuer la publication, vous devez créer un workflow adéquat et le lier à la ressource. Pour lier le workflow à la ressource, ouvrez la boîte **[!UICONTROL Paramètres avancés]** de la ressource, puis sélectionnez le workflow désiré dans le champ **[!UICONTROL Post-traitement]**.
 
 ![](assets/mrm_asset_postprocessing_workflow.png)
 
@@ -152,7 +152,7 @@ Le workflow sera exécuté :
 * Lorsque le validant de publication cliquera sur **[!UICONTROL Publier la ressource]** (ou, si aucun validant de publication n&#39;a été défini, le responsable de la ressource).
 * Si la ressource est gérée via une tâche de création de ressource marketing, lorsque la tâche sera marquée comme **[!UICONTROL Terminée]**, à condition que la case **[!UICONTROL Publier la ressource marketing]** ait été cochée dans la tâche (voir [Tâche de création de ressource marketing](../../mrm/using/creating-and-managing-tasks.md#marketing-resource-creation-task)).
 
-Si un workflow n&#39;est pas lancé immédiatement (par exemple si le workflow est arrêté), l&#39;état de la ressource passe à **[!UICONTROL En attente de publication]**. Une fois le workflow démarré, le statut de la ressource passe à **[!UICONTROL Publié]**. Ce statut ne prend pas en compte les éventuelles erreurs dans le processus de publication. Vérifiez le statut de votre workflow pour vous assurer qu’il se soit exécuté correctement.
+Si le workflow n&#39;est pas lancé immédiatement (par exemple si le moteur de workflow est arrêté), l&#39;état de la ressource passe à **[!UICONTROL En attente de publication]**. Une fois le workflow démarré, le statut de la ressource passe à **[!UICONTROL Publié]**. Ce statut ne prend pas en compte les éventuelles erreurs dans le processus de publication. Vérifiez le statut de votre workflow pour vous assurer qu’il se soit exécuté correctement.
 
 ## Associer une ressource à une opération {#linking-a-resource-to-a-campaign}
 
@@ -212,7 +212,7 @@ Lorsque le stock est insuffisant, un message d&#39;alerte sera envoyé aux opér
 
 ## Fonctions avancées {#advanced-functions}
 
-Le tableau de bord des ressources marketing permet d&#39;effectuer les opérations usuelles : ajout, édition, verrouillage/déverrouillage, validation, publication. Vous pouvez créer d’autres types de ressources marketing et accéder à des fonctionnalités avancées via l’arborescence d’Adobe Campaign. Pour ce faire, cliquez sur **[!UICONTROL Explorateur]** dans la page d’accueil d’Adobe Campaign.
+Le tableau de bord des ressources marketing permet d&#39;effectuer les opérations usuelles : ajout, édition, verrouillage/déverrouillage, approbation, publication. Vous pouvez créer d&#39;autres types de ressources marketing et accéder à des fonctionnalités avancées via l&#39;arborescence d&#39;Adobe Campaign. Pour cela, cliquez sur le lien **[!UICONTROL Explorateur]** depuis la page d&#39;accueil d&#39;Adobe Campaign.
 
 Par défaut, les ressources marketing sont stockées dans le noeud **[!UICONTROL MRM > Ressources marketing]** de l&#39;arborescence.
 

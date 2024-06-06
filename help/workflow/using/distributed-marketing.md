@@ -4,9 +4,9 @@ title: Marketing distribué
 description: En savoir plus sur le package Marketing distribué
 feature: Workflows, Data Management, Distributed Marketing
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '69'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Le workflow présenté ci-dessous est installé par défaut avec le module **Mar
   <tr> 
    <td> <span class="uicontrol">Traitements sur le marketing distribué</span> <br /> </td> 
    <td> <span class="uicontrol">centralLocalMgt</span> <br /> </td> 
-   <td> Ce workflow lance le traitement associé à l'utilisation du module de marketing distribué. Il lance la création des opérations locales et gère les notifications relatives aux commandes et à la disponibilité des kits d'opération.<br /> </td> 
+   <td> Ce workflow exécute les traitements relatifs à l'utilisation du module de marketing distribué. Il lance la création des opérations en local et gère les notifications relatives aux commandes et à la mise à disposition des kits d'opération.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

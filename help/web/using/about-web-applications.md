@@ -2,13 +2,13 @@
 product: campaign
 title: Prise en main des applications web
 description: Créer et partager des applications web, des landing pages et des questionnaires
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Pour créer et rendre disponible une application web, vous devez :
 
 1. Créer le contenu (champs, listes, tableaux, graphiques, etc.)
 
-   Vous pouvez également consulter la section qui présente les champs disponibles pour les formulaires : tous ces champs sont également disponibles pour les applications Web. Ces informations sont disponibles dans la section [cette page](adding-fields-to-a-web-form.md).
+   Vous pouvez également consulter la section qui présente les champs disponibles pour les formulaires : tous ces champs sont aussi disponibles pour les applications web. Ces informations sont disponibles dans [cette page](adding-fields-to-a-web-form.md).
 
 1. Ajouter, au besoin, des étapes de préchargement, de test, d’enregistrement et paramétrer le contrôle d’accès (principalement dans le cadre d’une publication sur un extranet).
 1. Publier l’application web pour la rendre disponible sur un extranet ou dans Adobe Campaign.
@@ -81,7 +81,7 @@ Les application web sont créées à partir du lien **[!UICONTROL Applications w
 
 Les applications web sont stockées dans le noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence Adobe Campaign. Les paramétrages sont répartis dans les dossiers suivants :
 
-* **[!UICONTROL Administration > Paramétrage > Rendus des formulaires]**: contient les modèles de rendu pour la présentation des formulaires web (applications et questionnaires). Le modèle permet de générer le formulaire. Il utilise également une feuille de style CSS. Cette feuille de style peut être surchargée au niveau du modèle. Pour plus d’informations, consultez [cette page](form-rendering.md#selecting-the-form-rendering-template).
+* **[!UICONTROL Administration > Configuration > Rendus des formulaires]** : contient les modèles de rendu pour la présentation des formulaires Web (applications et questionnaires). Le modèle permet de générer le formulaire. Il utilise également une feuille de style CSS. Cette feuille peut être surchargée au niveau du modèle. Pour plus d’informations, consultez [cette page](form-rendering.md#selecting-the-form-rendering-template).
 * **[!UICONTROL Ressources > Modèles > Modèles d’application web]** : contient des modèles de formulaires. Pour créer un formulaire ou une application web, vous devez utiliser un modèle.
 
 ## Modèles d’applications web {#web-application-templates}
@@ -90,7 +90,7 @@ Par défaut, Adobe Campaign fournit un modèle par type d’application web dis
 
 >[!NOTE]
 >
->Vous pouvez transformer une application Web existante en modèle. Pour cela, sélectionnez le formulaire et cliquez avec le bouton droit de la souris. Sélectionner **[!UICONTROL Actions > Enregistrer comme modèle...]**.
+>Vous pouvez transformer une application web existante en modèle. Pour cela, sélectionnez le formulaire concerné et cliquez sur le bouton droit de la souris. Choisissez **[!UICONTROL Actions > Sauver comme modèle]**.
 
 Vous pouvez créer des modèles à partir du nœud **[!UICONTROL Ressources > Modèles > Modèles d&#39;applications web]** de l&#39;arborescence Adobe Campaign.
 

@@ -3,15 +3,15 @@ product: campaign
 title: Configuration réseau
 description: Découvrez les directives sur la communication du système
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -228,7 +228,7 @@ Ce serveur héberge les formulaires Web, pages miroir, etc. Les ports suivants d
 
 ## Intégration avec Adobe Experience Manager {#integration-with-adobe-experience-manager}
 
-L’intégration entre Adobe Campaign et Adobe Experience Manager nécessite l’ouverture de plusieurs ports si l’installation est &quot;on-premise&quot;. Pour plus d&#39;informations sur la configuration de cette intégration, reportez-vous à la section [documentation détaillée](../../integrations/using/about-adobe-experience-manager.md).
+L&#39;intégration entre Adobe Campaign et Adobe Experience Manager nécessite l&#39;ouverture de plusieurs ports dans le cas d&#39;une installation &quot;on-premise&quot;. Pour plus d&#39;informations sur la configuration de cette intégration, consultez la [documentation détaillée](../../integrations/using/about-adobe-experience-manager.md).
 
 <table> 
  <tbody> 
@@ -242,7 +242,7 @@ L’intégration entre Adobe Campaign et Adobe Experience Manager nécessite l�
   </tr> 
   <tr> 
    <td><p> 4502</p><p> 4503</p><br /> </td> 
-   <td> Connexion Adobe Campaign à des instances de "création" et de "publication" AEM. Les ports à ouvrir peuvent être différents des ports par défaut, selon votre configuration AEM.<br /> </td> 
+   <td> Connexion d'Adobe Campaign vers les instances "author" et "publish" d'AEM. Les ports à ouvrir peuvent être différents des ports par défaut, selon votre configuration d'AEM.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

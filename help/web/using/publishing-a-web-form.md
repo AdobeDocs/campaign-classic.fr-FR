@@ -2,13 +2,13 @@
 product: campaign
 title: Publier un formulaire web
 description: Publier un formulaire web
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1373'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les méthodes d&#39;identification possibles sont les suivantes :
 
   ![](assets/s_ncs_admin_survey_preload_methods_001.png)
 
-  Cette méthode de cryptage utilise un identifiant (ID) fourni en externe, associé à une clé partagée par Adobe Campaign et le fournisseur externe. La variable **[!UICONTROL Clé DES]** permet de saisir cette clé de chiffrement.
+  Cette méthode de chiffrement utilise un identifiant (ID) fourni de l&#39;extérieur associé à une clé commune entre Adobe Campaign et le fournisseur externe. Le champ **[!UICONTROL Clé DES]** permet de saisir cette clé de chiffrement.
 
 * **[!UICONTROL Liste de champs]**
 
@@ -44,7 +44,7 @@ Les méthodes d&#39;identification possibles sont les suivantes :
 
   >[!CAUTION]
   >
-  >Les données des champs sélectionnés ne sont pas cryptées. Il ne doit pas être fourni dans un formulaire chiffré, car Adobe Campaign ne pourra pas le déchiffrer si la variable **[!UICONTROL Liste de champs]** est sélectionnée.
+  >Les données des champs sélectionnées ne sont pas chiffrées. Elles ne doivent pas être fournies sous forme chiffrée car Adobe Campaign ne pourra pas les déchiffrer si l&#39;option **[!UICONTROL Liste de champs]** est sélectionnée.
 
   Dans l&#39;exemple ci-dessous, le pré-chargement du profil est basé sur l&#39;adresse email.
 
@@ -64,7 +64,7 @@ Les méthodes d&#39;identification possibles sont les suivantes :
 
 L’option **[!UICONTROL Ignorer le pré-chargement si l’identification est vide]** doit être sélectionnée si vous ne souhaitez pas mettre à jour les profils. Dans ce cas, chaque profil saisi sera ajouté à la base de données après validation du formulaire. Cette option est utilisée, par exemple, lorsque le formulaire est publié sur un site web.
 
-La variable **[!UICONTROL Chargement automatique des données référencées dans le formulaire]** permet de précharger automatiquement les données correspondant aux champs de saisie et aux champs de fusion du formulaire. Toutefois, les données référencées dans **[!UICONTROL Script]** et **[!UICONTROL Test]** Les activités ne sont pas concernées. Si cette option n&#39;est pas sélectionnée, vous devez définir les champs à l&#39;aide de la variable **[!UICONTROL Chargement de données additionnelles]** .
+L&#39;option **[!UICONTROL Chargement automatique des données référencées dans le formulaire]** permet de précharger automatiquement les données correspondant aux champs de saisie et aux champs de fusion du formulaire. En revanche, les données référencées dans les activités **[!UICONTROL Script]** et **[!UICONTROL Test]** ne sont pas concernées. Lorsque cette option n&#39;est pas sélectionnée, vous devez définir les champs à l&#39;aide de l&#39;option **[!UICONTROL Chargement de données additionnelles]**.
 
 L&#39;option **[!UICONTROL Chargement de données additionnelles]** permet d&#39;ajouter des informations supplémentaires qui ne sont pas utilisées dans les pages du formulaire mais seront toutefois pré-remplies.
 
@@ -82,7 +82,7 @@ Le cycle de vie d&#39;un formulaire se décompose en trois étapes :
 
 1. **En édition**
 
-   C&#39;est la phase de conception initiale. Lorsqu’un nouveau formulaire est créé, il est en phase de modification. L’accès au formulaire, à des fins de test uniquement, requiert alors le paramètre . **[!UICONTROL __uuid]** à utiliser dans son URL. Cette URL est accessible dans la variable **[!UICONTROL Aperçu]** sous-onglet. Voir [Paramètres d’URL de formulaire](defining-web-forms-properties.md#form-url-parameters).
+   C&#39;est la phase de conception initiale. Lorsqu’un nouveau formulaire est créé, il est en phase d’édition. L&#39;accès au formulaire, à des fins de tests uniquement, requiert alors l&#39;utilisation du paramètre **[!UICONTROL __uuid]** dans son URL. Cette URL est accessible dans le sous-onglet **[!UICONTROL Aperçu]**. Voir [Paramètres d’URL de formulaire](defining-web-forms-properties.md#form-url-parameters).
 
    >[!CAUTION]
    >
@@ -90,31 +90,31 @@ Le cycle de vie d&#39;un formulaire se décompose en trois étapes :
 
 1. **En attente de publication**
 
-   Dans certains cas (par exemple, lorsque [importation d’un formulaire par le biais d’un package](#import-web-packages)), un formulaire web peut avoir la variable **[!UICONTROL En attente de publication]** jusqu’à ce qu’il soit actif.
+   Dans certains cas (par exemple, lors de l’[importation d’un formulaire par le biais d’un package](#import-web-packages)), un formulaire web peut avoir le statut **[!UICONTROL En attente de publication]** jusqu’à ce qu’il soit en ligne.
 
    >[!NOTE]
    >
-   >Pour les applications web techniques (disponibles via la fonction **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Applications web]** ), un formulaire contenant la variable **[!UICONTROL En attente de publication]** status est automatique [publié](#publishing-a-form) et récupère la variable **[!UICONTROL En ligne]** statut.
+   >Pour les applications web techniques (disponibles via le menu **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Applications web]**), un formulaire ayant le statut **[!UICONTROL En attente de publication]** est automatiquement [publié](#publishing-a-form) et se voit attribuer le statut **[!UICONTROL En ligne]**.
 
 1. **En ligne**
 
-   Une fois la phase de conception terminée, le formulaire peut être remis.
+   Une fois la phase de conception terminée, le formulaire peut être diffusé.
 
-   Lorsqu’un formulaire contient la variable **[!UICONTROL En édition]** ou **[!UICONTROL En attente de publication]** status, il doit être [publié](#publishing-a-form) être en ligne et accessible via l’URL du formulaire web dans un navigateur.
+   Lorsqu’un formulaire a le statut **[!UICONTROL En édition]** ou **[!UICONTROL En attente de publication]**, il doit être [publié](#publishing-a-form) afin d’être en ligne et accessible via l’URL du formulaire web dans un navigateur.
 
-   Une fois publié, le formulaire est actif jusqu’à son expiration.
+   Une fois publié, le formulaire est en ligne jusqu&#39;à son expiration.
 
    Le formulaire est alors **[!UICONTROL En ligne]**, jusqu&#39;à ce que sa date de clôture soit atteinte.
 
    >[!CAUTION]
    >
-   >Pour être diffusé, l’URL du formulaire ne doit pas contenir le **[!UICONTROL __uuid]** .
+   >Pour que la diffusion ait lieu, l&#39;URL du formulaire ne doit pas contenir le paramètre **[!UICONTROL __uuid]**.
 
 1. **Fermé**
 
    Une fois la date de clôture du formulaire atteinte, la phase de diffusion est terminée et le formulaire est indisponible : il n&#39;est plus accessible aux utilisateurs.
 
-   La date d’expiration peut être définie dans la fenêtre des propriétés du formulaire. Voir à ce sujet la section [Mettre un formulaire à disposition](#making-a-form-available-online).
+   La date d’expiration peut être définie dans la fenêtre des propriétés du formulaire. Pour plus d’informations à ce sujet, consultez la section [Rendre un formulaire disponible en ligne](#making-a-form-available-online).
 
 L&#39;état de publication d&#39;un formulaire est affiché dans la liste des formulaires.
 
@@ -122,13 +122,13 @@ L&#39;état de publication d&#39;un formulaire est affiché dans la liste des fo
 
 ### Publier un formulaire {#publishing-a-form}
 
-Pour modifier l’état d’un formulaire, vous devez le publier. Pour ce faire, cliquez sur le bouton **[!UICONTROL Publication]** au-dessus de la liste des formulaires Web et sélectionnez l&#39;état dans la liste déroulante.
+Pour modifier l&#39;état d&#39;un formulaire, vous devez le publier. Pour cela, cliquez sur le bouton **[!UICONTROL Publication]** situé au-dessus de la liste des formulaires Web et sélectionnez l&#39;état dans la liste déroulante.
 
 ![](assets/webapp_publish_webform.png)
 
 ### Mettre un formulaire à disposition {#making-a-form-available-online}
 
-Pour être accessible par les utilisateurs, le formulaire doit être en production et démarré, c&#39;est-à-dire dans sa période de validité. Les dates de validité sont renseignées à partir du champ **[!UICONTROL Propriétés]** lien du formulaire.
+Pour que l’accès au formulaire soit possible, il doit être en production et démarré, c&#39;est-à-dire dans sa période de validité. Les dates de validité sont renseignées depuis le lien **[!UICONTROL Propriétés]** du formulaire.
 
 * Utilisez les champs de la section **[!UICONTROL Projet]** pour indiquer les dates de démarrage et de clôture du formulaire.
 
@@ -154,7 +154,7 @@ Dans ce cas, vous devez cocher l’option **[!UICONTROL Mettre à jour l’enreg
 
 ### Log responses {#log-responses}
 
-Le tracking des réponses peut être activé dans un onglet dédié afin de suivre l&#39;impact de votre formulaire Web. Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres avancés...]** dans la fenêtre des propriétés du formulaire et sélectionnez l’option **[!UICONTROL Log responses]** .
+Le tracking des réponses peut être activé dans un onglet dédié afin de suivre l&#39;impact de votre formulaire web. Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres avancés]** dans la fenêtre des propriétés du formulaire et cochez ensuite la case **[!UICONTROL Enregistrer une trace des réponses]**.
 
 ![](assets/s_ncs_admin_survey_trace.png)
 
@@ -168,33 +168,33 @@ Sélectionnez un destinataire et cliquez sur le bouton **[!UICONTROL Détail...]
 
 Vous pouvez exploiter les traces des réponses fournies dans des requêtes, par exemple pour cibler uniquement les non-répondants dans le cadre d&#39;une relance ou proposer des communications spécifiques aux seuls répondants.
 
-### Importer des packages de formulaires web {#import-web-packages}
+### Import de packages de formulaires web {#import-web-packages}
 
-Lors de l&#39;export et de l&#39;import d&#39;un package comprenant un formulaire web d&#39;une instance vers une autre instance (par exemple, de l&#39;étape à la production), le statut du formulaire web sur la nouvelle instance peut varier selon plusieurs conditions. Les différents cas sont répertoriés ci-dessous.
+Lors de l&#39;export et de l&#39;import d&#39;un package comprenant un formulaire web d&#39;une instance vers une autre instance (par exemple, de l&#39;évaluation à la production), le statut du formulaire web sur la nouvelle instance peut varier selon plusieurs conditions. Les différents cas sont énumérés ci-dessous.
 
-En savoir plus sur les différents statuts d&#39;un formulaire web dans [cette section](#life-cycle-of-a-form).
+Pour en savoir plus sur les différents statuts d&#39;un formulaire web, consultez [cette section](#life-cycle-of-a-form).
 
 >[!NOTE]
 >
->Lorsque vous exportez un formulaire web via un package, l’état du formulaire est visible dans le contenu du package obtenu.
+>Lorsque vous exportez un formulaire web via un package, son statut est visible dans le contenu du package qui en résulte.
 
-* Si l’état du formulaire web était **[!UICONTROL En attente de publication]** ou **[!UICONTROL En ligne]** lors de l’export à partir de la première instance :
+* Si le statut du formulaire web était **[!UICONTROL En attente de publication]** ou **[!UICONTROL En ligne]** lorsqu’il a été exporté à partir de la première instance :
 
-   * Le formulaire web reçoit la variable **[!UICONTROL En attente de publication]** lors d’un import sur la nouvelle instance.
+   * Le formulaire web reçoit le statut **[!UICONTROL En attente de publication]** lorsqu’il est importé sur la nouvelle instance.
 
-   * Si le formulaire web existe déjà sur la nouvelle instance, il est remplacé par la nouvelle version du formulaire et prend la valeur **[!UICONTROL En attente de publication]** , même si l’ancienne version du formulaire était **[!UICONTROL En ligne]**.
+   * Si le formulaire web existe déjà sur la nouvelle instance, il est remplacé par la nouvelle version et prend le statut **[!UICONTROL En attente de publication]**, même si l’ancienne version était **[!UICONTROL En ligne]**.
 
-   * Qu’il existe ou non, le formulaire doit être [publié](#publishing-a-form) pour devenir **[!UICONTROL En ligne]** sur la nouvelle instance et accessible via l’URL du formulaire web dans un navigateur.
+   * Qu’il existait déjà ou non, le formulaire doit être [publié](#publishing-a-form) pour obtenir le statut **[!UICONTROL En ligne]** sur la nouvelle instance et être accessible via l’URL du formulaire web dans un navigateur.
 
-* Si l’état du formulaire web était **[!UICONTROL En édition]** lors de l’exportation :
+* Si le statut du formulaire web était **[!UICONTROL En édition]** lorsqu’il a été exporté :
 
-   * Si le formulaire web est nouveau sur l&#39;instance d&#39;import du package, le formulaire web reçoit la valeur **[!UICONTROL En édition]** statut.
+   * Si le formulaire web est nouveau sur l&#39;instance où le package a été importé, il reçoit le statut **[!UICONTROL En édition]**.
 
-   * Si le formulaire web existe déjà sur la nouvelle instance, il s’agit d’une modification sur un formulaire existant. Si l’ancienne version du formulaire était **[!UICONTROL En ligne]**, l’ancienne version reste en ligne jusqu’à ce que la nouvelle version du formulaire soit [publié](#publishing-a-form) à nouveau sur la nouvelle instance.
+   * Si le formulaire web existe déjà sur la nouvelle instance, il s’agit d’une modification sur un formulaire existant. Si l’ancienne version du formulaire était **[!UICONTROL En ligne]**, elle reste en ligne jusqu’à ce que la nouvelle version du formulaire soit [publiée](#publishing-a-form) à nouveau sur la nouvelle instance.
 
   >[!NOTE]
   >
-  >Vous pouvez vérifier la dernière version de votre formulaire web à l’aide du **[!UICONTROL Aperçu]** .
+  >Vous pouvez vérifier la dernière version de votre formulaire web dans l’onglet **[!UICONTROL Aperçu]**.
 
 <!--For RN:
 * Now, when a web form has the **Pending publication** status, it must be published before it becomes **Online** and accessible through the web form URL in a web browser. [Read more](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)

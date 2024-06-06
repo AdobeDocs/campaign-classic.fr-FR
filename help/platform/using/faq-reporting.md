@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: b29340a0-954d-41e4-b0a3-9d356e4dc753
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign n&#39;est pas un outil spécialisé dans le reporting : les rap
 
 ## Comment concevoir et partager des rapports statistiques sur les populations ? {#how-can-i-design-and-share-statistic-reports-on-populations-}
 
-Adobe Campaign [rapports d’analyse descriptive](../../reporting/using/about-descriptive-analysis.md) vous permettent de concevoir et partager des rapports statistiques sur vos populations, [exploration d’une audience de newsletter](../../reporting/using/use-cases.md#analyzing-a-population), ou [créer un rapport sur la population d&#39;une transition de workflow](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow). Vous pouvez également, par exemple, [analyser le taux de réactivité des destinataires de la newsletter ;](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
+Les [rapports d&#39;analyse descriptive](../../reporting/using/about-descriptive-analysis.md) d&#39;Adobe Campaign permettent de concevoir et partager des rapports statistiques sur vos populations, d&#39;[explorer l&#39;audience d&#39;une newsletter](../../reporting/using/use-cases.md#analyzing-a-population) ou de [créer un rapport sur la population d&#39;une transition de workflow](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow). Vous pouvez, par exemple, [analyser le taux de réactivité des destinataires d&#39;une newsletter](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
 
 [Pour en savoir plus, cliquez ici](../../reporting/using/about-descriptive-analysis.md).
 

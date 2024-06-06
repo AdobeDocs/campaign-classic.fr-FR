@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1245'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Lorsqu&#39;un destinataire clique sur le lien de désinscription dans un email e
 
    ![](assets/acs_connect_profile_sync_01.png)
 
-1. Vérifiez que le nouveau destinataire a été ajouté à Campaign Standard. Lors de la vérification du profil, assurez-vous que les données que vous avez saisies dans Campaign v7 sont également disponibles en Campaign Standard. Pour savoir où trouver des profils en Campaign Standard, voir [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
+1. Vérifiez que le nouveau destinataire a été ajouté dans Campaign Standard. Lors de la vérification du profil, assurez-vous que les données saisies dans Campaign v7 sont également disponibles dans Campaign Standard. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
 
    ![](assets/acs_connect_profile_sync_02.png)
 
@@ -61,7 +61,7 @@ Les étapes ci-dessous qui permettent de modifier un point unique de données co
 
    ![](assets/acs_connect_profile_sync_03.png)
 
-1. Vérifiez que le nom du destinataire a été mis à jour en Campaign Standard. Pour savoir où trouver des profils en Campaign Standard, voir [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
+1. Vérifiez que le nom du destinataire a été mis à jour dans Campaign Standard. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
 
    ![](assets/acs_connect_profile_sync_04.png)
 
@@ -77,14 +77,14 @@ Pour plus d&#39;informations et des instructions complètes relatives aux workfl
 1. Cliquez sur **[!UICONTROL Créer]** en haut à droite.
 1. Cliquez sur **[!UICONTROL Workflow]**.
 1. Cliquez sur **[!UICONTROL Nouveau workflow]**, puis sur **[!UICONTROL Suivant]**.
-1. Saisissez un nom pour le workflow dans le champ **[!UICONTROL Libellé]** et des informations supplémentaires si nécessaire. Cliquez sur **[!UICONTROL Suivant]**.
+1. Saisissez un nom pour le workflow dans le champ **[!UICONTROL Libellé]** et d&#39;autres informations si nécessaire. Cliquez sur **[!UICONTROL Suivant]**.
 1. Depuis **[!UICONTROL Ciblage]** à gauche, déplacez une activité **[!UICONTROL Requête]** vers l&#39;espace de travail.
 
    ![](assets/acs_connect_profile_sync_05.png)
 
 1. Double-cliquez sur l&#39;activité **[!UICONTROL Requête]** et sélectionnez un paramètre pouvant être utilisé avec la base de données répliquée. Vous pouvez par exemple :
 
-   * Glisser **[!UICONTROL Profils]** à l’espace de travail. Utilisez le menu déroulant du champ pour choisir **[!UICONTROL Is external resource]** pour rechercher les profils qui ont été répliqués à partir de Campaign v7.
+   * Faites glisser **[!UICONTROL Profils]** dans l’espace de travail. Utilisez le menu déroulant du champ pour sélectionner **[!UICONTROL Est une ressource externe]** afin de trouver les profils qui ont été répliqués depuis Campaign v7.
    * Placer d&#39;autres paramètres de requête pour cibler davantage les profils répliqués.
 
 ## Création dʼune diffusion {#creating-a-delivery}
@@ -95,7 +95,7 @@ Pour plus d&#39;informations et des instructions complètes relatives aux workfl
 
 Les spécialistes du marketing digital peuvent utiliser une application web de Campaign v7 pour sʼassurer que le choix du destinataire de se désinscrire dʼun service est envoyé à la base de données de Campaign v7. Une fois que le destinataire a cliqué sur le lien de désinscription, lʼoption permettant dʼinterrompre le service est répliquée vers Campaign Standard. Pour plus dʼinformations, consultez la section [Modification du lien de désinscription](#changing-the-unsubscription-link).
 
-Suivez les étapes ci-dessous pour ajouter une diffusion email à un workflow existant avec le service de désinscription créé dans Campaign v7. Pour plus d’informations et des instructions complètes concernant les workflows de Campaign Standard, reportez-vous à cette section [document](../../workflow/using/about-workflows.md).
+Suivez la procédure ci-dessous pour ajouter une diffusion email à un workflow existant avec le service de désinscription créé dans Campaign v7. Pour obtenir des informations supplémentaires et des instructions complètes en ce qui concerne les workflows de Campaign Standard, consultez ce [document](../../workflow/using/about-workflows.md).
 
 >[!NOTE]
 >
@@ -106,12 +106,12 @@ Suivez les étapes ci-dessous pour ajouter une diffusion email à un workflow ex
 
    ![](assets/acs_connect_profile_sync_07.png)
 
-1. Double-cliquez sur le bouton **[!UICONTROL Diffusion Email]** activité et choisissez **[!UICONTROL Email unique]** ou **[!UICONTROL Email récurrent]**. Sélectionnez vos options, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Double-cliquez sur l&#39;activité **[!UICONTROL Diffusion Email]** et sélectionnez **[!UICONTROL Email unique]** ou **[!UICONTROL Email récurrent]**. Sélectionnez vos options, puis cliquez sur **[!UICONTROL Suivant]**.
 1. Cliquez sur **[!UICONTROL Diffuser par email]**, puis sur **[!UICONTROL Suivant]**.
 
    ![](assets/acs_connect_profile_sync_08.png)
 
-1. Saisissez un nom pour la diffusion dans la zone **[!UICONTROL Libellé]** et des informations supplémentaires si nécessaire. Cliquez sur **[!UICONTROL Suivant]**.
+1. Saisissez un nom pour la diffusion dans le champ **[!UICONTROL Libellé]** et d&#39;autres informations si nécessaire. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/acs_connect_profile_sync_09.png)
 
@@ -120,7 +120,7 @@ Suivez les étapes ci-dessous pour ajouter une diffusion email à un workflow ex
 
    ![](assets/acs_connect_profile_sync_10.png)
 
-1. Sélectionnez le contenu qui comprend le lien de désabonnement au service. Cliquez sur **[!UICONTROL Confirmer]**.
+1. Sélectionnez un contenu qui comprend le lien de désinscription au service. Cliquez sur **[!UICONTROL Confirmer]**.
 
    ![](assets/acs_connect_profile_sync_11.png)
 
@@ -154,7 +154,7 @@ Suivez les étapes ci-dessous pour ajouter une diffusion email à un workflow ex
 
    ![](assets/acs_connect_profile_sync_18.png)
 
-1. Double-cliquez sur le bouton **[!UICONTROL Diffusion Email]** canal et choisissez **[!UICONTROL Confirmer]** pour envoyer l’email. Cliquez sur **[!UICONTROL OK]** pour envoyer les messages.
+1. Double-cliquez sur le canal **[!UICONTROL Diffusion Email]** et sélectionnez **[!UICONTROL Confirmer]** pour envoyer l&#39;email. Cliquez sur **[!UICONTROL OK]** pour envoyer les messages.
 
    ![](assets/acs_connect_profile_sync_19.png)
 
@@ -170,10 +170,10 @@ Suivez les instructions détaillées dans les sections [Création dʼun workflow
 
    ![](assets/acs_connect_profile_sync_21.png)
 
-1. Les données du destinataire dans Campaign v7 sont mises à jour pour prendre en compte le désabonnement de l&#39;utilisateur. Confirmez que la case **[!UICONTROL Ne plus contacter (tous canaux)]** est vérifiée pour le destinataire. Pour découvrir comment visualiser un destinataire dans Campaign v7, voir [Editer un profil](../../platform/using/editing-a-profile.md).
+1. Les données du destinataire dans Campaign v7 sont mises à jour pour prendre en compte la désinscription de l&#39;utilisateur. Vérifiez que la case **[!UICONTROL Ne plus contacter (tous canaux)]** est cochée pour le destinataire. Pour savoir comment visualiser un destinataire dans Campaign v7, consultez la section [Editer un profil](../../platform/using/editing-a-profile.md).
 
    ![](assets/acs_connect_profile_sync_22.png)
 
-1. Accédez à Campaign Standard et ouvrez les détails du profil du destinataire. Confirmez qu’une case à cocher s’affiche en regard de **[!UICONTROL Ne plus contacter (tous canaux)]**. Pour savoir où trouver des profils en Campaign Standard, voir [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
+1. Allez dans Campaign Standard et affichez le détail du profil du destinataire. Vérifiez qu&#39;une case à cocher apparaît en regard de l&#39;option **[!UICONTROL Ne plus contacter (tous canaux)]**. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
 
    ![](assets/acs_connect_profile_sync_23.png)

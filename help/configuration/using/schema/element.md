@@ -5,9 +5,9 @@ description: élément element
 feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2016'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
    * &quot;identifier&quot;: nom d&#39;identifiant
    * &quot;resIdentifier&quot;: nom de fichier
 
-* **dbEnum (string)**: reçoit le nom interne d&#39;une énumération &quot;fermée&quot;. Les valeurs de l&#39;énumération doivent être définies dans la variable `<srcschema>`.
+* **dbEnum (string)**: reçoit le nom interne d&#39;une énumération &quot;fermée&quot;. Les valeurs de l&#39;énumération doivent être définies dans le `<srcschema>`.
 * **defOnDuplicate (boolean)**: si cet attribut est activé, lors de la duplication d&#39;un enregistrement, la valeur par défaut (définie dans &quot;@default&quot;) est réappliquée automatiquement à l&#39;enregistrement.
 * **default (string)**: permet de définir le comportement de l&#39;élément (appel à une fonction, valeur par défaut). Cet attribut reçoit une expression XTK.
 * **desc (string)**: permet d&#39;insérer une description de l&#39;élément. Cette description s&#39;affiche dans la barre de statut de l&#39;interface.
@@ -147,7 +147,7 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
 * **ref (string)** : cet attribut définit une référence vers un élément &lt;element> partagé par plusieurs schémas (factorisation des définitions). La définition n&#39;est pas recopiée dans le schéma courant.
 * **required (boolean)**: si cet attribut est activé (@required=&quot;true&quot;), le champ est mis en avant dans l&#39;interface. Le label du champ est affiché en rouge dans un formulaire.
 * **revAdvanced (boolean)**: s&#39;il est activé, cet attribut précise que le lien inverse est de type &quot;advanced&quot;.
-* **revCardinality (string)**: cet attribut définit la cardinalité d&#39;un lien entre deux tables. Il est utilisé dans un type &quot;link&quot;. `<element>`.
+* **revCardinality (string)** : cet attribut définit la cardinalité d&#39;un lien entre deux tables. Il est utilisé dans un `<element>` de type &quot;link&quot;.
 
   Les valeurs possibles sont les suivantes :
 
@@ -160,7 +160,7 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
 * **revExternalJoin (boolean)**: s&#39;il est activé, cet attribut permet de forcer la jointure externe sur le lien inverse.
 * **revIntegrity (string)**: cet attribut définit l&#39;intégrité sur le schéma cible. Les mêmes valeurs que l&#39;attribut &quot;@integrity&quot; sont autorisés. Par défaut, Adobe Campaign donne la valeur &quot;normal&quot; à cet attribut.
 * **revLabel (string)**: libellé du lien inverse.
-* **revLink (string)**: nom du lien inverse. Si la valeur est &quot;_AUCUN_&quot;, aucun lien inverse ne sera créé dans le schéma de destination.
+* **revLink (string)** : nom du lien inverse. Si la valeur est &quot;_NONE_&quot;, aucun lien inverse ne sera créé dans le schéma destination.
 * **revTarget (string)**: cible du lien inverse.
 * **sql (boolean)**: si cet attribut est activé (@sql=&quot;true&quot;), il force le stockage de l&#39;élément en SQL même lorsque l&#39;élément a la propriété xml=&quot;true&quot;.
 * **sqlname (string)**: nom du champ lors de la création de la table. Si &quot;@sqlname&quot; n&#39;est pas précisé la valeur de l&#39;attribut &quot;@name&quot; est pris par défaut. Lors de l&#39;écriture du schéma en table des préfixes seront automatiquement rajoutés en fonction du type du champ.

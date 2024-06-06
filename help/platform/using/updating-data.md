@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '764'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Pour une mise à jour en masse, utilisez l&#39;option **[!UICONTROL Action > Me
 
 La première étape de l&#39;assistant permet de spécifier le ou les champs sur lesquels porte la mise à jour.
 
-La section gauche de l&#39;assistant affiche la liste des champs disponibles. Utilisez la variable **[!UICONTROL Rechercher]** pour lancer une recherche sur ces champs. Appuyez sur la touche **Entrée** pour parcourir la liste. Les noms des champs correspondant à votre entrée apparaissent en gras, comme illustré ci-dessous.
+La section gauche de l&#39;assistant affiche la liste des champs disponibles. Utilisez le champ **[!UICONTROL Rechercher]** pour lancer une recherche parmi ces champs. Appuyez sur la touche **Entrée** pour parcourir la liste. Les libellés des champs qui correspondent à votre saisie apparaissent en gras, comme dans l&#39;exemple ci-dessous.
 
 Double-cliquez sur le ou les champs à mettre à jour afin de les afficher dans la section droite de l&#39;assistant.
 
@@ -58,7 +58,7 @@ Vous pouvez définir des filtres pour l&#39;affichage dans cette fenêtre de ré
 
 ![](assets/s_ncs_user_update_wizard01_3.png)
 
-Fermez cette fenêtre et cliquez sur **[!UICONTROL Suivant]** pour afficher la deuxième étape de l&#39;assistant de mise à jour. Dans cette étape, vous pouvez lancer la mise à jour en cliquant sur **[!UICONTROL Début]**.
+Fermez cette fenêtre et cliquez sur le bouton **[!UICONTROL Suivant]** pour afficher la seconde étape de l&#39;assistant de mise à jour. Cette étape permet de lancer la mise à jour à partir du bouton **[!UICONTROL Démarrer]**.
 
 ![](assets/s_ncs_user_update_wizard01_4.png)
 
@@ -70,7 +70,7 @@ Le bouton **[!UICONTROL Arrêter]** permet d&#39;annuler la mise à jour. Toutef
 
 L&#39;option **[!UICONTROL Fusionner les lignes sélectionnées...]** permet de lancer la fusion de deux profils de destinataires. Les deux profils à fusionner doivent être sélectionnés avant de choisir l&#39;option. Un assistant vous permet de paramétrer et de lancer la fusion.
 
-L&#39;assistant affiche les valeurs à récupérer pour chaque champ renseigné dans l&#39;un ou l&#39;autre des profils sources. Si un ou plusieurs champs des profils à fusionner ont des valeurs différentes, ils sont affichés dans la variable **[!UICONTROL Liste des conflits]** . Vous pouvez ensuite sélectionner le profil par défaut à l&#39;aide des boutons radio situés sous la liste, comme dans l&#39;exemple suivant :
+L&#39;assistant permet de visualiser les valeurs qui seront récupérées pour chaque champ renseigné dans l&#39;un ou l&#39;autre des profils sources. Si un ou plusieurs champs sont renseignés dans les deux profils à fusionner avec des valeurs différentes, ils sont affichés dans la section **[!UICONTROL Liste des conflits]**. Vous pouvez alors choisir le profil par défaut en utilisant les boutons radio situés sous cette liste, comme dans l&#39;exemple suivant :
 
 ![](assets/s_ncs_user_merge_wizard01_1.png)
 
@@ -117,7 +117,7 @@ Dans la plupart des cas, les destinataires s&#39;abonnent à une newsletter par 
 
    ![](assets/s_ncs_user_selection_subscribe_service_3.png)
 
-La section supérieure de la fenêtre permet de suivre le processus d&#39;exécution. La variable **[!UICONTROL Arrêter]** vous permet d’arrêter le processus. Toutefois, les destinataires déjà traités seront abonnés.
+La section supérieure de la fenêtre vous permet de suivre l&#39;exécution. Le bouton **[!UICONTROL Arrêter]** vous permet d’arrêter le traitement. Les destinataires ayant déjà été traités seront toutefois abonnés.
 
 Si vous décochez l&#39;option **[!UICONTROL Ne pas conserver trace de ce traitement dans la base de données]** vous pouvez sélectionner (ou créer) le dossier d&#39;exécution où seront stockées les informations relatives à ce traitement.
 

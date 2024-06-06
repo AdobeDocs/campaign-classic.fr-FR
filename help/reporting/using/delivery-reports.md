@@ -2,13 +2,13 @@
 product: campaign
 title: Rapports sur les diffusions
 description: Rapports sur les diffusions
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1646'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Ce rapport regroupe les indicateurs clés qui permettent de suivre le comporteme
 
 >[!NOTE]
 >
->Les valeurs calculées à partir des ouvertures de messages sont toujours des estimations, en raison de la marge d&#39;erreur liée aux emails au format texte. La variable **[!UICONTROL Ouvertures distinctes/Somme des ouvertures sur la population atteinte]** Les indicateurs prennent en compte cette marge d&#39;erreur. Pour plus d’informations sur le tracking des ouvertures, consultez la section [Tracking des ouvertures](../../reporting/using/indicator-calculation.md#tracking-opens-).
+>Les valeurs calculées à partir d’ouvertures de messages sont toujours des estimations en raison notamment de la marge d’erreur liée aux emails au format texte. Les indicateurs **[!UICONTROL Ouvertures distinctes / Somme des ouvertures sur la population atteinte]** prennent en compte cette marge d’erreur. Pour plus d’informations sur le tracking des ouvertures, consultez la section [Tracking des ouvertures](../../reporting/using/indicator-calculation.md#tracking-opens-).
 
 ![](assets/s_ncs_user_tracking_synth_report.png)
 
@@ -67,7 +67,7 @@ Ce rapport regroupe les indicateurs clés qui permettent de suivre le comporteme
 * **[!UICONTROL Ouvertures distinctes pour la population atteinte]** : estimation du nombre de destinataires ciblés ayant ouvert un message au moins une fois. Les clics sur les URL trackées sont pris en compte, car il faut ouvrir les e-mails pour cliquer sur un lien.
 * **[!UICONTROL Somme des ouvertures sur la population atteinte]** : Estimation du nombre total d&#39;ouvertures effectuées par des destinataires ciblés.
 * **[!UICONTROL Clics sur le lien d&#39;opt-out]** : Nombre de clics effectués sur le lien d&#39;opt-out.
-* **[!UICONTROL Clics sur la page miroir]** : nombre de clics sur le lien vers la page miroir. Pour être pris en compte, le lien doit être défini comme tel dans l&#39;assistant de diffusion (URL trackées). Voir cette [page](../../delivery/using/about-delivery-monitoring.md).
+* **[!UICONTROL Clics sur le lien de la page miroir]** : nombre de clics effectués sur le lien de la page miroir. Pour être pris en compte, le lien doit être défini comme tel dans l’assistant de diffusion (URL suivies). Voir cette [page](../../delivery/using/about-delivery-monitoring.md).
 * **[!UICONTROL Estimation des transferts]** : Estimation du nombre d&#39;emails transférés par les destinataires cibles de la diffusion à d&#39;autres personnes. Cette valeur est calculée en effectuant la différence entre le nombre de personnes distinctes et le nombre de destinataires distincts ayant cliqué au moins une fois dans le mail.
 
   >[!NOTE]
@@ -80,13 +80,13 @@ Ce tableau de valeurs présente la répartition, par domaine Internet, des envoi
 
 * **[!UICONTROL Envois]** : Nombre total de messages envoyés sur ce domaine.
 * **[!UICONTROL Plaintes]** : Nombre de messages, sur ce domaine, qui ont été signalés par le destinataire comme indésirables. Le taux est calculé par rapport au nombre total de messages envoyés sur ce domaine.
-* **[!UICONTROL Ouvertures]** : Nombre de destinataires ciblés distincts, pour ce domaine, ayant ouvert au moins une fois un même message. Le taux est calculé par rapport au nombre total de messages envoyés sur ce domaine.
+* **[!UICONTROL Ouvertures]** : Nombre de destinataires ciblés distincts, sur ce domaine, ayant ouvert au moins une fois un même message. Le taux est calculé par rapport au nombre total de messages envoyés sur ce domaine.
 * **[!UICONTROL Clics]** : Nombre de destinataires ciblés distincts ayant cliqué au moins une fois dans une même diffusion. Le taux est calculé par rapport au nombre total de messages envoyés sur ce domaine.
 * **[!UICONTROL Réactivité brute]** : Pourcentage du nombre de destinataires ayant cliqué au moins une fois dans une même diffusion par rapport au nombre de destinataires ayant ouvert au moins une fois une même diffusion.
 
 >[!NOTE]
 >
->Les noms de domaine affichés dans ce rapport sont définis dans l&#39;énumération utilisée au niveau des cubes. Pour modifier, ajouter ou supprimer des domaines par défaut, modifiez la variable **[!UICONTROL Domaines]** énumère et modifiez les valeurs et les alias. Pour plus d’informations, consultez [cette section](../../platform/using/managing-enumerations.md). La variable **[!UICONTROL Autres]** category comprend les noms de domaine qui n’appartiennent à aucune valeur de l’énumération.
+>Les noms de domaine qui apparaissent dans ce rapport sont définis dans l&#39;énumération utilisée au niveau des cubes. Pour modifier, ajouter ou supprimer des domaines par défaut, éditez l&#39;énumération **[!UICONTROL Domaines]**, et modifiez les valeurs et les alias. Pour plus d’informations, consultez [cette section](../../platform/using/managing-enumerations.md). La catégorie **[!UICONTROL Autres]** regroupe les noms de domaine qui n&#39;appartiennent à aucune valeur de l&#39;énumération.
 
 **[!UICONTROL 4. Flux de clics générés]**
 
@@ -111,7 +111,7 @@ Ce tableau de valeurs présente la répartition, par domaine Internet, des envoi
 
   >[!NOTE]
   >
-  >Pour qu&#39;une page visitée, une transaction, un montant ou un article soit pris en compte, une balise de webtracking doit être insérée dans la page web correspondante. Le paramétrage du webtracking est présenté dans la section [cette section](../../configuration/using/about-web-tracking.md).
+  >Pour qu&#39;une page visitée, une transaction, un montant ou un article soit comptabilisé, une balise de webtracking doit être insérée sur la page web correspondante. Le paramétrage du webtracking est présenté dans [cette section](../../configuration/using/about-web-tracking.md).
 
 **[!UICONTROL 6. Partage vers email et réseaux sociaux]**
 
@@ -123,11 +123,11 @@ Ce rapport présente la liste des pages visitées suite au lancement d&#39;une d
 
 ![](assets/s_ncs_user_url_report.png)
 
-Vous pouvez paramétrer le contenu de ce rapport en sélectionnant : le palmarès à afficher, le périmètre de la vue (depuis le lancement de l&#39;action, sur les six premières heures suivant le lancement, etc.) et le mode d&#39;affichage des données (par libellé, par URL, par catégorie). Cliquez sur **[!UICONTROL Actualiser]** pour confirmer votre sélection.
+Vous pouvez paramétrer le contenu de ce rapport en sélectionnant : le palmarès à afficher, la plage temporelle (depuis le lancement de l&#39;action, sur les six premières heures suivant le lancement, etc.) et le mode d&#39;affichage des données (par libellé, par URL, par catégorie). Cliquez sur **[!UICONTROL Actualiser]** pour confirmer votre sélection.
 
 Dans la section supérieure du rapport, les taux suivants sont affichés :
 
-* **[!UICONTROL Réactivité]** : Ratio du nombre de destinataires ciblés ayant cliqué dans une diffusion, par rapport à l&#39;estimation du nombre de destinataires ciblés ayant ouvert une diffusion. Les clics sur le lien de désinscription et la page miroir ne sont pas pris en compte.
+* **[!UICONTROL Réactivité]** : Ratio du nombre de destinataires ciblés ayant cliqué au moins une fois dans une même diffusion par rapport à l&#39;estimation du nombre de destinataires ciblés ayant ouvert au moins une fois une même diffusion. Ne tient pas compte des clics sur le lien d&#39;opt-out et la page miroir.
 
   >[!NOTE]
   >
@@ -169,7 +169,7 @@ Le graphique central présente la répartition, par règle, des messages rejeté
 Cette section comporte les indicateurs suivants :
 
 * **[!UICONTROL Message à diffuser]** : Nombre total de messages à diffuser après l&#39;analyse des diffusions.
-* **[!UICONTROL Succès]** : Nombre de messages traités avec succès. Le taux associé est le ratio par rapport au nombre de messages à délivrer.
+* **[!UICONTROL Succès]** : Nombre de messages traités avec succès. Le taux associé est le ratio par rapport au nombre de messages à délivrer.
 * **[!UICONTROL Erreurs]** : Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours. Le taux associé est le ratio avec le nombre de messages à diffuser.
 * **[!UICONTROL Mises en quarantaine]** : Nombre d&#39;adresses mises en quarantaine à la suite d&#39;un échec (utilisateur inconnu, domaine invalide). Le taux associé est le ratio avec le nombre de messages à diffuser.
 
@@ -189,10 +189,10 @@ Ce rapport présente les statistiques sur les taux d&#39;ouverture, clics et tra
 
 ![](assets/s_ncs_user_stat_report.png)
 
-Il permet de suivre l&#39;impact marketing de la diffusion. Vous pouvez paramétrer l&#39;affichage des valeurs en sélectionnant le périmètre de la vue (vue 1 heure, 3 heures, 24 heures, etc.). Cliquez sur **[!UICONTROL Actualiser]** pour confirmer votre sélection.
+Il vous permet de suivre l&#39;impact marketing de la diffusion. Vous pouvez paramétrer l&#39;affichage des valeurs en sélectionnant l’échelle de temps (vue sur 1 heure, sur 3 heures, sur 24 heures, etc.). Cliquez sur **[!UICONTROL Actualiser]** pour confirmer votre sélection.
 
 Ce rapport se présente sous la forme d&#39;un tableau de valeur et d&#39;un diagramme de Pareto permettant de mesurer le temps mis pour que la diffusion atteigne son efficacité maximum. Les indicateurs utilisés sont les suivants :
 
 * **[!UICONTROL Ouvertures]** : estimation du temps mis pour atteindre un pourcentage du nombre total de messages ouverts. Les emails au format texte ne sont pas comptabilisés. Pour plus d’informations sur le tracking des ouvertures, consultez la section [Tracking des ouvertures](../../reporting/using/indicator-calculation.md#tracking-opens-).
 * **[!UICONTROL Clics]** : Estimation du temps mis pour atteindre un pourcentage du nombre total de clics enregistrés. Les clics sur le lien d&#39;opt-out et la page miroir ne sont pas pris en compte.
-* **[!UICONTROL Transactions]** : temps nécessaire pour atteindre un pourcentage du nombre total de transactions suite à la réception d&#39;un message. Pour qu&#39;une transaction soit prise en compte, une balise de webtracking de type transaction doit être insérée dans la page web correspondante. Le paramétrage du webtracking est présenté dans la section [cette section](../../configuration/using/about-web-tracking.md).
+* **[!UICONTROL Transactions]** : temps mis pour atteindre un pourcentage du nombre total de transactions suite à la réception d&#39;un message. Pour qu&#39;une transaction soit prise en compte, une balise de tracking web de type transaction doit être insérée sur la page web correspondante. Le paramétrage du webtracking est présenté dans [cette section](../../configuration/using/about-web-tracking.md).

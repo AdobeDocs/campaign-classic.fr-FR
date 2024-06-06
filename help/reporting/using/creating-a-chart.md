@@ -3,12 +3,12 @@ product: campaign
 title: Création d’un graphique
 description: Découvrez comment concevoir un graphique
 feature: Reporting, Monitoring
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Il peut également être modifié à partir de la section **[!UICONTROL Type de 
 
 ![](assets/reporting_change_graph_type.png)
 
-Les variantes dépendent du type de graphique sélectionné. Ils sont sélectionnés à l’aide de l’option **[!UICONTROL Variantes...]** lien.
+Les variantes dépendent du type de graphique sélectionné. Elles sont sélectionnées à partir du lien **[!UICONTROL Variantes...]**.
 
 ### Répartition : les secteurs {#breakdown--pie-charts}
 
@@ -112,7 +112,7 @@ Lorsque les valeurs s&#39;y prêtent, vous pouvez les empiler.
 
 ![](assets/reporting_graph_type_histo.png)
 
-Au besoin, vous pouvez inverser la séquence d’affichage des valeurs. Pour ce faire, sélectionnez l’option **[!UICONTROL Empilement inversé]** .
+Au besoin, vous pouvez inverser l&#39;ordre d&#39;affichage des valeurs. Pour cela, sélectionnez l&#39;option **[!UICONTROL Empilement inversé]**.
 
 ### Conversion : le funnel {#conversion--funnel}
 
@@ -120,7 +120,7 @@ Ce type de graphique permet de suivre le taux de conversion des éléments mesur
 
 ## Interaction avec le graphique {#interaction-with-the-chart}
 
-Vous pouvez définir une action lorsque l&#39;utilisateur clique sur le graphique. Ouvrez le **[!UICONTROL Événements d’interaction]** et sélectionnez l’action à exécuter.
+Vous pouvez définir une action lorsque l&#39;utilisateur clique sur le graphique. Ouvrez la fenêtre **[!UICONTROL Evénements d&#39;interaction]** et choisissez l&#39;action à effectuer.
 
 Les types d&#39;interactions possibles et leurs paramétrages sont présentés dans [cette section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 

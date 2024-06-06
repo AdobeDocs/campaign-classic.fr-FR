@@ -5,9 +5,9 @@ description: Découvrez comment gérer les autorisations relatives aux workflows
 feature: Workflows
 exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -33,10 +33,10 @@ Les groupes d&#39;opérateurs associés aux workflows sont les suivants :
 
 ## Droits nommés {#named-rights}
 
-Seul le droit nommé WORKFLOW est spécifique aux workflows : il permet de créer, démarrer et arrêter les workflows. Les droits de lecture sur le fichier de workflow sont nécessaires pour que le droit nommé soit applicable. Pour les workflows de ciblage, la lecture se trouve à droite de l&#39;événement **[!UICONTROL Profils et cibles]** est nécessaire.
+Seul le droit nommé WORKFLOW est spécifique aux workflows : il vous permet de créer, de démarrer et d’arrêter des workflows. Les droits de lecture sur le fichier de workflow sont nécessaires pour que le droit nommé soit applicable. Pour les workflows de ciblage, le droit en lecture sur le dossier **[!UICONTROL Profils et Cibles]** est nécessaire.
 
 ## Compte d&#39;exécution d&#39;un workflow {#workflow-execution-account}
 
 Vous pouvez paramétrer, au niveau du modèle de workflow, le compte d&#39;exécution à utiliser. Le compte d&#39;exécution permet d&#39;associer les permissions directement au workflow, indépendamment de l&#39;opérateur Adobe Campaign qui lancera son exécution. Par défaut, chaque workflow s&#39;exécute avec les droits de l&#39;opérateur qui l&#39;a démarré.
 
-Pour associer un compte d&#39;exécution à un workflow, accédez à la liste des modèles de workflow et cliquez avec le bouton droit sur le modèle associé au workflow. Choisir **[!UICONTROL Action > Changer le compte d&#39;exécution...]** sélectionnez ensuite le compte à utiliser.
+Pour associer un compte d&#39;exécution à un workflow, accédez à la liste des modèles de workflow et cliquez avec le bouton droit de la souris sur le modèle associé. Sélectionnez **[!UICONTROL Action > Changer le compte d&#39;exécution]**, puis sélectionnez le compte à utiliser.

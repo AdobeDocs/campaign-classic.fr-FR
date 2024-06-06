@@ -5,9 +5,9 @@ description: Découvrir comment créer le schéma de données pour FDA
 feature: Installation, Instance Settings, Federated Data Access
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Pour créer un schéma sur une base de données externe :
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. Cliquez sur **[!UICONTROL OK]** pour confirmer. Adobe Campaign détecte automatiquement la structure de la table sélectionnée et génère le schéma logique. Veuillez noter qu&#39;Adobe Campaign ne génère pas de liens.
+1. Cliquez sur **[!UICONTROL Ok]** pour valider. Adobe Campaign détecte automatiquement la structure de la table sélectionnée et génère le schéma logique. Veuillez noter qu&#39;Adobe Campaign ne génère pas de liens.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour en valider la création.
 

@@ -1,26 +1,26 @@
 ---
 product: campaign
-title: Prise en main des schémas dans Adobe Campaign
-description: Découvrez comment utiliser les schémas et étendre le modèle de données conceptuel de la base de données Adobe Campaign
+title: Prise en main des schémas dans Adobe Campaign
+description: Découvrez comment utiliser les schémas et étendre le modèle de données conceptuel de la base de données Adobe Campaign
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # Prise en main des schémas {#about-schema-reference}
 
-## Présentation d’un schéma {#what-is-a-schema}
+## Qu’est-ce qu’un schéma ? {#what-is-a-schema}
 
 Ce chapitre explique comment configurer des schémas d’extension afin d’étendre le modèle conceptuel de données de la base de données Adobe Campaign.
 
 Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, voir la section [Modèle de données Campaign Classic](about-data-model.md).
 
-Dans Adobe Campaign, la structure physique et logique des données véhiculées dans l’application est décrite en XML. A **schema** est un document XML associé à une table de base de données. Il définit la structure des données et décrit la définition SQL de la table :
+Dans Adobe Campaign, la structure physique et logique des données véhiculées dans l’application est décrite en XML. Un **schéma** est un document XML associé à une table de la base de données. Il définit la structure des données et décrit la définition SQL de la table :
 
 * le nom de la table,
 * des champs ;
@@ -71,7 +71,7 @@ Les balises **`<element>`** définissent les noms des éléments d&#39;entité. 
 
 Un schéma de données est identifié par son nom et son espace de noms.
 
-Un espace de noms permet de regrouper un ensemble de schémas par zone d’intérêt. Par exemple, la variable **cus** L’espace de noms est utilisé pour la configuration spécifique au client (**clients**).
+Un espace de noms vous permet de regrouper un ensemble de schémas par domaine d’intérêt. Par exemple, l’espace de noms **cus** est utilisé pour la configuration spécifique aux clientes et clients (**clients**).
 
 La clé d&#39;identification d&#39;un schéma est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39;, par exemple **cus:recipient**.
 

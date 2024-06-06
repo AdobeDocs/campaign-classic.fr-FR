@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -91,9 +91,9 @@ Selon votre mise en œuvre, vous pouvez rencontrer quelques problèmes courants.
 
 * **Je souhaite partager une liste de profils avec Campaign Standard par le biais d&#39;un workflow, mais je ne trouve pas mon audience dans Campaign Standard**.
 
-  Les audiences se trouvent dans la variable **[!UICONTROL Audiences]** en Campaign Standard. Le libellé spécifié dans la variable **[!UICONTROL Mise à jour de liste]** dans votre workflow Campaign v7. Ils sont soumis au mappage de dossiers défini lors de l’implémentation.
+  Les audiences figurent dans le menu **[!UICONTROL Audiences]** de Campaign Standard. Leur libellé est spécifié dans l&#39;activité **[!UICONTROL Mise à jour de liste]** du workflow de Campaign v7. Le mapping des dossiers défini pendant la mise en œuvre s&#39;applique aux audiences.
 
-  La première chose à vérifier est si le workflow s’est terminé sans erreur. Si vous constatez une erreur sur la variable **[!UICONTROL Mise à jour de liste]** , cela signifie que la synchronisation avec Campaign Standard a peut-être échoué. Pour plus d’informations sur ce qui s’est passé, accédez à **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Processus]** > **[!UICONTROL Diagnostics]**. Ce dossier contient les workflows de synchronisation déclenchés par **[!UICONTROL Mise à jour de liste]** exécution de l’activité.
+  Commencez par vérifier si le workflow s&#39;est terminé sans erreurs. Si vous remarquez une erreur dans l&#39;activité **[!UICONTROL Mise à jour de liste]**, cela signifie que la synchronisation avec Campaign Standard ne s&#39;est peut-être pas effectuée correctement. Pour déterminer ce qui s&#39;est passé, accédez à **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Traitement]** > **[!UICONTROL Diagnostic]**. Ce dossier contient les workflows de synchronisation déclenchés par l&#39;exécution de l&#39;activité **[!UICONTROL Mise à jour de liste]**.
 
   Vérifiez également que l&#39;option **[!UICONTROL Partager avec ACS]** est cochée dans l&#39;activité **[!UICONTROL Mise à jour de liste]** et que le workflow a été exécuté correctement.
 
@@ -101,7 +101,7 @@ Selon votre mise en œuvre, vous pouvez rencontrer quelques problèmes courants.
 
   Si vous partagez une liste composée de profils qu&#39;aucun d&#39;entre eux n&#39;est synchronisé avec Campaign Standard, une audience de type requête vide est créée dans Campaign Standard. Celle-ci ne peut pas être utilisée.
 
-* **Une notification m’informe qu’un workflow de synchronisation est en erreur. Que dois-je faire ?**
+* **Une notification m&#39;informe qu&#39;un workflow de synchronisation est en erreur. Que dois-je faire ?**
 
   Vérifiez la configuration du compte externe dans Campaign Standard et Campaign v7 en testant la connexion :
 
@@ -112,7 +112,7 @@ Selon votre mise en œuvre, vous pouvez rencontrer quelques problèmes courants.
 
   Vous devez d&#39;abord synchroniser vos groupes de sécurité dans **[!UICONTROL Administration > ACS Connector > Gestion des droits > Groupes de sécurité]**. Cette action vérifie les groupes de sécurité disponibles dans Campaign Standard. Une fois les groupes de sécurité synchronisés, vous pouvez les trouver lors de la configuration du mapping des dossiers.
 
-* **Je ne peux pas modifier un profil, une audience ou une landing page en Campaign Standard. Qu&#39;est-ce que cela signifie ?**
+* **Je ne peux pas modifier un profil, une audience ou une page de destination dans Campaign Standard. Pourquoi ?**
 
   Les ressources synchronisées depuis Campaign v7 sont en lecture seule dans Campaign Standard pour garantir la cohérence des données. Si vous devez éditer l&#39;un de ces éléments, vous pouvez le faire dans Campaign v7 et répliquer ensuite la modification dans Campaign Standard.
 

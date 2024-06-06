@@ -2,13 +2,13 @@
 product: campaign
 title: Ajouter des champs à un formulaire web
 description: Ajouter des champs à un formulaire web
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2466'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Spécifiez le mode de stockage des réponses : mise à jour d&#39;un champ de l
 
 ## Assistant de création de champs {#field-creation-wizard}
 
-Pour chaque page du formulaire, vous pouvez ajouter un champ via le premier bouton de la barre d&#39;outils. Pour ce faire, accédez à la **[!UICONTROL Ajouter à l’aide de l’assistant]** .
+Pour chaque page du formulaire, vous pouvez ajouter un champ à l’aide du premier bouton de la barre d’outils. Pour ce faire, accédez au menu **[!UICONTROL Ajouter à l’aide de l’assistant]** .
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
@@ -98,11 +98,11 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
 
   ![](assets/s_ncs_admin_survey_txthtmli_ex.png)
 
-  Vous pouvez sélectionner le type d&#39;éditeur proposé aux utilisateurs. Pour ce faire, utilisez la liste déroulante du **[!UICONTROL Éditeur de HTMLs]** dans le champ **[!UICONTROL Avancé]** .
+  Vous pouvez sélectionner le type d&#39;éditeur qui sera proposé aux utilisateurs. Pour cela, utilisez la liste déroulante du champ **[!UICONTROL Editeur Html]** de l&#39;onglet **[!UICONTROL Avancé]**.
 
   ![](assets/webapp_enrich_text_type.png)
 
-  Le nombre d’icônes affichées varie en fonction du type d’éditeur. Pour un **[!UICONTROL Avancé]** éditeur, le rendu sera le suivant :
+  Le nombre d’icônes affichées varie en fonction du type d’éditeur. Pour un éditeur **[!UICONTROL Avancé]**, le rendu sera le suivant :
 
   ![](assets/webapp_enrich_text_max.png)
 
@@ -134,7 +134,7 @@ Pour ajouter une liste déroulante dans une page de formulaire, cliquez sur le b
 
 Sélectionnez le mode de stockage des réponses et validez votre choix.
 
-Définissez les libellés et les valeurs de la liste dans la section inférieure du **[!UICONTROL Général]** . Si les informations sont stockées dans un champ existant de la base et s&#39;il s&#39;agit d&#39;un champ d&#39;énumération, vous pouvez renseigner automatiquement les valeurs en cliquant sur **[!UICONTROL Initialiser la liste des valeurs depuis la base de données]** , comme illustré ci-dessous :
+Définissez les libellés et les valeurs de la liste dans la section inférieure de l’onglet **[!UICONTROL Général]** . Si les informations sont stockées dans un champ existant de la base de données et s’il s’agit d’un champ d’énumération, vous pouvez renseigner automatiquement les valeurs en cliquant sur **[!UICONTROL Initialiser la liste des valeurs depuis la base de données]**, comme illustré ci-dessous :
 
 ![](assets/s_ncs_admin_survey_database_values.png)
 
@@ -142,7 +142,7 @@ Définissez les libellés et les valeurs de la liste dans la section inférieure
 >
 >Utilisez les flèches situées à droite de la liste des valeurs pour les ordonner.
 
-Si les données sont stockées dans une table liée, vous pouvez sélectionner le champ où sont enregistrées les valeurs à proposer dans la liste. Par exemple, si vous sélectionnez le tableau des pays, cliquez sur **[!UICONTROL Initialisez la liste des valeurs de la base de données...]** et sélectionnez le champ souhaité.
+Si les données sont stockées dans une table liée, vous pouvez sélectionner le champ où sont enregistrées les valeurs à proposer dans la liste. Par exemple, si vous sélectionnez le tableau des pays, cliquez sur **[!UICONTROL Initialiser la liste des valeurs depuis la base de données]** et sélectionnez le champ souhaité.
 
 ![](assets/s_ncs_admin_survey_preload_values.png)
 
@@ -168,9 +168,9 @@ Saisissez le libellé de la case dans le champ **[!UICONTROL Libellé]** de l&#3
 
 ![](assets/s_ncs_admin_survey_check_box_edit.png)
 
-Une case à cocher permet d&#39;attribuer une valeur au champ (ou à la valeur) de stockage selon que la case est cochée ou non. La variable **[!UICONTROL Valeurs]** permet de saisir la valeur à attribuer si la case est cochée (dans la variable **[!UICONTROL Valeur]** ) et la valeur à attribuer si elle n’est pas cochée (dans la variable **[!UICONTROL Valeur vide]** ). Ces valeurs dépendent du format de stockage des données.
+Une case à cocher permet d&#39;attribuer au champ (ou à la variable) de stockage une valeur ou une autre selon que la case est cochée ou non. La section **[!UICONTROL Valeurs]** permet de saisir la valeur à attribuer si la case est cochée (dans le champ **[!UICONTROL Valeur]**) et la valeur à attribuer si la case est décochée (dans le champ **[!UICONTROL Valeur vide]**). Ces valeurs dépendent du format de stockage des données.
 
-Si le champ (ou la variable) de stockage est de type booléen, la valeur à attribuer si la case n’est pas cochée est déduite automatiquement. Dans ce cas, seule la variable **[!UICONTROL Valeur si coché]** est proposé, comme dans l&#39;exemple ci-dessous :
+Si le champ (ou la variable) de stockage est de type booléen, la valeur à attribuer si la case n’est pas cochée est déduite automatiquement. Dans ce cas, seul le champ **[!UICONTROL Valeur si coché]** est proposé, comme illustré ci-dessous :
 
 ![](assets/s_ncs_admin_survey_check_box_enum.png)
 
@@ -239,7 +239,7 @@ Dans chaque ligne de matrice, une seule option peut être sélectionnée.
 
 >[!NOTE]
 >
->Dans notre exemple, le libellé de la grille est masqué. Pour ce faire, accédez à la **[!UICONTROL Avancé]** , **[!UICONTROL Position des libellés]** display est défini comme **[!UICONTROL Masqué]** . Voir [Définir la position des libellés](defining-web-forms-layout.md#defining-the-position-of-labels).
+>Dans notre exemple, le libellé de la grille est masqué. Pour ce faire, accédez à l&#39;onglet **[!UICONTROL Avancé]**. L&#39;affichage de la **[!UICONTROL Position du libellé]** est défini sur **[!UICONTROL Caché]**. Voir [Définir la position des libellés](defining-web-forms-layout.md#defining-the-position-of-labels).
 
 ## Ajouter des dates et des nombres {#adding-dates-and-numbers}
 
@@ -335,7 +335,7 @@ Pour insérer un Captcha dans un formulaire, cliquez sur le premier bouton de la
 
 ![](assets/s_ncs_admin_survey_add_captcha.png)
 
-Saisissez le libellé du champ. Ce libellé sera affiché devant la zone d&#39;affichage du Captcha. Vous pouvez modifier la position de ce libellé dans la variable **[!UICONTROL Avancé]** .
+Saisissez le libellé du champ. Ce libellé sera affiché devant la zone d’affichage du Captcha. Vous pouvez modifier le positionnement de ce libellé à partir de l&#39;onglet **[!UICONTROL Avancé]**.
 
 ![](assets/s_ncs_admin_survey_captcha_adv.png)
 
@@ -351,7 +351,7 @@ Lors de la validation de la page, le champ de saisie est affiché en rouge si le
 
 ![](assets/s_ncs_admin_survey_captcha_error.png)
 
-Vous pouvez créer un message d’erreur à afficher. Pour ce faire, utilisez le **[!UICONTROL Personnaliser le message]** dans le **[!UICONTROL Général]** .
+Vous pouvez créer un message d’erreur à afficher. Pour cela, utilisez le lien **[!UICONTROL Personnaliser le message]** dans l’onglet **[!UICONTROL Général]**.
 
 ![](assets/s_ncs_admin_survey_captcha_error_msg.png)
 
@@ -367,7 +367,7 @@ Vous pouvez ajouter dans une page un champ de téléchargement. Cette fonctionna
 
 Pour ajouter un champ de téléchargement dans une page de formulaire, sélectionnez le menu **[!UICONTROL Contrôles avancés > Fichier...]** dans la barre d&#39;outils de l&#39;éditeur de page.
 
-Par défaut, les fichiers téléchargés sont stockés dans des fichiers de ressources accessibles via le **[!UICONTROL Ressources > On-line > Ressources publiques]** . Vous pouvez utiliser un script pour modifier ce comportement. Ce script peut utiliser les fonctions définies dans [Documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr), y compris celles relatives à la manipulation de fichiers.
+Par défaut, les fichiers chargés sont stockés dans des fichiers de ressources accessibles via le menu **[!UICONTROL Ressources > En ligne > Ressources publiques]**. Vous pouvez utiliser un script pour modifier ce comportement. Ce script peut utiliser les fonctions définies dans la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr) notamment celles relatives à la manipulation des fichiers.
 
 Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans un champ de la base. Vous pouvez, par exemple, étendre le schéma des destinataires afin d&#39;ajouter un lien vers les ressources fichiers.
 

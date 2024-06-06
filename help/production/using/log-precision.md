@@ -3,15 +3,15 @@ product: campaign
 title: Précision des logs
 description: Précision des logs
 feature: Monitoring
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: c2470098-62f3-4fee-b1c5-800ed0e91f75
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign peut fonctionner sous deux niveaux de logs :
    >
    >Si vous utilisez **tracefilter:&#42;**, tous les types de journaux sont activés : ncm, rdr, nms, jst, timing, wdbc, ldap, soap, xtk, xtkquery, session, xtkwriter, network, pop3, inmail.\
    Les types de journaux les plus utiles sont les suivants : **wdbc** (affiche toutes les requêtes SQL), **soap** (affiche tous les appels SOAP), **ldap** (affiche toutes les requêtes LDAP lors de l&#39;authentification), **xtkquery** (affiche la liste de toutes les querydef).\
-   Vous pouvez les utiliser individuellement (**tracefilter:soap,wdbc** par exemple). Vous pouvez également tous les activer et choisir d’en exclure d’autres : **-tracefilter :&#42;,!soap**
+   Vous pouvez les utiliser individuellement (par exemple : **tracefilter:soap,wdbc**). Vous pouvez aussi tous les activer et choisir d’en exclure certains : **-tracefilter:&#42;,!soap**
 
    Vérifiez que l&#39;erreur s&#39;est bien produite, puis relancez le processus normalement :
 

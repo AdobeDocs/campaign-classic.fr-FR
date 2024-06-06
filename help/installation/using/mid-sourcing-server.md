@@ -3,15 +3,15 @@ product: campaign
 title: Installation d'un serveur de mid-sourcing dans Campaign
 description: Cette section décrit l'installation et la configuration d'un serveur de mid-sourcing dans Campaign
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1063'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ La procédure d&#39;installation reprend les étapes d&#39;une installation pour
 
 Toutefois, vous devez appliquer les spécificités suivantes :
 
-* À l’étape **5**, vous devez désactiver la variable **mta** (diffusion) et **inMail** Modules (mails rebonds). La variable **wfserver** (workflow) doit toutefois rester activé.
+* A l&#39;étape **5**, vous devez désactiver les modules **mta** (diffusion) et **inMail** (mails rebonds). Au contraire, le module **wfserver** (workflow) doit rester activé.
 
   ```
   <?xml version='1.0'?>
@@ -66,7 +66,7 @@ Toutefois, vous devez appliquer les spécificités suivantes :
   Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 * Les étapes **6**,**9** et **10** ne sont pas nécessaires.
-* Pendant les étapes **12** et **13**, vous devez indiquer le port 8080 dans l&#39;URL de connexion (puisque la console communique directement avec Tomcat, et non via le serveur Web). L’URL devient `http://console.campaign.net:8080`. À l’étape **13**, sélectionnez la variable **[!UICONTROL Problème de mid-sourcing]** ainsi que ceux à installer.
+* Lors des étapes **12** et **13**, vous devez indiquer le port 8080 dans l’URL de connexion (car la console communique directement avec Tomcat sans passer par le serveur web). L’URL devient `http://console.campaign.net:8080`. À l’étape **13**, sélectionnez le package **[!UICONTROL Emission vers Mid-Sourcing]**, en complément des packages à installer.
 
   ![](assets/s_ncs_install_midsourcing02.png)
 
@@ -117,7 +117,7 @@ Il est possible de mutualiser une instance de mid-sourcing pour plusieurs instan
 
    ![](assets/mid_recette_user_create.png)
 
-1. Dans le **[!UICONTROL Droits d’accès]** , attribuez à cet opérateur les droits de la variable **Soumissions Mid-sourcing** groupe. Ce droit d’accès est disponible dans **[!UICONTROL Mid-sourcing > Gestion des accès > Groupes d&#39;opérateurs]**.
+1. Dans l&#39;onglet **[!UICONTROL Droits d&#39;accès]**, attribuez à cet opérateur les droits du groupe **Soumissions mid-sourcing**. Ce droit d&#39;accès est accessible sous **[!UICONTROL Mid-sourcing > Gestion des accès > Groupes d&#39;opérateurs]**.
 
    ![](assets/mid_recette_user_rights.png)
 
@@ -139,9 +139,9 @@ L&#39;attribut &#39;@name&#39; doit respecter les règles suivantes :
 
 &#39;nom_du_compte_de_l&#39;opérateur_marketing&#39; correspond au nom interne du compte de l&#39;opérateur mid-sourcing déclaré dans l&#39;instance mid-sourcing.
 
-&#39;nom_de_l&#39;affinité&#39; correspond au nom arbitraire donné à l&#39;affinité. Ce nom doit être unique. Les caractères autorisés sont `[a-z]``[A-Z]``[0-9]`. L’objectif est de déclarer un groupe d’adresses IP publiques.
+&#39;nom_de_l&#39;affinité&#39; correspond au nom arbitraire donné à l&#39;affinité. Ce nom doit être unique. Les caractères autorisés sont `[a-z]``[A-Z]``[0-9]`. Le but est de déclarer un groupe d&#39;adresses IP publiques.
 
-&#39;groupe_d&#39;affinité&#39; correspond à la sous-affinité déclarée dans le mapping de ciblage utilisé dans chacune des diffusions. La dernière partie incluant le caractère &#39;.&#39; est ignorée en l’absence de sous-affinité. Les caractères autorisés sont `[a-z]``[A-Z]``[0-9]`.
+&#39;groupe_d&#39;affinité&#39; est lié à la sous-affinité déclarée dans le mapping de ciblage utilisé dans chacune des diffusions. La dernière partie incluant le « . » est ignorée en l&#39;absence de sous-affinité. Les caractères autorisés sont `[a-z]``[A-Z]``[0-9]`.
 
 Vous devez arrêter et redémarrer le serveur pour que cette modification soit prise en compte.
 

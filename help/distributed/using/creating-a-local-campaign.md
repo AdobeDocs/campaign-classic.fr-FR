@@ -5,9 +5,9 @@ description: Créer une campagne locale
 feature: Distributed Marketing
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1698'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Quatre types d’interface web sont disponibles :
 
   >[!NOTE]
   >
-  >L&#39;application web utilisée dans cet exemple est un exemple. Vous devez créer une application web spécifique pour pouvoir utiliser un formulaire. Voir [API](../../configuration/using/about-web-services.md).
+  >L’application web utilisée ici est un exemple. Vous devez créer une application web spécifique pour pouvoir utiliser un formulaire. Pour plus d&#39;informations, consultez la section [API](../../configuration/using/about-web-services.md).
 
   ![](assets/mkt_distr_7.png)
 
@@ -300,7 +300,7 @@ Lorsqu&#39;une commande d&#39;opération est effectuée par une entité locale, 
 
 #### Validation via la console Adobe Campaign {#approving-via-the-adobe-campaign-console}
 
-La commande peut également être validée à partir de la console, dans la vue d&#39;ensemble des commandes de l&#39;opération. Pour approuver une commande, sélectionnez-la et cliquez sur **[!UICONTROL Approuver la commande]**.
+La commande peut également être validée à partir de la console, depuis la vue d&#39;ensemble des commandes d&#39;opérations. Pour approuver une commande, sélectionnez-la et cliquez sur **[!UICONTROL Approuver la commande]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 

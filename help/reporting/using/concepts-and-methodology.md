@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1580'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -50,9 +50,9 @@ Dans l&#39;exemple ci-dessous, les langues seront réparties dans trois groupes�
 
 ![](assets/s_advuser_cube_class_03.png)
 
-Vous pouvez utiliser un masque SQL pour regrouper plusieurs valeurs dans un filtre. Pour ce faire, cochez la case **[!UICONTROL Oui]** dans le **[!UICONTROL Utiliser un masque SQL]** et saisissez le filtre SQL à appliquer dans le champ **[!UICONTROL Valeur ou expression]** colonne .
+Vous pouvez utiliser un masque SQL pour regrouper plusieurs valeurs selon un filtre. Pour cela, cochez l&#39;option **[!UICONTROL Oui]** dans la colonne **[!UICONTROL Utiliser un masque SQL]** et saisissez le filtre SQL à appliquer dans la colonne **[!UICONTROL Valeur ou expression]**.
 
-Dans l’exemple ci-dessous, tous les domaines de messagerie commençant par **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.), ou avec **ymail** (ymail.com, ymail.eu, etc.) seront regroupées sous le libellé **YAHOO !**, ainsi que les adresses de la variable **rocketmail.com** domaine.
+Dans l’exemple ci-dessous, tous les domaines de messagerie commençant par **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.), ou par **ymail** (ymail.com, ymail.eu, etc.) seront regroupés sous le libellé **YAHOO!**, ainsi que les adresses avec le domaine **rocketmail.com**.
 
 ![](assets/s_advuser_cube_class_03b.png)
 
@@ -81,7 +81,7 @@ Indiquez ensuite les bornes inférieures et supérieures et cliquez sur **[!UICO
 
 ### Génération automatique de classes {#generating-bins-automatically}
 
-Il est également possible de générer les classes automatiquement. Pour ce faire, cliquez sur le bouton **[!UICONTROL Générer les classes...]** lien.
+Vous pouvez également générer automatiquement les classes. Pour cela, cliquez sur le lien **[!UICONTROL Générer les classes...]**.
 
 ![](assets/s_advuser_cube_class_06.png)
 
@@ -109,13 +109,13 @@ Elle est construite selon le modèle suivant :
 
 ![](assets/nmx_enum_domain.png)
 
-Pour créer un rapport à partir de cette énumération, créez un Cube à l&#39;aide du **[!UICONTROL Domaine de l&#39;email]** dimension. Choisissez la **[!UICONTROL Activer la mise en classe]** option , puis **[!UICONTROL Lier dynamiquement les valeurs à une énumération]**. Sélectionnez ensuite le **Domaines** énumération comme illustré ci-dessus. Toutes les valeurs qui n’ont pas d’alias spécifié seront regroupées sous la variable **Autres** libellé.
+Pour créer un rapport utilisant cette énumération, créez un Cube utilisant la dimension **[!UICONTROL Domaine de l&#39;email]**. Choisissez l&#39;option **[!UICONTROL Activer la mise en classe]** puis **[!UICONTROL Lier dynamiquement les valeurs à une énumération]**. Choisissez alors l&#39;énumération **Domaines(domain)** présentée ci-dessus. Toutes les valeurs pour lesquelles aucun alias n&#39;a été défini seront regroupées sous le libellé **Autres**.
 
 ![](assets/nmx_add_dimension.png)
 
 Créez ensuite un rapport basé sur ce Cube pour afficher les valeurs.
 
-Il suffit de modifier l&#39;énumération pour mettre à jour le rapport associé. Par exemple, créez la variable **Adobe** et ajoutez la variable **adobe.com** alias et le rapport est automatiquement mis à jour avec la valeur Adobe au niveau de l&#39;énumération.
+Il suffira de modifier l&#39;énumération pour mettre à jour le rapport associé. Par exemple, créez la valeur **Adobe** et ajoutez l&#39;alias **adobe.com**, au niveau de l&#39;énumération : le rapport est automatiquement mis à jour avec la valeur Adobe.
 
 ![](assets/nmx_add_alias.png)
 
@@ -150,7 +150,7 @@ Pour créer un nouvel agrégat, les étapes sont les suivantes :
 
    ![](assets/s_advuser_cube_agregate_04.png)
 
-   * La variable **[!UICONTROL Planificateur]** permet de définir la fréquence des mises à jour des calculs. Le planificateur est présenté dans la section [cette section](../../workflow/using/scheduler.md).
+   * L&#39;activité **[!UICONTROL Planificateur]** permet de définir la fréquence de mise à jour des calculs. Le planificateur est présenté dans [cette section](../../workflow/using/scheduler.md).
    * L&#39;activité **[!UICONTROL Mise à jour d&#39;agrégat]** permet de choisir le mode de mise à jour à appliquer : complète ou partielle.
 
      Par défaut, une mise à jour complète est réalisée à chaque calcul. Pour permettre une mise à jour partielle des données, sélectionnez l&#39;option correspondante puis définissez les conditions de mise à jour.
@@ -171,7 +171,7 @@ Pour définir une nouvelle mesure, les étapes sont les suivantes :
 
 1. Au besoin, selon l&#39;opérateur sélectionné, choisissez l&#39;expression sur laquelle porte l&#39;opération.
 
-   La variable **[!UICONTROL Sélection avancée]** permet de créer des formules de calcul complexes. Pour plus d’informations, consultez [cette section](../../platform/using/about-queries-in-campaign.md).
+   Le bouton **[!UICONTROL Sélection avancée]** permet de créer des formules de calcul complexes. Pour plus d’informations, consultez [cette section](../../platform/using/about-queries-in-campaign.md).
 
    ![](assets/s_advuser_cube_create_a_measure_01.png)
 
@@ -225,7 +225,7 @@ Pour cela, cliquez sur l&#39;icône **[!UICONTROL Afficher les propriétés du r
 
 ![](assets/cube_share_option.png)
 
-Indiquez la catégorie à laquelle appartient le rapport ainsi que sa pertinence. Voir à ce sujet la section [cette page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) à la fonction **Ordre d&#39;affichage** et **Définir les options de filtrage** sections.
+Indiquez la catégorie à laquelle ce rapport appartient et sa pertinence. Voir à ce propos les sections **Ordre d&#39;affichage** et **Définir les options de filtrage** de [cette page](../../reporting/using/configuring-access-to-the-report.md#report-display-context).
 
 Pour valider ces modifications, vous devez enregistrer le rapport.
 
@@ -263,7 +263,7 @@ Pour cela :
 
 A chaque modification (ajout, modification, suppression de filtres), cliquez sur la flèche pour relancer le calcul du rapport.
 
-Les filtres peuvent également être créés en fonction d’une sélection. Pour cela, sélectionnez les cellules, lignes et colonnes sources, puis cliquez sur le bouton **[!UICONTROL Ajouter un filtre]** Icône
+Un filtre peut également être créé à partir d&#39;une sélection. Pour cela, choisissez la ou les cellules, lignes et colonnes sources et cliquez sur l&#39;icône **[!UICONTROL Ajouter un filtre]**.
 
 Pour sélectionner une ligne, une colonne ou une cellule, cliquez dessus avec le bouton gauche de la souris. Pour la dé-sélectionner, cliquez une seconde fois.
 

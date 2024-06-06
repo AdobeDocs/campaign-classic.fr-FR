@@ -3,12 +3,12 @@ product: campaign
 title: Agir sur les rapports
 description: Agir sur les rapports
 feature: Reporting, Monitoring
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Vous pouvez paramétrer votre rapport en vue de son export au format PDF, Excel 
 
 Les options d&#39;export sont accessibles depuis la ou les activité(s) **[!UICONTROL Page]** du rapport, dans l&#39;onglet **[!UICONTROL Avancé]**.
 
-Modification des paramètres de **[!UICONTROL Papier]** et **[!UICONTROL Marges]** à vos besoins. Vous pouvez également n&#39;autoriser l&#39;export d&#39;une page qu&#39;au format PDF. Pour ce faire, décochez la case **[!UICONTROL Activer l’exportation OpenOffice/Microsoft Excel]** .
+Modifiez les paramètres **[!UICONTROL Papier]** et **[!UICONTROL Marges]** selon vos besoins. Vous pouvez également n’autoriser l’export d’une page qu’au format PDF. Pour cela, dé-sélectionnez l&#39;option **[!UICONTROL Activer l&#39;export OpenOffice/ Microsoft Excel]**.
 
 ![](assets/s_ncs_advuser_report_wizard_021.png)
 
@@ -52,7 +52,7 @@ Dans les rapports de type **[!UICONTROL Liste avec groupement]** destinés à ê
 
   ![](assets/export_limitations_hide_label.png)
 
-* Les rapports n’ont pas besoin d’utiliser une mise en forme spécifique définie au niveau des cellules. Il est préférable d’utiliser **[!UICONTROL Rendu du formulaire]** pour définir le format des cellules du tableau. La variable **[!UICONTROL Rendu du formulaire]** accessible via **[!UICONTROL Administration > Configuration > Rendus des formulaires]**.
+* Les rapports ne doivent pas utiliser de formatage spécifique défini au niveau des cellules. Il est préférable d&#39;utiliser le **[!UICONTROL Rendu des formulaires]** pour définir le format des cellules du tableau. Le **[!UICONTROL Rendu des formulaires]** est accessible depuis **[!UICONTROL Administration > Paramétrage > Rendu des formulaires]**.
 * Il est recommandé de ne pas insérer de contenu HTML.
 * Lorsqu&#39;un rapport contient plusieurs éléments de type tableaux, graphiques, etc., ils seront exportés les uns en-dessous des autres.
 * Vous pouvez forcer le retour à la ligne dans les cellules : cette configuration sera conservée dans Excel. Pour plus d’informations, consultez [cette section](../../reporting/using/creating-a-table.md#defining-cell-format).
@@ -107,6 +107,6 @@ La ou les dates d&#39;historiques s&#39;affichent sous l&#39;icône d&#39;affich
 
 ![](assets/s_ncs_advuser_report_history_04.png)
 
-Il est possible de supprimer une archive de rapport. Pour ce faire, accédez au noeud Adobe Campaign où sont stockés vos rapports. Cliquez sur le bouton **[!UICONTROL Archives]** , sélectionnez celle que vous souhaitez supprimer, puis cliquez sur **[!UICONTROL Supprimer]**.
+Il est possible de supprimer une archive de rapport. Pour ce faire, accédez au nœud Adobe Campaign où sont stockés vos rapports. Cliquez sur l&#39;onglet **[!UICONTROL Historiques]**, sélectionnez l&#39;historique voulu et cliquez sur **[!UICONTROL Supprimer]**.
 
 ![](assets/s_ncs_advuser_report_history_01.png)

@@ -2,13 +2,13 @@
 product: campaign
 title: Définir lʼenchaînement des pages des formulaires web
 description: Définir lʼenchaînement des pages des formulaires web
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ L&#39;objet **[!UICONTROL Saut]** permet d&#39;accéder à une autre page ou un 
 
 La destination peut être :
 
-* Une autre page du formulaire. Pour ce faire, sélectionnez **[!UICONTROL Activité interne]** puis spécifiez la page souhaitée, comme ci-dessous :
+* Une autre page du formulaire. Pour cela, sélectionnez l&#39;option **[!UICONTROL Activité interne]**, puis indiquez la page souhaitée, comme illustré ci-dessous :
 
   ![](assets/s_ncs_admin_jump_param1.png)
 
-* Un autre formulaire. Pour ce faire, sélectionnez l’option **[!UICONTROL Explicite]** et indiquez le formulaire de destination.
+* Un autre formulaire. Pour cela, sélectionnez l&#39;option **[!UICONTROL Explicite]** et indiquez le formulaire de destination.
 
   ![](assets/s_ncs_admin_jump_param2.png)
 
@@ -74,7 +74,7 @@ Dans cet exemple nous allons paramétrer un formulaire Web qui permet, à la val
 
 ## Insérer un lien vers une autre page du formulaire {#inserting-a-link-to-another-page-of-the-form}
 
-Vous pouvez insérer des liens vers d’autres pages du formulaire. Pour ce faire, ajoutez une **[!UICONTROL Lien]** saisissez un élément statique dans la page. Voir à ce sujet la section [Insérer un lien](static-elements-in-a-web-form.md#inserting-a-link).
+Vous pouvez insérer des liens vers d&#39;autres pages du formulaire. Vous devez ajouter dans la page un élément statique de type **[!UICONTROL Lien]**. Voir à ce sujet la section [Insérer un lien](static-elements-in-a-web-form.md#inserting-a-link).
 
 ## Affichage conditionnel des pages {#conditional-page-display}
 
@@ -82,7 +82,7 @@ Vous pouvez insérer des liens vers d’autres pages du formulaire. Pour ce fair
 
 La boîte de **[!UICONTROL Test]** permet de conditionner l&#39;enchaînement des pages dans un formulaire. Elle permet de définir différents embranchements en fonction du résultat d&#39;un test. Vous pouvez ainsi afficher des pages différentes en fonction des réponses fournies par l&#39;utilisateur.
 
-Par exemple, vous pouvez afficher une page différente pour les clients qui ont déjà commandé en ligne, et une autre pour ceux qui ont passé plus de dix commandes. Pour cela, dans la première page du formulaire, insérez une **[!UICONTROL Nombre]** saisissez un champ de saisie pour que l’utilisateur indique le nombre de commandes qu’il a passées.
+Par exemple, vous pouvez afficher une page différente pour les clients ayant déjà commandé sur internet, et une autre pour ceux ayant effectué plus de dix commandes. Pour cela, dans la première page du formulaire, insérez une zone de saisie de type **[!UICONTROL Nombre]** pour que l&#39;utilisateur indique le nombre de commandes passées.
 
 ![](assets/s_ncs_admin_survey_test_ex0.png)
 
@@ -116,11 +116,11 @@ L&#39;objet **[!UICONTROL Script]** vous permet de saisir directement un script 
 
 ## Personnaliser la page de fin {#personalizing-the-end-page}
 
-Vous devez positionner une page de fin à la fin du diagramme. La page de fin s’affiche lorsque l’utilisateur clique sur le bouton **[!UICONTROL Approuver]** dans le formulaire Web.
+Vous devez positionner une page de fin à la fin du diagramme. La page de fin est affichée lorsque l&#39;utilisateur clique sur le bouton **[!UICONTROL Valider]** du formulaire Web.
 
 Pour personnaliser cette page, double-cliquez sur l&#39;objet **[!UICONTROL Fin]** et saisissez le contenu de la page dans l&#39;éditeur central.
 
 ![](assets/s_ncs_admin_survey_end_page_edit.png)
 
-* Vous pouvez copier et coller le contenu du HTML existant. Pour ce faire, cliquez sur **[!UICONTROL Afficher le code source]** et insérez le code de HTML.
+* Vous pouvez copier et coller un contenu HTML existant. Pour cela, cliquez sur le bouton **[!UICONTROL Afficher le code source]** et insérez le code HTML.
 * Vous pouvez utiliser une URL externe : pour cela, cochez l&#39;option correspondante et saisissez l&#39;URL de la page à afficher.

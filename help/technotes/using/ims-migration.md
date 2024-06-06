@@ -5,9 +5,9 @@ feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
 source-git-commit: c8ff250c1e4013d4c8271a3a388ddbabcfaeea38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1748'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Ces versions de Campaign sont présentées dans la section [Notes de mise à jou
 
 * Clientes et clients Campaign hébergés et Managed Services
 
-  Pour les appels API vers les instances Message Center, le profil de produit (mentionné ci-dessous) doit être créé lors de la mise à niveau vers Campaign v7.3.5 (ou autre). [Version compatible avec la migration IMS](#ims-versions-tech)) ou pendant la mise en service de l’instance. Notez que si vous ne voyez pas le profil de produit, contactez votre gestionnaire de transition ou le service clientèle pour obtenir le profil de produit créé avant de démarrer la migration IMS. Ce profil de produit est nommé :
+  Pour les appels d’API dans les instances Message Center, il faut que le profil de produit (mentionné ci-dessous) ait été créé lors de la mise à niveau vers Campaign v7.3.5 (ou une autre [version compatible avec la migration IMS](#ims-versions-tech)) ou lors de l’approvisionnement de l’instance. Si vous ne voyez pas le profil de produit, contactez votre gestionnaire de transition ou le service clientèle pour obtenir le profil de produit créé avant de démarrer la migration IMS. Ce profil de produit est nommé :
 
   `campaign - <your campaign marketing instance> - messagecenter`
 
@@ -118,7 +118,7 @@ Comme décrit dans la section des conditions préalables, vous devez attribuer l
 
 Si ce compte technique est utilisé pour effectuer des appels d’API vers l’instance Message Center, veillez à sélectionner le profil de produit Adobe, se terminant par messagecenter, pour l’instance marketing associée à Message Center.
 
-Pour les appels API aux instances marketing, sélectionnez le profil de produit correspondant à l’instance et le groupe d’opérateurs, par exemple `campaign - <your campaign marketing instance> - Admin`.
+Pour les appels d’API aux instances marketing, sélectionnez le profil de produit correspondant à l’instance et au groupe d’opérateurs et d’opératrices. Par exemple, `campaign - <your campaign marketing instance> - Admin`.
 
 Une fois les profils de produit nécessaires sélectionnés, cliquez sur **Enregistrer l’API configurée** au bas de l’écran.
 
@@ -166,7 +166,7 @@ Pour tester la connexion, procédez comme décrit dans le [guide des information
 
 ### Étape 8 : mettre à jour les intégrations d’API tierces {#ims-migration-step-8}
 
-Vous devez maintenant mettre à jour toutes les intégrations d’API qui appellent dans Adobe Campaign pour utiliser le compte technique nouvellement créé.
+Vous devez maintenant mettre à jour les intégrations d’API qui effectuent des appels dans Adobe Campaign pour utiliser le compte technique nouvellement créé.
 
 Pour plus d’informations sur les étapes d’intégration de l’API, reportez-vous aux exemples de code ci-dessous.
 
@@ -397,7 +397,7 @@ response = requests.post(url, headers=headers, data=xml_data)
 
 >[!ENDTABS]
 
-Pour plus d’informations, voir [Documentation d’authentification de la console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Pour plus d’informations, consultez la [documentation d’authentification d’Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 Vous trouverez ci-dessous des exemples d’appels SOAP indiquant les appels avant et après la migration pour les systèmes tiers.
 

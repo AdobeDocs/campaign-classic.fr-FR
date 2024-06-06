@@ -2,14 +2,14 @@
 product: campaign
 title: Envoyer avec le MTA amélioré dans Adobe Campaign Classic
 description: Découvrez la portée et les spécificités de lʼenvoi dʼe-mails avec le MTA amélioré dʼAdobe Campaign.
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1404'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ Pour plus d’informations sur la qualification des rebonds, consultez [cette se
 
 ### Diffusion
 
-Une diffusion ne peut pas être arrêtée une fois qu’elle a été transférée au MTA amélioré, même si elle s’affiche avec la fonction **[!UICONTROL Stoppé]** dans Campaign.
+Une diffusion ne peut pas être arrêtée une fois qu’elle a été transférée au MTA amélioré, même si elle apparaît avec le statut **[!UICONTROL Arrêté]** dans Campaign.
 
 ### Débit des diffusions
 

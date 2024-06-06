@@ -5,9 +5,9 @@ description: Découvrez comment effectuer une requête sur la table des destinat
 feature: Query Editor, Workflows
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -35,19 +35,19 @@ Dans cet exemple, vous allez récupérer les noms et emails des destinataires do
 
 Pour réaliser cet exemple, les étapes sont les suivantes :
 
-1. Cliquez sur **[!UICONTROL Outils > Requêteur générique...]** et sélectionnez la variable **Destinataires** (**nms:recipient**). Cliquez ensuite sur **[!UICONTROL Suivant]**.
-1. Choisissez : **[!UICONTROL Nom]**, **[!UICONTROL Prénom]**, **[!UICONTROL Email]**, **[!UICONTROL Ville]** et **[!UICONTROL Numéro de compte]**. Ces champs sont ajoutés à **[!UICONTROL Colonnes de sortie]**. Cliquez ensuite sur **[!UICONTROL Suivant]**.
+1. Cliquez sur **[!UICONTROL Outils > Requêteur générique...]**, choisissez la table des **Destinataires** (**nms:recipient**). Cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez : **[!UICONTROL Nom]**, **[!UICONTROL Prénom]**, **[!UICONTROL Email]**, **[!UICONTROL Ville]** et **[!UICONTROL Numéro de compte]**. Ces champs sont alors ajoutés à **[!UICONTROL Colonnes de sortie]**. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/query_editor_03.png)
 
-1. Triez les colonnes pour les afficher dans l’ordre approprié. Ici, nous allons trier les numéros de compte par ordre décroissant et les noms par ordre alphabétique. Cliquez ensuite sur **[!UICONTROL Suivant]**.
+1. Triez les colonnes en fonction de l&#39;ordre d&#39;affichage souhaité. Ici, triez les numéros de compte dans l’ordre décroissant et les noms par ordre alphabétique. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/query_editor_04.png)
 
 1. Dans la fenêtre **[!UICONTROL Filtrage des données]**, affinez votre recherche en sélectionnant **[!UICONTROL Critères de filtrage]**. Cliquez sur **[!UICONTROL Suivant]**.
 1. La fenêtre **[!UICONTROL Elément de la cible]** sert à renseigner les paramètres de filtrage.
 
-   Définissez la condition de filtrage suivante : destinataires dont le domaine de l&#39;email est égal à &quot;orange.co.uk&quot;. Pour cela, choisissez **Domaine de l&#39;email (@email)** dans le **[!UICONTROL Expression]** colonne, choisissez **égal à** dans le **[!UICONTROL Opérateur]** et saisissez &quot;orange.co.uk&quot; dans la colonne **[!UICONTROL Valeur]** colonne .
+   Définissez la condition de filtrage suivante : les destinataires ont un domaine d’e-mail correspondant à « free.fr ». Pour cela, sélectionnez **Domaine d&#39;e-mail (@email)** dans la colonne **[!UICONTROL Expression]** et choisissez **égal à** dans la colonne **[!UICONTROL Opérateur]**. Enfin, renseignez « free.fr » dans la colonne **[!UICONTROL Valeur]**.
 
    ![](assets/query_editor_05.png)
 

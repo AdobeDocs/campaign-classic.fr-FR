@@ -4,12 +4,12 @@ title: Création de filtres
 description: Découvrez comment créer des filtres pour un tableau personnalisé
 feature: Profiles, Custom Resources
 role: Data Engineer, Developer
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

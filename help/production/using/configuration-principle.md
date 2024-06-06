@@ -3,15 +3,15 @@ product: campaign
 title: Principe de configuration
 description: Principe de configuration
 feature: Monitoring, Configuration
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Sur un même serveur, deux éléments sont communs à l&#39;ensemble des instanc
 
   >[!IMPORTANT]
   >
-  >Pour vous connecter avec le **Interne** , vous devez avoir défini un mot de passe au préalable. Pour plus d’informations, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
+  >Pour vous connecter avec l’identifiant **Internal**, vous devez impérativement avoir défini un mot de passe. Pour plus d’informations, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 * De nombreux paramétrages techniques du serveur : ces paramétrages peuvent tous être surchargés dans la configuration spécifique d&#39;une instance.
 

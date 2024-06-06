@@ -2,14 +2,14 @@
 product: campaign
 title: Comprendre la gestion des quarantaines
 description: Comprendre la gestion des quarantaines
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3090'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Vous pouvez consulter ces informations pour l&#39;ensemble des diffusions de la 
 
 ### Identification des adresses en quarantaine pour un destinataire {#identifying-quarantined-addresses-for-a-recipient}
 
-Vous pouvez consulter le statut de l&#39;adresse email de n&#39;importe quel destinataire. Pour cela, sélectionnez le profil du destinataire et cliquez sur l&#39;onglet **[!UICONTROL Diffusions]**. Pour toutes les diffusions vers ce destinataire, vous pouvez déterminer si l&#39;adresse a échoué, a été mise en quarantaine lors de l&#39;analyse, etc. Pour chaque dossier, vous ne pouvez afficher que les destinataires dont l&#39;adresse email est en quarantaine. Pour ce faire, utilisez la méthode **[!UICONTROL Email en quarantaine]** filtre applicatif.
+Pour chaque destinataire, vous pouvez consulter lʼétat de son adresse e-mail. Pour cela, sélectionnez le profil du destinataire et cliquez sur l&#39;onglet **[!UICONTROL Diffusions]**. Vous pouvez voir pour lʼensemble des diffusions vers ce destinataire si lʼadresse a été en échec, mise en quarantaine lors de lʼanalyse, etc. Pour chaque dossier, vous ne pouvez afficher que les destinataires dont lʼadresse e-mail est en quarantaine. Pour cela, utilisez le filtre applicatif **[!UICONTROL E-mail en quarantaine]**.
 
 ![](assets/tech_quarant_recipients_filter.png)
 
@@ -241,7 +241,7 @@ Si l&#39;APNS renvoie de manière synchrone un statut &quot;désinscrit&quot; po
    <td> Non<br /> </td> 
   </tr> 
   <tr> 
-   <td> Problème de certificat (mot de passe, endommagement, etc.) et test de la connexion au problème des APNS<br /> </td> 
+   <td> Problème de certificat (mot de passe, élément corrompu, etc.) et problème de test de la connexion aux APN<br /> </td> 
    <td> Echec<br /> </td> 
    <td> Messages d'erreur différents selon l'erreur<br /> </td> 
    <td> Soft<br /> </td> 
@@ -285,7 +285,7 @@ Pour chaque notification, Adobe Campaign reçoit les erreurs synchrones directe
 * Dépassement du quota d&#39;appareils : aucune reprise, erreur soft, raison de l&#39;échec : **[!UICONTROL Refusés]**.
 * Jeton non valide ou désinscrit, erreur inattendue, problème lié au compte de l&#39;expéditeur : aucune reprise, erreur hard, raison de l&#39;erreur : **[!UICONTROL Refusés]**.
 
-La variable **[!UICONTROL mobileAppOptOutMgt]** le workflow s’exécute toutes les 6 heures pour mettre à jour la variable **AppSubscriptionRcp** table. Pour les jetons déclarés comme non enregistrés ou non valides, le champ **Désactivé** est défini sur **True** et l&#39;abonnement associé à ce jeton d&#39;appareil sera automatiquement exclu des prochaines diffusions.
+Le workflow **[!UICONTROL mobileAppOptOutMgt]** s’exécute toutes les 6 heures pour mettre à jour le tableau **AppSubscriptionRcp**. Pour les jetons déclarés comme non enregistrés ou comme n’étant plus valides, le champ **Désactivé** est défini sur **True** et l’abonnement associé à ce jeton de périphérique est automatiquement exclu des diffusions ultérieures.
 
 Pendant l&#39;analyse de la diffusion, tous les appareils qui sont exclus de la cible sont automatiquement ajoutés à la table **excludeLogAppSubRcp**.
 
@@ -297,9 +297,9 @@ Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents
 * Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
 * Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
 >
-Adobe Campaign contacte le serveur Baidu toutes les 10 minutes pour récupérer l&#39;état du message envoyé et met à jour les broadlogs. Si un message est déclaré comme envoyé, le statut du message dans les broadlogs est défini sur **[!UICONTROL Reçu]**. Si Baidu déclare une erreur, l’état est défini sur **[!UICONTROL En échec]**.
+Adobe Campaign contacte le serveur Baidu toutes les 10 minutes pour récupérer le statut du message envoyé et met à jour les broadlogs. Si un message est déclaré comme envoyé, le statut du message dans les broadlogs est défini sur **[!UICONTROL Reçu]**. Si Baidu déclare une erreur, le statut est défini sur **[!UICONTROL Échec]**.
 
-**Pour Android V2**
+**Pour Android V2**
 
 Le mécanisme de mise en quarantaine d&#39;Android V2 utilise le même processus qu&#39;Android V1. Il en va de même pour la mise à jour des abonnements et des exclusions. Pour en savoir plus, consultez la section [Android V1](#android-quarantine).
 
@@ -567,11 +567,11 @@ Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;appliqu
 
 **Pour le connecteur SMPP générique étendu**
 
-Lors de l&#39;utilisation du protocole SMPP pour envoyer des SMS, la gestion des erreurs est traitée différemment. Pour plus d&#39;informations sur le connecteur SMPP générique étendu, voir [cette page](sms-set-up.md#creating-an-smpp-external-account).
+Lors de l&#39;utilisation du protocole SMPP pour envoyer des SMS, la gestion des erreurs est traitée différemment. Pour plus d&#39;informations sur le connecteur SMPP générique étendu, consultez [cette page](sms-set-up.md#creating-an-smpp-external-account).
 
-Le connecteur SMPP récupère les données du message SR (Status Report) renvoyé à l&#39;aide d&#39;expressions régulières (regex) pour filtrer son contenu. Ces données sont ensuite comparées aux informations trouvées dans la variable **[!UICONTROL Qualification des logs de diffusion]** table (disponible à partir du **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Gestion des échecs]** ).
+Le connecteur SMPP récupère les données du message de rapport de statut (SR) renvoyé à l’aide d’expressions régulières (regex) pour filtrer son contenu. Ces données sont ensuite comparées aux informations trouvées dans le tableau **[!UICONTROL Qualification des logs de diffusion]** (disponible à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Gestion des NP@I]**).
 
-Avant qu&#39;un nouveau type d&#39;erreur ne soit qualifié, la raison de l&#39;échec est toujours défini sur **Refusé** par défaut.
+Avant qu’un nouveau type d’erreur ne soit qualifié, la raison de l’échec est toujours définie sur **Refusé** par défaut.
 
 >[!NOTE]
 >
@@ -586,13 +586,13 @@ SR Generic DELIVRD 000|#MESSAGE#
 ```
 
 * Tous les messages d&#39;erreur commencent par **SR** pour faire la distinction entre les codes d&#39;erreur SMS et les codes d&#39;erreur email.
-* La deuxième partie (**Générique** dans cet exemple) du message d&#39;erreur fait référence au nom de l&#39;implémentation du SMSC comme défini dans la variable **[!UICONTROL Nom de l&#39;implémentation SMSC]** du compte externe SMS. Voir [cette page](sms-set-up.md#creating-an-smpp-external-account).
+* La seconde partie (**Generic**, dans cet exemple) du message d&#39;erreur fait référence au nom de l&#39;implémentation du SMSC comme défini dans le champ **[!UICONTROL Nom de l&#39;implémentation du SMSC]** du compte externe SMS. Voir [cette page](sms-set-up.md#creating-an-smpp-external-account).
 
   Comme un même code d&#39;erreur peut avoir une signification différente pour chaque prestataire, ce champ vous permet de déterminer quel prestataire a généré le code d&#39;erreur. Vous pouvez alors rechercher l&#39;erreur dans la documentation du prestataire adéquat.
 
 * La troisième partie (**DELIVRD**, dans cet exemple) du message d&#39;erreur correspond au code d&#39;état récupéré du SR à l&#39;aide de la regex d&#39;extraction de code d&#39;état définie dans le compte externe SMS.
 
-  Cette expression régulière est spécifiée dans la variable **[!UICONTROL Spécificités des SMSC]** de l’onglet du compte externe. Voir [cette page](sms-set-up.md#creating-an-smpp-external-account).
+  Cette regex est spécifiée dans l&#39;onglet **[!UICONTROL Spécificités du SMSC]** du compte externe. Voir [cette page](sms-set-up.md#creating-an-smpp-external-account).
 
   ![](assets/tech_quarant_error_regex.png)
 
@@ -600,10 +600,10 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 * La quatrième partie (**000**, dans cet exemple) du message d&#39;erreur correspond au code d&#39;erreur extrait du SR à l&#39;aide de la regex d&#39;extraction de code d&#39;erreur définie dans le compte externe SMS.
 
-  Cette expression régulière est spécifiée dans la variable **[!UICONTROL Spécificités des SMSC]** de l’onglet du compte externe. Voir [cette page](sms-set-up.md#creating-an-smpp-external-account).
+  Cette regex est spécifiée dans l&#39;onglet **[!UICONTROL Spécificités du SMSC]** du compte externe. Voir [cette page](sms-set-up.md#creating-an-smpp-external-account).
 
   Par défaut, la regex extrait le champ **err:** comme défini dans la section **Appendix B** de la **spécification SMPP 3.4**.
 
-* Tout ce qui se trouve après la barre verticale (|) s’affiche uniquement dans la balise **[!UICONTROL Premier texte]** de la colonne **[!UICONTROL Qualification des logs de diffusion]** table. Ce contenu est toujours remplacé par **#MESSAGE#** une fois le message normalisé. Ce processus évite d’avoir plusieurs entrées pour des erreurs similaires et est identique à celui des emails. Pour plus d’informations, consultez la section [Qualification des e-mails rejetés](understanding-delivery-failures.md#bounce-mail-qualification).
+* Tout ce qui se trouve après la barre verticale (|) s’affiche uniquement dans la colonne **[!UICONTROL Premier texte]** du tableau **[!UICONTROL Qualification des logs de diffusion]**. Ce contenu est toujours remplacé par **#MESSAGE#** une fois le message normalisé. Ce processus permet d&#39;éviter plusieurs entrées pour des erreurs similaires et est le même que pour les emails. Pour plus d’informations, consultez la section [Qualification des e-mails rejetés](understanding-delivery-failures.md#bounce-mail-qualification).
 
 Le connecteur SMPP générique étendu applique une méthode heuristique pour rechercher des valeurs par défaut sensibles : si l&#39;état commence par **DELIV**, il est considéré comme une réussite, car il correspond aux états **DELIVRD** ou **DELIVERED** courants, utilisés par la plupart des prestataires. Tout autre état correspond à un échec hard.

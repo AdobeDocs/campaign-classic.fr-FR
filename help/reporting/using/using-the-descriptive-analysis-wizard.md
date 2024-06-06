@@ -2,13 +2,13 @@
 product: campaign
 title: Utilisation de l’assistant d’analyse descriptive
 description: Utilisation de l’assistant d’analyse descriptive
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1656'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ En fonction du contenu du champ, les options proposées peuvent différer.
   >Il est recommandé d&#39;utiliser cette option avec précaution : les performances et la lisibilité du rapport peuvent être fortement impactées.
 
 * **[!UICONTROL Auto]** : cette option permet d&#39;afficher les n valeurs les plus représentées. Elles sont automatiquement calculées et représentent chacune un pourcentage des variables par rapport au nombre de classes spécifié. Lorsque les valeurs sont numériques, Adobe Campaign répartit automatiquement les données dans n tranches.
-* **[!UICONTROL Manuel]** : cette option fonctionne comme la propriété **[!UICONTROL Auto]** , sauf que vous pouvez définir ces valeurs manuellement. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter]** à droite du tableau de valeurs.
+* **[!UICONTROL Manuelle]** : cette option fonctionne comme l&#39;option **[!UICONTROL Auto]**, mais vous pouvez personnaliser manuellement ces valeurs. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** situé à droite du tableau des valeurs.
 
   Les valeurs peuvent être initialisées automatiquement par Adobe Campaign avant d&#39;être personnalisées : pour cela, saisissez le nombre de classes à générer et cliquez sur le lien **[!UICONTROL Initialiser avec]**, comme dans l&#39;exemple ci-dessous :
 
@@ -129,7 +129,7 @@ Puis indiquez le type de graphique voulu.
 
 >[!NOTE]
 >
->Vous pouvez afficher les variables simultanément dans un graphique et un tableau. Pour ce faire, saisissez les variables dans la variable **[!UICONTROL Configuration des tables]** fenêtre. Cliquez sur **[!UICONTROL Suivant]** et sélectionnez le type de graphique dans la fenêtre de configuration du graphique. Si des sous-dimensions sont définies dans le tableau, elles ne sont pas affichées dans le graphique.
+>Vous pouvez choisir d&#39;afficher vos variables à la fois sous forme de graphe et de tableau. Dans ce cas, saisissez vos variables dans la fenêtre **[!UICONTROL Paramétrage du tableau]**. Puis cliquez sur **[!UICONTROL Suivant]** et choisissez simplement le type de graphique dans la fenêtre de paramétrage du graphique. Si des sous-dimensions sont définies dans le tableau, elles ne sont pas affichées dans le graphique.
 
 Cliquez sur le lien **[!UICONTROL Variantes]** pour modifier les propriétés du graphique.
 
@@ -159,7 +159,7 @@ Les opérations possibles sont les suivantes :
 
   ![](assets/s_ncs_user_report_wizard_026.png)
 
-* **[!UICONTROL Champ calculé]** pour créer un opérateur personnalisé (disponible uniquement pour les tables). La variable **[!UICONTROL Fonction utilisateur]** permet de saisir le calcul à appliquer aux données.
+* **[!UICONTROL Champ calculé]** pour créer un opérateur personnalisé (disponible uniquement pour les tableaux). Le champ **[!UICONTROL Fonction utilisateur]** permet de saisir le calcul à appliquer sur les données.
 
   Exemple : Calcul de la moyenne des achats par client, selon leur ville et leur origine
 
@@ -173,7 +173,7 @@ Les opérations possibles sont les suivantes :
 
       ![](assets/report_compute_data_sample2.png)
 
-   1. Cette statistique ne sera pas affichée dans le tableau. Vous devez décocher la case **[!UICONTROL Afficher dans le tableau]** de l’ **[!UICONTROL Avancé]** .
+   1. Cette statistique ne sera pas affichée dans le tableau. Vous devez donc décocher l&#39;option **[!UICONTROL Afficher dans le tableau]** de l&#39;onglet **[!UICONTROL Avancé]**.
 
       ![](assets/report_compute_data_sample3.png)
 

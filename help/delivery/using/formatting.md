@@ -2,14 +2,14 @@
 product: campaign
 title: Mise en forme
 description: Mise en forme
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Email Design
 role: User, Developer, Data Engineer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1462'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ Exemples:
 
 ### Inclusion de template JavaScript {#including-a-javascript-template}
 
-Vous pouvez constituer une bibliothèque de fonctions ou de variables pour une utilisation ultérieure. Pour cela, importez le template JavaScript avec le **eval** de la fonction Vous pouvez ainsi enrichir les contextes avec des fonctions supplémentaires déclarées dans d&#39;autres modèles JavaScript.
+Il est possible de se constituer une bibliothèque de fonctions ou de variables afin de les utiliser ultérieurement. Pour cela, vous devez importer le template JavaScript avec la fonction **eval**. Ainsi, vous pourrez enrichir les contextes avec des fonctions supplémentaires déclarées dans d&#39;autres template JavaScript.
 
 **Exemple** : import du template **common.js**.
 
@@ -374,7 +374,7 @@ Cette transformation est elle-même décrite en XML dans un document appelé feu
 
 ### Identification d&#39;une feuille de style {#identifying-a-stylesheet}
 
-Une feuille de style est identifiée par son nom et son espace de noms, tout comme les schémas et les formulaires. Il est toutefois recommandé d’ajouter la variable **.xml** extension au nom de la feuille de style.
+Une feuille de style est identifiée par son nom et son espace de noms de la même manière que les schémas et les formulaires. Il est cependant recommandé de compléter le nom de la feuille de style avec l&#39;extension **.xsl**.
 
 La clé d&#39;identification d&#39;une feuille de style est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39; (par exemple : **cus:livre.xsl**).
 
@@ -442,7 +442,7 @@ Les instructions suivantes décrivent le paramétrage de la feuille de style pou
 </xsl:template>
 ```
 
-Par défaut, le processeur XSLT recherche l’objet **modèle** qui s’applique au noeud racine ou principal du document XML d’entrée. La construction du document de sortie commence ainsi. **modèle**.
+Par défaut, le processeur XSLT recherche le **template** s&#39;appliquant au noeud racine ou principal du document XML en entrée. La construction du document de sortie commence à partir de ce **template**.
 
 Dans notre exemple, on génère une page HTML à partir du schéma &quot;cus:livre&quot; en affichant le nom du livre et la liste des chapitres.
 
@@ -478,7 +478,7 @@ Exemples:
 
 ### Inclusion de feuilles de style {#including-stylesheets}
 
-Il est possible de créer une bibliothèque de modèles ou de variables à partager entre plusieurs feuilles de style. Le &quot;longMonth&quot; **modèle**, présenté ci-dessus, est un exemple typique de l’avantage de placer un modèle à distance dans une feuille de style afin qu’il puisse être réutilisé ultérieurement.
+Il est possible de se constituer une bibliothèque de templates ou de variables à partager avec plusieurs feuilles de style. Le **template** &quot;longMonth&quot;, présenté ci-dessus, est un exemple-type de l&#39;intérêt de déporter un template dans une feuille de style afin d&#39;être ré-utilisé ultérieurement.
 
 La directive **`<xsl:include>`** indique le nom de la feuille de style à inclure dans le document.
 
@@ -564,7 +564,7 @@ Dans le formulaire, le champ de sélection de l&#39;image sera ajouté via la sy
 
 ## Affichage des dates {#date-display}
 
-Dans le document XML en entrée, les dates sont stockées au format interne XML : **`YYYY/MM/DD HH:MM:SS`** (exemple `2018/10/01 12:23:30`).
+Dans le document XML en entrée, les dates sont stockées dans le format XML interne : **`YYYY/MM/DD HH:MM:SS`** (par exemple, `2018/10/01 12:23:30`).
 
 Adobe Campaign met à disposition des fonctions de formatage des dates pour les templates JavaScript et les feuilles de style XSL qui sont présentés ci-après.
 
@@ -601,7 +601,7 @@ Exemples:
 
 ### Formatage des dates en XSL {#xsl-date-formatting}
 
-La syntaxe XSLT ne contient aucune fonction de gestion des dates standard. Pour afficher une date dans le format souhaité, Adobe Campaign fournit la fonction externe **date-format**. Cette fonction prend en entrée le contenu de la date et une chaîne spécifiant le format de sortie avec la syntaxe suivante : **%4Y/%2M/%2D %2H%2N%2S**
+Il n&#39;existe pas de fonction standard de gestion des dates dans la syntaxe XSLT. Pour afficher une date au format souhaité, Adobe Campaign fournit la fonction externe **date-format**. Elle prend en entrée le contenu de la date et une chaîne spécifiant le format de sortie avec la syntaxe suivante : **%4Y/%2M/%2D %2H%2N%2S**
 
 Exemples:
 

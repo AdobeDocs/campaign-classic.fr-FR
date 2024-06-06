@@ -3,15 +3,15 @@ product: campaign
 title: 'Utilisation : '
 description: 'Utilisation : '
 feature: Subscriptions, Email, Data Management
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -57,6 +57,6 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_user_filter_on_events.png)
 
-   Le nom du filtre courant est affiché au-dessus de la liste. Pour annuler le filtre, cliquez sur le bouton **[!UICONTROL Supprimer ce filtre]** Icône
+   Le nom du filtre courant est affiché au-dessus de la liste. Pour annuler ce filtre, cliquez sur l’icône **[!UICONTROL Supprimer ce filtre]**.
 
    ![](assets/s_ncs_user_filter_on_subscriptions.png)

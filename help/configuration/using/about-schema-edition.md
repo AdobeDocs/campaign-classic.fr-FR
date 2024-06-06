@@ -6,9 +6,9 @@ feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1013'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,7 @@ Pour en savoir plus sur les clés, consultez la section [Gestion des clés](../.
 
 ## Attributs (champs) {#attributes--fields-}
 
-Les attributs vous permettent de définir les champs qui constituent votre objet de données. Vous pouvez utiliser la variable **[!UICONTROL Insérer]** dans la barre d’outils d’édition de schéma pour déposer les modèles d’attribut vides dans votre XML où se trouve votre curseur. Voir à ce sujet la section [Schémas de données](../../configuration/using/data-schemas.md).
+Les attributs vous permettent de définir les champs qui constituent votre objet de données. Vous pouvez utiliser le bouton **[!UICONTROL Insérer]** dans la barre d’outils d’édition du schéma pour déposer les modèles d’attribut vides dans le XML où se trouve votre curseur. Voir à ce sujet la section [Schémas de données](../../configuration/using/data-schemas.md).
 
 ![](assets/schemaextension_getting_started_2.png)
 
@@ -221,4 +221,4 @@ Voir à ce sujet la section [Mettre à jour la structure de la base de données]
 
 >[!NOTE]
 >
->Lorsque les modifications n’ont pas d’impact sur la structure de la base de données, il vous suffit de régénérer les schémas. Pour cela, sélectionnez le ou les schémas à mettre à jour, cliquez avec le bouton droit et choisissez **[!UICONTROL Actions > Régénérer les schémas sélectionnés...]** . Pour plus d&#39;informations, consultez la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).
+>Lorsque les modifications n’ont pas d’impact sur la structure de la base de données, il vous suffit de régénérer les schémas. Pour ce faire, sélectionnez le ou les schémas à mettre à jour, cliquez avec le bouton droit et sélectionnez **[!UICONTROL Actions > Régénérer les schémas sélectionnés...]** Pour plus d&#39;informations, consultez la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).

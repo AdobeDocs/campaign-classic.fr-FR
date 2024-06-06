@@ -5,9 +5,9 @@ description: Découvrez comment exécuter des requêtes à l’aide d’une rela
 feature: Query Editor, Workflows
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ Les étapes sont les suivantes :
 
      Sélectionnez l&#39;opérateur **[!UICONTROL n&#39;existent pas tel que]**. Il n&#39;y a pas de seconde valeur à sélectionner dans cette ligne.
 
-   * Le contenu de la seconde condition de filtrage dépend du premier. Ici, le **[!UICONTROL Date de l’événement]** est directement proposé dans la section **[!UICONTROL Logs de diffusion des destinataires]** car il existe un lien vers cette table.
+   * Le contenu de la seconde condition de filtrage découle directement du choix de la première. Ici, le champ **[!UICONTROL Date de l&#39;événement]** est directement proposé dans la table **[!UICONTROL Logs de diffusion des destinataires]** car un lien s&#39;opère vers cette table.
 
      ![](assets/query_editor_nveau_36.png)
 
-     Sélectionner **[!UICONTROL Date de l’événement]** avec la propriété **[!UICONTROL supérieur ou égal à]** de l’opérateur. Sélectionnez la variable **[!UICONTROL DaysAgo (7)]** . Pour ce faire, cliquez sur **[!UICONTROL Expression d’édition]** dans le **[!UICONTROL Valeur]** champ . Dans le **[!UICONTROL Type de formule]** fenêtre, sélectionnez **[!UICONTROL Traitement des dates]** et **[!UICONTROL Date courante moins n jours]**, avec la valeur &quot;7&quot;.
+     Sélectionnez **[!UICONTROL Date de l&#39;événement]** avec l&#39;opérateur **[!UICONTROL supérieur ou égal à]**. Sélectionnez la valeur **[!UICONTROL DaysAgo (7)]**. Pour cela, cliquez sur **[!UICONTROL Editer l&#39;expression]** dans le champ **[!UICONTROL Valeur]**. Dans la fenêtre **[!UICONTROL Type de formule]**, sélectionnez **[!UICONTROL Traitement sur les dates]** puis **[!UICONTROL Date courante moins n jours]** et saisissez la valeur &quot;7&quot;.
 
      ![](assets/query_editor_nveau_37.png)
 
@@ -63,13 +63,13 @@ Les étapes sont les suivantes :
 
      ![](assets/query_editor_nveau_38.png)
 
-1. Dans le **[!UICONTROL Formatage des données]** , remplacez les noms par des majuscules. Cliquez sur le bouton **[!UICONTROL Nom]** dans la **[!UICONTROL Transformation]** et sélectionnez **[!UICONTROL Passer en majuscules]** dans le menu déroulant.
+1. Dans la fenêtre **[!UICONTROL Formatage des données]**, modifiez la casse des noms : ils doivent s&#39;afficher en majuscules. Cliquez sur la ligne du **[!UICONTROL Nom]** dans la colonne **[!UICONTROL Transformation]** et choisissez **[!UICONTROL Passer en majuscules]** dans le menu déroulant.
 
    ![](assets/query_editor_nveau_39.png)
 
 1. Utilisez la fonction **[!UICONTROL Ajouter un champ calculé]** pour insérer une colonne dans la fenêtre de prévisualisation des données.
 
-   Dans cet exemple, ajoutez un champ calculé avec les prénoms et les noms des destinataires dans une seule colonne. Cliquez sur le bouton **[!UICONTROL Ajouter un champ calculé]** de la fonction Dans le **[!UICONTROL Exporter la définition de champ calculé]** , saisissez un libellé et un nom interne, puis choisissez la **[!UICONTROL Expression JavaScript]** type. Saisissez ensuite l’expression suivante :
+   Dans cet exemple, ajoutez un champ calculé qui regroupe le prénom et le nom des destinataires dans une seule colonne. Cliquez sur **[!UICONTROL Ajouter un champ calculé]**. Dans la fenêtre **[!UICONTROL Définition d&#39;un champ calculé d&#39;export]**, saisissez un libellé et un nom interne puis choisissez le type **[!UICONTROL Expression JavaScript]**. Entrez l&#39;expression ci-dessous :
 
    ```
    var rep = source._firstName+" - "+source._lastName
@@ -78,7 +78,7 @@ Les étapes sont les suivantes :
 
    ![](assets/query_editor_nveau_40.png)
 
-   Cliquez sur **[!UICONTROL OK]**. La variable **[!UICONTROL Formatage des données]** est configurée.
+   Cliquez sur **[!UICONTROL OK]**. La fenêtre **[!UICONTROL Formatage des données]** est paramétrée.
 
    Pour plus d&#39;informations sur l&#39;ajout de champs calculés, consultez cette section.
 

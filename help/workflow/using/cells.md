@@ -5,9 +5,9 @@ description: Cellules
 feature: Workflows, Targeting Activity
 exl-id: 7b562dba-7e4b-40a7-91db-7b9379de44ca
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ L&#39;activité **[!UICONTROL Cellules]** propose une vue des différents sous-e
 
 ![](assets/wf_split_cells.png)
 
-Cette activité peut être configurée dans le but de renseigner des paramètres spécifiques en fonction des besoins de l&#39;utilisateur. Par défaut, le détail de chaque sous-ensemble est présenté dans une fenêtre dédiée, via le **[!UICONTROL Sélection]** et **[!UICONTROL Avancé]** onglets. Dans l&#39;exemple ci-dessous, le formulaire a été modifié : un **[!UICONTROL Données]** un onglet a été ajouté pour permettre l&#39;association d&#39;une offre et d&#39;un niveau de priorité pour chaque sous-ensemble.
+Cette activité peut être configurée dans le but de renseigner des paramètres spécifiques en fonction des besoins de l&#39;utilisateur. Par défaut, le détail de chaque sous-ensemble est décrit dans une fenêtre dédiée au travers des onglets **[!UICONTROL Sélection]** et **[!UICONTROL Avancé]**. Dans l&#39;exemple ci-dessous, le formulaire a été modifié : un onglet **[!UICONTROL Données]** a été ajouté afin de permettre l&#39;association d&#39;une offre et d&#39;un niveau de priorité à chaque sous-ensemble.
 
 ![](assets/wf_split_cells_with_customization.png)
 
@@ -48,4 +48,4 @@ Pour réaliser ce paramétrage, les informations suivantes ont été ajoutées d
                 </container>
 ```
 
-La personnalisation des formulaires de saisie dans Adobe Campaign est réservée à des utilisateurs experts. Pour plus d’informations à ce sujet, consultez cette [section](../../configuration/using/identifying-a-form.md).
+La personnalisation des formulaires de saisie sous Adobe Campaign est réservée à des utilisateurs experts. Pour plus d’informations à ce sujet, consultez cette [section](../../configuration/using/identifying-a-form.md).

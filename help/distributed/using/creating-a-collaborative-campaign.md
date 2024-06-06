@@ -5,9 +5,9 @@ description: Découvrez comment créer une campagne collaborative
 feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '990'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -79,11 +79,11 @@ Le workflow de l&#39;opération doit intégrer l&#39;activité de type **Validat
 * **[!UICONTROL Contexte de répartition]** : Explicite.
 * **[!UICONTROL Répartition des données]** : Répartition pour les entités locales.
 
-**Répartition des entités locales** La répartition de données de type doit être créée. Le modèle de répartition de données permet de limiter le nombre d&#39;enregistrements à partir d&#39;une liste de valeurs de groupement. Dans **[!UICONTROL Ressources > Gestion de campagne > Répartition des données]**, cliquez sur le **[!UICONTROL Nouveau]** pour créer une icône **[!UICONTROL Répartition des données]**. Pour plus d’informations sur la répartition des données, reportez-vous au [Workflows](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-) guide.
+La répartition de données de type **répartition des entités locales** doit être créée. Le modèle de répartition de données permet de limiter le nombre d&#39;enregistrements à partir d&#39;une liste de valeurs de groupement. Dans **[!UICONTROL Ressources > Gestion de campagnes > Répartition de données]**, cliquez sur l&#39;icône **[!UICONTROL Nouveau]** pour créer une **[!UICONTROL Répartition de données]**. Pour plus d&#39;informations sur la répartition de données, voir le guide [Workflows](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-).
 
 ![](assets/mkg_dist_data_distribution.png)
 
-Sélectionnez la variable **Dimension de ciblage** et la variable **[!UICONTROL Champ de répartition]**. Pour le **[!UICONTROL Type d&#39;affectation]**, sélectionnez **Entité locale**.
+Sélectionnez la **Dimension de ciblage** et le **[!UICONTROL Champ de répartition]**. Pour le **[!UICONTROL Type d&#39;affectation]**, choisissez l&#39;option **Entité locale**.
 
 Dans l&#39;onglet **[!UICONTROL Répartition]**, ajoutez un champ pour chaque entité locale et spécifiez la valeur.
 
@@ -151,7 +151,7 @@ En mode automatique, l&#39;entité locale est préinscrite à l&#39;opération e
 
 ### Notifications {#notifications}
 
-Le paramétrage des notifications est identique à celui d&#39;une entité locale. Consultez [cette section](creating-a-local-campaign.md#notifications).
+Le paramétrage des messages de notification est identique à celui d&#39;une opération locale. Consultez [cette section](creating-a-local-campaign.md#notifications).
 
 ## Commande dʼune opération {#ordering-a-campaign}
 
@@ -173,4 +173,4 @@ Pour plus d&#39;informations, consultez la section [Processus de validation](cre
 
 ## Validation dʼune commande {#approving-an-order}
 
-La validation d&#39;une commande d&#39;un kit d&#39;opération collaborative est identique à celle d&#39;une opération locale. Consultez [cette section](creating-a-local-campaign.md#approving-an-order).
+La validation dʼune commande dʼun kit dʼopération collaborative est identique à celle dʼune opération locale. Consultez [cette section](creating-a-local-campaign.md#approving-an-order).

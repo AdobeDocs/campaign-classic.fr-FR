@@ -2,14 +2,14 @@
 product: campaign
 title: Champs de personnalisation
 description: Découvrez comment utiliser les champs de personnalisation
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Personalization
 role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Pour insérer des champs de personnalisation, cliquez sur l’icône déroulante
 
 ![](assets/s_ncs_user_add_custom_field.png)
 
-Après la sélection d&#39;une source de données (champ du destinataire ou champ du fichier), cette insertion se présente sous la forme d&#39;une commande qui sera interprétée par Adobe Campaign et remplacée par la valeur du champ pour un destinataire donné. Le remplacement physique peut ensuite être visualisé dans la variable **[!UICONTROL Aperçu]** .
+Après avoir choisi une source de données - champ du destinataire ou champ du fichier - cette insertion se présente sous la forme d&#39;une directive qui sera interprétée par Adobe Campaign et remplacée par la valeur du champ pour un destinataire donné. Le remplacement physique peut alors être visualisé dans l&#39;onglet **[!UICONTROL Aperçu]**.
 
 ## Exemple de champ de personnalisation {#personalization-fields-example}
 
@@ -50,7 +50,7 @@ Nous allons créer un email dans lequel nous allons tout d&#39;abord insérer le
 
 1. Créez une nouvelle diffusion ou ouvrez une diffusion existante de type email.
 1. Dans l&#39;assistant de diffusion, cliquez sur le lien **[!UICONTROL Objet]** pour éditer l&#39;objet du message et saisir un objet.
-1. Saisissez &quot; **[!UICONTROL Offre spéciale pour]** &quot; et utilisez le bouton de la barre d&#39;outils pour insérer un champ de personnalisation. Sélectionner **[!UICONTROL Destinataires > Titre]**.
+1. Saisissez le texte &quot;**[!UICONTROL Offre spéciale pour]**&quot; et utilisez le dernier bouton de la barre d&#39;outils pour insérer un champ de personnalisation. Choisissez **[!UICONTROL Destinataire>Prénom]**.
 
    ![](assets/s_ncs_user_insert_custom_field.png)
 
@@ -71,7 +71,7 @@ Nous allons créer un email dans lequel nous allons tout d&#39;abord insérer le
 
    >[!NOTE]
    >
-   >Lorsqu&#39;une diffusion fait partie d&#39;un workflow, vous pouvez utiliser les données de la table de workflow temporaire. Ces données sont rassemblées dans le menu **[!UICONTROL Extension de la cible]**. Pour plus d’informations, consultez [cette section](../../workflow/using/data-life-cycle.md#target-data).
+   >Lorsqu&#39;une diffusion s&#39;inscrit dans un workflow, vous pouvez utiliser les données issues de la table de travail temporaire du workflow. Ces données sont rassemblées dans le menu **[!UICONTROL Extension de la cible]**. Pour plus d’informations, consultez [cette section](../../workflow/using/data-life-cycle.md#target-data).
 
 ## Optimiser la personnalisation {#optimizing-personalization}
 
@@ -86,8 +86,8 @@ Par exemple, si vous rencontrez des problèmes de performances lorsque vous diff
 Pour utiliser cette option, procédez comme suit :
 
 1. Créez une campagne. Pour plus d’informations, consultez [cette section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
-1. Dans le **[!UICONTROL Ciblage et workflows]** de votre campagne, ajoutez un **Requête** à votre workflow. L&#39;utilisation de cette activité est présentée dans la section [cette section](../../workflow/using/query.md).
-1. Ajoutez un **[!UICONTROL Diffusion Email]** dans le workflow et ouvrez-le. L&#39;utilisation de cette activité est présentée dans la section [cette section](../../workflow/using/delivery.md).
+1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/query.md).
+1. Ajoutez une activité **[!UICONTROL Diffusion e-mail]** au workflow et ouvrez-la. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/delivery.md).
 1. Accédez à l&#39;onglet **[!UICONTROL Analyse]** des **[!UICONTROL Propriétés de la diffusion]** et sélectionnez l&#39;option **[!UICONTROL Préparer les données de personnalisation avec un workflow]**.
 
    ![](assets/perso_optimization.png)

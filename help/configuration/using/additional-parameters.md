@@ -6,7 +6,7 @@ feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
 ht-degree: 100%
 

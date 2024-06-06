@@ -6,9 +6,9 @@ role: User
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1289'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Pour configurer l&#39;arborescence des dossiers des plans marketing et des progr
 
 ### Ajout d’une opération {#adding-a-campaign}
 
-Vous pouvez créer une campagne à partir de la liste des campagnes. Pour afficher cette vue, sélectionnez la **[!UICONTROL Campagnes]** dans le menu **[!UICONTROL Campagnes]** tableau de bord.
+Vous pouvez créer une campagne à partir de la liste des campagnes. Pour afficher cette vue, sélectionnez le lien **[!UICONTROL Opérations]** disponible depuis l&#39;univers **[!UICONTROL Campagnes]**.
 
 ![](assets/s_ncs_user_add_an_op_from_list.png)
 
@@ -66,7 +66,7 @@ Le champ **[!UICONTROL Programme]** permet de sélectionner le programme auquel 
 
 ![](assets/s_ncs_user_new_op_wz_a.png)
 
-Les campagnes peuvent également être créées au moyen d’un programme. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter]** dans le **[!UICONTROL Planification]** onglet du programme concerné.
+Les opérations peuvent également être créées depuis un programme. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** proposé dans l&#39;onglet **[!UICONTROL Planning]** programme concerné.
 
 ![](assets/s_ncs_user_add_an_op.png)
 
@@ -74,7 +74,7 @@ Lorsque vous créez une campagne à partir de l’onglet **[!UICONTROL Planning]
 
 Dans la fenêtre de création de campagne, sélectionnez le modèle de campagne et ajoutez un nom et une description de la campagne. Vous pouvez également spécifier les dates de début et de fin de la campagne.
 
-Cliquez sur **[!UICONTROL OK]** pour créer la campagne. Il est ajouté au planning du programme.
+Cliquez sur **[!UICONTROL OK]** pour créer la campagne. Elle est ajoutée au planning du programme.
 
 ![](assets/s_ncs_user_program_planning_with_op.png)
 
@@ -135,7 +135,7 @@ Le mode de configuration du planning d&#39;exécution correspond à l&#39;objet 
 
    >[!NOTE]
    >
-   >Ce workflow doit être enregistré comme un modèle de workflow récurrent. Pour ce faire, éditez les propriétés du workflow et sélectionnez l’option **[!UICONTROL Modèle de workflow récurrent]** dans le **[!UICONTROL Exécution]** .
+   >Ce workflow doit être enregistré comme un modèle de workflow récurrent. Pour cela, éditez les propriétés du workflow et sélectionnez l&#39;option **[!UICONTROL Modèle de workflow récurrent]** dans l&#39;onglet **[!UICONTROL Exécution]**.
 
    ![](assets/s_ncs_user_op_template_recur_wf_option.png)
 
@@ -152,14 +152,14 @@ Pour créer l&#39;opération récurrente et exécuter ses workflows selon le pla
 
    Pour chaque ligne, il est possible d&#39;ajouter les options supplémentaires suivantes :
 
-   * **[!UICONTROL A valider]** : permet de forcer les demandes de validation de diffusion dans le workflow.
+   * **[!UICONTROL À valider]** : permet de forcer les demandes d’approbation des diffusions dans le workflow.
    * **[!UICONTROL A démarrer]** : permet de démarrer le workflow une fois la date de début atteinte.
 
    Le champ **[!UICONTROL Créer d&#39;avance pour]** permet de créer l&#39;ensemble des workflows couvrant la période renseignée.
 
    A l&#39;exécution du workflow **[!UICONTROL Traitements sur les opérations]**, les workflows dédiés sont créés selon les occurrences définies dans le planning de l&#39;opération. Ainsi, un workflow est créé pour chaque date d&#39;exécution.
 
-1. Les workflows récurrents sont créés automatiquement à partir du modèle de workflow présent dans l&#39;opération. Elles sont visibles à partir de la variable **[!UICONTROL Ciblage et workflows]** de l&#39;opération.
+1. Les workflows récurrents sont créés automatiquement à partir du modèle de workflow présent dans l&#39;opération. Ils sont visibles à partir de l&#39;onglet **[!UICONTROL Ciblages et workflows]** de l&#39;opération.
 
    ![](assets/s_ncs_user_op_recur_planning_wfs.png)
 

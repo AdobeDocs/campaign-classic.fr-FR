@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow d’extraction (fichie
 feature: Workflows, Data Management Activity
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Pour paramétrer l&#39;extraction des données, les étapes sont les suivantes 
 
 Vous pouvez définir un post-traitement à exécuter pendant l’extraction des données, ce qui vous permet de compresser ou de chiffrer les fichiers. Pour ce faire, la commande souhaitée doit être ajoutée dans l’onglet **[!UICONTROL Script]** de l’activité.
 
-Voir à ce propos cette section : [Compresser ou chiffrer un fichier](../../platform/using/zip-encrypt.md)
+Pour plus d’informations à ce sujet, consultez cette section : [Compression ou chiffrement d’un fichier](../../platform/using/zip-encrypt.md)
 
 ![](assets/postprocessing_dataextraction.png)
 

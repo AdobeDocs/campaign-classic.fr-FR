@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: unitary-interactions
 exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -154,7 +154,7 @@ Le paramètre &quot;**env**&quot; reçoit le nom interne de l&#39;environnement 
 
 Le paramètre &quot;**cb**&quot; reçoit le nom de la fonction qui va interpréter le noeud XML renvoyé par le moteur contenant la ou les propositions (callback). Ce paramètre est optionnel.
 
-Le &quot;**t**&quot; reçoit la valeur de la cible, uniquement pour une interaction identifiée. Ce paramètre peut également être transmis avec la variable **interactionTarget** Variable . Ce paramètre est facultatif.
+Le paramètre &quot;**t**&quot; reçoit l&#39;identifiant de la cible, pour une interaction identifiée uniquement. Ce paramètre peut également être passé avec la variable **interactionTarget**. Ce paramètre est optionnel.
 
 le paramètre &quot;**c**&quot; reçoit la liste des noms internes des catégories. Ce paramètre est optionnel.
 
@@ -214,7 +214,7 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
    >
    >Il est nécessaire de définir deux fois chaque élément. Les éléments de type CDATA (&quot;_jst&quot;) peuvent contenir des champs de personnalisation.
    >
-   >N’oubliez pas de mettre à jour la structure de la base de données. Pour plus d’informations, consultez [cette section](../../configuration/using/updating-the-database-structure.md).
+   >N&#39;oubliez pas de mettre à jour la structure de la base de données. Pour plus d’informations, consultez [cette section](../../configuration/using/updating-the-database-structure.md).
 
    >[!NOTE]
    >

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ En outre, vous devez impérativement suivre les instructions de sécurité de vo
 
 <img src="assets/do-not-localize/icon_server.svg" width="60px">
 
-Le paramétrage doit être effectué sur tous les serveurs. Les fichiers de configuration sont du type **serverConf.xml** et **`config-<instance>.xml`**. Voici les éléments clés qui doivent être vérifiés :
+La configuration doit être effectuée sur tous les serveurs. Les fichiers de configuration sont de type **serverConf.xml** et **`config-<instance>.xml`**. Voici les éléments clés à vérifier :
 
 * **Zones de sécurité** : configurez les zones de sécurité afin qu’elles prennent en compte directement les adresses IP des clients d’un proxy.
 

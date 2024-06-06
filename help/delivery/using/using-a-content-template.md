@@ -2,13 +2,13 @@
 product: campaign
 title: Utiliser un modèle de contenu
 description: Utiliser un modèle de contenu
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez référencer un modèle de contenu dans une diffusion afin d&#39;uti
 
 ![](assets/s_ncs_content_deliver_a_content.png)
 
-La mise en page sera appliquée automatiquement en fonction des paramètres sélectionnés. Pour l’afficher, cliquez sur le bouton **[!UICONTROL Aperçu du HTML]** (ou **[!UICONTROL Aperçu du texte]** ) et sélectionnez un destinataire afin de tester les éléments de personnalisation.
+La mise en page sera appliquée automatiquement, selon les paramètres sélectionnés. Pour la visualiser, cliquez sur l&#39;onglet **[!UICONTROL Aperçu HTML]** (ou **[!UICONTROL Aperçu texte]**) et sélectionnez un destinataire afin de tester les éléments de personnalisation.
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
@@ -60,7 +60,7 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_content_folder_use_a_template_preview.png)
 
-1. Une fois créé, le contenu est ajouté à la liste des contenus disponibles. Cliquez sur le bouton **[!UICONTROL Propriétés]** pour modifier son libellé, son statut ou consulter son historique.
+1. Une fois créé, le contenu est ajouté dans la liste des contenus disponibles. Cliquez sur le lien **[!UICONTROL Propriétés]** pour en modifier le libellé, le statut ou consulter son historique.
 
    ![](assets/s_ncs_content_folder_template_properties.png)
 
@@ -72,7 +72,7 @@ Les étapes sont les suivantes :
    >
    >Vous pouvez autoriser la génération de contenus non validés. Pour cela, modifiez l&#39;option correspondante dans le modèle de publication. Voir à ce sujet la section [Création et paramétrage du modèle](publication-templates.md#creating-and-configuring-the-template).
 
-   Les contenus HTML et Texte sont générés par défaut dans la variable **publication** du dossier de l’instance Adobe Campaign. Vous pouvez modifier le dossier de publication à partir du **NcmPublishingDir** .
+   Les contenus HTML et Texte sont générés par défaut dans le dossier **publishing** de l&#39;instance Adobe Campaign. Vous pouvez modifier le dossier de publication depuis l&#39;option **NcmPublishingDir**.
 
 ## Diffuser une instance de contenu {#delivering-a-content-instance}
 

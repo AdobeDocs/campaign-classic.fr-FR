@@ -5,7 +5,7 @@ description: En savoir plus sur l’activité de sous-workflow
 feature: Workflows
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
 ht-degree: 100%
 

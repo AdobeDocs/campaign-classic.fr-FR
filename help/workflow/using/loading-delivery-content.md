@@ -5,9 +5,9 @@ description: Charger le contenu de la diffusion
 feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Pour cela :
 
    ![](assets/delivery_loadcontent_script.png)
 
-1. Enregistrez et exécutez le workflow. Une nouvelle diffusion avec le contenu chargé est créée sous **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]**.
+1. Enregistrez et exécutez le workflow. Une diffusion avec le contenu chargé est créé dans **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]**.
 
 >[!NOTE]
 >

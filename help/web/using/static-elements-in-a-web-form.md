@@ -2,13 +2,13 @@
 product: campaign
 title: Eléments statiques dans un formulaire web
 description: Eléments statiques dans un formulaire web
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1079'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Pour ajouter un lien hypertexte, accédez au menu **[!UICONTROL Éléments stati
 
   ![](assets/s_ncs_admin_survey_send_an_email.png)
 
-* Vous pouvez choisir d’afficher le lien sous forme de bouton ou d’image. Pour ce faire, sélectionnez le type d’affichage dans le **[!UICONTROL Type]** champ .
+* Vous pouvez choisir d&#39;afficher le lien sous forme de bouton ou d&#39;image. Pour cela, sélectionnez l&#39;affichage dans le champ **[!UICONTROL Type]**.
 
 ### Types de liens {#types-of-links}
 
@@ -86,7 +86,7 @@ Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;uti
 
   ![](assets/s_ncs_admin_survey_link_next.png)
 
-  Vous pouvez masquer la variable **[!UICONTROL Suivant]** et/ou **[!UICONTROL Précédent]** s’ils doivent être remplacés par un lien. Voir cette [page](defining-web-forms-page-sequencing.md).
+  Vous pouvez masquer les boutons **[!UICONTROL Suivant]** et/ou **[!UICONTROL Précédent]** si un lien est destiné à les remplacer. Voir cette [page](defining-web-forms-page-sequencing.md).
 
   Ainsi, le lien paramétré remplacera le bouton **[!UICONTROL Suivant]** utilisé par défaut.
 
@@ -98,7 +98,7 @@ Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;uti
 
   ![](assets/s_ncs_admin_survey_link_viral.png)
 
-  Par défaut, une page n’a qu’une transition sortante. Pour créer de nouvelles transitions, sélectionnez la page, puis cliquez sur le bouton **[!UICONTROL Ajouter]** dans le **[!UICONTROL Transitions sortantes]** , comme illustré ci-dessous :
+  Par défaut, une page ne comporte qu’une seule transition sortante. Pour créer de nouvelles transitions, sélectionnez la page, puis cliquez sur le bouton **[!UICONTROL Ajouter]** dans la section **[!UICONTROL Transitions sortantes]**, comme illustré ci-dessous :
 
   ![](assets/s_ncs_admin_survey_add_transition.png)
 

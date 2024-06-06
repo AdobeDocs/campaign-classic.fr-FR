@@ -5,7 +5,7 @@ description: En savoir plus sur l'activité de workflow Branchement
 feature: Workflows
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
 ht-degree: 100%
 

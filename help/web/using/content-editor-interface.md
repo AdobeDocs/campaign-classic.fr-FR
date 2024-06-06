@@ -2,13 +2,13 @@
 product: campaign
 title: Interface de l'éditeur de contenu
 description: Interface de l'éditeur de contenu
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Elle contient quatre icônes :
   >
   >Le contenu sélectionné remplace le contenu actuel.
 
-* La variable **Enregistrer en tant que modèle** permet d&#39;enregistrer le contenu actuel en tant que modèle. Vous devez saisir le libellé et le nom interne du modèle. Les modèles sont stockés dans la variable **[!UICONTROL Ressources > Modèles > Modèles de contenu]** noeud .
+* La variable **Enregistrer en tant que modèle** permet d&#39;enregistrer le contenu actuel en tant que modèle. Vous devez saisir le libellé et le nom interne du modèle. Les modèles sont stockés dans le nœud : **[!UICONTROL Ressources > Modèles > Modèles de contenu]**.
 
   ![](assets/dce_popup_savetemplate.png)
 
@@ -85,4 +85,4 @@ La barre d’outils est un élément pop-up de l’**élément pop-up** de l’i
 
 >[!CAUTION]
 >
->Certaines fonctionnalités de la barre d&#39;outils permettent de mettre en forme le contenu HTML. Cependant, si la page contient une feuille de style CSS, la variable **instructions** de la feuille de style peut s’avérer nécessaire. **priority** sur les instructions spécifiées avec la barre d’outils.
+>Certaines fonctionnalités de la barre d&#39;outils permettent de mettre en forme le contenu HTML. Cependant, si la page contient une feuille de style CSS, les **instructions** provenant de la feuille de style peuvent s&#39;avérer **prioritaires** par rapport aux instructions spécifiées avec la barre d&#39;outils.

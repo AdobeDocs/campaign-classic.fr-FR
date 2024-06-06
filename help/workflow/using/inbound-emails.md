@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow de réception d’emai
 feature: Workflows, Channels Activity
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Le premier onglet de l&#39;activité **Réception d&#39;email** permet de rensei
 
    * **[!UICONTROL Utiliser un compte externe]**
 
-     Lorsque cette option est activée, vous pouvez sélectionner un compte externe POP3 au lieu de saisir les paramètres de connexion. La variable **[!UICONTROL Compte externe]** spécifie le compte POP3 externe à utiliser pour se connecter au service de messagerie. Ce champ n’est visible que si l’option &quot;Utiliser un compte externe&quot; est activée.
+     Lorsque cette option est activée, vous pouvez sélectionner un compte externe de type POP3 plutôt que de saisir les paramètres de connexion. Le champ **[!UICONTROL Compte externe]** indique le compte externe de type POP3 à utiliser pour se connecter à la messagerie. Ce champ n&#39;est visible que si l&#39;option &#39;Utiliser un compte externe&#39; est activée.
 
      Si cette option n&#39;est pas sélectionnée, vous devez indiquer les paramètres suivants :
 
@@ -66,7 +66,7 @@ Le premier onglet de l&#39;activité **Réception d&#39;email** permet de rensei
 
 1. **[!UICONTROL Planning]**
 
-   Pour définir un planning pour l’activité, cliquez sur le bouton **[!UICONTROL Planification]** onglet et vérification **[!UICONTROL Planifier l’exécution]**. Cliquez sur le bouton **[!UICONTROL Modifier]** pour configurer le planning.
+   Pour définir un planning pour l&#39;activité, cliquez sur l&#39;onglet **[!UICONTROL Planning]** et cochez l&#39;option **[!UICONTROL Planifier l&#39;exécution]**. Cliquez ensuite sur le bouton **[!UICONTROL Changer]** pour configurer le planning.
 
    Le paramétrage du planning est le même que celui de l&#39;activité de planification. Pour plus d&#39;informations, consultez la section [Planificateur](scheduler.md).
 

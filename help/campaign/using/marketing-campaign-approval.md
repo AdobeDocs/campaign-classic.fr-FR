@@ -6,9 +6,9 @@ role: User
 feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2606'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ La procédure de validation est présentée dans [cette section](#checking-and-a
 
 >[!NOTE]
 >
->Seule la personne propriétaire de la diffusion peut démarrer une diffusion. Pour qu&#39;un autre opérateur (ou groupe d&#39;opérateurs) puisse démarrer une diffusion, vous devez l&#39;ajouter comme validant dans la **[!UICONTROL Démarrage de la diffusion :]** champ .\
+>Seule la personne propriétaire de la diffusion peut démarrer une diffusion. Pour qu’un autre opérateur (ou un groupe d’opérateurs) puisse démarrer une diffusion, vous devez l’ajouter comme validant au niveau du champ **[!UICONTROL Démarrage de la diffusion :]**.\
 >[En savoir plus](#selecting-reviewers).
 
 ## Principe de fonctionnement {#operating-principle-}
@@ -62,14 +62,14 @@ Pour chaque type de validation, les opérateurs ou groupes d’opérateurs charg
 
 ![](assets/s_user_validation_add_operator.png)
 
-Si aucun opérateur validant n&#39;est spécifié, le responsable de l&#39;opération sera chargé de la validation et recevra les notifications. Le responsable de campagne est spécifié dans la variable **[!UICONTROL Modifier > Propriétés]** de l&#39;opération :
+Si aucun réviseur n&#39;est spécifié, la personne responsable de la campagne est en charge de l’approbation et reçoit les notifications. La personne responsable de la campagne est indiquée dans l&#39;onglet **[!UICONTROL Edition > Propriétés]** de la campagne :
 
 ![](assets/s_user_op_manager_field.png)
 
 >[!NOTE]
 >
 >Tous les autres opérateurs Adobe Campaign ayant des droits **[!UICONTROL Administrateur]** sont également habilités à valider les traitements. En revanche, ils ne reçoivent pas de notifications.\
->Par défaut, le responsable de l&#39;opération ne peut pas effectuer de validation ni démarrer les diffusions si des opérateurs validants ont été définis. Vous pouvez modifier ce comportement et autoriser le responsable de l&#39;opération à valider/démarrer des diffusions en créant la variable **NmsCampaign_Activate_OwnerConfirmation** option avec **1** comme valeur.
+>Par défaut, le responsable de la campagne ne peut pas effectuer de validation ou démarrer les diffusions si des opérateurs validants sont définis. Vous pouvez modifier ce comportement et autoriser le responsable de la campagne à valider/démarrer les diffusions en créant l&#39;option **NmsCampaign_Activate_OwnerConfirmation** avec pour valeur **1**.
 
 ## Modes de validation {#approval-modes}
 
@@ -79,7 +79,7 @@ Pour valider un traitement depuis la console ou l&#39;interface web, cliquez sur
 
 ![](assets/s_user_validation_from_console.png)
 
-Vérifiez les informations à valider, acceptez ou refusez la validation et, au besoin, saisissez un commentaire. Cliquez sur **[!UICONTROL Ok]** pour enregistrer.
+Vérifiez les informations, puis acceptez ou refusez la validation. Saisissez éventuellement un commentaire et cliquez sur **[!UICONTROL Ok]** pour enregistrer.
 
 >[!NOTE]
 >
@@ -188,7 +188,7 @@ Le statut de l&#39;opération est alors **[!UICONTROL A valider]**.
 
 >[!NOTE]
 >
->Dans un workflow de ciblage, si une erreur liée à un problème de configuration se produit lors de la préparation du message, le lien **[!UICONTROL Redémarrer la préparation des messages]** s&#39;affiche sur le tableau de bord. Corrigez l&#39;erreur et cliquez sur ce lien pour relancer la préparation des messages tout en contournant l&#39;étape de ciblage.
+>Dans un workflow de ciblage, si une erreur liée à un problème de configuration se produit lors de la préparation du message, le lien **[!UICONTROL Redémarrer la préparation des messages]** s&#39;affiche sur le tableau de bord. Corrigez l&#39;erreur, puis cliquez sur ce lien afin de relancer la préparation des messages sans repasser par la phase de ciblage.
 
 ![](assets/s_user_validation_relaunch_message_preparation.png)
 

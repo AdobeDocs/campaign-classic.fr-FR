@@ -2,14 +2,14 @@
 product: campaign
 title: Définition du contenu d’e-mail dans Adobe Campaign Classic
 description: Découvrez comment définir le contenu d'e-mail avec Adobe Campaign
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Email Design
 role: User
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2032'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ L’insertion et l’utilisation de champs de personnalisation sont présentées
 
 ## Objet du message {#message-subject}
 
-L&#39;objet du message est paramétré dans le champ correspondant. Vous pouvez la saisir directement dans le champ ou cliquer sur le bouton **[!UICONTROL Objet]** pour saisir un script. Le lien de personnalisation permet d&#39;insérer des champs de la base dans l&#39;objet.
+L&#39;objet du message est paramétré dans le champ correspondant. Vous pouvez le saisir directement dans le champ ou cliquer sur le lien **[!UICONTROL Objet]** pour saisir un script. Le lien de personnalisation permet d&#39;insérer des champs de la base dans l&#39;objet.
 
 >[!IMPORTANT]
 >
@@ -66,7 +66,7 @@ Le contenu du message est défini dans la section inférieure de la fenêtre de 
 
 Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préférences des destinataires. Il est recommandé de créer un contenu dans les deux formats afin de permettre un affichage correct dans toutes les messageries. Voir à ce sujet la section [Sélection des formats du message](email-parameters.md#selecting-message-formats).
 
-* Pour importer un contenu de HTML, utilisez le **[!UICONTROL Ouvrir]** bouton . Vous pouvez également coller directement le code source dans le **[!UICONTROL Source]** sous-onglet.
+* Pour importer un contenu HTML, utilisez le bouton **[!UICONTROL Ouvrir]**. Vous pouvez également coller le code source directement dans le sous-onglet **[!UICONTROL Source]**.
 
   Si vous utilisez [Digital Content Editor](../../web/using/about-campaign-html-editor.md) (DCE), consultez [Sélection d&#39;un modèle de contenu](../../web/using/use-case-creating-an-email-delivery.md#step-3---selecting-a-content).
 
@@ -80,7 +80,7 @@ Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préfére
 
   ![](assets/s_ncs_user_wizard_email01_138.png)
 
-  Vous pouvez insérer des images dans les messages à partir d’un fichier local ou d’une bibliothèque d’images dans Adobe Campaign. Pour ce faire, cliquez sur le bouton **[!UICONTROL Image]** et sélectionnez l’option appropriée.
+  Vous pouvez insérer des images dans les messages depuis un fichier local ou depuis la bibliothèque d&#39;images disponible dans Adobe Campaign. Pour cela, cliquez sur l&#39;icône **[!UICONTROL Image]** et sélectionnez l&#39;option adéquate.
 
   ![](assets/s_ncs_user_wizard_email01_18.png)
 
@@ -92,7 +92,7 @@ Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préfére
   >
   >L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](about-personalization.md).
 
-  Les onglets en bas de page permettent d&#39;afficher le code de HTML de la page en cours de création et de visualiser le rendu du message, avec sa personnalisation. Pour lancer cet affichage, cliquez sur **[!UICONTROL Aperçu]** et sélectionner un destinataire à l&#39;aide de l&#39;événement **[!UICONTROL Test de la personnalisation]** dans la barre d’outils. Vous pouvez sélectionner un destinataire parmi la ou les cibles définies ou choisir un autre destinataire.
+  Les onglets en bas de page permettent d&#39;afficher le code HTML associé à la page en cours de création et de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** et sélectionnez un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d&#39;outils. Vous pouvez sélectionner un destinataire parmi la ou les cibles définies ou choisir un autre destinataire.
 
   ![](assets/s_ncs_user_wizard_email01_139.png)
 
@@ -117,7 +117,7 @@ Voir à ce propos [cette section](defining-interactive-content.md).
 
 ## Utiliser la gestion de contenu {#using-content-management}
 
-Vous pouvez définir le contenu de la diffusion à partir des formulaires de la gestion de contenu, directement dans l&#39;assistant de diffusion. Pour cela, vous devez référencer le modèle de publication de la gestion de contenu à utiliser, dans la **[!UICONTROL Avancé]** de la propriété delivery.
+Vous pouvez définir le contenu de la diffusion en utilisant les formulaires d&#39;une gestion de contenu, directement dans l&#39;assistant de diffusion. Pour cela, vous devez référencer le modèle de publication de la gestion de contenu à utiliser, dans l&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion.
 
 ![](assets/s_ncs_content_in_delivery.png)
 
@@ -144,7 +144,7 @@ Pour personnaliser la liste des émoticônes, voir cette [page](customizing-emot
 
 ## Ajouter des images {#adding-images}
 
-Les diffusions email au format HTML peuvent contenir des images. Depuis l&#39;assistant de diffusion, vous pouvez importer une page de HTML contenant des images ou insérer des images directement depuis l&#39;éditeur de HTML, via le **[!UICONTROL Image]** Icône
+Les diffusions par e-mail au format HTML peuvent contenir des images. Depuis l&#39;assistant de diffusion, vous pouvez importer une page HTML contenant des images ou insérer des images directement depuis l&#39;éditeur HTML à partir de l&#39;icône **[!UICONTROL Image]**.
 
 
 ### Mécanismes de sécurisation {#img-guardrails}
@@ -162,11 +162,11 @@ Ces images peuvent être :
 
   Les ressources publiques sont accessibles à partir du nœud **[!UICONTROL Ressources >On-line > Ressources publiques]** de l&#39;arborescence Adobe Campaign. Elles sont regroupées dans une bibliothèque et peuvent être incluses dans les emails, mais aussi utilisées au niveau des opérations ou des tâches, ainsi que pour la gestion de contenu.
 
-* Ressource partagée avec Adobe Experience Cloud. Consultez [cette section](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
+* Une ressource partagée via Adobe Experience Cloud. Consultez [cette section](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
 
 ### Insérer et gérer des images {#manage-images}
 
-L&#39;assistant de diffusion permet d&#39;ajouter au contenu des messages des images locales, ou des images stockées dans la bibliothèque. Pour ce faire, cliquez sur le bouton **[!UICONTROL Image]** dans la barre d’outils du contenu du HTML.
+L&#39;assistant de diffusion vous permet d&#39;ajouter dans le contenu des messages des images locales ou des images stockées dans la bibliothèque. Pour cela, cliquez sur le bouton **[!UICONTROL Image]** situé dans la barre d&#39;outils du contenu HTML.
 
 ![](assets/s_ncs_user_image_from_library.png)
 
@@ -215,11 +215,11 @@ Pour chaque image détectée, vous pouvez visualiser son état :
 
 >[!NOTE]
 >
->Les images sont identifiées par leur contenu et non par leurs chemins d’accès. Cela signifie qu’une image précédemment téléchargée sous un autre nom ou dans un autre répertoire sera détectée comme **[!UICONTROL Déjà en ligne]**.
+>Une image est identifiée par son contenu, et non par son nom ou son chemin d’accès. Ainsi, une image chargée antérieurement sous un autre nom ou depuis un autre répertoire sera détectée comme **[!UICONTROL Déjà en ligne]**.
 
 Lors de la phase d&#39;analyse du message, les images sont automatiquement téléchargées sur le serveur afin d&#39;être accessibles depuis l&#39;extérieur, sauf les images locales qui doivent avoir été téléchargées préalablement.
 
-Vous pouvez anticiper la mise en ligne des images afin qu&#39;elles puissent être visualisées par d&#39;autres opérateurs Adobe Campaign. Cela peut s’avérer utile si vous travaillez en collaboration. Pour ce faire, cliquez sur **[!UICONTROL Transférez immédiatement les images...]** pour télécharger les images sur le serveur.
+Vous pouvez anticiper le chargement des images afin qu&#39;elles puissent être visualisées par d&#39;autres opérateurs d’Adobe Campaign. Cela peut s’avérer utile si vous travaillez en collaboration. Pour cela, sélectionnez l&#39;option **[!UICONTROL Charger les images tout de suite]** et cliquez sur le lien pour charger les images sur le serveur.
 
 ![](assets/s_ncs_user_images_in_delivery_wiz_3.png)
 
@@ -245,7 +245,7 @@ Le module de génération de codes-barres permet de créer plusieurs types de co
 
 Il est possible de générer dynamiquement un code-barres sous la forme d’un bitmap au moyen d’une valeur définie grâce à des critères client. Des code-barres personnalisés peuvent être inclus dans des campagnes par e-mail. Le destinataire pourra imprimer ce message et le présenter à la société émettrice qui le scannera (lors d’un passage en caisse par exemple).
 
-Pour insérer un code-barres dans un email, placez le curseur dans le contenu où vous souhaitez l&#39;afficher, puis cliquez sur le bouton de personnalisation. Sélectionner **[!UICONTROL Inclure > Code à barres...]**.
+Pour insérer un code-barres dans un email, positionnez le curseur dans le contenu, là où vous souhaitez l&#39;afficher, et cliquez sur le bouton de personnalisation. Choisissez **[!UICONTROL Inclure > Code-barres...]**.
 
 ![](assets/barcode_insert_14.png)
 
@@ -276,13 +276,13 @@ Puis paramétrez les éléments suivants en fonction de vos besoins :
 1. Indiquez la taille du code-barres à insérer dans l&#39;email : le paramétrage de l&#39;échelle permet d&#39;augmenter ou de réduire la taille du code-barres, de x 1 à x 10.
 1. Le champ **[!UICONTROL Valeur]** permet de définir la valeur du code-barres. Une valeur peut correspondre à une offre promotionnelle et peut être une fonction d&#39;un critère, ce peut être la valeur d&#39;un champ de la base de données relative aux clients.
 
-   Cet exemple illustre un code à barres de type EAN-8 auquel a été ajouté le numéro de compte d&#39;un destinataire. Pour ajouter ce numéro de compte, cliquez sur le bouton de personnalisation situé à droite du **[!UICONTROL Valeur]** champ et sélectionnez **[!UICONTROL Destinataire > Numéro de compte]**.
+   L&#39;exemple ci-dessous montre un code-barres de type EAN-8 auquel a été ajouté le numéro de compte d&#39;un destinataire. Pour ajouter ce numéro de compte, cliquez sur le bouton de personnalisation situé à droite du champ **[!UICONTROL Valeur]** et sélectionnez **[!UICONTROL Destinataire > N° de compte]**.
 
    ![](assets/barcode_insert_15.png)
 
 1. Le champ **[!UICONTROL Hauteur]** permet de paramétrer la hauteur du code-barres sans en modifier la largeur, soit l&#39;espacement entre chaque barre.
 
-   Il n’existe pas de contrôle restrictif de saisie en fonction du type de code à barres utilisé. Si une valeur de code-barres est incorrecte, elle ne sera visible que dans **Aperçu** où le code à barres est barré en rouge.
+   Il n&#39;existe pas de contrôle restrictif de saisie en fonction du type de code-barres sélectionné. Si une valeur de code-barres est erronée, vous ne le saurez que lorsque vous passerez en vue **Aperçu** avec le code-barres marqué d&#39;une croix rouge.
 
    >[!NOTE]
    >
@@ -292,7 +292,7 @@ Puis paramétrez les éléments suivants en fonction de vos besoins :
    >
    >Par exemple, si vous utilisez un code-barres de type GS1-128 et que vous souhaitez renseigner le numéro de compte d&#39;un destinataire en plus de la valeur, cliquez sur le bouton de personnalisation et sélectionnez **[!UICONTROL Destinataire > N° de compte]**. Si le numéro de compte du destinataire sélectionné est correctement renseigné, le code-barres le prend en considération.
 
-Une fois ces éléments paramétrés, vous pouvez finaliser votre email et l&#39;envoyer. Pour éviter toute erreur, vérifiez toujours que le contenu s&#39;affiche correctement avant d&#39;effectuer une diffusion en cliquant sur le bouton **[!UICONTROL Aperçu]** .
+Une fois ces éléments paramétrés, vous pouvez finaliser votre email et l&#39;envoyer. Pour éviter toute erreur, vérifiez toujours avant une diffusion que votre contenu s&#39;affiche correctement en cliquant sur l&#39;onglet **[!UICONTROL Aperçu]**.
 
 ![](assets/barcode_insert_10.png)
 

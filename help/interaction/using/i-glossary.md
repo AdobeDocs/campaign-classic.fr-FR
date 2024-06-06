@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: interaction-overview
 exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1122'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,10 +22,10 @@ Voici la définition des éléments principaux d&#39;Interaction.
 
 * **Environnement** : ensemble regroupant un Catalogue d&#39;offres et des points d&#39;intégration (emplacements). Vous devez créer un environnement par dimension de ciblage. Il existe deux types d&#39;environnements :
 
-   * **Environnement en édition** : environnement dans lequel les offres sont créées et/ou les règles de typologie sont définies (règles qui déterminent les offres à présenter ou non à une personne ciblée). La table des individus qui seront ciblés par les offres et la table de stockage de toutes les propositions d&#39;offres sont également définies dans cette table. Le nœud **[!UICONTROL Environnement en édition]** contient des sous-dossiers d&#39;emplacements, des filtres prédéfinis et des catégories d&#39;offres. Pour chaque **[!UICONTROL Environnement en édition]**, il existe un **[!UICONTROL Environnement en ligne]** correspondant, généré à partir de ce même **[!UICONTROL Environnement en édition]**.
-   * **Environnement en ligne**: environnement associé à un **[!UICONTROL Environnement de conception]**. Il contient des offres en lecture seule dont le contenu et l’éligibilité ont été approuvés via l’**[!UICONTROL Environnement en édition]**. Ils doivent être sélectionnés pour être présentés sur un site Web ou insérés dans un message.
+   * **Environnement en édition** : environnement dans lequel les offres sont créées et/ou les règles de typologie sont définies (règles qui déterminent les offres à présenter ou non à une personne ciblée). La table des individus qui seront ciblés par les offres et la table destinée à stocker toutes les propositions d&#39;offres y sont également définies. Le nœud **[!UICONTROL Environnement en édition]** contient des sous-dossiers d&#39;emplacements, des filtres prédéfinis et des catégories d&#39;offres. Pour chaque **[!UICONTROL Environnement en édition]**, il existe un **[!UICONTROL Environnement en ligne]** correspondant, généré à partir de ce même **[!UICONTROL Environnement en édition]**.
+   * **Environnement en ligne** : environnement associé à un **[!UICONTROL Environnement en édition]**. Il contient des offres en lecture seule dont le contenu et l’éligibilité ont été approuvés via l’**[!UICONTROL Environnement en édition]**. Elles sont destinées à être sélectionnées pour être présentées sur un site web ou insérées dans un message.
 
-* Un **emplacement** désigne un dossier définissant l’emplacement d’exposition de l’offre. La définition d&#39;un emplacement permet de définir le canal utilisé, de spécifier s&#39;il peut être utilisé ou non en mode unitaire (par défaut : uniquement en mode batch), de construire le contenu de l&#39;offre à l&#39;aide de fonctions de rendu et de spécifier l&#39;offre présentée. Un emplacement est une interface entre le canal et le moteur d&#39;offres.
+* Un **emplacement** désigne un dossier définissant l’emplacement d’exposition de l’offre. La définition d&#39;un emplacement permet à la fois d&#39;indiquer le canal utilisé, de spécifier s&#39;il est possible ou non de l&#39;utiliser en mode unitaire (par défaut : uniquement en mode batch), de construire le contenu de l&#39;offre par l&#39;intermédiaire de fonctions de rendu et de spécifier le thème des offres présentées. Un emplacement est une interface entre le canal et le moteur d&#39;offres.
 
   >[!IMPORTANT]
   >

@@ -5,9 +5,9 @@ description: Gérer les données entre Campaign et votre gestion de la relation 
 feature: Microsoft CRM Integration, Salesforce Integration
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1620'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Pour importer des données depuis le CRM dans Adobe Campaign, vous devez réali
 Pour un import, les étapes de paramétrage de l&#39;activité **[!UICONTROL Connecteur CRM]** sont les suivantes :
 
 1. Sélectionnez une opération de type **[!UICONTROL Import depuis le CRM]**.
-1. Accédez à la liste déroulante **[!UICONTROL Objet distant]** et sélectionnez l’objet concerné par le processus. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
+1. Accédez à la liste déroulante **[!UICONTROL Objet distant]** et sélectionnez l’objet concerné par le processus. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
 1. Dans la section **[!UICONTROL Champs distants]**, indiquez les champs à importer.
 
    Pour ajouter un champ, cliquez sur le bouton **[!UICONTROL Ajouter]** de la barre d&#39;outils puis sur l&#39;icône **[!UICONTROL Editer l&#39;expression]**.
@@ -111,7 +111,7 @@ L&#39;activation de l&#39;option **[!UICONTROL Index automatique]** génère tro
 
   >[!NOTE]
   >
-  >Ces dates sont présentées au format suivant : **`yyyy/MM/dd hh:mm:ss`**.
+  >Ces dates s’affichent au format suivant : **`yyyy/MM/dd hh:mm:ss`**.
 
 ### Filtrage des données {#filtering-data}
 
@@ -162,7 +162,7 @@ Pour exporter des données vers le CRM, vous devez réaliser un workflow du type
 Pour un export, les étapes de paramétrage de l&#39;activité **[!UICONTROL Connecteur CRM]** sont les suivantes :
 
 1. Sélectionnez une opération de type **[!UICONTROL Exporter vers le CRM]**.
-1. Accédez à la liste déroulante **[!UICONTROL Objet distant]** et sélectionnez l’objet concerné par le processus. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
+1. Accédez à la liste déroulante **[!UICONTROL Objet distant]** et sélectionnez l’objet concerné par le processus. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
 
    >[!IMPORTANT]
    >
@@ -208,7 +208,7 @@ Les autres conversions possibles sont les suivantes :
 
 ### Traitement des erreurs {#error-processing}
 
-Dans le cadre d&#39;un import ou d&#39;un export de données, vous pouvez appliquer un traitement spécifique aux erreurs et rejets. Pour ce faire, sélectionnez l’option **[!UICONTROL Rejets de processus]** et **[!UICONTROL Traiter les erreurs]** dans le **[!UICONTROL Comportement]** .
+Dans le cadre d&#39;un import ou d&#39;un export de données, vous pouvez appliquer un traitement spécifique aux erreurs et rejets. Pour cela, sélectionnez les options **[!UICONTROL Traiter les rejets]** et **[!UICONTROL Traiter les erreurs]**, dans l&#39;onglet **[!UICONTROL Comportement]**.
 
 ![](assets/crm_export_options.png)
 
@@ -235,7 +235,7 @@ Afin de permettre la mise en place d&#39;un processus exhaustif de synchronisati
 Pour cela, les étapes sont les suivantes :
 
 1. Sélectionnez une opération de type **[!UICONTROL Import des objets supprimés dans le CRM]**.
-1. Accédez à la liste déroulante **[!UICONTROL Objet distant]** et sélectionnez l’objet concerné par le processus. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
+1. Accédez à la liste déroulante **[!UICONTROL Objet distant]** et sélectionnez l’objet concerné par le processus. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
 1. Indiquez la période de suppression à prendre en compte dans les champs **[!UICONTROL Date de début]** et **[!UICONTROL Date de fin]**. Ces dates seront incluses dans la période.
 
    ![](assets/crm_import_deleted_obj.png)

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -50,9 +50,9 @@ Le requêteur Adobe Campaign est un outil puissant permettant d&#39;explorer le
 
 L&#39;outil de requêtage est présent à de nombreux niveaux de la plateforme Adobe Campaign : pour créer une population cible, segmenter les clients, extraire et filtrer des logs de tracking, construire des filtres, etc.
 
-Vous pouvez interroger la base de données Campaign à l’aide de l’éditeur de requêtes générique. Il est accessible à partir du **Outils > Requêteur générique...** . Il permet d&#39;extraire les informations stockées dans une base de données, les organiser, les regrouper, les trier, etc. Par exemple, l&#39;utilisateur peut récupérer les destinataires ayant cliqué plus de &#39;n&#39; fois sur le lien d&#39;une newsletter sur une période donnée. Cet outil vous permet de collecter, trier et afficher les résultats selon vos besoins. Cet outil regroupe toutes les possibilités de requêtage d&#39;Adobe Campaign. Par exemple, il permet la création et la sauvegarde des filtres de restriction. Ainsi, un filtre utilisateur créé dans le Requêteur générique est réutilisable dans la boîte de Requête d&#39;un workflow de ciblage, etc.
+Vous pouvez interroger la base de données Campaign grâce au requêteur générique. Il est accessible depuis le menu **Outils > Requêteur générique...**. Il permet d&#39;extraire des informations stockées dans une base de données, les organiser, les regrouper, les trier, etc. Par exemple, l&#39;utilisateur peut récupérer les destinataires ayant cliqué plus de &#39;n&#39; fois dans le lien d&#39;une newsletter et sur une période donnée. Il pourra organiser la collecte, le tri et l&#39;affichage des résultats selon ses besoins. Cet outil regroupe toutes les possibilités de requêtage d&#39;Adobe Campaign. Par exemple, il permet la création et la sauvegarde des filtres de restriction. Ainsi, un filtre utilisateur créé dans le Requêteur générique est réutilisable dans la boîte de Requête d&#39;un workflow de ciblage, etc.
 
-Les requêtes sont créées à partir des champs de la table sélectionnée ou à partir d&#39;une formule. Les principes de base pour créer une requête sur la base de données Campaign sont décrits [dans cette page](../../platform/using/about-queries-in-campaign.md).
+Les requêtes sont créées soit avec les champs disponibles de la table sélectionnée, soit à l&#39;aide d&#39;une formule. Les principes de base pour créer une requête sur la base de données Campaign sont présentés [dans cette page](../../platform/using/about-queries-in-campaign.md).
 
 [Cliquez ici](../../workflow/using/query.md) pour découvrir le requêteur de Campaign.
 

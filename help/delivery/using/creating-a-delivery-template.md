@@ -2,14 +2,14 @@
 product: campaign
 title: Créer un modèle de diffusion
 description: Créer un modèle de diffusion
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Delivery Templates
 role: User
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 71%
 
 ## Transformer une diffusion existante en modèle {#converting-an-existing-delivery-to-a-template}
 
-Une diffusion peut être convertie en modèle pour de nouvelles actions de diffusion répétées. Pour transformer une diffusion en modèle, sélectionnez-la dans la liste des diffusions accessible à partir du **[!UICONTROL Gestion de campagne]** du noeud de l’arborescence.
+Une diffusion peut être transformée en modèle pour de nouvelles actions de diffusion récurrentes. Pour transformer une diffusion en modèle, sélectionnez-la depuis la liste des diffusions accessible à partir du dossier **[!UICONTROL Gestion de campagne]** de l&#39;arborescence.
 
 Cliquez avec le bouton droit et choisissez **[!UICONTROL Actions > Sauver comme modèle...]**.
 
 ![](assets/s_ncs_user_campaign_save_as_scenario.png)
 
-Cette action crée un modèle de diffusion à partir de la diffusion sélectionnée. Vous devez saisir le dossier dans lequel il est enregistré (dans la variable **[!UICONTROL Dossier]** ) ainsi que le dossier dans lequel les diffusions créées à partir de ce modèle sont créées (dans la variable **[!UICONTROL Dossier d’exécution]** ).
+Cette action crée un modèle de diffusion à partir de la diffusion sélectionnée. Vous devez indiquer son dossier d&#39;enregistrement (dans le champ **[!UICONTROL Dossier]**) ainsi que le dossier dans lequel seront créées les diffusions issues de ce modèle (dans le champ **[!UICONTROL Dossier d&#39;exécution]**).
 
 ![](assets/s_ncs_user_campaign_save_as_scenario_a.png)
 
@@ -60,11 +60,11 @@ Pour configurer un modèle de diffusion, procédez comme suit :
 
 1. Remplissez la catégorie **Paramètres de l’e-mail** avec l’objet de l’e-mail et la population ciblée.
 1. Ajoutez votre **contenu HTML** afin de personnaliser votre modèle. Vous pouvez afficher une page miroir et un lien de désinscription.
-1. Sélectionnez la variable **Aperçu** . Dans le **Test de la personnalisation** menu déroulant, sélectionnez **Destinataire** pour prévisualiser votre modèle en tant que profil sélectionné.
+1. Sélectionnez l&#39;onglet **Aperçu**. Dans le menu déroulant **Tester la personnalisation**, sélectionnez **Destinataire** pour obtenir un aperçu du modèle en tant que profil choisi.
 
    ![](assets/delivery_template_5.png)
 
-1. Cliquez sur **Enregistrer**. Votre modèle est maintenant prêt à être utilisé dans une diffusion.
+1. Cliquez sur **Enregistrer**. Le modèle peut maintenant être utilisé dans une diffusion.
 
 
 ## Tutoriels vidéo {#delivery-template-video}

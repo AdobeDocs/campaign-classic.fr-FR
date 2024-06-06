@@ -3,15 +3,15 @@ product: campaign
 title: Import et export d'audiences
 description: Import et export d'audiences
 feature: Audiences, People Core Service Integration
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ L&#39;import d&#39;audiences/de segments depuis Audience Manager ou People core
 1. Dans la fenêtre qui s’ouvre, cliquez sur **[!UICONTROL Sélectionner une audience partagée]** afin d’accéder à la liste des audiences partagées/segments disponibles à partir des autres solutions Adobe Experience Cloud.
 1. Sélectionnez l&#39;audience de votre choix puis validez. Les informations de l&#39;audience sélectionnée sont automatiquement renseignées.
 
-   Pour pouvoir importer une audience partagée, le **[!UICONTROL Bibliothèque d’audiences]** dans admin console et être administrateur dans Audience Manager. Voir à ce sujet la section [Documentation de la console d’administration](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
+   Veuillez noter que pour pouvoir importer une audience partagée, le produit **[!UICONTROL Audience partagée]** devrait vous être assigné dans la console d&#39;administration et vous devriez être administrateur dans Audience Manager. Pour en savoir plus à ce sujet, consultez la [documentation de la console d&#39;administration](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
 
    ![](assets/aam_import_audience_3.png)
 
@@ -56,7 +56,7 @@ Lors de chaque synchronisation, les données de l&#39;audience sont entièrement
 
 ## Exporter une audience {#exporting-an-audience}
 
-Vous pouvez exporter une audience d’Adobe Campaign vers Audience Manager ou People core service à l’aide d’un workflow. Les processus de création et d&#39;utilisation d&#39;un workflow sont présentés dans la section [ce document](../../workflow/using/building-a-workflow.md). Les audiences exportées sont enregistrées en tant que segments dans People core service :
+L&#39;export d&#39;une audience depuis Adobe Campaign vers People core service ou Audience Manager peut être réalisé à l&#39;aide d&#39;un workflow. La création et l&#39;utilisation d&#39;un workflow sont détaillées dans [ce document](../../workflow/using/building-a-workflow.md). Les audiences exportées sont enregistrées sous forme de segments dans People core service :
 
 1. Créez un nouveau workflow de ciblage.
 1. En utilisant les différentes activités à votre disposition, ciblez un ensemble de destinataires.
@@ -80,7 +80,7 @@ Vous pouvez exporter une audience d’Adobe Campaign vers Audience Manager ou Pe
 
 L&#39;audience est alors exportée. L&#39;activité de sauvegarde d&#39;audience a deux transitions sortantes. La transition principale contient les destinataires ayant été exportés avec succès. La transition complémentaire contient les destinataires n&#39;ayant pas pu être mappés avec un identifiant visiteur ou un declared ID.
 
-La synchronisation entre Adobe Campaign et People core service peut prendre de 24 à 36 heures. Passé ce délai, vous pourrez retrouver votre nouvelle audience dans People core service et la réutiliser dans d’autres solutions d’Adobe Experience Cloud. Pour plus d&#39;informations sur les audiences partagées Adobe Campaign dans Adobe People core service, consultez cette [documentation](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html?lang=fr).
+La synchronisation entre Adobe Campaign et People core service peut prendre de 24 à 36 heures. Passé ce délai, vous pourrez retrouver votre nouvelle audience dans People core service et la réutiliser dans d’autres solutions d’Adobe Experience Cloud. Pour plus d&#39;informations sur l&#39;utilisation d&#39;une audience partagée Adobe Campaign dans Adobe People core service, consultez cette [documentation](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html?lang=fr).
 
 >[!NOTE]
 >

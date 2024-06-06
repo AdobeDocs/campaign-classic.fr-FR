@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1094'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ En dehors de l&#39;activité de diffusion elle-même, plusieurs activités des w
 
 * Composition de diffusion
 * Enrichissement
-* Moteur d&#39;offres
+* Moteur d’offres
 * Offres par cellule
 
 ## Composition de diffusion {#delivery-outline}
@@ -79,7 +79,7 @@ Après avoir paramétré votre requête (voir le [Guide des Workflows](../../wor
 1. Indiquez un identifiant ainsi qu&#39;un libellé pour la proposition qui sera ajoutée.
 1. Définissez la sélection de l&#39;offre. Deux options sont possibles :
 
-   * **[!UICONTROL Rechercher la meilleure offre dans une catégorie]** : cochez cette option et définissez les paramètres d&#39;appel au moteur d&#39;offres (emplacement, catégorie ou thème(s), date de contact, nombre d&#39;offres à conserver). Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres. Nous vous recommandons de terminer l’une des opérations suivantes : **[!UICONTROL Catégorie]** ou le **[!UICONTROL Thème]** , plutôt que les deux en même temps.
+   * **[!UICONTROL Rechercher la meilleure offre dans une catégorie]** : cochez cette option et définissez les paramètres d’appel du moteur dʼoffres (emplacement, catégorie ou thèmes, date de contact, nombre dʼoffres à conserver). Le moteur calcule automatiquement la ou les offres à ajouter en fonction de ces paramètres. Nous vous recommandons de renseigner soit le champ **[!UICONTROL Catégorie]**, soit le champ le **[!UICONTROL Thème]**, plutôt que les deux à la fois.
 
      ![](assets/int_enrichment_offer3.png)
 
@@ -136,9 +136,9 @@ Cependant, il est possible de stocker ces informations de la manière suivante 
 
 1. Validez votre ajout et enregistrez votre workflow.
 
-La diffusion stocke automatiquement le rang et le poids des offres. Ces informations sont visibles dans le **[!UICONTROL Offres]** .
+La diffusion stocke automatiquement le rang et le poids des offres. Ces informations sont visibles dans l’onglet **[!UICONTROL Offres]** de la diffusion.
 
-## Moteur d&#39;offres {#offer-engine}
+## Moteur d’offres {#offer-engine}
 
 L&#39;activité **[!UICONTROL Moteur d&#39;offres]** vous permet également de définir un appel au moteur d&#39;offres en amont d&#39;une diffusion.
 

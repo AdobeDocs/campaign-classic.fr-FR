@@ -6,9 +6,9 @@ role: User, Data Engineer
 feature: Fatigue Management, Typology Rules, Campaigns
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3513'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les critères d&#39;arbitrage (poids du message et/ou seuil du nombre de message
 * les préférences des destinataires, qui correspondent à des informations déclaratives : abonnements à des newsletters, statut du destinataire (client ou prospect),
 * les comportements des destinataires : achats, liens visités, etc.
 
-La règle d&#39;arbitrage pour définir les messages éligibles est appliquée lors de l&#39;étape d&#39;analyse. Pour chaque destinataire et pour la période concernée, le message sera envoyé si la formule suivante est vraie : **(nombre de messages envoyés) + (nombre de messages avec un poids supérieur) &lt; seuil**.
+La règle d&#39;arbitrage pour définir les messages éligibles est appliquée lors de l&#39;étape d&#39;analyse. Pour chaque destinataire et pour la période concernée, le message sera envoyé si la formule suivante est vraie : **(nombre de messages envoyés) + (nombre de messages ayant un poids supérieur) &lt; seuil**.
 
 Dans le cas contraire, le destinataire sera **[!UICONTROL Exclu par arbitrage]**. Voir à ce sujet la section [Exclusion par un arbitrage](#exclusion-after-arbitration).
 
@@ -50,7 +50,7 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Pressio
 
    ![](assets/campaign_opt_create_a_rule_02.png)
 
-1. Modifiez l’ordre d’exécution si nécessaire. Lorsque plusieurs règles de typologie sont appliquées en tant que **[!UICONTROL Typologie]** définie, les règles dont l’ordre est le plus bas sont appliquées en premier. Pour plus d&#39;informations, consultez la section [Ordre d&#39;exécution](applying-rules.md#execution-order).
+1. Changez l&#39;ordre d&#39;exécution en cas de besoin. Lorsque plusieurs règles de typologie sont appliquées en tant qu&#39;ensemble de **[!UICONTROL typologies]**, les règles dont l&#39;ordre est le plus bas sont appliquées en premier. Pour plus d&#39;informations, consultez la section [Ordre d&#39;exécution](applying-rules.md#execution-order).
 1. Dans la section **[!UICONTROL Paramètres de calcul]**, définissez une fréquence si vous souhaitez enregistrer le ciblage au-delà de la prochaine exécution de réarbitrage quotidienne. Pour plus d&#39;informations, consultez la section [Ajuster la fréquence des calculs](applying-rules.md#adjusting-calculation-frequency).
 1. Cliquez sur l&#39;onglet **[!UICONTROL Pression]** et sélectionnez la période calendaire dans laquelle s&#39;inscrit la règle de typologie.
 
@@ -81,7 +81,7 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Pressio
 
    Chaque diffusion a un poids, c&#39;est-à-dire une valeur qui correspond à son degré de priorité : il permet d&#39;arbitrer entre les campagnes. Le poids est calculé selon la formule définie dans la règle de typologie et/ou directement dans ses propriétés. Pour plus d&#39;informations, consultez la section [Poids du message](#message-weight).
 
-1. Par défaut, tous les messages sont pris en compte pour le calcul du seuil. La variable **[!UICONTROL Restriction]** vous permet de filtrer les messages concernés par la règle de typologie :
+1. Par défaut, tous les messages sont pris en compte pour le calcul du seuil. L’onglet **[!UICONTROL Restriction]** vous permet de filtrer les messages concernés par la règle de typologie :
 
    * La section supérieure de cet onglet permet de restreindre les destinataires concernés.
    * La section inférieure de cet onglet permet de filtrer les messages à comptabiliser.
@@ -90,7 +90,7 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Pressio
 
    ![](assets/campaign_opt_create_a_rule_05.png)
 
-1. L&#39;onglet **[!UICONTROL Typologies]** permet de consulter les typologies de campagne qui appliquent cette règle de typologie et d&#39;associer cette règle à une ou plusieurs typologies existantes. Voir à ce sujet la section [Appliquer les typologies](about-campaign-typologies.md#applying-typologies).
+1. L&#39;onglet **[!UICONTROL Typologies]** permet de consulter les typologies de campagne qui appliquent cette règle de typologie et d&#39;associer cette règle à une ou plusieurs typologies existantes. Pour plus d&#39;informations, consultez la section [Appliquer les typologies](about-campaign-typologies.md#applying-typologies).
 
 ## Définition des seuils et poids {#defining-thresholds-and-weights}
 
@@ -108,7 +108,7 @@ La valeur de ce seuil peut être constante ou calculée par une formule qui peut
 
 **Exemple:**
 
-Vous pouvez indexer le nombre de messages autorisés en fonction du segment auquel appartient le destinataire. Ainsi, un destinataire appartenant au segment web peut recevoir plus de messages que les autres destinataires. Un **[!UICONTROL Iif (@origin=&#39;Web&#39;, 5, 3)]** la formule de type autorise l&#39;envoi de 5 messages à des destinataires et de 3 messages à des segments différents. Le paramétrage sera le suivant :
+Vous pouvez indexer le nombre de messages autorisés en fonction du segment auquel appartient le destinataire. Ainsi, il se peut qu’un destinataire appartenant au segment web reçoive davantage de messages que les autres destinataires. Une formule de type **[!UICONTROL Iif (@origin=&#39;Web&#39;, 5, 3)]** permet d’autoriser la diffusion de 5 messages à ces destinataires contre seulement 3 messages pour les destinataires des autres segments. Le paramétrage sera donc le suivant :
 
 ![](assets/campaign_opt_pressure_sample.png)
 
@@ -124,14 +124,14 @@ Le poids peut être fixe ou calculé au travers d&#39;une formule afin de l&#39;
 
 >[!CAUTION]
 >
->Le poids défini dans une règle de typologie peut être surchargé unitairement au niveau de chaque diffusion, au niveau du **[!UICONTROL Propriétés]** . Cliquez sur le bouton **[!UICONTROL Typologie]** pour sélectionner la typologie de campagne et, au besoin, indiquer le poids à appliquer.\
+>Le poids défini dans une règle de typologie peut être surchargé unitairement pour chaque diffusion, au niveau des **[!UICONTROL Propriétés]** de la diffusion. Cliquez sur l&#39;onglet **[!UICONTROL Typologie]** pour sélectionner la typologie de campagne et indiquez au besoin le poids à appliquer.\
 >Par contre, un poids déclaré dans une règle de typologie A sera ignoré dans les calculs d&#39;une règle de typologie B : ce poids ne concerne que les diffusions utilisant la règle A.
 
 **Exemple:**
 
 Dans l&#39;exemple suivant, nous allons faire dépendre le poids des newsletters consacrées à la musique du niveau d&#39;appétence des destinataires pour ce sujet. Pour cela :
 
-1. Créez un champ pour stocker les scores de propension des destinataires. Le champ, **@Music** dans ce cas, sera enrichi des réponses aux enquêtes et questionnaires en ligne, des données de tracking collectées, etc.
+1. Créez un nouveau champ afin de stocker les scores de propension des destinataires. Ce champ, ici, **@Music** pourra être alimenté par des réponses aux enquêtes et questionnaires en ligne, les données de tracking collectées, etc.
 1. Créez une règle de typologie afin de calculer le poids des messages en fonction de ce champ.
 
    ![](assets/campaign_opt_pressure_weight_sample.png)
@@ -201,7 +201,7 @@ L&#39;arbitrage est ré-appliqué chaque nuit via le workflow technique **[!UICO
 
 Le workflow **[!UICONTROL Prévisionnel]** pré-calcule les données sur la période écoulée (depuis la date de début de la période jusqu&#39;à maintenant) qui permettent à l&#39;analyse d&#39;appliquer les règles de typologie. Il re-calcule aussi chaque nuit les compteurs d&#39;exclusion pour les arbitrages.
 
-Ainsi, pour chaque destinataire, Adobe Campaign vérifie que le nombre de messages à envoyer ne dépasse pas le seuil, en prenant en compte le nombre de messages déjà envoyés pour la période concernée. Cette information est une **indicateur**, car tous les calculs sont mis à jour au moment de l’envoi.
+Ainsi, pour chaque destinataire, Adobe Campaign vérifie que le nombre de messages à envoyer ne dépasse pas le seuil, en prenant en compte le nombre de messages déjà envoyés pour la période concernée. Ces informations ne sont que des **indicateurs** car tous les calculs sont mis à jour au moment de l&#39;envoi.
 
 Si ce nombre est supérieur au seuil, les règles d&#39;arbitrage définies dans la typologie de campagne sont appliquées et les destinataires seront exclus par arbitrage des campagnes d&#39;un poids inférieur.
 
@@ -222,7 +222,7 @@ Pour identifier les clients et les prospects, nous allons utiliser le champ **[!
 Les étapes de création de cette règle sont les suivantes :
 
 1. Créez une nouvelle règle de typologie de type **Pression**.
-1. Modifiez la variable **[!UICONTROL Pression]** dans l’onglet **[!UICONTROL Nombre maximum de messages]** , nous allons créer une formule de calcul du seuil qui dépendra de chaque destinataire. Sélectionnez la variable **[!UICONTROL Dépend du destinataire]** dans la variable **[!UICONTROL Type de seuil]** , puis cliquez sur **[!UICONTROL Expression d’édition]** à droite du **[!UICONTROL Formule]** champ .
+1. Editez l&#39;onglet **[!UICONTROL Pression]** : dans la section **[!UICONTROL Nombre maximum de messages]**, nous allons créer une formule de calcul du seuil qui dépendra de chaque destinataire. Sélectionnez la valeur **[!UICONTROL Dépend du destinataire]** dans le champ **[!UICONTROL Type de seuil]** puis cliquez sur l&#39;icône **[!UICONTROL Editer l&#39;expression]** située à droite du champ **[!UICONTROL Formule]**.
 
    Cliquez sur le bouton **[!UICONTROL Sélection avancée]** pour définir la formule de calcul.
 
@@ -289,16 +289,16 @@ Vous pouvez définir des règles de pression selon le comportement des destinata
 
 Dans l&#39;exemple suivant, nous allons créer une diffusion avec un poids de 5. A ce poids, seront ajoutées des valeurs d&#39;appétence selon le comportement des destinataires : ainsi, un client ayant déjà passé commande sur le site aura une valeur d&#39;appétence de 5, tandis qu&#39;un client n&#39;ayant jamais commandé en ligne aura une valeur d&#39;appétence de 4.
 
-Pour effectuer ce type de paramétrage, vous devez utiliser une formule pour définir le poids du message. Les informations sur les scores de propension et les réponses aux enquêtes doivent être accessibles dans le modèle de données. Dans notre exemple, la variable **Propension** a été ajouté.
+Pour effectuer ce type de configuration, vous devez utiliser une formule afin de définir le poids des messages. Les informations relatives aux scores de propension et les réponses fournies aux questionnaires doivent être accessibles dans le modèle de données. Dans notre exemple, le champs **Appétence** a été ajouté.
 
 Les étapes de paramétrage sont les suivantes :
 
 1. Créez une nouvelle règle de typologie de type **Pression**.
-1. Modifiez la variable **[!UICONTROL Pression]** . Nous allons créer une formule de seuil qui sera basée sur chaque destinataire : cliquez sur le bouton **[!UICONTROL Expression d’édition]** à droite de l’icône **[!UICONTROL Formule de poids]** champ .
+1. Editez l&#39;onglet **[!UICONTROL Pression]**. Nous allons créer une formule de calcul du seuil qui dépendra de chaque destinataire : cliquez sur l&#39;icône **[!UICONTROL Editer l&#39;expression]** située à droite du champ **[!UICONTROL Formule de poids]**.
 
    ![](assets/campaign_opt_pressure_sample_2_1.png)
 
-1. Par défaut, valeur **5** s’affiche dans la section supérieure de l’éditeur d’expression. Nous allons ajouter à ce poids le score de propension de chaque destinataire : positionnez votre curseur à droite du chiffre 5, saisissez la valeur **+** et sélectionnez la variable **Propension** champ .
+1. Par défaut, la valeur **5** est renseignée dans la section supérieure de l&#39;éditeur d&#39;expression. Nous allons ajouter à ce poids la valeur d&#39;appétence de chaque destinataire : positionnez le pointeur à droite du chiffre 5, saisissez le caractère **+** au clavier et sélectionnez le champ **Appétence**.
 
    ![](assets/campaign_opt_pressure_sample_2_2.png)
 
@@ -337,8 +337,8 @@ Tout d&#39;abord, configurez la règle de pression.
 Créez et configurez maintenant un workflow pour chaque diffusion à laquelle la règle de pression doit être appliquée.
 
 1. Créez une campagne. Pour plus d’informations, consultez [cette section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
-1. Dans le **[!UICONTROL Ciblage et workflows]** de votre campagne, ajoutez un **Requête** à votre workflow. L&#39;utilisation de cette activité est présentée dans la section [cette section](../../workflow/using/query.md).
-1. Ajoutez un **[!UICONTROL Diffusion Email]** dans le workflow et ouvrez-le. L&#39;utilisation de cette activité est présentée dans la section [cette section](../../workflow/using/delivery.md).
+1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/query.md).
+1. Ajoutez une activité **[!UICONTROL Diffusion e-mail]** au workflow et ouvrez-la. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/delivery.md).
 1. Accédez à l&#39;onglet **[!UICONTROL Validations]** des **[!UICONTROL Propriétés de la diffusion]** et désactivez toutes les validations.
 
    ![](assets/campaign_opt_pressure_example_2.png)
@@ -347,7 +347,7 @@ Créez et configurez maintenant un workflow pour chaque diffusion à laquelle la
 
    ![](assets/campaign_opt_pressure_example_3.png)
 
-1. Dans la diffusion, cliquez sur **[!UICONTROL Planification]** et sélectionnez **[!UICONTROL Planifier la diffusion (exécution automatique à la date planifiée)]**. Dans cet exemple, sélectionnez la variable **[!UICONTROL Utiliser une formule de calcul]** .
+1. Dans la diffusion, cliquez sur **[!UICONTROL Planification]** et sélectionnez **[!UICONTROL Planifier la diffusion (exécution automatique à la date prévue)]**. Dans cet exemple, sélectionnez l&#39;option **[!UICONTROL Utiliser une formule de calcul]**.
 1. Définissez la date d&#39;extraction sur 10 minutes (date actuelle + 10 minutes).
 1. Définissez la date de contact sur le jour suivant (date actuelle + 1 jour).
 

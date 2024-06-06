@@ -2,13 +2,13 @@
 product: campaign
 title: Définir la disposition des formulaires web
 description: Définir la disposition des formulaires web
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Forms
 exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
 
 La mise en page du formulaire web est définie page par page, pour chaque conteneur et peut être surchargée si nécessaire.
 
-Les pages sont organisées en colonnes : chaque page contient un certain nombre de colonnes. Chaque champ de la page occupe **n** cellules. Les conteneurs s&#39;étendent eux aussi sur un certain nombre de colonnes et les champs qu&#39;ils contiennent s&#39;étendent sur un certain nombre de cellules.
+Les pages sont organisées en colonnes : chaque page contient un certain nombre de colonnes. Chaque champ de la page occupe **n** cellules. Les conteneurs s’étendent eux aussi sur un certain nombre de colonnes et les champs qu’ils contiennent s’étendent sur un certain nombre de cellules.
 
 Par défaut, les pages sont construites sur une seule colonne et chaque élément occupe une cellule. Ainsi, les zones sont affichées les unes en dessous des autres, chacune occupant toute la ligne, comme ci-dessous :
 
@@ -68,7 +68,7 @@ Vous pouvez modifier la mise en page au niveau de chaque conteneur. Dans notre e
 
 ![](assets/s_ncs_admin_survey_container_ex2_rend.png)
 
-Le titre et la liste occupent une cellule chacun (et donc une ligne entière du conteneur) et la case à cocher s’étend sur deux cellules. Le nombre de cellules attribuées au champ de saisie est défini dans la variable **[!UICONTROL Général]** ou le **[!UICONTROL Avancé]** , en fonction du type de champ :
+Le titre et la liste occupent une cellule chacun (et donc une ligne entière du conteneur) et la case à cocher s’étend sur deux cellules. Le nombre de cellules attribuées au champ de saisie est défini dans l’onglet **[!UICONTROL Général]** ou l’onglet **[!UICONTROL Avancé]** , en fonction du type de champ :
 
 ![](assets/s_ncs_admin_survey_container_ex2.png)
 
@@ -78,7 +78,7 @@ Vous pouvez définir l&#39;alignement des champs et des libellés du formulaire.
 
 Par défaut, les paramètres d&#39;affichage des champs et autres contenus de la page sont hérités du paramétrage général du formulaire, le paramétrage de la page ou celui du conteneur parent, s&#39;il existe.
 
-Les paramètres d’affichage globaux pour l’ensemble du formulaire sont indiqués dans la zone des propriétés du formulaire. La variable **[!UICONTROL Rendu]** vous permet de sélectionner la position des libellés.
+Les paramètres d&#39;affichage globaux pour tout le formulaire sont indiqués dans la boîte de propriétés du formulaire. L&#39;onglet **[!UICONTROL Rendu]** permet de sélectionner la position des libellés.
 
 ![](assets/s_ncs_admin_survey_label_position.png)
 

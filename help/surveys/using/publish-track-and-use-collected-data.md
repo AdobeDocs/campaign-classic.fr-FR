@@ -2,13 +2,13 @@
 product: campaign
 title: Publier, suivre et utiliser les données collectées
 description: Découvrez comment publier, suivre et utiliser les données collectées dans un questionnaire
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ L&#39;origine est une information indiquée dans l&#39;URL du questionnaire en y
 ?origin=xxx
 ```
 
-pendant la modification de l&#39;enquête, son URL contient le paramètre . **[!UICONTROL __uuid]**, qui indique qu’il est en phase de test et qu’il n’est pas encore en ligne. Lorsque vous accédez au questionnaire via cette URL, les enregistrements créés ne sont pas pris en compte dans le tracking (rapports). L’origine est forcée à la valeur **[!UICONTROL Adobe Campaign]**.
+tant que le questionnaire est en édition, son URL contient le paramètre **[!UICONTROL __uuid]**, qui indique qu&#39;il est en phase de test et qu’il n’est pas encore en ligne. Lorsque vous accédez au questionnaire via cette URL, les enregistrements créés ne sont pas pris en compte dans le tracking (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
 
 Pour plus d&#39;informations sur les paramètres d&#39;URL, consultez [cette page](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
@@ -72,7 +72,7 @@ Deux autres rapports sur les questionnaires Web sont également disponibles par 
 
 * Répartition des réponses
 
-  Ce rapport présente la répartition des réponses pour chaque question. Cette répartition n&#39;est disponible que pour les réponses fournies aux champs stockés dans **[!UICONTROL Question]** saisissez des conteneurs. Elle n’est valide que pour les contrôles de sélection (pas de ventilation sur les champs de texte, par exemple).
+  Ce rapport permet de consulter la répartition des réponses pour chaque question. Cette répartition n&#39;est disponible que pour les réponses fournies à des champs stockés dans des conteneurs de type **[!UICONTROL Question]**. Elle n&#39;est valable que pour les contrôles de sélection (pas de répartition sur les champs de type texte, par exemple).
 
   ![](assets/s_ncs_admin_survey_report_2.png)
 
@@ -88,7 +88,7 @@ Les réponses à un questionnaire peuvent être exportées dans un fichier exter
 
 1. Exporter les réponses
 
-   Pour exporter des réponses, cliquez sur le bouton **[!UICONTROL Réponses]** de l&#39;enquête et cliquez avec le bouton droit de la souris. Sélectionner **[!UICONTROL Exporter...]**.
+   Pour exporter les réponses, cliquez sur l&#39;onglet **[!UICONTROL Réponses]** du questionnaire et cliquez avec le bouton droit de la souris. Choisissez **[!UICONTROL Exporter...]**.
 
    ![](assets/s_ncs_admin_survey_logs_export_menu.png)
 
@@ -102,7 +102,7 @@ Les réponses à un questionnaire peuvent être exportées dans un fichier exter
    * appliquer un formatage sur les données exportées,
    * sélectionner le format d&#39;encodage des informations dans le fichier.
 
-   Si l&#39;enquête que vous souhaitez exporter contient plusieurs **[!UICONTROL Texte multi-lignes]** ou **[!UICONTROL Texte du HTML]** champ, il doit être exporté dans **[!UICONTROL XML]** format. Pour cela, sélectionnez ce format dans la liste déroulante du **[!UICONTROL Format de sortie]** , comme illustré ci-dessous :
+   Si le questionnaire que vous souhaitez exporter contient plusieurs champs **[!UICONTROL Texte multi-lignes]** ou **[!UICONTROL Texte HTML]**, il doit être exporté au format **[!UICONTROL XML]**. Pour ce faire, sélectionnez ce format dans la liste déroulante du champ **[!UICONTROL Format de sortie]**, comme illustré ci-dessous :
 
    ![](assets/s_ncs_admin_survey_logs_export_xml.png)
 
@@ -114,7 +114,7 @@ Les réponses à un questionnaire peuvent être exportées dans un fichier exter
 
 ## Utiliser les données collectées {#using-the-collected-data}
 
-Les informations collectées au travers des questionnaires en ligne peuvent être récupérées dans le cadre d&#39;un workflow de ciblage. Pour ce faire, utilisez la méthode **[!UICONTROL Réponses à un questionnaire]** de la boîte.
+Les informations collectées au travers des questionnaires en ligne peuvent être récupérées dans le cadre d&#39;un workflow de ciblage. Pour cela, utilisez la boîte **[!UICONTROL Réponses à un questionnaire]**.
 
 Dans l&#39;exemple suivant, nous allons proposer une offre Web spécifique aux cinq destinataires parents d&#39;au moins deux enfants et ayant réalisé le meilleur score à un questionnaire en ligne. Les réponses à ce questionnaire sont les suivantes :
 
@@ -150,7 +150,7 @@ Editez la boîte de partage pour la paramétrer :
 
   ![](assets/s_ncs_admin_survey_responses_wf_box_7.png)
 
-* Sélectionnez la variable **[!UICONTROL Conserver les premiers suite à un tri]** et sélectionnez la colonne de tri. Vérifiez les **[!UICONTROL Tri descendant]** .
+* Sélectionnez l&#39;option **[!UICONTROL Conserver les premiers suite à un tri]** et indiquez la colonne de tri. Cochez l&#39;option **[!UICONTROL Tri descendant]**.
 
   ![](assets/s_ncs_admin_survey_responses_wf_box_8.png)
 

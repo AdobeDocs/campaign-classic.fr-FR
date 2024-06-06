@@ -2,13 +2,13 @@
 product: campaign
 title: Prise en main des formulaires web
 description: Prise en main des formulaires web dans Campaign
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Landing Pages, Web Forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -77,8 +77,8 @@ La définition du contenu et de la mise en page des écrans du formulaire sont p
 
 >[!NOTE]
 >
->* Lors de la conception de la page, vous pouvez afficher le rendu final dans la **[!UICONTROL Aperçu]** . Pour afficher les modifications, enregistrez d’abord le formulaire. Toutes les erreurs s’affichent dans la variable **[!UICONTROL Journal]** .
->* Pour vous assurer que l&#39;affichage des pages et le stockage des informations se produisent dans l&#39;ordre approprié, activez le mode debug dans le formulaire Web. Pour ce faire, accédez à la **[!UICONTROL Aperçu]** et cochez la case **[!UICONTROL Activation du mode de débogage]** box : toutes les informations collectées et les erreurs d&#39;exécution possibles seront affichées en bas de chaque page.
+>* Au cours de la conception des pages, vous pouvez visualiser le rendu final dans l&#39;onglet **[!UICONTROL Aperçu]**. Pour visualiser les modifications, vous devez d’abord enregistrer le formulaire. Les erreurs éventuelles sont affichées dans l&#39;onglet **[!UICONTROL Journal]**.
+>* Vous pouvez contrôler le bon enchaînement des pages et le stockage des informations en activant le mode debug au niveau du formulaire Web. Pour cela, à partir du sous-onglet **[!UICONTROL Aperçu]**, cochez l&#39;option **[!UICONTROL Activer le mode debug]** : les informations collectées et les éventuelles erreurs d&#39;exécution seront alors affichées en bas de chaque page.
 >
 
 ### Utiliser les icônes de la barre d&#39;outils {#using-the-icons-in-the-toolbar}

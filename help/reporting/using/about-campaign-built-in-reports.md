@@ -3,12 +3,12 @@ product: campaign
 title: À propos des rapports natifs de Campaign
 description: À propos des rapports natifs de Campaign
 feature: Reporting, Monitoring
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les types de rapports disponibles sont les suivants :
 * Rapports de diffusion, voir la section [Rapports de diffusion](../../reporting/using/delivery-reports.md).
 * Rapports cumulés, voir la section [Rapports cumulés](../../reporting/using/cumulative-reports.md).
 
-Vous pouvez accéder aux rapports depuis la page d&#39;accueil de la console cliente, le tableau de bord des rapports ou la liste des diffusions. Le mode d&#39;affichage d&#39;un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d&#39;accueil et permet d&#39;accéder rapidement aux données de diffusion. Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
+Vous pouvez accéder aux rapports depuis la page d’accueil de la console cliente, le tableau de bord des rapports ou la liste des diffusions. Le mode d’affichage d’un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d’accueil et permet d’accéder rapidement aux données des diffusions. Cette liste peut être modifiée selon vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
 Pour accéder aux rapports natifs de Campaign :
 

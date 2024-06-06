@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Interaction fonctionne avec deux types d&#39;environnements d&#39;offres :
 
 ![](assets/offer_environments_overview_001.png)
 
-Chaque **[!UICONTROL Conception]** est lié à un **[!UICONTROL En direct]** environnement. Lorsqu&#39;une offre est terminée, son contenu et ses règles d&#39;éligibilité sont soumis à un cycle de validation. Une fois ce cycle terminé, l&#39;offre concernée est automatiquement déployée sur la **[!UICONTROL En direct]** environnement. À partir de ce moment, il sera disponible pour diffusion.
+Chaque environnement **[!UICONTROL En édition]** est lié à un environnement **[!UICONTROL En ligne]**. Lorsqu&#39;une offre est terminée, son contenu et ses règles d&#39;éligibilité sont soumis à un cycle d’approbation. Lorsque le cycle de validation est complet, l’offre concernée est automatiquement déployée dans l’environnement **[!UICONTROL En ligne]**. Dès lors, elle est disponible pour être diffusée.
 
 Par défaut, Interaction comprend un environnement **[!UICONTROL En édition]** et un environnement **[!UICONTROL En ligne]** qui lui est associé. Les deux environnements sont préconfigurés pour cibler le tableau des destinataires intégrée.
 
@@ -37,13 +37,13 @@ Par défaut, Interaction comprend un environnement **[!UICONTROL En édition]** 
 
 ![](assets/offer_environments_overview_002.png)
 
-Le chargé d&#39;offres et le chargé de diffusion ont accès à différentes vues de l&#39;environnement. Les responsables de diffusion peuvent uniquement afficher la variable **[!UICONTROL En direct]** l&#39;environnement des offres et utiliser les offres pour les diffuser. Le chargé d’offres peut afficher et modifier la variable **[!UICONTROL Conception]** et affichez le **[!UICONTROL En direct]** environnement. Voir à ce sujet la section [Profils d’opérateurs](../../interaction/using/operator-profiles.md).
+Le chargé d&#39;offres et le chargé de diffusion accèdent différemment aux environnements. Le chargé de diffusion ne peut visualiser que l&#39;environnement d&#39;offres **[!UICONTROL En ligne]** et utiliser les offres pour les diffuser. Le chargé d&#39;offres peut visualiser et modifier l&#39;environnement **[!UICONTROL En édition]** et consulter l’environnement **[!UICONTROL En ligne]**. Voir à ce sujet la section [Profils d’opérateurs](../../interaction/using/operator-profiles.md).
 
 ## Créer un environnement d&#39;offres {#creating-an-offer-environment}
 
 Par défaut, Interaction est livré avec un environnement pré-paramétré pour cibler la table des destinataires (offres identifiées). Si vous souhaitez cibler une autre table (table des visiteurs pour les offres anonymes ou table de destinataires spécifique), vous devez effectuer le paramétrage suivant :
 
-1. Placez votre curseur sur la page **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Mappings de diffusion]** noeud . Cliquez avec le bouton droit sur le mapping de diffusion que vous souhaitez utiliser (**[!UICONTROL Visiteurs]** si vous souhaitez utiliser des offres anonymes) et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Modifier les options de la dimension de ciblage]**.
+1. Positionnez-vous sur le noeud **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Mappings de ciblage]**. Cliquez avec le bouton droit sur le mapping de ciblage que vous souhaitez utiliser (**[!UICONTROL Visiteurs]** si vous souhaitez utiliser les offres anonymes) et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Modifier les options de la dimension de ciblage]**.
 
    ![](assets/offer_env_anonymous_001.png)
 

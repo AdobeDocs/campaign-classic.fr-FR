@@ -5,7 +5,7 @@ description: À propos des canaux sortants
 feature: Interaction, Offers
 exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
 ht-degree: 100%
 

@@ -5,9 +5,9 @@ description: Surveiller l’exécution des workflows
 feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -232,7 +232,7 @@ Cette section présente un cas d’utilisation : [Coordonner les mises à jour 
 
 ## Maintenance de la base de données {#database-maintenance}
 
-Les workflows utilisent de nombreuses tables de travail qui occupent de l&#39;espace et finissent par ralentir l&#39;ensemble de la plateforme si elles ne sont pas gérées. Pour plus d&#39;informations sur la maintenance de la base de données, reportez-vous à cette section [section](../../production/using/tables-to-maintain.md) .
+Les workflows utilisent beaucoup de tables de travail qui occupent de l&#39;espace et finissent par ralentir l&#39;ensemble de la plateforme s&#39;ils ne sont pas maintenus. Pour plus d&#39;informations sur la maintenance des bases de données, voir cette [section](../../production/using/tables-to-maintain.md).
 
 Le workflow **Nettoyage de la base** (cleanup), accessible à partir du nœud **Administration > Exploitation > Workflows techniques** permet de supprimer les données obsolètes afin d&#39;éviter une croissance exponentielle de la base. Le workflow se déclenche de manière automatique sans intervention de l&#39;utilisateur. Voir [Guide de production de Campaign Classic v7](../../production/using/database-cleanup-workflow.md).
 

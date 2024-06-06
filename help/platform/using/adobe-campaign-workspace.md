@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Les différentes fonctionnalités de la plateforme sont réparties dans les fonc
 
 La liste des fonctions principales auxquelles vous pouvez accéder dépend des packages et des composants additionnels installés, ainsi que de vos droits d&#39;accès.
 
-Chaque fonctionnalité comprend un ensemble de fonctionnalités basées sur les besoins relatifs aux tâches et le contexte d’utilisation. Par exemple, la variable **[!UICONTROL Profils et cibles]** lien permet d&#39;accéder aux listes de destinataires, services d&#39;abonnement, workflows de ciblage existants et raccourcis pour créer ces éléments.
+Chaque fonction propose un ensemble de fonctionnalités, organisé selon les besoins métiers relatifs au contexte d&#39;utilisation. Ainsi, le lien **[!UICONTROL Profils et cibles]** vous permet d’accéder aux listes de destinataires, aux services d’abonnement, aux workflows de ciblage existants et aux raccourcis pour créer ces éléments.
 
 Ainsi, les listes sont accessibles à partir du lien **[!UICONTROL Listes]** proposé dans la section gauche de l&#39;interface **[!UICONTROL Profils et cibles]**.
 
@@ -87,7 +87,7 @@ Ainsi, les listes sont accessibles à partir du lien **[!UICONTROL Listes]** pro
 
 ### Utilisation des onglets {#using-tabs}
 
-* Lorsque vous cliquez sur une fonctionnalité principale ou un lien, la page correspondante remplace la page active. Pour revenir à la page précédente, cliquez sur le bouton **[!UICONTROL Précédent]** dans la barre d’outils. Pour revenir à la page d’accueil, cliquez sur le bouton **[!UICONTROL Accueil]** bouton .
+* Lorsque vous cliquez sur une fonction principale ou un lien, la page correspondante vient remplacer la page courante. Pour retourner sur la page précédente, utilisez le bouton **[!UICONTROL Retour]** de la barre d&#39;outils. Pour revenir à la page d&#39;accueil, cliquez sur le bouton **[!UICONTROL Accueil]**.
 
   ![](assets/d_ncs_user_interface_back_home_buttons.png)
 
@@ -97,9 +97,9 @@ Ainsi, les listes sont accessibles à partir du lien **[!UICONTROL Listes]** pro
 
 ### Création d’un élément {#creating-an-element}
 
-Chaque section des fonctions principales permet de naviguer parmi les éléments disponibles. Pour ce faire, utilisez les raccourcis de la section **[!UICONTROL Navigation]** . La variable **[!UICONTROL Autres choix]** lien permet d’accéder à toutes les autres pages, indépendamment de l’environnement.
+Dans chaque section des fonctions principales, vous pouvez naviguer parmi les éléments disponibles. Pour cela, utilisez les raccourcis proposés dans la section **[!UICONTROL Navigation]**. Le lien **[!UICONTROL Autres choix]** permet d&#39;accéder à toutes les autres pages, indépendamment de celles de la fonction courante.
 
-Vous pouvez créer un nouvel élément (diffusion, application web, workflow, etc.) à l’aide des raccourcis de la fonction **[!UICONTROL Créer]** dans la partie gauche de l’écran. Utilisez la variable **[!UICONTROL Créer]** au-dessus de la liste pour ajouter de nouveaux éléments à la liste.
+Vous pouvez créer un nouvel élément (diffusion, application web, workflow, etc.) à l’aide des raccourcis de la section **[!UICONTROL Créer]** dans la partie gauche de l’écran. Utilisez le bouton **[!UICONTROL Créer]** situé au-dessus de la liste pour ajouter de nouveaux éléments à la liste.
 
 Par exemple, au niveau de la page des diffusions, utilisez le bouton **[!UICONTROL Créer]** pour créer une nouvelle diffusion.
 
@@ -112,7 +112,7 @@ Par exemple, au niveau de la page des diffusions, utilisez le bouton **[!UICONTR
 
 La langue de votre instance Adobe Campaign Classic a un impact sur les formats de date et d’heure.
 
-La langue est sélectionnée lors de l’installation de Campaign et ne peut plus être modifiée par la suite. Vous pouvez sélectionner : anglais (US), anglais (FR), français, allemand ou japonais. Pour plus d’informations, consultez [cette page](../../installation/using/creating-an-instance-and-logging-on.md).
+La langue est sélectionnée lors de l’installation de Campaign et ne peut plus être modifiée par la suite. Vous pouvez sélectionner : Anglais (US), Anglais (UK), Français, Allemand ou Japonais. Pour plus d’informations, consultez [cette page](../../installation/using/creating-an-instance-and-logging-on.md).
 
 Les principales différences entre l&#39;anglais américain et l&#39;anglais britannique sont les suivantes :
 
@@ -145,7 +145,7 @@ Les principales différences entre l&#39;anglais américain et l&#39;anglais bri
 
 ### Ajouter des valeurs dans une énumération {#add-values-in-an-enumeration}
 
-A l&#39;aide des champs de saisie avec une liste déroulante, vous pouvez saisir une valeur d&#39;énumération qui peut être stockée et proposée en tant qu&#39;option dans la liste déroulante. Par exemple, dans la variable **[!UICONTROL Ville]** du champ **[!UICONTROL Général]** d&#39;un profil de destinataire, vous pouvez entrer à Londres. Lorsque vous appuyez sur Entrée pour confirmer cette valeur, un message vous demande si vous souhaitez enregistrer cette valeur pour l’énumération associée au champ.
+Lorsque vous utilisez des champs de saisie avec une liste déroulante, vous pouvez saisir une valeur d’énumération qui peut être stockée et proposée comme option dans la liste déroulante. Par exemple, dans le champ **[!UICONTROL Ville]** de l’onglet **[!UICONTROL Général]** d’un profil de destinataire, vous pouvez saisir Londres. Lorsque vous appuyez sur Entrée pour confirmer cette valeur, un message vous demande si vous souhaitez l’enregistrer pour l’énumération associée au champ.
 
 ![](assets/s_ncs_user_wizard_email_bat_substitute_email.png)
 

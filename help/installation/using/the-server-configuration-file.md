@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8068'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -171,25 +171,25 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
   </tr> 
   <tr> 
    <td> formCacheTimeToLive<br /> </td> 
-   <td> Délai d’expiration du cache de formulaire : délai en secondes au-delà duquel une entrée de cache est invalidée. O signifie que les entrées du cache ne sont actualisées qu’au moment de la publication.<br /> </td> 
+   <td> Délai de validité du cache des formes : délai en secondes au-delà duquel une entrée du cache est invalidée. 0 indique que les entrées du cache sont rafraîchies uniquement lors des publications.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> hosts<br /> </td> 
-   <td> Masques DNS : liste des masques DNS utilisés par cette instance (séparés par des virgules, peut utiliser les caractères * et ? modèles).<br /> </td> 
+   <td> Masques DNS : liste de masques DNS associés à cette instance (séparés par des virgules, peuvent utiliser les modèles * et ? ).<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '*'<br /> </td> 
   </tr> 
   <tr> 
    <td> interactionCacheTimeToLive<br /> </td> 
-   <td> Délai d’expiration du cache JSSP d’interaction : délai en secondes au-delà duquel une entrée de cache est invalidée. Une valeur négative signifie que le cache est toujours invalidé. Les valeurs "0", vides ou non valides sont considérées comme 60.<br /> </td> 
+   <td> Délai de validité du cache JSSP des interactions : délai en secondes au-delà duquel une entrée du cache est invalidée. Une valeur négative a pour effet l’invalidation systématique du cache. Les valeurs '0', vide, non valides ou absentes sont remplacées par la valeur '60'.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> lang<br /> </td> 
-   <td> Langue de l'instance (énumération). Les valeurs possibles sont 'fr_FR' (Français), 'en_GB' (Anglais (UK)), 'en_US' (Anglais (US)), 'de_DE' (Deutsch) et 'ja_JP' (Japonais).<br /> </td> 
+   <td> Langue de l’instance (énumération). Les valeurs possibles sont 'fr_FR' (Français), 'en_GB' (Anglais (UK)), 'en_US' (Anglais (US)), 'de_DE' (Deutsch) et 'ja_JP' (Japonais).<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> 'en_US'<br /> </td> 
   </tr> 
@@ -231,7 +231,7 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
   </tr> 
   <tr> 
    <td> viewCacheTimeToLive<br /> </td> 
-   <td> Délai de validité du cache des vues : délai en secondes au-delà duquel une entrée du cache est invalidée. Une valeur négative signifie que le cache est toujours invalidé. Les valeurs "0", vides ou non valides sont considérées comme 60.<br /> </td> 
+   <td> Délai de validité du cache des vues : délai en secondes au-delà duquel une entrée du cache est invalidée. Une valeur négative a pour effet l’invalidation systématique du cache. Les valeurs '0', vide, non valides ou absentes sont remplacées par la valeur '60'.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -239,7 +239,7 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
    <td> workingDirectory<br /> </td> 
    <td> Chemin du répertoire de travail.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td> workingDirectory : chemin du répertoire de travail. Valeur par défaut : '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/workspace/'<br /> </td> 
+   <td> workingDirectory : Xpath du répertoire de travail. Par défaut : '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/workspace/'<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -259,12 +259,12 @@ Voici les différents paramètres du nœud **dataStore > proxyAdjust**. Les URL
  <tbody> 
   <tr> 
    <td> urlBase<br /> </td> 
-   <td> Base à utiliser lors de la génération d’URL externes. Ex : https://server.domain.com<br /> </td> 
+   <td> Base à utiliser lors de la génération d’URL externes. Par exemple : https://server.domain.com<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
-   <td> Expression régulière pour correspondre aux URL. Ex : http://server\.lan\.net.*<br /> </td> 
+   <td> Expression régulière pour la correspondance des URL. Exexemple : http://server\.lan\.net.*<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
  </tbody> 
@@ -410,12 +410,12 @@ Dans le nœud **dataStore > dataSource > pool**, configurez les paramètres du
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
-   <td> Nombre maximum de connexions autorisées avant de refuser une nouvelle connexion. Voir <a href="https://helpx.adobe.com/fr/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">technote</a>.<br /> </td> 
+   <td> Nombre maximum de connexions autorisées avant de refuser de se connecter. Voir cette <a href="https://helpx.adobe.com/fr/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">note technique</a>.<br /> </td> 
    <td> Court<br /> </td> 
   </tr> 
   <tr> 
    <td> maxIdleDelaySec<br /> </td> 
-   <td> Durée maximale d’inactivité de la connexion. 0 signifie valeur par défaut.<br /> </td> 
+   <td> Délai avant clôture automatique d’une connexion non utilisée. 0 signifie prendre la valeur par défaut.<br /> </td> 
    <td> Court<br /> </td> 
   </tr> 
  </tbody> 
@@ -513,13 +513,13 @@ Pour plus d’informations, consultez cette [section](../../installation/using/c
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td> Domain name : default domain name. Utilisé par la commande SMTP HELO. Par défaut, utilise les paramètres réseau de la première interface réseau déclarée sous Windows ; ou analyse le fichier file/etc/resolv.conf sous Linux (entrée domain ou search). <br /> </td> 
+   <td> Nom de domaine : nom de domaine par défaut. Utilisé par la commande SMTP HELO. Par défaut, utilise les paramètres réseau de la première interface réseau déclarée sous Windows ou analyse le fichier /etc/resolv.conf sous Linux (entrée domain ou search). <br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> nameServers<br /> </td> 
-   <td> Serveur DNS : liste séparée par des virgules des serveurs de noms de domaine (DNS). Voir la note ci-dessous.<br /> </td> 
+   <td> Serveur DNS : liste séparée par des virgules des serveurs de noms de domaines (DNS). Voir la note ci-dessous.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -608,13 +608,13 @@ Voici les différents paramètres du nœud **htmlToPdf**. Il s’agit de la conf
   </tr> 
   <tr> 
    <td> mode<br /> </td> 
-   <td> Outil à utiliser pour la conversion. Les valeurs possibles sont : phantomjs, wkhtmltopdf, other, disabled<br /> </td> 
+   <td> Outil à utiliser pour la conversion. Les valeurs possibles sont : phantomjs, wkhtmltopdf, other, disabled<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> 'phantomjs' <br /> </td> 
   </tr> 
   <tr> 
    <td> timeout<br /> </td> 
-   <td> Timeout pour une conversion : durée maximale de conversion en secondes. Au-delà de ce seuil, le processus de conversion est arrêté et une erreur est générée.<br /> </td> 
+   <td> Timeout pour une conversion : durée maximale d’une conversion en secondes. Au-delà, le processus de conversion est arrêté et une erreur est retournée.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 120<br /> </td> 
   </tr> 
@@ -626,7 +626,7 @@ Voici les différents paramètres du nœud **htmlToPdf**. Il s’agit de la conf
   </tr> 
   <tr> 
    <td> waitTime<br /> </td> 
-   <td> Délai lors de l’attente d’un processus : délai en secondes, lorsque tous les processus sont utilisés en même temps et en attendant la libération d’un processus. Si ce délai est dépassé, la conversion est arrêtée et une erreur est générée. <br /> </td> 
+   <td> Délai d’attente pour obtenir un processus : délai d’attente en secondes lorsque tous les processus sont utilisés simultanément dans l’attente de la libération d’un processus. Si ce délai est dépassé, la conversion est arrêtée et une erreur est générée. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 15<br /> </td> 
   </tr> 
@@ -728,7 +728,7 @@ Pour plus d’informations, consultez la [documentation sur le compte-rendu de p
   </tr> 
   <tr> 
    <td> stackSizeKB<br /> </td> 
-   <td> Taille en kilo-octets de chaque bloc de pile. Il s’agit d’un paramètre d’optimisation de la gestion de la mémoire que la plupart des utilisateurs ne doivent pas ajuster. <br /> </td> 
+   <td> Taille, en kilo-octets, de chaque bloc de pile. Il s’agit d’un paramètre d’optimisation de la gestion de la mémoire qui, en principe, ne devrait pas être ajusté par la plupart des utilisateurs. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 8<br /> </td> 
   </tr> 
@@ -983,7 +983,7 @@ Pour plus d&#39;informations, voir la section [Protection des connexions sortant
  <tbody> 
   <tr> 
    <td> action<br /> </td> 
-   <td> Action par défaut si l'URL ne figure pas dans la liste autorisée (énumération). Les valeurs possibles sont 'ignore' (autoriser sans message d’avertissement, cela nécessite la désactivation de la protection), 'warn' (autoriser et émettre un message d’avertissement) et 'deny' (interdire l’accès à l’URL).<br /> </td> 
+   <td> Action par défaut si l’URL n’est pas dans la liste autorisée (énumération). Les valeurs possibles sont 'ignore' (autoriser sans message d’avertissement, cela nécessite la désactivation de la protection), 'warn' (autoriser et émettre un message d’avertissement) et 'deny' (interdire l’accès à l’URL).<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> deny<br /> </td> 
   </tr> 
@@ -1036,7 +1036,7 @@ Pour plus d&#39;informations, voir la section [Protection des connexions sortant
  <tbody> 
   <tr> 
    <td> dnsSuffix<br /> </td> 
-   <td> Nom de domaine, ou domaine parent, concerné par l’URL : tout ou partie du domaine de l’URL à vérifier, afin d’accélérer la vérification. L'URL n'est vérifiée par rapport à l'expression régulière que si son domaine contient dsnSuffix.<br /> </td> 
+   <td> Nom de domaine, ou domaine parent, concerné par l’URL : tout ou partie du domaine de l’URL à vérifier afin d’accélérer la vérification. L’URL est uniquement vérifiée par rapport à l’expression régulière si son domaine contient dsnSuffix.<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
@@ -1121,7 +1121,7 @@ Pour plus d&#39;informations, voir la section [Activer l&#39;archivage des email
   </tr> 
   <tr> 
    <td> archivingType<br /> </td> 
-   <td> Stratégie d'archivage des messages envoyés (énumération). Les valeurs possibles sont '0' (pas d'archivage) et '1' (transfère l'archivage des messages envoyés vers un serveur SMTP).<br /> </td> 
+   <td> Stratégie d’archivage des messages envoyés (énumération). Les valeurs possibles sont '0' (aucun archivage) et '1' (transfert l’archivage des messages envoyés vers un serveur SMTP).<br /> </td> 
    <td> Octet<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1145,7 +1145,7 @@ Pour plus d&#39;informations, voir la section [Activer l&#39;archivage des email
   </tr> 
   <tr> 
    <td> compressionFormat<br /> </td> 
-   <td> Format de compression utilisé lors de l'archivage (énumération). Les valeurs possibles sont '0' (aucune compression) et '1' (compresse les messages envoyés au format zip).<br /> </td> 
+   <td> Format de compression utilisé lors de l’archivage (énumération). Les valeurs possibles sont '0' (aucune compression) et '1' (compresse les messages envoyés au format zip).<br /> </td> 
    <td> Octet<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
@@ -1193,7 +1193,7 @@ Pour plus d&#39;informations, voir la section [Activer l&#39;archivage des email
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Priorité au début. Les modules de priorité basse sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au début. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1276,7 +1276,7 @@ Voici les différents paramètres du nœud **inMail**. Il s’agit de la configu
   </tr> 
   <tr> 
    <td> ignoreSize<br /> </td> 
-   <td> Ignorer la taille du message : permet d’ignorer la taille d’un message renvoyée par les serveurs POP3. Dans ce cas, le module attend un caractère '.' à la fin des messages. <br /> </td> 
+   <td> Ignorer la taille du message : utilisé pour ignorer la taille d’un message renvoyé par les serveurs POP3. Dans ce cas, le module s’attend à ce que le caractère « . » soit présent à la fin des messages. <br />. </td> 
    <td> Booléen<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1354,7 +1354,7 @@ Voici les différents paramètres du nœud **inMail**. Il s’agit de la configu
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Priorité au début. Les modules de priorité basse sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au début. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1462,13 +1462,13 @@ Pour plus d&#39;informations, voir la section [Interaction - Mémoire tampon](..
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Priorité au début. Les modules de priorité basse sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au début. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> statsPeriod<br /> </td> 
-   <td> Durée d’agrégation en secondes pour les statistiques de temps de réponse. 0 signifie que le stockage des statistiques a été désactivé.<br /> </td> 
+   <td> Durée d’agrégation en secondes pour les statistiques des temps de réponse. 0 signifie que le stockage des statistiques est désactivé.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -1515,7 +1515,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> debugPath<br /> </td> 
-   <td> Répertoire de dump : si non vide, copiez les enveloppes MIME des messages envoyés dans ce répertoire. Utilisé pour le diagnostic des problèmes. <br /> </td> 
+   <td> Répertoire de dump : si non vide, copie les enveloppes MIME des e-mails envoyés dans ce répertoire. Utilisé dans le cadre de la résolution des problèmes. <br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1545,13 +1545,13 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> logLevel<br /> </td> 
-   <td> Afficher le niveau des messages du journal. Niveau de gravité des logs écrits dans la base de données. Les messages de logs générés par le MTA ne sont pas toujours écrits en base. Avec ce paramètre, vous pouvez définir le niveau à partir duquel vous considérez qu'un message doit être écrit dans la base de données. Si vous définissez le niveau 2, les messages des niveaux 1 et 0 sont également écrits, alors que si vous définissez le niveau 1, seuls les messages des niveaux 1 et 0 sont écrits. Les valeurs possibles sont : 0 (erreurs), 1 (avertissement), 2 (informations)<br /> </td> 
+   <td> Niveau d’affichage des messages de logs. Niveau de gravité des logs enregistrés dans la base de données. Les messages de logs générés par le MTA ne sont pas tous systématiquement enregistrés dans la base de données. Vous pouvez, avec ce paramètre, définir le niveau à partir duquel vous considérez qu’un message doit être enregistré dans la base de données. Si vous définissez le niveau 2, les messages de niveaux 1 et 0 seront aussi enregistrés alors qu’en définissant le niveau 1, seuls les messages 1 et 0 sont enregistrés. Les valeurs possibles sont : 0 (erreurs), 1 (avertissement), 2 (informations)<br /> </td> 
    <td> Long<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMemoryMb<br /> </td> 
-   <td> Taille maximum en méga-octets de la mémoire qu’un processus mta peut utiliser. Au-delà de cette limite, le processus est relancé afin que la mémoire qu’il utilise soit libérée sur le système.<br /> </td> 
+   <td> Taille maximum en méga-octets de la mémoire qu’un processus mta est autorisé à consommer. Au-delà de cette taille, le processus doit redémarrer afin de libérer la mémoire qu’il utilise.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1024<br /> </td> 
   </tr> 
@@ -1569,7 +1569,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> minConnectionsToLog<br /> </td> 
-   <td> Seuil de connexions à prendre en compte. Les statistiques d’erreur ne sont pas générées pour un chemin donné si le nombre total de connexions pour la période spécifiée par errorPeriodSec est strictement inférieur au seuil.<br /> </td> 
+   <td> Seuil de connexions à prendre en compte. Les statistiques d’erreurs ne seront pas générées pour un chemin donné si le nombre total de connexions depuis la durée spécifiée par errorPeriodSec est strictement inférieur à ce seuil.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
@@ -1581,7 +1581,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> minMessagesToLog<br /> </td> 
-   <td> Seuil de messages à prendre en compte. Les statistiques d’erreur ne sont pas générées pour un chemin donné si le nombre total de messages envoyés pour la période spécifiée par errorPeriodSec est strictement inférieur au seuil.<br /> </td> 
+   <td> Seuil de messages à prendre en compte. Les statistiques d’erreurs ne seront pas générées pour un chemin donné si le nombre total de messages envoyés sur la période spécifiée par errorPeriodSec est strictement inférieur à ce seuil.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
@@ -1612,7 +1612,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Priorité au début. Les modules de priorité basse sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au début. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1760,19 +1760,19 @@ Pour plus d’informations, consultez cette [section](../../installation/using/c
  <tbody> 
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 
-   <td> Fréquence d’interrogation des bases de données des tâches à diffuser. Cette valeur indique la fréquence d’interrogation de la base de données (en secondes). Pour obtenir la liste des traitements en attente de diffusion, le MTA sonde régulièrement la base de données. Lorsqu’aucune tâche n’est en attente, la période d’interrogation est définie par cette valeur. Sinon, si une tâche a été transférée à un serveur fils, cette durée d’interrogation est automatiquement réduite à une seconde afin qu’une nouvelle tâche puisse être traitée dès que possible, c’est-à-dire dès qu’un serveur fils est à nouveau disponible. Cela ne signifie pas que la requête de base de données sera effectuée toutes les secondes jusqu’à ce qu’un serveur enfant soit à nouveau disponible. En fait, un accès à la base de données n’est possible que lorsqu’au moins un serveur enfant est disponible.<br /> </td> 
+   <td> Fréquence de recherche dans la base de données des traitements à diffuser. Cette valeur indique le nombre de secondes entre deux recherches dans la base de données. Pour connaître la liste des traitements en attente de diffusion, le MTA interroge la base de données à intervalles réguliers. Lorsqu’il n’y a aucun traitement en attente, cet intervalle est défini par cette valeur. Autrement, si un traitement a été transféré vers un serveur enfant, cette période est automatiquement ramenée à une seconde, de sorte qu’un nouveau traitement puisse être à nouveau traité le plus rapidement possible, c’est-à-dire dès qu’un serveur enfant est à nouveau disponible. Cela ne signifie pas qu’une requête de base de données sera effectuée toutes les secondes jusqu’à ce qu’un serveur enfant soit à nouveau disponible. En fait, un accès à la base de données n’est possible que lorsqu’au moins un serveur enfant est disponible.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
   <tr> 
    <td> dataBaseRetryDelaySec<br /> </td> 
-   <td> Délai d’attente après un échec de connexion à la base de données. Un échec de connexion à la base de données est généralement dû au serveur de base de données lui-même. Le serveur peut également être arrêté à des fins de maintenance, par exemple. Le paramètre DataBaseRetryDelay définit la durée entre deux tentatives de connexion en cas d’échec de la connexion à la base de données.<br /> </td> 
+   <td> Période d'attente en cas d'échec de connexion à la base de données. Un échec de connexion à la base de données est généralement dû au serveur de base de données proprement dit. Le serveur peut également être arrêté à des fins de maintenance, par exemple. Le paramètre DataBaseRetryDelay définit la période d’attente en secondes en cas d’échec de connexion à la base de données avant de tenter à nouveau une connexion à celle-ci.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> domainKeysReloadPeriodSec<br /> </td> 
-   <td> Délai de validité du cache des clés privées (DomainKeys). Les clés privées utilisées pour signer des emails suite à la recommandation DomainKeys (http://antispam.yahoo.com/domainkeys) sont stockées en tant qu’options dans la base de données. Le paramètre domainKeysReloadPeriodSec définit le nombre de secondes pendant lesquelles le MTA peut conserver ces clés dans un cache. Après ce délai, toutes les clés doivent être rechargées à partir de la base de données.<br /> </td> 
+   <td> Durée de validité du cache des clés privées (DomainKeys). Les clés privées utilisées pour la signature des messages suivant la recommandation DomainKeys (http://antispam.yahoo.com/domainkeys) sont stockées sous la forme d’options dans la base de données. Le paramètre domainKeysReloadPeriodSec définit la période, en secondes, pendant laquelle le MTA est autorisé à conserver ces clés en cache. Au-delà de cette période, toutes les clés doivent être rechargées à partir de la base de données.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -1784,13 +1784,13 @@ Pour plus d’informations, consultez cette [section](../../installation/using/c
   </tr> 
   <tr> 
    <td> minSpareServers<br /> </td> 
-   <td> Nombre minimum de serveurs enfants. Le MTA tente de conserver au moins ce nombre de serveurs en cours d'exécution. S’il y en a moins, il redémarre de nouveaux serveurs toutes les secondes jusqu’à ce que cette valeur soit atteinte.<br /> </td> 
+   <td> Nombre minimum de serveurs enfants. Le MTA tente de conserver au moins ce nombre de serveurs en fonctionnement. S’il en existe moins, les nouveaux seront démarrés au rythme d’un par seconde jusqu’à ce que cette valeur soit atteinte.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> startSpareServers<br /> </td> 
-   <td> Nombre de serveurs enfants au démarrage. Le nombre de serveurs enfants est surveillé dynamiquement ; lorsque le MTA démarre, il crée autant de serveurs enfants que l’indique cette valeur. En règle générale, les serveurs fils ne peuvent pas être démarrés plus rapidement qu’un serveur par seconde pour économiser les ressources de l’hôte. Cependant, lorsque le MTA démarre, cette limitation est annulée afin que les serveurs fils soient disponibles dès que possible.<br /> </td> 
+   <td> Nombre de serveurs enfants au démarrage. Le nombre de serveurs enfants est contrôlé de manière dynamique ; lorsque le MTA démarre, il créé autant de serveurs enfants que le nombre précisé par cette valeur. Normalement, la cadence de démarrage doit être limitée à un serveur enfant par seconde afin de ne pas surcharger le système. Cependant, lors du démarrage du MTA, cette limitation n’est pas respectée, de sorte que les serveurs enfants soient disponibles le plus rapidement possible.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1821,13 +1821,13 @@ Pour plus d&#39;informations, voir la section [Optimisation de l&#39;envoi d&#39
   </tr> 
   <tr> 
    <td> idleChildTimeoutSec<br /> </td> 
-   <td> Délai d’expiration jusqu’à ce que les serveurs enfants inactifs soient arrêtés. Si le temps d’inactivité d’un serveur fils est supérieur à ce paramètre, il se termine automatiquement pour libérer les ressources de l’hôte.<br /> </td> 
+   <td> Timeout de fermeture des serveurs enfants inactifs. Si un serveur fils reste inactif pendant une période de temps supérieure à la valeur définie par ce paramètre, il se termine automatiquement pour libérer les ressources qu’il consomme inutilement.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> maxAgeSec<br /> </td> 
-   <td> Durée maximale de rétention des messages. Si un message préparé n’a pas pu être envoyé en raison du ralentissement ou de l’impossibilité de se connecter au MTA cible, le message est abandonné et sera traité lors de la prochaine reprise.<br /> </td> 
+   <td> Durée maximale de rétention d’un message. Si un message préparé ne peut être envoyé à cause du contrôle de flux ou de l’impossibilité de se connecter au MTA cible, le message préparé est abandonné et sera traité lors de la prochaine reprise.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -1839,7 +1839,7 @@ Pour plus d&#39;informations, voir la section [Optimisation de l&#39;envoi d&#39
   </tr> 
   <tr> 
    <td> maxMsgPerChild<br /> </td> 
-   <td> Nombre maximum de messages par serveur fils. Chaque enfant MTA traite ce nombre de messages et meurt. Il est important de spécifier un nombre tel que les fuites de mémoire ou de ressource dans le MTA sont inoffensives (généralement quelques milliers). Même s'il n'existe aucune fuite de mémoire connue dans le code MTA, les moteurs JavaScript et XSL intégrés ne sont pas entièrement fiables.<br /> </td> 
+   <td> Nombre maximum de messages par serveur fils. Chaque exemplaire enfant du MTA traite le nombre de messages indiqué et meurt. Il est important de spécifier un nombre tel que les fuites de mémoire ou de ressource dans le MTA restent sans conséquences (généralement de l’ordre de quelques milliers). Bien qu’il n’existe pas de fuite connue dans le MTA, il peut s’en produire dans les feuilles de style XSL ou dans les codes JavaScript présents dans les messages.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5000000<br /> </td> 
   </tr> 
@@ -1851,7 +1851,7 @@ Pour plus d&#39;informations, voir la section [Optimisation de l&#39;envoi d&#39
   </tr> 
   <tr> 
    <td> maxWorkingSetMb<br /> </td> 
-   <td> Taille maximum en méga-octets de la mémoire qu’un processus enfant peut utiliser. Au-delà de cette limite, le processus est arrêté afin que la mémoire qu’il utilise soit libérée sur le système. <br /> </td> 
+   <td> Taille maximum en méga-octets de la mémoire qu’un serveur enfant est autorisé à consommer. Au-delà de cette limite, le processus est arrêté afin que la mémoire utilisée soit libérée sur le système. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 128<br /> </td> 
   </tr> 
@@ -1896,19 +1896,20 @@ Dans le nœud **mta > child > smtp**, configurez les paramètres suivants. Il 
   </tr> 
   <tr> 
    <td> idleSessionTimeoutSec<br /> </td> 
-   <td> Délai de session inactif. Ce paramètre n’est utilisé que si la session est réutilisée pour transmettre plusieurs messages à un domaine donné. Une fois que le MTA a terminé la transmission du message, la session SMTP qu'il a utilisée n'est pas systématiquement fermée. Si un message est prêt à être envoyé pour ce même domaine, la même session SMTP sera réutilisée et c’est pourquoi la session n’est pas fermée automatiquement. Le paramètre IdleSessionTimeout permet de définir la durée pendant laquelle une session SMTP peut rester active en attendant un autre message. Une fois la durée écoulée, la session est automatiquement fermée.<br /> </td> 
+   <td> Timeout de fermeture des sessions inactives : ce paramètre est utilisé uniquement si la session est réutilisée pour transmettre plusieurs messages vers un domaine donné. Lorsque le MTA a terminé la transmission du message, la session SMTP qu’il a utilisée n’est pas systématiquement fermée. Si un message pour le même domaine est prêt à être envoyé, la même session SMTP sera réutilisée. C’est pourquoi elle n’est pas fermée automatiquement. Le paramètre IdleSessionTimeout vous permet d’indiquer la durée pendant laquelle une session SMTP peut rester active en attendant un autre message. Une fois la durée écoulée, la session est automatiquement fermée.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> initialDelaySec<br /> </td> 
-   <td> Délai initial avant de retenter la connexion. Ce délai est doublé chaque fois que la connexion échoue.<br /> </td> 
+   <td> Délai initial avant de retenter une connexion. Ce délai est doublé à chaque échec.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSessionsPerChild<br /> </td> 
-   <td> Nombre maximal de sessions SMTP par serveur fils. Pour diffuser un message, le MTA initialise une connexion SMTP avec le MTA du destinataire. Le nombre maximal de sessions SMTP actives et simultanées pour un serveur fils donné est limité par cette valeur. Si vous multipliez cette valeur par maxSpareServers, vous obtenez le nombre maximum de messages qui peuvent être traités simultanément par un serveur fils donné.<br /> </td> 
+   <td> Nombre maximum de sessions SMTP par serveur fils. Pour diffuser un message, le MTA initialise une connexion SMTP avec le MTA du destinataire. Le nombre maximum de sessions SMTP actives et simultanées pour un serveur enfant donné est limité par cette valeur. En multipliant cette valeur à maxSpareServers, on obtient le nombre maximum de messages qui peuvent être délivrés en parallèle sur un serveur enfant.<br />
+ </td> 
    <td> Long<br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
@@ -1930,12 +1931,12 @@ Pour plus d&#39;informations, voir les sections [Liste des adresses IP à utilis
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td> Nom de domaine : nom de domaine local associé à l’adresse IP. Utilisé lors de l’émission d’une commande SMTP HELO.<br /> </td> 
+   <td> Nom de domaine : nom de domaine associé à l’adresse IP. Utilisé par la commande SMTP HELO.<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
    <td> name<br /> </td> 
-   <td> Nom logique : noms associés à l’affinité par les utilisateurs. Les noms sont séparés par des points-virgules ;<br /> </td> 
+   <td> Nom logique : noms associés à l’affinité par les utilisateurs. Les noms sont séparés par un point-virgule (;).<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
  </tbody> 
@@ -1956,12 +1957,12 @@ Pour plus d&#39;informations, voir la section [Liste des adresses IP à utiliser
  <tbody> 
   <tr> 
    <td> address<br /> </td> 
-   <td> Adresse physique associée. Par exemple : '192.168.0.1'<br /> </td> 
+   <td> Adresse physique associée. Par exemple : « 192.168.0.1 »<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
    <td> publicId<br /> </td> 
-   <td> Identifiant de l’adresse publique associée. Utilisé comme clé pour le serveur de statistiques. Doit être numérique. Voir <a href="../../installation/using/email-deliverability.md#managing-ip-addresses">section</a>.<br /> </td> 
+   <td> Identifiant de l'adresse publique associée. Utilisé comme clé par le serveur de statistiques. Cet identifiant doit être un numérique. Voir cette <a href="../../installation/using/email-deliverability.md#managing-ip-addresses">section</a>.<br /> </td> 
    <td> Long<br /> </td> 
   </tr> 
   <tr> 
@@ -1981,7 +1982,7 @@ Pour plus d&#39;informations, voir la section [Liste des adresses IP à utiliser
   </tr> 
   <tr> 
    <td> heloHost<br /> </td> 
-   <td> Nom de l’ordinateur associé à l’adresse IP. Utilisé lors de l’émission d’une commande SMTP HELO.<br /> </td> 
+   <td> Nom de la machine associée à l’adresse IP. Utilisé par la commande SMTP HELO.<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
  </tbody> 
@@ -2038,7 +2039,7 @@ Voici les différents paramètres du nœud **nmac > relay**. Il s’agit de la 
   </tr> 
   <tr> 
    <td> trustedCertsChain<br /> </td> 
-   <td> Chaîne de certificats (fichier PEM). Utile lors de l’utilisation d’un faux serveur.<br /> </td> 
+   <td> Chaîne de certificats (fichier PEM). Utile pour l’utilisation d’un server mock.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2103,7 +2104,7 @@ Voici les différents paramètres du nœud **pipelined**. Il s’agit de la conf
   </tr> 
   <tr> 
    <td> dumpStatePeriodSec<br /> </td> 
-   <td> Période de sauvegarde de l’état : fréquence à laquelle les informations internes du processus sont enregistrées dans un fichier. Inactif si 0. <br /> </td> 
+   <td> Période de sauvegarde de l’état : fréquence à laquelle les informations internes du processus sont enregistrées dans un fichier. Inactif si 0. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -2133,7 +2134,7 @@ Voici les différents paramètres du nœud **pipelined**. Il s’agit de la conf
   </tr> 
   <tr> 
    <td> monitorServerPort<br /> </td> 
-   <td> Port du serveur d’état : port du serveur HTTP permettant d’interroger l’état du processus. Inactif si 0.<br /> </td> 
+   <td> Port du serveur d’état : port du serveur HTTP permettant d’interroger le statut du processus. Inactif si 0.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 7781<br /> </td> 
   </tr> 
@@ -2181,7 +2182,7 @@ Voici les différents paramètres du nœud **pipelined**. Il s’agit de la conf
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Priorité au début. Les modules de priorité basse sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au début. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2345,7 +2346,7 @@ Pour plus d’informations, voir la section [Définition des zones de sécurité
   </tr> 
   <tr> 
    <td> proxy<br /> </td> 
-   <td> Masque ou adresse du (reverse) proxy utilisé par ce sous-réseau pour accéder à l'instance. Dans ce cas, l’en-tête "X-Forwarded-For" sera testé à la place de ce proxy.<br /> </td> 
+   <td> Masque ou adresse du (reverse) proxy utilisé par ce sous-réseau pour accéder à l’instance. L’en-tête 'X-Forwarded-For' sera alors testée en lieu et place de ce proxy.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> 127.0.0.1 <br /> </td> 
   </tr> 
@@ -2398,7 +2399,7 @@ Voici les différents paramètres du nœud **sms**. Il s’agit de la configurat
   </tr> 
   <tr> 
    <td> keepAlivePeriod<br /> </td> 
-   <td> Périodicité de la trame de continuité de session : max. période en secondes entre deux images pour signaler que la session de réception est toujours activée.<br /> </td> 
+   <td> Périodicité de la trame de maintien de session : période maximale en secondes entre deux trames pour signaler que la session de réception est encore active.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 25<br /> </td> 
   </tr> 
@@ -2434,7 +2435,7 @@ Voici les différents paramètres du nœud **sms**. Il s’agit de la configurat
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Priorité au début. Les modules de priorité basse sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au début. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2522,7 +2523,7 @@ Voici les différents paramètres du nœud **stat**. Il s’agit de la configura
   </tr> 
   <tr> 
    <td> port<br /> </td> 
-   <td> Port d’écoute du serveur. Voir <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">section</a>.<br /> </td> 
+   <td> Port d’écoute du serveur. Voir cette <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">section</a>.<br /> </td> 
    <td> Court<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2534,7 +2535,7 @@ Voici les différents paramètres du nœud **stat**. Il s’agit de la configura
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Priorité au début. Les modules de priorité basse sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au début. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2605,7 +2606,7 @@ Voici les différents paramètres du nœud **syslogd**. Il s’agit de la config
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Priorité au début. Les modules de priorité basse sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au début. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2718,7 +2719,7 @@ Voici les différents paramètres du nœud **tracking**. Il s’agit de la confi
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Priorité au début. Les modules de priorité basse sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au début. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2783,7 +2784,7 @@ Voici les différents paramètres du nœud **trackinglogd**. Il s’agit de la c
   </tr> 
   <tr> 
    <td> maxLogsSizeOnDiskMb<br /> </td> 
-   <td> Taille maximale des logs : taille maximale des logs sur le disque (en Mo). Ne peut pas être inférieur à 100 Mo. <br /> </td> 
+   <td> Taille max. des logs : espace disque maximum utilisé par les logs (en Mo). Cette valeur ne peut pas être inférieure à 100 Mo.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 500<br /> </td> 
   </tr> 
@@ -2801,7 +2802,7 @@ Voici les différents paramètres du nœud **trackinglogd**. Il s’agit de la c
   </tr> 
   <tr> 
    <td> maxSharedLogs<br /> </td> 
-   <td> Nb max de logs : nombre maximum de logs stockés en mémoire partagée. Ne peut pas être inférieur à 10 000. <br /> </td> 
+   <td> Nb max de logs : nombre maximum de logs stockés en mémoire partagée. Ne peut pas être inférieur à 10 000. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 25000<br /> </td> 
   </tr> 
@@ -2813,13 +2814,13 @@ Voici les différents paramètres du nœud **trackinglogd**. Il s’agit de la c
   </tr> 
   <tr> 
    <td> purgeLogsPeriod<br /> </td> 
-   <td> Nombre de logs avant purge : nombre de logs insérés avant de commencer la purge des fichiers journaux. Ne peut pas être inférieur à 50 000.<br /> </td> 
+   <td> Nb de logs avant purge : nombre de logs insérés avant de déclencher la purge des fichiers de logs. Ne peut pas être inférieur à 50 000.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 50000<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Priorité au début. Les modules de priorité basse sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au début. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2928,7 +2929,7 @@ Pour plus d’informations, consultez cette [section](configuring-campaign-serve
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Priorité au début. Les modules de priorité basse sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au début. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -3340,7 +3341,7 @@ Pour plus d’informations, consultez cette [section](../../installation/using/d
   </tr> 
   <tr> 
    <td> maxJobsInCache<br /> </td> 
-   <td> Nb max de tâches : nombre maximal d’actions de diffusion dans le cache. Ne peut pas être inférieur à 50. <br /> </td> 
+   <td> Nb max de jobs : nombre maximum d’actions de diffusion dans le cache. Ne peut pas être inférieur à 50. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
@@ -3507,7 +3508,7 @@ Pour plus d&#39;informations, voir la section [Workflows en haute disponibilité
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Priorité au début. Les modules de priorité basse sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au début. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 

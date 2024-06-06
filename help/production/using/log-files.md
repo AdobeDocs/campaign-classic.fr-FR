@@ -3,15 +3,15 @@ product: campaign
 title: Fichiers de log
 description: Fichiers de log
 feature: Monitoring
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ L&#39;arborescence des fichiers de log est la suivante :
 
 Chaque module **nlserver** génère un fichier journal enregistré dans le répertoire suivant : **`<installation directory>`/var/`<instance>`/log/`<module>`.log**.
 
-La variable **nlserver syslogd** module enregistre les journaux sur le disque. Ce module est similaire au Unix **daemon syslog**, mais a été adapté à des fins de compatibilité entre Unix et Windows. Les autres modules Adobe Campaign n’enregistrent pas leurs logs sur le disque ; ils délèguent cette tâche au **syslogd** en lui envoyant des paquets UDP.
+L&#39;enregistrement des logs sur le disque est assuré par le module **nlserver syslogd**. Ce module est similaire au **daemon syslog** UNIX, mais adapté afin d&#39;avoir un comportement homogène entre UNIX et Windows. Les autres modules Adobe Campaign n&#39;enregistrent pas leurs logs sur le disque : ils délèguent cette tâche au module **syslogd** en lui envoyant des paquets UDP.
 
 Par défaut, le module **syslogd** est installé sur la plateforme Adobe Campaign, mais il est possible d’utiliser un autre **daemon syslog**. Ce module crée les fichiers journaux dans le répertoire des **logs**.
 

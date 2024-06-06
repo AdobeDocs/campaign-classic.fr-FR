@@ -4,7 +4,7 @@ title: Canal LINE
 description: Canal LINE
 feature: Workflows
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
 ht-degree: 100%
 

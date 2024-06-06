@@ -5,9 +5,9 @@ description: Publier le pack de campagnes
 feature: Distributed Marketing
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Par défaut, les opérateurs et opératrices validants disposent de trois jours
 
 Dans la fenêtre d’édition des réviseurs et des réviseuses, vous pouvez également paramétrer des rappels afin d’envoyer un ou plusieurs messages en cas de non validation d’un kit de campagne. Pour ce faire, cliquez sur le lien **[!UICONTROL Ajouter un rappel]**, puis sur le bouton **[!UICONTROL Ajouter]**.
 
-Les rappels peuvent être envoyés à une date donnée et/ou **x** jours après la date d’envoi. Le type de rappel peut être paramétré dans la première colonne du tableau des rappels. Dans l&#39;exemple ci-dessous, les opérateurs validants recevront un message de rappel sur le 29/01/2014, soit deux jours avant la date sélectionnée dans la variable **[!UICONTROL Date]** et un deuxième rappel un jour avant la fin de la période de validation, soit deux jours après la date de validation de l&#39;envoi.
+Les rappels peuvent être envoyés à une date donnée et/ou **x** jours après la date d’envoi. Le type de rappel peut être paramétré dans la première colonne du tableau des rappels. Dans l&#39;exemple ci-dessous, les validants recevront un premier message de rappel le 29/01/2014, soit deux jours avant la date sélectionnée dans la colonne **[!UICONTROL Date]**, et un second message de rappel un jour avant la fin de la période de validation, c’est-à-dire deux jours après la date de soumission pour validation.
 
 ![](assets/s_advuser_mkg_dist_reminder_planning.png)
 

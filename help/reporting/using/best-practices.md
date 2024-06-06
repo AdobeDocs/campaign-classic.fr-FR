@@ -6,7 +6,7 @@ feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
 ht-degree: 100%
 

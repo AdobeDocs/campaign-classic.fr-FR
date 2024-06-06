@@ -2,13 +2,13 @@
 product: campaign
 title: '« Cas dʼutilisation : création dʼune gestion de contenu »'
 description: '« Cas dʼutilisation : création dʼune gestion de contenu »'
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1235'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -185,7 +185,7 @@ Pour créer un formulaire de saisie pour la gestion de contenu, les étapes sont
 
    >[!NOTE]
    >
-   >Pour permettre une correspondance automatique entre les deux éléments, il est recommandé d&#39;utiliser le même nom que pour le schéma de données associé. Utilisez la variable **[!UICONTROL Insérer]** au-dessus de la zone de saisie pour ajouter les champs du schéma associé au formulaire.
+   >Afin de permettre l&#39;association automatique entre les deux éléments, il est recommandé d&#39;utiliser le même nom que celui du schéma de données correspondant. Vous pourrez ainsi utiliser le bouton **[!UICONTROL Insérer]** situé au-dessus de la zone de saisie pour ajouter les champs issus du schéma associé au formulaire.
 
    ![](assets/s_ncs_content_param_form_edit_step2.png)
 
@@ -360,7 +360,7 @@ Pour notre exemple, les étapes sont les suivantes :
 
 1. Créez un nouveau modèle de publication à partir du noeud **[!UICONTROL Administration > Paramétrages > Modèles de publication]**.
 1. Indiquez son nom, le libellé associé et sélectionnez le schéma et le formulaire à utiliser.
-1. Saisissez ensuite le nom du modèle et choisissez le mode de rendu à appliquer. Ici, nous avons une **[!UICONTROL JavaScript]** saisissez le rendu en fonction du modèle créé ci-dessus.
+1. Saisissez ensuite le nom du modèle et choisissez le mode de rendu à appliquer. Ici, il s&#39;agit d&#39;un rendu de type **[!UICONTROL JavaScript]**, basé sur le modèle créé à l&#39;étape précédente.
 
    ![](assets/s_ncs_content_param_form_publish.png)
 

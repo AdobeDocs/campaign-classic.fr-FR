@@ -6,9 +6,9 @@ role: User
 feature: Campaigns, Monitoring
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Pour chaque campagne, l&#39;onglet **[!UICONTROL Tracking]** vous permet de visu
 
   ![](assets/s_ncs_user_op_edit_exe_tab_a.png)
 
-* La variable **[!UICONTROL Diffusions]** Le sous-onglet contient toutes les diffusions de l&#39;opération qui peuvent être éditées à partir de cette vue. Pour cela, sélectionnez la diffusion et cliquez sur l&#39;icône **[!UICONTROL Détail]**.
+* Le sous-onglet **[!UICONTROL Diffusions]** contient toutes les diffusions de la campagne qui peuvent être modifiées à partir de cette vue. Pour cela, sélectionnez la diffusion et cliquez sur l&#39;icône **[!UICONTROL Détail]**.
 
   ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
@@ -30,7 +30,7 @@ Pour chaque campagne, l&#39;onglet **[!UICONTROL Tracking]** vous permet de visu
 
   ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
-* Les workflows créés pour générer les messages pour les prestataires s&#39;affichent dans le **[!UICONTROL Traitements sur les prestataires]** sous-onglet. Cliquez sur le bouton **[!UICONTROL Détail]** pour afficher le workflow sélectionné.
+* Les workflows créés pour générer les messages aux prestataires sont affichés dans le sous-onglet **[!UICONTROL Traitements sur les prestataires]**. Cliquez sur l&#39;icône **[!UICONTROL Détail]** pour afficher le workflow sélectionné.
 
   ![](assets/s_ncs_user_op_edit_exe_tab_d.png)
 

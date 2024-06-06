@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: c736ac1cda9490548f1e4b56142d61fccaca5c4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3787'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 
 ### Avril 2024 {#apr-2024}
 
-Ajout d’une note d’avertissement concernant la création d’utilisateurs avec Adobe Identity Management System (IMS) - [En savoir plus](../../platform/using/access-management.md)
+Ajout d’une note d’avertissement concernant la création d’utilisateurs et d’utilisatrices avec Adobe Identity Management System (IMS). [En savoir plus](../../platform/using/access-management.md)
 
-Ajout des options manquantes pour l’activité de workflow Téléchargement Web - [En savoir plus](../../workflow/using/web-download.md)
+Ajout des options manquantes pour l’activité de workflow Téléchargement web. [En savoir plus](../../workflow/using/web-download.md)
 
-Une note d’avertissement a été ajoutée au **Modification de la dimension** et **Modification de la source de données** à propos de leur utilisation dans un workflow. [En savoir plus](../../workflow/using/change-data-source.md)
+Ajout d’une note d’avertissement aux activités **Modification de la dimension** et **Modification de la source de données** concernant leur utilisation dans un workflow. [En savoir plus](../../workflow/using/change-data-source.md)
 
 ### Mars 2024 {#mar-2024}
 

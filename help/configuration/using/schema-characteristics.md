@@ -4,12 +4,12 @@ title: Caractéristiques du schéma
 description: Caractéristiques du schéma
 feature: Custom Resources
 role: Data Engineer, Developer
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Dans un schéma, un index se définit comme suit :
 
 Il est donc important de déclarer les index existants de la table personnalisée dans le schéma correspondant.
 
-Un index est implicitement déclaré pour chaque déclaration de clé et de lien du schéma source. La déclaration d’index peut être empêchée en spécifiant la variable **noDbIndex=&quot;true&quot;** attribute:
+Un index est implicitement déclaré pour chaque déclaration de clé et de lien du schéma source. La déclaration d’index peut être empêchée en spécifiant l’attribut **noDbIndex=&quot;true&quot;** :
 
 **Exemple**:
 

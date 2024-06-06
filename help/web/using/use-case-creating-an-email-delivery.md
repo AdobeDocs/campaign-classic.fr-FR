@@ -2,13 +2,13 @@
 product: campaign
 title: 'Cas d’utilisation : créer une diffusion e-mail'
 description: 'Cas d’utilisation : créer une diffusion e-mail'
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutil
 
 * Afficher les nom et prénom de vos destinataires
 
-  Pour insérer les noms et prénoms de vos destinataires dans un champ de texte de votre diffusion, cliquez sur le champ de texte de votre choix, puis placez le curseur à l&#39;endroit où vous souhaitez les afficher. Cliquez sur la première icône de la barre d’outils contextuelle, puis cliquez sur **[!UICONTROL Bloc de personnalisation]**. Sélectionner **[!UICONTROL Salutations]**, puis cliquez sur **[!UICONTROL OK]**.
+  Pour qu’un champ texte de votre diffusion contienne les noms et prénoms de vos destinataires, cliquez sur le champ texte de votre choix, puis positionnez le curseur à l’endroit exact où vous souhaitez les afficher. Cliquez sur la première icône de la barre d’outils pop-up, puis sur **[!UICONTROL Bloc de personnalisation]**. Sélectionnez **[!UICONTROL Salutations]**, puis cliquez sur **[!UICONTROL OK]**.
 
   ![](assets/dce_personalizationblock_greetings.png)
 
@@ -81,7 +81,7 @@ Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutil
 
 * Insérer un lien sur du texte
 
-  Pour intégrer un lien externe dans le texte de votre diffusion, sélectionnez du texte ou un bloc de texte, puis cliquez sur la première icône de la barre d&#39;outils contextuelle. Cliquez sur **[!UICONTROL Lien vers une URL externe]**, saisissez l’adresse du lien dans la variable **[!UICONTROL URL]** champ . Pour plus d’informations, voir [Ajout d’un lien](editing-content.md#adding-a-link).
+  Afin d’intégrer au texte de votre diffusion un lien vers une URL externe, sélectionnez du texte ou un bloc de texte, puis cliquez sur la première icône de la barre d’outils pop-up. Cliquez sur **[!UICONTROL Lien vers une URL externe]**, saisissez l’adresse de destination du lien dans le champs **[!UICONTROL URL]**. Pour plus d’informations, voir [Ajout d’un lien](editing-content.md#adding-a-link).
 
   L&#39;adresse du lien est modifiable à tout moment dans la partie droite de la fenêtre.
 
@@ -93,7 +93,7 @@ Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutil
 
   Pour permettre à vos destinataires d&#39;accéder au contenu de votre diffusion sur un navigateur Web, il vous est possible d&#39;intégrer à votre diffusion un lien vers une page Web miroir.
 
-  Cliquez sur le champ de texte dans lequel vous souhaitez voir le lien publié. Cliquez sur la première icône de la barre d’outils contextuelle, puis sélectionnez **[!UICONTROL Bloc de personnalisation]**, puis **[!UICONTROL Lien vers la page miroir (MirrorPage)]**. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
+  Cliquez sur le champ texte dans lequel vous souhaitez voir figurer le lien vers la page miroir. Cliquez sur la première icône de la barre d’outils pop-up, sélectionnez **[!UICONTROL Bloc de personnalisation]**, puis **[!UICONTROL Lien vers la page miroir (MirrorPage)]**. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 
   ![](assets/dce_mirrorpage.png)
 
@@ -105,7 +105,7 @@ Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutil
 
   Le Digital Content Editor vous permet d&#39;intégrer des liens vers les applications Web de votre console Adobe Campaign, telles qu&#39;une landing page ou une page de formulaire. Voir à ce sujet la section [Lien vers une application web](editing-content.md#link-to-a-web-application).
 
-  Sélectionnez un champ texte pour votre lien vers une application Web, puis cliquez sur la première icône. Choisir **[!UICONTROL Lien vers une application web]**, puis sélectionnez l’application souhaitée en cliquant sur l’icône située à la fin de la **Application web** champ .
+  Sélectionnez un champ texte dans lequel figurera votre lien vers l&#39;application Web, puis cliquez sur la première icône. Choisissez **[!UICONTROL Lien vers une application Web]**, puis sélectionnez l&#39;application souhaitée en cliquant sur l&#39;icône située à la fin du champ **Application Web**.
 
   ![](assets/dce_webapp.png)
 

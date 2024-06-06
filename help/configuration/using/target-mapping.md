@@ -4,12 +4,12 @@ title: Mapping de ciblage
 description: Découvrez comment créer un mapping de ciblage
 feature: Application Settings
 role: Data Engineer, Developer
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 38333669-5598-4811-a121-b677c1413f56
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/mapping_diffusion_wizard_1.png)
 
-1. Dans le **Modifier les formulaires d’adresse** sélectionnez les champs du schéma correspondant aux différentes adresses de diffusion. Ici, nous pouvons cartographier la variable **@email** et **@mobile** des champs.
+1. Dans la fenêtre suivante **Edition des formules d&#39;adresse**, sélectionnez les champs du schéma correspondant aux différentes adresses de diffusion. Dans le cas actuel, il est possible de mapper le champ **@email** et **@mobile**.
 
    ![](assets/mapping_diffusion_wizard_2.png)
 

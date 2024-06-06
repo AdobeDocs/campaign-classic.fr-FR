@@ -2,14 +2,14 @@
 product: campaign
 title: Tableau de bord de la diffusion
 description: En savoir plus sur lʼutilisation du tableau de bord de la diffusion pour surveiller vos diffusions
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Monitoring
 role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1255'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Le contenu de cet onglet peut être configuré en fonction de vos besoins. Pour 
 
 L&#39;onglet **[!UICONTROL Diffusion]** propose un historique des occurrences de cette diffusion. Il contient les logs de diffusion, c&#39;est-à-dire la liste des messages envoyés et leur statut. Il permet de visualiser l&#39;état de la diffusion pour chaque destinataire et les messages associés.
 
-Pour une diffusion, vous pouvez afficher (par exemple) uniquement les destinataires dont la diffusion a échoué ou une adresse en quarantaine. Pour ce faire, cliquez sur le bouton **[!UICONTROL Filtres]** et sélectionnez **[!UICONTROL Par état]**. Sélectionnez ensuite l’état dans la liste déroulante. Les différents statuts sont répertoriés dans [cette page](delivery-statuses.md).
+Pour une diffusion, vous pouvez afficher par exemple seulement les destinataires pour lesquels l&#39;envoi a échoué ou ceux dont l&#39;adresse est en quarantaine. Pour cela, cliquez sur le bouton **[!UICONTROL Filtres]** et choisissez **[!UICONTROL Par Statut]**. Sélectionnez ensuite le statut dans la liste déroulante affichée au-dessus de la liste. Les différents statuts sont répertoriés dans [cette page](delivery-statuses.md).
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour c
 
 Le paramétrage du tracking est effectué dans l&#39;assistant de diffusion, à l&#39;étape concernée. Voir à ce sujet la section [Comment configurer des liens suivis](how-to-configure-tracked-links.md). 
 
-**[!UICONTROL Tracking]** Les données sont interprétées dans les rapports de diffusion. Consultez [cette section](../../reporting/using/delivery-reports.md).
+Les données de **[!UICONTROL tracking]** sont interprétées dans les rapports de diffusion. Consultez [cette section](../../reporting/using/delivery-reports.md).
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 
@@ -104,7 +104,7 @@ Le sous-onglet **[!UICONTROL Bons à tirer]** vous permet de voir la liste des B
 
 ![](assets/s_ncs_user_delivery_log_tab.png)
 
-Vous pouvez modifier les informations affichées dans cette fenêtre (ainsi que celles du **[!UICONTROL Diffusion]** et **[!UICONTROL Tracking]** onglets) en sélectionnant les colonnes à afficher. Pour ce faire, cliquez sur le bouton **[!UICONTROL Configurer la liste]** située dans le coin inférieur droit. Pour plus d&#39;informations sur le paramétrage de l&#39;affichage des listes, reportez-vous à la section [cette section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+Vous pouvez modifier les informations affichées dans cette fenêtre (ainsi que celles des onglets **[!UICONTROL Diffusion]** et **[!UICONTROL Tracking]**) en sélectionnant les colonnes à afficher. Pour cela, cliquez sur l&#39;icône **[!UICONTROL Configurer la liste]**, située en bas à droite. La configuration de l&#39;affichage des listes est présentée dans [cette section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
 ## Synchronisation du tableau de bord des diffusions {#delivery-dashboard-synchronization}
 
@@ -114,13 +114,13 @@ Certains indicateurs ou statuts peuvent être incorrects ou ne pas être à jour
 
 * Si le statut de votre diffusion est incorrect, vérifiez que toutes les validations nécessaires ont été effectuées pour celle-ci ou que les workflows **[!UICONTROL operationMgt]** et **[!UICONTROL deliveryMgt]** s&#39;exécutent sans erreur. La diffusion peut aussi utiliser une affinité qui n&#39;est pas configurée sur l&#39;instance d&#39;envoi.
 
-* Si vos indicateurs de diffusion sont toujours à zéro et que vous utilisez un paramétrage de mid-sourcing, vérifiez les **[!UICONTROL Mid-sourcing (compteurs des diffusions)]** workflow technique. Démarrez-la si son état n’est pas **[!UICONTROL Démarré]**. Vous pouvez ensuite essayer de recalculer les indicateurs en cliquant avec le bouton droit sur la diffusion concernée dans l&#39;explorateur Adobe Campaign et en sélectionnant **[!UICONTROL Actions]** > **[!UICONTROL Recalculer les indicateurs de diffusion et de tracking]**. Pour plus d&#39;informations sur les indicateurs de tracking, reportez-vous à cette section [section](../../reporting/using/delivery-reports.md#tracking-indicators).
+* Si les indicateurs de diffusion sont toujours à zéro et que vous utilisez une configuration en midsourcing, vérifiez le workflow technique **[!UICONTROL Midsourcing (compteurs des diffusions)]**. Lancez-le si son statut n’est pas **[!UICONTROL Démarré]**. Vous pouvez ensuite essayer de recalculer les indicateurs en procédant comme suit : cliquez avec le bouton droit sur la diffusion en question dans l’explorateur Adobe Campaign et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Recalculer les indicateurs d’envoi et de tracking]**. Pour plus d’informations sur les indicateurs de tracking, voir cette [section](../../reporting/using/delivery-reports.md#tracking-indicators).
 
-* Si votre compteur de diffusions ne correspond pas à votre diffusion, essayez de recalculer les indicateurs en cliquant avec le bouton droit sur la diffusion concernée dans l&#39;explorateur Adobe Campaign et en sélectionnant **[!UICONTROL Actions]** > **[!UICONTROL Recalculer les indicateurs de diffusion et de tracking]** pour resynchroniser. Pour plus d&#39;informations sur les indicateurs de tracking, reportez-vous à cette section [section](../../reporting/using/delivery-reports.md#tracking-indicators).
+* Si le compteur de diffusions ne correspond pas à votre diffusion, essayez de recalculer les indicateurs en procédant comme suit : cliquez avec le bouton droit sur la diffusion en question dans l&#39;explorateur Adobe Campaign et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Recalculer les indicateurs d&#39;envoi et de tracking]** pour effectuer une nouvelle synchronisation. Pour plus d’informations sur les indicateurs de tracking, voir cette [section](../../reporting/using/delivery-reports.md#tracking-indicators).
 
-* Si votre compteur de diffusions n&#39;est pas à jour pour les déploiements en mid-sourcing, vérifiez que la variable **[!UICONTROL Mid-sourcing (compteurs des diffusions)]** workflow technique en cours d’exécution. Pour en savoir plus à ce sujet, consultez cette [page](../../installation/using/mid-sourcing-deployment.md).
+* Si votre compteur de diffusions n&#39;est pas à jour pour les déploiements Mid-sourcing, vérifiez que le workflow technique **[!UICONTROL Mid-sourcing (compteurs des diffusions)]** est en cours d&#39;exécution. Pour en savoir plus à ce sujet, consultez cette [page](../../installation/using/mid-sourcing-deployment.md).
 
-Vous pouvez également effectuer le suivi de vos diffusions avec différents rapports depuis le tableau de bord des diffusions. Pour plus d’informations à ce sujet, consultez cette [section](../../reporting/using/delivery-reports.md).
+Vous pouvez également effectuer un tracking de vos diffusions à l&#39;aide de différents rapports dans le tableau de bord des diffusions. Pour plus d’informations à ce sujet, consultez cette [section](../../reporting/using/delivery-reports.md).
 
 ## Cas pratique : Ajouter les adresses IP des expéditeurs aux logs {#use-case}
 

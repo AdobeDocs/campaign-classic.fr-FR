@@ -2,13 +2,13 @@
 product: campaign
 title: Disposer les éléments
 description: Disposer les éléments
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 66%
 
 En complément des variantes du graphique disponibles, [présentées ici](../../reporting/using/creating-a-chart.md#chart-types-and-variants), vous pouvez adapter lʼaffichage et ajouter des éléments dans la ou les pages du rapport.
 
-Vous pouvez utiliser des conteneurs : ils permettent de lier plusieurs éléments d&#39;une page et de paramétrer leur mise en page en colonnes et/ou en cellules. Leur utilisation est présentée dans la section [cette section](../../web/using/defining-web-forms-layout.md#creating-containers).
+Vous pouvez utiliser les conteneurs : ils permettent de regrouper plusieurs éléments d&#39;une page et d&#39;en paramétrer la mise en page en colonnes et/ou en cellules. Leur utilisation est présentée dans [cette section](../../web/using/defining-web-forms-layout.md#creating-containers).
 
 Vous pouvez paramétrer la mise en page du rapport au niveau de la page (à la racine de l&#39;arborescence) et la surcharger pour chaque conteneur. Les pages sont organisées en colonnes. Les conteneurs sont également organisés en colonne. Seuls les éléments statiques et les graphiques sont organisés en cellule.
 
@@ -30,11 +30,11 @@ L&#39;onglet **[!UICONTROL Général]**, vous permet de modifier le titre de la 
 
 ![](assets/s_ncs_advuser_report_wizard_022.png)
 
-La variable **[!UICONTROL Titre]** permet de personnaliser le libellé dans l&#39;en-tête de la page du rapport. Le titre de la fenêtre peut être paramétré à partir du **[!UICONTROL Propriétés]** du rapport. Pour plus d&#39;informations, voir la section [Ajouter un en-tête et un pied de page](#adding-a-header-and-a-footer).
+Le champ **[!UICONTROL Titre]** permet de personnaliser le libellé qui apparaît dans l&#39;en-tête de la page du rapport. Le titre de la fenêtre est quant à lui paramétrable depuis la fenêtre **[!UICONTROL Propriétés]** du rapport. Pour plus d&#39;informations, voir la section [Ajouter un en-tête et un pied de page](#adding-a-header-and-a-footer).
 
-La variable **[!UICONTROL Paramètres d’affichage]** Les options permettent de sélectionner la position de la légende du contrôle dans une page de rapport et de définir le nombre de colonnes de la page. Pour plus d’informations sur la mise en page, reportez-vous au **Mettre en page les éléments** section de [cette section](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page).
+Les options des **[!UICONTROL Paramètres d&#39;affichage]** permettent de choisir la position de la légende des contrôles dans la page d&#39;un rapport et de définir le nombre de colonnes de la page. Pour plus d&#39;informations sur la mise en page, reportez-vous à la section **Disposer les éléments** de [cette section](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page).
 
-Sélectionnez les différentes options de la **[!UICONTROL Parcourir]** pour autoriser la navigation d’une page de rapport à une autre. Si la variable **[!UICONTROL Désactiver la page suivante]** ou le **[!UICONTROL Désactiver la page précédente]** est sélectionnée, la variable **[!UICONTROL Suivant]** et **[!UICONTROL Précédent]** les boutons disparaissent de la page du rapport.
+Sélectionnez les différentes options de la section **[!UICONTROL Navigation]** pour autoriser ou non le passage entre les différentes pages du rapport. Lorsque l&#39;option **[!UICONTROL Ne pas autoriser le retour à la page précédente]** ou **[!UICONTROL Ne pas autoriser le passage à la page suivante]** est sélectionnée, les boutons **[!UICONTROL Suivant]** ou **[!UICONTROL Précédent]** ne sont plus disponibles dans la page du rapport.
 
 ## Ajout dʼun en-tête et dʼun pied de page {#adding-a-header-and-a-footer}
 

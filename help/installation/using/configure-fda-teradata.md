@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1655'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Vous devez installer des pilotes pour que Teradata puisse établir une connexion
    * tdicu1510 (installez-le via setup_wrapper.sh)
    * tdodbc1510 (installez-le via setup_wrapper.sh)
 
-1. Configurez le pilote ODBC. Le paramétrage peut être réalisé dans les fichiers standards : **/etc/odbc.ini** pour les paramètres généraux et /etc/odbcinst.ini pour la déclaration des pilotes :
+1. Configurez le pilote ODBC. La configuration peut être réalisée dans les fichiers standard : **/etc/odbc.ini** pour les paramètres généraux et /etc/odbcinst.ini pour la déclaration des pilotes :
 
    * **/etc/odbc.ini**
 

@@ -5,9 +5,9 @@ description: Découvrez comment surveiller votre instance à lʼaide du journal 
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Pour accéder au **[!UICONTROL Suivi]** de votre instance :
 
    ![](assets/audit_trail_1.png)
 
-1. La fenêtre **[!UICONTROL Journal d&#39;audit]** s’ouvre avec la liste de vos entités. Adobe Campaign contrôle les actions de création, de modification et de suppression pour les workflows, les options et les schémas.
+1. La fenêtre **[!UICONTROL Journal d’audit]** s’ouvre avec la liste de vos entités. Adobe Campaign effectuera le suivi des actions de création, d’édition et de suppression pour les workflows, les options et les schémas.
 
    Sélectionnez l’une des entités pour en savoir plus sur les dernières modifications.
 
@@ -78,7 +78,7 @@ Pour accéder au **[!UICONTROL Suivi]** de votre instance :
 
 >[!NOTE]
 >
->Par défaut, la période de rétention est définie sur 180 jours pour **[!UICONTROL Journaux d’audit]** . Pour en savoir plus sur la modification de la période de rétention, reportez-vous à cette section [page](../../production/using/database-cleanup-workflow.md#deployment-wizard).
+>Par défaut, la période de conservation est définie sur 180 jours pour les **[!UICONTROL Logs d’audit]**. Pour plus d’informations sur la façon de modifier la période de conservation, consultez [cette page](../../production/using/database-cleanup-workflow.md#deployment-wizard).
 
 ## Activer/désactiver le Suivi {#enable-disable-audit-trail}
 

@@ -5,9 +5,9 @@ description: Exemples de marketing distribué
 feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -118,23 +118,23 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
 
 #### Création dʼune activité Répartition de données {#creating-a-data-distribution-activity}
 
-1. Pour mettre en place une campagne collaborative (par validation de la cible), vous devez d’abord créer une **[!UICONTROL Activité Répartition de données]**. Cliquez sur le bouton **[!UICONTROL Nouveau]** dans le **[!UICONTROL Ressources > Gestion de campagne > Répartition des données]** noeud .
+1. Pour mettre en place une campagne collaborative (par validation de la cible), vous devez d’abord créer une **[!UICONTROL Activité Répartition de données]**. A partir du noeud **[!UICONTROL Ressources > Gestion de campagne > Répartition de données]**, cliquez sur l&#39;icône **[!UICONTROL Nouveau]**.
 
    ![](assets/mkg_dist_use_case_target_valid3.png)
 
 1. Dans l&#39;onglet **[!UICONTROL Général]** vous devez indiquer :
 
-   * la valeur **[!UICONTROL Dimension de ciblage]**. Ici, le **Répartition des données** est réalisé sur la **Destinataires**.
-   * la valeur **[!UICONTROL Type de distribution]**. Vous pouvez choisir un **Taille fixe** ou **Taille en pourcentage**.
-   * la valeur **[!UICONTROL Type d&#39;affectation]**. Sélectionnez la variable **Entité locale** .
-   * la valeur **[!UICONTROL Type de distribution]**. Ici, le **[!UICONTROL Origine (@origin)]** champ présent dans la table des destinataires qui permet d&#39;identifier la relation entre le contact et l&#39;entité locale.
-   * La variable **[!UICONTROL Stockage des validations]** champ . Sélectionnez la variable **Validation en local du destinataire** .
+   * la **[!UICONTROL Dimension de ciblage]**. Ici la **Répartition de données** s&#39;effectue sur les **Destinataires**.
+   * le **[!UICONTROL Type de répartition]**. Vous pouvez choisir une **taille fixe** ou une **taille en pourcentage**.
+   * le **[!UICONTROL Type d&#39;affectation]**. Choisissez l&#39;option **Entité locale**.
+   * le **[!UICONTROL Type de répartition]**. Ici, c&#39;est le champ **[!UICONTROL Origine (@origin)]** présent dans la table des Destinataires qui vous permet d&#39;identifier la relation entre le contact et l&#39;entité locale.
+   * Le champ **[!UICONTROL Stockage des validations]**. Choisissez l&#39;option **Validation en local d&#39;un destinataire**.
 
 1. Dans l&#39;onglet **[!UICONTROL Répartition]**, indiquez :
 
    * la **[!UICONTROL Valeur du champ de répartition]**, qui correspond aux entités locales impliquées dans l&#39;opération à venir.
    * le **[!UICONTROL libellé]** de l&#39;entité locale.
-   * la valeur **[!UICONTROL Taille]** (fixe ou en pourcentage). La variable **0 valeur par défaut** implique la sélection de tous les destinataires liés à l&#39;entité locale.
+   * la **[!UICONTROL taille]** (fixe ou en pourcentage) choisie. La **valeur par défaut 0** implique la sélection de tous les destinataires liés à l&#39;entité locale.
 
    ![](assets/mkg_dist_use_case_target_valid4.png)
 
@@ -143,7 +143,7 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
 #### Création d’une opération collaborative {#creating-a-collaborative-campaign}
 
 1. A partir du noeud **[!UICONTROL Gestion de campagne > Opération]**, créez une nouvelle **[!UICONTROL opération collaborative par validation de la cible]**.
-1. Dans le **[!UICONTROL Ciblage et workflows]** créez un workflow pour votre campagne. Celui-ci doit contenir un **Partage** dans laquelle la variable **[!UICONTROL Limite du nombre d’enregistrements]** est défini par la variable **[!UICONTROL Répartition des données]** activité.
+1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]**, créez un workflow pour votre opération. Celui-ci doit contenir une activité de **Partage** dont la **[!UICONTROL limitation du nombre d&#39;enregistrements]** est définie par l&#39;activité **[!UICONTROL Répartition de données]**.
 
    ![](assets/mkg_dist_use_case_target_valid5.png)
 
@@ -151,7 +151,7 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
 
    * le contenu du message qui sera envoyé aux entités locales lors de la notification,
    * le rappel pour la validation,
-   * le traitement attendu pour la campagne.
+   * le traitement anticipé de la campagne.
 
    ![](assets/mkg_dist_use_case_target_valid7.png)
 
@@ -161,7 +161,7 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
 
 Vous pouvez désormais ajouter un **kit de campagne** à partir de l’onglet **[!UICONTROL Campagnes]**.
 
-1. Choisissez votre **[!UICONTROL Campagne de référence]**. Dans le **[!UICONTROL Modifier]** de votre package, vous pouvez sélectionner l’onglet **[!UICONTROL Mode de validation]** à utiliser pour votre campagne :
+1. Sélectionnez votre **[!UICONTROL Campagne de référence]**. Dans l&#39;onglet **[!UICONTROL Edition]** de votre package, vous pouvez choisir le **[!UICONTROL Mode d’approbation]** que vous souhaitez utiliser pour votre campagne :
 
    * avec le mode **Manuel**, les entités locales participent à l&#39;opération si elles acceptent l&#39;invitation de l&#39;entité centrale. Elles peuvent supprimer des contacts pré-sélectionnés si elles le souhaitent et une validation d&#39;un manager est obligatoire pour confirmer la participation.
    * avec le mode **Automatique**, les entités locales participent obligatoirement à l&#39;opération, à moins qu&#39;elles ne s&#39;en désinscrivent. Elles peuvent supprimer des contacts sans qu&#39;aucune validation ne soit demandée.

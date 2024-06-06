@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Pour créer un cube, cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-de
 
 ![](assets/s_advuser_cube_create.png)
 
-Sélectionnez le schéma des faits, c&#39;est-à-dire celui qui contient les éléments que vous souhaitez explorer. Dans cet exemple, nous allons sélectionner la variable **Destinataire** table.
+Sélectionnez le schéma des faits, c&#39;est-à-dire celui qui contient les éléments que vous souhaitez explorer. Dans cet exemple, nous allons sélectionner la table **Destinataire**.
 
 ![](assets/s_advuser_cube_wz_02.png)
 
@@ -88,13 +88,13 @@ Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle dimensio
 
   ![](assets/s_advuser_cube_wz_10.png)
 
-  Seules les valeurs de l&#39;énumération seront affichées. Les autres seront regroupés sous le libellé défini dans la variable **[!UICONTROL Libellé des autres valeurs]** champ .
+  Seules les valeurs présentes dans l&#39;énumération seront affichées. Toutes les autres seront regroupées sous le libellé défini dans le champ **[!UICONTROL Libellé des autres valeurs]**.
 
   Pour plus d&#39;informations, consultez la section [Gérer dynamiquement les classes](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 
 ## Construction des indicateurs {#building-indicators}
 
-Une fois les dimensions définies, vous devez spécifier le mode de calcul des valeurs qui seront affichées dans les cellules. Pour cela, créez les indicateurs correspondants dans le **[!UICONTROL Mesures]** onglet : créez autant de mesures que de colonnes à afficher dans le rapport qui utilisera le cube.
+Une fois les dimensions définies, vous devez spécifier le mode de calcul des valeurs qui seront affichées dans les cellules. Pour cela, créez les indicateurs correspondants dans l&#39;onglet **[!UICONTROL Mesures]** : créez autant de mesures que de colonnes à afficher au niveau du rapport qui utilisera le cube.
 
 Pour cela, les étapes sont les suivantes :
 

@@ -6,9 +6,9 @@ role: User
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1550'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Une fois toutes les demandes de validation approuvées, l’état passe sur **[!
 
 >[!NOTE]
 >
->Si un opérateur ou groupe d&#39;opérateurs spécifique est désigné pour démarrer une diffusion dans les propriétés de celle-ci, vous pouvez également permettre à l&#39;opérateur en charge de la diffusion de confirmer l&#39;envoi. Pour ce faire, activez la fonction **NMS_ActivateOwnerConfirmation** en saisissant **1** comme valeur. Les options sont gérées à partir du nœud **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** de l&#39;explorateur Adobe Campaign.
+>Si un opérateur spécifique ou groupe d&#39;opérateurs est désigné pour le démarrage de la diffusion dans les propriétés de cette dernière, vous pouvez également permettre à l&#39;opérateur en charge de la diffusion de confirmer l&#39;envoi. Pour cela activez l&#39;option **NMS_ActivateOwnerConfirmation** en indiquant comme valeur **1**. Les options sont gérées à partir du nœud **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** de l&#39;explorateur Adobe Campaign.
 >  
 >Pour désactiver cette option, indiquez **0** comme valeur. Le processus de confirmation des envois fonctionnera alors comme par défaut : seul l&#39;opérateur ou le groupe d&#39;opérateurs désigné pour l&#39;envoi (ou un administrateur) dans les propriétés de la diffusion pourra confirmer et effectuer l&#39;envoi.
 
@@ -101,7 +101,7 @@ Pour plus dʼinformations, consultez la section [Validation dʼun fichier dʼext
 
 L&#39;extraction du fichier lance deux opérations : le calcul des budgets et le calcul des stocks. Les lignes budgétaires sont mises à jour.
 
-* L&#39;onglet **[!UICONTROL Budget]** vous permet de gérer les budgets de la campagne. Le total des postes de coût est affiché dans la variable **[!UICONTROL Calcule le coût]** champ de l&#39;onglet principal de l&#39;opération et du programme auquel elle appartient. Les montants sont également répercutés dans le budget de la campagne.
+* L&#39;onglet **[!UICONTROL Budget]** vous permet de gérer les budgets de la campagne. Le cumul des lignes de coût est repris dans le champ **[!UICONTROL Coût calculé]** de l&#39;onglet principal de l&#39;opération et du programme auquel elle appartient. Les montants sont également répercutés dans le budget de la campagne.
 
   Le coût réel sera calculé au final en fonction des informations fournies par le routeur : seuls les courriers réellement envoyés sont facturés.
 

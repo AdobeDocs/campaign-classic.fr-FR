@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Vous pouvez copier un destinataire dans le même dossier en cliquant avec le bou
 
 ## Supprimer des destinataires {#deleting-recipients}
 
-Pour supprimer des destinataires, déplacez-les vers un dossier spécifique, puis purgez le contenu de ce dossier. Il s’agit de **fortement recommandé de ne pas utiliser** la valeur **[!UICONTROL Supprimer]** dans ce cas.
+Pour supprimer des destinataires, vous devez au préalable les déplacer dans un dossier spécifique puis purger le contenu de ce dossier. Il est **vivement déconseillé** d&#39;utiliser l&#39;option **[!UICONTROL Supprimer]** dans ce cas de figure.
 
 Pour purger un dossier, utilisez le menu **[!UICONTROL Actions > Purger le dossier]**, accessible à partir du bouton droit de la souris sur le dossier visé.
 

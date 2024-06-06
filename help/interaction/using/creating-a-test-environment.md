@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: 49ac279b-bc67-4311-b0a4-0e23f2a99c52
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '126'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -34,6 +34,6 @@ Pour créer un environnement de test (mode sandbox), procédez comme suit :
    ![](assets/offer_env_creation_001bis.png)
 
 1. Procédez de la même manière pour créer les sous-dossiers et éléments de l&#39;environnement.
-1. Une fois vos tests terminés et que vous souhaitez utiliser l&#39;environnement en production, dupliquez les offres et emplacements dans votre environnement en édition. (Clic droit > **[!UICONTROL Actions]** > **[!UICONTROL Déployer]** ).
+1. Lorsque vos tests sont terminés et que vous souhaitez utiliser l&#39;environnement en production, dupliquez les offres et emplacements dans votre environnement en édition. (clic droit > **[!UICONTROL Actions]** > **[!UICONTROL Déployer]** ).
 
    ![](assets/migration_interaction_5.png)

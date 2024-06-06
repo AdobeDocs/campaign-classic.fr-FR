@@ -4,12 +4,12 @@ title: Structure d'un formulaire
 description: Structure d'un formulaire
 feature: Application Settings
 role: Data Engineer, Developer
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2416'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

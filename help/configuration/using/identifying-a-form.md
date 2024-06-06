@@ -4,12 +4,12 @@ title: Identification d’un formulaire
 description: Identification d’un formulaire
 feature: Application Settings
 role: Data Engineer, Developer
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '71'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

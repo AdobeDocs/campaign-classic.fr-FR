@@ -3,15 +3,15 @@ product: campaign
 title: Paramétrage de SpamAssassin
 description: Paramétrage de SpamAssassin
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '988'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
 
    Si un Shell Windows apparaît et reste affiché durant plusieurs secondes, attendez que l&#39;installation et la mise à jour soient terminées puis appuyez sur **Entrée**.
 
-   Si le Shell Windows n&#39;apparaît pas ou ne s&#39;affiche pas avant la disparition instantanée, procédez comme suit, double-cliquez sur le **portableShell.bat** pour afficher un Shell Windows et vérifier que le chemin d’accès du Shell correspond au dossier dans lequel la variable **spamassassin.zip** a été décompressé. Si ce n’est pas le cas, accédez-y à l’aide du **cd** .
+   Si le shell Windows n’apparaît pas ou s’il apparaît puis disparaît instantanément, procédez comme suit : double-cliquez sur le fichier **portableShell.bat** afin d&#39;afficher un shell Windows et vérifiez que le chemin du shell correspond au dossier dans lequel le fichier **spamassassin.zip** a été décompressé. Si ce n’est pas le cas, accédez-y à l’aide de la commande **cd**.
 
    Entrez **run_me.bat** puis appuyez sur **Entrée** afin de lancer le processus d&#39;installation et de mise à jour. L&#39;opération renvoie l&#39;une des valeurs suivantes afin d&#39;indiquer le résultat de la mise à jour :
 

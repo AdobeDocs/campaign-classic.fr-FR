@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow de requête
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1694'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de cib
 
    Vous pouvez également ajouter des conditions de regroupement de données en cochant la case correspondante. Pour cela, la dimension de filtrage doit impérativement être différente de la dimension de ciblage de la requête. Pour plus d’informations sur les regroupements, consultez cette [section](querying-using-grouping-management.md).
 
-   Vous pouvez également ajouter d’autres critères à l’aide du générateur d’expression et les combiner avec les options logiques AND, OR et SACEPT. Vous pouvez ensuite afficher un aperçu de la **[!UICONTROL Requête SQL correspondante...]** pour votre combinaison de critères. Voir à ce propos cette [section](../../platform/using/defining-filter-conditions.md#building-expressions).
+   Vous pouvez également ajouter des critères supplémentaires en vous aidant du Créateur d’expressions et les combiner grâce aux options logiques ET, OU et SAUF. Vous pouvez ensuite afficher un aperçu de la **[!UICONTROL Requête SQL correspondante]** pour votre combinaison de critères. Voir à ce propos cette [section](../../platform/using/defining-filter-conditions.md#building-expressions).
 
    Enregistrez votre filtre si vous souhaitez le réutiliser ultérieurement.
 

@@ -2,13 +2,13 @@
 product: campaign
 title: Tracker les visites sur une application web
 description: Tracker les visites sur une application web
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps, Reporting, Monitoring
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Afin d&#39;identifier la source de trafic sur une application Web, Adobe Campai
 
 ## Applications web conçues avec Digital Content Editor (DCE) {#web-applications-designed-with-digital-content-editor--dce-}
 
-Lorsqu&#39;une application Web est créée à l&#39;aide de l&#39;éditeur de contenu de HTML - **Digital Content Editor (DCE)** - les balises de suivi sont insérées à partir de la fonction **[!UICONTROL Propriétés]** de l’éditeur. Pour plus d&#39;informations sur le Digital Content Editor (DCE), voir [cette section](about-campaign-html-editor.md).
+Lorsqu&#39;une application web est créée en utilisant l&#39;éditeur de contenus HTML - **Digital Content Editor (DCE)** -, les balises de tracking sont insérées depuis le sous-onglet **[!UICONTROL Propriétés]** de l&#39;éditeur. Pour plus d&#39;informations sur le Digital Content Editor (DCE), consultez [cette section](about-campaign-html-editor.md).
 
 ![](assets/trackers_2.png)
 

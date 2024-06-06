@@ -5,9 +5,9 @@ description: Mise à jour de liste
 feature: Workflows, Targeting Activity
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Si vous souhaitez que la liste créée ou mise à jour utilise une autre table q
 
 Pour utiliser cette option, les tables spécifiques concernées doivent avoir été configurées dans votre instance Adobe Campaign.
 
-En règle générale, l&#39;enregistrement d&#39;une cible dans une liste marque la fin d&#39;un workflow. Par défaut, la variable **[!UICONTROL Mise à jour de liste]** par conséquent, l’activité n’a pas de transition sortante. Vérifiez les **[!UICONTROL Générer une transition sortante]** pour en ajouter une.
+Généralement, la sauvegarde d&#39;une cible dans une liste marque la fin d&#39;un workflow. Par défaut, l&#39;activité **[!UICONTROL Mise à jour de liste]** n&#39;a donc pas de transition sortante. Cochez l&#39;option **[!UICONTROL Générer une transition sortante]** pour en ajouter une.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment créer une liste de destinataires à partir de l‘Explorateur dans une vidéo](#video)
 

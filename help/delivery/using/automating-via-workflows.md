@@ -2,14 +2,14 @@
 product: campaign
 title: Automatisation par workflows
 description: Découvrez comment automatiser la gestion de contenu à lʼaide des workflows
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Workflows
 role: User
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1209'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Le contenu est paramétré à partir de l&#39;activité Gestion de contenu, comm
 
 Une nouvelle instance de contenu est créée à partir du modèle de publication et du dossier chaîne de contenu.
 
-Dans notre exemple, nous avons surchargé le sujet de la diffusion. Elle sera prise en compte au lieu de celle saisie dans la variable **[!UICONTROL Diffusion]** modèle.
+Dans notre exemple, nous avons surchargé l’objet de la diffusion. Il sera pris en compte à la place de celui renseigné dans le modèle de diffusion de l’activité **[!UICONTROL Diffusion]**.
 
 Le contenu est complété automatiquement par un flux XML provenant de l&#39;URL renseignée :
 
@@ -214,11 +214,11 @@ L&#39;action finale de l&#39;activité est de préparer et de lancer la diffusio
 
 ### Import du contenu depuis FTP {#importing-content-from-ftp}
 
-Si le contenu de votre diffusion figure dans un fichier HTML situé sur un serveur FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
+Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
 
 ### Import du contenu depuis le connecteur Amazon Simple Storage Service (S3) {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
-Si le contenu de votre diffusion se trouve dans des compartiments Amazon Simple Storage Service (S3), vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
+Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve dans des compartiments Amazon Simple Storage Service (S3), vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
 
 ## Mise à jour semi-automatique {#semi-automatic-update}
 

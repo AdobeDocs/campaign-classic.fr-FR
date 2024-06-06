@@ -3,15 +3,15 @@ product: campaign
 title: Utilisation du serveur SFTP
 description: Découvrez les bonnes pratiques et la résolution des problèmes liés au serveur SFTP.
 feature: Troubleshooting
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1120'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ En outre, lors de la spécification dans Campaign Classic d’un chemin d’acc�
 
 La section ci-après indique les informations à vérifier et à fournir à l’équipe de support d’Adobe via l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) lorsque vous rencontrez des problèmes liés aux serveurs SFTP hébergés d’Adobe.
 
-1. Vérifiez que votre instance est en cours d’exécution. Pour ce faire, ouvrez votre navigateur, puis créez une **[!UICONTROL GET]** appel sur l&#39;instance **[!UICONTROL /r/test]** endpoint :
+1. Vérifiez que votre instance est en cours d’exécution. Pour cela, ouvrez votre navigateur, puis effectuez un appel **[!UICONTROL GET]** sur le point d’entrée **[!UICONTROL /r/test]** de l’instance :
 
    ```
    https://instanceUrl/r/test

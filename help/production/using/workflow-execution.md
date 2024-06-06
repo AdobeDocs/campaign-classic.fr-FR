@@ -3,15 +3,15 @@ product: campaign
 title: Exécution des workflows
 description: Exécution des workflows
 feature: Monitoring, Workflows
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -118,6 +118,6 @@ Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
 
 Si un workflow est en échec, procédez comme suit :
 
-1. Vérifiez le journal du workflow. Voir à ce sujet la section [Surveillance de l&#39;exécution des workflows](../../workflow/using/monitoring-workflow-execution.md) et [Afficher les logs](../../workflow/using/monitoring-workflow-execution.md#displaying-logs) sections.
-1. Surveillez les workflows techniques. Voir à ce propos la section [cette section](../../workflow/using/monitoring-technical-workflows.md).
+1. Vérifiez le journal du workflow. Voir à ce propos les sections [Suivre l&#39;exécution des workflows](../../workflow/using/monitoring-workflow-execution.md) et [Afficher les logs](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
+1. Effectuez un suivi des workflows techniques. Voir à ce propos [cette section](../../workflow/using/monitoring-technical-workflows.md).
 1. Recherchez des échecs dans chaque activité du workflow.

@@ -2,14 +2,14 @@
 product: campaign
 title: Définition de la population cible
 description: En savoir plus sur la définition de la population cible
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Audiences, Proofs
 role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1749'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -43,11 +43,11 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
    ![](assets/s_ncs_user_wizard_email02b.png)
 
-   Vous pouvez sélectionner des destinataires à partir des types de ciblage définis dans la base de données. Pour utiliser un type de cible, sélectionnez-le et cliquez sur **[!UICONTROL Suivant]**. Pour chaque cible, vous pouvez afficher les destinataires concernés en cliquant sur le bouton **[!UICONTROL Aperçu]** . Pour certains types de cibles, la variable **[!UICONTROL Affiner la cible]** permet de combiner plusieurs critères de ciblage.
+   Vous pouvez sélectionner les destinataires en utilisant les types de ciblage définis dans la base. Pour utiliser un type de cible, sélectionnez-le et cliquez sur **[!UICONTROL Suivant]**. Pour chaque cible, vous pouvez visualiser les destinataires concernés en cliquant sur l&#39;onglet **[!UICONTROL Aperçu]**. Pour certains types de cibles, le bouton **[!UICONTROL Affiner la cible]** permet de conjuguer plusieurs critères de ciblage.
 
    Par défaut, les types de cibles suivants sont proposés :
 
-   * **[!UICONTROL Critères de filtrage]** : cette option permet de définir une requête et d&#39;afficher le résultat. La méthode de définition des requêtes est présentée dans la section [cette section](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+   * **[!UICONTROL Critères de filtrage]** : cette option permet de définir une requête et d&#39;en visualiser le résultat. Le mode de définition des requêtes est présenté dans [cette section](../../platform/using/creating-filters.md#creating-an-advanced-filter).
    * **[!UICONTROL Abonnés d&#39;un service d&#39;information]** : cette option vous permet de sélectionner une newsletter à laquelle les destinataires doivent être abonnés pour être ciblés par la diffusion en cours de création.
 
      ![](assets/s_ncs_user_wizard_email02c.png)
@@ -70,8 +70,8 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
    * **[!UICONTROL Destinataires présents dans un dossier]** : cette option permet de cibler les profils contenus dans un dossier spécifique de l&#39;arborescence.
    * **[!UICONTROL Un destinataire]** : cette option permet de sélectionner un destinataire spécifique parmi les profils de la base.
-   * **[!UICONTROL Une liste de destinataires]** : cette option permet de cibler une liste de destinataires. Les listes sont présentées dans la section [cette section](../../platform/using/creating-and-managing-lists.md).
-   * **[!UICONTROL Filtres utilisateur]** : cette option permet d&#39;accéder aux filtres préconfigurés afin de les utiliser comme critères de filtrage pour les profils de la base de données. Les filtres préconfigurés sont présentés dans la section [cette section](../../platform/using/creating-filters.md#saving-a-filter).
+   * **[!UICONTROL Une liste de destinataires]** : cette option permet de cibler une liste de destinataires. Les listes sont présentées dans [cette section](../../platform/using/creating-and-managing-lists.md).
+   * **[!UICONTROL Filtres utilisateurs]** : cette option permet d&#39;accéder aux filtres préconfigurés disponibles afin de les utiliser comme critères de filtrage des profils de la base. Les filtres préconfigurés sont présentés dans [cette section](../../platform/using/creating-filters.md#saving-a-filter).
    * L&#39;option **[!UICONTROL Exclure les destinataires correspondant à ce segment]** permet de cibler sur les destinataires ne répondant pas au(x) critère(s) de ciblage défini(s). Pour utiliser cette option, cochez la case correspondante puis opérez un ciblage, comme défini précédemment, pour exclure les profils en résultant.
 
      ![](assets/s_ncs_user_wizard_email02g.png)
@@ -94,7 +94,7 @@ Pour cela :
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. Par défaut, les destinataires sont importés dans la base de données. Vous devez sélectionner la variable **[!UICONTROL Mapping de ciblage]**. Pour plus d’informations sur les mappings de ciblage, consultez la section [Sélection dʼun mapping de ciblage](selecting-a-target-mapping.md).
+1. Par défaut, les destinataires sont importés dans la base de données. Vous devez sélectionner le **[!UICONTROL Mapping de ciblage]**. Pour plus d’informations sur les mappings de ciblage, consultez la section [Sélection dʼun mapping de ciblage](selecting-a-target-mapping.md).
 
    Vous pouvez également sélectionner **[!UICONTROL Ne pas importer les destinataires dans la base]**.
 
@@ -173,7 +173,7 @@ Pour sélectionner la cible des BAT, procédez comme suit :
 
 >[!NOTE]
 >
->En règle générale, la cible du BAT peut être ajoutée à la cible principale. Pour ce faire, sélectionnez l’option appropriée dans la section inférieure de la **[!UICONTROL Cible principale]** .
+>En règle générale, la cible du BAT peut être ajoutée à la cible principale. Pour cela, cochez l&#39;option correspondante dans la section inférieure de l&#39;onglet **[!UICONTROL Cible principale]**.
 
 ## Définition dʼune cible spécifique au BAT {#defining-a-specific-proof-target}
 

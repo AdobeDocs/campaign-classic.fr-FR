@@ -5,9 +5,9 @@ description: Gérer les fuseaux horaires
 feature: Workflows
 exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Dans un workflow, vous pouvez adapter les plannings d&#39;exécution des activit
 
 Vous pouvez planifier l’exécution des tâches à l’aide du planificateur (voir [Planificateur](scheduler.md)). Vous pouvez également utiliser les options de planification disponibles dans les activités qui proposent cette fonctionnalité. Ces activités offrent un onglet **[!UICONTROL Planification]** : **[!UICONTROL Collecteur de fichiers]**, **[!UICONTROL Transfert de fichiers]**, **[!UICONTROL Téléchargement Web]**, **[!UICONTROL Réception d’emails]** et **[!UICONTROL SMS]**, etc.
 
-Pour toutes les tâches planifiées, c&#39;est-à-dire toutes les activités ayant des options de planification, vous pouvez sélectionner le fuseau horaire à appliquer. Le fuseau horaire est sélectionné à l&#39;aide de la fonction **[!UICONTROL Avancé]** onglet de l&#39;activité concernée :
+Pour toute tâche planifiée, c&#39;est-à-dire dans toute activité qui propose des options de planification, vous pouvez choisir le fuseau horaire à appliquer. Le fuseau horaire est sélectionné à l&#39;aide de l’onglet **[!UICONTROL Avancé]** de l&#39;activité concernée :
 
 ![](assets/wf-timezone-in-a-box.png)
 

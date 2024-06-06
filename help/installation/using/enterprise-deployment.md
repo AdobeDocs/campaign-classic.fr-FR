@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1218'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -263,7 +263,7 @@ Les étapes sont les suivantes :
    * Pour Linux : [Intégration à un serveur web pour Linux](../../installation/using/integration-into-a-web-server-for-linux.md),
    * Pour Windows : [Intégration à un serveur web pour Windows](../../installation/using/integration-into-a-web-server-for-windows.md).
 
-1. Copiez le **config-demo.xml** et **serverConf.xml** fichiers créés lors de l’installation. Dans le **config-demo.xml** , activez la variable **trackinglogd** traiter et désactiver la fonction **mta**, **inmail**, **wfserver** et **stat** processus.
+1. Copiez les fichiers **config-demo.xml** et **serverConf.xml** créés lors de l’installation. Dans le fichier **config-demo.xml**, activez le processus **trackinglogd**, et désactivez les processus **mta**, **inmail**, **wfserver** et **stat**.
 1. Editez le fichier **serverConf.xml** et renseignez les serveurs de tracking redondants dans les paramètres de la redirection :
 
    ```

@@ -3,15 +3,15 @@ product: campaign
 title: Configuration des traitements d'export
 description: Découvrez comment configurer et exécuter des traitements d'export dans Campaign.
 feature: Overview
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1037'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -38,20 +38,20 @@ Lorsque vous lancez l&#39;assistant d&#39;export, vous devez d&#39;abord sélect
 
 1. Cliquez sur la flèche située à droite du champ **[!UICONTROL Modèle d&#39;export]** pour sélectionner votre modèle, ou cliquez sur l&#39;icône **[!UICONTROL Choisir le lien]** pour parcourir l&#39;arborescence.
 
-   Le modèle natif est **[!UICONTROL Nouvelle exportation de texte]**. Ce modèle ne doit pas être modifié, mais vous pouvez le dupliquer pour configurer un nouveau modèle. Par défaut, les modèles d’exportation sont enregistrés dans la variable **[!UICONTROL Ressources > Modèles > Modèles de tâche]** noeud .
+   Le modèle natif est **[!UICONTROL Nouvel export texte]**. Ce modèle ne doit pas être modifié, mais vous pouvez le dupliquer pour en configurer un nouveau. Par défaut, les modèles d&#39;export sont enregistrés dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de traitement]**.
 
 1. Saisissez un nom pour cet export dans le champ **[!UICONTROL Libellé]**. Vous pouvez ajouter une description.
-1. Sélectionnez le type d&#39;export. Il existe deux types d&#39;export possibles : **[!UICONTROL Export simple]** pour n’exporter qu’un seul fichier, et **[!UICONTROL Export multiple]** pour exporter plusieurs fichiers en une seule exécution, depuis un ou plusieurs types de documents source.
+1. Sélectionnez le type d&#39;export. Deux types d&#39;export sont possibles : **[!UICONTROL Export simple]** pour n&#39;exporter qu&#39;un seul fichier et **[!UICONTROL Export multiple]** pour exporter plusieurs fichiers en une seule exécution, depuis un ou plusieurs types de documents sources.
 
 ## Etape 2 - Type de fichier à exporter {#step-2---type-of-file-to-export}
 
 Sélectionnez le type de document à exporter, c&#39;est-à-dire le schéma des données à exporter.
 
-Par défaut, lorsque l’exportation est lancée à partir de la fonction **[!UICONTROL Tâches]** les données proviennent de la table des destinataires. Lorsque l&#39;export est lancé à partir d&#39;une liste de données (à partir de la fonction **[!UICONTROL clic droit > Exporter]** ), le tableau auquel appartiennent les données est automatiquement renseigné dans la variable **[!UICONTROL Type de document]** champ .
+Par défaut, lorsque l&#39;export est lancé depuis le nœud **[!UICONTROL Traitements]**, il s&#39;agit des données de la table des destinataires. Si l&#39;export est lancé à partir d&#39;une liste de données (à partir du **[!UICONTROL menu contextuel > Exporter]**), la table à laquelle appartiennent les données est automatiquement renseignée dans le champ **[!UICONTROL Type de document]**.
 
 ![](assets/s_ncs_user_export_wizard02.png)
 
-* Par défaut, la variable **[!UICONTROL Téléchargez le fichier généré sur le serveur après l’exportation.]** est sélectionnée. Dans le **[!UICONTROL Fichier local]** , renseignez le nom et le chemin du fichier à créer, ou parcourez votre disque local en cliquant sur le dossier situé à droite du champ. Vous pouvez désélectionner cette option pour saisir le chemin d’accès et le nom du fichier de sortie du serveur.
+* Par défaut, la case **[!UICONTROL Rapatrier en local le fichier généré après l&#39;export]** est cochée. Dans le champ **[!UICONTROL Fichier local]**, renseignez le nom et le chemin du fichier à créer, ou parcourez votre disque local en cliquant sur le dossier situé à droite du champ. Vous pouvez désélectionner cette option pour saisir le chemin d&#39;accès et le nom du fichier de sortie sur le serveur.
 
   >[!NOTE]
   >
@@ -59,7 +59,7 @@ Par défaut, lorsque l’exportation est lancée à partir de la fonction **[!UI
   >
   >Si vous souhaitez n&#39;exporter qu&#39;une partie des données, cliquez sur le lien **[!UICONTROL Paramètres avancés...]** et indiquez le nombre de lignes à exporter dans le champ correspondant.
 
-* Vous pouvez créer un export différentiel afin de n&#39;exporter que les enregistrements modifiés depuis la dernière exécution. Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres avancés]** , puis cliquez sur le lien **[!UICONTROL Exportation différentielle]** , puis sélectionnez **[!UICONTROL Activer l&#39;export différentiel]**.
+* Vous pouvez créer un export différentiel afin de n&#39;exporter que les enregistrements modifiés depuis la dernière exécution. Pour cela, cliquez sur le lien **[!UICONTROL Paramètres avancés]**, cliquez sur l&#39;onglet **[!UICONTROL Export différentiel]**, puis cochez la case **[!UICONTROL Activer l&#39;export différentiel]**.
 
   ![](assets/s_ncs_user_export_wizard02_b.png)
 
@@ -73,8 +73,8 @@ Sélectionnez le format de sortie du fichier exporté. Les formats possibles son
 
 * Pour le format **[!UICONTROL Texte]**, choisissez les délimiteurs à utiliser pour séparer les colonnes (tabulations, virgules, points-virgules, ou personnalisé) et les chaînes (guillemets simples ou doubles, ou aucun).
 * Pour les format **[!UICONTROL Texte]** et **[!UICONTROL CSV]**, vous pouvez cocher l&#39;option **[!UICONTROL Utiliser la première ligne comme titre des colonnes]**.
-* Indiquez le format de date et le format des nombres. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modifier]** pour le champ concerné et utilisez l&#39;éditeur.
-* Pour les champs contenant des valeurs énumérées, vous pouvez sélectionner **[!UICONTROL Exporter des libellés plutôt que des valeurs internes des énumérations]**. Par exemple, le titre peut être stocké dans le formulaire. **1 = M.**, **2=Mademoiselle**, **3 = Mme.**. Si cette option est sélectionnée, **M.**, **Melle** et **Mme** seront exportés.
+* Indiquez le format de date et le format des nombres. Pour cela, cliquez sur le bouton **[!UICONTROL Editer]** correspondant au champ et utilisez l&#39;éditeur.
+* Pour les champs contenant des valeurs énumérées, vous pouvez sélectionner **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]**. Par exemple, le titre peut être stocké sous la forme **1=M.**, **2=Mademoiselle**, **3=Mme.**. Si cette option est sélectionnée, **M.**, **Melle** et **Mme** seront exportés.
 
 ## Etape 4 - Sélection des données {#step-4---data-selection}
 
@@ -95,7 +95,7 @@ Sélectionnez l&#39;ordre de tri des colonnes.
 
 ## Etape 6 - Conditions de filtrage {#step-6---filter-conditions-}
 
-Vous pouvez ajouter des conditions de filtrage afin de ne pas exporter toutes les données. Le paramétrage de ce filtrage est le même que le ciblage des destinataires dans l&#39;assistant de diffusion. Pour plus d’informations, consultez [cette page](../../delivery/using/steps-defining-the-target-population.md).
+Vous pouvez ajouter des conditions de filtrage afin de ne pas exporter toutes les données. La configuration de ce filtrage correspond à celui du ciblage des destinataires dans l&#39;assistant de diffusion. Pour plus d’informations, consultez [cette page](../../delivery/using/steps-defining-the-target-population.md).
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
@@ -121,7 +121,7 @@ Si vous exportez une collection d&#39;éléments (par exemple les abonnements de
 
 ## Etape 8 - Prévisualisation des données {#step-8---data-preview}
 
-Cliquez sur **[!UICONTROL Lancer la prévisualisation des données]** pour un aperçu du résultat de l&#39;export. Par défaut, les 200 premières lignes sont affichées. Pour modifier cette valeur, cliquez sur les flèches situées à droite du champ **[!UICONTROL Lignes à afficher]** champ .
+Cliquez sur **[!UICONTROL Lancer la prévisualisation des données]** pour un aperçu du résultat de l&#39;export. Par défaut, les 200 premières lignes sont affichées. Cliquez sur les flèches à droite du champ **[!UICONTROL Lignes à visualiser]** pour modifier cette valeur.
 
 ![](assets/s_ncs_user_export_wizard07.png)
 

@@ -2,13 +2,13 @@
 product: campaign
 title: Conception d’un questionnaire
 description: Découvrez les étapes clés de la conception d'un questionnaire
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 70%
 
 Le chapitre suivant présente les étapes de conception d&#39;un formulaire de type **Questionnaire** sous Adobe Campaign, ainsi que les options et paramétrages disponibles. Adobe Campaign permet de mettre ce questionnaire à disposition des utilisateurs, et de collecter et archiver les réponses dans la base de données.
 
-Les formulaires web sont accessibles à partir de **[!UICONTROL Ressources > On > Applications Web]** du noeud de l’arborescence. Pour créer un questionnaire, cliquez sur le bouton **[!UICONTROL Nouveau]** au-dessus de la liste des applications, ou cliquez avec le bouton droit de la souris dans la liste et choisissez **[!UICONTROL Nouveau]**.
+Les formulaires Web sont accessibles à partir du noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence. Pour créer un questionnaire, cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des applications, ou cliquez avec le bouton droit dans la liste et choisissez **[!UICONTROL Nouveau]**.
 
 Choisissez le modèle de questionnaire (par défaut **[!UICONTROL newSurvey]**).
 
@@ -34,7 +34,7 @@ Les pages du formulaire sont créées au travers d&#39;un éditeur spécifique q
 
 ## Ajouter des champs {#adding-fields}
 
-Les champs d’un formulaire permettent aux utilisateurs de saisir des informations et de sélectionner des options. Pour chaque page du formulaire, elles sont créées à partir du premier bouton de la barre d&#39;outils, à partir du **[!UICONTROL Ajouter à l’aide de l’assistant]** .
+Dans un formulaire, les champs permettent aux utilisateurs de saisir des informations et sélectionner des options. Pour chaque page du formulaire, ils sont créés via le premier bouton de la barre d&#39;outils, depuis le menu **[!UICONTROL Ajout assisté]**.
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
@@ -46,7 +46,7 @@ Les champs d’un formulaire permettent aux utilisateurs de saisir des informati
 
 Lorsque vous ajouter un champ dans un questionnaire, vous devez sélectionner le type de champ à ajouter. Les options suivantes sont disponibles :
 
-1. **[!UICONTROL Répondre à une question]**: cette option permet de déclarer un nouveau champ (appelé &quot;champ archivé&quot;) afin de stocker les réponses. Dans ce cas, toutes les valeurs collectées sont enregistrées, même lorsqu’un participant remplit le formulaire plusieurs fois. Ce mode de stockage n’est disponible que dans **Questionnaires**. [En savoir plus](../../surveys/using/managing-answers.md#storing-collected-answers).
+1. **[!UICONTROL Répondre à une question]** : cette option permet de déclarer un nouveau champ (dit « champ archivé ») afin de stocker les réponses. Dans ce cas, toutes les valeurs collectées sont enregistrées, et pas seulement la dernière. Ce mode de stockage n’est disponible que dans les **Questionnaires**. [En savoir plus](../../surveys/using/managing-answers.md#storing-collected-answers).
 1. **[!UICONTROL Éditer un destinataire]** : cette option permet de sélectionner un champ de la base de données. Dans ce cas, les réponses des utilisateurs seront stockées dans ce champ. Pour chaque participant, seule la dernière valeur saisie est conservée. Elle est ajoutée aux données de son profil.
 1. **[!UICONTROL Ajouter une variable]** : cette option permet de ne pas conserver les informations dans la base de données. Les variables locales peuvent être déclarées en amont. Vous pouvez également en ajouter directement lors de la création du champ.
 1. **[!UICONTROL Importer une question existante]** : cette option permet d’importer des questions existantes, créées dans d’autres questionnaires.
@@ -55,7 +55,7 @@ Lorsque vous ajouter un champ dans un questionnaire, vous devez sélectionner le
    >
    >Les modes de stockage ainsi que l&#39;import de champs sont présentés dans [cette section](../../surveys/using/managing-answers.md#storing-collected-answers).
 
-La nature du champ à ajouter (liste déroulante, champ de texte, cases à cocher, etc.) s’adapte au mode de stockage sélectionné. Vous pouvez la modifier à l’aide de la fonction **[!UICONTROL Type]** du champ **[!UICONTROL Général]** , mais assurez-vous de rester cohérent avec le type de données.
+La nature du champ à ajouter (liste déroulante, champ de texte, case à cocher, etc.) s’adapte au mode de stockage sélectionné. Vous pouvez la modifier à l’aide du champ **[!UICONTROL Type]** de l&#39;onglet **[!UICONTROL Général]**, mais il faut veiller à rester cohérent avec le type de données.
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
@@ -67,7 +67,7 @@ Les questionnaires en ligne reposent sur les fonctionnalités des applications w
 
 ### Choix multiples {#multiple-choice}
 
-Pour **[!UICONTROL Choix multiples]** des contrôles de type , vous pouvez définir un nombre minimal et maximal de sélections. Par exemple, cette option vous permet de forcer la sélection au moins pour **2** et au plus **4** des options disponibles :
+Pour les contrôles de type **[!UICONTROL Choix multiples]**, vous pouvez définir un nombre minimal et maximal de sélections. Par exemple, cette option vous permet de forcer la sélection sur au moins **2** valeurs et au plus **4** valeurs parmi les options disponibles :
 
 ![](assets/s_ncs_admin_survey_multichoice_ex1.png)
 
@@ -104,7 +104,7 @@ Utilisez un conteneur de type **Question** pour ajouter une question dans la pag
 
 ![](assets/s_ncs_admin_question_label.png)
 
-Le libellé de la question est saisi dans le champ libellé. Dans ce cas, le style de la feuille de style du formulaire est appliqué. Sélectionnez la variable **[!UICONTROL Saisissez le titre au format HTML]** pour la personnaliser. Vous aurez ainsi accès à l’éditeur de HTMLS.
+Le libellé de la question est saisi dans le champ de libellé. Dans ce cas, le style de la feuille de style du formulaire est appliqué. Cochez l&#39;option **[!UICONTROL Saisir le titre au format HTML]** pour le personnaliser. Vous accédez alors à l&#39;éditeur HTML.
 
 >[!NOTE]
 >

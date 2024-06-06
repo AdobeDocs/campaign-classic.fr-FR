@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow d’enrichissement
 feature: Workflows, Enrichment Activity, Targeting Activity
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1427'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -123,7 +123,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/enrichment_edit_after_file_box.png)
 
-1. Sélectionnez la variable **[!UICONTROL Définition de lien]** et cliquez sur l’option **[!UICONTROL Suivant]** bouton . Indiquez le type de lien à créer. Dans cet exemple, nous allons réconcilier le pays du destinataire du fichier avec un pays dans la liste des pays disponibles de la table dédiée de la base de données. Choisissez la **[!UICONTROL Définir un lien en recherchant une référence parmi plusieurs options]** . Sélectionnez le tableau des pays dans la **[!UICONTROL Schéma cible]** champ .
+1. Sélectionnez l&#39;option **[!UICONTROL Définition de lien]** et cliquez sur le bouton **[!UICONTROL Suivant]**. Indiquez le type de lien à créer. Dans cet exemple, nous allons réconcilier le pays du destinataire du fichier avec un pays dans la liste des pays disponibles de la table dédiée de la base de données. Vous devez donc choisir l&#39;option **[!UICONTROL Définir un lien en recherchant une référence parmi plusieurs possibilités]**. Sélectionnez la table des pays dans le champ **[!UICONTROL Schéma cible]**.
 
    ![](assets/enrichment_add_a_link_select_option4.png)
 
@@ -137,7 +137,7 @@ En sortie de cette activité d’enrichissement, le schéma temporaire contiendr
 
 ## Réconciliation des données {#data-reconciliation}
 
-L&#39;activité d&#39;enrichissement peut être utilisée pour paramétrer la réconciliation des données, y compris une fois les données chargées dans la base. Dans ce cas, la variable **[!UICONTROL Réconciliation]** vous permet de définir le lien entre les données de la base Adobe Campaign et les données de la table de travail.
+L’activité d’enrichissement peut être utilisée pour paramétrer la réconciliation des données, notamment suite au chargement de données dans la base. Dans ce cas, l’onglet **[!UICONTROL Réconciliation]** permet de définir le lien entre les données de la base Adobe Campaign et les données de la table de travail.
 
 Sélectionnez l&#39;option **[!UICONTROL Identifier le document de ciblage à partir des données de travail]** et indiquez le schéma vers lequel vous souhaitez faire le lien et indiquez les conditions de jointure : pour cela, sélectionnez les champs à réconcilier dans les données de travail (**[!UICONTROL Expression source]**) et dans la dimension de ciblage (**[!UICONTROL Expression destination]**).
 
@@ -168,7 +168,7 @@ Après avoir paramétré votre requête (voir cette [section](query.md)) :
 1. Indiquez un identifiant ainsi qu&#39;un libellé pour la proposition qui sera ajoutée.
 1. Définissez la sélection de l&#39;offre. Deux options sont possibles :
 
-   * **[!UICONTROL Rechercher la meilleure offre dans une catégorie]**: cochez cette option et définissez les paramètres d&#39;appel au moteur d&#39;offres (emplacement, catégorie ou thème(s), date de contact, nombre d&#39;offres à conserver). Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres. Nous vous recommandons de terminer l’une des opérations suivantes : **[!UICONTROL Catégorie]** ou le **[!UICONTROL Thème]** , plutôt que les deux en même temps.
+   * **[!UICONTROL Rechercher la meilleure offre dans une catégorie]** : cochez cette option et définissez les paramètres d’appel du moteur dʼoffres (emplacement, catégorie ou thèmes, date de contact, nombre dʼoffres à conserver). Le moteur calcule automatiquement la ou les offres à ajouter en fonction de ces paramètres. Nous vous recommandons de renseigner soit le champ **[!UICONTROL Catégorie]**, soit le champ le **[!UICONTROL Thème]**, plutôt que les deux à la fois.
 
      ![](assets/int_enrichment_offer3.png)
 
@@ -223,4 +223,4 @@ Cependant, il est possible de stocker ces informations de la manière suivante 
 
 1. Validez votre ajout et enregistrez votre workflow.
 
-La diffusion stocke automatiquement le rang et le poids des offres. Ces informations sont visibles dans le **[!UICONTROL Offres]** .
+La diffusion stocke automatiquement le rang et le poids des offres. Ces informations sont visibles dans l’onglet **[!UICONTROL Offres]** de la diffusion.

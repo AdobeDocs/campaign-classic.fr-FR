@@ -2,14 +2,14 @@
 product: campaign
 title: Envoi, surveillance et suivi de SMS
 description: Découvrez comment envoyer, surveiller et suivre des SMS dans Campaign
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Le processus détaillé lors de la validation et l&#39;envoi d&#39;une diffusion
 
 ## Paramètres avancés {#advanced-parameters}
 
-La variable **[!UICONTROL Propriétés]** donne accès au paramètre de diffusion avancé. Les paramètres spécifiques aux diffusions SMS se trouvent dans la variable **[!UICONTROL Paramètres SMS]** de la **[!UICONTROL Diffusion]** .
+Le bouton **[!UICONTROL Propriétés]** permet d&#39;accéder aux paramètres avancés de la diffusion. Les paramètres spécifiques à l&#39;envoi des SMS sont regroupés dans la section **[!UICONTROL Paramètres SMS]** de l&#39;onglet **[!UICONTROL Envoi]**.
 
 Les options disponibles sont les suivantes :
 
@@ -41,8 +41,8 @@ Les options disponibles sont les suivantes :
   >Vérifiez la loi en vigueur dans votre pays concernant la modification du nom de l&#39;expéditeur. Vérifiez également auprès de votre opérateur s&#39;il propose cette fonctionnalité.
 
 * **Mode de transmission** : moyen d&#39;acheminement des messages par SMS.
-* **Priorité**: niveau d’importance attribué à un message. **[!UICONTROL Normal]** La priorité est sélectionnée par défaut. Demandez à votre prestataire quel est le coût des SMS envoyés avec **[!UICONTROL Élevée]** priorité.
-* **Type d’application**: choisissez l&#39;application que vous souhaitez affecter à votre diffusion SMS. La variable **[!UICONTROL Marketing direct]** est sélectionnée par défaut et est la plus courante.
+* **Priorité** : niveau d&#39;importance attribué à un message. La priorité **[!UICONTROL Normale]** est sélectionnée par défaut. Renseignez-vous auprès de votre fournisseur pour connaître les tarifs d&#39;un SMS envoyé en priorité **[!UICONTROL Haute]**.
+* **Type d&#39;application** : choisissez l&#39;application que vous souhaitez attribuer à votre diffusion par SMS. L&#39;option **[!UICONTROL Marketing Direct]** est sélectionnée par défaut et constitue l&#39;utilisation la plus courante.
 
 **Paramètres propres au connecteur NetSize**
 
@@ -77,7 +77,7 @@ Le module **nlserver sms** interroge à intervalle régulier le routeur des mess
   > * Les accusés de réception d&#39;un compte externe de SMS effacé ne sont pas traités correctement.
   > * Un compte SMS ne peut être associé qu&#39;à un seul compte externe afin que les accusés de réception soient correctement attribués à ce dernier
 
-* **Désabonnement**: les destinataires qui souhaitent arrêter de recevoir des diffusions SMS peuvent renvoyer un message contenant le mot STOP. Si votre fournisseur l&#39;autorise en vertu des termes du contrat, vous pouvez récupérer les messages via la variable **Réception de SMS** activité de workflow , puis créez une requête pour activer la fonction **Ne plus contacter ce destinataire** pour les destinataires concernés.
+* **Désinscription** : les destinataires qui ne souhaitent plus recevoir de diffusions par SMS peuvent renvoyer un message contenant le mot STOP. Si votre fournisseur vous le permet contractuellement, vous avez la possibilité de récupérer ses messages via l&#39;activité de workflow **Réception de SMS** puis de créer une requête afin que l&#39;option **Ne plus contacter cette personne** soit activée pour les destinataires concernés.
 
   Reportez-vous au guide [Workflows](../../workflow/using/architecture.md).
 

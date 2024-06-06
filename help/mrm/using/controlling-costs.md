@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2559'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Les étapes de mise en oeuvre de la gestion des budgets avec MRM sont les suivan
 
 ## Créer un budget {#creating-a-budget}
 
-Les budgets sont créés au niveau de la carte, à partir du **[!UICONTROL Gestion de campagne > Budgets]** noeud . La variable **[!UICONTROL Nouveau]** dans la barre d&#39;outils permet de créer un budget.
+Les budgets sont créés au niveau de la vue globale, à partir du noeud **[!UICONTROL Gestion de campagne > Budgets]**. Le bouton **[!UICONTROL Nouveau]** de la barre d&#39;outils permet de créer un budget.
 
 * Ajouter un nouveau budget
 

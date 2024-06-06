@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: tracking-offers
 exl-id: 44c57b0c-3561-4943-812f-945f5fcbb142
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -38,6 +38,6 @@ Les statistiques sont classées selon trois critères :
 
   ![](assets/offer_report_perdeliveries.png)
 
-Les données peuvent être filtrées selon les différents critères disponibles dans la section supérieure du rapport. Une fois que vous avez sélectionné les critères souhaités, cliquez sur le bouton **[!UICONTROL Actualiser]** pour les appliquer au rapport.
+Vous pouvez filtrer les données à l&#39;aide de différents critères disponibles dans la partie supérieure du rapport. Lorsque vous avez choisi les critères, cliquez sur le lien **[!UICONTROL Actualiser]** pour les appliquer au rapport.
 
 ![](assets/offer_report_criteria.png)

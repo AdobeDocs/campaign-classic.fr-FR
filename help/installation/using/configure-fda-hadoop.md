@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '600'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -156,7 +156,7 @@ Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-des
    >
    >Le paramètre **UseNativeQuery** est ici très important. Campaign est basé sur Hive et ne fonctionnera pas correctement si le paramètre UseNativeQuery n’est pas défini. En règle générale, le pilote ou Hive SQL Connector réécrit les requêtes et modifie l’ordre des colonnes.
 
-   La configuration de l’authentification dépend de la configuration Hive/Hadoop. Par exemple, pour HD Insight, utilisez AuthMech=6 pour l’authentification par utilisateur/mot de passe, comme décrit [here](https://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm).
+   La configuration de l’authentification dépend de la configuration de Hive/Hadoop. Par exemple, pour HDInsight, utilisez AuthMech=6 pour l’authentification par utilisateur/mot de passe, comme décrit [ici](https://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm).
 
 1. Exportez les variables.
 

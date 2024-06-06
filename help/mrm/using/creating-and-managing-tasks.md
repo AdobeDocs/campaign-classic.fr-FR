@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3912'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Vous pouvez également créer une tâche à partir du tableau de bord d&#39;une 
 
 ![](assets/s_ncs_user_task_create_new_from_op.png)
 
-Une fois créée, la tâche est ajoutée au planning de l&#39;opération et à la liste des tâches. Pour modifier une tâche, sélectionnez-la dans le planning ou cliquez sur son nom dans la vue d&#39;ensemble des tâches, puis cliquez sur le bouton **[!UICONTROL Ouvrir]** lien.
+Une fois créée, la tâche est ajoutée dans le calendrier des campagnes et dans la liste des tâches. Pour éditer une tâche, sélectionnez-la dans le planning, ou cliquez sur son nom dans la vue d&#39;ensemble des tâches, et cliquez sur le lien **[!UICONTROL Ouvrir]**.
 
 ![](assets/s_ncs_user_task_edit_simple.png)
 
@@ -88,7 +88,7 @@ Le cycle de vie d&#39;une tâche est présenté dans la section [Cycle de vie](#
 
 Le responsable de la tâche est le seul opérateur habilité à clore la tâche.
 
-Par défaut, lorsqu&#39;un opérateur Adobe Campaign crée une tâche, elle lui est automatiquement assignée. Pour sélectionner un autre opérateur, utilisez la méthode **[!UICONTROL Affecté à]** champ .
+Par défaut, lorsqu&#39;un opérateur Adobe Campaign crée une tâche, elle lui est automatiquement assignée. Vous pouvez toutefois sélectionner un autre opérateur dans le champ **[!UICONTROL Affecté à]**.
 
 ![](assets/s_ncs_user_task_edit_simple_general_tab.png)
 
@@ -98,7 +98,7 @@ Par défaut, lorsqu&#39;un opérateur Adobe Campaign crée une tâche, elle lui 
 
 En plus du responsable, vous pouvez indiquer les opérateurs impliqués dans la réalisation de la tâche. Ces opérateurs ne sont pas habilités à clore la tâche. Ils peuvent uniquement valider la partie de la tâche qui leur est assignée.
 
-Ils sont sélectionnés à l’aide du **[!UICONTROL Ressources]** dans la barre d’outils de la tâche. Cliquez sur **[!UICONTROL Ajouter]** et sélectionnez les opérateurs et opératrices concernés.
+Ils sont sélectionnés à partir de l&#39;icône **[!UICONTROL Ressources]** située dans la barre d&#39;outils de la tâche. Cliquez sur **[!UICONTROL Ajouter]** et sélectionnez les opérateurs et opératrices concernés.
 
 ![](assets/s_ncs_user_task_add_resources.png)
 
@@ -120,7 +120,7 @@ Le tableau de bord de l&#39;opérateur permet de consulter sa charge de travail,
 
 ### Opérateurs validants {#reviewers}
 
-En complément des participants, vous pouvez définir des opérateurs qui valideront la tâche une fois qu&#39;elle aura été close par le responsable. Pour ce faire, cliquez sur le bouton **[!UICONTROL Activer la validation des tâches]** dans la section inférieure gauche de l’objet **[!UICONTROL Ressources]** fenêtre. Il peut s’agir d’un opérateur ou d’une opératrice individuel(le), d’un groupe d’opérateurs ou d’opératrices ou d’une liste d’opérateurs ou d’opératrices.
+En plus des intervenants, vous pouvez également définir des opérateurs qui valideront la tâche une fois qu&#39;elle aura été close par son responsable. Pour cela, cliquez sur l&#39;option **[!UICONTROL Activer la validation de la tâche]**, dans la partie inférieure gauche de la fenêtre des **[!UICONTROL Ressources]**. Il peut s’agir d’un opérateur ou d’une opératrice individuel(le), d’un groupe d’opérateurs ou d’opératrices ou d’une liste d’opérateurs ou d’opératrices.
 
 ![](assets/s_ncs_user_task_edit_resource_validation.png)
 
@@ -132,7 +132,7 @@ Vous pouvez définir un planning de validation pour la tâche, dans la section i
 
 ![](assets/s_ncs_user_edit_op_valid_calendar.png)
 
-La personne responsable de la tâche peut se charger de la validation et ce même si d’autres opérateurs et opératrices ont été déjà été affectés à celle-ci. En l’absence de réviseur ou de réviseuse, les notifications seront adressées à la personne responsable de la tâche. Tous les autres opérateurs et opératrices Adobe Campaign disposant des droits d’**[!UICONTROL Administrateur ou administratrice]** sont également habilités à valider la tâche. Cependant, elles ne recevront aucune notification.
+La personne responsable de la tâche peut se charger de la validation et ce même si d’autres opérateurs et opératrices ont été déjà été affectés à celle-ci. En l’absence de réviseur ou de réviseuse, les notifications seront adressées à la personne responsable de la tâche. Tous les autres opérateurs et opératrices Adobe Campaign disposant des droits d’**[!UICONTROL Administrateur ou administratrice]** sont également habilités à valider la tâche. En revanche, ils ne reçoivent pas de notifications.
 
 ### Documents référencés {#documents-referenced}
 

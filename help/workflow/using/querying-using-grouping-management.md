@@ -5,9 +5,9 @@ description: Découvrez comment exécuter des requêtes avec gestion des regroup
 feature: Query Editor, Workflows
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    ![](assets/query_editor_02.png)
 
-1. Dans le **[!UICONTROL Données à extraire]** , sélectionnez l’option **[!UICONTROL Domaine de l&#39;email]** et **[!UICONTROL Clé Principal]** des champs. Exécutez un comptage sur la variable **[!UICONTROL Clé Principal]** champ .
+1. Dans la fenêtre **[!UICONTROL Données à extraire]**, sélectionnez les champs **[!UICONTROL Domaine de l&#39;email]** et **[!UICONTROL Clé primaire]**. Faites un comptage du champ **[!UICONTROL Clé primaire]**.
 
    Pour plus d&#39;informations sur le comptage d&#39;une clé primaire, consultez [cette section](../../platform/using/defining-filter-conditions.md#building-expressions).
 
@@ -43,11 +43,11 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    ![](assets/query_editor_nveau_29.png)
 
-1. Dans le **[!UICONTROL Tri]** , triez les domaines d’email dans l’ordre décroissant. Pour ce faire, cochez la case **[!UICONTROL Oui]** dans le **[!UICONTROL Tri descendant]** colonne . Cliquez sur **[!UICONTROL Suivant]**.
+1. Dans la fenêtre **[!UICONTROL Tris]**, ordonnez les domaines d&#39;email en tri descendant. Pour cela, cochez **[!UICONTROL Oui]** dans la colonne **[!UICONTROL Tri descendant]**. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/query_editor_nveau_70.png)
 
-1. Dans **[!UICONTROL Filtrage des données]**, sélectionnez **[!UICONTROL Critères de filtrage]**. Accédez au **[!UICONTROL Eléments cibles]** puis cliquez sur **[!UICONTROL Suivant]**.
+1. Dans **[!UICONTROL Filtrage des données]**, sélectionnez **[!UICONTROL Critères de filtrage]**. Accédez à la fenêtre **[!UICONTROL Éléments de la cible]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Dans la fenêtre **[!UICONTROL Groupement des données]**, sélectionnez le **[!UICONTROL Domaine de l&#39;email]** en cliquant sur **[!UICONTROL Ajouter]**.
 
    C&#39;est dans cette fenêtre que s&#39;opère le regroupement (GROUP BY) : cette fenêtre ne s&#39;affiche que si l&#39;option **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]** a été sélectionnée.

@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow d’envoi de fichier
 feature: Workflows, Data Management
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -40,15 +40,15 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 
    ![](assets/file_transfert_edit_external.png)
 
-1. **Envoi de fichier**
+1. **Transfert de fichier**
 
-   Pour envoyer un fichier à un serveur, sélectionnez **[!UICONTROL Chargement de fichier]** dans le **[!UICONTROL Action]** champ . Vous devez spécifier le serveur cible dans la variable **[!UICONTROL Serveur distant]** de l’éditeur. Les paramètres sont les mêmes que pour les fichiers entrants. Voir ci-dessus.
+   Pour envoyer un fichier à un serveur, sélectionnez **[!UICONTROL Chargement de fichier]** dans le champ **[!UICONTROL Action]**. Vous devez spécifier le serveur cible dans la section **[!UICONTROL Serveur distant]** de l’éditeur. Les paramètres sont les mêmes que pour les fichiers entrants. Voir ci-dessus.
 
-   Le fichier source peut provenir de l’activité précédente. Dans ce cas, la variable **[!UICONTROL Utiliser le fichier généré par l&#39;activité précédente]** doit être sélectionnée.
+   Le fichier source peut provenir de l’activité précédente. Dans ce cas, l’option **[!UICONTROL Utiliser le fichier généré par l’activité précédente]** doit être sélectionnée.
 
    ![](assets/file_transfert_edit_send.png)
 
-   Cela peut également concerner un ou plusieurs autres fichiers. Pour les sélectionner, désélectionnez l’option, puis cliquez sur **[!UICONTROL Insérer]**. Spécifiez le chemin d’accès au fichier à envoyer. Pour ajouter un autre fichier, cliquez sur **[!UICONTROL Insérer]** encore une fois. Les fichiers ont maintenant chacun leur propre onglet.
+   Cela peut également concerner un ou plusieurs autres fichiers. Pour les sélectionner, décochez l’option, puis cliquez sur **[!UICONTROL Insérer]**. Spécifiez le chemin d’accès du fichier à envoyer. Pour ajouter un autre fichier, cliquez à nouveau sur **[!UICONTROL Insérer]**. Désormais, les fichiers disposent chacun de leur propre onglet.
 
    ![](assets/file_transfert_source.png)
 
@@ -58,13 +58,13 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 
 1. **Test d&#39;existence de fichier**
 
-   Pour tester l’existence d’un fichier, sélectionnez l’option **[!UICONTROL Test d’existence de fichier]** dans le **[!UICONTROL Action]** champ . La configuration du serveur distant est la même que pour le téléchargement de fichier. Pour plus d&#39;informations, consultez cette [section](#properties).
+   Pour tester l’existence d’un fichier, sélectionnez l’option **[!UICONTROL Test d’existence de fichier]** dans le champ **[!UICONTROL Action]**. La configuration du serveur distant est la même que pour le téléchargement de fichiers. Pour plus d’informations, consultez cette [section](#properties).
 
    ![](assets/file_transfert_edit_test.png)
 
 1. **Listage des fichiers**
 
-   Pour répertorier les fichiers, sélectionnez la variable **[!UICONTROL Listes de fichiers]** de l’option **[!UICONTROL Action]** champ . La configuration du serveur distant est la même que pour la réception de fichiers. Pour plus d&#39;informations, consultez cette [section](#properties).
+   Pour lister les fichiers, sélectionnez l’option **[!UICONTROL Listage de fichiers]** dans le champ **[!UICONTROL Action]**. La configuration du serveur distant est la même que pour la réception de fichiers. Pour plus d&#39;informations, consultez cette [section](#properties).
 
    L’option **[!UICONTROL Lister tous les fichiers]**, disponible lors de la sélection de l’action **[!UICONTROL Listage de fichiers]** permet de répertorier tous les fichiers présents sur le serveur dans la variable d’événement **vars.filenames**. Les noms des fichiers y sont séparés par les caractères `\n`.
 

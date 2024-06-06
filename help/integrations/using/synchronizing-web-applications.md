@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '859'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Pour ce faire, les éléments suivants sont nécessaires :
 
 ## Création de lʼapplication web et du service {#creating-the-web-application-and-service}
 
-Dans Campaign v7, vous pouvez créer des applications web qui permettent aux destinataires de s&#39;inscrire à un service. L&#39;application web et le service sont conçus et stockés dans Campaign v7. Vous pouvez mettre à jour ce service via une communication Campaign Standard. Pour en savoir plus sur les applications web dans Campaign v7, voir [cette section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes).
+Dans Campaign v7, vous pouvez créer une application Web qui permet aux destinataires de s&#39;inscrire à un service. L&#39;application Web et le service sont conçus et stockés dans Campaign v7. Le service peut être mis à jour par le biais d&#39;une communication de Campaign Standard. Pour en savoir plus sur les applications web dans Campaign v7, voir [cette section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes).
 
 Dans Campaign v7, les objets suivants ont été créés :
 
@@ -42,11 +42,11 @@ Dans Campaign v7, les objets suivants ont été créés :
 
    ![](assets/acs_connect_lp_2.png)
 
-1. Modifiez la variable **[!UICONTROL Préchargement]** activité. La variable **[!UICONTROL Chargement automatique des données référencées dans le formulaire]** est cochée et la variable **[!UICONTROL Cryptage Adobe Campaign]** la méthode d&#39;identification est sélectionnée. L&#39;application web pourra ainsi précharger les champs du formulaire avec les données stockées dans la base de données Adobe Campaign. Voir [ce document](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
+1. Modifiez l&#39;activité **[!UICONTROL Pré-chargement]**. La case **[!UICONTROL Chargement automatique des données référencées dans le formulaire]** est cochée et la méthode d&#39;identification **[!UICONTROL Chiffrement Adobe Campaign]** est sélectionnée. L&#39;application web peut ainsi précharger les champs du formulaire avec les données stockées dans la base de données d&#39;Adobe Campaign. Pour plus d&#39;informations, consultez [ce document](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
 
    ![](assets/acs_connect_lp_4.png)
 
-1. Modifiez la variable **[!UICONTROL Page]**. Trois champs (Nom, Email et Téléphone) ont été inclus, ainsi qu’une case à cocher invitant le destinataire à s’abonner à une newsletter (**[!UICONTROL Newsletter]** ).
+1. Modifiez la **[!UICONTROL Page]**. Trois champs (Nom, Email et Téléphone) ont été ajoutés, ainsi qu&#39;une case à cocher invitant le destinataire à s&#39;inscrire à une newsletter (service **[!UICONTROL Newsletter]**).
 
    ![](assets/acs_connect_lp_3.png)
 
@@ -60,7 +60,7 @@ Dans Campaign v7, les objets suivants ont été créés :
 
 ## Réplication des données {#replicating-the-data}
 
-Afin de répliquer les données nécessaires entre Campaign v7 et Campaign Standard, plusieurs modèles de workflow de réplication sont disponibles. La variable **[!UICONTROL Réplication des profils]** le workflow réplique automatiquement tous les destinataires de Campaign v7 vers Campaign Standard. Voir [Workflows techniques et de réplication](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). Le workflow de **[!UICONTROL Réplication des landing pages]** permet la réplication des applications Web que nous voulons utiliser dans Campaign Standard.
+Afin de répliquer les données nécessaires entre Campaign v7 et Campaign Standard, plusieurs modèles de workflows de réplication sont disponibles. Le workflow de **[!UICONTROL Réplication des profils]** reproduit automatiquement tous les destinataires de Campaign v7 vers Campaign Standard. Voir [Workflows techniques et de réplication](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). Le workflow de **[!UICONTROL Réplication des landing pages]** permet la réplication des applications Web que nous voulons utiliser dans Campaign Standard.
 
 ![](assets/acs_connect_lp_1.png)
 
@@ -86,7 +86,7 @@ Pour vérifier que les données ont été correctement répliquées, suivez la p
 
 Dans cette partie, nous allons voir comment inclure un lien vers la landing page répliquée depuis une application web de Campaign v7 dans un email Campaign Standard.
 
-Les étapes de création, de conception et d&#39;envoi de l&#39;email sont les mêmes que pour un email classique. Voir [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=fr) la documentation.
+Les étapes de création, de conception et d&#39;envoi de l&#39;email sont les mêmes que pour un email classique. Pour plus d&#39;informations, consultez la document [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=fr).
 
 1. Créez un nouvel email et sélectionnez un ou plusieurs profils répliqués en tant qu&#39;audience.
 1. Editez le contenu et insérez un **[!UICONTROL Lien vers une landing page]**.

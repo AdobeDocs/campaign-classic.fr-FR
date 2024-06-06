@@ -2,14 +2,14 @@
 product: campaign
 title: Présentation des diffusions en échec
 description: Découvrez les raisons des échecs de vos diffusions
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2618'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
    <td> Compte désactivé </td> 
    <td> Soft/Hard </td> 
    <td> 4 </td> 
-   <td> Le compte associé à l'adresse n'est plus actif. Lorsque le Fournisseur d’Accès Internet (FAI) détecte une inactivité prolongée, il peut fermer le compte de l’utilisateur. Les diffusions vers l'adresse de l'utilisateur seront alors impossibles. Si le compte est temporairement désactivé en raison d’une inactivité de six mois et qu’il peut toujours être activé, le statut En erreur est affecté et le compte est de nouveau tenté jusqu’à ce que le compteur d’erreurs atteigne 5. Si l’erreur signale que le compte est définitivement désactivé, il sera directement défini sur Quarantaine.<br /> </td> 
+   <td> Le compte associé à l’adresse n’est plus actif. Lorsque le fournisseur d’accès internet (FAI) détecte une inactivité prolongée, il peut fermer le compte de l’utilisateur ou de l’utilisatrice, ce qui rend les diffusions vers son adresse impossibles. Si le compte est temporairement désactivé en raison d’une inactivité de 6 mois et qu’il peut toujours être activé, le statut En erreur sera affecté. De nouvelles tentatives vers ce compte seront alors effectuées jusqu’à ce que le compteur d’erreurs atteigne 5. Si l’erreur indique que le compte est définitivement désactivé, il sera directement placé en quarantaine.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adresse en quarantaine </td> 
@@ -117,7 +117,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
    <td> Domaine invalide </td> 
    <td> Soft </td> 
    <td> 2 </td> 
-   <td> Le domaine de l’adresse électronique est incorrect ou n’existe plus. Ce profil sera ciblé de nouveau jusqu’à ce que le nombre d’erreurs atteigne 5. Ensuite, l’enregistrement sera défini sur le statut Quarantaine et aucune autre reprise ne sera effectuée.<br /> </td> 
+   <td> Le domaine de l’adresse e-mail est incorrect ou n’existe plus. Ce profil sera ciblé de nouveau jusqu’à ce que le compteur d’erreurs atteigne 5. Ensuite, l’enregistrement sera défini sur le statut Quarantaine et aucune autre reprise ne sera effectuée.<br /> </td> 
   </tr> 
   <tr> 
    <td> Boîte pleine </td> 
@@ -135,7 +135,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
    <td> Non définie </td> 
    <td> Non définie </td> 
    <td> 0 </td> 
-   <td> L’adresse est en cours de qualification, car l’erreur n’a pas encore été incrémentée. Ce type d'erreur se produit lorsqu'un nouveau message d'erreur est envoyé par le serveur : il peut s'agir d'une erreur isolée, mais si elle se reproduit, le compteur d'erreurs augmente, ce qui permet d'alerter les équipes techniques. Elles peuvent ensuite analyser les messages et qualifier cette erreur, via le nœud <span class="uicontrol">Administration</span>/<span class="uicontrol">Gestion de campagne</span>/<span class="uicontrol">Gestion des NP@I</span> dans l'arborescence.<br /> </td> 
+   <td> L'adresse est en cours de qualification, car les erreurs n'ont pas encore été incrémentées. Ce type d'erreur apparaît lorsqu'un nouveau message d'erreur est envoyé par le serveur : il peut s'agir d'une erreur isolée, mais si elle se répète, le compteur d'erreurs augmente, ce qui permet d'alerter les équipes techniques. Elles peuvent ensuite analyser les messages et qualifier cette erreur, via le nœud <span class="uicontrol">Administration</span>/<span class="uicontrol">Gestion de campagne</span>/<span class="uicontrol">Gestion des NP@I</span> dans l'arborescence.<br /> </td> 
   </tr> 
   <tr> 
    <td> Non éligible aux offres </td> 
@@ -147,7 +147,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
    <td> Refusés </td> 
    <td> Soft/Hard </td> 
    <td> 20 </td> 
-   <td> L’adresse a été mise en quarantaine en raison d’un retour de sécurité signalant du spam. En fonction de l’erreur, l’adresse sera utilisée de nouveau jusqu’à ce que le compteur d’erreurs atteigne 5, ou elle sera directement mise en quarantaine.<br /> </td> 
+   <td> L’adresse a été mise en quarantaine en raison d’un retour de sécurité signalant du spam. En fonction de l’erreur, l’adresse fera l’objet de nouvelles tentatives jusqu’à ce que le compteur d’erreurs atteigne 5, ou elle sera directement placée en quarantaine.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cible limitée en taille </td> 
@@ -165,18 +165,18 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
    <td> Inatteignable </td> 
    <td> Soft/Hard </td> 
    <td> 3 </td> 
-   <td> Une erreur s'est produite dans la chaîne de distribution du message. Il peut s’agir d’un incident sur le relais SMTP, d’un domaine temporairement inatteignable, etc. En fonction de l’erreur, l’adresse sera utilisée de nouveau jusqu’à ce que le compteur d’erreurs atteigne 5, ou elle sera directement mise en quarantaine.<br /> </td> 
+   <td> Une erreur s’est produite dans la chaîne de diffusion du message. Il peut s’agir d’un incident concernant le relais SMTP, d’un domaine temporairement inaccessible, etc. En fonction de l’erreur, l’adresse fera l’objet de nouvelles tentatives jusqu’à ce que le compteur d’erreurs atteigne 5, ou elle sera directement placée en quarantaine.<br /> </td> 
   </tr> 
   <tr> 
    <td> Utilisateur inconnu </td> 
    <td> Hard </td> 
    <td> 1 </td> 
-   <td> L’adresse n’existe pas. Aucune autre diffusion ne sera envoyée pour ce profil.<br /> </td> 
+   <td> L’adresse n’existe pas. Aucune nouvelle tentative de diffusion ne sera effectuée pour ce profil.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Reprises après une diffusion temporairement en échec     {#retries-after-a-delivery-temporary-failure}
+## Reprises après une diffusion temporairement en échec {#retries-after-a-delivery-temporary-failure}
 
 Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est temporaire, les reprises seront effectuées pendant la durée de diffusion.********
 
@@ -239,11 +239,11 @@ Cette liste est disponible depuis le nœud **[!UICONTROL Administration > Gesti
 
 ![](assets/tech_quarant_rules_qualif.png)
 
-Le message renvoyé par le serveur distant à la première occurrence de ce type d’erreur s’affiche dans la variable **[!UICONTROL Premier texte]** de la colonne **[!UICONTROL Qualification des logs de diffusion]** table. Si cette colonne n’est pas affichée, cliquez sur l’icône **[!UICONTROL Configurer la liste]** en bas à droite de la liste pour la sélectionner.
+Le message renvoyé par le serveur distant à la première occurrence de ce type d&#39;erreur est affiché dans la colonne **[!UICONTROL Premier texte]** de la table **[!UICONTROL Qualification des logs de diffusion]**. Si cette colonne n&#39;est pas visible, cliquez sur le bouton **[!UICONTROL Configurer la liste]** en bas à droite de la liste pour la sélectionner.
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-Adobe Campaign filtre ce message pour supprimer le contenu de la variable (identifiants, dates, adresses électroniques, numéros de téléphone, etc.) et affiche le résultat filtré dans la variable **[!UICONTROL Texte]** colonne . Les variables sont remplacées par **`#xxx#`**, à l&#39;exception des adresses remplacées par **`*`**.
+Adobe Campaign filtre ce message pour supprimer le contenu de la variable (identifiants, dates, adresses e-mail, numéros de téléphone, etc.) et affiche le résultat filtré dans la colonne **[!UICONTROL Texte]**. Les variables sont remplacées par **`#xxx#`**, à l&#39;exception des adresses remplacées par **`*`**.
 
 Ce processus permet de regrouper tous les échecs d&#39;un même type et d&#39;éviter plusieurs entrées pour des erreurs similaires dans la table Qualification des logs de diffusion.
 
@@ -253,7 +253,7 @@ Ce processus permet de regrouper tous les échecs d&#39;un même type et d&#39;�
 
 Les statuts de qualification des mails rebonds sont les suivants :
 
-* **[!UICONTROL À qualifier]** : l’e-mail rejeté n’a pas pu être qualifié. La qualification doit être confiée à l’équipe chargée de la délivrabilité afin de garantir une délivrabilité efficace de la plateforme. Tant qu&#39;il n&#39;est pas qualifié, le mail rebond n&#39;est pas utilisé pour enrichir la liste des règles de gestion des emails.
+* **[!UICONTROL À qualifier]** : l’e-mail rejeté n’a pas pu être qualifié. La qualification doit être confiée à l’équipe chargée de la délivrabilité afin de garantir une délivrabilité efficace de la plateforme. Tant qu&#39;il n&#39;est pas qualifié, le mail rebond n&#39;est pas utilisé pour compléter la liste des règles de gestion des emails.
 * **[!UICONTROL Conserver]** : l’e-mail rejeté a été qualifié et sera utilisé par le workflow **Mise à jour pour la délivrabilité** pour être comparé aux règles de gestion des e-mails existantes et en enrichir la liste.
 * **[!UICONTROL Ignorer]** : le mail rebond est ignoré par le MTA de Campaign, ce qui signifie que ce rebond ne provoquera jamais la mise en quarantaine de l&#39;adresse du destinataire. Il ne sera pas utilisé par le workflow **Mise à jour pour la délivrabilité** et il ne sera pas envoyé aux instances clientes.
 
@@ -294,7 +294,7 @@ For on-premise installations and hosted/hybrid installations using the legacy Ca
 
 Les règles **[!UICONTROL Mail entrant]** contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l’erreur en **Hard**, **Soft** ou **Ignoré**.
 
-En cas d’échec d’un email, le serveur distant renvoie un message rebond à l’adresse spécifiée dans la variable [paramètres de plateforme](../../installation/using/deploying-an-instance.md). Adobe Campaign compare le contenu de chaque mail rebond aux chaînes de la liste des règles, puis lui attribue l’une des trois [types d’erreur](#delivery-failure-types-and-reasons).
+Lors de l’échec de l’envoi d’un e-mail, le serveur de messagerie distant renvoie un message de rebond à l’adresse spécifiée dans les [paramètres de la plateforme](../../installation/using/deploying-an-instance.md). Adobe Campaign compare le contenu de chaque rebond aux chaînes disponibles dans la liste des règles, puis attribue l’un des trois [types d’erreurs](#delivery-failure-types-and-reasons).
 
 >[!NOTE]
 >

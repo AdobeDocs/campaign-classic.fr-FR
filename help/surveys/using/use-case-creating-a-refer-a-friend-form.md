@@ -2,13 +2,13 @@
 product: campaign
 title: Créer un questionnaire de parrainage d'un ami
 description: Découvrez les étapes de création d'un formulaire de parrainage d'un ami
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    >[!NOTE]
    >
-   >Tant que le destinataire n&#39;a pas donné son consentement, vous ne pouvez pas le stocker avec les destinataires dans la base de données. Ils seront stockés temporairement dans la variable **visiteur** tableau (**nms:visitor**) conçus pour les campagnes de marketing viral. Cette table est régulièrement purgée grâce à **cleansing** opérations.
+   >Tant que le destinataire n&#39;a pas exprimé son consentement, vous ne pouvez pas le stocker parmi les destinataires la base de données. Il sera donc provisoirement stocké dans la table des **visiteurs** (**nms:visitor**) conçue pour les opérations de marketing viral. Cette table est régulièrement purgée de son contenu par les opérations de **cleansing**.
    >
    >Dans notre exemple, nous allons en cibler les destinataires pour leur proposer de participer à ce concours, sur les conseils de leur parrain. Vous allez toutefois leur proposer, dans ce message, un abonnement à l&#39;un de vos services d&#39;information. S&#39;ils acceptent, ils pourront être stockés en base.
 
@@ -64,7 +64,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    ![](assets/s_ncs_admin_survey_viral_sample_4b.png)
 
-1. Créez ensuite le modèle de diffusion associé au service d&#39;information créé lors de l&#39;étape 1. Elle est sélectionnée dans la variable **[!UICONTROL Choisir un scénario]** du service d’information.
+1. Créez ensuite le modèle de diffusion associé au service d&#39;information créé lors de l&#39;étape 1. Il sera sélectionné dans le champ **[!UICONTROL Choix du scénario]** du service d&#39;information.
 
    Le modèle de diffusion utilisé pour créer le message de proposition de parrainage contient les informations suivantes :
 
@@ -82,7 +82,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    * Ce modèle contient un lien vers le formulaire du jeu-concours et le lien d&#39;inscription pour que le filleul puisse s&#39;abonner à la newsletter.
 
-     Le lien d&#39;inscription est inséré via un bloc de personnalisation. Par défaut, il permet d&#39;abonner les profils au **newsletter** service. Ce bloc de personnalisation peut être modifié selon vos besoins, par exemple pour inscrire le destinataire à un autre service.
+     Le lien d&#39;inscription est inséré au travers d&#39;un bloc de personnalisation. Par défaut, il permet d&#39;abonner les profils au service **newsletter**. Ce bloc de personnalisation peut être modifié selon vos besoins, par exemple pour inscrire à un autre service.
 
    * Le nom interne (ici &#39;referrer&#39;) sera utilisé dans le script d&#39;envoi du message, à l&#39;étape suivante.
 
@@ -117,7 +117,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
     </delivery>)
    ```
 
-1. Publiez le formulaire du jeu-concours et envoyez une invitation aux destinataires de la cible initiale. Lorsque l’un d’eux invite un ami, une diffusion basée sur la variable **Offre de parrainage** est créé.
+1. Publiez le formulaire du jeu-concours et envoyez une proposition de participation aux destinataires de la cible initiale. Lorsque l&#39;un d&#39;entre eux souhaite inviter un ami à participer, une diffusion basée sur le modèle **Offre de parrainage** est créée.
 
    ![](assets/s_ncs_admin_survey_viral_sample_8.png)
 

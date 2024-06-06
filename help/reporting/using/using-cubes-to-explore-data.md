@@ -2,15 +2,15 @@
 product: campaign
 title: Utilisation des cubes pour explorer les données
 description: Utilisation des cubes pour explorer les données
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 hide: true
 hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1009'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    Vous pouvez notamment choisir d&#39;afficher ou non les libellés des mesures. Pour plus dʼinformations, consultez la section [Configuration de lʼaffichage](../../reporting/using/concepts-and-methodology.md#configuring-the-display).
 
-1. Il est possible de construire de nouvelles mesures à partir des mesures existantes. Pour ce faire, cliquez sur **[!UICONTROL Créer une mesure]** et configurez-la.
+1. Vous pouvez construire de nouvelles mesures à partir des mesures existantes. Pour ce faire, cliquez sur **[!UICONTROL Créer une mesure]** et configurez-la.
 
    ![](assets/s_advuser_cube_in_report_config_02a.png)
 
@@ -117,7 +117,7 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    ![](assets/s_advuser_cube_in_report_config_02b.png)
 
-   Une fois que vous avez créé une mesure, vous pouvez l&#39;éditer et, au besoin, en modifier le paramétrage. Pour ce faire, cliquez sur le bouton **[!UICONTROL Mesures]** puis accédez à l&#39;onglet de la mesure à modifier.
+   Une fois créée, vous pouvez éditer et, au besoin, modifier, la configuration de la mesure. Pour cela, cliquez sur le bouton **[!UICONTROL Mesures]**, puis sur l&#39;onglet de la mesure à éditer.
 
    Cliquez ensuite sur le bouton **[!UICONTROL Modifier la mesure dynamique]** pour accéder au menu des paramètres.
 

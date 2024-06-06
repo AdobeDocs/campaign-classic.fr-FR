@@ -2,13 +2,13 @@
 product: campaign
 title: '« Cas d’utilisation : créer des vues dʼensemble »'
 description: '« Cas d’utilisation : créer des vues dʼensemble »'
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1041'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -220,6 +220,6 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 
    ![](assets/s_ncs_configuration_webapp_orderelements.png)
 
-L&#39;application Web est maintenant paramétrée. Vous pouvez cliquer sur le bouton **[!UICONTROL Aperçu]** pour la prévisualiser.
+L&#39;application Web est maintenant paramétrée. Vous pouvez cliquer sur l&#39;onglet **[!UICONTROL Prévisualisation]** pour en avoir un aperçu.
 
 ![](assets/s_ncs_configuration_webapp_result.png)

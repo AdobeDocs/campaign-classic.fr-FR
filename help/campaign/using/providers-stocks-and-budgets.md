@@ -6,9 +6,9 @@ role: User
 feature: Budget Management, Campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2010'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Pour créer un modèle de prestation et définir son contenu, les étapes sont l
      >Les lignes de stock sont définies dans le noeud **[!UICONTROL Gestion des stocks]**.\
      >Voir à ce sujet la section [Gestion des stocks et des commandes](#stock-and-order-management).
 
-1. Vous pouvez pré-sélectionner une valeur pour ce poste de coût, qui sera proposée par défaut dans les postes de coûts du prestataire (plutôt qu&#39;une valeur vide). Pour ce faire, sélectionnez l’option dans le **[!UICONTROL Sélectionné]** pour le type de catégorie concernée :
+1. Vous pouvez présélectionner une valeur pour ce poste de coût. Elle sera proposée par défaut dans les postes de coût des prestataires (au lieu d&#39;une valeur vide). Pour ce faire, sélectionnez l’option dans la colonne **[!UICONTROL Sélectionné]** pour le type de poste concerné :
 
    ![](assets/s_ncs_user_supplier_cost_structure_defaut.png)
 
@@ -175,7 +175,7 @@ Lorsqu’un service est sélectionné, les catégories de coûts correspondant a
 
 La colonne **[!UICONTROL Montant à surcharger]** permet d&#39;ajouter un coût pour ce poste dans le contexte de la diffusion ou de la tâche concernée.
 
-Vous pouvez imposer une sélection obligatoire d&#39;un type de coût lors de la définition des postes de coût pour une diffusion. Pour ce faire, sélectionnez **[!UICONTROL Un type de coût doit être sélectionné]**.
+Vous pouvez rendre obligatoire la sélection d&#39;un type de coût lors de la définition des postes de coût au niveau d&#39;une diffusion : Pour ce faire, sélectionnez **[!UICONTROL Un type de coût doit être sélectionné]**.
 
 ![](assets/s_ncs_user_supplier_cost_structure_select.png)
 

@@ -5,9 +5,9 @@ description: Découvrez comment parcourir et configurer des listes
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1200'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ En bas à droite de l&#39;écran de liste, un **[!UICONTROL compteur]** indique 
 
 ![](assets/s_ncs_user_nb_200_0.png)
 
-Si un **?**&quot; apparaît au lieu du nombre à droite, cliquez sur le compteur pour lancer le calcul.
+Si « **?** » apparaît plutôt que le nombre sur la droite, cliquez sur le compteur pour lancer le calcul.
 
 ### Chargement d’enregistrements supplémentaires {#loading-more-records}
 
@@ -76,7 +76,7 @@ Une autre méthode pour ajouter des colonnes, lorsque vous souhaitez afficher de
 
    >[!NOTE]
    >
-   >Par défaut, les champs avancés ne sont pas affichés. Pour les afficher, cliquez sur **Afficher les champs avancés** en bas à droite de la liste des champs disponibles.
+   >Par défaut, les champs avancés ne sont pas affichés. Pour les afficher, cliquez sur l&#39;icône **Afficher les champs avancés**, située en bas à droite de la liste des champs disponibles.
    >
    >Les libellés sont affichés par table puis par ordre alphabétique.
    >
@@ -114,7 +114,7 @@ Dans la fenêtre de configuration de la liste, sélectionnez la colonne à masqu
 
 ![](assets/s_ncs_user_removecolumn_icon.png)
 
-Répétez l’opération pour chaque colonne à masquer. Cliquez sur **[!UICONTROL OK]** pour valider la configuration et visualiser le résultat.
+Répétez l&#39;opération pour chaque colonne à masquer. Cliquez sur **[!UICONTROL OK]** pour valider la configuration et visualiser le résultat.
 
 ### Ajuster la largeur des colonnes {#adjust-column-width}
 
@@ -198,7 +198,7 @@ Vous pouvez également paramétrer le tri ou combiner les critères de tri. Pour
 
 ### Recherche d&#39;éléments {#running-a-search}
 
-Vous pouvez lancer une recherche parmi les champs disponibles dans un éditeur à l’aide du **[!UICONTROL Rechercher]** situé au-dessus de la liste des champs. Presse **Entrée** à l’aide du clavier ou parcourez la liste. Les libellés des champs correspondant à votre recherche apparaissent en gras.
+Vous pouvez lancer une recherche parmi les champs disponibles dans un éditeur à l’aide du champ **[!UICONTROL Rechercher]** situé au-dessus de la liste des champs. Appuyez sur la touche **Entrée** du clavier ou parcourez la liste. Les libellés des champs correspondant à votre recherche apparaissent en gras.
 
 >[!NOTE]
 >

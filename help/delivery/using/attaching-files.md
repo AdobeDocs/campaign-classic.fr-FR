@@ -2,14 +2,14 @@
 product: campaign
 title: Joindre des fichiers
 description: Joindre des fichiers
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Email
 role: User
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1082'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez joindre un ou plusieurs fichiers à une diffusion d’email.
 Deux cas se présentent :
 
 * Sélectionner un fichier et le joindre tel quel à la diffusion.
-* Personnalisez le contenu de la pièce jointe pour chaque destinataire. Dans ce cas, vous devez créer une **attachement calculé**: le nom de la pièce jointe est calculé au moment de l&#39;envoi pour chaque message selon le destinataire. Le contenu peut également être personnalisé et converti en PDF au moment de l&#39;envoi, si vous avez la variable **Impression numérique variable** .
+* Personnaliser le contenu de la pièce jointe pour chaque destinataire. Dans ce cas, vous devez créer un **attachement calculé** : le nom de la pièce jointe est calculé au moment de l&#39;envoi pour chaque message et peut ainsi dépendre du destinataire. Le contenu peut également être personnalisé et converti en PDF au moment de l&#39;envoi, si vous avez souscrit à l&#39;option **Variable Digital Printing**.
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ Pour ce type de pièce jointe, les étapes de configuration sont les suivantes 
 
 ### Joindre un fichier calculé {#attach-a-calculated-file}
 
-Vous pouvez calculer le nom de la pièce jointe pendant la préparation de la diffusion. Pour cela, sélectionnez l&#39;option **[!UICONTROL Le nom de fichier est calculé lors de l&#39;analyse de la diffusion (il ne peut pas dépendre du destinataire).]**.
+Vous pouvez calculer le nom d’une pièce jointe pendant la préparation de la diffusion. Pour cela, sélectionnez l’option **[!UICONTROL Le nom de fichier est calculé lors de l’analyse de la diffusion (il ne peut pas dépendre du destinataire)]**.
 
 >[!NOTE]
 >
@@ -169,7 +169,7 @@ Lorsque vous sélectionnez la pièce jointe, vous pouvez choisir l’option **[!
 
 ### Paramètres des pièces jointes {#attachment-settings}
 
-Pour les deux premières options, vous pouvez choisir **[!UICONTROL Télécharger le fichier sur le serveur]** en sélectionnant l’option appropriée. La variable **[!UICONTROL Mettre à jour le fichier sur le serveur]** permet de lancer le téléchargement.
+Pour les deux premières options, vous pouvez choisir de **[!UICONTROL Télécharger le fichier sur le serveur]**, en cochant l&#39;option correspondante. Le lien **[!UICONTROL Mettre à jour sur le serveur]** permet de lancer le téléchargement.
 
 ![](assets/s_ncs_user_wizard_email01_137.png)
 
@@ -183,7 +183,7 @@ En cas de changement de fichier, un message d&#39;avertissement est affiché :
 
 L&#39;onglet **[!UICONTROL Avancé]** permet de définir des options avancées sur les fichiers joints :
 
-* Vous pouvez définir des options de filtrage afin de ne pas envoyer le fichier joint à tous les destinataires. L’option **[!UICONTROL Activer le filtrage des destinataires qui recevront la pièce jointe]** active un champ de saisie utilisé pour définir un script de sélection des destinataires, qui doit être saisi en JavaScript.
+* Vous pouvez définir des options de filtrage afin de ne pas transmettre le fichier joint à l’ensemble des destinataires. L&#39;option **[!UICONTROL Activer le filtrage des destinataires qui recevront la pièce jointe]** active une zone de saisie utilisée pour définir un script de sélection des destinataires. Ce script doit être saisi en JavaScript.
 * Vous pouvez scripter le nom du fichier afin de le personnaliser.
 
   Entrez votre texte dans la fenêtre et utilisez les champs de personnalisation disponibles dans la liste déroulante. Dans l&#39;exemple ci-dessous, le nom du fichier est personnalisé pour contenir la date du jour et le nom du destinataire.

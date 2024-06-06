@@ -4,9 +4,9 @@ title: Web Analytics
 description: En savoir plus sur le package Web Analytics
 feature: Workflows, Analytics Integration
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Identification des contacts convertis</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsFindConverted</span> <br /> </td> 
-   <td> Ce workflow répertorie les visiteurs du site qui ont concrétisé leur achat après une campagne de remarketing. Les données récupérées par ce workflow sont accessibles dans le <span class="uicontrol">Rapport Efficacité du remarketing</span>. <br /> </td> 
+   <td> Ce workflow répertorie les visiteurs du site ayant concrétisé leur achat après une campagne de remarketing. Les données récupérées par ce workflow sont accessibles dans le <span class="uicontrol">Rapport Efficacité du remarketing</span>. <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Purge des événements</span> <br /> </td> 

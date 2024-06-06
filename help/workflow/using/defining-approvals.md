@@ -5,9 +5,9 @@ description: Les validations permettent à des opérateurs de prendre des décis
 feature: Approvals
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '872'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Il est possible de recevoir un message de validation qui contient un lien vers u
 
 La gestion des opérateurs est présentée dans cette [section](../../platform/using/access-management.md).
 
-Les emails de validation sont envoyés en continu. Le modèle de diffusion par défaut est : **[!UICONTROL notifyAssignee]**: il est enregistré dans la variable **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]** dossier. Ce scénario peut être personnalisé. Il est également recommandé de faire une copie et de modifier les modèles pour chaque activité.
+Les e-mails de validation sont envoyés en continu. Le modèle de diffusion par défaut est **[!UICONTROL notifyAssignee]** : il est enregistré dans le dossier **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]**. Ce scénario peut être personnalisé. Il est également recommandé de faire une copie et de modifier les modèles pour chaque activité.
 
 Les diffusions créées depuis ce modèle sont stockées dans le dossier **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Diffusions techniques > Notifications de workflow]**.
 

@@ -3,15 +3,15 @@ product: campaign
 title: Valider et activer une offre
 description: Valider et activer une offre
 feature: Interaction, Offers
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '669'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Une tâche parent planifiée pour finir le mardi 9 octobre à 17h a 2 tâches en
 
 ## Suivi des validations {#approval-tracking}
 
-Le suivi des validations est disponible dans le tableau de bord de l&#39;offre. Cliquez sur **[!UICONTROL Masquer/afficher les journaux]** pour y accéder.
+Le suivi des validations est disponible dans le tableau de bord de l&#39;offre. Cliquez sur **[!UICONTROL Afficher/cacher le journal]** pour y accéder.
 
 ![](assets/offer_validate_012.png)
 
@@ -109,7 +109,7 @@ Une fois la validation lancée, il est possible de la réinitialiser. Pour ce fa
 
 ## Publication de l&#39;offre {#publishing-the-offer}
 
-Une fois le contenu et l&#39;éligibilité d&#39;une offre validés, l&#39;offre est publiée par un workflow qui s&#39;exécute automatiquement pour chaque offre dont le cycle de validation est terminé. La variable **[!UICONTROL Notification des offres]** le workflow s’exécute également toutes les heures afin de synchroniser (si nécessaire) les emplacements et catégories contenus dans le catalogue d’offres de l’environnement en édition vers l’environnement en ligne.
+Une fois le contenu et l&#39;éligibilité d&#39;une offre approuvés, l&#39;offre est publiée par un workflow qui s&#39;exécute automatiquement pour chaque offre dont le cycle d’approbation est terminé. Le workflow **[!UICONTROL Notification d’offre]** s’exécute également toutes les heures afin de synchroniser (si nécessaire) les emplacements et catégories contenus dans le catalogue d’offres de l’environnement en édition avec l’environnement en ligne.
 
 Le tableau de bord de l&#39;offre disponible dans l&#39;environnement en édition contient les informations relatives à la mise en ligne, notamment le nom de l&#39;offre correspondante dans l&#39;environnement en ligne.
 

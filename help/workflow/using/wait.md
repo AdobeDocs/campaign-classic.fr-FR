@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow d’attente
 feature: Workflows
 exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -27,6 +27,6 @@ Dans le champ **[!UICONTROL Durée]**, la valeur peut être exprimée dans l&#39
 
   L&#39;unité par défaut est le jour (**j**).
 
-* Si, par exemple, les paramètres régionaux sont définis sur &quot;Français&quot; : **s** pour les secondes, **mn** pour les minutes, **h** pour les heures, **j** pour les jours, **m** pour les mois, **a** pour des années. Au moment de la validation, la valeur est automatiquement convertie en unité la plus lisible, comme dans l&#39;exemple ci-dessus. **90 s** a été converti en **30 min**.
+* Tandis que si, par exemple, les paramètres régionaux sont définis sur &#39;Français&#39; : **s** pour les secondes, **mn** pour les minutes, **h** pour les heures, **j** pour les jours, **m** pour les mois, **a** pour les années. Lors de la validation, la valeur est automatiquement traduite dans l&#39;unité la plus lisible, comme dans l&#39;exemple ci-dessus : **90s** a été traduit en **1mn 30s**.
 
   L&#39;unité par défaut est le jour (**j**).

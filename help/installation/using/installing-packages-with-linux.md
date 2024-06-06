@@ -3,15 +3,15 @@ product: campaign
 title: Installation de packages avec Linux
 description: Installation de packages avec Linux
 feature: Installation, Application Settings
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1205'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ Les commandes d&#39;installation permettent de :
 
 * Copier les fichiers sous **/usr/local/neolane**
 * Créer un compte Linux Adobe Campaign (et le groupe associé), avec pour répertoire racine (home directory) : **/usr/local/neolane**,
-* Création d’un script automatique **/etc/init.d/nlserver6** à utiliser au démarrage ou à créer une unité systemd (à partir de la version 20.1).
+* Créer un script automatique **/etc/init.d/nlserver6** à utiliser au démarrage ou créer une unité systemd (à partir de la version 20.1).
 
 >[!NOTE]
 >
->La variable **neolane** l’utilisateur système ne doit pas avoir été créé avant l’exécution de la commande. La variable **neolane** l’utilisateur est automatiquement créé lors de l’installation.
+>L&#39;utilisateur système **neolane** ne doit pas avoir été créé avant de lancer ces commandes. L&#39;utilisateur **neolane** est automatiquement créé lors de l&#39;installation.
 >
->La variable **home** du répertoire **neolane** l’utilisateur est également créé automatiquement dans **[!UICONTROL /usr/local/neolane]**. Assurez-vous qu’il y a suffisamment d’espace sur le **[!UICONTROL /usr/local]** disque (plusieurs Go).
+>Le répertoire **home** associé à l&#39;utilisateur **neolane** est lui aussi automatiquement créé sous **[!UICONTROL /usr/local/neolane]**. Assurez-vous que **[!UICONTROL /usr/local]** comporte suffisamment d&#39;espace disque (quelques giga-octets sont nécessaires).
 
 Vous pouvez tester si le serveur peut s&#39;atteindre lui-même en lançant un **ping`hostname`**.
 
@@ -43,7 +43,7 @@ Pour installer Adobe Campaign sur un système d&#39;exploitation RPM (RHEL, Cen
 
 1. Vous devez au préalable accéder aux deux packages d&#39;Adobe Campaign.
 
-   Le fichier est nommé comme ci-dessous, où **XXXX** est le numéro de build d’Adobe Campaign : **nlserver6-v7-XXXX-0.x86_64.rpm**.
+   Le fichier est nommé comme ci-dessous, où **XXXX** représente le numéro de version d&#39;Adobe Campaign : **nlserver6-v7-XXXX-0.x86_64.rpm**.
 
    >[!CAUTION]
    >

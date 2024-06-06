@@ -3,15 +3,15 @@ product: campaign
 title: Gérer la présentation des offres
 description: Gérer la présentation des offres
 feature: Interaction, Offers
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Disponibles dans l&#39;onglet **[!UICONTROL Général]**, les critères d&#39;ap
 
 Dans l&#39;onglet **[!UICONTROL Présentation des offres]**, vous devez spécifier les mêmes dimensions pour la règle de présentation que celles paramétrées au niveau de l&#39;environnement.
 
-La variable **[!UICONTROL Dimension de ciblage]** correspond à la table des destinataires (par défaut : `nms:recipients`) qui recevra les propositions d’offre. La variable **[!UICONTROL Dimension de stockage]** correspond à la table contenant l&#39;historique des propositions associé à la dimension de ciblage (par défaut : `nms:propositionRcp`).
+La **[!UICONTROL Dimension de ciblage]** correspond à la table des destinataires (par défaut : `nms:recipients`) qui recevront les propositions d’offre. La **[!UICONTROL Dimension de stockage]** correspond à la table contenant l&#39;historique des propositions liées à la dimension de ciblage (par défaut : `nms:propositionRcp`).
 
 ![](assets/offer_typology_009.png)
 
@@ -106,7 +106,7 @@ Vous pouvez sélectionner des critères de filtrage pour exclure des proposition
 
 ![](assets/offer_typology_014.png)
 
-Ces critères représentent les applications les plus fréquentes des règles de présentation. Pour utiliser d’autres critères, vous pouvez créer une requête à l’aide du **[!UICONTROL Limiter les propositions...]** lien. Voir à ce sujet la section [Créer une requête sur les propositions](#creating-a-query-on-propositions).
+Ces critères constituent les cas d&#39;application les plus courants d&#39;une règle de présentation. Si vous souhaitez utiliser d&#39;autres critères, vous pouvez créer une requête à l&#39;aide du lien **[!UICONTROL Limiter les propositions...]**. Voir à ce sujet la section [Créer une requête sur les propositions](#creating-a-query-on-propositions).
 
 * **Filtre sur le canal**
 

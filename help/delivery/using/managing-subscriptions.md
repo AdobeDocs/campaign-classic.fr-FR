@@ -2,14 +2,14 @@
 product: campaign
 title: Gérer les abonnements
 description: Découvrez comment gérer les abonnements dans Adobe Campaign
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1174'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Pour accéder à la vue d’ensemble des services d’information, ouvrez l’on
 
 ![](assets/s_ncs_user_services_new.png)
 
-Pour modifier un service existant, cliquez sur son nom. Pour créer un service, cliquez sur le bouton **[!UICONTROL Créer]** situé au-dessus de la liste.
+Pour éditer un service existant, cliquez sur son nom. Pour créer un service, cliquez sur le bouton **[!UICONTROL Créer]** situé au-dessus de la liste.
 
 ![](assets/s_ncs_user_services_add.png)
 
@@ -56,11 +56,11 @@ Pour modifier un service existant, cliquez sur son nom. Pour créer un service, 
   >
   >Les abonnements Facebook et X sont détaillés dans [cette section](../../social/using/about-social-marketing.md). Les abonnements aux applications mobiles sont détaillés dans [À propos de Mobile App Channel](about-mobile-app-channel.md).
 
-* Pour un service de type Email , sélectionnez l’option **Mode de diffusion**. Les modes possibles sont les suivants : **[!UICONTROL Newsletter]** ou **[!UICONTROL Viral]**.
-* Vous pouvez envoyer **messages de confirmation** pour un abonnement ou une désinscription. Pour cela, sélectionnez les modèles de diffusion à utiliser pour créer les diffusions correspondantes à partir du **[!UICONTROL Abonnement]** et **[!UICONTROL Désabonnement]** des champs. Ces modèles doivent être configurés avec un **[!UICONTROL Abonnement]** mapping de ciblage de type , sans cible définie. Pour plus d&#39;informations, consultez la section [À propos du canal Email](about-email-channel.md).
-* Par défaut, les abonnements sont illimités. Vous pouvez désélectionner l’option **[!UICONTROL Illimitées]** pour définir une durée de validité du service. La durée peut être spécifiée en jours (**[!UICONTROL d]** ) ou des mois (**[!UICONTROL m]** ).
+* Pour un service de type E-mail, sélectionnez le **mode de diffusion**. Les modes possibles sont : **[!UICONTROL Newsletter]** ou **[!UICONTROL Viral]**.
+* Vous pouvez envoyer des **messages de confirmation** pour une inscription ou une désinscription. Pour ce faire, choisissez les modèles de diffusion à utiliser pour créer les diffusions correspondantes dans les champs **[!UICONTROL Inscription]** et **[!UICONTROL Désinscription]**. Ces modèles doivent être configurés avec un mapping de ciblage de type **[!UICONTROL Inscription]**, sans aucune cible définie. Pour plus d&#39;informations, consultez la section [À propos du canal Email](about-email-channel.md).
+* Par défaut, les abonnements sont illimités. Vous pouvez décocher l&#39;option **[!UICONTROL Illimité]** pour définir la durée de validité du service. La durée peut alors être spécifiée en jours (**[!UICONTROL j]**) ou en mois (**[!UICONTROL m]** ).
 
-Une fois le service enregistré, il est ajouté dans la liste Services et abonnements : cliquez sur son nom pour l&#39;éditer. Plusieurs onglets sont disponibles. La variable **[!UICONTROL Abonnements]** vous permet de consulter la liste des abonnés au service d&#39;information (**[!UICONTROL Abonnements actifs]** ) ou l&#39;historique des abonnements/désabonnements (**[!UICONTROL Histoire]** ). Vous pouvez également ajouter et supprimer des abonnés à partir de cet onglet. Voir [Ajouter et supprimer des abonnés](#adding-and-deleting-subscribers).
+Une fois le service enregistré, il est ajouté dans la liste Services et abonnements : cliquez sur son nom pour le modifier. Plusieurs onglets sont disponibles. L&#39;onglet **[!UICONTROL Abonnements]** permet de consulter la liste des personnes abonnées au service d&#39;information (onglet **[!UICONTROL Abonnements actifs]**) ou l’historique des inscriptions/désinscriptions (onglet **[!UICONTROL Historique]**). Vous pouvez également ajouter et supprimer des abonnés à partir de cet onglet. Voir [Ajouter et supprimer des abonnés](#adding-and-deleting-subscribers).
 
 ![](assets/s_ncs_user_services_subscriptions.png)
 
@@ -74,9 +74,9 @@ Depuis le tableau de bord, cliquez sur **[!UICONTROL Rapports]** pour suivre les
 
 ## Ajouter et supprimer des abonnés {#adding-and-deleting-subscribers}
 
-Dans la **[!UICONTROL Abonnements]** onglet d’un clic sur un service d’information **[!UICONTROL Ajouter]** pour ajouter des abonnés. Vous pouvez également cliquer avec le bouton droit de la souris dans la liste des abonnés et sélectionner **[!UICONTROL Ajouter]**. Sélectionnez le dossier dans lequel sont stockés les profils à abonner, puis sélectionnez les profils à abonner et cliquez sur **[!UICONTROL OK]** pour valider.
+Depuis l&#39;onglet **[!UICONTROL Abonnements]** d&#39;un service d&#39;information, cliquez sur le bouton **[!UICONTROL Ajouter]** pour abonner des destinataires. Vous pouvez également cliquer avec le bouton droit de la souris dans la liste des abonnés et choisir **[!UICONTROL Ajouter]**. Sélectionnez ensuite le dossier où sont stockés les profils à abonner puis sélectionnez les profils à inscrire et cliquez sur **[!UICONTROL OK]** pour valider.
 
-Pour supprimer des abonnés, sélectionnez-les et cliquez sur **[!UICONTROL Supprimer]**. Vous pouvez également cliquer avec le bouton droit sur la liste des abonnés et sélectionner **[!UICONTROL Supprimer]**.
+Pour supprimer des abonnés, sélectionnez-les puis cliquez sur le bouton **[!UICONTROL Supprimer]**. Vous pouvez également cliquer avec le bouton droit de la souris dans la liste des abonnés et choisir **[!UICONTROL Supprimer]**.
 
 Dans les deux cas, vous pouvez envoyer un message de confirmation aux utilisateurs concernés si un modèle de diffusion de désinscription a été joint au service (voir [Créer un service d’information](#creating-an-information-service)). Un avertissement vous permet de valider ou non cette diffusion :
 
@@ -113,7 +113,7 @@ Vous pouvez mettre en place des mécanismes d&#39;inscription et de désinscript
 >Vous pouvez envoyer un message de confirmation aux nouveaux abonnés.\
 >Le contenu de ce message est défini dans le paramétrage du service d&#39;information, depuis le champ **[!UICONTROL Inscription]** ou **[!UICONTROL Désinscription]**.
 >
->Les messages de confirmation sont créés à partir des modèles de diffusion indiqués dans ces champs. Ces mappings de ciblage doivent être **[!UICONTROL Abonnements]**.
+>Les messages de confirmation sont créés à partir des modèles de diffusion indiqués dans ces champs. Ces modèles doivent utiliser le mapping de ciblage des **[!UICONTROL Abonnements]**.
 
 ![](assets/s_ncs_user_subscribe_confirmation.png)
 
@@ -125,7 +125,7 @@ Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
 
   Voir à ce sujet la section sur l&#39;édition de profils dans [cette section](../../platform/using/editing-a-profile.md).
 
-* Abonner automatiquement à ce service un ensemble de destinataires. La liste des destinataires peut provenir d&#39;une opération de filtrage, d&#39;un groupe, d&#39;un dossier, d&#39;un import ou d&#39;une sélection directe par la souris. Pour abonner ces destinataires, sélectionnez les profils et cliquez avec le bouton droit de la souris. Sélectionner **[!UICONTROL Actions > Abonner la sélection à un service...]**, sélectionnez le service visé et lancez l&#39;opération.
+* Abonner automatiquement à ce service un ensemble de destinataires. La liste des destinataires peut être issue d&#39;une opération de filtrage, d&#39;un groupe, d&#39;un dossier, d&#39;un import ou d&#39;une sélection directe à l’aide de la souris. Pour abonner ces destinataires, sélectionnez les profils et cliquez sur le bouton droit de la souris. Sélectionnez **[!UICONTROL Actions > Abonner la sélection à un service]**, puis sélectionnez le service concerné et lancez l&#39;opération.
 * Importer des destinataires et les abonner automatiquement à un service d&#39;information : pour cela, sélectionnez le service visé dans la dernière étape de l&#39;assistant d&#39;import.
 
   Pour plus d’informations, consultez [cette section](../../platform/using/executing-import-jobs.md).
@@ -150,17 +150,17 @@ Le lien de désinscription par défaut est inséré via le dernier bouton de la 
 
 Les destinataires peuvent toutefois choisir de se désinscrire d’un service sans se désinscrire de tous les services. Pour ce faire, vous pouvez utiliser un formulaire web (voir [cette section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)) ou insérer un lien de désinscription personnalisé (voir [Blocs de personnalisation](personalization-blocks.md)).
 
-Vous pouvez également désabonner manuellement un destinataire à partir de son profil. Pour ce faire, cliquez sur le bouton **[!UICONTROL Abonnements]** onglet du destinataire concerné, sélectionnez le ou les services d&#39;information concernés, puis cliquez sur **[!UICONTROL Supprimer]**.
+Vous pouvez également désinscrire manuellement un destinataire à partir de son profil. Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Abonnements]** du destinataire visé, sélectionnez le ou les services d&#39;information concernés et cliquez sur **[!UICONTROL Supprimer]**.
 
-Vous pouvez enfin désinscrire un ou plusieurs destinataires via le service d&#39;information concerné. Pour ce faire, cliquez sur le bouton **[!UICONTROL Abonnements]** dans l&#39;onglet du service, sélectionnez les destinataires concernés et cliquez sur **[!UICONTROL Supprimer]**.
+Vous pouvez enfin désinscrire un ou plusieurs destinataires depuis le service d&#39;information concerné. Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Abonnements]** du service, sélectionnez le ou les destinataires concernés et cliquez sur **[!UICONTROL Supprimer]**.
 
 #### Désabonnement automatique {#automatic-unsubscription}
 
-Un service d’information peut avoir une durée limitée. Les destinataires seront automatiquement désabonnés à l&#39;expiration de la période de validité. Cette période est spécifiée dans la variable **[!UICONTROL Modifier]** de l’onglet des propriétés du service. Elle est exprimée en jours.
+Un service d’information peut avoir une durée limitée. Les destinataires seront automatiquement désabonnés à l&#39;expiration de la période de validité. Cette période est spécifiée dans l&#39;onglet **[!UICONTROL Edition]** des propriétés du service. Elle est exprimée en jours.
 
 ![](assets/s_ncs_user_services_delay.png)
 
-Vous pouvez également configurer un workflow de désinscription pour une population. Pour cela, procédez de la même manière que pour un workflow d&#39;abonnement, mais sélectionnez l&#39;option **[!UICONTROL Désabonnement]** . Voir [Inscrire un destinataire à un service](#subscribing-a-recipient-to-a-service).
+Vous pouvez également mettre en place un workflow de désinscription sur une population. Pour cela, vous devez procéder comme pour un workflow d&#39;inscription, mais en sélectionnant l&#39;option **[!UICONTROL Désinscription]**. Voir [Inscrire un destinataire à un service](#subscribing-a-recipient-to-a-service).
 
 ### Tracking des abonnés {#subscriber-tracking}
 

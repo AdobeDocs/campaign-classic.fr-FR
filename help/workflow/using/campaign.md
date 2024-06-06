@@ -5,9 +5,9 @@ description: Campagne
 feature: Workflows
 topic-tags: technical-workflows
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '164'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Traitements sur les opérations</span> <br /> </td> 
    <td> <span class="uicontrol">operationMgt</span> <br /> </td> 
-   <td> Ce workflow gère les traitements sur les opérations marketing (démarrage du ciblage, extraction des fichiers, etc.). Il crée également des workflows relatifs aux campagnes récurrentes et périodiques.<br /> </td> 
+   <td> Ce workflow gère les traitements sur les opérations marketing (démarrage du ciblage, extraction des fichiers, etc.). Il crée également les workflows relatifs aux opérations récurrentes et périodiques.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Traitements sur les prestataires</span> <br /> </td> 

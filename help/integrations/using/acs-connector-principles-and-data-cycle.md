@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2092'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ La réplication des logs des emails et des identifiants des diffusions permet d�
 
 ACS Connector synchronise les quarantaines entre Campaign v7 et Campaign Standard.
 
-Par exemple, un profil qui a été répliqué de Campaign v7 vers Campaign Standard comprend une adresse électronique. Si l&#39;adresse email est mise en quarantaine par Campaign Standard, les données sont transmises à Campaign v7 lors de la synchronisation suivante. Pour plus d’informations sur les quarantaines, voir [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md) et [Quarantaines des Campaign Standards](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=fr).
+Par exemple, un profil ayant été répliqué de Campaign v7 vers Campaign Standard contient une adresse e-mail. Si celle-ci est mise en quarantaine par Campaign Standard, ces informations sont transmises à Campaign v7 lors de la synchronisation suivante. Pour plus d’informations sur les quarantaines, consultez les sections [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md) et [Quarantaines Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=fr).
 
 ### Utilisation de profils répliqués {#using-replicated-profiles}
 
@@ -310,7 +310,7 @@ Les champs de destinataire d’usine sont répliqués dans le cadre de la mise e
 
    ![](assets/acs_connect_implementation_7.png)
 
-1. Ouvrez le workflow de réplication de profil dédié (et non le modèle, mais l’instance de workflow elle-même). Modifiez la variable **[!UICONTROL Requête]** et **[!UICONTROL Mise à jour de données]** activités pour inclure ces champs. Voir [Workflows techniques et de réplication](#technical-and-replication-workflows).
+1. Ouvrez le workflow de réplication dédié aux profils (et non le modèle). Modifiez les activités **[!UICONTROL Requête]** et **[!UICONTROL Mise à jour de données]** pour inclure ces champs. Voir [Workflows techniques et de réplication](#technical-and-replication-workflows).
 
    ![](assets/acs_connect_implementation_8.png)
 

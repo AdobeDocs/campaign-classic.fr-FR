@@ -2,14 +2,14 @@
 product: campaign
 title: Paramètres de l’e-mail
 description: Découvrez les options et les paramètres spécifiques à la diffusion e-mail
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Email
 role: User, Developer, Data Engineer
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '990'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Outre le mode par défaut, les options disponibles sont les suivantes :
 
 * **[!UICONTROL Forcer la génération de la page miroir]** : même si aucun lien vers la page miroir n&#39;est inséré dans la diffusion, la page miroir sera créée.
 * **[!UICONTROL Ne pas générer de page miroir]** : aucune page miroir n&#39;est générée, même si le lien est présent dans la diffusion.
-* **[!UICONTROL Génère une page miroir accessible à l’aide de l’identifiant du message uniquement]**: cette option permet d&#39;accéder au contenu de la page miroir, avec les informations de personnalisation, dans la fenêtre des logs de diffusion. Pour cela, après la fin de la diffusion, cliquez sur le bouton **[!UICONTROL Diffusion]** et sélectionnez la ligne du destinataire dont vous souhaitez visualiser la page miroir. Cliquez sur le bouton **[!UICONTROL Afficher la page miroir de ce message...]** lien.
+* **[!UICONTROL Générer une page miroir accessible depuis l&#39;identifiant du message]** : cette option permet d&#39;accéder au contenu de la page miroir, avec les informations de personnalisation, dans la fenêtre des logs de diffusion. Pour cela, une fois la diffusion terminée, cliquez sur l&#39;onglet **[!UICONTROL Diffusion]** et sélectionnez la ligne du destinataire dont vous souhaitez visualiser la page miroir. Cliquez ensuite sur le lien **[!UICONTROL Afficher la page miroir de ce message...]**.
 
   ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -117,7 +117,7 @@ L&#39;onglet **[!UICONTROL SMTP]** des paramètres de la diffusion permet de par
 
 Par défaut, les e-mails rebonds sont réceptionnés dans la [boîte d&#39;erreur par défaut de la plateforme](../../installation/using/deploying-an-instance.md#parameters-for-delivered-emails-parameters-for-delivered-emails). Vous pouvez toutefois définir une adresse d’erreur spécifique pour une diffusion.
 
-Vous pouvez également définir une adresse spécifique à partir de cet écran afin d&#39;examiner les raisons des mails rebonds alors qu&#39;ils n&#39;ont pas pu être qualifiés automatiquement par l&#39;application. Pour chacun de ces champs, la variable **Ajouter des champs personnalisés** vous permet d&#39;ajouter des paramètres de personnalisation.
+Vous pouvez également définir une adresse spécifique depuis cet écran afin d&#39;investiguer sur les causes des mails rebonds n&#39;ayant pas pu être automatiquement qualifiés par l&#39;application. Pour chacun de ces champs, l&#39;icône d&#39;**ajout de champs personnalisés** permet d&#39;ajouter des paramètres de personnalisation.
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 

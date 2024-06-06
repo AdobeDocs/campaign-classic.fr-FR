@@ -2,14 +2,14 @@
 product: campaign
 title: Créer des SMS avec Campaign
 description: Découvrez comment créer des SMS avec Campaign
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: SMS
 role: User
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    L&#39;utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](about-personalization.md).
 
-1. Cliquez sur **[!UICONTROL Aperçu]** au bas de la page pour visualiser le rendu du message avec sa personnalisation. Pour lancer l&#39;aperçu, sélectionnez un destinataire à l&#39;aide de la fonction **[!UICONTROL Test de la personnalisation]** dans la barre d’outils. Vous pouvez sélectionner un destinataire parmi les cibles définies ou choisir un autre destinataire.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** en bas de page afin de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, vous devez choisir un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d&#39;outils. Sélectionnez un individu parmi la ou les cibles définies ou choisissez une autre personne.
 
    ![](assets/s_ncs_user_wizard_sms01_139.png)
 

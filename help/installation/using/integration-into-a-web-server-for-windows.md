@@ -3,15 +3,15 @@ product: campaign
 title: Intégration à un serveur web pour Windows
 description: Intégration à un serveur web pour Windows
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '918'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/s_ncs_install_iis7_parameters_step8.png)
 
-1. Dans le **Sécurité du répertoire** du site Web, vérifiez que l&#39;accès anonyme est activé. Si nécessaire, cliquez sur le bouton **[!UICONTROL Modifier]** pour modifier les paramètres.
+1. Vérifiez, dans l&#39;onglet **Sécurité de répertoire** du site web, que l&#39;accès anonyme est activé. Si nécessaire, cliquez sur le lien **[!UICONTROL Editer]** pour modifier les paramètres.
 
    ![](assets/s_ncs_install_iis7_parameters_step9.png)
 

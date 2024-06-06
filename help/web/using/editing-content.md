@@ -2,13 +2,13 @@
 product: campaign
 title: Modifier le contenu
 description: Modifier le contenu
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1252'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -144,7 +144,7 @@ L&#39;option **Lien vers une URL externe** permet d&#39;ouvrir n&#39;importe que
 
 ![](assets/dce_toolbar_imgblock_externallink.png)
 
-Saisissez l&#39;adresse du lien en question dans le champ **URL** champ . Le champ URL doit être renseigné comme suit : **https://www.myURL.com**.
+Saisissez l&#39;adresse du lien en question dans le champ **URL**. Le champ URL doit être renseigné comme suit : **https://www.myURL.com**.
 
 ### Lien vers une application Web {#link-to-a-web-application}
 

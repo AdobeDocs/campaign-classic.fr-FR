@@ -4,12 +4,12 @@ title: Gestion des rapports
 description: Gestion des rapports
 feature: Reporting, Configuration
 role: Data Engineer, Developer
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Les rapports se basant sur un schéma spécifique aux destinataires par défaut 
 
 Pour créer des rapports, voir [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
-Dans certains cas, vous devez également mettre en place de nouveaux cubes spécifiques à ces tables. Les cubes sont présentés dans la section [cette section](../../reporting/using/ac-cubes.md).
+Dans certains cas, vous devrez également mettre en place de nouveaux cubes spécifiques à ces tables. Les cubes sont présentés dans [cette section](../../reporting/using/ac-cubes.md).
 
 Les rapports concernés sont les suivants :
 

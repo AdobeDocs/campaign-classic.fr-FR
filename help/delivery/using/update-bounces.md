@@ -2,15 +2,15 @@
 product: campaign
 title: Mettre à jour la qualification des rebonds après une panne d’un FAI
 description: Découvrez comment mettre à jour la qualification des rebonds après une panne dʼun fournisseur dʼaccès à Internet
-badge-v8: label="S’applique également à la version 8" type="Positive" tooltip="S’applique également à Campaign v8"
+badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Deliverability
 hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Des problèmes globaux chez Apple ou Gmail, par exemple, peuvent entraîner l’
 
 * « “adresse email” 550 5.1.1 : utilisateur trouvé, mais aucun enregistrement d’utilisateur trouvé. »
 
-* &quot;550 &#39;adresse email&#39; du destinataire rejeté&quot;
+* « “adresse email” 550 du destinataire rejetée »
 
-Notez que si les rebonds de report avec le message &quot;452 action demandée abandonnée : réessayez plus tard&quot; sont observés, ils sont automatiquement repris et aucune action n’est nécessaire. Ils devraient s’améliorer à mesure que le FAI retrouve sa pleine capacité.
+Notez que si des rebonds de report affichant le message « 452 action demandée abandonnée : réessayez ultérieurement » sont observés, les envois sont automatiquement repris et aucune action n’est nécessaire. Ils devraient s’améliorer à mesure que le FAI retrouve sa pleine capacité.
 
 >[!NOTE]
 >

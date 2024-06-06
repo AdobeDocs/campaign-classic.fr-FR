@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow de mise à jour des do
 feature: Workflows, Targeting Activity, Data Management
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Une activité de type **Mise à jour de données** permet de mettre à jour en m
 
 ## Type d&#39;opération {#operation-type}
 
-Le champ **[!UICONTROL Type d&#39;opération]** permet de choisir le traitement à réaliser sur les données de la base :
+Le champ **[!UICONTROL Type d&#39;opération]** permet de choisir le traitement à réaliser sur les données de la base de données :
 
 * **[!UICONTROL Ajouter ou mettre à jour]** : ajouter des données ou les mettre à jour si elles ont déjà été ajoutées auparavant.
 * **[!UICONTROL Ajouter]** : ajouter des données uniquement.
@@ -53,11 +53,11 @@ Vous pouvez également utiliser l&#39;icône **[!UICONTROL Ajouter]** pour séle
 
 ![](assets/s_advuser_update_data_3.png)
 
-Sélectionnez tous les champs à mettre à jour et, au besoin, ajoutez des conditions selon lesquelles effectuer la mise à jour. Pour cela, utilisez la colonne **[!UICONTROL Prise en compte si]**. Les conditions sont appliquées les unes après les autres, dans l&#39;ordre de la liste. Utilisez les flèches situées à droite pour modifier l&#39;ordre des mises à jour.
+Sélectionnez tous les champs à mettre à jour et, au besoin, ajoutez des conditions pour que cette mise à jour soit réalisée. Pour cela, utilisez la colonne **[!UICONTROL Prise en compte si]**. Les conditions sont appliquées les unes après les autres, dans l&#39;ordre de la liste. Utilisez les flèches situées à droite pour modifier l&#39;ordre des mises à jour.
 
 Vous pouvez utiliser plusieurs fois le même champ de destination.
 
-Dans un **[!UICONTROL Insérer ou mettre à jour]** , vous pouvez sélectionner l&#39;opération à appliquer, individuellement ou pour chaque champ. Pour ce faire, sélectionnez la valeur souhaitée dans la variable **[!UICONTROL Opération]** colonne .
+Dans le cadre d&#39;une opération de type **[!UICONTROL Ajouter ou mettre à jour]**, vous pouvez sélectionner individuellement, pour chaque champ, l&#39;opération à appliquer. Pour cela, sélectionner la valeur souhaitée dans la colonne **[!UICONTROL Opération]**.
 
 ![](assets/s_advuser_update_data_5.png)
 
@@ -72,7 +72,7 @@ Le lien **[!UICONTROL Paramètres avancés]** permet de spécifier des options s
 * **[!UICONTROL Vider la valeur destination si la valeur source est vide (NULL)]**. Cette option est cochée par défaut.
 * **[!UICONTROL Mettre à jour toutes les colonnes dont les noms correspondent]**.
 * Préciser les conditions de prise en compte des éléments de la source à l&#39;aide d&#39;une expression dans le champ **[!UICONTROL Prise en compte]**.
-* Spécifiez les conditions de prise en compte des doublons à l’aide d’une expression. Si vous cochez la variable **[!UICONTROL Ignorer les enregistrements relatifs à la même cible]** , seul le premier de la liste des expressions sera pris en compte.
+* Préciser les conditions de prise en compte des doublons à l&#39;aide d&#39;une expression. Si vous cochez l&#39;option **[!UICONTROL Ignorer les enregistrements concernant la même cible]**, seul le premier de la liste des expressions sera pris en compte.
 
 **[!UICONTROL Générer une transition sortante]**
 
@@ -100,7 +100,7 @@ La mise à jour des données et la fusion des collections permet de mettre à jo
 
 1. Indiquez les collections à déplacer vers l&#39;enregistrement primaire et les champs à mettre à jour.
 
-   Renseignez les règles qui s&#39;appliquent à ces derniers lorsqu&#39;un ou plusieurs enregistrements secondaires sont identifiés. Pour ce faire, vous pouvez utiliser le générateur d’expression. Voir à ce sujet la section [section](../../platform/using/defining-filter-conditions.md#building-expressions). Par exemple, en indiquant qu’il s’agit de la valeur mise à jour le plus récemment parmi tous les différents enregistrements qui doivent être conservés.
+   Renseignez les règles qui s&#39;appliquent à ces derniers lorsqu&#39;un ou plusieurs enregistrements secondaires sont identifiés. Pour ce faire, vous pouvez utiliser le générateur d’expression. Voir à ce propos cette [section](../../platform/using/defining-filter-conditions.md#building-expressions). Par exemple, en indiquant que c&#39;est la valeur mise à jour le plus récemment parmi les différents enregistrements qui doit être conservée.
 
    Indiquez ensuite les conditions de prise en compte de la règle.
 
