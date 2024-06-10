@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: a94774daa4005fe95066b85f921d9baa981b2a7c
+source-git-commit: 0e88ac270423ad419237264e562a03ab0c42efb5
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 98%
+source-wordcount: '856'
+ht-degree: 86%
 
 ---
 
@@ -33,7 +33,10 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 >
 >Cette matrice est régulièrement mise à jour avec les nouveaux éléments pris en charge ajoutés et les éléments déconseillés supprimés.
 
-## Systèmes d’exploitation{#OperatingSystems}
+## Systèmes d’exploitation {#OperatingSystems}
+
+En tant que client on-premise/hybride, vous devez installer Adobe Campaign sur l’un des systèmes d’exploitation répertoriés ci-dessous. En savoir plus sur les étapes d&#39;installation de Campaign Classic v7 dans [cette page](../../installation/using/application-server.md).
+
 
 <table> 
 <tbody> 
@@ -71,7 +74,9 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 >
 >Si vous utilisez RHEL, vous devez désactiver SELinux ou demander à vos architectes d’écrire des règles SELinux personnalisées pour vérifier qu’un SELinux activé ne pose pas de problème pour les opérations de Campaign.
 
-## Serveurs web{#WebServers}
+## Serveurs web {#WebServers}
+
+En tant que client on-premise/hybride, en fonction de votre système d&#39;exploitation, vous devez intégrer Campaign dans l&#39;un des serveurs web répertoriés ci-dessous. En savoir plus sur les étapes de configuration des serveurs Web dans [cette page](../../installation/using/integration-into-a-web-server-for-windows.md) (pour Windows) et [cette page](../../installation/using/integration-into-a-web-server-for-linux.md) (pour Linux) .
 
 <table>
 <tbody>
@@ -90,7 +95,9 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 </tbody>
 </table>
 
-## Outils{#Tools}
+## Outils {#Tools}
+
+En tant que client on-premise/hybride, vous devez installer et configurer les outils répertoriés ci-dessous. [En savoir plus](../../installation/using/application-server.md).
 
 <table>
 <tbody>
@@ -119,6 +126,9 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 </table>
 
 ## Systèmes de gestion de base de données relationnelle (SGBDR){#RDBMSservers}
+
+En tant que client on-premise/hybride, vous devez installer et configurer l&#39;une des bases de données répertoriées ci-dessous. [En savoir plus](../../installation/using/database.md).
+
 
 <table>
 <tbody>
@@ -158,7 +168,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 >
 >* Le pilote SGBDR doit correspondre à la version du serveur SGBDR.
 >
->* PostgreSQL constitue le SGBDR pour les environnements hébergés.
+>* PostgreSQL est le SGBDR des environnements de Cloud Service hébergés/gérés.
 
 ## Connecteurs CRM{#CRMconnectors}
 
@@ -394,7 +404,7 @@ Les navigateurs suivants, dans leur dernière version, sont compatibles avec Cam
 
 
 
-## Autres informations similaires{#Morelikethis}
+## Autres informations similaires {#Morelikethis}
 
 * [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md)
 * [Architecture générale de Campaign](../../installation/using/general-architecture.md)
