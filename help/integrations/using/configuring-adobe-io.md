@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: a08b386ff73fd9a2e9b3909c8f8de5e419104ce4
+source-git-commit: 514f390b5615a504f3805de68f882af54e0c3949
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '923'
 ht-degree: 82%
 
 ---
@@ -40,7 +40,7 @@ Avant de commencer cette implémentation, vérifiez que vous disposez des élém
 >
 > Les informations d’identification du compte de service (JWT) sont en train d’être abandonnées par Adobe. Les intégrations de Campaign avec les solutions et applications Adobe doivent désormais se baser sur les informations d’identification OAuth serveur à serveur. </br>
 >
-> * Si vous avez implémenté des intégrations entrantes avec Campaign, vous devez migrer votre compte technique comme décrit dans cette documentation. Les informations d’identification du compte de service existant (JWT) continueront à fonctionner jusqu’au 27 janvier 2025. En outre, la création d’informations d’identification de compte de service (JWT) dans Developer Console n’est plus possible à compter du 3 juin 2024. Les informations d’identification d’un nouveau compte de service (JWT) ne peuvent plus être créées ni ajoutées à un projet après cette date. </br>
+> * Si vous avez implémenté des intégrations entrantes avec Campaign, vous devez migrer votre compte technique comme décrit dans la section [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Les informations d’identification du compte de service existant (JWT) continueront à fonctionner jusqu’au 27 janvier 2025. En outre, la création d’informations d’identification de compte de service (JWT) dans Developer Console n’est plus possible à compter du 3 juin 2024. Les informations d’identification d’un nouveau compte de service (JWT) ne peuvent plus être créées ni ajoutées à un projet après cette date. </br>
 >
 > * Si vous avez implémenté des intégrations sortantes, telles que l’intégration Campaign-Analytics ou l’intégration des Triggers Experience Cloud, elles continueront à fonctionner jusqu’au 27 janvier 2025. Toutefois, avant cette date, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers oAuth. Comme la création d’informations d’identification de compte de service (JWT) dans Developer Console n’est plus possible à compter du 3 juin 2024, vous ne pouvez pas créer une nouvelle intégration sortante basée sur JWT après cette date.
 
