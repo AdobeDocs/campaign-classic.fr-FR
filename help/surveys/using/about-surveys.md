@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign comprend un module graphique pour définir et publier des applic
 
 >[!AVAILABILITY]
 >
->La gestion des questionnaires n&#39;est pas disponible dans Campaign v8 dans le contexte d&#39;un déploiement d&#39;entreprise (FFDA). En savoir plus dans [Documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
+>La gestion des questionnaires n’est pas disponible dans Campaign v8 dans le contexte d’un déploiement Entreprise (FFDA). En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
 
 
 Le module complémentaire **Questionnaire** facultatif permet de créer un nouveau type d&#39;application web pour créer et gérer des questionnaires en ligne, tels que des formulaires permettant d&#39;ajouter ou de modifier des informations de profil, de vous abonner ou de vous désabonner d&#39;une publication, ou un formulaire de participation à un concours. Une fois les réponses collectées, elles sont stockées dans la base de données ou dans des variables locales. Le modèle de données peut être étendu dynamiquement à l&#39;aide des réponses données aux questionnaires. Vous pouvez visualiser les résultats en temps réel, filtrer les réponses et les analyser à l&#39;aide de graphiques dédiés.

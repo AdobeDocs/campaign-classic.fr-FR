@@ -1,22 +1,22 @@
 ---
 product: campaign
-title: Configuration du pipeline
-description: Découvrez comment configurer le pipeline pour l'intégration Campaign - Triggers
+title: Configurer le pipeline
+description: Découvrez comment configurer le pipeline pour l’intégration Campaign - Triggers
 feature: Triggers
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: 271e0f9fde0cbfb016e201c8390b26673d8fc696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '886'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
-# Configuration du pipeline {#configuring-pipeline}
+# Configurer le pipeline {#configuring-pipeline}
 
-Les paramètres d’authentification tels que l’ID de client, la clé privée et le point de terminaison de l’authentification sont configurés dans les fichiers de configuration de l’instance.
+Les paramètres d’authentification tels que l’identifiant client, la clé privée et le point d’entrée de l’authentification sont configurés dans les fichiers de configuration de l’instance.
 
 La liste des déclencheurs à traiter est configurée dans une option au format JSON.
 
@@ -24,26 +24,26 @@ Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui
 
 ## Conditions préalables {#prerequisites}
 
-Avant de commencer cette configuration, vérifiez que vous disposez des éléments suivants :
+Avant de commencer cette configuration, vérifiez que vous disposez des éléments suivants :
 
-* Un projet Adobe Developer
-* Un ID d’organisation valide - Pour trouver votre ID d’organisation, reportez-vous à la section [cette page](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}
-* Un accès développeur à votre organisation
-* Configuration de déclencheurs valide dans Adobe Analytics
+* Un projet Adobe Developer.
+* Un identifiant d’organisation valide : pour trouver votre identifiant d’organisation, consultez [cette page](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}.
+* Un accès de développement à votre organisation.
+* Une configuration de déclencheurs valide dans Adobe Analytics.
 
-## Fichiers d&#39;authentification et de configuration {#authentication-configuration}
+## Fichiers d’authentification et de configuration {#authentication-configuration}
 
-L’authentification est requise, car le pipeline est hébergé dans Adobe Experience Cloud. Une paire de clés publique et privée est utilisée. Ce processus a la même fonction qu’un utilisateur/mot de passe, mais il est plus sécurisé. L’authentification est prise en charge pour le Marketing Cloud via Adobe Developer Project.
+Une authentification est requise, car le pipeline est hébergé dans Adobe Experience Cloud. Une paire de clés publique et privée est utilisée. Ce processus a la même fonction qu’un nom d’utilisateur ou d’utilisatrice avec mot de passe, mais il est plus sécurisé. L’authentification est prise en charge pour Marketing Cloud via le projet Adobe Developer.
 
-## Étape 1 : Créer/mettre à jour votre projet Adobe Developer {#creating-adobe-io-project}
+## Étape 1 : créer/mettre à jour votre projet Adobe Developer {#creating-adobe-io-project}
 
-Pour les clients hébergés, travaillez avec votre représentant d’Adobe/l’assistance clientèle pour activer votre organisation avec des jetons de compte Adobe Developer pour l’intégration des Triggers.
+Pour les clientes et les clients hébergés, contactez votre représentant ou représentante Adobe ou l’assistance clientèle pour permettre à votre organisation d’utiliser des jetons de compte Adobe Developer pour l’intégration de Triggers.
 
-Pour les clients On-premise/hybrides, reportez-vous au [Configuration de l’Adobe I/O pour Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Notez que vous devez sélectionner **[!UICONTROL Adobe Analytics]** lors de l’ajout d’une API aux informations d’identification Adobe Developer.
+Pour les clientes et les clients On-Premise/hybrides, consultez la page [Configuration d’Adobe I/O pour Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md). Notez que vous devez sélectionner **[!UICONTROL Adobe Analytics]** lorsque vous ajoutez une API aux informations d’identification d’Adobe Developer.
 
-## Étape 2 : configuration de l’option de pipeline {#configuring-nmspipeline}
+## Étape 2 : configurer l’option de pipeline {#configuring-nmspipeline}
 
-Une fois l&#39;authentification définie, le pipeline récupère les événements. Il traitera uniquement les déclencheurs configurés dans Adobe Campaign. Le déclencheur doit avoir été généré à partir d’Adobe Analytics et envoyé vers le pipeline qui traitera uniquement les déclencheurs configurés dans Adobe Campaign.
+Une fois l&#39;authentification définie, le pipeline récupère les événements. Il traitera uniquement les déclencheurs configurés dans Adobe Campaign. Le déclencheur doit avoir été généré à partir d’Adobe Analytics et envoyé vers le pipeline qui traitera uniquement les déclencheurs configurés dans Adobe Campaign.
 
 L&#39;option peut également être configurée avec un caractère générique pour capturer tous les déclencheurs, quel que soit leur nom.
 
@@ -92,7 +92,7 @@ L&#39;option peut également être configurée avec un caractère générique po
    }
    ```
 
-### Définition du paramètre Consommateur {#consumer-parameter}
+### Définir le paramètre Consommateur {#consumer-parameter}
 
 Le pipeline fonctionne comme un modèle &quot;fournisseur et consommateur&quot;. Les messages ne sont consommés que pour un utilisateur individuel : chaque consommateur reçoit sa propre copie des messages.
 
@@ -102,20 +102,20 @@ Le service de pipeline effectue le suivi des messages récupérés par chaque co
 
 ### Recommandations relatives à l&#39;option Pipeline {#pipeline-option-recommendation}
 
-Pour configurer l&#39;option Pipeline, vous devez suivre les recommandations suivantes :
+Pour configurer l’option Pipeline, vous devez suivre les recommandations suivantes :
 
-* Ajoutez ou modifiez des déclencheurs sous **[!UICONTROL Triggers]**.
-* Assurez-vous que le fichier JSON est valide.
-* La variable **Nom** correspond à l’identifiant du déclencheur. Un caractère générique &quot;*&quot; capture tous les déclencheurs.
-* La variable **Consommation** correspond au nom de l’instance ou de l’application appelante.
-* la valeur `pipelined`Le processus prend également en charge la rubrique &quot;alias&quot;.
-* Vous devez toujours redémarrer `pipelined`après avoir apporté des modifications.
+* Ajouter ou modifier des déclencheurs dans **[!UICONTROL Triggers]**.
+* Vous assurer que le JSON est valide.
+* Le paramètre **Nom** correspond à l’identifiant du déclencheur. Un caractère générique « * » capture tous les déclencheurs.
+* Le paramètre **Consommateur** correspond au nom de l’instance ou de l’application qui effectue l’appel.
+* Le processus `pipelined` prend également en charge la rubrique « alias ».
+* Vous devez toujours redémarrer le processus `pipelined` après avoir apporté des modifications.
 
 ## Étape 3 : Configuration facultative {#step-optional}
 
-Vous pouvez modifier certains paramètres internes en fonction de vos besoins de charge, mais veillez à les tester avant de les appliquer à votre environnement de production.
+Vous pouvez modifier certains paramètres internes en fonction de vos besoins de charge, mais assurez-vous de les tester avant de les appliquer dans votre environnement de production.
 
-La liste des paramètres facultatifs est la suivante :
+Voici la liste des paramètres facultatifs :
 
 | Option | Description |
 |:-:|:-:|
@@ -136,9 +136,9 @@ La liste des paramètres facultatifs est la suivante :
 
 ### Démarrage automatique du processus en pipeline {#pipelined-process-autostart}
 
-La variable `pipelined` Le processus doit être démarré automatiquement.
+Le processus `pipelined` doit être démarré automatiquement.
 
-Pour ce faire, définissez la variable `<`pipelined`>` élément dans le fichier de configuration à autostart=&quot;true&quot; :
+Pour ce faire, définissez l’élément `<`pipelined`>` dans le fichier de configuration sur autostart=&quot;true&quot; :
 
 ```sql
  <pipelined autoStart="true" ... "/>
@@ -157,5 +157,5 @@ nlserver restart pipelined@instance
 Pour valider la configuration du pipeline pour l&#39;approvisionnement, procédez comme suit :
 
 * Vérifiez que le processus `pipelined` est en cours d&#39;exécution.
-* Vérifiez les `pipelined.log` pour les journaux de connexion de pipeline.
+* Recherchez les logs de connexion du pipeline dans le fichier `pipelined.log`.
 * Vérifiez la connexion et si des pings sont reçus. Les clients hébergés peuvent utiliser le Monitoring depuis la console cliente.

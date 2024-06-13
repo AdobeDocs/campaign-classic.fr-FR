@@ -5,9 +5,9 @@ description: Découvrez comment mettre à jour le nouveau serveur de délivrabil
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 514f390b5615a504f3805de68f882af54e0c3949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1429'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -48,11 +48,11 @@ Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaig
 
 >[!AVAILABILITY]
 >
-> Les informations d’identification du compte de service (JWT) sont en train d’être abandonnées par Adobe. Les intégrations de Campaign avec les solutions et applications Adobe doivent désormais se baser sur les informations d’identification OAuth serveur à serveur. </br>
+> Les informations d’identification de compte de service (JWT) étant abandonnées par Adobe, les intégrations de Campaign aux solutions et aux applications Adobe doivent désormais utiliser des informations d’identification OAuth serveur à serveur.</br>
 >
-> * Si vous avez implémenté des intégrations entrantes avec Campaign, vous devez migrer votre compte technique comme décrit dans la section [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Les informations d’identification du compte de service existant (JWT) continueront à fonctionner jusqu’au 27 janvier 2025. En outre, la création d’informations d’identification de compte de service (JWT) dans Developer Console n’est plus possible à compter du 3 juin 2024. Les informations d’identification d’un nouveau compte de service (JWT) ne peuvent plus être créées ni ajoutées à un projet après cette date. </br>
+> * Si vous avez implémenté des intégrations entrantes pour Campaign, vous devez migrer votre compte technique comme décrit dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Les informations d’identification de compte de service (JWT) existantes continueront de fonctionner jusqu’au 27 janvier 2025. De plus, la création d’informations d’identification de compte de service (JWT) dans Developer Console n’est plus possible à compter du 3 juin 2024. Il n’est plus possible de créer ou d’ajouter à un projet de nouvelles informations d’identification de compte de service (JWT) après cette date.</br>
 >
-> * Si vous avez implémenté des intégrations sortantes, telles que l’intégration Campaign-Analytics ou l’intégration des Triggers Experience Cloud, elles continueront à fonctionner jusqu’au 27 janvier 2025. Toutefois, avant cette date, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers oAuth. Comme la création d’informations d’identification de compte de service (JWT) dans Developer Console n’est plus possible à compter du 3 juin 2024, vous ne pouvez pas créer une nouvelle intégration sortante basée sur JWT après cette date.
+> * Si vous avez implémenté des intégrations sortantes, telles qu’une intégration Campaign-Analytics ou une intégration Experience Cloud Triggers, celles-ci continueront de fonctionner jusqu’au 27 janvier 2025. Toutefois, avant cette date, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers oAuth. Étant donné que la création d’informations d’identification de compte de service (JWT) dans Developer Console n’est plus possible à compter du 3 juin 2024, vous ne pourrez pas créer une nouvelle intégration sortante utilisant JWT après cette date.
 
 ### Conditions préalables{#prerequisites}
 
@@ -83,7 +83,7 @@ Si vous ne pouvez pas voir **Adobe Campaign**, contactez l’[Assistance client�
 >En tant que client On-Premise, si un pare-feu est implémenté de votre côté, vous devez ajouter cette URL `https://deliverability-service.adobe.io` à votre liste autorisée. [En savoir plus](../../installation/using/url-permissions.md).
 
 
-### Étape 1 : Créer/mettre à jour votre projet Adobe Developer {#adobe-io-project}
+### Étape 1 : créer/mettre à jour votre projet Adobe Developer {#adobe-io-project}
 
 1. Accédez à [Adobe Developer Console](https://developer.adobe.com/console/home) et connectez-vous avec l’accès développeur de votre organisation. Vérifiez votre connexion au portail d’organisation approprié.
    **Attention** : si vous avez plusieurs organisations, veillez à choisir la bonne. En savoir plus sur les organisations [sur cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr#ims-org-id){_blank}.

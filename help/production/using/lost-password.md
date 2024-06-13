@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
 source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ Deux cas sont possibles :
 
 ## Mot de passe perdu par un opérateur Campaign {#password-lost-by-campaign-operator}
 
-Si un opérateur Adobe Campaign perd son mot de passe, vous pouvez le modifier.
+Si un opérateur ou une opératrice Adobe Campaign perd son mot de passe, vous pouvez le modifier.
 
 >[!NOTE]
 >
->Cette procédure ne s&#39;applique qu&#39;aux opérateurs se connectant à Campaign avec une authentification native. Pour l&#39;authentification Adobe IMS, voir [cette documentation](https://helpx.adobe.com/ie/manage-account/using/change-or-reset-password.html){target="_blank"}.
+>Cette procédure ne s’applique qu’aux opérateurs et aux opératrices qui se connectent à Campaign avec une authentification native. Pour l’authentification Adobe IMS, consultez [cette documentation](https://helpx.adobe.com/ie/manage-account/using/change-or-reset-password.html){target="_blank"}.
 
-Pour réinitialiser un mot de passe Campaign, procédez comme suit :
+Pour réinitialiser un mot de passe Campaign, suivez les étapes ci-dessous :
 
-1. Connectez-vous via un opérateur disposant des droits d’administrateur.
+1. Connectez-vous via un opérateur ou une opératrice disposant des droits d’administrateur.
 1. Cliquez avec le bouton droit sur un opérateur.
 1. Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Réinitialiser le mot de passe]**.
 
@@ -47,7 +47,7 @@ Pour réinitialiser un mot de passe Campaign, procédez comme suit :
 
 >[!NOTE]
 >
->Cette section ne s&#39;applique qu&#39;aux clients on-premise.
+>Cette section ne s’applique qu’aux clientes et clients on-premise.
 
 Si le mot de passe interne est perdu, vous devez le réinitialiser.
 
@@ -62,7 +62,7 @@ Pour cela, respectez la procédure suivante :
    <xtk internalPassword="myPassword"/>
    ```
 
-1. Supprimez la chaîne entre guillemets, dans ce cas : `myPassword`. Vous obtenez la ligne suivante :
+1. Supprimez la chaîne entre guillemets. Dans ce cas : `myPassword`. Vous obtenez la ligne suivante :
 
    ```xml
    <!-- XTK authentication mode internalPassword : Password of internal account -->
@@ -71,9 +71,9 @@ Pour cela, respectez la procédure suivante :
 
 1. Enregistrez les modifications et fermez le fichier.
 
-1. Arrêtez le `nlserver` processus.
+1. Arrêtez le processus `nlserver`.
 
-1. Paramétrez ensuite le nouveau mot de passe. Pour cela, saisissez les commandes suivantes :
+1. Configurez ensuite le nouveau mot de passe. Pour cela, saisissez les commandes suivantes :
 
    ```javascript
    nlserver config -internalpassword
@@ -85,6 +85,6 @@ Pour cela, respectez la procédure suivante :
    Confirmation 
    ```
 
-1. Démarrez le `nlserver` processus.
+1. Démarrez le processus `nlserver`.
 
-1. Vous pouvez maintenant vous connecter en **Internal** avec votre nouveau mot de passe.
+1. Vous pouvez maintenant vous connecter en mode **Interne** avec votre nouveau mot de passe.

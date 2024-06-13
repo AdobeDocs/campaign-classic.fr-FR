@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -125,13 +125,13 @@ De même, afin de démarrer Adobe Campaign vous pouvez utiliser une des command
 
 * Si vous avez un accès root ou administrateur :
 
-   * Sous Linux : `/etc/init.d/nlserver6 start`
+   * Sous Linux : `/etc/init.d/nlserver6 start`
 
      >[!NOTE]
      >
      >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
 
-   * Sous Windows : `net start nlserver6`
+   * Sous Windows : `net start nlserver6`
 
 * Sinon, dans le compte Adobe Campaign : **nlserver watchdog -svc -noconsole**
 

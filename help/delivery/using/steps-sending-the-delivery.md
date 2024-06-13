@@ -7,7 +7,7 @@ feature: Channel Configuration
 role: User
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -158,7 +158,7 @@ Les deux exemples ci-dessous constituent les cas d&#39;utilisation les plus fré
 
   ![](assets/s_ncs_user_wizard_waves_ramp-up.png)
 
-* **Campagnes impliquant un centre d&#39;appels**
+* **Campagnes impliquant un centre d’appels**
 
   Lorsque vous gérez une campagne de fidélisation par téléphone, votre organisation a une capacité de traitement des appels limitée pour contacter les personnes abonnées.
 

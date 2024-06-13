@@ -7,7 +7,7 @@ feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 8fbfc211c4e791b324c34d3d180daa7597c00c7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Les canaux de diffusion proposés par Adobe Campaign sont les suivants :
 1. **Canal email** : les diffusions email permettent d&#39;adresser des messages électroniques personnalisés à la population cible. Voir [À propos du canal email](about-email-channel.md).
 1. **Canal courrier** : les diffusions courrier permettent de générer un fichier d&#39;extraction contenant les données relatives à la population cible. Voir [À propos du canal courrier](about-direct-mail-channel.md).
 1. **Canal mobile** : les diffusions sur canaux mobiles permettent d&#39;adresser des SMS ou des messages LINE personnalisés à la population cible. Voir [Canal SMS](sms-channel.md).
-1. **Canal des applications mobiles** : les diffusions par applications mobiles permettent d&#39;envoyer des notifications sur des systèmes iOS et Android. Voir [Canal des applications mobiles](about-mobile-app-channel.md).
+1. **Canal des applications mobiles** : les diffusions par applications mobiles permettent d&#39;envoyer des notifications sur des systèmes iOS et Android. Voir le chapitre [Canal des applications mobiles](about-mobile-app-channel.md).
 
    Les autres canaux sont décrits sur [cette page](#other-channels).
 

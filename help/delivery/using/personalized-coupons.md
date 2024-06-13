@@ -7,27 +7,27 @@ feature: Personalization
 role: User
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Coupons personnalisés{#personalized-coupons}
 
-Le fait d&#39;ajouter des coupons à vos diffusions peut donner une valeur ajoutée à vos destinataires en termes de produits et services. Le module coupon de Campaign permet de créer un jeu de coupons à ajouter à des offres marketing à venir. Lorsque vous êtes prêt à créer une diffusion, assignez les coupons applicables. Dans la mesure où les coupons sont valables pendant une période définie, un coupon assigné est lié de façon unique à son message de diffusion. De plus, Campaign confirme qu&#39;il y a suffisamment de coupons par rapport au nombre de messages avant l&#39;envoi de la diffusion.
+Le fait d’ajouter des coupons à vos diffusions peut donner une valeur ajoutée à vos destinataires en termes de produits et services. Le module coupon de Campaign permet de créer un jeu de coupons à ajouter à des offres marketing à venir. Lorsque vous souhaitez créer une diffusion, assignez les coupons applicables. Dans la mesure où les coupons sont valables pendant une période définie, un coupon assigné est lié de façon unique à son message de diffusion. De plus, Campaign confirme qu’il y a suffisamment de coupons par rapport au nombre de messages avant l’envoi de la diffusion.
 
 >[!AVAILABILITY]
 >
->La gestion des coupons n&#39;est pas disponible dans Campaign v8 dans le contexte d&#39;un déploiement d&#39;entreprise (FFDA). En savoir plus dans [Documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
+>La gestion des coupons n’est pas disponible dans Campaign v8 dans le contexte d’un déploiement Entreprise (FFDA). En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
 
-La gestion des coupons repose sur un package qui doit être installé. Pour confirmer que vous disposez de la Gestion des coupons, allez dans **[!UICONTROL Administration > Configuration > Gestion des packages > Packages installés.]**
+La gestion des coupons nécessite un package qui doit être installé. Pour confirmer que vous disposez de la Gestion des coupons, allez dans **[!UICONTROL Administration > Configuration > Gestion des packages > Packages installés.]**
 
-Les données des coupons peuvent être importées et exportée à l&#39;aide de formats CSV et XML. [En savoir plus](../../platform/using/get-started-data-import-export.md).
+Les données des coupons peuvent être importées et exportée à l’aide de formats CSV et XML. [En savoir plus](../../platform/using/get-started-data-import-export.md).
 
-## Création dʼun coupon {#creating-a-coupon}
+## Créer un coupon {#creating-a-coupon}
 
-Le module Gestion des coupons propose deux options lors de la création de coupons :
+Le module de gestion des coupons vous donne le choix entre deux options lorsque vous créez des coupons :
 
 * **Anonyme** : un coupon générique pour des destinataires précis ou une liste de destinataires.
 * **Individuel** : un coupon personnalisé pour des destinataires précis.

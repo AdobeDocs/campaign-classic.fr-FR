@@ -6,9 +6,9 @@ feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: 00d46a7508def4d472e6bb8940a4d40a23c4fb07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Vous trouverez ci-dessous la procédure pour intégrer le SDK Campaign.
   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/");
   ```
 
-  L’autorisation suivante permet de récupérer l’identifiant unique d’un mobile :
+  L’autorisation suivante vous permet de récupérer l’identifiant unique d’un mobile :
 
   ```
   <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
@@ -542,7 +542,7 @@ Pour implémenter le délégué **registerDeviceStatus**, procédez comme suit 
 
 +++**Variables**
 
-Les variables vous permettent de définir le comportement de l&#39;application mobile après réception d&#39;une notification. Ces variables doivent être définies dans le code de l’application mobile et dans la console Adobe Campaign, dans la variable **[!UICONTROL Variables]** dans l’application mobile dédiée (voir [Configuration d’une application mobile dans Adobe Campaign](configuring-the-mobile-application.md)). Voici un exemple de code qui permet à une application mobile de collecter toutes les variables ajoutées dans une notification. Dans notre exemple, nous utilisons la variable &quot;VAR&quot;.
+Les variables vous permettent de définir le comportement de l&#39;application mobile après réception d&#39;une notification. Ces variables doivent être définies dans le code de l’application mobile et dans la console Adobe Campaign, dans l’onglet **[!UICONTROL Variables]** de l’application mobile dédiée (consultez [Configuration d’une application mobile dans Adobe Campaign](configuring-the-mobile-application.md)). Voici un exemple de code qui permet à une application mobile de collecter toutes les variables ajoutées dans une notification. Dans notre exemple, nous utilisons la variable &quot;VAR&quot;.
 
 * **Sous Android** :
 

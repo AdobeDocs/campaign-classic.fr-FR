@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
 source-git-commit: 7e1c3b256cf43232e49d9daa0bf44d1e114b565b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Les couches d&#39;accès pour le moteur de base de données que vous utilisez do
 
 ## Java Development Kit - JDK {#java-development-kit---jdk}
 
-Java Development Kit, ou JDK, est un kit de développement logiciel. Il s’agit du composant de base qui permet le développement d’applications Java et Java.
+Le kit de développement Java, ou JDK, est un kit de développement logiciel. Il s’agit du composant de base qui permet l’utilisation de Java et le développement d’applications Java.
 
 Le module de génération de pages Web dynamiques repose sur la technologie JSP 1.2. A cet effet, un moteur Tomcat (d&#39;origine Apache) est inclus dans l&#39;application. Il nécessite la présence d&#39;un Java Development Kit (JDK), installé sur tous les serveurs sur lesquels l&#39;application Adobe Campaign sera installée.
 
@@ -34,41 +34,41 @@ Les versions prises en charge sont détaillées dans la [matrice de compatibilit
 
 ### Recommandations
 
-Lors de l’installation et de la mise à niveau de votre kit de développement Java, appliquez les recommandations suivantes :
+Lors de l’installation et de la mise à niveau de votre kit de développement Java, appliquez les recommandations suivantes :
 
-* Java Development Kit peut être installé à l’aide de la version appropriée du JDK déjà utilisée par d’autres applications sur l’ordinateur.
+* Le kit de développement Java peut être installé en utilisant la version adéquate du JDK déjà utilisée par d’autres applications sur la machine.
 
-* Lors de l’installation du JDK, l’intégration avec les navigateurs Web n’est pas requise.
+* Lors de l’installation du JDK, l’intégration aux navigateurs web n’est pas requise.
 
-* Sur une machine qui exécute uniquement les agents de diffusion (**nlserver mta** processus) ou le serveur de workflow (**nlserver wfserver** ), l’installation d’un JDK n’est pas requise.
+* Sur une machine exécutant uniquement des agents de diffusion (processus **nlserver mta**) ou le serveur de workflow (processus **nlserver wfserver**), l’installation du JDK n’est pas nécessaire.
 
 * Afin de préserver le fonctionnement optimal de votre plateforme et de conserver la compatibilité avec la version installée, vous devez impérativement désactiver les fonctions de mise à jour automatique du JDK sous Windows et Linux.
 
-* Lors de la mise à niveau de votre version Java, vous devez d’abord désinstaller la version précédente. Les deux versions de Java installées sur le même ordinateur peuvent provoquer des conflits.
+* Lors de la mise à niveau de votre version de Java, vous devez d’abord désinstaller la version précédente. Deux versions de Java installées sur la même machine peuvent provoquer des conflits.
 
-  En tant que client On-premise, vous pouvez vérifier la variable `LD_LIBRARY_PATH` [variable d&#39;environnement](installing-packages-with-linux.md#environment-variables) est défini sur la dernière version (par exemple, java11). S’il est défini sur une version précédente (par exemple, Java8), il doit ensuite être mis à jour. Pour JDK 11, le chemin pour localiser les bibliothèques JDK est : `/usr/lib/jvm/java-11-openjdk-amd64/lib`.
+  En tant que client ou cliente On-premise, vous pouvez vérifier si la `LD_LIBRARY_PATH` [variable d’environnement](installing-packages-with-linux.md#environment-variables) est définie sur la dernière version (par exemple, java11). Si celle-ci est définie sur une version précédente (par exemple, Java8), elle doit alors être mise à jour. Pour JDK 11, le chemin de l’emplacement des bibliothèques JDK est : `/usr/lib/jvm/java-11-openjdk-amd64/lib`.
 
 
-### Etapes d&#39;installation
+### Étapes d’installation
 
-Java Development Kit est spécifique à la plateforme : des programmes d’installation distincts sont nécessaires pour chaque système d’exploitation.
+Le kit de développement Java est spécifique à la plateforme : des programmes d’installation différents sont nécessaires pour chaque système d’exploitation.
 
-Pour télécharger le JDK, connectez-vous à [Oracle de site web](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
+Pour télécharger le JDK, connectez-vous au [site web d’Oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
 
 >[!CAUTION]
 >
-> Veillez à télécharger un kit de développement Java (JDK) et non un environnement d’exécution Java (JRE).
+> Assurez-vous de télécharger un kit de développement Java (JDK) et non un environnement d’exécution Java (JRE).
 
 
-Pour installer le JDSL dans un environnement Linux, Adobe recommande d’utiliser un gestionnaire de packages.
+Pour installer le JDSL dans un environnement Linux, il est préférable d’utiliser un gestionnaire de packages.
 
-Pour Debian, utilisez la commande suivante :
+Pour Debian, utilisez la commande suivante :
 
 ```sql
 aptitude install openjdk-8-jdk
 ```
 
-Pour RHEL, utilisez la commande suivante :
+Pour RHEL, utilisez la commande suivante :
 
 ```sql
 yum install java-1.8.0-openjdk
@@ -81,9 +81,9 @@ Sous Linux, OpenSSL doit être installé. Adobe Campaign prend en charge OpenSS
 
 ## Exporter des rapports {#exporting-reports}
 
-Vous pouvez utiliser Adobe Campaign pour exporter des rapports vers Microsoft Excel et Adobe PDF.
+Vous pouvez utiliser Adobe Campaign pour exporter des rapports aux formats Microsoft Excel et Adobe PDF.
 
-* Pour le format Excel Microsoft, Adobe Campaign repose sur **LibreOffice**.
+* Pour le format Microsoft Excel, Adobe Campaign utilise **LibreOffice**.
 
 * Pour le format Adobe PDF, Adobe Campaign utilise le convertisseur **PhantomJS**. PhantomJS est fourni dans le package d&#39;usine, et LibreOffice doit être installé sur la ou les machines sur lesquelles s&#39;exécute le serveur applicatif Adobe Campaign (processus **nlserver web**).
 
