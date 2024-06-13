@@ -9,7 +9,7 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 28302b40d4fa43b400a3e1b6dd3e133976a01418
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -107,7 +107,7 @@ En tant que client on-premise/hybride, vous devez installer et configurer les ou
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>En savoir plus sur JDK et Campaign dans <a href="https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/deployment-guidelines/application-server#java-development-kit---jdk" target="_blank">cette page</a>.</p>
+<p>En savoir plus sur JDK et Campaign sur <a href="https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/deployment-guidelines/application-server#java-development-kit---jdk" target="_blank">cette page</a>.</p>
 </td>
 </tr>
 <tr>
