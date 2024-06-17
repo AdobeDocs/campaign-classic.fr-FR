@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 28302b40d4fa43b400a3e1b6dd3e133976a01418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 ## Systèmes d’exploitation {#OperatingSystems}
 
-En tant que client on-premise/hybride, vous devez installer Adobe Campaign sur l’un des systèmes d’exploitation répertoriés ci-dessous. En savoir plus sur les étapes d&#39;installation de Campaign Classic v7 dans [cette page](../../installation/using/application-server.md).
+En tant que client ou cliente on-premise/hybride, vous devez installer Adobe Campaign sur l’un des systèmes d’exploitation répertoriés ci-dessous. Découvrez les étapes de l’installation de Campaign Classic v7 dans [cette page](../../installation/using/application-server.md).
 
 
 <table> 
@@ -76,12 +76,12 @@ En tant que client on-premise/hybride, vous devez installer Adobe Campaign sur l
 
 ## Serveurs web {#WebServers}
 
-En tant que client on-premise/hybride, en fonction de votre système d&#39;exploitation, vous devez intégrer Campaign dans l&#39;un des serveurs web répertoriés ci-dessous. En savoir plus sur les étapes de configuration des serveurs Web dans [cette page](../../installation/using/integration-into-a-web-server-for-windows.md) (pour Windows) et [cette page](../../installation/using/integration-into-a-web-server-for-linux.md) (pour Linux) .
+En tant que client ou cliente on-premise/hybride, en fonction de votre système d’exploitation, vous devez intégrer Campaign dans l’un des serveurs web répertoriés ci-dessous. Découvrez les étapes de configuration des serveurs web dans [cette page](../../installation/using/integration-into-a-web-server-for-windows.md) pour Windows et [cette page](../../installation/using/integration-into-a-web-server-for-linux.md) pour Linux.
 
 <table>
 <tbody>
 <tr>
-<td>Microsoft IIS </td>
+<td>Microsoft IIS</td>
 <td>
 <p>10.0 sur Windows Server 2016 et 2019</p>
 </td>
@@ -97,7 +97,7 @@ En tant que client on-premise/hybride, en fonction de votre système d&#39;explo
 
 ## Outils {#Tools}
 
-En tant que client on-premise/hybride, vous devez installer et configurer les outils répertoriés ci-dessous. [En savoir plus](../../installation/using/application-server.md).
+En tant que client ou cliente on-premise/hybride, vous devez installer et configurer les outils répertoriés ci-dessous. [En savoir plus](../../installation/using/application-server.md).
 
 <table>
 <tbody>
@@ -127,7 +127,7 @@ En tant que client on-premise/hybride, vous devez installer et configurer les ou
 
 ## Systèmes de gestion de base de données relationnelle (SGBDR){#RDBMSservers}
 
-En tant que client on-premise/hybride, vous devez installer et configurer l&#39;une des bases de données répertoriées ci-dessous. [En savoir plus](../../installation/using/creating-and-configuring-the-database.md).
+En tant que client ou cliente on-premise/hybride, vous devez installer et configurer l’une des bases de données répertoriées ci-dessous. [En savoir plus](../../installation/using/creating-and-configuring-the-database.md).
 
 
 <table>
@@ -168,7 +168,7 @@ En tant que client on-premise/hybride, vous devez installer et configurer l&#39;
 >
 >* Le pilote SGBDR doit correspondre à la version du serveur SGBDR.
 >
->* PostgreSQL est le SGBDR des environnements de Cloud Service hébergés/gérés.
+>* PostgreSQL constitue le SGBDR pour les environnements de services cloud hébergés/gérés.
 
 ## Connecteurs CRM{#CRMconnectors}
 

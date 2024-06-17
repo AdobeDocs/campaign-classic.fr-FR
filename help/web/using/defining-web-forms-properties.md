@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 source-git-commit: 1d4990917fea54e67ed23cd0771295de03a4f01a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1439'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Le modèle de formulaire est choisi lors de la création du formulaire. Il ne pe
 
 ## Stockage des données d&#39;un formulaire {#form-data-storage}
 
-Par défaut, les champs des formulaires Web sont stockés dans la table des destinataires. Vous pouvez modifier la table utilisée en sélectionnant une nouvelle table dans le champ **[!UICONTROL Type de document]**. L&#39;icône **[!UICONTROL Loupe]** permet de visualiser le contenu de la table sélectionnée.
+Par défaut, les champs des formulaires Web sont stockés dans la table des destinataires. Vous pouvez modifier la table utilisée en sélectionnant une nouvelle table dans le champ **[!UICONTROL Type de document]**. L&#39;icône **[!UICONTROL Loupe]** permet de visualiser le contenu du tableau sélectionné.
 
 Les réponses fournies sont stockées par défaut dans la table **Réponse à un formulaire d&#39;un destinataire**.
 
@@ -86,29 +86,29 @@ Un exemple de rendu est affiché dans la section inférieure de la fenêtre des 
 
 ## Logo dans le formulaire {#logo-in-the-form}
 
-Vous pouvez modifier le logo utilisé dans le formulaire par votre propre logo.
+Vous pouvez remplacer le logo utilisé dans le formulaire par votre propre logo.
 
-Dans le **[!UICONTROL Rendu]** dans la **[!UICONTROL Propriétés]** de votre application web, cliquez sur l’icône en forme de verre de votre modèle :
+Dans l’onglet **[!UICONTROL Rendu]** dans les **[!UICONTROL propriétés]** de votre application web, cliquez sur l’icône en forme de loupe de votre modèle :
 
 ![](assets/logo_glass.png)
 
-Dans la nouvelle fenêtre, cliquez sur le bouton **[!UICONTROL Disposition des pages]** link :
+Dans la nouvelle fenêtre, cliquez sur le lien **[!UICONTROL Mise en page]** :
 
 ![](assets/logo_pagelayout.png)
 
-Vous aurez la possibilité de modifier le chemin de l’image du logo ici :
+Vous aurez la possibilité de modifier le chemin de l’image du logo ici :
 
 ![](assets/logo_path.png)
 
-Les images disponibles se trouvent sous **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]**. Vous pouvez ajouter votre logo ici.
+Les images disponibles se trouvent sous **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]**. Vous pouvez ajouter votre logo ici.
 
-Ces images sont placées dans le répertoire principal de l’instance. *datakit\nms\fra\img\activities* ou *datakit\nms\eng\img\activities* (fra ou fra, selon la langue de l&#39;instance).
+Ces images sont placées dans le répertoire back-end de l’instance. *datakit\nms\fra\img\activities* ou *datakit\nms\eng\img\activities* (eng ou fra, selon la langue de l’instance).
 
-Pour qu’une nouvelle image soit disponible dans ce répertoire (et dans Images), contactez le support Adobe pour apporter des modifications aux répertoires principaux.
+Pour qu’une nouvelle image soit disponible dans ce répertoire (et dans Images), contactez le support Adobe pour apporter des modifications aux répertoires back-end.
 
-Pour les instances sur site, vous pouvez ajouter vous-même des images à la datakit.
+Pour les instances sur site, vous pouvez ajouter vous-même des images au datakit.
 
-Il n’est pas nécessaire que l’image téléchargée soit visible à partir du client Campaign. Le chemin correct est suffisant pour être utilisé comme nouveau logo.
+Il n’est pas nécessaire que l’image chargée soit visible à partir du client Campaign. Le chemin correct est suffisant pour être utilisé comme nouveau logo.
 
 ## Textes du formulaire {#texts-in-the-form}
 

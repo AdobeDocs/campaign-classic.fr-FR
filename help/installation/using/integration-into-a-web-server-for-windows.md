@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 source-git-commit: 0e88ac270423ad419237264e562a03ab0c42efb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '732'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -32,14 +32,14 @@ Un serveur Web permet également d&#39;assurer la confidentialité des données 
 
 De même, vous devez utiliser un serveur Web lorsque vous souhaitez utiliser les fonctionnalités de tracking, disponibles seulement en tant que module d&#39;extension d&#39;un serveur Web.
 
-## Configuration du serveur Web IIS {#configuring-the-iis-web-server}
+## Configurer le serveur web IIS {#configuring-the-iis-web-server}
 
-La procédure de configuration d&#39;un serveur Web IIS Microsoft est essentiellement graphique. Cela implique l&#39;utilisation d&#39;un site Web pour accéder aux ressources du serveur Adobe Campaign : fichiers Java (.jsp), feuilles de style (.css, .xsl), images (.png), la DLL ISAPI pour la redirection, etc.
+La procédure de configuration d’un serveur web IIS Microsoft est essentiellement graphique. Cela implique l’utilisation d’un site web pour accéder aux ressources du serveur Adobe Campaign : fichiers Java (.jsp), feuilles de style (.css, .xsl), images (.png), la DLL ISAPI pour la redirection, etc.
 
 
 ### Étapes de configuration {#configuration-steps}
 
-Pour intégrer Adobe Campaign au serveur web Microsoft IIS, procédez comme suit :
+Pour intégrer Adobe Campaign au serveur web Microsoft IIS, procédez comme suit :
 
 1. Ouvrez Microsoft IIS.
 1. Créez et paramétrez le site (Adobe Campaign, par exemple) en fonction des contraintes de votre réseau (port TCP de connexion, host DNS, adresse IP).
@@ -56,15 +56,15 @@ Pour intégrer Adobe Campaign au serveur web Microsoft IIS, procédez comme suit
 
    >[!NOTE]
    >
-   >Vous devez être connecté en tant qu’administrateur pour exécuter le script VBS ou exécuter le script en tant qu’administrateur.
+   >Vous devez vous connecter en tant qu’administrateur ou administratrice pour exécuter le script VBS ou exécuter le script en tant qu’administrateur ou administratrice.
 
    Cliquez sur **[!UICONTROL OK]** si le serveur Web fait office de serveur de redirection pour le tracking, dans le cas contraire cliquez sur **[!UICONTROL Cancel]**.
 
    Lorsque plusieurs sites sont déjà paramétrés sur le serveur Web, une page intermédiaire est affichée afin de préciser sur quel site Web doit s&#39;appliquer l&#39;installation : saisissez le numéro associé au site puis cliquez sur **[!UICONTROL OK]**.
 
-1. Dans l&#39;onglet **[!UICONTROL Affichage du contenu]**, vérifiez que la configuration du site Web est bien paramétrée avec les ressources Adobe Campaign :
+1. Dans l’onglet **[!UICONTROL Affichage du contenu]**, vérifiez que la configuration du site web est bien paramétrée avec les ressources Adobe Campaign :
 
-   Si l&#39;arborescence n&#39;est pas affichée, redémarrez Microsoft IIS.
+   Si l’arborescence n’est pas affichée, redémarrez Microsoft IIS.
 
 ### Gestion des droits {#managing-rights}
 
@@ -86,7 +86,7 @@ Vous devez tester la validité de la configuration.
 
 Pour cela, respectez la procédure suivante :
 
-1. Redémarrez le serveur Microsoft IIS à l’aide de la fonction **iisreset** ligne de commande.
+1. Redémarrez le serveur Microsoft IIS à l’aide de la ligne de commande **iisreset**.
 
 1. Démarrez le service Adobe Campaign, puis assurez-vous qu&#39;il est en cours d&#39;exécution.
 
@@ -120,7 +120,7 @@ Vous pouvez également vous assurer que la DLL ISAPI est bien chargée.
 Pour cela, les étapes sont les suivantes :
 
 1. Editez les filtres ISAPI pour le site Adobe Campaign en cliquant sur l&#39;icône **[!UICONTROL Mappages de gestionnaires]**.
-1. Vérifiez le contenu du filtre ISAPI.
+1. Vérifiez ensuite le contenu du filtre ISAPI.
 
 
 ## Modifier la limite de la taille des fichiers téléchargeables {#changing-the-upload-file-size-limit}
@@ -131,7 +131,7 @@ Cela peut avoir un impact dans Adobe Campaign, notamment si vous souhaitez tél
 
 Par exemple, si vous utilisez une activité de type **Chargement (fichier)** dans un workflow pour importer un fichier de 50 Mo, une erreur empêchera le workflow d&#39;être correctement exécuté.
 
-Dans ce cas, vous devez augmenter cette limite.
+Vous devez, dans ce cas, augmenter cette limite.
 
-Pour plus d&#39;informations sur cette option Microsoft IIS, consultez la section &quot;HowTo&quot; de la section [Documentation Microsoft](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}.
+Pour plus d’informations sur cette option de Microsoft IIS, consultez la section « Procédure » de la [documentation Microsoft](https://learn.microsoft.com/fr-fr/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}.
 
