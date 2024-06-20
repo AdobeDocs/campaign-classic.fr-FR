@@ -4,7 +4,7 @@ title: Web Analytics
 description: En savoir plus sur le package Web Analytics
 feature: Workflows, Analytics Integration
 source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
 ht-degree: 100%
 
