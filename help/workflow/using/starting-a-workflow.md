@@ -4,10 +4,10 @@ title: Démarrer un workflow
 description: Découvrez comment démarrer un workflow et la barre d’outils des actions de workflows ainsi que le menu contextuel
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '1202'
-ht-degree: 100%
+source-git-commit: 98815fe0417f9126826e0273caa80888164793ec
+workflow-type: tm+mt
+source-wordcount: '1265'
+ht-degree: 95%
 
 ---
 
@@ -64,6 +64,16 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
   Cette action consiste à arrêter puis démarrer un workflow. Dans la plupart des cas, elle permet de redémarrer plus vite. Elle est également utile pour automatiser le redémarrage lorsque l&#39;arrêt prend un certain temps : en effet la commande &#39;Démarrer&#39; n&#39;est disponible que lorsque l&#39;arrêt est effectif.
 
   Les actions **[!UICONTROL Démarrer / Pause / Stopper / Redémarrer]** sont également disponibles via les icônes d&#39;exécution de la barre d&#39;outils. Pour plus d’informations à ce sujet, consultez cette [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
+
+  Notez que la variable **Redémarrer** L’action n’efface pas les variables d’instance de workflow par rapport à **Exécution**, **Arrêter**, et **Début** actions (l’effacement des variables d’instance survenant lors de l’action Démarrer). Lors du redémarrage d’un workflow, les variables d’instance peuvent toujours être utilisées avec des valeurs conservées. Pour les effacer, vous pouvez effectuer l’une des opérations suivantes :
+   * Effectuer **Arrêter** et **Début** actions.
+   * Ajoutez le code JavaScript ci-dessous à la fin de l’exécution de votre workflow :
+
+     ```
+     var wkf = xtk.workflow.load(instance.id)
+     wkf.variables='<variables/>'
+     wkf.save()
+     ```
 
 * **[!UICONTROL Purge de l&#39;historique]**
 
