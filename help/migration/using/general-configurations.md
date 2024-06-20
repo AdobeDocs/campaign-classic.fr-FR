@@ -9,9 +9,9 @@ topic-tags: configuration
 hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '2655'
+source-git-commit: afbec7b3df810c8c1818a4fb93c5f7e30f7a753b
+workflow-type: tm+mt
+source-wordcount: '2612'
 ht-degree: 100%
 
 ---
@@ -460,7 +460,7 @@ Il existe trois possibilités de résoudre un conflit :
 
   >[!IMPORTANT]
   >
-  >Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des utilisateurs experts.
+  Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des utilisateurs experts.
 
 Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
@@ -475,19 +475,21 @@ Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 1. Positionnez-vous sur le conflit que vous venez de résoudre. Cliquez sur l&#39;icône **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Déclarer comme résolu]**.
 1. Enregistrez vos modifications : le conflit est désormais résolu.
 
+<!--
 ## Tomcat {#tomcat}
 
-Le serveur Tomcat intégré dans Adobe Campaign v7 a changé de version. Son dossier d&#39;installation (tomcat-6) a donc également changé (tomcat 7). Après la mise à niveau, vérifiez que les chemins d&#39;accès sont bien liés au dossier mis à jour (dans le fichier **[!UICONTROL serverConf.xml]**).
+The integrated Tomcat server in Adobe Campaign v7 has changed version. Its installation folder (tomcat-6) has therefore also changed (tomcat 7). After the postupgrade, make sure to check that the paths do link to the updated folder (in the **[!UICONTROL serverConf.xml]** file):
 
 ```
-$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 
-$(XTK_INSTALL_DIR)/tomcat-8/bin/tomcat-juli.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-util.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-api.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
-$(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
+$(XTK_INSTALL_DIR)/tomcat-X/bin/bootstrap.jar 
+$(XTK_INSTALL_DIR)/tomcat-X/bin/tomcat-juli.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat-util.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat-api.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/servlet-api.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/jsp-api.jar
+$(XTK_INSTALL_DIR)/tomcat-X/lib/el-api.jar
 ```
+-->
 
 ## Interaction {#interaction}
 
@@ -507,13 +509,13 @@ Dans v7, le contenu de l&#39;offre a été déplacé. Dans la version 6.02, le c
 
 >[!IMPORTANT]
 >
->Si certaines diffusions utilisant des offres étaient paramétrées pour être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions en v7. Si vous n&#39;avez pas la possibilité de le faire, un mode &quot;compatibilité&quot; est proposé. Ce mode est fortement déconseillé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d&#39;Interaction v7. C&#39;est un mode transitoire permettant de terminer les campagnes en cours avant d&#39;effectuer la véritable migration 6.1. Veuillez nous contacter si vous souhaitez obtenir plus d&#39;informations sur ce mode.
+Si certaines diffusions utilisant des offres étaient paramétrées pour être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions en v7. Si vous n&#39;avez pas la possibilité de le faire, un mode &quot;compatibilité&quot; est proposé. Ce mode est fortement déconseillé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d&#39;Interaction v7. C&#39;est un mode transitoire permettant de terminer les campagnes en cours avant d&#39;effectuer la véritable migration 6.1. Veuillez nous contacter si vous souhaitez obtenir plus d&#39;informations sur ce mode.
 
 Un exemple de script de déplacement (**interactionTo610_full_XX.js**) est disponible dans le dossier **Migration** du répertoire d&#39;installation d&#39;Adobe Campaign v7. Ce fichier présente un exemple de script pour un client utilisant une seule représentation email par offre (les champs **[!UICONTROL htmlSource]** et **[!UICONTROL textSource]**). Le contenu qui était dans la table **NmsEmailOfferView** est déplacé vers la table des offres.
 
 >[!NOTE]
 >
->L&#39;utilisation de ce script ne permet pas de bénéficier des fonctionnalités &quot;gestion de contenu&quot; et &quot;fonctions de rendu&quot;. Pour bénéficier de ces fonctionnalités, vous devez repenser le catalogue d&#39;offres, en particulier le contenu des offres et la configuration des emplacements.
+L&#39;utilisation de ce script ne permet pas de bénéficier des fonctionnalités &quot;gestion de contenu&quot; et &quot;fonctions de rendu&quot;. Pour bénéficier de ces fonctionnalités, vous devez repenser le catalogue d&#39;offres, en particulier le contenu des offres et la configuration des emplacements.
 
 ```
 loadLibrary("/nl/core/shared/nl.js");
@@ -613,7 +615,7 @@ Voici la procédure à suivre après avoir déplacé le contenu des offres si vo
 
    >[!NOTE]
    >
-   >Les noms des catégories et des offres en ligne sont modifiés lors de leur mise en ligne. Sur le canal entrant, mettez à jour toutes les références aux offres et catégories.
+   Les noms des catégories et des offres en ligne sont modifiés lors de leur mise en ligne. Sur le canal entrant, mettez à jour toutes les références aux offres et catégories.
 
 ## Rapports  {#reports}
 

@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 7e1c3b256cf43232e49d9daa0bf44d1e114b565b
-workflow-type: ht
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 Les couches d&#39;accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles depuis le compte Adobe Campaign.
 
-## Java Development Kit - JDK {#java-development-kit---jdk}
+## Java Development Kit - JDK {#jdk}
 
 Le kit de développement Java, ou JDK, est un kit de développement logiciel. Il s’agit du composant de base qui permet l’utilisation de Java et le développement d’applications Java.
 
-Le module de génération de pages Web dynamiques repose sur la technologie JSP 1.2. A cet effet, un moteur Tomcat (d&#39;origine Apache) est inclus dans l&#39;application. Il nécessite la présence d&#39;un Java Development Kit (JDK), installé sur tous les serveurs sur lesquels l&#39;application Adobe Campaign sera installée.
+Le générateur de pages web dynamique utilise la technologie JSP. A cet effet, un moteur Tomcat (d&#39;origine Apache) est inclus dans l&#39;application. Il nécessite la présence d&#39;un Java Development Kit (JDK), installé sur tous les serveurs sur lesquels l&#39;application Adobe Campaign sera installée.
 
 Vous devez installer un JDK sur les machines sur lesquelles vous comptez lancer le serveur applicatif Adobe Campaign (processus **nlserver web**), car il intègre un container de servlets Apache Tomcat utilisées pour la génération des pages web dynamiques (reporting, formulaires web, etc.).
 
@@ -31,6 +31,13 @@ L&#39;application a été validée pour le JDK développé par Oracle ainsi que 
 
 Les versions prises en charge sont détaillées dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) de Campaign.
 
+
+>[!AVAILABILITY]
+>
+>* À compter de la version 7.4.1, Campaign requiert au moins Java JDK 11. Si votre serveur Campaign est installé dans un environnement Windows, vous devez générer un JRE, car il n’est plus fourni par défaut.
+>
+>* Depuis la v7.4.1, Tomcat 10.1 est la version par défaut.
+>
 
 ### Recommandations
 
@@ -41,8 +48,6 @@ Lors de l’installation et de la mise à niveau de votre kit de développement 
 * Lors de l’installation du JDK, l’intégration aux navigateurs web n’est pas requise.
 
 * Sur une machine exécutant uniquement des agents de diffusion (processus **nlserver mta**) ou le serveur de workflow (processus **nlserver wfserver**), l’installation du JDK n’est pas nécessaire.
-
-* Afin de préserver le fonctionnement optimal de votre plateforme et de conserver la compatibilité avec la version installée, vous devez impérativement désactiver les fonctions de mise à jour automatique du JDK sous Windows et Linux.
 
 * Lors de la mise à niveau de votre version de Java, vous devez d’abord désinstaller la version précédente. Deux versions de Java installées sur la même machine peuvent provoquer des conflits.
 
@@ -65,19 +70,16 @@ Pour installer le JDSL dans un environnement Linux, il est préférable d’util
 Pour Debian, utilisez la commande suivante :
 
 ```sql
-aptitude install openjdk-8-jdk
+apt install openjdk-11-jdk-headless
 ```
 
 Pour RHEL, utilisez la commande suivante :
 
 ```sql
-yum install java-1.8.0-openjdk
+dnf install java-11-openjdk-headless
 ```
 
 
-## OpenSSL {#openssl}
-
-Sous Linux, OpenSSL doit être installé. Adobe Campaign prend en charge OpenSSL version 1.0.2 ou ultérieure.
 
 ## Exporter des rapports {#exporting-reports}
 

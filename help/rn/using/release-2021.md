@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: 88edf912235edf729b173c3fb79fb6479657e58d
-workflow-type: ht
-source-wordcount: '2594'
-ht-degree: 100%
+source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
+workflow-type: tm+mt
+source-wordcount: '2586'
+ht-degree: 99%
 
 ---
 
@@ -185,8 +185,7 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/com
 
 **Fonctionnalités obsolètes**
 
-* À compter de la version 21.1 de Campaign, le connecteur de données Adobe Analytics est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence avec le nouveau connecteur Adobe Analytics.
-Pour plus d’informations, consultez la [documentation détaillée](../../technotes/using/aa-connector-migration.md).
+* À compter de la version 21.1 de Campaign, le connecteur de données Adobe Analytics est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence avec le nouveau connecteur Adobe Analytics Connector.
 * La prise en charge de Debian 8 est maintenant obsolète.
 * Suite à la dépréciation d&#39;Oracle CRM dans la version 20.3, le compte externe associé a été supprimé de l’interface.
 

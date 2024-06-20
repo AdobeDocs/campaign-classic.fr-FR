@@ -6,8 +6,8 @@ feature: Technote, Upgrade
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
+workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 100%
 
@@ -123,11 +123,11 @@ Découvrez comment vérifier votre version [dans cette section](../../platform/u
 
 **Comment effectuer la mise à jour ?**
 
-Une fois les instances mises à niveau vers une version plus récente, tous les clients doivent suivre la [procédure permettant de passer au nouveau mode d’authentification](../../integrations/using/configuring-adobe-io.md). Pour ce faire, vous devez générer le nouveau jeton Adobe I/O et l’utiliser dans l’implémentation.
+Une fois les instances mises à niveau vers une version plus récente, tous les clients doivent suivre la [procédure permettant de passer au nouveau mode d’authentification](../../integrations/using/about-triggers.md#implement). Pour ce faire, vous devez générer le nouveau jeton Adobe I/O et l’utiliser dans l’implémentation.
 
 En outre, pour les environnements hybrides, les clients doivent s&#39;assurer que pipeline est configuré sur l&#39;instance de mid-sourcing. [En savoir plus](../../integrations/using/configuring-pipeline.md).
 
-[Découvrez comment migrer vers Adobe I/O](../../integrations/using/configuring-adobe-io.md).
+[Découvrez comment migrer vers Adobe I/O](../../integrations/using/about-triggers.md#implement).
 
 ## Mises à jour d’APNs {#acc-apns-updates}
 

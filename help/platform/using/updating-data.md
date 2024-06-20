@@ -7,16 +7,18 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '764'
-ht-degree: 100%
+source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 98%
 
 ---
 
 # Mise à jour de données{#updating-data}
 
-
+>[!NOTE]
+>
+>Cette page s&#39;applique uniquement aux opérateurs se connectant à Campaign avec une authentification native.
 
 Les informations attachées au profil d’un destinataire peuvent être mises à jour manuellement ou automatiquement.
 

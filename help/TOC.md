@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
-workflow-type: ht
-source-wordcount: '2548'
-ht-degree: 100%
+source-git-commit: 3307c75ed7df0fcd357dd7c684481c62e0457e04
+workflow-type: tm+mt
+source-wordcount: '2552'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
    + [Prise en main des mises à niveau](rn/using/rn-overview.md)
    + [Dernière version](rn/using/latest-release.md)
    + Versions précédentes {#previous-releases}
+      + [2024](rn/using/release-2024.md)
       + [2023](rn/using/release-2023.md)
       + [2022](rn/using/release-2022.md)
       + [2021](rn/using/release-2021.md)
@@ -36,6 +37,7 @@ ht-degree: 100%
          + [Prise en main de l’UI de Campaign](platform/using/adobe-campaign-workspace.md)
          + [Utilisation de l’explorateur Campaign](platform/using/adobe-campaign-explorer.md)
          + [Parcours et personnalisation des listes](platform/using/adobe-campaign-ui-lists.md)
+      + [Connecteurs Campaign](platform/using/about-connectors.md)
       + Forum aux questions {#faq}
          + [Questions les plus fréquentes](platform/using/common-questions.md)
          + [Concepts globaux](platform/using/faq-key-concepts.md)
@@ -100,17 +102,11 @@ ht-degree: 100%
    + Packages de données et énumérations {#administration-basics}
       + [Packages de données](platform/using/working-with-data-packages.md)
       + [Énumérations](platform/using/managing-enumerations.md)
-   + Connecteurs {#connectors}
-      + [À propos des connecteurs](platform/using/about-connectors.md)
-      + Connecteurs CRM{#crm-connectors}
-         + [Prise en main des connecteurs CRM](platform/using/crm-connectors.md)
-         + [Connexion avec Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
-         + [Connexion à Salesforce.com](platform/using/crm-sfdc.md)
-         + [Synchronisation des données avec le CRM](platform/using/crm-data-sync.md)
-      + Connecteur Adobe Analytics{#analytics-connector}
-         + [Prise en main du connecteur Adobe Analytics](platform/using/gs-aa.md)
-         + [Approvisionnement du connecteur Adobe Analytics](platform/using/adobe-analytics-provisioning.md)
-         + [Comment migrer vers le connecteur Adobe Analytics](technotes/using/aa-connector-migration.md)
+   + Connecteurs CRM {#connectors}
+      + [Prise en main des connecteurs CRM](platform/using/crm-connectors.md)
+      + [Connexion avec Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
+      + [Connexion à Salesforce.com](platform/using/crm-sfdc.md)
+      + [Synchronisation des données avec le CRM](platform/using/crm-data-sync.md)
    + [Options d’aide et de support](support.md)
 + Création et envoi de messages {#sending-messages}
    + [Prise en main des messages](delivery/using/communication-channels.md)
@@ -355,7 +351,21 @@ ht-degree: 100%
    + [Cas d’utilisation : création d’un formulaire de référence](surveys/using/use-case-creating-a-refer-a-friend-form.md)
    + [Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Intégration avec Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
-   + [À propos des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
+   + [Prise en main des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
+   + [Créer votre compte technique d’Adobe](integrations/using/oauth-technical-account.md)
+   + Triggers Adobe Experience Cloud {#experience-triggers}
+      + [Utilisation de  [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
+      + [Configuration d’événements pour une implémentation personnalisée](integrations/using/events.md)
+      + [Surveillance du pipeline](integrations/using/pipeline-monitoring.md)
+      + [Dépannage du pipeline](integrations/using/pipeline-troubleshooting.md)
+   + Sources et destinations Adobe Experience Platform {#aep-sources-destinations}
+      + [Utilisation des sources et des destinations](integrations/using/get-started-sources-destinations.md)
+      + [Ingérer des audiences Adobe Experience Platform dans Campaign](integrations/using/ingest-aep-data.md)
+      + [Exporter des données de Campaign vers Adobe Experience Platform](integrations/using/export-campaign-data.md)
+   + Connecteur Adobe Analytics{#analytics-connector}
+      + [Prise en main du connecteur Adobe Analytics](integrations/using/gs-aa.md)
+      + [Approvisionnement du connecteur Adobe Analytics](integrations/using/adobe-analytics-provisioning.md)
    + Partage d&#39;audiences {#audience-sharing}
       + [Partage des audiences avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Envoi d’une requête à Adobe](integrations/using/submitting-request-to-adobe.md)
@@ -380,17 +390,6 @@ ht-degree: 100%
       + [Synchronisation des audiences](integrations/using/synchronizing-audiences.md)
       + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
       + [Résolution des problèmes du [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
-   + Triggers Adobe Experience Cloud {#experience-triggers}
-      + [Utilisation de  [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
-      + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
-      + [Configuration d’Adobe I/O pour [!DNL Experience Cloud Triggers]](integrations/using/configuring-adobe-io.md)
-      + [Configuration d’événements pour une implémentation personnalisée](integrations/using/events.md)
-      + [Surveillance du pipeline](integrations/using/pipeline-monitoring.md)
-      + [Dépannage du pipeline](integrations/using/pipeline-troubleshooting.md)
-   + Sources et destinations Adobe Experience Platform {#aep-sources-destinations}
-      + [Utilisation des sources et des destinations](integrations/using/get-started-sources-destinations.md)
-      + [Ingérer des audiences Adobe Experience Platform dans Campaign](integrations/using/ingest-aep-data.md)
-      + [Exporter des données de Campaign vers Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automatisation à l’aide de workflows {#automating-with-workflows}
    + Prise en main des workflows {#introduction}
       + [À propos des workflows](workflow/using/about-workflows.md)
@@ -824,10 +823,12 @@ ht-degree: 100%
    + [Procédure de restauration](migration/using/about-rollback.md)
 + Notes techniques {#technotes}
    + [Recommandations relatives au dimensionnement du matériel](technotes/using/hardware-sizing.md)
-   + [Activité de workflow de SMS entrants pour une infrastructure de midsourcing](technotes/using/inbound-SMS.md)
+   + [Activité de workflow de SMS entrants pour une infrastructure de midsourcing](technotes/using/inbound-sms-wf.md)
    + Mettre à niveau vers IMS{#ims}
+      + [Transition vers Adobe IMS](technotes/using/ac-ims.md)
       + [Migrer les utilisateurs et utilisatrices vers IMS](technotes/using/migrate-users-to-ims.md)
       + [Migrer un opérateur ou une opératrice technique vers Developer Console](technotes/using/ims-migration.md)
+      + [Impact de l’interface après la migration IMS](technotes/using/impact-ims-migration.md)
    + Mises à niveau et compatibilité {#technote-migration}
       + [Notes techniques](technotes/using/technote.md)
       + [Activer Microsoft Edge Chromium](technotes/using/edge-chromium.md)

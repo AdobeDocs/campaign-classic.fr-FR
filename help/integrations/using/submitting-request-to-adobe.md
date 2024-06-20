@@ -2,34 +2,32 @@
 product: campaign
 title: Envoi d'une demande à Adobe
 description: Envoi d'une demande à Adobe
-feature: Audiences, People Core Service Integration
+feature: Audiences
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 78%
 
 ---
 
 # Envoi d&#39;une demande à Adobe{#submitting-request-to-adobe}
 
-
-
 >[!NOTE]
 >
 >En tant qu’utilisateur de la version v7, pour pouvoir poursuivre, assurez-vous qu’Adobe Identity Management System (IMS) est activé sur votre système. [En savoir plus](../../integrations/using/about-adobe-id.md).
 
-Une fois qu’IMS est activé pour votre organisation, vous pouvez demander la configuration de l’intégration People core service/Audience Manager à Campaign. Pour ce faire, envoyez un e-mail à l’adresse [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) avec les informations suivantes :
+Une fois qu’Adobe Identity Management Service (IMS) est activé pour votre organisation, vous pouvez demander l’attribution des privilèges d’accès au [Audience Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview){target="_blank"} intégration à Campaign. Pour ce faire, envoyez un e-mail à l’adresse [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) avec les informations suivantes :
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>Type de demande</strong><br /> </td> 
-   <td> Configurer l’intégration AAM/People core service-Campaign </td> 
+   <td> Configuration d’Audience - Intégration Campaign </td> 
   </tr> 
   <tr> 
    <td> <strong>Nom de l’organisation</strong><br /> </td> 
@@ -43,10 +41,10 @@ Une fois qu’IMS est activé pour votre organisation, vous pouvez demander la c
    <td> <strong>Environnement</strong><br /> </td> 
    <td> Exemple : Production </td> 
   </tr> 
-  <tr> 
-   <td> <strong>AAM ou People Service</strong><br /> </td> 
-   <td> Exemple : Adobe Audience Manager. Veillez à indiquer si vous possédez ou non une licence Audience Manager.</td> 
-  </tr> 
+  <!--tr> 
+   <td> <strong>AAM or People Service</strong><br /> </td> 
+   <td> Example: Adobe Audience Manager. Make sure to mention whether or not you own Audience Manager license.</td> 
+  </tr--> 
   <tr> 
    <td> <strong>Declared ID ou Visitor ID</strong><br /> </td> 
    <td> Exemple : Declared ID </td> 

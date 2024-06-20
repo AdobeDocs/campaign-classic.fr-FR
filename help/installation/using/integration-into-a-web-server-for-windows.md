@@ -8,8 +8,8 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: 0e88ac270423ad419237264e562a03ab0c42efb5
-workflow-type: ht
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 100%
 
@@ -110,7 +110,7 @@ nlserver pdump
 
 Elle doit renvoyer les informations suivantes :
 
-```
+```sql
 HH:MM:SS >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 webmdl@default (1644) - 18.2 Mo
 ```

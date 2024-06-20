@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '1375'
-ht-degree: 100%
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+workflow-type: tm+mt
+source-wordcount: '1352'
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ic
 Selon le moteur de base sélectionné, les informations d&#39;identification du serveur diffèrent.
 
 * Pour un moteur **Oracle**, renseignez le **nom TNS** qui a été défini sur le serveur applicatif.
-* Pour un moteur **PostgreSQL** ou **DB2**, indiquez le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
+* Pour un **PostgreSQL** , vous devez indiquer le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
 * Pour un **Serveur Microsoft SQL**, vous devez définir : le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
 
   >[!CAUTION]
@@ -78,7 +78,6 @@ Pour cela, saisissez le nom et le mot de passe d&#39;un **compte système d&#39;
 * **system** pour une base Oracle,
 * **sa** pour une base Microsoft SQL Server,
 * **postgres** pour une base PostgreSQL,
-* **db2inst1** pour une base DB2.
 
 ### Etape 3 - Connexion et caractéristiques de la base de données {#step-3---connection-and-characteristics-of-the-database}
 
@@ -89,11 +88,6 @@ L&#39;étape suivante permet de configurer les paramètres de connexion à la ba
 Vous devez définir les paramètres suivants :
 
 * Indiquez le nom de la base de données à créer.
-
-  >[!NOTE]
-  >
-  >Pour une base DB2, nom de la base ne doit pas excéder 8 caractères.
-
 * Saisissez le mot de passe du compte associé à cette base.
 * Indiquez si la base doit être Unicode ou non.
 
@@ -182,7 +176,7 @@ Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ic
 Selon le moteur de base sélectionné, les informations d&#39;identification du serveur diffèrent.
 
 * Pour un moteur **Oracle**, renseignez le **nom TNS** qui a été défini sur le serveur applicatif.
-* Pour un moteur **PostgreSQL** ou **DB2**, indiquez le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
+* Pour un **PostgreSQL** , vous devez indiquer le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
 * Pour un moteur **Microsoft SQL Server**, vous devez définir :
 
    1. le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données,

@@ -8,8 +8,8 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 858d00d0-7c65-43be-8bae-f0f945f71f1a
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
+source-git-commit: 757e3a5395f24e0bdd04737aba0458881e4ea780
+workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Pour cela, saisissez les commandes suivantes :
 
 ```
 nlserver stop web
-cd nl6/tomcat-8
+cd nl6/tomcat-X
 rm -r work/
 nlserver start web
 ```

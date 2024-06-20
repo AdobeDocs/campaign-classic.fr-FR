@@ -8,8 +8,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: fa089574b028193b6da346482d6ea42b1d19f0aa
-workflow-type: ht
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 100%
 
@@ -69,13 +69,13 @@ L&#39;opérateur connecté avec cet identifiant possède tous les droits, sur to
 
 Utilisez la commande suivante :
 
-```
+```sql
 nlserver config -internalpassword
 ```
 
 Les informations suivantes sont alors affichées. Saisissez et confirmez le nouveau mot de passe :
 
-```
+```sql
 17:33:57 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 Enter the current password.
 Password:

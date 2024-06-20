@@ -8,8 +8,8 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+workflow-type: tm+mt
 source-wordcount: '3816'
 ht-degree: 100%
 
@@ -373,7 +373,7 @@ Elle génère une sortie au format XML qui peut être traitée facilement.
 
 De plus, cette commande peut être lancée avec le paramètre **-missing** qui liste les processus manquants sur cette instance alors que, selon les fichiers de configuration, ils devraient se trouver en cours d&#39;exécution.
 
-```
+```sql
 nlserver monitor -missing
 HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 mta@prod

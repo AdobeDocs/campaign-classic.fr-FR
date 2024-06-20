@@ -6,9 +6,11 @@ feature: Technote
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
+hide: true
+hidefromtoc: true
 exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+source-git-commit: 19b40f0b827c4b5b7b6484fe4953aebe61d00d1d
+workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 100%
 

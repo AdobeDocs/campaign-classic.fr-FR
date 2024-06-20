@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Personalization
 role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '937'
-ht-degree: 100%
+source-git-commit: 0cf7f249f366a6ef0e9bd0326ec14131fcf7dc18
+workflow-type: tm+mt
+source-wordcount: '1070'
+ht-degree: 87%
 
 ---
 
@@ -50,7 +50,7 @@ Nous allons créer un email dans lequel nous allons tout d&#39;abord insérer le
 
 1. Créez une nouvelle diffusion ou ouvrez une diffusion existante de type email.
 1. Dans l&#39;assistant de diffusion, cliquez sur le lien **[!UICONTROL Objet]** pour éditer l&#39;objet du message et saisir un objet.
-1. Saisissez le texte &quot;**[!UICONTROL Offre spéciale pour]**&quot; et utilisez le dernier bouton de la barre d&#39;outils pour insérer un champ de personnalisation. Choisissez **[!UICONTROL Destinataire>Prénom]**.
+1. Saisissez le texte « **[!UICONTROL Offre spéciale pour]** » et utilisez le dernier bouton de la barre d’outils pour insérer un champ de personnalisation. Choisissez **[!UICONTROL Destinataire>Prénom]**.
 
    ![](assets/s_ncs_user_insert_custom_field.png)
 
@@ -86,7 +86,7 @@ Par exemple, si vous rencontrez des problèmes de performances lorsque vous diff
 Pour utiliser cette option, procédez comme suit :
 
 1. Créez une campagne. Pour plus d’informations, consultez [cette section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
-1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/query.md).
+1. Dans l’onglet **[!UICONTROL Ciblage et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/query.md).
 1. Ajoutez une activité **[!UICONTROL Diffusion e-mail]** au workflow et ouvrez-la. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/delivery.md).
 1. Accédez à l&#39;onglet **[!UICONTROL Analyse]** des **[!UICONTROL Propriétés de la diffusion]** et sélectionnez l&#39;option **[!UICONTROL Préparer les données de personnalisation avec un workflow]**.
 
@@ -115,6 +115,26 @@ Lors de l’aperçu ou de l’envoi, si la phase de personnalisation dépasse la
 La valeur par défaut est de 5 secondes.
 
 Si vous définissez cette option sur 0, il n’y aura aucune limite de temps pour la phase de personnalisation.
+
+## Onglet Personnalisation {#personalization-tab}
+
+Dans les Propriétés de la diffusion, vous avez un onglet Personnalisation .
+
+Vous pouvez y ajouter des données à la requête de profil de la dimension de ciblage en cliquant sur le bouton **&quot;Editer la requête de chargement du profil du destinataire&quot;**. Vous pouvez utiliser les données extraites directement dans une expression pour extraire ce dont vous avez réellement besoin. Ces données seront ajoutées au contexte.
+
+![](assets/persotab-edit.png){zoomable="yes"}
+
+Si les données que vous souhaitez ajouter ne figurent pas dans la dimension de ciblage, vous pouvez cliquer sur **&quot;Ajouter des objets dans le contexte d’exécution des scripts&quot;**.
+
+![](assets/persotab_addobjects.png){zoomable="yes"}
+
+Vous pouvez y sélectionner le schéma d’objet dont vous avez besoin, puis utiliser ces données dans votre code JavaScript, qui sera exécuté pendant la préparation de la diffusion.
+
+![](assets/persotab_addobjects_articles.png){zoomable="yes"}
+
+En ajoutant le schéma d’objet, vous pouvez sélectionner les champs à ajouter au contexte :
+
+![](assets/persotab_addobjects_fields.png){zoomable="yes"}
 
 ## Tutoriel vidéo {#personalization-fields-video}
 

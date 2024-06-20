@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '1551'
-ht-degree: 100%
+source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
+workflow-type: tm+mt
+source-wordcount: '1637'
+ht-degree: 95%
 
 ---
 
@@ -43,16 +43,21 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td><strong>Fonctionnalité</strong></td>
    <td><strong>Détails</strong></td>
   </tr>
+  <tr>
+ <td>SDK hérité de Campaign (Neolane)</td>
+ <td><p>Le SDK Campaign (Neolane) pour les applications mobiles est désormais obsolète. Utilisez plutôt le SDK Mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données. Le SDK mobile Adobe Experience Platform permet d’optimiser les solutions et services Experience Cloud d’Adobe dans vos applications mobiles. La configuration des SDK s’effectue dans l’interface utilisateur de collecte de données, qui offre des options de configuration flexibles et des intégrations extensibles basées sur des règles. Découvrez comment configurer le canal Applications mobiles dans <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings">Documentation de Campaign v8</a>.</p>
+<p>Date de suppression prévue : fin 2024 </p>
+</td>
+</tr>
 <tr>
  <td>Marketing des médias sociaux avec Facebook</td>
- <td>Le marketing social avec Facebook est désormais obsolète. Vous pouvez utiliser l’intégration de X (anciennement Twitter) pour publier sur les médias sociaux ou utiliser Adobe pour créer un canal personnalisé.
- <p></p>
+ <td><p>Le marketing social avec Facebook est désormais obsolète. Vous pouvez utiliser l’intégration de X (anciennement Twitter) pour publier sur les médias sociaux ou utiliser Adobe pour créer un canal personnalisé.</p>
   <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
 <tr>
  <td>Connecteur ACS</td>
- <td>Le connecteur ACS (offre Prime) est désormais obsolète. Vous pouvez utiliser les fonctionnalités d’exportation/importation de Campaign pour extraire et injecter des données dans les deux produits.<p></p>
+ <td><p>Le connecteur ACS (offre Prime) est désormais obsolète. Vous pouvez utiliser les fonctionnalités d’exportation/importation de Campaign pour extraire et injecter des données dans les deux produits.</p>
   <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
@@ -72,7 +77,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
       <tr>
   <td>Adobe Analytics - Data Connector<br></td>
    <td><p>Le Adobe Analytics Data Connector a été supprimé le 17 août 2022. Il avait été abandonné avec la version 21.1.3 de Campaign.</p>
-   <p>Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. <a href="../../platform/using/gs-aa.md">En savoir plus</a></p>
+   <p>Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. <a href="../../integrations/using/gs-aa.md">En savoir plus</a></p>
   </td>
  </tr>
     <tr>
@@ -83,8 +88,8 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
  </tr>
   <tr>
   <td>Authentification OAuth (OAuth et JWT)<br></td>
-  <td><p> L’authentification de l’intégration Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. Ce mode d’authentification est devenu obsolète à partir de la version 20.3 de Campaign.<p>
-  <p>Si vous utilisiez l’intégration Triggers, découvrez comment adapter votre implémentation <a href="../../integrations/using/configuring-adobe-io.md">sur cette page</a>.</p> 
+  <td><p> L’authentification de l’intégration Triggers basée à l’origine sur la configuration de l’authentification OAuth pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. Ce mode d’authentification était obsolète avec la version 20.3 de Campaign.<p>
+  <p>Si vous utilisiez l’intégration Triggers, découvrez comment adapter votre implémentation <a href="../../integrations/using/about-triggers.md#implement">sur cette page</a>.</p> 
   <p>Pour plus d’informations sur l’abandon de l’authentification OAuth, consultez cette <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
   </td>

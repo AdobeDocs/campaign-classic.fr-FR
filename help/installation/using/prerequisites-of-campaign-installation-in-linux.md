@@ -8,16 +8,14 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '917'
-ht-degree: 100%
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 92%
 
 ---
 
 # Prérequis pour l’installation de Campaign sous Linux{#prerequisites-of-campaign-installation-in-linux}
-
-
 
 ## Logiciels prérequis {#software-prerequisites}
 
@@ -28,15 +26,12 @@ La configuration technique et logicielle requise pour l&#39;installation d&#39;A
 Pour rappel, les composants suivants doivent être installés et correctement paramétrés :
 
 * Apache, voir [Matrice de compatibilité](../../rn/using/compatibility-matrix.md),
-* JDK Java et OpenJDK, voir la section [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
+* JDK Java et OpenJDK, voir la section [Java Development Kit - JDK](../../installation/using/application-server.md#jdk),
 * Librairies, voir la section [Librairies](#libraries),
 * Couches d&#39;accès base de données, voir la section [Couches d&#39;accès base de données](#database-access-layers),
 * LibreOffice, voir les sections [Installation de LibreOffice sous Debian](#installing-libreoffice-for-debian) et [Installation de LibreOffice sous CentOS](#installing-libreoffice-for-centos),
 * Polices, voir les sections [Polices de caractères pour les statistiques MTA](#fonts-for-mta-statistics) et [Polices de caractères pour les instances japonaises](#fonts-for-japanese-instances).
 
->[!NOTE]
->
->Pour l&#39;installation d&#39;un build inférieur ou égal à 8709 sur les plateformes CentOS 7 et Debian 8, le module apache access_compat doit être activé.
 
 ### Librairies {#libraries}
 
@@ -46,31 +41,13 @@ Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des libra
 
   Pour le vérifier, vous pouvez par exemple utiliser la commande **uname -a | grep xen**.
 
-  La configuration est correcte lorsque cette commande ne retourne aucune information (ligne vide).
+  Si la commande ne renvoie pas de ligne vide, cela signifie que la configuration est correcte.
 
 * Vous devez disposer de la version OpenSSL **1.0.2** ou d’une version ultérieure.
 
-  Pour les distributions RHEL 7/8, la version 1.0 d’OpenSSL est requise.
+  Pour les distributions RHEL, la version 1.0 d’OpenSSL est requise.
 
 * Pour utiliser Adobe Campaign, la librairie suivante doit être installée : **libicu**.
-
-  Les versions supportées de **libicu** sont les suivantes (distribution 32bits ou 64bits) :
-
-   * RHEL 7/8, CentOS 7 : libicu50
-   * Debian 8 : libicu52
-   * Debian 9 : libicu57
-
-  Pour utiliser Adobe Campaign, la bibliothèque libc-ares doit être installée. Sous RHEL/CentOS, exécutez la commande suivante :
-
-  ```
-  yum install c-ares
-  ```
-
-  Sous Debian :
-
-  ```
-  aptitude install libc-ares2
-  ```
 
 ### SELinux {#selinux}
 
@@ -107,22 +84,14 @@ Pour que les rapports concernant les statistiques MTA (nms/fra/jsp/stat.jsp) s&#
 Sous Debian, utilisez la commande :
 
 ```
-aptitude install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
+apt install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
 ```
 
-Sous Red Hat, utilisez la commande suivante :
+Utilisez la commande suivante pour RHEL :
 
-* Pour CentOS/RHEL 7 :
-
-  ```
-  yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
-  ```
-
-* Pour RHEL 8 :
-
-  ```
-  dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
-  ```
+```
+dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
+```
 
 ### Polices de caractères pour les instances japonaises {#fonts-for-japanese-instances}
 
@@ -131,22 +100,15 @@ Des polices de caractères spécifiques sont nécessaires pour les instances jap
 Sous Debian, utilisez la commande :
 
 ```
-aptitude install fonts-ipafont
+apt install fonts-ipafont
 ```
 
-Sous Red Hat, utilisez la commande :
+Pour RHEL, ajoutez la commande suivante :
 
-* Pour RHEL 7 :
-
-  ```
-  yum install ipa-gothic-fonts ipa-mincho-fonts
-  ```
-
-* Pour RHEL 8 :
-
-  ```
-  dnf install vlgothic-fonts
-  ```
+```
+dnf install epel-release # if required
+dnf install vlgothic-fonts
+```
 
 ### Installation de LibreOffice sous Debian {#installing-libreoffice-for-debian}
 
@@ -182,13 +144,13 @@ Consultez également section générale [Base de données](../../installation/us
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaign prend en charge toutes les versions de librairies du client PostgreSQL à partir de la version 7.2 :(**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** et **libpq.so.3.1**).
+Adobe Campaign prend en charge toutes les versions des bibliothèques clientes PostgreSQL de la version 9.6 : **libpq.so.5**.
 
 L&#39;utilisation de PostgreSQL avec Adobe Campaign requiert également l&#39;installation des bibliothèques **pgcrypto** correspondantes.
 
 ### Oracle {#oracle}
 
-Récupérez la version des bibliothèques pour Debian 64 bits, soit : **libclntsh.so**, **libclntsh.so.11.1** et **libclntsh.so.10.1**.
+Récupérez la version de la bibliothèque pour Debian 64 bits, soit : **libclntsh.so**, **libclntsh.so.19.1**, **libclntsh.so.18.1**, **libclntsh.so.12.1**, **libclntsh.so.11.1** ou **libclntsh.so.10.1**.
 
 Vous pouvez obtenir un package RPM Linux depuis Oracle Technology Network.
 
@@ -213,10 +175,6 @@ Si vous remarquez sur la console cliente qu&#39;il y a des décalages horaires i
    Vérifiez également la valeur ORACLE_HOME pour être sûr qu&#39;elle désigne la version cliente attendue (si plusieurs versions sont installées sur la machine).
 
 1. Assurez-vous que le client et le serveur utilisent le même **fichier de fuseau horaire**.
-
-### DB2 {#db2}
-
-La version des bibliothèques prises en charge est **libdb2.so**.
 
 ## Étapes de mise en œuvre {#implementation-steps}
 

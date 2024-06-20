@@ -6,10 +6,10 @@ feature: Installation, Architecture, Deployment
 role: Architect
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+source-git-commit: a38d53f4b37aadbc53446b5e399af2eae56c12af
+workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -55,7 +55,7 @@ En tant que client On-premise, avant de commencer à déployer Campaign Classic
 
 ## Hybride
 
-Lorsqu’il est déployé en tant que modèle hybride, le logiciel de la solution Adobe Campaign réside On-premise sur le site du client, et la gestion de l’exécution est fournie par Adobe sous la forme d’un service cloud. L’instance marketing Adobe Campaign est installée à l’intérieur du pare-feu du client, de sorte que les informations d’identification personnelles (PII) restent en interne et que seules les données nécessaires à la personnalisation des emails soient envoyées au cloud pour l’exécution des emails. L’instance d’exécution, hébergée dans le cloud, reçoit les demandes de l’instance On-premise afin de diffuser les emails. Cette instance personnalise tous les emails et les diffuse. Aucune donnée d’aucune sorte n’est stockée de manière permanente dans le cloud.
+Lorsqu’il est déployé en tant que modèle hybride, le logiciel de la solution Adobe Campaign réside sur site sur le site client et la gestion de l’exécution est fournie en tant que service cloud par Adobe. L’instance marketing Adobe Campaign est installée à l’intérieur du pare-feu d’un client. Par conséquent, les informations d’identification personnelle (PII) restent en interne et seules les données requises pour personnaliser les emails sont envoyées au cloud pour exécution par e-mail. L&#39;instance d&#39;exécution, hébergée dans le cloud, reçoit les demandes de l&#39;instance On-premise pour diffuser des emails. Cette instance personnalise tous les emails et les diffuse. Aucune donnée d’aucune sorte n’est stockée de manière permanente dans le cloud.
 
 ![](assets/deployment_hybrid.png)
 

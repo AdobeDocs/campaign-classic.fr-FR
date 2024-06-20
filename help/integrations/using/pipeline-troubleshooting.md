@@ -7,8 +7,8 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
+workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Les logs doivent être les suivants :
 2021-05-31T08:43:09.160Z        66462   66501   1       error   log     Error while authenticating: '{"error":"This client: df73c224e5-triggers-test is no longer allowed to get access token."}' (iRc=16384)
 ```
 
-Ce message d&#39;erreur signifie que l&#39;authentification est configurée à l&#39;aide de l&#39;ancienne base Omniture OAuth. Consultez la documentation [Configuration d&#39;Adobe I/O pour les Triggers Adobe Experience Cloud](../../integrations/using/configuring-adobe-io.md) pour mettre à niveau votre authentification.
+Ce message d&#39;erreur signifie que l&#39;authentification est configurée à l&#39;aide de l&#39;ancienne base Omniture OAuth. Consultez la documentation [Configuration d&#39;Adobe I/O pour les Triggers Adobe Experience Cloud](../../integrations/using/about-triggers.md#implement) pour mettre à niveau votre authentification.
 
 **Aucun déclencheur n’est récupéré**
 

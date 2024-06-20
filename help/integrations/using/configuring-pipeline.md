@@ -7,10 +7,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 271e0f9fde0cbfb016e201c8390b26673d8fc696
-workflow-type: ht
-source-wordcount: '886'
-ht-degree: 100%
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+workflow-type: tm+mt
+source-wordcount: '844'
+ht-degree: 92%
 
 ---
 
@@ -31,19 +31,17 @@ Avant de commencer cette configuration, vérifiez que vous disposez des élémen
 * Un accès de développement à votre organisation.
 * Une configuration de déclencheurs valide dans Adobe Analytics.
 
-## Fichiers d’authentification et de configuration {#authentication-configuration}
-
-Une authentification est requise, car le pipeline est hébergé dans Adobe Experience Cloud. Une paire de clés publique et privée est utilisée. Ce processus a la même fonction qu’un nom d’utilisateur ou d’utilisatrice avec mot de passe, mais il est plus sécurisé. L’authentification est prise en charge pour Marketing Cloud via le projet Adobe Developer.
+Une authentification est requise, car le pipeline est hébergé dans Adobe Experience Cloud. Il utilise une authentification prise en charge pour via un projet Adobe Developer.
 
 ## Étape 1 : créer/mettre à jour votre projet Adobe Developer {#creating-adobe-io-project}
 
-Pour les clientes et les clients hébergés, contactez votre représentant ou représentante Adobe ou l’assistance clientèle pour permettre à votre organisation d’utiliser des jetons de compte Adobe Developer pour l’intégration de Triggers.
+Vous devez activer votre organisation avec des jetons de compte Adobe Developer pour l&#39;intégration des Triggers.
 
-Pour les clientes et les clients On-Premise/hybrides, consultez la page [Configuration d’Adobe I/O pour Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md). Notez que vous devez sélectionner **[!UICONTROL Adobe Analytics]** lorsque vous ajoutez une API aux informations d’identification d’Adobe Developer.
+Découvrez comment créer votre compte technique Adobe dans [cette page](../../integrations/using/oauth-technical-account.md). Notez que vous devez sélectionner **[!UICONTROL Adobe Analytics]** lorsque vous ajoutez une API aux informations d’identification d’Adobe Developer.
 
 ## Étape 2 : configurer l’option de pipeline {#configuring-nmspipeline}
 
-Une fois l&#39;authentification définie, le pipeline récupère les événements. Il traitera uniquement les déclencheurs configurés dans Adobe Campaign. Le déclencheur doit avoir été généré à partir d’Adobe Analytics et envoyé vers le pipeline qui traitera uniquement les déclencheurs configurés dans Adobe Campaign.
+Une fois l’authentification définie, le pipeline récupère les événements. Il traite uniquement les déclencheurs configurés dans Adobe Campaign. Le déclencheur doit avoir été généré à partir d’Adobe Analytics et envoyé vers le pipeline qui traitera uniquement les déclencheurs configurés dans Adobe Campaign.
 
 L&#39;option peut également être configurée avec un caractère générique pour capturer tous les déclencheurs, quel que soit leur nom.
 
@@ -51,7 +49,7 @@ L&#39;option peut également être configurée avec un caractère générique po
 
 1. Sélectionnez l&#39;option **[!UICONTROL NmsPipeline_Config]**.
 
-1. Dans le champ **[!UICONTROL Valeur (texte long)]**, vous pouvez coller le code JSON suivant, qui spécifie deux déclencheurs. N&#39;oubliez pas de supprimer les commentaires.
+1. Dans le champ **[!UICONTROL Valeur (texte long)]**, vous pouvez coller le code JSON suivant, qui spécifie deux déclencheurs. Veillez à supprimer les commentaires.
 
    ```json
    {
@@ -111,7 +109,7 @@ Pour configurer l’option Pipeline, vous devez suivre les recommandations suiva
 * Le processus `pipelined` prend également en charge la rubrique « alias ».
 * Vous devez toujours redémarrer le processus `pipelined` après avoir apporté des modifications.
 
-## Étape 3 : Configuration facultative {#step-optional}
+## (facultatif) Étape 3 : configuration supplémentaire {#step-optional}
 
 Vous pouvez modifier certains paramètres internes en fonction de vos besoins de charge, mais assurez-vous de les tester avant de les appliquer dans votre environnement de production.
 

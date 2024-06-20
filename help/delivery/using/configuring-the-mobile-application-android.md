@@ -5,10 +5,10 @@ description: Découvrez comment paramétrer votre application mobile pour Androi
 feature: Push
 role: User, Developer
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '946'
-ht-degree: 100%
+source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 95%
 
 ---
 
@@ -90,7 +90,7 @@ Après avoir créé votre service, vous devez maintenant créer votre applicatio
 
    ![](assets/nmac_android.png)
 
-1. Assurez-vous que la même **[!UICONTROL clé d&#39;intégration]** est définie dans Adobe Campaign et dans le code de l&#39;application via le SDK. Pour plus d’informations, consultez [cette section](integrating-campaign-sdk-into-the-mobile-application.md).
+1. Veillez à ce que **[!UICONTROL Clé d’intégration]** est défini dans Adobe Campaign et dans le code de l’application via le SDK. <!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
 
    >[!NOTE]
    >
@@ -156,4 +156,4 @@ Vous devez étendre la valeur **appsubscriptionRcp** pour définir de nouveaux c
 
    >[!CAUTION]
    >
-   >Assurez-vous que les noms des paramètres dans l&#39;onglet **[!UICONTROL Paramètres d&#39;abonnement]** sont les mêmes que dans le code de l&#39;application mobile. Consultez [cette section](integrating-campaign-sdk-into-the-mobile-application.md).
+   >Veillez aux noms de configuration dans la variable **[!UICONTROL Paramètres d&#39;abonnement]** sont identiques à ceux du code de l’application mobile. <!--Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->

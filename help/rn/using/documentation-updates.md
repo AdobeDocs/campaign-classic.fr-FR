@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: c736ac1cda9490548f1e4b56142d61fccaca5c4a
-workflow-type: ht
-source-wordcount: '3787'
-ht-degree: 100%
+source-git-commit: 98859f6452b5f1008a19a48b9b77edd9acf49261
+workflow-type: tm+mt
+source-wordcount: '3769'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,10 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md) pour connaître les mises à jour relatives aux versions.
 
 ## 2024
+
+### Juin 2024 {#june-2024}
+
+Une note a été ajoutée pour indiquer comment effacer les variables d&#39;instance lors du redémarrage des workflows. [En savoir plus](../../workflow/using/starting-a-workflow.md)
 
 ### Avril 2024 {#apr-2024}
 
@@ -78,7 +82,7 @@ Le guide de migration a été mis à jour. Les références aux versions d’Ado
 
 ## Juillet 2022 {#july-2022}
 
-La transition vers le nouveau serveur de délivrabilité est présentée dans une nouvelle note technique. [En savoir plus](../../technotes/using/deliverability-server.md)
+<!--Transition to the new deliverability server is detailed in a new technote. [Read more](../../technotes/using/deliverability-server.md)-->
 
 **Mises à jour de la documentation accompagnant la version 7.3.1**
 
@@ -151,11 +155,9 @@ Ajout d’une limite relative aux SMS entrants (MO). [En savoir plus](../../deli
 
 Mise à jour des détails des logs de processus de migration pour le déploiement du connecteur CRM. [En savoir plus](../../migration/using/testing-the-migration.md#verification-process)
 
-Ajout d’exigences relatives aux autorisations IMS pour implémenter l’intégration Adobe Campaign-Adobe Analytics. [En savoir plus](../../platform/using/adobe-analytics-provisioning.md)
+Ajout d’exigences relatives aux autorisations IMS pour implémenter l’intégration Adobe Campaign-Adobe Analytics. [En savoir plus](../../integrations/using/adobe-analytics-provisioning.md)
 
 Mise à jour de la date de fin de vie du connecteur de données Adobe Analytics du 1er mars 2022 au 17 août 2022. [En savoir plus](deprecated-features.md)
-
-Ajout d’un lien vers la documentation du SDK mobile Adobe Experience Platform pour savoir comment configurer l’extension Campaign dans Adobe Launch. [En savoir plus](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
 
 Ajout d’une section sur l’utilisation de JavaScript pour calculer des valeurs, échanger des données et exécuter des opérations spécifiques à l’aide d’appels SOAP.[En savoir plus](../../workflow/using/javascript-scripts-and-templates.md)
 
@@ -348,7 +350,7 @@ La page Fonctionnalités obsolètes et supprimées a été mise à jour. [En sav
 Les notes de mise à jour et la matrice de compatibilité pour la version [!DNL Gold Standard] sont maintenant disponibles dans une page dédiée.
 [En savoir plus](../../rn/using/gold-standard.md).
 
-L’intégration des Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
+L’intégration des Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/about-triggers.md#implement)
 
 **Autres mises à jour**
 

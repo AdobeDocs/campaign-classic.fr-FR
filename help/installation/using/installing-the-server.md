@@ -8,8 +8,8 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
-workflow-type: ht
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ Les fichiers situés dans le répertoire d&#39;installation sont utilisés pour 
 
 Les informations affichées sont alors les suivantes :
 
-```
+```sql
 15:30:12 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 15:30:12 >   Web server start (pid=664, tid=4188)...
 15:30:12 >   Creation of server configuration file '[INSTALL]bin..confserverConf.xml' server via '[INSTALL]bin..conffraserverConf.xml.sample
