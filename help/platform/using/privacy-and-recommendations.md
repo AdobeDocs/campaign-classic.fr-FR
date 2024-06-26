@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1907'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Pour la gestion des informations personnelles, il est important de définir les 
 * **Les données personnelles** sont des informations qui permettent d&#39;identifier directement ou indirectement un individu vivant.
 * Les **données personnelles sensibles** sont des informations relatives à l’origine, aux points de vue politiques, aux croyances religieuses, aux antécédents criminels, aux informations génétiques, aux données sur la santé, aux préférences sexuelles, aux renseignements biométriques, ainsi qu’à l’appartenance syndicale.
 
-Lors de l’intégration de Campaign à d’autres solutions Experience Cloud dans lesquelles les audiences peuvent être transférées d’un système à un autre, par exemple [Adobe Analytics](../../integrations/using/gs-aa.md), [Audiences Experience Cloud](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md), ou avec d’autres solutions via [Connecteurs CRM](../../platform/using/crm-connectors.md), vous devez veiller à la protection des données personnelles.
+Lors de l’intégration de Campaign à d’autres solutions Experience Cloud dans lesquelles des audiences peuvent être transférées d’un système à un autre, telles qu’[Adobe Analytics](../../integrations/using/gs-aa.md), [Experience Cloud Audiences](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md), ou à d’autres solutions par l’intermédiaire de [connecteurs CRM](../../platform/using/crm-connectors.md), vous devez porter une attention particulière à la protection des données personnelles.
 
 Les [principaux règlements](#privacy-regulations) se réfèrent de la manière suivante aux différentes entités chargées des données :
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
 source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ _5 décembre 2023_
 
 ### Autres améliorations {#release-7-3-5-other}
 
-À compter de cette version, les liens de tracking sur les emails déjà envoyés fonctionneront toujours pendant la mise à niveau. [En savoir plus](../../platform/using/faq-build-upgrade.md)
+À compter de cette version, les liens de suivi dans les e-mails déjà envoyés fonctionneront toujours pendant la mise à niveau. [En savoir plus](../../platform/using/faq-build-upgrade.md)
 
 ### Correctifs {#release-7-3-5-patches}
 
@@ -140,7 +140,7 @@ _20 mars 2023_
 * Le workflow de facturation a été amélioré pour optimiser les performances. (NEO-47658)
 * Le workflow de tracking a été amélioré afin d’optimiser les performances en cas de diffusion de taille importante. (NEO-45064)
 * La gestion du tracking a été améliorée afin de résoudre les problèmes éventuels liés aux paramètres dynamiques dans les URL. La version 3 de la gestion du tracking gère désormais les URL de type ajax (avec des paramètres après un symbole « # ») et empêche les outils tiers de modifier les URL de tracking. Pour appliquer cette modification, vous devez contacter Adobe. (NEO-46535)
-* À compter de cette version, les liens de tracking sur les emails déjà envoyés fonctionneront toujours pendant la mise à niveau. [En savoir plus](../../platform/using/faq-build-upgrade.md)
+* À compter de cette version, les liens de suivi dans les e-mails déjà envoyés fonctionneront toujours pendant la mise à niveau. [En savoir plus](../../platform/using/faq-build-upgrade.md)
 
 <!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
 
@@ -182,7 +182,7 @@ En savoir plus sur la [matrice de compatibilité de Campaign](../../rn/using/com
 * Le connecteur Google BigQuery prend désormais entièrement en charge les champs booléens. (NEO-49181)
 * Vous pouvez désormais configurer la durée de validité des cookies IMS dans la section `Configuration for the redirection service` du fichier serverConf.xml. Les cookies suivants sont concernés : `uuid230`, `nllastdelid` et `AMCV_` (NEO-42541).
 * L’adresse IP peut désormais être masquée dans la requête « /r/test » en définissant `showSourceIP` sur « false » dans le nœud de redirection du fichier serverConf.xml. [En savoir plus](../../installation/using/the-server-configuration-file.md#redirection-redirection) (NEO-46656).
-* À compter de cette version, les liens de tracking sur les emails déjà envoyés fonctionneront toujours pendant la mise à niveau. [En savoir plus](../../platform/using/faq-build-upgrade.md)
+* À compter de cette version, les liens de suivi dans les e-mails déjà envoyés fonctionneront toujours pendant la mise à niveau. [En savoir plus](../../platform/using/faq-build-upgrade.md)
 
 
 ### Fonctionnalités obsolètes  {#release-7-3-2-deprecated}

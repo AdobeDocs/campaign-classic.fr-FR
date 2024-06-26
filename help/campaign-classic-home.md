@@ -4,9 +4,9 @@ product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: fb19195c7331a2adc0bcf7a37ae7678078dce5e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Découvrez en primeur les dernières améliorations apportées à la documentati
 >[!BEGINTABS]
 
 
->[!TAB La version de juin est en ligne !]
+>[!TAB La version de juin est en ligne.]
 
-Découvrez les mises à jour, les améliorations et les correctifs fournis avec Campaign Classic v7.4.1.
+Découvrez les mises à jour, les améliorations et les correctifs de Campaign Classic v7.4.1.
 
 [![Image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -113,4 +113,4 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
 
 ## Autres ressources
 
-[Liste des messages d&#39;erreur](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr) - [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matrice de compatibilité](rn/using/compatibility-matrix.md) - [Tutorials](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} - [Panneau de Contrôle pour Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}
+[Liste des messages d’erreur](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr) - [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matrice de compatibilité](rn/using/compatibility-matrix.md) - [Tutoriels](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} - [Panneau de Contrôle de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}

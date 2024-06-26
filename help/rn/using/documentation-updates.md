@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 98859f6452b5f1008a19a48b9b77edd9acf49261
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3769'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 
 ### Juin 2024 {#june-2024}
 
-Une note a été ajoutée pour indiquer comment effacer les variables d&#39;instance lors du redémarrage des workflows. [En savoir plus](../../workflow/using/starting-a-workflow.md)
+Une note a été ajoutée pour indiquer comment effacer les variables d’instances lors du redémarrage des workflows. [En savoir plus](../../workflow/using/starting-a-workflow.md)
 
 ### Avril 2024 {#apr-2024}
 

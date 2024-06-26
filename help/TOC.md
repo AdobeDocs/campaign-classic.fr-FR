@@ -7,9 +7,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 3307c75ed7df0fcd357dd7c684481c62e0457e04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 99%
       + [Prise en main des autorisations](platform/using/access-management.md)
       + [Création et gestion d’opérateurs](platform/using/access-management-operators.md)
       + [Création et gestion de groupes](platform/using/access-management-groups.md)
-      + [Utilisation des droits nommés pour la configuration des autorisations](platform/using/access-management-named-rights.md)
+      + [Utiliser des droits nommés pour configurer des autorisations](platform/using/access-management-named-rights.md)
       + [Gestion de l’accès aux dossiers](platform/using/access-management-folders.md)
    + Packages de données et énumérations {#administration-basics}
       + [Packages de données](platform/using/working-with-data-packages.md)
@@ -350,9 +350,9 @@ ht-degree: 99%
    + [Configuration des questionnaires](surveys/using/configuring-surveys.md)
    + [Cas d’utilisation : création d’un formulaire de référence](surveys/using/use-case-creating-a-refer-a-friend-form.md)
    + [Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
-+ Intégration avec Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
-   + [Prise en main des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
-   + [Créer votre compte technique d’Adobe](integrations/using/oauth-technical-account.md)
++ Intégration à Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
+   + [Commencer avec les intégrations de Campaign](integrations/using/about-campaign-integrations.md)
+   + [Créer votre compte technique Adobe](integrations/using/oauth-technical-account.md)
    + Triggers Adobe Experience Cloud {#experience-triggers}
       + [Utilisation de  [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
@@ -825,7 +825,7 @@ ht-degree: 99%
    + [Recommandations relatives au dimensionnement du matériel](technotes/using/hardware-sizing.md)
    + [Activité de workflow de SMS entrants pour une infrastructure de midsourcing](technotes/using/inbound-sms-wf.md)
    + Mettre à niveau vers IMS{#ims}
-      + [Transition vers Adobe IMS](technotes/using/ac-ims.md)
+      + [Transition vers Adobe IMS](technotes/using/ac-ims.md)
       + [Migrer les utilisateurs et utilisatrices vers IMS](technotes/using/migrate-users-to-ims.md)
       + [Migrer un opérateur ou une opératrice technique vers Developer Console](technotes/using/ims-migration.md)
       + [Impact de l’interface après la migration IMS](technotes/using/impact-ims-migration.md)

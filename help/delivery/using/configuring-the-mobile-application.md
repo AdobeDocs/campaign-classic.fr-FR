@@ -6,9 +6,9 @@ feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -94,11 +94,11 @@ Dans l’exemple suivant, nous ajoutons **mediaURl** et **mediaExt** pour créer
 
 1. Cliquez sur **[!UICONTROL Suivant]** pour passer à la configuration de l’application de développement.
 
-1. Assurez-vous que la même **[!UICONTROL clé d’intégration]** est définie dans Adobe Campaign et dans le code de l’application via le SDK. <!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).--> Cette clé d&#39;intégration, spécifique à chaque application, permet de lier l&#39;application mobile à la plateforme Adobe Campaign.
+1. Assurez-vous que la même **[!UICONTROL clé d’intégration]** est définie dans Adobe Campaign et dans le code de l’application via le SDK. <!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).--> Cette clé d’intégration, spécifique à chaque application, vous permet de lier l’application mobile à la plateforme Adobe Campaign.
 
    >[!NOTE]
    >
-   > La **[!UICONTROL clé d&#39;intégration]** est entièrement personnalisable avec une valeur de chaîne, mais doit être exactement identique à celle spécifiée dans le SDK.
+   > La **[!UICONTROL clé d’intégration]** est entièrement personnalisable avec une valeur de chaîne, mais doit être exactement identique à celle spécifiée dans le SDK.
 
 1. Sélectionnez l&#39;une des icônes d’usine dans le champ **[!UICONTROL Icône de l&#39;application]** pour personnaliser l&#39;application mobile dans votre service.
 

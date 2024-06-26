@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
 source-git-commit: 757e3a5395f24e0bdd04737aba0458881e4ea780
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Il existe trois seuils différents :
 
    * **Côté Tomcat** : ensemble des requêtes arrivant effectivement sur le client Tomcat Adobe Campaign.
 
-     Ce seuil est configuré dans la variable **nl6/tomcat-X/conf/server.xml** fichier . L&#39;attribut **maxThreads** permet d&#39;augmenter le seuil du nombre de requêtes traitées à la fois. Il peut être remplacé par 250, par exemple.
+     Ce seuil est configuré dans le fichier **nl6/tomcat-X/conf/server.xml**. L&#39;attribut **maxThreads** permet d&#39;augmenter le seuil du nombre de requêtes traitées à la fois. Il peut être remplacé par 250, par exemple.
 
      ```
      <Connector protocol="HTTP/1.1" port="8080"

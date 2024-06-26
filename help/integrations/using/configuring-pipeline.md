@@ -8,9 +8,9 @@ audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '844'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,17 +31,17 @@ Avant de commencer cette configuration, vérifiez que vous disposez des élémen
 * Un accès de développement à votre organisation.
 * Une configuration de déclencheurs valide dans Adobe Analytics.
 
-Une authentification est requise, car le pipeline est hébergé dans Adobe Experience Cloud. Il utilise une authentification prise en charge pour via un projet Adobe Developer.
+Une authentification est requise, car le pipeline est hébergé dans Adobe Experience Cloud. Celui-ci utilise une authentification prise en charge via un projet Adobe Developer.
 
 ## Étape 1 : créer/mettre à jour votre projet Adobe Developer {#creating-adobe-io-project}
 
-Vous devez activer votre organisation avec des jetons de compte Adobe Developer pour l&#39;intégration des Triggers.
+Vous devez activer votre organisation avec des jetons de compte Adobe Developer pour l’intégration de Triggers.
 
-Découvrez comment créer votre compte technique Adobe dans [cette page](../../integrations/using/oauth-technical-account.md). Notez que vous devez sélectionner **[!UICONTROL Adobe Analytics]** lorsque vous ajoutez une API aux informations d’identification d’Adobe Developer.
+Découvrez comment créer votre compte technique Adobe sur [cette page](../../integrations/using/oauth-technical-account.md). Notez que vous devez sélectionner **[!UICONTROL Adobe Analytics]** lorsque vous ajoutez une API aux informations d’identification d’Adobe Developer.
 
 ## Étape 2 : configurer l’option de pipeline {#configuring-nmspipeline}
 
-Une fois l’authentification définie, le pipeline récupère les événements. Il traite uniquement les déclencheurs configurés dans Adobe Campaign. Le déclencheur doit avoir été généré à partir d’Adobe Analytics et envoyé vers le pipeline qui traitera uniquement les déclencheurs configurés dans Adobe Campaign.
+Une fois l’authentification configurée, le pipeline récupère les événements. Celui-ci traite uniquement les déclencheurs configurés dans Adobe Campaign. Le déclencheur doit avoir été généré à partir d’Adobe Analytics et envoyé vers le pipeline qui traitera uniquement les déclencheurs configurés dans Adobe Campaign.
 
 L&#39;option peut également être configurée avec un caractère générique pour capturer tous les déclencheurs, quel que soit leur nom.
 
@@ -109,7 +109,7 @@ Pour configurer l’option Pipeline, vous devez suivre les recommandations suiva
 * Le processus `pipelined` prend également en charge la rubrique « alias ».
 * Vous devez toujours redémarrer le processus `pipelined` après avoir apporté des modifications.
 
-## (facultatif) Étape 3 : configuration supplémentaire {#step-optional}
+## (Facultatif) Étape 3 : configuration supplémentaire {#step-optional}
 
 Vous pouvez modifier certains paramètres internes en fonction de vos besoins de charge, mais assurez-vous de les tester avant de les appliquer dans votre environnement de production.
 

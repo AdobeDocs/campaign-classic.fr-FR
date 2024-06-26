@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8067'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -337,7 +337,7 @@ Dans le nœud **dataStore > dataSource > dbcnx**, configurez les paramètres d
   </tr> 
   <tr> 
    <td> provider<br /> </td> 
-   <td> Type (énumération). Les valeurs possibles sont 'Oracle', 'MSSQL' (Microsoft SQL Server), 'PostgreSQL' (PostgreSQL), 'Teradata', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA' (SAP HANA), 'RedShift' (Amazon Redshift), 'ODBC' (ODBC (Rebase ASE, Sybase IQ), 'ay' (Relais HTTP vers base distante).<br /> </td> 
+   <td> Type (énumération). Les valeurs possibles sont « Oracle », « MSSQL » (Microsoft SQL Server), « PostgreSQL » (PostgreSQL,), « Teradata », « DB2 », « MySQL », « Netezza », « AsterData », « SAPHANA » (SAP HANA), « RedShift » (Amazon Redshift), « ODBC » (ODBC (Sybase ASE, Sybase IQ)), « Relay » (relais HTTP vers base de données distante).<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 

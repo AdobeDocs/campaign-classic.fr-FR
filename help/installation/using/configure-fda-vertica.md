@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Configuration de l’accès à [!DNL Vertica Analytics]
-description: Découvrez comment configurer l’accès à [!DNL Vertica Analytics] dans FDA
+title: Configuration de l’accès à  [!DNL Vertica Analytics]
+description: En savoir plus sur la configuration de l’accès à  [!DNL Vertica Analytics]  dans FDA
 feature: Installation, Federated Data Access
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
 source-git-commit: fcc42e84817277ad46218165b5acef370747c1ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ Pour effectuer la configuration de [!DNL Vertica Analytics] sur CentOS, procéde
 
 1. Dans Adobe Campaign, vous pouvez ensuite configurer votre compte externe [!DNL Vertica Analytics]. Pour plus d&#39;informations sur la configuration de votre compte externe, voir [cette section](#vertica-external).
 
-## [!DNL Vertica Analytics] compte externe {#vertica-external}
+## Compte externe [!DNL Vertica Analytics] {#vertica-external}
 
 Vous devez créer un compte externe [!DNL Vertica Analytics] pour connecter votre instance Campaign à votre base de données [!DNL Vertica Analytics] externe.
 

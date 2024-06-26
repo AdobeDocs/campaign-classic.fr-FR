@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
 ht-degree: 100%
 
@@ -171,7 +171,7 @@ Les ports par défaut sont les suivants :
  </tbody> 
 </table>
 
-## Accès depuis l&#39;extérieur {#external-access}
+## Accès depuis l’extérieur {#external-access}
 
 En outre, certains composants doivent être accessibles depuis l’Internet public afin que les campagnes e-mail exécutées directement depuis Adobe Campaign puissent être visualisées. Cela signifie que certains ports doivent être ouverts pour les composants.
 

@@ -5,9 +5,9 @@ description: Campaign - Edge Chromium
 feature: Technote, Upgrade
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
 source-git-commit: 8734e6ef26a7342042a5242d54854b7d3a5e6244
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Outre l’installation du runtime Microsoft Edge Webview 2, qui est désormai
 
 >[!NOTE]
 >
->Après avoir activé Microsoft Edge Chromium, la variable `Ctrl+F` (Windows) ou `Command+F` (Mac) pour ouvrir la boîte de dialogue de recherche du navigateur ne fonctionnera plus.
+>Après l’activation de Microsoft Edge Chromium, le raccourci `Ctrl+F` (Windows) ou `Command+F` (Mac) pour ouvrir la boîte de dialogue de recherche du navigateur ne fonctionnera plus.
 
 ## Cela vous concerne-t-il ?
 

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1218'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Coûts du matériel et d&#39;administration plus élevés.
 
 ## Etapes d&#39;installation et de configuration {#installation-and-configuration-steps}
 
-### Conditions préalables requises {#prerequisites}
+### Conditions préalables {#prerequisites}
 
 * JDK sur les deux serveurs applicatifs,
 * Serveur Web (IIS, Apache) sur les deux frontaux,
@@ -70,7 +70,7 @@ Coûts du matériel et d&#39;administration plus élevés.
 >  
 >Si vos serveurs applicatifs pointent sur une instance de base de données unique, après changement du schéma sur une instance, le schéma n&#39;est pas chargé sur l&#39;autre instance.
 >
->Pour résoudre ces problèmes, vous devez redémarrer le processus &#39;web@default&#39; sur la deuxième instance où une erreur s&#39;est produite.
+>Pour résoudre ces problèmes, vous devez redémarrer le processus « web@default » sur la deuxième instance dans laquelle l’erreur est survenue.
 
 ### Installer et configurer le serveur applicatif n° 1 {#installing-and-configuring-the-application-server-1}
 

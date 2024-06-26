@@ -1,33 +1,34 @@
 ---
 product: campaign
-title: Création et configuration de votre compte technique d’Adobe pour les API
-description: Découvrez comment créer votre compte API Adobe
+title: Créer et configurer votre compte technique Adobe pour les API
+description: En savoir plus sur la création de compte API Adobe
 role: User, Admin
 level: Beginner
-source-git-commit: efd09fd71069878a5096bfa3592e6ebbaa9dd4e4
-workflow-type: tm+mt
+exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
+source-git-commit: 8eadea9f9cc0a44522726024bfbc825e3b4cad98
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
-# Créer votre compte technique d’Adobe {#create-service-account}
+# Créer votre compte technique Adobe {#create-service-account}
 
-Les informations d’identification d’authentification serveur à serveur permettent au serveur de votre application de générer des jetons d’accès et d’effectuer des appels API pour le compte de votre application elle-même. [En savoir plus](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)
+Les informations d’identification d’authentification serveur à serveur permettent au serveur de votre application de générer des jetons d’accès et d’effectuer des appels API pour le compte de votre application. [En savoir plus](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)
 
-## Migration des intégrations existantes {#migrate-jwt}
+## Migrer des intégrations existantes {#migrate-jwt}
 
-Les informations d’identification du compte de service (JWT) sont en train d’être abandonnées par Adobe. Les intégrations de Campaign avec les solutions et applications Adobe doivent désormais s’appuyer sur les informations d’identification OAuth Server-to-Server.
+Les informations d’identification du compte de service (JWT) sont en train d’être abandonnées par Adobe. Les intégrations de Campaign aux solutions et applications Adobe doivent désormais s’appuyer sur les informations d’identification OAuth de serveur à serveur.
 
-Si vous avez implémenté des intégrations entrantes ou sortantes avec Campaign avant juin 2024, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers oAuth comme indiqué dans le détail. [dans cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}. Les informations d’identification de compte de service (JWT) existantes continueront à fonctionner jusqu’à ce que **27 janvier 2025**.
+Si vous avez implémenté des intégrations entrantes ou sortantes à Campaign avant juin 2024, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers oAuth comme indiqué dans [dans cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}. Les informations d’identification de compte de service (JWT) existantes continueront à fonctionner jusqu’qu’au **27 janvier 2025**.
 
-Une fois la migration terminée, vous devez associer vos nouvelles informations d’identification à Campaign, comme expliqué dans la section [cette section](#add-credentials).
+Une fois la migration terminée, vous devez associer vos nouvelles informations d’identification à Campaign, comme expliqué dans [cette section](#add-credentials).
 
-## Création d’un compte technique OAuth pour les nouvelles intégrations {#oauth-service}
+## Créer un nouveau compte technique OAuth pour les nouvelles intégrations {#oauth-service}
 
-Pour créer votre compte technique OAuth pour les nouvelles intégrations, procédez comme suit :
+Pour créer votre compte technique OAuth pour les nouvelles intégrations, procédez comme suit :
 
-1. Accès à la console Adobe Developer et connexion en tant que **Administrateur système** de votre organisation.
+1. Accédez à Adobe Developer Console et connectez-vous en tant qu’**administrateur ou administratrice système** de votre organisation.
 
    Pour plus d’informations sur les rôles d’administrateur, reportez-vous à cette [page](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html).
 
@@ -41,32 +42,32 @@ Pour créer votre compte technique OAuth pour les nouvelles intégrations, proc�
 
 1. Sélectionnez le produit à intégrer à Campaign et cliquez sur **[!UICONTROL Suivant]**.
 
-1. Choisir **[!UICONTROL OAuth serveur à serveur]** comme type d’authentification et cliquez sur **[!UICONTROL Suivant]**.
+1. Choisissez **[!UICONTROL OAuth serveur à serveur]** comme type d’authentification et cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/api-account-3.png)
 
-1. Sélectionnez la variable **[!UICONTROL Profil de produit]** lien vers votre projet.
+1. Sélectionnez le lien **[!UICONTROL Profil de produit]** vers votre projet.
 
-   Si nécessaire, vous pouvez en créer un nouveau. [En savoir plus](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)
+   Si nécessaire, vous pouvez en créer un nouveau. [En savoir plus](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html)
 
 1. Cliquez ensuite sur **[!UICONTROL Enregistrer l’API configurée]**.
 
    ![](assets/api-account-4.png)
 
-1. Dans votre projet, sous Informations d’identification, sélectionnez [!DNL OAuth Server-to-Server] et copiez les informations suivantes :
+1. Dans votre projet, sous Informations d’identification, sélectionnez [!DNL OAuth Server-to-Server] et copiez les informations suivantes :
 
    * **[!UICONTROL Identifiant du client]**
-   * **[!UICONTROL Client secret]**
+   * **[!UICONTROL Secret client]**
    * **[!UICONTROL Identifiant du du compte technique]**
    * **[!UICONTROL Identifiant de l&#39;organisation]**
 
-## Ajout des informations d’identification de projet OAuth dans Adobe Campaign {#add-credentials}
+## Ajouter des informations d’identification de projet OAuth dans Adobe Campaign {#add-credentials}
 
-Suivez les étapes ci-dessous pour ajouter vos informations d’identification de projet OAuth dans Adobe Campaign :
+Suivez les étapes ci-dessous pour ajouter vos informations d’identification de projet OAuth dans Adobe Campaign :
 
 1. Connectez-vous via SSH à chaque conteneur sur lequel l’instance Adobe Campaign est installée.
 
-1. Ajoutez les informations d’identification de projet OAuth dans Adobe Campaign en exécutant la commande suivante en tant que `neolane` utilisateur. Les informations d&#39;identification du **[!UICONTROL compte technique]** seront alors insérées dans le fichier de configuration de l&#39;instance.
+1. Ajoutez les informations d’identification de projet OAuth dans Adobe Campaign en exécutant la commande suivante en tant qu’utilisateur ou utilisatrice `neolane`. Les informations d’identification du **[!UICONTROL compte technique]** seront alors insérées dans le fichier de configuration de l’instance.
 
    ```
    nlserver config -instance:<instance_name> -setimsoauth:ims-org-id/client-id/technical-account-id/client-secret

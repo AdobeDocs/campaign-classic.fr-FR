@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 61bb184e-affa-430c-8571-56e911cd5a3d
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -34,4 +34,4 @@ En cas d&#39;erreur, vérifiez que les éléments suivants sont correctement con
 
   Dans **[!UICONTROL Administration > Plateforme > AMC Data sources]**, vérifiez que l&#39;AMC Data source est correctement définie.
 
-Il se peut que certaines données soient manquantes lors du partage d’une audience via une audience Experience Cloud ou lors de l’import d’une audience. Seuls les enregistrements dont l&#39;identifiant (&#39;Visitor ID&#39; ou &#39;Declared ID&#39;) a pu être réconcilié avec la dimension des profils sont transférés. Les identifiants des segments qui ne sont pas reconnus par Adobe Campaign ne sont pas importés.
+Il est possible que certaines données soient manquantes lors du partage d’une audience via Experience Cloud Audience ou lors de l’import d’une audience. Seuls les enregistrements dont l’identifiant (&#39;Visitor ID&#39; ou &#39;Declared ID&#39;) a pu être réconcilié avec la dimension des profils sont transférés. Les identifiants provenant de segments non reconnus par Adobe Campaign ne sont pas importés.

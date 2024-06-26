@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 source-git-commit: dba90a154e08400ae6ab6478623a50d48d72207c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -81,5 +81,5 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
 
 Rubriques connexes :
 
-* [Présentation de la conformité Adobe Marketing Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
-* [Présentation de la sécurité d’Adobe Campaign](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#security)
+* [Vue d’ensemble de la conformité d’Adobe Marketing Cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
+* [Vue d’ensemble de la sécurité d’Adobe Campaign](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/overview#security)

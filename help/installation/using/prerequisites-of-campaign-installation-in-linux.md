@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des libra
 
   Pour le vérifier, vous pouvez par exemple utiliser la commande **uname -a | grep xen**.
 
-  Si la commande ne renvoie pas de ligne vide, cela signifie que la configuration est correcte.
+  Si la commande ne renvoie pas une ligne vide, cela signifie que la configuration est correcte.
 
 * Vous devez disposer de la version OpenSSL **1.0.2** ou d’une version ultérieure.
 
   Pour les distributions RHEL, la version 1.0 d’OpenSSL est requise.
 
-* Pour utiliser Adobe Campaign, la librairie suivante doit être installée : **libicu**.
+* Pour utiliser Adobe Campaign, la bibliothèque suivante doit être installée : **libicu**.
 
 ### SELinux {#selinux}
 
@@ -87,7 +87,7 @@ Sous Debian, utilisez la commande :
 apt install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
 ```
 
-Utilisez la commande suivante pour RHEL :
+Utilisez la commande suivante pour RHEL :
 
 ```
 dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
@@ -103,7 +103,7 @@ Sous Debian, utilisez la commande :
 apt install fonts-ipafont
 ```
 
-Pour RHEL, ajoutez la commande suivante :
+Pour RHEL, ajoutez la commande suivante :
 
 ```
 dnf install epel-release # if required
@@ -144,13 +144,13 @@ Consultez également section générale [Base de données](../../installation/us
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaign prend en charge toutes les versions des bibliothèques clientes PostgreSQL de la version 9.6 : **libpq.so.5**.
+Adobe Campaign prend en charge toutes les versions des bibliothèques clientes PostgreSQL à partir de la version 9.6 : **libpq.so.5**.
 
-L&#39;utilisation de PostgreSQL avec Adobe Campaign requiert également l&#39;installation des bibliothèques **pgcrypto** correspondantes.
+L’utilisation de PostgreSQL avec Adobe Campaign requiert également l’installation des bibliothèques **pgcrypto** correspondantes.
 
 ### Oracle {#oracle}
 
-Récupérez la version de la bibliothèque pour Debian 64 bits, soit : **libclntsh.so**, **libclntsh.so.19.1**, **libclntsh.so.18.1**, **libclntsh.so.12.1**, **libclntsh.so.11.1** ou **libclntsh.so.10.1**.
+Récupérez la version de bibliothèque pour Debian 64 bits, soit : **libclntsh.so**, **libclntsh.so.19.1**, **libclntsh.so.18.1**, **libclntsh.so.12.1**, **libclntsh.so.11.1** or **libclntsh.so.10.1**.
 
 Vous pouvez obtenir un package RPM Linux depuis Oracle Technology Network.
 
@@ -176,7 +176,7 @@ Si vous remarquez sur la console cliente qu&#39;il y a des décalages horaires i
 
 1. Assurez-vous que le client et le serveur utilisent le même **fichier de fuseau horaire**.
 
-## Étapes de mise en œuvre {#implementation-steps}
+## Étapes dʼimplémentation {#implementation-steps}
 
 L&#39;installation d&#39;Adobe Campaign sous Linux doit être réalisée dans l&#39;ordre suivant : installation du serveur puis paramétrage des instances.
 

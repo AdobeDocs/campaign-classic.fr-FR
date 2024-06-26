@@ -7,9 +7,9 @@ feature: Personalization
 role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 source-git-commit: 0cf7f249f366a6ef0e9bd0326ec14131fcf7dc18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1070'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -118,13 +118,13 @@ Si vous définissez cette option sur 0, il n’y aura aucune limite de temps pou
 
 ## Onglet Personnalisation {#personalization-tab}
 
-Dans les Propriétés de la diffusion, vous avez un onglet Personnalisation .
+Dans les propriétés de la diffusion, vous disposez d’un onglet Personnalisation.
 
-Vous pouvez y ajouter des données à la requête de profil de la dimension de ciblage en cliquant sur le bouton **&quot;Editer la requête de chargement du profil du destinataire&quot;**. Vous pouvez utiliser les données extraites directement dans une expression pour extraire ce dont vous avez réellement besoin. Ces données seront ajoutées au contexte.
+Vous pouvez y ajouter des données à la requête de profil de la dimension de ciblage en cliquant sur « **Modifier la requête de chargement du profil du ou de la destinataire** ». Vous pouvez utiliser les données extraites directement dans une expression pour extraire ce dont vous avez réellement besoin. Ces données seront ajoutées au contexte.
 
 ![](assets/persotab-edit.png){zoomable="yes"}
 
-Si les données que vous souhaitez ajouter ne figurent pas dans la dimension de ciblage, vous pouvez cliquer sur **&quot;Ajouter des objets dans le contexte d’exécution des scripts&quot;**.
+Si les données que vous souhaitez ajouter ne figurent pas dans la dimension de ciblage, vous pouvez cliquer sur « **Ajouter des objets dans le contexte d’exécution des scripts** ».
 
 ![](assets/persotab_addobjects.png){zoomable="yes"}
 
@@ -132,7 +132,7 @@ Vous pouvez y sélectionner le schéma d’objet dont vous avez besoin, puis uti
 
 ![](assets/persotab_addobjects_articles.png){zoomable="yes"}
 
-En ajoutant le schéma d’objet, vous pouvez sélectionner les champs à ajouter au contexte :
+En ajoutant le schéma d’objet, vous pouvez sélectionner les champs à ajouter au contexte :
 
 ![](assets/persotab_addobjects_fields.png){zoomable="yes"}
 

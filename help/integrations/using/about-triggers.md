@@ -8,9 +8,9 @@ audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -46,13 +46,13 @@ Avant de commencer cette implémentation, vérifiez que vous disposez des élém
 
 ## Étapes dʼimplémentation {#implement}
 
-Pour implémenter Campaign et les Triggers Experience Cloud, procédez comme suit :
+Pour implémenter Campaign et Experience Cloud Triggers, procédez comme suit :
 
-1. Créez un projet OAuth. [En savoir plus](oauth-technical-account.md#oauth-service)
+1. Créez un project OAuth. [En savoir plus](oauth-technical-account.md#oauth-service)
 
 1. Ajoutez vos informations d’identification de projet OAuth dans Adobe Campaign. [En savoir plus](oauth-technical-account.md#add-credentials)
 
-1. Mettez à jour le type d’authentification vers le projet Developer Console dans le fichier de configuration **config-&lt; nom-instance >.xml** comme suit :
+1. Mettez à jour le type d’authentification du projet Developer Console dans le fichier de configuration **config-&lt; nom-instance >.xml** comme suit :
 
    ```
    <pipelined ... authType="imsJwtToken"  ... />

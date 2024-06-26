@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
 source-git-commit: 757e3a5395f24e0bdd04737aba0458881e4ea780
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les versions nouvelles ou mises à niveau des versions intégrées de Tomcat ne 
 >[!AVAILABILITY]
 >
 >
-> Depuis Campaign v7.4.1, Tomcat 10.1 est la version par défaut.
+> À compter de Campaign v7.4.1, Tomcat 10.1 est la version par défaut.
 >
 
 ## Comment localiser la version de Tomcat intégrée
@@ -43,7 +43,7 @@ Pour localiser la version de Tomcat intégrée dans une instance d’Adobe Camp
 >
 >Vous devez avoir accès aux fichiers du serveur Adobe Campaign que vous devez vérifier. La procédure décrite ci-dessous ne s&#39;applique qu&#39;aux **modèles d&#39;hébergement on-premise**.
 
-1. Accédez au *\tomcat-11\lib* sous-dossier du dossier d’installation d’Adobe Campaign (par exemple, *C:\Program Fichiers\ [Installation_folder]* sous Windows, ou */usr/local/neolane/nl6* sous Linux).
+1. Accédez au sous-dossier *\tomcat-11\lib* dans le dossier d’installation Adobe Campaign (par exemple, *C:\Program Files\ [dossier_d’installation]* sous Windows ou */usr/local/neolane/nl6* sous Linux).
 
 1. Copiez le fichier *catalina.jar* dans un dossier temporaire externe (votre bureau, par exemple) et remplacez l’extension .jar par .zip.
 
@@ -53,7 +53,7 @@ Pour localiser la version de Tomcat intégrée dans une instance d’Adobe Camp
 
 1. Une fois terminé, s’il se trouve sur un serveur, supprimez le ou les fichiers temporaires que vous avez créés.
 
-Par exemple, la variable *ServerInfo.properties* pour Adobe Campaign contient les informations suivantes, indiquant Tomcat v11.X :
+Par exemple, le fichier *ServerInfo.properties* pour Adobe Campaign contient les informations suivantes, indiquant Tomcat v11.X :
 
 *`server.info=Apache Tomcat/11.X`*
 

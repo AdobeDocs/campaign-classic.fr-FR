@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1352'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ic
 Selon le moteur de base sélectionné, les informations d&#39;identification du serveur diffèrent.
 
 * Pour un moteur **Oracle**, renseignez le **nom TNS** qui a été défini sur le serveur applicatif.
-* Pour un **PostgreSQL** , vous devez indiquer le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
+* Pour un moteur **PostgreSQL**, vous devez indiquer le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
 * Pour un **Serveur Microsoft SQL**, vous devez définir : le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
 
   >[!CAUTION]
@@ -176,7 +176,7 @@ Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ic
 Selon le moteur de base sélectionné, les informations d&#39;identification du serveur diffèrent.
 
 * Pour un moteur **Oracle**, renseignez le **nom TNS** qui a été défini sur le serveur applicatif.
-* Pour un **PostgreSQL** , vous devez indiquer le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
+* Pour un moteur **PostgreSQL**, vous devez indiquer le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
 * Pour un moteur **Microsoft SQL Server**, vous devez définir :
 
    1. le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données,

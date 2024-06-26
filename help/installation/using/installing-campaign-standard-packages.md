@@ -6,9 +6,9 @@ feature: Installation, Application Settings
 badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1299'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -202,7 +202,7 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Intégration des Audiences partagées Adobe Experience Cloud<br /> </td> 
-   <td> Permet d’exchange et de partager des audiences/segments avec les solutions et applications Adobe Experience Cloud. Nécessite IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">En savoir plus</a> <br /> </td> 
+   <td> Vous permet d’échanger et de partager des audiences/segments avec les solutions et les applications Adobe Experience Cloud. Nécessite IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">En savoir plus</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

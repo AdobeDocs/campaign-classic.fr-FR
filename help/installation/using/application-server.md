@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
 source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Les couches d&#39;accès pour le moteur de base de données que vous utilisez do
 
 Le kit de développement Java, ou JDK, est un kit de développement logiciel. Il s’agit du composant de base qui permet l’utilisation de Java et le développement d’applications Java.
 
-Le générateur de pages web dynamique utilise la technologie JSP. A cet effet, un moteur Tomcat (d&#39;origine Apache) est inclus dans l&#39;application. Il nécessite la présence d&#39;un Java Development Kit (JDK), installé sur tous les serveurs sur lesquels l&#39;application Adobe Campaign sera installée.
+Le module de génération de pages Web dynamiques utilise la technologie JSP. À cet effet, un moteur Tomcat (d’origine Apache) est inclus dans l’application. Il nécessite la présence d&#39;un Java Development Kit (JDK), installé sur tous les serveurs sur lesquels l&#39;application Adobe Campaign sera installée.
 
 Vous devez installer un JDK sur les machines sur lesquelles vous comptez lancer le serveur applicatif Adobe Campaign (processus **nlserver web**), car il intègre un container de servlets Apache Tomcat utilisées pour la génération des pages web dynamiques (reporting, formulaires web, etc.).
 
@@ -34,9 +34,9 @@ Les versions prises en charge sont détaillées dans la [matrice de compatibilit
 
 >[!AVAILABILITY]
 >
->* À compter de la version 7.4.1, Campaign requiert au moins Java JDK 11. Si votre serveur Campaign est installé dans un environnement Windows, vous devez générer un JRE, car il n’est plus fourni par défaut.
+>* À compter de la version 7.4.1, Campaign requiert au moins Java JDK 11. Si votre serveur Campaign est installé dans un environnement Windows, vous devez générer un JRE, car celui-ci n’est plus fourni par défaut.
 >
->* Depuis la v7.4.1, Tomcat 10.1 est la version par défaut.
+>* À compter de la version 7.4.1, Tomcat 10.1 est la version par défaut.
 >
 
 ### Recommandations

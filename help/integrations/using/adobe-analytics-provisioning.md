@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: a38d53f4b37aadbc53446b5e399af2eae56c12af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '691'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Pour que cette intégration fonctionne, vous devez créer un profil produit Adob
 >
 > Les informations d’identification de compte de service (JWT) étant abandonnées par Adobe, les intégrations de Campaign aux solutions et aux applications Adobe doivent désormais utiliser des informations d’identification OAuth serveur à serveur.</br>
 >
-> * Si vous avez implémenté des intégrations entrantes pour Campaign, vous devez migrer votre compte technique comme décrit dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Les informations d’identification du compte de service existant (JWT) continueront à fonctionner jusqu’au 27 janvier 2025.</br>
+> * Si vous avez implémenté des intégrations entrantes pour Campaign, vous devez migrer votre compte technique comme décrit dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Les informations d’identification de compte de service (JWT) existantes continueront de fonctionner jusqu’au 27 janvier 2025.</br>
 >
 > * Si vous avez implémenté des intégrations sortantes, telles qu’une intégration Campaign-Analytics ou une intégration Experience Cloud Triggers, celles-ci continueront de fonctionner jusqu’au 27 janvier 2025. Toutefois, avant cette date, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers OAuth.
 
@@ -108,9 +108,9 @@ Votre profil produit est désormais configuré. Vous devez ensuite créer le pro
 
 ## Créer un projet OAuth {#create-adobe-io}
 
-Pour poursuivre la configuration de votre connecteur Adobe Analytics, accédez à la console Adobe Developer et créez votre projet OAuth de serveur à serveur.
+Pour poursuivre la configuration de votre connecteur Adobe Analytics, accédez à Adobe Developer Console et créez votre projet OAuth serveur à serveur.
 
-Voir [cette page](oauth-technical-account.md#oauth-service) pour consulter la documentation détaillée.
+Consultez [cette page](oauth-technical-account.md#oauth-service) pour accéder à la documentation détaillée.
 
 ## Configuration et utilisation {#adobe-analytics-connector-usage}
 

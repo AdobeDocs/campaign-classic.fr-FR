@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 source-git-commit: a38d53f4b37aadbc53446b5e399af2eae56c12af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1152'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ En tant que client hébergé, deux possibilités s’offrent à vous pour instal
 
    **Les utilisateurs devront disposer d’un accès administrateur pour effectuer la mise à jour. Si les utilisateurs ne disposent pas de droits d’administration, un administrateur système devra effectuer un déploiement sur toutes les consoles clientes**.
 
-## Implémentations hybrides et On-premise {#hybrid-onprem-customers}
+## Implémentations hybride et On-premise {#hybrid-onprem-customers}
 
 Afin de permettre aux utilisateurs Adobe Campaign de se connecter à l’instance que vous avez créée et paramétrée, ils doivent utiliser la console cliente.
 

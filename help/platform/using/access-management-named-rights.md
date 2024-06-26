@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Utilisation des droits nommés pour la configuration des autorisations
+title: Utiliser des droits nommés pour configurer des autorisations
 description: Découvrez comment utiliser des droits nommés pour configurer des autorisations
 badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Access Management, Permissions
@@ -8,19 +8,19 @@ role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
 source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Utilisation des droits nommés pour la configuration des autorisations{#named-rights}
+# Utiliser des droits nommés pour configurer des autorisations{#named-rights}
 
 >[!NOTE]
 >
->Cette page s&#39;applique uniquement aux opérateurs se connectant à Campaign avec une authentification native. Pour l&#39;authentification Adobe IMS, voir [cette documentation](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html).
+>Cette page ne s’applique qu’aux opérateurs et aux opératrices qui se connectent à Campaign avec une authentification native. Pour l’authentification Adobe IMS, consultez [cette documentation](https://helpx.adobe.com/fr/enterprise/using/manage-permissions-and-roles.html).
 
-Par défaut, Adobe Campaign propose un ensemble de droits nommés qui permettent de définir les autorisations attribuées aux opérateurs et groupes d&#39;opérateurs. Ces droits peuvent être édités depuis le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;arborescence.
+Par défaut, Adobe Campaign propose un ensemble de droits nommés qui permettent de définir les autorisations attribuées aux opérateurs et opératrices et groupes d’opérateurs et d’opératrices. Ces droits peuvent être édités depuis le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;arborescence.
 
 ![](assets/s_ncs_admin_named_rights.png)
 

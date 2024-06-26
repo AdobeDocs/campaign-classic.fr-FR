@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Pour configurer la source de données **[!UICONTROL Destinataires - Id Visiteur]
 
 ## Étape 3 : Configuration du serveur de tracking Campaign         {#step-3--configure-campaign-tracking-server}
 
-Pour la configuration de l&#39;intégration avec Audience Manager, nous devons également configurer le serveur de tracking Campaign.
+Pour la configuration de l’intégration à Audience Manager, il faut également configurer le serveur de tracking Campaign.
 
 Pour permettre aux audiences partagées de fonctionner avec les identifiants visiteur, le domaine du serveur de tracking doit être un sous-domaine de l’URL sur laquelle l’utilisateur ou l’utilisatrice a cliqué ou du site Web principal.
 

@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Prise en main des opérateurs Campaign
+title: Commencer avec les opérateurs et les opératrices Campaign
 description: Découvrez comment créer et gérer des utilisateurs Campaign
 badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Access Management, Permissions
@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1324'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 98%
 >À l’issue de cette migration, notez que la section suivante ne s’applique plus.  Découvrez comment configurer des autorisations avec Adobe IMS dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
 
 
-## Prise en main des opérateurs Campaign {#about-operators}
+## Commencer avec les opérateurs et les opératrices Campaign {#about-operators}
 
 >[!NOTE]
 >
->Ces procédures ne s&#39;appliquent qu&#39;aux opérateurs se connectant à Campaign avec une authentification native. Pour l&#39;authentification Adobe IMS, voir [cette documentation](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank).
+>Ces procédures ne s’appliquent qu’aux opérateurs et aux opératrices qui se connectent à Campaign via une authentification native. Pour l’authentification Adobe IMS, consultez [cette documentation](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html#_blank).
 
 Un opérateur est un utilisateur Adobe Campaign qui possède des autorisations pour se connecter et effectuer des actions.
 

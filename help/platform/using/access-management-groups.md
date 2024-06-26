@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Création et gestion de groupes d’opérateurs
+title: Créer et gérer des groupes d’opérateurs et d’opératrices
 description: Découvrez comment octroyer l’accès aux groupes d’opérateurs
 badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Access Management, Permissions
@@ -8,17 +8,17 @@ role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Création et gestion de groupes d’opérateurs {#operator-groups}
+# Créer et gérer des groupes d’opérateurs et d’opératrices {#operator-groups}
 
 >[!NOTE]
 >
->Ces procédures ne s&#39;appliquent qu&#39;aux opérateurs se connectant à Campaign avec une authentification native. Pour l&#39;authentification Adobe IMS, voir [cette documentation](https://helpx.adobe.com/fr/enterprise/using/user-groups.html).
+>Ces procédures ne s’appliquent qu’aux opérateurs et aux opératrices qui se connectent à Campaign via une authentification native. Pour l’authentification Adobe IMS, consultez [cette documentation](https://helpx.adobe.com/fr/enterprise/using/user-groups.html).
 
 Les groupes d’opérateurs sont créés à partir du nœud **[!UICONTROL Administration > Gestion des accès > Groupes d’opérateurs]** de l’arborescence.
 

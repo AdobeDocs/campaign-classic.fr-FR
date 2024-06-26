@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2029'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Non. Au cours de l&#39;upgrade de build, les services de workflow et de messager
 
 ## Mes liens de tracking fonctionnent-ils toujours pendant la mise à niveau ?
 
-Depuis Campaign Classic v7.3.5, le tracking des liens sur les emails envoyés fonctionne toujours pendant la mise à niveau.
+À partir de Campaign Classic v7.3.5, le tracking des liens sur les e-mails envoyés fonctionne toujours pendant la mise à niveau.
 
 ## Dois-je être disponible pendant l&#39;upgrade de build ?
 

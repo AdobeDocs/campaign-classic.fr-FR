@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: appendices
 exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
 source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Les valeurs possibles pour le paramètre **`[rdbms]`** sont les suivantes :
 * **oracle** : pour le moteur Oracle,
 * **mssql** : pour Microsoft SQL Server,
 
-La commande suivante paramètre l&#39;instance **demo** avec la base de type SQL Server nommée **base6**, associée au compte **campaign** et son mot de passe **password** sur le serveur **dbsrv**.
+La commande suivante paramètre l’instance **demo** avec la base de type SQL Server nommée **base6**, associée au compte **campaign** et son mot de passe **password** sur le serveur **dbsrv**.
 
 ```sql
  nlserver config -setdblogin:db:campaign:myBase/password@dbServer -instance:demo

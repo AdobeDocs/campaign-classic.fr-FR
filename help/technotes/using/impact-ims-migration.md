@@ -1,27 +1,28 @@
 ---
-title: Mise à jour de l’interface de Campaign après la migration IMS
-description: Découvrez comment activer les impacts de l’interface de migration d’Adobe Identity Management System
-source-git-commit: ab1bb91bdbc9961b4f3f0feba7cfd354b02b6511
-workflow-type: tm+mt
+title: Mettre à jour l’interface de Campaign après la migration IMS
+description: En savoir plus sur les impacts de l’interface de migration d’Adobe Identity Management System
+exl-id: 8b13fe4d-d8d3-43b3-bbe4-c8c5574f585a
+source-git-commit: 8eadea9f9cc0a44522726024bfbc825e3b4cad98
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Mise à jour de l’interface de Campaign après la migration IMS {#impact-ims-migration}
+# Mettre à jour l’interface de Campaign après la migration IMS {#impact-ims-migration}
 
-Une fois que vous avez [migration des opérateurs techniques Campaign vers Developer Console](ims-migration.md) et [transition vers IMS pour l’authentification des utilisateurs finaux](migrate-users-to-ims.md), la dernière étape consiste à activer l’interface utilisateur et les restrictions de l’API pour supprimer les options et fonctionnalités spécifiques à l’authentification native. Cette mise à jour est disponible à partir de Campaign v7.4.1.
+Une fois que vous avez [migré vos opérateurs et opératrices techniques Campaign vers Developer Console](ims-migration.md) et [effectué la transition vers IMS pour l’authentification des utilisateurs et utilisatrices finaux](migrate-users-to-ims.md), la dernière étape consiste à activer les restrictions de l’interface d’utilisation et de l’API pour supprimer les options et fonctionnalités spécifiques à l’authentification native. Cette mise à jour est disponible à partir de Campaign v7.4.1.
 
-## Activation des restrictions IMS {#ims-restrictions}
+## Activer des restrictions IMS {#ims-restrictions}
 
-Pour finaliser votre migration vers Adobe Identity Management System (IMS), vous devez bloquer la création d’utilisateurs natifs, la connexion d’utilisateurs natifs et l’accès aux API pour les opérateurs natifs. Votre environnement est ensuite sécurisé et normalisé.
+Pour finaliser votre migration vers Adobe Identity Management System (IMS), vous devez bloquer la création d’utilisateurs et utilisatrices natifs, la connexion d’utilisateurs et utilisatrices natifs et l’accès à l’API pour les opérateurs et opératrices natifs. Votre environnement est ensuite sécurisé et normalisé.
 
-En tant qu’utilisateur Cloud Service/hébergé, contactez l’Adobe pour activer cette restriction et les mises à jour associées dans l’interface utilisateur du produit.
+En tant qu’utilisateur ou utilisatrice Cloud Service/hébergé, contactez Adobe pour activer cette restriction et les mises à jour associées dans l’interface d’utilisation du produit.
 
-En tant qu’utilisateur on-premise/hybride, procédez comme suit :
+En tant qu’utilisateur ou utilisatrice on-premise/hybride, procédez comme suit :
 
-1. Accédez au `<imsConfig>` de votre fichier de configuration d’instance.
-1. Pour activer les restrictions de l’interface utilisateur, mettez à jour la variable `nonIMSOperatorMgmtInClientConsoleRestricted` , à l’intérieur de la propriété `nonIMSOperatorMgmtInClientConsole` élément, à `true`, comme ci-dessous :
+1. Accédez à la section `<imsConfig>` de votre fichier de configuration d’instance.
+1. Pour activer les restrictions de l’interface d’utilisation, mettez à jour l’option `nonIMSOperatorMgmtInClientConsoleRestricted`, dans l’élément `nonIMSOperatorMgmtInClientConsole`, sur `true`, comme ci-dessous :
 
 
    ```xml
@@ -34,7 +35,7 @@ En tant qu’utilisateur on-premise/hybride, procédez comme suit :
    </serverConf>
    ```
 
-1. Pour activer les restrictions de l’API, mettez à jour la variable `disableAPI` , à l’intérieur de la propriété `nonIMSAuthnAPI` élément, à `true`, comme ci-dessous :
+1. Pour activer les restrictions de l’API, mettez à jour l’option `disableAPI`, dans l’élément `nonIMSAuthnAPI`, sur `true`, comme ci-dessous :
 
    ```xml
    <serverConf>
@@ -48,7 +49,7 @@ En tant qu’utilisateur on-premise/hybride, procédez comme suit :
    </serverConf>
    ```
 
-Notez que certains opérateurs sont autorisés à se connecter à Adobe Campaign avec une authentification native. Ces opérateurs techniques sont activés par défaut et ne doivent pas être modifiés. Pour autoriser cette exception, ces opérateurs techniques sont ajoutés par défaut à la liste autorisée. Cette liste figure dans la `<imsConfig>` de votre fichier de configuration d’instance, dans la section `allowOperator` à l’intérieur de la fonction `nonIMSAuthnAPI` élément .
+Notez que certains opérateurs et opératrices sont autorisés à se connecter à Adobe Campaign avec une authentification native. Ces opérateurs et opératrices techniques sont activés par défaut et ne doivent pas être modifiés. Pour autoriser cette exception, ces opérateurs et opératrices techniques sont ajoutés par défaut à la liste autorisée. Cette liste figure dans la section `<imsConfig>` de votre fichier de configuration d’instance, dans l’option `allowOperator` de l’élément `nonIMSAuthnAPI`.
 
 ```xml
 <serverConf>
@@ -65,7 +66,7 @@ Notez que certains opérateurs sont autorisés à se connecter à Adobe Campaign
 </serverConf>
 ```
 
-Si vous devez ajouter un opérateur à la liste autorisée, ajoutez une nouvelle `allowOperator` avec le nom de l&#39;opérateur. Par exemple, si vous souhaitez ajouter un nouvel opérateur nommé `test`, mettez à jour cette section comme suit :
+Si vous devez ajouter un opérateur ou une opératrice à la liste autorisée, ajoutez un nouvel élément `allowOperator` avec le nom de l’opérateur ou opératrice. Par exemple, si vous souhaitez ajouter un nouvel opérateur ou une nouvelle opératrice nommé `test`, mettez à jour cette section comme suit :
 
 ```xml
 <serverConf>
@@ -83,41 +84,40 @@ Si vous devez ajouter un opérateur à la liste autorisée, ajoutez une nouvelle
 </serverConf>
 ```
 
-## Impacts dans l’interface utilisateur {#ims-impacts}
+## Impacts dans l’interface d’utilisation {#ims-impacts}
 
-Une fois la migration terminée et les restrictions appliquées comme décrit ci-dessous, les modifications suivantes sont appliquées au produit et à son interface utilisateur.
+Une fois la migration terminée et les restrictions appliquées comme décrit ci-dessous, les modifications suivantes sont appliquées au produit et à son interface d’utilisation.
 
-### Gestion des opérateurs {#manage-admin}
+### Gestion des opérateurs et opératrices {#manage-admin}
 
-Vous ne pouvez plus créer, modifier, mettre à jour ou supprimer des opérateurs avec une authentification native à partir de la console cliente.
+Vous ne pouvez plus créer, modifier, mettre à jour ou supprimer des opérateurs et opératrices avec une authentification native à partir de la console cliente.
 
 Par conséquent, ces actions ont été désactivées dans la console cliente.
 
-L’administration des opérateurs est centralisée dans Adobe Admin Console et les tâches suivantes sont désormais gérées exclusivement via cette console. Découvrez comment créer des utilisateurs et attribuer des autorisations dans [Documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}.
+L’administration des opérateurs et opératrices est centralisée dans Adobe Admin Console et les tâches suivantes sont désormais gérées exclusivement via cette console. Découvrez comment créer des utilisateurs et utilisatrices et attribuer des autorisations dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}.
 
 ### Options non disponibles {#unavailable-migration}
 
-Après la migration, les tâches suivantes ne sont plus disponibles dans la console cliente :
+Après la migration, les tâches suivantes ne sont plus disponibles dans la console cliente :
 
-* Utilisez la variable [Option Fusionner les lignes sélectionnées](../../platform/using/updating-data.md#merge-data) pour fusionner des opérateurs.
+* Utilisez l’[option Fusionner les lignes sélectionnées](../../platform/using/updating-data.md#merge-data) pour fusionner les opérateurs et les opératrices.
 
-* Mettez à jour les champs suivants pour vos opérateurs :
+* Mettez à jour les champs suivants pour vos opérateurs et opératrices :
    * Nom
    * Mot de passe
    * Libellé
    * E-mail
 
-* [Réinitialisation du mot de passe Campaign](../../production/using/lost-password.md)
+* [Réinitialiser votre mot de passe Campaign](../../production/using/lost-password.md)
 
-* Editer la source XML des opérateurs
+* Modifier la source XML des opérateurs et opératrices
 
-* Dupliquez les opérateurs.
+* Dupliquez les opérateurs et opératrices.
 
 
 >[!MORELIKETHIS]
 >
->* [Migration des utilisateurs finaux vers IMS](migrate-users-to-ims.md)
->* [Migration des opérateurs techniques vers la console Adobe Developer](ims-migration.md)
->* [Notes de mise à jour les plus récentes de Adobe Campaign Classic v7](../../rn/using/latest-release.md)
+>* [Migration des utilisateurs et utilisatrices finaux vers IMS](migrate-users-to-ims.md)
+>* [Migration des opérateurs et opératrices techniques vers Adobe Developer Console](ims-migration.md)
+>* [Dernières notes de mise à jour d’Adobe Campaign Classic v7](../../rn/using/latest-release.md)
 >* [Présentation d’Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}
-

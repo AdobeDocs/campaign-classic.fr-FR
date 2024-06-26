@@ -9,9 +9,9 @@ hidefromtoc: true
 hide: true
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1774'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Le build 9032@d030c36 comprend le correctif suivant :
 >
 > * Si vous vous connectez à Campaign avec votre Adobe ID, par le biais du service Adobe IDentity Management (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign après le **30 juin 2021**. [En savoir plus](../../technotes/using/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l’intégration des Triggers Experience Cloud via l’authentification OAuth, vous devez passer à l’Adobe I/O comme décrit [dans cette page](../../integrations/using/about-triggers.md#implement). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’en février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md#step-optional) à Adobe.
+> * Si vous utilisez l’intégration Experience Cloud Triggers via l’authentification OAuth, vous devez migrer vers Adobe I/O comme décrit [sur cette page](../../integrations/using/about-triggers.md#implement). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’en février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md#step-optional) à Adobe.
 >
 >Pour en savoir plus, rendez-vous dans la [[!DNL Gold Standard] section](../../rn/using/gold-standard.md)
 
@@ -223,7 +223,7 @@ Cette section répertorie tous les systèmes et composants pris en charge pour l
 >[!CAUTION]
 >Sauf mention contraire, toutes les versions mineures sont prises en charge.
 >
->Adobe Campaign Classic est compatible avec tous les systèmes et outils répertoriés dans cette page. Lorsque des versions spécifiques de ces systèmes et outils tiers arrivent en fin de vie (EOL) avec leurs créateurs respectifs, Adobe Campaign n&#39;est plus compatible avec celles-ci. Elles sont alors supprimées de notre matrice de compatibilité pour la version suivante du produit. Pour éviter tout problème, vérifiez que vous disposez des versions prises en charge des systèmes répertoriés dans la matrice de compatibilité.
+>Adobe Campaign Classic est compatible avec tous les systèmes et outils répertoriés dans cette page. Lorsque des versions spécifiques de ces systèmes et outils tiers arrivent en fin de vie (EOL) avec leurs créateurs respectifs, Adobe Campaign n’est plus compatible avec celles-ci. Elles sont alors supprimées de notre matrice de compatibilité pour la version suivante du produit. Pour éviter tout problème, vérifiez que vous disposez des versions prises en charge des systèmes répertoriés dans la matrice de compatibilité.
 >
 
 ### Systèmes d’exploitation{#OperatingSystems-gs}
@@ -252,7 +252,7 @@ Cette section répertorie tous les systèmes et composants pris en charge pour l
 </td>
 </tr>
 <tr>
-<td>Windows Server </td>
+<td>Windows Server</td>
 <td>
 <p>2016</p>
 <p>2012 R2</p>
@@ -338,7 +338,7 @@ Cette section répertorie tous les systèmes et composants pris en charge pour l
 </td>
 </tr>
 <tr>
-<td>SQL Server </td>
+<td>SQL Server</td>
 <td>
 <p>2019</p>
 <p>2017</p>
@@ -415,7 +415,7 @@ Cette section répertorie tous les systèmes et composants pris en charge pour l
 <p>9.4.x</p>
 </td>
 </tr>
-<tr><td>SQL Server </td>
+<tr><td>SQL Server</td>
 <td>
 <p>2019</p>
 <p>2017</p>
@@ -506,7 +506,7 @@ Cette section répertorie tous les systèmes et composants pris en charge pour l
 </tbody>
 </table>
 
-### SDK Mobile{#MobileSDK}
+### SDK mobile{#MobileSDK}
 
 <table>
 <tbody>

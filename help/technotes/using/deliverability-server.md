@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 19b40f0b827c4b5b7b6484fe4953aebe61d00d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '997'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaig
 >
 > Les informations d’identification de compte de service (JWT) étant abandonnées par Adobe, les intégrations de Campaign aux solutions et aux applications Adobe doivent désormais utiliser des informations d’identification OAuth serveur à serveur.</br>
 >
-> * Si vous avez implémenté des intégrations entrantes pour Campaign, vous devez migrer votre compte technique comme décrit dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Les informations d’identification du compte de service existant (JWT) continueront à fonctionner jusqu’au 27 janvier 2025. </br>
+> * Si vous avez implémenté des intégrations entrantes pour Campaign, vous devez migrer votre compte technique comme décrit dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Les informations d’identification de compte de service (JWT) existantes continueront de fonctionner jusqu’au 27 janvier 2025.</br>
 >
-> * Si vous avez implémenté des intégrations sortantes, telles qu’une intégration Campaign-Analytics ou une intégration Experience Cloud Triggers, celles-ci continueront de fonctionner jusqu’au 27 janvier 2025. Toutefois, avant cette date, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers oAuth.
+> * Si vous avez implémenté des intégrations sortantes, telles qu’une intégration Campaign-Analytics ou une intégration Experience Cloud Triggers, celles-ci continueront de fonctionner jusqu’au 27 janvier 2025. Toutefois, avant cette date, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers OAuth.
 
 ### Conditions préalables{#prerequisites}
 
@@ -87,13 +87,13 @@ Si vous ne pouvez pas voir **Adobe Campaign**, contactez l’[Assistance client�
 
 ### Étape 1 : créer/mettre à jour votre projet Adobe Developer {#adobe-io-project}
 
-Pour poursuivre la configuration de votre connecteur Adobe Analytics, accédez à la console Adobe Developer et créez votre projet OAuth de serveur à serveur.
+Pour poursuivre la configuration de votre connecteur Adobe Analytics, accédez à Adobe Developer Console et créez votre projet OAuth serveur à serveur.
 
-Voir [cette page](../../integrations/using/oauth-technical-account.md#oauth-service) pour consulter la documentation détaillée.
+Consultez [cette page](../../integrations/using/oauth-technical-account.md#oauth-service) pour accéder à la documentation détaillée.
 
-### Étape 2 : ajouter les informations d&#39;identification du projet dans Adobe Campaign {#add-credentials-campaign}
+### Étape 2 : ajouter les informations d’identification du projet dans Adobe Campaign {#add-credentials-campaign}
 
-Suivez les étapes présentées dans la section [cette page](../../integrations/using/oauth-technical-account.md#add-credentials) pour ajouter vos informations d’identification de projet OAuth dans Adobe Campaign.
+Suivez les étapes décrites sur [cette page](../../integrations/using/oauth-technical-account.md#add-credentials) pour ajouter vos informations d’identification de projet OAuth dans Adobe Campaign.
 
 ### Étape 3 : valider votre configuration
 
