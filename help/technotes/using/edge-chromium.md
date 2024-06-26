@@ -4,23 +4,24 @@ title: 'Note technique : activation de Microsoft Edge Chromium dans votre env
 description: Campaign - Edge Chromium
 feature: Technote, Upgrade
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '242'
-ht-degree: 100%
+source-git-commit: 8734e6ef26a7342042a5242d54854b7d3a5e6244
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 92%
 
 ---
 
 # Comment activer Microsoft Edge Chromium dans votre environnement {#edge-conf}
-
-
-
 
 ## Qu’est-ce qui a changé ?
 
 Compte tenu de la fin de vie de Microsoft Internet Explorer 11, le moteur de rendu HTML des tableaux de bord dans la console cliente utilise désormais Edge Chromium, à compter de Campaign Classic v7.3
 
 Outre l’installation du runtime Microsoft Edge Webview 2, qui est désormais [requis pour toute installation de console cliente](../../installation/using/installing-the-client-console.md#webview), Microsoft Edge Chromium doit être activé sur votre ou vos instances.
+
+>[!NOTE]
+>
+>Après avoir activé Microsoft Edge Chromium, la variable `Ctrl+F` (Windows) ou `Command+F` (Mac) pour ouvrir la boîte de dialogue de recherche du navigateur ne fonctionnera plus.
 
 ## Cela vous concerne-t-il ?
 

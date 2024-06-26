@@ -4,26 +4,26 @@ title: Partage
 description: En savoir plus sur l'activité de workflow de partage
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '2144'
+source-git-commit: 13eb777e96602ddd3463f721c6b2a3e6b67cb329
+workflow-type: tm+mt
+source-wordcount: '2169'
 ht-degree: 100%
 
 ---
 
 # Partage{#split}
 
-
-
 Une activité de type **Partage** permet de partitionner une cible en plusieurs sous-ensembles. La cible est construite avec tous les résultats reçus : toutes les activités antérieures doivent donc être terminées pour que cette activité soit exécutée.
 
-Cette activité ne fait pas l&#39;union des populations entrantes. Si plusieurs transitions arrivent sur une activité de partage, il est recommandé d&#39;insérer une activité d&#39;**[!UICONTROL Union]** avant.
+Cette activité ne fait pas l&#39;union des populations entrantes. Si plusieurs transitions arrivent sur une activité de partage, il est recommandé d’insérer une activité **[!UICONTROL Union]** avant.
 
-Pour obtenir un exemple de l&#39;activité de Partage utilisée, voir la section [Création de sous-ensembles à l&#39;aide de l&#39;activité Partage](targeting-data.md#creating-subsets-using-the-split-activity).
+>[!NOTE]
+>
+>Les opérations de fractionnement ne peuvent pas être effectuées pour les tables qui ont des sources différentes. Pour le réaliser, vous devez ajouter une activité d’**Enrichissement** avant l’activité **Partage**.
 
-Un exemple d&#39;utilisation de l&#39;activité de Partage pour segmenter la cible en différentes populations à l&#39;aide des conditions de filtrage est présenté dans [cette section](cross-channel-delivery-workflow.md).
-
-Un exemple d&#39;utilisation d&#39;une variable d&#39;instance dans une activité de Partage est présenté dans [cette section](javascript-scripts-and-templates.md).
+* Pour obtenir un exemple de l&#39;activité de Partage utilisée, voir la section [Création de sous-ensembles à l&#39;aide de l&#39;activité Partage](targeting-data.md#creating-subsets-using-the-split-activity).
+* Un exemple d&#39;utilisation de l&#39;activité de Partage pour segmenter la cible en différentes populations à l&#39;aide des conditions de filtrage est présenté dans [cette section](cross-channel-delivery-workflow.md).
+* Un exemple d&#39;utilisation d&#39;une variable d&#39;instance dans une activité de Partage est présenté dans [cette section](javascript-scripts-and-templates.md).
 
 Pour paramétrer cette activité, vous devez définir le contenu et le libellé des sous-ensembles souhaités dans l&#39;onglet **[!UICONTROL Sous-ensembles]**, puis choisir la dimension de ciblage dans l&#39;onglet **[!UICONTROL Général]**.
 
