@@ -8,16 +8,14 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '696'
-ht-degree: 100%
+source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 94%
 
 ---
 
 # Problèmes de performance et de débit{#performance-and-throughput-issues}
-
-
 
 Tout d&#39;abord, vérifiez que vous avez installé la dernière version. Vous disposez ainsi des fonctionnalités et correctifs de bug les plus récents.
 
@@ -54,6 +52,11 @@ Voici une liste d’articles relatifs aux bonnes pratiques en matière de config
 
 * Processus et mémoire MTA et MTAChild : le module **mta** distribue les messages à ses modules enfants **mtachild**. Chaque **mtachild** prépare les messages, puis demande l’autorisation au serveur de statistiques avant de les envoyer. Voir cette [page](../../installation/using/email-deliverability.md) pour plus d’informations.
 * Configuration de TLS : l’activation globale de TLS n’est pas recommandée, car elle peut réduire le débit. Les paramètres TLS par domaine, gérés par l’équipe chargée de la délivrabilité, doivent plutôt être réglés en fonction des besoins. Voir cette [page](../../installation/using/email-deliverability.md#mx-configuration) pour plus d’informations.
+
+  >[!NOTE]
+  >
+  >L’engagement de l’équipe chargée de la délivrabilité repose sur un contrat. Les clients doivent contacter leur représentant Adobe pour obtenir des informations relatives à l’engagement en matière de délivrabilité.
+
 * DKIM : pour assurer le niveau de sécurité du DKIM, la valeur 1024b est la taille de chiffrement recommandée selon les bonnes pratiques. Les clés DKIM inférieures ne seront pas considérées comme valides par la majorité des fournisseurs d’accès. Reportez-vous à [cette page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#authentication).
 
 ## Problèmes de délivrabilité {#deliverability-issues}
@@ -62,6 +65,11 @@ Voici une liste des bonnes pratiques et des articles liés à la délivrabilité
 
 * Réputation IP : si la réputation IP n’est pas assez bonne, il y aura un impact sur la performance. Le module de **Suivi de la délivrabilité** propose divers outils pour suivre les performances de délivrabilité de votre plateforme. Voir cette [page](../../delivery/using/monitoring-deliverability.md).
 * Préchauffage d’une adresse IP : ce processus est réalisé par l’équipe de délivrabilité. Il s’agit d’augmenter progressivement le nombre d’emails par le biais de nouvelles adresses IP sur une période de quelques semaines.
+
+  >[!NOTE]
+  >
+  >L’engagement de l’équipe chargée de la délivrabilité repose sur un contrat. Les clients doivent contacter leur représentant Adobe pour obtenir des informations relatives à l’engagement en matière de délivrabilité.
+
 * Configuration de l’affinité IP : une configuration incorrecte de l’affinité IP peut stopper complètement les emails (nom d’opérateur/affinité incorrect dans la configuration) ou réduire le débit (petit nombre d’IP dans l’affinité). Voir cette [page](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
 * Taille des e-mails : la taille des e-mails joue un rôle important dans le débit. La taille maximale recommandée est de 60 Ko. Consultez cette [page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign.html). Dans le rapport [Débit de diffusion](../../reporting/using/global-reports.md#delivery-throughput), vérifiez le nombre d’octets transférés par heure.
 * Grand nombre de destinataires non valides : lorsque de nombreux destinataires ne sont pas valides, cela peut avoir un impact sur le débit étant donné que le MTA tente de renvoyer les emails aux destinataires non valides. Veuillez vous assurer que votre base de données est bien tenue à jour.

@@ -6,10 +6,10 @@ feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '2204'
-ht-degree: 100%
+source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
+workflow-type: tm+mt
+source-wordcount: '2225'
+ht-degree: 95%
 
 ---
 
@@ -37,7 +37,7 @@ Les incidences globales sur la base de données et l’infrastructure sont répe
 
 * **Existe-t-il un risque de perte de données ?**
 
-  La base de données sera extraite de l’ancien centre de données, puis restaurée dans le cloud public (AWS). Une fois redémarrée dans le nouveau centre de données, l’application reprendra à partir de l’état exact dans lequel elle se trouvait avant la migration. Les utilisateurs ne verront aucune différence, à l’exception du report de certaines tâches planifiées.
+  La base de données sera extraite de l’ancien centre de données, puis restaurée dans le cloud public (AWS). Une fois redémarrée dans le nouveau centre de données, l’application reprendra à partir de l’état exact dans lequel elle se trouvait avant la migration. Les utilisateurs et les utilisatrices ne verront aucune différence, à l’exception du report de certaines tâches planifiées.
 
 * **Existe-t-il des différences de taille du package entre l’ancien centre de données et le cloud public ?**
 
@@ -79,6 +79,10 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 
   Les sous-domaines existants seront déplacés de l’ancien centre de données vers le cloud public (AWS). Cette partie sera gérée par l’équipe chargée de la délivrabilité chez Adobe dans le cadre du processus de migration.
 
+  >[!NOTE]
+  >
+  >L’engagement de l’équipe chargée de la délivrabilité repose sur un contrat. Les clients doivent contacter leur représentant Adobe pour obtenir des informations relatives à l’engagement en matière de délivrabilité.
+
   Adobe accompagne le client tout au long des tests nécessaires pour s’assurer qu’après la migration, la configuration fonctionne sur les nouveaux serveurs du cloud public (AWS).
 
 * **La migration produira-t-elle de nouvelles URL pour le tracking, les ressources et les applications web ?**
@@ -91,7 +95,7 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 
 * **En quoi consiste le plan concernant le préchauffage des adresses IP ?**
 
-  Tout d’abord, l’équipe chargée de la délivrabilité d’Adobe évaluera le statut de la plateforme concernant la délivrabilité et recommandera un plan de basculement vers les nouvelles adresses IP.
+  Tout d&#39;abord, la délivrabilité des Adobes évaluera l&#39;état de délivrabilité de la plateforme et recommandera un plan pour le passage aux nouvelles adresses IP.
 
   Aucun préchauffage n’est nécessaire après la migration. Il peut y avoir certaines exceptions. Dans ce cas, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) contactera les clients.
 
@@ -119,7 +123,7 @@ La migration vers le cloud public s’accompagne de nouvelles adresses IP pour l
 
 ![](assets/migration.png)
 
-Examinons les deux cas suivants :
+Examinons les deux cas :
 
 * Trafic entrant : toute activité réseau déclenchée à partir de vos systèmes ou de tout autre tiers vers les serveurs Adobe Campaign. La configuration est gérée par Adobe, puis copiée de l’ancienne plateforme vers le cloud public au cours de la migration. Suite à la migration, la connectivité du trafic entrant est donc préservée et aucune action n’est requise de la part du client.
 
@@ -223,7 +227,7 @@ Les incidences globales au cours de la migration sont répertoriées ci-dessous.
 
 * **Devons-nous prévoir l’arrêt de l’activité marketing pendant la migration ?**
 
-  Adobe recommande de ralentir, voire idéalement de suspendre toutes les exécutions de workflows et de diffusions juste avant l’arrêt de l’application sur l’ancien centre de données. Il sera ainsi plus facile de redémarrer les activités sur le serveur cloud (AWS), car les processus auront eu le temps nécessaire pour s’interrompre de manière « élégante » et enregistrer l’état d’exécution en cours.
+  Adobe recommande de ralentir, voire idéalement de suspendre toutes les exécutions de workflows et de diffusions juste avant l’arrêt de l’application sur l’ancien centre de données. Cela permettra de faciliter le redémarrage sur Cloud Server (AWS), car les processus auront eu le temps de s’arrêter &quot;de manière élégante&quot; et d’enregistrer tout état d’exécution en cours.
 
 * **Devons-nous prévoir un temps d’arrêt de notre service Adobe Campaign ?**
 
@@ -241,7 +245,7 @@ Les incidences globales au cours de la migration sont répertoriées ci-dessous.
 
 * **À combien est estimé le temps d’arrêt pour la migration d’une instance ?**
 
-  Le temps d’arrêt dépend entièrement de la taille de la base de données du client et du volume de stockage des fichiers SFTP. Contactez votre interlocuteur de l’assistance clientèle pour obtenir une estimation de la durée.
+  Le temps d’arrêt dépend entièrement de la taille de la base de données du client et des tailles de stockage des fichiers SFTP. Contactez votre interlocuteur de l’assistance clientèle pour obtenir une estimation de la durée.
 
 * **Qu’en est-il des messages envoyés depuis l’ancien serveur ? Les liens seront-ils toujours accessibles ?**
 

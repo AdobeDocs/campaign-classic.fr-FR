@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '8445'
-ht-degree: 100%
+source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
+workflow-type: tm+mt
+source-wordcount: '8466'
+ht-degree: 99%
 
 ---
 
@@ -382,6 +382,10 @@ Si vous devez contrôler précisément le nombre de connexions, par exemple les 
 #### Nom de l&#39;implémentation du SMSC {#smsc-implementation-name}
 
 Définit le nom de l&#39;implémentation SMSC. Il doit être défini sur le nom de votre fournisseur. Contactez l&#39;administrateur ou l&#39;équipe chargée de la délivrabilité pour savoir ce qui doit être ajouté à ce champ. Le rôle de ce champ est décrit dans la section [Gestion des erreurs SR](sms-protocol.md#sr-error-management).
+
+>[!NOTE]
+>
+>L’engagement de l’équipe chargée de la délivrabilité repose sur un contrat. Les clients doivent contacter leur représentant Adobe pour obtenir des informations relatives à l’engagement en matière de délivrabilité.
 
 #### Serveur {#server}
 
