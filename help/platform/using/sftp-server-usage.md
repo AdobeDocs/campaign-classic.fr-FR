@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 source-git-commit: e40331266f34e2d6aa7b7720948d0cf26d4c6009
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1077'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Lors de la gestion de fichiers et de données à des fins d’ETL, ces fichiers 
 
 * Utilisez l’authentification par clé plutôt que par mot de passe pour éviter l’expiration du mot de passe (la période de validité des mots de passe est de 90 jours). De plus, l’authentification par clé permet de générer plusieurs clés, par exemple lors de la gestion de plusieurs entités. À l’inverse, l’authentification par mot de passe nécessite le partage du mot de passe avec toutes les entités que vous gérez.
 
-  Le format de clé pris en charge est SSH-2 RSA 2048. L’outil de génération de clés SSH pour Windows est PuTTYgen et ssh-keygen pour Linux. Vous pouvez télécharger des clés SSH publiques via le Panneau de Contrôle Campaign. [En savoir plus](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/key-management){target="_blank"}
+  Le format de clé pris en charge est SSH-2 RSA 2048. L’outil de génération de clés SSH est PuTTYgen pour Windows et ssh-keygen pour Linux. Vous pouvez charger des clés SSH publiques via le panneau de contrôle de Campaign. [En savoir plus](https://experienceleague.adobe.com/fr/docs/control-panel/using/sftp-management/key-management){target="_blank"}
 
 * Utilisez des batchs dans les téléchargements SFTP ainsi que dans les workflows.
 
@@ -31,9 +31,9 @@ Lors de la gestion de fichiers et de données à des fins d’ETL, ces fichiers 
 
 * Par défaut, tous les dossiers que vous créez sont en lecture/écriture pour votre identifiant uniquement. Lorsque vous créez des dossiers auxquels Campaign doit accéder, veillez à les configurer avec des droits en lecture/écriture pour l&#39;ensemble du groupe. Sinon, les workflows peuvent ne pas pouvoir créer/supprimer des fichiers, car ils sont exécutés sous un identifiant différent au sein du même groupe pour des raisons de sécurité.
 
-* Les adresses IP publiques à partir desquelles vous tentez d&#39;établir la connexion SFTP doivent être ajoutées à la liste autorisée sur l&#39;instance Campaign. Les adresses IP publiques peuvent être ajoutées via le Panneau de Contrôle. [En savoir plus](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing){target="_blank"}
+* Les adresses IP publiques à partir desquelles vous tentez d&#39;établir la connexion SFTP doivent être ajoutées à la liste autorisée sur l&#39;instance Campaign. Les adresses IP publiques peuvent être ajoutées via le panneau de contrôle. [En savoir plus](https://experienceleague.adobe.com/fr/docs/control-panel/using/sftp-management/ip-range-allow-listing){target="_blank"}
 
-## Bonnes pratiques d&#39;utilisation du stockage SFTP {#sftp-server-best-practices}
+## Bonnes pratiques d’utilisation du stockage SFTP {#sftp-server-best-practices}
 
 Les serveurs SFTP sont conçus en tant qu’espaces de stockage temporaire sur lequel vous pouvez contrôler la conservation et la suppression des fichiers.
 
@@ -43,7 +43,7 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques ci-
 
 >[!NOTE]
 >
->* Vous pouvez surveiller le stockage de votre serveur SFTP avec le Campaign Classic [Panneau de Contrôle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=fr){target="_blank"}.
+>* Vous pouvez surveiller le stockage de votre serveur SFTP avec le [panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=fr) de Campaign Classic{target="_blank"}.
 >
 >* Le Panneau de contrôle est accessible à tous les utilisateurs administrateurs et utilisatrices administratrices. Les étapes permettant d’accorder un accès d’administration à un utilisateur ou à une utilisatrice sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel){target="_blank"}.
 >
@@ -68,7 +68,7 @@ En outre, lors de la spécification dans Campaign Classic d’un chemin d’acc�
 
 ## Problèmes de connexion liés au serveur SFTP hébergé par Adobe {#sftp-server-troubleshooting}
 
-La section ci-dessous répertorie les informations à vérifier et à fournir à l’équipe d’assistance Adobe via [Adobe de l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} lorsque vous rencontrez des problèmes de connexion avec les serveurs SFTP hébergés par Adobe.
+La section ci-après indique les informations à vérifier et à fournir à l’équipe de support d’Adobe via l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} lorsque vous rencontrez des problèmes de connexion liés aux serveurs SFTP hébergés par Adobe.
 
 1. Vérifiez que votre instance est en cours d’exécution. Pour cela, ouvrez votre navigateur, puis effectuez un appel **[!UICONTROL GET]** sur le point d’entrée **[!UICONTROL /r/test]** de l’instance :
 
@@ -142,9 +142,9 @@ Cette erreur indique que le nom de domaine du serveur FTP n&#39;a pas pu être r
 
 1. Si le serveur SFTP est hébergé par Adobe, vérifiez si l&#39;adresse IP est ajoutée à la liste autorisée en contactant l&#39;Assistance clientèle.
 
-   Sinon, validez :
+   Sinon, validez les éléments suivants :
 
-   * Le mot de passe ne contient pas la variable `@` caractère. La connexion échoue si un événement `@` dans le mot de passe.
+   * Le mot de passe ne contient pas le caractère `@`. La connexion échoue si le mot de passe contient le caractère `@`.
    * Il n’existe aucun problème de pare-feu qui peut gêner la communication entre le serveur applicatif Adobe Campaign et le serveur SFTP.
    * Exécutez les commandes tracert et telnet du serveur de campagne vers le serveur sftp pour vérifier s’il y a des problèmes de connexion.
    * Il n&#39;y a pas de problème de protocole de communication.

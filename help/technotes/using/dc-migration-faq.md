@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2225'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -81,9 +81,9 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 
   >[!NOTE]
   >
-  >L’engagement de l’équipe chargée de la délivrabilité repose sur un contrat. Les clients doivent contacter leur représentant Adobe pour obtenir des informations relatives à l’engagement en matière de délivrabilité.
+  >L’engagement de l’équipe chargée de la délivrabilité repose sur un contrat. La clientèle doit contacter son représentant ou sa représentante Adobe pour obtenir des informations relatives à l’engagement en matière de délivrabilité.
 
-  Adobe accompagne le client tout au long des tests nécessaires pour s’assurer qu’après la migration, la configuration fonctionne sur les nouveaux serveurs du cloud public (AWS).
+  Adobe accompagne la clientèle tout au long des tests nécessaires pour s’assurer qu’après la migration, la configuration fonctionne sur les nouveaux serveurs du cloud public (AWS).
 
 * **La migration produira-t-elle de nouvelles URL pour le tracking, les ressources et les applications web ?**
 
@@ -95,7 +95,7 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 
 * **En quoi consiste le plan concernant le préchauffage des adresses IP ?**
 
-  Tout d&#39;abord, la délivrabilité des Adobes évaluera l&#39;état de délivrabilité de la plateforme et recommandera un plan pour le passage aux nouvelles adresses IP.
+  Tout d’abord, l’équipe chargée de la délivrabilité d’Adobe évaluera le statut de la plateforme concernant la délivrabilité et recommandera un plan de basculement vers les nouvelles adresses IP.
 
   Aucun préchauffage n’est nécessaire après la migration. Il peut y avoir certaines exceptions. Dans ce cas, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) contactera les clients.
 
@@ -123,7 +123,7 @@ La migration vers le cloud public s’accompagne de nouvelles adresses IP pour l
 
 ![](assets/migration.png)
 
-Examinons les deux cas :
+Examinons les deux cas suivants :
 
 * Trafic entrant : toute activité réseau déclenchée à partir de vos systèmes ou de tout autre tiers vers les serveurs Adobe Campaign. La configuration est gérée par Adobe, puis copiée de l’ancienne plateforme vers le cloud public au cours de la migration. Suite à la migration, la connectivité du trafic entrant est donc préservée et aucune action n’est requise de la part du client.
 
@@ -149,7 +149,7 @@ Les incidences globales sur la configuration, la connectivité avec d’autres s
 
 * **Qu’en est-il des clients qui ne sont pas associés à l’identifiant de l’organisation pour l’intégration IMS ?**
 
-  Les clients qui ne disposent pas d’IMS recevront un identifiant d’organisation joint à leur instance.
+  La clientèle qui ne dispose pas d’IMS recevra un identifiant d’organisation joint à son instance.
 
 * **Les configurations multi-marques sont-elles affectées par la migration ?**
 
@@ -227,7 +227,7 @@ Les incidences globales au cours de la migration sont répertoriées ci-dessous.
 
 * **Devons-nous prévoir l’arrêt de l’activité marketing pendant la migration ?**
 
-  Adobe recommande de ralentir, voire idéalement de suspendre toutes les exécutions de workflows et de diffusions juste avant l’arrêt de l’application sur l’ancien centre de données. Cela permettra de faciliter le redémarrage sur Cloud Server (AWS), car les processus auront eu le temps de s’arrêter &quot;de manière élégante&quot; et d’enregistrer tout état d’exécution en cours.
+  Adobe recommande de ralentir, voire idéalement de suspendre toutes les exécutions de workflows et de diffusions juste avant l’arrêt de l’application sur l’ancien centre de données. Il sera ainsi plus facile de redémarrer sur le serveur cloud (AWS), car les processus auront eu le temps nécessaire pour s’interrompre de manière « élégante » et enregistrer l’état d’exécution en cours.
 
 * **Devons-nous prévoir un temps d’arrêt de notre service Adobe Campaign ?**
 
@@ -245,7 +245,7 @@ Les incidences globales au cours de la migration sont répertoriées ci-dessous.
 
 * **À combien est estimé le temps d’arrêt pour la migration d’une instance ?**
 
-  Le temps d’arrêt dépend entièrement de la taille de la base de données du client et des tailles de stockage des fichiers SFTP. Contactez votre interlocuteur de l’assistance clientèle pour obtenir une estimation de la durée.
+  Le temps d’arrêt dépend entièrement de la taille de la base de données de la clientèle et du volume de stockage des fichiers SFTP. Contactez votre interlocuteur ou interlocutrice de l’assistance clientèle pour obtenir une estimation de la durée.
 
 * **Qu’en est-il des messages envoyés depuis l’ancien serveur ? Les liens seront-ils toujours accessibles ?**
 
