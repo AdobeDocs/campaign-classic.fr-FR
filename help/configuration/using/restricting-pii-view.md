@@ -5,10 +5,10 @@ description: Découvrez comment limiter l'affichage des PI
 feature: PI
 role: Data Engineer, Developer
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+source-git-commit: e198defd60f4b12681025b04b12a1498df015047
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 89%
 
 ---
 
@@ -52,6 +52,10 @@ Les conséquences de l&#39;utilisation de cet attribut dans Adobe Campaign sont
 * Dans un workflow, vous pouvez ajouter la colonne restreinte à la population ciblée en tant que colonne supplémentaire de la transition, mais elle reste inaccessible aux utilisateurs d&#39;Adobe Campaign.
 * Lors du stockage de la population ciblée dans un groupe (liste), les caractéristiques des champs stockés sont identiques à celles de la source de données.
 * Par défaut, les données ne sont pas accessibles par les codes JavaScript.
+
+>[!IMPORTANT]
+>
+>L’utilisation de l’attribut **accessibleIf** sur des paramètres critiques (tels que ceux des clés composites) peut entraîner des erreurs pour les utilisateurs qui ne sont pas autorisés à lire les données en raison de données masquées. Cela peut entraîner des échecs de requête ou un comportement inattendu. Assurez-vous que les paramètres essentiels sont accessibles pour éviter les perturbations.
 
 ## Recommandations {#recommendations}
 
