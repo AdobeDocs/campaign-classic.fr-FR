@@ -6,7 +6,7 @@ role: User
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 100%
 
@@ -139,7 +139,7 @@ Le mode de configuration du planning d&#39;exécution correspond à l&#39;objet 
 
    ![](assets/s_ncs_user_op_template_recur_wf_option.png)
 
-#### Créer l&#39;opération récurrente {#create-the-recurring-campaign}
+#### Créer la campagne récurrente {#create-the-recurring-campaign}
 
 Pour créer l&#39;opération récurrente et exécuter ses workflows selon le planning défini dans le modèle, les étapes sont les suivantes :
 

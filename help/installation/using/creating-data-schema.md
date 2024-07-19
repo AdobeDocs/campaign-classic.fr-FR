@@ -5,7 +5,7 @@ description: Découvrir comment créer le schéma de données pour FDA
 feature: Installation, Instance Settings, Federated Data Access
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 

@@ -6,7 +6,7 @@ role: User, Data Engineer
 feature: Fatigue Management, Typology Rules, Campaigns
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3513'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Les critères d&#39;arbitrage (poids du message et/ou seuil du nombre de message
 
 La règle d&#39;arbitrage pour définir les messages éligibles est appliquée lors de l&#39;étape d&#39;analyse. Pour chaque destinataire et pour la période concernée, le message sera envoyé si la formule suivante est vraie : **(nombre de messages envoyés) + (nombre de messages ayant un poids supérieur) &lt; seuil**.
 
-Dans le cas contraire, le destinataire sera **[!UICONTROL Exclu par arbitrage]**. Voir à ce sujet la section [Exclusion par un arbitrage](#exclusion-after-arbitration).
+Dans le cas contraire, la personne destinataire sera **[!UICONTROL Exclue par arbitrage]**. Voir à ce sujet la section [Exclusion par un arbitrage](#exclusion-after-arbitration).
 
 ## Créer une règle de pression {#creating-a-pressure-rule}
 
@@ -46,11 +46,11 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Pressio
 
    ![](assets/campaign_opt_create_a_rule_01.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Général]** de la nouvelle règle, sélectionnez une règle de le type **Pression** et saisissez son nom et sa description.
+1. Dans l’onglet **[!UICONTROL Général]** de la nouvelle règle, sélectionnez une règle de type **Pression** et saisissez son nom et sa description.
 
    ![](assets/campaign_opt_create_a_rule_02.png)
 
-1. Changez l&#39;ordre d&#39;exécution en cas de besoin. Lorsque plusieurs règles de typologie sont appliquées en tant qu&#39;ensemble de **[!UICONTROL typologies]**, les règles dont l&#39;ordre est le plus bas sont appliquées en premier. Pour plus d&#39;informations, consultez la section [Ordre d&#39;exécution](applying-rules.md#execution-order).
+1. Changez l&#39;ordre d&#39;exécution en cas de besoin. Lorsque plusieurs règles de typologie sont appliquées en tant qu’ensemble de **[!UICONTROL typologies]**, les règles dont l’ordre est le plus bas sont appliquées en premier. Pour plus d&#39;informations, consultez la section [Ordre d&#39;exécution](applying-rules.md#execution-order).
 1. Dans la section **[!UICONTROL Paramètres de calcul]**, définissez une fréquence si vous souhaitez enregistrer le ciblage au-delà de la prochaine exécution de réarbitrage quotidienne. Pour plus d&#39;informations, consultez la section [Ajuster la fréquence des calculs](applying-rules.md#adjusting-calculation-frequency).
 1. Cliquez sur l&#39;onglet **[!UICONTROL Pression]** et sélectionnez la période calendaire dans laquelle s&#39;inscrit la règle de typologie.
 
@@ -108,7 +108,7 @@ La valeur de ce seuil peut être constante ou calculée par une formule qui peut
 
 **Exemple:**
 
-Vous pouvez indexer le nombre de messages autorisés en fonction du segment auquel appartient le destinataire. Ainsi, il se peut qu’un destinataire appartenant au segment web reçoive davantage de messages que les autres destinataires. Une formule de type **[!UICONTROL Iif (@origin=&#39;Web&#39;, 5, 3)]** permet d’autoriser la diffusion de 5 messages à ces destinataires contre seulement 3 messages pour les destinataires des autres segments. Le paramétrage sera donc le suivant :
+Vous pouvez indexer le nombre de messages autorisés en fonction du segment auquel appartient le destinataire. Ainsi, il se peut qu’un destinataire appartenant au segment web reçoive davantage de messages que les autres destinataires. Une formule de type **[!UICONTROL Iif (@origin=&#39;Web&#39;, 5, 3)]** permet d’autoriser la diffusion de 5 messages à ces destinataires contre seulement 3 messages pour les destinataires des autres segments. La configuration sera donc la suivante :
 
 ![](assets/campaign_opt_pressure_sample.png)
 
@@ -337,7 +337,7 @@ Tout d&#39;abord, configurez la règle de pression.
 Créez et configurez maintenant un workflow pour chaque diffusion à laquelle la règle de pression doit être appliquée.
 
 1. Créez une campagne. Pour plus d’informations, consultez [cette section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
-1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/query.md).
+1. Dans l’onglet **[!UICONTROL Ciblage et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/query.md).
 1. Ajoutez une activité **[!UICONTROL Diffusion e-mail]** au workflow et ouvrez-la. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/delivery.md).
 1. Accédez à l&#39;onglet **[!UICONTROL Validations]** des **[!UICONTROL Propriétés de la diffusion]** et désactivez toutes les validations.
 

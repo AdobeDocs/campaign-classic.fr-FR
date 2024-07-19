@@ -5,7 +5,7 @@ description: Découvrez comment mapper des données dans une base de données ex
 feature: Installation, Instance Settings
 exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 

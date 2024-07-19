@@ -5,7 +5,7 @@ description: Découvrez comment utiliser l’activité Validation en local
 feature: Workflows
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 100%
 
@@ -146,7 +146,7 @@ Les champs à renseigner sont les suivants :
    Si vous ne souhaitez pas limiter la population ciblée, sélectionnez ici l&#39;option **[!UICONTROL Explicite]** et renseignez le modèle de répartition créé précédemment dans le champ **[!UICONTROL Répartition des données]**.
 
 1. Dans la section **[!UICONTROL Notification]**, sélectionnez le modèle de diffusion ainsi que l&#39;objet qui seront utilisés pour l&#39;e-mail de notification. Dans notre exemple, nous avons choisi le modèle par défaut : **[!UICONTROL Notification de validatione locale]**.
-1. Dans la section **[!UICONTROL Planning de validation]**, nous avons laissé le délai de validation par défaut (3 jours) et ajouté un rappel. La diffusion partira donc 3 jours après le début de la de la validation. Une fois le délai de validation atteint, les destinataires qui n&#39;ont pas été validés ne sont pas pris en compte dans le ciblage.
+1. Dans la section **[!UICONTROL Planning d’approbation]**, nous avons laissé le délai d’approbation par défaut (3 jours) et ajouté un rappel. La diffusion partira donc 3 jours après le début de l’approbation. Une fois le délai d’approbation atteint, les personnes destinataires qui n’ont pas été approuvées ne sont pas prises en compte dans le ciblage.
 
 L&#39;email de notification envoyé par l&#39;activité **[!UICONTROL Validation en local]** aux responsables locaux est le suivant :
 

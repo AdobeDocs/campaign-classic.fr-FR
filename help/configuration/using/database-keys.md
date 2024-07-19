@@ -8,7 +8,7 @@ exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 80%
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ Une clé est dite primaire lorsqu’elle est renseignée en premier dans le sch�
 Les règles suivantes s’appliquent aux clés :
 
 * Une clé peut référencer un ou plusieurs champs du tableau.
-* Un index unique est implicitement déclaré pour chaque définition de clé. Vous pouvez empêcher la création d’un index sur la clé en définissant la variable `noDbIndex` sur &quot;true&quot;.
+* Un index unique est implicitement déclaré pour chaque définition de clé. Il est possible d’empêcher la création d’un index sur la clé en définissant l’attribut `noDbIndex` sur &quot;true&quot;.
 
 >[!NOTE]
 >
@@ -126,7 +126,7 @@ Les règles suivantes s’appliquent aux clés :
 
 ## Clé auto-incrémentale {#auto-incremental-key}
 
-La clé primaire de la plupart des tables Adobe Campaign est un entier long 32 bits généré automatiquement par le moteur de base de données. Le calcul de la valeur de la clé dépend d’une séquence (par défaut, la variable **XtkNewId** fonction SQL) générant un nombre unique dans la base de données entière. Le contenu de la clé est automatiquement renseigné à l&#39;insertion de l&#39;enregistrement.
+La clé primaire de la plupart des tables Adobe Campaign est un entier long 32 bits auto-généré par le moteur de base de données. Le calcul de la valeur de la clé repose sur une séquence (par défaut la fonction SQL **XtkNewId**) générant un nombre unique dans toute la base. Le contenu de la clé est automatiquement renseigné à l&#39;insertion de l&#39;enregistrement.
 
 L’avantage d’une clé incrémentale est d’obtenir une clé technique non modifiable utilisée pour les jointures entre les tables. De plus, cette clé n’est pas consommatrice car elle utilise un entier sur deux octets.
 
@@ -181,7 +181,7 @@ En plus de la définition de la clé et de son index, un champ numérique de nom
 
 ## En savoir plus
 
-Pour en savoir plus, consultez les liens suivants :
+Pour en savoir plus, consultez les liens suivants :
 
 * [Prise en main des schémas](about-schema-reference.md)
 * [Structure d&#39;un schéma](schema-structure.md)

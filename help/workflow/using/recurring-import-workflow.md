@@ -5,7 +5,7 @@ description: Découvrez comment paramétrer un modèle de workflow pour les impo
 feature: Workflows, Data Management
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Par exemple :
 
      ![](assets/import_template_example1.png)
 
-1. Configurez l&#39;activité **[!UICONTROL Enrichissement]**. Dans ce contexte, le but de cette activité est d’identifier les données entrantes.
+1. Configurez l’activité **[!UICONTROL Enrichissement]**. Dans ce contexte, le but de cette activité est d’identifier les données entrantes.
 
    * Dans l’onglet **[!UICONTROL Enrichissement]**, sélectionnez **[!UICONTROL Ajouter des données]** et définissez un lien entre les données importées et la dimension de ciblage des personnes destinataires. Dans cet exemple, le champ personnalisé **Identifiant dans le CRM** permet de créer la condition de jointure. Utilisez le champ ou la combinaison de champs nécessaire tant que l’identification des enregistrements uniques reste possible.
    * Dans l&#39;onglet **[!UICONTROL Réconciliation]**, laissez l&#39;option **[!UICONTROL Identifier le document de ciblage à partir des données de travail]** décochée.

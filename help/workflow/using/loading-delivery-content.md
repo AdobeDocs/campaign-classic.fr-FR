@@ -5,7 +5,7 @@ description: Charger le contenu de la diffusion
 feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur u
 
 Pour cela :
 
-1. Si vous n&#39;avez pas encore défini de connexion entre Adobe Campaign et le serveur FTP ou SFTP hébergeant les fichiers de contenu, créez un compte externe S3, FTP ou SFTP dans **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]**. Dans ce compte externe, indiquez l&#39;adresse et les identifiants qui permettront d&#39;établir la connexion au serveur S3, FTP ou SFTP.
+1. Si vous n’avez pas encore défini de connexion entre Adobe Campaign et le serveur FTP ou SFTP hébergeant les fichiers de contenu, créez un compte externe S3, FTP ou SFTP dans **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]**. Dans ce compte externe, indiquez l’adresse et les informations d’identification qui permettront d’établir la connexion au serveur S3, FTP ou SFTP.
 
    Voici un exemple d&#39;un compte externe S3 :
 
@@ -50,7 +50,7 @@ Pour cela :
 
    ![](assets/delivery_loadcontent_script.png)
 
-1. Enregistrez et exécutez le workflow. Une diffusion avec le contenu chargé est créé dans **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]**.
+1. Enregistrez et exécutez le workflow. Une diffusion avec le contenu chargé est créée dans **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]**.
 
 >[!NOTE]
 >

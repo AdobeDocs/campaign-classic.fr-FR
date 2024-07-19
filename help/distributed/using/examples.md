@@ -5,7 +5,7 @@ description: Exemples de marketing distribué
 feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 100%
 
@@ -143,7 +143,7 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
 #### Création d’une opération collaborative {#creating-a-collaborative-campaign}
 
 1. A partir du noeud **[!UICONTROL Gestion de campagne > Opération]**, créez une nouvelle **[!UICONTROL opération collaborative par validation de la cible]**.
-1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]**, créez un workflow pour votre opération. Celui-ci doit contenir une activité de **Partage** dont la **[!UICONTROL limitation du nombre d&#39;enregistrements]** est définie par l&#39;activité **[!UICONTROL Répartition de données]**.
+1. Dans l’onglet **[!UICONTROL Ciblages et workflows]**, créez un workflow pour votre campagne. Celui-ci doit contenir une activité de **Partage** dont la **[!UICONTROL limitation du nombre d&#39;enregistrements]** est définie par l&#39;activité **[!UICONTROL Répartition de données]**.
 
    ![](assets/mkg_dist_use_case_target_valid5.png)
 

@@ -6,7 +6,7 @@ role: User, Data Engineer
 feature: Campaigns
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 100%
 
@@ -140,7 +140,7 @@ Le sous-onglet **[!UICONTROL Exploration des exclusions]** permet d&#39;analyser
 
 L&#39;analyse descriptive est présentée dans cette [section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
 
-## Résultats d&#39;une simulation {#results-of-a-simulation}
+## Résultats d’une simulation {#results-of-a-simulation}
 
 Les indicateurs présentés dans l&#39;onglet **[!UICONTROL Résultats]** donnent un premier aperçu du résultat de la simulation. **** Pour obtenir une vue plus détaillée des résultats, ouvrez l&#39;onglet **[!UICONTROL Rapports]**.
 

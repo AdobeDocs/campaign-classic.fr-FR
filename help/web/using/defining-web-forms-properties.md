@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 source-git-commit: 1d4990917fea54e67ed23cd0771295de03a4f01a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 100%
 

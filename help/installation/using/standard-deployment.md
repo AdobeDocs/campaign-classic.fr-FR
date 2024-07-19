@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Ce type de configuration peut faire face à un grand nombre de profils de destin
 
 ## Etapes d&#39;installation et de configuration {#installation-and-configuration-steps}
 
-### Conditions préalables requises {#prerequisites}
+### Conditions préalables {#prerequisites}
 
 * JDK sur les trois machines,
 * Serveur Web (IIS, Apache) sur les deux frontaux,

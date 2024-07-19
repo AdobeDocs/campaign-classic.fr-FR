@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 100%
 
@@ -255,7 +255,7 @@ Une fois les zones définies et l&#39;énumération **[!UICONTROL Zone de sécur
 
    * L’attribut **allowEmptyPassword** permet aux opérateurs de disposer d’un mot de passe vide. Si c’est votre cas, demandez à tous les opérateurs de définir un mot de passe avec un délai. Une fois ce délai passé, définissez cet attribut sur la valeur false.
 
-   * L’attribut **allowUserPassword** permet aux opérateurs d’envoyer leurs identifiants en tant que paramètres (afin qu’ils puissent être connectés par Apache/IIS/un proxy). Cette fonctionnalité était auparavant utilisée pour simplifier l’utilisation de l’API. Vous pouvez vérifier dans votre « livre de recettes » (ou dans les spécifications) si des applications tierces utilisent cet attribut. Si c’est le cas, vous devez demander à ces tiers de changer la façon dont ils utilisent notre API et supprimer cette fonctionnalité dès que possible.
+   * L’attribut **allowUserPassword** permet aux opérateurs d’envoyer leurs informations d’identification en tant que paramètres (afin qu’ils puissent être connectés par Apache/IIS/un proxy). Cette fonctionnalité était auparavant utilisée pour simplifier l’utilisation de l’API. Vous pouvez vérifier dans votre « livre de recettes » (ou dans les spécifications) si des applications tierces utilisent cet attribut. Si c’est le cas, vous devez demander à ces tiers de changer la façon dont ils utilisent notre API et supprimer cette fonctionnalité dès que possible.
 
    * L’attribut **allowSQLInjection** permet à l’utilisateur d’effectuer des injections SQL en utilisant une ancienne syntaxe. Cet attribut doit être défini sur false. Vous pouvez utiliser /nl/jsp/ping.jsp?zones=true pour vérifier la configuration de votre zone de sécurité. Cette page affiche le statut actif des mesures de sécurité (calculé avec ces flags de sécurité) pour l’adresse IP actuelle.
 

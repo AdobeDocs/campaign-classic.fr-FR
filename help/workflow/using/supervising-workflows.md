@@ -5,7 +5,7 @@ description: Découvrez comment superviser les workflows de Campaign
 feature: Workflows
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 100%
 

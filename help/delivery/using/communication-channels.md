@@ -7,7 +7,7 @@ feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 8fbfc211c4e791b324c34d3d180daa7597c00c7f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 100%
 

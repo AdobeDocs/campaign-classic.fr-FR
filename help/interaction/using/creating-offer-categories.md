@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: ed97a1b5-c870-4b67-98b6-16adc316fd46
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Pour créer une catégorie supplémentaire, procédez comme suit :
 
    ![](assets/offer_cat_create_001.png)
 
-1. Cliquez avec le bouton droit de la souris et sélectionner **[!UICONTROL Ajouter un dossier &quot;Catégorie d&#39;offres&quot;]** dans le menu contextuel.
+1. Cliquez avec le bouton droit de la souris et sélectionnez **[!UICONTROL Créer un dossier « Catégorie d’offres »]** dans le menu contextuel.
 
    ![](assets/offer_cat_create_002.png)
 

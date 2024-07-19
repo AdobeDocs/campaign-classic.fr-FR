@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ La communication générale entre les serveurs et les processus est réalisée c
 
 ## Etapes d&#39;installation et de configuration {#installation-and-configuration-steps-}
 
-### Conditions préalables requises {#prerequisites}
+### Conditions préalables {#prerequisites}
 
 * JDK sur le serveur applicatif.
 * Accès à un serveur de base de données sur le serveur applicatif.

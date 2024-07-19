@@ -5,7 +5,7 @@ description: Découvrez comment démarrer un workflow et la barre d’outils des
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 source-git-commit: 98815fe0417f9126826e0273caa80888164793ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1265'
 ht-degree: 100%
 

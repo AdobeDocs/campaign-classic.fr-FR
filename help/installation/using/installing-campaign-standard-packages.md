@@ -6,7 +6,7 @@ feature: Installation, Application Settings
 badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 100%
 

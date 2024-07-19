@@ -6,7 +6,7 @@ description: Méthodes SOAP en JavaScript
 role: Data Engineer, Developer
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 100%
 

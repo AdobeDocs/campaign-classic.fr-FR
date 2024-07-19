@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3472'
 ht-degree: 100%
 
@@ -919,7 +919,7 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
    <td> <strong>Syntaxe</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Case</strong><br /> </td> 
+   <td> <strong>Casse</strong><br /> </td> 
    <td> Renvoie la valeur 1 si la condition est vérifiée. Sinon, renvoie la valeur 2.<br /> </td> 
    <td> Case(When(&lt;condition&gt;, &lt;valeur 1&gt;), Else(&lt;valeur 2&gt;))<br /> </td> 
   </tr> 

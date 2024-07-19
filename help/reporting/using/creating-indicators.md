@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle dimensio
 
   ![](assets/s_advuser_cube_wz_10.png)
 
-  Seules les valeurs présentes dans l&#39;énumération seront affichées. Toutes les autres seront regroupées sous le libellé défini dans le champ **[!UICONTROL Libellé des autres valeurs]**.
+  Seules les valeurs présentes dans l’énumération seront affichées. Toutes les autres seront regroupées sous le libellé défini dans le champ **[!UICONTROL Libellé des autres valeurs]**.
 
   Pour plus d&#39;informations, consultez la section [Gérer dynamiquement les classes](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 

@@ -6,7 +6,7 @@ description: Découvrez comment configurer l’arborescence de navigation de l�
 role: Data Engineer, Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 100%
 

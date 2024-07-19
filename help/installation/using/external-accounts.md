@@ -34,7 +34,7 @@ Pour créer un compte externe, procédez comme suit : Les paramètres détaill�
 
 1. Définissez un **[!UICONTROL Libellé]** et un **[!UICONTROL Nom interne]**.
 1. Sélectionnez le **[!UICONTROL Type]** de compte externe que vous voulez créer.
-1. Configurez l&#39;accès au compte en spécifiant les informations de connexion en fonction du type de compte externe choisi.
+1. Configurez l’accès au compte en spécifiant les informations d’identification en fonction du type de compte externe choisi.
 
    Les informations nécessaires sont généralement fournies par le fournisseur du serveur auquel vous vous connectez.
 
@@ -160,7 +160,7 @@ Pour plus d&#39;informations sur cette configuration, consultez [cette page](../
 
 Le compte externe FTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs FTP 898 utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus à ce sujet, consultez cette [page](../../workflow/using/file-transfer.md).
 
-Pour ce faire, spécifiez dans ce compte externe l&#39;adresse et les informations de connexion utilisées pour établir la connexion au serveur FTP.
+Pour ce faire, spécifiez dans ce compte externe l&#39;adresse et les informations d’identification utilisées pour établir la connexion au serveur FTP.
 
 ![](assets/ext_account_8.png)
 
@@ -184,7 +184,7 @@ Pour ce faire, spécifiez dans ce compte externe l&#39;adresse et les informatio
 
   Type de chiffrement choisi entre **[!UICONTROL Aucun]** et **[!UICONTROL SSL]**.
 
-Pour savoir où trouver ces informations de connexion, consultez [cette page](https://help.dreamhost.com/hc/en-us/articles/115000675027-FTP-overview-and-credentials).
+Pour savoir où trouver ces informations d’identification, consultez [cette page](https://help.dreamhost.com/hc/en-us/articles/115000675027-FTP-overview-and-credentials).
 
 ### SFTP {#sftp-external-account}
 
@@ -326,7 +326,7 @@ Le compte externe **[!UICONTROL Microsoft Dynamics CRM]** vous permet d&#39;impo
 
 Pour en savoir plus sur Campaign - Connecteur Microsoft Dynamics CRM dans cette [page](../../platform/using/crm-ms-dynamics.md).
 
-Avec le type de déploiement **[!UICONTROL Web API]** et l&#39;authentification **[!UICONTROL Informations de connexion et mot de passe]**, vous devez fournir les détails suivants :
+Avec le type de déploiement **[!UICONTROL Web API]** et l’authentification **[!UICONTROL Mots de passe]**, vous devez fournir les détails suivants :
 
 ![](assets/ext_account_14.png)
 

@@ -6,7 +6,7 @@ role: User
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 100%
 
@@ -76,7 +76,7 @@ La barre d&#39;outils de l&#39;éditeur de diagramme permet d&#39;accéder aux f
 >
 >Les activités disponibles pour la construction du diagramme, ainsi que toutes les problématiques d&#39;affichage et de mise en page, sont présentées dans le guide [Automatiser avec des workflows](../../workflow/using/architecture.md).
 
-Vous pouvez créer plusieurs workflows de ciblage pour une même opération. Pour ajouter un workflow :
+Vous pouvez créer plusieurs workflows de ciblage pour une même campagne. Pour ajouter un workflow :
 
 1. Positionnez le pointeur de la souris dans la section supérieure gauche de la zone de création des workflows, cliquez avec le bouton droit et choisissez **[!UICONTROL Ajouter]**. Vous pouvez également utiliser le bouton **[!UICONTROL Nouveau]** situé au-dessus de cette zone.
 
@@ -107,7 +107,7 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
 
      Puis le processus passe en état **[!UICONTROL Démarré]**.
 
-   * Vous pouvez redémarrer le workflow de ciblage à partir de l&#39;icône correspondante de la barre d&#39;outils. Cette commande peut être utile si l&#39;icône **[!UICONTROL Démarrer]** n&#39;est pas disponible, par exemple lorsque l&#39;arrêt du workflow de ciblage est en cours. Dans ce cas, cliquez sur l&#39;icône **[!UICONTROL Redémarrer]** pour anticiper le démarrage. La demande est prise en compte par le serveur, comme le notifie son état :
+   * Vous pouvez redémarrer le workflow de ciblage à partir de l’icône correspondante de la barre d’outils. Cette commande peut être utile si l&#39;icône **[!UICONTROL Démarrer]** n&#39;est pas disponible, par exemple lorsque l&#39;arrêt du workflow de ciblage est en cours. Dans ce cas, cliquez sur l&#39;icône **[!UICONTROL Redémarrer]** pour anticiper le démarrage. La demande est prise en compte par le serveur, comme le notifie son état :
 
      ![](assets/s_user_segmentation_restart_status.png)
 
@@ -125,7 +125,7 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
 
      ![](assets/s_user_segmentation_pause_status.png)
 
-     Vous pouvez également suspendre automatiquement un workflow de ciblage lorsque l&#39;exécution arrive à une activité. Pour cela, cliquez avec le bouton droit sur l&#39;activité à partir de laquelle le workflow de ciblage sera suspendu et choisissez **[!UICONTROL Activer mais ne pas exécuter]**.
+     Vous pouvez également suspendre automatiquement un workflow de ciblage lorsque l’exécution arrive à une activité spécifique. Pour cela, cliquez avec le bouton droit sur l&#39;activité à partir de laquelle le workflow de ciblage sera suspendu et choisissez **[!UICONTROL Activer mais ne pas exécuter]**.
 
      ![](assets/s_user_segmentation_donotexecute.png)
 
@@ -147,7 +147,7 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
 
      ![](assets/s_user_segmentation_stop_status.png)
 
-  Vous pouvez également arrêter automatiquement un workflow de ciblage lorsque l&#39;exécution arrive à une activité. Pour cela, cliquez avec le bouton droit sur l&#39;activité à partir de laquelle le workflow de ciblage sera suspendu et choisissez **[!UICONTROL Ne pas activer]**.
+  Vous pouvez également arrêter automatiquement un workflow de ciblage lorsque l’exécution arrive à une activité. Pour cela, cliquez avec le bouton droit sur l&#39;activité à partir de laquelle le workflow de ciblage sera suspendu et choisissez **[!UICONTROL Ne pas activer]**.
 
   ![](assets/s_user_segmentation_donotactivate.png)
 
@@ -203,7 +203,7 @@ Par défaut, le paramétrage de la population témoin défini au niveau de l&#39
 
    ![](assets/s_ncs_user_edit_op_target_del.png)
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Population témoin]**, puis sélectionnez **[!UICONTROL Activer et éditer le paramétrage de la population témoin]**.
+1. Cliquez sur l’onglet **[!UICONTROL Population témoin]**, puis sélectionnez **[!UICONTROL Activer et modifier la configuration de la population témoin]**.
 1. Cliquez sur **[!UICONTROL Editer...]** pour paramétrer la population témoin.
 
 La procédure de paramétrage est présentée dans les sections [Extraire la population témoin de la cible principale](#extracting-the-control-group-from-the-main-target) et [Ajouter une population témoin](#adding-a-population).

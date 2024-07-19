@@ -5,7 +5,7 @@ description: Les workflows sont pris en charge par un module spécifique. Ce mod
 feature: Workflows
 exl-id: 46801f78-706c-4dfa-bce7-3d15f569f222
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%
 

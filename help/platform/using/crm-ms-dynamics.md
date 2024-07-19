@@ -5,7 +5,7 @@ description: Découvrez comment connecter Campaign et Microsoft Dynamics
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Dans Campaign Classic :
 
 ## Configurer Microsoft Dynamics CRM {#config-crm-microsoft}
 
-Pour générer le jeton d&#39;accès et les clés de configuration du compte, vous devez vous connecter à [Microsoft Azure Directory](https://portal.azure.com) à l&#39;aide d&#39;informations de connexion d&#39;**administrateur global**. Suivez ensuite les étapes décrites ci-dessous.
+Pour générer le jeton d&#39;accès et les clés de configuration du compte, vous devez vous connecter à [Microsoft Azure Directory](https://portal.azure.com) à l&#39;aide d&#39;informations d’identification d&#39;**administrateur global**. Suivez ensuite les étapes décrites ci-dessous.
 
 ### Obtention de l&#39;identifiant du client Microsoft Dynamics {#get-client-id-microsoft}
 

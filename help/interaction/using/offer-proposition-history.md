@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: tracking-offers
 exl-id: 480d49e7-0237-4c87-abe8-445b7bf91a30
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Prise en main des cubes
 feature: Reporting, Monitoring
 exl-id: 71d24f03-d41d-49bc-b9a5-8237902f7d6a
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 

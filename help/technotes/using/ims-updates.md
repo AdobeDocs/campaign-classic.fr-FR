@@ -5,7 +5,7 @@ description: Campaign - Mises à jour d'IMS
 feature: Technote, Upgrade
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 100%
 

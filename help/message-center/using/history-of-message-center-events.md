@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: reports
 exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Le rapport **[!UICONTROL Historique des événements]** vous permet d&#39;avoir un aperçu de l&#39;activité de Message Center, c&#39;est-à-dire le nombre d&#39;événements traités et envoyés sous forme de messages transactionnels.
 
-Lors de l&#39;ouverture du rapport, les informations affichées par défaut correspondent au taux de messages transactionnels envoyés avec succès. Pour visualiser davantage de niveaux, vous pouvez déplier ou replier les différents noeuds et positionner le pointeur de la souris pour mettre en surbrillance le niveau voulu.
+Lors de l’ouverture du rapport, les informations affichées par défaut correspondent au taux de messages transactionnels envoyés avec succès. Pour visualiser davantage de niveaux, vous pouvez ouvrir les différents noeuds et positionner le pointeur de la souris pour mettre en surbrillance le niveau voulu.
 
 ![](assets/messagecenter_reporting_001.png)
 

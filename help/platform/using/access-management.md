@@ -6,7 +6,7 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 source-git-commit: e1a085384fb27ec165c487c112fbc70fe9738d9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 

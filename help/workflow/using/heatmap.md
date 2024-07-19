@@ -5,7 +5,7 @@ description: Surveillez vos workflows avec la Carte thermique des workflows
 feature: Workflows, Heatmap
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 100%
 

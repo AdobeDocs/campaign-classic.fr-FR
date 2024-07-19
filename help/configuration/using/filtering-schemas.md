@@ -6,7 +6,7 @@ feature: Custom Resources
 role: Data Engineer, Developer
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Lorsque le volume s&#39;accroît, une variante de cette architecture déporte le
 
 ## Etapes d&#39;installation et de configuration {#installation-and-configuration-steps}
 
-### Conditions préalables requises {#prerequisites}
+### Conditions préalables {#prerequisites}
 
 * JDK,
 * Serveur Web (IIS, Apache),

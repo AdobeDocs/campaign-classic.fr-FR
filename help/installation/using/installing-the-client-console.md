@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 source-git-commit: a38d53f4b37aadbc53446b5e399af2eae56c12af
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 100%
 
@@ -112,7 +112,7 @@ Les utilisateurs doivent maintenant télécharger et installer la console en pro
 
    ![](assets/s_ncs_install_setup_download01.png)
 
-   Au besoin, utilisez ceux du compte interne définis lors de la création de l’instance.
+   Au besoin, utilisez les informations d’identification du compte interne définies lors de la création de l’instance.
 
 1. Cliquez sur le lien **[!UICONTROL Téléchargement]** proposé dans la page d’installation.
 1. Téléchargez et enregistrez le fichier d’installation client.
@@ -158,11 +158,11 @@ Pour vous connecter à une instance existante, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Ok]**
 
-1. Entrez vos informations de connexion utilisateur et cliquez sur **[!UICONTROL Se connecter]**.
+1. Entrez vos informations d’identification utilisateur et cliquez sur **[!UICONTROL Se connecter]**.
 
 >[!NOTE]
 >
->Pour les versions de build 7.3 de Campaign Classic, la console cliente d’Adobe Campaign peut demander deux fois les identifiants du proxy lors de l’authentification du proxy. Cela est dû au fait que Microsoft Edge Webview2 n’enregistre pas les identifiants du proxy dans le magasin du cache/de mots de passe, contrairement à Internet Explorer.
+>Pour les versions de build 7.3 de Campaign Classic, la console cliente d’Adobe Campaign peut demander deux fois les informations d’identification du proxy lors de l’authentification du proxy. Cela est dû au fait que Microsoft Edge Webview2 n’enregistre pas les informations d’identification du proxy dans le magasin du cache/de mots de passe, contrairement à Internet Explorer.
 
 **Rubriques connexes :**
 

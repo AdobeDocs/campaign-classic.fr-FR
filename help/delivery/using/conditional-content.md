@@ -7,7 +7,7 @@ feature: Personalization, Multilingual Messages
 role: User
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, res
 
      ![](assets/s_ncs_user_conditional_content06.png)
 
-Vous pouvez ajouter d&#39;autres cas et définir un contenu différent en fonction des valeurs d&#39;un ou plusieurs champs. Utilisez pour cela les options **[!UICONTROL Contenu conditionnel > Sinon]** et **[!UICONTROL Contenu conditionnel > Sinon si]**. Le paramétrage de ces expressions est le même que pour l&#39;expression **if**.
+Vous pouvez ajouter d’autres cas et définir un contenu différent en fonction des valeurs d’un ou plusieurs champs. Utilisez pour cela les options **[!UICONTROL Contenu conditionnel > Sinon]** et **[!UICONTROL Contenu conditionnel > Sinon si]**. La configuration de ces expressions est la même que pour l’expression **if**.
 
 ![](assets/s_ncs_user_conditional_content07.png)
 

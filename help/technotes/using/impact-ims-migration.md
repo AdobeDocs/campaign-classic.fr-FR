@@ -3,7 +3,7 @@ title: Mettre à jour l’interface de Campaign après la migration IMS
 description: En savoir plus sur les impacts de l’interface de migration d’Adobe Identity Management System
 exl-id: 8b13fe4d-d8d3-43b3-bbe4-c8c5574f585a
 source-git-commit: 8eadea9f9cc0a44522726024bfbc825e3b4cad98
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 100%
 

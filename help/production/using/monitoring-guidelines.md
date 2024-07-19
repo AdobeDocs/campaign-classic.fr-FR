@@ -5,7 +5,7 @@ description: Découvrez les instructions et les bonnes pratiques pour surveiller
 feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 100%
 

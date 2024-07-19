@@ -7,7 +7,7 @@ feature: Direct Mail
 role: User
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 100%
 

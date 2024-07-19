@@ -5,7 +5,7 @@ description: En savoir plus sur l’activité de workflow de réception de SMS
 feature: Workflows, Channels Activity
 exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
 source-git-commit: 5c42ff45b4d0bc4d61f4fccdba4518801ea4c9da
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%
 

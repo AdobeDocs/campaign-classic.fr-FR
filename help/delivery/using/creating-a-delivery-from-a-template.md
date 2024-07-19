@@ -7,7 +7,7 @@ feature: Delivery Templates
 role: User
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 100%
 

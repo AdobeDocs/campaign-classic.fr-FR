@@ -8,7 +8,7 @@ exl-id: e05dcd81-bbca-4767-8da3-ea064f7f6c8e
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
 source-wordcount: '932'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -224,7 +224,7 @@ La définition de la clé de nom &quot;companyEmail&quot; a été entendue avec 
 
 ## En savoir plus
 
-Pour en savoir plus, consultez les liens suivants :
+Pour en savoir plus, consultez les liens suivants :
 
 * [Prise en main des schémas](about-schema-reference.md)
 * [Structure d&#39;un schéma](schema-structure.md)

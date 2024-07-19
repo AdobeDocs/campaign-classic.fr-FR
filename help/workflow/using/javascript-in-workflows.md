@@ -5,7 +5,7 @@ description: Ces exemples montrent comment vous pouvez utiliser le code JavaScri
 feature: Workflows
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1702'
 ht-degree: 100%
 

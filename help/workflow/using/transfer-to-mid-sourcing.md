@@ -4,7 +4,7 @@ title: Emission vers Mid-sourcing
 description: En savoir plus sur les workflows d’émission vers Mid-sourcing
 feature: Workflows
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
 
