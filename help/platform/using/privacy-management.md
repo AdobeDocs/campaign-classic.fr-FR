@@ -8,15 +8,14 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
-source-git-commit: 5d237d42adabe42a07bc759913dd9453df650671
+source-git-commit: 122d69d3d7474480f7799248413ac89338469ebc
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 100%
+source-wordcount: '909'
+ht-degree: 99%
 
 ---
 
 # Gestion de la confidentialité {#privacy-management}
-
 
 Adobe Campaign propose un ensemble d’outils pour vous aider à vous conformer aux [règlements sur la protection des données](#privacy-management-regulations) (notamment RGPD, CCPA, PDPA, LGPD).
 
@@ -105,6 +104,7 @@ Vous trouverez ci-dessous les valeurs de conservation par défaut pour les table
 * **Statistiques du traitement des événements** : 1 an
 * **Événements archivés** : 1 an
 * **Événements Pipeline ignorés** : 1 mois
+* **Rapports dynamiques** : 13 mois
 
 Tout comme pour la suppression, il est possible de configurer des périodes de conservation des données pour des tables personnalisées en utilisant les fonctionnalité standard des workflows.
 
