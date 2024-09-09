@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 source-git-commit: 7b4fbefe0f6bd26ee9260d15e8303f716af7ac96
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '130'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >En tant qu’utilisateur de la version v7, pour pouvoir poursuivre, assurez-vous qu’Adobe Identity Management System (IMS) est activé sur votre système. [En savoir plus](../../integrations/using/about-adobe-id.md).
 
-Une fois qu’Adobe Identity Management Service (IMS) est activé pour votre organisation, vous pouvez demander l’approvisionnement de l’intégration [Experience Cloud Audience](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/overview){target="_blank"} à Campaign. Pour ce faire, contactez votre représentant Adobe et fournissez les informations suivantes :
+Une fois qu’Adobe Identity Management Service (IMS) est activé pour votre organisation, vous pouvez demander l’approvisionnement de l’intégration [Experience Cloud Audience](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/overview){target="_blank"} à Campaign. Pour ce faire, contactez votre représentant ou représentante Adobe et fournissez les informations suivantes :
 
 <table> 
  <tbody> 

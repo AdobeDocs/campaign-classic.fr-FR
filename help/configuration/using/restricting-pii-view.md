@@ -6,9 +6,9 @@ feature: PI
 role: Data Engineer, Developer
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
 source-git-commit: e198defd60f4b12681025b04b12a1498df015047
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Les conséquences de l&#39;utilisation de cet attribut dans Adobe Campaign sont
 
 >[!IMPORTANT]
 >
->L’utilisation de l’attribut **accessibleIf** sur des paramètres critiques (tels que ceux des clés composites) peut entraîner des erreurs pour les utilisateurs qui ne sont pas autorisés à lire les données en raison de données masquées. Cela peut entraîner des échecs de requête ou un comportement inattendu. Assurez-vous que les paramètres essentiels sont accessibles pour éviter les perturbations.
+>L’utilisation de l’attribut **accessibleIf** sur des paramètres critiques (tels que ceux des clés composites) peut entraîner des erreurs pour les personnes qui ne sont pas autorisées à lire les données en raison de données masquées. Cela peut entraîner des échecs de requête ou un comportement inattendu. Assurez-vous que les paramètres essentiels sont accessibles pour éviter les perturbations.
 
 ## Recommandations {#recommendations}
 

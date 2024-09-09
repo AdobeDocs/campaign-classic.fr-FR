@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 source-git-commit: 122d69d3d7474480f7799248413ac89338469ebc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '909'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Vous trouverez ci-dessous les valeurs de conservation par défaut pour les table
 * **Statistiques du traitement des événements** : 1 an
 * **Événements archivés** : 1 an
 * **Événements Pipeline ignorés** : 1 mois
-* **Rapports dynamiques** : 13 mois
+* **Rapports dynamiques** : 13 mois
 
 Tout comme pour la suppression, il est possible de configurer des périodes de conservation des données pour des tables personnalisées en utilisant les fonctionnalité standard des workflows.
 
