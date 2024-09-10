@@ -5,10 +5,10 @@ description: '« Cas d’utilisation : sélectionner des adresses de contrôle
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -83,15 +83,15 @@ Pour plus d’informations sur les extensions de schéma, consultez [cette secti
 
    ![](assets/dlv_seeds_usecase_12.png)
 
-1. Lorsque l&#39;assistant de mise à jour s&#39;affiche, cliquez sur le bouton **[!UICONTROL Suivant]** pour accéder à l&#39;édition des tables : les changements effectués dans le schéma de données des adresses de contrôle nécessitent une mise à jour de la structure.
+1. Lorsque l&#39;assistant de mise à jour s&#39;affiche, cliquez sur le bouton **[!UICONTROL Suivant]** pour accéder à la fenêtre Edition des tables : les modifications effectuées dans le schéma de données des adresses de contrôle nécessitent une mise à jour de la structure.
 
    ![](assets/dlv_seeds_usecase_13.png)
 
-1. Suivez l&#39;assistant pour afficher la page de lancement de la mise à jour. Cliquez sur le bouton **[!UICONTROL Démarrer]** pour lancer l&#39;opération.
+1. Suivez l’assistant jusqu’à ce que vous accédiez à la page pour exécuter la mise à jour. Cliquez sur le bouton **[!UICONTROL Démarrer]** pour lancer l&#39;opération.
 
    ![](assets/dlv_seeds_usecase_14.png)
 
-   Lorsque la mise à jour est terminée, vous pouvez fermer l&#39;assitant.
+   Une fois la mise à jour terminée, vous pouvez fermer l’assistant.
 
 1. Déconnectez-vous, puis reconnectez-vous à Adobe Campaign. Les modifications apportées au schéma de données des adresses de contrôle sont désormais effectives. Pour qu&#39;elles soient visibles depuis l&#39;écran des adresses de contrôle, vous devez mettre à jour le **[!UICONTROL Formulaire de saisie]** associée. Pour plus dʼinformations, consultez la section [Mise à jour du formulaire de saisie](#updating-the-input-form).
 

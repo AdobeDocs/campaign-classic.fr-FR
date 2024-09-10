@@ -5,10 +5,10 @@ description: Prise en main des schémas de données de Campaign
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -61,7 +61,7 @@ Pour cela, vous devez créer le schéma de la table puis procéder à la mise à
    >
    >Par défaut, les schémas créés par les utilisateurs sont stockés dans l&#39;espace de noms « cus ». Pour plus d&#39;informations, consultez la section [Identification d&#39;un schéma](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 
-1. Créez le contenu de la table. Il est recommandé d’utiliser l’assistant de saisie pour s’assurer qu’il ne manque aucun paramètre. Pour ce faire, cliquez sur le bouton **[!UICONTROL Insérer]** et sélectionnez le type de paramètre à ajouter.
+1. Créez le contenu de la table. Nous vous recommandons d’utiliser l’assistant d’entrée pour vous assurer qu’aucun paramètre n’est manquant. Pour ce faire, cliquez sur le bouton **[!UICONTROL Insérer]** et sélectionnez le type de paramètre à ajouter.
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 

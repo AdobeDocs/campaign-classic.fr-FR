@@ -5,10 +5,10 @@ description: Validation
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Direct Mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ La confirmation de l&#39;envoi lance l&#39;extraction des données dans le fichi
 
 ![](assets/s_ncs_user_postal_del_send_confirm_postal.png)
 
-Vous pouvez ensuite fermer l&#39;assistant et consulter les logs de diffusion depuis l&#39;onglet **[!UICONTROL Diffusion]** accessible à partir du détail de cette diffusion.
+Vous pouvez ensuite fermer l’assistant et consulter les logs de diffusion à partir de l’onglet **[!UICONTROL Diffusion]**, accessible à partir des détails de la diffusion.
 
 Vous pouvez paramétrer le mode de récupération des logs de diffusion à partir de l&#39;onglet **[!UICONTROL Analyse]** des Propriétés de la diffusion.
 

@@ -6,10 +6,10 @@ feature: Custom Resources
 role: Data Engineer, Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
@@ -29,13 +29,13 @@ Les particularités propres à un schéma qui référence une table existante so
 
 ## Attribut view {#the-view-attribute}
 
-Les schémas sources acceptent l&#39;attribut **view** pour l&#39;élément racine **srcSchema**. Il doit être utilisé lorsqu&#39;on manipule dans Adobe Campaign des tables externes. L&#39;attribut **view=&quot;true&quot;**, indique à l&#39;assistant de mise à jour de la structure de base d&#39;ignorer le schéma. Ainsi, on interdit à l&#39;application de synchroniser la table, ses colonnes et ses index avec le schéma correspondant.
+Les schémas Source acceptent l’attribut **view** pour l’élément racine **srcSchema**. Il doit être utilisé lorsqu’Adobe Campaign est manipulé dans des tableaux personnalisés. L’attribut **view=&quot;true&quot;** indique à l’assistant de mise à jour de la structure de base de données d’ignorer ce schéma. Ainsi, on interdit à l&#39;application de synchroniser la table, ses colonnes et ses index avec le schéma correspondant.
 
 Lorsque cet attribut est renseigné à **true**, le schéma sert uniquement à générer les requêtes SQL pour accéder aux données de cette table.
 
 ## Noms de tables et de colonnes {#names-of-tables-and-columns}
 
-Lorsque les tables sont créées par l&#39;assistant de mise à jour de table, les noms des tables et des colonnes sont générés automatiquement à partir des noms des schémas et des attributs respectifs. Il est cependant possible de forcer les noms SQL à utiliser en renseignant les attributs suivants :
+Lorsque des tableaux sont créés par l’assistant de mise à jour de tableau, les noms des tableaux et des colonnes sont générés automatiquement en fonction des noms des schémas et des attributs respectifs. Il est toutefois possible de forcer l&#39;utilisation des noms SQL en renseignant les attributs suivants :
 
 * **sqltable** au niveau de l&#39;élément principal du schéma, pour préciser la table,
 * **sqlname** au niveau de chaque attribut, pour préciser les colonnes.

@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
@@ -15,8 +15,6 @@ ht-degree: 100%
 ---
 
 # Réseau, base de données et SSL/TLS {#network-database}
-
-
 
 ## Configuration réseau
 

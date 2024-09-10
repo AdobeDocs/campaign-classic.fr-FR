@@ -5,7 +5,7 @@ description: Prise en main de l’édition de schéma
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 100%
@@ -213,7 +213,7 @@ Procédez comme dans l&#39;exemple ci-dessous pour inclure les champs relatifs �
 
 ## Mettre à jour la structure de la base de données {#updating-the-database-structure}
 
-Une fois vos modifications effectuées et enregistrées, toutes celles affectant la structure SQL doivent être appliquées. Pour cela, vous devez lancer l&#39;assistant de mise à jour de la base de données.
+Une fois vos modifications apportées et enregistrées, toutes les modifications susceptibles d&#39;avoir un impact sur la structure SQL doivent être appliquées à la base de données. Pour ce faire, utilisez l&#39;assistant de mise à jour de la base de données.
 
 ![](assets/schemaextension_getting_started_3.png)
 

@@ -5,10 +5,10 @@ description: Découvrez les étapes clés de la conception d'un questionnaire
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Les pages du formulaire sont créées au travers d&#39;un éditeur spécifique q
 
 ## Ajouter des champs {#adding-fields}
 
-Dans un formulaire, les champs permettent aux utilisateurs de saisir des informations et sélectionner des options. Pour chaque page du formulaire, ils sont créés via le premier bouton de la barre d&#39;outils, depuis le menu **[!UICONTROL Ajout assisté]**.
+Dans un formulaire, les champs permettent aux utilisateurs de saisir des informations et sélectionner des options. Pour chaque page du formulaire, elles sont créées via le premier bouton de la barre d’outils, à l’aide du menu **[!UICONTROL Ajouter à l’aide de l’assistant]** .
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 

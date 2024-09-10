@@ -7,10 +7,10 @@ feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 L&#39;outil de requêtage est présent à de nombreux niveaux de la plateforme Adobe Campaign : pour créer une population cible, segmenter les clients, extraire et filtrer des logs de tracking, construire des filtres, etc.
 
-Le requêteur Adobe Campaign permet d&#39;interroger une base de données simplement grâce à un assistant dédié : le requêteur générique. Il est accessible depuis le menu **[!UICONTROL Outils > Requêteur générique...]**. Il permet d&#39;extraire des informations stockées dans une base de données, les organiser, les regrouper, les trier, etc. Par exemple, l&#39;utilisateur peut récupérer les destinataires ayant cliqué plus de &#39;n&#39; fois dans le lien d&#39;une newsletter et sur une période donnée. Il pourra organiser la collecte, le tri et l&#39;affichage des résultats selon ses besoins.
+L&#39;outil de requête Adobe Campaign permet d&#39;interroger une base de données à l&#39;aide d&#39;un assistant dédié : l&#39;éditeur de requêtes générique. Il est accessible depuis le menu **[!UICONTROL Outils > Requêteur générique...]**. Il permet d&#39;extraire des informations stockées dans une base de données, les organiser, les regrouper, les trier, etc. Par exemple, l&#39;utilisateur peut récupérer les destinataires ayant cliqué plus de &#39;n&#39; fois dans le lien d&#39;une newsletter et sur une période donnée. Il pourra organiser la collecte, le tri et l&#39;affichage des résultats selon ses besoins.
 
 Cet outil regroupe toutes les possibilités de requêtage d&#39;Adobe Campaign. Par exemple, il permet la création et la sauvegarde des filtres de restriction. Ainsi, un filtre utilisateur créé dans le Requêteur générique est réutilisable dans la boîte de Requête d&#39;un workflow de ciblage, etc.
 

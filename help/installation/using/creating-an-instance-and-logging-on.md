@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,7 @@ Pour créer une instance, procédez comme suit :
    >Seuls les caractères `[a-z]`, `[A-Z]`, `[0-9]`, le tiret (-) et le point sont autorisés dans l&#39;URL de connexion. 
 
 1. Cliquez sur **[!UICONTROL OK]** pour valider ce paramétrage : vous pouvez alors démarrer le processus de création de l&#39;instance.
-1. Dans la fenêtre **[!UICONTROL Paramètres de connexion]**, saisissez l&#39;identifiant (login) **interne** et son mot de passe associé afin de vous connecter au serveur applicatif Adobe Campaign. Une fois connecté, vous accédez à l&#39;assistant de création d&#39;instance pour déclarer une nouvelle instance.
+1. Dans la fenêtre **[!UICONTROL Paramètres de connexion]** , saisissez la connexion **interne** et son mot de passe pour vous connecter au serveur d’applications Adobe Campaign. Une fois connecté, vous accédez à l’assistant de création d’instance pour déclarer une nouvelle instance.
 1. Dans le champ **[!UICONTROL Nom]**, saisissez le **nom de l&#39;instance**. Ce nom étant utilisé pour générer un fichier de configuration **config-`<instance>`.xml** et dans les paramètres de ligne de commande pour identifier l&#39;instance, veillez à choisir un nom court sans caractères spéciaux. Par exemple : **eMarketing**.
 
    ![](assets/s_ncs_install_create_instance.png)

@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Direct Mail
 role: User
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,7 @@ Pour une diffusion par courrier, le contenu de l&#39;extraction est défini à p
 
 ![](assets/s_ncs_user_mail_delivery_format_link.png)
 
-Ce lien permet d&#39;accéder à l&#39;assistant d&#39;extraction afin de définir les informations (colonnes) à exporter dans le fichier de sortie.
+Ce lien permet d&#39;accéder à l&#39;assistant d&#39;extraction et de définir les informations (colonnes) à exporter dans le fichier de sortie.
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
@@ -35,4 +35,4 @@ Il est possible d’insérer une URL personnalisée dans le fichier d’extracti
 
 >[!NOTE]
 >
->Cet assistant reprend les étapes de l’assistant d’export décrites dans la section [Prise en main](../../platform/using/executing-export-jobs.md).
+>Cet assistant comprend les étapes de l’assistant d’exportation décrites dans la section [Prise en main](../../platform/using/executing-export-jobs.md) .

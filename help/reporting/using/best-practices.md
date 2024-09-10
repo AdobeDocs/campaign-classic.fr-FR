@@ -5,10 +5,10 @@ description: Bonnes pratiques en matière de reporting Campaign
 feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ Afin d&#39;optimiser la création, l&#39;utilisation et la pérennité d&#39;un 
    * Exporter les données de la base Adobe Campaign (via un workflow, voir [cette section](../../workflow/using/about-workflows.md)
    * Créer un tableau croisé dynamique. En savoir plus dans [cette section](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
    * Explorer les données agrégées. En savoir plus dans [cette section](../../reporting/using/ac-cubes.md)
-   * Utiliser un assistant pour analyser les données. En savoir plus dans [cette section](../../reporting/using/about-descriptive-analysis.md)
+   * Utilisez un assistant pour analyser les données. En savoir plus dans [cette section](../../reporting/using/about-descriptive-analysis.md)
    * Analyser de grands volumes de données. En savoir plus dans [cette section](../../reporting/using/about-reports-creation-in-campaign.md)
 
 1. Identifier le public auquel le rapport est destiné

@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Personalization
 role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: 0cf7f249f366a6ef0e9bd0326ec14131fcf7dc18
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Après avoir choisi une source de données - champ du destinataire ou champ du f
 Nous allons créer un email dans lequel nous allons tout d&#39;abord insérer le nom du destinataire et ensuite ajouter dans le corps du message la date de création de son profil. Pour cela :
 
 1. Créez une nouvelle diffusion ou ouvrez une diffusion existante de type email.
-1. Dans l&#39;assistant de diffusion, cliquez sur le lien **[!UICONTROL Objet]** pour éditer l&#39;objet du message et saisir un objet.
+1. Dans l&#39;assistant de diffusion, cliquez sur **[!UICONTROL Objet]** pour éditer l&#39;objet du message et saisir un objet.
 1. Saisissez le texte « **[!UICONTROL Offre spéciale pour]** » et utilisez le dernier bouton de la barre d’outils pour insérer un champ de personnalisation. Choisissez **[!UICONTROL Destinataire>Prénom]**.
 
    ![](assets/s_ncs_user_insert_custom_field.png)

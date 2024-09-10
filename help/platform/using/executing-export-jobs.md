@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -23,13 +23,13 @@ Les traitements d&#39;export vous permettent d&#39;accéder à la base de donné
 
 Par exemple, il peut s&#39;avérer utile d&#39;utiliser les données de tracking des campagnes (historique de tracking, etc.) dans une feuille de calcul. Les données de sortie peuvent être au format txt, CSV, TAB ou XML.
 
-L&#39;assistant d&#39;export vous permet de paramétrer un export, de définir ses options et de lancer son exécution. Il s&#39;agit d&#39;une série d&#39;écrans dont le contenu dépend du type d&#39;export (simple ou multiple) et des droits de l&#39;opérateur.
+L&#39;assistant d&#39;export permet de paramétrer un export, de définir ses options et de lancer son exécution. Il s&#39;agit d&#39;une série d&#39;écrans dont le contenu dépend du type d&#39;export (simple ou multiple) et des droits de l&#39;opérateur.
 
-L’assistant d’export s’affiche après la création d’un nouveau traitement d’export (voir la section [Création de traitements d’import et d’export](../../platform/using/creating-import-export-jobs.md)).
+L’assistant d’exportation s’affiche après la création d’une tâche d’exportation (voir [Création de tâches d’importation et d’exportation](../../platform/using/creating-import-export-jobs.md).
 
 ## Etape 1 - Choix du modèle d’export {#step-1---choosing-the-export-template}
 
-Lorsque vous lancez l&#39;assistant d&#39;export, vous devez d&#39;abord sélectionner un modèle. A titre d&#39;exemple, pour configurer l&#39;export des destinataires qui se sont récemment inscrits, procédez comme suit :
+Lorsque vous lancez l&#39;assistant d&#39;export, vous devez d&#39;abord sélectionner un modèle. Par exemple, pour paramétrer l&#39;export des destinataires récemment enregistrés, procédez comme suit :
 
 1. Sélectionnez le dossier **[!UICONTROL Profils et Cibles > Traitement > Imports et exports génériques]**.
 1. Cliquez sur **Nouveau** puis sur **Export** pour créer le modèle d&#39;export.
@@ -95,7 +95,7 @@ Sélectionnez l&#39;ordre de tri des colonnes.
 
 ## Etape 6 - Conditions de filtrage {#step-6---filter-conditions-}
 
-Vous pouvez ajouter des conditions de filtrage afin de ne pas exporter toutes les données. La configuration de ce filtrage correspond à celui du ciblage des destinataires dans l&#39;assistant de diffusion. Pour plus d’informations, consultez [cette page](../../delivery/using/steps-defining-the-target-population.md).
+Vous pouvez ajouter des conditions de filtrage afin de ne pas exporter toutes les données. Le paramétrage de ce filtrage est le même que le ciblage des destinataires dans l&#39;assistant de diffusion. Pour plus d’informations, consultez [cette page](../../delivery/using/steps-defining-the-target-population.md).
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
@@ -125,7 +125,7 @@ Cliquez sur **[!UICONTROL Lancer la prévisualisation des données]** pour un ap
 
 ![](assets/s_ncs_user_export_wizard07.png)
 
-Cliquez sur les onglets en bas de l&#39;assistant pour basculer de l&#39;aperçu du résultat en colonnes, au résultat en XML. Vous pouvez également visualiser les requêtes SQL générées.
+Cliquez sur les onglets au bas de l’assistant pour passer de l’aperçu des résultats en colonnes aux résultats au format XML. Vous pouvez également visualiser les requêtes SQL générées.
 
 ## Etape 9 - Lancement de l’export {#step-9---launching-the-export}
 

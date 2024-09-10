@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '3219'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -25,9 +25,9 @@ Adobe Campaign vous permet d&#39;importer des données dans la base de données
 >
 >Vous pouvez importer des données sans les associer aux données de la base en utilisant la fonction **[!UICONTROL Importer une liste.]** Les données seront alors utilisables exclusivement dans les workflows via l&#39;objet **[!UICONTROL Lecture de liste]**. Pour plus d’informations, consultez [cette page](../../workflow/using/read-list.md).
 
-L&#39;assistant d&#39;import vous permet de configurer un import, de définir ses options (comme la transformation de données) et de lancer son exécution. Il s&#39;agit d&#39;une série d&#39;écrans dont le contenu dépend du type d&#39;import (simple ou multiple) et des droits de l&#39;opérateur.
+L&#39;assistant d&#39;import permet de paramétrer un import, de définir ses options (transformation des données, par exemple) et de lancer son exécution. Il s&#39;agit d&#39;une série d&#39;écrans dont le contenu dépend du type d&#39;import (simple ou multiple) et des droits de l&#39;opérateur.
 
-L’assistant d’import s’affiche après avoir créé un nouveau traitement d’import (voir la section [Création de traitements d’import et d’export](../../platform/using/creating-import-export-jobs.md)).
+L’assistant d’importation s’affiche après la création d’une tâche d’importation (voir [Création de tâches d’importation et d’exportation](../../platform/using/creating-import-export-jobs.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Dans le fichier source, chaque ligne correspond à un enregistrement. Les donné
 
 ## Etape 1 - Choix du modèle d’import {#step-1---choosing-the-import-template}
 
-Lorsque vous lancez l&#39;assistant d&#39;import, vous devez d&#39;abord sélectionner un modèle. A titre d&#39;exemple, pour configurer l&#39;import des destinataires qui ont reçu une newsletter, procédez comme suit :
+Lorsque vous lancez l&#39;assistant d&#39;import, vous devez d&#39;abord sélectionner un modèle. Par exemple, pour paramétrer l&#39;import des destinataires ayant reçu une newsletter, procédez comme suit :
 
 1. Sélectionnez le dossier **[!UICONTROL Profils et Cibles > Traitement > Imports et exports génériques]**.
 1. Cliquez sur **Nouveau** puis sur **Import** pour créer le modèle d&#39;import.
@@ -53,7 +53,7 @@ Lorsque vous lancez l&#39;assistant d&#39;import, vous devez d&#39;abord sélect
 1. Saisissez un nom pour cet import dans le champ **[!UICONTROL Libellé]**. Vous pouvez ajouter une description.
 1. Sélectionnez le type d&#39;import dans le champ correspondant. Deux types d&#39;imports sont possibles : **[!UICONTROL Import simple]** pour n&#39;importer qu&#39;un seul fichier et **[!UICONTROL Import multiple]** pour importer plusieurs fichiers en une seule exécution.
 
-   Dans le cas d&#39;un import multiple, sélectionnez **[!UICONTROL Import multiple]** dans la liste déroulante **[!UICONTROL Type d&#39;import]** du premier écran de l&#39;assistant d&#39;import.
+   Pour un import multiple, sélectionnez **[!UICONTROL Import multiple]** dans la liste déroulante **[!UICONTROL Type d&#39;import]** du premier écran de l&#39;assistant d&#39;import.
 
    ![](assets/s_ncs_user_import_wizard01_2.png)
 
@@ -61,7 +61,7 @@ Lorsque vous lancez l&#39;assistant d&#39;import, vous devez d&#39;abord sélect
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
-   Chaque fois qu&#39;un fichier est ajouté, l&#39;écran de l&#39;assistant **[!UICONTROL Fichier à importer]** s&#39;affiche. Consultez la section [Etape 2 - Choix du fichier source](#step-2---source-file-selection) et suivez les étapes de l&#39;assistant pour définir les options d&#39;import comme pour un import simple.
+   Chaque fois qu&#39;un fichier est ajouté, l&#39;écran de l&#39;assistant **[!UICONTROL Fichier à importer]** s&#39;affiche. Voir la section [Etape 2 - Sélection de fichiers Source](#step-2---source-file-selection) et suivez les étapes de l’assistant pour définir les options d’importation comme pour un import simple.
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Quatre types de champ calculé sont proposés :
 
 ## Etape 4 - Réconciliation {#step-4---reconciliation}
 
-L&#39;étape de réconciliation de l&#39;assistant d&#39;import permet de définir le mode de rapprochement des données issues du fichier avec les informations existantes dans la base de données, ainsi que de fixer les règles de priorité entre les données du fichier et celles de la base de données. La fenêtre de configuration se présente comme suit :
+L&#39;étape de réconciliation de l&#39;assistant d&#39;import permet de définir le mode de réconciliation des données du fichier avec les données existantes en base, et de définir les règles de priorité entre les données du fichier et celles de la base. La fenêtre de configuration se présente comme suit :
 
 ![](assets/s_ncs_user_import_wizard04_1.png)
 
@@ -277,7 +277,7 @@ Vous pouvez générer un fichier comportant ces enregistrements via l&#39;icône
 
 ## Etape 5 - Etape supplémentaire lors de l&#39;import de destinataires {#step-5---additional-step-when-importing-recipients}
 
-L&#39;étape suivante de l&#39;assistant d&#39;import permet de choisir ou créer le dossier dans lequel les données seront importées, d&#39;associer automatiquement les destinataires importés à une liste (existante ou nouvelle) et de les abonner à un service.
+L&#39;étape suivante de l&#39;assistant d&#39;import permet de sélectionner ou créer le dossier dans lequel les données seront importées, de mapper automatiquement les destinataires importés avec une liste (nouvelle ou existante) et d&#39;abonner les destinataires à un service.
 
 ![](assets/s_ncs_user_import_wizard05_1.png)
 
@@ -333,7 +333,7 @@ Cliquez sur **[!UICONTROL Suivant]** pour valider cette étape et afficher l&#39
 
 ## Étape 6 - Lancement de l’import {#step-6---launching-the-import}
 
-La dernière étape de l’assistant permet de lancer l’import des données. Pour cela, cliquez sur le bouton **[!UICONTROL Démarrer]**.
+La dernière étape de l&#39;assistant permet de lancer l&#39;import de données. Pour cela, cliquez sur le bouton **[!UICONTROL Démarrer]**.
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 

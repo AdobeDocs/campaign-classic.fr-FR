@@ -4,7 +4,7 @@ title: Journal d’audit
 description: Découvrez comment surveiller votre instance à lʼaide du journal dʼaudit Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 100%
@@ -78,7 +78,7 @@ Pour accéder au **[!UICONTROL Suivi]** de votre instance :
 
 >[!NOTE]
 >
->Par défaut, la période de conservation est définie sur 180 jours pour les **[!UICONTROL Logs d’audit]**. Pour plus d’informations sur la façon de modifier la période de conservation, consultez [cette page](../../production/using/database-cleanup-workflow.md#deployment-wizard).
+>Par défaut, la période de conservation est définie sur 180 jours pour les **[!UICONTROL Logs d’audit]**. Pour plus d’informations sur la façon de modifier la période de conservation, consultez [cette page](../../production/using/database-cleanup-workflow.md#deployment-assistant).
 
 ## Activer/désactiver le Suivi {#enable-disable-audit-trail}
 

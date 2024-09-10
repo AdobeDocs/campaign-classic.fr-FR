@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Monitoring
 role: User, Data Engineer, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ Il existe trois types d’instructions :
 * **[!DNL value]** : pour donner accès aux champs de la diffusion, aux variables de diffusion et aux objets personnalisés chargés dans la diffusion. [En savoir plus](#value)
 * **[!DNL foreach]** : pour exécuter en boucle un tableau chargé en tant qu’objet personnalisé. [En savoir plus](#foreach)
 
-Elles peuvent être testées directement à partir de l&#39;assistant de diffusion. Elles s’appliquent dans la prévisualisation du contenu et lorsque vous cliquez sur le bouton de tracking pour afficher la liste des URL.
+Ils peuvent être testés directement à partir de l&#39;assistant de diffusion. Elles s’appliquent dans la prévisualisation du contenu et lorsque vous cliquez sur le bouton de tracking pour afficher la liste des URL.
 
 ## [!DNL include] {#include}
 
@@ -57,7 +57,7 @@ Les exemples suivants sont parmi les plus couramment utilisés :
   <%@ include option='NmsServer_URL' %>
   ```
 
-  Utilisez le bouton de personnalisation de l’assistant de diffusion pour obtenir la syntaxe correcte.
+  Utilisez le bouton de personnalisation de l&#39;assistant de diffusion pour obtenir la syntaxe correcte.
 
 ## [!DNL value] {#value}
 

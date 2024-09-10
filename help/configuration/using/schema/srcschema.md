@@ -7,10 +7,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: bc4329b4-d272-4d32-bdaa-290cb9912af4
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -57,7 +57,7 @@ La présentation du schéma est disponible dans [À propos de la référence du 
 * **desc (string)**: description du schéma.
 * **entitySchema (string)**: schéma de base sur lequel on base la syntaxe et la validation du schéma (par défaut pour Adobe Campaign : xtk:srcSchema). Lors de l&#39;enregistrement du schéma courant, Adobe Campaign validera la grammaire du schéma courant avec le schéma déclaré dans l&#39;attribut @xtkschema.
 * **extendedSchema (string)**: reçoit le nom du schéma d&#39;usine sur lequel est basé l&#39;extension du schéma courant. De la forme &quot;namespace:name&quot;.
-* **img (string)**: icône associée au schéma (peut se définir dans le wizard de création du schéma).
+* **img (string)** : icône associée au schéma (peut être définie dans l’assistant de création de schéma).
 * **label (string)**: libellé du schéma.
 * **labelSingular (string)**: libellé (au singulier) destiné à l&#39;affichage dans l&#39;interface.
 * **lastModified (datetime)**: cet attribut renseigne sur la date et l&#39;heure de la dernière modification. Il est de la forme &quot;Date Heure&quot;. Les valeurs affichées sont celles du serveur. L&#39;heure est donnée au format UTC.
@@ -73,7 +73,7 @@ La présentation du schéma est disponible dans [À propos de la référence du 
 * **name (string)**: nom unique du schéma.
 * **namespace (string)**: espace de noms du schéma (espace par défaut : nms, xtk, nl). Lors de la création d&#39;un nouveau schéma, il est conseillé d&#39;utiliser un namespace spécifique au projet.
 * **useRecycleBin (boolean)**: activation de la corbeille dans l&#39;application. Les enregistrements supprimés seront placés en corbeille avant la destruction définitive. Cette fonctionnalité est disponible uniquement pour le module &quot;Diffusions&quot;.
-* **view (boolean)**: s&#39;il est activé (@view=&quot;true&quot;), le schéma sera utilisé comme une vue. L&#39;assistant de mise à jour de la structure de la base ne tiendra pas compte du schéma. Cette option permet le plus souvent de référencer des tables externes.
+* **view (boolean)**: s&#39;il est activé (@view=&quot;true&quot;), le schéma sera utilisé comme une vue. L&#39;assistant de mise à jour de la structure de base de données ne prendra pas en compte le schéma. Cette option permet le plus souvent de référencer des tables externes.
 * **xtkschema (string)**: nom du schéma définissant la grammaire des schémas (par défaut xtk:srcSchema).
 
 ## Exemples       {#examples-11}

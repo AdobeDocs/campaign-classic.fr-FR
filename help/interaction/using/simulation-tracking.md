@@ -8,10 +8,10 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ Les résultats de la simulation consistent en la répartition des propositions p
 
 Vous pouvez conserver ces résultats et les exporter si nécessaire en créant un rapport d&#39;analyse descriptive. Pour cela, cliquez sur le lien disponible dans la fenêtre des résultats.
 
-Reportez-vous à [cette section](../../reporting/using/about-descriptive-analysis.md) pour plus d&#39;informations sur l&#39;assistant d&#39;analyse descriptive.
+Pour plus d’informations sur l’assistant d’analyse descriptive, reportez-vous à [cette section](../../reporting/using/about-descriptive-analysis.md) .
 
 ![](assets/offer_simulation_012.png)
 

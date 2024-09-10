@@ -4,10 +4,10 @@ title: Utiliser les données d'un workflow
 description: Découvrez comment utiliser les données d'un workflow
 feature: Workflows, Data Management
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -53,7 +53,7 @@ Par exemple, dans le cadre d&#39;une diffusion courrier, vous pouvez inclure dan
 
 ![](assets/s_advuser_add_data_postal_mail.png)
 
-En complément des champs de personnalisation habituels, vous pouvez ajouter dans le contenu des diffusions des champs de personnalisation issus des étapes du workflow. En effet, les données additionnelles définies dans les activités du workflow peuvent être conservées et sont ensuite rendues accessibles dans l&#39;assistant de diffusion, comme dans l&#39;exemple ci-dessous pour définir le nom du fichier de sortie dans le cadre d&#39;une diffusion courrier :
+Outre les champs de personnalisation habituels, vous pouvez ajouter des champs de personnalisation des étapes de workflow au contenu de la diffusion. Les données additionnelles définies dans les activités du workflow peuvent être conservées et rendues accessibles dans l&#39;assistant de diffusion, comme dans l&#39;exemple ci-dessous, afin de définir le nom du fichier de sortie dans le cadre de la diffusion courrier :
 
 ![](assets/s_advuser_using_additional_data.png)
 

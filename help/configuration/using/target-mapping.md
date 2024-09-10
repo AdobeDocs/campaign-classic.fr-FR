@@ -6,10 +6,10 @@ feature: Application Settings
 role: Data Engineer, Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ La création d&#39;un mapping de ciblage est nécessaire dans deux cas de figure
 * si vous utilisez une table de destinataires autre que celle fournie par Adobe Campaign,
 * si vous paramétrez une dimension de filtrage différente de la dimension de ciblage standard dans l&#39;écran des mappings de ciblage.
 
-L&#39;assistant de création du mapping de ciblage va vous permettre de créer tous les schémas nécessaires pour la bonne utilisation de votre table personnalisée.
+L&#39;assistant de création de mapping de ciblage vous aidera à créer tous les schémas nécessaires pour utiliser votre table personnalisée.
 
 ## Création et paramétrage des schémas liés à la table personnalisée {#creating-and-configuring-schemas-linked-to-the-custom-table}
 
@@ -83,7 +83,7 @@ Pour cela, les étapes sont les suivantes :
    ```
 
 1. Cliquez sur le nœud **[!UICONTROL Administration > Gestion de campagne > Mappings de ciblage]**.
-1. Cliquez sur le bouton **Nouveau** afin de lancer l&#39;assistant de création d&#39;un nouveau mapping de ciblage.
+1. Cliquez sur le bouton **Nouveau** pour ouvrir l’assistant de création de mapping de ciblage.
 1. Complétez le champ **Libellé** et sélectionnez le schéma que vous venez de créer dans le champ **Dimension de ciblage**.
 
    ![](assets/mapping_diffusion_wizard_1.png)
@@ -110,9 +110,9 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/mapping_diffusion_wizard_4.png)
 
-1. Cliquez sur le bouton **Enregistrez** pour terminer l&#39;assistant.
+1. Cliquez sur le bouton **Enregistrer** pour fermer l’assistant.
 
-   Basé sur le schéma de départ, l&#39;assistant a crée tous les schémas nécessaires au bon fonctionnement du nouveau mapping de ciblage.
+   L&#39;assistant utilise le schéma de départ pour créer tous les autres schémas nécessaires au bon fonctionnement du nouveau mapping de ciblage.
 
    ![](assets/mapping_schema_list.png)
 

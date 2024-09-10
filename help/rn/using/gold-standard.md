@@ -8,10 +8,10 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1774'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -209,7 +209,7 @@ _13 août 2019_
 
 Le build 19.1.4 initial comprend les correctifs suivants :
 
-* Correction d&#39;un problème lié à l&#39;activité du planificateur qui générait des messages d&#39;erreur indésirables lors de la configuration de l&#39;assistant. Annulation de la mise à jour à partir de NEO-11662. (NEO-17097)
+* Correction d’un problème en raison duquel l’activité Planificateur générait des messages d’erreur indésirables lors de la configuration de l’assistant. Annulation de la mise à jour à partir de NEO-11662. (NEO-17097)
 * Correction d&#39;une régression causée par NEO-12727 qui entraînait l&#39;arrêt des workflows lorsqu&#39;une activité de test était exécutée deux fois. (NEO-16835)
 * Correction d&#39;un problème qui entraînait le renvoi d&#39;un code HTTP erroné (HTTP 200 OK à la place de HTTP 403 Interdit) lorsqu&#39;un jeton de session non valide ou ayant expiré était utilisé dans les appels d&#39;API. (NEO-16826)
 * Correction d&#39;un problème lié à la clé DKIM qui n&#39;était plus incorporée dans les emails, ce qui entraînait des problèmes de délivrabilité. (NEO-16804)

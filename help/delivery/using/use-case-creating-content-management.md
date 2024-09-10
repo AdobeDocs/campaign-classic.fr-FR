@@ -5,10 +5,10 @@ description: '« Cas dʼutilisation : création dʼune gestion de contenu »'
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1235'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -382,7 +382,7 @@ Vous êtes fin prêt pour créer du contenu à partir de ce modèle de publicati
 >
 >Pour plus d’informations sur la création de contenu, consultez la section [Utilisation dʼun modèle de contenu](using-a-content-template.md).
 
-### Création de contenu dans lʼassistant de diffusion {#creating-content-in-the-delivery-wizard}
+### Créer du contenu dans l’assistant de diffusion {#creating-content-in-the-delivery-assistant}
 
 Pour créer un contenu directement dans les diffusions, la procédure est la suivante :
 
@@ -390,7 +390,7 @@ Pour créer un contenu directement dans les diffusions, la procédure est la sui
 
    ![](assets/s_ncs_content_in_delivery.png)
 
-   Un onglet supplémentaire est ajouté dans l&#39;assistant de diffusion afin de définir le contenu, via le formulaire de la gestion de contenu.
+   Un onglet supplémentaire est ajouté dans l&#39;assistant de diffusion afin de définir le contenu à partir du formulaire de gestion de contenu.
 
 1. Renseignez les informations variables de votre newsletter.
 

@@ -5,10 +5,10 @@ description: Mettre à jour la structure de la base de données
 feature: Configuration
 role: Data Engineer, Developer
 exl-id: 6c1e061b-8636-4285-8d83-97474544d252
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Pour appliquer les modifications apportées dans les schémas, vous devez lancer l&#39;assistant de mise à jour de la base de données. Cet assistant est accessible à partir du menu **[!UICONTROL Outils > Avancé > Mise à jour de la structure de la base]**. Il vérifie si la structure physique de la base est bien conforme à sa description logique et exécute les scripts SQL de mise à jour.
+Pour appliquer les modifications apportées aux schémas, lancez l&#39;assistant de mise à jour de la base de données. Cet assistant est accessible via **[!UICONTROL Outils > Avancé > Mise à jour de la structure de la base de données]**. Il vérifie que la structure physique de la base de données correspond bien à sa description logique et exécute les scripts de mise à jour SQL.
 
 ![](assets/d_ncs_integration_schema_update.png)
 

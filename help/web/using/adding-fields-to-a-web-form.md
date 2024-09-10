@@ -5,10 +5,10 @@ description: Ajouter des champs à un formulaire web
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '2466'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Dans un formulaire Web, les champs permettent aux utilisateurs de saisir des informations et sélectionner des options. Le formulaire Web peut proposer champs de saisie, des champs de sélection, des contenus statiques ainsi que des contenus avancés de type captcha, abonnements, etc.
 
-Lorsque vous utilisez l&#39;assistant d&#39;ajout de champs, le type de champ est automatiquement détecté en fonction du champ ou de la variable de stockage sélectionnée. Au besoin, vous pouvez le modifier à partir de la liste déroulante **[!UICONTROL Type]** de l&#39;onglet **[!UICONTROL Général]**.
+Lorsque vous utilisez l’assistant pour ajouter des champs, le type de champ est automatiquement détecté en fonction du champ ou de la variable de stockage sélectionnée. Au besoin, vous pouvez le modifier à partir de la liste déroulante **[!UICONTROL Type]** de l&#39;onglet **[!UICONTROL Général]**.
 
 ![](assets/s_ncs_admin_webform_change_type.png)
 
@@ -43,7 +43,7 @@ Spécifiez le mode de stockage des réponses : mise à jour d&#39;un champ de l
 >
 >Par défaut, la zone est toujours insérée à la fin de l&#39;arborescence courante. Elle peut être déplacée en utilisant les flèches de la barre d&#39;outils.
 
-## Assistant de création de champs {#field-creation-wizard}
+## Assistant de création de champs {#field-creation-assistant}
 
 Pour chaque page du formulaire, vous pouvez ajouter un champ à l’aide du premier bouton de la barre d’outils. Pour ce faire, accédez au menu **[!UICONTROL Ajouter à l’aide de l’assistant]** .
 

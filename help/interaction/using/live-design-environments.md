@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -33,7 +33,7 @@ Par défaut, Interaction comprend un environnement **[!UICONTROL En édition]** 
 
 >[!NOTE]
 >
->Pour cibler une autre table (table des visiteurs pour les offres anonymes ou table de destinataires spécifique), vous devez utiliser l&#39;assistant de paramétrage des mappings de ciblage pour créer les environnements. Voir à ce sujet la section [Créer un environnement d’offre](#creating-an-offer-environment).
+>Pour cibler une autre table (table des visiteurs pour les offres anonymes ou table de destinataires spécifique), vous devez utiliser l&#39;assistant de mapping de ciblage pour créer les environnements. Voir à ce sujet la section [Créer un environnement d’offre](#creating-an-offer-environment).
 
 ![](assets/offer_environments_overview_002.png)
 
@@ -47,7 +47,7 @@ Par défaut, Interaction est livré avec un environnement pré-paramétré pour 
 
    ![](assets/offer_env_anonymous_001.png)
 
-1. Cliquez sur **[!UICONTROL Suivant]** pour accéder au second écran de l&#39;assistant, cochez la case **[!UICONTROL Générer un schéma de stockage pour les propositions]**, et cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Suivant]** pour passer à l&#39;écran suivant de l&#39;assistant, cochez la case **[!UICONTROL Générer un schéma de stockage pour les propositions]** et cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/offer_env_anonymous_002.png)
 

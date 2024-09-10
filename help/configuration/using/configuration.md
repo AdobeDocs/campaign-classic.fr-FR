@@ -5,7 +5,7 @@ feature: Application Settings
 description: Découvrez comment configurer l’arborescence de navigation de l’Explorateur Campaign.
 role: Data Engineer, Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 100%
@@ -101,7 +101,7 @@ Le contexte du formulaire peut être mis à jour lors de l’initialisation à p
 * Déclaration d&#39;une commande globale pour lancer la forme &quot;xtk:import&quot; :
 
   ```
-  <command desc="Start the data import wizard" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
+  <command desc="Start the data import assistant" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
   ```
 
   Un raccourci clavier est déclaré sur le caractère « l » par la présence du **&amp;** dans le libellé de la commande.

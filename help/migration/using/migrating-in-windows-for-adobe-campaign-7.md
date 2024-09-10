@@ -9,10 +9,10 @@ topic-tags: migrating-to-adobe-campaign-7
 hide: true
 hidefromtoc: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1115'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -370,7 +370,7 @@ Before you delete and cleanse the Adobe Campaign v5 installation, you must apply
 
 1. In IIS, delete the **Neolane v5** website, then the **Neolane v5** application pool. 
 1. Rename the **Neolane v5.back** folder as **Neolane v5**.
-1. Uninstall Adobe Campaign v5 using the Add/remove components wizard. 
+1. Uninstall Adobe Campaign v5 using the Add/remove components assistant. 
 
    ![](assets/migration_wizard_2.png)
 
@@ -391,7 +391,7 @@ Before you delete and cleanse the Adobe Campaign v6.02 installation, you must ap
 
 1. In IIS, delete the **Neolane v6** website, then the **Neolane v6** application pool. 
 1. Rename the **Neolane v6.back** folder as **Neolane v6**.
-1. Uninstall Adobe Campaign v6.02 using the Add/remove components wizard. 
+1. Uninstall Adobe Campaign v6.02 using the Add/remove components assistant. 
 
    ![](assets/migration_wizard_2.png)
 
@@ -406,7 +406,7 @@ Avant de supprimer et nettoyer l&#39;installation d&#39;Adobe Campaign v6, il 
 
 1. Dans IIS, supprimez le site web **Adobe Campaign v6** puis le pool d&#39;applications **Adobe Campaign v6**.
 1. Renommez le dossier **Adobe Campaign v6.back** en **Adobe Campaign v6**.
-1. Désinstallez Adobe Campaign v6 à l&#39;aide de l&#39;assistant d&#39;ajout/suppression de programme.
+1. Désinstallez Adobe Campaign v6 à l’aide de l’assistant d’ajout/suppression de composants.
 
    ![](assets/migration_wizard_2.png)
 

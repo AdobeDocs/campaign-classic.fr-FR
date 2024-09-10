@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Email Design, Personalization
 role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1304'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -149,7 +149,7 @@ Pour être accessibles depuis l&#39;extérieur, les images utilisées dans les e
 
 * Vous pouvez vérifier si la configuration de l’instance permet la gestion des ressources publiques. [En savoir plus](../../installation/using/deploying-an-instance.md#managing-public-resources)
 
-* Depuis l’assistant de diffusion, vous pouvez importer une page HTML contenant des images ou insérer directement des images à l’aide de l’éditeur HTML via l’icône **[!UICONTROL Image]** . [En savoir plus](defining-the-email-content.md#adding-images)
+* Depuis l&#39;assistant de diffusion, vous pouvez importer une page d&#39;HTML contenant des images ou insérer des images directement à l&#39;aide de l&#39;éditeur d&#39;HTMLS via l&#39;icône **[!UICONTROL Image]**. [En savoir plus](defining-the-email-content.md#adding-images)
 
 * Si les images ne sont pas affichées, vérifiez qu&#39;elles sont disponibles sur le serveur. Pour ce faire, cliquez sur l&#39;onglet Source de votre diffusion. Recherchez vos images, copiez l&#39;URL de chaque image et collez-la dans un navigateur web. Si les images ne sont toujours pas affichées, contactez votre administrateur informatique ou le fournisseur tiers du contenu de votre diffusion.
 
@@ -157,6 +157,6 @@ Pour être accessibles depuis l&#39;extérieur, les images utilisées dans les e
 
 Adobe recommande de prévisualiser votre message afin de vérifier sa personnalisation et l&#39;affichage de la diffusion par vos destinataires.
 
-* Dans l&#39;assistant de diffusion, le sous-onglet **[!UICONTROL Aperçu]** vous permet de visualiser le rendu de chaque contenu pour un destinataire. Les champs de personnalisation et les éléments conditionnels du contenu sont remplacés par les informations correspondantes pour le profil sélectionné. [En savoir plus](defining-the-email-content.md#message-content)
+* Dans l&#39;assistant de diffusion, le sous-onglet **[!UICONTROL Aperçu]** permet de visualiser le rendu de chaque contenu pour un destinataire. Les champs de personnalisation et les éléments conditionnels du contenu sont remplacés par les informations correspondantes pour le profil sélectionné. [En savoir plus](defining-the-email-content.md#message-content)
 
 * Une vérification anti-spam est automatiquement effectuée à chaque prévisualisation. Dans le sous-onglet **[!UICONTROL Aperçu]**, vérifiez le score de spam [SpamAssassin](spamassassin.md).  Cliquez sur **[!UICONTROL Autres choix...]** pour en savoir plus sur l’avertissement.  Avant de procéder, assurez-vous que SpamAssassin est correctement installé et configuré sur le serveur applicatif Adobe Campaign. [En savoir plus](../../installation/using/configuring-spamassassin.md)

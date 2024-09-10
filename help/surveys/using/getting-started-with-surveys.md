@@ -5,10 +5,10 @@ description: Créer votre premier questionnaire avec Campaign
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '986'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ Dans l&#39;exemple suivant, nous utiliserons une page de type **[!UICONTROL Page
 
 * **Ajouter des champs de saisie**
 
-  Pour créer le contenu de la page, vous devez le modifier : pour cela, double-cliquez sur l’objet **[!UICONTROL Page]**. Cliquez sur la première icône de la barre d&#39;outils pour ouvrir l&#39;assistant de création de champs. Pour créer un champ de saisie du nom de l&#39;utilisateur qui sera stocké dans le champ correspondant du profil du destinataire, choisissez **[!UICONTROL Editer un destinataire]**.
+  Pour créer le contenu de la page, vous devez d&#39;abord l&#39;éditer : pour cela, double-cliquez sur l&#39;objet **[!UICONTROL Page]**. Cliquez sur la première icône de la barre d’outils pour ouvrir l’assistant de création de champ. Pour créer un champ de saisie du nom de l&#39;utilisateur qui sera stocké dans le champ correspondant du profil du destinataire, choisissez **[!UICONTROL Editer un destinataire]**.
 
   ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
@@ -130,7 +130,7 @@ Cliquez sur **[!UICONTROL OK]** pour valider puis sur **[!UICONTROL Enregistrer]
 Afin de permettre aux utilisateurs d&#39;accéder aux pages HTML, le questionnaire doit être rendu disponible : il ne doit plus être en édition mais en production. Pour mettre en production un questionnaire, vous devez le publier. Pour cela :
 
 * Cliquez sur le bouton **[!UICONTROL Publier]** situé dans le tableau de bord du questionnaire.
-* Cliquez sur **[!UICONTROL Démarrer]** pour lancer la publication et fermez l&#39;assistant.
+* Cliquez sur **[!UICONTROL Démarrer]** pour lancer la publication et fermer l’assistant.
 
   ![](assets/s_ncs_admin_survey_start_publ.png)
 

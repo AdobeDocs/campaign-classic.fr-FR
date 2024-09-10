@@ -5,16 +5,16 @@ description: Liste de référence des schémas
 feature: Custom Resources
 role: Data Engineer, Developer
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
 # Référence des schémas {#schema-reference}
 
-Durant l&#39;édition d&#39;un schéma, un système de validation basé sur le schéma source (xtk:srcSchema) est accessible. Cependant certaines erreurs peuvent être remontées lors de la mise à jour de la base de données via l&#39;assistant &quot;Mise à jour de la structure de la base...&quot;.
+Durant l&#39;édition d&#39;un schéma, un système de validation basé sur le schéma source (xtk:srcSchema) est accessible. Certaines erreurs peuvent également être détectées lors de la mise à jour de la base de données à l&#39;aide de l&#39;assistant &quot;Mise à jour de la structure de la base...&quot;.
 
 Par défaut dans les schémas Adobe Campaign, tous les attributs de type boolean sont à &quot;false&quot;. Pour les activer, il faut donc spécifier l&#39;attribut dans le schéma et lui passer la valeur &quot;true&quot;.
 

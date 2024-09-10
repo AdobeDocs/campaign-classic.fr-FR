@@ -5,10 +5,10 @@ description: Découvrez comment définir une autre fonction SQL.
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Une fois ces fonctions ajoutées, elles apparaissent dans l&#39;éditeur d&#39;e
 
 La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &quot;package&quot; au format XML**, dont la structure est décrite au paragraphe suivant.
 
-Pour l&#39;installer, depuis la console, sélectionner les options de menu **Tools/Advanced/Import package**, puis le bouton **[!UICONTROL Installer depuis un fichier]**, et suivre les instructions de l’assistant d’import.
+Pour l&#39;installer à partir de la console, sélectionnez les options **Tools/Advanced/Import package** dans le menu, puis le paramètre **[!UICONTROL Install from file]** et suivez les instructions de l&#39;assistant d&#39;import.
 
 >[!IMPORTANT]
 >

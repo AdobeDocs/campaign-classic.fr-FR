@@ -4,10 +4,10 @@ title: Partage
 description: En savoir plus sur l'activité de workflow de partage
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: 13eb777e96602ddd3463f721c6b2a3e6b67cb329
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '2169'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -44,7 +44,7 @@ Pour créer un sous-ensemble :
 
 1. Définissez éventuellement un nombre maximum d&#39;enregistrements à extraire de la cible pour créer le sous-ensemble. Pour cela, cochez l&#39;option **[!UICONTROL Limiter les enregistrements sélectionnés]** et cliquez sur le lien **[!UICONTROL Editer...]**.
 
-   Un assistant vous permet de choisir le mode de sélection des enregistrements de ce sous-ensemble. La procédure est décrite dans la section [Limiter le nombre d&#39;enregistrements des sous-ensembles](#limiting-the-number-of-subset-records).
+   Un assistant permet de choisir le mode de sélection des enregistrements de ce sous-ensemble. La procédure est décrite dans la section [Limiter le nombre d&#39;enregistrements des sous-ensembles](#limiting-the-number-of-subset-records).
 
    ![](assets/s_user_segmentation_partage4.png)
 
@@ -216,7 +216,7 @@ Par exemple si les données sont lues directement depuis une base de données ex
 
 Pour éviter cela, vous pouvez placer une activité d&#39;**[!UICONTROL Enrichissement]** juste avant l&#39;activité de **[!UICONTROL Partage]**. Dans l&#39;activité d&#39;**[!UICONTROL Enrichissement]**, cochez l&#39;option **[!UICONTROL Conserver toutes les données additionnelles de l&#39;ensemble principal]** et indiquez en données additionnelles les colonnes que vous souhaitez utiliser pour configurer les filtres de l&#39;activité de **[!UICONTROL Partage]**. Les données de la transition entrante de l&#39;activité de **[!UICONTROL Partage]** sont alors stockées dans une table temporaire en local sur le serveur Adobe Campaign et le complémentaire peut être généré correctement.
 
-L&#39;option **[!UICONTROL Permettre le recouvrement des populations de sortie]** permet de gérer les populations appartenant à plusieurs sous-ensembles :
+L&#39;option **[!UICONTROL Permettre le recouvrement des populations de sortie]** permet de gérer les populations qui appartiennent à plusieurs sous-ensembles :
 
 * Lorsque la case est décochée, l&#39;activité de partage assure qu&#39;un destinataire ne sera pas présent dans plusieurs transitions en sortie, même s&#39;il vérifie les critères de plusieurs sous-ensembles. Il sera dans la cible du premier onglet dont les critères sont vérifiés.
 * Lorsque la case est cochée, les personnes destinataires peuvent apparaître dans plusieurs sous-ensembles si elles sont associées aux bons critères de filtrage. Adobe Campaign vous recommande d’utiliser des critères exclusifs.

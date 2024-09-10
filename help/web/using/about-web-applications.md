@@ -5,10 +5,10 @@ description: Créer et partager des applications web, des landing pages et des q
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ Par défaut, Adobe Campaign fournit un modèle par type d’application web dis
 
 Vous pouvez créer des modèles à partir du nœud **[!UICONTROL Ressources > Modèles > Modèles d&#39;applications web]** de l&#39;arborescence Adobe Campaign.
 
-L’assistant de création vous permet de sélectionner les options à activer, comme dans l’exemple ci-dessous.
+L&#39;assistant de création vous permet de sélectionner les options à activer, comme dans l&#39;exemple ci-dessous.
 
 ![](assets/webapp_create_template.png)
 

@@ -4,10 +4,10 @@ title: Campaign - Connecteur CRM Salesforce
 description: Découvrez comment connecter Campaign et Salesforce
 feature: Salesforce Integration
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -45,7 +45,7 @@ Pour savoir où trouver le jeton de sécurité, consultez [cette page](https://h
 
    * **[!UICONTROL Version de l’API]**
 Sélectionnez la version de l’API.
-1. Exécutez l’assistant de configuration pour générer la table CRM disponible : l’assistant de configuration vous permet de collecter des tables et de créer le schéma correspondant.
+1. Exécutez l&#39;assistant de configuration pour générer la table CRM disponible : l&#39;assistant de configuration vous permet de collecter des tables et de créer le schéma correspondant.
 
    ![](assets/crm_connectors_sfdc_launch.png)
 

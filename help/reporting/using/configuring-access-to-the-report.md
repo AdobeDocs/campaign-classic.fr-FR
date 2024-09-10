@@ -5,10 +5,10 @@ description: Configuration de l’accès au rapport
 feature: Reporting, Monitoring
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -82,7 +82,7 @@ Vous pouvez faire en sorte qu&#39;un rapport soit accessible depuis un noeud sp�
 
 A titre d&#39;exemple, nous allons créer un lien vers un rapport afin qu&#39;il soit accessible depuis une liste de destinataires.
 
-1. Cliquez sur **[!UICONTROL Nouveau]** et choisissez **[!UICONTROL Créer un lien vers un rapport existant]** dans l&#39;assistant de création de rapport.
+1. Cliquez sur **[!UICONTROL Nouveau]** et sélectionnez **[!UICONTROL Créer un lien vers un rapport existant]** dans l’assistant de création de rapports.
 
    ![](assets/s_ncs_advuser_report_wizard_link_01.png)
 
@@ -126,7 +126,7 @@ Pour plus d&#39;informations sur ces paramètres, consultez la section **Défini
 
 La publication du rapport est obligatoire pour le partager avec d’autres opérateurs et l’afficher dans la liste des rapports disponibles (consultez également la section [Contexte d&#39;affichage des rapports](#report-display-context)). Cette opération doit être exécutée à nouveau chaque fois que le rapport est modifié.
 
-1. Ouvrez l&#39;assistant de publication en cliquant sur **[!UICONTROL Publier]** dans la barre d&#39;outils.
+1. Ouvrez l’assistant de publication en cliquant sur **[!UICONTROL Publish]** dans la barre d’outils.
 
    ![](assets/s_ncs_advuser_report_publish_01.png)
 

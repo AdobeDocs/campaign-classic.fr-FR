@@ -6,18 +6,18 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 8fbfc211c4e791b324c34d3d180daa7597c00c7f
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Canaux de communication{#communication-channels}
 
-Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’emails, SMS, messages LINE, notifications push et courrier, et mesurer leur efficacité à l’aide de différents [rapports](../../reporting/using/delivery-reports.md) dédiés. Ces messages sont conçus et envoyés à l&#39;aide de diffusions, et peuvent être personnalisés pour chaque destinataire.
+Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’emails, SMS, messages LINE, notifications push et courrier, et mesurer leur efficacité à l’aide de différents [rapports](../../reporting/using/delivery-reports.md) dédiés. Ces messages sont conçus et envoyés par le biais de diffusions, et peuvent être personnalisés pour chaque destinataire.
 
-Les principales fonctionnalités comprennent le ciblage, la définition et la personnalisation des messages, la mise en œuvre des communications et les rapports opérationnels connexes. Le principal point d&#39;accès fonctionnel est l&#39;assistant de diffusion. Ce point d’accès permet d’accéder à de multiples fonctionnalités proposées par Adobe Campaign.
+Les principales fonctionnalités comprennent le ciblage, la définition et la personnalisation des messages, l&#39;exécution des communications et les rapports opérationnels associés. Le principal point d&#39;accès fonctionnel est l&#39;assistant de diffusion. Ce point d’accès permet d’accéder à de multiples fonctionnalités proposées par Adobe Campaign.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Les diffusions peuvent être **on-line** (via email, un des canaux mobiles et le
 Selon le canal, les modes de diffusion peuvent être les suivants :
 
 * Envoi en masse directement via Adobe Campaign (mode par défaut pour le canal Email).
-* Envoi en externe, via un opérateur spécialisé, auquel est fourni le fichier de sortie généré par l&#39;assistant de diffusion (mode par défaut pour le canal Courrier).
+* Diffusion externe via un opérateur spécialisé qui reçoit le fichier de sortie généré par l&#39;assistant de diffusion (mode par défaut pour le canal courrier).
 
 Les comptes externes sont paramétrés depuis le nœud **[!UICONTROL Administration > Plateforme > Comptes externes]**. Ce paramétrage est réservé à des utilisateurs experts.
 

@@ -5,10 +5,10 @@ description: '« Cas d’utilisation : créer des vues dʼensemble »'
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -94,7 +94,7 @@ Dans une vue d&#39;ensemble, vous pouvez choisir d&#39;accéder à certaines don
    >
    >**nms:webApp** correspond au schéma des applications web.
    >
-   >**nms:newWebApp** correspond à l’assistant de création de la nouvelle application web.
+   >**nms:newWebApp** correspond à l’assistant de création de la nouvelle application Web.
 
 1. Choisissez d&#39;afficher l&#39;URL dans la même fenêtre.
 1. Ajoutez l’icône des applications web dans le champ image : **/nms/img/webApp.png**.

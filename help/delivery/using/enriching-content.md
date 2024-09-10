@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Data Management
 role: User, Developer, Data Engineer
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ L’élément **`<collection-recipient>`** représente l’élément d’entrée
 
 ### Ajouter une requête {#adding-a-query}
 
-Un assistant permet d&#39;éditer les paramètres de la requête.
+Les paramètres de requête sont édités à l&#39;aide d&#39;un assistant.
 
 1. La première page permet de spécifier le libellé et le schéma contenant les données à récupérer.
 
