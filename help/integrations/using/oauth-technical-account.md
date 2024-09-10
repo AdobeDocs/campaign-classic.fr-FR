@@ -5,10 +5,10 @@ description: En savoir plus sur la création de compte API Adobe
 role: User, Admin
 level: Beginner
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
-source-git-commit: 8eadea9f9cc0a44522726024bfbc825e3b4cad98
+source-git-commit: 9516101771899e132dbd3d1344c833e82714f775
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '352'
+ht-degree: 84%
 
 ---
 
@@ -61,9 +61,16 @@ Pour créer votre compte technique OAuth pour les nouvelles intégrations, proc�
    * **[!UICONTROL Identifiant du du compte technique]**
    * **[!UICONTROL Identifiant de l&#39;organisation]**
 
-## Ajouter des informations d’identification de projet OAuth dans Adobe Campaign {#add-credentials}
+## Ajout des informations d’identification de projet OAuth dans Campaign {#add-credentials}
 
-Suivez les étapes ci-dessous pour ajouter vos informations d’identification de projet OAuth dans Adobe Campaign :
+Une fois les étapes ci-dessus exécutées, ajoutez les informations d’identification de votre projet OAuth dans Adobe Campaign.
+
+>[!NOTE]
+>
+>En tant que client hébergé ou Cloud Service géré, cette procédure n’est pas nécessaire : Adobe a déjà ajouté les informations d’identification de votre projet OAuth à votre environnement.
+>
+
+En tant que client on-premise ou hybride, procédez comme suit :
 
 1. Connectez-vous via SSH à chaque conteneur sur lequel l’instance Adobe Campaign est installée.
 
