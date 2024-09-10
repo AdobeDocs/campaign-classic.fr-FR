@@ -5,10 +5,10 @@ description: Découvrez comment définir l’audience de vos campagnes marketing
 role: User
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 7453db63a0ed2c617e9f7e4cbfa3480b3ed5020d
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 100%
+source-wordcount: '1586'
+ht-degree: 99%
 
 ---
 
@@ -166,6 +166,10 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
   Vous pouvez effectuer un arrêt conditionnel de votre workflow en cliquant sur l&#39;icône **[!UICONTROL Actions]** et en sélectionnant **[!UICONTROL Arrêt inconditionnel]**. Cette action arrête votre workflow d&#39;opération.
 
   ![](assets/s_user_segmentation_stop_unconditional.png)
+
+  >[!CAUTION]
+  >
+  >L’arrêt inconditionnel est limité aux utilisateurs administrateurs.
 
 ## Ajout d’une population témoin {#defining-a-control-group}
 
