@@ -4,7 +4,7 @@ title: Points d’entrée réseau Campaign
 description: Points d’entrée réseau Campaign
 feature: Installation, Application Settings
 exl-id: 027ed2b6-365f-434f-9a18-2140512168e9
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 100%

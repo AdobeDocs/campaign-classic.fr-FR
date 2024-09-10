@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '3539'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 >
 >Pour les déploiements hébergés par Adobe, les configurations côté serveur ne peuvent être effectuées que par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 
-## L’assistant de déploiement {#deployment-wizard}
+## assistant de déploiement {#deployment-assistant}
 
 L’assistant graphique accessible à partir de la console cliente Adobe Campaign permet de définir les paramètres de l’instance sur laquelle vous allez vous connecter.
 
-Pour démarrer l’assistant de déploiement, sélectionnez **Outils > Avancé > Assistant de déploiement**.
+Pour lancer l&#39;assistant de déploiement, sélectionnez **Outils > Avancé > Assistant de déploiement**.
 
 ![](assets/s_ncs_install_deployment_wiz_01.png)
 
@@ -396,11 +396,11 @@ Le champ **Masques des URL** permet d’indiquer la liste des masques des URL qu
 Vous pouvez saisir plusieurs masques, séparés les uns des autres par une virgule.
 
 * Le mode d’utilisation et la gestion des images dans les emails sont présentés dans [cette section](../../delivery/using/defining-the-email-content.md#adding-images).
-* Dans l’assistant de diffusion, les images appelées depuis ces URL auront le statut &quot;Ignoré&quot;.
+* Dans l&#39;assistant de diffusion, les images appelées depuis ces URL auront le statut &quot;Ignoré&quot;.
 
 ### Modes de publication {#publication-modes}
 
-La section inférieure de l’assistant permet de sélectionner les options de publication des ressources publiques et des images.
+La section inférieure de l&#39;assistant permet de sélectionner les options de publication des ressources publiques et des images.
 
 Les modes de publication suivants sont disponibles :
 

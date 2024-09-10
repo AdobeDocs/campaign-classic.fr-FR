@@ -6,10 +6,10 @@ feature: Application Settings
 role: Data Engineer, Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '2416'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -613,12 +613,12 @@ La balise **`<check expr="<condition>" />`** combinée avec la balise **`<error>
 
 ## Assistants {#wizards}
 
-Un assistant permet une saisie guidée à travers un ensemble d&#39;étapes présentées sous forme de pages. La validation du formulaire enregistre les informations saisies.
+Un assistant vous guide à travers un ensemble d&#39;étapes de saisie de données, présentées sous forme de pages. Les données saisies sont enregistrées lorsque vous validez le formulaire.
 
-Un assistant se construit de la façon suivante :
+Un assistant a la structure suivante :
 
 ```xml
-<form type="wizard" name="example" namespace="cus" img="nms:rcpgroup32.png" label="Wizard example" entity-schema="nms:recipient">
+<form type="wizard" name="example" namespace="cus" img="nms:rcpgroup32.png" label="Assistant example" entity-schema="nms:recipient">
   <container title="Title of page 1" desc="Long description of page 1">
     <input xpath="@lastName"/>
     <input xpath="comment"/>
@@ -632,7 +632,7 @@ Un assistant se construit de la façon suivante :
 
 ![](assets/d_ncs_integration_form_exemple19.png)
 
-La présence de l’attribut **type=&quot;wizard&quot;** sur l’élément `<form>` permet de définir le mode assistant dans la construction du formulaire. Les pages sont renseignées à partir d&#39;éléments `<container>` qui sont des enfants de l&#39;élément `<form>`. L&#39;élément `<container>` d&#39;une page est renseigné avec l&#39;attribut title pour le titre, et l&#39;attribut desc pour afficher la description sous le titre de la page. Les boutons **[!UICONTROL Précédent]** et **[!UICONTROL Suivant]** sont automatiquement ajoutés afin de naviguer de page en page.
+La présence de l&#39;attribut **type=&quot;wizard&quot;** sur l&#39;élément `<form>` permet de définir le mode assistant dans la construction du formulaire. Les pages sont renseignées à partir d&#39;éléments `<container>` qui sont des enfants de l&#39;élément `<form>`. L&#39;élément `<container>` d&#39;une page est renseigné avec l&#39;attribut title pour le titre, et l&#39;attribut desc pour afficher la description sous le titre de la page. Les boutons **[!UICONTROL Précédent]** et **[!UICONTROL Suivant]** sont automatiquement ajoutés afin de naviguer de page en page.
 
 Le bouton **[!UICONTROL Terminer]** enregistre les informations saisies et ferme le formulaire.
 

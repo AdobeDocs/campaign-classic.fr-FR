@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Email Design
 role: User
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '2032'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -117,7 +117,7 @@ Voir à ce propos [cette section](defining-interactive-content.md).
 
 ## Utiliser la gestion de contenu {#using-content-management}
 
-Vous pouvez définir le contenu de la diffusion en utilisant les formulaires d&#39;une gestion de contenu, directement dans l&#39;assistant de diffusion. Pour cela, vous devez référencer le modèle de publication de la gestion de contenu à utiliser, dans l&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion.
+Vous pouvez définir le contenu de la diffusion à partir des formulaires de gestion de contenu, directement dans l&#39;assistant de diffusion. Pour cela, vous devez référencer le modèle de publication de la gestion de contenu à utiliser, dans l&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion.
 
 ![](assets/s_ncs_content_in_delivery.png)
 
@@ -144,7 +144,7 @@ Pour personnaliser la liste des émoticônes, voir cette [page](customizing-emot
 
 ## Ajouter des images {#adding-images}
 
-Les diffusions par e-mail au format HTML peuvent contenir des images. Depuis l&#39;assistant de diffusion, vous pouvez importer une page HTML contenant des images ou insérer des images directement depuis l&#39;éditeur HTML à partir de l&#39;icône **[!UICONTROL Image]**.
+Les diffusions par e-mail au format HTML peuvent contenir des images. Depuis l&#39;assistant de diffusion, vous pouvez importer une page d&#39;HTML contenant des images ou insérer des images directement à l&#39;aide de l&#39;éditeur d&#39;HTMLS via l&#39;icône **[!UICONTROL Image]**.
 
 
 ### Mécanismes de sécurisation {#img-guardrails}
@@ -166,7 +166,7 @@ Ces images peuvent être :
 
 ### Insérer et gérer des images {#manage-images}
 
-L&#39;assistant de diffusion vous permet d&#39;ajouter dans le contenu des messages des images locales ou des images stockées dans la bibliothèque. Pour cela, cliquez sur le bouton **[!UICONTROL Image]** situé dans la barre d&#39;outils du contenu HTML.
+L&#39;assistant de diffusion permet d&#39;ajouter au contenu des messages des images locales, ou des images stockées dans la bibliothèque. Pour cela, cliquez sur le bouton **[!UICONTROL Image]** situé dans la barre d&#39;outils du contenu HTML.
 
 ![](assets/s_ncs_user_image_from_library.png)
 
@@ -174,7 +174,7 @@ L&#39;assistant de diffusion vous permet d&#39;ajouter dans le contenu des messa
 >
 >Pour être visibles par les destinataires, ces images dans les messages doivent être présentes sur un serveur accessible depuis l&#39;extérieur.
 
-Pour gérer les images via l’assistant de diffusion :
+Pour gérer les images via l&#39;assistant de diffusion :
 
 1. Cliquez sur l’icône **[!UICONTROL Tracking &amp; Images]** dans la barre d’outils.
    ![](assets/s_ncs_user_email_del_img_param.png)
@@ -186,7 +186,7 @@ Pour gérer les images via l’assistant de diffusion :
 * Vous pouvez charger les images manuellement sans attendre la phase d’analyse de la diffusion. Pour ce faire, cliquez sur le lien **[!UICONTROL Charger les images tout de suite...]**.
 * Vous pouvez spécifier un autre chemin d’accès aux images sur le serveur de tracking. Pour ce faire, renseignez-le dans le champ **[!UICONTROL URL des images]**. Cette valeur remplace la valeur définie dans les paramètres de l’assistant d’installation.
 
-Dans l’assistant de diffusion, lorsque vous ouvrez un contenu HTML avec des images incluses en relatif, un message vous propose alors de charger immédiatement les images, selon les paramètres de la diffusion.
+Lorsque vous ouvrez le contenu de l’HTML avec les images incluses dans l’assistant de diffusion, un message vous donne la possibilité de télécharger immédiatement les images, en fonction des paramètres de la diffusion.
 
 ![](assets/s_ncs_user_email_del_img_local.png)
 

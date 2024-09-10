@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '1352'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -133,13 +133,13 @@ La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibili
 
 ### Etape 6 - Lancement de la création de la base {#step-6---creating-the-database}
 
-La dernière étape de l&#39;assistant permet de lancer la création de la base de données. Pour cela, cliquez sur le bouton **[!UICONTROL Démarrer]**.
+La dernière étape de l&#39;assistant permet de créer la base de données. Pour cela, cliquez sur le bouton **[!UICONTROL Démarrer]**.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
 Une fois la création de la base de données terminée, vous pourrez vous reconnecter afin de finaliser le paramétrage de l&#39;instance.
 
-Vous devez à présent lancer l’assistant de déploiement pour terminer la configuration de l’instance. Voir [Assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-wizard).
+Vous devez à présent lancer l’assistant de déploiement pour terminer la configuration de l’instance. Voir [assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 Les paramètres de connexion à la base de données associés à l’instance sont regroupés dans le fichier **`/conf/config-<instance>.xml`** enregistré dans le répertoire d’installation d’Adobe Campaign.
 
@@ -224,13 +224,13 @@ La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibili
 
 ### Etape 5 - Lancement de la création de la base {#step-5---creating-the-database}
 
-La dernière étape de l&#39;assistant permet de lancer la création de la base de données. Pour cela, cliquez sur le bouton **[!UICONTROL Démarrer]**.
+La dernière étape de l&#39;assistant permet de créer la base de données. Pour cela, cliquez sur le bouton **[!UICONTROL Démarrer]**.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
 Une fois la création de la base de données terminée, vous pourrez vous reconnecter afin de finaliser le paramétrage de l&#39;instance.
 
-Vous devez à présent lancer l’assistant de déploiement pour terminer la configuration de l’instance. Voir [Assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-wizard).
+Vous devez à présent lancer l’assistant de déploiement pour terminer la configuration de l’instance. Voir [assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 Les paramètres de connexion à la base de données associés à l’instance sont regroupés dans le fichier **`/conf/config-<instance>.xml`** enregistré dans le répertoire d’installation d’Adobe Campaign.
 
