@@ -6,15 +6,14 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: de6e86eb2304a88e836c5759b87d7f38446ed357
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Contrôle du contenu de votre message{#control-message-content}
-
 
 Pour que vos emails atteignent vos destinataires et améliorer ainsi leur taux de délivrabilité, assurez-vous qu’ils respectent un certain nombre de règles. Dans le cas contraire, le contenu de certains messages peut être détecté comme du spam. Adobe Campaign fournit plusieurs outils vous permettant de vérifier que votre contenu respecte ces règles.
 
@@ -36,7 +35,7 @@ Pour obtenir des conseils supplémentaires sur l’optimisation de la délivrabi
 
 Certains FAI vérifient la validité de l’adresse de l’expéditeur (**[!UICONTROL De]**) avant d’accepter les messages. Une adresse mal formée peut entraîner son rejet par le serveur de réception.
 
-Il faut s’assurer qu’une adresse correcte est bien renseignée au niveau de l’instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement...)]** ou dans les scénarios les plus couramment utilisés.
+Vous devez vous assurer qu&#39;une adresse correcte est bien renseignée au niveau de l&#39;instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement...]**) ou dans les scénarios les plus couramment utilisés.
 
 Pour plus d’informations à ce sujet, consultez [cette page](defining-the-email-content.md).
 
