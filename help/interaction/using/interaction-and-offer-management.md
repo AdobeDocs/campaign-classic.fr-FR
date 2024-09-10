@@ -4,7 +4,7 @@ title: Interaction et la gestion des offres
 description: Découvrez comment envoyer les meilleures offres à vos contacts en fonction des règles d’éligibilité
 feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%

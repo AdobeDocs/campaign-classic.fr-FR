@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 3307c75ed7df0fcd357dd7c684481c62e0457e04
+source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
 workflow-type: tm+mt
 source-wordcount: '2552'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -294,7 +294,7 @@ ht-degree: 100%
       + [Personnes et destinataires](reporting/using/person-people-recipients.md)
    + Analyse des populations {#analyzing-populations}
       + [À propos de l&#39;analyse descriptive](reporting/using/about-descriptive-analysis.md)
-      + [Utilisation de l’assistant d’analyse descriptive](reporting/using/using-the-descriptive-analysis-wizard.md)
+      + [Utiliser l&#39;assistant d&#39;analyse descriptive](reporting/using/using-the-descriptive-analysis-wizard.md)
       + [Paramètres des rapports](reporting/using/processing-a-report.md)
       + [Cas pratiques](reporting/using/use-cases.md)
    + Création de nouveaux rapports {#creating-new-reports}
@@ -538,7 +538,7 @@ ht-degree: 100%
       + [Suivi des simulations](interaction/using/simulation-tracking.md)
    + Diffusion d’une offre {#delivering-an-offer}
       + [À propos des canaux sortants](interaction/using/about-outbound-channels.md)
-      + [Intégration d’une offre via l’assistant](interaction/using/integrating-an-offer-via-the-wizard.md)
+      + [Intégrer une offre via l&#39;assistant](interaction/using/integrating-an-offer-via-the-wizard.md)
       + [Intégration d’une offre via un workflow](interaction/using/integrating-an-offer-via-a-workflow.md)
    + Interactions unitaires {#unitary-interactions}
       + [À propos des canaux entrants](interaction/using/about-inbound-channels.md)
@@ -772,7 +772,7 @@ ht-degree: 100%
       + [Filtrage des schémas](configuration/using/filtering-schemas.md)
       + [Limitation de l&#39;affichage des PII](configuration/using/restricting-pii-view.md)
       + [Mettre à jour la structure de la base de données](configuration/using/updating-the-database-structure.md)
-      + [Assistant d&#39;ajout de champs](configuration/using/new-field-wizard.md)
+      + [Nouvel assistant de terrain](configuration/using/new-field-wizard.md)
       + [Structure d’un schéma de données](configuration/using/structure-of-a-data-schema.md)
       + [Régénération des schémas](configuration/using/regenerating-schemas.md)
       + [Exemples d&#39;édition de schémas](configuration/using/examples-of-schemas-edition.md)

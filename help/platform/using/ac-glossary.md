@@ -6,10 +6,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
 workflow-type: tm+mt
 source-wordcount: '5959'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -245,11 +245,11 @@ Une composition de diffusion désigne un ensemble structuré d’éléments (doc
 En savoir plus sur le [publipostage direct](../../delivery/using/about-direct-mail-channel.md).
 +++
 
-+++**L’assistant de déploiement**
++++**assistant de déploiement**
 
 L’assistant de déploiement définit les paramètres de l’instance Campaign, tels que l’espace de noms par défaut, le planning de nettoyage de la base de données, les périodes de conservation des données et d’autres paramètres techniques.
 
-En savoir plus sur l’[assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-wizard).
+En savoir plus sur [l’assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-assistant).
 +++
 
 +++**Analyse descriptive**
@@ -484,7 +484,7 @@ En savoir plus sur l’[Inbox rendering](../../delivery/using/delivery-dashboard
 
 +++**Paramètres des instances**
 
-Les paramètres d’instance correspondent aux détails de configuration d’une instance Adobe Campaign. Ces paramètres sont définis dans l’assistant de déploiement (Outils> Avancé >Assistant de déploiement) ou dans les fichiers de configuration de serveur et/ou d’instance.
+Les paramètres d’instance correspondent aux détails de configuration d’une instance Adobe Campaign. Ces paramètres sont définis dans l&#39;assistant de déploiement (Outils>Avancé>Assistant de déploiement) ou dans les fichiers de configuration de serveur et/ou d&#39;instance.
 
 En savoir plus sur les [Paramètres des instances](../../installation/using/about-initial-configuration.md).
 
@@ -492,7 +492,7 @@ En savoir plus sur les [Paramètres des instances](../../installation/using/abou
 
 +++**Traitements (import et export)**
 
-Les traitements sont gérés par un système d’assistant qui simplifie l’import et l’export de données vers et depuis le produit. Par souci de simplicité et de cohérence, les traitements utilisent le système de création de modèles et peuvent être définis pour s’exécuter selon un planning.
+Les tâches sont gérées par un système assistant qui simplifie l’import et l’export de données vers et depuis le produit. Par souci de simplicité et de cohérence, les traitements utilisent le système de création de modèles et peuvent être définis pour s’exécuter selon un planning.
 
 En savoir plus sur les [Traitements d’importation et d’exportation](../../platform/using/get-started-data-import-export.md).
 +++
