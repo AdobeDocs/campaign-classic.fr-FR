@@ -5,10 +5,10 @@ description: Cas dʼutilisation de reporting
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
 workflow-type: tm+mt
 source-wordcount: '1431'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## Analyser une population {#analyzing-a-population}
 
-L&#39;exemple ci-dessous permet d&#39;explorer la population ciblée par un ensemble de newsletters via l&#39;assistant d&#39;analyse descriptive.
+L&#39;exemple suivant permet d&#39;explorer la population ciblée par un ensemble de newsletters à l&#39;aide de l&#39;assistant d&#39;analyse descriptive.
 
 Les étapes de réalisation sont présentées ci-après, les options et descriptions exhaustives sont présentées dans les autres sections de ce chapitre.
 
@@ -70,7 +70,7 @@ Les configurations possibles des différents graphiques sont détaillées dans l
 
 ### Paramétrer les statistiques à calculer {#configuring-the-statistic-to-calculate}
 
-Indiquez ensuite les calculs à effectuer sur les données collectées. Par défaut, l&#39;assistant d&#39;analyse descriptive réalise un comptage simple des valeurs.
+Indiquez ensuite les calculs à effectuer sur les données collectées. Par défaut, l&#39;assistant d&#39;analyse descriptive effectue un comptage simple des valeurs.
 
 Vous pouvez définir dans cette fenêtre la liste des statistiques à calculer.
 
@@ -80,7 +80,7 @@ Pour créer une nouvelle statistique, cliquez sur le bouton **[!UICONTROL Ajoute
 
 ### Visualiser et exploiter le rapport {#viewing-and-using-the-report}
 
-La dernière étape de l&#39;assistant affiche le tableau et le graphique.
+La dernière étape de l’assistant affiche le tableau et le graphique.
 
 Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d’outils située au-dessus de la table. Voir à ce sujet la section [Traitement du rapport](../../reporting/using/processing-a-report.md).
 
@@ -92,7 +92,7 @@ Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d
 
 **Objectif** : générer un rapport d&#39;analyse portant sur la localisation des prospects et des clients.
 
-1. Ouvrez l&#39;assistant d&#39;analyse descriptive et choisissez le mode d&#39;affichage **[!UICONTROL Graphe]** seulement.
+1. Ouvrez l&#39;assistant d&#39;analyse descriptive et sélectionnez uniquement **[!UICONTROL Graphique]**.
 
    ![](assets/s_ncs_user_report_wizard_05a.png)
 
@@ -118,7 +118,7 @@ Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d
 
 **Objectif** : analyser les domaines des emails des sociétés.
 
-1. Ouvrez l&#39;assistant d&#39;analyse descriptive et choisissez le mode d&#39;affichage en **[!UICONTROL Tableau]** seulement.
+1. Ouvrez l’assistant d’analyse descriptive et sélectionnez uniquement le mode d’affichage **[!UICONTROL Tableau]** .
 
    ![](assets/s_ncs_user_report_wizard_03a.png)
 
@@ -155,7 +155,7 @@ Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d
 
 **Objectif** : générer un rapport d&#39;analyse quantitatif sur l&#39;âge des destinataires
 
-1. Ouvrez l&#39;assistant d&#39;analyse descriptive et sélectionnez le modèle d&#39;analyse **[!UICONTROL Distribution quantitative]**.
+1. Ouvrez l&#39;assistant d&#39;analyse descriptive et sélectionnez **[!UICONTROL Distribution quantitative]** dans la liste déroulante.
 
    ![](assets/s_ncs_user_report_wizard_011a.png)
 
@@ -191,7 +191,7 @@ Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d
 
 L&#39;analyse d&#39;une population dans un workflow suppose que la population soit encore présente dans la transition. Si le workflow est lancé, le résultat concernant la population risque d&#39;être purgé de la transition. Pour effectuer une analyse, vous pouvez au choix :
 
-* détacher la transition de son activité destination et lancer le workflow pour la rendre active. Lorsque la transition clignote, vous pouvez lancer l&#39;assistant de la façon habituelle.
+* détacher la transition de son activité destination et lancer le workflow pour la rendre active. Une fois que la transition clignote, lancez l&#39;assistant de la manière habituelle.
 
   ![](assets/s_ncs_user_report_wizard_018.png)
 
@@ -199,7 +199,7 @@ L&#39;analyse d&#39;une population dans un workflow suppose que la population so
 
   ![](assets/s_ncs_user_report_wizard_020.png)
 
-  Si la population a été purgée de la transition, un message d&#39;erreur vous invite à sélectionner l&#39;option en question avant de lancer l&#39;assistant d&#39;analyse descriptive.
+  Si la population a été purgée de la transition, un message d&#39;erreur vous demande de sélectionner l&#39;option concernée avant de lancer l&#39;assistant d&#39;analyse descriptive.
 
   ![](assets/s_ncs_user_report_wizard_019.png)
 
@@ -216,7 +216,7 @@ Dans notre exemple, nous allons analyser le taux de réactivité des destinatair
 
 Pour cela, les étapes sont les suivantes :
 
-1. Ouvrez l&#39;assistant d&#39;analyse descriptive à partir du menu **[!UICONTROL Outils > Analyse descriptive]** et modifiez la table de travail par défaut. Sélectionnez **[!UICONTROL Log de suivi des destinataires]** et ajoutez un filtre pour exclure les bons à tirer et inclure les newsletters.
+1. Ouvrez l&#39;assistant d&#39;analyse descriptive à partir du menu **[!UICONTROL Outils > Analyse descriptive]** et modifiez la table de travail par défaut. Sélectionnez **[!UICONTROL Log de suivi des destinataires]** et ajoutez un filtre pour exclure les bons à tirer et inclure les newsletters.
 
    ![](assets/reporting_descriptive_sample_tracking_1.png)
 

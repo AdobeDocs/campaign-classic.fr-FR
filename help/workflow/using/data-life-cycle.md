@@ -4,10 +4,10 @@ title: Cycle de vie des données
 description: En savoir plus sur le cycle de vie des données dans les workflows
 feature: Workflows, Data Management
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Sélectionnez pour cela le menu correspondant :
 
   Ce menu permet d&#39;accéder à l&#39;assistant d&#39;analyse descriptive qui permet de produire des statistiques et des rapports sur les données de la transition.
 
-  Voir à ce propos cette [section](../../reporting/using/using-the-descriptive-analysis-wizard.md).
+  Pour plus d’informations à ce sujet, consultez cette [section](../../reporting/using/using-the-descriptive-analysis-wizard.md).
 
 Les données de la cible sont purgées au fur et à mesure de l&#39;exécution du workflow. Seule la dernière table de travail est accessible. Vous pouvez paramétrer le workflow pour que toutes les tables de travail restent accessibles. Pour cela, cochez l&#39;option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** dans les propriétés du workflow.
 

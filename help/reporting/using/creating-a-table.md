@@ -5,10 +5,10 @@ description: Création d’un tableau
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
 workflow-type: tm+mt
 source-wordcount: '2661'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -461,6 +461,6 @@ Si vous cliquez sur le lien d&#39;une des diffusions, le graphique représentant
 
 Ce type de tableau vous permet d&#39;afficher des statistiques calculées sur les données de la base.
 
-Les paramètres de création de ce type de rapport sont similaires à ceux utilisés pour l&#39;assistant d&#39;analyse descriptive. Pour plus d’informations, consultez [cette page](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template).
+Le paramétrage de ces types de rapports est similaire à celui de l&#39;assistant d&#39;analyse descriptive. Pour plus d’informations, consultez [cette page](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template).
 
 La création d&#39;un tableau croisé dynamique est présentée dans [cette section](../../reporting/using/ac-cubes.md).
