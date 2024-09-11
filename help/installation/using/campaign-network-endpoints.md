@@ -5,7 +5,7 @@ description: Points d’entrée réseau Campaign
 feature: Installation, Application Settings
 exl-id: 027ed2b6-365f-434f-9a18-2140512168e9
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
 ht-degree: 100%
 
