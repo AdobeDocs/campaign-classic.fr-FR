@@ -5,9 +5,9 @@ description: API orientées données
 feature: API
 role: Data Engineer, Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9d84c01b217579b5a291d5761a5dd2f8f8960df8
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1811'
 ht-degree: 100%
 
 ---
@@ -64,7 +64,7 @@ Cette méthode permet d&#39;effectuer des requêtes à partir de données associ
 
 Définition de la méthode &quot;ExecuteQuery&quot; dans le schéma &quot;xtk:queryDef&quot; :
 
-```
+```xml
 <method name="ExecuteQuery" const="true">
   <parameters>
     <param desc="Output XML document" name="output" type="DOMDocument" inout="out"/>
@@ -80,7 +80,7 @@ Définition de la méthode &quot;ExecuteQuery&quot; dans le schéma &quot;xtk:qu
 
 La structure du document XML de la requête est décrite dans le schéma &quot;xtk:queryDef &quot;, ce document décrit les différentes clauses d&#39;une requête SQL : &quot;select&quot;, &quot;where&quot;, &quot;order by&quot;, &quot;group by&quot;, &quot;having&quot;.
 
-```
+```xml
 <queryDef schema="schema_key" operation="operation_type">
   <select>
     <node expr="expression1">
@@ -114,7 +114,7 @@ Une sous-requête ( `<subquery>` ) peut être définie dans un élément `<condi
 
 Exemple d’un `<subquery>  : </subquery>`
 
-```
+```xml
 <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
   <subQuery schema="xtk:operatorGroup">
      <select>
@@ -143,7 +143,7 @@ La syntaxe **XPath** sert à localiser les données en fonction du schéma de d�
 
 Récupère le nom et le prénom d’un destinataire (schéma « nms:recipient ») avec un filtre sur l’e-mail.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="get">
   <!-- fields to retrieve -->
   <select>
@@ -162,7 +162,7 @@ Récupère le nom et le prénom d’un destinataire (schéma « nms:recipient 
 
 Retourne la liste des destinataires filtrés sur un dossier et le domaine de l’e-mail avec un tri décroissant sur la date de naissance.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select">
   <select>
     <node expr="@email"/>
@@ -189,14 +189,14 @@ Pour limiter le nombre d’enregistrements à retourner, il faut ajouter l’att
 
 Pour limiter à 100 le nombre d&#39;enregistrements retournés par la requête :
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select" lineCount="100">
 ...
 ```
 
 Pour récupérer les 100 enregistrements suivants, lancer de nouveau la même requête en ajoutant l&#39;attribut **startLine**.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select" lineCount="100" startLine="100">
 ...
 ```
@@ -205,7 +205,7 @@ Pour récupérer les 100 enregistrements suivants, lancer de nouveau la même re
 
 Pour compter le nombre d&#39;enregistrements sur une requête :
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="count"">
   <!-- condition on the folder and domain of the email -->
   <where>  
@@ -222,7 +222,7 @@ Pour compter le nombre d&#39;enregistrements sur une requête :
 
 Pour récupérer les adresses e-mail référencées plus d’une fois :
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select">
   <select>
     <node expr="@email"/>
@@ -244,7 +244,7 @@ Pour récupérer les adresses e-mail référencées plus d’une fois :
 
 On peut simplifier la requête en renseignant l&#39;attribut **groupBy** directement sur le champ à grouper :
 
-```
+```xml
 <select>
   <node expr="@email" groupBy="true"/>
 </select>
@@ -260,7 +260,7 @@ Voici deux exemples de parenthésages sur une même condition.
 
 * La version simple en une seule expression :
 
-  ```
+  ```xml
   <where>
     <condition expr="(@age > 15 or @age <= 45) and  (@city = 'Newton' or @city = 'Culver City') "/>
   </where>
@@ -268,7 +268,7 @@ Voici deux exemples de parenthésages sur une même condition.
 
 * La version structurée avec des éléments `<condition>` :
 
-  ```
+  ```xml
   <where>
     <condition bool-operator="AND">
       <condition expr="@age > 15" bool-operator="OR"/>
@@ -283,7 +283,7 @@ Voici deux exemples de parenthésages sur une même condition.
 
 Il est possible de remplacer l&#39;opérateur &#39;OR&#39; avec l&#39;opérateur &#39;IN&#39; lorsque plusieurs conditions portent sur le même champ :
 
-```
+```xml
 <where>
   <condition>
     <condition expr="@age IN (15, 45)"/>
@@ -300,7 +300,7 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
 
   Exemple de filtre sur le libellé du dossier :
 
-  ```
+  ```xml
   <where>
     <condition expr="[folder/@label] like 'Segment%'"/>
   </where>
@@ -308,7 +308,7 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
 
   Pour récupérer les champs du dossier à partir du schéma &quot;nms:recipient&quot; :
 
-  ```
+  ```xml
   <select>
     <!-- label of recipient folder -->
     <node expr="[folder/@label]"/>
@@ -321,7 +321,7 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
 
   Pour filtrer les destinataires abonnés au service d&#39;information &#39;Newsletter&#39; :
 
-  ```
+  ```xml
   <where>
     <condition expr="subscription" setOperator="EXISTS">
       <condition expr="@name = 'Newsletter'"/>
@@ -333,7 +333,7 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
 
   Exemple sur le lien de collection &quot;subscription&quot; :
 
-  ```
+  ```xml
   <select>
     <node expr="subscription/@label"/>
   </select>
@@ -345,7 +345,7 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
 
   Dans cet exemple, la requête retourne l’e-mail de chaque destinataire ainsi que la liste des services d’information auxquels il est abonné :
 
-  ```
+  ```xml
   <queryDef schema="nms:recipient" operation="select">
     <select>
       <node expr="@email"/>
@@ -371,7 +371,7 @@ Le binding des paramètres laisse le moteur fixer les valeurs des paramètres ut
 
 Lorsqu’une requête est créée, les valeurs « liées » sont remplacées par un caractère (? dans ODBC, `#[index]#` dans postgres...) dans le corps de la requête SQL.
 
-```
+```xml
 <select>
   <!--the value will be bound by the engine -->
   <node expr="@startDate = #2002/02/01#"/>                   
@@ -386,21 +386,6 @@ Pour ne pas binder un paramètre, il faut renseigner l&#39;attribut &quot;noSqlB
 >
 >Dans le cas où la requête comprend des instructions du type &quot;order-by&quot; ou &quot;group-by&quot;, les moteurs de base de données ne peuvent pas &quot;binder&quot; les valeurs. Il est donc indispensable de placer dans la même requête l&#39;attribut @noSqlBind=&quot;true&quot; sur les instructions &quot;select&quot; et/ou &quot;where&quot;.
 
-#### Astuce pour construire une requête :  {#query-building-tip-}
-
-Pour vous aider à trouver la syntaxe d&#39;une requête, vous pouvez mettre au point la requête à partir du requêteur générique dans la console cliente Adobe Campaign (menu **[!UICONTROL Outils/Requêteur générique...]**). Pour cela :
-
-1. Sélectionnez les données à récupérer :
-
-   ![](assets/s_ncs_integration_webservices_queyr1.png)
-
-1. Définissez le critère de filtrage :
-
-   ![](assets/s_ncs_integration_webservices_queyr2.png)
-
-1. Exécutez la requête et appuyez sur les touches CTRL+F4 pour visualiser le code source de la requête.
-
-   ![](assets/s_ncs_integration_webservices_queyr3.png)
 
 ### Format du document de sortie {#output-document-format}
 
@@ -414,7 +399,7 @@ Exemple de retour à partir du schéma &quot;nms:recipient&quot; sur une opérat
 
 Sur une opération de type &quot;select&quot;, le document retourné est une énumération d&#39;éléments :
 
-```
+```xml
 <!-- the name of the first element does not matter -->
 <recipient-collection>   
   <recipient email="john.doe@adobe.com" lastName"Doe" firstName="John"/>
@@ -425,7 +410,7 @@ Sur une opération de type &quot;select&quot;, le document retourné est une én
 
 Exemple de document de retour sur une opération de type &quot;count&quot; :
 
-```
+```xml
 <recipient count="3"/>
 ```
 
@@ -433,7 +418,7 @@ Exemple de document de retour sur une opération de type &quot;count&quot; :
 
 Un alias permet de modifier l’emplacement des données dans le document en sortie. L’attribut **alias** doit être renseigné avec un XPath sur le champ correspondant.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="get">
   <select>
     <node expr="@firstName" alias="@firstName"/>
@@ -445,13 +430,13 @@ Un alias permet de modifier l’emplacement des données dans le document en sor
 
 Retourne :
 
-```
+```xml
 <recipient My_folder="Recipients" First name ="John" lastName="Doe"/>
 ```
 
 A la place de :
 
-```
+```xml
 <recipient firstName="John" lastName="Doe">
   <folder label="Recipients"/>
 </recipient>
@@ -461,7 +446,7 @@ A la place de :
 
 * Requête:
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -486,7 +471,7 @@ A la place de :
 
 * Réponse :
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -511,7 +496,7 @@ L&#39;appel ne retourne pas de données, hormis les erreurs.
 
 Définition des méthodes &quot;Write&quot; et &quot;WriteCollection&quot; dans le schéma &quot;xtk:session&quot; :
 
-```
+```xml
 <method name="Write" static="true">
   <parameters>
     <param name="doc" type="DOMDocument" desc="Difference document"/>
@@ -548,7 +533,7 @@ Il est possible de forcer le type d&#39;opération en renseignant l&#39;attribut
 
 Mise à jour ou insertion d’un destinataire (opération « insertOrUpdate » implicite) avec son adresse e-mail, sa date de naissance et sa ville :
 
-```
+```xml
 <recipient xtkschema="nms:recipient" email="john.doe@adobe.com" birthDate="1956/05/04" folder-id=1203 _key="@email, [@folder-id]">
   <location city="Newton"/>
 </recipient>
@@ -556,7 +541,7 @@ Mise à jour ou insertion d’un destinataire (opération « insertOrUpdate »
 
 Suppression d&#39;un destinataire :
 
-```
+```xml
 <recipient xtkschema="nms:recipient" _operation="delete" email="rene.dupont@adobe.com" folder-id=1203 _key="@email, [@folder-id]"/>
 ```
 
@@ -568,7 +553,7 @@ Suppression d&#39;un destinataire :
 
 Mise à jour ou insertion sur plusieurs destinataires :
 
-```
+```xml
 <recipient-collection xtkschema="nms:recipient">    
   <recipient email="john.doe@adobe.com" firstName="John" lastName="Doe" _key="@email"/>
   <recipient email="peter.martinez@adobe.com" firstName="Peter" lastName="Martinez" _key="@email"/>
@@ -582,7 +567,7 @@ Mise à jour ou insertion sur plusieurs destinataires :
 
 Associer le dossier sur un destinataire à partir de son nom interne (@name).
 
-```
+```xml
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
   <folder name="Folder2" _operation="none"/>
 </recipient>
@@ -600,7 +585,7 @@ La définition de la clé de l’entité principale (« nms:recipient ») est 
 
 Mettre à jour la société (table liée de schéma &quot;cus:company&quot;) à partir d&#39;un destinataire :
 
-```
+```xml
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
   <company name="adobe" code="ERT12T" _key="@name" _operation="update"/>
 </recipient>
@@ -610,7 +595,7 @@ Mettre à jour la société (table liée de schéma &quot;cus:company&quot;) à 
 
 Ajouter un destinataire dans un groupe avec la table de relation des groupes (&quot;nms:rcpGrpRel&quot;) :
 
-```
+```xml
 <recipient _key="@email" email="martin.ledger@adobe.net" xtkschema="nms:recipient">
   <rcpGrpRel _key="[rcpGroup/@name]">
     <rcpGroup name="GRP1"/>
@@ -630,7 +615,7 @@ Par défaut, pour mettre à jour les éléments de collection XML, il faut rense
 
 * Requête:
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -646,7 +631,7 @@ Par défaut, pour mettre à jour les éléments de collection XML, il faut rense
 
 * Réponse :
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -658,7 +643,7 @@ Par défaut, pour mettre à jour les éléments de collection XML, il faut rense
 
   Retour avec erreur :
 
-  ```
+  ```xml
   <?xml version='1.0'?>
   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
