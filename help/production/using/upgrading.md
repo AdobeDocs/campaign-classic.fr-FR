@@ -8,16 +8,14 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+source-git-commit: 1ab08a89b17fca20e9497696417ecba580e26802
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Upgrade vers un nouveau build (On-Premise){#upgrading}
-
-
 
 Avant de commencer la mise à jour, déterminez et confirmez la version d’Adobe Campaign vers laquelle elle s’effectue et consultez les [notes de mises à jour](../../rn/using/latest-release.md) 
 
@@ -119,15 +117,17 @@ Dans un environnement Linux, procédez comme suit pour mettre à jour Adobe Cam
 
 [En savoir plus sur la disponibilité de la console client](../../installation/using/client-console-availability-for-windows.md).
 
->[!NOTE]
->
->À partir du build 8757, la bibliothèque tierce n’est plus nécessaire.
-
 ### Obtenir les packages à jour {#obtain-updated-packages}
 
 Commencez par récupérer les deux packages d’Adobe Campaign mis à jour : connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html) à l&#39;aide de vos informations d&#39;identification d&#39;utilisateur. En savoir plus sur la distribution de logiciels dans [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 
 Le fichier est **nlserver6-v7-XXX.rpm**
+
+>[!AVAILABILITY]
+>
+>À compter de la version 7.4.1, les bibliothèques pour les packages RPM Linux ne sont plus incluses dans Campaign. Vous devez installer ces bibliothèques.
+> 
+
 
 ### Effectuer la mise à jour {#perform-an-update}
 
