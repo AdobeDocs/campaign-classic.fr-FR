@@ -5,7 +5,7 @@ description: En savoir plus sur la création de compte API Adobe
 role: User, Admin
 level: Beginner
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
-source-git-commit: 9516101771899e132dbd3d1344c833e82714f775
+source-git-commit: 2ce7a91aaddb0df412fc0002ff1463d48b2b7c3c
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 84%
