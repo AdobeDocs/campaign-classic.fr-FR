@@ -5,10 +5,10 @@ description: À propos des services web
 feature: API
 role: Data Engineer, Developer
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '645'
+ht-degree: 96%
 
 ---
 
@@ -31,16 +31,16 @@ Afin d’utiliser les API Adobe Campaign, il est conseillé de posséder des no
 
 * Javascript
 * protocole SOAP
-* modèle de données Adobe Campaign
+* Modèle de données Adobe Campaign
 
 ## Utilisation des API Adobe Campaign {#using-adobe-campaign-apis}
 
 Adobe Campaign utilise deux types d’API :
 
-* Les API génériques d’accès aux données qui permettent d’interroger les données du modèle de données. Pour plus d&#39;informations, consultez la section [API orientées données](../../configuration/using/data-oriented-apis.md).
+* API génériques d’accès aux données pour interroger les données du modèle de données. Pour plus d&#39;informations, consultez la section [API orientées données](../../configuration/using/data-oriented-apis.md).
 * Les API spécifiques métier qui permettent d&#39;agir sur chaque type d’objet : diffusions, workflows, abonnements, etc. Pour plus d&#39;informations, consultez la section [API orientées métier](../../configuration/using/business-oriented-apis.md).
 
-Pour développer des API et interagir avec Adobe Campaign, vous devez connaître votre modèle de données. Adobe Campaign permet de générer une description complète de la base. Pour plus d&#39;informations, consultez la section [Description du modèle](../../configuration/using/data-oriented-apis.md#description-of-the-model).
+Pour développer des API et interagir avec Adobe Campaign, vous devez connaître votre modèle de données. Adobe Campaign permet de générer une description complète de la base. Pour plus d&#39;informations, consultez la section [Description du modèle](../../configuration/using/data-oriented-apis.md#description-of-the-model).
 
 ## Appels SOAP {#soap-calls}
 

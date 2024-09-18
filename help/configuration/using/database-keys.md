@@ -5,9 +5,9 @@ description: Présentation de la gestion des clés dans les schémas de données
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '619'
 ht-degree: 92%
 
 ---

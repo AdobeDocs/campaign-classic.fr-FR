@@ -5,10 +5,10 @@ description: Bonnes pratiques en matière de reporting Campaign
 feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 99%
+source-wordcount: '852'
+ht-degree: 97%
 
 ---
 
@@ -97,7 +97,7 @@ Les recommandations ci-dessus permettent d&#39;optimiser au maximum le calcul de
 
 Adobe Campaign vous recommande, en complément, les axes d&#39;optimisation suivants :
 
-* Travailler sur votre modèle de données : les champs indexés doivent être utilisés prioritairement afin d&#39;améliorer les performances de calcul.
+* Travaillez sur votre modèle de données : les champs indexés doivent être utilisés principalement pour améliorer les formules de calcul.
 
   Pour repérer rapidement un champ indexé, observez le nom de la colonne dans l&#39;interface d&#39;Adobe Campaign : la flèche de tri est soulignée en rouge lorsque le champ est indexé.
 

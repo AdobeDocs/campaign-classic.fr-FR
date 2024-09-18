@@ -5,18 +5,18 @@ description: API orientées données
 feature: API
 role: Data Engineer, Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: 9d84c01b217579b5a291d5761a5dd2f8f8960df8
+source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '1811'
-ht-degree: 100%
+source-wordcount: '1813'
+ht-degree: 99%
 
 ---
 
-# API orientées données{#data-oriented-apis}
+# API orientées données {#data-oriented-apis}
 
-Les API orientées données permettent d’adresser le modèle de données dans son intégralité.
+Les API orientées données vous permettent de traiter l’ensemble du modèle de données.
 
-## Principe du modèle de données {#overview-of-the-datamodel}
+## Présentation du modèle de données {#overview-of-the-datamodel}
 
 Adobe Campaign ne propose pas une API de lecture dédiée par entité (pas de fonction de type getRecipient, getDelivery, etc.). Vous devez utiliser les méthodes de lecture et modification des données, QUERY &amp; WRITER, pour accéder aux données du modèle.
 
