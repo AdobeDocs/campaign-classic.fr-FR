@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: ef89551952cfbfd525a4dff716fe4676c1252d05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1653'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -172,7 +172,7 @@ La console cliente d’Adobe Campaign Classic ne peut plus s’exécuter sur l
 
 ### Systèmes d’exploitation {#o-s-eol}
 
-* À compter de la version 7.3.1, Adobe Campaign n’est plus compatible avec Windows 8 et Windows Server 2012.
+* À partir de la version 7.3.1, Adobe Campaign n’est plus compatible avec Windows 8 et Windows Server 2012.
 
 * À partir de la version 22.1, Adobe Campaign n’est plus compatible avec CentOs 8.x (64 bits). CentOS Linux 8 a atteint sa fin de vie (EOL) le 31 décembre 2021. [En savoir plus](https://www.centos.org/centos-linux-eol/).
 

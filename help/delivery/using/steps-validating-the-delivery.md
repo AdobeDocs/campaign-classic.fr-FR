@@ -7,9 +7,9 @@ feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1803'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ Les options disponibles sont les suivantes :
 
 * La première option permet de conserver les doublons du BAT.
 * Les deux options ci-dessous permettent de conserver les destinataires qui se trouvent sur la liste bloquée et les adresses en quarantaine. Voir la description de ces options pour la cible principale dans la section [Personnaliser les paramètres d’exclusion](steps-defining-the-target-population.md#customizing-exclusion-settings). Contrairement à la cible d’une diffusion, où ces adresses sont exclues par défaut, elles sont conservées par défaut pour la cible d’un BAT.
-* L&#39;option **[!UICONTROL Conserver le code de diffusion pour le BAT]** permet d&#39;attribuer au BAT le même code de diffusion que celui défini pour la diffusion à laquelle il se rapporte. Ce code est spécifié dans la première étape de l’assistant de diffusion.
+* L’option **[!UICONTROL Conserver le code de diffusion pour le BAT]** permet d’associer au BAT le même code de diffusion que celui défini pour la diffusion à laquelle il se rapporte. Ce code est spécifié dans la première étape de l’assistant de diffusion.
 * Par défaut, l’objet du BAT est précédé du préfixe « BAT # », où # correspond au numéro du BAT. Vous pouvez modifier ce préfixe dans le champ **[!UICONTROL Préfixe de libellé]**.
 
 ## Processus de validation avec des typologies {#validation-process-with-typologies}

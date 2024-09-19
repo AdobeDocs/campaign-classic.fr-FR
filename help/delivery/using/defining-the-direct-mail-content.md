@@ -7,9 +7,9 @@ feature: Direct Mail
 role: User
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Par défaut, le fichier d&#39;extraction est créé et stocké sur le serveur. V
 
 ![](assets/s_ncs_user_mail_delivery_local_file.png)
 
-Pour une diffusion par courrier, le contenu de l&#39;extraction est défini à partir du lien **[!UICONTROL Editer le format du fichier d&#39;extraction...]**.
+Pour une diffusion par courrier, le contenu de l’extraction est défini à partir du lien **[!UICONTROL Éditer le format du fichier d’extraction...]**.
 
 ![](assets/s_ncs_user_mail_delivery_format_link.png)
 
-Ce lien permet d&#39;accéder à l&#39;assistant d&#39;extraction et de définir les informations (colonnes) à exporter dans le fichier de sortie.
+Ce lien permet d’accéder à l’assistant d’extraction afin de définir les informations (colonnes) à exporter dans le fichier de sortie.
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
@@ -35,4 +35,4 @@ Il est possible d’insérer une URL personnalisée dans le fichier d’extracti
 
 >[!NOTE]
 >
->Cet assistant comprend les étapes de l’assistant d’exportation décrites dans la section [Prise en main](../../platform/using/executing-export-jobs.md) .
+>Cet assistant reprend les étapes de l’assistant d’export décrites dans la section [Prise en main](../../platform/using/executing-export-jobs.md).

@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -92,9 +92,9 @@ Par défaut, Adobe Campaign fournit un modèle par type d’application web dis
 >
 >Vous pouvez transformer une application web existante en modèle. Pour cela, sélectionnez le formulaire concerné et cliquez sur le bouton droit de la souris. Choisissez **[!UICONTROL Actions > Sauver comme modèle]**.
 
-Vous pouvez créer des modèles à partir du nœud **[!UICONTROL Ressources > Modèles > Modèles d&#39;applications web]** de l&#39;arborescence Adobe Campaign.
+Vous pouvez créer des modèles à partir du nœud **[!UICONTROL Ressources > Modèles > Modèles d’applications web]** de l’arborescence Adobe Campaign.
 
-L&#39;assistant de création vous permet de sélectionner les options à activer, comme dans l&#39;exemple ci-dessous.
+L’assistant de création vous permet de sélectionner les options à activer, comme dans l’exemple ci-dessous.
 
 ![](assets/webapp_create_template.png)
 

@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2544'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Un package de données peut être construit à la main à partir de n&#39;import
 
 Les packages peuvent être exportés de trois manières différentes :
 
-* L’ **[!UICONTROL assistant d’exportation de packages]** vous permet d’exporter un ensemble d’objets dans un seul package. Pour plus d&#39;informations, consultez la section [Exporter un ensemble d’objets dans un package](#exporting-a-set-of-objects-in-a-package)
+* L’**[!UICONTROL assistant d’export de package]** permet d’exporter un ensemble d’objets dans un package unique. Pour plus d&#39;informations, consultez la section [Exporter un ensemble d’objets dans un package](#exporting-a-set-of-objects-in-a-package)
 * Un **objet unique** peut être directement exporté dans un package en cliquant dessus avec le bouton droit de la souris et en sélectionnant **[!UICONTROL Actions > Exporter dans un package]**.
 * Les **définitions de packages** vous permettent de créer une structure de package dans laquelle vous ajoutez des objets qui seront exportés ultérieurement dans un package. Voir à ce sujet la section [Gérer les définitions de packages](#managing-package-definitions).
 
@@ -99,11 +99,11 @@ Une fois un package exporté, vous pourrez l&#39;importer ainsi que toutes les e
 
 ### Exporter un ensemble d&#39;objets dans un package {#exporting-a-set-of-objects-in-a-package}
 
-L&#39;assistant d&#39;export de package est accessible à partir du menu **[!UICONTROL Outils > Avancé > Exporter le package..]** de la console cliente Adobe Campaign.
+L’assistant d’export de package est accessible à partir du menu **[!UICONTROL Outils > Avancé > Export de package...]** de la console cliente Adobe Campaign.
 
 ![](assets/ncs_datapackage_typepackage.png)
 
-Pour les trois types de forfaits, l&#39;assistant propose les étapes suivantes :
+Pour les trois types de package, l’assistant propose les étapes suivantes :
 
 1. Indiquez la liste des entités à exporter, par type de document :
 
@@ -303,7 +303,7 @@ Pour exporter un package à partir d’une définition de package, suivez les é
 
 ## Importer des packages {#importing-packages}
 
-L’assistant d’import de package est accessible à partir du menu principal **[!UICONTROL Outils > Avancé > Import de package]** de la console cliente Adobe Campaign.
+L’assistant d’import de package est accessible à partir du menu principal **[!UICONTROL Outils > Avancé > Import de package]** de la console cliente Adobe Campaign.
 
 Vous pouvez importer le package d’un export réalisé antérieurement, par exemple à partir d’une autre instance Adobe Campaign, ou un [package intégré](../../installation/using/installing-campaign-standard-packages.md), selon les conditions de votre licence.
 

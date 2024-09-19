@@ -7,9 +7,9 @@ feature: SMS
 role: User
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Pour créer une diffusion SMS, procédez comme suit :
 
 Pour définir le contenu du SMS, procédez comme suit :
 
-1. Saisissez le contenu du message dans la section **[!UICONTROL Contenu texte]** de l&#39;assistant. Les boutons de la barre d&#39;outils permettent d&#39;importer, d&#39;enregistrer ou de rechercher dans un contenu. Le dernier bouton permet d&#39;insérer des champs de personnalisation.
+1. Saisissez le contenu du message dans la section **[!UICONTROL Contenu texte]** de l’assistant. Les boutons de la barre d’outils permettent d’importer, d’enregistrer ou de rechercher dans un contenu. Le dernier bouton permet d&#39;insérer des champs de personnalisation.
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 

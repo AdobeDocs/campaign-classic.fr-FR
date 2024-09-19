@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow de planificateur
 feature: Workflows
 exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '339'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Le planificateur définit le planning d&#39;activation de la transition. Pour le
 
 ![](assets/s_user_segmentation_scheduler.png)
 
-Un assistant permet de définir la fréquence et la période de validité de l&#39;activité. Les étapes de paramétrage sont les suivantes :
+Un assistant permet de définir la fréquence et la période de validité de l’activité. Les étapes de configuration sont les suivantes :
 
 1. Sélectionnez la fréquence d&#39;activation et cliquez sur **[!UICONTROL Suivant]**.
 

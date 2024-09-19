@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,9 +92,9 @@ Les réponses à un questionnaire peuvent être exportées dans un fichier exter
 
    ![](assets/s_ncs_admin_survey_logs_export_menu.png)
 
-   Indiquez ensuite les informations à exporter et fichier d&#39;enregistrement.
+   Indiquez ensuite les informations à exporter et le fichier d’enregistrement.
 
-   Vous pouvez paramétrer le contenu et le format du fichier de sortie dans l&#39;assistant d&#39;export.
+   Vous pouvez configurer le contenu et le format du fichier de sortie dans l’assistant d’export.
 
    Ainsi, vous pouvez :
 

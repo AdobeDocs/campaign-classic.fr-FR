@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1232'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 92%
 >* Assurez-vous que votre système et vos versions openssl sont compatibles avec Campaign dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md). Les versions obsolètes peuvent avoir un impact sur votre authentification LDAP.
 >
 
-La configuration LDAP est réalisée dans l&#39;assistant de déploiement. L&#39;option **[!UICONTROL Intégration LDAP]** doit être sélectionnée dans la première étape de configuration. Voir [assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-assistant).
+La configuration LDAP est réalisée dans l’assistant de déploiement. L’option **[!UICONTROL Intégration LDAP]** doit être sélectionnée dans la première étape de configuration. Voir [Assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 La fenêtre correspondante permet de configurer l&#39;identification des utilisateurs Adobe Campaign via l&#39;annuaire LDAP spécifié.
 
@@ -35,21 +35,21 @@ La fenêtre correspondante permet de configurer l&#39;identification des utilisa
 * Indiquez l&#39;adresse du serveur LDAP dans le champ **[!UICONTROL Serveur LDAP]**. Vous pouvez ajouter le numéro de port. Par défaut, le port utilisé est le 389.
 * Sélectionnez dans la liste déroulante le mécanisme d&#39;authentification des utilisateurs :
 
-   * Mot de passe crypté (**md5**) - Mode par défaut.
+   * Mot de passe chiffré (**md5**) : mode par défaut.
 
-   * Mot de passe en texte brut + SSL (**TLS**) - L’ensemble de la procédure d’authentification (mot de passe inclus) est chiffrée. Le port sécurisé 636 ne doit pas être utilisé dans ce mode : Adobe Campaign passe automatiquement en mode sécurisé.
+   * Mot de passe en texte brut + SSL (**TLS**) : l’ensemble de la procédure d’authentification (mot de passe inclus) est chiffrée. Le port sécurisé 636 ne doit pas être utilisé dans ce mode : Adobe Campaign passe automatiquement en mode sécurisé.
 
      Lorsque vous utilisez ce mode d&#39;authentification, sous Linux, le certificat est vérifié par la bibliothèque client openLDAP. Nous vous recommandons d&#39;utiliser un certificat SSL valide afin que la procédure d&#39;authentification soit chiffrée. Dans le cas contraire, les informations seront passées en clair.
 
      Le certificat est également vérifié sous Windows.
 
-   * Windows NT LAN Manager (**NTLM**) : authentification propriétaire Windows. Le champ **[!UICONTROL Identifiant unique]** est utilisé pour le nom de domaine seulement.
+   * Windows NT LAN Manager (**NTLM**) : authentification propriétaire Windows. Le champ **[!UICONTROL Identifiant unique]** est utilisé pour le nom de domaine seulement.
 
-   * Authentification par mot de passe distribué (**DPA**) - Authentification propriétaire Windows. Le champ **[!UICONTROL Identifiant unique]** n&#39;est utilisé que pour le nom de domaine (domaine.com).
+   * Authentification par mot de passe distribué (**DPA**) : authentification propriétaire Windows. Le champ **[!UICONTROL Identifiant unique]** n’est utilisé que pour le nom de domaine (domaine.com).
 
-   * Mot de passe en texte brut : aucun chiffrement (utilisé en phase de test uniquement).
+   * Mot de passe en texte brut : aucun chiffrement (utiliser en test uniquement).
 
-* Choisissez le mode d&#39;identification des utilisateurs : **[!UICONTROL Composer automatiquement l&#39;identifiant unique de l&#39;utilisateur]** (voir l&#39;étape [Calcul de l&#39;identifiant unique](#distinguished-name-calculation)) ou **[!UICONTROL Rechercher l&#39;identifiant unique de l&#39;utilisateur dans l&#39;annuaire]** (voir l&#39;étape [Recherche des identifiants](#searching-for-identifiers)).
+* Choisissez le mode d’identification des utilisateurs et utilisatrices : **[!UICONTROL Composer automatiquement l’identifiant unique de l’utilisateur ou de l’utilisatrice]** (voir l’étape [Calcul de l’identifiant unique](#distinguished-name-calculation)) ou **[!UICONTROL Rechercher l’identifiant unique de l’utilisateur ou de l’utilisatrice dans l’annuaire]** (voir l’étape [Recherche des identifiants](#searching-for-identifiers)).
 
 ## Compatibilité {#compatibility}
 

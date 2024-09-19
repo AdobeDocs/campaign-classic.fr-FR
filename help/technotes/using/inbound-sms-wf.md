@@ -5,9 +5,9 @@ description: Activité de workflow de SMS entrants pour une infrastructure de mi
 feature: Technote, SMS
 exl-id: 756039b2-5f57-4dc5-8166-a421206b886b
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 94%
    </element>
    ```
 
-1. Pour appliquer les modifications apportées aux schémas, lancez l&#39;assistant de mise à jour de la base de données. Cet assistant est accessible via **Outils** > **Avancé** > **Mise à jour de la structure de la base de données**. Il vérifie que la structure physique de la base de données correspond bien à sa description logique et exécute les scripts de mise à jour SQL. [En savoir plus](../../configuration/using/updating-the-database-structure.md)
+1. Pour appliquer les modifications apportées dans les schémas, lancez l’assistant de mise à jour de la base de données. Cet assistant est accessible via **Outils** > **Avancé** > **Mise à jour de la structure de la base de données**. Il vérifie que la structure physique de la base de données correspond bien à sa description logique et exécute les scripts de mise à jour SQL. [En savoir plus](../../configuration/using/updating-the-database-structure.md)
 
 1. Arrêtez et sauvegardez votre workflow contenant l’**Activité Réception de SMS**.
 

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '776'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -28,21 +28,21 @@ Une mise à jour automatique peut être configurée via un workflow. Voir à ce 
 
 ## Réaliser une mise à jour en masse {#performing-a-mass-update}
 
-Les mises à jour manuelles sont commandées à partir du menu contextuel **[!UICONTROL Actions]** affiché à partir du bouton droit de la souris sur le ou les destinataires sélectionnés, ou à partir de l&#39;icône **[!UICONTROL Actions]**.
+Les mises à jour manuelles sont commandées à partir du menu de raccourci **[!UICONTROL Actions]** affiché à partir du bouton droit de la souris sur les personnes destinataires sélectionnées, ou à partir de l’icône **[!UICONTROL Actions]**.
 
 ![](assets/s_ncs_user_action_icon.png)
 
-Deux types de mises à jour sont possibles : mise à jour en masse pour un ensemble de destinataires et fusion d&#39;informations entre deux profils. Pour chaque action, un assistant vous permet de paramétrer la mise à jour.
+Deux types de mises à jour sont possibles : mise à jour en masse pour un ensemble de destinataires et fusion d&#39;informations entre deux profils. Pour chaque action, un assistant vous permet de configurer la mise à jour.
 
 ### Mise à jour en masse {#mass-update}
 
-Pour une mise à jour en masse, utilisez l&#39;option **[!UICONTROL Action > Mettre à jour en masse les lignes sélectionnées...]**. L’assistant vous aide à configurer et à exécuter la mise à jour.
+Pour une mise à jour en masse, utilisez l’option **[!UICONTROL Action > Mettre à jour en masse les lignes sélectionnées...]**. L’assistant vous aide à configurer et lancer la mise à jour.
 
-La première étape de l&#39;assistant consiste à spécifier le ou les champs à mettre à jour.
+La première étape de l’assistant spéficie le ou les champs sur lesquels porte la mise à jour.
 
-La section gauche de l&#39;assistant affiche la liste des champs disponibles. Utilisez le champ **[!UICONTROL Rechercher]** pour lancer une recherche parmi ces champs. Appuyez sur la touche **Entrée** pour parcourir la liste. Les libellés des champs qui correspondent à votre saisie apparaissent en gras, comme dans l&#39;exemple ci-dessous.
+La section gauche de l’assistant affiche la liste des champs disponibles. Utilisez le champ **[!UICONTROL Rechercher]** pour lancer une recherche parmi ces champs. Appuyez sur la touche **Entrée** pour parcourir la liste. Les libellés des champs qui correspondent à votre saisie apparaissent en gras, comme dans l&#39;exemple ci-dessous.
 
-Double-cliquez sur le ou les champs à mettre à jour pour les afficher dans la section droite de l&#39;assistant.
+Double-cliquez sur le ou les champs à mettre à jour afin de les afficher dans la section droite de l’assistant.
 
 ![](assets/s_ncs_user_update_wizard01_1.png)
 
@@ -60,19 +60,19 @@ Vous pouvez définir des filtres pour l&#39;affichage dans cette fenêtre de ré
 
 ![](assets/s_ncs_user_update_wizard01_3.png)
 
-Fermez cette fenêtre et cliquez sur **[!UICONTROL Suivant]** pour afficher la deuxième étape de l’assistant de mise à jour. Cette étape permet de lancer la mise à jour à partir du bouton **[!UICONTROL Démarrer]**.
+Fermez cette fenêtre et cliquez sur **[!UICONTROL Suivant]** pour afficher la seconde étape de l’assistant de mise à jour. Cette étape permet de lancer la mise à jour à partir du bouton **[!UICONTROL Démarrer]**.
 
 ![](assets/s_ncs_user_update_wizard01_4.png)
 
-Les informations relatives à l&#39;exécution de la mise à jour sont affichées dans la section supérieure de l&#39;assistant.
+Les informations relatives à l’exécution de la mise à jour sont affichées dans la section supérieure de l’assistant.
 
-Le bouton **[!UICONTROL Arrêter]** permet d&#39;annuler la mise à jour. Toutefois, certains enregistrements peuvent avoir été mis à jour : l&#39;arrêt du traitement n&#39;annulera pas ces mises à jour. La barre de progression indique l&#39;avancement de l&#39;opération.
+Le bouton **[!UICONTROL Arrêter]** permet d’annuler la mise à jour. Toutefois, certains enregistrements peuvent avoir été mis à jour : l’arrêt du traitement n’annulera pas ces mises à jour. La barre de progression indique l’avancement de l’opération.
 
 ### Fusion de données {#merge-data}
 
-Sélectionnez **[!UICONTROL Fusionner les lignes sélectionnées...]** pour lancer la fusion de deux profils de destinataires. Les profils à fusionner doivent être sélectionnés avant de sélectionner l&#39;option. La fusion est configurée et lancée à l’aide d’un assistant.
+Sélectionnez **[!UICONTROL Fusionner les lignes sélectionnées...]** pour lancer la fusion de deux profils de destinataires. Les deux profils à fusionner doivent être sélectionnés avant de choisir l’option. La fusion est configurée et lancée à l’aide d’un assistant.
 
-L’assistant affiche les valeurs à récupérer pour chaque champ renseigné dans l’un ou l’autre des profils sources. Si un ou plusieurs champs sont renseignés dans les deux profils à fusionner avec des valeurs différentes, ils sont affichés dans la section **[!UICONTROL Liste des conflits]**. Vous pouvez alors choisir le profil par défaut en utilisant les boutons radio situés sous cette liste, comme dans l&#39;exemple suivant :
+L’assistant affiche les valeurs à récupérer pour chaque champ renseigné dans l’un ou l’autre des profils source. Si un ou plusieurs champs sont renseignés dans les deux profils à fusionner avec des valeurs différentes, ils sont affichés dans la section **[!UICONTROL Liste des conflits]**. Vous pouvez alors choisir le profil par défaut en utilisant les boutons radio situés sous cette liste, comme dans l&#39;exemple suivant :
 
 ![](assets/s_ncs_user_merge_wizard01_1.png)
 
@@ -95,7 +95,7 @@ Le contenu d&#39;une liste peut être exporté. Pour configurer et lancer l&#39;
 
    ![](assets/s_ncs_user_export_list_start.png)
 
-   Pour plus d&#39;informations sur la configuration de l&#39;assistant d&#39;export, reportez-vous à [cette section](../../platform/using/executing-export-jobs.md).
+   Pour en savoir plus sur la configuration de l’assistant d’export, consultez [cette section](../../platform/using/executing-export-jobs.md).
 
 ## S’abonner à un service {#subscribing-to-a-service}
 

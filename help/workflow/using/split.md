@@ -5,9 +5,9 @@ description: En savoir plus sur l'activité de workflow de partage
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2169'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,9 +42,9 @@ Pour créer un sous-ensemble :
    >
    >Vous pouvez filtrer les données contenues dans deux bases externes (FDA) maximum.
 
-1. Définissez éventuellement un nombre maximum d&#39;enregistrements à extraire de la cible pour créer le sous-ensemble. Pour cela, cochez l&#39;option **[!UICONTROL Limiter les enregistrements sélectionnés]** et cliquez sur le lien **[!UICONTROL Editer...]**.
+1. Définissez éventuellement un nombre maximum d&#39;enregistrements à extraire de la cible pour créer le sous-ensemble. Pour cela, cochez l’option **[!UICONTROL Limiter les enregistrements sélectionnés]** et cliquez sur le lien **[!UICONTROL Éditer...]**.
 
-   Un assistant permet de choisir le mode de sélection des enregistrements de ce sous-ensemble. La procédure est décrite dans la section [Limiter le nombre d&#39;enregistrements des sous-ensembles](#limiting-the-number-of-subset-records).
+   Un assistant vous permet de choisir le mode de sélection des enregistrements de ce sous-ensemble. La procédure est décrite dans la section [Limiter le nombre d&#39;enregistrements des sous-ensembles](#limiting-the-number-of-subset-records).
 
    ![](assets/s_user_segmentation_partage4.png)
 

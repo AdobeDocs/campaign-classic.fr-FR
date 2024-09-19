@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1373'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ Pour que l’accès au formulaire soit possible, il doit être en production et 
 
 ### Diffuser un formulaire par email {#delivering-a-form-via-email}
 
-Lorsque vous diffusez une invitation par courrier électronique, vous pouvez utiliser l’option **[!UICONTROL Adobe Campaign Encryption]** pour la réconciliation des données. Pour cela, accédez à l&#39;assistant de diffusion et adaptez le lien vers le formulaire en ajoutant le paramètre suivant :
+Lorsque vous diffusez une invitation par e-mail, vous pouvez utiliser l’option **[!UICONTROL Chiffrement Adobe Campaign]** pour assurer la réconciliation des données. Pour cela, accédez à l’assistant de diffusion et adaptez le lien vers le formulaire en ajoutant le paramètre suivant :
 
 ```
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">

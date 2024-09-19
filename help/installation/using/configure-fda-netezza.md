@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ La connexion à une base de données externe Netezza en FDA requiert les paramé
 1. Installez les pilotes ODBC pour Netezza, en fonction du système d&#39;exploitation que vous utilisez :
 
    * **nz-linuxclient-v7.2.0.0.tar.gz pour Linux. Sélectionnez le dossier correspondant à votre système d&#39;exploitation (linux ou linux64) et lancez la commande unpack. Vous pouvez laisser l&#39;installation s&#39;effectuer dans le répertoire par défaut proposé : &quot;/usr/local/nz&quot;.**
-   * **nz-winclient-v7.2.0.0.zip** pour Windows. Décompressez le fichier et lancez le script exécutable correspondant à votre système d’exploitation : nzodbcsetup.exe ou nzodbcsetup64.exe. Suivez les instructions de l’assistant pour terminer l’installation des pilotes.
+   * **nz-winclient-v7.2.0.0.zip** pour Windows. Décompressez le fichier et lancez le script exécutable correspondant à votre système d’exploitation : nzodbcsetup.exe ou nzodbcsetup64.exe. Suivez les instructions de l’assistant pour terminer l’installation des pilotes.
 
 1. Configurez le pilote ODBC. La configuration peut être réalisée dans les fichiers standard : **/etc/odbc.ini** pour les paramètres généraux et **/etc/odbcinst.ini** pour la déclaration des pilotes.
 

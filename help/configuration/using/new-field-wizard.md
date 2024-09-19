@@ -1,29 +1,29 @@
 ---
 product: campaign
-title: Nouvel assistant de terrain
-description: Nouvel assistant de terrain
+title: Nouvel assistant d’ajout de champs
+description: Nouvel assistant d’ajout de champs
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
 source-git-commit: ec774cc10a69a694b3c2bf5a6f662afd12a1435a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
-# Nouvel assistant de terrain{#new-field-wizard}
+# Nouvel assistant d’ajout de champs{#new-field-wizard}
 
 
-Un assistant accessible à partir de **[!UICONTROL Outils > Avancé > Ajouter de nouveaux champs]** permet d&#39;ajouter un ou plusieurs champs à une table de la base de données.
+Un assistant accessible à partir du menu **[!UICONTROL Outils >Avancé >Ajout de champs]** permet d’ajouter un ou plusieurs champs dans un tableau de la base de données.
 
-La validation de l&#39;assistant met à jour le schéma d&#39;extension de la table à étendre et lance le script SQL pour modifier la structure physique de la base de données.
+La validation de l’assistant met à jour le schéma d’extension dutableau à étendre et lance le script SQL pour modifier la structure physique de la base de données.
 
 Cet assistant à l&#39;avantage d&#39;ajouter rapidement un champ sans avoir à connaître la structure d&#39;un schéma de données.
 
 L&#39;inconvénient principal est la limitation des données et des propriétés à étendre.
 
-Les écrans de l’assistant contiennent les étapes suivantes :
+Les écrans de l’assistant contiennent les étapes suivantes :
 
 1. La première page permet de renseigner le nom du schéma à étendre et l&#39;espace de noms du schéma d&#39;extension où seront enregistrées les modifications :
 

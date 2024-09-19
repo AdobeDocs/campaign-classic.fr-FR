@@ -6,9 +6,9 @@ role: User
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 source-git-commit: 7453db63a0ed2c617e9f7e4cbfa3480b3ed5020d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1586'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -169,7 +169,7 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
 
   >[!CAUTION]
   >
-  >L’arrêt inconditionnel est limité aux utilisateurs administrateurs.
+  >L’arrêt inconditionnel est limité aux utilisateurs et utilisatrices disposant de droits d’administration uniquement.
 
 ## Ajout d’une population témoin {#defining-a-control-group}
 

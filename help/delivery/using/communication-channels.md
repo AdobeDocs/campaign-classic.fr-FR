@@ -7,9 +7,9 @@ feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,9 +43,9 @@ Les diffusions peuvent être **on-line** (via email, un des canaux mobiles et le
 Selon le canal, les modes de diffusion peuvent être les suivants :
 
 * Envoi en masse directement via Adobe Campaign (mode par défaut pour le canal Email).
-* Diffusion externe via un opérateur spécialisé qui reçoit le fichier de sortie généré par l&#39;assistant de diffusion (mode par défaut pour le canal courrier).
+* Diffusion externe via un opérateur spécialisé ou une opératrice spécialisée à qui est fourni le fichier de sortie généré par l’assistant de diffusion (mode par défaut pour le canal Courrier).
 
-Les comptes externes sont paramétrés depuis le nœud **[!UICONTROL Administration > Plateforme > Comptes externes]**. Ce paramétrage est réservé à des utilisateurs experts.
+Les comptes externes sont paramétrés depuis le nœud **[!UICONTROL Administration > Plateforme > Comptes externes]**. Ce paramétrage est réservé à des utilisateurs et utilisatrices experts.
 
 ## Diffusions Email {#email-deliveries}
 

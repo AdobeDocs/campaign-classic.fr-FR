@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1079'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -216,7 +216,7 @@ Les étapes sont les suivantes :
 
    Consultez [cette page](../../installation/using/creating-an-instance-and-logging-on.md) et [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
-   L’assistant de création de base de données s’affiche lorsque vous vous connectez pour la première fois :
+   L’assistant de création de base de données s’affiche lors de la première connexion :
 
    ![](assets/s_ncs_install_db_oracle_creation01.png)
 

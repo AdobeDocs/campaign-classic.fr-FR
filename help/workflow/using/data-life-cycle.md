@@ -5,9 +5,9 @@ description: En savoir plus sur le cycle de vie des données dans les workflows
 feature: Workflows, Data Management
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Sélectionnez pour cela le menu correspondant :
 
 * Analyser la cible
 
-  Ce menu permet d&#39;accéder à l&#39;assistant d&#39;analyse descriptive qui permet de produire des statistiques et des rapports sur les données de la transition.
+  Ce menu permet d’accéder à l’assistant d’analyse descriptive qui permet de produire des statistiques et des rapports sur les données de la transition.
 
   Pour plus d’informations à ce sujet, consultez cette [section](../../reporting/using/using-the-descriptive-analysis-wizard.md).
 

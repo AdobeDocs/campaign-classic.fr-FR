@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '986'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Dans l&#39;exemple suivant, nous utiliserons une page de type **[!UICONTROL Page
 
 * **Ajouter des champs de saisie**
 
-  Pour créer le contenu de la page, vous devez d&#39;abord l&#39;éditer : pour cela, double-cliquez sur l&#39;objet **[!UICONTROL Page]**. Cliquez sur la première icône de la barre d’outils pour ouvrir l’assistant de création de champ. Pour créer un champ de saisie du nom de l&#39;utilisateur qui sera stocké dans le champ correspondant du profil du destinataire, choisissez **[!UICONTROL Editer un destinataire]**.
+  Pour créer le contenu de la page, vous devez d’abord l’éditer : pour cela, double-cliquez sur l’objet **[!UICONTROL Page]**. Cliquez sur la première icône de la barre d’outils pour exécuter l’assistant de création de champ. Pour créer un champ de saisie du nom de l&#39;utilisateur qui sera stocké dans le champ correspondant du profil du destinataire, choisissez **[!UICONTROL Editer un destinataire]**.
 
   ![](assets/s_ncs_admin_survey_add_field_menu.png)
 

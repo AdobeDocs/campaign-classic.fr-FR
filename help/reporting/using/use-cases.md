@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Reporting, Monitoring
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1431'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 87%
 
 ## Analyser une population {#analyzing-a-population}
 
-L&#39;exemple suivant permet d&#39;explorer la population ciblée par un ensemble de newsletters à l&#39;aide de l&#39;assistant d&#39;analyse descriptive.
+L’exemple ci-dessous permet d’explorer la population ciblée par un ensemble de newsletters via l’assistant d’analyse descriptive.
 
 Les étapes de réalisation sont présentées ci-après, les options et descriptions exhaustives sont présentées dans les autres sections de ce chapitre.
 
@@ -60,7 +60,7 @@ Une fois les lignes et les colonnes définies, vous pouvez les modifier, les dé
 
 ### Définir le format d&#39;affichage {#defining-the-display-format}
 
-L&#39;étape suivante de l&#39;assistant permet de sélectionner le type de graphique à générer.
+L’étape suivante de l’assistant permet de sélectionner le type de graphique à générer.
 
 Dans cet exemple, choisissez l&#39;histogramme.
 
@@ -70,7 +70,7 @@ Les configurations possibles des différents graphiques sont détaillées dans l
 
 ### Paramétrer les statistiques à calculer {#configuring-the-statistic-to-calculate}
 
-Indiquez ensuite les calculs à effectuer sur les données collectées. Par défaut, l&#39;assistant d&#39;analyse descriptive effectue un comptage simple des valeurs.
+Indiquez ensuite les calculs à effectuer sur les données collectées. Par défaut, l’assistant d’analyse descriptive réalise un comptage simple des valeurs.
 
 Vous pouvez définir dans cette fenêtre la liste des statistiques à calculer.
 
@@ -90,13 +90,13 @@ Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d
 
 ### Exemple d&#39;affichage en graphique {#example-of-a-chart-display}
 
-**Objectif** : générer un rapport d&#39;analyse portant sur la localisation des prospects et des clients.
+**Objectif** : générer un rapport d’analyse portant sur la localisation des prospects et de la clientèle.
 
-1. Ouvrez l&#39;assistant d&#39;analyse descriptive et sélectionnez uniquement **[!UICONTROL Graphique]**.
+1. Ouvrez l’assistant d’analyse descriptive et choisissez le mode d’affichage **[!UICONTROL Graphique]** seulement.
 
    ![](assets/s_ncs_user_report_wizard_05a.png)
 
-   Cliquez sur **[!UICONTROL Suivant]** pour valider cette étape.
+   Cliquez sur **[!UICONTROL Suivant]** pour approuver cette étape.
 
 1. Sélectionnez ensuite l&#39;option **[!UICONTROL 2 variables]** puis indiquez que la **[!UICONTROL Première variable (abscisse)]** portera sur le statut des destinataires (prospects/clients) et la deuxième variable sur le pays.
 1. Choisissez un graphique de type **[!UICONTROL Histogramme]**.
@@ -116,20 +116,20 @@ Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d
 
 ### Exemple d&#39;affichage en tableau {#example-of-a-table-display}
 
-**Objectif** : analyser les domaines des emails des sociétés.
+**Objectif** : analyser les domaines des e-mails des sociétés.
 
-1. Ouvrez l’assistant d’analyse descriptive et sélectionnez uniquement le mode d’affichage **[!UICONTROL Tableau]** .
+1. Ouvrez l’assistant d’analyse descriptive et sélectionnez le mode d’affichage en **[!UICONTROL Tableau]** seulement.
 
    ![](assets/s_ncs_user_report_wizard_03a.png)
 
-   Cliquez sur le bouton **[!UICONTROL Suivant]** pour valider cette étape.
+   Cliquez sur le bouton **[!UICONTROL Suivant]** pour approuver cette étape.
 
 1. Sélectionnez la variable **[!UICONTROL Société]** en colonne et la variable **[!UICONTROL Domaine de l&#39;email]** en ligne.
 1. Laissez l&#39;option **[!UICONTROL En ligne]** pour l&#39;orientation des statistiques : le calcul de la statistique sera affiché à droite de la variable **[!UICONTROL Domaine de l&#39;email]**.
 
    ![](assets/s_ncs_user_report_wizard_03b.png)
 
-   Cliquez sur **[!UICONTROL Suivant]** pour valider cette étape.
+   Cliquez sur **[!UICONTROL Suivant]** pour approuver cette étape.
 
 1. Renseignez ensuite les statistiques à calculer : conservez le comptage par défaut et créez une nouvelle statistique. Pour cela, cliquez sur **[!UICONTROL Ajouter]** et sélectionnez l&#39;opérateur **[!UICONTROL Répartition en pourcentage sur le total]**.
 
@@ -153,13 +153,13 @@ Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d
 
 ## Analyse quantitative des données {#quantitative-data-analysis}
 
-**Objectif** : générer un rapport d&#39;analyse quantitatif sur l&#39;âge des destinataires
+**Objectif** : générer un rapport d’analyse quantitatif sur l’âge des destinataires
 
-1. Ouvrez l&#39;assistant d&#39;analyse descriptive et sélectionnez **[!UICONTROL Distribution quantitative]** dans la liste déroulante.
+1. Ouvrez l’assistant d’analyse descriptive et sélectionnez **[!UICONTROL Distribution quantitative]** dans la liste déroulante.
 
    ![](assets/s_ncs_user_report_wizard_011a.png)
 
-   Cliquez sur le bouton **[!UICONTROL Suivant]** pour valider cette étape.
+   Cliquez sur le bouton **[!UICONTROL Suivant]** pour approuver cette étape.
 
 1. Sélectionnez ensuite la variable **[!UICONTROL Age]** et saisissez son libellé. Indiquez qu&#39;il s&#39;agit d&#39;un entier, puis cliquez sur **[!UICONTROL Suivant]**.
 
@@ -189,34 +189,34 @@ Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d
 
 ### Recommandations relatives à l&#39;analyse de la cible {#target-analyze-recommendations}
 
-L&#39;analyse d&#39;une population dans un workflow suppose que la population soit encore présente dans la transition. Si le workflow est lancé, le résultat concernant la population risque d&#39;être purgé de la transition. Pour effectuer une analyse, vous pouvez au choix :
+L’analyse d’une population dans un workflow suppose que la population soit encore présente dans la transition. Si le workflow est lancé, le résultat concernant la population risque d’être purgé de la transition. Pour effectuer une analyse, vous pouvez au choix :
 
-* détacher la transition de son activité destination et lancer le workflow pour la rendre active. Une fois que la transition clignote, lancez l&#39;assistant de la manière habituelle.
+* détacher la transition de son activité destination et lancer le workflow pour la rendre active. Lorsque la transition clignote, lancez l’assistant de la façon habituelle.
 
   ![](assets/s_ncs_user_report_wizard_018.png)
 
-* modifier les propriétés du workflow en sélectionnant l&#39;option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]**. Cela vous permet de lancer une analyse sur la transition de votre choix même si le workflow s&#39;est terminé.
+* Modifiez les propriétés du workflow en sélectionnant l’option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]**. Cela vous permet de lancer une analyse sur la transition de votre choix même si le workflow s’est terminé.
 
   ![](assets/s_ncs_user_report_wizard_020.png)
 
-  Si la population a été purgée de la transition, un message d&#39;erreur vous demande de sélectionner l&#39;option concernée avant de lancer l&#39;assistant d&#39;analyse descriptive.
+  Si la population a été purgée de la transition, un message d’erreur vous invite à sélectionner l’option en question avant de lancer l’assistant d’analyse descriptive.
 
   ![](assets/s_ncs_user_report_wizard_019.png)
 
 >[!CAUTION]
 >
->L&#39;option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** ne doit être utilisée que dans des phases de développement, mais jamais pour un environnement en production.\
+>L’option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** ne doit être utilisée que dans des phases de développement, mais jamais pour un environnement en production.\
 >Les populations intermédiaires sont automatiquement purgées une fois leur délai de rétention atteint. Ce délai est défini dans l&#39;onglet **[!UICONTROL Exécution]** des propriétés du workflow.
 
-## Analyse des logs de tracking des destinataires {#analyzing-recipient-tracking-logs}
+## Analyser les logs de tracking des destinataires {#analyzing-recipient-tracking-logs}
 
-L&#39;assistant d&#39;analyse descriptive peut générer des rapports sur d&#39;autres tables de travail. Ainsi, vous pouvez analyser les logs de diffusion en créant un rapport dédié.
+L’assistant d’analyse descriptive peut générer des rapports sur d’autres tables de travail. Ainsi, vous pouvez analyser les logs de diffusion en créant un rapport dédié.
 
 Dans notre exemple, nous allons analyser le taux de réactivité des destinataires des newsletters.
 
 Pour cela, les étapes sont les suivantes :
 
-1. Ouvrez l&#39;assistant d&#39;analyse descriptive à partir du menu **[!UICONTROL Outils > Analyse descriptive]** et modifiez la table de travail par défaut. Sélectionnez **[!UICONTROL Log de suivi des destinataires]** et ajoutez un filtre pour exclure les bons à tirer et inclure les newsletters.
+1. Ouvrez l’assistant d’analyse descriptive à partir du menu **[!UICONTROL Outils > Analyse descriptive]** et modifiez la table de travail par défaut. Sélectionnez **[!UICONTROL Log de suivi des destinataires]** et ajoutez un filtre pour exclure les bons à tirer et inclure les newsletters.
 
    ![](assets/reporting_descriptive_sample_tracking_1.png)
 
@@ -276,7 +276,7 @@ Lorsque l&#39;analyse porte sur une diffusion, vous pouvez analyser la populatio
 
 ![](assets/reporting_descriptive_exclusion_menu.png)
 
-Vous accédez alors à l&#39;assistant d&#39;analyse descriptive et l&#39;analyse portera sur les logs d&#39;exclusion des destinataires.
+Vous accédez alors à l’assistant d’analyse descriptive et l’analyse portera sur les logs d’exclusion des destinataires.
 
 Vous pouvez par exemple afficher les domaines des adresses exclues, par date d&#39;exclusion.
 

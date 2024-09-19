@@ -7,9 +7,9 @@ feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: de6e86eb2304a88e836c5759b87d7f38446ed357
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '778'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ Pour obtenir des conseils supplémentaires sur l’optimisation de la délivrabi
 
 ## Adresse d’expéditeur {#sender-address}
 
-Certains FAI vérifient la validité de l’adresse de l’expéditeur (**[!UICONTROL De]**) avant d’accepter les messages. Une adresse mal formée peut entraîner son rejet par le serveur de réception.
+Certains FAI vérifient la validité de l’adresse d’expédition (**[!UICONTROL De]**) avant d’accepter les messages. Une adresse mal formée peut entraîner son rejet par le serveur de réception.
 
-Vous devez vous assurer qu&#39;une adresse correcte est bien renseignée au niveau de l&#39;instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement...]**) ou dans les scénarios les plus couramment utilisés.
+Il faut s’assurer qu’une adresse correcte est bien renseignée au niveau de l’instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement...]**) ou dans les scénarios les plus couramment utilisés.
 
 Pour plus d’informations à ce sujet, consultez [cette page](defining-the-email-content.md).
 

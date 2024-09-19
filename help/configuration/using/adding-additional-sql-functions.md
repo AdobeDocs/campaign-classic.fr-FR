@@ -6,9 +6,9 @@ feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1037'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ Une fois ces fonctions ajoutées, elles apparaissent dans l&#39;éditeur d&#39;e
 
 ## Installation {#installation}
 
-La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &quot;package&quot; au format XML**, dont la structure est décrite au paragraphe suivant.
+La ou les fonctions à ajouter se présentent sous la forme d’un **fichier « package » au format XML**, dont la structure est décrite au paragraphe suivant.
 
-Pour l&#39;installer à partir de la console, sélectionnez les options **Tools/Advanced/Import package** dans le menu, puis le paramètre **[!UICONTROL Install from file]** et suivez les instructions de l&#39;assistant d&#39;import.
+Pour l’installer depuis la console, sélectionnez les options de menu **Outils/Avancé/Import de package**, puis le bouton **[!UICONTROL Installer depuis un fichier]**, et suivez les instructions de l’assistant d’import.
 
 >[!IMPORTANT]
 >
->Attention, même si la liste des fonctions importées apparaît tout de suite dans l&#39;éditeur de fonctions, elles ne seront pas utilisables tant que le serveur Adobe Campaign n&#39;aura pas été redémarré.
+>Attention, même si la liste des fonctions importées apparaît tout de suite dans l’éditeur de fonctions, elles ne seront pas utilisables tant que le serveur Adobe Campaign n’aura pas été redémarré.
 
 ## Structure générale du package à importer {#general-structure-of-package-to-import}
 

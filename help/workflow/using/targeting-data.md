@@ -5,9 +5,9 @@ description: En savoir plus sur le ciblage des données dans un workflow
 feature: Query Editor, Data Management, Workflows
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2026'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ L&#39;option **[!UICONTROL Ajouter un sous-élément]** permet d&#39;adjoindre d
 
 Les sous-éléments seront représentés en sous-arborescence de la collection à laquelle ils sont associés.
 
-Les collections s’affichent dans le sous-onglet **[!UICONTROL Collections]**. Vous pouvez filtrer les éléments collectés en cliquant sur l’icône **[!UICONTROL Détail]** de la collection sélectionnée. L&#39;assistant de filtrage permet de sélectionner les données collectées et de définir les conditions de filtrage à appliquer aux données de la collection.
+Les collections s’affichent dans le sous-onglet **[!UICONTROL Collections]**. Vous pouvez filtrer les éléments collectés en cliquant sur l’icône **[!UICONTROL Détail]** de la collection sélectionnée. L’assistant de filtrage permet de sélectionner les données collectées et de définir les conditions de filtrage à appliquer aux données de la collection.
 
 ![](assets/query_add_columns_collection.png)
 

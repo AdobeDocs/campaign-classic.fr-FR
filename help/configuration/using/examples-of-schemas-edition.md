@@ -6,9 +6,9 @@ feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '669'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Pour étendre la table des destinataires de schéma **nms:recipient**, la procé
    </schema>
    ```
 
-   Le script SQL généré à partir de l&#39;assistant de mise à jour de la base de données est le suivant :
+   Le script SQL généré à partir de l’assistant de mise à jour de la base de données est le suivant :
 
    ```
    ALTER TABLE NmsRecipient ADD iFidelity INTEGER;

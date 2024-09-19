@@ -7,9 +7,9 @@ feature: Personalization
 role: User
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '978'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez définir de nouveaux blocs qui vous permettront d&#39;optimiser la p
 
 Pour insérer un bloc de personnalisation dans un message, procédez comme suit :
 
-1. Dans l&#39;éditeur de contenu de l&#39;assistant de diffusion, cliquez sur l&#39;icône de champ personnalisé et sélectionnez le menu **[!UICONTROL Inclure]** .
+1. Dans l’éditeur de contenu de l’assistant de diffusion, cliquez sur l’icône des champs de personnalisation et sélectionnez le menu **[!UICONTROL Inclure]**.
 1. Sélectionnez un bloc de personnalisation dans la liste (la liste affiche les 10 derniers blocs utilisés) ou cliquez sur le menu **[!UICONTROL Autre...]** pour accéder à la liste complète.
 
    ![](assets/s_ncs_user_personalized_block01.png)
@@ -70,8 +70,8 @@ Pour ce faire, nous devons insérer les blocs de personnalisation suivants :
 >
 >Pour plus dʼinformations sur la génération des pages miroir, consultez la section [Génération de la page miroir](sending-messages.md#generating-the-mirror-page).
 
-1. Créez une nouvelle diffusion ou ouvrez une diffusion existante de type email.
-1. Dans l&#39;assistant de diffusion, cliquez sur **[!UICONTROL Objet]** pour éditer l&#39;objet du message et saisir un objet.
+1. Créez une diffusion ou ouvrez une diffusion existante de type e-mail.
+1. Dans l’assistant de diffusion, cliquez sur **[!UICONTROL Objet]** pour éditer l’objet du message et saisir un objet.
 1. Insérez ensuite les blocs de personnalisation dans le corps du message. Pour cela, cliquez dans le contenu du message, cliquez sur l&#39;icône de champs de personnalisation et sélectionnez le menu **[!UICONTROL Inclure]**.
 1. Sélectionnez le premier bloc à insérer. Renouvelez la procédure pour inclure les deux autres blocs.
 

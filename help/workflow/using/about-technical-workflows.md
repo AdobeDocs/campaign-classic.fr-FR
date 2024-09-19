@@ -5,9 +5,9 @@ description: En savoir plus sur les workflows techniques disponibles avec les pa
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1714'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 | **Collecter les données pour le service Carte thermique** (collectDataHeatMapService) | Installé par défaut | Ce workflow récupère les données requises par le service Carte thermique. |
 | **Collecter les demandes d&#39;accès à des informations personnelles** (collectPrivacyRequests) | Règlement sur la protection des informations personnelles | Ce workflow génère les données du destinataire stockées dans Adobe Campaign et les met à disposition sur l’écran de la demande d’accès. |
 | **Calcul des coûts** (budgetMgt) | Campagnes marketing (Campaign) | Ce workflow lance le calcul des lignes de dépenses et des coûts sur les budgets, les plans, programmes, opérations, diffusions et tâches. |
-| **Nettoyage de la base de données** (cleanup) | Diffusion | Ce workflow est le workflow d&#39;entretien de la base : il effectue différents calculs des statistiques et traitements et supprime les données obsolètes de la base de données selon la configuration définie dans l&#39;assistant de déploiement. Par défaut, il se déclenche tous les jours à 4H00. Pour plus d’informations, consultez [cette page](../../production/using/database-cleanup-workflow.md#monitoring-campaign-classic). |
+| **Nettoyage de la base de données** (cleanup) | Diffusion | Ce workflow est le workflow de maintenance de la base de données : il procède aux différents calculs des statistiques et traitements, et supprime les données obsolètes de la base de données selon la configuration définie dans l’assistant de déploiement. Par défaut, il se déclenche tous les jours à 4H00. Pour plus d’informations, consultez [cette page](../../production/using/database-cleanup-workflow.md#monitoring-campaign-classic). |
 | **Nettoyage des utilisateurs LINE bloqués** (deleteBlockedLineUsersV2) | Canal LINE | Ce workflow assure la suppression des données des utilisateurs LINE V2 s’ils ont bloqué le compte officiel LINE pendant 180 jours. |
 | **Supprimer les données des demandes d’accès à des informations personnelles** (deletePrivacyRequestsData) | Règlement sur la protection des informations personnelles | Ce workflow supprime les données du destinataire stockées dans Adobe Campaign. |
 | **Indicateurs de diffusion** (deliveryIndicators) | Plateforme de Mid-sourcing | Ce workflow met à jour les indicateurs de tracking des diffusions. Par défaut, ce workflow se déclenche toutes les heures. |

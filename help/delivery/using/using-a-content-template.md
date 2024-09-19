@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ Ils peuvent également être utilisés pour créer des instances de contenu. Une
 
 ## Créer une diffusion via la gestion de contenu {#creating-a-delivery-via-content-management}
 
-Vous pouvez référencer un modèle de contenu dans une diffusion afin d&#39;utiliser les champs de saisie pour renseigner son contenu. Un onglet supplémentaire est ajouté dans l&#39;assistant de diffusion pour définir le contenu de la diffusion.
+Vous pouvez référencer un modèle de contenu dans une diffusion afin d’utiliser les champs de saisie pour renseigner son contenu. Un onglet supplémentaire est ajouté à l’assistant de diffusion afin de définir le contenu de la diffusion.
 
 ![](assets/s_ncs_content_deliver_a_content.png)
 
-La mise en page sera appliquée automatiquement, selon les paramètres sélectionnés. Pour la visualiser, cliquez sur l&#39;onglet **[!UICONTROL Aperçu HTML]** (ou **[!UICONTROL Aperçu texte]**) et sélectionnez un destinataire afin de tester les éléments de personnalisation.
+La mise en page sera appliquée automatiquement, selon les paramètres sélectionnés. Pour la visualiser, cliquez sur l’onglet **[!UICONTROL Aperçu HTML]** (ou **[!UICONTROL Aperçu texte]**) et sélectionnez une personne destinataire afin de tester les éléments de personnalisation.
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-Voir à ce propos l’exemple complet de mise en oeuvre : [Création de contenu dans l’assistant de diffusion](use-case-creating-content-management.md#creating-content-in-the-delivery-assistant).
+Voir à ce sujet l’exemple d’implémentation complet : [créer un contenu dans l’assistant de diffusion](use-case-creating-content-management.md#creating-content-in-the-delivery-assistant).
 
 ## Créer une instance de contenu {#creating-a-content-instance}
 

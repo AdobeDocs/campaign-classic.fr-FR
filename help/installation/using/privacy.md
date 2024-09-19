@@ -5,9 +5,9 @@ description: Découvrez les bonnes pratiques de sécurité en matière de confid
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Pour ce faire, suivez les étapes ci-après :
 
 1. Sélectionnez **[!UICONTROL Compte externe]** (extAccount).
 
-1. Dans le dernier écran de l&#39;assistant, éditez le nouveau &quot;srcSchema&quot; pour restreindre l&#39;accès à tous les champs de mot de passe :
+1. Dans le dernier écran de l’assistant, modifiez le nouveau « srcSchema » afin de restreindre l’accès à tous les champs de mot de passe :
 
    Vous pouvez remplacer l&#39;élément principal (`<element name="extAccount" ... >`) par :
 

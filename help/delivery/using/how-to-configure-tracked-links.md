@@ -7,9 +7,9 @@ feature: Monitoring
 role: User, Developer
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Dans cet exemple, l&#39;URL https://www.adobe.com est suivie d&#39;un point-virg
 
 Le tracking des messages est activé par défaut. Pour personnaliser le tracking des URL, procédez comme suit :
 
-1. Sélectionnez l&#39;option **[!UICONTROL Afficher les URL]** dans la section inférieure de l&#39;assistant de diffusion, sous le contenu du message.
+1. Sélectionnez l’option **[!UICONTROL Afficher les URL]**, située dans la section inférieure de l’assistant de diffusion, sous le contenu du message.
 
    ![](assets/s_ncs_user_email_del_display_urls.png)
 

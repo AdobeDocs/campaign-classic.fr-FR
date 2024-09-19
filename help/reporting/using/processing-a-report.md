@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -126,11 +126,11 @@ Voir à ce propos [cette page](../../reporting/using/actions-on-reports.md).
 
 ## Réutilisation des rapports et analyses existants {#re-using-existing-reports-and-analyses}
 
-Vous pouvez créer des rapports d&#39;analyse descriptive sur les données à partir de rapports existants, déjà enregistrés dans Adobe Campaign. Ce mode est possible lorsque des analyses ont été enregistrées ou lorsque des rapports ont été créés et paramétrés pour être accessibles via l&#39;assistant d&#39;analyse descriptive.
+Vous pouvez créer des rapports d’analyse descriptive sur les données à partir de rapports existants, déjà enregistrés dans Adobe Campaign. Ce mode est possible lorsque des analyses ont été enregistrées ou lorsque des rapports ont été créés et configurés pour être accessibles depuis l’assistant d’analyse descriptive.
 
 Pour découvrir comment enregistrer des analyses descriptives, consultez [Sauvegarder un rapport d’analyse](#saving-an-analysis-report).
 
-Pour créer des rapports d&#39;analyse descriptive, l&#39;assistant d&#39;analyse descriptive doit être exécuté à partir d&#39;une transition de workflow ou à partir du menu **[!UICONTROL Outils > Analyse descriptive]**.
+Pour créer des rapports d’analyse descriptive, l’assistant d’analyse descriptive doit être exécuté à partir d’une transition de workflow ou depuis le menu **[!UICONTROL Outils > Analyse descriptive]**.
 
 1. Sélectionnez **[!UICONTROL Analyses et rapports existants]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Vous accédez alors à la liste des rapports disponibles. Sélectionnez un rapport pour le générer.
@@ -143,7 +143,7 @@ Lorsque vous créez une analyse descriptive à partir d&#39;une analyse existant
 
 Pour créer un historique, les étapes sont les suivantes :
 
-1. Ouvrez une analyse existante ou créez un assistant d’analyse descriptive.
+1. Ouvrez une analyse existante ou créez un rapport d’analyse descriptive.
 1. Dans la page d&#39;affichage du rapport, cliquez sur le bouton de création d&#39;un historique dans la barre d&#39;outils, et confirmer votre choix, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/reporting_descriptive_historize_icon.png)

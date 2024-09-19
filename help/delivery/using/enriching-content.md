@@ -7,9 +7,9 @@ feature: Data Management
 role: User, Developer, Data Engineer
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '678'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ L’élément **`<collection-recipient>`** représente l’élément d’entrée
 
 ### Ajouter une requête {#adding-a-query}
 
-Les paramètres de requête sont édités à l&#39;aide d&#39;un assistant.
+Un assistant permet de modifier les paramètres de la requête.
 
 1. La première page permet de spécifier le libellé et le schéma contenant les données à récupérer.
 

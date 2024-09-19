@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 source-git-commit: 586456f27dbc039ecb39cc8bd1f6dbdf8af823be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ Dans plusieurs activités des workflows Adobe Campaign, vous pouvez utiliser le
 
 ## Mécanismes de sécurisation et limitations {#fda-limitations}
 
-L&#39;option FDA est conçue pour manipuler les données des bases externes en mode batch dans les workflows. Pour éviter les problèmes de performance, il n&#39;est pas recommandé d&#39;utiliser le module FDA dans le cadre d&#39;opérations unitaires, par exemple : personnalisation, interaction, messagerie en temps réel, etc.
+L’option FDA est conçue pour manipuler les données de bases de données externes en mode lot dans des workflows. Pour éviter les problèmes de performance, il n’est pas recommandé d’utiliser le module FDA dans le cadre d’opérations unitaires, par exemple : personnalisation, interaction, messagerie en temps réel, etc.
 
-Le ciblage des données d&#39;une base de données et le filtrage des résultats à l&#39;aide d&#39;une dimension de filtrage appartenant à une autre base de données ne sont pas pris en charge. Vous ne pouvez pas joindre dans une même requête des tableaux qui se trouvent sur des sources de données différentes. Vous pouvez surmonter cette limite à l’aide d’autres activités de workflow, telles que Changement de dimension.
+Le ciblage des données d’une base de données et le filtrage des résultats à l’aide d’une dimension de filtrage appartenant à une autre base de données ne sont pas pris en charge. Vous ne pouvez pas joindre dans une même requête des tableaux qui se trouvent sur des sources de données différentes. Vous pouvez surmonter cette limite à l’aide d’autres activités de workflow, telles que Changement de dimension.
 
-Évitez autant que possible les opérations qui doivent utiliser à la fois Adobe Campaign et la base de données externe. La bonne pratique consiste à :
+Évitez autant que possible les opérations nécessitant d’utiliser à la fois la base de données Adobe Campaign et la base de données externe. La bonne pratique consiste à :
 
 * exporter les données de la base Adobe Campaign vers la base externe et effectuer les opérations uniquement depuis la base externe avant de réimporter les résultats dans Adobe Campaign.
 

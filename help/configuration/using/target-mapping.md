@@ -7,9 +7,9 @@ role: Data Engineer, Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 38333669-5598-4811-a121-b677c1413f56
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ La création d&#39;un mapping de ciblage est nécessaire dans deux cas de figure
 * si vous utilisez une table de destinataires autre que celle fournie par Adobe Campaign,
 * si vous paramétrez une dimension de filtrage différente de la dimension de ciblage standard dans l&#39;écran des mappings de ciblage.
 
-L&#39;assistant de création de mapping de ciblage vous aidera à créer tous les schémas nécessaires pour utiliser votre table personnalisée.
+L’assistant de création du mapping de ciblage va vous permettre de créer tous les schémas nécessaires pour utiliser votre tableau personnalisé.
 
 ## Création et paramétrage des schémas liés à la table personnalisée {#creating-and-configuring-schemas-linked-to-the-custom-table}
 
@@ -83,7 +83,7 @@ Pour cela, les étapes sont les suivantes :
    ```
 
 1. Cliquez sur le nœud **[!UICONTROL Administration > Gestion de campagne > Mappings de ciblage]**.
-1. Cliquez sur le bouton **Nouveau** pour ouvrir l’assistant de création de mapping de ciblage.
+1. Cliquez sur le bouton **Nouveau** afin de lancer l’assistant de création du mapping de ciblage.
 1. Complétez le champ **Libellé** et sélectionnez le schéma que vous venez de créer dans le champ **Dimension de ciblage**.
 
    ![](assets/mapping_diffusion_wizard_1.png)
@@ -112,7 +112,7 @@ Pour cela, les étapes sont les suivantes :
 
 1. Cliquez sur le bouton **Enregistrer** pour fermer l’assistant.
 
-   L&#39;assistant utilise le schéma de départ pour créer tous les autres schémas nécessaires au bon fonctionnement du nouveau mapping de ciblage.
+   L’assistant utilise le schéma de départ pour créer tous les autres schémas nécessaires au bon fonctionnement du nouveau mapping de ciblage.
 
    ![](assets/mapping_schema_list.png)
 

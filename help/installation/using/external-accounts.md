@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1952'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -406,9 +406,9 @@ Pour configurer le compte externe Salesforce CRM afin de l’utiliser avec Adobe
 
   Sélectionnez la version de l’API.
 
-Pour ce compte externe, vous devez configurer le CRM Salesforce à l&#39;aide de l&#39;assistant de configuration.
+Pour ce compte externe, vous devez configurer votre Salesforce CRM à l’aide de l’assistant de configuration.
 
-Pour plus d&#39;informations sur cette configuration, consultez [cette page](../../platform/using/crm-connectors.md).
+Pour plus d’informations sur cette configuration, consultez [cette page](../../platform/using/crm-connectors.md).
 
 ## Transfert de données vers des comptes externes
 

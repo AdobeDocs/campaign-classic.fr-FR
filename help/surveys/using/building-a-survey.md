@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Les pages du formulaire sont créées au travers d&#39;un éditeur spécifique q
 
 ## Ajouter des champs {#adding-fields}
 
-Dans un formulaire, les champs permettent aux utilisateurs de saisir des informations et sélectionner des options. Pour chaque page du formulaire, elles sont créées via le premier bouton de la barre d’outils, à l’aide du menu **[!UICONTROL Ajouter à l’aide de l’assistant]** .
+Dans un formulaire, les champs permettent aux utilisateurs de saisir des informations et sélectionner des options. Pour chaque page du formulaire, ils sont créés via le premier bouton de la barre d’outils, depuis le menu **[!UICONTROL Ajouter à l’aide de l’assistant]**.
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 

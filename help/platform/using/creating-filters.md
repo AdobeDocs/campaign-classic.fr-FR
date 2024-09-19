@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2103'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -204,7 +204,7 @@ Les filtres sont spécifiques à chaque opérateur et sont réinitialisés à ch
 
 Vous pouvez créer un **filtre applicatif** en enregistrant un filtre avancé : ainsi enregistré, le filtre pourra être réutilisé depuis le bouton droit de la souris dans n&#39;importe quelle liste ou à partir du bouton **[!UICONTROL Filtres]** situé au-dessus des listes.
 
-Ces filtres sont également accessibles directement via l&#39;assistant de diffusion, dans l&#39;étape de sélection de la cible (voir [cette section](../../delivery/using/creating-an-email-delivery.md) pour plus d&#39;informations sur la création de diffusions). Pour créer le filtre applicatif, vous pouvez :
+Ces filtres sont également accessibles directement depuis l’assistant de diffusion, dans l’étape de sélection de la cible (consultez [cette section](../../delivery/using/creating-an-email-delivery.md) pour plus d’informations sur la création de diffusions). Pour créer le filtre applicatif, vous pouvez procéder comme suit :
 
 * Transformer un filtre avancé en filtre applicatif. Pour ce faire, cliquez sur **[!UICONTROL Enregistrer]** avant de fermer l’éditeur de filtres avancés.
 
@@ -376,6 +376,6 @@ Cliquez sur l&#39;onglet **[!UICONTROL Paramètres]** pour accéder aux options 
 
   Cochez l&#39;option **[!UICONTROL Ne pas restreindre le filtre]** si vous souhaitez interdire à l&#39;utilisateur de surcharger ce filtre.
 
-  Cette option est activée pour les filtres &quot;Destinataires d&#39;une diffusion&quot; et &quot;Destinataires des diffusions appartenant à un dossier&quot; proposés dans l&#39;assistant de diffusion et qui ne peuvent pas être surchargés.
+  Cette option est activée pour les filtres « Destinataires d’une diffusion » et « Destinataires des diffusions appartenant à un dossier » proposés dans l’assistant de diffusion et qui ne peuvent pas être surchargés.
 
   ![](assets/s_ncs_user_filter_advanced_param.png)

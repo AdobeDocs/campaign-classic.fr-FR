@@ -5,9 +5,9 @@ description: En savoir plus sur l’activité de workflow de requête
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1694'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de cib
 
    ![](assets/query_temporary_table.png)
 
-1. Définissez les populations à l&#39;aide de l&#39;assistant. Les champs à renseigner peuvent différer en fonction du type de cible. Vous pouvez prévisualiser la population ciblée avec vos critères actuels à l’aide de l’onglet **[!UICONTROL Aperçu]**.
+1. Définissez les populations via l’assistant. Les champs à renseigner peuvent différer en fonction du type de cible. Vous pouvez prévisualiser la population ciblée avec vos critères actuels à l’aide de l’onglet **[!UICONTROL Aperçu]**.
 
    La création et l&#39;utilisation des filtres et des requêtes sont présentées dans cette [section](../../platform/using/filtering-options.md).
 
@@ -95,9 +95,9 @@ Pour ajouter des données de la base Adobe Campaign :
 
      Vous pouvez également ajouter une collection d’informations, par exemple une liste de contrats, les 5 dernières diffusions, etc. Les collections correspondent à des champs dont les valeurs peuvent être multiples pour un même profil (relation 1-N). Pour plus dʼinformations, consultez la section [Modification des données additionnelles](targeting-data.md#editing-additional-data).
 
-Pour ajouter une collection d&#39;informations liées à une population ciblée :
+Pour ajouter une collection d’informations liées à une population ciblée, procédez comme suit :
 
-1. Sélectionnez l&#39;option **[!UICONTROL Données liées à la dimension de filtrage]** à la première étape de l&#39;assistant :
+1. Sélectionnez l’option **[!UICONTROL Données liées à la dimension de filtrage]** à la première étape de l’assistant :
 1. Sélectionnez la table contenant les informations à collecter et cliquez sur le bouton **[!UICONTROL Suivant.]**
 
    ![](assets/wf_add_data_linked_table.png)

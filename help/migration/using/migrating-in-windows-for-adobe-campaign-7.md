@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1115'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -406,7 +406,7 @@ Avant de supprimer et nettoyer l&#39;installation d&#39;Adobe Campaign v6, il 
 
 1. Dans IIS, supprimez le site web **Adobe Campaign v6** puis le pool d&#39;applications **Adobe Campaign v6**.
 1. Renommez le dossier **Adobe Campaign v6.back** en **Adobe Campaign v6**.
-1. Désinstallez Adobe Campaign v6 à l’aide de l’assistant d’ajout/suppression de composants.
+1. Désinstallez Adobe Campaign v6 à l’aide de l’assistant d’ajout/suppression de composants.
 
    ![](assets/migration_wizard_2.png)
 

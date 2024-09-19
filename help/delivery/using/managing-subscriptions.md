@@ -7,9 +7,9 @@ feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1174'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
   Voir à ce sujet la section sur l&#39;édition de profils dans [cette section](../../platform/using/editing-a-profile.md).
 
 * Abonner automatiquement à ce service un ensemble de destinataires. La liste des destinataires peut être issue d&#39;une opération de filtrage, d&#39;un groupe, d&#39;un dossier, d&#39;un import ou d&#39;une sélection directe à l’aide de la souris. Pour abonner ces destinataires, sélectionnez les profils et cliquez sur le bouton droit de la souris. Sélectionnez **[!UICONTROL Actions > Abonner la sélection à un service]**, puis sélectionnez le service concerné et lancez l&#39;opération.
-* Importez des destinataires et abonnez-les automatiquement à un service d&#39;information. Pour cela, sélectionnez le service concerné dans la dernière étape de l&#39;assistant d&#39;import.
+* Importez des destinataires et abonnez-les automatiquement à un service d’information. Pour cela, sélectionnez le service concerné dans la dernière étape de l’assistant d’import.
 
   Pour plus d’informations, consultez [cette section](../../platform/using/executing-import-jobs.md).
 
@@ -144,7 +144,7 @@ Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
 
 #### Désinscription manuelle {#manual-unsubscribing}
 
-Les diffusions par email doivent légalement contenir un lien de désinscription. Les destinataires peuvent cliquer sur ce lien pour mettre à jour leur profil et ainsi être exclu des cibles des prochaines diffusions.
+Les diffusions par e-mail doivent légalement contenir un lien de désinscription. Les personnes destinataires peuvent cliquer sur ce lien pour mettre à jour leur profil et ainsi être exclues des cibles des prochaines diffusions.
 
 Le lien de désinscription par défaut est inséré via le dernier bouton de la barre d’outils de l’éditeur de contenu fourni dans l’assistant de diffusion (voir [À propos de la personnalisation](about-personalization.md)). Lorsque le destinataire clique sur ce lien, le profil est ajouté à la liste bloquée (opt-out), ce qui signifie que ce destinataire ne sera plus ciblé par aucune action de diffusion.
 

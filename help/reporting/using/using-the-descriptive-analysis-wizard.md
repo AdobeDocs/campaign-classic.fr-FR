@@ -1,30 +1,30 @@
 ---
 product: campaign
-title: Utiliser l'assistant d'analyse descriptive
-description: Utiliser l'assistant d'analyse descriptive
+title: Utiliser l’assistant d’analyse descriptive
+description: Utiliser l’assistant d’analyse descriptive
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1656'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Utiliser l&#39;assistant d&#39;analyse descriptive{#using-the-descriptive-analysis-wizard}
+# Utiliser l’assistant d’analyse descriptive{#using-the-descriptive-analysis-wizard}
 
 
 
-Pour créer un rapport d&#39;analyse descriptive, utilisez l&#39;assistant dédié. Son paramétrage dépend des données à analyser et du rendu souhaité.
+Pour créer un rapport d’analyse descriptive, utilisez l’assistant dédié. Son paramétrage dépend des données à analyser et du rendu souhaité.
 
-## Analyse des données dans la base de données {#analyzing-data-in-the-database}
+## Analyser les données dans la base de données {#analyzing-data-in-the-database}
 
-L&#39;assistant d&#39;analyse descriptive peut être lancé à partir du menu **[!UICONTROL Outils > Analyse descriptive]** : dans ce cas, l&#39;analyse porte par défaut sur les destinataires (**nms:recipient**). Il s&#39;applique à la totalité des données de la base Adobe Campaign.
+L’assistant d’analyse descriptive peut être lancé à l’aide du menu **[!UICONTROL Outils > Analyse descriptive]** : dans ce cas, l’analyse porte par défaut sur les destinataires (**nms:recipient**). Elle s’applique à la totalité des données de la base de données Adobe Campaign.
 
 ![](assets/reporting_descriptive_wz_launch.png)
 
-Pour analyser une autre table que celle des destinataires standard (**nms:recipient**), cliquez sur le lien **[!UICONTROL Paramètres avancés...]** de la dernière étape de l&#39;assistant et sélectionnez la table correspondant à vos paramètres, ici **cus:individual** :
+Si vous souhaitez analyser un autre tableau que celui des destinataires standard (**nms:recipient**), cliquez sur le lien **[!UICONTROL Paramètres avancés...]** proposé à la dernière étape de l’assistant et sélectionnez le tableau correspondant à vos paramètres, par exemple ici **cus:individual** :
 
 ![](assets/reporting_descriptive_other_schema.png)
 
@@ -36,11 +36,11 @@ L&#39;analyse ne portera que sur les destinataires de la base de données agés 
 
 ## Analyse dʼun jeu de données {#analyzing-a-set-of-data}
 
-Vous pouvez utiliser l&#39;assistant d&#39;analyse descriptive depuis un contexte différent : une liste, une transition de workflow, une ou plusieurs diffusions, une sélection de destinataires, etc.
+Vous pouvez utiliser l’assistant d’analyse descriptive à partir d’un autre contexte : une liste, une transition de workflow, une ou plusieurs diffusions, une sélection de destinataires, etc.
 
-En effet, il est accessible depuis plusieurs noeuds de l&#39;arborescence d&#39;Adobe Campaign qui pointent vers la table des destinataires.
+En effet, il est accessible depuis plusieurs nœuds de l’arborescence d’Adobe Campaign qui pointent vers le tableau des destinataires.
 
-Ouvrez l&#39;assistant d&#39;analyse descriptive en sélectionnant les éléments et en cliquant avec le bouton droit de la souris. Dans ce cas, seules les données de la sélection seront analysées.
+Ouvrez l’assistant d’analyse descriptive en sélectionnant les éléments et en cliquant sur le bouton droit de la souris. Dans ce cas, seules les données de la sélection seront analysées.
 
 ![](assets/reporting_descriptive_from_recipients.png)
 
@@ -64,7 +64,7 @@ Le modèle **[!UICONTROL Distribution qualitative]** vous permet de faire des st
 
 Les options de configuration proposées pour un rapport créé à lʼaide du modèle de **[!UICONTROL distribution qualitative]** sont détaillées dans la section [Affichage des données dans le tableau](#displaying-data-in-the-table). Un exemple détaillé est proposé dans la section [Analyse dʼune population](../../reporting/using/use-cases.md#analyzing-a-population).
 
-Lorsque vous utilisez l&#39;assistant d&#39;analyse descriptive pour analyser vos données, les options disponibles dépendent des paramètres choisis. Elles sont présentées ci-après.
+Lorsque vous utilisez lʼassistant dʼanalyse descriptive pour analyser vos données, les options disponibles dépendent des paramètres sélectionnés. Elles sont présentées ci-après.
 
 ### Mise en classe des données {#data-binning}
 
@@ -119,11 +119,11 @@ Vous pouvez afficher ou masquer le nom des statistiques et sous-totaux, et chois
 
 ### Affichage des données dans le graphique {#displaying-data-in-the-chart}
 
-Dans la première étape de l&#39;assistant d&#39;analyse descriptive, vous pouvez choisir de n&#39;afficher que les données sous forme graphique, sans tableau. Dans ce cas, la sélection des variables doit être faite dans l&#39;étape de paramétrage du graphique. Vous devez d&#39;abord choisir le nombre de variables à afficher et sélectionner les champs de la base concernés.
+Dans la première étape de l’assistant d’analyse descriptive, vous pouvez choisir de n’afficher les données que sous forme graphique, sans tableau. Dans ce cas, la sélection des variables doit être faite dans l’étape de paramétrage du graphique. Vous devez d&#39;abord choisir le nombre de variables à afficher et sélectionner les champs de la base concernés.
 
 ![](assets/s_ncs_user_report_wizard_023.png)
 
-Puis indiquez le type de graphique voulu.
+Indiquez ensuite le type de graphique voulu.
 
 ![](assets/s_ncs_user_report_wizard_024.png)
 
@@ -139,7 +139,7 @@ Les options proposées dépendent du type de graphique sélectionné. Pour plus 
 
 ### Calcul des statistiques {#statistics-calculation}
 
-L&#39;assistant d&#39;analyse descriptive permet de calculer plusieurs types de statistiques sur les données. Par défaut, seul un comptage simple est paramétré.
+L’assistant d’analyse descriptive permet de calculer plusieurs types de statistiques sur les données. Par défaut, seul un comptage simple est paramétré.
 
 Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle statistique.
 
@@ -183,7 +183,7 @@ Les opérations possibles sont les suivantes :
 
 ### Affichage du rapport {#displaying-the-report}
 
-La dernière étape de l&#39;assistant permet d&#39;afficher le rapport, c&#39;est-à-dire le tableau ou le graphique tel qu&#39;il a été paramétré.
+La dernière étape de l’assistant permet d’afficher le rapport, c’est-à-dire le tableau ou le graphique tels qu’ils ont été paramétrés.
 
 Lorsque le rapport contient un tableau, vous constaterez que la cellule du résultat du calcul est colorée. L&#39;intensité de la couleur est d&#39;autant plus forte que le résultat est élevé.
 
@@ -205,7 +205,7 @@ Le modèle **[!UICONTROL Distribution quantitative]** qui vous permet de faire d
 
 Le mode de paramétrage d&#39;un rapport d&#39;analyse créé via le modèle **[!UICONTROL Distribution quantitative]** est présenté dans un exemple pratique d&#39;[Analyse quantitative des données](../../reporting/using/use-cases.md#quantitative-data-analysis). 
 
-Les options disponibles lors de l&#39;utilisation de l&#39;assistant d&#39;analyse descriptive pour créer un rapport quantitatif sont présentées ci-après.
+Lorsque vous utilisez l’assistant d’analyse descriptive pour créer un rapport quantitatif, les options disponibles sont présentées ci-après.
 
 Vous devez d&#39;abord sélectionner la variable sur laquelle portent les calculs :
 
@@ -229,7 +229,7 @@ Les opérations possibles sont les suivantes :
 
   ![](assets/s_ncs_user_report_wizard_030.png)
 
-  La dernière étape de l&#39;assistant présente le rapport d&#39;analyse quantitative.
+  La dernière étape de l’assistant affiche le rapport d’analyse quantitative.
 
   ![](assets/reporting_descriptive_view_report.png)
 

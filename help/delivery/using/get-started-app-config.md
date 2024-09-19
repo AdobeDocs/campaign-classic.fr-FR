@@ -6,9 +6,9 @@ feature: Push
 role: User, Developer
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ En tant que client on-premise, vous devez installer un package natif.
 
 Les étapes d&#39;installation sont les suivantes :
 
-1. Accédez à l’assistant d’import de package à partir de **[!UICONTROL Outils > Avancé > Import de package]** dans la console cliente Adobe Campaign.
+1. Accédez à l’assistant d’import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package]** de la console cliente Adobe Campaign.
 
    ![](assets/package_ios.png)
 

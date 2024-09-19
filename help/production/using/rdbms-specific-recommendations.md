@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1281'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -417,7 +417,7 @@ Veuillez consulter votre administrateur de base de données pour connaître les 
 L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une autre version, contactez l&#39;administrateur de base de données pour connaître les procédures de maintenance de cette version.
 
 1. Connectez-vous à Microsoft SQL Server Management Studio avec un identifiant auquel ont été attribués des droits administrateur.
-1. Accédez au dossier **[!UICONTROL Gestion > Plans de maintenance]**, cliquez dessus avec le bouton droit de la souris et choisissez **[!UICONTROL Assistant de planification de maintenance]**.
+1. Cliquez avec le bouton droit de la souris sur le dossier **[!UICONTROL Gestion > Plans de maintenance]** et sélectionnez **[!UICONTROL Assistant Plan de maintenance]**.
 1. Cliquez sur **[!UICONTROL Suivant]** lorsque la page d&#39;accueil s&#39;affiche.
 1. Choisissez le type de plan de maintenance que vous souhaitez créer (exécution de la maintenance en une fois ou création d&#39;un plan pour chaque tâche de maintenance), puis cliquez sur **[!UICONTROL Modifier]**.
 1. Dans la fenêtre **[!UICONTROL Propriétés de la planification du traitement]**, choisissez les paramètres d&#39;exécution voulus et cliquez sur **[!UICONTROL OK]** puis sur **[!UICONTROL Suivant]**.

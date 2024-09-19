@@ -7,9 +7,9 @@ feature: Monitoring
 role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1255'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour c
 >
 >Si le tracking n&#39;est pas activé pour une diffusion, cet onglet n&#39;est pas affiché.
 
-Le paramétrage du tracking est effectué à l&#39;étape appropriée dans l&#39;assistant de diffusion. Voir à ce sujet la section [Comment configurer des liens suivis](how-to-configure-tracked-links.md). 
+La configuration du suivi est effectué dans l’assistant de diffusion, à l’étape concernée. Voir à ce sujet la section [Comment configurer des liens suivis](how-to-configure-tracked-links.md).
 
 Les données de **[!UICONTROL tracking]** sont interprétées dans les rapports de diffusion. Consultez [cette section](../../reporting/using/delivery-reports.md).
 

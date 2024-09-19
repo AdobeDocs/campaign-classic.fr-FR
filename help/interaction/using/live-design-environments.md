@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Par défaut, Interaction comprend un environnement **[!UICONTROL En édition]** 
 
 >[!NOTE]
 >
->Pour cibler une autre table (table des visiteurs pour les offres anonymes ou table de destinataires spécifique), vous devez utiliser l&#39;assistant de mapping de ciblage pour créer les environnements. Voir à ce sujet la section [Créer un environnement d’offre](#creating-an-offer-environment).
+>Pour cibler un autre tableau (tableau des visiteurs et visiteuses pour les offres anonymes ou tableau de destinataires spécifique), vous devez utiliser l’assistant de mapping de ciblage pour créer les environnements. Voir à ce sujet la section [Créer un environnement d’offre](#creating-an-offer-environment).
 
 ![](assets/offer_environments_overview_002.png)
 
@@ -43,11 +43,11 @@ Le chargé d&#39;offres et le chargé de diffusion accèdent différemment aux e
 
 Par défaut, Interaction est livré avec un environnement pré-paramétré pour cibler la table des destinataires (offres identifiées). Si vous souhaitez cibler une autre table (table des visiteurs pour les offres anonymes ou table de destinataires spécifique), vous devez effectuer le paramétrage suivant :
 
-1. Positionnez-vous sur le noeud **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Mappings de ciblage]**. Cliquez avec le bouton droit sur le mapping de ciblage que vous souhaitez utiliser (**[!UICONTROL Visiteurs]** si vous souhaitez utiliser les offres anonymes) et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Modifier les options de la dimension de ciblage]**.
+1. Positionnez-vous sur le noeud **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Mappings de ciblage]**. Cliquez avec le bouton droit sur le mapping de diffusion que vous souhaitez utiliser (**[!UICONTROL Visiteurs et visiteuses]** si vous souhaitez utiliser les offres anonymes) et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Modifier les options de la dimension de ciblage]**.
 
    ![](assets/offer_env_anonymous_001.png)
 
-1. Cliquez sur **[!UICONTROL Suivant]** pour passer à l&#39;écran suivant de l&#39;assistant, cochez la case **[!UICONTROL Générer un schéma de stockage pour les propositions]** et cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Suivant]** pour accéder au second écran de l’assistant, cochez la case **[!UICONTROL Générer un schéma de stockage pour les propositions]** et cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/offer_env_anonymous_002.png)
 

@@ -1,25 +1,25 @@
 ---
 product: campaign
-title: Configuration des options de tracking d’URL
+title: Configurer les options de suivi d’URL
 description: Découvrez comment configurer les options de tracking d’URL
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Monitoring, Email Design, Personalization
 role: User
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Configuration des options de tracking d’URL{#personalizing-url-tracking}
+# Configurer les options de suivi d’URL{#personalizing-url-tracking}
 
-Les paramètres avancés du tracking des messages sont accessibles à partir de l&#39;icône **[!UICONTROL Tracking &amp; Images]** située dans la barre d&#39;outils de l&#39;assistant de diffusion.
+Les paramètres avancés du tracking des messages sont accessibles à partir de l’icône **[!UICONTROL Tracking &amp; images]** située dans la barre d’outils de l’assistant de diffusion.
 
 >[!NOTE]
 >
->La gestion des images dans les emails est également paramétrée depuis cette fenêtre. Consultez la section [Ajout d’images](defining-the-email-content.md#adding-images).
+>La gestion des images dans les e-mails est également paramétrée depuis cette fenêtre. Consultez la section [Ajout d’images](defining-the-email-content.md#adding-images).
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

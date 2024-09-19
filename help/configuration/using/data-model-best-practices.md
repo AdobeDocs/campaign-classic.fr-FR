@@ -5,9 +5,9 @@ description: Découvrez comment utiliser le modèle de données de Campaign Cla
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4030'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -90,9 +90,9 @@ Avec la base de données SQLServer, vous pouvez envisager d’appliquer des « 
 
 L’attribut tablespace du schéma permet de spécifier un tablespace dédié pour une table.
 
-L’assistant d’installation vous permet de stocker des objets par type (données, temporaires et index).
+L’assistant d’installation vous permet de stocker des objets en fonction de leur type (données, temporaire et index).
 
-Les tablespaces dédiés sont plus performants pour la création de partitions et les règles de sécurité.Ils offrent en outre une administration fluide et flexible, une meilleure optimisation et des performances optimales.
+Les tablespaces dédiés sont plus performants pour la création de partitions et les règles de sécurité. Ils offrent en outre une administration fluide et flexible, une meilleure optimisation et des performances optimales.
 
 ## Identificateurs {#identifiers}
 

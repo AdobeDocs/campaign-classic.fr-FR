@@ -7,9 +7,9 @@ feature: Monitoring, Reporting
 role: User
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Conseil : vérifiez la configuration relative à la gestion du trafic (affinit�
 
 Pour mieux connaître le comportement de vos destinataires, vous pouvez suivre leur réaction à une diffusion : réception, ouverture, clics sur des liens, désabonnements, etc. Dans Campaign Classic, ces informations figurent dans l’onglet Tracking des destinataires ciblés par la diffusion et dans l’onglet Tracking de la diffusion.
 
-**Conseil** : le suivi des messages est activé par défaut. Pour paramétrer les URL, sélectionnez l&#39;option Afficher les URL dans la section inférieure de l&#39;assistant de diffusion. Pour chaque URL du message, vous pouvez choisir d’activer ou non le tracking.
+**Conseil** : le tracking des messages est activé par défaut. Pour configurer les URL, sélectionnez l’option Afficher les URL dans la section inférieure de l’assistant de diffusion. Pour chaque URL du message, vous pouvez choisir d’activer ou non le tracking.
 
 Pour en savoir plus à ce sujet, consultez la section [Configuration du tracking](how-to-configure-tracked-links.md) et la description des [Indicateurs de tracking](../../reporting/using/delivery-reports.md#tracking-indicators).
 

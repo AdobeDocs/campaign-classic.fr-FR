@@ -6,9 +6,9 @@ role: User
 feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2606'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -321,7 +321,7 @@ Cette option vous permet de définir une personne responsable de l’édition du
 
    ![](assets/s_ncs_user_validation_submit_content_notif.png)
 
-1. Ils peuvent alors se connecter à la console, ouvrir la diffusion et l&#39;éditer à l&#39;aide d&#39;un assistant simplifié pour modifier l&#39;objet, l&#39;HTML et le contenu texte, et envoyer des BAT.
+1. Cette personne se connecte à la console, ouvre la diffusion et la modifie via un assistant de modification simplifié lui permettant de modifier l’objet, le contenu HTML et texte, et d’envoyer des BAT.
 
    ![](assets/s_user_validation_content_edition.png)
 

@@ -6,9 +6,9 @@ role: User, Data Engineer
 feature: Typology Rules, Campaigns
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Vous pouvez créer des typologies de **[!UICONTROL Filtrage]** : elles ne conti
 
 ![](assets/campaign_opt_create_typo_filtering.png)
 
-Ces typologies spécifiques peuvent être liées à une diffusion lorsque la cible est sélectionnée : dans l&#39;assistant de diffusion, cliquez sur le lien **[!UICONTROL Pour]** , puis sur l&#39;onglet **[!UICONTROL Exclusions]** .
+Ces typologies spécifiques peuvent être associées à une diffusion lors du choix de la cible : dans l’assistant de diffusion, cliquez sur le lien **[!UICONTROL Pour]**, puis sur l’onglet **[!UICONTROL Exclusions]**.
 
 ![](assets/campaign_opt_apply_typo_filtering.png)
 
