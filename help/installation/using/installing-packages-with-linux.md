@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: fee880f4b200b322c2b2a0034f17975993c862b3
+source-git-commit: b4ab1fe5e98211c2b1bcdb319f10777c032831c7
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 98%
@@ -18,8 +18,6 @@ ht-degree: 98%
 # Installation de packages avec Linux{#installing-packages-with-linux}
 
 Adobe Campaign est fourni avec le package **nlserver** qui contient les fichiers binaires et de configuration pour une version donnée.
-
-
 
 Les commandes d&#39;installation permettent de :
 
