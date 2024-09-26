@@ -8,14 +8,14 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: b4ab1fe5e98211c2b1bcdb319f10777c032831c7
+source-git-commit: 9526d466dc4613410905d9d7265c6471cd1df599
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 98%
+source-wordcount: '1070'
+ht-degree: 95%
 
 ---
 
-# Installation de packages avec Linux{#installing-packages-with-linux}
+# Installation de packages avec Linux {#installing-packages-with-linux}
 
 Adobe Campaign est fourni avec le package **nlserver** qui contient les fichiers binaires et de configuration pour une version donnée.
 
@@ -60,6 +60,8 @@ Pour installer Adobe Campaign sur un système d’exploitation RPM (RHEL, CentO
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
+Notez que la plupart des dépendances répertoriées sont obligatoires et `nlserver` ne peut pas démarrer si elles ne sont pas installées (l’exception est opendk ; un autre JDK peut être installé).
+
 La commande `bc`, obligatoire pour exécuter le script [netreport](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts), n’est pas disponible par défaut sur toutes les distributions Linux. Pour vérifier si la commande est disponible, exécutez la commande `which bc`. Si elle n&#39;est pas présente, vous devez l&#39;installer.
 
 Sur CentOS, il faut installer le package bc.x86_64 : connectez-vous en tant que **root** et exécutez la commande suivante :
@@ -81,32 +83,9 @@ Pour installer Adobe Campaign sur un système d’exploitation Debian 64 bits, 
 1. Pour l’installer, connectez-vous en tant que **root** et exécutez la commande suivante (où **XXXX** est le numéro de build d’Adobe Campaign) :
 
    ```
-   dpkg -i nlserver6-v7-XXXX-linux-2.6-amd64.deb
+   apt install ./nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
 
-   S’il manque des dépendances, exécutez la commande suivante :
-
-   ```
-   apt-get install -f
-   ```
-
-
-1. Lors de l’installation d’Adobe Campaign sur un système d’exploitation Debian, tenez compte des éléments suivants :
-
-* OpenSSL doit être installé préalablement.
-* Installez libicu et libc-aresXX, où XX est la version, avec les commandes suivantes :
-
-  ```
-  apt install libicuXX
-  ```
-
-  ```
-  apt install libc-aresXX
-  ```
-
-  ```
-  apt install openjdk-XX-jdk
-  ```
 
 ## Personnaliser les paramètres {#personalizing-parameters}
 
