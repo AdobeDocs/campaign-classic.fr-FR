@@ -7,10 +7,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 100%
+source-wordcount: '1573'
+ht-degree: 95%
 
 ---
 
@@ -76,7 +76,7 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
 * **dbEnum (string)**: reçoit le nom interne d&#39;une énumération &quot;fermée&quot;. Les valeurs de l&#39;énumération doivent être définies dans le `<srcschema>`.
 * **defOnDuplicate (boolean)**: si cet attribut est activé, lors de la duplication d&#39;un enregistrement, la valeur par défaut (définie dans &quot;@default&quot;) est réappliquée automatiquement à l&#39;enregistrement.
 * **default (string)**: permet de définir la valeur du champ par défaut (appel à une fonction, valeur par défaut). Cet attribut reçoit une expression XTK.
-* **desc (string)**: permet d&#39;insérer une description de l&#39;attribut. Cette description s&#39;affiche dans la barre de statut de l&#39;interface.
+* **desc (string)**: permet d&#39;insérer une description de l&#39;attribut. Cette description est utilisée pour comprendre l’élément et son utilisation. Vous pouvez l’afficher dans le formulaire.
 * **edit (string)**: cet attribut précise le type d&#39;input qui sera utilisé dans le formulaire associé au schéma.
 * **enum (string)**: reçoit le nom de l&#39;énumération associé au champ. L&#39;énumération peut être insérée dans le même schéma ou bien dans un schéma distant. L&#39;énumération définie une liste fermée de valeurs.
 * **expr (string)** : définit une expression de précalcul du champ. Cet attribut reçoit un Xpath ou une expression XTK.
@@ -90,7 +90,7 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
    * dédié : `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
-  Deux types de champs de caractéristiques sont disponibles : les champs simples oà¹ une seule valeur est autorisée sur la caractéristique et les champs à choix multiples oà¹ la caractéristique est associée à un élément de collection qui peut donc contenir plusieurs valeurs.
+  Il existe deux types de champs de caractéristiques : les champs simples oà<sup>1</sup> où une seule valeur est autorisée sur la caractéristique et les champs à choix multiples oà<sup>1</sup> où la caractéristique est liée à un élément de collection qui peut contenir plusieurs valeurs.
 
   Lorsque une caractéristique est définie dans un schéma, ce schéma doit comporter une clef principale basé sur un seul champ (clef composite non autorisée).
 

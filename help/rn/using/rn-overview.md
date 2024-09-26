@@ -6,18 +6,33 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 100%
+source-wordcount: '903'
+ht-degree: 99%
 
 ---
 
 # Mise à jour des versions{#rn-overview}
 
-
-
 Adobe Campaign Classic publie régulièrement des mises à jour de produit qui comportent de nouvelles fonctionnalités et de nouveaux correctifs et améliorent les performances, la sécurité et la convivialité. Ces mises à jour sont publiées comme des **builds de produit**. Des informations détaillées sur chaque nouvelle build sont disponibles dans les [notes de mise à jour](latest-release.md).
+
+<!--
+## Product versions
+
+For Campaign, the version naming is the following:
+
+1. Campaign Major version are v7 and v8.
+1. A Minor version is a sub-version of a Major version. For example: v7.3, v7.4.
+1. A Patch version is a post-release fix. For example: v7.3.2, v7.3.3.
+
+
+Aligned with this naming, Campaign has 3 types of upgrades:
+
+1. Major Upgrades - A major upgrade is an upgrade to a new version of Adobe Campaign (ex: v7 to v8)
+1. Minor Upgrades - A minor upgrade brings new features, enhancements and fixes (ex: 7.4.X to 7.5.X)
+1. Patch Upgrades - A patch upgrade includes fixes only (ex: 8.5.1 to 8.5.2)
+-->
 
 ## Statuts des versions{#rn-statuses}
 
@@ -27,22 +42,8 @@ Chaque nouvelle build est fournie avec un statut identifié par une couleur dans
 | Statut | Description |
 |---|---|
 | [!BADGE Disponibilité générale]{type=Positive} | Disponibilité générale : dernière version stable, validée en production et recommandée par Adobe. |
-| [!BADGE Disponibilité limitée]{type=Neutral} | Déploiement à la demande uniquement. |
-| [!BADGE Version admissible]{type=Informative} | Version la plus récente avec des nouvelles fonctionnalités. |
-| [!BADGE Plus disponible]{type=Caution} | Aucun déploiement. Aucun correctif. Il est recommandé de mettre à jour vers une build plus récente. |
+| [!BADGE Disponibilité limitée]{type=Informative} | Déploiement à la demande uniquement. |
 | [!BADGE Obsolète]{type=negative} | Aucun déploiement. Aucun correctif. Les implémentations existantes doivent être mises à niveau. |
-
-<!--
-![](assets/do-not-localize/green3.png) **General Availability** (GA) - Latest stable build, validated in production, and recommended by Adobe. 
-
-![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
-
-![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest build with new capabilities.
-
-![](assets/do-not-localize/orange3.png) **No longer available** - No deployment. No bug fix. Update to a newer build is recommended.
-
-![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. No bug fix. Existing implementations must be upgraded.
--->
 
 ## Cycle de publication des versions{#rn-cycle}
 

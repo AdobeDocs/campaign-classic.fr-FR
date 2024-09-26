@@ -6,7 +6,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
-source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
 source-wordcount: '2337'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Version 7.3.5 - Build 9368 {#release-7-3-5}
 
-[!BADGE Disponibilité limitée]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
+[!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
 
 _5 décembre 2023_
 
@@ -50,7 +50,7 @@ _5 décembre 2023_
 
 ## Version 7.3.4 - Build 9364 {#release-7-3-4}
 
-[!BADGE Disponibilité limitée]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
+[!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
 
 
 >[!CAUTION]
@@ -120,7 +120,7 @@ Correction d’un problème en raison duquel les caractères japonais s’affich
 
 ## Version 7.3.3 - Build 9359 {#release-7-3-3}
 
-[!BADGE Disponibilité limitée]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
+[!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
 
 >[!AVAILABILITY]
 >
@@ -156,7 +156,7 @@ _20 mars 2023_
 
 ## Version 7.3.2 - Build 9356 {#release-7-3-2}
 
-[!BADGE Disponibilité limitée]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
+[!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
 
 
 >[!AVAILABILITY]

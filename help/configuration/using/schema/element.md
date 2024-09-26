@@ -4,10 +4,10 @@ title: Eléments et attributs de schéma - élément element
 description: élément element
 feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
-source-wordcount: '2016'
-ht-degree: 100%
+source-wordcount: '2029'
+ht-degree: 98%
 
 ---
 
@@ -83,7 +83,7 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
 * **dbEnum (string)**: reçoit le nom interne d&#39;une énumération &quot;fermée&quot;. Les valeurs de l&#39;énumération doivent être définies dans le `<srcschema>`.
 * **defOnDuplicate (boolean)**: si cet attribut est activé, lors de la duplication d&#39;un enregistrement, la valeur par défaut (définie dans &quot;@default&quot;) est réappliquée automatiquement à l&#39;enregistrement.
 * **default (string)**: permet de définir le comportement de l&#39;élément (appel à une fonction, valeur par défaut). Cet attribut reçoit une expression XTK.
-* **desc (string)**: permet d&#39;insérer une description de l&#39;élément. Cette description s&#39;affiche dans la barre de statut de l&#39;interface.
+* **desc (string)**: permet d&#39;insérer une description de l&#39;élément. Cette description est utilisée pour comprendre l’élément et son utilisation. Vous pouvez l’afficher dans le formulaire.
 * **displayAsField (boolean)** : si cet attribut est activé, un `<element>` de type « link » s’affiche sous forme de champ dans l’arborescence des schémas (onglet « Structure »). De cette façon, il est possible d&#39;afficher un lien en tant que champ local et de modifier son comportement pendant une requête. Lorsque l&#39;élément est trouvé dans le SELECT d&#39;une requête, la valeur de la cible du lien est utilisée. Lorsque l’élément est trouvé dans le WHERE d’une requête, la clé sous-jacente du lien est utilisée.
 * **edit (string)**: cet attribut précise le type d&#39;input qui sera utilisé dans le formulaire associé à l&#39;élément du schéma en cours de définition.
 * **enum (string)**: reçoit le nom de l&#39;énumération associé au champ. L&#39;énumération peut être insérée dans le même schéma ou bien dans un schéma distant. L&#39;énumération définie une liste fermée de valeurs.
