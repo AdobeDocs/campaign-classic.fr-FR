@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: database-maintenance
 exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
 source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1142'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 
 
 
-La liste des tables à gérer dépend de votre version d’Adobe Campaign, de votre utilisation et de la configuration du modèle de données.
+La liste des tables à maintenir dépend de votre version d’Adobe Campaign, de l’utilisation que vous en faites et de la configuration du modèle de données.
 
 Dans la liste qui suit, ne sont mentionnées que les tables les plus sujettes à la fragmentation. Les impacts sont les suivants :
 
@@ -205,4 +205,4 @@ Dans la liste qui suit, ne sont mentionnées que les tables les plus sujettes à
 
 ## Tables Clients {#customer-tables}
 
-Outre la liste ci-dessus, les tables contenant des données créées par des clients (qui n’existent pas dans le modèle de données Adobe Campaign) lors de la configuration de la plateforme peuvent également être soumises à une fragmentation, en particulier si elles sont fréquemment mises à jour lors du chargement des données ou des procédures de synchronisation. Ces tables peuvent faire partie du modèle de données d&#39;Adobe Campaign (**NmsRecipient**, par exemple). C&#39;est donc à la personne chargée de l&#39;administration de la plateforme Adobe Campaign qu’il appartient de rechercher ces tables personnalisées dans le modèle de base de données spécifique. Ces tables ne sont pas nécessairement mentionnées explicitement dans nos procédures de maintenance.
+En plus de la liste ci-dessus, les tables créées par les clientes et clients (qui n’existent pas dans le modèle de données Adobe Campaign) lors de la configuration de la plateforme peuvent également être sujettes à la fragmentation, en particulier si elles sont fréquemment mises à jour lors des procédures de synchronisation ou de chargement des données. Ces tables peuvent faire partie du modèle de données d&#39;Adobe Campaign (**NmsRecipient**, par exemple). C&#39;est donc à la personne chargée de l&#39;administration de la plateforme Adobe Campaign qu’il appartient de rechercher ces tables personnalisées dans le modèle de base de données spécifique. Ces tables ne sont pas nécessairement mentionnées explicitement dans nos procédures de maintenance.
