@@ -11,7 +11,7 @@ exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -125,7 +125,7 @@ Le fichier est **nlserver6-v7-XXX.rpm**
 
 >[!AVAILABILITY]
 >
->À compter de la version 7.4.1, les bibliothèques XML pour les packages RPM Linux ne sont plus incluses dans Campaign. Vous devez installer ces bibliothèques.
+>À compter de la version 7.4.1, les bibliothèques XML pour les packages RPM Linux ne sont plus incluses dans Campaign. Vous devez installer ces bibliothèques.
 > 
 
 Vous pouvez ensuite installer les packages requis, comme décrit ci-dessous :

@@ -11,7 +11,7 @@ exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 source-git-commit: 9526d466dc4613410905d9d7265c6471cd1df599
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Vous pouvez tester si le serveur peut s&#39;atteindre lui-même en lançant un *
 
 >[!AVAILABILITY]
 >
->À compter de la version 7.4.1, les bibliothèques XML pour les packages RPM Linux ne sont plus incluses dans Campaign. Vous devez installer ces bibliothèques.
+>À compter de la version 7.4.1, les bibliothèques XML pour les packages RPM Linux ne sont plus incluses dans Campaign. Vous devez installer ces bibliothèques.
 > 
 
 Pour installer Adobe Campaign sur un système d’exploitation RPM (RHEL, CentOS), suivez les étapes ci-après :
