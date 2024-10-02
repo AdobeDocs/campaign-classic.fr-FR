@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
+workflow-type: tm+mt
 source-wordcount: '2544'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -169,10 +169,10 @@ Contenu de package :
 <package author="Administrator (admin)" buildNumber="7974" buildVersion="7.1" img=""
 label="" name="" namespace="" vendor="">
  <desc></desc>
- <version buildDate="2013-01-09 10:30:18.954Z"/>
+ <version buildDate="AAAA-MM-DD HH:MM:SS.954Z"/>
  <entities schema="nms:operation">
-  <operation duration="432000" end="2013-01-14" internalName="OP1" label="MyCampaign"
-  modelName="opEmpty" start="2013-01-09">
+  <operation duration="432000" end="AAAA-MM-DD" internalName="OP1" label="MyCampaign"
+  modelName="opEmpty" start="AAAA-MM-DD">
    <controlGroup>
     <where filteringSchema=""/>
    </controlGroup>
@@ -188,7 +188,7 @@ label="" name="" namespace="" vendor="">
    </fcpSeed>
    <owner _operation="none" name="admin" type="0"/>
    <program _operation="none" name="nmsOperations"/>
-   <task end="2013-01-17 10:07:51.000Z" label="MyTask" name="TSK2" start="2013-01-16 10:07:51.000Z"
+   <task end="2023-01-17 10:07:51.000Z" label="MyTask" name="TSK2" start="2023-01-16 10:07:51.000Z"
    status="1">
     <owner _operation="none" name="admin" type="0"/>
     <operation _operation="none" internalName="OP1"/>
@@ -354,7 +354,7 @@ Effectuez toujours l&#39;import dans la même version de la plateforme. Vous dev
 >[!IMPORTANT]
 >
 >L&#39;import entre différentes versions n&#39;est pas pris en charge par Adobe.
-<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
+<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won't be able to help you resolve any issues you encounter.-->
 
 Accordez de l&#39;attention à la structure du schéma et de la base de données. L&#39;import de packages avec schéma doit être suivie de la génération des schémas.
 
@@ -365,11 +365,11 @@ Accordez de l&#39;attention à la structure du schéma et de la base de données
 Commencez par définir différents types de packages. Quatre types seulement seront utilisés :
 
 **Entités**
-* Tous les éléments spécifiques &quot;xtk&quot; et &quot;nms&quot; d’Adobe Campaign, tels que les schémas, les formulaires, les dossiers, les modèles de diffusion, etc.
-* Vous pouvez considérer une entité à la fois comme un élément &quot;admin&quot; et comme un élément &quot;plateforme&quot;.
+* Tous les éléments spécifiques « xtk » et « nms » d’Adobe Campaign, tels que les schémas, les formulaires, les dossiers, les modèles de diffusion, etc.
+* Vous pouvez considérer une entité à la fois comme un élément « admin » et comme un élément « plateforme ».
 * Vous ne devez pas inclure plus d&#39;une entité dans un package lorsque vous le chargez sur une instance Campaign.
 
-<!--Nothing “works” alone. An entity package does not have a specific role or objective.-->
+<!--Nothing "works" alone. An entity package does not have a specific role or objective.-->
 
 Si vous devez déployer votre configuration sur une nouvelle instance, vous pouvez importer tous vos packages d&#39;entités.
 
@@ -390,7 +390,7 @@ Une fois configurée, une fonctionnalité peut être exportée dans un autre env
 
 La première solution consisterait à réexporter l&#39;ensemble de la fonctionnalité. Cependant, pour éviter tout risque (comme la mise à jour d&#39;éléments indésirables), il est plus sûr d&#39;avoir un package ne contenant que la correction.
 
-Nous vous recommandons donc de créer un package de « mise à jour » contenant un seul type d&#39;entité pour la fonctionnalité.
+Nous vous recommandons donc de créer un package de « mise à jour » contenant un seul type d’entité pour la fonctionnalité.
 
 Une mise à jour peut non seulement être constituée d&#39;un correctif, mais aussi d&#39;un nouvel élément de votre package d&#39;entité/de fonctionnalité/de campagne. Pour éviter de déployer l&#39;ensemble du package, vous pouvez exporter un package de mise à jour.
 
@@ -423,11 +423,11 @@ Pour faciliter l&#39;import, les packages d&#39;entités doivent être classés 
 
 #### Package 200 {#package-200}
 
-Le numéro de package « 200 » ne doit pas être utilisé pour une campagne spécifique : il sera utilisé pour mettre à jour une information qui concerne toutes les campagnes.
+Le numéro de package &quot;200&quot; ne doit pas être utilisé pour une campagne spécifique : ce numéro sera utilisé pour mettre à jour quelque chose qui concerne toutes les campagnes.
 
 #### Mettre à jour le package {#update-package}
 
-Le dernier point concerne la numérotation des packages de mise à jour. Il s&#39;agit du numéro de package (entité, fonctionnalité ou campagne) avec un préfixe « 5 ». Par exemple :
+Le dernier point concerne la numérotation des packages de mise à jour. Il s’agit de votre numéro de package (entité, fonctionnalité ou campagne) avec un préfixe &quot;5&quot;. Par exemple :
 * 5001 pour mettre à jour un schéma
 * 5200 pour mettre à jour toutes les campagnes
 * 5101 pour mettre à jour la fonctionnalité 101
@@ -450,8 +450,8 @@ Lorsque vous mettez à jour un package, vous devez toujours insérer un commenta
 
 ![](assets/ncs_datapackage_best-practices-2.png)
 
-Vous devez également dater le commentaire. Signalez toujours au « parent » le commentaire relatif à un package de mise à jour (package sans préfixe 5).
+Vous devez également dater le commentaire. Signalez toujours votre commentaire sur un package de mise à jour au &quot;parent&quot; (package sans préfixe 5).
 
 >[!IMPORTANT]
 >
->Le champ de description peut contenir 2 000 caractères au maximum.
+>Le champ de description peut contenir 2 000 caractères au maximum.

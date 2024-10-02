@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 100%
@@ -188,9 +188,9 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
    Le nom du schéma dans l&#39;exemple est **cus:offer**
 
    ```
-   <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
+   <srcSchema _cs="Marketing offers (cus)" created="2 AAAA-MM-DD HH:MM:SS.762Z" createdBy-id="0"
               desc="" entitySchema="xtk:srcSchema" extendedSchema="nms:offer" img="nms:offer.png"
-              label="Marketing offers" labelSingular="Marketing offers" lastModified="2013-01-18 15:20:18.373Z"
+              label="Marketing offers" labelSingular="Marketing offers" lastModified="AAAA-MM-DD HH:MM:SS.373Z"
               mappingType="sql" md5="F14A7AA009AE1FCE31B0611E72866AC3" modifiedBy-id="0"
               name="offer" namespace="cus" xtkschema="xtk:srcSchema">
      <createdBy _cs="Administrator (admin)"/>
