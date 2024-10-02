@@ -4,10 +4,10 @@ title: Effectuer une requête sur la table des destinataires
 description: Découvrez comment effectuer une requête sur la table des destinataires.
 feature: Query Editor, Workflows
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: d6bed05e083b2e349db331e6016cbb8f91f00eaf
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -83,6 +83,6 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    ![](assets/query_editor_nveau_13.png)
 
-   Visualisez la requête en langage SQL grâce à l&#39;onglet **[!UICONTROL Requêtes SQL générées]**.
+   L’onglet **[!UICONTROL Requêtes SQL générées]** affiche le résultat de la requête au format SQL.
 
    ![](assets/query_editor_nveau_14.png)
