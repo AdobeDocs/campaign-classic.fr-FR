@@ -5,9 +5,9 @@ description: élément element
 feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2029'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

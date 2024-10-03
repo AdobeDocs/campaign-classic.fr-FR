@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
 source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1573'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
    * dédié : `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
-  Il existe deux types de champs de caractéristiques : les champs simples oà<sup>1</sup> où une seule valeur est autorisée sur la caractéristique et les champs à choix multiples oà<sup>1</sup> où la caractéristique est liée à un élément de collection qui peut contenir plusieurs valeurs.
+  Deux types de champs de caractéristiques sont disponibles : les champs simples oà<sup>1</sup> où une seule valeur est autorisée sur la caractéristique et les champs oà<sup>1</sup> à choix multiples, la caractéristique étant associée à un élément de collection qui peut donc contenir plusieurs valeurs.
 
   Lorsque une caractéristique est définie dans un schéma, ce schéma doit comporter une clef principale basé sur un seul champ (clef composite non autorisée).
 

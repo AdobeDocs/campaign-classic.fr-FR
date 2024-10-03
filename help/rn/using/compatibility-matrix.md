@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Sauf mention contraire, toutes les versions mineures sont prises en charge.
 
 >[!CAUTION]
 >
->Cette matrice est régulièrement mise à jour avec de nouveaux systèmes et outils pris en charge ajoutés, et obsolète en cours de suppression.
+>Cette matrice est régulièrement mise à jour avec les nouveaux systèmes et outils pris en charge ajoutés et ceux qui sont obsolètes et supprimés.
 
 ## Systèmes d’exploitation {#OperatingSystems}
 
@@ -53,7 +53,7 @@ En tant que client ou cliente on-premise/hybride, vous devez installer Adobe Ca
 </td>
 </tr>
 <tr>
-<td>Red Hat Enterprise Linux (RHEL)</td>
+<td>Red Hat Enterprise Linux (RHEL)</td>
 <td>
 <p>9.x</p>
 <p>8.x</p>
@@ -83,7 +83,7 @@ En tant que client ou cliente on-premise/hybride, vous devez installer Adobe Ca
 
 >[!IMPORTANT]
 >
->Avec RHEL, vous devez être prêt à désactiver [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux) ou à demander à vos architectes d’écrire des règles SELinux personnalisées pour vérifier qu’un SELinux activé ne provoque pas de problèmes avec les opérations Campaign.
+>Si vous utilisez RHEL, vous devez vous préparer à devoir désactiver [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux) ou à demander à vos architectes d’écrire des règles SELinux personnalisées pour vérifier qu’un SELinux activé ne pose pas de problème pour les opérations de Campaign.
 
 ## Serveurs web {#WebServers}
 
@@ -96,7 +96,7 @@ En tant que client ou cliente on-premise/hybride, en fonction de votre système 
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>10,0</p>
+<p>10.0</p>
 </td>
 </tr>
 <tr>

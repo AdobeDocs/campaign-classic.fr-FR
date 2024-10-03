@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 source-git-commit: 9526d466dc4613410905d9d7265c6471cd1df599
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1070'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Pour installer Adobe Campaign sur un système d’exploitation RPM (RHEL, CentO
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
-Notez que la plupart des dépendances répertoriées sont obligatoires et `nlserver` ne peut pas démarrer si elles ne sont pas installées (l’exception est opendk ; un autre JDK peut être installé).
+Notez que la plupart des dépendances répertoriées sont obligatoires et que `nlserver` ne peut pas démarrer si elles ne sont pas installées (opendk fait exception à la règle ; un autre JDK peut être installé).
 
 La commande `bc`, obligatoire pour exécuter le script [netreport](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts), n’est pas disponible par défaut sur toutes les distributions Linux. Pour vérifier si la commande est disponible, exécutez la commande `which bc`. Si elle n&#39;est pas présente, vous devez l&#39;installer.
 
