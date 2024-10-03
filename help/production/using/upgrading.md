@@ -11,7 +11,7 @@ exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 source-git-commit: cc614ed608f1e8229c0ef1ccf35dbac6cb9dddd3
 workflow-type: tm+mt
 source-wordcount: '1274'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -117,7 +117,7 @@ Dans un environnement Linux, procédez comme suit pour mettre à jour Adobe Cam
 
 [En savoir plus sur la disponibilité de la console client](../../installation/using/client-console-availability-for-windows.md).
 
-### Installation de packages mis à jour {#obtain-updated-packages}
+### Installer des packages mis à jour {#obtain-updated-packages}
 
 Commencez par récupérer les deux packages d’Adobe Campaign mis à jour : connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html) à l&#39;aide de vos informations d&#39;identification d&#39;utilisateur. En savoir plus sur la distribution de logiciels dans [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 
@@ -128,7 +128,7 @@ Le fichier est **nlserver6-v7-XXX.rpm**
 >À compter de la version 7.4.1, les bibliothèques XML pour les packages RPM Linux ne sont plus incluses dans Campaign. Vous devez installer ces bibliothèques.
 > 
 
-Vous pouvez ensuite installer les packages requis, comme décrit ci-dessous :
+Vous pouvez ensuite installer les packages requis, comme indiqué ci-dessous :
 
 * Distribution basée sur RPM (RedHat, SuSe)
 
@@ -146,7 +146,7 @@ Vous pouvez ensuite installer les packages requis, comme décrit ci-dessous :
   rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
   ```
 
-  Notez que la plupart des dépendances sont obligatoires et `nlserver` ne peut pas démarrer si elles ne sont pas installées. La seule exception est openjdk. Vous pouvez installer un autre JDK si nécessaire.
+  Notez que la plupart des dépendances sont obligatoires et que `nlserver` ne peut pas démarrer si elles ne sont pas installées. La seule exception est openjdk. Vous pouvez installer un autre JDK si nécessaire.
 
   Si le package `epel-release` n&#39;est pas installé, installez-le. Pour ce faire, saisissez la commande suivante, en tant que root :
 
