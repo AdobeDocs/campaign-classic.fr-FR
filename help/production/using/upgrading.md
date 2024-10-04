@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: cc614ed608f1e8229c0ef1ccf35dbac6cb9dddd3
+source-git-commit: e5468f2aa5dc18c2b24c3e80e416e423ad0e13c9
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 94%
+source-wordcount: '1260'
+ht-degree: 93%
 
 ---
 
@@ -132,22 +132,6 @@ Vous pouvez ensuite installer les packages requis, comme indiqué ci-dessous :
 
 * Distribution basée sur RPM (RedHat, SuSe)
 
-  Pour les installer, exécutez en tant que root :
-
-  ```
-  yum install ./nlserver6-v7-XXXX.rpm
-  ```
-
-  où XXX correspond à la version du fichier.
-
-  Le fichier rpm possède des dépendances dans les packages des distributions CentOS/Red Hat. Si vous ne souhaitez pas employer certaines de ces dépendances, vous devrez peut-être utiliser l&#39;option &quot;nodeps&quot; du fichier rpm :
-
-  ```
-  rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
-  ```
-
-  Notez que la plupart des dépendances sont obligatoires et que `nlserver` ne peut pas démarrer si elles ne sont pas installées. La seule exception est openjdk. Vous pouvez installer un autre JDK si nécessaire.
-
   Si le package `epel-release` n&#39;est pas installé, installez-le. Pour ce faire, saisissez la commande suivante, en tant que root :
 
   ```
@@ -173,6 +157,14 @@ Vous pouvez ensuite installer les packages requis, comme indiqué ci-dessous :
   >[!IMPORTANT]
   >
   >Si vous lisez `Removing:` au lieu de `Upgrading:`, annulez la commande. Il existe probablement des erreurs (répertoriées ci-dessus) qui expliquent la suppression. Dans ce cas, corrigez ces erreurs en mettant à jour/installant les dépendances manquantes répertoriées, puis essayez de réexécuter la commande.
+
+  Le fichier rpm possède des dépendances dans les packages des distributions CentOS/Red Hat. Si vous ne souhaitez pas employer certaines de ces dépendances, vous devrez peut-être utiliser l&#39;option &quot;nodeps&quot; du fichier rpm :
+
+  ```
+  rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
+  ```
+
+  Notez que la plupart des dépendances sont obligatoires et que `nlserver` ne peut pas démarrer si elles ne sont pas installées. La seule exception est openjdk. Vous pouvez installer un autre JDK si nécessaire.
 
 * Distribution basée sur DEB (Debian)
 
