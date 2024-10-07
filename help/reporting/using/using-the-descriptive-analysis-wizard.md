@@ -1,20 +1,18 @@
 ---
 product: campaign
-title: Utiliser l’assistant d’analyse descriptive
-description: Utiliser l’assistant d’analyse descriptive
+title: Créer votre premier rapport d'analyse descriptive
+description: Découvrez comment utiliser l’assistant pour créer votre premier rapport d’analyse descriptive
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: ht
-source-wordcount: '1656'
-ht-degree: 100%
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
+workflow-type: tm+mt
+source-wordcount: '1666'
+ht-degree: 98%
 
 ---
 
-# Utiliser l’assistant d’analyse descriptive{#using-the-descriptive-analysis-wizard}
-
-
+# Créer votre premier rapport d&#39;analyse descriptive {#using-the-descriptive-analysis-wizard}
 
 Pour créer un rapport d’analyse descriptive, utilisez l’assistant dédié. Son paramétrage dépend des données à analyser et du rendu souhaité.
 

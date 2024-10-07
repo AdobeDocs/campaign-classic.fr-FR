@@ -1,20 +1,18 @@
 ---
 product: campaign
-title: Utilisation dʼun rapport dʼanalyse
-description: Utilisation dʼun rapport dʼanalyse
+title: Gérer et configurer votre rapport d’analyse
+description: Gérer et configurer votre rapport d’analyse
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
+workflow-type: tm+mt
+source-wordcount: '891'
+ht-degree: 97%
 
 ---
 
-# Utilisation dʼun rapport dʼanalyse{#processing-a-report}
-
-
+# Gérer et configurer votre rapport d’analyse {#processing-a-report}
 
 ## Sauvegarder un rapport d&#39;analyse {#saving-an-analysis-report}
 

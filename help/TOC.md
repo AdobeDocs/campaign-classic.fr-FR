@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
+workflow-type: tm+mt
+source-wordcount: '2560'
+ht-degree: 99%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 100%
          + [Envois sur mobiles japonais](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [Joindre des fichiers](delivery/using/attaching-files.md)
    + Envoi de SMS {#sending-messages-on-mobiles}
-      + [Prise en main des SMS](delivery/using/sms-channel.md)
+      + [Commencer avec les SMS](delivery/using/sms-channel.md)
       + Configurer le canal SMS {#sms-set-up}
          + [Configurer les SMS sur une instance autonome](delivery/using/sms-set-up.md)
          + [Configurer les SMS sur une infrastructure midsourcing](delivery/using/sms-set-up-mid.md)
@@ -293,10 +293,10 @@ ht-degree: 100%
       + [Calcul des indicateurs](reporting/using/indicator-calculation.md)
       + [Personnes et destinataires](reporting/using/person-people-recipients.md)
    + Analyse des populations {#analyzing-populations}
-      + [À propos de l&#39;analyse descriptive](reporting/using/about-descriptive-analysis.md)
-      + [Utiliser l’assistant d’analyse descriptive](reporting/using/using-the-descriptive-analysis-wizard.md)
-      + [Paramètres des rapports](reporting/using/processing-a-report.md)
-      + [Cas pratiques](reporting/using/use-cases.md)
+      + [Analyse descriptive](reporting/using/about-descriptive-analysis.md)
+      + [Créer votre premier rapport d&#39;analyse descriptive](reporting/using/using-the-descriptive-analysis-wizard.md)
+      + [Gérer et configurer votre rapport d’analyse](reporting/using/processing-a-report.md)
+      + [Cas d’utilisation des rapports d’analyse](reporting/using/use-cases.md)
    + Création de nouveaux rapports {#creating-new-reports}
       + [Étapes clés de la conception d’un rapport](reporting/using/about-reports-creation-in-campaign.md)
       + [Création d’un rapport](reporting/using/creating-a-new-report.md)
