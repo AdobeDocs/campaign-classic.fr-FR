@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 source-git-commit: 0da7fb912a909af222d796652efba4b30e39dc1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1247'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -132,19 +132,19 @@ Vous pouvez ensuite installer les packages requis, comme indiqué ci-dessous :
 
 * Distribution basée sur RPM (RedHat, SuSe)
 
-  Si le package `epel-release` n&#39;est pas installé, installez-le. Pour ce faire, saisissez la commande suivante, en tant que root :
+  Si le package `epel-release` n’est pas installé, installez-le. Pour ce faire, saisissez la commande suivante en tant que root :
 
   ```
   yum install epel-release
   ```
 
-  Pour installer le package Campaign, exécutez en tant que root :
+  Pour installer le kit de campagne, exécutez en tant que root :
 
   ```
   yum update ./nlserver6-v7-XXXX.rpm
   ```
 
-  Avant de confirmer la mise à jour, vérifiez que la sortie ressemble à :
+  Avant de confirmer la mise à jour, vérifiez que la sortie ressemble à ce qui suit :
 
   ```
   ==================================================================================================== 
@@ -156,7 +156,7 @@ Vous pouvez ensuite installer les packages requis, comme indiqué ci-dessous :
 
   >[!IMPORTANT]
   >
-  >Si vous lisez `Removing:` au lieu de `Upgrading:`, annulez la commande. Il existe probablement des erreurs (répertoriées ci-dessus) qui expliquent la suppression. Dans ce cas, corrigez ces erreurs en mettant à jour/installant les dépendances manquantes répertoriées, puis essayez de réexécuter la commande.
+  >Si vous lisez `Removing:` au lieu de `Upgrading:`, annulez la commande. Des erreurs (répertoriées ci-dessus) sont probablement à l’origine de la suppression. Dans ce cas, corrigez ces erreurs en mettant à jour ou en installant les dépendances manquantes répertoriées, puis réexécutez la commande.
 
   Le fichier rpm possède des dépendances dans les packages des distributions CentOS/Red Hat. Si vous ne souhaitez pas employer certaines de ces dépendances, vous devrez peut-être utiliser l&#39;option &quot;nodeps&quot; du fichier rpm :
 

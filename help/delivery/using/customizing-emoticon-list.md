@@ -7,18 +7,18 @@ feature: Email, Push
 role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 source-git-commit: 287d1bf60b39e9e2b389701097995dbea962dec9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Personnalisation de la liste des émoticônes {#customize-emoticons}
 
-La liste des émoticônes affichée dans la fenêtre pop-up est régie par une énumération. Vous pouvez ainsi afficher les valeurs contenues dans une liste pour limiter les choix de l’utilisateur pour un champ donné.
-L’ordre de la liste des émoticônes peut être personnalisé. Vous pouvez également ajouter d’autres émoticônes à votre liste.
+La liste des émoticônes affichée dans la fenêtre contextuelle est régie par une énumération. Vous pouvez ainsi afficher les valeurs contenues dans une liste pour limiter les choix de l’utilisateur ou de l’utilisatrice pour un champ donné.
+Il est possible de personnaliser l’ordre des émoticônes dans la liste et d’en ajouter d’autres.
 
-Notez que les émoticônes ne sont disponibles que pour les emails et les notifications push. Voir à ce propos cette [page](defining-the-email-content.md#inserting-emoticons).
+Notez que les émoticônes ne sont disponibles que pour les e-mails et les notifications push. Pour plus d’informations, consultez [cette page](defining-the-email-content.md#inserting-emoticons).
 
 ## Ajout d’une nouvelle émoticône {#add-new-emoticon}
 

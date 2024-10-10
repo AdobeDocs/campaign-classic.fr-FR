@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Analyse descriptive
-description: Analyser les populations à l'aide de rapports d'analyse descriptive
+title: Présentation de l’analyse descriptive
+description: Analyse des populations à l’aide de rapports d’analyse descriptive
 feature: Reporting, Monitoring
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
 source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Analyse descriptive {#about-descriptive-analysis}
+# Présentation de l’analyse descriptive {#about-descriptive-analysis}
 
 Afin de produire des statistiques sur les données de la base de données, créez des rapports d’analyse descriptive à l’aide de l’assistant dédié et adaptez leur contenu et leur présentation en fonction de vos besoins.
 

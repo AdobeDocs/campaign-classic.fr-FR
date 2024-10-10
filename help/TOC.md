@@ -7,9 +7,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2560'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -293,10 +293,10 @@ ht-degree: 99%
       + [Calcul des indicateurs](reporting/using/indicator-calculation.md)
       + [Personnes et destinataires](reporting/using/person-people-recipients.md)
    + Analyse des populations {#analyzing-populations}
-      + [Analyse descriptive](reporting/using/about-descriptive-analysis.md)
-      + [Créer votre premier rapport d&#39;analyse descriptive](reporting/using/using-the-descriptive-analysis-wizard.md)
-      + [Gérer et configurer votre rapport d’analyse](reporting/using/processing-a-report.md)
-      + [Cas d’utilisation des rapports d’analyse](reporting/using/use-cases.md)
+      + [Présentation de l’analyse descriptive](reporting/using/about-descriptive-analysis.md)
+      + [Création de votre premier rapport d’analyse descriptive](reporting/using/using-the-descriptive-analysis-wizard.md)
+      + [Gestion et configuration de votre rapport d’analyse](reporting/using/processing-a-report.md)
+      + [Cas dʼutilisation de rapports d’analyse](reporting/using/use-cases.md)
    + Création de nouveaux rapports {#creating-new-reports}
       + [Étapes clés de la conception d’un rapport](reporting/using/about-reports-creation-in-campaign.md)
       + [Création d’un rapport](reporting/using/creating-a-new-report.md)

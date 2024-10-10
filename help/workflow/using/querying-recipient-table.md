@@ -5,9 +5,9 @@ description: Découvrez comment effectuer une requête sur la table des destinat
 feature: Query Editor, Workflows
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
 source-git-commit: d6bed05e083b2e349db331e6016cbb8f91f00eaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -83,6 +83,6 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    ![](assets/query_editor_nveau_13.png)
 
-   L’onglet **[!UICONTROL Requêtes SQL générées]** affiche le résultat de la requête au format SQL.
+   L’onglet **[!UICONTROL Requêtes SQL générées]** vous présente le résultat de la requête en langage SQL.
 
    ![](assets/query_editor_nveau_14.png)

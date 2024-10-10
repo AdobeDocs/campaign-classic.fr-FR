@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Cas d’utilisation des rapports d’analyse
-description: Cas d’utilisation des rapports d’analyse
+title: Cas dʼutilisation de rapports d’analyse
+description: Cas dʼutilisation de rapports d’analyse
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1436'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Cas d’utilisation des rapports d’analyse {#use-cases}
+# Cas dʼutilisation de rapports d’analyse {#use-cases}
 
 ## Analyser une population {#analyzing-a-population}
 

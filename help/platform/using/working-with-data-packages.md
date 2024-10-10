@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2544'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -423,11 +423,11 @@ Pour faciliter l&#39;import, les packages d&#39;entités doivent être classés 
 
 #### Package 200 {#package-200}
 
-Le numéro de package &quot;200&quot; ne doit pas être utilisé pour une campagne spécifique : ce numéro sera utilisé pour mettre à jour quelque chose qui concerne toutes les campagnes.
+Le numéro de package « 200 » ne doit pas être utilisé pour une campagne spécifique : il sera utilisé pour mettre à jour un élément qui concerne toutes les campagnes.
 
 #### Mettre à jour le package {#update-package}
 
-Le dernier point concerne la numérotation des packages de mise à jour. Il s’agit de votre numéro de package (entité, fonctionnalité ou campagne) avec un préfixe &quot;5&quot;. Par exemple :
+Le dernier point concerne la numérotation des packages de mise à jour. Il s’agit du numéro de package (entité, fonctionnalité ou campagne) avec un préfixe « 5 ». Par exemple :
 * 5001 pour mettre à jour un schéma
 * 5200 pour mettre à jour toutes les campagnes
 * 5101 pour mettre à jour la fonctionnalité 101
@@ -450,7 +450,7 @@ Lorsque vous mettez à jour un package, vous devez toujours insérer un commenta
 
 ![](assets/ncs_datapackage_best-practices-2.png)
 
-Vous devez également dater le commentaire. Signalez toujours votre commentaire sur un package de mise à jour au &quot;parent&quot; (package sans préfixe 5).
+Vous devez également dater le commentaire. Signalez toujours au « parent » le commentaire relatif à un package de mise à jour (package sans préfixe 5).
 
 >[!IMPORTANT]
 >
