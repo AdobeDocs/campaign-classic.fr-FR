@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
-workflow-type: ht
-source-wordcount: '843'
+source-git-commit: 9c13556fb1a822f27aeb37a3812736976a20cea6
+workflow-type: tm+mt
+source-wordcount: '840'
 ht-degree: 100%
 
 ---
@@ -32,20 +32,10 @@ En tant que client ou cliente on-premise/hybride, vous devez installer Adobe Ca
 <td><strong>Système d’exploitation</strong></td>
 <td><strong>Version du système d’exploitation</strong></td>
 <td><strong>Version minimum de Campaign</strong></td>
-<tr> 
-<td>CentOs</td>
-<td>
-<p>7.x</p>
-</td>
-<td>
-<p></p>
-</td>
-</tr>
 <tr>
 <td>Debian</td>
 <td>
 <p>11</p>
-<p>10</p>
 </td>
 <td>
 <p>v7.3</p>
