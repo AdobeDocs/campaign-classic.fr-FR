@@ -6,7 +6,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 9c13556fb1a822f27aeb37a3812736976a20cea6
+source-git-commit: 4525651445b729b44f05dec69650584271675cef
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 100%
@@ -84,13 +84,17 @@ En tant que client ou cliente on-premise/hybride, en fonction de votre système 
 <td><strong>Serveur web</strong></td>
 <td><strong>Version du serveur web</strong></td>
 <tr>
-<td>Microsoft IIS</td>
+<td>
+<p>Microsoft IIS</p>
+</td>
 <td>
 <p>10.0</p>
 </td>
 </tr>
 <tr>
-<td>Apache</td>
+<td>
+<p>Apache</p>
+</td>
 <td>
 <p>2.4</p>
 </td>
@@ -153,7 +157,9 @@ En tant que client ou cliente on-premise/hybride, vous devez installer et config
 <td><strong>Version de la base de données</strong></td>
 <td><strong>Version minimum de Campaign</strong></td>
 <tr>
-<td>Oracle</td>
+<td>
+<p>Oracle</p>
+</td>
 <td>
 <p>23c</p>
 <p>19c</p>
@@ -170,7 +176,9 @@ En tant que client ou cliente on-premise/hybride, vous devez installer et config
 </td>
 </tr>
 <tr>
-<td>PostgreSQL</td>
+<td>
+<p>PostgreSQL</p>
+</td>
 <td>
 <p>14.x</p>
 <p>13.x</p>
@@ -185,7 +193,9 @@ En tant que client ou cliente on-premise/hybride, vous devez installer et config
 </td>
 </tr>
 <tr>
-<td>Microsoft SQL Server</td>
+<td>
+<p>Microsoft SQL Server</p>
+</td>
 <td>
 <p>2022</p>
 <p>2019</p>
@@ -222,13 +232,17 @@ Les systèmes de gestion de la relation client (CRM) compatibles avec Adobe Cam
 <table>
 <tbody>
 <tr>
-<td>API du connecteur Salesforce</td>
+<td>
+<p>API du connecteur Salesforce</p>
+</td>
 <td>
 <p>API version 49</p>
 </td>
 </tr>
 <tr>
-<td>Connecteur Microsoft Dynamics </td>
+<td>
+<p>Connecteur Microsoft Dynamics </p>
+</td>
 <td>
 <p>API web</p>
 </td>
