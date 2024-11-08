@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Créer du contenu personnalisé
+title: Création de contenu personnalisé
 description: Découvrez comment créer du contenu personnalisé dans les diffusions Adobe Campaign
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Email Design, Personalization
 role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '1304'
-ht-degree: 100%
+source-git-commit: d34f75fadb02b4c03acc0c2d7be52df65320ec2d
+workflow-type: tm+mt
+source-wordcount: '1298'
+ht-degree: 98%
 
 ---
 
@@ -121,9 +121,9 @@ Le responsive design des e-mails permet de s&#39;assurer que le rendu d&#39;un e
 
 * Utilisez du code HTML en responsive design plutôt que du code HTML web
 
-* Utilisez le mode Aperçu et envoyez des BAT pour tester le rendu sur le plus grand nombre d’appareils possible
+* Utilisez le mode Aperçu et envoyez des BAT pour tester le rendu sur le plus grand nombre d&#39;appareils possible
 
-* Le module Digital Content Editor (DCE) Adobe Campaign Classic contient quelques modèles pour appareils mobiles en responsive design accessibles via **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**. En savoir plus [dans cet article](https://theblog.adobe.com/responsive-email-design-101/)
+* Le module Adobe Campaign Classic Digital Content Editor (DCE) comprend quelques modèles en responsive design pour les appareils mobiles disponibles via **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**.
 
 ## Gestion des images {#manage-images}
 
