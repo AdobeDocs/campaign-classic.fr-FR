@@ -2,13 +2,12 @@
 product: campaign
 title: Canaux de communication
 description: Création de diffusions pour envoyer des messages personnalisés sur différents canaux
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '1221'
+source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+workflow-type: tm+mt
+source-wordcount: '1212'
 ht-degree: 100%
 
 ---

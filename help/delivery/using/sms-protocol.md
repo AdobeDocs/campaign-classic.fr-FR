@@ -2,14 +2,13 @@
 product: campaign
 title: Protocole et paramètres du connecteur SMS
 description: En savoir plus sur le connecteur SMS et comment le configurer
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
+source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
 workflow-type: tm+mt
-source-wordcount: '8466'
-ht-degree: 100%
+source-wordcount: '8457'
+ht-degree: 99%
 
 ---
 
@@ -475,7 +474,7 @@ Adobe Campaign Classic dispose d&#39;un mécanisme entièrement différent pour
 
 #### Numéro source {#source-number}
 
-Définit l&#39;adresse source par défaut des messages. Ce paramètre ne s&#39;applique que si le numéro source a été laissé vide dans la diffusion.
+Définit l’adresse source par défaut des messages. Ce paramètre ne s&#39;applique que si le numéro source a été laissé vide dans la diffusion.
 
 Par défaut, le champ du numéro source n&#39;est pas transmis.Le fournisseur le remplace donc par le numéro court.
 
@@ -647,7 +646,7 @@ Si ce champ est défini sur 1, le connecteur répond toujours &quot;OK&quot;, m�
 
 #### Expression régulière d&#39;extraction de l&#39;ID dans le SR {#regex-extraction}
 
-Le format SR n&#39;est pas strictement appliqué par la spécification du protocole SMPP. Il ne s&#39;agit que d&#39;une recommandation décrite à l&#39;[Annexe B](sms-protocol.md#sr-error-management) (page 167) de la spécification. Certains implémenteurs de SMPP formattent ce champ différemment, de sorte qu&#39;Adobe Campaign a besoin d&#39;un moyen d&#39;extraire le champ correct.
+Le format SR n’est pas strictement appliqué par la spécification du protocole SMPP. Il ne s&#39;agit que d&#39;une recommandation décrite à l&#39;[Annexe B](sms-protocol.md#sr-error-management) (page 167) de la spécification. Certains implémenteurs de SMPP formattent ce champ différemment, de sorte qu&#39;Adobe Campaign a besoin d&#39;un moyen d&#39;extraire le champ correct.
 
 Par défaut, il capture jusqu&#39;à 10 caractères alphanumériques après `id:`.
 
@@ -842,8 +841,8 @@ Le SMS doit être marqué comme reçu dans le log de diffusion. Le journal de di
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Vérifiez que vous avez modifié le nom du fournisseur de diffusions. Le log de diffusion ne doit jamais contenir **SR Generic** sur les environnements de production.
 
-* **Vérifier que les MO sont traités**
-Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.) essayez de faire des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
+* **Vérifiez que les MO sont traités**
+Si vous devez traiter des MO (réponses automatiques, stockage de MO dans la base de données, etc.), essayez d&#39;effectuer quelques tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
 Archivez le journal auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` réussi (command_status=0).
 
 ### Vérifier les PDU {#check-pdus}

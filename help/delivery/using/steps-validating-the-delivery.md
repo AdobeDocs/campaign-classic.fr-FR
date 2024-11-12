@@ -2,13 +2,12 @@
 product: campaign
 title: Validation de la diffusion
 description: Découvrez comment valider une diffusion
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '1803'
+source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+workflow-type: tm+mt
+source-wordcount: '1794'
 ht-degree: 100%
 
 ---

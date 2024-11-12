@@ -2,13 +2,12 @@
 product: campaign
 title: Résolution des problèmes de SMS
 description: En savoir plus sur la résolution des problèmes liés au canal SMS
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: SMS, Troubleshooting
 role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2755'
 ht-degree: 100%
 
 ---
@@ -143,7 +142,7 @@ Les doublons sont souvent causés par des reprises. Il est normal d&#39;avoir de
 
 Réduction du nombre de doublons en cas de nouvelle reprise :
 
-* Baissez la fenêtre d&#39;émission. La fenêtre d&#39;émission doit être suffisamment grande pour couvrir la latence `SUBMIT_SM_RESP`. Sa valeur représente le nombre maximum de messages pouvant être dupliqués en cas d&#39;erreur lorsque la fenêtre est pleine.
+* Baissez la fenêtre d&#39;émission. La fenêtre d&#39;émission doit être suffisamment grande pour couvrir la latence `SUBMIT_SM_RESP`. Sa valeur représente le nombre maximum de messages pouvant être dupliqués en cas d’erreur lorsque la fenêtre est pleine.
 
 ## Problème lors du traitement des SR (accusés de réception de diffusion) {#issue-process-SR}
 

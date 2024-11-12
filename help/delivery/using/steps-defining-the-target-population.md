@@ -2,13 +2,12 @@
 product: campaign
 title: Définition de la population cible
 description: En savoir plus sur la définition de la population cible
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Audiences, Proofs
 role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1740'
 ht-degree: 100%
 
 ---
@@ -94,7 +93,7 @@ Pour cela :
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. Par défaut, les destinataires sont importés dans la base de données. Vous devez sélectionner le **[!UICONTROL Mapping de ciblage]**. Pour plus d’informations sur les mappings de ciblage, consultez la section [Sélection dʼun mapping de ciblage](selecting-a-target-mapping.md).
+1. Par défaut, les personnes destinataires sont importées dans la base de données. Vous devez sélectionner le **[!UICONTROL Mapping de ciblage]**. Pour plus d’informations sur les mappings de ciblage, consultez la section [Sélection dʼun mapping de ciblage](selecting-a-target-mapping.md).
 
    Vous pouvez également sélectionner **[!UICONTROL Ne pas importer les destinataires dans la base]**.
 
