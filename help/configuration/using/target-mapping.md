@@ -6,16 +6,14 @@ feature: Application Settings
 role: Data Engineer, Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
 ---
 
 # Mapping de ciblage{#target-mapping}
-
-
 
 La création d&#39;un mapping de ciblage est nécessaire dans deux cas de figure :
 

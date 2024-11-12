@@ -6,8 +6,8 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 3f6bbf2766a61580c4f232d3919fe955d82a7881
-workflow-type: ht
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
+workflow-type: tm+mt
 source-wordcount: '3805'
 ht-degree: 100%
 
@@ -400,7 +400,7 @@ Des vidéos pratiques sont désormais disponibles concernant les rubriques suiva
 
 * [Comment créer une newsletter multilingue avec du contenu conditionnel](../../delivery/using/conditional-content.md)
 
-* [Configuration et déploiement d’un modèle de diffusion](../../delivery/using/creating-a-delivery-template.md)
+* [Configuration et déploiement d’un modèle de diffusion](../../delivery/using/about-templates.md)
 
 * [Comment activer et utiliser AMP pour les emails](../../delivery/using/defining-interactive-content.md)
 

@@ -5,10 +5,10 @@ description: En savoir plus sur la définition de la population cible
 feature: Audiences, Proofs
 role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
 workflow-type: tm+mt
-source-wordcount: '1740'
-ht-degree: 100%
+source-wordcount: '1877'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
 1. Sélectionnez le mapping de ciblage dans la liste déroulante **[!UICONTROL Mapping de ciblage]** . Le mapping de ciblage par défaut d&#39;Adobe Campaign est **[!UICONTROL Destinataire]**, selon le schéma **nms:destinataire**.
 
-   D’autres mappings de ciblage sont disponibles et certains d’entre eux peuvent être liés à votre configuration spécifique. Pour plus d’informations sur les mappings de ciblage, consultez la section [Sélection dʼun mapping de ciblage](selecting-a-target-mapping.md).
+   D’autres mappings de ciblage sont disponibles et certains peuvent être liés à votre configuration spécifique.[En savoir plus](#select-a-target-mapping).
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour définir les filtres de restriction.
 
@@ -93,7 +93,7 @@ Pour cela :
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. Par défaut, les personnes destinataires sont importées dans la base de données. Vous devez sélectionner le **[!UICONTROL Mapping de ciblage]**. Pour plus d’informations sur les mappings de ciblage, consultez la section [Sélection dʼun mapping de ciblage](selecting-a-target-mapping.md).
+1. Par défaut, les personnes destinataires sont importées dans la base de données. Vous devez sélectionner le **[!UICONTROL Mapping de ciblage]**. [En savoir plus](#select-a-target-mapping)
 
    Vous pouvez également sélectionner **[!UICONTROL Ne pas importer les destinataires dans la base]**.
 
@@ -225,6 +225,25 @@ Voir aussi :
 * [Sélection de la cible du BAT](#selecting-the-proof-target)
 * [À propos des adresses de contrôle](about-seed-addresses.md)
 * [Cas pratique : sélection des adresses de contrôle selon des critères](use-case-selecting-seed-addresses-on-criteria.md)
+
+## Sélection d’un mapping de ciblage {#select-a-target-mapping}
+
+Par défaut, les modèles de diffusion ciblent les **[!UICONTROL Destinataires]**. Leur mapping de ciblage utilise donc les champs de la table **nms:recipient**. Adobe Campaign propose d&#39;autres mappings de ciblage pour vos diffusions que vous pouvez utiliser selon vos besoins.
+
+![](assets/delivery_select_mapping.png)
+
+Ces mappings sont les suivants :
+
+| Nom | Utilisation | Schéma standard |
+|---|---|---|
+| Destinataires | Diffuser aux destinataires de la base Adobe Campaign | nms:recipient |
+| Visiteurs | Diffuser aux visiteurs et visiteuses dont les profils ont été collectés, par exemple via un parrainage (marketing viral), via les réseaux sociaux (Facebook, X, anciennement Twitter), etc. | mns:visitor |
+| Abonnements  | Diffuser aux destinataires abonnés à un service d&#39;information, par exemple une newsletter | nms:subscription |
+| Abonnements des visiteurs | Diffuser à des visiteurs abonnés à un service d&#39;information | nms:visitorSub |
+| Service | Publier sur un compte X ou une page Facebook | nms:service |
+| Les opérateurs | Diffuser aux opérateurs Adobe Campaign | nms:operator |
+| Fichier externe | Diffuser depuis un fichier contenant les toutes informations nécessaires à la diffusion | Aucun schéma associé, aucune cible renseignée |
+
 
 ## Tutoriel vidéo {#seeds-and-proofs-video}
 

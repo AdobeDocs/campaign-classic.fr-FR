@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: ht
-source-wordcount: '843'
-ht-degree: 100%
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 99%
 
 ---
 
@@ -169,10 +169,6 @@ Pour ce faire, procédez comme suit :
 
 1. Créez un compte externe par marque avec le même nom interne que celui défini sur l&#39;[instance d&#39;exécution](#execution-instance) (étape 1).
 
-1. Créez un modèle de diffusion par défaut par marque.
-
-   >[!NOTE]
-   >
-   >    Découvrez comment créer un modèle de diffusion dans [cette section](../../delivery/using/creating-a-delivery-template.md#creating-a-new-template).
+1. Créez un [modèle de diffusion](../../delivery/using/about-templates.md) par marque.
 
 1. Dans les **[!UICONTROL Propriétés]** du modèle de diffusion, définissez le routage sur le compte externe de la marque.
