@@ -4,16 +4,18 @@ title: Journal d’audit
 description: Découvrez comment surveiller votre instance à lʼaide du journal dʼaudit Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '496'
-ht-degree: 100%
+source-git-commit: 6d94ca01f23f7f2409fbdcb4e4c4716d694d527f
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 94%
 
 ---
 
 # Journal d’audit{#audit-trail}
 
-
+>[!INFO]
+>
+>Découvrez la fonctionnalité Suivi dans la documentation Adobe Campaign v8.
 
 Dans Adobe Campaign, le **[!UICONTROL Suivi]** vous donne accès à l’historique complet des modifications apportées à votre instance.
 
@@ -24,13 +26,15 @@ Le **[!UICONTROL Suivi]** capture en temps réel la liste complète des actions 
 >Adobe Campaign n’effectue pas le suivi des modifications apportées aux droits des utilisateurs, aux modèles, aux personnalisations ni aux campagnes.\
 >Le Suivi peut uniquement être géré par les administrateurs de l’instance.
 
-Le Suivi comprend trois composants :
+![](assets/audit_trail_2.png)
 
-* **Suivi Schéma** : consultez les activités et les dernières modifications apportées à vos schémas.
++++ En savoir plus sur les entités disponibles du journal d’audit
 
-  Pour plus d’informations sur les schémas, consultez [cette page](../../configuration/using/data-schemas.md).
+* **Journal d’audit du schéma** : permet d’explorer les modifications apportées à vos schémas, ainsi que d’identifier qui a effectué ces modifications et quand elles ont eu lieu.
 
-* **Suivi Workflow** : consultez les activités et les dernières modifications apportées aux workflows, ainsi que l’état de vos workflows, tel que :
+  Pour plus d&#39;informations sur les schémas, consultez cette [page](../../configuration/using/data-schemas.md).
+
+* **Journal d’audit des workflows** : effectue le suivi de toutes les actions liées à vos workflows, notamment :
 
    * Démarrer
    * Pause
@@ -45,63 +49,32 @@ Le Suivi comprend trois composants :
 
   Pour plus d’informations sur la surveillance des workflows, consultez la [section dédiée](../../workflow/using/monitoring-workflow-execution.md).
 
-* **Suivi Option** : consultez les activités et les dernières modifications apportées à vos options.
+* **Journal d’audit des options** : permet de vérifier les activités et les dernières modifications apportées à vos options.
 
   Pour plus d’informations sur les options, consultez [cette page](../../installation/using/configuring-campaign-options.md).
 
-## Accéder au Suivi {#accessing-audit-trail}
+* **Journal d’audit des diffusions** : permet de vérifier les activités et les dernières modifications apportées à vos diffusions.
 
-Pour accéder au **[!UICONTROL Suivi]** de votre instance :
+  Pour plus d’informations sur les diffusions, consultez cette [page](../../delivery/using/communication-channels.md).
 
-1. Accédez au menu **[!UICONTROL Explorateur]** de votre instance.
-1. Sous le menu **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Suivi]** .
+* **Compte externe** : permet de vérifier les modifications apportées aux comptes externes, utilisé par des processus techniques tels que des workflows techniques ou des workflows de campagne.
 
-   ![](assets/audit_trail_1.png)
+  Pour plus d’informations sur les comptes externes, consultez cette [page](../../installation/using/external-accounts.md).
 
-1. La fenêtre **[!UICONTROL Journal d’audit]** s’ouvre avec la liste de vos entités. Adobe Campaign effectuera le suivi des actions de création, d’édition et de suppression pour les workflows, les options et les schémas.
+* **Mapping de diffusion** : permet de surveiller les activités et les modifications récentes apportées à vos mappings de diffusion.
 
-   Sélectionnez l’une des entités pour en savoir plus sur les dernières modifications.
+  Pour plus d’informations sur les mappings de diffusion, consultez cette [page](../../configuration/using/target-mapping.md).
 
-   ![](assets/audit_trail_2.png)
+* **Application web** : permet de vérifier les modifications apportées aux formulaires web dans Campaign v8 servant à créer des pages avec des champs de saisie et de sélection et pouvant inclure des données de la base de données.
 
-1. La fenêtre **[!UICONTROL Entité d’audit]** vous donne des informations plus détaillées sur l’entité choisie, telles que :
+  Pour plus d’informations sur les applications web, consultez cette [page](../../web/using/about-web-applications.md).
 
-   * **[!UICONTROL Type]** : Workflow, Options ou Schémas.
-   * **[!UICONTROL Entité]** : nom interne de vos activités.
-   * **[!UICONTROL Modifié par]** : nom d’utilisateur de la dernière personne à avoir modifié cette entité.
-   * **[!UICONTROL Action]** : dernière action réalisée sur cette entité (création, édition ou suppression).
-   * **[!UICONTROL Date de modification]** : date de la dernière action effectuée sur cette entité.
+* **Offre** : permet de vérifier les activités et les dernières modifications apportées à vos offres.
 
-   Ce bloc de code vous donne davantage d’informations sur ce qui a été modifié dans votre entité.
+  Pour plus d’informations sur l’offre, consultez cette [page](../../interaction/using/interaction-and-offer-management.md).
 
-   ![](assets/audit_trail_3.png)
+* **Opérateur ou opératrice** : permet de surveiller les activités et les modifications récentes apportées à vos opérateurs et opératrices.
 
->[!NOTE]
->
->Par défaut, la période de conservation est définie sur 180 jours pour les **[!UICONTROL Logs d’audit]**. Pour plus d’informations sur la façon de modifier la période de conservation, consultez [cette page](../../production/using/database-cleanup-workflow.md#deployment-assistant).
+  Pour plus d’informations sur les opérateurs et opératrices, consultez cette [page](../../platform/using/access-management-operators.md).
 
-## Activer/désactiver le Suivi {#enable-disable-audit-trail}
-
-Le Suivi peut être facilement activé ou désactivé pour une activité spécifique, par exemple si vous voulez économiser de l’espace sur la base de données.
-
-Pour ce faire :
-
-1. Accédez au menu **[!UICONTROL Explorateur]** de votre instance.
-1. Sous le menu **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Plateforme]** puis **[!UICONTROL Options]** .
-
-   ![](assets/audit_trail_4.png)
-
-1. Sélectionnez l’une des options suivantes selon l’entité que vous voulez activer/désactiver :
-
-   * Pour un workflow : **[!UICONTROL XtkAudit_Workflows]**
-   * Pour un schéma : **[!UICONTROL XtkAudit_DataSchema]**
-   * Pour une option : **[!UICONTROL XtkAudit_Option]**
-   * Pour chaque entité : **[!UICONTROL XtkAudit_Enable_All]**
-
-   ![](assets/audit_trail_5.png)
-
-1. Définissez la **[!UICONTROL Valeur]** sur 1 si vous voulez activer l’entité, ou sur 0 si vous voulez la désactiver.
-
-   ![](assets/audit_trail_6.png)
-
-1. Cliquez sur **[!UICONTROL Enregistrer]** .
++++
