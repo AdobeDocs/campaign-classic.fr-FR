@@ -6,7 +6,7 @@ feature: Channel Configuration
 role: User
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -49,6 +49,6 @@ Vous devez renseigner des paramètres pour identifier la diffusion. Pour cela :
 Le contenu de la diffusion est prêt à être configuré. La définition du contenu de diffusion est spécifique à chaque canal. Voir à ce sujet la section dédiée :
 
 * [Définition du contenu de l’e-mail](defining-the-email-content.md)
-* [Définition du contenu des SMS](sms-create.md#defining-the-sms-content)
+* [Définir le contenu des SMS](sms-create.md#defining-the-sms-content)
 * [Définition du contenu du publipostage direct](defining-the-direct-mail-content.md)
 * [Notifications push](about-mobile-app-channel.md)

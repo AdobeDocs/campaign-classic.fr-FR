@@ -6,7 +6,7 @@ feature: Channel Configuration
 role: User
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
 source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
 ht-degree: 100%
 

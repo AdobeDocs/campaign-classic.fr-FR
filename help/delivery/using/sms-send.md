@@ -6,7 +6,7 @@ feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
 ht-degree: 100%
 
