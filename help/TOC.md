@@ -6,9 +6,9 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
-workflow-type: ht
-source-wordcount: '2560'
+source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
+workflow-type: tm+mt
+source-wordcount: '2562'
 ht-degree: 100%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 100%
          + [Envois sur mobiles japonais](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [Joindre des fichiers](delivery/using/attaching-files.md)
    + Envoi de SMS {#sending-messages-on-mobiles}
-      + [Commencer avec les SMS](delivery/using/sms-channel.md)
+      + [Prise en main des SMS](delivery/using/sms-channel.md)
       + Configurer le canal SMS {#sms-set-up}
          + [Configurer les SMS sur une instance autonome](delivery/using/sms-set-up.md)
          + [Configurer les SMS sur une infrastructure midsourcing](delivery/using/sms-set-up-mid.md)
@@ -163,7 +163,7 @@ ht-degree: 100%
       + [Définition du contenu du publipostage direct](delivery/using/defining-the-direct-mail-content.md)
       + [Validation](delivery/using/validating.md)
    + Utilisation de modèles de diffusion {#using-delivery-templates}
-      + [À propos des modèles](delivery/using/about-templates.md)
+      + [Utiliser des modèles de diffusion](delivery/using/about-templates.md)
       + [Création d’un modèle de diffusion](delivery/using/creating-a-delivery-template.md)
       + [Sélection d’un mapping de ciblage](delivery/using/selecting-a-target-mapping.md)
       + [Création d’une diffusion depuis un modèle](delivery/using/creating-a-delivery-from-a-template.md)
