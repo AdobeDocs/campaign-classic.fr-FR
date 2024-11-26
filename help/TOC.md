@@ -7,7 +7,7 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2562'
 ht-degree: 100%
 
@@ -116,11 +116,11 @@ ht-degree: 100%
       + [Définition de l’audience](delivery/using/steps-defining-the-target-population.md)
       + [Validation de la diffusion](delivery/using/steps-validating-the-delivery.md)
       + [Envoi de la diffusion](delivery/using/steps-sending-the-delivery.md)
-      + [Bonnes pratiques de diffusion](delivery/using/delivery-best-practices.md)
+      + [Bonnes pratiques relatives à la diffusion](delivery/using/delivery-best-practices.md)
       + Bonnes pratiques de diffusion {#delivery-bestpractices}
          + [Optimisation de votre diffusion](delivery/using/optimize-delivery.md)
          + [Utilisation de modèles](delivery/using/use-templates.md)
-         + [Création de contenu personnalisé](delivery/using/design-and-personalize.md)
+         + [Créer du contenu personnalisé](delivery/using/design-and-personalize.md)
          + [Définition de l&#39;audience appropriée](delivery/using/define-the-right-audience.md)
          + [Vérification avant envoi](delivery/using/check-before-sending.md)
          + [Tracker et suivre vos diffusions](delivery/using/track-and-monitor.md)
@@ -165,7 +165,7 @@ ht-degree: 100%
    + Utilisation de modèles de diffusion {#using-delivery-templates}
       + [Utiliser des modèles de diffusion](delivery/using/about-templates.md)
       + [Création d’un modèle de diffusion](delivery/using/creating-a-delivery-template.md)
-      + [Sélection d’un mapping de ciblage](delivery/using/selecting-a-target-mapping.md)
+      + [Sélectionner un mapping de ciblage](delivery/using/selecting-a-target-mapping.md)
       + [Création d’une diffusion depuis un modèle](delivery/using/creating-a-delivery-from-a-template.md)
    + Personnalisation des diffusions {#personalizing-deliveries}
       + [À propos de la personnalisation](delivery/using/about-personalization.md)

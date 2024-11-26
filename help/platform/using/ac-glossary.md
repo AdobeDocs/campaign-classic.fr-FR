@@ -7,9 +7,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5959'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Learn more about [Campaigns](../../campaign/using/designing-marketing-campaigns.
 
 *Contexte : Interaction de Campaign*
 
-Dans le cadre d’Interaction de Campaign, le mode batch permet au moteur d’offres de sélectionner la ou les meilleures offres pour un ensemble de contacts. Les règles d’éligibilité/priorisation sont appliquées à tous les contacts de l’ensemble.
+Dans le cadre d’Interaction de Campaign, le mode batch permet au moteur d’offres de sélectionner la ou les meilleures offres pour un ensemble de contacts. Les règles d’éligibilité/de priorisation sont appliquées à tous les contacts de l’ensemble.
 
 En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -240,7 +240,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *Contexte : publipostage direct*
 
-Une composition est un ensemble structuré d&#39;éléments (documents, magasins, coupons promotionnels, etc.) créés par l&#39;entreprise et pour une opération particulière. Il est utilisé dans le cadre de diffusions par publipostage direct.
+Une composition de diffusion désigne un ensemble structuré d’éléments (documents, magasins, coupons promotionnels, etc.) créés dans l’entreprise et pour une campagne particulière. Elle est utilisée dans le cadre de diffusions par publipostage direct.
 
 En savoir plus sur le [publipostage direct](../../delivery/using/about-direct-mail-channel.md).
 +++
@@ -263,7 +263,7 @@ En savoir plus sur l’[analyse descriptive](../../reporting/using/about-descrip
 
 *Contexte : marketing distribué*
 
-Le module complémentaire Marketing Distribué propose aux opérateurs de Campaign un espace de travail collaboratif pour la réalisation des opérations entre les entités centrales (siège, départements marketing, etc.) et les entités locales (points de vente, agences régionales, etc.). Cette coopération repose sur un espace de travail partagé appelé la **liste des packages Campaign**, où des modèles et des instances de campagne conçus de manière centralisée sont proposés aux entités locales.
+Le module complémentaire Marketing distribué offre aux opérateurs et opératrices Campaign un espace de travail collaboratif pour l’implémentation des campagnes entre les entités centrales (siège social, services marketing, etc.) et les entités locales (points de vente, agences régionales, etc.) Cette coopération repose sur un espace de travail partagé appelé la **liste des packages Campaign**, où des modèles et des instances de campagne conçus de manière centralisée sont proposés aux entités locales.
 
 En savoir plus sur le [Marketing distribué](../../distributed/using/about-distributed-marketing.md).
 +++
@@ -277,7 +277,7 @@ En savoir plus sur la [Répartition des valeurs](../../platform/using/defining-f
 
 +++**Délégation de domaine**
 
-La configuration de sous-domaine vous permet de configurer une sous-section de votre domaine (techniquement, une &quot;zone DNS&quot;) à utiliser avec Adobe Campaign.
+La configuration de sous-domaine vous permet de configurer une sous-section de votre domaine (techniquement, une « zone DNS ») à utiliser avec Adobe Campaign.
 La délégation de domaine permet à Adobe de contrôler et de gérer tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des campagnes par e-mail.
 
 En savoir plus sur la [Délégation de domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr)
@@ -447,7 +447,7 @@ En savoir plus sur le [Déploiement hybride](../../installation/using/hosting-mo
 
 *Contexte : Interaction de Campaign*
 
-Le mode d&#39;identification Fait référence au statut d&#39;un contact. Il peut être explicite, implicite ou anonyme.
+Le mode d’identification fait référence au statut d’un contact. Il peut être explicite, implicite ou anonyme.
 
 * **Explicite** : le contact est identifié suite à sa connexion sur l’interface du canal.
 * **Implicite** : le contact a été identifié par un cookie (de session ou permanent). Il peut être traité comme un contact anonyme ou comme un contact identifié.
@@ -506,7 +506,7 @@ En savoir plus sur les [Listes](../../platform/using/creating-and-managing-lists
 
 +++**Cache local**
 
-Le cache local est l’information stockée localement sur l’ordinateur de l’opérateur. Les informations mises en cache sont utilisées par la console pour réduire le trafic requis vers le serveur et améliorer les performances. L’effacement périodique du cache local (dans le menu Fichier) met à jour les informations stockées et améliore les performances et la stabilité.
+Le cache local est l’information stockée localement sur l’ordinateur de l’opérateur ou de l’opératrice. Les informations mises en cache sont utilisées par la console pour réduire le trafic requis vers le serveur et améliorer les performances. L’effacement périodique du cache local (dans le menu Fichier) met à jour les informations stockées et améliore les performances et la stabilité.
 
 En savoir plus sur le [Cache local](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
 +++
@@ -539,7 +539,7 @@ En savoir plus sur les [Droits nommés](../../platform/using/access-management-n
 
 +++**Espace de noms**
 
-L’espace de noms est une partition qui sépare les types de données client d’Adobe Campaign en  des types de données natifs dans le modèle de données. Également utilisé pour faciliter la migration des définitions d’une instance vers une autre, comme le déplacement d’un schéma ou d’un modèle de l’instance de développement vers l’instance de production.
+L’espace de noms est une partition qui sépare les types de données de la clientèle des types de données natifs d’Adobe Campaign dans le modèle de données. Également utilisé pour faciliter la migration des définitions d’une instance vers une autre, comme le déplacement d’un schéma ou d’un modèle de l’instance de développement vers l’instance de production.
 
 En savoir plus sur l’[Espace de noms](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 +++
@@ -622,7 +622,7 @@ En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-m
 
 *Contexte : Interaction de Campaign*
 
-L&#39;environnement des offres est le dossier racine qui définit un catalogue d&#39;offres, ses emplacements disponibles et les filtres prédéfinis de l&#39;environnement. Les opérateurs doivent créer un environnement pour chaque dimension de ciblage. Il existe deux types d’environnements d’offres : en édition et en ligne.
+L’environnement d’offres est le dossier racine qui définit un catalogue d’offres, ses emplacements disponibles et les filtres prédéfinis de l’environnement. Les opérateurs doivent créer un environnement pour chaque dimension de ciblage. Il existe deux types d’environnements d’offres : en édition et en ligne.
 
 En savoir plus sur les [Environnements d’offres](../../interaction/using/fundamental-principles.md).
 +++
@@ -640,7 +640,7 @@ En savoir plus sur les [Environnements en ligne d’offres](../../interaction/us
 
 *Contexte : Interaction de Campaign*
 
-Les règles de présentation des offres sont des règles de typologie référencées dans l&#39;environnement des offres, qui permettent aux opérateurs d&#39;exclure des offres spécifiques en tenant compte de l&#39;historique des propositions du destinataire.
+Les règles de présentation des offres sont des règles de typologie référencées dans l’environnement d’offres et permettent aux opérateurs et opératrices d’exclure des offres spécifiques en tenant compte de l’historique des propositions des destinataires.
 
 En savoir plus sur les [Règles de présentation des offres](../../interaction/using/managing-offer-presentation.md#presentation-rules-overview).
 +++
@@ -676,7 +676,7 @@ En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-m
 
 *Contexte : Interaction de Campaign*
 
-Une simulation d&#39;offres permet aux Opérateurs de tester la répartition des offres dans une portée définie (date de diffusion, segment cible, nombre d&#39;offres, thème, etc.) avant d&#39;envoyer réellement les offres. Cela peut être utilisé pour ajuster les priorités des offres et les règles d’éligibilité afin d’optimiser l’efficacité des offres.
+Une simulation d’offres permet aux opérateurs et opératrices de tester la répartition des offres dans une portée définie (date de diffusion, segment cible, nombre d’offres, thème, etc.) avant d’envoyer les offres. Cela peut être utilisé pour ajuster les priorités des offres et les règles d’éligibilité afin d’optimiser l’efficacité des offres.
 
 En savoir plus sur la [Simulation d’offres](../../interaction/using/about-offers-simulation.md).
 +++
@@ -775,7 +775,7 @@ En savoir plus sur les [champs de personnalisation](../../delivery/using/persona
 
 +++**Variables de personnalisation**
 
-Les variables Personalization sont des éléments de code dans une diffusion qui peuvent afficher du texte différent à différents destinataires en fonction des informations du destinataire. Ces champs peuvent être implémentés sous la forme d’un champ ou d’un bloc de personnalisation.
+Les variables de personnalisation sont des éléments de code dans une diffusion qui peuvent afficher différents textes à différents destinataires en fonction des informations de ces derniers. Ces champs peuvent être implémentés sous la forme d’un champ ou d’un bloc de personnalisation.
 
 En savoir plus sur les [variables de personnalisation](../../delivery/using/about-personalization.md).
 +++
@@ -845,7 +845,7 @@ En savoir plus sur les [notifications push](../../delivery/using/about-mobile-ap
 
 +++**Destinataire**
 
-Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour envoyer des diffusions (emails, SMS, etc.) à vos clients. Les données des destinataires stockées dans la base de données vous permettent de filtrer la cible et d’ajouter des données de personnalisation. En règle générale, il s’agit d’informations personnelles, de contact, démographiques et transactionnelles, mais il peut s’agir de n’importe quel type d’informations prenant en charge le marketing et l’analyse.
+Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l’envoi de diffusions (e-mails, SMS, etc.) à votre clientèle. Les données des destinataires stockées dans la base de données vous permettent de filtrer la cible et d’ajouter des données de personnalisation. En règle générale, il s’agit d’informations personnelles, de contact, démographiques et transactionnelles, mais il peut s’agir de n’importe quel type d’informations prenant en charge le marketing et l’analyse.
 
 En savoir plus sur les [destinataire](../../configuration/using/about-data-model.md).
 +++
@@ -883,7 +883,7 @@ En savoir plus sur les [extensions de schéma](../../configuration/using/extendi
 
 +++**Adresses de contrôle**
 
-Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les destinataires qui n’entrent pas dans le cadre de la diffusion peuvent la recevoir, comme tout autre destinataire cible. Ils sont ajoutés à l’audience d’un message afin de détecter toute utilisation frauduleuse de votre base de données de destinataires ou d’assurer la diffusion.
+Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les destinataires qui n’entrent pas dans le cadre de la diffusion peuvent la recevoir, comme tout autre destinataire cible. Elles sont ajoutées à l’audience d’un message afin de détecter toute utilisation frauduleuse de votre base de données de destinataires ou d’assurer la diffusion.
 
 En savoir plus sur les [adresses de contrôle](../../delivery/using/about-seed-addresses.md).
 +++

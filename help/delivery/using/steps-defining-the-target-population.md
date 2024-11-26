@@ -6,9 +6,9 @@ feature: Audiences, Proofs
 role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1877'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
 1. Sélectionnez le mapping de ciblage dans la liste déroulante **[!UICONTROL Mapping de ciblage]** . Le mapping de ciblage par défaut d&#39;Adobe Campaign est **[!UICONTROL Destinataire]**, selon le schéma **nms:destinataire**.
 
-   D’autres mappings de ciblage sont disponibles et certains peuvent être liés à votre configuration spécifique.[En savoir plus](#select-a-target-mapping).
+   D’autres mappings de ciblage sont disponibles et certains d’entre eux peuvent être liés à votre configuration spécifique.[En savoir plus](#select-a-target-mapping).
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour définir les filtres de restriction.
 
@@ -71,7 +71,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
    * **[!UICONTROL Un destinataire]** : cette option permet de sélectionner un destinataire spécifique parmi les profils de la base.
    * **[!UICONTROL Une liste de destinataires]** : cette option permet de cibler une liste de destinataires. Les listes sont présentées dans [cette section](../../platform/using/creating-and-managing-lists.md).
    * **[!UICONTROL Filtres utilisateurs]** : cette option permet d&#39;accéder aux filtres préconfigurés disponibles afin de les utiliser comme critères de filtrage des profils de la base. Les filtres préconfigurés sont présentés dans [cette section](../../platform/using/creating-filters.md#saving-a-filter).
-   * L&#39;option **[!UICONTROL Exclure les destinataires correspondant à ce segment]** permet de cibler sur les destinataires ne répondant pas au(x) critère(s) de ciblage défini(s). Pour utiliser cette option, cochez la case correspondante puis opérez un ciblage, comme défini précédemment, pour exclure les profils en résultant.
+   * L&#39;option **[!UICONTROL Exclure les destinataires correspondant à ce segment]** permet de cibler les destinataires ne répondant pas au(x) critère(s) de ciblage défini(s). Pour utiliser cette option, cochez la case correspondante puis opérez un ciblage, comme défini précédemment, pour exclure les profils en résultant.
 
      ![](assets/s_ncs_user_wizard_email02g.png)
 
@@ -149,7 +149,7 @@ Les options disponibles sont les suivantes :
   >
   >Pour plus d’informations sur la gestion des quarantaines, consultez la section [Compréhension de la gestion des quarantaines](understanding-quarantine-management.md).
 
-* **[!UICONTROL Limiter la diffusion]** à un nombre donné de messages : cette option permet de saisir le nombre maximal de messages à envoyer. Si le contenu de la cible est supérieur au nombre de messages indiqué, une sélection aléatoire est appliquée sur la cible.
+* **[!UICONTROL Limiter la diffusion]** à un nombre donné de messages. Cette option permet de renseigner le nombre maximum de messages à envoyer. Si le contenu de la cible est supérieur au nombre de messages indiqué, une sélection aléatoire est appliquée sur la cible.
 
 ### Réduction de la taille de la population cible {#reducing-the-size-of-the-target-population}
 
@@ -226,7 +226,7 @@ Voir aussi :
 * [À propos des adresses de contrôle](about-seed-addresses.md)
 * [Cas pratique : sélection des adresses de contrôle selon des critères](use-case-selecting-seed-addresses-on-criteria.md)
 
-## Sélection d’un mapping de ciblage {#select-a-target-mapping}
+## Sélectionner un mapping de ciblage {#select-a-target-mapping}
 
 Par défaut, les modèles de diffusion ciblent les **[!UICONTROL Destinataires]**. Leur mapping de ciblage utilise donc les champs de la table **nms:recipient**. Adobe Campaign propose d&#39;autres mappings de ciblage pour vos diffusions que vous pouvez utiliser selon vos besoins.
 

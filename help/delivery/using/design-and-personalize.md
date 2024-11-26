@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Création de contenu personnalisé
+title: Créer du contenu personnalisé
 description: Découvrez comment créer du contenu personnalisé dans les diffusions Adobe Campaign
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Email Design, Personalization
@@ -9,13 +9,13 @@ hide: true
 hidefromtoc: true
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1298'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Création de contenu personnalisé {#build-personalized-content}
+# Créer du contenu personnalisé {#build-personalized-content}
 
 Lors de la conception du contenu de votre message, évitez les problèmes courants qui peuvent vous empêcher d’exécuter votre diffusion. La plupart du temps, les erreurs possibles sont liées à la [personnalisation](about-personalization.md), au [formatage](defining-the-email-content.md#message-content) et aux [images](defining-the-email-content.md#adding-images).
 
@@ -125,7 +125,7 @@ Le responsive design des e-mails permet de s&#39;assurer que le rendu d&#39;un e
 
 * Utilisez le mode Aperçu et envoyez des BAT pour tester le rendu sur le plus grand nombre d&#39;appareils possible
 
-* Le module Adobe Campaign Classic Digital Content Editor (DCE) comprend quelques modèles en responsive design pour les appareils mobiles disponibles via **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**.
+* Le module Digital Content Editor (DCE) Adobe Campaign Classic contient quelques modèles pour appareils mobiles en responsive design accessibles via **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de contenu]**.
 
 ## Gestion des images {#manage-images}
 
@@ -143,7 +143,7 @@ Certains clients de messagerie bloquent les images par défaut, et certains util
 
 ### Rendre les images réactives
 
-Essayez de rendre les images réactives et redimensionnables. Notez que ceci peut avoir un impact sur les coûts, car la création prend plus de temps.
+Essayez de rendre les images réactives et redimensionnables. Notez que cela peut avoir un impact sur les coûts, car la création prend plus de temps.
 
 ### Utiliser des références absolues pour l&#39;accès à l&#39;image
 

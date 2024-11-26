@@ -6,9 +6,9 @@ feature: SMS, Troubleshooting
 role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 source-git-commit: f660dcbb111e73f12737d96ebf9be2aeccbca8ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3044'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -313,27 +313,27 @@ Le résultat doit être le suivant :
 
 ## Différence entre les statuts des diffusions SMS
 
-Pour clarifier les différences entre les états **Envoyé**, **Envoyé au fournisseur** et **Reçu sur mobile**, reportez-vous aux définitions détaillées ci-dessous :
+Pour clarifier les différences entre les statuts **Envoyé**, **Envoyé au fournisseur** et **Reçu sur mobile**, reportez-vous aux définitions détaillées ci-dessous :
 
-* **Reçu sur mobile** :
-Le message a été correctement remis à l’appareil de l’utilisateur, avec une confirmation fournie à la fois par la diffusion Mobile Terminated (MT) et un rapport d’état (SR).
+* **Reçu sur mobile** :
+Le message a été correctement remis sur l’appareil de l’utilisateur ou de l’utilisatrice, avec une confirmation fournie à la fois par la diffusion Mobile Terminated (MT) et un rapport de statut (SR).
 
-* **Envoyé** :
-Le message a été traité avec succès à l’étape Mobile Terminated (MT) , mais un rapport d’état (SR) confirmant la diffusion sur l’appareil mobile n’a pas encore été reçu.
+* **Envoyé** :
+Le message a été traité avec succès à l’étape Mobile Terminated (MT), mais un rapport de statut (SR) confirmant la diffusion sur l’appareil mobile n’a pas encore été reçu.
 
-* **Envoyé au fournisseur** :
-Le message a été envoyé au fournisseur à l&#39;aide de `SUBMIT_SM command`, mais aucun accusé de réception `SUBMIT_SM_RESP` n&#39;a été reçu de la part du fournisseur.
+* **Envoyé au fournisseur** :
+Le message a été envoyé au fournisseur à l’aide de `SUBMIT_SM command`, mais aucun accusé de réception `SUBMIT_SM_RESP` n’a été reçu de la part du fournisseur.
 
-Les messages peuvent rester dans l’état **Envoyé** car la transition vers **Reçu** dépend d’un rapport d’état (SR) provenant de l’appareil de l’utilisateur. Si l’utilisateur a une mauvaise réception des cellules ou d’autres problèmes de connectivité, il se peut qu’il ne reçoive pas le message immédiatement. Dans de tels cas, il est de la responsabilité du fournisseur de réessayer la diffusion ou d&#39;expliquer pourquoi aucun SR n&#39;a été généré. Si le fournisseur identifie des incohérences, il doit s&#39;assurer que le comportement de Campaign est cohérent avec les attentes.
+Les messages peuvent rester au statut **Envoyé**, car le passage au statut **Reçu** dépend du rapport de statut (SR) provenant de l’appareil de la personne. Si la personne a une mauvaise réception ou d’autres problèmes de connectivité, il se peut qu’elle ne reçoive pas le message immédiatement. Dans de tels cas, il est de la responsabilité du fournisseur de réessayer la diffusion ou d’expliquer pourquoi aucun SR n’a été généré. Si le fournisseur identifie des incohérences, il doit s’assurer que le comportement de Campaign est cohérent avec les attentes.
 
-Voici les statuts de diffusion SMS standard :
+Voici les statuts de diffusion de SMS standard :
 
-* **En attente** : le message n’a pas encore été envoyé à l’agrégateur.
+* **En attente** : le message n’a pas encore été envoyé à l’agrégateur.
 
-* **Pris en compte par Provider** : le message a été envoyé à l’agrégateur et l’agrégateur a confirmé la réception.
+* **Pris en compte par le fournisseur** : le message a été envoyé à l’agrégateur et l’agrégateur a confirmé la réception.
 
-* **Envoyé** : l’agrégateur a confirmé que le message a bien été transmis au réseau mobile de l’utilisateur sans erreur immédiate.
+* **Envoyé** : l’agrégateur a confirmé que le message a bien été transmis au réseau mobile sans erreur immédiate.
 
-* **Reçu sur mobile** : l’appareil mobile de l’utilisateur a reçu un accusé de réception, ce qui a été vérifié par l’agrégateur.
+* **Reçu sur mobile** : l’appareil mobile a reçu un accusé de réception, ce qui a été vérifié par l’agrégateur.
 
-* **Échec** : le message a été envoyé à l’agrégateur, qui a tenté de le diffuser sur le périphérique mobile de l’utilisateur pendant une période définie (par exemple, plusieurs heures). La diffusion a finalement échoué en raison de problèmes de réseau, de l’indisponibilité du périphérique utilisateur ou pour d’autres raisons.
+* **Échec** : le message a été envoyé à l’agrégateur, qui a tenté de le diffuser sur le périphérique mobile pendant une période définie (par exemple, plusieurs heures). La diffusion a finalement échoué en raison de problèmes de réseau, de l’indisponibilité du périphérique d’utilisation ou pour d’autres raisons.

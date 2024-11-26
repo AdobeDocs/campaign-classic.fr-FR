@@ -6,9 +6,9 @@ feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -841,8 +841,8 @@ Le SMS doit être marqué comme reçu dans le log de diffusion. Le journal de di
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Vérifiez que vous avez modifié le nom du fournisseur de diffusions. Le log de diffusion ne doit jamais contenir **SR Generic** sur les environnements de production.
 
-* **Vérifiez que les MO sont traités**
-Si vous devez traiter des MO (réponses automatiques, stockage de MO dans la base de données, etc.), essayez d&#39;effectuer quelques tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
+* **Vérifier que les MO sont traités**
+Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.), essayez de procéder à des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
 Archivez le journal auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` réussi (command_status=0).
 
 ### Vérifier les PDU {#check-pdus}

@@ -5,9 +5,9 @@ description: Découvrez comment surveiller votre instance à lʼaide du journal 
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 source-git-commit: 3d1ed85dcafc5afc4088db98c09d78fb7e9c0a39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!INFO]
 >
->Découvrez la fonctionnalité Suivi dans la [documentation Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail) pour en savoir plus.
+>En savoir plus sur la fonctionnalité Journal d’audit dans la [documentation Adobe Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/audit-trail).
 
 Dans Adobe Campaign, le **[!UICONTROL Suivi]** vous donne accès à l’historique complet des modifications apportées à votre instance.
 
@@ -32,7 +32,7 @@ Le **[!UICONTROL Suivi]** capture en temps réel la liste complète des actions 
 
 * **Journal d’audit du schéma** : permet d’explorer les modifications apportées à vos schémas, ainsi que d’identifier qui a effectué ces modifications et quand elles ont eu lieu.
 
-  Pour plus d&#39;informations sur les schémas, consultez cette [page](../../configuration/using/data-schemas.md).
+  Pour plus d’informations sur les schémas, consultez [cette page](../../configuration/using/data-schemas.md).
 
 * **Journal d’audit des workflows** : effectue le suivi de toutes les actions liées à vos workflows, notamment :
 

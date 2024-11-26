@@ -7,9 +7,9 @@ feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Le taux de délivrabilité correspond au nombre de messages qui ont atteint les 
 Avec Adobe Campaign, le taux de délivrabilité dépend de nombreux facteurs, parmi lesquels :
 
 * Configuration correcte de vos instances : contactez votre représentant Adobe pour obtenir de l&#39;aide.
-* Configuration réseau légitime : voir [Configuration et stratégie de domaine](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#domain-setup-and-strategy).
+* Configuration réseau légitime : voir [Configuration et stratégie de domaine](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#domain-setup-and-strategy).
 * Votre réputation d’adresse IP : consultez la section [Stratégie IP](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#ip-strategy).
 * Le faible taux de [plaintes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr) et de [rebonds définitifs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#hard-bounces).
 * Le contenu de votre message : consultez la section [Contrôle du contenu des e-mails](control-message-content.md).
