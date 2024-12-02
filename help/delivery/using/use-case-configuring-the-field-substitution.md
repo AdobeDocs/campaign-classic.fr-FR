@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: '« Cas d’utilisation : configurer la substitution des champs »'
-description: '« Cas d’utilisation : configurer la substitution des champs »'
+title: 'Cas pratique : configuration de la substitution des champs'
+description: 'Cas pratique : configuration de la substitution des champs'
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

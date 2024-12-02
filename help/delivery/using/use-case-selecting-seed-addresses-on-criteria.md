@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: '« Cas d’utilisation : sélectionner des adresses de contrôle selon des critères »'
-description: '« Cas d’utilisation : sélectionner des adresses de contrôle selon des critères »'
+title: 'Cas pratique : sélection des adresses de contrôle selon des critères'
+description: 'Cas pratique : sélection des adresses de contrôle selon des critères'
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '926'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

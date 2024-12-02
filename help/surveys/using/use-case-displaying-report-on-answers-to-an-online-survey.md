@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: "Cas pratique\_: affichage d'un rapport sur les réponses à un questionnaire en ligne"
-description: "Cas pratique\_: affichage d'un rapport sur les réponses à un questionnaire en ligne"
+title: 'Cas pratique : affichage d''un rapport sur les réponses à un questionnaire en ligne'
+description: 'Cas pratique : affichage d''un rapport sur les réponses à un questionnaire en ligne'
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

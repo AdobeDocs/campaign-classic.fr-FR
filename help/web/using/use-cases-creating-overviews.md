@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: '« Cas d’utilisation : créer des vues dʼensemble »'
-description: '« Cas d’utilisation : créer des vues dʼensemble »'
+title: 'Cas d’utilisation : création de vues d’ensemble'
+description: 'Cas d’utilisation : création de vues d’ensemble'
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 100%
 

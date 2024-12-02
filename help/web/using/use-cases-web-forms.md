@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: "Cas pratiques\_: formulaires web"
-description: "Cas pratiques\_: formulaires web"
+title: 'Cas pratiques : formulaires web'
+description: 'Cas pratiques : formulaires web'
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973

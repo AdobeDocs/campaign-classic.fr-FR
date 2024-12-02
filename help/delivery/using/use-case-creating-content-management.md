@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: '« Cas dʼutilisation : création dʼune gestion de contenu »'
-description: '« Cas dʼutilisation : création dʼune gestion de contenu »'
+title: 'Cas dʼutilisation : création dʼune gestion de contenu'
+description: 'Cas dʼutilisation : création dʼune gestion de contenu'
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '1235'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
