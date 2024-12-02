@@ -6,8 +6,8 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 2662392265b1fca7b5ab8d8b0930b1d1b7f65678
-workflow-type: ht
+source-git-commit: c820ea4d41d1a1cf312ff72c97f117b6e4be7e7a
+workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ En tant que client ou cliente on-premise/hybride, vous devez installer et config
 <p>En savoir plus sur <a href="../../installation/using/application-server.md#jdk" target="_blank">cette page</a>.</p>
 </td>
 <td>
-<p>11</p>
+<p>17</p>
 <p>9</p>
 <p>8</p>
 <p></p>
