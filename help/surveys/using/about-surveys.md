@@ -5,10 +5,10 @@ description: Prise en main des questionnaires Campaign
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ Dans Adobe Campaign, utilisez [Applications Web](../../web/using/about-web-form
 * ajouter une personnalisation et définir la position du champ ;
 * conditionner l&#39;affichage des champs du formulaire en fonction des réponses ;
 * conditionner l&#39;affichage de la page ;
-* vérifier les informations avant validation, en fonction du type de données attendu (nombre, adresse e-mail, date, etc.) et les champs obligatoires ;
+* vérifier les informations avant validation, en fonction du type de données attendu (nombre, adresse e-mail, date, etc.) et des champs obligatoires,
 * envoyer des invitations/notifications par e-mail ;
 * personnaliser les pages d&#39;erreur et de fin ;
 * ajouter des images, vidéos, liens hypertexte, Captcha, etc., dans les formulaires.

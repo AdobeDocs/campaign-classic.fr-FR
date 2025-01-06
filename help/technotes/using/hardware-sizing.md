@@ -4,7 +4,7 @@ title: Recommandations relatives au dimensionnement du matériel pour Campaign C
 description: Recommandations relatives au dimensionnement du matériel pour Campaign Classic v7
 feature: Technote
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '2569'
 ht-degree: 100%

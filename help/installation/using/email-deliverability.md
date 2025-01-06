@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '3161'
 ht-degree: 100%
@@ -51,7 +51,7 @@ Le module **mta** distribue les messages à ses modules enfants **mtachild**. Ch
 Les étapes sont les suivantes :
 
 1. Le **mta** sélectionne les messages éligibles pour l&#39;envoi et les assigne à un **mtachild** disponible.
-1. Le module **mtachild** charge toutes les informations nécessaires à la construction du message (contenu, éléments de personnalisation, pièces jointes, images, etc.) et transfère le message à **Email Traffic Shaper**.
+1. Le **mtachild** charge toutes les informations nécessaires pour construire le message (contenu, éléments de personnalisation, pièces jointes, images, etc.) et transmet le message au gestionnaire d’envoi (**Email Traffic Shaper**).
 1. Lorsque le gestionnaire d&#39;envoi a reçu l&#39;autorisation du serveur de statistiques (**smtp stat**), le message est envoyé au destinataire.
 
 ![](assets/s_ncs_install_email_traffic_shaper.png)

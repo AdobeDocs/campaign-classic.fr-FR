@@ -1,11 +1,11 @@
 ---
 product: campaign
 title: Gestion des clés dans les schémas de données
-description: Présentation de la gestion des clés dans les schémas de données
+description: Comprendre la gestion des clés dans les schémas de données
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
-source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 92%
@@ -28,10 +28,10 @@ Une clé est déclarée à partir de l’élément principal du schéma de donn�
 
 Une clé est dite primaire lorsqu’elle est renseignée en premier dans le schéma ou si elle contient l’attribut `internal` avec la valeur « true ».
 
-Les règles suivantes s’appliquent aux clés :
+Les règles suivantes s&#39;appliquent aux clés :
 
-* Une clé peut référencer un ou plusieurs champs du tableau.
-* Un index unique est implicitement déclaré pour chaque définition de clé. Il est possible d’empêcher la création d’un index sur la clé en définissant l’attribut `noDbIndex` sur &quot;true&quot;.
+* Une clé peut référencer un ou plusieurs champs de la table
+* Un index unique est implicitement déclaré pour chaque définition de clé. Il est possible d’empêcher la création d’un index sur la clé en définissant l’attribut `noDbIndex` sur « true ».
 
 >[!NOTE]
 >

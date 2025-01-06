@@ -3,7 +3,7 @@ title: Utiliser la fonctionnalité de fusion de l’activité de déduplication
 description: Découvrez comment utiliser la fonctionnalité de fusion de l’activité de déduplication.
 feature: Workflows, Data Management
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%

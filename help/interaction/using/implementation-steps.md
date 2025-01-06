@@ -4,7 +4,7 @@ title: Étapes dʼimplémentation
 description: Étapes de lʼimplémentation du module Interaction de Campaign
 feature: Interaction, Offers
 exl-id: 82b88ab7-6a95-4bb3-b8b3-abea0fdd4ca0
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
