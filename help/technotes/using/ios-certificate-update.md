@@ -4,10 +4,10 @@ title: Note technique - Mise à jour du certificat du serveur du service Apple 
 description: Mise à jour du certificat du serveur du service Apple Push Notification
 feature: Technote, Push
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0143e0d6ebcdbd96d183ddd0c7f07beb149a9670
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 100%
+source-wordcount: '143'
+ht-degree: 64%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 100%
 
 
 
-Le 29 mars 2021, une mise à jour de l’infrastructure du service Apple Push Notification (APNs) a eu un impact sur le canal iOS d’Adobe Campaign Classic. Une modification de la configuration du système d’exploitation est **obligatoire** pour éviter une panne du canal push d’iOS.
+Le 17 octobre 2024, une mise à jour de l’infrastructure du service Apple Push Notification (APNs) a eu un impact sur le canal Adobe Campaign Classic iOS. Une modification de la configuration du système d’exploitation est **obligatoire** pour éviter une panne du canal push d’iOS.
 
-Pour en savoir plus sur les modifications d’APNs, consultez [cette page](https://developer.apple.com/news/?id=7gx0a2lp).
+Pour en savoir plus sur les modifications d’APNs, consultez [cette page](https://developer.apple.com/news/?id=09za8wzy).
 
 En tant que client hébergé, aucune action n’est nécessaire : Adobe a déjà intégré le nouveau certificat racine à votre environnement.
 
-En tant que client On-premise/hybride, vous devez mettre à jour votre configuration pour garantir une transition harmonieuse **avant le 29 mars 2021**.
+En tant que client on-premise/hybride, vous devez mettre à jour votre configuration pour assurer une transition transparente **avant le 24 février 2025**.
 
 Pour intégrer le nouveau certificat, procédez comme suit :
 
-1. Téléchargez le certificat racine **AAACertificateServices 5/12/2020** [à partir de cette page](https://support.sectigo.com/Com_KnowledgeDetailPage?Id=kA03l00000117cL).
+1. Téléchargez le **certificat racine SHA-2 : USERTrust RSA Certification Authority** certificat racine [à partir de cette page](https://www.sectigo.com/knowledge-base/detail/Sectigo-Intermediate-Certificates/kA01N000000rfBO).
 
 1. Vérifiez que le certificat AAA est présent à la fois dans votre système d’exploitation et dans les truststores JAVA. Sinon, ajoutez-le.
 
