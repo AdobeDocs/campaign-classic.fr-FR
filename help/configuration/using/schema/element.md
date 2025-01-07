@@ -4,8 +4,8 @@ title: Eléments et attributs de schéma - élément element
 description: élément element
 feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
-source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
-workflow-type: ht
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
+workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 100%
 
@@ -13,7 +13,6 @@ ht-degree: 100%
 
 # élément element {#element--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Modèle de contenu {#content-model-4}
 

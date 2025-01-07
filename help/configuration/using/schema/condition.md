@@ -4,7 +4,7 @@ title: Éléments et attributs de schéma - élément condition
 description: élément condition
 feature: Schema Extension
 exl-id: 71e98d45-3660-4d86-a5ca-8e55ae5896eb
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 100%
@@ -13,7 +13,6 @@ ht-degree: 100%
 
 # élément condition {#condition--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Modèle de contenu {#content-model-2}
 

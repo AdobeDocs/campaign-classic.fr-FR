@@ -7,8 +7,8 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
-workflow-type: ht
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
+workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 100%
 
@@ -16,7 +16,6 @@ ht-degree: 100%
 
 # élément attribute {#attribute--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Modèle de contenu {#content-model}
 

@@ -4,7 +4,7 @@ title: Éléments et attributs de schéma - élément join
 description: élément join
 feature: Schema Extension
 exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
@@ -13,7 +13,6 @@ ht-degree: 100%
 
 # élément join {#join--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Modèle de contenu {#content-model-7}
 

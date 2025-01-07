@@ -4,7 +4,7 @@ title: Éléments et attributs - élément dbindex
 description: élément dbindex
 feature: Schema Extension
 exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 100%
@@ -13,7 +13,6 @@ ht-degree: 100%
 
 # élément dbindex {#dbindex--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Modèle de contenu {#content-model-3}
 

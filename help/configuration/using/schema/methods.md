@@ -4,7 +4,7 @@ title: Éléments et attributs de schéma - élément methods
 description: élément method
 feature: Schema Extension
 exl-id: f45e32ce-6534-4df2-ac7c-ba1134f0ffc8
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 100%
@@ -13,7 +13,6 @@ ht-degree: 100%
 
 # élément methods {#methods--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Modèle de contenu {#content-model-11}
 

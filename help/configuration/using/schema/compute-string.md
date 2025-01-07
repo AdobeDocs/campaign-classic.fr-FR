@@ -4,7 +4,7 @@ title: Éléments et attributs - élément compute-string
 description: élément compute-string
 feature: Schema Extension
 exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 100%
@@ -13,7 +13,6 @@ ht-degree: 100%
 
 # élément compute-string {#compute-string--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Modèle de contenu {#content-model-1}
 
