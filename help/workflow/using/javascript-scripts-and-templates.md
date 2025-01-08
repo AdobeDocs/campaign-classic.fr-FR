@@ -5,9 +5,9 @@ description: Scripts et modèles JavaScript
 feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 source-git-commit: d4a2138e03a33092403d5ca00a41a3d7f9aea33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1268'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -157,9 +157,9 @@ Cet exemple montre que l&#39;activité suivant **Code JavaScript** accède aux v
 
 ### Appeler une variable d&#39;instance dans une requête {#calling-an-instance-variable-in-a-query}
 
-Lorsque vous avez défini une variable d&#39;instance dans une activité, vous pouvez la réutiliser dans une requête du workflow.
+Lorsque vous avez défini une variable d’instance dans une activité, vous pouvez la réutiliser dans une requête du workflow.
 
-Ainsi, pour appeler une variable **instance.vars.xxx = &quot;yyy&quot;** dans un filtre, saisissez **$(instance/vars/@xxx)**.
+Ainsi, pour appeler la variable **instance.vars.xxx = &quot;yyy&quot;** dans un filtre, saisissez **$(instance/vars/@xxx)**.
 
 Par exemple :
 
