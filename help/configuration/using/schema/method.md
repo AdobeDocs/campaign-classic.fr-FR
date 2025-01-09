@@ -5,7 +5,7 @@ description: élément method
 feature: Schema Extension
 exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 

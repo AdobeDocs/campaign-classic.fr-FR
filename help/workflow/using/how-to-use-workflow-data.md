@@ -5,8 +5,8 @@ description: Découvrez comment utiliser les données d'un workflow
 feature: Workflows, Data Management
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
-source-wordcount: '416'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
-source-wordcount: '1152'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

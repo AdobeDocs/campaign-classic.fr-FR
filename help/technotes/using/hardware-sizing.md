@@ -5,7 +5,7 @@ description: Recommandations relatives au dimensionnement du matériel pour Camp
 feature: Technote
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2569'
 ht-degree: 100%
 

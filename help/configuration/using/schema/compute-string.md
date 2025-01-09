@@ -5,8 +5,8 @@ description: élément compute-string
 feature: Schema Extension
 exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: tm+mt
-source-wordcount: '90'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

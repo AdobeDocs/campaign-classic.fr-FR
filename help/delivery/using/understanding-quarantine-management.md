@@ -7,8 +7,8 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
-source-wordcount: '3090'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Les informations disponibles pour chacune des adresses sont les suivantes :
 >
 >Fin de l&#39;année 1 : (1 &#42; 0,33) / (1 + 0,5) = 22 %.
 >
->Fin de l&#39;année 2 : ((1,22 &#42; 0,33) + 0,33) / (1,5 + 0,75) = 32,5 %.
+Fin de l&#39;année 2 : ((1,22 &#42; 0,33) + 0,33) / (1,5 + 0,75) = 32,5 %.
 
 ### Identification des adresses en quarantaine dans les rapports de diffusion {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -108,7 +108,7 @@ Si un utilisateur qualifie un email comme du spam ([système de gestion des plai
 
 >[!NOTE]
 >
->La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses e-mail en minuscules, de telle sorte qu&#39;elles ne soient pas reciblées ultérieurement.
+La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses e-mail en minuscules, de telle sorte qu&#39;elles ne soient pas reciblées ultérieurement.
 
 Dans la liste des adresses en quarantaine (voir [Identifier les adresses en quarantaine pour l’ensemble de la plateforme](#identifying-quarantined-addresses-for-the-entire-platform)), le champ **[!UICONTROL Raison de l’erreur]** indique pourquoi l’adresse sélectionnée a été mise en quarantaine.
 
@@ -144,7 +144,7 @@ Leur état devient ensuite **[!UICONTROL Valide]**.
 
 >[!IMPORTANT]
 >
->Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne font jamais l’objet d’une suppression, même s’ils/elles reçoivent un e-mail.
+Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne font jamais l’objet d’une suppression, même s’ils/elles reçoivent un e-mail.
 
 ### Mises à jour manuelles {#unquarantine-manual}
 
@@ -291,13 +291,13 @@ Pendant l&#39;analyse de la diffusion, tous les appareils qui sont exclus de la 
 
 >[!NOTE]
 >
->Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
+Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
 >
->* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
->* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
->* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
+* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
+* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
+* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
 >
->Adobe Campaign contacte le serveur Baidu toutes les 10 minutes pour récupérer le statut du message envoyé et met à jour les broadlogs. Si un message est déclaré comme envoyé, le statut du message dans les broadlogs est défini sur **[!UICONTROL Reçu]**. Si Baidu déclare une erreur, le statut est défini sur **[!UICONTROL Échec]**.
+Adobe Campaign contacte le serveur Baidu toutes les 10 minutes pour récupérer le statut du message envoyé et met à jour les broadlogs. Si un message est déclaré comme envoyé, le statut du message dans les broadlogs est défini sur **[!UICONTROL Reçu]**. Si Baidu déclare une erreur, le statut est défini sur **[!UICONTROL Échec]**.
 
 **Pour Android V2**
 
@@ -516,7 +516,7 @@ Le mécanisme de quarantaine des messages SMS est globalement identique au proce
 
 >[!NOTE]
 >
->Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
+Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
 
 <table> 
  <tbody> 
@@ -575,9 +575,9 @@ Avant qu’un nouveau type d’erreur ne soit qualifié, la raison de l’échec
 
 >[!NOTE]
 >
->Les raisons et les types des échecs sont les mêmes que pour les emails. Pour plus d&#39;informations, consultez la section [Types de diffusion en échec et raisons](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Les raisons et les types des échecs sont les mêmes que pour les emails. Pour plus d&#39;informations, consultez la section [Types de diffusion en échec et raisons](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
->Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
+Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
 
 Exemple de message généré :
 

@@ -6,8 +6,8 @@ feature: Push
 role: User, Developer, Data Engineer
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
-source-wordcount: '750'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
