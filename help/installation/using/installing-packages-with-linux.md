@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: 32a1e16c3c085c0d928b4223e1b46ed6545122d3
+source-git-commit: 934185053bea08ea1fa6f52dec1d86a5ced02c11
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 95%
