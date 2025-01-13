@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: b500b2cbf68fd46bd84ddbfa71cf9431c6b60060
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 100%
+source-wordcount: '1061'
+ht-degree: 99%
 
 ---
 
@@ -125,7 +125,7 @@ Il est possible de mutualiser une instance de mid-sourcing pour plusieurs instan
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. Redémarrez le module technique web par la commande suivante : **nlserver restart web**.
+1. Redémarrez le module Web à l&#39;aide de la commande suivante : ** web**.
 
 Vous devez modifier le paramétrage du serveur de mid-sourcing à partir du fichier serverConf.xml. La ligne suivante doit être ajoutée dans la section &quot;Gestion des affinités avec les adresses IP&quot;, sous la ligne existante :
 

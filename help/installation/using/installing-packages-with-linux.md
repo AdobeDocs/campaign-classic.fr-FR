@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 32a1e16c3c085c0d928b4223e1b46ed6545122d3
+workflow-type: tm+mt
+source-wordcount: '1115'
+ht-degree: 95%
 
 ---
 
@@ -50,13 +50,13 @@ Pour installer Adobe Campaign sur un système d’exploitation RPM (RHEL, CentO
 
 1. Pour l’installer, connectez-vous en tant que **root** et exécutez la commande suivante (où **XXXX** est le numéro de build d’Adobe Campaign) :
 
-   ```
+   ```sql
    yum install nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
    Le fichier rpm possède des dépendances dans les packages des distributions CentOS/Red Hat. Si vous ne souhaitez pas employer certaines de ces dépendances (par exemple, si vous souhaitez utiliser Oracle JDK au lieu d’OpenJDK), vous devrez peut-être utiliser l&#39;option « nodeps » du fichier rpm :
 
-   ```
+   ```sql
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
@@ -66,8 +66,27 @@ La commande `bc`, obligatoire pour exécuter le script [netreport](../../product
 
 Sur CentOS, il faut installer le package bc.x86_64 : connectez-vous en tant que **root** et exécutez la commande suivante :
 
-```
+```sql
 yum install bc.x86_64
+```
+
+
+### RHEL 9 pour les déploiements On-Premise {#rhel-9-update}
+
+Avec Campaign v7.4.1, en tant que client On-Premise utilisant RHEL 9, si vous souhaitez utiliser des clés DKIM/Domain, vous devez mettre à jour vos paramètres système.
+
+Pour ce faire, procédez comme suit :
+
+1. Exécutez la commande suivante en tant que root :
+
+```sql
+update-crypto-policies --set LEGACY
+```
+
+1. Redémarrez le module MTA :
+
+```sql
+nlserver restart mta@<instance-name>
 ```
 
 ## Distribution basée sur ATP (Debian) {#distribution-based-on-apt--debian-}
@@ -82,7 +101,7 @@ Pour installer Adobe Campaign sur un système d’exploitation Debian 64 bits, 
 
 1. Pour l’installer, connectez-vous en tant que **root** et exécutez la commande suivante (où **XXXX** est le numéro de build d’Adobe Campaign) :
 
-   ```
+   ```sql
    apt install ./nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
 
@@ -95,7 +114,7 @@ Si vous effectuez l’installation pour la première fois, le fichier **customer
 
 Créez-le et assurez-vous qu&#39;il dispose des droits d&#39;exécution. Dans le cas contraire, saisissez la commande suivante :
 
-```
+```sql
 chmod +x /usr/local/neolane/nl6/customer.sh
 ```
 
@@ -111,7 +130,7 @@ Pour créer une **instance en japonais**, vous devez utiliser un environnement U
 
 Pour activer l’environnement UTF-8, utilisez la commande suivante :
 
-```
+```sql
 mkdir -p /usr/local/neolane/nl6 
 touch /usr/local/neolane/nl6/unicodeenv
 ```
@@ -126,7 +145,7 @@ Au besoin, éditez le fichier **customer.sh** à l&#39;aide de la commande **vi 
 
 * Pour le client Oracle :
 
-  ```
+  ```sql
   export ORACLE_HOME=/usr/local/instantclient_10_2
   export TNS_ADMIN=/etc/oracle
   export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
@@ -144,7 +163,7 @@ Au besoin, éditez le fichier **customer.sh** à l&#39;aide de la commande **vi 
 
      Les valeurs par défaut de OOO_INSTALL_DIR et OOO_BASIS_INSTALL_DIR sont fournies. Vous pouvez les remplacer dans **customer.sh** si la disposition de l&#39;installation LibreOffice est différente :
 
-     ```
+     ```sql
      export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
      export OOO_INSTALL_DIR=/usr/lib/libreoffice/
      ```
@@ -153,7 +172,7 @@ Au besoin, éditez le fichier **customer.sh** à l&#39;aide de la commande **vi 
 
      Utiliser les valeurs par défaut suivantes :
 
-     ```
+     ```sql
      export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
      export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
      ```
@@ -162,7 +181,7 @@ Au besoin, éditez le fichier **customer.sh** à l&#39;aide de la commande **vi 
 
   Par défaut, le script de configuration de l&#39;environnement Adobe Campaign (`~/nl6/env.sh`) recherche le répertoire d&#39;installation du JDK. Il est toutefois recommandé de spécifier le JDK à utiliser. Pour ce faire, vous pouvez forcer la variable d’environnement **JDK_HOME** à l’aide de la commande suivante :
 
-  ```
+  ```sql
   export JDK_HOME=/usr/java/jdkX.Y.Z
   ```
 
@@ -172,7 +191,7 @@ Au besoin, éditez le fichier **customer.sh** à l&#39;aide de la commande **vi 
 
   Pour tester la configuration du JDK, connectez-vous en tant qu&#39;utilisateur Adobe Campaign système avec la commande suivante :
 
-  ```
+  ```sql
   su - neolane
   ```
 
@@ -180,7 +199,7 @@ Vous devez relancer le service Adobe Campaign afin que les changements d&#39;en
 
 Les commandes sont les suivantes :
 
-```
+```sql
 systemctl stop nlserver
 systemctl start nlserver
 ```
@@ -194,7 +213,7 @@ Lorsque vous utilisez Oracle avec Adobe Campaign, vous devez configurer les cou
 
   Vous devez ajouter vos définitions TNS lors de la phase d&#39;installation. Pour cela, les commandes sont les suivantes :
 
-  ```
+  ```sql
   cd /etc
   mkdir oracle
   cd oracle
@@ -211,7 +230,7 @@ Lorsque vous utilisez Oracle avec Adobe Campaign, vous devez configurer les cou
 
   Pour cela, les commandes sont les suivantes :
 
-  ```
+  ```sql
   cd /usr/lib/oracle/10.2.0.4/client/lib
   ln -s libclntsh.so.10.1 libclntsh.so
   ```
@@ -222,14 +241,14 @@ En cas de problème, vérifiez que les packages répertoriés dans la documentat
 
 Vous pouvez procéder à un test initial de l&#39;installation à l&#39;aide des commandes suivantes :
 
-```
+```sql
 su - neolane
 nlserver pdump
 ```
 
 Lorsque Adobe Campaign n&#39;est pas démarré, la réponse est :
 
-```
+```sql
 no task
 ```
 
@@ -237,7 +256,7 @@ no task
 
 Une fois le test d&#39;installation réalisé, saisissez la commande suivante :
 
-```
+```sql
 nlserver web
 ```
 
@@ -257,7 +276,7 @@ Ces commandes permettent de créer les fichiers de configuration **config-defaul
 
 Saisissez la combinaison **Ctr+C** pour arrêter le processus, puis la commande suivante :
 
-```
+```sql
 nlserver start web
 ```
 
@@ -275,7 +294,7 @@ Les informations affichées sont alors les suivantes :
 
 Pour l&#39;arrêter, saisissez :
 
-```
+```sql
 nlserver stop web
 ```
 
