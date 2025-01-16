@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Email
 role: User, Developer, Data Engineer
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: f7da066d32391341e449397d64853fcbae639a59
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Lors de la création d&#39;une diffusion ou d&#39;un modèle de diffusion, la fo
 
 >[!NOTE]
 >
->Si vous utilisez Email Cci avec le MTA amélioré, cette option est automatiquement activée pour toutes les diffusions.
+>Si vous utilisez Email Cci avec [MTA amélioré](ending-with-enhanced-mta.md), cette option est automatiquement activée pour toutes les diffusions.
 
 Pour activer la fonctionnalité Email Cci pour un modèle de diffusion email, procédez comme suit :
 
