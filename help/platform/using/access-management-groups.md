@@ -10,7 +10,7 @@ exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -65,7 +65,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 1. **[!UICONTROL Chargés d&#39;opération]**
 
-   Les opérateurs de ce groupe peuvent gérer les campagnes marketing : il permet d&#39;accéder aux objets relatifs aux opérations (plans, programmes, workflows, budgets, etc.) dans le cadre de **[!UICONTROL Campaign]** (module facultatif Adobe Campaign).
+   Les opérateurs de ce groupe peuvent gérer les campagnes marketing : il permet d&#39;accéder aux objets liés aux opérations (plans, programmes, workflows, budgets, etc.) dans le cadre de **[!UICONTROL Campaign]** (module optionnel d&#39;Adobe Campaign).
 
    Ce groupe contient les droits nommés suivants :
 

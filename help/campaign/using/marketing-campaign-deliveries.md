@@ -8,7 +8,7 @@ exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
 source-wordcount: '1550'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -188,7 +188,7 @@ Cliquez ensuite sur **[!UICONTROL Ajouter une composition de diffusion]** et cr�
 Une composition peut contenir des articles, des champs de personnalisation, des ressources et des offres :
 
 * Les articles sont par exemple des documents physiques qui sont ici référencés et décrits, et seront joints à la diffusion.
-* Les champs de personnalisation permettent de créer des éléments de personnalisation liés aux diffusions plutôt qu’aux destinataires. Il est ainsi possible de créer des valeurs à utiliser dans les diffusions pour une cible spécifique (offre de bienvenue, réduction, etc.) Ils sont créés dans Adobe Campaign et importés dans la composition via le lien **[!UICONTROL Importer des champs de personnalisation]**.
+* Les champs de personnalisation permettent de créer des éléments de personnalisation relatifs aux diffusions et non aux destinataires. Il est ainsi possible de créer des valeurs qui seront utilisées dans les diffusions pour une cible spécifique (offre de bienvenue, remise, etc.) Ils sont créés dans Adobe Campaign et importés dans la composition via le lien **[!UICONTROL Importer des champs de personnalisation...]** .
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 

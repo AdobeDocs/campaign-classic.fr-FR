@@ -7,8 +7,8 @@ feature: Personalization, Multilingual Messages
 role: User
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '509'
 ht-degree: 100%
 
 ---

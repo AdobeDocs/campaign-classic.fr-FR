@@ -6,7 +6,7 @@ feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
 

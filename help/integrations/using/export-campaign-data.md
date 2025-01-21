@@ -9,7 +9,7 @@ exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
 source-wordcount: '476'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Une fois le workflow configuré et les données envoyées à votre emplacement d
 
 >[!NOTE]
 >
->Veuillez noter que nous vous recommandons d’exporter uniquement les données générées par Campaign (par exemple, envois, ouvertures, clics, etc.) vers Adobe Experience Platform. Les données ingérées à partir d’une source tierce (tel que votre CRM) doivent être importées directement dans Adobe Experience Platform.
+>Notez que nous vous recommandons d’exporter uniquement des données générées par Campaign (par exemple, envois, ouvertures, clics, etc.) vers Adobe Experience Platform. Les données ingérées à partir d’une source tierce (tel que votre CRM) doivent être importées directement dans Adobe Experience Platform.
 
 ## Création d&#39;un workflow d&#39;export dans Campaign Classic
 

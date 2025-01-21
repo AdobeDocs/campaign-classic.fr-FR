@@ -6,7 +6,7 @@ role: User
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 source-git-commit: 7453db63a0ed2c617e9f7e4cbfa3480b3ed5020d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 100%
 
@@ -91,7 +91,7 @@ Les workflows de ciblage peuvent être lancés manuellement via le bouton **[!UI
 
 Le ciblage peut être planifié afin de s&#39;exécuter automatiquement selon un planning (planificateur) ou un événement (signal externe, import d&#39;un fichier, etc.).
 
-Les actions liées à l&#39;exécution du workflow de ciblage (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et est prise en compte dès que le serveur est disponible pour l’appliquer.
+Les actions relatives à l&#39;exécution du workflow de ciblage (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur sera disponible pour l&#39;appliquer.
 
 Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution du workflow de ciblage.
 
@@ -169,7 +169,7 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
 
   >[!CAUTION]
   >
-  >L’arrêt inconditionnel est limité aux utilisateurs et utilisatrices disposant de droits d’administration uniquement.
+  >L’arrêt inconditionnel est réservé aux personnes disposant de droits d’administration uniquement.
 
 ## Ajout d’une population témoin {#defining-a-control-group}
 

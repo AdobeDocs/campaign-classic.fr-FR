@@ -5,7 +5,7 @@ description: En savoir plus sur les bonnes pratiques relatives à la gestion des
 feature: Installation, Access Management, Permissions
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 

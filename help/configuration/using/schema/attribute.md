@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '1573'
 ht-degree: 100%
 
 ---

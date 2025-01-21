@@ -10,7 +10,7 @@ exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1580'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ Dans l&#39;exemple ci-dessous, les langues seront réparties dans trois groupes�
 
 Vous pouvez utiliser un masque SQL pour regrouper plusieurs valeurs selon un filtre. Pour cela, cochez l&#39;option **[!UICONTROL Oui]** dans la colonne **[!UICONTROL Utiliser un masque SQL]** et saisissez le filtre SQL à appliquer dans la colonne **[!UICONTROL Valeur ou expression]**.
 
-Dans l’exemple ci-dessous, tous les domaines de messagerie commençant par **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.), ou par **ymail** (ymail.com, ymail.eu, etc.) seront regroupés sous le libellé **YAHOO!**, ainsi que les adresses avec le domaine **rocketmail.com**.
+Dans l&#39;exemple ci-dessous, tous les domaines d&#39;email commençant par **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.), ou par **ymail** (ymail.com, ymail.eu, etc.) seront regroupés sous le libellé **YAHOO !**, ainsi que les adresses avec le domaine **rocketmail.com**.
 
 ![](assets/s_advuser_cube_class_03b.png)
 
@@ -71,13 +71,13 @@ Pour créer ce type de mise en classe des valeurs, les étapes sont les suivante
 
 ### Création de plages de valeurs {#creating-value-ranges}
 
-Vous pouvez regrouper les valeurs dans des plages selon l&#39;intervalle souhaité.
+Vous pouvez regrouper les valeurs dans des plages selon l’intervalle souhaité.
 
 Pour définir manuellement les intervalles, cliquez sur le bouton **[!UICONTROL Ajouter]** et choisissez l&#39;option **[!UICONTROL Définir un intervalle]** :
 
 ![](assets/s_advuser_cube_class_05.png)
 
-Indiquez ensuite les bornes inférieures et supérieures et cliquez sur **[!UICONTROL Ok]** pour valider.
+Indiquez ensuite les limites inférieures et supérieures et cliquez sur **[!UICONTROL OK]** pour valider.
 
 ### Génération automatique de classes {#generating-bins-automatically}
 

@@ -5,8 +5,8 @@ description: Découvrez les principales différences entre les déploiements hé
 feature: Installation, Architecture
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '287'
 ht-degree: 100%
 
 ---

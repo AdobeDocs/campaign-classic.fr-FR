@@ -7,8 +7,8 @@ feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '926'
+ht-degree: 100%
 
 ---
 

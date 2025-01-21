@@ -11,7 +11,7 @@ exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 
 
-La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows, etc.) de vos instances Campaign Classic est limitée. Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
+La liste par défaut des URL pouvant être appelées par les codes JavaScript (workflows, etc.) par vos instances de Campaign Classic est limitée. Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
 
 Par défaut, les instances ne sont pas autorisées à se connecter à des URL externes. Cependant, il est possible d’ajouter des URL externes à la liste des URL autorisées afin que votre instance puisse s’y connecter. Vous pouvez ainsi connecter vos instances Campaign à des systèmes externes, comme des serveurs SFTP ou des sites Web, afin d’activer le transfert de fichiers et/ou de données.
 

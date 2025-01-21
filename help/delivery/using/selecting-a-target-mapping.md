@@ -8,13 +8,13 @@ hidefromtoc: true
 role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-# Sélection d’un mapping de ciblage{#selecting-a-target-mapping}
+# Sélectionner un mapping de ciblage{#selecting-a-target-mapping}
 
 Par défaut, les modèles de diffusion ciblent les **[!UICONTROL Destinataires]**. Leur mapping de ciblage utilise donc les champs de la table **nms:recipient**. Adobe Campaign propose d&#39;autres mappings de ciblage pour vos diffusions que vous pouvez utiliser selon vos besoins.
 

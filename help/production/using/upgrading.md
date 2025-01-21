@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 source-git-commit: 0da7fb912a909af222d796652efba4b30e39dc1c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 100%
 

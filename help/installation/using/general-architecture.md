@@ -36,7 +36,7 @@ Adobe Campaign repose sur une architecture orientée service (SOA) composée de
 
 >[!NOTE]
 >
->En tant qu&#39;éditeur de solutions, nous vous indiquons ci-dessous des infrastructures matérielles et logicielles de nature à être compatibles avec notre offre. Les recommandations matérielles présentes dans ce document sont données à titre d&#39;information sur la base de notre expérience. Elles ne sauraient engager la responsabilité d&#39;Adobe. Elles dépendent également des règles pratiquées dans votre entreprise, du niveau de criticité et des performances attendues du projet.
+>En tant qu’éditeur de solutions, nous vous indiquons ci-dessous des infrastructures matérielles et logicielles de nature à être compatibles avec notre offre. Les recommandations matérielles présentes dans ce document sont données à titre d’information sur la base de notre expérience. Elles ne sauraient engager la responsabilité d’Adobe. Elles dépendent également des règles métier et des pratiques de votre entreprise, du niveau de criticité et des performances attendues du projet.
 
 ![](assets/s_ncs_install_architecture.png)
 

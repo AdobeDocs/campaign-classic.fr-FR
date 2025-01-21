@@ -5,7 +5,7 @@ description: En savoir plus sur l'activité de workflow de partage
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2169'
 ht-degree: 100%
 

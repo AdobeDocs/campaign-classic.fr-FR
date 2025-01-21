@@ -7,7 +7,7 @@ role: Data Engineer, Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2416'
 ht-degree: 100%
 

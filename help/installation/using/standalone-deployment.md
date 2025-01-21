@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ Lorsque le volume s&#39;accroît, une variante de cette architecture déporte le
    * un premier alias exposé au grand public pour le tracking et pointant vers la machine sur son IP publique ;
    * un deuxième alias exposé aux utilisateurs métier pour l&#39;accès console et pointant vers la même machine.
 
-* Configuration du pare-feu pour l&#39;ouverture des ports SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.) . Voir à ce propos [Configuration du réseau](../../installation/using/network-configuration.md).
+* Pare-feu configuré pour ouvrir les ports SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour l’Oracle, 5432 pour PostgreSQL, etc.). Voir à ce propos [Configuration du réseau](../../installation/using/network-configuration.md).
 
 Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
 

@@ -7,7 +7,7 @@ feature: Email, Push
 role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 source-git-commit: 287d1bf60b39e9e2b389701097995dbea962dec9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 100%
 

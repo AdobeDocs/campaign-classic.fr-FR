@@ -6,7 +6,7 @@ feature: SMS, Troubleshooting
 role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 source-git-commit: f660dcbb111e73f12737d96ebf9be2aeccbca8ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3044'
 ht-degree: 100%
 
