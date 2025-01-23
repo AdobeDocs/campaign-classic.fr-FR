@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
 source-git-commit: b500b2cbf68fd46bd84ddbfa71cf9431c6b60060
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1061'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -121,11 +121,11 @@ Il est possible de mutualiser une instance de mid-sourcing pour plusieurs instan
 
    ![](assets/mid_recette_user_rights.png)
 
-1. Sélectionnez l&#39;option **[!UICONTROL Restreindre aux données présentes dans les sous-dossiers de]** et séléctionnez le dossier Diffusions pour restreindre l&#39;accès de cet opérateur au répertoire de diffusions mid-sourcing.
+1. Sélectionnez l’option **[!UICONTROL Restreindre aux données présentes dans les sous-dossiers de]** et séléctionnez le dossier Diffusions pour restreindre l’accès de cet opérateur au répertoire de diffusions mid-sourcing.
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. Redémarrez le module Web à l&#39;aide de la commande suivante : ** web**.
+1. Redémarrez le module web à l’aide de la commande suivante : ** web**.
 
 Vous devez modifier le paramétrage du serveur de mid-sourcing à partir du fichier serverConf.xml. La ligne suivante doit être ajoutée dans la section &quot;Gestion des affinités avec les adresses IP&quot;, sous la ligne existante :
 
