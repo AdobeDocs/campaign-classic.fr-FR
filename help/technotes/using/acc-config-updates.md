@@ -62,7 +62,7 @@ Vous devez effectuer une mise à niveau vers un build plus récent parmi ceux r�
 >Si vous ne pouvez pas effectuer la mise à niveau dans le délai recommandé, **vous devez contacter l’équipe de l’assistance clientèle d’Adobe pour appliquer à court terme un correctif de sécurité manuel sur vos instances**.
 >
 
-## Mise à jour de la console cliente Campaign   {#acc-cc-updates}
+## Mise à jour de la console cliente Campaign Classic  {#acc-cc-updates}
 
 Les versions **désormais disponibles** de la console ci-dessous doivent être installées pour résoudre une régression récemment identifiée. Cette régression empêchait l’utilisation de certains composants de la console cliente, tels que le sélecteur de date et la gestion des images dans les diffusions. La **mise à niveau de la console** est obligatoire.
 

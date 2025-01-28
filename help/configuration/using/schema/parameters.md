@@ -5,8 +5,8 @@ description: élément parameters
 feature: Schema Extension
 exl-id: 54538c3e-3232-4bf7-a09c-dacf0f072be5
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '48'
 ht-degree: 100%
 
 ---

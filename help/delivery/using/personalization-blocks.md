@@ -7,7 +7,7 @@ feature: Personalization
 role: User
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 
@@ -138,7 +138,7 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * Saisissez le contenu (en langage HTML, texte, JavaScript, etc.) du bloc de personnalisation, puis cliquez sur **[!UICONTROL Enregistrer]**.
+   * Saisissez le contenu (en HTML, texte, JavaScript, etc.) du ou des blocs de personnalisation et cliquez sur le bouton **[!UICONTROL Enregistrer]**.
 
 ## Tutoriel vidéo {#personalization-blocks-video}
 

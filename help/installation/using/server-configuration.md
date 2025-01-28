@@ -10,7 +10,7 @@ exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ Si vous utilisez des noms d’hôte différents (un nom d’hôte public et un n
 
 ## Protection des connexions sortantes
 
-La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows et autres) est limitée. Pour autoriser une nouvelle URL, l’administrateur doit la référencer dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md).
+La liste par défaut des URL pouvant être appelées par les codes JavaScript (workflows, etc.) est limitée. Pour autoriser une nouvelle URL, l’administrateur doit la référencer dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md).
 
 Il existe trois modes de protection des connexions :
 

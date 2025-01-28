@@ -292,7 +292,7 @@ Le champ &quot;err&quot; contient le code d&#39;erreur propre au fournisseur. Le
 
 Enfin, le champ &quot;text&quot; contient généralement le début du texte du MT. Adobe Campaign n&#39;en tient pas compte et certains fournisseurs ne le transmettent pas pour éviter les fuites d&#39;informations d&#39;identification personnelle et la consommation de bande passante du réseau. Il peut être utilisé lors de résolution des problèmes pour repérer plus facilement le SR correspondant à un test MT en lisant ce champ.
 
-### Exemple de traitement SR dans un SMPP générique étendu Adobe Campaign Standard {#sr-processing}
+### Exemple de traitement SR dans un SMPP générique étendu Adobe Campaign Classic {#sr-processing}
 
 Cet exemple montre comment afficher le cas d&#39;une mise en œuvre suivant la recommandation de l&#39;Annexe B, les valeurs par défaut dans le compte externe et un SMS MT réussi.
 
