@@ -5,12 +5,14 @@ description: Découvrez comment contrôler les coûts
 feature: Resource Management
 audience: campaign
 content-type: reference
+hide: true
+hidefromtoc: true
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 942edcf028207eab2ea583949ebc99ab61539ea0
 workflow-type: tm+mt
-source-wordcount: '2559'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
