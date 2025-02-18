@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
-source-git-commit: 78180ce0958d16b1417500b74736e373725a6b53
+source-git-commit: 9734eca149e775bbe4c9ea9553e6a6482ad67da6
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 89%
