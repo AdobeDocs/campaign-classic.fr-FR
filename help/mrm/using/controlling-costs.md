@@ -10,9 +10,9 @@ hidefromtoc: true
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 source-git-commit: 942edcf028207eab2ea583949ebc99ab61539ea0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2559'
+ht-degree: 100%
 
 ---
 
