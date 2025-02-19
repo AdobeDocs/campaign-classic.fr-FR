@@ -4,10 +4,10 @@ title: Prise en main du marketing distribué
 description: Prise en main du marketing distribué
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 100%
+source-wordcount: '140'
+ht-degree: 84%
 
 ---
 
@@ -23,141 +23,146 @@ L&#39;entité centrale propose aux entités locales des opérations auxquelles e
 >
 >Le module Distributed Marketing est une option de **Campaign**. Vérifiez votre contrat de licence.
 
-## Terminologie {#terminology}
+>[!NOTE]
+>
+>Pour en savoir plus sur le marketing distribué pour Adobe Campaign et son utilisation, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}.
 
-* **Entité centrale**
+<!--
+## Terminology {#terminology}
 
-  Une entité centrale regroupe les opérateurs marketing chargés de définir la communication et d&#39;assister les entités locales dans la réalisation de leur campagne marketing.
+* **Central entities**
 
-  L&#39;entité centrale peut, grâce au module de Marketing Distribué :
+   Central entities are made up of marketing operators in charge of specifying communications and assisting local entities in executing their marketing campaign.
 
-   * mettre en place des kits de campagne marketing à destination des entités locales,
-   * favoriser l&#39;autonomie des entités locales dans le choix de leurs communications envers leurs clients/prospects, leur ciblage, leur contenu, etc.,
-   * gérer et maîtriser les coûts,
-   * animer un réseau d&#39;agences.
+   The distributed marketing module allows the central entity to:
 
-* **Entité locale**
+   * set up marketing campaign packages for local entities,
+   * increase local entities' degree of autonomy regarding their choice in customer/prospect communication, targeting, content, etc.
+   * manage and control costs, 
+   * handle a network of agencies.
 
-  Une entité locale correspond à une agence, un magasin ou un groupe d&#39;opérateurs locaux spécifiques (responsables de pays ou de régions, responsables de marques, etc.).
+* **Local entities**
 
-  Le Marketing Distribué permet aux entités locales d&#39;avoir plus d&#39;autonomie tout en optimisant les coûts de réalisation.
+   Local entities can be agencies, stores or groups of specific local operators (country or regional managers, brand managers, etc.).
 
-* **Localisation**
+   Distributed Marketing allows local entities to have more autonomy while optimizing execution costs.
 
-  La localisation est la capacité pour une entité locale de modifier la cible et le contenu d&#39;une opération. Le niveau de localisation possible dépend du type d&#39;opération et de la mise en œuvre.
+* **Localization**
 
-* **Liste des kits d&#39;opération**
+   Localization is the capacity for a local entity to modify the target and content of a campaign. The possible level of localization depends on the type of campaign and its implementation.
 
-  La liste des kits d&#39;opération regroupe les opérations qui sont disponibles pour les entités locales.
+* **List of campaign packages**
 
-* **Kit d&#39;opération**
+   The list of campaign packages contains the campaigns available to local entities.
 
-  Modèle (ou instance d&#39;opération) créé par une entité centrale et mis à disposition d&#39;un ensemble d&#39;entités locales.
+* **Campaign package**
 
-* **Opération locale**
+   Template (or campaign instance) created by a central entity and made available to a set of local entities.
 
-  Une opération locale est une instance d&#39;opération créée à partir d&#39;un modèle d&#39;opération référencé dans la liste des **[!UICONTROL kits d&#39;opération]** avec un **planning d&#39;exécution spécifique** à chaque commande de l&#39;entité locale. L&#39;objectif est de répondre à un besoin local de communication en utilisant un modèle d&#39;opération formalisé et paramétré par l&#39;entité centrale.
+* **Local campaign**
 
-  Le degré d&#39;autonomie de l&#39;entité locale dépend de la mise en oeuvre utilisée.
+   A local campaign is an instance created from a template referenced in the list of **[!UICONTROL campaign packages]** with a **specific execution schedule**. Its aim is to meet a local communication need using a campaign template that was set up and configured by the central entity.
 
-  Voir [Création d&#39;une campagne locale](creating-a-local-campaign.md).
+   The local entity's degree of autonomy depends on the implementation used.
 
-* **Opération collaborative**
+   Refer to [Creating a local campaign](creating-a-local-campaign.md).
 
-  Une opération collaborative est une opération dont le **planning d&#39;exécution est défini** par l&#39;entité centrale. Les entités locales sont libres de participer ou non à l&#39;opération. En fonction du paramétrage de l&#39;opération, le contenu et la cible peuvent être localisés par l&#39;entité locale. Il existe plusieurs types d&#39;opérations collaboratives :
+* **Collaborative campaign**
 
-   * **[!UICONTROL Opération collaborative (par formulaire)]** : conseillée pour des opérations visant jusqu’à 300 entités locales. L’entité locale peut saisir des paramètres prédéfinis en terme de ciblage et de personnalisation de contenu dans un formulaire web. Le formulaire peut être un formulaire Adobe Campaign ou un formulaire externe (extranet client). La définition et le paramétrage de ce formulaire peuvent être réalisés par un administrateur fonctionnel sur la base d’un modèle de formulaire défini par l’intégrateur. Pour commander l’opération, l’entité locale a seulement besoin d’un accès web.
-   * **[!UICONTROL Campagne collaborative (par campagne)]** : recommandé pour les campagnes ciblant des dizaines d’entités locales. Ce type de campagne crée des campagnes enfants pour chaque entité locale. Lorsque la commande d’une **[!UICONTROL Opération collaborative par opération]** est validée par l’entité centrale, l’opération est mise à disposition de l’entité locale qui peut la modifier. L’exécution est automatiquement synchronisée entre les opérations enfants et l’opération parent. L’entité locale doit avoir accès à une instance pour commander une opération et y participer.
-   * **[!UICONTROL Opération collaborative (par validation de la cible)]** : conseillée pour des opérations visant jusqu’à plusieurs milliers d’entités locales. L’entité locale reçoit une liste de contacts sélectionnés par l’entité centrale. L’entité locale choisit de garder ou non certains contacts en fonction du contenu de l’opération, grâce à un formulaire web. Les entités locales sont déduites de la liste de contacts sélectionnés. Pour participer à l’opération, l’entité locale a seulement besoin d’un accès web.
-   * **[!UICONTROL Opération collaborative simple]** : ce mode permet d&#39;assurer la compatibilité avec les développements spécifiques réalisés dans les versions précédentes.
+   A collaborative campaign is a campaign whose **execution schedule is defined** by the central entity, which the local entity may use. The content remains the same for each local entity but costs are shared. To take part, local entities subscribe to the collaborative campaign.
 
-  Voir [Création d’une campagne collaborative](creating-a-collaborative-campaign.md).
+   * **[!UICONTROL Collaborative campaign (by form)]**: recommended for campaigns involving up to 300 local entities. The local entity can enter predefined parameters for targeting and content personalization in a web form. The form can be an Adobe Campaign form or an external form (extranet client). A functional administrator can define and configure the form based on a form template defined by the integrator. To order the campaign, the local entity just needs web access.
+   * **[!UICONTROL Collaborative campaign (by campaign)]**: recommended for campaigns aimed at dozens of local entities. This type of campaign creates child campaigns for each local entity. Once the **[!UICONTROL collaborative campaign (by campaign)]** is approved by the central entity, the campaign is made available to the local entity, who can modify it. Execution is automatically synched between parent and child campaigns. The local entity must have access to an instance to order a campaign and participate in it.
+   * **[!UICONTROL Collaborative campaign (by target approval)]**: recommended for campaigns aimed at several thousand local entities. Local entity receives a contact list that has been predefined by the central entity. The local entity decides whether or not to keep certain contacts based on the campaign content, via a web form. Local entities are deduced from the list of selected contacts. To participate in the campaign, the local entity just needs web access.
+   * **[!UICONTROL Collaborative campaign (simple)]**: this mode ensures compatibility with the specific execution processes of previous versions.
 
-**Commande de kits d&#39;opération**
+   Refer to [Creating a collaborative campaign](creating-a-collaborative-campaign.md).
 
-L&#39;inscription d&#39;une entité locale à une opération se traduit par la création d&#39;une commande qui regroupe toutes les informations relatives à la localisation de la campagne.
+**Ordering campaign packages**
 
-## Espace de travail     {#workspace}
+   If a local entity registers for a campaign this is made into an order which regroups all information relative to the campaign localization.
 
-La liste des kits de campagnes est accessible à partir de l’onglet **Campagnes** : cliquez sur le lien **[!UICONTROL Kits de campagnes]**.
+## Workspace {#workspace}
+
+The list of campaign packages can be accessed from the **Campaigns** tab: click the **[!UICONTROL Campaign packages]** link.
 
 ![](assets/mkg_dist_home_local_op.png)
 
-Pour chaque opérateur local, cette fenêtre permet de visualiser les opérations disponibles pour son agence locale.
+This window allows all local operators to view the campaigns available for their local agency.
 
-Pour les agences centrales, cette fenêtre affiche tous les kits disponibles dans la liste des kits d&#39;opération et propose des liens supplémentaires afin d&#39;agir sur la liste.
+In the case of central agencies, this window displays all packages available in the list of campaign packages and offers additional links for editing the list.
 
-## Opérateurs et entités {#operators-and-entities}
+## Operators and entities {#operators-and-entities}
 
-Vous devez d&#39;abord définir les acteurs des entités centrales et locales à partir du dossier de **[!UICONTROL Gestion des accès]**.
+Start by specifying the central and local entity operators via the **[!UICONTROL Access management]** folder.
 
 ![](assets/s_advuser_mkg_dist_tree.png)
 
-### Opérateurs {#operators}
+### Operators {#operators}
 
-Vous devez créer des opérateurs centraux et des opérateurs locaux.
+You need to create central and local operators.
 
-Les opérateurs centraux doivent appartenir au groupe d&#39;opérateurs **[!UICONTROL Gestion en central]** ou être titulaire du droit nommé **[!UICONTROL CENTRAL]**.
+Central operators must belong to the **[!UICONTROL Central management]** operator group or have the **[!UICONTROL CENTRAL]** named right.
 
-Les opérateurs locaux doivent appartenir au groupe d&#39;opérateurs **[!UICONTROL Gestion en local]** ou être titulaire du droit nommé **[!UICONTROL LOCAL]**. De plus, ils doivent être associés à leur entité locale.
+Local operators must belong to the **[!UICONTROL Local management]** operator group or have the **[!UICONTROL LOCAL]** named right. They must also be linked to their local entity.
 
 ![](assets/s_advuser_mkg_dist_local_create.png)
 
-### Entités organisationnelles {#organizational-entities}
+### Organizational entities {#organizational-entities}
 
-Pour créer une entité organisationnelle, cliquez sur le noeud **[!UICONTROL Administration > Gestion des accès > Entités organisationnelles]** puis cliquez sur l&#39;icône **[!UICONTROL Nouveau]** au-dessus de la liste des entités.
+To create an organizational entity, click the **[!UICONTROL Administration > Access management > Organizational entities]** node and click the **[!UICONTROL New]** icon above the list of entities.
 
 ![](assets/s_advuser_mkg_dist_local_list.png)
 
-Chaque entité organisationnelle contient des informations d’identification (libellé, nom interne, coordonnées, etc.) et les groupes impliqués dans le processus d’approbation des commandes. Ils sont définis dans la section **[!UICONTROL Notifications et validations]** de l’onglet **[!UICONTROL Général]** .
+Each organizational entity contains identification information (label, internal name, contact information, etc.) and groups involved in the order approval process. These are defined in the **[!UICONTROL Notifications and approvals]** section found in the **[!UICONTROL General]** tab.
 
-* Vous devez définir un groupe de notification des kits : les opérateurs de ce groupe recevront un message de notification lorsqu&#39;un nouveau kit sera ajouté à la liste des kits d&#39;opération et lorsqu&#39;une opération est disponible.
-* Vous devez également sélectionner le groupe d&#39;opérateurs responsables de la validation des commandes, c&#39;est-à-dire chargés de valider les opérations commandées par l&#39;entité locale.
-* Sélectionnez enfin le groupe d&#39;opérateurs chargés de la validation de l&#39;opération locale (validation de la cible, du contenu, du budget, etc.). Ce groupe peut être surchargé lors de la commande d&#39;une opération, si le modèle le permet.
+* Define a package notification group: operators in this group will receive a notification each time a new package is added to the list of campaign packages and each time a campaign becomes available.
+* Select the group of reviewers in charge of approving orders, i.e. those in charge of approving campaigns ordered by the local entity.
+* Finally, select the group of reviewers in charge of approving the local campaign (target, content, budget, etc.). This group may be added to when ordering a campaign, depending on the template.
 
 >[!NOTE]
 >
->Le processus de validation est présenté dans la section [Processus de validation](creating-a-local-campaign.md#approval-process).
+>The approval process is presented in the [Approval process](creating-a-local-campaign.md#approval-process) section.
 
-## Mise en œuvre {#implementation}
+## Implementation {#implementation}
 
-Les opérations de Marketing Distribué sont créées et publiées par l&#39;entité centrale, puis peuvent être utilisées par les entités locales autant que par l&#39;entité centrale, selon les besoins.
+Distributed Marketing campaigns are created and published by the central entity. They may be used by both local and central entities as needed.
 
-Les étapes de mise en oeuvre dépendent du type de kit d&#39;opération utilisé et du niveau de délégation au niveau des entités locales.
+The implementation procedure depends on the type of campaign package used and the local entity delegation levels.
 
-### Tâches de l&#39;intégrateur {#integrator-side}
+### Integrator tasks {#integrator-side}
 
-1. Créer les entités locales.
-1. Associer les destinataires aux opérateurs en charge des entités locales.
+1. Create local entities.
+1. Link recipients with the operators that manage local entities.
 
    ![](assets/mkg_dist_local_entity_association.png)
 
-1. Définir les droits et les règles de navigation pour les entités locales.
-1. Définir l&#39;ensemble des champs nécessaires à la localisation des campagnes :
+1. Specify rights and browsing rules for local entities
+1. Specify the set of fields necessary for campaign localization:
 
-   * la définition de la cible et sa taille maximale,
-   * la définition du contenu,
-   * le planning d&#39;exécution (date de contact et date d&#39;extraction), **pour les opérations locales seulement**,
-   * l&#39;extension du schéma des commandes avec l&#39;ensemble des champs additionnels nécessaires.
+    * target definition and maximum size,
+    * content definition,
+    * execution schedule (contact date and extraction date), **for local operators only**,
+    * extension of order schema with all necessary additional fields.
 
-1. Créez un modèle de formulaire web (Adobe ou extranet) qui permet d’afficher les paramètres de localisation, d’évaluer la cible et le budget, mais aussi d’avoir un aperçu du contenu et de valider la commande.
+1. Create a web form (Adobe or extranet) that allows you to display localization parameters, evaluate the target and budget, as well as preview the content and approve the order.
 
-   Pour les **opérations collaboratives par validation de la cible**, créer la table où seront enregistrées les validations pour chaque entité locale.
+   For **collaborative campaigns (by target approval)**, create the table where the approvals for each local entity will be saved.
 
-### Tâches de l&#39;administrateur fonctionnel {#functional-administrator-side}
+### Functional administrator tasks {#functional-administrator-side}
 
-Ces étapes doivent être réalisées à chaque création d&#39;opération.
+These steps must be carried out when creating each campaign.
 
-1. Mettre à jour le formulaire avec les champs utilisés pour la localisation de la campagne.
-1. Créer une instance à partir du modèle d&#39;opération approprié (opération collaborative) ou dupliquer le modèle d&#39;opération (opération locale).
-1. Paramétrer l&#39;opération avec les champs de localisation et la référence du formulaire.
-1. Publiez l&#39;opération.
+1. Update the form with the fields used for campaign localization.
+1. Create an instance from an appropriate campaign template (collaborative campaign) or duplicate the campaign template (local campaign).
+1. Configure the campaign with the localization fields and the form reference.
+1. Publish the campaign.
 
-### Tâches de l&#39;opérateur local {#local-operator-side}
+### Local operator tasks {#local-operator-side}
 
-Ces étapes doivent être réalisées à chaque opération.
+These steps must be carried out for each campaign.
 
-1. A la réception de la notification de disponibilité du kit d&#39;opération, définir la localisation éventuelle de l&#39;opération.
-1. Evaluer la cible, le budget, etc..
-1. Prévisualiser le contenu de l&#39;opération.
-1. Commander l&#39;opération.
+1. Once you receive notification of the campaign package's availability, specify the campaign's location (optional).
+1. Evaluate the target, the budget, etc.
+1. Preview campaign content.
+1. Order the campaign. --!>

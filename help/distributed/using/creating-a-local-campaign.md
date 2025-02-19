@@ -3,11 +3,13 @@ product: campaign
 title: Créer une campagne locale
 description: Créer une campagne locale
 feature: Distributed Marketing
+hide: true
+hidefromtoc: true
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -184,7 +186,7 @@ La date de disponibilité est la date à partir de laquelle l&#39;opération est
 >
 >Si une entité locale n&#39;a pas réservé l&#39;opération avant la date limite d&#39;inscription, elle ne pourra pas y participer.
 
-Ces informations sont accessibles depuis le mail de notification adressé aux agences locales, comme dans l&#39;exemple ci-dessous :
+Ces informations sont accessibles depuis le message de notification adressé aux agences locales, comme dans l’exemple ci-dessous :
 
 ![](assets/s_advuser_mkg_dist_local_notif.png)
 

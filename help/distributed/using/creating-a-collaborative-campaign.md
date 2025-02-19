@@ -3,11 +3,13 @@ product: campaign
 title: Création d’une opération collaborative
 description: Découvrez comment créer une campagne collaborative
 feature: Distributed Marketing
+hide: true
+hidefromtoc: true
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -91,7 +93,7 @@ Dans l&#39;onglet **[!UICONTROL Répartition]**, ajoutez un champ pour chaque en
 
 Il est possible de rajouter une deuxième activité de type **Validation de la cible** après l&#39;activité de type **Diffusion** pour paramétrer un rapport sur celle-ci.
 
-Dans le mail de notification de création de l&#39;opération, l&#39;entité locale reçoit une liste de contact prédéfinie par les paramétrages de l&#39;entité centrale.
+Dans le message de notification de création de la campagne, l’entité locale reçoit une liste de contact prédéfinie par les paramètres de l’entité centrale.
 
 ![](assets/mkg_dist_mutual_op_by_valid1.png)
 
