@@ -4,7 +4,7 @@ title: Prise en main du marketing distribué
 description: Prise en main du marketing distribué
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
-source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
+source-git-commit: a6b3c2c23ea5ee35e8829c750c35080d1ff56e00
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 84%
@@ -165,4 +165,5 @@ These steps must be carried out for each campaign.
 1. Once you receive notification of the campaign package's availability, specify the campaign's location (optional).
 1. Evaluate the target, the budget, etc.
 1. Preview campaign content.
-1. Order the campaign. --!>
+1. Order the campaign.
+-->
