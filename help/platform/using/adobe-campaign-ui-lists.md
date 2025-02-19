@@ -4,202 +4,208 @@ title: Gestion et personnalisation de listes
 description: Découvrez comment parcourir et configurer des listes
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: f43b15e61fb286a612f057d8d3bf5a1ff6ecb253
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 100%
+source-wordcount: '66'
+ht-degree: 71%
 
 ---
 
-# Gestion et personnalisation de listes{#manage-and-customize-lists}
+# Gérer et personnaliser des listes{#manage-and-customize-lists}
 
 
 
-Vous pouvez accéder aux listes des enregistrements de la base de données Campaign à l’aide de l’Explorateur. Vous pouvez filtrer ces listes, lancer des recherches, ajouter des informations, filtrer et trier les données.
+Dans la console cliente Campaign, les données sont affichées dans des listes. Vous pouvez adapter ces listes à vos besoins. Vous pouvez par exemple ajouter des colonnes, filtrer les données, comptabiliser les enregistrements, enregistrer et partager vos paramètres.
 
-## Comptage des enregistrements {#counting-records}
+>[!NOTE]
+>
+>Pour savoir comment gérer et personnaliser des listes dans Adobe Campaign, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
 
-Par défaut, Adobe Campaign charge en mémoire les 200 premiers enregistrements d&#39;une liste. Par conséquent, l&#39;affichage ne propose pas nécessairement l&#39;intégralité des enregistrements de la table dont vous affichez le contenu. Vous pouvez lancer un décompte du nombre d&#39;enregistrements de la liste et déclencher le chargement en mémoire d&#39;enregistrements supplémentaires.
+<!--
+## Count records {#counting-records}
 
-En bas à droite de l&#39;écran de liste, un **[!UICONTROL compteur]** indique le nombre d&#39;enregistrements chargés en mémoire par rapport au nombre total d&#39;enregistrements dans la base (après application de tous les filtres éventuels) :
+By default, Adobe Campaign loads the first 200 records of a list. This means that the display does not necessarily show all the records of the table you are viewing. You can run a count of the number of records in the list and load more records.
+
+In the lower right-hand part of the list screen, a **[!UICONTROL counter]** shows how many records have been loaded and the total number of records in the database (after applying any filters):
 
 ![](assets/s_ncs_user_nb_200_0.png)
 
-Si « **?** » apparaît plutôt que le nombre sur la droite, cliquez sur le compteur pour lancer le calcul.
+If a "**?**" appears instead of the number on the right, click the counter to launch the calculation.
 
-### Chargement d’enregistrements supplémentaires {#loading-more-records}
+### Load more records {#loading-more-records}
 
-Pour charger (et donc afficher) des enregistrements supplémentaires (par défaut, 200 lignes), cliquez sur le bouton **[!UICONTROL Continuer le chargement]**.
+To load (and therefore display) additional records (200 lines by default) click **[!UICONTROL Continue loading]**.
 
 ![](assets/s_ncs_user_load_list.png)
 
-Si vous souhaitez charger l&#39;intégralité des enregistrements, cliquez dans la liste avec le bouton droit et sélectionnez **[!UICONTROL Tout charger]**.
+To load all the records, right-click the list and select **[!UICONTROL Load all]**.
 
 >[!CAUTION]
 >
->La durée du chargement de la liste entière peut être longue, selon le nombre d&#39;enregistrements.
+>Depending on the number of records, the time for loading the full list can be long.
 
-### Modifier le nombre d&#39;enregistrements par défaut {#change-default-number-of-records}
+### Change default number of records {#change-default-number-of-records}
 
-Pour modifier le nombre d&#39;enregistrements chargés par défaut, cliquez sur le bouton **[!UICONTROL Configurer la liste]**, en bas à droite de la liste.
+To change the default number of records loaded, click **[!UICONTROL Configure list]** in the bottom right-hand corner of the list.
 
 ![](assets/s_ncs_user_configure_list.png)
 
-Dans la fenêtre de configuration de la liste, cliquez sur **[!UICONTROL Paramètres avancés]** (en bas à gauche) et modifiez le nombre de lignes à récupérer.
+In the list configuration window, click **[!UICONTROL Advanced parameters]** (bottom left) and change the number of lines to retrieve.
 
 ![](assets/s_ncs_user_configurelist_advancedparam.png)
 
-## Configuration de listes {#configuring-lists}
+## Configure lists {#configuring-lists}
 
-### Ajouter des colonnes {#add-columns}
+### Add columns {#add-columns}
 
-Deux méthodes permettent d&#39;ajouter une colonne à une liste.
+There are two ways to add a column in a list.
 
-Vous pouvez ajouter rapidement une colonne à une liste à partir du détail d’un enregistrement. Pour cela :
+You can quickly add a column to a list from the detail of a record. To do this:
 
-1. Depuis un écran de détail, cliquez avec le bouton droit sur le champ à afficher dans une colonne.
-1. Sélectionnez **[!UICONTROL Ajouter dans la liste]**.
+1. From a detail screen, right-click the field you want to display in a column.
+1. Select **[!UICONTROL Add in the list]**.
 
-   La colonne est ajoutée à droite des colonnes déjà affichées.
+   The column is added to the right of the existing columns.
 
 ![](assets/s_ncs_user_add_in_list.png)
 
-Une autre méthode pour ajouter des colonnes, lorsque vous souhaitez afficher des données qui ne sont pas affichées sur l&#39;écran de détail, consiste à utiliser la fenêtre de configuration de liste. Pour cela :
+Another way to add columns, for example if you want to display data which is not displayed on the detail screen, is to use the list configuration window. To do this:
 
-1. Cliquez sur **[!UICONTROL Configurer la liste]** en bas à droite de la liste.
+1. Click **[!UICONTROL Configure list]** below and to the right of the list.
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. Dans la liste **[!UICONTROL Champs disponibles]** de la fenêtre de configuration de la liste, double-cliquez sur un champ pour l’ajouter à la zone **[!UICONTROL Colonnes de sortie]**.
+1. In the list configuration window, double-click the field to be added in the **[!UICONTROL Available fields]** list in order to add it to the **[!UICONTROL Output columns]**. 
 
    ![](assets/s_ncs_user_configurelist.png)
 
    >[!NOTE]
    >
-   >Par défaut, les champs avancés ne sont pas affichés. Pour les afficher, cliquez sur l&#39;icône **Afficher les champs avancés**, située en bas à droite de la liste des champs disponibles.
+   >By default, advanced fields are not displayed. To display them, click **Display advanced fields** below and to the right of the list of available fields.
    >
-   >Les libellés sont affichés par table puis par ordre alphabétique.
+   >The labels are displayed by table and then in alphabetical order.
    >
-   >Pour lancer une recherche dans les champs disponibles, utilisez le champ **Rechercher**. Pour plus d’informations, consultez [cette section](#sorting-a-list).
+   >Use the **Search** field to run a search in the available fields. For further information, refer to [this section](#sorting-a-list).
    >
-   >Les champs sont identifiés par des icônes spécifiques : champs SQL, tables liées, champs calculés, etc. Pour chaque champ sélectionné, la description est affichée sous la liste des champs disponibles. [En savoir plus](#configuring-lists).
+   >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields. [Learn more](#configuring-lists).  
    >
-   >Vous pouvez également trier et filtrer les données. Consultez [cette section](../../platform/using/filtering-options.md).
+   >You can also sort and filter data. See [this section](../../platform/using/filtering-options.md).
 
-1. Répétez la procédure pour chaque colonne à afficher.
-1. Utilisez les flèches pour modifier l&#39;**ordre d&#39;affichage**. La colonne la plus haute sera la plus à gauche dans la liste des enregistrements.
+1. Repeat for each column to be displayed.
+1. Use the arrows to modify the **display order**. The highest column will be on the left in the list of records.
 
    ![](assets/s_ncs_user_columns_order_down.png)
 
-1. Au besoin, vous pouvez cliquer sur **[!UICONTROL Répartition des valeurs]** pour visualiser la répartition des valeurs du champ sélectionné dans le dossier courant.
+1. If you need, you can click **[!UICONTROL Distribution of values]** to view the repartition of values for the selected field in the current folder.
 
    ![](assets/s_ncs_user_configurelist_values.png)
 
-1. Cliquez sur **[!UICONTROL OK]** pour valider la configuration et visualiser le résultat.
+1. Click **[!UICONTROL OK]** to confirm the configuration and display the result.
 
-### Créer une nouvelle colonne {#create-a-new-column}
+### Create a new column {#create-a-new-column}
 
-Vous pouvez créer de nouvelles colonnes pour afficher des champs supplémentaires dans la liste. Pour cela :
+You can create new columns to display additional fields in the list. To do this:
 
-1. Cliquez sur **[!UICONTROL Configurer la liste]** en bas à droite de la liste.
-1. Cliquez sur **[!UICONTROL Ajouter]** pour afficher un nouveau champ dans la liste.
+1. Click **[!UICONTROL Configure the list]** at below and to the right of the list.
+1. Click **[!UICONTROL Add]** to display a new field in the list.
 
-### Retirer une colonne {#remove-a-column}
+### Remove a column {#remove-a-column}
 
-Vous pouvez masquer une ou plusieurs colonnes dans une liste d&#39;enregistrements via le bouton **[!UICONTROL Configurer la liste]** situé en bas à droite de la liste.
+You can mask one or more columns in a list of records using **[!UICONTROL Configure list]** located below and to the right of the list.
 
 ![](assets/s_ncs_user_configure_list.png)
 
-Dans la fenêtre de configuration de la liste, sélectionnez la colonne à masquer dans la zone **[!UICONTROL Colonnes de sortie]** et cliquez sur le bouton de suppression.
+In the list configuration window, select the column to be masked from the **[!UICONTROL Output columns]** zone, and click the delete button.
 
 ![](assets/s_ncs_user_removecolumn_icon.png)
 
-Répétez l&#39;opération pour chaque colonne à masquer. Cliquez sur **[!UICONTROL OK]** pour valider la configuration et visualiser le résultat.
+Repeat for each column to be masked. Click **[!UICONTROL OK]** to confirm the configuration and display the result.
 
-### Ajuster la largeur des colonnes {#adjust-column-width}
+### Adjust column width {#adjust-column-width}
 
-Lorsque la liste est active, c’est-à-dire lorsqu’au moins une ligne est sélectionnée, la touche F9 permet d’ajuster la largeur des colonnes afin d’afficher toutes les colonnes à l’écran.
+When a list is active, i.e. at least one line is selected, you can use F9 to adjust the width of the columns so that all the columns can be displayed on screen.
 
-### Affichage des données dans des sous-dossiers {#display-sub-folders-records}
+### Display data in sub-folders {#display-sub-folders-records}
 
-Les listes peuvent afficher :
+Lists can display:
 
-* soit les enregistrements contenus dans le dossier sélectionné uniquement,
-* soit les enregistrements du dossier sélectionné ET ceux de ses sous-dossiers.
+* Either the records contained in the selected folder only,
+* Or the records in the selected folder AND its sub-folders.
 
-Pour basculer d&#39;un mode d&#39;affichage à l&#39;autre, cliquez sur l&#39;icône **[!UICONTROL Afficher les fils]** dans la barre d&#39;outils.
+To switch from one display mode to the other, click **[!UICONTROL Display sub-levels]** in the toolbar.
 
 ![](assets/s_ncs_user_display_children_icon.png)
 
-## Enregistrement d’une configuration de liste {#saving-a-list-configuration}
+## Save a list configuration {#saving-a-list-configuration}
 
-La configuration des listes s’applique localement, sur le poste de travail. Lorsque le cache local est vidé, les configurations locales sont désactivées.
+The list configurations are defined locally at the workstation level. When the local cache is cleared, local configurations are disabled.
 
-Les paramétrages d&#39;affichage définis s&#39;appliquent par défaut à toutes les listes, pour le type de dossier correspondant. Ainsi, lorsque vous modifiez l&#39;affichage de la liste des destinataires à partir d&#39;un dossier, cette configuration est appliquée à tous les autres dossiers de destinataires.
+By default, the defined display parameters apply to all lists with the corresponding folder type. Thus, when you modify how the list of recipients is displayed from a folder, this configuration will be applied to all the other recipient folders.
 
-Toutefois, il est possible d&#39;enregistrer un ou plusieurs paramétrages afin de les appliquer à différents dossiers du même type. Le paramétrage est sauvegardé dans les propriétés du dossier qui contient les données et peut être réappliqué.
+It is, however, possible to save more than one configuration to be applied to different folders of the same type. The configuration is saved with the properties of the folder containing the data and can be reapplied.
 
-Par exemple, pour un dossier de diffusions, il est possible de paramétrer l&#39;affichage suivant :
+For example, for a delivery folder, it is possible to configure the following display:
 
 ![](assets/s_ncs_user_folder_save_config_1.png)
 
-Pour enregistrer cette configuration de liste en vue de la réutiliser, procédez comme suit :
+To save this list configuration so that it can be reused, follow the steps below:
 
-1. Cliquez avec le bouton droit sur le dossier contenant les données affichées.
-1. Sélectionnez **[!UICONTROL Propriétés]**.
-1. Cliquez sur **[!UICONTROL Paramètres avancés]** et indiquez un nom dans le champ **[!UICONTROL Configuration]**.
+1. Right click the folder containing the displayed data.
+1. Select **[!UICONTROL Properties]**.
+1. Click **[!UICONTROL Advanced settings]** and then specify a name in the **[!UICONTROL Configuration]** field. 
 
    ![](assets/s_ncs_user_folder_save_config_2.png)
 
-1. Cliquez sur **[!UICONTROL OK]**, puis sur **[!UICONTROL Enregistrer]**.
+1. Click **[!UICONTROL OK]** and then click **[!UICONTROL Save]**.
 
-Vous pouvez ensuite appliquer cette configuration à un autre dossier de type **Diffusions** :
+You can then apply this configuration to another **Delivery** folder:
 
 ![](assets/s_ncs_user_folder_save_config_3.png)
 
-Cliquez sur **[!UICONTROL Enregistrer]** dans la fenêtre des propriétés du dossier. L&#39;affichage de la liste est modifié pour correspondre à la configuration indiquée :
+Click **[!UICONTROL Save]** in the folder properties window. The list display is modified to match the specified configuration:
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
-## Export d’une liste {#exporting-a-list}
+## Export a list {#exporting-a-list}
 
-Pour exporter les données d’une liste, vous devez utiliser un assistant d’export. Pour y accéder, sélectionnez les éléments de la liste à exporter, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Exporter...]**.
+To export data from a list, you must use an export assistant. To access it, select the elements to be exported from the list, right-click and select **[!UICONTROL Export...]**.
 
-L&#39;utilisation des fonctions d&#39;importation et d&#39;exportation est expliquée dans la section [Imports et exports génériques](../../platform/using/about-generic-imports-exports.md).
+The use of the import and export functions is explained in [Generic imports and exports](../../platform/using/about-generic-imports-exports.md).
 
 >[!CAUTION]
 >
->Les éléments d’une liste ne doivent pas être exportés via la fonction Copier/Coller.
+>Elements from a list must not be exported using the Copy/Paste function.
 
-## Tri d’une liste {#sorting-a-list}
+## Sort a list {#sorting-a-list}
 
-Les listes peuvent contenir un grand nombre de données. Vous pouvez trier ces données ou appliquer des filtres simples ou avancés. Le tri permet d&#39;afficher les données dans un ordre ascendant ou descendant, tandis que les filtres permettent de définir et de combiner des critères afin de n&#39;afficher qu&#39;une sélection de données.
+Lists can contain a large amount of data. You can sort these data or apply simple or advanced filters. Sorting lets you display data in ascending or descending order. Filters let you define and combine criteria to display selected data only.
 
-Cliquez sur l&#39;en-tête de la colonne pour appliquer un tri ascendant, un tri descendant ou annuler le tri des données. Une flèche bleue devant le libellé de la colonne indique qu&#39;un tri est actif et l&#39;ordre du tri. Un tiret rouge devant le libellé de la colonne indique que le tri est appliqué à des données indexées depuis la base de données. Ce mode de tri permet d&#39;optimiser les actions de tri.
+Click the column header to apply an ascending or descending sort, or to cancel data sorting. Active sort status and sorting order are indicated by a blue arrow before the column label. A red dash before the column label means that the sort is applied to data indexed from the database. This sorting method is used to optimize sort jobs.
 
-Vous pouvez également paramétrer le tri ou combiner les critères de tri. Pour cela, procédez comme suit :
+You can also configure sorting or combine sort criteria. To do this, follow the steps below:
 
-1. Cliquez sur **[!UICONTROL Configurer la liste]** en bas à droite de la liste.
+1. **[!UICONTROL Configure list]** below and to the right of the list. 
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. Dans la fenêtre de configuration de la liste, cliquez sur l&#39;onglet **[!UICONTROL Tris]**.
-1. Sélectionnez les champs à trier et le sens du tri (ascendant/descendant).
+1. In the list configuration window, click the **[!UICONTROL Sorting]** tab.
+1. Select the fields to sort and the sort direction (ascending or descending).
 
    ![](assets/s_ncs_user_configurelist_sort.png)
 
-1. La priorité du tri est définie par l&#39;ordre des colonnes de tri. Pour changer la priorité, modifiez l&#39;ordre des colonnes à partir des icônes correspondantes.
+1. Sort priority is defined by the order of the sort columns. To change the priority, use the appropriate icons to change the order of the columns.
 
    ![](assets/s_ncs_user_configurelist_move.png)
 
-   La priorité du tri n&#39;a aucune incidence sur l&#39;affichage des colonnes de la liste.
+   Sort priority does not affect the display of the columns in the list.
 
-1. Cliquez sur **[!UICONTROL OK]** pour valider ce paramétrage et visualiser le résultat dans la liste.
+1. Click **[!UICONTROL Ok]** to confirm this configuration and display the result in the list.
 
-### Recherche d&#39;éléments {#running-a-search}
+### Searching elements {#running-a-search}
 
-Vous pouvez lancer une recherche parmi les champs disponibles dans un éditeur à l’aide du champ **[!UICONTROL Rechercher]** situé au-dessus de la liste des champs. Appuyez sur la touche **Entrée** du clavier ou parcourez la liste. Les libellés des champs correspondant à votre recherche apparaissent en gras.
+You can run a search of the available fields in an editor using the **[!UICONTROL Search]** field located above the list of fields. Press **Enter** on the keyboard or browse the list. The fields that match your search will have bold labels.
 
 >[!NOTE]
 >
->Vous pouvez créer des filtres pour n&#39;afficher qu&#39;une partie des données d&#39;une liste. [En savoir plus](../../platform/using/creating-filters.md).
+>You can create filters to display only some of the data in a list. [Learn more](../../platform/using/creating-filters.md).
+-->
