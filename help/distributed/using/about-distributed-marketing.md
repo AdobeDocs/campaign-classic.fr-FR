@@ -5,9 +5,9 @@ description: Prise en main du marketing distribué
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
 source-git-commit: a6b3c2c23ea5ee35e8829c750c35080d1ff56e00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '140'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ L&#39;entité centrale propose aux entités locales des opérations auxquelles e
 
 >[!NOTE]
 >
->Pour en savoir plus sur le marketing distribué pour Adobe Campaign et son utilisation, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}.
+>Pour en savoir plus sur le marketing distribué pour Adobe Campaign et son utilisation, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}.
 
 <!--
 ## Terminology {#terminology}

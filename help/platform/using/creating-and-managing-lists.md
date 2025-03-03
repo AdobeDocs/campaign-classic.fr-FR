@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 source-git-commit: f188c9ce4c47d05638d9d28e2175cb4d32775ba2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 78%
 
 Une liste est un ensemble statique de profils qui peut être ciblé dans les actions de diffusion ou mis à jour lors d’opérations d’import ou lors de l’exécution d’un workflow. Par exemple, une population extraite de la base via une requête peut alimenter une liste.
 
-Les listes sont créées et gérées à partir du lien **[!UICONTROL Listes]** dans l&#39;onglet **[!UICONTROL Profils et cibles]**.
+Les listes sont créées et gérées à partir du lien **[!UICONTROL Listes]** dans l’onglet **[!UICONTROL Profils et cibles]**.
 
 ![](assets/s_ncs_user_interface_group_link.png)
 
 >[!NOTE]
 >
->Pour en savoir plus sur les listes, leur création et leur gestion, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank}.
+>Pour en savoir plus sur les listes, leur création et leur gestion, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank}.
 
 <!--
 Two types of lists are available in Adobe Campaign:
