@@ -3,8 +3,10 @@ product: campaign
 title: Bonnes pratiques relatives aux workflows
 description: Découvrez les bonnes pratiques relatives aux workflows de Campaign
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1416'
 ht-degree: 100%

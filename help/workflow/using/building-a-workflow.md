@@ -3,8 +3,10 @@ product: campaign
 title: Création d’un workflow
 description: Découvrez comment créer un workflow
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1679'
 ht-degree: 100%

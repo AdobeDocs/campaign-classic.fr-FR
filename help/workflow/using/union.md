@@ -3,8 +3,10 @@ product: campaign
 title: Union
 description: En savoir plus sur l’activité de workflow d’union
 feature: Workflows, Targeting Activity
+hide: true
+hidefromtoc: true
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%

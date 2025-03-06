@@ -3,8 +3,10 @@ product: campaign
 title: Diffusion au fil de l'eau
 description: Diffusion au fil de l'eau
 feature: Workflows, Channels Activity
+hide: true
+hidefromtoc: true
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%

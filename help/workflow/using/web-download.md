@@ -3,8 +3,10 @@ product: campaign
 title: Téléchargement Web
 description: En savoir plus sur l'activité de workflow de téléchargement Web
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
-source-git-commit: a0c0c7d13704b0155004e578d6739852ceb43c81
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%

@@ -3,8 +3,10 @@ product: campaign
 title: Déduplication
 description: En savoir plus sur l’activité de workflow de déduplication
 feature: Workflows, Targeting Activity
+hide: true
+hidefromtoc: true
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 100%

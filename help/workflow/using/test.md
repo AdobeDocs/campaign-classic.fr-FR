@@ -3,8 +3,10 @@ product: campaign
 title: Test
 description: En savoir plus sur l’activité de workflow de test
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%

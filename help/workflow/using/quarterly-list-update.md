@@ -3,8 +3,10 @@ product: campaign
 title: Mettre à jour la liste trimestrielle à l’aide d’une requête incrémentielle
 description: Dans ce cas pratique, une requête incrémentielle est utilisée pour mettre automatiquement à jour une liste de destinataires.
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%

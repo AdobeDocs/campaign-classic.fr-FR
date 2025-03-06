@@ -3,8 +3,10 @@ product: campaign
 title: Workflows des intégrations avec les solutions Adobe Experience Cloud
 description: En savoir plus sur les workflows des intégrations avec les solutions Adobe Experience Cloud
 feature: Workflows, Audiences
+hide: true
+hidefromtoc: true
 topic-tags: technical-workflows
-source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%

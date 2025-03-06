@@ -3,8 +3,10 @@ product: campaign
 title: Validation
 description: Validation
 feature: Workflows, Approvals
+hide: true
+hidefromtoc: true
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 
 
-Une tâche de type **Validation** attend un signal ou une décision d&#39;un opérateur. L&#39;opérateur se voit assigner une tâche à laquelle il peut répondre depuis un email et via le web ou directement depuis la console.
+Une tâche de type **Validation** attend un signal ou une décision d’un opérateur. L’opérateur se voit assigner une tâche à laquelle il peut répondre depuis un e-mail et via le Web ou directement depuis la console.
 
 ## Assignation de la tâche {#task-assignment}
 

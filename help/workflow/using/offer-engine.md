@@ -3,8 +3,10 @@ product: campaign
 title: Moteur d'offres
 description: Moteur d'offres
 feature: Workflows, Interaction
+hide: true
+hidefromtoc: true
 exl-id: 8db4b04f-7754-4a49-ab72-afc916888ebb
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 100%

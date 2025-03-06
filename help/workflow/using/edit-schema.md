@@ -3,8 +3,10 @@ product: campaign
 title: Edition du schéma
 description: En savoir plus sur l’activité de workflow d’édition du schéma
 feature: Workflows, Targeting Activity
+hide: true
+hidefromtoc: true
 exl-id: d26966a8-b5db-4fa4-85ec-7ebd770c4ef3
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%

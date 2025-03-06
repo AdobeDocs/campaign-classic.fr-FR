@@ -3,8 +3,10 @@ product: campaign
 title: À propos des activités d’ordonnancement
 description: À propos des activités d’ordonnancement
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 100%

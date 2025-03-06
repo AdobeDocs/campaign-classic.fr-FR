@@ -3,8 +3,10 @@ product: campaign
 title: Paramètres avancés
 description: Paramètres avancés
 feature: Workflows, Data Management
+hide: true
+hidefromtoc: true
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%

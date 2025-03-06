@@ -3,8 +3,10 @@ product: campaign
 title: Chargement (SOAP)
 description: Chargement (SOAP)
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%

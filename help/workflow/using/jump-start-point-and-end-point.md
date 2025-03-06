@@ -3,8 +3,10 @@ product: campaign
 title: Saut (départ et arrivée)
 description: Saut (départ et arrivée)
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%

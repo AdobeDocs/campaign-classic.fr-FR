@@ -3,8 +3,10 @@ product: campaign
 title: Réception de SMS
 description: En savoir plus sur l’activité de workflow de réception de SMS
 feature: Workflows, Channels Activity
+hide: true
+hidefromtoc: true
 exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
-source-git-commit: 5c42ff45b4d0bc4d61f4fccdba4518801ea4c9da
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 
 
-L&#39;activité **Réception de SMS** permet de récupérer et de traiter des SMS depuis un compte externe.
+L’activité **Réception de SMS** permet de récupérer et de traiter des SMS depuis un compte externe.
 
 ## Propriétés {#properties}
 

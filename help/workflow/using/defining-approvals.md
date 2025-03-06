@@ -3,8 +3,10 @@ product: campaign
 title: Définition des validations
 description: Les validations permettent à des opérateurs de prendre des décisions à certaines étapes dʼun workflow ou de confirmer la poursuite dʼun traitement.
 feature: Approvals
+hide: true
+hidefromtoc: true
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 100%
@@ -29,7 +31,7 @@ Dans les opérations, toutes les étapes qui nécessitent une validation fonctio
 
 Consultez des exemples de validations dans [cette section](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
-Pour répondre, l&#39;opérateur dispose de deux modes : valider via la page web dont l&#39;URL est fournie dans l&#39;email envoyé, ou valider directement depuis la console.
+Pour répondre, l’opérateur dispose de deux modes : valider via la page web dont l’URL est fournie dans l’e-mail envoyé, ou valider directement depuis la console.
 
 >[!NOTE]
 >

@@ -3,10 +3,12 @@ product: campaign
 title: À propos des workflows
 description: Automatisez les processus avec des workflows, gérez les données et les audiences, envoyez des messages, et bien plus encore.
 feature: Workflows, Data Management
+hide: true
+hidefromtoc: true
 exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+workflow-type: tm+mt
+source-wordcount: '655'
 ht-degree: 100%
 
 ---
@@ -55,7 +57,7 @@ Chaque workflow comprend :
 
   >[!NOTE]
   >
-  >Un workflow contenant des transitions flottantes peut être exécuté : l&#39;exécution générera un avertissement et sera suspendue lors de l&#39;activation d&#39;une telle transition, mais aucune erreur ne sera générée. Il est ainsi possible de démarrer un workflow sans en avoir terminé la conception et de le compléter au fur et à mesure.
+  >Un workflow contenant des transitions flottantes peut être exécuté : l’exécution générera un avertissement et sera suspendue lors de l’activation d’une telle transition, mais aucune erreur ne sera générée. Il est ainsi possible de démarrer un workflow sans en avoir terminé la conception et de le compléter au fur et à mesure.
 
   Pour plus d&#39;informations sur la création d&#39;un workflow, consultez [cette section](building-a-workflow.md).
 

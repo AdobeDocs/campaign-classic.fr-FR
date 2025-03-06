@@ -3,8 +3,10 @@ product: campaign
 title: Intersection
 description: Intersection
 feature: Workflows, Targeting Activity
+hide: true
+hidefromtoc: true
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%

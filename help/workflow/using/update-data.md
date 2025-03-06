@@ -3,8 +3,10 @@ product: campaign
 title: Mise à jour de données
 description: En savoir plus sur l’activité de workflow de mise à jour des données
 feature: Workflows, Targeting Activity, Data Management
+hide: true
+hidefromtoc: true
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%

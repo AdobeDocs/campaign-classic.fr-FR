@@ -3,10 +3,12 @@ product: campaign
 title: Envoi d’un e-mail d’anniversaire
 description: Découvrez comment envoyer un e-mail d’anniversaire à l’aide d’un workflow
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+workflow-type: tm+mt
+source-wordcount: '933'
 ht-degree: 100%
 
 ---

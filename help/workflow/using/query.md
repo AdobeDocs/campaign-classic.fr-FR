@@ -3,8 +3,10 @@ product: campaign
 title: Requête
 description: En savoir plus sur l’activité de workflow de requête
 feature: Workflows, Targeting Activity, Query Editor
+hide: true
+hidefromtoc: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 100%

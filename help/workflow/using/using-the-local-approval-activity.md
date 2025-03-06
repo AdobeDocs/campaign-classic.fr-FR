@@ -3,8 +3,10 @@ product: campaign
 title: Utilisation de l’activité de validation en local
 description: Découvrez comment utiliser l’activité Validation en local
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 100%

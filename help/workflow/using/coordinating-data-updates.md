@@ -3,8 +3,10 @@ product: campaign
 title: Coordonner les mises à jour de données
 description: Coordonner les mises à jour de données
 feature: Workflows, Data Management
+hide: true
+hidefromtoc: true
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%

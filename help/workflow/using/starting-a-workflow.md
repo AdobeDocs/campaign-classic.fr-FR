@@ -3,8 +3,10 @@ product: campaign
 title: Démarrer un workflow
 description: Découvrez comment démarrer un workflow et la barre d’outils des actions de workflows ainsi que le menu contextuel
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 100%

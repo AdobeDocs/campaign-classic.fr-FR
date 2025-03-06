@@ -3,8 +3,10 @@ product: campaign
 title: Branchement
 description: En savoir plus sur l'activité de workflow Branchement
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%

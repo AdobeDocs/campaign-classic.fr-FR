@@ -3,8 +3,10 @@ product: campaign
 title: Réception d'emails
 description: En savoir plus sur l’activité de workflow de réception d’emails
 feature: Workflows, Channels Activity
+hide: true
+hidefromtoc: true
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%

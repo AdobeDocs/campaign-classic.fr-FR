@@ -3,8 +3,10 @@ product: campaign
 title: Surveiller l’exécution des workflows
 description: Surveiller l’exécution des workflows
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 100%
@@ -37,7 +39,7 @@ Lorsque cette option est sélectionnée, les activités exécutées apparaissent
 
 ## Afficher le journal {#displaying-logs}
 
-Le journal contient l&#39;historique de l&#39;exécution du workflow. Il mémorise les actions effectuées par les opérateurs, les opérations réalisées et les erreurs d&#39;exécution. Vous pouvez :
+Le journal contient l’historique ou le journal d’audit du workflow. Il mémorise les actions effectuées par les opérateurs, les opérations réalisées et les erreurs d’exécution. Vous pouvez :
 
 * Sélectionner l&#39;onglet **[!UICONTROL Suivi]** du détail. Cette liste affiche tous les messages du workflow.
 
