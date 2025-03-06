@@ -4,8 +4,10 @@ title: Modèles de campagne marketing
 description: Modèles de campagne marketing
 role: User
 feature: Campaigns, Templates
+hide: true
+hidefromtoc: true
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 97%

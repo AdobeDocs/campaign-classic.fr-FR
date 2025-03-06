@@ -4,8 +4,10 @@ title: Prestataires, stocks et budgets
 description: Prestataires, stocks et budgets
 role: User
 feature: Budget Management, Campaigns
+hide: true
+hidefromtoc: true
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '2010'
 ht-degree: 100%

@@ -4,8 +4,10 @@ title: À propos des typologies de campagne
 description: À propos des typologies de campagne
 role: User, Data Engineer
 feature: Typology Rules, Campaigns
+hide: true
+hidefromtoc: true
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%

@@ -4,8 +4,10 @@ title: Diffusions de campagnes marketing
 description: En savoir plus sur les diffusions d'opérations marketing
 role: User
 feature: Campaigns, Resource Management, Cross Channel Orchestration
+hide: true
+hidefromtoc: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 97%
@@ -103,7 +105,7 @@ L&#39;extraction du fichier lance deux opérations : le calcul des budgets et l
 
 * L&#39;onglet **[!UICONTROL Budget]** vous permet de gérer les budgets de la campagne. Le cumul des lignes de coût est repris dans le champ **[!UICONTROL Coût calculé]** de l&#39;onglet principal de l&#39;opération et du programme auquel elle appartient. Les montants sont également répercutés dans le budget de la campagne.
 
-  Le coût réel sera calculé au final en fonction des informations fournies par le routeur : seuls les courriers réellement envoyés sont facturés.
+  Le coût réel sera calculé au final en fonction des informations fournies par le routeur : seuls les messages réellement envoyés sont facturés.
 
 * Les stocks sont définis dans le noeud **[!UICONTROL Administration > Gestion de campagne > Stocks]** de l&#39;arborescence, et les structures de coût, dans le noeud **[!UICONTROL Administration > Gestion de campagne > Prestataires]**.
 

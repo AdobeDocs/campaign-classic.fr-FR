@@ -4,8 +4,10 @@ title: Accès aux campagnes marketing
 description: Accès aux campagnes marketing
 role: User
 feature: Campaigns, Cross Channel Orchestration
+hide: true
+hidefromtoc: true
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 100%

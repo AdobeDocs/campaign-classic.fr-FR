@@ -4,8 +4,10 @@ title: Règles de filtrage
 description: Découvrir comment utiliser des règles de filtrage dans Adobe Campaign
 role: User, Data Engineer
 feature: Typology Rules, Campaigns
+hide: true
+hidefromtoc: true
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
