@@ -6,7 +6,7 @@ hide: true
 hidefromtoc: true
 feature: Workflows, Data Management, Distributed Marketing
 source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
 

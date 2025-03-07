@@ -6,7 +6,7 @@ hide: true
 hidefromtoc: true
 feature: Workflows, Deliverability
 source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '101'
 ht-degree: 100%
 
