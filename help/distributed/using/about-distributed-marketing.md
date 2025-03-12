@@ -3,9 +3,11 @@ product: campaign
 title: Prise en main du marketing distribué
 description: Prise en main du marketing distribué
 feature: Distributed Marketing
+hide: true
+hidefromtoc: true
 exl-id: c166409b-e040-491e-840a-a41310935d75
-source-git-commit: a6b3c2c23ea5ee35e8829c750c35080d1ff56e00
-workflow-type: ht
+source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
+workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 100%
 

@@ -4,23 +4,41 @@ title: À propos des campagnes marketing
 description: Définissez, optimisez, exécutez et analysez des campagnes marketing.
 role: User
 feature: Campaigns
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
+exl-id: 07cfa2b3-4e70-437a-ad5f-15fbfe717d5c
+source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 86%
+source-wordcount: '296'
+ht-degree: 38%
 
 ---
 
-# À propos des campagnes marketing{#designing-marketing-campaigns}
+# Orchestrer des campagnes marketing{#designing-marketing-campaigns}
 
 Adobe Campaign propose un ensemble de solutions qui vous permettent de personnaliser et diffuser des campagnes à travers l’ensemble de vos canaux en ligne et hors ligne. Vous pouvez ainsi créer, configurer, exécuter et analyser des campagnes marketing. Toutes les campagnes marketing peuvent être gérées depuis un centre de contrôle unifié.
 
 Les campagnes comprennent des actions (diffusions) et des processus (import ou extraction de fichiers), ainsi que des ressources (documents marketing, compositions de diffusion). Elles sont utilisées dans les campagnes marketing. Les campagnes font partie d&#39;un programme et les programmes sont inclus dans un plan de campagne.
 
->[!NOTE]
->
->Pour en savoir plus sur la gestion des campagnes, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
+Pour en savoir plus sur la gestion des campagnes, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
 
+![](assets/do-not-localize/campaign.jpg){width="40%"}
+
+Découvrez les étapes clés liées à la gestion de campagnes :
+
+* [Prise en main](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank} : découvrez, étape par étape, comment créer et exécuter une campagne marketing dans Adobe Campaign.
+
+* [Créer votre première campagne](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr){target=_blank} : découvrez comment planifier et configurer la logique pour orchestrer vos campagnes. Une campagne centralise tous les éléments liés à une campagne marketing : les diffusions, les règles de ciblage, les coûts, les fichiers d&#39;export, les documents connexes, etc.
+
+* [Envoyer des messages dans une campagne](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=fr){target=_blank} : orchestrez vos diffusions cross-canal dans vos campagnes : rationalisez vos communications avec Adobe Campaign par le biais d’e-mails personnalisés, de SMS, de notifications push et de messages in-app.
+
+![](assets/do-not-localize/add-on.jpg){width="40%"}
+
+Trois modules complémentaires sont disponibles pour la gestion de campagnes :
+
+* [Optimisation des campagnes](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr){target=_blank} : ce module vous permet de contrôler, de filtrer et de surveiller l’envoi des diffusions. Elles permettent de s’assurer que les messages envoyés répondent aux attentes et aux besoins des clients et des politiques de communication de l’entreprise.
+
+* [Marketing Resource Management](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=fr){target=_blank} : ce module permet de piloter les actions marketing sur un mode collaboratif, en assurant la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliquées.
+
+* [Marketing Distribué](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr){target=_blank} : ce module permet de piloter les actions marketing sur un mode collaboratif, en assurant la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliquées.
 
 <!--
 
