@@ -7,9 +7,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2571'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -237,7 +237,7 @@ ht-degree: 99%
       + [Utilisation d’un modèle de contenu](delivery/using/using-a-content-template.md)
       + [Enrichissement du contenu](delivery/using/enriching-content.md)
       + [Automatisation par workflows](delivery/using/automating-via-workflows.md)
-+ [Orchestrer des campagnes marketing](campaign/using/about-marketing-campaigns.md)
++ [Orchestration de campagnes marketing](campaign/using/about-marketing-campaigns.md)
 + Orchestration de campagnes marketing {#orchestrating-campaigns}
    + [À propos de l’optimisation de campagnes](campaign-opt/using/about-campaign-optimization.md)
    + À propos des campagnes marketing {#about-marketing-campaigns}
@@ -392,7 +392,7 @@ ht-degree: 99%
       + [Synchronisation des audiences](integrations/using/synchronizing-audiences.md)
       + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
       + [Résolution des problèmes du [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
-+ [Automatisation à l&#39;aide de workflows](workflow/using/about-workflow-automation.md)
++ [Automatisation à l’aide de workflows](workflow/using/about-workflow-automation.md)
 + Automatisation à l’aide de workflows {#automating-with-workflows}
    + Prise en main des workflows {#introduction}
       + [À propos des workflows](workflow/using/about-workflows.md)
