@@ -3,10 +3,10 @@ keywords: Campaign Classic;accueil;thèmes populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: fb19195c7331a2adc0bcf7a37ae7678078dce5e6
+source-git-commit: ec39e513a3474bdcdcf39be7b5e184d62b98f7a2
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 94%
 
 ---
 
@@ -21,9 +21,9 @@ Découvrez en primeur les dernières améliorations apportées à la documentati
 >[!BEGINTABS]
 
 
->[!TAB La version de juin est en ligne.]
+>[!TAB La version de mars 2025 est en ligne !]
 
-Découvrez les mises à jour, les améliorations et les correctifs de Campaign Classic v7.4.1.
+Découvrez les mises à jour, les améliorations et les correctifs apportés à la version 7.4.2 de Campaign Classic - Version de mars 2025.
 
 [![Image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -36,7 +36,7 @@ Pour renforcer la sécurité et le processus d’authentification, Adobe Campai
 
 >[!TAB Modifications du canal push]
 
-Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et auront une incidence sur votre mise en œuvre d’Adobe Campaign. Il se peut que la configuration de vos services d’abonnement pour les notifications push Android doive être mise à jour pour prendre en charge cette modification. Vous pouvez déjà vérifier et agir.
+Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et auront une incidence sur votre mise en œuvre d’Adobe Campaign. Il se peut que la configuration de vos services d’abonnement pour les messages push Android doive être mise à jour pour prendre en charge cette modification. Vous pouvez déjà vérifier et agir.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=fr){target="_blank"}
 
