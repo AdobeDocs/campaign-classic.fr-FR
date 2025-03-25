@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: a92e49e1ac8b0e8f619e06fadba73090a693bc4a
+source-git-commit: 631188b5974eaa4cd1bf667c5df9f2ff0f983cf0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '256'
+ht-degree: 27%
 
 ---
 
@@ -47,9 +47,19 @@ La connexion aux solutions et applications Adobe par le biais du compte externe 
 
 Cette version comprend les principaux correctifs suivants :
 
-* Correctifs de connexion TLS/SMPP
-* Correctifs de BigQuery Google
-* Correctifs MTA
+* Connexion TLS/SMPP - Correction des problèmes de stabilité SMPP
+
+* Correctifs BigQuery Google :
+
+   * Correction de régressions sur les types de données BOOLEAN
+   * Correction des problèmes de paramètres du proxy
+   * Correction de régressions sur les types de données DATETIME
+   * Stabilité fixe de la charge en masse
+   * Amélioration des tests internes sur les versions ODBC
+   * Correction d’un problème lié aux caractères spéciaux sur la chaîne de connexion
+   * Suppression du délai d’expiration par défaut (5 minutes) sur les requêtes BigQuery Google
+
+* Mail Transfer Agent (MTA) - Correction du blocage d’un enfant MTA orphelin au statut **[!UICONTROL Démarrage en attente]**.
 
 Les problèmes suivants ont également été corrigés dans cette version :
 
