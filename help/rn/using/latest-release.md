@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 631188b5974eaa4cd1bf667c5df9f2ff0f983cf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 [!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
 
-_samedi 21 mars 2025_
+_21 mars 2025_
 
 >[!AVAILABILITY]
 >
->Cette version est en **disponibilité limitée** (LA). Elle est limitée aux utilisateurs de services hébergés/gérés uniquement. Cette version sera bientôt disponible pour les clients hybrides et on-premise.
+>Cette version est en **disponibilité limitée** (LA). Elle est limitée aux utilisateurs et utilisatrices de services hébergés/gérés uniquement. Cette version sera bientôt disponible pour les clientes et clients hybrides et sur site.
 
 <!--
 ### Compatibility updates {#comp-7-4-2}
@@ -37,31 +37,31 @@ This release comes with the following compatibility updates:
 
 -->
 
-### Amélioration de la sécurité {#security-7-4-2}
+### Améliorations de la sécurité {#security-7-4-2}
 
-Cette version est fournie avec plusieurs correctifs de sécurité.
+Cette version comprend plusieurs correctifs de sécurité.
 
-La connexion aux solutions et applications Adobe par le biais du compte externe **[!UICONTROL Adobe Experience Cloud]** a été mise à jour pour renforcer la sécurité.
+La connexion aux solutions et applications Adobe par le biais du compte externe **[!UICONTROL Adobe Experience Cloud]** a été mise à jour pour renforcer la sécurité.
 
 ### Correctifs {#release-7-4-2-fixes}
 
-Cette version comprend les principaux correctifs suivants :
+Cette version comprend les correctifs principaux suivants :
 
-* Connexion TLS/SMPP - Correction des problèmes de stabilité SMPP
+* Connexion TLS/SMPP : correction des problèmes de stabilité SMPP
 
-* Correctifs BigQuery Google :
+* Correctifs BigQuery Google :
 
-   * Correction de régressions sur les types de données BOOLEAN
+   * Correction des régressions sur les types de données booléens
    * Correction des problèmes de paramètres du proxy
-   * Correction de régressions sur les types de données DATETIME
-   * Stabilité fixe de la charge en masse
+   * Correction des régressions sur les types de données de date et heure
+   * Correction de la stabilité de la charge en masse (bulk load)
    * Amélioration des tests internes sur les versions ODBC
    * Correction d’un problème lié aux caractères spéciaux sur la chaîne de connexion
-   * Suppression du délai d’expiration par défaut (5 minutes) sur les requêtes BigQuery Google
+   * Suppression du délai d’expiration par défaut (5 minutes) sur les requêtes BigQuery Google
 
-* Mail Transfer Agent (MTA) - Correction du blocage d’un enfant MTA orphelin au statut **[!UICONTROL Démarrage en attente]**.
+* MTA (Mail Transfer Agent) : correction du blocage d’un enfant MTA orphelin au statut **[!UICONTROL Démarrage en attente]**.
 
-Les problèmes suivants ont également été corrigés dans cette version :
+Les problèmes suivants ont également été corrigés dans cette version :
 
-NEO-47269, NEO-59059, NEO-62455, NEO-65774, NEO-66462, NEO-66989, NEO-77898, NEO-78843, NEO-79373, NEO-79598, NEO-80145, NEO-80245, NEO-80434, NEO-80683, NEO-81222, NEO-81433, NEO-81864, NEO-82351, NEO-82781, NEO-82838 82923 83252 83809 83826 84024 84553 85150
+NEO-47269, NEO-59059, NEO-62455, NEO-65774, NEO-66462, NEO-66989, NEO-77898, NEO-78843, NEO-79373, NEO-79598, NEO-80145, NEO-80245, NEO-80434, NEO-80683, NEO-81222, NEO-81433, NEO-81864, NEO-82351, NEO-82781, NEO-82838, NEO-82923, NEO-83252, NEO-83809, NEO-83826, NEO-84024, NEO-84553, NEO-85150
 
