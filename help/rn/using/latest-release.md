@@ -6,7 +6,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: c5aa626c166f513084d5fa141f307aba8bd57d36
+source-git-commit: cd0de82ba743fa04e59a4fa6f560a80cd5c8e940
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
