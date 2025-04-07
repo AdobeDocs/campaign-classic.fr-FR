@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
+source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 92%
 
 ---
 
@@ -165,3 +165,13 @@ Pour changer le mode de passe **internal** : **nlserver config -internalpasswor
 >
 >  `nlserver config -setdblogin:Oracle:test6@dbserver`
 >
+
+Voici un exemple pour MSSQL :
+
+```sql
+nlserver config -setdblogin:mssql:<login>/"<password>"@<server> -instance:<instance_name> 
+```
+
+* les éléments login (par exemple account:user) et server se trouvent dans le nœud dataSource du fichier config-&lt;nom_instance>.xml.
+* Le mot de passe doit être placé entre guillemets « ».
+

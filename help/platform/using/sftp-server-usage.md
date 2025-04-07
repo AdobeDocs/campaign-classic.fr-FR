@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: e40331266f34e2d6aa7b7720948d0cf26d4c6009
+source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 100%
+source-wordcount: '1086'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Lors de la gestion de fichiers et de données à des fins d’ETL, ces fichiers 
 
 Les serveurs SFTP sont conçus en tant qu’espaces de stockage temporaire sur lequel vous pouvez contrôler la conservation et la suppression des fichiers.
 
-Lorsqu’ils ne sont pas correctement utilisés ou surveillés, ces espaces peuvent rapidement remplir l’espace physique disponible sur le serveur et entraîner la troncation des fichiers lors des téléchargements suivants. Une fois l’espace saturé, la purge automatique peut être déclenchée et effacer les fichiers les plus anciens de l’espace de stockage SFTP.
+Lorsqu’ils ne sont pas correctement utilisés ou surveillés, ces espaces peuvent rapidement remplir l’espace physique disponible sur le serveur et entraîner la troncation des fichiers lors des téléchargements suivants. Dans les serveurs SFTP hébergés par Adobe, les fichiers sont compressés si le stockage SFTP atteint un seuil de 80 %. Le processus est automatique et déclenché par le système de surveillance Adobe.
 
 Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques ci-après.
 
