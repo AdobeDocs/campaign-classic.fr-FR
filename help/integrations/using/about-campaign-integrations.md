@@ -6,12 +6,13 @@ feature: Overview
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
 content-type: reference
+level: Intermediate, Experienced
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 597d24fa780a324507c56c55a5309b6ee1cf46eb
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 100%
+source-wordcount: '705'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 100%
 
 Adobe Experience Cloud est un ensemble exhaustif de solutions intégrées haut de gamme reposant sur une plateforme de données commune, disposant d’un ensemble commun de puissantes solutions et applications.
 
-Découvrez les intégrations fonctionnelles disponibles entre les solutions Adobe Campaign et Adobe Experience Cloud sur [cette page](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/integrations){_blank}.
+En savoir plus sur les intégrations fonctionnelles disponibles entre les solutions Adobe Campaign et Adobe Experience Cloud dans [cette page](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/integrations){_blank}.
 
 La liste complète des solutions et des applications Adobe pouvant être intégrées à Adobe Campaign, ainsi que la documentation associée, sont disponibles dans [cette section](#experience-cloud-integrations).
 
@@ -32,11 +33,11 @@ La liste complète des solutions et des applications Adobe pouvant être intégr
 
 Plusieurs solutions peuvent être liées à Adobe Experience Cloud. L’**organisation** est l’entité client qui permet à un administrateur de configurer des groupes et des utilisateurs, et de contrôler l’authentification unique dans Adobe Experience Cloud. L’organisation joue le rôle d’une société de connexion qui couvre tous les produits et solutions Experience Cloud. L&#39;organisation correspond le plus souvent au nom de votre société. Toutefois, une société peut détenir plusieurs organisations.
 
-La gestion des organisations et la liaison des comptes Adobe Experience Cloud sont détaillées sur le [portail d’aide Adobe Marketing Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations){_blank}.
+La gestion des organisations et la liaison de comptes à Adobe Experience Cloud sont détaillées sur le [portail d&#39;aide Adobe Marketing Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations){_blank}.
 
 ## Gestion des identités et des cookies {#id-and-cookies}
 
-Lors de l’installation d’Adobe Campaign ou de l’intégration d’une installation existante à Adobe Experience Cloud, le [Service d’identités d’Adobe Experience Cloud](https://experienceleague.adobe.com/fr/docs/id-service/using/home){_blank} est activé. Ce service remplace le cookie permanent utilisé en premier lieu par Adobe Campaign pour ses fonctionnalités de tracking.
+Lors de l’installation d’Adobe Campaign ou de l’intégration d’une installation existante avec Adobe Experience Cloud, le [Service d’identités d’Adobe Experience Cloud](https://experienceleague.adobe.com/fr/docs/id-service/using/home){_blank} est activé. Ce service remplace le cookie permanent utilisé en premier lieu par Adobe Campaign pour ses fonctionnalités de tracking.
 
 Le Service d&#39;identités d’Adobe Experience Cloud fournit un identifiant universel et permanent qui identifie vos visiteurs dans toutes les solutions Experience Cloud.
 

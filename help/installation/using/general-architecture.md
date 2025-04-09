@@ -5,12 +5,13 @@ description: Découvrez comment installer et configurer Campaign Classic.
 feature: Installation, Architecture
 audience: installation
 content-type: reference
+level: Intermediate, Experienced
 topic-tags: architecture-and-hosting-models
 exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -54,7 +55,7 @@ L&#39;accès à l&#39;application peut se faire de différentes manières, en fo
 
 ## Couche de logique applicative {#logical-application-layer}
 
-Adobe Campaign est une plateforme unique qui comprend différentes applications qui se combinent pour créer une architecture ouverte et évolutive. La plateforme Adobe Campaign a été écrite sur une couche applicative souple et peut être facilement configurée pour répondre aux besoins d&#39;une entreprise, afin de satisfaire ses besoins croissants d&#39;un point de vue fonctionnel et technique. L&#39;architecture distribuée permet une évolutivité linéaire du système et de passer ainsi de quelques milliers de messages à des millions.
+Adobe Campaign est une plateforme unique comprenant différentes applications qui se combinent pour créer une architecture ouverte et évolutive. La plate-forme Adobe Campaign est écrite sur une couche applicative flexible et est facilement configurable pour répondre aux besoins commerciaux d’une entreprise. Cela répond aux besoins croissants de l’entreprise d’un point de vue fonctionnel ainsi que d’un point de vue technique. L&#39;architecture distribuée assure une évolutivité linéaire du système, capable de passer de milliers de messages à des millions.
 
 Adobe Campaign repose sur différents processus exécutés côté serveur qui fonctionnent ensemble.
 
@@ -90,7 +91,7 @@ D&#39;autres processus plus techniques sont également disponibles :
 
 **Gestion des mails rebonds** (nlserver inMail)
 
-Ce processus permet de relever automatiquement les boîtes mail configurées pour recevoir les mails rebonds retournés en cas d&#39;échec de livraison d&#39;e-mails. Ces mails sont ensuite passés au travers d&#39;un moteur de règles utilisé pour déterminer les causes exactes de non-livraison (destinataire inconnu, boîte aux lettres pleine, etc.) et mettre à jour l&#39;état de diffusion dans la base de données.
+Ce processus permet de relever automatiquement les boîtes mail configurées pour recevoir les messages de rebond renvoyés en cas d’échec de livraison d’e-mails. Ces messages sont ensuite passés au travers d’un moteur de règles utilisé pour déterminer les causes exactes de non-livraison (destinataire inconnu, boîte aux lettres pleine, etc.) et mettre à jour l’état de diffusion dans la base de données.
 
 Toutes ces opérations sont entièrement automatiques et préconfigurées.
 

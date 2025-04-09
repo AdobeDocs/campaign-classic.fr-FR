@@ -6,8 +6,9 @@ feature: Triggers
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
 content-type: reference
+level: Intermediate, Experienced
 exl-id: 84399496-33fd-4936-85e7-32de8503740f
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%

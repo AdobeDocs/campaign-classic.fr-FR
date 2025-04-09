@@ -4,10 +4,11 @@ title: Prise en main des schémas dans Adobe Campaign
 description: Découvrez comment utiliser les schémas et étendre le modèle de données conceptuel de la base de données Adobe Campaign
 feature: Schema Extension
 role: Data Engineer, Developer
+level: Intermediate, Experienced
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 44c40bbd8bff16cbe220d3af3a7bb2847762f58b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+workflow-type: tm+mt
+source-wordcount: '369'
 ht-degree: 100%
 
 ---

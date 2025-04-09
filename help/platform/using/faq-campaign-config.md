@@ -5,12 +5,13 @@ description: FAQ Campaign Classic
 feature: Troubleshooting, Application Settings
 audience: platform
 content-type: reference
+level: Beginner, Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -86,7 +87,7 @@ Une fois connecté, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Vider l
 
 ![](assets/faq_soft_cache.png)
 
-Si le problème n’est pas résolu, essayez d’effacer la mémoire cache locale (hard) en procédant comme suit.
+Si cela ne résout toujours pas le problème, essayez d’effacer le cache dur en procédant comme suit.
 
 ## Comment effectuer un effacement de la mémoire cache locale (hard) lorsque les problèmes sont spécifiques à la machine ou à l’utilisateur ?  {#perform-hard-cache-clear}
 

@@ -6,9 +6,10 @@ feature: Custom Resources
 role: Data Engineer, Developer
 audience: configuration
 content-type: reference
+level: Intermediate, Experienced
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 100%

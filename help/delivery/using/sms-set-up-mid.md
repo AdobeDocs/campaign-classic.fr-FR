@@ -4,8 +4,9 @@ title: Configurer le canal SMS Campaign sur une infrastructure midsourcing
 description: Découvrez comment configurer le canal SMS dans Campaign sur une infrastructure midsourcing.
 feature: SMS
 role: User, Developer, Admin
+level: Experienced
 exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
-source-git-commit: b7339512d85a7bd0c5aae24af46739daafb1ba51
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 100%

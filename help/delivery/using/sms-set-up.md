@@ -4,8 +4,9 @@ title: Configuration du canal SMS de Campaign
 description: Découvrez comment configurer le canal SMS dans Campaign
 feature: SMS
 role: User, Developer, Admin
+level: Experienced
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '1841'
 ht-degree: 100%
@@ -104,7 +105,7 @@ La translittération consiste à remplacer un caractère d&#39;un SMS par un aut
 
 >[!IMPORTANT]
 >
->L&#39;insertion de champs de personnalisation dans le contenu du SMS peut introduire des caractères non pris en charge par l&#39;encodage GSM.
+>L’insertion de champs de personnalisation dans le contenu du SMS peut introduire des caractères non pris en charge par l’encodage GSM.
 
 Par défaut, la translittération des caractères est désactivée. Si vous souhaitez que tous les caractères de vos SMS soient conservés, pour ne pas altérer les noms propres par exemple, il est recommandé de ne pas activer cette option.
 
@@ -293,7 +294,7 @@ CR : retour chariot (Carriage Return)
 
 ## Encodages de texte {#about-text-encodings}
 
-Lors de l&#39;envoi d&#39;un SMS, Adobe Campaign peut utiliser un ou plusieurs encodages de texte. Chaque encodage possède un jeu de caractères disponibles qui lui est propre, et le nombre de caractères qu&#39;il est possible de mettre dans un SMS dépend de l&#39;encodage.
+Lors de l’envoi d’un SMS, Adobe Campaign peut utiliser un ou plusieurs encodages de texte. Chaque encodage possède un jeu de caractères disponibles qui lui est propre, et le nombre de caractères qu’il est possible de mettre dans un SMS dépend de l’encodage.
 
 Lors du paramétrage d&#39;un nouveau compte externe de routage vers mobiles par SMPP, vous pouvez définir le **[!UICONTROL Mapping des encodages]** dans l&#39;onglet **[!UICONTROL Mobile]** : le champ **[!UICONTROL data_coding]** permet à Adobe Campaign de communiquer les encodages utilisés au SMSC.
 
@@ -312,7 +313,7 @@ Vous pouvez déclarer des **data_coding** et forcer l&#39;encodage si besoin : 
 
 >[!IMPORTANT]
 >
->L&#39;ordre de déclaration est important : il est recommandé d&#39;ordonner la liste par ordre croissant **de coût**, afin de favoriser les encodages permettant de mettre le plus de caractères possible dans chaque SMS.
+>L’ordre de déclaration est important : il est recommandé d’ordonner la liste par ordre croissant **de coût**, afin de favoriser les encodages permettant de mettre le plus de caractères possible dans chaque SMS.
 >
 >Ne déclarez que les encodages que vous souhaitez utiliser. Si certains encodages fournis par le SMSC ne correspondent pas à votre utilisation, ne les déclarez pas dans la liste.
 

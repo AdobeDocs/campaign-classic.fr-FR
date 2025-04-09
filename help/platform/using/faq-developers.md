@@ -5,9 +5,10 @@ description: FAQ destinée aux développeurs
 feature: Troubleshooting, Configuration
 audience: platform
 content-type: reference
+level: Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 100%
