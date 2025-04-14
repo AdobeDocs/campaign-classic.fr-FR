@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3887'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usi
 
 ### Mars 2025 {#march-2025}
 
-Dans le cadre d’une initiative de promotion de Campaign v8, nous avons commencé à réorganiser l’ensemble de documentation de Campaign Classic. Dans la version 7.4.2, nous franchissons le premier jalon. Les guides suivants ont été remplacés par des pages de destination comprenant des liens vers la documentation de v8 :
+Dans le cadre d’une initiative de promotion de Campaign v8, nous avons commencé à réorganiser l’ensemble de la documentation de Campaign Classic. Dans la version 7.4.2, nous publions le premier jalon. Les guides suivants ont été remplacés par des pages de destination comprenant des liens vers la documentation de la v8 :
 
-* Orchestrer des campagnes marketing : ce guide a été remplacé par une [page de destination](../../campaign/using/about-marketing-campaigns.md).
-* Marketing Resource Management : ce guide a été supprimé.
-* Marketing distribué : ce guide a été supprimé.
-* Automatisation avec des workflows : ce guide a été remplacé par une [page de destination](../../workflow/using/about-workflow-automation.md)
+* Orchestrer des campagnes marketing : ce guide a été remplacé par une [page de destination](../../campaign/using/about-marketing-campaigns.md).
+* Marketing Resource Management : ce guide a été supprimé.
+* Marketing distribué : ce guide a été supprimé.
+* Automatisation avec des workflows : ce guide a été remplacé par une [page de destination](../../workflow/using/about-workflow-automation.md).
 
 ## 2024
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -170,7 +170,7 @@ En tant que client ou cliente on-premise/hybride, vous devez installer et config
 </td>
 <td>
 <p>23c</p>
-<p>21 quater</p>
+<p>21c</p>
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
@@ -337,7 +337,7 @@ En complément, les environnements **hybrides** et **On-premise** peuvent connec
 <td>Oracle</td>
 <td>
 <p>23c</p>
-<p>21 quater</p>
+<p>21c</p>
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
