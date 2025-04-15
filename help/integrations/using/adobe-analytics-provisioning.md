@@ -7,10 +7,10 @@ feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 8d15a5666b5768bc0f17a4391061c4fcb9f76811
+source-git-commit: 84e6b2fad97f0ca5d6621cff4648e0be0bef7521
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 100%
+source-wordcount: '690'
+ht-degree: 94%
 
 ---
 
@@ -38,9 +38,9 @@ Pour que cette intégration fonctionne, vous devez créer un profil produit Adob
 >
 > Les informations d’identification de compte de service (JWT) étant abandonnées par Adobe, les intégrations de Campaign aux solutions et aux applications Adobe doivent désormais utiliser des informations d’identification OAuth serveur à serveur.</br>
 >
-> * Si vous avez implémenté des intégrations entrantes pour Campaign, vous devez migrer votre compte technique comme décrit dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Les [informations d’identification de compte de service (JWT)](oauth-technical-account.md) existantes continueront de fonctionner jusqu’au 27 janvier 2025.</br>
+> * Si vous avez implémenté des intégrations entrantes pour Campaign, vous devez migrer votre compte technique comme décrit dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Les [informations d’identification de compte de service (JWT)](oauth-technical-account.md) existantes continueront de fonctionner jusqu’au mardi 30 juin 2025.</br>
 >
-> * Si vous avez implémenté des intégrations sortantes, telles qu’une intégration Campaign-Analytics ou une intégration Experience Cloud Triggers, celles-ci continueront de fonctionner jusqu’au 27 janvier 2025. Toutefois, avant cette date, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers OAuth.
+> * Si vous avez implémenté des intégrations sortantes, telles que l’intégration Campaign-Analytics ou l’intégration des Triggers Experience Cloud, elles continueront à fonctionner jusqu’au 30 juin 2025. Toutefois, avant cette date, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers OAuth.
 
 ## Création d’un profil produit Adobe Analytics {#analytics-product-profile}
 
@@ -114,4 +114,4 @@ Consultez [cette page](oauth-technical-account.md#oauth-service) pour accéder �
 
 ## Configuration et utilisation {#adobe-analytics-connector-usage}
 
-Découvrez comment utiliser Adobe Campaign et Adobe Analytics dans la [Documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}.
+Découvrez comment utiliser Adobe Campaign et Adobe Analytics dans la documentation d’[Adobe Campaign v8 ](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}.

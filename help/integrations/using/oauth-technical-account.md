@@ -5,10 +5,10 @@ description: En savoir plus sur la création de compte API Adobe
 role: User, Admin
 level: Intermediate, Experienced
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
+source-git-commit: 84e6b2fad97f0ca5d6621cff4648e0be0bef7521
+workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ Les informations d’identification d’authentification serveur à serveur perm
 
 Les informations d’identification du compte de service (JWT) sont en train d’être abandonnées par Adobe. Les intégrations de Campaign aux solutions et applications Adobe doivent désormais s’appuyer sur les informations d’identification OAuth de serveur à serveur.
 
-Si vous avez implémenté des intégrations entrantes ou sortantes à Campaign avant juin 2024, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers oAuth comme indiqué dans [dans cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}. Les informations d’identification de compte de service (JWT) existantes continueront à fonctionner jusqu’qu’au **27 janvier 2025**.
+Si vous avez implémenté des intégrations entrantes ou sortantes avec Campaign avant juin 2024, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers oAuth comme indiqué [dans cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}. Les informations d’identification de compte de service (JWT) existantes continueront à fonctionner jusqu’au **mardi 30 juin 2025**.
 
 Une fois la migration terminée, vous devez associer vos nouvelles informations d’identification à Campaign, comme expliqué dans [cette section](#add-credentials).
 
