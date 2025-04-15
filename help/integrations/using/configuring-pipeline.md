@@ -9,9 +9,9 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '844'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui
 Avant de commencer cette configuration, vérifiez que vous disposez des éléments suivants :
 
 * Un projet Adobe Developer.
-* Un identifiant d’organisation valide : pour trouver votre identifiant d’organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}
+* Un identifiant d’organisation valide : pour trouver votre identifiant d’organisation, consultez [cette page](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}.
 * Un accès de développement à votre organisation.
 * Une configuration de déclencheurs valide dans Adobe Analytics.
 
