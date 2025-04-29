@@ -9,9 +9,9 @@ level: Intermediate, Experienced
 topic-tags: architecture-and-hosting-models
 exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1342'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ L&#39;accès à l&#39;application peut se faire de différentes manières, en fo
 
 ## Couche de logique applicative {#logical-application-layer}
 
-Adobe Campaign est une plateforme unique comprenant différentes applications qui se combinent pour créer une architecture ouverte et évolutive. La plate-forme Adobe Campaign est écrite sur une couche applicative flexible et est facilement configurable pour répondre aux besoins commerciaux d’une entreprise. Cela répond aux besoins croissants de l’entreprise d’un point de vue fonctionnel ainsi que d’un point de vue technique. L&#39;architecture distribuée assure une évolutivité linéaire du système, capable de passer de milliers de messages à des millions.
+Adobe Campaign est une plateforme unique comprenant différentes applications qui se combinent pour créer une architecture ouverte et évolutive. La plateforme Adobe Campaign est écrite sur une couche d’application flexible. Elle est facilement configurable pour répondre aux besoins de votre entreprise. Cela permet de répondre aux besoins croissants de l’entreprise d’un point de vue fonctionnel et technique. L’architecture distribuée assure une évolutivité linéaire du système, capable de passer de milliers de messages à des millions.
 
 Adobe Campaign repose sur différents processus exécutés côté serveur qui fonctionnent ensemble.
 

@@ -9,9 +9,9 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1212'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Exemple :
 
 Les événements sont traités un par un, par ordre de décalage. Chaque thread du [!DNL pipelined] traite une partition différente.
 
-Le &#39;offset&#39; du dernier événement récupéré est stocké dans la base de données. Par conséquent, si le processus est arrêté, il redémarre à partir du dernier message. Ces données sont stockées dans le schéma intégré xtk:pipelineOffset.
+Le « décalage » du dernier événement récupéré est stocké dans la base de données. Par conséquent, si le processus est arrêté, il redémarre à partir du dernier message. Ces données sont stockées dans le schéma intégré xtk:pipelineOffset.
 
 Ce pointeur est spécifique à chaque instance et à chaque consommateur. Par conséquent, lorsque de nombreuses instances accèdent au même pipeline avec des consommateurs différents, ils reçoivent tous les messages et dans le même ordre.
 
