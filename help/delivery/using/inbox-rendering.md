@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9b93603a076b007d66aad52b05e560e17e316eeb
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 100%
+source-wordcount: '887'
+ht-degree: 91%
 
 ---
 
@@ -90,7 +90,7 @@ Chaque fois que vous utilisez la fonctionnalité **[!UICONTROL Inbox rendering]*
 >* Pour une même diffusion, si vous régénérez le rapport d&#39;inbox rendering, le nombre de jetons disponibles est à nouveau réduit en fonction du nombre de rendus générés.
 >
 
-Le nombre de jetons disponibles restants est indiqué dans la **[!UICONTROL synthèse générale]** du [Rapport d&#39;inbox rendering](#inbox-rendering-report).
+Le nombre de jetons disponibles restants s’affiche dans le [rapport d’inbox rendering](#inbox-rendering-report).
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -123,13 +123,13 @@ Pour plus d&#39;informations sur la conception et le ciblage d&#39;une diffusion
 
 Ce rapport présente les inbox renderings tels qu&#39;ils apparaissent côté destinataire. Ils peuvent être différents selon le mode d&#39;ouverture de la diffusion email par le destinataire : dans un navigateur, sur un appareil mobile ou via une application de messagerie.
 
-La **[!UICONTROL synthèse générale]** présente le nombre de messages reçus, indésirables (spam), non reçus ou en attente de réception sous la forme d&#39;une liste et dans une représentation graphique avec un code-couleur.
+La section supérieure présente la répartition du nombre de messages reçus, indésirables (spam), non reçus ou en attente de réception au moyen d&#39;une représentation graphique avec code-couleur.
 
-![](assets/s_tn_inbox_rendering_summary.png)
+![](assets/s_tn_inbox_rendering_summary.png){width="40%" align="left"}
 
-Survolez le graphique avec la souris pour afficher les détails de chaque couleur.
+Pointez sur le graphique pour afficher les détails de chaque couleur. Cliquez sur un élément de la liste pour masquer ou afficher la catégorie correspondante dans le graphique.
 
-Le rapport est divisé en trois parties : **[!UICONTROL Mobile]**, **[!UICONTROL Clients de messagerie]** et **[!UICONTROL Webmails]**. Faites défiler le rapport pour afficher tous les rendus regroupés dans ces trois catégories.
+Le corps du rapport est divisé en trois parties : **[!UICONTROL Mobile]**, **[!UICONTROL Desktop]** et **[!UICONTROL Webmails]**. Faites défiler le rapport pour afficher tous les rendus regroupés dans ces trois catégories.
 
 ![](assets/s_tn_inbox_rendering_report.png)
 
