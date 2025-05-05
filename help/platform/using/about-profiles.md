@@ -109,7 +109,7 @@ Découvrez comment accéder aux données de profil, trier et filtrer les profils
 
 Cette vidéo explique également la conformité d’Adobe Campaign Classic au RGPD.
 
->[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424578?quality=12&captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
 

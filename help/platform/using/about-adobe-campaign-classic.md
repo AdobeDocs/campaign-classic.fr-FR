@@ -91,6 +91,6 @@ Les fonctions ci-dessous sont disponibles. Selon votre contrat de licence, certa
 
 Cette vidéo présente les principales fonctionnalités de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/39514?quality=12&captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
