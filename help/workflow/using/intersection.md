@@ -19,7 +19,7 @@ ht-degree: 100%
 >id="ac_workflow_intersection"
 >title="Activité Intersection"
 >abstract="Une activité de type Intersection crée une cible à partir de l’intersection des cibles reçues. Une intersection permet d’extraire uniquement la population commune à tous les résultats de l’activité entrante."
->additional-url="https://video.tv.adobe.com/v/329373" text="Regarder une vidéo de démonstration"
+>additional-url="https://video.tv.adobe.com/v/341367?captions=fre_fr" text="Regarder une vidéo de démonstration"
 
 
 
