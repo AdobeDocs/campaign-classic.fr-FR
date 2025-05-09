@@ -3,10 +3,10 @@ keywords: Campaign Classic;accueil;thèmes populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: ec39e513a3474bdcdcf39be7b5e184d62b98f7a2
-workflow-type: ht
+source-git-commit: 961f056ca8bf201e8cedcddb3a2b1f1a4e32b08a
+workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ Découvrez en primeur les dernières améliorations apportées à la documentati
 >[!BEGINTABS]
 
 
->[!TAB La version de mars 2025 est en ligne.]
+>[!TAB La version d’avril 2025 est en ligne !]
 
-Découvrez les mises à jour, les améliorations et les correctifs de la version 7.4.2 de Campaign Classic de mars 2025.
+Découvrez les mises à jour, les améliorations et les correctifs apportés à Campaign Classic v7.4.2 - Version d’avril 2025.
 
 [![Image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -113,4 +113,4 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
 
 ## Autres ressources
 
-[Liste des messages d’erreur](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr) - [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matrice de compatibilité](rn/using/compatibility-matrix.md) - [Tutoriels](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} - [Panneau de Contrôle de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}
+[Liste des messages d’erreur](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr) - [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matrice de compatibilité](rn/using/compatibility-matrix.md) - [Tutoriels](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} - [Panneau de Contrôle pour Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}
