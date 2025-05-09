@@ -7,9 +7,9 @@ feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: 9b93603a076b007d66aad52b05e560e17e316eeb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -90,11 +90,11 @@ Chaque fois que vous utilisez la fonctionnalité **[!UICONTROL Inbox rendering]*
 >* Pour une même diffusion, si vous régénérez le rapport d&#39;inbox rendering, le nombre de jetons disponibles est à nouveau réduit en fonction du nombre de rendus générés.
 >
 
-Le nombre de jetons disponibles restants s’affiche dans le [rapport d’inbox rendering](#inbox-rendering-report).
+Le nombre de jetons disponibles restants est indiqué dans le [rapport d’inbox rendering](#inbox-rendering-report).
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
-En règle générale, la fonctionnalité Inbox rendering est utilisée pour tester la structure HTML d&#39;un nouvel email. Chaque rendu nécessite environ 70 jetons (en fonction du nombre d&#39;environnements dans lequel il est généralement testé). Toutefois, dans certains cas, vous devrez peut-être générer plusieurs rapports d&#39;inbox rendering pour tester entièrement votre diffusion. Plusieurs vérifications peuvent donc nécessiter des jetons supplémentaires.
+En règle générale, la fonctionnalité Inbox Rendering est utilisée pour tester la structure HTML d’un nouvel e-mail. Chaque rendu nécessite environ 70 jetons (en fonction du nombre d’environnements dans lequel il est généralement testé). Toutefois, dans certains cas, vous devrez peut-être générer plusieurs rapports d’Inbox Rendering pour tester entièrement votre diffusion. Plusieurs vérifications peuvent donc nécessiter des jetons supplémentaires.
 
 ## Accéder au rapport d&#39;inbox rendering {#accessing-the-inbox-rendering-report}
 
@@ -121,15 +121,15 @@ Pour plus d&#39;informations sur la conception et le ciblage d&#39;une diffusion
 
 ## Rapport d&#39;inbox rendering {#inbox-rendering-report}
 
-Ce rapport présente les inbox renderings tels qu&#39;ils apparaissent côté destinataire. Ils peuvent être différents selon le mode d&#39;ouverture de la diffusion email par le destinataire : dans un navigateur, sur un appareil mobile ou via une application de messagerie.
+Ce rapport présente les Inbox Renderings tels qu’ils apparaissent côté destinataire. Ils peuvent être différents selon le mode d’ouverture de la diffusion email par la personne destinataire : dans un navigateur, sur un appareil mobile ou via une application de messagerie e-mail.
 
-La section supérieure présente la répartition du nombre de messages reçus, indésirables (spam), non reçus ou en attente de réception au moyen d&#39;une représentation graphique avec code-couleur.
+La section supérieure présente la répartition du nombre de messages reçus, indésirables (spam), non reçus ou en attente de réception au moyen d’une représentation graphique avec code-couleur.
 
 ![](assets/s_tn_inbox_rendering_summary.png){width="40%" align="left"}
 
-Pointez sur le graphique pour afficher les détails de chaque couleur. Cliquez sur un élément de la liste pour masquer ou afficher la catégorie correspondante dans le graphique.
+Survolez le graphique avec la souris pour afficher les détails de chaque couleur. Cliquez sur un élément de la liste pour masquer ou afficher la catégorie correspondante dans le graphique.
 
-Le corps du rapport est divisé en trois parties : **[!UICONTROL Mobile]**, **[!UICONTROL Desktop]** et **[!UICONTROL Webmails]**. Faites défiler le rapport pour afficher tous les rendus regroupés dans ces trois catégories.
+Le corps du rapport est divisé en trois parties : **[!UICONTROL Mobile]**, **[!UICONTROL Bureau]** et **[!UICONTROL Webmails]**. Faites défiler le rapport pour afficher tous les rendus regroupés dans ces trois catégories.
 
 ![](assets/s_tn_inbox_rendering_report.png)
 
