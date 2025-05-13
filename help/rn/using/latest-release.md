@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 458821770c6233ec1893d4efe60169516b311bdd
+source-git-commit: be7412f2ccf050a44eb32ebe8280c695349faac8
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '908'
 ht-degree: 26%
 
 ---
@@ -17,7 +17,20 @@ ht-degree: 26%
 
 Cette page répertorie les nouvelles fonctionnalités, les améliorations et les correctifs apportés à la **dernière version de Campaign Classic v7**. Chaque nouvelle build est fournie avec un statut matérialisé par une couleur. En savoir plus sur les statuts de build de Campaign Classic v7 dans [cette page](rn-overview.md).
 
-## Version 7.4.2 - Build 9390 {#release-7-4-2}
+## Version 7.4.2  {#release-7-4-2}
+
+### Build 9391 {#build-9391}
+
+[!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
+
+_mardi 12 mai 2025_
+
+Cette version comprend les correctifs suivants :
+
+* Correction d’un problème de postupgrade rencontré dans les configurations autres qu’Oracle. (NEO-87012)
+* Correction d’un problème de serveur principal TLS/HTTPS affectant à la fois la console cliente et le serveur. (NEO-87432)
+
+### Build 9390 {#build-9390}
 
 [!BADGE Disponibilité générale]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité générale"}
 
@@ -33,13 +46,13 @@ This release comes with the following compatibility updates:
 
 -->
 
-### Améliorations de la sécurité {#security-7-4-2}
+**Amélioration de la sécurité**
 
 Cette version comprend plusieurs correctifs de sécurité.
 
 La connexion aux solutions et applications Adobe par le biais du compte externe **[!UICONTROL Adobe Experience Cloud]** a été mise à jour pour renforcer la sécurité.
 
-### Correctifs majeurs {#release-7-4-2-fixes}
+**Correctifs majeurs**
 
 Cette version comprend les correctifs principaux suivants :
 
@@ -58,7 +71,7 @@ Cette version comprend les correctifs principaux suivants :
 * MTA (Mail Transfer Agent) : correction du blocage d’un enfant MTA orphelin au statut **[!UICONTROL Démarrage en attente]**.
 
 
-### Autres correctifs {#release-7-4-2-other-fixes}
+**Autres correctifs**
 
 Les problèmes suivants ont également été corrigés dans cette version :
 
