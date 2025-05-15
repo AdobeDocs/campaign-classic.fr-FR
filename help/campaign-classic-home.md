@@ -4,9 +4,9 @@ product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 961f056ca8bf201e8cedcddb3a2b1f1a4e32b08a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Découvrez en primeur les dernières améliorations apportées à la documentati
 >[!BEGINTABS]
 
 
->[!TAB La version d’avril 2025 est en ligne !]
+>[!TAB La version d’avril 2025 est en ligne.]
 
-Découvrez les mises à jour, les améliorations et les correctifs apportés à Campaign Classic v7.4.2 - Version d’avril 2025.
+Découvrez les mises à jour, les améliorations et les correctifs de la version 7.4.2 de Campaign Classic d’avril 2025.
 
 [![Image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -38,7 +38,7 @@ Pour renforcer la sécurité et le processus d’authentification, Adobe Campai
 
 Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et auront une incidence sur votre mise en œuvre d’Adobe Campaign. Il se peut que la configuration de vos services d’abonnement pour les messages push Android doive être mise à jour pour prendre en charge cette modification. Vous pouvez déjà vérifier et agir.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=fr){target="_blank"}
+[![Image](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=fr){target="_blank"}
 
 
 >[!ENDTABS]
@@ -113,4 +113,4 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
 
 ## Autres ressources
 
-[Liste des messages d’erreur](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr) - [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matrice de compatibilité](rn/using/compatibility-matrix.md) - [Tutoriels](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} - [Panneau de Contrôle pour Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}
+[Liste des messages d’erreur](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr) - [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matrice de compatibilité](rn/using/compatibility-matrix.md) - [Tutoriels](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} - [Panneau de contrôle pour Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}
