@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 4fb262c616276f785f97b42bec22c150afc6e5c8
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 100%
+source-wordcount: '87'
+ht-degree: 79%
 
 ---
 
@@ -23,21 +23,27 @@ ht-degree: 100%
 
 Les workflows peuvent être utiles pour automatiser certains de vos imports. Que vous importiez des données à partir d&#39;un fichier local ou d&#39;un serveur SFTP, vous pouvez utiliser des workflows pour standardiser vos procédures de Data Management.
 
-### Utiliser les données d’une liste : lecture de liste {#using-data-from-a-list--read-list}
+>[!NOTE]
+>
+>Pour en savoir plus sur l&#39;import et l&#39;export de données à l&#39;aide de workflows, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}.
 
-Les données traitées dans un workflow peuvent provenir de listes dont les données ont été préparées et structurées au préalable.
 
-Ces listes peuvent avoir été constituées directement dans Adobe Campaign ou importées via l&#39;option **[!UICONTROL Importer une liste]**. Pour plus d&#39;informations sur cette option, consultez cette [page](../../platform/using/about-generic-imports-exports.md).
+<!--
+### Use data from a list: Read list {#using-data-from-a-list--read-list}
 
-Pour plus d&#39;informations sur l&#39;utilisation de l&#39;activité de lecture de liste dans un workflow, consultez [cette page](../../workflow/using/read-list.md).
+The data sent in a workflow can come from lists whereby the data has been prepared and structured beforehand.
 
-### Charger des données depuis un fichier {#loading-data-from-a-file}
+This list may have been directly created in Adobe Campaign or imported by the **[!UICONTROL Import a list]** option. For more on this option, refer to this [page](../../platform/using/about-generic-imports-exports.md).
 
-Les données traitées dans un workflow peuvent êtes extraites d&#39;un fichier structuré pour qu&#39;elles puissent être importées dans Adobe Campaign.
+For more on using the read list activity in a workflow, refer to [this page](../../workflow/using/read-list.md).
 
-Une description de l&#39;activité de chargement de fichier est disponible dans la section [Chargement (fichier)](../../workflow/using/data-loading-file.md).
+### Load data from a file {#loading-data-from-a-file}
 
-Voici un exemple de fichier structuré à importer :
+The data processed in a workflow can be extracted from a structured file so that it can be imported into Adobe Campaign.
+
+A description of the loading data activity can be found in the [Data loading (file)](../../workflow/using/data-loading-file.md) section.
+
+Example of structured file to import:
 
 ```
 lastname;firstname;birthdate;email;crmID
@@ -47,10 +53,11 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-Une fois les données collectées, vous pouvez les utiliser dans vos workflows, par exemple pour enrichir une diffusion ou mettre à jour la base de données. Consultez [cette page](../../workflow/using/how-to-use-workflow-data.md) pour plus d&#39;informations.
+Once data has been collected you can use it in your workflows, for example to enrich a delivery or update the database. For more on this, refer to [this page](../../workflow/using/how-to-use-workflow-data.md).
 
-## Exporter des données {#exporting-data-via-a-workflow}
+## Export data {#exporting-data-via-a-workflow}
 
-Les workflows peuvent être utiles pour automatiser certains de vos exports ou exporter des jeux de données précis après avoir utilisé certaines des activités de gestion des données disponibles pour transformer vos données.
+Workflows can be a useful way to automate some of your export processes or to export precise sets of data after using some of the available data management activities available to transform your data.
 
-Les opérations d&#39;export sont effectuées à l&#39;aide d&#39;une **[!UICONTROL activité Extraction de données (fichier)]**. Pour plus d&#39;informations sur la configuration et l&#39;utilisation de cette activité, consultez [cette page](../../workflow/using/extraction-file.md).
+Export operations are performed using a **[!UICONTROL Data extraction (file) activity]**. For more on how to configure and use the activity, refer to [this page](../../workflow/using/extraction-file.md).
+-->
