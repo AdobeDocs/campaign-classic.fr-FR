@@ -25,7 +25,7 @@ Les workflows peuvent être utiles pour automatiser certains de vos imports. Que
 
 >[!NOTE]
 >
->Pour en savoir plus sur l&#39;import et l&#39;export de données à l&#39;aide de workflows, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}.
+>Pour en savoir plus sur l&#39;import et l&#39;export de données à l&#39;aide de workflows, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}.
 
 
 <!--
