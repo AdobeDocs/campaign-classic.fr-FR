@@ -18,13 +18,13 @@ Utilisez Adobe Campaign pour envoyer des messages texte aux clients et aux clie
 
 Découvrez les étapes clés liées à la création d&#39;une diffusion SMS dans la documentation de Campaign v8 :
 
-* [Présentation du canal SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html){target="_blank"} : découvrez comment envoyer des SMS à vos clients sur leurs appareils mobiles.
-* [Créer une diffusion SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/create-sms.html){target="_blank"} : découvrez les différentes étapes nécessaires à la création d’une diffusion SMS.
-* [Définir le contenu](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-content.html){target="_blank"} : découvrez comment personnaliser le contenu de vos SMS.
-* [Sélectionner l&#39;audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-audience.html){target="_blank"} : la cible principale est extraite de la base Adobe Campaign ou peut également être stockée dans un fichier externe.
-* [Envoi de BAT par SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-proofs.html) : la configuration d’un cycle de validation de la diffusion est essentielle. Assurez-vous que votre contenu est approuvé avant de l’envoyer à votre audience.
+* [Présentation du canal SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=fr){target="_blank"} : découvrez comment envoyer des SMS à vos clients sur leurs appareils mobiles.
+* [Créer une diffusion SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/create-sms.html?lang=fr){target="_blank"} : découvrez les différentes étapes nécessaires à la création d’une diffusion SMS.
+* [Définir le contenu](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-content.html?lang=fr){target="_blank"} : découvrez comment personnaliser le contenu de vos SMS.
+* [Sélectionner l&#39;audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-audience.html?lang=fr){target="_blank"} : la cible principale est extraite de la base Adobe Campaign ou peut également être stockée dans un fichier externe.
+* [Envoi de BAT par SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-proofs.html?lang=fr) : la configuration d’un cycle de validation de la diffusion est essentielle. Assurez-vous que votre contenu est approuvé avant de l’envoyer à votre audience.
 * [Envoyer à l’audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html?lang=fr) : lorsque votre SMS est validé, vous pouvez désormais l’envoyer à son audience.
-* [Surveiller et suivre un SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms-monitor.html) : surveillez votre diffusion par SMS pour vous assurer que vos campagnes marketing sont efficaces.
+* [Surveiller et suivre un SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms-monitor.html?lang=fr) : surveillez votre diffusion par SMS pour vous assurer que vos campagnes marketing sont efficaces.
 
 Reportez-vous à ces pages pour en savoir plus sur la configuration :
 

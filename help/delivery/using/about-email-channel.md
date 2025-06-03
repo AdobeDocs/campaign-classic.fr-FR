@@ -19,7 +19,7 @@ Avec Adobe Campaign, créez des diffusions e-mail pour envoyer des e-mails perso
 
 Découvrez les étapes clés liées à la création d&#39;une diffusion e-mail dans la documentation de Campaign v8 :
 
-* [Créer une diffusion email](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html){target="_blank"} : découvrez les différentes étapes nécessaires à la création d&#39;une diffusion email.
+* [Créer une diffusion email](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=fr){target="_blank"} : découvrez les différentes étapes nécessaires à la création d&#39;une diffusion email.
 * [Définir le contenu de l’e-mail](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"} : définissez ce que votre e-mail inclura : expéditeur, objet, contenu, images.
 * [Définir le contenu interactif](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html){target="_blank"} : utilisez le format interactif AMP for Email pour envoyer des e-mails dynamiques.
 * [Envoyer des e-mails sur des mobiles japonais](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"} : utilisez l’un des trois formats japonais spécifiques pour les e-mails sur les mobiles.
@@ -27,9 +27,9 @@ Découvrez les étapes clés liées à la création d&#39;une diffusion e-mail d
 
 Reportez-vous à ces pages pour en savoir plus sur les paramètres d’e-mail dans la documentation de Campaign v8 :
 
-* [Lien vers la page miroir](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html){target="_blank"} : configurez la page miroir pour vous assurer que vos clients obtiennent toujours la meilleure expérience de rendu.
+* [Lien vers la page miroir](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=fr){target="_blank"} : configurez la page miroir pour vous assurer que vos clients obtiennent toujours la meilleure expérience de rendu.
 * [Ajouter une adresse en Cci](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=fr){target="_blank"} : configurez Adobe Campaign pour conserver une copie des e-mails envoyés depuis votre plateforme.
-* [Définir des paramètres d’e-mail supplémentaires](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html){target="_blank"} : en savoir plus sur les options et les paramètres disponibles dans les propriétés de la diffusion.
+* [Définir des paramètres d’e-mail supplémentaires](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html?lang=fr){target="_blank"} : en savoir plus sur les options et les paramètres disponibles dans les propriétés de la diffusion.
 
 Reportez-vous également à cette [page](sending-with-enhanced-mta.md) pour en savoir plus sur le MTA amélioré.
 
@@ -41,7 +41,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
 The key steps to send an email are as follows:
 

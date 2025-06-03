@@ -36,7 +36,7 @@ Les onglets et leur contenu dépendent de votre configuration et des packages in
 
 >[!NOTE]
 >
->Pour en savoir plus sur la modification des profils et l’accès à ceux-ci, consultez la documentation détaillée de la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}.
+>Pour en savoir plus sur la modification des profils et l’accès à ceux-ci, consultez la documentation détaillée de la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}.
 
 
 

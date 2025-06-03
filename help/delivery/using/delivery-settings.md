@@ -13,7 +13,7 @@ ht-degree: 95%
 
 # Paramètres de diffusion {#about-delivery-settings}
 
-Les paramètres ci-dessous sont spécifiques à Campaign Classic. Pour connaître les autres paramètres de diffusion, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target="_blank"}.
+Les paramètres ci-dessous sont spécifiques à Campaign Classic. Pour connaître les autres paramètres de diffusion, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=fr){target="_blank"}.
 
 ## Analyse des diffusions {#delivery-analysis}
 
