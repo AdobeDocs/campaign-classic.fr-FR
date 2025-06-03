@@ -5,23 +5,25 @@ description: Découvrez comment envoyer, surveiller et suivre des SMS dans Campa
 feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
-workflow-type: ht
-source-wordcount: '971'
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+workflow-type: tm+mt
+source-wordcount: '895'
 ht-degree: 100%
 
 ---
 
-# Envoi, surveillance et suivi de diffusions par SMS{#sms-properties}
+# Configuration supplémentaire{#sms-properties}
 
-## Envoi de messages SMS {#sending-sms-messages}
+<!--
+## Send SMS messages {#sending-sms-messages}
 
-Pour valider votre message et le diffuser aux destinataires de la diffusion en cours de création, cliquez sur **[!UICONTROL Envoyer]**.
+To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
 
-Le processus détaillé lors de la validation et l&#39;envoi d&#39;une diffusion est présenté dans les sections ci-dessous :
+The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validation de la diffusion](steps-validating-the-delivery.md)
-* [Envoi de la diffusion](steps-sending-the-delivery.md)
+* [Validate the delivery](steps-validating-the-delivery.md)
+* [Send the delivery](steps-sending-the-delivery.md)
+-->
 
 ## Paramètres avancés {#advanced-parameters}
 
@@ -55,13 +57,15 @@ Les options disponibles sont les suivantes :
 
 * **Nombre maximal de SMS par message** : cette option vous permet de régler le nombre de SMS à utiliser pour envoyer un message. Si le nombre est fixé à 0, vous pouvez utiliser un SMS pour diffuser votre message par SMS. Si le nombre de SMS est fixé à 1 ou 2 par exemple, et que le message dépasse ce nombre, le message ne sera pas envoyé.
 
-## Surveillance et suivi de SMS {#monitoring-and-tracking-sms-deliveries}
+<!--
+## Monitor and track SMS {#monitoring-and-tracking-sms-deliveries}
 
-Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions. Pour plus d’informations, consultez les sections suivantes :
+After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Surveillance d’une diffusion](about-delivery-monitoring.md)
-* [Présentation des diffusions en échec](understanding-delivery-failures.md)
-* [À propos du tracking des messages](about-message-tracking.md)
+* [Monitor a delivery](about-delivery-monitoring.md)
+* [Understand delivery failures](understanding-delivery-failures.md)
+* [About message tracking](about-message-tracking.md)
+-->
 
 ## Traitement des messages entrants {#processing-inbound-messages}
 
@@ -118,7 +122,7 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 >
 >La procédure détaillée suivante n&#39;est valide que pour les connecteurs SMPP, à l&#39;exception du connecteur SMPP générique étendu. Voir à ce sujet la section [Création d’un compte externe SMPP](sms-set-up.md#creating-an-smpp-external-account).
 >
->Elle entre dans le cadre du processus de certification effectué par les opérateurs américains pour les campagnes marketing aux Etats-Unis. Ces SMS doivent notamment parvenir immédiatement à l&#39;abonné qui a envoyé le mot-clé.
+>Elle entre dans le cadre du processus de certification effectué par les opérateurs américains pour les campagnes marketing aux États-Unis. Ces SMS doivent notamment parvenir immédiatement à l’abonné qui a envoyé le mot-clé.
 
 1. Créez un fichier XML de ce type :
 

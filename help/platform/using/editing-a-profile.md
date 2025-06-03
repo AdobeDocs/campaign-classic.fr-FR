@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
-source-git-commit: ec774cc10a69a694b3c2bf5a6f662afd12a1435a
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '119'
+ht-degree: 80%
 
 ---
 
@@ -34,68 +34,77 @@ Les onglets et leur contenu dépendent de votre configuration et des packages in
 >
 >Voir à ce propos [cette page](../../configuration/using/about-schema-edition.md).
 
-## Onglet Général {#general-tab}
+>[!NOTE]
+>
+>Pour en savoir plus sur la modification des profils et l’accès à ceux-ci, consultez la documentation détaillée de la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}.
 
-Cet écran contient toutes les informations générales relatives au profil sélectionné. Il contient notamment son nom, son prénom, son adresse email, le format de réception de ses emails, etc. Il se présente comme suit :
+
+
+<!--
+## General tab {#general-tab}
+
+This screen contains all general data about the selected profile. In particular, it contains the last name, first name, email address, email reception format, etc. It looks like this:
 
 ![](assets/s_ncs_user_profile_general_tab.png)
 
 >[!NOTE]
 >
->Lorsque l&#39;option **[!UICONTROL Ne plus contacter (tous canaux)]** est sélectionnée, le profil est sur la liste bloquée, c&#39;est-à-dire qu&#39;il a exprimé le souhait de ne pas être contacté (par exemple, en cliquant sur un lien de désinscription dans une newsletter). Il ne sera plus ciblé par des diffusions sur un canal quelconque (email, courrier, etc.). Voir à ce propos [cette page](../../delivery/using/understanding-quarantine-management.md).
+>When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on denylist, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). They will no longer be targeted by deliveries on any channel (email, direct mail, etc.). For more on this, refer to [this page](../../delivery/using/understanding-quarantine-management.md).
 
-## Onglet Coordonnées {#contact-information-tab}
+## Contact information tab {#contact-information-tab}
 
-Cet écran contient les coordonnées postales du profil sélectionné. Il se présente comme suit :
+This screen contains the direct mail address of the selected profile. It looks like this:
 
 ![](assets/s_ncs_user_profile_details_tab.png)
 
-L&#39;indice de qualité de cette adresse est reporté dans cet écran, ainsi que le nombre d&#39;erreurs sur l&#39;adresse. Ces informations sont directement implémentées par le prestataire de courrier en fonction du nombre d&#39;erreur rencontrées lors des précédentes diffusions. Elles ne peuvent pas être modifiées manuellement.
+This screen shows the quality index of the address, as well as how many errors the address contains. This information is used directly by the mail carrier based on the number of errors found during previous deliveries, and is not modifiable manually.
 
-## Onglet Autres {#other-tab}
+## Other tab {#other-tab}
 
-Cet écran contient des champs libres qui peuvent être personnalisés en fonction des besoins. Vous pouvez ainsi modifier l&#39;intitulé des champs et en définir le format, via le menu **[!UICONTROL Propriétés du champ...]**, comme dans l&#39;exemple suivant :
+This screen contains user-defined fields that can be personalized based on requirements. You can also change the names of the fields and define their format, via **[!UICONTROL Field properties...]**, as shown below:
 
 ![](assets/s_ncs_user_profile_others_tab.png)
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les propriétés des champs et l&#39;ajout de champs, consultez [cette page](../../configuration/using/new-field-wizard.md).
+>For more on field properties and on adding fields, refer to [this page](../../configuration/using/new-field-wizard.md).
 
-## Onglet Listes {#lists-tab}
+## Lists tab {#lists-tab}
 
-Cet écran permet d&#39;afficher le ou les groupes auxquels appartient le profil sélectionné. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour inscrire le profil dans une liste. Cliquez sur le bouton **[!UICONTROL Détail]** pour afficher la description et la totalité des profils de la liste sélectionnée.
+This screen displays the group(s) to which the selected profile belongs. Click **[!UICONTROL Add]** to subscribe the profile to a list. Click **[!UICONTROL Detail]** to display the description and the list of profiles in the selected list.
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
-Voir à ce sujet la section [Créer et gérer des listes](../../platform/using/creating-and-managing-lists.md).
+For more on this, refer to [Create and manage lists](../../platform/using/creating-and-managing-lists.md).
 
-## Onglet Abonnements {#subscriptions-tab}
+## Subscriptions tab {#subscriptions-tab}
 
-Cet écran contient les services d&#39;information auxquels s&#39;est abonné le profil.
+This screen contains the information services to which the profile has subscribed.
 
 ![](assets/s_ncs_user_profile_subscript_tab_details.png)
 
-Le bouton **[!UICONTROL Détail]** affiche les propriétés de l&#39;abonnement sélectionné. Le bouton **[!UICONTROL Ajouter]** permet d&#39;ajouter manuellement un nouvel abonnement.
+The **[!UICONTROL Detail]** button displays the properties of the selected subscription. The **[!UICONTROL Add]** button is used to add a new subscription manually.
 
-Pour plus d’informations, consultez [cette page](../../delivery/using/managing-subscriptions.md).
+For more on this, refer to [this page](../../delivery/using/managing-subscriptions.md).
 
-## Onglet Diffusions {#deliveries-tab}
+## Deliveries tab {#deliveries-tab}
 
-Cet écran permet de visualiser les logs de diffusion du profil sélectionné. Vous pouvez ainsi visualiser les libellés, dates et statuts des actions de diffusion adressées au profil, tous canaux confondus.
+This screen displays the delivery logs for the selected profile. You can also display the labels, dates, and status of the delivery actions addressed to the profile via all channels.
 
 ![](assets/s_ncs_user_profile_delivery_tab.png)
 
-## Onglet Tracking {#tracking-tab}
+## Tracking tab {#tracking-tab}
 
-Cet écran est utilisé pour consulter les logs de tracking du profil sélectionné. Ces informations permettent de suivre le comportement du profil suite aux diffusions.
+This screen lets you view the tracking logs for the selected profile. This information is used to track profile behavior following deliveries.
 
 ![](assets/s_ncs_user_profile_tracking_tab.png)
 
-Cet onglet présente le cumul de toutes les URL trackées dans les diffusions.
+This tab shows the cumulative total of all URLs tracked in deliveries.
 
-La liste est paramétrable et contient typiquement : l&#39;URL cliquée, la date et l&#39;heure du clic, le document dans lequel l&#39;URL figurait.
+The list is configurable, and usually contains: the URL clicked, date and time of click, and the document that contained the URL.
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les fonctionnalités de mise en œuvre du tracking, consultez [cette page](../../delivery/using/delivery-dashboard.md).
+>For more on tracking functionality, please refer to [this page](../../delivery/using/delivery-dashboard.md).
+
+-->

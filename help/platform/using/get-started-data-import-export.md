@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '103'
+ht-degree: 81%
 
 ---
 
@@ -25,46 +25,53 @@ Adobe Campaign Classic fournit des fonctionnalités de gestion des données qu
 >
 >Lorsque vous utilisez cette fonctionnalité, gardez à l&#39;esprit les limites du stockage SFTP, du stockage en base de données et des profils actifs en fonction de votre contrat Adobe Campaign.
 
+>[!NOTE]
+>
+>Pour en savoir plus sur l&#39;import et l&#39;export de données vers Campaign, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target=_blank}.
+
+
+<!--
 ## Workflows {#workflows}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-Les **workflows** constituent un moyen utile d&#39;automatiser vos processus d&#39;import. Que vous importiez des données à partir d&#39;un fichier local ou d&#39;un SFTP, ils vous permettent de standardiser vos procédures de gestion des données.
+**Workflows** are a useful way to automate your import processes. Whether you import data from a local file or from a SFTP, they allow you to standardize your data management procedures.
 
-Avec les workflows, les opérations d&#39;import et d&#39;export peuvent être répétées automatiquement selon un planning, par exemple pour automatiser l&#39;échange de données entre plusieurs systèmes d&#39;informations.
+With workflows, import and export operations can be repeated automatically according to a schedule, for example to automate data exchange between several information systems.
 
-Voir à ce propos [cette section](../../platform/using/import-export-workflows.md).
+For more on this, refer to [this section](../../platform/using/import-export-workflows.md).
 
-## Imports et exports génériques {#generic-import-export}
+## Generic imports and exports {#generic-import-export}
 
 <img src="assets/do-not-localize/icon_templates.svg" width="60px">
 
-En outre, Campaign Classic fournit des **imports et exports génériques** qui vous permettent de créer des tâches d&#39;import ou d&#39;export occasionnelles.
+Additionally, Campaign Classic provides **generic imports and exports** that allow you to create occasional import or export jobs.
 
-Les imports et exports sont configurés dans des modèles dédiés, que vous pouvez configurer et utiliser pour lancer et surveiller les tâches d&#39;import et d&#39;export.
+Imports and exports are configured in dedicated templates, that you can configure and use to launch and monitor import and export jobs.
 
-Pour en savoir plus sur les imports et exports génériques, consultez [cette section](../../platform/using/about-generic-imports-exports.md).
+For more on generic imports and exports, refer to [this section](../../platform/using/about-generic-imports-exports.md).
 
 >[!IMPORTANT]
->Les imports et exports génériques ne devraient être utilisés que pour des opérations occasionnelles. Pour assurer la cohérence des données et améliorer l&#39;efficacité, il est recommandé d&#39;effectuer les opérations d&#39;import et d&#39;export à l&#39;aide de workflows.
+>Generic imports and exports should be used for occasional operations only. To ensure data consistency and improve efficiency, it is recommended to perform your import and export operations using workflows.
 
-## Chiffrement et compression des données {#data-encryption-compression}
+## Data encryption and compression {#data-encryption-compression}
 
 <img src="assets/do-not-localize/icon_encrypt.svg" width="60px">
 
-Campaign Classic vous permet d&#39;importer ou d&#39;exporter des fichiers compressés ou chiffrés.
+Campaign Classic allows you to import zipped or encrypted files, and export zipped or encrypted file.
 
-Ces opérations sont effectuées dans des workflows, en appliquant des étapes de pré-traitement aux données que vous souhaitez utiliser.
+These operations are performed within workflows, by applying pre-processing stages to the data you want to leverage.
 
-Voir à ce propos les sections suivantes :
+For more on this, refer to these sections:
 
-* [Décompresser ou déchiffrer un fichier](../../platform/using/unzip-decrypt.md)
-* [Compresser ou chiffrer un fichier](../../platform/using/zip-encrypt.md)
+* [Unzip or decrypt a file](../../platform/using/unzip-decrypt.md)
+* [Zip or encrypt a file](../../platform/using/zip-encrypt.md)
 
-## Bonnes pratiques et résolution des problèmes {#best-practices-troubleshooting}
+## Best practices and troubleshooting {#best-practices-troubleshooting}
 
 <img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
 
-Vous devez suivre plusieurs [bonnes pratiques](../../platform/using/import-export-best-practices.md) lors des opérations d’import et d’export afin d’assurer la cohérence des données dans la base de données et d’éviter les erreurs courantes lors des opérations de mise à jour ou d’export.
+You should follow several [best practices](../../platform/using/import-export-best-practices.md) when performing import and export operations to ensure data consistency within the database and avoid common errors during update or export operations.
 
-De plus, des recommandations et des problèmes courants liés à l’utilisation des serveurs SFTP sont disponibles dans [cette section](../../platform/using/sftp-server-usage.md).
+Additionally, recommendations and common issues related to SFTP servers usage are available in [this section](../../platform/using/sftp-server-usage.md).
+-->

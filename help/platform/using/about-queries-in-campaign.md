@@ -7,10 +7,10 @@ feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 88%
 
 ---
 
@@ -26,6 +26,8 @@ Cet outil regroupe toutes les possibilités de requêtage d&#39;Adobe Campaign.
 
 Les requêtes sont réalisées soit avec les champs disponibles de la table sélectionnée, soit à l&#39;aide d&#39;une formule.
 
-[Cliquez ici](../../workflow/using/query.md) pour découvrir le requêteur de Campaign.
+>[!NOTE]
+>
+>Pour en savoir plus sur les requêtes et leur création, reportez-vous à la documentation de [Campaign v8](../../workflow/using/query.md).
 
-![](assets/query_recipients_4.png)
+![Capture d’écran montrant un exemple de requête.](assets/query_recipients_4.png)

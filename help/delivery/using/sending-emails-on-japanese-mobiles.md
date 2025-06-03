@@ -5,8 +5,10 @@ description: Découvrez comment configurer, concevoir et envoyer des e-mails qui
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Email, Email Design
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 100%

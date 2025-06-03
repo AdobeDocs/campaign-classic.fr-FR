@@ -4,11 +4,13 @@ title: Validation de la diffusion
 description: Découvrez comment valider une diffusion
 feature: Deliverability, Email Rendering, Proofs
 role: User
+hide: true
+hidefromtoc: true
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '1794'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -127,7 +129,7 @@ Si une diffusion est trop volumineuse, il est préférable de lui administrer un
 
 ## Envoi d&#39;un BAT {#sending-a-proof}
 
-Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adobe recommande vivement de mettre en place un cycle de validation de vos diffusions. Pour cela, faites-en valider le contenu autant de fois que nécessaire en envoyant des bons à tirer auprès de destinataires test. Un BAT doit être envoyé afin de valider le contenu après chaque modification.
+Pour détecter d’éventuelles erreurs dans la configuration des messages, Adobe recommande vivement de configurer un cycle de validation des diffusions. Pour cela, faites-en valider le contenu autant de fois que nécessaire en envoyant des bons à tirer auprès de destinataires test. Un BAT doit être envoyé afin de valider le contenu après chaque modification.
 
 >[!NOTE]
 >

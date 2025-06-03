@@ -4,9 +4,11 @@ title: Créer des SMS avec Campaign
 description: Découvrez comment créer des SMS avec Campaign
 feature: SMS
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
-workflow-type: ht
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 100%
 
