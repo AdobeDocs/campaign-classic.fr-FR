@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
 workflow-type: tm+mt
-source-wordcount: '2574'
-ht-degree: 92%
+source-wordcount: '2573'
+ht-degree: 90%
 
 ---
 
@@ -125,27 +125,26 @@ ht-degree: 92%
          + [Définition de l&#39;audience appropriée](delivery/using/define-the-right-audience.md)
          + [Vérification avant envoi](delivery/using/check-before-sending.md)
          + [Tracker et suivre vos diffusions](delivery/using/track-and-monitor.md)
-   + Envoyer des e-mails {#sending-emails}
-      + [À propos du canal email](delivery/using/about-email-channel.md)
-      + [Création d’une diffusion par e-mail](delivery/using/creating-an-email-delivery.md)
-      + [Définition du contenu de l’e-mail](delivery/using/defining-the-email-content.md)
-      + [Définition du contenu interactif](delivery/using/defining-interactive-content.md)
-      + [Envoi avec le MTA amélioré](delivery/using/sending-with-enhanced-mta.md)
-      + Envoyer la diffusion e-mail {#sending-an-email}
-         + [Étapes principales de l’envoi d’un e-mail](delivery/using/sending-messages.md)
-         + [Paramètres de l’e-mail](delivery/using/email-parameters.md)
-         + [Envois sur mobiles japonais](delivery/using/sending-emails-on-japanese-mobiles.md)
-      + [Joindre des fichiers](delivery/using/attaching-files.md)
-   + Envoyer un SMS {#sending-messages-on-mobiles}
-      + [Prise en main des SMS](delivery/using/sms-channel.md)
-      + Configurer le canal SMS {#sms-set-up}
-         + [Configurer les SMS sur une instance autonome](delivery/using/sms-set-up.md)
-         + [Configurer les SMS sur une infrastructure midsourcing](delivery/using/sms-set-up-mid.md)
-         + [Protocole et paramètres du connecteur SMS](delivery/using/sms-protocol.md)
-         + [Configuration supplémentaire](delivery/using/sms-send.md)
-         + [Résolution des problèmes de SMS](delivery/using/troubleshooting-sms.md)
-      + [Créer un SMS](delivery/using/sms-create.md)
-      + [Migration vers le connecteur SMPP générique étendu](delivery/using/unsupported-connector-migration.md)
++ Envoyer des e-mails {#sending-emails}
++ [Créer une diffusion email](delivery/using/creating-an-email-delivery.md)
++ [Définir le contenu de l’e-mail](delivery/using/defining-the-email-content.md)
++ [Définition du contenu interactif](delivery/using/defining-interactive-content.md)
++ Envoyer le {#sending-an-email} de diffusion e-mail
++ [Étapes principales pour envoyer un e-mail](delivery/using/sending-messages.md)
++ [Paramètres de l’e-mail](delivery/using/email-parameters.md)
++ [Envoyer sur des mobiles japonais](delivery/using/sending-emails-on-japanese-mobiles.md)
++ [ Joindre des fichiers ](delivery/using/attaching-files.md)
++ [Envoyer des e-mails](delivery/using/about-email-channel.md)
++ Envoyer un SMS {#sending-messages-on-mobiles}
++ [Prise en main des SMS](delivery/using/sms-channel.md)
++ Configurer les {#sms-set-up} du canal SMS
++ [Configuration de SMS sur une instance autonome](delivery/using/sms-set-up.md)
++ [Configuration des SMS sur une infrastructure de mid-sourcing](delivery/using/sms-set-up-mid.md)
++ [Protocole et paramètres du connecteur SMS](delivery/using/sms-protocol.md)
++ [ Configuration supplémentaire ](delivery/using/sms-send.md)
++ [Dépannage des SMS](delivery/using/troubleshooting-sms.md)
++ [Créer un SMS](delivery/using/sms-create.md)
++ [Migration vers le connecteur SMPP générique étendu](delivery/using/unsupported-connector-migration.md)
    + [Envoi de messages LINE](delivery/using/line-channel.md)
    + Envoyer des notifications push {#sending-push-notifications}
       + [Prise en main du canal des applications mobiles](delivery/using/about-mobile-app-channel.md)
@@ -841,6 +840,7 @@ ht-degree: 92%
       + [Mises à niveau du système en 2023](technotes/using/tech-stack-upgrade.md)
       + [Mises à jour dʼIMS](technotes/using/ims-updates.md)
       + [Fin de vie de la prise en charge du protocole TLS 1.0 et 1.1](technotes/using/eol-tls-support.md)
+      + [Envoi avec le MTA amélioré](delivery/using/sending-with-enhanced-mta.md)
    + E-mails et notifications push{#technotes-email}
       + [Protection de la confidentialité des e-mails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
       + [Mise à jour des rebonds définitifs incorrects](delivery/using/update-bounce-qualification.md)

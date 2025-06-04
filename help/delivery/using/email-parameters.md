@@ -2,15 +2,14 @@
 product: campaign
 title: Paramètres de l’e-mail
 description: Découvrez les options et les paramètres spécifiques à la diffusion e-mail
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Email
 role: User, Developer, Data Engineer
 hide: true
 hidefromtoc: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '990'
+source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
+workflow-type: tm+mt
+source-wordcount: '981'
 ht-degree: 100%
 
 ---

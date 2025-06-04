@@ -2,15 +2,14 @@
 product: campaign
 title: Création d’une diffusion par e-mail
 description: Découvrez comment créer une diffusion e-mail
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Email
 role: User
 hide: true
 hidefromtoc: true
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '107'
+source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
+workflow-type: tm+mt
+source-wordcount: '98'
 ht-degree: 100%
 
 ---
