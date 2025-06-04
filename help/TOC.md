@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 67e5a52666b7a57d1fc17d308a124948bf81f432
+source-git-commit: d2292711cf67332eda3fe9bed78248ab62ca1818
 workflow-type: tm+mt
-source-wordcount: '2572'
-ht-degree: 90%
+source-wordcount: '2575'
+ht-degree: 89%
 
 ---
 
@@ -125,19 +125,20 @@ ht-degree: 90%
          + [Définition de l&#39;audience appropriée](delivery/using/define-the-right-audience.md)
          + [Vérification avant envoi](delivery/using/check-before-sending.md)
          + [Tracker et suivre vos diffusions](delivery/using/track-and-monitor.md)
-+ E-mails {#sending-emails}
++ Envoyer des e-mails {#sending-emails}
++ [Prise en main des emails](delivery/using/about-email-channel.md)
++ [Envoyer avec le MTA amélioré](delivery/using/sending-with-enhanced-mta.md)
 + [Créer une diffusion email](delivery/using/creating-an-email-delivery.md)
 + [Définir le contenu de l’e-mail](delivery/using/defining-the-email-content.md)
 + [Définition du contenu interactif](delivery/using/defining-interactive-content.md)
-+ Envoyer le de diffusion e-mail {#sending-an-email}
++ Envoyer le {#sending-an-email} de diffusion e-mail
 + [Étapes principales pour envoyer un e-mail](delivery/using/sending-messages.md)
 + [Paramètres de l’e-mail](delivery/using/email-parameters.md)
 + [Envoyer sur des mobiles japonais](delivery/using/sending-emails-on-japanese-mobiles.md)
 + [ Joindre des fichiers ](delivery/using/attaching-files.md)
-+ [Envoyer des e-mails](delivery/using/about-email-channel.md)
 + Envoyer un SMS {#sending-messages-on-mobiles}
 + [Prise en main des SMS](delivery/using/sms-channel.md)
-+ Configurer les du canal SMS {#sms-set-up}
++ Configurer les {#sms-set-up} du canal SMS
 + [Configuration de SMS sur une instance autonome](delivery/using/sms-set-up.md)
 + [Configuration des SMS sur une infrastructure de mid-sourcing](delivery/using/sms-set-up-mid.md)
 + [Protocole et paramètres du connecteur SMS](delivery/using/sms-protocol.md)
@@ -840,7 +841,6 @@ ht-degree: 90%
       + [Mises à niveau du système en 2023](technotes/using/tech-stack-upgrade.md)
       + [Mises à jour dʼIMS](technotes/using/ims-updates.md)
       + [Fin de vie de la prise en charge du protocole TLS 1.0 et 1.1](technotes/using/eol-tls-support.md)
-      + [Envoi avec le MTA amélioré](delivery/using/sending-with-enhanced-mta.md)
    + E-mails et notifications push{#technotes-email}
       + [Protection de la confidentialité des e-mails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
       + [Mise à jour des rebonds définitifs incorrects](delivery/using/update-bounce-qualification.md)
