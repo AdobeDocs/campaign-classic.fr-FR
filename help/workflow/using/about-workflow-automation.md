@@ -4,21 +4,18 @@ title: À propos des workflows
 description: Automatisez les processus avec des workflows, gérez les données et les audiences, envoyez des messages, et bien plus encore.
 feature: Workflows, Data Management
 exl-id: 024a7344-9376-4ff3-926a-003148229f9f
-source-git-commit: 83874a31321c7d06411b393e46ce2ef43d43d6ed
+source-git-commit: fd082d5427314fbc91966f89048da5f193658f87
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 51%
+source-wordcount: '236'
+ht-degree: 14%
 
 ---
 
 # Automatisation à l’aide de workflows {#gs-workflows}
 
-Adobe Campaign comprend un module de workflow qui vous permet d’orchestrer l’ensemble des processus et tâches dans les différents modules du serveur d’applications. Cet environnement graphique complet permet de concevoir des processus englobant segmentation, exécution de campagnes, traitement de fichiers, participation humaine, etc. Le moteur de workflow exécute et suit ces processus.
+Le module de workflow Adobe Campaign permet à votre équipe de rationaliser et d’automatiser les processus d’entreprise de bout en bout sur la plateforme. Grâce à une interface graphique intuitive, vous pouvez concevoir et gérer des workflows qui coordonnent des tâches telles que la segmentation des données, l’exécution de campagnes, la gestion de fichiers et même les approbations d’utilisateurs, le tout à un seul endroit.
 
-Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
-
-![](assets/do-not-localize/workflow.jpg){width="40%" align="center"}
-
+Par exemple, vous pouvez automatiser un processus de récupération d’un fichier d’un serveur distant, d’extraction de son contenu et de chargement transparent des données dans le serveur Adobe Campaign, ce qui réduit les efforts manuels et accroît l’efficacité opérationnelle. Le moteur de workflow garantit que chaque étape est exécutée de manière fiable et suivie pour la visibilité et le contrôle.
 
 >[!BEGINTABS]
 
