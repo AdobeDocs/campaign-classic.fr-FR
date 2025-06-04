@@ -6,9 +6,9 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
+source-git-commit: 67e5a52666b7a57d1fc17d308a124948bf81f432
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2572'
 ht-degree: 90%
 
 ---
@@ -125,11 +125,11 @@ ht-degree: 90%
          + [Définition de l&#39;audience appropriée](delivery/using/define-the-right-audience.md)
          + [Vérification avant envoi](delivery/using/check-before-sending.md)
          + [Tracker et suivre vos diffusions](delivery/using/track-and-monitor.md)
-+ Envoyer des e-mails {#sending-emails}
++ E-mails {#sending-emails}
 + [Créer une diffusion email](delivery/using/creating-an-email-delivery.md)
 + [Définir le contenu de l’e-mail](delivery/using/defining-the-email-content.md)
 + [Définition du contenu interactif](delivery/using/defining-interactive-content.md)
-+ Envoyer le de diffusion e-mail {#sending-an-email}
++ Envoyer le {#sending-an-email} de diffusion e-mail
 + [Étapes principales pour envoyer un e-mail](delivery/using/sending-messages.md)
 + [Paramètres de l’e-mail](delivery/using/email-parameters.md)
 + [Envoyer sur des mobiles japonais](delivery/using/sending-emails-on-japanese-mobiles.md)
@@ -137,7 +137,7 @@ ht-degree: 90%
 + [Envoyer des e-mails](delivery/using/about-email-channel.md)
 + Envoyer un SMS {#sending-messages-on-mobiles}
 + [Prise en main des SMS](delivery/using/sms-channel.md)
-+ Configurer les du canal SMS {#sms-set-up}
++ Configurer les {#sms-set-up} du canal SMS
 + [Configuration de SMS sur une instance autonome](delivery/using/sms-set-up.md)
 + [Configuration des SMS sur une infrastructure de mid-sourcing](delivery/using/sms-set-up-mid.md)
 + [Protocole et paramètres du connecteur SMS](delivery/using/sms-protocol.md)
