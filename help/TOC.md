@@ -129,7 +129,7 @@ ht-degree: 90%
 + [Créer une diffusion email](delivery/using/creating-an-email-delivery.md)
 + [Définir le contenu de l’e-mail](delivery/using/defining-the-email-content.md)
 + [Définition du contenu interactif](delivery/using/defining-interactive-content.md)
-+ Envoyer le {#sending-an-email} de diffusion e-mail
++ Envoyer le de diffusion e-mail {#sending-an-email}
 + [Étapes principales pour envoyer un e-mail](delivery/using/sending-messages.md)
 + [Paramètres de l’e-mail](delivery/using/email-parameters.md)
 + [Envoyer sur des mobiles japonais](delivery/using/sending-emails-on-japanese-mobiles.md)
@@ -137,7 +137,7 @@ ht-degree: 90%
 + [Envoyer des e-mails](delivery/using/about-email-channel.md)
 + Envoyer un SMS {#sending-messages-on-mobiles}
 + [Prise en main des SMS](delivery/using/sms-channel.md)
-+ Configurer les {#sms-set-up} du canal SMS
++ Configurer les du canal SMS {#sms-set-up}
 + [Configuration de SMS sur une instance autonome](delivery/using/sms-set-up.md)
 + [Configuration des SMS sur une infrastructure de mid-sourcing](delivery/using/sms-set-up-mid.md)
 + [Protocole et paramètres du connecteur SMS](delivery/using/sms-protocol.md)
