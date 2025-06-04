@@ -4,10 +4,10 @@ title: À propos des workflows
 description: Automatisez les processus avec des workflows, gérez les données et les audiences, envoyez des messages, et bien plus encore.
 feature: Workflows, Data Management
 exl-id: 024a7344-9376-4ff3-926a-003148229f9f
-source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+source-git-commit: 83874a31321c7d06411b393e46ce2ef43d43d6ed
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 51%
 
 ---
 
@@ -17,25 +17,39 @@ Adobe Campaign comprend un module de workflow qui vous permet d’orchestrer l�
 
 Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
 
-Un workflow peut également faire intervenir des opérateurs afin de notifier ou valider une opération ou faire un choix. Ainsi, il est possible de créer une action de diffusion, d&#39;assigner une tâche à un ou plusieurs opérateurs qui seront chargés de saisir son contenu ou spécifier sa cible, puis de faire valider le BAT avant de démarrer la diffusion.
+![](assets/do-not-localize/workflow.jpg){width="40%" align="center"}
 
-Les workflows interviennent dans différents contextes et à différentes étapes du processus de gestion des campagnes.
 
-Pour en savoir plus sur la gestion des workflows, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=fr){target=_blank}.
+>[!BEGINTABS]
 
-![](assets/do-not-localize/workflow.jpg){width="40%"}
+>[!TAB Documentation des workflows]
 
-Découvrez les étapes clés liées à la gestion des workflows :
+Pour en savoir plus sur la gestion des workflows, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=fr){target=_blank}.
 
-* [Activités de workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=fr){target=_blank} : une activité décrit un modèle de tâche. Les workflows comprennent les activités de ciblage, de contrôle de flux, d’action et d’événement.
 
-* [Créer un workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=fr){target=_blank} : découvrez comment créer et exécuter des workflows de ciblage, de campagne et techniques.
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=fr){target=_blank}
 
-* [Bonnes pratiques](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=fr){target=_blank} : découvrez les instructions pour optimiser les performances des workflows de Campaign, améliorer la conception de vos workflows et sélectionner les paramètres appropriés.
 
-* [Surveiller les workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target=_blank} : découvrez comment surveiller l’exécution des workflows pour vous assurer que tout fonctionne correctement.
+>[!TAB Liens utiles]
 
-* [Cas d’utilisation des workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html?lang=fr){target=_blank} : découvrez les différents contextes dans lesquels les workflows peuvent être utilisés et comment les implémenter par le biais de cas d’utilisation de bout en bout.
+Découvrez les étapes clés liées à la gestion des workflows dans la documentation de Campaign v8 :
+
+* [Activités de workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=fr){target=_blank} : une activité décrit un modèle de tâche. Les workflows comprennent les activités de ciblage, de contrôle de flux, d’action et d’événement.
+
+* [Créer un workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=fr){target=_blank} : découvrez comment créer et exécuter des workflows de ciblage, de campagne et techniques.
+
+* [Bonnes pratiques ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=fr){target=_blank} : découvrez les directives pour optimiser les performances des workflows de Campaign, améliorer la conception de vos workflows et sélectionner les paramètres appropriés.
+
+* [Surveiller les workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target=_blank} : découvrez comment surveiller l’exécution des workflows pour vous assurer que tout fonctionne correctement.
+
+* [Cas d&#39;utilisation de workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html?lang=fr){target=_blank} : découvrez les différents contextes dans lesquels les workflows peuvent être utilisés et comment les implémenter par le biais de cas d&#39;utilisation de bout en bout.
+
+
+>[!ENDTABS]
+
+
+
+
 
 <!--
 
