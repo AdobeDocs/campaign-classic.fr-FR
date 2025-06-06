@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: d2292711cf67332eda3fe9bed78248ab62ca1818
+source-git-commit: 1e88021c9209bd23c3c949380f553473e890a9ce
 workflow-type: tm+mt
-source-wordcount: '2575'
-ht-degree: 89%
+source-wordcount: '2571'
+ht-degree: 92%
 
 ---
 
@@ -52,13 +52,13 @@ ht-degree: 89%
          + [Développement](platform/using/faq-developers.md)
          + [Tutoriels](platform/using/tutorials.md)
       + [Glossaire](platform/using/ac-glossary.md)
-   + Confidentialité {#privacy}
-      + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
-      + [Gestion de la confidentialité](platform/using/privacy-management.md)
-      + Demandes d&#39;accès à des informations personnelles  {#privacy-requests}
-         + [À propos des demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
-         + [Créer et gérer les demandes d’accès à des informations personnelles](platform/using/privacy-requests-ui.md)
-         + [Processus automatique de demande d&#39;accès à des informations personnelles](platform/using/privacy-requests-api.md)
+      + Confidentialité {#privacy}
+         + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
+         + [Gestion de la confidentialité](platform/using/privacy-management.md)
+         + Demandes d&#39;accès à des informations personnelles  {#privacy-requests}
+            + [À propos des demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
+            + [Créer et gérer les demandes d’accès à des informations personnelles](platform/using/privacy-requests-ui.md)
+            + [Processus automatique de demande d&#39;accès à des informations personnelles](platform/using/privacy-requests-api.md)
          + [Droit d&#39;opposition (opt-out) à la vente des informations personnelles](platform/using/privacy-requests-ccpa.md)
    + Gérer les profils {#profile-management}
       + [À propos des profils](platform/using/about-profiles.md)
@@ -67,7 +67,7 @@ ht-degree: 89%
       + [Gestion des profils](platform/using/managing-profiles.md)
       + [Mise à jour de données](platform/using/updating-data.md)
       + [Importation et exportation de profils](platform/using/exporting-and-importing-profiles.md)
-      + [Création et gestion de listes](platform/using/creating-and-managing-lists.md)
+   + [Création et gestion de listes](platform/using/creating-and-managing-lists.md)
    + Importer et exporter des données {#importing-and-exporting-data}
       + [Prise en main de l&#39;import et de l&#39;export de données](platform/using/get-started-data-import-export.md)
       + [Utilisation de workflows pour importer et exporter des données](platform/using/import-export-workflows.md)
@@ -111,41 +111,41 @@ ht-degree: 89%
 + Création et envoi de messages {#sending-messages}
    + [Commencer avec les messages](delivery/using/communication-channels.md)
    + [Paramètres de diffusion](delivery/using/delivery-settings.md)
-   + Etapes clés lors de la création d&#39;une diffusion {#key-steps-when-creating-a-delivery}
+   + Démarrage rapide {#key-steps-when-creating-a-delivery}
       + [Prise en main des diffusions](delivery/using/steps-about-delivery-creation-steps.md)
       + [Création et identification d’une diffusion](delivery/using/steps-create-and-identify-the-delivery.md)
       + [Définition de l’audience](delivery/using/steps-defining-the-target-population.md)
       + [Validation de la diffusion](delivery/using/steps-validating-the-delivery.md)
       + [Envoi de la diffusion](delivery/using/steps-sending-the-delivery.md)
       + [Bonnes pratiques relatives à la diffusion](delivery/using/delivery-best-practices.md)
-      + Bonnes pratiques relatives à la diffusion {#delivery-bestpractices}
-         + [Optimisation de votre diffusion](delivery/using/optimize-delivery.md)
-         + [Utilisation de modèles](delivery/using/use-templates.md)
-         + [Créer du contenu personnalisé](delivery/using/design-and-personalize.md)
-         + [Définition de l&#39;audience appropriée](delivery/using/define-the-right-audience.md)
-         + [Vérification avant envoi](delivery/using/check-before-sending.md)
-         + [Tracker et suivre vos diffusions](delivery/using/track-and-monitor.md)
-+ Envoyer des e-mails {#sending-emails}
-+ [Prise en main des emails](delivery/using/about-email-channel.md)
-+ [Envoyer avec le MTA amélioré](delivery/using/sending-with-enhanced-mta.md)
-+ [Créer une diffusion email](delivery/using/creating-an-email-delivery.md)
-+ [Définir le contenu de l’e-mail](delivery/using/defining-the-email-content.md)
-+ [Définition du contenu interactif](delivery/using/defining-interactive-content.md)
-+ Envoyer le de diffusion e-mail {#sending-an-email}
-+ [Étapes principales pour envoyer un e-mail](delivery/using/sending-messages.md)
-+ [Paramètres de l’e-mail](delivery/using/email-parameters.md)
-+ [Envoyer sur des mobiles japonais](delivery/using/sending-emails-on-japanese-mobiles.md)
-+ [ Joindre des fichiers ](delivery/using/attaching-files.md)
-+ Envoyer un SMS {#sending-messages-on-mobiles}
-+ [Prise en main des SMS](delivery/using/sms-channel.md)
-+ Configurer les du canal SMS {#sms-set-up}
-+ [Configuration de SMS sur une instance autonome](delivery/using/sms-set-up.md)
-+ [Configuration des SMS sur une infrastructure de mid-sourcing](delivery/using/sms-set-up-mid.md)
-+ [Protocole et paramètres du connecteur SMS](delivery/using/sms-protocol.md)
-+ [ Configuration supplémentaire ](delivery/using/sms-send.md)
-+ [Dépannage des SMS](delivery/using/troubleshooting-sms.md)
-+ [Créer un SMS](delivery/using/sms-create.md)
-+ [Migration vers le connecteur SMPP générique étendu](delivery/using/unsupported-connector-migration.md)
+   + Bonnes pratiques relatives à la diffusion {#delivery-bestpractices}
+      + [Optimisation de votre diffusion](delivery/using/optimize-delivery.md)
+      + [Utilisation de modèles](delivery/using/use-templates.md)
+      + [Créer du contenu personnalisé](delivery/using/design-and-personalize.md)
+      + [Définition de l&#39;audience appropriée](delivery/using/define-the-right-audience.md)
+      + [Vérification avant envoi](delivery/using/check-before-sending.md)
+      + [Tracker et suivre vos diffusions](delivery/using/track-and-monitor.md)
+   + Envoyer des e-mails {#sending-emails}
+      + [Commencer avec les e-mails](delivery/using/about-email-channel.md)
+      + [Envoi avec le MTA amélioré](delivery/using/sending-with-enhanced-mta.md)
+      + [Création d’une diffusion par e-mail](delivery/using/creating-an-email-delivery.md)
+      + [Définition du contenu de l’e-mail](delivery/using/defining-the-email-content.md)
+      + [Définition du contenu interactif](delivery/using/defining-interactive-content.md)
+      + Envoyer la diffusion e-mail {#sending-an-email}
+         + [Étapes principales de l’envoi d’un e-mail](delivery/using/sending-messages.md)
+         + [Paramètres de l’e-mail](delivery/using/email-parameters.md)
+         + [Envois sur mobiles japonais](delivery/using/sending-emails-on-japanese-mobiles.md)
+      + [Joindre des fichiers](delivery/using/attaching-files.md)
+   + Envoyer un SMS {#sending-messages-on-mobiles}
+      + [Prise en main des SMS](delivery/using/sms-channel.md)
+      + Configurer le canal SMS {#sms-set-up}
+         + [Configurer les SMS sur une instance autonome](delivery/using/sms-set-up.md)
+         + [Configurer les SMS sur une infrastructure midsourcing](delivery/using/sms-set-up-mid.md)
+         + [Protocole et paramètres du connecteur SMS](delivery/using/sms-protocol.md)
+         + [Configuration supplémentaire](delivery/using/sms-send.md)
+         + [Résolution des problèmes de SMS](delivery/using/troubleshooting-sms.md)
+      + [Créer un SMS](delivery/using/sms-create.md)
+      + [Migration vers le connecteur SMPP générique étendu](delivery/using/unsupported-connector-migration.md)
    + [Envoi de messages LINE](delivery/using/line-channel.md)
    + Envoyer des notifications push {#sending-push-notifications}
       + [Prise en main du canal des applications mobiles](delivery/using/about-mobile-app-channel.md)
@@ -209,9 +209,9 @@ ht-degree: 89%
       + [Statuts de diffusion](delivery/using/delivery-statuses.md)
       + [Présentation des diffusions en échec](delivery/using/understanding-delivery-failures.md)
       + [Présentation de la gestion des quarantaines](delivery/using/understanding-quarantine-management.md)
-   + Suivi des messages {#tracking-messages}
-      + [À propos du tracking des messages](delivery/using/about-message-tracking.md)
-      + [Comment configurer des liens suivis](delivery/using/how-to-configure-tracked-links.md)
+      + Suivi des messages {#tracking-messages}
+         + [À propos du tracking des messages](delivery/using/about-message-tracking.md)
+         + [Comment configurer des liens suivis](delivery/using/how-to-configure-tracked-links.md)
       + Suivi des liens personnalisés {#tracking-personalized-links}
          + [Prise en main du tracking des liens personnalisés](delivery/using/tracking-personalized-links.md)
          + [Détection des URL de tracking](delivery/using/detecting-tracking-urls.md)
@@ -477,28 +477,28 @@ ht-degree: 89%
          + [Chargement du contenu de la diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle      {#monitoring}
-         + [Envoi d’un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
-         + [Supervision de vos workflows](workflow/using/supervising-workflows.md)
-         + [Envoi d’alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
-      + Gestion des données {#data-management}
-         + [Coordination des mises à jour de données](workflow/using/coordinating-data-updates.md)
-         + [Création d’une liste récapitulative](workflow/using/creating-a-summary-list.md)
-         + [Enrichissement des données](workflow/using/enriching-data.md)
-         + [Utilisation d’agrégats](workflow/using/using-aggregates.md)
-         + [Utilisation de la fonctionnalité de fusion de l’activité de déduplication](workflow/using/deduplication-merge.md)
-         + [Configuration d’un workflow d’import récurrent](workflow/using/recurring-import-workflow.md)
-      + Requêtes de conception {#designing-queries}
-         + [Mettre à jour la liste trimestrielle à l’aide d’une requête incrémentielle](workflow/using/quarterly-list-update.md)
-      + Requête et filtre {#designing-queries}
-         + [Requête de la table des destinataires](workflow/using/querying-recipient-table.md)
-         + [Informations sur la diffusion de requêtes](workflow/using/querying-delivery-information.md)
-         + [Exécution du calcul d’agrégats](workflow/using/performing-aggregate-computing.md)
-         + [Requête avec gestion des regroupements](workflow/using/querying-using-grouping-management.md)
-         + [Requête avec une relation multiple-à-multiple](workflow/using/querying-using-many-to-many-relationship.md)
-         + [Ajout d’un champ calculé de type Énumérations](workflow/using/adding-enumeration-type-calculated-field.md)
-         + [Créer un filtre](workflow/using/creating-a-filter.md)
-         + [Filtrage des destinataires dupliqués](workflow/using/filtering-duplicated-recipients.md)
+   + Contrôle      {#monitoring}
+      + [Envoi d’un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
+      + [Supervision de vos workflows](workflow/using/supervising-workflows.md)
+      + [Envoi d’alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
+   + Gestion des données {#data-management}
+      + [Coordination des mises à jour de données](workflow/using/coordinating-data-updates.md)
+      + [Création d’une liste récapitulative](workflow/using/creating-a-summary-list.md)
+      + [Enrichissement des données](workflow/using/enriching-data.md)
+      + [Utilisation d’agrégats](workflow/using/using-aggregates.md)
+      + [Utilisation de la fonctionnalité de fusion de l’activité de déduplication](workflow/using/deduplication-merge.md)
+      + [Configuration d’un workflow d’import récurrent](workflow/using/recurring-import-workflow.md)
+   + Requêtes de conception {#designing-queries}
+      + [Mettre à jour la liste trimestrielle à l’aide d’une requête incrémentielle](workflow/using/quarterly-list-update.md)
+   + Requête et filtre {#designing-queries}
+      + [Requête de la table des destinataires](workflow/using/querying-recipient-table.md)
+      + [Informations sur la diffusion de requêtes](workflow/using/querying-delivery-information.md)
+      + [Exécution du calcul d’agrégats](workflow/using/performing-aggregate-computing.md)
+      + [Requête avec gestion des regroupements](workflow/using/querying-using-grouping-management.md)
+      + [Requête avec une relation multiple-à-multiple](workflow/using/querying-using-many-to-many-relationship.md)
+      + [Ajout d’un champ calculé de type Énumérations](workflow/using/adding-enumeration-type-calculated-field.md)
+      + [Créer un filtre](workflow/using/creating-a-filter.md)
+      + [Filtrage des destinataires dupliqués](workflow/using/filtering-duplicated-recipients.md)
    + Surveiller les workflows {#monitoring-workflows}
       + [Surveillance de l’exécution des workflows](workflow/using/monitoring-workflow-execution.md)
       + [Surveillance des workflows techniques](workflow/using/monitoring-technical-workflows.md)
@@ -625,12 +625,12 @@ ht-degree: 89%
          + [Intégration dans un serveur web](installation/using/integration-into-a-web-server-for-linux.md)
       + [Gestion des fuseaux horaires](installation/using/time-zone-management.md)
       + [Installation d’un serveur de midsourcing](installation/using/mid-sourcing-server.md)
-   + Déploiement de Campaign (On-premise) {#initial-configuration}
-      + [Principales étapes](installation/using/about-initial-configuration.md)
-      + [Création d’une instance et connexion](installation/using/creating-an-instance-and-logging-on.md)
-      + [Créer et paramétrer la base de données](installation/using/creating-and-configuring-the-database.md)
-      + [Déploiement d’une instance](installation/using/deploying-an-instance.md)
-      + [Installation de packages natifs](installation/using/installing-campaign-standard-packages.md)
+      + Déploiement de Campaign (On-premise) {#initial-configuration}
+         + [Principales étapes](installation/using/about-initial-configuration.md)
+         + [Création d’une instance et connexion](installation/using/creating-an-instance-and-logging-on.md)
+         + [Créer et paramétrer la base de données](installation/using/creating-and-configuring-the-database.md)
+         + [Déploiement d’une instance](installation/using/deploying-an-instance.md)
+         + [Installation de packages natifs](installation/using/installing-campaign-standard-packages.md)
    + Configuration de Campaign {#additional-configurations}
       + [Paramétrage du serveur Campaign](installation/using/configuring-campaign-server.md)
       + [Définition de zones de sécurité](installation/using/security-zones.md)
@@ -670,10 +670,10 @@ ht-degree: 89%
             + [Configurer Sybase IQ](installation/using/configure-fda-sybase.md)
             + [Configurer Teradata](installation/using/configure-fda-teradata.md)
             + [Configurer Vertica Analytics](installation/using/configure-fda-vertica.md)
-         + [Droits d’accès distants](installation/using/remote-database-access-rights.md)
-         + [Connexion à la base de données](installation/using/connecting-to-database.md)
-         + [Création du schéma de données](installation/using/creating-data-schema.md)
-         + [Définition du mapping des données](installation/using/defining-data-mapping.md)
+      + [Droits d’accès distants](installation/using/remote-database-access-rights.md)
+      + [Connexion à la base de données](installation/using/connecting-to-database.md)
+      + [Création du schéma de données](installation/using/creating-data-schema.md)
+      + [Définition du mapping des données](installation/using/defining-data-mapping.md)
    + Annexes {#appendices}
       + [Fichier de configuration du serveur](installation/using/the-server-configuration-file.md)
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
