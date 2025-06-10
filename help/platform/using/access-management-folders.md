@@ -10,7 +10,7 @@ exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 6e83067cef2b08b5bee37610bfef515714756ada
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -22,14 +22,14 @@ Chaque dossier de l’arborescence de navigation de l’Explorateur dispose de d
 
 >[!NOTE]
 >
->Pour en savoir plus sur les autorisations sur les dossiers, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}.
+>Pour en savoir plus sur les autorisations appliquées aux dossiers, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}.
 
 
 ## Les dossiers et les vues {#folders-and-views}
 
 ### Qu’est-ce qu’un dossier ? {#about-folders}
 
-Les dossiers sont des nœuds dans l’arborescence Adobe Campaign. Ces nœuds sont créés à partir du bouton droit de la souris dans l’arborescence, via le menu **[!UICONTROL Ajouter un dossier]**. Par défaut, le premier menu permet d’ajouter le dossier correspondant au contexte en cours.
+Les dossiers sont des nœuds dans l’arborescence Adobe Campaign. Ces nœuds sont créés à partir du bouton droit de la souris dans l’arborescence, via le menu **[!UICONTROL Ajouter un nouveau dossier]**. Par défaut, le premier menu permet d’ajouter le dossier correspondant au contexte en cours.
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
