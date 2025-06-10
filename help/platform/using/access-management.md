@@ -42,7 +42,7 @@ Vous pouvez accorder deux types d&#39;autorisations à un utilisateur :
 
 >[!NOTE]
 >
-> * Avant de commencer à définir les autorisations, Adobe vous recommande de lire la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/campaign/kb/acc-security.html).
+> * Avant de commencer à définir les autorisations, Adobe vous recommande de lire la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).
 > * Pour en savoir plus sur les autorisations, consultez l’explication détaillée dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
 
 <!--
