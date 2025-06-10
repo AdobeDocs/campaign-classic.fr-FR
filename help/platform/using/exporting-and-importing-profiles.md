@@ -46,7 +46,7 @@ To configure and execute data imports and exports jobs, go to the **[!UICONTROL 
 
 This video explains how to import profiles in Adobe Campaign, for an occasional import.
 
->[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30597?quality=12&captions=fre_fr)
 
 Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
 -->
