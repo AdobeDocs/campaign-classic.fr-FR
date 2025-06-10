@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les étapes de construction d&#39;une requête dans Adobe Campaign sont les sui
 >
 >* Dans le requêteur générique, toutes ces étapes sont proposées. Lorsqu&#39;une requête est créée dans un autre contexte, certaines étapes peuvent être omises.\
 >L&#39;activité Requête est présentée dans [cette section](../../workflow/using/query.md).
->* Pour en savoir plus sur les requêtes et leur création, reportez-vous à la documentation de [Campaign v8](../../workflow/using/query.md).
+>* Pour en savoir plus sur les requêtes et leur création, consultez la [documentation de Campaign v8](../../workflow/using/query.md).
 
 <!--
 ## Step 1 - Choose a table {#step-1---choose-a-table}

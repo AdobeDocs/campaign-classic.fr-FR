@@ -6,9 +6,9 @@ feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -18,22 +18,22 @@ Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris
 
 Les principales fonctionnalités comprennent le ciblage, la définition et la personnalisation des messages, l’exécution des communications et les rapports opérationnels associés.
 
-Découvrez les étapes clés liées à la création de diffusions dans la documentation de Campaign v8 :
+Découvrez les étapes clés de la création d’une diffusion dans la documentation de Campaign v8 :
 
-* [Créer la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#create-the-delivery){target="_blank"} : découvrez comment créer une diffusion unique.
-* [Définir le contenu](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#content-of-the-delivery){target="_blank"} : paramétrez le contenu de la diffusion spécifique à chaque canal.
-* [Définir l&#39;audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#target-population){target="_blank"} : définissez plusieurs types de cibles : audience principale, cible du BAT, adresses de contrôle et populations témoins.
-* [Valider la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#validate-the-delivery){target="_blank"} : découvrez comment valider la diffusion avant de l’envoyer à la cible principale.
-* [Envoyer la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#configuring-and-sending-the-delivery){target="_blank"} : configurez les paramètres de diffusion et définissez comment envoyer vos messages.
-* [ Bonnes pratiques de diffusion ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"} : consultez les bonnes pratiques relatives aux fonctionnalités de diffusion de Campaign.
+* [Créer la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#create-the-delivery){target="_blank"} : apprenez à créer une diffusion unique ponctuelle.
+* [Définir le contenu](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#content-of-the-delivery){target="_blank"} : configurez le contenu de la diffusion selon les spécificités de chaque canal.
+* [Spécifier l’audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#target-population){target="_blank"} : définissez plusieurs types d’audience : audience principale, cible BAT, adresses de contrôle et groupes de contrôle.
+* [Valider la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#validate-the-delivery){target="_blank"} : découvrez comment valider la diffusion avant de l’envoyer à l’audience principale.
+* [Envoyer la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#configuring-and-sending-the-delivery){target="_blank"} : configurez les paramètres d’envoi et définissez les modalités de diffusion de vos messages.
+* [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"} : consultez les bonnes pratiques relatives aux fonctionnalités de diffusion dans Campaign.
 
-Reportez-vous également à cette [page](delivery-settings.md) pour en savoir plus sur les paramètres de diffusion Campaign Classic spécifiques.
+Consultez également cette [page](delivery-settings.md) pour en savoir plus sur les paramètres de diffusion spécifiques à Campaign Classic.
 
 <!--
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

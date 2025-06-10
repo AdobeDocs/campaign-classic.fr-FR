@@ -5,9 +5,9 @@ description: Nouvelles fonctions basées sur GCM
 feature: Technote
 exl-id: 154dee7a-a1e9-40a2-bfa5-3641382d0574
 source-git-commit: b6d64f66d287dba79be5eddec48ee852c2c7740c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Disponible dans :
 
 ### decryptString() {#decryptString-javascript}
 
-Déchiffre une chaîne de caractères avec la clé de l’instance ou toute autre clé. Cette fonction héritée peut être utilisée avec GCM. Elle est obsolète pour le déchiffrement du texte chiffré à l’aide du mode AES-CBC.
+Déchiffre une chaîne de caractères à l’aide de la clé de l’instance ou de toute autre clé. Cette fonction héritée peut être utilisée avec GCM. Elle est obsolète pour le déchiffrement du texte chiffré à l’aide du mode AES-CBC.
 
 ```
             decryptString (str [, key

@@ -8,9 +8,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ Les requêtes sont réalisées soit avec les champs disponibles de la table sél
 
 >[!NOTE]
 >
->Pour en savoir plus sur les requêtes et leur création, reportez-vous à la documentation de [Campaign v8](../../workflow/using/query.md).
+>Pour en savoir plus sur les requêtes et leur création, consultez la [documentation de Campaign v8](../../workflow/using/query.md).
 
 ![Capture d’écran montrant un exemple de requête.](assets/query_recipients_4.png)

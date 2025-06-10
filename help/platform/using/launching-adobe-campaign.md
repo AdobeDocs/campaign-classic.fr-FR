@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '77'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ La console cliente Campaign est un client riche qui vous permet de vous connecte
 
 >[!NOTE]
 >
-> Pour découvrir comment installer Adobe Campaign et vous connecter, reportez-vous à la présentation détaillée de la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/connect){target=_blank}.
+> Pour apprendre à installer et à se connecter à Adobe Campaign, consultez le guide détaillé dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/connect){target=_blank}.
 
 <!--
 ## Start Adobe Campaign {#starting-adobe-campaign}
@@ -111,6 +111,6 @@ Whenever you reach out to Adobe Customer Care team, you need to provide the vers
 
 * [Adobe Campaign Help and Support options](../../support.md)
 * [Adobe Campaign Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
-* [Adobe Experience Cloud Support and Expert sessions](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* [Adobe Experience Cloud Support and Expert sessions](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 -->

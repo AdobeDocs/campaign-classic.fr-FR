@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Ces connecteurs permettent une intégration rapide et facile des données : Ado
 >[!NOTE]
 >
 >* Cette fonctionnalité est disponible dans Adobe Campaign via le package **Connecteurs CRM** dédié.
->* Pour en savoir plus sur les connecteurs CRM et sur la connexion à Microsoft Dynamics et Salesforce, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/ac-crm/crm){target=_blank}.
+>* Pour en savoir plus sur les connecteurs CRM et sur la connexion à Microsoft Dynamics et Salesforce, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/ac-crm/crm){target=_blank}.
 
 <!--
 ### Compatible systems {#compatible-crm-systems-and-limitations}

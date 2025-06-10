@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: profile-management
 exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Les onglets et leur contenu dépendent de votre configuration et des packages in
 
 >[!NOTE]
 >
->Pour en savoir plus sur la modification des profils et l’accès à ceux-ci, consultez la documentation détaillée de la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}.
+>Pour en savoir plus sur la modification des profils et l’accès à ceux-ci, consultez la [documentation détaillée de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}.
 
 
 

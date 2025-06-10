@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Le principe des packages de données ou **data package** consiste à exporter un
 
 >[!NOTE]
 >
->Pour en savoir plus sur les packages de données, reportez-vous à la documentation [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/packages){target=_blank}.
+>Pour en savoir plus sur les packages de données, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/packages){target=_blank}.
 
 
 <!--

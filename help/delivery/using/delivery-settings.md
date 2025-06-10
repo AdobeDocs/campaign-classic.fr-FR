@@ -1,19 +1,20 @@
 ---
 product: campaign
-title: À propos des paramètres de diffusions
-description: Découvrez les paramètres de diffusion spécifiques à la v7
+title: À propos des paramètres de diffusion
+description: Découvrir les paramètres de diffusion spécifiques à la v7
 feature: Channel Configuration
 role: User
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+exl-id: 66250817-f829-4b8b-92dd-2daa92a97fe0
+source-git-commit: 00f36c639a21151bc4fccf5012e6f20c27db927e
+workflow-type: ht
 source-wordcount: '747'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Paramètres de diffusion {#about-delivery-settings}
 
-Les paramètres ci-dessous sont spécifiques à Campaign Classic. Pour connaître les autres paramètres de diffusion, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=fr){target="_blank"}.
+Les paramètres suivants sont propres à Campaign Classic. Pour les autres paramètres de diffusion, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=fr){target="_blank"}.
 
 ## Analyse des diffusions {#delivery-analysis}
 
@@ -46,7 +47,7 @@ Si une diffusion est trop volumineuse, il est préférable de lui administrer un
 >
 >Pour vous assurer que l&#39;analyse des diffusions les plus volumineuses ne freine pas le déroulement de vos workflows, il vous est possible de différer leur exécution en cochant la case **[!UICONTROL Différer l&#39;exécution vers une plage horaire de faible activité]**.
 
-## Envoi d’une diffusion {#delivery-sending}
+## Envoi de la diffusion {#delivery-sending}
 
 ### Configuration des reprises {#configuring-retries}
 

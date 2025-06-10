@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
 source-git-commit: 4fb262c616276f785f97b42bec22c150afc6e5c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '87'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Les workflows peuvent être utiles pour automatiser certains de vos imports. Que
 
 >[!NOTE]
 >
->Pour en savoir plus sur l&#39;import et l&#39;export de données à l&#39;aide de workflows, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}.
+>Pour en savoir plus sur l’import et l’export de données à l’aide de workflows, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}.
 
 
 <!--

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: befa8948-ef2e-4f4d-a002-3f26d8516a0d
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '62'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 67%
 
 
 
-Dans la plupart des cas, les profils sont [importés dans Campaign par le biais d&#39;un workflow](../../platform/using/import-export-workflows.md). Vous pouvez toutefois ajouter un ou plusieurs destinataires directement depuis l&#39;interface, en cliquant sur le bouton **[!UICONTROL Créer]**. Ils seront alors ajoutés à la base de données.
+Dans la plupart des cas, les profils sont [importés dans Campaign par le biais d’un workflow](../../platform/using/import-export-workflows.md). Vous pouvez toutefois ajouter une ou plusieurs personnes destinataires directement depuis l’interface, en cliquant sur le bouton **[!UICONTROL Créer]**. Ils seront alors ajoutés à la base de données.
 
 ![](assets/s_ncs_user_profile_add.png)
 
 >[!NOTE]
 >
->Pour en savoir plus sur la création de profils dans la console Adobe Campaign, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}.
+>Pour en savoir plus sur la création de profils dans Adobe Campaign Console, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}.
 
 
 <!--

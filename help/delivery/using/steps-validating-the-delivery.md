@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1794'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ Si une diffusion est trop volumineuse, il est préférable de lui administrer un
 
 ## Envoi d&#39;un BAT {#sending-a-proof}
 
-Pour détecter d’éventuelles erreurs dans la configuration des messages, Adobe recommande vivement de configurer un cycle de validation des diffusions. Pour cela, faites-en valider le contenu autant de fois que nécessaire en envoyant des bons à tirer auprès de destinataires test. Un BAT doit être envoyé afin de valider le contenu après chaque modification.
+Pour détecter d’éventuelles erreurs dans la configuration des messages, Adobe recommande vivement de configurer un cycle de validation de la diffusion. Pour cela, faites-en valider le contenu autant de fois que nécessaire en envoyant des BAT auprès de destinataires test. Un BAT doit être envoyé afin de valider le contenu après chaque modification.
 
 >[!NOTE]
 >

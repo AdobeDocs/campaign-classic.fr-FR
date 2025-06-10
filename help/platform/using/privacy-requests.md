@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Campaign offre aux contrôleurs de données deux moyens d&#39;effectuer l
 >[!NOTE]
 >
 >* Pour plus d’informations sur les données personnelles et sur les différentes entités qui gèrent les données (contrôleur de données, responsable du traitement des données et titulaire de données), consultez la section [Données personnelles et personas](privacy-and-recommendations.md#personal-data).
->* Pour en savoir plus sur les demandes d’accès à des informations personnelles, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/privacy/privacy){target=_blank}.
+>* Pour en savoir plus sur les demandes d’accès à des informations personnelles, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/privacy/privacy){target=_blank}.
 
 <!--
 ## Prerequisites {#prerequesites}

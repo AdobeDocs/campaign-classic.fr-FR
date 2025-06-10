@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '103'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign Classic fournit des fonctionnalités de gestion des données qu
 
 >[!NOTE]
 >
->Pour en savoir plus sur l&#39;import et l&#39;export de données vers Campaign, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target=_blank}.
+>Pour en savoir plus sur l’import et l’export de données dans Campaign, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target=_blank}.
 
 
 <!--

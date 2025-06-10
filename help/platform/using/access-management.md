@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 85%
 
 >[!CAUTION]
 >
->À compter de Campaign Classic v7.3.1, tous les opérateurs doivent utiliser [Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign.
+>À partir de Campaign Classic v7.3.1, l’ensemble des opérateurs et opératrices doivent utiliser le [système de gestion des identités Adobe (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign.
 >
 >Dans le cadre de ses efforts constants pour renforcer la sécurité et le processus d’authentification, Adobe Campaign recommande vivement de faire passer le mode d’authentification de l’ensemble des opérateurs et opératrices de l’authentification native par nom d’utilisateur/mot de passe à Adobe Identity Management System (IMS). Découvrez comment effectuer la migration de vos opérateurs et opératrices sur [cette page](../../technotes/using/migrate-users-to-ims.md).
 > 
->À l’issue de cette migration, notez que la section suivante ne s’applique plus. Découvrez comment configurer des autorisations avec Adobe IMS dans la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
+>À l’issue de cette migration, notez que la section suivante ne s’applique plus. Découvrez comment configurer des autorisations avec Adobe IMS dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
 
 
 Adobe Campaign permet de définir et de gérer les droits attribués aux différents opérateurs. Ces ensembles de droits et de restrictions permettent d&#39;autoriser ou de refuser :
@@ -42,8 +42,8 @@ Vous pouvez accorder deux types d&#39;autorisations à un utilisateur :
 
 >[!NOTE]
 >
-> * Avant de commencer à définir les autorisations, Adobe vous recommande de lire la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).
-> * Pour en savoir plus sur les autorisations, reportez-vous à l’explication détaillée de la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
+> * Avant de commencer à définir les autorisations, Adobe vous recommande de lire la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/campaign/kb/acc-security.html).
+> * Pour en savoir plus sur les autorisations, consultez l’explication détaillée dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
 
 <!--
 
