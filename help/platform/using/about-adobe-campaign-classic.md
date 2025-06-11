@@ -23,7 +23,7 @@ Adobe Campaign permet d&#39;orchestrer les différentes étapes nécessaires à
 >
 >* Les ressources d’aide de cette collection s’appliquent à Campaign Classic v7 dans son [dernier build](../../rn/using/latest-release.md). Un badge spécifique est disponible lorsqu&#39;une section s&#39;applique également à Campaign v8.
 >
->* Pour en savoir plus sur Adobe Campaign et sur la manière de le mettre en service, consultez la [documentation de Campaign v8](rhttps://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/get-started){target=_blank}.
+>* Pour en savoir plus sur Adobe Campaign et sur la manière de le mettre en service, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/get-started){target=_blank}.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrir les fonctionnalités principales en vidéo](#video)
 
