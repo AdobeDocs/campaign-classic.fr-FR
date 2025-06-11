@@ -6,7 +6,7 @@ feature: Deliverability, Troubleshooting
 role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
 ht-degree: 100%
 
