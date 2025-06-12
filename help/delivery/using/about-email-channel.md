@@ -16,7 +16,7 @@ ht-degree: 62%
 
 Avec Adobe Campaign, créez des diffusions e-mail pour envoyer des e-mails personnalisés à la population cible.
 
-Les e-mails restent l’un des canaux les plus puissants et les plus flexibles pour interagir avec vos utilisateurs au-delà de votre application ou site web. Que vous diffusiez du contenu personnalisé, des annonces ou des messages promotionnels, les e-mails vous permettent de contrôler entièrement le message et l’audience. Découvrez comment configurer et utiliser au mieux le canal e-mail : personnalisation du contenu, ciblage de segments d’utilisateurs spécifiques et intégration d’éléments multimédias riches pour optimiser l’impact et l’engagement dans la documentation d’[Adobe Campaign v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
+Les e-mails restent l’un des canaux les plus puissants et les plus flexibles pour interagir avec vos utilisateurs au-delà de votre application ou site web. Que vous diffusiez du contenu personnalisé, des annonces ou des messages promotionnels, les e-mails vous permettent de contrôler entièrement le message et l’audience. Découvrez comment configurer et utiliser au mieux le canal e-mail : personnalisation du contenu, ciblage de segments d’utilisateurs spécifiques et intégration d’éléments multimédias riches pour optimiser l’impact et l’engagement dans la documentation d’[Adobe Campaign v8 ](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
 Dans le cadre de l’initiative de promotion de Campaign v8, la documentation de Campaign Classic a été réorganisée. Les fonctionnalités courantes ne sont désormais disponibles que dans l’ensemble de documentation de Campaign v8.
 
@@ -27,10 +27,10 @@ Dans le cadre de l’initiative de promotion de Campaign v8, la documentation de
 
 >[!TAB Documentation sur le canal e-mail]
 
-Pour en savoir plus sur le canal e-mail, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
+Pour en savoir plus sur le canal e-mail, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email){target=_blank}
 
 
 >[!TAB Création d&#39;une diffusion email]
@@ -67,7 +67,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
 The key steps to send an email are as follows:
 
