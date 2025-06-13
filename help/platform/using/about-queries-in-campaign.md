@@ -7,10 +7,10 @@ feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '207'
-ht-degree: 100%
+source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 84%
 
 ---
 
@@ -26,8 +26,22 @@ Cet outil regroupe toutes les possibilités de requêtage d&#39;Adobe Campaign.
 
 Les requêtes sont réalisées soit avec les champs disponibles de la table sélectionnée, soit à l&#39;aide d&#39;une formule.
 
->[!NOTE]
->
->Pour en savoir plus sur les requêtes et leur création, consultez la [documentation de Campaign v8](../../workflow/using/query.md).
+>[!BEGINTABS]
+
+>[!TAB Documentation sur les requêtes]
+
+Pour en savoir plus sur les requêtes, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}.
+
+
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+
+
+>[!TAB Créer une requête]
+
+Découvrez les étapes clés liées à la création de la requête dans la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
+
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
+
+>[!ENDTABS]
 
 ![Capture d’écran montrant un exemple de requête.](assets/query_recipients_4.png)
