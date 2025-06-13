@@ -30,17 +30,17 @@ Les requêtes sont réalisées soit avec les champs disponibles de la table sél
 
 >[!TAB Documentation sur les requêtes]
 
-Pour en savoir plus sur les requêtes, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}.
+Pour en savoir plus sur les requêtes, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}.
 
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
 
 
 >[!TAB Créer une requête]
 
-Découvrez les étapes clés liées à la création de la requête dans la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
+Découvrez les étapes clés liées à la création de la requête dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 
 >[!ENDTABS]
 
