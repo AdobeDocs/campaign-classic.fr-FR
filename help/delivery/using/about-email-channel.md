@@ -8,15 +8,15 @@ exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 62%
+ht-degree: 92%
 
 ---
 
-# Prise en main du canal e-mail{#about-email-channel}
+# Commencer avec le canal e-mail{#about-email-channel}
 
-Avec Adobe Campaign, créez des diffusions e-mail pour envoyer des e-mails personnalisés à la population cible.
+Avec Adobe Campaign, créez des diffusions par e-mail pour envoyer des e-mails personnalisés à la population cible.
 
-Les e-mails restent l’un des canaux les plus puissants et les plus flexibles pour interagir avec vos utilisateurs au-delà de votre application ou site web. Que vous diffusiez du contenu personnalisé, des annonces ou des messages promotionnels, les e-mails vous permettent de contrôler entièrement le message et l’audience. Découvrez comment configurer et utiliser au mieux le canal e-mail : personnalisation du contenu, ciblage de segments d’utilisateurs spécifiques et intégration d’éléments multimédias riches pour optimiser l’impact et l’engagement dans la documentation d’[Adobe Campaign v8 ](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
+Les e-mails restent l’un des canaux les plus puissants et les plus flexibles pour interagir avec les personnes au-delà de votre application ou site web. Que vous diffusiez du contenu personnalisé, des annonces ou des messages promotionnels, les e-mails vous permettent de contrôler entièrement le message et l’audience. Découvrez comment configurer et utiliser au mieux le canal e-mail : personnalisation du contenu, ciblage de segments d’utilisation spécifiques et intégration d’éléments multimédias riches pour optimiser l’impact et l’engagement dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
 Dans le cadre de l’initiative de promotion de Campaign v8, la documentation de Campaign Classic a été réorganisée. Les fonctionnalités courantes ne sont désormais disponibles que dans l’ensemble de documentation de Campaign v8.
 
@@ -25,15 +25,15 @@ Dans le cadre de l’initiative de promotion de Campaign v8, la documentation de
 
 >[!BEGINTABS]
 
->[!TAB Documentation sur le canal e-mail]
+>[!TAB Documentation du canal e-mail]
 
-Pour en savoir plus sur le canal e-mail, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
+Pour en savoir plus sur le canal e-mail, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
 
 [![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email){target=_blank}
 
 
->[!TAB Création d&#39;une diffusion email]
+>[!TAB Création de diffusion par e-mail]
 
 Découvrez les étapes clés de la création d’une diffusion e-mail dans la documentation de Campaign v8 :
 
@@ -67,7 +67,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 The key steps to send an email are as follows:
 
