@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 6e83067cef2b08b5bee37610bfef515714756ada
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -65,11 +65,11 @@ Dans l&#39;exemple ci-dessous, nous allons créer des dossiers afin d&#39;affich
 1. Créez un nouveau dossier de type **[!UICONTROL Diffusions]** et nommez-le **Diffusions France**.
 1. Cliquez avec le bouton droit sur ce dossier et choisissez **[!UICONTROL Propriétés...]**.
 
-   ![Capture d’écran affichant un clic droit sur les propriétés](assets/s_ncs_user_add_folder_exple.png)
+   ![Copie d’écran montrant un clic droit sur les propriétés](assets/s_ncs_user_add_folder_exple.png)
 
-1. Depuis l&#39;onglet **[!UICONTROL Restriction]**, sélectionnez l&#39;option **[!UICONTROL Ce dossier est une vue]** : toutes les diffusions de la base y seront alors affichées.
+1. Depuis l’onglet **[!UICONTROL Restriction]**, sélectionnez l’option **[!UICONTROL Ce dossier est une vue]** : toutes les diffusions de la base de données y seront alors affichées.
 
-   ![Capture d’écran affichant la case d’affichage cochée](assets/s_ncs_user_add_folder_exple01.png)
+   ![Copie d’écran affichant la case d’affichage cochée](assets/s_ncs_user_add_folder_exple01.png)
 
 1. Définissez les critères de filtrage des diffusions à partir du requêteur proposé dans la section centrale de la fenêtre : les campagnes affichées seront alors celles qui correspondent au filtre défini.
 
@@ -79,7 +79,7 @@ Dans l&#39;exemple ci-dessous, nous allons créer des dossiers afin d&#39;affich
 
    Avec les conditions de filtrage suivantes :
 
-![Capture d’écran affichant les différentes conditions de filtrage](assets/s_ncs_user_add_folder_exple00.png)
+![Copie d’écran affichant les différentes conditions de filtrage](assets/s_ncs_user_add_folder_exple00.png)
 
 Les diffusions suivantes seront affichées dans la vue :
 
