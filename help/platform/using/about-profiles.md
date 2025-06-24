@@ -139,7 +139,7 @@ Learn how to access profile data, sort and filter profiles and manually create a
 
 This video also explains the compliance of Adobe Campaign Classic with General Data Protection Regulations. 
 
->[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424578?quality=12&captions=fre_fr)
 
 Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
 
