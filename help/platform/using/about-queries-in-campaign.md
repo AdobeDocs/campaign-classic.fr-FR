@@ -8,9 +8,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
 source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Les requêtes sont réalisées soit avec les champs disponibles de la table sél
 
 >[!TAB Documentation sur les requêtes]
 
-Pour en savoir plus sur les requêtes, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}.
+Pour en savoir plus sur les requêtes, consultez la [documentation Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}.
 
 
 [![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
@@ -38,7 +38,7 @@ Pour en savoir plus sur les requêtes, consultez la documentation de [Campaign v
 
 >[!TAB Créer une requête]
 
-Découvrez les étapes clés liées à la création de la requête dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
+Découvrez les principales étapes liées à la création d’une requête dans la [documentation Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
 
 [![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 

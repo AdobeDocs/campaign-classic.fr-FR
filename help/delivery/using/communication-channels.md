@@ -6,9 +6,9 @@ feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '978'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris
 
 Les principales fonctionnalités comprennent le ciblage, la définition et la personnalisation des messages, l’exécution des communications et les rapports opérationnels associés.
 
-Dans le cadre de l’initiative de promotion de Campaign v8, la documentation de Campaign Classic a été réorganisée. Les fonctionnalités courantes ne sont désormais disponibles que dans l’ensemble de documentation de Campaign v8.
+Dans le cadre de l’initiative de promotion de Campaign v8, la documentation de Campaign Classic a été réorganisée. Les fonctionnalités communes sont désormais uniquement disponibles dans l’ensemble documentaire de Campaign v8.
 
 
 
@@ -26,7 +26,7 @@ Dans le cadre de l’initiative de promotion de Campaign v8, la documentation de
 
 >[!TAB Documentation sur les canaux de communication]
 
-Pour en savoir plus sur les canaux de communication, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=fr){target=_blank}.
+Pour en savoir plus sur les canaux de communication, consultez la [documentation Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=fr){target=_blank}.
 
 
 [![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=fr){target=_blank}
@@ -34,7 +34,7 @@ Pour en savoir plus sur les canaux de communication, consultez la [documentation
 
 >[!TAB Contenu de la diffusion et audience]
 
-Découvrez les étapes clés liées à la création de diffusions, au contenu et à l&#39;audience dans la documentation de Campaign v8 :
+Découvrez les principales étapes liées à la création d’une diffusion, à son contenu et à l’audience dans la documentation Campaign v8.
 
 * [Créer la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#create-the-delivery){target="_blank"} : apprenez à créer une diffusion unique ponctuelle.
 * [Définir le contenu](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#content-of-the-delivery){target="_blank"} : configurez le contenu de la diffusion selon les spécificités de chaque canal.
@@ -43,7 +43,7 @@ Découvrez les étapes clés liées à la création de diffusions, au contenu et
 
 >[!TAB Validation et envoi de la diffusion]
 
-Consultez ces pages pour découvrir les bonnes pratiques en matière de validation, d’envoi et de diffusion dans la documentation de Campaign v8 :
+Consultez ces pages pour en savoir plus sur la validation, l’envoi et les bonnes pratiques liées à la diffusion dans la documentation Campaign v8 :
 
 * [Valider la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#validate-the-delivery){target="_blank"} : découvrez comment valider la diffusion avant de l’envoyer à l’audience principale.
 * [Envoyer la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#configuring-and-sending-the-delivery){target="_blank"} : configurez les paramètres d’envoi et définissez les modalités de diffusion de vos messages.
@@ -53,9 +53,9 @@ Consultez ces pages pour découvrir les bonnes pratiques en matière de validati
 
 Les paramètres suivants sont propres à Campaign Classic. Pour les autres paramètres de diffusion, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=fr){target="_blank"}.
 
-+++ **Analyse des diffusions**
++++ **Analyse de diffusion**
 
-**Amélioration des performances de l’analyse de la diffusion**
+**Améliorer les performances de l’analyse de diffusion**
 
 Pour accélérer la préparation de la diffusion, vous pouvez cocher l’option **[!UICONTROL Préparer les fragments de diffusion dans la base de données]** avant de lancer l’analyse.
 
@@ -86,7 +86,7 @@ Si une diffusion est trop volumineuse, il est préférable de lui administrer un
 
 +++
 
-+++ **Envoi de diffusion**
++++ **Envoi de la diffusion**
 
 **Configurer les reprises**
 
@@ -126,7 +126,7 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >
