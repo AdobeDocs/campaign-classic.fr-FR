@@ -5,11 +5,13 @@ description: En savoir plus sur les versions de Campaign Classic 2022
 feature: Release Notes
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 28490323-41d0-4d61-b309-6892fb826d21
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 100%
+source-wordcount: '2101'
+ht-degree: 99%
 
 ---
 
@@ -145,7 +147,7 @@ Adobe Campaign est désormais compatible avec Windows Server 2019. Reportez-v
 **Autres changements**
 
 * Suite à leur abandon, les activités d’action Microsoft CRM, Salesforce et Oracle CRM On Demand ont été supprimées de l’interface. Pour configurer la synchronisation des données entre Adobe Campaign et un système CRM, vous pouvez utiliser l’activité Connecteur CRM. [En savoir plus](../../workflow/using/crm-connector.md)
-* Le champ **[!UICONTROL Identifiant chiffré]** a été ajouté au schéma des visiteurs (nms:visitor). Ce champ est calculé et doit être utilisé pour les applications web. Cela s’applique lorsque le canal LINE est configuré sur l’instance de midsourcing.
+* Le champ **[!UICONTROL Identifiant chiffré]** a été ajouté au schéma des visiteurs (nms:visitor). Ce champ est calculé et doit être utilisé pour les applications web. Cela s’applique lorsque le canal LINE est configuré sur l’instance de midsourcing.
 * Les sources de données CRM peuvent désormais être utilisées avec l’activité **Modifier la source de données**.
 * Une nouvelle option a été ajoutée dans les propriétés de **Gestion des erreurs** des activités de workflow : l’option **Abandon en cas d’erreur** arrête automatiquement le workflow. Vous ne pouvez pas le redémarrer par la suite (NEO-29661). [En savoir plus](../../workflow/using/advanced-parameters.md#in-case-of-errors)
 * Une séquence dédiée est désormais utilisée pour générer les clés primaires de la table nmsGroup, qui sert à créer des groupes statistiques de destinataires. Auparavant, la séquence XtkNewId était utilisée. (NEO-30832)

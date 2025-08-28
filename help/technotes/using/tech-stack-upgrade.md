@@ -3,8 +3,10 @@ product: campaign
 title: Note technique - mises à niveau du système Adobe Campaign
 description: Mise à niveau du système Adobe Campaign
 feature: Technote, Upgrade
+hide: true
+hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 100%

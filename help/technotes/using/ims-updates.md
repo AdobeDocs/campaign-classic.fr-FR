@@ -3,11 +3,13 @@ product: campaign
 title: Note technique - Mise à jour de votre environnement pour vous connecter à Adobe Campaign avec IMS
 description: Campaign - Mises à jour d'IMS
 feature: Technote, Upgrade
+hide: true
+hidefromtoc: true
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -23,7 +25,7 @@ Adobe Identity Management Service (IMS) ne prend plus en charge les anciennes
 
 Adobe souhaite conserver la fonctionnalité IMS pour tous les clients après le 30 juin 2021. IMS fait partie de l&#39;infrastructure de sécurité qui permet aux utilisateurs de se connecter à la console cliente, et donc à Adobe Campaign.
 
-Pour préserver cette fonctionnalité, les clients doivent mettre à jour la console cliente sur l&#39;ordinateur de chaque utilisateur et s&#39;assurer que la dernière mise à jour de votre [version Windows](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), avec **Internet Explorer 11** natif, est installée sur l&#39;ordinateur de chaque utilisateur.
+Pour préserver cette fonctionnalité, les clients doivent mettre à jour la console cliente sur l’ordinateur de chaque utilisateur et s’assurer que la dernière mise à jour de votre [version de Windows](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), avec **Internet Explorer 11** intégré, est installée sur l’ordinateur de chaque utilisateur.
 
 ## Cela vous concerne-t-il ?
 
@@ -47,7 +49,7 @@ Si vous avez déjà effectué la mise à niveau, mais que vous utilisez une anci
 
   Ces versions sont dotées d&#39;un nouveau protocole de connexion. La mise à niveau est obligatoire pour le serveur Campaign et la console cliente : une fois toutes les instances mises à niveau, la console cliente doit également être mise à niveau vers cette version pour pouvoir se connecter à Campaign après le **30 juin 2021**.
 
-De plus, assurez-vous que la dernière mise à jour de votre [version de Windows](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), avec **Internet Explorer 11** natif, est installée sur l&#39;ordinateur de chaque utilisateur.
+En outre, assurez-vous que la dernière mise à jour de votre [version de Windows](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), avec **Internet Explorer 11** intégré, est installée sur l’ordinateur de chaque utilisateur.
 
 ## FAQ
 
