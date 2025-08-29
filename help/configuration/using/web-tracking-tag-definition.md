@@ -6,7 +6,7 @@ feature: Application Settings
 role: Data Engineer, Developer
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
 ht-degree: 100%
 
