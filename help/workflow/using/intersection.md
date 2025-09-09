@@ -6,10 +6,10 @@ feature: Workflows, Targeting Activity
 hide: true
 hidefromtoc: true
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 3ffa32fbaa588904b79a1343c39f5b5b5f2b134f
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '443'
+ht-degree: 93%
 
 ---
 
@@ -19,10 +19,6 @@ ht-degree: 100%
 >id="ac_workflow_intersection"
 >title="Activité Intersection"
 >abstract="Une activité de type Intersection crée une cible à partir de l’intersection des cibles reçues. Une intersection permet d’extraire uniquement la population commune à tous les résultats de l’activité entrante."
->additional-url="https://video.tv.adobe.com/v/341367?captions=fre_fr" text="Regarder une vidéo de démonstration"
-
-
-
 
 Une activité de type **Intersection** crée une cible à partir de l&#39;intersection des cibles reçues.
 
@@ -32,7 +28,7 @@ Une intersection permet de n&#39;extraire que la population commune à tous les 
 
 Pour plus d&#39;informations sur la configuration et l&#39;utilisation de l&#39;activité Intersection, voir la section [Extraire les données communes (Intersection)](targeting-data.md#extracting-joint-data--intersection-).
 
-Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire contiendra l&#39;union des résultats de toutes les activités entrantes, moins l&#39;intersection. Une seconde transition sortante sera alors ajoutée à l&#39;activité, comme suit :
+Cochez l’option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une seconde transition sortante sera alors ajoutée à l’activité, comme suit :
 
 ![](assets/s_user_segmentation_inter_compl.png)
 
@@ -57,14 +53,14 @@ Dans l&#39;exemple suivant, l&#39;intersection a pour but de calculer les destin
 ## Paramètres d&#39;entrée {#input-parameters}
 
 * tableName
-* schema
+* schéma
 
 Chacun des événements entrants doit spécifier une cible définie par ces paramètres.
 
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schema
+* schéma
 * recCount
 
-Ce triplet de valeurs identifie la cible résultant de l&#39;intersection. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement **[!UICONTROL nms:recipient]**) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
+Ce triplet de valeurs identifie la cible résultant de l&#39;intersection. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement **[!UICONTROL nms:recipient]**) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
