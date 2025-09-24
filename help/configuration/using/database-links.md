@@ -6,8 +6,8 @@ feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 exl-id: e05dcd81-bbca-4767-8da3-ea064f7f6c8e
 source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
-workflow-type: tm+mt
-source-wordcount: '933'
+workflow-type: ht
+source-wordcount: '924'
 ht-degree: 100%
 
 ---
@@ -80,7 +80,7 @@ Les valeurs possibles sont les suivantes :
 
 ## Exemple : lien inverse {#example-1}
 
-Dans l’exemple ci-dessous, nous déclarons une relation 1-N à la table de schémas « cus:company » :
+Dans l’exemple ci-dessous, nous déclarons une relation 1-N à la table de schémas « cus:company » :
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
@@ -112,7 +112,7 @@ La définition du lien est complétée avec les champs composant la jointure, c�
 
 La clé étrangère est ajoutée automatiquement dans un élément reprenant les même caractéristiques que le champ associé dans la table destination avec comme convention de nommage le nom du schéma cible suivi du nom du champ associé (&quot;company-id&quot; dans notre exemple).
 
-Le schéma étendu de la cible (&quot;cus:company&quot;) :
+Schéma étendu de la cible (« cus:company ») :
 
 ```sql
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
@@ -133,11 +133,11 @@ Le schéma étendu de la cible (&quot;cus:company&quot;) :
 </schema>
 ```
 
-Un lien réverse vers la table &quot;cus:recipient&quot; a été ajouté avec les paramètres suivant :
+Un lien inverse vers la table « cus:recipient » a été ajouté avec les paramètres suivant :
 
 * **name** : déduit automatiquement avec le nom du schéma source (peut être forcé avec l&#39;attribut &quot;revLink&quot; dans la définition du lien sur le schéma source)
 * **revLink** : nom du lien réverse
-* **target** : clé du schéma lié (schéma &quot;cus:recipient&quot;)
+* **target** : clé du schéma lié (schéma « cus:recipient »)
 * **unbound** : le lien est déclaré comme élément de collection pour une cardinalité 1-N (par défaut)
 * **integrity** : par défaut &quot;define&quot; (peut être forcée avec l&#39;attribut &quot;revIntegrity&quot; dans la définition du lien sur le schéma source)
 
@@ -158,7 +158,7 @@ Dans cet exemple, nous déclarons un lien vers la table de schémas « nms:addr
 
 ## Exemple : cardinalité unique {#example-3}
 
-Dans cet exemple, nous créons une relation 1-1 avec la table de schémas « cus:extension » :
+Dans cet exemple, nous créons une relation 1-1 avec la table de schémas « cus:extension » :
 
 ```sql
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>

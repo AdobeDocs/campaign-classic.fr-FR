@@ -6,9 +6,9 @@ feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ Une clé est déclarée à partir de l’élément principal du schéma de donn�
 
 Une clé est dite primaire lorsqu’elle est renseignée en premier dans le schéma ou si elle contient l’attribut `internal` avec la valeur « true ».
 
-Les règles suivantes s&#39;appliquent aux clés :
+Les règles suivantes s’appliquent aux clés :
 
-* Une clé peut référencer un ou plusieurs champs de la table
-* Un index unique est implicitement déclaré pour chaque définition de clé. Il est possible d’empêcher la création d’un index sur la clé en définissant l’attribut `noDbIndex` sur « true ».
+* Une clé peut référencer un ou plusieurs champs de la table.
+* Un index unique est implicitement déclaré pour chaque définition de clé. Il est possible d’empêcher la création de l’index sur la clé en définissant l’attribut `noDbIndex` sur « true ».
 
 >[!NOTE]
 >
@@ -126,11 +126,11 @@ Les règles suivantes s&#39;appliquent aux clés :
 
 ## Clé auto-incrémentale {#auto-incremental-key}
 
-La clé primaire de la plupart des tables Adobe Campaign est un entier long 32 bits auto-généré par le moteur de base de données. Le calcul de la valeur de la clé repose sur une séquence (par défaut la fonction SQL **XtkNewId**) générant un nombre unique dans toute la base. Le contenu de la clé est automatiquement renseigné à l&#39;insertion de l&#39;enregistrement.
+La clé primaire de la plupart des tables Adobe Campaign est un entier long 32 bits auto-généré par le moteur de base de données. Le calcul de la valeur de la clé repose sur une séquence (par défaut, la fonction SQL **XtkNewId**) générant un nombre unique dans toute la base de données. Le contenu de la clé est automatiquement renseigné à l’insertion de l’enregistrement.
 
 L’avantage d’une clé incrémentale est d’obtenir une clé technique non modifiable utilisée pour les jointures entre les tables. De plus, cette clé n’est pas consommatrice car elle utilise un entier sur deux octets.
 
-Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser avec l’attribut **pkSequence**. Si cet attribut n’est pas indiqué dans le schéma source, la séquence **XtkNewId** par défaut est utilisée. L’application utilise des séquences dédiées pour les schémas **nms:broadLog** et **nms:trackingLog** (**NmsBroadLogId** et **NmsTrackingLogId** respectivement), car il s’agit des tables qui contiennent le plus d’enregistrements.
+Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser avec l’attribut **pkSequence**. Si cet attribut n’est pas indiqué dans le schéma source, la séquence **XtkNewId** par défaut est utilisée. L’application utilise des séquences dédiées pour les schémas **nms:broadLog** et **nms:trackingLog** (**NmsBroadLogId** et **NmsTrackingLogId**, respectivement), car il s’agit des tables qui contiennent le plus d’enregistrements.
 
 À compter d’ACC 18.10, **XtkNewId** n’est plus la valeur par défaut de la séquence dans les schémas d’usine. Vous pouvez désormais créer ou étendre un schéma avec une séquence dédiée.
 

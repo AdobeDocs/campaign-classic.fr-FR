@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 source-git-commit: 3ffa32fbaa588904b79a1343c39f5b5b5f2b134f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -63,4 +63,4 @@ Chacun des événements entrants doit spécifier une cible définie par ces para
 * schéma
 * recCount
 
-Ce triplet de valeurs identifie la cible résultant de l&#39;intersection. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement **[!UICONTROL nms:recipient]**) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
+Ce triplet de valeurs identifie la cible résultant de l&#39;intersection. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement **[!UICONTROL nms:recipient]**) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.

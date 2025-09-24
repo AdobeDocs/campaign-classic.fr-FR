@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
 source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2336'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ _7 septembre 2023_
 * Le compte externe BigQuery a été amélioré avec de nouvelles options utilisées pour configurer le SDK GCloud. (NEO-63879) [En savoir plus](../../installation/using/configure-fda-google-big-query.md#google-external)
 * Une nouvelle section `cusHeader` a été ajoutée dans le fichier de configuration du serveur (serverConf.xml). Elle vous permet d’ajouter des en-têtes personnalisés lors du chargement d’un fichier depuis un serveur externe. (NEO-58339) [En savoir plus](../../installation/using/the-server-configuration-file.md#cusheaders).
 * La gestion des logs de tracking a été améliorée afin d’éviter des identifiants négatifs pour lastMsgId. Elle est passée de int32 à int64. (NEO-52290)
-* Le workflow midsourcing (statistiques de diffusion) a été ajouté. Ce nouveau workflow synchronise les données des statistiques de diffusion (nms:deliveryStat) du mid-sourcing à l’instance marketing. (NEO-36802)
+* Le workflow midsourcing (statistiques de diffusion) a été ajouté. Ce nouveau workflow synchronise les données des statistiques de diffusion (nms:deliveryStat) de l’instance intermédiaire à l’instance marketing. (NEO-36802)
 
 ### Correctifs {#release-7-3-4-patches}
 
