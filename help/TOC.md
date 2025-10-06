@@ -6,9 +6,9 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
-workflow-type: ht
-source-wordcount: '2569'
+source-git-commit: faed7f54dc72937b24ee1ece80d17150a513fa39
+workflow-type: tm+mt
+source-wordcount: '2565'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,7 @@ ht-degree: 100%
          + [Prise en main de l’UI de Campaign](platform/using/adobe-campaign-workspace.md)
          + [Utilisation de l’explorateur Campaign](platform/using/adobe-campaign-explorer.md)
          + [Parcours et personnalisation des listes](platform/using/adobe-campaign-ui-lists.md)
+         + [Énumérations](platform/using/managing-enumerations.md)
       + [Connecteurs Campaign](platform/using/about-connectors.md)
       + Questions fréquentes {#faq}
          + [Questions les plus fréquentes](platform/using/common-questions.md)
@@ -99,9 +100,6 @@ ht-degree: 100%
       + [Création et gestion de groupes](platform/using/access-management-groups.md)
       + [Utiliser des droits nommés pour configurer des autorisations](platform/using/access-management-named-rights.md)
       + [Gestion de l’accès aux dossiers](platform/using/access-management-folders.md)
-   + Packages de données et énumérations {#administration-basics}
-      + [Packages de données](platform/using/working-with-data-packages.md)
-      + [Énumérations](platform/using/managing-enumerations.md)
    + Connecteurs CRM {#connectors}
       + [Prise en main des connecteurs CRM](platform/using/crm-connectors.md)
       + [Connexion avec Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
@@ -270,7 +268,7 @@ ht-degree: 100%
    + [À propos du marketing distribué](distributed/using/about-distributed-marketing.md)
    + [Création d’une campagne locale](distributed/using/creating-a-local-campaign.md)
    + [Création d’une opération collaborative](distributed/using/creating-a-collaborative-campaign.md)
-   + [Publication du kit d’opération](distributed/using/publishing-the-campaign-package.md)
+   + [Publication du kit de campagne](distributed/using/publishing-the-campaign-package.md)
    + [Accès aux campagnes](distributed/using/accessing-campaigns.md)
    + [Suivi d’une campagne](distributed/using/tracking-a-campaign.md)
    + [Cas d’utilisation](distributed/using/examples.md)
@@ -738,6 +736,7 @@ ht-degree: 100%
          + [Comportement des JSP](production/using/jsp-behavior.md)
          + [Localisation de la version de Tomcat](production/using/locate-tomcat-version.md)
 + Guide de développement {#configuring-campaign-classic}
+   + [Packages de données](platform/using/working-with-data-packages.md)
    + Modèle de données {#data-model}
       + [À propos du modèle de données](configuration/using/about-data-model.md)
       + [Description du modèle de données](configuration/using/data-model-description.md)
