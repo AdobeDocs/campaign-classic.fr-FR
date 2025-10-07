@@ -5,8 +5,10 @@ description: Découvrez comment utiliser les blocs de personnalisation
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Personalization
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: a1e9fec0e9c85bf25b79e24a7432dfb45bd1a0cb
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
@@ -111,7 +113,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 
   >[!NOTE]
   >
-  >Ce bloc peut être utilisé dans les diffusions qui ciblent uniquement les visiteurs.
+  >Ce bloc peut être utilisé dans les diffusions qui ciblent uniquement les personnes qui visitent le site.
 
 * **[!UICONTROL Confirmation de votre inscription]** : insère un lien permettant de confirmer l&#39;inscription.
 * **[!UICONTROL Liens de partage vers des réseaux sociaux]** : insère des boutons grâce auxquels la personne destinataire peut partager un lien vers le contenu de la page miroir avec le client de messagerie, Facebook, X (anciennement Twitter) et LinkedIn (voir [Marketing viral : transférer à une connaissance](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
@@ -144,6 +146,6 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
 
 Découvrez comment créer des blocs de contenu dynamiques et comment les utiliser pour personnaliser le contenu de votre diffusion email.
 
->[!VIDEO](https://video.tv.adobe.com/v/31325?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
 D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
