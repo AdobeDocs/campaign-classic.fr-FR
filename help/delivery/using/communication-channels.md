@@ -5,10 +5,10 @@ description: Création de diffusions pour envoyer des messages personnalisés su
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
-workflow-type: ht
-source-wordcount: '978'
-ht-degree: 100%
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
+workflow-type: tm+mt
+source-wordcount: '994'
+ht-degree: 98%
 
 ---
 
@@ -39,13 +39,17 @@ Découvrez les principales étapes liées à la création d’une diffusion, à 
 * [Créer la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#create-the-delivery){target="_blank"} : apprenez à créer une diffusion unique ponctuelle.
 * [Définir le contenu](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#content-of-the-delivery){target="_blank"} : configurez le contenu de la diffusion selon les spécificités de chaque canal.
 * [Spécifier l’audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#target-population){target="_blank"} : définissez plusieurs types d’audience : audience principale, cible BAT, adresses de contrôle et groupes de contrôle.
+* [Utiliser des modèles de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"} : découvrez comment définir des modèles afin de faciliter la création de diffusions.
+
+
+
 
 
 >[!TAB Validation et envoi de la diffusion]
 
 Consultez ces pages pour en savoir plus sur la validation, l’envoi et les bonnes pratiques liées à la diffusion dans la documentation Campaign v8 :
 
-* [Valider la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#validate-the-delivery){target="_blank"} : découvrez comment valider la diffusion avant de l’envoyer à l’audience principale.
+* [Valider la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#validate-the-delivery){target="_blank"} : découvrez comment valider la diffusion avant de l’envoyer à la cible principale.
 * [Envoyer la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#configuring-and-sending-the-delivery){target="_blank"} : configurez les paramètres d’envoi et définissez les modalités de diffusion de vos messages.
 * [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"} : consultez les bonnes pratiques relatives aux fonctionnalités de diffusion dans Campaign.
 
@@ -108,7 +112,7 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
 ![](assets/s_ncs_user_email_del_valid_period.png)
 
-* Le champ **[!UICONTROL Durée de diffusion]** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n’est pas atteinte.
+* Le champ **[!UICONTROL Durée de diffusion]** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de début. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n’est pas atteinte.
 
   Vous pouvez également choisir de spécifier des dates. Pour ce faire, sélectionnez **[!UICONTROL Fixer explicitement les dates de validité]**. Dans ce cas, les dates limites de diffusion et de validité permettent également de définir l’heure. L’heure actuelle est utilisée par défaut, mais vous pouvez la modifier directement dans le champ de saisie.
 
@@ -126,7 +130,7 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

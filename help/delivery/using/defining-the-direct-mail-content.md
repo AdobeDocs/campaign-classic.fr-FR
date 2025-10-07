@@ -5,8 +5,10 @@ description: Découvrez comment définir le contenu du publipostage direct
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Direct Mail
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%

@@ -5,11 +5,13 @@ description: Découvrez comment paramétrer votre application mobile pour iOS.
 feature: Push
 role: User, Developer
 level: Intermediate, Experienced
+hide: true
+hidefromtoc: true
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '674'
-ht-degree: 100%
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +60,7 @@ Votre connecteur iOS est maintenant paramétré. Vous pouvez créer votre servic
 
    >[!NOTE]
    >
-   >Par défaut, le mapping de ciblage **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** est lié à la table des destinataires. Si vous souhaitez utiliser un autre mapping de ciblage, vous devez en créer un nouveau et le saisir dans le champ **[!UICONTROL Mapping de ciblage]** du service. Pour plus d’informations sur la création d’un mapping de ciblage, reportez-vous au [Guide de configuration](../../configuration/using/about-custom-recipient-table.md).
+   >Le mapping de ciblage par défaut **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** est lié au tableau des destinataires. Si vous souhaitez utiliser un autre mapping de ciblage, vous devez en créer un nouveau et le saisir dans le champ **[!UICONTROL Mapping de ciblage]** du service. Pour plus d’informations sur la création d’un mapping de ciblage, reportez-vous au [Guide de configuration](../../configuration/using/about-custom-recipient-table.md).
 
    ![](assets/nmac_ios.png)
 
@@ -85,7 +87,7 @@ Dans l’exemple suivant, nous ajoutons **mediaURl** et **mediaExt** pour créer
 
    ![](assets/nmac_ios_3.png)
 
-1. L’onglet **[!UICONTROL Paramètres d’abonnement]** permet de définir la correspondance avec une extension du schéma **[!UICONTROL Applications abonnées (nms:appsubscriptionRcp)]**.
+1. L&#39;onglet **[!UICONTROL Paramètres d&#39;abonnement]** permet de définir le mapping avec une extension du schéma **[!UICONTROL Applications abonnées (nms:appsubscriptionRcp)]**.
 
    >[!NOTE]
    >
@@ -109,7 +111,7 @@ Dans l’exemple suivant, nous ajoutons **mediaURl** et **mediaExt** pour créer
 
    Deux modes sont disponibles :
 
-   * (Recommandé) **[!UICONTROL Authentification basée sur les jetons]** : renseignez les paramètres de connexion APNs **[!UICONTROL Identifiant de la clé]**, **[!UICONTROL Identifiant de l&#39;équipe]** et **[!UICONTROL Identifiant de paquet]**, puis sélectionnez votre certificat p8 en cliquant sur **[!UICONTROL Renseigner la clé privée…]**. Pour plus d&#39;informations sur l&#39;**[!UICONTROL authentification basée sur les jetons]**, reportez-vous à la [documentation Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
+   * (Recommandé) **[!UICONTROL Authentification basée sur les jetons]** : renseignez les paramètres de connexion APNs **[!UICONTROL Identifiant de la clé]**, **[!UICONTROL Identifiant de l&#39;équipe]** et **[!UICONTROL Identifiant de paquet]**, puis sélectionnez votre certificat p8 en cliquant sur **[!UICONTROL Renseigner la clé privée…]**. Pour plus d’informations sur l’**[!UICONTROL authentification basée sur les jetons]**, consultez la [documentation Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
 
    * **[!UICONTROL Authentification basée sur les certificats]** : cliquez sur **[!UICONTROL Renseigner le certificat...]**, sélectionnez votre clé p12 et saisissez le mot de passe fourni par le développeur ou la développeuse d&#39;applications mobiles.
 

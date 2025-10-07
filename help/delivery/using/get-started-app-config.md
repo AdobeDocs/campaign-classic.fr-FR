@@ -5,9 +5,11 @@ description: Découvrez comment débuter avec la configuration de l’applicatio
 feature: Push
 role: User, Developer
 level: Intermediate, Experienced
+hide: true
+hidefromtoc: true
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
+workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
 
@@ -59,7 +61,7 @@ Les étapes d&#39;installation sont les suivantes :
 
 1. Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour commencer l&#39;installation du package.
 
-   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les journaux de l&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
+   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les logs de l&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
 
    ![](assets/package_ios_3.png)
 

@@ -4,8 +4,10 @@ title: Résolution des problèmes liés aux notifications push
 description: Résolution des problèmes liés aux notifications push
 feature: Push, Troubleshooting
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%

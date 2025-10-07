@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: faed7f54dc72937b24ee1ece80d17150a513fa39
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
-source-wordcount: '2565'
-ht-degree: 100%
+source-wordcount: '2561'
+ht-degree: 99%
 
 ---
 
@@ -144,8 +144,8 @@ ht-degree: 100%
       + [Créer un SMS](delivery/using/sms-create.md)
       + [Migration vers le connecteur SMPP générique étendu](delivery/using/unsupported-connector-migration.md)
    + [Envoi de messages LINE](delivery/using/line-channel.md)
+   + [Envoyer des notifications push](delivery/using/about-mobile-app-channel.md)
    + Envoyer des notifications push {#sending-push-notifications}
-      + [Prise en main du canal des applications mobiles](delivery/using/about-mobile-app-channel.md)
       + [Intégration du SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configurer l’application mobile{#configure-the-mobile-app}
          + [Prise en main de la configuration de l&#39;application](delivery/using/get-started-app-config.md)
@@ -155,9 +155,9 @@ ht-degree: 100%
          + [Création d&#39;un message push pour iOS](delivery/using/create-notifications-ios.md)
          + [Création d&#39;un message push pour Android](delivery/using/create-notifications-android.md)
       + [Résolution des problèmes](delivery/using/troubleshooting.md)
+   + [Envoi de courriers](delivery/using/about-direct-mail-channel.md)
    + Envoyer un courrier {#sending-direct-mail}
-      + [À propos du canal Courrier](delivery/using/about-direct-mail-channel.md)
-      + [Création d’une diffusion courrier](delivery/using/creating-a-direct-mail-delivery.md)
+      + [Créer une diffusion par courrier](delivery/using/creating-a-direct-mail-delivery.md)
       + [Définition du contenu du publipostage direct](delivery/using/defining-the-direct-mail-content.md)
       + [Validation](delivery/using/validating.md)
    + Utiliser des modèles de diffusion {#using-delivery-templates}
