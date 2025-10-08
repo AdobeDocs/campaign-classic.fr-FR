@@ -6,14 +6,14 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
+source-git-commit: d78fe2e0fd85ba9c23e709a3f30a135cee411230
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 92%
 
 ---
 
-# Espace de travail Adobe Campaign{#adobe-campaign-workspace}
+# Espace de travail Adobe Campaign {#adobe-campaign-workspace}
 
 ## Exploration de l’interface Adobe Campaign {#about-adobe-campaign-interface}
 
@@ -23,7 +23,7 @@ Depuis la section centrale de la page d&#39;accueil, vous pouvez utiliser les li
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrir l’espace de travail Campaign en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Découvrir l’espace de travail Campaign en vidéo](#video)
 
 >[!NOTE]
 >
@@ -137,4 +137,4 @@ Découvrez comment **utiliser les énumérations** dans la documentation d’[Ad
 
 Cette vidéo présente l‘espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39530?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
