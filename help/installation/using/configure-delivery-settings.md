@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '484'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Les paramètres de diffusion doivent être configurés dans le dossier **serverConf.xml**.
 
-* **Configuration DNS** : renseignez le domaine de diffusion ainsi que les adresses IP (ou host) des serveurs DNS utilisés pour répondre aux requêtes DNS de type MX par le module MTA à partir de **`<dnsconfig>`**.
+* **Configuration DNS** : renseignez le domaine de diffusion ainsi que les adresses IP (ou hôtes) des serveurs DNS utilisés pour répondre aux requêtes DNS de type MX par le module MTA à partir de **`<dnsconfig>`**.
 
   >[!NOTE]
   >
@@ -88,7 +88,8 @@ Pour cela, les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Les énumérations sont présentées dans [ce document](../../platform/using/managing-enumerations.md).
+   >Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+
 
    Il est ensuite possible de sélectionner l&#39;affinité à utiliser, comme ci-dessous au niveau des typologies :
 

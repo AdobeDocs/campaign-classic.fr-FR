@@ -5,10 +5,10 @@ description: Rapports sur les diffusions
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 100%
+source-wordcount: '1652'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ Ce tableau de valeurs présente la répartition, par domaine Internet, des envoi
 
 >[!NOTE]
 >
->Les noms de domaine qui apparaissent dans ce rapport sont définis dans l’énumération utilisée au niveau des cubes. Pour modifier, ajouter ou supprimer des domaines par défaut, éditez l&#39;énumération **[!UICONTROL Domaines]**, et modifiez les valeurs et les alias. Pour plus d’informations, consultez [cette section](../../platform/using/managing-enumerations.md). La catégorie **[!UICONTROL Autres]** regroupe les noms de domaine qui n’appartiennent à aucune valeur de l’énumération.
+>Les noms de domaine qui apparaissent dans ce rapport sont définis dans l’énumération utilisée au niveau des cubes. Pour modifier, ajouter ou supprimer des domaines par défaut, éditez l&#39;énumération **[!UICONTROL Domaines]**, et modifiez les valeurs et les alias. Découvrez comment **utiliser les énumérations** dans la documentation de [Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}. La catégorie **[!UICONTROL Autres]** regroupe les noms de domaine qui n’appartiennent à aucune valeur de l’énumération.
 
 **[!UICONTROL 4. Flux de clics générés]**
 

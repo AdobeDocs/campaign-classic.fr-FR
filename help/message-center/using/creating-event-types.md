@@ -7,9 +7,9 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 98b7c827-f31d-46a6-a28d-40a78a4b4248
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Pour créer des types d&#39;événements qui seront traités par Adobe Campaign
 
 1. Connectez-vous à l&#39;**instance de pilotage**.
 
-1. Positionnez-vous dans l&#39;arborescence au niveau du dossier **[!UICONTROL Administration > Plateforme > Enumérations]**.
+1. Positionnez-vous dans l’arborescence au niveau du dossier **[!UICONTROL Administration > Plateforme > Énumérations]**.
 
 1. Sélectionnez **[!UICONTROL Type d&#39;événement]** dans la liste.
 
@@ -46,6 +46,7 @@ Pour créer des types d&#39;événements qui seront traités par Adobe Campaign
 
 >[!NOTE]
 >
->Pour en savoir plus sur les énumérations, voir [Gestion des énumérations](../../platform/using/managing-enumerations.md).
+>Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+
 
 

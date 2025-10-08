@@ -6,7 +6,7 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
 source-wordcount: '2559'
 ht-degree: 99%
@@ -39,16 +39,16 @@ ht-degree: 99%
    + [Connecteurs Campaign](platform/using/about-connectors.md)
    + Questions fréquentes {#faq}
       + [Questions les plus fréquentes](platform/using/common-questions.md)
-         + [Concepts globaux](platform/using/faq-key-concepts.md)
-         + [Mise à niveau de build](platform/using/faq-build-upgrade.md)
-         + [Confidentialité](platform/using/privacy-faq.md)
-         + [Audiences](platform/using/faq-audiences.md)
-         + [Concevoir des messages](platform/using/faq-designing.md)
-         + [Envoi de messages](platform/using/faq-messages.md)
-         + [Workflows](platform/using/faq-workflows.md)
-         + [Configuration &#x200B;](platform/using/faq-campaign-config.md)
-         + [Rapports](platform/using/faq-reporting.md)
-         + [Développement](platform/using/faq-developers.md)
+      + [Concepts globaux](platform/using/faq-key-concepts.md)
+      + [Mise à niveau de build](platform/using/faq-build-upgrade.md)
+      + [Confidentialité](platform/using/privacy-faq.md)
+      + [Audiences](platform/using/faq-audiences.md)
+      + [Concevoir des messages](platform/using/faq-designing.md)
+      + [Envoi de messages](platform/using/faq-messages.md)
+      + [Workflows](platform/using/faq-workflows.md)
+      + [Configuration ](platform/using/faq-campaign-config.md)
+      + [Rapports](platform/using/faq-reporting.md)
+      + [Développement](platform/using/faq-developers.md)
    + [Glossaire](platform/using/ac-glossary.md)
    + Confidentialité {#privacy}
       + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
@@ -271,7 +271,7 @@ ht-degree: 99%
    + [Cas d’utilisation](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
    + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-   + [Configuration &#x200B;](response/using/configuration.md)
+   + [Configuration ](response/using/configuration.md)
    + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
    + [Création d’hypothèses](response/using/creating-hypotheses.md)
    + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -673,7 +673,7 @@ ht-degree: 99%
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création d’instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign &#x200B;](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstallation de Campaign](installation/using/uninstalling-campaign.md)
       + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
@@ -684,8 +684,8 @@ ht-degree: 99%
    + Procédures d’exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
-      + [Administration &#x200B;](production/using/administration.md)
-      + [Configuration &#x200B;](production/using/configuration.md)
+      + [Administration ](production/using/administration.md)
+      + [Configuration ](production/using/configuration.md)
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)

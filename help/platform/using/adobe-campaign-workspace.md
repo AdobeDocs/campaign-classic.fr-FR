@@ -6,7 +6,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 92%
@@ -23,7 +23,7 @@ Depuis la section centrale de la page d&#39;accueil, vous pouvez utiliser les li
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrir l’espace de travail Campaign en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Découvrir l’espace de travail Campaign en vidéo](#video)
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Cinq langues sont disponibles :
 * Allemand
 * Japonais
 
-La langue choisie pour votre instance Adobe Campaign Classic peut avoir une incidence sur les formats de date et d’heure. Pour en savoir plus à ce sujet, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui#formats){target=_blank}.
+La langue choisie pour votre instance Adobe Campaign Classic peut avoir une incidence sur les formats de date et d’heure. Pour en savoir plus à ce sujet, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 Pour plus d’informations sur la création d’une instance, consultez cette [page](../../installation/using/creating-an-instance-and-logging-on.md).
 
@@ -110,7 +110,7 @@ L’explorateur Adobe Campaign est accessible à partir de l’icône de la bar
 
 Pour en savoir plus sur l’explorateur Adobe Campaign, consultez ces pages dans la documentation de Campaign v8 (console) :
 
-* [Présentation de l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}
+* [Présentation de l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 * [Paramètres de l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
@@ -137,4 +137,4 @@ Découvrez comment **utiliser les énumérations** dans la documentation d’[Ad
 
 Cette vidéo présente l‘espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39530?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
