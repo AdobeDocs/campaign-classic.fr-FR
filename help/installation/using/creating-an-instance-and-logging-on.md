@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
+source-git-commit: c38150aa8de90f314e1f2a43c6751d4db4059533
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '599'
 ht-degree: 89%
 
 ---
@@ -72,7 +72,7 @@ Pour créer une instance, procédez comme suit :
 
 1. Dans la liste déroulante **[!UICONTROL Langue]**, sélectionnez la **langue de l&#39;instance** : anglais (US), anglais (UK) , français ou japonais.
 
-   Les différences entre l’anglais américain et l’anglais britannique sont décrites dans la documentation de [Campaign v8 (console)] (.https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui).
+   Les différences entre l’anglais américain et l’anglais britannique sont décrites dans la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui).
 
    >[!CAUTION]
    >
