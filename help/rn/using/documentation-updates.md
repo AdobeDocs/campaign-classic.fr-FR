@@ -5,9 +5,11 @@ description: Cette page répertorie toutes les nouvelles fonctionnalités et les
 feature: Release Notes
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: ht
+source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 100%
 
@@ -270,8 +272,7 @@ La section [Délivrabilité](../../delivery/using/about-deliverability.md) a ét
 
 **Mises à jour de la documentation accompagnant la version 21.1**
 
-La nouvelle fonctionnalité **Service de retour d&#39;e-mail** (version bêta privée) est documentée [ici](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
-
+La nouvelle fonctionnalité **Service de retour d’e-mail** (Private Beta) est documentée [ici](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
 
 La section **Fichier de configuration du serveur** a été mise à jour avec les paramètres de configuration nécessaires pour que Campaign se connecte à un autre service à l&#39;aide d&#39;IMS. [En savoir plus](../../installation/using/the-server-configuration-file.md#ims)
 
@@ -369,7 +370,7 @@ La page Fonctionnalités obsolètes et supprimées a été mise à jour. [En sav
 Les notes de mise à jour et la matrice de compatibilité pour la version [!DNL Gold Standard] sont maintenant disponibles dans une page dédiée.
 [En savoir plus](../../rn/using/gold-standard.md).
 
-L’intégration des Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/about-triggers.md#implement)
+L’intégration de Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/about-triggers.md#implement)
 
 **Autres mises à jour**
 
@@ -450,7 +451,7 @@ La page Gestion de la confidentialité dans Campaign Classic a été mise à jou
 
 La page Vue d’ensemble de la gestion de la protection des données a été mise à jour pour inclure des informations relatives aux réglementations PDPA (Personal Data Protection Act) thaïlandaise et LGPD (Lei Geral de Proteção de Dados) brésilienne. [En savoir plus](../../platform/using/privacy-and-recommendations.md)
 
-Des informations ont été ajoutées sur les journaux des sous-workflows et sur le comportement en cas dʼerreur. [En savoir plus](../../workflow/using/sub-workflow.md)
+Des informations ont été ajoutées sur les logs des sous-workflows et sur le comportement en cas dʼerreur. [En savoir plus](../../workflow/using/sub-workflow.md)
 
 Des bonnes pratiques ont été ajoutées dans la section sur l’activité **[!UICONTROL Planificateur]**. [En savoir plus](../../workflow/using/scheduler.md)
 

@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 89%
 
 ---
 
@@ -62,17 +62,17 @@ Pour créer une instance, procédez comme suit :
 
    Vous pouvez définir ici une liste de valeurs séparées par des virgules.
 
-   Les caractères ? et &#42; peuvent être utilisés comme caractères génériques pour remplacer un ou plusieurs caractères (DNS, port, etc.). Par exemple, la valeur **demo&#42;** fonctionne avec « https://demo » comme avec « https://demo:8080 » et même « https://demo2 ».
+   Les caractères ? et &#42; peuvent être utilisés comme caractères génériques pour remplacer un ou plusieurs caractères (DNS, port, etc.). Par exemple, la valeur **demo&#42;** fonctionne avec « https://demo » comme avec « https://demo :8080 » et même « https://demo2 ».
 
    Les noms utilisés doivent être définis dans votre DNS. Vous pouvez également indiquer la correspondance entre un nom DNS et une adresse IP dans le fichier **c:/windows/system32/drivers/etc/hosts** sous Windows et dans le fichier **/etc/hosts** sous Linux. Pour vous connecter à l&#39;instance choisie, vous devez donc modifier les paramètres de connexion afin d&#39;utiliser ce nom DNS.
 
    Le serveur doit être identifié par ce nom, notamment pour le chargement des images dans les e-mails.
 
-   En complément, le serveur doit pouvoir se connecter à lui-même par ce nom, et si possible via une adresse de bouclage (loopback) - 127.0.0.1 -, notamment pour permettre l&#39;export des rapports en PDF.
+   En outre, le serveur doit pouvoir se connecter à lui-même par ce nom et, si possible, par une adresse de bouclage (127.0.0.1), notamment pour permettre l’exportation des rapports au format PDF.
 
 1. Dans la liste déroulante **[!UICONTROL Langue]**, sélectionnez la **langue de l&#39;instance** : anglais (US), anglais (UK) , français ou japonais.
 
-   Les différences entre l’anglais américain et l’anglais britannique sont présentées dans [cette section](../../platform/using/adobe-campaign-workspace.md#date-and-time).
+   Les différences entre l’anglais américain et l’anglais britannique sont décrites dans la documentation de [Campaign v8 (console)](.https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#formats).
 
    >[!CAUTION]
    >

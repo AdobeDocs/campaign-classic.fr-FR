@@ -2,21 +2,15 @@
 product: campaign
 title: Création de filtres
 description: Création de filtres
-feature: Profiles
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
-audience: platform
-content-type: reference
-topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: 813ef65ff45407a92c5f9d7f3d07189972a5742b
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 89%
 
 ---
 
 # Création de filtres{#creating-filters}
-
 
 Le filtrage des données est le processus de sélection d’une petite partie de votre jeu de données, composée uniquement des enregistrements qui correspondent à certains critères, et d’utilisation de ce sous-ensemble pour des actions spécifiques (mises à jour, création d’audiences) ou des analyses.
 
@@ -28,7 +22,7 @@ Lorsque vous naviguez dans l’arborescence d’Adobe Campaign (à partir du me
 
 >[!NOTE]
 >
->Pour en savoir plus sur les filtres et leur utilisation, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
+>Pour en savoir plus sur les filtres et leur utilisation, reportez-vous à la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
 
 
 <!--

@@ -6,9 +6,9 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
+source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
 workflow-type: tm+mt
-source-wordcount: '2561'
+source-wordcount: '2559'
 ht-degree: 99%
 
 ---
@@ -23,24 +23,22 @@ ht-degree: 99%
    + Versions précédentes {#previous-releases}
       + [2024](rn/using/release-2024.md)
       + [2023](rn/using/release-2023.md)
-      + [2022](rn/using/release-2022.md)
-      + [2021](rn/using/release-2021.md)
-      + [[!DNL Gold Standard]](rn/using/gold-standard.md)
+      + [2022 - MASQUÉ](rn/using/release-2022.md)
+      + [2021 - CACHÉ](rn/using/release-2021.md)
+      + [[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
    + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
-   + [Mises à jour de la documentation](rn/using/documentation-updates.md)
+   + [Mises à jour de la documentation - MASQUÉES](rn/using/documentation-updates.md)
 + Prise en main {#getting-started}
-   + Commencer avec Adobe Campaign {#starting-with-adobe-campaign}
-      + [Prise en main d’Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
-      + [Lancement d’Adobe Campaign](platform/using/launching-adobe-campaign.md)
-      + Espace de travail Adobe Campaign{#campaign-workspace}
-         + [Prise en main de l’UI de Campaign](platform/using/adobe-campaign-workspace.md)
-         + [Utilisation de l’explorateur Campaign](platform/using/adobe-campaign-explorer.md)
-         + [Parcours et personnalisation des listes](platform/using/adobe-campaign-ui-lists.md)
-         + [Énumérations](platform/using/managing-enumerations.md)
-      + [Connecteurs Campaign](platform/using/about-connectors.md)
-      + Questions fréquentes {#faq}
-         + [Questions les plus fréquentes](platform/using/common-questions.md)
+   + [Prise en main d’Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
+   + [Lancement d’Adobe Campaign](platform/using/launching-adobe-campaign.md)
+   + [Prise en main de l’UI de Campaign](platform/using/adobe-campaign-workspace.md)
+   + [Utiliser l&#39;explorateur Campaign - HIDDEN](platform/using/adobe-campaign-explorer.md)
+   + [Parcourir et personnaliser les listes - HIDDEN](platform/using/adobe-campaign-ui-lists.md)
+   + [Énumérations - MASQUÉES](platform/using/managing-enumerations.md)
+   + [Connecteurs Campaign](platform/using/about-connectors.md)
+   + Questions fréquentes {#faq}
+      + [Questions les plus fréquentes](platform/using/common-questions.md)
          + [Concepts globaux](platform/using/faq-key-concepts.md)
          + [Mise à niveau de build](platform/using/faq-build-upgrade.md)
          + [Confidentialité](platform/using/privacy-faq.md)
@@ -48,19 +46,18 @@ ht-degree: 99%
          + [Concevoir des messages](platform/using/faq-designing.md)
          + [Envoi de messages](platform/using/faq-messages.md)
          + [Workflows](platform/using/faq-workflows.md)
-         + [Configuration &#x200B;](platform/using/faq-campaign-config.md)
+         + [Configuration ](platform/using/faq-campaign-config.md)
          + [Rapports](platform/using/faq-reporting.md)
          + [Développement](platform/using/faq-developers.md)
-         + [Tutoriels](platform/using/tutorials.md)
-      + [Glossaire](platform/using/ac-glossary.md)
-      + Confidentialité {#privacy}
-         + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
-         + [Gestion de la confidentialité](platform/using/privacy-management.md)
-         + Demandes d&#39;accès à des informations personnelles  {#privacy-requests}
-            + [À propos des demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
-            + [Créer et gérer les demandes d’accès à des informations personnelles](platform/using/privacy-requests-ui.md)
-            + [Processus automatique de demande d&#39;accès à des informations personnelles](platform/using/privacy-requests-api.md)
-         + [Droit d&#39;opposition (opt-out) à la vente des informations personnelles](platform/using/privacy-requests-ccpa.md)
+   + [Glossaire](platform/using/ac-glossary.md)
+   + Confidentialité {#privacy}
+      + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
+      + [Gestion de la confidentialité](platform/using/privacy-management.md)
+      + Demandes d&#39;accès à des informations personnelles  {#privacy-requests}
+         + [À propos des demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
+         + [Créer et gérer les demandes d’accès à des informations personnelles](platform/using/privacy-requests-ui.md)
+         + [Processus automatique de demande d&#39;accès à des informations personnelles](platform/using/privacy-requests-api.md)
+      + [Droit d&#39;opposition (opt-out) à la vente des informations personnelles](platform/using/privacy-requests-ccpa.md)
    + Gestion des profils {#profile-management}
       + [À propos des profils](platform/using/about-profiles.md)
       + [Modification d’un profil](platform/using/editing-a-profile.md)
@@ -274,7 +271,7 @@ ht-degree: 99%
    + [Cas d’utilisation](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
    + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-   + [Configuration &#x200B;](response/using/configuration.md)
+   + [Configuration ](response/using/configuration.md)
    + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
    + [Création d’hypothèses](response/using/creating-hypotheses.md)
    + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -676,7 +673,7 @@ ht-degree: 99%
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création d’instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign &#x200B;](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstallation de Campaign](installation/using/uninstalling-campaign.md)
       + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
@@ -687,8 +684,8 @@ ht-degree: 99%
    + Procédures d’exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
-      + [Administration &#x200B;](production/using/administration.md)
-      + [Configuration &#x200B;](production/using/configuration.md)
+      + [Administration ](production/using/administration.md)
+      + [Configuration ](production/using/configuration.md)
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)

@@ -6,16 +6,14 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 100%
+source-wordcount: '873'
+ht-degree: 92%
 
 ---
 
 # Espace de travail Adobe Campaign{#adobe-campaign-workspace}
-
-
 
 ## Exploration de l’interface Adobe Campaign {#about-adobe-campaign-interface}
 
@@ -61,7 +59,7 @@ Cinq langues sont disponibles :
 * Allemand
 * Japonais
 
-La langue choisie pour votre instance Adobe Campaign Classic peut avoir une incidence sur les formats de date et d’heure. Voir à ce propos cette [section](../../platform/using/adobe-campaign-workspace.md#date-and-time).
+La langue choisie pour votre instance Adobe Campaign Classic peut avoir une incidence sur les formats de date et d’heure. Pour en savoir plus à ce sujet, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#formats){target=_blank}.
 
 Pour plus d’informations sur la création d’une instance, consultez cette [page](../../installation/using/creating-an-instance-and-logging-on.md).
 
@@ -87,7 +85,7 @@ Ainsi, les listes sont accessibles à partir du lien **[!UICONTROL Listes]** pro
 
 ### Utilisation des onglets {#using-tabs}
 
-* Lorsque vous cliquez sur une fonction principale ou un lien, la page correspondante vient remplacer la page courante. Pour retourner sur la page précédente, utilisez le bouton **[!UICONTROL Retour]** de la barre d&#39;outils. Pour revenir à la page d&#39;accueil, cliquez sur le bouton **[!UICONTROL Accueil]**.
+* Lorsque vous cliquez sur une fonction principale ou un lien, la page correspondante vient remplacer la page courante. Pour revenir à la page précédente, cliquez sur le bouton **[!UICONTROL Retour]** de la barre d’outils. Pour revenir à la page d&#39;accueil, cliquez sur le bouton **[!UICONTROL Accueil]**.
 
   ![](assets/d_ncs_user_interface_back_home_buttons.png)
 
@@ -106,70 +104,37 @@ Par exemple, au niveau de la page des diffusions, utilisez le bouton **[!UICONTR
 ![](assets/d_ncs_user_interface_tab_add_del.png)
 
 
-## Formats et unités {#formats-and-units}
+## Utilisation de l’explorateur Adobe Campaign {#using-adobe-campaign-explorer}
 
-### Date et heure {#date-and-time}
+L’explorateur Adobe Campaign est accessible à partir de l’icône de la barre d’outils. Il permet d’accéder à l’ensemble des fonctions d’Adobe Campaign, aux écrans de paramétrage et à une vue plus détaillée de certains éléments de la plateforme.
 
-La langue de votre instance Adobe Campaign Classic a un impact sur les formats de date et d’heure.
+Pour en savoir plus sur l’explorateur Adobe Campaign, consultez ces pages dans la documentation de Campaign v8 (console) :
 
-La langue est sélectionnée lors de l’installation de Campaign et ne peut plus être modifiée par la suite. Vous pouvez sélectionner : Anglais (US), Anglais (UK), Français, Allemand ou Japonais. Pour plus d’informations, consultez [cette page](../../installation/using/creating-an-instance-and-logging-on.md).
+* [Présentation de l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}
 
-Les principales différences entre l&#39;anglais américain et l&#39;anglais britannique sont les suivantes :
+* [Paramètres de l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Formats<br /> </th> 
-   <th> Anglais (États-Unis)<br /> </th> 
-   <th> Anglais (UK)<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Date<br /> </td> 
-   <td> La semaine commence le dimanche<br /> </td> 
-   <td> La semaine commence le lundi<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Date courte<br /> </td> 
-   <td> <p>%2M/%2D/%4Y</p><p><strong>ex : 09/25/2018</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y</p><p><strong>ex : 25/09/2018</strong></p> </td> 
-  </tr> 
-  <tr> 
-   <td> Date courte avec heure<br /> </td> 
-   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>ex : 09/25/2018 10:47:25 PM</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex : 25/09/2018 22:47:25</strong></p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [Gérer les dossiers et les vues dans l’explorateur](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
-### Ajouter des valeurs dans une énumération {#add-values-in-an-enumeration}
 
-Lorsque vous utilisez des champs de saisie avec une liste déroulante, vous pouvez saisir une valeur d’énumération qui peut être stockée et proposée comme option dans la liste déroulante. Par exemple, dans le champ **[!UICONTROL Ville]** de l’onglet **[!UICONTROL Général]** d’un profil de destinataire, vous pouvez saisir Londres. Lorsque vous appuyez sur Entrée pour confirmer cette valeur, un message vous demande si vous souhaitez l’enregistrer pour l’énumération associée au champ.
+## Utiliser des listes {#manage-and-customize-lists}
 
-![](assets/s_ncs_user_wizard_email_bat_substitute_email.png)
-
-Si vous cliquez sur **[!UICONTROL Oui]**, cette valeur sera disponible dans la liste déroulante du champ correspondant (ici : **[!UICONTROL Londres]**).
+Dans la console cliente Campaign, les données sont affichées dans des listes. Vous pouvez adapter ces listes à vos besoins. Vous pouvez par exemple ajouter des colonnes, filtrer les données, comptabiliser les enregistrements, enregistrer et partager vos paramètres.
 
 >[!NOTE]
 >
->Les énumérations sont gérées par l&#39;administrateur via la section **[!UICONTROL Administration > Plateforme > Enumérations]**. Pour plus d&#39;informations, consultez la section [Gestion des énumérations](../../platform/using/managing-enumerations.md).
+>Pour savoir comment gérer et personnaliser des listes dans Adobe Campaign, reportez-vous à la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
 
-### Unités par défaut {#default-units}
+## Gérer les énumérations{#managing-enumerations}
 
-Dans les champs qui expriment une durée (par exemple : période de validité des ressources d&#39;une diffusion, délai de validation d&#39;une tâche, etc.), la valeur peut être exprimée dans les **unités** suivantes :
+Une énumération (également appelée liste détaillée) est une liste prédéfinie de valeurs que vous pouvez utiliser pour renseigner certains champs. Les énumérations permettent de normaliser les valeurs de champ, de rendre la saisie de données plus cohérente et de simplifier les requêtes.
 
-* **[!UICONTROL s]** pour les secondes,
-* **[!UICONTROL mn]** pour les minutes,
-* **[!UICONTROL h]** pour les heures,
-* **[!UICONTROL j]** pour les jours.
+Une fois définies, les valeurs sont affichées dans une liste déroulante. Une valeur peut être sélectionnée directement ou saisie à l’aide d’une entrée prédictive, qui suggère et complète les entrées correspondantes. Certains champs contiennent des énumérations prédéfinies. Des énumérations supplémentaires peuvent être créées si nécessaire.
 
-![](assets/enter_unit_sample.png)
+Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 ## Tutoriel vidéo {#video}
 
 Cette vidéo présente l‘espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39530?quality=12&captions=fre_fr)
-
-D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
