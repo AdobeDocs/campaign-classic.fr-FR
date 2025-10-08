@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: ht
-source-wordcount: '1291'
-ht-degree: 100%
+source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
+workflow-type: tm+mt
+source-wordcount: '1292'
+ht-degree: 99%
 
 ---
 
@@ -185,7 +185,7 @@ Dans l&#39;arborescence de toutes les instances d&#39;exécution, créez un doss
 
 Pour utiliser plusieurs instances de pilotage, ce paramétrage doit être réalisé sur TOUTES les instances d&#39;exécution.
 
-1. Créez un dossier par opérateur dans le nœud **[!UICONTROL Administration > Exploitation > Message Center]** : **Dossier 1** et **Dossier 2**. Pour plus d&#39;informations sur la création de dossiers et de vues, reportez-vous à [cette page](../../platform/using/access-management-folders.md).
+1. Créez un dossier par opérateur dans le nœud **[!UICONTROL Administration > Exploitation > Message Center]** : **Dossier 1** et **Dossier 2**. En savoir plus sur les dossiers et les vues dans la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
    ![](assets/messagecenter_multi_control_3.png)
 

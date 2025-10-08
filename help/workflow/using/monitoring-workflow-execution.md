@@ -6,10 +6,10 @@ feature: Workflows
 hide: true
 hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 99%
+source-wordcount: '2102'
+ht-degree: 98%
 
 ---
 
@@ -271,7 +271,7 @@ Pour cela :
 
 1. Cliquez avec le bouton droit sur le dossier dans lequel vous souhaitez ajouter la vue.
 1. Dans **[!UICONTROL Ajouter un dossier]** / **[!UICONTROL Administration]**, sélectionnez la vue à ajouter.
-1. Une fois le dossier ajouté à l&#39;arborescence, assurez-vous de le configurer en tant que vue afin qu&#39;il affiche tous les workflows, quel que soit leur dossier d&#39;origine. Pour plus d&#39;informations sur la configuration des vues, consultez [cette section](../../platform/using/access-management-folders.md).
+1. Une fois le dossier ajouté à l’arborescence, assurez-vous de le configurer en tant que vue afin qu’il affiche tous les workflows, quel que soit leur dossier d’origine. Pour plus d’informations sur la configuration des vues, consultez [cette section](../../platform/using/about-adobe-campaign-classic.md).
 
 En outre, vous pouvez configurer des dossiers de filtres qui vous permettront de filtrer la liste des workflows en fonction de leur état d’exécution. Pour cela :
 
