@@ -148,4 +148,4 @@ Découvrez comment **utiliser les énumérations** dans la documentation d’[Ad
 
 Cette vidéo présente l‘espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/39530?quality=12&captions=fre_fr)
