@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
 workflow-type: tm+mt
-source-wordcount: '2567'
-ht-degree: 97%
+source-wordcount: '2570'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 97%
    + [Parcourir et personnaliser les listes - HIDDEN](platform/using/adobe-campaign-ui-lists.md)
    + [Énumérations - MASQUÉES](platform/using/managing-enumerations.md)
    + [Connecteurs Campaign](platform/using/about-connectors.md)
+   + [Création de requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
    + Questions fréquentes {#faq}
       + [Questions les plus fréquentes](platform/using/common-questions.md)
       + [Concepts globaux](platform/using/faq-key-concepts.md)
@@ -46,7 +47,7 @@ ht-degree: 97%
       + [Concevoir des messages](platform/using/faq-designing.md)
       + [Envoi de messages](platform/using/faq-messages.md)
       + [Workflows](platform/using/faq-workflows.md)
-      + [Configuration &#x200B;](platform/using/faq-campaign-config.md)
+      + [Configuration ](platform/using/faq-campaign-config.md)
       + [Rapports](platform/using/faq-reporting.md)
       + [Développement](platform/using/faq-developers.md)
    + [Glossaire](platform/using/ac-glossary.md)
@@ -84,10 +85,9 @@ ht-degree: 97%
          + [Bonnes pratiques en matière d&#39;import et d&#39;export](platform/using/import-export-best-practices.md)
          + [Bonnes pratiques et résolution des problèmes liés au serveur SFTP](platform/using/sftp-server-usage.md)
    + Filtrer des données {#filtering-data}
-      + [Options de filtrage](platform/using/filtering-options.md)
-      + [Création de filtres](platform/using/creating-filters.md)
-      + [Cas d’utilisation](platform/using/use-case.md)
-   + [Création de requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
+      + [Options de filtrage - MASQUÉ](platform/using/filtering-options.md)
+      + [Créer des filtres - MASQUÉ](platform/using/creating-filters.md)
+      + [Cas d’utilisation : masqué](platform/using/use-case.md)
    + [Procédure de création d’une requête - MASQUÉ](platform/using/steps-to-create-a-query.md)
    + [Définir les conditions de filtrage - MASQUÉ](platform/using/defining-filter-conditions.md)
    + Autorisations {#permissions}
@@ -270,7 +270,7 @@ ht-degree: 97%
    + [Cas d’utilisation](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
    + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-   + [Configuration &#x200B;](response/using/configuration.md)
+   + [Configuration ](response/using/configuration.md)
    + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
    + [Création d’hypothèses](response/using/creating-hypotheses.md)
    + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -672,7 +672,7 @@ ht-degree: 97%
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création d’instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign &#x200B;](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstallation de Campaign](installation/using/uninstalling-campaign.md)
       + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
@@ -683,8 +683,8 @@ ht-degree: 97%
    + Procédures d’exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
-      + [Administration &#x200B;](production/using/administration.md)
-      + [Configuration &#x200B;](production/using/configuration.md)
+      + [Administration ](production/using/administration.md)
+      + [Configuration ](production/using/configuration.md)
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)

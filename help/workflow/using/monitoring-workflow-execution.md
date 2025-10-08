@@ -6,10 +6,10 @@ feature: Workflows
 hide: true
 hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '2100'
-ht-degree: 100%
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+workflow-type: tm+mt
+source-wordcount: '2101'
+ht-degree: 99%
 
 ---
 
@@ -37,15 +37,15 @@ Lorsque cette option est sélectionnée, les activités exécutées apparaissent
 
 ![](assets/s_user_segmentation_results.png)
 
-## Afficher le journal {#displaying-logs}
+## Afficher le log {#displaying-logs}
 
-Le journal contient l’historique ou le journal d’audit du workflow. Il mémorise les actions effectuées par les opérateurs, les opérations réalisées et les erreurs d’exécution. Vous pouvez :
+Le log contient l’historique ou le journal d’audit du workflow. Il mémorise les actions effectuées par les opérateurs, les opérations réalisées et les erreurs d’exécution. Vous pouvez :
 
 * Sélectionner l&#39;onglet **[!UICONTROL Suivi]** du détail. Cette liste affiche tous les messages du workflow.
 
   ![](assets/new-workflow-display-log-tab.png)
 
-* Filtrer les messages du journal par activité. Pour ce faire, cliquez sur **[!UICONTROL Afficher les tâches et le journal]** dans la barre d’outils située au-dessus du diagramme afin d’afficher les onglets **[!UICONTROL Journal]** et **[!UICONTROL Tâches]** sous le diagramme. Sélectionnez une activité pour visualiser tous les messages associés. Cette liste contient tous les messages lorsqu’aucune activité n’est sélectionnée.
+* Filtrer les messages du log par activité. Pour ce faire, cliquez sur **[!UICONTROL Afficher les tâches et le log]** dans la barre d’outils située au-dessus du diagramme afin d’afficher les onglets **[!UICONTROL Log]** et **[!UICONTROL Tâches]** sous le diagramme. Sélectionnez une activité pour visualiser tous les messages associés. Cette liste contient tous les messages lorsqu’aucune activité n’est sélectionnée.
 
   ![](assets/new-workflow-display-log-activity.png)
 
@@ -53,7 +53,7 @@ Le journal contient l’historique ou le journal d’audit du workflow. Il mémo
   >
   >Cliquez sur l’arrière-plan du diagramme pour tout désélectionner.
 
-* Affichez uniquement les messages liés à une tâche donnée. Pour ce faire, sélectionnez l’option **[!UICONTROL Tâche]**, puis sélectionnez une activité dans le diagramme afin de restreindre la liste. Double-cliquez sur une tâche pour afficher les informations ; le dernier onglet de la fenêtre contient le journal.
+* Affichez uniquement les messages liés à une tâche donnée. Pour ce faire, sélectionnez l’option **[!UICONTROL Tâche]**, puis sélectionnez une activité dans le diagramme afin de restreindre la liste. Double-cliquez sur une tâche pour afficher les informations ; le dernier onglet de la fenêtre contient le log.
 
   ![](assets/new-workflow-display-tasks-activity.png)
 
@@ -63,11 +63,11 @@ Le journal contient l’historique ou le journal d’audit du workflow. Il mémo
 
 >[!NOTE]
 >
->Le journal n&#39;est pas purgé lors d&#39;un redémarrage. Tous les messages sont conservés. Si vous ne voulez pas conserver les messages d&#39;une exécution précédente, vous devez purger l&#39;historique.
+>Le log n&#39;est pas purgé lors d&#39;un redémarrage. Tous les messages sont conservés. Si vous ne voulez pas conserver les messages d&#39;une exécution précédente, vous devez purger l&#39;historique.
 
-Le journal affiche la liste chronologique des messages d&#39;exécution des activités du workflow de ciblage.
+Le log affiche la liste chronologique des messages d&#39;exécution des activités du workflow de ciblage.
 
-* Journal d&#39;une opération de ciblage
+* Log d&#39;une campagne de ciblage
 
   Lorsqu&#39;une opération de ciblage a été exécutée, cliquez sur l&#39;onglet **[!UICONTROL Suivi]** pour consulter la trace de l&#39;exécution.
 
@@ -75,25 +75,25 @@ Le journal affiche la liste chronologique des messages d&#39;exécution des acti
 
   Tous les messages de l&#39;opération sont affichés: les opérations réalisées et les avertissements ou les erreurs d&#39;exécution.
 
-* Journal d&#39;une activité
+* Log d&#39;une activité
 
-  Vous pouvez également visualiser le journal de l&#39;exécution et le détail d&#39;exécution de chaque activité. Pour cela, deux méthodes sont possibles :
+  Vous pouvez également visualiser le log de l&#39;exécution et le détail d&#39;exécution de chaque activité. Pour cela, deux méthodes sont possibles :
 
-   1. Sélectionnez l&#39;activité visée et cliquez sur l&#39;icône **[!UICONTROL Afficher les tâches et le journal]**.
+   1. Sélectionnez l&#39;activité visée et cliquez sur l&#39;icône **[!UICONTROL Afficher les tâches et le log]**.
 
       ![](assets/s_user_segmentation_show_logs.png)
 
-      La section inférieure du diagramme affiche alors deux onglets : Journal et Tâches.
+      La section inférieure du diagramme affiche alors deux onglets : Log et Tâches.
 
-      La sélection d&#39;une activité sur le diagramme agit comme un filtre sur le journal et la liste des tâches.
+      La sélection d&#39;une activité sur le diagramme agit comme un filtre sur le log et la liste des tâches.
 
       ![](assets/s_user_segmentation_logs.png)
 
-   1. Cliquez sur l&#39;activité visée avec le bouton droit de la souris et choisissez **[!UICONTROL Afficher le journal]**.
+   1. Cliquez sur l&#39;activité visée avec le bouton droit de la souris et choisissez **[!UICONTROL Afficher le log]**.
 
       ![](assets/s_user_segmentation_logs_menu.png)
 
-      Le journal est alors affiché dans une fenêtre distincte.
+      Le log est alors affiché dans une fenêtre distincte.
 
 ## Purger l&#39;historique {#purging-the-logs}
 
@@ -153,21 +153,21 @@ Les erreurs prises en compte sont les erreurs du système de fichiers (impossibl
 
 Cette option ne traite pas les erreurs liées au paramétrage de l&#39;activité, c&#39;est-à-dire des valeurs invalides. Les erreurs liées à un mauvais paramétrage n&#39;activeront pas cette transition (répertoire inexistant, etc.).
 
-Si un workflow est en mise en pause (manuellement ou automatiquement suite à une erreur), le bouton **[!UICONTROL Démarrer]** permet de reprendre l&#39;exécution du workflow là où elle s&#39;est arrêtée. L&#39;activité en erreur (ou en pause) sera de nouveau exécutée. Les activités précédentes ne sont pas exécutées de nouveau.
+Si un workflow est en mise en pause (manuellement ou automatiquement suite à une erreur), le bouton **[!UICONTROL Démarrer]** permet de redémarrer lexécution du workflow là où elle sest arrêtée. Lactivité en erreur (ou en pause) sera de nouveau exécutée. Les activités précédentes ne sont pas exécutées de nouveau.
 
 Pour exécuter à nouveau toutes les activités du workflow, utilisez le bouton **[!UICONTROL Redémarrer]**.
 
-Si vous effectuez des modifications sur les activités déjà exécutées, elles ne sont pas prises en compte lorsque l&#39;exécution du workflow reprend.
+Si vous effectuez des modifications sur les activités déjà exécutées, elles ne sont pas prises en compte lorsque lexécution du workflow redémarre.
 
-Si vous effectuez des modifications sur les activités non exécutées, elles sont prises en compte lorsque l&#39;exécution du workflow reprend.
+Si vous effectuez des modifications sur les activités non exécutées, elles sont prises en compte lorsque lexécution du workflow redémarre.
 
-Si vous effectuez des modifications sur l&#39;activité en pause, elles peuvent ne pas être correctement prises en compte lors de la reprise du workflow.
+Si vous effectuez des modifications sur lactivité en pause, elles peuvent ne pas être correctement prises en compte lors du redémarrage du workflow.
 
-Si possible, il est recommandé de le relancer complètement après avoir effectué des modifications.
+Si possible, il est recommandé de le redémarrer complètement après avoir effectué des modifications.
 
 ## Supervision de l&#39;instance {#instance-supervision}
 
-La page **[!UICONTROL Supervision de l&#39;instance]** permet de visualiser l&#39;activité du serveur Adobe Campaign et de consulter la liste des workflows et des diffusions en échec.
+La page **[!UICONTROL Supervision de l’instance]** permet de visualiser l’activité du serveur Adobe Campaign et de consulter la liste des workflows et des diffusions contenant des erreurs.
 
 Pour accéder à cette page, allez dans l’onglet **[!UICONTROL Supervision]** et cliquez sur le lien **[!UICONTROL Vue générale]**.
 
@@ -177,7 +177,7 @@ Pour afficher la liste de tous les workflows, cliquez sur le lien **[!UICONTROL 
 
 ![](assets/wf-monitoring_edit-wf.png)
 
-Lorsqu&#39;un workflow est en erreur, cliquez sur le lien pour l&#39;ouvrir et visualiser le journal.
+Lorsqu&#39;un workflow est en erreur, cliquez sur le lien pour l&#39;ouvrir et visualiser le log.
 
 ![](assets/wf-monitoring_edit-task-wf.png)
 
@@ -205,7 +205,7 @@ Le **[!UICONTROL Planificateur]** déclenche un événement toutes les minutes. 
 
 >[!NOTE]
 >
->**isRunning** est un nom de variable choisi pour cet exemple. Il ne s&#39;agit pas d&#39;une variable native.
+>**isRunning** est un nom de variable choisi pour cet exemple. Il ne s’agit pas d’une variable native.
 
 L&#39;activité qui suit le **[!UICONTROL Test]** dans la branche **oui** doit configurer la variable d&#39;instance dans son **Script d&#39;initialisation** :
 
@@ -222,7 +222,7 @@ instance.vars.isRunning = false
 Notez que :
 
 * La valeur actuelle de la variable d&#39;instance est visible dans l&#39;onglet **Variables** des **Propriétés** du workflow.
-* Les variables d&#39;instance sont remise à zéro lorsqu&#39;un workflow est redémarré.
+* Les variables dinstance sont remise à zéro lorsquun workflow est redémarré.
 * Dans JavaScript, une valeur non définie est considérée comme fausse dans un test, ce qui permet de tester la variable d&#39;instance avant même de l&#39;avoir initiée.
 * Il est possible de surveiller les activités non traitées par ce mécanisme en ajoutant une consigne d&#39;enregistrement au script d&#39;initialisation de la fin « non ».
 
@@ -246,7 +246,7 @@ Par défaut, si un workflow est en pause, ses tables de travail ne sont jamais p
 
 * Les workflows qui sont en pause depuis plus de 7 jours apparaissent sous la forme d’un avertissement dans le tableau de bord de surveillance (et l’API de surveillance) et une notification est envoyée au groupe des personnes chargées de la supervision.
 * Cette situation se produit chaque semaine, lorsque le workflow technique **[!UICONTROL cleanupPausedWorkflows]** est déclenché. Pour plus d’informations sur le workflow, reportez-vous à [cette section](delivery.md).
-* Après 4 notifications (un mois en pause par défaut), le workflow est arrêté de manière inconditionnelle. Un journal s’affiche dans le workflow après son arrêt. Les tables sont purgées lors de la prochaine exécution du workflow **[!UICONTROL de nettoyage]**
+* Après 4 notifications (un mois en pause par défaut), le workflow est arrêté de manière inconditionnelle. Un log s’affiche dans le workflow après son arrêt. Les tables sont purgées lors de la prochaine exécution du workflow **[!UICONTROL de nettoyage]**
 
 Ces périodes peuvent être configurées à l&#39;aide de l&#39;option NmsServer_PausedWorkflowPeriod.
 
@@ -281,7 +281,4 @@ En outre, vous pouvez configurer des dossiers de filtres qui vous permettront de
 
 ![](assets/workflow-monitoring-filter.png)
 
-Pour plus d’informations, consultez les sections suivantes :
-
-* [Créer des filtres avancés](../../platform/using/creating-filters.md#creating-an-advanced-filter)
-* [Enregistrer des filtres](../../platform/using/creating-filters.md#saving-a-filter)
+Pour plus d’informations sur les filtres, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.

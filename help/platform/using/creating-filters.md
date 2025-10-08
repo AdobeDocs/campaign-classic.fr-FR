@@ -2,11 +2,13 @@
 product: campaign
 title: Création de filtres
 description: Création de filtres
+hide: true
+hidefromtoc: true
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 89%
+source-wordcount: '124'
+ht-degree: 87%
 
 ---
 
@@ -14,15 +16,9 @@ ht-degree: 89%
 
 Le filtrage des données est le processus de sélection d’une petite partie de votre jeu de données, composée uniquement des enregistrements qui correspondent à certains critères, et d’utilisation de ce sous-ensemble pour des actions spécifiques (mises à jour, création d’audiences) ou des analyses.
 
-Lorsque vous naviguez dans l’arborescence d’Adobe Campaign (à partir du menu **[!UICONTROL Explorateur]** de la page d’accueil), les informations contenues dans la base de données sont affichées sous forme de listes. Ces listes sont paramétrables afin de filtrer les données et de n’afficher que les éléments utiles à l’opérateur. Des actions peuvent ensuite être lancées sur les données issues du résultat du filtre. Le paramétrage des filtres permet de sélectionner les données d’une liste de façon **[!UICONTROL dynamique]**. En cas de modification des données, les données filtrées sont mises à jour.
+Lorsque vous naviguez dans l&#39;arborescence d&#39;Adobe Campaign (à partir du menu **[!UICONTROL Explorateur]** de la page d&#39;accueil), les informations contenues dans la base de données sont affichées sous forme de listes. Ces listes sont paramétrables afin de filtrer les données et de n&#39;afficher que les éléments utiles à l&#39;opérateur. Des actions peuvent ensuite être lancées sur les données issues du résultat du filtre. Le paramétrage des filtres permet de sélectionner les données d&#39;une liste sur un mode **[!UICONTROL dynamique]**. En cas de modification des données, les données filtrées sont mises à jour.
 
->[!NOTE]
->
->Les paramètres de configuration de l’interface utilisateur sont définis localement pour l’appareil. Il peut parfois être nécessaire de nettoyer ces données, en particulier si des problèmes surviennent lors de leur actualisation. Pour ce faire, utilisez le menu **[!UICONTROL Fichier > Vider le cache local]**.
-
->[!NOTE]
->
->Pour en savoir plus sur les filtres et leur utilisation, reportez-vous à la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
+Pour en savoir plus sur les **filtres et leur utilisation** consultez la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
 
 
 <!--

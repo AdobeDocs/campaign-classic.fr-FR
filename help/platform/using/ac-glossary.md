@@ -6,10 +6,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
 workflow-type: tm+mt
-source-wordcount: '6002'
-ht-degree: 99%
+source-wordcount: '6010'
+ht-degree: 98%
 
 ---
 
@@ -795,7 +795,7 @@ En savoir plus sur les [Plans](../../campaign/using/setting-up-marketing-campaig
 
 Les filtres prédéfinis sont des requêtes qui ont été enregistrées pour réutilisation. L’utilisation de filtres prédéfinis augmente la productivité (car ils ne sont créés qu’une seule fois), contribue à assurer une cohérence (car tous les spécialistes marketing peuvent les utiliser) et à réduire les compétences requises du spécialiste marketing, car ce dernier peut utiliser du code ou une logique qu’il pourrait ne pas être en mesure de créer lui-même.
 
-En savoir plus sur les [filtres prédéfinis](../../platform/using/creating-filters.md#filtering-recipients).
+Pour plus d’informations sur les filtres, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 +++
 
 <!--
