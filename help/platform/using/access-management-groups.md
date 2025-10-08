@@ -7,10 +7,10 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 94%
+source-wordcount: '621'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->Ces procédures ne s’appliquent qu’aux opérateurs et aux opératrices qui se connectent à Campaign via une authentification native. Pour l’authentification Adobe IMS, consultez [cette documentation](https://helpx.adobe.com/fr/enterprise/using/user-groups.html).
+>Ces procédures s’appliquent uniquement aux opérateurs qui se connectent à Campaign avec l’authentification native héritée. À compter de Campaign Classic v7.3.1, tous les opérateurs doivent utiliser [Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign. [En savoir plus](../../technotes/using/migrate-users-to-ims.md)
+>
+>Lors de la connexion à Campaign avec votre Adobe ID, la section suivante ne s&#39;applique plus. Découvrez comment configurer des autorisations avec Adobe IMS dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
 
 Les groupes d’opérateurs sont créés à partir du nœud **[!UICONTROL Administration > Gestion des accès > Groupes d’opérateurs]** de l’arborescence.
 
@@ -65,7 +67,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 1. **[!UICONTROL Chargés d&#39;opération]**
 
-   Les opérateurs de ce groupe peuvent gérer les campagnes marketing : il permet d&#39;accéder aux objets liés aux opérations (plans, programmes, workflows, budgets, etc.) dans le cadre de **[!UICONTROL Campaign]** (module optionnel d&#39;Adobe Campaign).
+   Les opérateurs et opératrices de ce groupe peuvent gérer les campagnes marketing : il permet d’accéder aux objets relatifs aux opérations (plans, programmes, workflows, budgets, etc.) dans le cadre de **[!UICONTROL Campaign]** (module Adobe Campaign optionnel).
 
    Ce groupe contient les droits nommés suivants :
 

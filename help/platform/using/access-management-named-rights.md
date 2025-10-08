@@ -2,25 +2,20 @@
 product: campaign
 title: Utiliser des droits nommés pour configurer des autorisations
 description: Découvrez comment utiliser des droits nommés pour configurer des autorisations
-badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
-source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '551'
 ht-degree: 100%
 
 ---
 
-# Utiliser des droits nommés pour configurer des autorisations{#named-rights}
+# Utilisation des droits nommés pour la configuration des autorisations{#named-rights}
 
->[!NOTE]
->
->Cette page ne s’applique qu’aux opérateurs et aux opératrices qui se connectent à Campaign avec une authentification native. Pour l’authentification Adobe IMS, consultez [cette documentation](https://helpx.adobe.com/fr/enterprise/using/manage-permissions-and-roles.html).
-
-Par défaut, Adobe Campaign propose un ensemble de droits nommés qui permettent de définir les autorisations attribuées aux opérateurs et opératrices et groupes d’opérateurs et d’opératrices. Ces droits peuvent être édités depuis le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;arborescence.
+Par défaut, Adobe Campaign propose un ensemble de droits nommés qui permettent de définir les autorisations attribuées aux opérateurs et groupes d&#39;opérateurs. Ces droits peuvent être édités depuis le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;arborescence.
 
 ![](assets/s_ncs_admin_named_rights.png)
 
@@ -46,7 +41,7 @@ Ces droits sont les suivants :
 
 * **[!UICONTROL LOCAL]** : droit de gestion en local (Marketing distribué).
 
-* **[!UICONTROL FUSION]** : droit de fusionner les enregistrements sélectionnés en un seul. S’il existe des doublons de destinataires, le droit **[!UICONTROL FUSION]** permet à l’utilisateur de les sélectionner et de les fusionner dans un destinataire principal.
+* **[!UICONTROL FUSION]** : droit de fusionner les enregistrements sélectionnés en un seul. S’il existe des doublons de destinataires, le droit **[!UICONTROL FUSION]** permet de les sélectionner et de les fusionner dans un destinataire principal.
 
 * **[!UICONTROL PRÉPARER DES DIFFUSIONS]** : droit de créer, éditer et enregistrer une diffusion. Les utilisateurs disposant du droit **[!UICONTROL PRÉPARER DES DIFFUSIONS]** peuvent également lancer le processus d’analyse de diffusion.
 
@@ -76,4 +71,4 @@ Les groupes par défaut et les droits nommés permettent aux opérateurs d&#39;a
 
 La matrice des droits d&#39;accès Adobe Campaign est disponible [ici](/help/platform/using/assets/access-rights-matrix.pdf).
 
-[![image](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=fr)
+[![image](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf)

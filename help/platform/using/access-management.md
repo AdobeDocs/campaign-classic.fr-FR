@@ -5,10 +5,10 @@ description: Découvrez comment octroyer l’accès aux fonctionnalités Campaig
 badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: b27b85b126e002c0ea8b5d71da1ed60e1e817980
-workflow-type: ht
-source-wordcount: '202'
-ht-degree: 100%
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 64%
 
 ---
 
@@ -34,17 +34,28 @@ Adobe Campaign permet de définir et de gérer les droits attribués aux diffé
 
 >[!TAB Documentation sur les autorisations]
 
-Pour en savoir plus sur les autorisations dans Adobe Campaign, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=fr#_blank){target=_blank}.
+Pour en savoir plus sur les **autorisations dans Adobe Campaign**, reportez-vous à la documentation de **[Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=fr#_blank){target=_blank}**.
 
 [![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=fr#_blank){target=_blank}
 
->[!TAB Gérer l’accès aux dossiers]
 
-Pour en savoir plus sur les requêtes et leur création, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/folder-permissions?lang=fr#_blank){target=_blank}.
+>[!TAB Gérer les autorisations sur les dossiers]
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)]([![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}){target=_blank}
+Pour savoir comment définir des **autorisations sur les dossiers**, reportez-vous à la documentation de **[Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}**.
+
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}
+
+
+>[!TAB  Authentification native ]
+
+L’authentification native avec le nom d’utilisateur/mot de passe est toujours disponible dans Campaign v7. Toutefois, pour renforcer la sécurité et le processus d’authentification, Adobe Campaign recommande vivement de [migrer le mode d’authentification de l’utilisateur final](../../technotes/using/ac-ims.md) de l’authentification native par nom d’utilisateur/mot de passe vers Adobe Identity Management System (IMS). Notez que dans Campaign v8, la connexion avec un utilisateur/mot de passe (ou authentification native) n’est pas autorisée.
+
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](../../technotes/using/ac-ims.md)
+
 
 >[!ENDTABS]
+
+
 
 <!--
 The permissions apply to operator profiles or operator groups.
@@ -59,8 +70,8 @@ There are two types of permissions you can grant to a user:
 
 >[!NOTE]
 >
-> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).
-> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
+> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
+> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
 
 Learn how to grant access and set up permissions in these sections:
 

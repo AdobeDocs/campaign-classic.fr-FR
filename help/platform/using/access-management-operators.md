@@ -7,10 +7,10 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '1324'
-ht-degree: 100%
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
+workflow-type: tm+mt
+source-wordcount: '1300'
+ht-degree: 96%
 
 ---
 
@@ -18,11 +18,9 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->* À partir de Campaign Classic v7.3.1, l’ensemble des opérateurs et opératrices doivent utiliser le [système de gestion des identités Adobe (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign.
->  >Dans le cadre de ses efforts constants pour renforcer la sécurité et le processus d’authentification, Adobe Campaign recommande vivement de faire passer le mode d’authentification de l’ensemble des opérateurs et opératrices de l’authentification native par nom d’utilisateur/mot de passe à Adobe Identity Management System (IMS). Découvrez comment effectuer la migration de vos opérateurs et opératrices sur [cette page](../../technotes/using/migrate-users-to-ims.md).
-> 
->* À l’issue de cette migration, notez que la section suivante ne s’applique plus.  Découvrez comment configurer des autorisations avec Adobe IMS dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
-
+>Ces procédures s’appliquent uniquement aux opérateurs qui se connectent à Campaign avec l’authentification native héritée. À compter de Campaign Classic v7.3.1, tous les opérateurs doivent utiliser [Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign. [En savoir plus](../../technotes/using/migrate-users-to-ims.md)
+>
+>Lors de la connexion à Campaign avec votre Adobe ID, la section suivante ne s&#39;applique plus. Découvrez comment configurer des autorisations avec Adobe IMS dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
 
 ## Commencer avec les opérateurs et les opératrices Campaign {#about-operators}
 
@@ -152,7 +150,7 @@ Vous pouvez accéder à :
   >
   >Voir à ce sujet la section [Gestion de l&#39;accès aux dossiers](#folder-access-management).
 
-* Le journal des validations de l&#39;opérateur.
+* Le log des validations de l&#39;opérateur.
 
   ![](assets/operator_profile_validations.png)
 
@@ -196,4 +194,4 @@ Par défaut, l&#39;opérateur technique &#39;webapp&#39; bénéficie du droit no
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).
+>Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-security.html).

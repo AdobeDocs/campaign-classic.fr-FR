@@ -6,9 +6,9 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2574'
 ht-degree: 96%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 96%
       + [Concevoir des messages](platform/using/faq-designing.md)
       + [Envoi de messages](platform/using/faq-messages.md)
       + [Workflows](platform/using/faq-workflows.md)
-      + [Configuration &#x200B;](platform/using/faq-campaign-config.md)
+      + [Configuration ](platform/using/faq-campaign-config.md)
       + [Rapports](platform/using/faq-reporting.md)
       + [Développement](platform/using/faq-developers.md)
    + [Glossaire](platform/using/ac-glossary.md)
@@ -91,11 +91,12 @@ ht-degree: 96%
    + [Procédure de création d’une requête - MASQUÉ](platform/using/steps-to-create-a-query.md)
    + [Définir les conditions de filtrage - MASQUÉ](platform/using/defining-filter-conditions.md)
    + Autorisations {#permissions}
-      + [Prise en main des autorisations](platform/using/access-management.md)
-      + [Création et gestion d’opérateurs](platform/using/access-management-operators.md)
-      + [Création et gestion de groupes](platform/using/access-management-groups.md)
+      + [Commencer avec les autorisations](platform/using/access-management.md)
+      + Authentification native (héritée) {#native}
+         + [Création et gestion d’opérateurs](platform/using/access-management-operators.md)
+         + [Création et gestion de groupes](platform/using/access-management-groups.md)
       + [Utiliser des droits nommés pour configurer des autorisations](platform/using/access-management-named-rights.md)
-      + [Gestion de l’accès aux dossiers](platform/using/access-management-folders.md)
+      + [Gérer l’accès aux dossiers - MASQUÉ](platform/using/access-management-folders.md)
    + Connecteurs CRM {#connectors}
       + [Prise en main des connecteurs CRM](platform/using/crm-connectors.md)
       + [Connexion avec Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
@@ -270,7 +271,7 @@ ht-degree: 96%
    + [Cas d’utilisation](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
    + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-   + [Configuration &#x200B;](response/using/configuration.md)
+   + [Configuration ](response/using/configuration.md)
    + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
    + [Création d’hypothèses](response/using/creating-hypotheses.md)
    + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -672,7 +673,7 @@ ht-degree: 96%
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création d’instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign &#x200B;](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstallation de Campaign](installation/using/uninstalling-campaign.md)
       + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
@@ -683,8 +684,8 @@ ht-degree: 96%
    + Procédures d’exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
-      + [Administration &#x200B;](production/using/administration.md)
-      + [Configuration &#x200B;](production/using/configuration.md)
+      + [Administration ](production/using/administration.md)
+      + [Configuration ](production/using/configuration.md)
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)
