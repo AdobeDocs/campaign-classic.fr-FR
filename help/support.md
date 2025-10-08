@@ -6,7 +6,7 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
+source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 99%
@@ -80,7 +80,7 @@ Comment effectuer une mise à niveau vers un nouveau build ? Comment surveiller
         <li><a href="delivery/using/understanding-quarantine-management.md">Présentation de la gestion des quarantaines</a></li>
         <li><a href="installation/using/get-started-security-privacy.md">Liste de contrôle relative à la sécurité et à la confidentialité</a></li>
         <li><a href="platform/using/privacy-management.md">Gestion de la confidentialité et du consentement</a></li>
-        <li><a href="platform/using/steps-to-create-a-query.md">Conception d’une requête</a></li>
+        <li><a href="platform/using/about-queries-in-campaign.md">Conception d’une requête</a></li>
         <li><a href="workflow/using/querying-recipient-table.md">Exemples de requêtes</a></li>
         <li><a href="workflow/using/building-a-workflow.md">Création d’un workflow</a></li>
         </ul>

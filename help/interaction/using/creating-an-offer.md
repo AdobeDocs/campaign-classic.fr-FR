@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%
@@ -48,7 +48,7 @@ Dans l&#39;onglet **[!UICONTROL Eligibilité de l&#39;offre]**, vous définissez
 
 ### Définir la période d&#39;éligibilité d&#39;une offre {#defining-the-eligibility-period-of-an-offer}
 
-Pour définir la période d&#39;éligibilité de l&#39;offre, utilisez les listes déroulantes et sélectionnez une date de début et de fin dans le calendrier.
+Pour définir la période d’éligibilité de l’offre, utilisez les listes déroulantes et sélectionnez une date de début et de fin dans le calendrier.
 
 ![](assets/offer_eligibility_create_002.png)
 
@@ -58,7 +58,7 @@ En dehors de ces dates, l&#39;offre ne sera pas sélectionnée par le moteur d&#
 
 Vous pouvez appliquer des filtres sur la cible de l&#39;offre.
 
-Pour cela, cliquez sur le lien **[!UICONTROL Edition de la requête]** et sélectionnez le filtre que vous souhaitez appliquer. (Reportez-vous à [cette section](../../platform/using/steps-to-create-a-query.md#step-4---filter-data)).
+Pour cela, cliquez sur le lien **[!UICONTROL Edition de la requête]** et sélectionnez le filtre que vous souhaitez appliquer. Consultez [cette section](../../platform/using/about-adobe-campaign-classic.md).
 
 ![](assets/offer_eligibility_create_003.png)
 
@@ -110,7 +110,7 @@ Pour créer un poids dans une offre, procédez comme suit :
 
    >[!NOTE]
    >
-   >Si un contact est éligible à plusieurs poids pour une offre sélectionnée, le moteur garde le meilleur poids (le plus grand). Lors d&#39;un appel au moteur, une offre ne sort qu&#39;une seule fois maximum par contact.
+   >Si une cible est éligible à plusieurs poids pour une offre sélectionnée, le moteur garde le meilleur poids (le plus grand). Lors d’un appel au moteur, une offre ne sort qu’une seule fois maximum par contact.
 
 ### Résumé des règles d&#39;éligibilité d&#39;une offre {#a-summary-of-offer-eligibility-rules}
 
@@ -176,7 +176,7 @@ Dès lors que le contenu de votre offre a été paramétré, vous pouvez prévis
 
 ## Créer une hypothèse sur une offre {#creating-a-hypothesis-on-an-offer}
 
-Vous avez la possibilité de créer des hypothèses sur vos propositions d&#39;offres. Cela vous permet de déterminer l&#39;impact de vos offres sur les ventes réalisées pour le produit concerné.
+Vous avez la possibilité de créer des hypothèses sur vos propositions d’offres. Cela vous permet de déterminer l’impact de vos offres sur les achats effectués pour le produit concerné.
 
 >[!NOTE]
 >

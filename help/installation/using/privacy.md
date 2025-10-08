@@ -4,7 +4,7 @@ title: Personnalisation et confidentialité
 description: Découvrez les bonnes pratiques de sécurité en matière de confidentialité et de personnalisation.
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Lorsque vous ajoutez des liens personnalisés à votre contenu, évitez toujours
 
 ### Recommandation
 
-Pour valider et vous assurer que vous n’utilisez pas les éléments ci-dessus, exécutez une requête sur la table des URL de tracking à l’aide du [requêteur générique de Campaign](../../platform/using/steps-to-create-a-query.md) ou créez un workflow avec des critères de filtre dans l’[activité de requête](../../workflow/using/query.md).
+Pour valider et vous assurer que vous n’utilisez pas les éléments ci-dessus, exécutez une requête sur la table des URL de tracking à l’aide du [requêteur générique de Campaign](../../platform/using/about-queries-in-campaign.md) ou créez un workflow avec des critères de filtre dans l’[activité de requête](../../workflow/using/query.md).
 
 Exemple :
 
