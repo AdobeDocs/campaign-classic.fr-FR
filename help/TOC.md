@@ -6,9 +6,9 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
+source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2567'
 ht-degree: 97%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 97%
       + [Concevoir des messages](platform/using/faq-designing.md)
       + [Envoi de messages](platform/using/faq-messages.md)
       + [Workflows](platform/using/faq-workflows.md)
-      + [Configuration &#x200B;](platform/using/faq-campaign-config.md)
+      + [Configuration ](platform/using/faq-campaign-config.md)
       + [Rapports](platform/using/faq-reporting.md)
       + [Développement](platform/using/faq-developers.md)
    + [Glossaire](platform/using/ac-glossary.md)
@@ -87,10 +87,9 @@ ht-degree: 97%
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Cas d’utilisation](platform/using/use-case.md)
-   + Créer des requêtes {#creating-queries}
-      + [À propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
-      + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
-      + [Définition des conditions de filtre](platform/using/defining-filter-conditions.md)
+   + [Création de requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
+   + [Procédure de création d’une requête - MASQUÉ](platform/using/steps-to-create-a-query.md)
+   + [Définir les conditions de filtrage - MASQUÉ](platform/using/defining-filter-conditions.md)
    + Autorisations {#permissions}
       + [Prise en main des autorisations](platform/using/access-management.md)
       + [Création et gestion d’opérateurs](platform/using/access-management-operators.md)
@@ -102,7 +101,7 @@ ht-degree: 97%
       + [Connexion avec Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
       + [Connexion à Salesforce.com](platform/using/crm-sfdc.md)
       + [Synchronisation des données avec le CRM](platform/using/crm-data-sync.md)
-   + [Options d’aide et de support](support.md)
+   + [Options d’aide et d’assistance - MASQUÉ](support.md)
 + Créer et envoyer des messages {#sending-messages}
    + [Commencer avec les messages](delivery/using/communication-channels.md)
    + [Paramètres de diffusion](delivery/using/delivery-settings.md)
@@ -271,7 +270,7 @@ ht-degree: 97%
    + [Cas d’utilisation](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
    + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-   + [Configuration &#x200B;](response/using/configuration.md)
+   + [Configuration ](response/using/configuration.md)
    + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
    + [Création d’hypothèses](response/using/creating-hypotheses.md)
    + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -673,7 +672,7 @@ ht-degree: 97%
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création d’instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign &#x200B;](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstallation de Campaign](installation/using/uninstalling-campaign.md)
       + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
@@ -684,8 +683,8 @@ ht-degree: 97%
    + Procédures d’exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
-      + [Administration &#x200B;](production/using/administration.md)
-      + [Configuration &#x200B;](production/using/configuration.md)
+      + [Administration ](production/using/administration.md)
+      + [Configuration ](production/using/configuration.md)
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)

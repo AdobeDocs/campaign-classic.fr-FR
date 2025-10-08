@@ -7,41 +7,45 @@ feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 11%
 
 ---
 
 # Prise en main des requêtes{#about-queries-in-campaign}
 
+Le requêteur est disponible à différents niveaux de l’application et peut être utilisé pour définir des populations cibles, segmenter les clients, extraire et filtrer des logs de tracking, créer des filtres, etc.
 
+Il fournit un assistant dédié, le requêteur générique, accessible à partir du menu **[!UICONTROL Outils > Requêteur générique...]** . Cet éditeur permet aux requêtes de base de données d’extraire, d’organiser, de regrouper et de trier des informations. Elle peut, par exemple, récupérer les destinataires ayant cliqué plus de n fois sur un lien de newsletter au cours d’une période donnée.
 
-L’outil de requête est présent à de nombreux niveaux de la plateforme Adobe Campaign : pour créer une population cible, segmenter la clientèle, extraire et filtrer des logs de tracking, construire des filtres, etc.
+Le requêteur générique centralise toutes les fonctionnalités d’interrogation. Elle permet la création et le stockage de filtres de restriction, qui peuvent ensuite être réutilisés dans d&#39;autres contextes, tels que la boîte de Requête d&#39;un workflow de ciblage.
 
-L’outil de requête Adobe Campaign permet d’interroger une base de données grâce à un assistant dédié : le requêteur générique. Il est accessible depuis le menu **[!UICONTROL Outils > Requêteur générique...]**. Il permet d&#39;extraire des informations stockées dans une base de données, les organiser, les regrouper, les trier, etc. Par exemple, l&#39;utilisateur peut récupérer les destinataires ayant cliqué plus de &#39;n&#39; fois dans le lien d&#39;une newsletter et sur une période donnée. Il pourra organiser la collecte, le tri et l’affichage des résultats selon vos besoins.
+![Accédez au requêteur et sélectionnez une table](assets/query_editor_nveau_21.png)
 
-Cet outil regroupe toutes les possibilités de requêtage d&#39;Adobe Campaign. Par exemple, il permet la création et la sauvegarde des filtres de restriction. Ainsi, un filtre utilisateur créé dans le Requêteur générique est réutilisable dans la boîte de Requête d&#39;un workflow de ciblage, etc.
-
-Les requêtes sont réalisées soit avec les champs disponibles de la table sélectionnée, soit à l&#39;aide d&#39;une formule.
 
 >[!BEGINTABS]
 
->[!TAB Documentation sur les requêtes]
+>[!TAB Interroger la base de données]
 
-Pour en savoir plus sur les requêtes, consultez la [documentation Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}.
-
-
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+Les étapes de création d’une requête sont détaillées dans la documentation de **[Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
 
 
->[!TAB Créer une requête]
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
 
-Découvrez les principales étapes liées à la création d’une requête dans la [documentation Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
+
+>[!TAB Ajouter une requête dans un workflow]
+
+Découvrez les principales étapes relatives à la création de requêtes dans le contexte d&#39;un workflow dans la documentation de **[Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}**
 
 [![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 
+>[!TAB Conditions de filtrage]
+
+Pour concevoir votre requête, vous devez sélectionner les conditions de filtrage dans le requêteur. Les fonctionnalités disponibles et les cas pratiques sont détaillés dans la documentation de **[Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**
+
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
+
 >[!ENDTABS]
 
-![Capture d’écran montrant un exemple de requête.](assets/query_recipients_4.png)

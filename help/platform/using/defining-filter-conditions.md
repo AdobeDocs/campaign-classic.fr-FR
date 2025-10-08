@@ -7,8 +7,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 audience: platform
 content-type: reference
 topic-tags: creating-queries
+hide: true
+hidefromtoc: true
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
 workflow-type: tm+mt
 source-wordcount: '3472'
 ht-degree: 100%
@@ -286,15 +288,15 @@ Quatre types de champ calculé sont proposés :
 
   ![](assets/query_editor_nveau_62.png)
 
-* **[!UICONTROL Enumérations]**. Ce type de champ permet d&#39;utiliser/transformer le contenu d&#39;une des colonnes de sortie dans une nouvelle colonne.
+* **[!UICONTROL Énumérations]**. Ce type de champ permet d’utiliser/transformer le contenu d’une des colonnes de sortie dans une nouvelle colonne.
 
   On peut utiliser la valeur source d&#39;une colonne et lui donner une valeur de destination. Cette valeur de destination sera affichée dans la nouvelle colonne de sortie.
 
-  Un exemple d&#39;ajout de champ calculé de type **[!UICONTROL Enumérations]** est disponible. Reportez-vous à [cette section](../../workflow/using/adding-enumeration-type-calculated-field.md).
+  Un exemple d’ajout de champ calculé de type **[!UICONTROL Énumérations]** est disponible. Reportez-vous à [cette section](../../workflow/using/adding-enumeration-type-calculated-field.md).
 
   ![](assets/query_editor_nveau_63.png)
 
-  Le champ calculé de type **[!UICONTROL Enumérations]** peut comporter quatre conditions :
+  Le champ calculé de type **[!UICONTROL Énumérations]** peut comporter quatre conditions :
 
    * **[!UICONTROL Conserver la valeur source]** restitue la valeur de la source, sans transformation dans la cible.
    * **[!UICONTROL Utiliser la valeur suivante]** sert à saisir une valeur de destination par défaut, pour les valeurs sources non définies.
