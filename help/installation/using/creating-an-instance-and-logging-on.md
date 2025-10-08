@@ -72,7 +72,7 @@ Pour créer une instance, procédez comme suit :
 
 1. Dans la liste déroulante **[!UICONTROL Langue]**, sélectionnez la **langue de l&#39;instance** : anglais (US), anglais (UK) , français ou japonais.
 
-   Les différences entre l’anglais américain et l’anglais britannique sont décrites dans la documentation de [Campaign v8 (console)] (.https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui).
+   Les différences entre l’anglais américain et l’anglais britannique sont décrites dans la documentation de [Campaign v8 (console)] (.https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui).
 
    >[!CAUTION]
    >
