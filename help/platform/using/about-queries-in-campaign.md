@@ -2,15 +2,14 @@
 product: campaign
 title: À propos des requêtes dans Campaign
 description: À propos des requêtes dans Campaign
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
+source-git-commit: 0bbe3bd199c664d30513a0c50203248d703451cd
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 11%
+source-wordcount: '211'
+ht-degree: 8%
 
 ---
 
@@ -29,10 +28,10 @@ Le requêteur générique centralise toutes les fonctionnalités d’interrogati
 
 >[!TAB Interroger la base de données]
 
-Les étapes de création d’une requête sont détaillées dans la documentation de **[Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
+Les étapes de création d’une requête sont détaillées dans la documentation de **[Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
 
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
 
 
 >[!TAB Ajouter une requête dans un workflow]
@@ -43,9 +42,9 @@ Découvrez les principales étapes relatives à la création de requêtes dans l
 
 >[!TAB Conditions de filtrage]
 
-Pour concevoir votre requête, vous devez sélectionner les conditions de filtrage dans le requêteur. Les fonctionnalités disponibles et les cas pratiques sont détaillés dans la documentation de **[Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**
+Pour concevoir votre requête, vous devez sélectionner les conditions de filtrage dans le requêteur. Les fonctionnalités disponibles et les cas pratiques sont détaillés dans la documentation de **[Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
 
 >[!ENDTABS]
 
