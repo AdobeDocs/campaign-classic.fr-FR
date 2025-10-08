@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 level: Intermediate, Experienced
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '1212'
-ht-degree: 100%
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+workflow-type: tm+mt
+source-wordcount: '1206'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Elle doit être renvoyée comme
 
 Vous devez redémarrer [!DNL pipelined] après avoir modifié le fichier JavaScript.
 
-### Format des données Trigger {#trigger-format}
+### Format des données du déclencheur {#trigger-format}
 
 Les données [!DNL trigger] sont transmises à la fonction JS au format XML.
 
@@ -82,7 +82,7 @@ Exemple :
 Le contenu est défini au format JSON dans Adobe Analytics pour chaque déclencheur.
 Par exemple, dans un déclencheur LogoUpload_uploading_Visits :
 
-* **[!UICONTROL eVar01]** peut contenir l&#39;identifiant de nouvel acheteur au format Chaîne utilisé pour la réconciliation avec les destinataires Campaign. <br>Il doit être réconcilié pour trouver l&#39;identifiant de nouvel acheteur, qui est la clé principale.
+* **[!UICONTROL eVar01]** peut contenir l&#39;identifiant de nouvel acheteur au format Chaîne utilisé pour la réconciliation avec les destinataires Campaign. <br>Il doit être réconcilié pour trouver l’identifiant de nouvel acheteur, qui est la clé primaire.
 
 * **[!UICONTROL timeGMT]** peut contenir l&#39;heure du déclencheur côté Adobe Analytics au format UTC Epoch (secondes depuis le 01/01/1970 UTC).
 
@@ -114,7 +114,7 @@ Exemple :
 
 Les événements sont traités un par un, par ordre de décalage. Chaque thread du [!DNL pipelined] traite une partition différente.
 
-Le « décalage » du dernier événement récupéré est stocké dans la base de données. Par conséquent, si le processus est arrêté, il redémarre à partir du dernier message. Ces données sont stockées dans le schéma intégré xtk:pipelineOffset.
+Le « décalage » du dernier événement récupéré est stocké dans la base de données. Par conséquent, si le processus est arrêté, il redémarre à partir du dernier message. Ces données sont stockées dans le schéma natif xtk:pipelineOffset.
 
 Ce pointeur est spécifique à chaque instance et à chaque consommateur. Par conséquent, lorsque de nombreuses instances accèdent au même pipeline avec des consommateurs différents, ils reçoivent tous les messages et dans le même ordre.
 
@@ -220,7 +220,7 @@ Les événements peuvent être affichés avec un formulaire simple basé sur le 
 
 >[!NOTE]
 >
->Le nœud d’événement de pipeline n’est pas natif et doit être ajouté, de même que le formulaire associé doit être créé dans Campaign. Ces opérations sont limitées aux utilisateurs experts uniquement. Pour plus d’informations, consultez les sections suivantes : [Arborescence de navigation](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy) et [Éditer les formulaires](../../configuration/using/editing-forms.md).
+>Le nœud d’événement de pipeline n’est pas natif et doit être ajouté, de même que le formulaire associé doit être créé dans Campaign. Ces opérations sont limitées aux utilisateurs experts uniquement. Pour plus d&#39;informations, consultez la section [Editer les formulaires](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 

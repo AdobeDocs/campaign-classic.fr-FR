@@ -6,10 +6,10 @@ feature: Application Settings
 role: Data Engineer, Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 100%
+source-wordcount: '304'
+ht-degree: 69%
 
 ---
 
@@ -21,10 +21,10 @@ Afin de visualiser et de dialoguer avec la nouvelle table des destinataires dans
 * Renseigner un nouveau type de dossier dans l&#39;arborescence de l&#39;explorateur.
 * Créer une nouvelle application web pour accéder à la table personnalisée depuis la page d&#39;accueil d&#39;Adobe Campaign.
 
-Au préalable, Adobe Campaign utilise une variable globale &quot;Nms_DefaultRcpSchema&quot; pour dialoguer avec la base de destinataires installée par défaut (nms:recipient). Il convient donc de modifier cette variable.
+Adobe Campaign utilise une variable globale « Nms_DefaultRcpSchema » pour dialoguer avec la base de destinataires par défaut (nms:recipient). Il convient donc de modifier cette variable.
 
 1. Ouvrez le noeud **[!UICONTROL Administration > Plateforme > Options]** dans l&#39;explorateur.
-1. Modifiez la valeur de la variable **Nms_DefaultRcpSchema** avec le nom du schéma correspondant à la table externe des destinataires (dans notre exemple : cus:individual).
+1. Modifiez la valeur de la variable **Nms_DefaultRcpSchema** avec le nom du schéma correspondant à la table externe des destinataires (dans notre exemple : cus:individual).
 1. Enregistrez les modifications.
 
 ## Créer un nouveau formulaire {#creating-a-new-form-}
@@ -36,14 +36,14 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
 >Le nom du formulaire doit être identique au nom du schéma auquel il se rapporte.
 
 1. Ouvrez le nœud **Administration > Paramétrage > Formulaires de saisie** dans l&#39;explorateur.
-1. Créez un nouveau fichier **form** de type **xtk:form**.
+1. Créez un fichier **xtk:form** type **form**.
 1. Décrivez tous les contrôles et champs dont vous avez besoin en fonction de votre modèle de table.
 
    >[!NOTE]
    >
    >Pour connaître l&#39;intégralité des possibilités concernant les fichiers de type **form**, reportez-vous à [cette page](../../configuration/using/identifying-a-form.md).
 
-   Dans le cas de l&#39;exemple actuel, le fichier **form** doit être basé sur le schéma **cus:individual** et donc de la mise en page suivante :
+   Dans notre exemple actuel, le fichier **form** doit être basé sur le schéma **cus:individual** et donc de la forme suivante :
 
    ```
    <container colspan="2">
@@ -63,14 +63,10 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
 ## Créer un nouveau type de dossier dans l&#39;arborescence de navigation {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
 
 1. Ouvrez le noeud **[!UICONTROL Administration > Paramétrage > Arborescences de navigation]** dans l&#39;explorateur.
-1. Créez un nouveau document **navtree** de type **xtk:navtree**
+1. Créez un document **xtk:navtree** type **navtree**.
 1. Décrivez tous les contrôles et champs dont vous avez besoin en fonction de votre modèle de table.
 
-   >[!NOTE]
-   >
-   >Pour connaître l&#39;intégralité des possibilités concernant les fichiers de type **navtree**, reportez-vous à [cette page](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
-
-   Dans le cas de l&#39;exemple actuel, le fichier **navtree** doit être basé sur le schéma **cus:individual** et donc de la forme suivante :
+   Dans le cas de l&#39;exemple actuel, le fichier **navtree** doit être basé sur le schéma **cus:individual** et donc de la forme :
 
    ```
     <model name="root">

@@ -6,10 +6,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
-workflow-type: ht
-source-wordcount: '5959'
-ht-degree: 100%
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+workflow-type: tm+mt
+source-wordcount: '6002'
+ht-degree: 99%
 
 ---
 
@@ -263,7 +263,7 @@ En savoir plus sur l’[analyse descriptive](../../reporting/using/about-descrip
 
 *Contexte : marketing distribué*
 
-Le module complémentaire Marketing distribué offre aux opérateurs et opératrices Campaign un espace de travail collaboratif pour l’implémentation des campagnes entre les entités centrales (siège social, services marketing, etc.) et les entités locales (points de vente, agences régionales, etc.) Cette coopération repose sur un espace de travail partagé appelé la **liste des packages Campaign**, où des modèles et des instances de campagne conçus de manière centralisée sont proposés aux entités locales.
+Le module complémentaire Marketing distribué offre aux opérateurs et opératrices Campaign un espace de travail collaboratif pour l’implémentation des campagnes entre les entités centrales (siège social, services marketing, etc.) et les entités locales (points de vente, agences régionales, etc.) Cette coopération repose sur un espace de travail partagé appelé la **liste des kits de campagne**, où des modèles et des instances de campagne conçus de manière centralisée sont proposés aux entités locales.
 
 En savoir plus sur le [Marketing distribué](../../distributed/using/about-distributed-marketing.md).
 +++
@@ -345,14 +345,16 @@ L’activité d’enrichissement est une activité de workflow avancée qui perm
 
 Une énumération est un type de données défini dans les schémas ou au niveau de la plateforme qui définit les valeurs d’entrée valides d’un champ. Les énumérations s’affichent dans l’interface utilisateur et dans les créateurs de requêtes sous la forme d’une liste de sélection.
 
-En savoir plus sur [Enumérations](../../platform/using/managing-enumerations.md).
+Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 +++
 
 +++**Vue Explorateur**
 
 La vue Explorateur est un affichage hiérarchique des dossiers contenant des artefacts et des données Adobe Campaign. Veuillez noter que le système de dossiers dans Adobe Campaign ne fonctionne pas comme une vue d’ensemble classique, dans la mesure où chaque dossier contient des données d’un type spécifique, telles que Diffusions, Workflows ou Offres.
 
-En savoir plus sur la [Vue Explorateur](../../platform/using/adobe-campaign-explorer.md).
+
+En savoir plus sur l’interface utilisateur de Campaign dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+
 +++
 
 +++**Comptes externes**
@@ -398,14 +400,15 @@ En savoir plus sur la [Dimension de filtrage](../../workflow/using/building-a-wo
 
 Un dossier est un élément de la vue Explorateur contenant des enregistrements de base de données d’un type de données spécifique. L’exception est le type de dossier générique utilisé comme élément organisateur et ne contenant aucune donnée, mais uniquement d’autres dossiers.
 
-En savoir plus sur les [dossiers](../../platform/using/adobe-campaign-explorer.md).
+En savoir plus sur l’interface utilisateur de Campaign dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+
 +++
 
 +++**Vue Dossier**
 
 La vue Dossier est un type de dossier Explorateur spécial permettant d’afficher tous les enregistrements d’un type de données sélectionné, quel que soit le dossier auquel il appartient. Les vues Dossier servent d’outil administratif pour gérer les données partitionnées ou les données distribuées entre de nombreux dossiers.
 
-En savoir plus sur la [vue Dossier](../../platform/using/adobe-campaign-explorer.md).
+En savoir plus sur l’interface utilisateur de Campaign dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 +++
 
 +++**Formulaires**
@@ -558,7 +561,8 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 L’arborescence de navigation est la navigation principale dans la vue Explorateur d’Adobe Campaign. L’arborescence de navigation fonctionne comme un explorateur de fichiers (par exemple, l’Explorateur Windows). Les dossiers peuvent contenir des sous-dossiers. La sélection d’un nœud affiche la vue correspondante. La vue affichée est une liste associée à un schéma et à un formulaire de saisie pour la modification de la ligne sélectionnée. Vous pouvez personnaliser l’arborescence de navigation et définir les autorisations sur les dossiers.
 
-En savoir plus sur l’[Arborescence de navigation](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarch).
+En savoir plus sur l’interface utilisateur de Campaign dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+
 +++
 
 +++**Objectifs**
@@ -977,7 +981,7 @@ Learn more about [Tasks](../../workflow/using/about-workflows.md).
 
 +++**Modèle**
 
-Un modèle est un élément de conception utilisé pour créer un objet. Il contient les paramètres de l’objet et, éventuellement, le contenu de l’objet. Le système de création de modèles permet de créer des diffusions, des campagnes, des workflows et de nombreux autres éléments d’Adobe Campaign. Les modèles d’usine disponibles sont définis par les packages installés. Les modèles peuvent ensuite être dupliqués et personnalisés selon les besoin des opérateurs Campaign.
+Un modèle est un élément de conception utilisé pour créer un objet. Il contient les paramètres de l’objet et, éventuellement, le contenu de l’objet. Le système de création de modèles permet de créer des diffusions, des campagnes, des workflows et de nombreux autres éléments d’Adobe Campaign. Les modèles d’usine disponibles sont définis par les packages installés. Les modèles peuvent ensuite être dupliqués et personnalisés selon les besoins des opérateurs Campaign.
 +++
 
 <!--
@@ -1045,7 +1049,7 @@ En savoir plus sur les [typologies](../../campaign-opt/using/about-campaign-typo
 
 *Contexte : optimisation des campagnes*
 
-Les règles de typologie sont des règles d’entreprise mises en œuvre dans le cadre de la phase d’analyse de la diffusion. Les règles de typologie sont des vérifications du contenu de la diffusion (règles de contrôle) ou la cible de la diffusion (règles de filtrage) ou toute autre logique (règles de pression) qui appliquent les exigences de l’entreprise. Les règles sont des éléments granulaires qui peuvent être inclus dans une ou plusieurs typologies.
+Les règles de typologie sont des règles métier mises en œuvre dans le cadre de la phase d’analyse de la diffusion. Les règles de typologie sont des vérifications du contenu de la diffusion (règles de contrôle) ou la cible de la diffusion (règles de filtrage) ou toute autre logique (règles de pression) qui appliquent les exigences de l’entreprise. Les règles sont des éléments granulaires qui peuvent être inclus dans une ou plusieurs typologies.
 
 En savoir plus sur les [règles de typologie](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
@@ -1077,7 +1081,7 @@ En savoir plus sur les [workflows](../../workflow/using/about-workflows.md).
 
 +++**Journal des workflows**
 
-Le journal des workflows est le journal d’exécution étape par étape d’un workflow. Il contient tout l’historique ou le journal d’audit du workflow. Il est utilisé à des fins de développement, de dépannage ou de débogage.
+Le journal des workflows est le log d’exécution étape par étape d’un workflow. Il contient tout l’historique ou le journal d’audit du workflow. Il est utilisé à des fins de développement, de dépannage ou de débogage.
 
 En savoir plus sur le [journal des workflows](../../workflow/using/monitoring-workflow-execution.md).
 +++

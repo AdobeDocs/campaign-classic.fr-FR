@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 7b71cac6f4c2fc2e8d30683130adb27eff757b73
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '894'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Chaque nouvelle build est fournie avec un statut identifié par une couleur dans
 
 | Statut | Description |
 |---|---|
-| [!BADGE Disponibilité générale]{type=Positive} | Disponibilité générale : dernière version stable, validée en production et recommandée par Adobe. |
+| [!BADGE Disponibilité générale]{type=Positive} | Disponibilité générale : dernière build stable, validée en production et recommandée par Adobe. |
 | [!BADGE Disponibilité limitée]{type=Informative} | Déploiement à la demande uniquement. |
 | [!BADGE Obsolète]{type=negative} | Aucun déploiement. Aucun correctif. Les implémentations existantes doivent être mises à niveau. |
 
@@ -152,7 +152,6 @@ Une équipe constituée de représentants et représentantes de l’assistance c
 * [Trouver votre version de Campaign](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 * [Aide et support](../../support.md)
 * [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr)
-* [Dernières mises à jour de la documentation](../../rn/using/documentation-updates.md)
 * [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md)
 * [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md)
 

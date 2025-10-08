@@ -5,10 +5,10 @@ feature: Application Settings
 description: Découvrez comment configurer l’arborescence de navigation de l’Explorateur Campaign.
 role: Data Engineer, Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '1207'
-ht-degree: 100%
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+workflow-type: tm+mt
+source-wordcount: '1204'
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 En tant qu’utilisateur expert, vous pouvez ajouter des dossiers dans l’arborescence de l’explorateur et la personnaliser.
 
-Pour plus d’informations sur l’explorateur Campaign et sur l’arborescence de navigation, consultez [cette section](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
+En savoir plus sur l’interface utilisateur de Campaign dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 Les types de dossiers utilisés par la liste de navigation sont décrits dans un document XML respectant la grammaire du schéma **xtk:navtree**.
 
@@ -82,7 +82,7 @@ La description d&#39;une commande globale est renseignée sur l&#39;élément **
 * **name** : nom interne de la commande : le nom doit obligatoirement être renseigné et unique.
 * **label** : libellé de la commande.
 * **desc** : description visible à partir de la barre de statut de l&#39;écran principal.
-* **form** : formulaire à lancer : la valeur à renseigner est la clé d&#39;identification du formulaire de saisie (par exemple &quot;cus:recipient&quot;).
+* **form** : formulaire à lancer : la valeur à renseigner est la clé d&#39;identification du formulaire de saisie (par exemple « cus:recipient »)
 * **rights** : liste des droits nommés (séparés par une virgule) permettant l&#39;accès à cette commande. La liste des droits disponibles est accessible à partir du dossier **[!UICONTROL Administration > Gestion des accès > Droits nommés]**.
 * **promptLabel** : affiche une boîte de confirmation avant l&#39;exécution de la commande.
 
@@ -98,7 +98,7 @@ Le contexte du formulaire peut être mis à jour lors de l’initialisation à p
 
 **Exemple**:
 
-* Déclaration d&#39;une commande globale pour lancer la forme &quot;xtk:import&quot; :
+* Déclaration d&#39;une commande globale pour lancer la forme « xtk:import » :
 
   ```
   <command desc="Start the data import assistant" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
@@ -182,7 +182,7 @@ Pour modifier les enregistrements de la liste, le formulaire de saisie portant l
 
 La configuration par défaut des colonnes de la liste est saisie via l’élément **`<columns>`**. Une colonne est déclarée sur un élément **`<node>`** contenant l’attribut **xpath** avec le champ à référencer dans son schéma comme sa valeur.
 
-**Exemple** : déclaration d&#39;un type de dossier sur le schéma &quot;nms:recipient&quot;.
+**Exemple** : déclaration d&#39;un type de dossier sur le schéma « nms:recipient ».
 
 ```
 <model label="Profiles and targets" name="nmsProfiles">
@@ -251,7 +251,7 @@ La description de la commande est renseignée sur l’élément **`<command>`** 
 * **name** : nom interne de la commande, le nom doit obligatoirement être renseigné et unique.
 * **label** : libellé de la commande.
 * **desc** : description visible à partir de la barre de statut de l&#39;écran principal.
-* **form** : formulaire à lancer : la valeur à renseigner est la clé d&#39;identification du formulaire de saisie (par exemple : &quot;cus:recipient&quot;).
+* **form** : formulaire à lancer : la valeur à renseigner est la clé d&#39;identification du formulaire de saisie (par exemple « cus:recipient »).
 * **rights** : liste des droits nommés (séparés par une virgule) permettant l&#39;accès à cette commande. La liste des droits disponibles est accessible à partir du dossier **[!UICONTROL Administration > Gestion des accès > Droits nommés]**.
 * **promptLabel** : affiche une boîte de confirmation avant l&#39;exécution de la commande.
 * **monoSelection** : force la mono sélection (sélection multiple par défaut).
