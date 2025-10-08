@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '1174'
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
+workflow-type: tm+mt
+source-wordcount: '1160'
 ht-degree: 100%
 
 ---
@@ -122,8 +122,6 @@ Vous pouvez mettre en place des mécanismes d&#39;inscription et de désinscript
 Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
 
 * Ajouter manuellement ce service : pour cela, depuis l&#39;onglet **[!UICONTROL Abonnements]** de leur profil, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez le service d&#39;information visé.
-
-  Voir à ce sujet la section sur l&#39;édition de profils dans [cette section](../../platform/using/editing-a-profile.md).
 
 * Abonner automatiquement à ce service un ensemble de destinataires. La liste des destinataires peut être issue d&#39;une opération de filtrage, d&#39;un groupe, d&#39;un dossier, d&#39;un import ou d&#39;une sélection directe à l’aide de la souris. Pour abonner ces destinataires, sélectionnez les profils et cliquez sur le bouton droit de la souris. Sélectionnez **[!UICONTROL Actions > Abonner la sélection à un service]**, puis sélectionnez le service concerné et lancez l&#39;opération.
 * Importez des destinataires et abonnez-les automatiquement à un service d’information. Pour cela, sélectionnez le service concerné dans la dernière étape de l’assistant d’import.

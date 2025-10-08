@@ -6,10 +6,10 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: d78fe2e0fd85ba9c23e709a3f30a135cee411230
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '2557'
-ht-degree: 99%
+source-wordcount: '2566'
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
       + [Concevoir des messages](platform/using/faq-designing.md)
       + [Envoi de messages](platform/using/faq-messages.md)
       + [Workflows](platform/using/faq-workflows.md)
-      + [Configuration &#x200B;](platform/using/faq-campaign-config.md)
+      + [Configuration ](platform/using/faq-campaign-config.md)
       + [Rapports](platform/using/faq-reporting.md)
       + [Développement](platform/using/faq-developers.md)
    + [Glossaire](platform/using/ac-glossary.md)
@@ -60,12 +60,12 @@ ht-degree: 99%
       + [Droit d&#39;opposition (opt-out) à la vente des informations personnelles](platform/using/privacy-requests-ccpa.md)
    + Gestion des profils {#profile-management}
       + [À propos des profils](platform/using/about-profiles.md)
-      + [Modification d’un profil](platform/using/editing-a-profile.md)
-      + [Ajout de profils](platform/using/adding-profiles.md)
-      + [Gestion des profils](platform/using/managing-profiles.md)
+      + [Modification d’un profil - MASQUÉ](platform/using/editing-a-profile.md)
+      + [Ajouter des profils - MASQUÉ](platform/using/adding-profiles.md)
+      + [Gérer les profils - MASQUÉ](platform/using/managing-profiles.md)
       + [Mise à jour de données](platform/using/updating-data.md)
-      + [Importation et exportation de profils](platform/using/exporting-and-importing-profiles.md)
-   + [Création et gestion de listes](platform/using/creating-and-managing-lists.md)
+      + [Import et export de profils - HIDDEN](platform/using/exporting-and-importing-profiles.md)
+      + [Création et gestion de listes](platform/using/creating-and-managing-lists.md)
    + Importer et exporter des données {#importing-and-exporting-data}
       + [Prise en main de l&#39;import et de l&#39;export de données](platform/using/get-started-data-import-export.md)
       + [Utilisation de workflows pour importer et exporter des données](platform/using/import-export-workflows.md)
@@ -271,7 +271,7 @@ ht-degree: 99%
    + [Cas d’utilisation](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
    + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-   + [Configuration &#x200B;](response/using/configuration.md)
+   + [Configuration ](response/using/configuration.md)
    + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
    + [Création d’hypothèses](response/using/creating-hypotheses.md)
    + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -382,11 +382,11 @@ ht-degree: 99%
       + [Configuration de l’intégration avec [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [Insertion d’une image dynamique](integrations/using/inserting-a-dynamic-image.md)
    + Connecteur ACS {#acs-connector}
-      + [Prise en main du  [!DNL ACS Connector]](integrations/using/acs-connector-principles-and-data-cycle.md)
-      + [Synchronisation des profils](integrations/using/synchronizing-profiles.md)
-      + [Synchronisation des audiences](integrations/using/synchronizing-audiences.md)
-      + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
-      + [Résolution des problèmes du [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
+      + [Prise en main avec  [!DNL ACS Connector] - HIDDEN](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [Synchronisation des profils - MASQUÉ](integrations/using/synchronizing-profiles.md)
+      + [Synchronisation des audiences - MASQUÉ](integrations/using/synchronizing-audiences.md)
+      + [Synchronisation des applications web - MASQUÉ](integrations/using/synchronizing-web-applications.md)
+      + [Résolution des problèmes liés au  [!DNL ACS Connector]  MASQUÉ](integrations/using/troubleshooting-the-acs-connector.md)
 + [Automatiser avec des workflows](workflow/using/about-workflow-automation.md)
 + Automatiser avec des workflows {#automating-with-workflows}
    + Prise en main des workflows {#introduction}
@@ -673,7 +673,7 @@ ht-degree: 99%
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création d’instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign &#x200B;](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstallation de Campaign](installation/using/uninstalling-campaign.md)
       + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
@@ -684,8 +684,8 @@ ht-degree: 99%
    + Procédures d’exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
-      + [Administration &#x200B;](production/using/administration.md)
-      + [Configuration &#x200B;](production/using/configuration.md)
+      + [Administration ](production/using/administration.md)
+      + [Configuration ](production/using/configuration.md)
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)

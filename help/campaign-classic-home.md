@@ -3,10 +3,10 @@ keywords: Campaign Classic;accueil;thèmes populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '340'
+ht-degree: 97%
 
 ---
 
@@ -95,8 +95,8 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
-<br/>
-<strong>Profils et audiences</strong><br/> <a href="platform/using/adding-profiles.md">Ajouter des profils</a> - <a href="platform/using/creating-and-managing-lists.md">Créer des listes</a> - <a href="delivery/using/about-services-and-subscriptions.md">Services et abonnements</a> - <a href="platform/using/privacy-management.md">Confidentialité et consentement</a>
+      <br/>
+      <strong>Profils et audiences</strong><br/> <a href="platform/using/creating-and-managing-lists.md">Créer des listes</a> - <a href="delivery/using/about-services-and-subscriptions.md">Services et abonnements</a> - <a href="platform/using/privacy-management.md">Confidentialité et consentement</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">
