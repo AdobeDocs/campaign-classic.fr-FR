@@ -6,10 +6,10 @@ feature: Workflows, Targeting Activity, Query Editor
 hide: true
 hidefromtoc: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '1694'
-ht-degree: 100%
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+workflow-type: tm+mt
+source-wordcount: '1693'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de cib
 
    Vous pouvez également ajouter des conditions de regroupement de données en cochant la case correspondante. Pour cela, la dimension de filtrage doit impérativement être différente de la dimension de ciblage de la requête. Pour plus d’informations sur les regroupements, consultez cette [section](querying-using-grouping-management.md).
 
-   Vous pouvez également ajouter des critères supplémentaires en vous aidant du Créateur d’expressions et les combiner grâce aux options logiques ET, OU et SAUF. Vous pouvez ensuite afficher un aperçu de la **[!UICONTROL Requête SQL correspondante]** pour votre combinaison de critères. Voir à ce propos cette [section](../../platform/using/defining-filter-conditions.md#building-expressions).
+   Vous pouvez également ajouter des critères supplémentaires en vous aidant du Créateur d’expressions et les combiner grâce aux options logiques ET, OU et SAUF. Vous pouvez ensuite afficher un aperçu de la **[!UICONTROL Requête SQL correspondante]** pour votre combinaison de critères. Voir à ce propos cette [section](../../platform/using/about-queries-in-campaign.md).
 
    Enregistrez votre filtre si vous souhaitez le réutiliser ultérieurement.
 
@@ -160,10 +160,10 @@ Dans l&#39;exemple suivant, la requête cherchera à identifier les hommes de 18
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schema
+* schéma
 * recCount
 
-Ce jeu de trois valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.
+Ce jeu de trois valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
 
 Cette valeur correspond au schéma de la table de travail. Ce paramètre est valide pour toutes les transitions avec **[!UICONTROL tableName]** et **[!UICONTROL schema]**.
 
@@ -197,7 +197,7 @@ La section ci-dessous présente les bonnes pratiques pour optimiser les requête
 * Attention aux fonctions comme `Lower(...)`. Si vous avez recours à la fonction Lower, l’index n’est pas utilisé.
 * Vérifiez soigneusement les requêtes contenant les instructions « like », « upper » ou « lower ». Appliquez « upper » à la saisie utilisateur et non au champ de base de données.
 
-  Pour plus d’informations sur les fonctions, consultez [cette section](../../platform/using/defining-filter-conditions.md#list-of-functions).
+  Pour plus d’informations sur les fonctions, consultez [cette section](../../platform/using/about-queries-in-campaign.md).
 
 ### Dimensions de filtrage {#filtering-dimensions}
 

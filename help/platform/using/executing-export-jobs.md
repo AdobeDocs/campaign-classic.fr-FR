@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 
 
-Les traitements d&#39;export vous permettent d&#39;accéder à la base de données et d&#39;en extraire les données : contacts, clients, listes, segments, etc.
+Les traitements d’export vous permettent d’accéder à la base de données et d’en extraire les données : contacts, clientes et clients, listes, segments, etc.
 
-Il peut, par exemple, être utile d&#39;exploiter dans un tableur les données de suivi d&#39;une campagne (historique de tracking, etc.). Les données de sortie peuvent être au format txt, CSV, TAB ou XML.
+Il peut, par exemple, être utile d’exploiter dans un tableur les données de suivi d’une campagne (historique de tracking, etc.). Les données de sortie peuvent être au format txt, CSV, TAB ou XML.
 
 L’assistant d’export vous permet de configurer un export, de définir ses options et de lancer son exécution. Il s’agit d’une série d’écrans dont le contenu dépend du type d’export (simple ou multiple) et des droits de l’opérateur ou de l’opératrice.
 
@@ -85,7 +85,7 @@ Sélectionnez les champs à exporter. Pour cela :
 
    ![](assets/s_ncs_user_export_wizard04.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour faire appel à des fonctions. Pour plus d&#39;informations, consultez la section [Liste des fonctions](../../platform/using/defining-filter-conditions.md#list-of-functions).
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour faire appel à des fonctions. Pour plus d&#39;informations, consultez la section [Liste des fonctions](../../platform/using/about-queries-in-campaign.md).
 
 ## Etape 5 - Tri des colonnes {#step-5---sorting-columns}
 
@@ -115,7 +115,7 @@ Vous pouvez modifier l&#39;ordre et le libellé des champs pour le fichier de so
 
 * Cliquez sur l&#39;icône **[!UICONTROL Ajouter un champ calculé]** si vous voulez créer un champ calculé (par exemple, une colonne contenant le nom+le prénom). Voir à ce sujet la section [Champs calculés](../../platform/using/executing-import-jobs.md#calculated-fields).
 
-Si vous exportez une collection d&#39;éléments (par exemple les abonnements des destinataires, les listes auxquelles ils appartiennent, etc.), vous devez indiquer le nombre d&#39;éléments de la collection que vous voulez exporter.
+Si vous exportez une collection d’éléments (par exemple les abonnements des personnes destinataires, les listes auxquelles elles appartiennent, etc.), vous devez indiquer le nombre d’éléments de la collection que vous voulez exporter.
 
 ![](assets/s_ncs_user_export_wizard06_c.png)
 

@@ -5,10 +5,10 @@ description: Modifier le contenu
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 100%
+source-wordcount: '1251'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Pour ajouter une condition de visibilité, sélectionnez un bloc et saisissez la
 
 >[!NOTE]
 >
->L&#39;édition d&#39;expression avancée est présentée dans [cette page](../../platform/using/defining-filter-conditions.md#list-of-functions).
+>L&#39;édition d&#39;expression avancée est présentée dans [cette page](../../platform/using/about-queries-in-campaign.md).
 
 ![](assets/dce_popup_visibilitycondition.png)
 
@@ -60,7 +60,7 @@ Vous pouvez associer des champs de la base à des blocs de type zone de saisie, 
 
 La zone de sélection **Champ** permet de sélectionner un champ de la base de données à associer avec le champ du formulaire.
 
-Par défaut, les champs proposés sont ceux de la table **nms:recipient**.
+Par défaut, les champs proposés sont ceux du tableau **nms:recipient**.
 
 ![](assets/dce_field_selection.png)
 
@@ -259,4 +259,4 @@ L&#39;option **Bloc de personnalisation** permet d&#39;insérer des blocs dynami
 
 Après l&#39;insertion, le nom du bloc de personnalisation apparaît dans l&#39;éditeur, surligné en jaune. Il sera automatiquement adapté au profil du destinataire lors de la génération de la personnalisation.
 
-Pour plus d&#39;informations sur les blocs de personnalisation d&#39;usine et sur la définition des blocs de personnalisation personnalisés, consultez [cette page](../../delivery/using/personalization-blocks.md).
+Pour plus d’informations sur les blocs de personnalisation natifs  et sur la définition des blocs de personnalisation personnalisés, consultez [cette page](../../delivery/using/personalization-blocks.md).

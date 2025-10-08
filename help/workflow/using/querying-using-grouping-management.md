@@ -6,10 +6,10 @@ feature: Query Editor, Workflows
 hide: true
 hidefromtoc: true
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '314'
-ht-degree: 100%
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ Vous allez effectuer une requête pour retrouver les domaines d&#39;email ciblé
 
 * Quelle table doit-on sélectionner ?
 
-  La table des destinataires (nms:recipient).
+  La table des destinataires (nms:recipient)
 
 * Quels sont les champs à sélectionner en colonne de sortie ?
 
@@ -33,13 +33,13 @@ Vous allez effectuer une requête pour retrouver les domaines d&#39;email ciblé
 
 Pour réaliser cet exemple, les étapes sont les suivantes :
 
-1. Ouvrez le **[!UICONTROL Requêteur générique]** et choisissez la table des Destinataires (**nms:recipient**).
+1. Ouvrez le **[!UICONTROL Requêteur générique]** et choisissez la Table des destinataires (**nms:recipient**).
 
    ![](assets/query_editor_02.png)
 
 1. Dans la fenêtre **[!UICONTROL Données à extraire]**, sélectionnez les champs **[!UICONTROL Domaine de l&#39;email]** et **[!UICONTROL Clé primaire]**. Faites un comptage du champ **[!UICONTROL Clé primaire]**.
 
-   Pour plus d&#39;informations sur le comptage d&#39;une clé primaire, consultez [cette section](../../platform/using/defining-filter-conditions.md#building-expressions).
+   Pour plus d&#39;informations sur le comptage d&#39;une clé primaire, consultez [cette section](../../platform/using/about-queries-in-campaign.md).
 
 1. Sélectionnez la zone **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]**.
 
@@ -52,7 +52,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 1. Dans **[!UICONTROL Filtrage des données]**, sélectionnez **[!UICONTROL Critères de filtrage]**. Accédez à la fenêtre **[!UICONTROL Éléments de la cible]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Dans la fenêtre **[!UICONTROL Groupement des données]**, sélectionnez le **[!UICONTROL Domaine de l&#39;email]** en cliquant sur **[!UICONTROL Ajouter]**.
 
-   C&#39;est dans cette fenêtre que s&#39;opère le regroupement (GROUP BY) : cette fenêtre ne s&#39;affiche que si l&#39;option **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]** a été sélectionnée.
+   Cette fenêtre de groupement de données ne s&#39;affiche que si la case **[!UICONTROL Gérer les groupements (GROUP BY + HAVING])** a été cochée.
 
    ![](assets/query_editor_blocklist_04.png)
 

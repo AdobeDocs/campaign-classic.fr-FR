@@ -6,7 +6,7 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
 workflow-type: tm+mt
 source-wordcount: '6002'
 ht-degree: 99%
@@ -272,7 +272,7 @@ En savoir plus sur le [Marketing distribué](../../distributed/using/about-distr
 
 La répartition des valeurs est un outil permettant de visualiser la répartition des valeurs d’un attribut de schéma existant actuellement dans la base de données. Vous pouvez ainsi déterminer les valeurs disponibles, leur nombre et leur pourcentage, et éviter tout problème de mise en majuscules et d’orthographe des valeurs lors de la création d’une requête ou d’une expression.
 
-En savoir plus sur la [Répartition des valeurs](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract).
+En savoir plus sur la [Répartition des valeurs](../../platform/using/about-queries-in-campaign.md).
 +++
 
 +++**Délégation de domaine**

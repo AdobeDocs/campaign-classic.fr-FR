@@ -6,10 +6,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: d78fe2e0fd85ba9c23e709a3f30a135cee411230
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 92%
+source-wordcount: '978'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ Depuis la section centrale de la page d&#39;accueil, vous pouvez utiliser les li
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrir l’espace de travail Campaign en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Découvrir l’espace de travail Campaign en vidéo](#video)
 
 >[!NOTE]
 >
@@ -117,13 +117,24 @@ Pour en savoir plus sur l’explorateur Adobe Campaign, consultez ces pages dans
 * [Gérer les dossiers et les vues dans l’explorateur](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 
+## Filtrer des données {#filters}
+
+Le filtrage des données est le processus par lequel un jeu de données est limité aux enregistrements qui correspondent à des critères spécifiques. Ce sous-ensemble peut ensuite être utilisé pour des actions ciblées (telles que des mises à jour ou la création d’audiences) ou pour des analyses.
+
+Lors de la navigation dans Campaign, les données sont affichées dans des listes. Vous pouvez appliquer des filtres intégrés pour accéder rapidement à un sous-ensemble défini, tel que des adresses en quarantaine, des destinataires non ciblés ou des enregistrements situés dans une plage d’âge spécifique ou à une date de création spécifique. En outre, vous pouvez créer des filtres personnalisés, les enregistrer pour une utilisation ultérieure et les partager avec d’autres utilisateurs de Campaign.
+
+>[!NOTE]
+>
+>Pour découvrir comment accéder aux filtres, les concevoir et les partager, consultez la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+
+
 ## Utiliser des listes {#manage-and-customize-lists}
 
 Dans la console cliente Campaign, les données sont affichées dans des listes. Vous pouvez adapter ces listes à vos besoins. Vous pouvez par exemple ajouter des colonnes, filtrer les données, comptabiliser les enregistrements, enregistrer et partager vos paramètres.
 
 >[!NOTE]
 >
->Pour savoir comment gérer et personnaliser des listes dans Adobe Campaign, reportez-vous à la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+>Pour découvrir comment gérer et personnaliser les listes, reportez-vous à la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
 
 ## Gérer les énumérations{#managing-enumerations}
 
@@ -137,4 +148,4 @@ Découvrez comment **utiliser les énumérations** dans la documentation d’[Ad
 
 Cette vidéo présente l‘espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39530?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

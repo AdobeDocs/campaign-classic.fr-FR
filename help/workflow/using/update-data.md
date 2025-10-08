@@ -6,8 +6,8 @@ feature: Workflows, Targeting Activity, Data Management
 hide: true
 hidefromtoc: true
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%
 
@@ -26,12 +26,12 @@ Le champ **[!UICONTROL Type d&#39;opération]** permet de choisir le traitement 
 * **[!UICONTROL Ajouter ou mettre à jour]** : ajouter des données ou les mettre à jour si elles ont déjà été ajoutées auparavant.
 * **[!UICONTROL Ajouter]** : ajouter des données uniquement.
 * **[!UICONTROL Mettre à jour]** : mettre à jour des données uniquement.
-* **[!UICONTROL Mettre à jour et fusionner les collections]** : mettre à jour les données et choisir un enregistrement principal, puis lier les éléments liés aux duplicatas de cet enregistrement principal. Les duplicatas peuvent ensuite être supprimés sans créer d’éléments orphelins attachés.
-* **[!UICONTROL Supprimer]** : supprimer des données.
+* **[!UICONTROL Mettre à jour et fusionner les collections]** : mettre à jour les données et choisir un enregistrement principal, puis lier les éléments liés aux doublons de cet enregistrement principal. Les doublons peuvent ensuite être supprimés sans créer d’éléments orphelins attachés.
+* **[!UICONTROL Supprimer]** : supprimez des données.
 
 ![](assets/s_advuser_update_data_1.png)
 
-Le champ **[!UICONTROL Taille des mises à jours]** permet de sélectionner le nombre d&#39;éléments de la transition entrante qui seront mis à jour. Par exemple, si vous indiquez 500, les 500 premiers enregistrements traités seront mis à jour.
+Le champ **[!UICONTROL Taille de lot]** permet de sélectionner le nombre d’éléments de la transition entrante qui seront mis à jour. Par exemple, si vous indiquez 500, les 500 premiers enregistrements traités seront mis à jour.
 
 ## Identification des enregistrements {#record-identification}
 
@@ -102,7 +102,7 @@ La mise à jour des données et la fusion des collections permet de mettre à jo
 
 1. Indiquez les collections à déplacer vers l&#39;enregistrement primaire et les champs à mettre à jour.
 
-   Renseignez les règles qui s&#39;appliquent à ces derniers lorsqu&#39;un ou plusieurs enregistrements secondaires sont identifiés. Pour ce faire, vous pouvez utiliser le générateur d’expression. Voir à ce propos cette [section](../../platform/using/defining-filter-conditions.md#building-expressions). Par exemple, en indiquant que c&#39;est la valeur mise à jour le plus récemment parmi les différents enregistrements qui doit être conservée.
+   Renseignez les règles qui s&#39;appliquent à ces derniers lorsqu&#39;un ou plusieurs enregistrements secondaires sont identifiés. Pour ce faire, vous pouvez utiliser le générateur d’expression. Voir à ce propos cette [section](../../platform/using/about-queries-in-campaign.md). Par exemple, en indiquant que c&#39;est la valeur mise à jour le plus récemment parmi les différents enregistrements qui doit être conservée.
 
    Indiquez ensuite les conditions de prise en compte de la règle.
 
@@ -123,6 +123,6 @@ La section [Étape 2 : Écriture des données enrichies dans la table « Achat
 ## Paramètres d&#39;entrée {#input-parameters}
 
 * tableName
-* schema
+* schéma
 
 Chacun des événements entrants doit spécifier une cible définie par ces paramètres.
