@@ -6,10 +6,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: 1e0e75c6f0dd5a32584291205047f835e951ee9c
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 83%
 
 ## Exploration de l’interface Adobe Campaign {#about-adobe-campaign-interface}
 
-Une fois connecté à la base de données, vous accédez à la page d&#39;accueil d&#39;Adobe Campaign. Celle-ci se présente sous la forme d&#39;un tableau de bord : il est composé de liens et de raccourcis qui vous permettent d&#39;accéder aux fonctions disponibles selon votre installation et aux paramétrages généraux de la plateforme.
+Une fois connecté à la base de données, vous accédez à la page d&#39;accueil d&#39;Adobe Campaign. Cette page est votre tableau de bord : elle est composée de liens et de raccourcis qui vous permettent d&#39;accéder aux fonctionnalités disponibles, en fonction de votre installation et des paramétrages généraux de la plateforme.
 
-Depuis la section centrale de la page d&#39;accueil, vous pouvez utiliser les liens pour accéder au portail de la documentation en ligne, au forum et au site web d&#39;assistance de Campaign.
+Depuis la section centrale de la page d’accueil, vous pouvez utiliser des liens pour accéder au portail de documentation de Campaign, à la communauté et au site web de l’assistance clientèle d’Adobe.
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrir l’espace de travail Campaign en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Découvrir l’espace de travail Campaign en vidéo](#video)
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ La langue est sélectionnée lors de l&#39;installation de votre instance Adobe�
 
 ![](assets/language.png)
 
-Cinq langues sont disponibles :
+Vous avez le choix entre les langues suivantes :
 
 * Anglais (Royaume-Uni)
 * Anglais (États-Unis)
@@ -125,7 +125,7 @@ Lors de la navigation dans Campaign, les données sont affichées dans des liste
 
 >[!NOTE]
 >
->Pour découvrir comment accéder aux filtres, les concevoir et les partager, consultez la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+>Pour découvrir comment accéder aux filtres, les concevoir et les partager, consultez la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 
 ## Utiliser des listes {#manage-and-customize-lists}
@@ -148,4 +148,4 @@ Découvrez comment **utiliser les énumérations** dans la documentation d’[Ad
 
 Cette vidéo présente l‘espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39530?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
