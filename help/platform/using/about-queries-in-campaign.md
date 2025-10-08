@@ -28,10 +28,10 @@ Le requêteur générique centralise toutes les fonctionnalités d’interrogati
 
 >[!TAB Interroger la base de données]
 
-Les étapes de création d’une requête sont détaillées dans la documentation de **[Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
+Les étapes de création d’une requête sont détaillées dans la documentation de **[Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
 
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
 
 
 >[!TAB Ajouter une requête dans un workflow]
@@ -42,9 +42,9 @@ Découvrez les principales étapes relatives à la création de requêtes dans l
 
 >[!TAB Conditions de filtrage]
 
-Pour concevoir votre requête, vous devez sélectionner les conditions de filtrage dans le requêteur. Les fonctionnalités disponibles et les cas pratiques sont détaillés dans la documentation de **[Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**
+Pour concevoir votre requête, vous devez sélectionner les conditions de filtrage dans le requêteur. Les fonctionnalités disponibles et les cas pratiques sont détaillés dans la documentation de **[Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
 
 >[!ENDTABS]
 
