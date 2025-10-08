@@ -6,10 +6,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 1e0e75c6f0dd5a32584291205047f835e951ee9c
+source-git-commit: 67c4fa449e12b04dab4673bffdc5c2c8b541db69
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '974'
+ht-degree: 74%
 
 ---
 
@@ -23,7 +23,7 @@ Depuis la section centrale de la page d’accueil, vous pouvez utiliser des lien
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrir l’espace de travail Campaign en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Découvrir l’espace de travail Campaign en vidéo](#video)
 
 >[!NOTE]
 >
@@ -123,18 +123,14 @@ Le filtrage des données est le processus par lequel un jeu de données est limi
 
 Lors de la navigation dans Campaign, les données sont affichées dans des listes. Vous pouvez appliquer des filtres intégrés pour accéder rapidement à un sous-ensemble défini, tel que des adresses en quarantaine, des destinataires non ciblés ou des enregistrements situés dans une plage d’âge spécifique ou à une date de création spécifique. En outre, vous pouvez créer des filtres personnalisés, les enregistrer pour une utilisation ultérieure et les partager avec d’autres utilisateurs de Campaign.
 
->[!NOTE]
->
->Pour découvrir comment accéder aux filtres, les concevoir et les partager, consultez la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Découvrez comment **accéder aux filtres, les concevoir et les partager** dans la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 
 ## Utiliser des listes {#manage-and-customize-lists}
 
 Dans la console cliente Campaign, les données sont affichées dans des listes. Vous pouvez adapter ces listes à vos besoins. Vous pouvez par exemple ajouter des colonnes, filtrer les données, comptabiliser les enregistrements, enregistrer et partager vos paramètres.
 
->[!NOTE]
->
->Pour découvrir comment gérer et personnaliser les listes, reportez-vous à la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+Découvrez comment **gérer et personnaliser des listes** dans la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
 
 ## Gérer les énumérations{#managing-enumerations}
 
@@ -142,10 +138,10 @@ Une énumération (également appelée liste détaillée) est une liste prédéf
 
 Une fois définies, les valeurs sont affichées dans une liste déroulante. Une valeur peut être sélectionnée directement ou saisie à l’aide d’une entrée prédictive, qui suggère et complète les entrées correspondantes. Certains champs contiennent des énumérations prédéfinies. Des énumérations supplémentaires peuvent être créées si nécessaire.
 
-Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+Découvrez comment **utiliser les énumérations** dans la documentation de [Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 ## Tutoriel vidéo {#video}
 
 Cette vidéo présente l‘espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39530?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
