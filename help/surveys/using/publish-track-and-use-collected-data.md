@@ -5,9 +5,9 @@ description: Découvrez comment publier, suivre et utiliser les données collect
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '901'
 ht-degree: 100%
 
 ---
@@ -158,8 +158,8 @@ Editez la boîte de partage pour la paramétrer :
 
   ![](assets/s_ncs_admin_survey_responses_wf_box_9.png)
 
-* Cliquez sur **[!UICONTROL Terminer]** puis relancez le workflow pour valider le ciblage.
+* Cliquez sur **[!UICONTROL Terminer]** puis redémarrez le workflow pour valider le ciblage.
 
 ## Normaliser les données {#standardizing-data}
 
-Vous pouvez mettre en place dans Adobe Campaign des processus de normalisation des données collectées en utilisant les alias. Il est alors possible de normaliser les données stockées en base : pour cela, vous devez définir des alias au niveau des énumérations dans lesquelles les informations sont stockées. [En savoir plus](../../platform/using/managing-enumerations.md#about-enumerations)
+Vous pouvez mettre en place dans Adobe Campaign des processus de normalisation des données collectées en utilisant les alias. Il est alors possible de normaliser les données stockées en base : pour cela, vous devez définir des alias au niveau des énumérations dans lesquelles les informations sont stockées. Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.

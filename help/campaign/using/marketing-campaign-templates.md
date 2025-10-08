@@ -7,9 +7,9 @@ feature: Campaigns, Templates
 hide: true
 hidefromtoc: true
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
-source-wordcount: '1168'
+source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
+workflow-type: tm+mt
+source-wordcount: '1171'
 ht-degree: 100%
 
 ---
@@ -157,12 +157,12 @@ Lorsque vous créez un modèle de campagne, vous devez indiquer les informations
 
   >[!NOTE]
   >
-  >Pour plus d&#39;informations sur les énumérations, reportez-vous à la section [Prise en main](../../platform/using/managing-enumerations.md).
+  >Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 * Sélectionnez le **type de campagne** : unique, récurrente ou périodique. Par défaut, les modèles de campagne s&#39;appliquent aux campagnes uniques. Les opérations périodiques et récurrentes sont décrites dans [cette section](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
-* Indiquez la durée de l&#39;opération, c&#39;est-à-dire la période sur laquelle s&#39;étalera l&#39;opération. Lors de la création d&#39;une opération basée sur ce modèle, les dates de début et de fin de l&#39;opération seront alors automatiquement renseignées.
+* Indiquez la durée de l’opération, c’est-à-dire la période sur laquelle s’étalera l’opération. Lors de la création d’une opération basée sur ce modèle, les dates de début et de fin de l’opération seront alors automatiquement renseignées.
 
-  S&#39;il s&#39;agit d&#39;une opération récurrente, vous devez indiquer les dates de début et de fin de l&#39;opération directement dans le modèle.
+  S’il s’agit d’une opération récurrente, vous devez indiquer les dates de début et de fin de l’opération directement dans le modèle.
 
 * Indiquez le **programme d&#39;appartenance** du modèle : les opérations basées sur le modèle seront associées au programme sélectionné.
 
