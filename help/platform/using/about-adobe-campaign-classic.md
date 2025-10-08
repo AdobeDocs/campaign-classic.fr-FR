@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: d78fe2e0fd85ba9c23e709a3f30a135cee411230
+source-git-commit: a1f655716d24ca199a68fd5df2381c9941db2c84
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 82%
+source-wordcount: '181'
+ht-degree: 72%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign permet d&#39;orchestrer les différentes étapes nécessaires à
 
 >[!TAB Commencer avec Campaign]
 
-Pour en savoir plus sur Adobe Campaign et sur la manière de le mettre en service, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/get-started){target=_blank}.
+Pour en savoir plus sur les fonctionnalités d’Adobe Campaign et sur la prise en main, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/get-started){target=_blank}.
 
 [![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/get-started){target=_blank}
 
@@ -34,13 +34,11 @@ Pour en savoir plus sur Adobe Campaign et sur la manière de le mettre en servi
 
 * Pour savoir comment installer Adobe Campaign et vous connecter, [sur cette page](launching-adobe-campaign.md).
 
-
 >[!TAB Parcourir l’interface utilisateur de Campaign]
 
 * Découvrez l’interface utilisateur d’Adobe Campaign [sur cette page](adobe-campaign-workspace.md).
 
 * Découvrez comment utiliser l&#39;[explorateur Campaign](adobe-campaign-workspace.md#use-adobe-campaign-explorer).
-
 
 >[!ENDTABS]
 
@@ -86,7 +84,7 @@ You can combine the delivery functionalities and advanced campaign management fu
 
 ## Core capabilities and add-ons {#core-capabilities-and-add-ons}
 
-Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign product description](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 The following capabilities are available. Depending on your license agreement, some of these capabilities can be available or not in your instance.
 
@@ -112,6 +110,6 @@ The following capabilities are available. Depending on your license agreement, s
 
 Cette vidéo présente les principales fonctionnalités de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39514?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
