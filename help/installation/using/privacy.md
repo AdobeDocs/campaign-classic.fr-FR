@@ -5,7 +5,7 @@ description: Découvrez les bonnes pratiques de sécurité en matière de confid
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
 ht-degree: 100%
 

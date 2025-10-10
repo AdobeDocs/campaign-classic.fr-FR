@@ -7,7 +7,7 @@ role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
 source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
 ht-degree: 100%
 
@@ -71,4 +71,4 @@ Les groupes par défaut et les droits nommés permettent aux opérateurs d&#39;a
 
 La matrice des droits d&#39;accès Adobe Campaign est disponible [ici](/help/platform/using/assets/access-rights-matrix.pdf).
 
-[![image](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=fr)
+[![image](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf)
