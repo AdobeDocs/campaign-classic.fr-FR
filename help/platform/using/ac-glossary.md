@@ -795,7 +795,7 @@ En savoir plus sur les [Plans](../../campaign/using/setting-up-marketing-campaig
 
 Les filtres prédéfinis sont des requêtes qui ont été enregistrées pour réutilisation. L’utilisation de filtres prédéfinis augmente la productivité (car ils ne sont créés qu’une seule fois), contribue à assurer une cohérence (car tous les spécialistes marketing peuvent les utiliser) et à réduire les compétences requises du spécialiste marketing, car ce dernier peut utiliser du code ou une logique qu’il pourrait ne pas être en mesure de créer lui-même.
 
-Pour plus d’informations sur les filtres, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Pour plus d’informations sur les filtres, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 +++
 
 <!--

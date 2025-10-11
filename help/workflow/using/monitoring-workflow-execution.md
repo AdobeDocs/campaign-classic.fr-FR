@@ -281,4 +281,4 @@ En outre, vous pouvez configurer des dossiers de filtres qui vous permettront de
 
 ![](assets/workflow-monitoring-filter.png)
 
-Pour plus d’informations sur les filtres, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Pour plus d’informations sur les filtres, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.

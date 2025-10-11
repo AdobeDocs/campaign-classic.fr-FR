@@ -145,7 +145,7 @@ Additional Campaign Classic how-to videos are available [here](https://experienc
 
 **See also**
 
-* [Privacy management in Campaign](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
+* [Privacy management in Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html)
 
 * [Create queries and segment data in workflows](../../workflow/using/targeting-data.md)
 
