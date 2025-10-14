@@ -140,4 +140,4 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
 
 * [Logs et historique de la diffusion](#delivery-logs-and-history)
 * [Comprendre les échecs de diffusion](understanding-delivery-failures.md)
-* [Types de diffusion en échec et raisons   ](understanding-delivery-failures.md#delivery-failure-types-and-reasons)
+* [Types de diffusion en échec et raisons   &#x200B;](understanding-delivery-failures.md#delivery-failure-types-and-reasons)

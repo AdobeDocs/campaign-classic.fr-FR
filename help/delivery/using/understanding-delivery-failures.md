@@ -33,7 +33,7 @@ Les messages peuvent être également exclus pendant la préparation de la diffu
 
 * [Logs et historique de la diffusion](delivery-dashboard.md#delivery-logs-and-history)
 * [Statut En échec](delivery-performances.md#failed-status)
-* [Types de diffusion en échec et raisons   ](#delivery-failure-types-and-reasons)
+* [Types de diffusion en échec et raisons   &#x200B;](#delivery-failure-types-and-reasons)
 
 ## Types de diffusion en échec et raisons     {#delivery-failure-types-and-reasons}
 
@@ -178,7 +178,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 ## Reprises après une diffusion temporairement en échec {#retries-after-a-delivery-temporary-failure}
 
-Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est temporaire, les reprises seront effectuées pendant la durée de diffusion.********
+Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est temporaire, les reprises seront effectuées pendant la durée de diffusion.**&#x200B;**&#x200B;**&#x200B;**
 
 >[!NOTE]
 >
@@ -227,7 +227,7 @@ Pour les installations on-premise et les installations hébergées/hybrides util
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md) :
 >
->* Les qualifications de rebond dans la table **[!UICONTROL Qualification des logs de diffusion]** ne sont plus utilisées pour les messages d&#39;erreur relatifs aux échecs des diffusions synchrones. **** Le MTA amélioré détermine le type et la qualification de rebond, puis renvoie ces informations à Campaign.
+>* Les qualifications de rebond dans la table **[!UICONTROL Qualification des logs de diffusion]** ne sont plus utilisées pour les messages d&#39;erreur relatifs aux échecs des diffusions synchrones. **&#x200B;**&#x200B;Le MTA amélioré détermine le type et la qualification de rebond, puis renvoie ces informations à Campaign.
 >
 >* Les rebonds **asynchrones** restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Pour plus d&#39;informations, consultez la section [Règles de gestion des emails](#email-management-rules).
 >

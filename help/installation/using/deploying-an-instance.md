@@ -382,7 +382,7 @@ Dans une diffusion, vous pouvez utiliser des images stockées dans la bibliothè
 
   Cette valeur peut être surchargée au niveau de chaque diffusion.
 
-* Pour les ressources publiques, l’URL **https://** serveur **/res/** instance ****où&#x200B;**instance**est le nom de l’instance de tracking.
+* Pour les ressources publiques, l’URL **https://** serveur **/res/** instance **&#x200B;**&#x200B;où&#x200B;**instance**&#x200B;est le nom de l’instance de tracking.
 
 ### Détection des images d’une diffusion {#delivery-image-detection}
 

@@ -206,7 +206,7 @@ Depuis la version 19.1 du printemps, Adobe Campaign n’est plus compatible av
 
 Adobe ne prend pas en charge les moteurs de base de données ci-après, car ils ont été abandonnés par leur éditeur. Les clients utilisant ces versions doivent effectuer la mise à niveau vers la version la plus récente ou passer à une autre.
 
-Consultez la [matrice de compatibilité de Campaign ](../../rn/using/compatibility-matrix.md) pour accéder à la liste des versions compatibles.
+Consultez la [matrice de compatibilité de Campaign &#x200B;](../../rn/using/compatibility-matrix.md) pour accéder à la liste des versions compatibles.
 
 **FEDERATED DATA ACCESS (FDA)**
 

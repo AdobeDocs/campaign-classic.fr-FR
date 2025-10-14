@@ -20,7 +20,7 @@ Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opéra
 
 Une fois créées à partir d’une campagne, les diffusions y sont liées et sont consolidées au niveau de cette campagne.
 
-![](assets/do-not-localize/how-to-video.png)[Découvrez cette fonctionnalité en vidéo](#create-email-video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#create-email-video)
 
 ## Création de diffusions {#creating-deliveries}
 

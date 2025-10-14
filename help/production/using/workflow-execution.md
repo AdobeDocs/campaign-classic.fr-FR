@@ -34,7 +34,7 @@ Dans certains cas, les workflows exécutés à partir d’une campagne ne commen
 
 Il peut y avoir plusieurs causes à ce problème. Procédez comme suit pour le résoudre :
 
-1. Vérifiez le statut du workflow technique [**[!UICONTROL operationMgt ]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=fr){target="_blank"}. Ce processus gère les traitements ou les workflows au sein d’une campagne. En cas d’échec, les workflows ne démarrent pas / ne s’arrêtent pas. Redémarrez-le pour reprendre l’exécution des workflows de campagne.
+1. Vérifiez le statut du workflow technique [**[!UICONTROL operationMgt &#x200B;]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=fr){target="_blank"}. Ce processus gère les traitements ou les workflows au sein d’une campagne. En cas d’échec, les workflows ne démarrent pas / ne s’arrêtent pas. Redémarrez-le pour reprendre l’exécution des workflows de campagne.
 
    Pour plus d’informations sur la surveillance des workflows techniques, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=fr){target="_blank"}.
 

@@ -102,7 +102,7 @@ Vous pouvez tester la diffusion du message en envoyant un BAT vers une adresse d
 
 L&#39;envoi d&#39;un BAT engage le même processus que pour une diffusion standard. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}. Toutefois, avec les messages transactionnels, vous devez effectuer au préalable les opérations suivantes :
 
-* Création d&#39;une ou plusieurs [adresses de contrôle](#managing-seed-addresses-in-transactional-messages)[ avec des données de de personnalisation](#personalization-data).
+* Création d&#39;une ou plusieurs [adresses de contrôle](#managing-seed-addresses-in-transactional-messages) [&#x200B; avec des données de de personnalisation](#personalization-data).
 * [Création du contenu du message](../../message-center/using/creating-the-message-template.md#creating-message-content).
 
 Pour effectuer l&#39;envoi :

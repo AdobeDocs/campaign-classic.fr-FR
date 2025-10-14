@@ -58,7 +58,7 @@ Lors de la configuration, de la conception et du test de votre message, assurez-
 
 * [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"}.
 * [Contrôle du contenu des e-mails](control-message-content.md)
-* [Inbox rendering    ](inbox-rendering.md)
+* [Inbox rendering    &#x200B;](inbox-rendering.md)
 * [Envoi d&#39;un BAT](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}
 
 ### Vérification du consentement par le biais du double opt-in {#double-opt-in}

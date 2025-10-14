@@ -156,7 +156,7 @@ Ce tableau contient des informations importantes stockées au format XML, notamm
 
 Le contexte d’exécution renseigne les tables et les champs à prendre en compte pour le calcul des mesures, à savoir :
 * Schéma de stockage des logs de réaction nms:remaMatchRcp.
-*  Le schéma de la table de transaction (achats, par exemple)
+* Le schéma de la table de transaction (achats, par exemple)
 * Le schéma de requêtage, destiné à définir la table de départ des conditions des hypothèses
 * Les liens vers les personnes, pour les identifier spécifiquement en fonction du schéma de requêtage
 * La date de transaction Ce champ n’est pas obligatoire, mais nous vous recommandons de l’utiliser pour limiter le périmètre de calcul.

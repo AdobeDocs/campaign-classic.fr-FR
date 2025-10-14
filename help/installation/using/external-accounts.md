@@ -463,4 +463,4 @@ Pour configurer le **[!UICONTROL compte externe Azure]** afin de l’utiliser av
 
 * **[!UICONTROL Clé d’accès]**
 
-  Pour savoir où trouver votre **** clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+  Pour savoir où trouver votre **&#x200B;**&#x200B;clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).

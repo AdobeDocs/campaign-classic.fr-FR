@@ -88,7 +88,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur les modèles de diffusion[ consultez la documentation ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"} Campaign v8 .
+   >Pour plus d’informations sur les modèles de diffusion[&#x200B; consultez la documentation &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"} Campaign v8 .
 
 1. Créez le second script qui permet de procéder à l&#39;envoi des messages de parrainage.
 

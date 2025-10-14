@@ -380,7 +380,7 @@ Des détails ont été ajoutés à la description de la zone « À propos » d
 
 Des instructions pour réaliser une mise à niveau de build ont été ajoutées à la section « Mise à niveau d’Adobe Campaign Classic ». [En savoir plus](../../production/using/build-upgrade.md)
 
-Des questions fréquentes sur l’upgrade de build de Campaign ont été ajoutées aux questions courantes de Campaign. En savoir plus[ En savoir plus](../../platform/using/faq-build-upgrade.md)
+Des questions fréquentes sur l’upgrade de build de Campaign ont été ajoutées aux questions courantes de Campaign. En savoir plus[&#x200B; En savoir plus](../../platform/using/faq-build-upgrade.md)
 
 Les modèles d’hébergement Campaign on-premise, hébergés et hybrides sont maintenant décrits dans une section dédiée. [En savoir plus](../../installation/using/hosting-models.md)
 
@@ -441,7 +441,7 @@ La section **[!UICONTROL Rendez-vous]** a été enrichie d’informations suppl�
 
 Un cas pratique sur la mise à jour automatique d’une liste à l’aide d’une requête incrémentale a été ajouté aux cas pratiques de workflow. [En savoir plus](../../workflow/using/about-workflow-use-cases.md)
 
-Les [Notes de mise à jour](../../rn/using/latest-release.md) ont été réorganisées : une [page d’aperçu](../../rn/using/latest-release.md) a été ajoutée avec des informations sur les statuts de build, le processus de mise à niveau, les recommandations et des liens importants. Une page dédiée aux [[!DNL Gold Standard] versions ](../../rn/using/gold-standard.md) a également été ajoutée et la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) a été intégrée.
+Les [Notes de mise à jour](../../rn/using/latest-release.md) ont été réorganisées : une [page d’aperçu](../../rn/using/latest-release.md) a été ajoutée avec des informations sur les statuts de build, le processus de mise à niveau, les recommandations et des liens importants. Une page dédiée aux [[!DNL Gold Standard] versions &#x200B;](../../rn/using/gold-standard.md) a également été ajoutée et la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) a été intégrée.
 
 Une nouvelle section a été ajoutée avec des directives relatives à la surveillance Campaign Classic. [En savoir plus](../../production/using/monitoring-guidelines.md)
 

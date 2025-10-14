@@ -23,7 +23,7 @@ Depuis la section centrale de la page d’accueil, vous pouvez utiliser des lien
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png)[ Découvrir l’espace de travail Campaign en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrir l’espace de travail Campaign en vidéo](#video)
 
 >[!NOTE]
 >

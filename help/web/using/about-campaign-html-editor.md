@@ -52,7 +52,7 @@ Pour créer une **diffusion email**, vous devez :
 1. Créer une diffusion à partir d‘un modèle du DCE - [En savoir plus](use-case-creating-an-email-delivery.md)
 1. Sélectionner un contenu existant ou créer un contenu à partir d’un [modèle standard](template-management.md)
 1. Modifier et configurer du contenu en ligne
-1. Envoyer la diffusion - En savoir plus dans la documentation [ Campaign v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
+1. Envoyer la diffusion - En savoir plus dans la documentation [&#x200B; Campaign v8 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
 
 >[!NOTE]
 >

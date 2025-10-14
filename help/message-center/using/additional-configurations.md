@@ -40,7 +40,7 @@ Pour ce faire, procédez comme suit :
 
 Vous pouvez utiliser l&#39;[assistant de déploiement](../../production/using/database-cleanup-workflow.md#deployment-assistant) pour configurer la durée pendant laquelle vous souhaitez conserver les événements en base dans la base de données.
 
-La purge des événements est effectuée automatiquement par le workflow [](../../production/using/database-cleanup-workflow.md)Nettoyage de la base. Ce workflow purge les événements reçus et stockés sur les instances d&#39;exécution et des événements archivés sur une instance de pilotage.
+La purge des événements est effectuée automatiquement par le workflow [&#128279;](../../production/using/database-cleanup-workflow.md)Nettoyage de la base. Ce workflow purge les événements reçus et stockés sur les instances d&#39;exécution et des événements archivés sur une instance de pilotage.
 
 Pour modifier les paramètres de purge, utilisez la flèche ascendante et descendante.
 

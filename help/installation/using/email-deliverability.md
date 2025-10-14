@@ -428,4 +428,4 @@ Le paramètre **maxWorkingSetMb** se calcule empiriquement en multipliant le nom
 
 ### Ajuster le nombre de mtachild {#adjust-the-number-of-mtachild}
 
-Le nombre d&#39;enfants ne doit pas dépasser le nombre de processeurs de la machine (environ 1 000 sessions). L&#39;ordre du millier de sessions semble une bonne valeur. **** Il faut alors augmenter le nombre de messages par **enfant** (**maxMsgPerChild**) pour avoir une durée de vie suffisante.
+Le nombre d&#39;enfants ne doit pas dépasser le nombre de processeurs de la machine (environ 1 000 sessions). L&#39;ordre du millier de sessions semble une bonne valeur. **&#x200B;**&#x200B;Il faut alors augmenter le nombre de messages par **enfant** (**maxMsgPerChild**) pour avoir une durée de vie suffisante.
