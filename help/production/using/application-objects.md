@@ -40,7 +40,7 @@ Cette méthode permet également de mettre en lumière les utilisateurs qui cré
 
 ## Diffusions {#deliveries}
 
-Le nombre de diffusions doit être à tout moment inférieur à 1 000 sur l&#39;instance. Un nombre trop élevé de diffusions occupe de l&#39;espace de base de données et entraîne des problèmes. Une instance qui crée plus de 10 diffusions par jour doit être contrôlée au regard des besoins de l&#39;entreprise. Pensez à utiliser des diffusions continues pour créer un nombre inférieur de diffusions. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html){target="_blank"}.
+Le nombre de diffusions doit être à tout moment inférieur à 1 000 sur l&#39;instance. Un nombre trop élevé de diffusions occupe de l&#39;espace de base de données et entraîne des problèmes. Une instance qui crée plus de 10 diffusions par jour doit être contrôlée au regard des besoins de l&#39;entreprise. Pensez à utiliser des diffusions continues pour créer un nombre inférieur de diffusions. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html?lang=fr){target="_blank"}.
 
 Les diffusions de plus de deux ans doivent être purgées de l&#39;instance.
 
@@ -48,7 +48,7 @@ Les diffusions de plus de deux ans doivent être purgées de l&#39;instance.
 
 Le nombre de fichiers sur le disque du serveur applicatif ne doit pas augmenter indéfiniment.
 
-Les workflows d&#39;import créent des fichiers et peuvent donc entraîner une extension de disque. Ce problème peut être évité grâce à l&#39;activité [Collecteur de fichiers](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-collector.html){target="_blank"} standard. Le collecteur de fichiers déplace les fichiers vers un dossier temporaire et les purge automatiquement.
+Les workflows d&#39;import créent des fichiers et peuvent donc entraîner une extension de disque. Ce problème peut être évité grâce à l&#39;activité [Collecteur de fichiers](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-collector.html?lang=fr){target="_blank"} standard. Le collecteur de fichiers déplace les fichiers vers un dossier temporaire et les purge automatiquement.
 
 Si un workflow importe des fichiers et n&#39;utilise pas les fonctionnalités standards, il doit être purgé pour conserver un espace disque minimal.
 

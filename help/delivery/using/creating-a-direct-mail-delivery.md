@@ -21,7 +21,7 @@ Pour créer une diffusion courrier, procédez comme suit :
 
 >[!NOTE]
 >
->Les concepts généraux relatifs à la création de diffusions sont présentés dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
+>Les concepts généraux relatifs à la création de diffusions sont présentés dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
 
 1. Créez une diffusion, par exemple depuis le tableau de bord des diffusions.
 1. Sélectionnez le modèle de diffusion **Diffuser par courrier (papier)**.

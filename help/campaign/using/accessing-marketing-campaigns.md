@@ -41,7 +41,7 @@ Le bloc de **[!UICONTROL Navigation]** de l&#39;onglet **[!UICONTROL Campagnes]*
 >
 >L&#39;ergonomie générale de la console Adobe Campaign, ainsi que les autorisations et les fonctionnalités de gestion des profils, sont présentées dans [cette section](../../platform/using/adobe-campaign-workspace.md).
 >
->Toutes les fonctionnalités relatives aux canaux et aux diffusions sont présentées dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
+>Toutes les fonctionnalités relatives aux canaux et aux diffusions sont présentées dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
 
 ### Calendrier des campagnes {#campaign-calendar}
 

@@ -35,4 +35,4 @@ Les étapes clés de création d&#39;une diffusion sont les suivantes :
 
 >[!NOTE]
 >
->Les étapes décrites dans ce chapitre supposent que tous les destinataires cibles et leurs profils sont stockés dans la base de données, sauf dans le cas d&#39;une diffusion externe (voir la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"}.
+>Les étapes décrites dans ce chapitre supposent que tous les destinataires cibles et leurs profils sont stockés dans la base de données, sauf dans le cas d&#39;une diffusion externe (voir la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#selecting-external-recipients){target="_blank"}.

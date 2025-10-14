@@ -64,7 +64,7 @@ Le diagramme suivant montre les différentes étapes pour mettre en œuvre ce sc
 
 Pour ajouter à la volée une pièce jointe à un message transactionnel, procédez comme suit :
 
-1. Commencez par créer votre pièce jointe. Pour plus d’informations à ce sujet, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html#attach-a-personalized-file){target="_blank"}.
+1. Commencez par créer votre pièce jointe. Pour plus d’informations à ce sujet, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=fr#attach-a-personalized-file){target="_blank"}.
 
    Vous pouvez ainsi joindre les fichiers à un email, même s&#39;ils ne sont pas hébergés sur l&#39;instance d&#39;exécution.
 

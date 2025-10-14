@@ -83,7 +83,7 @@ Les logs de diffusion sont la clé pour apprendre pourquoi une diffusion a écho
 
   En règle générale, cette erreur signifie qu’un champ ou un bloc de personnalisation dans l’email possède plusieurs valeurs pour le destinataire. Un bloc de personnalisation est utilisé et il récupère plusieurs enregistrements pour un destinataire spécifique.
 
-  Pour la corriger, vérifiez les données de personnalisation utilisées, puis contrôlez la cible des destinataires qui possèdent plusieurs entrées pour l’un de ces champs. Vous pouvez également utiliser une activité de **[!UICONTROL Déduplication]** dans le workflow de ciblage avant l’activité de diffusion pour vérifier qu’il n’existe qu’un seul champ de personnalisation à la fois. Pour plus d’informations sur la déduplication, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}.
+  Pour la corriger, vérifiez les données de personnalisation utilisées, puis contrôlez la cible des destinataires qui possèdent plusieurs entrées pour l’un de ces champs. Vous pouvez également utiliser une activité de **[!UICONTROL Déduplication]** dans le workflow de ciblage avant l’activité de diffusion pour vérifier qu’il n’existe qu’un seul champ de personnalisation à la fois. Pour plus d’informations sur la déduplication, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=fr){target="_blank"}.
 
 * Certaines diffusions peuvent échouer avec une erreur &quot;Inatteignable&quot; indiquant :
 

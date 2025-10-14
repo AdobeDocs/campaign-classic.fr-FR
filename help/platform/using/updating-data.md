@@ -24,7 +24,7 @@ Les informations attachées au profil d’un destinataire peuvent être mises à
 
 ## Configurer une mise à jour automatique {#setting-up-an-automatic-update}
 
-Une mise à jour automatique peut être configurée via un workflow. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}.
+Une mise à jour automatique peut être configurée via un workflow. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=fr){target="_blank"}.
 
 ## Réaliser une mise à jour en masse {#performing-a-mass-update}
 

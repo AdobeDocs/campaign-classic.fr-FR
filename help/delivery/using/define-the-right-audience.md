@@ -19,7 +19,7 @@ ht-degree: 90%
 
 La population ciblée est essentielle : créez soigneusement vos listes, testez vos emails sur les clients de messagerie et les appareils mobiles les plus utilisés et vérifiez que vos listes email sont à jour (sans adresses inconnues ou obsolètes). Vous pouvez également envoyer des bons à tirer permettant de configurer un cycle de validation complet.
 
-En savoir plus sur les populations cibles dans cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
+En savoir plus sur les populations cibles dans cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
 
 ## Cibler la bonne audience {#target-the-right-audience}
 
@@ -39,7 +39,7 @@ Vous pouvez également créer et utiliser un mapping de ciblage personnalisé. P
 
 ## Destinataires externes {#external-recipients}
 
-Vous pouvez effectuer une diffusion aux destinataires qui sont stockés dans un fichier externe plutôt qu&#39;enregistrés dans la base de données. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"}.
+Vous pouvez effectuer une diffusion aux destinataires qui sont stockés dans un fichier externe plutôt qu&#39;enregistrés dans la base de données. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#selecting-external-recipients){target="_blank"}.
 
 ## Envoyer des messages à vos abonnés {#send-to-subscribers}
 
@@ -50,7 +50,7 @@ Pour envoyer des messages aux abonnés d&#39;une newsletter, vous pouvez directe
 
 Pour tester votre diffusion, utilisez des bons à tirer avant l&#39;envoi à la cible principale.
 
-Veillez à sélectionner les destinataires du BAT appropriés, car ils valident le formulaire et le contenu du message. Les étapes de définition des destinataires du BAT sont présentées dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#select-the-proof-target){target="_blank"}.
+Veillez à sélectionner les destinataires du BAT appropriés, car ils valident le formulaire et le contenu du message. Les étapes de définition des destinataires du BAT sont présentées dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#select-the-proof-target){target="_blank"}.
 
 Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis afin de tester une diffusion avant l’envoi à la cible principale. Elles sont présentées [dans cette section](about-seed-addresses.md).
 

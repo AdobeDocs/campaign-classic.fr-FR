@@ -156,7 +156,7 @@ Nous affinerons ensuite la requête héritée du modèle pour émettre une hypot
 
    >[!NOTE]
    >
-   >Pour plus d’informations, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"}.
+   >Pour plus d’informations, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=fr#add-a-control-group){target="_blank"}.
 
 1. Ouvrez la **[!UICONTROL Diffusion courrier]** et cliquez sur l&#39;icône **[!UICONTROL Mesure de la diffusion]**, puis sur **[!UICONTROL Ajouter]**.
 
@@ -178,7 +178,7 @@ Nous affinerons ensuite la requête héritée du modèle pour émettre une hypot
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. Lancez votre workflow de ciblage et effectuez les vérifications nécessaires jusqu&#39;à ce que la campagne soit terminée. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery){target=_blank}.
+1. Lancez votre workflow de ciblage et effectuez les vérifications nécessaires jusqu&#39;à ce que la campagne soit terminée. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=fr#start-a-delivery){target=_blank}.
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

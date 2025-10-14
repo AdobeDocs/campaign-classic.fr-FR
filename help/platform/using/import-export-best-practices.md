@@ -60,8 +60,8 @@ Lorsque cela est possible, utilisez des fichiers compressés pour les imports et
 
 **Rubriques connexes :**
 
-* [Activité Chargement (fichier)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}
-* [Activité Extraction (fichier)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}.
+* [Activité Chargement (fichier)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=fr){target="_blank"}
+* [Activité Extraction (fichier)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}.
 
 ## Importer en mode Delta {#importing-in-delta-mode}
 

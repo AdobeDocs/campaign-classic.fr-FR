@@ -26,7 +26,7 @@ Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisé
 
 1. Dans la fenêtre d&#39;édition, sélectionnez l&#39;option d&#39;insertion d&#39;une image :
 
-   * si vous utilisez le [mode d&#39;édition standard](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}, sélectionnez **[!UICONTROL Image]** > **[!UICONTROL Sélectionner une ressource partagée]**.
+   * si vous utilisez le [mode d&#39;édition standard](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr#adding-images){target="_blank"}, sélectionnez **[!UICONTROL Image]** > **[!UICONTROL Sélectionner une ressource partagée]**.
 
      ![](assets/dam_insert_image_standard.png)
 

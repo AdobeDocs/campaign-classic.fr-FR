@@ -157,7 +157,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Accès aux données externes (Federated Data Access)<br /> </td> 
-   <td> Propose l’option Federated Data Access (FDA) afin d’exploiter des informations stockées dans une ou plusieurs bases de données externes : vous pouvez accéder à des données externes sans modifier la structure des données d’Adobe Campaign.  Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">En savoir plus</a> <br /> </td> 
+   <td> Propose l’option Federated Data Access (FDA) afin d’exploiter des informations stockées dans une ou plusieurs bases de données externes : vous pouvez accéder à des données externes sans modifier la structure des données d’Adobe Campaign.  Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=fr" target="_blank">En savoir plus</a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 

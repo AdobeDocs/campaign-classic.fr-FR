@@ -19,7 +19,7 @@ Les paramètres avancés du tracking des messages sont accessibles à partir de 
 
 >[!NOTE]
 >
->La gestion des images dans les e-mails est également paramétrée depuis cette fenêtre. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}.
+>La gestion des images dans les e-mails est également paramétrée depuis cette fenêtre. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr#adding-images){target="_blank"}.
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

@@ -88,6 +88,6 @@ Une fois que vous avez conçu et publié le modèle de message transactionnel, s
 ## Rubriques connexes : {#related-topics}
 
 * [Prise en main des canaux de communication](../../delivery/using/communication-channels.md)
-* [Étapes clés de création de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
+* [Étapes clés de création de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}
 * [Architecture des messages transactionnels](../../message-center/using/transactional-messaging-architecture.md)
 * [Accès aux rapports des messages transactionnels](../../message-center/using/about-transactional-messaging-reports.md)

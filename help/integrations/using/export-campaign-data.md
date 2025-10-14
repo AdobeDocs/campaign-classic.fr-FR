@@ -31,7 +31,7 @@ Pour exporter des données de Campaign Classic vers votre emplacement de stocka
 
 Pour ce faire, ajoutez et configurez les éléments suivants :
 
-* Une activité **[!UICONTROL Extraction (fichier)]** pour extraire les données ciblées dans un fichier CSV. Pour plus d’informations sur la configuration de cette activité, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}.
+* Une activité **[!UICONTROL Extraction (fichier)]** pour extraire les données ciblées dans un fichier CSV. Pour plus d’informations sur la configuration de cette activité, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}.
 
   ![](assets/rtcdp-extract-file.png)
 

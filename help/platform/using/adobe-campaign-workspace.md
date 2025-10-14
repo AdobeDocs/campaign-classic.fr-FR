@@ -43,7 +43,7 @@ Dans le contexte d’un accès web, les options seront en revanche principalemen
 
 ![À partir d’un navigateur, le même opérateur ne peut que visualiser et annuler la campagne.](assets/operation_from_web.png)
 
-Pour en savoir plus sur l’utilisation de l’interface web, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank}.
+Pour en savoir plus sur l’utilisation de l’interface web, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr#use-the-web-interface-){target=_blank}.
 
 ### Langues {#languages}
 
@@ -123,7 +123,7 @@ Le filtrage des données est le processus par lequel un jeu de données est limi
 
 Lors de la navigation dans Campaign, les données sont affichées dans des listes. Vous pouvez appliquer des filtres intégrés pour accéder rapidement à un sous-ensemble défini, tel que des adresses en quarantaine, des destinataires non ciblés ou des enregistrements situés dans une plage d’âge spécifique ou à une date de création spécifique. En outre, vous pouvez créer des filtres personnalisés, les enregistrer pour une utilisation ultérieure et les partager avec d’autres utilisateurs de Campaign.
 
-Découvrez comment **accéder aux filtres, les concevoir et les partager** dans la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Découvrez comment **accéder aux filtres, les concevoir et les partager** dans la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 
 ## Utiliser des listes {#manage-and-customize-lists}

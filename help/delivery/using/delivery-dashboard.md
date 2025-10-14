@@ -98,7 +98,7 @@ L&#39;onglet **[!UICONTROL Audit]** contient le log des diffusions et tous les m
 
 Le bouton **[!UICONTROL Actualiser]** permet de mettre à jour les données. Utilisez le bouton **[!UICONTROL Filtres]** pour définir un filtre sur les données.
 
-Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Voir cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
+Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Voir cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=fr){target="_blank"}.
 
 Le sous-onglet **[!UICONTROL Bons à tirer]** vous permet de voir la liste des BAT qui ont été envoyés.
 

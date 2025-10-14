@@ -31,7 +31,7 @@ Les clients mobiles, de messagerie et webmail disponibles pour l&#39;**Inbox ren
 
 >[!NOTE]
 >
->L&#39;Inbox rendering n&#39;est pas nécessaire pour tester les personnalisations dans les diffusions. Personalization peut être vérifié à l’aide des outils d’Adobe Campaign tels que **[!UICONTROL Aperçu]** et les BAT. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
+>L&#39;Inbox rendering n&#39;est pas nécessaire pour tester les personnalisations dans les diffusions. Personalization peut être vérifié à l’aide des outils d’Adobe Campaign tels que **[!UICONTROL Aperçu]** et les BAT. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}.
 
 ## Activation de l&#39;Inbox rendering{#activating-inbox-rendering}
 
@@ -107,7 +107,7 @@ Pour plus d&#39;informations sur la conception et le ciblage d&#39;une diffusion
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   Un bon à tirer est envoyé. Les vignettes de rendu sont accessibles dans ce BAT quelques minutes après l&#39;envoi des e-mails. Pour plus d’informations sur l’envoi de BAT, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
+   Un bon à tirer est envoyé. Les vignettes de rendu sont accessibles dans ce BAT quelques minutes après l&#39;envoi des e-mails. Pour plus d’informations sur l’envoi de BAT, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}.
 
 1. Une fois envoyé, le BAT apparaît dans la liste de diffusion. Double-cliquez dessus.
 

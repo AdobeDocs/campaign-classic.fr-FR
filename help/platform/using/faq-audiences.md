@@ -46,7 +46,7 @@ Une liste est un ensemble statique de destinataires qui peut être ciblé dans l
 
 Vous pouvez utiliser un workflow pour exclure les doublons de la cible d’une diffusion afin d’éviter d’envoyer cette dernière plusieurs fois à un même destinataire.
 
-Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}.
+Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=fr){target="_blank"}.
 
 ## Comment identifier et cibler les abonnés à une newsletter ? {#how-to-identify-and-target-subscribers-to-a-newsletter-}
 

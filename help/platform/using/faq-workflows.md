@@ -37,7 +37,7 @@ Découvrez comment surveiller l&#39;exécution des workflows Campaign dans la do
 
 Vous pouvez effectuer une mise à jour, une fusion et une insertion massives sur la base de données.
 
-Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}.
+Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=fr){target="_blank"}.
 
 ## Comment utiliser les fonctionnalités de Data Management ? {#how-can-i-leverage-data-management-capabilities-}
 
@@ -47,7 +47,7 @@ Dans Adobe Campaign, vous pouvez utiliser un ensemble d&#39;activités permetta
 * conserver et véhiculer des calculs intermédiaires, notamment dans les phases de construction des cibles ou pour l&#39;administration des bases de données.
 * accéder aux bases externes (optionnel) : prise en compte de bases de données hétérogènes dans le processus de ciblage.
 
-Découvrez comment concevoir une cible complexe et travailler sur vos données en combinant les activités de workflow de gestion des données dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"}.
+Découvrez comment concevoir une cible complexe et travailler sur vos données en combinant les activités de workflow de gestion des données dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=fr){target="_blank"}.
 
 ## Est-il possible d&#39;automatiser l&#39;envoi de messages personnalisés ? {#can-i-automate-personalized-messages-sending-}
 
@@ -55,7 +55,7 @@ Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/d
 
 ## Comment partager une audience en sous-ensembles avec un workflow ? {#how-can-i-split-an-audience-in-subsets-with-a-workflow-}
 
-Découvrez comment diviser une cible en plusieurs sous-ensembles dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"}.
+Découvrez comment diviser une cible en plusieurs sous-ensembles dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=fr){target="_blank"}.
 
 ## Comment mettre à jour les données des destinataires à partir d&#39;un fichier externe ? {#how-can-i-update-recipient-data-from-an-external-file-}
 

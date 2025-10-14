@@ -47,7 +47,7 @@ Pour plus d’informations sur l’utilisation des champs de personnalisation da
 
 ## Lien et formulaire d’opt-out {#opt-out}
 
-Par défaut, une règle de typologie vérifie au moment de l’analyse du message qu’un lien d’opt-out est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence. Vous pouvez modifier cette règle afin qu&#39;une erreur soit générée plutôt qu&#39;un simple avertissement et qu&#39;une diffusion ne sorte pas sans ce lien. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
+Par défaut, une règle de typologie vérifie au moment de l’analyse du message qu’un lien d’opt-out est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence. Vous pouvez modifier cette règle afin qu&#39;une erreur soit générée plutôt qu&#39;un simple avertissement et qu&#39;une diffusion ne sorte pas sans ce lien. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=fr){target="_blank"}.
 
 Vous devez vérifier le bon fonctionnement du lien d&#39;opt-out avant chaque envoi. Par exemple, lors de l’envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que sa validation change bien la valeur de **[!UICONTROL Ne plus contacter cette personne]** à **[!UICONTROL Oui]**. Cette vérification doit être systématique car on ne peut pas exclure une erreur humaine dans la saisie du lien ou dans la modification du formulaire.
 

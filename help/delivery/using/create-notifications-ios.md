@@ -16,7 +16,7 @@ ht-degree: 96%
 
 # Créer des notifications pour iOS{#create-notifications-ios}
 
-Cette section présente les éléments spécifiques à la diffusion de notifications iOS. Les concepts généraux relatifs à la création de diffusions sont présentés dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
+Cette section présente les éléments spécifiques à la diffusion de notifications iOS. Les concepts généraux relatifs à la création de diffusions sont présentés dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
 
 Créez tout d&#39;abord une nouvelle diffusion.
 
@@ -34,7 +34,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
 
    >[!NOTE]
    >
-   >Le processus détaillé de sélection de la population cible d&#39;une diffusion est présenté dans cette section de la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population.){target="_blank"}.
+   >Le processus détaillé de sélection de la population cible d&#39;une diffusion est présenté dans cette section de la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#target-population.){target="_blank"}.
    >
    >Pour plus d’informations sur l’utilisation des champs de personnalisation, consultez [cette section](about-personalization.md).
    >

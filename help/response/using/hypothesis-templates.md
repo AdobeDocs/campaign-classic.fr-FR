@@ -65,7 +65,7 @@ L&#39;onglet **[!UICONTROL Général]** du modèle permet de définir les option
   >
   >Si le modèle est paramétré pour tenir compte d&#39;une population témoin et qu&#39;aucun témoin n&#39;est défini dans la diffusion sur laquelle sont faites les hypothèses, les résultats ne seront basés que sur les destinataires ciblés.
 
-  Pour plus d’informations sur la définition et la configuration d’une population témoin, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target=_blank}.
+  Pour plus d’informations sur la définition et la configuration d’une population témoin, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=fr#add-a-control-group){target=_blank}.
 
 * **[!UICONTROL Canal]** : vous pouvez choisir un canal spécifique ou mettre le modèle d&#39;hypothèse à la disposition de tous les canaux dans la console Adobe Campaign en sélectionnant l&#39;option **[!UICONTROL Tous les canaux]** dans la liste déroulante. Si vous paramétrez le modèle pour un canal particulier, cela permet de filtrer automatiquement les diffusions par canal au moment de la création de l&#39;hypothèse. [Apprenez-en davantage](creating-hypotheses.md)
 

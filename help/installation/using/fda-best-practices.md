@@ -30,11 +30,11 @@ Cette option améliore considérablement les performances lors de l&#39;exécuti
 
 Dans plusieurs activités des workflows Adobe Campaign, vous pouvez utiliser les données stockées dans une base de données externe.
 
-* **Filtrer sur les données externes** - L&#39;activité de requête permet d&#39;ajouter des données externes et de les utiliser dans les paramétrages de filtrage définis. Voir à ce sujet la [documentation de Campaign v8]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"}.
+* **Filtrer sur les données externes** - L&#39;activité de requête permet d&#39;ajouter des données externes et de les utiliser dans les paramétrages de filtrage définis. Voir à ce sujet la [documentation de Campaign v8]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=fr){target="_blank"}.
 
-* **Créer des sous-ensembles** - L&#39;activité de partage vous permet de créer des sous-ensembles. Vous pouvez utiliser des données externes pour définir les critères de filtrage à utiliser. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"}.
+* **Créer des sous-ensembles** - L&#39;activité de partage vous permet de créer des sous-ensembles. Vous pouvez utiliser des données externes pour définir les critères de filtrage à utiliser. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=fr){target="_blank"}.
 
-* **Charger la base de données externe** - Vous pouvez utiliser les données externes dans l&#39;activité Chargement (SGBD). Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html){target="_blank"}.
+* **Charger la base de données externe** - Vous pouvez utiliser les données externes dans l&#39;activité Chargement (SGBD). Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html?lang=fr){target="_blank"}.
 
 * **Ajouter des informations et des liens** - L&#39;activité Enrichissement permet d&#39;ajouter des données supplémentaires à la table de travail du workflow et de créer des liens vers une table externe. Dans ce contexte, elle peut utiliser des données provenant d’une base de données externe. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=fr){target="_blank"}.
 

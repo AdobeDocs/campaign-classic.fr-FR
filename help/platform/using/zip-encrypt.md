@@ -36,7 +36,7 @@ Vous pouvez ensuite utiliser des commandes ou du code dans l&#39;onglet **[!UICO
 **Rubriques connexes :**
 
 * [Décompression ou déchiffrement d&#39;un fichier avant traitement](../../platform/using/unzip-decrypt.md)
-* [Activité Extraction des données (fichier)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}
+* [Activité Extraction des données (fichier)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}
 
 ## Cas pratique : chiffrage et export de données à l’aide d’une clé installée sur le Panneau de contrôle {#use-case-gpg-encrypt}
 
@@ -59,7 +59,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 1. Configurez l&#39;activité **[!UICONTROL Requête]** pour qu&#39;elle cible les données de votre choix dans la base de données. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
 
-1. Ouvrez l&#39;activité **[!UICONTROL Extraction des données (fichier)]** puis configurez-la selon vos besoins. Les concepts généraux relatifs à la configuration de l’activité sont disponibles dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}.
+1. Ouvrez l&#39;activité **[!UICONTROL Extraction des données (fichier)]** puis configurez-la selon vos besoins. Les concepts généraux relatifs à la configuration de l’activité sont disponibles dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}.
 
    ![](assets/gpg-data-extraction.png)
 

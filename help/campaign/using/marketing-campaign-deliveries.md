@@ -28,7 +28,7 @@ Pour créer une diffusion associée à une opération, cliquez sur le lien **[!U
 
 ![](assets/campaign_op_add_delivery.png)
 
-Les paramétrages proposés sont adaptés au type de diffusion : courrier, email, canaux mobiles. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
+Les paramétrages proposés sont adaptés au type de diffusion : courrier, email, canaux mobiles. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
 
 ## Démarrage dʼune diffusion {#starting-a-delivery}
 
