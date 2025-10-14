@@ -107,6 +107,6 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Cette vidéo montre comment utiliser une clé GPG pour déchiffrer des données.
 
->[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41358?quality=12&captions=fre_fr)
 
 D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
