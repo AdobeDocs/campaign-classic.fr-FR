@@ -8,16 +8,16 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 100%
+source-wordcount: '1318'
+ht-degree: 97%
 
 ---
 
 # Créer du contenu personnalisé {#build-personalized-content}
 
-Lors de la conception du contenu de votre message, évitez les problèmes courants qui peuvent vous empêcher d’exécuter votre diffusion. La plupart du temps, les erreurs possibles sont liées à la [personnalisation](about-personalization.md), au [formatage](defining-the-email-content.md#message-content) et aux [images](defining-the-email-content.md#adding-images).
+Lors de la conception du contenu de votre message, évitez les problèmes courants qui peuvent vous empêcher d’exécuter votre diffusion. La plupart du temps, les erreurs possibles sont liées à la [personnalisation](about-personalization.md), au [formatage](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"} et aux [images](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}.
 
 ## Optimiser la personnalisation {#optimize-personalization}
 
@@ -58,7 +58,7 @@ Lorsque vous créez vos e-mails, tenez compte des bonnes pratiques générales p
 
 ### Objet
 
-Travaillez sur la [ligne d&#39;objet](defining-the-email-content.md#message-content) pour améliorer les taux d&#39;ouverture :
+Découvrez l’objet de la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#sender){target="_blank"} pour améliorer les taux d’ouverture :
 
 * Évitez les objets trop longs. Utilisez 50 caractères au maximum
 
@@ -72,7 +72,7 @@ Incluez toujours un lien de page miroir. La partie supérieure de l&#39;e-mail c
 
 ### Lien de désabonnement
 
-Le lien de désabonnement est indispensable. Il doit être visible, valide et le formulaire fonctionnel. Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse qu’un lien d’exclusion est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence.
+Le lien de désabonnement est indispensable. Il doit être visible, valide et le formulaire fonctionnel. Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse du message qu’un lien d’exclusion est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence.
 
 **Conseil** : comme une erreur humaine est toujours possible, vérifiez du début à la fin le bon fonctionnement du lien de désabonnement avant chaque envoi. Par exemple, lors de l&#39;envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que la valeur du champ Ne plus contacter cette personne est changée en Oui.
 
@@ -96,12 +96,12 @@ Veillez à tester toutes les modifications avant l’envoi final
 
 Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM (Global System for Mobile Communications). Les SMS utilisant l&#39;encodage GSM sont limités à 160 caractères, ou 153 caractères par SMS pour les messages envoyés en plusieurs parties.
 
-La translittération consiste à remplacer un caractère de SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM. Notez que l’insertion de champs de personnalisation dans le contenu de votre SMS peut introduire des caractères qui ne sont pas pris en charge par l’encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
+La translittération consiste à remplacer un caractère d’un SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM. Notez que l’insertion de champs de personnalisation dans le contenu de votre SMS peut introduire des caractères qui ne sont pas pris en charge par l’encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
 En savoir plus dans [cette section](sms-set-up.md#creating-an-smpp-external-account).
 
 **Conseils** :
 
-* Pour conserver tous les caractères de vos SMS, afin de ne pas altérer les noms propres par exemple, n&#39;activez pas la translittération.
+* Pour conserver tous les caractères de vos SMS, afin de ne pas altérer les noms propres par exemple, n’activez pas la translittération.
 
 * En revanche, si vos SMS contiennent beaucoup de caractères qui ne sont pas pris en charge par la norme GSM, activez la translittération afin de limiter le coût de vos envois.
 
@@ -151,7 +151,7 @@ Pour être accessibles depuis l&#39;extérieur, les images utilisées dans les e
 
 * Vous pouvez vérifier si la configuration de l’instance permet la gestion des ressources publiques. [En savoir plus](../../installation/using/deploying-an-instance.md#managing-public-resources)
 
-* Depuis l’assistant de diffusion, vous pouvez importer une page HTML contenant des images ou insérer directement des images à l’aide de l’éditeur HTML via l’icône **[!UICONTROL Image]**  [En savoir plus](defining-the-email-content.md#adding-images)
+* Depuis l’assistant de diffusion, vous pouvez importer une page HTML contenant des images ou insérer directement des images à l’aide de l’éditeur HTML via l’icône **[!UICONTROL Image]**  Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}.
 
 * Si les images ne sont pas affichées, vérifiez qu&#39;elles sont disponibles sur le serveur. Pour ce faire, cliquez sur l&#39;onglet Source de votre diffusion. Recherchez vos images, copiez l&#39;URL de chaque image et collez-la dans un navigateur web. Si les images ne sont toujours pas affichées, contactez votre administrateur informatique ou le fournisseur tiers du contenu de votre diffusion.
 
@@ -159,6 +159,6 @@ Pour être accessibles depuis l&#39;extérieur, les images utilisées dans les e
 
 Adobe recommande de prévisualiser votre message afin de vérifier sa personnalisation et l&#39;affichage de la diffusion par vos destinataires.
 
-* Dans l’assistant de diffusion, le sous-onglet **[!UICONTROL Prévisualisation]** vous permet de visualiser le rendu de chaque contenu pour une personne destinataire. Les champs de personnalisation et les éléments conditionnels du contenu sont remplacés par les informations correspondantes pour le profil sélectionné. [En savoir plus](defining-the-email-content.md#message-content)
+* Dans l’assistant de diffusion, le sous-onglet **[!UICONTROL Prévisualisation]** vous permet de visualiser le rendu de chaque contenu pour une personne destinataire. Les champs de personnalisation et les éléments conditionnels du contenu sont remplacés par les informations correspondantes pour le profil sélectionné. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"}.
 
 * Une vérification anti-spam est automatiquement effectuée à chaque prévisualisation. Dans le sous-onglet **[!UICONTROL Aperçu]**, vérifiez le score de spam [SpamAssassin](spamassassin.md).  Cliquez sur **[!UICONTROL Autres choix...]** pour en savoir plus sur l’avertissement.  Avant de procéder, assurez-vous que SpamAssassin est correctement installé et configuré sur le serveur applicatif Adobe Campaign. [En savoir plus](../../installation/using/configuring-spamassassin.md)

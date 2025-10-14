@@ -5,10 +5,10 @@ description: 'Cas pratique : sélection des adresses de contrôle selon des cri
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Pour utiliser la condition dynamique vous devez disposer :
 
 ## Étape 1 : création dʼune diffusion {#step-1---creating-a-delivery}
 
-Les étapes de création dʼune diffusion sont détaillées dans la section [Création dʼune diffusion e-mail](creating-an-email-delivery.md).
+Les étapes de création d&#39;une diffusion sont détaillées dans la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=fr){target="_blank"}.
 
 Dans cet exemple, le chargé de diffusion a créé sa newsletter et sélectionné les destinataires.
 

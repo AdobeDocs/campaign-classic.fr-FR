@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Email, Push
 role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 287d1bf60b39e9e2b389701097995dbea962dec9
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 100%
+source-wordcount: '485'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,8 @@ ht-degree: 100%
 La liste des émoticônes affichée dans la fenêtre contextuelle est régie par une énumération. Vous pouvez ainsi afficher les valeurs contenues dans une liste pour limiter les choix de l’utilisateur ou de l’utilisatrice pour un champ donné.
 Il est possible de personnaliser l’ordre des émoticônes dans la liste et d’en ajouter d’autres.
 
-Notez que les émoticônes ne sont disponibles que pour les e-mails et les notifications push. Pour plus d’informations, consultez [cette page](defining-the-email-content.md#inserting-emoticons).
+Notez que les émoticônes ne sont disponibles que pour les e-mails et les notifications push. Pour en savoir plus à ce sujet consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#inserting-emoticons){target="_blank"}.
+
 
 ## Ajout d’une nouvelle émoticône {#add-new-emoticon}
 
@@ -62,7 +63,7 @@ Votre nouvelle émoticône sera automatiquement placée dans le magasin.
 
 1. Pour que les modifications soient prises en compte, déconnectez-vous d’Adobe Campaign Classic, puis reconnectez-vous. Si la nouvelle émoticône n’apparaît toujours pas dans la fenêtre pop-up **[!UICONTROL Insérer une émoticône]**, vous devrez peut-être vider le cache. Voir à ce propos cette [section](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
 
-1. La nouvelle émoticône se trouve maintenant dans vos diffusions, dans la fenêtre pop-up **[!UICONTROL Insérer une émoticône]**, à la 61e position, suite à la configuration effectuée lors des étapes précédentes. Pour plus d’informations sur l’utilisation des émoticônes dans vos diffusions, consultez cette [page](defining-the-email-content.md#inserting-emoticons).
+1. La nouvelle émoticône se trouve maintenant dans vos diffusions, dans la fenêtre pop-up **[!UICONTROL Insérer une émoticône]**, à la 61e position, suite à la configuration effectuée lors des étapes précédentes. Pour plus d’informations sur l’utilisation des émoticônes dans vos diffusions, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#inserting-emoticons){target="_blank"}.
 
    ![](assets/emoticon_4.png)
 

@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
-workflow-type: ht
-source-wordcount: '760'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '772'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ Pour obtenir des conseils supplémentaires sur l’optimisation de la délivrabi
 
 >[!NOTE]
 >
->Pour plus d’informations sur la modification du contenu des e-mails, voir [Définir le contenu d’un e-mail](defining-the-email-content.md).
+>Pour plus d’informations sur la modification du contenu des e-mails, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr){target="_blank"}.
 
 ## Adresse d’expéditeur {#sender-address}
 
@@ -37,7 +37,7 @@ Certains FAI vérifient la validité de l’adresse d’expédition (**[!UICONTR
 
 Il faut s’assurer qu’une adresse correcte est bien renseignée au niveau de l’instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement...]**) ou dans les scénarios les plus couramment utilisés.
 
-Pour plus d’informations à ce sujet, consultez [cette page](defining-the-email-content.md).
+Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr){target="_blank"}.
 
 ## Personnalisation {#personalization}
 
@@ -47,7 +47,7 @@ Pour plus d’informations sur l’utilisation des champs de personnalisation da
 
 ## Lien et formulaire d’opt-out {#opt-out}
 
-Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse qu’un lien d’opt-out est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence. On peut éventuellement modifier le niveau d’alerte de cette règle afin qu’elle génère une erreur, de façon à ce qu’en aucun cas une diffusion ne puisse être démarrée sans ce lien.
+Par défaut, une règle de typologie vérifie au moment de l’analyse du message qu’un lien d’opt-out est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence. Vous pouvez modifier cette règle afin qu&#39;une erreur soit générée plutôt qu&#39;un simple avertissement et qu&#39;une diffusion ne sorte pas sans ce lien. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
 
 Vous devez vérifier le bon fonctionnement du lien d&#39;opt-out avant chaque envoi. Par exemple, lors de l’envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que sa validation change bien la valeur de **[!UICONTROL Ne plus contacter cette personne]** à **[!UICONTROL Oui]**. Cette vérification doit être systématique car on ne peut pas exclure une erreur humaine dans la saisie du lien ou dans la modification du formulaire.
 

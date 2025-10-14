@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1273'
 ht-degree: 100%
 
 ---
@@ -145,7 +145,7 @@ VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
 >* Adobe vous recommande d&#39;ajouter les tables spécifiques à votre modèle de données, qui peuvent faire l&#39;objet de mises à jour importantes. Cela peut être le cas pour **NmsRecipient** si vous disposez de flux de réplication de données quotidiens volumineux.
 >* L’instruction VACUUM verrouille la table, ce qui met certains processus en attente pendant toute la durée de la maintenance.
 >* Pour les très grandes tables (généralement au-dessus de 5 Go), la commande VACUUM FULL peut devenir assez inefficace et nécessiter beaucoup de temps. Adobe déconseille de l&#39;utiliser pour la table **YyyNmsBroadLogXxx**.
->* Cette opération de maintenance peut être implémentée par un workflow Adobe Campaign, à l&#39;aide d&#39;une activité **[!UICONTROL SQL]**. Pour plus d’informations, consultez [cette section](../../workflow/using/architecture.md). Assurez-vous de planifier la maintenance pendant une période de faible activité qui n&#39;entrera pas en conflit avec votre période de sauvegarde.
+>* Cette opération de maintenance peut être implémentée par un workflow Adobe Campaign, à l&#39;aide d&#39;une activité **[!UICONTROL SQL]**. Assurez-vous de planifier la maintenance pendant une période de faible activité qui n&#39;entrera pas en conflit avec votre période de sauvegarde.
 >
 
 ### Reconstruire une base {#rebuilding-a-database}

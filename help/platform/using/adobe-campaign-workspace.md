@@ -6,10 +6,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '974'
-ht-degree: 74%
+source-wordcount: '980'
+ht-degree: 73%
 
 ---
 
@@ -23,7 +23,7 @@ Depuis la section centrale de la page d’accueil, vous pouvez utiliser des lien
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrir l’espace de travail Campaign en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Découvrir l’espace de travail Campaign en vidéo](#video)
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Dans le contexte d’un accès web, les options seront en revanche principalemen
 
 ![À partir d’un navigateur, le même opérateur ne peut que visualiser et annuler la campagne.](assets/operation_from_web.png)
 
-En savoir plus sur l’[utilisation de l’interface web.](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
+Pour en savoir plus sur l’utilisation de l’interface web, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank}.
 
 ### Langues {#languages}
 
@@ -123,7 +123,7 @@ Le filtrage des données est le processus par lequel un jeu de données est limi
 
 Lors de la navigation dans Campaign, les données sont affichées dans des listes. Vous pouvez appliquer des filtres intégrés pour accéder rapidement à un sous-ensemble défini, tel que des adresses en quarantaine, des destinataires non ciblés ou des enregistrements situés dans une plage d’âge spécifique ou à une date de création spécifique. En outre, vous pouvez créer des filtres personnalisés, les enregistrer pour une utilisation ultérieure et les partager avec d’autres utilisateurs de Campaign.
 
-Découvrez comment **accéder aux filtres, les concevoir et les partager** dans la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Découvrez comment **accéder aux filtres, les concevoir et les partager** dans la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 
 ## Utiliser des listes {#manage-and-customize-lists}
@@ -144,4 +144,4 @@ Découvrez comment **utiliser les énumérations** dans la documentation de [Ado
 
 Cette vidéo présente l‘espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39530?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

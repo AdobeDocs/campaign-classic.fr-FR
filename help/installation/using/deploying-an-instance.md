@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '3539'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '3547'
+ht-degree: 99%
 
 ---
 
@@ -68,7 +68,7 @@ Les options disponibles sont les suivantes :
 
 ## Paramètres du canal email {#email-channel-parameters}
 
-L’étape suivante permet de définir les informations qui seront affichées dans l’en-tête des emails.
+L’étape suivante permet de définir les informations qui seront affichées dans l’en-tête des e-mails.
 
 Ces paramètres peuvent être surchargés dans les modèles de diffusion et, unitairement au niveau de chaque diffusion (sous réserve que les utilisateurs possèdent les droits appropriés).
 
@@ -79,15 +79,14 @@ Ces paramètres peuvent être surchargés dans les modèles de diffusion et, uni
 Indiquez les paramètres suivants :
 
 * **[!UICONTROL Nom expéditeur]** : saisissez le nom de l’expéditeur.
-* **[!UICONTROL Adresse expéditeur]** : saisissez l’adresse e-mail de l’expéditeur. Lors de l’envoi d’e-mails à partir d’Adobe Campaign, la boîte aux lettres **Adresse expéditeur** n’est pas surveillée et les utilisateurs et utilisatrices marketing ne peuvent pas y accéder. Adobe Campaign ne permet pas non plus de répondre automatiquement aux e-mails reçus dans cette boîte aux lettres, ni de les transférer automatiquement. Pour en savoir plus sur les bonnes pratiques en matière de délivrabilité, consultez cette [documentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html?lang=fr){_blank}.
+* **[!UICONTROL Adresse expéditeur]** : saisissez l’adresse e-mail de l’expéditeur. Lors de l’envoi d’e-mails à partir d’Adobe Campaign, la boîte aux lettres **Adresse expéditeur** n’est pas surveillée et les utilisateurs et utilisatrices marketing ne peuvent pas y accéder. Adobe Campaign ne permet pas non plus de répondre automatiquement aux e-mails reçus dans cette boîte aux lettres, ni de les transférer automatiquement. En savoir plus sur les bonnes pratiques en matière de délivrabilité [dans cette documentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html?lang=fr){_blank}.
 
 * **[!UICONTROL Nom de l’adresse de réponse]** : saisissez le nom utilisé lorsque le destinataire clique sur le bouton **[!UICONTROL Répondre]**.
 * **[!UICONTROL Adresse de réponse]** : saisissez l’adresse e-mail à utiliser lorsque le ou la destinataire clique sur le bouton **[!UICONTROL Répondre]** de son logiciel de messagerie. Le champ **Adresse de réponse** est utile si vous souhaitez que le ou la destinataire réponde à une adresse différente de celle de l’**Adresse expéditeur**. Cette adresse e-mail doit être valide, associée à une boîte aux lettres surveillée et hébergée par le client ou la cliente.  Il peut s’agir d’une boîte aux lettres d’assistance, par exemple `customer-care@customer.com`, où les e-mails sont lus et reçoivent une réponse.
 
-* **[!UICONTROL Adresse d&#39;erreur]** : saisissez l’adresse e-mail des messages comportant une erreur. Il s’agit d’une adresse technique utilisée pour gérer les rebonds, notamment les e-mails reçus par le serveur Adobe Campaign si les adresses cible n’existent pas. Cette adresse e-mail doit être valide, associée à une boîte aux lettres surveillée et hébergée par le client ou la cliente. Il peut s’agir d’une boîte pour les e-mails rebonds, par exemple `errors@customer.com`. Cette adresse peut être modifiée au niveau d’une diffusion ou dans les modèles de diffusion, à partir de l’onglet **SMTP** des propriétés de la diffusion/du modèle de diffusion. [En savoir plus](../../delivery/using/email-parameters.md#managing-bounce-emails-managing-bounce-emails).
+* **[!UICONTROL Adresse d&#39;erreur]** : saisissez l’adresse e-mail des messages comportant une erreur. Il s’agit d’une adresse technique utilisée pour gérer les rebonds, notamment les e-mails reçus par le serveur Adobe Campaign si les adresses cible n’existent pas. Cette adresse e-mail doit être valide, associée à une boîte aux lettres surveillée et hébergée par le client ou la cliente. Il peut s’agir d’une boîte pour les e-mails rebonds, par exemple `errors@customer.com`. Cette adresse peut être modifiée au niveau d’une diffusion ou dans les modèles de diffusion, à partir de l’onglet **SMTP** des propriétés de la diffusion/du modèle de diffusion. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html#managing-bounce-emails){target="_blank"}.
 
-
-En complément, vous pouvez indiquer les **masques** autorisés pour l&#39;adresse expéditeur et l&#39;adresse d&#39;erreur. Au besoin, ces masques doivent être séparés les uns des autres par une virgule. Ce paramétrage est facultatif. Lorsque ces champs sont renseignés, Adobe Campaign contrôle, au moment de l&#39;envoi (ou au moment de l&#39;analyse, lorsque l&#39;adresse ne contient pas d&#39;éléments variables), que les adresses renseignées dans la diffusion sont valables. Ce fonctionnement permet d&#39;éviter l&#39;utilisation d&#39;adresses qui pourraient poser des problème de délivrabilité. Les adresses d&#39;expédition doivent être configurées sur le serveur d&#39;envoi.
+En complément, vous pouvez indiquer les **masques** autorisés pour l’adresse d’expédition et l’adresse d’erreur. Au besoin, ces masques doivent être séparés les uns des autres par une virgule. Ce paramétrage est facultatif. Lorsque ces champs sont renseignés, Adobe Campaign contrôle, au moment de l’envoi (ou au moment de l’analyse, lorsque l’adresse ne contient pas d’éléments variables), que les adresses renseignées dans la diffusion sont valables. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient entraîner des problèmes de délivrabilité. Les adresses d’expédition doivent être configurées sur le serveur d’envoi.
 
 >[!NOTE]
 >
@@ -120,7 +119,7 @@ Les options disponibles sont les suivantes :
 * **[!UICONTROL Durée de diffusion des messages]** : durée maximum au-delà de laquelle la diffusion des messages est arrêtée (par défaut, 5 jours).
 * **[!UICONTROL Durée de validité des ressources en ligne]** : durée pendant laquelle seront conservées toutes les informations relatives au profil du ou de la destinataire afin de générer les pages miroir.
 * **[!UICONTROL Exclure les destinataires qui ne souhaitent plus être contactés]** : lorsque cette option est sélectionnée, les destinataires sur liste bloquée ne seront pas contactés.
-* **[!UICONTROL Supprimer automatiquement les doublons]** : lorsque cette option est sélectionnée, la diffusion ne sera pas effectuée sur les adresses e-mail en doublon.
+* **[!UICONTROL Ignorer automatiquement les doublons]** : lorsque cette option est sélectionnée, la diffusion ne sera pas effectuée sur les adresses e-mail en double.
 
 >[!NOTE]
 >
@@ -395,7 +394,7 @@ Le champ **Masques des URL** permet d’indiquer la liste des masques des URL qu
 
 Vous pouvez saisir plusieurs masques, séparés les uns des autres par une virgule.
 
-* Le mode d’utilisation et la gestion des images dans les emails sont présentés dans [cette section](../../delivery/using/defining-the-email-content.md#adding-images).
+* Pour plus d’informations sur l’utilisation et la gestion des images dans les e-mails, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}.
 * Dans l’assistant de diffusion, les images appelées depuis ces URL auront le statut « Ignoré ».
 
 ### Modes de publication {#publication-modes}

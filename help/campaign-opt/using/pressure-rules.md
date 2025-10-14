@@ -7,10 +7,10 @@ feature: Fatigue Management, Typology Rules, Campaigns
 hide: true
 hidefromtoc: true
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
-source-wordcount: '3513'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '3512'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## À propos de la fatigue marketing {#about-marketing-fatigue}
 
-La mise en place de la gestion de la pression commerciale permet de ne pas sur-solliciter la population de la base de données (fatigue marketing). Pour cela, vous pouvez définir le nombre de messages maximum par destinataire. Elle permet également la mise en place de règles d&#39;arbitrage entre les campagnes, afin d&#39;envoyer le message le mieux adapté à la population ciblée.
+La mise en place de la gestion de la pression commerciale permet de ne pas sur-solliciter la population de la base de données (fatigue marketing). Pour cela, vous pouvez définir le nombre de messages maximum par destinataire. Elle permet également la mise en place de règles d’arbitrage entre les campagnes, afin d’envoyer le message le mieux adapté à l’audience ciblée.
 
 Les règles de **Pression** permettent de gérer la fatigue marketing, en limitant par exemple à deux le nombre de lettres envoyées à une population, en sélectionnant les communications qui répondront le mieux aux centres d&#39;intérêt d&#39;un groupe d&#39;abonnés, en évitant d&#39;envoyer un SMS à un client ayant manifesté son mécontentement, etc.
 
@@ -92,7 +92,7 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Pressio
 
    ![](assets/campaign_opt_create_a_rule_05.png)
 
-1. L&#39;onglet **[!UICONTROL Typologies]** permet de consulter les typologies de campagne qui appliquent cette règle de typologie et d&#39;associer cette règle à une ou plusieurs typologies existantes. Pour plus d&#39;informations, consultez la section [Appliquer les typologies](about-campaign-typologies.md#applying-typologies).
+1. L&#39;onglet **[!UICONTROL Typologies]** permet de consulter les typologies de campagne qui appliquent cette règle de typologie et d&#39;associer cette règle à une ou plusieurs typologies existantes. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr){target="_blank"}.
 
 ## Définition des seuils et poids {#defining-thresholds-and-weights}
 
@@ -160,7 +160,7 @@ ou
 
 1. Saisir la valeur **7j** dans le champ **[!UICONTROL Période concernée]** ET cocher l&#39;option **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]** : les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
 
-Le jour de début de la période dépend du paramétrage de la base de données.
+La date de début de la période dépend du paramétrage de la base de données.
 
 Ainsi, si l&#39;on applique à une diffusion du 11/11 une règle de pression s&#39;appliquant sur 15 jours et sans regroupement, la période pendant laquelle les diffusions seront prises en compte s&#39;étendra du 27/10 au 12/11. Si la règle de pression prend en compte les diffusions du calendrier prévisionnel, les diffusions comptabilisées seront celles dont la date de diffusion est comprise entre le 27/10 et le 27/11. Enfin, si l&#39;on paramètre au niveau de la règle un regroupement au mois calendaire, toutes les diffusions des mois d&#39;octobre et novembre seront prises en compte dans le calcul du seuil (du 1/10 au 30/11).
 

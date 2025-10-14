@@ -4,10 +4,10 @@ title: Envoi dʼe-mails transactionnels avec des pièces jointes
 description: Découvrez comment envoyer des e-mails transactionnels avec des pièces jointes individuelles et/ou personnalisées à lʼaide dʼAdobe Campaign
 feature: Transactional Messaging, Message Center
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 100%
+source-wordcount: '670'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Le diagramme suivant montre les différentes étapes pour mettre en œuvre ce sc
 
 Pour ajouter à la volée une pièce jointe à un message transactionnel, procédez comme suit :
 
-1. Commencez par créer votre pièce jointe. Voir à ce propos [cette section](../../delivery/using/attaching-files.md#attach-a-personalized-file).
+1. Commencez par créer votre pièce jointe. Pour plus d’informations à ce sujet, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html#attach-a-personalized-file){target="_blank"}.
 
    Vous pouvez ainsi joindre les fichiers à un email, même s&#39;ils ne sont pas hébergés sur l&#39;instance d&#39;exécution.
 

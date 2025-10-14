@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '837'
+ht-degree: 97%
 
 ---
 
@@ -120,7 +120,7 @@ Sur la ou les instances d&#39;exécution, procédez comme suit :
    >
    >Découvrez comment créer un compte externe de type instance d&#39;exécution dans [cette section](../../message-center/using/configuring-instances.md#control-instance).
 
-1. Étendez le schéma nms:extAccount pour ajouter l&#39;URL de tracking :
+1. Etendez le schéma nms:extAccount pour ajouter l&#39;URL de tracking :
 
    ```
    <attribute advanced="true" desc="URL of the tracking servers" label="Tracking server URL"
@@ -131,7 +131,7 @@ Sur la ou les instances d&#39;exécution, procédez comme suit :
    >
    >Découvrez comment étendre un schéma existant dans la section [Extension d&#39;un schéma](../../configuration/using/extending-a-schema.md).
 
-1. Modifiez le formulaire nms:extAccount :
+1. Modifiez le formulaire nms:extAccount :
 
    ```
    <container label="Message domain branding" type="frame">
@@ -169,6 +169,6 @@ Pour ce faire, procédez comme suit :
 
 1. Créez un compte externe par marque avec le même nom interne que celui défini sur l&#39;[instance d&#39;exécution](#execution-instance) (étape 1).
 
-1. Créez un [modèle de diffusion](../../delivery/using/about-templates.md) par marque.
+1. Créez un modèle de diffusion par marque. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"}.
 
 1. Dans les **[!UICONTROL Propriétés]** du modèle de diffusion, définissez le routage sur le compte externe de la marque.

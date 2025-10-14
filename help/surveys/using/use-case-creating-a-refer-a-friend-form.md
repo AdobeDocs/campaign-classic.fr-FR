@@ -5,10 +5,10 @@ description: Découvrez les étapes de création d'un formulaire de parrainage d
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 100%
+source-wordcount: '635'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    >[!NOTE]
    >
-   >Tant que le destinataire n&#39;a pas exprimé son consentement, vous ne pouvez pas le stocker parmi les destinataires la base de données. Il sera donc provisoirement stocké dans la table des **visiteurs** (**nms:visitor**) conçue pour les opérations de marketing viral. Cette table est régulièrement purgée de son contenu par les opérations de **cleansing**.
+   >Tant que le destinataire n&#39;a pas exprimé son consentement, vous ne pouvez pas le stocker parmi les destinataires la base de données. Elles seront stockées temporairement dans la table **visiteur** (**nms:visitor**) conçue pour les campagnes marketing virales. Cette table est régulièrement purgée de son contenu par les opérations de **cleansing**.
    >
    >Dans notre exemple, nous allons en cibler les destinataires pour leur proposer de participer à ce concours, sur les conseils de leur parrain. Vous allez toutefois leur proposer, dans ce message, un abonnement à l&#39;un de vos services d&#39;information. S&#39;ils acceptent, ils pourront être stockés en base.
 
@@ -88,7 +88,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    >[!NOTE]
    >
-   >Les modèles de diffusion sont présentés dans [cette page](../../delivery/using/about-templates.md).
+   >Pour plus d’informations sur les modèles de diffusion[ consultez la documentation ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"} Campaign v8 .
 
 1. Créez le second script qui permet de procéder à l&#39;envoi des messages de parrainage.
 

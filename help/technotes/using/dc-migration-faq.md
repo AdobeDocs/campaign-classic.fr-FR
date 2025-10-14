@@ -6,10 +6,10 @@ feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '2226'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe désactive l’ancien centre de données : les instances Campaign Classi
 
 Vous trouverez ci-dessous un ensemble de questions courantes concernant ce projet, l’impact sur vos environnements Campaign et d’autres ressources utiles.
 
-Pour toute autre question, contactez l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/fr?support-solution=Campaign&amp;lang=fr#support).
+Pour toute autre question, contactez l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign&lang=fr#support).
 
 ## Incidences sur l’infrastructure
 
@@ -51,7 +51,7 @@ Les incidences globales sur la base de données et l’infrastructure sont répe
 
 * **En quoi consiste le plan pour résoudre les problèmes consécutifs à la migration ?**
 
-  Des tests approfondis doivent être effectués avant la migration des systèmes de production. Toutefois, en cas de problèmes, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/fr?support-solution=Campaign#support) reste le principal point de contact. Adobe a mis en place une équipe d’experts chargée, si nécessaire, d’apporter une assistance avancée.
+  Des tests approfondis doivent être effectués avant la migration des systèmes de production. Toutefois, en cas de problèmes, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) reste le principal point de contact. Adobe a mis en place une équipe d’experts chargée, si nécessaire, d’apporter une assistance avancée.
 
 ## Incidences sur la délivrabilité
 
@@ -97,7 +97,7 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 
   Tout d’abord, l’équipe chargée de la délivrabilité d’Adobe évaluera le statut de la plateforme concernant la délivrabilité et recommandera un plan de basculement vers les nouvelles adresses IP.
 
-  Aucun préchauffage n’est nécessaire après la migration. Il peut y avoir certaines exceptions. Dans ce cas, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/fr?support-solution=Campaign#support) contactera les clients.
+  Aucun préchauffage n’est nécessaire après la migration. Il peut y avoir certaines exceptions. Dans ce cas, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign&lang=fr#support) contactera les clients.
 
   Cependant, le plan est destiné à réaliser cette opération de manière transparente pour l’entreprise, contrairement à la montée en réputation initiale qui est effectuée pendant la phase de démarrage.
 
@@ -173,7 +173,7 @@ Les incidences globales sur la configuration, la connectivité avec d’autres s
 
   Il peut changer en fonction de la nouvelle localisation des serveurs. Toutefois, le client pourra conserver son fuseau horaire actuel.
 
-  [En savoir plus](../../workflow/using/managing-time-zones.md) sur la gestion des fuseaux horaires dans Adobe Campaign Classic v7.
+  Pour en savoir plus sur la gestion des fuseaux horaires, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/managing-time-zones.html){target="_blank"}.
 
 
 ## Sécurité et autorisations
@@ -202,7 +202,7 @@ Les incidences sur les autorisations, les certificats et les accès SFTP sont r�
 
 * **Si la connexion SFTP n’a pas pu être établie, quelle est la solution/le plan pour que le client reste opérationnel ?**
 
-  Le seul problème de connectivité possible est lié à la liste autorisée côté client. Le client doit ajouter ce test dans un environnement hors production pour s’assurer qu’il fonctionne avant de passer en production.
+  Le seul problème de connectivité possible est lié à la liste autorisée côté client. Le client ou la cliente doit ajouter ce test dans un environnement hors production pour s’assurer qu’il fonctionne avant de passer en production.
 
 * **Existe-t-il des configurations de liste autorisée spécifiques au centre de données qu’il est nécessaire de déplacer ?**
 

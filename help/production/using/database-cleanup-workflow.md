@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '2914'
-ht-degree: 100%
+source-wordcount: '2916'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Le paramétrage du nettoyage de la base s&#39;effectue à deux niveaux : dans l
 
 >[!NOTE]
 >
->Pour plus d’informations sur le planificateur, reportez-vous à [cette section](../../workflow/using/scheduler.md).
+>Pour plus d’informations sur le planificateur, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=fr){target="_blank"}.
 
 Par défaut, le workflow **[!UICONTROL Nettoyage de la base]** est paramétré pour se déclencher tous les jours, à 4 heures du matin. Le planificateur vous permet de modifier la fréquence de déclenchement du workflow. Les fréquences disponibles sont les suivantes :
 
@@ -265,7 +265,7 @@ Cette tâche supprime les ressources web (pages miroir) utilisées par les diffu
 
    où `$(dl)` est l’identifiant de la diffusion.
 
-1. Un log est ensuite ajouté au journal de la diffusion.
+1. Un log est ensuite ajouté au log de la diffusion.
 1. Les diffusions purgées sont ensuite identifiées afin de ne pas avoir à les retraiter par la suite. La requête suivante est exécutée :
 
    ```sql
@@ -322,7 +322,7 @@ Cette tâche purge chaque instance de workflow à l’aide de son identifiant (*
 
 >[!NOTE]
 >
->La périodicité de la purge de l’historique est définie pour chaque workflow dans le champ **Jours d’historique** (valeur par défaut de 30 jours). Ce champ se situe sur l’onglet **Exécution** des propriétés du workflow. Pour plus d’informations, consultez [cette section](../../workflow/using/workflow-properties.md#execution).
+>La fréquence de purge de l’historique est définie pour chaque workflow dans le champ **Jours d’historique** (valeur par défaut de 30 jours). Ce champ se situe sur l’onglet **Exécution** des propriétés du workflow. Pour plus d’informations, consultez [cette section](../../workflow/using/workflow-properties.md#execution).
 
 1. Pour récupérer la liste des workflows à supprimer, la requête suivante est utilisée :
 
@@ -457,7 +457,7 @@ Cette tâche permet de purger les logs de diffusion stockés dans différentes t
    SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL UNION SELECT distinct(sBroadLogExclSchema) FROM NmsDeliveryMapping WHERE sBroadLogExclSchema IS NOT NULL
    ```
 
-1. Dans le cas de l&#39;utilisation du mid-sourcing, la table **NmsBroadLogMid** n&#39;est pas référencée dans les mappings de diffusion. Le schéma **nms:broadLogMid** est alors ajouté à la liste récupérée par la requête précédente.
+1. Dans le cas de l&#39;utilisation du mid-sourcing, la table **NmsBroadLogMid** n&#39;est pas référencée dans les mappings de diffusion. Le schéma **nms:broadLogMid** est ajouté à la liste récupérée par la requête précédente.
 1. Le workflow **Nettoyage de la base** procède ensuite à la purge des enregistrements obsolètes dans les tables récupérées précédemment. La requête suivante est utilisée :
 
    ```sql
@@ -485,7 +485,7 @@ Si la date de début est supérieure ou égale à la date de fin, aucun traiteme
 
 Si la date de début est inférieure à la date de fin, la table **NmsEmailErrorStat** est nettoyée.
 
-Le nombre total d&#39;erreurs dans la table **NmsEmailErrorStat**, entre les dates de début et de fin, est récupéré à l&#39;aide de la requête suivante :
+Le nombre total d’erreurs dans la table **NmsEmailErrorStat**, entre les dates de début et de fin, est récupéré à l’aide de la requête suivante :
 
 ```sql
 SELECT COUNT(*) FROM NmsEmailErrorStat WHERE tsDate>= $(start) AND tsDate< $(end)
@@ -570,7 +570,7 @@ Cette tâche nettoie les tables de simulation orphelines (qui ne sont plus assoc
    DROP TABLE wkSimu_456831_aggr
    ```
 
-### Nettoyer le Suivi {#cleanup-of-audit-trail}
+### Nettoyage du journal d’audit {#cleanup-of-audit-trail}
 
 La requête suivante est utilisée :
 

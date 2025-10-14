@@ -8,10 +8,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
-source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
-workflow-type: ht
-source-wordcount: '96'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 75%
 
 ---
 
@@ -21,12 +21,12 @@ Pour créer une diffusion courrier, procédez comme suit :
 
 >[!NOTE]
 >
->Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
+>Les concepts généraux relatifs à la création de diffusions sont présentés dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
 1. Créez une diffusion, par exemple depuis le tableau de bord des diffusions.
 1. Sélectionnez le modèle de diffusion **Diffuser par courrier (papier)**.
 
    ![](assets/direct_mail.png)
 
-1. Identifiez votre diffusion avec un libellé, un code et une description. Voir à ce propos [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery)
+1. Identifiez votre diffusion avec un libellé, un code et une description. Pour plus d’informations à ce sujet, consultez cette section dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#create-the-delivery){target="_blank"}.
 1. Cliquez sur **Continuer** pour valider ces informations et afficher la fenêtre de configuration du message.

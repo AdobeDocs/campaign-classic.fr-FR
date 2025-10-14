@@ -5,10 +5,10 @@ description: 'Cas pratique : configuration de la substitution des champs'
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Pour utiliser la substitution aléatoire des champs vous devez disposer :
 
 ## Création dʼune diffusion {#step-1---creating-a-delivery}
 
-Les étapes de création dʼune diffusion sont détaillées dans la section [Création dʼune diffusion e-mail](creating-an-email-delivery.md).
+Les étapes de création d&#39;une diffusion sont détaillées dans la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=fr){target="_blank"}.
 
 Dans cet exemple, la newsletter a été créée par le chargé de diffusion.
 
@@ -64,7 +64,7 @@ Pour que cette modification du schéma de données soit visible dans le **Formul
 
 1. Paramétrez votre liste de diffusion et vos adresses de contrôle. Consultez la section [Identification des populations cibles](steps-defining-the-target-population.md).
 
-   Dans cet exemple, l&#39;utilisateur choisit comme cible principale les clients dont le **genre littéraire préféré** est la Science-Fiction.
+   Dans cet exemple, vous choisissez comme population cible principale les clientes ou clients dont le **genre littéraire préféré** est la Science-Fiction.
 
    ![](assets/dlv_seeds_usecase_26.png)
 

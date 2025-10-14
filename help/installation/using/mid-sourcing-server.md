@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: b500b2cbf68fd46bd84ddbfa71cf9431c6b60060
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1062'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ L&#39;installation d&#39;un serveur de mid-sourcing est identique à celle d&#39
 
 >[!CAUTION]
 >
->Une fois le serveur de mid-sourcing configuré et les [workflows de synchronisation](../../workflow/using/about-technical-workflows.md) exécutés pour la première fois, veillez à ne pas mettre à jour le nom interne des comptes externes de mid-sourcing.
+>Une fois le serveur de mid-sourcing configuré et les [workflows de synchronisation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=fr){target="_blank"} exécutés pour la première fois, veillez à ne pas mettre à jour le nom interne des comptes externes de mid-sourcing.
 
 ## Etapes d&#39;installation et de configuration d&#39;une instance {#steps-for-installing-and-configuring-an-instance}
 

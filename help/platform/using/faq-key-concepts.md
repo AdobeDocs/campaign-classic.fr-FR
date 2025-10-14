@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 100%
+source-wordcount: '839'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,7 @@ Lisez [cette section](../../platform/using/adobe-campaign-workspace.md) pour en 
 
 Avec Adobe Campaign, vous pouvez utiliser différentes stratégies pour créer des audiences et sélectionner des destinataires cibles.
 
-[Pour en savoir plus, cliquez ici](../../delivery/using/steps-defining-the-target-population.md).
+Cliquez ici pour en savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#target-population){target="_blank"}.
 
 ## Qu’est-ce qu&#39;un workflow ?  {#what-is-a-workflow-}
 
@@ -79,7 +79,7 @@ Un workflow permet par exemple de télécharger un fichier depuis un serveur, de
 
 Un workflow peut également faire intervenir des opérateurs afin de notifier ou valider une opération ou faire un choix. Ainsi, il est possible de créer une action de diffusion, d&#39;assigner une tâche à un ou plusieurs opérateurs qui seront chargés de saisir son contenu ou spécifier sa cible, puis de faire valider le BAT avant de démarrer la diffusion.
 
-[Cliquez ici pour en savoir plus](../../workflow/using/about-workflows.md) sur les workflows. Vous pouvez également consulter les [bonnes pratiques en matière de workflow](../../workflow/using/building-a-workflow.md).
+[Cliquez ici pour en savoir plus](../../workflow/using/about-workflows.md) sur les workflows. Vous pouvez également consulter les bonnes pratiques relatives aux workflows dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=fr){target="_blank"}.
 
 ## Comment créer et envoyer un premier email ?  {#how-to-create-and-send-a-first-email-}
 
@@ -93,7 +93,7 @@ Découvrez comment configurer votre plateforme et envoyer des SMS dans [cette se
 
 ## Comment envoyer des notifications push ?  {#how-to-send-push-notifications-}
 
-Découvrez comment utiliser Adobe Campaign pour [envoyer une notification push personnalisée](../../delivery/using/create-notifications-ios.md) à des appareils iOS et Android via des applications.
+Découvrez comment utiliser Adobe Campaign pour envoyer une notification push personnalisée dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html){target="_blank"}.
 
 ## Comment concevoir et partager un questionnaire en ligne ?  {#how-to-design-and-share-an-online-survey-}
 

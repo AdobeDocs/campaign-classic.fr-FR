@@ -6,9 +6,9 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '656'
 ht-degree: 99%
 
 ---
@@ -54,7 +54,7 @@ Comment effectuer une mise à niveau vers un nouveau build ? Comment surveiller
         <ul>
         <li><a href="production/using/performance-and-throughput-issues.md">Problèmes de performance et de débit</a></li>
         <li><a href="delivery/using/delivery-performances.md">Performances des diffusions</a></li>
-        <li><a href="workflow/using/workflow-best-practices.md">Optimisation des performances des workflows</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=fr" target="_blank">Optimisation des performances des workflows</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">Dépannage de l’exécution d’un workflow</a></li>
         <li><a href="platform/using/sftp-server-usage.md">Utiliser le serveur SFTP</a></li>
         <li><a href="delivery/using/understanding-delivery-failures.md">Présentation des diffusions en échec</a></li>
@@ -62,14 +62,14 @@ Comment effectuer une mise à niveau vers un nouveau build ? Comment surveiller
     </td>
    <td valign="top">
         <ul>
-        <li><a href="workflow/using/workflow-best-practices.md">Bonnes pratiques relatives aux workflows</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=fr" target="_blank">Bonnes pratiques relatives aux workflows</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">Surveillance des workflows techniques</a></li>
         <li><a href="delivery/using/about-message-tracking.md">Présentation de la gestion du tracking</a></li>
         <li><a href="production/using/monitoring-guidelines.md">Découverte des outils de surveillance</a></li>
         <li><a href="platform/using/import-export-workflows.md">Import de données avec des workflows</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">Envoi des messages en plusieurs vagues</a></li>
         <li><a href="delivery/using/defining-the-email-content.md">Conception de contenu d’email</a></li>
-        <li><a href="delivery/using/delivery-best-practices.md">Bonnes pratiques relatives à la diffusion</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr" target="_blank">Bonnes pratiques relatives à la diffusion</a></li>
         </ul>
     </td>
     <td valign="top">

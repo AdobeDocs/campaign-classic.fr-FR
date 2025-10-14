@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
-workflow-type: ht
-source-wordcount: '1037'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1040'
+ht-degree: 99%
 
 ---
 
@@ -95,7 +95,7 @@ Sélectionnez l&#39;ordre de tri des colonnes.
 
 ## Etape 6 - Conditions de filtrage {#step-6---filter-conditions-}
 
-Vous pouvez ajouter des conditions de filtrage afin de ne pas exporter toutes les données. La configuration de ce filtrage correspond à celle du ciblage des destinataires dans l’assistant de diffusion. Pour plus d’informations, consultez [cette page](../../delivery/using/steps-defining-the-target-population.md).
+Vous pouvez ajouter des conditions de filtrage afin de ne pas exporter toutes les données. La configuration de ce filtrage correspond à celle du ciblage des destinataires dans l’assistant de diffusion. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#target-population){target="_blank"}.
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 

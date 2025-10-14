@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '3887'
-ht-degree: 100%
+source-wordcount: '3888'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Dans le cadre d’une initiative de promotion de Campaign v8, nous avons commen
 * Orchestrer des campagnes marketing : ce guide a été remplacé par une [page de destination](../../campaign/using/about-marketing-campaigns.md).
 * Marketing Resource Management : ce guide a été supprimé.
 * Marketing distribué : ce guide a été supprimé.
-* Automatisation avec des workflows : ce guide a été remplacé par une [page de destination](../../workflow/using/about-workflow-automation.md).
+* Automatisation avec des workflows : ce guide a été remplacé par une [page de destination](../../workflow/using/about-workflows.md).
 
 ## 2024
 
@@ -420,7 +420,7 @@ Des vidéos pratiques sont désormais disponibles concernant les rubriques suiva
 
 * [Comment personnaliser des emails à l’aide de champs de personnalisation](../../delivery/using/personalization-fields.md)
 
-* [Comment gérer l’adresse de contrôle et les BAT dans un email](../../delivery/using/steps-defining-the-target-population.md)
+* [Comment gérer l’adresse de contrôle et les BAT dans un e-mail](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#target-population){target="_blank"}.
 
 * [Configuration d’une diffusion récurrente](../../workflow/using/recurring-delivery.md)
 

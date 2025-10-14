@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '776'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '779'
+ht-degree: 98%
 
 ---
 
@@ -24,11 +24,11 @@ Les informations attachées au profil d’un destinataire peuvent être mises à
 
 ## Configurer une mise à jour automatique {#setting-up-an-automatic-update}
 
-Une mise à jour automatique peut être configurée via un workflow. Voir à ce propos [cette section](../../workflow/using/update-data.md).
+Une mise à jour automatique peut être configurée via un workflow. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}.
 
 ## Réaliser une mise à jour en masse {#performing-a-mass-update}
 
-Les mises à jour manuelles sont commandées à partir du menu de raccourci **[!UICONTROL Actions]** affiché à partir du bouton droit de la souris sur les personnes destinataires sélectionnées, ou à partir de l’icône **[!UICONTROL Actions]**.
+Pour effectuer des mises à jour manuelles, cliquez avec le bouton droit sur les personnes destinataires sélectionnées pour utiliser le menu de raccourci **[!UICONTROL Actions]** ou utilisez l’icône **[!UICONTROL Actions]**.
 
 ![](assets/s_ncs_user_action_icon.png)
 
@@ -40,7 +40,7 @@ Pour une mise à jour en masse, utilisez l’option **[!UICONTROL Action > Mett
 
 La première étape de l’assistant spéficie le ou les champs sur lesquels porte la mise à jour.
 
-La section gauche de l’assistant affiche la liste des champs disponibles. Utilisez le champ **[!UICONTROL Rechercher]** pour lancer une recherche parmi ces champs. Appuyez sur la touche **Entrée** pour parcourir la liste. Les libellés des champs qui correspondent à votre saisie apparaissent en gras, comme dans l&#39;exemple ci-dessous.
+La section gauche de l’assistant affiche la liste des champs disponibles. Utilisez le champ **[!UICONTROL Rechercher]** pour lancer une recherche parmi ces champs. Appuyez sur la touche **Entrée** pour parcourir la liste. Les noms de champ qui correspondent à votre saisie apparaissent en gras, comme dans l&#39;exemple ci-dessous.
 
 Double-cliquez sur le ou les champs à mettre à jour afin de les afficher dans la section droite de l’assistant.
 

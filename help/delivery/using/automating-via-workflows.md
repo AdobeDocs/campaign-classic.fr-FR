@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Workflows
 role: User
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 100%
+source-wordcount: '1213'
+ht-degree: 93%
 
 ---
 
@@ -101,7 +101,7 @@ Le contenu est complété automatiquement par un flux XML provenant de l&#39;URL
 </book>
 ```
 
-Le format de données ne correspond pas au schéma de données entré dans le modèle de publication (**cus:book** dans notre exemple) ; l’élément **`<section>`** doit être remplacé par l’élément **`<chapter>`**. Il est nécessaire d’appliquer la feuille de style « cus:book-workflow.xsl » pour apporter les modifications nécessaires.
+Le format des données ne correspond pas au schéma de données renseigné dans le modèle de publication (**cus:book** dans notre exemple) ; l&#39;élément **`<section>`** doit être remplacé par l&#39;élément **`<chapter>`**. Nous devons appliquer la feuille de style « cus:book-workflow.xsl » pour effectuer les modifications nécessaires.
 
 Code source de la feuille de style XSLT utilisée :
 
@@ -214,11 +214,13 @@ L&#39;action finale de l&#39;activité est de préparer et de lancer la diffusio
 
 ### Import du contenu depuis FTP {#importing-content-from-ftp}
 
-Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
+Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=fr){target="_blank"}.
+
 
 ### Import du contenu depuis le connecteur Amazon Simple Storage Service (S3) {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
-Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve dans des compartiments Amazon Simple Storage Service (S3), vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
+Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve dans des compartiments Amazon Simple Storage Service (S3), vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=fr){target="_blank"}.
+
 
 ## Mise à jour semi-automatique {#semi-automatic-update}
 
@@ -250,7 +252,7 @@ La méthode **GetAndTransform** doit être déclarée sous l’élément **`<ent
 
 La sortie met à jour le contenu à partir du chemin renseigné dans le dernier paramètre.
 
-**Exemple** : Pour illustrer cette fonctionnalité, nous partirons du schéma &quot;cus:livre&quot;.
+**Exemple** : Pour illustrer cette fonctionnalité, nous partirons du schéma « cus:book ».
 
 On ajoute dans le formulaire de saisie un contrôle d&#39;édition de mise à jour semi-automatique :
 
@@ -270,6 +272,6 @@ On ajoute dans le formulaire de saisie un contrôle d&#39;édition de mise à jo
 
 La zone d’édition vous permet de saisir le nom du fichier à récupérer. L’URL est construite en fonction de ce nom, par exemple : https://myserver.adobe.com/incomin/data.xml
 
-Le format des données à récupérer est le même que dans l&#39;exemple 1 de l&#39;automatisation des workflows. Nous utiliserons la feuille de style &quot;cus:livre-workflow.xsl&quot; vue dans cet exemple.
+Le format des données à récupérer est le même que dans l&#39;exemple 1 de l&#39;automatisation des workflows. Nous utiliserons la feuille de style « cus:book-workflow.xsl » vue dans cet exemple.
 
 Le résultat de l&#39;exécution du traitement met à jour l&#39;instance de contenu à partir du chemin &#39;.&#39;.

@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: A/B Testing
 role: User
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: '180'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Vous devez créer votre workflow dans l&#39;onglet **[!UICONTROL Ciblages et Workflows]** d&#39;une opération. Il est composé d&#39;une activité **[!UICONTROL Requête]**, d&#39;une activité **[!UICONTROL Partage]** à laquelle sont reliées deux activités **[!UICONTROL Diffusions e-mail]**, une activité **[!UICONTROL Attente]**, d&#39;une activité **[!UICONTROL Code JavaScript]** et une activité **[!UICONTROL Diffusion]**.
 
-1. Créez une opération si elle n&#39;existe pas déjà, (voir à ce sujet [cette section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).
+1. Si ce n’est pas déjà fait, créez une campagne. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
 
    ![](assets/use_case_abtesting_targetwkfl_001.png)
 
@@ -25,7 +25,7 @@ Vous devez créer votre workflow dans l&#39;onglet **[!UICONTROL Ciblages et Wor
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. Modifiez le libellé du workflow déjà existant ou cliquez sur **[!UICONTROL Ajouter]** pour en créer un (voir à ce sujet [cette section](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
+1. Modifiez le libellé du workflow existant ou cliquez sur **[!UICONTROL Ajouter]** pour en créer un (voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=fr){target="_blank"}.
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 

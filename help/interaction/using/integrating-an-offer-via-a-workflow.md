@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
-source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 100%
+source-wordcount: '1095'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ L&#39;activité de composition de diffusion, disponible dans les workflows de ca
 1. Dans un workflow, placez une activité de composition de diffusion avant une activité de diffusion.
 1. Dans l&#39;activité de composition, définissez la composition que vous souhaitez utiliser.
 
-   Pour plus d&#39;informations sur la définition des compositions de diffusion, consultez le guide [Campaign - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+   Pour plus d’informations sur la spécification des compositions de diffusion, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"}.
 
 1. Complétez les champs disponibles en fonction de votre diffusion.
 1. Deux cas se présentent :
@@ -55,7 +55,7 @@ L’activité d’enrichissement vous permet d’ajouter des offres ou des liens
 
 >[!NOTE]
 >
->Pour plus d’informations sur l’activité d’enrichissement, consultez la documentation dédiée dans le [Guide des Workflows](../../workflow/using/enrichment.md).
+>Pour plus d’informations sur l’activité d’enrichissement, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=fr){target="_blank"}.
 
 Vous pouvez par exemple enrichir les données d&#39;une requête sur les destinataires, avant une diffusion.
 
@@ -68,7 +68,7 @@ Deux méthodes permettent de définir des propositions d&#39;offre.
 
 ### Définir une offre ou un appel au moteur {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
-Après avoir paramétré votre requête (voir le [Guide des Workflows](../../workflow/using/query.md)) :
+Après avoir configuré votre requête (consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}) :
 
 1. Placez et ouvrez une activité d’enrichissement.
 1. Dans l&#39;onglet **[!UICONTROL Enrichissement]**, sélectionnez **[!UICONTROL Ajouter des données]**.

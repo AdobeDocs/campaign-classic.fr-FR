@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: ht
-source-wordcount: '1086'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1087'
+ht-degree: 98%
 
 ---
 
@@ -43,9 +43,9 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques ci-
 
 >[!NOTE]
 >
->* Vous pouvez surveiller le stockage de votre serveur SFTP avec le [panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=fr) de Campaign Classic{target="_blank"}.
+>* Vous pouvez surveiller l’espace de stockage de votre serveur SFTP avec le Panneau de Contrôle Campaign Classic [](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=fr){target="_blank"}.
 >
->* Le Panneau de contrôle est accessible à tous les utilisateurs administrateurs et utilisatrices administratrices. Les étapes permettant d’accorder un accès d’administration à un utilisateur ou à une utilisatrice sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel){target="_blank"}.
+>* Le Panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d&#39;octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel){target="_blank"}.
 >
 >* Notez que votre instance doit être mise à niveau avec la [dernière build GA](../../rn/using/rn-overview.md). Découvrez comment vérifier votre version dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}.
 
@@ -68,7 +68,7 @@ En outre, lors de la spécification dans Campaign Classic d’un chemin d’acc�
 
 ## Problèmes de connexion liés au serveur SFTP hébergé par Adobe {#sftp-server-troubleshooting}
 
-La section ci-après indique les informations à vérifier et à fournir à l’équipe de support d’Adobe via l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} lorsque vous rencontrez des problèmes de connexion liés aux serveurs SFTP hébergés par Adobe.
+La section ci-après indique les informations à vérifier et à fournir à l’équipe de support d’Adobe via l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} lorsque vous rencontrez des problèmes liés aux serveurs SFTP hébergés d’Adobe.
 
 1. Vérifiez que votre instance est en cours d’exécution. Pour cela, ouvrez votre navigateur, puis effectuez un appel **[!UICONTROL GET]** sur le point d’entrée **[!UICONTROL /r/test]** de l’instance :
 
@@ -132,7 +132,7 @@ Cette erreur indique que le nom de domaine du serveur FTP n&#39;a pas pu être r
 
 1. Résolution des problèmes liés aux **logs de session** :
 
-   1. Dans le workflow, double-cliquez sur l&#39;activité [Transfert de fichier](../../workflow/using/file-transfer.md).
+   1. Dans le workflow, double-cliquez sur l&#39;activité [Transfert de fichier](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
    1. Accédez à l’onglet **[!UICONTROL Transfert de fichier]**, puis cliquez sur **[!UICONTROL Paramètres avancés]**.
    1. Cochez l’option **[!UICONTROL Afficher les logs de la session]**.
 

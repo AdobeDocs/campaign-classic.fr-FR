@@ -4,10 +4,10 @@ title: Protection de la confidentialité des e-mails dans l’application Mail d
 feature: Technote, Privacy, Privacy Tools
 description: Découvrez comment vos campagnes peuvent être affectées par la fonction de protection de la confidentialité dans Mail d’Apple.
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '2105'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe Campaign permet d’utiliser les pixels de tracking pour suivre les ouver
 
 La nouvelle fonctionnalité mise en place par Apple est un indicateur des évolutions à venir du secteur en ce qui concerne la protection de la confidentialité des e-mails. Nous vous invitons fortement à suivre les recommandations d’Adobe.
 
-### Évaluation de l’incidence sur vos triggers de campagne
+### Évaluation de l’incidence sur vos déclencheurs de campagne
 
-Évaluez l’incidence de ces modifications sur vos triggers de campagne actuels. Identifiez les workflows dans lesquels les ouvertures d’e-mails sont utilisées comme critère de segmentation, de ciblage ou de reciblage. Lisez les [conseils et astuces](#find-email-open-tracking).
+Évaluez l’incidence de ces modifications sur vos déclencheurs de campagne actuels. Identifiez les workflows dans lesquels les ouvertures d’e-mails sont utilisées comme critère de segmentation, de ciblage ou de reciblage. Lisez les [conseils et astuces](#find-email-open-tracking).
 
 ### Conservation de vos données
 
@@ -40,7 +40,7 @@ Préservez vos données et consolidez vos connaissances actuelles sur les appare
 Archivez vos logs de tracking au-delà de la période de conservation d’Adobe Campaign :
 
 1. Vérifiez la durée de la période de conservation dans votre instance de campagne.
-1. Vérifiez à nouveau vos principaux mappings de ciblage. Déterminez si vous utilisez des tables de profils personnalisés en plus de la table des profils d’usine (`nmsRecipient`).
+1. Vérifiez à nouveau vos mappings de ciblage actifs. Déterminez si vous utilisez des tables de profils personnalisés en plus de la table des profils d’usine (`nmsRecipient`).
 1. Exportez vos logs de tracking depuis Adobe Campaign. Incluez les logs qui contiennent des données sur l’agent utilisateur et le système d’exploitation.
 
 ### Évaluation de la tendance actuelle des taux d’ouverture
@@ -52,7 +52,7 @@ Grâce à cette évaluation, vous pouvez identifier les anomalies potentielles e
 
 Surtout, nous vous recommandons vivement de réévaluer de manière proactive votre stratégie de campagne et vos mesures de performances de campagne. Vous pouvez rediriger votre attention sur des mesures plus fiables, comme les clics publicitaires, les consultations de produits et les achats.
 
-Nous vous recommandons d’explorer les données actuellement disponibles et d’évaluer la corrélation entre les taux d’ouverture et d’autres mesures. Si la corrélation de ces mesures est cohérente, vous pouvez améliorer vos triggers avec un degré de confiance élevé.
+Nous vous recommandons d’explorer les données actuellement disponibles et d’évaluer la corrélation entre les taux d’ouverture et d’autres mesures. Si la corrélation de ces mesures est cohérente, vous pouvez améliorer vos déclencheurs avec un degré de confiance élevé.
 
 ## Conseils et astuces
 
@@ -94,7 +94,7 @@ Dans cet exemple, un spécialiste marketing souhaite envoyer une offre de récom
 
   ![](assets/identify-email-open-tracking-2.png)
 
-* Vous pouvez utiliser un filtre prédéfini. [En savoir plus](../../workflow/using/creating-a-filter.md).
+* Vous pouvez utiliser un filtre prédéfini. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=fr){target="_blank"}.
 
   ![](assets/identify-email-open-tracking-3.png)
 

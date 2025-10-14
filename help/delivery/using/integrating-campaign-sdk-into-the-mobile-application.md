@@ -7,10 +7,10 @@ role: User, Developer
 hide: true
 hidefromtoc: true
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 100%
+source-wordcount: '985'
+ht-degree: 98%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Adobe recommande vivement d’utiliser le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données. Le SDK mobile Adobe Experience Platform permet d’optimiser les solutions et services Experience Cloud d’Adobe dans vos applications mobiles. La configuration des SDK s’effectue dans l’interface utilisateur de collecte de données, qui offre des options de configuration flexibles et des intégrations extensibles basées sur des règles. [En savoir plus dans la documentation Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+>Adobe recommande vivement d’utiliser le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données. Le SDK mobile Adobe Experience Platform permet d’optimiser les solutions et services Experience Cloud d’Adobe dans vos applications mobiles. La configuration des SDK s’effectue dans l’interface utilisateur de collecte de données, qui offre des options de configuration flexibles et des intégrations extensibles basées sur des règles. [En savoir plus dans la documentation Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
-Pour obtenir le SDK Campaign (anciennement connu sous le nom de SDK Neolane), contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+Pour obtenir le SDK Campaign (anciennement connu sous le nom de SDK Neolane), contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 Pour plus d’informations sur les différentes versions Android et iOS prises en charge, consultez la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#MobileSDK).
 
@@ -64,7 +64,7 @@ Afin d&#39;intégrer le SDK Campaign dans l&#39;application mobile, l&#39;admini
 
   >[!NOTE]
   >
-  >Cette clé d&#39;intégration est renseignée dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Informations]** du service dédié à l&#39;application mobile. Pour plus d&#39;informations, consultez la section [Paramétrage de l’application mobile dans Adobe Campaign](configuring-the-mobile-application.md).
+  >Cette clé d&#39;intégration est renseignée dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Informations]** du service dédié à l&#39;application mobile. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}.
 
 * **Une URL de tracking** correspondant à l&#39;adresse du serveur de tracking Adobe Campaign.
 * **Une URL marketing** permettant de collecter les abonnements.

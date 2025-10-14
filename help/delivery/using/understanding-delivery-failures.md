@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 100%
+source-wordcount: '2629'
+ht-degree: 99%
 
 ---
 
@@ -188,9 +188,9 @@ Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est tempora
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md), les paramètres de reprise de la diffusion ne sont plus utilisés par Campaign. Les reprises des rebonds temporaires et l’intervalle qui les sépare sont déterminés par le MTA amélioré en fonction du type et de la gravité des réponses des rebonds provenant du domaine de messagerie du message.
 
-Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et spécifiez la durée souhaitée dans le champ correspondant pour modifier la durée d&#39;une diffusion. Voir [Définition de la période de validité](steps-sending-the-delivery.md#defining-validity-period).
+Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et spécifiez la durée souhaitée dans le champ correspondant pour modifier la durée d&#39;une diffusion. Voir cette [page](communication-channels.md) sous **Envoi de diffusion** > **Définir la période de validité**.
 
-Le paramétrage par défaut prévoit cinq reprises séparées d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l’administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion. Consultez la section [Configuration des reprises](steps-sending-the-delivery.md#configuring-retries).
+Le paramétrage par défaut prévoit cinq reprises séparées d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l’administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion. Voir cette [page](communication-channels.md) sous **Envoi de diffusion** > **Configurer les reprises**.
 
 ## Erreurs synchrones et asynchrones {#synchronous-and-asynchronous-errors}
 
@@ -203,7 +203,7 @@ Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après 
   >
   >Le paramétrage de la boîte des mails rebonds est décrit dans [cette section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-  La [boucle de rétroaction](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#feedback-loops) fonctionne comme les e-mails rejetés. Lorsqu’un utilisateur qualifie un e-mail de spam, vous pouvez configurer des règles d’e-mail dans Adobe Campaign pour bloquer toutes les diffusions à cet utilisateur. Les messages envoyés à des utilisateurs qui ont qualifié un e-mail comme spam sont automatiquement redirigés vers une boîte de réception spécialement créée à cet effet. Les adresses de ces utilisateurs figurent sur la liste bloquée même s&#39;ils n&#39;ont pas cliqué sur le lien de désinscription. Les adresses figurent sur la liste bloquée de la table des quarantaines (**NmsAddress**) et non de la table des destinataires (**NmsRecipient**).
+  Le [système de feedback](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#feedback-loops) fonctionne comme les e-mails rejetés. Lorsqu’un utilisateur ou une utilisatrice qualifie un e-mail de spam, vous pouvez configurer des règles d’e-mail dans Adobe Campaign pour bloquer toutes les diffusions vers cette personne. Les messages envoyés à des personnes qui ont qualifié un e-mail comme spam sont automatiquement redirigés vers une boîte de réception spécialement créée à cet effet. Les adresses de ces utilisateurs figurent sur la liste bloquée même s&#39;ils n&#39;ont pas cliqué sur le lien de désinscription. Les adresses figurent sur la liste bloquée de la table des quarantaines (**NmsAddress**) et non de la table des destinataires (**NmsRecipient**).
 
   >[!NOTE]
   >
@@ -281,7 +281,7 @@ Les règles par défaut sont les suivantes.
 
 >[!IMPORTANT]
 >
->* Le serveur de diffusion (MTA) doit être relancé si les paramètres sont modifiés.
+>* Le serveur de diffusion (MTA) doit être redémarré si les paramètres sont modifiés.
 >* La modification ou la création de règles de gestion est réservée à des utilisateurs experts.
 
 #### Mail entrant {#inbound-email}

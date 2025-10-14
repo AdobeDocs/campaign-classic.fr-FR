@@ -8,10 +8,10 @@ content-type: reference
 level: Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '509'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Vous pouvez interroger la base de données Campaign grâce au requêteur génér
 
 Les requêtes sont créées soit avec les champs disponibles de la table sélectionnée, soit à l&#39;aide d&#39;une formule. Les principes de base pour créer une requête sur la base de données Campaign sont présentés [dans cette page](../../platform/using/about-queries-in-campaign.md).
 
-[Cliquez ici](../../workflow/using/query.md) pour découvrir le requêteur de Campaign.
+Découvrez les requêtes dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
 
 ## Comment importer un package de données ?  {#how-can-i-import-a-data-package-}
 

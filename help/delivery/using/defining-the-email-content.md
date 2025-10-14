@@ -8,10 +8,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '2032'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '2035'
+ht-degree: 99%
 
 ---
 
@@ -94,7 +94,7 @@ Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préfére
   >
   >L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](about-personalization.md).
 
-  Les onglets en bas de page permettent d&#39;afficher le code HTML associé à la page en cours de création et de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** et sélectionnez un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d&#39;outils. Vous pouvez sélectionner un destinataire parmi la ou les cibles définies ou choisir un autre destinataire.
+  Les onglets en bas de page permettent d’afficher le code HTML associé à la page en cours de création et de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** et sélectionnez un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d&#39;outils. Vous pouvez sélectionner un destinataire parmi la ou les cibles définies ou choisir un autre destinataire.
 
   ![](assets/s_ncs_user_wizard_email01_139.png)
 
@@ -115,7 +115,7 @@ Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préfére
 
 Adobe Campaign permet de tester le nouveau format interactif [AMP for email](https://amp.dev/fr/about/email/) qui sert, sous certaines conditions, à envoyer des emails dynamiques.
 
-Voir à ce propos [cette section](defining-interactive-content.md).
+Pour plus d’informations à ce sujet, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=fr){target="_blank"}.
 
 ## Utiliser la gestion de contenu {#using-content-management}
 

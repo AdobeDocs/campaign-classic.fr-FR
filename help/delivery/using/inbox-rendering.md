@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Inbox rendering dans Campaign
-description: Découvrez comment capturer les rendus d'email et y accéder dans un rapport dédié
+description: Découvrez comment capturer les rendus des e-mails et y accéder dans un rapport dédié
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 9b93603a076b007d66aad52b05e560e17e316eeb
-workflow-type: ht
-source-wordcount: '887'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '896'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Les clients mobiles, de messagerie et webmail disponibles pour l&#39;**Inbox ren
 
 >[!NOTE]
 >
->L&#39;Inbox rendering n&#39;est pas nécessaire pour tester les personnalisations dans les diffusions. Celles-ci peuvent être vérifiées à l&#39;aide des outils d&#39;Adobe Campaign tels que l&#39;**[!UICONTROL aperçu]** et les [bons à tirer](steps-validating-the-delivery.md#sending-a-proof).
+>L&#39;Inbox rendering n&#39;est pas nécessaire pour tester les personnalisations dans les diffusions. Personalization peut être vérifié à l’aide des outils d’Adobe Campaign tels que **[!UICONTROL Aperçu]** et les BAT. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 ## Activation de l&#39;Inbox rendering{#activating-inbox-rendering}
 
@@ -107,7 +107,7 @@ Pour plus d&#39;informations sur la conception et le ciblage d&#39;une diffusion
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   Un bon à tirer est envoyé. Les vignettes de rendu sont accessibles dans ce BAT quelques minutes après l&#39;envoi des e-mails. Pour plus d&#39;informations sur l&#39;envoi de BAT, consultez[cette section](steps-validating-the-delivery.md#sending-a-proof).
+   Un bon à tirer est envoyé. Les vignettes de rendu sont accessibles dans ce BAT quelques minutes après l&#39;envoi des e-mails. Pour plus d’informations sur l’envoi de BAT, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 1. Une fois envoyé, le BAT apparaît dans la liste de diffusion. Double-cliquez dessus.
 

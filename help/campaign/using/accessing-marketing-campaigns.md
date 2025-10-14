@@ -7,10 +7,10 @@ feature: Campaigns, Cross Channel Orchestration
 hide: true
 hidefromtoc: true
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
-source-wordcount: '1217'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1220'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ Le bloc de **[!UICONTROL Navigation]** de l&#39;onglet **[!UICONTROL Campagnes]*
 >
 >L&#39;ergonomie générale de la console Adobe Campaign, ainsi que les autorisations et les fonctionnalités de gestion des profils, sont présentées dans [cette section](../../platform/using/adobe-campaign-workspace.md).
 >
->Les fonctionnalités relatives aux canaux et aux diffusions sont présentées dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+>Toutes les fonctionnalités relatives aux canaux et aux diffusions sont présentées dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
 ### Calendrier des campagnes {#campaign-calendar}
 
@@ -71,13 +71,13 @@ Grâce à Campaign, vous pouvez gérer un ensemble de programmes composés de di
 
 Lorsque vous éditez un programme, utilisez les onglets présentés ci-dessous pour naviguer et le paramétrer.
 
-* L&#39;onglet **Planning** affiche le calendrier du programme sur un mois, une semaine ou une journée selon l&#39;onglet sélectionné dans l&#39;en-tête du calendrier.
+* L’onglet **Planning** affiche le calendrier du programme sur un mois, une semaine ou une journée selon l’onglet sur lequel vous avez cliqué dans l’en-tête du calendrier. 
 
   Au besoin, vous pouvez créer une opération, un programme ou une tâche depuis cette vue.
 
   ![](assets/s_ncs_user_interface_campaign02.png)
 
-* L&#39;onglet **Edition** vous permet de modifier le programme : son nom, ses dates de début et fin, son budget, ses documents associés, etc.
+* L’onglet **Modifier** vous permet de modifier le programme : son nom, ses dates de début et fin, son budget, ses documents associés, etc.
 
   ![](assets/s_ncs_user_interface_campaign05.png)
 
@@ -150,7 +150,7 @@ Les campagnes sont créées à partir de modèles de campagne : vous pouvez par
 
 >[!NOTE]
 >
->Vous pouvez accéder aux paramétrages de la campagne, et, au besoin, les modifier, à partir du lien **[!UICONTROL Paramètres avancés de la campagne...]** disponible dans l’onglet **[!UICONTROL Edition.]**
+>Pour accéder aux configurations de la campagne et y apporter des modifications, cliquez sur le lien **[!UICONTROL Paramètres avancés de la campagne…]** dans l’onglet **[!UICONTROL Edition]**.
 
 ## Utiliser l&#39;interface web {#using-the-web-interface-}
 
@@ -180,7 +180,7 @@ Ce tableau résume les actions que vous pouvez effectuer sur les campagnes à pa
 | Offre | Valider le contenu et l’éligibilité de l’offre<br/>Désactiver une offre en ligne |
 | Tâche | Terminer une tâche<br/>Annuler une tâche |
 | Ressource marketing | Approuver une ressource<br/>Verrouiller et déverrouiller une ressource |
-| Package de campagnes | Soumettre un package pour validation<br/>Valider ou refuser un package<br/>Annuler un package |
+| Kits de campagne | Soumettre un package pour validation<br/>Valider ou refuser un package<br/>Annuler un package |
 | Commande de campagne | Créer une commande<br/>Accepter ou refuser une commande <!-- Je n'ai pas pu créer de campaign order pour vérifier cela. Peut-on accéder à ces fonctionnalités depuis l'accès web ? --> |
 | Stock | Supprimer des données de stock |
 | Simulation d’offres | Démarrer et arrêter une simulation |

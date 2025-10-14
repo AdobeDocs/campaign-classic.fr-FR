@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Prise en main des messages transactionnels
+title: Commencer avec les messages transactionnels
 description: En savoir plus sur le principe de fonctionnement et les étapes clés des messages transactionnels Adobe Campaign Classic
 feature: Transactional Messaging, Message Center
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '645'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## Vue d&#39;ensemble {#overview}
 
-**Messages transactionnels** (Message Center) est un module de Campaign conçu pour gérer les notifications de trigger personnalisées générées à partir d&#39;événements envoyés par un système d&#39;informations externe.
+**Messages transactionnels** (Message Center) est un module de Campaign conçu pour gérer les notifications de déclenchement personnalisées générées à partir d’événements envoyés par un système d’informations externe.
 
 Un message transactionnel est une communication individuelle et unique envoyée en temps réel à un utilisateur par un prestataire tel qu&#39;un site web. Il est particulièrement attendu, car il contient des informations importantes que le destinataire souhaite vérifier ou confirmer.
 
@@ -88,6 +88,6 @@ Une fois que vous avez conçu et publié le modèle de message transactionnel, s
 ## Rubriques connexes : {#related-topics}
 
 * [Prise en main des canaux de communication](../../delivery/using/communication-channels.md)
-* [Étapes clés de création de diffusion](../../delivery/using/steps-about-delivery-creation-steps.md)
+* [Étapes clés de création de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
 * [Architecture des messages transactionnels](../../message-center/using/transactional-messaging-architecture.md)
 * [Accès aux rapports des messages transactionnels](../../message-center/using/about-transactional-messaging-reports.md)

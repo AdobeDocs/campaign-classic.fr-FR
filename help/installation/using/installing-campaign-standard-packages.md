@@ -5,10 +5,10 @@ description: Découvrez comment installer les packages natifs de Campaign
 feature: Installation, Application Settings
 badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '1299'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1305'
+ht-degree: 99%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 
 
-## À propos des packages standard {#campaign-standard-packages}
+## À propos des packages natifs {#campaign-standard-packages}
 
-Les packages standard contiennent un ensemble de fonctionnalités qui peuvent être installées selon vos besoins et selon votre contrat. La liste complète des packages standard de Campaign est disponible ci-dessous.
+Les packages natifs contiennent un ensemble de fonctionnalités qui peuvent être installées selon vos besoins et selon votre contrat. La liste complète des packages natifs de Campaign est disponible ci-dessous.
 
 >[!CAUTION]
 >
@@ -40,7 +40,7 @@ Pour installer un package intégré :
    >Lorsqu&#39;un package est grisé, cela signifie qu&#39;il est déjà installé ou qu&#39;il n&#39;est pas compatible avec votre instance. La compatibilité est détaillée dans le tableau ci-dessous.
 1. Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour commencer l&#39;installation du package.
 
-   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les journaux de l&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
+   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les logs de l&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
 
 1. **[!UICONTROL Fermez]** la fenêtre d&#39;installation.
 
@@ -48,7 +48,7 @@ Les packages sont à présent installés.
 
 ### Liste des packages prêts à l&#39;emploi {#list-of-standard-packages}
 
-Le tableau ci-après répertorie tous les packages standard de Campaign.
+Le tableau ci-après répertorie tous les packages natifs de Campaign.
 
 <table> 
  <thead> 
@@ -66,12 +66,12 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Campagnes marketing (Campaign)<br /> </td> 
-   <td> Définit, optimise, exécute et analyse les campagnes de communication et de marketing. <a href="../../campaign/using/designing-marketing-campaigns.md">En savoir plus</a><br /> </td> 
+   <td> Définit, optimise, exécute et analyse les campagnes de communication et de marketing. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=fr" target="_blank">En savoir plus</a><br /> </td> 
    <td> Marketing</td>
   </tr> 
   <tr> 
    <td> Ressources marketing (MRM)<br /> </td> 
-   <td> Contrôle les actions marketing en mode collaboratif en assurant la gestion et le suivi des tâches, des budgets et des ressources marketing. <a href="../../mrm/using/about-marketing-resource-management.md">En savoir plus</a> <br /> </td> 
+   <td> Contrôle les actions marketing en mode collaboratif en assurant la gestion et le suivi des tâches, des budgets et des ressources marketing. <a href="https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=fr" target="_blank">En savoir plus</a> <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
@@ -157,12 +157,12 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Accès aux données externes (Federated Data Access)<br /> </td> 
-   <td> Propose l’option Federated Data Access (FDA) afin d’exploiter des informations stockées dans une ou plusieurs bases de données externes : vous pouvez accéder à des données externes sans modifier la structure des données d’Adobe Campaign.  Facultatif. <a href="../../workflow/using/accessing-an-external-database-fda.md">En savoir plus</a> <br /> </td> 
+   <td> Propose l’option Federated Data Access (FDA) afin d’exploiter des informations stockées dans une ou plusieurs bases de données externes : vous pouvez accéder à des données externes sans modifier la structure des données d’Adobe Campaign.  Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">En savoir plus</a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation des campagnes<br /> </td> 
-   <td> Contrôle, filtre et surveille l'envoi des diffusions afin que les messages envoyés répondent le mieux aux besoins et aux attentes des clients, conformément aux politiques de communication de l'entreprise. Facultatif. <a href="../../campaign-opt/using/about-campaign-typologies.md">En savoir plus </a> <br /> </td> 
+   <td> Contrôle, filtre et surveille l'envoi des diffusions afin que les messages envoyés répondent le mieux aux besoins et aux attentes des clients, conformément aux politiques de communication de l'entreprise. Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr" target="_blank">En savoir plus </a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -182,7 +182,7 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Marketing central/local (Marketing distribué)<br /> </td> 
-   <td> Met en œuvre les campagnes de coopération entre entités centrales (sièges sociaux, services marketing, etc.) et entités locales (magasins, agences régionales, etc.). Facultatif. <a href="../../distributed/using/about-distributed-marketing.md">En savoir plus</a><br /> </td> 
+   <td> Met en œuvre les campagnes de coopération entre entités centrales (sièges sociaux, services marketing, etc.) et entités locales (magasins, agences régionales, etc.). Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr" target="_blank">En savoir plus</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
@@ -227,7 +227,7 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Assistance AMP<br /> </td> 
-   <td> Permet d'utiliser le nouveau format interactif AMP pour email et d'envoyer des emails dynamiques. Facultatif. <a href="../../delivery/using/defining-interactive-content.md">En savoir plus</a> <br /> </td> 
+   <td> Permet d’utiliser le nouveau format interactif AMP pour e-mail et d’envoyer des emails dynamiques. Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=fr" target="_blank">En savoir plus</a> <br /> </td> 
    <td> Tous </td> 
   </tr> 
   <tr> 

@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
-source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '668'
+ht-degree: 91%
 
 ---
 
@@ -24,9 +24,9 @@ La section ci-dessous présente des informations sur les problèmes courants li�
 Pour plus d&#39;informations sur les workflows, consultez les sections suivantes :
 
 * [À propos des workflows](../../workflow/using/about-workflows.md)
-* [Démarrer un workflow](../../workflow/using/starting-a-workflow.md)
-* [Cycle de vie d&#39;un workflow](../../workflow/using/workflow-life-cycle.md)
-* [Bonnes pratiques relatives à l’utilisation des workflows](../../workflow/using/workflow-best-practices.md)
+* [Démarrage d’un workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=fr){target="_blank"}.
+* [Cycle de vie d&#39;un workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=fr){target="_blank"}.
+* [Bonnes pratiques relatives à l’utilisation des workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=fr){target="_blank"}.
 
 ## Démarrage dès que possible dans les campagnes {#start-as-soon-as-possible-in-campaigns}
 
@@ -34,9 +34,9 @@ Dans certains cas, les workflows exécutés à partir d’une campagne ne commen
 
 Il peut y avoir plusieurs causes à ce problème. Procédez comme suit pour le résoudre :
 
-1. Vérifiez le statut du workflow technique [**[!UICONTROL operationMgt]**](../../workflow/using/about-technical-workflows.md). Ce processus gère les traitements ou les workflows au sein d’une campagne. En cas d’échec, les workflows ne démarrent pas / ne s’arrêtent pas. Redémarrez-le pour reprendre l’exécution des workflows de campagne.
+1. Vérifiez le statut du workflow technique [**[!UICONTROL operationMgt ]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=fr){target="_blank"}. Ce processus gère les traitements ou les workflows au sein d’une campagne. En cas d’échec, les workflows ne démarrent pas / ne s’arrêtent pas. Redémarrez-le pour reprendre l’exécution des workflows de campagne.
 
-   Pour en savoir plus sur la surveillance des workflows techniques, consultez [cette page](../../workflow/using/monitoring-technical-workflows.md).
+   Pour plus d’informations sur la surveillance des workflows techniques, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=fr){target="_blank"}.
 
    >[!NOTE]
    >
@@ -67,19 +67,19 @@ Il peut y avoir plusieurs causes à ce problème. Procédez comme suit pour le r
    >Remplacez **`<instance-name>`** par le nom de votre instance (production, développement, etc.). Le nom de l’instance est identifié via les fichiers de configuration :
    >`[path of application]nl6/conf/config-<instance-name>.xml`
 
-   Pour plus d&#39;informations sur le redémarrage des modules, consultez [cette section](../../production/using/usual-commands.md#module-launch-commands).
+   Pour plus dinformations sur le redémarrage des modules, consultez [cette section](../../production/using/usual-commands.md#module-launch-commands).
 
 1. Vérifiez si le **nombre de processus de campagne en cours d’excution** sur l’instance est supérieur au seuil. Une limite est définie par l&#39;option [**[!UICONTROL NmsOperation_LimitConcurrency]**](../../installation/using/configuring-campaign-options.md#campaign-e-workflow-management) concernant le nombre de workflows de campagne pouvant être exécutés sur l&#39;instance en parallèle. Lorsque cette limite est atteinte, le workflow reste à l’état « Démarrage dès que possible » tant que le nombre de workflows en cours d’exécution est supérieur à la limite.
 
    Pour résoudre ce problème, arrêtez les workflows indésirables et supprimez les diffusions en échec. Si le seuil a été atteint, cela permettra l’exécution de nouveaux processus.
 
-   Pour vérifier le nombre de workflows en cours d’exécution de votre instance, nous vous recommandons d’utiliser les vues prédéfinies, accessibles par défaut dans le dossier **[!UICONTROL Administration]** / **[!UICONTROL Audit]**. Pour plus d’informations, consultez [cette page](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
+   Pour vérifier le nombre de workflows en cours d’exécution de votre instance, nous vous recommandons d’utiliser les vues prédéfinies, accessibles par défaut dans le dossier **[!UICONTROL Administration]** / **[!UICONTROL Audit]**. Pour plus d’informations, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
 
    >[!IMPORTANT]
    >
    >L’augmentation du seuil de l’option **[!UICONTROL NmsOperation_LimitConcurrency]** peut entraîner des problèmes de performances sur votre instance. Dans tous les cas, n’effectuez pas cette opération vous-même et communiquez avec votre contact Adobe Campaign.
 
-Pour plus d’informations sur la manière de surveiller vos workflows, consultez [cette section](../../workflow/using/monitoring-workflow-execution.md).
+Pour plus d’informations sur la manière de surveiller vos workflows, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
 
 ## Démarrage en cours {#start-in-progress}
 
@@ -112,12 +112,12 @@ Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
    >Remplacez **`<instance-name>`** par le nom de votre instance (production, développement, etc.). Le nom de l’instance est identifié via les fichiers de configuration :
    >`[path of application]nl6/conf/config-<instance-name>.xml`
 
-   Pour plus d&#39;informations sur le redémarrage des modules, consultez [cette section](../../production/using/usual-commands.md#module-launch-commands).
+   Pour plus dinformations sur le redémarrage des modules, consultez [cette section](../../production/using/usual-commands.md#module-launch-commands).
 
 ## Workflow en échec {#failed-workflow}
 
 Si un workflow est en échec, procédez comme suit :
 
-1. Vérifiez le journal du workflow. Voir à ce propos les sections [Suivre l&#39;exécution des workflows](../../workflow/using/monitoring-workflow-execution.md) et [Afficher les logs](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
-1. Effectuez un suivi des workflows techniques. Voir à ce propos [cette section](../../workflow/using/monitoring-technical-workflows.md).
+1. Vérifiez le journal du workflow. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
+1. Effectuez un suivi des workflows techniques. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=fr){target="_blank"}.
 1. Recherchez des échecs dans chaque activité du workflow.

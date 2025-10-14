@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '3161'
-ht-degree: 100%
+source-wordcount: '3163'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ Le débit d&#39;une ou de plusieurs instances Adobe Campaign peut être contrô
 
 Le débit des messages doit être contrôlé pour chacune des adresses IP utilisées par les serveurs de diffusion (**mta**) pour l&#39;envoi des emails. Plusieurs **mta** repartis sur plusieurs machines et appartenant à différentes instances Adobe Campaign peuvent partager les mêmes adresses IP pour l&#39;envoi d&#39;emails : il est donc nécessaire qu&#39;un processus coordonne l&#39;utilisation de ces adresses IP.
 
-C&#39;est la fonction du module **stat** : il fédère toutes les demandes d&#39;ouvertures de connexions et d&#39;envois de messages vers les serveurs de messagerie pour un ensemble d&#39;adresses IP. Le serveur de statistiques maintient ainsi le compte des envois et peut autoriser ou refuser les envois dans le temps en fonction des quotas définis.
+Il s’agit de la fonction du module **stat** : il fédère toutes les demandes d’ouvertures de connexions et d’envois de messages vers les serveurs de messagerie pour un ensemble d’adresses IP. Le serveur de statistiques maintient ainsi le compte des diffusion et peut activer ou désactiver les envois dans le temps en fonction des quotas définis.
 
 ![](assets/s_ncs_install_mta.png)
 
@@ -109,7 +109,7 @@ Le **mta** décide de l&#39;action à suivre pour ce message (reprise, abandon, 
 
 ### Mise en attente d&#39;un message {#message-pending}
 
-Un message est mis en attente lorsqu&#39;il arrive dans la file active mais qu&#39;il n&#39;y a actuellement aucun chemin disponible.
+Un message est mis en attente lorsqu’il arrive dans la file active mais qu’il n’existe actuellement aucun chemin disponible.
 
 Un chemin est généralement marqué non disponible pour une durée variable après une erreur de connexion. La durée d&#39;indisponibilité d&#39;un chemin dépend de la fréquence et de l&#39;ancienneté des erreurs.
 
@@ -117,7 +117,7 @@ Un chemin est généralement marqué non disponible pour une durée variable apr
 
 Le serveur de statistiques peut être utilisé par plusieurs instances : il doit être configuré indépendamment des instances qui vont l&#39;utiliser.
 
-Vous devez d&#39;abord définir la base de données Adobe Campaign qui hébergera la configuration.
+Vous devez d’abord définir la base de données Adobe Campaign qui hébergera la configuration.
 
 ### Configuration de démarrage {#start-configuration}
 
@@ -192,7 +192,7 @@ user:~ user$ host -t a mta6.am0.yahoodns.net
                 mta6.am0.yahoodns.net has address 66.196.118.33
 ```
 
-Quatre de ces huit adresses IP sont déjà utilisées en mta5 (98.136.216.26, 98.138.112.38, 63.250.192.46 et 98.136.217.203). Cet enregistrement permet à l&#39;utilisateur d&#39;utiliser quatre nouvelles adresses IP. Le troisième enregistrement MX aussi.
+4 de ces 8 adresses IP sont déjà utilisées dans le mta5 (98.136.216.26, 98.138.112.38, 63.250.192.46 et 98.136.217.203). Cet enregistrement permet à l&#39;utilisateur d&#39;utiliser quatre nouvelles adresses IP. Le troisième enregistrement MX aussi.
 
 Au total, l&#39;utilisateur dispose de seize adresses distantes. Avec ses deux adresses IP publiques, il obtient un total de trente-deux chemins pour accéder aux serveurs email de yahoo.com.
 
@@ -231,7 +231,7 @@ Pour recharger la configuration sans redémarrer le serveur de statistiques, uti
 
 >[!NOTE]
 >
->Cette ligne de commande est préférée à **nlserver restart**. Elle empêche la perte des statistiques collectées avant le redémarrage et permet d&#39;éviter des pics d&#39;utilisation qui pourraient aller à l&#39;encontre des quotas définis dans les règles MX.
+>Cette ligne de commande est préférée à **nlserver restart**. Elle empêche la perte des statistiques collectées avant le redémarrage et permet déviter des pics dutilisation qui pourraient aller à lencontre des quotas définis dans les règles MX.
 
 ### Configuration des règles MX {#configuring-mx-rules}
 
@@ -316,7 +316,7 @@ Il est possible de définir le format des messages envoyés, de sorte que l&#39;
 
 Pour cela, accédez au document **[!UICONTROL Gestion des formats des emails]** du dossier **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Gestion de NP@I]** > **[!UICONTROL Jeux de règles mail]** de l&#39;arborescence.
 
-Ce document contient notamment une liste de domaines prédéfinis correspondant aux formats japonais gérés par Adobe Campaign. Pour plus d&#39;informations, consultez [ce document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+Ce document contient notamment une liste de domaines prédéfinis correspondant aux formats japonais gérés par Adobe Campaign. Pour plus d’informations, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=fr){target="_blank"}.
 
 ![](assets/mail_rule_sets.png)
 
@@ -331,7 +331,7 @@ Le paramètre **Structure MIME** (Multipurpose Internet Mail Extensions) permet 
 
 Si l&#39;option **[!UICONTROL Inclusion des images]** est activée, celles-ci s&#39;affichent directement dans le corps de l&#39;email. Les images sont alors téléchargées et les liens URL remplacés par leur contenu.
 
-Cette option est notamment utilisée par le marché japonais pour les emails au format **Deco-mail**, **Decore Mail** ou **Decoration Mail**. Pour plus d&#39;informations, consultez [ce document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+Cette option est notamment utilisée par le marché japonais pour les emails au format **Deco-mail**, **Decore Mail** ou **Decoration Mail**. Pour plus d’informations, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=fr){target="_blank"}.
 
 >[!IMPORTANT]
 >

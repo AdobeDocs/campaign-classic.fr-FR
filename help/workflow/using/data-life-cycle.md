@@ -6,10 +6,10 @@ feature: Workflows, Data Management
 hide: true
 hidefromtoc: true
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '531'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ Vous pouvez ainsi utiliser dans une diffusion des données collectées via une l
 
 Les éléments de personnalisation de type **[!UICONTROL Extension de la cible]** (targetData) ne sont disponible que dans le cadre des workflows de ciblage. Ainsi, la cible de la diffusion doit être construite dans le workflow et spécifiée dans la transition entrante de la diffusion.
 
-Si vous souhaitez créer des BAT pour les diffusions, la cible des BAT doit alors être construite selon le mode **[!UICONTROL Substitution des adresses]**, afin que les données de personnalisation puissent être renseignées. Pour plus d’informations à ce sujet, consultez cette [section](../../delivery/using/steps-defining-the-target-population.md#using-address-substitution-in-proof).
+Si vous souhaitez créer des BAT pour les diffusions, la cible des BAT doit alors être construite selon le mode **[!UICONTROL Substitution des adresses]**, afin que les données de personnalisation puissent être renseignées. Pour plus d’informations à ce sujet, consultez cette section dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#target-population){target="_blank"}.
 
 Dans l&#39;exemple suivant, nous allons collecter dans une liste des informations relatives à des clients qui seront utilisées dans un mail personnalisé.
 

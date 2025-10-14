@@ -5,10 +5,10 @@ description: Découvrez comment envoyer, surveiller et suivre des SMS dans Campa
 feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
 source-wordcount: '895'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -81,8 +81,6 @@ Le module **nlserver sms** interroge à intervalle régulier le routeur des mess
   > * Un compte SMS ne peut être associé qu&#39;à un seul compte externe afin que les accusés de réception soient correctement attribués à ce dernier
 
 * **Désinscription** : les destinataires qui ne souhaitent plus recevoir de diffusions par SMS peuvent renvoyer un message contenant le mot STOP. Si votre fournisseur vous le permet contractuellement, vous avez la possibilité de récupérer ses messages via l&#39;activité de workflow **Réception de SMS** puis de créer une requête afin que l&#39;option **Ne plus contacter cette personne** soit activée pour les destinataires concernés.
-
-  Reportez-vous au guide [Workflows](../../workflow/using/architecture.md).
 
 ## Schéma InSMS {#insms-schema}
 
@@ -169,4 +167,4 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 >
 >Il n’existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le tableau de bord des diffusions. [En savoir plus](delivery-dashboard.md).
 >
->Ces messages ne sont pas pris en compte dans les règles de pression commerciale. [En savoir plus](../../campaign-opt/using/pressure-rules.md).
+>Ces messages ne sont pas pris en compte dans les règles de pression commerciale. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.

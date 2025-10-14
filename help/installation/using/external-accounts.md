@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 100%
+source-wordcount: '1988'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Les comptes externes sont utilisés par les processus techniques comme les workf
 
 ## Créer un compte externe {#creating-an-external-account}
 
-Pour créer un compte externe, procédez comme suit : Les paramètres détaillés dépendent du type de compte externe.
+Pour créer un compte externe, procédez comme suit. Les paramètres détaillés dépendent du type de compte externe.
 
 1. Dans l&#39;**[!UICONTROL Explorateur]** Campaign, sélectionnez **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plateforme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
 
@@ -47,7 +47,7 @@ Le compte externe est créé et ajouté à la liste des comptes externes.
 
 ### Mails rebonds {#bounce-mails-external-account}
 
-Le compte externe **Mails rebonds** spécifie le compte externe POP3 à utiliser pour se connecter au service de messagerie. Pour plus d&#39;informations sur ce compte externe, consultez cette [page](../../workflow/using/inbound-emails.md).
+Le compte externe **Mails rebonds** spécifie le compte externe POP3 à utiliser pour se connecter au service de messagerie. Pour plus d’informations sur ce compte externe, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=fr){target="_blank"}.
 
 Tous les serveurs configurés pour l&#39;accès POP3 peuvent être utilisés pour recevoir les retours d&#39;email.
 
@@ -81,7 +81,7 @@ Pour configurer le compte externe **[!UICONTROL Mails rebonds (defaultPopAccount
 
 >[!IMPORTANT]
 >
->Avant de configurer votre compte externe POP3 à l’aide de Microsoft OAuth 2.0, vous devez enregistrer votre application sur le portail Azure. Pour plus d’informations, consultez [cette page](https://docs.microsoft.com/fr-fr/azure/active-directory/develop/quickstart-register-app).
+>Avant de configurer votre compte externe POP3 à l’aide de Microsoft OAuth 2.0, vous devez enregistrer votre application sur le portail Azure. Pour plus d’informations, consultez [cette page](https://docs.microsoft.com/fr-fr/azure/active-directory/develop/quickstart-register-app).
 
 Pour configurer un environnement externe POP3 à l’aide de **Microsoft OAuth 2.0**, cochez la case **[!UICONTROL Microsoft OAuth 2.0]** et renseignez les champs suivants :
 
@@ -119,8 +119,7 @@ Les canaux suivants peuvent être configurés :
 * [Canal Courrier](../../delivery/using/about-direct-mail-channel.md)
 * [Agence](../../delivery/using/communication-channels.md#other-channels)
 * [X (anciennement Twitter)](../../social/using/about-social-marketing.md)
-* [Canal iOS](../../delivery/using/configuring-the-mobile-application.md)
-* [Canal Android](../../delivery/using/configuring-the-mobile-application-android.md)
+* [canaux iOS et Android](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}
 
 ### Routage des e-mails {#email-routing-external-account}
 
@@ -160,7 +159,7 @@ Pour plus d&#39;informations sur cette configuration, consultez [cette page](../
 
 ### FTP {#ftp-external-account}
 
-Le compte externe FTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs FTP 898 utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus à ce sujet, consultez cette [page](../../workflow/using/file-transfer.md).
+Le compte externe FTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs FTP 898 utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
 
 Pour ce faire, spécifiez dans ce compte externe l&#39;adresse et les informations d’identification utilisées pour établir la connexion au serveur FTP.
 
@@ -190,7 +189,7 @@ Pour savoir où trouver ces informations d’identification, consultez [cette pa
 
 ### SFTP {#sftp-external-account}
 
-Le compte externe SFTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus à ce sujet, consultez cette [page](../../workflow/using/file-transfer.md).
+Le compte externe SFTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
 
 ![](assets/ext_account_4.png)
 
@@ -272,7 +271,7 @@ Pour vous connecter à la console Adobe Campaign à l’aide d’un Adobe ID, 
 
 * **[!UICONTROL Identifiant de l&#39;organisation IMS]**
 
-  Identifiant de votre organisation. Pour trouver l’identifiant de votre organisation, reportez-vous [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
+  Identifiant de votre organisation. Pour trouver l’ID de votre organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
 
 * **[!UICONTROL Masque de correspondance]**
 
@@ -398,11 +397,11 @@ Pour configurer le compte externe Salesforce CRM afin de l’utiliser avec Adobe
 
 * **[!UICONTROL Identifiant du client]**
 
-  Pour savoir où trouver votre identifiant du client, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+  Pour savoir où trouver votre identifiant du client, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&type=1).
 
 * **[!UICONTROL Jeton de sécurité]**
 
-  Pour savoir où trouver votre jeton de sécurité, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+  Pour savoir où trouver votre jeton de sécurité, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&type=1).
 
 * **[!UICONTROL Version de l&#39;API]**
 
@@ -416,7 +415,7 @@ Pour plus d’informations sur cette configuration, consultez [cette page](../..
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Pour en savoir plus à ce sujet, consultez cette [page](../../workflow/using/file-transfer.md).
+Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
 
 ![](assets/ext_account_3.png)
 
@@ -448,7 +447,7 @@ Pour savoir où trouver l’ID de la clé d’accès et la clé d’accès secr�
 
 ### Stockage Azure Blob {#azure-blob-external-account}
 
-Le **compte externe de stockage Blob Azure** peut être utilisé pour importer ou exporter des données vers Adobe Campaign à l’aide d’une activité de workflow **[!UICONTROL Transfert de fichier]**. Pour plus d’informations à ce sujet, consultez cette [section](../../workflow/using/file-transfer.md).
+Le **compte externe de stockage Blob Azure** peut être utilisé pour importer ou exporter des données vers Adobe Campaign à l’aide d’une activité de workflow **[!UICONTROL Transfert de fichier]**. consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
 
 ![](assets/ext_account_23.png)
 

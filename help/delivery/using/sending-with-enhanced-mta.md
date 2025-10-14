@@ -5,10 +5,10 @@ description: Découvrez la portée et les spécificités de lʼenvoi dʼe-mails 
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
-workflow-type: ht
-source-wordcount: '1395'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1407'
+ht-degree: 98%
 
 ---
 
@@ -121,7 +121,7 @@ Pour plus d’informations sur le débit de diffusion, consultez [cette section]
 
 Les paramètres de reprise lors de la diffusion ne sont pas utilisés par Campaign. Les reprises des soft bounces et l’intervalle qui les sépare sont déterminés par le MTA amélioré en fonction du type et de la gravité des réponses des rebonds provenant du domaine de messagerie du message.
 
-Pour plus d’informations sur les reprises, voir [cette section](steps-sending-the-delivery.md#configuring-retries).
+Pour plus d’informations sur les reprises, consultez cette [page](communication-channels.md) sous **Envoi de diffusion** > **Configurer les reprises**.
 
 ### Période de validité
 
@@ -131,7 +131,7 @@ Par exemple, si la période de validité est définie sur la valeur par défaut 
 
 Une fois qu’un message figure dans la file d’attente du MTA amélioré depuis 3,5 jours et qu’il n’a pas été diffusé, il expire et son état est mis à jour de **[!UICONTROL Envoi]** à **[!UICONTROL Échec]** dans les logs de diffusion.
 
-Pour plus d’informations sur la période de validité, consultez [cette section](steps-sending-the-delivery.md#defining-validity-period).
+Pour plus d’informations sur la période de validité, consultez cette [page](communication-channels.md) sous **Envoi de diffusion** > **Définir la période de validité**.
 
 ### Signature DKIM
 
@@ -140,7 +140,7 @@ Pour en savoir plus sur la signature DKIM, consultez le [Guide des bonnes pratiq
 
 ### Rapports de réussite de diffusion
 
-Dans la vue **[!UICONTROL Résumé]** du [tableau de bord](delivery-dashboard.md) d’une diffusion par e-mail, le pourcentage **[!UICONTROL Succès]** débute à 100 %, puis diminue progressivement tout au long de la [période de validité](steps-sending-the-delivery.md#defining-validity-period) de la diffusion, à mesure que les rebonds temporaires et définitifs font l’objet de rapports du MTA amélioré vers Campaign.
+Dans la vue **[!UICONTROL Résumé]** du [tableau de bord](delivery-dashboard.md) d’une diffusion par e-mail, le pourcentage **[!UICONTROL Succès]** débute à 100 %, puis diminue progressivement tout au long de la [période de validité](communication-channels.md) de la diffusion, à mesure que les rebonds temporaires et définitifs font l’objet de rapports du MTA amélioré vers Campaign.
 
 En effet, tous les messages s&#39;affichent comme **[!UICONTROL Envoyés]** dans les [logs d&#39;envoi](delivery-dashboard.md#delivery-logs-and-history) dès qu&#39;ils sont correctement relayés de Campaign vers le MTA amélioré. Ils restent dans cet état à moins ou jusqu’à ce qu’un [rebond ](understanding-delivery-failures.md#delivery-failure-types-and-reasons) pour ce message soit communiqué de nouveau de la MTA améliorée à Campaign.
 

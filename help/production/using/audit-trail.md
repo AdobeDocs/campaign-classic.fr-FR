@@ -4,10 +4,10 @@ title: Journal d’audit
 description: Découvrez comment surveiller votre instance à lʼaide du journal dʼaudit Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: 3d1ed85dcafc5afc4088db98c09d78fb7e9c0a39
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '427'
+ht-degree: 96%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 100%
 >
 >En savoir plus sur la fonctionnalité Journal d’audit dans la [documentation Adobe Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/audit-trail).
 
-Dans Adobe Campaign, le **[!UICONTROL Suivi]** vous donne accès à l’historique complet des modifications apportées à votre instance.
+Dans Adobe Campaign, le **[!UICONTROL Journal d’audit]** vous donne accès à l’historique complet des modifications apportées à votre instance.
 
-Le **[!UICONTROL Suivi]** capture en temps réel la liste complète des actions et des événements qui se produisent au sein de votre instance Adobe Campaign. Il vous permet d’accéder à un historique de données en libre-service afin de vous aider à répondre à des questions portant notamment sur ce qui arrivé à vos workflows, les personnes qui les ont mis à jour pour la dernière fois et ce qu’ont fait vos utilisateurs dans l’instance.
+Le **[!UICONTROL Journal d’audit]** capture en temps réel la liste complète des actions et des événements qui se produisent au sein de votre instance Adobe Campaign. Il vous permet d’accéder à un historique de données en libre-service afin de vous aider à répondre à des questions portant notamment sur ce qui est arrivé à vos workflows, les personnes qui les ont mis à jour pour la dernière fois et ce qu’ont fait vos utilisateurs dans l’instance.
 
 >[!NOTE]
 >
 >Adobe Campaign n’effectue pas le suivi des modifications apportées aux droits des utilisateurs, aux modèles, aux personnalisations ni aux campagnes.\
->Le Suivi peut uniquement être géré par les administrateurs de l’instance.
+>Le journal d’audit peut uniquement être géré par les administrateurs de l’instance.
 
 ![](assets/audit_trail_2.png)
 
@@ -47,7 +47,8 @@ Le **[!UICONTROL Suivi]** capture en temps réel la liste complète des actions 
 
   Pour plus d’informations sur les workflows, consultez [cette page](../../workflow/using/about-workflows.md).
 
-  Pour plus d’informations sur la surveillance des workflows, consultez la [section dédiée](../../workflow/using/monitoring-workflow-execution.md).
+  Pour plus d’informations sur la surveillance des workflows, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
+
 
 * **Journal d’audit des options** : permet de vérifier les activités et les dernières modifications apportées à vos options.
 

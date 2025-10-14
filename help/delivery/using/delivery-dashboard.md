@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Monitoring
 role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 100%
+source-wordcount: '1262'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ Vous trouverez ci-dessous les informations à surveiller à l&#39;aide des diff�
 
 * [Comprendre les échecs de diffusion](understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](understanding-quarantine-management.md)
-* [Bonnes pratiques relatives à la diffusion](delivery-best-practices.md)
+* [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"}
 * [Gestion de la délivrabilité](about-deliverability.md)
 
 ## Synthèse des diffusions {#delivery-summary}
@@ -64,17 +64,17 @@ Pour une diffusion, vous pouvez afficher par exemple seulement les destinataires
 
 Le lien **[!UICONTROL Afficher la page miroir de ce message...]** vous permet d&#39;afficher la page miroir du contenu de la diffusion sélectionnée dans la liste dans une nouvelle fenêtre.
 
-La page miroir est disponible uniquement pour les diffusions pour lesquelles un contenu HTML a été défini. Voir à ce sujet la section [Générer la page miroir](sending-messages.md#generating-the-mirror-page).
+La page miroir est disponible uniquement pour les diffusions pour lesquelles un contenu HTML a été défini. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=fr){target="_blank"}.
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
 ## Logs et historique de suivi des diffusions {#tracking-logs}
 
-L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour cette diffusion. Cet onglet affiche les informations de tracking sur les messages envoyés, soit toutes les URL qui ont fait l&#39;objet d&#39;un tracking par Adobe Campaign. Les informations de tracking sont mises à jour toutes les heures.
+L’onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour cette diffusion. Cet onglet affiche les données de tracking sur les messages envoyés, soit toutes les URL qui ont fait l&#39;objet d&#39;un tracking par Adobe Campaign. Les données de tracking sont mises à jour toutes les heures.
 
 >[!NOTE]
 >
->Si le tracking n&#39;est pas activé pour une diffusion, cet onglet n&#39;est pas affiché.
+>Si le tracking n’est pas activé pour une diffusion, cet onglet n’est pas affiché.
 
 La configuration du suivi est effectué dans l’assistant de diffusion, à l’étape concernée. Voir à ce sujet la section [Comment configurer des liens suivis](how-to-configure-tracked-links.md).
 
@@ -98,7 +98,7 @@ L&#39;onglet **[!UICONTROL Audit]** contient le log des diffusions et tous les m
 
 Le bouton **[!UICONTROL Actualiser]** permet de mettre à jour les données. Utilisez le bouton **[!UICONTROL Filtres]** pour définir un filtre sur les données.
 
-Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Pour plus d&#39;informations, consultez la section [Analyser la diffusion](steps-validating-the-delivery.md#analyzing-the-delivery).
+Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Voir cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
 
 Le sous-onglet **[!UICONTROL Bons à tirer]** vous permet de voir la liste des BAT qui ont été envoyés.
 

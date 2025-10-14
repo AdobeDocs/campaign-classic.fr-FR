@@ -6,10 +6,10 @@ feature: SMS
 role: User, Developer, Admin
 level: Experienced
 exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '1077'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1078'
+ht-degree: 99%
 
 ---
 
@@ -154,7 +154,7 @@ Pour ce faire, procédez comme suit :
 
 ## Modifier le modèle de diffusion {#changing-the-delivery-template}
 
-Adobe Campaign met à disposition un modèle de diffusion mobile situé dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]** . Pour plus d&#39;informations, consultez la section [Modèles](about-templates.md).
+Adobe Campaign met à disposition un modèle de diffusion mobile situé dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]** . Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"}.
 
 Pour envoyer des messages par le biais du canal SMS, vous devez créer un modèle qui inclut une référence au connecteur du canal.
 

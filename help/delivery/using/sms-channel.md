@@ -5,10 +5,10 @@ description: Prise en main du canal SMS
 feature: SMS
 role: User
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
-source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
-workflow-type: ht
-source-wordcount: '370'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ Utilisez Adobe Campaign pour envoyer des messages texte aux clients et aux clie
 
 Le canal SMS est un moyen direct et particulièrement efficace pour toucher les utilisateurs et utilisatrices, quel que soit l’endroit où ils se trouvent. Grâce à des taux d’ouverture élevés et à une diffusion quasi instantanée, le SMS est idéal pour les alertes urgentes, les notifications transactionnelles et les messages promotionnels concis. Il s’intègre parfaitement à une stratégie cross-canal pour assurer une communication percutante en temps réel. Découvrez comment configurer et utiliser efficacement le canal SMS dans la documentation d’[Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=fr){target=_blank}.
 
-Dans le cadre de l’initiative de promotion de Campaign v8, la documentation de Campaign Classic a été réorganisée. Les fonctionnalités communes sont désormais uniquement disponibles dans l’ensemble documentaire de Campaign v8.
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités courantes sont désormais disponibles exclusivement dans l’ensemble de documentation de Campaign v8.
 
 >[!BEGINTABS]
 
@@ -32,7 +32,7 @@ Pour en savoir plus sur le canal SMS, consultez la [documentation de Campaign v
 
 >[!TAB Création de diffusion SMS]
 
-Découvrez les étapes clés de la création d’une diffusion SMS dans la documentation de Campaign v8 :
+Découvrez les étapes clés liées à la création d’une diffusion SMS **dans la documentation de Campaign v8** :
 
 * [Vue d’ensemble du canal SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=fr){target="_blank"} : découvrez comment envoyer des SMS à vos clientes et clients sur leurs appareils mobiles.
 * [Créer une diffusion SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/create-sms.html?lang=fr){target="_blank"} : découvrez les différentes étapes nécessaires à la création d’une diffusion SMS.
@@ -45,7 +45,7 @@ Découvrez les étapes clés de la création d’une diffusion SMS dans la docum
 
 >[!TAB Configuration des SMS]
 
-Consultez les pages suivantes pour en savoir plus sur la configuration des SMS :
+Reportez-vous à ces pages pour en savoir plus sur la configuration des SMS. Ces pages sont spécifiques à Campaign v7.
 
 * [Configuration autonome](sms-set-up.md) : découvrez comment configurer le canal SMS sur une instance autonome.
 * [Configuration de midsourcing](sms-set-up-mid.md) : découvrez comment envoyer des SMS à l’aide de serveurs intermédiaires.

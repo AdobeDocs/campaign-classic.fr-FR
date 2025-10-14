@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '761'
+ht-degree: 88%
 
 ---
 
@@ -26,13 +26,13 @@ Apprenez à effectuer les étapes de test et de validation avant d&#39;envoyer d
 
 L&#39;analyse correspond à l&#39;étape de calcul de la population cible et de préparation du contenu de la diffusion. Une fois l&#39;analyse terminée, la diffusion sera prête à être envoyée. Consultez les logs pour vérifier que tout est correct.
 
-[Pour en savoir plus, cliquez ici](../../delivery/using/steps-validating-the-delivery.md).
+Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
 
 ### Pourquoi créer des bons à tirer ? {#why-should-i-create-proofs-}
 
 Adobe recommande vivement de créer des BAT pour tester votre diffusion auprès d’un groupe de validation avant l’envoi à la cible principale. Vous pouvez ensuite valider le contenu des messages, la personnalisation et les paramètres de la diffusion.
 
-[Pour en savoir plus, cliquez ici](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 ### Comment utiliser les adresses de contrôle dans Adobe Campaign ? {#how-to-use-seed-addresses-in-adobe-campaign-}
 
@@ -49,13 +49,13 @@ Les avantages sont notamment les suivants :
 
 Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adobe recommande vivement de mettre en place un cycle de validation de vos diffusions. Pour cela, faites-en valider le contenu autant de fois que nécessaire en envoyant des bons à tirer auprès de destinataires test. Un BAT doit être envoyé afin de valider le contenu après chaque modification.
 
-[Pour en savoir plus, cliquez ici](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 ### Qu&#39;est-ce qu&#39;une règle de typologie ? {#what-is-a-typology-rule-}
 
 Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester différentes combinaisons en appliquant des règles de contrainte spécifiques. Elles permettent de s’assurer que les messages envoyés répondent le mieux possible aux attentes ou aux besoins du client, dans le respect des politiques de communication de l’entreprise.
 
-[Pour en savoir plus, cliquez ici](../../campaign-opt/using/about-campaign-typologies.md).
+Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr){target="_blank"}.
 
 ## Envoyer vos messages {#send-your-messages}
 
@@ -63,25 +63,25 @@ Apprenez à envoyer des messages sur différents canaux avec Adobe Campaign.
 
 ### Comment envoyer des emails par vagues ? {#how-can-i-send-emails-in-waves-}
 
-Avant d&#39;envoyer une diffusion à une population importante, vous pouvez [configurer des vagues](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves) pour répartir les envois en plusieurs lots et équilibrer la charge.
+Avant d&#39;envoyer une diffusion à une population importante, vous pouvez configurer des vagues pour répartir les messages en plusieurs lots et équilibrer la charge. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#sending-using-multiple-waves){target="_blank"}.
 
 ### Quelles sont les principales étapes pour créer un email dans Campaign ? {#which-are-the-key-steps-to-create-an-email-in-campaign-}
 
 Une fois la diffusion de l’email créée et validée, vous pouvez l’envoyer. Vous pouvez choisir d’envoyer immédiatement l’email à la cible principale ou de planifier une diffusion à une date ultérieure. Au besoin, vous pouvez au préalable également estimer la population cible.
 
-[Pour en savoir plus, cliquez ici](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 ### Comment planifier une diffusion ? {#how-to-schedule-a-delivery-}
 
 Vous pouvez différer la diffusion des messages pour planifier l&#39;envoi ou pour gérer la pression commerciale afin de ne pas sur-solliciter une population.
 
-[Pour en savoir plus, cliquez ici](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending).
+Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#schedule-delivery-sending){target="_blank"}.
 
 ### Est-il possible d&#39;ajouter une pièce jointe aux emails ? {#can-i-add-an-attachment-to-emails-}
 
 Avec Campaign Classic, vous pouvez ajouter des pièces jointes personnalisées à vos emails.
 
-[Cliquez ici pour en savoir plus sur les pièces jointes aux emails](../../delivery/using/attaching-files.md).
+Pour en savoir plus sur les pièces jointes à un email, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=fr){target="_blank"}.
 
 ## Effectuer un tracking de vos messages et mesurer leur impact {#track-your-messages-and-measure-their-impact}
 

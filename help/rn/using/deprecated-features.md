@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 84e6b2fad97f0ca5d6621cff4648e0be0bef7521
-workflow-type: ht
-source-wordcount: '1652'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1658'
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe évalue constamment les fonctionnalités des produits pour identifier cell
 Lors de l’annonce de la suppression ou du remplacement imminent de fonctionnalités de Campaign Classic, les règles suivantes s’appliquent :
 
 * L’annonce de l’obsolescence vient en premier. Les fonctionnalités obsolètes sont encore disponibles et prises en charge pour les utilisateurs existants, mais elles ne seront plus améliorées ni documentées.
-* La suppression de fonctionnalités obsolètes aura lieu au plus tôt dans la version suivante. La date de suppression prévue est annoncée sur cette page.
+* La suppression de fonctionnalités obsolètes aura lieu au plus tôt dans la version suivante. La date de suppression cible est annoncée sur cette page.
 
 Cette procédure laisse aux clients au moins un cycle de publication pour s’adapter à une nouvelle version ou au successeur d’une fonctionnalité supprimée avant la suppression définitive.
 
@@ -35,7 +35,7 @@ Cette section répertorie les fonctions et fonctionnalités qui ont été désig
 
 En règle générale, les fonctionnalités qui doivent être supprimées dans une version ultérieure sont définies comme étant obsolètes dans un premier temps. Ces fonctions et fonctionnalités ne sont plus disponibles pour les nouveaux clients de Campaign Classic ou ne doivent pas être utilisées dans le cadre d’une nouvelle implémentation. Elles sont également supprimées de la documentation du produit.
 
-Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la fonctionnalité dans leur déploiement actuel et d’envisager de modifier leur implémentation. Référez-vous aux dates de suppression prévues pour planifier les mises à jour de votre environnement et de vos projets en conséquence.
+Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la fonctionnalité dans leur déploiement actuel et d’envisager de modifier leur implémentation. Référez-vous aux dates de suppression cibles pour planifier les mises à jour de votre environnement et de vos projets en conséquence.
 
 <table> 
  <tbody> 
@@ -46,7 +46,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   <tr>
  <td>Ancien SDK de Campaign (Neolane)</td>
  <td><p>Le SDK Campaign (Neolane) pour les applications mobiles est désormais obsolète. À la place, utilisez le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données. Le SDK mobile Adobe Experience Platform permet d’optimiser les solutions et services Experience Cloud d’Adobe dans vos applications mobiles. La configuration des SDK s’effectue dans l’interface utilisateur de collecte de données, qui offre des options de configuration flexibles et des intégrations extensibles basées sur des règles. Découvrez comment configurer le canal Applications mobiles dans la <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push-settings">documentation de Campaign v8</a>.</p>
-<p>Date de suppression prévue : 31 juillet 2025 </p>
+<p>Date de suppression cible : jeudi 31 juillet 2025 </p>
 </td>
 </tr>
 <tr>
@@ -83,7 +83,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
     <tr>
   <td>Rapport de surveillance de la délivrabilité technique<br></td>
    <td><p>Le rapport de surveillance de la délivrabilité technique n’est plus disponible. Il avait été abandonné avec la version 21.1.3 de Campaign.</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
@@ -99,7 +99,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
   </tr>
   <tr>  
    <td>Canal fax<br></td>
-   <td><p>À compter de la version 21.1.3 de Campaign, le canal Fax n’est plus disponible. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">En savoir plus</a></p>
+   <td><p>À compter de la version 21.1.3 de Campaign, le canal Fax n’est plus disponible. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html" target="_blank">En savoir plus dans la documentation de Campaign v8</a></p>
   </tr>
   <tr>
   <td>Domaine Demdex<br></td>
@@ -137,7 +137,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
   <tr> 
    <td>API decryptString</td>
    <td><p>À compter de la version 18.6 de Campaign, pour des raisons de sécurité, l’API <em>decryptString</em> n’est plus disponible par défaut pour les nouvelles installations.</p> 
-   <p>Dans le contexte d’un postupgrade vers la version 18.6 (et versions ultérieures), cette API n’est plus activée et a été remplacée par la fonction <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=fr&hl=decrypt">En savoir plus</a></p></td>
+   <p>Dans le contexte d’un postupgrade vers la version 18.6 (et versions ultérieures), cette API n’est plus activée et a été remplacée par la fonction <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">En savoir plus</a></p></td>
   </tr> 
    <tr> 
    <td>Canal mobile - Messages MMS et WAP Push</td>
@@ -162,7 +162,7 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 
 ### Console cliente {#client-console-eol}
 
-La console cliente d’Adobe Campaign Classic ne peut plus s’exécuter sur les systèmes suivants, car ils ont été abandonnés par leur éditeur. Les clients qui utilisent la console cliente de Campaign sur l’une de ces versions doivent effectuer la mise à niveau vers la version la plus récente avant la date de suppression prévue. Reportez-vous à la [matrice de compatibilité](../../rn/using/compatibility-matrix.md).
+La console cliente d’Adobe Campaign Classic ne peut plus s’exécuter sur les systèmes suivants, car ils ont été abandonnés par leur éditeur. Les clients qui utilisent la console cliente de Campaign sur l’une de ces versions doivent effectuer la mise à niveau vers la version la plus récente avant la date de suppression cible. Reportez-vous à la [matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 
 * Windows Server 2003, 2008, 2008 R2
 * Windows 7, XP, Vista

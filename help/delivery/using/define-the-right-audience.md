@@ -8,10 +8,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 La population ciblée est essentielle : créez soigneusement vos listes, testez vos emails sur les clients de messagerie et les appareils mobiles les plus utilisés et vérifiez que vos listes email sont à jour (sans adresses inconnues ou obsolètes). Vous pouvez également envoyer des bons à tirer permettant de configurer un cycle de validation complet.
 
-En savoir plus sur les populations ciblées [dans cette section](steps-defining-the-target-population.md)
+En savoir plus sur les populations cibles dans cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
 ## Cibler la bonne audience {#target-the-right-audience}
 
@@ -33,13 +33,13 @@ Par défaut, dans Campaign Classic, les modèles de diffusion ciblent les **Des
 
 Vous pouvez, par exemple, envoyer votre diffusion à des visiteurs dont le profil a été collecté par le biais des réseaux sociaux ou à des visiteurs qui se sont abonnés à un service d&#39;information.
 
-Ces mappings sont présentés [dans cette section](steps-defining-the-target-population.md#select-a-target-mapping).
+Ces mappages sont présentés dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}.
 
 Vous pouvez également créer et utiliser un mapping de ciblage personnalisé. Pour plus d’informations, consultez [cette section](../../configuration/using/target-mapping.md).
 
 ## Destinataires externes {#external-recipients}
 
-Vous pouvez effectuer une diffusion aux destinataires qui sont stockés dans un fichier externe plutôt qu&#39;enregistrés dans la base de données. En savoir plus dans [cette section](steps-defining-the-target-population.md#selecting-external-recipients).
+Vous pouvez effectuer une diffusion aux destinataires qui sont stockés dans un fichier externe plutôt qu&#39;enregistrés dans la base de données. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"}.
 
 ## Envoyer des messages à vos abonnés {#send-to-subscribers}
 
@@ -50,13 +50,13 @@ Pour envoyer des messages aux abonnés d&#39;une newsletter, vous pouvez directe
 
 Pour tester votre diffusion, utilisez des bons à tirer avant l&#39;envoi à la cible principale.
 
-Veillez à sélectionner les destinataires du BAT appropriés, car ils valident le formulaire et le contenu du message. Les étapes de définition des destinataires du BAT sont présentées [dans cette section](steps-defining-the-target-population.md#selecting-the-proof-target).
+Veillez à sélectionner les destinataires du BAT appropriés, car ils valident le formulaire et le contenu du message. Les étapes de définition des destinataires du BAT sont présentées dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#select-the-proof-target){target="_blank"}.
 
 Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis afin de tester une diffusion avant l’envoi à la cible principale. Elles sont présentées [dans cette section](about-seed-addresses.md).
 
 ## Dédupliquer les adresses {#deduplicate-addresses}
 
-Il est important d&#39;éviter d&#39;avoir des adresses email en double, car cela peut avoir un impact sur votre cible.
+Il est important d’éviter d’avoir des adresses e-mail en double, car cela peut avoir un impact sur votre cible :
 
 * Un même message peut être envoyé plusieurs fois lorsqu&#39;une une cible est partagée.
 

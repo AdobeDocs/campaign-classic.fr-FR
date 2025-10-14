@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Personalization
 role: User
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Les extensions supportées sont : &quot;.docx&quot;, &quot;.doc&quot;, et &quot
 
 Pour personnaliser vos documents, vous disposez des mêmes fonctionnalités JavaScript que celles disponibles pour la personnalisation des e-mails.
 
-Vous devez activer l&#39;option **[!UICONTROL « Le contenu du fichier est personnalisé et converti en PDF au moment de l’envoi pour chaque message »]**. Cette option est accessible lors de l’ajout de la pièce jointe dans l’email de la diffusion. Pour plus d’informations sur l’ajout d’un fichier calculé en pièce jointe, consultez la section [Joindre des fichiers](attaching-files.md).
+Vous devez activer l&#39;option **[!UICONTROL « Le contenu du fichier est personnalisé et converti en PDF au moment de l’envoi pour chaque message »]**. Cette option est accessible lors de l’ajout de la pièce jointe dans l’email de la diffusion. Pour plus d’informations sur l’ajout d’un fichier calculé en pièce jointe, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=fr){target="_blank"}.
 
 Exemple de personnalisation de l&#39;en-tête d&#39;une facture :
 

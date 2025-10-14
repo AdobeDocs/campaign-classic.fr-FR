@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ Découvrez comment intégrer Adobe Campaign et Adobe Experience Manager dans 
 
 Une fois cette intégration configurée, vous pouvez configurer un nouveau modèle de diffusion dans Adobe Campaign afin d&#39;utiliser la bibliothèque AEM Assets. Pour cela, procédez comme suit :
 
-1. Créez un modèle de diffusion ou dupliquez un modèle existant. Pour plus d&#39;informations sur les modèles de diffusion, consultez [cette page](../../delivery/using/about-templates.md).
+1. Créez un modèle de diffusion ou dupliquez un modèle existant. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"}.
 1. Editez les **Propriétés** de ce modèle.
 1. Dans l&#39;onglet **[!UICONTROL Avancé]**, définissez le **[!UICONTROL Mode d&#39;édition du contenu]** sur **DCE**.
 1. Sélectionnez le **[!UICONTROL Compte AEM]** externe que vous devez utiliser pour accéder à la bibliothèque AEM Assets.

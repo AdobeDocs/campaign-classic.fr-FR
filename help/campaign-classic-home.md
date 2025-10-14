@@ -3,9 +3,9 @@ keywords: Campaign Classic;accueil;thèmes populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 97%
 
 ---
@@ -60,7 +60,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <div><strong>Automatiser à l’aide des workflows</strong><br/> Découvrez comment tirer parti des workflows pour concevoir des processus, notamment la segmentation, l’exécution de campagnes, le traitement de fichiers, la participation humaine, etc.
     </div></td>
     <td>
-    <a href="delivery/using/steps-about-delivery-creation-steps.md"><img src="assets/do-not-localize/start-deliveries.jpeg"></a>
+    <a href="delivery/using/communication-channels.md"><img src="assets/do-not-localize/start-deliveries.jpeg"></a>
     <div><strong>Créer des diffusions</strong><br/> Découvrez comment envoyer des messages sur différents canaux, tels que les e-mails, les SMS, les notifications push, etc.</div>
     </td>
   </tr>
@@ -68,7 +68,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td align="center"><a href="platform/using/launching-adobe-campaign.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="platform/using/about-profiles.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="workflow/using/about-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="delivery/using/steps-about-delivery-creation-steps.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="delivery/using/communication-channels.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
@@ -84,7 +84,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
 <br/>
-<strong>Expérience client</strong><br/> <a href="workflow/using/about-workflows.md">Automatiser à l’aide des workflows</a> - <a href="campaign/using/setting-up-marketing-campaigns.md">Campagne marketing</a> - <a href="interaction/using/interaction-and-offer-management.md">Interaction et gestion des offres</a> - <a href="delivery/using/about-personalization.md">Personnalisation</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">Reporting</a>
+<strong>Expérience client</strong><br/> <a href="workflow/using/about-workflows.md">Automatiser à l’aide des workflows</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr" target="_blank">Campagne marketing</a> - <a href="interaction/using/interaction-and-offer-management.md">Interaction et gestion des offres</a> - <a href="delivery/using/about-personalization.md">Personnalisation</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">Reporting</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">

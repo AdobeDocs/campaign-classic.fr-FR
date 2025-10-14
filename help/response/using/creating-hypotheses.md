@@ -8,10 +8,10 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 100%
+source-wordcount: '1089'
+ht-degree: 98%
 
 ---
 
@@ -114,7 +114,7 @@ Reportez-vous également à [cet exemple](#example--creating-a-hypothesis-linked
 
 ## Création d’une hypothèse sur une offre {#creating-a-hypothesis-on-an-offer}
 
-Les étapes de création d&#39;une hypothèse sur une proposition d&#39;offre sont similaires à celles d&#39;une hypothèse sur diffusion créée à la volée. L&#39;exécution des hypothèses est possible tant que l&#39;offre est active. La période de calcul est basée sur la date de la proposition d&#39;offre. Lorsque l&#39;hypothèse permet de relier un destinataire à un acte d&#39;achat, l&#39;état de la proposition d&#39;offre susceptible d&#39;être acceptée peut être modifié automatiquement. [Apprenez-en davantage](hypothesis-templates.md#transactions)
+Les étapes de création d’une hypothèse sur une proposition d’offre sont similaires à celles d’une hypothèse sur diffusion créée à la volée. L’exécution des hypothèses est possible tant que l’offre est active. La période de calcul est basée sur la date de la proposition d’offre. Lorsque l’hypothèse permet de relier un destinataire à un acte d’achat, l’état de la proposition d’offre susceptible d’être acceptée peut être modifié automatiquement. [Apprenez-en davantage](hypothesis-templates.md#transactions)
 
 1. Créez un ou plusieurs modèles de type **[!UICONTROL Offre]** comme décrit dans [cette section](hypothesis-templates.md#creating-a-hypothesis-model).
 1. Positionnez-vous au niveau du noeud **[!UICONTROL Gestion de campagne > Hypothèses de mesure]**.
@@ -146,7 +146,7 @@ Dans cet exemple, nous allons créer une hypothèse liée à une diffusion. Cett
 
 Nous affinerons ensuite la requête héritée du modèle pour émettre une hypothèse sur un article spécifique de la table d’achat.
 
-1. Créez une campagne et une diffusion. [Apprenez-en davantage](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)
+1. Créez une campagne et une diffusion. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
 
    Dans notre exemple, la diffusion est de type courrier.
 
@@ -156,7 +156,7 @@ Nous affinerons ensuite la requête héritée du modèle pour émettre une hypot
 
    >[!NOTE]
    >
-   >Pour plus d’informations, consultez [cette section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+   >Pour plus d’informations, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"}.
 
 1. Ouvrez la **[!UICONTROL Diffusion courrier]** et cliquez sur l&#39;icône **[!UICONTROL Mesure de la diffusion]**, puis sur **[!UICONTROL Ajouter]**.
 
@@ -178,10 +178,10 @@ Nous affinerons ensuite la requête héritée du modèle pour émettre une hypot
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. Lancez votre workflow de ciblage et effectuez les vérifications nécessaires jusqu&#39;à ce que la campagne soit terminée. [Apprenez-en davantage](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)
+1. Lancez votre workflow de ciblage et effectuez les vérifications nécessaires jusqu&#39;à ce que la campagne soit terminée. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery){target=_blank}.
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 
-1. Dans l’arborescence d’Adobe Campaign, accédez au nœud **[!UICONTROL Gestion de campagnes > Hypothèses de mesure]** pour vérifier les indicateurs calculés par l’hypothèse.
+1. Dans l&#39;arborescence d&#39;Adobe Campaign, positionnez-vous au niveau du noeud **[!UICONTROL Gestion de campagne > Hypothèses de mesure]** pour vérifier les indicateurs calculés par l&#39;hypothèse.
 
    ![](assets/response_hypothesis_delivery_example_010.png)

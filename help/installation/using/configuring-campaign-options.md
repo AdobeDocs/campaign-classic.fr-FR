@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '3834'
-ht-degree: 100%
+source-wordcount: '3837'
+ht-degree: 99%
 
 ---
 
@@ -57,8 +57,9 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> Permet d’autoriser l’opérateur en charge de la diffusion à confirmer l’envoi, si un opérateur ou un groupe spécifique d’opérateurs est désigné pour démarrer une diffusion dans les propriétés de la diffusion.</p><p> Pour ce faire, activez l'option en saisissant "1" comme valeur. Pour désactiver cette option, entrez "0".</p><p> Le processus de confirmation des envois fonctionnera alors comme par défaut : seul l'opérateur ou le groupe d'opérateurs désigné pour l'envoi (ou un administrateur) dans les propriétés de la diffusion pourra confirmer et effectuer l'envoi. Consultez <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">cette section</a>.</p> </td> 
-   <tr> 
+   <td><p> Permet d’autoriser l’opérateur en charge de la diffusion à confirmer l’envoi, si un opérateur ou un groupe spécifique d’opérateurs est désigné pour démarrer une diffusion dans les propriétés de la diffusion.</p><p> Pour ce faire, activez l'option en saisissant "1" comme valeur. Pour désactiver cette option, entrez "0".</p><p> Le processus de confirmation des envois fonctionnera alors comme par défaut : seul l'opérateur ou le groupe d'opérateurs désigné pour l'envoi (ou un administrateur) dans les propriétés de la diffusion pourra confirmer et effectuer l'envoi. Consultez <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery" target="_blank">cette section</a>.</p> </td>
+
+<tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
    <td> Adobe Campaign utilise une variable globale "Nms_DefaultRcpSchema" pour dialoguer avec la base de destinataires par défaut (nms:recipient).<br /> La valeur de l'option doit correspondre au nom du schéma qui correspond à la table de destinataires externe.<br /> </td> 
   </tr> 
@@ -160,11 +161,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_RetryCount</span> <br /> </td> 
-   <td> Période entre deux reprises d'un email (en secondes).<br /> </td> 
+   <td> Période entre deux reprises d’un e-mail (en secondes).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_RetryPeriod</span> <br /> </td> 
-   <td> Période des reprises pour les emails.<br /> </td> 
+   <td> Période des reprises pour les e-mails.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsForecast_MsgWeightFormula</span> <br /> </td> 
@@ -208,7 +209,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>Cette option est utilisée par le workflow technique <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> pour le comptage du nombre de diffusions en cours.</p>Elle vous permet de définir le nombre de jours au-delà desquels les diffusions dont le statut est incohérent seront exclues du nombre de diffusions en cours.</p><p>Par défaut, la valeur est définie sur « 7 », ce qui signifie que les diffusions incohérentes remontant à plus de 7 jours seront exclues.</p></td> 
+   <td><p>Cette option est utilisée par le workflow technique <span class="uicontrol"><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=fr" target="_blank">operationMgt</a></span> pour le comptage du nombre de diffusions en cours.</p>Elle vous permet de définir le nombre de jours au-delà desquels les diffusions dont le statut est incohérent seront exclues du nombre de diffusions en cours.</p><p>Par défaut, la valeur est définie sur « 7 », ce qui signifie que les diffusions incohérentes remontant à plus de 7 jours seront exclues.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -364,7 +365,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> Vous permet de surveiller l’exécution du workflow technique <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a>. Si ce paramètre est activé (avec la valeur "1"), les informations d’exécution sont consignées dans les logs d’audit du workflow.<br /> </td> 
+   <td> Vous permet de surveiller l’exécution du workflow technique <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=fr" target="_blank">operationMgt</a>. Si ce paramètre est activé (avec la valeur "1"), les informations d’exécution sont consignées dans les logs d’audit du workflow.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 
@@ -441,7 +442,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkTraceDeleteLogin</span> <br /> </td> 
-   <td> Entrez la valeur "1" pour tracer la suppression des éléments avec les informations de piste de suivi dans le mData, via la modification de son champ "modifié par" avant la suppression de l'enregistrement.<br /> </td> 
+   <td> Entrez la valeur « 1 » pour tracer la suppression des éléments avec les informations du journal d’audit dans le mData, via la modification de son champ « modifié par » avant la suppression de l’enregistrement.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

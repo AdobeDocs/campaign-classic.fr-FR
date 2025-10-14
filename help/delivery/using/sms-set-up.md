@@ -6,10 +6,10 @@ feature: SMS
 role: User, Developer, Admin
 level: Experienced
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '1841'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1838'
+ht-degree: 99%
 
 ---
 
@@ -300,7 +300,7 @@ Lors du paramétrage d&#39;un nouveau compte externe de routage vers mobiles par
 
 >[!NOTE]
 >
->La correspondance entre la valeur du **data_coding** et l&#39;encodage réellement utilisé est standardisée. Cependant, certains SMSC possèdent une correspondance qui leur est propre : dans ce cas, votre administrateur **Adobe Campaign** doit déclarer cette correspondance. Consultez votre fournisseur pour en savoir plus.
+>Le mapping entre la valeur **data_coding** et l’encodage réellement utilisé est standardisé. Cependant, certains SMSC possèdent un mapping qui leur est propre : dans ce cas, l’équipe en charge de l’administration d’**Adobe Campaign** doit déclarer ce mapping. Consultez votre fournisseur pour en savoir plus.
 
 Vous pouvez déclarer des **data_coding** et forcer l&#39;encodage si besoin : pour ce faire, spécifiez un seul encodage dans le tableau.
 
@@ -353,7 +353,7 @@ La procédure de configuration d’un compte externe à l’aide du connecteur S
 
 ## Modifier le modèle de diffusion {#changing-the-delivery-template}
 
-Adobe Campaign vous met à disposition un modèle de diffusion vers les mobiles. Ce modèle est disponible dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]**. Pour plus d&#39;informations, consultez la section [Modèles](about-templates.md).
+Adobe Campaign vous met à disposition un modèle de diffusion vers les mobiles. Ce modèle est disponible dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]**. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"}.
 
 Pour diffuser par le canal SMS, vous devez créer un modèle dans lequel le connecteur du canal est référencé.
 

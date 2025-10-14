@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Deliverability
 role: User, Admin
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '571'
+ht-degree: 95%
 
 ---
 
@@ -19,12 +19,12 @@ Vous trouverez ci-dessous des détails sur les différents outils de surveillanc
 
 ## A propos du suivi de la délivrabilité {#about-deliverability-monitoring}
 
-Cette fonctionnalité est disponible via un package dédié dans Adobe Campaign. Pour l’utiliser, ce package doit être installé. Une fois l&#39;installation terminée, redémarrez le serveur pour que le package soit pris en compte.
+Cette fonctionnalité est disponible via un package dédié dans Adobe Campaign. Pour l’utiliser, ce package doit être installé. Une fois linstallation terminée, redémarrez le serveur pour que le package soit pris en compte.
 * Pour les clients hébergés et hybrides, la **supervision de la délivrabilité** est configurée sur votre instance par l&#39;assistance technique et les consultants d&#39;Adobe. Pour plus d&#39;informations, contactez votre chargé de compte Adobe.
 
 * Pour les installations on-premise, vous devez installer le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** via le menu **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Import de package]**. Pour plus dʼinformations, consultez la section [Installation de packages standard Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
 
-Dans Adobe Campaign Classic, la **supervision de la délivrabilité** est gérée par le workflow **[!UICONTROL Mise à jour pour la délivrabilité]**. Il est installé par défaut sur toutes les instances et permet d’initialiser la liste des règles de qualification des e-mails rejetés, la liste des domaines et la liste des MX. Une fois le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** installé, ce workflow s&#39;exécute de nuit pour mettre à jour régulièrement la liste des règles et vous permettre de gérer activement la délivrabilité des plateformes.
+Dans Adobe Campaign Classic, la **supervision de la délivrabilité** est gérée par le workflow **[!UICONTROL Mise à jour pour la délivrabilité]**. Il est installé par défaut sur toutes les instances et permet d’initialiser la liste des règles de qualification des e-mails rejetés, la liste des domaines et la liste des MX. Une fois le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** installé, ce workflow s’exécute de nuit pour mettre à jour régulièrement la liste des règles et vous permettre de gérer activement la délivrabilité des plateformes.
 
 Le package Délivrabilité vous donne accès aux informations suivantes :
 
@@ -54,6 +54,6 @@ Voici quelques directives supplémentaires concernant la supervision de la déli
 * Vérifiez que les [reprises](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) sont paramétrées correctement (30 minutes pour la période des reprises et plus de 20 reprises) dans les modèles de diffusion.
 * Vérifiez régulièrement que la boîte des [emails rebonds](understanding-delivery-failures.md#bounce-mail-management) est accessible et que le compte n’arrive pas à expiration.
 * Vérifiez chaque débit de diffusion, accessible à partir du [tableau de bord de diffusion](delivery-dashboard.md), pour vous assurer qu’il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).
-* Lors de l’utilisation des [vagues](steps-sending-the-delivery.md#sending-using-multiple-waves), vérifiez que chaque vague a le temps de se terminer avant le déclenchement de la suivante.
+* Lors de l’utilisation de vagues, vérifiez que chaque vague a suffisamment de temps pour se terminer avant que la suivante ne soit déclenchée. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#sending-using-multiple-waves){target="_blank"}.
 * Vérifiez que le nombre d’erreurs et les [mises en quarantaine](understanding-quarantine-management.md) correspondent aux autres diffusions.
 * Consultez attentivement les [logs de diffusion](delivery-dashboard.md#delivery-logs-and-history) pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc.).

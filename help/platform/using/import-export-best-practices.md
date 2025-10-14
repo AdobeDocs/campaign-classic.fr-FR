@@ -8,10 +8,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 100%
+source-wordcount: '529'
+ht-degree: 99%
 
 ---
 
@@ -60,8 +60,8 @@ Lorsque cela est possible, utilisez des fichiers compressés pour les imports et
 
 **Rubriques connexes :**
 
-* [Activité Chargement (fichier)](../../workflow/using/data-loading-file.md)
-* [Activité Extraction des données (fichier)](../../workflow/using/extraction-file.md)
+* [Activité Chargement (fichier)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}
+* [Activité Extraction (fichier)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}.
 
 ## Importer en mode Delta {#importing-in-delta-mode}
 
@@ -74,7 +74,7 @@ Les imports complets sont réservés au chargement initial.
 Pour maintenir la cohérence des données dans la base de données Adobe Campaign, veuillez appliquer les principes suivants :
 
 * Si les données importées correspondent à une table de référence dans Adobe Campaign, elles doivent être réconciliées avec ce tableau dans le workflow. Les enregistrements sans correspondance doivent être rejetés.
-* Assurez-vous que les données importées soient toujours **« normalisées »** (email, numéro de téléphone, adresse postale) et que cette normalisation soit fiable et ne risque pas de changer pas au fil des années. Si ce n’est pas le cas, des doublons risquent d’apparaître dans la base de données, et dans la mesure où Adobe Campaign ne fournit pas d’outils de « correspondance approximative », leur suppression sera très difficile.
-* Les données transactionnelles doivent être dotées d&#39;une clé de réconciliation et être réconciliées avec les données existantes afin d&#39;éviter la création de doublons.
+* Assurez-vous que les données importées soient toujours **« normalisées »** (e-mail, numéro de téléphone, adresse postale) et que cette normalisation soit fiable et ne risque pas de changer pas au fil des années. Si ce n’est pas le cas, des doublons risquent d’apparaître dans la base de données, et dans la mesure où Adobe Campaign ne fournit pas d’outils de « correspondance approximative », leur suppression sera très difficile.
+* Les données transactionnelles doivent être dotées d’une clé de réconciliation et être réconciliées avec les données existantes afin d’éviter la création de doublons.
 * **Les fichiers liés doivent être importés dans l&#39;ordre**. Si l&#39;import est composé de fichiers multiples et interdépendants, le workflow doit vérifier que les fichiers sont importés dans l&#39;ordre. Si un fichier échoue, les autres fichiers ne sont pas importés.
 * **Dédupliquez**, réconciliez et maintenez la cohérence lorsque vous importez des données.

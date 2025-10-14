@@ -7,16 +7,16 @@ role: User, Developer, Data Engineer
 hide: true
 hidefromtoc: true
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 98%
+source-wordcount: '753'
+ht-degree: 96%
 
 ---
 
 # Créer des notifications pour Android{#create-notificaations-android}
 
-Utilisez Adobe Campaign pour envoyer des notifications push sur les appareils Android. Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
+Utilisez Adobe Campaign pour envoyer des notifications push sur les appareils Android. Les concepts généraux relatifs à la création de diffusions sont présentés dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
 Créez tout d&#39;abord une nouvelle diffusion.
 
@@ -47,7 +47,7 @@ Pour plus d&#39;informations sur les types de messages Firebase Cloud Messagin
 
    ![](assets/nmac_android_7.png)
 
-1. Dans la fenêtre **[!UICONTROL Type de cible]**&#x200B;**&#x200B;**, sélectionnez Abonnés d&#39;une application mobile Android, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Dans la fenêtre **[!UICONTROL Type de cible]******, sélectionnez Abonnés d&#39;une application mobile Android, puis cliquez sur **[!UICONTROL Suivant]**.
 
 1. Dans la liste déroulante **[!UICONTROL Service]**, sélectionnez le service créé précédemment, puis l&#39;application ciblée, et cliquez sur **[!UICONTROL Terminer]**.
 Les **[!UICONTROL variables d&#39;application]** sont automatiquement ajoutées en fonction de ce qui a été incorporé au cours des étapes de configuration.
@@ -84,7 +84,7 @@ L&#39;image et la page web doivent s&#39;afficher dans la notification push lors
 
    ![](assets/nmac_android_7.png)
 
-1. Dans la fenêtre **[!UICONTROL Type de cible]**&#x200B;**&#x200B;**, sélectionnez Abonnés d&#39;une application mobile Android, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Dans la fenêtre **[!UICONTROL Type de cible]******, sélectionnez Abonnés d&#39;une application mobile Android, puis cliquez sur **[!UICONTROL Suivant]**.
 
 1. Dans la liste déroulante **[!UICONTROL Service]**, sélectionnez le service créé précédemment, puis l&#39;application ciblée, et cliquez sur **[!UICONTROL Terminer]**.
 

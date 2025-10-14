@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '656'
+ht-degree: 99%
 
 ---
 
@@ -56,10 +56,10 @@ Adobe Campaign fournit différents outils pour suivre et améliorer les perform
 
 Lors de la configuration, de la conception et du test de votre message, assurez-vous de suivre les bonnes pratiques mentionnées dans les sections ci-dessous. Tirer parti de toutes les fonctionnalités d&#39;Adobe Campaign contribue à améliorer la délivrabilité.
 
-* [Bonnes pratiques relatives à la diffusion](delivery-best-practices.md)
+* [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"}.
 * [Contrôle du contenu des e-mails](control-message-content.md)
-* [Inbox rendering](inbox-rendering.md)
-* [Envoyer un bon à tirer](steps-validating-the-delivery.md#sending-a-proof)
+* [Inbox rendering    ](inbox-rendering.md)
+* [Envoi d&#39;un BAT](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}
 
 ### Vérification du consentement par le biais du double opt-in {#double-opt-in}
 

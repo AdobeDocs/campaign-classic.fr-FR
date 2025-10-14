@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '130'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 67%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Les étapes clés de création d&#39;une diffusion sont les suivantes :
 
-1. **Créer et identifier la diffusion**. [En savoir plus](steps-create-and-identify-the-delivery.md)
+1. **Créer et identifier la diffusion**. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#create-the-delivery){target="_blank"}.
 
 1. **Définir le contenu de la diffusion**. La définition du contenu de diffusion est spécifique à chaque canal. Voir à ce sujet la section dédiée :
 
@@ -27,7 +27,7 @@ Les étapes clés de création d&#39;une diffusion sont les suivantes :
    * [Canal courrier](defining-the-direct-mail-content.md)
    * [Canal des applications mobiles](about-mobile-app-channel.md)
 
-1. **Définir la population cible**. [En savoir plus](steps-defining-the-target-population.md)
+1. **Définir la population cible**. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message#target-population.html){target="_blank"}.
 
 1. **Envoyer la diffusion**. [En savoir plus](steps-sending-the-delivery.md)
 
@@ -35,4 +35,4 @@ Les étapes clés de création d&#39;une diffusion sont les suivantes :
 
 >[!NOTE]
 >
->Les étapes décrites dans ce chapitre supposent que tous les destinataires cibles et leurs profils sont stockés dans la base de données, sauf dans le cas d’une diffusion externe (voir la section [Sélectionner les destinataires externes](steps-defining-the-target-population.md#selecting-external-recipients)).
+>Les étapes décrites dans ce chapitre supposent que tous les destinataires cibles et leurs profils sont stockés dans la base de données, sauf dans le cas d&#39;une diffusion externe (voir la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"}.

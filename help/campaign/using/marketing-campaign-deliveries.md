@@ -7,10 +7,10 @@ feature: Campaigns, Resource Management, Cross Channel Orchestration
 hide: true
 hidefromtoc: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
-source-wordcount: '1550'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1556'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Pour créer une diffusion associée à une opération, cliquez sur le lien **[!U
 
 ![](assets/campaign_op_add_delivery.png)
 
-Les paramétrages proposés sont adaptés au type de diffusion : courrier, email, canaux mobiles. [En savoir plus](../../delivery/using/steps-about-delivery-creation-steps.md).
+Les paramétrages proposés sont adaptés au type de diffusion : courrier, email, canaux mobiles. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
 ## Démarrage dʼune diffusion {#starting-a-delivery}
 
@@ -58,7 +58,7 @@ Une fois toutes les validations accordées, le statut de la diffusion passe à *
 
 >[!NOTE]
 >
->Les workflows techniques liés au kit d&#39;opération sont présentés dans la [Liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
+>Les workflows techniques liés au kit de campagne sont présentés dans la [Liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
 
 **Etape 1 - Valider le fichier**
 
@@ -238,6 +238,6 @@ Le modèle d&#39;export doit être associé au prestataire sélectionné pour la
 
 Cette vidéo explique comment créer une campagne et un e-mail dans Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27487?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

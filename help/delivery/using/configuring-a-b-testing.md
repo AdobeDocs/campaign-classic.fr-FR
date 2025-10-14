@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: A/B Testing
 role: User
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 83%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 Cette section décrit comment créer un workflow pour effectuer des tests A/B.
 
-1. Créez un nouveau workflow, puis configurez une activité [Requête](../../workflow/using/query.md) pour cibler la population souhaitée.
+1. Créez un workflow, puis configurez une activité Requête pour cibler la population souhaitée. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
 
-1. Ajoutez une activité [Partage](../../workflow/using/split.md) pour diviser la population ciblée en plusieurs sous-ensembles.
+1. Ajoutez une activité Partage pour diviser la population ciblée en plusieurs sous-ensembles. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"}.
 
 1. Ouvrez l&#39;activité, puis configurez chaque sous-ensemble en fonction de vos besoins. Pour plus d&#39;informations sur le paramétrage d&#39;une activité **[!UICONTROL Partage]**, consultez [cette section](../../workflow/using/split.md).
 

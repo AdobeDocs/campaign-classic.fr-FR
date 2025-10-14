@@ -5,10 +5,10 @@ description: Rapports sur les diffusions
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 99%
+source-wordcount: '1655'
+ht-degree: 98%
 
 ---
 
@@ -158,7 +158,7 @@ Ce rapport présente l&#39;ensemble des informations principales relatives à la
 Cette section comporte deux indicateurs :
 
 * **[!UICONTROL Population initiale]** : Nombre total de destinataires auxquels la diffusion est destinée.
-* **[!UICONTROL Messages rejetés par règle]** : nombre d&#39;adresses ignorées pendant l&#39;analyse lors de l&#39;application des règles de typologie : adresse manquante, mise en quarantaine, ajoutée à la liste bloquée, etc. Pour plus d’informations sur les règles de typologie, consultez cette [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+* **[!UICONTROL Messages rejetés par règle]** : nombre d&#39;adresses ignorées pendant l&#39;analyse lors de l&#39;application des règles de typologie : adresse manquante, mise en quarantaine, ajoutée à la liste bloquée, etc. Pour plus d’informations sur les règles de typologie, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
 
 **[!UICONTROL Causes d&#39;exclusion]**
 

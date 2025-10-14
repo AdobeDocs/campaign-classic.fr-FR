@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '445'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 94%
 
 ---
 
@@ -22,14 +22,14 @@ Pour créer une diffusion SMS, procédez comme suit :
 
 >[!NOTE]
 >
->Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
+>Les concepts généraux relatifs à la création de diffusions sont présentés dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
 1. Créez une diffusion, par exemple depuis le tableau de bord des diffusions.
 1. Sélectionnez le modèle de diffusion **Envoyé vers mobiles (SMPP)** que vous avez créé précédemment. Pour plus d&#39;informations, consultez la section [Modifier le modèle de diffusion](sms-set-up.md#changing-the-delivery-template).
 
    ![](assets/s_user_mobile_wizard.png)
 
-1. Identifiez votre diffusion avec un libellé, un code et une description. Pour plus d’informations, consultez [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
+1. Identifiez votre diffusion avec un libellé, un code et une description. Pour plus d’informations à ce sujet, consultez cette section dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#create-the-delivery){target="_blank"}.
 1. Cliquez sur **[!UICONTROL Continuer]** pour valider ces informations et afficher la fenêtre de configuration du message.
 
 ## Définition du contenu du SMS {#defining-the-sms-content}

@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Pour ce faire, les fichiers .eml correspondant aux emails envoyés sont transfé
 * Pour les **architectures hybrides et hébergées**, contactez votre chargé de compte Adobe afin de l&#39;activer. L&#39;adresse email en Cci de votre choix doit être fournie à l&#39;équipe Adobe qui la configurera pour vous.
 * Pour les **installations On-premise**, suivez les instructions d&#39;activation ci-dessous : voir les sections [Activer les emails Cci (On-premise)](#activating-email-archiving--on-premise-) et [Configuration de l&#39;adresse email en Cci (on-premise)](#configuring-the-bcc-email-address--on-premise-).
 * Vous ne pouvez utiliser qu&#39;une seule adresse email en Cci.
-* Une fois que la fonctionnalité Email Cci est configurée, assurez-vous qu&#39;elle est activée dans le modèle de diffusion ou dans la diffusion via l&#39;option **[!UICONTROL Email Cci]**. Voir à ce propos [cette section](../../delivery/using/sending-messages.md#archiving-emails).
+* Une fois que la fonctionnalité Email Cci est configurée, assurez-vous qu&#39;elle est activée dans le modèle de diffusion ou dans la diffusion via l&#39;option **[!UICONTROL Email Cci]**. consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 * Seuls les e-mails envoyés sont pris en compte, les rebonds ne le sont pas.
 * Le système d&#39;archivage des emails a été modifié avec Adobe Campaign 17.2 (build 8795). Si vous utilisiez déjà l&#39;archivage des emails, vous devez effectuer une mise à niveau manuelle vers le nouveau système d&#39;Email Cci. Pour plus d’informations, consultez la section [Déplacement vers le nouvel Email Cci](#updated-email-archiving-system--bcc-).
 
@@ -134,7 +134,7 @@ Dans le fichier **config-`<instance name>.xml`**, utilisez les paramètres suiva
 <!--
 ## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
 
-[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"}
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
 
 >[!IMPORTANT]
 >

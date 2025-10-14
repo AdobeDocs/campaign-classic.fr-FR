@@ -8,10 +8,10 @@ content-type: reference
 level: Beginner, Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '760'
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ Outre le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](
 
 Grâce à Campaign, vous pouvez mettre en place des processus de validation des principales étapes d’une campagne marketing, dans un mode collaboratif. Pour chaque opération, vous pouvez valider la cible de diffusion, le contenu et les coûts. Les opérateurs Adobe Campaign en charge de la validation peuvent être avertis par e-mail et peuvent accepter ou refuser la validation depuis la console ou via une connexion web.
 
-[Cliquez ici pour en savoir plus](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries) et découvrir les étapes permettant d’implémenter la validation du contenu de vos diffusions dans Campaign.
+Découvrez comment implémenter la validation du contenu de votre diffusion dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#review-and-approve-deliveries){target="_blank"}.
 
 ## Comment accéder aux données stockées dans une base de données externe ?  {#how-can-i-access-data-stored-in-an-external-database-}
 

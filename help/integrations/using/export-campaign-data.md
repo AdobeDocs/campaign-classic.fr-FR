@@ -6,10 +6,10 @@ feature: Experience Platform Integration
 audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 96%
+source-wordcount: '482'
+ht-degree: 90%
 
 ---
 
@@ -31,11 +31,11 @@ Pour exporter des données de Campaign Classic vers votre emplacement de stocka
 
 Pour ce faire, ajoutez et configurez les éléments suivants :
 
-* Une activité **[!UICONTROL Extraction (fichier)]** pour extraire les données ciblées dans un fichier CSV. Pour plus d&#39;informations sur la configuration de cette activité, consultez [cette section](../../workflow/using/extraction-file.md).
+* Une activité **[!UICONTROL Extraction (fichier)]** pour extraire les données ciblées dans un fichier CSV. Pour plus d’informations sur la configuration de cette activité, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}.
 
   ![](assets/rtcdp-extract-file.png)
 
-* Une activité **[!UICONTROL Transfert de fichier]** pour transférer le fichier CSV vers votre emplacement de stockage. Pour plus d’informations sur la configuration de cette activité, consultez [cette section](../../workflow/using/file-transfer.md).
+* Une activité **[!UICONTROL Transfert de fichier]** pour transférer le fichier CSV vers votre emplacement de stockage. Pour plus d’informations sur la configuration de cette activité, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
 
   ![](assets/rtcdp-file-transfer.png)
 
@@ -58,7 +58,7 @@ Les étapes principales pour connecter votre emplacement de stockage S3 ou Azure
 
    ![](assets/rtcdp-connector.png)
 
-1. Configurez un flux de données pour une connexion par lots vers l’espace de stockage. Un flux de données est une tâche planifiée qui récupère et ingère des données issues de l’emplacement de stockage pour obtenir un jeu de données Adobe Experience Platform. Cette procédure permet de configurer l’ingestion des données depuis votre emplacement de stockage, y compris la sélection des données et le mappage des champs CSV avec un schéma XDM.
+1. Configurez un flux de données pour une connexion par lots vers l’espace de stockage. Un flux de données est une tâche planifiée qui récupère et ingère des données issues de l’emplacement de stockage pour obtenir un jeu de données Adobe Experience Platform. Cette procédure permet de configurer l’ingestion des données depuis votre emplacement de stockage, y compris la sélection des données et le mapping des champs CSV avec un schéma XDM.
 
    Des informations détaillées sont disponibles dans [cette page](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html?lang=fr).
 

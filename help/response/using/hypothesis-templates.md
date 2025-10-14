@@ -8,10 +8,10 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 100%
+source-wordcount: '1519'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ L&#39;onglet **[!UICONTROL Général]** du modèle permet de définir les option
   >
   >Si le modèle est paramétré pour tenir compte d&#39;une population témoin et qu&#39;aucun témoin n&#39;est défini dans la diffusion sur laquelle sont faites les hypothèses, les résultats ne seront basés que sur les destinataires ciblés.
 
-  La définition et le paramétrage d&#39;une population témoin sont présentés dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+  Pour plus d’informations sur la définition et la configuration d’une population témoin, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target=_blank}.
 
 * **[!UICONTROL Canal]** : vous pouvez choisir un canal spécifique ou mettre le modèle d&#39;hypothèse à la disposition de tous les canaux dans la console Adobe Campaign en sélectionnant l&#39;option **[!UICONTROL Tous les canaux]** dans la liste déroulante. Si vous paramétrez le modèle pour un canal particulier, cela permet de filtrer automatiquement les diffusions par canal au moment de la création de l&#39;hypothèse. [Apprenez-en davantage](creating-hypotheses.md)
 
@@ -96,7 +96,7 @@ L&#39;onglet **[!UICONTROL Général]** du modèle permet également de définir
 
       ![](assets/response_frequency_execution_001.png)
 
-   1. Paramétrez le type de périodicité, les événements de la périodicité et la période de validité des événements.
+   1. Configurez la fréquence, la périodicité des événements et la période de validité.
 
       ![](assets/response_frequency_execution_002.png)
 
@@ -123,7 +123,7 @@ Cet onglet contient les différents champs et tables permettant de conserver l&#
 * **[!UICONTROL Lien vers les individus]** : sélectionnez le lien entre les individus et la table sélectionnée comme schéma des transactions.
 * **[!UICONTROL Lien vers le foyer]** : sélectionnez le lien vers le foyer dans le schéma des transactions si vous souhaitez inclure l&#39;ensemble des membres d&#39;un foyer dans votre hypothèse. Ce champ est optionnel.
 * **[!UICONTROL Date de transaction]** : ce champ est optionnel mais recommandé car il permet de délimiter le périmètre du calcul de l&#39;hypothèse.
-* **[!UICONTROL Période de calcul de la mesure]** : permet de paramétrer les dates de début et de fin pendant lesquelles les hypothèses s&#39;exécutent et les lignes d&#39;achat sont récupérées.
+* **[!UICONTROL Période de calcul de la mesure]** : permet de paramétrer les dates de début et de fin pendant lesquelles les hypothèses s’exécutent et les lignes d’achat sont récupérées.
 
   Lorsque l&#39;hypothèse est rattachée à une diffusion, la mesure se déclenche automatiquement quelques jours après la date de contact, dans le cas d&#39;une diffusion courrier, ou après la date d&#39;envoi s&#39;il s&#39;agit d&#39;une diffusion email ou SMS.
 
