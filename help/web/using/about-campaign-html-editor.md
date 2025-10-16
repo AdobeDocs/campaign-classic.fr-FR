@@ -5,10 +5,10 @@ description: Prise en main du DCE Campaign
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 95%
+source-wordcount: '276'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Avec le Digital Content Editor, vous pouvez insérer et mettre en forme des él�
 
 >[!NOTE]
 >
->Si vous devez ajouter du code JavaScript côté serveur, utilisez des blocs de personnalisation. [En savoir plus](../../delivery/using/personalization-blocks.md).
+>Si vous devez ajouter du code JavaScript côté serveur, utilisez des blocs de personnalisation. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -52,7 +52,7 @@ Pour créer une **diffusion email**, vous devez :
 1. Créer une diffusion à partir d‘un modèle du DCE - [En savoir plus](use-case-creating-an-email-delivery.md)
 1. Sélectionner un contenu existant ou créer un contenu à partir d’un [modèle standard](template-management.md)
 1. Modifier et configurer du contenu en ligne
-1. Envoyer la diffusion - En savoir plus dans la documentation [&#x200B; Campaign v8 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}
+1. Envoyer la diffusion - En savoir plus dans la documentation [ Campaign v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
 
 >[!NOTE]
 >

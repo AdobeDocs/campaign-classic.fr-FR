@@ -5,10 +5,10 @@ description: Désinscription (opt-out) du tracking des applications web
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Si un utilisateur final se désinscrit (opt-out) du tracking comportemental via 
 
 Pour s&#39;afficher dans des applications Web ou des landing pages, la bannière doit être configurée.
 
-Adobe Campaign propose un exemple de bannière que vous devez adapter à vos besoins. Cette version de bannière apparaît en tant que bloc de personnalisation dans le dossier des modèles de contenu. Pour plus d’informations, consultez [cette page](../../delivery/using/personalization-blocks.md).
+Adobe Campaign propose un exemple de bannière que vous devez adapter à vos besoins. Cette version de bannière apparaît en tant que bloc de personnalisation dans le dossier des modèles de contenu. consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -83,7 +83,7 @@ Les API côté client disponibles pour personnaliser la bannière sont les suiva
 * **NL.ClientWebTracking.forbid()** : définit la valeur du cookie d&#39;opt-out de sorte à interdire le tracking web. Pour être interdit, le tracking web nécessite une saisie de l&#39;utilisateur.
 * **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)** : ferme la bannière du cookie d&#39;opt-out une fois que l&#39;utilisateur a cliqué sur le bouton d&#39;acceptation ou de refus (pendant la phase de propagation de l&#39;événement clic).
 
-  bannerDomElt {DOMElement} : élément DOM racine de la bannière du cookie qui doit être supprimé.
+  bannerDomElt {DOMElement} l’élément DOM racine de la bannière de cookie qui doit être supprimé
 
 * **NL.ClientWebTracking.hasUserPrefs()** : renvoie la valeur true si l’utilisateur a choisi les préférences du tracking web.
 * **NL.ClientWebTracking.getUserPrefs()**: renvoie la valeur du cookie d&#39;opt-out qui définit les préférences de l&#39;utilisateur.
@@ -92,7 +92,7 @@ Si vous devez écrire du code JSSP, les API côté serveur suivantes sont dispon
 
 * **NL.ServerWebTracking.generateOptOutBanner(escapeJs)** : génère les balises pour que bannière d&#39;opt-out soit insérée dans la page JSSP.
 
-  **escapeJs {Boolean}** : a la valeur true lorsque les balises générées doivent être placées dans une séquence d&#39;échappement afin d&#39;être utilisées dans le script JavaScript.
+  **escapeJs{Boolean}** : renvoie la valeur true lorsque les balises générées doivent être placées dans une séquence d’échappement pour être utilisées dans JavaScript.
 
   Cette chaîne renvoie le code HTML des balises de la bannière d&#39;opt-out qui doivent être imprimées sur la page.
 
@@ -108,7 +108,7 @@ Si vous devez écrire du code JSSP, les API côté serveur suivantes sont dispon
 
   effectue le rendu des balises pour la bannière d&#39;opt-out en les insérant dans la page JSSP. Elle est appelée telle quelle dans JSSP entre &lt;% %>.
 
-  **escapeJs {Boolean}** : a la valeur true lorsque les balises générées doivent être placées dans une séquence d&#39;échappement afin d&#39;être utilisées dans le script JavaScript.
+  **escapeJs{Boolean}** : renvoie la valeur true lorsque les balises générées doivent être placées dans une séquence d’échappement pour être utilisées dans JavaScript
 
 Exemple JSSP :
 

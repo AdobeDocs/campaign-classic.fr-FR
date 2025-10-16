@@ -6,9 +6,9 @@ title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '2744'
 ht-degree: 72%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 72%
       + [Concevoir des messages](platform/using/faq-designing.md)
       + [Envoi de messages](platform/using/faq-messages.md)
       + [Workflows](platform/using/faq-workflows.md)
-      + [Configuration &#x200B;](platform/using/faq-campaign-config.md)
+      + [Configuration ](platform/using/faq-campaign-config.md)
       + [Rapports](platform/using/faq-reporting.md)
       + [Développement](platform/using/faq-developers.md)
    + [Glossaire](platform/using/ac-glossary.md)
@@ -164,11 +164,11 @@ ht-degree: 72%
       + [Création d’une diffusion depuis un modèle - MASQUÉ](delivery/using/creating-a-delivery-from-a-template.md)
    + Personnaliser les diffusions {#personalizing-deliveries}
       + [À propos de la personnalisation](delivery/using/about-personalization.md)
-      + [Champs de personnalisation](delivery/using/personalization-fields.md)
-      + [Blocs de personnalisation](delivery/using/personalization-blocks.md)
-      + [Contenu conditionnel](delivery/using/conditional-content.md)
-      + [Coupons personnalisés](delivery/using/personalized-coupons.md)
-      + [Génération de documents PDF personnalisés](delivery/using/generating-personalized-pdf-documents.md)
+      + [Champs de personnalisation - MASQUÉS](delivery/using/personalization-fields.md)
+      + [Blocs de personnalisation - MASQUÉS](delivery/using/personalization-blocks.md)
+      + [Contenu conditionnel - MASQUÉ](delivery/using/conditional-content.md)
+      + [Coupons personnalisés - HIDDEN](delivery/using/personalized-coupons.md)
+      + [Génération de documents PDF personnalisés - MASQUÉS](delivery/using/generating-personalized-pdf-documents.md)
       + [Personnalisation de la liste des émoticônes](delivery/using/customizing-emoticon-list.md)
    + Utiliser des adresses de contrôle {#using-seed-addresses}
       + [À propos des adresses de contrôle](delivery/using/about-seed-addresses.md)
@@ -271,7 +271,7 @@ ht-degree: 72%
    + [Cas d’utilisation - MASQUÉ](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
    + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-   + [Configuration &#x200B;](response/using/configuration.md)
+   + [Configuration ](response/using/configuration.md)
    + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
    + [Création d’hypothèses](response/using/creating-hypotheses.md)
    + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -672,7 +672,7 @@ ht-degree: 72%
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création d’instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign &#x200B;](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstallation de Campaign](installation/using/uninstalling-campaign.md)
       + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
@@ -683,8 +683,8 @@ ht-degree: 72%
    + Procédures d’exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
-      + [Administration &#x200B;](production/using/administration.md)
-      + [Configuration &#x200B;](production/using/configuration.md)
+      + [Administration ](production/using/administration.md)
+      + [Configuration ](production/using/configuration.md)
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)

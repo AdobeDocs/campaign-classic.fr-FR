@@ -5,11 +5,13 @@ description: Découvrez comment créer et insérer des coupons personnalisés
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Personalization
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 100%
+source-wordcount: '991'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +21,7 @@ Le fait d’ajouter des coupons à vos diffusions peut donner une valeur ajouté
 
 >[!AVAILABILITY]
 >
->La gestion des coupons n’est pas disponible dans Campaign v8 dans le contexte d’un déploiement Entreprise (FFDA). En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
+>La gestion des coupons n’est pas disponible dans Campaign v8 dans le contexte d’un déploiement Entreprise (FFDA). En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
 
 La gestion des coupons nécessite un package qui doit être installé. Pour confirmer que vous disposez de la Gestion des coupons, allez dans **[!UICONTROL Administration > Configuration > Gestion des packages > Packages installés.]**
 

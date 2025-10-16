@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 100%
+source-wordcount: '761'
+ht-degree: 99%
 
 ---
 
@@ -119,7 +119,7 @@ La méthode générale pour ajouter un captcha dans le DCE consiste à créer un
 
 1. Utilisez le type de contenu **[!UICONTROL Application web]** et cochez l’option **[!UICONTROL Afficher dans les menus de personnalisation]**.
 
-   Pour plus d’informations, consultez [cette page](../../delivery/using/personalization-blocks.md).
+   Pour plus d’informations, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
    Voici un exemple de **Captcha Campaign** :
 

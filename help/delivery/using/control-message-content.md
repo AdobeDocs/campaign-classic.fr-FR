@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 92%
+source-wordcount: '777'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ Suivez les principes ci-dessous lors de la conception du contenu de votre messag
 * [Personnalisation](#personalization) : la personnalisation du contenu et la définition d’une heure d’envoi par destinataire augmentent les chances d’ouverture de votre message.
 * Images et texte : respectez un ratio texte/images correct (par exemple, 60 % de texte et 40 % d’images).
 * [Lien de désinscription](#opt-out) et landing page correspondante : le lien de désinscription est indispensable. Il doit être visible et valide. En outre, le formulaire doit être fonctionnel.
-* Prévisualisation : utilisez les outils fournis par Adobe Campaign pour vérifier et optimiser le contenu de votre email ([Inbox Rendering](#message-responsiveness), [&#x200B; SpamAssassin emails](#spamassassin)).
+* Prévisualisation : utilisez les outils fournis par Adobe Campaign pour vérifier et optimiser le contenu de votre email ([Inbox Rendering](#message-responsiveness), [ SpamAssassin emails](#spamassassin)).
 
 Pour obtenir des conseils supplémentaires sur l’optimisation de la délivrabilité lors de la conception du contenu, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=fr).
 
@@ -43,15 +43,15 @@ Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.c
 
 Pour améliorer l’expérience de vos destinataires et les inciter à ouvrir votre e-mail, Adobe Campaign vous permet de personnaliser vos messages.
 
-Pour plus d’informations sur l’utilisation des champs de personnalisation dans Adobe Campaign, voir [cette section](personalization-fields.md).
+Pour plus d’informations sur l’utilisation des champs de personnalisation dans Adobe Campaign, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-fields){target="_blank"}.
 
 ## Lien et formulaire d’opt-out {#opt-out}
 
-Par défaut, une règle de typologie vérifie au moment de l’analyse du message qu’un lien d’opt-out est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence. Vous pouvez modifier cette règle afin qu&#39;une erreur soit générée plutôt qu&#39;un simple avertissement et qu&#39;une diffusion ne sorte pas sans ce lien. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=fr){target="_blank"}.
+Par défaut, une règle de typologie vérifie au moment de l’analyse du message qu’un lien d’opt-out est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence. Vous pouvez modifier cette règle afin qu&#39;une erreur soit générée plutôt qu&#39;un simple avertissement et qu&#39;une diffusion ne sorte pas sans ce lien. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
 
 Vous devez vérifier le bon fonctionnement du lien d&#39;opt-out avant chaque envoi. Par exemple, lors de l’envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que sa validation change bien la valeur de **[!UICONTROL Ne plus contacter cette personne]** à **[!UICONTROL Oui]**. Cette vérification doit être systématique car on ne peut pas exclure une erreur humaine dans la saisie du lien ou dans la modification du formulaire.
 
-Découvrez comment insérer un lien d&#39;opt-out [dans cette section](personalization-blocks.md#personalization-blocks-example).
+Découvrez comment insérer un processus d’opt-out dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 Au cas où un problème empêchant l’exclusion ne serait détecté qu’après le démarrage de la diffusion, il sera toutefois possible d’exclure manuellement (à l’aide d’une mise à jour en masse, par exemple) les destinataires qui ont cliqué sur le lien d’opt-out, même s’ils n’ont pas pu confirmer ce choix.
 

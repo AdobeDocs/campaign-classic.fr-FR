@@ -5,10 +5,10 @@ description: Modifier le contenu
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 99%
+source-wordcount: '1254'
+ht-degree: 97%
 
 ---
 
@@ -259,4 +259,4 @@ L&#39;option **Bloc de personnalisation** permet d&#39;insérer des blocs dynami
 
 Après l&#39;insertion, le nom du bloc de personnalisation apparaît dans l&#39;éditeur, surligné en jaune. Il sera automatiquement adapté au profil du destinataire lors de la génération de la personnalisation.
 
-Pour plus d’informations sur les blocs de personnalisation natifs  et sur la définition des blocs de personnalisation personnalisés, consultez [cette page](../../delivery/using/personalization-blocks.md).
+Pour plus d’informations sur les blocs de personnalisation intégrés et sur la définition de blocs de personnalisation personnalisés, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
