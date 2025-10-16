@@ -82,7 +82,7 @@ Sélectionnez le format du mail dans la section inférieure de la fenêtre :
 
 La page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l&#39;email.
 
-Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’email. Pour plus d’informations sur l’insertion de blocs de personnalisation, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
+Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’email. Pour plus d’informations sur l’insertion de blocs de personnalisation, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
 
 Dans les propriétés de diffusion, le champ **[!UICONTROL Mode]** de l&#39;onglet **[!UICONTROL Validité]** vous permet de modifier le mode de génération de la page.
 

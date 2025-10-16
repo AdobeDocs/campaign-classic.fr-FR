@@ -43,15 +43,15 @@ Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.c
 
 Pour améliorer l’expérience de vos destinataires et les inciter à ouvrir votre e-mail, Adobe Campaign vous permet de personnaliser vos messages.
 
-Pour plus d’informations sur l’utilisation des champs de personnalisation dans Adobe Campaign, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-fields){target="_blank"}.
+Pour plus d’informations sur l’utilisation des champs de personnalisation dans Adobe Campaign, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/personalize/personalization-fields){target="_blank"}.
 
 ## Lien et formulaire d’opt-out {#opt-out}
 
-Par défaut, une règle de typologie vérifie au moment de l’analyse du message qu’un lien d’opt-out est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence. Vous pouvez modifier cette règle afin qu&#39;une erreur soit générée plutôt qu&#39;un simple avertissement et qu&#39;une diffusion ne sorte pas sans ce lien. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
+Par défaut, une règle de typologie vérifie au moment de l’analyse du message qu’un lien d’opt-out est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence. Vous pouvez modifier cette règle afin qu&#39;une erreur soit générée plutôt qu&#39;un simple avertissement et qu&#39;une diffusion ne sorte pas sans ce lien. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=fr){target="_blank"}.
 
 Vous devez vérifier le bon fonctionnement du lien d&#39;opt-out avant chaque envoi. Par exemple, lors de l’envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que sa validation change bien la valeur de **[!UICONTROL Ne plus contacter cette personne]** à **[!UICONTROL Oui]**. Cette vérification doit être systématique car on ne peut pas exclure une erreur humaine dans la saisie du lien ou dans la modification du formulaire.
 
-Découvrez comment insérer un processus d’opt-out dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
+Découvrez comment insérer un processus d’opt-out dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
 
 Au cas où un problème empêchant l’exclusion ne serait détecté qu’après le démarrage de la diffusion, il sera toutefois possible d’exclure manuellement (à l’aide d’une mise à jour en masse, par exemple) les destinataires qui ont cliqué sur le lien d’opt-out, même s’ils n’ont pas pu confirmer ce choix.
 

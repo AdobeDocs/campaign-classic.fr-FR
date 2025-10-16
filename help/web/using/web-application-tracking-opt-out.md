@@ -28,7 +28,7 @@ Si un utilisateur final se désinscrit (opt-out) du tracking comportemental via 
 
 Pour s&#39;afficher dans des applications Web ou des landing pages, la bannière doit être configurée.
 
-Adobe Campaign propose un exemple de bannière que vous devez adapter à vos besoins. Cette version de bannière apparaît en tant que bloc de personnalisation dans le dossier des modèles de contenu. consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
+Adobe Campaign propose un exemple de bannière que vous devez adapter à vos besoins. Cette version de bannière apparaît en tant que bloc de personnalisation dans le dossier des modèles de contenu. consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
 
 >[!IMPORTANT]
 >
