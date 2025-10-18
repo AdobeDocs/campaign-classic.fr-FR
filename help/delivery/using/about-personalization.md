@@ -45,8 +45,8 @@ Découvrez les étapes clés liées au contenu conditionnel et à la personnalis
 Reportez-vous à ces pages pour en savoir plus sur les coupons personnalisés, les documents PDF et la personnalisation des émoticônes **dans la documentation de Campaign v8** :
 
 * [Coupons personnalisés](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/ppersonalized-coupons.html){target="_blank"} : découvrez comment créer et attribuer des coupons personnalisés ou anonymes dans vos diffusions e-mail.
-* [Générer des documents PDF personnalisés](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html){target="_blank"} : découvrez comment générer des pièces jointes PDF avec du contenu personnalisé pour chaque destinataire.
-* [Personnaliser la liste des émoticônes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html){target="_blank"} : découvrez comment ajouter et gérer des émoticônes pour améliorer les e-mails.
+* [Générer des documents PDF personnalisés](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html?lang=fr){target="_blank"} : découvrez comment générer des pièces jointes PDF avec du contenu personnalisé pour chaque destinataire.
+* [Personnaliser la liste des émoticônes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html?lang=fr){target="_blank"} : découvrez comment ajouter et gérer des émoticônes pour améliorer les e-mails.
 
 >[!ENDTABS]
 
