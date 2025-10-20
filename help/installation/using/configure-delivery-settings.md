@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
 source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Pour cela, les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+   >Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 
    Il est ensuite possible de sélectionner l&#39;affinité à utiliser, comme ci-dessous au niveau des typologies :

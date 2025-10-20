@@ -7,9 +7,9 @@ feature: Monitoring, Email
 role: User
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 Grâce à ses fonctionnalités de tracking, Adobe Campaign vous permet de tracker les messages envoyés et de vérifier le comportement des destinataires : ouverture, clics sur les liens, désinscription, etc.
 
-Ces informations sont récupérées dans l&#39;onglet **[!UICONTROL Tracking]** du profil de chaque destinataire de la diffusion. Cet onglet présente tous les liens URL trackés sur lesquels le destinataire sélectionné dans la liste a cliqué. Il s’agit de l’accumulation de toutes les URL trackées dans les diffusions qui sont toujours présentes dans l’écran de diffusion. La liste peut être configurée et contient généralement : l’URL sur laquelle l’utilisateur a cliqué, la date et l’heure du clic, ainsi que le document dans lequel l’URL a été trouvée.
+Ces informations sont récupérées dans l&#39;onglet **[!UICONTROL Tracking]** du profil de chaque destinataire de la diffusion. Cet onglet présente tous les liens URL trackés sur lesquels le destinataire sélectionné dans la liste a cliqué. Il s’agit de l’accumulation de toutes les URL trackées dans les diffusions qui sont toujours présentes dans l’écran de diffusion. La liste peut être configurée et contient généralement les informations suivantes : l’URL sur laquelle l’utilisateur ou l’utilisatrice a cliqué, la date et l’heure du clic et le document dans lequel l’URL a été trouvée.
 
 Le **tableau de bord des diffusions** est la clé pour suivre les diffusions et les erreurs éventuelles rencontrées lors de l’envoi des messages. Pour plus d’informations, consultez [cette section](delivery-dashboard.md).
 

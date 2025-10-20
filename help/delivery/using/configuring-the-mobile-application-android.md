@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Vous pourrez alors [créer une notification Android enrichie](create-notificatio
 
 >[!IMPORTANT]
 >
->Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et pourront avoir une incidence sur votre mise en œuvre d’Adobe Campaign. Il se peut que la configuration de vos services d’abonnement pour les messages push Android doive être mise à jour pour prendre en charge cette modification. Vous pouvez déjà vérifier et agir. En savoir plus dans cette [note technique d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=fr){target="_blank"}.
+>Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et pourront avoir une incidence sur votre mise en œuvre d’Adobe Campaign. Il se peut que la configuration de vos services d’abonnement pour les messages push Android doive être mise à jour pour prendre en charge cette modification. Vous pouvez déjà vérifier et agir. En savoir plus dans cette [note technique concernant Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=fr){target="_blank"}.
 
 
 ## Configuration du compte externe Android {#configuring-external-account-android}
@@ -46,11 +46,11 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 1. Sélectionnez le compte externe de **[!UICONTROL routage Android]**.
 1. Dans l&#39;onglet **[!UICONTROL Connecteur]**, renseignez le champ **[!UICONTROL JavaScript du connecteur]** :
 
-   Pour Android V2 : https://localhost:8080/nms/jsp/androidPushConnectorV2.js
+   Pour Android V2 : https://localhost:8080/nms/jsp/androidPushConnectorV2.js
 
    >[!NOTE]
    >
-   > Vous pouvez également le configurer comme suit https://localhost:8080/nms/jsp/androidPushConnector.js mais nous vous conseillons d’utiliser la version 2 du connecteur.
+   > Vous pouvez également effectuer la configuration comme suit (https://localhost:8080/nms/jsp/androidPushConnector.js), mais nous vous conseillons d’utiliser la version 2 du connecteur.
 
    ![](assets/nmac_connectors3.png)
 
@@ -60,7 +60,7 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
 ## Configuration d&#39;un service Android {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez comment configurer un service Android en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=fr#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
+![](assets/do-not-localize/how-to-video.png)[Découvrez en vidéo comment configurer un service Android](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=fr#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
 
 1. Dans l&#39;arborescence, positionnez-vous sur le nœud **[!UICONTROL Profils et Cibles > Services et abonnements]** et cliquez sur le bouton **[!UICONTROL Nouveau]**.
 
@@ -71,7 +71,7 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
    >[!NOTE]
    >
-   >Le mapping de ciblage par défaut **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** est lié au tableau des destinataires. Si vous souhaitez utiliser un autre mapping de ciblage, vous devez en créer un nouveau et le saisir dans le champ **[!UICONTROL Mapping de ciblage]** du service. Pour plus d&#39;informations sur la création d&#39;un mapping de ciblage, reportez-vous à [cette section](../../configuration/using/about-custom-recipient-table.md).
+   >Le mapping de ciblage **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** par défaut est lié à la table des destinataires. Si vous souhaitez utiliser un autre mapping de ciblage, vous devez en créer un nouveau et le saisir dans le champ **[!UICONTROL Mapping de ciblage]** du service. Pour plus d&#39;informations sur la création d&#39;un mapping de ciblage, reportez-vous à [cette section](../../configuration/using/about-custom-recipient-table.md).
 
    ![](assets/nmac_ios.png)
 
@@ -105,13 +105,13 @@ Après avoir créé votre service, vous devez maintenant créer votre applicatio
 
 1. Cliquez sur **[!UICONTROL Terminer]**, puis sur **[!UICONTROL Enregistrer]**. Votre application Android est maintenant prête à être utilisée dans Campaign Classic.
 
-Par défaut, Adobe Campaign enregistre une clé dans le champ **[!UICONTROL Identifiant de l&#39;utilisateur]** (@userKey) de la table **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]**. Cette clé permet de relier un abonnement à un destinataire. Si vous souhaitez collecter des données additionnelles (par exemple une clé de réconciliation complexe), vous devez effectuer le paramétrage suivant :
+Par défaut, Adobe Campaign enregistre une clé dans le champ **[!UICONTROL Identifiant d’utilisateur ou d’utilisatrice]** (@userKey) de la table **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]**. Cette clé permet de relier un abonnement à une personne destinataire. Si vous souhaitez collecter des données supplémentaires (par exemple, une clé de réconciliation complexe), vous devez effectuer la configuration suivante :
 
 ### Configurer la version d’API{#select-api-version}
 
 >[!IMPORTANT]
 >
->Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et pourront avoir une incidence sur votre mise en œuvre d’Adobe Campaign. Dans le cadre des efforts constants de Google pour améliorer ses services, les API FCM héritées seront abandonnées le **20 juin 2024**. En savoir plus dans cette [note technique d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=fr){target="_blank"}.
+>Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et pourront avoir une incidence sur votre mise en œuvre d’Adobe Campaign. Dans le cadre des efforts constants de Google pour améliorer ses services, les API FCM héritées seront abandonnées le **20 juin 2024**. En savoir plus dans cette [note technique concernant Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=fr){target="_blank"}.
 
 Après avoir créé un service et une nouvelle application mobile, vous devez configurer votre application mobile en fonction de la version d’API choisie. L’API **HTTP (héritée)** ne doit pas être sélectionnée, car elle a été abandonnée par Google.
 
@@ -151,7 +151,7 @@ Vous trouverez ci-dessous les noms de payload FCM pour personnaliser davantage v
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment étendre le schéma appsubscriptionRcp en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html?lang=fr#extending-the-app-subscription-schema-to-personalize-push-notifications)
 
-Vous devez étendre la valeur **appsubscriptionRcp** pour définir de nouveaux champs supplémentaires afin de stocker les paramètres de l’application dans la base de données Campaign. Ces champs seront utilisés notamment pour la personnalisation. Pour cela :
+Vous devez étendre la valeur **appsubscriptionRcp** pour définir de nouveaux champs supplémentaires afin de stocker les paramètres de l’application dans la base de données Campaign. Ces champs seront utilisés notamment pour la personnalisation. Pour ce faire :
 
 1. Créez une extension du schéma **[!UICONTROL Applications abonnées (nms:appsubscriptionRcp)]** et définissez les nouveaux champs. En savoir plus sur l’extension de schéma dans [cette page](../../configuration/using/about-schema-edition.md)
 

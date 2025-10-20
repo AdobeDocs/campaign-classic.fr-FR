@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
 source-git-commit: c38150aa8de90f314e1f2a43c6751d4db4059533
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -62,17 +62,17 @@ Pour créer une instance, procédez comme suit :
 
    Vous pouvez définir ici une liste de valeurs séparées par des virgules.
 
-   Les caractères ? et &#42; peuvent être utilisés comme caractères génériques pour remplacer un ou plusieurs caractères (DNS, port, etc.). Par exemple, la valeur **demo&#42;** fonctionne avec « https://demo » comme avec « https://demo :8080 » et même « https://demo2 ».
+   Les caractères ? et &#42; peuvent être utilisés comme caractères génériques pour remplacer un ou plusieurs caractères (DNS, port, etc.). Par exemple, la valeur **demo&#42;** fonctionne avec « https://demo », ainsi qu’avec « https://demo:8080 » ou encore « https://demo2 ».
 
    Les noms utilisés doivent être définis dans votre DNS. Vous pouvez également indiquer la correspondance entre un nom DNS et une adresse IP dans le fichier **c:/windows/system32/drivers/etc/hosts** sous Windows et dans le fichier **/etc/hosts** sous Linux. Pour vous connecter à l&#39;instance choisie, vous devez donc modifier les paramètres de connexion afin d&#39;utiliser ce nom DNS.
 
    Le serveur doit être identifié par ce nom, notamment pour le chargement des images dans les e-mails.
 
-   En outre, le serveur doit pouvoir se connecter à lui-même par ce nom et, si possible, par une adresse de bouclage (127.0.0.1), notamment pour permettre l’exportation des rapports au format PDF.
+   De plus, le serveur doit pouvoir se connecter à lui-même avec ce nom, si possible via une adresse de bouclage (loopback) - 127.0.0.1 -, notamment pour permettre l’export des rapports au format PDF.
 
-1. Dans la liste déroulante **[!UICONTROL Langue]**, sélectionnez la **langue de l&#39;instance** : anglais (US), anglais (UK) , français ou japonais.
+1. Dans la liste déroulante **[!UICONTROL Langue]**, sélectionnez la **langue de l’instance** : anglais (US), anglais (UK), français ou japonais.
 
-   Les différences entre l’anglais américain et l’anglais britannique sont décrites dans la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui).
+   Les différences entre l’anglais américain (US) et l’anglais britannique (UK) sont présentées dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui).
 
    >[!CAUTION]
    >

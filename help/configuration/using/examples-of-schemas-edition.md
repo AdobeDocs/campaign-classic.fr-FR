@@ -6,9 +6,9 @@ feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
 source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 84%
 
 ## Extension dʼun tableau {#extending-a-table}
 
-Pour étendre la table des destinataires de schéma **nms:recipient**, la procédure est la suivante :
+Pour étendre la table des personnes destinataires du schéma **nms:recipient**, effectuez la procédure suivante :
 
-1. Créez le schéma d&#39;extension (**cus:extension**) avec les données suivantes :
+1. Créez le schéma d’extension (**cus:extension**) avec les données suivantes :
 
    ```
    <srcSchema mappingType="sql" name="extension" namespace="cus" xtkschema="xtk:srcSchema" extendedSchema="nms:recipient">  
@@ -40,13 +40,13 @@ Pour étendre la table des destinataires de schéma **nms:recipient**, la procé
    </srcSchema>
    ```
 
-   Dans cet exemple, un champ indexé (**fidelity**) est ajouté et l&#39;élément **location** (qui existait déjà dans le schéma **nms:recipient**) est complété par un champ énuméré (**area**).
+   Dans cet exemple, un champ indexé (**fidelity**) est ajouté et l’élément **location** (déjà existant dans le schéma **nms:recipient**) est complété par un champ énuméré (**area**).
 
    >[!IMPORTANT]
    >
-   >N&#39;oubliez pas d&#39;ajouter l&#39;attribut **extendedSchema** pour référencer le schéma d&#39;extension.
+   >N’oubliez pas d’ajouter l’attribut **extendedSchema** pour référencer le schéma d’extension.
 
-1. Vérifiez que le schéma étendu est bien le schéma **nms:recipient** et que les données additionnelles sont bien présentes :
+1. Vérifiez que le schéma étendu est bien le schéma **nms:recipient** et que les données ajoutées sont bien présentes :
 
    ```
    <schema dependingSchemas="cus:extension" mappingType="sql" name="recipient" namespace="nms" xtkschema="xtk:schema">
@@ -153,7 +153,7 @@ Une table d&#39;extension permet d&#39;étendre le contenu d&#39;une table exist
 
 Le principe de la table d&#39;extension est d&#39;éviter les limitations du nombre de champs supportés dans une table ou encore d&#39;optimiser la place occupée par les données car celles-ci sont consommées à la demande.
 
-Création du schéma de la table d&#39;extension (**cus:feature**) :
+Création du schéma de table d’extension (**cus:feature**) :
 
 ```
 <srcSchema mappingType="sql" name="feature" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -203,7 +203,7 @@ Une table d&#39;Overflow est une table d&#39;extension (cardinalité 1-1), mais 
 
 C&#39;est la table d&#39;Overflow qui possède la clé étrangère vers la table à étendre : on ne modifie donc pas la table à étendre. La relation entre les deux tables est la valeur de la clé primaire de la table à étendre.
 
-Création du schéma de la table d&#39;Overflow (**cus:overflow**) :
+Création du schéma de table overflow (**cus:overflow**) :
 
 ```
 <srcSchema label="Overflow" name="overflow" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -222,7 +222,7 @@ Création du schéma de la table d&#39;Overflow (**cus:overflow**) :
 
 >[!NOTE]
 >
->La clé primaire de la table d&#39;Overflow est le lien vers la table à étendre (schéma « nms:recipient » dans notre exemple).
+>La clé primaire de la table overflow est le lien vers la table à étendre (schéma « nms:recipient » dans notre exemple).
 
 Le script SQL de création de la table est le suivant :
 
@@ -233,9 +233,9 @@ CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);
 
 ## Table de relation {#relationship-table}
 
-Une table de relation permet de lier deux tables avec une cardinalité N-N. Cette table ne contient que les clés étrangères des tables à lier.
+Une table de relation permet de lier deux tables avec une cardinalité N-N. Cette table ne contient que les clés étrangères des tables à lier.
 
-Exemple de table de relation entre des groupes (**nms:group**) et des destinataires (**nms:recipient**).
+Exemple d’une table de relation entre les groupes (**nms:group**) et les personnes destinataires (**nms:recipient**).
 
 Schéma source de la table de relation :
 
@@ -335,7 +335,7 @@ L&#39;interface utilisateur n&#39;affiche pas de lien mais un champ. Lorsque l�
 
 ## Rubriques connexes :
 
-* Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+* Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 * [Prise en main des schémas de Campaign](../../configuration/using/about-schema-edition.md)
 

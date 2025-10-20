@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1646'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Lorsqu&#39;une chaîne de caractères n&#39;a jamais été traduite, le champ **
 
 ### Filtrer les chaînes {#filtering-strings}
 
-Par défaut, chaque langue de traduction de l&#39;application web est affichée. Il existe deux filtres par défaut : langue et statut. Cliquez sur le bouton **[!UICONTROL Filtres]**, puis sur **[!UICONTROL Par langue ou statut]** pour afficher les menus déroulants correspondants. Vous pouvez également créer un filtre avancé. Pour plus d’informations sur les filtres, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Par défaut, chaque langue de traduction de l&#39;application web est affichée. Il existe deux filtres par défaut : langue et statut. Cliquez sur le bouton **[!UICONTROL Filtres]**, puis sur **[!UICONTROL Par langue ou statut]** pour afficher les menus déroulants correspondants. Vous pouvez également créer un filtre avancé. Pour plus d’informations sur les filtres, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 
@@ -169,7 +169,7 @@ si la langue est le premier ou le seul paramètre de l&#39;URL. Par exemple : *
 &lang=xx
 ```
 
-lorsque d&#39;autres paramètres précèdent celui de la langue dans l&#39;URL. Par exemple : **https://myserver/webApp/APP34?status=1&lang=en**
+lorsque d&#39;autres paramètres précèdent celui de la langue dans l&#39;URL. Par exemple : **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 Les langues de traduction et les dictionnaires disponibles par défaut sont répertoriés ci-dessous.
 
@@ -430,7 +430,7 @@ Vous pouvez ajouter les caractères **?lang=es** ou **?lang=de** pour l&#39;affi
 >[!NOTE]
 >
 >Si d&#39;autres paramètres sont déjà utilisés pour cette application web, ajoutez les caractères **&amp;lang=**.\
->Par exemple : **https://myserver/webApp/APP34?status=1&lang=en**
+>Par exemple : **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 ## Configuration avancée de traduction {#advanced-translation-configuration}
 

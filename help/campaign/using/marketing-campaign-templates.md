@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1171'
 ht-degree: 100%
 
@@ -157,7 +157,7 @@ Lorsque vous créez un modèle de campagne, vous devez indiquer les informations
 
   >[!NOTE]
   >
-  >Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+  >Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 * Sélectionnez le **type de campagne** : unique, récurrente ou périodique. Par défaut, les modèles de campagne s&#39;appliquent aux campagnes uniques. Les opérations périodiques et récurrentes sont décrites dans [cette section](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
 * Indiquez la durée de l’opération, c’est-à-dire la période sur laquelle s’étalera l’opération. Lors de la création d’une opération basée sur ce modèle, les dates de début et de fin de l’opération seront alors automatiquement renseignées.

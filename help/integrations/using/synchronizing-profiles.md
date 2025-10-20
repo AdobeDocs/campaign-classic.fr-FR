@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1218'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,11 +43,11 @@ Lorsqu&#39;un destinataire clique sur le lien de désinscription dans un email e
 
 ## Création dʼun destinataire {#creating-a-new-recipient}
 
-1. Créez un destinataire dans Campaign v7 pour la réplication vers Campaign Standard. Renseignez autant d’informations que possible, y compris le nom de famille, le prénom, l’adresse e-mail et l’adresse postale du destinataire. Toutefois, ne choisissez pas une **[!UICONTROL Civilité]**, car elle sera ajoutée à la section suivante, [Modifier un destinataire](#editing-a-recipient).
+1. Créez un destinataire dans Campaign v7 pour la réplication vers Campaign Standard. Renseignez autant d’informations que possible, y compris le nom de famille, le prénom, l’adresse e-mail et l’adresse postale du destinataire. Toutefois, ne choisissez pas de **[!UICONTROL Civilité]**, car elle sera ajoutée dans la section suivante, [Modifier une personne destinataire](#editing-a-recipient).
 
    ![](assets/acs_connect_profile_sync_01.png)
 
-1. Vérifiez que le nouveau destinataire a été ajouté dans Campaign Standard. Lors de la vérification du profil, assurez-vous que les données saisies dans Campaign v7 sont également disponibles dans Campaign Standard. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
+1. Vérifiez que le nouveau destinataire a été ajouté dans Campaign Standard. Lors de la vérification du profil, assurez-vous que les données saisies dans Campaign v7 sont également disponibles dans Campaign Standard. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de base de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
 
    ![](assets/acs_connect_profile_sync_02.png)
 
@@ -57,11 +57,11 @@ Lorsqu&#39;un destinataire clique sur le lien de désinscription dans un email e
 
 Les étapes ci-dessous qui permettent de modifier un point unique de données constituent un exemple simple de la façon dont Campaign v7 devient la base de données principale de Campaign Standard lors de l’utilisation de la réplication de données. La modification ou la suppression de données répliquées dans Campaign v7 a le même effet sur les données correspondantes dans Campaign Standard.
 
-1. Choisissez le nouveau destinataire dans [Créer un nouveau destinataire](#creating-a-new-recipient) et modifiez son nom. Par exemple, choisissez une **[!UICONTROL Civilité]** pour le destinataire (par exemple, M. ou Mme).
+1. Sélectionnez la personne destinataire créée lors de l’étape [Créer une personne destinataire](#creating-a-new-recipient) et modifiez son nom. Par exemple, choisissez une **[!UICONTROL Civilité]** pour la personne destinataire (par exemple, M. ou Mme).
 
    ![](assets/acs_connect_profile_sync_03.png)
 
-1. Vérifiez que le nom du destinataire a été mis à jour dans Campaign Standard. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
+1. Vérifiez que le nom de la personne destinataire a été mis à jour dans Campaign Standard. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de base de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
 
    ![](assets/acs_connect_profile_sync_04.png)
 
@@ -170,7 +170,7 @@ Suivez les instructions détaillées dans les sections [Création dʼun workflow
 
    ![](assets/acs_connect_profile_sync_21.png)
 
-1. Les données du destinataire dans Campaign v7 sont mises à jour pour prendre en compte la désinscription de l&#39;utilisateur. Vérifiez que la case **[!UICONTROL Ne plus contacter (tous canaux)]** est cochée pour le destinataire.
+1. Les données du destinataire dans Campaign v7 sont mises à jour pour prendre en compte la désinscription de l&#39;utilisateur. Vérifiez que la case **[!UICONTROL Ne plus contacter (tous canaux)]** est cochée pour la personne destinataire.
 
    ![](assets/acs_connect_profile_sync_22.png)
 

@@ -6,9 +6,9 @@ hide: true
 hidefromtoc: true
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 87%
 
 Le filtrage des données est le processus de sélection d’une petite partie de votre jeu de données, composée uniquement des enregistrements qui correspondent à certains critères, et d’utilisation de ce sous-ensemble pour des actions spécifiques (mises à jour, création d’audiences) ou des analyses.
 
-Lorsque vous naviguez dans l&#39;arborescence d&#39;Adobe Campaign (à partir du menu **[!UICONTROL Explorateur]** de la page d&#39;accueil), les informations contenues dans la base de données sont affichées sous forme de listes. Ces listes sont paramétrables afin de filtrer les données et de n&#39;afficher que les éléments utiles à l&#39;opérateur. Des actions peuvent ensuite être lancées sur les données issues du résultat du filtre. Le paramétrage des filtres permet de sélectionner les données d&#39;une liste sur un mode **[!UICONTROL dynamique]**. En cas de modification des données, les données filtrées sont mises à jour.
+Lorsque vous naviguez dans l’arborescence d’Adobe Campaign (à partir du menu **[!UICONTROL Explorateur]** de la page d’accueil), les informations contenues dans la base de données sont affichées sous forme de listes. Ces listes sont paramétrables afin de filtrer les données et de n’afficher que les éléments utiles à l’opérateur ou à l’opératrice. Des actions peuvent ensuite être lancées sur les données issues du résultat du filtre. Le paramétrage des filtres permet de sélectionner les données d’une liste de manière **[!UICONTROL dynamique]**. En cas de modification des données, les données filtrées sont mises à jour.
 
-Pour en savoir plus sur les **filtres et leur utilisation** consultez la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
+Pour en savoir plus sur les **filtres et leur utilisation** consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
 
 
 <!--

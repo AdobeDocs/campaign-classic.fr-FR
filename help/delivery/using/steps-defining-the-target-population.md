@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1878'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. Sélectionnez le mapping de ciblage dans la liste déroulante **[!UICONTROL Mapping de ciblage]** . Le mapping de ciblage par défaut d&#39;Adobe Campaign est **[!UICONTROL Destinataires]**, selon le schéma **nms:recipient**.
+1. Sélectionnez le mapping de ciblage dans la liste déroulante **[!UICONTROL Mapping de ciblage]** . Le mapping de ciblage par défaut d’Adobe Campaign est **[!UICONTROL Destinataires]**, qui est basé sur le schéma **nms:recipient**.
 
    D’autres mappings de ciblage sont disponibles et certains d’entre eux peuvent être liés à votre configuration spécifique.[En savoir plus](#select-a-target-mapping).
 
@@ -48,7 +48,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
    Par défaut, les types de cibles suivants sont proposés :
 
-   * **[!UICONTROL Critères de filtrage]** : cette option permet de définir une requête et d&#39;en visualiser le résultat. Pour plus d’informations sur les filtres, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+   * **[!UICONTROL Critères de filtrage]** : cette option permet de définir une requête et d&#39;en visualiser le résultat. Pour plus d’informations sur les filtres, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
    * **[!UICONTROL Abonnés d&#39;un service d&#39;information]** : cette option vous permet de sélectionner une newsletter à laquelle les destinataires doivent être abonnés pour être ciblés par la diffusion en cours de création.
 
      ![](assets/s_ncs_user_wizard_email02c.png)
@@ -72,7 +72,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
    * **[!UICONTROL Destinataires présents dans un dossier]** : cette option permet de cibler les profils contenus dans un dossier spécifique de l&#39;arborescence.
    * **[!UICONTROL Un destinataire]** : cette option permet de sélectionner un destinataire spécifique parmi les profils de la base.
    * **[!UICONTROL Une liste de destinataires]** : cette option permet de cibler une liste de destinataires. Les listes sont présentées dans [cette section](../../platform/using/creating-and-managing-lists.md).
-   * **[!UICONTROL Filtres utilisateurs]** : cette option permet d&#39;accéder aux filtres préconfigurés disponibles afin de les utiliser comme critères de filtrage des profils de la base. Pour plus d’informations sur les filtres, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+   * **[!UICONTROL Filtres utilisateurs]** : cette option permet d&#39;accéder aux filtres préconfigurés disponibles afin de les utiliser comme critères de filtrage des profils de la base. Pour plus d’informations sur les filtres, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
    * L&#39;option **[!UICONTROL Exclure les destinataires correspondant à ce segment]** permet de cibler les destinataires ne répondant pas au(x) critère(s) de ciblage défini(s). Pour utiliser cette option, cochez la case correspondante puis opérez un ciblage, comme défini précédemment, pour exclure les profils en résultant.
 
      ![](assets/s_ncs_user_wizard_email02g.png)
@@ -88,7 +88,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
 Vous pouvez choisir de lancer une diffusion sur des destinataires non enregistrés dans la base mais stockés dans un fichier externe. Nous allons par exemple envoyer ici une diffusion à des destinataires importés depuis un fichier texte.
 
-Pour cela :
+Pour ce faire :
 
 1. Cliquez sur le lien **[!UICONTROL Pour]** afin de sélectionner les destinataires de la diffusion.
 1. Sélectionnez l&#39;option **[!UICONTROL Définie dans un fichier externe]**.
@@ -230,7 +230,7 @@ Voir aussi :
 
 ## Sélectionner un mapping de ciblage {#select-a-target-mapping}
 
-Par défaut, les modèles de diffusion ciblent les **[!UICONTROL Destinataires]**. Leur mapping de ciblage utilise donc les champs du tableau **nms:recipient**. Adobe Campaign propose d&#39;autres mappings de ciblage pour vos diffusions que vous pouvez utiliser selon vos besoins.
+Par défaut, les modèles de diffusion ciblent les **[!UICONTROL Destinataires]**. Leur mapping de ciblage utilise donc les champs de la table **nms:recipient**. Adobe Campaign propose d&#39;autres mappings de ciblage pour vos diffusions que vous pouvez utiliser selon vos besoins.
 
 ![](assets/delivery_select_mapping.png)
 
@@ -251,6 +251,6 @@ Ces mappings sont les suivants :
 
 Dans cette vidéo, vous apprendrez comment ajouter des adresses de contrôle et des BAT à un email existant et comment l’envoyer.
 
->[!VIDEO](https://video.tv.adobe.com/v/35541?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

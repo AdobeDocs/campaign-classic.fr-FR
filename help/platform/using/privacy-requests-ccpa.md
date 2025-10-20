@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
 source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Il est de la responsabilité du contrôleur de données d&#39;indiquer la valeur
 
 Pour indiquer les valeurs, plusieurs méthodes peuvent être utilisées :
 
-* À l&#39;aide de l&#39;interface de Campaign en éditant les détails du destinataire
+* Modification des détails de la personne destinataire via l’interface de Campaign
 * Utilisation de l&#39;API
 * Par l&#39;intermédiaire d&#39;un workflow d&#39;import de données.
 
@@ -87,7 +87,7 @@ Vous devez ensuite vous assurer de ne jamais vendre à une quelconque tierce par
 
    ![](assets/privacy-ccpa-6.png)
 
-1. Vous pouvez cliquer sur la colonne pour trier les destinataires en fonction des informations d&#39;opt-out. Vous pouvez également créer un filtre en vue d&#39;afficher uniquement les destinataires qui ont exercé leur droit d&#39;opposition. Pour plus d’informations sur les filtres, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+1. Vous pouvez cliquer sur la colonne pour trier les destinataires en fonction des informations d&#39;opt-out. Vous pouvez également créer un filtre en vue d&#39;afficher uniquement les destinataires qui ont exercé leur droit d&#39;opposition. Pour plus d’informations sur les filtres, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 
    ![](assets/privacy-ccpa-7.png)

@@ -6,19 +6,19 @@ description: Découvrez comment configurer l’arborescence de navigation de l�
 role: Data Engineer, Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Configurer l’arborescence de navigation de l’Explorateur Campaign{#configuration}
 
-En tant qu’utilisateur expert, vous pouvez ajouter des dossiers dans l’arborescence de l’explorateur et la personnaliser.
+En tant qu’utilisateur expert ou utilisatrice experte, vous pouvez ajouter des dossiers dans l’arborescence de l’explorateur et la personnaliser.
 
-En savoir plus sur l’interface utilisateur de Campaign dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+En savoir plus sur l’interface d’utilisation de Campaign dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
-Les types de dossiers utilisés par la liste de navigation sont décrits dans un document XML respectant la grammaire du schéma **xtk:navtree**.
+Les types de dossiers utilisés par la liste de navigation sont décrits dans un document XML qui respecte la grammaire du schéma **xtk:navtree**.
 
 La structure du document XML est la suivante :
 
@@ -82,8 +82,8 @@ La description d&#39;une commande globale est renseignée sur l&#39;élément **
 * **name** : nom interne de la commande : le nom doit obligatoirement être renseigné et unique.
 * **label** : libellé de la commande.
 * **desc** : description visible à partir de la barre de statut de l&#39;écran principal.
-* **form** : formulaire à lancer : la valeur à renseigner est la clé d&#39;identification du formulaire de saisie (par exemple « cus:recipient »)
-* **rights** : liste des droits nommés (séparés par une virgule) permettant l&#39;accès à cette commande. La liste des droits disponibles est accessible à partir du dossier **[!UICONTROL Administration > Gestion des accès > Droits nommés]**.
+* **form** : formulaire à lancer ; la valeur à renseigner est la clé d’identification du formulaire de saisie (par exemple, « cus:recipient »).
+* **rights** : liste des droits nommés (séparés par une virgule) permettant l’accès à cette commande. La liste des droits disponibles est accessible à partir du dossier **[!UICONTROL Administration > Gestion des accès > Droits nommés]**.
 * **promptLabel** : affiche une boîte de confirmation avant l&#39;exécution de la commande.
 
 Un élément **`<command>`** peut contenir des sous-éléments **`<command>`**. Dans ce cas, l’élément parent vous permet d’afficher un sous-menu composé de ces éléments enfants.
@@ -98,7 +98,7 @@ Le contexte du formulaire peut être mis à jour lors de l’initialisation à p
 
 **Exemple**:
 
-* Déclaration d&#39;une commande globale pour lancer la forme « xtk:import » :
+* Déclaration d’une commande globale pour lancer le formulaire « xtk:import » :
 
   ```
   <command desc="Start the data import assistant" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
@@ -182,7 +182,7 @@ Pour modifier les enregistrements de la liste, le formulaire de saisie portant l
 
 La configuration par défaut des colonnes de la liste est saisie via l’élément **`<columns>`**. Une colonne est déclarée sur un élément **`<node>`** contenant l’attribut **xpath** avec le champ à référencer dans son schéma comme sa valeur.
 
-**Exemple** : déclaration d&#39;un type de dossier sur le schéma « nms:recipient ».
+**Exemple** : déclaration d’un type de dossier sur le schéma « nms:recipient ».
 
 ```
 <model label="Profiles and targets" name="nmsProfiles">
@@ -251,8 +251,8 @@ La description de la commande est renseignée sur l’élément **`<command>`** 
 * **name** : nom interne de la commande, le nom doit obligatoirement être renseigné et unique.
 * **label** : libellé de la commande.
 * **desc** : description visible à partir de la barre de statut de l&#39;écran principal.
-* **form** : formulaire à lancer : la valeur à renseigner est la clé d&#39;identification du formulaire de saisie (par exemple « cus:recipient »).
-* **rights** : liste des droits nommés (séparés par une virgule) permettant l&#39;accès à cette commande. La liste des droits disponibles est accessible à partir du dossier **[!UICONTROL Administration > Gestion des accès > Droits nommés]**.
+* **form** : formulaire à lancer ; la valeur à renseigner est la clé d’identification du formulaire de saisie (par exemple, « cus:recipient »).
+* **rights** : liste des droits nommés (séparés par une virgule) permettant l’accès à cette commande. La liste des droits disponibles est accessible à partir du dossier **[!UICONTROL Administration > Gestion des accès > Droits nommés]**.
 * **promptLabel** : affiche une boîte de confirmation avant l&#39;exécution de la commande.
 * **monoSelection** : force la mono sélection (sélection multiple par défaut).
 * **refreshView** : force le rechargement de la liste après l&#39;exécution de la commande.

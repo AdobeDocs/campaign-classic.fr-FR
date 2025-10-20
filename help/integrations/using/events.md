@@ -9,9 +9,9 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Exemple :
 
 Les événements sont traités un par un, par ordre de décalage. Chaque thread du [!DNL pipelined] traite une partition différente.
 
-Le « décalage » du dernier événement récupéré est stocké dans la base de données. Par conséquent, si le processus est arrêté, il redémarre à partir du dernier message. Ces données sont stockées dans le schéma natif xtk:pipelineOffset.
+Le « décalage » du dernier événement récupéré est stocké dans la base de données. Par conséquent, si le processus est arrêté, il redémarre à partir du dernier message. Ces données sont stockées dans le schéma intégré xtk:pipelineOffset.
 
 Ce pointeur est spécifique à chaque instance et à chaque consommateur. Par conséquent, lorsque de nombreuses instances accèdent au même pipeline avec des consommateurs différents, ils reçoivent tous les messages et dans le même ordre.
 
@@ -220,7 +220,7 @@ Les événements peuvent être affichés avec un formulaire simple basé sur le 
 
 >[!NOTE]
 >
->Le nœud d’événement de pipeline n’est pas natif et doit être ajouté, de même que le formulaire associé doit être créé dans Campaign. Ces opérations sont limitées aux utilisateurs experts uniquement. Pour plus d&#39;informations, consultez la section [Editer les formulaires](../../configuration/using/editing-forms.md).
+>Le nœud d’événement de pipeline n’est pas natif et doit être ajouté, de même que le formulaire associé doit être créé dans Campaign. Ces opérations sont limitées aux utilisateurs experts uniquement. Pour plus d’informations, consultez la section [Modification des formulaires](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 

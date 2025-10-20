@@ -10,9 +10,9 @@ exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 hide: true
 hidefromtoc: true
 source-git-commit: d3a603bbb70dc63e72b6eed87a6503e155aff54e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Chaque noeud correspond à un dossier. Les données de chaque dossier doivent ê
 >
 > * Pour afficher la liste de tous les destinataires de la base, vous devez créer une vue. Pour plus d’informations, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 >
-> * Pour en savoir plus sur la gestion de vos profils, reportez-vous à la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
+> * Pour en savoir plus sur la gestion des profils, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 
 <!--

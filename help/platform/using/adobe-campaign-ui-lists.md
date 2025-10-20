@@ -7,9 +7,9 @@ exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 hide: true
 hidefromtoc: true
 source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '66'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Dans la console cliente Campaign, les données sont affichées dans des listes. 
 
 >[!NOTE]
 >
->Pour savoir comment gérer et personnaliser des listes dans Adobe Campaign, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+>Pour découvrir comment gérer et personnaliser des listes dans Adobe Campaign, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
 
 <!--
 ## Count records {#counting-records}

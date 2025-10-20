@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2102'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -273,7 +273,7 @@ Pour cela :
 1. Dans **[!UICONTROL Ajouter un dossier]** / **[!UICONTROL Administration]**, sélectionnez la vue à ajouter.
 1. Une fois le dossier ajouté à l’arborescence, assurez-vous de le configurer en tant que vue afin qu’il affiche tous les workflows, quel que soit leur dossier d’origine. Pour plus d’informations sur la configuration des vues, consultez [cette section](../../platform/using/about-adobe-campaign-classic.md).
 
-En outre, vous pouvez configurer des dossiers de filtres qui vous permettront de filtrer la liste des workflows en fonction de leur état d’exécution. Pour cela :
+En outre, vous pouvez configurer des dossiers de filtres qui vous permettront de filtrer la liste des workflows en fonction de leur état d’exécution. Pour ce faire :
 
 1. Accédez à un dossier de type workflow, puis sélectionnez le menu **[!UICONTROL Filtres]**/**[!UICONTROL Filtres avancés]**.
 1. Configurez le filtre de sorte que le champ **[!UICONTROL @status]** du workflow soit égal à l’état de votre choix.
@@ -281,4 +281,4 @@ En outre, vous pouvez configurer des dossiers de filtres qui vous permettront de
 
 ![](assets/workflow-monitoring-filter.png)
 
-Pour plus d’informations sur les filtres, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Pour plus d’informations sur les filtres, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.

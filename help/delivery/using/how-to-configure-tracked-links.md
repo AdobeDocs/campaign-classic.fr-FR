@@ -7,9 +7,9 @@ feature: Monitoring
 role: User, Developer
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -72,4 +72,4 @@ Le tracking des messages est activé par défaut. Pour personnaliser le tracking
    * **[!UICONTROL Opt-out]** : considère cette URL comme une option d’opt-out ou une URL de désabonnement.
    * **[!UICONTROL Page miroir]** : considère cette URL comme une URL de page miroir.
 
-1. De plus, vous pouvez sélectionner une catégorie pour chaque URL suivie dans la liste déroulante de la colonne **[!UICONTROL Catégorie]**. Ces catégories peuvent être affichées dans les rapports, comme par exemple **[!UICONTROL URL et flux de clics]** (voir [cette section](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). Les catégories sont définies dans une énumération spécifique. Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+1. De plus, vous pouvez sélectionner une catégorie pour chaque URL suivie dans la liste déroulante de la colonne **[!UICONTROL Catégorie]**. Ces catégories peuvent être affichées dans les rapports, comme par exemple **[!UICONTROL URL et flux de clics]** (voir [cette section](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). Les catégories sont définies dans une énumération spécifique. Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: instance-configuration
 exl-id: 98b7c827-f31d-46a6-a28d-40a78a4b4248
 source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '183'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Pour créer des types d&#39;événements qui seront traités par Adobe Campaign
 
 >[!NOTE]
 >
->Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+>Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 
 

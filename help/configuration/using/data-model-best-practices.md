@@ -5,9 +5,9 @@ description: Découvrez comment utiliser le modèle de données de Campaign Cla
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4022'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,8 +102,8 @@ Le tableau ci-après décrit ces identifiants et leur finalité.
 
 | Identifiant | Description | Bonnes pratiques |
 |--- |--- |--- |
-| Id | <ul><li>L’id est la clé primaire physique d’une table Adobe Campaign. Pour les tables d’usine, il s’agit d’un nombre sur 32 bits généré à partir d’une séquence.</li><li>Cet identifiant est généralement unique pour une instance Adobe Campaign spécifique. </li><li>Un id généré automatiquement est visible dans une définition de schéma. Il suffit de rechercher l’attribut *autopk=&quot;true&quot;*.</li></ul> | <ul><li>Les identifiants générés automatiquement ne peuvent pas être utilisés comme référence dans un workflow ou une définition de package.</li><li>Un id n’est pas nécessairement un nombre croissant.</li><li>L’id d’une table d’usine est un nombre sur 32 bits dont le type ne doit pas être modifié. Ce numéro provient d&#39;une « séquence » couverte par la section portant le même nom.</li></ul> |
-| Nom (ou nom interne) | <ul><li>Cette information est l&#39;identifiant unique d&#39;un enregistrement dans une table. Cette valeur peut être mise à jour manuellement, généralement avec un nom généré.</li><li>Cet identifiant conserve sa valeur lorsqu&#39;il est déployé dans une autre instance d&#39;Adobe Campaign et ne doit pas être vide.</li></ul> | <ul><li>Changez le nom d’enregistrement généré par Adobe Campaign si l’objet est destiné à être déployé d’un environnement à un autre.</li><li>Si un objet possède un attribut d’espace de noms (par exemple, *schema*), cet espace de noms commun sera appliqué à tous les objets personnalisés créés. Certains espaces de noms réservés ne doivent pas être utilisés : *nms*, *xtk*, *nl*, *ncl*, *crm*, *xxl*.</li><li>Lorsqu’un objet n’a pas d’espace de noms (*workflow* ou *delivery*, par exemple), cette notion d’espace de noms est ajoutée sous la forme d’un préfixe d’un objet de nom interne : *namespaceMyObjectName*.</li><li>N’utilisez pas de caractères spéciaux tels que l’espace « », le point-virgule « : » ou le trait d’union « - ». Tous ces caractères seront remplacés par un trait de soulignement « _ » (caractère autorisé). Par exemple, « abc-def » et « abc:def » sont stockés sous la forme de « abc_def » et se remplacent l’un l’autre.</li></ul> |
+| Id | <ul><li>L’id est la clé primaire physique d’une table Adobe Campaign. Pour les tables d’usine, il s’agit d’un nombre sur 32 bits généré à partir d’une séquence.</li><li>Cet identifiant est généralement unique pour une instance Adobe Campaign spécifique. </li><li>Un id généré automatiquement est visible dans une définition de schéma. Il suffit de rechercher l’attribut *autopk=&quot;true&quot;*.</li></ul> | <ul><li>Les identifiants générés automatiquement ne peuvent pas être utilisés comme référence dans un workflow ou une définition de package.</li><li>Un id n’est pas nécessairement un nombre croissant.</li><li>L’id d’une table d’usine est un nombre sur 32 bits dont le type ne doit pas être modifié. Ce nombre provient d’une « séquence », qui est abordée dans la section éponyme.</li></ul> |
+| Nom (ou nom interne) | <ul><li>Cette information est l&#39;identifiant unique d&#39;un enregistrement dans une table. Cette valeur peut être mise à jour manuellement, généralement avec un nom généré.</li><li>Cet identifiant conserve sa valeur lorsqu&#39;il est déployé dans une autre instance d&#39;Adobe Campaign et ne doit pas être vide.</li></ul> | <ul><li>Changez le nom d’enregistrement généré par Adobe Campaign si l’objet est destiné à être déployé d’un environnement à un autre.</li><li>Si un objet possède un attribut d’espace de noms (par exemple, *schema*), cet espace de noms commun sera appliqué à tous les objets personnalisés créés. Certains espaces de noms réservés ne doivent pas être utilisés : *nms*, *xtk*, *nl*, *ncl*, *crm*, *xxl*.</li><li>Lorsqu’un objet n’a pas d’espace de noms (*workflow* ou *delivery*, par exemple), cette notion d’espace de noms est ajoutée sous la forme d’un préfixe d’un objet de nom interne : *namespaceMyObjectName*.</li><li>N’utilisez pas de caractères spéciaux tels que l’espace «   », le point-virgule « ; » ou le tiret « - ». Tous ces caractères seront remplacés par un trait de soulignement « _ » (caractère autorisé). Par exemple, « abc-def » et « abc:def » seront tous deux stockés sous le nom « abc_def » et s’écraseront mutuellement.</li></ul> |
 | Libellé | <ul><li>Le libellé est l&#39;identifiant d&#39;entreprise d&#39;un objet ou d&#39;un enregistrement dans Adobe Campaign.</li><li>Cet objet autorise les espaces et les caractères spéciaux.</li><li>Il ne garantit pas le caractère unique d&#39;un enregistrement.</li></ul> | <ul><li>Il est recommandé de déterminer une structure pour les libellés de vos objets.</li><li>Il s&#39;agit de la solution la plus conviviale pour identifier un enregistrement ou un objet pour un utilisateur d&#39;Adobe Campaign.</li></ul> |
 
 ## Clés internes personnalisées {#custom-internal-keys}
@@ -118,7 +118,7 @@ Lorsqu’une table d’usine comporte à la fois une clé autopk et une clé int
 
 Pour la création d’une table personnalisée, vous avez deux possibilités :
 * Combinaison d&#39;une clé générée automatiquement (id) et d&#39;une clé interne (personnalisée). Cette option est intéressante si votre clé système est une clé composite ou n&#39;est pas un entier. Les entiers offrent des performances supérieures dans les tables volumineuses et dans la jointure à d’autres tables.
-* Utilisation de la clé primaire comme clé primaire du système externe. Cette solution est généralement préférable, car elle simplifie l&#39;approche d&#39;import et d&#39;export des données, avec une clé cohérente entre les différents systèmes. AutoPk doit être désactivé si la clé est nommée « id » et qu&#39;elle doit être remplie avec des valeurs externes (et non par génération automatique).
+* Utilisation de la clé primaire comme clé primaire du système externe. Cette solution est généralement préférable, car elle simplifie l&#39;approche d&#39;import et d&#39;export des données, avec une clé cohérente entre les différents systèmes. L’autopk doit être désactivé si la clé est nommée « id » et doit être rempli avec des valeurs externes (et non des valeurs générées automatiquement).
 
 >[!IMPORTANT]
 >
@@ -146,7 +146,7 @@ Lorsqu’une table personnalisée est créée dans Adobe Campaign avec une clé
 
 Par défaut, une séquence personnalisée aura des valeurs comprises entre +1 000 et +2,1 milliards. Techniquement, il est possible d’obtenir un intervalle complet de 4 milliards de valeurs en activant les id négatifs. Cette approche doit être utilisée avec précaution. En effet, un id sera perdu lors du passage d’un nombre négatif à un nombre positif : l’enregistrement 0 est généralement ignoré par Adobe Campaign dans les requêtes SQL générées.
 
-Pour en savoir plus sur l’épuisement des séquences, regardez cette [vidéo](https://helpx.adobe.com/fr/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+Pour en savoir plus sur l’épuisement des séquences, regardez cette [vidéo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## des index ; {#indexes}
 
@@ -169,9 +169,9 @@ Gardez toutefois à l’esprit les éléments suivants :
 
 ### Exemple
 
-La gestion des index pouvant devenir très complexe, il est important de comprendre comment ils fonctionnent. Pour illustrer cette complexité, prenons un exemple élémentaire comme la recherche d’un destinataire en effectuant un filtrage sur le prénom et le nom. Pour cela :
+La gestion des index pouvant devenir très complexe, il est important de comprendre comment ils fonctionnent. Pour illustrer cette complexité, prenons un exemple élémentaire comme la recherche d’un destinataire en effectuant un filtrage sur le prénom et le nom. Pour ce faire :
 
-1. Accédez au dossier qui répertorie tous les destinataires dans la base de données.
+1. Accédez au dossier de la base de données contenant toutes les personnes destinataires.
 1. Cliquez avec le bouton droit sur le champ **[!UICONTROL Prénom]**.
 1. Sélectionnez **[!UICONTROL Filtrer sur ce champ]**.
 

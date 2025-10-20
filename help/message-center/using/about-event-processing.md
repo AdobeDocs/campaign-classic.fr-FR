@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
 source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Une fois collectés, les événements sont scindés par workflows techniques ent
 
 >[!NOTE]
 >
->Sur les instances d&#39;exécution, les dossiers **[!UICONTROL Événements en temps réel]** ou **[!UICONTROL Événements par lots]** ne doivent pas être définis comme des vues, car cela pourrait entraîner des problèmes de droit d&#39;accès. Pour plus d’informations sur la définition d’un dossier en tant que vue, consultez la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
+>Sur les instances d&#39;exécution, les dossiers **[!UICONTROL Événements en temps réel]** ou **[!UICONTROL Événements par lots]** ne doivent pas être définis comme des vues, car cela pourrait entraîner des problèmes de droit d&#39;accès. Pour en savoir plus sur la définition d’un dossier en tant que vue, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 ## Acheminement vers un modèle {#routing-towards-a-template}
 

@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1693'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ Dans l&#39;exemple suivant, la requête cherchera à identifier les hommes de 18
 * schéma
 * recCount
 
-Ce jeu de trois valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
+Ce jeu de trois valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.
 
 Cette valeur correspond au schéma de la table de travail. Ce paramètre est valide pour toutes les transitions avec **[!UICONTROL tableName]** et **[!UICONTROL schema]**.
 
@@ -188,9 +188,9 @@ La section ci-dessous présente les bonnes pratiques pour optimiser les requête
 
   Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
 
-  ![](assets/do-not-localize/v7.jpeg) [Documentation de Campaign v7](../../configuration/using/database-mapping.md)
+  ![](assets/do-not-localize/v7.jpeg)[Documentation de Campaign v7](../../configuration/using/database-mapping.md)
 
-  ![](assets/do-not-localize/v8.png) [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=fr)
+  ![](assets/do-not-localize/v8.png)[Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=fr)
 
 ### Fonctions {#functions}
 
