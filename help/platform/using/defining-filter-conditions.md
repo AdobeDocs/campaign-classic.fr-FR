@@ -292,7 +292,7 @@ Quatre types de champ calculé sont proposés :
 
   On peut utiliser la valeur source d&#39;une colonne et lui donner une valeur de destination. Cette valeur de destination sera affichée dans la nouvelle colonne de sortie.
 
-  Un exemple d’ajout du type de champ calculé **[!UICONTROL Énumérations]** est disponible dans la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html){target="_blank"}.
+  Un exemple d’ajout du type de champ calculé **[!UICONTROL Énumérations]** est disponible dans la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html?lang=fr){target="_blank"}.
 
   ![](assets/query_editor_nveau_63.png)
 

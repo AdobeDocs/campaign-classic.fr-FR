@@ -43,7 +43,7 @@ Dans le contexte d’un accès web, les options seront en revanche principalemen
 
 ![À partir d’un navigateur, le même opérateur ne peut que visualiser et annuler la campagne.](assets/operation_from_web.png)
 
-Pour en savoir plus sur l’utilisation de l’interface web, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank}.
+Pour en savoir plus sur l’utilisation de l’interface web, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr#use-the-web-interface-){target=_blank}.
 
 ### Langues {#languages}
 

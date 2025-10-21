@@ -43,8 +43,8 @@ Découvrez les étapes clés liées à la création de diffusions par e-mail et 
 
 Reportez-vous à ces pages pour savoir comment valider et envoyer votre diffusion par publipostage direct **dans la documentation de Campaign v8** :
 
-* [Valider la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#creating-a-direct-mail-delivery#validating){target="_blank"} : découvrez comment vérifier le résultat de l’analyse et le contenu du fichier de sortie.
-* [Envoyer la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#creating-a-direct-mail-delivery#start-delivery){target="_blank"} : découvrez comment envoyer votre diffusion par courrier en générant le fichier d’extraction.
+* [Valider la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=fr#creating-a-direct-mail-delivery?lang=fr#validating){target="_blank"} : découvrez comment vérifier le résultat de l’analyse et le contenu du fichier de sortie.
+* [Envoyer la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=fr#creating-a-direct-mail-delivery?lang=fr#start-delivery){target="_blank"} : découvrez comment envoyer votre diffusion par courrier en générant le fichier d’extraction.
 
 
 
