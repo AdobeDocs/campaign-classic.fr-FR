@@ -8,7 +8,7 @@ exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ Découvrez les étapes clés liées à la création de diffusions, au contenu et
 * [Créer la diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#create-the-delivery){target="_blank"} : apprenez à créer une diffusion unique ponctuelle.
 * [Définir le contenu](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#content-of-the-delivery){target="_blank"} : configurez le contenu de la diffusion selon les spécificités de chaque canal.
 * [Spécifier l’audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#target-population){target="_blank"} : définissez plusieurs types d’audience : audience principale, cible BAT, adresses de contrôle et groupes de contrôle.
-* [Utiliser des modèles de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"} : découvrez comment définir des modèles afin de faciliter la création de diffusions.
+* [Utiliser des modèles de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"} : découvrez comment définir des modèles afin de faciliter la création de diffusions.
 
 
 
@@ -128,7 +128,7 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

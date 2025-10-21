@@ -6,7 +6,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -95,13 +95,13 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
-      <br/>
-      <strong>Profils et audiences</strong><br/> <a href="platform/using/creating-and-managing-lists.md">Créer des listes</a> - <a href="delivery/using/about-services-and-subscriptions.md">Services et abonnements</a> - <a href="platform/using/privacy-management.md">Confidentialité et consentement</a>
+<br/>
+<strong>Profils et audiences</strong><br/> <a href="platform/using/creating-and-managing-lists.md">Créer des listes</a> - <a href="delivery/using/about-services-and-subscriptions.md">Services et abonnements</a> - <a href="platform/using/privacy-management.md">Confidentialité et consentement</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">
 <br/>
-<strong>Architecture et configuration</strong><br/> <a href="production/using/general-architecture.md">Principes d’architecture</a> - <a href="production/using/build-upgrade.md">Mettre à niveau une version</a> - <a href="production/using/configuration.md">Configuration de Campaign</a> - <a href="installation/using/external-accounts.md">Se connecter à des systèmes externes</a>
+<strong>Architecture et configuration</strong><br/> <a href="production/using/general-architecture.md">Principes d’architecture</a> - <a href="production/using/build-upgrade.md">Mise à niveau d’une version</a> - <a href="production/using/configuration.md">Configurer de Campaign</a> - <a href="installation/using/external-accounts.md">Se connecter à des systèmes externes</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">

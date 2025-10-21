@@ -9,7 +9,7 @@ exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 73%
+ht-degree: 98%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 73%
 
 ## Exploration de l’interface Adobe Campaign {#about-adobe-campaign-interface}
 
-Une fois connecté à la base de données, vous accédez à la page d&#39;accueil d&#39;Adobe Campaign. Cette page est votre tableau de bord : elle est composée de liens et de raccourcis qui vous permettent d&#39;accéder aux fonctionnalités disponibles, en fonction de votre installation et des paramétrages généraux de la plateforme.
+Une fois votre connexion à la base de données établie, vous accédez à la page d’accueil d’Adobe Campaign. Cette page est votre tableau de bord : elle est composée de liens et de raccourcis qui vous permettent d’accéder aux différentes fonctionnalités, en fonction de votre installation et des configurations générales de la plateforme.
 
-Depuis la section centrale de la page d’accueil, vous pouvez utiliser des liens pour accéder au portail de documentation de Campaign, à la communauté et au site web de l’assistance clientèle d’Adobe.
+À partir de la section centrale de la page d’accueil, vous pouvez utiliser les liens pour accéder au portail de la documentation de Campaign, à la communauté Campaign et au site web de l’assistance clientèle d’Adobe.
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrir l’espace de travail Campaign en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Découvrir l’espace de travail Campaign en vidéo](#video)
 
 >[!NOTE]
 >
@@ -43,15 +43,15 @@ Dans le contexte d’un accès web, les options seront en revanche principalemen
 
 ![À partir d’un navigateur, le même opérateur ne peut que visualiser et annuler la campagne.](assets/operation_from_web.png)
 
-Pour en savoir plus sur l’utilisation de l’interface web, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr#use-the-web-interface-){target=_blank}.
+Pour en savoir plus sur l’utilisation de l’interface web, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank}.
 
 ### Langues {#languages}
 
-La langue est sélectionnée lors de l&#39;installation de votre instance Adobe Campaign Classic.
+La langue est sélectionnée lors de l’installation de votre instance Adobe Campaign Classic.
 
 ![](assets/language.png)
 
-Vous avez le choix entre les langues suivantes :
+Vous pouvez choisir parmi les langues suivantes :
 
 * Anglais (Royaume-Uni)
 * Anglais (États-Unis)
@@ -59,7 +59,7 @@ Vous avez le choix entre les langues suivantes :
 * Allemand
 * Japonais
 
-La langue choisie pour votre instance Adobe Campaign Classic peut avoir une incidence sur les formats de date et d’heure. Pour en savoir plus à ce sujet, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+La langue choisie pour votre instance Adobe Campaign Classic peut avoir une incidence sur les formats de date et d’heure. Pour plus d’informations à ce sujet, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 Pour plus d’informations sur la création d’une instance, consultez cette [page](../../installation/using/creating-an-instance-and-logging-on.md).
 
@@ -108,29 +108,29 @@ Par exemple, au niveau de la page des diffusions, utilisez le bouton **[!UICONTR
 
 L’explorateur Adobe Campaign est accessible à partir de l’icône de la barre d’outils. Il permet d’accéder à l’ensemble des fonctions d’Adobe Campaign, aux écrans de paramétrage et à une vue plus détaillée de certains éléments de la plateforme.
 
-Pour en savoir plus sur l’explorateur Adobe Campaign, consultez ces pages dans la documentation de **Campaign v8 (console)** :
+Pour en savoir plus sur l’explorateur d’Adobe Campaign, consultez les pages suivantes dans la **documentation de Campaign v8 (console)** :
 
-* [Présentation de l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
+* [Vue d’ensemble de l’interface d’utilisation de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
-* [Paramètres de l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
+* [Paramètres de l’interface d’utilisation de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
 * [Gérer les dossiers et les vues dans l’explorateur](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 
 ## Filtrer des données {#filters}
 
-Le filtrage des données est le processus par lequel un jeu de données est limité aux enregistrements qui correspondent à des critères spécifiques. Ce sous-ensemble peut ensuite être utilisé pour des actions ciblées (telles que des mises à jour ou la création d’audiences) ou pour des analyses.
+Le filtrage des données consiste à réduire un jeu de données aux enregistrements qui correspondent à des critères spécifiques. Ce sous-ensemble peut ensuite être utilisé pour des actions ciblées (telles que des mises à jour ou la création d’audiences) ou pour des analyses.
 
-Lors de la navigation dans Campaign, les données sont affichées dans des listes. Vous pouvez appliquer des filtres intégrés pour accéder rapidement à un sous-ensemble défini, tel que des adresses en quarantaine, des destinataires non ciblés ou des enregistrements situés dans une plage d’âge spécifique ou à une date de création spécifique. En outre, vous pouvez créer des filtres personnalisés, les enregistrer pour une utilisation ultérieure et les partager avec d’autres utilisateurs de Campaign.
+Lorsque vous naviguez dans Campaign, les données sont affichées dans des listes. Vous pouvez appliquer des filtres intégrés pour accéder rapidement à un sous-ensemble défini, tel que des adresses en quarantaine, des personnes destinataires non ciblées ou des enregistrements avec une plage d’âge spécifique ou une date de création spécifique. Vous pouvez également créer des filtres personnalisés, les enregistrer pour une utilisation ultérieure ou les partager avec d’autres utilisateurs et utilisatrices de Campaign.
 
-Découvrez comment **accéder aux filtres, les concevoir et les partager** dans la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Découvrez comment **accéder aux filtres, les concevoir et les partager** dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 
 ## Utiliser des listes {#manage-and-customize-lists}
 
 Dans la console cliente Campaign, les données sont affichées dans des listes. Vous pouvez adapter ces listes à vos besoins. Vous pouvez par exemple ajouter des colonnes, filtrer les données, comptabiliser les enregistrements, enregistrer et partager vos paramètres.
 
-Découvrez comment **gérer et personnaliser des listes** dans la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+Découvrez comment **gérer et personnaliser des listes** dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
 
 ## Gérer les énumérations{#managing-enumerations}
 
@@ -138,10 +138,10 @@ Une énumération (également appelée liste détaillée) est une liste prédéf
 
 Une fois définies, les valeurs sont affichées dans une liste déroulante. Une valeur peut être sélectionnée directement ou saisie à l’aide d’une entrée prédictive, qui suggère et complète les entrées correspondantes. Certains champs contiennent des énumérations prédéfinies. Des énumérations supplémentaires peuvent être créées si nécessaire.
 
-Découvrez comment **utiliser les énumérations** dans la documentation de [Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo présente l‘espace de travail de Campaign Classic.
+Cette vidéo présente l’espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39530?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

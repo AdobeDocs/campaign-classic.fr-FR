@@ -9,7 +9,7 @@ exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
 source-wordcount: '6197'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -143,7 +143,7 @@ Pour en savoir plus sur la validation du contenu, consultez la [documentation de
 
 Vous pouvez utiliser des populations témoins pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Les opérateurs peuvent comparer le comportement de la population cible qui a bien reçu le message avec celui des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, les opérateurs peuvent également cibler une population témoin dans les prochaines campagnes.
 
-Pour en savoir plus sur les populations témoins, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=fr#add-a-control-group){target="_blank"}.
+Pour en savoir plus sur les populations témoins, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"}.
 +++
 
 +++**Panneau de contrôle**
@@ -215,7 +215,7 @@ En savoir plus sur les [diffusions](../../delivery/using/communication-channels.
 
 L’analyse de la diffusion est la préparation de la diffusion. Ce processus associe le contenu aux données de profil du destinataire pour produire l’e-mail personnalisé que le destinataire reçoit. En fonction de la logique définie, la logique d’analyse de diffusion peut exclure les destinataires de la cible ou arrêter complètement la diffusion. Ce processus inclut également l’évaluation de la logique de contenu dynamique et l’insertion d’offres spécifiques au profil de destinataire individuel.
 
-Pour en savoir plus sur l’analyse des diffusions, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=fr){target="_blank"}.
+Pour en savoir plus sur l’analyse des diffusions, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
 +++
 
 +++**Logs de diffusion**
@@ -346,7 +346,7 @@ Pour en savoir plus sur l’activité Enrichissement , consultez la [documentati
 
 Une énumération est un type de données défini dans les schémas ou au niveau de la plateforme qui définit les valeurs d’entrée valides d’un champ. Les énumérations s’affichent dans l’interface utilisateur et dans les créateurs de requêtes sous la forme d’une liste de sélection.
 
-Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 +++
 
 +++**Vue Explorateur**
@@ -354,7 +354,7 @@ Découvrez comment **utiliser les énumérations** dans la documentation d’[Ad
 La vue Explorateur est un affichage hiérarchique des dossiers contenant des artefacts et des données Adobe Campaign. Veuillez noter que le système de dossiers dans Adobe Campaign ne fonctionne pas comme une vue d’ensemble classique, dans la mesure où chaque dossier contient des données d’un type spécifique, telles que Diffusions, Workflows ou Offres.
 
 
-En savoir plus sur l’interface utilisateur de Campaign dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+En savoir plus sur l’interface d’utilisation de Campaign dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 +++
 
@@ -387,7 +387,7 @@ En savoir plus sur [Federated Data Access](../../installation/using/about-fda.md
 
 La validation de l’extraction du fichier est le processus par lequel un opérateur ou un groupe distinct d’opérateurs approuve le contenu et la configuration d’un fichier extrait avant son envoi à un fournisseur externe, par exemple pour une diffusion par publipostage direct.
 
-Pour en savoir plus sur la validation de l’extraction du fichier, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=fr#validating){target="_blank"}.
+Pour en savoir plus sur la validation de l’extraction du fichier, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#validating){target="_blank"}.
 +++
 
 +++**Dimension de filtrage**
@@ -401,7 +401,7 @@ Pour en savoir plus sur la dimension de filtrage, consultez la [documentation de
 
 Un dossier est un élément de la vue Explorateur contenant des enregistrements de base de données d’un type de données spécifique. L’exception est le type de dossier générique utilisé comme élément organisateur et ne contenant aucune donnée, mais uniquement d’autres dossiers.
 
-En savoir plus sur l’interface utilisateur de Campaign dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+En savoir plus sur l’interface d’utilisation de Campaign dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 +++
 
@@ -409,7 +409,7 @@ En savoir plus sur l’interface utilisateur de Campaign dans la documentation d
 
 La vue Dossier est un type de dossier Explorateur spécial permettant d’afficher tous les enregistrements d’un type de données sélectionné, quel que soit le dossier auquel il appartient. Les vues Dossier servent d’outil administratif pour gérer les données partitionnées ou les données distribuées entre de nombreux dossiers.
 
-En savoir plus sur l’interface utilisateur de Campaign dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+En savoir plus sur l’interface d’utilisation de Campaign dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 +++
 
 +++**Formulaires**
@@ -562,7 +562,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 L’arborescence de navigation est la navigation principale dans la vue Explorateur d’Adobe Campaign. L’arborescence de navigation fonctionne comme un explorateur de fichiers (par exemple, l’Explorateur Windows). Les dossiers peuvent contenir des sous-dossiers. La sélection d’un nœud affiche la vue correspondante. La vue affichée est une liste associée à un schéma et à un formulaire de saisie pour la modification de la ligne sélectionnée. Vous pouvez personnaliser l’arborescence de navigation et définir les autorisations sur les dossiers.
 
-En savoir plus sur l’interface utilisateur de Campaign dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+En savoir plus sur l’interface d’utilisation de Campaign dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 +++
 
@@ -572,7 +572,7 @@ En savoir plus sur l’interface utilisateur de Campaign dans la documentation d
 
 Dans le cadre de l’opération, du programme ou du plan, les opérateurs peuvent indiquer une liste d’objectifs. Il s’agit de valeurs quantifiées à atteindre. À la fin de l’opération, du programme ou du plan, le module MRM permet aux opérateurs de comparer les objectifs et les résultats dans des rapports dédiés.
 
-En savoir plus sur les objectifs dans la documentation d’[Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=fr#expenses-and-revenues){target=_blank}.
+En savoir plus sur les objectifs dans la documentation d’[Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html#expenses-and-revenues){target=_blank}.
 +++
 
 +++**Catalogue d&#39;offres**
@@ -754,7 +754,7 @@ En savoir plus sur l’[exportation/importation de package](../../platform/using
 
 La palette du workflow affiche les activités disponibles qui peuvent être ajoutées à un workflow. Ce composant est présenté sous un format tabulé avec des activités de workflow regroupées logiquement selon leur utilisation. Les activités disponibles dans la palette sont déterminées par les modules complémentaires installés dans l’instance Campaign et par le contexte affichant le workflow.
 
-Pour en savoir plus sur la palette, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=fr#add-and-link-activities){target="_blank"}.
+Pour en savoir plus sur la palette, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#add-and-link-activities){target="_blank"}.
 +++
 
 +++**Suivi des performances**
@@ -768,14 +768,14 @@ En savoir plus sur la [Surveillance des performances](../../production/using/mon
 
 Adobe Campaign propose des blocs de personnalisation intégrés que vous pouvez insérer dans vos diffusions. Ils sont dynamiques, personnalisés et contiennent un rendu spécifique. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Plusieurs blocs de personnalisation sont disponibles par défaut. Vous pouvez également définir des blocs de personnalisation personnalisés qui vous permettront d’optimiser la personnalisation de votre diffusion. Les données réelles sont insérées dans chaque message généré lors de la phase d’analyse de la diffusion.
 
-Pour en savoir plus sur les blocs de personnalisation, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
+Pour en savoir plus sur les blocs de personnalisation, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 +++
 
 +++**Champ de personnalisation**
 
 Un champ de personnalisation est une référence de champ de données unique utilisée lors de la personnalisation d’une diffusion pour un destinataire spécifique. La valeur réelle des données est insérée lors de la phase d’analyse de la diffusion.
 
-Pour en savoir plus sur les champs de personnalisation, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html?lang=fr){target="_blank"}.
+Pour en savoir plus sur les champs de personnalisation, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html){target="_blank"}.
 +++
 
 +++**Variables de personnalisation**
@@ -796,7 +796,7 @@ En savoir plus sur les plans dans la [documentation de Campaign v8](https://expe
 
 Les filtres prédéfinis sont des requêtes qui ont été enregistrées pour réutilisation. L’utilisation de filtres prédéfinis augmente la productivité (car ils ne sont créés qu’une seule fois), contribue à assurer une cohérence (car tous les spécialistes marketing peuvent les utiliser) et à réduire les compétences requises du spécialiste marketing, car ce dernier peut utiliser du code ou une logique qu’il pourrait ne pas être en mesure de créer lui-même.
 
-Pour plus d’informations sur les filtres, consultez la documentation [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Pour plus d’informations sur les filtres, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 +++
 
 <!--
@@ -930,14 +930,14 @@ Pour en savoir plus sur l’activité de services d’abonnements, consultez la 
 
 La validation de la cible est le processus par lequel un opérateur ou un groupe d’opérateurs distinct doit approuver la cible finale d’une diffusion (après que la phase d’analyse a généré la cible) avant que la diffusion ne puisse être envoyée.
 
-En savoir plus sur l’activité Validation de la cible dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/approval.html?lang=fr){target="_blank"}.
+En savoir plus sur l’activité Validation de la cible dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/approval.html){target="_blank"}.
 +++
 
 +++**Données de la cible**
 
 Les données de la cible sont les données stockées dans la table de travail (transition) d’un workflow. Ces données sont disponibles dans la diffusion pour la personnalisation du contenu de la diffusion ou pour définir la logique des éléments dynamiques de la diffusion.
 
-En savoir plus sur les données de la cible dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=fr#target-data){target="_blank"}.
+En savoir plus sur les données de la cible dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html#target-data){target="_blank"}.
 +++
 
 +++**Mapping de ciblage**
@@ -959,7 +959,7 @@ Pour en savoir plus sur les activités de ciblage, consultez la [documentation d
 
 La dimension de ciblage est le type de données généré (renvoyé) par une requête ou d’autres activités de workflow. Notez qu’Adobe Campaign renvoie uniquement la clé primaire des lignes de la base de données des répondants, quelle que soit la requête utilisée pour les obtenir.
 
-En savoir plus sur la dimension de ciblage dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=fr){target="_blank"}.
+En savoir plus sur la dimension de ciblage dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"}.
 +++
 
 +++**Activité de tâche**
@@ -1025,7 +1025,7 @@ En savoir plus sur la [messagerie transactionnelle](../../message-center/using/a
 
 Les campagnes déclenchées sont des campagnes exécutées lorsqu’un workflow reçoit une demande d’API. Les appels d’API sont consommés par une activité Signal dans le workflow qui lance l’exécution du workflow.
 
-Pour en savoir plus sur les campagnes déclenchées, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/external-signal.html?lang=fr){target="_blank"}.
+Pour en savoir plus sur les campagnes déclenchées, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/external-signal.html){target="_blank"}.
 +++
 
 <!--

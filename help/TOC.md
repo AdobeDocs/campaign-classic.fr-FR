@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
 source-wordcount: '2744'
-ht-degree: 72%
+ht-degree: 75%
 
 ---
 
@@ -24,20 +24,20 @@ ht-degree: 72%
       + [2024](rn/using/release-2024.md)
       + [2023](rn/using/release-2023.md)
       + [2022 - MASQUÉ](rn/using/release-2022.md)
-      + [2021 - CACHÉ](rn/using/release-2021.md)
+      + [2021 - MASQUÉ](rn/using/release-2021.md)
       + [[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
    + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
-   + [Mises à jour de la documentation - MASQUÉES](rn/using/documentation-updates.md)
-+ Prise en main {#getting-started}
+   + [Mises à jour de la documentation - MASQUÉ](rn/using/documentation-updates.md)
++ Commencer {#getting-started}
    + [Prise en main d’Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
    + [Lancement d’Adobe Campaign](platform/using/launching-adobe-campaign.md)
-   + [Découverte de l’interface utilisateur de Campaign](platform/using/adobe-campaign-workspace.md)
-   + [Utiliser l&#39;explorateur Campaign - HIDDEN](platform/using/adobe-campaign-explorer.md)
-   + [Parcourir et personnaliser les listes - HIDDEN](platform/using/adobe-campaign-ui-lists.md)
-   + [Énumérations - MASQUÉES](platform/using/managing-enumerations.md)
+   + [Découvrir l’interface d’utilisation de Campaign](platform/using/adobe-campaign-workspace.md)
+   + [Utiliser l’explorateur de Campaign - MASQUÉ](platform/using/adobe-campaign-explorer.md)
+   + [Parcourir et personnaliser les listes - MASQUÉ](platform/using/adobe-campaign-ui-lists.md)
+   + [Énumérations - MASQUÉ](platform/using/managing-enumerations.md)
    + [Connecteurs Campaign](platform/using/about-connectors.md)
-   + [Création de requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
+   + [Créer des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
    + Questions fréquentes {#faq}
       + [Questions les plus fréquentes](platform/using/common-questions.md)
       + [Concepts globaux](platform/using/faq-key-concepts.md)
@@ -47,7 +47,7 @@ ht-degree: 72%
       + [Concevoir des messages](platform/using/faq-designing.md)
       + [Envoi de messages](platform/using/faq-messages.md)
       + [Workflows](platform/using/faq-workflows.md)
-      + [Configuration &#x200B;](platform/using/faq-campaign-config.md)
+      + [Configuration ](platform/using/faq-campaign-config.md)
       + [Rapports](platform/using/faq-reporting.md)
       + [Développement](platform/using/faq-developers.md)
    + [Glossaire](platform/using/ac-glossary.md)
@@ -61,12 +61,12 @@ ht-degree: 72%
       + [Droit d&#39;opposition (opt-out) à la vente des informations personnelles](platform/using/privacy-requests-ccpa.md)
    + Gestion des profils {#profile-management}
       + [À propos des profils](platform/using/about-profiles.md)
-      + [Modification d’un profil - MASQUÉ](platform/using/editing-a-profile.md)
+      + [Modifier un profil - MASQUÉ](platform/using/editing-a-profile.md)
       + [Ajouter des profils - MASQUÉ](platform/using/adding-profiles.md)
       + [Gérer les profils - MASQUÉ](platform/using/managing-profiles.md)
-      + [Mise à jour de données](platform/using/updating-data.md)
-      + [Import et export de profils - HIDDEN](platform/using/exporting-and-importing-profiles.md)
-      + [Création et gestion de listes](platform/using/creating-and-managing-lists.md)
+      + [Mettre à jour des données](platform/using/updating-data.md)
+      + [Importer et exporter des profils - MASQUÉ](platform/using/exporting-and-importing-profiles.md)
+      + [Créer et gérer des listes](platform/using/creating-and-managing-lists.md)
    + Importer et exporter des données {#importing-and-exporting-data}
       + [Prise en main de l&#39;import et de l&#39;export de données](platform/using/get-started-data-import-export.md)
       + [Utilisation de workflows pour importer et exporter des données](platform/using/import-export-workflows.md)
@@ -87,9 +87,9 @@ ht-degree: 72%
    + Filtrer des données {#filtering-data}
       + [Options de filtrage - MASQUÉ](platform/using/filtering-options.md)
       + [Créer des filtres - MASQUÉ](platform/using/creating-filters.md)
-      + [Cas d’utilisation : masqué](platform/using/use-case.md)
-   + [Procédure de création d’une requête - MASQUÉ](platform/using/steps-to-create-a-query.md)
-   + [Définir les conditions de filtrage - MASQUÉ](platform/using/defining-filter-conditions.md)
+      + [Cas d’utilisation - MASQUÉ](platform/using/use-case.md)
+   + [Procédure à suivre pour créer une requête - MASQUÉ](platform/using/steps-to-create-a-query.md)
+   + [Définir des conditions de filtre - MASQUÉ](platform/using/defining-filter-conditions.md)
    + Autorisations {#permissions}
       + [Commencer avec les autorisations](platform/using/access-management.md)
       + Authentification native (héritée) {#native}
@@ -102,7 +102,7 @@ ht-degree: 72%
       + [Connexion avec Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
       + [Connexion à Salesforce.com](platform/using/crm-sfdc.md)
       + [Synchronisation des données avec le CRM](platform/using/crm-data-sync.md)
-   + [Options d’aide et d’assistance - MASQUÉ](support.md)
+   + [Aide et options d’assistance - MASQUÉ](support.md)
 + Créer et envoyer des messages {#sending-messages}
    + [Commencer avec les messages](delivery/using/communication-channels.md)
    + [Paramètres de diffusion - MASQUÉ](delivery/using/delivery-settings.md)
@@ -143,7 +143,7 @@ ht-degree: 72%
    + [Envoi de messages LINE](delivery/using/line-channel.md)
    + [Envoyer des notifications push](delivery/using/about-mobile-app-channel.md)
    + Envoyer des notifications push {#sending-push-notifications}
-      + [Intégration du SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+      + [ Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configurer l’application mobile{#configure-the-mobile-app}
          + [Prise en main de la configuration de l’application - MASQUÉ](delivery/using/get-started-app-config.md)
          + [Étapes de configuration pour iOS - MASQUÉ](delivery/using/configuring-the-mobile-application.md)
@@ -152,7 +152,7 @@ ht-degree: 72%
          + [Création d’un message push pour iOS - MASQUÉ](delivery/using/create-notifications-ios.md)
          + [Création d’un message push pour Android - MASQUÉ](delivery/using/create-notifications-android.md)
       + [Dépannage - CACHÉ](delivery/using/troubleshooting.md)
-   + [Envoi de courriers](delivery/using/about-direct-mail-channel.md)
+   + [Envoyer des courriers](delivery/using/about-direct-mail-channel.md)
    + Envoyer un courrier {#sending-direct-mail}
       + [Créer une diffusion courrier - MASQUÉ](delivery/using/creating-a-direct-mail-delivery.md)
       + [Définition du contenu du publipostage direct - MASQUÉ](delivery/using/defining-the-direct-mail-content.md)
@@ -271,7 +271,7 @@ ht-degree: 72%
    + [Cas d’utilisation - MASQUÉ](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
    + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-   + [Configuration &#x200B;](response/using/configuration.md)
+   + [Configuration ](response/using/configuration.md)
    + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
    + [Création d’hypothèses](response/using/creating-hypotheses.md)
    + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -382,11 +382,11 @@ ht-degree: 72%
       + [Configuration de l’intégration avec [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [Insertion d’une image dynamique](integrations/using/inserting-a-dynamic-image.md)
    + Connecteur ACS {#acs-connector}
-      + [Prise en main avec  [!DNL ACS Connector] - HIDDEN](integrations/using/acs-connector-principles-and-data-cycle.md)
-      + [Synchronisation des profils - MASQUÉ](integrations/using/synchronizing-profiles.md)
-      + [Synchronisation des audiences - MASQUÉ](integrations/using/synchronizing-audiences.md)
-      + [Synchronisation des applications web - MASQUÉ](integrations/using/synchronizing-web-applications.md)
-      + [Résolution des problèmes liés au  [!DNL ACS Connector]  MASQUÉ](integrations/using/troubleshooting-the-acs-connector.md)
+      + [Commencer avec  [!DNL ACS Connector]  - MASQUÉ](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [Synchroniser des profils - MASQUÉ](integrations/using/synchronizing-profiles.md)
+      + [Synchroniser des audiences - MASQUÉ](integrations/using/synchronizing-audiences.md)
+      + [Synchroniser des applications web - MASQUÉ](integrations/using/synchronizing-web-applications.md)
+      + [Résoudre des problèmes liés au  [!DNL ACS Connector]  - MASQUÉ](integrations/using/troubleshooting-the-acs-connector.md)
 + [Automatiser avec des workflows](workflow/using/about-workflows.md)
 + Automatiser avec des workflows {#automating-with-workflows}
    + Prise en main des workflows {#introduction}
@@ -608,7 +608,7 @@ ht-degree: 72%
          + [Serveur de messagerie](installation/using/messaging-server.md)
          + [Configuration réseau](installation/using/network-configuration.md)
       + Campaign sous Windows {#installing-campaign-in-windows}
-         + [Prise en main](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+         + [Commencer](installation/using/prerequisites-of-campaign-installation-in-windows.md)
          + [Installation du serveur](installation/using/installing-the-server.md)
          + [Intégration dans un serveur web (Windows)](installation/using/integration-into-a-web-server-for-windows.md)
          + [Disponibilité de la console cliente pour Windows](installation/using/client-console-availability-for-windows.md)
@@ -672,7 +672,7 @@ ht-degree: 72%
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création d’instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign &#x200B;](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstallation de Campaign](installation/using/uninstalling-campaign.md)
       + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
@@ -683,8 +683,8 @@ ht-degree: 72%
    + Procédures d’exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
-      + [Administration &#x200B;](production/using/administration.md)
-      + [Configuration &#x200B;](production/using/configuration.md)
+      + [Administration ](production/using/administration.md)
+      + [Configuration ](production/using/configuration.md)
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)

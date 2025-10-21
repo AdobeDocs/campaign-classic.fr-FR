@@ -110,7 +110,7 @@ Voici une liste descriptive des opérateurs disponibles :
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Est compris dans</span> <br /> </td> 
-   <td> Obtenir les résultats compris dans les valeurs indiquées. Ces valeurs doivent toujours être séparées par une virgule.<br /> </td> 
+   <td> Renvoie les résultats compris dans les valeurs indiquées. Ces valeurs doivent toujours être séparées par une virgule.<br /> </td> 
    <td> <strong>Code Postal (location/@zipCode) est compris dans '75014, 75015'</strong>. Si des destinataires sont recherchés, la requête retrouvera ceux dont le code postal égal à 75014 et 75015. <br /> </td> 
   </tr> 
   <tr> 
@@ -292,7 +292,7 @@ Quatre types de champ calculé sont proposés :
 
   On peut utiliser la valeur source d&#39;une colonne et lui donner une valeur de destination. Cette valeur de destination sera affichée dans la nouvelle colonne de sortie.
 
-  Un exemple d’ajout du type de champ calculé **[!UICONTROL Énumérations]** est disponible dans la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html?lang=fr){target="_blank"}.
+  Un exemple d’ajout du type de champ calculé **[!UICONTROL Énumérations]** est disponible dans la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html){target="_blank"}.
 
   ![](assets/query_editor_nveau_63.png)
 

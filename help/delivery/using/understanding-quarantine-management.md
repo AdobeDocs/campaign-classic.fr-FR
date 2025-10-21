@@ -41,7 +41,7 @@ La quarantaine et la liste bloquée ne s’appliquent pas au même objet :
 
 * En revanche, en cas d&#39;insertion en **liste bloquée**, le **profil** ne sera plus ciblé par aucune diffusion, par exemple après une désinscription (opt-out), pour un canal donné. Par exemple, si un profil de la liste bloquée pour le canal e-mail comporte deux adresses e-mail, les deux adresses seront exclues de la diffusion.
 
-  Vous pouvez vérifier si un profil est sur la placée sur la liste bloquée pour un ou plusieurs canaux dans la section **[!UICONTROL Ne plus contacter]** de l’onglet **[!UICONTROL Général]** du profil.
+  Vous pouvez vérifier si un profil est sur la liste bloquée pour un ou plusieurs canaux dans la section **[!UICONTROL Ne plus contacter]** de l’onglet **[!UICONTROL Général]** du profil.
 >[!NOTE]
 >
 >La mise en quarantaine inclut un statut **[!UICONTROL Sur liste bloquée]**, qui s’applique lorsque les destinataires signalent votre message comme étant un spam ou répondent à un message SMS avec un mot-clé tel que « STOP ». Dans ce cas, l’adresse ou le numéro de téléphone du profil impliqué est mis en quarantaine avec le statut **[!UICONTROL Sur liste bloquée]**. Pour plus d&#39;informations sur la gestion des messages SMS STOP, consultez [cette section](../../delivery/using/sms-send.md#processing-inbound-messages).

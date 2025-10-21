@@ -87,7 +87,7 @@ Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux optio
 
    * **[!UICONTROL Ne pas mettre à jour les énumérations]**
 
-     Cochez cette option pour ne pas enrichir la liste des valeurs énumérées en base. Découvrez comment **utiliser les énumérations** dans la documentation d’[Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+     Cochez cette option pour ne pas enrichir la liste des valeurs énumérées en base. Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 
 * Onglet **[!UICONTROL Variables]**
@@ -284,7 +284,7 @@ L’étape suivante de l’assistant d’import permet de choisir ou créer le d
 
 >[!NOTE]
 >
->Cette étape apparaît lors de l&#39;import des destinataires uniquement et lors de l&#39;utilisation du tableau des destinataires Adobe Campaign par défaut (**nms:recipient**).
+>Cette étape n’apparaît que lorsque vous importez des personnes destinataires et que vous utilisez la table de personnes destinataires Adobe Campaign par défaut (**nms:recipient**).
 
 * Cliquez sur les liens **[!UICONTROL Editer]** pour choisir le dossier, la liste ou le service auxquels vous souhaitez associer ou abonner les destinataires.
 
@@ -322,7 +322,7 @@ L’étape suivante de l’assistant d’import permet de choisir ou créer le d
 
    1. Abonner à un service
 
-      Pour abonner tous les destinataires importés à un service d&#39;information, cliquez sur le lien **[!UICONTROL Editer...]** **&#x200B;**&#x200B;Vous pouvez sélectionner l&#39;option **[!UICONTROL Envoyer un message de confirmation]** : le contenu de ce message est défini dans le modèle de diffusion associé au service d&#39;abonnement.
+      Pour abonner tous les destinataires importés à un service d&#39;information, cliquez sur le lien **[!UICONTROL Editer...]** **** Vous pouvez sélectionner l&#39;option **[!UICONTROL Envoyer un message de confirmation]** : le contenu de ce message est défini dans le modèle de diffusion associé au service d&#39;abonnement.
 
       ![](assets/s_ncs_user_import_wizard05_7.png)
 

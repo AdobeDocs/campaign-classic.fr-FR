@@ -8,7 +8,7 @@ exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
 source-wordcount: '1254'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,7 @@ Vous pouvez associer des champs de la base à des blocs de type zone de saisie, 
 
 La zone de sélection **Champ** permet de sélectionner un champ de la base de données à associer avec le champ du formulaire.
 
-Par défaut, les champs proposés sont ceux du tableau **nms:recipient**.
+Par défaut, les champs proposés sont ceux de la table **nms:recipient**.
 
 ![](assets/dce_field_selection.png)
 
@@ -70,7 +70,7 @@ Pour les boutons radio et cases à cocher, une **configuration supplémentaire e
 
 En effet, si le modèle utilisé ne contient pas de valeur par défaut, vous devez les compléter dans l&#39;éditeur.
 
-Pour cela :
+Pour ce faire :
 
 * Cliquez sur l&#39;icône **[!UICONTROL Edition]**.
 
@@ -259,4 +259,4 @@ L&#39;option **Bloc de personnalisation** permet d&#39;insérer des blocs dynami
 
 Après l&#39;insertion, le nom du bloc de personnalisation apparaît dans l&#39;éditeur, surligné en jaune. Il sera automatiquement adapté au profil du destinataire lors de la génération de la personnalisation.
 
-Pour plus d’informations sur les blocs de personnalisation intégrés et sur la définition de blocs de personnalisation personnalisés, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
+Pour plus d’informations sur les blocs de personnalisation intégrés et sur la définition de blocs de personnalisation personnalisés, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
