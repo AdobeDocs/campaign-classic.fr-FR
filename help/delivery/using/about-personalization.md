@@ -35,7 +35,7 @@ Pour en savoir plus sur la personnalisation du contenu, consultez la [documentat
 
 Découvrez les étapes clés liées au contenu conditionnel et à la personnalisation **dans la documentation de Campaign v8** :
 
-* [Données Personalization ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-data.html){target="_blank"} : découvrez comment utiliser différentes sources de données pour la personnalisation afin de personnaliser vos diffusions.
+* [Données Personalization &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-data.html){target="_blank"} : découvrez comment utiliser différentes sources de données pour la personnalisation afin de personnaliser vos diffusions.
 * [Champs de personnalisation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html){target="_blank"} : découvrez comment insérer et utiliser des champs de personnalisation afin que chaque destinataire voie ses propres données dans l’objet ou le corps de votre message.
 * [Blocs de personnalisation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"} : découvrez comment utiliser les blocs de personnalisation pour insérer du contenu dynamique et conditionnel dans vos messages en fonction des données des destinataires.
 * [Contenu conditionnel](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditions.html){target="_blank"} : découvrez comment insérer du contenu conditionnel en fonction des valeurs de champ du destinataire.
