@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: bba3f23637dd67a1557203c5ed1b93a6cb044870
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 97%
+source-wordcount: '889'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ Pour ce faire, procédez comme suit :
 
 Vous pouvez utiliser l&#39;[assistant de déploiement](../../production/using/database-cleanup-workflow.md#deployment-assistant) pour configurer la durée pendant laquelle vous souhaitez conserver les événements en base dans la base de données.
 
-La purge des événements est effectuée automatiquement par le workflow [&#128279;](../../production/using/database-cleanup-workflow.md)Nettoyage de la base. Ce workflow purge les événements reçus et stockés sur les instances d&#39;exécution et des événements archivés sur une instance de pilotage.
+La purge des événements est effectuée automatiquement par le workflow [](../../production/using/database-cleanup-workflow.md)Nettoyage de la base. Ce workflow purge les événements reçus et stockés sur les instances d&#39;exécution et des événements archivés sur une instance de pilotage.
 
 Pour modifier les paramètres de purge, utilisez la flèche ascendante et descendante.
 
@@ -101,6 +101,12 @@ Si vous modifiez le planning du workflow d’archivage, vous devez également mo
 ## Configuration du multibranding {#configuring-multibranding}
 
 Cette section présente une solution pour configurer le tracking et les URL de page miroir par marque pour les messages transactionnels dans Adobe Campaign.
+
+### Note de compatibilité {#compatibility-note}
+
+Cette configuration de branding héritée n’est pas compatible avec le nouveau modèle [branding centralisé](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} introduit dans Campaign v8.
+
+Si votre environnement existant utilise cette configuration héritée, elle ne peut pas être migrée directement vers le nouveau modèle de branding centralisé. Une réimplémentation complète des paramètres de marque est nécessaire pour adopter le nouveau système.
 
 ### Conditions préalables requises {#prerequisites}
 
