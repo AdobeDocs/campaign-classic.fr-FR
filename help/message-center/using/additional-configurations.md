@@ -104,7 +104,7 @@ Cette section présente une solution pour configurer le tracking et les URL de p
 
 ### Note de compatibilité {#compatibility-note}
 
-Cette configuration de branding héritée n’est pas compatible avec le nouveau modèle [branding centralisé](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} introduit dans Campaign v8.
+Cette configuration de branding héritée n’est pas compatible avec le nouveau modèle [branding centralisé](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=fr){target="_blank"} introduit dans Campaign v8.
 
 Si votre environnement existant utilise cette configuration héritée, elle ne peut pas être migrée directement vers le nouveau modèle de branding centralisé. Une réimplémentation complète des paramètres de marque est nécessaire pour adopter le nouveau système.
 
