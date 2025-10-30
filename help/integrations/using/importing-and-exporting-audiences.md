@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -50,13 +50,13 @@ Le processus d’import met entre 24 et 36 heures pour se synchroniser lorsque 
 >
 >Si vous importez des audiences à partir d’Adobe Analytics vers Adobe Campaign, celles-ci doivent d’abord être partagées dans Audience Manager. Ce processus prend entre 12 et 24 heures (temps venant s’ajouter aux 24 à 36 heures requises pour la synchronisation avec Campaign).
 >
->Dans ce cas spécifique, la durée de partage de l’audience peut prendre jusqu’à 60 heures. Pour plus d&#39;informations sur le partage d&#39;audiences Adobe Analytics dans Audience Manager, consultez la [documentation Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr){target="_blank"}.
+>Dans ce cas spécifique, la durée de partage de l’audience peut prendre jusqu’à 60 heures. Pour plus d’informations sur le partage d’audiences Adobe Analytics dans Audience Manager, consultez la [documentation d’Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr){target="_blank"}.
 
 Lors de chaque synchronisation, les données de l&#39;audience sont entièrement remplacées. Seuls les segments peuvent être importés. Les données granulaires, notamment les paires clé-valeur, les caractéristiques et les règles ne sont pas prises en charge.
 
 ## Exporter une audience {#exporting-an-audience}
 
-Vous pouvez exporter une audience à partir d’Adobe Campaign vers Audience Manager à l’aide d’un workflow. Les processus de création et d’utilisation d’un workflow sont détaillés dans la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=fr){target="_blank"}. Les audiences exportées sont enregistrées sous forme de segments :
+Vous pouvez exporter une audience à partir d’Adobe Campaign vers Audience Manager à l’aide d’un workflow. La création et l’utilisation d’un workflow sont détaillées dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=fr){target="_blank"}. Les audiences exportées sont enregistrées sous forme de segments :
 
 1. Créez un nouveau workflow de ciblage.
 1. En utilisant les différentes activités à votre disposition, ciblez un ensemble de destinataires.
@@ -80,8 +80,8 @@ Vous pouvez exporter une audience à partir d’Adobe Campaign vers Audience M
 
 L&#39;audience est alors exportée. L&#39;activité de sauvegarde d&#39;audience a deux transitions sortantes. La transition principale contient les destinataires ayant été exportés avec succès. La transition complémentaire contient les destinataires n&#39;ayant pas pu être mappés avec un identifiant visiteur ou un declared ID.
 
-La synchronisation entre les solutions prend entre 24 et 36 heures. Au terme de cette période, vous pouvez accéder à votre nouvelle audience et la réutiliser dans d’autres solutions Adobe Experience Cloud. Pour plus d’informations sur l’utilisation d’une audience partagée Adobe Campaign, consultez cette [documentation](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/create){target="_blank"}.
+La synchronisation entre les solutions prend entre 24 et 36 heures. Au terme de cette période, vous pouvez accéder à votre nouvelle audience et la réutiliser dans d’autres solutions Adobe Experience Cloud. Pour plus d’informations sur l’utilisation d’une audience partagée Adobe Campaign, consultez cette [documentation](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/create){target="_blank"}.
 
 >[!NOTE]
 >
->Pour pouvoir être réconciliés, les enregistrements doivent posséder un identifiant Adobe Experience Cloud (&#39;Visitor ID&#39; ou &#39;Declared ID&#39;). Les enregistrements ne disposant pas d’un identifiant Adobe Experience Cloud sont ignorés lors de l’export et de l’import des audiences.
+>Pour pouvoir être réconciliés, les enregistrements doivent posséder un identifiant Adobe Experience Cloud (« Visitor ID » ou « Declared ID »). Les enregistrements ne disposant pas d’un identifiant Adobe Experience Cloud sont ignorés lors de l’export et de l’import des audiences.

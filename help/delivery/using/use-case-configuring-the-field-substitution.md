@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: 'Cas pratique : configuration de la substitution des champs'
-description: 'Cas pratique : configuration de la substitution des champs'
+title: 'Cas d’utilisation : configurer la substitution des champs'
+description: 'Cas d’utilisation : configurer la substitution des champs'
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Cas pratique : configuration de la substitution des champs{#use-case-configuring-the-field-substitution}
+# Cas d’utilisation : configurer la substitution des champs{#use-case-configuring-the-field-substitution}
 
 
 
@@ -33,7 +33,7 @@ Pour utiliser la substitution aléatoire des champs vous devez disposer :
 
 ## Création dʼune diffusion {#step-1---creating-a-delivery}
 
-Les étapes de création d&#39;une diffusion sont détaillées dans la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=fr){target="_blank"}.
+Les étapes de création d’une diffusion sont présentées dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=fr){target="_blank"}.
 
 Dans cet exemple, la newsletter a été créée par le chargé de diffusion.
 

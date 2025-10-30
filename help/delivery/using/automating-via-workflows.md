@@ -7,9 +7,9 @@ feature: Workflows
 role: User
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1213'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Une nouvelle instance de contenu est créée à partir du modèle de publication
 
 Dans notre exemple, nous avons surchargé l’objet de la diffusion. Il sera pris en compte à la place de celui renseigné dans le modèle de diffusion de l’activité **[!UICONTROL Diffusion]**.
 
-Le contenu est complété automatiquement par un flux XML provenant de l&#39;URL renseignée :
+Le contenu est complété automatiquement par un flux XML provenant de l’URL renseignée :
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -101,7 +101,7 @@ Le contenu est complété automatiquement par un flux XML provenant de l&#39;URL
 </book>
 ```
 
-Le format des données ne correspond pas au schéma de données renseigné dans le modèle de publication (**cus:book** dans notre exemple) ; l&#39;élément **`<section>`** doit être remplacé par l&#39;élément **`<chapter>`**. Nous devons appliquer la feuille de style « cus:book-workflow.xsl » pour effectuer les modifications nécessaires.
+Le format de données ne correspond pas au schéma de données entré dans le modèle de publication (**cus:book**, dans notre exemple) ; l’élément **`<section>`** doit être remplacé par l’élément **`<chapter>`**. Il est nécessaire d’appliquer la feuille de style « cus:book-workflow.xsl » pour apporter les modifications nécessaires.
 
 Code source de la feuille de style XSLT utilisée :
 
@@ -214,12 +214,12 @@ L&#39;action finale de l&#39;activité est de préparer et de lancer la diffusio
 
 ### Import du contenu depuis FTP {#importing-content-from-ftp}
 
-Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=fr){target="_blank"}.
+Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=fr){target="_blank"}.
 
 
 ### Import du contenu depuis le connecteur Amazon Simple Storage Service (S3) {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
-Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve dans des compartiments Amazon Simple Storage Service (S3), vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=fr){target="_blank"}.
+Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve dans des compartiments Amazon Simple Storage Service (S3), vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=fr){target="_blank"}.
 
 
 ## Mise à jour semi-automatique {#semi-automatic-update}
@@ -252,9 +252,9 @@ La méthode **GetAndTransform** doit être déclarée sous l’élément **`<ent
 
 La sortie met à jour le contenu à partir du chemin renseigné dans le dernier paramètre.
 
-**Exemple** : Pour illustrer cette fonctionnalité, nous partirons du schéma « cus:book ».
+**Exemple** : pour illustrer cette fonctionnalité, nous partirons du schéma « cus:book ».
 
-On ajoute dans le formulaire de saisie un contrôle d&#39;édition de mise à jour semi-automatique :
+On ajoute dans le formulaire de saisie un contrôle d’édition de mise à jour semi-automatique :
 
 ![](assets/d_ncs_content_exemple9.png)
 
@@ -272,6 +272,6 @@ On ajoute dans le formulaire de saisie un contrôle d&#39;édition de mise à jo
 
 La zone d’édition vous permet de saisir le nom du fichier à récupérer. L’URL est construite en fonction de ce nom, par exemple : https://myserver.adobe.com/incomin/data.xml
 
-Le format des données à récupérer est le même que dans l&#39;exemple 1 de l&#39;automatisation des workflows. Nous utiliserons la feuille de style « cus:book-workflow.xsl » vue dans cet exemple.
+Le format des données à récupérer est le même que dans l’exemple 1 de l’automatisation des workflows. Nous utiliserons la feuille de style « cus:book-workflow.xsl » vue dans cet exemple.
 
-Le résultat de l&#39;exécution du traitement met à jour l&#39;instance de contenu à partir du chemin &#39;.&#39;.
+Le résultat de l’exécution du traitement met à jour l’instance de contenu à partir du chemin « . ».

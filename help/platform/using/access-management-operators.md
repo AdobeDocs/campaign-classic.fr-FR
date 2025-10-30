@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1302'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!CAUTION]
 >
->Ces procédures ne s’appliquent qu’aux opérateurs et opératrices qui se connectent à Campaign via l’**authentification native héritée**. À compter de Campaign Classic v7.3.1, l’ensemble des opérateurs et opératrices doivent utiliser le [système de gestion des identités Adobe (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign. [En savoir plus](../../technotes/using/migrate-users-to-ims.md)
+>Ces procédures ne s’appliquent qu’aux opérateurs et opératrices qui se connectent à Campaign via l’**authentification native héritée**. À compter de Campaign Classic v7.3.1, l’ensemble des opérateurs et opératrices doivent utiliser le [système de gestion des identités Adobe (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign. [En savoir plus](../../technotes/using/migrate-users-to-ims.md)
 >
 >Si vous vous connectez à Campaign avec votre Adobe ID, la section suivante ne s’applique plus. Découvrez comment configurer des autorisations avec Adobe IMS dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
 
@@ -56,7 +56,7 @@ Pour créer un opérateur et accorder des autorisations, procédez comme suit :
 
 1. Spécifiez les **[!UICONTROL Paramètres d’identification]** de l&#39;utilisateur ou de l’utilisatrice : identifiant, mot de passe et nom. Le nom d’utilisateur et le mot de passe seront utilisés par l’opérateur ou l’opératrice pour se connecter à Adobe Campaign. Une fois connecté, l&#39;utilisateur peut changer son mot de passe depuis le menu **[!UICONTROL Outils > Changement de mot de passe]**. L&#39;email de l&#39;opérateur est essentiel, car il lui permet de recevoir des notifications, par exemple lors du traitement des validations.
 
-   Cette section permet également d&#39;associer l&#39;opérateur à une entité organisationnelle. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr){target="_blank"}.
+   Cette section permet également d&#39;associer l&#39;opérateur à une entité organisationnelle. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr){target="_blank"}.
 
 1. Sélectionnez les autorisations accordées à l&#39;opérateur dans la section **[!UICONTROL Droits d&#39;accès de l&#39;opérateur]**.
 
@@ -194,4 +194,4 @@ Par défaut, l&#39;opérateur technique &#39;webapp&#39; bénéficie du droit no
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).
+>Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-security.html).

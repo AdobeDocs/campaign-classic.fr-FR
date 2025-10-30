@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -100,9 +100,9 @@ Lorsque vous avez créé une ou plusieurs adresses de contrôle, ainsi que le co
 
 Vous pouvez tester la diffusion du message en envoyant un BAT vers une adresse de contrôle créée précédemment.
 
-L&#39;envoi d&#39;un BAT engage le même processus que pour une diffusion standard. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}. Toutefois, avec les messages transactionnels, vous devez effectuer au préalable les opérations suivantes :
+L’envoi d’un BAT engage le même processus que pour une diffusion standard. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}. Toutefois, avec les messages transactionnels, vous devez effectuer au préalable les opérations suivantes :
 
-* Création d&#39;une ou plusieurs [adresses de contrôle](#managing-seed-addresses-in-transactional-messages) [&#x200B; avec des données de de personnalisation](#personalization-data).
+* Création d&#39;une ou plusieurs [adresses de contrôle](#managing-seed-addresses-in-transactional-messages)[ avec des données de de personnalisation](#personalization-data).
 * [Création du contenu du message](../../message-center/using/creating-the-message-template.md#creating-message-content).
 
 Pour effectuer l&#39;envoi :
@@ -117,7 +117,7 @@ Pour effectuer l&#39;envoi :
 
    ![](assets/messagecenter_send_proof_002.png)
 
-Les BAT sont accessibles au niveau de chaque modèle, depuis l&#39;onglet **[!UICONTROL Suivi.]** Pour plus d’informations à ce sujet, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}.
+Les BAT sont accessibles au niveau de chaque modèle, depuis l&#39;onglet **[!UICONTROL Suivi.]** Pour plus d’informations à ce sujet, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}.
 
 ![](assets/messagecenter_send_proof_003.png)
 

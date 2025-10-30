@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '849'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Pour présenter une offre lors d&#39;une campagne marketing, il vous suffit de c
 
 ![](assets/offer_delivery_009.png)
 
-En savoir plus sur les diffusions courrier [dans cette section](../../delivery/using/about-direct-mail-channel.md). Pour en savoir plus sur les campagnes marketing, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
+En savoir plus sur les diffusions courrier [dans cette section](../../delivery/using/about-direct-mail-channel.md). En savoir plus sur les campagnes marketing dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
 
 ### Etapes principales pour insérer une offre dans une diffusion {#main-steps-for-inserting-an-offer-into-a-delivery}
 
@@ -88,9 +88,9 @@ La personnalisation peut être réalisée grâce à l&#39;utilisation des champs
 
 ## Diffusion avec composition de diffusion {#delivering-with-delivery-outlines}
 
-Vous avez également la possibilité de présenter des offres dans une diffusion à l&#39;aide des compositions de diffusion.
+Vous avez également la possibilité de présenter des offres dans une diffusion à l’aide des compositions de diffusion.
 
-Pour plus d’informations sur les compositions de diffusion, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"}.
+Pour plus d’informations sur les compositions de diffusion, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html?lang=fr){target="_blank"}.
 
 1. Créez une nouvelle opération ou accédez à une opération existante.
 1. Accédez aux compositions de diffusion via l&#39;onglet **[!UICONTROL Edition]** > **[!UICONTROL Documents]** de l&#39;opération.

@@ -6,9 +6,9 @@ feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Le module **nlserver sms** interroge à intervalle régulier le routeur des mess
   > * Les accusés de réception d&#39;un compte externe de SMS effacé ne sont pas traités correctement.
   > * Un compte SMS ne peut être associé qu&#39;à un seul compte externe afin que les accusés de réception soient correctement attribués à ce dernier
 
-* **Désinscription** : les destinataires qui ne souhaitent plus recevoir de diffusions par SMS peuvent renvoyer un message contenant le mot STOP. Si votre fournisseur vous le permet contractuellement, vous avez la possibilité de récupérer ses messages via l&#39;activité de workflow **Réception de SMS** puis de créer une requête afin que l&#39;option **Ne plus contacter cette personne** soit activée pour les destinataires concernés.
+* **Désinscription** : les destinataires qui ne souhaitent plus recevoir de diffusions par SMS peuvent renvoyer un message contenant le mot STOP. Si votre fournisseur vous le permet contractuellement, vous avez la possibilité de récupérer ses messages via l’activité de workflow **Réception de SMS** puis de créer une requête afin que l’option **Ne plus contacter cette personne** soit activée pour les personnes destinataires concernées.
 
 ## Schéma InSMS {#insms-schema}
 
@@ -167,4 +167,4 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 >
 >Il n’existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le tableau de bord des diffusions. [En savoir plus](delivery-dashboard.md).
 >
->Ces messages ne sont pas pris en compte dans les règles de pression commerciale. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
+>Ces messages ne sont pas pris en compte dans les règles de pression commerciale. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.

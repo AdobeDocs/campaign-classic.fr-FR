@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Définition du contenu d’e-mail dans Adobe Campaign Classic
+title: Définir le contenu d’e-mail dans Adobe Campaign Classic
 description: Découvrez comment définir le contenu d'e-mail avec Adobe Campaign
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Email Design
@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2035'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -113,9 +113,9 @@ Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préfére
 
 ## Définition du contenu interactif {#amp-for-email-format}
 
-Adobe Campaign permet de tester le nouveau format interactif [AMP for email](https://amp.dev/fr/about/email/) qui sert, sous certaines conditions, à envoyer des emails dynamiques.
+Adobe Campaign permet de tester le nouveau format interactif [AMP for email](https://amp.dev/fr/about/email/) qui sert, sous certaines conditions, à envoyer des e-mails dynamiques.
 
-Pour plus d’informations à ce sujet, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=fr){target="_blank"}.
+Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=fr){target="_blank"}.
 
 ## Utiliser la gestion de contenu {#using-content-management}
 

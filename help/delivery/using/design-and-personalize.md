@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1318'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Lorsque vous créez vos e-mails, tenez compte des bonnes pratiques générales p
 
 ### Objet
 
-Découvrez l’objet de la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr#sender){target="_blank"} pour améliorer les taux d’ouverture :
+Découvrez la ligne d’objet dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr#sender){target="_blank"} pour améliorer les taux d’ouverture :
 
 * Évitez les objets trop longs. Utilisez 50 caractères au maximum
 
@@ -151,14 +151,14 @@ Pour être accessibles depuis l&#39;extérieur, les images utilisées dans les e
 
 * Vous pouvez vérifier si la configuration de l’instance permet la gestion des ressources publiques. [En savoir plus](../../installation/using/deploying-an-instance.md#managing-public-resources)
 
-* Depuis l’assistant de diffusion, vous pouvez importer une page HTML contenant des images ou insérer directement des images à l’aide de l’éditeur HTML via l’icône **[!UICONTROL Image]**  Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr#adding-images){target="_blank"}.
+* Depuis l’assistant de diffusion, vous pouvez importer une page HTML contenant des images ou insérer directement des images à l’aide de l’éditeur HTML via l’icône **[!UICONTROL Image]**  En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr#adding-images){target="_blank"}.
 
-* Si les images ne sont pas affichées, vérifiez qu&#39;elles sont disponibles sur le serveur. Pour ce faire, cliquez sur l&#39;onglet Source de votre diffusion. Recherchez vos images, copiez l&#39;URL de chaque image et collez-la dans un navigateur web. Si les images ne sont toujours pas affichées, contactez votre administrateur informatique ou le fournisseur tiers du contenu de votre diffusion.
+* Si les images ne sont pas affichées, vérifiez qu’elles sont disponibles sur le serveur. Pour ce faire, cliquez sur l’onglet Source de votre diffusion. Recherchez vos images, copiez l’URL de chaque image et collez-la dans un navigateur web. Si les images ne sont toujours pas affichées, contactez votre administrateur ou administratrice informatique ou le fournisseur tiers du contenu de votre diffusion.
 
 ## Prévisualisez votre message {#preview-msg}
 
 Adobe recommande de prévisualiser votre message afin de vérifier sa personnalisation et l&#39;affichage de la diffusion par vos destinataires.
 
-* Dans l’assistant de diffusion, le sous-onglet **[!UICONTROL Prévisualisation]** vous permet de visualiser le rendu de chaque contenu pour une personne destinataire. Les champs de personnalisation et les éléments conditionnels du contenu sont remplacés par les informations correspondantes pour le profil sélectionné. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr#message-content){target="_blank"}.
+* Dans l’assistant de diffusion, le sous-onglet **[!UICONTROL Prévisualisation]** vous permet de visualiser le rendu de chaque contenu pour une personne destinataire. Les champs de personnalisation et les éléments conditionnels du contenu sont remplacés par les informations correspondantes pour le profil sélectionné. En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr#message-content){target="_blank"}.
 
 * Une vérification anti-spam est automatiquement effectuée à chaque prévisualisation. Dans le sous-onglet **[!UICONTROL Aperçu]**, vérifiez le score de spam [SpamAssassin](spamassassin.md).  Cliquez sur **[!UICONTROL Autres choix...]** pour en savoir plus sur l’avertissement.  Avant de procéder, assurez-vous que SpamAssassin est correctement installé et configuré sur le serveur applicatif Adobe Campaign. [En savoir plus](../../installation/using/configuring-spamassassin.md)

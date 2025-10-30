@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: response-manager
 exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1089'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -146,7 +146,7 @@ Dans cet exemple, nous allons créer une hypothèse liée à une diffusion. Cett
 
 Nous affinerons ensuite la requête héritée du modèle pour émettre une hypothèse sur un article spécifique de la table d’achat.
 
-1. Créez une campagne et une diffusion. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
+1. Créez une campagne et une diffusion. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
 
    Dans notre exemple, la diffusion est de type courrier.
 
@@ -178,10 +178,10 @@ Nous affinerons ensuite la requête héritée du modèle pour émettre une hypot
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. Lancez votre workflow de ciblage et effectuez les vérifications nécessaires jusqu&#39;à ce que la campagne soit terminée. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=fr#start-a-delivery){target=_blank}.
+1. Lancez votre workflow de ciblage et effectuez les vérifications nécessaires jusqu&#39;à ce que la campagne soit terminée. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=fr#start-a-delivery){target=_blank}.
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 
-1. Dans l&#39;arborescence d&#39;Adobe Campaign, positionnez-vous au niveau du noeud **[!UICONTROL Gestion de campagne > Hypothèses de mesure]** pour vérifier les indicateurs calculés par l&#39;hypothèse.
+1. Dans l’arborescence d’Adobe Campaign, positionnez-vous au niveau du nœud **[!UICONTROL Gestion de campagne > Hypothèses de mesure]** pour vérifier les indicateurs calculés par l’hypothèse.
 
    ![](assets/response_hypothesis_delivery_example_010.png)

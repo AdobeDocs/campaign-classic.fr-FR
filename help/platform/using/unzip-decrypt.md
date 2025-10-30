@@ -9,16 +9,16 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # Décompresser ou déchiffrer un fichier {#unzipping-or-decrypting-a-file-before-processing}
 
-Adobe Campaign permet d’importer des fichiers compressés ou chiffrés. Avant de pouvoir être lus dans une activité [Chargement de données (fichier)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=fr){target="_blank"}, vous pouvez définir une étape de prétraitement pour décompresser ou déchiffrer le fichier.
+Adobe Campaign permet d’importer des fichiers compressés ou chiffrés. Avant qu’un fichier puisse être lu dans une activité [Chargement de données (fichier)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=fr){target="_blank"}, vous pouvez définir une étape de prétraitement pour le décompresser ou le déchiffrer.
 
 >[!IMPORTANT]
 >
@@ -52,7 +52,7 @@ Le cas pratique ci-dessous présente un exemple.
 **Rubriques connexes :**
 
 * [Activité Chargement (fichier)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=fr){target="_blank"}.
-* [Compresser ou chiffrer un fichier](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}.
+* [Compresser ou chiffrer un fichier](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}.
 
 ## Cas pratique : import de données chiffrées à l&#39;aide d&#39;une clé générée par le Panneau de contrôle {#use-case-gpg-decrypt}
 
@@ -82,10 +82,10 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
    ![](assets/gpg_key_transfer.png)
 
-   Les concepts généraux relatifs à la configuration de l’activité sont disponibles dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
+   Les concepts généraux de configuration de l’activité sont présentés dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
 
 
-1. Ouvrez l&#39;activité **[!UICONTROL Chargement (fichier)]**, puis configurez-la selon vos besoins. Les concepts généraux relatifs à la configuration de l’activité sont disponibles dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=fr){target="_blank"}.
+1. Ouvrez l’activité **[!UICONTROL Chargement de données (fichier)]**, puis configurez-la selon vos besoins. Les concepts généraux de configuration de l’activité sont présentés dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=fr){target="_blank"}.
 
    Ajoutez une étape de prétraitement à l’activité pour déchiffrer les données entrantes. Pour ce faire, sélectionnez l’option **[!UICONTROL Inclure un pré-traitement du fichier]**, puis sélectionnez **[!UICONTROL Déchiffrer]** de la liste déroulante **[!UICONTROL Commande]** :
 
@@ -107,6 +107,6 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Cette vidéo montre comment utiliser une clé GPG pour déchiffrer des données.
 
->[!VIDEO](https://video.tv.adobe.com/v/41358?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
 
 D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

@@ -7,9 +7,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Pour découvrir comment optimiser la délivrabilité de vos emails Adobe Campai
 
 Après avoir validé votre diffusion, vous pouvez constater que son statut est **[!UICONTROL En attente]**.Ce statut signifie que le processus d&#39;exécution attend la disponibilité de certaines ressources.
 
-Le statut **[!UICONTROL En attente]** peut d&#39;abord signifier que votre diffusion a été planifiée et qu&#39;elle est en attente jusqu&#39;à la date spécifiée. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=fr#schedule-delivery-sending){target="_blank"}
+Le statut **[!UICONTROL En attente]** peut d&#39;abord signifier que votre diffusion a été planifiée et qu&#39;elle est en attente jusqu&#39;à la date spécifiée. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=fr#schedule-delivery-sending){target="_blank"}.
 
 Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL En attente]**, la raison peut en être la suivante :
 
@@ -140,4 +140,4 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
 
 * [Logs et historique de la diffusion](#delivery-logs-and-history)
 * [Comprendre les échecs de diffusion](understanding-delivery-failures.md)
-* [Types de diffusion en échec et raisons   &#x200B;](understanding-delivery-failures.md#delivery-failure-types-and-reasons)
+* [Types de diffusion en échec et raisons   ](understanding-delivery-failures.md#delivery-failure-types-and-reasons)

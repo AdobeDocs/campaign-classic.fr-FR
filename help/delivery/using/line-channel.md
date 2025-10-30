@@ -6,9 +6,9 @@ feature: Line App
 role: User
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Avec Adobe Campaign, utilisez le canal LINE pour envoyer des messages riches et
 
 Découvrez comment configurer le canal LINE, créer une diffusion finale, définir le type de contenu et surveiller les performances de la diffusion dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/line.md){target=_blank}.
 
-Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités courantes sont désormais disponibles exclusivement dans l’ensemble de documentation de Campaign v8.
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8.
 
 >[!BEGINTABS]
 
 >[!TAB Documentation du canal LINE]
 
-Pour en savoir plus sur le canal LINE, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/line.html){target=_blank}.
+Pour en savoir plus sur le canal LINE, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/line.html?lang=fr){target=_blank}.
 
 
 [![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email){target=_blank}
@@ -45,7 +45,7 @@ Consultez les pages suivantes de la documentation de Campaign v8 pour en savoir
 
 >[!TAB Configuration du canal LINE]
 
-Découvrez les étapes clés liées à la configuration du canal LINE **dans la documentation de Campaign v8** :
+Découvrez les étapes clés de la configuration d’un canal LINE dans la **documentation de Campaign v8** :
 
 * [Configurer le service LINE](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/line.md#configure-line-service){target="_blank"} : découvrez comment configurer un service LINE pour connecter votre instance Campaign à votre compte LINE officiel.
 * [Configurer le compte externe](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/line.md#configure-line-external){target="_blank"} : découvrez comment configurer un compte externe LINE pour permettre à Adobe Campaign d’envoyer des messages via vos identifiants LINE.

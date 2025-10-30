@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: bba3f23637dd67a1557203c5ed1b93a6cb044870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Pour ce faire, procédez comme suit :
 
 Vous pouvez utiliser l&#39;[assistant de déploiement](../../production/using/database-cleanup-workflow.md#deployment-assistant) pour configurer la durée pendant laquelle vous souhaitez conserver les événements en base dans la base de données.
 
-La purge des événements est effectuée automatiquement par le workflow [&#128279;](../../production/using/database-cleanup-workflow.md)Nettoyage de la base. Ce workflow purge les événements reçus et stockés sur les instances d&#39;exécution et des événements archivés sur une instance de pilotage.
+La purge des événements est effectuée automatiquement par le workflow [](../../production/using/database-cleanup-workflow.md)Nettoyage de la base. Ce workflow purge les événements reçus et stockés sur les instances d&#39;exécution et des événements archivés sur une instance de pilotage.
 
 Pour modifier les paramètres de purge, utilisez la flèche ascendante et descendante.
 
@@ -104,9 +104,9 @@ Cette section présente une solution pour configurer le tracking et les URL de p
 
 ### Note de compatibilité {#compatibility-note}
 
-Cette configuration de branding héritée n’est pas compatible avec le nouveau modèle [branding centralisé](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=fr){target="_blank"} introduit dans Campaign v8.
+Cette configuration du branding héritée n’est pas compatible avec le nouveau modèle de [branding centralisé](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=fr){target="_blank"} introduit dans Campaign v8.
 
-Si votre environnement existant utilise cette configuration héritée, elle ne peut pas être migrée directement vers le nouveau modèle de branding centralisé. Une réimplémentation complète des paramètres de marque est nécessaire pour adopter le nouveau système.
+Si votre environnement existant utilise cette configuration héritée, elle ne peut pas être migrée directement vers le nouveau modèle de branding centralisé. Une nouvelle implémentation complète des paramètres de branding est nécessaire pour adopter le nouveau système.
 
 ### Conditions préalables requises {#prerequisites}
 
@@ -126,7 +126,7 @@ Sur la ou les instances d&#39;exécution, procédez comme suit :
    >
    >Découvrez comment créer un compte externe de type instance d&#39;exécution dans [cette section](../../message-center/using/configuring-instances.md#control-instance).
 
-1. Etendez le schéma nms:extAccount pour ajouter l&#39;URL de tracking :
+1. Étendez le schéma nms:extAccount pour ajouter l’URL de tracking :
 
    ```
    <attribute advanced="true" desc="URL of the tracking servers" label="Tracking server URL"
@@ -135,9 +135,9 @@ Sur la ou les instances d&#39;exécution, procédez comme suit :
 
    >[!NOTE]
    >
-   >Découvrez comment étendre un schéma existant dans la section [Extension d&#39;un schéma](../../configuration/using/extending-a-schema.md).
+   >Découvrez comment étendre un schéma existant dans la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md).
 
-1. Modifiez le formulaire nms:extAccount :
+1. Modifiez le formulaire nms:extAccount :
 
    ```
    <container label="Message domain branding" type="frame">
@@ -175,6 +175,6 @@ Pour ce faire, procédez comme suit :
 
 1. Créez un compte externe par marque avec le même nom interne que celui défini sur l&#39;[instance d&#39;exécution](#execution-instance) (étape 1).
 
-1. Créez un modèle de diffusion par marque. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"}.
+1. Créez un modèle de diffusion par marque. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"}.
 
 1. Dans les **[!UICONTROL Propriétés]** du modèle de diffusion, définissez le routage sur le compte externe de la marque.

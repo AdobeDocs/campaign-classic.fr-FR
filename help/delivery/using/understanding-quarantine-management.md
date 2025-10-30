@@ -7,9 +7,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3111'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Les profils dont lʼadresse e-mail ou le numéro de téléphone est en quarantai
 
 Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d’éviter d’être ajouté à une liste bloquée par ces fournisseurs.
 
-De plus, elle réduit les coûts d&#39;envoi des SMS en excluant les numéros de téléphone erronés des diffusions.
+De plus, elle réduit les coûts d’envoi des SMS en excluant les numéros de téléphone erronés des diffusions.
 
-Pour plus d’informations sur les bonnes pratiques pour sécuriser et optimiser vos diffusions, consultez cette page dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"}.
+Pour plus d’informations sur les bonnes pratiques en matière de sécurisation et d’optimisation de vos diffusions, consultez cette page dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"}.
 
 ### Quarantaine et liste bloquée {#quarantine-vs-denylist}
 
@@ -117,14 +117,14 @@ Dans la liste des adresses en quarantaine (voir [Identifier les adresses en quar
 
 Contrairement aux erreurs de type Hard, les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d&#39;erreurs.
 
-Les reprises seront effectuées pendant la durée de diffusion. Voir cette [page](communication-channels.md) sous **Envoi de diffusion** > **Définir la période de validité**. Quand le compteur d&#39;erreurs atteint le seuil limite, l&#39;adresse passe en quarantaine. Pour en savoir plus, voir la section [Reprises après une diffusion temporairement en échec](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Les reprises seront effectuées pendant la durée de diffusion. Consultez cette [page](communication-channels.md) sous **Envoi de la diffusion** > **Définir la période de validité**. Quand le compteur d&#39;erreurs atteint le seuil limite, l&#39;adresse passe en quarantaine. Pour en savoir plus, voir la section [Reprises après une diffusion temporairement en échec](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 Le compteur d&#39;erreurs est réinitialisé si la dernière erreur significative s&#39;est produite plus de 10 jours avant. Le statut de l&#39;adresse passe à **Valide** et est supprimé de la liste des quarantaines grâce au workflow [Nettoyage de la base](../../production/using/database-cleanup-workflow.md).
 
 
 Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers la méthode [MTA amélioré](sending-with-enhanced-mta.md), le nombre maximum de reprises à effectuer en cas de statut **[!UICONTROL En erreur]** et le délai minimum entre deux tentatives reposent désormais sur les performances historiques et actuelles d’une IP sur un domaine donné.
 
-Pour les installations on-premise et les installations hébergées/hybrides utilisant l’ancien MTA de Campaign, vous pouvez modifier le nombre d’erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l’[assistant de déploiement](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Canal e-mail]** > **[!UICONTROL Paramètres avancés]**) ou au niveau de la diffusion. Voir cette [page](communication-channels.md) sous **Envoi de diffusion** > **Configurer les reprises**.
+Pour les installations on-premise et les installations hébergées/hybrides utilisant l’ancien MTA de Campaign, vous pouvez modifier le nombre d’erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l’[assistant de déploiement](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Canal e-mail]** > **[!UICONTROL Paramètres avancés]**) ou au niveau de la diffusion. Consultez cette [page](communication-channels.md) sous **Envoi de la diffusion** > **Configurer les reprises**.
 
 
 ## Supprimer une adresse de la quarantaine {#removing-a-quarantined-address}

@@ -7,9 +7,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2629'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Les messages peuvent être également exclus pendant la préparation de la diffu
 
 * [Logs et historique de la diffusion](delivery-dashboard.md#delivery-logs-and-history)
 * [Statut En échec](delivery-performances.md#failed-status)
-* [Types de diffusion en échec et raisons   &#x200B;](#delivery-failure-types-and-reasons)
+* [Types de diffusion en échec et raisons   ](#delivery-failure-types-and-reasons)
 
 ## Types de diffusion en échec et raisons     {#delivery-failure-types-and-reasons}
 
@@ -178,7 +178,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 ## Reprises après une diffusion temporairement en échec {#retries-after-a-delivery-temporary-failure}
 
-Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est temporaire, les reprises seront effectuées pendant la durée de diffusion.**&#x200B;**&#x200B;**&#x200B;**
+Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est temporaire, les reprises seront effectuées pendant la durée de diffusion.********
 
 >[!NOTE]
 >
@@ -188,9 +188,9 @@ Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est tempora
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md), les paramètres de reprise de la diffusion ne sont plus utilisés par Campaign. Les reprises des rebonds temporaires et l’intervalle qui les sépare sont déterminés par le MTA amélioré en fonction du type et de la gravité des réponses des rebonds provenant du domaine de messagerie du message.
 
-Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et spécifiez la durée souhaitée dans le champ correspondant pour modifier la durée d&#39;une diffusion. Voir cette [page](communication-channels.md) sous **Envoi de diffusion** > **Définir la période de validité**.
+Pour les installations on-premise et les installations hébergées/hybrides utilisant l’ancien MTA de Campaign, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et spécifiez la durée souhaitée dans le champ correspondant pour modifier la durée d’une diffusion. Consultez cette [page](communication-channels.md) sous **Envoi de la diffusion** > **Définir la période de validité**.
 
-Le paramétrage par défaut prévoit cinq reprises séparées d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l’administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion. Voir cette [page](communication-channels.md) sous **Envoi de diffusion** > **Configurer les reprises**.
+Le paramétrage par défaut prévoit cinq reprises séparées d’une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l’administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion. Consultez cette [page](communication-channels.md) sous **Envoi de la diffusion** > **Configurer les reprises**.
 
 ## Erreurs synchrones et asynchrones {#synchronous-and-asynchronous-errors}
 
@@ -227,7 +227,7 @@ Pour les installations on-premise et les installations hébergées/hybrides util
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md) :
 >
->* Les qualifications de rebond dans la table **[!UICONTROL Qualification des logs de diffusion]** ne sont plus utilisées pour les messages d&#39;erreur relatifs aux échecs des diffusions synchrones. **&#x200B;**&#x200B;Le MTA amélioré détermine le type et la qualification de rebond, puis renvoie ces informations à Campaign.
+>* Les qualifications de rebond dans la table **[!UICONTROL Qualification des logs de diffusion]** ne sont plus utilisées pour les messages d&#39;erreur relatifs aux échecs des diffusions synchrones. **** Le MTA amélioré détermine le type et la qualification de rebond, puis renvoie ces informations à Campaign.
 >
 >* Les rebonds **asynchrones** restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Pour plus d&#39;informations, consultez la section [Règles de gestion des emails](#email-management-rules).
 >

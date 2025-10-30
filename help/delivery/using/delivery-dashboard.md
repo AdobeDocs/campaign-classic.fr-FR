@@ -7,9 +7,9 @@ feature: Monitoring
 role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1262'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Vous trouverez ci-dessous les informations à surveiller à l&#39;aide des diff�
 * [Synthèse des diffusions](#delivery-summary)
 * [Rapports sur les diffusions](#delivery-reports)
 * [Logs de diffusion, pages miroir, exclusions](#delivery-logs-and-history)
-* [Logs et historique de suivi des diffusions](#tracking-logs)
+* [Logs et historique de tracking des diffusions](#tracking-logs)
 * [Rendu des diffusions](#delivery-rendering)
 * [Suivi de la diffusion](#delivery-audit-)
 
@@ -35,7 +35,7 @@ Vous trouverez ci-dessous les informations à surveiller à l&#39;aide des diff�
 
 * [Comprendre les échecs de diffusion](understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](understanding-quarantine-management.md)
-* [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"}
+* [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"}
 * [Gestion de la délivrabilité](about-deliverability.md)
 
 ## Synthèse des diffusions {#delivery-summary}
@@ -64,13 +64,13 @@ Pour une diffusion, vous pouvez afficher par exemple seulement les destinataires
 
 Le lien **[!UICONTROL Afficher la page miroir de ce message...]** vous permet d&#39;afficher la page miroir du contenu de la diffusion sélectionnée dans la liste dans une nouvelle fenêtre.
 
-La page miroir est disponible uniquement pour les diffusions pour lesquelles un contenu HTML a été défini. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=fr){target="_blank"}.
+La page miroir est disponible uniquement pour les diffusions pour lesquelles un contenu HTML a été défini. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=fr){target="_blank"}.
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
-## Logs et historique de suivi des diffusions {#tracking-logs}
+## Logs et historique de tracking des diffusions {#tracking-logs}
 
-L’onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour cette diffusion. Cet onglet affiche les données de tracking sur les messages envoyés, soit toutes les URL qui ont fait l&#39;objet d&#39;un tracking par Adobe Campaign. Les données de tracking sont mises à jour toutes les heures.
+L’onglet **[!UICONTROL Tracking]** liste l’historique du tracking pour cette diffusion. Cet onglet affiche les données de tracking des messages envoyés, à savoir toutes les URL qui ont fait l’objet d’un tracking par Adobe Campaign. Les données de tracking sont mises à jour toutes les heures.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Les données de **[!UICONTROL tracking]** sont interprétées dans les rapports 
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 
-## Inbox rendering {#delivery-rendering}
+## Rendu de la boîte de réception {#delivery-rendering}
 
 L&#39;onglet **[!UICONTROL Inbox rendering]** permet de prévisualiser le message dans les différents contextes dans lesquels il peut être reçu et de vérifier la compatibilité auprès des principaux ordinateurs de bureau et applications.
 
@@ -98,9 +98,9 @@ L&#39;onglet **[!UICONTROL Audit]** contient le log des diffusions et tous les m
 
 Le bouton **[!UICONTROL Actualiser]** permet de mettre à jour les données. Utilisez le bouton **[!UICONTROL Filtres]** pour définir un filtre sur les données.
 
-Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Voir cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=fr){target="_blank"}.
+Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Consultez cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=fr){target="_blank"}.
 
-Le sous-onglet **[!UICONTROL Bons à tirer]** vous permet de voir la liste des BAT qui ont été envoyés.
+Le sous-onglet **[!UICONTROL BAT]** vous permet de voir la liste des BAT qui ont été envoyés.
 
 ![](assets/s_ncs_user_delivery_log_tab.png)
 

@@ -7,9 +7,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6197'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,8 +46,7 @@ Learn more about [ACS Connector](../../integrations/using/acs-connector-principl
 
 Une activité est un élément de palette ajouté à un workflow pour définir une fonctionnalité d’exécution. L’activité est un conteneur qui exécute une tâche. Dans un workflow, une activité donnée peut engendrer plusieurs tâches, notamment en cas de boucle ou d’actions récurrentes (périodiques).
 
-Pour en savoir plus sur les activités de workflow, consultez la [documentation de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities)
-.html){target="_blank"}.
+En savoir plus sur les activités de workflow dans la [documentation de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=fr){target="_blank"}.
 +++
 
 +++**Profil actif**
@@ -69,7 +68,7 @@ L’activité Validation en local est une activité de workflow qui permet de me
 
 Une audience est l’ensemble des profils obtenus qui répondent aux critères d’une définition de filtre, basée sur des règles et des attributs.
 
-Pour en savoir plus sur les audiences, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=fr){target="_blank"}.
+En savoir plus sur les audiences dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=fr){target="_blank"}.
 +++
 
 +++**Journal d’audit**
@@ -102,7 +101,7 @@ En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-m
 
 Campaign est une interface permettant de coordonner, définir et exécuter des campagnes marketing. Les campagnes peuvent contenir un ou plusieurs workflows, diffusions, documents et autres points de données associés dans une seule interface conviviale.
 
-En savoir plus sur les campagnes dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=fr){target=_blank}.
+En savoir plus sur les campagnes dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=fr){target=_blank}.
 +++
 
 <!--
@@ -135,7 +134,7 @@ En savoir plus sur la [console cliente](../../platform/using/adobe-campaign-work
 
 La validation du contenu est le processus par lequel un opérateur ou groupe distinct d’opérateurs approuve le contenu d’une diffusion avant son envoi.
 
-Pour en savoir plus sur la validation du contenu, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=fr){target="_blank"}.
+En savoir plus sur la validation du contenu dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=fr){target="_blank"}.
 
 +++
 
@@ -143,7 +142,7 @@ Pour en savoir plus sur la validation du contenu, consultez la [documentation de
 
 Vous pouvez utiliser des populations témoins pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Les opérateurs peuvent comparer le comportement de la population cible qui a bien reçu le message avec celui des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, les opérateurs peuvent également cibler une population témoin dans les prochaines campagnes.
 
-Pour en savoir plus sur les populations témoins, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=fr#add-a-control-group){target="_blank"}.
+En savoir plus sur les populations témoins dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=fr#add-a-control-group){target="_blank"}.
 +++
 
 +++**Panneau de contrôle**
@@ -215,7 +214,7 @@ En savoir plus sur les [diffusions](../../delivery/using/communication-channels.
 
 L’analyse de la diffusion est la préparation de la diffusion. Ce processus associe le contenu aux données de profil du destinataire pour produire l’e-mail personnalisé que le destinataire reçoit. En fonction de la logique définie, la logique d’analyse de diffusion peut exclure les destinataires de la cible ou arrêter complètement la diffusion. Ce processus inclut également l’évaluation de la logique de contenu dynamique et l’insertion d’offres spécifiques au profil de destinataire individuel.
 
-Pour en savoir plus sur l’analyse des diffusions, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=fr){target="_blank"}.
+En savoir plus sur l’analyse de diffusion dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=fr){target="_blank"}.
 +++
 
 +++**Logs de diffusion**
@@ -266,7 +265,7 @@ En savoir plus sur l’[analyse descriptive](../../reporting/using/about-descrip
 
 Le module complémentaire Marketing distribué offre aux opérateurs et opératrices Campaign un espace de travail collaboratif pour l’implémentation des campagnes entre les entités centrales (siège social, services marketing, etc.) et les entités locales (points de vente, agences régionales, etc.) Cette coopération repose sur un espace de travail partagé appelé la **liste des kits de campagne**, où des modèles et des instances de campagne conçus de manière centralisée sont proposés aux entités locales.
 
-Pour en savoir plus sur le marketing distribué, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr){target="_blank"}.
+En savoir plus sur le marketing distribué dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr){target="_blank"}.
 +++
 
 +++**Répartition des valeurs**
@@ -316,7 +315,7 @@ En savoir plus sur l’[Interaction](../../interaction/using/interaction-and-off
 
 La fonctionnalité E-mail Cci envoie une copie exacte au format EML d’un e-mail diffusé correspondant, qui est enregistrée dans une adresse e-mail Cci où les e-mails peuvent être traités et archivés par l’expéditeur dans un système externe.
 
-En savoir plus sur la fonctionnalité E-mail Cci dans la documentation de [Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
+En savoir plus sur la fonctionnalité E-mail Cci dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=fr){target="_blank"}.
 +++
 
 <!--
@@ -339,7 +338,7 @@ An engine call is a server call that starts real-time processing on server side 
 
 L’activité d’enrichissement est une activité de workflow avancée qui permet aux opérateurs d’enrichir les données de la table de travail générée qui seront traitées dans le workflow. L’activité Enrichissement est généralement utilisée à la suite des activités de ciblage ou d’une importation de fichier et avant les activités qui consomment les données ciblées. Les enrichissements peuvent transformer les données de la transition entrante et configurer l’activité pour compléter la transition sortante avec des données améliorées. Ils permettent à l’opérateur de combiner des données provenant de plusieurs jeux de données ou de créer des liens avec une ressource temporaire.
 
-Pour en savoir plus sur l’activité Enrichissement , consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=fr){target="_blank"}.
+En savoir plus sur l’activité d’enrichissement dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=fr){target="_blank"}.
 +++
 
 +++**Énumérations**
@@ -371,7 +370,7 @@ En savoir plus sur les [Comptes externes](../../installation/using/external-acco
 
 La gestion de la fatigue vous aide à contrôler la fréquence et la quantité des messages afin d’éviter une sur-sollicitation des destinataires. Elle est souvent appliquée à l’aide d’une règle de typologie.
 
-En savoir plus sur la gestion de la fatigue dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
+En savoir plus sur la gestion de la fatigue dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
 +++
 
 +++**Federated Data Access (FDA)**
@@ -387,14 +386,14 @@ En savoir plus sur [Federated Data Access](../../installation/using/about-fda.md
 
 La validation de l’extraction du fichier est le processus par lequel un opérateur ou un groupe distinct d’opérateurs approuve le contenu et la configuration d’un fichier extrait avant son envoi à un fournisseur externe, par exemple pour une diffusion par publipostage direct.
 
-Pour en savoir plus sur la validation de l’extraction du fichier, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=fr#validating){target="_blank"}.
+En savoir plus sur la validation de l’extraction du fichier dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=fr#validating){target="_blank"}.
 +++
 
 +++**Dimension de filtrage**
 
 La dimension de filtrage est le schéma qui contient les données ou attributs utilisés par une requête pour filtrer les lignes souhaitées. Le schéma Dimension de filtrage doit être directement lié à la dimension de ciblage définie pour permettre à Adobe Campaign de traverser la jointure de la base de données et de renvoyer les lignes du participant.
 
-Pour en savoir plus sur la dimension de filtrage, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=fr#targeting-and-filtering-dimensions){target="_blank"}.
+En savoir plus sur la dimension de filtrage dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=fr#targeting-and-filtering-dimensions){target="_blank"}.
 +++
 
 +++**Dossier**
@@ -433,7 +432,7 @@ Learn more about [Generated SQL queries](../../platform/using/steps-to-create-a-
 
 La carte thermique de Campaign est un tableau présentant les informations d’exécution des workflows pendant une période de 24 heures. Elle affiche la distribution des workflows sur la période par heure et par intervalles de 5 minutes. La carte thermique permet d’évaluer la charge du serveur et de déterminer les activités de workflow qui consomment le plus de ressources.
 
-Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=fr){target="_blank"}.
+Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=fr){target="_blank"}.
 +++
 
 +++**Déploiement hybride**
@@ -523,7 +522,7 @@ En savoir plus sur le [Cache local](../../platform/using/faq-campaign-config.md#
 
 Le module **Marketing Resource Management (MRM)** d’Adobe Campaign permet de piloter les actions marketing sur un mode collaboratif, en assurant la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliquées. Les opérateurs Adobe Campaign peuvent coordonner leurs actions et approuver leur progression à toutes les étapes via des processus de validation complets et des outils de tracking appropriés : reporting, tracking des approbations, notifications, forums de discussion, etc.
 
-En savoir plus sur MRM dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=fr){target="_blank"}.
+En savoir plus sur MRM dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=fr){target="_blank"}.
 +++
 
 <!--
@@ -572,7 +571,7 @@ En savoir plus sur l’interface d’utilisation de Campaign dans la [documentat
 
 Dans le cadre de l’opération, du programme ou du plan, les opérateurs peuvent indiquer une liste d’objectifs. Il s’agit de valeurs quantifiées à atteindre. À la fin de l’opération, du programme ou du plan, le module MRM permet aux opérateurs de comparer les objectifs et les résultats dans des rapports dédiés.
 
-En savoir plus sur les objectifs dans la documentation d’[Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=fr#expenses-and-revenues){target=_blank}.
+En savoir plus sur les objectifs dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=fr#expenses-and-revenues){target=_blank}.
 +++
 
 +++**Catalogue d&#39;offres**
@@ -754,7 +753,7 @@ En savoir plus sur l’[exportation/importation de package](../../platform/using
 
 La palette du workflow affiche les activités disponibles qui peuvent être ajoutées à un workflow. Ce composant est présenté sous un format tabulé avec des activités de workflow regroupées logiquement selon leur utilisation. Les activités disponibles dans la palette sont déterminées par les modules complémentaires installés dans l’instance Campaign et par le contexte affichant le workflow.
 
-Pour en savoir plus sur la palette, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=fr#add-and-link-activities){target="_blank"}.
+En savoir plus sur la palette dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=fr#add-and-link-activities){target="_blank"}.
 +++
 
 +++**Suivi des performances**
@@ -768,14 +767,14 @@ En savoir plus sur la [Surveillance des performances](../../production/using/mon
 
 Adobe Campaign propose des blocs de personnalisation intégrés que vous pouvez insérer dans vos diffusions. Ils sont dynamiques, personnalisés et contiennent un rendu spécifique. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Plusieurs blocs de personnalisation sont disponibles par défaut. Vous pouvez également définir des blocs de personnalisation personnalisés qui vous permettront d’optimiser la personnalisation de votre diffusion. Les données réelles sont insérées dans chaque message généré lors de la phase d’analyse de la diffusion.
 
-Pour en savoir plus sur les blocs de personnalisation, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
+En savoir plus sur les blocs de personnalisation dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
 +++
 
 +++**Champ de personnalisation**
 
 Un champ de personnalisation est une référence de champ de données unique utilisée lors de la personnalisation d’une diffusion pour un destinataire spécifique. La valeur réelle des données est insérée lors de la phase d’analyse de la diffusion.
 
-Pour en savoir plus sur les champs de personnalisation, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html?lang=fr){target="_blank"}.
+En savoir plus sur les champs de personnalisation dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html?lang=fr){target="_blank"}.
 +++
 
 +++**Variables de personnalisation**
@@ -789,7 +788,7 @@ En savoir plus sur les [variables de personnalisation](../../delivery/using/abou
 
 Un plan est un type de dossier utilisé pour organiser les activités marketing selon un calendrier. Les dossiers Plan dans la vue Explorateur définissent des unités temporelles, telles qu’un an, un trimestre ou un mois. Les dossiers Plan peuvent être imbriqués et contenir d’autres dossiers de planification, des dossiers de programmes ou des campagnes.
 
-En savoir plus sur les plans dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
+En savoir plus sur les plans dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
 +++
 
 +++**Filtres prédéfinis**
@@ -827,7 +826,7 @@ En savoir plus sur les [profils](../../platform/using/about-profiles.md).
 
 Les dossiers de programmes et de sous-programmes organisent des activités marketing autour d’un objectif commercial, comme la fidélité, l’acquisition ou la vente croisée. Ils peuvent également représenter des périodes fiscales ou des tactiques de campagne, telles que des événements ou des newsletters. Chaque programme contient des campagnes liées à un calendrier, ce qui fournit une vue globale.
 
-Pour en savoir plus sur les programmes, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
+En savoir plus sur les programmes dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
 +++
 
 +++**Ressources publiques**
@@ -921,7 +920,7 @@ En savoir plus sur la [gestion des serveurs SFTP](https://experienceleague.adobe
 
 Une activité de workflow des services d’inscriptions permet d’abonner ou de désabonner la population spécifiée dans la transition à un service d’information.
 
-Pour en savoir plus sur l’activité de services d’abonnements, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=fr){target="_blank"}.
+En savoir plus sur l’activité des services d’abonnement dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=fr){target="_blank"}.
 +++
 
 +++**Validation de la cible**
@@ -930,36 +929,35 @@ Pour en savoir plus sur l’activité de services d’abonnements, consultez la 
 
 La validation de la cible est le processus par lequel un opérateur ou un groupe d’opérateurs distinct doit approuver la cible finale d’une diffusion (après que la phase d’analyse a généré la cible) avant que la diffusion ne puisse être envoyée.
 
-En savoir plus sur l’activité Validation de la cible dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/approval.html?lang=fr){target="_blank"}.
+En savoir plus sur l’activité de validation de la cible dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/approval.html?lang=fr){target="_blank"}.
 +++
 
 +++**Données de la cible**
 
 Les données de la cible sont les données stockées dans la table de travail (transition) d’un workflow. Ces données sont disponibles dans la diffusion pour la personnalisation du contenu de la diffusion ou pour définir la logique des éléments dynamiques de la diffusion.
 
-En savoir plus sur les données de la cible dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=fr#target-data){target="_blank"}.
+En savoir plus sur les données cibles dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=fr#target-data){target="_blank"}.
 +++
 
 +++**Mapping de ciblage**
 
 Le mapping de ciblage est le mapping des canaux de diffusion sur un type de données spécifique. Les mappings de ciblage définissent la manière dont différents canaux de diffusion se lient aux champs de données d’un schéma. Cela définit la manière dont Campaign effectue des envois vers ce type de données à l’aide d’un champ ou d’une expression spécifique.
 
-Pour en savoir plus sur le mapping de ciblage, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}.
+En savoir plus sur le mapping de ciblage dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}.
 +++
 
 +++**Activités de ciblage**
 
 Les activités de ciblage sont des activités de workflow spécifiques au ciblage, à la manipulation des données de population et au filtrage des activités. Elles permettent aux opérateurs de construire une ou plusieurs cibles en définissant des ensembles, puis en divisant ou en combinant ces ensembles à l’aide des opérations d’intersection, d’union ou d’exclusion.
 
-Pour en savoir plus sur les activités de ciblage, consultez la [documentation de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities)
-.html){target="_blank"}.
+En savoir plus sur les activités de ciblage dans la [documentation de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=fr){target="_blank"}.
 +++
 
 +++**Dimension de ciblage**
 
 La dimension de ciblage est le type de données généré (renvoyé) par une requête ou d’autres activités de workflow. Notez qu’Adobe Campaign renvoie uniquement la clé primaire des lignes de la base de données des répondants, quelle que soit la requête utilisée pour les obtenir.
 
-En savoir plus sur la dimension de ciblage dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=fr){target="_blank"}.
+En savoir plus sur la dimension de ciblage dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=fr){target="_blank"}.
 +++
 
 +++**Activité de tâche**
@@ -968,7 +966,7 @@ En savoir plus sur la dimension de ciblage dans la [documentation de Campaign v8
 
 L’activité de workflow de tâche intègre l’action humaine à la logique d’un workflow. Vous pouvez définir deux scénarios : le premier si la tâche est terminée et le second si la tâche n’est pas terminée. Les cas d’utilisation standard servent à incorporer des actions hors ligne dans une campagne ou ciblent des actions personnalisées telles que les approbations.
 
-Pour en savoir plus sur l’activité de tâche, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=fr){target="_blank"}.
+En savoir plus sur l’activité de tâche dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=fr){target="_blank"}.
 +++
 
 <!--
@@ -1025,7 +1023,7 @@ En savoir plus sur la [messagerie transactionnelle](../../message-center/using/a
 
 Les campagnes déclenchées sont des campagnes exécutées lorsqu’un workflow reçoit une demande d’API. Les appels d’API sont consommés par une activité Signal dans le workflow qui lance l’exécution du workflow.
 
-Pour en savoir plus sur les campagnes déclenchées, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/external-signal.html?lang=fr){target="_blank"}.
+En savoir plus sur les campagnes déclenchées dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/external-signal.html?lang=fr){target="_blank"}.
 +++
 
 <!--
@@ -1044,7 +1042,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 Une typologie est un groupe de règles de typologie qui sont appliquées à la phase d’analyse d’une diffusion. Une typologie de campagne peut contenir plusieurs règles de typologie, mais une diffusion ne peut référencer qu’une seule typologie.
 
-Pour en savoir plus sur les typologies, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr){target="_blank"}.
+En savoir plus sur les typologies dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr){target="_blank"}.
 +++
 
 +++**Règle de typologie**
@@ -1053,7 +1051,7 @@ Pour en savoir plus sur les typologies, consultez la [documentation de Campaign 
 
 Les règles de typologie sont des règles métier mises en œuvre dans le cadre de la phase d’analyse de la diffusion. Les règles de typologie sont des vérifications du contenu de la diffusion (règles de contrôle) ou la cible de la diffusion (règles de filtrage) ou toute autre logique (règles de pression) qui appliquent les exigences de l’entreprise. Les règles sont des éléments granulaires qui peuvent être inclus dans une ou plusieurs typologies.
 
-Pour en savoir plus sur les règles de typologie, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr){target="_blank"}.
+En savoir plus sur les règles de typologie dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr){target="_blank"}.
 +++
 
 ## U - Z {#sec-6}
@@ -1085,7 +1083,7 @@ En savoir plus sur les [workflows](../../workflow/using/about-workflows.md).
 
 Le journal des workflows est le log d’exécution étape par étape d’un workflow. Il contient tout l’historique ou le journal d’audit du workflow. Il est utilisé à des fins de développement, de dépannage ou de débogage.
 
-En savoir plus sur le journal des workflows dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
+En savoir plus sur le journal des workflows dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
 +++
 
 +++**Table de travail**

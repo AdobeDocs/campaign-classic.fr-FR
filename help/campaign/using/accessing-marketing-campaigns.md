@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1220'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,9 @@ Le bloc de **[!UICONTROL Navigation]** de l&#39;onglet **[!UICONTROL Campagnes]*
 
 >[!NOTE]
 >
->L&#39;ergonomie générale de la console Adobe Campaign, ainsi que les autorisations et les fonctionnalités de gestion des profils, sont présentées dans [cette section](../../platform/using/adobe-campaign-workspace.md).
+>L’ergonomie générale de la console Adobe Campaign, ainsi que les autorisations et les fonctionnalités de gestion des profils, sont présentées dans [cette section](../../platform/using/adobe-campaign-workspace.md).
 >
->Toutes les fonctionnalités relatives aux canaux et aux diffusions sont présentées dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
+>Les fonctionnalités relatives aux canaux et aux diffusions sont présentées dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
 
 ### Calendrier des campagnes {#campaign-calendar}
 

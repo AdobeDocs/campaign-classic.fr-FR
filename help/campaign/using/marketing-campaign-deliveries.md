@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1556'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opéra
 
 Une fois créées à partir d’une campagne, les diffusions y sont liées et sont consolidées au niveau de cette campagne.
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[Découvrez cette fonctionnalité en vidéo](#create-email-video)
 
 ## Création de diffusions {#creating-deliveries}
 
@@ -28,7 +28,7 @@ Pour créer une diffusion associée à une opération, cliquez sur le lien **[!U
 
 ![](assets/campaign_op_add_delivery.png)
 
-Les paramétrages proposés sont adaptés au type de diffusion : courrier, email, canaux mobiles. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
+Les paramétrages proposés sont adaptés au type de diffusion : courrier, email, canaux mobiles. En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
 
 ## Démarrage dʼune diffusion {#starting-a-delivery}
 
@@ -238,6 +238,6 @@ Le modèle d&#39;export doit être associé au prestataire sélectionné pour la
 
 Cette vidéo explique comment créer une campagne et un e-mail dans Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27487?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

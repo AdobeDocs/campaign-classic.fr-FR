@@ -5,9 +5,9 @@ feature: Technote, Privacy, Privacy Tools
 description: Découvrez comment vos campagnes peuvent être affectées par la fonction de protection de la confidentialité dans Mail d’Apple.
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2105'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Dans cet exemple, un spécialiste marketing souhaite envoyer une offre de récom
 
   ![](assets/identify-email-open-tracking-2.png)
 
-* Vous pouvez utiliser un filtre prédéfini. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=fr){target="_blank"}.
+* Vous pouvez utiliser un filtre prédéfini. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=fr){target="_blank"}.
 
   ![](assets/identify-email-open-tracking-3.png)
 
@@ -348,7 +348,7 @@ Par défaut, le schéma `nms:Recipient` est lié à trois schémas que vous deve
 
 | Schéma | Contenu |
 | --- | --- |
-| nms:trackingLogRcp | Données de tracking, à savoir, utilisateur, heure et message concerné. |
+| nms:trackingLogRcp | Données de tracking, à savoir, utilisateur ou utilisatrice, heure et message concerné. |
 | nms:trackingUrl | Détails concernant le lien, notamment sa nature. Par exemple, ouverture d’e-mail ou clic publicitaire. |
 | nms:userAgent | Informations sur l’appareil. |
 

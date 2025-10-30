@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '983'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Sélectionnez le format du mail dans la section inférieure de la fenêtre :
 
 La page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l&#39;email.
 
-Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’email. Pour plus d’informations sur l’insertion de blocs de personnalisation, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
+Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’email. En savoir plus sur l’insertion de blocs de personnalisation dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
 
 Dans les propriétés de diffusion, le champ **[!UICONTROL Mode]** de l&#39;onglet **[!UICONTROL Validité]** vous permet de modifier le mode de génération de la page.
 
@@ -128,7 +128,7 @@ Pour plus d’informations sur la gestion des e-mails de rebond, consultez [cett
 
 Vous pouvez ajouter des en-têtes SMTP à vos diffusions. Pour ce faire, utilisez la section correspondante de l’onglet **[!UICONTROL SMTP]** de la diffusion.
 
-Le script renseigné dans cette fenêtre doit référencer un en-tête par ligne au format suivant : **name:value**.
+Le script saisi dans cette fenêtre doit référencer un en-tête par ligne sous la forme suivante : **nom:value**.
 
 Les valeurs sont automatiquement encodées, si nécessaire.
 

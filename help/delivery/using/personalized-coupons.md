@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '991'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Le fait d’ajouter des coupons à vos diffusions peut donner une valeur ajouté
 
 >[!AVAILABILITY]
 >
->La gestion des coupons n’est pas disponible dans Campaign v8 dans le contexte d’un déploiement Entreprise (FFDA). En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
+>La gestion des coupons n’est pas disponible dans Campaign v8 dans le contexte d’un déploiement Entreprise (FFDA). En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
 
 La gestion des coupons nécessite un package qui doit être installé. Pour confirmer que vous disposez de la Gestion des coupons, allez dans **[!UICONTROL Administration > Configuration > Gestion des packages > Packages installés.]**
 
@@ -152,7 +152,7 @@ Pour confirmer que la diffusion a abouti :
 
 >[!NOTE]
 >
->Par défaut, le module de gestion des coupons utilise une table **nms:recipient**. [En savoir plus](../../configuration/using/about-data-model.md#default-recipient-table).
+>Par défaut, le module de gestion des coupons utilise une table **nms:recipient**. [En savoir plus](../../configuration/using/about-data-model.md#default-recipient-table).
 >
 >Découvrez comment utiliser une table des destinataires personnalisée [sur cette page](../../configuration/using/about-custom-recipient-table.md).
 

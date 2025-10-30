@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -119,11 +119,11 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
 
 ## Rapports sur les opérations {#reports-on-campaigns}
 
-Les rapports sur les campagnes portent sur les données du tableau **nms:operation**.
+Les rapports sur les campagnes portent sur les données de la table **nms:operation**.
 
 Les rapports intégrés fournis par Adobe Campaign figurent dans le tableau ci-après.
 
-Pour plus d’informations sur le contenu de ces rapports, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=fr){target=_blank}.
+Pour en savoir plus sur le contenu de ces rapports, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=fr){target=_blank}.
 
 <table> 
  <tbody> 
@@ -180,9 +180,9 @@ Pour plus d’informations sur le contenu de ces rapports, consultez la [documen
 
 ## Rapports sur les services {#reports-on-services}
 
-Les rapports sur les services portent sur les données du tableau **nms:service**.
+Les rapports sur les services portent sur les données de la table **nms:service**.
 
-Les rapports natifs fournis par Adobe Campaign figurent dans le tableau ci-après.
+Les rapports intégrés fournis par Adobe Campaign figurent dans le tableau ci-après.
 
 Pour plus d&#39;informations sur le contenu de ces rapports, consultez les guides correspondants.
 
@@ -219,7 +219,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez les guide
 
 Les rapports intégrés fournis par Adobe Campaign figurent dans le tableau ci-après.
 
-Pour plus d’informations sur le contenu de ces rapports, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=fr){target=_blank}.
+Pour en savoir plus sur le contenu de ces rapports, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=fr){target=_blank}.
 
 <table> 
  <tbody> 
@@ -273,9 +273,9 @@ Pour plus d’informations sur le contenu de ces rapports, consultez la [documen
 
 ## Rapports sur les simulations {#reports-on-simulations}
 
-Les rapports sur les simulations portent sur les données du tableau **nms:simulation**.
+Les rapports sur les simulations portent sur les données de la table **nms:simulation**.
 
-Les rapports natifs fournis par Adobe Campaign figurent dans le tableau ci-après.
+Les rapports intégrés fournis par Adobe Campaign figurent dans le tableau ci-après.
 
 Pour plus d&#39;informations sur le contenu de ces rapports, consultez les guides correspondants.
 
@@ -310,7 +310,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez les guide
 
 ## Rapports sur les applications Web {#reports-on-web-applications}
 
-Les rapports sur les applications Web portent sur les données du tableau **nms:WebApp**.
+Les rapports sur les applications web portent sur les données de la table **nms:WebApp**.
 
 Les rapports intégrés fournis par Adobe Campaign figurent dans le tableau ci-après.
 

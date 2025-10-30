@@ -5,14 +5,14 @@ description: En savoir plus sur le principe de fonctionnement et les étapes cl�
 feature: Transactional Messaging, Message Center
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Prise en main des messages transactionnels {#about-transactional-messaging}
+# Commencer avec les messages transactionnels {#about-transactional-messaging}
 
 
 
@@ -87,7 +87,7 @@ Une fois que vous avez conçu et publié le modèle de message transactionnel, s
 
 ## Rubriques connexes : {#related-topics}
 
-* [Prise en main des canaux de communication](../../delivery/using/communication-channels.md)
+* [Commencer avec les canaux de communication](../../delivery/using/communication-channels.md)
 * [Étapes clés de création de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}
 * [Architecture des messages transactionnels](../../message-center/using/transactional-messaging-architecture.md)
 * [Accès aux rapports des messages transactionnels](../../message-center/using/about-transactional-messaging-reports.md)

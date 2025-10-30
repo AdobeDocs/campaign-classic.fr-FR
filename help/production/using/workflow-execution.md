@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ La section ci-dessous présente des informations sur les problèmes courants li�
 Pour plus d&#39;informations sur les workflows, consultez les sections suivantes :
 
 * [À propos des workflows](../../workflow/using/about-workflows.md)
-* [Démarrage d’un workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=fr){target="_blank"}.
-* [Cycle de vie d&#39;un workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=fr){target="_blank"}.
-* [Bonnes pratiques relatives à l’utilisation des workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=fr){target="_blank"}.
+* [Démarrage d’un workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=fr){target="_blank"}
+* [Cycle de vie d’un workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=fr){target="_blank"}
+* [Bonnes pratiques relatives à l’utilisation des workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=fr){target="_blank"}
 
 ## Démarrage dès que possible dans les campagnes {#start-as-soon-as-possible-in-campaigns}
 
@@ -34,9 +34,9 @@ Dans certains cas, les workflows exécutés à partir d’une campagne ne commen
 
 Il peut y avoir plusieurs causes à ce problème. Procédez comme suit pour le résoudre :
 
-1. Vérifiez le statut du workflow technique [**[!UICONTROL operationMgt &#x200B;]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=fr){target="_blank"}. Ce processus gère les traitements ou les workflows au sein d’une campagne. En cas d’échec, les workflows ne démarrent pas / ne s’arrêtent pas. Redémarrez-le pour reprendre l’exécution des workflows de campagne.
+1. Vérifiez le statut du workflow technique [**[!UICONTROL operationMgt ]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=fr){target="_blank"}. Ce processus gère les traitements ou les workflows au sein d’une campagne. En cas d’échec, les workflows ne démarrent pas / ne s’arrêtent pas. Redémarrez-le pour reprendre l’exécution des workflows de campagne.
 
-   Pour plus d’informations sur la surveillance des workflows techniques, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=fr){target="_blank"}.
+   Pour en savoir plus sur la surveillance des workflows techniques, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=fr){target="_blank"}.
 
    >[!NOTE]
    >
@@ -79,7 +79,7 @@ Il peut y avoir plusieurs causes à ce problème. Procédez comme suit pour le r
    >
    >L’augmentation du seuil de l’option **[!UICONTROL NmsOperation_LimitConcurrency]** peut entraîner des problèmes de performances sur votre instance. Dans tous les cas, n’effectuez pas cette opération vous-même et communiquez avec votre contact Adobe Campaign.
 
-Pour plus d’informations sur la manière de surveiller vos workflows, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
+Pour en savoir plus sur la surveillance de vos workflows, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
 
 ## Démarrage en cours {#start-in-progress}
 
@@ -118,6 +118,6 @@ Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
 
 Si un workflow est en échec, procédez comme suit :
 
-1. Vérifiez le journal du workflow. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
-1. Effectuez un suivi des workflows techniques. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=fr){target="_blank"}.
+1. Vérifiez le journal du workflow. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
+1. Effectuez un suivi des workflows techniques. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=fr){target="_blank"}.
 1. Recherchez des échecs dans chaque activité du workflow.

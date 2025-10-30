@@ -7,9 +7,9 @@ feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,10 +56,10 @@ Adobe Campaign fournit différents outils pour suivre et améliorer les perform
 
 Lors de la configuration, de la conception et du test de votre message, assurez-vous de suivre les bonnes pratiques mentionnées dans les sections ci-dessous. Tirer parti de toutes les fonctionnalités d&#39;Adobe Campaign contribue à améliorer la délivrabilité.
 
-* [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"}.
+* [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"}
 * [Contrôle du contenu des e-mails](control-message-content.md)
-* [Inbox rendering    &#x200B;](inbox-rendering.md)
-* [Envoi d&#39;un BAT](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}
+* [Rendu de la boîte de réception](inbox-rendering.md)
+* [Envoi d’un BAT](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}
 
 ### Vérification du consentement par le biais du double opt-in {#double-opt-in}
 

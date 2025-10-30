@@ -5,9 +5,9 @@ description: Découvrez les instructions et les bonnes pratiques pour surveiller
 feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Le Panneau de contrôle vous permet de gérer plusieurs paramètres de votre ins
 
 **Carte thermique des workflows**
 
-La carte thermique des workflows fournit une représentation visuelle de tous les workflows exécutés sur votre instance. Elle vous permet de surveiller facilement la charge sur l’instance et de planifier les workflows en conséquence. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=fr){target="_blank"}.
+La carte thermique des workflows fournit une représentation visuelle de tous les workflows exécutés sur votre instance. Elle vous permet de surveiller facilement la charge sur l’instance et de planifier les workflows en conséquence. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=fr){target="_blank"}.
 
 **Journal d’audit**
 
@@ -76,7 +76,7 @@ Des actions spécifiques peuvent être exécutées en cas de problème lié à l
 
 **Surveillance de l’état d’un workflow**
 
-De plus, vous pouvez créer un processus qui vous permettra de surveiller l’état d’un ensemble de workflows et d’envoyer des messages récurrents aux superviseurs. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=fr){target="_blank"}.
+De plus, vous pouvez créer un processus qui vous permettra de surveiller l’état d’un ensemble de workflows et d’envoyer des messages récurrents aux superviseurs. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=fr){target="_blank"}.
 
 **Directives générales**
 
@@ -94,10 +94,10 @@ Les rapports SMTP affichent les statistiques de diffusion et les erreurs SMTP pa
 
 **Bonnes pratiques**
 
-Reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"} pour en savoir plus sur les bonnes pratiques d’envoi et de conception de diffusion afin d’améliorer les performances.
+Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"} pour en savoir plus sur les bonnes pratiques d’envoi et de conception de diffusion afin d’améliorer les performances.
 
 **Résolution des problèmes liés aux diffusions**
-Des actions spécifiques peuvent être effectuées en cas de problème avec des diffusions :
+Des actions spécifiques peuvent être entreprises en cas de problème avec des diffusions :
 * [Problèmes de délivrabilité](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problèmes liés à l&#39;affichage des images](../../production/using/image-display-issues.md)
 * [Problèmes de performances des diffusions](../../delivery/using/delivery-performances.md)

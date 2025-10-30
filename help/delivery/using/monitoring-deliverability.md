@@ -7,9 +7,9 @@ feature: Deliverability
 role: User, Admin
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -54,6 +54,6 @@ Voici quelques directives supplémentaires concernant la supervision de la déli
 * Vérifiez que les [reprises](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) sont paramétrées correctement (30 minutes pour la période des reprises et plus de 20 reprises) dans les modèles de diffusion.
 * Vérifiez régulièrement que la boîte des [emails rebonds](understanding-delivery-failures.md#bounce-mail-management) est accessible et que le compte n’arrive pas à expiration.
 * Vérifiez chaque débit de diffusion, accessible à partir du [tableau de bord de diffusion](delivery-dashboard.md), pour vous assurer qu’il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).
-* Lors de l’utilisation de vagues, vérifiez que chaque vague a suffisamment de temps pour se terminer avant que la suivante ne soit déclenchée. Voir la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=fr#sending-using-multiple-waves){target="_blank"}.
-* Vérifiez que le nombre d’erreurs et les [mises en quarantaine](understanding-quarantine-management.md) correspondent aux autres diffusions.
+* Lors de l’utilisation des vagues, vérifiez que chaque vague a le temps de se terminer avant le déclenchement de la suivante. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=fr#sending-using-multiple-waves){target="_blank"}.
+* Vérifiez que le nombre d’erreurs et les nouvelles [mises en quarantaine](understanding-quarantine-management.md) correspondent aux autres diffusions.
 * Consultez attentivement les [logs de diffusion](delivery-dashboard.md#delivery-logs-and-history) pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc.).

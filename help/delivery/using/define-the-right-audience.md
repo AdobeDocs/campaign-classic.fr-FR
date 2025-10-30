@@ -9,17 +9,17 @@ hide: true
 hidefromtoc: true
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Définition de l&#39;audience appropriée {#define-the-right-audience}
 
-La population ciblée est essentielle : créez soigneusement vos listes, testez vos emails sur les clients de messagerie et les appareils mobiles les plus utilisés et vérifiez que vos listes email sont à jour (sans adresses inconnues ou obsolètes). Vous pouvez également envoyer des bons à tirer permettant de configurer un cycle de validation complet.
+La population ciblée est essentielle : créez soigneusement vos listes, testez vos emails sur les clients de messagerie et les appareils mobiles les plus utilisés et vérifiez que vos listes e-mail sont à jour (sans adresses inconnues ou obsolètes). Vous pouvez également envoyer des BAT permettant de configurer un cycle de validation complet.
 
-En savoir plus sur les populations cibles dans cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
+En savoir plus sur les populations cibles dans cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
 
 ## Cibler la bonne audience {#target-the-right-audience}
 
@@ -33,13 +33,13 @@ Par défaut, dans Campaign Classic, les modèles de diffusion ciblent les **Des
 
 Vous pouvez, par exemple, envoyer votre diffusion à des visiteurs dont le profil a été collecté par le biais des réseaux sociaux ou à des visiteurs qui se sont abonnés à un service d&#39;information.
 
-Ces mappages sont présentés dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}.
+Ces mappings sont présentés dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=fr){target="_blank"}.
 
 Vous pouvez également créer et utiliser un mapping de ciblage personnalisé. Pour plus d’informations, consultez [cette section](../../configuration/using/target-mapping.md).
 
 ## Destinataires externes {#external-recipients}
 
-Vous pouvez effectuer une diffusion aux destinataires qui sont stockés dans un fichier externe plutôt qu&#39;enregistrés dans la base de données. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#selecting-external-recipients){target="_blank"}.
+Vous pouvez effectuer une diffusion aux personnes destinataires qui sont stockées dans un fichier externe plutôt qu’enregistrées dans la base de données. En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#selecting-external-recipients){target="_blank"}.
 
 ## Envoyer des messages à vos abonnés {#send-to-subscribers}
 
@@ -50,7 +50,7 @@ Pour envoyer des messages aux abonnés d&#39;une newsletter, vous pouvez directe
 
 Pour tester votre diffusion, utilisez des bons à tirer avant l&#39;envoi à la cible principale.
 
-Veillez à sélectionner les destinataires du BAT appropriés, car ils valident le formulaire et le contenu du message. Les étapes de définition des destinataires du BAT sont présentées dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#select-the-proof-target){target="_blank"}.
+Veillez à sélectionner les destinataires du BAT appropriés, car ils valident le formulaire et le contenu du message. Les étapes de définition des personnes destinataires du BAT sont présentées dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#select-the-proof-target){target="_blank"}.
 
 Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis afin de tester une diffusion avant l’envoi à la cible principale. Elles sont présentées [dans cette section](about-seed-addresses.md).
 

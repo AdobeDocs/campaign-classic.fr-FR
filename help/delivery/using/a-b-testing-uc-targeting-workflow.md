@@ -7,25 +7,25 @@ feature: A/B Testing
 role: User
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 # AB Testing : créer un workflow de ciblage {#step-1--creating-a-targeting-workflow}
 
-Vous devez créer votre workflow dans l&#39;onglet **[!UICONTROL Ciblages et Workflows]** d&#39;une opération. Il est composé d&#39;une activité **[!UICONTROL Requête]**, d&#39;une activité **[!UICONTROL Partage]** à laquelle sont reliées deux activités **[!UICONTROL Diffusions e-mail]**, une activité **[!UICONTROL Attente]**, d&#39;une activité **[!UICONTROL Code JavaScript]** et une activité **[!UICONTROL Diffusion]**.
+Vous devez créer votre workflow dans l’onglet **[!UICONTROL Ciblage et workflows]** d’une campagne. Il est composé d’une activité **[!UICONTROL Requête]**, d’une activité **[!UICONTROL Partage]** à laquelle sont reliées deux activités **[!UICONTROL Diffusion par e-mail]**, d’une activité **[!UICONTROL Attente]**, d’une activité **[!UICONTROL Code JavaScript]** et d’une activité **[!UICONTROL Diffusion]**.
 
-1. Si ce n’est pas déjà fait, créez une campagne. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
+1. Si ce n’est pas déjà fait, créez une campagne. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
 
    ![](assets/use_case_abtesting_targetwkfl_001.png)
 
-1. Positionnez-vous dans l&#39;onglet **[!UICONTROL Ciblages et Workflows]**.
+1. Accédez à l’onglet **[!UICONTROL Ciblage et workflows]**.
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. Modifiez le libellé du workflow existant ou cliquez sur **[!UICONTROL Ajouter]** pour en créer un (voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=fr){target="_blank"}.
+1. Modifiez le libellé du workflow existant ou cliquez sur **[!UICONTROL Ajouter]** pour en créer un (voir à ce sujet la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=fr){target="_blank"}).
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 

@@ -5,9 +5,9 @@ description: Découvrez comment surveiller votre instance à lʼaide du journal 
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Le **[!UICONTROL Journal d’audit]** capture en temps réel la liste complète 
 
   Pour plus d’informations sur les workflows, consultez [cette page](../../workflow/using/about-workflows.md).
 
-  Pour plus d’informations sur la surveillance des workflows, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
+  Pour plus d’informations sur la surveillance des workflows, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
 
 
 * **Journal d’audit des options** : permet de vérifier les activités et les dernières modifications apportées à vos options.

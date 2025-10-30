@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Une fois votre connexion à la base de données établie, vous accédez à la pa
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrir l’espace de travail Campaign en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Découvrir l’espace de travail Campaign en vidéo](#video)
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Dans le contexte d’un accès web, les options seront en revanche principalemen
 
 ![À partir d’un navigateur, le même opérateur ne peut que visualiser et annuler la campagne.](assets/operation_from_web.png)
 
-Pour en savoir plus sur l’utilisation de l’interface web, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr#use-the-web-interface-){target=_blank}.
+En savoir plus sur l’utilisation de l’interface web dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr#use-the-web-interface-){target=_blank}.
 
 ### Langues {#languages}
 
@@ -144,4 +144,4 @@ Découvrez comment **utiliser les énumérations** dans la [documentation d’Ad
 
 Cette vidéo présente l’espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39530?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: database-maintenance
 exl-id: fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Cette méthode permet également de mettre en lumière les utilisateurs qui cré
 
 ## Diffusions {#deliveries}
 
-Le nombre de diffusions doit être à tout moment inférieur à 1 000 sur l&#39;instance. Un nombre trop élevé de diffusions occupe de l&#39;espace de base de données et entraîne des problèmes. Une instance qui crée plus de 10 diffusions par jour doit être contrôlée au regard des besoins de l&#39;entreprise. Pensez à utiliser des diffusions continues pour créer un nombre inférieur de diffusions. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html?lang=fr){target="_blank"}.
+Le nombre de diffusions doit être à tout moment inférieur à 1 000 sur l&#39;instance. Un nombre trop élevé de diffusions occupe de l&#39;espace de base de données et entraîne des problèmes. Une instance qui crée plus de 10 diffusions par jour doit être contrôlée au regard des besoins de l&#39;entreprise. Pensez à utiliser des diffusions continues pour créer un nombre inférieur de diffusions. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html?lang=fr){target="_blank"}.
 
 Les diffusions de plus de deux ans doivent être purgées de l&#39;instance.
 
@@ -54,8 +54,8 @@ Si un workflow importe des fichiers et n&#39;utilise pas les fonctionnalités st
 
 ## Données transactionnelles et logs {#transactional-data-and-logs}
 
-Chaque workflow qui importe des données dans Adobe Campaign augmente la taille de la base de données. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=fr){target="_blank"}.
+Chaque workflow qui importe des données dans Adobe Campaign entraîne une augmentation de la taille de la base de données. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=fr){target="_blank"}.
 
-Vérifiez que les workflows de nettoyage ou de purge sont en cours d&#39;exécution et qu&#39;ils purgent effectivement les enregistrements. L&#39;ensemble des données transactionnelles et des logs doivent être purgés. La tâche de nettoyage purge uniquement les tables standard : logs de tracking et broadlogs. Les tables spécifiques doivent être purgées par des workflows spécifiques. consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
+Vérifiez que les workflows de nettoyage ou de purge sont en cours d’exécution et qu’ils purgent effectivement les enregistrements. L’ensemble des données transactionnelles et des logs doivent être purgés. La tâche de nettoyage purge uniquement les tables standard : logs de tracking et broadlogs. Les tables spécifiques doivent être purgées par des workflows spécifiques. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
 
-Surveillez les données transactionnelles âgées en vérifiant la date la plus ancienne de création des enregistrements.
+Surveillez les données transactionnelles vieillissantes en vérifiant la date la plus ancienne de création des enregistrements.

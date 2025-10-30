@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3512'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Pressio
 
    ![](assets/campaign_opt_create_a_rule_05.png)
 
-1. L&#39;onglet **[!UICONTROL Typologies]** permet de consulter les typologies de campagne qui appliquent cette règle de typologie et d&#39;associer cette règle à une ou plusieurs typologies existantes. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr){target="_blank"}.
+1. L&#39;onglet **[!UICONTROL Typologies]** permet de consulter les typologies de campagne qui appliquent cette règle de typologie et d&#39;associer cette règle à une ou plusieurs typologies existantes. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr){target="_blank"}.
 
 ## Définition des seuils et poids {#defining-thresholds-and-weights}
 

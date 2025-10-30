@@ -5,9 +5,9 @@ description: Découvrez les bonnes pratiques de sécurité en matière de confid
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Lorsque vous ajoutez des liens personnalisés à votre contenu, évitez toujours
 
 ### Recommandation
 
-Pour valider et vous assurer que vous n’utilisez pas ce qui précède, exécutez une requête sur la table des URL de tracking via [Éditeur de requêtes générique Campaign](../../platform/using/about-queries-in-campaign.md) ou créez un workflow avec des critères de filtre dans l’activité de requête. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
+Pour valider et vous assurer que vous n’utilisez pas les éléments ci-dessus, exécutez une requête sur la table des URL de tracking à l’aide du [requêteur générique de Campaign](../../platform/using/about-queries-in-campaign.md) ou créez un workflow avec des critères de filtre dans l’activité de requête. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
 
 Exemple :
 
-1. Créez un workflow et ajoutez une activité **Requête**. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
+1. Créez un workflow et ajoutez une activité **Requête**. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
 
 1. Ouvrez l’activité **Requête** et créez un filtre sur le tableau `nmsTrackingUrl` comme suit :
 

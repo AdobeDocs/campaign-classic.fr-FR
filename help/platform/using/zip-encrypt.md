@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Vous pouvez ensuite utiliser des commandes ou du code dans l&#39;onglet **[!UICO
 **Rubriques connexes :**
 
 * [Décompression ou déchiffrement d&#39;un fichier avant traitement](../../platform/using/unzip-decrypt.md)
-* [Activité Extraction des données (fichier)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}
+* [Activité Extraction des données (fichier)](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}
 
 ## Cas pratique : chiffrage et export de données à l’aide d’une clé installée sur le Panneau de contrôle {#use-case-gpg-encrypt}
 
@@ -57,9 +57,9 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
    * Activité **[!UICONTROL Code JavaScript]** : chiffre les données à extraire.
    * Activité **[!UICONTROL Transfert de fichier]** : envoie les données à une source externe (dans cet exemple, un serveur SFTP).
 
-1. Configurez l&#39;activité **[!UICONTROL Requête]** pour qu&#39;elle cible les données de votre choix dans la base de données. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
+1. Configurez l&#39;activité **[!UICONTROL Requête]** pour qu&#39;elle cible les données de votre choix dans la base de données. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
 
-1. Ouvrez l&#39;activité **[!UICONTROL Extraction des données (fichier)]** puis configurez-la selon vos besoins. Les concepts généraux relatifs à la configuration de l’activité sont disponibles dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}.
+1. Ouvrez l’activité **[!UICONTROL Extraction des données (fichier)]**, puis configurez-la selon vos besoins. Les concepts généraux de configuration de l’activité sont présentés dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}.
 
    ![](assets/gpg-data-extraction.png)
 
@@ -81,7 +81,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
    ![](assets/gpg-script.png)
 
-1. Ouvrez l’activité **[!UICONTROL Transfert de fichier]**, puis spécifiez le serveur SFTP auquel vous souhaitez envoyer le fichier. Les concepts généraux relatifs à la configuration de l’activité sont disponibles dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
+1. Ouvrez l’activité **[!UICONTROL Transfert de fichier]**, puis spécifiez le serveur SFTP auquel vous souhaitez envoyer le fichier. Les concepts généraux de configuration de l’activité sont présentés dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
 
    ![](assets/gpg-file-transfer.png)
 
@@ -91,6 +91,6 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Cette vidéo montre comment utiliser une clé GPG pour chiffrer des données. Elle est également disponible dans
 
->[!VIDEO](https://video.tv.adobe.com/v/41327?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
 
 D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

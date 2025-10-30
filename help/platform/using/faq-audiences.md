@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ba8bf610-cbac-41e9-8b6e-130deb8b97e2
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Découvrez des cas pratiques simples pour [importer des profils](../../platform/
 
 ## Comment définir la population cible d&#39;une campagne marketing ? {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
-Vous pouvez utiliser des workflows pour créer une population cible d&#39;une campagne marketing. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#build-the-main-target-in-a-workflow.html){target="_blank"}.
+Vous pouvez utiliser des workflows pour créer une population cible d’une campagne marketing. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#build-the-main-target-in-a-workflow.html?lang=fr){target="_blank"}.
 
 ## Comment créer une liste de profils ? {#how-can-i-create-a-list-of-profiles-}
 
@@ -44,9 +44,9 @@ Une liste est un ensemble statique de destinataires qui peut être ciblé dans l
 
 ## Comment dédupliquer une population avant d&#39;envoyer un message ? {#how-can-i-deduplicate-a-population-before-sending-a-message-}
 
-Vous pouvez utiliser un workflow pour exclure les doublons de la cible d’une diffusion afin d’éviter d’envoyer cette dernière plusieurs fois à un même destinataire.
+Vous pouvez utiliser un workflow pour exclure les doublons de la cible d’une diffusion afin d’éviter d’envoyer cette dernière plusieurs fois à une même personne destinataire.
 
-Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=fr){target="_blank"}.
+En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=fr){target="_blank"}.
 
 ## Comment identifier et cibler les abonnés à une newsletter ? {#how-to-identify-and-target-subscribers-to-a-newsletter-}
 
@@ -54,4 +54,4 @@ Découvrez la gestion des abonnements dans Campaign et apprenez à [envoyer un m
 
 ## Quelle est la bonne pratique pour exclure des profils d&#39;une population cible ? {#what-is-the-best-practice-to-exclude-profiles-from-a-target-population-}
 
-Découvrez comment exclure une liste de profils de votre population cible dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=fr){target="_blank"}.
+Découvrez comment exclure une liste de profils de votre population cible dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=fr){target="_blank"}.

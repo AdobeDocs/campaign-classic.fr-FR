@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1087'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques ci-
 
 >[!NOTE]
 >
->* Vous pouvez surveiller l’espace de stockage de votre serveur SFTP avec le Panneau de Contrôle Campaign Classic [&#128279;](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=fr){target="_blank"}.
+>* Vous pouvez surveiller le stockage de votre serveur SFTP avec le [Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=fr){target="_blank"} de Campaign Classic.
 >
 >* Le Panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d&#39;octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel){target="_blank"}.
 >
@@ -132,7 +132,7 @@ Cette erreur indique que le nom de domaine du serveur FTP n&#39;a pas pu être r
 
 1. Résolution des problèmes liés aux **logs de session** :
 
-   1. Dans le workflow, double-cliquez sur l&#39;activité [Transfert de fichier](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
+   1. Dans le workflow, double-cliquez sur l&#39;activité [Transfert de fichier](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
    1. Accédez à l’onglet **[!UICONTROL Transfert de fichier]**, puis cliquez sur **[!UICONTROL Paramètres avancés]**.
    1. Cochez l’option **[!UICONTROL Afficher les logs de la session]**.
 

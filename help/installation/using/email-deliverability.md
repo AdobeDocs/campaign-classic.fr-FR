@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Configuration technique des emails
+title: Configuration technique du canal e-mail
 description: Découvrez comment configurer Campaign pour contrôler la sortie de vos instances lors de la diffusion des e-mails.
 feature: Installation, Deliverability
 badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3163'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -178,7 +178,7 @@ user:~ user$ host -t a mta5.am0.yahoodns.net
 
 Pour cet enregistrement, l’utilisateur peut contacter 8 adresses IP des homologues. Comme l’utilisateur dispose de 2 adresses IP publiques, il obtient 8 x 2 = 16 combinaisons pour atteindre les serveurs de messagerie yahoo.com. Chacune de ces combinaisons est appelée un chemin d’accès.
 
-Le deuxième enregistrement MX apparaît comme ceci :
+Le deuxième enregistrement MX apparaît comme ceci :
 
 ```
 user:~ user$ host -t a mta6.am0.yahoodns.net
@@ -192,7 +192,7 @@ user:~ user$ host -t a mta6.am0.yahoodns.net
                 mta6.am0.yahoodns.net has address 66.196.118.33
 ```
 
-4 de ces 8 adresses IP sont déjà utilisées dans le mta5 (98.136.216.26, 98.138.112.38, 63.250.192.46 et 98.136.217.203). Cet enregistrement permet à l&#39;utilisateur d&#39;utiliser quatre nouvelles adresses IP. Le troisième enregistrement MX aussi.
+4 de ces 8 adresses IP sont déjà utilisées en mta5 (98.136.216.26, 98.138.112.38, 63.250.192.46 et 98.136.217.203). Cet enregistrement permet à la personne d’utiliser quatre nouvelles adresses IP. Le troisième enregistrement MX aussi.
 
 Au total, l&#39;utilisateur dispose de seize adresses distantes. Avec ses deux adresses IP publiques, il obtient un total de trente-deux chemins pour accéder aux serveurs email de yahoo.com.
 
@@ -331,7 +331,7 @@ Le paramètre **Structure MIME** (Multipurpose Internet Mail Extensions) permet 
 
 Si l&#39;option **[!UICONTROL Inclusion des images]** est activée, celles-ci s&#39;affichent directement dans le corps de l&#39;email. Les images sont alors téléchargées et les liens URL remplacés par leur contenu.
 
-Cette option est notamment utilisée par le marché japonais pour les emails au format **Deco-mail**, **Decore Mail** ou **Decoration Mail**. Pour plus d’informations, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=fr){target="_blank"}.
+Cette option est notamment utilisée par le marché japonais pour les emails au format **Deco-mail**, **Decore Mail** ou **Decoration Mail**. Pour plus d’informations, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=fr){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -428,4 +428,4 @@ Le paramètre **maxWorkingSetMb** se calcule empiriquement en multipliant le nom
 
 ### Ajuster le nombre de mtachild {#adjust-the-number-of-mtachild}
 
-Le nombre d&#39;enfants ne doit pas dépasser le nombre de processeurs de la machine (environ 1 000 sessions). L&#39;ordre du millier de sessions semble une bonne valeur. **&#x200B;**&#x200B;Il faut alors augmenter le nombre de messages par **enfant** (**maxMsgPerChild**) pour avoir une durée de vie suffisante.
+Le nombre d&#39;enfants ne doit pas dépasser le nombre de processeurs de la machine (environ 1 000 sessions). L&#39;ordre du millier de sessions semble une bonne valeur. **** Il faut alors augmenter le nombre de messages par **enfant** (**maxMsgPerChild**) pour avoir une durée de vie suffisante.

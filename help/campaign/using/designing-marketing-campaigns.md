@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ De plus, le module **Gestion des ressources marketing (MRM)** vous permet de con
 >[!NOTE]
 >
 >Pour plus d’informations sur les fonctionnalités de base d’Adobe Campaign, reportez-vous à [cette section](../../platform/using/about-adobe-campaign-classic.md).\
->Les fonctionnalités relatives au ciblage de la population, à la personnalisation des messages et à la diffusion des messages sur les différents canaux sont présentées dans la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
+>Les fonctionnalités relatives au ciblage des populations, à la personnalisation et à la diffusion de messages sur les différents canaux sont présentées dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrir les concepts clés des campagnes marketing dans une vidéo](#video)
 
@@ -68,6 +68,6 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
 Cette vidéo présente les concepts clés des campagnes marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/326571?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

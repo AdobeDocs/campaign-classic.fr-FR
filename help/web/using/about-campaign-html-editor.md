@@ -6,9 +6,9 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Avec le Digital Content Editor, vous pouvez insérer et mettre en forme des él�
 
 >[!NOTE]
 >
->Si vous devez ajouter du code JavaScript côté serveur, utilisez des blocs de personnalisation. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
+>Si vous devez ajouter du code JavaScript côté serveur, utilisez des blocs de personnalisation. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
 
 >[!CAUTION]
 >
->Toutes les ressources externes doivent être référencées avec une URL HTTPS.
+>Toutes les ressources externes doivent être référencées avec une URL HTTPS.
 
 ## Étapes clés d‘utilisation du Digital Content Editor {#content-editor-general-operation}
 
@@ -52,8 +52,8 @@ Pour créer une **diffusion email**, vous devez :
 1. Créer une diffusion à partir d‘un modèle du DCE - [En savoir plus](use-case-creating-an-email-delivery.md)
 1. Sélectionner un contenu existant ou créer un contenu à partir d’un [modèle standard](template-management.md)
 1. Modifier et configurer du contenu en ligne
-1. Envoyer la diffusion - En savoir plus dans la documentation [&#x200B; Campaign v8 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}
+1. Envoyer la diffusion - En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}
 
 >[!NOTE]
 >
->Un exemple complet d‘implémentation dans le contexte d’une diffusion email est disponible dans [ce cas pratique](use-case-creating-an-email-delivery.md).
+>Un exemple complet d’implémentation dans le contexte d’une diffusion par e-mail est disponible dans [ce cas d’utilisation](use-case-creating-an-email-delivery.md).

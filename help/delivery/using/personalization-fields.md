@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Par exemple, si vous rencontrez des problèmes de performances lorsque vous diff
 
 Pour utiliser cette option, procédez comme suit :
 
-1. Créez une campagne. Voir à ce sujet la documentation [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
+1. Créez une campagne. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
 1. Dans l’onglet **[!UICONTROL Ciblage et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/query.md).
 1. Ajoutez une activité **[!UICONTROL Diffusion e-mail]** au workflow et ouvrez-la. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/delivery.md).
 1. Accédez à l&#39;onglet **[!UICONTROL Analyse]** des **[!UICONTROL Propriétés de la diffusion]** et sélectionnez l&#39;option **[!UICONTROL Préparer les données de personnalisation avec un workflow]**.
@@ -142,6 +142,6 @@ En ajoutant le schéma d’objet, vous pouvez sélectionner les champs à ajoute
 
 Découvrez comment ajouter un champ de personnalisation à la ligne d’objet et au contenu d’une diffusion email.
 
->[!VIDEO](https://video.tv.adobe.com/v/30950?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

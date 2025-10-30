@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1838'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -353,7 +353,7 @@ La procédure de configuration d’un compte externe à l’aide du connecteur S
 
 ## Modifier le modèle de diffusion {#changing-the-delivery-template}
 
-Adobe Campaign vous met à disposition un modèle de diffusion vers les mobiles. Ce modèle est disponible dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]**. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"}.
+Adobe Campaign vous met à disposition un modèle de diffusion vers les mobiles. Ce modèle est disponible dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]**. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"}.
 
 Pour diffuser par le canal SMS, vous devez créer un modèle dans lequel le connecteur du canal est référencé.
 

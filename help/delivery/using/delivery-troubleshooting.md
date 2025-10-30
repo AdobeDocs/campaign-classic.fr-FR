@@ -7,9 +7,9 @@ feature: Monitoring, Deliverability, Troubleshooting
 role: User
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**, votre diffusion sem
 
 * Certains fournisseurs de messagerie ont peut-être ajouté vos adresses IP à une liste bloquée. Dans ce cas, vérifiez vos broadlogs et consultez [cette section](about-deliverability.md).
 
-* Votre diffusion peut être trop volumineuse pour être traitée rapidement. Cela peut être le cas lorsque la taille de la diffusion dépasse 60 Ko ou que la personnalisation JavaScript est importante. Pour plus d&#39;informations, consultez la section Adobe Campaign v8 [bonnes pratiques de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"}.  pour en savoir plus sur les directives relatives au contenu.
+* Votre diffusion peut être trop volumineuse pour être traitée rapidement. Cela peut être le cas lorsque la taille de la diffusion dépasse 60 Ko ou que la personnalisation JavaScript est importante. Consultez la section [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"} d’Adobe Campaign v8  pour en savoir plus sur les directives relatives au contenu.
 
 * Le MTA Adobe Campaign a peut-être été soumis à une limitation. Celle-ci est due aux éléments suivants :
 
@@ -45,7 +45,7 @@ Après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**, votre diffusion sem
 
 Si des diffusions ne s’exécutent pas exactement à la date planifiée, c’est peut-être en raison d’une différence de fuseau horaire entre les serveurs. L’instance de mid-sourcing et celle de production peuvent se trouver dans des fuseaux horaires différents.
 
-Par exemple, si l’instance de mid-sourcing se trouve dans le fuseau horaire de Brisbane et que l’instance de production se trouve dans le fuseau horaire de Darwin, les deux fuseaux horaires sont espacés d’une demi-heure. Dans le journal d’audit, vous verrez clairement que si la diffusion est planifiée pour la production à 11:56, la même diffusion sera planifiée pour le mid-sourcing à 12:26 ce qui représente une différence d’une demi-heure.
+Par exemple, si l’instance de midsourcing se trouve dans le fuseau horaire de Brisbane et que l’instance de production figure dans le fuseau horaire de Darwin, les deux fuseaux horaires sont espacés d’une demi-heure. Dans le journal d’audit, vous verrez clairement que si la diffusion est planifiée pour la production à 11:56, la même diffusion sera planifiée pour le midsourcing à 12:26, ce qui représente une différence d’une demi-heure.
 
 ## Statut En échec {#failed-status}
 
@@ -73,7 +73,7 @@ Les logs de diffusion sont la clé pour apprendre pourquoi une diffusion a écho
 
   Pour la corriger, il est recommandé d’effectuer un nettoyage et une réindexation de la base de données. Pour plus d’informations sur la maintenance de la base de données, consultez [cette section](../../production/using/recommendations.md).
 
-  Vous devez également redémarrer tous les workflows avec une activité planifiée et tous ceux dans un état en échec. Reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=fr){target="_blank"}.
+  Vous devez également redémarrer tous les workflows avec une activité planifiée et tous ceux dans un état en échec. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=fr){target="_blank"}.
 
 * En cas d’échec d’une diffusion, l’erreur suivante peut s’afficher dans les logs de diffusion :
 
@@ -83,7 +83,7 @@ Les logs de diffusion sont la clé pour apprendre pourquoi une diffusion a écho
 
   En règle générale, cette erreur signifie qu’un champ ou un bloc de personnalisation dans l’email possède plusieurs valeurs pour le destinataire. Un bloc de personnalisation est utilisé et il récupère plusieurs enregistrements pour un destinataire spécifique.
 
-  Pour la corriger, vérifiez les données de personnalisation utilisées, puis contrôlez la cible des destinataires qui possèdent plusieurs entrées pour l’un de ces champs. Vous pouvez également utiliser une activité de **[!UICONTROL Déduplication]** dans le workflow de ciblage avant l’activité de diffusion pour vérifier qu’il n’existe qu’un seul champ de personnalisation à la fois. Pour plus d’informations sur la déduplication, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=fr){target="_blank"}.
+  Pour la corriger, vérifiez les données de personnalisation utilisées, puis contrôlez la cible des destinataires qui possèdent plusieurs entrées pour l’un de ces champs. Vous pouvez également utiliser une activité de **[!UICONTROL Déduplication]** dans le workflow de ciblage avant l’activité de diffusion pour vérifier qu’il n’existe qu’un seul champ de personnalisation à la fois. Pour plus d’informations sur la déduplication, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=fr){target="_blank"}.
 
 * Certaines diffusions peuvent échouer avec une erreur &quot;Inatteignable&quot; indiquant :
 

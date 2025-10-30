@@ -6,9 +6,9 @@ feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Avec Adobe Campaign, créez des diffusions de notifications push pour envoyer d
 
 Les notifications push vous permettent d’interagir en temps réel avec les utilisateurs et utilisatrices sur iOS et Android. Lorsque vous envoyez, par exemple, des mises à jour, des annonces ou des promotions, vous pouvez contrôler le contenu, le timing et le ciblage. Découvrez comment configurer et utiliser le canal push, gérer les abonnements, procéder à l’intégration aux APN et FCM et personnaliser les messages dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
-Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités courantes sont désormais disponibles exclusivement dans l’ensemble de documentation de Campaign v8.
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8.
 
 >[!BEGINTABS]
 
@@ -31,7 +31,7 @@ Pour en savoir plus sur le canal de notification push, consultez la [documentati
 
 >[!TAB Création d’une diffusion de notifications push]
 
-Découvrez les étapes clés liées à la création de diffusions push **dans la documentation de Campaign v8** :
+Découvrez les étapes clés de la création d’une diffusion de notifications push dans la **documentation de Campaign v8** :
 
 * [Créer une diffusion de notifications push](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=fr#push-create){target="_blank"} : découvrez les différentes étapes nécessaires à la création d’une diffusion de notifications push.
 * [Envoyer et surveiller la notification push](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=fr#push-test){target="_blank"} : découvrez comment valider, envoyer et suivre vos diffusions.
@@ -41,7 +41,7 @@ Découvrez les étapes clés liées à la création de diffusions push **dans la
 
 >[!TAB Paramètres des notifications push]
 
-Reportez-vous à ces pages pour en savoir plus sur les paramètres push **dans la documentation de Campaign v8** :
+Consultez les pages suivantes de la **documentation de Campaign v8** pour en savoir plus sur les paramètres des notifications push :
 
 * [Conditions préalables à la configuration](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=fr#before-starting){target="_blank"} : découvrez comment définir des autorisations et configurer votre application.
 * [Configurer la propriété de lancement](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=fr#launch-property){target="_blank"} : découvrez comment configurer une propriété de balise mobile dans la collecte de données Adobe Experience Platform pour activer les notifications push.
