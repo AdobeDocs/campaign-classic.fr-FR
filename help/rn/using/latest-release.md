@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: cdbcfc5aa0614e41ce76cb777fec58fbd01797d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Les problèmes suivants ont également été corrigés dans cette version :
 
 * Correction d’une vulnérabilité de traversée de chemin dans la méthode `File.list()` au sein des workflows. Cette amélioration de la sécurité empêche les accès non autorisés aux répertoires et protège les fichiers sensibles. (NEO-77898)
 
-* Correction d’un problème où les journaux de diffusion SMS ne passaient pas correctement au statut « reçu sur mobile ». Cette amélioration garantit la précision des rapports de diffusion. (NEO-78843)
+* Correction d’un problème où les logs de diffusion SMS ne passaient pas correctement au statut « reçu sur mobile ». Cette amélioration garantit la précision des rapports de diffusion. (NEO-78843)
 
 * Résolution des erreurs de connexion dans Adobe Campaign Classic lors de l’utilisation d’Azure Federated Data Access (FDA). Il est désormais possible de se connecter via la console cliente. (NEO-79373)
 
