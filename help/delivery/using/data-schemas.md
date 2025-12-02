@@ -4,12 +4,12 @@ title: Utiliser les schémas de données dans Campaign
 description: Découvrez comment utiliser les schémas de données dans Campaign.
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Data Model
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '566'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ Dans un schéma de gestion de contenu, l&#39;élément principal est représent�
 
 L&#39;attribut **template** renseigné sur l&#39;élément principal permet d&#39;étendre le schéma avec les propriétés génériques à toutes les définitions de contenu tel que le nom, la date de création, l&#39;auteur, la chaîne associée, etc.
 
-Ces propriétés sont décrites dans le schéma **ncm:content**.
+Ces propriétés sont décrites dans le schéma **ncm:content** .
 
 >[!NOTE]
 >

@@ -3,13 +3,13 @@ product: campaign
 title: À propos de la table des destinataires personnalisée
 description: À propos de la table des destinataires personnalisée
 feature: Configuration, Custom Resources
-role: User, Data Engineer, Developer
+role: User, Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '688'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ Si cette méthode d’extension offre une bonne flexibilité pour étendre une t
 
 Cette fonctionnalité permet notamment à Adobe Campaign d&#39;exploiter des données provenant d&#39;une base de données externe : ces données seront utilisées comme ensemble de profils pour les diffusions. La mise en oeuvre de ce mode de fonctionnement implique plusieurs spécificités qui peuvent s&#39;avérer pertinentes selon les besoins du client. Ainsi :
 
-* Pas de flux de mise à jour vers et depuis la base Adobe Campaign : les données de cette table peuvent être mises à jour directement via le moteur de base de données qui l&#39;héberge.
+* Pas de flux de mise à jour vers et depuis la base Adobe Campaign : les données de cette table peuvent être mises à jour directement via le moteur de base de données qui l’héberge.
 * Pas de changements dans les processus qui opèrent sur la base existante.
 * Utilisation d&#39;une base de profils avec une structure différente de celle proposée en standard : possibilité de diffuser avec une même instance vers des profils enregistrés dans des tables différentes, avec des structures différentes.
 * Pas de changements ou de maintenance requis lors des mises à jour de la base de données Adobe Campaign.
@@ -43,7 +43,7 @@ L’utilisation d’une table de destinataires personnalisée implique les limit
 
   Nous vous recommandons de procéder comme suit :
 
-   * Dédier les schémas **[!UICONTROL nms:BroadLogRcp]** et **[!UICONTROL nms:TrackingLogRcp]** aux schémas **[!UICONTROL nms:Recipientschema]** prêts à l&#39;emploi. Ces deux tables de log ne doivent pas être liées à une autre table de destinataires par défaut.
+   * Dédier les schémas **[!UICONTROL nms:BroadLogRcp]** et **[!UICONTROL nms:TrackingLogRcp]** aux schémas **[!UICONTROL nms:Recipientschema]** prêts à l’emploi. Ces deux tables de log ne doivent pas être liées à une autre table de destinataires par défaut.
    * Définir des schémas broadlog et trackinglog personnalisés dédiés à chaque nouveau schéma de destinataires personnalisé. Il est possible de le faire automatiquement lors de la configuration du mapping de ciblage, voir la section [Mapping de ciblage](../../configuration/using/target-mapping.md).
 
 * Il n&#39;est pas possible d&#39;utiliser les **[!UICONTROL Services et Abonnements]** standards proposés dans le produit.
@@ -69,7 +69,7 @@ Il est également recommandé de vérifier les valeurs par défaut utilisées da
 Par exemple :
 
 * Certains rapports standards, notamment ceux proposés pour **Interaction** et les **Applications mobiles**, doivent être redéveloppés. Pour plus d&#39;informations, consultez la section [Gestion des rapports](../../configuration/using/managing-reports.md).
-* Les paramètres par défaut de certaines activités de workflow référencent la table des destinataires standards (**[!UICONTROL nms:recipient]**) : ces paramètres doivent être modifiés dans le cadre de l&#39;utilisation d&#39;une table de destinataires externe. Pour plus d&#39;informations, consultez la section [Gestion des workflows](../../configuration/using/managing-workflows.md).
+* Les configurations par défaut de certaines activités de workflow font référence au tableau des destinataires standard (**[!UICONTROL nms:recipient]**) : ces configurations doivent être modifiées lorsqu’elles sont utilisées pour un tableau des destinataires externe. Pour plus d&#39;informations, consultez la section [Gestion des workflows](../../configuration/using/managing-workflows.md).
 * Le bloc de personnalisation du **[!UICONTROL Lien de désinscription]** standard doit être adapté.
 * Le mapping de ciblage des modèles de diffusion standard doit être modifié.
 * Les formulaires v4 ne sont pas compatibles avec l‘utilisation d’une table de destinataires externe : vous devez utiliser les applications Web.

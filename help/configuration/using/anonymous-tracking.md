@@ -3,9 +3,9 @@ product: campaign
 title: Tracking anonyme
 description: Découvrez comment configurer le tracking anonyme
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Adobe Campaign permet d’associer les informations de tracking Web collectées
 >[!IMPORTANT]
 >
 >La mise en place du tracking anonyme sur un site peut entraîner la collecte de très nombreux logs de tracking, et affecter le bon fonctionnement de la base de données. Il doit être configuré avec précaution sur votre site.\
->Les logs de tracking sont enregistrés dans la base de données jusqu’à la purge des données de tracking. Les délais de purge sont paramétrés au travers de l’assistant de déploiement. Consultez à ce propos [cette section](../../installation/using/deploying-an-instance.md#purging-data)
+>Les logs de tracking sont enregistrés dans la base de données jusqu’à la purge des données de tracking. La fréquence de purge est configurée à l’aide de l’assistant de déploiement. Consultez à ce propos [cette section](../../installation/using/deploying-an-instance.md#purging-data).
 
 Pour activer le tracking Web anonyme sur votre instance, les éléments suivants doivent être configurés :
 

@@ -3,9 +3,9 @@ product: campaign
 title: Prise en main du modèle de données de Campaign Classic
 description: Découvrez comment étendre le modèle de données Campaign, modifier des schémas, utiliser des API, et plus encore
 feature: Data Model, Configuration
-role: Data Engineer, Developer
+role: Developer
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
@@ -46,7 +46,7 @@ Enfin, une partie du modèle de données est constituée de données techniques 
 
 La table des destinataires intégrée d&#39;Adobe Campaign est un bon point de départ pour créer votre modèle de données. Elle comporte un certain nombre de champs prédéfinis et de liens vers des tables faciles à étendre. Son emploi est particulièrement efficace si vous ciblez principalement les destinataires, car elle s&#39;appuie sur un modèle de données centré sur ces derniers.
 
-Les avantages d&#39;une table de destinataires native sont les suivants :
+Les avantages d’une table de destinataires native sont les suivants :
 
 * Des fonctionnalités natives telles que les abonnements, les listes de contrôle, etc.
 * Disposer d&#39;une base de données marketing dotée d&#39;un modèle de données axé sur les destinataires.

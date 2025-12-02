@@ -3,9 +3,9 @@ product: campaign
 title: Collecter toutes les visites
 description: Collecter toutes les visites
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
@@ -18,7 +18,7 @@ Le module de webtracking fourni par Adobe Campaign permet de collecter les visi
 
 Toutefois, vous avez la possibilité de configurer votre plateforme de façon à ce qu&#39;elle collecte toutes les visites des pages ayant une balise de tracking Web, lorsqu&#39;elles sont visitées par un utilisateur connu de la plateforme.
 
-Un utilisateur connu de la plateforme est un destinataire qui a déjà été ciblé par une diffusion et qui a cliqué au moins une fois dans un des mails reçus : un cookie permanent est utilisé pour identifier ce destinataire.
+Un utilisateur connu de la plateforme est un destinataire qui a déjà été ciblé par une diffusion et qui a cliqué au moins une fois dans un des messages reçus : un cookie permanent est utilisé pour identifier ce destinataire.
 
 >[!IMPORTANT]
 >

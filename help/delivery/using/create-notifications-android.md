@@ -3,12 +3,12 @@ product: campaign
 title: Créer une notification push pour les appareils Android
 description: Découvrez comment créer des notifications push pour Android
 feature: Push
-role: User, Developer, Data Engineer
+role: User, Developer
 hide: true
 hidefromtoc: true
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
 

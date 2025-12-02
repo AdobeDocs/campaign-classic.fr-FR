@@ -5,16 +5,16 @@ description: Découvrez la portée et les spécificités de lʼenvoi dʼe-mails 
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1407'
-ht-degree: 100%
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
+source-wordcount: '1406'
+ht-degree: 99%
 
 ---
 
 # Envoi d&#39;emails avec le MTA amélioré {#sending-with-enhanced-mta}
 
-Le **MTA amélioré d&#39;Adobe Campaign** (Mail Transfer Agent) fournit une infrastructure d&#39;envoi mise à niveau qui permet d&#39;améliorer les performances en matière de délivrabilité, de réputation, de débit, de reporting, de gestion des rebonds, de montée en charge des adresses IP et de gestion des paramètres de connexion.
+Le **MTA amélioré d’Adobe Campaign** (Mail Transfer Agent) fournit une infrastructure d’envoi mise à niveau qui permet d’améliorer les performances en matière de délivrabilité, de réputation, de débit, de reporting, de gestion des rebonds, de montée en charge des adresses IP et de gestion des paramètres de connexion. 
 
 Il est implémenté pour améliorer l&#39;évolutivité, augmenter le débit de diffusion et envoyer plus rapidement un plus grand nombre d&#39;emails. Ces améliorations sont possibles grâce à de nouvelles techniques de diffusion adaptatives qui modifient en temps réel les paramètres d’envoi des emails en fonction des retours des fournisseurs d’accès à Internet.
 
@@ -48,7 +48,7 @@ Momentum offre une technologie MTA innovante et extrêmement performante. Elle c
 
 **Puis-je utiliser simultanément le MTA natif d&#39;Adobe Campaign et le MTA amélioré ?**
 
-Non. Seul le MTA amélioré peut être utilisé pour vos diffusions par email après la mise à niveau de votre instance.
+Non. Seul le MTA amélioré peut être utilisé pour vos diffusions par e-mail après la mise à niveau de votre instance.
 
 <!--
 **Is there a fee associated with upgrading my instance to and subsequent use of the Enhanced MTA?**
@@ -75,7 +75,7 @@ Pour tous les autres clients hébergés ou partiellement hébergés (hybrides), 
 
 **Quel est le processus de mise à niveau de mon instance vers le MTA amélioré ?**
 
-Pour vos instances hébergées, le processus complet nécessite quelques minutes de temps d’arrêt. Adobe surveillera le débit et la délivrabilité des emails jusqu&#39;à 24 heures après la mise à niveau afin d&#39;évaluer les impacts sur vos diffusions par email.
+Pour vos instances hébergées, le processus complet nécessite quelques minutes de temps d’arrêt. Adobe surveillera le débit et la délivrabilité des e-mails jusqu’à 24 heures après la mise à niveau afin d’évaluer les impacts sur vos diffusions par e-mail.
 
 Si des problèmes sont détectés, Adobe peut rapidement et temporairement rétablir votre instance vers le MTA natif d&#39;Adobe Campaign.
 
@@ -87,7 +87,7 @@ Non. La mise à niveau n’exige pas de basculer vers de nouvelles adresses IP. 
 
 **La mise à niveau vers le MTA amélioré aura-t-elle un impact sur les campagnes ou les diffusions en cours ?**
 
-Pour les clients et clientes qui utilisent la fonctionnalité de messagerie transactionnelle d&#39;Adobe Campaign, tout appel d’API pour déclencher un e-mail sera mis en file d’attente pendant la très courte période de temps d’arrêt de la mise à niveau et sera réessayé une fois la mise à niveau terminée.
+Pour les clients et clientes qui utilisent la fonctionnalité de messagerie transactionnelle d’Adobe Campaign, tout appel d’API pour déclencher un e-mail sera mis en file d’attente pendant la très courte période de temps d’arrêt de la mise à niveau et sera réessayé une fois la mise à niveau terminée.
 
 ## Spécificités du MTA amélioré {#enhanced-mta-impacts}
 
@@ -161,6 +161,5 @@ Le tableau ci-dessous présente les différentes étapes du processus d’envoi 
 | Le message est relayé avec succès de Campaign vers le MTA amélioré | Le pourcentage **[!UICONTROL Succès]** commence à 100 % | Envoyés |
 | Les messages hard bounce sont renvoyés du MTA amélioré. | Le pourcentage **[!UICONTROL Succès]** diminue en conséquence. | En échec |
 | Les messages soft bounce sont renvoyés du MTA amélioré. | Aucun changement du pourcentage **[!UICONTROL Succès]**. | Envoyés |
-| Les reprises des messages soft bounce sont effectuées avec succès | Aucun changement du pourcentage **[!UICONTROL Succès]**. | Envoyés | Le pourcentage **[!UICONTROL Succès]** augmente en conséquence. | Envoyés |
+| Les reprises des messages soft bounce sont effectuées avec succès | Aucune modification du pourcentage **[!UICONTROL Succès]** \|  Le pourcentage **[!UICONTROL Succès]** augmente en conséquence | Envoyés |
 | Échec des reprises des messages soft bounce | Le pourcentage **[!UICONTROL Succès]** diminue en conséquence. | En échec |
-

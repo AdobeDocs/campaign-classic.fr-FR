@@ -3,12 +3,12 @@ product: campaign
 title: Méthodes SOAP en JavaScript
 feature: Configuration, Instance Settings
 description: Méthodes SOAP en JavaScript
-role: Data Engineer, Developer
+role: Developer
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 100%
+source-wordcount: '134'
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ Il s&#39;agit dans ce cas du JavaScript exécuté sur le serveur Adobe Campaign
 
 L&#39;accès aux méthodes SOAPs statiques se fait par invocation d&#39;une méthode sur l&#39;objet représentant le schéma. Les schémas sont des propriétés des objets de type &#39;espace de noms&#39;. Ces espaces de noms sont des variables globales, ainsi par exemple, les variables xtk ou nms représentent les espaces de noms correspondants.
 
-L&#39;exemple suivant invoque la méthode statique PostEvent du schéma xtk:workflow :
+L&#39;exemple suivant invoque la méthode statique PostEvent du schéma xtk:workflow :
 
 ```
 xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false) 
@@ -30,7 +30,7 @@ xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false)
 
 Pour utiliser les méthodes SOAPs non statiques, il faut d&#39;abord récupérer une entité en utilisant les méthodes &quot;get&quot; ou &quot;create&quot; sur les schémas correspondants.
 
-L&#39;exemple suivant invoque la méthode ExecuteQuery du schéma &quot;xtk:queryDef&quot; :
+L&#39;exemple suivant invoque la méthode ExecuteQuery du schéma « xtk:queryDef » :
 
 ```
 var query = xtk.queryDef.create(
@@ -47,7 +47,7 @@ for each (var w in res.workflow)
   logInfo(w.@internalName)
 ```
 
-## Exemples     {#examples}
+## Exemples {#examples}
 
 * Requête sur la table des destinataires avec une opération &quot;get&quot; :
 

@@ -6,10 +6,10 @@ feature: Workflows, Targeting Activity
 hide: true
 hidefromtoc: true
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '1172'
-ht-degree: 100%
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 97%
 
 ---
 
@@ -17,34 +17,34 @@ ht-degree: 100%
 
 
 
-La déduplication supprime les doublons dans le ou les résultats des activités entrantes. La déduplication peut être effectuée en fonction de l&#39;adresse email, du numéro de téléphone ou d&#39;un autre champ.
+La déduplication supprime les doublons dans le ou les résultats des activités entrantes. La déduplication peut être effectuée en fonction de l’adresse e-mail, du numéro de téléphone ou d’un autre champ.
 
-L&#39;activité **[!UICONTROL Déduplication]** est utilisée pour supprimer des lignes dupliquées d&#39;un jeu de données. Par exemple, les enregistrements ci-dessous peuvent être considérés comme des duplicatas, car ils ont la même adresse email et le même téléphone portable et/ou de domicile.
+L’activité **[!UICONTROL Déduplication]** est utilisée pour supprimer des lignes en double d’un jeu de données. Par exemple, les enregistrements ci-dessous peuvent être considérés comme des doublons, car ils ont la même adresse e-mail et le même téléphone portable et/ou de domicile.
 
 | Date de la dernière modification | Prénom | Nom | Email | Téléphone mobile | Phone |
------|------------|-----------|-------|--------------|------
+|-----|------------|-----------|-------|--------------|------|
 | 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 | 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 | 07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
-L&#39;activité **[!UICONTROL Déduplication]** peut conserver une ligne entière comme enregistrement unique après l&#39;identification des duplicatas. Par exemple, dans le cas pratique ci-dessus, si l’activité est configurée pour ne conserver que l’enregistrement avec la **[!UICONTROL Date]** la plus ancienne, le résultat est le suivant :
+L’activité **[!UICONTROL Déduplication]** peut conserver une ligne entière comme enregistrement unique après l’identification des doublons. Par exemple, dans le cas pratique ci-dessus, si l’activité est configurée pour ne conserver que l’enregistrement avec la **[!UICONTROL Date]** la plus ancienne, le résultat est le suivant :
 
 | Date | Prénom | Nom | Email | Téléphone mobile | Phone |
------|----------|------------|-------|--------------|------
+|-----|----------|------------|-------|--------------|------|
 | 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
-L’enregistrement principal sélectionné transfère les données sans fusionner les données de champ avec d’autres données pertinentes dans les lignes de duplicatas.
+L’enregistrement principal sélectionné transfère les données sans fusionner les données de champ avec d’autres données pertinentes dans les lignes en double.
 
 Complémentaire :
 
 | Date | Prénom | Nom | Email | Téléphone mobile | Phone |
------|------------|-----------|-------|--------------|------
+|-----|------------|-----------|-------|--------------|------|
 | 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 | 07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 ## Bonnes pratiques {#best-practices}
 
-Lors d&#39;une déduplication, les flux entrants sont traités séparément. Si par exemple, un destinataire &#39;A&#39; est présent dans le résultat de la requête 1 et également dans le résultat de la requête 2, il ne sera pas dédupliqué.
+Lors d’une déduplication, les flux entrants sont traités séparément. Si par exemple, un destinataire « A » est présent dans le résultat de la requête 1 et également dans le résultat de la requête 2, il ne sera pas dédupliqué.
 
 Ce cas de figure doit s&#39;aborder de cette manière :
 
@@ -61,7 +61,7 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 
    ![](assets/s_user_segmentation_dedup_param.png)
 
-1. Sélectionnez le type de cible pour cette activité (par défaut, la déduplication est liée aux destinataires) et le critère à utiliser, c&#39;est-à-dire le champ pour lequel des valeurs identiques permettent d&#39;identifier les duplicatas.
+1. Sélectionnez le type de cible pour cette activité (par défaut, la déduplication est liée aux destinataires) et le critère à utiliser, c’est-à-dire le champ pour lequel des valeurs identiques permettent d’identifier les doublons.
 
    >[!NOTE]
    >
@@ -127,7 +127,7 @@ Les doublons identifiés seront également intégrés à une liste constituée e
 1. Ouvrez l&#39;activité de déduplication puis cliquez sur le lien **[!UICONTROL Editer la configuration...]** afin de pouvoir définir le mode de déduplication.
 1. Dans la fenêtre qui s&#39;ouvre, sélectionnez **[!UICONTROL Schéma de la base]**.
 1. Sélectionnez **Destinataires** en tant que dimensions de ciblage et de filtrage.
-1. Sélectionnez le champ d&#39;identification des doublons **[!UICONTROL Email]** afin de n&#39;envoyer la diffusion qu&#39;une seule fois par adresse mail, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez le champ d’identification des doublons **[!UICONTROL E-mail]** afin de n’envoyer la diffusion qu’une seule fois par adresse mail, puis cliquez sur **[!UICONTROL Suivant]**.
 
    Si vous souhaitez baser l&#39;identification des doublons sur un champ précis, sélectionnez **[!UICONTROL Autre]** afin d&#39;accéder à la liste des champs disponibles.
 
@@ -140,7 +140,7 @@ Lors de l&#39;exécution du workflow, les destinataires identifiés comme étant
 
 La fonctionnalité **[!UICONTROL Fusion]** permet de configurer un ensemble de règles pour que la déduplication définisse un champ ou un groupe de champs à fusionner dans un seul enregistrement de données obtenu.
 
-Par exemple, avec un ensemble d’enregistrements dupliqués, vous pouvez choisir de conserver le numéro de téléphone le plus ancien ou le nom le plus récent.
+Par exemple, avec un ensemble d’enregistrements en double, vous pouvez choisir de conserver le numéro de téléphone le plus ancien ou le nom le plus récent.
 
 Un cas pratique exploitant cette fonctionnalité est disponible dans [cette section](deduplication-merge.md).
 
@@ -165,16 +165,16 @@ Pour ce faire, procédez comme suit :
 ## Paramètres d&#39;entrée {#input-parameters}
 
 * tableName
-* schema
+* schéma
 
 Chacun des événements entrants doit spécifier une cible définie par ces paramètres.
 
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schema
+* schéma
 * recCount
 
-Ce triplet de valeurs identifie la cible résultant de la déduplication. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
+Ce triplet de valeurs identifie la cible résultant de la déduplication. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
 
 La transition associée au complémentaire possède les mêmes paramètres.

@@ -4,12 +4,12 @@ title: Créer des adresses de contrôle
 description: Découvrez comment créer et utiliser des adresses de contrôle.
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Seed Address
-role: User, Data Engineer
+role: User, Developer
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign permet également de créer des modèles dʼadresses de contrôl
 Pour créer des adresses de contrôle, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des adresses de contrôle.
-1. Saisissez les données associées à l&#39;adresse dans les champs correspondants de l&#39;onglet **[!UICONTROL Destinataire]**. Les champs disponibles correspondent aux champs standards dans les profils des destinataires de la diffusion (nms:recipient table) : nom, prénom, email, etc.
+1. Saisissez les données associées à l&#39;adresse dans les champs correspondants de l&#39;onglet **[!UICONTROL Destinataire]**. Les champs disponibles correspondent aux champs standards des profils des destinataires des diffusions (nms:recipient tableau) : nom, prénom, e-mail, etc.
 
    >[!NOTE]
    >
@@ -36,7 +36,7 @@ Pour créer des adresses de contrôle, procédez comme suit :
 
    ![](assets/s_ncs_user_seedlist_new_address.png)
 
-1. Indiquez dans l’onglet **[!UICONTROL Champs de l’adresse]** les valeurs qui seront insérées dans les logs de diffusion lors de la phase d’analyse (dans la table **[!UICONTROL nms:broadLog]**).
+1. Indiquez dans l’onglet **[!UICONTROL Champs de l’adresse]** les valeurs qui seront insérées dans les logs de diffusion lors de la phase d’analyse (dans la table **[!UICONTROL nms:broadLog]** ).
 
 1. Dans l&#39;onglet **[!UICONTROL Données additionnelles]**, renseignez les données de personnalisation utilisées pour les diffusions créées dans les workflows Data management et auxquelles vous souhaitez affecter une valeur spécifique.
 

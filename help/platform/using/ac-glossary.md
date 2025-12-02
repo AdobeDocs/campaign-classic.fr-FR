@@ -3,11 +3,11 @@ product: campaign
 title: Glossaire pour Adobe Campaign
 description: Glossaire pour Adobe Campaign
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '6197'
 ht-degree: 100%
 

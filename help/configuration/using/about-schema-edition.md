@@ -3,12 +3,12 @@ product: campaign
 title: À propos de l’édition de schéma
 description: Prise en main de l’édition de schéma
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '1013'
-ht-degree: 100%
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
+source-wordcount: '1012'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Pour une meilleure compréhension des tables intégrées de Campaign et de leur 
 
 ## Extension ou création de schémas {#extending-or-creating-schemas}
 
-Pour ajouter un champ, un index ou tout autre élément à l&#39;un des schémas d&#39;usine d&#39;Adobe Campaign, comme la table des destinataires (nms:recipient), vous devez étendre ce schéma. Voir à ce sujet la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md).
+Pour ajouter un champ, un index ou tout autre élément à l&#39;un des principaux schémas de données de Campaign, comme la table des destinataires (nms:recipient), vous devez étendre ce schéma. Voir à ce sujet la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md).
 
 Pour ajouter un nouveau type de données qui n&#39;existe pas par défaut dans Adobe Campaign (une table des contrats par exemple), vous pouvez directement créer un schéma personnalisé. Voir à ce sujet la section [Schémas de données](../../configuration/using/data-schemas.md).
 
@@ -133,7 +133,7 @@ La liste complète des attributs est disponible dans la section [`<attribute>`El
 * **@xml**
 * **@type**
 
-  Pour obtenir le tableau répertoriant les correspondances des types de données générés par Adobe Campaign pour les différents systèmes de gestion de base de données, consultez la section [Correspondance des types de données Adobe Campaign/SGBD](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
+  Pour obtenir le tableau répertoriant les mappings des types de données générés par Adobe Campaign pour les différents systèmes de gestion de base de données, consultez la section [Mapping des types de données Adobe Campaign/SGBD](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
 
 Pour en xavoir plus sur chaque attribut, consultez la section [Description des attributs](../../configuration/using/schema/attribute.md).
 
@@ -203,7 +203,7 @@ Exemple d&#39;une jointure externe entre la table des destinataires et une table
 
 ## Journal d’audit {#audit-trail}
 
-Il peut être utile d&#39;ajouter à la fin de votre schéma un élément de suivi.
+Il peut être utile d’ajouter à la fin de votre schéma un élément de suivi (Journal d’audit).
 
 Procédez comme dans l&#39;exemple ci-dessous pour inclure les champs relatifs à la date de création, à l&#39;utilisateur qui a créé la donnée, à la date et à l&#39;auteur de la dernière modification pour toutes les données de votre table :
 

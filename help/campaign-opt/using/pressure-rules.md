@@ -2,13 +2,13 @@
 product: campaign
 title: Règles de pression
 description: Découvrez comment utiliser les règles de pression dans Adobe Campaign
-role: User, Data Engineer
+role: User, Developer
 feature: Fatigue Management, Typology Rules, Campaigns
 hide: true
 hidefromtoc: true
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '3512'
 ht-degree: 100%
 

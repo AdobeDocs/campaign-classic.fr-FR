@@ -3,12 +3,12 @@ product: campaign
 title: À propos des services web
 description: À propos des services web
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 100%
+source-wordcount: '644'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Les API Adobe Campaign sont utilisées dans l’application avec JavaScript et 
 >[!IMPORTANT]
 >
 >Le nombre d&#39;appels de moteur autorisé par jour varie selon votre contrat de licence. Pour plus d’informations, consultez [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-classic---product-description.html).\
->Retrouvez la liste de toutes les API, ainsi que leur description complète, dans [cette documentation dédiée](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr).
+>Retrouvez la liste de toutes les API, ainsi que leur description complète, dans [cette documentation dédiée]&#x200B;(https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr).
 
 ## Conditions préalables {#prerequisites}
 
@@ -65,7 +65,7 @@ Le schéma suivant montre les différentes ressources interagissant dans l&#39;u
 
 Dans cet exemple, une requête SOAP invoque la méthode &quot;ExecuteQuery&quot; qui prend en paramètre une chaîne de caractères pour l&#39;authentification (token de session) et un contenu XML pour la description de la requête à exécuter.
 
-Pour plus d’informations, voir la section [ExecuteQuery (xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-).
+Pour plus d’informations, consultez la section [ExecuteQuery (xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-).
 
 >[!NOTE]
 >

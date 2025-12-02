@@ -3,12 +3,12 @@ product: campaign
 title: Mode de tracking web
 description: Découvrez comment sélectionner le mode de tracking web
 feature: Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 100%
+source-wordcount: '681'
+ht-degree: 97%
 
 ---
 
@@ -80,7 +80,7 @@ Ce mode est le plus coûteux en calcul comme en volume.
 
 >[!NOTE]
 >
->Si le package **[!UICONTROL Leads]** est installé, vous devez faire de même pour la table des activités (**crm:incomingLead**).
+>Si le package **[!UICONTROL Leads]** est installé, vous devez effectuer la même opération pour la table d’activité (**crm:incomingLead**)
 
 Le schéma suivant regroupe les différentes fonctionnalités des trois modes de tracking Web:
 

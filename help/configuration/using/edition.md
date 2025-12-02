@@ -3,9 +3,9 @@ product: campaign
 title: Modifier l'arborescence de navigation de l'Explorateur Campaign
 description: Modifier l'arborescence de navigation de l'Explorateur Campaign
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 100%

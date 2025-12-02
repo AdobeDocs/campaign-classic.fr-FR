@@ -3,12 +3,12 @@ product: campaign
 title: Appels Web Service
 description: Appels Web Service
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 98%
+source-wordcount: '918'
+ht-degree: 92%
 
 ---
 
@@ -51,9 +51,9 @@ La présence de l&#39;attribut &quot;static&quot; (avec la valeur &quot;true&quo
 
 Une méthode de type &quot;const&quot; possède implicitement en entrée un document XML au format de son schéma associé.
 
-Une description complète de l&#39;élément `<method>` d&#39;un schéma Adobe Campaign figure dans la section [Méthode &#x200B;](../../configuration/using/schema/method.md) du chapitre « Référence des schémas ».
+Une description complète de l&#39;élément `<method>` d&#39;un schéma Adobe Campaign figure dans la section [Méthode ](../../configuration/using/schema/method.md) du chapitre « Référence des schémas ».
 
-Exemple de la méthode &quot;ExecuteQuery&quot; de type &quot;const&quot; à partir du schéma &quot;xtk:queryDef&quot; :
+Exemple de la méthode « ExecuteQuery » de type « const » à partir du schéma « xtk:queryDef » :
 
 ```
 <method name="ExecuteQuery" const="true">
@@ -64,7 +64,7 @@ Exemple de la méthode &quot;ExecuteQuery&quot; de type &quot;const&quot; à par
 </method>
 ```
 
-Le paramètre en entrée de cette méthode est un document XML au format du schéma &quot;xtk:queryDef&quot;.
+Le paramètre d&#39;entrée de cette méthode est un document XML au format du schéma « xtk:queryDef ».
 
 ## Description des services Web : WSDL {#web-service-description--wsdl}
 
@@ -79,7 +79,7 @@ https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 Avec :
 
 * **`<server>`** : le serveur applicatif Adobe Campaign (nlserver web)
-* **`<schema>`** : la clé d&#39;identification du schéma (namespace:nom_du_schéma)
+* **`<schema>`** : clé d&#39;identification du schéma (espace de noms:schema_name)
 
 ### Exemple sur la méthode &#39;ExecuteQuery&#39; du schéma &#39;xtk:queryDef&#39; {#example-on-the--executequery--method-of-schema--xtk-querydef-}
 
@@ -91,7 +91,7 @@ Une description WSDL définit d’abord les types utilisés pour former des mess
 
 #### Types {#types}
 
-Les définitions de type reposent sur des schémas XML. Dans notre exemple, la méthode &quot;ExecuteQuery&quot; utilise comme paramètres une chaîne &quot;s:string&quot; et un document XML (`<s:complextype>`). La valeur renvoyée par la méthode (&quot;ExecuteQueryResponse&quot;) est un document XML (  `<s:complextype>`).
+Les définitions de type reposent sur des schémas XML. Dans notre exemple, la méthode « ExecuteQuery » prend une chaîne « s:string » et un document XML (`<s:complextype>`) comme paramètres. La valeur renvoyée par la méthode (&quot;ExecuteQueryResponse&quot;) est un document XML (  `<s:complextype>`).
 
 ```
 <types>

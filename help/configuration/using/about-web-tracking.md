@@ -3,9 +3,9 @@ product: campaign
 title: À propos du tracking web
 feature: Configuration, Instance Settings
 description: À propos du tracking web
-role: User, Data Engineer, Developer
+role: User, Developer
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%

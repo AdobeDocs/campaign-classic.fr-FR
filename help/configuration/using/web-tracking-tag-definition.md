@@ -3,10 +3,10 @@ product: campaign
 title: Définition de la balise de tracking web
 description: Définition de la balise de tracking web
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 100%
 

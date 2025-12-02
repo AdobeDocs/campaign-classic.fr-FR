@@ -3,12 +3,12 @@ product: campaign
 title: Nouvel assistant d’ajout de champs
 description: Nouvel assistant d’ajout de champs
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
-source-git-commit: ec774cc10a69a694b3c2bf5a6f662afd12a1435a
-workflow-type: ht
-source-wordcount: '206'
-ht-degree: 100%
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ Les écrans de l’assistant contiennent les étapes suivantes :
 
 1. Pour valider les modifications, cliquez sur le bouton **[!UICONTROL Terminer]**.
 
-Un fichier d&#39;extension de nom &quot;cus:recipient&quot; dans notre exemple, est automatiquement créé et le script SQL correspondant exécuté :
+Un fichier d&#39;extension, nommé dans notre exemple « cus:recipient, est automatiquement créé et le script SQL correspondant exécuté :
 
 ```
 <srcSchema extendedSchema="nms:recipient" label="Recipients" name="recipient"  namespace="cus">  

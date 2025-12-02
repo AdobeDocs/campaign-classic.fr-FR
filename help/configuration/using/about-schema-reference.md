@@ -3,13 +3,13 @@ product: campaign
 title: Prise en main des schémas dans Adobe Campaign
 description: Découvrez comment utiliser les schémas et étendre le modèle de données conceptuel de la base de données Adobe Campaign
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 level: Intermediate, Experienced
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
+source-wordcount: '368'
+ht-degree: 93%
 
 ---
 
@@ -74,7 +74,7 @@ Un schéma de données est identifié par son nom et son espace de noms.
 
 Un espace de noms vous permet de regrouper un ensemble de schémas par domaine d’intérêt. Par exemple, l’espace de noms **cus** est utilisé pour la configuration spécifique aux clientes et clients (**clients**).
 
-La clé d&#39;identification d&#39;un schéma est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39;, par exemple **cus:recipient**.
+La clé d&#39;identification d&#39;un schéma est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39; (par exemple : **cus:recipient**.
 
 >[!IMPORTANT]
 >

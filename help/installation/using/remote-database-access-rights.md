@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 100%
+source-wordcount: '932'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Tout d&#39;abord, afin qu&#39;un utilisateur puisse effectuer des opérations su
 
 1. Sélectionnez le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;explorateur Adobe Campaign.
 1. Créez un nouveau droit en indiquant le libellé de votre choix.
-1. Le champ **[!UICONTROL Nom]** doit être de la forme suivante : **user:base@server**, où :
+1. Le champ **[!UICONTROL Name]** doit être de la forme suivante **user:base@server**, où :
 
    * **user** correspond au nom de l&#39;utilisateur sur la base de données externe.
    * **base** correspond au nom de la base de données externe.
@@ -30,7 +30,7 @@ Tout d&#39;abord, afin qu&#39;un utilisateur puisse effectuer des opérations su
 
      >[!NOTE]
      >
-     >La partie **:base** est optionnelle sur Oracle.
+     >La partie **:base** est facultative dans Oracle.
 
 1. Enregistrez le droit nommé puis associez-le à l&#39;utilisateur de votre choix à partir du noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l&#39;explorateur Adobe Campaign.
 
@@ -75,5 +75,5 @@ L’administrateur de la base de données doit mettre en correspondance ces droi
 | **Surveillance des exécutions** | Aucun privilège requis pour utiliser l’instruction EXPLAIN | Privilège SELECT | Seul un administrateur système peut exécuter sp_showplan | Aucun privilège requis pour utiliser l’instruction EXPLAIN | Aucun privilège requis pour utiliser l’instruction EXPLAIN |
 | **Écriture de données** | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE | Autorisations INSERT et UPDATE | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE |
 | **Chargement de données dans des tables** | Privilèges SELECT et INSERT pour utiliser respectivement les instructions COPY TO et COPY FROM | Privilège FILE | Être propriétaire de la table ou autorisation ALTER. Selon l’option -gl, LOAD TABLE ne peut être exécutée que si l’utilisateur dispose de l’autorité DBA | Privilèges SELECT et INSERT | Privilèges SELECT et INSERT |
-| **Accès aux données clientes** | Privilège SELECT | Autorisation SELECT | Privilège SELECT | Privilège SELECT |
+| **Accès aux données clientes** | Privilège SELECT | Autorisation SELECT | Privilège SELECT | Privilège SELECT |  |
 | **Accès aux métadonnées** | Privilège SHOW | Privilège SELECT | Aucune autorisation requise pour utiliser l’instruction DESCRIBE | Aucun privilège requis pour utiliser la commande &quot;\d table&quot; | Aucun privilège requis pour utiliser la commande SHOW |

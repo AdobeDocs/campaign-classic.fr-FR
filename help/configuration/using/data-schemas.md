@@ -3,9 +3,9 @@ product: campaign
 title: Schémas de données
 description: Prise en main des schémas de données de Campaign
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Pour modifier, créer et paramétrer les schémas, cliquez sur le nœud **[!UICO
 
 >[!NOTE]
 >
->Les schémas de données prédéfinis peuvent uniquement être supprimés par un administrateur de votre console Adobe Campaign Classic.
+>Les schémas de données natifs peuvent uniquement être supprimés par un administrateur ou une administratrice de votre console Adobe Campaign Classic.
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 

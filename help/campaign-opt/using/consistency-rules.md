@@ -2,13 +2,13 @@
 product: campaign
 title: Règles de cohérence
 description: Découvrez comment utiliser les règles de cohérence dans Adobe Campaign
-role: User, Data Engineer
+role: User, Developer
 feature: Typology Rules, Campaigns
 hide: true
 hidefromtoc: true
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Avant de diffuser des messages, vous devez vous assurer que votre organisation a
 
 Pour cela, vous devez créer des règles de typologie de type **[!UICONTROL Capacité]**.
 
-Dans l&#39;exemple suivant, nous allons créer une règle de typologie pour une campagne de fidélisation par téléphone. Elle permettra de limiter le nombre de messages à 20 par jour, c&#39;est-à-dire la capacité de traitement des appels par un centre d&#39;appels. Cette règle sera ensuite appliquée à deux diffusions afin de suivre son effet par le biais des logs.
+Dans l’exemple suivant, nous allons créer une règle de typologie pour une campagne de fidélisation par téléphone. Elle permettra de limiter le nombre de messages à 20 par jour, c’est-à-dire la capacité de traitement des appels par un centre d’appels. Cette règle sera ensuite appliquée à deux diffusions afin de suivre son effet par le biais des logs.
 
 Pour créer une règle de capacité, procédez comme suit :
 

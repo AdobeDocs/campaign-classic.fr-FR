@@ -3,9 +3,9 @@ product: campaign
 title: Protocole et paramètres du connecteur SMS
 description: En savoir plus sur le connecteur SMS et comment le configurer
 feature: SMS
-role: Developer, Data Engineer
+role: Developer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '8457'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Dans ce document, toutes les références au protocole, aux noms de champs et aux valeurs se rapportent à la [spécification SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+>Dans ce document, toutes les références au protocole, aux noms de champ et aux valeurs se rapportent à la [spécification SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 >
 
 ## Vue d&#39;ensemble {#overview}
@@ -103,7 +103,7 @@ Par exemple, lors de l&#39;envoi d&#39;un MT, la connexion de l&#39;émetteur es
 
 Dans Adobe Campaign Classic, pour lier un SR à son MT correspondant, un identifiant est renvoyé par le SMSC avec les étapes `SUBMIT_SM_RESP` et `DELIVER_SM`. L&#39;identifiant est stocké dans le champ `providerId` de la table `nms::providerMsgId` et est lié à `broadLogId` et `deliveryId`. Cette opération de correspondance est effectuée par le processus SMS lors de l&#39;écriture dans la base de données.
 
-Un `SUBMIT_SM_RESP PDU` réussi déclenche le statut du message &quot;envoyé&quot; dans le journal d&#39;envoi tandis qu&#39;un `DELIVER_SM (SR) PDU` réussi déclenche le statut du message &quot;reçu&quot;.
+Un `SUBMIT_SM_RESP PDU` réussi déclenche le statut du message &quot;envoyé&quot; dans le log d&#39;envoi tandis qu&#39;un `DELIVER_SM (SR) PDU` réussi déclenche le statut du message &quot;reçu&quot;.
 
 ### Aspects liés à la sécurité {#security-aspects}
 
@@ -266,7 +266,7 @@ Comme mentionné ci-dessus, il existe deux types d&#39;erreurs :
 * réponses synchrones dans le `SUBMIT_SM_RESP` qui surviennent immédiatement après l&#39;envoi du message au SMSC
 * accusés de réception qui peuvent s&#39;afficher beaucoup plus tard lorsque le mobile a reçu le message ou lorsque le message a expiré. Dans ce cas, l&#39;erreur se trouve dans un SR.
 
-Lorsqu&#39;un SR est reçu, le statut et l&#39;erreur se trouvent dans son champ `short_message` (exemple pour les mises en œuvre conformes à l&#39;Annexe B). Le champ `short_message` du PDU est souvent appelé le **champ de texte**, car il contient du texte en MT. En cas de SR, il contient des informations techniques ainsi qu&#39;un sous-champ nommé **Texte**. Ces deux champs sont différents et `short_message` contiennent en fait le champ **Texte** et d&#39;autres informations.
+Lorsqu&#39;un SR est reçu, le statut et l&#39;erreur se trouvent dans son champ `short_message` (exemple pour les mises en œuvre conformes à l&#39;Annexe B). Le champ `short_message` du PDU est souvent appelé le **champ de texte**, car il contient du texte en MT. En cas de SR, il contient des informations techniques ainsi qu’un sous-champ nommé **Texte**. Ces deux champs sont différents et `short_message` contiennent en fait le champ **Texte** et d&#39;autres informations.
 
 Les connecteurs Adobe Campaign Classic (à l&#39;exception de l&#39;option SMPP étendu) utilisent un comportement codé en dur qui dépend du fournisseur sélectionné. Le SMPP générique ne fait que distinguer la réussite de l&#39;erreur, sans aucun détail. Le log de diffusion peut contenir certaines informations qui ne sont pas garanties.
 
@@ -513,7 +513,7 @@ Exemple de transmission avec une fenêtre maximale de 4 :
 ![](assets/do-not-localize/sms_protocol_2.png)
 
 La fenêtre permet d&#39;augmenter le débit lorsque la liaison réseau présente une latence élevée.  La valeur de la fenêtre doit être au moins égale au nombre de SMS/s multiplié par la latence du lien en secondes, de sorte que le connecteur n&#39;attend jamais un `SUBMIT_SM_RESP` avant d&#39;envoyer le message suivant.
-Si la fenêtre est trop grande, vous pouvez envoyer plus de messages en doublons en cas de problème de connexion. En outre, la plupart des fournisseurs ont une limite très stricte pour la fenêtre et refusent les messages qui dépassent la limite.
+Si la fenêtre est trop grande, vous pouvez envoyer plus de messages en double en cas de problème de connexion. En outre, la plupart des fournisseurs ont une limite très stricte pour la fenêtre et refusent les messages qui dépassent la limite.
 
 Comment calculer la formule optimale de la fenêtre d&#39;émission :
 
@@ -652,7 +652,7 @@ Par défaut, il capture jusqu&#39;à 10 caractères alphanumériques après `id
 
 L&#39;expression régulière doit comporter exactement un groupe de capture avec une partie entre parenthèses. Les parenthèses doivent entourer la partie ID. Le format d&#39;expression régulière est PCRE.
 
-Lors de la modification de ce paramètre, veillez à inclure le plus de contexte possible pour éviter les faux triggers. S&#39;il existe des préfixes spécifiques, tels que `id:` dans la norme, incluez-les dans l&#39;expression régulière. Utilisez également autant que possible des délimiteurs de mots (\b) pour éviter de capturer du texte au milieu d&#39;un mot.
+Lors de la modification de ce paramètre, veillez à inclure le plus de contexte possible pour éviter les faux déclencheurs. S&#39;il existe des préfixes spécifiques, tels que `id:` dans la norme, incluez-les dans l&#39;expression régulière. Utilisez également autant que possible des délimiteurs de mots (\b) pour éviter de capturer du texte au milieu d&#39;un mot.
 
 Ne pas inclure suffisamment de contexte dans l&#39;expression régulière peut introduire un petit défaut de sécurité : le contenu réel du message peut être inclus dans le SR. Si vous ne faites correspondre qu&#39;un format d&#39;ID spécifique sans contexte, par exemple un UUID, il se peut qu&#39;il analyse le contenu du texte réel, par exemple un UUID incorporé dans le champ de texte, au lieu de l&#39;ID.
 
@@ -736,7 +736,7 @@ La colonne **Action supplémentaire** fournit une action supplémentaire lorsque
 
 >[!IMPORTANT]
 >
->Le paramètre d&#39;envoi du numéro de téléphone complet a un impact sur le comportement du mécanisme de quarantaine de réponse automatique : si l&#39;envoi du numéro de téléphone complet n&#39;est pas vérifié, le numéro de téléphone mis en quarantaine sera précédé d&#39;un signe plus (&quot;+&quot;) afin de le rendre compatible avec le format de numéro de téléphone international.
+>Le paramètre d’envoi du numéro de téléphone complet a un impact sur le comportement du mécanisme de quarantaine de réponse automatique : si l’envoi du numéro de téléphone complet n’est pas vérifié, le numéro de téléphone mis en quarantaine sera précédé d’un signe plus (« + ») afin de le rendre compatible avec le format de numéro de téléphone international.
 
 Toutes les entrées du tableau sont traitées dans l&#39;ordre spécifié, jusqu&#39;à ce qu&#39;une règle corresponde. Si plusieurs règles correspondent à un MO, seule la règle la plus élevée est appliquée.
 
@@ -837,13 +837,13 @@ Même si vous ne pouvez pas vérifier vous-même les logs, il sera plus facile p
 Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d&#39;envoyer des messages avec autant de caractères différents que possible. Si vous définissez un tableau de mapping de caractères personnalisé, envoyez au moins un SMS pour toutes les valeurs `data_coding` possibles.
 
 * **Vérifier que les SR sont correctement traités**
-Le SMS doit être marqué comme reçu dans le log de diffusion. Le journal de diffusion ne doit pas rencontrer de problème et se présenter comme suit :
+Le SMS doit être marqué comme reçu dans le log de diffusion. Le log de diffusion ne doit pas rencontrer de problème et se présenter comme suit :
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Vérifiez que vous avez modifié le nom du fournisseur de diffusions. Le log de diffusion ne doit jamais contenir **SR Generic** sur les environnements de production.
 
 * **Vérifier que les MO sont traités**
 Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.), essayez de procéder à des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
-Archivez le journal auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` réussi (command_status=0).
+Archivez le log auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` réussi (command_status=0).
 
 ### Vérifier les PDU {#check-pdus}
 
@@ -863,7 +863,7 @@ Vérifiez que les `ENQUIRE_LINK PDU` sont échangés régulièrement lorsque la 
 
 **SUBMIT_SM / DELIVER_SM**
 
-Envoyez un message, puis recherchez dans les journaux les `SUBMIT_SM`, `SUBMIT_SM_RESP`, `DELIVER_SM` et `DELIVER_SM_RESP PDU` correspondants.
+Envoyez un message, puis recherchez dans les logs les `SUBMIT_SM`, `SUBMIT_SM_RESP`, `DELIVER_SM` et `DELIVER_SM_RESP PDU` correspondants.
 
 Avec le `SUBMIT_SM PDU` :
 
@@ -894,4 +894,4 @@ Même si votre SMS réussit, contactez le fournisseur pour voir si tout est en o
 
 ### Désactiver les traces SMPP de verbose {#disable-verbose}
 
-Une fois toutes les vérifications terminées, la dernière chose à faire est de **désactiver les traces SMPP de verbose** pour ne pas générer trop de journaux. Vous pouvez les réactiver à des fins de résolution des problèmes, même sur les systèmes de production.
+Une fois toutes les vérifications terminées, la dernière chose à faire est de **désactiver les traces SMPP de verbose** pour ne pas générer trop de logs. Vous pouvez les réactiver à des fins de résolution des problèmes, même sur les systèmes de production.

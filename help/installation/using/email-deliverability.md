@@ -8,8 +8,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '3163'
 ht-degree: 100%
 
@@ -135,7 +135,7 @@ Par défaut, le serveur de statistiques écoute sur le port 7777. Ce port peut �
 
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les règles de débit de diffusion avec **[!UICONTROL Gestion des MX]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les règles de débit de diffusion avec **[!UICONTROL Gestion des MX]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de vos historiques de réputation de diffusion d’e-mails et des retours en temps réel issus de domaines auxquels vous envoyez des e-mails.
 
 ### À propos des règles MX {#about-mx-rules}
 
@@ -395,14 +395,14 @@ Les paramètres sont les suivants :
 
 Dans l&#39;exemple précédent, en condition normale, les adresses seront utilisées selon la répartition suivante :
 
-    * &quot;1&quot;: 5 / (5+5+1) = 45 %
-    * &quot;2&quot;: 5 / (5+5+1) = 45 %
-    * &quot;3&quot;: 1 / (5+5+1) = 10 %
+* &quot;1&quot;: 5 / (5+5+1) = 45%
+* &quot;2&quot;: 5 / (5+5+1) = 45%
+* &quot;3&quot;: 1 / (5+5+1) = 10%
 
 Si, par exemple, la première adresse est inutilisable vers un MX donné, les messages seront envoyés en utilisant la répartition suivante :
 
-    * &quot;2&quot;: 5 / (5+1) = 83 %
-    * &quot;3&quot;: 1 / (5+1) = 17 %
+* &quot;2&quot;: 5 / (5+1) = 83%
+* &quot;3&quot;: 1 / (5+1) = 17%
 
 * **includeDomains** : permet de réserver cette adresse IP aux e-mails appartenant à un domaine particulier. Liste de masques pouvant contenir un ou plusieurs caractères génériques (« &#42; »). Si l&#39;attribut n&#39;est pas renseigné, tous les domaines peuvent utiliser cette adresse IP.
 

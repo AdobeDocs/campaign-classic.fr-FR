@@ -3,12 +3,12 @@ product: campaign
 title: Modification de formulaires
 description: Modification de formulaires
 feature: Configuration
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
+source-wordcount: '1736'
 ht-degree: 100%
 
 ---

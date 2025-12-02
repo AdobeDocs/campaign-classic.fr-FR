@@ -3,21 +3,21 @@ product: campaign
 title: Gestion des rapports
 description: Gestion des rapports
 feature: Reporting, Configuration
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 73%
 
 ---
 
-# Gestion des rapports{#managing-reports}
+# Gérer des rapports{#managing-reports}
 
 
 
-Les rapports se basant sur un schéma spécifique aux destinataires par défaut d&#39;Adobe Campaign (nms:recipient ou schéma lié) doivent être redéveloppés afin de prendre en compte les données de la table personnalisée et de ses tables liées via le mapping de ciblage (voir la section [Mapping de ciblage](../../configuration/using/target-mapping.md)).
+Les rapports basés sur un schéma spécifique aux destinataires Adobe Campaign par défaut (nm:recipient ou schémas associés) doivent être ré-développés afin de prendre en compte les données de la table personnalisée et de ses tables liées via le mapping de ciblage (voir la section [Mapping de ciblage](../../configuration/using/target-mapping.md) ).
 
 Pour créer des rapports, voir [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 

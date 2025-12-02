@@ -3,10 +3,10 @@ product: campaign
 title: Description du modèle de données d’Adobe Campaign Classic
 description: Ce document décrit le modèle de données d’Adobe Campaign
 feature: Data Model
-role: Data Engineer, Developer
+role: Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '2359'
 ht-degree: 100%
 

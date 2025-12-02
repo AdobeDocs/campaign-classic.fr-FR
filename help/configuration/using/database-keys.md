@@ -3,10 +3,10 @@ product: campaign
 title: Gestion des clés dans les schémas de données
 description: Comprendre la gestion des clés dans les schémas de données
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 100%
 

@@ -3,10 +3,10 @@ product: campaign
 title: Caractéristiques du schéma
 description: Caractéristiques du schéma
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
@@ -57,7 +57,7 @@ Lorsque les tableaux sont créés par l’assistant de mise à jour de tableau, 
 
 Dans cet exemple, si les noms des tables et des colonnes n&#39;avaient pas été explicitement précisés, l&#39;application aurait utilisé **CusIndividual** pour la table, **lastName** et **firstName** pour les colonnes.
 
-Il n&#39;est pas nécessaire de renseigner toutes les colonnes de la table externe, les colonnes non-renseignées ne seront pas accessibles à l&#39;utilisateur.
+Dans un schéma, il est possible de ne renseigner qu’une partie des colonnes d’une table existante. Les colonnes non renseignées ne seront pas accessibles aux utilisateurs et utilisatrices.
 
 ## Champs indexés {#indexed-fields}
 

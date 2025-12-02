@@ -3,9 +3,9 @@ product: campaign
 title: Insertion de balises de tracking web sur votre site
 description: Découvrez comment insérer des balises de tracking web sur votre site
 feature: Configuration
-role: Data Engineer, Developer
+role: Developer
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%

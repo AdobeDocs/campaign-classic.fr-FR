@@ -3,9 +3,9 @@ product: campaign
 title: Structure d’un schéma de données
 description: Structure d’un schéma de données
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 exl-id: 86036f2f-ec7c-413e-b1e1-10a71a06cd6d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%

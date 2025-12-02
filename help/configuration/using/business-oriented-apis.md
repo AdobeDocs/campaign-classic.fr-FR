@@ -3,12 +3,12 @@ product: campaign
 title: API orientées métier
 description: API orientées métier
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '618'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ Les API métier sont spécifiques à chaque type d&#39;objet. Elles agissent sur
 
 * Diffusions :
 
-   * créer une action de diffusion, voir la section [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
+   * Lors de la création d&#39;une diffusion, voir [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-)
    * envoyer une campagne (démarrer, mettre en pause, arrêter, envoyer un BAT),
    * récupérer les logs de diffusion.
 
@@ -30,7 +30,7 @@ Les API métier sont spécifiques à chaque type d&#39;objet. Elles agissent sur
      Pour plus d&#39;informations, consultez la section [Méthodes SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Gestion de contenu
-* Gestion des abonnements, voir les sections [Subscribe (nms:subscription)](#subscribe--nms-subscription-) et [Unsubscribe (nms:subscription)](#unsubscribe--nms-subscription-).
+* La gestion des abonnements, consultez les sections [S’abonner (nms:subscription)](#subscribe--nms-subscription-) et [Se désabonner (nms:subscription)](#unsubscribe--nms-subscription-).
 * Les traitements sur les données : imports, exports.
 
 Cette section montre comment utiliser les services &quot;Subscribe&quot;, &quot;Unsubscribe&quot; et &quot;SubmitDelivery&quot;.
@@ -39,7 +39,7 @@ Cette section montre comment utiliser les services &quot;Subscribe&quot;, &quot;
 >
 >La [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr) contient des informations supplémentaires sur les appels SOAP et l’utilisation de Javascript dans Adobe Campaign ainsi qu’une référence complète de toutes les méthodes et fonctions utilisées dans l’application.
 
-## Subscribe (nms:subscription) {#subscribe--nms-subscription-}
+## S’abonner (nms:subscription) {#subscribe--nms-subscription-}
 
 Ce service permet d&#39;inscrire un destinataire à un service d&#39;information et de mettre à jour son profil.
 
@@ -47,10 +47,10 @@ L&#39;invocation du service nécessite les paramètres suivants :
 
 * une authentification,
 * le nom interne du service d&#39;abonnement,
-* un document XML contenant les informations du destinataire (de schéma &quot;nms:recipient&quot;).
+* un document XML contenant les informations du destinataire (du schéma « nms:recipient »),
 * un booléen pour la création du destinataire s&#39;il n&#39;existe déjà pas.
 
-Description de la méthode &quot;subscribe&quot; dans le schéma &quot;nms:subscription&quot; :
+Description de la méthode « subscribe » dans le schéma « nms:subscription » :
 
 ```
 <method name="Subscribe" static="true">
@@ -120,9 +120,9 @@ L&#39;invocation du service nécessite les paramètres suivants :
 
 * une authentification,
 * le nom interne du service à désabonner,
-* un document XML contenant les informations du destinataire (de schéma &quot;nms:recipient&quot;).
+* un document XML contenant les informations du destinataire (du schéma « nms:recipient »),
 
-Description de la méthode &quot;Unsubscribe&quot; dans le schéma &quot;nms:subscription&quot; :
+Description de la méthode « Unsubscribe » dans le schéma « nms:subscription » :
 
 ```
 <method name="Unsubscribe" static="true">
@@ -198,7 +198,7 @@ Description de la méthode dans son schéma :
 
 Un modèle de diffusion doit être créé à partir de la console cliente Adobe Campaign, il contient les paramètres communs à tous les envois (adresse de l&#39;expéditeur ou la durée de validité du message).
 
-Le document XML en entrée est un fragment de modèle de diffusion respectant la structure du schéma &quot;nms:delivery&quot;. Celui-ci va contenir toutes les données complémentaires qui n&#39;ont pas pu être définies de façon statique dans le modèle de diffusion (par exemple la liste des destinataires à cibler).
+Le document XML en entrée est un fragment de modèle de diffusion respectant la structure du schéma « nms:delivery ». Il contiendra toutes les données additionnelles qui n&#39;ont pas pu être définies de manière statique dans le modèle de diffusion (par exemple, la liste des destinataires à cibler).
 
 Cet appel ne retourne pas de données, hormis les erreurs.
 

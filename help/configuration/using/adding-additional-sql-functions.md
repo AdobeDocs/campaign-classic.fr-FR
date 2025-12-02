@@ -3,9 +3,9 @@ product: campaign
 title: Ajout dʼautres fonctions SQL
 description: Découvrez comment définir une autre fonction SQL.
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%
@@ -107,7 +107,7 @@ Ci-dessous l&#39;exemple d&#39;une fonction de &quot;pseudo-maturité&quot;, qui
 Le champ **@name** fait référence au nom de la fonction et « args » correspond à la liste des paramètres qui s’affichera dans la description. Dans ce cas, la fonction apparaît sous la forme « relativeMaturity ( `<age>` ) » dans la fenêtre de sélection de fonction.
 
 * **@help** est le champ qui est affiché en bas de la fenêtre d&#39;édition d&#39;expressions.
-* **@display** est informatif.
+* **@display** est un message informatif.
 
   >[!NOTE]
   >

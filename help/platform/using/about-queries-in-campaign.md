@@ -3,11 +3,11 @@ product: campaign
 title: À propos des requêtes dans Campaign
 description: À propos des requêtes dans Campaign
 feature: Query Editor
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 0bbe3bd199c664d30513a0c50203248d703451cd
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
 

@@ -3,12 +3,12 @@ product: campaign
 title: Filtrage des schémas
 description: Filtrage des schémas
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '382'
+ht-degree: 87%
 
 ---
 
@@ -97,7 +97,7 @@ Par défaut, les schémas intégrés ne sont accessibles avec les autorisations 
 
 >[!IMPORTANT]
 >
->Le schéma **xtk:sessionInfo** n’est accessible en lecture et en écriture que par le compte interne d’une instance Adobe Campaign.
+>Les autorisations en LECTURE et ÉCRITURE du schéma **xtk:sessionInfo** ne sont accessibles que par le compte interne d’une instance Adobe Campaign.
 
 ## Modification des filtres système des schémas intégrés {#modifying-system-filters-of-built-in-schemas}
 

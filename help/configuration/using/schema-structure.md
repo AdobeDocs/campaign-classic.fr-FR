@@ -3,14 +3,14 @@ product: campaign
 title: Comprendre la structure d'un schéma dans Adobe Campaign
 description: Structure d'un schéma
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 audience: configuration
 content-type: reference
 level: Intermediate, Experienced
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 100%
 
@@ -173,9 +173,9 @@ Notre schéma d&#39;exemple complété avec les types :
 </srcSchema>
 ```
 
-### Correspondance des types de données Adobe Campaign/SGBD {#mapping-the-types-of-adobe-campaign-dbms-data}
+### Mapping des types de données Adobe Campaign/SGBD {#mapping-the-types-of-adobe-campaign-dbms-data}
 
-Le tableau suivant répertorie les correspondances des types de données générés par Adobe Campaign pour les différents systèmes de gestion de base de données.
+Le tableau suivant répertorie les mappings pour les types de données générés par Adobe Campaign pour les différents systèmes de gestion de base de données.
 
 <table> 
  <tbody> 
@@ -318,7 +318,7 @@ Pour lier une valeur par défaut à un champ, vous pouvez utiliser le champ `<de
 
 ### Énumérations {#enumerations}
 
-#### Enumération ouverte {#free-enumeration}
+#### Énumération ouverte {#free-enumeration}
 
 La propriété **userEnum** permet de définir une énumération ouverte pour stocker et afficher les valeurs renseignées dans ce champ.
 
@@ -368,7 +368,7 @@ Les valeurs de l&#39;énumération sont déclarées dans l&#39;élément **`<val
 * **name** : nom de la valeur stockée en interne
 * **label** : libellé affiché dans l&#39;interface graphique
 
-#### Enumération dbenum {#dbenum-enumeration}
+#### Énumération dbenum {#dbenum-enumeration}
 
 * La propriété **dbenum** permet de définir une énumération dont les propriétés sont semblables à celles de la propriété **enum**.
 

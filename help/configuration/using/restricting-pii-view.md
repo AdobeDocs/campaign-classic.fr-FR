@@ -3,10 +3,10 @@ product: campaign
 title: Limitation de l'affichage des PI
 description: Découvrez comment limiter l'affichage des PI
 feature: PI
-role: Data Engineer, Developer
+role: Developer
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
-source-git-commit: e198defd60f4b12681025b04b12a1498df015047
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 100%
 

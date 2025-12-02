@@ -3,12 +3,12 @@ product: campaign
 title: Étapes de mise en place
 description: Etapes de mise en place
 feature: Configuration
-role: Data Engineer, Developer
+role: Developer
 exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 100%
+source-wordcount: '239'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ Il existe deux types de balises :
 Les étapes pour mettre en place ces balises sont les suivantes:
 
 1. Identifier les pages que vous souhaitez tracker et déterminer leur type (WEB ou TRANSACTION).
-1. Déterminer quelles informations supplémentaires vous souhaitez collecter et étendre le schéma **nms:webTrackingLog** avec la description de ces informations. Par défaut, ce schéma propose de stocker le montant des transactions et le nombre d&#39;articles par transaction.
+1. Déterminez les informations supplémentaires que vous souhaitez collecter et étendez le schéma **nms:webTrackingLog** avec la description de ces informations. Par défaut, ce schéma propose de stocker le montant des transactions et le nombre d&#39;articles par transaction.
 1. Créer les balises de tracking Web. Pour cela, deux méthodes sont possibles :
 
    * Insérer les URL correspondant à ces pages dans votre plateforme Adobe Campaign, puis générer et extraire les différentes balises de tracking Web associées (à partir du noeud **[!UICONTROL Ressources>On-line>Balises de tracking Web]** de la console cliente).

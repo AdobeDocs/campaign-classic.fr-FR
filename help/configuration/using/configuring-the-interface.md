@@ -3,11 +3,11 @@ product: campaign
 title: Configuration de l’interface
 description: Découvrez comment configurer lʼinterface de Campaign
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
 

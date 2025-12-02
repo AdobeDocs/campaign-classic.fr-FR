@@ -3,12 +3,12 @@ product: campaign
 title: Autres paramètres de tracking web
 description: En savoir plus sur les paramètres de tracking web
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ Votre plateforme Adobe Campaign propose en standard deux paramètres relatifs a
 * **amount** : représente le montant d&#39;une transaction,
 * **article** : représente le nombre d&#39;articles d&#39;une transaction.
 
-Ces paramètres sont définis dans le schéma **nms:webTrackingLog** et font partie des indicateurs visibles dans le reporting.
+Ces paramètres sont définis dans le schéma **nms:webTrackingLog** et sont certains des indicateurs présentés dans les rapports.
 
 Si vous souhaitez définir des paramètres supplémentaires, vous devrez étendre ce schéma.
 
@@ -66,7 +66,7 @@ webTrackingParamSize="64"/>
 
 Une fois la configuration modifiée, vous devez :
 
-* Arrêter le serveur Web qui héberge le module de redirection (Apache, IIS, ou autre),
+* Arrêter le serveur web qui héberge le module de redirection (Apache, IIS, ou autre),
 * Arrêter le serveur Adobe Campaign : **net stop nlserver6** sous Windows, **/etc/init.d/nlserver6 stop** sous Linux,
 
   >[!NOTE]

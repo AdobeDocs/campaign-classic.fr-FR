@@ -3,12 +3,12 @@ product: campaign
 title: Implémenter des méthodes SOAP
 description: Implémenter des méthodes SOAP
 feature: Configuration
-role: Data Engineer, Developer
+role: Developer
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 94%
 
 ---
 
@@ -39,7 +39,7 @@ Ce nom correspond au nom (avec l&#39;espace de noms) de l&#39;entité de type &#
 
 Exemple:
 
-La méthode testLog(msg) est déclarée dans une extension de nms:recipient
+La méthode testLog(msg) est déclarée dans une extension nms:recipient
 
 ```
 <method name="testLog" static="true" library="cus:test">
@@ -73,7 +73,7 @@ Le nom de la fonction doit respecter le format suivant :
 
 Exemple:
 
-La fonction JavaScript suivante correspond à l&#39;implémentation de la méthode déclarée plus haut. Elle doit être définie dans l&#39;entité de type &#39;Code JavaScript&#39; et de nom &#39;cus:test&#39;.
+La fonction JavaScript suivante correspond à l&#39;implémentation de la méthode déclarée plus haut. Elle est définie dans l&#39;entité de type &#39;Code JavaScript&#39; par le nom &#39;cus:test&#39;.
 
 ```
 function nms_recipient_testLog(message)

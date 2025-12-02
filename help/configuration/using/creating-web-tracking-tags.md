@@ -3,9 +3,9 @@ product: campaign
 title: Création de balises de tracking web
 description: Découvrez comment créer des balises de tracking web
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
