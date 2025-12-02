@@ -3,12 +3,13 @@ audience: end-user
 breadcrumb-title: Documentation de Campaign Classic v7
 product: campaign
 title: Guide de Campaign Classic v7
+user-guide-title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
+source-git-commit: 3fc803ba8b7e367e199ba47ef05ba64d5f801506
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: '2748'
 ht-degree: 100%
 
 ---
@@ -483,7 +484,7 @@ ht-degree: 100%
       + [Configurer un workflow d’import récurrent - MASQUÉ](workflow/using/recurring-import-workflow.md)
    + Requêtes de conception {#designing-queries}
       + [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentale - MASQUÉ](workflow/using/quarterly-list-update.md)
-   + Requête et filtre {#designing-queries}
+   + Requête et filtre {#query-and-filter-hidden}
       + [Effectuer une requête sur la table des personnes destinataires - MASQUÉ](workflow/using/querying-recipient-table.md)
       + [Effectuer une requête sur les informations sur la diffusion - MASQUÉ](workflow/using/querying-delivery-information.md)
       + [Exécuter un calcul d’agrégats - MASQUÉ](workflow/using/performing-aggregate-computing.md)
