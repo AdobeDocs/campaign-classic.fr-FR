@@ -51,7 +51,7 @@ La présence de l&#39;attribut &quot;static&quot; (avec la valeur &quot;true&quo
 
 Une méthode de type &quot;const&quot; possède implicitement en entrée un document XML au format de son schéma associé.
 
-Une description complète de l&#39;élément `<method>` d&#39;un schéma Adobe Campaign figure dans la section [Méthode ](../../configuration/using/schema/method.md) du chapitre « Référence des schémas ».
+Une description complète de l&#39;élément `<method>` d&#39;un schéma Adobe Campaign figure dans la section [Méthode &#x200B;](../../configuration/using/schema/method.md) du chapitre « Référence des schémas ».
 
 Exemple de la méthode « ExecuteQuery » de type « const » à partir du schéma « xtk:queryDef » :
 
