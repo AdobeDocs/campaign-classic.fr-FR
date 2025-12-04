@@ -7,9 +7,9 @@ user-guide-title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 93f32cda33acc53fb0e497f619be35c1c76ff85e
+source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2685'
 ht-degree: 99%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 99%
    + [Envoi de messages LINE](delivery/using/line-channel.md)
    + [Envoyer des notifications push](delivery/using/about-mobile-app-channel.md)
    + Envoyer des notifications push {#sending-push-notifications}
-      + [&#x200B; Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+      + [ Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configurer l’application mobile{#configure-the-mobile-app}
          + [Commencer avec la configuration de l’application - MASQUÉ](delivery/using/get-started-app-config.md)
          + [Étapes de configuration pour iOS - MASQUÉ](delivery/using/configuring-the-mobile-application.md)
@@ -187,12 +187,9 @@ ht-degree: 99%
       + [Marketing viral et réseaux sociaux](delivery/using/viral-and-social-marketing.md)
    + Surveiller les diffusions {#monitoring-deliveries}
       + [Prise en main de la surveillance des diffusions](delivery/using/about-delivery-monitoring.md)
-      + [Surveiller vos diffusions dans l’interface utilisateur de Campaign](delivery/using/delivery-dashboard.md)
-      + [Bonnes pratiques des performances de diffusion](delivery/using/delivery-performances.md)
-      + [Résolution des problèmes liés aux diffusions](delivery/using/delivery-troubleshooting.md)
-      + [Présentation des diffusions en échec](delivery/using/understanding-delivery-failures.md)
-      + [Présentation de la gestion des quarantaines](delivery/using/understanding-quarantine-management.md)
-      + [Tracking des messages](delivery/using/about-message-tracking.md)
+      + [Performances des diffusions et résolution des problèmes](delivery/using/delivery-performance-troubleshooting.md)
+      + [Échecs de diffusion et gestion des quarantaines](delivery/using/delivery-failures-quarantine.md)
+      + [Avancé : personnalisation des logs de diffusion](delivery/using/customize-delivery-logs.md)
    + Gestion de la délivrabilité {#deliverability-management}
       + [Qu’est-ce que la délivrabilité ?](delivery/using/about-deliverability.md)
       + [Contrôler le contenu du message](delivery/using/control-message-content.md)
@@ -249,7 +246,7 @@ ht-degree: 99%
    + [Cas d’utilisation - MASQUÉ](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
    + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-   + [Configuration &#x200B;](response/using/configuration.md)
+   + [Configuration ](response/using/configuration.md)
    + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
    + [Création d’hypothèses](response/using/creating-hypotheses.md)
    + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -650,7 +647,7 @@ ht-degree: 99%
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création d’instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign &#x200B;](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstallation de Campaign](installation/using/uninstalling-campaign.md)
       + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
@@ -661,8 +658,8 @@ ht-degree: 99%
    + Procédures d’exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
-      + [Administration &#x200B;](production/using/administration.md)
-      + [Configuration &#x200B;](production/using/configuration.md)
+      + [Administration ](production/using/administration.md)
+      + [Configuration ](production/using/configuration.md)
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)

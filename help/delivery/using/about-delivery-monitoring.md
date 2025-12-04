@@ -5,10 +5,10 @@ description: Découvrez les fonctionnalités de surveillance des diffusions dans
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: eac670cd4e7371ca386cee5f1735dc201bf5410a
+source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 75%
+source-wordcount: '833'
+ht-degree: 64%
 
 ---
 
@@ -89,24 +89,37 @@ Des actions spécifiques peuvent être effectuées lorsque vous rencontrez des p
 * [Problèmes de performances des diffusions](delivery-performances.md)
 * [Problèmes de fichiers temporaires](../../production/using/temporary-files.md) - *clients On-premise uniquement*
 
-## Sujets généraux de surveillance
+## Surveillance de vos diffusions
 
-**Surveiller vos diffusions :**
+Les ressources suivantes vous aideront à surveiller et à suivre les performances de vos diffusions dans Campaign Classic v7 :
 
-* [Surveiller vos diffusions dans l’interface utilisateur de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (documentation de Campaign v8)
-* [Performances des diffusions et bonnes pratiques](delivery-performances.md)
-* [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
+### Accès au tableau de bord de la diffusion
 
-Configuration spécifique à **v7 :**
+Découvrez comment accéder aux listes de diffusion et utiliser le tableau de bord des diffusions pour surveiller votre activité d’envoi :
 
-* [Configuration de la gestion des e-mails bounce](understanding-delivery-failures.md) (v7 hybride/on-premise)
-* [Gestion des quarantaines](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
-* [Configuration de la quarantaine](understanding-quarantine-management.md) (v7 hybride/on-premise)
-
-**Suivi des messages :**
-
-* [Prise en main du tracking des messages](about-message-tracking.md)
-
-## Rubriques connexes
-
+* [Surveiller les diffusions dans l’interface utilisateur de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (la documentation de Campaign v8 s’applique aux versions 7 et 8)
 * [Statuts des diffusions](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentation de Campaign v8)
+* [Avancé : personnalisation des logs de diffusion](customize-delivery-logs.md) (v7 hybride/on-premise uniquement - extension de schéma)
+
+### Suivi des interactions des messages
+
+Suivez les ouvertures, les clics et les interactions des destinataires avec vos diffusions :
+
+* [Documentation sur le tracking des messages](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} (documentation de Campaign v8 - s’applique aux versions 7 et 8)
+* [Configuration des liens trackés](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"} (documentation de Campaign v8)
+* [Accéder aux logs de tracking](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"} (documentation de Campaign v8)
+
+### Optimisation des performances de diffusion
+
+Bonnes pratiques et résolution des problèmes de performances de diffusion :
+
+* [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (documentation de Campaign v8 - s’applique aux versions 7 et 8)
+* [Performances de diffusion et dépannage](delivery-performance-troubleshooting.md) (configurations hybrides v7/spécifiques à on-premise)
+
+### Présentation des échecs et des quarantaines
+
+Gérez les diffusions en échec, les e-mails bounce et les adresses en quarantaine :
+
+* [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
+* [Gestion des quarantaines](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
+* [Échecs de diffusion et configuration de la quarantaine](delivery-failures-quarantine.md) (configurations hybrides v7/spécifiques à on-premise)
