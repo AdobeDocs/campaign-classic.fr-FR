@@ -40,7 +40,7 @@ Par défaut, elles sont classées dans un sous-dossier correspondant au mois d&#
 
 ## Surveillance de message transactionnel {#transactional-message-monitoring}
 
-Pour surveiller vos messages transactionnels, vérifiez les [logs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
+Pour surveiller vos messages transactionnels, vérifiez les [logs de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
 
 Les diffusions transactionnelles envoyées à partir de l&#39;instance d&#39;exécution sont synchronisées à nouveau vers l&#39;instance de pilotage par le biais d&#39;un workflow technique (**[!UICONTROL instance d&#39;exécution Message Center]**) qui s&#39;exécute toutes les heures.
 
