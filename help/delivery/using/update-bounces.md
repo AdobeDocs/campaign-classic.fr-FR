@@ -7,9 +7,9 @@ feature: Deliverability
 hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 100%
 
 ---
@@ -32,9 +32,9 @@ Notez que si des rebonds de report affichant le message « 452 action demandée
 
 >[!NOTE]
 >
->Vous pouvez vérifier le tableau de bord de statut du système Apple sur [cette page](https://www.apple.com/fr/support/systemstatus/){_blank}..
+>Vous pouvez vérifier le tableau de bord d&#39;état du système Apple sur [cette page](https://www.apple.com/fr/support/systemstatus/){_blank}.
 >
->Vous pouvez vérifier le tableau de bord de statut de Google Workspace sur [cette page](https://www.google.com/appsstatus#hl=fr&amp;v=status){_blank}.
+>Vous pouvez vérifier le tableau de bord d’état de Google Workspace sur [cette page](https://www.google.com/appsstatus#hl=fr&v=status){_blank}.
 >
 
 ## Impact{#update-bounce-impact}
@@ -71,5 +71,5 @@ En fonction du calendrier de l’incident et du FAI, voici les instructions reco
 Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l’état **[!UICONTROL Valide]** afin qu’ils soient supprimés de la liste de quarantaine par le processus de **[!UICONTROL nettoyage de la base de données]**, soit simplement les supprimer de la table.
 
 **Rubriques connexes :**
-* [Présentation des diffusions en échec](understanding-delivery-failures.md)
-* [Qualification des e-mails rejetés](understanding-delivery-failures.md#bounce-mail-qualification)
+* [Présentation des diffusions en échec](delivery-failures-quarantine.md)
+* [Qualification des e-mails rejetés](delivery-failures-quarantine.md#bounce-mail-qualification)

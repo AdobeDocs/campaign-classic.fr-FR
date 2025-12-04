@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 99%
@@ -61,7 +61,7 @@ Vous pouvez ensuite fermer l’assistant de diffusion et suivre l’exécution d
 Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions. Pour plus d’informations, consultez les sections suivantes :
 
 * [Surveillance d’une diffusion](about-delivery-monitoring.md)
-* [Présentation des diffusions en échec](understanding-delivery-failures.md)
+* [Présentation des diffusions en échec](delivery-failures-quarantine.md)
 * [À propos du tracking des messages](about-message-tracking.md)
 
 ## Planification de lʼenvoi de la diffusion {#scheduling-the-delivery-sending}
@@ -171,7 +171,7 @@ Les deux exemples ci-dessous constituent les cas d&#39;utilisation les plus fré
 
 ## Configuration des reprises {#configuring-retries}
 
-Les messages temporairement non diffusés en raison d&#39;une erreur **Soft** ou **Ignoré** sont soumis à une nouvelle reprise automatique. Les types et les raisons d&#39;échec de diffusion sont présentés dans cette [section](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Les messages temporairement non diffusés en raison d&#39;une erreur **Soft** ou **Ignoré** sont soumis à une nouvelle reprise automatique. Les types et les raisons d&#39;échec de diffusion sont présentés dans cette [section](delivery-failures-quarantine.md#delivery-failure-types-and-reasons).
 
 >[!IMPORTANT]
 >

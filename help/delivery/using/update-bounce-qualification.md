@@ -5,14 +5,14 @@ description: Découvrez comment mettre à jour la qualification des rebonds apr�
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Mettre à jour les rebonds définitifs incorrects après une panne d’Apple {#update-bounce-qualification.md}
+# Mettre à jour les erreurs hard incorrectes après une panne d’Apple {#update-bounce-qualification.md}
 
 ## Contexte
 
@@ -56,5 +56,5 @@ En fonction du calendrier de l&#39;incident, voici les instructions recommandée
 Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l&#39;état **[!UICONTROL Valide]** afin qu&#39;ils soient supprimés de la liste de quarantaine par le processus de **[!UICONTROL nettoyage de la base de données]**, soit simplement les supprimer de la table.
 
 **Rubriques connexes :**
-* [Présentation des diffusions en échec](understanding-delivery-failures.md)
-* [Qualification des e-mails rejetés](understanding-delivery-failures.md#bounce-mail-qualification)
+* [Présentation des diffusions en échec](delivery-failures-quarantine.md)
+* [Qualification des e-mails rejetés](delivery-failures-quarantine.md#bounce-mail-qualification)

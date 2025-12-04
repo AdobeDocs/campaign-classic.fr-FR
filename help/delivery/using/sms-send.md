@@ -5,7 +5,7 @@ description: Découvrez comment envoyer, surveiller et suivre des SMS dans Campa
 feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 99%
@@ -63,7 +63,7 @@ Les options disponibles sont les suivantes :
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
 * [Monitor a delivery](about-delivery-monitoring.md)
-* [Understand delivery failures](understanding-delivery-failures.md)
+* [Understand delivery failures](delivery-failures-quarantine.md)
 * [About message tracking](about-message-tracking.md)
 -->
 

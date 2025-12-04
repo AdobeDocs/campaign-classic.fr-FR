@@ -7,8 +7,8 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: ht
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 100%
 
@@ -149,7 +149,7 @@ Les options disponibles sont les suivantes :
 
   >[!NOTE]
   >
-  >Pour plus d’informations sur la gestion des quarantaines, consultez la section [Compréhension de la gestion des quarantaines](understanding-quarantine-management.md).
+  >Pour plus d’informations sur la gestion des quarantaines, consultez la section [Compréhension de la gestion des quarantaines](delivery-failures-quarantine.md).
 
 * **[!UICONTROL Limiter la diffusion]** à un nombre donné de messages. Cette option permet de renseigner le nombre maximum de messages à envoyer. Si le contenu de la cible est supérieur au nombre de messages indiqué, une sélection aléatoire est appliquée sur la cible.
 
@@ -251,6 +251,6 @@ Ces mappings sont les suivants :
 
 Dans cette vidéo, vous apprendrez comment ajouter des adresses de contrôle et des BAT à un email existant et comment l’envoyer.
 
->[!VIDEO](https://video.tv.adobe.com/v/35541?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

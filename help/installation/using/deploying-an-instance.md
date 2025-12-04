@@ -8,8 +8,8 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+workflow-type: tm+mt
 source-wordcount: '3547'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ La section inférieure de la fenêtre permet de sélectionner les options à act
 
 * **[!UICONTROL Identifiant client pour la facturation]** : il peut s’agir par exemple du nom de l’instance et du numéro de version.
 * **[!UICONTROL Nom usuel du client]** : saisissez le nom de votre société. Cette information est notamment utilisée notamment dans les liens de désabonnement.
-* **[!UICONTROL Espace de noms]** : saisissez ici un identifiant court, en minuscules. L&#39;objectif est de distinguer votre configuration spécifique de la configuration d&#39;usine en cas de mise à niveau. L’espace de noms par défaut est **cus** - pour customer (client).
+* **[!UICONTROL Espace de noms]** : saisissez ici un identifiant court, en minuscules. L’objectif est de distinguer votre configuration spécifique de la configuration d’usine en cas de mise à niveau. L’espace de noms par défaut est **cus** - pour customer (client).
 
 ### Options techniques {#technical-options}
 
@@ -165,7 +165,7 @@ Une fois les paramètres POP renseignés, cliquez sur **Test** afin de vérifier
 
 ### Mails rebonds non traités {#unprocessed-bounce-mails}
 
-Les mails rebonds sont traités de façon automatique par Adobe Campaign, en appliquant les règles répertoriées dans le nœud **Administration > Gestion de campagne > Gestion des NP@I > Qualification des logs de diffusion**. Voir à ce sujet [Gestion des mails rebonds](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+Les mails rebonds sont traités de façon automatique par Adobe Campaign, en appliquant les règles répertoriées dans le nœud **Administration > Gestion de campagne > Gestion des NP@I > Qualification des logs de diffusion**. Voir à ce sujet [Gestion des mails rebonds](../../delivery/using/delivery-failures-quarantine.md#bounce-mail-management).
 
 Les mails rebonds non traités ne sont pas affichés dans l’interface Adobe Campaign. Ils sont supprimés automatiquement à moins qu’ils ne soient transférés à une boîte de tierce partie au moyen des champs suivants :
 

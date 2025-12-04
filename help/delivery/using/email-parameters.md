@@ -7,8 +7,8 @@ role: User, Developer
 hide: true
 hidefromtoc: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ Vous pouvez également définir une adresse spécifique depuis cet écran afin d
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-Pour plus d’informations sur la gestion des e-mails de rebond, consultez [cette section](understanding-delivery-failures.md#bounce-mail-management).
+Pour plus d’informations sur la gestion des e-mails de rebond, consultez [cette section](delivery-failures-quarantine.md#bounce-mail-management).
 
 ## Ajouter des en-têtes SMTP {#adding-smtp-headers}
 

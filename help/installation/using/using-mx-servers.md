@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign gère ce processus en établissant une correspondance entre un t
 
 >[!NOTE]
 >
->Pour en savoir plus sur les types et les raisons d’un échec des diffusions, consultez cette [section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Pour en savoir plus sur les types et les raisons d’un échec des diffusions, consultez cette [section](../../delivery/using/delivery-failures-quarantine.md#delivery-failure-types-and-reasons).
 
 ## Instance de délivrabilité {#deliveratbility-env}
 
@@ -80,7 +80,7 @@ Le mode personnalisé est destiné aux clients avancés qui souhaitent définir 
 
 ## Exemples de rebonds
 
-* **Utilisateur inconnu** (rebond définitif) : 550 5.1.1 ... L’utilisateur est inconnu {mx003}
+* **Utilisateur inconnu** (hard bounce) : 550 5.1.1 ... L’utilisateur est inconnu {mx003}
 * **Boîte pleine** (rebond temporaire) : 550 5.2.2 Dépassement du quota d’utilisateurs
 * **Boîte aux lettres inactive** (rebond temporaire) : 550 5.7.1 : adresse du destinataire refusée : boîte aux lettres inactive, non affichée pendant plus de 6 mois
 * **Domaine non valide** (rebond temporaire) : échec de la requête DNS pour ’ourdan.com’
@@ -90,5 +90,5 @@ Le mode personnalisé est destiné aux clients avancés qui souhaitent définir 
 **Rubriques connexes :**
 * [Configuration des MX](../../installation/using/email-deliverability.md#mx-configuration)
 * [Configuration technique des emails](../../installation/using/email-deliverability.md)
-* [Présentation des diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
+* [Présentation des diffusions en échec](../../delivery/using/delivery-failures-quarantine.md)
 * [Campaign Classic - Recommandations techniques](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=fr)

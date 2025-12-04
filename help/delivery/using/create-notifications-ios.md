@@ -7,8 +7,8 @@ role: User, Developer
 hide: true
 hidefromtoc: true
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 100%
 
@@ -130,9 +130,9 @@ L’envoi du BAT et l’envoi final de la notification s’effectuent de la mêm
 
 Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions. Pour plus d’informations, consultez les sections suivantes :
 
-* [Quarantaines des notifications push](understanding-quarantine-management.md#push-notification-quarantines)
+* [Quarantaines des notifications push](delivery-failures-quarantine.md#push-notification-quarantines)
 * [Contrôler une diffusion](about-delivery-monitoring.md)
-* [Comprendre les échecs de diffusion](understanding-delivery-failures.md)
+* [Comprendre les échecs de diffusion](delivery-failures-quarantine.md)
 
 ## Créer une notification iOS enrichie {#creating-ios-delivery}
 
