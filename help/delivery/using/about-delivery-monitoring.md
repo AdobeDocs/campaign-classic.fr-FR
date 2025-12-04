@@ -75,10 +75,10 @@ Dans Adobe Campaign Classic, la **supervision de la délivrabilité** est gér
 * Vérifiez régulièrement le [débit des diffusions](../../reporting/using/global-reports.md#delivery-throughput) pour l’ensemble de la plateforme afin de contrôler qu’il correspond à la configuration d’origine.
 * Vérifiez que les [reprises](delivery-failures-quarantine.md#retries-after-a-delivery-temporary-failure) sont paramétrées correctement (30 minutes pour la période des reprises et plus de 20 reprises) dans les modèles de diffusion.
 * Vérifiez régulièrement que la boîte des [emails rebonds](delivery-failures-quarantine.md#bounce-mail-management) est accessible et que le compte n’arrive pas à expiration.
-* Vérifiez chaque débit de diffusion, accessible à partir du [tableau de bord de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, pour vous assurer qu’il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).
+* Vérifiez chaque débit de diffusion, accessible à partir du [tableau de bord de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, pour vous assurer qu’il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).
 * Lors de l’utilisation des vagues, vérifiez que chaque vague a le temps de se terminer avant le déclenchement de la suivante.
 * Vérifiez que le nombre d’erreurs et les nouvelles [mises en quarantaine](delivery-failures-quarantine.md) correspondent aux autres diffusions.
-* Consultez attentivement les [logs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc.).
+* Consultez attentivement les [logs de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc.).
 
 ### Résolution des problèmes {#delivery-troubleshooting}
 
@@ -97,17 +97,17 @@ Les ressources suivantes vous aideront à surveiller et à suivre les performanc
 
 Découvrez comment accéder aux listes de diffusion et utiliser le tableau de bord des diffusions pour surveiller votre activité d’envoi :
 
-* [Surveiller les diffusions dans l’interface utilisateur de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (la documentation de Campaign v8 s’applique aux versions 7 et 8)
-* [Statuts des diffusions](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentation de Campaign v8)
+* [Surveiller les diffusions dans l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (la documentation de Campaign v8 s’applique aux versions 7 et 8)
+* [Statuts des diffusions](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentation de Campaign v8)
 * [Avancé : personnalisation des logs de diffusion](customize-delivery-logs.md) (v7 hybride/on-premise uniquement - extension de schéma)
 
 ### Suivi des interactions des messages
 
 Suivez les ouvertures, les clics et les interactions des destinataires avec vos diffusions :
 
-* [Documentation sur le tracking des messages](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} (documentation de Campaign v8 - s’applique aux versions 7 et 8)
-* [Configuration des liens trackés](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"} (documentation de Campaign v8)
-* [Accéder aux logs de tracking](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"} (documentation de Campaign v8)
+* [Documentation sur le tracking des messages](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} (documentation de Campaign v8 - s’applique aux versions 7 et 8)
+* [Configuration des liens trackés](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"} (documentation de Campaign v8)
+* [Accéder aux logs de tracking](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"} (documentation de Campaign v8)
 
 ### Optimisation des performances de diffusion
 
@@ -120,6 +120,6 @@ Bonnes pratiques et résolution des problèmes de performances de diffusion :
 
 Gérez les diffusions en échec, les e-mails bounce et les adresses en quarantaine :
 
-* [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
-* [Gestion des quarantaines](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
+* [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
+* [Gestion des quarantaines](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
 * [Échecs de diffusion et configuration de la quarantaine](delivery-failures-quarantine.md) (configurations hybrides v7/spécifiques à on-premise)

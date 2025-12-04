@@ -165,6 +165,6 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 
 >[!IMPORTANT]
 >
->Il n’existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le tableau de bord des diffusions. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
+>Il n’existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le tableau de bord des diffusions. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 >
 >Ces messages ne sont pas pris en compte dans les règles de pression commerciale. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.
