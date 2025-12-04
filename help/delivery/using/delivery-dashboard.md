@@ -1,132 +1,36 @@
 ---
 product: campaign
-title: Tableau de bord de la diffusion
-description: En savoir plus sur lʼutilisation du tableau de bord de la diffusion pour surveiller vos diffusions
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+title: Surveiller vos diffusions dans l’interface utilisateur de Campaign
+description: Découvrez comment accéder à la liste des diffusions et utiliser le tableau de bord des diffusions pour surveiller vos diffusions
 feature: Monitoring
 role: User, Developer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: eac670cd4e7371ca386cee5f1735dc201bf5410a
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 59%
 
 ---
 
-# Tableau de bord de la diffusion {#delivery-dashboard}
-
-
-Le **tableau de bord de la diffusion** est la clé pour suivre les diffusions et les erreurs éventuelles rencontrées lors de l&#39;envoi des messages.
-
-Il vous permet de récupérer des informations sur une diffusion et de les modifier si nécessaire. Veuillez noter que le contenu de ces onglets n&#39;est plus modifiable lorsque la diffusion a été envoyée.
-
-Vous trouverez ci-dessous les informations à surveiller à l&#39;aide des différents onglets disponibles dans le tableau de bord :
-
-* [Synthèse des diffusions](#delivery-summary)
-* [Rapports sur les diffusions](#delivery-reports)
-* [Logs de diffusion, pages miroir, exclusions](#delivery-logs-and-history)
-* [Logs et historique de tracking des diffusions](#tracking-logs)
-* [Rendu des diffusions](#delivery-rendering)
-* [Suivi de la diffusion](#delivery-audit-)
-
-![](assets/s_ncs_user_del_details.png)
-
-**Rubriques connexes :**
-
-* [Comprendre les échecs de diffusion](understanding-delivery-failures.md)
-* [Comprendre la gestion des quarantaines](understanding-quarantine-management.md)
-* [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"}
-* [Gestion de la délivrabilité](about-deliverability.md)
-
-## Synthèse des diffusions {#delivery-summary}
-
-L&#39;onglet **[!UICONTROL Résumé]** contient les caractéristiques de la diffusion : état de la diffusion, canal utilisé, informations sur l&#39;expéditeur, objet, informations relatives à l&#39;exécution.
-
-## Rapports sur les diffusions {#delivery-reports}
-
-Le lien **[!UICONTROL Rapports]**, accessible à partir de l&#39;onglet **[!UICONTROL Résumé]**, vous permet de consulter un ensemble de rapports liés à la dernière diffusion : rapport général de diffusion, rapport détaillé, rapport de diffusion, distribution des messages en échec, taux d&#39;ouverture, clics et transactions, etc.
-
-Le contenu de cet onglet peut être configuré en fonction de vos besoins. Pour plus d’informations sur les rapports de la diffusion, consultez [cette section](../../reporting/using/delivery-reports.md).
-
-![](assets/delivery-report.png)
-
-## Logs, historique et exclusions de diffusion {#delivery-logs-and-history}
-
-L&#39;onglet **[!UICONTROL Diffusion]** propose un historique des occurrences de cette diffusion. Il contient les logs de diffusion, c&#39;est-à-dire la liste des messages envoyés et leur statut. Il permet de visualiser l&#39;état de la diffusion pour chaque destinataire et les messages associés.
-
-Pour une diffusion, vous pouvez afficher par exemple seulement les destinataires pour lesquels l&#39;envoi a échoué ou ceux dont l&#39;adresse est en quarantaine. Pour cela, cliquez sur le bouton **[!UICONTROL Filtres]** et choisissez **[!UICONTROL Par Statut]**. Sélectionnez ensuite le statut dans la liste déroulante affichée au-dessus de la liste. Les différents statuts sont répertoriés dans [cette page](delivery-statuses.md).
+# Surveiller vos diffusions dans l’interface utilisateur de Campaign {#delivery-dashboard}
 
 >[!NOTE]
 >
->La liste qui affiche les logs de diffusion peut être personnalisée, comme toute liste dans Campaign Classic. Vous pouvez, par exemple, ajouter une colonne pour connaître l&#39;adresse IP qui a envoyé chaque email dans une diffusion. Pour plus d&#39;informations à ce sujet, reportez-vous au cas pratique détaillé dans [cette section](#use-case).
+>Des instructions complètes sur l’accès à la liste des diffusions et l’utilisation du tableau de bord des diffusions sont fournies dans la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard). Ce contenu s’applique aux utilisateurs de Campaign Classic v7 et de Campaign v8.
+>
+>Cette page documente les personnalisations spécifiques à Campaign Classic v7 **pour les déploiements hybrides et on-premise.**
 
-![](assets/s_ncs_user_delivery_delivery_tab.png)
+La surveillance de vos diffusions est essentielle pour vous assurer que vos campagnes sont efficaces et atteignent vos clients.
 
-Le lien **[!UICONTROL Afficher la page miroir de ce message...]** vous permet d&#39;afficher la page miroir du contenu de la diffusion sélectionnée dans la liste dans une nouvelle fenêtre.
+Pour obtenir des informations complètes sur l’accès à la liste des diffusions, l’utilisation des onglets du tableau de bord des diffusions et la surveillance de vos diffusions, reportez-vous à la section [Surveillance des diffusions dans Campaign v8 dans la documentation de l’interface utilisateur](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 
-La page miroir est disponible uniquement pour les diffusions pour lesquelles un contenu HTML a été défini. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=fr){target="_blank"}.
+## Personnalisation des logs de diffusion {#use-case}
 
-![](assets/s_ncs_user_wizard_miror_page_link.png)
-
-## Logs et historique de tracking des diffusions {#tracking-logs}
-
-L’onglet **[!UICONTROL Tracking]** liste l’historique du tracking pour cette diffusion. Cet onglet affiche les données de tracking des messages envoyés, à savoir toutes les URL qui ont fait l’objet d’un tracking par Adobe Campaign. Les données de tracking sont mises à jour toutes les heures.
+Pour les déploiements hybrides/on-premise **Campaign Classic v7**, vous pouvez personnaliser les logs de diffusion en étendant les schémas. Cette section explique comment ajouter les adresses IP des expéditeurs aux logs de diffusion.
 
 >[!NOTE]
 >
->Si le tracking n’est pas activé pour une diffusion, cet onglet n’est pas affiché.
-
-La configuration du suivi est effectué dans l’assistant de diffusion, à l’étape concernée. Voir à ce sujet la section [Comment configurer des liens suivis](how-to-configure-tracked-links.md).
-
-Les données de **[!UICONTROL tracking]** sont interprétées dans les rapports de diffusion. Consultez [cette section](../../reporting/using/delivery-reports.md).
-
-![](assets/s_ncs_user_delivery_tracking_tab.png)
-
-## Rendu de la boîte de réception {#delivery-rendering}
-
-L&#39;onglet **[!UICONTROL Inbox rendering]** permet de prévisualiser le message dans les différents contextes dans lesquels il peut être reçu et de vérifier la compatibilité auprès des principaux ordinateurs de bureau et applications.
-
-Ainsi, vous pouvez vérifier que l&#39;affichage de votre message sera optimal pour les destinataires sur divers clients web, webmails et appareils.
-
-Voir à ce propos [cette section](inbox-rendering.md).
-
-![](assets/s_tn_inbox_rendering_tokens.png)
-
-## Suivi de la diffusion {#delivery-audit-}
-
-L&#39;onglet **[!UICONTROL Audit]** contient le log des diffusions et tous les messages concernant les BAT.
-
-Le bouton **[!UICONTROL Actualiser]** permet de mettre à jour les données. Utilisez le bouton **[!UICONTROL Filtres]** pour définir un filtre sur les données.
-
-Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Consultez cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=fr){target="_blank"}.
-
-Le sous-onglet **[!UICONTROL BAT]** vous permet de voir la liste des BAT qui ont été envoyés.
-
-![](assets/s_ncs_user_delivery_log_tab.png)
-
-Vous pouvez modifier les informations affichées dans cette fenêtre (ainsi que celles des onglets **[!UICONTROL Diffusion]** et **[!UICONTROL Tracking]**) en sélectionnant les colonnes à afficher. Pour cela, cliquez sur l&#39;icône **[!UICONTROL Configurer la liste]**, située en bas à droite. La configuration de l&#39;affichage des listes est présentée dans [cette section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
-
-## Synchronisation du tableau de bord des diffusions {#delivery-dashboard-synchronization}
-
-Dans le tableau de bord des diffusions, vous souhaitez vérifier les messages traités et les logs de diffusion pour vous assurer que la diffusion a bien été envoyée.
-
-Certains indicateurs ou statuts peuvent être incorrects ou ne pas être à jour. Ce problème peut être résolu à l&#39;aide des solutions suivantes :
-
-* Si le statut de votre diffusion est incorrect, vérifiez que toutes les validations nécessaires ont été effectuées pour celle-ci ou que les workflows **[!UICONTROL operationMgt]** et **[!UICONTROL deliveryMgt]** s&#39;exécutent sans erreur. La diffusion peut aussi utiliser une affinité qui n&#39;est pas configurée sur l&#39;instance d&#39;envoi.
-
-* Si les indicateurs de diffusion sont toujours à zéro et que vous utilisez une configuration en midsourcing, vérifiez le workflow technique **[!UICONTROL Midsourcing (compteurs des diffusions)]**. Lancez-le si son statut n’est pas **[!UICONTROL Démarré]**. Vous pouvez ensuite essayer de recalculer les indicateurs en procédant comme suit : cliquez avec le bouton droit sur la diffusion en question dans l’explorateur Adobe Campaign et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Recalculer les indicateurs d’envoi et de tracking]**. Pour plus d’informations sur les indicateurs de tracking, voir cette [section](../../reporting/using/delivery-reports.md#tracking-indicators).
-
-* Si le compteur de diffusions ne correspond pas à votre diffusion, essayez de recalculer les indicateurs en procédant comme suit : cliquez avec le bouton droit sur la diffusion en question dans l&#39;explorateur Adobe Campaign et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Recalculer les indicateurs d&#39;envoi et de tracking]** pour effectuer une nouvelle synchronisation. Pour plus d’informations sur les indicateurs de tracking, voir cette [section](../../reporting/using/delivery-reports.md#tracking-indicators).
-
-* Si votre compteur de diffusions n&#39;est pas à jour pour les déploiements Mid-sourcing, vérifiez que le workflow technique **[!UICONTROL Mid-sourcing (compteurs des diffusions)]** est en cours d&#39;exécution. Pour en savoir plus à ce sujet, consultez cette [page](../../installation/using/mid-sourcing-deployment.md).
-
-Vous pouvez également effectuer un tracking de vos diffusions à l&#39;aide de différents rapports dans le tableau de bord des diffusions. Pour plus d’informations à ce sujet, consultez cette [section](../../reporting/using/delivery-reports.md).
-
-## Cas pratique : Ajouter les adresses IP des expéditeurs aux logs {#use-case}
-
-Dans cette section, vous apprendrez comment ajouter aux logs de diffusion des informations concernant l’adresse IP qui a envoyé chaque email dans une diffusion.
-
->[!NOTE]
+>Cette personnalisation nécessite des fonctionnalités d’extension de schéma disponibles dans les déploiements on-premise. Les utilisateurs de Campaign v8 Managed Cloud Services doivent contacter l’assistance clientèle d’Adobe pour obtenir les champs personnalisés des logs de diffusion.
 >
 >Cette modification est différente si vous utilisez une instance unique ou une instance de midsourcing. Avant de procéder à la modification, vérifiez que vous êtes connecté à l&#39;instance d&#39;envoi d&#39;email.
 
@@ -208,3 +112,12 @@ Pour ce faire, accédez aux logs de diffusion et ajoutez la colonne &quot;Identi
 Vous trouverez ci-dessous ce que vous devez voir dans l’onglet **[!UICONTROL Diffusion]** après les modifications :
 
 ![](assets/logs-with-ip.png)
+
+## Rubriques connexes
+
+* [Surveillance des diffusions dans l’interface utilisateur de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (documentation de Campaign v8)
+* [Statuts des diffusions](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentation de Campaign v8)
+* [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
+* [Gestion des quarantaines](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
+* [Configuration des e-mails bounce](understanding-delivery-failures.md) (v7 hybride/on-premise)
+* [Configuration de la quarantaine](understanding-quarantine-management.md) (v7 hybride/on-premise)

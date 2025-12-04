@@ -6,10 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '656'
-ht-degree: 100%
+source-git-commit: b2b188ee3f202c247ceac1f59a49b7ad1771d537
+workflow-type: tm+mt
+source-wordcount: '663'
+ht-degree: 97%
 
 ---
 
@@ -79,9 +79,8 @@ Certains fournisseurs d&#39;accès Internet considèrent automatiquement les ema
 
 Voir à ce propos les sections suivantes :
 
-* [Présentation des diffusions en échec](understanding-delivery-failures.md)
-* [Présentation de la gestion des quarantaines](understanding-quarantine-management.md)
-* [Quarantaine et liste bloquée](understanding-quarantine-management.md#quarantine-vs-denylist)
+* [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8 - guide complet)
+* [Comprendre la gestion des quarantaines](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8 - guide complet)
 
 ### Utilisation des outils de surveillance et de reporting
 
@@ -91,6 +90,5 @@ Adobe Campaign permet de vérifier les performances de vos diffusions et de les
 
 Voir à ce propos les sections suivantes :
 
-* [Surveillance de la délivrabilité](monitoring-deliverability.md)
 * [Prise en main de la surveillance des diffusions](about-delivery-monitoring.md)
 * [Prise en main des rapports natifs de Campaign](../../reporting/using/about-campaign-built-in-reports.md)

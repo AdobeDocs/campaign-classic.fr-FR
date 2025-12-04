@@ -1,21 +1,26 @@
 ---
 product: campaign
-title: FAQ sur la mise à niveau des builds
-description: Questions courantes relatives aux upgrades de build Campaign
+title: FAQ sur la mise à niveau de build
+description: Questions courantes relatives aux mises à niveau des builds de Campaign Classic v7
 feature: Upgrade, Troubleshooting
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
+source-git-commit: 295e3596d9291cbcc55e2d264309141526c3806b
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 100%
+source-wordcount: '2069'
+ht-degree: 97%
 
 ---
 
 # FAQ sur la mise à niveau des builds {#build-upgrade-faq}
 
+Cette FAQ aborde les questions relatives aux mises à niveau des builds de Campaign Classic v7, en particulier pour les déploiements on-premise et hybrides.
+
+>[!NOTE]
+>
+>Pour obtenir des réponses complètes aux questions courantes de Campaign sur les workflows, les diffusions, les audiences, etc., reportez-vous à la section [FAQ complète de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}.
 
 Adobe Campaign fait l&#39;objet de mises à jour régulières. Si vous connaissez les [notes de mise à jour](../../rn/using/rn-overview.md) que nous publions, vous savez probablement déjà que nous proposons en moyenne deux à trois versions mineures par an contenant de nouvelles fonctionnalités, des améliorations et des correctifs. En outre, nous publions périodiquement des builds avec des correctifs cumulatifs uniquement. Cette cadence régulière de mises à jour vise à vous proposer les fonctionnalités les plus appropriées et les plus récentes, en préservant la sécurité de votre environnement et en améliorant votre expérience avec notre produit.
 
@@ -23,9 +28,9 @@ C&#39;est pourquoi il est essentiel que nos clients exécutent la version la plu
 
 En tant qu’utilisateur hébergé, vous bénéficiez automatiquement de la mise à niveau annuelle de Campaign avec la dernière version stable, et n’avez aucune action à effectuer. Les clients On-premise et hybrides peuvent également bénéficier de cette version. Si vous migrez depuis un ancien build, nous vous recommandons d’effectuer d’abord la mise à niveau vers cette version. [En savoir plus](../../rn/using/rn-overview.md).
 
-## Qu&#39;est-ce qu&#39;un upgrade de build ?
+## Qu’est-ce qu’une mise à niveau de build ?
 
-Un upgrade de build, c&#39;est lorsque le logiciel Adobe Campaign Classic est mis à jour vers le numéro de build sécurisé le plus récent, tout en restant au même niveau de build majeur/mineur. Par exemple : Campaign Classic v7 build 9026 vers Campaign v7 build 9032.
+Une mise à niveau de build, c’est lorsque le logiciel Adobe Campaign Classic est mis à jour vers le numéro de build sécurisé le plus récent, tout en restant au même niveau de build majeur/mineur. Par exemple : Campaign Classic v7 build 9026 vers Campaign v7 build 9032.
 
 En savoir plus [dans cette section](../../rn/using/rn-overview.md).
 
@@ -64,38 +69,38 @@ Adobe réalisera une sauvegarde de votre système avant tout changement. Toutefo
 <!--
 ![](assets/do-not-localize/how-to-video.png) For more information, [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
 
-## Quand les mises à jour auront-elles lieu ?
+## Quand les mises à niveau auront-elles lieu ?
 
 Les clients pourront effectuer un choix parmi plusieurs dates. Les changements des systèmes de production ne sont pas effectués les jours fériés.
 
-Les upgrades de build peuvent être réalisés du lundi au jeudi, le vendredi étant réservé aux instances hors production.
+Les mises à niveau de build peuvent être réalisées du lundi au jeudi, le vendredi étant réservé aux instances hors production.
 
-## Combien de temps durera l&#39;upgrade de build ?
+## Combien de temps durera la mise à niveau de build ?
 
-La durée de l&#39;upgrade de build dépend de plusieurs facteurs :
+La durée de la mise à niveau de build dépend de plusieurs facteurs :
 
-* La taille de la base de données à sauvegarder ou à restaurer (l&#39;upgrade de bases de données plus volumineuses dure généralement plus longtemps).
-* La taille des environnements (nombre de nos clients possèdent différents serveurs gérant des fonctions spécifiques, et l&#39;upgrade des environnements de plus grande taille prend plus de temps).
+* La taille de la base de données à sauvegarder ou à restaurer (la mise à niveau de bases de données plus volumineuses dure généralement plus longtemps).
+* La taille des environnements (nombre de nos clients possèdent différents serveurs gérant des fonctions spécifiques, et la mise à niveau des environnements de plus grande taille prend plus de temps).
 * La complexité du système (certains systèmes présentent davantage de services et de connexions dépendants à vérifier, et la stabilité et les performances de tels systèmes doivent être vérifiées).
 
-L&#39;upgrade de build est un processus en deux étapes :
+La mise à niveau de build est un processus en deux étapes :
 
-1. Préparation du système à l&#39;upgrade : tenant compte des spécificités de votre environnement, cette phase conduit essentiellement à un upgrade complet sur un environnement hors production. Une fois l&#39;environnement mis à niveau validé du point de vue technique et fonctionnel, il est possible de passer à la phase 2. En fonction des facteurs mentionnés ci-dessus, la première phase peut prendre entre plusieurs jours et deux semaines.
+1. Préparation du système à la mise à niveau : tenant compte des spécificités de votre environnement, cette phase conduit essentiellement à une mise à niveau complet sur un environnement hors production. Une fois l’environnement mis à niveau validé du point de vue technique et fonctionnel, il est possible de passer à la phase 2. En fonction des facteurs mentionnés ci-dessus, la première phase peut prendre entre plusieurs jours et deux semaines.
 
-1. L&#39;upgrade lui-même : l’environnement de production est mis à niveau.  Cette phase prend généralement quelques heures. Dans le cas d&#39;environnements très complexes, vous devez prévoir un temps d’arrêt plus long. En cas de problème, une stratégie de restauration est définie et peut être exécutée.
+1. La mise à niveau proprement dite : l’environnement de production est mis à niveau.  Cette phase prend généralement quelques heures. Dans le cas d&#39;environnements très complexes, vous devez prévoir un temps d’arrêt plus long. En cas de problème, une stratégie de restauration est définie et peut être exécutée.
 
 Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html).
 
-## Quelles sont les ressources nécessaires pour l&#39;upgrade de build ?
+## Quelles sont les ressources nécessaires pour la mise à niveau de build ?
 
-L&#39;upgrade de build requiert les ressources suivantes :
+La mise à niveau de build requiert les ressources suivantes :
 
 * Architecte Adobe : l&#39;architecte doit se charger de la coordination avec l&#39;assistance clientèle en cas d&#39;architecture hébergée ou Cloud Messaging/hybride.
-* Chef de projet - Hébergé : l&#39;équipe chargée de l&#39;hébergement s&#39;associera à l&#39;équipe de l&#39;assistance clientèle et au client pour coordonner le calendrier de l&#39;upgrade pour toutes les instances.
-* Administrateur Adobe Campaign - Hébergé : l&#39;équipe chargée de l&#39;hébergement réalise l&#39;upgrade.
+* Chef de projet - Hébergé : l’équipe chargée de l’hébergement s’associera à l’équipe de l’assistance clientèle et au client pour coordonner le calendrier de la mise à niveau pour toutes les instances.
+* Administrateur Adobe Campaign - Hébergé : l’équipe chargée de l’hébergement réalise la mise à niveau.
 * Opérateur Adobe Campaign\utilisateur marketing : l&#39;opérateur effectue des tests sur les instances de développement, de test et de production.
 
-## Comment me préparer à l&#39;upgrade de build ?
+## Comment me préparer à la mise à niveau de build ?
 
 Dans vos systèmes de développement et d’évaluation, exportez tous les travaux critiques et qui doivent être préservés.
 
@@ -105,45 +110,45 @@ Rafraîchissez vos connaissances des workflows de chemin critique et des diffusi
 
 Identifiez les heures de faible volume ou trafic qui seraient idéales pour les fenêtres de maintenance, car elles auront le plus faible impact sur l’entreprise.
 
-Consultez notre [liste de contrôle d&#39;upgrade de build ci-dessous](#check-list) et vos plans de test, et vérifiez que les ressources qui peuvent réaliser ces tests sont disponibles dans les 24/48 heures suivant un upgrade.
+Consultez notre [liste de contrôle de mise à niveau de build ci-dessous](#check-list) et vos plans de test, et vérifiez que les ressources qui peuvent réaliser ces tests sont disponibles dans les 24/48 heures suivant une mise à niveau.
 
 Pour plus d’informations, [consultez cette section](../../production/using/build-upgrade.md).
 
-## Les upgrades peuvent-ils être effectués le soir ou en dehors des heures de bureau ?
+## Les mises à niveau peuvent-elles être effectuées le soir ou en dehors des heures de bureau ?
 
-Les upgrades peuvent être réalisés en dehors des heures de bureau. Nous recommandons toujours d&#39;effectuer un upgrade de l&#39;environnement en dehors des heures de bureau lorsqu&#39;aucun utilisateur d’entreprise n&#39;est connecté à l&#39;instance.
+Les mises à niveau peuvent être réalisées en dehors des heures de bureau. Nous recommandons toujours d’effectuer une mise à niveau de l’environnement en dehors des heures de bureau lorsqu’aucun utilisateur d’entreprise n’est connecté à l’instance.
 
-## Quels sont les coûts associés à un upgrade de build ?
+## Quels sont les coûts associés à une mise à niveau de build ?
 
-L&#39;installation de l&#39;upgrade de build n’engendre aucun coût pour les clients hébergés. Si le système comprend des développements personnalisés, le client devra identifier les ressources nécessaires pour les tester après l&#39;upgrade et corriger les éventuels problèmes associés.
+L’installation de la mise à niveau de build n’engendre aucun coût pour les clients hébergés. Si le système comprend des développements personnalisés, le client devra identifier les ressources nécessaires pour les tester après la mise à niveau et corriger les éventuels problèmes associés.
 
-## L&#39;instance est-elle accessible pendant l&#39;upgrade ?
+## L’instance est-elle accessible pendant la mise à niveau ?
 
-Non. Le serveur est arrêté au cours d&#39;un upgrade de façon à assurer l&#39;intégrité des données lors de cette opération. Une fois l&#39;upgrade terminé, le serveur est redémarré et tous les services reprennent.
+Non. Le serveur est arrêté au cours d’une mise à niveau de façon à assurer l’intégrité des données lors de cette opération. Une fois lupgrade terminé, le serveur est redémarré et tous les services reprennent.
 
 ## Puis-je continuer à utiliser mon instance Campaign pendant le processus de mise à niveau ?
 
 Non. Adobe vous recommande de désactiver toutes les opérations dans la campagne durant la période de maintenance afin d’éviter de perdre des données ou d’avoir des données manquantes. Vous ne devez pas créer ni déployer de campagnes, de requêtes, de workflows ou de diffusions au cours de la mise à niveau.
 
-## Les emails continueront-ils à être envoyés depuis Message Center au cours du processus d&#39;upgrade ?
+## Les e-mails continueront-ils à être envoyés depuis Message Center au cours du processus de mise à niveau ?
 
-Lorsque l&#39;upgrade s’applique à Message Center (RT), celui-ci n&#39;enverra pas d&#39;emails à partir de l&#39;instance. Notez que tout processus arrêté lors de l&#39;arrêt d&#39;un système Campaign est repris automatiquement au redémarrage du système. Cela comprend les diffusions actives ou planifiées, le suivi ainsi que les calculs des mesures pour les diffusions envoyées précédemment.
+Lorsque la mise à niveau s’applique à Message Center (RT), celui-ci n’enverra pas d’e-mails à partir de l’instance. Notez que tout processus arrêté lors de l&#39;arrêt d&#39;un système Campaign est repris automatiquement au redémarrage du système. Cela comprend les diffusions actives ou planifiées, le suivi ainsi que les calculs des mesures pour les diffusions envoyées précédemment.
 
 ## Les workflows continueront-ils à s&#39;exécuter et à envoyer les diffusions ?
 
-Non. Au cours de l&#39;upgrade de build, les services de workflow et de messagerie sont arrêtés. Cela signifie que les workflows ne s&#39;exécuteront pas et que les diffusions ne sont pas envoyées. Ils reprendront une fois le système redémarré. Cependant, Adobe vous recommande fortement de vérifier les workflows de chemins critiques après une mise à niveau pour vous assurer qu’ils s’exécutent correctement.
+Non. Au cours de la mise à niveau de build, les services de workflow et de messagerie sont arrêtés. Cela signifie que les workflows ne s&#39;exécuteront pas et que les diffusions ne sont pas envoyées. Ils reprendront une fois le système redémarré. Cependant, Adobe vous recommande fortement de vérifier les workflows de chemins critiques après une mise à niveau pour vous assurer qu’ils s’exécutent correctement.
 
 ## Mes liens de tracking fonctionnent-ils toujours pendant la mise à niveau ?
 
 À partir de Campaign Classic v7.3.5, le tracking des liens sur les e-mails envoyés fonctionne toujours pendant la mise à niveau.
 
-## Dois-je être disponible pendant l&#39;upgrade de build ?
+## Dois-je être disponible pendant la mise à niveau de build ?
 
-Oui. Les clients doivent indiquer à Adobe un point de contact disponible au cours de l&#39;upgrade ou immédiatement après l&#39;upgrade de leur instance de production.  Adobe contactera cette personne par email en l’absence d’autres arrangements. Cela assurera une transition fluide et une validation immédiate des tâches critiques. Adobe contactera le client une fois l&#39;upgrade de build terminé pour confirmation.
+Oui. Les clients doivent indiquer à Adobe un point de contact disponible au cours de la mise à niveau ou immédiatement après la mise à niveau de leur instance de production.  Adobe contactera cette personne par email en l’absence d’autres arrangements. Cela assurera une transition fluide et une validation immédiate des tâches critiques. Adobe contactera le client ou la cliente une fois la mise à niveau de build terminée pour confirmation.
 
 ## Dois-je mettre à jour la console cliente ?
 
-Oui. La console cliente doit présenter le même build que l&#39;instance de serveur. Une fois l&#39;upgrade réalisé, votre console cliente doit vous inviter à effectuer un upgrade vers le build le plus récent afin de vous assurer qu&#39;elle reste alignée sur le build du serveur.
+Oui. La console cliente doit présenter le même build que l&#39;instance de serveur. Une fois la mise à niveau réalisée, votre console cliente doit vous inviter à effectuer une mise à niveau vers le build le plus récent afin de vous assurer qu’elle reste alignée sur le build du serveur.
 
 ## Quel est le plan de restauration ? Les sauvegardes de mes données sont-elles conservées ?
 
@@ -153,33 +158,33 @@ Le plan de restauration consiste à restaurer le système avec la sauvegarde la 
 
 Elle dépend de la taille de sauvegarde de la base de données. La durée moyenne est de 4 heures.
 
-## Quels types de tests sont réalisés sur mon système après l&#39;upgrade ?
+## Quels types de tests sont réalisés sur mon système après la mise à niveau ?
 
-Reportez-vous à la [liste de contrôle d’upgrade de build ci-dessous](#check-list).
+Reportez-vous à la [liste de contrôle de mise à niveau de build ci-dessous](#check-list).
 
-## Quel type de test dois-je effectuer après mon upgrade ?
+## Quel type de test dois-je effectuer après la mise à niveau ?
 
-Les environnements de développement et de test sont mis à niveau en séquence ou ensemble, mais une signature est nécessaire avant l&#39;upgrade de l&#39;instance de production. Chaque client peut ainsi réaliser des tests avant de valider tout changement pour son passage en production.
+Les environnements de développement et de test sont mis à niveau en séquence ou ensemble, mais une signature est nécessaire avant la mise à niveau de l’instance de production. Chaque client peut ainsi réaliser des tests avant de valider tout changement pour son passage en production.
 
-Reportez-vous à la [liste de contrôle d&#39;upgrade de build ci-dessous](#check-list). Les clients doivent exécuter des tests similaires ainsi que d&#39;autres qui peuvent être nécessaires pour l&#39;environnement.
+Reportez-vous à la [liste de contrôle de mise à niveau de build ci-dessous](#check-list). Les clients doivent exécuter des tests similaires ainsi que d&#39;autres qui peuvent être nécessaires pour l&#39;environnement.
 
-## À quelle fréquence dois-je réaliser un upgrade de build ?
+## À quelle fréquence dois-je réaliser une mise à niveau de build ?
 
-Pour assurer un niveau optimal de performances, de disponibilité et de sécurité du système, Adobe collaborera avec les clients en vue d&#39;assurer que les systèmes sont mis à niveau au moins une fois par an.
+Pour assurer un niveau optimal de performances, de disponibilité et de sécurité du système, Adobe collaborera avec les clients en vue d’assurer que les systèmes sont mis à niveau au moins une fois par an.
 
-## Y aura-t-il un temps d&#39;arrêt lors d&#39;un upgrade de build ?
+## Y aura-t-il un temps d’arrêt lors d’une mise à niveau de build ?
 
-Oui. Le serveur est arrêté au cours d&#39;un upgrade de façon à assurer l&#39;intégrité des données lors de cette opération. Une fois l&#39;upgrade terminé, le serveur est redémarré et tous les services reprennent.
+Oui. Le serveur est arrêté au cours d’une mise à niveau de façon à assurer l’intégrité des données lors de cette opération. Une fois lupgrade terminé, le serveur est redémarré et tous les services reprennent.
 
-## Qui dois-je contacter pour ouvrir le ticket d&#39;upgrade de build ?
+## Qui dois-je contacter pour ouvrir le ticket de mise à niveau de build ?
 
-Si vous rencontrez des problèmes après un upgrade de build, contactez l&#39;[assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Cette équipe planifie les dates de build et ouvre les tickets correspondants.
+Si vous rencontrez des problèmes après une mise à niveau de build, contactez l’[assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Cette équipe planifie les dates de build et ouvre les tickets correspondants.
 
 En savoir plus dans [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
 
-## Liste de contrôle d&#39;upgrade de build {#check-list}
+## Liste de contrôle des mises à niveau de build {#check-list}
 
-### Liste de contrôle du serveur Cloud Messaging après upgrade
+### Liste de contrôle du serveur Cloud Messaging après mise à niveau
 
 1. Envoyer une diffusion test
    1. Valider les logs de diffusion et le workflow associé
@@ -188,10 +193,10 @@ En savoir plus dans [Options d&#39;aide et de support pour Campaign Classic](..
 1. Confirmer que tous les workflows techniques sont à l&#39;état démarré
 1. Vérifier que tous les processus sont également actifs
 
-### Liste de contrôle du serveur marketing après upgrade
+### Liste de contrôle du serveur marketing après mise à niveau
 
 * Est-il possible de se connecter au serveur ? Vérifier que la console cliente Campaign fonctionne sans erreur/message d&#39;avertissement.
-* Veiller à utiliser la même version de console que la version de build après l&#39;upgrade.
+* Veiller à utiliser la même version de console que la version de build après la mise à niveau.
 * Des applications web insèrent-elles des données dans la base de données Campaign ? Si tel est le cas, les exécuter et vérifier qu&#39;elles peuvent insérer de nouveaux enregistrements via l&#39;API.
 * Est-il possible d&#39;envoyer un email de test ? Créer une diffusion à l&#39;aide d&#39;un modèle connu, l&#39;envoyer à un destinataire de test et vérifier que la personnalisation, le lien de désabonnement et la page miroir fonctionnent.
 * Tous vos workflows de chemin critique sont-ils exécutés ? Vérifier les workflows, ouvrir un journal de workflow et vérifier qu&#39;il n&#39;y a pas d&#39;erreur.
@@ -210,7 +215,7 @@ du contenu est présent et s&#39;affiche.
 
 **Voir aussi**
 
-* [Réalisation d&#39;un upgrade de build](../../production/using/build-upgrade.md)
+* [Réalisation d’une mise à niveau de build](../../production/using/build-upgrade.md)
 * [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
 * [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
 * [Programme de mise à niveau annuelle](../../rn/using/rn-overview.md#yearly-upgrade)

@@ -6,10 +6,10 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 17ac1e0d68d2945b01aecc7c45fc5be7e6bd38af
 workflow-type: tm+mt
-source-wordcount: '6197'
-ht-degree: 100%
+source-wordcount: '6204'
+ht-degree: 99%
 
 ---
 
@@ -511,7 +511,7 @@ En savoir plus sur les [Listes](../../platform/using/creating-and-managing-lists
 
 Le cache local est l’information stockée localement sur l’ordinateur de l’opérateur ou de l’opératrice. Les informations mises en cache sont utilisées par la console pour réduire le trafic requis vers le serveur et améliorer les performances. L’effacement périodique du cache local (dans le menu Fichier) met à jour les informations stockées et améliore les performances et la stabilité.
 
-En savoir plus sur le [Cache local](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
+En savoir plus sur le [Cache local](../../platform/using/faq-campaign-classic-v7.md#how-do-i-clear-console-cache).
 +++
 
 ## M - P {#sec-4}
@@ -1008,7 +1008,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 Le workflow technique de tracking récupère les données de tracking une fois que la diffusion a été envoyée et que le tracking a été activé. Ces données figurent dans l’onglet Tracking de votre diffusion. Vous trouverez des informations sur les ouvertures et les clics sur un e-mail ou d’autres interactions avec un message reçu par le destinataire.
 
-En savoir plus sur les [logs de tracking](../../delivery/using/accessing-the-tracking-logs.md).
+En savoir plus sur [les logs de tracking dans le tracking spécifique à Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"} ou [v7](../../delivery/using/about-message-tracking.md).
 +++
 
 +++**Messages transactionnels**

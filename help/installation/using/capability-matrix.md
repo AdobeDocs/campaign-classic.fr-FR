@@ -4,7 +4,7 @@ title: Matrice des fonctionnalités Campaign On-premise, hybride et hébergé
 description: Découvrez les principales différences entre les déploiements hébergés et On-premise
 feature: Installation, Architecture
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 8b38d825aa9b0595226a444e0e463362468d51b3
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Les différents modèles d&#39;hébergement sont présentés [dans cette section
 | Compression/décompression de fichiers | À la demande | Disponible | Disponible | [En savoir plus](../../platform/using/unzip-decrypt.md) |
 | Délégation du nom de domaine | À la demande | À la demande | Non disponible | [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) |
 | Installation de SpamAssassin | À la demande | Disponible | Disponible | [En savoir plus](../../delivery/using/spamassassin.md) |
-| Accès aux rapports de délivrabilité | Disponible | À la demande | Disponible | [En savoir plus](../../delivery/using/monitoring-deliverability.md) |
+| Accès aux rapports de délivrabilité | Disponible | À la demande | Disponible | [En savoir plus](../../delivery/using/about-delivery-monitoring.md#deliverability-monitoring) |
 | Configuration de l&#39;identification LDAP | Non disponible | Disponible | Disponible | [En savoir plus](../../installation/using/connecting-through-ldap.md) |
 
 

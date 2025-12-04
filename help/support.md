@@ -6,10 +6,10 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '656'
-ht-degree: 100%
+source-git-commit: 85bafbac26b5f127499f35f373e96ecfd12b1db8
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 98%
 
 ---
 
@@ -31,23 +31,17 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
 
 <img src="platform/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### Forum aux questions
-
-Comment effectuer une mise à niveau vers un nouveau build ? Comment surveiller l’exécution des workflows ? Qu’est-ce que le workflow de nettoyage de la base de données ? [Découvrez les 10 questions les plus courantes](platform/using/common-questions.md).
+### Questions fréquentes
 
 <table>
     <tr><td><strong>Questions et réponses par rubrique</strong></td><td><strong>Problèmes courants</strong></td><td><strong>Bonnes pratiques</strong></td><td><strong>Procédure</strong></td></tr>
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="platform/using/faq-key-concepts.md">Principaux concepts</a></li>
-        <li><a href="platform/using/faq-campaign-config.md">Paramètres de Campaign</a></li>
-        <li><a href="platform/using/faq-reporting.md">Reporting</a></li>
+        <li><a href="platform/using/faq-campaign-classic-v7.md">FAQ sur Campaign Classic v7</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">Mise à niveau de build</a></li>
-        <li><a href="platform/using/faq-messages.md">Test, envoi et tracking des messages</a></li>
-        <li><a href="platform/using/faq-workflows.md">Workflows</a></li>
-        <li><a href="platform/using/faq-developers.md">Développeurs</a></li>
-        <li><a href="delivery/using/monitoring-deliverability.md">Délivrabilité</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html" target="_blank">FAQ complète sur Campaign v8</a></li>
+        <li><a href="delivery/using/about-delivery-monitoring.md">Suivre des diffusions</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -75,7 +69,7 @@ Comment effectuer une mise à niveau vers un nouveau build ? Comment surveiller
     <td valign="top">
         <ul>
         <li><a href="production/using/build-upgrade.md">Mise à niveau vers le build le plus récent</a></li>
-        <li><a href="platform/using/faq-build-upgrade.md">FAQ sur la mise à niveau des builds</a></li>
+        <li><a href="platform/using/faq-build-upgrade.md">FAQ sur la mise à niveau de build</a></li>
         <li><a href="delivery/using/about-delivery-monitoring.md">Surveillance d’une diffusion</a></li>
         <li><a href="delivery/using/understanding-quarantine-management.md">Présentation de la gestion des quarantaines</a></li>
         <li><a href="installation/using/get-started-security-privacy.md">Liste de contrôle relative à la sécurité et à la confidentialité</a></li>
