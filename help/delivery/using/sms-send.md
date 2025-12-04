@@ -5,10 +5,10 @@ description: Découvrez comment envoyer, surveiller et suivre des SMS dans Campa
 feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '895'
-ht-degree: 100%
+source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+workflow-type: tm+mt
+source-wordcount: '896'
+ht-degree: 99%
 
 ---
 
@@ -165,6 +165,6 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 
 >[!IMPORTANT]
 >
->Il n’existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le tableau de bord des diffusions. [En savoir plus](delivery-dashboard.md).
+>Il n’existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le tableau de bord des diffusions. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 >
 >Ces messages ne sont pas pris en compte dans les règles de pression commerciale. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.

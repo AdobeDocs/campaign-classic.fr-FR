@@ -5,10 +5,10 @@ description: Découvrez la portée et les spécificités de lʼenvoi dʼe-mails 
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 99%
+source-wordcount: '1408'
+ht-degree: 93%
 
 ---
 
@@ -140,9 +140,9 @@ Pour en savoir plus sur la signature DKIM, consultez le [Guide des bonnes pratiq
 
 ### Rapports de réussite de diffusion
 
-Dans la vue **[!UICONTROL Résumé]** du [tableau de bord](delivery-dashboard.md) d’une diffusion par e-mail, le pourcentage **[!UICONTROL Succès]** débute à 100 %, puis diminue progressivement tout au long de la [période de validité](communication-channels.md) de la diffusion, à mesure que les rebonds temporaires et définitifs font l’objet de rapports du MTA amélioré vers Campaign.
+Dans la vue **[!UICONTROL Résumé]** d’une diffusion par e-mail [tableau de bord](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, le pourcentage **[!UICONTROL Succès]** commence à 100 %, puis diminue progressivement tout au long de la diffusion [période de validité](communication-channels.md), à mesure que les soft et hard bounces sont signalés depuis le MTA amélioré vers Campaign.
 
-En effet, tous les messages s&#39;affichent comme **[!UICONTROL Envoyés]** dans les [logs d&#39;envoi](delivery-dashboard.md#delivery-logs-and-history) dès qu&#39;ils sont correctement relayés de Campaign vers le MTA amélioré. Ils restent dans cet état à moins ou jusqu’à ce qu’un [rebond &#x200B;](understanding-delivery-failures.md#delivery-failure-types-and-reasons) pour ce message soit communiqué de nouveau de la MTA améliorée à Campaign.
+En effet, tous les messages s&#39;affichent sous la forme **[!UICONTROL Envoyés]** dans les [logs d&#39;envoi](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} dès qu&#39;ils sont relayés avec succès de Campaign vers le MTA amélioré. Ils conservent ce statut jusqu’à ce qu’un [bounce](understanding-delivery-failures.md#delivery-failure-types-and-reasons) de ce message soit renvoyé du MTA amélioré à Campaign.
 
 Lorsque les messages hard bounce sont renvoyés du MTA amélioré, leur état passe de **[!UICONTROL Envoyés]** à **[!UICONTROL En échec]** et le pourcentage **[!UICONTROL Succès]** diminue en conséquence.
 

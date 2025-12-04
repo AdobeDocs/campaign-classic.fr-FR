@@ -6,9 +6,9 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
+source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
 workflow-type: tm+mt
-source-wordcount: '6201'
+source-wordcount: '6202'
 ht-degree: 99%
 
 ---
@@ -221,7 +221,7 @@ En savoir plus sur l’analyse de diffusion dans la [documentation de Campaign 
 
 Les logs de diffusion contiennent les informations générées lors de l’envoi d’un message. Ces logs indiquent le détail de l’envoi, le message préparé, ignoré, envoyé ou en échec. Ils peuvent être testés directement depuis le tableau de bord de la diffusion.
 
-En savoir plus sur les [logs de diffusion](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
+En savoir plus sur les [logs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
 +++
 
 <!--

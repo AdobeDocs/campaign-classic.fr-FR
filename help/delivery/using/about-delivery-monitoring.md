@@ -5,9 +5,9 @@ description: Découvrez les fonctionnalités de surveillance des diffusions dans
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
+source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '835'
 ht-degree: 64%
 
 ---
@@ -75,10 +75,10 @@ Dans Adobe Campaign Classic, la **supervision de la délivrabilité** est gér
 * Vérifiez régulièrement le [débit des diffusions](../../reporting/using/global-reports.md#delivery-throughput) pour l’ensemble de la plateforme afin de contrôler qu’il correspond à la configuration d’origine.
 * Vérifiez que les [reprises](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) sont paramétrées correctement (30 minutes pour la période des reprises et plus de 20 reprises) dans les modèles de diffusion.
 * Vérifiez régulièrement que la boîte des [emails rebonds](understanding-delivery-failures.md#bounce-mail-management) est accessible et que le compte n’arrive pas à expiration.
-* Vérifiez chaque débit de diffusion, accessible à partir du [tableau de bord de diffusion](delivery-dashboard.md), pour vous assurer qu’il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).
+* Vérifiez chaque débit de diffusion, accessible à partir du [tableau de bord de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, pour vous assurer qu’il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).
 * Lors de l’utilisation des vagues, vérifiez que chaque vague a le temps de se terminer avant le déclenchement de la suivante.
 * Vérifiez que le nombre d’erreurs et les nouvelles [mises en quarantaine](understanding-quarantine-management.md) correspondent aux autres diffusions.
-* Consultez attentivement les [logs de diffusion](delivery-dashboard.md#delivery-logs-and-history) pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc.).
+* Consultez attentivement les [logs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc.).
 
 ### Résolution des problèmes {#delivery-troubleshooting}
 

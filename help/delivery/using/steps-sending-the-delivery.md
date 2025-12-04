@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '1615'
-ht-degree: 100%
+source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+workflow-type: tm+mt
+source-wordcount: '1616'
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ Vous pouvez reporter l’envoi du message en planifiant la diffusion.
 
 1. Cliquez sur le bouton **[!UICONTROL Envoyer]** et sélectionnez l’option **[!UICONTROL Différer la diffusion]**.
 
-1. Indiquez une date de démarrage dans le champ **[!UICONTROL Date de contact]**.
+1. Indiquez une date de début dans le champ **[!UICONTROL Date de contact]**.
 
 ![](assets/dlv_email_del_plan.png)
 
@@ -78,7 +78,7 @@ Vous pouvez reporter l’envoi du message en planifiant la diffusion.
 
 >[!IMPORTANT]
 >
->Une fois l’analyse lancée, la date de contact que vous avez définie est fixe. Si vous modifiez cette date, vous devrez relancer l’analyse afin que vos modifications soient prises en compte.
+>Une fois l’analyse lancée, la date de contact que vous avez définie est fixe. Si vous modifiez cette date, vous devrez redémarrer l’analyse afin que vos modifications soient prises en compte.
 
 ![](assets/s_ncs_user_email_del_start_delayed.png)
 
@@ -143,7 +143,7 @@ Pour équilibrer la charge, vous pouvez répartir les envois en plusieurs lots. 
    >
    >Lors de la configuration des dernières vagues, veillez également à prévoir assez de temps pour les reprises. Consultez [cette section](steps-sending-the-delivery.md#configuring-retries).
 
-1. Pour suivre vos envois, accédez aux logs de diffusion. Voir [cette page](delivery-dashboard.md#delivery-logs-and-history).
+1. Pour suivre vos envois, accédez aux logs de diffusion. Voir [cette page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
 
    Vous pouvez visualiser les diffusions qui ont déjà été envoyées dans les vagues traitées (statut **[!UICONTROL Envoyé]**) et celles à envoyer dans les vagues restantes (statut **[!UICONTROL En attente]**).
 
@@ -189,7 +189,7 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
 ![](assets/s_ncs_user_email_del_valid_period.png)
 
-* Le champ **[!UICONTROL Durée de diffusion]** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n’est pas atteinte.
+* Le champ **[!UICONTROL Durée de diffusion]** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de début. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n’est pas atteinte.
 
   Vous pouvez également choisir de spécifier des dates. Pour ce faire, sélectionnez **[!UICONTROL Fixer explicitement les dates de validité]**. Dans ce cas, les dates limites de diffusion et de validité permettent également de définir l’heure. L’heure actuelle est utilisée par défaut, mais vous pouvez la modifier directement dans le champ de saisie.
 
